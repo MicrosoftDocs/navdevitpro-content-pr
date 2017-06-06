@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod: "dynamics-365-for-financials"
 ---
 # ISSESSIONACTIVE Method (Session)
-Tests if the specified SessionID is active on the [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instance where it was started.  
+Tests if the specified SessionID is active on the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance where it was started.  
 
 ## Syntax  
 
@@ -26,7 +26,7 @@ Ok := ISSESSIONACTIVE(SessionID)
 ## Property Value/Return Value  
 Type: Boolean  
 
-**true** if a session with a specified ID is active on the [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instance; otherwise, **false**.  
+**true** if a session with a specified ID is active on the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance; otherwise, **false**.  
 
 ## Remarks
 Use this method to test if a session has completed or is still active, for example if you want to check that a session started with STARTSESSION is still running.  

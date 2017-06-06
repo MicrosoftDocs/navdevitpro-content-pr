@@ -12,7 +12,7 @@ caps.latest.revision: 29
 manager: edupont
 ---
 # DOWNLOADFROMSTREAM Method (File)
-Sends a file from [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] computer to the client computer. The client computer that is running the browser that accesses the [!INCLUDE[d365fin_long](../includes/d365fin_long_md.md)].  
+Sends a file from [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] computer to the client computer. The client computer that is running the browser that accesses the [!INCLUDE[d365fin_long](../includes/d365fin_long_md.md)].  
 
 ## Syntax  
 
@@ -25,7 +25,7 @@ Sends a file from [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] c
  *VarInStream*  
  Type: Variant  
 
- An InStream that you want to use to send the data in a file on [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] to a file on the client computer.  
+ An InStream that you want to use to send the data in a file on [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] to a file on the client computer.  
 
  *DialogTitle*  
  Type: Text  
@@ -71,11 +71,11 @@ Sends a file from [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] c
 > [!NOTE]  
 >  This method is not fully supported on devices that run Apple iOS, such as iPad. You can only download a file if the Apple iOS device on which you are downloading the file has an application that supports the file type.  
 
- The business logic runs on the computer that is running [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] and not on the client. Files are created on a [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] service and not locally on the client computer. When you write code, you must consider where files are created.  
+ The business logic runs on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] and not on the client. Files are created on a [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] service and not locally on the client computer. When you write code, you must consider where files are created.  
 
- Use [UPLOAD Method \(File\)](devenv-UPLOAD-Method-File.md) and [UPLOADINTOSTREAM Method \(File\)](devenv-UPLOADINTOSTREAM-Method-File.md) to send a file from a client to a [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instance.  
+ Use [UPLOAD Method \(File\)](devenv-UPLOAD-Method-File.md) and [UPLOADINTOSTREAM Method \(File\)](devenv-UPLOADINTOSTREAM-Method-File.md) to send a file from a client to a [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance.  
 
- Use [DOWNLOAD Method \(File\)](devenv-DOWNLOAD-Method-File.md) and [DOWNLOADFROMSTREAM Method \(FILE\)](devenv-DOWNLOADFROMSTREAM-Method-File.md) to send a file from a [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instance to a client.  
+ Use [DOWNLOAD Method \(File\)](devenv-DOWNLOAD-Method-File.md) and [DOWNLOADFROMSTREAM Method \(FILE\)](devenv-DOWNLOADFROMSTREAM-Method-File.md) to send a file from a [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance to a client.  
 
  We recommend that you use the methods in codeunit 419, File Management, to upload and download files.  
 

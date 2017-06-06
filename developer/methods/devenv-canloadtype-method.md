@@ -13,7 +13,7 @@ caps.latest.revision: 2
 # CANLOADTYPE Method
 Tests if the specified .NET Framework type can be loaded by [!INCLUDE[d365fin_md](../includes/d365fin_md.md)].  
 
- You can use the CANLOADTYPE method to test the availability of assemblies that are expected to be present on the client computer or on the [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)].  
+ You can use the CANLOADTYPE method to test the availability of assemblies that are expected to be present on the client computer or on the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)].  
 
 ## Syntax  
 

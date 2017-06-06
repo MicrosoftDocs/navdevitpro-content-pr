@@ -12,7 +12,7 @@ caps.latest.revision: 28
 manager: edupont
 ---
 # DOWNLOAD Method (File)
-Sends a file from a [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] computer to the client computer.  The client computer is the computer that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or the computer that is running a browser that accesses the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)].  
+Sends a file from a [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] computer to the client computer.  The client computer is the computer that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or the computer that is running a browser that accesses the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)].  
   
 ## Syntax  
   
@@ -25,7 +25,7 @@ Sends a file from a [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)]
  *FromFile*  
  Type: Text  
   
- The name of the file on the [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] computer that you want to download to the client computer.  
+ The name of the file on the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] computer that you want to download to the client computer.  
   
  *DialogTitle*  
  Type: Text  
@@ -68,11 +68,11 @@ Sends a file from a [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)]
 > [!NOTE]  
 >  This method is not fully supported by the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] on devices that run Apple iOS, such as iPad. You can only download a file if the Apple iOS device on which you are downloading the file has an application that supports the file type.  
   
- In [!INCLUDE[d365fin_md](../includes/d365fin_md.md)], the business logic is run on the computer that is running [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] and not on the client. Files are created on the computer that is running [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] and not locally on the client computer.  
+ In [!INCLUDE[d365fin_md](../includes/d365fin_md.md)], the business logic is run on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] and not on the client. Files are created on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] and not locally on the client computer.  
   
- [UPLOAD Method \(File\)](devenv-UPLOAD-Method-File.md) and [UPLOADINTOSTREAM Method \(File\)](devenv-UPLOADINTOSTREAM-Method-File.md) are used to send a file from the client to a [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instance.  
+ [UPLOAD Method \(File\)](devenv-UPLOAD-Method-File.md) and [UPLOADINTOSTREAM Method \(File\)](devenv-UPLOADINTOSTREAM-Method-File.md) are used to send a file from the client to a [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance.  
   
- [DOWNLOAD Method \(FILE\)](devenv-DOWNLOAD-Method-File.md) and [DOWNLOADFROMSTREAM Method \(File\)](devenv-DOWNLOADFROMSTREAM-Method-File.md) are used to send a file from a [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instance to the client.  
+ [DOWNLOAD Method \(FILE\)](devenv-DOWNLOAD-Method-File.md) and [DOWNLOADFROMSTREAM Method \(File\)](devenv-DOWNLOADFROMSTREAM-Method-File.md) are used to send a file from a [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance to the client.  
   
  We recommend that you use the methods in codeunit 419, File Management, to upload and download files.  
   

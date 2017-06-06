@@ -12,7 +12,7 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # DEFAULTCLIENTTYPE Method
-Gets the default client that is configured for the [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instance that is used by the current session.  
+Gets the default client that is configured for the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance that is used by the current session.  
 
 ## Syntax  
 
@@ -34,12 +34,12 @@ Gets the default client that is configured for the [!INCLUDE[d365fin_server](../
 |Phone|[!INCLUDE[nav_phone](../includes/nav_phone_md.md)] **Note:**  If you are running phone.aspx in a browser, the ClientType will return Web.|  
 
 ## Remarks  
- The default client is specified by the *DefaultClient* setting in the CustomSettings.config file for the [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instance. You can view and change the setting by opening the CustomSettings.config file directly or using the [!INCLUDE[nav_admin](../includes/nav_admin_md.md)]. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
+ The default client is specified by the *DefaultClient* setting in the CustomSettings.config file for the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance. You can view and change the setting by opening the CustomSettings.config file directly or using the [!INCLUDE[nav_admin](../includes/nav_admin_md.md)]. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
 
  You can use DEFAULTCLIENTTYPE in a [GETURL Method](devenv-GETURL-Method.md) call to get the URL of the default client.  
 
 ## Example  
- In the following example, DEFAULTCLIENTTYPE is used to return the default client type that is configured for the [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instance that is used by the current session.  
+ In the following example, DEFAULTCLIENTTYPE is used to return the default client type that is configured for the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance that is used by the current session.  
 
 ```  
 IF DEFAULTCLIENTTYPE = CLIENTTYPE::Windows THEN  
@@ -47,7 +47,7 @@ IF DEFAULTCLIENTTYPE = CLIENTTYPE::Windows THEN
 ```  
 
 ## Example  
- In the following example, DEFAULTCLIENTTYPE is used as a parameter in the GETURL method to return the URL of the default client that is configured for the [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instance.  
+ In the following example, DEFAULTCLIENTTYPE is used as a parameter in the GETURL method to return the URL of the default client that is configured for the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance.  
 
 ```  
 url := GETURL(DEFAULTCLIENTTYPE);  

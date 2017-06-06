@@ -53,7 +53,7 @@ Stops a [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] session.
  If you omit this optional return value and the session is not stopped successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## Remarks  
- The session that you want to stop and the session that calls STOPSESSION must be running on the same instance of [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)]. The session is stopped before the next AL statement executes. Open transactions are rolled back.  
+ The session that you want to stop and the session that calls STOPSESSION must be running on the same instance of [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)]. The session is stopped before the next AL statement executes. Open transactions are rolled back.  
   
 > [!NOTE]  
 >  If the current executing statement is the **SLEEP** method, then the session is stopped immediately.  

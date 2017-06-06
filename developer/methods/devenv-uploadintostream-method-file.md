@@ -12,7 +12,7 @@ caps.latest.revision: 24
 manager: edupont
 ---
 # UPLOADINTOSTREAM Method (File)
-Sends a file from the client computer to the corresponding [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)]. The client computer is the computer that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or the computer that is running a browser that accesses the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)].  
+Sends a file from the client computer to the corresponding [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)]. The client computer is the computer that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or the computer that is running a browser that accesses the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)].  
   
 ## Syntax  
   
@@ -41,7 +41,7 @@ Sends a file from the client computer to the corresponding [!INCLUDE[d365fin_ser
  *FromFilter*  
  Type: Text  
   
- The type of file that can be uploaded to [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)].  
+ The type of file that can be uploaded to [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)].  
   
  In the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)], the type is displayed in the upload dialog box, so the user can only select files of the specified type. For the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)], a user can try to upload any file type but an error occurs if the file is not the specified type.  
   
@@ -72,11 +72,11 @@ Sends a file from the client computer to the corresponding [!INCLUDE[d365fin_ser
   
  The maximum size of the file to be uploaded is specified by the MaxUploadSize setting in the CustomSettings.config file. The setting is specified in megabytes. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
   
- In [!INCLUDE[d365fin_md](../includes/d365fin_md.md)], the business logic runs on the computer that is running [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] and not on the client. Files are created on [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] and not locally on the client computer.  
+ In [!INCLUDE[d365fin_md](../includes/d365fin_md.md)], the business logic runs on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] and not on the client. Files are created on [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] and not locally on the client computer.  
   
- Use [UPLOAD Method \(File\)](devenv-UPLOAD-Method-File.md) and [UPLOADINTOSTREAM Method \(FILE\)](devenv-UPLOADINTOSTREAM-Method-File.md) to send a file from the client to [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)].  
+ Use [UPLOAD Method \(File\)](devenv-UPLOAD-Method-File.md) and [UPLOADINTOSTREAM Method \(FILE\)](devenv-UPLOADINTOSTREAM-Method-File.md) to send a file from the client to [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)].  
   
- Use [DOWNLOAD Method \(File\)](devenv-DOWNLOAD-Method-File.md) and [DOWNLOADFROMSTREAM Method \(File\)](devenv-DOWNLOADFROMSTREAM-Method-File.md) to send a file from [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] to the client.  
+ Use [DOWNLOAD Method \(File\)](devenv-DOWNLOAD-Method-File.md) and [DOWNLOADFROMSTREAM Method \(File\)](devenv-DOWNLOADFROMSTREAM-Method-File.md) to send a file from [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] to the client.  
   
  We recommend that you use the methods in codeunit 419, File Management, to upload and download files.  
   
