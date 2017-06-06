@@ -14,7 +14,7 @@ manager: edupont
 # Automation Data Type
 Use the Automation data type to reference an automation server.  
   
-### To use an automation server in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]  
+### To use an automation server in Dynamics 365 for Financials
   
 1.  Define a variable of type Automation and give it a name.  
   
@@ -44,12 +44,16 @@ Description: Old Format or Invalid Type Library
 ```  
   
  For more information, see Microsoft Help and Support article [320369: BUG: "Old format or invalid type library" error when automating Excel](http://go.microsoft.com/fwlink/?linkid=3052&kbid=320369).  
-  
+
+<!--
+
 ## Limitations  
   
 -   Automation is not supported by [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 -   Automation objects cannot run on [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+
+-->
   
 ## See Also  
  [CREATE method \(Automation\)](CREATE-method--Automation-.md)   

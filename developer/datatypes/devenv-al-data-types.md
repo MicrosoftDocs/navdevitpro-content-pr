@@ -118,7 +118,7 @@ C := 65;
  The Char data type stores a single character. This data type can be converted between a number and a character. This means that you can use the same mathematical operators as you can with a variable of a numeric data type.  
 
 #### Decimal data type  
- In the [!INCLUDE[d365_dev_short](includes/d365_dev_short_md.md)], the Decimal data type represents decimal numbers ranging from -10+E63 to +10+E63. The exponent ranges from -63 to +63. Decimal numbers are held in memory with 18 significant digits. Although you can store decimal numbers ranging from -10+E63 to +10+E63, you cannot specify a number outside the range +/- 999,999,999,999,999.99 in the UI or in code.  
+ In the [!INCLUDE[d365_dev_short](../includes/d365_dev_short_md.md)], the Decimal data type represents decimal numbers ranging from -10+E63 to +10+E63. The exponent ranges from -63 to +63. Decimal numbers are held in memory with 18 significant digits. Although you can store decimal numbers ranging from -10+E63 to +10+E63, you cannot specify a number outside the range +/- 999,999,999,999,999.99 in the UI or in code.  
 
  In SQL Server, you can store a decimal number with up to 18 digits and 20 decimal place digits. However, if a number is more than 15 digits, then you cannot enter it in SQL Server or view it in the UI.  
 
@@ -216,7 +216,7 @@ MAXSTRLEN(t); // Returns 6.
  All dates have a corresponding closing date. The closing date for a given date is regarded as a period following the given date but before the next regular date. A closing date is therefore sorted immediately after the corresponding regular date but before the next regular date.  
 
 #### DateTime data type  
- The DateTime data type represents a date and the time of day. The DateTime is stored in the database as Coordinated Universal Time (UTC). UTC is the international time standard (formerly Greenwich Mean Time, or GMT). Zero hours UTC is midnight at 0 degrees longitude. The DateTime is always displayed as local time in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Local time is determined by the time zone regional settings that are used by your computer. You must always enter DateTimes as local time. When you enter a DateTime as local time, it is converted to UTC using the current settings for the time zone and daylight saving time.  
+ The DateTime data type represents a date and the time of day. The DateTime is stored in the database as Coordinated Universal Time (UTC). UTC is the international time standard (formerly Greenwich Mean Time, or GMT). Zero hours UTC is midnight at 0 degrees longitude. The DateTime is always displayed as local time in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. Local time is determined by the time zone regional settings that are used by your computer. You must always enter DateTimes as local time. When you enter a DateTime as local time, it is converted to UTC using the current settings for the time zone and daylight saving time.  
 
  There is only one constant available when you use this data type: undefined datetime, which is expressed as 0DT.  
 
@@ -226,7 +226,7 @@ MAXSTRLEN(t); // Returns 6.
 
  Any DateTimes that are not within this range and that you try to enter or construct by, for example, adding a DateTime to a Duration, are regarded as undefined DateTimes and give an error message.  
 
- Undefined dates in [!INCLUDE[d365fin_md](includes/d365fin_md.md)] are stored as January 1, 1753, 00:00:00.000, which is the earliest permitted DateTime in SQL Server.  
+ Undefined dates in [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] are stored as January 1, 1753, 00:00:00.000, which is the earliest permitted DateTime in SQL Server.  
 
 #### Time data type  
  The Time data type represents a time ranging from 00:00:00 to 23:59:59.999. An undefined time is expressed as 0T.  

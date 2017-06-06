@@ -15,7 +15,7 @@ manager: edupont
 References a custom control, such as OCX or ActiveX control.  
   
 ## Remarks  
-  
+<!--  
 > [!IMPORTANT]  
 >  OCX data types are not supported by [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
@@ -23,4 +23,4 @@ References a custom control, such as OCX or ActiveX control.
   
  When you have defined a control as a variable, you can use the control through the variable, and you can browse its methods and properties in the Symbol Menu.  
   
- When you are using a control, there is no one-to-one relationship between AL data types and COM data types. For an overview of the data type mapping, see [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md).
+ When you are using a control, there is no one-to-one relationship between AL data types and COM data types. For an overview of the data type mapping, see [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md).-->
