@@ -64,6 +64,6 @@ END;
 ```
 
 ## See Also
-[SCOPE Method(Notification)](method-notificationscope.md)  
-[SEND Method (Notification)](method-notificationsend.md)  
+[SCOPE Method(Notification)](devenv-scope-method-notification.md)  
+[SEND Method (Notification)](devenv-send-method-notification.md)  
 [Notifications](notifications-developing.md)

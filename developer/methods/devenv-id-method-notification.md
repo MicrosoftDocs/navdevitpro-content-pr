@@ -20,7 +20,7 @@ Specifies the identifier for a notification.
 The unique identifier for the notification.
 
 ## Remarks
-If left unassigned the notification will be assigned an ID when the SEND method is called. For more information, see [SEND Method (Notification)](method-notificationsend.md).
+If left unassigned the notification will be assigned an ID when the SEND method is called. For more information, see [SEND Method (Notification)](devenv-send-method-notification.md).
 
 ##  Example
 The following code creates a notification and sends it if NewBalance is greater than the credit limit. If it is lower than the credit limit, it recalls the notification.
@@ -40,8 +40,8 @@ END ELSE
 ```
 
 ## See Also  
-[SEND Method (Notification)](method-notificationsend.md)  
-[RECALL Method (Notification)](method-notificationrecall.md)  
-[MESSAGE Method (Notification)](method-notificationmessage.md)  
-[SCOPE Method (Notification)](method-notificationscope.md)  
+[SEND Method (Notification)](devenv-send-method-notification.md)  
+[RECALL Method (Notification)](devenv-recall-method-notification.md)  
+[MESSAGE Method (Notification)](devenv-message-method-notification.md)  
+[SCOPE Method (Notification)](devenv-scope-method-notification.md)  
 [Notifications](notifications-developing.md)

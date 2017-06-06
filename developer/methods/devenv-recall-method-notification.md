@@ -38,8 +38,8 @@ END ELSE
 ```
 
 ## See Also  
-[ID Method (Notification)](method-notificationid.md)  
-[SEND Method (Notification)](method-notificationsend.md)  
-[MESSAGE Method (Notification)](method-notificationmessage.md)  
-[SCOPE Method (Notification)](method-notificationscope.md)  
+[ID Method (Notification)](devenv-id-method-notification.md)  
+[SEND Method (Notification)](devenv-send-method-notification.md)  
+[MESSAGE Method (Notification)](devenv-message-method-notification.md)  
+[SCOPE Method (Notification)](devenv-scope-method-notification.md)  
 [Notifications](notifications-developing.md)
