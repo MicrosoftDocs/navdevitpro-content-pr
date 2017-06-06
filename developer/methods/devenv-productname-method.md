@@ -14,17 +14,17 @@ An application can have a full name, marketing name, and short name. The PRODUCT
 ```
 String := PRODUCTNAME.FULL
 ```
-*FULL* returns a text string that contains the application's full name, such as "Microsoft Dynamics NAV".
+*FULL* returns a text string that contains the application's full name, such as "[!INCLUDE[d365fin_long_md](../includes/d365fin_md.md)]".
 
 ```
 String := PRODUCTNAME.MARKETING
 ```
-*MARKETING* returns a text string that contains the application's marketing name, such as "Microsoft Dynamics NAV 2017".
+*MARKETING* returns a text string that contains the application's marketing name, such as "[!INCLUDE[d365fin_long_md](../includes/d365fin_md.md)]".
 
 ```
 String := PRODUCTNAME.SHORT
 ```
-*SHORT* returns a text string that contains the application's short name, such as "Dynamics NAV".
+*SHORT* returns a text string that contains the application's short name, such as "[!INCLUDE[d365fin_md](../includes/d365fin_md.md)]".
 
 ## Return Value
 *String*

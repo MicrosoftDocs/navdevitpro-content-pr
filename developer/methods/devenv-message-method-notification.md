@@ -31,7 +31,7 @@ Type: Code or text
 The content of the current notification.
 
 ## Remarks
-The MESSAGE method defines the notification. You use the [SEND Method](devenv-method-notificationsend.md) to send the notification to the client, where it will be displayed.
+The MESSAGE method defines the notification. You use the [SEND Method](devenv-devenv-send-method-notification.md) to send the notification to the client, where it will be displayed.
 
 For more information and a detailed example, see [Notifications](notifications-developing.md).
 
@@ -44,6 +44,6 @@ MyNotification.SEND;
 ```
 
 ## See Also  
-[SCOPE Method(Notification)](method-notificationscope.md)  
-[SEND Method (Notification)](method-notificationsend.md)  
+[SCOPE Method(Notification)](devenv-scope-method-notification.md)  
+[SEND Method (Notification)](devenv-send-method-notification.md)  
 [Notifications](notifications-developing.md)

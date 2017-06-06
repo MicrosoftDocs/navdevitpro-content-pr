@@ -62,8 +62,8 @@ MyNotification.GETDATA('ID');
 ```
 
 ## See Also  
-[MESSAGE Method(Notification)](method-notificationmessage.md)  
-[SCOPE Method(Notification)](method-notificationscope.md)  
-[SEND Method (Notification)](method-notificationsend.md)  
-[ADDACTION Method(Notification)](method-notificationaddaction.md)  
+[MESSAGE Method(Notification)](devenv-message-method-notification.md)  
+[SCOPE Method(Notification)](devenv-scope-method-notification.md)  
+[SEND Method (Notification)](devenv-send-method-notification.md)  
+[ADDACTION Method(Notification)](devenv-addaction-method-notification.md)  
 [Notifications](notifications-developing.md)

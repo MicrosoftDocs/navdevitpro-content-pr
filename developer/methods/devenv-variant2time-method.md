@@ -13,39 +13,39 @@ manager: edupont
 ---
 # VARIANT2TIME Method
 Gets a time from a variant.  
-  
+
 ## Syntax  
-  
+
 ```  
-  
+
 Time := VARIANT2TIME(Variant)  
 ```  
-  
+
 #### Parameters  
  *Variant*  
  Type: Variant  
-  
+
  The input variant.  
-  
+
 ## Property Value/Return Value  
  Type: Time  
-  
+
  The resulting time.  
-  
+
 ## Example  
  This example requires that you create the following variables.  
-  
+
 |Name|DataType|  
 |----------|--------------|  
 |TestTime|Time|  
 |variant1|Variant|  
-  
+
 ```  
 variant1 := TIME;  
 TestTime := VARIANT2TIME(variant1);  
 ```  
-  
+
 ## See Also  
  [Variant Data Type](Variant-Data-Type.md)   
  [Date and Time Methods](Date-and-Time-Methods.md)   
- [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md)
+<!--[Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md)-->

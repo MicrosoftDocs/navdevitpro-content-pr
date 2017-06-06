@@ -1,29 +1,31 @@
 ---
-title: "SEND Method (Notification)"
+title: "ID Method (Notification)"
 ms.custom: na
 ms.date: 09/20/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms.author: jswymer
 ms.prod: "dynamics-nav-2017"
-author: SusanneWindfeldPedersen
 ---
-# RECALL Method (Notification)
-Recall a sent notification.
+# ID Method (Notification)
+Specifies the identifier for a notification.
 
 ```
-[Ok := ]RECALL
+[CurrID := ] MyNotification.ID
 ```
 ## Return Value
-*Value*
+*Value*  
+The unique identifier for the notification.
 
-**true** if the notification was recalled; otherwise, **false**.
-
-If you omit this optional return value and if the notification cannot be recalled, then a run-time error occurs that states that the notification cannot be recalled. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs, even if the notification is not recalled.
+## Remarks
+If left unassigned the notification will be assigned an ID when the SEND method is called. For more information, see [SEND Method (Notification)](devenv-send-method-notification.md).
 
 ##  Example
 The following code creates a notification and sends it if NewBalance is greater than the credit limit. If it is lower than the credit limit, it recalls the notification.
+
+The example uses a pre-defined ID so that the notification can be recalled.
 
 ```
 MyNotification.ID := '00000000-0000-0000-0000-000000000001';
@@ -38,8 +40,8 @@ END ELSE
 ```
 
 ## See Also  
-[ID Method (Notification)](method-notificationid.md)  
-[SEND Method (Notification)](method-notificationsend.md)  
-[MESSAGE Method (Notification)](method-notificationmessage.md)  
-[SCOPE Method (Notification)](method-notificationscope.md)  
+[SEND Method (Notification)](devenv-send-method-notification.md)  
+[RECALL Method (Notification)](devenv-recall-method-notification.md)  
+[MESSAGE Method (Notification)](devenv-message-method-notification.md)  
+[SCOPE Method (Notification)](devenv-scope-method-notification.md)  
 [Notifications](notifications-developing.md)
