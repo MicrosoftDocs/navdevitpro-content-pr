@@ -29,9 +29,9 @@ Gets the default client that is configured for the [!INCLUDE[d365fin_server_md](
 |-----------|---------------------------------------|  
 |Windows|[!INCLUDE[nav_windows](../includes/nav_windows_md.md)]|  
 |Web|[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]|  
-|Tablet|[!INCLUDE[nav_tablet](../includes/nav_tablet_md.md)] **Note:**  If you are running tablet.aspx in a browser, the ClientType will return Web.|  
+|Tablet|[!INCLUDE[d365fin_tablet_md](../includes/d365fin_tablet_md.md)] **Note:**  If you are running tablet.aspx in a browser, the ClientType will return Web.|  
 |Desktop|[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] running in the Dynamics NAV app. In this mode, the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] will have, for example, navigation pane and ribbon.|  
-|Phone|[!INCLUDE[nav_phone](../includes/nav_phone_md.md)] **Note:**  If you are running phone.aspx in a browser, the ClientType will return Web.|  
+|Phone|[!INCLUDE[d365fin_phone_md](../includes/d365fin_phone_md.md)] **Note:**  If you are running phone.aspx in a browser, the ClientType will return Web.|  
 
 ## Remarks  
  The default client is specified by the *DefaultClient* setting in the CustomSettings.config file for the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance. You can view and change the setting by opening the CustomSettings.config file directly or using the [!INCLUDE[nav_admin](../includes/nav_admin_md.md)]. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
