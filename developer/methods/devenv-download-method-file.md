@@ -12,49 +12,46 @@ caps.latest.revision: 28
 manager: edupont
 ---
 # DOWNLOAD Method (File)
-Sends a file from a [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] computer to the client computer.  The client computer <!-- Windows client is the computer that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or -->the computer that is running a browser that accesses the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)].  
+Sends a file from a [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] to the client device.  The client device <!-- Windows client is the computer that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or -->is the device, such as a computer or phone, that accesses [!INCLUDE[d365fin_md](../includes/d365fin_md.md)].  
 
 ## Syntax  
-<!-- Windows client
+
 ```  
 [Ok :=] DOWNLOAD(FromFile, DialogTitle, ToFolder, ToFilter, ToFile)  
 ```  
--->
 
-```  
-[Ok :=] DOWNLOAD(FromFile, ToFolder, ToFilter, ToFile)  
-```  
 #### Parameters  
  *FromFile*  
  Type: Text  
 
- The name of the file on the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] computer that you want to download to the client computer.  
+ The name of the file on the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] that you want to download to the client device.  
 
-<!--
  *DialogTitle*  
  Type: Text  
-
+<!-- Windows client
  The title that you want to display in the dialog box for downloading the file.  
+-->
 
 > [!NOTE]  
->  This parameter is not supported by the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]. The title is determined by the end-user's browser.  
--->
+>  This parameter is not supported<!-- Windows client by the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->. The title is determined by the end-user's browser.  
 
  *ToFolder*  
  Type: Text  
-
+<!-- Windows client
  The default folder in which to save the file to be downloaded. The folder name is displayed in the dialog box for downloading the file. The folder can be changed by the user.  
+-->
 
 > [!NOTE]  
->  This parameter is not supported by the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]. By default, files are saved to the default download location that is configured in the end-user's browser.  
+>  This parameter is not supported<!-- Windows client by the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->. By default, files are saved to the default download location that is configured in the end-user's browser.  
 
  *ToFilter*  
  Type: Text  
-
+<!-- Windows client
  The type of file that can be downloaded to the client computer. The type is displayed in the dialog box for downloading the file.  
+-->
 
 > [!NOTE]  
->  This parameter is not supported by the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)].  
+>  This parameter is not supported<!-- Windows client by the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->.  
 
  *ToFile*  
  Type: Variant  
@@ -71,9 +68,11 @@ Sends a file from a [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.m
 ## Remarks  
 
 > [!NOTE]  
->  This method is not fully supported by the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] on devices that run Apple iOS, such as iPad. You can only download a file if the Apple iOS device on which you are downloading the file has an application that supports the file type.  
+>  <!-- This method is not fully supported by the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] on devices that run Apple iOS, such as iPad.--> On devices that run Apple iOS, such as iPad, you can only download a file if the Apple iOS device on which you are downloading the file has an application that supports the file type.  
 
- In [!INCLUDE[d365fin_md](../includes/d365fin_md.md)], the business logic is run on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] and not on the client. Files are created on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] and not locally on the client computer.  
+Files are saved to the default download location that is configured in the end-user's browser.
+
+The business logic is run on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] and not on the client. Files are created on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] and not locally on the client computer.  
 
  [UPLOAD Method \(File\)](devenv-UPLOAD-Method-File.md) and [UPLOADINTOSTREAM Method \(File\)](devenv-UPLOADINTOSTREAM-Method-File.md) are used to send a file from the client to a [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance.  
 

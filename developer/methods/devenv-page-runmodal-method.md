@@ -44,7 +44,10 @@ Creates, runs, and closes a specified page object. When a page is run modally, n
 ## Property Value/Return Value  
  Type: Action  
 
- Specifies what action the user took on the page. The following table shows the possible return values for the different user actions. In some cases, the actions for the return values are different when the page displays in the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] than in the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)].  
+ Specifies what action the user took on the page. The following table shows the possible return values for the different user actions.
+
+ <!-- Windows client
+In some cases, the actions for the return values are different when the page displays in the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] than in the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)].  
 
 |Return value|[!INCLUDE[nav_windows](../includes/nav_windows_md.md)]|[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]|  
 |------------------|-------------------------------|---------------------------|  
@@ -56,6 +59,18 @@ Creates, runs, and closes a specified page object. When a page is run modally, n
 |No|To close a confirmation window, the user does one of the following:<br /><br /> -   Chooses the **No** button.<br />-   Chooses the **X** button.<br />-   Presses the Esc key.|To close a confirmation window, the user does one of the following:<br /><br /> -   Chooses the **No** button.<br />-   Chooses the **X** button.|  
 |RunObject|The user selected an option that ran another [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] object.|Same as [!INCLUDE[nav_windows](../includes/nav_windows_md.md)].|  
 |RunSystem|The user selected an option that ran an external program.|Same as [!INCLUDE[nav_windows](../includes/nav_windows_md.md)].|  
+-->
+
+|  Return value  |  Description  |  
+|----------------|---------------|  
+|OK|To close the page window, the user does one of the following:<br /><br /> -   Chooses the **Close** button.<br />-   Chooses the **X** button when there is no **Cancel** button on the window.|  
+|Cancel|To close the page window, the user does one of the following:<br /><br /> -   Chooses the **Cancel** button.<br />-   Chooses the **X** button when there is a **Cancel** button on the window.|  
+|LookupOK|To close a lookup window, the user chooses the **OK** button.|  
+|LookupCancel|To close a lookup window, the user chooses the **Cancel** button.|  
+|Yes|To close a confirmation window, the user selects **Yes**.|  
+|No|To close a confirmation window, the user does one of the following:<br /><br /> -   Chooses the **No** button.<br />-   Chooses the **X** button.|  
+|RunObject|The user selected an option that ran another object.|  
+|RunSystem|The user selected an option that ran an external program.|  
 
 ## Remarks  
  The page is run modally. If you do not know the specific page that you want to run when you are designing your application, then use this method or the [PAGE.RUN Method](devenv-PAGE-RUN-Method.md) and specify the page in the *Action* parameter.  
