@@ -33,5 +33,5 @@ Temp := Record.ISTEMPORARY
  **true** if the record refers to a temporary table; otherwise, **false**.  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)   
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
  [ISTEMPORARY Method \(RecordRef\)](devenv-ISTEMPORARY-Method-RecordRef.md)

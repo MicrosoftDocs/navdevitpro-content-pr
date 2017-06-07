@@ -122,7 +122,7 @@ CustomerRec1.RENAME('10001');
  **No.='10000'**  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)   
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
  [RENAME Method \(RecordRef\)](devenv-RENAME-Method-RecordRef.md)   
  [COMMIT Method \(Database\)](devenv-COMMIT-Method-Database.md)   
  [LOCKTABLE Method \(Record\)](devenv-LOCKTABLE-Method-Record.md)

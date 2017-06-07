@@ -69,4 +69,4 @@ GeneralLedgerEntry.VALIDATE("G/L AccountNo");
  You should avoid entering the calculation formula in the **OnValidate** triggers of each field. This can create errors if the calculation formula has to be changed later and you have to update the code in all the triggers. Instead, you should enter the calculation formula in the **OnValidate** trigger of only one of the fields and call this trigger code from the **OnValidate** triggers of the other fields.  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

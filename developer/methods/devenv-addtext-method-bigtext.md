@@ -91,5 +91,5 @@ MyBigText.ADDTEXT('ZZZ', 0); // Returns an error.
 ```  
   
 ## See Also  
- [BigText Data Type](BigText-Data-Type.md)   
+ [BigText Data Type](../datatypes/devenv-BigText-Data-Type.md)   
  [ADDTEXT Method \(BIGTEXT\)](devenv-ADDTEXT-Method-BigText.md)

@@ -54,4 +54,4 @@ IsPrintOnlyIfDetail := Report111.PRINTONLYIFDETAIL(true);
   
 ## See Also  
  [PrintOnlyIfDetail Property](../devenv-PrintOnlyIfDetail-Property.md)   
- [Report Data Type](Report-Data-Type.md)
+ [Report Data Type](../datatypes/devenv-Report-Data-Type.md)

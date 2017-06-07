@@ -69,5 +69,5 @@ MESSAGE(Text001 + Text002, MaxLength, Length);
  This shows that the MAXLENGTH method returns the maximum possible length according to the definition of the string variable, whereas STRLEN returns the actual length of the text.  
   
 ## See Also  
- [Code Data Type](Code-Data-Type.md)   
- [Text Data Type](Text-Data-Type.md)
+ [Code Data Type](../datatypes/devenv-Code-Data-Type.md)   
+ [Text Data Type](../datatypes/devenv-Text-Data-Type.md)

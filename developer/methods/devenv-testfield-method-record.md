@@ -73,4 +73,4 @@ CustomerRec.TESTFIELD("No.",'1000')
  **No. must be 1000 in Customer No.='AAA 1050'.**  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

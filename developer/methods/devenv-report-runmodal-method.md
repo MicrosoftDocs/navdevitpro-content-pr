@@ -80,4 +80,4 @@ REPORT.RUNMODAL(1001, FALSE, TRUE);
 ```  
 
 ## See Also  
- [Report Data Type](Report-Data-Type.md)
+ [Report Data Type](../datatypes/devenv-Report-Data-Type.md)

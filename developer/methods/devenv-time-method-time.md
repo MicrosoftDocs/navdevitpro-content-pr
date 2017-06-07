@@ -45,5 +45,5 @@ MESSAGE(Text000, TIME);
  **The current system time is 11:15:46 AM.**  
   
 ## See Also  
- [Time Data Type](Time-Data-Type.md)   
+ [Time Data Type](../datatypes/devenv-Time-Data-Type.md)   
  [Date and Time Methods](Date-and-Time-Methods.md)

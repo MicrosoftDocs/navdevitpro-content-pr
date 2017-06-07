@@ -67,4 +67,4 @@ IF CustomerRec.FIND('-') THEN
   
 ## See Also  
  [MODIFY Method \(Record\)](devenv-MODIFY-Method-Record.md)   
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

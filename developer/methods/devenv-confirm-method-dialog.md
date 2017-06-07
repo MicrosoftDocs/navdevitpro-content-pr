@@ -80,4 +80,4 @@ MESSAGE(Text001, Answer);
  **You selected Yes.**  
 
 ## See Also  
- [Dialog Data Type](Dialog-Data-Type.md)
+ [Dialog Data Type](../datatypes/devenv-Dialog-Data-Type.md)

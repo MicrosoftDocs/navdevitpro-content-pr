@@ -33,4 +33,4 @@ Dialog.CLOSE
  The dialog windows of an object are automatically closed when the object terminates.  
   
 ## See Also  
- [Dialog Data Type](Dialog-Data-Type.md)
+ [Dialog Data Type](../datatypes/devenv-Dialog-Data-Type.md)

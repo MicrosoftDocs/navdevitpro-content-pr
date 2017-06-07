@@ -69,4 +69,4 @@ Saves a report as an HTML file. The file is saved on the computer where the [!IN
  Reports that use an RDLC layout when run cannot be saved in the HTML format. A runtime error will occur if SAVEASHTML is used on an RDLC report.  
   
 ## See Also  
- [Report Data Type](Report-Data-Type.md)
+ [Report Data Type](../datatypes/devenv-Report-Data-Type.md)

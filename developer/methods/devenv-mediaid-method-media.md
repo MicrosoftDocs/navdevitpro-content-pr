@@ -66,4 +66,4 @@ myItemRec.GET('1');
  [Working With Media on Records](Working-With-Media-on-Records.md)  
  [IMPORTFILE Method \(Media\)](devenv-IMPORTFILE-Method-Media.md)   
  [IMPORTSTREAM Method \(Media\)](devenv-IMPORTSTREAM-Method-Media.md)   
- [Media Data Type](Media-Data-Type.md)
+ [Media Data Type](../datatypes/devenv-Media-Data-Type.md)

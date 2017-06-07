@@ -133,6 +133,6 @@ CustomerRec1.MODIFY;
 ## See Also  
  [MODIFYALL Method \(Record\)](devenv-MODIFYALL-Method-Record.md)   
  [MODIFY Method \(RecordRef\)](devenv-MODIFY-Method-RecordRef.md)   
- [Record Data Type](Record-Data-Type.md)   
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
  [COMMIT Method \(Database\)](devenv-COMMIT-Method-Database.md)   
  [LOCKTABLE Method \(Record\)](devenv-LOCKTABLE-Method-Record.md)

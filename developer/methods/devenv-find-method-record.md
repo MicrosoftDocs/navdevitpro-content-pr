@@ -98,5 +98,5 @@ ELSE
 ```  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)   
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
  [GET, FIND, and NEXT Methods](GET--FIND--and-NEXT-Methods.md)

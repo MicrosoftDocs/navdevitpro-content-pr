@@ -76,4 +76,4 @@ RequestPage.SAVEASXML(LabelsFilename,DatasetFilename);
 ```  
   
 ## See Also  
- [TestRequestPage Data Type](TestRequestPage-Data-Type.md)
+ [TestRequestPage Data Type](../datatypes/devenv-TestRequestPage-Data-Type.md)

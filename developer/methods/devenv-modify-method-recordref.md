@@ -63,4 +63,4 @@ Modifies a record in a table.
   
 ## See Also  
  [MODIFYALL Method \(Record\)](devenv-MODIFYALL-Method-Record.md)   
- [RecordRef Data Type](RecordRef-Data-Type.md)
+ [RecordRef Data Type](../datatypes/devenv-RecordRef-Data-Type.md)

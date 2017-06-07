@@ -106,5 +106,5 @@ MESSAGE(Text005, ResultAccount, ResultNegAccount, ResultEmptyAccount, ResultMyAc
  The example shows that if the string contains more than one number, only the last number is changed. Furthermore, positive numbers and zero are increased and negative numbers are decreased. Finally, if there are no numbers in the string, then an empty string is returned.  
   
 ## See Also  
- [Code Data Type](Code-Data-Type.md)   
- [Text Data Type](Text-Data-Type.md)
+ [Code Data Type](../datatypes/devenv-Code-Data-Type.md)   
+ [Text Data Type](../datatypes/devenv-Text-Data-Type.md)

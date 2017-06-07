@@ -31,4 +31,4 @@ Ok := Variant.ISDATEFORMULA
  **true** if the AL variant contains a DateFormula variable; otherwise, **false**.  
   
 ## See Also  
- [Variant Data Type](Variant-Data-Type.md)
+ [Variant Data Type](../datatypes/devenv-Variant-Data-Type.md)

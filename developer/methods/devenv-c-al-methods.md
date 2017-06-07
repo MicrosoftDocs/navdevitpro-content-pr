@@ -17,5 +17,5 @@ The AL methods in this section are grouped according to the data type that they 
 ## See Also  
  [Properties](Properties.md)   
  [Triggers](Triggers.md)   
- [Essential AL Methods](Essential-C-AL-Methods.md)   
- [Programming in AL](Programming-in-C-AL.md)
+ [Essential AL Methods](Essential-AL-Methods.md)   
+ [Programming in AL](Programming-in-AL.md)

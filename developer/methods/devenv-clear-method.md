@@ -42,7 +42,7 @@ CLEAR(Variable)
 
  For a composite data type, such as a record or an array, all elements are cleared. Furthermore, all fields in a record will be initialized with the [InitValue Property](../devenv-InitValue-Property.md) of the field.  
 
- **CLEAR** can also be used on the [GUID Data Type](GUID-Data-Type.md). It converts the GUID to zeros. Use the [CREATEGUID Method \(GUID\)](devenv-CREATEGUID-Method-GUID.md) to create a new unique GUID.  
+ **CLEAR** can also be used on the [GUID Data Type](../datatypes/devenv-GUID-Data-Type.md). It converts the GUID to zeros. Use the [CREATEGUID Method \(GUID\)](devenv-CREATEGUID-Method-GUID.md) to create a new unique GUID.  
 
  **CLEAR** can also be used to deselect a company. For more information, see [CHANGECOMPANY Method \(Record\)](devenv-CHANGECOMPANY-Method-Record.md).  
 

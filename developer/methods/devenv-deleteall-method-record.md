@@ -51,4 +51,4 @@ CustomerRec.DELETEALL;
   
 ## See Also  
  [DELETE Method \(Record\)](devenv-DELETE-Method-Record.md)   
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

@@ -35,5 +35,5 @@ CurrReport.QUIT;
 ```  
   
 ## See Also  
- [Report Data Type](Report-Data-Type.md)   
- [XMLport Data Type](XMLport-Data-Type.md)
+ [Report Data Type](../datatypes/devenv-Report-Data-Type.md)   
+ [XMLport Data Type](../datatypes/devenv-XMLport-Data-Type.md)

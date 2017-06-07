@@ -91,4 +91,4 @@ Report.RUN(101, TRUE, TRUE, MyRec);
 ```  
 
 ## See Also  
- [Report Data Type](Report-Data-Type.md)
+ [Report Data Type](../datatypes/devenv-Report-Data-Type.md)

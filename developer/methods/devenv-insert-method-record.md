@@ -84,4 +84,4 @@ ELSE
  No run-time error occurs if customer 1120 already exists.  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

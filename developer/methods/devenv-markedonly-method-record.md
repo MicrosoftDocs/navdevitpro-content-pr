@@ -75,4 +75,4 @@ MESSAGE(Text000 + Text001, No1, No2);
   
 ## See Also  
  [MARK Method \(Record\)](devenv-MARK-Method-Record.md)   
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

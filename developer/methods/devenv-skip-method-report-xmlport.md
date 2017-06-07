@@ -42,5 +42,5 @@ ELSE
 ## See Also  
  [OnAfterGetRecord \(Data Items\) Trigger](OnAfterGetRecord--Data-Items--Trigger.md)   
  [OnAfterGetRecord \(XMLports\) Trigger](OnAfterGetRecord--XMLports--Trigger.md)   
- [Report Data Type](Report-Data-Type.md)   
- [XMLport Data Type](XMLport-Data-Type.md)
+ [Report Data Type](../datatypes/devenv-Report-Data-Type.md)   
+ [XMLport Data Type](../datatypes/devenv-XMLport-Data-Type.md)

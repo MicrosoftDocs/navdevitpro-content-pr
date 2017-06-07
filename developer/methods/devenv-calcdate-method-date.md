@@ -74,7 +74,7 @@ NewDate := CALCDATE(DateExpression [, Date])
 
  If a date formula is entered with \< > delimiters surrounding it, then the date formula is stored in a generic, nonlanguage-dependent format. This makes it possible to develop date formulas that are not dependent on the currently selected language.  
 
- For more information about how to calculate the duration between two DateTimes, see [Duration Data Type](Duration-Data-Type.md).  
+ For more information about how to calculate the duration between two DateTimes, see [Duration Data Type](../datatypes/devenv-Duration-Data-Type.md).  
 
 ## Example  
  This code example shows how to use the production rules that were previously described.  

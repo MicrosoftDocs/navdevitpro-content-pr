@@ -71,4 +71,4 @@ CustomerRec.INSERT;
  Since **INIT** does not initialize the primary key fields, the order of the statements in this example is not important. Scenario 1 causes the same result as scenario 2.  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

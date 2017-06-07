@@ -58,4 +58,4 @@ Number := MyQuery.COLUMNNO("Customer_No");
  [How to: Create Queries](How-to--Create-Queries.md)   
  [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md)   
  [Queries](Queries.md)   
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

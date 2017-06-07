@@ -64,4 +64,4 @@ IF CustomerRec.FIND('-') THEN
  Retrieving the count by using the first statement in the example is much faster because only one command to the Database Management System \(DBMS\) is needed.  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

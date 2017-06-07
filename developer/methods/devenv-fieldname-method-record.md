@@ -57,5 +57,5 @@ NameOfField := CustomerRec.FIELDNAME("No.");
  The advantage of using this statement instead of `Name := 'No.';` is that using the **FIELDNAME** method dynamically adapts to any change to the field name made in the development system. The statement `Name := 'No.';` performs a static assignment.  
 
 ## See Also  
- [Record Data Type](Record-Data-Type.md)   
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
  [Multilanguage Development](Multilanguage-Development.md)

@@ -73,5 +73,5 @@ IF GLAcc.FIND('-') THEN
 ```  
   
 ## See Also  
- [RecordRef Data Type](RecordRef-Data-Type.md)   
+ [RecordRef Data Type](../datatypes/devenv-RecordRef-Data-Type.md)   
  [SETTABLE Method \(RecordRef\)](devenv-SETTABLE-Method-RecordRef.md)

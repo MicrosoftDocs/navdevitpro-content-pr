@@ -128,7 +128,7 @@ CustomerRec1.DELETE;
  **No.='10000'**  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)   
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
  [DELETEALL Method \(Record\)](devenv-DELETEALL-Method-Record.md)   
  [DELETE Method \(RecordRef\)](devenv-DELETE-Method-RecordRef.md)   
  [COMMIT Method \(Database\)](devenv-COMMIT-Method-Database.md)   

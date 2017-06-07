@@ -33,4 +33,4 @@ Gets the current value of the [FileName Property](../devenv-FileName-Property.md
  The current value of the **FileName** property.  
   
 ## See Also  
- [XMLport Data Type](XMLport-Data-Type.md)
+ [XMLport Data Type](../datatypes/devenv-XMLport-Data-Type.md)

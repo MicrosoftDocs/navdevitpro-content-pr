@@ -31,4 +31,4 @@ Ok := Variant.ISFILE
  **true** if the AL variant contains a File variable; otherwise, **false**.  
   
 ## See Also  
- [Variant Data Type](Variant-Data-Type.md)
+ [Variant Data Type](../datatypes/devenv-Variant-Data-Type.md)

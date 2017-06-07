@@ -54,4 +54,4 @@ For an example of using the ITEM method, see the [example](INSERT-Method-MediaSe
 [INSERT Method \(MediaSet\)](devenv-INSERT-Method-MediaSet.md)  
 [IMPORTFILE Method \(MediaSet\)](devenv-IMPORTFILE-Method-MediaSet.md)   
 [IMPORTSTREAM Method \(MediaSet\)](devenv-IMPORTSTREAM-Method-MediaSet.md)   
-[MediaSet Data Type](MediaSet-Data-Type.md)
+[MediaSet Data Type](../datatypes/devenv-MediaSet-Data-Type.md)

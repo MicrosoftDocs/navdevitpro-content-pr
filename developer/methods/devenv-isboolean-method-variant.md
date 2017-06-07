@@ -55,4 +55,4 @@ MESSAGE(Text001,MyVariant,varResult);
 ```  
   
 ## See Also  
- [Variant Data Type](Variant-Data-Type.md)
+ [Variant Data Type](../datatypes/devenv-Variant-Data-Type.md)

@@ -33,4 +33,4 @@ HasValue := Blob.HASVALUE
  **true** if the BLOB has a value; otherwise, **false**.  
   
 ## See Also  
- [BLOB Data Type](BLOB-Data-Type.md)
+ [BLOB Data Type](../datatypes/devenv-BLOB-Data-Type.md)

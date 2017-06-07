@@ -86,5 +86,5 @@ MESSAGE(Text000 + Text001 + '%1\' +Text002 + '%2', Number, Text);
  **The text: ABCDE**  
   
 ## See Also  
- [Dialog Data Type](Dialog-Data-Type.md)   
+ [Dialog Data Type](../datatypes/devenv-Dialog-Data-Type.md)   
  [Configuring NAS Services](Configuring-NAS-Services.md)
