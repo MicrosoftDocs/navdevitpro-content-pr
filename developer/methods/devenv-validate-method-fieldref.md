@@ -33,7 +33,7 @@ FieldRef.VALIDATE([NewValue])
  The value to insert in the field.  
   
 ## Remarks  
- The VALIDATE method first checks any [TableRelation Property](../devenv-TableRelation-Property.md), and then executes the [OnValidate \(Fields\) Trigger](OnValidate--Fields--Trigger.md) of the field.  
+ The VALIDATE method first checks any [TableRelation Property](../devenv-TableRelation-Property.md), and then executes the [OnValidate \(Fields\) Trigger](../triggers/devenv-OnValidate--Fields--Trigger.md) of the field.  
   
  If you omit *NewValue*, the method validates the current value.  
   

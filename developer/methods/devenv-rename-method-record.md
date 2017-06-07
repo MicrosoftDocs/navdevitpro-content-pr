@@ -70,7 +70,7 @@ Changes the value of a primary key in a table.
   
      You must design your application so that you use the most up-to-date version of the record for modifications to the database. You use the [GET Method \(Record\)](devenv-GET-Method-Record.md) to refresh the record with the latest version. The second example illustrates this situation.  
   
- When a record is renamed, the change is written and committed to the database without calling the [OnModify Trigger](OnModify-Trigger.md). This is done because renaming a record changes the primary key and updates the primary key value in all related tables. Therefore, you should use the Rename method and Modify method on a record separately.  
+ When a record is renamed, the change is written and committed to the database without calling the [OnModify Trigger](../triggers/devenv-OnModify-Trigger.md). This is done because renaming a record changes the primary key and updates the primary key value in all related tables. Therefore, you should use the Rename method and Modify method on a record separately.  
   
 ## Example  
  This example requires that you create the following global variable.  

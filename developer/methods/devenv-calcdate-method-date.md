@@ -66,7 +66,7 @@ NewDate := CALCDATE(DateExpression [, Date])
  The date that is computed from the reference date and the date expression.  
 
 ## Remarks  
- DateExpression can be a field or variable of type Text or Code, and it can be a field or variable of type [DATEFORMULA](DateFormula-Data-Type.md). The benefit of using a DateFormula field or variable is that the date formula becomes language independent.  
+ DateExpression can be a field or variable of type Text or Code, and it can be a field or variable of type [DATEFORMULA](../datatypes/devenv-Formula-Data-Type.md). The benefit of using a DateFormula field or variable is that the date formula becomes language independent.  
 
  The user can enter formulas in the currently selected language. The formula is stored in a generic format in a field or variable. When the formula must be displayed, the actual string that is displayed is converted to the currently selected language.  
 

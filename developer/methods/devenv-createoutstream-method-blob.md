@@ -45,6 +45,6 @@ MyTable.MyBLOBfield.CREATEOUTSTREAM(MyStream, TextEncoding.WINDOWS)
   
 ## See Also  
  [BLOB Data Type](../datatypes/devenv-BLOB-Data-Type.md)   
- [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)   
+ [InStream and OutStream Data Types](../datatypes/devenv-InStream-and-OutStream-Data-Types.md)   
  [How to: Use Streams to Write to Text Files](How-to--Use-Streams-to-Write-to-Text-Files.md)   
  [Text Encoding](Text-Encoding.md)

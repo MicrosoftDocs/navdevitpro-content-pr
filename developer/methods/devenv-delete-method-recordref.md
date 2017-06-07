@@ -90,4 +90,4 @@ END;
   
 ## See Also  
  [RecordRef Data Type](../datatypes/devenv-RecordRef-Data-Type.md)   
- [OnDelete Trigger](OnDelete-Trigger.md)
+ [OnDelete Trigger](../triggers/devenv-OnDelete-Trigger.md)

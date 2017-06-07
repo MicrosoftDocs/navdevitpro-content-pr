@@ -40,7 +40,7 @@ ELSE
 ```  
   
 ## See Also  
- [OnAfterGetRecord \(Data Items\) Trigger](OnAfterGetRecord--Data-Items--Trigger.md)   
- [OnAfterGetRecord \(XMLports\) Trigger](OnAfterGetRecord--XMLports--Trigger.md)   
+ [OnAfterGetRecord \(Data Items\) Trigger](../triggers/devenv-OnAfterGetRecord--Data-Items--Trigger.md)   
+ [OnAfterGetRecord \(XMLports\) Trigger](../triggers/devenv-OnAfterGetRecord--XMLports--Trigger.md)   
  [Report Data Type](../datatypes/devenv-Report-Data-Type.md)   
  [XMLport Data Type](../datatypes/devenv-XMLport-Data-Type.md)

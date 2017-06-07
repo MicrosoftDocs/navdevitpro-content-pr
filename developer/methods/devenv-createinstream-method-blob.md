@@ -45,5 +45,5 @@ MyTable.MyBLOBfield.CREATEINSTREAM(MyStream, TextEncoding.WINDOWS)
   
 ## See Also  
  [BLOB Data Type](../datatypes/devenv-BLOB-Data-Type.md)   
- [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)   
+ [InStream and OutStream Data Types](../datatypes/devenv-InStream-and-OutStream-Data-Types.md)   
  [Text Encoding](Text-Encoding.md)
