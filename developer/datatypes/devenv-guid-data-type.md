@@ -57,7 +57,7 @@ AutoSplitKey
   
  A NULL GUID is valid but is not useful in a table. Therefore, the **AutoSplitKey** property is implemented for the GUID data type when it is used in a page. When GUID is selected as a primary key, **AutoSplitKey** is enabled for the page, and the GUID value remains NULL. When you create a new record, a valid GUID is created and assigned automatically.  
   
- The [CREATEGUID method \(GUID\)](CREATEGUID-method--GUID-.md) and [ISNULLGUID method \(GUID\)](ISNULLGUID-method--GUID-.md) methods are available in the AL Symbol Menu under SYSTEM, Variables.  
+ The [CREATEGUID method \(GUID\)](../methods/devenv-CREATEGUID-method-GUID.md) and [ISNULLGUID method \(GUID\)](../methods/devenv-ISNULLGUID-method-GUID.md) methods are available in the AL Symbol Menu under SYSTEM, Variables.  
   
  CREATEGUID takes no arguments and returns a valid 16-byte GUID value. If the result is assigned to a TEXT variable or field, the value is converted to a string and follows the syntax explained earlier. The algorithm that generates the new GUID value uses Microsoft's CoCreateGuid method.  
   
@@ -73,5 +73,5 @@ AutoSplitKey
  **Invalid Format of GUID string. The correct format of the GUID string is {CDEF7890-ABCD-1234-ABCD-1234567890AB} where 0-9, A-F symbolizes hexadecimal digits.**  
   
 ## See Also  
- [CREATEGUID method \(GUID\)](CREATEGUID-method--GUID-.md)   
- [ISNULLGUID method \(GUID\)](ISNULLGUID-method--GUID-.md)
+ [CREATEGUID method \(GUID\)](../methods/devenv-CREATEGUID-method-GUID.md)   
+ [ISNULLGUID method \(GUID\)](../methods/devenv-ISNULLGUID-method-GUID.md)

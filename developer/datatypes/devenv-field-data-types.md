@@ -39,7 +39,7 @@ After you select an identification number and name for a field, you have to sele
 
  \(A\) The calculation of the size of a specific SQL Server record requires more than just summing the sizes of the field values. Refer to Microsoft SQL Server documentation for more information.  
 
- \(B\) This is the SQL Server data type that [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] uses when it creates the [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] data type. For more information, see [Identifiers, Data Types, and Data Formats](Identifiers--Data-Types--and-Data-Formats.md).  
+ \(B\) This is the SQL Server data type that [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] uses when it creates the [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] data type. For more information, see [Identifiers, Data Types, and Data Formats](Identifiers-Data-Types-and-Data-Formats.md).  
 
  In addition to the fields discussed in this section, tables can include the following special types of fields that are used to retrieve data:  
 

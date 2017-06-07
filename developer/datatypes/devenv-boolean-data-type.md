@@ -19,4 +19,4 @@ Indicates **true** or **false**.
 > [!NOTE]  
 >  The values that are shown are based on the regional format that is set on the computer. For example, on a computer that has the regional format set to Danish \(Denmark\), the Boolean values are shown as **Ja** and **Nej** instead of **Yes** and **No**.  
   
- You can use the [FORMAT method \(Code, Text\)](FORMAT-method--Code--Text-.md) to specify how Boolean values are shown.
+ You can use the [FORMAT method \(Code, Text\)](../methods/devenv-FORMAT-method-Code-Text.md) to specify how Boolean values are shown.

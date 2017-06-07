@@ -15,13 +15,13 @@ manager: edupont
 A FilterPageBuilder data type is a complex data type that stores filter configurations for a filter page. A filter page is a dynamic page type that contains one or more filter controls that enables users to set filters on fields of the underlying tables.  
   
 ## See Also  
- [ADDFIELD method](ADDFIELD-method.md)   
- [ADDFIELDNO method](ADDFIELDNO-method.md)   
- [ADDRECORD method](ADDRECORD-method.md)   
- [ADDRECORDREF method](ADDRECORDREF-method.md)   
- [ADDTABLE method](ADDTABLE-method.md)   
- [GETVIEW method \(FilterPageBuilder\)](GETVIEW-method--FilterPageBuilder-.md)   
- [SETVIEW method](SETVIEW-method.md)   
- [COUNT method \(FilterPageBuilder\)](COUNT-method--FilterPageBuilder-.md)   
- [NAME method \(FilterPageBuilder\)](NAME-method--FilterPageBuilder-.md)   
- [RUNMODAL method \(FilterPageBuilder\)](RUNMODAL-method--FilterPageBuilder-.md)
+ [ADDFIELD method](../methods/devenv-ADDFIELD-method.md)   
+ [ADDFIELDNO method](../methods/devenv-ADDFIELDNO-method.md)   
+ [ADDRECORD method](../methods/devenv-ADDRECORD-method.md)   
+ [ADDRECORDREF method](../methods/devenv-ADDRECORDREF-method.md)   
+ [ADDTABLE method](../methods/devenv-ADDTABLE-method.md)   
+ [GETVIEW method \(FilterPageBuilder\)](../methods/devenv-GETVIEW-method-FilterPageBuilder.md)   
+ [SETVIEW method](../methods/devenv-SETVIEW-method.md)   
+ [COUNT method \(FilterPageBuilder\)](../methods/devenv-COUNT-method-FilterPageBuilder.md)   
+ [NAME method \(FilterPageBuilder\)](../methods/devenv-NAME-method-FilterPageBuilder.md)   
+ [RUNMODAL method \(FilterPageBuilder\)](../methods/devenv-RUNMODAL-method-FilterPageBuilder.md)

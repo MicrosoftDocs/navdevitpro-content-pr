@@ -19,7 +19,7 @@ Identifies a key in a table and the fields in this key.
  The KeyRef object can refer to any key in any table in the database.  
   
 ## See Also  
- [ACTIVE method \(KeyRef\)](ACTIVE-method--KeyRef-.md)   
- [FIELDCOUNT method \(KeyRef\)](FIELDCOUNT-method--KeyRef-.md)   
- [FIELDINDEX method \(KeyRef\)](FIELDINDEX-method--KeyRef-.md)   
- [RECORD method \(KeyRef\)](RECORD-method--KeyRef-.md)
+ [ACTIVE method \(KeyRef\)](../methods/devenv-ACTIVE-method-KeyRef.md)   
+ [FIELDCOUNT method \(KeyRef\)](../methods/devenv-FIELDCOUNT-method-KeyRef.md)   
+ [FIELDINDEX method \(KeyRef\)](../methods/devenv-FIELDINDEX-method-KeyRef.md)   
+ [RECORD method \(KeyRef\)](../methods/devenv-RECORD-method-KeyRef.md)
