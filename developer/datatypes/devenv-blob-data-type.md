@@ -23,7 +23,7 @@ A binary large object (BLOB) is a complex data type. Variables of this data type
 > [!NOTE]  
 >  You cannot view text that is stored in BLOBs from the development environment.  
 
- You can read from and write to BLOBs by creating input and output streams, respectively. To do so, use [CREATEINSTREAM method \(BLOB\)](CREATEINSTREAM-method--BLOB-.md) and [CREATEOUTSTREAM method \(BLOB\)](CREATEOUTSTREAM-method--BLOB-.md).  
+ You can read from and write to BLOBs by creating input and output streams, respectively. To do so, use [CREATEINSTREAM method (BLOB)](devenv-createinstream-method-blob.md) and [CREATEOUTSTREAM method (BLOB)](devenv-createoutstream-method-blob.md).  
 
  For more information, see [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md).  
 

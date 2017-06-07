@@ -14,9 +14,9 @@ caps.latest.revision: 16
 This simple data type denotes a text string.  
   
 ## Remarks  
- [!INCLUDE[navnowlong](includes/navnowlong_md.md)] does not enforce a limit on the length of a Text variable. You can specify a maximum length in the **AL Globals** or **AL Locals** window when you create the variable, but it is not required. There is no performance impact if you do not specify a length. The maximum length of a Text field in a table is 250 characters. The length of a text variable equals the number of characters in the string. An empty text string has a length of zero \(0\). A text string cannot be null.  
+ [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] does not enforce a limit on the length of a Text variable. You can specify a maximum length in the **AL Globals** or **AL Locals** window when you create the variable, but it is not required. There is no performance impact if you do not specify a length. The maximum length of a Text field in a table is 250 characters. The length of a text variable equals the number of characters in the string. An empty text string has a length of zero \(0\). A text string cannot be null.  
   
- You can index any character position in a text string, for example A\[65\]. The resulting value will be a [Char Data Type](Char-data-type.md).  
+ You can index any character position in a text string, for example A[65]. The resulting value will be a [Char Data Type](Char-data-type.md).  
   
  You cannot assign a char to a position in the code variable greater than the current length of the variable +1. For more information, see [Char Data Type](Char-data-type.md).  
   

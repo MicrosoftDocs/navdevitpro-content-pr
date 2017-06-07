@@ -89,7 +89,7 @@ varAutomation.MethodDateData(varVariant);
  A AL variant contains two allocation areas: one for AL variables and one for Automation and OCX variants. This means every time that you assign a AL variable to a variant, the variant will contain the same data as the original variable. The conversion process does not change the data in any way. However, this is not the case with DATI2VARIANT because it is a VT\_VARIANT. When you assign an external variable to a variant, the variant will also contain the same data as the original external variable.  
   
 ## Assigning Automation Variants to FieldRef Values  
- In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], if an Automation method returns a byte string \(bstr\) in a variant, you cannot assign that variant to a field that is a Code data type. Instead, you must first assign the variant to a code variable, and then assign the code variable to the FieldRef value. For example, the following code assigns a variant from an Automation method to a variable, and then assigns the variable to a field.  
+ In [!INCLUDE[d365fin_md](../includes/d365fin_md.md)], if an Automation method returns a byte string \(bstr\) in a variant, you cannot assign that variant to a field that is a Code data type. Instead, you must first assign the variant to a code variable, and then assign the code variable to the FieldRef value. For example, the following code assigns a variant from an Automation method to a variable, and then assigns the variable to a field.  
   
 ```  
 CodeVariable := AutomationMetodReturningBStrInVariant();  
