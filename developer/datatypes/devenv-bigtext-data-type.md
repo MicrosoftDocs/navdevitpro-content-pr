@@ -24,9 +24,9 @@ This complex data type handles large text documents.
  The normal string methods cannot be used with a BigText variable.  
   
 ## See Also  
- [ADDTEXT method (BigText)](ADDTEXT-method--BigText-.md)   
- [GETSUBTEXT method (BigText)](GETSUBTEXT-method--BigText-.md)   
- [LENGTH method (BigText)](LENGTH-method--BigText-.md)   
- [READ method (BigText)](READ-method--BigText-.md)   
- [TEXTPOS method (BigText)](TEXTPOS-method--BigText-.md)   
- [WRITE method (BigText)](WRITE-method--BigText-.md)
+ [ADDTEXT method (BigText)](devenv-addtext-method-bigtext.md)   
+ [GETSUBTEXT method (BigText)](devenv-getsubtext-method-bigtext.md)   
+ [LENGTH method (BigText)](devenv-length-method-bigtext.md)   
+ [READ method (BigText)](devenv-read-method-bigtext.md)   
+ [TEXTPOS method (BigText)](devenv-textpos-method-bigtext.md)   
+ [WRITE method (BigText)](devenv-write-method-bigtext.md)

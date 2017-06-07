@@ -96,7 +96,7 @@ CodeVariable := AutomationMetodReturningBStrInVariant();
 FieldRef.Value := CodeVariable;  
 ```  
   
- In earlier versions of [!INCLUDE[d365fin_md](includes/d365fin_md.md)], you could assign the variant to a Code FieldRef value.  
+ In earlier versions of [!INCLUDE[d365fin_md](../includes/d365fin_md.md)], you could assign the variant to a Code FieldRef value.  
   
 ## See Also  
  [DATI2VARIANT method](DATI2VARIANT-method.md)   
