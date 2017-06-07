@@ -73,7 +73,7 @@ Saves a report as an .xml file on the computer that is running [!INCLUDE[d365fin
  To resolve this issue, verify that the service account that is running the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance has write permissions on the path.  
 
 ## Example  
- This example shows how to use the SAVEASXML method to save a report as an .xml file on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] and then download the file to a different computer that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)]. This example requires that you create the following variables.  
+ This example shows how to use the SAVEASXML method to save a report as an .xml file on the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)], and then download the file to a  computer that is running the [!INCLUDE[d365fin_md](../includes/d365fin_md.md)]. This example requires that you create the following variables.  
 
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  
@@ -100,8 +100,8 @@ TempFile.OPEN(Name);
 TempFile.CREATEINSTREAM(NewStream);  
 ToFile := 'Report.xml';  
 
-// Transfer the content from the temporary file on Microsoft Dynamics NAV  
-// Server to a file on the client.  
+// Transfer the content from the temporary file on
+// server to a file on the client.  
 ReturnValue := DOWNLOADFROMSTREAM(  
   NewStream,  
   'Save file to client',  
