@@ -24,7 +24,7 @@ Denotes a date ranging from January 1, 1753 to December 31, 9999.
 
  To assign a normal date to a variable, use the following format: \<MMDDYY>D  
 
- To assign a closing date to a variable, use the [CLOSINGDATE Function \(Date\)](../methods/closingdate-method-date.md).  
+ To assign a closing date to a variable, use the [CLOSINGDATE Method \(Date\)](../methods/closingdate-method-date.md).  
 
 ## Year Format  
  If the year is defined by two digits and is between 30 and 99, then it is considered to be in the 1900s. If it is between 00 and 29, then it is considered to be in the 2000s.  
@@ -66,14 +66,14 @@ MESSAGE(FORMAT(Date1));
  This topic has been updated to specify the SQL Server requirement for the earliest DateTime rather than the internal [!INCLUDE[navnow](../includes/navnow_md.md)] date. In SQL Server, the earliest DateTime is January 1, 1753, 00:00:00.000. [!INCLUDE[navnow](../includes/navnow_md.md)] can handle dates as early as January 3, 0001, but such dates cannot be stored in the database. -->
 
 ## See Also  
- [CALCDATE Function \(Date\)](../methods/devenv-CALCDATE-Function-Date.md)   
- [CLOSINGDATE Function \(Date\)](../methods/devenv-CLOSINGDATE-Function-Date.md)   
- [DATE2DMY Function \(Date\)](../methods/devenv-DATE2DMY-Function-Date.md)   
- [DATE2DWY Function \(Date\)](../methods/devenv-DATE2DWY-Function-Date.md)   
- [DATI2VARIANT Function](../methods/devenv-DATI2VARIANT-Function.md)   
- [DMY2DATE Function \(Date\)](../methods/devenv-DMY2DATE-Function-Date.md)   
- [DWY2DATE Function \(Date\)](../methods/devenv-DWY2DATE-Function-Date.md)   
- [NORMALDATE Function \(Date\)](../methods/devenv-NORMALDATE-Function-Date.md)   
- [TODAY Function \(Date\)](../methods/devenv-TODAY-Function-Date.md)   
- [VARIANT2DATE Function](../methods/devenv-VARIANT2DATE-Function.md)   
- [WORKDATE Function \(Date\)](../methods/devenv-WORKDATE-Function-Date.md)
+ [CALCDATE Method \(Date\)](../methods/devenv-CALCDATE-Method-Date.md)   
+ [CLOSINGDATE Method \(Date\)](../methods/devenv-CLOSINGDATE-Method-Date.md)   
+ [DATE2DMY Method \(Date\)](../methods/devenv-DATE2DMY-Method-Date.md)   
+ [DATE2DWY Method \(Date\)](../methods/devenv-DATE2DWY-Method-Date.md)   
+ [DATI2VARIANT Method](../methods/devenv-DATI2VARIANT-Method.md)   
+ [DMY2DATE Method \(Date\)](../methods/devenv-DMY2DATE-Method-Date.md)   
+ [DWY2DATE Method \(Date\)](../methods/devenv-DWY2DATE-Method-Date.md)   
+ [NORMALDATE Method \(Date\)](../methods/devenv-NORMALDATE-Method-Date.md)   
+ [TODAY Method \(Date\)](../methods/devenv-TODAY-Method-Date.md)   
+ [VARIANT2DATE Method](../methods/devenv-VARIANT2DATE-Method.md)   
+ [WORKDATE Method \(Date\)](../methods/devenv-WORKDATE-Method-Date.md)
