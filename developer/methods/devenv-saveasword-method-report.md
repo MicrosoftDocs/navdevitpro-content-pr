@@ -67,7 +67,7 @@ Saves a report on the computer that is running [!INCLUDE[d365fin_server_md](../i
  **Either the caller does not have the required permission or the specified path is read-only.**  
 
 ## Example  
- This example shows how to use the SAVEASWORD method to save the Word document on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] and then download the file to a different computer that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)]. It requires that you create the following variables.  
+ This example shows how to use the SAVEASWORD method to save the Word document on the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)], and then download the file to a different computer that is running the [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] application. It requires that you create the following variables.  
 
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  
