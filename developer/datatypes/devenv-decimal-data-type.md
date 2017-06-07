@@ -1,7 +1,7 @@
 ---
 title: "Decimal Data Type"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,7 +23,7 @@ This simple data type denotes decimal numbers ranging from -999,999,999,999,999.
 ```  
 
 ## Example  
- The following is not a decimal, but rather an [Integer Data Type](Integer-data-type.md).  
+ The following is not a decimal, but rather an [Integer Data Type](devenv-integer-data-type.md).  
 
 ```  
 342  
@@ -31,10 +31,10 @@ This simple data type denotes decimal numbers ranging from -999,999,999,999,999.
 
 
 ## See Also  
- [BigInteger Data Type](BigInteger-data-type.md)   
- [Integer Data Type](Integer-data-type.md)   
- [ABS method \(Decimal, Integer, BigInteger\)](ABS-method--Decimal--Integer--BigInteger-.md)   
- [POWER method \(Decimal, Integer, BigInteger\)](POWER-method--Decimal--Integer--BigInteger-.md)   
- [RANDOM method \(Integer\)](RANDOM-method--Integer-.md)   
- [RANDOMIZE method \(Integer\)](RANDOMIZE-method--Integer-.md)   
- [ROUND method \(Decimal\)](ROUND-method--Decimal-.md)
+ [BigInteger Data Type](devenv-biginteger-data-type.md)   
+ [Integer Data Type](devenv-integer-data-type.md)   
+ [ABS method (Decimal, Integer, BigInteger)](devenv-abs-method-decimal-integer-biginteger.md)   
+ [POWER method (Decimal, Integer, BigInteger)](devenv-power-method-decimal-integer-biginteger.md)   
+ [RANDOM method (Integer)](devenv-random-method-integer.md)   
+ [RANDOMIZE method (Integer)](devenv-randomize-method-integer.md)   
+ [ROUND method (Decimal)](devenv-round-method-decimal.md)
