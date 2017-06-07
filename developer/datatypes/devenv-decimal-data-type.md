@@ -1,7 +1,7 @@
 ---
 title: "Decimal Data Type"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,7 +23,7 @@ This simple data type denotes decimal numbers ranging from -999,999,999,999,999.
 ```  
 
 ## Example  
- The following is not a decimal, but rather an [Integer Data Type](Integer-data-type.md).  
+ The following is not a decimal, but rather an [Integer Data Type](devenv-integer-data-type.md).  
 
 ```  
 342  

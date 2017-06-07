@@ -1,7 +1,7 @@
 ---
 title: "Boolean Data Type"
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,7 +12,7 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # Boolean Data Type
-Indicates **true** or **false**.  
+Indicates **true** or **false**.   
   
  For usability reasons, Boolean values are sometimes shown as **Yes** or **No**. For example, the two possible values for the **InsertAllowed** page property are **Yes** and **No**.  
   
@@ -20,3 +20,4 @@ Indicates **true** or **false**.
 >  The values that are shown are based on the regional format that is set on the computer. For example, on a computer that has the regional format set to Danish \(Denmark\), the Boolean values are shown as **Ja** and **Nej** instead of **Yes** and **No**.  
   
  You can use the [FORMAT method \(Code, Text\)](../methods/devenv-FORMAT-method-Code-Text.md) to specify how Boolean values are shown.
+

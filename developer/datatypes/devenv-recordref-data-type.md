@@ -18,4 +18,4 @@ A RecordRef object references a record in a table. Typically, you use a RecordRe
  If one RecordRef variable is assigned to another RecordRef variable, then they both refer to the same table instance.  
   
 ## See Also  
- [FieldRef Data Type](FieldRef-data-type.md)
+ [fieldref Data Type](fieldref-data-type.md)

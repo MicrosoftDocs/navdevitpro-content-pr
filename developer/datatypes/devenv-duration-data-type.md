@@ -1,7 +1,7 @@
 ---
 title: "Duration Data Type"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -31,7 +31,7 @@ Represents the difference between two DateTimes. This value can be negative. It 
 |Datetime2|DateTime|  
 |Duration|Duration|  
   
- This example is run on a computer with the Current Format in the Regional and Language Options set to English \(United States\).  
+ This example is run on a computer with the Current Format in the Regional and Language Options set to English (United States).  
   
 ```  
 DateTime1 := CREATEDATETIME(010109D, 080000T); // January 1, 2009 at 08:00:00 AM  
@@ -45,4 +45,4 @@ MESSAGE(FORMAT(Duration));
  **124 days 4 hours 30 minutes 1 second**  
   
 ## See Also  
- [DateTime Data Type](DateTime-data-type.md)
+ [DateTime Data Type](devenv-datetime-data-type.md)
