@@ -15,5 +15,5 @@ manager: edupont
 Use this complex data type to store units of AL code. Codeunits contain a number of user-defined methods.  
   
 ## See Also  
- [Codeunit.RUN method (Codeunit)](devenv-codeunit.run-method-codeunit.md)   
- [RUN method (Codeunit)](devenv-run-method-codeunit.md)
+ [Codeunit.RUN method (Codeunit)](../methods/devenv-codeunit.run-method-codeunit.md)   
+ [RUN method (Codeunit)](../methods/devenv-run-method-codeunit.md)

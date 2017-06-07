@@ -29,7 +29,6 @@ This simple data type denotes decimal numbers ranging from -999,999,999,999,999.
 342  
 ```  
 
-
 ## See Also  
  [BigInteger Data Type](devenv-biginteger-data-type.md)   
  [Integer Data Type](devenv-integer-data-type.md)   

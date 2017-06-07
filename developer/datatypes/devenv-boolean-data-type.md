@@ -14,4 +14,4 @@ manager: edupont
 # Boolean Data Type
 Indicates **true** or **false**.   
   
- You can use the [FORMAT method (Code, Text)](devenv-format-method-code-text.md) to specify how Boolean values are shown.
+ You can use the [FORMAT method (Code, Text)](../methods/devenv-format-method-code-text.md) to specify how Boolean values are shown.

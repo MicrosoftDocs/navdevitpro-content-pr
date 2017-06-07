@@ -72,7 +72,7 @@ AL uses variables to store data of various types. By declaring variables of the 
  Fundamental data types are designed to store Boolean values, numbers, text, time, and dates.  
 
 #### Action data type  
- The Action data type specifies what action a user performs on a page. The [PAGE.RUNMODAL method](devenv-page-runmodal-method.md) and the [RUNMODAL method (Page)](devenv-runmodal-method-page.md) return an Action data type value. The possible values are the following:  
+ The Action data type specifies what action a user performs on a page. The [PAGE.RUNMODAL method](../methods/devenv-page-runmodal-method.md) and the [RUNMODAL method (Page)](../methods/devenv-runmodal-method-page.md) return an Action data type value. The possible values are the following:  
 
 -   OK  
 
@@ -149,7 +149,7 @@ MESSAGE(FORMAT(Duration));
  **124 days 4 hours 30 minutes 1 second**  
 
 #### ExecutionMode data type  
- The ExecutionMode data type specifies the mode in which a session is running. The [CURRENTEXECUTIONMODE method (Sessions)](devenv-currentexecutionmode-method-sessions.md) returns an ExecutionMode data type value.  
+ The ExecutionMode data type specifies the mode in which a session is running. The [CURRENTEXECUTIONMODE method (Sessions)](../methods/devenv-currentexecutionmode-method-sessions.md) returns an ExecutionMode data type value.  
 
  The execution mode is one of the following:  
 
@@ -174,7 +174,7 @@ Number := "Purchase Header".Type;
 ```  
 
 #### Code data type  
- The Code data type represents a special type of text string. When a given text is assigned to a variable of data type Code, the text is changed to uppercase and any leading and trailing spaces are removed. You can index any character position in a string, for example, A[65]. The resulting values will be of the Char data type. The length of a variable of data type Code always corresponds to the number of characters in the text without leading and trailing spaces. If you do not specify the length of a Code variable, then the maximum length is 2GB, which is the limit imposed by Microsoft .NET Framework. The maximum length of a table field of data type Code is 250 characters.  <!-- .NET framework mentioning here -->
+ The Code data type represents a special type of text string. When a given text is assigned to a variable of data type Code, the text is changed to uppercase and any leading and trailing spaces are removed. You can index any character position in a string, for example, A[65]. The resulting values will be of the Char data type. The length of a variable of data type Code always corresponds to the number of characters in the text without leading and trailing spaces. If you do not specify the length of a Code variable, then the maximum length is 2GB, which is the limit imposed by Microsoft .NET Framework. The maximum length of a table field of data type Code is 250 characters.  <!-- //NAV .NET framework mentioning here -->
 
  The following table shows some typical examples of Code string assignments. In the following examples, it is assumed that the variable c is of data type Code, and has a maximum length of 4.  
 
@@ -187,7 +187,7 @@ Number := "Purchase Header".Type;
 |c := '1 2';|'1 2'|3|  
 
 #### Text data type  
- The Text data type represents a text string. You can index any character position in a string, for example A[65] refers to the 65th character in the variable called A. The resulting values will be of data type Char. The length of a variable of data type Text corresponds to the number of characters in the text. For example, an empty text string has length 0. If you do not specify the length of a Text variable, then the maximum length is 2GB, which is the limit imposed by Microsoft .NET Framework. The maximum length of a table field of data type Text is 250 characters.  <!-- .NET framework mentioning here -->
+ The Text data type represents a text string. You can index any character position in a string, for example A[65] refers to the 65th character in the variable called A. The resulting values will be of data type Char. The length of a variable of data type Text corresponds to the number of characters in the text. For example, an empty text string has length 0. If you do not specify the length of a Text variable, then the maximum length is 2GB, which is the limit imposed by Microsoft .NET Framework. The maximum length of a table field of data type Text is 250 characters.  <!-- //NAV .NET framework mentioning here -->
 
  The following table shows some typical examples of text strings. In these examples, it is assumed that the variable t is of data type Text and has a maximum length of 6.  
 
@@ -196,7 +196,7 @@ Number := "Purchase Header".Type;
 |t := 'AbC'|The variable t now contains "AbC"|  
 |t := '123456abx';|Gives a run-time error because the length (9) exceeds the maximum length (6)|  
 
- When you use the Text and Code data types, make sure that you distinguish between the maximum length of the string and the actual length of the string. The maximum length is the upper limit for the number of characters in the string. The actual length describes the number of characters that are used in the string. The [STRLEN method (Code, Text)](devenv-strlen-method-code-text.md) and the [MAXSTRLEN method (Code, Text)](devenv-maxstrlen-method-code-text.md) illustrate this.  
+ When you use the Text and Code data types, make sure that you distinguish between the maximum length of the string and the actual length of the string. The maximum length is the upper limit for the number of characters in the string. The actual length describes the number of characters that are used in the string. The [STRLEN method (Code, Text)](../methods/devenv-strlen-method-code-text.md) and the [MAXSTRLEN method (Code, Text)](../methods/devenv-maxstrlen-method-code-text.md) illustrate this.  
 
 ```  
 t := 'AbC';  
@@ -266,17 +266,17 @@ MAXSTRLEN(t); // Returns 6.
 #### BigText data type  
  The BigText data type contains large text documents. Data of the BigText data type cannot be displayed in the debugger or in a message window. However, you can use the BigText methods to extract part of a big text and place it in a typical text string that can be displayed. The BigText methods are as follows:  
 
--   [ADDTEXT method (BigText)](devenv-addtext-method-bigtext.md)  
+-   [ADDTEXT method (BigText)](../methods/devenv-addtext-method-bigtext.md)  
 
--   [GETSUBTEXT method (BigText)](devenv-getsubtext-method-bigtext.md)  
+-   [GETSUBTEXT method (BigText)](../methods/devenv-getsubtext-method-bigtext.md)  
 
--   [LENGTH method (BigText)](devenv-length-method-bigtext.md)  
+-   [LENGTH method (BigText)](../methods/devenv-length-method-bigtext.md)  
 
--   [READ method (BigText)](devenv-read-method-bigtext.md)  
+-   [READ method (BigText)](../methods/devenv-read-method-bigtext.md)  
 
--   [TEXTPOS method (BigText)](devenv-textpos-method-bigtext.md)  
+-   [TEXTPOS method (BigText)](../methods/devenv-textpos-method-bigtext.md)  
 
--   [WRITE method (BigText)](devenv-write-method-bigtext.md)  
+-   [WRITE method (BigText)](../methods/devenv-write-method-bigtext.md)  
 
  The maximum length of a BigText variable is 2147483647 characters. This is the equivalent of 2 gigabytes (GB).  
 
@@ -287,12 +287,12 @@ MAXSTRLEN(t); // Returns 6.
  The Codeunit data type stores codeunits. A codeunit can contain several user-defined methods.  
 
 #### DateFormula data type  
- The DateFormula data type contains a date formula that has the same capabilities as an ordinary input string for the [CALCDATE method (Date)](devenv-calcdate-method-date.md). The DateFormula data type is used to provide multilanguage capabilities to the CALCDATE method.  
+ The DateFormula data type contains a date formula that has the same capabilities as an ordinary input string for the [CALCDATE method (Date)](../methods/devenv-calcdate-method-date.md). The DateFormula data type is used to provide multilanguage capabilities to the CALCDATE method.  
 
 #### Dialog data type  
  The Dialog data type stores dialog windows. A number of methods are available for manipulating dialogs.  
 
-<!--
+<!-- //NAV
 #### DotNet data Type  
  For more information about the DotNet data type, see [Calling .NET Framework Members from AL](Calling-.NET-Framework-Members-from-C-AL.md).  
 -->
@@ -316,7 +316,7 @@ MAXSTRLEN(t); // Returns 6.
 #### KeyRef data type 
  The KeyRef data type identifies a key in a table and the fields in this key. This gives you access to the key and the fields it contains. The KeyRef object can refer to any key in any table in the database.  
 
-<!--
+<!-- //NAV
 #### OCX data type  
  For more information about the OCX data type, see [Extending Microsoft Dynamics NAV Using COM](Extending-Microsoft-Dynamics-NAV-Using-COM.md).  
  -->
@@ -392,4 +392,4 @@ MAXSTRLEN(t); // Returns 6.
 
  As another example, assume that SampleArrayVariable2 is an array variable of data type Date with the dimensions 2x3x4. SampleArrayVariable2 has 24 elements. To index the first element, use SampleArrayVariable2[1,1,1]. To index the last element, use SampleArrayVariable2[2,3,4].  
 
- To declare a variable as an array, open the **Properties** window for the variable and then set the **Dimensions** property. For more information, see [Dimensions Property](devenv-dimensions-property.md).
+ To declare a variable as an array, open the **Properties** window for the variable and then set the **Dimensions** property. For more information, see [Dimensions Property](../devenv-dimensions-property.md).
