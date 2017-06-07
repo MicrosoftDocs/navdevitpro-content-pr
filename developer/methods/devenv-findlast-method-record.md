@@ -54,4 +54,4 @@ IF GLEntryRec.FINDLAST THEN
  [FIND Method \(Record\)](devenv-FIND-Method-Record.md)   
  [FINDFIRST Method \(Record\)](devenv-FINDFIRST-Method-Record.md)   
  [FINDSET Method \(Record\)](devenv-FINDSET-Method-Record.md)   
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

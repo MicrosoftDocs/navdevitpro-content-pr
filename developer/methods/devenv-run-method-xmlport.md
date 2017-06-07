@@ -66,5 +66,5 @@ XMLPORT.RUN (50002, TRUE, FALSE, varRec);
 ```  
 
 ## See Also  
- [XMLport Data Type](XMLport-Data-Type.md)   
+ [XMLport Data Type](../datatypes/devenv-XMLport-Data-Type.md)   
  [How to: Create XMLports](How-to--Create-XMLports.md)

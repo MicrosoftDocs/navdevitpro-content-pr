@@ -66,5 +66,5 @@ IF CustomerRec.FIND('-') THEN
  This code uses a **REPEAT UNTIL** loop to count the number of entries in the **Customer** table. The **FIND** method finds the first entry in the table. Each time the **NEXT** method is called, it steps one record forward. When **NEXT** equals zero \(0\), there are no more entries in the table and the loop is exited.  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)   
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
  [GET, FIND, and NEXT Methods](GET--FIND--and-NEXT-Methods.md)

@@ -31,4 +31,4 @@ Ok := Variant.ISTRANSACTIONTYPE
  **true** if the AL variant contains a TransactionType variable; otherwise, **false**.  
 
 ## See Also  
- [Variant Data Type](Variant-Data-Type.md)
+ [Variant Data Type](../datatypes/devenv-Variant-Data-Type.md)

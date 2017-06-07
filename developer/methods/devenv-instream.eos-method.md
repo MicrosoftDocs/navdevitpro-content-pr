@@ -52,4 +52,4 @@ MESSAGE('End of Stream');
 ## See Also  
  [InStream.READ Method](devenv-InStream.READ-Method.md)   
  [InStream.READTEXT Method](devenv-InStream.READTEXT-Method.md)   
- [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)
+ [InStream and OutStream Data Types](../datatypes/devenv-InStream-and-OutStream-Data-Types.md)

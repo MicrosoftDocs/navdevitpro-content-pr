@@ -71,4 +71,4 @@ CODEUNIT.RUN(CODEUNIT::"Gen. Jnl.-Show Card",GenJournalLine);
 ```  
 
 ## See Also  
- [Codeunit Data Type](Codeunit-Data-Type.md)
+ [Codeunit Data Type](../datatypes/devenv-Codeunit-Data-Type.md)

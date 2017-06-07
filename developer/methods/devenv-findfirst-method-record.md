@@ -61,4 +61,4 @@ END;
  [FIND Method \(Record\)](devenv-FIND-Method-Record.md)   
  [FINDLAST Method \(Record\)](devenv-FINDLAST-Method-Record.md)   
  [FINDSET Method \(Record\)](devenv-FINDSET-Method-Record.md)   
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

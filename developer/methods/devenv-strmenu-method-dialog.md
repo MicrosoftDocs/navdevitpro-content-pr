@@ -84,4 +84,4 @@ MESSAGE(Text001, Selected);
  **You selected option 3.**  
   
 ## See Also  
- [Dialog Data Type](Dialog-Data-Type.md)
+ [Dialog Data Type](../datatypes/devenv-Dialog-Data-Type.md)

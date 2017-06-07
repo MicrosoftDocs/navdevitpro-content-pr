@@ -13,17 +13,17 @@ manager: edupont
 ---
 # Page Data Type
 This complex data type stores pages.  
-  
+
 ## Remarks  
  Pages contain a number of simpler elements called controls. Controls are used to display information to the user or receive information from the user.  
-  
+
 ## See Also  
- [OBJECTID method \(Page\)](OBJECTID-method--Page-.md)   
- [PAGE.RUN method](PAGE-RUN-method.md)   
- [PAGE.RUNMODAL method](PAGE-RUNMODAL-method.md)   
- [RUN method \(Page\)](RUN-method--Page-.md)   
- [RUNMODAL method \(Page\)](RUNMODAL-method--Page-.md)   
- [SETRECORD method \(Page\)](SETRECORD-method--Page-.md)   
- [SETSELECTIONFILTER method](SETSELECTIONFILTER-method.md)   
- [SETTABLEVIEW method \(Page, Report, XMLport\)](SETTABLEVIEW-method--Page--Report--XMLport-.md)   
+ [OBJECTID method \(Page\)](../methods/devenv-OBJECTID-method-Page.md)   
+ [PAGE.RUN method](../methods/devenv-PAGE-RUN-method.md)   
+ [PAGE.RUNMODAL method]../methods/devenv-(PAGE-RUNMODAL-method.md)   
+ [RUN method \(Page\)](../methods/devenv-RUN-method-Page.md)   
+ [RUNMODAL method \(Page\)](../methods/devenv-RUNMODAL-method-Page.md)   
+ [SETRECORD method \(Page\)](../methods/devenv-SETRECORD-method-Page.md)   
+ [SETSELECTIONFILTER method](../methods/devenv-SETSELECTIONFILTER-method.md)   
+ [SETTABLEVIEW method \(Page, Report, XMLport\)](../methods/devenv-SETTABLEVIEW-method-Page-Report-XMLport.md)   
  [UPDATE](UPDATE.md)

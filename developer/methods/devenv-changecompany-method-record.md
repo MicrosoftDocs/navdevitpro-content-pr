@@ -87,4 +87,4 @@ Rec.MODIFY(TRUE);
  If you run the code in this example from Company A, it will modify Rec in Company B, but it will run the OnModify trigger in Company A.  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

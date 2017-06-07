@@ -19,6 +19,6 @@ You can store a RecordID in the database. You can set filters on the full Record
 > You cannot use the GET method to retrieve a record in a table by its primary key value if the primary key field in the table has the data type RecordID. In this case, you can retrieve the record by using  the Record.SETRANGE(FieldName, FieldValue) method.
 
 ## See Also  
- [GETRECORD method \(RecordID\)](GETRECORD-method--RecordID-.md)   
- [TABLENO method \(RecordID\)](TABLENO-method--RecordID-.md)
-  [GET method \(RecordID\)](GET-method--Record-.md)   
+ [GETRECORD method \(RecordID\)](../methods/devenv-GETRECORD-method-RecordID.md)   
+ [TABLENO method \(RecordID\)](../methods/devenv-TABLENO-method-RecordID.md)
+  [GET method \(RecordID\)](../methods/devenv-GET-method-Record.md)   

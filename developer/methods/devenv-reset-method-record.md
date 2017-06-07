@@ -63,4 +63,4 @@ MESSAGE(Text000 + Text001, Count1, Count2);
  The example shows that **RESET** removed all filters.  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

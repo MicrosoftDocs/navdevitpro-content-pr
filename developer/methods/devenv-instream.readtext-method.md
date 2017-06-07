@@ -68,6 +68,6 @@ FileTest.CLOSE();
 ```  
   
 ## See Also  
- [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)   
+ [InStream and OutStream Data Types](../datatypes/devenv-InStream-and-OutStream-Data-Types.md)   
  [InStream.READ Method](devenv-InStream.READ-Method.md)   
  [InStream.EOS Method](devenv-InStream.EOS-Method.md)

@@ -39,7 +39,7 @@ Cancels and deletes a scheduled task that runs a specific codeunit.
  For more information about tasks and TASKSCEDULER data type methods, see managing tasks [Task Scheduler](Task-Scheduler.md).  
 
 ## See Also  
- [TaskScheduler Data Type](TaskScheduler-Data-Type.md)   
+ [TaskScheduler Data Type](../datatypes/devenv-TaskScheduler-Data-Type.md)   
  [CREATETASK Method](devenv-CREATETASK-Method.md)   
  [TASKEXISTS Method](devenv-TASKEXISTS-Method.md)   
  [SETTASKREADY Method](devenv-SETTASKREADY-Method.md)

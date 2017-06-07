@@ -55,4 +55,4 @@ RecRef.SETTABLE(ProdOrderComp);
 
 ## See Also  
  [GETTABLE Method \(RecordRef\)](devenv-GETTABLE-Method-RecordRef.md)   
- [RecordRef Data Type](RecordRef-Data-Type.md)
+ [RecordRef Data Type](../datatypes/devenv-RecordRef-Data-Type.md)

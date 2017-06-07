@@ -87,4 +87,4 @@ ELSE
 ## See Also  
  [GETTABLE Method \(RecordRef\)](devenv-GETTABLE-Method-RecordRef.md)   
  [CHANGECOMPANY Method \(Record\)](devenv-CHANGECOMPANY-Method-Record.md)   
- [RecordRef Data Type](RecordRef-Data-Type.md)
+ [RecordRef Data Type](../datatypes/devenv-RecordRef-Data-Type.md)

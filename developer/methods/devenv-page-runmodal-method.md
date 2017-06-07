@@ -87,4 +87,4 @@ IF Page.RUNMODAL(21, MyRecord, ...) = Action::LookupOK THEN...;
 ```  
 
 ## See Also  
- [Page Data Type](Page-Data-Type.md)
+ [Page Data Type](../datatypes/devenv-Page-Data-Type.md)

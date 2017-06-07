@@ -123,4 +123,4 @@ END;
  [FIND Method \(Record\)](devenv-FIND-Method-Record.md)   
  [FINDFIRST Method \(Record\)](devenv-FINDFIRST-Method-Record.md)   
  [FINDLAST Method \(Record\)](devenv-FINDLAST-Method-Record.md)   
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

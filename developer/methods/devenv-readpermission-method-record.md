@@ -55,4 +55,4 @@ MESSAGE(Is user the granted Read permission? %1', varHasRead);
 ```  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

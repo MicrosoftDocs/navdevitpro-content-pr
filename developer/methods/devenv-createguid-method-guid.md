@@ -25,4 +25,4 @@ Guid := CREATEGUID;
  Type: GUID  
   
 ## See Also  
- [GUID Data Type](GUID-Data-Type.md)
+ [GUID Data Type](../datatypes/devenv-GUID-Data-Type.md)

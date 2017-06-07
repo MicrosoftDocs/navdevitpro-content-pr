@@ -98,4 +98,4 @@ MESSAGE('Now Filtergroup 0 filters, No. field: ' + Item.GETFILTER("No."));
  [SETFILTER Method \(Record\)](devenv-SETFILTER-Method-Record.md)   
  [SETRANGE Method \(Record\)](devenv-SETRANGE-Method-Record.md)   
  [FILTERGROUP Method \(Record\)](devenv-FILTERGROUP-Method-Record.md)   
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

@@ -20,28 +20,28 @@ Reads from or writes to files and BLOBs.
   
  You can create a stream object by using the following methods:  
   
--   [CREATEINSTREAM method \(BLOB\)](CREATEINSTREAM-method--BLOB-.md)  
+-   [CREATEINSTREAM method \(BLOB\)](../methods/devenv-CREATEINSTREAM-method-BLOB.md)  
   
--   [CREATEOUTSTREAM method \(BLOB\)](CREATEOUTSTREAM-method--BLOB-.md)  
+-   [CREATEOUTSTREAM method \(BLOB\)](../methods/devenv-CREATEOUTSTREAM-method-BLOB.md)  
   
--   [CREATEINSTREAM method (File)](CREATEINSTREAM-method-File.md)  
+-   [CREATEINSTREAM method \(File\)](../methods/devenv-CREATEINSTREAM-method-File.md)  
   
--   [CREATEOUTSTREAM method (File)](CREATEOUTSTREAM-method-File.md)  
+-   [CREATEOUTSTREAM method \(File\)](../methods/devenv-CREATEOUTSTREAM-method-File.md)  
   
  You can use InStream in the following ways:  
   
--   [COPYSTREAM method](COPYSTREAM-method.md)  
+-   [COPYSTREAM method](../methods/devenv-COPYSTREAM-method.md)  
   
--   [InStream.READ method](InStream.READ-method.md)  
+-   [InStream.READ method](../methods/devenv-InStream.READ-method.md)  
   
--   [InStream.EOS method](InStream.EOS-method.md)  
+-   [InStream.EOS method](../methods/devenv-InStream.EOS-method.md)  
   
--   [InStream.READTEXT method](InStream.READTEXT-method.md)  
+-   [InStream.READTEXT method](../methods/devenv-InStream.READTEXT-method.md)  
   
  You can use OutStream in the following ways:  
   
--   [COPYSTREAM method](COPYSTREAM-method.md)  
+-   [COPYSTREAM method](../methods/devenv-COPYSTREAM-method.md)  
   
--   [OutStream.WRITE method](OutStream-WRITE-method.md)  
+-   [OutStream.WRITE method](../methods/devenv-OutStream-WRITE-method.md)  
   
--   [OutStream.WRITETEXT method](OutStream-WRITETEXT-method.md)
+-   [OutStream.WRITETEXT method](../methods/devenv-OutStream-WRITETEXT-method.md)

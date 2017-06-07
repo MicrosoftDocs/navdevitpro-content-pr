@@ -39,7 +39,7 @@ TableNumber := FieldRef.RELATION
  This method is similar to the [RELATION Method \(Record\)](devenv-RELATION-Method-Record.md) method.  
   
 ## Example  
- The following example opens table 37, the Sales Line table, as a RecordRef variable and creates a reference to field 2 \(Sell-to Customer No.\). The [FieldRef Data Type](FieldRef-Data-Type.md) of field 2 is stored in the MyFieldRef variable. The RELATION method retrieves the number of the table that has a relation with the Sell-To-Customer field \(field 2\). The table number is stored the varRelation variable and displayed in the message box. This example requires that you create the following global variables and text constants.  
+ The following example opens table 37, the Sales Line table, as a RecordRef variable and creates a reference to field 2 \(Sell-to Customer No.\). The [FieldRef Data Type](../datatypes/devenv-FieldRef-Data-Type.md) of field 2 is stored in the MyFieldRef variable. The RELATION method retrieves the number of the table that has a relation with the Sell-To-Customer field \(field 2\). The table number is stored the varRelation variable and displayed in the message box. This example requires that you create the following global variables and text constants.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -60,4 +60,4 @@ MESSAGE(Text000, varRelation);
 ```  
   
 ## See Also  
- [FieldRef Data Type](FieldRef-Data-Type.md)
+ [FieldRef Data Type](../datatypes/devenv-FieldRef-Data-Type.md)

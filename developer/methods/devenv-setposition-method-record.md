@@ -67,4 +67,4 @@ MESSAGE(Text001, MyRecord."No.", MyRecord.Name);
  **The vendor name after the primary key was changed is AR Day property Management.**  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

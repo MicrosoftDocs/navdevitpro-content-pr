@@ -47,7 +47,7 @@ HasCustomLayout(ObjectType : 'Report'; ObjectID : Integer) : Integer
  Report layout implementation in codeunit 1 **ApplicationManagement**.  
   
 ## Remarks  
- This method is executed when a report is run from the client or by a call to the Run, SaveAsWord, SaveAsPdf, and SaveAsExcel methods. The HasCustomLayout method is executed at run time before the [OnPreReport Trigger](OnPreReport-Trigger.md).  
+ This method is executed when a report is run from the client or by a call to the Run, SaveAsWord, SaveAsPdf, and SaveAsExcel methods. The HasCustomLayout method is executed at run time before the [OnPreReport Trigger](../triggers/devenv-OnPreReport-Trigger.md).  
   
 ## Example  
  The following example shows the default implementation on the method in codeunit 1. This example uses a variable **ReportLayout** that has the data type **Record** and subtype **Report Layout**.  

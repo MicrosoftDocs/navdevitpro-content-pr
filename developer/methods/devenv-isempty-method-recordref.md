@@ -61,4 +61,4 @@ MESSAGE(Text000, IsEmpty);
  If you open table 78 \(Printer Selection\), the message will display **Yes** because the table is empty.  
 
 ## See Also  
- [RecordRef Data Type](RecordRef-Data-Type.md)
+ [RecordRef Data Type](../datatypes/devenv-RecordRef-Data-Type.md)

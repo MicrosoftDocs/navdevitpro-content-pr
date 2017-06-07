@@ -53,4 +53,4 @@ MESSAGE('The text is: %1. The length of the file is: %2', varString, varLength);
 ```  
   
 ## See Also  
- [File Data Type](File-Data-Type.md)
+ [File Data Type](../datatypes/devenv-File-Data-Type.md)

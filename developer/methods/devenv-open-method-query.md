@@ -111,5 +111,5 @@ MyQuery.CLOSE;
 
 ## See Also  
  [How to: Create Queries](How-to--Create-Queries.md)   
- [Working with Queries in AL](Working-with-Queries-in-C-AL.md)   
+ [Working with Queries in AL](Working-with-Queries-in-AL.md)   
  [Queries](Queries.md)

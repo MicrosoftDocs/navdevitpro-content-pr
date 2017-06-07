@@ -60,4 +60,4 @@ MESSAGE(Text000, varMin);
   
 ## See Also  
  [GETRANGEMAX Method \(Record\)](devenv-GETRANGEMAX-Method-Record.md)   
- [FieldRef Data Type](FieldRef-Data-Type.md)
+ [FieldRef Data Type](../datatypes/devenv-FieldRef-Data-Type.md)

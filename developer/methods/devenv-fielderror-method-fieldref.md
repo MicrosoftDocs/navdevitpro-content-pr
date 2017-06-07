@@ -81,4 +81,4 @@ ELSE
  For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Methods.md).  
   
 ## See Also  
- [FieldRef Data Type](FieldRef-Data-Type.md)
+ [FieldRef Data Type](../datatypes/devenv-FieldRef-Data-Type.md)

@@ -97,4 +97,4 @@ GLAccountRec.SETFILTER("No.", '100..200|300');
 ```  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

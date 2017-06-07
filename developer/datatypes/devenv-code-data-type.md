@@ -33,22 +33,7 @@ This simple data type denotes a special type of string that is converted to uppe
  This example shows some typical examples of code string assignments. In these examples, assume that the variable c is a code variable with a maximum length of 4.  
   
 ```  
-c := 'ABC';   
-// Results in variable c, which contains 'ABC'   
-// and is 3 characters in length.  
-c := '1';  
-// Results in variable c, which contains '1'   
-// and is 1 character in length.  
-c := '';  
-// Results in variable c, which contains '' (empty string)  
-// and is zero (0) characters in length.  
-c := ' 2 ';  
-// Results in variable c, which contains '2'  
-// and is 1 character in length.  
-```  
-  
-## See Also  
- [CONVERTSTR method (Code, Text)](devenv-convertstr-method-code-text.md)   
+c := 'ABC';   ertstr-method-code-text.md)   
  [COPYSTR method (Code, Text)](devenv-copystr-method-code-text.md)   
  [DELCHR method (Code, Text)](devenv-delchr-method-code-text.md)   
  [DELSTR method (Code, Text)](devenv-delstr-method-code-text.md)   
@@ -64,3 +49,33 @@ c := ' 2 ';
  [STRPOS method (Code, Text)](devenv-strpos-method-code-text.md)   
  [STRSUBSTNO method (Code, Text)](devenv-strsubstno-method-code-text.md)   
  [UPPERCASE method (Code, Text)](devenv-uppercase-method-code-text.md)
+// Results in variable c, which contains 'ABC'   
+// and is 3 characters in length.  
+c := '1';  
+// Results in variable c, which contains '1'   
+// and is 1 character in length.  
+c := '';  
+// Results in variable c, which contains '' (empty string)  
+// and is zero (0) characters in length.  
+c := ' 2 ';  
+// Results in variable c, which contains '2'  
+// and is 1 character in length.  
+```  
+  
+## See Also  
+ [CONVERTSTR method \(Code, Text\)](../methods/devenv-CONVERTSTR-method-Code-Text.md)   
+ [COPYSTR method \(Code, Text\)](../methods/devenv-COPYSTR-method-Code-Text.md)   
+ [DELCHR method \(Code, Text\)](../methods/devenv-DELCHR-method-Code-Text.md)   
+ [DELSTR method \(Code, Text\)](../methods/devenv-DELSTR-method-Code-Text.md)   
+ [FORMAT method \(Code, Text\)](../methods/devenv-FORMAT-method-Code-Text.md)   
+ [INCSTR method \(Code, Text\)](../methods/devenv-INCSTR-method-Code-Text.md)   
+ [INSSTR method \(Code, Text\)](../methods/devenv-INSSTR-method-Code-Text.md)   
+ [LOWERCASE method \(Code, Text\)](../methods/devenv-LOWERCASE-method-Code-Text.md)   
+ [MAXSTRLEN method \(Code, Text\)](../methods/devenv-MAXSTRLEN-method-Code-Text.md)   
+ [PADSTR method \(Code, Text\)](../methods/devenv-PADSTR-method-Code-Text.md)   
+ [SELECTSTR method \(Code, Text\)](../methods/devenv-SELECTSTR-method-Code-Text.md)   
+ [STRCHECKSUM method \(Code, Text\)](../methods/devenv-STRCHECKSUM-method-Code-Text.md)   
+ [STRLEN method \(Code, Text\)](../methods/devenv-STRLEN-method-Code-Text.md)   
+ [STRPOS method \(Code, Text\)](../methods/devenv-STRPOS-method-Code-Text.md)   
+ [STRSUBSTNO method \(Code, Text\)](../methods/devenv-STRSUBSTNO-method-Code-Text.md)   
+ [UPPERCASE method \(Code, Text\)](../methods/devenv-UPPERCASE-method-Code-Text.md)

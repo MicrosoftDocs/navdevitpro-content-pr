@@ -12,19 +12,20 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # Dialog Data Type
-Variables of this complex data type store dialog windows. These variables also give you access to a number of dialog methods, such as [OPEN method (Dialog)](devenv-open-method-dialog.md), [CLOSE method (Dialog)](devenv-close-method-dialog.md), and so on.  
+
+Variables of this complex data type store dialog windows. These variables also give you access to a number of dialog methods, such as [OPEN method \(Dialog\)](../methods/devenv-OPEN-method-Dialog.md), [CLOSE method \(Dialog\)](../methods/devenv-CLOSE-method-Dialog.md), and so on.  
   
 ## Dialog methods  
- [CLOSE method (Dialog)](devenv-close-method-dialog.md)  
+ [CLOSE method \(Dialog\)](../methods/devenv-CLOSE-method-Dialog.md)  
   
- [CONFIRM method (Dialog)](devenv-confirm-method-dialog-.md)  
+ [CONFIRM method \(Dialog\)](../methods/devenv-CONFIRM-method-Dialog.md)  
   
- [ERROR method (Dialog)](devenv-error-method-dialog.md)  
+ [ERROR method \(Dialog\)](../methods/devenv-ERROR-method-Dialog.md)  
   
- [MESSAGE method (Dialog)](devenv-message-method-dialog.md)  
+ [MESSAGE method \(Dialog\)](../methods/devenv-MESSAGE-method-Dialog.md)  
   
- [OPEN method (Dialog)](devenv-open-method-dialog.md)  
+ [OPEN method \(Dialog\)](../methods/devenv-OPEN-method-Dialog.md)  
   
- [STRMENU method (Dialog)](devenv-strmenu-method-dialog-.md)  
-  
- [UPDATE method (Dialog)](devenv-update-method-dialog-.md)
+ [STRMENU method \(Dialog\)](../methods/devenv-STRMENU-method-Dialog.md)  
+ 
+ [UPDATE method \(Dialog\)](../methods/devenv-UPDATE-method-Dialog.md)

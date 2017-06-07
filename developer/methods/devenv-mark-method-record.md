@@ -118,4 +118,4 @@ MESSAGE(Text001 + Text002, No1, No2);
   
 ## See Also  
  [MARKEDONLY Method \(Record\)](devenv-MARKEDONLY-Method-Record.md)   
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

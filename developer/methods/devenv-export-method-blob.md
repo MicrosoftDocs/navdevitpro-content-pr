@@ -57,4 +57,4 @@ Exports a binary large object \(BLOB\).
  If the return value is an empty string, then the BLOB was not exported.  
   
 ## See Also  
- [BLOB Data Type](BLOB-Data-Type.md)
+ [BLOB Data Type](../datatypes/devenv-BLOB-Data-Type.md)

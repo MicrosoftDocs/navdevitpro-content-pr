@@ -38,7 +38,7 @@ Finds the row in a dataset on the test page that is identified by the specified 
  **true** if the specified row is found; otherwise, **false**. The return value is optional.  
 
 ## Remarks
-The GOTOKEY method loops over all records until it finds the identifies row.  For each record, the [OnAfterGetCurrentRecord trigger](OnAfterGetCurrRecord-Trigger.md) is executed.  
+The GOTOKEY method loops over all records until it finds the identifies row.  For each record, the [OnAfterGetCurrentRecord Trigger](../triggers/devenv-OnAfterGetCurrRecord-Trigger.md) is executed.  
   
 ## See Also  
  [TestPage Methods](TestPage-Methods.md)

@@ -84,4 +84,4 @@ IF SomePage.RUNMODAL = Action::LookupOK THEN
 >  This code example includes the [CLEAR Method](devenv-CLEAR-Method.md) to make sure that the variable has been cleared.  
 
 ## See Also  
- [Page Data Type](Page-Data-Type.md)
+ [Page Data Type](../datatypes/devenv-Page-Data-Type.md)

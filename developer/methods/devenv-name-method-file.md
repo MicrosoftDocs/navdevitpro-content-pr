@@ -50,4 +50,4 @@ MESSAGE('The name of the file is: %1',varName);
 ```  
   
 ## See Also  
- [File Data Type](File-Data-Type.md)
+ [File Data Type](../datatypes/devenv-File-Data-Type.md)

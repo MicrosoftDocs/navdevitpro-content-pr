@@ -32,5 +32,5 @@ UNREGISTERTABLECONNECTION(Type, Name)
   
 ## See Also  
  [External Tables](External-Tables.md)   
- [TableConnectionType Data Type](TableConnectionType-Data-Type.md)   
+ [TableConnectionType Data Type](../datatypes/devenv-TableConnectionType-Data-Type.md)   
  [REGISTERTABLECONNECTION Method \(Database\)](devenv-REGISTERTABLECONNECTION-Method-Database.md)

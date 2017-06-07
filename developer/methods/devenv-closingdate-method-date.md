@@ -11,7 +11,7 @@ ms.assetid: ff8ed675-00d3-4d11-af67-3ffc0621d3a7
 caps.latest.revision: 18
 ---
 # CLOSINGDATE Method (Date)
-Gets the closing date for a [Date Data Type](Date-Data-Type.md).  
+Gets the closing date for a [Date Data Type](../datatypes/devenv-Date-Data-Type.md).  
   
 ## Syntax  
   

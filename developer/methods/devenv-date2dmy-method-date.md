@@ -12,7 +12,7 @@ caps.latest.revision: 12
 manager: edupont
 ---
 # DATE2DMY Method (Date)
-Gets the day, month, or year of a [Date Data Type](Date-Data-Type.md).  
+Gets the day, month, or year of a [Date Data Type](../datatypes/devenv-Date-Data-Type.md).  
   
 ## Syntax  
   

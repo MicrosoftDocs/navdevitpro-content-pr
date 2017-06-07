@@ -58,4 +58,4 @@ Count := Customer2.COUNT;
   
 ## See Also  
  [COPYFILTER Method \(Record\)](devenv-COPYFILTER-Method-Record.md)   
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

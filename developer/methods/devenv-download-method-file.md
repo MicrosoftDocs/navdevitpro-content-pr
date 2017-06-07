@@ -93,4 +93,4 @@ DOWNLOAD('FromFile.txt','Download file','C:\','Text file(*.txt)|*.txt',ToFile);
 ```  
 
 ## See Also  
- [File Data Type](File-Data-Type.md)
+ [File Data Type](../datatypes/devenv-File-Data-Type.md)

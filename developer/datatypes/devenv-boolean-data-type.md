@@ -14,4 +14,10 @@ manager: edupont
 # Boolean Data Type
 Indicates **true** or **false**.   
   
- You can use the [FORMAT method (Code, Text)](devenv-format-method-code-text.md) to specify how Boolean values are shown.
+ For usability reasons, Boolean values are sometimes shown as **Yes** or **No**. For example, the two possible values for the **InsertAllowed** page property are **Yes** and **No**.  
+  
+> [!NOTE]  
+>  The values that are shown are based on the regional format that is set on the computer. For example, on a computer that has the regional format set to Danish \(Denmark\), the Boolean values are shown as **Ja** and **Nej** instead of **Yes** and **No**.  
+  
+ You can use the [FORMAT method \(Code, Text\)](../methods/devenv-FORMAT-method-Code-Text.md) to specify how Boolean values are shown.
+

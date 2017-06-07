@@ -89,5 +89,5 @@ END;
 ```  
   
 ## See Also  
- [RecordRef Data Type](RecordRef-Data-Type.md)   
- [OnDelete Trigger](OnDelete-Trigger.md)
+ [RecordRef Data Type](../datatypes/devenv-RecordRef-Data-Type.md)   
+ [OnDelete Trigger](../triggers/devenv-OnDelete-Trigger.md)

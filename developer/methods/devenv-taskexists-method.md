@@ -38,7 +38,7 @@ Exists := TASKEXISTS(Task)
 
 ## See Also  
  [Task Scheduler](Task-Scheduler.md)  
- [TaskScheduler Data Type](TaskScheduler-Data-Type.md)   
+ [TaskScheduler Data Type](../datatypes/devenv-TaskScheduler-Data-Type.md)   
  [CREATETASK Method](devenv-CREATETASK-Method.md)   
  [CANCELTASK Method](devenv-CANCELTASK-Method.md)   
  [SETTASKREADY Method](devenv-SETTASKREADY-Method.md)

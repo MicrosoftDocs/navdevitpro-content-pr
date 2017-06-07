@@ -37,7 +37,7 @@ SETDEFAULTCONNECTIONTYPE(Type, Name, Scope)
   
 ## See Also  
  [TableType Property](../devenv-TableType-Property.md)   
- [TableConnectionType Data Type](TableConnectionType-Data-Type.md)   
+ [TableConnectionType Data Type](../datatypes/devenv-TableConnectionType-Data-Type.md)   
  [GETDEFAULTTABLECONNECTION Method \(Database\)](devenv-GETDEFAULTTABLECONNECTION-Method-Database.md)   
  [REGISTERTABLECONNECTION Method \(Database\)](devenv-REGISTERTABLECONNECTION-Method-Database.md)   
  [UNREGISTERTABLECONNECTION Method \(Database\)](devenv-UNREGISTERTABLECONNECTION-Method-Database.md)   
