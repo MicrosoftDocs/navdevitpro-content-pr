@@ -30,7 +30,7 @@ Denotes a date ranging from January 1, 1753 to December 31, 9999.
  If the year is defined by two digits and is between 30 and 99, then it is considered to be in the 1900s. If it is between 00 and 29, then it is considered to be in the 2000s.  
 
 ## Storing Dates in the SQL Server Database  
- SQL Server stores information about both date and time in columns of the DATETIME types. For date fields, [!INCLUDE[navnow](includes/navnow_md.md)] uses only the date and uses a constant value for the time. For a normal date, this constant value contains 00:00:00:000. For a closing date, it contains 23:59:59:000.  
+ SQL Server stores information about both date and time in columns of the DATETIME types. For date fields, only the date is used and a constant value is used for the time. For a normal date, this constant value contains 00:00:00:000. For a closing date, it contains 23:59:59:000.  
 
  An undefined date is represented by the earliest valid date in SQL Server. The earliest valid date in SQL Server for a DATETIME is 01-01-1753 00:00:00:000.  
 
@@ -63,7 +63,7 @@ MESSAGE(FORMAT(Date1));
 >  When you assign a value to a date variable, the value that you assign must be in the correct format for the regional setting of the computer. For example, if the computer is set to English \(United States\), then `Date1 := 271108D;` results in a compiler error.  
 
 <!-- Removed for 2017 ## Changes from Previous Versions of Microsoft Dynamics NAV  
- This topic has been updated to specify the SQL Server requirement for the earliest DateTime rather than the internal [!INCLUDE[navnow](includes/navnow_md.md)] date. In SQL Server, the earliest DateTime is January 1, 1753, 00:00:00.000. [!INCLUDE[navnow](includes/navnow_md.md)] can handle dates as early as January 3, 0001, but such dates cannot be stored in the database. -->
+ This topic has been updated to specify the SQL Server requirement for the earliest DateTime rather than the internal [!INCLUDE[navnow](../includes/navnow_md.md)] date. In SQL Server, the earliest DateTime is January 1, 1753, 00:00:00.000. [!INCLUDE[navnow](../includes/navnow_md.md)] can handle dates as early as January 3, 0001, but such dates cannot be stored in the database. -->
 
 ## See Also  
  [CALCDATE Function \(Date\)](../methods/CALCDATE-Function-Date.md)   
