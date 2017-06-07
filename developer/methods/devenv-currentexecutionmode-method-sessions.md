@@ -13,34 +13,36 @@ manager: edupont
 ---
 # CURRENTEXECUTIONMODE Method (Sessions)
 Specifies the mode in which the session is running.  
-  
+
 ## Syntax  
-  
+
 ```  
-  
+
 ExecutionMode := CURRENTEXECUTIONMODE  
 ```  
-  
+
 ## Property Value/Return Value  
  Type: ExecutionMode  
-  
+
  The execution mode is one of the following:  
-  
+
 -   Debug  
-  
+
 -   Standard  
-  
+
+<!-- Windows client
 ## Remarks  
  If you start the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] at a command prompt and use the –**debug** parameter, then the execution mode is **Debug**. Otherwise, the execution mode is **Standard**.  
-  
+-->
+
 ## Example  
  This example requires that you create a variable named Mode that has a DataType of ExecutionMode.  
-  
+
 ```  
 Mode := CURRENTEXECUTIONMODE;   
 MESSAGE('Current execution mode is %1.', Mode);  
 ```  
-  
+
 ## See Also  
  [Sessions](Sessions.md)   
  [Debugging](Debugging.md)
