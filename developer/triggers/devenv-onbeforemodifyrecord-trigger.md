@@ -23,9 +23,9 @@ Executed after a record is read from the input stream and before the existing re
  If the [AutoSave Property](../devenv-AutoSave-Property.md) is **No**, then although the record is not modified automatically, the OnBeforeModifyRecord trigger is still called before the modification would have occurred.  
   
 ## See Also  
- [OnAfterModifyRecord Trigger](OnAfterModifyRecord-Trigger.md)   
- [OnAfterInsertRecord Trigger](OnAfterInsertRecord-Trigger.md)   
- [OnBeforeInsertRecord Trigger](OnBeforeInsertRecord-Trigger.md)   
+ [OnAfterModifyRecord Trigger](devenv-OnAfterModifyRecord-Trigger.md)   
+ [OnAfterInsertRecord Trigger](devenv-OnAfterInsertRecord-Trigger.md)   
+ [OnBeforeInsertRecord Trigger](devenv-OnBeforeInsertRecord-Trigger.md)   
  [AutoReplace Property](../devenv-AutoReplace-Property.md)   
  [AutoSave Property](../devenv-AutoSave-Property.md)   
  [AutoUpdate Property](../devenv-AutoUpdate-Property.md)

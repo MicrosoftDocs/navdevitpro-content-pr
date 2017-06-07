@@ -26,7 +26,7 @@ OnOpenPage()
 -   Pages  
 
 ## Remarks  
- This trigger is executed after the [OnInit Trigger](OnInit-Trigger.md).  
+ This trigger is executed after the [OnInit Trigger](devenv-OnInit-Trigger.md).  
 
  You use the OnOpenPage trigger to change dynamic properties, including those which can only be changed when the page is opened, such as the [Visible Property](../devenv-Visible-Property.md). You can also write to the database from the trigger.  
 

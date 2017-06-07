@@ -33,7 +33,7 @@ MESSAGE(Text000, NumberOfErrors);
 |-----------------------|-------------------|  
 |Text000|'%1 records were not processed'|  
 
- Because this trigger is executed before the End Write Transaction, you can also give the user the opportunity to roll back changes to the database by leaving the report with the [QUIT Method \(Report, XMLport\)](QUIT-Method-Report--XMLport.md).  
+ Because this trigger is executed before the End Write Transaction, you can also give the user the opportunity to roll back changes to the database by leaving the report with the [QUIT Method \(Report, XMLport\)](QUIT-Method-Report-XMLport.md).  
 
 ## See Also  
- [QUIT Method \(Report, XMLport\)](QUIT-Method-Report--XMLport.md)
+ [QUIT Method \(Report, XMLport\)](QUIT-Method-Report-XMLport.md)

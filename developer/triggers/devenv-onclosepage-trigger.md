@@ -12,7 +12,7 @@ caps.latest.revision: 14
 manager: edupont
 ---
 # OnClosePage Trigger
-Executed as a page closes after the [OnQueryClosePage Trigger](OnQueryClosePage-Trigger.md) is executed.  
+Executed as a page closes after the [OnQueryClosePage Trigger](devenv-OnQueryClosePage-Trigger.md) is executed.  
 
 ## Syntax  
 

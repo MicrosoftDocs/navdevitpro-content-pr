@@ -102,10 +102,10 @@ The GETLASTERRORTEXT  returns the text that was contained in the last error mess
 
 ## See Also  
 [TestPermissions Property](../devenv-property-testpermissions.md)  
-[OnBeforeTestRun Trigger](trigger-onbeforetestrun.md)  
+[OnBeforeTestRun Trigger](devenv-trigger-onbeforetestrun.md)  
 [Testing With Permission Sets](testing-permissionsets.md)  
 [Testing the Application](Testing-the-Application.md)  
-[How to: Create a Test Runner Codeunit](How-to--Create-a-Test-Runner-Codeunit.md)  
-[How to: Create Test Codeunits and Test Methods](How-to--Create-Test-Codeunits-and-Test-Methods.md)  
-[How to: Create Handler Methods](How-to--Create-Handler-Methods.md)  
-[Walkthrough: Testing Purchase Invoice Discounts](Walkthrough--Testing-Purchase-Invoice-Discounts.md)  
+[How to: Create a Test Runner Codeunit](How-to-Create-a-Test-Runner-Codeunit.md)  
+[How to: Create Test Codeunits and Test Methods](How-to-Create-Test-Codeunits-and-Test-Methods.md)  
+[How to: Create Handler Methods](How-to-Create-Handler-Methods.md)  
+[Walkthrough: Testing Purchase Invoice Discounts](Walkthrough-Testing-Purchase-Invoice-Discounts.md)  

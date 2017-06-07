@@ -24,17 +24,17 @@ manager: edupont
 
 |Table trigger|Executes when|  
 |-------------------|-------------------|  
-|[OnInsert Trigger](OnInsert-Trigger.md)|A new record is inserted into the table.|  
-|[OnModify Trigger](OnModify-Trigger.md)|A record in the table is modified.|  
-|[OnDelete Trigger](OnDelete-Trigger.md)|A record in the table is deleted.|  
-|[OnRename Trigger](OnRename-Trigger.md)|A record is modified in a primary key field.|  
+|[OnInsert Trigger](devenv-OnInsert-Trigger.md)|A new record is inserted into the table.|  
+|[OnModify Trigger](devenv-OnModify-Trigger.md)|A record in the table is modified.|  
+|[OnDelete Trigger](devenv-OnDelete-Trigger.md)|A record in the table is deleted.|  
+|[OnRename Trigger](devenv-OnRename-Trigger.md)|A record is modified in a primary key field.|  
 
  Fields have the following triggers.  
 
 |Field trigger|Executes when|  
 |-------------------|-------------------|  
-|[OnValidate \(Fields\) Trigger](OnValidate--Fields--Trigger.md)|Data is entered in a field or when the [VALIDATE Record\)](../methods/devenv-VALIDATE-Method-Record.md) is executed.|  
-|[OnLookup \(Fields\) Trigger](OnLookup--Fields--Trigger.md)|Lookup is activated.|  
+|[OnValidate \(Fields\) Trigger](devenv-OnValidate-Fields-Trigger.md)|Data is entered in a field or when the [VALIDATE Record\)](../methods/devenv-VALIDATE-Method-Record.md) is executed.|  
+|[OnLookup \(Fields\) Trigger](devenv-OnLookup-Fields-Trigger.md)|Lookup is activated.|  
 
 ## See Also  
- [How to: Define or Modify Table or Field Triggers](How-to--Define-or-Modify-Table-or-Field-Triggers.md)
+ [How to: Define or Modify Table or Field Triggers](How-to-Define-or-Modify-Table-or-Field-Triggers.md)

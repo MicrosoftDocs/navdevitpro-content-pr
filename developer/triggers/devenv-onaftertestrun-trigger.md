@@ -58,7 +58,7 @@ For more information, see [Testing With Permission Sets](testing-permissionsets.
  **true** indicates that the test  run succeeded; otherwise, **false** indicates that the test  run failed.  
 
 ## Applies To  
- Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](SubType-Property--Codeunit.md) set to **TestRunner**.  
+ Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](SubType-Property-Codeunit.md) set to **TestRunner**.  
 
 > [!NOTE]  
 >  This trigger is optional and not available on a test runner codeunit by default. To implement this trigger, you must manually add it as a .  
@@ -103,8 +103,8 @@ log.INSERT(true);
 
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   
- [How to: Create a Test Runner Codeunit](How-to--Create-a-Test-Runner-Codeunit.md)   
- [How to: Create Test Codeunits and Test Methods](How-to--Create-Test-Codeunits-and-Test-Methods.md)   
- [How to: Create Handler Methods](How-to--Create-Handler-Methods.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough--Testing-Purchase-Invoice-Discounts.md)   
- [OnBeforeTestRun Trigger](OnBeforeTestRun-Trigger.md)
+ [How to: Create a Test Runner Codeunit](How-to-Create-a-Test-Runner-Codeunit.md)   
+ [How to: Create Test Codeunits and Test Methods](How-to-Create-Test-Codeunits-and-Test-Methods.md)   
+ [How to: Create Handler Methods](How-to-Create-Handler-Methods.md)   
+ [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough-Testing-Purchase-Invoice-Discounts.md)   
+ [OnBeforeTestRun Trigger](devenv-OnBeforeTestRun-Trigger.md)

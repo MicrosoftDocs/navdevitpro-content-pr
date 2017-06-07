@@ -58,7 +58,7 @@ For more information, see [Testing With Permission Sets](testing-permissionsets.
  **true** to run the test ; otherwise, **false**. This value is checked after each  call.  
 
 ## Applies To  
- Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](SubType-Property--Codeunit.md) set to **TestRunner**.  
+ Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](SubType-Property-Codeunit.md) set to **TestRunner**.  
 
 > [!NOTE]  
 >  This trigger is optional and not available on a test runner codeunit by default. To implement this trigger, you must manually add it as a .  
@@ -72,7 +72,7 @@ For more information, see [Testing With Permission Sets](testing-permissionsets.
   
   The **OnBeforeTestRun** trigger is run in its own database transaction.  
 
- For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create a Test Runner Codeunit](How-to--Create-a-Test-Runner-Codeunit.md).  
+ For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create a Test Runner Codeunit](How-to-Create-a-Test-Runner-Codeunit.md).  
 
 ## Example  
  The following **OnBeforeTestRun** trigger code initializes a logging variable and returns **true** to indicate that the test  should execute. This example requires that you create the following global variable.  
@@ -88,8 +88,8 @@ EXIT(true);
 
 ## See Also  
  [Testing the Application](Testing-the-Application.md)  
- [How to: Create a Test Runner Codeunit](How-to--Create-a-Test-Runner-Codeunit.md)   
- [How to: Create Test Codeunits and Test Methods](How-to--Create-Test-Codeunits-and-Test-Methods.md)   
- [How to: Create Handler Methods](How-to--Create-Handler-Methods.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough--Testing-Purchase-Invoice-Discounts.md)   
- [OnAfterTestRun Trigger](OnAfterTestRun-Trigger.md)
+ [How to: Create a Test Runner Codeunit](How-to-Create-a-Test-Runner-Codeunit.md)   
+ [How to: Create Test Codeunits and Test Methods](How-to-Create-Test-Codeunits-and-Test-Methods.md)   
+ [How to: Create Handler Methods](How-to-Create-Handler-Methods.md)   
+ [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough-Testing-Purchase-Invoice-Discounts.md)   
+ [OnAfterTestRun Trigger](devenv-OnAfterTestRun-Trigger.md)
