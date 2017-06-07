@@ -24,9 +24,9 @@ Reads from or writes to files and BLOBs.
   
 -   [CREATEOUTSTREAM method \(BLOB\)](CREATEOUTSTREAM-method--BLOB-.md)  
   
--   [CREATEINSTREAM method \(File\)](CREATEINSTREAM-method--File-.md)  
+-   [CREATEINSTREAM method (File)](CREATEINSTREAM-method-File.md)  
   
--   [CREATEOUTSTREAM method \(File\)](CREATEOUTSTREAM-method--File-.md)  
+-   [CREATEOUTSTREAM method (File)](CREATEOUTSTREAM-method-File.md)  
   
  You can use InStream in the following ways:  
   

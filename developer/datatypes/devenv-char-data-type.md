@@ -1,7 +1,7 @@
 ---
 title: "Char Data Type"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -38,6 +38,6 @@ MyText[5] := 'e';
 ```  
   
 ## See Also  
- [Text Data Type](Text-data-type.md)   
- [Code Data Type](Code-data-type.md)   
- [Byte Data Type](Byte-data-type.md)
+ [Text Data Type](devenv-text-data-type.md)   
+ [Code Data Type](devenv-code-data-type.md)   
+ [Byte Data Type](devenv-byte-data-type.md)

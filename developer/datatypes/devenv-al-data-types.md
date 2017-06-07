@@ -1,7 +1,7 @@
 ---
 title: "AL Data Types"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -53,7 +53,7 @@ AL uses variables to store data of various types. By declaring variables of the 
 |[Dialog Data Type](devenv-dialog-data-type.md)|Complex||  
 |DotNet Data Type|Complex||  
 |[File Data Type](devenv-file-data-type.md)|Complex||  
-|[FieldRef Data Type](devenv-fieldref-data-type.md)|Complex||  
+|[fieldref Data Type](devenv-fieldref-data-type.md)|Complex||  
 |[GUID Data Type](devenv-guid-data-type.md)|Complex||  
 |[InStream and OutStream Data Types](devenv-instream-and-outstream-data-types.md)|Complex||  
 |[KeyRef Data Type](devenv-keyref-data-type.md)|Complex||  
@@ -300,8 +300,8 @@ MAXSTRLEN(t); // Returns 6.
 #### File data type  
  The File data type provides access to operating system files.  
 
-#### FieldRef data type  
- The FieldRef data type identifies a field in a table and gives you access to this field. The FieldRef object can refer to any field in any table in the database.  
+#### fieldref data type  
+ The fieldref data type identifies a field in a table and gives you access to this field. The fieldref object can refer to any field in any table in the database.  
 
 #### GUID data type  
  The GUID data type gives a unique identifying number to any database object.  
