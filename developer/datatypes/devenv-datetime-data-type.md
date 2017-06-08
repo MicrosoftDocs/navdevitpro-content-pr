@@ -19,7 +19,7 @@ Denotes a date and time ranging from January 1, 1753, 00:00:00.000 to December 3
 ## Remarks  
  A DateTime is stored in the database as Coordinated Universal Time (UTC). UTC is the international time standard (formerly Greenwich Mean Time, or GMT). Zero hours UTC is midnight at 0 degrees longitude.  
   
- The DateTime is always displayed as local time in [!INCLUDE[d356fin_long_md](../includes/d356fin_long_md.md)]. Local time is determined by the time zone regional settings used by your computer. You must always enter DateTimes as local time. When you enter a DateTime as local time, it is converted to UTC using the current settings for the time zone and daylight savings time.  
+ The DateTime is always displayed as local time in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. Local time is determined by the time zone regional settings used by your computer. You must always enter DateTimes as local time. When you enter a DateTime as local time, it is converted to UTC using the current settings for the time zone and daylight savings time.  
   
  The DateTime data type does not support closing dates.  
   
