@@ -174,7 +174,7 @@ Number := "Purchase Header".Type;
 ```  
 
 #### Code data type  
- The Code data type represents a special type of text string. When a given text is assigned to a variable of data type Code, the text is changed to uppercase and any leading and trailing spaces are removed. You can index any character position in a string, for example, A[65]. The resulting values will be of the Char data type. The length of a variable of data type Code always corresponds to the number of characters in the text without leading and trailing spaces. If you do not specify the length of a Code variable, then the maximum length is 2GB, which is the limit imposed by Microsoft .NET Framework. The maximum length of a table field of data type Code is 250 characters.  <!-- .NET framework mentioning here -->
+ The Code data type represents a special type of text string. When a given text is assigned to a variable of data type Code, the text is changed to uppercase and any leading and trailing spaces are removed. You can index any character position in a string, for example, A[65]. The resulting values will be of the Char data type. The length of a variable of data type Code always corresponds to the number of characters in the text without leading and trailing spaces. If you do not specify the length of a Code variable, then the maximum length is 2GB, which is the limit imposed by Microsoft .NET Framework. The maximum length of a table field of data type Code is 250 characters.  <!-- //NAV .NET framework mentioning here -->
 
  The following table shows some typical examples of Code string assignments. In the following examples, it is assumed that the variable c is of data type Code, and has a maximum length of 4.  
 
@@ -187,7 +187,7 @@ Number := "Purchase Header".Type;
 |c := '1 2';|'1 2'|3|  
 
 #### Text data type  
- The Text data type represents a text string. You can index any character position in a string, for example A[65] refers to the 65th character in the variable called A. The resulting values will be of data type Char. The length of a variable of data type Text corresponds to the number of characters in the text. For example, an empty text string has length 0. If you do not specify the length of a Text variable, then the maximum length is 2GB, which is the limit imposed by Microsoft .NET Framework. The maximum length of a table field of data type Text is 250 characters.  <!-- .NET framework mentioning here -->
+ The Text data type represents a text string. You can index any character position in a string, for example A[65] refers to the 65th character in the variable called A. The resulting values will be of data type Char. The length of a variable of data type Text corresponds to the number of characters in the text. For example, an empty text string has length 0. If you do not specify the length of a Text variable, then the maximum length is 2GB, which is the limit imposed by Microsoft .NET Framework. The maximum length of a table field of data type Text is 250 characters.  <!-- //NAV .NET framework mentioning here -->
 
  The following table shows some typical examples of text strings. In these examples, it is assumed that the variable t is of data type Text and has a maximum length of 6.  
 
@@ -292,7 +292,7 @@ MAXSTRLEN(t); // Returns 6.
 #### Dialog data type  
  The Dialog data type stores dialog windows. A number of methods are available for manipulating dialogs.  
 
-<!--
+<!-- //NAV
 #### DotNet data Type  
  For more information about the DotNet data type, see [Calling .NET Framework Members from AL](Calling-.NET-Framework-Members-from-C-AL.md).  
 -->
@@ -316,7 +316,7 @@ MAXSTRLEN(t); // Returns 6.
 #### KeyRef data type
  The KeyRef data type identifies a key in a table and the fields in this key. This gives you access to the key and the fields it contains. The KeyRef object can refer to any key in any table in the database.  
 
-<!--
+<!-- //NAV
 #### OCX data type  
  For more information about the OCX data type, see [Extending Microsoft Dynamics NAV Using COM](Extending-Microsoft-Dynamics-NAV-Using-COM.md).  
  -->
@@ -392,4 +392,4 @@ MAXSTRLEN(t); // Returns 6.
 
  As another example, assume that SampleArrayVariable2 is an array variable of data type Date with the dimensions 2x3x4. SampleArrayVariable2 has 24 elements. To index the first element, use SampleArrayVariable2[1,1,1]. To index the last element, use SampleArrayVariable2[2,3,4].  
 
- To declare a variable as an array, open the **Properties** window for the variable and then set the **Dimensions** property. For more information, see [Dimensions Property](devenv-dimensions-property.md).
+ To declare a variable as an array, open the **Properties** window for the variable and then set the **Dimensions** property. For more information, see [Dimensions Property](../devenv-dimensions-property.md).
