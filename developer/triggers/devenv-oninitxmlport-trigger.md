@@ -18,4 +18,4 @@ Executed when the XMLport is loaded and before any table views and filters are s
  XMLports  
   
 ## See Also  
- [Triggers](Triggers.md)
+ [Triggers](devenv-triggers.md)

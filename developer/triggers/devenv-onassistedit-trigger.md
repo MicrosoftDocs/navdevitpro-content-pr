@@ -26,4 +26,4 @@ Executed in place of the [AssistEdit Property](../devenv-AssistEdit-Property.md)
  You can use this trigger to write to the database.  
 
 ## See Also  
- [Triggers](Triggers.md)
+ [Triggers](devenv-triggers.md)

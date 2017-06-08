@@ -21,4 +21,4 @@ Executed after the table is initialized and before you start exporting data to a
  This trigger is only used to export data. It is typically used to set filters on the data and to initialize variables before finding the first record.  
   
 ## See Also  
- [Triggers](Triggers.md)
+ [Triggers](devenv-triggers.md)
