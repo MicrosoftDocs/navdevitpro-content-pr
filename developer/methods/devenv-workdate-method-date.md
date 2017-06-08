@@ -56,4 +56,4 @@ MESSAGE(Text000, WORKDATE);
  **The work date is: 01/01/14**  
 
 ## See Also  
- [Date and Time Methods](Date-and-Time-Methods.md)
+ [Date and Time Methods](devenv-Date-and-Time-Methods.md)

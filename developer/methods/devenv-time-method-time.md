@@ -46,4 +46,4 @@ MESSAGE(Text000, TIME);
   
 ## See Also  
  [Time Data Type](../datatypes/devenv-Time-Data-Type.md)   
- [Date and Time Methods](Date-and-Time-Methods.md)
+ [Date and Time Methods](devenv-Date-and-Time-Methods.md)

@@ -36,4 +36,4 @@ Time := DT2TIME(Datetime)
  If *Datetime* is undefined, then this method returns an undefined time.  
   
 ## See Also  
- [DateTime Methods](DateTime-Methods.md)
+ [DateTime Methods](devenv-DateTime-Methods.md)

@@ -37,4 +37,4 @@ Gets the action that the test page invokes.
  The action that the test page invokes. This return value is optional.  
   
 ## See Also  
- [TestPage Methods](TestPage-Methods.md)
+ [TestPage Methods](devenv-TestPage-Methods.md)

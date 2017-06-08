@@ -37,4 +37,4 @@ MESSAGE(Format(TestDateTime));
  The message window displays the current date and time.  
   
 ## See Also  
- [DateTime Methods](DateTime-Methods.md)
+ [DateTime Methods](devenv-DateTime-Methods.md)
