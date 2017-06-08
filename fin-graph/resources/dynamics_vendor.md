@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Vendor resource type
-Represents a vendor resource type in Dynamics 365 for Financials.
+Represents a vendor in Dynamics 365 for Financials.
 
 ## Methods
 

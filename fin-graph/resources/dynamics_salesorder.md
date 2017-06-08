@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Sales order resource type
-Represents a salesOrder resource type in Dynamics 365 for Financials.
+Represents a sales order in Dynamics 365 for Financials.
 
 ## Methods
 
