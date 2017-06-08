@@ -23,5 +23,5 @@ Executed when a user inserts a new record into the table.
  In tables where records are entered in pages that have the [DelayedInsert Property](../devenv-DelayedInsert-Property.md) set to **Yes**, we recommend that you write any code that is in an OnInsert trigger so that it will always succeed. For example, this applies to journal lines.  
   
 ## See Also  
- [Triggers](Triggers.md)   
+ [Triggers](devenv-triggers.md)   
  [PasteIsValid Property](../devenv-PasteIsValid-Property.md)

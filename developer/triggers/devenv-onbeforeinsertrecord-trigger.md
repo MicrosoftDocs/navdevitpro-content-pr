@@ -23,4 +23,4 @@ Executed after a record has been loaded and before it is inserted into a databas
  If the [AutoSave Property](../devenv-AutoSave-Property.md) is **No**, then although the record is not inserted automatically, the OnBeforeInsertRecord trigger is still called before the insertion would have occurred.  
   
 ## See Also  
- [Triggers](Triggers.md)
+ [Triggers](devenv-triggers.md)
