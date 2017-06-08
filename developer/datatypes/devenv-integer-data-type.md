@@ -43,8 +43,8 @@ IntegerVar := IntegerVar - 1;
 ## See Also  
  [BigInteger Data Type](devenv-biginteger-data-type.md)   
  [Decimal Data Type](devenv-decimal-data-type.md)   
- [ABS method (Decimal, Integer, BigInteger)](devenv-abs-method-decimal-integer-biginteger.md)  
- [POWER method (Decimal, Integer, BigInteger)](devenv-power-method-decimal-integer-biginteger.md)  
- [RANDOM method (Integer)](devenv-random-method-integer.md)   
- [RANDOMIZE method (Integer)](devenv-randomize-method-integer.md)   
- [ROUND method (Decimal)](devenv-round-method-decimal.md)
+ [ABS method (Decimal, Integer, BigInteger)](../methods/devenv-abs-method-decimal-integer-biginteger.md)  
+ [POWER method (Decimal, Integer, BigInteger)](../methods/devenv-power-method-decimal-integer-biginteger.md)  
+ [RANDOM method (Integer)](../methods/devenv-random-method-integer.md)   
+ [RANDOMIZE method (Integer)](../methods/devenv-randomize-method-integer.md)   
+ [ROUND method (Decimal)](../methods/devenv-round-method-decimal.md)
