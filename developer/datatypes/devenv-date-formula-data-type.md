@@ -31,4 +31,4 @@ IF FORMAT(DateFormulaVariable) = ' ' THEN
 
 ## See Also  
  [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)   
- [DateFormula Property](../devenv-DateFormula-Property.md)
+ [DateFormula Property](../devenv-dateformula-property.md)

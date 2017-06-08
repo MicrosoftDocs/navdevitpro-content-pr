@@ -14,17 +14,17 @@ manager: edupont
 # System
 This section contains the following topics:  
 
--   [Array methods](devenv-array-methods.md)  
+-   [Array methods](../methods/devenv-array-methods.md)  
 
 -   [Error Handling](Error-Handling.md)  
 
--   [Language methods](devenv-language-methods.md)  
+-   [Language methods](../methods/devenv-language-methods.md)  
 
--   [Operating System methods](devenv-operating-system-methods.md)  
+-   [Operating System methods](../methods/devenv-operating-system-methods.md)  
 
--   [Variable methods](devenv-variable-methods.md)  
+-   [Variable methods](../methods/devenv-variable-methods.md)  
 
--   [Encryption methods](devenv-encryption-methods.md)  
+-   [Encryption methods](../methods/devenv-encryption-methods.md)  
 
 ## See Also  
  [AL methods](C-AL-methods.md)   
