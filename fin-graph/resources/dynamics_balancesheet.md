@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Balance sheet resource type
-Represents a balanceSheet resource type in Dynamics 365 for Financials.
+Represents a balanceSheet object in Dynamics 365 for Financials. A balance sheet is a statement of the assets, liabilities, and capital of a business at a specific point in time.
 
 ## Methods
 

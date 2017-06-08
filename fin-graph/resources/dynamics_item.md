@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Item resource type
-Represents an item resource type in Dynamics 365 for Financials.
+Represents an item in Dynamics 365 for Financials.
 
 ## Methods
 
