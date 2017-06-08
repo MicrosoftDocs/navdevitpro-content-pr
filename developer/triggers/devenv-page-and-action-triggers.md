@@ -52,7 +52,8 @@ Page triggers allow you to use AL code to control the behavior of the system as 
 |[OnLookup \(Page fields\) Trigger](devenv-onlookup-page-fields-trigger.md)|When the user requests a lookup by clicking a field's lookup button or pressing F4.|  
 |[OnDrillDown Trigger](devenv-ondrilldown-trigger.md)|When the user requests a drill-down by choosing the field's drill-down button or pressing Shift+F8.|  
 |[OnAssistEdit Trigger](devenv-onassistedit-trigger.md)|When the user requests assist-edit by choosing an AssistEdit button or by pressing Shift+F4.|  
-|[OnControlAddin Trigger](devenv-oncontroladdin-trigger.md)|When a control add-in is initiated on a page.|  
+
+<!--NAV |[OnControlAddin Trigger](devenv-oncontroladdin-trigger.md)|When a control add-in is initiated on a page.| -->
 
 ## Action Triggers  
  The following table lists triggers that apply to actions on a page.  
