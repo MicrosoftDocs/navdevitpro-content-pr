@@ -36,4 +36,4 @@ Executed before a record is modified in the table.
  You can write to the database using this trigger.  
   
 ## See Also  
- [Triggers](Triggers.md)
+ [Triggers](devenv-triggers.md)

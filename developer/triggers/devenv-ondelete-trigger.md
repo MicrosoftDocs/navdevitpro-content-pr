@@ -21,4 +21,4 @@ Executed when a user tries to delete a record.
  This trigger executes before the default delete behavior. The record is not deleted if an error occurs in the trigger code.  
   
 ## See Also  
- [Triggers](Triggers.md)
+ [Triggers](devenv-triggers.md)

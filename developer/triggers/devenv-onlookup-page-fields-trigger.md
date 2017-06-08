@@ -48,4 +48,4 @@ OnLookup(TextString)
 >  **OnLookup** is also a field trigger at the table level. The flow is different for this trigger. When a lookup is requested, the page field's OnLookup trigger is executed if it is defined in the field lookup or system default. If no control lookup trigger is defined, the [OnLookup \(Fields\) Trigger](devenv-OnLookup-Fields-Trigger.md) \(if defined\) replaces the system default lookup .  
 
 ## See Also  
- [Triggers](Triggers.md)
+ [Triggers](devenv-triggers.md)

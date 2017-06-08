@@ -18,4 +18,4 @@ Executed after the table views and filters are set and before the XMLport is run
  XMLports  
   
 ## See Also  
- [Triggers](Triggers.md)
+ [Triggers](devenv-triggers.md)
