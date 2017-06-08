@@ -33,22 +33,7 @@ This simple data type denotes a special type of string that is converted to uppe
  This example shows some typical examples of code string assignments. In these examples, assume that the variable c is a code variable with a maximum length of 4.  
   
 ```  
-c := 'ABC';   ertstr-method-code-text.md)   
- [COPYSTR method (Code, Text)](devenv-copystr-method-code-text.md)   
- [DELCHR method (Code, Text)](devenv-delchr-method-code-text.md)   
- [DELSTR method (Code, Text)](devenv-delstr-method-code-text.md)   
- [FORMAT method (Code, Text)](devenv-format-method-code-text.md)   
- [INCSTR method (Code, Text)](devenv-incstr-method-code-text.md)   
- [INSSTR method (Code, Text)](devenv-insstr-method-code-text.md)   
- [LOWERCASE method (Code, Text)](devenv-lowercase-method-code-text.md)   
- [MAXSTRLEN method (Code, Text)](devenv-maxstrlen-method-code-text.md)   
- [PADSTR method (Code, Text)](devenv-padstr-method-code-text.md)   
- [SELECTSTR method (Code, Text)](devenv-selectstr-method-code-text.md)   
- [STRCHECKSUM method (Code, Text)](devenv-strchecksum-method-code-text.md)   
- [STRLEN method (Code, Text)](devenv-strlen-method-code-text.md)   
- [STRPOS method (Code, Text)](devenv-strpos-method-code-text.md)   
- [STRSUBSTNO method (Code, Text)](devenv-strsubstno-method-code-text.md)   
- [UPPERCASE method (Code, Text)](devenv-uppercase-method-code-text.md)
+c := 'ABC';   
 // Results in variable c, which contains 'ABC'   
 // and is 3 characters in length.  
 c := '1';  
@@ -63,19 +48,19 @@ c := ' 2 ';
 ```  
   
 ## See Also  
- [CONVERTSTR method \(Code, Text\)](../methods/devenv-CONVERTSTR-method-Code-Text.md)   
- [COPYSTR method \(Code, Text\)](../methods/devenv-COPYSTR-method-Code-Text.md)   
- [DELCHR method \(Code, Text\)](../methods/devenv-DELCHR-method-Code-Text.md)   
- [DELSTR method \(Code, Text\)](../methods/devenv-DELSTR-method-Code-Text.md)   
- [FORMAT method \(Code, Text\)](../methods/devenv-FORMAT-method-Code-Text.md)   
- [INCSTR method \(Code, Text\)](../methods/devenv-INCSTR-method-Code-Text.md)   
- [INSSTR method \(Code, Text\)](../methods/devenv-INSSTR-method-Code-Text.md)   
- [LOWERCASE method \(Code, Text\)](../methods/devenv-LOWERCASE-method-Code-Text.md)   
- [MAXSTRLEN method \(Code, Text\)](../methods/devenv-MAXSTRLEN-method-Code-Text.md)   
- [PADSTR method \(Code, Text\)](../methods/devenv-PADSTR-method-Code-Text.md)   
- [SELECTSTR method \(Code, Text\)](../methods/devenv-SELECTSTR-method-Code-Text.md)   
- [STRCHECKSUM method \(Code, Text\)](../methods/devenv-STRCHECKSUM-method-Code-Text.md)   
- [STRLEN method \(Code, Text\)](../methods/devenv-STRLEN-method-Code-Text.md)   
- [STRPOS method \(Code, Text\)](../methods/devenv-STRPOS-method-Code-Text.md)   
- [STRSUBSTNO method \(Code, Text\)](../methods/devenv-STRSUBSTNO-method-Code-Text.md)   
- [UPPERCASE method \(Code, Text\)](../methods/devenv-UPPERCASE-method-Code-Text.md)
+ [CONVERTSTR method (Code, Text)](../methods/devenv-convertstr-method-code-text.md)   
+ [COPYSTR method (Code, Text)](../methods/devenv-copystr-method-code-text.md)   
+ [DELCHR method (Code, Text)](../methods/devenv-delchr-method-code-text.md)   
+ [DELSTR method (Code, Text)](../methods/devenv-delstr-method-code-text.md)   
+ [FORMAT method (Code, Text)](../methods/devenv-format-method-code-text.md)   
+ [INCSTR method (Code, Text)](../methods/devenv-incstr-method-code-text.md)   
+ [INSSTR method (Code, Text)](../methods/devenv-insstr-method-code-text.md)   
+ [LOWERCASE method (Code, Text)](../methods/devenv-lowercase-method-code-text.md)   
+ [MAXSTRLEN method (Code, Text)](../methods/devenv-maxstrlen-method-code-text.md)   
+ [PADSTR method (Code, Text)](../methods/devenv-padstr-method-code-text.md)   
+ [SELECTSTR method (Code, Text)](../methods/devenv-selectstr-method-code-text.md)   
+ [STRCHECKSUM method (Code, Text)](../methods/devenv-strchecksum-method-code-text.md)   
+ [STRLEN method (Code, Text)](../methods/devenv-strlen-method-code-text.md)   
+ [STRPOS method (Code, Text)](../methods/devenv-strpos-method-code-text.md)   
+ [STRSUBSTNO method (Code, Text)](../methods/devenv-strsubstno-method-code-text.md)   
+ [UPPERCASE method (Code, Text)](../methods/devenv-uppercase-method-code-text.md)
