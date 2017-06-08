@@ -1,7 +1,7 @@
 ---
 title: "GUID Data Type"
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 06/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ Assigns a unique identifying number to any database object. The GUID data type i
   
  The standard textual representation is {12345678-1234-1234-1234-1234567890AB}.  
   
- The virtual table OLE Control \(2000000042\) does not use the GUID data type. It uses a textual representation of the GUID in a text field instead. It is easier to make operations and references to this text field using the GUID data type than it is using the textual representation. The GUID data type is compatible with the existing textual representation.  
+ The virtual table OLE Control (2000000042) does not use the GUID data type. It uses a textual representation of the GUID in a text field instead. It is easier to make operations and references to this text field using the GUID data type than it is using the textual representation. The GUID data type is compatible with the existing textual representation.  
   
  The GUID data type is useful when you want to uniquely identify some data, so that it can be exchanged with external applications. For example, if you want to transfer an item catalog to an external application, you add a GUID field to the record in the table and use this as the primary reference when you communicate with the external application.  
   
@@ -57,7 +57,7 @@ AutoSplitKey
   
  A NULL GUID is valid but is not useful in a table. Therefore, the **AutoSplitKey** property is implemented for the GUID data type when it is used in a page. When GUID is selected as a primary key, **AutoSplitKey** is enabled for the page, and the GUID value remains NULL. When you create a new record, a valid GUID is created and assigned automatically.  
   
- The [CREATEGUID method \(GUID\)](../methods/devenv-CREATEGUID-method-GUID.md) and [ISNULLGUID method \(GUID\)](../methods/devenv-ISNULLGUID-method-GUID.md) methods are available in the AL Symbol Menu under SYSTEM, Variables.  
+ The [CREATEGUID method (GUID)](../methods/devenv-createguid-method-GUID.md) and [ISNULLGUID method (GUID)](../methods/devenv-isnullguid-method-guid.md) methods are available in the AL Symbol Menu under SYSTEM, Variables.  
   
  CREATEGUID takes no arguments and returns a valid 16-byte GUID value. If the result is assigned to a TEXT variable or field, the value is converted to a string and follows the syntax explained earlier. The algorithm that generates the new GUID value uses Microsoft's CoCreateGuid method.  
   
@@ -73,5 +73,5 @@ AutoSplitKey
  **Invalid Format of GUID string. The correct format of the GUID string is {CDEF7890-ABCD-1234-ABCD-1234567890AB} where 0-9, A-F symbolizes hexadecimal digits.**  
   
 ## See Also  
- [CREATEGUID method \(GUID\)](../methods/devenv-CREATEGUID-method-GUID.md)   
- [ISNULLGUID method \(GUID\)](../methods/devenv-ISNULLGUID-method-GUID.md)
+ [CREATEGUID method (GUID)](../methods/devenv-createguid-method-guid.md)   
+ [ISNULLGUID method (GUID)](../methods/devenv-isnulguid-method-guid.md)

@@ -1,7 +1,7 @@
 ---
 title: "Query Data Type"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,16 +19,16 @@ A complex data type that stores queries.
   
 ## See Also  
  [Accessing Columns of a Query Dataset](Accessing-Columns-of-a-Query-Dataset.md)   
- [CLOSE Function \(Query\)](CLOSE-Function--Query-.md)   
- [COLUMNCAPTION Function](COLUMNCAPTION-Function.md)   
- [COLUMNNAME Function](COLUMNNAME-Function.md)   
- [COLUMNNO Function](COLUMNNO-Function.md)   
- [GETFILTER Function \(Query\)](GETFILTER-Function--Query-.md)   
- [GETFILTERS Function \(Query\)](GETFILTERS-Function--Query-.md)   
- [OPEN Function \(Query\)](OPEN-Function--Query-.md)   
- [READ Function \(Query\)](READ-Function--Query-.md)   
- [SAVEASCSV Function](SAVEASCSV-Function.md)   
- [SAVEASXML Function](SAVEASXML-Function.md)   
- [SETFILTER Function \(Query\)](SETFILTER-Function--Query-.md)   
- [SETRANGE Function \(Query\)](SETRANGE-Function--Query-.md)   
- [TOPNUMBEROFROWS Function](TOPNUMBEROFROWS-Function.md)
+ [CLOSE method (Query)](devenv-close-method-query.md)   
+ [COLUMNCAPTION method](devenv-columncaption-method.md)   
+ [COLUMNNAME method](devenv-columnname-method.md)   
+ [COLUMNNO method](devenv-columnno-method.md)   
+ [GETFILTER method (Query)](devenv-getfilter-method-query.md)   
+ [GETFILTERS method (Query)](devenv-getfilters-method-query.md)   
+ [OPEN method (Query)](devenv-open-method-query.md)   
+ [READ method (Query)](devenv-read-method-query.md)   
+ [SAVEASCSV method](devenv-saveascsv-method.md)   
+ [SAVEASXML method](devenv-saveasxml-method.md)   
+ [SETFILTER method (Query)](devenv-setfilter-method-query.md)   
+ [SETRANGE method (Query)](devenv-setrange-method-query.md)   
+ [TOPNUMBEROFROWS method](devenv-topnumberofrows-method.md)

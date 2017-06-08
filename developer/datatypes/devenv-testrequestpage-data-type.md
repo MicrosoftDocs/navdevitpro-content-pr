@@ -12,10 +12,10 @@ caps.latest.revision: 5
 manager: edupont
 ---
 # TestRequestPage Data Type
-This data type stores test request pages. A test request page part is a logical representation of a request page on a report. A test request page does not display a user interface \(UI\). The subtype of a test request page is the report whose request page you want to test.  
+This data type stores test request pages. A test request page part is a logical representation of a request page on a report. A test request page does not display a user interface (UI). The subtype of a test request page is the report whose request page you want to test.  
   
 ## Remarks  
  You can use test request pages only within test codeunits.  
   
 ## See Also  
- [TestPage Data Type](TestPage-data-type.md)
+ [TestPage Data Type](devenv-testpage-data-type.md)
