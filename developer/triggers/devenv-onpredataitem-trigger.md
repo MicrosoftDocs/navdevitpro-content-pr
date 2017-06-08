@@ -12,17 +12,17 @@ caps.latest.revision: 7
 ---
 # OnPreDataItem Trigger
 Executed before a data item is processed.  
-  
+
 ## Applies To  
  Data items  
-  
+
 ## Remarks  
  This trigger is executed before a data item is processed, but after the associated variable is initialized and table views and filters are set.  
-  
- You can use this trigger to add additional filtering beyond what is established by the [DataItemLink Property \(Reports\)](DataItemLink-Property-Reports.md) or [DataItemTableView Property](../devenv-DataItemTableView-Property.md). For example, use this trigger if you need to filter an indented data item based on the result of a calculation. Use the [SETRANGE Record\)](../methods/devenv-SETRANGE-Method-Record.md) or [SETFILTER Record\)](../methods/devenv-SETFILTER-Method-Record.md)  to add extra delimiters.  
-  
+
+ You can use this trigger to add additional filtering beyond what is established by the [DataItemLink Property \(Reports\)](../devenv-dataitemlink-property-reports.md) or [DataItemTableView Property](../devenv-DataItemTableView-Property.md). For example, use this trigger if you need to filter an indented data item based on the result of a calculation. Use the [SETRANGE Record\)](../methods/devenv-SETRANGE-Method-Record.md) or [SETFILTER Record\)](../methods/devenv-SETFILTER-Method-Record.md)  to add extra delimiters.  
+
 ## See Also  
- [DataItemLink Property \(Reports\)](DataItemLink-Property-Reports.md)   
+ [DataItemLink Property \(Reports\)](../devenv-dataitemlink-property-reports.md)   
  [DataItemTableView Property](../devenv-DataItemTableView-Property.md)   
  [SETRANGE Record\)](../methods/devenv-SETRANGE-Method-Record.md)   
  [SETFILTER Record\)](../methods/devenv-SETFILTER-Method-Record.md)
