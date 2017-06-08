@@ -51,4 +51,4 @@ MESSAGE('Is the Printer Selection table empty?: %1', varIsEmpty);
 ```  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

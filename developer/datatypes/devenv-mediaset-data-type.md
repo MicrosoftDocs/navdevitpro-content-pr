@@ -17,10 +17,10 @@ The **MediaSet** data type enables you to import media to the application databa
 
 ## See Also  
 [Working With Media on Records](Working-With-Media-on-Records.md)  
-[COUNT method \(MediaSet\)](COUNT-method--MediaSet-.md)  
-[IMPORTFILE method \(MediaSet\)](IMPORTFILE-method--MediaSet-.md)   
-[IMPORTSTREAM method \(MediaSet\)](IMPORTSTREAM-method--MediaSet-.md)  
-[INSERT method \(MediaSet\)](INSERT-method--MediaSet-.md)  
-[ITEM method \(MediaSet\)](ITEM-method--MediaSet-.md)  
-[MEDIAID method \(MediaSet\)](MEDIAID-method--MediaSet-.md)  
-[EXPORTFILE method](EXPORTFILE-method-MediaSet.md)  
+[COUNT method \(MediaSet\)](../methods/devenv-COUNT-method-MediaSet.md)  
+[IMPORTFILE method \(MediaSet\)](../methods/devenv-IMPORTFILE-method-MediaSet.md)   
+[IMPORTSTREAM method \(MediaSet\)](../methods/devenv-IMPORTSTREAM-method-MediaSet.md)  
+[INSERT method \(MediaSet\)](../methods/devenv-INSERT-method-MediaSet.md)  
+[ITEM method \(MediaSet\)](../methods/devenv-ITEM-method-MediaSet.md)  
+[MEDIAID method \(MediaSet\)](../methods/devenv-MEDIAID-method-MediaSet.md)  
+[EXPORTFILE method](../methods/devenv-EXPORTFILE-method-MediaSet.md)  

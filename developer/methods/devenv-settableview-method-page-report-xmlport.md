@@ -53,5 +53,5 @@ SomePage.RUN
  The page that is reference by the SomePage variable can be any page object that has Sales Header as the value of the [SourceTable Property](../devenv-SourceTable-Property.md).  
   
 ## See Also  
- [Report Data Type](Report-Data-Type.md)   
- [XMLport Data Type](XMLport-Data-Type.md)
+ [Report Data Type](../datatypes/devenv-Report-Data-Type.md)   
+ [XMLport Data Type](../datatypes/devenv-XMLport-Data-Type.md)

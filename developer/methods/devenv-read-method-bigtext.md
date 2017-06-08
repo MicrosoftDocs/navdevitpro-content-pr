@@ -64,4 +64,4 @@ Bstr.READ(Istream);
  Use the [CALCFIELDS Method \(Record\)](devenv-CALCFIELDS-Method-Record.md) to calculate the BlobField. A BlobField is a binary large object \(maximum size 2 GB\) and must be calculated if you want to use it in AL or display it in the application.  
   
 ## See Also  
- [BigText Data Type](BigText-Data-Type.md)
+ [BigText Data Type](../datatypes/devenv-BigText-Data-Type.md)

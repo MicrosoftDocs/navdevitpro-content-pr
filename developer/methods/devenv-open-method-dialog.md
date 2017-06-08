@@ -119,4 +119,4 @@ MyDialog.CLOSE()
  ![Dialog window progress indicator](media/DialogOPENFunction.png "DialogOPENFunction")  
   
 ## See Also  
- [Dialog Data Type](Dialog-Data-Type.md)
+ [Dialog Data Type](../datatypes/devenv-Dialog-Data-Type.md)

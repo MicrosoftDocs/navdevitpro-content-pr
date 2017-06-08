@@ -49,4 +49,4 @@ CurrPage.SETSELECTIONFILTER(Record)
 -   Marks the selected records and sets the "marked only" filter  
   
 ## See Also  
- [Page Data Type](Page-Data-Type.md)
+ [Page Data Type](../datatypes/devenv-Page-Data-Type.md)

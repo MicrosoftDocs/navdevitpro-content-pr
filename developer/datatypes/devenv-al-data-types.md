@@ -313,7 +313,7 @@ MAXSTRLEN(t); // Returns 6.
 #### InStream and OutStream data types  
  The InStream and OutStream data types enable you to read from or write to files and BLOBs. In addition, you can use InStream and OutStream to read from and write to objects of the Automation and OCX data types.  
 
-#### KeyRef data type 
+#### KeyRef data type
  The KeyRef data type identifies a key in a table and the fields in this key. This gives you access to the key and the fields it contains. The KeyRef object can refer to any key in any table in the database.  
 
 <!-- //NAV
@@ -324,7 +324,7 @@ MAXSTRLEN(t); // Returns 6.
 #### Page data type  
  The Page data type stores pages that can contain several simpler elements called controls.  
 
-#### Query data type 
+#### Query data type
  The Query data type stores queries, which enable you to retrieve data from tables in the database and combine the data in a single dataset.  
 
 #### Record data type  

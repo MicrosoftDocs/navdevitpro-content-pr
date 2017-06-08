@@ -43,4 +43,4 @@ MyRecord.DELETELINKS;
   
 ## See Also  
  [DELETELINKS Method \(RecordRef\)](devenv-DELETELINKS-Method-RecordRef.md)   
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

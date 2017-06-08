@@ -95,4 +95,4 @@ If you run system table **2000000181 Tenant Media**, you should see the new imag
 ## See Also  
  [Working With Media on Records](Working-With-Media-on-Records.md)  
  [IMPORTSTREAM Method \(MediaSet\)](devenv-IMPORTSTREAM-Method-MediaSet.md)   
- [MediaSet Data Type](MediaSet-Data-Type.md)
+ [MediaSet Data Type](../datatypes/devenv-MediaSet-Data-Type.md)

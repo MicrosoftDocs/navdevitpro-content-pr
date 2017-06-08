@@ -37,7 +37,7 @@ Finds the specified record in a dataset on a test page.
  **true** if the specified record is found; otherwise, **false**. The return value is optional.  
 
 ## Remarks
-The GOTORECORD method loops over all records until it finds the identifies record.  For each record, the [OnAfterGetCurrentRecord trigger](OnAfterGetCurrRecord-Trigger.md) is executed.  
+The GOTORECORD method loops over all records until it finds the identifies record.  For each record, the [OnAfterGetCurrentRecord Trigger](../triggers/devenv-OnAfterGetCurrRecord-Trigger.md) is executed.  
 
 ## See Also  
  [TestPage Methods](TestPage-Methods.md)

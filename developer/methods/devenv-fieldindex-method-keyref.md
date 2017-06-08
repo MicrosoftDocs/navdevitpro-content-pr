@@ -57,4 +57,4 @@ MESSAGE('The Field name is: %1' ,varFieldRef.CAPTION);
 ```  
   
 ## See Also  
- [KeyRef Data Type](KeyRef-Data-Type.md)
+ [KeyRef Data Type](../datatypes/devenv-KeyRef-Data-Type.md)

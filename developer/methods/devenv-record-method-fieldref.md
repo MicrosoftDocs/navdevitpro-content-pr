@@ -33,7 +33,7 @@ RecordRef := FieldRef.RECORD
   
  The RecordRef of the field that is currently selected.  
   
- See also [RecordRef Data Type](RecordRef-Data-Type.md).  
+ See also [RecordRef Data Type](../datatypes/devenv-RecordRef-Data-Type.md).  
   
 ## Example  
  The following example opens the Item table as a RecordRef variable that is named ItemRecref, creates a reference to field 1 \(No.\), and stores the value in the variable named MyFieldRef. The RECORD method uses the MyFieldRef variable to return the RecordRef of field 1 and stores the reference in a variable named MyRecRef. `MyRecRef.NUMBER` returns the table that the selected field belongs to. This example requires that you create the following global variables and text constants.  
@@ -57,4 +57,4 @@ MESSAGE(Text000, MyRecRef.NUMBER);
 ```  
   
 ## See Also  
- [FieldRef Data Type](FieldRef-Data-Type.md)
+ [FieldRef Data Type](../datatypes/devenv-FieldRef-Data-Type.md)

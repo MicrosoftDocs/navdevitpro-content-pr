@@ -74,4 +74,4 @@ MESSAGE(Text001 + Text002 + Text003, FldRef1.CAPTION, FldRef2.CAPTION, FldRef3.C
  ![Table 112 designer and keys](../media/DesignTable112.png "DesignTable112")  
 
 ## See Also  
- [RecordRef Data Type](RecordRef-Data-Type.md)
+ [RecordRef Data Type](../datatypes/devenv-RecordRef-Data-Type.md)

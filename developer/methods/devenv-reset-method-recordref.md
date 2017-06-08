@@ -63,4 +63,4 @@ MESSAGE(Text002, Filters3);
 ```  
   
 ## See Also  
- [RecordRef Data Type](RecordRef-Data-Type.md)
+ [RecordRef Data Type](../datatypes/devenv-RecordRef-Data-Type.md)

@@ -63,4 +63,4 @@ ItemRec.INSERT;
 ```  
   
 ## See Also  
- [BigText Data Type](BigText-Data-Type.md)
+ [BigText Data Type](../datatypes/devenv-BigText-Data-Type.md)

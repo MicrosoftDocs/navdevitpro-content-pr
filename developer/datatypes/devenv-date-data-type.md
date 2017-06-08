@@ -1,7 +1,11 @@
 ---
 title: "Date Data Type"
 ms.custom: na
+<<<<<<< HEAD
 ms.date: 06/07/2017
+=======
+ms.date: 06/05/2016
+>>>>>>> refs/remotes/MicrosoftDocs/master
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,7 +18,7 @@ manager: edupont
 # Date Data Type
 Denotes a date ranging from January 1, 1753 to December 31, 9999.  
   
- The displayed text format of the date is determined by your Region and Language Format setting in Windows.  
+The displayed text format of the date is determined by your Region and Language Format setting in Windows.  
   
 ## Undefined dates  
  An undefined or blank date is specified by 0D. The undefined date is considered to be before all other dates.  
@@ -43,8 +47,8 @@ Denotes a date ranging from January 1, 1753 to December 31, 9999.
 |--------------|--------------|  
 |Date1|Date|  
   
- This example is compiled and run on a computer with the regional format set to English \(United States\).  
-  
+ This example is compiled and run on a computer with the regional format set to English (United States).   
+
 ```  
 Date1 := 0D;  
 Date1 := 112710D;  

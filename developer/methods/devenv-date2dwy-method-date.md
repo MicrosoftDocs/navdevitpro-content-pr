@@ -12,7 +12,7 @@ caps.latest.revision: 13
 manager: edupont
 ---
 # DATE2DWY Method (Date)
-Gets the day of the week, week number, or year of a [Date Data Type](Date-Data-Type.md).  
+Gets the day of the week, week number, or year of a [Date Data Type](../datatypes/devenv-Date-Data-Type.md).  
   
 ## Syntax  
   

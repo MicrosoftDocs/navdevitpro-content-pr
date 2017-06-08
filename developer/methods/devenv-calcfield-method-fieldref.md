@@ -38,7 +38,7 @@ Updates FlowFields in a record.
 
  When a FlowField is a direct source expression of a control on a page or a report, the calculation is automatically performed.  
 
- You can also use the CALCFIELDS method to calculate binary large objects \(BLOBs\). For more information, see [BLOB Data Type](BLOB-Data-Type.md).  
+ You can also use the CALCFIELDS method to calculate binary large objects \(BLOBs\). For more information, see [BLOB Data Type](../datatypes/devenv-BLOB-Data-Type.md).  
 
  This method is similar to the [CALCFIELDS Method \(Record\)](devenv-CALCFIELDS-Method-Record.md) method.  
 
@@ -69,5 +69,5 @@ IF CustRecordref.FIND('-') THEN
 ```  
 
 ## See Also  
- [FieldRef Data Type](FieldRef-Data-Type.md)   
+ [FieldRef Data Type](../datatypes/devenv-FieldRef-Data-Type.md)   
  [FlowFields](FlowFields.md)

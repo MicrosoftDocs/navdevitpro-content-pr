@@ -59,4 +59,4 @@ itemRec.GET('1000');
 
 ## See Also  
 [Working With Media on Records](Working-With-Media-on-Records.md)  
-[MediaSet Data Type](MediaSet-Data-Type.md)  
+[MediaSet Data Type](../datatypes/devenv-MediaSet-Data-Type.md)  

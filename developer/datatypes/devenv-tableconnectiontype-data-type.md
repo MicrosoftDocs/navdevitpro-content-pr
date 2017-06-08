@@ -20,8 +20,8 @@ Use variables of this data type to specify the type of connection to an external
 ## See Also  
  [TableType Property](TableType-Property.md)   
  [External Tables](External-Tables.md)   
- [REGISTERTABLECONNECTION method \(Database\)](REGISTERTABLECONNECTION-method--Database-.md)   
- [UNREGISTERTABLECONNECTION method \(Database\)](UNREGISTERTABLECONNECTION-method--Database-.md)   
- [SETDEFAULTTABLECONNECTION method \(Database\)](SETDEFAULTTABLECONNECTION-method--Database-.md)   
- [GETDEFAULTTABLECONNECTION method \(Database\)](GETDEFAULTTABLECONNECTION-method--Database-.md)   
- [HASTABLECONNECTION method \(Database\)](HASTABLECONNECTION-method--Database-.md)
+ [REGISTERTABLECONNECTION method \(Database\)](../methods/devenv-REGISTERTABLECONNECTION-method-Database.md)   
+ [UNREGISTERTABLECONNECTION method \(Database\)](../methods/devenv-UNREGISTERTABLECONNECTION-method-Database.md)   
+ [SETDEFAULTTABLECONNECTION method \(Database\)](../methods/devenv-SETDEFAULTTABLECONNECTION-method-Database.md)   
+ [GETDEFAULTTABLECONNECTION method \(Database\)](../methods/devenv-GETDEFAULTTABLECONNECTION-method-Database.md)   
+ [HASTABLECONNECTION method \(Database\)](../methods/devenv-HASTABLECONNECTION-method-Database.md)

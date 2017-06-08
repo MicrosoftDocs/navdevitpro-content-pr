@@ -51,4 +51,4 @@ MESSAGE(Text000, CurrentCompany);
   
 ## See Also  
  [CHANGECOMPANY Method \(Record\)](devenv-CHANGECOMPANY-Method-Record.md)   
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

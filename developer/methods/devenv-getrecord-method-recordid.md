@@ -51,4 +51,4 @@ RecRef := RecID.GETRECORD;
 ```  
 
 ## See Also  
- [RecordID Data Type](RecordID-Data-Type.md)
+ [RecordID Data Type](../datatypes/devenv-RecordID-Data-Type.md)

@@ -59,5 +59,5 @@ CustXmlFile.CLOSE;
 ```  
   
 ## See Also  
- [XMLport Data Type](XMLport-Data-Type.md)   
+ [XMLport Data Type](../datatypes/devenv-XMLport-Data-Type.md)   
  [Designing XMLports](Designing-XMLports.md)

@@ -55,4 +55,4 @@ Page.RUN(4711)
 ```  
 
 ## See Also  
- [Page Data Type](Page-Data-Type.md)
+ [Page Data Type](../datatypes/devenv-Page-Data-Type.md)

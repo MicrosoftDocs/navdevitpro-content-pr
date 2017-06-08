@@ -62,4 +62,4 @@ MESSAGE('The string:%1', ViewString);
 ```  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

@@ -67,5 +67,5 @@ ELSE
 ```  
   
 ## See Also  
- [File Data Type](File-Data-Type.md)   
+ [File Data Type](../datatypes/devenv-File-Data-Type.md)   
  [TEXTMODE Method \(File\)](devenv-TEXTMODE-Method-File.md)

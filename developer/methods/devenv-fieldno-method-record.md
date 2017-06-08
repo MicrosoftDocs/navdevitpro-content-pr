@@ -75,4 +75,4 @@ END;
  This construct allows you to take actions based on the field number contained in the CurrentFieldNo variable.  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

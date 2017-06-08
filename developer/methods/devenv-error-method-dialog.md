@@ -77,7 +77,7 @@ MESSAGE(Text001); // This line is not executed.
  The ERROR method causes execution of AL code to stop. The MESSAGE method is never executed.  
   
 ## See Also  
- [Dialog Data Type](Dialog-Data-Type.md)   
+ [Dialog Data Type](../datatypes/devenv-Dialog-Data-Type.md)   
  [MESSAGE Method \(Dialog\)](devenv-MESSAGE-Method-Dialog.md)   
  [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Methods.md)   
  [Error Handling](Error-Handling.md)

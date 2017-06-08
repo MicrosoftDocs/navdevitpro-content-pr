@@ -75,5 +75,5 @@ ERROR('The file could not be created');
 ```  
   
 ## See Also  
- [File Data Type](File-Data-Type.md)   
+ [File Data Type](../datatypes/devenv-File-Data-Type.md)   
  [Text Encoding](Text-Encoding.md)

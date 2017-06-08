@@ -70,6 +70,6 @@ ELSE
 ```  
 
 ## See Also  
- [Record Data Type](Record-Data-Type.md)   
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
  [FILTERGROUP Method \(Record\)](devenv-FILTERGROUP-Method-Record.md)   
  [GET, FIND, and NEXT Methods](GET--FIND--and-NEXT-Methods.md)

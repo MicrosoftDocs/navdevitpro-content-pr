@@ -49,4 +49,4 @@ MESSAGE('The number of fields defined in the key is: %1', VarCount);
 ```  
   
 ## See Also  
- [KeyRef Data Type](KeyRef-Data-Type.md)
+ [KeyRef Data Type](../datatypes/devenv-KeyRef-Data-Type.md)

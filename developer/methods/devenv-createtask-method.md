@@ -74,7 +74,7 @@ TASKSCHEDULER.CREATETASK(CODEUNIT::"Job Queue Dispatcher", CODEUNIT::"Job Queue 
 
 ## See Also  
  [Task Scheduler](Task-Scheduler.md)  
- [TaskScheduler Data Type](TaskScheduler-Data-Type.md)   
+ [TaskScheduler Data Type](../datatypes/devenv-TaskScheduler-Data-Type.md)   
  [CANCELTASK Method](devenv-CANCELTASK-Method.md)   
  [SETTASKREADY Method](devenv-SETTASKREADY-Method.md)   
  [TASKEXISTS Method](devenv-TASKEXISTS-Method.md)
