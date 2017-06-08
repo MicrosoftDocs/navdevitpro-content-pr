@@ -19,17 +19,17 @@ Every available [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] data type is m
 |BigInteger|BIGINT|  
 |BLOB|IMAGE|  
 |Boolean|TINYINT|  
-|Code\(n\)|NVARCHAR\(n\), INTEGER, SQL\_VARIANT|  
+|Code(n)|NVARCHAR(n), INTEGER, SQL_VARIANT|  
 |Date|DATETIME|  
-|DateFormula|VARCHAR\(32\)|  
-|Decimal|DECIMAL\(38,20\)|  
+|DateFormula|VARCHAR(32)|  
+|Decimal|DECIMAL(38,20)|  
 |Duration|BIGINT|  
 |GUID|UNIQUEIDENTIFIER|  
 |Integer|INTEGER|  
 |Option|INTEGER|  
-|RecordID|VARBINARY\(n\)|  
-|TableFilter|VARBINARY\(252\)|  
-|Text\(n\)|NVARCHAR\(n\)|  
+|RecordID|VARBINARY(n)|  
+|TableFilter|VARBINARY(252)|  
+|Text(n)|NVARCHAR(n)|  
 |Time|DATETIME|  
   
  Each of the SQL Server data types is created as NOT NULL except the IMAGE type, which allows NULL.

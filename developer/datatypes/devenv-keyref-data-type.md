@@ -1,7 +1,7 @@
 ---
 title: "KeyRef Data Type"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ Identifies a key in a table and the fields in this key.
  The KeyRef object can refer to any key in any table in the database.  
   
 ## See Also  
- [ACTIVE method \(KeyRef\)](../methods/devenv-ACTIVE-method-KeyRef.md)   
- [FIELDCOUNT method \(KeyRef\)](../methods/devenv-FIELDCOUNT-method-KeyRef.md)   
- [FIELDINDEX method \(KeyRef\)](../methods/devenv-FIELDINDEX-method-KeyRef.md)   
- [RECORD method \(KeyRef\)](../methods/devenv-RECORD-method-KeyRef.md)
+ [ACTIVE method (KeyRef)](../methods/devenv-active-method-keyref.md)   
+ [FIELDCOUNT method (KeyRef)](../methods/devenv-fieldcount-method-keyref.md)   
+ [FIELDINDEX method (KeyRef)](../methods/devenv-fieldindex-method-keyref.md)   
+ [RECORD method (KeyRef)](../methods/devenv-record-method-keyref.md)
