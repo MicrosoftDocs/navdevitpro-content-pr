@@ -17,7 +17,7 @@ The TaskScheduler data type is a complex data type for creating and managing tas
  For more information about the task scheduler, see [Task Scheduler](Task-Scheduler.md).  
 
 ## See Also  
- [CANCELTASK method](../methods/devenv-CANCELTASK-method.md)   
- [CREATETASK method](../methods/devenv-CREATETASK-method.md)   
- [SETTASKREADY method](../methods/devenv-SETTASKREADY-method.md)   
- [TASKEXISTS method](../methods/devenv-TASKEXISTS-method.md)
+ [CANCELTASK method](../methods/devenv-canceltask-method.md)   
+ [CREATETASK method](../methods/devenv-createtask-method.md)   
+ [SETTASKREADY method](../methods/devenv-settaskready-method.md)   
+ [TASKEXISTS method](../methods/devenv-taskexists-method.md)

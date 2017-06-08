@@ -18,10 +18,9 @@ A complex type that encapsulates media files, such as image .jpg and .png files,
 
 ## See Also  
  [Working With Media on Records](Working-With-Media-on-Records.md)  
- [EXPORTFILE method \(Media\)](../methods/devenv-EXPORTFILE-method-Media.md)   
- [EXPORTSTREAM method \(Media\)](../methods/devenv-EXPORTSTREAM-method-Media.md)   
- [EXPORTSTREAM method \(Media\)](../methods/devenv-EXPORTSTREAM-method-Media.md)   
- [IMPORTFILE method \(Media\)](../methods/devenv-IMPORTFILE-method-Media.md)   
- [IMPORTSTREAM method \(Media\)](../methods/devenv-IMPORTSTREAM-method-Media.md)   
- [MEDIAID method \(Media\)](../methods/devenv-MEDIAID-method-Media.md)   
- [MEDIAID method \(Media\)](../methods/devenv-MEDIAID-method-Media.md)
+ [EXPORTFILE method (Media)](../methods/devenv-exportfile-method-media.md)   
+ [EXPORTSTREAM method (Media)](../methods/devenv-exportstream-method-media.md)   
+ [IMPORTFILE method (Media)](../methods/devenv-importfile-method-media.md)   
+ [IMPORTSTREAM method (Media)](../methods/devenv-importstream-method-media.md)   
+ [MEDIAID method (Media)](../methods/devenv-mediaid-method-media.md)   
+ 

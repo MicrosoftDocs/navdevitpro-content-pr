@@ -18,10 +18,10 @@ Use variables of this data type to specify the type of connection to an external
 ## Syntax  
   
 ## See Also  
- [TableType Property](TableType-Property.md)   
+ [TableType Property](devenv-tabletype-property.md)   
  [External Tables](External-Tables.md)   
- [REGISTERTABLECONNECTION method \(Database\)](../methods/devenv-REGISTERTABLECONNECTION-method-Database.md)   
- [UNREGISTERTABLECONNECTION method \(Database\)](../methods/devenv-UNREGISTERTABLECONNECTION-method-Database.md)   
- [SETDEFAULTTABLECONNECTION method \(Database\)](../methods/devenv-SETDEFAULTTABLECONNECTION-method-Database.md)   
- [GETDEFAULTTABLECONNECTION method \(Database\)](../methods/devenv-GETDEFAULTTABLECONNECTION-method-Database.md)   
- [HASTABLECONNECTION method \(Database\)](../methods/devenv-HASTABLECONNECTION-method-Database.md)
+ [REGISTERTABLECONNECTION method (Database)](../methods/devenv-registertableconnection-method-database.md) 
+ [UNREGISTERTABLECONNECTION method (Database)](../methods/devenv-unregistertableconnection-method-database.md)   
+ [SETDEFAULTTABLECONNECTION method (Database)](../methods/devenv-setdefaulttableconnection-method-database.md)   
+ [GETDEFAULTTABLECONNECTION method (Database)](../methods/devenv-getdefaulttableconnection-method-database.md)   
+ [HASTABLECONNECTION method (Database)](../methods/devenv-hastableconnection-method-database.md)
