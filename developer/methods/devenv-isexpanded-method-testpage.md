@@ -32,4 +32,4 @@ Ok := TestPage.ISEXPANDED;
  **true** if the rows are expanded; otherwise, **false**.  
   
 ## See Also  
- [TestPage Methods](TestPage-Methods.md)
+ [TestPage Methods](devenv-TestPage-Methods.md)

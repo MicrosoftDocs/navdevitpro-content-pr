@@ -32,4 +32,4 @@ MyTestPage.EXPAND(Expand);
  The rows that you want to expand on the test page.  
   
 ## See Also  
- [TestPage Methods](TestPage-Methods.md)
+ [TestPage Methods](devenv-TestPage-Methods.md)

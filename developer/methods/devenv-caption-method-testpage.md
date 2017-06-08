@@ -32,4 +32,4 @@ Caption := TestPage.CAPTION
  The caption of the test page.  
   
 ## See Also  
- [TestPage Methods](TestPage-Methods.md)
+ [TestPage Methods](devenv-TestPage-Methods.md)

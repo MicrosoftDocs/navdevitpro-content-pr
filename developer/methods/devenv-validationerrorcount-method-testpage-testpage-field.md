@@ -32,4 +32,4 @@ Count := TestPage.VALIDATIONERRORCOUNT
  The number of validation errors that occurred on the test page.  
   
 ## See Also  
- [TestPage Methods](TestPage-Methods.md)
+ [TestPage Methods](devenv-TestPage-Methods.md)

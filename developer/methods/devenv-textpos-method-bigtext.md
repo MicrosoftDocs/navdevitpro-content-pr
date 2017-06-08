@@ -79,4 +79,4 @@ MESSAGE(Text000, VarPosition);
   
 ## See Also  
  [BigText Data Type](../datatypes/devenv-BigText-Data-Type.md)   
- [BigText Methods](BigText-Methods.md)
+ [BigText Methods](devenv-BigText-Methods.md)

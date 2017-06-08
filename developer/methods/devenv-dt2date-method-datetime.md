@@ -36,4 +36,4 @@ Date := DT2DATE(Datetime)
  If *Datetime* is undefined, then this method returns an undefined date.  
   
 ## See Also  
- [DateTime Methods](DateTime-Methods.md)
+ [DateTime Methods](devenv-DateTime-Methods.md)

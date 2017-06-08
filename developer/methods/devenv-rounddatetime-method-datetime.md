@@ -79,6 +79,6 @@ MESSAGE(TEXT000, Format(DateTimeToRound,0,FormatString), Precision, Format(Resul
  **ROUNDDATETIME\(11/27/08 09:35:24.567, 1000\) returns 11/27/08 09:35:25.000.**  
 
 ## See Also  
- [DateTime Methods](DateTime-Methods.md)   
+ [DateTime Methods](devenv-DateTime-Methods.md)   
  [FORMAT Method \(Code, Text\)](devenv-FORMAT-Method-Code-Text.md)   
  [Format Property](../devenv-Format-Property.md)

@@ -25,7 +25,7 @@ Gets the default client that is configured for the [!INCLUDE[d365fin_server_md](
 
  The default client, which be one of the following values:  
 
-<!-- Windows client
+<!--NAV
 |Value|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
 |Windows|[!INCLUDE[nav_windows](../includes/nav_windows_md.md)]|  
