@@ -69,5 +69,5 @@ MESSAGE(Text000, Day, Month, Year, OutputDate);
  **Day number 17, month number 2, and year number 2014 corresponds to the date 02/17/14.**  
   
 ## See Also  
- [Date and Time Methods](Date-and-Time-Methods.md)   
+ [Date and Time Methods](devenv-Date-and-Time-Methods.md)   
  [Date Data Type](../datatypes/devenv-Date-Data-Type.md)

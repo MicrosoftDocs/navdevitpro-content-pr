@@ -21,4 +21,4 @@ Executed after a record is loaded.
  This trigger is only used to import data. It is typically used to set up the preconditions for the record before it is inserted into the database table.  
   
 ## See Also  
- [Triggers](Triggers.md)
+ [Triggers](devenv-triggers.md)

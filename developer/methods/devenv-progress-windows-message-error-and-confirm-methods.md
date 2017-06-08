@@ -70,7 +70,7 @@ MESSAGE(Text001,"No.",SalesHeader2."No.");
 >  Unlike the progress window, the MESSAGE method does not require that you first declare a variable of type Dialog. The MESSAGE method creates a window of its own.  
   
 ## ERROR Method  
- The [ERROR Method \(Dialog\)](devenv-ERROR-Method-Dialog.md) is very similar to the MESSAGE method except that when the user has acknowledged the message from an ERROR method, execution ends. The ERROR method is also similar to the FIELDERROR method. For more information, see [CALCFIELDS, CALCSUMS,FIELDERROR, FIELDNAME, INIT, TESTFIELD, and VALIDATE Methods](CALCFIELDS--CALCSUMS-FIELDERROR--FIELDNAME--INIT--TESTFIELD--and-VALIDATE-Methods.md).  
+ The [ERROR Method \(Dialog\)](devenv-ERROR-Method-Dialog.md) is very similar to the MESSAGE method except that when the user has acknowledged the message from an ERROR method, execution ends. The ERROR method is also similar to the FIELDERROR method. For more information, see [CALCFIELDS, CALCSUMS,FIELDERROR, FIELDNAME, INIT, TESTFIELD, and VALIDATE Methods](devenv-CALCFIELDS--CALCSUMS-FIELDERROR--FIELDNAME--INIT--TESTFIELD--and-VALIDATE-Methods.md).  
   
  The ERROR method has the following syntax.  
   

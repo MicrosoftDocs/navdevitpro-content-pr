@@ -33,7 +33,7 @@ XMLport.RUN (Number [, ReqWindow] [, Import] [, Record])
 > [!NOTE]  
 > This parameter is not supported. You should set this to **false**; otherwise, you will get an error at runtime.
 
-<!-- Windows client  
+<!--NAV  
 Specify **true** to show request page; specify **false** to run the report and skip the request page.  
 
 This parameter overrides the setting of the [UseRequestPage Property](../devenv-UseRequestPage-Property.md) of the XMLPort. If you do not provide a value for the *ReqWindow* parameter, then the setting of the **UseRequestPage** property is used.  

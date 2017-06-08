@@ -39,7 +39,7 @@ REPORT.RUN(Number [, ReqWindow] [, SystemPrinter] [, Record])
  This parameter overrides the setting of the [UseRequestPage Property](../devenv-UseRequestPage-Property.md) of the report. If you do not provide a value for the *ReqWindow* parameter, then the setting of the UseRequestPage property is used.  
 
 > [!IMPORTANT]  
->  Client-side printing is not supported<!-- Windows client by [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->. If you set this parameter to **false**<!-- Windows client and the report will be run on [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->, you must set up the report to print from the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)], otherwise an error occurs at runtime. For more information, see [How to: Specify Printer Selection for Reports](How-to--Specify-Printer-Selection-for-Reports.md) and [STARTSESSION Method \(Sessions\)](devenv-STARTSESSION-Method-Sessions.md).  
+>  Client-side printing is not supported<!--NAV by [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->. If you set this parameter to **false**<!--NAV and the report will be run on [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->, you must set up the report to print from the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)], otherwise an error occurs at runtime. For more information, see [How to: Specify Printer Selection for Reports](How-to--Specify-Printer-Selection-for-Reports.md) and [STARTSESSION Method \(Sessions\)](devenv-STARTSESSION-Method-Sessions.md).  
 
  *SystemPrinter*  
  Type: Boolean  

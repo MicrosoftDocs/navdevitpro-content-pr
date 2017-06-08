@@ -100,4 +100,4 @@ MESSAGE(Text001, CloDate1, CloDate2);
  **The closing date for C04/04/14 is C04/04/14.**  
   
 ## See Also  
- [Date and Time Methods](Date-and-Time-Methods.md)
+ [Date and Time Methods](devenv-Date-and-Time-Methods.md)

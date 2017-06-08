@@ -14,19 +14,19 @@ manager: edupont
 # Triggers
 Triggers are available for the different objects as described in the following sections:  
 
--   [Report and Data Item Triggers](Report-and-Data-Item-Triggers.md)  
+-   [Report and Data Item Triggers](devenv-report-and-data-item-triggers.md)  
 
--   [Table and Field Triggers](Table-and-Field-Triggers.md)  
+-   [Table and Field Triggers](devenv-table-and-field-triggers.md)  
 
--   [XMLport Triggers](XMLport-Triggers.md)  
+-   [XMLport Triggers](devenv-xmlport-triggers.md)  
 
--   [Page and Action Triggers](Page-and-Action-Triggers.md)  
+-   [Page and Action Triggers](devenv-page-and-action-triggers.md)  
 
--   [Codeunit Triggers](Codeunit-Triggers.md)  
+-   [Codeunit Triggers](devenv-codeunit-triggers.md)  
 
--   [Query Triggers](Query-Triggers.md)  
+-   [Query Triggers](devenv-query-triggers.md)  
 
 ## See Also  
- [AL Methods](C-AL-Methods.md)   
- [Properties](Properties.md)   
+ [AL Methods](../methods/devenv-al-methods.md)   
+ [Properties](../properties.md)   
  [Triggers Overview](Triggers-Overview.md)

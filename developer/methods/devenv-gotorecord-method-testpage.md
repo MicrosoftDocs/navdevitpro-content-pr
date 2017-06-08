@@ -40,4 +40,4 @@ Finds the specified record in a dataset on a test page.
 The GOTORECORD method loops over all records until it finds the identifies record.  For each record, the [OnAfterGetCurrentRecord Trigger](../triggers/devenv-OnAfterGetCurrRecord-Trigger.md) is executed.  
 
 ## See Also  
- [TestPage Methods](TestPage-Methods.md)
+ [TestPage Methods](devenv-TestPage-Methods.md)

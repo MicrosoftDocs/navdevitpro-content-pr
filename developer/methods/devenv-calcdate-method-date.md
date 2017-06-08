@@ -137,5 +137,5 @@ MESSAGE(Text000 + Text001 + Text002 + Text003,
  **The expression: CM+30D returns 06/30/96**  
 
 ## See Also  
- [Date and Time Methods](Date-and-Time-Methods.md)   
+ [Date and Time Methods](devenv-Date-and-Time-Methods.md)   
  [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)

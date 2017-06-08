@@ -25,5 +25,5 @@ Executed each time a record is retrieved from the data item.
  Another example is when you need to retrieve information from a table that is external to the report or XMLport. This is the situation when the records of a data item contain fields that are foreign keys \(that is, fields that are primary keys in other tables\), and you want to extract further information from the related tables. For example, in a report, the records in a data item might contain a field with a Vendor code, while you want to print the full name and address of the vendor. You use this trigger to retrieve the information in order to print it in your report.  
 
 ## See Also  
- [Triggers](Triggers.md)   
+ [Triggers](devenv-triggers.md)   
  [FlowFilter Overview](FlowFilter-Overview.md)

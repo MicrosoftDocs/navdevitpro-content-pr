@@ -25,7 +25,7 @@ Gets the client type that is running in current session.
 
  The client type for the current session, which can be one of the following values:  
 
-<!-- Windows client
+<!--NAV
 |Value|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
 |Windows|[!INCLUDE[nav_windows](../includes/nav_windows_md.md)]|  

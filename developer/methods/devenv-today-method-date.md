@@ -45,4 +45,4 @@ MESSAGE(Text000, TODAY);
  **The current date is: 05/27/08**  
   
 ## See Also  
- [Date and Time Methods](Date-and-Time-Methods.md)
+ [Date and Time Methods](devenv-Date-and-Time-Methods.md)

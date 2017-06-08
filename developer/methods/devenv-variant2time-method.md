@@ -47,5 +47,5 @@ TestTime := VARIANT2TIME(variant1);
 
 ## See Also  
  [Variant Data Type](../datatypes/devenv-Variant-Data-Type.md)   
- [Date and Time Methods](Date-and-Time-Methods.md)   
+ [Date and Time Methods](devenv-Date-and-Time-Methods.md)   
 <!--[Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md)-->

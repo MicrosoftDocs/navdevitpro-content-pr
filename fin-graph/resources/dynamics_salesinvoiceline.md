@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # SalesInvoiceLine resource type
-Represents a salesInvoiceLine resource type in Dynamics 365 for Financials.
+Represents a line on a sales invoice in Dynamics 365 for Financials.
 
 ## Methods
 

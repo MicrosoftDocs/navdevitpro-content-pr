@@ -25,4 +25,4 @@ Overrides the default drill-down behavior defined in the table definition for th
  This trigger overrides the [DrillDownPageID Property](../devenv-DrillDownPageID-Property.md) setting of the FlowField.  
 
 ## See Also  
- [Triggers](Triggers.md)
+ [Triggers](devenv-triggers.md)

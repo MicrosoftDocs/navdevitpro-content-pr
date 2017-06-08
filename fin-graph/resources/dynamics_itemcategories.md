@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Item categories resource type
-Represents an itemCategories resource type in Dynamics 365 for Financials.
+Represents a category for a number of items in Dynamics 365 for Financials.
 
 ## Methods
 

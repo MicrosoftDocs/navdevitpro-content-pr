@@ -30,7 +30,7 @@ ExecutionMode := CURRENTEXECUTIONMODE
 
 -   Standard  
 
-<!-- Windows client
+<!--NAV
 ## Remarks  
  If you start the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] at a command prompt and use the –**debug** parameter, then the execution mode is **Debug**. Otherwise, the execution mode is **Standard**.  
 -->
