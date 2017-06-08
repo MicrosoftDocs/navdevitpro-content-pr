@@ -27,4 +27,4 @@ TestPage.NEW
  The test page that contains the dataset.  
   
 ## See Also  
- [TestPage Methods](TestPage-Methods.md)
+ [TestPage Methods](devenv-TestPage-Methods.md)

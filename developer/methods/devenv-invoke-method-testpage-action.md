@@ -36,4 +36,4 @@ TestPage.Action.INVOKE
   
 ## See Also  
  [Test Pages](Test-Pages.md)   
- [TestPage Methods](TestPage-Methods.md)
+ [TestPage Methods](devenv-TestPage-Methods.md)

@@ -70,4 +70,4 @@ MESSAGE(Text000,Day,Month,Year);
  **Today is day 16 of month 2 of the year 2014.**  
   
 ## See Also  
- [Date and Time Methods](Date-and-Time-Methods.md)
+ [Date and Time Methods](devenv-Date-and-Time-Methods.md)

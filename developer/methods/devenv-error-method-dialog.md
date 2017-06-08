@@ -48,7 +48,7 @@ ERROR(String [, Value1, …])
   
 -   Use a text constant for the text of the message.  
   
- For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Methods.md).  
+ For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](devenv-Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Methods.md).  
   
 ## Example  
  This example shows how to use the ERROR method. The code example requires that you create the following global variables and text constants.  
@@ -79,5 +79,5 @@ MESSAGE(Text001); // This line is not executed.
 ## See Also  
  [Dialog Data Type](../datatypes/devenv-Dialog-Data-Type.md)   
  [MESSAGE Method \(Dialog\)](devenv-MESSAGE-Method-Dialog.md)   
- [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Methods.md)   
+ [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](devenv-Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Methods.md)   
  [Error Handling](Error-Handling.md)

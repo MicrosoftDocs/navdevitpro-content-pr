@@ -61,4 +61,4 @@ TestDateTime := CREATEDATETIME(010101D,0T);
 ```  
   
 ## See Also  
- [DateTime Methods](DateTime-Methods.md)
+ [DateTime Methods](devenv-DateTime-Methods.md)

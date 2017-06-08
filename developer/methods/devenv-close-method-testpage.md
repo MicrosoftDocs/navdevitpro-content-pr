@@ -43,4 +43,4 @@ CustPage.CLOSE;
 ```  
   
 ## See Also  
- [TestPage Methods](TestPage-Methods.md)
+ [TestPage Methods](devenv-TestPage-Methods.md)
