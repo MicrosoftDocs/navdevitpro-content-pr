@@ -64,7 +64,7 @@ ELSE
 ```  
   
 ## See Also  
- [RecordRef Data Type](RecordRef-Data-Type.md)   
+ [RecordRef Data Type](../datatypes/devenv-RecordRef-Data-Type.md)   
  [FIND Method \(RecordRef\)](devenv-FIND-Method-RecordRef.md)   
  [FINDLAST Method \(RecordRef\)](devenv-FINDLAST-Method-RecordRef.md)   
  [FINDSET Method \(RecordRef\)](devenv-FINDSET-Method-RecordRef.md)

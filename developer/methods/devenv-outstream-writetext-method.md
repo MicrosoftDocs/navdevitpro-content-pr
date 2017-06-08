@@ -62,5 +62,5 @@ FileMyHTML.CLOSE;
 ```  
   
 ## See Also  
- [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)   
+ [InStream and OutStream Data Types](../datatypes/devenv-InStream-and-OutStream-Data-Types.md)   
  [OutStream.WRITE Method](devenv-OutStream-WRITE-Method.md)

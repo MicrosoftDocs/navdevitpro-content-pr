@@ -33,7 +33,7 @@ Deletes a record in a [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] table.
  *RunTrigger*  
  Type: Boolean  
   
- Specifies whether to run the AL code in the [OnDelete Trigger](OnDelete-Trigger.md).  
+ Specifies whether to run the AL code in the [OnDelete Trigger](../triggers/devenv-OnDelete-Trigger.md).  
   
  If this parameter is **true**, then the code in the **OnDelete** trigger is executed. If this parameter is **false**, then the code in the **OnDelete** trigger is not executed.  
   
@@ -128,7 +128,7 @@ CustomerRec1.DELETE;
  **No.='10000'**  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)   
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
  [DELETEALL Method \(Record\)](devenv-DELETEALL-Method-Record.md)   
  [DELETE Method \(RecordRef\)](devenv-DELETE-Method-RecordRef.md)   
  [COMMIT Method \(Database\)](devenv-COMMIT-Method-Database.md)   

@@ -33,7 +33,7 @@ Modifies a record in a table.
  *RunTrigger*  
  Type: Boolean  
   
- Specifies whether to run the AL code in the [OnModify Trigger](OnModify-Trigger.md).  
+ Specifies whether to run the AL code in the [OnModify Trigger](../triggers/devenv-OnModify-Trigger.md).  
   
  If this parameter is **true**, then the code in the **OnModify** trigger is executed. If this parameter is **false** \(default\), then the code in the **OnModify** trigger is not executed.  
   
@@ -133,6 +133,6 @@ CustomerRec1.MODIFY;
 ## See Also  
  [MODIFYALL Method \(Record\)](devenv-MODIFYALL-Method-Record.md)   
  [MODIFY Method \(RecordRef\)](devenv-MODIFY-Method-RecordRef.md)   
- [Record Data Type](Record-Data-Type.md)   
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
  [COMMIT Method \(Database\)](devenv-COMMIT-Method-Database.md)   
  [LOCKTABLE Method \(Record\)](devenv-LOCKTABLE-Method-Record.md)

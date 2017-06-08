@@ -32,7 +32,7 @@ Inserts a record into a table.
  *RunTrigger*  
  Type: Boolean  
   
- Specifies whether to run the AL code in the [OnInsert Trigger](OnInsert-Trigger.md).  
+ Specifies whether to run the AL code in the [OnInsert Trigger](../triggers/devenv-OnInsert-Trigger.md).  
   
  If this parameter is **true**, the code on the **OnInsert** trigger will be executed.  
   
@@ -81,4 +81,4 @@ MESSAGE(‘%1’, MyFieldRef.VALUE);
 ```  
   
 ## See Also  
- [RecordRef Data Type](RecordRef-Data-Type.md)
+ [RecordRef Data Type](../datatypes/devenv-RecordRef-Data-Type.md)

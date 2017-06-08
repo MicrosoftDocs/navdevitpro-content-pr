@@ -55,4 +55,4 @@ Count := Vendor.COUNT;
   
 ## See Also  
  [COPYFILTERS Method \(Record\)](devenv-COPYFILTERS-Method-Record.md)   
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

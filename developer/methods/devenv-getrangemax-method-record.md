@@ -123,4 +123,4 @@ MESSAGE(Text000, Val);
   
 ## See Also  
  [GETRANGEMIN Method \(Record\)](devenv-GETRANGEMIN-Method-Record.md)   
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

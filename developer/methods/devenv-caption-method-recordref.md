@@ -66,4 +66,4 @@ END;
  **Table No: 5   Caption: Finance Charge Terms**  
   
 ## See Also  
- [RecordRef Data Type](RecordRef-Data-Type.md)
+ [RecordRef Data Type](../datatypes/devenv-RecordRef-Data-Type.md)

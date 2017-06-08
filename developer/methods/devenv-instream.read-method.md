@@ -69,4 +69,4 @@ MESSAGE(Text000, numChars, varChars);
  [InStream.EOS Method](devenv-InStream.EOS-Method.md)   
  [InStream.READTEXT Method](devenv-InStream.READTEXT-Method.md)   
  [OutStream.WRITE Method](devenv-OutStream-WRITE-Method.md)   
- [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)
+ [InStream and OutStream Data Types](../datatypes/devenv-InStream-and-OutStream-Data-Types.md)

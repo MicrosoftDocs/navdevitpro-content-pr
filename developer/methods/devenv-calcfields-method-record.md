@@ -40,7 +40,7 @@ Calculates the FlowFields in a record. You specify which fields to calculate by 
   
  When a FlowField is a direct source expression on a page or a report, the calculation is performed automatically.  
   
- You can also use the **CALCFIELDS** method to retrieve binary large objects \(BLOBs\). For more information, see [BLOB Data Type](BLOB-Data-Type.md).  
+ You can also use the **CALCFIELDS** method to retrieve binary large objects \(BLOBs\). For more information, see [BLOB Data Type](../datatypes/devenv-BLOB-Data-Type.md).  
   
  If possible, the **CALCFIELDS** method uses SumIndexField Technology \(SIFT\). SIFT is used only if the following conditions are true:  
   

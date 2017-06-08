@@ -48,4 +48,4 @@ MyRecord.DELETELINK(20)
 ```  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

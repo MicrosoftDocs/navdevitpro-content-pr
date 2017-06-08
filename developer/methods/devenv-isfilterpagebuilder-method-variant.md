@@ -49,8 +49,8 @@ IF not myVariant.ISFILTERPAGEBUILDER THEN
 ```  
   
 ## See Also  
- [Variant Data Type](Variant-Data-Type.md)   
- [FilterPageBuilder Data Type](FilterPageBuilder-Data-Type.md)   
+ [Variant Data Type](../datatypes/devenv-Variant-Data-Type.md)   
+ [FilterPageBuilder Data Type](../datatypes/devenv-FilterPageBuilder-Data-Type.md)   
  [ADDFIELD Method](devenv-ADDFIELD-Method.md)   
  [ADDFIELDNO Method](devenv-ADDFIELDNO-Method.md)   
  [ADDRECORD Method](devenv-ADDRECORD-Method.md)   

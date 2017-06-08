@@ -1,7 +1,7 @@
 ---
 title: "Codeunit Data Type"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,5 +15,5 @@ manager: edupont
 Use this complex data type to store units of AL code. Codeunits contain a number of user-defined methods.  
   
 ## See Also  
- [Codeunit.RUN method \(Codeunit\)](Codeunit.RUN-method--Codeunit-.md)   
- [RUN method \(Codeunit\)](RUN-method--Codeunit-.md)
+ [Codeunit.RUN method \(Codeunit\)](../methods/devenv-Codeunit.RUN-method-Codeunit.md)   
+ [RUN method \(Codeunit\)](../methods/devenv-RUN-method-Codeunit.md)

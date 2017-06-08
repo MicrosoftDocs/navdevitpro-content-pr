@@ -131,5 +131,5 @@ MESSAGE(Text000, FORMAT(TODAY,0,'<Month Text> <Day>'));
 ## See Also  
  [Format Property](../devenv-Format-Property.md)   
  [EVALUATE Method](devenv-EVALUATE-Method.md)   
- [Code Data Type](Code-Data-Type.md)   
- [Text Data Type](Text-Data-Type.md)
+ [Code Data Type](../datatypes/devenv-Code-Data-Type.md)   
+ [Text Data Type](../datatypes/devenv-Text-Data-Type.md)

@@ -13,9 +13,9 @@ caps.latest.revision: 9
 # RecordRef Data Type
 A RecordRef object references a record in a table. Typically, you use a RecordRef object in methods that must apply to more than one table, not to a specific table. For example, you could use a RecordRef object in a method that loops through several tables or as a parameter of a method that is called for records of different tables.  
   
- The RecordRef object can refer to any table in the database. Use the [OPEN method \(RecordRef\)](OPEN-method--RecordRef-.md) to use the table number to select the table that you want to access, or use the [GETTABLE method \(RecordRef\)](GETTABLE-method--RecordRef-.md) to use another record variable to select the table that you want to access.  
+ The RecordRef object can refer to any table in the database. Use the [OPEN method \(RecordRef\)](../methods/devenv-OPEN-method-RecordRef.md) to use the table number to select the table that you want to access, or use the [GETTABLE method \(RecordRef\)](../methods/devenv-GETTABLE-method-RecordRef.md) to use another record variable to select the table that you want to access.  
   
  If one RecordRef variable is assigned to another RecordRef variable, then they both refer to the same table instance.  
   
 ## See Also  
- [FieldRef Data Type](FieldRef-data-type.md)
+ [fieldref Data Type](fieldref-data-type.md)

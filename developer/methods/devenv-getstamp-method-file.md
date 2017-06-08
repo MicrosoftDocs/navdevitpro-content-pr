@@ -70,4 +70,4 @@ MESSAGE(Text000, varDate, varTime);
 ```  
   
 ## See Also  
- [File Data Type](File-Data-Type.md)
+ [File Data Type](../datatypes/devenv-File-Data-Type.md)

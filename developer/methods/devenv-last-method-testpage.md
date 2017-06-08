@@ -33,7 +33,7 @@ OK := TestPage.LAST
 ## Remarks  
 If *TestPage* is closed or has never been opened, then the method call fails.  
 
-The LAST method loops over all records until it sets  the identifies the current record.  For each record, the [OnAfterGetCurrentRecord trigger](OnAfterGetCurrRecord-Trigger.md) is executed.  
+The LAST method loops over all records until it sets  the identifies the current record.  For each record, the [OnAfterGetCurrentRecord Trigger](../triggers/devenv-OnAfterGetCurrRecord-Trigger.md) is executed.  
   
 ## Example  
  This example sets the current row to the last customer in the dataset. It requires that you create a TestPage variable named CustomerList with a Subtype of Customer List.  

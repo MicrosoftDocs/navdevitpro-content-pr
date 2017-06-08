@@ -48,4 +48,4 @@ MESSAGE('Does this record have a filter? %1', HasFilter);
 ```  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

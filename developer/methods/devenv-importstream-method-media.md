@@ -125,4 +125,4 @@ END;
  [IMPORTFILE Method \(Media\)](devenv-IMPORTFILE-Method-Media.md)   
  [IMPORTFILE Method \(MediaSet\)](devenv-IMPORTFILE-Method-MediaSet.md)   
  [IMPORTSTREAM Method \(MediaSet\)](devenv-IMPORTSTREAM-Method-MediaSet.md)   
- [MediaSet Data Type](MediaSet-Data-Type.md)
+ [MediaSet Data Type](../datatypes/devenv-MediaSet-Data-Type.md)

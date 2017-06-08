@@ -75,4 +75,4 @@ MESSAGE(Text001, MyRecordRef.RECORDID, MyRecordRef.FIELD(2));
  **The vendor name after the primary key was changed is AR Day property Management.**  
   
 ## See Also  
- [RecordRef Data Type](RecordRef-Data-Type.md)
+ [RecordRef Data Type](../datatypes/devenv-RecordRef-Data-Type.md)

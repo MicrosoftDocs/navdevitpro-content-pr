@@ -103,4 +103,4 @@ ELSE
  By including a return value, you can avoid a run-time error if a key cannot be found.  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

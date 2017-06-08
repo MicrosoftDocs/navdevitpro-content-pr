@@ -69,4 +69,4 @@ MESSAGE('Table has Write permission? %1', varHasWrite);
 ```  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

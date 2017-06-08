@@ -31,4 +31,4 @@ Ok := Variant.ISINSTREAM
  **true** if the AL variant contains an InStream variable; otherwise, **false**.  
   
 ## See Also  
- [Variant Data Type](Variant-Data-Type.md)
+ [Variant Data Type](../datatypes/devenv-Variant-Data-Type.md)

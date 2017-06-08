@@ -70,5 +70,5 @@ TestFile.OPEN('C:\temp\simple.xml', TextEncoding::Windows);
 ```  
   
 ## See Also  
- [File Data Type](File-Data-Type.md)   
+ [File Data Type](../datatypes/devenv-File-Data-Type.md)   
  [Text Encoding](Text-Encoding.md)

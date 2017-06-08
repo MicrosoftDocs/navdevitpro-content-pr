@@ -60,4 +60,4 @@ MESSAGE(Text000, varMax);
   
 ## See Also  
  [GETRANGEMIN Method \(FieldRef\)](devenv-GETRANGEMIN-Method-FieldRef.md)   
- [FieldRef Data Type](FieldRef-Data-Type.md)
+ [FieldRef Data Type](../datatypes/devenv-FieldRef-Data-Type.md)

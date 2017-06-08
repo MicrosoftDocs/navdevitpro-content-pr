@@ -28,7 +28,7 @@ Record.SETRECFILTER
  Specifies the current record for which you want to set the filter.  
   
 ## Example  
- You can use this method to set a filter on a table before you run a report. Enter AL code similar to the following example in the [OnAction Trigger](OnAction-Trigger.md) of an action on a page. When the code is triggered, the current key fields of the current record in the page will be used as a filter when the report is run.  
+ You can use this method to set a filter on a table before you run a report. Enter AL code similar to the following example in the [OnAction Trigger](../triggers/devenv-OnAction-Trigger.md) of an action on a page. When the code is triggered, the current key fields of the current record in the page will be used as a filter when the report is run.  
   
  This example requires that you create the following global variable.  
   
@@ -42,4 +42,4 @@ REPORT.RUN(REPORT::"111",FALSE,FALSE,CustomerRec);
 ```  
   
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

@@ -70,4 +70,4 @@ MESSAGE(Text000, Day, Month, Year, OutputDate);
   
 ## See Also  
  [Date and Time Methods](Date-and-Time-Methods.md)   
- [Date Data Type](Date-Data-Type.md)
+ [Date Data Type](../datatypes/devenv-Date-Data-Type.md)

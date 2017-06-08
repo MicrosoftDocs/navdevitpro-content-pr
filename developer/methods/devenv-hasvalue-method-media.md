@@ -62,4 +62,4 @@ END;
  [IMPORTSTREAM Method \(Media\)](devenv-IMPORTSTREAM-Method-Media.md)   
  [EXPORTFILE Method \(Media\)](devenv-EXPORTFILE-Method-Media.md)  
  [EXPORTSTREAM Method \(Media\)](devenv-EXPORTSTREAM-Method-Media.md)  
- [MediaSet Data Type](MediaSet-Data-Type.md)  
+ [MediaSet Data Type](../datatypes/devenv-MediaSet-Data-Type.md)  

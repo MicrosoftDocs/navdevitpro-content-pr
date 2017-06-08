@@ -88,5 +88,5 @@ MESSAGE(Text003, NewString);
  **>Press ENTER or ESC to continue.\<**  
   
 ## See Also  
- [Code Data Type](Code-Data-Type.md)   
- [Text Data Type](Text-Data-Type.md)
+ [Code Data Type](../datatypes/devenv-Code-Data-Type.md)   
+ [Text Data Type](../datatypes/devenv-Text-Data-Type.md)

@@ -33,5 +33,5 @@ CurrentCompany := RecordRef.CURRENTCOMPANY
  The name of the current company of *Record*.  
   
 ## See Also  
- [RecordRef Data Type](RecordRef-Data-Type.md)   
+ [RecordRef Data Type](../datatypes/devenv-RecordRef-Data-Type.md)   
  [CURRENTCOMPANY Method \(Record\)](devenv-CURRENTCOMPANY-Method-Record.md)

@@ -50,4 +50,4 @@ MESSAGE('Is the key active =  %1 ', IsActive);
 ```  
   
 ## See Also  
- [KeyRef Data Type](KeyRef-Data-Type.md)
+ [KeyRef Data Type](../datatypes/devenv-KeyRef-Data-Type.md)

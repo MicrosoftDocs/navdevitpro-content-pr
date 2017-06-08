@@ -1,7 +1,7 @@
 ---
 title: "AL Data Types"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -53,7 +53,7 @@ AL uses variables to store data of various types. By declaring variables of the 
 |[Dialog Data Type](devenv-dialog-data-type.md)|Complex||  
 |DotNet Data Type|Complex||  
 |[File Data Type](devenv-file-data-type.md)|Complex||  
-|[FieldRef Data Type](devenv-fieldref-data-type.md)|Complex||  
+|[fieldref Data Type](devenv-fieldref-data-type.md)|Complex||  
 |[GUID Data Type](devenv-guid-data-type.md)|Complex||  
 |[InStream and OutStream Data Types](devenv-instream-and-outstream-data-types.md)|Complex||  
 |[KeyRef Data Type](devenv-keyref-data-type.md)|Complex||  
@@ -72,7 +72,7 @@ AL uses variables to store data of various types. By declaring variables of the 
  Fundamental data types are designed to store Boolean values, numbers, text, time, and dates.  
 
 #### Action data type  
- The Action data type specifies what action a user performs on a page. The [PAGE.RUNMODAL method](devenv-page-runmodal-method.md) and the [RUNMODAL method (Page)](devenv-runmodal-method-page.md) return an Action data type value. The possible values are the following:  
+ The Action data type specifies what action a user performs on a page. The [PAGE.RUNMODAL method](../methods/devenv-page-runmodal-method.md) and the [RUNMODAL method (Page)](../methods/devenv-runmodal-method-page.md) return an Action data type value. The possible values are the following:  
 
 -   OK  
 
@@ -149,7 +149,7 @@ MESSAGE(FORMAT(Duration));
  **124 days 4 hours 30 minutes 1 second**  
 
 #### ExecutionMode data type  
- The ExecutionMode data type specifies the mode in which a session is running. The [CURRENTEXECUTIONMODE method (Sessions)](devenv-currentexecutionmode-method-sessions.md) returns an ExecutionMode data type value.  
+ The ExecutionMode data type specifies the mode in which a session is running. The [CURRENTEXECUTIONMODE method (Sessions)](../methods/devenv-currentexecutionmode-method-sessions.md) returns an ExecutionMode data type value.  
 
  The execution mode is one of the following:  
 
@@ -196,7 +196,7 @@ Number := "Purchase Header".Type;
 |t := 'AbC'|The variable t now contains "AbC"|  
 |t := '123456abx';|Gives a run-time error because the length (9) exceeds the maximum length (6)|  
 
- When you use the Text and Code data types, make sure that you distinguish between the maximum length of the string and the actual length of the string. The maximum length is the upper limit for the number of characters in the string. The actual length describes the number of characters that are used in the string. The [STRLEN method (Code, Text)](devenv-strlen-method-code-text.md) and the [MAXSTRLEN method (Code, Text)](devenv-maxstrlen-method-code-text.md) illustrate this.  
+ When you use the Text and Code data types, make sure that you distinguish between the maximum length of the string and the actual length of the string. The maximum length is the upper limit for the number of characters in the string. The actual length describes the number of characters that are used in the string. The [STRLEN method (Code, Text)](../methods/devenv-strlen-method-code-text.md) and the [MAXSTRLEN method (Code, Text)](../methods/devenv-maxstrlen-method-code-text.md) illustrate this.  
 
 ```  
 t := 'AbC';  
@@ -266,17 +266,17 @@ MAXSTRLEN(t); // Returns 6.
 #### BigText data type  
  The BigText data type contains large text documents. Data of the BigText data type cannot be displayed in the debugger or in a message window. However, you can use the BigText methods to extract part of a big text and place it in a typical text string that can be displayed. The BigText methods are as follows:  
 
--   [ADDTEXT method (BigText)](devenv-addtext-method-bigtext.md)  
+-   [ADDTEXT method (BigText)](../methods/devenv-addtext-method-bigtext.md)  
 
--   [GETSUBTEXT method (BigText)](devenv-getsubtext-method-bigtext.md)  
+-   [GETSUBTEXT method (BigText)](../methods/devenv-getsubtext-method-bigtext.md)  
 
--   [LENGTH method (BigText)](devenv-length-method-bigtext.md)  
+-   [LENGTH method (BigText)](../methods/devenv-length-method-bigtext.md)  
 
--   [READ method (BigText)](devenv-read-method-bigtext.md)  
+-   [READ method (BigText)](../methods/devenv-read-method-bigtext.md)  
 
--   [TEXTPOS method (BigText)](devenv-textpos-method-bigtext.md)  
+-   [TEXTPOS method (BigText)](../methods/devenv-textpos-method-bigtext.md)  
 
--   [WRITE method (BigText)](devenv-write-method-bigtext.md)  
+-   [WRITE method (BigText)](../methods/devenv-write-method-bigtext.md)  
 
  The maximum length of a BigText variable is 2147483647 characters. This is the equivalent of 2 gigabytes (GB).  
 
@@ -287,7 +287,7 @@ MAXSTRLEN(t); // Returns 6.
  The Codeunit data type stores codeunits. A codeunit can contain several user-defined methods.  
 
 #### DateFormula data type  
- The DateFormula data type contains a date formula that has the same capabilities as an ordinary input string for the [CALCDATE method (Date)](devenv-calcdate-method-date.md). The DateFormula data type is used to provide multilanguage capabilities to the CALCDATE method.  
+ The DateFormula data type contains a date formula that has the same capabilities as an ordinary input string for the [CALCDATE method (Date)](../methods/devenv-calcdate-method-date.md). The DateFormula data type is used to provide multilanguage capabilities to the CALCDATE method.  
 
 #### Dialog data type  
  The Dialog data type stores dialog windows. A number of methods are available for manipulating dialogs.  
@@ -300,8 +300,8 @@ MAXSTRLEN(t); // Returns 6.
 #### File data type  
  The File data type provides access to operating system files.  
 
-#### FieldRef data type  
- The FieldRef data type identifies a field in a table and gives you access to this field. The FieldRef object can refer to any field in any table in the database.  
+#### fieldref data type  
+ The fieldref data type identifies a field in a table and gives you access to this field. The fieldref object can refer to any field in any table in the database.  
 
 #### GUID data type  
  The GUID data type gives a unique identifying number to any database object.  
@@ -313,7 +313,7 @@ MAXSTRLEN(t); // Returns 6.
 #### InStream and OutStream data types  
  The InStream and OutStream data types enable you to read from or write to files and BLOBs. In addition, you can use InStream and OutStream to read from and write to objects of the Automation and OCX data types.  
 
-#### KeyRef data type 
+#### KeyRef data type
  The KeyRef data type identifies a key in a table and the fields in this key. This gives you access to the key and the fields it contains. The KeyRef object can refer to any key in any table in the database.  
 
 <!--
@@ -324,7 +324,7 @@ MAXSTRLEN(t); // Returns 6.
 #### Page data type  
  The Page data type stores pages that can contain several simpler elements called controls.  
 
-#### Query data type 
+#### Query data type
  The Query data type stores queries, which enable you to retrieve data from tables in the database and combine the data in a single dataset.  
 
 #### Record data type  

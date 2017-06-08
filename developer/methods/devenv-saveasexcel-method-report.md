@@ -110,4 +110,4 @@ TempFile.CLOSE();
  You can create an action on a page and set the action to run this code. When you run the action, the **Export File** dialog box opens. Choose **Save** to save the file to the client.  
 
 ## See Also  
- [Report Data Type](Report-Data-Type.md)
+ [Report Data Type](../datatypes/devenv-Report-Data-Type.md)
