@@ -1,7 +1,7 @@
 ---
 title: "BlankZero Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ Indicates whether the system displays zeros (0) and No.
 -   Page Fields  
   
 ## Property Value  
- **true** if zeros and No are displayed; otherwise, **false**. The default is **false**.  
+ **True** if zeros and No are displayed; otherwise, **false**. The default is **false**.  
   
 ## See Also  
  [BlankNumbers Property](devenv-blanknumbers-property.md)
