@@ -38,7 +38,7 @@ Generates a URL for the specified client target that is based on the configurati
 |**ClientType::SOAP**|The URL is generated based on a request from a SOAP web service.|  
 |**ClientType::OData**|The URL is generated based on a request from an OData web service.|  
 
-<!-- Windows client
+<!--NAV
 |**ClientType::Windows**|The URL is generated based on a request from the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)].|  
 -->
 

@@ -12,7 +12,7 @@ caps.latest.revision: 28
 manager: edupont
 ---
 # DOWNLOAD Method (File)
-Sends a file from a [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] to the client device.  The client device <!-- Windows client is the computer that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or -->is the device, such as a computer or phone, that accesses [!INCLUDE[d365fin_md](../includes/d365fin_md.md)].  
+Sends a file from a [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] to the client device.  The client device <!--NAV is the computer that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or -->is the device, such as a computer or phone, that accesses [!INCLUDE[d365fin_md](../includes/d365fin_md.md)].  
 
 ## Syntax  
 
@@ -28,30 +28,30 @@ Sends a file from a [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.m
 
  *DialogTitle*  
  Type: Text  
-<!-- Windows client
+<!--NAV
  The title that you want to display in the dialog box for downloading the file.  
 -->
 
 > [!NOTE]  
->  This parameter is not supported<!-- Windows client by the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->. The title is determined by the end-user's browser.  
+>  This parameter is not supported<!--NAV by the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->. The title is determined by the end-user's browser.  
 
  *ToFolder*  
  Type: Text  
-<!-- Windows client
+<!--NAV
  The default folder in which to save the file to be downloaded. The folder name is displayed in the dialog box for downloading the file. The folder can be changed by the user.  
 -->
 
 > [!NOTE]  
->  This parameter is not supported<!-- Windows client by the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->. By default, files are saved to the default download location that is configured in the end-user's browser.  
+>  This parameter is not supported<!--NAV by the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->. By default, files are saved to the default download location that is configured in the end-user's browser.  
 
  *ToFilter*  
  Type: Text  
-<!-- Windows client
+<!--NAV
  The type of file that can be downloaded to the client computer. The type is displayed in the dialog box for downloading the file.  
 -->
 
 > [!NOTE]  
->  This parameter is not supported<!-- Windows client by the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->.  
+>  This parameter is not supported<!--NAV by the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->.  
 
  *ToFile*  
  Type: Variant  
