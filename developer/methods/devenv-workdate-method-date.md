@@ -33,7 +33,7 @@ Gets and sets the work date for the current session.
  The current work date.  
 
 ## Remarks  
-<!-- Windows client
+<!--NAV
 If you do not set a value for the *NewDate* parameter, then the method returns the work date that is specified by the **Set Work Date** option on the **Application** menu ![Application Menu button in menu bar](media/ApplicationMenuIcon.png "ApplicationMenuIcon") in the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)]. If there is no work date selected,  then the current system date is returned.  
 -->
 

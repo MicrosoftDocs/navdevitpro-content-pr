@@ -46,7 +46,7 @@ Creates, runs, and closes a specified page object. When a page is run modally, n
 
  Specifies what action the user took on the page. The following table shows the possible return values for the different user actions.
 
- <!-- Windows client
+ <!--NAV
 In some cases, the actions for the return values are different when the page displays in the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] than in the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)].  
 
 |Return value|[!INCLUDE[nav_windows](../includes/nav_windows_md.md)]|[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]|  
