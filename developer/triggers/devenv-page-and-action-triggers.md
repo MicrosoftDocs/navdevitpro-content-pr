@@ -30,18 +30,18 @@ Page triggers allow you to use AL code to control the behavior of the system as 
 
 |Page trigger name|Executed|  
 |-----------------------|--------------|  
-|[OnInit Trigger](OnInit-Trigger.md)|When the page is loaded, but before the controls are available.|  
-|[OnOpenPage Trigger](OnOpenPage-Trigger.md)|When the page is initialized and the controls are available.|  
-|[OnClosePage Trigger](OnClosePage-Trigger.md)|When the page about to close and after [OnQueryClosePage Trigger](OnQueryClosePage-Trigger.md) trigger.|  
-|[OnFindRecord Trigger](OnFindRecord-Trigger.md)|When the page is opened and a record is retrieved from a table.|  
-|[OnNextRecord Trigger](OnNextRecord-Trigger.md)|When the page changes from displaying one record to another record in a table. For example, on a Customer card page, this happens when a user selects **Next** \(Ctrl+Page Down\) or **Previous** \(Ctrl+Page Up\).|  
-|[OnAfterGetCurrRecord Trigger](OnAfterGetCurrRecord-Trigger.md)|After the current record is retrieved from the table.|  
-|[OnAfterGetRecord Trigger](OnAfterGetRecord-Trigger.md)|When a record has been retrieved but not yet displayed.|  
-|[OnNewRecord Trigger](OnNewRecord-Trigger.md)|When a new record has been initialized but not yet displayed.|  
-|[OnInsertRecord Trigger](OnInsertRecord-Trigger.md)|When a new record is about to be inserted in the table.|  
-|[OnModifyRecord Trigger](OnModifyRecord-Trigger.md)|When a record is about to be modified in the table.|  
-|[OnDeleteRecord Trigger](OnDeleteRecord-Trigger.md)|When a record is about to be deleted from the table.|  
-|[OnQueryClosePage Trigger](OnQueryClosePage-Trigger.md)|When the page is about to close, but before the [OnClosePage Trigger](OnClosePage-Trigger.md).|  
+|[OnInit Trigger](devenv-oninit-trigger.md)|When the page is loaded, but before the controls are available.|  
+|[OnOpenPage Trigger](devenv-onopenpage-trigger.md)|When the page is initialized and the controls are available.|  
+|[OnClosePage Trigger](devenv-onclosepage-trigger.md)|When the page about to close and after [OnQueryClosePage Trigger](devenv-onqueryclosepage-trigger.md) trigger.|  
+|[OnFindRecord Trigger](devenv-onFindrecord-trigger.md)|When the page is opened and a record is retrieved from a table.|  
+|[OnNextRecord Trigger](devenv-onnextrecord-Trigger.md)|When the page changes from displaying one record to another record in a table. For example, on a Customer card page, this happens when a user selects **Next** \(Ctrl+Page Down\) or **Previous** \(Ctrl+Page Up\).|  
+|[OnAfterGetCurrRecord Trigger](devenv-onaftergetcurrrecord-trigger.md)|After the current record is retrieved from the table.|  
+|[OnAfterGetRecord Trigger](devenv-onaftergetrecord-Trigger.md)|When a record has been retrieved but not yet displayed.|  
+|[OnNewRecord Trigger](devenv-onnewrecord-trigger.md)|When a new record has been initialized but not yet displayed.|  
+|[OnInsertRecord Trigger](devenv-onInsertrecord-trigger.md)|When a new record is about to be inserted in the table.|  
+|[OnModifyRecord Trigger](devenv-onModifyrecord-trigger.md)|When a record is about to be modified in the table.|  
+|[OnDeleteRecord Trigger](devenv-onDeleterecord-trigger.md)|When a record is about to be deleted from the table.|  
+|[OnQueryClosePage Trigger](devenv-onqueryclosepage-trigger.md)|When the page is about to close, but before the [OnClosePage Trigger](devenv-onclosepage-trigger.md).|  
 
 ## Field Triggers  
  The following table describes the triggers that are available on field controls.  
