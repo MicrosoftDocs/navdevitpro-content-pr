@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Unit of measure resource type
-Represents a unitsOfMeasure resource type in Dynamics 365 for Financials.
+Represents a unitsOfMeasure object in Dynamics 365 for Financials which is a standard of measurement of a quantity.
 
 ## Methods
 

@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Company information resource type
-Represents a companyInformation resource type in Dynamics 365 for Financials.
+Represents the information specified for the current company in Dynamics 365 for Financials, such as name, address, email address, and website address.
 
 ## Methods
 

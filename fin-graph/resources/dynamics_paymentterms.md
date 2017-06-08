@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Payment terms resource type
-Represents a paymentTerms resource type in Dynamics 365 for Financials.
+Represents a payment term in Dynamics 365 for Financials.
 
 ## Methods
 
