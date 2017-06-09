@@ -1,7 +1,7 @@
 ---
 title: "ApplicationArea Property"
 ms.custom: na
-ms.date: 05/02/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -29,9 +29,9 @@ Sets the application areas that apply to the control.
  If the control applies to all application areas, you can set the property to **#All**. This means that the control will always appear in the user interface.  
   
 ## Remarks  
- This property is used together with the APPLICATIONAREA function to hide user interface elements.  
+ This property is used together with the APPLICATIONAREA method to hide user interface elements.  
   
  If one or more application areas are enabled in a session, any controls that are not tagged with an application area will not appear in the user interface.  
    
 ## See Also  
- [APPLICATIONAREA Function](APPLICATIONAREA-Function.md)
+ [APPLICATIONAREA Method](devenv-applicationarea-method.md)

@@ -1,7 +1,7 @@
 ---
 title: "ChartPartID Property"
 ms.custom: na
-ms.date: 05/31/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -22,9 +22,9 @@ Sets the ID of the chart to add to the page.
 >  This property is not supported by [!INCLUDE[nav_web](includes/nav_web_md.md)]. When the page displays in [!INCLUDE[nav_web](includes/nav_web_md.md)], the property is ignored and the chart does not appear.  
   
 ## Remarks  
- To set this property, you need to first set the value of the [PartType Property](PartType-Property.md) to **Chart**. The ChartPartID property creates a link to the selected chart in the Chart table.  
+ To set this property, you need to first set the value of the [PartType Property](devenv-parttype-property.md) to **Chart**. The ChartPartID property creates a link to the selected chart in the Chart table.  
   
 ## See Also  
- [PartType Property](PartType-Property.md)   
- [PagePartID Property](PagePartID-Property.md)   
- [SystemPartID Property](SystemPartID-Property.md)
+ [PartType Property](devenv-parttype-property.md)   
+ [PagePartID Property](devenv-pagepartid-property.md)   
+ [SystemPartID Property](devenv-systempartid-property.md)

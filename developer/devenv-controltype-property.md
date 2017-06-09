@@ -24,4 +24,4 @@ Use this property when you select a control type in Page Designer.
 -   Field  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

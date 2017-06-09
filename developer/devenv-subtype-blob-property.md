@@ -1,7 +1,7 @@
 ---
 title: "SubType Property (BLOB)"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,4 +26,4 @@ Sets additional information about what will be contained in the field.
 |**User-Defined \(default\)**|For user defined information|  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

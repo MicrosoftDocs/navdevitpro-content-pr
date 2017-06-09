@@ -1,7 +1,7 @@
 ---
 title: "CardPageID Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -22,4 +22,6 @@ Sets the card page that is associated with items in the current list page.
  
  
 ## See Also  
- 
+[PagePartID Property](devenv-pagepartid-property.md)   
+[ChartPartID Property](devenv-chartpartid-property.md)
+[SystemPartID Property](devenv-systempartid-property.md)

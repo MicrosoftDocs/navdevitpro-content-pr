@@ -18,4 +18,4 @@ Sets the data type of a table field.
  Table Fields  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

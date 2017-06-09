@@ -1,7 +1,7 @@
 ---
 title: "AutoSplitKey Property"
 ms.custom: na
-ms.date: 05/29/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ Sets whether a key is automatically created for a new record placed between the 
 -   Pages  
   
 ## Property Value  
- **true** if the key is automatically created for the new record; otherwise, **false**. The default value is **false**.  
+ **True** if the key is automatically created for the new record; otherwise, **false**. The default value is **false**.  
   
 ## Remarks  
  To set this property to a value of **true**, the following conditions must be met:  
@@ -29,4 +29,4 @@ Sets whether a key is automatically created for a new record placed between the 
 -   The last field in the primary field must be an [Integer Data Type](Integer-Data-Type.md), [BigInteger Data Type](BigInteger-Data-Type.md), [GUID Data Type](GUID-Data-Type.md), or [Decimal Data Type](Decimal-Data-Type.md) field.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

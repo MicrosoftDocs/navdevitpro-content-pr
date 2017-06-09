@@ -1,7 +1,7 @@
 ---
 title: "DelayedInsert Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/09/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ Sets a value that specifies whether a user must leave a record before it is inse
 -   Pages  
   
 ## Property Value  
- **true** if the record is inserted when the user leaves the record; otherwise, **false** if the record is inserted when the user leaves the control that shows the primary key. The default value is **false**.  
+ **True** if the record is inserted when the user leaves the record; otherwise, **false** if the record is inserted when the user leaves the control that shows the primary key. The default value is **false**.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

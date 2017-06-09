@@ -1,7 +1,7 @@
 ---
 title: "DeleteAllowed Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/09/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ Sets a value that specifies whether users can delete records while using the  pa
 -   Pages  
   
 ## Property Value  
- **true** if the user can delete records; otherwise, **false**. The default value is **true**.  
+ **True** if the user can delete records; otherwise, **false**. The default value is **true**.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

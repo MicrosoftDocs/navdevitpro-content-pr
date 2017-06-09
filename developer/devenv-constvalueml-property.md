@@ -11,7 +11,7 @@ ms.assetid: c20c0f86-3eb9-4b29-ac43-c569614162c8
 caps.latest.revision: 6
 ---
 # ConstValueML Property
-Sets the values of a C/AL text constant for the different languages that are available in [!INCLUDE[navnow](includes/navnow_md.md)].  
+Sets the values of a AL text constant for the different languages that are available in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ## Applies To  
  **Local** and **global** text constants in the AL code of objects.  

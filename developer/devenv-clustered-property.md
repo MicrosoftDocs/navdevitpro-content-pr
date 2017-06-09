@@ -18,4 +18,4 @@ Sets a value that indicates whether the index is clustered.
  Keys  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)
