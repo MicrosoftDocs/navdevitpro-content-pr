@@ -23,7 +23,7 @@ The following methods are used to search for records:
  These methods are some of the most frequently used AL methods. When you search for records, you must know the difference between GET and FIND and to know how to use FIND and NEXT in conjunction.  
   
 ## GET methods  
- The [GET methods \(Record\)](methods/devenv-GET-methods-Record.md) retrieves one record based on values of the primary key fields.  
+ The [GET methods \(Record\)](methods/devenv-GET-method-Record.md) retrieves one record based on values of the primary key fields.  
   
  GET has the following syntax.  
   
@@ -51,7 +51,7 @@ ELSE
  GET searches for the records, regardless of the current filters, and it does not change any filters. GET always searches through all the records in a table.  
   
 ## FIND methods  
- The [FIND methods \(Record\)](methods/devenv-FIND-methods-Record.md) locates a record in a table that is based on the values stored in the keys.  
+ The [FIND methods \(Record\)](methods/devenv-FIND-method-Record.md) locates a record in a table that is based on the values stored in the keys.  
   
  FIND has the following syntax.  
   
@@ -81,10 +81,10 @@ IF SalesOrderLine.FIND('-') THEN
 ERROR(Text001,TABLECAPTION,"No.",SalesOrderLine."Document Type");  
 ```  
   
- If you want to find the first record in a table or set, then use the [FINDFIRST methods \(Record\)](methods/devenv-FINDFIRST-methods-Record.md). If you want to find the last record in a table or set, then use the [FINDLAST methods \(Record\)](methods/devenv-FINDLAST-methods-Record.md).  
+ If you want to find the first record in a table or set, then use the [FINDFIRST methods \(Record\)](methods/devenv-FINDFIRST-method-Record.md). If you want to find the last record in a table or set, then use the [FINDLAST methods \(Record\)](methods/devenv-FINDLAST-method-Record.md).  
   
 ## NEXT methods  
- The [NEXT methods \(Record\)](methods/devenv-NEXT-methods-Record.md) is often used with FIND to step through the records of a table.  
+ The [NEXT methods \(Record\)](methods/devenv-NEXT-method-Record.md) is often used with FIND to step through the records of a table.  
   
  NEXT has the following syntax.  
   
