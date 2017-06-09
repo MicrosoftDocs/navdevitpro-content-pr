@@ -1,7 +1,7 @@
 ---
 title: "DataItemLink Property (Reports)"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -29,15 +29,15 @@ Sets the corresponding fields from two data items that are linked by the [DataIt
 |Syntax|Description|  
 |------------|-----------------|  
 |\<field>|A field from the child data item|  
-|\<reference field>|A field from the less indented \(parent\) data item that is identified by the [DataItemLinkReference Property](DataItemLinkReference-Property.md)|  
+|\<reference field>|A field from the less indented \(parent\) data item that is identified by the [DataItemLinkReference Property](devenv-dataitemlinkreference-property.md)|  
   
  The DataItemLink property sets a filter on the child data item. This filter selects records that contain the same field value in both the parent and child data items. Use the **AssistButton** to select the fields from field name lookups for the parent and child data items.  
   
- The following example illustrates using this property. You have two data items, a parent and child. The parent data item is a list of customers, called Customer. The child data item contains a record of all sales orders. In the customer table, the primary key is the customer number, which is stored in the No. field. In the table that contains sales data, each record contains this customer number as a foreign key in a field called Sell-to Customer No. You set the value of the [DataItemLinkReference Property](DataItemLinkReference-Property.md) on the child data item to the parent data item. You set the DataItemLink property of the child data item to the following value.  
+ The following example illustrates using this property. You have two data items, a parent and child. The parent data item is a list of customers, called Customer. The child data item contains a record of all sales orders. In the customer table, the primary key is the customer number, which is stored in the No. field. In the table that contains sales data, each record contains this customer number as a foreign key in a field called Sell-to Customer No. You set the value of the [DataItemLinkReference Property](devenv-dataitemlinkreference-property.md) on the child data item to the parent data item. You set the DataItemLink property of the child data item to the following value.  
   
  **Sell-to Customer No.=FIELD\(No.\)**  
   
- You now have a filter on the records in the child data item. This filter only displays records that pertain to the currently selected customer record. You can also accomplish the same task by placing the following C/AL statement in the [OnPreDataItem Trigger](OnPreDataItem-Trigger.md) for the child data item.  
+ You now have a filter on the records in the child data item. This filter only displays records that pertain to the currently selected customer record. You can also accomplish the same task by placing the following AL statement in the [OnPreDataItem Trigger](OnPreDataItem-Trigger.md) for the child data item.  
   
 ```  
 SETRANGE("Sell-to Customer No.",Customer."No.");  
@@ -45,4 +45,4 @@ SETRANGE("Sell-to Customer No.",Customer."No.");
   
 ## See Also  
  [OnPreDataItem Trigger](OnPreDataItem-Trigger.md)   
- [DataItemLinkReference Property](DataItemLinkReference-Property.md)
+ [DataItemLinkReference Property](devenv-dataitemlinkreference-property.md)

@@ -1,7 +1,7 @@
 ---
 title: "AutoUpdate Property"
 ms.custom: na
-ms.date: 05/31/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,8 +25,8 @@ Sets whether a record in the database with the same primary key as the record in
  Set **AutoUpdate** to **true** when you import a file with partial information. For example, you can use this property if you create new prices for an item list in an external file where this file only contains item numbers and prices. In this case, you would want to update the price field, while retaining the information in the other fields.  
   
 > [!WARNING]  
->  If this property is set to **true**, then the [AutoReplace Property](AutoReplace-Property.md) has no effect.  
+>  If this property is set to **true**, then the [AutoReplace Property](devenv-autoreplace-property.md) has no effect.  
   
 ## See Also  
- [AutoReplace Property](AutoReplace-Property.md)   
- [AutoSave Property](AutoSave-Property.md)
+ [AutoReplace Property](devenv-autoReplace-property.md)   
+ [AutoSave Property](devenv-autosave-property.md)

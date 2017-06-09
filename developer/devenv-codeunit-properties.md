@@ -1,7 +1,7 @@
 ---
 title: "Codeunit Properties"
 ms.custom: na
-ms.date: 05/31/2017
+ms.date: 06/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,112 +12,112 @@ caps.latest.revision: 16
 manager: edupont
 ---
 # Codeunit Properties
-This topic lists properties that apply to the Codeunit object, variables, text constants, functions, parameters, and return values.  
+This topic lists properties that apply to the Codeunit object, variables, text constants, methods, parameters, and return values.  
   
 ## Codeunit Object Properties  
  The following properties apply to the **Codeunit** object.  
   
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
   
--   [Name Property](Name-Property.md)  
+-   [Name Property](devenv-name-property.md)  
   
--   [Permissions Property](Permissions-Property.md)  
+-   [Permissions Property](devenv-permissions-property.md)  
   
--   [SingleInstance Property](SingleInstance-Property.md)  
+-   [SingleInstance Property](devenv-singleinstance-property.md)  
   
--   [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md)  
+-   [SubType Property \(Codeunit\)](devenv-subtype-codeunit-property.md)  
   
--   [TableNo Property](TableNo-Property.md)  
+-   [TableNo Property](devenv-tableno-property.md)  
   
--   [TestIsolation Property](TestIsolation-Property.md)  
+-   [TestIsolation Property](devenv-testisolation-property.md)  
   
 ## AL Globals Variables Properties  
  The following properties apply to **Variables** in the **AL Globals** window of codeunit objects.  
   
--   [Dimensions Property](Dimensions-Property.md)  
+-   [Dimensions Property](devenv-dimensions-property.md)  
   
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
   
--   [IncludeInDataSet Property](IncludeInDataSet-Property.md)  
+-   [IncludeInDataSet Property](devenv-includeindataset-property.md)  
   
--   [OptionString Property](OptionString-Property.md)  
+-   [OptionString Property](devenv-optionstring-property.md)  
   
--   [WithEvents Property](WithEvents-Property.md)  
+-   [WithEvents Property](devenv-withevents-property.md)  
   
 ## AL Globals Text Constants Properties  
  The following properties apply to **Text Constants** in the **AL Globals** window of codeunit objects.  
   
--   [ConstValue Property](ConstValue-Property.md)  
+-   [ConstValue Property](devenv-constvalue-property.md)  
   
--   [ConstValueML Property](ConstValueML-Property.md)  
+-   [ConstValueML Property](devenv-constvalueml-property.md)  
   
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
   
-## AL Globals Functions Properties  
- The following properties apply to **Functions** in the **AL Globals** window of codeunit objects.  
+## AL Globals Methods Properties  
+ The following properties apply to **Methods** in the **AL Globals** window of codeunit objects.  
   
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
   
--   [Local Property](Local-Property.md)  
+-   [Local Property](devenv-local-property.md)  
   
--   [FunctionType Property \(Upgrade Codeunits\)](FunctionType-Property--Upgrade-Codeunits-.md)  
+ <!-- //NAV [MethodType Property \(Upgrade Codeunits\)](MethodType-Property--Upgrade-Codeunits-.md)  -->
   
--   [FunctionType Property \(Test Codeunits\)](FunctionType-Property--Test-Codeunits-.md)  
+ <!-- //NAV[MethodType Property \(Test Codeunits\)](MethodType-Property--Test-Codeunits-.md)  -->
   
--   [HandlerFunctions Property](HandlerFunctions-Property.md)  
+-   [HandlerMethods Property](devenv-handlermethods-property.md)  
   
--   [TransactionModel Property](TransactionModel-Property.md)  
+-   [TransactionModel Property](devenv-transactionmodel-property.md)  
   
--   [TryFunction Property](TryFunction-Property.md)  
+-   [TryMethod Property](devenv-trymethod-property.md)  
   
--   [Event Property](Event-Property.md)  
+-   [Event Property](devenv-event-property.md)  
   
--   [EventFunction Property](EventFunction-Property.md)  
+-   [EventMethod Property](devenv-eventmethod-property.md)  
   
--   [EventPublisherObject Property](EventPublisherObject-Property.md)  
+-   [EventPublisherObject Property](devenv-eventpublisherobject-property.md)  
   
--   [EventType Property](EventType-Property.md)  
+-   [EventType Property](devenv-eventtype-property.md)  
   
--   [GlobalVarAccess Property](GlobalVarAccess-Property.md)  
+-   [GlobalVarAccess Property](devenv-globalvaraccess-property.md)  
   
--   [IncludeSender Property](IncludeSender-Property.md)  
+-   [IncludeSender Property](devenv-includesender-property.md)  
   
--   [EventPublisherElement Property](EventPublisherElement-Property.md)  
+-   [EventPublisherElement Property](devenv-eventpublisherelement-property.md)  
   
 ## AL Locals Variables Properties  
  The following properties apply to **Variables** in the **AL Locals** window of codeunit objects.  
   
--   [Dimensions Property](Dimensions-Property.md)  
+-   [Dimensions Property](devenv-dimensions-property.md)  
   
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
   
--   [OptionString Property](OptionString-Property.md)  
+-   [OptionString Property](devenv-optionstring-property.md)  
   
--   [RunOnClient Property](RunOnClient-Property.md)  
+-   [RunOnClient Property](devenv-runonclient-property.md)  
   
--   [SuppressDispose Property](SuppressDispose-Property.md)  
+-   [SuppressDispose Property](devenv-suppressdispose-property.md)  
   
--   [Temporary Property](Temporary-Property.md)  
+-   [Temporary Property](devenv-temporary-property.md)  
   
 ## AL Locals Text Constants Properties  
  The following properties apply to **Text Constants** in the **AL Locals** window of codeunit objects.  
   
--   [ConstValue Property](ConstValue-Property.md)  
+-   [ConstValue Property](devenv-constvalue-property.md)  
   
--   [ConstValueML Property](ConstValueML-Property.md)  
+-   [ConstValueML Property](devenv-constvalueml-property.md)  
   
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
   
 ## AL Locals Parameters Properties  
  The following properties apply to **Parameters** in the **AL Locals** window of codeunit objects.  
   
--   [Dimensions Property](Dimensions-Property.md)  
+-   [Dimensions Property](devenv-dimensions-property.md)  
   
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
   
 ## AL Locals Return Values Properties  
  The following properties apply to **Return Values** in the **AL Locals** window of codeunit objects.  
   
--   [Dimensions Property](Dimensions-Property.md)  
+-   [Dimensions Property](devenv-dimensions-property.md)  
   
--   [ID Property](ID-Property.md)
+-   [ID Property](devenv-id-property.md)

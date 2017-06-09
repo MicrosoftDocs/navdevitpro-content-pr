@@ -1,7 +1,7 @@
 ---
 title: "BitmapPos Property"
 ms.custom: na
-ms.date: 05/31/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -36,5 +36,5 @@ Sets the position of a bitmap.
 |**Center**|In the center|  
   
 ## See Also  
- [Bitmap Property](Bitmap-Property.md)   
- [BitmapList Property](BitmapList-Property.md)
+ [Bitmap Property](devenv-bitmap-property.md)   
+ [BitmapList Property](devenv-bitmaplist-property.md)
