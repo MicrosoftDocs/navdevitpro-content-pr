@@ -48,7 +48,7 @@ MESSAGE(String [, Value1, …])
   
 -   Write the message in past tense.  
   
- For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](devenv-Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Methods.md).  
+ For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](../devenv-progress-windows-message-error-and-confirm-methods.md).  
   
 ## Example  
  This example shows how to use the MESSAGE method.  
