@@ -47,8 +47,8 @@ To run the Txt2Al conversion tool, follow the steps outlined below.
 > NOTE: It is recommended to only use the conversion tool for export. Importing objects that have been exported can damage your application.
 
 ## See Also
-[Developing Extensions](newdev-dev-overview.md)  
-[Developer Reference](newdev-reference-overview.md)  
-[Page Extension Object](newdev-page-ext-object.md)  
-[Report Object](newdev-report-object.md)  
+[Developing Extensions](devenv-dev-overview.md)  
+[Developer Reference](devenv-reference-overview.md)  
+[Page Extension Object](devenv-page-ext-object.md)  
+[Report Object](devenv-report-object.md)  
 [Page Properties](devenv-page-property-overview.md)
