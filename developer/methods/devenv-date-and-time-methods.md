@@ -13,29 +13,29 @@ manager: edupont
 ---
 # Date and Time Methods
 This section contains the following topics:  
-  
+
 -   [CALCDATE Method \(Date\)](devenv-CALCDATE-Method-Date.md)  
-  
+
 -   [CLOSINGDATE Method \(Date\)](devenv-CLOSINGDATE-Method-Date.md)  
-  
+
 -   [DATE2DMY Method \(Date\)](devenv-DATE2DMY-Method-Date.md)  
-  
+
 -   [DATE2DWY Method \(Date\)](devenv-DATE2DWY-Method-Date.md)  
-  
--   [DATI2VARIANT Method](devenv-DATI2VARIANT-Method.md)  
-  
+
+<!--NAV -   [DATI2VARIANT Method](devenv-DATI2VARIANT-Method.md)  -->
+
 -   [DMY2DATE Method \(Date\)](devenv-DMY2DATE-Method-Date.md)  
-  
+
 -   [DWY2DATE Method \(Date\)](devenv-DWY2DATE-Method-Date.md)  
-  
+
 -   [NORMALDATE Method \(Date\)](devenv-NORMALDATE-Method-Date.md)  
-  
+
 -   [TIME Method \(Time\)](devenv-TIME-Method-Time.md)  
-  
+
 -   [TODAY Method \(Date\)](devenv-TODAY-Method-Date.md)  
-  
+
 -   [VARIANT2DATE Method](devenv-VARIANT2DATE-Method.md)  
-  
+
 -   [VARIANT2TIME Method](devenv-VARIANT2TIME-Method.md)  
-  
+
 -   [WORKDATE Method \(Date\)](devenv-WORKDATE-Method-Date.md)
