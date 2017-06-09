@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 35134e00-91e7-4d0d-a64e-94dcc1cd5946
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Record Data Type
 This complex data type corresponds to a row in a table. Each record consist of fields that form the columns of the table. A record is typically used to hold information about a fixed number of properties.  

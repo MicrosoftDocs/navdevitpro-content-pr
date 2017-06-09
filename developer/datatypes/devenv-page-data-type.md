@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 75b2a3a2-d2e6-4099-980c-1f4a343c79b6
 caps.latest.revision: 7
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Page Data Type
 This complex data type stores pages.  

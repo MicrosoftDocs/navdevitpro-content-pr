@@ -9,6 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: ede60a1a-e656-4135-9859-f264d0aa2a66
 caps.latest.revision: 8
+author: SusanneWindfeldPedersen
 ---
 # Integer Data Type
 This simple data type stores whole numbers with values that range from -2,147,483,647 to 2,147,483,647.  

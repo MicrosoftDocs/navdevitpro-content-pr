@@ -1,7 +1,6 @@
 ---
 title: "BLOB Data Type"
-author: edupont04
-manager: edupont04
+author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 06/07/2017
 ms.reviewer: na
