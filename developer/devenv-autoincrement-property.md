@@ -37,4 +37,4 @@ Sets whether the field value should be automatically incremented.
  The AutoIncrement property does not work with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] temporary tables.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

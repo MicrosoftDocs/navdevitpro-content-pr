@@ -1,7 +1,7 @@
 ---
 title: "DataCaptionExpression Property"
 ms.custom: na
-ms.date: 05/02/2017
+ms.date: 06/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -22,4 +22,4 @@ Sets an AL expression that is evaluated and displayed to the left of the page ca
  The expression is evaluated each time the user switches from one record to another or when one of the fields in the record changes.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

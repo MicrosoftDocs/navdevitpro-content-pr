@@ -1,7 +1,7 @@
 ---
 title: "ContainerType Property"
 ms.custom: na
-ms.date: 05/04/2017
+ms.date: 06/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,7 +27,7 @@ Sets the container type in Page Designer when you want to add one of the followi
 -   Container controls on Pages  
   
 ## Remarks  
- A Container control functions as a high-level container for other page controls. You can choose from one of the following subtypes:  
+ A Container control methods as a high-level container for other page controls. You can choose from one of the following subtypes:  
   
 |Value|Description|  
 |-----------|-----------------|  
@@ -36,4 +36,4 @@ Sets the container type in Page Designer when you want to add one of the followi
 |RoleCenterArea|Specifies the main content area for a RoleCenter page type.|  
    
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)
