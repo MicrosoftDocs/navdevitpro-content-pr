@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: ee5c8ebe-98a6-4453-ba43-908f4ef2af93
 caps.latest.revision: 6
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Query Data Type
 A complex data type that stores queries.  

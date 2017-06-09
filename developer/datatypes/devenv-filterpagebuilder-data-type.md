@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: fde21de9-bf6d-4c75-bc48-aa239a17ac64
 caps.latest.revision: 3
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # FilterPageBuilder Data Type
 A FilterPageBuilder data type is a complex data type that stores filter configurations for a filter page. A filter page is a dynamic page type that contains one or more filter controls that enables users to set filters on fields of the underlying tables.  
