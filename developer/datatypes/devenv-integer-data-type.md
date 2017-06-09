@@ -1,7 +1,7 @@
 ---
 title: "Integer Data Type"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -41,10 +41,10 @@ IntegerVar := IntegerVar - 1;
 ```  
   
 ## See Also  
- [BigInteger Data Type](BigInteger-Data-Type.md)   
- [Decimal Data Type](Decimal-Data-Type.md)   
- [ABS Function \(Decimal, Integer, BigInteger\)](ABS-Function--Decimal--Integer--BigInteger-.md)   
- [POWER Function \(Decimal, Integer, BigInteger\)](POWER-Function--Decimal--Integer--BigInteger-.md)   
- [RANDOM Function \(Integer\)](RANDOM-Function--Integer-.md)   
- [RANDOMIZE Function \(Integer\)](RANDOMIZE-Function--Integer-.md)   
- [ROUND Function \(Decimal\)](ROUND-Function--Decimal-.md)
+ [BigInteger Data Type](devenv-biginteger-data-type.md)   
+ [Decimal Data Type](devenv-decimal-data-type.md)   
+ [ABS method (Decimal, Integer, BigInteger)](../methods/devenv-abs-method-decimal-integer-biginteger.md)  
+ [POWER method (Decimal, Integer, BigInteger)](../methods/devenv-power-method-decimal-integer-biginteger.md)  
+ [RANDOM method (Integer)](../methods/devenv-random-method-integer.md)   
+ [RANDOMIZE method (Integer)](../methods/devenv-randomize-method-integer.md)   
+ [ROUND method (Decimal)](../methods/devenv-round-method-decimal.md)

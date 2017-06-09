@@ -1,7 +1,7 @@
 ---
 title: "MediaSet Data Type"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,10 +17,10 @@ The **MediaSet** data type enables you to import media to the application databa
 
 ## See Also  
 [Working With Media on Records](Working-With-Media-on-Records.md)  
-[COUNT method \(MediaSet\)](../methods/devenv-COUNT-method-MediaSet.md)  
-[IMPORTFILE method \(MediaSet\)](../methods/devenv-IMPORTFILE-method-MediaSet.md)   
-[IMPORTSTREAM method \(MediaSet\)](../methods/devenv-IMPORTSTREAM-method-MediaSet.md)  
-[INSERT method \(MediaSet\)](../methods/devenv-INSERT-method-MediaSet.md)  
-[ITEM method \(MediaSet\)](../methods/devenv-ITEM-method-MediaSet.md)  
-[MEDIAID method \(MediaSet\)](../methods/devenv-MEDIAID-method-MediaSet.md)  
-[EXPORTFILE method](../methods/devenv-EXPORTFILE-method-MediaSet.md)  
+[COUNT method (MediaSet)](../methods/devenv-count-method-mediaset.md)  
+[IMPORTFILE method (MediaSet)](../methods/devenv-importfile-method-mediaset.md)   
+[IMPORTSTREAM method (MediaSet)](../methods/devenv-importstream-method-mediaset.md)  
+[INSERT method (MediaSet)](../methods/devenv-insert-method-mediaset.md)  
+[ITEM method (MediaSet)](../methods/devenv-item-method-mediaset.md)  
+[MEDIAID method (MediaSet)](../methods/devenv-mediaid-method-mediaset.md)  
+[EXPORTFILE method](../methods/devenv-exportfile-method-mediaset.md)  

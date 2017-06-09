@@ -1,7 +1,7 @@
 ---
 title: "System"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,18 +14,18 @@ manager: edupont
 # System
 This section contains the following topics:  
 
--   [Array methods](Array-methods.md)  
+-   [Array methods](../methods/devenv-array-methods.md)  
 
 -   [Error Handling](Error-Handling.md)  
 
--   [Language methods](Language-methods.md)  
+-   [Language methods](../methods/devenv-language-methods.md)  
 
--   [Operating System methods](Operating-System-methods.md)  
+-   [Operating System methods](../methods/devenv-operating-system-methods.md)  
 
--   [Variable methods](Variable-methods.md)  
+-   [Variable methods](../methods/devenv-variable-methods.md)  
 
--   [Encryption methods](Encryption-methods.md)  
+-   [Encryption methods](../methods/devenv-encryption-methods.md)  
 
 ## See Also  
  [AL methods](C-AL-methods.md)   
- [Technical Reference](Technical-Reference.md)
+ [Developer Reference](devenv-developer-reference.md)

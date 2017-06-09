@@ -43,7 +43,7 @@ Exports a binary large object \(BLOB\).
  *CommonDialog*  
  Type: Boolean  
 
- Specifies whether you want to display a dialog box before the BLOB is exported. This dialog box lets you select the file that you want to export. Based on the [SubType Property \(BLOB\)](../devenv-SubType-Property-BLOB.md) property, only the appropriate file types are listed, such as bitmap files \(\*.bmp\), memo files \(\*.txt\), or all files \(\*.\*\).  
+ Specifies whether you want to display a dialog box before the BLOB is exported. This dialog box lets you select the file that you want to export. Based on the [SubType Property \(BLOB\)](../devenv-subtype-blob-property.md) property, only the appropriate file types are listed, such as bitmap files \(\*.bmp\), memo files \(\*.txt\), or all files \(\*.\*\).  
 
  If the *CommonDialog* parameter is **true**, [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] will display the confirmation dialog box. If the *CommonDialog* parameter is **false** \(default\), [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] will not display the confirmation dialog box.  
 

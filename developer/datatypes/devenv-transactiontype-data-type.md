@@ -1,7 +1,7 @@
 ---
 title: "TransactionType Data Type"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,8 +12,8 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # TransactionType Data Type
-Use variables of this complex data type to store the current transaction type. You can then use the value to set the transaction type. You can only change the transaction type when there is no current transaction \(immediately after a commit\).  
+Use variables of this complex data type to store the current transaction type. You can then use the value to set the transaction type. You can only change the transaction type when there is no current transaction (immediately after a commit).  
   
- For more information about transaction types, see [TransactionType Property](TransactionType-Property.md).  
+ For more information about transaction types, see [TransactionType Property](devenv-transactiontype-Property.md).  
   
- For more information about the rules governing transaction types, see [CURRENTTRANSACTIONTYPE method \(Database\)](../methods/devenv-CURRENTTRANSACTIONTYPE-method-Database.md).
+ For more information about the rules governing transaction types, see [CURRENTTRANSACTIONTYPE method (Database)](../methods/devenv-currenttransactiontype-method-database.md).
