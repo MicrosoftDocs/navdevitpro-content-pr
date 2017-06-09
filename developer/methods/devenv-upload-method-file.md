@@ -64,9 +64,9 @@ A user can try to upload any file type but an error occurs if the file is not th
 
  The path and file name to give the uploaded file.  
 
- If you do not provide a path, or you upload the file that uses [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)], then the file is uploaded to the following folder on the computing that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)]:  
+<!--NAV If you do not provide a path, or you upload the file that uses [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)], then the file is uploaded to the following folder on the computing that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)]:  
 
- \\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\90\\Server\\MicrosoftDynamicsNAVServer$[!INCLUDE[nav_server_instance](../includes/nav_server_instance_md.md)]\\users\\*ServiceAccount*  
+ \\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\90\\Server\\MicrosoftDynamicsNAVServer$[!INCLUDE[nav_server_instance](../includes/nav_server_instance_md.md)]\\users\\*ServiceAccount*  -->
 
  *ServiceAccount* is the folder for the account for [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)].  
 
@@ -86,7 +86,7 @@ The business logic is run on the [!INCLUDE[d365fin_server_md](../includes/d365fi
 
 [UPLOAD Method \(FILE\)](devenv-UPLOAD-Method-File.md) and [UPLOADINTOSTREAM Method \(File\)](devenv-UPLOADINTOSTREAM-Method-File.md) are used to send a file from the client to a [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)].  
 
-[DOWNLOAD Method \(File\)](devenv-DOWNLOAD-Method-File.md) and [DOWNLOADFROMSTREAM Method \(File\)](devenv-DOWNLOADFROMSTREAM-Method-File.md) are used to send a file from a !INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] to the client.  
+[DOWNLOAD Method \(File\)](devenv-DOWNLOAD-Method-File.md) and [DOWNLOADFROMSTREAM Method \(File\)](devenv-DOWNLOADFROMSTREAM-Method-File.md) are used to send a file from a [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] to the client.  
 
 We recommend that you use the methods in codeunit 419, File Management, to upload and download files.  
 

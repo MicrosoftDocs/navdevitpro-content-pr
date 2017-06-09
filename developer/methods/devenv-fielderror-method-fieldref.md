@@ -78,7 +78,7 @@ ELSE
   
 -   Use a text constant for the *Text* parameter.  
   
- For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](devenv-Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Methods.md).  
+ For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](../devenv-progress-windows-message-error-and-confirm-methods.md).  
   
 ## See Also  
  [FieldRef Data Type](../datatypes/devenv-FieldRef-Data-Type.md)

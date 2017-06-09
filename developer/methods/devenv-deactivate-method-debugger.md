@@ -13,20 +13,20 @@ manager: edupont
 ---
 # DEACTIVATE Method (Debugger)
 Deactivates the debugger.  
-  
+
 ## Syntax  
-  
+
 ```  
 [Ok :=] DEACTIVATE  
 ```  
-  
+
 ## Property Value/Return Value  
  Type: Boolean  
-  
+
  **true** if the debugger is deactivated successfully; otherwise, **false**.  
-  
+
  If you omit this optional return value and if the break is not set successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
-  
+
 ## See Also  
  [Activating the Debugger](Activating-the-Debugger.md)   
- [ACTIVATE Method \(Debugger\)](devenv-ACTIVATE-Method-Debugger.md)
+ <!--NAV [ACTIVATE Method \(Debugger\)](devenv-ACTIVATE-Method-Debugger.md)-->

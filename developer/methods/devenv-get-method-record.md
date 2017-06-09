@@ -72,4 +72,4 @@ ELSE
 ## See Also  
  [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
  [FILTERGROUP Method \(Record\)](devenv-FILTERGROUP-Method-Record.md)   
- [GET, FIND, and NEXT Methods](devenv-GET--FIND--and-NEXT-Methods.md)
+ [GET, FIND, and NEXT Methods](../devenv-get-find-and-next-methods.md)
