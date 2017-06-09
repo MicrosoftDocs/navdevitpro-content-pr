@@ -57,4 +57,4 @@ Sets a value for a table field or UI element that determines the permission mask
 
 
 ## See Also  
- 
+ [Properties](..//properties/devenv-properties.md)

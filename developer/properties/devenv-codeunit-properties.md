@@ -60,9 +60,11 @@ This topic lists properties that apply to the Codeunit object, variables, text c
   
 -   [Local Property](devenv-local-property.md)  
   
- <!-- //NAV [MethodType Property \(Upgrade Codeunits\)](MethodType-Property--Upgrade-Codeunits-.md)  -->
+ <!-- 
+-   //NAV [MethodType Property \(Upgrade Codeunits\)](MethodType-Property--Upgrade-Codeunits-.md) 
   
- <!-- //NAV[MethodType Property \(Test Codeunits\)](MethodType-Property--Test-Codeunits-.md)  -->
+-   [MethodType Property \(Test Codeunits\)](MethodType-Property--Test-Codeunits-.md)  
+ -->
   
 -   [HandlerMethods Property](devenv-handlermethods-property.md)  
   

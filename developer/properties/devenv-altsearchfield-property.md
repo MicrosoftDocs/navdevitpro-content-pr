@@ -1,7 +1,7 @@
 ---
 title: "AltSearchField Property"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/09/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,7 +12,7 @@ caps.latest.revision: 5
 manager: edupont
 ---
 # AltSearchField Property
-In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], set the [Name Property](devenv-name-property.md) of an alternative field used to perform lookups on the current field.  
+In earlier versions of [!INCLUDE[navnow](../includes/navnow_md.md)], set the [Name Property](devenv-name-property.md) of an alternative field used to perform lookups on the current field.  
   
 ## Applies To  
  Fields  

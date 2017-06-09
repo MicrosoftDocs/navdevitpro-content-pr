@@ -1,7 +1,7 @@
 ---
 title: "ApplicationArea Property"
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 06/09/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -34,4 +34,4 @@ Sets the application areas that apply to the control.
  If one or more application areas are enabled in a session, any controls that are not tagged with an application area will not appear in the user interface.  
    
 ## See Also  
- [APPLICATIONAREA Method](devenv-applicationarea-method.md)
+ [APPLICATIONAREA Method](../methods/devenv-applicationarea-method.md)

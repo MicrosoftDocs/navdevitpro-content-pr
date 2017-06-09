@@ -1,7 +1,7 @@
 ---
 title: "ColumnFilter Property"
 ms.custom: na
-ms.date: 05/31/2017
+ms.date: 06/09/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,9 +23,9 @@ Sets a filter on the column filter row of a query.
  The filter expression must follow the required syntax. For more information, see [Entering Criteria in Filters](Entering-Criteria-in-Filters.md).  
   
 ## Remarks  
- In a query, Columns and Filter rows specify fields of the underlying table of the parent DataItem. Columns appear in the resulting dataset, whereas Filter rows do not. You use a ColumnFilter property to apply a condition on a field to limit the records in query’s resulting dataset. The ColumnFilter property resembles the [DataItemTableFilter Property](devenv-dataitemtablefilter-property.md) of the DataItem, but there are differences. The ColumnFilter property has the following behavior:  
+ In a query, Columns and Filter rows specify fields of the underlying table of the parent DataItem. Columns appear in the resulting dataset, whereas Filter rows do not. You use a ColumnFilter property to apply a condition on a field to limit the records in query’s resulting dataset. The ColumnFilter property resembles the [DataItemTableFilter Property](devenv-dataitemtable-filter-property.md) of the DataItem, but there are differences. The ColumnFilter property has the following behavior:  
   
--   Unlike filters that are set by the DataItemTableFilter property, filters that are set by the ColumnFilter property can be overwritten at runtime by calling the [SETFILTER Method \(Query\)](SETFILTER-method--query-.md) and [SETRANGE Method \(Query\)](SETRANGE-fuction--query-.md) from AL code.  
+-   Unlike filters that are set by the DataItemTableFilter property, filters that are set by the ColumnFilter property can be overwritten at runtime by calling the [SETFILTER Method \(Query\)](../methods/devenv-setfilter-method-query.md) and [SETRANGE Method \(Query\)](../methods/devenv-setrange-method-query.md) from AL code.  
   
      There can be multiple calls to the SETFILTER and SETRANGE methods in AL, but it is the first call in the method that overwrites the ColumnFilter property.  
   

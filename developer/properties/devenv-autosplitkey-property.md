@@ -1,7 +1,7 @@
 ---
 title: "AutoSplitKey Property"
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 06/09/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,7 +26,7 @@ Sets whether a key is automatically created for a new record placed between the 
   
 -   The current key must be the primary key.  
   
--   The last field in the primary field must be an [Integer Data Type](Integer-Data-Type.md), [BigInteger Data Type](BigInteger-Data-Type.md), [GUID Data Type](GUID-Data-Type.md), or [Decimal Data Type](Decimal-Data-Type.md) field.  
+-   The last field in the primary field must be an [Integer Data Type](../datatypes/devenv-integer-data-type.md), [BigInteger Data Type](../datatypes/devenv-biginteger-data-type.md), [GUID Data Type](../datatypes/devenv-guid-data-type.md), or [Decimal Data Type](../datatypes/devenv-decimal-data-type.md) field.  
   
 ## See Also  
  [Properties](devenv-properties.md)

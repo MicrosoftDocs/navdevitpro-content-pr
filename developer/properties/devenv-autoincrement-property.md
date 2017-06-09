@@ -1,7 +1,7 @@
 ---
 title: "AutoIncrement Property"
 ms.custom: na
-ms.date: 05/31/2017
+ms.date: 06/09/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,7 @@ manager: edupont
 Sets whether the field value should be automatically incremented.  
   
 ## Applies To  
- Fields of [Integer Data Type](Integer-Data-Type.md) and [BigInteger Data Type](BigInteger-Data-Type.md)  
+ Fields of [Integer Data Type](../datatypes/devenv-integer-data-type.md) and [BigInteger Data Type](../datatypes/devenv-biginteger-data-type.md)  
   
 ## Property Value  
  **True** if the field value is automatically incremented; otherwise, **false**. The default value is **true**.  
@@ -34,7 +34,7 @@ Sets whether the field value should be automatically incremented.
   
  The AutoIncrement property is designed to always assign numbers automatically. If you want to insert a record, be sure that the value in this field is blank before you insert the record.  
   
- The AutoIncrement property does not work with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] temporary tables.  
+ The AutoIncrement property does not work with [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] temporary tables.  
   
 ## See Also  
  [Properties](devenv-properties.md)
