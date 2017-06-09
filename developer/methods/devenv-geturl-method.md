@@ -32,14 +32,15 @@ Generates a URL for the specified client target that is based on the configurati
 |**CURRENTCLIENTTYPE**<br /><br /> or<br /><br /> **ClientType::Current**|The URL is generated based on the client that invokes the code, provided that this is one of the client types that are specified in this list. If the URL is requested by another client type, such as a NAS session, [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] generates a URL based on the default client that is specified for the relevant [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance. **Note:**  If you specify current as the client type, the URL cannot be consumed by an OData web service.|  
 |**DEFAULTCLIENTTYPE**<br /><br /> or<br /><br /> **ClientType::Default**|The URL is generated based on the default client that is specified for the relevant [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance.|  
 |**ClientType::Web**|The URL is generated based on a request from the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)].|  
-|**ClientType::Desktop**|The URL is generated based on a request from the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] running the [!INCLUDE[nav_uni_app](../includes/nav_uni_app_md.md)].|  
-|**ClientType::Tablet**|The URL is generated based on a request from the [!INCLUDE[d365fin_tablet_md](../includes/d365fin_tablet_md.md)].|  
-|**ClientType::Phone**|The URL is generated based on a request from the [!INCLUDE[d365fin_phone_md](../includes/d365fin_phone_md.md)].|  
+|**ClientType::Desktop**|The URL is generated based on a request from the [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] desktop app.|  
+|**ClientType::Tablet**|The URL is generated based on a request from the [!INCLUDE[d365fin_tablet_md](../includes/d365fin_tablet_md.md)] app.|  
+|**ClientType::Phone**|The URL is generated based on a request from the [!INCLUDE[d365fin_phone_md](../includes/d365fin_phone_md.md)] app.|  
 |**ClientType::SOAP**|The URL is generated based on a request from a SOAP web service.|  
 |**ClientType::OData**|The URL is generated based on a request from an OData web service.|  
 
 <!--NAV
 |**ClientType::Windows**|The URL is generated based on a request from the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)].|  
+|**ClientType::Desktop**|The URL is generated based on a request from the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] running the [!INCLUDE[nav_uni_app](../includes/nav_uni_app_md.md)].|  
 -->
 
 > [!WARNING]  
@@ -85,14 +86,21 @@ Generates a URL for the specified client target that is based on the configurati
 
 |Client|URL|  
 |------------|---------|  
-|[!INCLUDE[nav_windows](../includes/nav_windows_md.md)]|DynamicsNAV://*server*:*port*/*instance*//[!INCLUDE[demoname](../includes/demoname_md.md)]|  
+|[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]|https://yourfinancialURL/WebClient?company='[!INCLUDE[demoname](../includes/demoname_md.md)]'/|  
+|[!INCLUDE[d365fin_tablet_md](../includes/d365fin_tablet_md.md)]|ms-financials://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
+|[!INCLUDE[d365fin_phone_md](../includes/d365fin_phone_md.md)]|ms-financials://yourfinancialURL?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
+|[!INCLUDE[d365fin_md](../includes/d365fin_md.md)] Desktop client|ms-dynamicsnav://yourfinancialURL?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
+|OData|https://yourfinancialURL/OData/Company\('[!INCLUDE[demoname](../includes/demoname_md.md)]'\)/|  
+|SOAP|https://yourfinancialURL/WS/[!INCLUDE[demoname](../includes/demoname_md.md)]|  
+
+<!--NAV |[!INCLUDE[nav_windows](../includes/nav_windows_md.md)]|DynamicsNAV://*server*:*port*/*instance*//[!INCLUDE[demoname](../includes/demoname_md.md)]|
 |[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]|https://*server*:*port*/*instance*/WebClient?company='[!INCLUDE[demoname](../includes/demoname_md.md)]'/|  
-|[!INCLUDE[d365fin_tablet_md](../includes/d365fin_tablet_md.md)]|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
-|[!INCLUDE[d365fin_phone_md](../includes/d365fin_phone_md.md)]|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
+|[!INCLUDE[d365fin_tablet_md](../includes/d365fin_tablet_md.md)]|ms-financials://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
+|[!INCLUDE[d365fin_phone_md](../includes/d365fin_phone_md.md)]|ms-financials://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
 |[!INCLUDE[d365fin_md](../includes/d365fin_md.md)] Desktop client|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
 |OData|https://*server*:*port*/*instance*/OData/Company\('[!INCLUDE[demoname](../includes/demoname_md.md)]'\)/|  
 |SOAP|https://*server*:*port*/*instance*/WS/[!INCLUDE[demoname](../includes/demoname_md.md)]|  
-
+  -->
  In the example, an empty string for the company name is included for clarity. But an even simpler use of GETURL is to only specify the client type as in `url := GETURL(ClientType::Default);`.  
 
  URLs for opening a page or a report are available from the About this Page windows. For more information, see [Using About This Page and About This Report](Using-About-This-Page-and-About-This-Report.md).  

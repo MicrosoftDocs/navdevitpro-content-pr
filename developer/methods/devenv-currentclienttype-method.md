@@ -38,9 +38,9 @@ Gets the client type that is running in current session.
 |Value|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
 |Web|[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]|  
-|Tablet|[!INCLUDE[d365fin_tablet_md](../includes/d365fin_tablet_md.md)] **Note:**  If you are running tablet.aspx in a browser, the ClientType will return Web.|  
-|Desktop|[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] running in the Dynamics NAV app. In this mode, the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] will have, for example, navigation pane and ribbon.|  
-|Phone|[!INCLUDE[d365fin_phone_md](../includes/d365fin_phone_md.md)] **Note:**  If you are running phone.aspx in a browser, the ClientType will return Web.|  
+|Tablet|[!INCLUDE[d365fin_tablet_md](../includes/d365fin_tablet_md.md)] app. **Note:**  If you are running tablet.aspx in a browser, the ClientType will return Web.|  
+|Desktop|[!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] desktop client app.|  
+|Phone|[!INCLUDE[d365fin_phone_md](../includes/d365fin_phone_md.md)] app. **Note:**  If you are running phone.aspx in a browser, the ClientType will return Web.|  
 
 ## Remarks  
  You can use CURRENTCLIENTTYPE as a parameter in [GETURL Method](devenv-GETURL-Method.md) to get the URL of the current client.  
