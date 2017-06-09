@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 908a9650-99d8-41a4-a4e0-2eb0f718176a
 caps.latest.revision: 4
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # BigText Data Type
 This complex data type handles large text documents.  

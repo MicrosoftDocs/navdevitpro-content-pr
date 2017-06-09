@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 3db4a1d0-3356-426d-ab49-c8e65a4b7186
 caps.latest.revision: 9
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Report Data Type
 This complex data type stores reports.  

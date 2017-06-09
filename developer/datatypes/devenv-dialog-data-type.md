@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 2c0e0d7f-9a4b-45df-aefe-98d14955700c
 caps.latest.revision: 8
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Dialog Data Type
 Variables of this complex data type store dialog windows. These variables also give you access to a number of dialog methods, such as [OPEN method (Dialog)](../methods/devenv-open-method-dialog.md), [CLOSE method (Dialog)](../methods/devenv-close-method-dialog.md), and so on.  
