@@ -1,7 +1,7 @@
 ---
 title: "ClosingDates Property"
 ms.custom: na
-ms.date: 05/04/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,7 +23,7 @@ Sets a value that determines whether users can enter a closing date in this fiel
 ## Remarks  
  All dates have a corresponding closing date. A closing date is a period following the given date, but before the next date. Closing dates are sorted immediately after the corresponding date but before the next date.  
   
- <!-- For fields, this property only applies to [Date and Time Functions](Date-and-Time-Functions.md).  -->
+ <!-- For fields, this property only applies to [Date and Time Methods](date-and-time-methods.md).  -->
   
 ## See Also  
- [Date and Time Functions](Date-and-Time-Functions.md)
+ [Date and Time Methods](devenv-date-and-time-methods.md)

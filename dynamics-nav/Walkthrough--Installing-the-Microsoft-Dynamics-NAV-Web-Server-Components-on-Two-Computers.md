@@ -19,8 +19,8 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
 
 |Computer|Installed operating system and software|  
 |--------------|---------------------------------------------|  
-|**NAVSRV-SQL**|A supported operating system with the 64-bit edition of a supported version of SQL Server installed.<br /><br /> You will install [!INCLUDE[navnow](includes/navnow_md.md)] database components and [!INCLUDE[nav_server](includes/nav_server_md.md)] on this computer. **Note:**  If a supported SQL Server product is not already installed on the target computer, then [!INCLUDE[navnow](includes/navnow_md.md)] Setup automatically installs a 64-bit edition of SQL Server 2012 Express.|  
-|**NAVWEB**|A supported operating system.<br /><br /> Internet Information Services 7 or Internet Information Services 8. **Note:**  [!INCLUDE[navnow](includes/navnow_md.md)] Setup can automatically enable IIS and the IIS features that are required for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. <br /><br /> You will install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on this computer.|  
+|**NAVSRV-SQL**|A supported operating system with the 64-bit edition of a supported version of SQL Server installed.<br /><br /> You will install [!INCLUDE[navnow](includes/navnow_md.md)] database components and [!INCLUDE[nav_server](includes/nav_server_md.md)] on this computer. **Note:**  If a supported SQL Server product is not already installed on the target computer, then [!INCLUDE[navnow](includes/navnow_md.md)] Setup automatically installs a 64-bit edition of SQL Server Express edition.|  
+|**NAVWEB**|A supported operating system.<br /><br /> Internet Information Services (IIS) version 7 or 8. **Note:**  [!INCLUDE[navnow](includes/navnow_md.md)] Setup can automatically enable IIS and the IIS features that are required for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. <br /><br /> You will install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on this computer.|  
 |**DEVICE**|A device with an Internet connection and a web browser.|  
 
 > [!NOTE]  

@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Customer resource type
-Represents a customer resource type in Dynamics 365 for Financials.
+Represents a customer in Dynamics 365 for Financials.
 
 ## Methods
 

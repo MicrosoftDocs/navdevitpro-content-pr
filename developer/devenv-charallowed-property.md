@@ -1,7 +1,7 @@
 ---
 title: "CharAllowed Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -28,4 +28,4 @@ Sets the range of characters the user can enter into this field or control.
  The setting for the field is checked during validation. Validation occurs only if the field or control value is updated through the UI, for example, if a value is updated on a page or if a field is updated in a table directly. If a field is updated through application code, then the **CharAllowed** property is not validated.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

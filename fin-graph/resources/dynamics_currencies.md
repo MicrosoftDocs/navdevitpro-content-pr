@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Currency resource type
-Represents a currencies resource type in Dynamics 365 for Financials.
+Represents a currency used in Dynamics 365 for Financials.
 
 ## Methods
 

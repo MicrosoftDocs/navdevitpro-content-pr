@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Journal resource type
-Represents a journal resource type in Dynamics 365 for Financials.
+Represents a journal in Dynamics 365 for Financials.
 
 ## Methods
 

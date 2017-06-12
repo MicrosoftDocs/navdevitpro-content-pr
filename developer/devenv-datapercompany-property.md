@@ -21,4 +21,5 @@ Sets a value that indicates whether the table data applies to all companies in t
  **True** if data is available only to this company; otherwise, **false**. The default value is **true**.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)
+ [DataSource Property](devenv-datasource-property.md)

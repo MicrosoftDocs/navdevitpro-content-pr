@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Shipment method resource type
-Represents a shipmentMethod resource type in Dynamics 365 for Financials.
+Represents a method of shipment in Dynamics 365 for Financials, such as UPS, Fedex, and DHL.
 
 
 ## Methods

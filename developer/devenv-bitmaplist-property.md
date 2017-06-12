@@ -1,7 +1,7 @@
 ---
 title: "BitmapList Property"
 ms.custom: na
-ms.date: 05/31/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,5 +27,5 @@ Sets a list of bitmaps from which the correct bitmap to display is selected.
  The size limit for all the user-defined bitmaps included in the list is 32 KB.  
   
 ## See Also  
- [Bitmap Property](Bitmap-Property.md)   
- [BitmapPos Property](BitmapPos-Property.md)
+ [Bitmap Property](devenv-bitmap-property.md)   
+ [BitmapPos Property](devenv-bitmappos-property.md)
