@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 3d37ff31-161a-4181-898f-fbb2b56234b9
 caps.latest.revision: 22
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Automation Data Type
 Use the Automation data type to reference an automation server.  

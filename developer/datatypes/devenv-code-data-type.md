@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 5f0c3922-cf78-49a1-9143-466bffa29ab3
 caps.latest.revision: 21
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Code Data Type
 This simple data type denotes a special type of string that is converted to uppercase and removes any trailing or leading spaces.  

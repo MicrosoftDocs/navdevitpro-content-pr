@@ -9,6 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 33951a7d-2a60-4c6d-a33e-e3c818ca9427
 caps.latest.revision: 4
+author: SusanneWindfeldPedersen
 ---
 # KeyRef Data Type
 Identifies a key in a table and the fields in this key.  
