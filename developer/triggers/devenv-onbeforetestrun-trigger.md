@@ -58,7 +58,7 @@ For more information, see [Testing With Permission Sets](testing-permissionsets.
  **true** to run the test ; otherwise, **false**. This value is checked after each  call.  
 
 ## Applies To  
- Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](SubType-Property-Codeunit.md) set to **TestRunner**.  
+ Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](../devenv-SubType-Property-Codeunit.md) set to **TestRunner**.  
 
 > [!NOTE]  
 >  This trigger is optional and not available on a test runner codeunit by default. To implement this trigger, you must manually add it as a .  
