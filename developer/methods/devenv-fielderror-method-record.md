@@ -51,7 +51,7 @@ Record.FIELDERROR(Field, [Text])
 
 -   Use a text constant for the *Text* parameter.  
 
- For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](devenv-Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Methods.md).  
+ For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](../devenv-progress-windows-message-error-and-confirm-methods.md).  
 
 ## Example  
  In the first example, there is no *Text* parameter and the field does not have a value. This example requires that you create a Record variable for the **Customer** table named CustomerRec.  

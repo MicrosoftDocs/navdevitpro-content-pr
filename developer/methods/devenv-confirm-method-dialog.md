@@ -46,7 +46,7 @@ Ok := Dialog.CONFIRM(String [, Default] [, Value1] ,...)
 ## Remarks  
  The message window is automatically sized. The height of the window corresponds to the number of lines and the width corresponds to the length of the longest line.  
 
- We recommend that you always end CONFIRM messages with a question mark. For more information about best practices for end-user messages, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](devenv-Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Methods.md).  
+ We recommend that you always end CONFIRM messages with a question mark. For more information about best practices for end-user messages, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](../devenv-progress-windows-message-error-and-confirm-methods.md).  
 
 ## Example  
  In the following example, the Dialog.CONFIRM method prompts the user for a **Yes** or **No** answer. This code example requires that you create the following variables.  
