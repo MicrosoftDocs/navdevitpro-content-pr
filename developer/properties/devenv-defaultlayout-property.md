@@ -1,7 +1,7 @@
 ---
 title: "DefaultLayout Property"
 ms.custom: na
-ms.date: 06/01/2017
+ms.date: 06/12/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,7 +25,7 @@ Specifies whether the report uses the built-in RDLC or Word report layout by def
 -   **Word** - specifies the built-in Word layout as the default layout.  
   
 ## Remarks  
- A report object can include a built-in layout of either an RDLC type, Word type, or both. When you set the property to a type, then that layout type is used by default to view, save and print a report. Users can change a report to use another layout from the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
+ A report object can include a built-in layout of either an RDLC type, Word type, or both. When you set the property to a type, then that layout type is used by default to view, save and print a report. Users can change a report to use another layout from the [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] client.  
   
  For more information, see [Built-in and Custom Report Layouts](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuilinCustomLayouts).  
   

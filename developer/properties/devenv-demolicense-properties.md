@@ -1,7 +1,7 @@
 ---
 title: "Properties of the Demo License"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/12/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -42,7 +42,7 @@ The demo license is automatically installed when you install the Demo Option. Th
 >  The demo license can only be used with demonstration companies such as [!INCLUDE[demoname](includes/demoname_md.md)].  
   
 ## Country/Region Versions  
- When you run a country/region version of [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)], the license must correspond with the country/region version that you have installed.  
+ When you run a country/region version of [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)], the license must correspond with the country/region version that you have installed.  
   
  Any license can be available in different country/region versions.  
   

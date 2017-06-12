@@ -1,7 +1,7 @@
 ---
 title: "DefaultNamespace Property"
 ms.custom: na
-ms.date: 06/09/2017
+ms.date: 06/12/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,7 +12,7 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # DefaultNamespace Property
-Specifies the default namespace for both the [IMPORT Method \(XMLport\)](IMPORT-Method--XMLport-.md) and [EXPORT Method \(XMLport\)](EXPORT-Method--XMLport-.md) methods.  
+Specifies the default namespace for both the [IMPORT Method \(XMLport\)](../methods/devenv-IMPORT-Method-XMLport.md) and [EXPORT Method \(XMLport\)](../methods/devenv-EXPORT-Method-XMLport.md) methods.  
   
 ## Applies To  
   

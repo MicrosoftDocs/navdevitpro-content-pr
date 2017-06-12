@@ -12,13 +12,13 @@ caps.latest.revision: 5
 manager: edupont
 ---
 # AltSearchField Property
-In earlier versions of [!INCLUDE[navnow](../includes/navnow_md.md)], set the [Name Property](devenv-name-property.md) of an alternative field used to perform lookups on the current field.  
-  
+In earlier versions of [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)], set the [Name Property](devenv-name-property.md) of an alternative field used to perform lookups on the current field.  
+
 ## Applies To  
  Fields  
-  
+
 ## Remarks  
- This property is deprecated in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
-  
+ This property is deprecated in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].  
+
 ## See Also  
  [Properties](devenv-properties.md)

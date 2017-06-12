@@ -1,7 +1,7 @@
 ---
 title: "Dimensions Property"
 ms.custom: na
-ms.date: 06/01/2017
+ms.date: 06/12/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -29,4 +29,4 @@ Sets the dimensions of a variable that is to create a multi-dimensional variable
  Indexes start at a value of 1 \(not 0 as in some programming languages\).  
   
 ## See Also  
- [Array Functions](Array-Functions.md)
+ [Array Methods](../methods/devenv-array-methods.md)

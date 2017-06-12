@@ -15,7 +15,7 @@ manager: edupont
 Sets a value that specifies whether a BLOB is compressed.  
   
 ## Applies To  
- Fields of the [BLOB Data Type](BLOB-Data-Type.md)  
+ Fields of the [BLOB Data Type](../datatypes/devenv-blob-data-type.md)  
   
 ## Remarks  
  If you want to access BLOB data with an external tool, for example to display a bitmap, you must set this property to **false**.  
@@ -23,4 +23,4 @@ Sets a value that specifies whether a BLOB is compressed.
  The [!INCLUDE[rtc](includes/rtc_md.md)] can access BLOBs without using this property.  
   
 ## See Also  
- [BLOB Data Type](BLOB-Data-Type.md)
+ [BLOB Data Type](../datatypes/devenv-blob-data-type.md)

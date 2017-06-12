@@ -1,7 +1,7 @@
 ---
 title: "Description Property"
 ms.custom: na
-ms.date: 05/02/2017
+ms.date: 06/12/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,4 +27,4 @@ Sets the description of the table, field, page, report, or control. This descrip
 -   Labels  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)
