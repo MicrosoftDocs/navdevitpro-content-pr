@@ -3,7 +3,7 @@ title: "ExtendedDataType Property"
 description: This topic describes the ExtendedDataType property options.
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 05/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -41,4 +41,4 @@ Sets the extended data type of a control.
 |Resource|Text, Code|The client will use the field content as a bitmap resource name from which it will load a brick icon.|
 
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

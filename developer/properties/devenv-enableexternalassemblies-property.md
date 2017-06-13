@@ -1,7 +1,7 @@
 ---
 title: "EnableExternalAssemblies Property"
 ms.custom: na
-ms.date: 06/01/2017
+ms.date: 06/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,8 +25,8 @@ Sets whether external Microsoft .NET assemblies can be used on a report.
  For more information about referencing assemblies, see [Adding Custom Code to a Report \(Visual Studio Report Designer\)](http://go.microsoft.com/fwlink/?LinkID=184561&clcid=0x409).  
   
 ## Security Considerations  
- [!INCLUDE[navnow](includes/navnow_md.md)] cannot verify assemblies and protect against malicious sources that may be harmful to your computer. You should set the EnableExternalAssemblies property to **true** only if you can ensure that assemblies on the report come from a trusted source.  
+ [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] cannot verify assemblies and protect against malicious sources that may be harmful to your computer. You should set the EnableExternalAssemblies property to **true** only if you can ensure that assemblies on the report come from a trusted source.  
   
 ## See Also  
- [Properties](Properties.md)   
+ [Properties](devenv-properties.md)   
  [Designing Reports](Designing-Reports.md)

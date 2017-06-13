@@ -2,7 +2,7 @@
 title: "Enabled Property"
 author: edupont04
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,7 +25,7 @@ Sets a value that indicates whether a field or key is enabled or disabled, or wh
 -   Table fields  
 
 ## Property Value  
- **true** on pages if the field, key, or control is enabled; otherwise, **false** on pages. The default is **true** on pages.  
+ **True** on pages if the field, key, or control is enabled; otherwise, **false** on pages. The default is **true** on pages.  
 
 ## Remarks  
  For keys, this property determines whether a key is maintained in the database. If you are not using the key or if you rarely use the key, you may want to mark it as disabled for performance reasons. When you want to use the key you can change this setting.  
@@ -37,5 +37,5 @@ Sets a value that indicates whether a field or key is enabled or disabled, or wh
  On pages, you use the **Enabled** property for group, part, field, and action controls. You can enable or disable the control either statically by setting the property to **true** or **false**, or dynamically by using a Boolean variable or a Boolean field on the page. The Boolean field on the page can be either a true/false Boolean or a Boolean expression, such as “Credit Limit > Sales YTD”.  
 
 ## See Also  
-[Table Properties](Table-Properties.md)  
-[Properties](Properties.md)  
+[Table Properties](devenv-table-properties.md)  
+[Properties](devenv-properties.md)  

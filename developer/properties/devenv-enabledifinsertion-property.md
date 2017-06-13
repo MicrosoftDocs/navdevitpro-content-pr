@@ -24,5 +24,5 @@ Sets a value that indicates whether the action should be enabled or disabled if 
  **True**/**false**  
   
 ## See Also  
- [EnabledIfError Property](EnabledIfError-Property.md)   
- [EnabledIfSelection Property](EnabledIfSelection-Property.md)
+ [EnabledIfError Property](devenv-enablediferror-property.md)   
+ [EnabledIfSelection Property](devenv-enabledifselection-property.md)

@@ -1,7 +1,7 @@
 ---
 title: "EventPublisherElement Property"
 ms.custom: na
-ms.date: 06/01/2017
+ms.date: 06/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,20 +16,20 @@ Specifies the table field that the trigger event pertains to.
 
 ## Applies to  
 
--   AL functions.  
+-   AL Methods.  
 
-     This property is only available on event subscriber functions that handle validation-type trigger events. The [Event Property](Event-Property.md) must be set to **Subscriber**, the [EventPublisherObject Property](EventPublisherObject-Property.md) must be set to a table, and the [EventFunction Property](EventFunction-Property.md) must be set to a validate trigger event, such as **OnAfterValidateEvent**.  
+     This property is only available on event subscriber methods that handle validation-type trigger events. The [Event Property](devenv-event-property.md) must be set to **Subscriber**, the [EventPublisherObject Property](devenv-eventpublisherobject-property.md) must be set to a table, and the [Eventmethod Property](devenv-eventmethod-property.md) must be set to a validate trigger event, such as **OnAfterValidateEvent**.  
 
 ## Property value  
- A field in the table that is specified by the [EventPublisherObject Property](EventPublisherObject-Property.md).  
+ A field in the table that is specified by the [EventPublisherObject Property](devenv-eventpublisherobject-property.md).  
 
 ## Remarks  
- You use this property to set up an event subscriber function that will be called when the trigger event that is specified by the [EventFunction Property](EventFunction-Property.md) is raised on the specified table field. For more information, see [Subscribing to Events](Subscribing-to-Events.md).  
+ You use this property to set up an event subscriber method that will be called when the trigger event that is specified by the [Eventmethod Property](devenv-eventmethod-property.md) is raised on the specified table field. For more information, see [Subscribing to Events](Subscribing-to-Events.md).  
 
 ## See Also  
  [Publishing Events](Publishing-Events.md)   
  [Raising Events](Raising-Events.md)   
  [Subscribing to Events](Subscribing-to-Events.md)   
- [GlobalVarAccess Property](GlobalVarAccess-Property.md)   
- [IncludeSender Property](IncludeSender-Property.md)   
- [AL Function Statements](AL-Function-Statements.md)
+ [GlobalVarAccess Property](devenv-globalvaraccess-property.md)   
+ [IncludeSender Property](devenv-includesender-property.md)   
+ [AL Method Statements](al-method-statements.md)

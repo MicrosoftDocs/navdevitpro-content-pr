@@ -1,7 +1,7 @@
 ---
 title: "Editable Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -21,7 +21,7 @@ Sets a value that indicates whether a field, page, or control can be edited thro
 -   Table fields  
 
 ## Property Value  
- **true** on pages if the field, page, or control can be edited; otherwise, **false** on pages. The default value is **Yes**.  
+ **True** on pages if the field, page, or control can be edited; otherwise, **false** on pages. The default value is **true**.  
 
 ## Remarks  
  For fields, use this property to make a field for display only.  
@@ -41,5 +41,5 @@ Sets a value that indicates whether a field, page, or control can be edited thro
 >  Do not use CurrPage.Editable to prevent users from deleting entries. We recommend that you use permissions to control which users can delete data.  
 
 ## See Also  
- [Properties](Properties.md)   
- [Page Properties](Page-Properties.md)
+ [Properties](devenv-properties.md)   
+ [Page Properties](devenv-page-properties.md)

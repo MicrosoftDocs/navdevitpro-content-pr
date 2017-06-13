@@ -13,22 +13,24 @@ caps.latest.revision: 13
 manager: edupont04
 ---
 # Properties
-This section describes all properties that are available to developers in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+This section describes all properties that are available to developers in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].  
 
  You can set the value of each property in the **Value** field. When you leave this field \(by pressing Enter or by moving with the arrow keys\), the property is updated. Default values are displayed in angle brackets \(\<>\). If a property has a default value, then you can reset the property to the default value by deleting the current value and then moving out of the field.  
 
+<!--
 > [!NOTE]  
 >  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], a bold property value indicates that the property value is not set to its default value.  
-
+-->
 ## See Also  
-[Codeunit Properties](Codeunit-Properties.md)  
-[MenuSuite Properties](MenuSuite-Properties.md)  
-[Page Properties](Page-Properties.md)  
-[Query Properties](Query-Properties.md)  
-[Report Properties](Report-Properties.md)  
-[Table Properties](Table-Properties.md)  
-[XMLPort Properties](XMLPort-Properties.md)  
-[AL Functions](C-AL-Functions.md)  
-[Triggers](Triggers.md)  
+[Codeunit Properties](devenv-codeunit-properties.md)  
+[MenuSuite Properties](devenv-menusuite-properties.md)  
+[Page Properties](devenv-page-properties.md)  
+[Query Properties](devenv-query-properties.md)  
+[Report Properties](devenv-report-properties.md)  
+[Table Properties](devenv-table-properties.md)  
+[XMLPort Properties](devenv-XMLPort-properties.md)  
+[AL Methods](../methods/devenv-AL-Methods.md)  
+[Triggers](../triggers/devenv-triggers.md)  
 [How to: View or Modify Properties on a Table or Field](How-to--View-or-Modify-Properties-on-a-Table-or-Field.md)  
-[Page Properties Not Supported by Microsoft Dynamics NAV Web Client](Page-Properties-Not-Supported-by-Microsoft-Dynamics-NAV-Web-Client.md)  
+<!-- //NAV [Page Properties Not Supported by Microsoft Dynamics NAV Web Client](Page-Properties-Not-Supported-by-Microsoft-Dynamics-NAV-Web-Client.md)  
+-->

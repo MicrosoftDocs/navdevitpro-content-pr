@@ -1,7 +1,7 @@
 ---
 title: "FieldDelimiter Property"
 ms.custom: na
-ms.date: 06/01/2017
+ms.date: 06/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -24,4 +24,4 @@ Specifies the text delimiter for a field.
  You can set the field delimiter in AL code so that the XMLport can import and export records with different delimiters. For example, if your XMLport must import from a file or stream where one record uses commas and another uses an empty string, you can change the field delimiter property at run time.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

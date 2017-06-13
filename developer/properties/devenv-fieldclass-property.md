@@ -1,7 +1,7 @@
 ---
 title: "FieldClass Property"
 ms.custom: na
-ms.date: 06/01/2017
+ms.date: 06/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -29,5 +29,5 @@ Sets the class of the field.
  There are three classes of fields: Normal, FlowFields, and FlowFilters. For more information, see [FlowFields](FlowFields.md) and [FlowFilter Overview](FlowFilter-Overview.md).  
   
 ## See Also  
- [Properties](Properties.md)   
+ [Properties](devenv-properties.md)   
  [How to: Create a FlowField](How-to--Create-a-FlowField.md)

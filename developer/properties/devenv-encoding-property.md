@@ -1,7 +1,7 @@
 ---
 title: "Encoding Property"
 ms.custom: na
-ms.date: 06/01/2017
+ms.date: 06/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -21,4 +21,4 @@ Sets a value that specifies which system is applied to the XMLport for character
  The two options available for this property are UTF8 and UTF16. UTF8 is the default setting. Information about the encoding system used is inserted into the header of the XML document.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

@@ -14,7 +14,7 @@ manager: edupont
 # ExternalName Property
 Specifies the name of the original table in the external database.  
 
- Specify this property if the original name is different from the name that you specify in the **Name** property. This means that you can use a different name for the table in [!INCLUDE[navnow](includes/navnow_md.md)].  
+ Specify this property if the original name is different from the name that you specify in the **Name** property. This means that you can use a different name for the table in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].  
 
 ## Applies To  
 
@@ -24,13 +24,13 @@ Specifies the name of the original table in the external database.
  The name of the table in the external database.  
 
 ## Remarks  
- This property appears when you specify **CRM** or **ExternalSQL** in the **TableType** property. These tables use a different SQL Server connection than the normal tables in the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
+ This property appears when you specify **CRM** or **ExternalSQL** in the **TableType** property. These tables use a different SQL Server connection than the normal tables in the [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] database.  
 
 ## See Also  
- [TableType Property](TableType-Property.md)   
- [ExternalSchema Property](ExternalSchema-Property.md)   
- [Name Property](Name-Property.md)   
- [Properties](Properties.md)   
+ [TableType Property](devenv-tabletype-property.md)   
+ [ExternalSchema Property](devenv-externalschema-property.md)   
+ [Name Property](devenv-name-property.md)   
+ [Properties](devenv-properties.md)   
  [Table Designer](uiref/-$-S_2102-Table-Designer-$-.md)   
  [External Tables](External-Tables.md)   
  [Customizing Dynamics CRM and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)

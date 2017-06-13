@@ -1,7 +1,7 @@
 ---
 title: "Ellipsis Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,7 +23,7 @@ Sets a value that specifies whether an ellipsis (...) is appended to the caption
 -   Pages  
   
 ## Property Value  
- **true** if the ellipsis is appended; otherwise, **false**. The default value is **false**.  
+ **True** if the ellipsis is appended; otherwise, **false**. The default value is **false**.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

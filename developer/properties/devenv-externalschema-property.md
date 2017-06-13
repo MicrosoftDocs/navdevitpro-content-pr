@@ -1,7 +1,7 @@
 ---
 title: "ExternalSchema Property"
 ms.custom: na
-ms.date: 06/01/2017
+ms.date: 06/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -22,13 +22,13 @@ Specifies the name of the database schema of the external database.
  The name of the schema of the external database.  
   
 ## Remarks  
- This property appears when you specify **ExternalSQL** in the **TableType** property. These tables use a different SQL Server connection than the normal tables in the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
+ This property appears when you specify **ExternalSQL** in the **TableType** property. These tables use a different SQL Server connection than the normal tables in the [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] database.  
   
 ## See Also  
- [TableType Property](TableType-Property.md)   
- [ExternalSchema Property](ExternalSchema-Property.md)   
- [Name Property](Name-Property.md)   
- [Properties](Properties.md)   
+ [TableType Property](devenv-tabletype-property.md)   
+ [ExternalSchema Property](devenv-externalschema-property.md)   
+ [Name Property](devenv-name-property.md)   
+ [Properties](devenv-properties.md)   
  [Table Designer](uiref/-$-S_2102-Table-Designer-$-.md)   
  [External Tables](External-Tables.md)   
  [Customizing Dynamics CRM and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)

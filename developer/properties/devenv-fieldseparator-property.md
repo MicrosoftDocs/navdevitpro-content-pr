@@ -1,7 +1,7 @@
 ---
 title: "FieldSeparator Property"
 ms.custom: na
-ms.date: 06/01/2017
+ms.date: 06/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -43,5 +43,5 @@ Sets the string that is to be used to separate fields.
  You can set the field separator in AL code so that the XMLport can import and export records with different separators. For example, if your XMLport must import from a file or stream where one record uses commas and another uses TAB, you can change the field seperator property at run time.  
   
 ## See Also  
- [Properties](Properties.md)   
- [Format Property \(XMLports\)](Format-Property--XMLports-.md)
+ [Properties](devenv-properties.md)   
+ [Format Property \(XMLports\)](devenv-formatxmlports-property.md)

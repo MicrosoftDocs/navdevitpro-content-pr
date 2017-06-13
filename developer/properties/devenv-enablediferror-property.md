@@ -1,7 +1,7 @@
 ---
 title: "EnabledIfError Property"
 ms.custom: na
-ms.date: 06/01/2017
+ms.date: 06/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -24,5 +24,5 @@ Sets a value that specifies whether an action is enabled or disabled if it enter
  **True**/**false**  
   
 ## See Also  
- [EnabledIfInsertion Property](EnabledIfInsertion-Property.md)   
- [EnabledIfSelection Property](EnabledIfSelection-Property.md)
+ [EnabledIfInsertion Property](devenv-enabledifinsertion-property.md)   
+ [EnabledIfSelection Property](devenv-enabledifselection-property.md)
