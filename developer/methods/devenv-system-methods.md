@@ -16,7 +16,7 @@ This section contains the following topics:
 
 -   [Array Methods](devenv-array-methods.md)  
 
--   [Error Handling](Error-Handling.md)  
+-   [Error Handling Methods](devenv-error-handling-methods.md)  
 
 -   [Language Methods](devenv-language-methods.md)  
 
