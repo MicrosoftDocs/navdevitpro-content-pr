@@ -16,7 +16,7 @@ Checks if the tenant is configured to allow encryption.
 
 <!--
 > [!NOTE]  
->  This does not mean that an encryption key is present on the [!INCLUDE[d365_server](../includes/d365_server_md.md)], only that the system is expecting to use one. This situation can arise if multiple servers are in use but the encryption key has not yet been deployed to each of them.  -->
+>  This does not mean that an encryption key is present on the [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)], only that the system is expecting to use one. This situation can arise if multiple servers are in use but the encryption key has not yet been deployed to each of them.  -->
 
 ## Syntax  
 

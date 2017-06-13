@@ -14,11 +14,11 @@ author: jswymer
 # IMPORTENCRYPTIONKEY Method
 Points to a password protected file that contains the key on the current server.  
 
- When encrypting or decrypting data in [!INCLUDE[d365_long_md](../includes/d365_long_md.md)], an encryption key is used. A single key is used per tenant, and every tenant will have a different key. Keys can be created or imported if one exists already, as may be the case if upgrading or migrating a system from one set of hardware to another. The **IMPORTENCRYPTIONKEY** method allows an administrator to specify a file \(password protected\) which contains a key and imports it to the current [!INCLUDE[d365_server](../includes/d365_server_md.md)].  
+ When encrypting or decrypting data in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)], an encryption key is used. A single key is used per tenant, and every tenant will have a different key. Keys can be created or imported if one exists already, as may be the case if upgrading or migrating a system from one set of hardware to another. The **IMPORTENCRYPTIONKEY** method allows an administrator to specify a file \(password protected\) which contains a key and imports it to the current [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)].  
 
 <!--
 > [!NOTE]  
->  In systems with multiple [!INCLUDE[d365_server](../includes/d365_server_md.md)] instances, you must run the **IMPORTENCRYPTIONKEY** method for each instance.  
+>  In systems with multiple [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instances, you must run the **IMPORTENCRYPTIONKEY** method for each instance.  
 -->
 
 > [!IMPORTANT]  

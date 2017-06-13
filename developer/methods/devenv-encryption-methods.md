@@ -12,7 +12,7 @@ caps.latest.revision: 4
 author: jswymer
 ---
 # Encryption Methods
-[!INCLUDE[d365_long_md](../includes/d365_long_md.md)] includes the following methods for managing data encryption:  
+[!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] includes the following methods for managing data encryption:  
 
 -   [ENCRYPT](devenv-encrypt-method.md)  
 
