@@ -55,10 +55,12 @@ The extension model is object-based; you create new objects, and extend existing
 - [Report Object](devenv-report-object.md)
 - [XmlPort Object](devenv-xmlport-object.md)
 
+For more information about the object types, see [Reference Overview](devenv-reference-overview.md).
+
 For information about AL language changes, see [Differences in the Dynamics NAV Development Environments](devenv-differences.md).
 
 ## In-client designer
-The in-client designer works in the client itself allowing design of pages using a drag-and-drop interface. The in-client designer allows building extensions in the client itself by rearranging fields, adding fields, and previewing the page design. For more information, see [Using the Dynamics NAV In-Client Designer](devenv-inclient-designer.md).
+The in-client designer works in the client itself allowing design of pages using a drag-and-drop interface. The in-client designer allows building extensions in the client itself by rearranging fields, adding fields, and previewing the page design. For more information, see [Using the In-Client Designer](devenv-inclient-designer.md).
 
 ## Compiling and deploying
 Extensions are compiled as .navx package files. The .navx package file can be deployed to the Dynamics 365 for Financials server. A .navx package contains the various artifacts that deliver the new functionality to the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] deployment as well as a manifest that specifies the name, publisher, version, and other attributes of the extension. 
