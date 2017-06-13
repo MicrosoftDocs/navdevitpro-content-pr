@@ -12,7 +12,7 @@ caps.latest.revision: 17
 authoer: SusanneWindfeldPedersen
 ---
 # System-Defined Variables
-[!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] automatically declares and initializes several variables that you can use when you develop applications. The following table describes the system-defined variables.  
+[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] automatically declares and initializes several variables that you can use when you develop applications. The following table describes the system-defined variables.  
 
 |System-defined variable|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------------------------|---------------------------------------|  
