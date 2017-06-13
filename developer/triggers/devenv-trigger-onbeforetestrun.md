@@ -88,7 +88,7 @@ EXIT(true);
 ```
 
 ## See Also  
-[TestPermissions Property](../devenv-property-testpermissions.md)  
+[TestPermissions Property](../devenv-testpermissions-property.md)  
 [OnAfterTestRun Trigger](devenv-trigger-onaftertestrun.md)  
 [Testing With Permission Sets](testing-permissionsets.md)  
 [Testing the Application](Testing-the-Application.md)  

@@ -58,7 +58,7 @@ For more information, see [Testing With Permission Sets](testing-permissionsets.
  **true** indicates that the test  run succeeded; otherwise, **false** indicates that the test  run failed.  
 
 ## Applies To  
- Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](SubType-Property-Codeunit.md) set to **TestRunner**.  
+ Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](../devenv-SubType-Property-Codeunit.md) set to **TestRunner**.  
 
 > [!NOTE]  
 >  This trigger is optional and not available on a test runner codeunit by default. To implement this trigger, you must manually add it as a .  
