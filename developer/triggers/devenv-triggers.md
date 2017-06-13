@@ -28,5 +28,5 @@ Triggers are available for the different objects as described in the following s
 
 ## See Also  
  [AL Methods](../methods/devenv-al-methods.md)   
- [Properties](../properties.md)   
+ [Properties](../../properties.md)   
  [Triggers Overview](Triggers-Overview.md)
