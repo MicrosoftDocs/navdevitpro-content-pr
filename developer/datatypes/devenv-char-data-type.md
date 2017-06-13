@@ -23,8 +23,8 @@ Use this simple data type to store a single, 16-bit character as a value in the 
   
  You can assign a numeric value to a Char variable, as shown in the third line of the following code example.  
 
- <!-- //NAV --> 
- A Char variable represents Unicode characters in the same way as the .NET Framework Char structure. For more information about the .NET Framework Char structure, see [Char Structure](http://go.microsoft.com/fwlink/?LinkId=253590).  
+ <!-- //NAV 
+ A Char variable represents Unicode characters in the same way as the .NET Framework Char structure. For more information about the .NET Framework Char structure, see [Char Structure](http://go.microsoft.com/fwlink/?LinkId=253590).  --> 
   
 ```  
 C := 'A';  
