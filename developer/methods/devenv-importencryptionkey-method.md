@@ -76,6 +76,6 @@ IF ENCRYPTIONENABLED THEN
 ```  
 
 ## See Also  
- [Encrypting Data](devenv-encrypting-data.md)   
+ [Encrypting Data](../devenv-encrypting-data.md)   
  [EXPORTENCRYPTIONKEY](devenv-EXPORTENCRYPTIONKEY-method.md)   
  [Encryption Methods](devenv-Encryption-Methods.md)
