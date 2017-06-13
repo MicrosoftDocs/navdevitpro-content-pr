@@ -12,8 +12,8 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # Sessions
-Use the session functions to manage [!INCLUDE[navnow](includes/navnow_md.md)] sessions.  
-  
+Use the session functions to manage [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] sessions.  
+
 ## See Also  
  [APPLICATIONAREA Function](APPLICATIONAREA-Function.md)   
  [BINDSUBSCRIPTION Function](BINDSUBSCRIPTION-Function.md)   
