@@ -32,8 +32,8 @@ This simple data type denotes decimal numbers ranging from -999,999,999,999,999.
 ## See Also  
  [BigInteger Data Type](devenv-biginteger-data-type.md)   
  [Integer Data Type](devenv-integer-data-type.md)   
- [ABS method (Decimal, Integer, BigInteger)](../methods/devenv-ABS-method-Decimal-Integer-BigInteger.md)   
- [POWER method (Decimal, Integer, BigInteger)](../methods/devenv-POWER-method-Decimal-Integer-BigInteger.md)   
- [RANDOM method (Integer)](../methods/devenv-RANDOM-method-Integer.md)   
- [RANDOMIZE method (Integer)](../methods/devenv-RANDOMIZE-method-Integer.md)   
- [ROUND method (Decimal)](../methods/devenv-ROUND-method-Decimal.md)
+ [ABS method (Decimal, Integer, BigInteger)](../methods/devenv-abs-method-decimal-integer-biginteger.md)   
+ [POWER method (Decimal, Integer, BigInteger)](../methods/devenv-power-method-decimal-integer-biginteger.md)   
+ [RANDOM method (Integer)](../methods/devenv-random-method-integer.md)   
+ [RANDOMIZE method (Integer)](../methods/devenv-randomize-method-integer.md)   
+ [ROUND method (Decimal)](../methods/devenv-round-method-decimal.md)
