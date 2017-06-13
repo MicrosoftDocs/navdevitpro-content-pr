@@ -25,7 +25,7 @@ Type: Code or text
 If you omit this optional return value and if the notification cannot be sent, then a run-time error occurs that states that the notification cannot be sent. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs, even though the notification is not sent.
 
 ## Remarks
-The SEND method displays the content of the notification that is specified by the [MESSAGE Method](devenv-devenv-message-method-notification.md).
+The SEND method displays the content of the notification that is specified by the [MESSAGE Method](devenv-message-method-notification.md).
 
 For more information and a detailed example, see [Notifications](notifications-developing.md).
 

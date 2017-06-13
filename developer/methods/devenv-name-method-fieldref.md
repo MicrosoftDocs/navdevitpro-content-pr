@@ -30,7 +30,7 @@ Name := FieldRef.NAME
  The name of the field given as input.  
 
 ## Remarks  
- The [CAPTION Method \(FieldRef, TestPage Field\)](devenv-CAPTION-Method-FieldRef--TestPage-Field.md) method retrieves the [Caption Property](../devenv-Caption-Property.md) of a field. To enable your application for multilanguage functionality, you must use the [FIELDCAPTION Method \(Record\)](devenv-FIELDCAPTION-Method-Record.md) instead.  
+ The [CAPTION Method \(FieldRef, TestPage Field\)](devenv-CAPTION-Method-FieldRef-TestPage-Field.md) method retrieves the [Caption Property](../devenv-Caption-Property.md) of a field. To enable your application for multilanguage functionality, you must use the [FIELDCAPTION Method \(Record\)](devenv-FIELDCAPTION-Method-Record.md) instead.  
 
  This method is similar to the [FIELDNAME Method \(Record\)](devenv-FIELDNAME-Method-Record.md) method.  
 
