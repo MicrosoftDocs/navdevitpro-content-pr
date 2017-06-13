@@ -12,16 +12,16 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # Sessions
-Use the session functions to manage [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] sessions.  
+Use the session methods to manage [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] sessions.  
 
 ## See Also  
- [APPLICATIONAREA Function](APPLICATIONAREA-Function.md)   
- [BINDSUBSCRIPTION Function](BINDSUBSCRIPTION-Function.md)   
- [CURRENTCLIENTTYPE Function](CURRENTCLIENTTYPE-Function.md)   
- [CURRENTEXECUTIONMODE Function \(Sessions\)](CURRENTEXECUTIONMODE-Function--Sessions-.md)   
- [DEFAULTCLIENTTYPE Function](DEFAULTCLIENTTYPE-Function.md)   
- [STARTSESSION Function \(Sessions\)](STARTSESSION-Function--Sessions-.md)   
- [STOPSESSION Function \(Sessions\)](STOPSESSION-Function--Sessions-.md)   
- [UNBINDSUBSCRIPTION Function](UNBINDSUBSCRIPTION-Function.md)   
- [USERID Function \(Sessions\)](USERID-Function--Sessions-.md)   
- [USERSECURITYID Function](USERSECURITYID-Function.md)
+ [APPLICATIONAREA Method](devenv-APPLICATIONAREA-Method.md)   
+ [BINDSUBSCRIPTION Method](devenv-BINDSUBSCRIPTION-Method.md)   
+ [CURRENTCLIENTTYPE Method](devenv-CURRENTCLIENTTYPE-Method.md)   
+ [CURRENTEXECUTIONMODE Method \(Sessions\)](devenv-CURRENTEXECUTIONMODE-Method-Sessions.md)   
+ [DEFAULTCLIENTTYPE Method](devenv-DEFAULTCLIENTTYPE-Method.md)   
+ [STARTSESSION Method \(Sessions\)](devenv-STARTSESSION-Method-Sessions.md)   
+ [STOPSESSION Method \(Sessions\)](devenv-STOPSESSION-Method-Sessions.md)   
+ [UNBINDSUBSCRIPTION Method](devenv-UNBINDSUBSCRIPTION-Method.md)   
+ [USERID Method \(Sessions\)](devenv-USERID-Method-Sessions.md)   
+ [USERSECURITYID Method](devenv-USERSECURITYID-Method.md)
