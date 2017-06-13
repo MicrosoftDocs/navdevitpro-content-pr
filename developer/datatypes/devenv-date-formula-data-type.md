@@ -12,7 +12,7 @@ caps.latest.revision: 9
 author: SusanneWindfeldPedersen
 ---
 # DateFormula Data Type
-Use this data type to contain a date formula that has the same capabilities as an ordinary input string for the [CALCDATE Method \(Date\)](CALCDATE-Method--Date-.md). The DateFormula data type is used to provide multilanguage capabilities to the [CALCDATE Method \(Date\)](../methods/devenv-calcdate-method-date.md).  
+Use this data type to contain a date formula that has the same capabilities as an ordinary input string for the [CALCDATE Method (Date)](CALCDATE-Method--Date-.md). The DateFormula data type is used to provide multilanguage capabilities to the [CALCDATE Method (Date)](../methods/devenv-calcdate-method-date.md).  
 
 ## Remarks  
  When a date calculation formula is stored in a DateFormula field, it is converted to a generic, non-language dependent format. When a date calculation formula is retrieved from a DateFormula field, it is converted to a valid date conversion string for the currently selected language.  
@@ -27,8 +27,8 @@ IF FORMAT(DateFormulaVariable) = ' ' THEN
   EVALUATE(DateFormulaVariable, '1W');  
 ```  
 
- You must use the [FORMAT Method \(Code, Text\)](../methods/devenv-format-method-code-text.md) to make a comparison with a text string. If you do not use this method, then the IF statement will fail because you cannot compare a DateFormula data type with a Text data type.  
+ You must use the [FORMAT Method (Code, Text)](../methods/devenv-format-method-code-text.md) to make a comparison with a text string. If you do not use this method, then the IF statement will fail because you cannot compare a DateFormula data type with a Text data type.  
 
 ## See Also  
- [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)   
+ <!-- [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)  -->
  [DateFormula Property](../devenv-dateformula-property.md)
