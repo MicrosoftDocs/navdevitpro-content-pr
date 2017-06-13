@@ -1,0 +1,28 @@
+---
+title: "Error Handling Methods"
+ms.custom: na
+ms.date: 06/05/2016
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.prod: "dynamics-365-financials"
+ms.assetid: ce4892ed-efa8-41a8-82db-07ef1d8c4477
+caps.latest.revision: 5
+author: jswymer
+---
+# Error Handling Methods
+[!INCLUDE[d365fin_md](../includes/d365fin_md.md)] includes the following methods for handling errors:  
+
+-   [CLEARLASTERROR Method](devenv-CLEARLASTERROR-Function.md)  
+
+-   [GETLASTERRORCALLSTACK Method](devenv-GETLASTERRORCALLSTACK-Method.md)  
+
+-   [GETLASTERRORCODE Method](devenv-GETLASTERRORCODE-Method.md)  
+
+-   [GETLASTERROROBJECT Method](devenv-GETLASTERROROBJECT-Method.md)  
+
+-   [GETLASTERRORTEXT Method](devenv-GETLASTERRORTEXT-Method.md)  
+
+## See Also  
+ [ERROR Method \(Dialog\)](devenv-ERROR-Method-Dialog.md)

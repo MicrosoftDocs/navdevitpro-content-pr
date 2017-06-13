@@ -101,7 +101,7 @@ log.INSERT(true);
 The GETLASTERRORTEXT  returns the text that was contained in the last error message.
 
 ## See Also  
-[TestPermissions Property](../devenv-property-testpermissions.md)  
+[TestPermissions Property](../devenv-testpermissions-property.md)  
 [OnBeforeTestRun Trigger](devenv-trigger-onbeforetestrun.md)  
 [Testing With Permission Sets](testing-permissionsets.md)  
 [Testing the Application](Testing-the-Application.md)  

@@ -6,31 +6,30 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.prod: "dynamics-365-financials"
 ms.assetid: b626234e-b39a-4100-9691-1bf3670db3be
 caps.latest.revision: 4
-manager: edupont
+author: jswymer
 ---
 # Encryption Methods
-This section contains the following topics:  
+[!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] includes the following methods for managing data encryption:  
 
--   [ENCRYPT](ENCRYPT.md)  
+-   [ENCRYPT](devenv-encrypt-method.md)  
 
--   [DECRYPT](DECRYPT.md)  
+-   [DECRYPT](devenv-decrypt-method.md)
 
--   [IMPORTENCRYPTIONKEY](IMPORTENCRYPTIONKEY.md)  
+-   [IMPORTENCRYPTIONKEY](devenv-IMPORTENCRYPTIONKEY-method.md)  
 
--   [EXPORTENCRYPTIONKEY](EXPORTENCRYPTIONKEY.md)  
+-   [EXPORTENCRYPTIONKEY](devenv-EXPORTENCRYPTIONKEY-method.md)  
 
--   [CREATEENCRYPTIONKEY](CREATEENCRYPTIONKEY.md)  
+-   [CREATEENCRYPTIONKEY](devenv-CREATEENCRYPTIONKEY-method.md)  
 
--   [DELETEENCRYPTIONKEY](DELETEENCRYPTIONKEY.md)  
+-   [DELETEENCRYPTIONKEY](devenv-DELETEENCRYPTIONKEY-method.md)  
 
--   [ENCRYPTIONKEYEXISTS](ENCRYPTIONKEYEXISTS.md)  
+-   [ENCRYPTIONKEYEXISTS](devenv-ENCRYPTIONKEYEXISTS-method.md)  
 
--   [ENCRYPTIONENABLED](ENCRYPTIONENABLED.md)  
+-   [ENCRYPTIONENABLED](devenv-encryptionenabled-method.md)  
 
 ## See Also  
- [System](System.md)   
- [Technical Reference](Technical-Reference.md)   
- [AL Reference Guide](C-SIDE-Reference-Guide.md)
+ [System Methods](devenv-system-methods.md)   
+ [AL Reference Guide](../devenv-al-reference-guide.md)
