@@ -29,13 +29,13 @@ AL contains several methods that can be used for different purposes, such as str
  The following shows the syntax for a method.  
   
 ```  
-FUNCTION([Optional1] [, Optional2] [, Optional3])  
+METHOD([Optional1] [, Optional2] [, Optional3])  
 ```  
   
  The method that uses the syntax above can be called by using the following code.  
   
 ```  
-FUNCTION(Optional1, Optional2)  
+METHOD(Optional1, Optional2)  
 ```  
   
  This method cannot be called by using the following code.  
@@ -68,14 +68,14 @@ NewDate := DMY2DATE(5, 11, 1992); //Returns the date November 5, 1992
  You can assign the return value of a method to a variable.  
   
 ```  
-ReturnVal := MyFunction(Param1);  
+ReturnVal := MyMethod(Param1);  
 ```  
   
 ### Example 2  
- In this example, MyFunction returns a Boolean value. You can use the return value in a conditional statement.  
+ In this example, MyMethod returns a Boolean value. You can use the return value in a conditional statement.  
   
 ```  
-IF (MyFunction(Param1)) THEN  
+IF (MyMethod(Param1)) THEN  
   <Statement1>  
 ELSE  
   <Statement2>  
