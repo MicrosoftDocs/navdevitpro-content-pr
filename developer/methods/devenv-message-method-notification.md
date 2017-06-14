@@ -31,7 +31,7 @@ Type: Code or text
 The content of the current notification.
 
 ## Remarks
-The MESSAGE method defines the notification. You use the [SEND Method](devenv-devenv-send-method-notification.md) to send the notification to the client, where it will be displayed.
+The MESSAGE method defines the notification. You use the [SEND Method](devenv-send-method-notification.md) to send the notification to the client, where it will be displayed.
 
 For more information and a detailed example, see [Notifications](notifications-developing.md).
 

@@ -44,5 +44,5 @@ MESSAGE('Current execution mode is %1.', Mode);
 ```  
 
 ## See Also  
- [Sessions](Sessions.md)   
+ [Session Methods](devenv-session-methods.md)   
  [Debugging](Debugging.md)

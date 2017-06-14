@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-365-financials"
 ms.assetid: cc227051-69f0-453e-ad20-fe7b6eb1f582
 caps.latest.revision: 5
 manager: edupont
@@ -16,7 +16,7 @@ This section contains the following topics:
 
 -   [Array Methods](devenv-array-methods.md)  
 
--   [Error Handling](Error-Handling.md)  
+-   [Error Handling Methods](devenv-error-handling-methods.md)  
 
 -   [Language Methods](devenv-language-methods.md)  
 

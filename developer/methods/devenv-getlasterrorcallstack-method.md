@@ -62,4 +62,4 @@ IF NOT Codeunit.RUN(50001) THEN
  **TestErrors2\(CodeUnit 50002\).OnRun\(Trigger\) line 2**  
   
 ## See Also  
- [Error Handling](Error-Handling.md)
+ [Error Handling Methods](devenv-error-handling-methods.md)
