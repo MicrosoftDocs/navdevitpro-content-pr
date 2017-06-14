@@ -1,7 +1,7 @@
 ---
 title: "Format Property (XMLports)"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,4 +27,4 @@ Determines the import and export format of the XMLPort.
 -   Fixed Text  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

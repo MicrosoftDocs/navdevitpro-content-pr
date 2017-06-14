@@ -1,7 +1,7 @@
 ---
 title: "Format-Evaluate Property"
 ms.custom: na
-ms.date: 06/01/2017
+ms.date: 06/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -50,9 +50,9 @@ Sets the data that is being imported or exported as XML data types or as the sta
   
  This is an XMLport property and therefore applies to all the data that is being streamed. It cannot be applied only to specific fields.  
   
- For more information about formatting C/SIDE data types, see [Format Property](Format-Property.md). For more information about evaluating variables, see [EVALUATE Function](EVALUATE-Function.md). For more information about using temporary tables, see [Temporary Property \(XMLports\)](Temporary-Property--XMLports-.md).  
+ For more information about formatting C/SIDE data types, see [Format Property](devenv-format-property.md). For more information about evaluating variables, see [EVALUATE Method](../methods/devenv-evaluate-method.md). For more information about using temporary tables, see [Temporary Property \(XMLports\)](devenv-temporary-xmlports-property.md).  
   
 ## See Also  
- [Format Property \(XMLports\)](Format-Property--XMLports-.md)   
- [EVALUATE Function](EVALUATE-Function.md)   
- [Temporary Property \(XMLports\)](Temporary-Property--XMLports-.md)
+ [Format Property \(XMLports\)](devenv-format-xmlports-property.md)   
+ [EVALUATE Method](../methods/devenv-EVALUATE-method.md)   
+ [Temporary Property \(XMLports\)](devenv-temporary-xmlports-property.md)
