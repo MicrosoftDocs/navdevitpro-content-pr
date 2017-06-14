@@ -1,7 +1,7 @@
 ---
 title: "Promoted Property"
 ms.custom: na
-ms.date: 05/04/2017
+ms.date: 06/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,7 +23,7 @@ Sets the value that indicates whether the selected action is promoted, which mea
   
  Available options are **true**/**false**.  
   
- On [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] only promoted actions are displayed.  
+ On [!INCLUDE[nav_tablet](../includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](../includes/nav_phone_md.md)] only promoted actions are displayed.  
   
 ## See Also  
  [PromotedIsBig Property](devenv-promotedisbig-property.md)   

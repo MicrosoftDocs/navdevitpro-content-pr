@@ -1,7 +1,7 @@
 ---
 title: "TextEncoding Property (XMLports)"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,7 +18,7 @@ Specifies the text encoding format to use when you use an XMLport to export or i
  XMLports  
   
 > [!NOTE]  
->  The **TextEncoding** property is only available when the [Format Property \(XMLports\)](Format-Property--XMLports-.md) of the XMLport is set to **Fixed Text** or **Variable Text**.  
+>  The **TextEncoding** property is only available when the [Format Property \(XMLports\)](devenv-format-xmlports-property.md) of the XMLport is set to **Fixed Text** or **Variable Text**.  
   
 ## Values  
   
@@ -33,7 +33,7 @@ Specifies the text encoding format to use when you use an XMLport to export or i
  For more information, see [Text Encoding](Text-Encoding.md).  
   
 ## Remarks  
- Text encoding is the process of transforming bytes of data into readable characters for users of a system or program. There are several industry text encoding formats and different systems support different formats. Internally, [!INCLUDE[navnow](includes/navnow_md.md)] uses Unicode encoding. For exporting and importing data with an XMLport, [!INCLUDE[navnow](includes/navnow_md.md)] supports MS-DOS, UTF-8, UTF-16, and Windows encoding formats.  
+ Text encoding is the process of transforming bytes of data into readable characters for users of a system or program. There are several industry text encoding formats and different systems support different formats. Internally, [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] uses Unicode encoding. For exporting and importing data with an XMLport, [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] supports MS-DOS, UTF-8, UTF-16, and Windows encoding formats.  
   
  You should set the **TextEncoding** property to the encoding format that is compatible with the system or program that you will be exporting to or importing from. The following sections describe the available text encoding formats.  
   
@@ -59,11 +59,11 @@ Specifies the text encoding format to use when you use an XMLport to export or i
 ...  
 ```  
   
- The code example is based on XMLport 1220 in the [!INCLUDE[demolong](includes/demolong_md.md)]. The table, **MyDefinitionTable**, has a field, **File Encoding**, that specifies the encoding for this part of an import.  
+ The code example is based on XMLport 1220 in the [!INCLUDE[demolong](../includes/demolong_md.md)]. The table, **MyDefinitionTable**, has a field, **File Encoding**, that specifies the encoding for this part of an import.  
   
 ## See Also  
  [XMLports](XMLports.md)   
  [How to: Create XMLports](How-to--Create-XMLports.md)   
- [Format Property \(XMLports\)](Format-Property--XMLports-.md)   
+ [Format Property \(XMLports\)](devenv-format-xmlports-property.md)   
  [Walkthrough: Importing Data from Text Files to Tables](Walkthrough--Importing-Data-from-Text-Files-to-Tables.md)   
  [Text Encoding](Text-Encoding.md)

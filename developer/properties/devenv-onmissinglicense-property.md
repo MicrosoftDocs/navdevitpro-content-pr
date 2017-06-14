@@ -1,7 +1,7 @@
 ---
 title: "OnMissingLicense Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,13 +12,13 @@ caps.latest.revision: 3
 manager: edupont
 ---
 # OnMissingLicense Property
-Specifies what happens to the event subscriber function call when the license of the [!INCLUDE[navnow](includes/navnow_md.md)] user account that is running the current session does not include the codeunit that contains the subscriber function.  
+Specifies what happens to the event subscriber function call when the license of the [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] user account that is running the current session does not include the codeunit that contains the subscriber function.  
   
 ## Applies to  
   
 -   AL functions in codeunits.  
   
-     This property is only available when the [Event Property](Event-Property.md) is set to **Subscriber**.  
+     This property is only available when the [Event Property](devenv-event-property.md) is set to **Subscriber**.  
   
 ## Property Value  
   

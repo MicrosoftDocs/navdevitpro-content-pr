@@ -1,7 +1,7 @@
 ---
 title: "Bitmap Property"
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 06/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,7 +12,7 @@ caps.latest.revision: 16
 manager: edupont
 ---
 # Bitmap Property
-Sets a bitmap icon to be shown with a department on the Department page of the [!INCLUDE[rtc](includes/rtc_md.md)].  
+Sets a bitmap icon to be shown with a department on the Department page of the [!INCLUDE[rtc](../includes/rtc_md.md)].  
 
 ## Applies To  
 
@@ -24,5 +24,5 @@ Sets a bitmap icon to be shown with a department on the Department page of the [
 ## See Also  
  [How to: Change Department Icons in the Windows Client](How-to--Change-Department-Icons-in-the-Windows-Client.md)   
  [How to: Modify a Department Menu in a MenuSuite](How-to--Modify-a-Department-Menu-in-a-MenuSuite.md)   
- [Menu Properties](uiref/-$-S_2490-Menu-Properties-$-.md)   
+ [Menu Properties](devenv-$-S_2490-Menu-Properties-$-.md)   
  [Create Menu](uiref/-$-S_2420-Create-Menu-$-.md)

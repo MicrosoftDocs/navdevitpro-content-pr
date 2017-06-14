@@ -1,7 +1,7 @@
 ---
 title: "PrintOnlyIfDetail Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,9 +25,9 @@ Specifies whether to print data in a report for the parent data item when the ch
   
  If there are more than two data items, then the report iterates through each parent-child relationship in the same way.  
   
- Another way to achieve the result of not printing blank lines is to add a filter on the table. For more information, see [SETFILTER Function \(Record\)](SETFILTER-Function--Record-.md).  
+ Another way to achieve the result of not printing blank lines is to add a filter on the table. For more information, see [SETFILTER Function \(Record\)](../methods/devenv-SETFILTER-Method-Record.md).  
   
- In previous versions of [!INCLUDE[navnow](includes/navnow_md.md)] reports, you could control whether data items without data were printed with the use of body sections in Section Designer. After you upgrade reports in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], verify whether you need to use filters or the **PrintOnlyIfDetail** property to achieve the same resulting report.  
+ In previous versions of [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] reports, you could control whether data items without data were printed with the use of body sections in Section Designer. After you upgrade reports in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)], verify whether you need to use filters or the **PrintOnlyIfDetail** property to achieve the same resulting report.  
   
 ## Example  
  In this example, you create a report to print data from the Sales Header and Sales Line tables. The parent data item is Sales Header. For each record in the Sales Header table, the report iterates through records in the Sales Line table.  
@@ -50,7 +50,7 @@ Specifies whether to print data in a report for the parent data item when the ch
 |Order|101009|20000|…|  
 |Order|101013|10000|…|  
   
- In this example, you set the [DataItemLink Property \(Reports\)](DataItemLink-Property--Reports-.md) to "Document Type=FIELD\(Document Type\),Document No.=FIELD\(No.\)". If you set **PrintOnlyIfDetail** to **true**, then the report outputs the following data.  
+ In this example, you set the [DataItemLink Property \(Reports\)](devenv-dataitemlink-reports-property.md) to "Document Type=FIELD\(Document Type\),Document No.=FIELD\(No.\)". If you set **PrintOnlyIfDetail** to **true**, then the report outputs the following data.  
   
 |Document Type|Customer No.|Document No.|Line No.|…|  
 |-------------------|------------------|------------------|--------------|-------|  
@@ -70,4 +70,4 @@ Specifies whether to print data in a report for the parent data item when the ch
 |Order|10000|101016||…|  
   
 ## See Also  
- [PRINTONLYIFDETAIL Function \(Report\)](PRINTONLYIFDETAIL-Function--Report-.md)
+ [PRINTONLYIFDETAIL Method \(Report\)](../methods/devenv-printonlyifdetail-method-report.md)

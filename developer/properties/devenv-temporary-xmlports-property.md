@@ -1,7 +1,7 @@
 ---
 title: "Temporary Property (XMLports)"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,4 +18,4 @@ Sets whether a temporary table is created to store the records imported using th
  Record variables.  
   
 ## Remarks  
- If the data that you are importing has a different structure than the table in [!INCLUDE[navnow](includes/navnow_md.md)] that you want to insert it into, you could import the data into a temporary table. The temporary table holds the data in cache without writing it to the database. You can then modify the data before inserting it into the database.
+ If the data that you are importing has a different structure than the table in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] that you want to insert it into, you could import the data into a temporary table. The temporary table holds the data in cache without writing it to the database. You can then modify the data before inserting it into the database.

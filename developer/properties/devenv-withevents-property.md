@@ -1,7 +1,7 @@
 ---
 title: "WithEvents Property"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -13,10 +13,10 @@ manager: edupont
 ---
 # WithEvents Property
 > [!IMPORTANT]  
->  This property is not supported in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. The property must be set to **false**, otherwise you will receive an error at runtime.  
+>  This property is not supported in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. The property must be set to **false**, otherwise you will receive an error at runtime.  
   
 ## Applies To  
- Global variables of the [Automation Data Type](Automation-Data-Type.md).  
+ Global variables of the [Automation Data Type](../datatypes/devenv-automation-data-type.md).  
   
 ## See Also  
- [Automation Data Type](Automation-Data-Type.md)
+ [Automation Data Type](../datatypes/devenv-automation-data-Type.md)

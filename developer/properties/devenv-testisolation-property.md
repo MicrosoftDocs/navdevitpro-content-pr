@@ -1,7 +1,7 @@
 ---
 title: "TestIsolation Property"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,11 +15,11 @@ manager: edupont
 Specifies which changes to the database to roll back after the tests in the test runner codeunit execute.  
   
 ## Applies To  
- Test runner codeunits. A test runner codeunit has the [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md) set to **TestRunner**.  
+ Test runner codeunits. A test runner codeunit has the [SubType Property \(Codeunit\)](devenv-subtype-codeunit-property.md) set to **TestRunner**.  
   
 ## Property Value  
   
-|Value|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
+|Value|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
 |Disabled|Do not roll back any changes to the database. Tests are not isolated from each other.<br/><br /> This is the default value.|  
 |Codeunit|Roll back all changes to the database after each test codeunit executes.|  

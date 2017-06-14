@@ -20,7 +20,7 @@ Sets a value that specifies whether a BLOB is compressed.
 ## Remarks  
  If you want to access BLOB data with an external tool, for example to display a bitmap, you must set this property to **false**.  
   
- The [!INCLUDE[rtc](includes/rtc_md.md)] can access BLOBs without using this property.  
+ The [!INCLUDE[rtc](../includes/rtc_md.md)] can access BLOBs without using this property.  
   
 ## See Also  
  [BLOB Data Type](../datatypes/devenv-blob-data-type.md)

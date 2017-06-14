@@ -18,7 +18,7 @@ In earlier versions of [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md
  Fields  
 
 ## Remarks  
- This property is deprecated in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].  
+ This property is deprecated in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].  
 
 ## See Also  
  [Properties](devenv-properties.md)

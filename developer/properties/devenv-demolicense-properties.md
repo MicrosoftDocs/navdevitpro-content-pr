@@ -1,7 +1,7 @@
 ---
 title: "Properties of the Demo License"
 ms.custom: na
-ms.date: 06/12/2017
+ms.date: 06/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,7 +12,7 @@ caps.latest.revision: 17
 manager: edupont
 ---
 # Properties of the Demo License
-The demo license is automatically installed when you install the Demo Option. The demo license works with the [!INCLUDE[demolong](includes/demolong_md.md)], has serial number 000, and includes granule 540. The license allows access to the entire base application and limited access to the development system.  
+The demo license is automatically installed when you install the Demo Option. The demo license works with the [!INCLUDE[demolong](../includes/demolong_md.md)], has serial number 000, and includes granule 540. The license allows access to the entire base application and limited access to the development system.  
   
 ## Properties of the Demo License  
  When the demo license is installed, you can:  
@@ -39,7 +39,7 @@ The demo license is automatically installed when you install the Demo Option. Th
 -   Enter dates in months other than November, December, January, and February.  
   
 > [!IMPORTANT]  
->  The demo license can only be used with demonstration companies such as [!INCLUDE[demoname](includes/demoname_md.md)].  
+>  The demo license can only be used with demonstration companies such as [!INCLUDE[demoname](../includes/demoname_md.md)].  
   
 ## Country/Region Versions  
  When you run a country/region version of [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)], the license must correspond with the country/region version that you have installed.  

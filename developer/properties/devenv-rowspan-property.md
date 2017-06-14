@@ -1,7 +1,7 @@
 ---
 title: "RowSpan Property"
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 06/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -30,7 +30,7 @@ Sets the number of rows that a field spans in a GridLayout control.
  ![GridLayout showing row span](media/NAVGridLayoutRowSpan.png "NAVGridLayoutRowSpan")  
   
 > [!IMPORTANT]  
->  The RowSpan property is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. If the page displays in the [!INCLUDE[nav_web](includes/nav_web_md.md)], then the property is ignored and the field will not span any rows.  
+>  The RowSpan property is not supported by the [!INCLUDE[nav_web](../includes/nav_web_md.md)]. If the page displays in the [!INCLUDE[nav_web](../includes/nav_web_md.md)], then the property is ignored and the field will not span any rows.  
   
 ## See Also  
  [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How-to--Arrange-Fields-in-Rows-and-Columns-Using-the-GridLayout-Control.md)

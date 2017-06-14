@@ -60,7 +60,7 @@ Sets the string that is used to identify a control or other object in the user i
 -->
 
 ## Default Values  
-The following table shows how the default caption is determined for the various objects in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].  
+The following table shows how the default caption is determined for the various objects in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].  
 
 |Object, control, or other element|Default caption|  
 |---------------------------------|---------------|  

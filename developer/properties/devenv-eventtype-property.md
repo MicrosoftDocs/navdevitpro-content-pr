@@ -25,7 +25,7 @@ Specifies the type of event that is published by the event publisher function.
 |Value|Description|  
 |-----------|-----------------|  
 |**Business**|The event is a business event type. A business event has an implied promise or contract that it will not to change in future [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] releases. Business events are typically implemented by ISVs and Microsoft.|  
-|**Integration**|The event is an integration event type. An integration event is like a business event except that is does not have the same promise or contract of not changing. Therefore, it less restrictive. Integration events are typically for integrating [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] with other solutions, such as [!INCLUDE[crm_md](,,/includes/crm_md.md)].|  
+|**Integration**|The event is an integration event type. An integration event is like a business event except that is does not have the same promise or contract of not changing. Therefore, it less restrictive. Integration events are typically for integrating [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] with other solutions.|  
   
  For more information about the different event types, see [Event Types](Event-Types.md)  
   

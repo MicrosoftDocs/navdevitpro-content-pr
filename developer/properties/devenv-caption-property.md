@@ -1,7 +1,7 @@
 ---
 title: "Caption Property"
 ms.custom: na
-ms.date: 06/09/2017
+ms.date: 06/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -36,8 +36,8 @@ Sets the text string that displays with the object, control, or other element in
  The Caption property value is taken from the value of the [CaptionML Property](devenv-captionml-property.md) for the current user language if the CaptionML Property is set. If you enter a value for the Caption Property, then the value is included in CaptionML property for the current language. For example, if the current system language is Danish, then a value of **DAN =\<value>** is placed in the CaptionML field.  
 
 > [!NOTE]  
->  For query columns, when you run the query from Object Designer, the About This Query window that opens in the [!INCLUDE[rtc](includes/rtc_md.md)] displays the value for the [Name Property](devenv-name-property.md) of the query column, not the Caption property or CaptionML Property.  
+>  For query columns, when you run the query from Object Designer, the About This Query window that opens in the [!INCLUDE[rtc](../includes/rtc_md.md)] displays the value for the [Name Property](devenv-name-property.md) of the query column, not the Caption property or CaptionML Property.  
 
 ## See Also  
  [ShowCaption Property](devenv-showcaption-property.md)   
- [Multilanguage Development](devenv-multilanguage-development.md)
+ [Multilanguage Development](multilanguage-development.md)

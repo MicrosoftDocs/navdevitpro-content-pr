@@ -1,7 +1,7 @@
 ---
 title: "DataItemLinkType Property"
 ms.custom: na
-ms.date: 06/08/2017
+ms.date: 06/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -21,7 +21,7 @@ Sets the data item link type between data items in a query to determine the reco
 ## Property Value  
  The DataItemLinkType property has the following values.  
   
-|Value|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
+|Value|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
 |Use Default Values If No Match|The resulting dataset contains all the records from the upper data item or data items; even if a record does not have a matching value in the linked field of lower data item as specified by the [DataItemLink Property \(Query\)](devenv-dataitemlink-query-property.md).|  
 |Exclude Row If No Match|The resulting dataset contains only records from data item tables that have matching values for the fields that are linked by the DataItemLink property.|  

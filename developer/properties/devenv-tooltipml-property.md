@@ -1,7 +1,7 @@
 ---
 title: "ToolTipML Property"
 ms.custom: na
-ms.date: 05/04/2017
+ms.date: 06/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,19 +23,19 @@ In the client, tooltips appear when you point to caption of the control.
 -   Fields on pages  
 
     > [!NOTE]  
-    >  List page field tooltips are only shown in the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet_md](includes/nav_tablet_md.md)].
+    >  List page field tooltips are only shown in the [!INCLUDE[nav_web](../includes/nav_web_md.md)] and [!INCLUDE[nav_tablet_md](../includes/nav_tablet_md.md)].
 
 -   Factboxes  
 
 -   Activity buttons  
 
     > [!NOTE]  
-    >  Activity button tooltips are only shown in the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+    >  Activity button tooltips are only shown in the [!INCLUDE[nav_web](../includes/nav_web_md.md)].  
 
 -   ActionContainers  
 
     > [!NOTE]  
-    >  ActionContainers tooltips are only shown on the [!INCLUDE[nav_web](includes/nav_web_md.md)] for the subtype **HomeItems**.  
+    >  ActionContainers tooltips are only shown on the [!INCLUDE[nav_web](../includes/nav_web_md.md)] for the subtype **HomeItems**.  
 
 ## Remarks  
  ToolTipML is multilanguage enabled. This means that it can contain a list of strings for use by different languages. The text that is used is selected according to the user's current language setting. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
@@ -55,4 +55,4 @@ DAN=Dette felt indeholder kundens navn;ENG=This field contains the customer name
 ```  
 
 ## See Also  
- [ToolTip Property](ToolTip-Property.md)
+ [ToolTip Property](devenv-tooltip-property.md)

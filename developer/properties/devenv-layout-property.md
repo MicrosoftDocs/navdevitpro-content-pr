@@ -1,7 +1,7 @@
 ---
 title: "Layout Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ Sets whether the fields in Group controls are arranged horizontally in a row or 
   
 ## Property Values  
   
-|Value|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
+|Value|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
 |**Rows**|Arranges fields within Group controls in rows.|  
 |**Columns**|Arranges fields within Group controls in columns. This is the default setting.|  
