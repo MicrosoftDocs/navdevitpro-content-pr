@@ -97,6 +97,6 @@ MESSAGE(Text000, Format(DecimalToRound,0,1), Precision, Direction, Result);
   
 ## See Also  
  [ABS Function \(Decimal, Integer, BigInteger\)](devenv-abs-function-decimal-integer-biginteger.md)   
- [POWER Function \(Decimal, Integer, BigInteger\)](devenv-power-function-decimal-integer-biginteger.md)   
+ [POWER Method \(Decimal, Integer, BigInteger\)](devenv-power-method-decimal-integer-biginteger.md)   
  [RANDOM Function \(Integer\)](devenv-random-function-integer.md)   
  [RANDOMIZE Function \(Integer\)](devenv-randomize-function-integer.md)

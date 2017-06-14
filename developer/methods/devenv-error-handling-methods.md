@@ -14,7 +14,7 @@ author: jswymer
 # Error Handling Methods
 [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] includes the following methods for handling errors:  
 
--   [CLEARLASTERROR Method](devenv-CLEARLASTERROR-Function.md)  
+-   [CLEARLASTERROR Method](devenv-CLEARLASTERROR-method.md)  
 
 -   [GETLASTERRORCALLSTACK Method](devenv-GETLASTERRORCALLSTACK-Method.md)  
 

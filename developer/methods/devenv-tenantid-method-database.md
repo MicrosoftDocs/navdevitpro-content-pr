@@ -30,4 +30,4 @@ ID := TENANTID
 ## See Also  
  [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md)   
  [COMPANYNAME Method \(Database\)](devenv-COMPANYNAME-Method-Database.md)   
- [Database](Database.md)
+ [Database Methods](devenv-database-methods.md)

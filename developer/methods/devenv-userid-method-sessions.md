@@ -49,4 +49,4 @@ MESSAGE(Text000, User);
 ## See Also  
  [USERSECURITYID Method](devenv-USERSECURITYID-Method.md)   
  [SID Method \(Database\)](devenv-SID-Method-Database.md)   
- [Database](Database.md)
+ [Database Methods](devenv-database-methods.md)
