@@ -24,4 +24,4 @@ CLEARLASTERROR
  You can use the [GETLASTERRORTEXT Method](devenv-GETLASTERRORTEXT-Method.md) to determine whether an error has occurred and to see the text in the last error message that was generated. You can then use the CLEARLASTERROR method to remove the last error message from memory. If you subsequently call the GETLASTERRORTEXT method, an empty string is returned.  
   
 ## See Also  
- [Error Handling](Error-Handling.md)
+ [Error Handling Methods](devenv-error-handling-methods.md)
