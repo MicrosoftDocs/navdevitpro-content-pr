@@ -40,7 +40,7 @@ The displayed text format of the date is determined by your Region and Language 
  This example shows valid assignments of Dates. It requires that you define the following variable.  
   
 |Variable|DataType|  
-|--------------|--------------|  
+|--------|--------|  
 |Date1|Date|  
   
  This example is compiled and run on a computer with the regional format set to English (United States).   

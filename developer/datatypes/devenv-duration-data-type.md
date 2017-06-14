@@ -26,7 +26,7 @@ Represents the difference between two DateTimes. This value can be negative. It 
  This example shows how to calculate the difference between two DateTimes. It requires that you define the following variables.  
   
 |Variable|DataType|  
-|--------------|--------------|  
+|--------|--------|  
 |DateTime1|DateTime|  
 |Datetime2|DateTime|  
 |Duration|Duration|  
