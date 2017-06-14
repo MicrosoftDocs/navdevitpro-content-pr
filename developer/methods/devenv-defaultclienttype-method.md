@@ -65,4 +65,4 @@ MESSAGE('The URL is %1.', url);
 ```  
 
 ## See Also  
- [Sessions](Sessions.md)
+ [Session Methods](devenv-session-methods.md)

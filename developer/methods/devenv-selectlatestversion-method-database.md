@@ -27,5 +27,5 @@ SELECTLATESTVERSION
 >  Clearing the cache and reading data directly from the database adversely affects performance.  
   
 ## See Also  
- [Database](Database.md)   
+ [Database Methods](devenv-database-methods.md)   
  [CaptionClass Functionality](CaptionClass-Functionality.md)

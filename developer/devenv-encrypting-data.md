@@ -13,7 +13,7 @@ author: jswymer
 ---
 
 # Encrypting Data in Dynamics 365 for Financials
-This article gives an overview of use data encription to add security [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+This article gives an overview of data encription and how to use it to add security [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
 ## Cryptography Overview
 The methods that support cryptography provide services that enable developers manage encrypting and decrypting data. Each tenant supports a single encryption key which is used for encrypting and decrypting data stored in the database. Additional methods are provided to assist building robust solutions when working with encryption and for managing the encryption keys.  
