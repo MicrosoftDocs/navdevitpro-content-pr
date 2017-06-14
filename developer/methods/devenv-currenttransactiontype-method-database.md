@@ -112,4 +112,4 @@ CURRENTTRANSACTIONTYPE := TRANSACTIONTYPE::Update;
 ```  
   
 ## See Also  
- [Database](Database.md)
+ [Database Methods](devenv-database-methods.md)
