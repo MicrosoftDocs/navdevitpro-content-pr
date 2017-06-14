@@ -38,7 +38,7 @@ Use the debugger methods to implement a debugger for AL code. The [!INCLUDE[d365
 
 [ISATTACHED Method](devenv-isattached-method-debugger.md)
 
-[ISBREAKPOINTHIT Method](devenv-breakpointhit-method-debugger.md)
+[ISBREAKPOINTHIT Method](devenv-isbreakpointhit-method-debugger.md)
 
 [SKIPSYSTEMTRIGGERS Method](devenv-skipsystemtriggers-method-debugger.md)
 

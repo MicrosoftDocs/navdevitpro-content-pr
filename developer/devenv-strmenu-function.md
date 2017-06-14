@@ -47,4 +47,4 @@ Selection := Dialog.STRMENU('Save,Close,Cancel',3);
 
 ## See Also  
  [STRMENU Method \(Dialog\)](methods/devenv-STRMENU-Method-Dialog.md)   
- [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](Progress-Windows-MESSAGE-ERROR-and-CONFIRM-Methods.md)
+ [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](devenv-Progress-Windows-MESSAGE-ERROR-and-CONFIRM-Methods.md)

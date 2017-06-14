@@ -17,10 +17,10 @@ Although there are hundreds of methods in AL, there are several methods that you
  The topics in this section describe the most common C/AL methods. For more details about all of the AL methods, see [AL Methods](methods/devenv-al-methods.md).  
 
 ## See Also  
- [GET, FIND, and NEXT Methods](methods/devenv-GET-FIND-and-NEXT-Methods.md)   
- [SETCURRENTKEY, SETRANGE, SETFILTER, GETRANGEMIN, and GETRANGEMAX Methods](methods/devenv-SETCURRENTKEY-SETRANGE-SETFILTER-GETRANGEMIN-and-GETRANGEMAX-Methods.md)   
- [INSERT, MODIFY, MODIFYALL, DELETE, and DELETEALL Methods](methods/devenv-INSERT-MODIFY-MODIFYALL-DELETE-and-DELETEALL-Methods.md)   
- [LOCKTABLE Function](methods/devenv-LOCKTABLE-Function.md)   
- [CALCFIELDS, CALCSUMS,FIELDERROR, FIELDNAME, INIT, TESTFIELD, and VALIDATE Methods](methods/devenv-CALCFIELDS-CALCSUMS-FIELDERROR-FIELDNAME-INIT-TESTFIELD-and-VALIDATE-Methods.md)   
- [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](methods/devenv-Progress-Windows-MESSAGE-ERROR-and-CONFIRM-Methods.md)   
- [STRMENU Function](methods/devenv-STRMENU-Function.md)
+ [GET, FIND, and NEXT Methods](devenv-GET-FIND-and-NEXT-Methods.md)   
+ [SETCURRENTKEY, SETRANGE, SETFILTER, GETRANGEMIN, and GETRANGEMAX Methods](devenv-SETCURRENTKEY-SETRANGE-SETFILTER-GETRANGEMIN-and-GETRANGEMAX-Methods.md)   
+ [INSERT, MODIFY, MODIFYALL, DELETE, and DELETEALL Methods](devenv-INSERT-MODIFY-MODIFYALL-DELETE-and-DELETEALL-Methods.md)   
+ [LOCKTABLE Method](devenv-LOCKTABLE-Method.md)   
+ [CALCFIELDS, CALCSUMS,FIELDERROR, FIELDNAME, INIT, TESTFIELD, and VALIDATE Methods](devenv-CALCFIELDS-CALCSUMS-FIELDERROR-FIELDNAME-INIT-TESTFIELD-and-VALIDATE-Methods.md)   
+ [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](devenv-Progress-Windows-MESSAGE-ERROR-and-CONFIRM-Methods.md)   
+ [STRMENU Method](devenv-STRMENU-Method.md)

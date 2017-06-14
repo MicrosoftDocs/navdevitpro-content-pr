@@ -46,11 +46,11 @@ The following AL methods pertain to operations on the database.
 
 -   [SID Method \(Database\)](devenv-SID-Method-Database.md)  
 
--   [TableConnectionType Data Type](devenv-TableConnectionType-Data-Type.md)  
+-   [TableConnectionType Data Type](../datatypes/devenv-TableConnectionType-Data-Type.md)  
 
 -   [TENANTID Method \(Database\)](devenv-TENANTID-Method-Database.md)  
 
--   [TransactionType Data Type](devenv-TransactionType-Data-Type.md)  
+-   [TransactionType Data Type](../datatypes/devenv-TransactionType-Data-Type.md)  
 
 -   [UNREGISTERTABLECONNECTION Method \(Database\)](devenv-UNREGISTERTABLECONNECTION-Method-Database.md)  
 

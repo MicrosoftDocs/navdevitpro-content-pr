@@ -129,7 +129,7 @@ Customer.DELETE;
 
 3.  If step 2 indicated that you should delete the record, then delete it.  
 
- This can cause problems in a multi-user environment. Another user can modify or delete the same record between your performing steps 2 and 3. If the record is modified, then perhaps the new contents of the record would have changed your decision to delete it. If it has been deleted by the other user, you can get a run-time error if you have just verified that the record existed \(in step 1\). If the design of your application indicates that you can encounter this problem, you should consider using the LOCKTABLE method. LOCKTABLE should be used sparingly because this method degrades performance. For more information about the LOCKTABLE method, see [LOCKTABLE Method](LOCKTABLE-Method.md).  
+ This can cause problems in a multi-user environment. Another user can modify or delete the same record between your performing steps 2 and 3. If the record is modified, then perhaps the new contents of the record would have changed your decision to delete it. If it has been deleted by the other user, you can get a run-time error if you have just verified that the record existed \(in step 1\). If the design of your application indicates that you can encounter this problem, you should consider using the LOCKTABLE method. LOCKTABLE should be used sparingly because this method degrades performance. For more information about the LOCKTABLE method, see [LOCKTABLE Method](devenv-LOCKTABLE-Method.md).  
 
 ## DELETEALL Method  
  DELETEALL deletes all the records that are specified by the filter settings. If no filters are applied, it deletes all the records in the table.  

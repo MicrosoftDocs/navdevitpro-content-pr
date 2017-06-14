@@ -19,7 +19,7 @@ You can use several specialized methods to display messages and gather input. We
 
 -   To let the user confirm a choice before the program continues running.  
 
- You can also use the STRMENU method to create pages that present options to the user. It is much faster to use this method than to design a page which only presents a limited set of options to the user. For more information about the STRMENU method, see [STRMENU Method](STRMENU-Method.md).  
+ You can also use the STRMENU method to create pages that present options to the user. It is much faster to use this method than to design a page which only presents a limited set of options to the user. For more information about the STRMENU method, see [STRMENU Method](devenv-STRMENU-Method.md).  
 
 ## Best Practices for User Messages  
  We recommend the following guidelines for writing messages for end users:  
@@ -70,7 +70,7 @@ MESSAGE(Text001,"No.",SalesHeader2."No.");
 >  Unlike the progress window, the MESSAGE method does not require that you first declare a variable of type Dialog. The MESSAGE method creates a window of its own.  
 
 ## ERROR Method  
- The [ERROR Method \(Dialog\)](methods/devenv-ERROR-Method-Dialog.md) is very similar to the MESSAGE method except that when the user has acknowledged the message from an ERROR method, execution ends. The ERROR method is also similar to the FIELDERROR method. For more information, see [CALCFIELDS, CALCSUMS,FIELDERROR, FIELDNAME, INIT, TESTFIELD, and VALIDATE Methods](CALCFIELDS-CALCSUMS-FIELDERROR-FIELDNAME-INIT-TESTFIELD-and-VALIDATE-Methods.md).  
+ The [ERROR Method \(Dialog\)](methods/devenv-ERROR-Method-Dialog.md) is very similar to the MESSAGE method except that when the user has acknowledged the message from an ERROR method, execution ends. The ERROR method is also similar to the FIELDERROR method. For more information, see [CALCFIELDS, CALCSUMS,FIELDERROR, FIELDNAME, INIT, TESTFIELD, and VALIDATE Methods](devenv-CALCFIELDS-CALCSUMS-FIELDERROR-FIELDNAME-INIT-TESTFIELD-and-VALIDATE-Methods.md).  
 
  The ERROR method has the following syntax.  
 
