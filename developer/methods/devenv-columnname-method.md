@@ -59,6 +59,6 @@ NameOfColumn := MyQuery.COLUMNNAME("Customer_No");
 ## See Also  
  [How to: Create Queries](How-to--Create-Queries.md)   
  [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md)   
- [Queries](Queries.md)   
+ [Query Object](../devenv-query-object.md)   
  [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
  [Multilanguage Development](Multilanguage-Development.md)
