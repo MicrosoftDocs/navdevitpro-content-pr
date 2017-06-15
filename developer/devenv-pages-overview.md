@@ -22,6 +22,8 @@ Whether you're creating a new page, or extending en existing page, you will add 
 
 The structure of a page is hierarchical and breaks down in to three sections. The first block contains metadata for the overall page. The metadata describes the page type and the source table it is showing data from. The next section; the layout, describes the visual parts on the page. The final section details the actions that are published on the page.
 
+
+
 <!--  where does this belong?
 |Type|SubType|  
 |----------|-------------|  
@@ -35,48 +37,58 @@ The structure of a page is hierarchical and breaks down in to three sections. Th
 Furthermore, the page has properties. Properties work in the same way for pages as they do for other [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] objects. For more information, see [Page Properties](Page-Properties.md).  
 
 ## Page Metadata
-The page object
+For a new page object, you must at least specify the type of page; `PageType` and the data source; `SourceTable` of the page. And you can also set other metadata at the beginning of the declaration of the page object, such as 
+
+```
+page Id PageName
+{
+    PageType = List;
+    SourceTable = TableName;
+    ...
+
+```
+### Types of Pages  
+The page type you choose depends on the application task that you want to support, the content that you want to display, and how you want to display it. The Role Center page is the main or home page and it helps the user focus on the most important daily tasks and activities. Other types of pages, such as list pages or card pages are typically linked from the home page for easy access. The following page types are available:  
+
+-   RoleCenter    
+-   Card  
+-   CardPart  
+-   List  
+-   ListPart  
+-   ListPlus  
+-   Document  
+-   Worksheet    
+-   ConfirmationDialog  
+-   StandardDialog   
+-   NavigatePage (Wizard)  
 
 ## Page Layout
+The page layout of the page object determines what the page will look like and is specified in the `layout{}` section. The `layout{}` contains one or more `area{}` sections that define a certain placement on the page. 
 
-## Page Actions
-  
-## Types of Pages  
-The page type you choose depends on the application task that you want to support, the content that you want to display, and how you want to display it. The Role Center page is the main or home page and it helps the user focus on the most important daily tasks and activities. Other types of pages, such as list pages or card pages are typically linked from the home page for easy access. The following page types are available:  
-  
--   Card  
-  
--   List  
-  
--   Role Center  
-  
--   Card Part  
-  
--   List Part  
-  
--   Document  
-  
--   Worksheet  
-  
--   Confirmation Dialog  
-  
--   List Plus  
-  
--   Navigate Page (Wizard)  
-  
--   Standard Dialog  
-  
-For more information about page types, see [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md).  
-  
+You can choose between the following area categories:
+
+- `content{}`
+- `factboxes{}`
+- `rolecenter{}`
+
+## Page actions
+The ```ActionContainer``` element in C/SIDE is renamed to ```area(Creation|Embedding|Navigation|Processing|Reporting|Sections)``` and can be defined inside the ```actions``` section of the page.
+
+    
 ## Page Controls  
 
-You can add the following page controls to a page depending on the page type you have chosen:  
+You can then add the following page controls to a page depending on the page type you have chosen:  
   
--   FactBox  
+repeater
+cuegroup
+part
+
+
+-   FactBoxes (area)  
   
--   FastTab  
+-   FastTab  ??
   
--   Cue  
+-   CueGroup  
   
 -   HomePart  
   
@@ -111,7 +123,7 @@ In [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] there are three cate
   
 For more information about actions, see [Actions Overview](Actions-Overview.md).  
   
-## Best Practices for Designing Pages  
+## Best practices for designing pages  
 We recommend that you simplify the user experience by reducing what users see by default. You can promote the information that the users most frequently need to see and hide the less important information. For example:  
   
 -   Place common tasks in the ribbon  
@@ -121,3 +133,4 @@ We recommend that you simplify the user experience by reducing what users see by
 -   Use one to three FactBoxes on a page to provide supplementary information and a place for adding notes.  
   
 ## See Also  
+[Page Properties Overview](devenv-page-properties.md)
