@@ -13,15 +13,20 @@ author: SusanneWindfeldPedersen
 ---
 # FilterPageBuilder Data Type
 A FilterPageBuilder data type is a complex data type that stores filter configurations for a filter page. A filter page is a dynamic page type that contains one or more filter controls that enables users to set filters on fields of the underlying tables.  
-  
+
+## Methods
+The methods supported for the FilterPageBuilder data type are:
+
+[ADDFIELD method](../methods/devenv-addfield-method.md)   
+[ADDFIELDNO method](../methods/devenv-addfieldno-method.md)   
+[ADDRECORD method](../methods/devenv-addrecord-method.md)   
+[ADDRECORDREF method](../methods/devenv-addrecordref-method.md)   
+[ADDTABLE method](../methods/devenv-addtable-method.md)   
+[GETVIEW method (FilterPageBuilder)](../methods/devenv-getview-method-filterpagebuilder.md)   
+[SETVIEW method](../methods/devenv-setview-method.md)   
+[COUNT method (FilterPageBuilder)](../methods/devenv-count-method-filterpagebuilder.md)   
+[NAME method (FilterPageBuilder)](../methods/devenv-NAME-method-filterpagebuilder.md)   
+[RUNMODAL method (FilterPageBuilder)](../methods/devenv-runmodal-method-filterpagebuilder.md)
+
 ## See Also  
- [ADDFIELD method](../methods/devenv-addfield-method.md)   
- [ADDFIELDNO method](../methods/devenv-addfieldno-method.md)   
- [ADDRECORD method](../methods/devenv-addrecord-method.md)   
- [ADDRECORDREF method](../methods/devenv-addrecordref-method.md)   
- [ADDTABLE method](../methods/devenv-addtable-method.md)   
- [GETVIEW method (FilterPageBuilder)](../methods/devenv-getview-method-filterpagebuilder.md)   
- [SETVIEW method](../methods/devenv-setview-method.md)   
- [COUNT method (FilterPageBuilder)](../methods/devenv-count-method-filterpagebuilder.md)   
- [NAME method (FilterPageBuilder)](../methods/devenv-NAME-method-filterpagebuilder.md)   
- [RUNMODAL method (FilterPageBuilder)](../methods/devenv-runmodal-method-filterpagebuilder.md)
+[AL Data Types](devenv-al-data-types.md)  

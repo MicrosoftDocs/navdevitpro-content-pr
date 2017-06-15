@@ -16,8 +16,9 @@ A complex type that encapsulates media, such as images, in application database 
 
 The **MediaSet** data type enables you to import media to the application database as part of a collection, and then reference the imported media from records. This makes it possible to display the media in the client user interface. You can also export media from the database to files and streams.  
 
-## See Also  
-[Working With Media on Records](Working-With-Media-on-Records.md)  
+## Methods
+The following methods are supported for the MediaSet data type:
+
 [COUNT method (MediaSet)](../methods/devenv-count-method-mediaset.md)  
 [IMPORTFILE method (MediaSet)](../methods/devenv-importfile-method-mediaset.md)   
 [IMPORTSTREAM method (MediaSet)](../methods/devenv-importstream-method-mediaset.md)  
@@ -25,3 +26,6 @@ The **MediaSet** data type enables you to import media to the application databa
 [ITEM method (MediaSet)](../methods/devenv-item-method-mediaset.md)  
 [MEDIAID method (MediaSet)](../methods/devenv-mediaid-method-mediaset.md)  
 [EXPORTFILE method](../methods/devenv-exportfile-method-mediaset.md)  
+
+## See Also  
+[Working With Media on Records](Working-With-Media-on-Records.md)  

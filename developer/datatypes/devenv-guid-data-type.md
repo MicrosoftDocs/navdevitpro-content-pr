@@ -31,7 +31,7 @@ Assigns a unique identifying number to any database object. The GUID data type i
 MyTableRec.MyGuid  :=  MyTableRec.MyText;  
 ```  
   
-## Useful AL methods and Properties  
+## Methods and properties
  The following AL methods can be used with the GUID data type:  
   
 ```  
@@ -64,7 +64,7 @@ AutoSplitKey
   
  ISNULLGUID takes a GUID value as a required argument and returns TRUE/FALSE depending on whether the GUID value is NULL. This method does not accept a Text value as an argument.  
   
- CLEAR is the standard CLEAR method and takes one required argument. It nullifies the GUID value in the same way as it resets any other value.  
+ CLEAR is the standard CLEAR method and takes one required argument. It nullifies the GUID value in the same way as it resets any other value. 
   
  **AutoSplitKey** is a property, not a method and can be applied to pages. If you have defined a GUID field as part of the primary key, the **AutoSplitKey** property automatically generates a new valid GUID value. When a new record is created and the GUID field is left as NULL, the **AutoSplitKey** property ensures that a valid GUID value is automatically inserted into the field. If you then enter a NULL GUID into this record, for example, by using the CLEAR method, this new NULL GUID value is not automatically replaced by the **AutoSplitKey** property. The **AutoSplitKey** property only applies to new records.  
   
@@ -74,5 +74,6 @@ AutoSplitKey
  **Invalid Format of GUID string. The correct format of the GUID string is {CDEF7890-ABCD-1234-ABCD-1234567890AB} where 0-9, A-F symbolizes hexadecimal digits.**  
   
 ## See Also  
- [CREATEGUID method (GUID)](../methods/devenv-createguid-method-guid.md)   
- [ISNULLGUID method (GUID)](../methods/devenv-isnulguid-method-guid.md)
+[AL Data Types](devenv-al-data-types.md)  
+[CREATEGUID method (GUID)](../methods/devenv-createguid-method-guid.md)   
+[ISNULLGUID method (GUID)](../methods/devenv-isnulguid-method-guid.md)
