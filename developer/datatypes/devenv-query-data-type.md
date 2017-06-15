@@ -13,22 +13,27 @@ author: SusanneWindfeldPedersen
 ---
 # Query Data Type
 A complex data type that stores queries.  
-  
+
+## Methods
+The following methods are supported for the Query data type:
+
+[CLOSE method (Query)](../methods/devenv-close-method-query.md)   
+[COLUMNCAPTION method](../methods/devenv-columncaption-method.md)   
+[COLUMNNAME method](../methods/devenv-columnname-method.md)   
+[COLUMNNO method](../methods/devenv-columnno-method.md)   
+[GETFILTER method (Query)](../methods/devenv-getfilter-method-query.md)   
+[GETFILTERS method (Query)](../methods/devenv-getfilters-method-query.md)   
+[OPEN method (Query)](../methods/devenv-open-method-query.md)   
+[READ method (Query)](../methods/devenv-read-method-query.md)   
+[SAVEASCSV method](../methods/devenv-saveascsv-method.md)   
+[SAVEASXML method](../methods/devenv-saveasxml-method.md)   
+[SETFILTER method (Query)](../methods/devenv-setfilter-method-query.md)   
+[SETRANGE method (Query)](../methods/devenv-setrange-method-query.md)   
+[TOPNUMBEROFROWS method](../methods/devenv-topnumberofrows-method.md)
+
 ## Remarks  
  A query enables you to retrieve data from multiple tables and combine the data in single dataset.  
   
 ## See Also  
  [Accessing Columns of a Query Dataset](Accessing-Columns-of-a-Query-Dataset.md)   
- [CLOSE method (Query)](../methods/devenv-close-method-query.md)   
- [COLUMNCAPTION method](../methods/devenv-columncaption-method.md)   
- [COLUMNNAME method](../methods/devenv-columnname-method.md)   
- [COLUMNNO method](../methods/devenv-columnno-method.md)   
- [GETFILTER method (Query)](../methods/devenv-getfilter-method-query.md)   
- [GETFILTERS method (Query)](../methods/devenv-getfilters-method-query.md)   
- [OPEN method (Query)](../methods/devenv-open-method-query.md)   
- [READ method (Query)](../methods/devenv-read-method-query.md)   
- [SAVEASCSV method](../methods/devenv-saveascsv-method.md)   
- [SAVEASXML method](../methods/devenv-saveasxml-method.md)   
- [SETFILTER method (Query)](../methods/devenv-setfilter-method-query.md)   
- [SETRANGE method (Query)](../methods/devenv-setrange-method-query.md)   
- [TOPNUMBEROFROWS method](../methods/devenv-topnumberofrows-method.md)
+ 

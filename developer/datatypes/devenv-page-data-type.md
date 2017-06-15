@@ -14,16 +14,21 @@ author: SusanneWindfeldPedersen
 # Page Data Type
 This complex data type stores pages.  
 
+## Methods
+The following methods are supported for the Page data type:
+
+[OBJECTID method (Page)](../methods/devenv-objectid-method-page.md)   
+[PAGE.RUN method](../methods/devenv-page-run-method.md)   
+[PAGE.RUNMODAL method](../methods/devenv-page-runmodal-method.md)   
+[RUN method (Page)](../methods/devenv-run-method-page.md)   
+[RUNMODAL method (Page)](../methods/devenv-runmodal-method-page.md)   
+[SETRECORD method (Page)](../methods/devenv-setrecord-method-page.md)   
+[SETSELECTIONFILTER method](../methods/devenv-setselectionfilter-method.md)   
+[SETTABLEVIEW method (Page, Report, XMLport)](../methods/devenv-settableview-method-page-report-xmlport.md)   
+[UPDATE](UPDATE.md)
+
 ## Remarks  
  Pages contain a number of simpler elements called controls. Controls are used to display information to the user or receive information from the user.  
 
 ## See Also  
- [OBJECTID method (Page)](../methods/devenv-objectid-method-page.md)   
- [PAGE.RUN method](../methods/devenv-page-run-method.md)   
- [PAGE.RUNMODAL method](../methods/devenv-page-runmodal-method.md)   
- [RUN method (Page)](../methods/devenv-run-method-page.md)   
- [RUNMODAL method (Page)](../methods/devenv-runmodal-method-page.md)   
- [SETRECORD method (Page)](../methods/devenv-setrecord-method-page.md)   
- [SETSELECTIONFILTER method](../methods/devenv-setselectionfilter-method.md)   
- [SETTABLEVIEW method (Page, Report, XMLport)](../methods/devenv-settableview-method-page-report-xmlport.md)   
- [UPDATE](UPDATE.md)
+ 
