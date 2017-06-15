@@ -43,7 +43,7 @@ Calculates the total of all values of a SumIndexField in a table.
 
 -   The SumIndexFields on the [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] key contain the field to which the FieldRef parameter refers.  
 
--   The [MaintainSIFTIndex Property](../properties/devenv-MaintainSIFTIndex-Property.md) is set to **Yes**.  
+-   The [MaintainSIFTIndex Property](../properties/devenv-MaintainSIFT-Index-Property.md) is set to **Yes**.  
 
     > [!NOTE]  
     >  By default this property is set to **Yes** for all keys.  

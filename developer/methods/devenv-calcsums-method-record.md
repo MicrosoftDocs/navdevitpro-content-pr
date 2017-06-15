@@ -46,7 +46,7 @@ Calculates the total of a column in a table. You specify which fields to calcula
 
 -   The SumIndexFields on the [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] key contain the fields that are provided as parameters for calculation.  
 
--   The [MaintainSIFTIndex Property](../properties/devenv-MaintainSIFTIndex-Property.md) is set to **Yes**.  
+-   The [MaintainSIFTIndex Property](../properties/devenv-MaintainSIFT-Index-Property.md) is set to **Yes**.  
 
     > [!NOTE]  
     >  By default this property is set to **Yes** for all keys.  

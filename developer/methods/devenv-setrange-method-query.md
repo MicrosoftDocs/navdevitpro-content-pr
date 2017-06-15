@@ -68,7 +68,7 @@ Query.SETRANGE(Column1, FromValue, ToValue);
 Query.READ;  
 ```  
   
- In addition to the **SETRANGE** method, you can apply filters to a query using the **SETFILTER** method and the [DataItemTableFilter Property](../properties/devenv-DataItemTableFilter-Property.md) and [ColumnFilter Property](../properties/devenv-ColumnFilter-Property.md) in Query Designer.  
+ In addition to the **SETRANGE** method, you can apply filters to a query using the **SETFILTER** method and the [DataItemTableFilter Property](../properties/devenv-DataItemTable-Filter-Property.md) and [ColumnFilter Property](../properties/devenv-ColumnFilter-Property.md) in Query Designer.  
   
 |If the **SETRANGE** method...|then...|  
 |-------------------------------------|-------------|  

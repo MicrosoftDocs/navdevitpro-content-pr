@@ -48,7 +48,7 @@ REPORT.EXECUTE (Number, Parameters[,RecordRef])
  For a simple example that illustrates how to use the EXECUTE method, see example in the [RUNREQUESTPAGE Method](devenv-RUNREQUESTPAGE-Method.md) method topic.  
 
 ## See Also  
- [Reports](Reports.md)   
+ [Report Object](../devenv-report-object.md)   
  [Request Pages](Request-Pages.md)   
  [SAVEAS Method](devenv-SAVEAS-Method.md)   
  [PRINT Method](devenv-PRINT-Method.md)
