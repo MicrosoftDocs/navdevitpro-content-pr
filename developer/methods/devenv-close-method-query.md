@@ -70,6 +70,6 @@ MyQuery.CLOSE;
 ```  
 
 ## See Also  
- [How to: Create Queries](How-to--Create-Queries.md)   
+ <!--NAV [How to: Create Queries](How-to--Create-Queries.md) -->   
  [Working with Queries in AL](Working-with-Queries-in-AL.md)   
  [Query Object](../devenv-query-object.md)
