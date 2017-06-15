@@ -2,7 +2,7 @@
 title: "PageType Property"
 author: edupont04
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/15/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,4 +25,4 @@ The exception is the value *API*. Pages of this type are used to generate web se
 ## See Also  
  [Pages](Pages.md)   
  [How to: Create a Page](How-to--Create-a-Page.md)   
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

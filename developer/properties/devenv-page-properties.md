@@ -2,7 +2,7 @@
 title: "Page Properties"
 author: edupont04
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/15/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,347 +17,347 @@ This topic lists properties that apply to the page object, controls, and actions
 ## Page Object Properties  
  The following properties apply to a **Page** object.  
 
--   [AutoSplitKey Property](AutoSplitKey-Property.md)  
+-   [AutoSplitKey Property](devenv-autosplitkey-property.md)  
 
--   [Caption Property](Caption-Property.md)  
+-   [Caption Property](devenv-caption-property.md)  
 
--   [CaptionML Property](CaptionML-Property.md)  
+-   [CaptionML Property](devenv-captionml-property.md)  
 
--   [CardPageID Property](CardPageID-Property.md)  
+-   [CardPageID Property](devenv-cardpageid-property.md)  
 
--   [DataCaptionExpr Property](DataCaptionExpr-Property.md)  
+-   [DataCaptionExpr Property](devenv-datacaptionexpr-property.md)  
 
--   [DataCaptionFields Property](DataCaptionFields-Property.md)  
+-   [DataCaptionFields Property](devenv-datacaptionfields-property.md)  
 
--   [DelayedInsert Property](DelayedInsert-Property.md)  
+-   [DelayedInsert Property](devenv-delayedinsert-property.md)  
 
--   [DeleteAllowed Property](DeleteAllowed-Property.md)  
+-   [DeleteAllowed Property](devenv-deleteallowed-property.md)  
 
--   [Description Property](Description-Property.md)  
+-   [Description Property](devenv-description-property.md)  
 
--   [Editable Property](Editable-Property.md)  
+-   [Editable Property](devenv-editable-property.md)  
 
--   [InsertAllowed Property](InsertAllowed-Property.md)  
+-   [InsertAllowed Property](devenv-insertallowed-property.md)  
 
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
 
--   [InstructionalTextML Property](InstructionalTextML-Property.md)  
+-   [InstructionalTextML Property](devenv-instructionaltextml-property.md)  
 
--   [LinksAllowed Property](LinksAllowed-Property.md)  
+-   [LinksAllowed Property](devenv-linksallowed-property.md)  
 
--   [ModifyAllowed Property](ModifyAllowed-Property.md)  
+-   [ModifyAllowed Property](devenv-modifyallowed-property.md)  
 
--   [MultipleNewLines Property](MultipleNewLines-Property.md)  
+-   [MultipleNewLines Property](devenv-multiplenewlines-property.md)  
 
--   [Name Property](Name-Property.md)  
+-   [Name Property](devenv-name-property.md)  
 
--   [PageType Property](PageType-Property.md)  
+-   [PageType Property](devenv-pagetype-property.md)  
 
--   [Permissions Property](Permissions-Property.md)  
+-   [Permissions Property](devenv-permissions-property.md)  
 
--   [PopulateAllFields Property](PopulateAllFields-Property.md)  
+-   [PopulateAllFields Property](devenv-populateallfields-property.md)  
 
--   [PromotedActionCategoriesML Property](PromotedActionCategoriesML-Property.md)  
+-   [PromotedActionCategoriesML Property](devenv-promotedactioncategoriesml-property.md)  
 
--   [RefreshOnActivate Property](RefreshOnActivate-Property.md)  
+-   [RefreshOnActivate Property](devenv-refreshonactivate-property.md)  
 
--   [SaveValues Property](SaveValues-Property.md)  
+-   [SaveValues Property](devenv-savevalues-property.md)  
 
--   [ShowFilter Property](ShowFilter-Property.md)  
+-   [ShowFilter Property](devenv-showfilter-property.md)  
 
--   [SourceTable Property](SourceTable-Property.md)  
+-   [SourceTable Property](devenv-sourcetable-property.md)  
 
--   [SourceTableTemporary Property](SourceTableTemporary-Property.md)  
+-   [SourceTableTemporary Property](devenv-sourcetabletemporary-property.md)  
 
--   [SourceTableView Property](SourceTableView-Property.md)  
+-   [SourceTableView Property](devenv-sourcetableview-property.md)  
 
 ## Container Control Properties  
  The following properties apply to **Container** controls on a page.  
 
--   [Caption Property](Caption-Property.md)  
+-   [Caption Property](devenv-caption-property.md)  
 
--   [CaptionML Property](CaptionML-Property.md)  
+-   [CaptionML Property](devenv-captionml-property.md)  
 
--   [ContainerType Property](ContainerType-Property.md)  
+-   [ContainerType Property](devenv-containertype-property.md)  
 
--   [Description Property](Description-Property.md)  
+-   [Description Property](devenv-description-property.md)  
 
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
 
--   [Name Property](Name-Property.md)  
+-   [Name Property](devenv-name-property.md)  
 
 ## Group Control Properties  
  The following properties apply to **Group** controls on a page.  
 
--   [Caption Property](Caption-Property.md)  
+-   [Caption Property](devenv-caption-property.md)  
 
--   [CaptionML Property](CaptionML-Property.md)  
+-   [CaptionML Property](devenv-captionml-property.md)  
 
--   [Description Property](Description-Property.md)  
+-   [Description Property](devenv-description-property.md)  
 
--   [Editable Property](Editable-Property.md)  
+-   [Editable Property](devenv-editable-property.md)  
 
--   [Enabled Property](Enabled-Property.md)  
+-   [Enabled Property](devenv-enabled-property.md)  
 
--   [FreezeColumnID Property](FreezeColumnID-Property.md)  
+-   [FreezeColumnID Property](devenv-freezecolumnid-property.md)  
 
--   [GroupType Property](GroupType-Property.md)  
+-   [GroupType Property](devenv-grouptype-property.md)  
 
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
 
--   [IndentationColumnName Property](IndentationColumnName-Property.md)  
+-   [IndentationColumnName Property](devenv-indentationcolumnname-property.md)  
 
--   [IndentationControls Property](IndentationControls-Property.md)  
+-   [IndentationControls Property](devenv-indentationcontrols-property.md)  
 
--   [InstructionalTextML Property](InstructionalTextML-Property.md)  
+-   [InstructionalTextML Property](devenv-instructionaltextml-property.md)  
 
--   [Layout Property](Layout-Property.md)  
+-   [Layout Property](devenv-layout-property.md)  
 
--   [Name Property](Name-Property.md)  
+-   [Name Property](devenv-name-property.md)  
 
--   [ShowAsTree Property](ShowAsTree-Property.md)  
+-   [ShowAsTree Property](devenv-showastree-property.md)  
 
--   [Visible Property](Visible-Property.md)  
+-   [Visible Property](devenv-visible-property.md)  
 
 ## Field Control Properties  
  The following properties apply to **Field** controls on a page.  
 
--   [AccessByPermission Property](AccessByPermission-Property.md)  
+-   [AccessByPermission Property](devenv-accessbypermission-property.md)  
 
--	[ApplicationArea Property](ApplicationArea-Property.md)  
+-	[ApplicationArea Property](devenv-applicationarea-property.md)  
 
--   [AssistEdit Property](AssistEdit-Property.md)  
+-   [AssistEdit Property](devenv-assistedit-property.md)  
 
--   [AutoFormatExpr Property](AutoFormatExpr-Property.md)  
+-   [AutoFormatExpr Property](devenv-autoformatexpr-property.md)  
 
--   [AutoFormatType Property](AutoFormatType-Property.md)  
+-   [AutoFormatType Property](devenv-autoformattype-property.md)  
 
--   [BlankNumbers Property](BlankNumbers-Property.md)  
+-   [BlankNumbers Property](devenv-blanknumbers-property.md)  
 
--   [BlankZero Property](BlankZero-Property.md)  
+-   [BlankZero Property](devenv-blankzero-property.md)  
 
--   [Caption Property](Caption-Property.md)  
+-   [Caption Property](devenv-caption-property.md)  
 
--   [CaptionClass Property](CaptionClass-Property.md)  
+-   [CaptionClass Property](devenv-captionclass-property.md)  
 
--   [CaptionML Property](CaptionML-Property.md)  
+-   [CaptionML Property](devenv-captionml-property.md)  
 
--   [CharAllowed Property](CharAllowed-Property.md)  
+-   [CharAllowed Property](devenv-charallowed-property.md)  
 
--   [ClosingDates Property](ClosingDates-Property.md)  
+-   [ClosingDates Property](devenv-losingdates-property.md)  
 
--   [ColumnSpan Property](ColumnSpan-Property.md)  
+-   [ColumnSpan Property](devenv-columnspan-property.md)  
 
--   [ControlAddin Property](ControlAddin-Property.md)  
+-   [ControlAddin Property](devenv-controladdin-property.md)  
 
--   [DateFormula Property](DateFormula-Property.md)  
+-   [DateFormula Property](devenv-dateformula-property.md)  
 
--   [DecimalPlaces Property](DecimalPlaces-Property.md)  
+-   [DecimalPlaces Property](devenv-decimalplaces-property.md)  
 
--   [Description Property](Description-Property.md)  
+-   [Description Property](devenv-description-property.md)  
 
--   [DrillDown Property](DrillDown-Property.md)  
+-   [DrillDown Property](devenv-drilldown-property.md)  
 
--   [DrillDownPageID Property](DrillDownPageID-Property.md)  
+-   [DrillDownPageID Property](devenv-drilldownpageid-property.md)  
 
--   [Editable Property](Editable-Property.md)  
+-   [Editable Property](devenv-editable-property.md)  
 
--   [Enabled Property](Enabled-Property.md)  
+-   [Enabled Property](devenv-enabled-property.md)  
 
--   [ExtendedDataType Property](ExtendedDataType-Property.md)  
+-   [ExtendedDataType Property](devenv-extendeddatatype-property.md)  
 
--   [HideValue Property](HideValue-Property.md)  
+-   [HideValue Property](devenv-hidevalue-property.md)  
 
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
 
--   [Importance Property](Importance-Property.md)  
+-   [Importance Property](devenv-importance-property.md)  
 
--   [Lookup Property](Lookup-Property.md)  
+-   [Lookup Property](devenv-lookup-property.md)  
 
--   [LookupPageID Property](LookupPageID-Property.md)  
+-   [LookupPageID Property](devenv-lookuppageid-property.md)  
 
--   [MaxValue Property](MaxValue-Property.md)  
+-   [MaxValue Property](devenv-maxvalue-property.md)  
 
--   [MinValue Property](MinValue-Property.md)  
+-   [MinValue Property](devenv-minvalue-property.md)  
 
--   [MultiLine Property](MultiLine-Property.md)  
+-   [MultiLine Property](devenv-multiline-property.md)  
 
--   [Name Property](Name-Property.md)  
+-   [Name Property](devenv-name-property.md)  
 
--   [NotBlank Property](NotBlank-Property.md)  
+-   [NotBlank Property](devenv-notblank-property.md)  
 
--   [Numeric Property](Numeric-Property.md)  
+-   [Numeric Property](devenv-numeric-property.md)  
 
--   [OptionCaption Property](OptionCaption-Property.md)  
+-   [OptionCaption Property](devenv-optioncaption-property.md)  
 
--   [OptionCaptionML Property](OptionCaptionML-Property.md)  
+-   [OptionCaptionML Property](devenv-optioncaptionml-property.md)  
 
--   [QuickEntry Property](QuickEntry-Property.md)  
+-   [QuickEntry Property](devenv-quickentry-property.md)  
 
--   [RowSpan Property](RowSpan-Property.md)  
+-   [RowSpan Property](devenv-rowspan-property.md)  
 
--   [ShowCaption Property](ShowCaption-Property.md)  
+-   [ShowCaption Property](devenv-showcaption-property.md)  
 
--   [ShowMandatory Property](ShowMandatory-Property.md)  
+-   [ShowMandatory Property](devenv-showmandatory-property.md)  
 
--   [SourceExpr Property](SourceExpr-Property.md)  
+-   [SourceExpr Property](devenv-Sourceexpr-property.md)  
 
--   [Style Property](Style-Property.md)  
+-   [Style Property](devenv-style-property.md)  
 
--   [StyleExpr Property](StyleExpr-Property.md)  
+-   [StyleExpr Property](devenv-styleexpr-property.md)  
 
--   [TableRelation Property](TableRelation-Property.md)  
+-   [TableRelation Property](devenv-tablerelation-property.md)  
 
--   [ToolTip Property](ToolTip-Property.md)  
+-   [ToolTip Property](devenv-tooltip-property.md)  
 
--   [ToolTipML Property](ToolTipML-Property.md)  
+-   [ToolTipML Property](devenv-tooltipml-property.md)  
 
--   [ValuesAllowed Property](ValuesAllowed-Property.md)  
+-   [ValuesAllowed Property](devenv-valuesallowed-property.md)  
 
--   [Visible Property](Visible-Property.md)  
+-   [Visible Property](devenv-visible-property.md)  
 
--   [Width Property](Width-Property.md)  
+-   [Width Property](devenv-width-property.md)  
 
 ## Part Control Properties  
  The following properties apply to **Part** controls on a page.  
 
--   [AccessByPermission Property](AccessByPermission-Property.md)  
+-   [AccessByPermission Property](devenv-accessbypermission-property.md)  
 
--	[ApplicationArea Property](ApplicationArea-Property.md)  
+-	[ApplicationArea Property](devenv-applicationarea-property.md)  
 
--   [Caption Property](Caption-Property.md)  
+-   [Caption Property](devenv-caption-property.md)  
 
--   [CaptionML Property](CaptionML-Property.md)  
+-   [CaptionML Property](devenv-captionml-property.md)  
 
--   [ChartPartID Property](ChartPartID-Property.md)  
+-   [ChartPartID Property](devenv-chartpartid-property.md)  
 
--   [Description Property](Description-Property.md)  
+-   [Description Property](devenv-description-property.md)  
 
--   [Editable Property](Editable-Property.md)  
+-   [Editable Property](devenv-editable-property.md)  
 
--   [Enabled Property](Enabled-Property.md)  
+-   [Enabled Property](devenv-enabled-property.md)  
 
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
 
--   [Name Property](Name-Property.md)  
+-   [Name Property](devenv-name-property.md)  
 
--   [PagePartID Property](PagePartID-Property.md)  
+-   [PagePartID Property](devenv-pagepartid-property.md)  
 
--   [PartType Property](PartType-Property.md)  
+-   [PartType Property](devenv-parttype-property.md)  
 
--   [ProviderID Property](ProviderID-Property.md)  
+-   [ProviderID Property](devenv-providerid-property.md)  
 
--   [ShowFilter Property](ShowFilter-Property.md)  
+-   [ShowFilter Property](devenv-name-property.md)  
 
--   [SubPageLink Property](SubPageLink-Property.md)  
+-   [SubPageLink Property](devenv-subpagelink-property.md)  
 
--   [SubPageView Property](SubPageView-Property.md)  
+-   [SubPageView Property](devenv-subpageview-property.md)  
 
--   [SystemPartID Property](SystemPartID-Property.md)  
+-   [SystemPartID Property](devenv-systempartid-property.md)  
 
--   [ToolTip Property](ToolTip-Property.md)  
+-   [ToolTip Property](devenv-tooltip-property.md)  
 
--   [ToolTipML Property](ToolTipML-Property.md)  
+-   [ToolTipML Property](devenv-tooltipml-property.md)  
 
--   [UpdatePropagation Property](UpdatePropagation-Property.md)  
+-   [UpdatePropagation Property](devenv-updatepropagation-property.md)  
 
--   [Visible Property](Visible-Property.md)  
+-   [Visible Property](devenv-visible-property.md)  
 
 ## ActionContainer Properties  
  The following properties apply to **ActionContainer** on a page.  
 
--   [Caption Property](Caption-Property.md)  
+-   [Caption Property](devenv-caption-property.md)  
 
--   [CaptionML Property](CaptionML-Property.md)  
+-   [CaptionML Property](devenv-captionml-property.md)  
 
--   [Description Property](Description-Property.md)  
+-   [Description Property](devenv-description-property.md)  
 
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
 
--   [Name Property](Name-Property.md)  
+-   [Name Property](devenv-name-property.md)  
 
 ## ActionGroup Properties  
  The following properties apply to **ActionGroups**.  
 
--   [Caption Property](Caption-Property.md)  
+-   [Caption Property](devenv-caption-property.md)  
 
--   [CaptionML Property](CaptionML-Property.md)  
+-   [CaptionML Property](devenv-captionml-property.md)  
 
--   [Description Property](Description-Property.md)  
+-   [Description Property](devenv-description-property.md)  
 
--   [Enabled Property](Enabled-Property.md)  
+-   [Enabled Property](devenv-enabled-property.md)  
 
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
 
 -   [Image Property](Image-Property.md)  
 
--   [Name Property](Name-Property.md)  
+-   [Name Property](devenv-name-property.md)  
 
--   [Visible Property](Visible-Property.md)  
+-   [Visible Property](devenv-visible-property.md)  
 
 ## Action Properties  
  The following properties apply to **Actions**.  
 
--   [AccessByPermission Property](AccessByPermission-Property.md)  
+-   [AccessByPermission Property](devenv-accessbypermission-property.md)  
 
--	[ApplicationArea Property](ApplicationArea-Property.md)  
+-	[ApplicationArea Property](devenv-applicationarea-property.md)  
 
--   [Caption Property](Caption-Property.md)  
+-   [Caption Property](devenv-caption-property.md)  
 
--   [CaptionML Property](CaptionML-Property.md)  
+-   [CaptionML Property](devenv-captionml-property.md)  
 
--   [Description Property](Description-Property.md)  
+-   [Description Property](devenv-description-property.md)  
 
--   [Ellipsis Property](Ellipsis-Property.md)  
+-   [Ellipsis Property](devenv-ellipsis-property.md)  
 
--   [Enabled Property](Enabled-Property.md)  
+-   [Enabled Property](devenv-enabled-property.md)  
 
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
 
--   [Image Property](Image-Property.md)  
+-   [Image Property](devenv-image-property.md)  
 
--   [InFooterBar Property](InFooterBar-Property.md)  
+-   [InFooterBar Property](devenv-infooterbar-property.md)  
 
--   [Name Property](Name-Property.md)  
+-   [Name Property](devenv-name-property.md)  
 
--   [Promoted Property](Promoted-Property.md)  
+-   [Promoted Property](devenv-promoted-property.md)  
 
--   [PromotedCategory Property](PromotedCategory-Property.md)  
+-   [PromotedCategory Property](devenv-promotedcategory-property.md)  
 
--   [PromotedIsBig Property](PromotedIsBig-Property.md)  
+-   [PromotedIsBig Property](devenv-promotedisbig-property.md)  
 
--   [PromotedOnly Property](PromotedOnly-Property.md)  
+-   [PromotedOnly Property](devenv-promotedonly-property.md)  
 
--   [RunPageLink Property](RunPageLink-Property.md)  
+-   [RunPageLink Property](devenv-runpagelink-property.md)  
 
--   [RunPageMode Property](RunPageMode-Property.md)  
+-   [RunPageMode Property](devenv-runpagemode-property.md)  
 
--   [RunPageOnRec Property](RunPageOnRec-Property.md)  
+-   [RunPageOnRec Property](devenv-runpageonrec-property.md)  
 
--   [RunPageView Property](RunPageView-Property.md)  
+-   [RunPageView Property](devenv-runpageview-property.md)  
 
--   [RunObject Property](RunObject-Property.md)  
+-   [RunObject Property](devenv-runobject-property.md)  
 
--   [Scope Property](Scope-Property.md)  
+-   [Scope Property](devenv-scope-property.md)  
 
--   [ShortCutKey Property](ShortCutKey-Property.md)  
+-   [ShortCutKey Property](devenv-shortcutkey-property.md)  
 
--   [ToolTip Property](ToolTip-Property.md)  
+-   [ToolTip Property](devenv-tooltip-property.md)  
 
--   [ToolTipML Property](ToolTipML-Property.md)  
+-   [ToolTipML Property](devenv-tooltipml-property.md)  
 
--   [Visible Property](Visible-Property.md)  
+-   [Visible Property](devenv-visible-property.md)  
 
 ## Separator Properties  
  The following properties apply to **Separators**.  
 
--   [Caption Property](Caption-Property.md)  
+-   [Caption Property](devenv-caption-property.md)  
 
--   [CaptionML Property](CaptionML-Property.md)  
+-   [CaptionML Property](devenv-captionml-property.md)  
 
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
 
 -   IsHeader  
 
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)
