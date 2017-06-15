@@ -124,5 +124,5 @@ The following table lists object symbols contained in the platform symbol packag
 |Windows Language.al|
 
 ## See Also
-[Differences in the Dynamics NAV Development Environments](devenv-differences.md)  
+[Differences in the Development Environments](devenv-differences.md)  
 [Developer Reference](devenv-reference-overview.md)
