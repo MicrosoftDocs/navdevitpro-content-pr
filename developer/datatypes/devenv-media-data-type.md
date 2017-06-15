@@ -16,11 +16,16 @@ A complex type that encapsulates media files, such as image .jpg and .png files,
 
  The Media data type enables you to import a media file to the application database and reference the file from records, making it possible to display the media file in the client user interface. You can also export media from the database to files and streams. 
 
+## Methods
+The following methods are supported for the Media data type:
+
+[EXPORTFILE method (Media)](../methods/devenv-exportfile-method-media.md)   
+[EXPORTSTREAM method (Media)](../methods/devenv-exportstream-method-media.md)   
+[IMPORTFILE method (Media)](../methods/devenv-importfile-method-media.md)   
+[IMPORTSTREAM method (Media)](../methods/devenv-importstream-method-media.md)   
+[MEDIAID method (Media)](../methods/devenv-mediaid-method-media.md)   
+
 ## See Also  
  [Working With Media on Records](Working-With-Media-on-Records.md)  
- [EXPORTFILE method (Media)](../methods/devenv-exportfile-method-media.md)   
- [EXPORTSTREAM method (Media)](../methods/devenv-exportstream-method-media.md)   
- [IMPORTFILE method (Media)](../methods/devenv-importfile-method-media.md)   
- [IMPORTSTREAM method (Media)](../methods/devenv-importstream-method-media.md)   
- [MEDIAID method (Media)](../methods/devenv-mediaid-method-media.md)   
+ 
  

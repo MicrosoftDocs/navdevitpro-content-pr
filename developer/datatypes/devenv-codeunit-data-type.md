@@ -13,7 +13,12 @@ author: SusanneWindfeldPedersen
 ---
 # Codeunit Data Type
 Use this complex data type to store units of AL code. Codeunits contain a number of user-defined methods.  
-  
+
+## Methods
+The methods supported for the Codeunit data type are:
+
+[Codeunit.RUN method (Codeunit)](../methods/devenv-codeunit.run-method-codeunit.md)   
+[RUN method (Codeunit)](../methods/devenv-run-method-codeunit.md)
+ 
 ## See Also  
- [Codeunit.RUN method (Codeunit)](../methods/devenv-codeunit.run-method-codeunit.md)   
- [RUN method (Codeunit)](../methods/devenv-run-method-codeunit.md)
+[AL Data Types](devenv-al-data-types.md)

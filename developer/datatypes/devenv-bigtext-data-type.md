@@ -23,10 +23,15 @@ This complex data type handles large text documents.
 
  The normal string methods cannot be used with a BigText variable.  
 
+## Methods
+The methods supported for the BigText data type are:
+
+[ADDTEXT method (BigText)](../methods/devenv-addtext-method-bigtext.md)   
+[GETSUBTEXT method (BigText)](../methods/devenv-getsubtext-method-bigtext.md)   
+[LENGTH method (BigText)](../methods/devenv-length-method-bigtext.md)   
+[READ method (BigText)](../methods/devenv-read-method-bigtext.md)   
+[TEXTPOS method (BigText)](../methods/devenv-textpos-method-bigtext.md)   
+[WRITE method (BigText)](../methods/devenv-write-method-bigtext.md)
+
 ## See Also  
- [ADDTEXT method (BigText)](../methods/devenv-addtext-method-bigtext.md)   
- [GETSUBTEXT method (BigText)](../methods/devenv-getsubtext-method-bigtext.md)   
- [LENGTH method (BigText)](../methods/devenv-length-method-bigtext.md)   
- [READ method (BigText)](../methods/devenv-read-method-bigtext.md)   
- [TEXTPOS method (BigText)](../methods/devenv-textpos-method-bigtext.md)   
- [WRITE method (BigText)](../methods/devenv-write-method-bigtext.md)
+[AL Data Types](devenv-al-data-types.md)  
