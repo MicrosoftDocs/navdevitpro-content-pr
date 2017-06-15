@@ -27,7 +27,7 @@ Query.SETFILTER(Column, String[, Value],...)
  *Column*  
  Type: Text  
   
- The name of the column in the query that you want to filter. The name is defined by the column's [Name Property](../devenv-Name-Property.md) in Query Designer.  
+ The name of the column in the query that you want to filter. The name is defined by the column's [Name Property](../properties/devenv-Name-Property.md) in Query Designer.  
   
  *String*  
  Type: Text or code  
@@ -60,7 +60,7 @@ Query.READ;
   
  You can have multiple calls to the **SETFILTER** method. If **SETFILTER** method calls set filters on different columns, then the filters are combined and applied to the dataset. If consecutive **SETFILTER** method calls set filters on the same column, then the last **SETFILTER** method call is applied to the column.  
   
- In addition to the **SETFILTER** method, you can apply filters to a query using the [SETRANGE Method \(Query\)](devenv-SETRANGE-Method-Query.md) method, the **FILTERGROUP** method, and the [DataItemTableFilter Property](../devenv-DataItemTableFilter-Property.md) and [ColumnFilter Property](../devenv-ColumnFilter-Property.md) in Query Designer.  
+ In addition to the **SETFILTER** method, you can apply filters to a query using the [SETRANGE Method \(Query\)](devenv-SETRANGE-Method-Query.md) method, the **FILTERGROUP** method, and the [DataItemTableFilter Property](../properties/devenv-DataItemTableFilter-Property.md) and [ColumnFilter Property](../properties/devenv-ColumnFilter-Property.md) in Query Designer.  
   
 |If the **SETFILTER** method...|then...|  
 |--------------------------------------|-------------|  

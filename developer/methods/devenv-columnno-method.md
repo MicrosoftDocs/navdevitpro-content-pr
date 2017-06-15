@@ -30,7 +30,7 @@ Number := Query.COLUMNNO(Column)
  *Column*  
  Type: Text  
 
- Refers to the name of the query column. The name of a query column is specified by the [Name Property](../devenv-Name-Property.md) of the column in Query Designer.  
+ Refers to the name of the query column. The name of a query column is specified by the [Name Property](../properties/devenv-Name-Property.md) of the column in Query Designer.  
 
 ## Property Value/Return Value  
  Type: Integer  
@@ -38,7 +38,7 @@ Number := Query.COLUMNNO(Column)
  The number that is assigned to the column.  
 
 ## Remarks  
- In Query Designer, each column of the query is assigned a number that is specified by the column's [ID Property](../devenv-ID-Property.md). The **COLUMNNO** method enables you to create actions based on the ID of a column.  
+ In Query Designer, each column of the query is assigned a number that is specified by the column's [ID Property](../properties/devenv-ID-Property.md). The **COLUMNNO** method enables you to create actions based on the ID of a column.  
 
 ## Example  
  The following example shows how to get the ID of a column of a query. The query is called **My Customer Query** and has a column with the name **Customer\_No**. This example requires that you create the following variables.  

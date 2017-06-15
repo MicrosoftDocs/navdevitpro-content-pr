@@ -102,5 +102,5 @@ Customer.SETAUTOCALCFIELDS();
 ```  
   
 ## See Also  
- [FieldClass Property](../devenv-FieldClass-Property.md)   
+ [FieldClass Property](../properties/devenv-FieldClass-Property.md)   
  [FlowFields](FlowFields.md)

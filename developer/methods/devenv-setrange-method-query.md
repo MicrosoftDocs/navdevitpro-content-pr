@@ -30,7 +30,7 @@ Query.SETRANGE(Column[, FromValue][, ToValue])
  *Column*  
  Type: Text  
   
- The name of the column in the query that you want to filter. The name is defined by the column's [Name Property](../devenv-Name-Property.md) in Query Designer.  
+ The name of the column in the query that you want to filter. The name is defined by the column's [Name Property](../properties/devenv-Name-Property.md) in Query Designer.  
   
  *FromValue*  
  Type: Any  
@@ -68,7 +68,7 @@ Query.SETRANGE(Column1, FromValue, ToValue);
 Query.READ;  
 ```  
   
- In addition to the **SETRANGE** method, you can apply filters to a query using the **SETFILTER** method and the [DataItemTableFilter Property](../devenv-DataItemTableFilter-Property.md) and [ColumnFilter Property](../devenv-ColumnFilter-Property.md) in Query Designer.  
+ In addition to the **SETRANGE** method, you can apply filters to a query using the **SETFILTER** method and the [DataItemTableFilter Property](../properties/devenv-DataItemTableFilter-Property.md) and [ColumnFilter Property](../properties/devenv-ColumnFilter-Property.md) in Query Designer.  
   
 |If the **SETRANGE** method...|then...|  
 |-------------------------------------|-------------|  

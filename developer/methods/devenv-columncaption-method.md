@@ -30,12 +30,12 @@ Caption := Query.COLUMNCAPTION(Column)
  *Column*  
  Type: Text  
 
- Refers to the name of the query column. The name of a query column is specified by the [Name Property](../devenv-Name-Property.md) of the column in Query Designer.  
+ Refers to the name of the query column. The name of a query column is specified by the [Name Property](../properties/devenv-Name-Property.md) of the column in Query Designer.  
 
 ## Property Value/Return Value  
  Type: Text  
 
- The current value of [CaptionML Property](../devenv-CaptionML-Property.md) for the query column.  
+ The current value of [CaptionML Property](../properties/devenv-CaptionML-Property.md) for the query column.  
 
 ## Remarks  
  The **CaptionML** property is multi-language enabled, so it can contain a list of text strings in different languages. The string that is used is selected according to the user's language settings. For more information, see [Multilanguage Development](Multilanguage-Development.md).  

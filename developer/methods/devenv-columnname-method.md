@@ -30,7 +30,7 @@ Name := Query.COLUMNNAME(Column)
  *Column*  
  Type: Text  
 
- Refers to the name of the query column. The name of a query column is specified by the [Name Property](../devenv-Name-Property.md) of the column in Query Designer.  
+ Refers to the name of the query column. The name of a query column is specified by the [Name Property](../properties/devenv-Name-Property.md) of the column in Query Designer.  
 
 ## Property Value/Return Value  
  Type: Text  

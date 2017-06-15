@@ -28,7 +28,7 @@ CLEARALL
   
  When a method is called repeatedly in the same transaction, the system retains all values for variables and filters in memory between calls. For example, this is used to assign numbers to entry numbers when posting. When you do not want to retain the values in memory, use the CLEARALL method to clear them.  
   
- For information about the initial values of cleared variables, see the [CLEAR Method](devenv-CLEAR-Method.md). Take into consideration that fields in a record will be initialized with the [InitValue Property](../devenv-InitValue-Property.md) of the field.  
+ For information about the initial values of cleared variables, see the [CLEAR Method](devenv-CLEAR-Method.md). Take into consideration that fields in a record will be initialized with the [InitValue Property](../properties/devenv-InitValue-Property.md) of the field.  
   
 ## See Also  
  [CLEAR Method](devenv-CLEAR-Method.md)   

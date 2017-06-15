@@ -37,7 +37,7 @@ To create an application in [!INCLUDE[d365fin_md](../includes/d365fin_md.md)], y
 
 -   Use additional local variables just like you would use them in other development languages and environments.  
 
--   When you create a user-defined method, we recommend that you set the [Local Property](../devenv-Local-Property.md) to **Yes** unless you want to access the method from outside the object. This makes the code easier to understand because it is clear that the method is not referenced from other objects.  
+-   When you create a user-defined method, we recommend that you set the [Local Property](../properties/devenv-Local-Property.md) to **Yes** unless you want to access the method from outside the object. This makes the code easier to understand because it is clear that the method is not referenced from other objects.  
 
     > [!NOTE]  
     >  When you add a method, the Local property is set to **Yes** by default.  

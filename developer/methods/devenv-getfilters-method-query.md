@@ -29,7 +29,7 @@ Filter := Query.GETFILTERS
  A text string that lists the filters that are set on all columns of the query. If there are no applicable filters, then an empty string is returned.  
   
 ## Remarks  
- The **GETFILTERS** method returns the filters that are currently set for all data columns and filter rows by the [SETFILTER Method \(Query\)](devenv-SETFILTER-Method-Query.md) method, [SETRANGE Method \(Query\)](devenv-SETRANGE-Method-Query.md) method, and the [ColumnFilter Property](../devenv-ColumnFilter-Property.md) in Query Designer. The **GETFILTER** method does not return filters that are set on a column's source field by the [DataItemTableFilter Property](../devenv-DataItemTableFilter-Property.md) in Query Designer or global filters that are set by the **FILTERGROUP** method.  
+ The **GETFILTERS** method returns the filters that are currently set for all data columns and filter rows by the [SETFILTER Method \(Query\)](devenv-SETFILTER-Method-Query.md) method, [SETRANGE Method \(Query\)](devenv-SETRANGE-Method-Query.md) method, and the [ColumnFilter Property](../properties/devenv-ColumnFilter-Property.md) in Query Designer. The **GETFILTER** method does not return filters that are set on a column's source field by the [DataItemTableFilter Property](../properties/devenv-DataItemTableFilter-Property.md) in Query Designer or global filters that are set by the **FILTERGROUP** method.  
   
 > [!NOTE]  
 >  A filter row is row in Query Designer that is used to filter on a field that is not included in the resulting dataset. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md).  

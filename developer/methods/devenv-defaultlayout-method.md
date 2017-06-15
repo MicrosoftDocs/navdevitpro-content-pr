@@ -34,7 +34,7 @@ DefaultLayout := REPORT.DEFAULTLAYOUT(Number)
  The default layout type. The value can be either **None**, **RDLC**, or **Word**.  
 
 ## Remarks  
- The default layout for a report is specified by the report's [DefaultLayout Property](../devenv-DefaultLayout-Property.md).  
+ The default layout for a report is specified by the report's [DefaultLayout Property](../properties/devenv-DefaultLayout-Property.md).  
 
 ## See Also  
  [Reports](Reports.md)   

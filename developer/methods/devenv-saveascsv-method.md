@@ -80,7 +80,7 @@ If the query that you specify does not exist, then a run-time error occurs.
  **true** if the query was saved; otherwise, **false**.  
 
 ## Remarks  
- A CSV file stores data in a plain text format. When you save a query dataset as a CSV file, each row of the dataset is stored on a separate line in the file, and each column in a row is separated by a comma or another delimiter of your choice. The first line of the file will contain the column names of the query. A query column name is specified by its [Name Property](../devenv-Name-Property.md).  
+ A CSV file stores data in a plain text format. When you save a query dataset as a CSV file, each row of the dataset is stored on a separate line in the file, and each column in a row is separated by a comma or another delimiter of your choice. The first line of the file will contain the column names of the query. A query column name is specified by its [Name Property](../properties/devenv-Name-Property.md).  
 
  When the **SAVEASCSV** method is called the query dataset is generated and then saved in CSV format to the file that is designated by the *FileName* parameter.  
 

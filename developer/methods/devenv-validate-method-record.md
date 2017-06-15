@@ -38,7 +38,7 @@ Record.VALIDATE(Field [, NewValue])
  The value to insert into *Field*.  
   
 ## Remarks  
- **VALIDATE** first checks any [TableRelation Property](../devenv-TableRelation-Property.md) and then executes the [OnValidate \(Fields\) Trigger](../triggers/devenv-OnValidate-Fields-Trigger.md) of the field.  
+ **VALIDATE** first checks any [TableRelation Property](../properties/devenv-TableRelation-Property.md) and then executes the [OnValidate \(Fields\) Trigger](../triggers/devenv-OnValidate-Fields-Trigger.md) of the field.  
   
  If you omit *NewValue*, then the method validates the current value.  
   
