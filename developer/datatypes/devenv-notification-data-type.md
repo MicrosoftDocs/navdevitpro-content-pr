@@ -12,13 +12,19 @@ ms.prod: "dynamics-nav-2017"
 # Notification Data Type
 A complex type for publishing and consuming notifications in the application. Notifications provide a programmatic way to send non-intrusive information to the user interface (UI).
 
+## Methods
+The following methods are supported for the Notifications data type:
+
+[ADDACTION method (Notification)](../methods/devenv-method-notificationaddaction.md)   
+[GETDATA method (Notification)](../methods/devenv-method-notificationgetdata.md)   
+[ID method (Notification)](../methods/devenv-method-notificationid.md)   
+[MESSAGE method (Notification)](../methods/devenv-method-notificationmessage.md)   
+[RECALL method (Notification)](../methods/devenv-method-notificationrecall.md)   
+[SCOPE method (Notification)](../methods/devenv-method-notificationscope.md)   
+[SETDATA method (Notification)](../methods/devenv-method-notificationsetdata.md)  
+[SETDATA method (Notification)](../methods/devenv-method-notificationsetdata.md)  
+
+
 ## See Also  
  [Notifications](notifications-developing.md)  
- [ADDACTION method (Notification)](../methods/devenv-method-notificationaddaction.md)   
- [GETDATA method (Notification)](../methods/devenv-method-notificationgetdata.md)   
- [ID method (Notification)](../methods/devenv-method-notificationid.md)   
- [MESSAGE method (Notification)](../methods/devenv-method-notificationmessage.md)   
- [RECALL method (Notification)](../methods/devenv-method-notificationrecall.md)   
- [SCOPE method (Notification)](../methods/devenv-method-notificationscope.md)   
- [SETDATA method (Notification)](../methods/devenv-method-notificationsetdata.md)  
- [SETDATA method (Notification)](../methods/devenv-method-notificationsetdata.md)  
+ 

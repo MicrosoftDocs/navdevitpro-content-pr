@@ -14,15 +14,17 @@ author: SusanneWindfeldPedersen
 # TableConnectionType Data Type
 Use variables of this data type to specify the type of connection to an external database.  
   
- You can specify tables as external by setting the TableType property. For more information, see [External Tables](External-Tables.md).  
-  
-## Syntax  
-  
+You can specify tables as external by setting the TableType property. For more information, see [External Tables](External-Tables.md).  
+
+## Methods
+The following methods are supported for the TableConnectionType data type:
+
+[REGISTERTABLECONNECTION method (Database)](../methods/devenv-registertableconnection-method-database.md) 
+[UNREGISTERTABLECONNECTION method (Database)](../methods/devenv-unregistertableconnection-method-database.md)   
+[SETDEFAULTTABLECONNECTION method (Database)](../methods/devenv-setdefaulttableconnection-method-database.md)   
+[GETDEFAULTTABLECONNECTION method (Database)](../methods/devenv-getdefaulttableconnection-method-database.md)   
+[HASTABLECONNECTION method (Database)](../methods/devenv-hastableconnection-method-database.md)
+
 ## See Also  
  [TableType Property](devenv-tabletype-property.md)   
  [External Tables](External-Tables.md)   
- [REGISTERTABLECONNECTION method (Database)](../methods/devenv-registertableconnection-method-database.md) 
- [UNREGISTERTABLECONNECTION method (Database)](../methods/devenv-unregistertableconnection-method-database.md)   
- [SETDEFAULTTABLECONNECTION method (Database)](../methods/devenv-setdefaulttableconnection-method-database.md)   
- [GETDEFAULTTABLECONNECTION method (Database)](../methods/devenv-getdefaulttableconnection-method-database.md)   
- [HASTABLECONNECTION method (Database)](../methods/devenv-hastableconnection-method-database.md)

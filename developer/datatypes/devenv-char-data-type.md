@@ -39,6 +39,7 @@ MyText[5] := 'e';
 ```  
   
 ## See Also  
- [Text Data Type](devenv-text-data-type.md)   
- [Code Data Type](devenv-code-data-type.md)   
- [Byte Data Type](devenv-byte-data-type.md)
+[AL Data Types](devenv-al-data-types.md)  
+[Text Data Type](devenv-text-data-type.md)   
+[Code Data Type](devenv-code-data-type.md)   
+[Byte Data Type](devenv-byte-data-type.md)

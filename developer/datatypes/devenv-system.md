@@ -27,5 +27,5 @@ This section contains the following topics:
 -   [Encryption methods](../methods/devenv-encryption-methods.md)  
 
 ## See Also  
- [AL methods](C-AL-methods.md)   
+ [AL methods](../methods/devenv-al-methods.md)   
  [Developer Reference](devenv-developer-reference.md)

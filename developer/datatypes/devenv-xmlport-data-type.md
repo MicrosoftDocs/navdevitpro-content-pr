@@ -20,13 +20,18 @@ You use XMLports to import and export data in .xml, .csv, or .txt format. XMLpor
   
 ## Remarks  
  For more information about how to design XMLports, see [XMLports](XMLports.md).  
-  
+
+## Methods
+The following methods are supported for the XMLport data type:
+
+[BREAK method (Report, XMLport)](../methods/devenv-break-method-report-xmlport.md)   
+[EXPORT method (XMLport)](../methods/devenv-export-method-xmlport.md)   
+[FILENAME method (XMLport)](../methods/devenv-filename-method-xmlport.md)   
+[IMPORT method (XMLport)](../methods/devenv-import-method-xmlport.md)   
+[QUIT method (Report, XMLport)](../methods/devenv-quit-method-report-xmlport.md)   
+[RUN method (XMLport)](../methods/devenv-run-method-xmlport.md)   
+[SETTABLEVIEW method (Page, Report, XMLport)](../methods/devenv-settableview-method-page-report-xmlport.md)   
+[SKIP method (Report, XMLport)](../methods/devenv-skip-method-report-xmlport.md)
+
 ## See Also  
- [BREAK method (Report, XMLport)](../methods/devenv-break-method-report-xmlport.md)   
- [EXPORT method (XMLport)](../methods/devenv-export-method-xmlport.md)   
- [FILENAME method (XMLport)](../methods/devenv-filename-method-xmlport.md)   
- [IMPORT method (XMLport)](../methods/devenv-import-method-xmlport.md)   
- [QUIT method (Report, XMLport)](../methods/devenv-quit-method-report-xmlport.md)   
- [RUN method (XMLport)](../methods/devenv-run-method-xmlport.md)   
- [SETTABLEVIEW method (Page, Report, XMLport)](../methods/devenv-settableview-method-page-report-xmlport.md)   
- [SKIP method (Report, XMLport)](../methods/devenv-skip-method-report-xmlport.md)
+[AL Data Types](devenv-al-data-types.md)   

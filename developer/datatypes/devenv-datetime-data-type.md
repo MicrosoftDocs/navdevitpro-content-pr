@@ -28,7 +28,16 @@ Denotes a date and time ranging from January 1, 1753, 00:00:00.000 to December 3
  The only constant available when you use the DateTime data type is the undefined DateTime, 0DT. To assign a constant value to a DateTime variable you must use the [CREATEDATETIME method (DateTime)](../methods/devenv-createdatetime-method-datetime.md).  
   
  If you use a date that is outside the valid date range, a run-time error occurs.  
-  
+
+## Methods
+The methods supported for the DateTime data type are:
+
+[CREATEDATETIME method (DateTime)](../methods/devenv-createdatetime-method-datetime.md)   
+[CURRENTDATETIME method (DateTime)](../methods/devenv-currentdatetime-method-datetime.md)   
+[DT2DATE method (DateTime)](../methods/devenv-dt2date-method-datetime.md)   
+[DT2TIME method (DateTime)](../methods/devenv-dt2time-method-datetime.md)   
+[ROUNDDATETIME method (DateTime)](../methods/devenv-rounddatetime-method-datetime.md)
+
 ## SQL Server  
  In SQL Server, the earliest permitted DateTime is January 1, 1753, 00:00:00.000. The latest permitted DateTime is December 31, 9999, 23:59:59.999.  
   
@@ -42,8 +51,4 @@ Denotes a date and time ranging from January 1, 1753, 00:00:00.000 to December 3
   -->
 
 ## See Also  
- [CREATEDATETIME method (DateTime)](../methods/devenv-createdatetime-method-datetime.md)   
- [CURRENTDATETIME method (DateTime)](../methods/devenv-currentdatetime-method-datetime.md)   
- [DT2DATE method (DateTime)](../methods/devenv-dt2date-method-datetime.md)   
- [DT2TIME method (DateTime)](../methods/devenv-dt2time-method-datetime.md)   
- [ROUNDDATETIME method (DateTime)](../methods/devenv-rounddatetime-method-datetime.md)
+[AL Data Types](devenv-al-data-types.md)  

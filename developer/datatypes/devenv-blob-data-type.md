@@ -32,9 +32,14 @@ A binary large object (BLOB) is a complex data type. Variables of this data type
 
  It is not supported for a page to access a BLOB field from a table other than the SourceTable of the page.  
 
-## See Also  
+## Methods
+The methods supported for the BLOB data type are:
+
 [CREATEINSTREAM method (BLOB)](../methods/devenv-createinstream-method-blob.md)  
 [CREATEOUTSTREAM method (BLOB)](../methods/devenv-createoutstream-method-blob.md)  
 [EXPORT method (BLOB)](../methods/devenv-export-method-blob.md)  
 [HASVALUE method (BLOB)](../methods/devenv-hasvalue-method-blob.md)   
+
+## See Also  
+[AL Data Types](devenv-al-data-types.md)  
 [Variant Data Type](devenv-variant-data-type.md)
