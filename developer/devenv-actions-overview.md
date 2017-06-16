@@ -1,7 +1,7 @@
 ---
 title: "Actions Overview"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -123,6 +123,7 @@ END;
 ```  
   
 ## See Also  
+<!--
  [Walkthrough: Adding Actions to a Customer List Page](Walkthrough--Adding-Actions-to-a-Customer-List-Page.md)   
  [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md)   
- [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)
+ [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md) -->
