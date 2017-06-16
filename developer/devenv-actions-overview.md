@@ -18,7 +18,7 @@ In [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], actions are display
 Pages can have the following actions.  
   
 |Types of actions|Used on|Description|Example|  
-|----------------------|-------------|-----------------|-------------|  
+|----------------|-------|-----------|-------|  
 |Actions|Role Center, list, card, and task pages|User tasks|Post a sales order|  
 |Navigate|List, card, and task pages|Links to other pages in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].|Prices|  
 |Reports|Role Center, list, card, and task pages|A list of available reports.|Customer Top 10 List|  
