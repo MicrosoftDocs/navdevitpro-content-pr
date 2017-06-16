@@ -1,7 +1,7 @@
 ---
 title: "MaintainSIFTIndex Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,4 +26,4 @@ Sets the value to determine whether SIFT structures should be created in SQL Ser
  In situations where SumIndexFields must be created on a key to enable FlowField calculations, but the calculations are performed infrequently or on small sets of data, you can disable this property to prevent slow modifications to the table.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

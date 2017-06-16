@@ -25,10 +25,10 @@ Sets a drill-down for a field on a page.
  **True** if a drill-down for the field is provided; otherwise, **false**. The default value is **false**.  
   
 ## Remarks  
- Drill-downs are a system-wide feature of [FlowFields](devenv-FlowFields.md) that let you see the underlying transactions that make up the information shown in the FlowField. For example, if the FlowField shows an account balance, then providing a drill-down for this text box lets the user quickly see the various transactions that make up the balance shown in the field.  
+ Drill-downs are a system-wide feature of [FlowFields](../devenv-FlowFields.md) that let you see the underlying transactions that make up the information shown in the FlowField. For example, if the FlowField shows an account balance, then providing a drill-down for this text box lets the user quickly see the various transactions that make up the balance shown in the field.  
   
 ## See Also  
- [Pages](devenv-pages.md)   
+ [Pages](../devenv-pages.md)   
  [Page Properties](devenv-page-properties.md)   
  <!-- //NAV
  [Page Properties Not Supported by Microsoft Dynamics NAV Web Client](Page-Properties-Not-Supported-by-Microsoft-Dynamics-NAV-Web-Client.md)

@@ -1,7 +1,7 @@
 ---
 title: "SourceTableTemporary Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/15/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,4 +19,4 @@ Sets whether the source table is a temporary table.
 -   Pages  
   
 ## Property Value  
- **true** if you want the source table to be a temporary table; otherwise, **false**. The default value is **false**.
+ **True** if you want the source table to be a temporary table; otherwise, **false**. The default value is **false**.

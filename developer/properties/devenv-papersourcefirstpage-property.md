@@ -1,7 +1,7 @@
 ---
 title: "PaperSourceFirstPage Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -22,9 +22,9 @@ Specifies which paper source to use when printing page one of the report.
   
  If the printer that is used for this report does not support the specified paper source, then the printer uses the default tray that is specified by the printer driver.  
   
- If you do not specify a value for the **PaperSourceFirstPage** property, then the printer uses the tray that is specified in the [PaperSourceDefaultPage Property](PaperSourceDefaultPage-Property.md).  
+ If you do not specify a value for the **PaperSourceFirstPage** property, then the printer uses the tray that is specified in the [PaperSourceDefaultPage Property](devenv-papersourcedefaultpage-property.md).  
   
- If you do not specify a value for either the **PaperSourceFirstPage** property or the [PaperSourceDefaultPage Property](PaperSourceDefaultPage-Property.md), then the printer uses the default printer tray that is defined for the operating system.  
+ If you do not specify a value for either the **PaperSourceFirstPage** property or the [PaperSourceDefaultPage Property](devenv-papersourcedefaultpage-property.md), then the printer uses the default printer tray that is defined for the operating system.  
   
  The printer specific trays that are contained in the list are intended for use with printers that have other paper sources than the standard ones that are listed in the property.  
   
@@ -33,6 +33,6 @@ Specifies which paper source to use when printing page one of the report.
  You can use the **GetPaperTrayForReport** function in codeunit 1, **Application Management**, to set the paper tray from AL code. This gives you runtime control over paper tray selection for first, last, and default pages in a report.  
   
 ## See Also  
- [PaperSourceDefaultPage Property](PaperSourceDefaultPage-Property.md)   
- [PaperSourceLastPage Property](PaperSourceLastPage-Property.md)   
+ [PaperSourceDefaultPage Property](devenv-papersourcedefaultpage-property.md)   
+ [PaperSourceLastPage Property](devenv-papersourcelastpage-property.md)   
  [How to: Add GetPaperTrayForReport Procedure in Codeunit 1](How-to--Add-GetPaperTrayForReport-Procedure-in-Codeunit-1.md)

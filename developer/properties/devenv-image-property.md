@@ -1,7 +1,7 @@
 ---
 title: "Image Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -22,7 +22,7 @@ Specifies the icon that you want to associate with an action or an activity butt
 -   Action and ActionGroup controls on pages  
   
 ## See Also  
- [Properties](Properties.md)   
- [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)   
- [How to: Set an Icon on an Activity Button](How-to--Set-an-Icon-on-an-Activity-Button.md)   
- [How to: Set an Icon on an Action](How-to--Set-an-Icon-on-an-Action.md)
+ [Properties](devenv-properties.md)   
+ [How to: Promote Actions on Pages](../devenv-How-to-Promote-Actions-on-Pages.md)   
+ [How to: Set an Icon on an Activity Button](../devenv-How-to-Set-an-Icon-on-an-Activity-Button.md)   
+ [How to: Set an Icon on an Action](../devenv-How-to-Set-an-Icon-on-an-Action.md)

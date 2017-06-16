@@ -1,7 +1,7 @@
 ---
 title: "PromotedOnly Property"
 ms.custom: na
-ms.date: 06/14/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,6 +27,6 @@ Specifies whether the selected action is *promoted only*, which means that it wi
  This property in not relevant on [!INCLUDE[nav_tablet](../includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](../includes/nav_phone_md.md)] because only promoted actions are displayed on these clients.  
   
 ## See Also  
- [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)   
- [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md)   
- [Actions Overview](Actions-Overview.md)
+ [How to: Promote Actions on Pages](../devenv-How-to-Promote-Actions-on-Pages.md)   
+ [How to: Add Actions to a Page](../devenv-How-to-Add-Actions-to-a-Page.md)   
+ [Actions Overview](../devenv-actions-overview.md)

@@ -1,7 +1,7 @@
 ---
 title: "MenuItemType Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -28,4 +28,4 @@ Sets the value for the type of menu item.
  Specify the menu item properties using the menu item editor, which is available by selecting the **Menu Items** option on the **View** menu.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

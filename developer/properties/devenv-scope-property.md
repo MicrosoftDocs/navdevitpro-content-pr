@@ -1,7 +1,7 @@
 ---
 title: "Scope Property"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/16/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,4 +17,4 @@ Specifies the scope of the action to be either page-specific, or specific to a r
  The **Scope** property is only used on pages that include a repeater control and it offers a way to determine the scope of an action to be the page or to be specific to the repeater control. The default behavior of the **Scope** property is **Page**.  
   
 ## See Also  
- 
+ [Properties](devenv-properties.md)

@@ -1,7 +1,7 @@
 ---
 title: "IndentationColumnName Property"
 ms.custom: na
-ms.date: 05/10//2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ Sets the name of the hidden column that controls row indentation in a List page.
 -   Pages (Type = Group, Subtype = Repeater)  
   
 ## Remarks  
- This property can be set to a field or variable of [Integer Data Type](Integer-Data-Type.md).
+ This property can be set to a field or variable of [Integer Data Type](../datatypes/devenv-integer-data-type.md).
   
 ## See Also  
  [IndentationControls Property](devenv-indentationcontrols-property.md)

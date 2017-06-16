@@ -1,7 +1,7 @@
 ---
 title: "LookupPageID Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -21,4 +21,4 @@ Sets the ID of the page you want to use as a lookup.
 -   Tables  
    
 ## See Also  
- [Lookup Property](Lookup-Property.md)
+ [Lookup Property](devenv-lookup-property.md)

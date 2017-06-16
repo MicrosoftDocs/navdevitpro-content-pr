@@ -2,7 +2,7 @@
 title: "Visible Property"
 author: edupont04
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -33,7 +33,7 @@ Sets whether to display the page or control.
 > [!NOTE]  
 >  The dynamic options are only possible for group and part controls.  
 
- Using a variable for field and action controls requires that the variable be resolved by the [OnInit Trigger](OnInit-Trigger.md) or [OnOpenPage Trigger](OnOpenPage-Trigger.md).  
+ Using a variable for field and action controls requires that the variable be resolved by the [OnInit Trigger](../triggers/devenv-oninit-trigger.md) or [OnOpenPage Trigger](../triggers/devenv-onopenpage-trigger.md).  
 
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)
