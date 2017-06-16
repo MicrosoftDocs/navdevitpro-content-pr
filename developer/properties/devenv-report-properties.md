@@ -1,7 +1,7 @@
 ---
 title: "Report Properties"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/15/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,114 +17,114 @@ This topic lists properties of the report object.
 ## Report Object Properties  
  The following properties apply to the report object.  
 
--   [Caption Property](Caption-Property.md)  
+-   [Caption Property](devenv-caption-property.md)  
 
--   [CaptionML Property](CaptionML-Property.md)  
+-   [CaptionML Property](devenv-captionml-property.md)  
 
--   [Description Property](Description-Property.md)  
+-   [Description Property](devenv-description-property.md)  
 
--   [EnableExternalAssemblies Property](EnableExternalAssemblies-Property.md)  
+-   [EnableExternalAssemblies Property](devenv-enableexternalassemblies-property.md)  
 
--   [EnableExternalImages Property](EnableExternalImages-Property.md)  
+-   [EnableExternalImages Property](devenv-enableexternalimages-property.md)  
 
--   [EnableHyperlinks Property](EnableHyperlinks-Property.md)  
+-   [EnableHyperlinks Property](devenv-enablehyperlinks-property.md)  
 
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
 
--   [Name Property](Name-Property.md)  
+-   [Name Property](devenv-name-property.md)  
 
--   [PaperSourceDefaultPage Property](PaperSourceDefaultPage-Property.md)  
+-   [PaperSourceDefaultPage Property](devenv-papersourcedefaultpage-property.md)  
 
--   [PaperSourceFirstPage Property](PaperSourceFirstPage-Property.md)  
+-   [PaperSourceFirstPage Property](devenv-papersourcefirstpage-property.md)  
 
--   [PaperSourceLastPage Property](PaperSourceLastPage-Property.md)  
+-   [PaperSourceLastPage Property](devenv-papersourcelastpage-property.md)  
 
--   [Permissions Property](Permissions-Property.md)  
+-   [Permissions Property](devenv-permissions-property.md)  
 
--   [ProcessingOnly Property](ProcessingOnly-Property.md)  
+-   [ProcessingOnly Property](devenv-processingonly-property.md)  
 
--   [ShowPrintStatus Property](ShowPrintStatus-Property.md)  
+-   [ShowPrintStatus Property](devenv-showprintstatus-property.md)  
 
--   [TransactionType Property](TransactionType-Property.md)  
+-   [TransactionType Property](devenv-transactiontype-property.md)  
 
--   [UseRequestPage Property](UseRequestPage-Property.md)  
+-   [UseRequestPage Property](devenv-userequestpage-property.md)  
 
--   [UseSystemPrinter Property](UseSystemPrinter-Property.md)  
+-   [UseSystemPrinter Property](devenv-usesystemprinter-property.md)  
 
--   [PDFFontEmbedding Property](PDFFontEmbedding-Property.md)  
+-   [PDFFontEmbedding Property](devenv-pdffontembedding-property.md)  
 
 ## DataItem Properties  
  The following properties apply to **DataItem** controls of a report object.  
 
--   [CalcFields Property](CalcFields-Property.md)  
+-   [CalcFields Property](devenv-calcfields-property.md)  
 
--   [DataItemLink Property \(Reports\)](DataItemLink-Property--Reports-.md)  
+-   [DataItemLink Property \(Reports\)](devenv-dataitemlink-reports-property.md)  
 
--   [DataItemLinkReference Property](DataItemLinkReference-Property.md)  
+-   [DataItemLinkReference Property](devenv-dataitemlinkreference-property.md)  
 
--   [DataItemTable Property](DataItemTable-Property.md)  
+-   [DataItemTable Property](devenv-dataitemtable-property.md)  
 
--   [DataItemTableView Property](DataItemTableView-Property.md)  
+-   [DataItemTableView Property](devenv-dataitemtableview-property.md)  
 
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
 
--   [Indentation Property \(Reports\)](Indentation-Property--Reports-.md)  
+-   [Indentation Property \(Reports\)](devenv-indentation-reports-property.md)  
 
 -   [MaxIteration Property](MaxIteration-Property.md)  
 
--   [Name Property](Name-Property.md)  
+-   [Name Property](devenv-name-property.md)  
 
--   [PrintOnlyIfDetail Property](PrintOnlyIfDetail-Property.md)  
+-   [PrintOnlyIfDetail Property](devenv-printonlyifdetail-property.md)  
 
--   [ReqFilterFields Property](ReqFilterFields-Property.md)  
+-   [ReqFilterFields Property](devenv-reqfilterfields-property.md)  
 
--   [ReqFilterHeading Property](ReqFilterHeading-Property.md)  
+-   [ReqFilterHeading Property](devenv-reqfilterheading-property.md)  
 
--   [ReqFilterHeadingML Property](ReqFilterHeadingML-Property.md)  
+-   [ReqFilterHeadingML Property](devenv-reqfilterheadingml-property.md)  
 
--   [Temporary Property \(Reports\)](Temporary-Property--Reports-.md)  
+-   [Temporary Property \(Reports\)](devenv-temporary-reports-property.md)  
 
 ## Column Properties  
  The following properties apply to **Column** controls of a report object.  
 
--   [AutoCalcField Property](AutoCalcField-Property.md)  
+-   [AutoCalcField Property](devenv-autocalcfield-property.md)  
 
--   [AutoFormatExpr Property](AutoFormatExpr-Property.md)  
+-   [AutoFormatExpr Property](devenv-autoformatexpr-property.md)  
 
--   [AutoFormatType Property](AutoFormatType-Property.md)  
+-   [AutoFormatType Property](devenv-autoformattype-property.md)  
 
--   [DecimalPlaces Property](DecimalPlaces-Property.md)  
+-   [DecimalPlaces Property](devenv-decimalplaces-property.md)  
 
--   [Description Property](Description-Property.md)  
+-   [Description Property](devenv-description-property.md)  
 
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
 
--   [IncludeCaption Property](IncludeCaption-Property.md)  
+-   [IncludeCaption Property](devenv-includecaption-property.md)  
 
--   [Indentation Property \(Reports\)](Indentation-Property--Reports-.md)  
+-   [Indentation Property \(Reports\)](devenv-indentation-reports-property.md)  
 
--   [Name Property](Name-Property.md)  
+-   [Name Property](devenv-name-property.md)  
 
--   [OptionCaption Property](OptionCaption-Property.md)  
+-   [OptionCaption Property](devenv-optioncaption-property.md)  
 
--   [OptionCaptionML Property](OptionCaptionML-Property.md)  
+-   [OptionCaptionML Property](devenv-optioncaptionml-property.md)  
 
--   [OptionString Property](OptionString-Property.md)  
+-   [OptionString Property](devenv-optionstring-property.md)  
 
--   [SourceExpr Property](SourceExpr-Property.md)  
+-   [SourceExpr Property](devenv-sourceexpr-property.md)  
 
 ## Report Label Properties  
  The following properties apply to **Report Labels** of a report object.  
 
--   [Caption Property](Caption-Property.md)  
+-   [Caption Property](devenv-caption-property.md)  
 
--   [CaptionML Property](CaptionML-Property.md)  
+-   [CaptionML Property](devenv-captionml-property.md)  
 
--   [Description Property](Description-Property.md)  
+-   [Description Property](devenv-description-property.md)  
 
--   [ID Property](ID-Property.md)  
+-   [ID Property](devenv-id-property.md)  
 
--   [Name Property](Name-Property.md)  
+-   [Name Property](devenv-name-property.md)  
 
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

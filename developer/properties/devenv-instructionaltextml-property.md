@@ -1,7 +1,7 @@
 ---
 title: "InstructionalTextML Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/15/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -22,4 +22,4 @@ Sets the multilanguage value of the InstructionalText of the object. Use this pr
 2.  Group control  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

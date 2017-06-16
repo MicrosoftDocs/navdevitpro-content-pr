@@ -1,7 +1,7 @@
 ---
 title: "Permissions Property"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/15/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -39,4 +39,4 @@ Sets whether an object has additional permission required to perform some operat
 >  Do not use the **Permissions** property to give extra permissions to an object that you would like your users to be able to modify. These users might not have direct permission to perform these operations. This is why you should be careful when you use the **Permissions** property for tables and pages.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)
