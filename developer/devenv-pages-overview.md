@@ -65,17 +65,28 @@ The page type you choose depends on the application task that you want to suppor
 ## Page Layout
 The page layout of the page object determines what the page will look like and is specified in the `layout{}` section. The `layout{}` contains one or more `area{}` sections that define a certain placement on the page. 
 
-You can choose between the following area categories:
+You can choose between the following `area{}` categories:
 
 - `content{}`
 - `factboxes{}`
 - `rolecenter{}`
 
-## Page actions
-The ```ActionContainer``` element in C/SIDE is renamed to ```area(Creation|Embedding|Navigation|Processing|Reporting|Sections)``` and can be defined inside the ```actions``` section of the page.
+In the ```layout``` section, you can use the following methods to place page fields and groups on the page. Similarly, in the ```actions``` section, which is described [below](#page-actions), you use these methods to place actions in the ribbon. 
 
-    
-## Page Controls  
+|Method example|Applies to...|
+|--------------|-------------|
+|```addfirst(General)```|Groups only|
+|```addlast(General)```|Groups only|
+|```addafter(AddressDetails)```|Fields and groups|
+|```addbefore(AddressDetails)```|Fields and groups|
+|```movefirst(General)```|Groups only|
+|```movelast(General)```|Groups only|
+|```moveafter(AddressDetails)```|Fields and groups|
+|```movebefore(AddressDetails)```|Fields and groups|
+
+If you want to modify existing fields and groups on a page, you use the ```modify()``` function. See the code example below for syntax.
+
+### Page controls  
 
 You can then add the following page controls to a page depending on the page type you have chosen:  
   
@@ -102,26 +113,29 @@ part
   
 -   Filter Pane  
   
-For more information about controls, see [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md).  
-  
-## Adding Navigation to Pages  
-All pages contain menu items and navigation controls called Actions.  
-  
-In [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] there are three categories of Actions:  
-  
--   Action Items  
-  
--   Related Information  
-  
--   Reports  
-  
- Role Center pages have their own navigation pane and the following actions:  
-  
--   Activity Buttons  
-  
--   Home Items  
-  
-For more information about actions, see [Actions Overview](Actions-Overview.md).  
+## Page actions
+All pages contain menu items and navigation controls called actions. The ```actions``` section of the page describes what the user is able to do on a page and must be designed with the user's need for process support in mind. Actions are added to the ribbon or as activity buttons/cues. The following example creates a new group in the ribbon and places it last in the General 
+
+```
+addlast(General)
+        {
+            group(MyActionGroup)
+            {
+                Action(MyAction1)
+                {
+                    CaptionML = ENU='Hello!';
+
+                    trigger OnAction();
+                    begin
+                        Message('My message');
+                    end;
+                }
+             }
+         }   
+        ...
+```
+
+For more information see, [Actions Overview](devenv-actions-overview.md).
   
 ## Best practices for designing pages  
 We recommend that you simplify the user experience by reducing what users see by default. You can promote the information that the users most frequently need to see and hide the less important information. For example:  

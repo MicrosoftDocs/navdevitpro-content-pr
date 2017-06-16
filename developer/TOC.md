@@ -10,6 +10,7 @@
 ### [Page Object](devenv-page-object.md)
 ### [Page Extension Object](devenv-page-ext-object.md)
 ### [Report Object](devenv-report-object.md)
+### [Codeunit Object](devenv-codeunit-object.md)
 ### [Query Object](devenv-query-object.md)
 ### [XmlPort Object](devenv-xmlport-object.md)
 ### [Methods](methods/devenv-al-methods.md)

@@ -14,14 +14,10 @@ ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
 
-[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
-
 # Table Object
 Tables are the core objects used to store data in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Regardless of how data is inputted to the product - from a web service to a finger swipe on the phone app, the results of that transaction will be recorded in a table. <!-- Note whether this has the ame meaning but,here is a suggestion: Regardless of how data is inputted to the product - from a web service or a finger swipe on the phone app - the results of that transaction will be recorded in a table.-->
 
 The structure of a table has four sections. The first block contains metadata for the overall table; the table type. The fields section describes the data elements that make up the table; their name and the type of data they can store. The keys section contains the definitions of the keys that the table needs to support. The final section details the triggers and code that can run on the table.
-
-When developing a solution for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you will follow the code layout for a table as shown in the table example below. <!-- insert for more information when this topic exists -->
 
 ## Snippet support
 Typing the shortcut ```ttable``` will create the basic layout for a table object when using the AL Extension in Visual Studio Code.
@@ -86,6 +82,5 @@ table 70000030 Address
 ## See Also
 [Table Extension Object](devenv-table-ext-object.md)  
 [Developer Reference](devenv-reference-overview.md)  
-[Tables](tables.md)  
-[Table Keys](table-keys.md)  
-[Table Properties](table-properties.md)
+[Table Keys](devenv-table-keys.md)  
+[Table Properties](../properties/devenv-table-properties.md)
