@@ -11,10 +11,13 @@ ms.assetid: c4141c46-ce87-480a-98eb-390a0fe0573b
 caps.latest.revision: 3
 ---
 # Array Methods
-This section contains the following topics:  
-  
--   [ARRAYLEN Method](devenv-ARRAYLEN-Method.md)  
-  
--   [COMPRESSARRAY Method](devenv-COMPRESSARRAY-Method.md)  
-  
--   [COPYARRAY Method](devenv-COPYARRAY-Method.md)
+The following AL methods for arrays are available:  
+
+[ARRAYLEN Method](devenv-ARRAYLEN-Method.md)  
+
+[COMPRESSARRAY Method](devenv-COMPRESSARRAY-Method.md)  
+
+[COPYARRAY Method](devenv-COPYARRAY-Method.md)
+
+## See Also  
+ [AL Methods](devenv-al-methods.md)  
