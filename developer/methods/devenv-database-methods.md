@@ -58,5 +58,5 @@ The following AL methods pertain to operations on the database.
 
 ## See Also  
  [AL Methods](devenv-al-methods.md)   
- [AL Reference Guide](../al-reference-guide.md)   
+ [AL Reference Guide](../devenv-al-reference-guide.md)   
  [Development](devenv-Development.md)
