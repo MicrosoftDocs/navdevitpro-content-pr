@@ -27,7 +27,7 @@ Filter := Query.GETFILTER(Column)
  *Column*  
  Type: Text  
   
- The name of the column in the query. A column name is defined by the [Name Property](../devenv-Name-Property.md) in Query Designer.  
+ The name of the column in the query. A column name is defined by the [Name Property](../properties/devenv-Name-Property.md) in Query Designer.  
   
 ## Return Value  
  Type: Text  
@@ -35,7 +35,7 @@ Filter := Query.GETFILTER(Column)
  A text string that lists all the filters that are set on the column of the query. If there are no filters, then an empty string is returned.  
   
 ## Remarks  
- The **GETFILTER** method returns the filters that are currently set for a data column or filter row by the [SETFILTER Method \(Query\)](devenv-SETFILTER-Method-Query.md) method, [SETRANGE Method \(Query\)](devenv-SETRANGE-Method-Query.md) method, and the column's [ColumnFilter Property](../devenv-ColumnFilter-Property.md) in Query Designer. The **GETFILTER** method does not return filters that are set on a column's source field by the [DataItemTableFilter Property](../devenv-DataItemTableFilter-Property.md) in Query Designer or global filters that are set by the **FILTERGROUP** method.  
+ The **GETFILTER** method returns the filters that are currently set for a data column or filter row by the [SETFILTER Method \(Query\)](devenv-SETFILTER-Method-Query.md) method, [SETRANGE Method \(Query\)](devenv-SETRANGE-Method-Query.md) method, and the column's [ColumnFilter Property](../properties/devenv-ColumnFilter-Property.md) in Query Designer. The **GETFILTER** method does not return filters that are set on a column's source field by the [DataItemTableFilter Property](../properties/devenv-DataItemTable-Filter-Property.md) in Query Designer or global filters that are set by the **FILTERGROUP** method.  
   
 > [!NOTE]  
 >  A filter row is row in Query Designer that is used to filter on a field that is not included in the resulting dataset. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md).  
@@ -69,7 +69,7 @@ Query.READ;
   
     -   Includes columns for the **Name** and **No.** fields from the **Customer** table and the **Quantity** field from **Sales Lines** table.  
   
-         For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).  
+         <!--NAV For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).-->  
   
     -   The ColumnFilter property of the **Quantity** column is set to include values greater than 5.  
   

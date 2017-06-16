@@ -80,7 +80,7 @@ If the query that you specify does not exist, then a run-time error occurs.
  **true** if the query was saved; otherwise, **false**.  
 
 ## Remarks  
- A CSV file stores data in a plain text format. When you save a query dataset as a CSV file, each row of the dataset is stored on a separate line in the file, and each column in a row is separated by a comma or another delimiter of your choice. The first line of the file will contain the column names of the query. A query column name is specified by its [Name Property](../devenv-Name-Property.md).  
+ A CSV file stores data in a plain text format. When you save a query dataset as a CSV file, each row of the dataset is stored on a separate line in the file, and each column in a row is separated by a comma or another delimiter of your choice. The first line of the file will contain the column names of the query. A query column name is specified by its [Name Property](../properties/devenv-Name-Property.md).  
 
  When the **SAVEASCSV** method is called the query dataset is generated and then saved in CSV format to the file that is designated by the *FileName* parameter.  
 
@@ -118,7 +118,7 @@ Query.READ;
 
  This example requires that you do the following:  
 
--   Create a query called **My Customer Query** that is based on table **18 Customer** and contains the **No**, **Name**, and **City** columns. For more information, see [How to: Create Queries](How-to--Create-Queries.md).  
+-   Create a query called **My Customer Query** that is based on table **18 Customer** and contains the **No**, **Name**, and **City** columns. <!--NAV For more information, see [How to: Create Queries](How-to--Create-Queries.md). -->  
 
 -   Create the following variables and text constant:  
 

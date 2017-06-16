@@ -27,7 +27,7 @@ Query.SETFILTER(Column, String[, Value],...)
  *Column*  
  Type: Text  
   
- The name of the column in the query that you want to filter. The name is defined by the column's [Name Property](../devenv-Name-Property.md) in Query Designer.  
+ The name of the column in the query that you want to filter. The name is defined by the column's [Name Property](../properties/devenv-Name-Property.md) in Query Designer.  
   
  *String*  
  Type: Text or code  
@@ -60,7 +60,7 @@ Query.READ;
   
  You can have multiple calls to the **SETFILTER** method. If **SETFILTER** method calls set filters on different columns, then the filters are combined and applied to the dataset. If consecutive **SETFILTER** method calls set filters on the same column, then the last **SETFILTER** method call is applied to the column.  
   
- In addition to the **SETFILTER** method, you can apply filters to a query using the [SETRANGE Method \(Query\)](devenv-SETRANGE-Method-Query.md) method, the **FILTERGROUP** method, and the [DataItemTableFilter Property](../devenv-DataItemTableFilter-Property.md) and [ColumnFilter Property](../devenv-ColumnFilter-Property.md) in Query Designer.  
+ In addition to the **SETFILTER** method, you can apply filters to a query using the [SETRANGE Method \(Query\)](devenv-SETRANGE-Method-Query.md) method, the **FILTERGROUP** method, and the [DataItemTableFilter Property](../properties/devenv-DataItemTable-Filter-Property.md) and [ColumnFilter Property](../properties/devenv-ColumnFilter-Property.md) in Query Designer.  
   
 |If the **SETFILTER** method...|then...|  
 |--------------------------------------|-------------|  
@@ -90,7 +90,7 @@ Query.READ;
   
     -   Includes columns for the **Name** and **No.** fields from the **Customer** table and the **Quantity** field from **Sales Lines** table.  
   
-         For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).  
+         <!--NAV For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).-->  
   
 2.  Create the following AL variables and text constant in the object that will run the query, such as a codeunit.  
   

@@ -38,7 +38,7 @@ Name := Record.FIELDNAME(Field)
  The name of the field specified.  
 
 ## Remarks  
- The [FIELDCAPTION Method \(Record\)](devenv-FIELDCAPTION-Method-Record.md) retrieves the [Caption Property](../devenv-Caption-Property.md) of a field. If you want to enable your application for multilanguage functionality now or in the future, you must use the **FIELDCAPTION** method instead of the **FIELDNAME** method.  
+ The [FIELDCAPTION Method \(Record\)](devenv-FIELDCAPTION-Method-Record.md) retrieves the [Caption Property](../properties/devenv-Caption-Property.md) of a field. If you want to enable your application for multilanguage functionality now or in the future, you must use the **FIELDCAPTION** method instead of the **FIELDNAME** method.  
 
 ## Example  
  This example requires that you create the following variables.  

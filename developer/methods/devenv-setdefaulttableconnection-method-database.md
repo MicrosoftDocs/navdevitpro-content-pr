@@ -36,7 +36,7 @@ SETDEFAULTCONNECTIONTYPE(Type, Name, Scope)
  If **true**, when the method ends where you have used SETDEFAULTTABLECONNECTION, the default table connection returns to the value it had before. Use the *Scope* parameter when you want to use a specific table connection for a specific task and then return to the normal configuration.  
   
 ## See Also  
- [TableType Property](../devenv-TableType-Property.md)   
+ [TableType Property](../properties/devenv-TableType-Property.md)   
  [TableConnectionType Data Type](../datatypes/devenv-TableConnectionType-Data-Type.md)   
  [GETDEFAULTTABLECONNECTION Method \(Database\)](devenv-GETDEFAULTTABLECONNECTION-Method-Database.md)   
  [REGISTERTABLECONNECTION Method \(Database\)](devenv-REGISTERTABLECONNECTION-Method-Database.md)   

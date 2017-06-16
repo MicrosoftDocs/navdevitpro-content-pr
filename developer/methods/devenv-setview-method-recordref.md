@@ -30,7 +30,7 @@ RecordRef.SETVIEW(String)
  *String*  
  Type: Text or code  
   
- The string format is the same as the [SourceTableView Property](../devenv-SourceTableView-Property.md) on pages.  
+ The string format is the same as the [SourceTableView Property](../properties/devenv-SourceTableView-Property.md) on pages.  
   
 ## Remarks  
  The value of the *String* parameter can be returned by the [GETVIEW Method \(RecordRef\)](devenv-GETVIEW-Method-RecordRef.md).  

@@ -33,7 +33,7 @@ Name := Record.TABLENAME
  The name of the table.  
   
 ## Remarks  
- The [TABLECAPTION Method \(Record\)](devenv-TABLECAPTION-Method-Record.md) retrieves the [Caption Property](../devenv-Caption-Property.md) of the table. If you want to enable your application for multilanguage functionality now or in the future, you must use the **TABLECAPTION** method instead of the **TABLENAME** method.  
+ The [TABLECAPTION Method \(Record\)](devenv-TABLECAPTION-Method-Record.md) retrieves the [Caption Property](../properties/devenv-Caption-Property.md) of the table. If you want to enable your application for multilanguage functionality now or in the future, you must use the **TABLECAPTION** method instead of the **TABLENAME** method.  
   
 ## Example  
  The following example retrieves the name of the **Customer** table by using the CustomerRec variable, a record from the **Customer** table. The value of the **Customer** table name is stored in the TableName variable and displayed in a message box. The value that is displayed is Customer.  

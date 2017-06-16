@@ -34,9 +34,9 @@ DefaultLayout := REPORT.DEFAULTLAYOUT(Number)
  The default layout type. The value can be either **None**, **RDLC**, or **Word**.  
 
 ## Remarks  
- The default layout for a report is specified by the report's [DefaultLayout Property](../devenv-DefaultLayout-Property.md).  
+ The default layout for a report is specified by the report's [DefaultLayout Property](../properties/devenv-DefaultLayout-Property.md).  
 
 ## See Also  
- [Reports](Reports.md)   
+ [Report Object](../devenv-report-object.md)   
  [How to. Specify the Default Built-in Report Layout](How-to.-Specify-the-Default-Built-in-Report-Layout.md)   
  [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)
