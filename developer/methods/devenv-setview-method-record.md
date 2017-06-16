@@ -32,7 +32,7 @@ Record.SETVIEW(String)
   
  A string that contains the sort order, key, and filter to set.  
   
- The string format is the same as the [SourceTableView Property](../devenv-SourceTableView-Property.md) on pages.  
+ The string format is the same as the [SourceTableView Property](../properties/devenv-SourceTableView-Property.md) on pages.  
   
 ## Remarks  
  The value of the *String* parameter can be returned by the [GETVIEW Method \(Record\)](devenv-GETVIEW-Method-Record.md).  

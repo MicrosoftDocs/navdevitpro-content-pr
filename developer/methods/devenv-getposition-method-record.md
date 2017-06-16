@@ -37,7 +37,7 @@ String := Record.GETPOSITION([UseCaptions])
 ## Property Value/Return Value  
  Type: Text or code  
   
- The primary key of the current record. The string has the same format as the [SourceTable Property](../devenv-SourceTable-Property.md) on a page.  
+ The primary key of the current record. The string has the same format as the [SourceTable Property](../properties/devenv-SourceTable-Property.md) on a page.  
   
 ## Example  
  The following example uses the **GETPOSITION** method to retrieve the primary key of the current record \(MyRecord\) from the **Customer** table. The primary key is stored in the varPrimaryKey variable and displayed in a message box. This example requires that you create the following global variables.  

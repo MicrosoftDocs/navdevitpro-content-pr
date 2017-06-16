@@ -38,7 +38,7 @@ String := Record.GETVIEW([UseCaptions])
 ## Property Value/Return Value  
  Type: Text or code  
   
- The current sort order, key, and filters on a table. The string format is the same as the [SourceTableView Property](../devenv-SourceTableView-Property.md) on pages.  
+ The current sort order, key, and filters on a table. The string format is the same as the [SourceTableView Property](../properties/devenv-SourceTableView-Property.md) on pages.  
   
 ## Remarks  
  If the [SETVIEW Method \(Record\)](devenv-SETVIEW-Method-Record.md) has been executed, then the method will return the value that is set by **SETVIEW**.  
