@@ -55,7 +55,7 @@ Gets or sets the filter group that is applied to a table.
 |1|Global|Used for filters that apply globally to the entire application.|  
 |2|Form|Used for the filtering actions that result from the following:<br /><br /> -   [SETTABLEVIEW Method \(Page, Report, XMLport\)](devenv-SETTABLEVIEW-Method-Page-Report-XMLport.md)<br />-   [SourceTableView Property](../properties/devenv-SourceTableView-Property.md)<br />-   [DataItemTableView Property](../properties/devenv-DataItemTableView-Property.md).|  
 |3|Exec|Used for the filtering actions that result from the following:<br /><br /> -   [SubPageView Property](../properties/devenv-SubPageView-Property.md)<br />-   [RunPageView Property](../properties/devenv-RunPageView-Property.md)|  
-|4|Link|Used for the filtering actions that result from the following:<br /><br /> -   [DataItemLink Property \(Reports\)](../devenv-DataItemLink-Property-Reports.md)<br />-   [SubPageLink Property](../properties/devenv-SubPageLink-Property.md)|  
+|4|Link|Used for the filtering actions that result from the following:<br /><br /> -  [DataItemLink Property \(Reports\)](../properties/devenv-DataItemLink-reports-property.md)<br />-   [SubPageLink Property](../properties/devenv-SubPageLink-Property.md)|  
 |5|Temp|Not currently used.|  
 |6|Security|Used for applying security filters for user permissions.|  
 |7|Factboxes|Used for clearing the state of factboxes.|  
