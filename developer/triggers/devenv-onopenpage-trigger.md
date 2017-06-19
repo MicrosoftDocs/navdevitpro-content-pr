@@ -1,7 +1,7 @@
 ---
 title: "OnOpenPage Trigger"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -28,9 +28,9 @@ OnOpenPage()
 ## Remarks  
  This trigger is executed after the [OnInit Trigger](devenv-OnInit-Trigger.md).  
 
- You use the OnOpenPage trigger to change dynamic properties, including those which can only be changed when the page is opened, such as the [Visible Property](../devenv-Visible-Property.md). You can also write to the database from the trigger.  
+ You use the OnOpenPage trigger to change dynamic properties, including those which can only be changed when the page is opened, such as the [Visible Property](../properties/devenv-Visible-Property.md). You can also write to the database from the trigger.  
 
- The `OnOpenPage` trigger is the only trigger that can toggle the [Visible Property](../devenv-Visible-Property.md) and the property can only be toggled on columns. 
+ The `OnOpenPage` trigger is the only trigger that can toggle the [Visible Property](../properties/devenv-Visible-Property.md) and the property can only be toggled on columns. 
 
  If an error occurs in the trigger execution, then the page closes.  
 

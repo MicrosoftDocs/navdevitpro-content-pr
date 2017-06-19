@@ -1,7 +1,7 @@
 ---
 title: "OnBeforeTestRun Trigger"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -57,7 +57,7 @@ For more information, see [Testing With Permission Sets](testing-permissionsets.
 
 Type: Boolean
 
-**true** to run the test ; otherwise, **false**. This value is checked after each  call.
+**True** to run the test ; otherwise, **false**. This value is checked after each  call.
 
 ## Applies to
 Test runner codeunits. Test runner codeunits have the **SubType** Property set to **TestRunner**.
@@ -88,7 +88,7 @@ EXIT(true);
 ```
 
 ## See Also  
-[TestPermissions Property](../devenv-testpermissions-property.md)  
+[TestPermissions Property](../properties/devenv-testpermissions-property.md)  
 [OnAfterTestRun Trigger](devenv-trigger-onaftertestrun.md)  
 [Testing With Permission Sets](testing-permissionsets.md)  
 [Testing the Application](Testing-the-Application.md)  

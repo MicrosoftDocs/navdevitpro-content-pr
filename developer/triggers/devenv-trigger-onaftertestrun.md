@@ -56,7 +56,7 @@ For more information, see [Testing With Permission Sets](testing-permissionsets.
 
 Type: Boolean
 
-**true** indicates that the test  run succeeded; otherwise, **false** indicates that the test  run failed.
+**True** indicates that the test  run succeeded; otherwise, **false** indicates that the test  run failed.
 
 ## Applies to
 Test runner codeunits. Test runner codeunits have the **SubType** property set to **TestRunner**.
@@ -101,7 +101,7 @@ log.INSERT(true);
 The GETLASTERRORTEXT  returns the text that was contained in the last error message.
 
 ## See Also  
-[TestPermissions Property](../devenv-testpermissions-property.md)  
+[TestPermissions Property](../properties/devenv-testpermissions-property.md)  
 [OnBeforeTestRun Trigger](devenv-trigger-onbeforetestrun.md)  
 [Testing With Permission Sets](testing-permissionsets.md)  
 [Testing the Application](Testing-the-Application.md)  

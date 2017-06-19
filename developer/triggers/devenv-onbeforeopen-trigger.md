@@ -1,7 +1,7 @@
 ---
 title: "OnBeforeOpen Trigger"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -36,6 +36,6 @@ currQuery.SETFILTER(Quantity, '>50');
 ```  
 
 ## See Also  
- [Queries](Queries.md)   
- [Working with Queries in AL](Working-with-Queries-in-C-AL.md)   
- [Queries](Queries.md)
+ [Queries](../Queries.md)   
+ [Working with Queries in AL](../devenv-Working-with-Queries-in-AL.md)   
+ [Queries](../Queries.md)
