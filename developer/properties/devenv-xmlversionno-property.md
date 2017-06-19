@@ -1,7 +1,7 @@
 ---
 title: "XMLVersionNo Property"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -21,4 +21,4 @@ Set which version of XML the XML document conforms to. Two options are available
  The XML version number is inserted into the XML document as the XML declaration, for example, .  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

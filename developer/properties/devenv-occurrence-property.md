@@ -1,7 +1,7 @@
 ---
 title: "Occurrence Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -28,4 +28,4 @@ Sets a value that specifies whether an attribute must occur in the data that is 
  This property is primarily used to ensure that the XML data that you are importing conforms to the data structure in Microsoft Dynamics NAV.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

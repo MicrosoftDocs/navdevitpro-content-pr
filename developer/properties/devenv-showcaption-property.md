@@ -1,7 +1,7 @@
 ---
 title: "ShowCaption Property"
 ms.custom: na
-ms.date: 05/03/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,7 +17,7 @@ Sets whether the text that is specified by the [CaptionML Property](devenv-capti
  Field controls on pages  
 
 ## Property Value  
- **Yes** if the caption is displayed; otherwise, **No**. The default is **Yes**.  
+ **True** if the caption is displayed; otherwise, **false**. The default is **true**.  
 
 ## See Also  
  [CaptionML Property](devenv-captionml-property.md)

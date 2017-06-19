@@ -1,7 +1,7 @@
 ---
 title: "LinkedObject Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,7 +18,7 @@ Use this property to link to SQL Server objects.
  Tables  
   
 ## Remarks  
- When you set the LinkedObject property to **true**, the [LinkedInTransaction Property](LinkedInTransaction-Property.md) becomes available.  
+ When you set the LinkedObject property to **true**, the [LinkedInTransaction Property](devenv-linkedintransaction-property.md) becomes available.  
   
 ## See Also  
- [Table Properties](Table-Properties.md)
+ [Table Properties](devenv-table-properties.md)

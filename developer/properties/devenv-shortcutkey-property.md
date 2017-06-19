@@ -1,7 +1,7 @@
 ---
 title: "ShortCutKey Property"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/16/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,4 +27,4 @@ Sets a shortcut key for selecting a menu item.
 >  Some shortcut keys have default assignments—for example, Shift+F12 opens the Object Designer. Do not reuse shortcut keys that are already assigned.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

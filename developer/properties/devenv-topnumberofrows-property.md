@@ -1,7 +1,7 @@
 ---
 title: "TopNumberOfRows Property"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,7 +26,7 @@ Specifies the maximum number of rows to include in the resulting dataset of a qu
 ## Remarks  
  You use the **TopNumberOfRows** property to limit the resulting dataset to the first set of rows that are generated for the query. For example, you can include only the first 10 or first 100 rows in the resulting dataset. The TOPNUMBEROFROWS property is useful for key performance indicators such as the top number of customers or sales.  
   
- You can also specify the number of rows to include in the dataset by calling the [TOPNUMBEROFROWS Function](TOPNUMBEROFROWS-Function.md) from AL. The TOPNUMBEROFROWS function will overwrite the **TopNumberOfRows** property setting.  
+ You can also specify the number of rows to include in the dataset by calling the [TOPNUMBEROFROWS Method](../methods/devenv-TOPNUMBEROFROWS-method.md) from AL. The TOPNUMBEROFROWS method will overwrite the **TopNumberOfRows** property setting.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

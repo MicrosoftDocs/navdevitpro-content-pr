@@ -1,7 +1,7 @@
 ---
 title: "IncludeCaption Property"
 ms.custom: na
-ms.date: 06/01/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,5 +26,5 @@ Sets whether to include the caption of a field in the dataset of a report.
  You can set the **IncludeCaption property** either in the **Properties** window of a data item or in the **IncludeCaption** column of Report Dataset Designer for a data item or a column. If you set the **IncludeCaption** column of a data item, then the **IncludeCaption property** is set to **true** for every child column of the data item.  
 
 ## See Also  
- [Caption Property](Caption-Property.md)   
- [How to: Create Labels for a Report](How-to--Create-Labels-for-a-Report.md)
+ [Caption Property](devenv-caption-property.md)   
+ [How to: Create Labels for a Report](../devenv-How-to-Create-Labels-for-a-Report.md)

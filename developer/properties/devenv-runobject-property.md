@@ -1,7 +1,7 @@
 ---
 title: "RunObject Property"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/16/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,10 +23,10 @@ Sets the object you want to run immediately when the action is activated.
   
  Use the following properties to set parameters for the object you want to run:  
   
--   [RunPageView Property](RunPageView-Property.md)  
+-   [RunPageView Property](devenv-runpageview-property.md)  
   
--   [RunPageLink Property](RunPageLink-Property.md)  
+-   [RunPageLink Property](devenv-runpagelink-property.md)  
   
 ## See Also  
- [RunPageView Property](RunPageView-Property.md)   
- [RunPageLink Property](RunPageLink-Property.md)
+ [RunPageView Property](devenv-runpageview-property.md)   
+ [RunPageLink Property](devenv-runpagelink-property.md)

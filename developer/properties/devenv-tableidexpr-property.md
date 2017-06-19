@@ -1,7 +1,7 @@
 ---
 title: "TableIDExpr Property"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,7 +18,7 @@ Sets the ID of the table to which you want to apply a table filter.
  Fields  
   
 ## Remarks  
- The field must be of the [TableFilter Data Type](TableFilter-Data-Type.md). The Table ID expression must be of the [Integer Data Type](Integer-Data-Type.md) and is typically the Object ID of the table. To understand how this property is applied, see the Permission table.  
+ The field must be of the [TableFilter Data Type](../datatypes/devenv-tablefilter-data-type.md). The Table ID expression must be of the [Integer Data Type](../datatypes/devenv-integer-data-type.md) and is typically the Object ID of the table. To understand how this property is applied, see the Permission table.  
   
 ## See Also  
- [TableFilter Data Type](TableFilter-Data-Type.md)
+ [TableFilter Data Type](../datatypes/devenv-tablefilter-data-type.md)

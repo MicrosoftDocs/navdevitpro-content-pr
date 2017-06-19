@@ -1,7 +1,7 @@
 ---
 title: "RunPageMode Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,4 +15,4 @@ manager: edupont
 Sets the mode in which the page is run. Choose between View, Edit, or Create.  
   
 ## See Also  
- [RunObject Property](RunObject-Property.md)
+ [RunObject Property](devenv-runobject-property.md)

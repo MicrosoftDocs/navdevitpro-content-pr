@@ -1,7 +1,7 @@
 ---
 title: "SaveValues Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,10 +18,10 @@ Sets whether user-specific control values are saved for this page.
 -   Pages  
   
 ## Property Value  
- **true** if user-defined control values are saved; otherwise, **false**. The default is **false**.  
+ **True** if user-defined control values are saved; otherwise, **false**. The default is **false**.  
   
 ## Remarks  
  This information is saved in the **Page Data Personalization** table.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)
