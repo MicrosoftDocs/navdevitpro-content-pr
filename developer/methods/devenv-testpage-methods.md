@@ -25,4 +25,5 @@ You can use the TestPage methods for the following purposes.
 |Get validation errors and error counts.|-   [GETVALIDATIONERROR Method \(TestPage, TestPage Field\)](devenv-GETVALIDATIONERROR-Method-TestPage--TestPage-Field.md)<br />-   [VALIDATIONERRORCOUNT Method \(TestPage, TestPage Field\)](devenv-VALIDATIONERRORCOUNT-Method-TestPage--TestPage-Field.md)|  
   
 ## See Also  
- [Test Pages](Test-Pages.md)
+[AL Methods](devenv-al-methods.md)  
+<!--NAV [Test Pages](Test-Pages.md) -->

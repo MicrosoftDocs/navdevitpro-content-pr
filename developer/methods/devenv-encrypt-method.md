@@ -53,5 +53,5 @@ MESSAGE(‘Value: ‘ + Text000);
  This code example takes the string value **ABC123** and outputs the encrypted value of the string. The encrypted value will vary from system to system due to differences in the encryption key.  
 
 ## See Also  
- [System Methods](devenv-system-methods.md)   
+    
  [AL Reference Guide](../devenv-al-reference-guide.md)

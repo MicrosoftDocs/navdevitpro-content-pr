@@ -1,5 +1,5 @@
 ---
-title: "Database"
+title: "Database Methods"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -12,51 +12,51 @@ caps.latest.revision: 8
 author: jswymer
 ---
 # Database Methods
-The following AL methods pertain to operations on the database.
+The following AL methods for operations on the database are available.
 
--   [CHECKLICENSEFILE Method \(Database\)](devenv-CHECKLICENSEFILE-Method-Database.md)  
+[CHECKLICENSEFILE Method \(Database\)](devenv-CHECKLICENSEFILE-Method-Database.md)  
 
--   [COMMIT Method \(Database\)](devenv-COMMIT-Method-Database.md)  
+[COMMIT Method \(Database\)](devenv-COMMIT-Method-Database.md)  
 
--   [COMPANYNAME Method \(Database\)](devenv-COMPANYNAME-Method-Database.md)  
+[COMPANYNAME Method \(Database\)](devenv-COMPANYNAME-Method-Database.md)  
 
--   [COPYCOMPANY Method \(Database\)](devenv-COPYCOMPANY-Method-Database.md)  
+[COPYCOMPANY Method \(Database\)](devenv-COPYCOMPANY-Method-Database.md)  
 
--   [CURRENTTRANSACTIONTYPE Method \(Database\)](devenv-CURRENTTRANSACTIONTYPE-Method-Database.md)  
+[CURRENTTRANSACTIONTYPE Method \(Database\)](devenv-CURRENTTRANSACTIONTYPE-Method-Database.md)  
 
--   [DATAFILEINFORMATION Method \(Database\)](devenv-DATAFILEINFORMATION-Method-Database.md)  
+[DATAFILEINFORMATION Method \(Database\)](devenv-DATAFILEINFORMATION-Method-Database.md)  
 
--   [EXPORTDATA Method \(Database\)](devenv-EXPORTDATA-Method-Database.md)  
+[EXPORTDATA Method \(Database\)](devenv-EXPORTDATA-Method-Database.md)  
 
--   [GETDEFAULTTABLECONNECTION Method \(Database\)](devenv-GETDEFAULTTABLECONNECTION-Method-Database.md)  
+[GETDEFAULTTABLECONNECTION Method \(Database\)](devenv-GETDEFAULTTABLECONNECTION-Method-Database.md)  
 
--   [HASTABLECONNECTION Method \(Database\)](devenv-HASTABLECONNECTION-Method-Database.md)  
+[HASTABLECONNECTION Method \(Database\)](devenv-HASTABLECONNECTION-Method-Database.md)  
 
--   [IMPORTDATA Method \(Database\)](devenv-IMPORTDATA-Method-Database.md)  
+[IMPORTDATA Method \(Database\)](devenv-IMPORTDATA-Method-Database.md)  
 
--   [LOCKTIMEOUT Method \(Database\)](devenv-LOCKTIMEOUT-Method-Database.md)  
+[LOCKTIMEOUT Method \(Database\)](devenv-LOCKTIMEOUT-Method-Database.md)  
 
--   [REGISTERTABLECONNECTION Method \(Database\)](devenv-REGISTERTABLECONNECTION-Method-Database.md)  
+[REGISTERTABLECONNECTION Method \(Database\)](devenv-REGISTERTABLECONNECTION-Method-Database.md)  
 
--   [SELECTLATESTVERSION Method \(Database\)](devenv-SELECTLATESTVERSION-Method-Database.md)  
+[SELECTLATESTVERSION Method \(Database\)](devenv-SELECTLATESTVERSION-Method-Database.md)  
 
--   [SERIALNUMBER Method \(Database\)](devenv-SERIALNUMBER-Method-Database.md)  
+[SERIALNUMBER Method \(Database\)](devenv-SERIALNUMBER-Method-Database.md)  
 
--   [SETDEFAULTTABLECONNECTION Method \(Database\)](devenv-SETDEFAULTTABLECONNECTION-Method-Database.md)  
+[SETDEFAULTTABLECONNECTION Method \(Database\)](devenv-SETDEFAULTTABLECONNECTION-Method-Database.md)  
 
--   [SID Method \(Database\)](devenv-SID-Method-Database.md)  
+[SID Method \(Database\)](devenv-SID-Method-Database.md)  
 
--   [TableConnectionType Data Type](../datatypes/devenv-TableConnectionType-Data-Type.md)  
+[TableConnectionType Data Type](../datatypes/devenv-TableConnectionType-Data-Type.md)  
 
--   [TENANTID Method \(Database\)](devenv-TENANTID-Method-Database.md)  
+[TENANTID Method \(Database\)](devenv-TENANTID-Method-Database.md)  
 
--   [TransactionType Data Type](../datatypes/devenv-TransactionType-Data-Type.md)  
+[TransactionType Data Type](../datatypes/devenv-TransactionType-Data-Type.md)  
 
--   [UNREGISTERTABLECONNECTION Method \(Database\)](devenv-UNREGISTERTABLECONNECTION-Method-Database.md)  
+[UNREGISTERTABLECONNECTION Method \(Database\)](devenv-UNREGISTERTABLECONNECTION-Method-Database.md)  
 
--   [USERID Method \(Sessions\)](devenv-USERID-Method-Sessions.md)  
+[USERID Method \(Sessions\)](devenv-USERID-Method-Sessions.md)  
 
 ## See Also  
  [AL Methods](devenv-al-methods.md)   
- [AL Reference Guide](../al-reference-guide.md)   
+ [AL Reference Guide](../devenv-al-reference-guide.md)   
  [Development](devenv-Development.md)
