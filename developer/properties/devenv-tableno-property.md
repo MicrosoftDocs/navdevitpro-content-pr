@@ -1,7 +1,7 @@
 ---
 title: "TableNo Property"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -20,7 +20,7 @@ Sets the source table number, if any, for this codeunit.
 ## Remarks  
  Use the lookup to select the appropriate table number. If the codeunit can apply to any table, then choose Undefined.  
   
- If you specify a table number for this property, then you can use the CurrRec global variable in the codeunit and use the [Codeunit.RUN Function \(Codeunit\)](Codeunit.RUN-Function--Codeunit-.md) to execute the code unit  
+ If you specify a table number for this property, then you can use the CurrRec global variable in the codeunit and use the [Codeunit.RUN Method \(Codeunit\)](../methods/devenv-codeunit.RUN-method-codeunit.md) to execute the code unit  
   
 ## See Also  
- [Codeunit.RUN Function \(Codeunit\)](Codeunit.RUN-Function--Codeunit-.md)
+ [Codeunit.RUN Method \(Codeunit\)](../methods/devenv-codeunit.RUN-method-codeunit.md)

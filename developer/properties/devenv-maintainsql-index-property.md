@@ -1,7 +1,7 @@
 ---
 title: "MaintainSQLIndex Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -29,4 +29,4 @@ Sets a value that indicates whether a SQL Server index that corresponds to the M
 >  You cannot disable this property on the primary key of a table. This key is always created in SQL Server.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

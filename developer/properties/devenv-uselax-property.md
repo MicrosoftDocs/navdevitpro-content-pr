@@ -1,7 +1,7 @@
 ---
 title: "UseLax Property"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,4 +25,4 @@ Specifies whether an XMLport uses LAX \(Lazy API for XML\) to process an XML fil
  Extra elements and attributes are often added to XML documents when they are processed in software systems. If this property is set to **true**, the XML document will be validated as long as the document meets the minimum schema definition. For example, if an XML document contains extra elements and attributes than the schema strictly defines, the document will validated against the schema.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

@@ -1,7 +1,7 @@
 ---
 title: "MenuSuite Properties"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,20 +17,20 @@ This topic lists properties that apply to the MenuSuite object.
 ## Menu Properties  
  The following properties apply to menus on a MenuSuite object.  
 
--   [Bitmap Property](Bitmap-Property.md)  
+-   [Bitmap Property](devenv-bitmap-property.md)  
 
--   [Caption Property](Caption-Property.md)  
+-   [Caption Property](devenv-caption-property.md)  
 
--   [CaptionML Property](CaptionML-Property.md)  
+-   [CaptionML Property](devenv-captionml-property.md)  
 
 ## Menu Item Properties  
 
-1.  [AccessByPermission Property](AccessByPermission-Property.md)  
+1.  [AccessByPermission Property](devenv-accessbypermission-property.md)  
 
-2.  [Caption Property](Caption-Property.md)  
+2.  [Caption Property](devenv-caption-property.md)  
 
-3.  [CaptionML Property](CaptionML-Property.md)  
+3.  [CaptionML Property](devenv-captionml-property.md)  
 
 ## See Also  
- [Properties](Properties.md)   
- [MenuSuites](MenuSuites.md)
+ [Properties](devenv-properties.md)   
+ [MenuSuites](../devenv-MenuSuites.md)

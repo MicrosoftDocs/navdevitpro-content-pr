@@ -20,3 +20,5 @@ Sets a value that specifies what happens when a main page with a subpage is upda
   
 ## Remarks  
  Use the **UpdatePropagation** property to update a main page total, when the amount on the subpage lines is updated. Add a `CurrPage.UPDATE();` call, for example, in the OnValidate trigger on the subpage to have the **UpdatePropagation** property take effect.
+
+

@@ -1,7 +1,7 @@
 ---
 title: "SignDisplacement Property"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/16/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -30,4 +30,4 @@ Sets a value to shift negative values to the right for display purposes only. Yo
  \(+\)987654321  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

@@ -1,7 +1,7 @@
 ---
 title: "RunPageView Property"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/16/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,5 +23,5 @@ Sets a specific table view for the page that you launch from this control.
  You can use this property to indicate how information should be sorted.  
   
 ## See Also  
- [RunObject Property](RunObject-Property.md)   
- [RunPageLink Property](RunPageLink-Property.md)
+ [RunObject Property](devenv-runobject-property.md)   
+ [RunPageLink Property](devenv-runpagelink-property.md)

@@ -1,7 +1,7 @@
 ---
 title: "InsertAllowed Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ Sets a value to specify whether users can add records while using a page.
 -   Pages  
   
 ## Property Value  
- **true** if you want to allow users to add records; otherwise, **false**. The default value is **true**.  
+ **True** if you want to allow users to add records; otherwise, **false**. The default value is **true**.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

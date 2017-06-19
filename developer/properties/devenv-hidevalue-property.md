@@ -1,7 +1,7 @@
 ---
 title: "HideValue Property"
 ms.custom: na
-ms.date: 05/02/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,7 +18,7 @@ Sets whether to show or hide a value for the user based on an expression.
  Page Fields  
   
 ## Property Values  
- **true** if the value is hidden; otherwise, **false**. The default is **false**.  
+ **True** if the value is hidden; otherwise, **false**. The default is **false**.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

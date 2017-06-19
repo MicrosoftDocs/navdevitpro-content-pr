@@ -1,7 +1,7 @@
 ---
 title: "SuppressDispose Property"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,4 +25,4 @@ Specifies if a Microsoft .NET Framework object that is defined by a **DotNet** v
 
 ## See Also  
  [Calling .NET Framework Members from AL](Calling-.NET-Framework-Members-from-AL.md)   
- [How to: Call .NET Framework Types From AL Code](How-to--Call-.NET-Framework-Types-From-AL-Code.md)
+ [How to: Call .NET Framework Types From AL Code](How-to-Call-.NET-Framework-Types-From-AL-Code.md)

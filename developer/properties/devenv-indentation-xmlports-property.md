@@ -1,7 +1,7 @@
 ---
 title: "Indentation Property (XMLports)"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -32,4 +32,4 @@ Sets the indentation level of an element or an attribute in **XMLport Designer**
 -   The indentation level that you set in the **Properties** window corresponds directly to the indentation level you can set in **XMLport Designer**. You can also use the buttons in **XMLport Designer** to change the indentation level of an element or an attribute.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

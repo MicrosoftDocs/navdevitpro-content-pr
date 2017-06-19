@@ -1,7 +1,7 @@
 ---
 title: "OptionCaption Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,8 +23,8 @@ Sets the text string options that are displayed to the user.
 -   Variables  
   
 ## Remarks  
- OptionCaption sets the text used to show the option values available for a variable or a field on a page or report. The [OptionString Property](OptionString-Property.md) contains the set of values that are acceptable choices. If you have set the [OptionCaptionML Property](OptionCaptionML-Property.md), this overrides the OptionCaption setting.  
+ OptionCaption sets the text used to show the option values available for a variable or a field on a page or report. The [OptionString Property](devenv-optionstring-property.md) contains the set of values that are acceptable choices. If you have set the [OptionCaptionML Property](devenv-optioncaptionml-property.md), this overrides the OptionCaption setting.  
   
 ## See Also  
- [OptionString Property](OptionString-Property.md)   
- [OptionCaptionML Property](OptionCaptionML-Property.md)
+ [OptionString Property](devenv-optionstring-property.md)   
+ [OptionCaptionML Property](devenv-optioncaptionml-property.md)

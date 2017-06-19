@@ -1,7 +1,7 @@
 ---
 title: "SourceField Property"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,9 +18,9 @@ Sets the field that you want to map XML data to.
  XMLports  
   
 ## Remarks  
- This property is only available if you have selected Field in the [SourceType Property](SourceType-Property.md).  
+ This property is only available if you have selected Field in the [SourceType Property](devenv-sourcetype-property.md).  
   
- You need to select Table as the SourceType of the parent tag and specify the table in the [SourceTable Property](SourceTable-Property.md).  
+ You need to select Table as the SourceType of the parent tag and specify the table in the [SourceTable Property](devenv-sourcetable-property.md).  
   
  The SourceField property is related to the DataSource field in XMLport Designer.  
   
@@ -35,5 +35,5 @@ tablevariablename::fieldname
 ```  
   
 ## See Also  
- [SourceType Property](SourceType-Property.md)   
- [SourceTable Property](SourceTable-Property.md)
+ [SourceType Property](devenv-sourcetype-property.md)   
+ [SourceTable Property](devenv-sourcetable-property.md)
