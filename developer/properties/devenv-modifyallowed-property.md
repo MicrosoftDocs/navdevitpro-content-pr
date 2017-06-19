@@ -1,7 +1,7 @@
 ---
 title: "ModifyAllowed Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -22,4 +22,4 @@ Sets the value to determine whether users can modify records while using this pa
  **true** if you want to allow the users to modify records; otherwise, **false**. The default is **true**.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

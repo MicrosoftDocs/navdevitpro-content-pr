@@ -1,7 +1,7 @@
 ---
 title: "ReqFilterHeadingML Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +11,7 @@ ms.assetid: 2ee40a72-9b03-4ddf-878a-324921671ec9
 caps.latest.revision: 13
 ---
 # ReqFilterHeadingML Property
-Sets the text used as a [ReqFilterHeading Property](ReqFilterHeading-Property.md) for a request page tab.  
+Sets the text used as a [ReqFilterHeading Property](devenv-reqfilterheading-property.md) for a request page tab.  
   
 ## Applies To  
   
@@ -35,4 +35,4 @@ Sets the text used as a [ReqFilterHeading Property](ReqFilterHeading-Property.md
 -   When you choose the **AssistEdit** button in the **ReqFilterHeadingML** field, the **Multilanguage Editor** window opens. This window has two columns: **Language** and **Value**. The **Language** column is populated with all languages defined by Windows. For your convenience, the full names of the languages are displayed. The **ReqFilterHeadingML** value for a language is added by entering a value in the **Value** field for that language. To save the values that you set, you must close this window by choosing the **OK** button. If you close it by pressing the Esc key, then the **ReqFilterHeadingML** field is not updated.  
   
 ## See Also  
- [Multilanguage Development](Multilanguage-Development.md)
+ [Multilanguage Development](../devenv-Multilanguage-Development.md)

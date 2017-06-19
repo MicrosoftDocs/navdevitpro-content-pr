@@ -1,7 +1,7 @@
 ---
 title: "NodeName Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,4 +23,4 @@ Sets the name of a node in an XML document.
  You must enter node names in the order that they appear in the XML document. Parent elements must precede their child elements. Indent the node names of child elements under their parent elements using one indentation per level. List attributes under the elements that they define and indent them to the child level.  
   
 ## See Also  
- [NodeType Property](NodeType-Property.md)
+ [NodeType Property](devenv-nodetype-Property.md)

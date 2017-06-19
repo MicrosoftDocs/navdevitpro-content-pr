@@ -1,7 +1,7 @@
 ---
 title: "PaperSourceLastPage Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -22,7 +22,7 @@ Specifies which paper source to use when printing the last page of the report.
   
  If the printer that is used for this report does not support the specified paper source, then the printer uses the default tray that is specified by the printer driver.  
   
- If you do not specify a value for the **PaperSourceLastPage** property, then the printer uses the tray that is specified in the [PaperSourceDefaultPage Property](PaperSourceDefaultPage-Property.md).  
+ If you do not specify a value for the **PaperSourceLastPage** property, then the printer uses the tray that is specified in the [PaperSourceDefaultPage Property](devenv-papersourcedefaultpage-property.md).  
   
  If you do not specify a value for either the **PapersourceLastPage** property or the PaperSourceDefaultPage property, then the printer uses the default printer tray that is defined for the operating system.  
   
@@ -33,6 +33,6 @@ Specifies which paper source to use when printing the last page of the report.
  You can use the **GetPaperTrayForReport** function in codeunit 1, **Application Management**, to set the paper tray from AL code. This gives you runtime control over paper tray selection for first, last, and default pages in a report.  
   
 ## See Also  
- [PaperSourceDefaultPage Property](PaperSourceDefaultPage-Property.md)   
- [PaperSourceFirstPage Property](PaperSourceFirstPage-Property.md)   
+ [PaperSourceDefaultPage Property](devenv-papersourcedefaultpage-property.md)   
+ [PaperSourceFirstPage Property](devenv-papersourcefirstpage-property.md)   
  [How to: Add GetPaperTrayForReport Procedure in Codeunit 1](How-to--Add-GetPaperTrayForReport-Procedure-in-Codeunit-1.md)

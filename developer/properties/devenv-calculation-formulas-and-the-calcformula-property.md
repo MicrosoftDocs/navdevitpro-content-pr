@@ -1,7 +1,7 @@
 ---
 title: "Calculation Formulas and the CalcFormula Property"
 ms.custom: na
-ms.date: 05/06/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -47,7 +47,7 @@ A FlowField is always associated with a calculation formula that determines how 
 |\<Filter>|A filter expression such as 10&#124;20..30.|  
 
 ## See Also  
- [FlowFields](FlowFields.md)   
- [FlowFilter Overview](FlowFilter-Overview.md)   
- [How to: Create, View, and Edit a Calculation Formula](How-to--Create--View--and-Edit-a-Calculation-Formula.md)  
- [Troubleshooting Long Running SQL Queries Involving FlowFields by Disabling SmartSQL](Troubleshooting-Queries-Involving-FlowFields-By-Disabling-SmartSQL.md)  
+ [FlowFields](../devenv-FlowFields.md)   
+ [FlowFilter Overview](../devenv/FlowFilter-Overview.md)   
+ [How to: Create, View, and Edit a Calculation Formula](../devenv-How-to-Create-View--and-Edit-a-Calculation-Formula.md)  
+ [Troubleshooting Long Running SQL Queries Involving FlowFields by Disabling SmartSQL](../devenv-troubleshooting-Queries-Involving-FlowFields-By-Disabling-SmartSQL.md)  

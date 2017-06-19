@@ -1,7 +1,7 @@
 ---
 title: "PaperSourceDefaultPage Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -33,6 +33,6 @@ Specifies the default paper source to use when printing the report.
  You can use the **GetPaperTrayForReport** function in codeunit 1, **Application Management**, to set the paper tray from AL code. This gives you runtime control over paper tray selection for first, last, and default pages in a report.  
   
 ## See Also  
- [PaperSourceFirstPage Property](PaperSourceFirstPage-Property.md)   
- [PaperSourceLastPage Property](PaperSourceLastPage-Property.md)   
- [How to: Add GetPaperTrayForReport Procedure in Codeunit 1](How-to--Add-GetPaperTrayForReport-Procedure-in-Codeunit-1.md)
+ [PaperSourceFirstPage Property](devenv-papersourcefirstpage-property.md)   
+ [PaperSourceLastPage Property](devenv-papersourcelastpage-property.md)   
+ [How to: Add GetPaperTrayForReport Procedure in Codeunit 1](../devenv-How-to--Add-GetPaperTrayForReport-Procedure-in-Codeunit-1.md)

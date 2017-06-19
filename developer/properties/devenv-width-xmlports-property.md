@@ -1,7 +1,7 @@
 ---
 title: "Width Property (XMLport)"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,9 +18,9 @@ Sets the width of a data item of an XMLport.
  Fields \(in XMLports\)  
   
 ## Remarks  
- This property is used only if the [Format Property \(XMLports\)](Format-Property--XMLports-.md) is **Fixed Text**.  
+ This property is used only if the [Format Property \(XMLports\)](devenv-format-xmlports-property.md) is **Fixed Text**.  
   
  The value is an integer that defines the number of characters in the field.  
   
 ## See Also  
- [XMLport Properties](XMLport-Properties.md)
+ [XMLport Properties](devenv-xmlport-properties.md)

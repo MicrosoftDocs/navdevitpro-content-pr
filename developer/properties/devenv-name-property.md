@@ -1,7 +1,7 @@
 ---
 title: "Name Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -33,14 +33,14 @@ Sets the name of the object. The name is used for internal identification of the
 -   XMLports  
 
 ## Remarks  
- Unlike the [ID Property](ID-Property.md), the value of the **Name** property does not have to be unique; however, it is a good practice to use unique names. The Name can be up to 30 characters long. The name must comply with the Common Language Specification \(CLS\). For example, the first character must be a letter and subsequent characters can be any combination of letters, whole number, and underscores. For more information, see the "Naming" section in [Common Language Specification](http://go.microsoft.com/fwlink/?LinkId=193144) in the MSDN Library.  
+ Unlike the [ID Property](devenv-id-property.md), the value of the **Name** property does not have to be unique; however, it is a good practice to use unique names. The Name can be up to 30 characters long. The name must comply with the Common Language Specification \(CLS\). For example, the first character must be a letter and subsequent characters can be any combination of letters, whole number, and underscores. For more information, see the "Naming" section in [Common Language Specification](http://go.microsoft.com/fwlink/?LinkId=193144) in the MSDN Library.  
 
- When you use the Name in AL code, it is automatically converted to the value of the [ID Property](ID-Property.md) when the AL code is compiled.  
+ When you use the Name in AL code, it is automatically converted to the value of the [ID Property](devenv-id-property.md) when the AL code is compiled.  
 
- For report, page, XMLport, and query objects, the name is the default for the [Caption Property](Caption-Property.md).  
+ For report, page, XMLport, and query objects, the name is the default for the [Caption Property](devenv-caption-property.md).  
 
  For controls, the default name is based on the ID.  
 
 ## See Also  
- [ID Property](ID-Property.md)   
- [Caption Property](Caption-Property.md)
+ [ID Property](devenv-id-property.md)   
+ [Caption Property](devenv-caption-property.md)

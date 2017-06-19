@@ -1,7 +1,7 @@
 ---
 title: "MultiLine Property"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/16/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ Sets the value that indicates whether a field can display multiple lines of text
 -   Page Fields  
   
 ## Property Value  
- **true** if you want to display multiple lines; otherwise, **false**. The default is **false**.  
+ **True** if you want to display multiple lines; otherwise, **false**. The default is **false**.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv.properties.md)

@@ -1,7 +1,7 @@
 ---
 title: "MenuLevel Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,4 +23,4 @@ Sets the menu level for a control. Levels are indicated by indentation.
  The number you enter indicates the relative level of the option. The default value is zero \(0\).  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)
