@@ -44,7 +44,7 @@ Ok := Record.WRITEPERMISSION
   
 -   [MODIFYALL Method \(Record\)](devenv-MODIFYALL-Method-Record.md)  
   
- **true** if you can write to some or all of the table. **false** if you cannot write to the table.  
+ **true** if you have direct or indirect permission to insert, modify, and delete all or some records in the table; **false** if you cannot write to the table. For example, if a permssion set grants indirect *Insert* and *Modify* permission to a table, but not *Delete* permission, the function will return **false**. If you change the permission set to grant *Insert* permission also, the function will return **true**.   
   
 ## Remarks  
  This method uses the filter that is currently applied to the *Record* to determine whether you have write permission. If no filter is applied, the method tests for full write permission. If a filter has been set, the method only tests for write permission within the range of the filter.  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: d61444c9-a333-45e8-af95-e4bcf2729f0b
 caps.latest.revision: 11
-manager: edupont
+author: jswymer
 ---
 # WRITEPERMISSION Function (RecordRef)
 Determines if you can write to a table.  
@@ -40,7 +40,7 @@ Ok := RecordRef.WRITEPERMISSION
   
 -   [DELETEALL Function \(RecordRef\)](DELETEALL-Function--RecordRef-.md)  
   
- **true** if you can write to some or all of the table; otherwise, **false**.  
+**true** if you have direct or indirect permission to insert, modify, and delete all or some records in the table; **false** if you cannot write to the table. For example, if a permssion set grants indirect *Insert* and *Modify* permission to a table, but not *Delete* permission, the function will return **false**. If you change the permission set to grant *Insert* permission also, the function will return **true**.  
   
 ## Remarks  
  This function can test for both full write permission and a partial write permission that has been granted with a security filter. A write permission consists of Insert, Delete, and Modify permissions.  
