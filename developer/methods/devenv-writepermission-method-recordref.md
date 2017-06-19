@@ -40,7 +40,7 @@ Ok := RecordRef.WRITEPERMISSION
   
 -   [DELETEALL Method \(RecordRef\)](devenv-DELETEALL-Method-RecordRef.md)  
   
- **true** if you can write to some or all of the table; otherwise, **false**.  
+ **true** if you have direct or indirect permission to insert, modify, and delete all or some records in the table; **false** if you cannot write to the table. For example, if a permssion set grants indirect *Insert* and *Modify* permission to a table, but not *Delete* permission, the function will return **false**. If you change the permission set to grant *Insert* permission also, the function will return **true**.  
   
 ## Remarks  
  This method can test for both full write permission and a partial write permission that has been granted with a security filter. A write permission consists of Insert, Delete, and Modify permissions.  
