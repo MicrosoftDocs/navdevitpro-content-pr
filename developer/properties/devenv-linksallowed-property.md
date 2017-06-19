@@ -1,7 +1,7 @@
 ---
 title: "LinksAllowed Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ Sets whether links are allowed.
 -   Pages  
   
 ## Property Value  
- **true** if links are allowed; otherwise, **false**. The default value is **true**.  
+ **True** if links are allowed; otherwise, **false**. The default value is **true**.  
   
 ## Remarks  
  If LinksAllowed is set to **true**, then you can add links or notes to a page. The links can be a links to web sites, files stored on the local computer or on a remote computer, or links to pages.  
@@ -27,4 +27,4 @@ Sets whether links are allowed.
  On a page, the links and notes are displayed in FactBoxes. If LinksAllowed is set to **true**, then the **Actions** menu has a **Notes** item and a **Links** item. You use these to create and modify notes and links.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

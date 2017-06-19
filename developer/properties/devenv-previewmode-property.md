@@ -1,7 +1,7 @@
 ---
 title: "PreviewMode Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -29,7 +29,7 @@ Specifies how the report opens when you preview it.
  Regardless of your choice, users can change the display mode in the **Print Preview** window. For example, if you choose the default mode, users can choose the **Print Layout** button. However, if the AL code for the report uses the PREVIEW function to disable printing from the preview, then users cannot change the display mode to print layout.  
 
 ## See Also  
- [Report Design Overview](Report-Design-Overview.md)   
- [Designing Reports](Designing-Reports.md)   
- [Printing Reports](Printing-Reports.md)   
- [PREVIEW Function \(Report\)](PREVIEW-Function--Report-.md)
+ [Report Design Overview](../devenv-report-design-overview.md)   
+ [Designing Reports](../devenv-designing-reports.md)   
+ [Printing Reports](../devenv-printing-reports.md)   
+ [PREVIEW Function \(Report\)](../devenv-PREVIEW-method-Report.md)

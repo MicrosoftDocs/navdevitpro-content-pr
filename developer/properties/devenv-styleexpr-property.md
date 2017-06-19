@@ -1,7 +1,7 @@
 ---
 title: "StyleExpr Property"
 ms.custom: na
-ms.date: 05/03/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,17 +26,17 @@ Sets whether the format that is specified in the [Style Property](devenv-style-p
 ## Remarks  
 
 > [!NOTE]  
->  The information in this topic is mainly applicable to formatting the text of page fields. For information about how to use the **StyleExpr** property for configuring Cues, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](How-to--Set-Up-Colored-Indicators-on-Cues-by-Using-the-Style-and-StyleExpr-Property.md).  
+>  The information in this topic is mainly applicable to formatting the text of page fields. For information about how to use the **StyleExpr** property for configuring Cues, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](devenv-How-to-Set-Up-Colored-Indicators-on-Cues-by-Using-the-Style-and-StyleExpr-Property.md).  
 
  You can set **StyleExpr** to either the name of a variable; a text constant in apostrophes, for example, 'strong'; or, for backward compatibility, to **true** or **false**.  
 
- If the **StyleExpr** property evaluates to **true**, then the value of the field is formatted as specified by the [Style Property](Style-Property.md). You can set the value to **true** or **false**, or you can use a variable that evaluates to **true** or **false**. The property's default value is **false**.  
+ If the **StyleExpr** property evaluates to **true**, then the value of the field is formatted as specified by the [Style Property](devenv-style-property.md). You can set the value to **true** or **false**, or you can use a variable that evaluates to **true** or **false**. The property's default value is **false**.  
 
 > [!IMPORTANT]  
->  You can use a conditional setting of styles by inserting the conditional code in, for example, the [OnAfterGetRecord Trigger](OnAfterGetRecord-Trigger.md). Remember to cover all cases in else branches to avoid incorrect styles. For example: `if (MyField = 'abc') then   MyStyleVar := 'Ambiguous' else   MyStyleVar := 'Favorable'`  
+>  You can use a conditional setting of styles by inserting the conditional code in, for example, the [OnAfterGetRecord Trigger](../triggers/devenv-onaftergetrecord-trigger.md). Remember to cover all cases in else branches to avoid incorrect styles. For example: `if (MyField = 'abc') then   MyStyleVar := 'Ambiguous' else   MyStyleVar := 'Favorable'`  
 
 > [!NOTE]  
->  To use a variable for the **StyleExpr** property, the [IncludeInDataSet Property](IncludeInDataSet-Property.md) of the variable must be set to **Yes**.  
+>  To use a variable for the **StyleExpr** property, the [IncludeInDataSet Property](devenv-includeindataset-property.md) of the variable must be set to **true**.  
 
 ## See Also  
- [How to: Style Field Text on a Page](How-to--Style-Field-Text-on-a-Page.md)
+ [How to: Style Field Text on a Page](../How-to--Style-Field-Text-on-a-Page.md)

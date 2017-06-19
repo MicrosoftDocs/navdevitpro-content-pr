@@ -22,9 +22,9 @@ Sets the codeunit to method as a normal, test, test runner, or upgrade codeunit.
 |**Value**|**Description**|  
 |---------------|---------------------|  
 |**Normal**|A normal codeunit. This is the default setting.|  
-|**Test**|A test codeunit includes AL methods that test the application. For more information, see [How to: Create Test Codeunits and Test Methods](How-to--Create-Test-Codeunits-and-Test-Methods.md).|  
-|**TestRunner**|A test runner codeunit manages the execution of one or more test codeunits. For more information, see [How to: Create a Test Runner Codeunit](How-to--Create-a-Test-Runner-Codeunit.md).|  
-|**Upgrade**|An upgrade codeunit includes AL methods for synchronizing changes to a table definition in an application with the business data table in SQL Server and migrating existing data. For more information, see [Upgrade Codeunits](Upgrade-Codeunits.md).|  
+|**Test**|A test codeunit includes AL methods that test the application. For more information, see [How to: Create Test Codeunits and Test Methods](../devenv-how-to-create-test-codeunits-and-test-methods.md).|  
+|**TestRunner**|A test runner codeunit manages the execution of one or more test codeunits. For more information, see [How to: Create a Test Runner Codeunit](../devenv-how-to-create-a-test-runner-codeunit.md).|  
+|**Upgrade**|An upgrade codeunit includes AL methods for synchronizing changes to a table definition in an application with the business data table in SQL Server and migrating existing data. For more information, see [Upgrade Codeunits](../devenv-upgrade-codeunits.md).|  
   
 ## Remarks  
  You can create test codeunits and test runner codeunits to test your application.  
@@ -43,7 +43,7 @@ Sets the codeunit to method as a normal, test, test runner, or upgrade codeunit.
   
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   
- [How to: Create Test Codeunits and Test Methods](How-to--Create-Test-Codeunits-and-Test-Methods.md)   
- [How to: Create Handler Methods](How-to--Create-Handler-Methods.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough--Testing-Purchase-Invoice-Discounts.md)   
- [Codeunits](Codeunits.md)
+ [How to: Create Test Codeunits and Test Methods](How-to-Create-Test-Codeunits-and-Test-Methods.md)   
+ [How to: Create Handler Methods](How-to-Create-Handler-Methods.md)   
+ [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough-Testing-Purchase-Invoice-Discounts.md)   
+ [Codeunits](../devenv-codeunits.md)

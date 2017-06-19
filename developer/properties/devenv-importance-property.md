@@ -1,7 +1,7 @@
 ---
 title: "Importance Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -28,4 +28,4 @@ Sets the amount of information that is visible in a window or dialog box.
  You can set the **Importance** property if you are an administrator or as a user personalization option.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

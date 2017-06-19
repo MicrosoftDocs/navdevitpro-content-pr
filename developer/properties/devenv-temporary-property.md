@@ -1,7 +1,7 @@
 ---
 title: "Temporary Property"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -21,4 +21,4 @@ Sets whether a temporary table is created.
  Changes made to a temporary table are not stored to a database.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

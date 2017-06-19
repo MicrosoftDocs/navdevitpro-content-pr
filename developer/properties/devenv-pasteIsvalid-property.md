@@ -1,7 +1,7 @@
 ---
 title: "PasteIsValid Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,7 +23,7 @@ Sets whether inserting records into this table using the paste command is enable
 ## Remarks  
  If records are usually inserted in the table through an external code unit function, set the PasteIsValid property equal to **false**.  
   
- The [OnInsert Trigger](OnInsert-Trigger.md) of the table is executed when a record is inserted by pasting.  
+ The [OnInsert Trigger](../triggers/devenv-oninsert-trigger.md) of the table is executed when a record is inserted by pasting.  
   
 ## See Also  
- [OnInsert Trigger](OnInsert-Trigger.md)
+ [OnInsert Trigger](../triggers/devenv-oninsert-trigger.md)

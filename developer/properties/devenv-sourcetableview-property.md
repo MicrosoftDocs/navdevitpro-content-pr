@@ -1,7 +1,7 @@
 ---
 title: "SourceTableView Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,4 +19,4 @@ Sets the key, sort order, and filter you want to use to determine the view of th
 -   Pages  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

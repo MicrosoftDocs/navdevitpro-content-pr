@@ -1,7 +1,7 @@
 ---
 title: "MaxOccurs Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,9 +26,9 @@ Sets a value that indicates the maximum number of times an element can occur.
 |**Field**|Once|  
   
 ## Remarks  
- The default value of the **MaxOccurs** property varies depending on what you have selected as the [SourceType Property](SourceType-Property.md) of this element.  
+ The default value of the **MaxOccurs** property varies depending on what you have selected as the [SourceType Property](devenv-sourcetype-property.md) of this element.  
   
- The minimum number of times an element can appear is determined by the value of the [MinOccurs Property](MinOccurs-Property.md).  
+ The minimum number of times an element can appear is determined by the value of the [MinOccurs Property](devenv-minoccurs-property.md).  
   
  The **MinOccurs** and **MaxOccurs** properties conform to the standard occurrence constraints that are used when defining XML schemas.  
   
@@ -37,4 +37,4 @@ Sets a value that indicates the maximum number of times an element can occur.
  The maximum number can be either 1 or infinite.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

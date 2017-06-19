@@ -1,7 +1,7 @@
 ---
 title: "InFooterBar Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,7 +23,7 @@ Sets whether an action should be viewed as an exit action in the lower part of t
 ## Remarks  
  Available options:  
   
- **true**/**false**
+ **True**/**false**
   
 ## See Also  
- 
+ [Properties](devenv-properties.md)

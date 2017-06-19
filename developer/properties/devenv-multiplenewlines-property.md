@@ -1,7 +1,7 @@
 ---
 title: "MultipleNewLines Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ Sets a value that determines whether users can add multiple new lines between re
 -   Pages  
   
 ## Property Value  
- **true** if you want to allow users to add multiple new lines between records; otherwise, **false**. The default is **false**.  
+ **True** if you want to allow users to add multiple new lines between records; otherwise, **false**. The default is **false**.  
   
 ## See Also  
  [AutoSplitKey Property](devenv-autosplitkey-property.md)
