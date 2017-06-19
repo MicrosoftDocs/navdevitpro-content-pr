@@ -133,7 +133,7 @@ xmlport 70000124 ExportPermissionSet {
 ```
 
 ## See Also
-[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)  
-[Developer Reference](newdev-reference-overview.md)  
-[Page Extension Object](newdev-page-ext-object.md)  
-[Report Object](newdev-report-object.md)  
+[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)  
+[Developer Reference](devenv-reference-overview.md)  
+[Page Extension Object](devenv-page-ext-object.md)  
+[Report Object](devenv-report-object.md)  

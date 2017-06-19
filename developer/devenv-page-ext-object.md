@@ -125,6 +125,5 @@ Pages
 ## See Also  
 [Page Object](devenv-page-object.md)  
 [Developer Reference](devenv-reference-overview.md)  
-[Page Extension Properties](devenv-page-property-overview.md)  
-[Pages](Pages.md)   
+[Page Extension Properties](devenv-page-property-overview.md)    
 [Page Properties](page-properties.md)
