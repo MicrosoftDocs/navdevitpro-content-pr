@@ -18,9 +18,9 @@ The following AL methods for managing [!INCLUDE[d365fin_long_md](../includes/d36
 
  [BINDSUBSCRIPTION Method](devenv-BINDSUBSCRIPTION-Method.md)
 
- [CURRENTCLIENTTYPE Method](devenv-CURRENTCLIENTTYPE-Method.md) 
+ [CURRENTCLIENTTYPE Method](devenv-CURRENTCLIENTTYPE-Method.md)
 
- [CURRENTEXECUTIONMODE Method \(Sessions\)](devenv-CURRENTEXECUTIONMODE-Method-Sessions.md) 
+ [CURRENTEXECUTIONMODE Method \(Sessions\)](devenv-CURRENTEXECUTIONMODE-Method-Sessions.md)
 
  [DEFAULTCLIENTTYPE Method](devenv-DEFAULTCLIENTTYPE-Method.md)  
 
@@ -35,4 +35,4 @@ The following AL methods for managing [!INCLUDE[d365fin_long_md](../includes/d36
  [USERSECURITYID Method](devenv-USERSECURITYID-Method.md)
 
 ## See Also  
- [AL Methods](devenv-al-Method.md)  
+ [AL Methods](devenv-al-methods.md)  
