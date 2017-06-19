@@ -118,14 +118,4 @@ Here is a list of the TestPage filter methods:
 
 ## See Also
 [AL Methods](../devenv-al-methods.md)  
-
-
-
-
-
-
-
-
-
-## See Also  
- [TestRequestPage Data Type](devenv-testrequestpage-data-type.md)
+[TestRequestPage Data Type](devenv-testrequestpage-data-type.md)  
