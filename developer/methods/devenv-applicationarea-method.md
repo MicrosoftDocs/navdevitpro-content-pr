@@ -39,4 +39,4 @@ Gets or sets the application areas for the current session.
 >  Currently, this functionality is intended for the application areas that are defined in **table 9178 Application Area Setup**. You can define your own application areas but be aware that the implementation might change in future release.  
   
 ## See Also  
- [ApplicationArea Property](../devenv-ApplicationArea-Property.md)
+ [ApplicationArea Property](../properties/devenv-ApplicationArea-Property.md)

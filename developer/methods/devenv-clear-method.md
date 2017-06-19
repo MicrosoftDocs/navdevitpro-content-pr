@@ -40,7 +40,7 @@ CLEAR(Variable)
 ## Remarks  
  Use the [CLEARALL Method](devenv-CLEARALL-Method.md) to clear all internal variables, keys, and filters in the object and in any associated objects such as reports, pages, and codeunits that contain AL code. Note, however, that **CLEARALL** does not affect or change values for variables in single instance codeunits.  
 
- For a composite data type, such as a record or an array, all elements are cleared. Furthermore, all fields in a record will be initialized with the [InitValue Property](../devenv-InitValue-Property.md) of the field.  
+ For a composite data type, such as a record or an array, all elements are cleared. Furthermore, all fields in a record will be initialized with the [InitValue Property](../properties/devenv-InitValue-Property.md) of the field.  
 
  **CLEAR** can also be used on the [GUID Data Type](../datatypes/devenv-GUID-Data-Type.md). It converts the GUID to zeros. Use the [CREATEGUID Method \(GUID\)](devenv-CREATEGUID-Method-GUID.md) to create a new unique GUID.  
 

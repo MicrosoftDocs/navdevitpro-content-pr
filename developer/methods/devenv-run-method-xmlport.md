@@ -36,7 +36,7 @@ XMLport.RUN (Number [, ReqWindow] [, Import] [, Record])
 <!--NAV  
 Specify **true** to show request page; specify **false** to run the report and skip the request page.  
 
-This parameter overrides the setting of the [UseRequestPage Property](../devenv-UseRequestPage-Property.md) of the XMLPort. If you do not provide a value for the *ReqWindow* parameter, then the setting of the **UseRequestPage** property is used.  
+This parameter overrides the setting of the [UseRequestPage Property](../properties/devenv-UseRequestPage-Property.md) of the XMLPort. If you do not provide a value for the *ReqWindow* parameter, then the setting of the **UseRequestPage** property is used.  
 > [!IMPORTANT]  
 >[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] does not support request pages with XMLports. If the XMLPort will appear in the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)], you should set the value to **false**; otherwise, you will get an error at runtime.
 
@@ -45,7 +45,7 @@ This parameter overrides the setting of the [UseRequestPage Property](../devenv-
  *Import*  
  Specifies whether the XMLPort imports or exports data. Specify **true** to run the XMLport and import data; specify **false** to export data.  
 
- This parameter is most relevant when the XMLport does not use a request page and the [Direction Property](../devenv-Direction-Property.md) of the XMLport is set to **Both**. In this instance, you use the parameter to specify the direction of the data. If the XMLport uses a request page, then a direction option appears on the request page that enables the user can choose to import or export data. The *Import* parameter specifies the default value in the direction on option on the request page.  
+ This parameter is most relevant when the XMLport does not use a request page and the [Direction Property](../properties/devenv-Direction-Property.md) of the XMLport is set to **Both**. In this instance, you use the parameter to specify the direction of the data. If the XMLport uses a request page, then a direction option appears on the request page that enables the user can choose to import or export data. The *Import* parameter specifies the default value in the direction on option on the request page.  
 
  If the Direction property is set to **Import** or **Export**, then you must set this parameter to match the direction that is set by the Direction property; otherwise, you will get an error at runtime.  
 

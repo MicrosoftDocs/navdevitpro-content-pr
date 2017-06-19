@@ -37,7 +37,7 @@ Ok := HASCONNECTIONTYPE(ConnectionType, Name)
  **true** if a table connection of the specified name exists; otherwise **false**.  
   
 ## See Also  
- [TableType Property](../devenv-TableType-Property.md)   
+ [TableType Property](../properties/devenv-TableType-Property.md)   
  [TableConnectionType Data Type](../datatypes/devenv-TableConnectionType-Data-Type.md)   
  [GETDEFAULTTABLECONNECTION Method \(Database\)](devenv-GETDEFAULTTABLECONNECTION-Method-Database.md)   
  [REGISTERTABLECONNECTION Method \(Database\)](devenv-REGISTERTABLECONNECTION-Method-Database.md)   

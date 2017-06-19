@@ -34,7 +34,7 @@ Adds filter control for a table to a filter page.
  *TableNo*  
  Type: Integer  
 
- The ID of the table object that you want to filter. The ID is specified by the table's [ID Property](../devenv-ID-Property.md).  
+ The ID of the table object that you want to filter. The ID is specified by the table's [ID Property](../properties/devenv-ID-Property.md).  
 
 ## Return Value  
  Type: Text  

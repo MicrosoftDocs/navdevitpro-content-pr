@@ -26,7 +26,7 @@ Name:= GETDEFAULTCONNECTIONTYPE(Type)
  The type of table connection as defined in the **TableType** property.  
   
 ## See Also  
- [TableType Property](../devenv-TableType-Property.md)   
+ [TableType Property](../properties/devenv-TableType-Property.md)   
  [TableConnectionType Data Type](../datatypes/devenv-TableConnectionType-Data-Type.md)   
  [REGISTERTABLECONNECTION Method \(Database\)](devenv-REGISTERTABLECONNECTION-Method-Database.md)   
  [SETDEFAULTTABLECONNECTION Method \(Database\)](devenv-SETDEFAULTTABLECONNECTION-Method-Database.md)   

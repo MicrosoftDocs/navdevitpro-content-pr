@@ -32,7 +32,7 @@ Loads and executes the unit of AL code that you specify. See also [RUN Method \(
 
  If the codeunit that you specify does not exist, then a run-time error occurs.  
 
- If you run the codeunit with a record from a table other than the one it is associated with in the [TableNo Property](../devenv-TableNo-Property.md) of the codeunit, then a run-time error occurs.  
+ If you run the codeunit with a record from a table other than the one it is associated with in the [TableNo Property](../properties/devenv-TableNo-Property.md) of the codeunit, then a run-time error occurs.  
 
  *Record*  
  Type: Record  

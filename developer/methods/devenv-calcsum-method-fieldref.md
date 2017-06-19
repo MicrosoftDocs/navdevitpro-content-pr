@@ -43,14 +43,14 @@ Calculates the total of all values of a SumIndexField in a table.
 
 -   The SumIndexFields on the [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] key contain the field to which the FieldRef parameter refers.  
 
--   The [MaintainSIFTIndex Property](../devenv-MaintainSIFTIndex-Property.md) is set to **Yes**.  
+-   The [MaintainSIFTIndex Property](../properties/devenv-MaintainSIFT-Index-Property.md) is set to **Yes**.  
 
     > [!NOTE]  
     >  By default this property is set to **Yes** for all keys.  
 
  For [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)], CALCSUM execution is decoupled from [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] SIFT index definitions. This means that if any of the conditions for using SIFT indexes are not true, then [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] traverses all records in the base table to perform the calculation instead of using SIFT. This can reduce the number of required SIFT indexes, which can improve performance. In earlier versions of [!INCLUDE[d365fin_md](../includes/d365fin_md.md)], if the conditions for using SIFT indexes were not true and the **MaintainSIFTIndex** property was enabled, then you received an error when you called the CALCSUM method. This provided a degree of protection in earlier versions against accidentally requesting a sorting for which no index existed. In [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)], an index is not required to support a certain sorting, but sorting without an index could lead to bad performance if a search returns a large result set, which would then have to be sorted before the first row is returned.  
 
- The CALCSUM method adheres to the [SecurityFiltering Property](../devenv-SecurityFiltering-Property.md). For more information about security filters, see [Record-Level Security](Record-Level-Security.md).  
+ The CALCSUM method adheres to the [SecurityFiltering Property](../properties/devenv-SecurityFiltering-Property.md). For more information about security filters, see [Record-Level Security](Record-Level-Security.md).  
 
 ## Example  
  This example sets a RecordRef variable to refer to table 21, the **Cust. Ledger Entry** table. Next, it creates a reference to field 18, the **Sales \(LCY\)** field, in the **Cust. Ledger Entry** table and assigns the field reference to a FieldRef variable. The **Sales \(LCY\)** field is a decimal field and is one of the SumIndexFields on a [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] key in the **Cust. Ledger Entry** table. The code displays the original value of the FieldRef variable, then calls the CALCSUM method and displays the calculated value of the field.  

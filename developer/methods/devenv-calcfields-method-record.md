@@ -48,7 +48,7 @@ Calculates the FlowFields in a record. You specify which fields to calculate by 
 
 -   The SumIndexFields on the [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] key contain the fields that are provided as parameters for calculation.  
 
--   The [MaintainSIFTIndex Property](../devenv-MaintainSIFT-Index-Property.md) is set to **Yes**.  
+-   The [MaintainSIFTIndex Property](../properties/devenv-MaintainSIFT-Index-Property.md) is set to **Yes**.  
 
     > [!NOTE]  
     >  By default this property is set to **Yes** for all keys.  
@@ -77,4 +77,4 @@ CustomerRec.CALCFIELDS(Balance, "Net Change");
 ## See Also  
  [FlowFields](FlowFields.md)   
  [FlowFields](FlowFields.md)   
- [FieldClass Property](../devenv-FieldClass-Property.md)
+ [FieldClass Property](../properties/devenv-FieldClass-Property.md)
