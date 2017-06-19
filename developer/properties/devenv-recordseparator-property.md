@@ -1,7 +1,7 @@
 ---
 title: "RecordSeparator Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -39,4 +39,4 @@ Sets the string that is to be used to separate records.
  You can set the record separator in AL code so that the XMLport can import and export records with different separators. For example, if your XMLport must import from a file or stream where one record uses **NewLine** and another uses **TAB**, you can change the record separator at run time.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

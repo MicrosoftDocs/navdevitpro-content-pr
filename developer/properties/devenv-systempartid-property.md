@@ -1,7 +1,7 @@
 ---
 title: "SystemPartID Property"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -22,6 +22,6 @@ Sets pre-defined system parts.
  The available options are: Outlook, Notes, MyNotes, RecordLinks, or None.  
   
 ## See Also  
- [PartType Property](PartType-Property.md)   
- [PagePartID Property](PagePartID-Property.md)   
- [ChartPartID Property](ChartPartID-Property.md)
+ [PartType Property](devenv-parttype-property.md)   
+ [PagePartID Property](devenv-pagepartid-property.md)   
+ [ChartPartID Property](devenv-chartpartid-property.md)

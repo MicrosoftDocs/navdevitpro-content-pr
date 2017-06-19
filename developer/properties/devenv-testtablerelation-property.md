@@ -1,7 +1,7 @@
 ---
 title: "TestTableRelation Property"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -28,5 +28,5 @@ Sets whether to include this field when evaluating field relations between prima
  If you set the ValidateTableRelation property to **false**, then you should also set the TestTableRelation property to **false**. Otherwise, a database test on the field relations in a database may fail.  
   
 ## See Also  
- [TestTableRelation](TestTableRelation-Property.md)   
- [ValidateTableRelation Property](ValidateTableRelation-Property.md)
+ [TestTableRelation](devenv-testtablerelation-property.md)   
+ [ValidateTableRelation Property](devenv-validatetablerelation-property.md)

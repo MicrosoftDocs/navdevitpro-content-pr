@@ -1,7 +1,7 @@
 ---
 title: "ReqFilterFields Property"
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,9 +27,9 @@ Sets which fields are automatically included on the tab of the request page that
   
  If you do not want users to add filters on fields, then use one of the following methods:  
   
--   Do not specify any filters in the **ReqFilterFields** property and specify a key field on which to sort in the [DataItemTableView Property](DataItemTableView-Property.md).  
+-   Do not specify any filters in the **ReqFilterFields** property and specify a key field on which to sort in the [DataItemTableView Property](devenv-dataitemtableview-property.md).  
   
--   Remove the request page by using the [UseRequestPage Property](UseRequestPage-Property.md) of the report.  
+-   Remove the request page by using the [UseRequestPage Property](devenv-userequestpage-property.md) of the report.  
   
 ## See Also  
- [Request Pages](Request-Pages.md)
+ [Request Pages](../Request-Pages.md)

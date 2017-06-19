@@ -1,7 +1,7 @@
 ---
 title: "Standard Day-Time Unit Property"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -28,4 +28,4 @@ Sets the unit of measure that is used when you enter data into duration fields.
 >  Even if you change the value of this property, you must enter both the value and the units of measure in the duration field. For example, enter **3 minutes**.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)
