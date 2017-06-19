@@ -12,14 +12,17 @@ caps.latest.revision: 5
 manager: edupont
 ---
 # Operating System Methods
-This section contains the following topics:  
+The following AL methods for the operating system are available:  
   
--   [APPLICATIONPATH Method](devenv-APPLICATIONPATH-Method.md)  
+[APPLICATIONPATH Method](devenv-APPLICATIONPATH-Method.md)  
   
--   [GUIALLOWED Method](devenv-GUIALLOWED-Method.md)  
+[GUIALLOWED Method](devenv-GUIALLOWED-Method.md)  
   
--   [HYPERLINK Method](devenv-HYPERLINK-Method.md)  
+[HYPERLINK Method](devenv-HYPERLINK-Method.md)  
   
--   [SLEEP Method](devenv-SLEEP-Method.md)  
+[SLEEP Method](devenv-SLEEP-Method.md)  
   
--   [TEMPORARYPATH Method](devenv-TEMPORARYPATH-Method.md)
+[TEMPORARYPATH Method](devenv-TEMPORARYPATH-Method.md)
+
+## See Also
+[AL Methods](devenv-al-methods.md)  

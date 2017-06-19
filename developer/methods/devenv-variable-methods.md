@@ -12,17 +12,16 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # Variable Methods
-This section contains the following topics:  
+The following AL methods for variables are available:  
   
--   [CANLOADTYPE Method](devenv-CANLOADTYPE-Method.md)  
+[CANLOADTYPE Method](devenv-CANLOADTYPE-Method.md)  
   
--   [CLEAR Method](devenv-CLEAR-Method.md)  
+[CLEAR Method](devenv-CLEAR-Method.md)  
   
--   [CLEARALL Method](devenv-CLEARALL-Method.md)  
+[CLEARALL Method](devenv-CLEARALL-Method.md)  
   
--   [EVALUATE Method](devenv-EVALUATE-Method.md)  
+[EVALUATE Method](devenv-EVALUATE-Method.md)  
   
 ## See Also  
- [System Methods](devenv-system-methods.md)   
- [Technical Reference](Technical-Reference.md)   
- [AL Reference Guide](C-SIDE-Reference-Guide.md)
+ [Technical Reference](../devenv-technical-reference.md)   
+ [AL Reference Guide](../AL-Reference-Guide.md)
