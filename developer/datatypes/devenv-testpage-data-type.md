@@ -104,6 +104,8 @@ Here is a list of the TestPage field methods:
 ## TestPage filter methods
 The filter methods enable you to filter data that can be accessed on a test page.
 
+Here is a list of the TestPage filter methods:
+
 [ASCENDING Method](devenv-ascending-method-testpage-filter)
 
 [CURRENTKEY Method](devenv-currentkey-method-testpage-filter)
