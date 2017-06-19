@@ -1,7 +1,7 @@
 ---
 title: "TextType Property"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -21,4 +21,4 @@ Sets the type of text this element or attribute contains.
  **BigText** if you want to display large text ; otherwise, **Text**. The default is **Text**.  
   
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)

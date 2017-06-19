@@ -3,7 +3,7 @@ title: "RefreshOnActivate Property"
 description: "Describes the RefreshOnActivate property"
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -24,4 +24,4 @@ Set this property on pages where you want to refresh the data when the user navi
 On RoleCenters, modifying data in one part will automatically refresh data in any other parts which have the RefreshOnActivate property set to **true**.
 
 ## See Also  
- [Page Properties](Page-Properties.md)
+ [Page Properties](devenv-page-properties.md)

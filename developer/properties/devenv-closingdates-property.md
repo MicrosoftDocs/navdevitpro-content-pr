@@ -26,4 +26,4 @@ Sets a value that determines whether users can enter a closing date in this fiel
  <!-- For fields, this property only applies to [Date and Time Methods](date-and-time-methods.md).  -->
   
 ## See Also  
- [Date and Time Methods](devenv-date-and-time-methods.md)
+ [Date and Time Methods](../methods/devenv-date-and-time-methods.md)

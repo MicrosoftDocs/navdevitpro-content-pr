@@ -1,7 +1,7 @@
 ---
 title: "TableRelation Property"
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 06/16/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -28,5 +28,5 @@ Sets relationships \(links\) to other tables. For example, if you want to provid
  In addition, when you choose the option to test the relationships between primary and secondary indexes, this property defines what to test. This option is one of the **Database** options on the **File** menu.  
   
 ## See Also  
- [ValidateTableRelation Property](ValidateTableRelation-Property.md)   
- [TestTableRelation Property](TestTableRelation-Property.md)
+ [ValidateTableRelation Property](devenv-validatetablerelation-property.md)   
+ [TestTableRelation Property](devenv-testtablerelation-property.md)

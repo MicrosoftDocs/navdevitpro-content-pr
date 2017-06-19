@@ -1,7 +1,7 @@
 ---
 title: "SecurityFiltering Property"
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -43,6 +43,6 @@ RecordVar.SecurityFiltering := SecurityFilter::<Disallowed|Filtered|Ignored|Vali
  The value of the **SecurityFiltering** property on a record takes effect immediately and remains in effect through the lifetime of the variable, or until you change the value.  
   
 ## See Also  
- [Record-Level Security](Record-Level-Security.md)   
- [How to: Set Security Filters](How-to--Set-Security-Filters.md)   
- [Security Filter Modes](Security-Filter-Modes.md)
+ [Record-Level Security](../Record-Level-Security.md)   
+ [How to: Set Security Filters](../How-to-Set-Security-Filters.md)   
+ [Security Filter Modes](../Security-Filter-Modes.md)

@@ -1,7 +1,7 @@
 ---
 title: "CaptionML Property"
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -33,7 +33,7 @@ Sets the string that is used to identify a control or other object in the user i
 -   XMLport objects  
 
 ## Remarks  
- The CaptionML property is multilanguage enabled, so it can contain a list of text strings in different languages. The string that is used is selected according to the user's language settings. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
+ The CaptionML property is multilanguage enabled, so it can contain a list of text strings in different languages. The string that is used is selected according to the user's language settings. For more information, see [Multilanguage Development](../devenv-Multilanguage-Development.md).  
 
  The CaptionML property has the following format.  
 

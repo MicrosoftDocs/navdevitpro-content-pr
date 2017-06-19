@@ -1,7 +1,7 @@
 ---
 title: "QuickEntry Property"
 ms.custom: na
-ms.date: 05/02/2017
+ms.date: 06/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,4 +26,4 @@ Specifies if the page control should have input focus. The default value of the 
  On pages, you use the **QuickEntry** property for groups, parts, fields, and action controls. You can enable or disable them either statically by setting the property to **true** or **false**, or dynamically by using a Boolean variable or a Boolean field on the page. The Boolean field on the page can be either a true/false Boolean or a Boolean expression, such as “Credit Limit > Sales YTD”.  
     
 ## See Also  
- [Properties](Properties.md)
+ [Properties](devenv-properties.md)
