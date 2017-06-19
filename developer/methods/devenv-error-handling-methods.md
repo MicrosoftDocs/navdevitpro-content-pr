@@ -14,15 +14,15 @@ author: jswymer
 # Error Handling Methods
 [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] includes the following methods for handling errors:  
 
--   [CLEARLASTERROR Method](devenv-CLEARLASTERROR-method.md)  
+[CLEARLASTERROR Method](devenv-CLEARLASTERROR-method.md)  
 
--   [GETLASTERRORCALLSTACK Method](devenv-GETLASTERRORCALLSTACK-Method.md)  
+[GETLASTERRORCALLSTACK Method](devenv-GETLASTERRORCALLSTACK-Method.md)  
 
--   [GETLASTERRORCODE Method](devenv-GETLASTERRORCODE-Method.md)  
+[GETLASTERRORCODE Method](devenv-GETLASTERRORCODE-Method.md)  
 
--   [GETLASTERROROBJECT Method](devenv-GETLASTERROROBJECT-Method.md)  
+[GETLASTERROROBJECT Method](devenv-GETLASTERROROBJECT-Method.md)  
 
--   [GETLASTERRORTEXT Method](devenv-GETLASTERRORTEXT-Method.md)  
+[GETLASTERRORTEXT Method](devenv-GETLASTERRORTEXT-Method.md)  
 
 ## See Also  
- [ERROR Method \(Dialog\)](devenv-ERROR-Method-Dialog.md)
+[ERROR Method \(Dialog\)](devenv-ERROR-Method-Dialog.md)

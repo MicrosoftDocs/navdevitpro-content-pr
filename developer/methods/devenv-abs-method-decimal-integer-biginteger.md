@@ -38,8 +38,7 @@ NewNumber := ABS(Number)
  This example shows how to remove the sign from a negative numeric value. This example requires that you create the following global variables and text constant.  
 
 |Variable name|DataType|  
-|-------------------|--------------|  
-|x|Decimal|  
+|-------------------|--------------|
 |y|Decimal|  
 
 |Text constant name|ENU Value|  

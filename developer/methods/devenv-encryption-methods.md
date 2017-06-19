@@ -14,22 +14,21 @@ author: jswymer
 # Encryption Methods
 [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] includes the following methods for managing data encryption:  
 
--   [ENCRYPT](devenv-encrypt-method.md)  
+[ENCRYPT](devenv-encrypt-method.md)  
 
--   [DECRYPT](devenv-decrypt-method.md)
+[DECRYPT](devenv-decrypt-method.md)
 
--   [IMPORTENCRYPTIONKEY](devenv-IMPORTENCRYPTIONKEY-method.md)  
+[IMPORTENCRYPTIONKEY](devenv-IMPORTENCRYPTIONKEY-method.md)  
 
--   [EXPORTENCRYPTIONKEY](devenv-EXPORTENCRYPTIONKEY-method.md)  
+[EXPORTENCRYPTIONKEY](devenv-EXPORTENCRYPTIONKEY-method.md)  
 
--   [CREATEENCRYPTIONKEY](devenv-CREATEENCRYPTIONKEY-method.md)  
+[CREATEENCRYPTIONKEY](devenv-CREATEENCRYPTIONKEY-method.md)  
 
--   [DELETEENCRYPTIONKEY](devenv-DELETEENCRYPTIONKEY-method.md)  
+[DELETEENCRYPTIONKEY](devenv-DELETEENCRYPTIONKEY-method.md)  
 
--   [ENCRYPTIONKEYEXISTS](devenv-ENCRYPTIONKEYEXISTS-method.md)  
+[ENCRYPTIONKEYEXISTS](devenv-ENCRYPTIONKEYEXISTS-method.md)  
 
--   [ENCRYPTIONENABLED](devenv-encryptionenabled-method.md)  
+[ENCRYPTIONENABLED](devenv-encryptionenabled-method.md)  
 
 ## See Also  
- [System Methods](devenv-system-methods.md)   
  [AL Reference Guide](../devenv-al-reference-guide.md)
