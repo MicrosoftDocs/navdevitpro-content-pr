@@ -16,7 +16,7 @@ Stores test pages. A test page is a logical representation of a page that does n
   
 A test page can be any page type. For more information [Page Object](../devenv-page-object.md). You can use test pages only within test codeunits.
 
-There are three categories of TestPage data type methods, described as follows.
+There are three categories of TestPage data type methods: TestPage, TestPage field, and TestPage filter.
   
 ## TestPage methods
 You use the TestPage Functions to:
@@ -75,6 +75,8 @@ Here is a list of the TestPage methods:
 ## TestPage field methods
 The field methods enable you to view or change the value of a field on a test page.
 
+Here is a list of the TestPage field methods:
+
 [CAPTION Method](devenv-caption-method-fieldref-testpage-field.md)
 
 [ASBOOLEAN Method](devenv-asboolean-method-testpage-field)
@@ -100,17 +102,20 @@ The field methods enable you to view or change the value of a field on a test pa
 [VALIDATIONERRORCOUNT Method \(TestPage, TestPage Field\)](devenv-VALIDATIONERRORCOUNT-Method-TestPage-TestPage-Field.md)
 
 ## TestPage filter methods
-The filter methods enable you to filter data that can be accessed on a test page. You use the **Filter** property in combination with the filter methods to perform filter operations.
+The filter methods enable you to filter data that can be accessed on a test page.
 
-[ASCENDING Method]devenv-ascending-method-testpage-filter
+[ASCENDING Method](devenv-ascending-method-testpage-filter)
 
-[CURRENTKEY Method]devenv-currentkey-method-testpage-filter
+[CURRENTKEY Method](devenv-currentkey-method-testpage-filter)
 
-[GETFILTER Method]devenv-getfilter-method-testpage-filter
+[GETFILTER Method](devenv-getfilter-method-testpage-filter)
 
-[SETCURRENTKEY Method]devenv-setcurrentkey-method-testpage-filter
+[SETCURRENTKEY Method](devenv-setcurrentkey-method-testpage-filter)
 
-[SETFILTER Method]devenv-setfilter-method-testpage-filter
+[SETFILTER Method](devenv-setfilter-method-testpage-filter)
+
+## See Also
+[AL Methods](../devenv-al-methods.md)  
 
 
 
