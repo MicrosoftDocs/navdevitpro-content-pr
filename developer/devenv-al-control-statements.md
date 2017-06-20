@@ -70,7 +70,7 @@ A conditional statement is one type of control structure in AL.
 
 -   case, where there are more than two choices.  
 
-### if-then else Statements  
+### If-then else statements  
  if-then-else statements have the following syntax.  
 
 ```  
@@ -101,7 +101,7 @@ if <Condition1> then
 
  Reading several nested if-then-else statements can be very confusing but generally, an else statement belongs to the last if statement that lacks an else statement.  
 
-#### Programming Conventions  
+#### Programming conventions  
  if and then should be on the same line. else should be on a separate line.  
 
  If there are many or long expressions, then should be on a new line and be aligned with if.  
@@ -139,7 +139,7 @@ x := x * 2;
 y := y - 1;  
 ```  
 
-#### Incorrect Example  
+#### Incorrect example  
 
 ```  
 if x < y then  
@@ -174,7 +174,7 @@ else
 ...  
 ```  
 
-### case Statements  
+### Case statements  
  case statements have the following syntax.  
 
 ```  
@@ -209,7 +209,7 @@ end;
 
 For more information about Code variables, see [Code Data Type](datatypes/devenv-code-data-type.md).  
 
-#### Programming Conventions  
+#### Programming conventions  
  When you use a case statement, indent the value sets by two character spaces. If you have two or more value sets on the same line, then separate them by commas without spaces. The last value set on a line is immediately followed by a colon without a preceding space. The action starts on the line after the value set and is further indented by two character spaces. If there is a begin, then it should be put on a separate line unless it follows else. If a begin follows an else, then it should be on the same line as else.  
 
  If there are more than two alternatives, use a case statement. Otherwise, use an if-then-else statement.  
@@ -288,7 +288,7 @@ A repetitive statement is also known as a loop. The following table shows the lo
 |repeat|Repeats the inner statements until the specified conditions evaluate to **true**. The statements in a loop of this kind are always executed at least one time.|  
 -->
 
-### for-to and for-downto Control Structure  
+### For-to and for-downto control structure  
  The following syntax shows the for-to and for-downto statement.  
 
 ```  
@@ -488,7 +488,7 @@ foreach txt IN strarray do
  Compile and run the [!INCLUDE[navnow](includes/navnow_md.md)] object.  
 -->
 
-### while-do Control Structure  
+### While-do control structure  
  The following syntax shows the while-do statement.  
 
 ```  
@@ -500,7 +500,7 @@ while <Condition> do
 
  The while do statement can be used when some code should be repeated as long as an expression is true.  
 
-#### Programming Conventions  
+#### Programming conventions  
  When there is only one condition, put while and do on the same line. Put the statements on separate lines and indented by two spaces.  
 
  When there are multiple conditions, put the conditions on separate lines and indented by two spaces and put do on a separate line that is aligned with while.  
@@ -549,7 +549,7 @@ var
   I : integer
 ```
 
-### repeat-until Control Structure  
+### Repeat-until control structure  
 The following syntax shows the repeat-until statement.  
 
 ```  
@@ -561,7 +561,7 @@ repeat
 
  The repeat until control structure resembles the while control structure. The difference is that because the repeat until statement is executed from left to right, the <*Statements*> is always executed at least one time, regardless of what the <*Condition*> is evaluated to. This contrasts with the while control structure, which performs the evaluation before the <*Statement*> is executed. In the while control structure, if the first evaluation of <*Condition*> returns false, then no statements are executed.  
 
-#### Programming Conventions  
+#### Programming conventions  
  Always put repeat on a separate line.  
 
 #### Example  
@@ -595,7 +595,7 @@ var
 ```  
 The FIND method finds the first entry in the table. Each time NEXT is called, it steps one record forward. When NEXT equals 0, there are no more entries in the table. The loop is exited, and a message displays how many entries were found.  
 
-### exit Statement  
+### Exit Statement  
  The exit statement is used to control the flow of the execution. The following syntax shows an exit statement.  
 
 ```  
