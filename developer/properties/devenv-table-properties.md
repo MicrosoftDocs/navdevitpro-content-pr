@@ -1,6 +1,6 @@
 ---
 title: "Table Properties"
-author: edupont04
+author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 06/06/2017
 ms.reviewer: na
