@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 96935e30-d516-4997-b47e-f693b8e5718a
 caps.latest.revision: 4
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # SuppressDispose Property
 Specifies if a Microsoft .NET Framework object that is defined by a **DotNet** variable is disposed when it goes out of scope.  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 5e18b123-0ded-4aec-aa31-c710e6c015b4
 caps.latest.revision: 7
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # DataSource Property
 Sets the field to associate with a column of a query.  

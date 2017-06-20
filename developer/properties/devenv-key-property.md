@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 8e1fffd3-9a04-4062-aa9e-2655326db9c5
 caps.latest.revision: 6
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Key Property
 Use this property to identify the field or fields that make up this key.  

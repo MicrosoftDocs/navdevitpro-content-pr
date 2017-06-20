@@ -1,7 +1,7 @@
 ---
 title: "DateFormula Property"
 author: edupont04
-manager: edupont04
+author: SusanneWindfeldPedersen04
 ms.custom: na
 ms.date: 06/12/2017
 ms.reviewer: na

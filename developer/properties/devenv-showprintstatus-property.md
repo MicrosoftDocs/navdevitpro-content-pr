@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 3c256f96-bbef-4138-9b68-ae7aab80e3c8
 caps.latest.revision: 9
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # ShowPrintStatus Property
 Sets whether a window that shows the printing status of a report when it is run is displayed.  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: cecfed61-dfea-4eb7-be2c-5b5091f765c5
 caps.latest.revision: 25
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # TextEncoding Property (XMLports)
 Specifies the text encoding format to use when you use an XMLport to export or import data as text.  

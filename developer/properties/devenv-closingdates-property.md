@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 9a98bc80-1b56-4f55-a31c-71a0609b9991
 caps.latest.revision: 9
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # ClosingDates Property
 Sets a value that determines whether users can enter a closing date in this field. The default value is **false**.  

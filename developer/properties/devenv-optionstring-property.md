@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: c77a75d8-8bff-42fd-8b1a-4eaf745be70f
 caps.latest.revision: 10
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # OptionString Property
 Sets the option values for a field, text box, or variable. OptionString is multilanguage enabled.  

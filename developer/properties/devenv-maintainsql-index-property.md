@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: b9dfd30d-e935-477b-aba6-3cdf30cf0413
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # MaintainSQLIndex Property
 Sets a value that indicates whether a SQL Server index that corresponds to the Microsoft Dynamics NAV key should be created.  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: f3c8331c-02c6-4ffe-97de-f280b4bf5ecf
 caps.latest.revision: 3
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Owner Property
 Sets the [!INCLUDE[nav_server](../includes/nav_server_md.md)] user who owns the object in the BLOB field of a table object.  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: be3af957-fdba-42ed-8630-a75031303f8a
 caps.latest.revision: 14
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Promoted Property
 Sets the value that indicates whether the selected action is promoted, which means that it appears on the Home tab as well as the tab where is it defined.  

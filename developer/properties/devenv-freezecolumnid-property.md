@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 788e2437-c9be-4d57-8797-e6ea78d9bb4d
 caps.latest.revision: 12
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # FreezeColumnID Property
 Specifies the columns in a list that remain in view on a page, even when you scroll right.  

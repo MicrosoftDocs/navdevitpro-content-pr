@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 876916ae-b69b-431f-93c2-8536336cc9b7
 caps.latest.revision: 9
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # NodeType Property
 Sets the value to specify whether an XML object is an element or an attribute.  

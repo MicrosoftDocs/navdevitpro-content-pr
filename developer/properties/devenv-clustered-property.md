@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 78bf605e-99ae-40b3-8c93-f46c2c808e64
 caps.latest.revision: 4
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Clustered Property
 Sets a value that indicates whether the index is clustered.  

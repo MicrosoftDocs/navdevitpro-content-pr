@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 5e0d5fb4-d559-4cfe-86da-a4d34067349a
 caps.latest.revision: 9
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Menu Properties
 Modifies a menu for a department. The menu represents a department in a company.  
