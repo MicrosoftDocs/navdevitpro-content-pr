@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 33bb844b-f09c-4286-951f-d1c7efa96b6e
 caps.latest.revision: 13
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Image Property
 Specifies the icon that you want to associate with an action or an activity button. 

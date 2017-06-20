@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: a627fc31-d854-4204-8b75-20152d397ca5
 caps.latest.revision: 9
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # ClearOnLookup Property
 Sets a value that determines whether the current contents of the field are deleted before the value that is selected via the lookup is added.  
@@ -22,4 +22,4 @@ Sets a value that determines whether the current contents of the field are delet
  **True** if current contents of the field are replaced; otherwise, **false** if the contents are pasted. The default value is **true** for all fields except FlowFilters fields.  
   
 ## See Also  
- [FlowFilter Overview](FlowFilter-Overview.md)
+ [FlowFilter Overview](../devenv-flowfilter-overview.md)

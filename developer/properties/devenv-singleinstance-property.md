@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 5b0f6ddb-2a7b-46b0-a07d-f5408d63a0e5
 caps.latest.revision: 7
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # SingleInstance Property
 Sets whether a single instance of the codeunit and codeunit variables are instantiated.  

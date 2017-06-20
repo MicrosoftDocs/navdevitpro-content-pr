@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: de4f0602-ddd3-43b1-9f3d-8e62368c08de
 caps.latest.revision: 15
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # DrillDown Property
 Sets a drill-down for a field on a page.  

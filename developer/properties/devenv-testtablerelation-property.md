@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: d4b37c19-bcb3-49d2-868d-126be1d383be
 caps.latest.revision: 8
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # TestTableRelation Property
 Sets whether to include this field when evaluating field relations between primary and secondary indexes.  

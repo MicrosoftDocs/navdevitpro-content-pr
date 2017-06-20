@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: dfa5f49f-2299-4b80-ab56-19184814d776
 caps.latest.revision: 8
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # HideValue Property
 Sets whether to show or hide a value for the user based on an expression.  

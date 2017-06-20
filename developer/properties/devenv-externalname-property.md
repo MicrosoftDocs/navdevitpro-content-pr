@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: ddde23c8-cc94-4b5b-a5d7-83595ea4943a
 caps.latest.revision: 2
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # ExternalName Property
 Specifies the name of the original table in the external database.  

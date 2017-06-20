@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: b20579b0-444c-45d5-b98b-882d3255ad88
 caps.latest.revision: 7
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # ShortCutKey Property
 Sets a shortcut key for selecting a menu item.  

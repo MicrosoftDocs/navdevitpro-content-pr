@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: f5d1b271-5b27-498b-9a0b-af0166f6412b
 caps.latest.revision: 14
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # HandlerMethods Property
 Specifies the handler methods that are used by the test method.  

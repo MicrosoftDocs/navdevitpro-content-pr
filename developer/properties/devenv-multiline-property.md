@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: d1241fb3-fb20-4306-bd5f-40011f0bb592
 caps.latest.revision: 10
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # MultiLine Property
 Sets the value that indicates whether a field can display multiple lines of text.  

@@ -9,6 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 3e156138-d9c7-486e-b697-43da477d505a
 caps.latest.revision: 8
+author: SusanneWindfeldPedersen
 ---
 # CardPageID Property
 Sets the card page that is associated with items in the current list page.  

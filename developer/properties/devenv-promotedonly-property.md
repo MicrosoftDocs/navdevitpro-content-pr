@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 516cecd6-1623-4c0a-9191-f88e626964d1
 caps.latest.revision: 3
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # PromotedOnly Property
 Specifies whether the selected action is *promoted only*, which means that it will appear only on the **Home** tab in the ribbon and not on the tab (ActionContainer control) where it is defined.  

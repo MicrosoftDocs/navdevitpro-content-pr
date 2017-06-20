@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 408cfb84-b048-4c51-a18e-2b79e6d25e80
 caps.latest.revision: 8
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # ModifyAllowed Property
 Sets the value to determine whether users can modify records while using this page.  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: f3565a5b-c0aa-40e9-ba8c-4190107c5d59
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # EnabledIfError Property
 Sets a value that specifies whether an action is enabled or disabled if it enters an error state.  

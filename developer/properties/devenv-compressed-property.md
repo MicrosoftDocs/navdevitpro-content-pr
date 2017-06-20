@@ -9,18 +9,14 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 19503643-223d-4157-8311-eb4e97621ea6
 caps.latest.revision: 7
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
+
 # Compressed Property
 Sets a value that specifies whether a BLOB is compressed.  
   
 ## Applies To  
- Fields of the [BLOB Data Type](../datatypes/devenv-blob-data-type.md)  
-  
-## Remarks  
- If you want to access BLOB data with an external tool, for example to display a bitmap, you must set this property to **false**.  
-  
- The [!INCLUDE[rtc](../includes/rtc_md.md)] can access BLOBs without using this property.  
-  
+ Fields of the [BLOB Data Type](../datatypes/devenv-blob-data-type.md)   
+
 ## See Also  
  [BLOB Data Type](../datatypes/devenv-blob-data-type.md)

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 5c8218df-818e-4b07-b431-5f776e877cc1
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Field No. Property
 Sets a unique numeric ID for the field.  

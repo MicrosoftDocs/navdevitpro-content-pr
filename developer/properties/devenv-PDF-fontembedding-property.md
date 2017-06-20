@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 5e251ec0-0bf2-4139-a8a2-cfaca5dae3ad
 caps.latest.revision: 6
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # PDFFontEmbedding Property
 Specifies whether fonts are embedded in PDF files that are generated for reports.  

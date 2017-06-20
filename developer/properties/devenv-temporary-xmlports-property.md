@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 75932773-71ea-4203-a7ad-3d24d3b79e42
 caps.latest.revision: 12
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Temporary Property (XMLports)
 Sets whether a temporary table is created to store the records imported using the XMLport.  

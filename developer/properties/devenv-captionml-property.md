@@ -9,8 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 3390a39e-12ce-4d42-a55a-d00c48ca9a7c
 caps.latest.revision: 21
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
+
 # CaptionML Property
 Sets the string that is used to identify a control or other object in the user interface.  
 
@@ -33,7 +34,7 @@ Sets the string that is used to identify a control or other object in the user i
 -   XMLport objects  
 
 ## Remarks  
- The CaptionML property is multilanguage enabled, so it can contain a list of text strings in different languages. The string that is used is selected according to the user's language settings. For more information, see [Multilanguage Development](../devenv-Multilanguage-Development.md).  
+ The CaptionML property is multilanguage enabled, so it can contain a list of text strings in different languages. The string that is used is selected according to the user's language settings. For more information, see [Multilanguage Development](../devenv-multilanguage-development.md).  
 
  The CaptionML property has the following format.  
 

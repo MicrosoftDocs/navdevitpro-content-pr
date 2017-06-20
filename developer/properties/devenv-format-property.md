@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 020f6704-393a-4bed-9d6e-05fb96498b23
 caps.latest.revision: 30
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Format Property
 Sets the formats of the source expression for various data types.  

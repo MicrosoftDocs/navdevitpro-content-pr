@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: de72895e-8df3-4ae7-921d-44f5738bd4bb
 caps.latest.revision: 4
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # MaxIteration Property
 Sets a limit on the number of times that a data item will be iterated when the report is run.  

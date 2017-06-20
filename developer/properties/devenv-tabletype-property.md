@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: bfdf1b47-b009-48b3-8b46-0612d66e0162
 caps.latest.revision: 4
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # TableType Property
 Specifies the table type.  

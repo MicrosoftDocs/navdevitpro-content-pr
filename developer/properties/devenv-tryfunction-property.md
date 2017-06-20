@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 71d0080e-a02c-4545-8bb3-299ad80b1db8
 caps.latest.revision: 4
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # TryMethod Property
 Specifies the method to be try method, which can be used to catch and handle errors and exceptions that occur when code is run.  

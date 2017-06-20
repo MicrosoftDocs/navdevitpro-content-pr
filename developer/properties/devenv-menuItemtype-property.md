@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: ead172ab-f80a-4a5e-94dd-5539653d2cc6
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # MenuItemType Property
 Sets the value for the type of menu item.  

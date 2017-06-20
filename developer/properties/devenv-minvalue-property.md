@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 531a1e04-cd17-4128-a230-fbaa6ba33b65
 caps.latest.revision: 9
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # MinValue Property
 Sets the minimum value for a field.  
