@@ -194,7 +194,7 @@ end;
 
  In this definition, <*Expression*> cannot be a record and <*Value set*> must be an expression or a range.  
 
- case statements are also called multiple option statements and are typically used when you must choose between more than two different actions. The function of the case statement is as follows:  
+ case statements are also called multiple option statements and are typically used when you must choose between more than two different actions. The method of the case statement is as follows:  
 
 -   The <*Expression*> is evaluated, and the first matching value set executes the associated statement, if there is one.  
 
@@ -394,7 +394,7 @@ mylist.Add('Item 4');
 // Iterate through the collection  
 foreach element IN mylist do  
   begin  
-    MESSAGE(forMAT(element));  
+    MESSAGE(format(element));  
   end;  
 ```  
 
@@ -457,7 +457,7 @@ mydictionary.Add(50, '55555');
 // Iterate through the collection  
 foreach element IN mydictionary do  
   begin  
-    MESSAGE(forMAT(element));  
+    MESSAGE(format(element));  
   end;  
 
 ```  
@@ -577,7 +577,7 @@ end;
 ```  
 
 #### Example  
- This code uses a repeat-until loop to count the number of entries in the Customer table.
+This code uses a repeat-until loop to count the number of entries in the Customer table.
 
 ```  
 Count := 0;  
@@ -593,7 +593,7 @@ var
     Count : Integer;
     Customer : Record Customer;  
 ```  
-The FIND function finds the first entry in the table. Each time NEXT is called, it steps one record forward. When NEXT equals 0, there are no more entries in the table. The loop is exited, and a message displays how many entries were found.  
+The FIND method finds the first entry in the table. Each time NEXT is called, it steps one record forward. When NEXT equals 0, there are no more entries in the table. The loop is exited, and a message displays how many entries were found.  
 
 ### exit Statement  
  The exit statement is used to control the flow of the execution. The following syntax shows an exit statement.  
@@ -602,18 +602,18 @@ The FIND function finds the first entry in the table. Each time NEXT is called, 
 exit([<Value>])  
 ```  
 
- An exit statement is used to interrupt the execution of a AL trigger. The interruption occurs even when the code is executed inside a loop or a similar structure. The exit statement is also used when a local function should return a value.  
+ An exit statement is used to interrupt the execution of a AL trigger. The interruption occurs even when the code is executed inside a loop or a similar structure. The exit statement is also used when a local method should return a value.  
 
- Using exit without a parameter in a local function corresponds to using the parameter value 0. The AL function will return the value 0 or '' (empty string).  
+ Using exit without a parameter in a local method corresponds to using the parameter value 0. The AL method will return the value 0 or '' (empty string).  
 
  A compile-time error occurs if exit is called by using a return parameter from either of the following:  
 
 -   System-defined triggers.  
 
--   Local functions that do not return a value.  
+-   Local methods that do not return a value.  
 
 #### Example  
- The following example shows the use of the exit statement in a local function. Assume that the if statement is used to detect an error. If the error condition is met, then execution is stopped and the local function returns the error code 1.  
+ The following example shows the use of the exit statement in a local method. Assume that the if statement is used to detect an error. If the error condition is met, then execution is stopped and the local method returns the error code 1.  
 
 ```  
 for I := 1 to 1000 do begin  
@@ -622,5 +622,40 @@ for I := 1 to 1000 do begin
   A[I] := Amount[I] + Total[I];  
 end;  
 ```  
+
+## AL break Statement
+You use the break statement to terminate the iterative statement in which it appears.  
+
+```  
+break;  
+```  
+
+ You typically use the break statement in the repeating statements such as for, <!--NAV forEACH, -->while, or repeat to stop an iteration or loop when certain conditions are met.  
+
+> [!NOTE]  
+>  The break statement is different than the [Break Method \(Report, XMLport\)](methods/devenv-break-method-report-xmlport.md). Although both stop an iteration or loop, the break method will also terminate the trigger in which it is run.  
+
+## Example  
+ The following AL code increases the variable I by one for each iteration, and terminates the iteration when I equals 10.  
+
+```  
+WHILE Count < 1000 DO
+  BEGIN
+  Count := Count + 1;
+  MESSAGE(FORMAT(Count));
+  IF Count = 10 THEN
+    break;
+  end; 
+end; 
+ 
+```  
+
+This example requires the following integer data type variable.  
+
+```  
+var  
+  I : integer
+```
+
 ## See Also
 [Programming in AL](devenv-programming-in-al.md)
