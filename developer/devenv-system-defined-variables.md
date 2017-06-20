@@ -21,9 +21,9 @@ authoer: SusanneWindfeldPedersen
 |CurrPage|This variable specifies the current page. You can access the controls of the page through this variable and set the dynamic properties of the page and its controls.<br /><br /> The CurrPage.Editable variable reflects the run-time value of the editable property, which can be changed at design time, programmatically, or by the user when switching view modes on a page.<br /><br /> The CurrPage.Update([SaveRecord]) variable can be used to save the current record and then update the controls in the page.<br /><br /> When the View mode on a page is **false**, then the Edit, New, and Delete modes are **true**.|  
 |CurrReport|This variable specifies the current report.|  
 |RequestOptionsPage|This variable specifies the request options page for the current report.|  
-|CurrFieldNo|This variable specifies the field number of the current field in the current page. Retained for compatibility reasons.|  
+|CurrFieldNo|This variable specifies the field number of the current field in the current page. Retained for compatibility reasons.| 
 
-In addition, some triggers, such as the OnFormat trigger of a control, have a parameter that is defined as a local variable.  
+In addition, some triggers, such as the [OnFormat](triggers/devenv-onformat-trigger.md) trigger of a control, have a parameter that is defined as a local variable.  
 
 ## Example  
  The following example shows how to use the Rec and xRec pair of records.  
