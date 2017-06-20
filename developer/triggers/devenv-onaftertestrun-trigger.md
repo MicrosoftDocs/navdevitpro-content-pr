@@ -1,7 +1,7 @@
 ---
 title: "OnAfterTestRun Trigger"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -55,10 +55,10 @@ For more information, see [Testing With Permission Sets](testing-permissionsets.
  *Success*  
  Type: Boolean  
 
- **true** indicates that the test  run succeeded; otherwise, **false** indicates that the test  run failed.  
+ **True** indicates that the test  run succeeded; otherwise, **false** indicates that the test  run failed.  
 
 ## Applies To  
- Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](../devenv-SubType-Property-Codeunit.md) set to **TestRunner**.  
+ Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](../properties/devenv-subtype-property-codeunit.md) set to **TestRunner**.  
 
 > [!NOTE]  
 >  This trigger is optional and not available on a test runner codeunit by default. To implement this trigger, you must manually add it as a .  
@@ -69,12 +69,12 @@ For more information, see [Testing With Permission Sets](testing-permissionsets.
 The **OnAfterTestRun** trigger suppresses the automatic display of the results message after the test codeunit runs.
 
 > [!NOTE]  
->  To return the error message for a failed test  run, use the [GETLASTERRORTEXT Method](../methods/devenv-GETLASTERRORTEXT-Method.md).  
+>  To return the error message for a failed test  run, use the [GETLASTERRORTEXT Method](../methods/devenv-getlasterrortext-method.md).  
 
 
 You can use the **OnAfterTestRun** trigger to perform post-processing, such as logging, or to automate tests by integrating the test runner codeunit with a test management framework.
 
-The *TestPermissions* parameter, enables you can control how to handle applied permission sets, if any, after the test is run. For more information about testing with permision sets, including an example, see [Testing With Permission Sets](testing-permissionsets.md).
+The *TestPermissions* parameter, enables you can control how to handle applied permission sets, if any, after the test is run. For more information about testing with permision sets, including an example, see [Testing With Permission Sets](../testing-permissionsets.md).
 
 The **OnAfterTestRun** trigger is run in its own database transaction.
 
@@ -102,9 +102,9 @@ log.INSERT(true);
  The GETLASTERRORTEXT  returns the text that was contained in the last error message.  
 
 ## See Also  
- [Testing the Application](Testing-the-Application.md)   
- [How to: Create a Test Runner Codeunit](How-to-Create-a-Test-Runner-Codeunit.md)   
- [How to: Create Test Codeunits and Test Methods](How-to-Create-Test-Codeunits-and-Test-Methods.md)   
- [How to: Create Handler Methods](How-to-Create-Handler-Methods.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough-Testing-Purchase-Invoice-Discounts.md)   
- [OnBeforeTestRun Trigger](devenv-OnBeforeTestRun-Trigger.md)
+ [Testing the Application](testing-the-application.md)   
+ [How to: Create a Test Runner Codeunit](how-to-create-a-test-runner-codeunit.md)   
+ [How to: Create Test Codeunits and Test Methods](how-to-create-test-codeunits-and-test-methods.md)   
+ [How to: Create Handler Methods](../methods/devenv-how-to-create-handler-methods.md)   
+ [Walkthrough: Testing Purchase Invoice Discounts](walkthrough-testing-purchase-invoice-discounts.md)   
+ [OnBeforeTestRun Trigger](devenv-onbeforetestrun-trigger.md)

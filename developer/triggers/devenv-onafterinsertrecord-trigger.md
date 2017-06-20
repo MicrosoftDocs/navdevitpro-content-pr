@@ -1,7 +1,7 @@
 ---
 title: "OnAfterInsertRecord Trigger"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -20,7 +20,7 @@ Executed after a record has been inserted into a database table.
 ## Remarks  
  This trigger is only used to import data and can be used to move data from temporary tables to real tables.  
   
- If the [AutoSave Property](../devenv-AutoSave-Property.md) is **No**, then although the record is not inserted automatically, the OnAfterInsertRecord trigger is still called after the insertion would have occurred.  
+ If the [AutoSave Property](../properties/devenv-autosave-property.md) is **false**, then although the record is not inserted automatically, the OnAfterInsertRecord trigger is still called after the insertion would have occurred.  
   
 ## See Also  
  [Triggers](devenv-triggers.md)

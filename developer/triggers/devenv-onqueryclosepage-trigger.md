@@ -1,7 +1,7 @@
 ---
 title: "OnQueryClosePage Trigger"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -30,7 +30,7 @@ Executed as a page closes and before the [OnClosePage Trigger](devenv-OnClosePag
  *Ok*  
  Type: Boolean  
 
- **true** to close the page; otherwise **false**. This value is checked after each  call.  
+ **True** to close the page; otherwise **false**. This value is checked after each  call.  
 
 ## Applies To  
 
@@ -43,7 +43,7 @@ Executed as a page closes and before the [OnClosePage Trigger](devenv-OnClosePag
 >  The trigger is only invoked when the page is hosted in a modal popup window \(MPO\).  
 
 ## Remarks  
- If the page that is closing and all its child pages return **true** in the OnQueryClosePage trigger, then the [OnClosePage Trigger](devenv-OnClosePage-Trigger.md) is called for all child pages and then for the parent page.  
+ If the page that is closing and all its child pages return **true** in the OnQueryClosePage trigger, then the [OnClosePage Trigger](devenv-onclosepage-trigger.md) is called for all child pages and then for the parent page.  
 
  If an error occurs in the OnQueryClosePage trigger or it returns **false**, then the page is not closed.  
 
