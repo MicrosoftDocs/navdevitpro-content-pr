@@ -14,7 +14,7 @@ caps.latest.revision: 10
 Sets whether external Microsoft .NET assemblies can be used on a report.  
   
 ## Applies To  
- Client report definition (RDLC) report layouts  
+ Client report definition \(RDLC\) report layouts  
   
 ## Property Value  
  **True** if external assemblies can be used; otherwise, **false**. The default is **false**.  

@@ -38,4 +38,3 @@ Sets display and storage requirements for the [Decimal Data Type](../datatypes/d
   
 ## See Also  
  [Decimal Data Type](../datatypes/devenv-decimal-data-type.md)   
- [Formatting the Data in a Field](../devenv-Formatting-the-Data-in-a-Field.md)

@@ -30,5 +30,8 @@ Specifies whether the report uses the built-in RDLC or Word report layout by def
  For more information, see [Built-in and Custom Report Layouts](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuilinCustomLayouts).  
   
 ## See Also  
+ [Report Object](../devenv-report-object.md)  
+ <!--
  [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)   
  [How to. Specify the Default Built-in Report Layout](How-to.-Specify-the-Default-Built-in-Report-Layout.md)
+ -->
