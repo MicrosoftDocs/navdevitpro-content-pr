@@ -73,7 +73,7 @@ By using the *TestPermissions* parameter, you can add code to control which perm
 
 The **OnBeforeTestRun** trigger is run in its own database transaction.
 
-For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create a Test Runner Codeunit](How-to-Create-a-Test-Runner-Codeunit.md).  
+For more information, see [Testing the Application](testing-the-application.md) and [How to: Create a Test Runner Codeunit](how-to-create-a-test-runner-codeunit.md).  
 
 ## Example
 The following **OnBeforeTestRun** trigger code initializes a logging variable and returns true to indicate that the test  should execute. This example requires that you create the following global variable.
@@ -91,8 +91,8 @@ EXIT(true);
 [TestPermissions Property](../properties/devenv-testpermissions-property.md)  
 [OnAfterTestRun Trigger](devenv-trigger-onaftertestrun.md)  
 [Testing With Permission Sets](testing-permissionsets.md)  
-[Testing the Application](Testing-the-Application.md)  
-[How to: Create a Test Runner Codeunit](How-to-Create-a-Test-Runner-Codeunit.md)  
-[How to: Create Test Codeunits and Test Methods](How-to-Create-Test-Codeunits-and-Test-Methods.md)  
-[How to: Create Handler Methods](How-to-Create-Handler-Methods.md)  
-[Walkthrough: Testing Purchase Invoice Discounts](Walkthrough-Testing-Purchase-Invoice-Discounts.md)  
+[Testing the Application](testing-the-application.md)  
+[How to: Create a Test Runner Codeunit](how-to-create-a-test-runner-codeunit.md)  
+[How to: Create Test Codeunits and Test Methods](how-to-create-test-codeunits-and-test-methods.md)  
+[How to: Create Handler Methods](how-to-create-handler-methods.md)  
+[Walkthrough: Testing Purchase Invoice Discounts](walkthrough-testing-purchase-invoice-discounts.md)  

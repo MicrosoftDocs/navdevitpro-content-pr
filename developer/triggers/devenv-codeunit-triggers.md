@@ -20,5 +20,5 @@ The following triggers apply to codeunits.
 
 ## See Also  
  [Triggers](devenv-triggers.md)  
- [Testing the Application](Testing-the-Application.md)   
+ [Testing the Application](../testing-the-application.md)   
  [How to: Create Test Codeunits and Test Methods](../devenv-how-to-create-test-codeunits-and-test-methods.md)

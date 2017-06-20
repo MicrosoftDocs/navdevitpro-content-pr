@@ -23,7 +23,7 @@ Initializes the user-defined variables on the page.
  After this trigger is executed, the [OnOpenPage Trigger](devenv-onopenpage-trigger.md) for pages is called. If an error occurs in the trigger code, then the page is closed.  
   
 > [!NOTE]  
->  The OnInit trigger does not support calls to control add-in methods and properties because the trigger is invoked before the page is instantiated. For more information see, [Exposing Methods and Properties in a Windows Client Control Add-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
+>  The OnInit trigger does not support calls to control add-in methods and properties because the trigger is invoked before the page is instantiated. For more information see, [Exposing Methods and Properties in a Windows Client Control Add-in](exposing-methods-and-properties-in-a-windows-client-control-add-in.md).  
   
 ## See Also  
  [Triggers](devenv-triggers.md)
