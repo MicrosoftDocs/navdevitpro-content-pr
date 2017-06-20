@@ -14,6 +14,7 @@
 ### [Query Object](devenv-query-object.md)
 ### [XmlPort Object](devenv-xmlport-object.md)
 ### [Methods](methods/devenv-al-methods.md)
+#### [Sytem Methods](methods/devenv-system-methods.md)
 #### [BigInteger Data Type](datatypes/devenv-biginteger-data-type.md) 
 #### [BigText Data Type](datatypes/devenv-bigtext-data-type.md) 
 #### [Blob Data Type](datatypes/devenv-blob-data-type.md) 
