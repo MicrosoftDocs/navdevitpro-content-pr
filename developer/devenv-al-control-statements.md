@@ -14,13 +14,10 @@ author: jswymer
 # AL Control Statements
 All the AL programs that you create consist of one or more statements, which are executed sequentially in top-down order. However, you will often need to control the direct top-down flow of the execution. One or more statements may have to be repeated more than once, or you may have to make the execution of a certain statement conditional. To do this, you use control structures.  
 
-The control structures in AL are divided into the following main groups:  
-
--   [AL Compound Statements](C-AL-Compound-Statements.md)  
-
--   [AL Conditional Statements](C-AL-Conditional-Statements.md)  
-
--   [AL Repetitive Statements](C-AL-Repetitive-Statements.md)
+The control structures in AL are divided into the following main groups, as described in this article:  
+-   Compound Statements
+-   Conditional Statements
+-   Repetitive Statements
 
 ## AL Compound Statements
 In some cases, the AL syntax only lets you use a single statement. However, if you have to execute more than one simple statement, the statements can be written as a compound statement by enclosing the statements between the begin and end keywords.  
