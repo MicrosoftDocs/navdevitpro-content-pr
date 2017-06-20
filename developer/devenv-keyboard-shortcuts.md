@@ -18,7 +18,7 @@ The following table provides an overview of some of the shortcut key combination
 
 ## Editing
 |Keyboard Shortcut| Action|
-|----|----|
+|-----------------|-------|
 |Ctrl+Space|Look up suggestions for the current object|
 |Ctrl+X|Cut|
 |Ctrl+C|Copy|
@@ -34,13 +34,13 @@ The following table provides an overview of some of the shortcut key combination
 
 ## Errors
 |Keyboard Shortcut| Action|
-|----|----|
+|-----------------|-------|
 |F8|Move to the next error or warning|
 |Shift+F8|Move to the previous error or warning|
 
 ## Compile
 |Keyboard Shortcut| Action|
-|----|----|
+|-----------------|-------|
 |Ctrl+Shift+B|Compile and build the solution|
 |F5|Build and deploy|
 
