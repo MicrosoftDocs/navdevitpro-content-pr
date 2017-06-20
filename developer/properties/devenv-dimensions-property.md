@@ -26,7 +26,7 @@ Sets the dimensions of a variable that is to create a multi-dimensional variable
   
 -   A\[2,3,2\]  
   
- Indexes start at a value of 1 \(not 0 as in some programming languages\).  
+ Indexes start at a value of 1 (not 0 as in some programming languages).  
   
 ## See Also  
  [Array Methods](../methods/devenv-array-methods.md)
