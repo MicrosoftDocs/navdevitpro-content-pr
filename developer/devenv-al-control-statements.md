@@ -70,7 +70,7 @@ A conditional statement is one type of control structure in AL.
 
 -   case, where there are more than two choices.  
 
-### if-then else Statements  
+### If-then else statements  
  if-then-else statements have the following syntax.  
 
 ```  
@@ -101,7 +101,7 @@ if <Condition1> then
 
  Reading several nested if-then-else statements can be very confusing but generally, an else statement belongs to the last if statement that lacks an else statement.  
 
-#### Programming Conventions  
+#### Programming conventions  
  if and then should be on the same line. else should be on a separate line.  
 
  If there are many or long expressions, then should be on a new line and be aligned with if.  
@@ -139,7 +139,7 @@ x := x * 2;
 y := y - 1;  
 ```  
 
-#### Incorrect Example  
+#### Incorrect example  
 
 ```  
 if x < y then  
@@ -174,7 +174,7 @@ else
 ...  
 ```  
 
-### case Statements  
+### Case statements  
  case statements have the following syntax.  
 
 ```  
@@ -194,7 +194,7 @@ end;
 
  In this definition, <*Expression*> cannot be a record and <*Value set*> must be an expression or a range.  
 
- case statements are also called multiple option statements and are typically used when you must choose between more than two different actions. The function of the case statement is as follows:  
+ case statements are also called multiple option statements and are typically used when you must choose between more than two different actions. The method of the case statement is as follows:  
 
 -   The <*Expression*> is evaluated, and the first matching value set executes the associated statement, if there is one.  
 
@@ -209,7 +209,7 @@ end;
 
 For more information about Code variables, see [Code Data Type](datatypes/devenv-code-data-type.md).  
 
-#### Programming Conventions  
+#### Programming conventions  
  When you use a case statement, indent the value sets by two character spaces. If you have two or more value sets on the same line, then separate them by commas without spaces. The last value set on a line is immediately followed by a colon without a preceding space. The action starts on the line after the value set and is further indented by two character spaces. If there is a begin, then it should be put on a separate line unless it follows else. If a begin follows an else, then it should be on the same line as else.  
 
  If there are more than two alternatives, use a case statement. Otherwise, use an if-then-else statement.  
@@ -288,7 +288,7 @@ A repetitive statement is also known as a loop. The following table shows the lo
 |repeat|Repeats the inner statements until the specified conditions evaluate to **true**. The statements in a loop of this kind are always executed at least one time.|  
 -->
 
-### for-to and for-downto Control Structure  
+### For-to and for-downto control structure  
  The following syntax shows the for-to and for-downto statement.  
 
 ```  
@@ -394,7 +394,7 @@ mylist.Add('Item 4');
 // Iterate through the collection  
 foreach element IN mylist do  
   begin  
-    MESSAGE(forMAT(element));  
+    MESSAGE(format(element));  
   end;  
 ```  
 
@@ -457,7 +457,7 @@ mydictionary.Add(50, '55555');
 // Iterate through the collection  
 foreach element IN mydictionary do  
   begin  
-    MESSAGE(forMAT(element));  
+    MESSAGE(format(element));  
   end;  
 
 ```  
@@ -488,7 +488,7 @@ foreach txt IN strarray do
  Compile and run the [!INCLUDE[navnow](includes/navnow_md.md)] object.  
 -->
 
-### while-do Control Structure  
+### While-do control structure  
  The following syntax shows the while-do statement.  
 
 ```  
@@ -500,7 +500,7 @@ while <Condition> do
 
  The while do statement can be used when some code should be repeated as long as an expression is true.  
 
-#### Programming Conventions  
+#### Programming conventions  
  When there is only one condition, put while and do on the same line. Put the statements on separate lines and indented by two spaces.  
 
  When there are multiple conditions, put the conditions on separate lines and indented by two spaces and put do on a separate line that is aligned with while.  
@@ -549,7 +549,7 @@ var
   I : integer
 ```
 
-### repeat-until Control Structure  
+### Repeat-until control structure  
 The following syntax shows the repeat-until statement.  
 
 ```  
@@ -561,7 +561,7 @@ repeat
 
  The repeat until control structure resembles the while control structure. The difference is that because the repeat until statement is executed from left to right, the <*Statements*> is always executed at least one time, regardless of what the <*Condition*> is evaluated to. This contrasts with the while control structure, which performs the evaluation before the <*Statement*> is executed. In the while control structure, if the first evaluation of <*Condition*> returns false, then no statements are executed.  
 
-#### Programming Conventions  
+#### Programming conventions  
  Always put repeat on a separate line.  
 
 #### Example  
@@ -577,7 +577,7 @@ end;
 ```  
 
 #### Example  
- This code uses a repeat-until loop to count the number of entries in the Customer table.
+This code uses a repeat-until loop to count the number of entries in the Customer table.
 
 ```  
 Count := 0;  
@@ -593,27 +593,27 @@ var
     Count : Integer;
     Customer : Record Customer;  
 ```  
-The FIND function finds the first entry in the table. Each time NEXT is called, it steps one record forward. When NEXT equals 0, there are no more entries in the table. The loop is exited, and a message displays how many entries were found.  
+The FIND method finds the first entry in the table. Each time NEXT is called, it steps one record forward. When NEXT equals 0, there are no more entries in the table. The loop is exited, and a message displays how many entries were found.  
 
-### exit Statement  
+### Exit Statement  
  The exit statement is used to control the flow of the execution. The following syntax shows an exit statement.  
 
 ```  
 exit([<Value>])  
 ```  
 
- An exit statement is used to interrupt the execution of a AL trigger. The interruption occurs even when the code is executed inside a loop or a similar structure. The exit statement is also used when a local function should return a value.  
+ An exit statement is used to interrupt the execution of a AL trigger. The interruption occurs even when the code is executed inside a loop or a similar structure. The exit statement is also used when a local method should return a value.  
 
- Using exit without a parameter in a local function corresponds to using the parameter value 0. The AL function will return the value 0 or '' (empty string).  
+ Using exit without a parameter in a local method corresponds to using the parameter value 0. The AL method will return the value 0 or '' (empty string).  
 
  A compile-time error occurs if exit is called by using a return parameter from either of the following:  
 
 -   System-defined triggers.  
 
--   Local functions that do not return a value.  
+-   Local methods that do not return a value.  
 
 #### Example  
- The following example shows the use of the exit statement in a local function. Assume that the if statement is used to detect an error. If the error condition is met, then execution is stopped and the local function returns the error code 1.  
+ The following example shows the use of the exit statement in a local method. Assume that the if statement is used to detect an error. If the error condition is met, then execution is stopped and the local method returns the error code 1.  
 
 ```  
 for I := 1 to 1000 do begin  
@@ -622,5 +622,40 @@ for I := 1 to 1000 do begin
   A[I] := Amount[I] + Total[I];  
 end;  
 ```  
+
+## AL break Statement
+You use the break statement to terminate the iterative statement in which it appears.  
+
+```  
+break;  
+```  
+
+ You typically use the break statement in the repeating statements such as for, <!--NAV forEACH, -->while, or repeat to stop an iteration or loop when certain conditions are met.  
+
+> [!NOTE]  
+>  The break statement is different than the [Break Method \(Report, XMLport\)](methods/devenv-break-method-report-xmlport.md). Although both stop an iteration or loop, the break method will also terminate the trigger in which it is run.  
+
+## Example  
+ The following AL code increases the variable I by one for each iteration, and terminates the iteration when I equals 10.  
+
+```  
+WHILE Count < 1000 DO
+  BEGIN
+  Count := Count + 1;
+  MESSAGE(FORMAT(Count));
+  IF Count = 10 THEN
+    break;
+  end; 
+end; 
+ 
+```  
+
+This example requires the following integer data type variable.  
+
+```  
+var  
+  I : integer
+```
+
 ## See Also
 [Programming in AL](devenv-programming-in-al.md)
