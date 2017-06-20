@@ -11,7 +11,7 @@ ms.assetid: 4bb3447d-246e-43c1-a83e-10424955b497
 caps.latest.revision: 21
 ---
 # How to: Remove UI Elements Using the AccessByPermission Property
-UI elements that are directly related to an object through the **TableRelation** or the **CalcFormula** property can be removed automatically according to the license file and/or user permissions. For more information, see [How to: Specify When UI Elements Are Removed](How-to--Specify-When-UI-Elements-Are-Removed.md).  
+UI elements that are directly related to an object through the **TableRelation** or the **CalcFormula** property can be removed automatically according to the license file and/or user permissions. For more information, see [How to: Specify When UI Elements Are Removed](How-to-Specify-When-UI-Elements-Are-Removed.md).  
   
  For UI elements that are not directly related to an object, you can use the **AccessByPermission** property to remove an element according to the user’s permission to a related object.  
   
@@ -20,7 +20,7 @@ UI elements that are directly related to an object through the **TableRelation**
  To make full use of the **LicenseFileAndUserPermissions** option in the **UI Elements Removal** field, it is recommended that you assign the special permission set, FOUNDATION, along with the relevant permission sets that define which application objects the user will access.  
   
 > [!IMPORTANT]  
->  The majority of the permission sets that are provided with the [!INCLUDE[demo](../includes/demo_md.md)] demonstration database cannot be combined with the FOUNDATION permission set to fully use the UI Elements Removal feature. You must first create or edit the relevant permission sets to avoid that the user is blocked from performing the involved tasks. For more information, see [How to: Create or Modify Permission Sets](How-to--Create-or-Modify-Permission-Sets.md).  
+>  The majority of the permission sets that are provided with the [!INCLUDE[demo](../includes/demo_md.md)] demonstration database cannot be combined with the FOUNDATION permission set to fully use the UI Elements Removal feature. You must first create or edit the relevant permission sets to avoid that the user is blocked from performing the involved tasks. For more information, see [How to: Create or Modify Permission Sets](How-to-Create-or-Modify-Permission-Sets.md).  
 >   
 >  If you only use the **LicenseFile** option in the **UI Elements Removal** field, then you do not have to edit any permission sets as they will not affect which UI elements are removed.  
   

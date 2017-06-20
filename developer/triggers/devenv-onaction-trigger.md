@@ -1,7 +1,7 @@
 ---
 title: "OnAction Trigger"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,9 +26,9 @@ OnAction()
 -   Page actions  
 
 ## Remarks  
- This is called after the action properties, such as the [RunObject Property](../devenv-RunObject-Property.md), are invoked.  
+ This is called after the action properties, such as the [RunObject Property](../properties/devenv-runobject-property.md), are invoked.  
 
- You typically use the [RunObject Property](../devenv-RunObject-Property.md) to run objects such as pages, reports, and codeunits from an action. You can use the OnAction trigger when you require more processing than the [RunObject Property](../devenv-RunObject-Property.md) can support, such as filtering data before a page is displayed or writing to the database.  
+ You typically use the [RunObject Property](../properties/devenv-runobject-property.md) to run objects such as pages, reports, and codeunits from an action. You can use the OnAction trigger when you require more processing than the [RunObject Property](../properties/devenv-runobject-property.md) can support, such as filtering data before a page is displayed or writing to the database.  
 
 > [!NOTE]  
 >  The OnAction trigger is not used on Role Center pages. If you add AL code to the trigger, the Role Center page will compile, but the AL code will be ignored at runtime.  

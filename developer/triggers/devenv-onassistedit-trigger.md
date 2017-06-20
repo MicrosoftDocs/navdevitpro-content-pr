@@ -1,7 +1,7 @@
 ---
 title: "OnAssistEdit Trigger"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # OnAssistEdit Trigger
-Executed in place of the [AssistEdit Property](../devenv-AssistEdit-Property.md) features that are provided in the application.  
+Executed in place of the [AssistEdit Property](../properties/devenv-assistedit-property.md) features that are provided in the application.  
 
 ## Applies To  
  Fields on pages  
