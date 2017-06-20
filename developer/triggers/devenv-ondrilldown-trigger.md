@@ -1,7 +1,7 @@
 ---
 title: "OnDrillDown Trigger"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -22,7 +22,7 @@ Overrides the default drill-down behavior defined in the table definition for th
 ## Remarks  
  If there is an error in the trigger code, the drilldown is canceled. You can use this trigger to write to the database.  
 
- This trigger overrides the [DrillDownPageID Property](../devenv-DrillDownPageID-Property.md) setting of the FlowField.  
+ This trigger overrides the [DrillDownPageID Property](../properties/devenv-drilldownpageid-property.md) setting of the FlowField.  
 
 ## See Also  
  [Triggers](devenv-triggers.md)
