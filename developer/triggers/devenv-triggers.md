@@ -1,7 +1,7 @@
 ---
 title: "Triggers"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -28,5 +28,5 @@ Triggers are available for the different objects as described in the following s
 
 ## See Also  
  [AL Methods](../methods/devenv-al-methods.md)   
- [Properties](../../properties.md)   
- [Triggers Overview](Triggers-Overview.md)
+ [Properties](../properties/devenv-properties.md)   
+ [Triggers Overview](../triggers-overview.md)

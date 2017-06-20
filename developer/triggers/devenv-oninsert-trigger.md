@@ -1,7 +1,7 @@
 ---
 title: "OnInsert Trigger"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -20,8 +20,8 @@ Executed when a user inserts a new record into the table.
 ## Remarks  
  This trigger is executed before default insert behavior occurs. The new record is not inserted if an error occurs in the trigger code.  
   
- In tables where records are entered in pages that have the [DelayedInsert Property](../devenv-DelayedInsert-Property.md) set to **Yes**, we recommend that you write any code that is in an OnInsert trigger so that it will always succeed. For example, this applies to journal lines.  
+ In tables where records are entered in pages that have the [DelayedInsert Property](../properties/devenv-delayedinsert-property.md) set to **true**, we recommend that you write any code that is in an OnInsert trigger so that it will always succeed. For example, this applies to journal lines.  
   
 ## See Also  
  [Triggers](devenv-triggers.md)   
- [PasteIsValid Property](../devenv-PasteIsValid-Property.md)
+ [PasteIsValid Property](../properties/devenv-pasteisvalid-property.md)

@@ -1,7 +1,7 @@
 ---
 title: "OnLookup (Page fields) Trigger"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -34,7 +34,7 @@ OnLookup(TextString)
 
 -   Default Lookup - The lookup into the table is performed without applying filters or other special parameters.  
 
--   Field Lookup - You can define a lookup trigger on a field that will be used in place of the default lookup. For more information, see [OnLookup \(Fields\) Trigger](devenv-OnLookup-Fields-Trigger.md).  
+-   Field Lookup - You can define a lookup trigger on a field that will be used in place of the default lookup. For more information, see [OnLookup \(Fields\) Trigger](devenv-onlookup-fields-trigger.md).  
 
 -   Text box Lookup - You can use this trigger to define a lookup based on the value of a text box. This value will be used in place of the default lookup or the field lookup.  
 
@@ -45,7 +45,7 @@ OnLookup(TextString)
  You can use this trigger to write to the database.  
 
 > [!NOTE]  
->  **OnLookup** is also a field trigger at the table level. The flow is different for this trigger. When a lookup is requested, the page field's OnLookup trigger is executed if it is defined in the field lookup or system default. If no control lookup trigger is defined, the [OnLookup \(Fields\) Trigger](devenv-OnLookup-Fields-Trigger.md) \(if defined\) replaces the system default lookup .  
+>  **OnLookup** is also a field trigger at the table level. The flow is different for this trigger. When a lookup is requested, the page field's OnLookup trigger is executed if it is defined in the field lookup or system default. If no control lookup trigger is defined, the [OnLookup \(Fields\) Trigger](devenv-onlookup-fields-trigger.md) \(if defined\) replaces the system default lookup .  
 
 ## See Also  
  [Triggers](devenv-triggers.md)

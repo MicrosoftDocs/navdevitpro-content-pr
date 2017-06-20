@@ -1,7 +1,7 @@
 ---
 title: "OnBeforeInsertRecord Trigger"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -20,7 +20,7 @@ Executed after a record has been loaded and before it is inserted into a databas
 ## Remarks  
  This trigger is only used to import data. It is typically used for evaluation or calculations before the record is inserted into the database table.  
   
- If the [AutoSave Property](../devenv-AutoSave-Property.md) is **No**, then although the record is not inserted automatically, the OnBeforeInsertRecord trigger is still called before the insertion would have occurred.  
+ If the [AutoSave Property](../properties/devenv-autosave-property.md) is **false**, then although the record is not inserted automatically, the OnBeforeInsertRecord trigger is still called before the insertion would have occurred.  
   
 ## See Also  
  [Triggers](devenv-triggers.md)
