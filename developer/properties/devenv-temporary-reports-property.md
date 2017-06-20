@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: badb7598-d6c1-4b16-96bc-170e0ee79382
 caps.latest.revision: 7
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Temporary Property (Reports)
 Sets whether a temporary table is used to store the data set that is returned for columns of a data item.  

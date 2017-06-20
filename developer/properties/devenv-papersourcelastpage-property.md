@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 1947a79f-ea51-4e9a-b814-0d126ffffbca
 caps.latest.revision: 8
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # PaperSourceLastPage Property
 Specifies which paper source to use when printing the last page of the report.  

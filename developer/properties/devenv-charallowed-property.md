@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 0159477c-28e5-4a3c-b6fd-615f7524b495
 caps.latest.revision: 11
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # CharAllowed Property
 Sets the range of characters the user can enter into this field or control.  

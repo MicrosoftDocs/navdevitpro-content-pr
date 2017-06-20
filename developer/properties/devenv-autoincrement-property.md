@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 7d9e7a7a-238f-4f7f-8934-aecef8a44c24
 caps.latest.revision: 8
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # AutoIncrement Property
 Sets whether the field value should be automatically incremented.  
@@ -21,7 +21,7 @@ Sets whether the field value should be automatically incremented.
  **True** if the field value is automatically incremented; otherwise, **false**. The default value is **true**.  
   
 > [!NOTE]  
->  If you want to manually assign a value to a field that has the AutoIncrement property set to **true**, you must be member of the SQL Server db\_owner database permission set.  
+>  If you want to manually assign a value to a field that has the AutoIncrement property set to **true**, you must be member of the SQL Server db_owner database permission set.  
   
 ## Remarks  
  A table can only contain one auto-increment field. The numbers assigned to this field will not always be consecutive for the following reasons:  

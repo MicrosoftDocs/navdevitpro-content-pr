@@ -9,9 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 4cc3abda-36ac-4003-8d08-534c23beae21
 caps.latest.revision: 8
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
-# DataCaptionExpr Property
+# DataCaptionExpression Property
 Sets an AL expression that is evaluated and displayed to the left of the page caption.  
   
 ## Applies To  

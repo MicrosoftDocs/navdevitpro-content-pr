@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 7f3e261c-65ba-4adc-9fba-344a6eca8146
 caps.latest.revision: 6
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # PasteIsValid Property
 Sets whether inserting records into this table using the paste command is enabled.  

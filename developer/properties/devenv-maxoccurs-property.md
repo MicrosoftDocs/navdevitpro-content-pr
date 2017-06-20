@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 10ccbe1e-73e2-472d-9f9b-5202d966a357
 caps.latest.revision: 8
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # MaxOccurs Property
 Sets a value that indicates the maximum number of times an element can occur.  

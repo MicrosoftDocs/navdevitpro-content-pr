@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: eeccbef1-5908-4b08-b61d-3ddb1553c1dd
 caps.latest.revision: 12
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # ExtendedDataType Property
 Sets the extended data type of a control.  

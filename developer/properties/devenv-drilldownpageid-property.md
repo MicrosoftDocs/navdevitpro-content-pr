@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: c8c4430a-8697-4dde-ae9e-275f03ae7d5d
 caps.latest.revision: 16
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # DrillDownPageID Property
 Sets the ID of the page to use as a drill-down.  

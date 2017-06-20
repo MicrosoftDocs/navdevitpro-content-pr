@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 6da1a506-dee6-4b88-a959-724e614f9cee
 caps.latest.revision: 6
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # DeleteAllowed Property
 Sets a value that specifies whether users can delete records while using the  page.  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: ba7eb2b6-b5e7-4b52-a40a-1bdfb76fd0c4
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # BitmapPos Property
 Sets the position of a bitmap.  
@@ -29,8 +29,8 @@ Sets the position of a bitmap.
 |**Value**|**Description**|  
 |---------------|---------------------|  
 |**None**|None \(the bitmap is not displayed\)|  
-|**Left \(default for command buttons, check boxes, option buttons\)**|On the left|  
-|**Right \(default for menu buttons\)**|On the right|  
+|**Left (default for command buttons, check boxes, option buttons)**|On the left|  
+|**Right (default for menu buttons)**|On the right|  
 |**Top**|At the top|  
 |**Bottom**|At the bottom|  
 |**Center**|In the center|  

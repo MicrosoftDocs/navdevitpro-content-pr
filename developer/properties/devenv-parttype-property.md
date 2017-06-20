@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 349c9d29-18c7-4544-8560-f4eabba8f3fb
 caps.latest.revision: 11
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # PartType Property
 Sets the content type that can display in a part FactBox.  

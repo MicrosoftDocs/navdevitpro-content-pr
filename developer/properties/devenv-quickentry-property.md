@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 6d7713f7-4d68-4989-8ed5-4dec80ae7334
 caps.latest.revision: 12
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # QuickEntry Property
 Specifies if the page control should have input focus. The default value of the property is **true**. To specify that a control can be skipped, change this value to **false**.  

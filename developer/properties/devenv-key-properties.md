@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 801dacf4-db90-4457-84cf-272cf9262dc7
 caps.latest.revision: 12
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Key Properties
 The keys associated with a table have properties that describe their behavior, just as tables and fields do. When you create a key, [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] automatically suggests a number of default values for these properties. Depending on the purpose of the key, you will sometimes want to change these default values.  

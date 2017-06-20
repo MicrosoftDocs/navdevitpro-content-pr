@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 30ab793b-e57e-4f48-93a3-fb7abd61b9e1
 caps.latest.revision: 4
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # DefaultNamespace Property
 Specifies the default namespace for both the [IMPORT Method \(XMLport\)](../methods/devenv-IMPORT-Method-XMLport.md) and [EXPORT Method \(XMLport\)](../methods/devenv-EXPORT-Method-XMLport.md) methods.  

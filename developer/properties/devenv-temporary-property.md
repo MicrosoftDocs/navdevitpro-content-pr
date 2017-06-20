@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: e12a808e-652f-467e-a8b1-768b6dba429d
 caps.latest.revision: 4
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Temporary Property
 Sets whether a temporary table is created.  

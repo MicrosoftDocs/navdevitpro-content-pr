@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 4a2da080-292d-49b1-9499-48e2931e9d37
 caps.latest.revision: 3
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # OnMissingLicense Property
 Specifies what happens to the event subscriber function call when the license of the [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] user account that is running the current session does not include the codeunit that contains the subscriber function.  

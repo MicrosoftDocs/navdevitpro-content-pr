@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 0745a889-d9ba-4023-a4a8-dba74097ddd0
 caps.latest.revision: 15
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # ToolTip Property
 Sets whether tooltips are provided for the given control, such as a field or action. The tooltip value is taken from the [ToolTipML Property](devenv-tooltipml-property.md) if this property is set.

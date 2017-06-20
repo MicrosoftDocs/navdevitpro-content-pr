@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 300855cc-e2dd-483c-8f70-6b48c4abef06
 caps.latest.revision: 6
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # UseDefaultNamespace Property
 Specifies whether the value in default namespace should be used for both output and input XML documents.  

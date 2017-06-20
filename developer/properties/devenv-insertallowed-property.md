@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: b7e1c667-3c54-408b-a8a1-4bf5952e3f72
 caps.latest.revision: 10
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # InsertAllowed Property
 Sets a value to specify whether users can add records while using a page.  

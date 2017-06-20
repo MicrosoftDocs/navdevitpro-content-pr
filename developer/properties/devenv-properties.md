@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 0ff73303-b92d-4ce0-9a41-3952f8de7b7a
 caps.latest.revision: 13
-manager: edupont04
+author: SusanneWindfeldPedersen04
 ---
 # Properties
 This section describes all properties that are available to developers in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].  

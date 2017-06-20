@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: f4d4594a-ef77-4f13-989f-28912b82a3d4
 caps.latest.revision: 12
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # MaxValue Property
 Sets the maximum numeric value for a field.  

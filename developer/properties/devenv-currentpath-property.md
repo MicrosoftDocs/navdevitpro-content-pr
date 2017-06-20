@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: ff3dbf35-e1de-48f4-967f-1c8c3ae05e26
 caps.latest.revision: 2
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # CurrentPath Property
 Returns the path of the current node as a text string.  

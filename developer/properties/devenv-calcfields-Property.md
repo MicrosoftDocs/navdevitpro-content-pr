@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 88fa557c-b6e7-4974-871f-6b2af85c284d
 caps.latest.revision: 8
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # CalcFields Property
 Sets a list of FlowFields to automatically calculate.  
@@ -24,5 +24,5 @@ Sets a list of FlowFields to automatically calculate.
  Use the **AssistEdit** button to select the FlowFields.  
   
 ## See Also  
- [FlowFields](FlowFields.md)   
+ [FlowFields](../devenv-flowfields.md)   
  [Properties](devenv-properties.md)
