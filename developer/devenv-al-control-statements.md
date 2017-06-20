@@ -9,18 +9,15 @@ ms.topic: article
 ms.prod: "dynamics-365-financials"
 ms.assetid: cea1b445-58fe-4c4d-9843-7700e64bb46f
 caps.latest.revision: 8
-manager: edupont
+author: jswymer
 ---
 # AL Control Statements
 All the AL programs that you create consist of one or more statements, which are executed sequentially in top-down order. However, you will often need to control the direct top-down flow of the execution. One or more statements may have to be repeated more than once, or you may have to make the execution of a certain statement conditional. To do this, you use control structures.  
 
-The control structures in AL are divided into the following main groups:  
-
--   [AL Compound Statements](C-AL-Compound-Statements.md)  
-
--   [AL Conditional Statements](C-AL-Conditional-Statements.md)  
-
--   [AL Repetitive Statements](C-AL-Repetitive-Statements.md)
+The control structures in AL are divided into the following main groups, as described in this article:  
+-   Compound Statements
+-   Conditional Statements
+-   Repetitive Statements
 
 ## AL Compound Statements
 In some cases, the AL syntax only lets you use a single statement. However, if you have to execute more than one simple statement, the statements can be written as a compound statement by enclosing the statements between the begin and end keywords.  
@@ -210,7 +207,7 @@ end;
 > [!NOTE]  
 >  This type conversion can cause an overflow at run time if the resulting data type cannot hold the values of the datasets.  
 
-For more information about Code variables, see [Code Data Type](../methods/dev-env-code-data-type.md).  
+For more information about Code variables, see [Code Data Type](datatypes/devenv-code-data-type.md).  
 
 #### Programming Conventions  
  When you use a case statement, indent the value sets by two character spaces. If you have two or more value sets on the same line, then separate them by commas without spaces. The last value set on a line is immediately followed by a colon without a preceding space. The action starts on the line after the value set and is further indented by two character spaces. If there is a begin, then it should be put on a separate line unless it follows else. If a begin follows an else, then it should be on the same line as else.  
