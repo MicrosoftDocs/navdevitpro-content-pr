@@ -29,6 +29,3 @@ Specifies the name of the database schema of the external database.
  [ExternalSchema Property](devenv-externalschema-property.md)   
  [Name Property](devenv-name-property.md)   
  [Properties](devenv-properties.md)   
- [Table Designer](uiref/-$-S_2102-Table-Designer-$-.md)   
- [External Tables](External-Tables.md)   
- [Customizing Dynamics CRM and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)

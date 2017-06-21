@@ -16,7 +16,7 @@ Specifies whether global methods in the object that contains the event publisher
   
 ## Applies to  
   
--   AL Methods.  
+-   AL Methods  
   
      This property is only available when the [Event Property](devenv-event-property.md) is set to **Publisher**.  
   

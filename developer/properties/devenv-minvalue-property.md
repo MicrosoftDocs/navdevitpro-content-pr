@@ -21,7 +21,7 @@ Sets the minimum value for a field.
 ## Property Value  
   
 |**Value**|**Description**|  
-|---------------|---------------------|  
+|---------|---------------|  
 |**0**|Integers|  
 |**0.0**|Decimals|  
 |**January 1, 0**|Dates|  

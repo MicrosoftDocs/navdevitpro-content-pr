@@ -20,7 +20,7 @@ Sets a value that indicates the maximum number of times an element can occur.
 ## Property Value  
   
 |**SourceType**|**Default**|  
-|--------------------|-----------------|  
+|--------------|-----------|  
 |**Table**|Unbounded|  
 |**Text**|Unbounded|  
 |**Field**|Once|  

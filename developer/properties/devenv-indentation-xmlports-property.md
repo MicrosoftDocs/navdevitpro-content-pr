@@ -9,7 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 5c2d7eb6-0839-462c-9034-19777012c2aa
 caps.latest.revision: 5
+author: SusanneWindfeldPedersen
 ---
+
 # Indentation Property (XMLports)
 Sets the indentation level of an element or an attribute in **XMLport Designer**.  
   
