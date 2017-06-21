@@ -23,6 +23,6 @@ You typically set this property when you are create new pages, but you can chang
 The exception is the value *API*. Pages of this type are used to generate web service endpoints and cannot be shown in the user interface.  
 
 ## See Also  
- [Pages](Pages.md)   
- [How to: Create a Page](How-to--Create-a-Page.md)   
- [Properties](devenv-properties.md)
+ [Page Properties](devenv-page-properties.md)  
+ [Properties](devenv-properties.md)  
+ [Pages Overview](../devenv-pages-overview.md)  

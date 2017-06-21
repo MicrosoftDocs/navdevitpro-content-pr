@@ -15,7 +15,7 @@ author: SusanneWindfeldPedersen
 Sets whether hyperlinks to URLs are allowed on reports.  
   
 ## Applies To  
- Client report definition \(RDLC\) report layouts  
+ Client report definition (RDLC) report layouts  
   
 ## Property Value  
  **True** if links to other URLs from the report are allowed; otherwise, **true**. The default is **false**.  
@@ -31,4 +31,5 @@ Sets whether hyperlinks to URLs are allowed on reports.
   
 ## See Also  
  [Properties](devenv-properties.md)   
- [Designing Reports](Designing-Reports.md)
+ <!--
+ [Designing Reports](Designing-Reports.md) -->

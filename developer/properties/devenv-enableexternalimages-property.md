@@ -15,7 +15,7 @@ author: SusanneWindfeldPedersen
 Sets whether external images are allowed on a report.  
   
 ## Applies To  
- Client report definition \(RDLC\) report layouts  
+ Client report definition (RDLC) report layouts  
   
 ## Property Value  
  **True** if external images are allowed; otherwise, **false**. The default is **false**.  
@@ -34,7 +34,7 @@ Sets whether external images are allowed on a report.
     > [!IMPORTANT]  
     >  To display an external image in the [!INCLUDE[nav_web](includes/nav_web_md.md)] or, if the network uses a proxy, then you have to configure the client to bypass the proxy. To do this, you modify the web.config file of the website that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. For more information, see [Adding Images to a Report \(Visual Studio Report Designer\)](http://go.microsoft.com/fwlink/?LinkID=262389).  
  --> 
- For information about how to add images using Visual Studio Report Designer, see [Adding Images to a Report \(Visual Studio Report Designer\)](http://go.microsoft.com/fwlink/?LinkID=184562&clcid=0x409).  
+ For information about how to add images using Visual Studio Report Designer, see [Adding Images to a Report (Visual Studio Report Designer)](http://go.microsoft.com/fwlink/?LinkID=184562&clcid=0x409).  
   
 ## Security Considerations  
  [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] cannot verify image sources and protect against malicious images or sources that may be harmful to your computer. You should set the **EnableExternalImages** property to **true** only if you can ensure that images on the report come from a trusted source.  
@@ -42,4 +42,5 @@ Sets whether external images are allowed on a report.
 ## See Also  
  [Properties](devenv-properties.md)   
  [Designing Reports](Designing-Reports.md)   
- [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md)
+ <!--
+ [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md) -->

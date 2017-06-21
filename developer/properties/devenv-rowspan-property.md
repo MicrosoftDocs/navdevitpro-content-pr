@@ -28,9 +28,11 @@ Sets the number of rows that a field spans in a GridLayout control.
  If you set Field 1 to span two rows, then the following layout is displayed:  
   
  ![GridLayout showing row span](../media/NAVGridLayoutRowSpan.png "NAVGridLayoutRowSpan")  
-  
+
+<!--  //NAV
 > [!IMPORTANT]  
->  The RowSpan property is not supported by the [!INCLUDE[nav_web](../includes/nav_web_md.md)]. If the page displays in the [!INCLUDE[nav_web](../includes/nav_web_md.md)], then the property is ignored and the field will not span any rows.  
+>  The RowSpan property is not supported by the [!INCLUDE[nav_web](../includes/nav_web_md.md)]. If the page displays in the [!INCLUDE[nav_web](../includes/nav_web_md.md)], then the property is ignored and the field will not span any rows.  -->
   
 ## See Also  
- [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How-to--Arrange-Fields-in-Rows-and-Columns-Using-the-GridLayout-Control.md)
+<!--
+ [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How-to--Arrange-Fields-in-Rows-and-Columns-Using-the-GridLayout-Control.md) -->

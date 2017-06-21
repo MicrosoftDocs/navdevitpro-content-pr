@@ -29,7 +29,7 @@ Sets whether an object has additional permission required to perform some operat
 -   XMLports  
   
 ## Remarks  
- The license file determines the permissions that users have within Microsoft Dynamics 365 for Financials. These permissions are further refined by the security permissions that you grant the different users.  
+ The license file determines the permissions that users have within [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. These permissions are further refined by the security permissions that you grant the different users.  
   
  Sometimes the license file only gives you indirect permission to perform operations on certain tables. Security permissions can also be used to give users only indirect permission to certain tables. If you only have indirect permission to, for example, insert data into a particular table, you cannot insert data into this table from the standard user interface. You must use a database object that has been given extra permission to insert data into the table in question.  
   

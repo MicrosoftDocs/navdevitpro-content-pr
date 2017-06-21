@@ -12,7 +12,7 @@ caps.latest.revision: 3
 author: SusanneWindfeldPedersen
 ---
 # Owner Property
-Sets the [!INCLUDE[nav_server](../includes/nav_server_md.md)] user who owns the object in the BLOB field of a table object.  
+Sets the user who owns the object in the BLOB field of a table object.  
   
 ## Applies To  
   

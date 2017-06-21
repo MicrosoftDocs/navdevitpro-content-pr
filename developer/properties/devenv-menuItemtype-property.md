@@ -21,7 +21,7 @@ Sets the value for the type of menu item.
   
 |**Value**|**Description**|  
 |---------------|---------------------|  
-|**MenuItem \(default\)**|If the menu item is a standard menu item|  
+|**MenuItem (default)**|If the menu item is a standard menu item|  
 |**Separator**|If the menu item separates other items|  
   
 ## Remarks  
