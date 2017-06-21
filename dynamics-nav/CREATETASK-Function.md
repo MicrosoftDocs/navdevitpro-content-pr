@@ -76,5 +76,5 @@ TASKSCHEDULER.CREATETASK(CODEUNIT::"Job Queue Dispatcher", CODEUNIT::"Job Queue 
  [Task Scheduler](Task-Scheduler.md)  
  [TaskScheduler Data Type](TaskScheduler-Data-Type.md)   
  [CANCELTASK Function](CANCELTASK-Function.md)   
- [SETTASKASREADY Function](SETTASKASREADY-Function.md)   
+ [SETTASKREADY Function](SETTASKREADY-Function.md)   
  [TASKEXISTS Function](TASKEXISTS-Function.md)
