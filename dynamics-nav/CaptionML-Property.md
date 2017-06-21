@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 3390a39e-12ce-4d42-a55a-d00c48ca9a7c
 caps.latest.revision: 21
 manager: edupont
+author: jswymer
 ---
 # CaptionML Property
 Sets the string that is used to identify a control or other object in the user interface.  
@@ -56,6 +57,8 @@ Sets the string that is used to identify a control or other object in the user i
  When you export objects as XML, the CaptionML property values are included.  
 
 > [!NOTE]  
+>  On Role Center type pages, the CaptionML property value is used as the display name for the associated Profile in the client.
+
 >  For query columns, when you run the query from Object Designer, the About This Query window that opens in the [!INCLUDE[rtc](includes/rtc_md.md)] displays the value for the [Name Property](Name-Property.md) of the query column, not the [CaptionML Property](CaptionML-Property.md).  
 
 ## Default Values  

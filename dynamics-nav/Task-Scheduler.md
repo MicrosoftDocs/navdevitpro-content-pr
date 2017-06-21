@@ -19,7 +19,7 @@ The task scheduler enables you to control when certain operations or processes \
 |Function|Description|For more information, see|  
 |--------------|-----------------|-------------------------------|  
 |CREATETASK|Adds a task to run a codeunit at a specified date and time.|[CREATETASK Function](CREATETASK-Function.md)|  
-|SETTASKASREADY|Sets a task to the **Ready** state. A task cannot run until it is **Ready**.|[SETTASKASREADY Function](SETTASKASREADY-Function.md)|  
+|SETTASKREADY|Sets a task to the **Ready** state. A task cannot run until it is **Ready**.|[SETTASKREADY Function](SETTASKREADY-Function.md)|  
 |TASKEXISTS|Checks whether a specific task exists.|[TASKEXISTS Function](TASKEXISTS-Function.md)|  
 |CANCELTASK|Cancels a scheduled task.|[CANCELTASK Function](CANCELTASK-Function.md)|  
 

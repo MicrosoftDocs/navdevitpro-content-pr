@@ -12,12 +12,16 @@ The table objects are saved as .txt files.
 
 ## SYNTAX
 
+### NormalParameters
 ```
-New-NAVCrmTable [-CRMServer] <Uri> [-Credential] <PSCredential> [-EntityLogicalName] <String[]>
- [-ObjectId] <Int32[]> [-Name <String[]>] [-AuthenticationType <String>] [-OutputPath <String>] [-Force]
- [-WhatIf] [-Confirm] [<CommonParameters>]
+New-NAVCrmTable [-CRMServer] <Uri> [-Credential] <PSCredential> [-EntityLogicalName] <string[]> [-ObjectId] <int[]> [-AuthenticationType <CrmAuthentication> {AD | IFD | Office365 | OAuth}] [-ClientId <string>]
+[-Domain <string>] [-Force <SwitchParameter>] [-HomeRealmUri <string>] [-Name <string[]>] [-OutputPath <string>] [-RedirectUri <string>] [<CommonParameters>]
 ```
-
+### PassThroughConnectionString
+```
+New-NAVCrmTable [-EntityLogicalName] <string[]> [-ObjectId] <int[]>
+-ConnectionString <string> [-Force <SwitchParameter>] [-Name <string[]>] [-OutputPath <string>] [<CommonParameters>]
+```
 ## DESCRIPTION
 Use this cmdlet when integrating Dynamics NAV with Dynamics CRM.
 This cmdlet creates one or more table objects in Dynamics NAV that correspond to entities in Dynamics CRM.
@@ -42,7 +46,7 @@ Only external tables that are based on by actual Dynamics CRM entities are suppo
 
 ### EXAMPLE 1
 ```
-New-NavCrmTable -Server myserver.crm.dynamics.com -Credential (Get-Credential -UserName user@myserver.onmicrosoft.com -Message "Enter Password") -EntityLogicalName account -Name "CRM Account" -ObjectId 50500 -OutputPath c:\CrmObjects
+New-NavCrmTable -CRMServer myserver.crm.dynamics.com -Credential (Get-Credential -UserName user@myserver.onmicrosoft.com -Message "Enter Password") -EntityLogicalName account -Name "CRM Account" -ObjectId 50500 -OutputPath c:\CrmObjects
           FileName    : c:\CrmObjects\TAB50500.TXT
           ObjectType  : Table
           Id          : 50500
@@ -57,7 +61,7 @@ The created table has the ID 50500 and name CRM Account.
 
 ### EXAMPLE 2
 ```
-New-NavCrmTable -Server myserver.crm.dynamics.com -Credential (Get-Credential -UserName user@myserver.onmicrosoft.com -Message "Enter Password") -Entity account,contact -Name "CRM Account","CRM Contact" -ObjectId 50500,50501 -OutputPath c:\CrmObjects
+New-NavCrmTable -CRMServer myserver.crm.dynamics.com -Credential (Get-Credential -UserName user@myserver.onmicrosoft.com -Message "Enter Password") -Entity account,contact -Name "CRM Account","CRM Contact" -ObjectId 50500,50501 -OutputPath c:\CrmObjects
           FileName    : C:\CrmObjects\TAB50500.TXT
           ObjectType  : Table
           Id          : 50500
@@ -76,16 +80,37 @@ New-NavCrmTable -Server myserver.crm.dynamics.com -Credential (Get-Credential -U
 
 This example creates two Dynamics NAV table objects based on the account and contact entities in Dynamics CRM.
 
+### EXAMPLE 3
+```
+New-NavCrmTable -CRMServer https://myserver.local.com/myOrg -Credential (Get-Credential -UserName myserver\UserName -Message "Enter Password")  -AuthenticationType=AD -Entity account,contact -Name "CRM Account","CRM Contact" -ObjectId 50500,50501 -OutputPath c:\CrmObjects
+```
+This example creates two Dynamics NAV table objects based on the account and contact entities in on-premise Dynamics CRM installation using an  with Azure AD authentication.
+
+### EXAMPLE 4
+```
+New-NavCrmTable -CRMServer . -Credential (Get-Credential -UserName "." -Password ".") -ConnectionString "Url=http://myserver.net/org;UserName=myServer\MyUser;Password=myPassword;AuthType=AD" -Entity account,conta -Name "CRM Account","CRM Contact" -ObjectId 50500,50501 -OutputPath c:\CrmObjects
+
+```
+This example creates two Dynamics NAV table objects based on the account and contact entities in Dynamics CRM using a user specified custom connection string.
+
 ## PARAMETERS
 
 ### -AuthenticationType
-Specifies authentication type to use when connecting to Dynamics CRM, such as AD, OAuth, or Office365.
+Specifies the authentication type to connect to Dynamics CRM instance.
+-   OAuth is supported for online and on-premises instances.
+-   AD and IFD (AD FS enabled) are supported for on-premises instances only.
+-   Office365 is permitted for online instances only.
 
-The AuthenticationType parameter is optional. The default value is Office365. For a list of valid values, see [AuthenticationType Enumeration](https://aka.ms/dynamicscrmauthenticationtypeenumeration).
+The AuthenticationType parameter is optional. For a list of valid
+values, see [AuthenticationType Enumeration](https://aka.ms/dynamicscrmauthenticationtypeenumeration).
+The default value is Office365, which is the required authentication
+type for CRM Online.
+
+Possible values: AD, IFD, Office365, OAuth
 
 ```yaml
-Type: String
-Parameter Sets: (All)
+Type: Enumeration
+Parameter Sets: NormalParameters
 Aliases:
 
 Required: False
@@ -103,7 +128,7 @@ For connecting to Dynamics CRM Online, the format is typically scheme://organiza
 
 ```yaml
 Type: Uri
-Parameter Sets: (All)
+Parameter Sets: NormalParameters
 Aliases:
 
 Required: True
@@ -133,7 +158,7 @@ Specifies a user name and password for accessing Dynamics CRM.
 
 ```yaml
 Type: PSCredential
-Parameter Sets: (All)
+Parameter Sets: NormalParameters
 Aliases:
 
 Required: True
@@ -198,6 +223,67 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -RedirectUri
+Specifies the Redirect URI that was assigned to the Dynamics NAV    application when it was registered in Microsoft Azure Active Directory    or Active Directory Federation Services (AD FS). This parameter is    only applicable when the -AuthenticationType parameter is set to OAuth.
+
+```yaml
+Type: String[]
+Parameter Sets: NormalParameters
+Aliases:
+
+Required: False
+Position: Named
+Default value:
+Accept pipeline input: False
+Accept wildcard characters:  False
+```
+
+### -Domain
+Specifies the domain that will verify user credentials.
+
+```yaml
+Type: String[]
+Parameter Sets: NormalParameters
+Aliases:
+
+Required: False
+Position: Named
+Default value:
+Accept pipeline input: False
+Accept wildcard characters:  False
+```
+
+### -HomeRealmUri
+Specifies the Home Realm Uri. This parameter is only applicable when
+the -AuthenticationType parameter is set to OAuth.
+
+```yaml
+Type: String[]
+Parameter Sets: NormalParameters
+Aliases:
+
+Required: False
+Position: Named
+Default value:
+Accept pipeline input: False
+Accept wildcard characters:  False
+```
+
+### -ClientId
+Specifies the Client ID (or Application ID) that was assigned to the Dynamics NAV application when it was registered in Microsoft Azure Active Directory or Active Directory Federation Services (AD FS). This parameter is only applicable when the -AuthenticationType parameter is set to OAuth.
+
+```yaml
+Type: String[]
+Parameter Sets: NormalParameters
+Aliases:
+
+Required: False
+Position: Named
+Default value:
+Accept pipeline input: False
+Accept wildcard characters:  False
+```
+
 ### -ObjectId
 Specifies the IDs of the table objects to be created.
 This parameter is a comma-separated list.
@@ -231,6 +317,24 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+
+### -ConnectionString
+Specifies a passthrough connection string that will be used to connect
+to the Dynamics CRM instance.
+
+For information about how to create a valid connection string, see
+[Use connection strings in XRM tooling to connect to Dynamics 365](https://go.microsoft.com/fwlink/?linkid=848464).
+
+```yaml
+Type: String[]
+Parameter Sets: PassThroughConnectionString
+Aliases:
+
+Required: False
+Position: Named
+Default value:
+Accept pipeline input: False
+Accept wildcard characters:  False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
