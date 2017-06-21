@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 06f309da-8c03-48e7-ae27-4107092d14e7
 caps.latest.revision: 18
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # TransactionType Property
 Sets the transaction type.  

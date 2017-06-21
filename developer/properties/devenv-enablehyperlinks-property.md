@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 19978a91-2af9-4e9e-9f73-64c7be28897f
 caps.latest.revision: 14
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # EnableHyperlinks Property
 Sets whether hyperlinks to URLs are allowed on reports.  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 1e0022d4-97e7-4bed-9cf9-e07e43d8ad85
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # NamespacePrefix Property
 Specifies the namespace prefix on an XMLport element.  

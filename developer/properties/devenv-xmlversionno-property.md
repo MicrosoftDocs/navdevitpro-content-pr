@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 58d119ab-1890-4af1-a4ca-4f62de04709e
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # XMLVersionNo Property
 Set which version of XML the XML document conforms to. Two options are available: 1.0 \(the default\) and 1.1.  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: cd79bfbf-483c-43b0-b884-6230aac3ec5c
 caps.latest.revision: 17
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # ToolTipML Property
 Sets the text used for the tooltip of an action, a field, a factbox, or an activity button.  

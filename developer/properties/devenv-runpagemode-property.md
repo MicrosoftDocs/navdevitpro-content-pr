@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: cab556be-8e1d-48a9-bf2b-fd89e755a609
 caps.latest.revision: 2
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # RunPageMode Property
 Sets the mode in which the page is run. Choose between View, Edit, or Create.  

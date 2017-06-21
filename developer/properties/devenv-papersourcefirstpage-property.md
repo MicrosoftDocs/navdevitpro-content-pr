@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: c927f9e3-e6ef-4046-b0d8-7d38e67a50be
 caps.latest.revision: 13
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # PaperSourceFirstPage Property
 Specifies which paper source to use when printing page one of the report.  

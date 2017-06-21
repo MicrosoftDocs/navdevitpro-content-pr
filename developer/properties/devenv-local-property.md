@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: d19c51cd-2c65-4850-b0cb-97b999436187
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Local Property
 Specifies if a method is local to the object on which the method is defined. A local method cannot be accessed from outside the object.  

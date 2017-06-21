@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 9260df18-1ba9-415d-8f6e-18b601564ffa
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # SystemPartID Property
 Sets pre-defined system parts.  

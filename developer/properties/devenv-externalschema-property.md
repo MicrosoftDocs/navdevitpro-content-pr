@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 8491853b-e9e4-4a8d-9619-07a813c04735
 caps.latest.revision: 2
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # ExternalSchema Property
 Specifies the name of the database schema of the external database.  

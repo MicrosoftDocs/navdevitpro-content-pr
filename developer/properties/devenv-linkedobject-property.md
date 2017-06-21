@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 7b633d2b-5833-47e8-aa92-9e6eb1238cb2
 caps.latest.revision: 6
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # LinkedObject Property
 Use this property to link to SQL Server objects.  

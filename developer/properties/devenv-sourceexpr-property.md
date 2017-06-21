@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 8871aba8-8619-4d2e-8a48-fbef6cf77039
 caps.latest.revision: 8
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # SourceExpr Property
 Sets the source expression for this control.  

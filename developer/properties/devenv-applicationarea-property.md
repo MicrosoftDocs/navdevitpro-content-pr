@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 author: SusanneWindfeldPedersen
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # ApplicationArea Property
 Sets the application areas that apply to the control.  
@@ -24,7 +24,7 @@ Sets the application areas that apply to the control.
 ## Property Values  
  A text string that contains a comma-separated list of application area tags.  
   
- An application area tag must have the format #*name*, where *name* is the application area. The *name* can be any combination of letters (Aa-Zz) and numbers (0-9) without spaces. For example, to specify the **Basic** and **Fixed Assets** application areas, set the property to **\#Basic,\#FixedAssets**.  
+ An application area tag must have the format #*name*, where *name* is the application area. The *name* can be any combination of letters (Aa-Zz) and numbers (0-9) without spaces. For example, to specify the **Basic** and **Fixed Assets** application areas, set the property to **#Basic,#FixedAssets**.  
   
  If the control applies to all application areas, you can set the property to **#All**. This means that the control will always appear in the user interface.  
   

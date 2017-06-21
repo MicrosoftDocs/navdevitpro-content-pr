@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: ccfbe1a3-b0ac-4933-9036-ae499041ecd5
 caps.latest.revision: 4
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # EventMethod Property
 Specifies the event publisher method that the event subscriber method subscribes to.  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 1f39b9ea-fa15-484a-a179-9f3f63e36820
 caps.latest.revision: 8
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # UseRequestPage Property
 Sets whether a request page is presented to the user.  

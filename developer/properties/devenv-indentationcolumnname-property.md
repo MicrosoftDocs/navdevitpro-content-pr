@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 8af95802-5ad7-4dce-96be-9e462f8436d5
 caps.latest.revision: 8
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # IndentationColumnName Property
 Sets the name of the hidden column that controls row indentation in a List page.  

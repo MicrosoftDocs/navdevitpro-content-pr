@@ -9,7 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 0ea708dc-6fd4-499f-b24f-a981173cfdde
 caps.latest.revision: 8
+author: SusanneWindfeldPedersen
 ---
+
 # ColumnSpan Property
 Sets the number of columns that a field spans in a GridLayout control.  
   
@@ -28,10 +30,12 @@ Sets the number of columns that a field spans in a GridLayout control.
  If you set Field 1 to span two columns, then the following layout is displayed:  
   
  ![GridLayout showing column span](media/NAVGridLayoutColSpan.png "NAVGridLayoutColSpan")  
- -->
+ 
   
 > [!IMPORTANT]  
 >  The ColumnSpan property is not supported by the [!INCLUDE[nav_web](../includes/nav_web_md.md)]. If the page displays in the [!INCLUDE[nav_web](../includes/nav_web_md.md)], the property is ignored and the field will not span any columns.  
+
+ -->
   
 ## See Also  
  [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](../devenv-How-to--Arrange-Fields-in-Rows-and-Columns-Using-the-GridLayout-Control.md)

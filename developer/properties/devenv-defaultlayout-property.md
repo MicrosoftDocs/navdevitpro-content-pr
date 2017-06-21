@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: b2f560c0-bda3-467e-8e81-50cdf8e64ed5
 caps.latest.revision: 3
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # DefaultLayout Property
 Specifies whether the report uses the built-in RDLC or Word report layout by default.  

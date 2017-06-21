@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 52162969-4523-4998-813c-341c63f65992
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # EventPublisherObject Property
 Specifies the object that contains the event publisher method that the event subscriber responds to.  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 1b00de44-adbd-4c8e-ad19-bee606f69f48
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # UseSystemPrinter Property
 Sets which printer is suggested when the report is run.  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 1b5963cf-d43e-45ed-b1e0-cb9917ed2c1e
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # DataPerCompany Property
 Sets a value that indicates whether the table data applies to all companies in the database or only the current company.  

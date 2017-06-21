@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: a706d220-a1d8-4ff1-81d6-ee81be6f3323
 caps.latest.revision: 7
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # VariableName Properties
 Sets a variable name for the table that you have specified in the [SourceTable Property](devenv-sourcetable-property.md). It is also used to specify a variable name for a text that you have specified in the [SourceType Property](devenv-sourcetype-property.md).  

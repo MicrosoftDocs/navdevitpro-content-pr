@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: bdbfd7ca-01ef-4553-a223-4fc5c80b955d
 caps.latest.revision: 4
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # TableIDExpr Property
 Sets the ID of the table to which you want to apply a table filter.  

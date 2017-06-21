@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 96328bb5-ef6c-413f-9294-e18d6639d919
 caps.latest.revision: 12
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # ID Property
 Sets a unique numeric ID for this codeunit, table, page, report, XMLport, or control.  

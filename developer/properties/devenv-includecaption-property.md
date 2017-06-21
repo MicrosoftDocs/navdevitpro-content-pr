@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 5c155846-4dd6-49d0-a6f5-9af11f725d54
 caps.latest.revision: 8
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # IncludeCaption Property
 Sets whether to include the caption of a field in the dataset of a report.  

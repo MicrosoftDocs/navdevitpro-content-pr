@@ -9,8 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: e394abcd-3510-4cb7-b867-b30ddc32cb6f
 caps.latest.revision: 16
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
+
 # Codeunit Properties
 This topic lists properties that apply to the Codeunit object, variables, text constants, methods, parameters, and return values.  
   
@@ -25,7 +26,7 @@ This topic lists properties that apply to the Codeunit object, variables, text c
   
 -   [SingleInstance Property](devenv-singleinstance-property.md)  
   
--   [SubType Property \(Codeunit\)](devenv-subtype-codeunit-property.md)  
+-   [SubType Property (Codeunit)](devenv-subtype-codeunit-property.md)  
   
 -   [TableNo Property](devenv-tableno-property.md)  
   

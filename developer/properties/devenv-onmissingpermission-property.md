@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 8f682697-4113-4530-af1a-b4ee1ca4b63a
 caps.latest.revision: 3
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # OnMissingPermission Property
 Specifies what happens to the subscriber method call when the [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] user account that is running the current session does not have permission to the codeunit that contains the subscriber method. The permissions are defined by the permission sets on the user account.  

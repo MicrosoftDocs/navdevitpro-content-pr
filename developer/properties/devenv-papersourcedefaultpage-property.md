@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 624acbca-5cbb-433d-a768-9e1ed45c9d97
 caps.latest.revision: 9
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # PaperSourceDefaultPage Property
 Specifies the default paper source to use when printing the report.  

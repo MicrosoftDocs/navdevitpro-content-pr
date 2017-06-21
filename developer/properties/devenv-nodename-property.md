@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 93b5940e-cfea-430d-86a5-0fb924ed793c
 caps.latest.revision: 7
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # NodeName Property
 Sets the name of a node in an XML document.  
