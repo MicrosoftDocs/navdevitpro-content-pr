@@ -2,7 +2,7 @@
 title: "Table Properties"
 author: edupont04
 ms.custom: na
-ms.date: 06/06/2017
+ms.date: 06/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -306,516 +306,270 @@ The following topic lists properties that apply to the table object.
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 |[Width Property](devenv-width-property.md)|X||  
 
--   [AccessByPermission Property](devenv-accessbypermission-property.md)  
-
--   [AltSearchField Property](devenv-altsearchfield-property.md)  
-
--   [AutoFormatExpr Property](devenv-autoformatexpr-property.md)  
-
--   [AutoFormatType Property](devenv-autoformattype-Property.md)  
-
--   [BlankNumbers Property](devenv-blanknumbers-property.md)  
-
--   [BlankZero Property](devenv-blankzero-property.md)  
-
--   [Caption Property](devenv-caption-property.md)  
-
--   [CaptionClass Property](devenv-captionclass-property.md)  
-
--   [CaptionML Property](devenv-captionml-property.md)  
-
--   [Data Type Property](devenv-data-type-property.md)  
-
--   [Description Property](devenv-description-property.md)  
-
--   [Editable Property](devenv-editable-property.md)  
-
--   [Enabled Property](devenv-enabled-property.md)  
-
--   [ExtendedDataType Property](devenv-extendeddatatype-property.md)  
-
--   [Field No. Property](devenv-field-no.-property.md)  
-
--   [FieldClass Property](devenv-fieldclass-property.md)  
-
--   [InitValue Property](devenv-initvalue-property.md)  
-
--   [MaxValue Property](devenv-maxvalue-property.md)  
-
--   [MinValue Property](devenv-minvalue-property.md)  
-
--   [Name Property](devenv-name-property.md)  
-
--   [NotBlank Property](devenv-notblank-property.md)  
-
--   [SignDisplacement Property](devenv-signdisplacement-property.md)  
-
--   [Standard Day-Time Unit Property](devenv-standard-day-time-unit-property.md)  
-
--   [TableRelation Property](devenv-tablerelation-property.md)  
-
--   [TestTableRelation Property](devenv-testtablerelation-property.md)  
-
--   [ValidateTableRelation Property](devenv-validatetablerelation-property.md)  
-
--   [ValuesAllowed Property](devenv-valuesallowed-property.md)  
-
--   [Width Property](devenv-width-property.md)  
-
 ## GUID Properties  
  The following properties apply to the **GUID** field of a table object.  
 
--   [AccessByPermission Property](devenv-accessbypermission-property.md)  
-
--   [AltSearchField Property](devenv-altsearchfield-property.md)  
-
--   [AutoFormatExpr Property](devenv-autoformatexpr-property.md)  
-
--   [AutoFormatType Property](devenv-autoformattype-property.md)  
-
--   [Caption Property](devenv-caption-property.md)  
-
--   [CaptionClass Property](devenv-captionclass-property.md)  
-
--   [CaptionML Property](devenv-captionml-property.md)  
-
--   [Data Type Property](devenv-data-type-property.md)  
-
--   [Description Property](devenv-description-property.md)  
-
--   [Editable Property](devenv-editable-property.md)  
-
--   [Enabled Property](devenv-enabled-property.md)  
-
--   [ExtendedDataType Property](devenv-extendeddatatype-property.md)  
-
--   [Field No. Property](devenv-field-no.-property.md)  
-
--   [FieldClass Property](devenv-fieldclass-property.md)  
-
--   [InitValue Property](devenv-initvalue-property.md)  
-
--   [Name Property](devenv-name-property.md)  
-
--   [NotBlank Property](devenv-notblank-property.md)  
-
--   [TableRelation Property](devenv-tablerelation-property.md)  
-
--   [TestTableRelation Property](devenv-testtablerelation-property.md)  
-
--   [ValidateTableRelation Property](devenv-validatetablerelation-property.md)  
-
--   [ValuesAllowed Property](devenv-valuesallowed-property.md)  
+|Property Name|GUID Object|GUID Extension Object|
+|-------------|-----------|---------------------|
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|X|X|
+|[AltSearchField Property](devenv-altsearchfield-property.md)|X||
+|[AutoFormatExpr Property](devenv-autoformatexpr-property.md)  |X|X|
+|[AutoFormatType Property](devenv-autoformattype-property.md)|X||
+|[Caption Property](devenv-caption-property.md)|X||  
+|[CaptionClass Property](devenv-captionclass-property.md)|X||
+|[CaptionML Property](devenv-captionml-property.md)|X||
+|[Data Type Property](devenv-data-type-property.md)|X||
+|[Description Property](devenv-description-property.md)|X||
+|[Editable Property](devenv-editable-property.md)|X|X|
+|[Enabled Property](devenv-enabled-property.md)|X||
+|[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X|X|
+|[Field No. Property](devenv-field-no.-property.md)|X|X|
+|[FieldClass Property](devenv-fieldclass-property.md)|X|X|
+|[InitValue Property](devenv-initvalue-property.md)|X||
+|[Name Property](devenv-name-property.md)|X||
+|[NotBlank Property](devenv-notblank-property.md)|X|X|
+|[TableRelation Property](devenv-tablerelation-property.md)|X|X|
+|[TestTableRelation Property](devenv-testtablerelation-property.md)|X||
+|[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
+|[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 
 ## Integer Properties  
  The following properties apply to the **Integer** field of a table object.  
 
--   [AccessByPermission Property](devenv-accessbypermission-property.md)  
-
--   [AltSearchField Property](devenv-altsearchfield-property.md)  
-
--   [AutoFormatExpr Property](devenv-autoformatexpr-property.md)  
-
--   [AutoFormatType Property](devenv-autoformattype-property.md)  
-
--   [BlankNumbers Property](devenv-blanknumbers-property.md)  
-
--   [BlankZero Property](devenv-blankzero-property.md)  
-
--   [Caption Property](devenv-caption-property.md)  
-
--   [CaptionClass Property](devenv-captionclass-property.md)  
-
--   [CaptionML Property](devenv-captionml-property.md)  
-
--   [Data Type Property](devenv-data-type-property.md)  
-
--   [Description Property](devenv-description-property.md)  
-
--   [Editable Property](devenv-editable-property.md)  
-
--   [Enabled Property](devenv-enabled-property.md)  
-
--   [ExtendedDataType Property](devenv-extendeddatatype-property.md)  
-
--   [Field No. Property](devenv-field-no.-property.md)  
-
--   [FieldClass Property](devenv-fieldclass-property.md)  
-
--   [InitValue Property](devenv-initvalue-property.md)  
-
--   [MaxValue Property](devenv-maxvalue-property.md)  
-
--   [MinValue Property](devenv-minvalue-property.md)  
-
--   [Name Property](devenv-name-property.md)  
-
--   [NotBlank Property](devenv-notblank-property.md)  
-
--   [SignDisplacement Property](devenv-signdisplacement-property.md)  
-
--   [TableRelation Property](devenv-tablerelation-property.md)  
-
--   [TestTableRelation Property](devenv-testtablerelation-property.md)  
-
--   [ValidateTableRelation Property](devenv-validatetablerelation-property.md)  
-
--   [ValuesAllowed Property](devenv-valuesallowed-property.md)  
-
--   [Width Property](devenv-width-property.md)  
+|Property Name|Integer Object|Integer Extension Object|
+|-------------|-----------|---------------------|
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|X|X|
+|[AltSearchField Property](devenv-altsearchfield-property.md)|X||
+|[AutoFormatExpr Property](devenv-autoformatexpr-property.md)  |X|X|
+|[AutoFormatType Property](devenv-autoformattype-property.md)|X||
+|[BlankNumbers Property](devenv-blanknumbers-property.md)|X|X|
+|[BlankZero Property](devenv-blankzero-property.md)|X|X|
+|[Caption Property](devenv-caption-property.md)|X||  
+|[CaptionClass Property](devenv-captionclass-property.md)|X||
+|[CaptionML Property](devenv-captionml-property.md)|X||
+|[Data Type Property](devenv-data-type-property.md)|X||
+|[Description Property](devenv-description-property.md)|X||
+|[Editable Property](devenv-editable-property.md)|X|X|
+|[Enabled Property](devenv-enabled-property.md)|X||
+|[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X|X|
+|[Field No. Property](devenv-field-no.-property.md)|X|X|
+|[FieldClass Property](devenv-fieldclass-property.md)|X|X|
+|[InitValue Property](devenv-initvalue-property.md)|X||
+|[MaxValue Property](devenv-maxvalue-property.md)|X||
+|[MinValue Property](devenv-minvalue-property.md)|X|
+|[Name Property](devenv-name-property.md)|X||
+|[NotBlank Property](devenv-notblank-property.md)|X|X|
+|[SignDisplacement Property](devenv-signdisplacement-property.md)|X||
+|[TableRelation Property](devenv-tablerelation-property.md)|X|X|
+|[TestTableRelation Property](devenv-testtablerelation-property.md)|X||
+|[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
+|[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
+|[Width Property](devenv-width-property.md)|X||  
 
 ## OemCode Properties  
  The following properties apply to the **OemCode** field of a table object.  
 
--   [AccessByPermission Property](devenv-accessbypermission-property.md)  
-
--   [AltSearchField Property](devenv-altsearchfield-property.md)  
-
--   [AutoFormatExpr Property](devenv-autoformatexpr-property.md)  
-
--   [AutoFormatType Property](devenv-autoformattype-property.md)  
-
--   [Caption Property](devenv-caption-property.md)  
-
--   [CaptionClass Property](devenv-captionclass-property.md)  
-
--   [CaptionML Property](devenv-captionml-property.md)  
-
--   [CharAllowed Property](devenv-charallowed-property.md)  
-
--   [Data Type Property](devenv-data-type-property.md)  
-
--   [DataLength Property](devenv-datalength-property.md)  
-
--   [DateFormula Property](devenv-dateformula-property.md)  
-
--   [Description Property](devenv-description-property.md)  
-
--   [Editable Property](devenv-editable-property.md)  
-
--   [Enabled Property](devenv-enabled-property.md)  
-
--   [ExtendedDataType Property](devenv-extendeddatatype-property.md)  
-
--   [Field No. Property](devenv-field-no.-property.md)  
-
--   [FieldClass Property](devenv-fieldclass-property.md)  
-
--   [InitValue Property](devenv-initvalue-property.md)  
-
--   [Name Property](devenv-name-property.md)  
-
--   [NotBlank Property](devenv-notblank-property.md)  
-
--   [Numeric Property](devenv-numeric-property.md)  
-
--   [TableRelation Property](devenv-tablerelation-property.md)  
-
--   [TestTableRelation Property](devenv-testtablerelation-property.md)  
-
--   [ValidateTableRelation Property](devenv-validatetablerelation-property.md)  
-
--   [ValuesAllowed Property](devenv-valuesallowed-property.md)  
-
--   [SQL Data Type Property](devenv-sql-data-type-property.md)  
-
--   [Width Property](devenv-width-property.md)  
-
--  
-
+|Property Name|OemCode Object|OemCode Extension Object|
+|-------------|-----------|---------------------|
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|X|X|
+|[AltSearchField Property](devenv-altsearchfield-property.md)|X||
+|[AutoFormatExpr Property](devenv-autoformatexpr-property.md)  |X|X|
+|[AutoFormatType Property](devenv-autoformattype-property.md)|X||
+|[Caption Property](devenv-caption-property.md)|X||  
+|[CaptionClass Property](devenv-captionclass-property.md)|X||
+|[CaptionML Property](devenv-captionml-property.md)|X||
+|[CharAllowed Property](devenv-charallowed-property.md)|X||
+|[Data Type Property](devenv-data-type-property.md)|X||
+|[DataLength Property](devenv-datalength-property.md)|X||
+|[DateFormula Property](devenv-dateformula-property.md)|X||
+|[Description Property](devenv-description-property.md)|X||
+|[Editable Property](devenv-editable-property.md)|X|X|
+|[Enabled Property](devenv-enabled-property.md)|X||
+|[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X|X|
+|[Field No. Property](devenv-field-no.-property.md)|X|X|
+|[FieldClass Property](devenv-fieldclass-property.md)|X|X|
+|[InitValue Property](devenv-initvalue-property.md)|X||
+|[Name Property](devenv-name-property.md)|X||
+|[NotBlank Property](devenv-notblank-property.md)|X|X|
+|[Numeric Property](devenv-numeric-property.md)|X||
+|[SQL Data Type Property](devenv-sql-data-type-property.md)|X|X|
+|[TableRelation Property](devenv-tablerelation-property.md)|X|X|
+|[TestTableRelation Property](devenv-testtablerelation-property.md)|X||
+|[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
+|[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
+|[Width Property](devenv-width-property.md)|X|| 
+ 
 ## OemText Properties  
  The following properties apply to the **OemText** field of a table object.  
 
--   [AccessByPermission Property](devenv-accessbypermission-property.md)  
-
--   [AltSearchField Property](devenv-altsearchfield-property.md)  
-
--   [AutoFormatExpr Property](devenv-autoformatexpr-property.md)  
-
--   [AutoFormatType Property](devenv-autoformattype-property.md)  
-
--   [Caption Property](devenv-caption-property.md)  
-
--   [CaptionClass Property](devenv-captionclass-property.md)  
-
--   [CaptionML Property](devenv-captionml-property.md)  
-
--   [CharAllowed Property](devenv-charallowed-property.md)  
-
--   [Data Type Property](devenv-data-type-property.md)  
-
--   [DataLength Property](devenv-datalength-property.md)  
-
--   [DateFormula Property](devenv-dateFormula-property.md)  
-
--   [Description Property](devenv-description-property.md)  
-
--   [Editable Property](devenv-editable-property.md)  
-
--   [Enabled Property](devenv-enabled-property.md)  
-
--   [ExtendedDataType Property](devenv-extendeddatatype-property.md)  
-
--   [Field No. Property](devenv-field-no.-property.md)  
-
--   [FieldClass Property](devenv-fieldclass-property.md)  
-
--   [InitValue Property](devenv-initvalue-property.md)  
-
--   [Name Property](devenv-name-property.md)  
-
--   [NotBlank Property](devenv-notblank-property.md)  
-
--   [Numeric Property](devenv-numeric-property.md)  
-
--   [TableRelation Property](devenv-tablerelation-property.md)  
-
--   [TestTableRelation Property](devenv-testtablerelation-property.md)  
-
--   [ValidateTableRelation Property](devenv-validatetablerelation-property.md)  
-
--   [ValuesAllowed Property](devenv-valuesallowed-property.md)  
-
--   [Width Property](devenv-width-property.md)  
+|Property Name|OemText Object|OemText Extension Object|
+|-------------|-----------|---------------------|
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|X|X|
+|[AltSearchField Property](devenv-altsearchfield-property.md)|X||
+|[AutoFormatExpr Property](devenv-autoformatexpr-property.md)  |X|X|
+|[AutoFormatType Property](devenv-autoformattype-property.md)|X||
+|[Caption Property](devenv-caption-property.md)|X||  
+|[CaptionClass Property](devenv-captionclass-property.md)|X||
+|[CaptionML Property](devenv-captionml-property.md)|X||
+|[CharAllowed Property](devenv-charallowed-property.md)|X||
+|[Data Type Property](devenv-data-type-property.md)|X||
+|[DataLength Property](devenv-datalength-property.md)|X||
+|[DateFormula Property](devenv-dateformula-property.md)|X||
+|[Description Property](devenv-description-property.md)|X||
+|[Editable Property](devenv-editable-property.md)|X|X|
+|[Enabled Property](devenv-enabled-property.md)|X||
+|[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X|X|
+|[Field No. Property](devenv-field-no.-property.md)|X|X|
+|[FieldClass Property](devenv-fieldclass-property.md)|X|X|
+|[InitValue Property](devenv-initvalue-property.md)|X||
+|[Name Property](devenv-name-property.md)|X||
+|[NotBlank Property](devenv-notblank-property.md)|X|X|
+|[Numeric Property](devenv-numeric-property.md)|X||
+|[TableRelation Property](devenv-tablerelation-property.md)|X|X|
+|[TestTableRelation Property](devenv-testtablerelation-property.md)|X||
+|[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
+|[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
+|[Width Property](devenv-width-property.md)|X|| 
 
 ## Option Properties  
  The following properties apply to the **Option** field of a table object.  
 
--   [AccessByPermission Property](devenv-accessbypermission-property.md)  
-
--   [AltSearchField Property](devenv-altsearchfield-property.md)  
-
--   [AutoFormatExpr Property](devenv-autoformatexpr-property.md)  
-
--   [AutoFormatType Property](devenv-autoformattype-property.md)  
-
--   [BlankNumbers Property](devenv-blanknumbers-property.md)  
-
--   [BlankZero Property](devenv-blankzero-property.md)  
-
--   [Caption Property](devenv-caption-property.md)  
-
--   [CaptionClass Property](devenv-captionclass-property.md)  
-
--   [CaptionML Property](devenv-captionml-property.md)  
-
--   [Data Type Property](devenv-data-type-property.md)  
-
--   [Description Property](devenv-description-property.md)  
-
--   [Editable Property](devenv-editable-property.md)  
-
--   [Enabled Property](devenv-enabled-property.md)  
-
--   [ExtendedDataType Property](devenv-extendeddatatype-property.md)  
-
--   [Field No. Property](devenv-field-no.-property.md)  
-
--   [FieldClass Property](devenv-fieldclass-property.md)  
-
--   [InitValue Property](devenv-initvalue-property.md)  
-
--   [MaxValue Property](devenv-maxvalue-property.md)  
-
--   [MinValue Property](devenv-minvalue-property.md)  
-
--   [Name Property](devenv-name-property.md)  
-
--   [NotBlank Property](devenv-notblank-property.md)  
-
--   [OptionCaption Property](devenv-optioncaption-property.md)  
-
--   [OptionCaptionML Property](devenv-optioncaptionML-property.md)  
-
--   [OptionString Property](devenv-optionstring-property.md)  
-
--   [SignDisplacement Property](devenv-signdisplacement-property.md)  
-
--   [TableRelation Property](devenv-tablerelation-property.md)  
-
--   [TestTableRelation Property](devenv-testtablerelation-property.md)  
-
--   [ValidateTableRelation Property](devenv-validatetablerelation-property.md)  
-
--   [ValuesAllowed Property](devenv-valuesallowed-property.md)  
+|Property Name|Option Object|Option Extension Object|
+|-------------|-----------|---------------------|
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|X|X|
+|[AltSearchField Property](devenv-altsearchfield-property.md)|X||
+|[AutoFormatExpr Property](devenv-autoformatexpr-property.md)|X|X|
+|[AutoFormatType Property](devenv-autoformattype-property.md)|X||
+|[BlankNumbers Property](devenv-blanknumbers-property.md)|X|X|
+|[BlankZero Property](devenv-blankzero-property.md)|X||
+|[Caption Property](devenv-caption-property.md)|X||  
+|[CaptionClass Property](devenv-captionclass-property.md)|X||
+|[CaptionML Property](devenv-captionml-property.md)|X||
+|[Data Type Property](devenv-data-type-property.md)|X||
+|[Description Property](devenv-description-property.md)|X||
+|[Editable Property](devenv-editable-property.md)|X|X|
+|[Enabled Property](devenv-enabled-property.md)|X||
+|[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X|X|
+|[Field No. Property](devenv-field-no.-property.md)|X|X|
+|[FieldClass Property](devenv-fieldclass-property.md)|X|X|
+|[InitValue Property](devenv-initvalue-property.md)|X||
+|[MaxValue Property](devenv-maxvalue-property.md)|X||
+|[MinValue Property](devenv-minvalue-property.md)|X|
+|[Name Property](devenv-name-property.md)|X||
+|[NotBlank Property](devenv-notblank-property.md)|X|X|
+|[OptionCaption Property](devenv-optioncaption-property.md)|X||
+|[OptionCaptionML Property](devenv-optioncaptionML-property.md)|X||
+|[OptionString Property](devenv-optionstring-property.md)|X||
+|[SignDisplacement Property](devenv-signdisplacement-property.md)|X||
+|[TableRelation Property](devenv-tablerelation-property.md)|X|X|
+|[TestTableRelation Property](devenv-testtablerelation-property.md)|X||
+|[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
+|[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 
 ## RecordID Properties  
  The following properties apply to the **RecordID** field of a table object.  
 
--   [AccessByPermission Property](devenv-accessbypermission-property.md)  
-
--   [AltSearchField Property](devenv-altsearchfield-property.md)  
-
--   [AutoFormatExpr Property](devenv-autoformatexpr-property.md)  
-
--   [AutoFormatType Property](devenv-autoformattype-property.md)  
-
--   [Caption Property](devenv-caption-property.md)  
-
--   [CaptionClass Property](devenv-captionclass-property.md)  
-
--   [CaptionML Property](devenv-captionml-property.md)  
-
--   [Data Type Property](devenv-data-type-property.md)  
-
--   [Description Property](devenv-description-property.md)  
-
--   [Editable Property](devenv-editable-property.md)  
-
--   [Enabled Property](devenv-enabled-property.md)  
-
--   [ExtendedDataType Property](devenv-extendeddatatype-property.md)  
-
--   [Field No. Property](devenv-field-no.-property.md)  
-
--   [FieldClass Property](devenv-fieldclass-property.md)  
-
--   [InitValue Property](devenv-initvalue-property.md)  
-
--   [Name Property](devenv-name-property.md)  
-
--   [NotBlank Property](devenv-notblank-property.md)  
-
--   [TableRelation Property](devenv-tablerelation-property.md)  
-
--   [TestTableRelation Property](devenv-testtablerelation-property.md)  
-
--   [ValidateTableRelation Property](devenv-validatetablerelation-property.md)  
-
--   [ValuesAllowed Property](devenv-valuesallowed-property.md)  
+|Property Name|RecordID Object|RecordID Extension Object|
+|-------------|-----------|---------------------|
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|X|X|
+|[AltSearchField Property](devenv-altsearchfield-property.md)|X||
+|[AutoFormatExpr Property](devenv-autoformatexpr-property.md)  |X|X|
+|[AutoFormatType Property](devenv-autoformattype-property.md)|X||
+|[Caption Property](devenv-caption-property.md)|X||  
+|[CaptionClass Property](devenv-captionclass-property.md)|X||
+|[CaptionML Property](devenv-captionml-property.md)|X||
+|[Data Type Property](devenv-data-type-property.md)|X||
+|[Description Property](devenv-description-property.md)|X||
+|[Editable Property](devenv-editable-property.md)|X|X|
+|[Enabled Property](devenv-enabled-property.md)|X||
+|[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X|X|
+|[Field No. Property](devenv-field-no.-property.md)|X|X|
+|[FieldClass Property](devenv-fieldclass-property.md)|X|X|
+|[InitValue Property](devenv-initvalue-property.md)|X||
+|[Name Property](devenv-name-property.md)|X||
+|[NotBlank Property](devenv-notblank-property.md)|X|X|
+|[TableRelation Property](devenv-tablerelation-property.md)|X|X|
+|[TestTableRelation Property](devenv-testtablerelation-property.md)|X||
+|[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
+|[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 
 ## TableFilter Properties  
  The following properties apply to the **TableFilter** field of a table object.  
 
--   [AccessByPermission Property](devenv-accessbypermission-property.md)  
-
--   [Caption Property](devenv-caption-property.md)  
-
--   [CaptionML Property](devenv-captionml-property.md)  
-
--   [Data Type Property](devenv-data-type-property.md)  
-
--   [Description Property](devenv-description-property.md)  
-
--   [Enabled Property](devenv-enabled-property.md)  
-
--   [Field No. Property](devenv-field-no.-property.md)  
-
--   [Name Property](devenv-name-property.md)  
-
--   [TableIDExpr Property](devenv-tableidexpr-property.md)  
+|Property Name|RecordID Object|RecordID Extension Object|
+|-------------|-----------|---------------------|
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|X|X|
+|[Caption Property](devenv-caption-property.md)|X||  
+|[CaptionML Property](devenv-captionml-property.md)|X||
+|[Data Type Property](devenv-data-type-property.md)|X||
+|[Description Property](devenv-description-property.md)|X||
+|[Enabled Property](devenv-enabled-property.md)|X||
+|[Field No. Property](devenv-field-no.-property.md)|X|X|
+|[Name Property](devenv-name-property.md)|X||
+|[TableIDExpr Property](devenv-tableidexpr-property.md)|X|X|
 
 ## Text Properties  
  The following properties apply to the **Text** field of a table object.  
 
--   [AccessByPermission Property](devenv-accessbypermission-property.md)  
-
--   [AltSearchField Property](devenv-altsearchfield-property.md)  
-
--   [AutoFormatExpr Property](devenv-autoformatexpr-property.md)  
-
--   [AutoFormatType Property](devenv-autoformattype-property.md)  
-
--   [Caption Property](devenv-caption-property.md)  
-
--   [CaptionClass Property](devenv-captionclass-property.md)  
-
--   [CaptionML Property](devenv-captionml-property.md)  
-
--   [CharAllowed Property](devenv-charallowed-property.md)  
-
--   [Data Type Property](devenv-data-type-property.md)  
-
--   [DataLength Property](devenv-datalength-property.md)  
-
--   [DateFormula Property](devenv-dateformula-property.md)  
-
--   [Description Property](devenv-description-property.md)  
-
--   [Editable Property](devenv-editable-property.md)  
-
--   [Enabled Property](devenv-enabled-property.md)  
-
--   [ExtendedDataType Property](devenv-extendeddatatype-property.md)  
-
--   [Field No. Property](devenv-field-no.-property.md)  
-
--   [FieldClass Property](devenv-fieldclass-property.md)  
-
--   [InitValue Property](devenv-initvalue-property.md)  
-
--   [Name Property](devenv-name-property.md)  
-
--   [NotBlank Property](devenv-notblank-property.md)  
-
--   [Numeric Property](devenv-numeric-property.md)  
-
--   [TableRelation Property](devenv-tablerelation-property.md)  
-
--   [TestTableRelation Property](devenv-testtablerelation-property.md)  
-
--   [ValidateTableRelation Property](devenv-validatetablerelation-property.md)  
-
--   [ValidateTableRelation Property](devenv-validatetablerelation-property.md)  
-
--   [ValuesAllowed Property](devenv-valuesallowed-property.md)  
-
--   [Width Property](devenv-width-property.md)  
-
--  
-
+|Property Name|Text Object|Text Extension Object|
+|-------------|-----------|---------------------|
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|X|X|
+|[AltSearchField Property](devenv-altsearchfield-property.md)|X||
+|[AutoFormatExpr Property](devenv-autoformatexpr-property.md)  |X|X|
+|[AutoFormatType Property](devenv-autoformattype-property.md)|X||
+|[Caption Property](devenv-caption-property.md)|X||  
+|[CaptionClass Property](devenv-captionclass-property.md)|X||
+|[CaptionML Property](devenv-captionml-property.md)|X||
+|[CharAllowed Property](devenv-charallowed-property.md)|X||
+|[Data Type Property](devenv-data-type-property.md)|X||
+|[DataLength Property](devenv-datalength-property.md)|X||
+|[DateFormula Property](devenv-dateformula-property.md)|X||
+|[Description Property](devenv-description-property.md)|X||
+|[Editable Property](devenv-editable-property.md)|X|X|
+|[Enabled Property](devenv-enabled-property.md)|X||
+|[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X|X|
+|[Field No. Property](devenv-field-no.-property.md)|X|X|
+|[FieldClass Property](devenv-fieldclass-property.md)|X|X|
+|[InitValue Property](devenv-initvalue-property.md)|X||
+|[Name Property](devenv-name-property.md)|X||
+|[NotBlank Property](devenv-notblank-property.md)|X|X|
+|[Numeric Property](devenv-numeric-property.md)|X||
+|[TableRelation Property](devenv-tablerelation-property.md)|X|X|
+|[TestTableRelation Property](devenv-testtablerelation-property.md)|X||
+|[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
+|[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
+|[Width Property](devenv-width-property.md)|X|| 
+  
 ## Time Properties  
  The following properties apply to the **Time** field of a table object.  
 
--   [AccessByPermission Property](devenv-accessbypermission-property.md)  
-
--   [AltSearchField Property](devenv-altsearchfield-property.md)  
-
--   [AutoFormatExpr Property](devenv-autoformatexpr-property.md)  
-
--   [AutoFormatType Property](devenv-autoformattype-property.md)  
-
--   [BlankNumbers Property](devenv-blanknumbers-property.md)  
-
--   [Caption Property](devenv-caption-property.md)  
-
--   [CaptionClass Property](devenv-captionclass-property.md)  
-
--   [CaptionML Property](devenv-captionml-property.md)  
-
--   [Data Type Property](devenv-data-type-property.md)  
-
--   [Description Property](devenv-description-property.md)  
-
--   [Editable Property](devenv-editable-property.md)  
-
--   [Enabled Property](devenv-enabled-property.md)  
-
--   [ExtendedDataType Property](devenv-extendeddatatype-property.md)  
-
--   [Field No. Property](devenv-field-no.-property.md)  
-
--   [FieldClass Property](devenv-fieldclass-property.md)  
-
--   [InitValue Property](devenv-initvalue-property.md)  
-
--   [MaxValue Property](devenv-maxvalue-property.md)  
-
--   [MinValue Property](devenv-minvalue-property.md)  
-
--   [Name Property](devenv-name-property.md)  
-
--   [NotBlank Property](devenv-notblank-property.md)  
-
--   [SignDisplacement Property](devenv-signdisplacement-property.md)  
-
--   [TableRelation Property](devenv-tablerelation-property.md)  
-
--   [TestTableRelation Property](devenv-testtablerelation-property.md)  
-
--   [ValidateTableRelation Property](devenv-validatetablerelation-property.md)  
-
--   [ValuesAllowed Property](devenv-valuesallowed-property.md)  
+|Property Name|Time Object|Time Extension Object|
+|-------------|-----------|---------------------|
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|X|X|
+|[AltSearchField Property](devenv-altsearchfield-property.md)|X||
+|[AutoFormatExpr Property](devenv-autoformatexpr-property.md)  |X|X|
+|[AutoFormatType Property](devenv-autoformattype-property.md)|X||
+|[BlankNumbers Property](devenv-blanknumbers-property.md)|X||
+|[Caption Property](devenv-caption-property.md)|X||  
+|[CaptionClass Property](devenv-captionclass-property.md)|X||
+|[CaptionML Property](devenv-captionml-property.md)|X||
+|[Data Type Property](devenv-data-type-property.md)|X||
+|[Description Property](devenv-description-property.md)|X||
+|[Editable Property](devenv-editable-property.md)|X|X|
+|[Enabled Property](devenv-enabled-property.md)|X||
+|[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X|X|
+|[Field No. Property](devenv-field-no.-property.md)|X|X|
+|[FieldClass Property](devenv-fieldclass-property.md)|X|X|
+|[InitValue Property](devenv-initvalue-property.md)|X||
+|[MaxValue Property](devenv-maxvalue-property.md)|X||
+|[MinValue Property](devenv-minvalue-property.md)|X||
+|[Name Property](devenv-name-property.md)|X||
+|[NotBlank Property](devenv-notblank-property.md)|X|X|
+|[SignDisplacement Property](devenv-signdisplacement-property.md)|X||
+|[TableRelation Property](devenv-tablerelation-property.md)|X|X|
+|[TestTableRelation Property](devenv-testtablerelation-property.md)|X||
+|[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
+|[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 
 ## See Also  
  [Properties](devenv-properties.md)
