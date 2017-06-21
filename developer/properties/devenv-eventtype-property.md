@@ -36,4 +36,4 @@ Specifies the type of event that is published by the event publisher function.
  [Publishing Events](Publishing-Events.md)   
  [Raising Events](Raising-Events.md)   
  [Subscribing to Events](Subscribing-to-Events.md)   
- [AL Function Statements](AL-Function-Statements.md)
+ [AL Method Statements](../devenv-al-method-statements.md)

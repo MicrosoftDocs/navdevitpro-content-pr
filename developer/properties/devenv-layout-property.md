@@ -9,7 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 7c117ea8-3426-4e48-8991-10b08feec6c3
 caps.latest.revision: 9
+author: SusanneWindfeldPedersen
 ---
+
 # Layout Property
 Sets whether the fields in Group controls are arranged horizontally in a row or vertically in a column.  
   
@@ -22,7 +24,7 @@ Sets whether the fields in Group controls are arranged horizontally in a row or 
 |Value|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
 |**Rows**|Arranges fields within Group controls in rows.|  
-|**Columns**|Arranges fields within Group controls in columns. This is the default setting.|  
+|**Columns**|Arranges fields within Group controls in columns. This is the default.|  
 |**Undefined**|Same as the **Columns** setting.|  
   
 ## Remarks  

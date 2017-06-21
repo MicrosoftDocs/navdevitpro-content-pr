@@ -9,7 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: d97194a3-cec2-4de3-9075-5708d5c4c7f2
 caps.latest.revision: 8
+author: SusanneWindfeldPedersen
 ---
+
 # Format Property (XMLports)
 Determines the import and export format of the XMLPort.  
   
@@ -18,7 +20,7 @@ Determines the import and export format of the XMLPort.
 -   XMLports  
   
 ## Remarks  
- This property supports support CSV \(comma separated values\) export files and XML files. Available export options are as follows:  
+ This property supports support CSV (comma separated values) export files and XML files. Available export options are as follows:  
   
 -   XML  
   

@@ -9,7 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 4bb3447d-246e-43c1-a83e-10424955b497
 caps.latest.revision: 21
+author: SusanneWindfeldPedersen
 ---
+
 # How to: Remove UI Elements Using the AccessByPermission Property
 UI elements that are directly related to an object through the **TableRelation** or the **CalcFormula** property can be removed automatically according to the license file and/or user permissions. For more information, see [How to: Specify When UI Elements Are Removed](How-to-Specify-When-UI-Elements-Are-Removed.md).  
   

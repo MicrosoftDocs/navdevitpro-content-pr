@@ -23,6 +23,7 @@ Specifies the icon that you want to associate with an action or an activity butt
   
 ## See Also  
  [Properties](devenv-properties.md)   
+ <!--
  [How to: Promote Actions on Pages](../devenv-How-to-Promote-Actions-on-Pages.md)   
  [How to: Set an Icon on an Activity Button](../devenv-How-to-Set-an-Icon-on-an-Activity-Button.md)   
- [How to: Set an Icon on an Action](../devenv-How-to-Set-an-Icon-on-an-Action.md)
+ [How to: Set an Icon on an Action](../devenv-How-to-Set-an-Icon-on-an-Action.md) -->
