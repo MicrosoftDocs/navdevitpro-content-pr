@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: dd671414-a7c3-44bd-a860-a8bda61c7913
 caps.latest.revision: 15
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # AssistEdit Property
 Sets assist-edit capabilities for a text box.  

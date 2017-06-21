@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: c31be95f-e083-4d87-84e4-27b2373349d6
 caps.latest.revision: 13
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # SubType Property (Codeunit)
 Sets the codeunit to method as a normal, test, test runner, or upgrade codeunit.  

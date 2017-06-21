@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 0b03b2f5-e6b8-4aea-aceb-dedeb7b2be82
 caps.latest.revision: 9
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # SumIndexFields Property
 Sets the [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md) for the key, if applicable.  

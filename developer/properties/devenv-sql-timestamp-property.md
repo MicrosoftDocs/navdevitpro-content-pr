@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 615d15ba-5d0e-4071-bfa2-c262c1dccbf4
 caps.latest.revision: 3
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # SQL Timestamp Property
 Specifies a field to be a timestamp field.  

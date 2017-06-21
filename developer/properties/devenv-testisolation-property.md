@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 01226286-33b5-41a5-991c-5db627a077d8
 caps.latest.revision: 6
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # TestIsolation Property
 Specifies which changes to the database to roll back after the tests in the test runner codeunit execute.  

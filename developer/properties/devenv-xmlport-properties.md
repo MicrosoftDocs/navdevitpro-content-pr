@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 1c8d76d0-27e6-409a-b7ec-057763c9d2c7
 caps.latest.revision: 9
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # XMLport Properties
 This topic lists properties of the XMLport object, element, and attribute.  

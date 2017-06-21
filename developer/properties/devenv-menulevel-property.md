@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 3bb72e97-c42b-4ca2-b54d-75fbeb2ff926
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # MenuLevel Property
 Sets the menu level for a control. Levels are indicated by indentation.  

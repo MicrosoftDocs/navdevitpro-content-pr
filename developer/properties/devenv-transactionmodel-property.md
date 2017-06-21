@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 1eb38214-45a5-4ffe-82d1-c7507af277ee
 caps.latest.revision: 11
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # TransactionModel Property
 Specifies whether data is committed to the database during execution of a test method and whether transactions are rolled back at the end of a test method.  

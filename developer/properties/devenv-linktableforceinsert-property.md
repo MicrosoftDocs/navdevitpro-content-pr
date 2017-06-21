@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 695880ad-2a9c-489a-a058-a586089826eb
 caps.latest.revision: 9
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # LinkTableForceInsert Property
 Sets whether data from the linked table is forcibly modified or inserted into a table to prevent an error from being generated.  

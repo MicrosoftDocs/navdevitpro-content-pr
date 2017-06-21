@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 7733c6fd-3cbd-42bc-9ff3-8f7a5850cff8
 caps.latest.revision: 6
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # DefaultFieldsValidation Property
 Sets a value that indicates whether fields are validated.  

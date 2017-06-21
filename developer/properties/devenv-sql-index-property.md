@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 58a94a2c-fbdd-404e-9760-9bfede48f36e
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # SQLIndex Property
 Sets the actual fields that are used in the corresponding index on SQL Server.  

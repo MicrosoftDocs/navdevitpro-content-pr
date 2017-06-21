@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 854fb973-9df4-4b97-9e94-67d2509143d6
 caps.latest.revision: 8
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # LinksAllowed Property
 Sets whether links are allowed.  

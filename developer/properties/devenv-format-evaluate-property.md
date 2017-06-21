@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: a2c73a08-58f9-48dd-860f-b898c56b6879
 caps.latest.revision: 6
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Format-Evaluate Property
 Sets the data that is being imported or exported as XML data types or as the standard C/SIDE data types.  
