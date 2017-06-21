@@ -15,7 +15,7 @@ author: SusanneWindfeldPedersen
 Specifies the handler methods that are used by the test method.  
   
 ## Applies To  
- AL test methods on test codeunits. A test method is a method that has the [MethodType Property \(Test Codeunits\)](../devenv-methodtype-property-test-codeunits.md) set to **Test**.  
+ AL test methods on test codeunits. A test method is a method that has the [MethodType Property (Test Codeunits)](../devenv-methodtype-property-test-codeunits.md) set to **Test**.  
   
 ## Property Value  
  The handler method name as specified on the **Methods** tab of **the AL Global** window for the test codeunit.  
@@ -28,7 +28,7 @@ Specifies the handler methods that are used by the test method.
   
  The following is some important information about handler methods:  
   
--   To be a handler method, the [MethodType Property \(Test Codeunits\)](../devenv-methodtype-property-test-codeunits.md) must set to one of the handler types: MessageHandler, ConfirmHandler, StrMenuHandler, PageHandler, ModalPageHandler, ReportHandler, RequestPageHandler, or FilterPageHandler.  
+-   To be a handler method, the [MethodType Property (Test Codeunits)](../devenv-methodtype-property-test-codeunits.md) must set to one of the handler types: MessageHandler, ConfirmHandler, StrMenuHandler, PageHandler, ModalPageHandler, ReportHandler, RequestPageHandler, or FilterPageHandler.  
   
 -   A test method can only call handler methods that are defined in the same test codeunit as the test method.  
   

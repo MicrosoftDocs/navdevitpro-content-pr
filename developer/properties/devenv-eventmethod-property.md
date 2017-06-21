@@ -34,4 +34,4 @@ Specifies the event publisher method that the event subscriber method subscribes
  <!-- //NAV [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   -->
  [Publishing Events](Publishing-Events.md)   
  [Raising Events](Raising-Events.md)   
- [AL Method Statements](AL-method-statements.md)
+ [AL Method Statements](../devenv-al-method-statements.md)

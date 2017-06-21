@@ -31,4 +31,4 @@ Specifies whether the method is used to publish or subscribe to an event.
 -->
 ## See Also  
  [Raising Events](Raising-Events.md)   
- [AL Method Statements](AL-Method-Statements.md)
+ [AL Method Statements](../devenv-al-method-statements.md)

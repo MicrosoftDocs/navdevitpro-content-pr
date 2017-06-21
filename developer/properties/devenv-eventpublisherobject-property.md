@@ -38,4 +38,4 @@ Specifies the object that contains the event publisher method that the event sub
  [Publishing Events](Publishing-Events.md)   
  [Raising Events](Raising-Events.md)   
  [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
- [AL Method Statements](AL-Method-Statements.md)
+ [AL Method Statements](../devenv-al-method-statements.md)

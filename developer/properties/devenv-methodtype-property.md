@@ -34,6 +34,7 @@ Sets a date or totals type method on the query column. The method is applied by 
   
 ## See Also  
  [Method Property](devenv-method-property.md)   
+ <!--
  [Using the Date Method to Retrieve Day, Month, and Year Data](../devenv-Using-the-Date-Method-to-Retrieve-Day--Month-and-Year-Data.md)   
  [Understanding Query Totals and Grouping](../devenv-Understanding-Query-Totals-and-Grouping.md)   
- [How to: Create Queries](../devenv-How-to-Create-Queries.md)
+ [How to: Create Queries](../devenv-How-to-Create-Queries.md) -->

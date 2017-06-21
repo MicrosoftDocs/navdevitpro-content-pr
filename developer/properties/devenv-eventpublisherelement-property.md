@@ -32,4 +32,4 @@ Specifies the table field that the trigger event pertains to.
  [Subscribing to Events](Subscribing-to-Events.md)   
  [GlobalVarAccess Property](devenv-globalvaraccess-property.md)   
  [IncludeSender Property](devenv-includesender-property.md)   
- [AL Method Statements](al-method-statements.md)
+ [AL Method Statements](../devenv-al-method-statements.md)
