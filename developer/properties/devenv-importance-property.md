@@ -9,7 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: f6a698c0-c18e-49f0-acfd-e669f18f8243
 caps.latest.revision: 11
+author: SusanneWindfeldPedersen
 ---
+
 # Importance Property
 Sets the amount of information that is visible in a window or dialog box.  
   

@@ -18,14 +18,16 @@ Sets the control add-in to use on the field control.
 -   Page Fields  
   
 ## Property Value  
- The name and public token key of the control add-in as registered in the **Control Add-in** table \(ID **2000000069\)**. For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
+ The name and public token key of the control add-in as registered in the **Control Add-in** table \(ID **2000000069\)**. <!-- For more information, see [How to: Register a Windows Client Control Add-in](How-to-Register-a-Windows-Client-Control-Add-in.md).  -->
   
 ## Remarks  
  A control add-in is a custom control, or visual element, for displaying and modifying data on pages.  
   
 ## See Also  
+<!--
  [Extending Any Microsoft Dynamics NAV Client Using Control Add-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)   
  [Windows Client Control Add-in Overview](Windows-Client-Control-Add-in-Overview.md)   
  [Installing and Configuring Windows Client Control Add-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
  [Developing Windows Client Control Add-ins](Developing-Windows-Client-Control-Add-ins.md)   
  [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough--Creating-and-Using-a-Windows-Client-Control-Add-in.md)
+ -->

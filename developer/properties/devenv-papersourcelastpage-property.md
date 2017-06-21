@@ -16,7 +16,8 @@ Specifies which paper source to use when printing the last page of the report.
   
 ## Applies To  
  Reports  
-  
+
+<!--
 ## Remarks  
  In the **Report – Properties** window, in the **PaperSourceLastPage** field, choose the paper source. The list contains 13 standard trays and 16 printer-specific trays. It is based on information in the fin.stx file.  
   
@@ -35,4 +36,4 @@ Specifies which paper source to use when printing the last page of the report.
 ## See Also  
  [PaperSourceDefaultPage Property](devenv-papersourcedefaultpage-property.md)   
  [PaperSourceFirstPage Property](devenv-papersourcefirstpage-property.md)   
- [How to: Add GetPaperTrayForReport Procedure in Codeunit 1](How-to--Add-GetPaperTrayForReport-Procedure-in-Codeunit-1.md)
+ [How to: Add GetPaperTrayForReport Procedure in Codeunit 1](How-to--Add-GetPaperTrayForReport-Procedure-in-Codeunit-1.md) -->

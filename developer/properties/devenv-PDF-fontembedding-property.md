@@ -28,7 +28,8 @@ Specifies whether fonts are embedded in PDF files that are generated for reports
 |**Default**|Uses the **Report PDF Embedding** setting of the [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance to determine whether fonts are embedded in PDF files. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).<br /><br /> This is the default setting.|  
 |**False**|Fonts are not embedded in PDF files.|  
 |**True**|Fonts are embedded in PDF files.|  
-  
+
+<!-- 
 ## Remarks  
  This property applies when an RDLC report is saved as a PDF under the following circumstances:  
   
@@ -42,4 +43,4 @@ Specifies whether fonts are embedded in PDF files that are generated for reports
  Embedding fonts in a PDF of a report makes sure that the PDF will use the same fonts as the original file, regardless of where the PDF is opened and which fonts are installed on the computer. However, embedding fonts can significantly increase the size of the PDF files. By disabling font embedding, you can decrease the size of the report PDF files.  
   
 ## See Also  
- [Running Reports](Running-Reports.md)
+ [Running Reports](Running-Reports.md) -->

@@ -31,4 +31,5 @@ Sets whether hyperlinks to URLs are allowed on reports.
   
 ## See Also  
  [Properties](devenv-properties.md)   
- [Designing Reports](Designing-Reports.md)
+ <!--
+ [Designing Reports](Designing-Reports.md) -->

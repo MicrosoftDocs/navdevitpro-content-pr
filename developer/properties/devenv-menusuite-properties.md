@@ -33,4 +33,4 @@ This topic lists properties that apply to the MenuSuite object.
 
 ## See Also  
  [Properties](devenv-properties.md)   
- [MenuSuites](../devenv-MenuSuites.md)
+ [MenuSuites](../devenv-menusuites.md)

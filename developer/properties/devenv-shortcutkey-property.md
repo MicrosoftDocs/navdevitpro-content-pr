@@ -24,7 +24,7 @@ Sets a shortcut key for selecting a menu item.
  Pressing the key you designate with this property provides the same result as clicking the item.  
   
 > [!NOTE]  
->  Some shortcut keys have default assignments—for example, Shift+F12 opens the Object Designer. Do not reuse shortcut keys that are already assigned.  
+>  Some shortcut keys have default assignments. Do not reuse shortcut keys that are already assigned.  
   
 ## See Also  
  [Properties](devenv-properties.md)

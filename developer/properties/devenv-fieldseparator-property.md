@@ -21,18 +21,18 @@ Sets the string that is to be used to separate fields.
   
 |**Value**|**Description**|  
 |---------------|---------------------|  
-|**\<None>**|There is no field separator.|  
-|**\<NewLine>**|Any combination of CR and LF characters.|  
-|**\<CR/LF>**|CR followed by LF.|  
-|**\<CR>**|CR alone.|  
-|**\<LF>**|LF alone.|  
-|**\<TAB>**|Tabulator alone.|  
+|**<None>**|There is no field separator.|  
+|**<NewLine>**|Any combination of CR and LF characters.|  
+|**<CR/LF>**|CR followed by LF.|  
+|**<CR>**|CR alone.|  
+|**<LF>**|LF alone.|  
+|**<TAB>**|Tabulator alone.|  
 |**Other strings**|The literal string entered.|  
   
 ## Remarks  
- The strings in the preceding table must be entered literally, using the \< and > characters. These special strings can be combined and can also be mixed with other characters.  
+ The strings in the preceding table must be entered literally, using the < and > characters. These special strings can be combined and can also be mixed with other characters.  
   
- The default value is a comma \(**\<,>**\).  
+ The default value is a comma (**<,>**).  
   
  CR refers to the character with ASCII value 13.  
   
@@ -44,4 +44,4 @@ Sets the string that is to be used to separate fields.
   
 ## See Also  
  [Properties](devenv-properties.md)   
- [Format Property \(XMLports\)](devenv-formatxmlports-property.md)
+ [Format Property (XMLports)](devenv-formatxmlports-property.md)
