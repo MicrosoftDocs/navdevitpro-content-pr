@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 38807291-9e71-4a10-8c5a-e4f011061f1e
 caps.latest.revision: 11
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # ValuesAllowed Property
 Sets the values that are allowed in the field.  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 8257f098-a61b-4053-9f88-a3f95e0ec7d2
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Occurrence Property
 Sets a value that specifies whether an attribute must occur in the data that is being imported or exported.  

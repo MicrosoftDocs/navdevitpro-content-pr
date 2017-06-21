@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 6d15311a-94fa-40d8-873a-38342ccbfc6a
 caps.latest.revision: 4
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # EnabledIfSelection Property
 Sets a value that indicates whether the selected action is enabled or disabled.  

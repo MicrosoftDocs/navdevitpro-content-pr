@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 891a324a-18a9-4ba6-9041-7561695b5ac2
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # PagePartID Property
 Sets a link to another page.  

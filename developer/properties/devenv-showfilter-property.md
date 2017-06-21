@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 09cc7138-fbdf-45fe-9cef-3d2e0c95311b
 caps.latest.revision: 7
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # ShowFilter Property
 Sets whether the filter pane is shown on a page by default.  

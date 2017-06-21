@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 65cd2256-1463-4f6d-9ed3-9918336b61d5
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # SecurityFiltering Property
 Specifies how security filters are applied to the record.  

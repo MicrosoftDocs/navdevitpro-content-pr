@@ -17,15 +17,15 @@ Sets the values of a AL text constant for the different languages that are avail
  **Local** and **global** text constants in the AL code of objects.  
   
 ## Remarks  
- The **ConstValue** property is enabled for multiple languages. It contains a list of text values for the languages that are available in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. The value that is used in the [!INCLUDE[rtc](../includes/rtc_md.md)] is selected according to the user's language settings. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
+ The **ConstValue** property is enabled for multiple languages. It contains a list of text values for the languages that are available in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. The value that is used is selected according to the user's language settings. For more information, see [Multilanguage Development](../devenv-multilanguage-development.md).  
   
  The **ConstValueML** property has the following format.  
   
- **\<Language ID>=\<string>**  
+ **<Language ID>=<string>**  
   
--   **\<Language ID>** is the Windows three-letter language ID.  
+-   **<Language ID>** is the Windows three-letter language ID.  
   
--   **\<string>** is the text string for the language.  
+-   **<string>** is the text string for the language.  
   
  If you have more than one language entry, then separate each consecutive entry with a semicolon.  
   
@@ -33,18 +33,8 @@ Sets the values of a AL text constant for the different languages that are avail
   
  **DAN=Navn;ENU=Name;ESP=Nombre;FRA=Nom**  
   
- In this example, values are set for Danish \(DAN\), English \(United States\), Spanish Traditional Sort \(ESP\), and French Standard \(FRA\).  
-  
-### To specify values for languages  
-  
-1.  In the **ConstValueML** value field, choose the **AssistEdit** button.  
-  
-     The **Multilanguage Editor** opens and displays two columns: **Language** and **Value**. The **Language** column is populated with all languages that are defined by Windows.  
-  
-2.  To specify the value for a language, enter the value in the **Value** column for that language.  
-  
-3.  To save the changes, choose the **OK** button.  
+ In this example, values are set for Danish (DAN), English (United States), Spanish Traditional Sort (ESP), and French Standard (FRA).  
   
 ## See Also  
  [How to: Change the Language in the User Interface](How-to--Change-the-Language-in-the-User-Interface.md)   
- [Multilanguage Development](Multilanguage-Development.md)
+ [Multilanguage Development](devenv-multilanguage-development.md)

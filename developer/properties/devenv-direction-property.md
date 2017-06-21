@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 5ba9f526-82cc-4d2b-bc82-afa34618667f
 caps.latest.revision: 6
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # Direction Property
 Sets the XMLport to import, export, or import and export data in XML format.  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: d95f6afe-8b48-4934-be3b-0e5d0fda4aa0
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # UseLax Property
 Specifies whether an XMLport uses LAX \(Lazy API for XML\) to process an XML file.  

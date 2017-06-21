@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: e582fbdb-5a43-4c9f-bd79-84eb724590c7
 caps.latest.revision: 11
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # ValidateTableRelation Property
 Sets whether to validate a table relationship.  

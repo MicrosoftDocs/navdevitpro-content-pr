@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 52f27d7a-ecda-4da8-b139-9b2f0a6bf256
 caps.latest.revision: 13
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # CaptionClass Property
 Controls the caption that is used in the label of a field in a database table or in the label of a control on a page.  
@@ -28,7 +28,7 @@ Controls the caption that is used in the label of a field in a database table or
  The expression is then interpreted by trigger 15 in codeunit 1.  
   
 |AL expression|Comments|  
-|----------------------|--------------|  
+|-------------|--------|  
 |DIM1|This value produces an error unless a text variable exists with the name DIM1.|  
 |'DIM1'|OK. The caption is 'DIM1.'|  
 |'DIM'+FORMAT(2)|OK. The caption is 'DIM2.'|  

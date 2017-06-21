@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 5bb96b7d-18d0-4fd5-bd64-a8f9b84fd8d1
 caps.latest.revision: 5
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # InitValue Property
 Sets the initial value of this field when a user creates a new record.  

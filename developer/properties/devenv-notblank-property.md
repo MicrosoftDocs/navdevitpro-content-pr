@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: c33fa0c5-761f-4aba-a0af-00b2145c9be7
 caps.latest.revision: 17
-manager: edupont
+author: SusanneWindfeldPedersen
 ---
 # NotBlank Property
 Sets a value that specifies whether users must enter a value in the selected field or text box.  
