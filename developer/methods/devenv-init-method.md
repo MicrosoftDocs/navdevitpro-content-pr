@@ -10,7 +10,7 @@ ms.prod: "dynamics-365-for-financials"
 author: jswymer
 ---
 # INIT Method
-Creates a SessionsSettings fills the property bag with the data currently in the database.  
+Creates a SessionsSettings object that includes the client user's personalization settings that are currently stored in the database.
 
 ## Syntax  
 
