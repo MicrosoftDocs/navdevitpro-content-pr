@@ -10,7 +10,7 @@ ms.prod: "dynamics-365-for-financials"
 author: jswymer
 ---
 # INIT Method
-Creates a SessionsSettings object that includes the client user's personalization settings that are currently stored in the database.
+Creates an instance of a SessionsSettings object that includes the client user's personalization settings that are currently stored in the database.
 
 ## Syntax  
 
@@ -19,7 +19,7 @@ SessionSettings.INIT
 ```  
 
 ## Remarks  
- The system automatically converts all of the numeric data types for you.  
+The method gets the data from the following fields in system table 2000000073 User Personalization: App ID, Company, Language ID, Locale ID, Profile ID, Scope, and Time Zone.
 
 ## Example  
  This example shows how to remove the sign from a negative numeric value. This example requires that you create the following variables and text constant.  
