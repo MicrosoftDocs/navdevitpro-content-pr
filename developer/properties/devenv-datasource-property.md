@@ -29,4 +29,3 @@ Sets the field to associate with a column of a query.
   
 ## See Also  
  [Understanding Query Filters](Understanding-Query-Filters.md)   
- [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md)

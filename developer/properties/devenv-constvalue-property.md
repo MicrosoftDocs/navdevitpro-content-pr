@@ -23,4 +23,4 @@ Sets the value of the AL text constant for the current application language of t
   
 ## See Also  
  [How to: Change the Language in the User Interface](How-to--Change-the-Language-in-the-User-Interface.md)   
- [Multilanguage Development](Multilanguage-Development.md)
+ [Multilanguage Development](../devenv-multilanguage-development.md)

@@ -12,7 +12,7 @@ caps.latest.revision: 6
 author: SusanneWindfeldPedersen
 ---
 # DeleteAllowed Property
-Sets a value that specifies whether users can delete records while using the  page.  
+Sets a value that specifies whether users can delete records while using the page.  
   
 ## Applies To  
   

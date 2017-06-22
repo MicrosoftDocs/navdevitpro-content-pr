@@ -21,7 +21,7 @@ Sets the maximum numeric value for a field.
 ## Property Value  
   
 |**Value**|**Description**|  
-|---------------|---------------------|  
+|---------|---------------|  
 |**9999**|Integers|  
 |**9999.0**|Decimals|  
 |**December 31, 9999**|Dates|  

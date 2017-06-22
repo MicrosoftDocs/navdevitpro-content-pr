@@ -27,5 +27,5 @@ The keys associated with a table have properties that describe their behavior, j
 |[SQLIndex Property](devenv-sql-index-property.md)|Sets the actual fields that are used in the corresponding index on SQL Server.|  
 
 ## See Also  
- [How to: View or Modify Properties on a Key](How-to--View-or-Modify-Properties-on-a-Key.md)   
- [Table Keys](Table-Keys.md)
+ <!-- [How to: View or Modify Properties on a Key](How-to--View-or-Modify-Properties-on-a-Key.md)   -->
+ [Table Keys](../devenv-table-keys.md)
