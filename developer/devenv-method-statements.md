@@ -52,4 +52,4 @@ NewDate := CALCDATE(DateExpression, ReferenceDate);
 ## See Also  
  [AL Methods](methods/devenv-al-methods.md)   
  [Triggers](triggers/devenv-triggers.md)   
- [C/AL Simple Statements](C-AL-Simple-Statements.md)
+ [AL Simple Statements](devenv-al-simple-statements.md)
