@@ -15,7 +15,7 @@ author: SusanneWindfeldPedersen
 Sets the type of method in a test codeunit.  
   
 ## Applies To  
- AL methods on test codeunits. A test codeunit is codeunit that has the [SubType Property \(Codeunit\)](devenv-subtype-property-codeunit.md) set to **Test**.  
+ AL methods on test codeunits. A test codeunit is codeunit that has the [SubType Property (Codeunit)](devenv-subtype-property-codeunit.md) set to **Test**.  
   
 ## Property Value  
   

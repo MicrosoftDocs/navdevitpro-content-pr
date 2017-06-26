@@ -34,4 +34,4 @@ Specifies what happens to the event subscriber function call when the license of
  [Publishing Events](Publishing-Events.md)   
  [Raising Events](Raising-Events.md)   
  [Subscribing to Events](Subscribing-to-Events.md)   
- [AL Function Statements](C-AL-Function-Statements.md)
+ [AL Method Statements](../devenv-al-method-statements.md)

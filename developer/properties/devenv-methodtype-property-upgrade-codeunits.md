@@ -14,7 +14,7 @@ caps.latest.revision: 6
 Sets the type of method in an upgrade codeunit.  
 
 ## Applies To  
- AL methods on upgrade codeunits. An upgrade codeunit is codeunit that has the [SubType Property \(Codeunit\)](devenv-subtype-property-codeunit.md) set to **Upgrade**.  
+ AL methods on upgrade codeunits. An upgrade codeunit is codeunit that has the [SubType Property (Codeunit)](devenv-subtype-property-codeunit.md) set to **Upgrade**.  
 
 ## Property Value  
 

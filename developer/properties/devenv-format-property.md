@@ -18,30 +18,30 @@ Sets the formats of the source expression for various data types.
  All data types in AL.  
   
 ## Remarks  
- You can set the Format property to a predefined format, or you can build your own format. For more information, see [FORMAT Method \(Code, Text\)](../methods/devenv-FORMAT-Method-Code-Text.md).  
+ You can set the Format property to a predefined format, or you can build your own format. For more information, see [FORMAT Method (Code, Text)](../methods/devenv-format-method-code-text.md).  
   
 ## Basic Settings  
- To choose a predefined format, use the syntax: \<Standard Format,*X*>, where *X* is one of the entries in the Value column of the following table.  
+ To choose a predefined format, use the syntax: <Standard Format,*X*>, where *X* is one of the entries in the Value column of the following table.  
   
 |Value|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
-|-----------|---------------------------------------|  
-|0|Standard Display Format \(the default for all data types\)|  
-|1|Standard Display Format 2 \(edit\)|  
+|-----|---------------------------------------|  
+|0|Standard Display Format (the default for all data types)|  
+|1|Standard Display Format 2 (edit)|  
 |2|AL Code Constant Format|  
   
 > [!NOTE]  
->  You must enter the \< and > angle brackets, such as \<Standard Format,2>.  
+>  You must enter the < and > angle brackets, such as <Standard Format,2>.  
   
 ## Building Formats  
  You can use the Format property to create your own formats. To create a format, use the following rules:  
   
 -   A format property consists of zero or more Chars, Fields, or Attributes.  
   
--   Fields and Attributes are expressed by using an identifier enclosed in brackets \(\<>\).  
+-   Fields and Attributes are expressed by using an identifier enclosed in brackets (<>).  
   
--   Attributes must contain a comma \(,\) and a parameter after the identifier.  
+-   Attributes must contain a comma (,) and a parameter after the identifier.  
   
--   Fields can optionally take a comma \(,\) and a FieldLen.  
+-   Fields can optionally take a comma (,) and a FieldLen.  
   
  The following table shows the syntax.  
   
@@ -84,21 +84,21 @@ Sets the formats of the source expression for various data types.
   
 -   Choosing a standard format.  
   
-     Use the Standard Format attribute to select one of the standard formats \(these are listed at the end of this Help topic\).  
+     Use the Standard Format attribute to select one of the standard formats (these are listed at the end of this topic).  
   
-     For example, \<Standard Format,5> selects Standard Format 5.  
+     For example, <Standard Format,5> selects Standard Format 5.  
   
 -   Using a standard format with an attribute.  
   
-     \<Precision,2:3>\<Standard Format,0> will use Standard Format 0 and will format the data with a minimum of 2 and a maximum of 3 decimal places. For more information, see [DecimalPlaces Property](devenv-decimalplaces-property.md). If you do not specify a precision, then the page uses the precision that is specified in the [DecimalPlaces Property](devenv-decimalplaces-property.md) of the corresponding field in the table.  
+     <Precision,2:3><Standard Format,0> will use Standard Format 0 and will format the data with a minimum of 2 and a maximum of 3 decimal places. For more information, see [DecimalPlaces Property](devenv-decimalplaces-property.md). If you do not specify a precision, then the page uses the precision that is specified in the [DecimalPlaces Property](devenv-decimalplaces-property.md) of the corresponding field in the table.  
   
 -   Building a format.  
   
-     You can create your own formats using Chars \(which are displayed literally\), Fields \(to choose specific components of a value, for example the year-part of a date\) and Attributes \(for example to select which character to use as a filler\).  
+     You can create your own formats using Chars (which are displayed literally), Fields (to choose specific components of a value, for example the year-part of a date) and Attributes (for example to select which character to use as a filler).  
   
      For example, a field that is based on a source expression of the Date data type can use the following format string:  
   
-     \<Weekday Text>, \<Month Text> \<Day>  
+     <Weekday Text>, <Month Text> <Day>  
   
      This expression displays the date as Monday, April 15.  
   
@@ -217,9 +217,9 @@ Sets the formats of the source expression for various data types.
   
  Standard format 9 is used to display the data in the standard XML formats.  
   
- For Chars, all formats should resemble the following: \<Char/Number>.  
+ For Chars, all formats should resemble the following: <Char/Number>.  
   
- For Text and Code, all formats should resemble the following: \<Text>.  
+ For Text and Code, all formats should resemble the following: <Text>.  
   
 ## See Also  
  [DecimalPlaces Property](devenv-decimalplaces-property.md)
