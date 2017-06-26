@@ -10,7 +10,7 @@ ms.prod: "dynamics-365-for-financials"
 author: jswymer
 ---
 # INIT Method
-Creates an instance of a SessionsSettings object that is populated with the client user's personalization settings (such as Profile ID and Company) that are currently stored in the database.
+Creates an instance of a SessionsSettings object that is populated with the client user's personalization properties (such as Profile ID and Company) that are currently stored in the database.
 
 ## Syntax  
 
@@ -19,25 +19,32 @@ SessionSettings.INIT
 ```  
 
 ## Remarks  
-The method gets the data from the following fields in system table **2000000073 User Personalization**: App ID, Company, Language ID, Locale ID, Profile ID, Scope, and Time Zone.
+The method gets the data from the following fields in system table **2000000073 User Personalization**: App ID, Company, Language ID, Locale ID, Profile ID, Scope, and Time Zone. In the SessionSettings object, the data is stored in properties that correspond to the fields of the system table.
 
-After you call the INIT method, you can change the values in the object by using the SessionSettings methods that correspond to the fields in the User Personalization table.
+After you call the INIT method, you can change the values in the object by calling the following methods:
+-   [COMPANY](devenv-company-method-sessionsettings.md)
+-   [LANGUAGEID](devenv-languageid-method-sessionsettings.md)
+-   [LOCALID method](devenv-localeid-method-sessionsettings.md)
+-   [PROFILEAPPID](devenv-profileappid-method-sessionsettings.md)
+-   [PROFILEID](devenv-profileid-method-sessionsettings.md)
+-   [PROFILESYSTEMSCOPE](devenv-profilesystemscope-method-sessionsettings.md)
+-   [TIMEZONE](devenv-timezone-method-sessionsettings.md)
 
+This method is useful before calling the [REQUESTSESSIONUPDATE](devenv-requestsessionupdate-method.md) method to ensure that all properties are initialized before sending the request to the server instance to start a new client session.
 
 ## Example  
-This example uses the INIT method to get the current client user's personalization settings, change the company, and then send the request to the client to start a new session that uses the new settings.
+This example uses the INIT method to create a SessionSettings object that includes the current client user's personalization settings from the database, and uses the COMPANY method to set the company to 'MyCompany'. Then, REQUESTSESSIONUPDATE method sends a request to the client to abandon the current client session and start a new session that uses the personalization settings in the SessionSettings object.
 
-```  
-  MySessionSettings.INIT
-  MySessionSettings.COMPANY('CRONUS International Ltd.');
-  MySessionSettings.REQUESTSESSIONUPDATE(true);  
-```  
-
-This example requires the following SessionSettings data type variable.
 ```
 var
   MySessionSettings : SessionSettings;
+  begin
+    MySessionSettings.INIT
+    MySessionSettings.COMPANY('MyCompany');
+    MySessionSettings.REQUESTSESSIONUPDATE(false);
+  end;  
 ```  
 
 ## See Also  
+[SessionSettings Data Type](../datatypes/devenv-sessionsettings-data-type.md)
 [REQUESTSESSIONUPDATE method](devenv-requestsessionupdate-method.md)  

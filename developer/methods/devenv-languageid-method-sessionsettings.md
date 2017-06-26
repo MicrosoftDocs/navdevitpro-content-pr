@@ -10,7 +10,7 @@ ms.prod: "dynamics-365-for-financials"
 author: jswymer
 ---
 # LANGUAGEID Method
-Gets or sets the company in a SessionSettings object.  
+Gets or sets the language ID property in a SessionSettings object.  
 
 ## Syntax  
 
@@ -22,25 +22,27 @@ Gets or sets the company in a SessionSettings object.
 *NewLanguageId*  
 Type: Integer  
 
-Specifies the langaue ID to set in the SessionSettings object.  
+Specifies the language ID to set in the SessionSettings object. The value must be a valid Windows language ID, wich is typically a 4-digit value such as 1033 for English or 1030 for Danish; otherwise 1033 will be used.
 
 ## Return Value  
 Type: Integer  
 
-The name of the company that is in the SessionSettings object.  
+The langauge ID that is set in the SessionSettings object.  
 
-## Example  This example changes the company that is stored in a SessionsSettings object, and then sends the request to the client to start a new session that uses the new company.
+## Remarks  
+The langauge ID in the SessionSettings object corresponds to the Locale ID field in system table **2000000073 User Personalization** for the client session user.
 
-```  
-  MySessionSettings.INIT
-  MySessionSettings.COMPANY('CRONUS International Ltd.');
-  MySessionSettings.REQUESTSESSIONUPDATE(true);  
-```  
+## Example
+This example creates a SessionSettings object that is populated with the current client user's personalization data, and then uses the LANGUAGEID method to change the language ID to '1030'. Finally, the REQUESTSESSIONUPDATE method sends a request to the client to abandon the current client session and start a new session that uses the new language. This example requires a SessionSettings data type variable.
 
-This example requires the following SessionSettings data type variable.
 ```
 var
   MySessionSettings : SessionSettings;
+  begin
+    MySessionSettings.INIT
+    MySessionSettings.LANGUAGE(1030);
+    MySessionSettings.REQUESTSESSIONUPDATE(false);
+  end;  
 ```  
 
 ## See Also  

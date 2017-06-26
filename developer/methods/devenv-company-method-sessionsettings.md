@@ -10,7 +10,7 @@ ms.prod: "dynamics-365-for-financials"
 author: jswymer
 ---
 # COMPANY Method
-Gets or sets the company in a SessionSettings object.  
+Gets or sets the company property in a SessionSettings object.  
 
 ## Syntax  
 
@@ -22,25 +22,24 @@ Gets or sets the company in a SessionSettings object.
 *NewCompanyName*  
 Type: Text  
 
-Specifies the name of the company in the SessionSettings object.  
+Specifies the name of the company in the SessionSettings object. The company must already exisit in the database, otherwise you will get an error at runtime.
 
 ## Property Value/Return Value  
 Type: Text  
 
-The name of the company that is in the SessionSettings object.  
+The name of the company that is set in the SessionSettings object.  
 
-## Example  This example changes the company that is stored in a SessionsSettings object, and then sends the request to the client to start a new session that uses the new company.
+## Example
+This example creates a SessionSettings object that is populated with the current client user's personalization data, and then calls the COMPANY method to change the company to 'MyCompany'. Finally, the REQUESTSESSIONUPDATE method sends a request to the client to abandon the current session and start a new session that will use the new company. This example requires a SessionSettings data type variable.
 
-```  
-  MySessionSettings.INIT
-  MySessionSettings.COMPANY('CRONUS International Ltd.');
-  MySessionSettings.REQUESTSESSIONUPDATE(true);  
-```  
-
-This example requires the following SessionSettings data type variable.
 ```
 var
   MySessionSettings : SessionSettings;
+  begin
+    MySessionSettings.INIT
+    MySessionSettings.COMPANY('MyCompany');
+    MySessionSettings.REQUESTSESSIONUPDATE(false);
+  end;  
 ```  
 
 ## See Also  
