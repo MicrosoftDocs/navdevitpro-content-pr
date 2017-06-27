@@ -10,7 +10,7 @@ ms.prod: "dynamics-365-for-financials"
 author: jswymer
 ---
 # PROFILEAPPID Method
-Gets or sets the extension profile ID proerty in a SessionSettings object.  
+Gets or sets the ID of an extension, which provides a profile, in a SessionSettings object.  
 
 ## Syntax  
 
@@ -22,18 +22,18 @@ Gets or sets the extension profile ID proerty in a SessionSettings object.
 *NewProfileAppId*  
 Type: GUID  
 
-Sets the GUID of the profile that is provided by an extension. The value must be a valid GUID for an extension in the system table **2000000072 Profile**.
+Sets the GUID of the extension that provides the profile. The value must be a valid GUID for an extension in the system table **2000000072 Profile**.
 
 ## Return Value  
 Type: GUID  
 
-The ID that is set for the extension profile in the SessionSettings object.  
+The ID of the extension that is set in the SessionSettings object.  
 
 ## Remarks
-A profile can be included as part of an extension, instead of being defined as part of the base application. In order to identify the profile, you must specify the ID of the profile and extension itself.
+A profile can be included as part of an extension, instead of being defined as part of the base application. In order to properly identify a profile from an extension in the SessionSettings object, you must specify the extension ID, by using the PROFILEAPPID method, and the profile ID, by using [PROFILEID method](devenv-profileid-method-sessionsettinsg.md).
 
 ## Example
-This example creates a SessionSettings object that is populated with the current client user's personalization data and uses the PROFILEAPPID method to set the extension profile that has the ID 'MyExtensionProfile' and the extension ID '12345678-1234-1234-1234-1234567890AB'. Then, it sends a request to the client to abandon the current client session and start a new session that uses the new profile ID. This example requires a SessionSettings data type variable.
+This example creates a SessionSettings object that is populated with the current client user's personalization data, and then uses the PROFILEAPPID method and PROFILEID method to set the object to use the profile that has the ID 'MyExtensionProfile', which is provided in the extension that has the ID '12345678-1234-1234-1234-1234567890AB'. Finally, the REQUESTSESSIONUPDATE method sends a request to the client to abandon the current client session and start a new session that uses the new profile. This example requires a SessionSettings data type variable.
 
 ```
 var
@@ -47,4 +47,7 @@ var
 ```  
 
 ## See Also  
-[REQUESTSESSIONUPDATE method](devenv-requestsessionupdate-method.md)  
+[INIT Method](devenv-init-method-sessionsettings.md)  
+[PROFILEID Method](devenv-profileid-method-sessionsettinsg.md)  
+[REQUESTSESSIONUPDATE Method](devenv-requestsessionupdate-method.md)  
+[SessionSettings Data Type](../datatypes/devenv-sessionsettings-data-type.md)  

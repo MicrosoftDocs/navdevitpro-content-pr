@@ -30,7 +30,7 @@ Type: Text
 The profile ID that is set in the SessionSettings object.  
 
 ## Remarks  
-The profile ID determines the Role Center that is used in the client session.
+The profile ID determines the Role Center that is used in the client session. The PROFILEID property in a SessionSettings object corresponds to the **Profile ID** field in the in the system table **2000000073 User Personalization**.
 
 ## Example
 This example creates a SessionSettings object that is populated with the current client user's personalization data, and uses the changes the PROFILE method to set  the profile to 'Business Manager'. Finally, the REQUESTSESSIONUPDATE method sends a request to the client to abandon the current session and start a new session that uses the new profile ID. This example requires a SessionSettings data type variable.
@@ -46,4 +46,6 @@ var
 ```  
 
 ## See Also  
-[REQUESTSESSIONUPDATE method](devenv-requestsessionupdate-method.md)  
+[INIT Method](devenv-init-method-sessionsettings.md)  
+[REQUESTSESSIONUPDATE Method](devenv-requestsessionupdate-method.md)  
+[SessionSettings Data Type](../datatypes/devenv-sessionsettings-data-type.md)    

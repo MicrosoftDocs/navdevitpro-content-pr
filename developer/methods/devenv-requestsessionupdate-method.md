@@ -10,7 +10,7 @@ ms.prod: "dynamics-365-for-financials"
 author: jswymer
 ---
 # REQUESTSESSIONUPDATE Method
-Passes a SessionSettings object to the client to request a new session that uses the user personalization properties in the object. The current client session is abandoned and a new session is started.  
+Passes a SessionSettings object to the client to request a new session that uses the user personalization properties that are set in the object. The current client session is abandoned and a new session is started.  
 
 ## Syntax  
 
@@ -22,21 +22,19 @@ SessionSettings.REQUESTSESSIONUPDATE(SaveSettings)
  *SaveSettings*  
  Type: Boolean  
 
-Specifies whether to save the personalization properties in the SessionSettings to the table **2000000073 User Personalization** in the database for the current client user. **true** saves the settings; **false** does not.
+Specifies whether to save the personalization properties in the SessionSettings object to the table **2000000073 User Personalization** in the database for the current client user. **true** saves the settings; **false** does not.
 
 If you set this parameter to **true**, before sending the request to the client, the server instance will store the property values of the SessionSettings object to the corresponding fields in the table **2000000073 User Personalization**
 
-If you set this to **false**, when the new client session is closed, the next time the user signs in, the session will return to the previous personalization settings. This enable you to use the SessionSettings object to temporarily change the personalization settings for the current session.
+If you set this to **false**, when the new client session is closed, the next time the user signs in, the session will return to the previous personalization settings. This enables you to use the SessionSettings object to temporarily change the personalization settings for the current session.
 
 ## Remarks  
-Within the scope of the REQUESTSESSIONUPDATE method, it is not recommended to run code after the REQUESTSESSIONUPDATE method call that requires client communication  because the current client session will be abandoned.
+Within the scope of the REQUESTSESSIONUPDATE method, it is not recommended to run code after the REQUESTSESSIONUPDATE method call that requires client communication because the current client session will be abandoned.
 
-Before the REQUESTSESSIONUPDATE method is called, be sure that all the personalization properties in the SessionSettings object have values; otherwise this can result in unwanted. For You can use the INIT method to populate the object with the values in the database.
-
-If this method is called in an OData or SOAP web service call, it is ignored.
+Before the REQUESTSESSIONUPDATE method is called, be sure that all user personalization properties in the SessionSettings object have values; otherwise the system default values will be used for empty properties. To help, you can use the INIT method to populate the object with the values in the database.
 
 ## Example  
-This example uses the INIT method to create a SessionSettings object that includes the current client user's personalization settings from the database, and then uses the COMPANY method to set the company to 'MyCompany'. Finally, the REQUESTSESSIONUPDATE method sends a request to the client to abandon the current client session and start a new session that uses the personalization settings in the SessionSettings object, including the new company.
+This example uses the INIT method to create a SessionSettings object that includes the current client user's personalization settings from the database, and then uses the COMPANY method to set the company to 'MyCompany'. Finally, the REQUESTSESSIONUPDATE method sends a request that saves the SessionSettings object property values to the database and starts a new client session that uses the new company.
 
 ```
 var
@@ -48,6 +46,7 @@ var
   end;  
 ```  
 
-
 ## See Also  
-[INIT method](devenv-init-method.md)  
+[INIT Method](devenv-init-method-sessionsettings.md)  
+[COMPANY Method](devenv-company-method-sessionsettings.md)  
+[SessionSettings Data Type](../datatypes/devenv-sessionsettings-data-type.md)  
