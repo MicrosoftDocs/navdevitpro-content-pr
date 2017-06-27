@@ -23,7 +23,6 @@ The following properties apply to the page object.
 
 |Property Name|Page Object|Page Extension Object|
 |-------------|-----------|---------------------|
-|[CardPageId Property](devenv-cardpageid-property.md)|X||
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 |[PageType Property](devenv-pagetype-property.md)|X||
 |[Editable Property](devenv-editable-property.md)|X||
