@@ -35,5 +35,5 @@ The first XmlNode that matches the XPath query.
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)  
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
