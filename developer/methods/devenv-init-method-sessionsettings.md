@@ -10,7 +10,7 @@ ms.prod: "dynamics-365-for-financials"
 author: jswymer
 ---
 # INIT Method
-Creates an instance of a SessionsSettings object that is populated with the client user's personalization properties (such as Profile ID and Company) that are currently stored in the database.
+Creates an instance of a SessionsSettings object that is populated with the current client user's personalization properties (such as Profile ID and Company) that are stored in the database.
 
 ## Syntax  
 
@@ -30,10 +30,10 @@ After you call the INIT method, you can change the values in the object by calli
 -   [PROFILESYSTEMSCOPE](devenv-profilesystemscope-method-sessionsettings.md)
 -   [TIMEZONE](devenv-timezone-method-sessionsettings.md)
 
-This method is useful before calling the [REQUESTSESSIONUPDATE](devenv-requestsessionupdate-method.md) method to ensure that all properties are initialized before sending the request to the server instance to start a new client session.
+The INIT method is useful before calling the [REQUESTSESSIONUPDATE](devenv-requestsessionupdate-method.md) method to ensure that all properties are initialized before sending the request to the server instance to start a new client session.
 
 ## Example  
-This example uses the INIT method to create a SessionSettings object that includes the current client user's personalization settings from the database, and uses the COMPANY method to set the company to 'MyCompany'. Then, REQUESTSESSIONUPDATE method sends a request to the client to abandon the current client session and start a new session that uses the personalization settings in the SessionSettings object.
+This example uses the INIT method to create a SessionSettings object that includes the current client user's personalization settings from the database, and uses the COMPANY method to set the company to 'MyCompany'. Then, the REQUESTSESSIONUPDATE method sends a request to the client to abandon the current client session and start a new session that uses the personalization settings in the SessionSettings object.
 
 ```
 var
@@ -46,5 +46,6 @@ var
 ```  
 
 ## See Also  
-[SessionSettings Data Type](../datatypes/devenv-sessionsettings-data-type.md)
+[COMPANY Method](devenv-company-method-sessionsettings.md)  
 [REQUESTSESSIONUPDATE method](devenv-requestsessionupdate-method.md)  
+[SessionSettings Data Type](../datatypes/devenv-sessionsettings-data-type.md)  
