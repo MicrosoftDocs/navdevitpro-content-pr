@@ -16,8 +16,8 @@ author: SusanneWindfeldPedersen
 Building extensions and connect apps for Dynamics 365 for Financials allows you to enrich and leverage the Dynamics 365 brand – a brand that millions of users know and trust. Extensions enables you to quickly make changes to respond to local market requirements or industry specific needs, giving you a competitive edge. Achieve more with our new platform that delivers a modern, flexible development experience. When your app is done, publish it through Microsoft AppSource – the main repository for Microsoft’s business apps. 
 <!-- Learn more about why you should have an app on AppSource and get an overall introduction to our processes in this video.-->
 
-|Connect|Extend|
-|--|--|
+|<h3>Connect</h3>|<h3>Extend</h3>|
+|----------------|---------------|
 |![Connect](media/connect.png)|![Extend](media/connect.png)|
 |A connect app establishes a connection between two independent services using an API to interchange data. A typical example of a connect app is a Payroll solution such as Ceridian or ADP. In both cases, all work related to Payroll is done inside Ceridian or the ADP system, and only as a last step is the financial data posted into Dynamics 365 for Financials by means of using the API. A Connect App is mainly created using common development tools, REST API’s, and the API’s made available in Dynamics 365 for Financials from Update 7 and onwards. A Connect App can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.| An extension can either add to the existing Dynamics 365 for Financials functionality to integrate a solution such as PayPal, or embed an end-to-end experience such as a solution for the dental industry or law firms. An extension typically makes use of the variety of development tools and can also include the APIs available for Dynamics 365 for Financials.
 |
@@ -52,7 +52,6 @@ Before we publish your app on AppSource, we will collaborate with you to ensure 
 ## Things to consider if you're a ...
 <!-- Option 1: having a short paragraph addressing the audience, linking to different resources (attention: many of the docs / videos today are on DLP)
 Option 2: we make an all up GTM document (as office)  should that be a Dynamics 365 all up doc?? -->
-Blablabla...
 
 ### Business owner
 
@@ -75,6 +74,7 @@ Blablabla...
 
 [Get started with our development tools](https://review.docs.microsoft.com/en-us/dynamics365/developerbe/devenv-dev-overview?branch=master)  
  <!-- (this is the staging, when we push to live around Inspire, this link changes) -->
+
 [Read more about integrating with Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/overview)  
 <!-- (preliminary, we will go live here with Financials API at some point)-->
 
