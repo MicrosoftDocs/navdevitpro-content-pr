@@ -41,10 +41,10 @@ Blob.CreateOutStream(Stream [,TextEncoding.value])
 MyTable.MyBLOBfield.CREATEOUTSTREAM(MyStream, TextEncoding.WINDOWS)  
 ```  
   
- For more information, see [[File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md)](Text-Encoding.md).  
+ For more information, see [File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md).  
   
 ## See Also  
  [BLOB Data Type](../datatypes/devenv-BLOB-Data-Type.md)   
  [InStream and OutStream Data Types](../datatypes/devenv-InStream-and-OutStream-Data-Types.md)   
  [How to: Use Streams to Write to Text Files](How-to--Use-Streams-to-Write-to-Text-Files.md)   
- [[File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md)](Text-Encoding.md)
+ [File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md)
