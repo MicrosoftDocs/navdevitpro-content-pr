@@ -17,9 +17,7 @@ This topic lists properties that apply to the Codeunit object, variables, text c
   
 ## Codeunit Object Properties  
  The following properties apply to the **Codeunit** object.  
-  
--   [ID Property](devenv-id-property.md)  
-  
+   
 -   [Name Property](devenv-name-property.md)  
   
 -   [Permissions Property](devenv-permissions-property.md)  
@@ -31,6 +29,8 @@ This topic lists properties that apply to the Codeunit object, variables, text c
 -   [TableNo Property](devenv-tableno-property.md)  
   
 -   [TestIsolation Property](devenv-testisolation-property.md)  
+
+-   [EventSubscriberInstance Property](devenv-eventsubscriberinstance-property.md)
   
 ## AL Globals Variables Properties  
  The following properties apply to **Variables** in the **AL Globals** window of codeunit objects.  
