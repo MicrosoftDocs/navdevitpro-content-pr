@@ -24,23 +24,23 @@ The SessionSettings data type is used extensively in the AL code of page **9176 
 ## Methods
 The following methods are supported for the SessionSettings data type:
 
-[COMPANY Method](methods/devenv-company-method-sessionsettings.md)
+[COMPANY Method](../methods/devenv-company-method-sessionsettings.md)
 
-[INIT Method](methods/devenv-init-method.md)
+[INIT Method](../methods/devenv-init-method-sessionsettings.md)
 
-[LANGUAGEID Method](methods/devenv-languageid-method-sessionsettings.md)
+[LANGUAGEID Method](../methods/devenv-languageid-method-sessionsettings.md)
 
-[LOCALEID Method](methods/devenv-localeid-method-sessionsettings.md)
+[LOCALEID Method](../methods/devenv-localeid-method-sessionsettings.md)
 
-[PROFILEAPPID Method](methods/devenv-profileappid-method-sessionsettings.md)
+[PROFILEAPPID Method](../methods/devenv-profileappid-method-sessionsettings.md)
 
-[PROFILEID Method](methods/devenv-profileid-method-sessionsettings.md)
+[PROFILEID Method](../methods/devenv-profileid-method-sessionsettings.md)
 
-[PROFILESYSTEMSCOPE Method](methods/devenv-profilesystemscope-method-sessionsettings.md)
+[PROFILESYSTEMSCOPE Method](../methods/devenv-profilesystemscope-method-sessionsettings.md)
 
-[REQUESTSESSIONUPDATE Method](methods/devenv-requestsessionupdate-method.md)   
+[REQUESTSESSIONUPDATE Method](../methods/devenv-requestsessionupdate-method.md)   
 
-[TIMEZONE Method](methods/devenv-timezone-method-sessionsettings.md)
+[TIMEZONE Method](../methods/devenv-timezone-method-sessionsettings.md)
 
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  

@@ -22,7 +22,7 @@ Gets or sets the company property in a SessionSettings object.
 *NewCompanyName*  
 Type: Text  
 
-Specifies the name of the company in the SessionSettings object. The company must already exisit in the database, otherwise you will get an error at runtime.
+Specifies the name of the company in the SessionSettings object. The company must already exist in the database, otherwise you will get an error at runtime.
 
 ## Property Value/Return Value  
 Type: Text  
@@ -30,7 +30,7 @@ Type: Text
 The name of the company that is set in the SessionSettings object.  
 
 ## Example
-This example creates a SessionSettings object that is populated with the current client user's personalization data, and then calls the COMPANY method to change the company to 'MyCompany'. Finally, the REQUESTSESSIONUPDATE method sends a request to the client to abandon the current session and start a new session that will use the new company. This example requires a SessionSettings data type variable.
+This example creates a SessionSettings object that is populated with the current client user's personalization data, and then calls the COMPANY method to change the company to 'MyCompany'. Finally, the REQUESTSESSIONUPDATE method sends a request to the client to abandon the current session and start a new session that uses the new company. This example requires a SessionSettings data type variable.
 
 ```
 var
@@ -43,4 +43,5 @@ var
 ```  
 
 ## See Also  
-[REQUESTSESSIONUPDATE method](devenv-requestsessionupdate-method.md)  
+[INIT Method](devenv-init-method-sessionsettings.md)  
+[REQUESTSESSIONUPDATE Method](devenv-requestsessionupdate-method.md)  
