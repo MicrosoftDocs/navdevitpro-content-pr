@@ -44,4 +44,4 @@ END ELSE
 [RECALL Method (Notification)](devenv-recall-method-notification.md)  
 [MESSAGE Method (Notification)](devenv-message-method-notification.md)  
 [SCOPE Method (Notification)](devenv-scope-method-notification.md)  
-[Notifications](notifications-developing.md)
+[Notifications](../devenv-notifications-developing.md)

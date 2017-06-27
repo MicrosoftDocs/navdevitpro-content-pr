@@ -41,7 +41,7 @@ The data that is specified by the SETDATA method can be retrieved by the [GETDAT
 
 You can use multiple SETDATA method calls to specify different data items. The data remains available for the life of the notification instance. The data is cleared once the notification instance has been dismissed or an action is taken.
 
-For more information and a detailed example, see [Notifications](notifications-developing.md).
+For more information and a detailed example, see [Notifications](../devenv-notifications-developing.md).
 
 ##  Example
 The following code sets the data for a notification:
@@ -66,4 +66,4 @@ MyNotification.GETDATA('ID');
 [SCOPE Method(Notification)](devenv-scope-method-notification.md)  
 [SEND Method (Notification)](devenv-send-method-notification.md)  
 [ADDACTION Method(Notification)](devenv-addaction-method-notification.md)  
-[Notifications](notifications-developing.md)
+[Notifications](../devenv-notifications-developing.md)
