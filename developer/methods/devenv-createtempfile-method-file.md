@@ -52,4 +52,4 @@ FileName.CLOSE;
   
 ## See Also  
  [File Data Type](../datatypes/devenv-File-Data-Type.md)   
- [File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md)]
+ [File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md)
