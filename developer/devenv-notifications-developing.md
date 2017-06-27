@@ -26,13 +26,13 @@ By using the **Notification** and **NotificationScope** data types and methods i
 
 |  Method  |  Description  |
 |------------|---------------|
-|[MESSAGE](methods/devenv-message-notification.md)  |Specifies the content of the notification that appears in the UI.|
-|[SCOPE](methods/devenv-scope-notification.md)     |Specifies the scope in which the notification appears.|
-|[SEND](methods/devenv-send-notification.md)  |Sends the notification to be displayed by the client.|
-|[ADDACTION](methods/devenv-addaction-notification.md)  |Adds an action on the notification.|
-|[SETDATA](methods/devenv-setdata-notification.md)  |Sets a data property value for the notification|
-|[GETDATA](methods/devenv-getdata-notification.md)  |Gets a data property value from the notification.|
-|[RECALL](methods/devenv-recall-notification.md)|Recalls a sent notification.|
+|[MESSAGE](methods/devenv-message-method-notification.md)  |Specifies the content of the notification that appears in the UI.|
+|[SCOPE](methods/devenv-scope-method-notification.md)     |Specifies the scope in which the notification appears.|
+|[SEND](methods/devenv-send-method-notification.md)  |Sends the notification to be displayed by the client.|
+|[ADDACTION](methods/devenv-addaction-method-notification.md)  |Adds an action on the notification.|
+|[SETDATA](methods/devenv-setdata-method-notification.md)  |Sets a data property value for the notification|
+|[GETDATA](methods/devenv-getdata-method-notification.md)  |Gets a data property value from the notification.|
+|[RECALL](methods/devenv-recall-method-notification.md)|Recalls a sent notification.|
 
 
 ## Creating and sending a notification
