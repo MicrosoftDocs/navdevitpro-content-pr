@@ -38,7 +38,7 @@ The following methods are supported for the SessionSettings data type:
 
 [PROFILESYSTEMSCOPE Method](methods/devenv-profilesystemscope-method-sessionsettings.md)
 
-[REQUESTSESSIONUPDATE method](methods/devenv-requestsessionupdate-method.md)   
+[REQUESTSESSIONUPDATE Method](methods/devenv-requestsessionupdate-method.md)   
 
 [TIMEZONE Method](methods/devenv-timezone-method-sessionsettings.md)
 
