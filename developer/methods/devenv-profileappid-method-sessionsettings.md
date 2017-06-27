@@ -30,7 +30,9 @@ Type: GUID
 The ID of the extension that is set in the SessionSettings object.  
 
 ## Remarks
-A profile can be included as part of an extension, instead of being defined as part of the base application. In order to properly identify a profile from an extension in the SessionSettings object, you must specify the extension ID, by using the PROFILEAPPID method, and the profile ID, by using [PROFILEID method](devenv-profileid-method-sessionsettinsg.md).
+A profile can be included as part of an extension, instead of being defined as part of the base application. In order to properly identify a profile from an extension in the SessionSettings object, you must specify the extension ID, by using the PROFILEAPPID method, and the profile ID, by using [PROFILEID method](devenv-profileid-method-sessionsettings.md).
+
+The PROFILEAPPID property in a SessionSettings object corresponds to the **App ID** field in the in the system table **2000000073 User Personalization**
 
 ## Example
 This example creates a SessionSettings object that is populated with the current client user's personalization data, and then uses the PROFILEAPPID method and PROFILEID method to set the object to use the profile that has the ID 'MyExtensionProfile', which is provided in the extension that has the ID '12345678-1234-1234-1234-1234567890AB'. Finally, the REQUESTSESSIONUPDATE method sends a request to the client to abandon the current client session and start a new session that uses the new profile. This example requires a SessionSettings data type variable.
@@ -48,6 +50,6 @@ var
 
 ## See Also  
 [INIT Method](devenv-init-method-sessionsettings.md)  
-[PROFILEID Method](devenv-profileid-method-sessionsettinsg.md)  
+[PROFILEID Method](devenv-profileid-method-sessionsettings.md)  
 [REQUESTSESSIONUPDATE Method](devenv-requestsessionupdate-method.md)  
 [SessionSettings Data Type](../datatypes/devenv-sessionsettings-data-type.md)  
