@@ -23,7 +23,6 @@ The following properties apply to the page object.
 
 |Property Name|Page Object|Page Extension Object|
 |-------------|-----------|---------------------|
-|[CardPageId Property](devenv-cardpageid-property.md)|X||
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 |[PageType Property](devenv-pagetype-property.md)|X||
 |[Editable Property](devenv-editable-property.md)|X||
@@ -195,8 +194,8 @@ The following properties apply to Separators.
 |[IsHeader Property]()|X||
 
 ## See Also
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  
 [Developer Reference](../devenv-reference-overview.md)  
-[Page Object](../devenv-page-object.md)
+[Page Object](../devenv-page-object.md)  
 [Page Extension Object](../devenv-page-ext-object.md)  
 [Report Object](../devenv-report-object.md)  
