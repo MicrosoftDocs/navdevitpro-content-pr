@@ -9,10 +9,10 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 89baebc9-7d28-42b9-b8ad-cb3ca760fad2
 caps.latest.revision: 11
-manager: edupont
+author: jswymer
 ---
 # WRITEPERMISSION Function (Record)
-Determines whether a user can write to a table. This function can test for both full write permission and partial write permission that has been granted with a security filter. A write permission consists of Insert, Delete, and Modify permissions.  
+Determines whether a user can write to a table. This function can test for both full write permission and partial write permission that has been granted with a security filter. A write permission consists of Insert, Delete, and Modify permissions. The WRITEPERMISSION functions checks for both direct and indirect permissions on these operations. 
   
 ## Syntax  
   
@@ -44,7 +44,7 @@ Ok := Record.WRITEPERMISSION
   
 -   [MODIFYALL Function \(Record\)](MODIFYALL-Function--Record-.md)  
   
- **true** if you can write to some or all of the table. **false** if you cannot write to the table.  
+ **true** if you have direct or indirect permission to insert, modify, and delete all or some records in the table; **false** if you cannot write to the table. For example, if a permssion set grants indirect *Insert* and *Modify* permission to a table, but not *Delete* permission, the function will return **false**. If you change the permission set to grant *Insert* permission also, the function will return **true**. 
   
 ## Remarks  
  This function uses the filter that is currently applied to the *Record* to determine whether you have write permission. If no filter is applied, the function tests for full write permission. If a filter has been set, the function only tests for write permission within the range of the filter.  

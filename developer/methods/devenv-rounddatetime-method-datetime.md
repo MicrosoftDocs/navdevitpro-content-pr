@@ -81,4 +81,4 @@ MESSAGE(TEXT000, Format(DateTimeToRound,0,FormatString), Precision, Format(Resul
 ## See Also  
  [DateTime Methods](devenv-DateTime-Methods.md)   
  [FORMAT Method \(Code, Text\)](devenv-FORMAT-Method-Code-Text.md)   
- [Format Property](../devenv-Format-Property.md)
+ [Format Property](../properties/devenv-Format-Property.md)

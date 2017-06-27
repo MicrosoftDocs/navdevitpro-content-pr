@@ -14,8 +14,6 @@ ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
 
-[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
-
 # Table Extension Object
 The table extension object allows you to add additional fields or to change some properties on a table provided by the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] service. In this way, you can add data to the same table and treat it as a single table. For example, you may wish to create a table extension for a retail winter sports store. In your solution you want to have ```ShoeSize``` as an additional field on the customer table. Adding this as an extension allows you to write code for the customer record and also include values for the ```ShoeSize```.
 
@@ -27,12 +25,7 @@ When developing a solution for [!INCLUDE[d365fin_long_md](includes/d365fin_long_
 Typing the shortcut ```ttableext``` will create the basic layout for a table extension object when using the AL Extension in Visual Studio Code.
 
 ## Properties
-Using a table extension allows you to overwrite some properties on fields in the base table. The following properties can be changed:
-
-- OptionCaptionML
-- ClosingDates
-- Description
-- Width
+Using a table extension allows you to overwrite some properties on fields in the base table. For a list of Table properties, see [Table and Table Extension Properties](properties/devenv-table-properties.md).
 
 ## Table extension example
 This table extension object extends the Customer table object by adding a field ```ShoeSize```, with ID 70000900 and the data type ```Integer```. It also contains a procedure to check if the ```ShoeSize``` field is filled in.
@@ -73,5 +66,4 @@ Tables
 ## See Also
 [Developer Reference](devenv-reference-overview.md)  
 [Table Object](devenv-table-object.md)  
-[Tables](tables.md)  
-[Table Properties](table-properties.md)
+[Table and Table Extension Properties](properties/table-properties.md)

@@ -14,8 +14,6 @@ ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
 
-[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
-
 # XMLport Object
 XMLports are used to export and import data between an external source and [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Sharing data between different computer systems is seamless when it is shared in XML format. Working with XML files can be tedious so the details of how the XML file is handled are encapsulated in XMLports.
 
@@ -135,7 +133,7 @@ xmlport 70000124 ExportPermissionSet {
 ```
 
 ## See Also
-[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)  
-[Developer Reference](newdev-reference-overview.md)  
-[Page Extension Object](newdev-page-ext-object.md)  
-[Report Object](newdev-report-object.md)  
+[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)  
+[Developer Reference](devenv-reference-overview.md)  
+[Page Extension Object](devenv-page-ext-object.md)  
+[Report Object](devenv-report-object.md)  

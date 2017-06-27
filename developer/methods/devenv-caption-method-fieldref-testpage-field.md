@@ -40,9 +40,9 @@ Caption := TestPageField.CAPTION
  **CaptionML** or **Name** property as Text or Code.  
   
 ## Remarks  
- CAPTION returns the caption of a field. CAPTION first looks for a [CaptionML Property](../devenv-CaptionML-Property.md).  
+ CAPTION returns the caption of a field. CAPTION first looks for a [CaptionML Property](../properties/devenv-CaptionML-Property.md).  
   
- If it does not find one, it will use the [Name Property](../devenv-Name-Property.md). This means that CAPTION is enabled for multilanguage functionality.  
+ If it does not find one, it will use the [Name Property](../properties/devenv-Name-Property.md). This means that CAPTION is enabled for multilanguage functionality.  
   
  This method is similar to the [FIELDCAPTION Method \(Record\)](devenv-FIELDCAPTION-Method-Record.md) method.  
   

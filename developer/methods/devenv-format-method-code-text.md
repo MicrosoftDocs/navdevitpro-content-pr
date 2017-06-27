@@ -51,7 +51,7 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
  *FormatStr*  
  Type: String  
 
- A literal string that defines a format as in the [Format Property](../devenv-Format-Property.md).  
+ A literal string that defines a format as in the [Format Property](../properties/devenv-Format-Property.md).  
 
  *FormatNumber*  
  Type: Integer  
@@ -77,7 +77,7 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
  The formatted output string.  
 
 ## Remarks  
- For more information about the formats that are used by the various data types, see [Format Property](../devenv-Format-Property.md). This topic describes the various predefined formats in detail, and how to create customized formats.  
+ For more information about the formats that are used by the various data types, see [Format Property](../properties/devenv-Format-Property.md). This topic describes the various predefined formats in detail, and how to create customized formats.  
 
  Format 9 is designed to be used when importing data with an XMLport and converts data from XML format to the corresponding AL formats.  
 
@@ -129,7 +129,7 @@ MESSAGE(Text000, FORMAT(TODAY,0,'<Month Text> <Day>'));
  **Today is April 15.**  
 
 ## See Also  
- [Format Property](../devenv-Format-Property.md)   
+ [Format Property](../properties/devenv-Format-Property.md)   
  [EVALUATE Method](devenv-EVALUATE-Method.md)   
  [Code Data Type](../datatypes/devenv-Code-Data-Type.md)   
  [Text Data Type](../datatypes/devenv-Text-Data-Type.md)

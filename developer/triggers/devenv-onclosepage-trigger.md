@@ -1,7 +1,7 @@
 ---
 title: "OnClosePage Trigger"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,7 +12,7 @@ caps.latest.revision: 14
 manager: edupont
 ---
 # OnClosePage Trigger
-Executed as a page closes after the [OnQueryClosePage Trigger](devenv-OnQueryClosePage-Trigger.md) is executed.  
+Executed as a page closes after the [OnQueryClosePage Trigger](devenv-onqueryclosepage-trigger.md) is executed.  
 
 ## Syntax  
 

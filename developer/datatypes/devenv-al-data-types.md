@@ -300,8 +300,8 @@ MAXSTRLEN(t); // Returns 6.
 #### File data type  
  The File data type provides access to operating system files.  
 
-#### fieldref data type  
- The fieldref data type identifies a field in a table and gives you access to this field. The fieldref object can refer to any field in any table in the database.  
+#### FieldRef ata type  
+ The FieldRef data type identifies a field in a table and gives you access to this field. The FieldRef object can refer to any field in any table in the database.  
 
 #### GUID data type  
  The GUID data type gives a unique identifying number to any database object.  
@@ -393,3 +393,7 @@ MAXSTRLEN(t); // Returns 6.
  As another example, assume that SampleArrayVariable2 is an array variable of data type Date with the dimensions 2x3x4. SampleArrayVariable2 has 24 elements. To index the first element, use SampleArrayVariable2[1,1,1]. To index the last element, use SampleArrayVariable2[2,3,4].  
 
  To declare a variable as an array, open the **Properties** window for the variable and then set the **Dimensions** property. For more information, see [Dimensions Property](../devenv-dimensions-property.md).
+
+## See Also
+[AL Methods](../methods/devenv-al-methods.md)  
+[AL Data Types](devenv-al-data-types.md)  

@@ -18,9 +18,14 @@ Identifies a key in a table and the fields in this key.
  This complex data type gives you access to the key and the fields it contains.  
   
  The KeyRef object can refer to any key in any table in the database.  
-  
+
+## Methods  
+The following methods are supported for the KeyRef data type:
+
+[ACTIVE method (KeyRef)](../methods/devenv-active-method-keyref.md)   
+[FIELDCOUNT method (KeyRef)](../methods/devenv-fieldcount-method-keyref.md)   
+[FIELDINDEX method (KeyRef)](../methods/devenv-fieldindex-method-keyref.md)   
+[RECORD method (KeyRef)](../methods/devenv-record-method-keyref.md)
+
 ## See Also  
- [ACTIVE method (KeyRef)](../methods/devenv-active-method-keyref.md)   
- [FIELDCOUNT method (KeyRef)](../methods/devenv-fieldcount-method-keyref.md)   
- [FIELDINDEX method (KeyRef)](../methods/devenv-fieldindex-method-keyref.md)   
- [RECORD method (KeyRef)](../methods/devenv-record-method-keyref.md)
+[AL Data Types](devenv-al-data-types.md)  

@@ -1,7 +1,7 @@
 ---
 title: "OnBeforeTestRun Trigger"
 ms.custom: na
-ms.date: 01/19/2017
+ms.date: 06/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -49,7 +49,7 @@ Specifies the permission set level to use on the test run. The value is retrieve
 *   **NonRestrictive**
 *   **InheritFromTestCodunit** - Specifies that a test the  uses the **TestPermissions** property setting of the test codeunit to which it belongs.
 
-For more information, see [Testing With Permission Sets](testing-permissionsets.md). 
+For more information, see [Testing With Permission Sets](../devenv/testing-permissionsets.md). 
 
 ## Return Value  
  *Ok*  
@@ -58,7 +58,7 @@ For more information, see [Testing With Permission Sets](testing-permissionsets.
  **true** to run the test ; otherwise, **false**. This value is checked after each  call.  
 
 ## Applies To  
- Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](SubType-Property-Codeunit.md) set to **TestRunner**.  
+ Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](../properties/devenv-subtype-property-codeunit.md) set to **TestRunner**.  
 
 > [!NOTE]  
 >  This trigger is optional and not available on a test runner codeunit by default. To implement this trigger, you must manually add it as a .  
@@ -72,7 +72,7 @@ For more information, see [Testing With Permission Sets](testing-permissionsets.
   
   The **OnBeforeTestRun** trigger is run in its own database transaction.  
 
- For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create a Test Runner Codeunit](How-to-Create-a-Test-Runner-Codeunit.md).  
+ For more information, see [Testing the Application](../devenv-testing-the-application.md) and [How to: Create a Test Runner Codeunit](../devenv-how-to-create-a-test-runner-codeunit.md).  
 
 ## Example  
  The following **OnBeforeTestRun** trigger code initializes a logging variable and returns **true** to indicate that the test  should execute. This example requires that you create the following global variable.  
@@ -87,9 +87,9 @@ EXIT(true);
 ```  
 
 ## See Also  
- [Testing the Application](Testing-the-Application.md)  
- [How to: Create a Test Runner Codeunit](How-to-Create-a-Test-Runner-Codeunit.md)   
- [How to: Create Test Codeunits and Test Methods](How-to-Create-Test-Codeunits-and-Test-Methods.md)   
- [How to: Create Handler Methods](How-to-Create-Handler-Methods.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough-Testing-Purchase-Invoice-Discounts.md)   
- [OnAfterTestRun Trigger](devenv-OnAfterTestRun-Trigger.md)
+ [Testing the Application](../devenv-testing-the-application.md)  
+ [How to: Create a Test Runner Codeunit](../devenv-how-to-create-a-test-runner-codeunit.md)   
+ [How to: Create Test Codeunits and Test Methods](../devenv-how-to-create-test-codeunits-and-test-methods.md)   
+ [How to: Create Handler Methods](../devenv-how-to-create-handler-methods.md)   
+ [Walkthrough: Testing Purchase Invoice Discounts](../devenv-walkthrough-testing-purchase-invoice-discounts.md)   
+ [OnAfterTestRun Trigger](devenv-onaftertestrun-trigger.md)

@@ -33,4 +33,4 @@ CHECKLICENSEFILE(KeyNumber)
  If you omit this method, the user will have the ability to continue regardless of whether the appropriate license file is open.  
   
 ## See Also  
- [Database](Database.md)
+ [Database Methods](devenv-database-methods.md)

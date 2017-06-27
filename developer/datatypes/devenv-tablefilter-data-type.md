@@ -15,3 +15,4 @@ author: SusanneWindfeldPedersen
 Applies a filter to another table. Currently, this data type can only be used when you are setting security filters from the Permission table.
 
 ## See Also
+[AL Data Types](devenv-al-data-types.md)  

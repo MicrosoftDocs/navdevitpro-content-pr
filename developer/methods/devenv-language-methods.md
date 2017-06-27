@@ -12,8 +12,11 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # Language Methods
-This section contains the following topics:  
+The following AL methods for langauge are available:  
   
--   [GLOBALLANGUAGE Method](devenv-GLOBALLANGUAGE-Method.md)  
+[GLOBALLANGUAGE Method](devenv-GLOBALLANGUAGE-Method.md)  
   
--   [WINDOWSLANGUAGE Method](devenv-WINDOWSLANGUAGE-Method.md)
+[WINDOWSLANGUAGE Method](devenv-WINDOWSLANGUAGE-Method.md)
+
+## See Also
+[AL Methods](devenv-al-methods.md)  

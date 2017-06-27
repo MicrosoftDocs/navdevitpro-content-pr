@@ -39,7 +39,7 @@ Gets the current transaction type and sets a new type to be assigned.
   
 -   Report  
   
- The Report transaction type maps to one of the other basic transaction types. For more information about the behavior of the transaction types, see [TransactionType Property](../devenv-TransactionType-Property.md).  
+ The Report transaction type maps to one of the other basic transaction types. For more information about the behavior of the transaction types, see [TransactionType Property](../properties/devenv-TransactionType-Property.md).  
   
  Using CURRENTTRANSACTIONTYPE to set a transaction type from within a currently active transaction does not affect the transaction type. You must set the transaction type before a transaction starts, which occurs at the first database call in a trigger or in a codeunit. If you set the current transaction type to a less isolated transaction behavior, for example, if you try to change an Update transaction to a Browse transaction, the method call is ignored. If you try to change the current transaction type to a more isolated transaction behavior, for example, from Browse to Update, you will receive an error message.  
   
@@ -112,4 +112,4 @@ CURRENTTRANSACTIONTYPE := TRANSACTIONTYPE::Update;
 ```  
   
 ## See Also  
- [Database](Database.md)
+ [Database Methods](devenv-database-methods.md)

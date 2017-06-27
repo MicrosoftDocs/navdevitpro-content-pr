@@ -12,7 +12,7 @@ caps.latest.revision: 9
 manager: edupont
 ---
 # PRINTONLYIFDETAIL Method (Report)
-Gets or sets the current settings of the [PrintOnlyIfDetail Property](../devenv-PrintOnlyIfDetail-Property.md).  
+Gets or sets the current settings of the [PrintOnlyIfDetail Property](../properties/devenv-PrintOnlyIfDetail-Property.md).  
   
 ## Syntax  
   
@@ -25,12 +25,12 @@ Gets or sets the current settings of the [PrintOnlyIfDetail Property](../devenv-
  *SetPrintOnlyIfDetail*  
  Type: Boolean  
   
- The new setting of [PrintOnlyIfDetail Property](../devenv-PrintOnlyIfDetail-Property.md).  
+ The new setting of [PrintOnlyIfDetail Property](../properties/devenv-PrintOnlyIfDetail-Property.md).  
   
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the [PrintOnlyIfDetail Property](../devenv-PrintOnlyIfDetail-Property.md) is set to true; otherwise, **false**.  
+ **true** if the [PrintOnlyIfDetail Property](../properties/devenv-PrintOnlyIfDetail-Property.md) is set to true; otherwise, **false**.  
   
 ## Example  
  The following example is from the OnAfterGetRecord trigger of a report. If the PrintOnlyIfDetail property is true and if a GLEntryPage record exists, given the current filters, then the PageGroupNo is incremented. This example requires that you create the following variables.  
@@ -46,12 +46,12 @@ IF CurrReport.PRINTONLYIFDETAIL AND GLEntryPage.FIND('-') THEN
 ```  
   
 ## Example  
- The following example sets the value of the [PrintOnlyIfDetail Property](../devenv-PrintOnlyIfDetail-Property.md) to true. It requires that you create a Report variable named Report111. The Subtype of the variable is report 111, Customer - Top 10 List.  
+ The following example sets the value of the [PrintOnlyIfDetail Property](../properties/devenv-PrintOnlyIfDetail-Property.md) to true. It requires that you create a Report variable named Report111. The Subtype of the variable is report 111, Customer - Top 10 List.  
   
 ```  
 IsPrintOnlyIfDetail := Report111.PRINTONLYIFDETAIL(true);  
 ```  
   
 ## See Also  
- [PrintOnlyIfDetail Property](../devenv-PrintOnlyIfDetail-Property.md)   
+ [PrintOnlyIfDetail Property](../properties/devenv-PrintOnlyIfDetail-Property.md)   
  [Report Data Type](../datatypes/devenv-Report-Data-Type.md)

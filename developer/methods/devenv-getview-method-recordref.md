@@ -39,7 +39,7 @@ String := RecordRef.GETVIEW([UseCaptions])
 ## Property Value/Return Value  
  Type: Text or code  
   
- The string format is the same as the [SourceTableView Property](../devenv-SourceTableView-Property.md) on pages.  
+ The string format is the same as the [SourceTableView Property](../properties/devenv-SourceTableView-Property.md) on pages.  
   
 ## Remarks  
  If the [SETVIEW Method \(RecordRef\)](devenv-SETVIEW-Method-RecordRef.md) has been executed, the *String* parameter will return the value set by SETVIEW.  

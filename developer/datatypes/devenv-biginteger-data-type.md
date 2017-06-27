@@ -28,6 +28,15 @@ BigIntegerVar := BigIntegerVar - 1;
 
  If you try to indirectly assign a value that is smaller than -9,223,372,036,854,775,808, or larger than 9,223,372,036,854,775,807, then you get a run-time error.  
 
+## Methods
+The methods supported for the BigInteger data type are:
+
+[ABS method (Decimal, Integer, BigInteger)](../methods/devenv-abs-method-decimal-integer-biginteger.md)   
+[POWER method (Decimal, Integer, BigInteger)](../methods/devenv-power-method-decimal-integer-biginteger.md)   
+[RANDOM method (Integer)](../methods/devenv-random-method-integer.md)   
+[RANDOMIZE method (Integer)](../methods/devenv-randomize-method-integer.md)   
+[ROUND method (Decimal)](../methods/devenv-round-method-decimal.md)
+
 ## Example  
 
 ```  
@@ -36,10 +45,6 @@ BI := 455500000000L;
 ```  
 
 ## See Also  
- [Decimal Data Type](devenv-decimal-data-type.md)   
- [Integer Data Type](devenv-integer-data-type.md)   
- [ABS method (Decimal, Integer, BigInteger)](../methods/devenv-abs-method-decimal-integer-biginteger.md)   
- [POWER method (Decimal, Integer, BigInteger)](../methods/devenv-power-method-decimal-integer-biginteger.md)   
- [RANDOM method (Integer)](../methods/devenv-random-method-integer.md)   
- [RANDOMIZE method (Integer)](../methods/devenv-randomize-method-integer.md)   
- [ROUND method (Decimal)](../methods/devenv-round-method-decimal.md)
+[AL Data Types](devenv-al-data-types.md)  
+[Decimal Data Type](devenv-decimal-data-type.md)   
+[Integer Data Type](devenv-integer-data-type.md)   

@@ -34,7 +34,7 @@ Unbinds the event subscriber methods from in the codeunit instance. This essenti
  If you omit this optional return value and the operation is not successful, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## Remarks  
- You can only call this method on codeunits that have the [EventSubscriberInstance Property](../devenv-EventSubscriberInstance-Property.md) set to **Manual**.  
+ You can only call this method on codeunits that have the [EventSubscriberInstance Property](../properties/devenv-EventSubscriberInstance-Property.md) set to **Manual**.  
   
  Calling this method on a codeunit that has not been bound \(by the [BINDSUBSCRIPTION Method](devenv-BINDSUBSCRIPTION-Method.md)\) will result in an error. If the call to this method is successfull, all bindings are removed.  
   

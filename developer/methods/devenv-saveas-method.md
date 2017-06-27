@@ -61,10 +61,10 @@ Runs a specific report without a request page and saves the report as a PDF, Exc
  For a simple example that illustrates how to use the SAVEAS method, see example in the [RUNREQUESTPAGE Method](devenv-RUNREQUESTPAGE-Method.md) method topic.  
 
 > [!NOTE]  
->  By default, when a report uses an RDLC report layout at runtime, fonts are embedded in the generated PDF. You can specify whether fonts are embedded in the PDF for RDLC reports by changing the **Report PDF Font Embedding** setting in the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance configuration or changing the **PDFFontEmbedding** property in report objects. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md) and [PDFFontEmbedding Property](../devenv-PDFFontEmbedding-Property.md).  
+>  By default, when a report uses an RDLC report layout at runtime, fonts are embedded in the generated PDF. You can specify whether fonts are embedded in the PDF for RDLC reports by changing the **Report PDF Font Embedding** setting in the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance configuration or changing the **PDFFontEmbedding** property in report objects. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md) and [PDFFontEmbedding Property](../properties/devenv-PDF-FontEmbedding-Property.md).  
 
 ## See Also  
- [Reports](Reports.md)   
+ [Report Object](../devenv-report-object.md)   
  [Request Pages](Request-Pages.md)   
  [EXECUTE Method](devenv-EXECUTE-Method.md)   
  [PRINT Method](devenv-PRINT-Method.md)

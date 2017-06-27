@@ -29,7 +29,7 @@ Adds a table field to the filter control for a table on the filter page.
  *FieldNo*  
  Type: Integer  
 
- The number that is assigned to the field in the table as specified by the [Field No. Property](../devenv-Field-No.-Property.md).  
+ The number that is assigned to the field in the table as specified by the [Field No. Property](../properties/devenv-Field-No.-Property.md).  
 
  *Filter*  
  Type: Text  

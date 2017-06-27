@@ -12,7 +12,7 @@ caps.latest.revision: 14
 manager: edupont
 ---
 # CLASS Method (FieldRef)
-Gets the value of the [FieldClass Property](../devenv-FieldClass-Property.md) of the field that is currently selected.  
+Gets the value of the [FieldClass Property](../properties/devenv-FieldClass-Property.md) of the field that is currently selected.  
   
  This method returns an error if no field is selected.  
   

@@ -14,17 +14,16 @@ author: SusanneWindfeldPedersen
 # Dialog Data Type
 Variables of this complex data type store dialog windows. These variables also give you access to a number of dialog methods, such as [OPEN method (Dialog)](../methods/devenv-open-method-dialog.md), [CLOSE method (Dialog)](../methods/devenv-close-method-dialog.md), and so on.  
   
-## Dialog methods  
- [CLOSE method (Dialog)](../methods/devenv-close-method-dialog.md)  
-  
- [CONFIRM method (Dialog)](../methods/devenv-confirm-method-dialog.md)  
-  
- [ERROR method (Dialog)](../methods/devenv-error-method-dialog.md)  
-  
- [MESSAGE method (Dialog)](../methods/devenv-message-method-dialog.md)  
-  
- [OPEN method (Dialog)](../methods/devenv-open-method-dialog.md)  
-  
- [STRMENU method (Dialog)](../methods/devenv-strmenu-method-dialog.md)  
-  
- [UPDATE method (Dialog)](../methods/devenv-update-method-dialog.md)
+## Methods  
+The methods supported for the Dialog data type are:
+
+[CLOSE method (Dialog)](../methods/devenv-close-method-dialog.md)  
+[CONFIRM method (Dialog)](../methods/devenv-confirm-method-dialog.md)  
+[ERROR method (Dialog)](../methods/devenv-error-method-dialog.md)  
+[MESSAGE method (Dialog)](../methods/devenv-message-method-dialog.md)  
+[OPEN method (Dialog)](../methods/devenv-open-method-dialog.md)  
+[STRMENU method (Dialog)](../methods/devenv-strmenu-method-dialog.md)  
+[UPDATE method (Dialog)](../methods/devenv-update-method-dialog.md)  
+
+## See Also
+[AL Data Types](devenv-al-data-types.md)  

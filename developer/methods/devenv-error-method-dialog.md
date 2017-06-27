@@ -80,4 +80,4 @@ MESSAGE(Text001); // This line is not executed.
  [Dialog Data Type](../datatypes/devenv-Dialog-Data-Type.md)   
  [MESSAGE Method \(Dialog\)](devenv-MESSAGE-Method-Dialog.md)   
  [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](../devenv-progress-windows-message-error-and-confirm-methods.md)   
- [Error Handling](Error-Handling.md)
+ [Error Handling Methods](devenv-error-handling-methods.md)

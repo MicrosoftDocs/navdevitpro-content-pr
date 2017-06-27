@@ -59,4 +59,4 @@ Imports data from a file that has been exported from a [!INCLUDE[d365fin_md](../
 ## See Also  
 [Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md)  
 [EXPORTDATA Method \(Database\)](devenv-EXPORTDATA-Method-Database.md)  
-[Database](Database.md)  
+[Database Methods](devenv-database-methods.md)  
