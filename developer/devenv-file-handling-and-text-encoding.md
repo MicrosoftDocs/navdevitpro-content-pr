@@ -77,5 +77,5 @@ For example, if an XMLport can import bank files from a foreign bank in addition
 Windows encoding is compatible with ASCII so that it will understand files written in ASCII format.  
   
 ## See Also  
- [TextEncoding Property \(XMLports\)](properties/devenv-TextEncoding-xmlport-Property.md)
+ [TextEncoding Property \(XMLports\)](properties/devenv-TextEncoding-xmlports-Property.md)
  [File Data Type](datatypes/devenv-file-data-type.md)
