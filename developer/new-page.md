@@ -49,7 +49,7 @@ Building extensions and connect apps for Dynamics 365 for Financials allows you 
 3)	[Publish]()  
 Before we publish your app on AppSource, we will collaborate with you to ensure that your app stands out! Publish your data via the Azure Partner Portal, and we will afterwards validate your app from a technical and marketing viewpoint, to ensure it is marketed well, trustworthy, and up to date. 
 
-## Things to consider
+## Things to consider if you're a ...
 <!-- Option 1: having a short paragraph addressing the audience, linking to different resources (attention: many of the docs / videos today are on DLP)
 Option 2: we make an all up GTM document (as office)  should that be a Dynamics 365 all up doc?? -->
 Blablabla...
@@ -75,14 +75,15 @@ Blablabla...
 
 [Get started with our development tools](https://review.docs.microsoft.com/en-us/dynamics365/developerbe/devenv-dev-overview?branch=master)  
  <!-- (this is the staging, when we push to live around Inspire, this link changes) -->
-[Read more about integrating with Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/overview)<!-- (preliminary, we will go live here with Financials API at some point)-->
+[Read more about integrating with Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/overview)  
+<!-- (preliminary, we will go live here with Financials API at some point)-->
 
 ## Need help?
 If you would like some coaching, you can contact an app subject matter expert from the following list:  
 •	[Cloud Ready Software](http://cloud-ready-software.com)  
 •	[Dynamics App Alliance](http://dynamicsappalliance.com)
 
-### Partners in this list:
+### Partners in this list...
 •	Are listed alphabetically.  
 •	Are assisting or have assisted a minimum of three partners with bringing apps into Microsoft AppSource.  
 •	Have a packaged service available (and listed on their website) about the app guidance that they provide.  
