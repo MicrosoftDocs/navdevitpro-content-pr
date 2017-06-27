@@ -32,8 +32,8 @@ This topic lists properties that apply to the Codeunit object, variables, text c
 
 -   [EventSubscriberInstance Property](devenv-eventsubscriberinstance-property.md)
   
-## AL Globals Variables Properties  
- The following properties apply to **Variables** in the **AL Globals** window of codeunit objects.  
+## Global Variables Properties  
+ The following properties apply to **Global variables** in codeunit objects.  
   
 -   [Dimensions Property](devenv-dimensions-property.md)  
   
@@ -45,8 +45,8 @@ This topic lists properties that apply to the Codeunit object, variables, text c
   
 -   [WithEvents Property](devenv-withevents-property.md)  
   
-## AL Globals Text Constants Properties  
- The following properties apply to **Text Constants** in the **AL Globals** window of codeunit objects.  
+## Global Text Constants Properties  
+ The following properties apply to **Global Text Constants** in the codeunit objects.  
   
 -   [ConstValue Property](devenv-constvalue-property.md)  
   
@@ -54,8 +54,8 @@ This topic lists properties that apply to the Codeunit object, variables, text c
   
 -   [ID Property](devenv-id-property.md)  
   
-## AL Globals Methods Properties  
- The following properties apply to **Methods** in the **AL Globals** window of codeunit objects.  
+## Global Methods Properties  
+ The following properties apply to **Global Methods** in thecodeunit objects.  
   
 -   [ID Property](devenv-id-property.md)  
   
