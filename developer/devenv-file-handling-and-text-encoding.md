@@ -34,9 +34,9 @@ There are several industry text encoding formats and different systems support d
 
 Data is imported and exported as follows:  
   
--   When data is imported from an external file, it is read using the format that is specified by the **TextEncoding** property or parameter, and then converted to Unicode in [d365fin_long_md](includes/d365fin_long_md.md)].  
+-   When data is imported from an external file, it is read using the format that is specified by the **TextEncoding** property or parameter, and then converted to Unicode in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].  
   
--   When data is exported to an external file, it is converted from Unicode in [d365fin_long_md](includes/d365fin_long_md.md)], and then written to the file in the format that is specified by the **TextEncoding** property or parameter.  
+-   When data is exported to an external file, it is converted from Unicode in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], and then written to the file in the format that is specified by the **TextEncoding** property or parameter.  
   
 You should set the text encoding to the encoding format that is compatible with the system or program that you will be exporting to or importing from. The following sections describe the available text encoding formats.  
   
@@ -45,7 +45,7 @@ You should set the text encoding to the encoding format that is compatible with 
   
  MS-DOS encoding requires a different character set for each language. When the property is set to MS-DOS, text is encoded by using the system locale language of the computer that is running [!INCLUDE[d365fin_server_md](includes/d365fin_server_md.md)] instance. So if you use MS-DOS encoding, you should set the system locale language of server instance computer to match the language of the data that is being imported or exported. For example, if an XMLport includes text in Danish, then you should set the system locale language of the server instance computer to Danish before the XMLport is run.  
   
- You should choose **MS-DOS** with XMLports that were created in earlier versions of [d365fin_long_md](includes/d365fin_long_md.md)].  
+ You should choose **MS-DOS** with XMLports that were created in earlier versions of [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].  
   
 ### UTF-8 Encoding Format  
  **UTF-8** encoding is a Unicode Transformation Format that uses one byte \(8 bits\) to encode each character. UTF-8 is based on the Unicode character set, which includes most characters of all languages in a single character set.  
