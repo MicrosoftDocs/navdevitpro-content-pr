@@ -10,7 +10,7 @@ ms.prod: "dynamics-365-for-financials"
 author: jswymer
 ---
 # PROFILESYSTEMSCOPE Method
-Gets or sets the profile scope in a SessionSettings object.  
+Gets or sets the profile scope property in a SessionSettings object. 
 
 ## Syntax  
 
@@ -22,25 +22,26 @@ Gets or sets the profile scope in a SessionSettings object.
 *NewProfileScope*  
 Type: Boolean  
 
-Specifies whether the profile applies to the system or to a specific tenant database only. **true** sets the profile to apply to the system; **false** sets the profile to apply to a tenant database only.
+Specifies whether the profile applies to the system or to a tenant only. **true** sets the profile to apply to the system; **false** sets the profile to apply to a tenant only.
 
 ## Return Value  
 Type: Boolean  
 
-**true** if the profile applies to the system; **false** if the profile applies to a tenant database only.
+**true** if the profile applies to the system; **false** if the profile applies to a tenant.
+
+## Remarks
+The PROFILESYSTEMSCOPE property in a SessionSettings object corresponds to the **Scope** field in the in the system table **2000000073 User Personalization**.
 
 ## Example
-This example creates a SessionSettings object that is populated with the current client user's personalization data, and then uses the PROFILESYSTEMSCOPE method to set the extension profile with the ID 'MyExtensionProfile' and extension ID '12345678-1234-1234-1234-1234567890AB' to apply to the tenant database only. Finally, the REQUESTSESSIONUPDATE method sends a request to the client to abandon the current client session and start a new session that uses the new profile ID. This example requires a SessionSettings data type variable.
+This example creates a SessionSettings object, and then uses the PROFILESYSTEMSCOPE method to set the profile scope to apply to the system. This example requires a SessionSettings data type variable.
 
+```
 var
   MySessionSettings : SessionSettings;
   begin
-    MySessionSettings.INIT
-    MySessionSettings.PROFILEAPPID('MyExtensionProfile');
-    MySessionSettings.PROFILESYSTEMSCOPE('12345678-1234-1234-1234-1234567890AB');
-    MySessionSettings.REQUESTSESSIONUPDATE(false);
+    MySessionSettings.PROFILESYSTEMSCOPE(true);
   end;  
 ```  
 
 ## See Also  
-[REQUESTSESSIONUPDATE method](devenv-requestsessionupdate-method.md)  
+[SessionSettings Data Type](../datatypes/devenv-sessionsettings-data-type.md)  
