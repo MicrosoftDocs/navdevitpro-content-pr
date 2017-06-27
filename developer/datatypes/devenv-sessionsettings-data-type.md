@@ -12,7 +12,7 @@ caps.latest.revision: 2
 author: SusanneWindfeldPedersen
 ---
 # SessionSettings Data Type
-The SessionSettings data type is a complex data type for passing user personalization settings for a client session as an object. The object contains properties that correspond to the fields in the system table **2000000073 User Personalization**, including: App ID, Company, Language ID, Locale ID, Profile ID, Scope, and Time Zone. You can use the AL methods of the SessionSettings data type to change the user personalization settings for the current client session.
+The SessionSettings data type is a complex data type for passing user personalization settings for a client session as an object. The object contains properties that correspond to the fields in the system table **2000000073 User Personalization**, including: App ID, Company, Language ID, Locale ID, Profile ID, Scope, and Time Zone. You can use the AL methods of the SessionSettings data type to get, set, and send the user personalization settings for the current client session.
 
 The SessionSettings data type is used extensively in the AL code of page **9176 My Settings** to enable users to change settings on the page, such as Role Center or company, without having to sign-in to the client again in order for the changes to take effect. 
 
