@@ -40,9 +40,9 @@ Creates and opens an ASCII or binary file. If the file already exists, it will b
  *TextEncoding*  
  Value: **MsDos**, **UTF8**, **UTF16**, or **Windows**  
   
- Optionally, you can specify the encoding on the file. By specifying the text encoding, you ensure that all the language-specific characters are represented correctly in [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] when you read data and write data.  
+ Optionally, you can specify the encoding on the file. By specifying the [File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md), you ensure that all the language-specific characters are represented correctly in [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] when you read data and write data.  
   
- For more information, see [Text Encoding](Text-Encoding.md).  
+ For more information, see [[File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md)](Text-Encoding.md).  
   
 ## Property Value/Return Value  
  Type: Boolean  
@@ -76,4 +76,4 @@ ERROR('The file could not be created');
   
 ## See Also  
  [File Data Type](../datatypes/devenv-File-Data-Type.md)   
- [Text Encoding](Text-Encoding.md)
+ [[File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md)](Text-Encoding.md)
