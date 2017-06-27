@@ -12,21 +12,35 @@ caps.latest.revision: 2
 author: SusanneWindfeldPedersen
 ---
 # SessionSettings Data Type
-The SessionSettings data type is a complex data type for passing user personalization settings for a client session as an object. The object can properties that correspond to the fields in the system table **2000000073 User Personalization**, including: App ID, Company, Language ID, Locale ID, Profile ID, Scope, and Time Zone.
+The SessionSettings data type is a complex data type for passing user personalization settings for a client session as an object. The object contains properties that correspond to the fields in the system table **2000000073 User Personalization**, including: App ID, Company, Language ID, Locale ID, Profile ID, Scope, and Time Zone. You can use the AL methods of the SessionSettings data type to change the user personalization settings for the current client session.
 
-Using the AL methods of the SessionSettings data type, you can set the user personalization settings for the current client session. The data type and its methods were specifically designed for managing the My Settings page in the web client.  For example, the SessionSettings data type and methods are used on the .
+The SessionSettings data type is used extensively in the AL code of page **9176 My Settings** to enable users to change settings on the page, such as Role Center or company, without having to sign-in to the client again in order for the changes to take effect. 
 
-This data type is not supported in extensions.
-
-Any SessionSettings methods that are called in an OData or SOAP web service call are ignored.
+> [!NOTE]  
+> The SessionSettings data type is not supported in extensions.
+>
+> SessionSettings methods that are called in an OData or SOAP web service call are ignored.
 
 ## Methods
 The following methods are supported for the SessionSettings data type:
 
-[REQUESTSESSIONUPDATE method](../methods/devenv-requestsessionupdate-method.md)   
-[INIT method](../methods/devenv-init-method.md)   
+[COMPANY Method](methods/devenv-company-method-sessionsettings.md)
 
+[INIT Method](methods/devenv-init-method.md)
 
+[LANGUAGEID Method](methods/devenv-languageid-method-sessionsettings.md)
+
+[LOCALEID Method](methods/devenv-localeid-method-sessionsettings.md)
+
+[PROFILEAPPID Method](methods/devenv-profileappid-method-sessionsettings.md)
+
+[PROFILEID Method](methods/devenv-profileid-method-sessionsettings.md)
+
+[PROFILESYSTEMSCOPE Method](methods/devenv-profilesystemscope-method-sessionsettings.md)
+
+[REQUESTSESSIONUPDATE method](methods/devenv-requestsessionupdate-method.md)   
+
+[TIMEZONE Method](methods/devenv-timezone-method-sessionsettings.md)
 
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
