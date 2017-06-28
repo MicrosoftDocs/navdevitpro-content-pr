@@ -14,6 +14,8 @@ ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
 
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+
 # Query Object
 
 A query describes a dataset of [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. You can query to retrieve fields from a single table or multiple tables. You can specify how to join tables in the query and filter the result data, and you can specify totaling methods on fields, such as sums and averages. Queries retrieve records from one or more tables and combine the records into rows and columns in a single dataset. You create a query by adding a Query object file to your project. In the Query object, you define dataitem and column elements in the elements section. The dataitem element specifies the table to retrieve records from. The column element specifies a field of the table to include in the resulting dataset of a query. 

@@ -11,6 +11,9 @@ ms.assetid: dd38a304-eb98-4100-8561-b04d8c0aa1f7
 caps.latest.revision: 9
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+
 # LOCKTABLE Method
 Ordinarily, when you are developing applications, you do not want to consider transactions and table locking. However, there are some situations in which you must lock a table explicitly. To do this, use the [LOCKTABLE Method \(Record\)](methods/devenv-LOCKTABLE-Method-Record.md).  
 
