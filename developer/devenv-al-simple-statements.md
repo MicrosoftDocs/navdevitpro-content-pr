@@ -11,6 +11,9 @@ ms.assetid: 471299b6-82cd-41cc-b529-8b60ece530a5
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+
 # AL Simple Statements
 AL simple statements are single-line statements that are executed sequentially and do not alter the flow of execution of code. The following are the types of simple statements in C/AL:  
   

@@ -11,6 +11,9 @@ ms.assetid: 07ceb5c1-253c-4336-b6ef-525e312e8650
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnAfterGetRecord Trigger
 Executed after a record is retrieved from a table but before it is displayed to the user.  
   
