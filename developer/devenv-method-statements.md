@@ -12,6 +12,8 @@ caps.latest.revision: 6
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+
 # AL Method Statements
 You use method statements to execute either built-in system method or user-defined method. Method calls may include parameters, which are passed to the method.  
 

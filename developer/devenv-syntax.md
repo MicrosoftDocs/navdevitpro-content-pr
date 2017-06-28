@@ -14,7 +14,9 @@ ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
 
-## Syntax
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+
+# Syntax
 The syntax of the AL language is designed to assist in building business applications.
 
 From code, you have access to various snippets that will give you a template for a specific object type. 

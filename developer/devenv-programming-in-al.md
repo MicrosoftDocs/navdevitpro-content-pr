@@ -11,6 +11,9 @@ ms.assetid: 5ee737ae-3914-47e7-b61d-486309b7fa8f
 caps.latest.revision: 19
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+
 # Programming in AL
 This section describes where to write AL code and how to reuse code.  
 
