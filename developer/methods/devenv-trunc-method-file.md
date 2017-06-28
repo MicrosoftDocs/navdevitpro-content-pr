@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 1b634423-307e-424e-bce5-c7fe5c87331a
 caps.latest.revision: 9
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TRUNC Method (File)
 Truncate an ASCII or binary file to the current position of the file pointer.  
   

@@ -11,6 +11,9 @@ ms.assetid: c334ced6-03df-4103-a05e-3f6aec7906c6
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ISDECIMAL Method (Variant)
 Indicates whether an AL variant contains a Decimal variable.  
   

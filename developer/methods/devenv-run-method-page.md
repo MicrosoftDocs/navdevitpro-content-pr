@@ -11,6 +11,9 @@ ms.assetid: 892a00dd-6fac-4454-bfae-6a5d5f37f0ff
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RUN Method (Page)
 Creates and launches a page that you specify. You can use [CLEAR Method](devenv-CLEAR-Method.md) to remove the page.  
   

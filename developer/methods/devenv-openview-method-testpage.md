@@ -11,6 +11,9 @@ ms.assetid: 36e2c656-b0f1-44b4-96e2-98109d3ec620
 caps.latest.revision: 6
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OPENVIEW Method (TestPage)
 Opens a test page in view mode.  
   

@@ -11,6 +11,9 @@ ms.assetid: 66174b64-3c51-4c2e-a438-47bffbf114d5
 caps.latest.revision: 16
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RENAME Method (Record)
 Changes the value of a primary key in a table.  
   

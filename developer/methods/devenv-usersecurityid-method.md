@@ -11,6 +11,9 @@ ms.assetid: 563f1dd2-17b5-476d-aa96-24a949594d3c
 caps.latest.revision: 2
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # USERSECURITYID Method
 Gets the unique identifier of the user that is logged on to the current session.  
   

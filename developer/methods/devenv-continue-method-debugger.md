@@ -11,6 +11,9 @@ ms.assetid: 586b4a42-f4dc-4bd8-87fb-535477ac58ba
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CONTINUE Method (Debugger)
 Executes code until the next breakpoint or until execution ends.  
   

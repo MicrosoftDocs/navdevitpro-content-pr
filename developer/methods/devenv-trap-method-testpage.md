@@ -11,6 +11,9 @@ ms.assetid: 528267ed-aa77-4971-b7e2-e4d93ae44842
 caps.latest.revision: 8
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TRAP Method (TestPage)
 Traps the next test page that is invoked and assigns it to the test page variable.  
   

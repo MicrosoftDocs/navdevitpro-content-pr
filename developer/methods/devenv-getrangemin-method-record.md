@@ -11,6 +11,9 @@ ms.assetid: 1966769f-3491-49ba-bfa0-6569883120cc
 caps.latest.revision: 12
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETRANGEMIN Method (Record)
 Gets the minimum value in a range for a field.  
   

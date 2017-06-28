@@ -11,6 +11,9 @@ ms.assetid: 71429124-96ba-49a5-bbd3-cdece8b1128e
 caps.latest.revision: 13
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CREATEINSTREAM Method (BLOB)
 Creates an InStream object for a binary large object \(BLOB\). This enables you to read data from the BLOB.  
   

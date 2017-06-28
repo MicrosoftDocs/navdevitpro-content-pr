@@ -11,6 +11,9 @@ ms.assetid: e3deefda-9561-45fb-abd6-f6ca0fa19602
 caps.latest.revision: 25
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FILTERGROUP Method (Record)
 Gets or sets the filter group that is applied to a table.  
 

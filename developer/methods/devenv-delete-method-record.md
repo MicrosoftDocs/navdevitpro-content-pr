@@ -11,6 +11,9 @@ ms.assetid: 86c3622d-e7ea-4081-aeb7-0e02bddeb166
 caps.latest.revision: 16
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DELETE Method (Record)
 Deletes a record in a [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] table.  
   

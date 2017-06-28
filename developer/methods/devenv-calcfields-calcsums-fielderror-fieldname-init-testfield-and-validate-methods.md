@@ -11,6 +11,9 @@ ms.assetid: 22168a6c-9034-4503-bc82-1cae9497762d
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CALCFIELDS, CALCSUMS,FIELDERROR, FIELDNAME, INIT, TESTFIELD, and VALIDATE Methods
 The following methods perform various actions on fields:  
   

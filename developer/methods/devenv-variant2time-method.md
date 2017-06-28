@@ -11,6 +11,9 @@ ms.assetid: 2fa5fb1e-998c-4469-bd90-2ed0f64190fe
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # VARIANT2TIME Method
 Gets a time from a variant.  
 

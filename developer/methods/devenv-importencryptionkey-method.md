@@ -11,6 +11,9 @@ ms.assetid: 83e445ca-96f9-4f09-bb5e-2135dc8b43d3
 caps.latest.revision: 9
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # IMPORTENCRYPTIONKEY Method
 Points to a password protected file that contains the key on the current server.  
 

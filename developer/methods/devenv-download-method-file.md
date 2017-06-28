@@ -11,6 +11,9 @@ ms.assetid: 177ea399-06d4-4a49-b287-a6fe4a3b8f8f
 caps.latest.revision: 28
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DOWNLOAD Method (File)
 Sends a file from a [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] to the client device.  The client device <!--NAV is the computer that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or -->is the device, such as a computer or phone, that accesses [!INCLUDE[d365fin_md](../includes/d365fin_md.md)].  
 

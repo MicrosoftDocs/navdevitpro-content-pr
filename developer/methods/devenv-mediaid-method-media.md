@@ -10,6 +10,9 @@ ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # MEDIAID Method (Media)
 Gets the unique identifier of a media object on a record.  
 

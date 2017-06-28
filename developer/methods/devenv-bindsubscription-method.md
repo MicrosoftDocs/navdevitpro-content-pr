@@ -11,6 +11,9 @@ ms.assetid: 42a22ef0-46b1-497a-ae4d-c57c6b496719
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # BINDSUBSCRIPTION Method
 Binds the event subscriber methods in the codeunit to the current codeunit instance for handling the events that they subscribe to. This essentially activates the subscriber methods for the codeunit instance.  
   

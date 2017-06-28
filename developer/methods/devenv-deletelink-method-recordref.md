@@ -11,6 +11,9 @@ ms.assetid: 6fb5c133-93a6-46d9-a1b9-f93abc07cae5
 caps.latest.revision: 14
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DELETELINK Method (RecordRef)
 Deletes a specified link from a record in a table.  
   

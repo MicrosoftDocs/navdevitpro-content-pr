@@ -11,6 +11,9 @@ ms.assetid: da519380-0780-48da-8b37-bdda2bcf632c
 caps.latest.revision: 6
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CREATEDATETIME Method (DateTime)
 Creates a DateTime object from a date and a time.  
   

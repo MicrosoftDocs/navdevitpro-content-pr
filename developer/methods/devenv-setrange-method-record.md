@@ -11,6 +11,9 @@ ms.assetid: 3aa14cb8-0dd7-4210-9d65-79be5e0eeb45
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETRANGE Method (Record)
 Sets a simple filter, such as a single range or a single value, on a field.  
   

@@ -11,6 +11,9 @@ ms.assetid: 0d76d61f-c6c7-4e4e-bd21-3a239221a571
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TASKEXISTS Method
 Checks whether a specific task exists.  
 

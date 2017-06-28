@@ -11,6 +11,9 @@ ms.assetid: b5cfa429-f702-4305-80c1-b6ba13c77d65
 caps.latest.revision: 8
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TESTFIELD Method (Record)
 Tests whether the contents of a field match a given value.  
   

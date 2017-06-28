@@ -11,6 +11,9 @@ ms.assetid: 783b903e-a1a4-420f-9004-44ab1830c3c7
 caps.latest.revision: 14
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TEXTMODE Method (File)
 Sets whether a file should be opened as an ASCII file or a binary file. Gets the current setting of this option for a file.  
   

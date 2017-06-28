@@ -11,6 +11,9 @@ ms.assetid: 080d8097-77b0-4da9-a660-1889b0987f4b
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ISFILE Method (Variant)
 Indicates whether an AL variant contains a File variable.  
   

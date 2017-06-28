@@ -11,6 +11,9 @@ ms.assetid: 9a14088c-b930-48d2-9516-e16e5db214c1
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GLOBALLANGUAGE Method
 Gets and sets the current global language setting.  
   

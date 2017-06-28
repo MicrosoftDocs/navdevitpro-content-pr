@@ -11,6 +11,9 @@ ms.assetid: f3930bd5-9734-4d1a-8f78-1c7b44a59b4c
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RUNREQUESTPAGE Method
 Runs the request page for a report without running the report. Returns an XML string that contains the request page parameters that are entered on the request page.  
 

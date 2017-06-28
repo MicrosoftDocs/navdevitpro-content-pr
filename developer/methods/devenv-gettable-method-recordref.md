@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 02713004-d111-47b8-8a06-569ef84599f9
 caps.latest.revision: 8
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETTABLE Method (RecordRef)
 Gets the table of a Record variable and causes the RecordRef to refer to the same table.  
   

@@ -11,6 +11,9 @@ ms.assetid: 21394df3-3a62-40ee-b56a-7e7ae2d2f1a0
 caps.latest.revision: 13
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # IMPORT Method (BLOB)
 Imports a binary large object \(BLOB\).  
 

@@ -11,6 +11,9 @@ ms.assetid: 21a88c17-da4e-4e3a-9cb5-2f8c4cfe2131
 caps.latest.revision: 21
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SAVEASCSV Method
 Saves the resulting dataset of a query as a comma separated values \(CSV\) file.  
 

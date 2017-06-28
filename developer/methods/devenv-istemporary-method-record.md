@@ -11,6 +11,9 @@ ms.assetid: 60156467-fe85-48f4-94c9-0b8f76968fce
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ISTEMPORARY Method (Record)
 Determines whether a record refers to a temporary table.  
   

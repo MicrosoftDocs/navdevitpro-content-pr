@@ -11,6 +11,9 @@ ms.assetid: 12cd8d7b-8e80-41aa-adfb-4f8c3f26bc05
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ISBINARY Method (Variant)
 Indicates whether an AL variant contains a Binary variable.  
   

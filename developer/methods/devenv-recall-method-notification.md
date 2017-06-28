@@ -9,6 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-365-for-financials"
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RECALL Method (Notification)
 Recall a sent notification.
 

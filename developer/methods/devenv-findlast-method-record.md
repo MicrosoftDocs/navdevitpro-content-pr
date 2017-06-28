@@ -11,6 +11,9 @@ ms.assetid: dd9f9a1d-27b2-4c6d-ba91-d4a2a201f9b7
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FINDLAST Method (Record)
 Finds the last record in a table based on the current key and filter.  
   

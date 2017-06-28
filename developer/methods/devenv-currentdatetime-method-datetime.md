@@ -11,6 +11,9 @@ ms.assetid: 722ef035-cc46-4948-b4d7-0604a8ba11f9
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CURRENTDATETIME Method (DateTime)
 Gets the current DateTime.  
   

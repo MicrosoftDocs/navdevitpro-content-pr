@@ -11,6 +11,9 @@ ms.assetid: d643906e-0dc6-4e44-a33f-79beaf6c8b94
 caps.latest.revision: 16
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CREATEOUTSTREAM Method (BLOB)
 Creates an OutStream object for a binary large object \(BLOB\). This enables you to write data to the BLOB.  
   
