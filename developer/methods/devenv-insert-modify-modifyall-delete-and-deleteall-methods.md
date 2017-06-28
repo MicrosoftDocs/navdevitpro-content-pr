@@ -11,6 +11,9 @@ ms.assetid: 73d7bcd0-9b00-4be2-bf4e-010bcc69ab33
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # INSERT, MODIFY, MODIFYALL, DELETE, and DELETEALL Methods
 The following methods maintain the database by adding, modifying, and removing records:  
   

@@ -11,6 +11,9 @@ ms.assetid: 46b3889b-272a-43cc-bf34-2498280d1b48
 caps.latest.revision: 5
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETCURRENTKEY Method (TestPage Filter)
 Sets the specified fields in a dataset on a test page as the current key.  
   

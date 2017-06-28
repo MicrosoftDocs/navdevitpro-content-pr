@@ -11,6 +11,9 @@ ms.assetid: f971359f-6bc8-46ad-9184-334f6e8e5b8e
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CURRENTKEYINDEX Method (RecordRef)
 Gets or sets the current key of the table referred to by the *RecordRef*. The current key is set or returned as a number. This first key = 1, and so on.  
   

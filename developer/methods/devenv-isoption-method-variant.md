@@ -11,6 +11,9 @@ ms.assetid: 18ad5058-8622-46c9-8fca-eb32b781ac9a
 caps.latest.revision: 6
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ISOPTION Method (Variant)
 Indicates whether an AL variant contains an Option variable.  
   

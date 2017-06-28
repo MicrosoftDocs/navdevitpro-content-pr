@@ -11,6 +11,9 @@ ms.assetid: 07ed58f1-0fa9-47c4-97ef-10ebc52d4fe9
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # WINDOWSLANGUAGE Method
 Gets the current Windows language setting.  
   

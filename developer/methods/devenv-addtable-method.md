@@ -11,6 +11,9 @@ ms.assetid: dee056f3-c325-4c02-bd2f-fac00289fd94
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ADDTABLE Method
 Adds filter control for a table to a filter page.  
 

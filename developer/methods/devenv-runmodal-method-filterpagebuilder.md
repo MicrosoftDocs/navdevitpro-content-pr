@@ -11,6 +11,9 @@ ms.assetid: e3df5d91-e3d8-4f54-9450-01571aa4f5a4
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RUNMODAL Method (FilterPageBuilder)
 Builds and runs the filter page that includes the filter controls that are stored in FilterPageBuilder object instance.  
   

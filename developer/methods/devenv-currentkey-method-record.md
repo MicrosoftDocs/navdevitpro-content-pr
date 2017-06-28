@@ -11,6 +11,9 @@ ms.assetid: daf99f50-4833-4e08-8360-a3b63e5139be
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CURRENTKEY Method (Record)
 Gets the current key of a database table.  
   

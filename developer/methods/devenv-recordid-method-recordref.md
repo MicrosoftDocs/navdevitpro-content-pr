@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: de13007e-9cd2-4b47-9e76-581699387de7
 caps.latest.revision: 9
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RECORDID Method (RecordRef)
 Gets the RecordID of the record that is currently selected in the table. If no table is selected, an error is generated.  
   

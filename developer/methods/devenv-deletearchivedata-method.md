@@ -10,6 +10,9 @@ ms.topic: article
 ms.prod: "dynamics-365-for-financials"
 ms.author: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DELETEARCHIVEDATA Method
 Deletes the archived data for a specified table of an extension during installation.  
 ## Syntax  

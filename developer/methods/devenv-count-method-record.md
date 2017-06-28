@@ -11,6 +11,9 @@ ms.assetid: e2e057d8-66c9-4d0d-be47-07d5047f072b
 caps.latest.revision: 16
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COUNT Method (Record)
 Counts the number of records in a table.  
   

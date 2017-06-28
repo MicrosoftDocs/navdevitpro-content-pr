@@ -11,6 +11,9 @@ ms.assetid: 5bbb6788-6476-436d-a603-4f0490ac3808
 caps.latest.revision: 14
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RANDOM Method (Integer)
 Returns a pseudo-random number.  
   

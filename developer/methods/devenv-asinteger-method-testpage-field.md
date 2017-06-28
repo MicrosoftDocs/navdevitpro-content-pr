@@ -11,6 +11,9 @@ ms.assetid: fb865f0a-ecdd-4967-b5eb-3a1b8da74af8
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ASINTEGER Method (TestPage Field)
 Converts the value in a field on a test page to an **Integer** data type.  
   

@@ -11,6 +11,9 @@ ms.assetid: 7b3d6ca1-da1e-4ea2-88b4-e982da6ab12d
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # STRPOS Method (Code, Text)
 Searches for the first occurrence of substring inside a string.  
   

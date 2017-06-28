@@ -11,6 +11,9 @@ ms.assetid: 0da8d4ad-82cd-4906-9faa-e49e360262b9
 caps.latest.revision: 24
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # UPLOAD Method (File)
 Sends a file from the client device to the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)]. The client device is the device <!--NAV that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or -->, such as a computer or phone, that accesses [!INCLUDE[d365fin_md](../includes/d365fin_md.md)].
 

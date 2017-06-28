@@ -11,6 +11,9 @@ ms.assetid: 6047c38f-de7e-4e4d-842c-528d63f36e64
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # MARK Method (Record)
 Marks a record. You can also use this method to determine whether a record is marked.  
   

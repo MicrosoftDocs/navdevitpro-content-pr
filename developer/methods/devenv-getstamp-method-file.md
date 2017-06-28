@@ -11,6 +11,9 @@ ms.assetid: ea6f66fd-e3f2-47b2-b6bb-0cf084968c22
 caps.latest.revision: 14
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETSTAMP Method (File)
 Gets the exact time that a file was last written to.  
   

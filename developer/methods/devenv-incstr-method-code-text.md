@@ -11,6 +11,9 @@ ms.assetid: eb1af7a5-2630-4bb2-b3b4-49898582e90f
 caps.latest.revision: 12
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # INCSTR Method (Code, Text)
 Increases a positive number or decrease a negative number inside a string by one \(1\).  
   

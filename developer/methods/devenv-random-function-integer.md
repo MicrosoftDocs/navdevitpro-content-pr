@@ -9,6 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-365-for-financials"
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RANDOM Function (Integer)
 Returns a pseudo-random number.  
 

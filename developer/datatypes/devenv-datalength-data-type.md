@@ -23,8 +23,8 @@ Sets the maximum length of data stored in this field.
  This field does not apply to the other data types because they have fixed lengths.  
   
 ## See Also  
- [Text Data Type](../datatypes/devenv-text-data-type.md)   
- [Code Data Type](../datatypes/devenv-code-data-type.md)</br>
+ [Text Data Type](../datatypes/devenv-text-data-type.md)     
+ [Code Data Type](../datatypes/devenv-code-data-type.md)  
  [AL Data Types](devenv-al-data-types.md)
  
  

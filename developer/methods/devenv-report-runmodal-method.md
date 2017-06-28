@@ -11,6 +11,9 @@ ms.assetid: 0a1ffa1a-8b23-4ea4-9bd7-d7ea523b6e3a
 caps.latest.revision: 16
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # REPORT.RUNMODAL Method
 Loads and runs the report that you specify. The report is run modally.  
 

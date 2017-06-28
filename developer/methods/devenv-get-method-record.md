@@ -11,6 +11,9 @@ ms.assetid: 016aef60-9faa-48a3-bee6-cfe71cf9c900
 caps.latest.revision: 13
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GET Method (Record)
 Gets a record based on values stored in primary key fields.  
 

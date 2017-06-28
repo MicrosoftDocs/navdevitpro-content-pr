@@ -11,6 +11,9 @@ ms.assetid: 4a38a4c6-069f-411f-b334-7d20bffa8a96
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # HASFILTER Method (RecordRef)
 Determines whether a filter has been applied to the table that the RecordRef refers to.  
   

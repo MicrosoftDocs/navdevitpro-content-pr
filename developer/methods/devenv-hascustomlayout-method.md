@@ -11,6 +11,9 @@ ms.assetid: 721512fc-5ebc-49cb-a50a-5f9fbda62e91
 caps.latest.revision: 6
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # HasCustomLayout Method
 Determines whether a report is currently set up to use a custom Word layout or RDLC layout at run time.  
   

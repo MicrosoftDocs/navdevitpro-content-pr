@@ -10,6 +10,9 @@ ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EXPORTFILE Method (MediaSet)
 Exports the media objects in the current media set of a record to individual files on your computer or network. In the record, the media set is referenced in a **MediaSet** data type field.  
 

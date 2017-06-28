@@ -9,6 +9,9 @@ ms.topic: article
 ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETDATA Method (Notification)
 Specifies a data property value for the notification. The data is specified as text in a key-value pair.
 

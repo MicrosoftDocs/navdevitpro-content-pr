@@ -9,6 +9,9 @@ ms.topic: article
 ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COUNT Method (MediaSet)
 Counts the number of media objects that are included in the MediaSet of a record.
 

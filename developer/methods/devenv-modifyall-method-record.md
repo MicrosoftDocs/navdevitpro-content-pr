@@ -11,6 +11,9 @@ ms.assetid: 87c1f61d-378d-45ef-a810-ae33622061d6
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # MODIFYALL Method (Record)
 Modifies a field in all records within a range that you specify.  
   

@@ -11,6 +11,9 @@ ms.assetid: 79cd4af3-5881-47b6-aa3f-a522635d634f
 caps.latest.revision: 15
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # READ Method (Query)
 Reads data from a row in the resulting dataset of a query.  
   

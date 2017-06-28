@@ -11,6 +11,9 @@ ms.assetid: e4b07b76-3a0b-4483-acb7-71d291a20ac8
 caps.latest.revision: 15
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TABLENO Method (RecordID)
 Gets the table number of the table that is identified by RecordID. This method returns an error if the record is blank.  
   

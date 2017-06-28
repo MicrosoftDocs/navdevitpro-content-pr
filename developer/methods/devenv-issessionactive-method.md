@@ -10,6 +10,9 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-365-for-financials"
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ISSESSIONACTIVE Method (Session)
 Tests if the specified SessionID is active on the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance where it was started.  
 

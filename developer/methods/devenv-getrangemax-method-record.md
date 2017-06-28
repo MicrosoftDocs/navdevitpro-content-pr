@@ -11,6 +11,9 @@ ms.assetid: 80fdb0ad-7b4f-417c-9c88-be35b66c1b0d
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETRANGEMAX Method (Record)
 Gets the maximum value in a range for a field.  
   

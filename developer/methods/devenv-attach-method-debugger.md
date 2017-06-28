@@ -11,6 +11,9 @@ ms.assetid: af94252b-2c76-48a0-8303-e5109622b8b5
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ATTACH Method (Debugger)
 Activates the debugger and attaches it to the specified session.  
 

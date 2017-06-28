@@ -11,6 +11,9 @@ ms.assetid: 1c6c8116-1d81-4960-afe0-f3010d5924a7
 caps.latest.revision: 8
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ARRAYLEN Method
 Returns the total number of elements in an array or the number of elements in a specific dimension.  
   

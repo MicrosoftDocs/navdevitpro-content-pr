@@ -11,6 +11,9 @@ ms.assetid: 68960c6f-aaf4-4dde-9840-7eac4a2e0279
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ISATTACHED Method (Debugger)
 Specifies if the debugger is attached to a session.  
   
