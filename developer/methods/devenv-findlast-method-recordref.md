@@ -27,7 +27,7 @@ Finds the last record in a table based on the current key and filter.
   
  The RecordRef that refers to the table in which you want to find the last record.  
   
- If the record is found, it is returned in *RecordRef* and any [FlowFields](FlowFields.md) in the record are set to zero. You must update any FlowFields using [CALCFIELDS Method \(Record\)](devenv-CALCFIELDS-Method-Record.md).  
+ If the record is found, it is returned in *RecordRef* and any [FlowFields](../devenv-flowfields.md) in the record are set to zero. You must update any FlowFields using [CALCFIELDS Method \(Record\)](devenv-CALCFIELDS-Method-Record.md).  
   
  If the record is not found and if you omitted the return value, a run-time error occurs.  
   
