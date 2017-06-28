@@ -11,6 +11,9 @@ ms.assetid: bc6beaeb-07bb-4a5e-b84a-3c48b17f3c54
 caps.latest.revision: 5
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # XMLport Triggers
 The following triggers apply to XMLports.  
   

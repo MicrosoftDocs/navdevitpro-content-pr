@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-financials"
 ms.assetid: a25a1651-d138-497c-8dab-34bdf38ee17a
 caps.latest.revision: 10
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnDrillDown Trigger
 Overrides the default drill-down behavior defined in the table definition for the FlowField.  
 
