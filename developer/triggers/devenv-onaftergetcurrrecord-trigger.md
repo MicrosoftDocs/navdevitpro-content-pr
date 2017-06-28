@@ -11,6 +11,9 @@ ms.assetid: ccb832bd-0368-4de5-b91f-eb953ac2ef3e
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnAfterGetCurrRecord Trigger
 Executed after the current record is retrieved from the table.  
 

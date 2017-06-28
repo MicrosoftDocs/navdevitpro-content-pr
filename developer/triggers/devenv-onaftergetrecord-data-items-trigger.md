@@ -11,6 +11,9 @@ ms.assetid: 8a9b07b0-a006-4d74-93e3-ca82574952c3
 caps.latest.revision: 6
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnAfterGetRecord (Data Items) Trigger
 Executed each time a record is retrieved from the data item.  
 

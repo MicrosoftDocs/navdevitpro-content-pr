@@ -11,6 +11,9 @@ ms.assetid: 041b66f1-2210-4859-8b10-5ad69fcc5022
 caps.latest.revision: 12
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Triggers
 Triggers are available for the different objects as described in the following sections:  
 
