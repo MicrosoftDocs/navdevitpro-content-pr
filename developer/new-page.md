@@ -12,6 +12,8 @@ caps.latest.revision: 5
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+
 # Extend Dynamics 365 for Financials
 Building extensions and connect apps for Dynamics 365 for Financials allows you to enrich and leverage the Dynamics 365 brand – a brand that millions of users know and trust. Extensions enables you to quickly make changes to respond to local market requirements or industry specific needs, giving you a competitive edge. Achieve more with our new platform that delivers a modern, flexible development experience. When your app is done, publish it through Microsoft AppSource – the main repository for Microsoft’s business apps. 
 <!-- Learn more about why you should have an app on AppSource and get an overall introduction to our processes in this video.-->
