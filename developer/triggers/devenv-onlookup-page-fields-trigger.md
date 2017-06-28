@@ -11,6 +11,9 @@ ms.assetid: 5718e2d3-26af-437b-b96b-08b588c1eea1
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnLookup (Page fields) Trigger
 Executed in place of the normal lookup features for the current page.  
 

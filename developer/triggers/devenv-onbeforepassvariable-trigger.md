@@ -11,6 +11,9 @@ ms.assetid: ff936806-3949-4307-9f3b-ee2812f7ec96
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnBeforePassVariable Trigger
 Executed after the source expression has been formatted into a text variable and before the text variable is passed to the XML document.  
   
