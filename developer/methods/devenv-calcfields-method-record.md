@@ -75,6 +75,6 @@ CustomerRec.CALCFIELDS(Balance, "Net Change");
  The first line sets up a filter for the Date Filter field in the Customer record. This field is a FlowFilter field which is used in the filter definition for several FlowFields in the Customer record. In the second line, the FlowFields are calculated.  
 
 ## See Also  
- [FlowFields](FlowFields.md)   
- [FlowFields](FlowFields.md)   
+ [FlowFields](../devenv-flowfields.md)   
+ [FlowFields](../devenv-flowfields.md)   
  [FieldClass Property](../properties/devenv-FieldClass-Property.md)

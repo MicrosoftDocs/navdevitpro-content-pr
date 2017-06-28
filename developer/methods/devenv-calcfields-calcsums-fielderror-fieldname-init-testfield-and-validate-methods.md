@@ -29,7 +29,7 @@ The following methods perform various actions on fields:
 -   VALIDATE  
   
 ## CALCFIELDS Method  
- CALCFIELDS updates FlowFields. FlowFields are automatically updated when they are the direct source expressions of controls, but they must be explicitly calculated when they are part of a more complex expression. For more information about flowfields, see [FlowFields](FlowFields.md).  
+ CALCFIELDS updates FlowFields. FlowFields are automatically updated when they are the direct source expressions of controls, but they must be explicitly calculated when they are part of a more complex expression. For more information about flowfields, see [FlowFields](../devenv-flowfields.md).  
   
  CALCFIELDS has the following syntax.  
   
