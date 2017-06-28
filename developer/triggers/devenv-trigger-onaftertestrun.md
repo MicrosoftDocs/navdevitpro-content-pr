@@ -10,6 +10,9 @@ ms.author: jswymer
 manager: edupont
 ms.prod: "dynamics-365-financials"
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnAfterTestRun Trigger
 Executed after a test  of a test codeunit has been run.
 

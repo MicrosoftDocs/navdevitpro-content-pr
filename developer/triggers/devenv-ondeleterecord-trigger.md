@@ -11,6 +11,9 @@ ms.assetid: a1fd9af0-4f10-430c-8a06-c5751eb2daee
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnDeleteRecord Trigger
 Executed before a record is deleted from the table.  
   

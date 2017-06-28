@@ -11,6 +11,9 @@ ms.assetid: feda29f9-b64a-4720-930b-b7cd96c73434
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnAfterAssignField Trigger
 Executed after a field has been assigned a value and before it is validated and imported.  
 

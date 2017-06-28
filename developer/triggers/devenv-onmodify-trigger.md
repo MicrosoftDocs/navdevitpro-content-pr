@@ -11,6 +11,9 @@ ms.assetid: 66f54530-7318-4e43-8aea-ca18c04c5d18
 caps.latest.revision: 8
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnModify Trigger
 Executed when a user modifies an existing record in a table.  
   
