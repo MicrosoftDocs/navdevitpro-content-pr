@@ -47,7 +47,7 @@ Specifies the unique identifier (GUID) of the media object.
 Media objects are stored in the system table **2000000184 Tenant Media** of the application database.
 
 ## Example  
-For an example of using the ITEM method, see the [example](INSERT-Method-MediaSet.md#InsertMediaExample).
+For an example of using the ITEM method, see this [example](devenv-INSERT-Method-MediaSet.md#InsertMediaExample).
 
 ## See Also  
 [Working With Media on Records](Working-With-Media-on-Records.md)  

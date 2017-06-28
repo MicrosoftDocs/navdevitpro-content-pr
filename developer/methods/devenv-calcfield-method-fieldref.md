@@ -70,4 +70,4 @@ IF CustRecordref.FIND('-') THEN
 
 ## See Also  
  [FieldRef Data Type](../datatypes/devenv-FieldRef-Data-Type.md)   
- [FlowFields](FlowFields.md)
+ [FlowFields](../devenv-flowfields.md)  

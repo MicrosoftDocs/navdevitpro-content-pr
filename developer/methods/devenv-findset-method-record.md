@@ -25,7 +25,7 @@ Finds a set of records in a table based on the current key and filter.
  *Record*  
  Type: Record  
   
- If the record is found, then the record is returned in this parameter and any [FlowFields](FlowFields.md) in the record are set to zero. You must update the FlowFields by using the [CALCFIELDS Method \(Record\)](devenv-CALCFIELDS-Method-Record.md).  
+ If the record is found, then the record is returned in this parameter and any [FlowFields](../devenv-flowfields.md) in the record are set to zero. You must update the FlowFields by using the [CALCFIELDS Method \(Record\)](devenv-CALCFIELDS-Method-Record.md).  
   
  *ForUpdate*  
  Type: Boolean  
