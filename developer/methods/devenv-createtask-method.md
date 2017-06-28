@@ -57,7 +57,7 @@ Adds a task to run a codeunit at a specific time.
  The unique identifier that is assigned to the task.  
 
 ## Remarks  
- Scheduled tasks are recorded in table **2000000175 Scheduled Task**.  For more information about tasks and task scheduler, see managing tasks [Task Scheduler](Task-Scheduler.md).  
+ Scheduled tasks are recorded in table **2000000175 Scheduled Task**.  For more information about tasks and task scheduler, see managing tasks [Task Scheduler](../devenv-task-scheduler.md).  
 
 ## Example  
  The following example schedules a task to run the **Job Queue Dispatcher** and uses codeunit **Job Queue Error Handler** as the failure codeunit. The code requires that you create the following AL variable.  
@@ -73,7 +73,7 @@ TASKSCHEDULER.CREATETASK(CODEUNIT::"Job Queue Dispatcher", CODEUNIT::"Job Queue 
  To see this code in use, you can look at the AL code in codeunit **448 Job Queue Dispatcher** in the [!INCLUDE[demolong](../includes/demolong_md.md)].  
 
 ## See Also  
- [Task Scheduler](Task-Scheduler.md)  
+ [Task Scheduler](../devenv-task-scheduler.md)  
  [TaskScheduler Data Type](../datatypes/devenv-TaskScheduler-Data-Type.md)   
  [CANCELTASK Method](devenv-CANCELTASK-Method.md)   
  [SETTASKREADY Method](devenv-SETTASKREADY-Method.md)   
