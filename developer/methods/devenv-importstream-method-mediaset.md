@@ -110,6 +110,6 @@ MESSAGE(Text000,itemRec."No.",count,mediasetId);
 If you run system table **2000000181 Tenant Media**, you should see the new images in the list.
 
 ## See Also  
- [Working With Media on Records](Working-With-Media-on-Records.md)  
+ [Working With Media on Records](../devenv-working-with-media-on-records.md)  
  [IMPORTFILE Method \(MediaSet\)](devenv-IMPORTFILE-Method-MediaSet.md)   
  [MediaSet Data Type](../datatypes/devenv-MediaSet-Data-Type.md)

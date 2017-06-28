@@ -57,7 +57,7 @@ END;
 ```  
 
 ## See Also  
- [Working With Media on Records](Working-With-Media-on-Records.md)   
+ [Working With Media on Records](../devenv-working-with-media-on-records.md)   
  [IMPORTFILE Method \(Media\)](devenv-IMPORTFILE-Method-Media.md)   
  [IMPORTSTREAM Method \(Media\)](devenv-IMPORTSTREAM-Method-Media.md)   
  [EXPORTFILE Method \(Media\)](devenv-EXPORTFILE-Method-Media.md)  

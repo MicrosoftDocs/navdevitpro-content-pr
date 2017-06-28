@@ -44,7 +44,7 @@ Type: Boolean
 **true** if the media is successfully added to the MediaSet; otherwise, **false**.
 
 ## Remarks  
-When media object is inserted in a MediaSet, it is assigned in index number. For more information, see [Indexing of media objects in a media set](Working-With-Media-on-Records.md#Indexing).
+When media object is inserted in a MediaSet, it is assigned in index number. For more information, see [Indexing of media objects in a media set](../devenv-working-with-media-on-records.md#Indexing).
 
 ## <a name="InsertMediaExample"></a> Example  
 This example uses the Insert method and [Item Method \(MediaSet\)](devenv-Item-Method-MediaSet.md) to take a media object that is already in the database and assigned to a record in a table (TableA), and add it to the MediaSet of a record in another table (TableB). This example assumes the following:
@@ -90,7 +90,7 @@ ELSE
 ```  
 
 ## See Also  
-[Working With Media on Records](Working-With-Media-on-Records.md)  
+[Working With Media on Records](../devenv-working-with-media-on-records.md)  
 [Item Method \(MediaSet\)](devenv-Item-Method-MediaSet.md)  
 [IMPORTFILE Method \(MediaSet\)](devenv-IMPORTFILE-Method-MediaSet.md)   
 [IMPORTSTREAM Method \(MediaSet\)](devenv-IMPORTSTREAM-Method-MediaSet.md)   
