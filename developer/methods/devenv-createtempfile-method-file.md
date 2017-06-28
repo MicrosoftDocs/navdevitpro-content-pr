@@ -11,6 +11,9 @@ ms.assetid: e4b7bbcf-608a-406f-87ce-24ad045109b9
 caps.latest.revision: 14
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CREATETEMPFILE Method (File)
 Creates a temporary file. This enables you to save data of any format to a temporary file. This file has a unique name and will be stored in a temporary file folder.  
   

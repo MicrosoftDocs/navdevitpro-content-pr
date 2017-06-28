@@ -12,6 +12,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: dd8058d0-5b1e-4fd1-aeb1-7ef480fa581d
 caps.latest.revision: 2
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COPYCOMPANY Method (Database)
 Creates a new company and copies all data from an existing company in the same database.  
 

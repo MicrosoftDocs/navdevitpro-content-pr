@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 8dbe2401-6f58-4e13-85f5-3fb5db9228d1
 caps.latest.revision: 18
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ACTIVE Method (FieldRef)
 Checks whether the field that is currently selected is enabled.  
 

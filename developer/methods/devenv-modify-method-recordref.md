@@ -11,6 +11,9 @@ ms.assetid: 449bcf4c-5ae0-498d-b247-ea5704272329
 caps.latest.revision: 17
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # MODIFY Method (RecordRef)
 Modifies a record in a table.  
   

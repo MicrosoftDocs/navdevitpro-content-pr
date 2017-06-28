@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 8c5d6a10-c8e9-492e-9f66-bbf07895d230
 caps.latest.revision: 12
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETRECFILTER Method (RecordRef)
 Sets a filter on a record that is referred to by a RecordRef.  
 

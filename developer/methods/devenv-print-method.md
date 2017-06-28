@@ -11,6 +11,9 @@ ms.assetid: 06451de1-2618-4fda-94b0-03974fccafb5
 caps.latest.revision: 6
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # PRINT Method
 Prints a specified report without running the request page. Instead of using the request page to obtain parameters at runtime, the method gets the parameter values as an input parameter string, typically from a [RUNREQUESTPAGE Method](devenv-RUNREQUESTPAGE-Method.md) call.  
 

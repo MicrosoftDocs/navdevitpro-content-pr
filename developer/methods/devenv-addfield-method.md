@@ -11,6 +11,9 @@ ms.assetid: 0d9238f4-d428-4519-8da2-d79b058df9cb
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ADDFIELD Method
 Adds a table field to the filter control for a table on filter page.  
   

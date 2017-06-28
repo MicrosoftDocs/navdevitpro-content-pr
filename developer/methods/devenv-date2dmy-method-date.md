@@ -11,6 +11,9 @@ ms.assetid: bd97816c-45ad-4846-990e-922ebed8508f
 caps.latest.revision: 12
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DATE2DMY Method (Date)
 Gets the day, month, or year of a [Date Data Type](../datatypes/devenv-Date-Data-Type.md).  
   

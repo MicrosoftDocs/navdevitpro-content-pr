@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 303b302e-4804-4b02-8822-eed66104086e
 caps.latest.revision: 14
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FIELDCOUNT Method (KeyRef)
 Gets the number of fields that have been defined in a key. Returns an error if no key is selected.  
   

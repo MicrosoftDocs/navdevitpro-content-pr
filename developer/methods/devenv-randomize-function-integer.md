@@ -9,6 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-365-for-financials"
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RANDOMIZE Function (Integer)
 Generates a set of random numbers from which the [RANDOM Function \(Integer\)](devenv-random-function-integer.md) will select a random number.  
   

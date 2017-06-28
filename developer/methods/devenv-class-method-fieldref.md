@@ -11,6 +11,9 @@ ms.assetid: 02da3621-d1ac-4aec-86c6-268c9f78429a
 caps.latest.revision: 14
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CLASS Method (FieldRef)
 Gets the value of the [FieldClass Property](../properties/devenv-FieldClass-Property.md) of the field that is currently selected.  
   

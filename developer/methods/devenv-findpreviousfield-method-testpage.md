@@ -11,6 +11,9 @@ ms.assetid: 823ddfbe-8ca9-4e1c-9f75-de5e46574997
 caps.latest.revision: 5
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FINDPREVIOUSFIELD Method (TestPage)
 Finds the previous field in the dataset that is displayed on a test page.  
   

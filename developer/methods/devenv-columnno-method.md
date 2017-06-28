@@ -11,6 +11,9 @@ ms.assetid: 5305add4-662d-4624-9a92-a9f9c3e7939c
 caps.latest.revision: 6
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COLUMNNO Method
 Returns the ID that is assigned to a query column in the query definition.  
 

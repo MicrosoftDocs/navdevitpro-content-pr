@@ -11,6 +11,9 @@ ms.assetid: f6497b07-5e15-4c52-b460-fd80f9bef502
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TestPage Methods
 You can use the TestPage methods for the following purposes.  
   

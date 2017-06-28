@@ -11,6 +11,9 @@ ms.assetid: ce884b37-82ed-4870-a1f0-6a73405525d8
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EXPAND Method (TestPage)
 Expands rows on a test page.  
   

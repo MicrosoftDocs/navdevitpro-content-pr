@@ -11,6 +11,9 @@ ms.assetid: 0fd35393-b2ad-4303-a0e5-9f32d5bd5ca3
 caps.latest.revision: 15
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # STRMENU Method (Dialog)
 Creates a menu window that displays a series of options.  
   

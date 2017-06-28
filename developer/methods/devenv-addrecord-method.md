@@ -11,6 +11,9 @@ ms.assetid: a71a6dce-81ce-44bd-8cca-4209461dc586
 caps.latest.revision: 5
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ADDRECORD Method
 Adds a filter control for a table to a filter page. The table is specified by a record data type variable that is passed to the method.  
 

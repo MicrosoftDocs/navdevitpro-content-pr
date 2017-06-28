@@ -11,6 +11,9 @@ ms.assetid: 21e2d99a-2774-47c5-9cff-fd31070dbe0e
 caps.latest.revision: 15
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RANDOMIZE Method (Integer)
 Generates a set of random numbers from which the [RANDOM Method \(Integer\)](devenv-RANDOM-Method-Integer.md) will select a random number.  
   

@@ -11,6 +11,9 @@ ms.assetid: 8e6cb8f3-5674-4d97-8daf-56917ca8d05b
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # NAME Method (RecordRef)
 Gets the name of the table that is currently selected. Returns an error if no table is selected.  
   

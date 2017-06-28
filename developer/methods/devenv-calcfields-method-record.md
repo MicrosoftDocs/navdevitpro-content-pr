@@ -11,6 +11,9 @@ ms.assetid: eb58dea1-05e6-4c11-97cf-75c458c119c5
 caps.latest.revision: 31
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CALCFIELDS Method (Record)
 Calculates the FlowFields in a record. You specify which fields to calculate by using parameters.  
 

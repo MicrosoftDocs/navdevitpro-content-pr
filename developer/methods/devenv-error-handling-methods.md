@@ -11,6 +11,9 @@ ms.assetid: ce4892ed-efa8-41a8-82db-07ef1d8c4477
 caps.latest.revision: 5
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Error Handling Methods
 [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] includes the following methods for handling errors:  
 

@@ -11,6 +11,9 @@ ms.assetid: 959dfa6f-0c30-43aa-b337-e433411fc8cc
 caps.latest.revision: 9
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETVIEW Method (RecordRef)
 Returns a string that describes the current sort order, key, and filters on a table.  
   

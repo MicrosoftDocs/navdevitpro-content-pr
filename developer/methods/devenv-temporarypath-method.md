@@ -11,6 +11,9 @@ ms.assetid: d770619b-4250-46d3-a602-5cef7334df6b
 caps.latest.revision: 6
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TEMPORARYPATH Method
 Gets the path of the directory where the temporary file for [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] is stored.  
   
