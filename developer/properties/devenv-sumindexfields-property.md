@@ -11,6 +11,9 @@ ms.assetid: 0b03b2f5-e6b8-4aea-aceb-dedeb7b2be82
 caps.latest.revision: 9
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SumIndexFields Property
 Sets the [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md) for the key, if applicable.  
   

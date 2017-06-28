@@ -11,6 +11,9 @@ ms.assetid: b1d795a4-66d1-4ff6-9aa9-30951b31139b
 caps.latest.revision: 6
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Event Property
 Specifies whether the method is used to publish or subscribe to an event.  
 

@@ -11,6 +11,9 @@ ms.assetid: 09cc7138-fbdf-45fe-9cef-3d2e0c95311b
 caps.latest.revision: 7
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ShowFilter Property
 Sets whether the filter pane is shown on a page by default.  
   

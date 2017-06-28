@@ -11,6 +11,9 @@ ms.assetid: 1947a79f-ea51-4e9a-b814-0d126ffffbca
 caps.latest.revision: 8
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # PaperSourceLastPage Property
 Specifies which paper source to use when printing the last page of the report.  
   

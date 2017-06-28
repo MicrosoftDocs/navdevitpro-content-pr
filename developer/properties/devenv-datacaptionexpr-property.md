@@ -11,6 +11,9 @@ ms.assetid: 4cc3abda-36ac-4003-8d08-534c23beae21
 caps.latest.revision: 8
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DataCaptionExpression Property
 Sets an AL expression that is evaluated and displayed to the left of the page caption.  
   
