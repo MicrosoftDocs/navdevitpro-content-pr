@@ -44,22 +44,22 @@ You can use events to design the application to react to specific actions or beh
   
 1.  Publish the event.  
   
-     For business and integration events, create and configure a function in an application object to be an event publisher method. For more information, see [Publishing Events](Publishing-Events.md).  
+     For business and integration events, create and configure a function in an application object to be an event publisher method. For more information, see [Publishing Events](devenv-publishing-events.md).  
   
 2.  Raise the event.  
   
-     Add code that calls the event publisher method. For more information, see [Raising Events](Raising-Events.md).  
+     Add code that calls the event publisher method. For more information, see [Raising Events](devenv-raising-events.md).  
   
 3.  Subscribe to the event.  
   
-     At the consumer end, add one or more subscriber methods that subscribe to published events when they are raised. For more information, see [Subscribing to Events](Subscribing-to-Events.md).  
+     At the consumer end, add one or more subscriber methods that subscribe to published events when they are raised. For more information, see [Subscribing to Events](devenv-subscribing-to-events.md).  
   
   
 ## See Also  
-[Publishing Events](Publishing-Events.md)  
-[Raising Events](Raising-Events.md)  
-[Subscribing to Events](Subscribing-to-Events.md)  
-[Debugging Events](Debugging-Events.md)  
-[Best Practices with Microsoft Dynamics NAV Events](Best-Practices-with-Microsoft-Dynamics-NAV-Events.md)  
+[Publishing Events](devenv-publishing-events.md)  
+[Raising Events](devenv-raising-events.md)  
+[Subscribing to Events](devenv-subscribing-to-events.md)  
+[Debugging Events](devenv-debugging-events.md)  
+[Best Practices with Microsoft Dynamics NAV Events](devenv-events-best-practices.md)  
 [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough--Publishing--Raising--and-Subcribing-to-an-Event-in-Microsoft-Dynamics-NAV.md)  
 [Walkthrough: Implementing New Workflow Events and Responses](Walkthrough--Implementing-New-Workflow-Events-and-Responses.md)  
