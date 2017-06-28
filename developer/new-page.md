@@ -19,7 +19,7 @@ Building extensions and connect apps for Dynamics 365 for Financials allows you 
 |<h3>Connect</h3>|<h3>Extend</h3>|
 |----------------|---------------|
 |![Connect](media/connect.png)|![Extend](media/connect.png)|
-|A connect app establishes a connection between two independent services using an API to interchange data. A typical example of a connect app is a Payroll solution such as Ceridian or ADP. In both cases, all work related to Payroll is done inside Ceridian or the ADP system, and only as a last step is the financial data posted into Dynamics 365 for Financials by means of using the API. A Connect App is mainly created using common development tools, REST API’s, and the API’s made available in Dynamics 365 for Financials from Update 7 and onwards. A Connect App can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.| An extension can either add to the existing Dynamics 365 for Financials functionality to integrate a solution such as PayPal, or embed an end-to-end experience such as a solution for the dental industry or law firms. An extension typically makes use of the variety of development tools and can also include the APIs available for Dynamics 365 for Financials.
+|A connect app establishes a connection between two independent services using an API to interchange data. A typical example of a connect app is a Payroll solution such as Ceridian or ADP. In both cases, all work related to Payroll is done inside Ceridian or the ADP system, and only as a last step is the financial data posted into Dynamics 365 for Financials using the API. A Connect App is mainly created using common development tools, REST API’s, and the API’s made available in Dynamics 365 for Financials from Update 7 and onwards. A Connect App can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.| An extension can either add to the existing Dynamics 365 for Financials functionality to integrate a solution such as PayPal, or embed an end-to-end experience such as a solution for the dental industry or law firms. An extension typically makes use of the variety of development tools and can also include the APIs available for Dynamics 365 for Financials.
 |
 
 ## Want to try it out? Spin up a sandbox...
@@ -38,20 +38,22 @@ Building extensions and connect apps for Dynamics 365 for Financials allows you 
 3) Download the [AL Language extension]()  
 
 ## Want to build an app and publish it on AppSource?
-1)	[Get started for real]()  
-- To get started with development, you must have a Microsoft Partner Network ID, a Developer account, and a PSBC account in place. You furthermore must send us your app idea via AppSource, to get your object range and developer license. Learn in this document how to get these pre-requisites in place. 
+1)	[Get the prerequisites in place]()  
+To get started with development, you must have a Microsoft Partner Network ID, a Developer account, and a PSBC account in place. You furthermore must send us your app idea via AppSource, to get your object range and developer license. Learn in this document how to get these prerequisites in place. 
 
 2)	Develop your app   
-- [Technical aspects]() After you have set up your own app development environment, you can develop your app. Learn in this document about the requirements and recommendations about the technical aspects of your app. 
-- [Marketing aspects]() Simply listing your app's features and functionality will not convert prospects to buyers. Learn in this document how to best market your app. 
-
+- [Marketing aspects]()  
+Simply listing your app's features and functionality will not convert prospects to buyers. Learn in this document how to best market your app. 
+- [Technical aspects - what can you do today?]()  
+With extensions 2.0 in preview, you can familiarize yourself with the new development environment. However, if you want to publish an app today, you must use the extensions 1.0 model. Please find more information on how to do that on [aka.ms/AppsForFinancials]().
+- Technical aspects - what we envision tomorrow  
+We hope you got excited trying out the sandbox environment and are ready to build an extension 2.0 soon. We are currently working on the process and technical information on how to develop and publish a 2.0 app, and will make it available as soon as we are going live in autumn. 
 
 3)	[Publish]()  
-Before we publish your app on AppSource, we will collaborate with you to ensure that your app stands out! Publish your data via the Azure Partner Portal, and we will afterwards validate your app from a technical and marketing viewpoint, to ensure it is marketed well, trustworthy, and up to date. 
+With extensions 2.0 in preview, we encourage you to familiarize yourself with the new development environment. However, if you want to publish an app today, you must use the extensions 1.0 model. Please find more information on how to do that on [aka.ms/AppsForFinancials](). We will publish relevant information on 2.0 apps, as soon as we are going live in autumn. 
 
 ## Things to consider if you're a ...
-<!-- Option 1: having a short paragraph addressing the audience, linking to different resources (attention: many of the docs / videos today are on DLP)
-Option 2: we make an all up GTM document (as office)  should that be a Dynamics 365 all up doc?? -->
+Are you a business owner, a marketing person, or a developer? You can find specific resources specifically for you on our topic page on DLP or in the documentation.
 
 ### Business owner
 
