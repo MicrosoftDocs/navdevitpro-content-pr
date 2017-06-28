@@ -11,6 +11,9 @@ ms.assetid: 4726d978-e289-45ce-96b2-a666078bc71c
 caps.latest.revision: 13
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CLOSE Method (RecordRef)
 Closes the current page or table.  
   

@@ -11,6 +11,9 @@ ms.assetid: 5660e407-78e6-4bb8-a98a-abca3ecff7d6
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COPYFILTER Method (Record)
 Copies the filter that has been set for one field and applies it to another field.  
   

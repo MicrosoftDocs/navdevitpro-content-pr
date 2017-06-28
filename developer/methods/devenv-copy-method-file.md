@@ -11,6 +11,9 @@ ms.assetid: 8116f838-de15-44f0-a1e7-9292c6a7c4f6
 caps.latest.revision: 15
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COPY Method (File)
 Use this method to copy a file.  
   

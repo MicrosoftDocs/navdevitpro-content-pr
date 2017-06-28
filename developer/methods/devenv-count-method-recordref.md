@@ -11,6 +11,9 @@ ms.assetid: 0c799170-86f6-4cba-8982-4c4af850bf94
 caps.latest.revision: 15
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COUNT Method (RecordRef)
 Counts the number of records that are in the filters that are currently applied to the table referred to by the RecordRef.  
   

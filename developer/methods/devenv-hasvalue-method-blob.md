@@ -11,6 +11,9 @@ ms.assetid: 9f814d8d-d535-4e0b-8989-e0248930456d
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # HASVALUE Method (BLOB)
 Determines whether a binary large object \(BLOB\) has a value.  
   

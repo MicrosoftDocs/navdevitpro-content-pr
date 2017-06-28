@@ -11,6 +11,9 @@ ms.assetid: 1b4b0785-ef07-491b-9662-0da7a835a652
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Date and Time Methods
 This section contains the following topics:  
 

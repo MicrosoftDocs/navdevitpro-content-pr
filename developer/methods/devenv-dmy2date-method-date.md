@@ -11,6 +11,9 @@ ms.assetid: d065665e-4272-427d-8147-7105c7cc8b84
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DMY2DATE Method (Date)
 Gets a Date object based on a day, month, and year.  
   

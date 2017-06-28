@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 10d59dd6-b479-45be-95ca-5cef870e7e42
 caps.latest.revision: 12
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OPTIONCAPTION Method (FieldRef)
 Gets the option caption of the field that is currently selected.  
   

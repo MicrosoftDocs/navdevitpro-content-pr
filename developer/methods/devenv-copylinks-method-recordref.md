@@ -11,6 +11,9 @@ ms.assetid: cb387fc6-1939-47c7-984d-154a7e922e07
 caps.latest.revision: 14
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COPYLINKS Method (RecordRef)
 Copies all the links from a particular record.  
 

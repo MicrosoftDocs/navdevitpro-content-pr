@@ -11,6 +11,9 @@ ms.assetid: 651bb14b-8e07-44db-bcfd-7e743604bb0b
 caps.latest.revision: 18
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ERROR Method (Dialog)
 Displays an error message and ends the execution of AL code.  
 

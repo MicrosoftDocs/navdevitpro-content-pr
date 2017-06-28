@@ -11,6 +11,9 @@ ms.assetid: 74966ab9-31c5-482e-88bb-624fffecf150
 caps.latest.revision: 8
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CURRENTKEY Method (RecordRef)
 Gets the current key of the table referred to by the RecordRef. The current key is returned as a string.  
   

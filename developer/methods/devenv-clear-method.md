@@ -11,6 +11,9 @@ ms.assetid: 438b632a-5ba3-4820-b44e-ac0b0433eb33
 caps.latest.revision: 12
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CLEAR Method
 Clears the value of a single variable. Also clears all the filters that were set if the variable is a record and resets the key to the primary key and the company on a record variable.  
 

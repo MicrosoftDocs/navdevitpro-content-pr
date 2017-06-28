@@ -11,6 +11,9 @@ ms.assetid: 3e164447-541b-4e8c-8bc0-19fb4c3e9410
 caps.latest.revision: 13
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # PAGE.RUN Method
 Creates and launches a page object, which you specify.  
 

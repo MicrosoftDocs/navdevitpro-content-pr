@@ -11,6 +11,9 @@ ms.assetid: 174d53c4-7f71-4e3b-800e-d8d729552123
 caps.latest.revision: 8
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DT2TIME Method (DateTime)
 Gets the time part of a DateTime object.  
   

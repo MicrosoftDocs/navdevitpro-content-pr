@@ -11,6 +11,9 @@ ms.assetid: 216cdb5a-36a1-48dd-90d0-f9f360feccee
 caps.latest.revision: 21
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETCURRENTKEY Method (Record)
 Selects a key for a table.  
   

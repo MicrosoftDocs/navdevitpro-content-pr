@@ -11,6 +11,9 @@ ms.assetid: af9d3067-52f9-4434-abb2-267ad592a69e
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ISACTION Method (Variant)
 Indicates whether an AL variant contains an Action variable.  
   

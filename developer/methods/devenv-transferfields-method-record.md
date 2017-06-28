@@ -11,6 +11,9 @@ ms.assetid: cf8ea256-0b4a-4b1a-9570-3c8a47ee9ef4
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TRANSFERFIELDS Method (Record)
 Copies all matching fields in one record to another record.  
   

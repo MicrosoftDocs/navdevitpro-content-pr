@@ -11,6 +11,9 @@ ms.assetid: 8c86c2a5-9e4c-46e5-871b-da2e806725bd
 caps.latest.revision: 5
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ASCENDING Method (TestPage Filter)
 Gets or sets the order in which to search through a dataset on a test page.  
   

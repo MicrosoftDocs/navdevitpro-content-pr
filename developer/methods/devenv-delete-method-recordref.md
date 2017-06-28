@@ -11,6 +11,9 @@ ms.assetid: 365091c9-fe6c-464c-9917-02c7cf13a72f
 caps.latest.revision: 15
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DELETE Method (RecordRef)
 Deletes a record in a table.  
 

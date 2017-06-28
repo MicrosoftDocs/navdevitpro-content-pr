@@ -11,6 +11,9 @@ ms.assetid: a7109cd2-9035-44ba-99b1-b51f0b2e3b12
 caps.latest.revision: 12
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FINDFIRST Method (Record)
 Finds the first record in a table based on the current key and filter.  
   

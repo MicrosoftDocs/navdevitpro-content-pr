@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 4f0f85c5-ca77-4dc9-bf83-67ab2669dbc9
 caps.latest.revision: 4
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # UNREGISTERTABLECONNECTION Method (Database)
 Unregisters a table connection between [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] and an external database.  
   

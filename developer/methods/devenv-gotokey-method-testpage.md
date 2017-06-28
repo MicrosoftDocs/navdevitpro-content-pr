@@ -12,6 +12,9 @@ caps.latest.revision: 3
 author: jswymer
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GOTOKEY Method (TestPage)
 Finds the row in a dataset on the test page that is identified by the specified values.  
   

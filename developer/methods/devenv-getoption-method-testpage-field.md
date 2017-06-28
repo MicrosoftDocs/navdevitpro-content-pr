@@ -11,6 +11,9 @@ ms.assetid: 0c3625be-1ef8-41f9-ab81-1e19515daf10
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETOPTION Method (TestPage Field)
 Gets the options for a field on a test page.  
   

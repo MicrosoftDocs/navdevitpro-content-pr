@@ -10,6 +10,9 @@ ms.topic: article
 ms.prod: "dynamics-365-for-financials"
 ms.author: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # LOADPACKAGEDATA Method
 Loads default, or starting, table data into the specified table of an extension during installation.  
 ## Syntax  

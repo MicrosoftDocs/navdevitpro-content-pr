@@ -11,6 +11,9 @@ ms.assetid: b787ab16-9988-40f9-b799-81e07f047bf6
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # HASLINKS Method (Record)
 Determines whether a record contains any links.  
 

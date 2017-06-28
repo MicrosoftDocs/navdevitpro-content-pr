@@ -11,6 +11,9 @@ ms.assetid: f3861f45-1254-42be-a4ca-9e39ebaa8be0
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CURRENTCOMPANY Method (Record)
 Gets the current company of a database table record.  
   

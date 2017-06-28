@@ -11,6 +11,9 @@ ms.assetid: c484da23-ec11-4545-b52c-dab493291720
 caps.latest.revision: 8
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OPENNEW Method (TestPage)
 Opens a blank test page in edit mode.  
   

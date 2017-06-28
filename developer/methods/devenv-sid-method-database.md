@@ -11,6 +11,9 @@ ms.assetid: 406a026b-f9bf-46e4-95bc-1d7df8a13a8d
 caps.latest.revision: 13
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SID Method (Database)
 Retrieves the security identifier \(SID\) of a Windows user account.  
   

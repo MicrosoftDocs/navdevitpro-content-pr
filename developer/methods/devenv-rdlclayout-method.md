@@ -11,6 +11,9 @@ ms.assetid: d0a7992f-a1f2-4c37-bfc0-cfc0459cfe44
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RDLCLAYOUT Method
 Gets the RDLC layout that is used on a report and returns it as a data stream.  
   

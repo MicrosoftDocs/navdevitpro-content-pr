@@ -11,6 +11,9 @@ ms.assetid: 36c7e6c0-e556-4160-acb2-f0a7dae5106e
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OPTIONCOUNT Method (TestPage Field)
 Gets the number of options in a field on a test page.  
   

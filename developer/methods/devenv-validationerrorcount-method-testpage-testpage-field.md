@@ -11,6 +11,9 @@ ms.assetid: b3b4968e-b20e-47d7-9bb3-8e94f546abf7
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # VALIDATIONERRORCOUNT Method (TestPage, TestPage Field)
 Gets the number of validation errors that occurred on the test page.  
   

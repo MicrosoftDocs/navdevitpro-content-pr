@@ -11,6 +11,9 @@ ms.assetid: 73e1cf73-5ced-435d-b6c5-0898bee1d49d
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FINDSET Method (RecordRef)
 Finds a set of records in a table based on the current key and filter. FINDSET can only retrieve records in ascending order.  
   

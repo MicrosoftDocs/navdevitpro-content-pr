@@ -11,6 +11,9 @@ ms.assetid: c7294ae4-3289-4ffc-b58a-c149b6849ce4
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OPEN Method (RecordRef)
 Causes a RecordRef variable to refer to a table, which is identified by its number in a particular company.  
   
