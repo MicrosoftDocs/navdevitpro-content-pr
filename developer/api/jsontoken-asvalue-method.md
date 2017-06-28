@@ -34,5 +34,5 @@ Type: JsonValue
 The returned JsonValue contains the same data as the JsonToken, but allows value-specific operations to be performed on the data.
 
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)

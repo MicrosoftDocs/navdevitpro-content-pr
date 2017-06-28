@@ -31,5 +31,5 @@ Type: String
 The path of the token relative to its containing JSON tree. If the token is the root of the JSON tree, the path will be empty.
 
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)

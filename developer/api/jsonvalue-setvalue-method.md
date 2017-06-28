@@ -45,5 +45,5 @@ JsonValue.SetValue(Value)
 8. The JsonValue will be disconnected from its current JSON tree and the data contained by the JsonValue will be replaced with the new value.
 
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
