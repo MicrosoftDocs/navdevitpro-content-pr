@@ -14,6 +14,8 @@ ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
 
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+
 # JSON Files
 
 There are two JSON files in the project; the `app.json` file and the `launch.json` file. These files are generated automatically when you start a new project. The `app.json` file contains information about extension that you are building, such as publisher information and specifies the minimum version of base application objects that the extension is built on. The `launch.json` file contains information about the server that the extension launches on.
