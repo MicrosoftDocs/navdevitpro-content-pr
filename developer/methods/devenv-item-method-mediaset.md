@@ -36,7 +36,7 @@ Type: Integer
 
 Specifies the index number that is assigned to the media object in the MediaSet.
 
-For more information about indexes, see [Indexing of media objects in a media set](Working-With-Media-on-Records.md#Indexing).
+For more information about indexes, see [Indexing of media objects in a media set](../devenv-working-with-media-on-records.md#Indexing).
 
 
 ## Property Value/Return Value  
@@ -50,7 +50,7 @@ Media objects are stored in the system table **2000000184 Tenant Media** of the 
 For an example of using the ITEM method, see this [example](devenv-INSERT-Method-MediaSet.md#InsertMediaExample).
 
 ## See Also  
-[Working With Media on Records](Working-With-Media-on-Records.md)  
+[Working With Media on Records](../devenv-working-with-media-on-records.md)  
 [INSERT Method \(MediaSet\)](devenv-INSERT-Method-MediaSet.md)  
 [IMPORTFILE Method \(MediaSet\)](devenv-IMPORTFILE-Method-MediaSet.md)   
 [IMPORTSTREAM Method \(MediaSet\)](devenv-IMPORTSTREAM-Method-MediaSet.md)   

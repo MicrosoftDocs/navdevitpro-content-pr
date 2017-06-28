@@ -34,10 +34,10 @@ Exists := TASKEXISTS(Task)
 ## Remarks  
  Scheduled tasks are recorded in table **2000000175 Scheduled Task**. To see an example of CANCELTASK in use, refer to AL code of table **472 Job Queue Entry**.  
 
- For more information about tasks and TASKSCEDULER data type methods, see managing tasks [Task Scheduler](Task-Scheduler.md).  
+ For more information about tasks and TASKSCEDULER data type methods, see managing tasks [Task Scheduler](../devenv-task-scheduler.md).  
 
 ## See Also  
- [Task Scheduler](Task-Scheduler.md)  
+ [Task Scheduler](../devenv-task-scheduler.md)  
  [TaskScheduler Data Type](../datatypes/devenv-TaskScheduler-Data-Type.md)   
  [CREATETASK Method](devenv-CREATETASK-Method.md)   
  [CANCELTASK Method](devenv-CANCELTASK-Method.md)   
