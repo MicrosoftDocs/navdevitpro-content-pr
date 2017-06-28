@@ -96,4 +96,4 @@ The following table provides an overview of the methods that are related to the 
 
 ## See Also  
  [Media Data Type](datatypes/devenv-Media-Data-Type.md)   
- [MediaSet Data Type](datatypes/MediaSet-Data-Type.md)  
+ [MediaSet Data Type](datatypes/devenv-MediaSet-Data-Type.md)  
