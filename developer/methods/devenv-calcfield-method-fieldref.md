@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: d226598c-f73c-41f1-baa9-17a642483c35
 caps.latest.revision: 25
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CALCFIELD Method (FieldRef)
 Updates FlowFields in a record.  
 

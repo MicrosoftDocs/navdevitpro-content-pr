@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: aa5edf16-0e5e-4bd2-bd8b-e7e6f3da3f3c
 caps.latest.revision: 12
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EXISTS Method (File)
 Determines whether a file exists.  
   

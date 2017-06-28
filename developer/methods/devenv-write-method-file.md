@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 423def02-ce02-460b-babe-4608b264c64c
 caps.latest.revision: 13
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # WRITE Method (File)
 Writes to an MS-DOS encoded file or binary file.  
   

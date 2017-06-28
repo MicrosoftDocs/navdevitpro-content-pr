@@ -11,6 +11,9 @@ ms.assetid: d50741b1-25f6-421b-9dec-2fd07a25196d
 caps.latest.revision: 16
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DWY2DATE Method (Date)
 Gets a Date that is based on a week day, a week, and a year.  
   

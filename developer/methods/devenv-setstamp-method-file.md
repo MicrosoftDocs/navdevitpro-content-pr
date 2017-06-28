@@ -11,6 +11,9 @@ ms.assetid: 4fed0863-e6a1-4bb6-9291-05c527cc652e
 caps.latest.revision: 13
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETSTAMP Method (File)
 Sets a timestamp for a file.  
   

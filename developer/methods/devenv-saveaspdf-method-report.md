@@ -11,6 +11,9 @@ ms.assetid: 1207d441-176f-4f16-9547-43402e5d5043
 caps.latest.revision: 21
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SAVEASPDF Method (Report)
 Saves a report as a .pdf file.  
   

@@ -11,6 +11,9 @@ ms.assetid: 24af3f15-a8a1-4347-9919-a89c941fdfca
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ASSISTEDIT Method (TestPage Field)
 Provides assist-edit functionality to a field on a test page.  
   

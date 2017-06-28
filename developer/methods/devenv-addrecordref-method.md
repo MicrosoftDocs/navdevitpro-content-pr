@@ -11,6 +11,9 @@ ms.assetid: 70fae36e-c122-42c5-a42c-d71e2e597620
 caps.latest.revision: 5
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ADDRECORDREF Method
 Adds filter control for a table to a filter page. The table is specified by a recordref variable that is passed to the method .  
   

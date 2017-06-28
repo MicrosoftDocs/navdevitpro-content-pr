@@ -11,6 +11,9 @@ ms.assetid: a6fb4865-6ed5-4111-a5e6-9a7671bfbbfa
 caps.latest.revision: 18
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SAVEASXML Method
 Saves the resulting dataset of a query as an .xml file.  
 

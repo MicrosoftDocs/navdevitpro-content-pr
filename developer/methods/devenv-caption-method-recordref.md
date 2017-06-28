@@ -11,6 +11,9 @@ ms.assetid: fe9efbda-301d-4d38-9892-e527fa5d6e61
 caps.latest.revision: 13
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CAPTION Method (RecordRef)
 Gets the caption of the table that is currently selected. Returns an error if no table is selected.  
   

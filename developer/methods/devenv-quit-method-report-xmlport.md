@@ -11,6 +11,9 @@ ms.assetid: 5ec8d038-e2b8-433a-9b33-8096ade4bae9
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # QUIT Method (Report, XMLport)
 Aborts the processing of a report or XMLport.  
   

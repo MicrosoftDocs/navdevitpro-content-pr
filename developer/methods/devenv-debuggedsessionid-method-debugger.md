@@ -11,6 +11,9 @@ ms.assetid: 34557589-8185-4621-b085-74ec8e1d0065
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DEBUGGEDSESSIONID Method (Debugger)
 Gets the ID of the previous session that the debugger was attached to.  
   

@@ -11,6 +11,9 @@ ms.assetid: f9c876a7-a29c-4b4c-a255-e67747a0e6a2
 caps.latest.revision: 16
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OPEN Method (Query)
 Runs a query object and generates a dataset that can be read.  
 

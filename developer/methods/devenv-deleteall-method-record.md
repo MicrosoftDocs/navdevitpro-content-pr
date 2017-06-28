@@ -11,6 +11,9 @@ ms.assetid: 1d09ddc8-5638-4292-977b-be6a39f9d8f1
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DELETEALL Method (Record)
 Deletes all records in a table that fall within a specified range.  
   

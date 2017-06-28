@@ -11,6 +11,9 @@ ms.assetid: c11ec835-402d-40b9-a280-66c06ea9bfc7
 caps.latest.revision: 8
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CURRENTKEY Method (TestPage Filter)
 Gets the current key of a dataset that is displayed on a test page.  
   

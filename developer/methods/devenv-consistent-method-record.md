@@ -11,6 +11,9 @@ ms.assetid: a6c358a3-4f74-4ccb-b840-0589566795d1
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CONSISTENT Method (Record)
 Marks a table as being consistent or inconsistent.  
   

@@ -11,6 +11,9 @@ ms.assetid: 39fdbfdd-30af-4bcc-91cb-dcb2b3b14377
 caps.latest.revision: 5
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETFILTER Method (TestPage Filter)
 Applies a filter to the specified field on a test page.  
   

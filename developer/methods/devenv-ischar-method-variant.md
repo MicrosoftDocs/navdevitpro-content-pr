@@ -11,6 +11,9 @@ ms.assetid: bb5ec3e7-d79a-4632-9d43-67a06e95ab96
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ISCHAR Method (Variant)
 Indicates whether an AL variant contains a Char variable.  
   

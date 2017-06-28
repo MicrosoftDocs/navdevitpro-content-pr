@@ -11,6 +11,9 @@ ms.assetid: 28bad79c-86c4-4148-99a0-a7fd7a7d8f19
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DELCHR Method (Code, Text)
 Deletes one or more characters in a string.  
   

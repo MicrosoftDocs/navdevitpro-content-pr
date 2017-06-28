@@ -11,6 +11,9 @@ ms.assetid: 80376b31-ec80-410a-a177-95dc686f5e62
 caps.latest.revision: 8
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # VALIDATE Method (Record)
 Calls the **OnValidate** trigger for the field that you specify.  
   

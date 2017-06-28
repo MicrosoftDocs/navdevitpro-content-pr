@@ -36,5 +36,5 @@ Sets a unique numeric ID for this codeunit, table, page, report, XMLport, or con
  If you do not set the **ID** data type, you will be prompted for one when you save the object. For controls, a numeric ID is assigned based on the next available number for the page or the report. You can change this ID.  
   
 ## See Also  
- [Name Data Type](devenv-name-data-type.md)
- </br>[AL Data Types](devenv-al-data-types.md)
+ [Name Data Type](devenv-name-data-type.md)  
+ [AL Data Types](devenv-al-data-types.md)

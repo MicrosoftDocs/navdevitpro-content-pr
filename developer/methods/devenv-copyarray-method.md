@@ -11,6 +11,9 @@ ms.assetid: d1c55795-ca34-4d88-bf09-713b8f47f755
 caps.latest.revision: 15
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COPYARRAY Method
 Copies one or more elements in an array to a new array.  
 

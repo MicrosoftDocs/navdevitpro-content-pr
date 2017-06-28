@@ -11,6 +11,9 @@ ms.assetid: 47ad403e-3a68-47b8-a4a2-0896b1c88a0d
 caps.latest.revision: 12
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COLUMNCAPTION Method
 Returns the current caption of a query column as a text string.  
 

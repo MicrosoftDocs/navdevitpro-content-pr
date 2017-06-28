@@ -10,6 +10,9 @@ ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # IMPORTSTREAM Method (Media)
 Adds a media type \(MIME\), such as jpeg image, from an InStream object to a **Media** data type field of a record for displaying the media in the client. The media file is imported to the application database and a reference to the media is included in the **Media** data type field.  
 

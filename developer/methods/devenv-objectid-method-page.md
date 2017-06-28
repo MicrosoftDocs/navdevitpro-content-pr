@@ -11,6 +11,9 @@ ms.assetid: d4505771-1e2f-4190-8980-2cebb173b2fc
 caps.latest.revision: 6
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OBJECTID Method (Page)
 Returns a string in the "Page xxx" format, where xxx is the caption or ID of the application object.  
   

@@ -11,6 +11,9 @@ ms.assetid: c55ac544-71e3-4d6c-913a-0bce2bd25c22
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # VARIANT2DATE Method
 Gets a date from a variant.  
 

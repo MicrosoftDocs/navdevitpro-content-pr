@@ -11,6 +11,9 @@ ms.assetid: c5b62613-565d-47ed-b47b-1c734a599d65
 caps.latest.revision: 20
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CALCDATE Method (Date)
 Calculates a new date that is based on a date expression and a reference date.  
 

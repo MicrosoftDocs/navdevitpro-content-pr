@@ -11,6 +11,9 @@ ms.assetid: 40835671-b653-4865-8bcc-75090a4fd535
 caps.latest.revision: 8
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CURRENTTRANSACTIONTYPE Method (Database)
 Gets the current transaction type and sets a new type to be assigned.  
   

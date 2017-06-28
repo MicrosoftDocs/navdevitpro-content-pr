@@ -11,6 +11,9 @@ ms.assetid: 6891d81b-9f79-441f-becb-fb71c740a3d8
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETFILTERS Method (Record)
 Gets a string that contains a list of the filters within the current filter group for all fields in a record. In addition, this method also returns the state of the [MARKEDONLY Method \(Record\)](devenv-MARKEDONLY-Method-Record.md).  
 

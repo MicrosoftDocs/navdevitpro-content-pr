@@ -11,6 +11,9 @@ ms.assetid: 817a0e1e-8b69-4bd8-894a-2a26f11d28aa
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SAVEASEXCEL Method (TestRequestPage)
 Saves a report as a Microsoft Excel \(.xls\) file.  
   

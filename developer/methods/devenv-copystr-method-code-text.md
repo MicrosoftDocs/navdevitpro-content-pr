@@ -11,6 +11,9 @@ ms.assetid: e749fda4-e8fc-4b26-b7ad-13ccfd24bdd4
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COPYSTR Method (Code, Text)
 Copies a substring of any length from a specific position in a string \(text or code\) to a new string.  
   
