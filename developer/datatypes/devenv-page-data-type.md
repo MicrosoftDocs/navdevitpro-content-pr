@@ -25,7 +25,7 @@ The following methods are supported for the Page data type:
 [SETRECORD method (Page)](../methods/devenv-setrecord-method-page.md)   
 [SETSELECTIONFILTER method](../methods/devenv-setselectionfilter-method.md)   
 [SETTABLEVIEW method (Page, Report, XMLport)](../methods/devenv-settableview-method-page-report-xmlport.md)   
-[UPDATE](UPDATE.md)
+[UPDATE](../../dynamics-nav/UPDATE.md)
 
 ## Remarks  
  Pages contain a number of simpler elements called controls. Controls are used to display information to the user or receive information from the user.  

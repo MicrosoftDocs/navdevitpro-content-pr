@@ -42,5 +42,5 @@ The following methods are available on the JsonArray class.
 Objects of type JsonArray represent a 0-based array.
 
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)

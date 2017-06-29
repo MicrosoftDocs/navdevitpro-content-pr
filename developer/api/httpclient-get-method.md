@@ -36,5 +36,5 @@ Sends a GET request to get the resource identified by the request URL.
 Accessing the HttpContent property of HttpResponseMessage in a case when the request fails will result in an error.
 
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
