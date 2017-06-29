@@ -66,7 +66,7 @@ END;
   
 ## See Also  
  [BINDSUBSCRIPTION Method](devenv-BINDSUBSCRIPTION-Method.md)   
- [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
- [Subscribing to Events](Subscribing-to-Events.md)   
- [Raising Events](Raising-Events.md)   
- [Publishing Events](Publishing-Events.md)
+ [Events in AL](../devenv-Events-in-AL.md)   
+ [Subscribing to Events](../devenv-Subscribing-to-Events.md)   
+ [Raising Events](../devenv-Raising-Events.md)     
+ [Publishing Events](../devenv-Publishing-Events.md)
