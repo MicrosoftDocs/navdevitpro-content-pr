@@ -2,7 +2,7 @@
 title: "GetRequestUri Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 03/28/2017
+ms.date: 06/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,7 @@ author: SusanneWindfeldPedersen
 ---
 
 # GetRequestUri Method
-Gets the Uri used for the HTTP request.
+Gets Uniform Resource Identifier (URI) used for the HTTP request.
 
 ```
 RequestUri := HttpRequestMessage.GetRequestUri
