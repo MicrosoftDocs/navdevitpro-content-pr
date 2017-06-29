@@ -11,6 +11,9 @@ ms.assetid: 7733c6fd-3cbd-42bc-9ff3-8f7a5850cff8
 caps.latest.revision: 6
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DefaultFieldsValidation Property
 Sets a value that indicates whether fields are validated.  
   

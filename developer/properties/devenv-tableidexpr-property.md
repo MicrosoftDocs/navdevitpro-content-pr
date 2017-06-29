@@ -11,6 +11,9 @@ ms.assetid: bdbfd7ca-01ef-4553-a223-4fc5c80b955d
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TableIDExpr Property
 Sets the ID of the table to which you want to apply a table filter.  
   

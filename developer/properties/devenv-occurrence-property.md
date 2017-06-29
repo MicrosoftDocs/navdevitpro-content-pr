@@ -11,6 +11,9 @@ ms.assetid: 8257f098-a61b-4053-9f88-a3f95e0ec7d2
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Occurrence Property
 Sets a value that specifies whether an attribute must occur in the data that is being imported or exported.  
   

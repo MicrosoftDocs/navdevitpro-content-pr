@@ -11,6 +11,9 @@ ms.assetid: 1eb38214-45a5-4ffe-82d1-c7507af277ee
 caps.latest.revision: 11
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TransactionModel Property
 Specifies whether data is committed to the database during execution of a test method and whether transactions are rolled back at the end of a test method.  
 

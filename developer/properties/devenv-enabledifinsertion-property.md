@@ -11,6 +11,9 @@ ms.assetid: d7e70ac2-ea39-4b97-8ab1-7a5ec5c2a71c
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EnabledIfInsertion Property
 Sets a value that indicates whether the action should be enabled or disabled if the record is undefined.  
   

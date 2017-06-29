@@ -11,6 +11,9 @@ ms.assetid: 5bb96b7d-18d0-4fd5-bd64-a8f9b84fd8d1
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # InitValue Property
 Sets the initial value of this field when a user creates a new record.  
   

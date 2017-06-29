@@ -11,6 +11,9 @@ ms.assetid: 0860c732-75f6-45cd-b750-1311ecc75f33
 caps.latest.revision: 10
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ReadState Property
 Specifies which records are read and how they are locked when a query is executed.  
   

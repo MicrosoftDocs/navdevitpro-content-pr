@@ -11,6 +11,9 @@ ms.assetid: 6400d515-9f4e-4422-a89e-99100bf9110c
 caps.latest.revision: 18
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # StyleExpr Property
 Sets whether the format that is specified in the [Style Property](devenv-style-property.md) is applied to text in a field. For fields in a **CueGroup** control, this property is used to configure the color of the color indicator on the cue.  
 

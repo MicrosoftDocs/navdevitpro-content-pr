@@ -11,6 +11,9 @@ ms.assetid: 690b2ee9-0491-4de6-92b8-8bb988f91b73
 caps.latest.revision: 12
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Query Properties
 This topic lists properties that apply to the query object.  
 

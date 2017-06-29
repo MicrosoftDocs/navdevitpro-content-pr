@@ -11,6 +11,9 @@ ms.assetid: f3c8331c-02c6-4ffe-97de-f280b4bf5ecf
 caps.latest.revision: 3
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Owner Property
 Sets the user who owns the object in the BLOB field of a table object.  
   

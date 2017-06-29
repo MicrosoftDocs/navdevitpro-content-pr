@@ -11,6 +11,9 @@ ms.assetid: 01226286-33b5-41a5-991c-5db627a077d8
 caps.latest.revision: 6
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TestIsolation Property
 Specifies which changes to the database to roll back after the tests in the test runner codeunit execute.  
   
