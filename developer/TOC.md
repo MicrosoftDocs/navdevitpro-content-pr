@@ -56,6 +56,7 @@
 #### [TransactionType Data Type](datatypes/devenv-transactiontype-data-type.md) 
 #### [Variant Data Type](datatypes/devenv-variant-data-type.md) 
 #### [XMLPort Data Type](datatypes/devenv-xmlport-data-type.md) 
+#### [Method Attributes](devenv-method-attributes.md) 
 ### [Properties](properties/devenv-properties.md)
 #### [Table and Table Extension Properties](properties/devenv-table-properties.md)
 #### [Page and Page Extension Properties](properties/devenv-page-property-overview.md)
