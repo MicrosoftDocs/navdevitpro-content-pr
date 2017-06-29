@@ -31,8 +31,6 @@ Gets the base address of Uniform Resource Identifier (URI) of the Internet resou
 
 The base address of URI of the Internet resource used when sending requests.
 
-<!--
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
--->
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)

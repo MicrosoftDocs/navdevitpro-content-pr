@@ -18,13 +18,13 @@ Sets the maximum length of data stored in this field.
  Fields  
   
 ## Remarks  
- For [Text Data Type](../datatypes/devenv-text-data-type.md) and [Code Data Type](../datatypes/devenv-code-data-type.md) fields, enter the maximum length of the field. The database only stores the actual content of the field—not the maximum length you specify.  
+ For [Text Data Type](devenv-text-data-type.md) and [Code Data Type](devenv-code-data-type.md) fields, enter the maximum length of the field. The database only stores the actual content of the field—not the maximum length you specify.  
   
  This field does not apply to the other data types because they have fixed lengths.  
   
 ## See Also  
- [Text Data Type](../datatypes/devenv-text-data-type.md)     
- [Code Data Type](../datatypes/devenv-code-data-type.md)  
+ [Text Data Type](devenv-text-data-type.md)     
+ [Code Data Type](devenv-code-data-type.md)  
  [AL Data Types](devenv-al-data-types.md)
  
  

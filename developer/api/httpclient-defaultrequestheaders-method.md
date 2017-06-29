@@ -28,8 +28,7 @@ HttpHeaders := HttpClient.DefaultRequestHeaders
 ## Remarks
 The HttpHeaders variable is a reference type. When you add a header to this variable, the default headers are changed.
 You cannot set another HttpHeaders object as a default header, you have to update the header fetched from HttpClient.
-<!--
+
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
--->
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)

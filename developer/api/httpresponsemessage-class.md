@@ -30,5 +30,5 @@ The following methods are available on the HttpResponseMessage class.
 
 
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)

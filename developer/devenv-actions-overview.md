@@ -79,8 +79,9 @@ Pages can have the following actions.
 ### Home Items  
  Home Items are actions appear under the Home button, on the Role Center navigation pane. This navigation has a tree structure, and each node in the tree links to a list page.  
   
- The user Role Center is like a home page, and home items in the navigation pane are links to the user’s most useful list pages. For more information, see [Setting Up the Home Button and Home Items](Setting-Up-the-Home-Button-and-Home-Items.md)  
-  
+ The user Role Center is like a home page, and home items in the navigation pane are links to the user’s most useful list pages. <!-- For more information, see [Setting Up the Home Button and Home Items](Setting-Up-the-Home-Button-and-Home-Items.md)  
+ -->
+
 ### Activity Buttons  
  If there are too many Home items to fit on the Role Center without scrolling, then activity buttons can be used to group other important processes together.  
   
@@ -88,14 +89,14 @@ Pages can have the following actions.
   
  Each activity button has its own navigation pane, with links to list pages and can be configured just like the user Role Center.  
   
- For more information, see [Creating Activity Buttons for the Navigation Pane](Creating-Activity-Buttons-for-the-Navigation-Pane.md)  
+ <!-- For more information, see [Creating Activity Buttons for the Navigation Pane](Creating-Activity-Buttons-for-the-Navigation-Pane.md)  -->
   
 ## Promoted Actions  
  Promoted actions are actions that are set up on the Actions, Navigate, or Reports tabs in the ribbon, but are also configured to display on the Home tab. Although the actions are set up on the Actions, Navigate, or Reports tabs, you can choose to hide them on these tabs and only show them on the Home tab.  
   
  The Home tab is always displayed first so promoted actions provide quick access to common tasks, because users do not have to browse through a menu to access them. You can promote any command from the existing actions menus to the ribbon. If there are no promoted actions, the ribbon remains hidden.  
   
- Promoted actions can be grouped. For more information, see [How to: Define Promoted Action Categories Captions for the Ribbon](How-to--Define-Promoted-Action-Categories-Captions-for-the-Ribbon.md).  
+ Promoted actions can be grouped. <!-- For more information, see [How to: Define Promoted Action Categories Captions for the Ribbon](How-to-Define-Promoted-Action-Categories-Captions-for-the-Ribbon.md).  -->
   
  Each promoted action has an icon associated with it. You can accept a default icon for your promoted action or decide to use a larger icon that makes it more prominent to the user. Use the Properties window in the Action Designer to set the size and location of an icon.  
   
@@ -123,9 +124,9 @@ IF CONFIRM('Are you sure you want to call this codeunit?', TRUE) THEN
 END;  
   
 ```  
-  
+ <!-- 
 ## See Also  
-<!--
+
  [Walkthrough: Adding Actions to a Customer List Page](Walkthrough--Adding-Actions-to-a-Customer-List-Page.md)   
  [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md)   
  [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md) -->

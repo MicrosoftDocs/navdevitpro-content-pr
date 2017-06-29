@@ -24,8 +24,7 @@ HttpClient.Timeout
 ## Property Value
 &emsp;Type: Integer  
 &emsp;The number of seconds before the request times out.
-<!--
+
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
--->
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)

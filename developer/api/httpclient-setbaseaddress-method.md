@@ -29,8 +29,7 @@ Type: String
 *Ok*  
 &emsp;Type: Boolean  
 &emsp;**True** if the operation was successful; otherwise, **false**.
-<!--
+
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
--->
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)

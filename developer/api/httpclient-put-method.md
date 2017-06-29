@@ -37,8 +37,7 @@ Sends a PUT request to the specified Uniform Resource Identifier (URI) as an asy
 &emsp;**True** if the operation was successful; otherwise, **false**.
 
 Accessing the HttpContent property of HttpResponseMessage in a case when the request fails will result in an error.
-<!--
+
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
--->
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)

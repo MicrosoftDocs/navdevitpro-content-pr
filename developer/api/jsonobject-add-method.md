@@ -39,5 +39,5 @@ If you omit this optional return value and if the select does not execute succes
 The operation will fail if the object already contains a property with the given key.
 
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)

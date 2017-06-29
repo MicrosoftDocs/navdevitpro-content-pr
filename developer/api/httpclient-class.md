@@ -31,9 +31,8 @@ The following methods are available on the HttpClient class.
 |[Send](httpclient-send-method.md)|Sends an HTTP request as an asynchronous operation.|
 |[SetBaseAddress](httpclient-setbaseaddress-method.md)|Sets the base address of Uniform Resource Identifier (Uri) of the Internet resource used when sending requests.|
 |[Timeout](httpclient-timeout-method.md)|Gets or sets the duration in seconds to wait before the request times out.|
-|[AddCertificate](httpclient-addcertificate-method.md)|Adds a certificate to the HttpClient class.| 
-<!--
+|[AddCertificate](httpclient-addcertificate-method.md)|Adds a certificate to the HttpClient class.|
+
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
--->
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
