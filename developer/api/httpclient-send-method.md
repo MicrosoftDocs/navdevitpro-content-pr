@@ -2,7 +2,7 @@
 title: "Send Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 03/28/2017
+ms.date: 06/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -31,10 +31,11 @@ Sends an HTTP request as an asynchronous operation.
 ## Return Value
 *Ok*  
 &emsp;Type: Boolean  
-&emsp;**true** if the operation was successful; otherwise, **false**.
+&emsp;**True** if the operation was successful; otherwise, **false**.
 
 Accessing the HttpContent property of HttpResponseMessage in a case when the request fails will result in an error.
-
+<!--
 ## See Also
 [Getting Started](devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
+-->
