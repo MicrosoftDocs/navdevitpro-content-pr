@@ -14,12 +14,12 @@ author: SusanneWindfeldPedersen
 # XMLport Data Type
 You use XMLports to import and export data in .xml, .csv, or .txt format. XMLports make the process of exchanging data in XML between systems more simple and streamlined. You only need a basic knowledge of XML and you do not have to create XML documents using external products.  
   
- XMLports support multiple languages with the [CaptionML Property](devenv-captionml-property.md).  
+ XMLports support multiple languages with the [CaptionML Property](../properties/devenv-captionml-property.md).  
   
  XMLports support UTF-8, UTF-16, and ISO-8859-2 formats for XML.  
   
 ## Remarks  
- For more information about how to design XMLports, see [XMLports](XMLports.md).  
+ For more information about how to design XMLports, see [XMLports](../../dynamics-nav/XMLports.md).  
 
 ## Methods
 The following methods are supported for the XMLport data type:

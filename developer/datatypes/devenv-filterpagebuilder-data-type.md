@@ -25,7 +25,7 @@ The methods supported for the FilterPageBuilder data type are:
 [GETVIEW method (FilterPageBuilder)](../methods/devenv-getview-method-filterpagebuilder.md)   
 [SETVIEW method](../methods/devenv-setview-method.md)   
 [COUNT method (FilterPageBuilder)](../methods/devenv-count-method-filterpagebuilder.md)   
-[NAME method (FilterPageBuilder)](../methods/devenv-NAME-method-filterpagebuilder.md)   
+[NAME method (FilterPageBuilder)](../methods/devenv-name-method-filterpagebuilder.md)   
 [RUNMODAL method (FilterPageBuilder)](../methods/devenv-runmodal-method-filterpagebuilder.md)
 
 ## See Also  
