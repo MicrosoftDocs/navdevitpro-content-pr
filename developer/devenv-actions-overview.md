@@ -38,7 +38,7 @@ Pages can have the following actions.
   
  Example: The Sales Orders list page at CRONUS International contains all actions related to processing sales orders. During user configuration and personalization, some of these actions may be hidden or promoted to the ribbon. Therefore, you must create a full set of actions for the customer.  
   
-## Types of Actions  
+## Types of actions  
  The following sections describe actions available.  
   
 ### Actions  
@@ -60,7 +60,7 @@ Pages can have the following actions.
   
  They are regular daily tasks. Therefore, they must be on the Actions menu, and promoted to the ribbon.  
   
- You can add actions to the Actions menu, group actions together under action submenus, or promote them to the ribbon. You cannot create submenus or promote actions on a Role Center page.  
+ You can add actions to the Actions menu, group actions together under action submenus, or promote them to the ribbon. You cannot create submenus or promote actions on a Role Center page. For examples of how to use actions, see [Page Object](devenv-page-object.md) and [Page Extension Object](devenv-page-ext-object.md).
   
 ### Navigate  
  The Navigate tab is displayed after Actions in the ribbon. Rather than providing tasks for the user, this tab provides additional information by taking the user to a specific page in [!INCLUDE[d365fin_md](includes/d365fin_md.md)].  
@@ -69,7 +69,7 @@ Pages can have the following actions.
 >  You should not add a Navigate action to a Role Center page.  
   
 ### Report  
- The Reports tab is displayed after the Navigate tab on the ribbon. The Reports tab lists the reports most relevant to a page. If a user does not require a Reports tab, then the tab is hidden. Sometimes it is relevant to promote the most important reports to the Home tab to save the user from too many clicks.  
+ The Reports tab is displayed after the Navigate tab in the ribbon. The Reports tab lists the reports most relevant to a page. If a user does not require a Reports tab, then the tab is hidden. Sometimes it is relevant to promote the most important reports to the Home tab to save the user from too many clicks.  
   
 ### New Document  
  The New action is often displayed both in the Home tab and in the Actions tab. You can use this action to open new documents within [!INCLUDE[d365fin_md](includes/d365fin_md.md)].
@@ -77,7 +77,7 @@ Pages can have the following actions.
  Example: On the Customers page, if the order processor wants to create a new invoice, she can open the New page directly from the Actions tab. This is useful as she creates new sales invoices daily.  
   
 ### Home Items  
- Home Items are actions appear under the Home button, on the Role Center navigation pane. This navigation has a tree structure, and each node in the tree links to a list page.  
+ Home Items are actions that appear under the Home button, on the Role Center navigation pane. This navigation has a tree structure, and each node in the tree links to a list page.  
   
  The user Role Center is like a home page, and home items in the navigation pane are links to the user’s most useful list pages. <!-- For more information, see [Setting Up the Home Button and Home Items](Setting-Up-the-Home-Button-and-Home-Items.md)  
  -->
@@ -113,18 +113,16 @@ Pages can have the following actions.
   
  The logic runs in the transaction that the action triggered. This can cause the application code to result in users locking the whole table when they thought they were only modifying one record.  
   
- To avoid users accidentally locking tables, you can use the **SetSelectionFilter** function before your code passes the record variable to the processing codeunit, for example. The following code example illustrates the code on the **OnAction** trigger on an action on a page.  
+ To avoid users accidentally locking tables, you can use the [SetSelectionFilter](methods/devenv-setselectionfilter-method.md) method before your code passes the record variable to the processing codeunit, for example. The following code example illustrates the code on the [OnAction](triggers/devenv-onaction-trigger.md) trigger on an action on a page.  
+  
+```
+if confirm('Are you sure you want to call this codeunit?', true) then begin
+    CurrPage.SetSelectionFilter(Rec);  
+    codeunit.Run(50000, Rec);  
+end;        
   
 ```  
-IF CONFIRM('Are you sure you want to call this codeunit?', TRUE) THEN  
-  BEGIN  
-  CurrPage.SETSELECTIONFILTER(Rec);  
-  CODEUNIT.RUN(50000, Rec);  
-  END;  
-END;  
-  
-```  
- <!-- 
+<!-- 
 ## See Also  
 
  [Walkthrough: Adding Actions to a Customer List Page](Walkthrough--Adding-Actions-to-a-Customer-List-Page.md)   
