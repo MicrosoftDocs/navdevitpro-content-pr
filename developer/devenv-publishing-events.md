@@ -40,7 +40,7 @@ The first phase of implementing an event is publishing the event. Publishing an 
 
      You should give the method a name that has the format *On\[Event\]*, where *\[Event\]* is text that indicates what occurred, such as `OnAddressLineChanged`.  
 
-3.  Decorate the method with the either the [Integration attribute](methods/devenv-integration-attribute.md).d) or [Business attribute](methods/devenv-business-attribute.md), depending on the type of event that you want to publish.
+3.  Decorate the method with the either the [Integration attribute](methods/devenv-integration-attribute.md). or [Business attribute](methods/devenv-business-attribute.md), depending on the type of event that you want to publish.
 
     For more information, see [Event Types](devenv-event-types.md).  
 

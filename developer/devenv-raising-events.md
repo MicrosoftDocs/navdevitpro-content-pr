@@ -6,22 +6,20 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
-ms.assetid: 98c53cfb-5eb8-441f-9b88-b6020fefa3cf
-caps.latest.revision: 5
-manager: edupont
+ms.prod: "dynamics-365-financials"
+author: jswymer
 ---
 # Raising Events
-After an event has been published by an event publisher function, you can modify the application to raise the event where it is needed. Subscribers of an event will not react on the event until it is raised in the application.  
+After an event has been published by an event publisher method, you can modify the application to raise the event where it is needed. Subscribers of an event will not react on the event until it is raised in the application.  
 
- To raise an event, you add logic in C/AL code of the application to call the event publisher function that declares the event. The procedure for calling the event publisher function is the same as calling any other function in C/AL.  
+To raise an event, you add logic in AL code of the application to call the event publisher method that declares the event. The procedure for calling the event publisher funmethodction is the same as calling any other function in AL.  
 
- When the code that calls the event publisher function is run, then all event subscriber functions that subscribe to the event are run. If there are multiple subscribers, then each event subscriber function is run one after another. The order in which the event subscribers run is random and cannot it cannot be specified.  
+When the code that calls the event publisher method is run, then all event subscriber methods that subscribe to the event are run. If there are multiple subscribers, then each event subscriber method is run one after another. The order in which the event subscribers run is random and cannot it cannot be specified.  
 
- If there are no subscribers to the published event, then the line of code that calls the event publisher function is ignored and not executed.  
+If there are no subscribers to the published event, then the line of code that calls the event publisher method is ignored and not executed.  
 
 ## Example  
- You want to raise an event when a user changes the **Address** field on the page **21 Customer Card**. The event is published by the event publisher function **OnAddressedLineChanged** in the codeunit **My Publishers**. The event publisher function **OnAddressedLineChanged** accepts a single text parameter. To raise the event this, you complete the following steps in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]:  
+You want to raise an event when a user changes the **Address** field on the page **21 Customer Card**. The event is published by the event publisher method **OnAddressedLineChanged** in the codeunit **MyPublishers**. The event publisher method **OnAddressedLineChanged** accepts a single text parameter. To raise the event, you complete the following steps in the AL:  
 
 1.  Add the following C/AL variable to page 21 Customer Card.  
 
