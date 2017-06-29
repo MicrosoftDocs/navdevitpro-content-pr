@@ -10,6 +10,9 @@ ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EXPORTFILE Method (MediaSet)
 Exports the media objects in the current media set of a record to individual files on your computer or network. In the record, the media set is referenced in a **MediaSet** data type field.  
 
@@ -49,7 +52,7 @@ Exports the media objects in the current media set of a record to individual fil
  Specifies the number of media files that were generated and stored in the output file path.  
 
 ## Remarks  
- The exported media files will be of the same media file type as when they were imported. For more information about the media types, see [Supported Media Types](Working-With-Media-on-Records.md#SupportedMediaTypes).
+ The exported media files will be of the same media file type as when they were imported. For more information about the media types, see [Supported Media Types](../devenv-working-with-media-on-records.md#SupportedMediaTypes).
 
 The method has the following behavior:  
 
@@ -92,7 +95,7 @@ Message('%1 files exported.', count);
 ```  
 
 ## See Also  
- [Working With Media on Records](Working-With-Media-on-Records.md)   
+ [Working With Media on Records](../devenv-working-with-media-on-records.md)   
  [IMPORTSTREAM Method \(Media\)](devenv-IMPORTSTREAM-Method-Media.md)   
  [IMPORTFILE Method \(MediaSet\)](devenv-IMPORTFILE-Method-MediaSet.md)   
  [IMPORTSTREAM Method \(MediaSet\)](devenv-IMPORTSTREAM-Method-MediaSet.md)   

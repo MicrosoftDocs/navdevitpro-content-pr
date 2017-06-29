@@ -11,6 +11,9 @@ ms.assetid: 75a44f18-76d3-4768-82fc-b1de595d7e6b
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CHECKLICENSEFILE Method (Database)
 Checks a key in the license file of the system.  
   

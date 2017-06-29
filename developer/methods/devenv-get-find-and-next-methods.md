@@ -11,6 +11,9 @@ ms.assetid: 800587f2-90cc-4492-8fd8-a94bc91d1fe1
 caps.latest.revision: 15
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GET, FIND, and NEXT Methods
 The following methods are used to search for records:  
   

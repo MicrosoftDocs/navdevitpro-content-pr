@@ -11,6 +11,9 @@ ms.assetid: d0dd11d6-a428-4cf4-b9fb-47959ab4868c
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # WORDLAYOUT Method
 Gets the Word report layout that is used on a report and returns it as a data stream.  
   

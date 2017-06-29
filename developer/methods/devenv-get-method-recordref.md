@@ -11,6 +11,9 @@ ms.assetid: 40384312-1be2-4658-90c2-90a8f6690381
 caps.latest.revision: 14
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GET Method (RecordRef)
 Gets a record based on the ID of the record.  
   

@@ -11,6 +11,9 @@ ms.assetid: 88d002d4-d1a2-4d3f-ba1d-b8392ef7cf4d
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ASSERTEQUALS Method (TestPage Field)
 Asserts that the value in a field on a test page equals a specified value.  
   

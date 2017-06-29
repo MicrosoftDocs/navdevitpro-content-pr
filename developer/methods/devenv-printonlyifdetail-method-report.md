@@ -11,6 +11,9 @@ ms.assetid: abbd324e-7544-46cf-94a9-979c0db0499d
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # PRINTONLYIFDETAIL Method (Report)
 Gets or sets the current settings of the [PrintOnlyIfDetail Property](../properties/devenv-PrintOnlyIfDetail-Property.md).  
   

@@ -11,6 +11,9 @@ ms.assetid: e47e8733-2254-4469-91d9-df6c530c7ce8
 caps.latest.revision: 8
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CLOSE Method (Dialog)
 Closes a dialog window that has been opened by [OPEN Method \(Dialog\)](devenv-OPEN-Method-Dialog.md).  
   

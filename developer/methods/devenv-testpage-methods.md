@@ -11,6 +11,9 @@ ms.assetid: f6497b07-5e15-4c52-b460-fd80f9bef502
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TestPage Methods
 You can use the TestPage methods for the following purposes.  
   
@@ -22,7 +25,7 @@ You can use the TestPage methods for the following purposes.
 |Expand and collapse rows on a test page.|[EXPAND Method \(TestPage\)](devenv-EXPAND-Method-TestPage.md)|  
 |Create a new record from a test page.|[NEW Method \(TestPage\)](devenv-NEW-Method-TestPage.md)|  
 |Get the options and option count for an option field.|-   [GETOPTION Method \(TestPage Field\)](devenv-GETOPTION-Method-TestPage-Field.md)<br />-   [OPTIONCOUNT Method \(TestPage Field\)](devenv-OPTIONCOUNT-Method-TestPage-Field.md)|  
-|Get validation errors and error counts.|-   [GETVALIDATIONERROR Method \(TestPage, TestPage Field\)](devenv-GETVALIDATIONERROR-Method-TestPage--TestPage-Field.md)<br />-   [VALIDATIONERRORCOUNT Method \(TestPage, TestPage Field\)](devenv-VALIDATIONERRORCOUNT-Method-TestPage--TestPage-Field.md)|  
+|Get validation errors and error counts.|-   [GETVALIDATIONERROR Method \(TestPage, TestPage Field\)](devenv-GETVALIDATIONERROR-Method-TestPage-TestPage-Field.md)<br />-   [VALIDATIONERRORCOUNT Method \(TestPage, TestPage Field\)](devenv-VALIDATIONERRORCOUNT-Method-TestPage-TestPage-Field.md)|  
   
 ## See Also  
 [AL Methods](devenv-al-methods.md)  

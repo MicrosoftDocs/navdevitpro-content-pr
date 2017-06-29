@@ -11,6 +11,9 @@ ms.assetid: 06d26262-85ed-4f85-80b1-b8291b6155f7
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Report Triggers
 When you run a report, the report triggers are called in a specific order.  
 

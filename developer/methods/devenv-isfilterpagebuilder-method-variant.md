@@ -11,6 +11,9 @@ ms.assetid: 633646e7-72d6-4aab-a2f0-e8d4c561d37e
 caps.latest.revision: 2
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ISFILTERPAGEBUILDER Method (Variant)
 Indicates whether an AL variant contains a FilterPageBuilder variable.  
   

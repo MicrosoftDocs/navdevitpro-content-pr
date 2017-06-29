@@ -26,6 +26,6 @@ The following methods are supported for the Media data type:
 [MEDIAID method (Media)](../methods/devenv-mediaid-method-media.md)   
 
 ## See Also  
- [Working With Media on Records](../../dynamics-nav/Working-With-Media-on-Records.md)  
+ [Working With Media on Records](../devenv-working-with-media-on-records.md)  
  
  

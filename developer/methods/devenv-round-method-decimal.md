@@ -11,6 +11,9 @@ ms.assetid: cd3bc15d-bcd1-467d-a3a8-a7c79b3121bf
 caps.latest.revision: 17
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ROUND Method (Decimal)
 Rounds the value of a numeric variable.  
 

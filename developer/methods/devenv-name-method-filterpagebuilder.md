@@ -11,6 +11,9 @@ ms.assetid: 89cbb4b3-781d-4a8b-b336-64f552b38a29
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # NAME Method (FilterPageBuilder)
 Gets the name of a table filter control that is included on a filter page based on an index number that is assigned to the filter control.  
   

@@ -11,6 +11,9 @@ ms.assetid: 8ddbf594-1942-46fc-97a7-1f3c3353b568
 caps.latest.revision: 5
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # LAST Method (TestPage)
 Sets the current row of the test page as the last row in the dataset.  
   

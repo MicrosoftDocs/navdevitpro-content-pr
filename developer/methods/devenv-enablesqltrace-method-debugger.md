@@ -11,6 +11,9 @@ ms.assetid: 9bd5ad29-12d7-4f24-a7b2-3d4d16198010
 caps.latest.revision: 8
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ENABLESQLTRACE Method (Debugger)
 Enables or verifies SQL tracing. If you enable SQL tracing, then SQL Server events for selected sessions on the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance are collected.  
   

@@ -11,6 +11,9 @@ ms.assetid: 9fb64e55-a39d-438b-b053-cf58f9b6afd3
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnAfterInitRecord Trigger
 Executed after a record is loaded.  
   

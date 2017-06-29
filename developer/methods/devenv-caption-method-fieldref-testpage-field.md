@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 4addc78b-44ac-43ac-861e-d7e848b32414
 caps.latest.revision: 18
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CAPTION Method (FieldRef, TestPage Field)
 Gets the current caption of a field as a String.  
   

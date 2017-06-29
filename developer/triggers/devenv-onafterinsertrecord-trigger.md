@@ -11,6 +11,9 @@ ms.assetid: 2dd18e75-4bbe-4e88-8f22-a5b064708bfd
 caps.latest.revision: 6
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnAfterInsertRecord Trigger
 Executed after a record has been inserted into a database table.  
   

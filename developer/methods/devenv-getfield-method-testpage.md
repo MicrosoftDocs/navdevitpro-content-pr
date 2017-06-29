@@ -11,6 +11,9 @@ ms.assetid: a9ba69dd-81a2-4e88-b67f-d7370362eae3
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETFIELD Method (TestPage)
 Gets a field on a test page.  
   

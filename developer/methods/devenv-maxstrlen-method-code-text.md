@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 9fadefd8-7add-4dbf-84e8-2eee07ffd1ab
 caps.latest.revision: 12
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # MAXSTRLEN Method (Code, Text)
 Gets the maximum defined length of a string variable.  
   

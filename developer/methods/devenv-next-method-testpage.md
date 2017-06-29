@@ -11,6 +11,9 @@ ms.assetid: 25e24fec-2c36-4f59-af74-518d4221b3f7
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # NEXT Method (TestPage)
 Sets the current row of the test page as the next row in the dataset.  
   

@@ -11,6 +11,9 @@ ms.assetid: 8fb7efe1-b56e-4901-b21b-80d5fc501eef
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COLUMNNAME Method
 Returns the name of a query column as a text string.  
 

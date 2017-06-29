@@ -11,6 +11,9 @@ ms.assetid: afbd3a18-dff7-4639-aacc-396491e8df90
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DRILLDOWN Method (TestPage Field)
 Applies drill-down capability for a field on a test page.  
   

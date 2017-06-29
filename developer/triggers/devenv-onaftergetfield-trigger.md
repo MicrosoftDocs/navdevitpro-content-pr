@@ -11,6 +11,9 @@ ms.assetid: 85858ca9-8b42-4386-8e29-63da9a15a7c0
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnAfterGetField Trigger
 Executed after a field is passed to the XML document.  
   

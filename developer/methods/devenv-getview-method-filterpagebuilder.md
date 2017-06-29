@@ -12,6 +12,9 @@ caps.latest.revision: 5
 manager: edupont
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETVIEW method (FilterPageBuilder)
 Gets the filter view \(which defines the sort order, key, and filters\) for the record in the specified filter control of a filter page.  
 

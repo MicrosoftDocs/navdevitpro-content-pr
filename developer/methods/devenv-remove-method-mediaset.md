@@ -11,6 +11,9 @@ ms.assetid: 270d2955-8330-466e-b7d3-46eb0901d42d
 caps.latest.revision: 4
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # REMOVE Method (MediaSet)
 Removes a media object from a MediaSet of a record.
 
@@ -87,7 +90,7 @@ ELSE
 ```  
 
 ## See Also  
-[Working With Media on Records](Working-With-Media-on-Records.md)  
+[Working With Media on Records](../devenv-working-with-media-on-records.md)  
 [IMPORTFILE Method \(MediaSet\)](devenv-IMPORTFILE-Method-MediaSet.md)   
 [IMPORTSTREAM Method \(MediaSet\)](devenv-IMPORTSTREAM-Method-MediaSet.md)   
 [MediaSet Data Type](../datatypes/devenv-MediaSet-Data-Type.md)

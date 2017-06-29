@@ -10,6 +10,9 @@ ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # HASVALUE Method (Media)
 Checks whether a **Media** data type field in a record has been initialized with a media object and that the specified media object exists in the database.  
 
@@ -57,7 +60,7 @@ END;
 ```  
 
 ## See Also  
- [Working With Media on Records](Working-With-Media-on-Records.md)   
+ [Working With Media on Records](../devenv-working-with-media-on-records.md)   
  [IMPORTFILE Method \(Media\)](devenv-IMPORTFILE-Method-Media.md)   
  [IMPORTSTREAM Method \(Media\)](devenv-IMPORTSTREAM-Method-Media.md)   
  [EXPORTFILE Method \(Media\)](devenv-EXPORTFILE-Method-Media.md)  

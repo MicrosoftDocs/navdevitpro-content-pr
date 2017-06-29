@@ -11,6 +11,9 @@ ms.assetid: 9cd6ac83-84c1-4aa5-984b-f95afb1e4dde
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # PREVIOUS Method (TestPage)
 Sets the current row of the test page as the previous row in the dataset.  
   

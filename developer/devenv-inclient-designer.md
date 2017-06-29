@@ -13,6 +13,8 @@ ms.author: SusanneWindfeldPedersen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+
 # Using the In-Client Designer
 
 With the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in-client designer, you can create extensions using drag-and-drop inside the client. With this preview of the in-client designer, you can:

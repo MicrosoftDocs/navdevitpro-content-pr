@@ -11,6 +11,9 @@ ms.assetid: 427976ca-affe-471b-85e0-0612462bdf0f
 caps.latest.revision: 15
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ASCENDING Method (Record)
 Gets or sets the order in which the system searches through a table.  
   

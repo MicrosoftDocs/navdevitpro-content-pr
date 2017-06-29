@@ -28,4 +28,4 @@ The following methods are supported for the MediaSet data type:
 [EXPORTFILE method](../methods/devenv-exportfile-method-mediaset.md)  
 
 ## See Also  
-[Working With Media on Records](../../dynamics-nav/Working-With-Media-on-Records.md)  
+[Working With Media on Records](../devenv-working-with-media-on-records.md)  

@@ -11,6 +11,9 @@ ms.assetid: 6f6f0242-f97d-4062-bf00-4ba88ca1ebb2
 caps.latest.revision: 8
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnPostDataItem Trigger
 Executed after a data item is processed.  
   

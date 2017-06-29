@@ -11,6 +11,9 @@ ms.assetid: 07f5e141-a6f9-4ddd-b5c0-154268cf89f2
 caps.latest.revision: 18
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FIND Method (Record)
 Finds a record in a table that is based on the values stored in keys.  
   
@@ -27,7 +30,7 @@ Ok := Record.FIND([Which])
   
  On input, *Record* identifies the record that you want to find. On output, the following possibilities exist:  
   
--   If the record was found, then the record is returned in the *Record* parameter and any [FlowFields](FlowFields.md) in the record are set to zero. You must update the FlowFields using the [CALCFIELDS Method \(Record\)](devenv-CALCFIELDS-Method-Record.md).  
+-   If the record was found, then the record is returned in the *Record* parameter and any [FlowFields](../devenv-flowfields.md) in the record are set to zero. You must update the FlowFields using the [CALCFIELDS Method \(Record\)](devenv-CALCFIELDS-Method-Record.md).  
   
 -   If the record was not found and if you omitted the return value, a run-time error occurs.  
   

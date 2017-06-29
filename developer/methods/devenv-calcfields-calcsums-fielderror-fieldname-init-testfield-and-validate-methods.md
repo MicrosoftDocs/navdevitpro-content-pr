@@ -11,6 +11,9 @@ ms.assetid: 22168a6c-9034-4503-bc82-1cae9497762d
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CALCFIELDS, CALCSUMS,FIELDERROR, FIELDNAME, INIT, TESTFIELD, and VALIDATE Methods
 The following methods perform various actions on fields:  
   
@@ -29,7 +32,7 @@ The following methods perform various actions on fields:
 -   VALIDATE  
   
 ## CALCFIELDS Method  
- CALCFIELDS updates FlowFields. FlowFields are automatically updated when they are the direct source expressions of controls, but they must be explicitly calculated when they are part of a more complex expression. For more information about flowfields, see [FlowFields](FlowFields.md).  
+ CALCFIELDS updates FlowFields. FlowFields are automatically updated when they are the direct source expressions of controls, but they must be explicitly calculated when they are part of a more complex expression. For more information about flowfields, see [FlowFields](../devenv-flowfields.md).  
   
  CALCFIELDS has the following syntax.  
   

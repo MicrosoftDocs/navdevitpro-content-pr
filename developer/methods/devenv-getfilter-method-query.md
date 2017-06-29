@@ -11,6 +11,9 @@ ms.assetid: 3baf4cbe-97ee-449f-b9ba-9c8947a4998c
 caps.latest.revision: 18
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETFILTER Method (Query)
 Returns the filters that are set on the field of a specified column in the query.  
   

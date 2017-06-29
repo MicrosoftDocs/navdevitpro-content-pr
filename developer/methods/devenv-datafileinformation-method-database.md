@@ -12,6 +12,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 731a41c4-85c7-42c6-8dc6-00a7dcd090b2
 caps.latest.revision: 3
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DATAFILEINFORMATION Method (Database)
 Specifies data from a file that has been exported from a [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] database.  
 

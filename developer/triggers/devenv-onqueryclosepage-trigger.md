@@ -11,6 +11,9 @@ ms.assetid: 820616a5-daa7-4819-8bf8-02f376ef806e
 caps.latest.revision: 14
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnQueryClosePage Trigger
 Executed as a page closes and before the [OnClosePage Trigger](devenv-OnClosePage-Trigger.md) executes.  
 

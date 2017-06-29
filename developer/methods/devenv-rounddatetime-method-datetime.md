@@ -11,6 +11,9 @@ ms.assetid: 8b2508f9-db40-41b9-b8f3-0ff9d224f476
 caps.latest.revision: 13
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ROUNDDATETIME Method (DateTime)
 Rounds a DateTime.  
 

@@ -11,6 +11,9 @@ ms.assetid: 1bba129e-f85c-4a1b-ba65-2b06c4f4a971
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CURRENTCLIENTTYPE Method
 Gets the client type that is running in current session.  
 

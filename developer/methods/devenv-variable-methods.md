@@ -11,6 +11,9 @@ ms.assetid: 58897231-df6f-4958-baf2-55a2ce23bde6
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Variable Methods
 The following AL methods for variables are available:  
   

@@ -11,6 +11,9 @@ ms.assetid: ea46e230-f8e7-4aeb-952f-ea02d30ea092
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COMMIT Method (Database)
 Ends the current write transaction.  
 

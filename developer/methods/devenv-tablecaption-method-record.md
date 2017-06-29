@@ -11,6 +11,9 @@ ms.assetid: 44e55ff7-1287-45e1-93aa-a9c9232b7193
 caps.latest.revision: 12
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TABLECAPTION Method (Record)
 Gets the current caption of a table as a string.  
   

@@ -11,6 +11,9 @@ ms.assetid: c5a1cb50-f089-43c9-808f-4a8653d32a14
 caps.latest.revision: 14
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FORMAT Method (Code, Text)
 Formats a value into a string.  
 

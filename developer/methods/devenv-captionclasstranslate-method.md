@@ -11,6 +11,9 @@ ms.assetid: e7d75eda-bc70-4400-826e-267d8873a661
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CAPTIONCLASSTRANSLATE Method
 Returns a translated version of the caption string. The string is translated to the current local language.  
   

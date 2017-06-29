@@ -11,6 +11,9 @@ ms.assetid: b36cc33e-41f7-4845-82f8-233249592773
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # BigText Methods
 This section contains the following topics:  
   

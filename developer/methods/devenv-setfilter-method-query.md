@@ -11,6 +11,9 @@ ms.assetid: 12b3f553-ca5a-4726-a9d4-3f19daac83d1
 caps.latest.revision: 19
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETFILTER Method (Query)
 Sets a filter on a column of a query to limit the records in the resulting dataset of a query.  
   

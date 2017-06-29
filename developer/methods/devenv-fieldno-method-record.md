@@ -11,6 +11,9 @@ ms.assetid: 940ed8d7-1f28-485c-a996-d4f096354c12
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FIELDNO Method (Record)
 Gets the number assigned to a field in the table description.  
   

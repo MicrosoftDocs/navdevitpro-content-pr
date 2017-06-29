@@ -11,6 +11,9 @@ ms.assetid: 2c19a082-ec78-4910-afcc-766c718d3431
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # STRCHECKSUM Method (Code, Text)
 Calculates a checksum for a string that contains a number.  
 
