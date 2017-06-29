@@ -11,6 +11,9 @@ ms.assetid: 6a09a5b0-1106-45a4-83b5-367138884339
 caps.latest.revision: 11
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # AutoReplace Property
 Sets whether imported records automatically replace existing records with the same primary key.  
   

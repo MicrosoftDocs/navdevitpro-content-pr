@@ -11,6 +11,9 @@ ms.assetid: badb7598-d6c1-4b16-96bc-170e0ee79382
 caps.latest.revision: 7
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Temporary Property (Reports)
 Sets whether a temporary table is used to store the data set that is returned for columns of a data item.  
   

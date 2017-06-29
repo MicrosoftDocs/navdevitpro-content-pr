@@ -11,6 +11,9 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 729f3649-f7c8-498d-8c16-961771f192a0
 ms.author: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Visible Property
 Sets whether to display the page or control.  
 

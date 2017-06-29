@@ -11,6 +11,9 @@ ms.assetid: bfdf1b47-b009-48b3-8b46-0612d66e0162
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TableType Property
 Specifies the table type.  
 

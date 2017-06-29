@@ -11,6 +11,9 @@ ms.assetid: 50c482bb-b49e-4a92-821c-3c26d963a4aa
 caps.latest.revision: 15
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # MethodType Property (Test Codeunits)
 Sets the type of method in a test codeunit.  
   

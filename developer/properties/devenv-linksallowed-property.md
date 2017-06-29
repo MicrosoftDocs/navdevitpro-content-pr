@@ -11,6 +11,9 @@ ms.assetid: 854fb973-9df4-4b97-9e94-67d2509143d6
 caps.latest.revision: 8
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # LinksAllowed Property
 Sets whether links are allowed.  
   

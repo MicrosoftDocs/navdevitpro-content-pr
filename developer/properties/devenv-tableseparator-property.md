@@ -11,6 +11,9 @@ ms.assetid: 02bbb812-0ff4-429a-b1c0-8b28270a781b
 caps.latest.revision: 10
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TableSeparator Property
 Specifies the table separator for a table.  
   
