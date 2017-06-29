@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 29e195c8-557d-43a7-b416-37c2ec246cfc
 caps.latest.revision: 13
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ERASE Method (File)
 Deletes a file.  
   

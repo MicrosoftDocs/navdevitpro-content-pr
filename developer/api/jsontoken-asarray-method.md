@@ -34,5 +34,5 @@ Type: JsonArray
 The returned JsonArray contains the same data as the JsonToken, but allows array-specific operations to be performed on it.
 
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)

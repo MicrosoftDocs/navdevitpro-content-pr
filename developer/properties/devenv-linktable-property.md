@@ -11,6 +11,9 @@ ms.assetid: 4a0ae945-1a46-46b3-b025-8bd3707128fd
 caps.latest.revision: 8
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # LinkTable Property
 Sets the table that this XML item should be linked to. This property is only available for XML items that have a table as their data source.  
   

@@ -11,6 +11,9 @@ ms.assetid: 8491853b-e9e4-4a8d-9619-07a813c04735
 caps.latest.revision: 2
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ExternalSchema Property
 Specifies the name of the database schema of the external database.  
   

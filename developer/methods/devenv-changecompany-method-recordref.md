@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 19dd10ea-7410-4e4c-82ae-fc03dcf70ccd
 caps.latest.revision: 3
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CHANGECOMPANY Method (RecordRef)
 Redirects references to table data from one company to another.  
 

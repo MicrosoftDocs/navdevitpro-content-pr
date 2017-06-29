@@ -11,6 +11,9 @@ ms.assetid: 0a805d73-ce3a-45d4-914e-6a7d6edf80d2
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETRECFILTER Method (Record)
 Sets the values in the current key of the current record as a record filter.  
   

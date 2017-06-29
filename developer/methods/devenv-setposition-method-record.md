@@ -11,6 +11,9 @@ ms.assetid: 6bdd7e9c-0c48-4977-b0be-618f6118db25
 caps.latest.revision: 13
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETPOSITION Method (Record)
 Sets the fields in a primary key on a record to the values specified in the supplied string. The remaining fields are not changed.  
   

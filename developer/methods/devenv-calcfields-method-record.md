@@ -11,6 +11,9 @@ ms.assetid: eb58dea1-05e6-4c11-97cf-75c458c119c5
 caps.latest.revision: 31
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CALCFIELDS Method (Record)
 Calculates the FlowFields in a record. You specify which fields to calculate by using parameters.  
 
@@ -75,6 +78,6 @@ CustomerRec.CALCFIELDS(Balance, "Net Change");
  The first line sets up a filter for the Date Filter field in the Customer record. This field is a FlowFilter field which is used in the filter definition for several FlowFields in the Customer record. In the second line, the FlowFields are calculated.  
 
 ## See Also  
- [FlowFields](FlowFields.md)   
- [FlowFields](FlowFields.md)   
+ [FlowFields](../devenv-flowfields.md)   
+ [FlowFields](../devenv-flowfields.md)   
  [FieldClass Property](../properties/devenv-FieldClass-Property.md)

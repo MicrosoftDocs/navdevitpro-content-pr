@@ -11,6 +11,9 @@ ms.assetid: 690eaf66-a44c-4834-9ff2-099f05db2c04
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FIELDACTIVE Method (Record)
 Checks whether a field is enabled.  
 

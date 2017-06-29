@@ -10,6 +10,9 @@ ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EXPORTFILE Method (Media)
 Exports the media object \(such as an image\) that is currently used on record to a file on your computer or network. On the record, the media object is referenced in a **Media** data type field.  
 
@@ -41,7 +44,7 @@ Exports the media object \(such as an image\) that is currently used on record t
  **true** if the media was successfully exported; otherwise, **false**.  
 
 ## Remarks  
- The exported media file will be of the same media type, such as JPEG \(.jpg\) or GIF \(.gif\), as it was when imported.  For more information about the media types, see [Supported Media Types](Working-With-Media-on-Records.md#SupportedMediaTypes).  
+ The exported media file will be of the same media type, such as JPEG \(.jpg\) or GIF \(.gif\), as it was when imported.  For more information about the media types, see [Supported Media Types](../devenv-working-with-media-on-records.md#SupportedMediaTypes).  
 
  If a file with the same name as the exported file already exists in the target folder and the current session has write access on the file, the existing file will be automatically replaced by the new file. If the export fails, the existing file will be erased.  
 
@@ -76,7 +79,7 @@ END;
 ```  
 
 ## See Also  
- [Working With Media on Records](Working-With-Media-on-Records.md)  
+ [Working With Media on Records](../devenv-working-with-media-on-records.md)  
  [IMPORTSTREAM Method \(Media\)](devenv-IMPORTSTREAM-Method-Media.md)   
  [IMPORTFILE Method \(MediaSet\)](devenv-IMPORTFILE-Method-MediaSet.md)   
  [IMPORTSTREAM Method \(MediaSet\)](devenv-IMPORTSTREAM-Method-MediaSet.md)   

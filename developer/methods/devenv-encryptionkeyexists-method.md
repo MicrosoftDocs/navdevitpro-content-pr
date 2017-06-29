@@ -11,6 +11,9 @@ ms.assetid: c31eb42b-c3a4-4592-b712-a24bb6141ccc
 caps.latest.revision: 5
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ENCRYPTIONKEYEXISTS Method
 Checks whether an encryption key for the current tenant is present on the server tenant.  
 

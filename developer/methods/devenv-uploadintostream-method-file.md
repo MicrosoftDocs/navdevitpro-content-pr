@@ -11,6 +11,9 @@ ms.assetid: 3c7fcef9-b1be-4e16-8872-8ae74750da42
 caps.latest.revision: 24
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # UPLOADINTOSTREAM Method (File)
 Sends a file from the client device to the corresponding [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)].  The client device is the device <!--NAV that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or -->, such as a computer or phone, that accesses [!INCLUDE[d365fin_md](../includes/d365fin_md.md)].  
 

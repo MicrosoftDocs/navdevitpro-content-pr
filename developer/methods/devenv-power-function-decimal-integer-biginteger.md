@@ -9,6 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-365-for-financials"
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # POWER Method (Decimal, Integer, BigInteger)
 Raises a number to a power. For example, you can use this function to square the number 2 to get the result of 4.  
 

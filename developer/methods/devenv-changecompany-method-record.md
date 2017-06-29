@@ -11,6 +11,9 @@ ms.assetid: e50d0b45-9556-42a0-9efa-e23c88f1b152
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CHANGECOMPANY Method (Record)
 Redirects references to table data from one company to another.  
   

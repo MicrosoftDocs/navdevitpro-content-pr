@@ -11,6 +11,9 @@ ms.assetid: 7dea6cb3-a530-4918-8726-d3316cfc2be1
 caps.latest.revision: 6
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DELETEENCRYPTIONKEY Method
 Deletes the encryption key for the current tenant.  
 

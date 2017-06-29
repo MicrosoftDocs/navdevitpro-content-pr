@@ -9,6 +9,9 @@ ms.topic: article
 ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ID Method (Notification)
 Specifies the identifier for a notification.
 
@@ -44,4 +47,4 @@ END ELSE
 [RECALL Method (Notification)](devenv-recall-method-notification.md)  
 [MESSAGE Method (Notification)](devenv-message-method-notification.md)  
 [SCOPE Method (Notification)](devenv-scope-method-notification.md)  
-[Notifications](notifications-developing.md)
+[Notifications](../devenv-notifications-developing.md)

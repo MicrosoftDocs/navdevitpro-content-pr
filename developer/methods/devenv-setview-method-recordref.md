@@ -11,6 +11,9 @@ ms.assetid: 546dbac6-6660-4718-9bc1-32d2eec73d17
 caps.latest.revision: 12
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETVIEW Method (RecordRef)
 Sets the current sort order, key, and filters on a table.  
   

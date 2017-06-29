@@ -11,6 +11,9 @@ ms.assetid: 6e2a93c7-e6a0-429f-8118-54cd100ea342
 caps.latest.revision: 17
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Standard and User-Defined Methods
 To create an application in [!INCLUDE[d365fin_md](../includes/d365fin_md.md)], you must make database objects work together. You can use AL code to bind all the database objects together to form a unified whole.  
 

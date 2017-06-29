@@ -10,6 +10,9 @@ ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # IMPORTFILE Method (Media)
 Adds a media type, such as a JPEG image, from a file to a **Media** data type field of a record for displaying the media with the record in the client. The media file is imported to the application database, and a reference to the media is included in the **Media** data type field.
 
@@ -119,7 +122,7 @@ BEGIN
 END;
 ```
 ## See Also  
- [Working With Media on Records](Working-With-Media-on-Records.md)  
+ [Working With Media on Records](../devenv-working-with-media-on-records.md)  
  [IMPORTSTREAM Method \(Media\)](devenv-IMPORTSTREAM-Method-Media.md)   
  [IMPORTFILE Method \(MediaSet\)](devenv-IMPORTFILE-Method-MediaSet.md)   
  [IMPORTSTREAM Method \(MediaSet\)](devenv-IMPORTSTREAM-Method-MediaSet.md)   

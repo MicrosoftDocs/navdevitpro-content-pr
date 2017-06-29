@@ -11,6 +11,9 @@ ms.assetid: 5a713a53-3902-40e9-a0fb-e1a9ba1ac420
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FIELDERROR Method (Record)
 Stops the execution of the code causing a run-time error, and creates an error message for a field.  
 

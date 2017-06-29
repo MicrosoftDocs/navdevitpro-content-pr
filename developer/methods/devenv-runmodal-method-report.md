@@ -11,6 +11,9 @@ ms.assetid: cf4cf774-b299-43da-9761-3c6b07e57eba
 caps.latest.revision: 13
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RUNMODAL Method (Report)
 Loads and executes the report that you specify.  
   

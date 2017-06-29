@@ -11,6 +11,9 @@ ms.assetid: c2042afd-b4c1-4753-9fba-cf069857fb08
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TODAY Method (Date)
 Gets the current date set in the operating system.  
   

@@ -11,6 +11,9 @@ ms.assetid: 804191c2-2d23-498f-8129-83e293430ab7
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETACTION Method (TestPage)
 Gets the action that the test page invokes.  
   

@@ -11,6 +11,9 @@ ms.assetid: cb25b6b9-9413-46f8-b5e2-e7d270001124
 caps.latest.revision: 2
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CURRENTCOMPANY Method (RecordRef)
 Gets the current company of a database table referred to by a RecordRef.  
   

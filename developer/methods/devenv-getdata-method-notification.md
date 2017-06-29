@@ -9,6 +9,9 @@ ms.topic: article
 ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETDATA Method (Notification)
 Retrieves data that was passed to a notification instance as specified by a [SETDATA Method](devenv-setdata-method-notification.md) call.
 
@@ -26,7 +29,7 @@ The name of the data item that is specified by the SETDATA method call.
 ## Remarks
 You use the SETDATA and GETDATA methods for transferring data in a notification. The methods are typically needed for handling actions on the notification. The SETDATA method is called from the source of the notification, while the GETDATA method is called from the action code.
 
-For more information and a detailed example, see [Notifications](notifications-developing.md).
+For more information and a detailed example, see [Notifications](../devenv-notifications-developing.md).
 
 ##  Example
 The following code sets the data for a notification:
@@ -49,4 +52,4 @@ MyNotification.GETDATA('ID');
 ## See Also  
 [SCOPE Method(Notification)](devenv-scope-method-notification.md)  
 [SEND Method (Notification)](devenv-send-method-notification.md)  
-[Notifications](notifications-developing.md)
+[Notifications](../devenv-notifications-developing.md)

@@ -11,6 +11,9 @@ ms.assetid: 91c8fec5-7f57-431b-93d1-a238e9249e7b
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FINDFIRSTFIELD Method (TestPage)
 Finds the first field in the dataset that is displayed on a test page.  
   

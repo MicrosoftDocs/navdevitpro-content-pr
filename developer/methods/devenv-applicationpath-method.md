@@ -11,6 +11,9 @@ ms.assetid: 6fb5a2e1-5eb8-44c1-8247-33643182cf22
 caps.latest.revision: 6
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # APPLICATIONPATH Method
 Returns the path of the directory where the executable file for [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] is installed.  
 

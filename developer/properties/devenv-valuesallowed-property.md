@@ -11,6 +11,9 @@ ms.assetid: 38807291-9e71-4a10-8c5a-e4f011061f1e
 caps.latest.revision: 11
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ValuesAllowed Property
 Sets the values that are allowed in the field.  
   

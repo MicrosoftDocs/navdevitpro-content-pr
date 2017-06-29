@@ -11,6 +11,9 @@ ms.assetid: 1642b1c4-7147-4c55-8663-a4dc8b64d450
 caps.latest.revision: 13
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DATE2DWY Method (Date)
 Gets the day of the week, week number, or year of a [Date Data Type](../datatypes/devenv-Date-Data-Type.md).  
   

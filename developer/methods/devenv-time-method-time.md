@@ -11,6 +11,9 @@ ms.assetid: d670fe72-94d5-43b8-bb4b-4b48805b16c9
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TIME Method (Time)
 Gets the current time from the operating system.  
   

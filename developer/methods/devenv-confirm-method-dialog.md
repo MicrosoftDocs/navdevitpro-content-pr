@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: cb44f98b-c4e6-44f0-a6af-030e7594cc8f
 caps.latest.revision: 15
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CONFIRM Method (Dialog)
 Creates a dialog box that prompts the user for a yes or no answer. The dialog box is centered on the screen.  
 

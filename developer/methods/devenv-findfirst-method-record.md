@@ -11,6 +11,9 @@ ms.assetid: a7109cd2-9035-44ba-99b1-b51f0b2e3b12
 caps.latest.revision: 12
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FINDFIRST Method (Record)
 Finds the first record in a table based on the current key and filter.  
   
@@ -25,7 +28,7 @@ Finds the first record in a table based on the current key and filter.
  *Record*  
  Type: Record  
   
- If the record is found, then it is returned in this parameter and any [FlowFields](FlowFields.md) in the record are set to zero. You must update the FlowFields by using the [CALCFIELDS Method \(Record\)](devenv-CALCFIELDS-Method-Record.md).  
+ If the record is found, then it is returned in this parameter and any [FlowFields](../devenv-flowfields.md) in the record are set to zero. You must update the FlowFields by using the [CALCFIELDS Method \(Record\)](devenv-CALCFIELDS-Method-Record.md).  
   
  If the record is not found and if you omit the return value, then a run-time error occurs.  
   

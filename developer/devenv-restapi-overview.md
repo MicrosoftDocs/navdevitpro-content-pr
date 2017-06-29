@@ -1,6 +1,6 @@
 ---
-title: "REST API Reference"
-description: "Overview of the REST API capabilities."
+title: "HTTP, JSON, and XML API Reference"
+description: "Overview of the API capabilities."
 author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 06/01/2017
@@ -14,10 +14,12 @@ ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
 
-# REST API Overview
-With [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] 
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-## REST API reference
+# HTTP, JSON, and XML API Overview
+With the API for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] you have HTTP, JSON, and XML classes available for accessing services in the cloud. The following table shows the classes that are available.
+
+## API reference
 
 |Class|Description|
 |-----|-----------|
@@ -34,3 +36,4 @@ With [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
 
 ## See Also
 [Getting Started](devenv-get-started.md)  
+[Developer Reference](devenv-reference-overview.md)

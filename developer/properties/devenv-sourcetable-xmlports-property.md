@@ -11,6 +11,9 @@ ms.assetid: 936e25f2-6f64-44b4-b455-d91fb5dbb55b
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SourceTable Property (XMLports)
 Sets the table to which you want to map XML data or the table that you want to export data from.  
   

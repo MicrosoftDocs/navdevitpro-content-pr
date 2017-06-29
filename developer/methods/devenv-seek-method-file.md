@@ -11,6 +11,9 @@ ms.assetid: 8d315735-36ed-4d78-b00c-786785293293
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SEEK Method (File)
 Sets a file pointer to a new position in an ASCII or binary file.  
   

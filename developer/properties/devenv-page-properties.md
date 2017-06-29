@@ -11,6 +11,9 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 5f4027ee-499a-4d18-a1a1-d289ecbad72e
 ms.author: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Page Properties
 This topic lists properties that apply to the page object, controls, and actions on a page.  
 

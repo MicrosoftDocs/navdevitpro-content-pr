@@ -11,6 +11,9 @@ ms.assetid: a6598c08-aeb0-466e-b5a9-d2374eff813b
 caps.latest.revision: 12
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TABLENAME Method (Record)
 Gets the name of a table.  
   

@@ -11,6 +11,9 @@ ms.assetid: 0823a1e7-a870-41ef-813d-fdb25fbaf73b
 caps.latest.revision: 29
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DOWNLOADFROMSTREAM Method (File)
 Sends a file from the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] to the client device. The client device <!--NAV is the computer that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or -->is the device, such as a computer or phone, that accesses [!INCLUDE[d365fin_md](../includes/d365fin_md.md)].  
 

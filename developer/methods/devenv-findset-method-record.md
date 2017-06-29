@@ -11,6 +11,9 @@ ms.assetid: cf35fdc5-ceaf-45f0-9502-bf9a2edc459d
 caps.latest.revision: 19
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FINDSET Method (Record)
 Finds a set of records in a table based on the current key and filter.  
   
@@ -25,7 +28,7 @@ Finds a set of records in a table based on the current key and filter.
  *Record*  
  Type: Record  
   
- If the record is found, then the record is returned in this parameter and any [FlowFields](FlowFields.md) in the record are set to zero. You must update the FlowFields by using the [CALCFIELDS Method \(Record\)](devenv-CALCFIELDS-Method-Record.md).  
+ If the record is found, then the record is returned in this parameter and any [FlowFields](../devenv-flowfields.md) in the record are set to zero. You must update the FlowFields by using the [CALCFIELDS Method \(Record\)](devenv-CALCFIELDS-Method-Record.md).  
   
  *ForUpdate*  
  Type: Boolean  

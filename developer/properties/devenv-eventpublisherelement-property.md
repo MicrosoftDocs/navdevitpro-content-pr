@@ -11,6 +11,9 @@ ms.assetid: d4d8ff88-c108-45ee-ad70-d20a06beb049
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EventPublisherElement Property
 Specifies the table field that the trigger event pertains to.  
 

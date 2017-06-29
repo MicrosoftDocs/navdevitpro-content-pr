@@ -11,6 +11,9 @@ ms.assetid: 89baebc9-7d28-42b9-b8ad-cb3ca760fad2
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # WRITEPERMISSION Method (Record)
 Determines whether a user can write to a table. This method can test for both full write permission and partial write permission that has been granted with a security filter. A write permission consists of Insert, Delete, and Modify permissions.  
   

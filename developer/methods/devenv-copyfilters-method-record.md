@@ -11,6 +11,9 @@ ms.assetid: 4b2e584c-31fc-44f4-94d8-590c53c859f2
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COPYFILTERS Method (Record)
 Copies all the filters set by the [SETFILTER Method \(Record\)](devenv-SETFILTER-Method-Record.md) or the [SETRANGE Method \(Record\)](devenv-SETRANGE-Method-Record.md) from one record to another.  
   

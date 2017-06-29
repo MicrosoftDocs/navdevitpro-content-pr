@@ -11,6 +11,9 @@ ms.assetid: 5be1e2fa-e50e-4f07-a48b-76fed26fd9a0
 caps.latest.revision: 9
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Scope Property
 Specifies the scope of the action to be either page-specific, or specific to a repeater control. The **Scope** property has two options; **Page** and **Repeater**.  
   

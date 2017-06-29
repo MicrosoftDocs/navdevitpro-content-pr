@@ -23,7 +23,7 @@ The methods supported for the Dialog data type are:
 [MESSAGE method (Dialog)](../methods/devenv-message-method-dialog.md)  
 [OPEN method (Dialog)](../methods/devenv-open-method-dialog.md)  
 [STRMENU method (Dialog)](../methods/devenv-strmenu-method-dialog.md)  
-[UPDATE method (Dialog)](../methods/devenv-update-method-dialog.md)  
+[UPDATE method (Dialog)](../../articles/devenv-methods-not-supported/devenv-update-method-dialog.md)  
 
 ## See Also
 [AL Data Types](devenv-al-data-types.md)  

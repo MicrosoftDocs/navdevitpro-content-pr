@@ -2,7 +2,7 @@
 title: "Table Properties"
 author: edupont04
 ms.custom: na
-ms.date: 06/26/2017
+ms.date: 06/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: cf65e1e0-f696-4aac-afbd-992cd82f98de
 ms.author: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Table Properties
 The following topic lists properties that apply to the table object.  
 
@@ -19,16 +22,13 @@ The following topic lists properties that apply to the table object.
 
 |Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
-|[Caption Property](devenv-caption-property.md)|||
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 |[DataCaptionFields Property](devenv-datacaptionfields-property.md)|X|X|
 |[DataPerCompany Property](devenv-datapercompany-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[DrillDownPageID Property](devenv-drilldownpageid-property.md)|X||
-|[ID Property](devenv-id-property.md)|||
 |[LinkedObject Property](devenv-linkedobject-property.md)|X||
 |[LookupPageID Property](devenv-lookuppageid-property.md)|X||
-|[Name Property](devenv-name-property.md)|||
 |[PasteIsValid Property](devenv-pasteisvalid-property.md)|X||
 |[Permissions Property](devenv-permissions-property.md)|X||
 |[TableType Property](devenv-tabletype-property.md)|X||
@@ -39,15 +39,10 @@ The following topic lists properties that apply to the table object.
  |Property Name|BLOB Object|BLOB Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 |[Compressed Property](devenv-compressed-property.md)|X||
-|[Data Type Property](devenv-data-type-property.md)|||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Enabled Property](devenv-enabled-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
-|[Name Property](devenv-name-property.md)|||
-|[Owner Property](devenv-owner-property.md)|X||
 |[SubType Property \(BLOB\)](devenv-subtype-blob-property.md)|X||
 
 ## BigInteger Properties  
@@ -56,30 +51,24 @@ The following topic lists properties that apply to the table object.
 |Property Name|BigInteger Object|BigInteger Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[AltSearchField Property](devenv-altsearchfield-property.md)|||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
 |[AutoFormatType Property](devenv-autoformattype-property.md)|X||
 |[AutoIncrement Property](devenv-autoincrement-property.md)|X||
 |[BlankNumbers Property](devenv-blanknumbers-property.md)|X||
 |[BlankZero Property](devenv-blankzero-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
-|[Data Type Property](devenv-data-type-property.md)|||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
 |[FieldClass Property](devenv-fieldclass-property.md)|X||
 |[InitValue Property](devenv-initvalue-property.md)|X||
 |[MaxValue Property](devenv-maxvalue-property.md)|X||
 |[MinValue Property](devenv-minvalue-property.md)|X||  
-|[Name Property](devenv-name-property.md)|||
 |[NotBlank Property](devenv-notblank-property.md)|X||
 |[SignDisplacement Property](devenv-signdisplacement-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
-|[TestTableRelation Property](devenv-testtablerelation-property.md)|||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X|| 
 |[Width Property](devenv-width-property.md)|X|X| 
@@ -90,29 +79,23 @@ The following topic lists properties that apply to the table object.
 |Property Name|Boolean Object|Boolean Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[AltSearchField Property](devenv-altsearchfield-property.md)|||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
 |[AutoFormatType Property](devenv-autoformattype-property.md)|X||
 |[BlankNumbers Property](devenv-blanknumbers-property.md)|X||
 |[BlankZero Property](devenv-blankzero-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
-|[Data Type Property](devenv-data-type-property.md)|||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
 |[FieldClass Property](devenv-fieldclass-property.md)|X||
 |[InitValue Property](devenv-initvalue-property.md)|X||
 |[MaxValue Property](devenv-maxvalue-property.md)|X||
 |[MinValue Property](devenv-minvalue-property.md)|X||
-|[Name Property](devenv-name-property.md)|||
 |[NotBlank Property](devenv-notblank-property.md)|X||
-|[SignDisplacement Property](devenv-signdisplacement-property.md)|X|X|
+|[SignDisplacement Property](devenv-signdisplacement-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
-|[TestTableRelation Property](devenv-testtablerelation-property.md)|||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||  
 
@@ -122,29 +105,22 @@ The following topic lists properties that apply to the table object.
 |Property Name|Code Object|Code Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[AltSearchField Property](devenv-altsearchfield-property.md)|||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
-|[AutoFormatType Property](devenv-autoformattype-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||  
+|[AutoFormatType Property](devenv-autoformattype-property.md)|X|| 
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 |[CharAllowed Property](devenv-charallowed-property.md)|X||
-|[Data Type Property](devenv-data-type-property.md)|||
-|[DataLength Property](devenv-datalength-property.md)|||
 |[DateFormula Property](devenv-dateformula-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
 |[FieldClass Property](devenv-fieldclass-property.md)|X||
 |[InitValue Property](devenv-initvalue-property.md)|X||
-|[Name Property](devenv-name-property.md)|||
 |[NotBlank Property](devenv-notblank-property.md)|X||
 |[Numeric Property](devenv-numeric-property.md)|X||
 |[SQLDataType Property](devenv-sql-data-type-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
-|[TestTableRelation Property](devenv-testtablerelation-property.md)|||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 |[Width Property](devenv-width-property.md)|X|X| 
@@ -155,29 +131,23 @@ The following topic lists properties that apply to the table object.
 |Property Name|Date Object|Date Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[AltSearchField Property](devenv-altsearchfield-property.md)|||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
 |[AutoFormatType Property](devenv-autoformattype-property.md)|X||
 |[BlankNumbers Property](devenv-blanknumbers-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||  
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 |[ClosingDates Property](devenv-closingdates-property.md)|X|X|
-|[Data Type Property](devenv-data-type-property.md)|||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
 |[FieldClass Property](devenv-fieldclass-property.md)|X||
 |[InitValue Property](devenv-initvalue-property.md)|X||
 |[MaxValue Property](devenv-maxvalue-property.md)|X||
 |[MinValue Property](devenv-minvalue-property.md)|X||
-|[Name Property](devenv-name-property.md)|||
 |[NotBlank Property](devenv-notblank-property.md)|X||
 |[SignDisplacement Property](devenv-signdisplacement-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
-|[TestTableRelation Property](devenv-testtablerelation-property.md)|||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 
@@ -187,24 +157,18 @@ The following topic lists properties that apply to the table object.
 |Property Name|DatFormula Object|DateFormula Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[AltSearchField Property](devenv-altsearchfield-property.md)|||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
-|[AutoFormatType Property](devenv-autoformattype-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||  
+|[AutoFormatType Property](devenv-autoformattype-property.md)|X||  
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
-|[Data Type Property](devenv-data-type-property.md)|||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
 |[FieldClass Property](devenv-fieldclass-property.md)|X||
 |[InitValue Property](devenv-initvalue-property.md)|X||
-|[Name Property](devenv-name-property.md)|||
 |[NotBlank Property](devenv-notblank-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
-|[TestTableRelation Property](devenv-testtablerelation-property.md)|||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 
@@ -214,28 +178,22 @@ The following topic lists properties that apply to the table object.
 |Property Name|DateTime Object|DateTime Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[AltSearchField Property](devenv-altsearchfield-property.md)|||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
 |[AutoFormatType Property](devenv-autoformattype-property.md)|X||
 |[BlankNumbers Property](devenv-blanknumbers-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
-|[Data Type Property](devenv-data-type-property.md)|||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
 |[FieldClass Property](devenv-fieldclass-property.md)|X||
 |[InitValue DProperty](devenv-initvalue-property.md)|X||
 |[MaxValue Property](devenv-maxvalue-property.md)|X||
 |[MinValue Property](devenv-minvalue-property.md)|X||
-|[Name Property](devenv-name-property.md)|||
 |[NotBlank Property](devenv-notblank-property.md)|X||
 |[SignDisplacement Property](devenv-signdisplacement-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
-|[TestTableRelation Property](devenv-testtablerelation-property.md)|||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 
@@ -245,29 +203,23 @@ The following topic lists properties that apply to the table object.
 |Property Name|Decimal Object|Decimal Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[AltSearchField Property](devenv-altsearchfield-property.md)|||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
 |[AutoFormatType Property](devenv-autoformattype-property.md)|X||
 |[BlankNumbers Property](devenv-blanknumbers-property.md)|X||
 |[BlankZero Property](devenv-blankzero-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||  
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
-|[Data Type Property](devenv-data-type-property.md)|||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
 |[FieldClass Property](devenv-fieldclass-property.md)|X||
 |[InitValue Property](devenv-initvalue-property.md)|X||
 |[MaxValue Property](devenv-maxvalue-property.md)|X||
 |[MinValue Property](devenv-minvalue-property.md)|X||
-|[Name Property](devenv-name-property.md)|||
 |[NotBlank Property](devenv-notblank-property.md)|X||
 |[SignDisplacement Property](devenv-signdisplacement-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
-|[TestTableRelation Property](devenv-testtablerelation-property.md)|||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 |[Width Property](devenv-width-property.md)|X|X|  
@@ -278,30 +230,23 @@ The following topic lists properties that apply to the table object.
 |Property Name|Duration Object|Duration Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[AltSearchField Property](devenv-altsearchfield-property.md)|||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
 |[AutoFormatType Property](devenv-autoformattype-property.md)|X||
 |[BlankNumbers Property](devenv-blanknumbers-property.md)|X||
-|[BlankZero Property](devenv-blankzero-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||  
+|[BlankZero Property](devenv-blankzero-property.md)|X||  
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
-|[Data Type Property](devenv-data-type-property.md)|||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
 |[FieldClass Property](devenv-fieldclass-property.md)|X||
 |[InitValue Property](devenv-initvalue-property.md)|X||
 |[MaxValue Property](devenv-maxvalue-property.md)|X||
 |[MinValue Property](devenv-minvalue-property.md)|X||
-|[Name Property](devenv-name-property.md)|||
 |[NotBlank Property](devenv-notblank-property.md)|X||
 |[SignDisplacement Property](devenv-signdisplacement-property.md)|X||
-|[Standard Day-Time Unit Property](devenv-standard-day-time-unit-property.md)|||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
-|[TestTableRelation Property](devenv-testtablerelation-property.md)|||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 |[Width Property](devenv-width-property.md)|X|X|  
@@ -312,24 +257,18 @@ The following topic lists properties that apply to the table object.
 |Property Name|GUID Object|GUID Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[AltSearchField Property](devenv-altsearchfield-property.md)|||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
 |[AutoFormatType Property](devenv-autoformattype-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||  
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
-|[Data Type Property](devenv-data-type-property.md)|||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
 |[FieldClass Property](devenv-fieldclass-property.md)|X||
 |[InitValue Property](devenv-initvalue-property.md)|X||
-|[Name Property](devenv-name-property.md)|||
 |[NotBlank Property](devenv-notblank-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
-|[TestTableRelation Property](devenv-testtablerelation-property.md)|||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 
@@ -339,29 +278,23 @@ The following topic lists properties that apply to the table object.
 |Property Name|Integer Object|Integer Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[AltSearchField Property](devenv-altsearchfield-property.md)|||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
 |[AutoFormatType Property](devenv-autoformattype-property.md)|X||
 |[BlankNumbers Property](devenv-blanknumbers-property.md)|X||
-|[BlankZero Property](devenv-blankzero-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||  
+|[BlankZero Property](devenv-blankzero-property.md)|X|| 
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
-|[Data Type Property](devenv-data-type-property.md)|||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
 |[FieldClass Property](devenv-fieldclass-property.md)|X||
 |[InitValue Property](devenv-initvalue-property.md)|X||
 |[MaxValue Property](devenv-maxvalue-property.md)|X||
 |[MinValue Property](devenv-minvalue-property.md)|X||
-|[Name Property](devenv-name-property.md)|||
 |[NotBlank Property](devenv-notblank-property.md)|X||
 |[SignDisplacement Property](devenv-signdisplacement-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
-|[TestTableRelation Property](devenv-testtablerelation-property.md)|||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 |[Width Property](devenv-width-property.md)|X|X|  
@@ -372,29 +305,22 @@ The following topic lists properties that apply to the table object.
 |Property Name|OemCode Object|OemCode Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[AltSearchField Property](devenv-altsearchfield-property.md)|||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
-|[AutoFormatType Property](devenv-autoformattype-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||  
+|[AutoFormatType Property](devenv-autoformattype-property.md)|X|| 
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 |[CharAllowed Property](devenv-charallowed-property.md)|X||
-|[Data Type Property](devenv-data-type-property.md)|||
-|[DataLength Property](devenv-datalength-property.md)|||
 |[DateFormula Property](devenv-dateformula-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
 |[FieldClass Property](devenv-fieldclass-property.md)|X||
 |[InitValue Property](devenv-initvalue-property.md)|X||
-|[Name Property](devenv-name-property.md)|||
 |[NotBlank Property](devenv-notblank-property.md)|X||
 |[Numeric Property](devenv-numeric-property.md)|X||
 |[SQLDataType Property](devenv-sql-data-type-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
-|[TestTableRelation Property](devenv-testtablerelation-property.md)|||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 |[Width Property](devenv-width-property.md)|X|X| 
@@ -405,28 +331,21 @@ The following topic lists properties that apply to the table object.
 |Property Name|OemText Object|OemText Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[AltSearchField Property](devenv-altsearchfield-property.md)|||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
 |[AutoFormatType Property](devenv-autoformattype-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||  
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 |[CharAllowed Property](devenv-charallowed-property.md)|X||
-|[Data Type Property](devenv-data-type-property.md)|||
-|[DataLength Property](devenv-datalength-property.md)|||
 |[DateFormula Property](devenv-dateformula-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
 |[FieldClass Property](devenv-fieldclass-property.md)|X||
 |[InitValue Property](devenv-initvalue-property.md)|X||
-|[Name Property](devenv-name-property.md)|||
 |[NotBlank Property](devenv-notblank-property.md)|X||
 |[Numeric Property](devenv-numeric-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
-|[TestTableRelation Property](devenv-testtablerelation-property.md)|||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 |[Width Property](devenv-width-property.md)|X|X| 
@@ -437,32 +356,25 @@ The following topic lists properties that apply to the table object.
 |Property Name|Option Object|Option Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[AltSearchField Property](devenv-altsearchfield-property.md)|||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
 |[AutoFormatType Property](devenv-autoformattype-property.md)|X||
 |[BlankNumbers Property](devenv-blanknumbers-property.md)|X||
 |[BlankZero Property](devenv-blankzero-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||  
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
-|[Data Type Property](devenv-data-type-property.md)|||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
 |[FieldClass Property](devenv-fieldclass-property.md)|X||
 |[InitValue Property](devenv-initvalue-property.md)|X||
 |[MaxValue Property](devenv-maxvalue-property.md)|X||
 |[MinValue Property](devenv-minvalue-property.md)|X||
-|[Name Property](devenv-name-property.md)|||
 |[NotBlank Property](devenv-notblank-property.md)|X||
-|[OptionCaption Property](devenv-optioncaption-property.md)|||
-|[OptionCaptionML Property](devenv-optioncaptionML-property.md)|X|X|
-|[OptionString Property](devenv-optionstring-property.md)|X||
+|[OptionCaptionML Property](devenv-optioncaptionml-property.md)|X|X|
+|[OptionMembers Property](devenv-optionstring-property.md)|X||
 |[SignDisplacement Property](devenv-signdisplacement-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
-|[TestTableRelation Property](devenv-testtablerelation-property.md)|||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 
@@ -472,24 +384,18 @@ The following topic lists properties that apply to the table object.
 |Property Name|RecordID Object|RecordID Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[AltSearchField Property](devenv-altsearchfield-property.md)|||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
 |[AutoFormatType Property](devenv-autoformattype-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||  
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
-|[Data Type Property](devenv-data-type-property.md)|||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
 |[FieldClass Property](devenv-fieldclass-property.md)|X||
 |[InitValue Property](devenv-initvalue-property.md)|X||
-|[Name Property](devenv-name-property.md)|||
 |[NotBlank Property](devenv-notblank-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
-|[TestTableRelation Property](devenv-testtablerelation-property.md)|||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 
@@ -498,15 +404,10 @@ The following topic lists properties that apply to the table object.
 
 |Property Name|RecordID Object|RecordID Extension Object|
 |-------------|-----------|---------------------|
-|[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||  
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|X|| 
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
-|[Data Type Property](devenv-data-type-property.md)|||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Enabled Property](devenv-enabled-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
-|[Name Property](devenv-name-property.md)|||
-|[TableIDExpr Property](devenv-tableidexpr-property.md)|||
 
 ## Text Properties  
  The following properties apply to the **Text** field of a table object.  
@@ -514,28 +415,21 @@ The following topic lists properties that apply to the table object.
 |Property Name|Text Object|Text Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[AltSearchField Property](devenv-altsearchfield-property.md)|||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
 |[AutoFormatType Property](devenv-autoformattype-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||  
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 |[CharAllowed Property](devenv-charallowed-property.md)|X||
-|[Data Type Property](devenv-data-type-property.md)|||
-|[DataLength Property](devenv-datalength-property.md)|||
 |[DateFormula Property](devenv-dateformula-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
 |[FieldClass Property](devenv-fieldclass-property.md)|X||
 |[InitValue Property](devenv-initvalue-property.md)|X||
-|[Name Property](devenv-name-property.md)|||
 |[NotBlank Property](devenv-notblank-property.md)|X||
 |[Numeric Property](devenv-numeric-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
-|[TestTableRelation Property](devenv-testtablerelation-property.md)|||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 |[Width Property](devenv-width-property.md)|X|X| 
@@ -546,28 +440,22 @@ The following topic lists properties that apply to the table object.
 |Property Name|Time Object|Time Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-|[AltSearchField Property](devenv-altsearchfield-property.md)|||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
 |[AutoFormatType Property](devenv-autoformattype-property.md)|X||
-|[BlankNumbers Property](devenv-blanknumbers-property.md)|X||
-|[Caption Property](devenv-caption-property.md)|||  
+|[BlankNumbers Property](devenv-blanknumbers-property.md)|X|| 
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
-|[Data Type Property](devenv-data-type-property.md)|||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[ExtendedDataType Property](devenv-extendeddatatype-property.md)|X||
-|[Field No. Property](devenv-field-no.-property.md)|||
 |[FieldClass Property](devenv-fieldclass-property.md)|X||
 |[InitValue Property](devenv-initvalue-property.md)|X||
 |[MaxValue Property](devenv-maxvalue-property.md)|X||
 |[MinValue Property](devenv-minvalue-property.md)|X||
-|[Name Property](devenv-name-property.md)|||
 |[NotBlank Property](devenv-notblank-property.md)|X||
 |[SignDisplacement Property](devenv-signdisplacement-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
-|[TestTableRelation Property](devenv-testtablerelation-property.md)|||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 

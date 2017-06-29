@@ -11,6 +11,9 @@ ms.assetid: 5a5f7b8b-d893-440d-bf2b-8d4e75d96b9c
 caps.latest.revision: 14
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETPOSITION Method (Record)
 Gets a string that contains the primary key of the current record.  
   

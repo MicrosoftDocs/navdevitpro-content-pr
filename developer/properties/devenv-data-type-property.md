@@ -11,6 +11,9 @@ ms.assetid: 15cfbe58-8ef7-4f14-8fe7-615c2685eb94
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Data Type Property
 Sets the data type of a table field.  
   

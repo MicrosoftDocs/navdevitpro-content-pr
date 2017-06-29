@@ -11,6 +11,9 @@ ms.assetid: ccb82e83-31c7-40f2-b99c-7797bb2d0f3d
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnAfterAssignVariable Trigger
 Executed after the value defined in the XML document is assigned to the text variable.  
   

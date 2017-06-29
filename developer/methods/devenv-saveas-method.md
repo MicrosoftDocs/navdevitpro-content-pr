@@ -11,6 +11,9 @@ ms.assetid: 3a77faff-8804-4b90-aba5-445b03debc7a
 caps.latest.revision: 6
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SAVEAS Method
 Runs a specific report without a request page and saves the report as a PDF, Excel, Word, or XML file. Instead of using the request page to obtain parameters at runtime, the method gets the parameter values as an input parameter string, typically from the return value of a [RUNREQUESTPAGE Method](devenv-RUNREQUESTPAGE-Method.md) call.  
 

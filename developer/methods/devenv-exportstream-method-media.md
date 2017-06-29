@@ -9,6 +9,9 @@ ms.topic: article
 ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EXPORTSTREAM Method (Media)
 Export the current media object \(such as a JPEG image\) that is used on record to an OUTSTREAM object.  
 
@@ -84,7 +87,7 @@ END;
 ```  
 
 ## See Also  
- [Working With Media on Records](Working-With-Media-on-Records.md)  
+ [Working With Media on Records](../devenv-working-with-media-on-records.md)  
  [IMPORTSTREAM Method \(Media\)](devenv-IMPORTSTREAM-Method-Media.md)   
  [IMPORTFILE Method \(MediaSet\)](devenv-IMPORTFILE-Method-MediaSet.md)   
  [IMPORTSTREAM Method \(MediaSet\)](devenv-IMPORTSTREAM-Method-MediaSet.md)   

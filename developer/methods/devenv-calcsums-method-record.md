@@ -11,6 +11,9 @@ ms.assetid: ca75fb36-869e-468b-a9e1-ea73ec7c5ed0
 caps.latest.revision: 24
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CALCSUMS Method (Record)
 Calculates the total of a column in a table. You specify which fields to calculate by using parameters.  
 

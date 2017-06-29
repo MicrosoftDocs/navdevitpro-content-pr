@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-financials"
 ms.assetid: 1421d883-09c9-498e-873a-8965941f3f75
 caps.latest.revision: 5
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DECRYPT Method
 Takes a string as input and returns the decrypted value of the string.  
 

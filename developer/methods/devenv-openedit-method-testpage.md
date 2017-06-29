@@ -11,6 +11,9 @@ ms.assetid: b7d582ab-70fe-40ea-81e7-4261f3882b12
 caps.latest.revision: 8
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OPENEDIT Method (TestPage)
 Opens a test page in edit mode.  
   

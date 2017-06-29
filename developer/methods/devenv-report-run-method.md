@@ -11,6 +11,9 @@ ms.assetid: 58f49755-b127-4d3e-9ae5-289402bbe557
 caps.latest.revision: 17
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # REPORT.RUN Method
 Loads and runs the report that you specify.  
 

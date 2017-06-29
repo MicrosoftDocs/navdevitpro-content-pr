@@ -11,6 +11,9 @@ ms.assetid: d0f9ef06-a608-40f2-ab4a-498d1f1528d4
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETAUTOCALCFIELDS Method (Record)
 Sets the FlowFields that you specify to be automatically calculated when the record is retrieved from the database.  
   
@@ -103,4 +106,4 @@ Customer.SETAUTOCALCFIELDS();
   
 ## See Also  
  [FieldClass Property](../properties/devenv-FieldClass-Property.md)   
- [FlowFields](FlowFields.md)
+ [FlowFields](../devenv-flowfields.md)

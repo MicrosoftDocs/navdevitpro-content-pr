@@ -11,6 +11,9 @@ ms.assetid: 58b46156-fdc3-4ab9-9a3c-abe6fc4fc4ca
 caps.latest.revision: 22
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CALCSUM Method (FieldRef)
 Calculates the total of all values of a SumIndexField in a table.  
 
