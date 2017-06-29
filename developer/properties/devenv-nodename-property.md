@@ -11,6 +11,9 @@ ms.assetid: 93b5940e-cfea-430d-86a5-0fb924ed793c
 caps.latest.revision: 7
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # NodeName Property
 Sets the name of a node in an XML document.  
   

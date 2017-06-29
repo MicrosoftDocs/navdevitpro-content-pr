@@ -11,6 +11,9 @@ ms.assetid: de3d7d92-255f-4d76-ade2-3eb8e23e7d61
 caps.latest.revision: 8
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Width Property (XMLport)
 Sets the width of a data item of an XMLport.  
   

@@ -11,6 +11,9 @@ ms.assetid: 19978a91-2af9-4e9e-9f73-64c7be28897f
 caps.latest.revision: 14
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EnableHyperlinks Property
 Sets whether hyperlinks to URLs are allowed on reports.  
   

@@ -11,6 +11,9 @@ ms.assetid: 7f3e261c-65ba-4adc-9fba-344a6eca8146
 caps.latest.revision: 6
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # PasteIsValid Property
 Sets whether inserting records into this table using the paste command is enabled.  
   

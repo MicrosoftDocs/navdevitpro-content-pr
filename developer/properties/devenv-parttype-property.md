@@ -11,6 +11,9 @@ ms.assetid: 349c9d29-18c7-4544-8560-f4eabba8f3fb
 caps.latest.revision: 11
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # PartType Property
 Sets the content type that can display in a part FactBox.  
   

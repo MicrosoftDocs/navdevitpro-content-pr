@@ -11,6 +11,9 @@ ms.assetid: 5b0f6ddb-2a7b-46b0-a07d-f5408d63a0e5
 caps.latest.revision: 7
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SingleInstance Property
 Sets whether a single instance of the codeunit and codeunit variables are instantiated.  
   

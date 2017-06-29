@@ -11,6 +11,9 @@ ms.assetid: c8c4430a-8697-4dde-ae9e-275f03ae7d5d
 caps.latest.revision: 16
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DrillDownPageID Property
 Sets the ID of the page to use as a drill-down.  
   

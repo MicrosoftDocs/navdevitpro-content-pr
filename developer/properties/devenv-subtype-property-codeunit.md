@@ -11,6 +11,9 @@ ms.assetid: c31be95f-e083-4d87-84e4-27b2373349d6
 caps.latest.revision: 13
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SubType Property (Codeunit)
 Sets the codeunit to method as a normal, test, test runner, or upgrade codeunit.  
   

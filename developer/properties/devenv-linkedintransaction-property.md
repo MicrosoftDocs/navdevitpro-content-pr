@@ -11,6 +11,9 @@ ms.assetid: 15821f83-34c0-4135-bcfd-095a6783ebf6
 caps.latest.revision: 7
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # LinkedInTransaction Property
 Gets and sets data from linked server data sources, such as Microsoft Office Excel, Access, or another SQL Server.  
   
