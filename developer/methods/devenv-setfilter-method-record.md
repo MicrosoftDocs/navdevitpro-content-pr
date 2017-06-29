@@ -11,6 +11,9 @@ ms.assetid: 1e0892e3-e0b7-441f-97fa-1217092bc093
 caps.latest.revision: 12
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETFILTER Method (Record)
 Assigns a filter to a field that you specify.  
   

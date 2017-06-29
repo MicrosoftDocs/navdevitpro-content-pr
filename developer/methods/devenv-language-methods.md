@@ -11,6 +11,9 @@ ms.assetid: 3bdc4c96-7979-4583-8ddc-fab296e81d36
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Language Methods
 The following AL methods for langauge are available:  
   

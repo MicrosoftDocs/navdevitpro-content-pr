@@ -11,6 +11,9 @@ ms.assetid: 32f9ca49-8263-447f-986c-259c0e11a007
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+
 # AL Method Calls
 AL contains several methods that can be used for different purposes, such as string handling, text formatting, database handling, and so on. Some of these methods can use different parameters.  
   

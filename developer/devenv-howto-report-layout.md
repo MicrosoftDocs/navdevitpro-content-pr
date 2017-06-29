@@ -14,6 +14,8 @@ ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
 
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+
 # How to: Create a Report Layout
 When you create a new report for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], there are two things you have to think about; defining the report dataset of data items and columns, and then designing the report layout. The prerequisite for the next steps, is that you have already created a report object. For more information, see [Report Object](devenv-report-object.md).
 

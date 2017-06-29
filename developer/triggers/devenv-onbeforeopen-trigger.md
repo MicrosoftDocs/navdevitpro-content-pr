@@ -11,6 +11,9 @@ ms.assetid: ea037a45-e5f6-4f6c-a4ed-31d0a85c1e56
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnBeforeOpen Trigger
 Executed before a query is run and the dataset is generated.  
 

@@ -11,6 +11,9 @@ ms.assetid: 32e7226c-1977-4963-9101-0d3fde4cdbb0
 caps.latest.revision: 14
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # USERID Method (Sessions)
 Gets the user name of the user account that is logged on to the current session.  
   

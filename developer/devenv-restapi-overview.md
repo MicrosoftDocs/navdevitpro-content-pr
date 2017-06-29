@@ -14,7 +14,12 @@ ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
 
-# REST API
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+
+# REST API Overview
+With [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] 
+
+## REST API reference
 
 |Class|Description|
 |-----|-----------|

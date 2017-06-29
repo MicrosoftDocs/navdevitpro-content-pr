@@ -11,6 +11,9 @@ ms.assetid: dd7af6bb-ad6b-4611-bdc0-fb532cdc977a
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CLOSE Method (TestPage)
 Closes an open test page.  
   

@@ -9,6 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-365-for-financials"
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RECALL Method (Notification)
 Recall a sent notification.
 
@@ -42,4 +45,4 @@ END ELSE
 [SEND Method (Notification)](devenv-send-method-notification.md)  
 [MESSAGE Method (Notification)](devenv-message-method-notification.md)  
 [SCOPE Method (Notification)](devenv-scope-method-notification.md)  
-[Notifications](notifications-developing.md)
+[Notifications](../devenv-notifications-developing.md)

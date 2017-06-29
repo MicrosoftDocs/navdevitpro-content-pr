@@ -11,6 +11,9 @@ ms.assetid: 01c22c94-f8c8-498f-8212-389647ca789a
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETVIEW Method
 Sets the current filter view, which defines the sort order, key, and filters, for a record in a filter control on a filter page.  
   

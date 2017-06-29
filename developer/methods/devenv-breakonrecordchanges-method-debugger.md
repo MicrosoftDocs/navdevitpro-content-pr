@@ -11,6 +11,9 @@ ms.assetid: 5f0cd768-4b6f-4c11-a10a-c67972521916
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # BREAKONRECORDCHANGES Method (Debugger)
 Breaks execution before a change to a record occurs.  
   

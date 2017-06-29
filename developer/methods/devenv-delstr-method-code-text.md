@@ -11,6 +11,9 @@ ms.assetid: 5313ab16-42ff-4e5f-b76b-0310e04a76b4
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DELSTR Method (Code, Text)
 Deletes a substring inside a string \(text or code\).  
   

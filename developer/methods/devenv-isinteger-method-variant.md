@@ -11,6 +11,9 @@ ms.assetid: 594a6657-2b33-431f-beb8-68534308fdfd
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ISINTEGER Method (Variant)
 Indicates whether an AL variant contains an Integer.  
   

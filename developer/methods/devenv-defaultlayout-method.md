@@ -11,6 +11,9 @@ ms.assetid: 32db8616-21ad-43e5-9fc6-2a77908063b8
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DEFAULTLAYOUT Method
 Gets the default built-in layout type that is used on a specified report.  
 

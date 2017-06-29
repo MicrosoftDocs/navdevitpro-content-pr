@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: f3232aae-2395-4afe-b1f0-c4e4f16d71d5
 caps.latest.revision: 11
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RECORD Method (FieldRef)
 Gets the RecordRef of the field that is currently selected.  
   

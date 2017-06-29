@@ -11,6 +11,9 @@ ms.assetid: 85dedf11-5fc2-4677-b683-e6a63b035ff9
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EXPORT Method (BLOB)
 Exports a binary large object \(BLOB\).  
 

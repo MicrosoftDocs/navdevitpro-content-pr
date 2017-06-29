@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: db536d12-1c67-4db3-89dc-aa30d6794c30
 caps.latest.revision: 12
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RENAME Method (File)
 Renames an ASCII or binary file.  
   

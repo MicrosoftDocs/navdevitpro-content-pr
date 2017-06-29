@@ -11,6 +11,9 @@ ms.assetid: 62258e4d-504d-436e-88c3-d9fe4a788b03
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ISBOOLEAN Method (Variant)
 Indicates whether an AL variant contains a Boolean variable.  
   

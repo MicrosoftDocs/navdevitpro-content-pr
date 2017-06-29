@@ -11,6 +11,9 @@ ms.assetid: 1d69a7d9-d448-4ed5-b8b6-a844305bfca4
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CONVERTSTR Method (Code, Text)
 Converts some characters in a string.  
   

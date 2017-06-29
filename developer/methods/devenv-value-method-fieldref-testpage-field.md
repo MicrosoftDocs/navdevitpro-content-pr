@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 20c42c77-b5e4-4c8c-bdf1-9d6c42d9f36b
 caps.latest.revision: 15
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # VALUE Method (FieldRef, TestPage Field)
 Sets or gets the value of the field that is currently selected.  
   

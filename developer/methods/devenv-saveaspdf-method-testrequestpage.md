@@ -11,6 +11,9 @@ ms.assetid: 38f043cb-bfa2-4301-8087-c5a0ed14b2e3
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SAVEASPDF Method (TestRequestPage)
 Saves a report as an Adobe Acrobat \(.pdf\) file.  
   

@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 92eee96d-882c-43ab-8ba3-bc9e3905505e
 caps.latest.revision: 11
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # WRITEMODE Method (File)
 Use this method before you use [OPEN Method \(File\)](devenv-OPEN-Method-File.md) to set or test whether you can write to a file in later calls.  
   
