@@ -37,5 +37,5 @@ Gets the values for the specified key.
 &emsp;**true** if headers contain the key; **false** otherwise.
 
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
