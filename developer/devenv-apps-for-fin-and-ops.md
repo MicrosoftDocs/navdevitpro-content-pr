@@ -16,18 +16,16 @@ author: SusanneWindfeldPedersen
 
 # Extend Dynamics 365 for Financials
 Building extensions and connect apps for Dynamics 365 for Financials allows you to enrich and leverage the Dynamics 365 brand – a brand that millions of users know and trust. Extensions enables you to quickly make changes to respond to local market requirements or industry specific needs, giving you a competitive edge. Achieve more with our new platform that delivers a modern, flexible development experience. When your app is done, publish it through Microsoft AppSource – the main repository for Microsoft’s business apps. 
-<!-- Learn more about why you should have an app on AppSource and get an overall introduction to our processes in this video.-->
+
 
 |<h3>Connect</h3>|<h3>Extend</h3>|
 |----------------|---------------|
-|![Connect](media/connect.png)|![Extend](media/connect.png)|
-|A connect app establishes a connection between two independent services using an API to interchange data. A typical example of a connect app is a Payroll solution such as Ceridian or ADP. In both cases, all work related to Payroll is done inside Ceridian or the ADP system, and only as a last step is the financial data posted into Dynamics 365 for Financials using the API. A Connect App is mainly created using common development tools, REST API’s, and the API’s made available in Dynamics 365 for Financials from Update 7 and onwards. A Connect App can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.| An extension can either add to the existing Dynamics 365 for Financials functionality to integrate a solution such as PayPal, or embed an end-to-end experience such as a solution for the dental industry or law firms. An extension typically makes use of the variety of development tools and can also include the APIs available for Dynamics 365 for Financials.
+|![Connect](media/connect.png)|![Extend](media/extend.png)|
+|A connect app establishes a connection between two independent services using an API to interchange data. A typical example of a connect app is a Payroll solution such as Ceridian or ADP. All work related to Payroll is done inside Ceridian or the ADP system, and only as a last step is the financial data posted into Dynamics 365 for Financials using the API. A Connect App is mainly created using common development tools, REST API’s, and the API’s made available in Dynamics 365 for Financials from Update 7 and onwards. A Connect App can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.| An extension can either add to the existing Dynamics 365 for Financials functionality to integrate a solution such as PayPal, or embed an end-to-end experience such as a solution for the dental industry or law firms. An extension typically makes use of the variety of development tools for Dynamics 365 for Financials, and can also include the APIs available for Dynamics 365 for Financials.
 |
 
 ## Want to try it out? Spin up a sandbox...
 
-<!-- ### For connect (2-3 sample apps…  code) (should we leave this for now, we’re not live yet on Graph)
-### For extension samples, check out our GitHub repo: https://github.com/Microsoft/al -->
 <!--
 1)	Get your Microsoft Dynamics 365 for Financials tenant: [link]()
 2)	In Microsoft Dynamics 365 for Financials, search for **Environments**, and choose the relevant link. 
@@ -58,7 +56,6 @@ With extensions 2.0 in preview, we encourage you to familiarize yourself with th
 Are you a business owner, a marketing person, or a developer? You can find specific resources specifically for you on our topic page on DLP or in the documentation.
 
 ### Business owner
-
 [User Registration and Subsequent Billing Procedure](https://mbspartner.microsoft.com/secure/coursematerials/D365B/Standalone/User_Registration_and_Subsequent_Billing_Procedures.pdf)  
 
 [Set Up Your Own Financials Sandbox and Learn How to Self-Monetize](https://mbspartner.microsoft.com/D365B/Videos/101385)  

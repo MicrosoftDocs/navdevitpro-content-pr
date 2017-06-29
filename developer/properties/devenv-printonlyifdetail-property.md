@@ -11,6 +11,9 @@ ms.assetid: c789cb47-8bd3-4764-8517-6f9390000313
 caps.latest.revision: 9
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # PrintOnlyIfDetail Property
 Specifies whether to print data in a report for the parent data item when the child data item does not generate any output.  
   

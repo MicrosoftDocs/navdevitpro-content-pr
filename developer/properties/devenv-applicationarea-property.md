@@ -8,8 +8,10 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 author: SusanneWindfeldPedersen
-author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ApplicationArea Property
 Sets the application areas that apply to the control.  
   

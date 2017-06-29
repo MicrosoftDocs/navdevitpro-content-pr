@@ -11,6 +11,9 @@ ms.assetid: 036a07c2-26b0-483b-96ae-4052fdfba6ad
 caps.latest.revision: 2
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # PromotedActionCategoriesML Property
 Sets the caption of the group that you are promoting the action to.  
   

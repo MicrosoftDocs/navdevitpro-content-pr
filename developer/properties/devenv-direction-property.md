@@ -11,6 +11,9 @@ ms.assetid: 5ba9f526-82cc-4d2b-bc82-afa34618667f
 caps.latest.revision: 6
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Direction Property
 Sets the XMLport to import, export, or import and export data in XML format.  
   

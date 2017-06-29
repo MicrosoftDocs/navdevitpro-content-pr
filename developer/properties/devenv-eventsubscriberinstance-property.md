@@ -11,6 +11,9 @@ ms.assetid: fcdfc082-79ae-4a6a-a8fa-d006a107ffda
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EventSubscriberInstance Property
 Specifies how event subscriber methods in a codeunit are bound to the codeunit instance and the events that they subscribe to.  
 

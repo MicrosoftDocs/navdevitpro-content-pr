@@ -11,6 +11,9 @@ ms.assetid: 06f309da-8c03-48e7-ae27-4107092d14e7
 caps.latest.revision: 18
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TransactionType Property
 Sets the transaction type.  
   

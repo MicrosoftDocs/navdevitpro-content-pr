@@ -11,6 +11,9 @@ ms.assetid: 6d15311a-94fa-40d8-873a-38342ccbfc6a
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EnabledIfSelection Property
 Sets a value that indicates whether the selected action is enabled or disabled.  
   

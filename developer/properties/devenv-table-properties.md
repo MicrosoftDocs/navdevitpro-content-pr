@@ -11,6 +11,9 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: cf65e1e0-f696-4aac-afbd-992cd82f98de
 ms.author: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Table Properties
 The following topic lists properties that apply to the table object.  
 

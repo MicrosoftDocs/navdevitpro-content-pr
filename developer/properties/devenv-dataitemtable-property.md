@@ -11,6 +11,9 @@ ms.assetid: cea4a2a5-4ec3-43a8-abd4-22bdeb90b3ef
 caps.latest.revision: 6
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DataItemTable Property
 Sets the [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] database table that is associated with a data item.  
   

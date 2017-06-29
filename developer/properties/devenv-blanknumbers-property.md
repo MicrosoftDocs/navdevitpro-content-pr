@@ -11,6 +11,9 @@ ms.assetid: cd877cdb-059d-4f88-a071-cbb1b99b4eb0
 caps.latest.revision: 8
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # BlankNumbers Property
 Indicates whether the system will clear a range of numbers as it formats them.  
   

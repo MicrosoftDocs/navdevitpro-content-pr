@@ -11,6 +11,9 @@ ms.assetid: b9dfd30d-e935-477b-aba6-3cdf30cf0413
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # MaintainSQLIndex Property
 Sets a value that indicates whether a SQL Server index that corresponds to the [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] key should be created.  
   

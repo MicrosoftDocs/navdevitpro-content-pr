@@ -11,6 +11,9 @@ ms.assetid: a9a813ea-3543-42ee-9fdc-6e3700c604ac
 caps.latest.revision: 8
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FieldClass Property
 Sets the class of the field.  
   
