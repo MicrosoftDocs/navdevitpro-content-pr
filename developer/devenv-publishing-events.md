@@ -34,15 +34,15 @@ The first phase of implementing an event is publishing the event. Publishing an 
     >[!IMPORTANT]  
     >If you include the event publisher method in a page object, the page must have a source table. Otherwise, you cannot successfully create an event subscriber method to subscribe to the event.
 
-2.  Add a AL method to the object. If you do not want to make the event available to event subscribers, make it a local method by setting the [Local Property](Local-Property.md) to **No**.    
+2.  Add a AL method to the object.
 
-     We recommend that you give the method a name that has the format *On\[Event\]*, where *\[Event\]* is text that indicates what occurred, such as OnCancelCustomerApprovalRequest.  
+    If you do not want to make the event available to event subscribers, make it a local method by affixing it with `local`.    
 
-3.  Decorate the method with the [Integration(IncludeSender : Boolean, GlobalVarAccess : Boolean)], which set the  and set the Set the method [Event Property](Event-Property.md) to **Publisher** and the [EventType Property](EventType-Property.md) to either **Business** or **Integration**.   
+     You should give the method a name that has the format *On\[Event\]*, where *\[Event\]* is text that indicates what occurred, such as `OnAddressLineChanged`.  
 
-     For more information, see [Event Types](devenv-event-types.md).  
+3.  Decorate the method with the either the [Integration attribute](methods/devenv-integration-attribute.md).d) or [Business attribute](methods/devenv-business-attribute.md), depending on the type of event that you want to publish.
 
-6.  If you want to make global methods in the object available to event subscribers, set the [IncludeSender Property](IncludeSender-Property.md) to **Yes**.  
+    For more information, see [Event Types](devenv-event-types.md).  
 
 7.  Add parameters to the method as needed.  
 
@@ -50,24 +50,26 @@ The first phase of implementing an event is publishing the event. Publishing an 
 
      Make sure to expose enough information as parameters to enable subscriber methods to add value to the application. On the other hand, especially with business events, do not expose unnecessary parameters that may constrain you from changing or extending methodally in the future.  
 
- You can now add code to the application that raises the event by calling the publisher method. You can also create subscriber methods that handle the event when it is raised. 
+ You can now add code to the application that raises the event by calling the event publisher method. You can also create subscriber methods that handle the event when it is raised. 
 
 ## Example
+In this example, the codeunit 7000001 publishes an integration event by using the global method called `OnAddressLineChanged`. The event takes a single text data type parameter.
+
 ```
-codeunit 70000000 MyPublishers
+codeunit 70000001 MyPublishers
 {
-    
     trigger OnRun();
     begin
     end;
-    
-    [Integration(TRUE,TRUE)]
-    PROCEDURE OnAddressLineChanged(line : Text[100]);
 
+    [Integration(false, false)]
+    PROCEDURE OnAddressLineChanged(line : Text[100]);
+    
     begin
         
     end;
     
+}
 }
 
 ```

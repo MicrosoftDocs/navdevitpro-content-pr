@@ -33,7 +33,18 @@ When you set the argument to **true**, the signature of event subscriber methods
 ```
   
 ## Remarks
-For more information about the different event types, see [Event Types](../devenv-event-types.md) 
+For more information about the different event types, see [Event Types](../devenv-event-types.md).
+
+## Example
+This example publishes a business type event by using the OnAddressLineChanged method. The method takes a single text data type parameter. The IncludeSender argument are set to **false**.
+```
+[Business(false)]
+    PROCEDURE OnAddressLineChanged(line : Text[100]);
+    begin
+        
+    end;
+
+```  
   
 ## See Also  
  [Events in aL](../devenv-events-in-al.md)
