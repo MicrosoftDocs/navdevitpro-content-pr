@@ -14,7 +14,7 @@ author: SusanneWindfeldPedersen
 # File Data Type
 The File data type gives access to files. Files can be opened in text or binary mode. For more information, see [TEXTMODE method (File)](../methods/devenv-textmode-method-file.md).  
   
- You can read from or write to a file by creating input and output streams, respectively. To do so, use the [CREATEINSTREAM method (File)](../methods/devenv-createinstream-method-file.md) and [CREATEOUTSTREAM method (File)](../methods/devenv-createoutstream-method-file.md). For more information, see [InStream and OutStream Data Types](../methods/devenv-instream-and-outstream-data-types.md).  
+ You can read from or write to a file by creating input and output streams, respectively. To do so, use the [CREATEINSTREAM method (File)](../methods/devenv-createinstream-method-file.md) and [CREATEOUTSTREAM method (File)](../methods/devenv-createoutstream-method-file.md). For more information, see [InStream and OutStream Data Types](devenv-instream-and-outstream-data-types.md).  
 
 ## Methods  
 The methods supported for the File data type are:

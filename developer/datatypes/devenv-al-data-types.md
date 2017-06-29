@@ -45,7 +45,7 @@ AL uses variables to store data of various types. By declaring variables of the 
 |[Date Data Type](devenv-date-data-type.md)|Fundamental||  
 |[DateTime Data Type](devenv-datetime-data-type.md)|Fundamental||  
 |[Time Data Type](devenv-time-data-type.md)|Fundamental||  
-|[Automation Data Type](devenv-automation-data-type.md)|Complex||  
+|[Automation Data Type](Not%20supported/devenv-automation-data-type.md)|Complex||  
 |[BigText Data Type](devenv-bigtext-data-type.md)|Complex||  
 |[BLOB Data Type](devenv-blob-data-type.md)|Complex||  
 |[Codeunit Data Type](devenv-codeunit-data-type.md)|Complex||  
@@ -57,7 +57,7 @@ AL uses variables to store data of various types. By declaring variables of the 
 |[GUID Data Type](devenv-guid-data-type.md)|Complex||  
 |[InStream and OutStream Data Types](devenv-instream-and-outstream-data-types.md)|Complex||  
 |[KeyRef Data Type](devenv-keyref-data-type.md)|Complex||  
-|[OCX Data Type](devenv-ocx-data-type.md)|Complex||  
+|[OCX Data Type](Not%20supported/devenv-ocx-data-type.md)|Complex||  
 |[Page Data Type](devenv-page-data-type.md)|Complex||  
 |[Query Data Type](devenv-query-data-type.md)|Complex||  
 |[Record Data Type](devenv-record-data-type.md)|Complex||  
@@ -392,8 +392,8 @@ MAXSTRLEN(t); // Returns 6.
 
  As another example, assume that SampleArrayVariable2 is an array variable of data type Date with the dimensions 2x3x4. SampleArrayVariable2 has 24 elements. To index the first element, use SampleArrayVariable2[1,1,1]. To index the last element, use SampleArrayVariable2[2,3,4].  
 
- To declare a variable as an array, open the **Properties** window for the variable and then set the **Dimensions** property. For more information, see [Dimensions Property](../devenv-dimensions-property.md).
+ To declare a variable as an array, open the **Properties** window for the variable and then set the **Dimensions** property. For more information, see [Dimensions Property](../properties/devenv-dimensions-property.md).
 
 ## See Also
 [AL Methods](../methods/devenv-al-methods.md)  
-[AL Data Types](devenv-al-data-types.md)  
+[AL Data Types]()  

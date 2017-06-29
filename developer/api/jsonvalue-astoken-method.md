@@ -33,5 +33,5 @@ Type: JsonToken
 The returned JsonToken contains the same data as the JsonValue, but allows for treating the data in a generic manner.
 
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
