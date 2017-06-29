@@ -10,7 +10,7 @@ ms.prod: "dynamics-365-financials"
 author: jswymer
 ---
 # Event Types
-[!INCLUDE[d365fin_long_md](includes/nd365fin_long_md.md)] supports different types of events for different purposes.
+[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] supports different types of events for different purposes.
   
 ##  <a name="BusinessEvents"></a> Business Events  
  A business event is a custom event that is raised by C/AL code. It defines a formal contract that carries an implicit promise not to change in future releases. It is the expectation that business events are published by solution ISVs, including Microsoft.  
