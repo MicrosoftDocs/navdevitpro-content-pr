@@ -46,14 +46,14 @@ To get started with development, you must have a Microsoft Partner Network ID, a
 Simply listing your app's features and functionality will not convert prospects to buyers. Learn in this document how to best market your app. 
 - [Technical aspects - what can you do today?]()  
 With extensions 2.0 in preview, you can familiarize yourself with the new development environment. However, if you want to publish an app today, you must use the extensions 1.0 model. Please find more information on how to do that on [aka.ms/AppsForFinancials]().
-- Technical aspects - what we envision tomorrow  
+- Technical aspects - what we envision *tomorrow*  
 We hope you got excited trying out the sandbox environment and are ready to build an extension 2.0 soon. We are currently working on the process and technical information on how to develop and publish a 2.0 app, and will make it available as soon as we are going live in autumn. 
 
 3)	[Publish]()  
 With extensions 2.0 in preview, we encourage you to familiarize yourself with the new development environment. However, if you want to publish an app today, you must use the extensions 1.0 model. Please find more information on how to do that on [aka.ms/AppsForFinancials](). We will publish relevant information on 2.0 apps, as soon as we are going live in autumn. 
 
 ## Things to consider if you're a ...
-Are you a business owner, a marketing person, or a developer? You can find specific resources specifically for you on our topic page on DLP or in the documentation.
+Are you a business owner, a marketing person, or a developer? You can find specific resources specifically for you on our topic page on the Dynamics Learning Portal (DLP) or in the documentation.
 
 ### Business owner
 [User Registration and Subsequent Billing Procedure](https://mbspartner.microsoft.com/secure/coursematerials/D365B/Standalone/User_Registration_and_Subsequent_Billing_Procedures.pdf)  
