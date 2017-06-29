@@ -38,6 +38,7 @@ The first phase of implementing an event is publishing the event. Publishing an 
 
      We recommend that you give the method a name that has the format *On\[Event\]*, where *\[Event\]* is text that indicates what occurred, such as OnCancelCustomerApprovalRequest.  
 
+3.  Decorate the method with the [Integration(IncludeSender : Boolean, GlobalVarAccess : Boolean)], which set the  and set the Set the method [Event Property](Event-Property.md) to **Publisher** and the [EventType Property](EventType-Property.md) to either **Business** or **Integration**.   
 
      For more information, see [Event Types](devenv-event-types.md).  
 
