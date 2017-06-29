@@ -26,5 +26,5 @@ The following methods are supported for the Notifications data type:
 
 
 ## See Also  
- [Notifications](notifications-developing.md)  
+ [Notifications](../../dynamics-nav/notifications-developing.md)  
  

@@ -23,7 +23,7 @@ You can store a RecordID in the database. You can set filters on the full Record
 The following methods are supported for the RecordID data type:
 
 [GETRECORD method (RecordID)](../methods/devenv-getrecord-method-recordid.md)   
-[TABLENO method (RecordID)](../methods/devenv-tableno-method-Recordid.md)
+[TABLENO method (RecordID)](../methods/devenv-tableno-method-recordid.md)
 [GET method (RecordID)](../methods/devenv-get-method-record.md)   
 
 ## See Also  
