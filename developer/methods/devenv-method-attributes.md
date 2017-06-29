@@ -10,7 +10,9 @@ ms.prod: "dynamics-365-financials"
 author: jswymer
 ---
 # Method Attributes
-An attribute is modifiers on method declarations that specifies information about that controls the methods use and behavior. For example, decorating a method with Integration attributes specifes the method to be an event publisher. An attribute can have one or more arguments that set properties for the instance of the method. Attributes are placed before the method, and have the following syntax:
+An attribute is modifier on method declaration that specifies information that controls the method's use and behavior. For example, decorating a method with the Integration attribute sets the method to be an event publisher. An attribute can have one or more arguments that set properties for the method instance.
+
+In AL, attributes are placed before the method, and have the following syntax:
 
 ```
 [Attribute_Name(ArgumentName : data_type, ArgumentName : data_type)]
@@ -21,7 +23,6 @@ For example, the Integration attribute has two arguments, and the syntax is:
 ```  
 [Integration(IncludeSender : Boolean, GlobalVarAccess : Boolean)] 
 ```    
-  
 
 ## Attributes  
 The following method attributes are available:
