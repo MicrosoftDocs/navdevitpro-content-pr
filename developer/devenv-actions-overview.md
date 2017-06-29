@@ -117,6 +117,8 @@ Pages can have the following actions.
   
 ```
 if confirm('Are you sure you want to call this codeunit?', true) then begin
+    CurrPage.SetSelectionFilter(Rec);  
+    codeunit.Run(50000, Rec);  
 end;        
   
 ```  
