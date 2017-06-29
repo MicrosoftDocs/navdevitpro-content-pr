@@ -79,17 +79,17 @@ Here is a list of the TestPage field methods:
 
 [CAPTION Method](../methods/devenv-caption-method-fieldref-testpage-field.md)
 
-[ASBOOLEAN Method](devenv-asboolean-method-testpage-field)
+[ASBOOLEAN Method](../methods/devenv-asboolean-method-testpage-field.md)
 
-[ASDECIMAL Method](devenv-asdecimal-method-testpage-field)
+[ASDECIMAL Method](../methods/devenv-asdecimal-method-testpage-field.md)
 
-[ASINTEGER Method](devenv-asinteger-method-testpage-field)
+[ASINTEGER Method](../methods/devenv-asinteger-method-testpage-field.md)
 
-[ASSERTEQUALS Mehtod](devenv-assertequals-method-testpage-field)
+[ASSERTEQUALS Mehtod](../methods/devenv-assertequals-method-testpage-field.md)
 
-[ASSISTEDIT Method](devenv-assistedit-method-testpage-field)
+[ASSISTEDIT Method](../methods/devenv-assistedit-method-testpage-field.md)
 
-[DRILLDOWN Method](devenv-drilldown-method-testpage-field)
+[DRILLDOWN Method](../methods/devenv-drilldown-method-testpage-field.md)
 
 [GETVALIDATIONERROR Method](../methods/devenv-getvalidationerror-method-testpage-testpage-field.md)
 
