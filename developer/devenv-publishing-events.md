@@ -34,17 +34,12 @@ The first phase of implementing an event is publishing the event. Publishing an 
     >[!IMPORTANT]  
     >If you include the event publisher method in a page object, the page must have a source table. Otherwise, you cannot successfully create an event subscriber method to subscribe to the event.
 
-2.  Add a AL method to the object.  
+2.  Add a AL method to the object. If you do not want to make the event available to event subscribers, make it a local method by setting the [Local Property](Local-Property.md) to **No**.    
 
      We recommend that you give the method a name that has the format *On\[Event\]*, where *\[Event\]* is text that indicates what occurred, such as OnCancelCustomerApprovalRequest.  
 
-3.  Set the method [Event Property](Event-Property.md) to **Publisher** and the [EventType Property](EventType-Property.md) to either **Business** or **Integration**.  
 
-4.  Set the method [EventType Property](EventType-Property.md) to **Business** or **Integration**.  
-
-     For more information, see [Event Types](Event-Types.md).  
-
-5.  If you want to make the event available to event subscribers that are defined in the other objects than publisher method object, set the [Local Property](Local-Property.md) to **No**.  
+     For more information, see [Event Types](devenv-event-types.md).  
 
 6.  If you want to make global methods in the object available to event subscribers, set the [IncludeSender Property](IncludeSender-Property.md) to **Yes**.  
 
@@ -54,8 +49,27 @@ The first phase of implementing an event is publishing the event. Publishing an 
 
      Make sure to expose enough information as parameters to enable subscriber methods to add value to the application. On the other hand, especially with business events, do not expose unnecessary parameters that may constrain you from changing or extending methodally in the future.  
 
- You can now add code to the application that raises the event by calling the publisher method. You can also create subscriber methods that handle the event when it is raised.  
+ You can now add code to the application that raises the event by calling the publisher method. You can also create subscriber methods that handle the event when it is raised. 
 
+## Example
+```
+codeunit 70000000 MyPublishers
+{
+    
+    trigger OnRun();
+    begin
+    end;
+    
+    [Integration(TRUE,TRUE)]
+    PROCEDURE OnAddressLineChanged(line : Text[100]);
+
+    begin
+        
+    end;
+    
+}
+
+```
 ## See Also  
  [Raising Events](Raising-Events.md)   
  [Subscribing to Events](Subscribing-to-Events.md)   
