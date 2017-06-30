@@ -1,5 +1,5 @@
 ---
-title: "AL Method Calls"
+title: "AL Methods"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
@@ -11,40 +11,63 @@ ms.assetid: 32f9ca49-8263-447f-986c-259c0e11a007
 caps.latest.revision: 11
 manager: edupont
 ---
-# Working with AL Methods  
+# Working with AL Methods
 
-Like other languages, AL methods are a fundamental programming element. A method, also known as a procedure, is a named group of statements that perform an operation or task. A method can be called from other parts of the application.
+Like other languages, AL methods are a fundamental programming element. A method, also known as a procedure, is a named group of statements that perform an operation or task. Depending on the scope, methods can be called and executed from the same object in which they are declared or from other parts of the application.
 
-Functions
-When the function name, which is known as the identifier, is used, the current
-program is suspended and the trigger code for the specified function is executed.
-Using the identifier in this manner "calls" the function. When the trigger code in
-the called function is completed, the function "returns" to where it is called from.
-How the function is called determines what happens when it returns.
-A function can be used as an expression. For example, the following code uses a
-function named CalculatePrice as an expression:
-TotalCost := Quantity * CalculatePrice;
-The CalculatePrice function must return a value that is used in evaluating the
-expression. This return value is then multiplied by the Quantity variable and that
-result is assigned to the TotalCost variable.
-A function can also be called by using a function call statement. This statement
-only calls the function and does not return any value. The following is an
-example of calling a function named RunFunction:
-IF Quantity > 5 THEN
-RunFunction;
-The RunFunction returns no data back to the calling trigger.
-Parameter
-A parameter is one or more variables or expressions sent to the function through
-the function call. The parameter provides information to the function, and the
-function can modify that information. If a function has parameters, the function
-identifier has a set of parentheses that follows it. Within these parentheses are
+## Method Declarations
+
+The method declaration defines the method and has the following syntax:
+
+[Attibutes(list of arguments)]
+local PROCEDURE <method_name>(parameter list) <return_value_name> : <data_type>[<length>]
+
+### Local and global scope
+A method can be a *local* method or *global* method. A local method can only be accessed or called from inside the object in which it is declared. A global method can be called from inside the object in which it is declared and from other objects.
+
+To declare a local method, start the declaration with `local`. To declare a global method, omit `local`.
+
+### Parameters (optional)  
+A parameter is one or more variables or expressions that are sent to the method through
+the method call. The parameter provides information to the method, and the
+method can modify that information.
+
+If a method has parameters, a set of parentheses `()`are included at the end of the method signature. Within these parentheses are
 one or more parameters. If there is more than one parameter, the parameters are
 separated by commas.
 
+### Return values (optional)
+
+A method can return data that can be then coded against. A return value is a defined by a name, data type, and optional length depending on the data type (For example, if the return value is a Text DataType, the text might have a length of 50).
+
+## Methods Calls
+You run, or call, a method by using its name in a method statement. When a method is called the current application sequence is suspended and the code on the method is executed. When the method code is completed, the application code sequence returns to where the method was called from. How the method is called determines what happens when it returns.
+
+### In expressions
+A method can be used as part of an expression. For example, the following code uses a
+method named `CalculatePrice` as an expression:
+```
+TotalCost := Quantity * CalculatePrice;
+```
+
+In this case, the `CalculatePrice` method must return a value that is used in evaluating the
+expression. This return value is then multiplied by the Quantity variable and that
+result is assigned to the TotalCost variable.
+
+### Using call statements
+A method can also be run by using a method call statement. This statement
+only calls the method and does not return any value. The following is an
+example of calling a method named `MyRunMethodunction`:
+```
+IF Quantity > 5 THEN
+MyRunMethod;
+```
+The `MyRunMethod` returns no data back to the calling code. For more information, see [Method Call Statements](devenv-method-statements.md).
+
 ## Parameters  
- In a method call, the parameters are separated by commas, and the optional parameters may be omitted starting from the right. For example, this means that if a method has three optional parameters, then you cannot omit the second parameter without omitting the third parameter.  
+In a method call, the parameters are separated by commas, and the optional parameters may be omitted starting from the right. For example, this means that if a method has three optional parameters, then you cannot omit the second parameter without omitting the third parameter.  
   
- You can specify that a parameter is passed to a method by value or by reference.  
+You can specify that a parameter is passed to a method by value or by reference.  
   
 -   If a parameter is passed by value, then a copy of the variable is passed to the method. Any changes that the method makes to the value of the variable are local changes that affect only the copy, not the variable itself.  
   
@@ -52,7 +75,7 @@ separated by commas.
   
  For more information about how to specify that a parameter is passed by value or by reference, see [How to: Add a Method to a Codeunit](How-to--Add-a-Method-to-a-Codeunit.md).  
   
-### Example 1  
+## Example 1  
  The following shows the syntax for a method.  
   
 ```  
@@ -71,7 +94,7 @@ METHOD(Optional1, Optional2)
 FUNCTION(, Optional2, Optional3)  
 ```  
   
-### Example 2  
+## Example 2  
  ABS is an example of an AL method that has a fixed number of parameters \(1\).  
   
 ```  
@@ -79,7 +102,7 @@ Value := -1033; //A negative integer value
 PositiveValue := ABS(Value); //Calculate the positive value 1033  
 ```  
   
-### Example 3  
+## Example 3  
  The method DMY2DATE is an example of a method that can be called by using a variable number of parameters.  
   
 ```  
