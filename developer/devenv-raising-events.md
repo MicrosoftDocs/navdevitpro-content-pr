@@ -46,7 +46,7 @@ pageextension 70000002 MyCustomerExt extends "Customer Card"
 ```
 To learn about how the event used in this example is published, see [Publishing Events Example](Publishing-Events.md#PubEx). 
 
-The next step would be to subscribe to the event to handle to condition. For information, see [Subscribing to Events](Subscribing-to-Events.md).  
+The next step would be to subscribe to the event to handle to condition.  To see an example of how to subscribe to this event, see [Subscribing to Events Example](Subscribing-to-Events.md#SubEventsEx).  
 
 ## See Also  
  [Publishing Events](Publishing-Events.md)   

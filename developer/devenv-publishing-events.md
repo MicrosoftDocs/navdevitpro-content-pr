@@ -45,9 +45,9 @@ The first phase of implementing an event is publishing the event. Publishing an 
     For more information, see [Event Types](devenv-event-types.md).
 
     >[!TIP)]  
-    > Use the `teventint` snippet for an integration event or `teventbus` snippet for a business event to get started.  
+    > Use the `teventint` snippet for an integration event or the `teventbus` snippet for a business event to get started.  
 
-7.  Add parameters to the method as needed.  
+4.  Add parameters to the method as needed.  
 
      You can include as many parameters of any type as necessary.  
 
@@ -76,7 +76,7 @@ codeunit 70000001 MyPublishers
 }
 
 ```
-The next step would be to raise this event in the application. To see an example how this event is raised, see [Raising Event Example](devenv-raising-events.md#RaisingEventEx).
+The next step would be to raise this event in the application. To see an example for how this event is raised, go to [Raising Event Example](devenv-raising-events.md#RaisingEventEx).
 
 ## See Also  
  [Raising Events](Raising-Events.md)   
