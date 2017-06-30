@@ -17,11 +17,18 @@ Like other languages, AL methods are a fundamental programming element. A method
 
 The method declaration defines the method and has the following syntax:
 
-[Attibutes(list of arguments)]
-local PROCEDURE <method_name>(parameter list) <return_value_name> : <data_type>[<length>]
+```
+[Attributes(arguments list)]
+local procedure <method_name>(parameter list) <return_value_name> : <data_type>[<length>]
+```
 
 >[!TIP]
 > Use the `tprocedure` code snippet to help declare a method.
+
+### Attributes (optional)
+An attribute is modifier on a method declaration that specifies information that controls the method's use and behavior. For example, decorating a method with the Integration attribute sets the method to be an event publisher. An attribute can have one or more arguments that set properties for the method instance.
+
+Attributes are placed before the method. For information about the available attributes, see [Method Attributes](methods/devenv-method-attributes.md).
 
 ### Local and global scope
 A method can be a *local* method or *global* method. A local method can only be accessed or called from inside the object in which it is declared. A global method can be called from inside the object in which it is declared and from other objects.
@@ -131,3 +138,6 @@ IF (MyMethod(Param1)) THEN
 ELSE  
   <Statement2>  
 ```
+
+## See Also
+[Development Overview](devenv-dev-overview.md)  
