@@ -12,29 +12,41 @@ author: jswymer
 # Raising Events
 After an event has been published by an event publisher method, you can modify the application to raise the event where it is needed. Subscribers of an event will not react on the event until it is raised in the application.  
 
-To raise an event, you add logic in AL code of the application to call the event publisher method that declares the event. The procedure for calling the event publisher funmethodction is the same as calling any other function in AL.  
+To raise an event, you add logic in AL code of the application to call the event publisher method that declares the event. The procedure for calling the event publisher method is the same as calling any other function in AL.  
 
-When the code that calls the event publisher method is run, then all event subscriber methods that subscribe to the event are run. If there are multiple subscribers, then each event subscriber method is run one after another. The order in which the event subscribers run is random and cannot it cannot be specified.  
+When the code that calls the event publisher method is run, all event subscriber methods that subscribe to the event are run. If there are multiple subscribers, then each event subscriber method is run one after another. The order in which the event subscribers run is random and cannot it cannot be specified.  
 
 If there are no subscribers to the published event, then the line of code that calls the event publisher method is ignored and not executed.  
 
-## Example  
-You want to raise an event when a user changes the **Address** field on the page **21 Customer Card**. The event is published by the event publisher method **OnAddressedLineChanged** in the codeunit **MyPublishers**. The event publisher method **OnAddressedLineChanged** accepts a single text parameter. To raise the event, you complete the following steps in the AL:  
+## <a name="RaisingEventEx">Example
+This example uses a page extension object **70000002 MyCustomerExt** to modify the page **21 Customer Card** so that an event is raised when a user changes the **Address** field. For this example, the event has already been published by the event publisher method `OnAddressLineChanged` in a separate codeunit called **70000001 MyPublishers**. In the code that follows, the page extension object modifies the `OnBeforeValidate` trigger of the **Customer Card** page to raise the event `OnAddressLineChanged` which includes the new value of the **Address** field.
 
-1.  Add the following C/AL variable to page 21 Customer Card.  
+```
+pageextension 70000002 MyCustomerExt extends "Customer Card"
+{
+    layout
+    {
+        modify(Address)
+        {
+            trigger OnBeforeValidate();
+                var
+                    Publisher : Codeunit 70000001;
+                begin
+                    Publisher.OnAddressLineChanged(Address);
+                end;
+                }
+            }
 
-    |Variable name|DataType|Subtype|  
-    |-------------------|--------------|-------------|  
-    |Publisher|Codeunit|My Publisher|  
+    actions
+    {
+        // Add changes to page actions here
+    }
+    
+}
+```
+To learn about how the event used in this example is published, see [Publishing Events Example](Publishing-Events.md#PubEx). 
 
-2.  In C/AL code, add code on the **Address - OnValidate \(\)** trigger to call the OnAddressLineChanged function.  
-
-    ```  
-    Publisher.OnAddressLineChanged(Address);  
-
-    ```  
-
- For step-by-step instructions for this example, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough--Publishing--Raising--and-Subcribing-to-an-Event-in-Microsoft-Dynamics-NAV.md).  
+The next step would be to subscribe to the event to handle to condition. For information, see [Subscribing to Events](Subscribing-to-Events.md).  
 
 ## See Also  
  [Publishing Events](Publishing-Events.md)   
