@@ -13,7 +13,7 @@
 ### [Codeunit Object](devenv-codeunit-object.md)
 ### [Query Object](devenv-query-object.md)
 ### [XmlPort Object](devenv-xmlport-object.md)
-### [REST, JSON, and XML API](devenv-restapi-overview.md) 
+### [HTTP, JSON, and XML API](devenv-restapi-overview.md) 
 ### [Methods](methods/devenv-al-methods.md)
 #### [Sytem Methods](methods/devenv-system-methods.md)
 #### [Method Attributes](methods/devenv-method-attributes.md)
