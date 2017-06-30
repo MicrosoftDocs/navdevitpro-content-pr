@@ -33,8 +33,8 @@ Building extensions and connect apps for Dynamics 365 for Financials allows you 
 5)	In Visual Studio Code, ... 
 -->
 1) Sign up for [Dynamics 365 for Financials]()  
-2) Download [Visual Studio Code]()  
-3) Download the [AL Language extension]()  
+2) Download [Visual Studio Code](https://code.visualstudio.com/Download)  
+3) Download the [AL Language extension](vscode:extension/ms-dynamics-smb.al)  
 
 ## Want to build an app and publish it on AppSource?
 1)	[Get the prerequisites in place]()  
