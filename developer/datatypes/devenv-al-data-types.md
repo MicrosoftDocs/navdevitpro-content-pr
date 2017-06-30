@@ -49,7 +49,7 @@ AL uses variables to store data of various types. By declaring variables of the 
 |[BigText Data Type](devenv-bigtext-data-type.md)|Complex||  
 |[BLOB Data Type](devenv-blob-data-type.md)|Complex||  
 |[Codeunit Data Type](devenv-codeunit-data-type.md)|Complex||  
-|[DateFormula Data Type](devenv-dateformula-data-type.md)|Complex||  
+|[DateFormula Data Type]()|Complex||  
 |[Dialog Data Type](devenv-dialog-data-type.md)|Complex||  
 |DotNet Data Type|Complex||  
 |[File Data Type](devenv-file-data-type.md)|Complex||  
