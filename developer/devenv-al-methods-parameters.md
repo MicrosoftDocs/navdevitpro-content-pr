@@ -7,20 +7,28 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-365-for-financials"
-ms.assetid: 32f9ca49-8263-447f-986c-259c0e11a007
-caps.latest.revision: 11
-manager: edupont
+author: jswymer
 ---
 # Working with AL Methods
 
 Like other languages, AL methods are a fundamental programming element. A method, also known as a procedure, is a named group of statements that perform an operation or task. Depending on the scope, methods can be called and executed from the same object in which they are declared or from other parts of the application.
 
-## Method Declarations
+## Declaring Methods
 
 The method declaration defines the method and has the following syntax:
 
-[Attibutes(list of arguments)]
-local PROCEDURE <method_name>(parameter list) <return_value_name> : <data_type>[<length>]
+```
+[Attributes(arguments list)]
+local procedure <method_name>(parameter list) <return_value_name> : <data_type>[<length>]
+```
+
+>[!TIP]
+> Use the `tprocedure` code snippet to help declare a method.
+
+### Attributes (optional)
+An attribute is modifier on a method declaration that specifies information that controls the method's use and behavior. For example, decorating a method with the Integration attribute sets the method to be an event publisher. An attribute can have one or more arguments that set properties for the method instance.
+
+Attributes are placed before the method. For information about the available attributes, see [Method Attributes](methods/devenv-method-attributes.md).
 
 ### Local and global scope
 A method can be a *local* method or *global* method. A local method can only be accessed or called from inside the object in which it is declared. A global method can be called from inside the object in which it is declared and from other objects.
@@ -40,7 +48,7 @@ separated by commas.
 
 A method can return data that can be then coded against. A return value is a defined by a name, data type, and optional length depending on the data type (For example, if the return value is a Text DataType, the text might have a length of 50).
 
-## Methods Calls
+## Calling Methods
 You run, or call, a method by using its name in a method statement. When a method is called the current application sequence is suspended and the code on the method is executed. When the method code is completed, the application code sequence returns to where the method was called from. How the method is called determines what happens when it returns.
 
 ### In expressions
@@ -73,7 +81,7 @@ You can specify that a parameter is passed to a method by value or by reference.
   
 -   If a parameter is passed by reference, then a reference to the variable is passed to the method. The method can change the value of the variable itself.  
   
- For more information about how to specify that a parameter is passed by value or by reference, see [How to: Add a Method to a Codeunit](How-to--Add-a-Method-to-a-Codeunit.md).  
+<!--NAV For more information about how to specify that a parameter is passed by value or by reference, see [How to: Add a Method to a Codeunit](How-to--Add-a-Method-to-a-Codeunit.md).-->  
   
 ## Example 1  
  The following shows the syntax for a method.  
@@ -130,3 +138,6 @@ IF (MyMethod(Param1)) THEN
 ELSE  
   <Statement2>  
 ```
+
+## See Also
+[Development Overview](devenv-dev-overview.md)  

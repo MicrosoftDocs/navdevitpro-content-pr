@@ -36,7 +36,7 @@ From code, you have access to various snippets that will give you a template for
 |```tifelse```| If else structure|
 |```tpage```| Page object structure|
 |```tpageext```| Page extension structure|
-|```tprocedure```| Function structure |
+|```tprocedure```| Method structure |
 |```tquery```| Query object structure | 
 |```trepeat```| Repeat until structure|
 |```treport```| Report object structure|

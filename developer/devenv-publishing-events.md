@@ -42,7 +42,10 @@ The first phase of implementing an event is publishing the event. Publishing an 
 
 3.  Decorate the method with the either the [Integration attribute](methods/devenv-integration-attribute.md). or [Business attribute](methods/devenv-business-attribute.md), depending on the type of event that you want to publish.
 
-    For more information, see [Event Types](devenv-event-types.md).  
+    For more information, see [Event Types](devenv-event-types.md).
+
+    >[!TIP)]  
+    > Use the `teventint` snippet for an integration event or `teventbus` snippet for a business event to get started.  
 
 7.  Add parameters to the method as needed.  
 
@@ -52,8 +55,8 @@ The first phase of implementing an event is publishing the event. Publishing an 
 
  You can now add code to the application that raises the event by calling the event publisher method. You can also create subscriber methods that handle the event when it is raised. 
 
-## Example
-In this example, the codeunit 7000001 publishes an integration event by using the global method called `OnAddressLineChanged`. The event takes a single text data type parameter.
+## <a name="PubEx"></a>Example
+This example creates the codeunit **7000001 MyPublisher** to publish an integration event. The event is published by adding the global method called `OnAddressLineChanged`. The event takes a single text data type parameter.
 
 ```
 codeunit 70000001 MyPublishers
@@ -63,7 +66,7 @@ codeunit 70000001 MyPublishers
     end;
 
     [Integration(false, false)]
-    PROCEDURE OnAddressLineChanged(line : Text[100]);
+    procedure OnAddressLineChanged(line : Text[100]);
     
     begin
         
@@ -73,6 +76,8 @@ codeunit 70000001 MyPublishers
 }
 
 ```
+The next step would be to raise this event in the application. To see an example how this event is raised, see [Raising Event Example](devenv-raising-events.md#RaisingEventEx).
+
 ## See Also  
  [Raising Events](Raising-Events.md)   
  [Subscribing to Events](Subscribing-to-Events.md)   
