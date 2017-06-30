@@ -33,8 +33,8 @@ Building extensions and connect apps for Dynamics 365 for Financials allows you 
 5)	In Visual Studio Code, ...
 -->
 1) Sign up for [Dynamics 365 for Financials]()  
-2) Download [Visual Studio Code]()  
-3) Download the [AL Language extension]()  
+2) Download [Visual Studio Code](https://code.visualstudio.com/Download)  
+3) Download the [AL Language extension](vscode:extension/ms-dynamics-smb.al)  
 
 ## Want to build an app and publish it on AppSource?
 1)	[Get the prerequisites in place]()  
@@ -55,7 +55,7 @@ With extensions 2.0 in preview, we encourage you to familiarize yourself with th
 - [Marketing aspects](https://go.microsoft.com/fwlink/?linkid=841518)  
 Simply listing your app's features and functionality will not convert prospects to buyers. Learn in this document how to best market your app. 
 - [Technical aspects - what can you do today?](https://go.microsoft.com/fwlink/?linkid=841516)  
-With the Dynamics 365 for Financials development environment in preview, you can familiarize yourself with the new tools. However, if you want to publish an app today, you must use the extensions 1.0 model. Please find more information on how to do that on [aka.ms/AppsForFinancials](aka.ms/AppsForFinancials).
+With the Dynamics 365 for Financials development environment in preview, you can familiarize yourself with the new tools. However, if you want to publish an app today, you must use the extensions 1.0 model. Please find more information on how to do that on [aka.ms/AppsForFinancials](http://aka.ms/AppsForFinancials).
 - Technical aspects - what we envision tomorrow  
 We hope you got excited trying out the sandbox environment and are ready to build an extension 2.0 soon. We are currently working on the process and technical information on how to develop and publish a 2.0 extension, and will make it available as soon as we are going live in autumn. 
 
