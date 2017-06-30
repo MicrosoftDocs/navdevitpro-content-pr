@@ -2,7 +2,7 @@
 title: "AsToken Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 06/30/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
