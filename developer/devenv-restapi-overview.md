@@ -17,7 +17,7 @@ caps.latest.revision: 18
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # HTTP, JSON, and XML API Overview
-With the API for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] you have HTTP, JSON, and XML classes available for accessing services in the cloud. The following table shows the classes that are available.
+With the API for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] you have HTTP, JSON, and XML classes available for accessing services. The following table shows the classes that are available.
 
 ## API reference
 
