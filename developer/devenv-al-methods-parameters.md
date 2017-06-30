@@ -7,9 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-365-for-financials"
-ms.assetid: 32f9ca49-8263-447f-986c-259c0e11a007
-caps.latest.revision: 11
-manager: edupont
+author: jswymer
 ---
 # Working with AL Methods
 
@@ -76,7 +74,7 @@ You can specify that a parameter is passed to a method by value or by reference.
   
 -   If a parameter is passed by reference, then a reference to the variable is passed to the method. The method can change the value of the variable itself.  
   
- For more information about how to specify that a parameter is passed by value or by reference, see [How to: Add a Method to a Codeunit](How-to--Add-a-Method-to-a-Codeunit.md).  
+<!--NAV For more information about how to specify that a parameter is passed by value or by reference, see [How to: Add a Method to a Codeunit](How-to--Add-a-Method-to-a-Codeunit.md).-->  
   
 ## Example 1  
  The following shows the syntax for a method.  
