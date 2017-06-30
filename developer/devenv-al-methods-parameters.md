@@ -15,12 +15,15 @@ manager: edupont
 
 Like other languages, AL methods are a fundamental programming element. A method, also known as a procedure, is a named group of statements that perform an operation or task. Depending on the scope, methods can be called and executed from the same object in which they are declared or from other parts of the application.
 
-## Method Declarations
+## Declaring Methods
 
 The method declaration defines the method and has the following syntax:
 
 [Attibutes(list of arguments)]
 local PROCEDURE <method_name>(parameter list) <return_value_name> : <data_type>[<length>]
+
+>[!TIP]
+> Use the `tprocedure` code snippet to help declare a method.
 
 ### Local and global scope
 A method can be a *local* method or *global* method. A local method can only be accessed or called from inside the object in which it is declared. A global method can be called from inside the object in which it is declared and from other objects.
@@ -40,7 +43,7 @@ separated by commas.
 
 A method can return data that can be then coded against. A return value is a defined by a name, data type, and optional length depending on the data type (For example, if the return value is a Text DataType, the text might have a length of 50).
 
-## Methods Calls
+## Calling Methods
 You run, or call, a method by using its name in a method statement. When a method is called the current application sequence is suspended and the code on the method is executed. When the method code is completed, the application code sequence returns to where the method was called from. How the method is called determines what happens when it returns.
 
 ### In expressions
