@@ -72,6 +72,7 @@ FilterPageBuilder.ADDTABLE(varDateItem, DATABASE::Date);
  [ADDFIELDNO Method](devenv-addfieldno-method.md)   
  [ADDRECORD Method](devenv-addrecord-method.md)   
  [ADDRECORDREF Method](devenv-addrecordref-method.md)   
+ [GETVIEW Method \(FilterPageBuilder\)](devenv-getview-method-filterpagebuilder.md)   
  [SETVIEW Method](devenv-setview-method.md)   
  [COUNT Method \(FilterPageBuilder\)](devenv-count-method-filterpagebuilder.md)   
  [NAME Method \(FilterPageBuilder\)](devenv-name-method-filterpagebuilder.md)   
