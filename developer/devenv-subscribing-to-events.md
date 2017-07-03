@@ -104,7 +104,7 @@ codeunit 70000002 MySubscriber
 ```
 
 ## See Also  
- [Publishing Events](Publishing-Events.md)   
- [Raising Events](Raising-Events.md)   
+ [Publishing Events](devenv-Publishing-Events.md)   
+ [Raising Events](devenv-Raising-Events.md)   
  [Event Types](devenv-event-types.md)   
  [Events in AL](devenv-events-in-al.md)

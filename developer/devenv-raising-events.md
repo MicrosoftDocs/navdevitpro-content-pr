@@ -54,7 +54,6 @@ To learn about how the event used in this example is published, see [Publishing 
 The next step would be to subscribe to the event to handle to condition.  To see an example of how to subscribe to this event, see [Subscribing to Events Example](Subscribing-to-Events.md#SubEventsEx).  
 
 ## See Also  
- [Publishing Events](Publishing-Events.md)   
- [Subscribing to Events](Subscribing-to-Events.md)   
- [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
- [Introducing Events](Introducing-Events.md)
+ [Publishing Events](devenv-Publishing-Events.md)   
+ [Subscribing to Events](devenv-Subscribing-to-Events.md)   
+ [Events in Microsoft Dynamics NAV](devenv-events-in-al.md)   

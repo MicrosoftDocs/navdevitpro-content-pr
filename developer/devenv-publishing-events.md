@@ -88,6 +88,6 @@ codeunit 70000001 MyPublishers
 The next step would be to raise this event in the application. To see an example for how this event is raised, go to [Raising Event Example](devenv-raising-events.md#RaisingEventEx).
 
 ## See Also  
- [Raising Events](Raising-Events.md)   
- [Subscribing to Events](Subscribing-to-Events.md)   
- [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)
+ [Raising Events](devenv-Raising-Events.md)   
+ [Subscribing to Events](devenv-Subscribing-to-Events.md)   
+ [Events in Microsoft Dynamics NAV](devenv-Events-in-al.md)
