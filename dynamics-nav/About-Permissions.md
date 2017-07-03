@@ -16,14 +16,26 @@ Each permission set in [!INCLUDE[nav_current_long](includes/nav_current_long_md.
 
 <video width="320" height="240" controls>
   <source src="wildlife.wmv" type="video/wmv" />
-  <object width="640" height="384" type="application/x-shockwave-flash" data="__FLASH__.SWF">
+  <object width="325" height="250" type="video/x-ms-asf" url="wildlife.wmv"
+data="wildlife.wmv" classid="CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6">
+<param name="url" value="wildlife.wmv">
+<param name="filename" value="wildlife.wmv">
+<param name="autostart" value="1">
+<param name="uiMode" value="full">
+<param name="autosize" value="1">
+<param name="playcount" value="1">
+<embed type="application/x-mplayer2" src="/support/wildlife.wmv" width="325" 
+height="250" autostart="true" showcontrols="true"
+pluginspage="http://www.microsoft.com/Windows/MediaPlayer/"></embed>
+</object>
+ <!-- <object width="640" height="384" type="application/x-shockwave-flash" data="__FLASH__.SWF">
         <!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
-        <param name="movie" value="__FLASH__.SWF" />
+     <!--   <param name="movie" value="__FLASH__.SWF" />
         <param name="flashvars" value="image=__POSTER__.JPG&amp;file=test.MP4" />
         <!-- fallback image. note the title field below, put the title of the video there -->
-        <img src="__VIDEO__.JPG" width="640" height="360" alt="__TITLE__"
+    <!--    <img src="__VIDEO__.JPG" width="640" height="360" alt="__TITLE__"
              title="No video playback capabilities, please download the video below" />
-    </object>
+    </object>-->
 
 </video>
 
