@@ -23,19 +23,17 @@ You decide whether you want to **extend** the Dynamics 365 for financials functi
 
 |<h3>Connect</h3>|<h3>Extend</h3>|
 |----------------|---------------|
-|A **Connect App** establishes a connection between two independent services using an API to interchange data. A typical example of a Connect App is a Payroll solution. All work related to Payroll is done within your service and only as a last step is the financial data posted into Dynamics 365 for Financials using the API. A Connect App is mainly created using common development tools, REST API’s, and the API’s made available in Dynamics 365 for Financials from Update 7 and onwards. When needed a Connect App in Dynamics 365 for Financials can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.|Dynamics 365 for Financials supports **Add-On** or **Embed** solutions. An Add-On adds to the existing Dynamics 365 for Financials functionality to integrate a solution such as online payment, whereas an Embed solution implements an end-to-end experience such as a solution for the dental industry or law firms. An App typically makes use of the variety of development tools for Dynamics 365 for Financials and can also include the APIs available for Dynamics 365 for Financials. An embedded solution can furthermore be rebranded to become an integrated part of the overall end-to-end experience.
+|A **Connect App** establishes a connection between two independent services using an API to interchange data. A typical example of a Connect App is a Payroll solution. All work related to Payroll is done within your service and only as a last step is the financial data posted into Dynamics 365 for Financials using the API. A Connect App is mainly created using common development tools, REST API’s, and the API’s made available in Dynamics 365 for Financials from Update 7 and onwards. When needed a Connect App in Dynamics 365 for Financials can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.|Dynamics 365 for Financials supports **Add-On** or **Embed** solutions. An Add-On adds to the existing Dynamics 365 for Financials functionality to integrate a solution such as PayPal, whereas an Embed solution implements an end-to-end experience such as a solution for the dental industry or law firms. An App typically makes use of the variety of development tools for Dynamics 365 for Financials and can also include the APIs available for Dynamics 365 for Financials. An embedded solution can furthermore be rebranded to become an integrated part of the overall end-to-end experience.
 |
-
+<!--
 ## Hear what the community tells about Dynamics 365 and the new development tools
 
 [![Customers](media/connect.png)](https://app.wipster.io/Review/CZVEDQAcuPbAtVaYPJn9bw0-DcJujQJx6KeWY4iO9pJrlh9rog "Customers")
-
-<!-- html -->
-
-<iframe width="420" height="315" src="https://app.wipster.io/Review/CZVEDQAcuPbAtVaYPJn9bw0-DcJujQJx6KeWY4iO9pJrlh9rog" frameborder="0" allowfullscreen></iframe>
+-->
 
 ## Want to try it out?
 It's easy! Just spin up a sandbox environment by going through these steps:
+<!-- Azure VM, check with Stan -->
 
 1) Sign up for [Dynamics 365 for Financials]()  
 2) Download [Visual Studio Code](https://code.visualstudio.com/Download)  
@@ -45,21 +43,35 @@ It's easy! Just spin up a sandbox environment by going through these steps:
 We are excited to have you in our family of Dynamics 365 for Financials App Providers. Now that you are getting serious about this, here are the steps that you will have to go through: 
 
 1)	[Get the prerequisites in place]()  
-To get started with development, you must have a Microsoft Partner Network ID, a Developer account, and a PSBC account in place. You furthermore must send us your app idea via AppSource, to get your object range and developer license. Learn in this document how to get these prerequisites in place. 
+To get started with development, you must have a some necessary accounts in place. Next, we ask you to send us your app idea via Microsoft AppSource to get your object range and developer license. Learn more about this step [here](). 
 
-2)	Develop your app   
+2)	Develop your Dynamics 365 for Finanicials App   
+
+When developing your App you need to think about some technical aspects of your App.
+
+If earlier you were building Apps as extensions v1.0 in the classic Development tools of Dynamics NAV and you want to publish Apps today we ask you to familiarize yourself with the information on [aka.ms/AppsForFinancials](http://aka.ms/AppsForFinancials).
+
+In any other case we believe you should familiarize yourself with the development tools for Dynamics 365 for Financials which is in preview. With this toolset you will be able to build extensions v2.0.
+Extensions v2.0 have lots of benefits and will be enabled in the Dynamics 365 for Financials service soon. Learn more about extensions 2.0 here and the new development tools [here](https://docs.microsoft.com/en-us/dynamics365/developerbe/devenv-dev-overview?branch=master).
+
+You also need to spend some time on how to best market your app on Microsoft Appsource. Simply listing your app's features and functionality will not convert prospects to buyers. Learn how to develop the [Marketing aspects](https://go.microsoft.com/fwlink/?linkid=841518) of your App.
+
+
+<!--
 - [Marketing aspects](https://go.microsoft.com/fwlink/?linkid=841518)  
 Simply listing your app's features and functionality will not convert prospects to buyers. Learn in this document how to best market your app. 
 - [Technical aspects - what can you do today?](https://go.microsoft.com/fwlink/?linkid=841516)  
 With the Dynamics 365 for Financials development environment in preview, you can familiarize yourself with the new tools. However, if you want to publish an app today, you must use the extensions 1.0 model. Please find more information on how to do that on [aka.ms/AppsForFinancials](http://aka.ms/AppsForFinancials).
 - Technical aspects - what we envision tomorrow  
 We hope you got excited trying out the sandbox environment and are ready to build an extension 2.0 soon. We are currently working on the process and technical information on how to develop and publish a 2.0 extension, and will make it available as soon as we are going live in autumn. 
-
-3)	Publish  
-With the Dynamics 365 for Financials development environment in preview, we encourage you to familiarize yourself with the new tools. However, if you want to publish an app today, you must use the extensions 1.0 model. Please find more information on how to do that on [aka.ms/AppsForFinancials](). We will publish relevant information on 2.0 extensions as soon as we are going live in autumn. 
+-->
+3)	Ready for publication?  
+If you want to publish an app today we require an extension v1.0 developed in the classic development environment. Please find more information on how to build and publish at [aka.ms/AppsForFinancials](http://aka.ms/AppsForFinancials). 
+If you want to publish an extension v2.0, created in the new development tools, we ask you to be a bit more patient. We are currently working hard to create a smooth upload process. We expect to be ready with this publication process early in the fall.
+ 
 
 ## Things to consider
-Are you a business owner, a marketing person, or a developer? You can find specific resources specifically for you on our topic page on the Dynamics Learning Portal (DLP) or in the documentation.
+Are you a business owner, a marketing person, or a developer? You can find specific resources below for you.
 
 ### Business owner
 [User Registration and Subsequent Billing Procedure](https://mbspartner.microsoft.com/secure/coursematerials/D365B/Standalone/User_Registration_and_Subsequent_Billing_Procedures.pdf)  
