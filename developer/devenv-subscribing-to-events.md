@@ -31,7 +31,7 @@ For an explanation about the different types, see [Event Types](devenv-event-typ
 
      You can create a new codeunit or use and existing one.  
 
-2.  Set the **EventSubscriberInstance** property of the codeunit to specify how event subscriber methods in the codeunit are bound to codeunit instance. For more information, see [EventSubscriberInstance Property](devenv-eventsubscriberinstance-property.md).  
+2.  Set the **EventSubscriberInstance** property of the codeunit to specify how event subscriber methods in the codeunit are bound to codeunit instance. For more information, see [EventSubscriberInstance Property](properties/devenv-eventsubscriberinstance-property.md).  
 
 3.  Add a AL method to the codeunit.  
 
@@ -61,7 +61,7 @@ This example creates the codeunit **7000002 MySubscriber** to subscribe to an ev
 -   The codeunit **70000001 MyPublishers** with the event publisher method `OnAddressLineChanged` already exists. To see how to do this, see [Publishing Event Example](devenv-publishing-events.md#PubEx).
 -   The code for raising the `OnAddressLineChanged` event has been added to the **Customer Card** page. To see how to do this, see [Raising Event Example](devenv-raising-events.md#RaisingEventEx).
 
-The following code creates a codeunit called **70000002 MySubscriber** yhat includes an event subscriber method, called `CheckAddressLine`. The method includes code for handling the published event.
+The following code creates a codeunit called **70000002 MySubscriber** that includes an event subscriber method, called `CheckAddressLine`. The method includes code for handling the published event.
 
 ```
 codeunit 70000002 MySubscriber
