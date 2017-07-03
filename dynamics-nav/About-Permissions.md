@@ -15,7 +15,7 @@ caps.latest.revision: 14
 Each permission set in [!INCLUDE[nav_current_long](includes/nav_current_long_md.md)] describes a set of access permissions to tables, reports, functions, and other objects. The types of permissions are:  
 
 <video width="320" height="240" controls>
-  <source src="test.mp4" type="video/mp4" />
+  <source src="test.mp3" type="video/mp3" />
 </video>
 
 
