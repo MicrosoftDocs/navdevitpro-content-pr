@@ -65,4 +65,4 @@ END;
 
 ## See Also  
  [FieldRef Data Type](../datatypes/devenv-FieldRef-Data-Type.md)   
- [Multilanguage Development](Multilanguage-Development.md)
+ [Multilanguage Development](../devenv-multilanguage-development.md)

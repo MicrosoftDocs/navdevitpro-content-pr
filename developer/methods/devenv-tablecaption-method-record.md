@@ -54,4 +54,4 @@ MESSAGE('The caption for the customer table is: %1', TableCaption);
 ## See Also  
  [FIELDCAPTION Method \(Record\)](devenv-FIELDCAPTION-Method-Record.md)   
  [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
- [Multilanguage Development](Multilanguage-Development.md)
+ [Multilanguage Development](../devenv-multilanguage-development.md)

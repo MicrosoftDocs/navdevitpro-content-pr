@@ -27,7 +27,7 @@ Ok := Dialog.CONFIRM(String [, Default] [, Value1] ,...)
  *String*  
  Type: Code or text constant  
 
- Specifies the string that is displayed in the dialog box. Use a backslash \(\\\) to indicate a new line. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
+ Specifies the string that is displayed in the dialog box. Use a backslash \(\\\) to indicate a new line. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](../devenv-multilanguage-development.md).  
 
  *Default*  
  Type: Boolean  

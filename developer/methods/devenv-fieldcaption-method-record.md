@@ -59,4 +59,4 @@ MESSAGE(varFieldCaption);
 ## See Also  
  [TABLECAPTION Method \(Record\)](devenv-TABLECAPTION-Method-Record.md)   
  [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
- [Multilanguage Development](Multilanguage-Development.md)
+ [Multilanguage Development](../devenv-multilanguage-development.md)

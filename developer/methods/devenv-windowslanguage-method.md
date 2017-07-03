@@ -30,7 +30,7 @@ LanguageID := WINDOWSLANGUAGE
 ## Remarks  
  The *LanguageID* is a standard Windows language ID. The Windows Language virtual table contains a list of these IDs and the corresponding names and short names.  
   
- For more information, see [Multilanguage Development](Multilanguage-Development.md).  
+ For more information, see [Multilanguage Development](../devenv-multilanguage-development.md).  
   
 ## See Also  
  [GLOBALLANGUAGE Method](devenv-GLOBALLANGUAGE-Method.md)

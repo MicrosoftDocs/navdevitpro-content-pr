@@ -6,98 +6,105 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
-ms.assetid: c6dc97ae-c2db-48a4-971e-3e032ff63c74
-caps.latest.revision: 11
-manager: edupont
+ms.prod: "dynamics-365-financials"
+author: jswymer
 ---
 # Subscribing to Events
-To handle events, you design event subscribers. Event subscribers determine what actions to take in response to an event that has been raised. An event subscriber is a C/AL function that subscribes to, or listens for, a specific event that is declared by an event publisher function. The event subscriber includes code that defines the business logic to handle the event. When the published event is raised, the event subscriber is called and its code is run.  
+To handle events, you design event subscribers. Event subscribers determine what actions to take in response to an event that has been raised. An event subscriber is a AL method that subscribes to, or listens for, a specific event that is declared by an event publisher method. The event subscriber includes code that defines the business logic to handle the event. When the published event is raised, the event subscriber is called and its code is run.  
 
- Subscribing to an event tells the runtime that the subscriber function must be called whenever the publisher function is run, either by code \(as with business and integration events\) or by the system \(as with trigger events\). The runtime establishes the link between an event raised by the publisher and its subscribers by looking for event subscriber functions.  
+Subscribing to an event tells the runtime that the subscriber method must be called whenever the publisher method is run,either by code \(as with business and integration events\) or by the system \(as with trigger events\). The runtime establishes the link between an event raised by the publisher and its subscribers by looking for event subscriber methods.  
 
- There can be multiple subscribers to the same event from various locations in the application code. When an event is raised, the subscriber functions are run one at a time in random order. You cannot specify the order in which the subscriber functions are called.  
+There can be multiple subscribers to the same event from various locations in the application code. When an event is raised, the subscriber methods are run one at a time in random order. You cannot specify the order in which the subscriber methods are called.  
 
- Be aware that changing the state may not only impact the publishing code but other subscribers as well.  
+Be aware that changing the state may not only impact the publishing code but other subscribers as well.  
 
 > [!NOTE]  
->  Subscriber functions cannot access the sender and or access global variables.  
+>  Subscriber methods cannot access the sender and or access global variables.  
 
-## Creating an Event Subscriber Function  
- You create an event subscriber function just like other functions except that you specify properties that set up the subscription to an event publisher. The procedure is slightly different for database and page trigger events than business and integration events because business and integration events are raised by event publisher functions in application code. Trigger events are predefined system events that are raised automatically on tables and pages  
+## Creating an Event Subscriber Method  
+You create an event subscriber method just like other methods except that you specify properties that set up the subscription to an event publisher. The procedure is slightly different for database and page trigger events than business and integration events because business and integration events are raised by event publisher methods in application code. Trigger events are predefined system events that are raised automatically on tables and pages.  
 
- For an explanation about the different types, see [Event Types](Event-Types.md).  
+For an explanation about the different types, see [Event Types](devenv-event-types.md).  
 
-#### To create an event subscriber function for business and integration events  
-
-1.  Decide which codeunit to use for the event subscriber function.  
-
-     You can create a new codeunit or use and existing one..  
-
-2.  Set the **EventSubscriberInstance** property of the codeunit to specify how event subscriber functions in the codeunit are bound to codeunit instance. For more information, see [EventSubscriberInstance Property](EventSubscriberInstance-Property.md).  
-
-3.  Add a C/AL function to the codeunit.  
-
-     We recommend that you give the function a name that indicates what the subscriber does, and has the format *\[Action\]\[Event\]*. *\[Action\]* is text that describes what the function does and *\[Event\]* is the name of the event publisher function to which it subscribes. For more information about naming, see [Best Practices with Microsoft Dynamics NAV Events](Best-Practices-with-Microsoft-Dynamics-NAV-Events.md).  
-
-4.  Set the function's [Event Property](Event-Property.md) to **Subscriber**.  
-
-5.  Set the function's [EventPublisherObject Property](EventPublisherObject-Property.md) to the object that contains the event publisher function that declares the event that you want to subscribe to.
-
-    >[!IMPORTANT]  
-    >If the event publisher object is a page, the page must have a source table. Otherwise, when you compile the codeunit, you will get the error **TableData 0 does not exist**.
-
-6.  Set the function's [EventFunction Property](EventFunction-Property.md) to the event publisher function that declares the event that you want to subscribe to.  
-
-7.  If you are prompted whether to overwrite the edited functions signature, choose the **Yes** button.  
-
-     The function signature will automatically be updated to include any the parameters from the event publisher function settings.  
-
-    > [!NOTE]  
-    >  The parameter list is determined by the publisher function. With business events, you cannot deviate from the parameters that are defined in the publisher function. Integration events are not as restricted and you can deviate from the parameters that are defined in the publisher function.  
-
-8.  Add code to the function for handing the event.  
-
-#### To create an event subscriber function for a database and page trigger event  
-
-1.  Decide which codeunit to use for the event subscriber function.  
+### To create an event subscriber method
+1.  Decide which codeunit to use for the event subscriber method.  
 
      You can create a new codeunit or use and existing one.  
 
-2.  Set the **EventSubscriberInstance** property of the codeunit to specify how event subscriber functions in the codeunit are bound to codeunit instance. For more information, see [EventSubscriberInstance Property](EventSubscriberInstance-Property.md).  
+2.  Set the **EventSubscriberInstance** property of the codeunit to specify how event subscriber methods in the codeunit are bound to codeunit instance. For more information, see [EventSubscriberInstance Property](properties/devenv-eventsubscriberinstance-property.md).  
 
-3.  Add a C/AL function to the codeunit.  
+3.  Add a AL method to the codeunit.  
 
-     We recommend that you give the function a name that indicates what subscriber does, and has the format *\[Action\]\[Event\]*. *\[Action\]* is text that describes what the function does and *\[Event\]* is the name of the event publisher function to which it subscribes. For more information about naming, see [Best Practices with Microsoft Dynamics NAV Events](Best-Practices-with-Microsoft-Dynamics-NAV-Events.md).  
+     We recommend that you give the method a name that indicates what the subscriber does, and has the format *\[Action\]\[Event\]*. *\[Action\]* is text that describes what the method does and *\[Event\]* is the name of the event publisher method to which it subscribes. For more information about naming, see [Best Practices with Events](devenv-events-best-practices.md).  
 
-4.  Set the function [Event Property](Event-Property.md) to **Subscriber**.  
+4.  Decorate the method with the [EventSubscriber attribute](methods/devenv-eventsubscriber-attribute.md), and change accordingly.
 
-5.  Set the function [EventPublisherObject Property](EventPublisherObject-Property.md) specify the table or page that contains trigger event that you want to subscribe to.  
+    ```  
+    [EventSubscriber(ObjectType::ObjectType, ObjectId, 'OnSomeEvent', 'ElementName', SkipOnMissingLicense, SkipOnMissingPermission)]
+    ```    
+    >[!TIP)]  
+    > Use the `teventsub` snippet to get started.  
 
-6.  Set the function [EventFunction Property](EventFunction-Property.md) to the event that you want to subscribe to.  
+5.  If you are prompted whether to overwrite the edited methods signature, choose **Yes**.  
 
-     You choose from the trigger events defined on the table that is specified by the **EventPublisherObject** property.  
+     The method signature will automatically be updated to include any the parameters from the event publisher method settings.  
 
-7.  When prompted to overwrite the edited functions signature, choose the **Yes** button.  
+    > [!NOTE]  
+    >  The parameter list is determined by the publisher method. With business events, you cannot deviate from the parameters that are defined in the publisher method. Integration events are not as restricted and you can deviate from the parameters that are defined in the publisher method.  
 
-     The function signature will automatically be updated to include any the parameters from the event publisher function settings.  
+6.  Add code to the method for handing the event.  
 
-8.  For database trigger events, if you set the [EventFunction Property](EventFunction-Property.md) to **OnBeforeValidEvent** or **OnAfterValidEvent** event, you must set the [EventPublisherElement Property](EventPublisherElement-Property.md) to the table field on which you want to subscribe the event.  
 
-9. There are few other properties related event subscriber functions that you can set. For more information, see the following topics:  
+## <a name="SubEventEx">Example 1
+This example creates the codeunit **7000002 MySubscriber** to subscribe to an event that has been published by the event publisher method called `OnAddressLineChanged` in the codeunit **70000001 MyPublishers**. The event is raised by a change to the **Address** field on page **21 Customer Card**. This example assumes the following:
 
-    -   [EventSubscriberInstance Property](EventSubscriberInstance-Property.md)  
+-   The codeunit **70000001 MyPublishers** with the event publisher method `OnAddressLineChanged` already exists. To see how to do this, see [Publishing Event Example](devenv-publishing-events.md#PubEx).
+-   The code for raising the `OnAddressLineChanged` event has been added to the **Customer Card** page. To see how to do this, see [Raising Event Example](devenv-raising-events.md#RaisingEventEx).
 
-    -   [OnMissingLicense Property](OnMissingLicense-Property.md)  
+The following code creates a codeunit called **70000002 MySubscriber** that includes an event subscriber method, called `CheckAddressLine`. The method includes code for handling the published event.
 
-    -   [OnMissingPermission Property](OnMissingPermission-Property.md)  
+```
+codeunit 70000002 MySubscriber
+{
+    EventSubscriberInstance=StaticAutomatic;
 
-10. Add code to the function for handing the event.  
+    trigger OnRun();
+    begin
+    end;
 
- For step-by-step instructions about how to create a subscriber, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough--Publishing--Raising--and-Subcribing-to-an-Event-in-Microsoft-Dynamics-NAV.md).  
+    [EventSubscriber(ObjectType::Codeunit, 70000004, 'OnAddressLineChanged','',true, true)]
+    procedure CheckAddressLine(line : Text[100]);
+    begin
+        if (STRPOS(line, '+') > 0) then begin
+            MESSAGE('Cannot use a plus sign (+) in the address [' + line + ']');
+        end;
+    end;
+}
+```
+
+## Example 2
+This example achieves the same as example 1, except it subscribes to the the page trigger event `OnBeforeValidateEvent` on the `Address`field instead. Bu using the page trigger, you avoid creating an event publisher and adding code to raise the event because this is done automatically by the system.
+
+```
+codeunit 70000002 MySubscriber
+{
+    EventSubscriberInstance=StaticAutomatic;
+    
+    trigger OnRun();
+    begin
+    end;
+
+    [EventSubscriber(ObjectType::Page, 21, 'OnBeforeValidateEvent','Address',true, true)]
+    procedure CheckAddressLine();
+    begin
+        if (STRPOS('Address', '+') > 0) then begin
+            MESSAGE('Cannot use a plus sign (+) in the address [' + 'Address' + ']');
+        end;
+    end;
+```
 
 ## See Also  
- [Publishing Events](Publishing-Events.md)   
- [Raising Events](Raising-Events.md)   
- [Introducing Events](Introducing-Events.md)   
- [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)
+ [Publishing Events](devenv-Publishing-Events.md)   
+ [Raising Events](devenv-Raising-Events.md)   
+ [Event Types](devenv-event-types.md)   
+ [Events in AL](devenv-events-in-al.md)

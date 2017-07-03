@@ -28,7 +28,7 @@ ERROR(String [, Value1, …])
  *String*  
  Type: Text constant or code  
 
- This string contains the text of the error message you want to display to the user. Use percent signs \(%\) or number signs \(\#\) to insert variable values into the string. Place the percent or number signs where you want to substitute the variable value. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
+ This string contains the text of the error message you want to display to the user. Use percent signs \(%\) or number signs \(\#\) to insert variable values into the string. Place the percent or number signs where you want to substitute the variable value. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](../devenv-multilanguage-development.md).  
 
  *Value1, …*  
  Type: Any  
