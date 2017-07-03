@@ -32,6 +32,18 @@ The [!INCLUDE[nav_web](includes/nav_web_md.md)] supports several browsers. There
 |Windows authentication|Validating user credentials by using Windows authentication is not supported.|Safari|For more information about authentication and credentials, see [Users and Credential Types](Users-and-Credential-Types.md).|  
 |Documentation Feedback link in the Microsoft Dynamics NAV Online Help.|Using the Documentation Feedback link does not work.|Mozilla Firefox|Use a different browser to provide feedback.|  
 
+<!--TENERIFE
+
+|Feature|Description|Browser|Remarks|  
+|-------------|-----------------|-------------|-------------|  
+|Printing a report from the report preview|If you try to print a report from the report preview, then you will get a script error message.|Internet Explorer 10 \(in the Windows 8-style UI mode\)|This is because Windows 8-style UI does not support plugins. To print a report, open the report as a PDF, and then print the report from the PDF viewer.|  
+|Tooltips in the ribbon|Tooltips do not appear when you pause on an action with the pointer.|Safari||  
+|Tooltips for error messages and icons on pages|Tooltips do not appear when you pause on an error message or an icon on a page with the pointer.|Internet Explorer 10 \(on tablets that run Windows 8\)<br /><br /> Safari|To see the tooltip, you must tap the message or icon.|  
+|Dragging the cursor in a field|If you drag the cursor in a field, then the field becomes blocked and you cannot enter any data.|Safari|To make it possible to enter data, refresh the browser or start a new browser session.|  
+|Scrolling a list by using one finger|You cannot scroll a list by using a one finger scrolling gesture.|Safari|To scroll a list, use a two finger scrolling gesture.|  
+|Windows authentication|Validating user credentials by using Windows authentication is not supported.|Safari|For more information about authentication and credentials, see [Users and Credential Types](Users-and-Credential-Types.md).|  
+|Documentation Feedback link in the Microsoft Dynamics NAV Online Help.|Using the Documentation Feedback link does not work.|Mozilla Firefox|Use a different browser to provide feedback.|  
+-->
 ## See Also  
  [Feature Limitations of the Microsoft Dynamics NAV Web Client](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client.md)   
  [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   
