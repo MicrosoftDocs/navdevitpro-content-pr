@@ -40,13 +40,19 @@ The first phase of implementing an event is publishing the event. Publishing an 
 
      You should give the method a name that has the format *On\[Event\]*, where *\[Event\]* is text that indicates what occurred, such as `OnAddressLineChanged`.  
 
-3.  Decorate the method with the either the [Integration attribute](methods/devenv-integration-attribute.md). or [Business attribute](methods/devenv-business-attribute.md), depending on the type of event that you want to publish.
+3.  Decorate the method with the either the [Integration attribute](methods/devenv-integration-attribute.md) or [Business attribute](methods/devenv-business-attribute.md) as follows: 
 
-    For more information, see [Event Types](devenv-event-types.md).
-
+    ```  
+    [Integration(IncludeSender : Boolean, GlobalVarAccess : Boolean)] 
+    ```
+    or
+    ```  
+    [Business(IncludeSender : Boolean)] 
+    ```  
     >[!TIP)]  
     > Use the `teventint` snippet for an integration event or the `teventbus` snippet for a business event to get started.  
 
+    For more information about integration and business events, see [Event Types](devenv-event-types.md).
 4.  Add parameters to the method as needed.  
 
      You can include as many parameters of any type as necessary.  
@@ -57,6 +63,9 @@ The first phase of implementing an event is publishing the event. Publishing an 
 
 ## <a name="PubEx"></a>Example
 This example creates the codeunit **7000001 MyPublisher** to publish an integration event. The event is published by adding the global method called `OnAddressLineChanged`. The event takes a single text data type parameter.
+
+>[!NOTE]
+>This example is part of a larger, simple scenario where when users change the address of a customer on the page **21 Customer Card**, you want to check that the address does not include a plus sign (+). If it does, you want to display a message. To accomplish this, you will publish an event that is raised when the **Address** field on **Customer Card** is changed, and add an event subscriber method to that includes logic that checks the address value and returns a message to the user if it contains a plus sign.
 
 ```
 codeunit 70000001 MyPublishers

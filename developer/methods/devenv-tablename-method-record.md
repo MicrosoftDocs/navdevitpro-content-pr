@@ -55,4 +55,4 @@ MESSAGE('The name of the table is: %1', TableName);
   
 ## See Also  
  [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
- [Multilanguage Development](Multilanguage-Development.md)
+ [Multilanguage Development](../devenv-multilanguage-development.md)
