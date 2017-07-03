@@ -91,19 +91,19 @@ author: jswymer
   
 |Trigger event with signature|Description|  
 |----------------------------------|-----------------|  
-|`OnBeforeActionEvent(VAR Rec : Record)`|Executed before the [OnAction Trigger](OnAction-Trigger.md), which is called when a user selects an action on the page.|  
-|`OnAfterActionEvent(VAR Rec : Record)`|Executed after the [OnAction Trigger](OnAction-Trigger.md), which is called when a user selects an action on the page.|  
-|`OnAfterGetCurrRecordEvent(VAR Rec : Record)`|Executed after the [OnAfterGetCurrRecord Trigger](OnAfterGetCurrRecord-Trigger.md), which is called after the current record is retrieved from the table.|  
-|`OnAfterGetRecordEvent(VAR Rec : Record)`|Executed after the [OnAfterGetCurrRecord Trigger](OnAfterGetCurrRecord-Trigger.md), which is called after the record is retrieved from the table but before it is displayed to the user.|  
-|`OnBeforeValidateEvent(VAR Rec : Record, VAR xRec : Record)`|Executed before the [OnValidate \(Page fields\) Trigger](OnValidate--Page-fields--Trigger.md), which is called when a field loses focus after its value has been changed.|  
-|`OnAfterValidate(VAR Rec : Record, VAR xRec : Record)`|Executed after the [OnValidate \(Page fields\) Trigger](OnValidate--Page-fields--Trigger.md), which is called when a field loses focus after its value has been changed.|  
-|`OnClosePageEvent(VAR Rec : Record)`|Executed after the [OnClosePage Trigger](OnClosePage-Trigger.md), which is called when page closes after the OnQueryClosePage trigger is executed.|  
-|`OnDeleteRecordEvent(VAR Rec : Record, VAR AllowDelete : Boolean)`|Executed after the [OnDeleteRecord Trigger](OnDeleteRecord-Trigger.md), which is called before a record is deleted from a table.|  
-|`OnInsertRecordEvent(VAR Rec : Record, BelowxRec : Boolean, VAR xRec : Record, VAR AllowInsert : Boolean)`|Executed after the [OnInsertRecord Trigger](OnInsertRecord-Trigger.md), which is called before a record is inserted in a table.|  
-|`OnModifyRecordEvent(VAR Rec : Record, VAR xRec : Record, VAR AllowModify : Boolean)`|Executed after the [OnModifyRecord Trigger](OnModifyRecord-Trigger.md), which is called before a record is modified in a table.|  
-|`OnNewRecordEvent(VAR Rec: Record, BelowxRec : Boolean, VAR xRec : Record)`|Executed after the [OnNewRecord Trigger](OnNewRecord-Trigger.md), which is called before a new record is initialized.|  
+|`OnBeforeActionEvent(VAR Rec : Record)`|Executed before the [OnAction Trigger](triggers/devenv-OnAction-Trigger.md), which is called when a user selects an action on the page.|  
+|`OnAfterActionEvent(VAR Rec : Record)`|Executed after the [OnAction Trigger](triggers/devenv-OnAction-Trigger.md), which is called when a user selects an action on the page.|  
+|`OnAfterGetCurrRecordEvent(VAR Rec : Record)`|Executed after the [OnAfterGetCurrRecord Trigger](triggers/devenv-OnAfterGetCurrRecord-Trigger.md), which is called after the current record is retrieved from the table.|  
+|`OnAfterGetRecordEvent(VAR Rec : Record)`|Executed after the [OnAfterGetCurrRecord Trigger](triggers/devenv-OnAfterGetCurrRecord-Trigger.md), which is called after the record is retrieved from the table but before it is displayed to the user.|  
+|`OnBeforeValidateEvent(VAR Rec : Record, VAR xRec : Record)`|Executed before the [OnValidate \(Page fields\) Trigger](triggers/devenv-OnValidate-Page-fields-Trigger.md), which is called when a field loses focus after its value has been changed.|  
+|`OnAfterValidate(VAR Rec : Record, VAR xRec : Record)`|Executed after the [OnValidate \(Page fields\) Trigger](triggers/devenv-OnValidate-Page-fields-Trigger.md), which is called when a field loses focus after its value has been changed.|  
+|`OnClosePageEvent(VAR Rec : Record)`|Executed after the [OnClosePage Trigger](triggers/devenv-OnClosePage-Trigger.md), which is called when page closes after the OnQueryClosePage trigger is executed.|  
+|`OnDeleteRecordEvent(VAR Rec : Record, VAR AllowDelete : Boolean)`|Executed after the [OnDeleteRecord Trigger](triggers/devenv-OnDeleteRecord-Trigger.md), which is called before a record is deleted from a table.|  
+|`OnInsertRecordEvent(VAR Rec : Record, BelowxRec : Boolean, VAR xRec : Record, VAR AllowInsert : Boolean)`|Executed after the [OnInsertRecord Trigger](triggers/devenv-OnInsertRecord-Trigger.md), which is called before a record is inserted in a table.|  
+|`OnModifyRecordEvent(VAR Rec : Record, VAR xRec : Record, VAR AllowModify : Boolean)`|Executed after the [OnModifyRecord Trigger](triggers/devenv-OnModifyRecord-Trigger.md), which is called before a record is modified in a table.|  
+|`OnNewRecordEvent(VAR Rec: Record, BelowxRec : Boolean, VAR xRec : Record)`|Executed after the [OnNewRecord Trigger](triggers/devenv-OnNewRecord-Trigger.md), which is called before a new record is initialized.|  
 |`OnOpenPageEvent(VAR Rec : Record)`|Executed after the [OnOpenPage Trigger](OnOpenPage-Trigger.md), which is called after a page is initialized and run.|  
-|`OnQueryClosePageEvent(VAR Rec : Record, VAR AllowClose : Boolean)`|Executed after the [OnQueryClosePage Trigger](OnQueryClosePage-Trigger.md), which is called as a page closes and before the OnClosePage Trigger executes.|  
+|`OnQueryClosePageEvent(VAR Rec : Record, VAR AllowClose : Boolean)`|Executed after the [OnQueryClosePage Trigger](triggers/devenv-OnQueryClosePage-Trigger.md), which is called as a page closes and before the OnClosePage Trigger executes.|  
   
  The following table describes the parameters of the trigger events:  
   

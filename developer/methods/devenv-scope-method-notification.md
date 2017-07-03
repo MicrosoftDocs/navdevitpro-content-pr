@@ -54,4 +54,4 @@ MyNotification.SEND;
 [SCOPE Method(Notification)](devenv-scope-method-notification.md)  
 [SEND Method (Notification)](devenv-send-method-notification.md)  
 [Notifications](../devenv-notifications-developing.md)  
-[Multilanguage Development](multilanguage-development.md)
+[Multilanguage Development](../devenv-multilanguage-development.md)

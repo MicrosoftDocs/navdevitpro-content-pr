@@ -41,7 +41,7 @@ Caption := Query.COLUMNCAPTION(Column)
  The current value of [CaptionML Property](../properties/devenv-CaptionML-Property.md) for the query column.  
 
 ## Remarks  
- The **CaptionML** property is multi-language enabled, so it can contain a list of text strings in different languages. The string that is used is selected according to the user's language settings. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
+ The **CaptionML** property is multi-language enabled, so it can contain a list of text strings in different languages. The string that is used is selected according to the user's language settings. For more information, see [Multilanguage Development](../devenv-multilanguage-development.md).  
 
 ## Example  
  The following example shows how to get the caption for a column of a query. The query is called **My Customer Query** and has a column with the name **Customer\_No**.  
