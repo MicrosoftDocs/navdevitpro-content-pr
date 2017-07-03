@@ -25,9 +25,19 @@ You decide whether you want to **extend** the Dynamics 365 for financials functi
 |----------------|---------------|
 |A **Connect App** establishes a connection between two independent services using an API to interchange data. A typical example of a Connect App is a Payroll solution. All work related to Payroll is done within your service and only as a last step is the financial data posted into Dynamics 365 for Financials using the API. A Connect App is mainly created using common development tools, REST API’s, and the API’s made available in Dynamics 365 for Financials from Update 7 and onwards. When needed a Connect App in Dynamics 365 for Financials can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.|Dynamics 365 for Financials supports **Add-On** or **Embed** solutions. An Add-On adds to the existing Dynamics 365 for Financials functionality to integrate a solution such as PayPal, whereas an Embed solution implements an end-to-end experience such as a solution for the dental industry or law firms. An App typically makes use of the variety of development tools for Dynamics 365 for Financials and can also include the APIs available for Dynamics 365 for Financials. An embedded solution can furthermore be rebranded to become an integrated part of the overall end-to-end experience.
 |
-<!--
+
 ## Hear what the community tells about Dynamics 365 and the new development tools
 
+<!DOCTYPE html>
+<html>
+<body>
+<iframe width="560" height="315"
+src="https://app.wipster.io/Review/CZVEDQAcuPbAtVaYPJn9bw0-DcJujQJx6KeWY4iO9pJrlh9rog">
+</iframe>
+</body>
+</html>
+
+<!--
 [![Customers](media/connect.png)](https://app.wipster.io/Review/CZVEDQAcuPbAtVaYPJn9bw0-DcJujQJx6KeWY4iO9pJrlh9rog "Customers")
 -->
 
