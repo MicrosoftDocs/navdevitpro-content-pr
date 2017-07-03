@@ -396,4 +396,3 @@ MAXSTRLEN(t); // Returns 6.
 
 ## See Also
 [AL Methods](../methods/devenv-al-methods.md)  
-[AL Data Types]()  

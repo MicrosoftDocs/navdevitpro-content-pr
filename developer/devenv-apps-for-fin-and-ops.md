@@ -39,6 +39,8 @@ It's easy! Just spin up a sandbox environment by going through these steps.
 2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).
 3) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen.
 
+> [!NOTE] Get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
+
 <!-- Azure VM, check with Stan
 
 1) Sign up for [Dynamics 365 for Financials]()  
@@ -52,15 +54,11 @@ We are excited to have you in our family of Dynamics 365 for Financials App Prov
 1)	[Get the prerequisites in place]()  
 To get started with development, you must have a some necessary accounts in place. Next, we ask you to send us your app idea via Microsoft AppSource to get your object range and developer license. Learn more about this step [here](). 
 
-2)	Develop your Dynamics 365 for Finanicials App   
-
-When developing your App you need to think about some technical aspects of your App.
-
-If earlier you were building Apps as extensions v1.0 in the classic Development tools of Dynamics NAV and you want to publish Apps today we ask you to familiarize yourself with the information on [aka.ms/AppsForFinancials](http://aka.ms/AppsForFinancials).
-
+2)	Develop your Dynamics 365 for Financials App   
+When developing your App you need to think about some technical aspects of your App.  
+If earlier you were building Apps as extensions v1.0 in the classic Development tools of Dynamics NAV and you want to publish Apps today we ask you to familiarize yourself with the information on [aka.ms/AppsForFinancials](http://aka.ms/AppsForFinancials).  
 In any other case we believe you should familiarize yourself with the development tools for Dynamics 365 for Financials which is in preview. With this toolset you will be able to build extensions v2.0.
-Extensions v2.0 have lots of benefits and will be enabled in the Dynamics 365 for Financials service soon. Learn more about extensions 2.0 here and the new development tools [here](https://docs.microsoft.com/en-us/dynamics365/developerbe/devenv-dev-overview?branch=master).
-
+Extensions v2.0 have lots of benefits and will be enabled in the Dynamics 365 for Financials service soon. Learn more about extensions 2.0 here and the new development tools [here](https://docs.microsoft.com/en-us/dynamics365/developerbe/devenv-dev-overview?branch=master).  
 You also need to spend some time on how to best market your app on Microsoft Appsource. Simply listing your app's features and functionality will not convert prospects to buyers. Learn how to develop the [Marketing aspects](https://go.microsoft.com/fwlink/?linkid=841518) of your App.
 
 
