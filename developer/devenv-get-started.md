@@ -22,9 +22,16 @@ To get started writing extensions for [!INCLUDE[d365fin_long_md](includes/d365fi
 ## Steps
 Follow these three steps to get up and running.
 
+1) First, you will need an Azure subscription, sign up for a free subscription.
+2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).
+3) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen.
+
+> [!NOTE] Get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
+
+<!--
 1) Sign up for [Dynamics 365 for Financials]()  
 2) Download [Visual Studio Code](https://code.visualstudio.com/Download)  
-3) Download the [AL Language extension](vscode:extension/ms-dynamics-smb.al)  
+3) Download the [AL Language extension](vscode:extension/ms-dynamics-smb.al)  -->
 
 # Getting started with Visual Studio Code
 With the developer preview, you get sample code that compiles and runs by following a few steps.  

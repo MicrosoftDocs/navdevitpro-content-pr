@@ -1,7 +1,7 @@
 ---
 title: "Extend Dynamics 365 for Financials"
 ms.custom: na
-ms.date: 06/26/2017
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,28 +26,25 @@ You decide whether you want to **extend** the Dynamics 365 for financials functi
 |A **Connect App** establishes a connection between two independent services using an API to interchange data. A typical example of a Connect App is a Payroll solution. All work related to Payroll is done within your service and only as a last step is the financial data posted into Dynamics 365 for Financials using the API. A Connect App is mainly created using common development tools, REST API’s, and the API’s made available in Dynamics 365 for Financials from Update 7 and onwards. When needed a Connect App in Dynamics 365 for Financials can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.|Dynamics 365 for Financials supports **Add-On** or **Embed** solutions. An Add-On adds to the existing Dynamics 365 for Financials functionality to integrate a solution such as PayPal, whereas an Embed solution implements an end-to-end experience such as a solution for the dental industry or law firms. An App typically makes use of the variety of development tools for Dynamics 365 for Financials and can also include the APIs available for Dynamics 365 for Financials. An embedded solution can furthermore be rebranded to become an integrated part of the overall end-to-end experience.
 |
 
+<!--
 ## Hear what the community tells about Dynamics 365 and the new development tools
 
-<!DOCTYPE html>
-<html>
-<body>
-<iframe width="560" height="315"
-src="https://app.wipster.io/Review/CZVEDQAcuPbAtVaYPJn9bw0-DcJujQJx6KeWY4iO9pJrlh9rog">
-</iframe>
-</body>
-</html>
-
-<!--
 [![Customers](media/connect.png)](https://app.wipster.io/Review/CZVEDQAcuPbAtVaYPJn9bw0-DcJujQJx6KeWY4iO9pJrlh9rog "Customers")
 -->
 
 ## Want to try it out?
-It's easy! Just spin up a sandbox environment by going through these steps:
-<!-- Azure VM, check with Stan -->
+It's easy! Just spin up a sandbox environment by going through these steps. 
+
+1) First, you will need an Azure subscription, sign up for a free subscription.
+2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).
+3) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen.
+
+<!-- Azure VM, check with Stan
 
 1) Sign up for [Dynamics 365 for Financials]()  
 2) Download [Visual Studio Code](https://code.visualstudio.com/Download)  
 3) Download the [AL Language extension](vscode:extension/ms-dynamics-smb.al)  
+-->
 
 ## Ready to build a business App and publish it to Microsoft AppSource?
 We are excited to have you in our family of Dynamics 365 for Financials App Providers. Now that you are getting serious about this, here are the steps that you will have to go through: 
