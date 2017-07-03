@@ -33,7 +33,7 @@ Sets whether the debugger breaks on errors.
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the break on errors is set successfully; otherwise, **false**.  
+ **True** if the break on errors is set successfully; otherwise, **false**.  
   
  If you omit this optional return value and if the break is not set successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
@@ -48,6 +48,7 @@ Value := true;
 DEBUGGER.BREAKONERROR(Value);  
   
 ```  
-  
+<!--  
 ## See Also  
  [How to: Break on Errors](How-to--Break-on-Errors.md)
+ -->

@@ -26,11 +26,12 @@ Breaks code execution of a debugging session.
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if a breakpoint is set in the debugging session; otherwise, **false**.  
+ **True** if a breakpoint is set in the debugging session; otherwise, **false**.  
   
  If you omit this optional return value and if the break is not set successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
-  
+ <!-- 
 ## See Also  
- [Breakpoints](Breakpoints.md)   
+ [Breakpoints](devenv-Breakpoints.md)   
  [How to: Break on the Next Statement](How-to--Break-on-the-Next-Statement.md)   
  [How to: Manage Breakpoints from the Development Environment](How-to--Manage-Breakpoints-from-the-Development-Environment.md)
+ -->

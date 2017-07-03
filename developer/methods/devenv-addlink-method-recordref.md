@@ -1,7 +1,7 @@
 ---
 title: "ADDLINK Method (RecordRef)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -44,7 +44,7 @@ Adds a link to a record in a table.
  The URL can be a link to a Web site, a file stored on the local or on a remote computer, or a link to a [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] page. You can then view the link in the **Links** FactBox on pages that display the record.  
 
 ## Example  
- The following example adds a link to a record in the Customer table. The code starts by opening table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The [FIELD Method \(RecordRef\)](devenv-FIELD-Method-RecordRef.md) creates a FieldRef variable that is named MyFieldRef for the first field \(No.\). Next, `MyFieldRef.VALUE` is set to record 01121212. The [FIND Method \(RecordRef\)](devenv-FIND-Method-RecordRef.md) method searches the records for record no. 01121212. If the record is found, then the ADDLINK method adds a link to the record. The link is assigned a link ID, which is stored in the LinkID variable. The link ID is displayed in a message box. You can view the link you added in the **Links** FactBox on the Customer List or Customer Card pages. This example requires that you create the following global variables and text constants.  
+ The following example adds a link to a record in the Customer table. The code starts by opening table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The [FIELD Method \(RecordRef\)](devenv-field-method-recordref.md) creates a FieldRef variable that is named MyFieldRef for the first field \(No.\). Next, `MyFieldRef.VALUE` is set to record 01121212. The [FIND Method \(RecordRef\)](devenv-find-method-recordref.md) method searches the records for record no. 01121212. If the record is found, then the ADDLINK method adds a link to the record. The link is assigned a link ID, which is stored in the LinkID variable. The link ID is displayed in a message box. You can view the link you added in the **Links** FactBox on the Customer List or Customer Card pages. This example requires that you create the following global variables and text constants.  
 
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -73,4 +73,4 @@ ELSE
 ```  
 
 ## See Also  
- [RecordRef Data Type](../datatypes/devenv-RecordRef-Data-Type.md)
+ [RecordRef Data Type](../datatypes/devenv-recordref-data-type.md)
