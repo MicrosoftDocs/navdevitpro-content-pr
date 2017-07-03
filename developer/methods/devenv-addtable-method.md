@@ -1,7 +1,7 @@
 ---
 title: "ADDTABLE Method"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -37,7 +37,7 @@ Adds filter control for a table to a filter page.
  *TableNo*  
  Type: Integer  
 
- The ID of the table object that you want to filter. The ID is specified by the table's [ID Property](../properties/devenv-ID-Property.md).  
+ The ID of the table object that you want to filter. The ID is specified by the table's [ID Property](../properties/devenv-id-property.md).  
 
 ## Return Value  
  Type: Text  
@@ -68,12 +68,11 @@ FilterPageBuilder.ADDTABLE(varDateItem, DATABASE::Date);
 ```  
 
 ## See Also  
- [ADDFIELD Method](devenv-ADDFIELD-Method.md)   
- [ADDFIELDNO Method](devenv-ADDFIELDNO-Method.md)   
- [ADDRECORD Method](devenv-ADDRECORD-Method.md)   
- [ADDRECORDREF Method](devenv-ADDRECORDREF-Method.md)   
- [GETVIEW method \(FilterPageBuilder\)](devenv-GETVIEW-Method-FilterPageBuilder.md)   
- [SETVIEW Method](devenv-SETVIEW-Method.md)   
- [COUNT Method \(FilterPageBuilder\)](devenv-COUNT-Method-FilterPageBuilder.md)   
- [NAME Method \(FilterPageBuilder\)](devenv-NAME-Method-FilterPageBuilder.md)   
- [RUNMODAL Method \(FilterPageBuilder\)](devenv-RUNMODAL-Method-FilterPageBuilder.md)
+ [ADDFIELD Method](devenv-addfield-method.md)   
+ [ADDFIELDNO Method](devenv-addfieldno-method.md)   
+ [ADDRECORD Method](devenv-addrecord-method.md)   
+ [ADDRECORDREF Method](devenv-addrecordref-method.md)   
+ [SETVIEW Method](devenv-setview-method.md)   
+ [COUNT Method \(FilterPageBuilder\)](devenv-count-method-filterpagebuilder.md)   
+ [NAME Method \(FilterPageBuilder\)](devenv-name-method-filterpagebuilder.md)   
+ [RUNMODAL Method \(FilterPageBuilder\)](devenv-runmodal-method-filterpagebuilder.md)
