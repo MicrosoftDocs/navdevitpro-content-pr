@@ -33,7 +33,7 @@ The following methods are supported for the Query data type:
 
 ## Remarks  
  A query enables you to retrieve data from multiple tables and combine the data in single dataset.  
-  
+ <!-- 
 ## See Also  
  [Accessing Columns of a Query Dataset](../../dynamics-nav/Accessing-Columns-of-a-Query-Dataset.md)   
- 
+ -->

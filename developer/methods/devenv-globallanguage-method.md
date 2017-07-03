@@ -34,7 +34,7 @@ Gets and sets the current global language setting.
 ## Remarks  
  The LanguageID is a standard Windows language ID. The Windows Language virtual table contains a list of these IDs and the corresponding names and short names.  
   
- For more information, see [Multilanguage Development](Multilanguage-Development.md).  
+ For more information, see [Multilanguage Development](../devenv-multilanguage-development.md).  
   
 ## See Also  
  [WINDOWSLANGUAGE Method](devenv-WINDOWSLANGUAGE-Method.md)

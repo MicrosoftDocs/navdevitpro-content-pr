@@ -28,7 +28,7 @@ MESSAGE(String [, Value1, …])
  *String*  
  Type: Code or text constant  
   
- This string contains the text you want the system to display in the message window. Use a backslash \(\\\) to start a new line. Use percent signs \(%\) to insert variable values into the string. Place the percent where you want the system to substitute the variable value. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
+ This string contains the text you want the system to display in the message window. Use a backslash \(\\\) to start a new line. Use percent signs \(%\) to insert variable values into the string. Place the percent where you want the system to substitute the variable value. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](../devenv-multilanguage-development.md).  
   
  *Value1, …*  
  Type: Any  

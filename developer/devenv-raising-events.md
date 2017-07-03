@@ -19,7 +19,12 @@ When the code that calls the event publisher method is run, all event subscriber
 If there are no subscribers to the published event, then the line of code that calls the event publisher method is ignored and not executed.  
 
 ## <a name="RaisingEventEx">Example
-This example uses a page extension object **70000002 MyCustomerExt** to modify the page **21 Customer Card** so that an event is raised when a user changes the **Address** field. For this example, the event has already been published by the event publisher method `OnAddressLineChanged` in a separate codeunit called **70000001 MyPublishers**. In the code that follows, the page extension object modifies the `OnBeforeValidate` trigger of the **Customer Card** page to raise the event `OnAddressLineChanged` which includes the new value of the **Address** field.
+This example uses a page extension object **70000002 MyCustomerExt** to modify the page **21 Customer Card** so that an event is raised when a user changes the **Address** field. This example assumes that the event has already been published by the event publisher method `OnAddressLineChanged` in a separate codeunit called **70000001 MyPublishers**.
+
+>[!NOTE]
+>This example is part of a larger, simple scenario where when users change the address of a customer on the page **21 Customer Card**, you want to check that the address does not include a plus sign (+). If it does, you want to display a message. To accomplish this, you will publish an event that is raised when the **Address** field on **Customer Card** is changed, and add an event subscriber method to that includes logic that checks the address value and returns a message to the user if it contains a plus sign.
+
+In the code that follows, the page extension object modifies the `OnBeforeValidate` trigger of the **Customer Card** page to raise the event `OnAddressLineChanged` which includes the new value of the **Address** field.
 
 ```
 pageextension 70000002 MyCustomerExt extends "Customer Card"
@@ -44,12 +49,11 @@ pageextension 70000002 MyCustomerExt extends "Customer Card"
     
 }
 ```
-To learn about how the event used in this example is published, see [Publishing Events Example](Publishing-Events.md#PubEx). 
+To learn about how the event used in this example is published, see [Publishing Events Example](devenv-publishing-events.md#PubEx). 
 
-The next step would be to subscribe to the event to handle to condition. For information, see [Subscribing to Events](Subscribing-to-Events.md).  
+The next step would be to subscribe to the event to handle to condition.  To see an example of how to subscribe to this event, see [Subscribing to Events Example](devenv-subscribing-to-events.md#SubEventEx).  
 
 ## See Also  
- [Publishing Events](Publishing-Events.md)   
- [Subscribing to Events](Subscribing-to-Events.md)   
- [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
- [Introducing Events](Introducing-Events.md)
+ [Publishing Events](devenv-Publishing-Events.md)   
+ [Subscribing to Events](devenv-Subscribing-to-Events.md)   
+ [Events in Microsoft Dynamics NAV](devenv-events-in-al.md)   

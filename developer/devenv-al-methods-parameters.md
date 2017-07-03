@@ -1,5 +1,5 @@
 ---
-title: "AL Methods"
+title: "Working with AL Methods"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-365-for-financials"
 author: jswymer
 ---
-# Working with AL Methods
+# AL Methods
 
 Like other languages, AL methods are a fundamental programming element. A method, also known as a procedure, is a named group of statements that perform an operation or task. Depending on the scope, methods can be called and executed from the same object in which they are declared or from other parts of the application.
 
@@ -25,6 +25,9 @@ local procedure <method_name>(parameter list) <return_value_name> : <data_type>[
 >[!TIP]
 > Use the `tprocedure` code snippet to help declare a method.
 
+### Snippet support
+Typing the shortcut ```tprocedure``` will create the basic structure for a method when usingng the AL Extension in Visual Studio Code.
+
 ### Attributes (optional)
 An attribute is modifier on a method declaration that specifies information that controls the method's use and behavior. For example, decorating a method with the Integration attribute sets the method to be an event publisher. An attribute can have one or more arguments that set properties for the method instance.
 
@@ -33,46 +36,52 @@ Attributes are placed before the method. For information about the available att
 ### Local and global scope
 A method can be a *local* method or *global* method. A local method can only be accessed or called from inside the object in which it is declared. A global method can be called from inside the object in which it is declared and from other objects.
 
-To declare a local method, start the declaration with `local`. To declare a global method, omit `local`.
+To declare a local method, start the declaration with `local`: 
+```
+local procedure MyMethod();
+```
+To declare a global method, omit `local`:
+
+```
+ procedure MyMethod();
+```
 
 ### Parameters (optional)  
 A parameter is one or more variables or expressions that are sent to the method through
 the method call. The parameter provides information to the method, and the
-method can modify that information.
+method can modify that information. In the method declaration, you place the parameters with a set of parentheses `()`. If there is more than one parameter, the parameters are
+separated by commas. A parameter is defined by a data type. Some data types, such as `Reccord`require a subtype.
 
-If a method has parameters, a set of parentheses `()`are included at the end of the method signature. Within these parentheses are
-one or more parameters. If there is more than one parameter, the parameters are
-separated by commas.
+For example, the the following method declaration includes two parameters: `MyCustomer`and `MyDimension`:
+```
+ procedure  MyMethod(MyCustomer : Record Customer;VAR MyDimension : ARRAY [2] OF Boolean)
+````
 
 ### Return values (optional)
-
 A method can return data that can be then coded against. A return value is a defined by a name, data type, and optional length depending on the data type (For example, if the return value is a Text DataType, the text might have a length of 50).
 
 ## Calling Methods
 You run, or call, a method by using its name in a method statement. When a method is called the current application sequence is suspended and the code on the method is executed. When the method code is completed, the application code sequence returns to where the method was called from. How the method is called determines what happens when it returns.
 
-### In expressions
 A method can be used as part of an expression. For example, the following code uses a
 method named `CalculatePrice` as an expression:
 ```
 TotalCost := Quantity * CalculatePrice;
 ```
-
 In this case, the `CalculatePrice` method must return a value that is used in evaluating the
 expression. This return value is then multiplied by the Quantity variable and that
 result is assigned to the TotalCost variable.
 
-### Using call statements
 A method can also be run by using a method call statement. This statement
 only calls the method and does not return any value. The following is an
-example of calling a method named `MyRunMethodunction`:
+example of calling a method named `MyRunMethod`:
 ```
 IF Quantity > 5 THEN
 MyRunMethod;
 ```
 The `MyRunMethod` returns no data back to the calling code. For more information, see [Method Call Statements](devenv-method-statements.md).
 
-## Parameters  
+### Parameters  
 In a method call, the parameters are separated by commas, and the optional parameters may be omitted starting from the right. For example, this means that if a method has three optional parameters, then you cannot omit the second parameter without omitting the third parameter.  
   
 You can specify that a parameter is passed to a method by value or by reference.  
@@ -119,17 +128,14 @@ NewDate := DMY2DATE(5, 11, 1992); //Returns the date November 5, 1992
   
  Depending on the use of the DMY2DATE method, 1, 2, or 3 parameters can be passed to the method because the second and third parameters are optional. When the second and third parameters are not used, values from the system date are used as default.  
   
-## Return Values  
- A method can return a value. For more information about how to specify that a method has a return value, see [How to: Add a Method to a Codeunit](How-to--Add-a-Method-to-a-Codeunit.md).  
-  
-### Example 1  
+## Example 4  
  You can assign the return value of a method to a variable.  
   
 ```  
 ReturnVal := MyMethod(Param1);  
 ```  
   
-### Example 2  
+### Example 5  
  In this example, MyMethod returns a Boolean value. You can use the return value in a conditional statement.  
   
 ```  
