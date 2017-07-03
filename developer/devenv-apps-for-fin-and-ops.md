@@ -14,29 +14,33 @@ author: SusanneWindfeldPedersen
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-# Extend Dynamics 365 for Financials
-Building extensions and connect apps for Dynamics 365 for Financials allows you to enrich and leverage the Dynamics 365 brand – a brand that millions of users know and trust. Extensions enables you to quickly make changes to respond to local market requirements or industry specific needs, giving you a competitive edge. Achieve more with our new platform that delivers a modern, flexible development experience. When your app is done, publish it through Microsoft AppSource – the main repository for Microsoft’s business apps. 
+# Developing Apps for Dynamics 365 for Financials
+Reach more customers by bringing Apps for Dynamics 365 for Financials into Microsoft Appsource, the marketplace for Microsoft business apps. 
+Dynamics 365 gives you rich functionality, a modern always up-to-date platform, and a set of great new development tools.
+When your app is done, publish it through Microsoft AppSource – the marketplace for Microsoft’s business apps and start benefiting from a brand that millions of users know and trust.
 
+You decide whether you want to **extend** the Dynamics 365 for financials functionality or **connect** to your existing service.
 
 |<h3>Connect</h3>|<h3>Extend</h3>|
 |----------------|---------------|
-|A **Connect App** establishes a connection between two independent services using an API to interchange data. A typical example of a Connect App is a Payroll solution. All work related to Payroll is done inside the payroll system, and only as a last step is the financial data posted into Dynamics 365 for Financials using the API. A Connect App is mainly created using common development tools, REST API’s, and the API’s made available in Dynamics 365 for Financials from Update 7 and onwards. A Connect App can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.|An extension can either be an **Add-On** or an **Embed** solution. An Add-On adds to the existing Dynamics 365 for Financials functionality to integrate a solution such as online payment, whereas an Embed solution implements an end-to-end experience such as a solution for the dental industry or law firms. An extension typically makes use of the variety of development tools for Dynamics 365 for Financials and can also include the APIs available for Dynamics 365 for Financials. An embedded solution can furthermore be rebranded to become an integrated part of the overall end-to-end experience.
+|A **Connect App** establishes a connection between two independent services using an API to interchange data. A typical example of a Connect App is a Payroll solution. All work related to Payroll is done within your service and only as a last step is the financial data posted into Dynamics 365 for Financials using the API. A Connect App is mainly created using common development tools, REST API’s, and the API’s made available in Dynamics 365 for Financials from Update 7 and onwards. When needed a Connect App in Dynamics 365 for Financials can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.|Dynamics 365 for Financials supports **Add-On** or **Embed** solutions. An Add-On adds to the existing Dynamics 365 for Financials functionality to integrate a solution such as online payment, whereas an Embed solution implements an end-to-end experience such as a solution for the dental industry or law firms. An App typically makes use of the variety of development tools for Dynamics 365 for Financials and can also include the APIs available for Dynamics 365 for Financials. An embedded solution can furthermore be rebranded to become an integrated part of the overall end-to-end experience.
 |
 
-## Want to try it out? Spin up a sandbox
+## Hear what the community tells about Dynamics 365 and the new development tools
 
-<!--
-1)	Get your Microsoft Dynamics 365 for Financials tenant: [link]()
-2)	In Microsoft Dynamics 365 for Financials, search for **Environments**, and choose the relevant link. 
-3)	Choose Sandbox Environment, and follow the instructions in the wizard.
-4)	Next, make sure you have Visual Studio Code installed: https://code.visualstudio.com/Download 
-5)	In Visual Studio Code, ... 
--->
+[![Customers](media/connect.png)](https://app.wipster.io/Review/CZVEDQAcuPbAtVaYPJn9bw0-DcJujQJx6KeWY4iO9pJrlh9rog "Customers")
+
+
+## Want to try it out?
+It's easy! Just spin up a sandbox environment by going through these steps:
+
 1) Sign up for [Dynamics 365 for Financials]()  
 2) Download [Visual Studio Code](https://code.visualstudio.com/Download)  
 3) Download the [AL Language extension](vscode:extension/ms-dynamics-smb.al)  
 
-## Want to build an app and publish it on AppSource?
+## Ready to build a business App and publish it to Microsoft AppSource?
+We are excited to have you in our family of Dynamics 365 for Financials App Providers. Now that you are getting serious about this, here are the steps that you will have to go through: 
+
 1)	[Get the prerequisites in place]()  
 To get started with development, you must have a Microsoft Partner Network ID, a Developer account, and a PSBC account in place. You furthermore must send us your app idea via AppSource, to get your object range and developer license. Learn in this document how to get these prerequisites in place. 
 
