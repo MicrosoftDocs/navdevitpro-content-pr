@@ -30,6 +30,9 @@ You decide whether you want to **extend** the Dynamics 365 for financials functi
 
 [![Customers](media/connect.png)](https://app.wipster.io/Review/CZVEDQAcuPbAtVaYPJn9bw0-DcJujQJx6KeWY4iO9pJrlh9rog "Customers")
 
+<!-- html -->
+
+<iframe width="420" height="315" src="https://app.wipster.io/Review/CZVEDQAcuPbAtVaYPJn9bw0-DcJujQJx6KeWY4iO9pJrlh9rog" frameborder="0" allowfullscreen></iframe>
 
 ## Want to try it out?
 It's easy! Just spin up a sandbox environment by going through these steps:
