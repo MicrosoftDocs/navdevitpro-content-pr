@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SetBaseAddress Method
 
 Sets the base address of Uniform Resource Identifier (URI) of the Internet resource used when sending requests.
