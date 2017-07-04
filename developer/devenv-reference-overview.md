@@ -39,8 +39,5 @@ This section describes all of the objects that are available with [!INCLUDE[d365
 |---|----|
 |Learn about writing codeunits for your extension.|[Codeunit Object](devenv-codeunit-object.md)|
 
-## REST API
-The REST API for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] allows you to access web services. For more information about the REST API, see [REST API](devenv-restapi-overview.md)
-
 ## See Also
 [Getting Started](devenv-get-started.md)  

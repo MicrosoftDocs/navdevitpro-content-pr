@@ -28,7 +28,7 @@ You decide whether you want to **extend** the Dynamics 365 for financials functi
 
 ## Hear what the community tells about Dynamics 365 and the new development tools
 
-[![Community](media/CustomerTestimonials.png)]("https://app.wipster.io/Review/CZVEDQAcuPbAtVaYPJn9bw0-DcJujQJx6KeWY4iO9pJrlh9rog "Customers")
+[![Community](media/CustomerTestimonials.png)]("https://app.wipster.io/Review/CZVEDQAcuPbAtVaYPJn9bw0-DcJujQJx6KeWY4iO9pJrlh9rog" "Customers")
 
 ## Want to try it out?
 It's easy! Just spin up a sandbox environment by going through these steps. 
