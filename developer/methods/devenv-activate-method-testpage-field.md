@@ -1,7 +1,7 @@
 ---
 title: "ACTIVATE Method (TestPage Field)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -30,4 +30,4 @@ TestPage.ACTIVATE
  The test page variable that you use to refer to the test page.  
   
 ## See Also  
- [TestPage Field Methods](devenv-TestPage-Field-Methods.md)
+ [TestPage Field Methods](devenv-testpage-field-methods.md)

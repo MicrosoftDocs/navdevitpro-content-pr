@@ -40,7 +40,7 @@ codeunit 70000100 CreateCustomer
 ```
 
 ## See Also
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)  
+[Developing Extensions](devenv-dev-overview.md)  
 [Table Extension Object](devenv-table-ext-object.md)  
 [Page Extension Object](devenv-page-ext-object.md)  
 [Developer Reference](devenv-reference-overview.md)

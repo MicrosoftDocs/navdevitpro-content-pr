@@ -2,7 +2,7 @@
 title: "Remove Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 03/28/2017
+ms.date: 06/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -13,6 +13,8 @@ caps.latest.revision: 9
 manager: edupont
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # Remove Method
 Removes the property with the given key from the object.
@@ -28,7 +30,7 @@ Removes the property with the given key from the object.
 ## Return Value  
 Type: Boolean
 
-**true** if a property with the given key was present on the object; otherwise, **false**.
+**True** if a property with the given key was present on the object; otherwise, **false**.
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  

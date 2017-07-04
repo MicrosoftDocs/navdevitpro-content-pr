@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # AsXmlComment Method
 Converts the node to an XmlComment node. The operation will fail if the node is not an XmlComment.  
 ```  

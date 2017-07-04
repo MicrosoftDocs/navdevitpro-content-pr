@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # AddNamespace Method
 Adds the given namespace to the collection.  
 ```  

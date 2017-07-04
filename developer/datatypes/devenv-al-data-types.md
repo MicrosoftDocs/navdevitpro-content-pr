@@ -1,7 +1,7 @@
 ---
 title: "AL Data Types"
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 06/30/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -49,11 +49,10 @@ AL uses variables to store data of various types. By declaring variables of the 
 |[BigText Data Type](devenv-bigtext-data-type.md)|Complex||  
 |[BLOB Data Type](devenv-blob-data-type.md)|Complex||  
 |[Codeunit Data Type](devenv-codeunit-data-type.md)|Complex||  
-|[DateFormula Data Type](devenv-dateformula-data-type.md)|Complex||  
+|[DateFormula Data Type](devenv-date-formula-data-type.md)|Complex||  
 |[Dialog Data Type](devenv-dialog-data-type.md)|Complex||  
-|DotNet Data Type|Complex||  
 |[File Data Type](devenv-file-data-type.md)|Complex||  
-|[fieldref Data Type](devenv-fieldref-data-type.md)|Complex||  
+|[Fieldref Data Type](devenv-fieldref-data-type.md)|Complex||  
 |[GUID Data Type](devenv-guid-data-type.md)|Complex||  
 |[InStream and OutStream Data Types](devenv-instream-and-outstream-data-types.md)|Complex||  
 |[KeyRef Data Type](devenv-keyref-data-type.md)|Complex||  
@@ -396,4 +395,3 @@ MAXSTRLEN(t); // Returns 6.
 
 ## See Also
 [AL Methods](../methods/devenv-al-methods.md)  
-[AL Data Types]()  

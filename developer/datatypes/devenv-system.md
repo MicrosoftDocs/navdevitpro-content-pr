@@ -1,7 +1,7 @@
 ---
 title: "System"
 ms.custom: na
-ms.date: 06/08/2017
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,18 +14,18 @@ author: SusanneWindfeldPedersen
 # System
 This section contains the following topics:  
 
--   [Array methods](../methods/devenv-array-methods.md)  
+-   [Array Methods](../methods/devenv-array-methods.md)  
 
--   [Error Handling](Error-Handling.md)  
+-   [Error Handling Methods](../methods/devenv-error-handling-methods.md)  
 
--   [Language methods](../methods/devenv-language-methods.md)  
+-   [Language Methods](../methods/devenv-language-methods.md)  
 
--   [Operating System methods](../methods/devenv-operating-system-methods.md)  
+-   [Operating System Methods](../methods/devenv-operating-system-methods.md)  
 
--   [Variable methods](../methods/devenv-variable-methods.md)  
+-   [Variable Methods](../methods/devenv-variable-methods.md)  
 
--   [Encryption methods](../methods/devenv-encryption-methods.md)  
+-   [Encryption Methods](../methods/devenv-encryption-methods.md)  
 
 ## See Also  
- [AL methods](../methods/devenv-al-methods.md)   
- [Developer Reference](devenv-developer-reference.md)
+ [AL Methods](../methods/devenv-al-methods.md)   
+ <!--[Developer Reference](../devenv-developer-reference.md)-->
