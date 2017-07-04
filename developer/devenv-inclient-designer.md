@@ -44,6 +44,6 @@ Change a FastTab caption by clicking the caption and start writing.
 The display type icons let you preview the changes you made on desktop, tablet, and phone clients. This way you can make sure that your design will work on the intended display target(s). You can flip to display tablet and phone designs in landscape as well.
 
 ## See Also
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)  
+[Developing Extensions](devenv-dev-overview.md)  
 [Getting Started](devenv-get-started.md)  
 [Developer Reference](devenv-reference-overview.md)

@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # AsTime Method
 
 Converts the value in a JsonValue to a Time data type.

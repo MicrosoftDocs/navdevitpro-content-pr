@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # AsToken Method
 Converts the value in a JsonObject to a JsonToken data type.
 

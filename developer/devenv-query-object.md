@@ -86,7 +86,7 @@ query 100 "Top Customer Overview"
 ```
 
 ## See Also
-[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)  
+[Developing Extensions](newdev-dev-overview.md)  
 [Developer Reference](newdev-reference-overview.md)  
 [Page Extension Object](newdev-page-ext-object.md)  
 [Report Object](newdev-report-object.md)  
