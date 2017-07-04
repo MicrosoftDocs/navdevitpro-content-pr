@@ -1,7 +1,7 @@
 ---
 title: "COLUMNNAME Method"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -60,8 +60,8 @@ NameOfColumn := MyQuery.COLUMNNAME("Customer_No");
  The advantage of using this statement instead of assigning the column name in a statement, such as `NameOfColumn := 'Customer_No';`, is that the **COLUMNNAME** method dynamically adapts to any change to the column name that is made in the development environment. The `NameOfColumn := 'Customer_No';`statement performs a static assignment.  
 
 ## See Also  
- <!--NAV [How to: Create Queries](How-to--Create-Queries.md) -->   
- [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md)   
+ <!--NAV [How to: Create Queries](How-to--Create-Queries.md) 
+ [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md)   -->
  [Query Object](../devenv-query-object.md)   
  [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
  [Multilanguage Development](../devenv-multilanguage-development.md)
