@@ -22,9 +22,9 @@ To get started writing extensions for [!INCLUDE[d365fin_long_md](includes/d365fi
 ## Steps
 Follow these three steps to get up and running.
 
-1) First, you will need an Azure subscription, sign up for a free subscription.
-2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).
-3) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen.
+1) First, you will need an Azure subscription, sign up for a free subscription.  
+2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).  
+3) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen.  
 
 > [!NOTE] Get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
 
