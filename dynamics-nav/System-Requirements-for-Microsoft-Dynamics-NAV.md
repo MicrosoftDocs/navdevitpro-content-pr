@@ -1,5 +1,5 @@
 ---
-title: "System Requirements for Microsoft Dynamics NAV 2017"
+title: "System Requirements for Microsoft Dynamics NAV TENERIFE"
 author: edupont04
 ms.custom: na
 ms.date: 12/28/2016
@@ -11,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 014e3285-02be-459c-9a54-eae45ea71e04
 
 ---
-# System Requirements for Microsoft Dynamics NAV 2017
+# System Requirements for Microsoft Dynamics NAV TENERIFE
 The following sections list the minimum hardware and software requirements to install and run [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. **Minimum** means that later versions \(such as SP1, SP2, or R2 versions\) of a required software product are also supported.  
 
 **Client components**  
@@ -188,8 +188,10 @@ The following table shows the minimum system requirements for the [!INCLUDE[navn
 
 |||  
 |-|-|  
-|Additional software|-   Microsoft Dynamics CRM Online 2016, Microsoft Dynamics CRM Online 2016 Update 1, or Microsoft Dynamics CRM 2016. <br/>-   Microsoft Dynamics CRM Online 2015, Microsoft Dynamics CRM Online 2015 Update 1, or Microsoft Dynamics CRM 2015.|
-|Additional information|- Item Availability is not supported on Dynamics CRM 2015, versions Update 1 and Online.<BR/> You can obtain the item availability support by running the DynamicsNAVIntegrationSolution.zip file on the Dynanmics NAV 2016 product DVD.<BR/> For more information, see [How to: Prepare Dynamics CRM for Integration](How-to-prepare-Dynamics-CRM-for-Integration.md).      |  
+|Microsoft Dynamics CRM versions|- Microsoft Dynamics CRM 2015 or Microsoft Dynamics CRM 2016<BR />&nbsp;&nbsp;Note: AD, IFD and Claims authentication types are supported for above editions.<BR /><BR />-  Microsoft Dynamics CRM Online 2015, Microsoft Dynamics CRM Online 2015 Update 1, or Microsoft Dynamics CRM Online 2016 Update 1 or Microsoft Dynamics 365<BR />&nbsp;&nbsp;Note: Oauth and Office365 authentication types are supported for these editions. <BR /><BR />For more details on authentication types, see [Connection strings in XRM tooling to connect to Dynamics 365](https://msdn.microsoft.com/en-us/library/mt608573.aspx).|
+|[!INCLUDE[navnow_md](includes/navnow_md.md)] Integration Solution (.zip)|For Dynamics CRM 2015, Dynamics CRM Online 2015, and Dynamics CRM Online 2015 Update 1:<BR/><BR/>- Use the DynamicsNAVIntegrationSolution.zip file that is found on the Dynamics NAV 2016 installation media (DVD) to install the solution.<BR/>- Item Availability is not supported on Dynamics CRM 2015, versions Update 1 and Online.<BR/><BR/>For more information, see [How to: Prepare Dynamics CRM for Integration](How-to-prepare-Dynamics-CRM-for-Integration.md).      |  
+
+
 
 ##  <a name="SharePointApp"></a> Microsoft Dynamics NAV as an App for SharePoint Requirements  
  The following table shows the minimum system requirements for [!INCLUDE[navnow](includes/navnow_md.md)] as an App for SharePoint.  
