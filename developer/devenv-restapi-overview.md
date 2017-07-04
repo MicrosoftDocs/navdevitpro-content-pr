@@ -3,7 +3,7 @@ title: "HTTP, JSON, and XML API Reference"
 description: "Overview of the API capabilities."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 06/01/2017
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,7 +23,7 @@ With the API for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] you ha
 
 |Class|Description|
 |-----|-----------|
-|[HttpClient](api/httpclient-class.md)|Provides a base class for sending HTTP requests and receiving HTTP responses from a resource identified by a Uri.|
+|[HttpClient](api/httpclient-class.md)|Provides a base class for sending HTTP requests and receiving HTTP responses from a resource identified by a Uniform Resource Identifier (URI).|
 |[HttpContent](api/httpcontent-class.md)|A base class representing an HTTP entity body and content headers.|
 |[HttpHeaders](api/httpheaders-class.md)|The HttpHeaders class contains a collection of headers and their values.|
 |[HttpRequestMessage](api/httprequestmessage-class.md)|Represents an HTTP request message.|
