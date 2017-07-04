@@ -15,11 +15,16 @@ author: jswymer
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Programming in AL
-This section describes where to write AL code and how to reuse code.  
+AL is the programming language that is used for manipulating data (such as retrieving, inserting and modifying records) in a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] database, and controlling the execution of the various application
+objects, such as pages, reports, or codeunits.
 
- For more information about how to use system-defined variables, see [System-Defined Variables](devenv-system-defined-variables.md).  
-
- For more information about the most frequently used AL methods, see [Essential AL Methods](devenv-essential-al-methods.md).  
+With AL, you can create business rules to ensure that the data which
+is stored in the database is meaningful and consistent with the way customers do
+business. Through AL programming, you can:
+-   Add new data or transfer data from one table to another, for example,
+from a journal table to a ledger table.
+-   Combine data from multiple tables into one report or display it on
+one form or page.
 
 ## Where to Write AL Code  
  Almost every object in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] contains triggers where you can add your AL code. Triggers exist for the following objects:  
@@ -58,8 +63,9 @@ This section describes where to write AL code and how to reuse code.
 -   If you must put code on an object instead of in a codeunit, then put the code as close as possible to the object on which it operates. For example, put code that modifies records in the triggers of the table fields.  
 
 ## Reusing Code  
- Reusing code makes developing applications both faster and easier. More importantly, if you organize your AL code as suggested, your applications will be less prone to errors. By centralizing the code, you will not unintentionally create inconsistencies by performing the same calculation in many places, for example, in several triggers that have the same table field as their source expression. If you have to change the code, you could either forget about some of these triggers or make a mistake when you modify one of them.  
+ Reusing code makes developing applications both faster and easier. More importantly, if you organize your AL code as suggested, your applications will be less prone to errors. By centralizing the code, you will not unintentionally create inconsistencies by performing the same calculation in many places, for example, in several triggers that have the same table field as their source expression. If you have to change the code, you could either forget about some of these triggers or make a mistake when you modify one of them.
 
-## See Also  
- [System-Defined Variables](devenv-system-defined-variables.md)   
- [Essential AL Methods](devenv-essential-al-methods.md)
+## See Also
+ [Methods](devenv-al-methods.md)  
+ [Control Statements](devenv-al-control-statements.md)  
+ [System-Defined Variables](devenv-system-defined-variables.md)  

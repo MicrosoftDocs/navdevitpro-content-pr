@@ -68,7 +68,7 @@ For example, the the following method declaration includes two parameters: `MyCu
 A method can return data that can be then coded against. A return value is a defined by a name, data type, and optional length depending on the data type (For example, if the return value is a Text DataType, the text might have a length of 50).
 
 ## Calling Methods
-You run, or call, a method by using its name in a method statement. When a method is called the current application sequence is suspended and the code on the method is executed. When the method code is completed, the application code sequence returns to where the method was called from. How the method is called determines what happens when it returns.
+You execute, or call, a built-in or custom method by using its name in a method call statement. When a method is called the current application sequence is suspended and the code on the method is executed. When the method code is completed, the application code sequence returns to where the method was called from. How the method is called determines what happens when it returns.
 
 A method can be used as part of an expression. For example, the following code uses a
 method named `CalculatePrice` as an expression:
