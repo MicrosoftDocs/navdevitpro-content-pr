@@ -1,7 +1,7 @@
 ---
 title: "ABS Method (Decimal, Integer, BigInteger)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -59,7 +59,7 @@ MESSAGE(Text000, x, y);
  **x = -10.235, y = 10.235**  
 
 ## See Also  
- [POWER Method \(Decimal, Integer, BigInteger\)](devenv-POWER-Method-Decimal-Integer-BigInteger.md)   
- [RANDOM Method \(Integer\)](devenv-RANDOM-Method-Integer.md)   
- [RANDOMIZE Method \(Integer\)](devenv-RANDOMIZE-Method-Integer.md)   
- [ROUND Method \(Decimal\)](devenv-ROUND-Method-Decimal.md)
+ [POWER Method \(Decimal, Integer, BigInteger\)](devenv-power-method-decimal-integer-biginteger.md)   
+ [RANDOM Method \(Integer\)](devenv-random-method-integer.md)   
+ [RANDOMIZE Method \(Integer\)](devenv-randomize-method-integer.md)   
+ [ROUND Method \(Decimal\)](devenv-round-method-decimal.md)

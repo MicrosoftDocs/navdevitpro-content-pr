@@ -1,7 +1,7 @@
 ---
 title: "Byte Data Type"
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -39,4 +39,3 @@ MyText[5] := 'e';
 [AL Data Types](devenv-al-data-types.md)  
 [Text Data Type](devenv-text-data-type.md)   
 [Code Data Type](devenv-code-data-type.md)  
-[Byte Data Type]()

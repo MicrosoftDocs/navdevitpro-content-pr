@@ -2,7 +2,7 @@
 title: "Post Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 06/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,7 @@ author: SusanneWindfeldPedersen
 ---
 
 # Post Method
-Sends a POST request to the specified Uri as an asynchronous operation.
+Sends a POST request to the specified Uniform Resource Identifier (URI) as an asynchronous operation.
 
 ```
 [Ok := ] HttpClient.Post(Path, Content, Reponse)
@@ -34,7 +34,7 @@ Sends a POST request to the specified Uri as an asynchronous operation.
 ## Return Value
 *Ok*  
 &emsp;Type: Boolean  
-&emsp;**true** if the operation was successful; otherwise, **false**.
+&emsp;**True** if the operation was successful; otherwise, **false**.
 
 Accessing the HttpContent property of HttpResponseMessage in a case when the request fails will result in an error.
 

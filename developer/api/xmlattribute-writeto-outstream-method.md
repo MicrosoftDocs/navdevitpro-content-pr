@@ -27,7 +27,7 @@ The OutStream to which you want to save.
 ## Return Value
 *Ok*  
 &emsp;Type: Boolean  
-**true** if the operation was successful; otherwise, **false**.  
+**True** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   
 ## See Also

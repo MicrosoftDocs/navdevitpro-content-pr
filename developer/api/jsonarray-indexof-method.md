@@ -2,7 +2,7 @@
 title: "IndexOf Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 03/28/2017
+ms.date: 06/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,7 +25,7 @@ Index := JsonArray.IndexOf(Value)
 &emsp;Type: JsonArray
 
 *Value*  
-&emsp;Type: JsonToken | sonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
+&emsp;Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
 
 ## Return Value
 &emsp;Type: Integer

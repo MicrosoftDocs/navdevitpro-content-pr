@@ -1,7 +1,7 @@
 ---
 title: "GUID Data Type"
 ms.custom: na
-ms.date: 06/08/2017
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -76,4 +76,4 @@ AutoSplitKey
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
 [CREATEGUID method (GUID)](../methods/devenv-createguid-method-guid.md)   
-[ISNULLGUID method (GUID)](../methods/devenv-isnulguid-method-guid.md)
+[ISNULLGUID method (GUID)](../methods/devenv-isnullguid-method-guid.md)

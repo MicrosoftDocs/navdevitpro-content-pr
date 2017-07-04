@@ -2,7 +2,7 @@
 title: "SetRequestUri Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 03/28/2017
+ms.date: 06/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,7 @@ author: SusanneWindfeldPedersen
 ---
 
 # SetRequestUri Method
-Sets the Uri used for the HTTP request.
+Sets Uniform Resource Identifier (URI) used for the HTTP request.
 
 ```
 [Ok := ] HttpRequestMessage.SetRequestUri(RequestUri)
@@ -31,7 +31,7 @@ Sets the Uri used for the HTTP request.
 ## Return Value
 *Ok*  
 &emsp;Type: Boolean  
-&emsp;**true** if the Uri was valid; otherwise, **false**.
+&emsp;**True** if the URI was valid; otherwise, **false**.
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
