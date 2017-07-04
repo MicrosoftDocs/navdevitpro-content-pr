@@ -2,7 +2,7 @@
 title: "WriteTo_String Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 03/28/2017
+ms.date: 06/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -33,7 +33,7 @@ The Text object to which the JSON data will be written.
 ## Property Value/Return Value
 Type: Boolean
 
-**true** if the write was successful; otherwise, **false**.
+**True** if the write was successful; otherwise, **false**.
 
 If you omit this optional return value and if the write does not execute successfully, then a run-time error occurs.
 

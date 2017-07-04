@@ -1,7 +1,7 @@
 ---
 title: "ADDLINK Method (Record)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -59,4 +59,4 @@ ID := Customer.ADDLINK('www.northwindtraders.com','Northwind Traders');
 ```  
 
 ## See Also  
- [Record Data Type](../datatypes/devenv-Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-record-data-type.md)

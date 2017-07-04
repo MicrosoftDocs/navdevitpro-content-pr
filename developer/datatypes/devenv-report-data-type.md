@@ -41,7 +41,7 @@ The following methods are supported for the Report data type:
 [SETTABLEVIEW method (Page, Report, XMLport)](../methods/devenv-settableview-method-page-report-xmlport.md)   
 [SKIP method (Report, XMLport)](../methods/devenv-skip-method-report-xmlport.md)   
 [WORDLAYOUT method](../methods/devenv-wordlayout-method.md)   
-[WORDXMLPART method](../methods/devenv-worldxmlpart-method.md)
+[WORDXMLPART method](../methods/devenv-wordxmlpart-method.md)
 
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  

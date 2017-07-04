@@ -2,7 +2,7 @@
 title: "GetDocument Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 27/06/2017
+ms.date: 30/06/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,7 +27,7 @@ The owning XmlDocument of this node.
 ## Return Value
 *Ok*  
 &emsp;Type: Boolean  
-**true** if the operation was successful; otherwise, **false**.  
+**True** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   
 ## See Also

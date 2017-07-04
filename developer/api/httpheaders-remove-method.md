@@ -2,7 +2,7 @@
 title: "Remove Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 03/28/2017
+ms.date: 06/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -30,7 +30,7 @@ Removes the key and the related values from the HttpHeaders object.
 
 ## Return Value
 &emsp;Type: Boolean  
-&emsp;**true** if key exists; **false** otherwise.
+&emsp;**True** if key exists; **false** otherwise.
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  

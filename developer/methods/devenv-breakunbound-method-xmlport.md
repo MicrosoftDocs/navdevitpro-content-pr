@@ -23,7 +23,7 @@ BREAKUNBOUND
 ```  
 
 ## Remarks  
- BREAKUNBOUND causes the current trigger to end. If you are looping over columns in an export where the **Unbound** property is set to **Yes**, use BREAKUNBOUND to indicate when the record is fully processed.  
+ BREAKUNBOUND causes the current trigger to end. If you are looping over columns in an export where the **Unbound** property is set to **true**, use BREAKUNBOUND to indicate when the record is fully processed.  
 
  For example, your XMLport supports two different file formats. One format contains 5 columns, and the other contains 10 columns. Instead of duplicating the maximum number of columns and writing code that skips any redundant columns, you can set up a single column, make it unbound, and then specify in code when to break to the next element.  
 
