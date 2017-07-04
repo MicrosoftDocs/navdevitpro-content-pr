@@ -21,9 +21,8 @@ The [!INCLUDE[nav_web](includes/nav_web_md.md)] supports several browsers. There
 > [!IMPORTANT]  
 >  The [!INCLUDE[nav_web](includes/nav_web_md.md)] is designed for keyboard and mouse usage. If you want to use a touch-enabled device, we recommend running the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)].  
 
-|Feature|Description|Browser|Remarks|  
-|-------------|-----------------|-------------|-------------|  
-|Previewing a report|The **Preview** button does not appear on the request pages of reports.|Google Chrome<br /><br />Microsoft Edge<br /><br />Mozilla Firefox<br /><br /> Safari||  
+|  Feature  |  Description  |  Browser  |Remarks  |  
+|-----------|---------------|-----------|---------|  
 |Printing a report from the report preview|If you try to print a report from the report preview, then you will get a script error message.|Internet Explorer 10 \(in the Windows 8-style UI mode\)|This is because Windows 8-style UI does not support plugins. To print a report, open the report as a PDF, and then print the report from the PDF viewer.|  
 |Tooltips in the ribbon|Tooltips do not appear when you pause on an action with the pointer.|Safari||  
 |Tooltips for error messages and icons on pages|Tooltips do not appear when you pause on an error message or an icon on a page with the pointer.|Internet Explorer 10 \(on tablets that run Windows 8\)<br /><br /> Safari|To see the tooltip, you must tap the message or icon.|  
