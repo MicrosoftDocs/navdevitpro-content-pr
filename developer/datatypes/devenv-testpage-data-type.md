@@ -117,5 +117,5 @@ Here is a list of the TestPage filter methods:
 [SETFILTER Method](../methods/devenv-setfilter-method-testpage-filter.md)
 
 ## See Also
-[AL Methods](../methods/devenv-al-methods.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  
 [TestRequestPage Data Type](devenv-testrequestpage-data-type.md)  

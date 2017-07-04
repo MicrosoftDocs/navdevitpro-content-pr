@@ -11,7 +11,13 @@ author: jswymer
 ---
 # AL Methods
 
-Like other languages, AL methods are a fundamental programming element. A method, also known as a procedure, is a named group of statements that perform an operation or task. Depending on the scope, methods can be called and executed from the same object in which they are declared or from other parts of the application.
+Like other languages, AL methods are a fundamental programming element. A method, also known as a procedure, is a named group of statements that perform an operation or task. Depending on the scope, methods can be executed, or *called*, from the same object in which they are declared or from other parts of the application. 
+
+There are two types of methods: system methods and user-defined (custom) methods.
+
+- System methods are part of the platform. System methods can be used for different purposes, such as string handling, text formatting, database handling, and so on. For information about the available sytem functions, [AL Method Reference](methods/devenv-al-method-reference.md).
+
+- Custom methods are specialized methods for your application to bind the objects, such as tables, pages, and codeunits, together to form a unified whole. You can create special functions for use anywhere in the database.
 
 ## Declaring Methods
 
@@ -55,9 +61,10 @@ separated by commas. A parameter is defined by a data type. Some data types, suc
 For example, the the following method declaration includes two parameters: `MyCustomer`and `MyDimension`:
 ```
  procedure  MyMethod(MyCustomer : Record Customer;VAR MyDimension : ARRAY [2] OF Boolean)
-````
+```
 
 ### Return values (optional)
+
 A method can return data that can be then coded against. A return value is a defined by a name, data type, and optional length depending on the data type (For example, if the return value is a Text DataType, the text might have a length of 50).
 
 ## Calling Methods
@@ -81,7 +88,7 @@ MyRunMethod;
 ```
 The `MyRunMethod` returns no data back to the calling code. For more information, see [Method Call Statements](devenv-method-statements.md).
 
-### Parameters  
+### <a name="Parameters"></a> Parameters  
 In a method call, the parameters are separated by commas, and the optional parameters may be omitted starting from the right. For example, this means that if a method has three optional parameters, then you cannot omit the second parameter without omitting the third parameter.  
   
 You can specify that a parameter is passed to a method by value or by reference.  

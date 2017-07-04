@@ -22,4 +22,4 @@ The following AL methods for langauge are available:
 [WINDOWSLANGUAGE Method](devenv-WINDOWSLANGUAGE-Method.md)
 
 ## See Also
-[AL Methods](devenv-al-methods.md)  
+[AL Method Reference](devenv-al-method-reference.md)  

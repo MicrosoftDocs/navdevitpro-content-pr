@@ -23,4 +23,4 @@ The following AL methods for arrays are available:
 [COPYARRAY Method](devenv-COPYARRAY-Method.md)
 
 ## See Also  
- [AL Methods](devenv-al-methods.md)  
+ [AL Method Reference](devenv-al-method-reference.md)  

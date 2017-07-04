@@ -42,5 +42,5 @@ In addition, some triggers, such as the [OnFormat](triggers/devenv-onformat-trig
 -   If the order has shipped, compare the customer number fields in the Rec and xRec records. If they differ, reject the change.  
 
 ## See Also  
- [AL Methods](methods/devenv-al-methods.md)   
+ [AL Method Reference](methods/devenv-al-method-reference.md)   
  [Properties](properties/devenv-properties-overview.md)

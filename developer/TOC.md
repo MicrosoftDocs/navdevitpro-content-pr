@@ -14,7 +14,7 @@
 ### [Query Object](devenv-query-object.md)
 ### [XMLPort Object](devenv-xmlport-object.md)
 ### [HTTP, JSON, and XML API](devenv-restapi-overview.md) 
-### [Methods](methods/devenv-al-methods.md)
+### [Methods](methods/devenv-al-method-reference.md)
 #### [Sytem Methods](methods/devenv-system-methods.md)
 #### [Method Attributes](methods/devenv-method-attributes.md)
 #### [BigInteger Data Type](datatypes/devenv-biginteger-data-type.md) 

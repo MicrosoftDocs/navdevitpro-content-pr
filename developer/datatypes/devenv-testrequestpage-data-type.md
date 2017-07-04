@@ -26,4 +26,4 @@ Here is a list of TestRequestPage methods:
 
 ## See Also  
 [TestPage Data Type](devenv-testpage-data-type.md)  
-[AL Methods](../methods/devenv-al-methods.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  
