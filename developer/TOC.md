@@ -23,7 +23,7 @@
 #### [JsonObject](api/jsonobject-class.md)
 #### [JsonToken](api/jsontoken-class.md)
 #### [JsonValue](api/jsonvalue-class.md)
-#### [XmlAttribute](api/xmlattribute-class.mc)
+#### [XmlAttribute](api/xmlattribute-class.md)
 #### [XmlcData](api/xmlcdata-class.md)
 #### [XmlComment](api/xmlcomment-class.md)
 #### [XmlDeclaration](api/xmldeclaration-class.md)
