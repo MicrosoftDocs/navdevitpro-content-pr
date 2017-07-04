@@ -28,7 +28,7 @@ You decide whether you want to **extend** the Dynamics 365 for financials functi
 
 ## Hear what the community tells about Dynamics 365 and the new development tools
 
-[![Community](media/CustomerTestimonials.png)]("https://app.wipster.io/Review/CZVEDQAcuPbAtVaYPJn9bw0-DcJujQJx6KeWY4iO9pJrlh9rog "Customers")
+[![Community](media/CustomerTestimonials.png)]("https://app.wipster.io/Review/CZVEDQAcuPbAtVaYPJn9bw0-DcJujQJx6KeWY4iO9pJrlh9rog" "Customers")
 
 ## Want to try it out?
 It's easy! Just spin up a sandbox environment by going through these steps. 
@@ -37,7 +37,7 @@ It's easy! Just spin up a sandbox environment by going through these steps.
 2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).  
 3) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen.  
 
-> [!NOTE] Get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
+> [!NOTE] Build and get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
 
 <!-- Azure VM, check with Stan
 
