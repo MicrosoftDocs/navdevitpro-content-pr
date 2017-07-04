@@ -70,7 +70,7 @@ page 70000200 SimpleCustomerCard
 ```
 
 ## See Also
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)  
+[Developing Extensions](devenv-dev-overview.md)  
 [Developer Reference](devenv-reference-overview.md)  
 [Page Extension Object](devenv-page-ext-object.md)  
 [Page Extension Properties](devenv-page-property-overview.md)  

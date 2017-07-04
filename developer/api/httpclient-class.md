@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # HttpClient Class
 Provides a base class for sending HTTP requests and receiving HTTP responses from a resource identified by a Uri.
 
