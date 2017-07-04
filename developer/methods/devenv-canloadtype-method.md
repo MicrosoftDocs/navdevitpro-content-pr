@@ -1,7 +1,7 @@
 ---
 title: "CANLOADTYPE Method"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -47,6 +47,7 @@ Ok := CANLOADTYPE(DotNet)
 IF NOT CANLOADTYPE(OObjLibrary) THEN  
    ERROR(MyError);  
 ```  
-
+<!--
 ## See Also  
  [Calling .NET Framework Members from AL](Calling-.NET-Framework-Members-from-AL.md)
+-->

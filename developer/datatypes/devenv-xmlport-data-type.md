@@ -19,7 +19,7 @@ You use XMLports to import and export data in .xml, .csv, or .txt format. XMLpor
  XMLports support UTF-8, UTF-16, and ISO-8859-2 formats for XML.  
   
 ## Remarks  
- For more information about how to design XMLports, see [XMLports](../../dynamics-nav/XMLports.md).  
+ For more information about how to design XMLports, see [XMLport Objects](../devenv-XMLport-object.md).  
 
 ## Methods
 The following methods are supported for the XMLport data type:

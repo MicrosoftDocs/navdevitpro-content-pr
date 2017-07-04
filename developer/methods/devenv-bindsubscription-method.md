@@ -32,7 +32,7 @@ Binds the event subscriber methods in the codeunit to the current codeunit insta
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the event subscriber methods bind successfully to the codeunit instance and no errors occurred; otherwise **false**.  
+ **True** if the event subscriber methods bind successfully to the codeunit instance and no errors occurred; otherwise **false**.  
   
  If you omit this optional return value and the binding is not successful, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   

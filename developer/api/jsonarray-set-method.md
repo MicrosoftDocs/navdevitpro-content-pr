@@ -2,7 +2,7 @@
 title: "Set Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 03/28/2017
+ms.date: 06/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -34,7 +34,7 @@ Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | I
 ## Return Value
 Type: Boolean
 
-**true** if the operation was successful; otherwise, **false**.
+**True** if the operation was successful; otherwise, **false**.
 
 If you omit this optional return value and if the select does not execute successfully, then a run-time error occurs.
 

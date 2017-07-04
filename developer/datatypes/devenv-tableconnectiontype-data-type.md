@@ -14,7 +14,7 @@ author: SusanneWindfeldPedersen
 # TableConnectionType Data Type
 Use variables of this data type to specify the type of connection to an external database.  
   
-You can specify tables as external by setting the TableType property. For more information, see [External Tables](../../dynamics-nav/External-Tables.md).  
+You can specify tables as external by setting the [TableType property](../properties/devenv-tabletype-property.md). <!--For more information, see [External Tables](../../dynamics-nav/External-Tables.md).  -->
 
 ## Methods
 The following methods are supported for the TableConnectionType data type:
@@ -27,4 +27,4 @@ The following methods are supported for the TableConnectionType data type:
 
 ## See Also  
  [TableType Property](../properties/devenv-tabletype-property.md)   
- [External Tables](../../dynamics-nav/External-Tables.md)   
+ <!--[External Tables](../../dynamics-nav/External-Tables.md)   -->

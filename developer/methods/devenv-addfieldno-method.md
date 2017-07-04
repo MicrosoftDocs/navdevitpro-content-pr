@@ -42,7 +42,7 @@ Adds a table field to the filter control for a table on the filter page.
 ## Return Value  
  Type: Boolean  
 
- **true** if the field was added to the field list for the specified filter control; otherwise, **false**.  
+ **True** if the field was added to the field list for the specified filter control; otherwise, **false**.  
 
 ## Remarks  
  The filter control that is specified by *ItemName* must already exist in the FilterPageBuilder object before the ADDFIELDNO method is called. This means that either the ADDTABLE, ADDRECORD, or ADDRECORDREF methods must be called before the ADDFIELD method.  
@@ -71,12 +71,12 @@ varFilterPageBuilder.ADDFIELDNO=(varDateItem, varDateRecord.FIELDNO(varDateRecor
 ```  
 
 ## See Also  
- [ADDFIELD Method](devenv-ADDFIELD-Method.md)   
- [ADDFIELDNO Method](devenv-ADDFIELDNO-Method.md)   
- [ADDRECORD Method](devenv-ADDRECORD-Method.md)   
- [ADDRECORDREF Method](devenv-ADDRECORDREF-Method.md)   
- [GETVIEW method \(FilterPageBuilder\)](devenv-GETVIEW-Method-FilterPageBuilder.md)   
- [SETVIEW Method](devenv-SETVIEW-Method.md)   
- [COUNT Method \(FilterPageBuilder\)](devenv-COUNT-Method-FilterPageBuilder.md)   
- [NAME Method \(FilterPageBuilder\)](devenv-NAME-Method-FilterPageBuilder.md)   
- [RUNMODAL Method \(FilterPageBuilder\)](devenv-RUNMODAL-Method-FilterPageBuilder.md)
+ [ADDFIELD Method](devenv-addfield-method.md)   
+ [ADDRECORD Method](devenv-addrecord-method.md)   
+ [ADDRECORDREF Method](devenv-addrecordref-method.md)   
+ [ADDTABLE Method](devenv-addtable-method.md)   
+ [GETVIEW Method \(FilterPageBuilder\)](devenv-getview-method-filterpagebuilder.md)   
+ [SETVIEW Method](devenv-setview-method.md)   
+ [COUNT Method \(FilterPageBuilder\)](devenv-count-method-filterpagebuilder.md)   
+ [NAME Method \(FilterPageBuilder\)](devenv-name-method-filterpagebuilder.md)   
+ [RUNMODAL Method \(FilterPageBuilder\)](devenv-runmodal-method-filterpagebuilder.md)
