@@ -37,7 +37,7 @@ It's easy! Just spin up a sandbox environment by going through these steps.
 2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).  
 3) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen.  
 
-> [!NOTE] Get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
+> [!NOTE] Build and get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
 
 <!-- Azure VM, check with Stan
 
