@@ -1,7 +1,7 @@
 ---
 title: "CREATEENCRYPTIONKEY Method"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,7 +26,7 @@ CREATEENCRYPTIONKEY()
 ## Return Value  
  Type: Boolean  
 
- **true** if the encryption key was created; otherwise, **false**.  
+ **True** if the encryption key was created; otherwise, **false**.  
 
  If you omit this optional return value and the encryption key cannot be created successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
 
