@@ -27,7 +27,7 @@ Executed as a page closes and before the [OnClosePage Trigger](devenv-OnClosePag
 #### Parameters  
  *CloseAction*  
 
- \(Action\) The *CloseAction* chosen by the user; usually OK or Cancel.  
+ (Action) The *CloseAction* chosen by the user; usually OK or Cancel.  
 
 ## Return Value  
  *Ok*  
@@ -53,3 +53,7 @@ Executed as a page closes and before the [OnClosePage Trigger](devenv-OnClosePag
  When the OnQueryClosePage trigger is called on a subpage, the *CloseAction* parameter is set to the same value as the parent page.  
 
  You can use this trigger to write to the database.
+
+ ## See Also  
+ [Triggers](devenv-triggers.md)  
+
