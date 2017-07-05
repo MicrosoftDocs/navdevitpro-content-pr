@@ -33,4 +33,4 @@ Name:= GETDEFAULTCONNECTIONTYPE(Type)
  [TableConnectionType Data Type](../datatypes/devenv-TableConnectionType-Data-Type.md)   
  [REGISTERTABLECONNECTION Method \(Database\)](devenv-REGISTERTABLECONNECTION-Method-Database.md)   
  [SETDEFAULTTABLECONNECTION Method \(Database\)](devenv-SETDEFAULTTABLECONNECTION-Method-Database.md)   
- [External Tables](External-Tables.md)
+ <!--Links [External Tables](External-Tables.md)-->

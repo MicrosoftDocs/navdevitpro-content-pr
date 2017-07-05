@@ -31,5 +31,5 @@ Deactivates the debugger.
  If you omit this optional return value and if the break is not set successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
 
 ## See Also  
- [Activating the Debugger](Activating-the-Debugger.md)   
+ <!--Links [Activating the Debugger](Activating-the-Debugger.md) -->  
  <!--NAV [ACTIVATE Method \(Debugger\)](devenv-ACTIVATE-Method-Debugger.md)-->

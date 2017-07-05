@@ -18,4 +18,4 @@ manager: edupont
 Access page actions by using the dot notation and the [INVOKE Method \(TestPage Action\)](devenv-INVOKE-Method-TestPage-Action.md).  
   
 ## See Also  
- [Test Pages](Test-Pages.md)
+<!--Links [Test Pages](Test-Pages.md) -->  

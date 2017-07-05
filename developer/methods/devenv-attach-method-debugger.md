@@ -52,7 +52,7 @@ Activates the debugger and attaches it to the specified session.
  The **ATTACH** method behaves like the **Debug** action on the **Sessions** page.  
 
  You can call the **ATTACH** method<!--NAV or the [ACTIVATE Method \(Debugger\)](devenv-ACTIVATE-Method-Debugger.md)--> to activate the debugger.  
-<!--
+<!--Links
 ## See Also  
- [Activating the Debugger](Activating-the-Debugger.md)
+ [Activating the Debugger](Activating-the-Debugger.md)  
 -->

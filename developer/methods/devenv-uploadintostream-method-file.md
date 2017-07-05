@@ -105,4 +105,4 @@ UPLOADINTOSTREAM('Import','',' All Files (*.*)|*.*',FileName,NVInStream);
 
 ## See Also  
  [File Data Type](../datatypes/devenv-File-Data-Type.md)   
- [Walkthrough: Uploading a File from a Client to Microsoft Dynamics NAV Server](Walkthrough--Uploading-a-File-from-a-Client-to-Microsoft-Dynamics-NAV-Server.md)
+ <!--Links [Walkthrough: Uploading a File from a Client to Microsoft Dynamics NAV Server](Walkthrough--Uploading-a-File-from-a-Client-to-Microsoft-Dynamics-NAV-Server.md)-->  

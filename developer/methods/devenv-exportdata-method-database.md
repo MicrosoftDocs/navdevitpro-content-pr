@@ -69,6 +69,6 @@ Exports data from the [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] database
  Specifies the company or companies that must be imported.  
 
 ## See Also  
-[Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md)   
+<!--Links[Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md) -->   
 [IMPORTDATA Method \(Database\)](devenv-IMPORTDATA-Method-Database.md)  
 [Database Methods](devenv-database-methods.md)  
