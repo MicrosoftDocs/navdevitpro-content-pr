@@ -40,4 +40,4 @@ The following methods are available on the XmlDeclaration class.
 |[XmlDeclaration.SelectNodes(String, XmlNamespaceManager, XmlNodeList)](xmldeclaration-selectnodes-xpath-namespacemanager-nodelist-method.md)|Selects a list of nodes matching the XPath expression.|  
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

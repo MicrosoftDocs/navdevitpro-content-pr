@@ -40,4 +40,4 @@ A string containing "yes" or "no" that specifies whether the XML is standalone o
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  
