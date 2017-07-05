@@ -69,7 +69,7 @@ This example publishes an integration type event by using the OnAddressLineChang
 
 ``` 
 ## See Also  
- [Events in AL](../devenv-events-in-al.md)
+ [Events in AL](../devenv-events-in-al.md)  
  [Publishing Events](../devenv-publishing-events.md)   
  [Raising Events](../devenv-raising-events.md)   
  [Subscribing to Events](../devenv-subscribing-to-events.md)   

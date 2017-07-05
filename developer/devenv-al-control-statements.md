@@ -15,7 +15,7 @@ author: jswymer
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # AL Control Statements
-All the AL programs that you create consist of one or more statements, which are executed sequentially in top-down order. However, you will often need to control the direct top-down flow of the execution. One or more statements may have to be repeated more than once, or you may have to make the execution of a certain statement conditional. To do this, you use control structures.  
+AL programs consist of one or more statements, which are executed sequentially in top-down order. However, you will often need to control the direct top-down flow of the execution. One or more statements may have to be repeated more than once, or you may have to make the execution of a certain statement conditional. To do this, you use control structures.  
 
 The control structures in AL are divided into the following main groups, as described in this article:  
 -   Compound Statements
@@ -65,9 +65,7 @@ end else begin
 end;  
 ```  
 ## AL Conditional Statements
-A conditional statement is one type of control structure in AL.  
-
- You use conditional statements to specify a condition and one or more commands to execute if the condition is evaluated as true or false. There are two types of conditional statements in AL:  
+You use conditional statements to specify a condition and one or more commands to execute if the condition is evaluated as true or false. There are two types of conditional statements in AL:  
 
 -   if-then-else, where there are two choices.  
 
@@ -105,13 +103,13 @@ if <Condition1> then
  Reading several nested if-then-else statements can be very confusing but generally, an else statement belongs to the last if statement that lacks an else statement.  
 
 #### Programming conventions  
- if and then should be on the same line. else should be on a separate line.  
+- If and then should be on the same line. else should be on a separate line.  
 
- If there are many or long expressions, then should be on a new line and be aligned with if.  
+- If there are many or long expressions, then should be on a new line and be aligned with if.  
 
- When you write if expressions with then and else parts, write them so that the then result is more probable than the else one.  
+-  When you write if expressions with then and else parts, write them so that the then result is more probable than the else one.  
 
- If the last statement in the then part of an if-then-else statement is an exit or an ERROR, do not continue with an else statement.  
+-  If the last statement in the then part of an if-then-else statement is an exit or an ERROR, do not continue with an else statement.  
 
 #### Example  
 
@@ -178,7 +176,7 @@ else
 ```  
 
 ### Case statements  
- case statements have the following syntax.  
+Case statements have the following syntax.  
 
 ```  
 case <Expression> of  
@@ -197,7 +195,7 @@ end;
 
  In this definition, <*Expression*> cannot be a record and <*Value set*> must be an expression or a range.  
 
- case statements are also called multiple option statements and are typically used when you must choose between more than two different actions. The method of the case statement is as follows:  
+Case statements are also called multiple option statements and are typically used when you must choose between more than two different actions. The method of the case statement is as follows:  
 
 -   The <*Expression*> is evaluated, and the first matching value set executes the associated statement, if there is one.  
 
@@ -273,7 +271,7 @@ var
 
  The value set 'abc' is not converted because the evaluated expression MyCode is a code variable.  
 
-## AL Repetitive Statements
+## Repetitive Statements
 A repetitive statement is also known as a loop. The following table shows the looping mechanisms in AL.  
 
 |Looping mechanism|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
@@ -626,7 +624,7 @@ for I := 1 to 1000 do begin
 end;  
 ```  
 
-## <a name="BREAK"></a>AL Break Statement
+## <a name="BREAK"></a>Break Statement
 You use the break statement to terminate the iterative statement in which it appears.  
 
 ```  

@@ -28,11 +28,8 @@ The method declaration defines the method and has the following syntax:
 local procedure <method_name>(parameter list) <return_value_name> : <data_type>[<length>]
 ```
 
->[!TIP]
-> Use the `tprocedure` code snippet to help declare a method.
-
 ### Snippet support
-Typing the shortcut ```tprocedure``` will create the basic structure for a method when usingng the AL Extension in Visual Studio Code.
+Typing the shortcut ```tprocedure``` will create the basic structure for a method when using the AL Extension in Visual Studio Code.
 
 ### Attributes (optional)
 An attribute is modifier on a method declaration that specifies information that controls the method's use and behavior. For example, decorating a method with the Integration attribute sets the method to be an event publisher. An attribute can have one or more arguments that set properties for the method instance.
@@ -55,8 +52,8 @@ To declare a global method, omit `local`:
 ### Parameters (optional)  
 A parameter is one or more variables or expressions that are sent to the method through
 the method call. The parameter provides information to the method, and the
-method can modify that information. In the method declaration, you place the parameters with a set of parentheses `()`. If there is more than one parameter, the parameters are
-separated by commas. A parameter is defined by a data type. Some data types, such as `Reccord`require a subtype.
+method can modify that information. In the method declaration, you place the parameters in parentheses `()`. If there is more than one parameter, the parameters are
+separated by commas. A parameter is defined by a data type. Some data types, such as `Record`, require an additional subtype.
 
 For example, the the following method declaration includes two parameters: `MyCustomer`and `MyDimension`:
 ```
@@ -67,8 +64,8 @@ For example, the the following method declaration includes two parameters: `MyCu
 
 A method can return data that can be then coded against. A return value is a defined by a name, data type, and optional length depending on the data type (For example, if the return value is a Text DataType, the text might have a length of 50).
 
-## Calling Methods
-You execute, or call, a built-in or custom method by using its name in a method call statement. When a method is called the current application sequence is suspended and the code on the method is executed. When the method code is completed, the application code sequence returns to where the method was called from. How the method is called determines what happens when it returns.
+## <a name="CallMethod"></a>Calling Methods
+You can execute, or call, a built-in or custom method by using its name in a method call statement. When a method is called the current application sequence is suspended and the code on the method is executed. When the method code is completed, the application code sequence returns to where the method was called from. How the method is called determines what happens when it returns.
 
 A method can be used as part of an expression. For example, the following code uses a
 method named `CalculatePrice` as an expression:
