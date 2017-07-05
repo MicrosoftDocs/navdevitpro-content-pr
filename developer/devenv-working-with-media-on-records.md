@@ -77,22 +77,22 @@ The following table provides an overview of the methods that are related to the 
 
 |  Method  |  Description  |  
 |------------|- -------------|
-|[IMPORTFILE Method \(Media\)](methods/devenv-IMPORTFILE-Method-media.md)|Adds  media from a file to a record. The imported media object is stored in the application database.|  
-|[IMPORTSTREAM Method \(Media\)](methods/devenv-IMPORTSTREAM-Method-media.md)|Adds a media from an InStream object to a record. The imported media object is stored in the application database.|  
-|[HASVALUE Method \(Media\)](methods/devenv-HASVALUE-Method-media.md)|Detects whether a record has a media object in the **Media** data type field.|  
-|[MEDIAID Method \(Media\)](methods/devenv-MEDIAID-Method-media.md)|Gets the unique identifier \(GUID\) that is assigned to the media object in the application database.|  
-|[EXPORTFILE Method \(Media\)](methods/devenv-EXPORTFILE-Method-media.md)|Exports a media object from a record to a file.|  
-|[EXPORTSTREAM Method \(Media\)](methods/devenv-EXPORTSTREAM-Method-media.md)|Exports a media object from a record to an OutStream object.|  
+|[IMPORTFILE Method (Media)](methods/devenv-IMPORTFILE-Method-media.md)|Adds  media from a file to a record. The imported media object is stored in the application database.|  
+|[IMPORTSTREAM Method (Media)](methods/devenv-IMPORTSTREAM-Method-media.md)|Adds a media from an InStream object to a record. The imported media object is stored in the application database.|  
+|[HASVALUE Method (Media)](methods/devenv-HASVALUE-Method-media.md)|Detects whether a record has a media object in the **Media** data type field.|  
+|[MEDIAID Method (Media)](methods/devenv-MEDIAID-Method-media.md)|Gets the unique identifier (GUID) that is assigned to the media object in the application database.|  
+|[EXPORTFILE Method (Media)](methods/devenv-EXPORTFILE-Method-media.md)|Exports a media object from a record to a file.|  
+|[EXPORTSTREAM Method (Media)](methods/devenv-EXPORTSTREAM-Method-media.md)|Exports a media object from a record to an OutStream object.|  
 
 **MediaSet data type**
 
 |  Method  |  Description  |  
 |------------|- -------------|
-|[EXPORTFILE Method \(MediaSet\)](methods/devenv-EXPORTFILE-Method-MediaSet.md)|Exports the media objects that included in a media set to individual files.|  
-|[IMPORTFILE Method \(MediaSet\)](methods/devenv-IMPORTFILE-method-mediaset.md)|Adds media from a file to a record, and assigns the imported media object to a media set. The media object is stored in the application database.|  
-|[IMPORTSTREAM Method \(MediaSet\)](methods/devenv-IMPORTSTREAM-method-mediaset.md)|Adds media from an InStream object to a record. The imported media object is stored in the application database.|  
-|[MEDIAID Method \(MediaSet\)](methods/devenv-MEDIAID-method-mediaset.md)|Gets the unique identifier \(GUID\) that is assigned to the media set on a record.|  
-|[COUNT Method \(MediaSet\)](methods/devenv-COUNT-method-mediaset.md)|Gets the total number of media objects that are included in the media set on a record.|  
+|[EXPORTFILE Method (MediaSet)](methods/devenv-EXPORTFILE-Method-MediaSet.md)|Exports the media objects that included in a media set to individual files.|  
+|[IMPORTFILE Method (MediaSet)](methods/devenv-IMPORTFILE-method-mediaset.md)|Adds media from a file to a record, and assigns the imported media object to a media set. The media object is stored in the application database.|  
+|[IMPORTSTREAM Method (MediaSet)](methods/devenv-IMPORTSTREAM-method-mediaset.md)|Adds media from an InStream object to a record. The imported media object is stored in the application database.|  
+|[MEDIAID Method (MediaSet)](methods/devenv-MEDIAID-method-mediaset.md)|Gets the unique identifier \(GUID\) that is assigned to the media set on a record.|  
+|[COUNT Method (MediaSet)](methods/devenv-COUNT-method-mediaset.md)|Gets the total number of media objects that are included in the media set on a record.|  
 
 ## See Also  
  [Media Data Type](datatypes/devenv-Media-Data-Type.md)   
