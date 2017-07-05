@@ -1,7 +1,7 @@
 ---
 title: "CREATEOUTSTREAM Method (BLOB)"
 ms.custom: na
-ms.date: 06/30/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -49,5 +49,5 @@ MyTable.MyBLOBfield.CREATEOUTSTREAM(MyStream, TextEncoding.WINDOWS)
 ## See Also  
  [BLOB Data Type](../datatypes/devenv-BLOB-Data-Type.md)   
  [InStream and OutStream Data Types](../datatypes/devenv-InStream-and-OutStream-Data-Types.md)   
- [How to: Use Streams to Write to Text Files](How-to--Use-Streams-to-Write-to-Text-Files.md)   
  [File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md)
+  <!-- [How to: Use Streams to Write to Text Files](../devenv-How-to-Use-Streams-to-Write-to-Text-Files.md)   -->

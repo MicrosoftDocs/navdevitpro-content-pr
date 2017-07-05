@@ -24,7 +24,7 @@ Type: Boolean
   
 Specifies whether global methods in the object that contains the event publisher method are exposed to event subscriber methods that subscribe to the event.
 
-**true** exposes the global methods in the object that contains the event publisher function to event subscriber functions; **false** does not. The default value is **false**.
+**True** exposes the global methods in the object that contains the event publisher function to event subscriber functions; **false** does not. The default value is **false**.
 
 When you set the argument to **true**, the signature of event subscriber methods that subscribe to the published event automatically include a VAR parameter for the published event object, as shown in the following example:
 

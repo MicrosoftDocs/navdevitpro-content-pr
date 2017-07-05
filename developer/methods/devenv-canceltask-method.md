@@ -1,7 +1,7 @@
 ---
 title: "CANCELTASK Method"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -32,7 +32,7 @@ Cancels and deletes a scheduled task that runs a specific codeunit.
 ## Property Value/Return Value  
  Type: Boolean  
 
- **true** if a task is deleted; otherwise, **false**.  
+ **True** if a task is deleted; otherwise, **false**.  
 
 ## Remarks  
  Scheduled tasks are recorded in table **2000000175 Scheduled Task**. CANCELTASK removes the task entry from the table.  
