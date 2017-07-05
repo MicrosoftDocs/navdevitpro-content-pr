@@ -32,6 +32,8 @@ The property has the following values:
 You typically use the Gesture property on list type pages for executing an action on items in a repeater control.
 
 In Action Designer, you can use the **Gesture** column to view the Gesture property value for all page actions. If the **Gesture** column is not visible, then on the **View** menu, choose **Show Column**, and then select **Gesture**.  
+<!--
 ## See Also
 [Developing for the Microsoft Dynamics NAV Universal App](../devenv-Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)  
 [Adding Actions to Pages](../devenv-Adding-Actions-to-Pages.md)
+-->

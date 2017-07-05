@@ -47,4 +47,4 @@ Sets the string that is to be used to separate fields.
   
 ## See Also  
  [Properties](devenv-properties.md)   
- [Format Property (XMLports)](devenv-formatxmlports-property.md)
+ [Format Property (XMLports)](devenv-format-xmlports-property.md)

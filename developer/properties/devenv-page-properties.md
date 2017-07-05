@@ -147,7 +147,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [CharAllowed Property](devenv-charallowed-property.md)  
 
--   [ClosingDates Property](devenv-losingdates-property.md)  
+-   [ClosingDates Property](devenv-closingdates-property.md)   
 
 -   [ColumnSpan Property](devenv-columnspan-property.md)  
 
@@ -292,7 +292,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [ID Property](devenv-id-property.md)  
 
--   [Image Property](Image-Property.md)  
+-   [Image Property](devenv-image-property.md)  
 
 -   [Name Property](devenv-name-property.md)  
 
