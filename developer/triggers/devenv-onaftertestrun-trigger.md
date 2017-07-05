@@ -46,14 +46,14 @@ Specifies the name of the test  that has run.
 
 Type: TestPermissions
 
-Specifies the permission set level to use on the test run. The value is retrieved from the [TestPermissions Property](../devenv-testing-permissionsets.md) of the test codeunit or test  that is run. The parameter accepts the following values:
+Specifies the permission set level to use on the test run. The value is retrieved from the [TestPermissions Property](../properties/devenv-testpermissions-property.md) of the test codeunit or test  that is run. The parameter accepts the following values:
 
 *   **Disabled**
 *   **Restrictive**
 *   **NonRestrictive**
 *   **InheritFromTestCodunit** - Specifies that a test the  uses the **TestPermissions** property setting of the test codeunit to which it belongs.
 
-For more information, see [Testing With Permission Sets](testing-permissionsets.md).
+<!-- For more information, see [Testing With Permission Sets](testing-permissionsets.md).-->
 
  *Success*  
  Type: Boolean  
@@ -61,7 +61,7 @@ For more information, see [Testing With Permission Sets](testing-permissionsets.
  **True** indicates that the test  run succeeded; otherwise, **false** indicates that the test  run failed.  
 
 ## Applies To  
- Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](../properties/devenv-subtype-property-codeunit.md) set to **TestRunner**.  
+ Test runner codeunits. Test runner codeunits have the [SubType Property (Codeunit)](../properties/devenv-subtype-property-codeunit.md) set to **TestRunner**.  
 
 > [!NOTE]  
 >  This trigger is optional and not available on a test runner codeunit by default. To implement this trigger, you must manually add it as a .  
@@ -77,7 +77,7 @@ The **OnAfterTestRun** trigger suppresses the automatic display of the results m
 
 You can use the **OnAfterTestRun** trigger to perform post-processing, such as logging, or to automate tests by integrating the test runner codeunit with a test management framework.
 
-The *TestPermissions* parameter, enables you can control how to handle applied permission sets, if any, after the test is run. For more information about testing with permision sets, including an example, see [Testing With Permission Sets](../testing-permissionsets.md).
+The *TestPermissions* parameter, enables you can control how to handle applied permission sets, if any, after the test is run. <!-- For more information about testing with permision sets, including an example, see [Testing With Permission Sets](../testing-permissionsets.md).
 
 The **OnAfterTestRun** trigger is run in its own database transaction.
 

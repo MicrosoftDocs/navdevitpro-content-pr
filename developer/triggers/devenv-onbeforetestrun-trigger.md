@@ -45,14 +45,14 @@ OnBeforeTestRun(CodeunitID : Integer;CodeunitName : Text[30];MethodName : Text[1
 
 Type: TestPermissions
 
-Specifies the permission set level to use on the test run. The value is retrieved from the [TestPermissions Property](../devenv-testing-permissionsets.md) of the test codeunit or test  that is run. The parameter accepts the following values:
+Specifies the permission set level to use on the test run. The value is retrieved from the [TestPermissions Property](../properties/devenv-testpermissions-property.md) of the test codeunit or test  that is run. The parameter accepts the following values:
 
 *   **Disabled**
 *   **Restrictive**
 *   **NonRestrictive**
 *   **InheritFromTestCodunit** - Specifies that a test the  uses the **TestPermissions** property setting of the test codeunit to which it belongs.
 
-For more information, see [Testing With Permission Sets](../devenv/testing-permissionsets.md). 
+<!-- For more information, see [Testing With Permission Sets](../devenv/testing-permissionsets.md). -->
 
 ## Return Value  
  *Ok*  
@@ -75,7 +75,7 @@ For more information, see [Testing With Permission Sets](../devenv/testing-permi
   
   The **OnBeforeTestRun** trigger is run in its own database transaction.  
 
- For more information, see [Testing the Application](../devenv-testing-the-application.md) and [How to: Create a Test Runner Codeunit](../devenv-how-to-create-a-test-runner-codeunit.md).  
+ <!-- For more information, see [Testing the Application](../devenv-testing-the-application.md) and [How to: Create a Test Runner Codeunit](../devenv-how-to-create-a-test-runner-codeunit.md).  -->
 
 ## Example  
  The following **OnBeforeTestRun** trigger code initializes a logging variable and returns **true** to indicate that the test  should execute. This example requires that you create the following global variable.  
