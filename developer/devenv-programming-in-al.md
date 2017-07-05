@@ -66,6 +66,7 @@ one form or page.
  Reusing code makes developing applications both faster and easier. More importantly, if you organize your AL code as suggested, your applications will be less prone to errors. By centralizing the code, you will not unintentionally create inconsistencies by performing the same calculation in many places, for example, in several triggers that have the same table field as their source expression. If you have to change the code, you could either forget about some of these triggers or make a mistake when you modify one of them.
 
 ## See Also
- [Methods](devenv-al-methods.md)  
+ [Simple Statements](devenv-al-simple-statements.md)  
  [Control Statements](devenv-al-control-statements.md)  
+ [Methods](devenv-al-methods.md)  
  [System-Defined Variables](devenv-system-defined-variables.md)  
