@@ -49,7 +49,7 @@ The first phase of implementing an event is publishing the event. Publishing an 
     ```  
     [Business(IncludeSender : Boolean)] 
     ```  
-    >[!TIP)]  
+    >[!TIP]  
     > Use the `teventint` snippet for an integration event or the `teventbus` snippet for a business event to get started.  
 
     For more information about integration and business events, see [Event Types](devenv-event-types.md).
