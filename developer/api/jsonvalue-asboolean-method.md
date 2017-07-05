@@ -37,4 +37,4 @@ The operation will succeed if the value was created from a Boolean using *SetVal
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)

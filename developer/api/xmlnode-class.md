@@ -53,4 +53,4 @@ The following methods are available on the XmlNode class.
 |[XmlNode.AsXmlText()](xmlnode-asxmltext-method.md)|Converts the node to an XmlText node. The operation will fail if the node is not an XmlText.|  
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

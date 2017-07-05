@@ -36,4 +36,4 @@ The position of the value in the JsonArray. -1 will be returned if *Value* canno
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)

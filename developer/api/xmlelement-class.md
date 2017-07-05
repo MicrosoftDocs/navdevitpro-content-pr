@@ -68,4 +68,4 @@ The following methods are available on the XmlElement class.
 |[XmlElement.GetDescendantElements(String, String)](xmlelement-getdescendantelements-localname-namespaceuri-method.md)|Gets a list containing the descendant elements for this element, in document order.|  
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

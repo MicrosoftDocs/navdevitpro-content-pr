@@ -38,4 +38,4 @@ The following methods are available on the XmlCData class.
 |[XmlCData.SelectNodes(String, XmlNamespaceManager, XmlNodeList)](xmlcdata-selectnodes-xpath-namespacemanager-nodelist-method.md)|Selects a list of nodes matching the XPath expression.|  
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  
