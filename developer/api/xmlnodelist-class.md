@@ -17,6 +17,8 @@ author: SusanneWindfeldPedersen
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # XmlNodeList Class
+Represents an ordered collection of nodes.
+
 The following methods are available on the XmlNodeList class.  
   
 |Method name|Description|  
