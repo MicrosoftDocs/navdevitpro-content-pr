@@ -1,7 +1,7 @@
 ---
 title: "Company Method (SessionSettings)"
 ms.custom: na
-ms.date: 22/07/2017
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -61,7 +61,7 @@ var
 s the current sort order ascending?:  %1
 
 ## Example  
- The following example sets the current sort order to descending by setting the *SetAscending* parameter to **false**. The value displayed in the message box is **No**.  
+ The following example sets the current sort order to descending by setting the *SetAscending* parameter to **false**. The value displayed in the message box is **false**.  
 
 ```  
 

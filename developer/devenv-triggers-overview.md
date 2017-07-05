@@ -15,7 +15,7 @@ manager: edupont
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Triggers Overview
-Triggers activate a function when a certain event occurs. When C/AL functions are executed as a result of a predefined event on either an object or a control, the event triggers the function. Together the event and function make a trigger. You edit triggers in the C/AL editor.  
+Triggers activate a function when a certain event occurs. When AL functions are executed as a result of a predefined event on either an object or a control, the event triggers the function. Together the event and function make a trigger. You edit triggers in the C/AL editor.  
   
 ## See Also  
  [Triggers](Triggers.md)

@@ -1,7 +1,7 @@
 ---
 title: "CREATE Method (File)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -52,7 +52,7 @@ Creates and opens an ASCII or binary file. If the file already exists, it will b
   
  Specifies whether the file was created.  
   
- **true** if the file was created; otherwise, **false**.  
+ **True** if the file was created; otherwise, **false**.  
   
 ## Remarks  
  If the [TEXTMODE Method \(File\)](devenv-TEXTMODE-Method-File.md) returns **true** and you read or write to the file, text is put in the buffer.  

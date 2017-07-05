@@ -37,4 +37,4 @@ The returned JsonObject contains the same data as the JsonToken, but allows obje
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)

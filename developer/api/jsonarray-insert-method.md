@@ -46,4 +46,4 @@ The operation will fail if the *Index* is smaller than 0 or greater than JsonArr
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)

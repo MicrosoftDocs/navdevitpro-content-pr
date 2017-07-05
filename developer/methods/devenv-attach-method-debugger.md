@@ -1,7 +1,7 @@
 ---
 title: "ATTACH Method (Debugger)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -44,7 +44,7 @@ Activates the debugger and attaches it to the specified session.
 ## Property Value/Return Value  
  Type: Boolean  
 
- **true** if the debugger is attached to a session; otherwise, **false**.  
+ **True** if the debugger is attached to a session; otherwise, **false**.  
 
  If you omit this optional return value and if the break is not set successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
 

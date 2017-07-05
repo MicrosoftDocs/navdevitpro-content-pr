@@ -1,7 +1,7 @@
 ---
 title: "CONFIRM Method (Dialog)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,7 +14,7 @@ caps.latest.revision: 15
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # CONFIRM Method (Dialog)
-Creates a dialog box that prompts the user for a yes or no answer. The dialog box is centered on the screen.  
+Creates a dialog box that prompts the user for a **true** or **false** answer. The dialog box is centered on the screen.  
 
 ## Syntax  
 
@@ -32,7 +32,7 @@ Ok := Dialog.CONFIRM(String [, Default] [, Value1] ,...)
  *Default*  
  Type: Boolean  
 
- Specifies the default button. If you do not specify a default button, then **No** is used as the default button.  
+ Specifies the default button. If you do not specify a default button, then **false** is used as the default button.  
 
  *Value1, …*  
  Type: Any  
@@ -42,7 +42,7 @@ Ok := Dialog.CONFIRM(String [, Default] [, Value1] ,...)
 ## Property Value/Return Value  
  Type: Boolean  
 
- **true** if you entered **Yes**; otherwise, **false**.  
+ **True** if you entered **true**; otherwise, **false**.  
 
  This return parameter reflects the user's selection.  
 
@@ -52,7 +52,7 @@ Ok := Dialog.CONFIRM(String [, Default] [, Value1] ,...)
  We recommend that you always end CONFIRM messages with a question mark. For more information about best practices for end-user messages, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](../devenv-progress-windows-message-error-and-confirm-methods.md).  
 
 ## Example  
- In the following example, the Dialog.CONFIRM method prompts the user for a **Yes** or **No** answer. This code example requires that you create the following variables.  
+ In the following example, the Dialog.CONFIRM method prompts the user for a **true** or **false** answer. This code example requires that you create the following variables.  
 
 |Name|DataType|  
 |----------|--------------|  
@@ -78,9 +78,9 @@ MESSAGE(Text001, Answer);
 
  **Exit without saving changes to customer 1121212?**  
 
- If you select the default **Yes** value, then the second dialog box is shown:  
+ If you select the default **true** value, then the second dialog box is shown:  
 
- **You selected Yes.**  
+ **You selected true.**  
 
 ## See Also  
  [Dialog Data Type](../datatypes/devenv-Dialog-Data-Type.md)

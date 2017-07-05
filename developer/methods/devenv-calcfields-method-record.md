@@ -1,7 +1,7 @@
 ---
 title: "CALCFIELDS Method (Record)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -51,10 +51,10 @@ Calculates the FlowFields in a record. You specify which fields to calculate by 
 
 -   The SumIndexFields on the [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] key contain the fields that are provided as parameters for calculation.  
 
--   The [MaintainSIFTIndex Property](../properties/devenv-MaintainSIFT-Index-Property.md) is set to **Yes**.  
+-   The [MaintainSIFTIndex Property](../properties/devenv-MaintainSIFT-Index-Property.md) is set to **true**.  
 
     > [!NOTE]  
-    >  By default this property is set to **Yes** for all keys.  
+    >  By default this property is set to **true** for all keys.  
 
 > [!NOTE]  
 >  [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] automatically maintains a count for all SIFT indexes. Therefore, if the calculation method for a FlowField is COUNT or AVERAGE, then the condition that the SumIndexFields on the [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] key contain the fields that are provided as parameters for calculation is not required.  
@@ -78,6 +78,5 @@ CustomerRec.CALCFIELDS(Balance, "Net Change");
  The first line sets up a filter for the Date Filter field in the Customer record. This field is a FlowFilter field which is used in the filter definition for several FlowFields in the Customer record. In the second line, the FlowFields are calculated.  
 
 ## See Also  
- [FlowFields](../devenv-flowfields.md)   
- [FlowFields](../devenv-flowfields.md)   
+ [FlowFields](../devenv-flowfields.md)     
  [FieldClass Property](../properties/devenv-FieldClass-Property.md)
