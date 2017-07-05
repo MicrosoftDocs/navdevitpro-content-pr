@@ -49,5 +49,5 @@ To create an application in [!INCLUDE[d365fin_md](../includes/d365fin_md.md)], y
 >  When you define your own methods, you can give two methods the same name. However, if one method is defined in a report or a page and the other is defined in a table that is referenced by the report or page, you cannot directly invoke the method defined in the report or page. By default, a call to the method invokes the method that is defined in the table. This behavior occurs when the method is called from a source expression or a trigger.  
 
 ## See Also  
- [Essential AL Methods](devenv-Essential-AL-Methods.md)   
+ [Essential AL Methods](../devenv-Essential-AL-Methods.md)   
  [AL Method Reference](devenv-al-method-reference.md)

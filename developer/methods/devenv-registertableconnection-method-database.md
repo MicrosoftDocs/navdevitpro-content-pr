@@ -39,6 +39,6 @@ REGISTERTABLECONNECTION(Type, Name, Connection)
  Specifies the connection to the external database, such as `'Data Source=ProdServer1;Initial Catalog=ProdDb1;User ID=sqladmin;Password=p@ssword')`. Alternatively, define the connection in a separate method.  
   
 ## See Also  
- [External Tables](External-Tables.md)   
+ <!--Links [External Tables](External-Tables.md)-->   
  [TableConnectionType Data Type](../datatypes/devenv-TableConnectionType-Data-Type.md)   
  [UNREGISTERTABLECONNECTION Method \(Database\)](devenv-UNREGISTERTABLECONNECTION-Method-Database.md)

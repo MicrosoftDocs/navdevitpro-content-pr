@@ -88,7 +88,7 @@ Query.READ;
   
  `Query.setRange(Quantity, 1, 15)` will result in a filter that is equivalent to: 1 \< Quantity \<15, except for 10.  
   
- For more information about how to set filters in Query Designer, see [Understanding Query Filters](Understanding-Query-Filters.md).  
+ <!--Links For more information about how to set filters in Query Designer, see [Understanding Query Filters](Understanding-Query-Filters.md). --> 
   
 ## Example  
  The following AL code example demonstrates how to use the **SETRANGE** method on a query. The example code sets a filter on a query column and saves the resulting dataset as a CSV file. A message also displays when the query is run that indicates the filter on the column.  

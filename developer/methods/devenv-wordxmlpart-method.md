@@ -104,5 +104,6 @@ SalesStatsReport.CLOSE;
 
  The code generates the report structure as XML, and then writes the XML to the file *C:\\Report Documents\\SalesStatsReport.xml*.  
 
+<!--Links
 ## See Also  
- [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)
+ [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)-->
