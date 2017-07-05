@@ -39,3 +39,6 @@ OnClosePage()
  This trigger is initiated by a user action, such as when the user chooses the **Close** button, or by the CurrPage.CLOSE  being called.  
 
  You can write to the database from this trigger.
+
+## See Also  
+ [Triggers](devenv-triggers.md)  
