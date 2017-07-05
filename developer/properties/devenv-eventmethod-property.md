@@ -31,10 +31,10 @@ Specifies the event publisher method that the event subscriber method subscribes
 
  You add AL code to this method that defines the logic to handle the event when it is called.  
 
- For more information about events, see [Subscribing to Events](Subscribing-to-Events.md).
+ <!-- For more information about events, see [Subscribing to Events](Subscribing-to-Events.md).
 
 ## See Also  
- <!-- //NAV [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   -->
- [Publishing Events](Publishing-Events.md)   
- [Raising Events](Raising-Events.md)   
  [AL Method Statements](../devenv-al-method-statements.md)
+<!-- //NAV [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)  
+ [Publishing Events](Publishing-Events.md)   
+ [Raising Events](Raising-Events.md)    -->

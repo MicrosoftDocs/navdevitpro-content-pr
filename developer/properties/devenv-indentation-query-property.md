@@ -25,8 +25,8 @@ Sets the indentation level of a data item, column, or filter row in a query.
  Integer  
   
  **0** sets no indentation, **1** indents the item one level, **2** indents the item two levels, and so on.  
-  
+ <!-- 
 ## See Also  
  [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md)   
  [Understanding Query Filters](Understanding-Query-Filters.md)   
- [Queries](Queries.md)
+ [Queries](Queries.md) -->

@@ -30,11 +30,11 @@ Specifies how event subscriber methods in a codeunit are bound to the codeunit i
 
 ## Remarks  
  On the event publisher side, the bindings are always considered static. For example, if you bind instance *A* of a given subscriber codeunit, all instances of publisher application objects will start calling the event subscribers. You cannot design it so that a specific instance of publisher table *X* calls only a specific instance of subscriber codeunit *A*. However, you can achieve the same by using/storing some global state on the subscriber.  
-
+<!--
  For more information about events, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  
 
 ## See Also  
  [Publishing Events](Publishing-Events.md)   
  [Raising Events](Raising-Events.md)   
  [Subscribing to Events](Subscribing-to-Events.md)   
- [AL Method Statements](../devenv-al-method-statements.md)
+ [AL Method Statements](../devenv-al-method-statements.md) -->

@@ -22,8 +22,8 @@ Sets the subtype for a group control on a page, which determines how fields in a
   
 ## Property Values  
   
-|Value|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|For more information|  
-|-----------|---------------------------------------|--------------------------|  
+|Value|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
+|-----------|---------------------------------------| 
 |**Group**|If the control is a top level control that does not have a child group of the subtype **CueGroup**, **FixedLayout**, or **GridLayout**, then the **Group** setting creates a FastTab of fields; otherwise, it is acts as a container for the child group.|[How to: Add FastTabs to a Customer Card Page](How-to--Add-FastTabs-to-a-Customer-Card-Page.md)|  
 |**Repeater**|Arranges fields in a row and repeats the fields on subsequest lines in a table. This is used for displaying data in a list, such as Sales Orders or Customers.|[Walkthrough: Creating a Customer List in Page Designer](Walkthrough--Creating-a-Customer-List-in-Page-Designer.md)|  
 |**CueGroup**|Displays fields as a Cue on page. A Cue is a graphical representation of a total number of entities in a database table. This is typically only used on Role Center page types.|[Walkthrough: Creating a Cue Based on a FlowField](Walkthrough--Creating-a-Cue-Based-on-a-FlowField.md)|  

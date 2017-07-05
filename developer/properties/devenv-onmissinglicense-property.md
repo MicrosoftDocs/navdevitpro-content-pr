@@ -19,7 +19,7 @@ Specifies what happens to the event subscriber function call when the license of
   
 ## Applies to  
   
--   AL functions in codeunits.  
+-   AL functions in codeunits.
   
      This property is only available when the [Event Property](devenv-event-property.md) is set to **Subscriber**.  
   
@@ -29,7 +29,7 @@ Specifies what happens to the event subscriber function call when the license of
 |-----------|-----------------|  
 |**Error**|An error is thrown and the code execution stops. This is the default value.|  
 |**Skip**|The subscriber call will be ignored, and execution will continue to the next subscriber.|  
-  
+ <!-- 
 ## Remarks  
  For more information about events, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  
   
@@ -38,3 +38,4 @@ Specifies what happens to the event subscriber function call when the license of
  [Raising Events](Raising-Events.md)   
  [Subscribing to Events](Subscribing-to-Events.md)   
  [AL Method Statements](../devenv-al-method-statements.md)
+ -->
