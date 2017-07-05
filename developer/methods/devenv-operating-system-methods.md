@@ -28,4 +28,4 @@ The following AL methods for the operating system are available:
 [TEMPORARYPATH Method](devenv-TEMPORARYPATH-Method.md)
 
 ## See Also
-[AL Methods](devenv-al-methods.md)  
+[AL Method Reference](devenv-al-method-reference.md)  

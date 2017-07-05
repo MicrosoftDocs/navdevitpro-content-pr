@@ -32,7 +32,7 @@ This section describes all properties that are available to developers in [!INCL
 [Report Properties](devenv-report-properties.md)  
 [Table Properties](devenv-table-properties.md)  
 [XMLPort Properties](devenv-xmlport-properties.md)  
-[AL Methods](../methods/devenv-al-methods.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  
 [Triggers](../triggers/devenv-triggers.md)  
 [How to: View or Modify Properties on a Table or Field](How-to--View-or-Modify-Properties-on-a-Table-or-Field.md)  
 <!-- //NAV [Page Properties Not Supported by Microsoft Dynamics NAV Web Client](Page-Properties-Not-Supported-by-Microsoft-Dynamics-NAV-Web-Client.md)  

@@ -394,4 +394,4 @@ MAXSTRLEN(t); // Returns 6.
  To declare a variable as an array, open the **Properties** window for the variable and then set the **Dimensions** property. For more information, see [Dimensions Property](../properties/devenv-dimensions-property.md).
 
 ## See Also
-[AL Methods](../methods/devenv-al-methods.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

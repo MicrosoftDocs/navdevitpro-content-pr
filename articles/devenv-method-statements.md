@@ -52,6 +52,6 @@ NewDate := CALCDATE(DateExpression, ReferenceDate);
  After you run the code in this example, the NewDate variable represents the date November 18, 2009.  
 
 ## See Also  
- [AL Methods](methods/devenv-al-methods.md)   
+ [AL Method Reference](methods/devenv-al-method-reference.md)   
  [Triggers](triggers/devenv-triggers.md)   
  [AL Simple Statements](devenv-al-simple-statements.md)
