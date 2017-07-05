@@ -50,4 +50,4 @@ To create an application in [!INCLUDE[d365fin_md](../includes/d365fin_md.md)], y
 
 ## See Also  
  [Essential AL Methods](devenv-Essential-AL-Methods.md)   
- [AL Methods](devenv-AL-Methods.md)
+ [AL Method Reference](devenv-al-method-reference.md)
