@@ -16,3 +16,6 @@ This complex data type corresponds to a row in a table. Each record consist of f
   
 ## Remarks  
  To access a field in a table in your AL code, use the following syntax: TableName.FieldName
+
+## See Also
+[AL Data Types](devenv-al-data-types.md)  

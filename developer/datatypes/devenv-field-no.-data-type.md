@@ -23,5 +23,5 @@ Sets a unique numeric ID for the field.
  Usually, the Field No. is automatically assigned by Table Designer when you add fields to a table.  
   
 ## See Also  
- [Name Data Type](devenv-name-data-type.md)
- </br>[AL Data Types](devenv-al-data-types.md)
+ [Name Data Type](devenv-name-data-type.md)  
+ [AL Data Types](devenv-al-data-types.md)

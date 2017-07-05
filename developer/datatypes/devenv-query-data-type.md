@@ -37,3 +37,5 @@ The following methods are supported for the Query data type:
 ## See Also  
  [Accessing Columns of a Query Dataset](../../dynamics-nav/Accessing-Columns-of-a-Query-Dataset.md)   
  -->
+ ## See Also
+[AL Data Types](devenv-al-data-types.md)  

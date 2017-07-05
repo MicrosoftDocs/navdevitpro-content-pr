@@ -33,3 +33,6 @@ Every available [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] data type is m
 |Time|DATETIME|  
   
  Each of the SQL Server data types is created as NOT NULL except the IMAGE type, which allows NULL.
+
+## See Also
+[AL Data Types](devenv-al-data-types.md)  
