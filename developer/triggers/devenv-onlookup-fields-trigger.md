@@ -46,4 +46,4 @@ Causes the system to display a lookup page.
 >  The lookup for a non-editable field is not rendered. You can use the [OnDrillDown Trigger](devenv-ondrilldown-trigger.md) instead.
 
 ## See Also  
- [OnLookup \(Page fields\) Trigger](devenv-onlookup-page-fields-trigger.md)
+ [OnLookup (Page fields) Trigger](devenv-onlookup-page-fields-trigger.md)

@@ -42,3 +42,6 @@ OnOpenPage()
 
 > [!NOTE]  
 >  The OnOpenPage trigger does not support calls to control add-in methods and properties because the trigger is invoked before the page is instantiated. For more information see, [Exposing Methods and Properties in a Windows Client Control Add-in](exposing-methods-and-properties-in-a-windows-client-control-add-in.md).
+
+## See Also  
+ [Triggers](devenv-triggers.md)  

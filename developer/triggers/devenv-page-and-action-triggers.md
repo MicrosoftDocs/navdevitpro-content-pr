@@ -37,7 +37,7 @@ Page triggers allow you to use AL code to control the behavior of the system as 
 |[OnOpenPage Trigger](devenv-onopenpage-trigger.md)|When the page is initialized and the controls are available.|  
 |[OnClosePage Trigger](devenv-onclosepage-trigger.md)|When the page about to close and after [OnQueryClosePage Trigger](devenv-onqueryclosepage-trigger.md) trigger.|  
 |[OnFindRecord Trigger](devenv-onfindrecord-trigger.md)|When the page is opened and a record is retrieved from a table.|  
-|[OnNextRecord Trigger](devenv-onnextrecord-Trigger.md)|When the page changes from displaying one record to another record in a table. For example, on a Customer card page, this happens when a user selects **Next** \(Ctrl+Page Down\) or **Previous** \(Ctrl+Page Up\).|  
+|[OnNextRecord Trigger](devenv-onnextrecord-Trigger.md)|When the page changes from displaying one record to another record in a table. For example, on a Customer card page, this happens when a user selects **Next** (Ctrl+Page Down) or **Previous** (Ctrl+Page Up).|  
 |[OnAfterGetCurrRecord Trigger](devenv-onaftergetcurrrecord-trigger.md)|After the current record is retrieved from the table.|  
 |[OnAfterGetRecord Trigger](devenv-onaftergetrecord-trigger.md)|When a record has been retrieved but not yet displayed.|  
 |[OnNewRecord Trigger](devenv-onnewrecord-trigger.md)|When a new record has been initialized but not yet displayed.|  
@@ -51,8 +51,8 @@ Page triggers allow you to use AL code to control the behavior of the system as 
 
 |Control trigger|Executed|  
 |---------------------|--------------|  
-|[OnValidate \(Page fields\) Trigger](devenv-onvalidate-page-fields-trigger.md)|When the user changes the value in a field and then selects away from the field so that the field loses focus.|  
-|[OnLookup \(Page fields\) Trigger](devenv-onlookup-page-fields-trigger.md)|When the user requests a lookup by clicking a field's lookup button or pressing F4.|  
+|[OnValidate (Page fields) Trigger](devenv-onvalidate-page-fields-trigger.md)|When the user changes the value in a field and then selects away from the field so that the field loses focus.|  
+|[OnLookup (Page fields) Trigger](devenv-onlookup-page-fields-trigger.md)|When the user requests a lookup by clicking a field's lookup button or pressing F4.|  
 |[OnDrillDown Trigger](devenv-ondrilldown-trigger.md)|When the user requests a drill-down by choosing the field's drill-down button or pressing Shift+F8.|  
 |[OnAssistEdit Trigger](devenv-onassistedit-trigger.md)|When the user requests assist-edit by choosing an AssistEdit button or by pressing Shift+F4.|  
 

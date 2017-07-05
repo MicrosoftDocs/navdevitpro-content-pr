@@ -90,9 +90,11 @@ EXIT(true);
 ```  
 
 ## See Also  
+<!--
  [Testing the Application](../devenv-testing-the-application.md)  
  [How to: Create a Test Runner Codeunit](../devenv-how-to-create-a-test-runner-codeunit.md)   
  [How to: Create Test Codeunits and Test Methods](../devenv-how-to-create-test-codeunits-and-test-methods.md)   
  [How to: Create Handler Methods](../devenv-how-to-create-handler-methods.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](../devenv-walkthrough-testing-purchase-invoice-discounts.md)   
+ [Walkthrough: Testing Purchase Invoice Discounts](../devenv-walkthrough-testing-purchase-invoice-discounts.md)   -->
+ [Triggers](devenv-triggers.md)  
  [OnAfterTestRun Trigger](devenv-onaftertestrun-trigger.md)
