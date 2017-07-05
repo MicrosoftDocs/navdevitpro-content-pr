@@ -86,7 +86,7 @@ example of calling a method named `MyRunMethod`:
 IF Quantity > 5 THEN
 MyRunMethod;
 ```
-The `MyRunMethod` returns no data back to the calling code. For more information, see [Method Call Statements](devenv-method-statements.md).
+The `MyRunMethod` returns no data back to the calling code.
 
 ### <a name="Parameters"></a> Parameters  
 In a method call, the parameters are separated by commas, and the optional parameters may be omitted starting from the right. For example, this means that if a method has three optional parameters, then you cannot omit the second parameter without omitting the third parameter.  
