@@ -30,5 +30,6 @@ The following methods are supported for the Page data type:
 ## Remarks  
  Pages contain a number of simpler elements called controls. Controls are used to display information to the user or receive information from the user.  
 
-## See Also  
+## See Also
+[AL Data Types](devenv-al-data-types.md)  
  

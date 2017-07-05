@@ -19,7 +19,7 @@ A test page can be any page type. For more information [Page Object](../devenv-p
 There are three categories of TestPage data type methods: TestPage, TestPage field, and TestPage filter.
   
 ## TestPage methods
-You use the TestPage Functions to:
+You use the TestPage methods to:
 -   Open and close test pages.
 -   Navigate among records to display on the test page.
 -   Navigate among fields on the test page.
@@ -32,45 +32,45 @@ Here is a list of the TestPage methods:
 
 [OPENEDIT Method](../methods/devenv-openedit-method-testpage.md)
 
-[OPENNEW Method ](../methods/devenv-opennew-method-testpage.md)
+[OPENNEW Method](../methods/devenv-opennew-method-testpage.md)
 
-[OPENVIEW Method ](../methods/devenv-openview-method-testpage.md)
+[OPENVIEW Method](../methods/devenv-openview-method-testpage.md)
 
-[CLOSE Method ](../methods/devenv-close-method-testpage.md)
+[CLOSE Method](../methods/devenv-close-method-testpage.md)
 
-[TRAP Method ](../methods/devenv-trap-method-testpage.md)
+[TRAP Method](../methods/devenv-trap-method-testpage.md)
 
-[FIRST Method ](../methods/devenv-first-method-testpage.md)
+[FIRST Method](../methods/devenv-first-method-testpage.md)
 
-[LAST Method ](../methods/devenv-last-method-testpage.md)
+[LAST Method](../methods/devenv-last-method-testpage.md)
 
-[NEXT Method ](../methods/devenv-next-method-testpage.md)
+[NEXT Method](../methods/devenv-next-method-testpage.md)
 
-[PREVIOUS Method ](../methods/devenv-previous-method-testpage.md)
+[PREVIOUS Method](../methods/devenv-previous-method-testpage.md)
 
-[GOTOKEY Method ](../methods/devenv-gotokey-method-testpage.md)
+[GOTOKEY Method](../methods/devenv-gotokey-method-testpage.md)
 
-[GOTORECORD Method ](../methods/devenv-gotorecord-method-testpage.md)
+[GOTORECORD Method](../methods/devenv-gotorecord-method-testpage.md)
 
-[FINDFIRSTFIELD Method ](../methods/devenv-findfirstfield-method-testpage.md)
+[FINDFIRSTFIELD Method](../methods/devenv-findfirstfield-method-testpage.md)
 
-[FINDNEXTFIELD Method ](../methods/devenv-findnextfield-method-testpage.md)
+[FINDNEXTFIELD Method](../methods/devenv-findnextfield-method-testpage.md)
 
-[FINDPREVIOUSFIELD Method ](../methods/devenv-findpreviousfield-method-testpage.md)
+[FINDPREVIOUSFIELD Method](../methods/devenv-findpreviousfield-method-testpage.md)
 
-[GETFIELD Method ](../methods/devenv-getfield-method-testpage.md) 
+[GETFIELD Method](../methods/devenv-getfield-method-testpage.md) 
 
-[EXPAND Method ](../methods/devenv-expand-method-testpage.md)
+[EXPAND Method](../methods/devenv-expand-method-testpage.md)
 
-[NEW Method ](../methods/devenv-new-method-testpage.md)
+[NEW Method](../methods/devenv-new-method-testpage.md)
 
-[GETOPTION Method \(TestPage Field\)](../methods/devenv-getoption-method-testpage-field.md)
+[GETOPTION Method (TestPage Field)](../methods/devenv-getoption-method-testpage-field.md)
 
-[OPTIONCOUNT Method \(TestPage Field\)](../methods/devenv-optioncount-method-testpage-field.md)
+[OPTIONCOUNT Method (TestPage Field)](../methods/devenv-optioncount-method-testpage-field.md)
 
-[GETVALIDATIONERROR Method \(TestPage, TestPage Field\)](../methods/devenv-getvalidationerror-method-testpage-testpage-field.md)
+[GETVALIDATIONERROR Method (TestPage, TestPage Field)](../methods/devenv-getvalidationerror-method-testpage-testpage-field.md)
 
-[VALIDATIONERRORCOUNT Method \(TestPage, TestPage Field\)](../methods/devenv-validationerrorcount-method-testpage-testpage-field.md)
+[VALIDATIONERRORCOUNT Method (TestPage, TestPage Field)](../methods/devenv-validationerrorcount-method-testpage-testpage-field.md)
 
 ## TestPage field methods
 The field methods enable you to view or change the value of a field on a test page.

@@ -12,7 +12,8 @@ caps.latest.revision: 21
 author: SusanneWindfeldPedersen
 ---
 # Variant Data Type
-The AL variant data type can contain many AL data types <!--NAV or any variants from OCX and Automation objects-->. However, not all these values can be mapped to AL values. <!-- For more information, see [Using COM Technologies in Microsoft Dynamics NAV](../../dynamics-nav/Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md). --> 
+The AL variant data type can contain many AL data types <!--NAV or any variants from OCX and Automation objects-->. However, not all these values can be mapped to AL values. 
+<!-- For more information, see [Using COM Technologies in Microsoft Dynamics NAV](../../dynamics-nav/Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md). --> 
 
  The variant data type can contain the following AL data types:  
 

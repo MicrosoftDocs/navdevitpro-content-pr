@@ -37,3 +37,5 @@ Number := PurchHeaderRec."Document Type";
 ```  
 PurchHeaderRec."Document Type" := PurchHeaderRec."Document Type"::Invoice;   
 ```
+## See Also
+[AL Data Types](devenv-al-data-types.md)  

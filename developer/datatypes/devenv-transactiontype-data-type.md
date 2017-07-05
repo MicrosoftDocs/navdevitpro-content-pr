@@ -17,3 +17,6 @@ Use variables of this complex data type to store the current transaction type. Y
  For more information about transaction types, see [TransactionType Property](../properties/devenv-transactiontype-property.md).  
   
  For more information about the rules governing transaction types, see [CURRENTTRANSACTIONTYPE method (Database)](../methods/devenv-currenttransactiontype-method-database.md).
+
+## See Also
+[AL Data Types](devenv-al-data-types.md)  
