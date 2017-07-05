@@ -17,6 +17,8 @@ author: SusanneWindfeldPedersen
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # XmlElement Class
+Represents an element.
+
 The following methods are available on the XmlElement class.  
   
 |Method name|Description|  

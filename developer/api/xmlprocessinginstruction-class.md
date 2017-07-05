@@ -17,6 +17,8 @@ author: SusanneWindfeldPedersen
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # XmlProcessingInstruction Class
+Represents a processing instruction, which XML defines to keep processor-specific information in the text of the document.
+
 The following methods are available on the XmlProcessingInstruction class.  
   
 |Method name|Description|  
