@@ -17,6 +17,8 @@ author: SusanneWindfeldPedersen
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # XmlComment Class
+Represents the content of an XML comment.
+
 The following methods are available on the XmlComment class.  
   
 |Method name|Description|  

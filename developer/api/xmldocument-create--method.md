@@ -18,6 +18,7 @@ author: SusanneWindfeldPedersen
 
 # Create Method
 Creates an XmlDocument.  
+
 ```  
 XmlDocument := XmlDocument.Create()  
 ```  
