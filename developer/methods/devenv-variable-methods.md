@@ -26,5 +26,4 @@ The following AL methods for variables are available:
 [EVALUATE Method](devenv-EVALUATE-Method.md)  
   
 ## See Also  
- [Technical Reference](../devenv-technical-reference.md)   
- [AL Reference Guide](../AL-Reference-Guide.md)
+ [AL Reference Guide](../devenv-AL-Reference-Guide.md)

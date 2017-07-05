@@ -78,5 +78,5 @@ Specifies data from a file that has been exported from a [!INCLUDE[d365fin_md](.
  Specifies the company or companies in the file.  
 
 ## See Also  
-[Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md)  
+<!--Links[Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md) -->  
 [Database Methods](devenv-database-methods.md)  

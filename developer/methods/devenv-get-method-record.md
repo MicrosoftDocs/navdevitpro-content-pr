@@ -43,7 +43,7 @@ Gets a record based on values stored in primary key fields.
  If you omit this optional return value and if the record cannot be found, then a run-time error occurs. If you include the return value, then you must handle any errors.  
 
 ## Remarks  
- This method always uses the primary key for the table. It ignores any filters that are set, except security filters. Security filters are applied or ignored based on the Security Filter Mode. The current key and filters are not changed after you call this method. For more information, see [Security Filter Modes](Security-Filter-Modes.md).  
+ This method always uses the primary key for the table. It ignores any filters that are set, except security filters. Security filters are applied or ignored based on the Security Filter Mode. The current key and filters are not changed after you call this method. <!--Links For more information, see [Security Filter Modes](Security-Filter-Modes.md)-->.  
 
  This method ignores any call to the [SETAUTOCALCFIELDS Method \(Record\)](devenv-SETAUTOCALCFIELDS-Method-Record.md). Therefore, a **GET** call on a record after a **SETAUTOCALCFIELDS** call does not automatically calculate FlowFields in the record.  
 

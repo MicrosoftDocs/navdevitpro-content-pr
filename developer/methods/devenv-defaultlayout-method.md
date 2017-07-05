@@ -41,5 +41,5 @@ DefaultLayout := REPORT.DEFAULTLAYOUT(Number)
 
 ## See Also  
  [Report Object](../devenv-report-object.md)   
- [How to. Specify the Default Built-in Report Layout](How-to.-Specify-the-Default-Built-in-Report-Layout.md)   
- [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)
+ <!--Links [How to Specify the Default Built-in Report Layout](How-to-Specify-the-Default-Built-in-Report-Layout.md)   
+ [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)-->
