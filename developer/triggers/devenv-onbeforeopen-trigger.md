@@ -39,6 +39,8 @@ currQuery.SETFILTER(Quantity, '>50');
 ```  
 
 ## See Also  
+[Triggers](devenv-triggers.md)  
+<!--
  [Queries](../queries.md)   
- [Working with Queries in AL](../devenv-working-with-queries-in-AL.md)   
- [Queries](../queries.md)
+ [Working with Queries in AL](../devenv-working-with-queries-in-AL.md)   -->
+

@@ -25,5 +25,5 @@ This topic describes the AL triggers that are available for queries. Triggers ar
 |OnBeforeOpen|Before the query object is run and the dataset is generated. For example, you can use the **OnBeforeOpen** trigger to apply filters using the **SETFILTER** method.|  
 
 ## See Also  
- [Queries](Queries.md)   
- [SETFILTER Method \(Query\)](../methods/devenv-setfilter-method-query.md)
+ [Triggers](devenv-triggers.md)  
+ [SETFILTER Method (Query)](../methods/devenv-setfilter-method-query.md)
