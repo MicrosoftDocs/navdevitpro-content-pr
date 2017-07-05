@@ -42,8 +42,8 @@ Overrides the default page behavior and enables you to specify which record you 
   
 |Value|Result|  
 |-----------|------------|  
-|TRUE|Found|  
-|FALSE|Not found \(default\)|  
+|true|Found|  
+|false|Not found (default)|  
   
 ## Applies To  
   

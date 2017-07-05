@@ -29,4 +29,5 @@ ReportFilter := SomeRecord.GETFILTERS;
  Use the ReportFilter text string as the source expression for a control in a section of the report.  
   
 ## See Also  
- [GETFILTERS Record\)](../methods/devenv-getfilters-method-record.md)
+ [Triggers](devenv-triggers.md)  
+ [GETFILTERS Method Record)](../methods/devenv-getfilters-method-record.md)
