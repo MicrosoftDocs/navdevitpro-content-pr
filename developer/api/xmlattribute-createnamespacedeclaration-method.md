@@ -36,4 +36,4 @@ The URI of the attribute. If the prefix is xmlns, then this parameter must be ht
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

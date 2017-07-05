@@ -34,4 +34,4 @@ The path of the token relative to its containing JSON tree. If the token is the 
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)

@@ -19,7 +19,7 @@ Reach more customers by bringing Apps for Dynamics 365 for Financials into Micro
 Dynamics 365 gives you rich functionality, a modern always up-to-date platform, and a set of great new development tools.
 When your app is done, publish it through Microsoft AppSource – the marketplace for Microsoft’s business apps and start benefiting from a brand that millions of users know and trust.
 
-You decide whether you want to **extend** the Dynamics 365 for financials functionality or **connect** to your existing service.
+You decide whether you want to **connect** to your existing service or **extend** the Dynamics 365 for Financials functionality.
 
 |<h3>Connect</h3>|<h3>Extend</h3>|
 |----------------|---------------|
@@ -83,7 +83,7 @@ Are you a business owner, a marketing person, or a developer? You can find speci
  
 [How Do I: Design Wizards for HTML Clients in Microsoft Dynamics NAV 2017?](https://mbspartner.microsoft.com/NAV/Videos/101246)  
 
-[Get started with our development tools](https://review.docs.microsoft.com/en-us/dynamics365/developerbe/devenv-dev-overview?branch=master)  
+[Get started with our development tools](https://docs.microsoft.com/en-us/dynamics365/developerbe/devenv-dev-overview?branch=master)  
 
 [Read more about integrating with Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/overview)  
 

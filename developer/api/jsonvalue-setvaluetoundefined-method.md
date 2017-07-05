@@ -29,4 +29,4 @@ The JsonValue will be disconnected from its current JSON tree and the data conta
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)
