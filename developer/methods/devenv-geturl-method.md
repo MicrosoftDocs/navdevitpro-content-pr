@@ -106,7 +106,7 @@ Generates a URL for the specified client target that is based on the configurati
   -->
  In the example, an empty string for the company name is included for clarity. But an even simpler use of GETURL is to only specify the client type as in `url := GETURL(ClientType::Default);`.  
 
- URLs for opening a page or a report are available from the About this Page windows. For more information, see [Using About This Page and About This Report](Using-About-This-Page-and-About-This-Report.md).  
+ URLs for opening a page or a report are available from the About this Page windows. <!--Links For more information, see [Using About This Page and About This Report](Using-About-This-Page-and-About-This-Report.md). --> 
 
 ## Example  
  The following code example illustrates how you can use the GETURL method to generate a URL that will open page 21 in the client that the current user is using.  
@@ -156,9 +156,9 @@ url := GETURL(CURRENTCLIENTTYPE, COMPANYNAME, ObjectType::Page, 21);
  https://*server*:*port*/*instance*/WS/*company*/Page/Customer  
 
 ## See Also  
- [How to: Copy the URL to Open a Page or Report](How-to--Copy-the-URL-to-Open-a-Page-or-Report.md)   
+ <!--Links [How to: Copy the URL to Open a Page or Report](How-to--Copy-the-URL-to-Open-a-Page-or-Report.md)   
  [How to: Publish a Web Service](How-to--Publish-a-Web-Service.md)   
- [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md)   
+ [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md) -->  
  [HYPERLINK Method](devenv-HYPERLINK-Method.md)   
  [CURRENTCLIENTTYPE Method](devenv-CURRENTCLIENTTYPE-Method.md)   
  [DEFAULTCLIENTTYPE Method](devenv-DEFAULTCLIENTTYPE-Method.md)

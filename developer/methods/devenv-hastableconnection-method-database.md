@@ -45,4 +45,4 @@ Ok := HASCONNECTIONTYPE(ConnectionType, Name)
  [GETDEFAULTTABLECONNECTION Method \(Database\)](devenv-GETDEFAULTTABLECONNECTION-Method-Database.md)   
  [REGISTERTABLECONNECTION Method \(Database\)](devenv-REGISTERTABLECONNECTION-Method-Database.md)   
  [UNREGISTERTABLECONNECTION Method \(Database\)](devenv-UNREGISTERTABLECONNECTION-Method-Database.md)   
- [External Tables](External-Tables.md)
+ <!--Links [External Tables](External-Tables.md)-->

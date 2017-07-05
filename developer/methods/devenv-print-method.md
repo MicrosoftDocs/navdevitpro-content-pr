@@ -53,6 +53,6 @@ REPORT.PRINT(Number, Parameters[,PrinterName][, RecordRef])
 
 ## See Also  
  [Report Object](../devenv-report-object.md)   
- [Request Pages](Request-Pages.md)   
+ <!--Links [Request Pages](Request-Pages.md)-->   
  [SAVEAS Method](devenv-SAVEAS-Method.md)   
  [EXECUTE Method](devenv-EXECUTE-Method.md)

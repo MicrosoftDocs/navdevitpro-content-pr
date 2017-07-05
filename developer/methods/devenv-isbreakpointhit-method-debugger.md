@@ -29,5 +29,6 @@ Ok := ISBREAKPOINTHIT
   
  **true** if a breakpoint is hit in a debugging session; otherwise, **false**.  
   
+<!--Links
 ## See Also  
- [Breakpoints](Breakpoints.md)
+ [Breakpoints](Breakpoints.md)-->

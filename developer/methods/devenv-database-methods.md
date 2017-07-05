@@ -62,4 +62,4 @@ The following AL methods for operations on the database are available.
 ## See Also  
  [AL Method Reference](devenv-al-method-reference.md)   
  [AL Reference Guide](../devenv-al-reference-guide.md)   
- [Development](devenv-Development.md)
+ <!--Links [Development](devenv-Development.md) -->

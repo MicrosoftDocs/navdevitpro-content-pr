@@ -29,4 +29,4 @@ You can use the TestPage methods for the following purposes.
   
 ## See Also  
 [AL Method Reference](devenv-al-method-reference.md)  
-<!--NAV [Test Pages](Test-Pages.md) -->
+<!--Links [Test Pages](Test-Pages.md) -->

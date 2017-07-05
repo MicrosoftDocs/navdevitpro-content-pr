@@ -34,6 +34,6 @@ UNREGISTERTABLECONNECTION(Type, Name)
  Specifies the name of the connection in your code, or the name of the primary key field on the table.  
   
 ## See Also  
- [External Tables](External-Tables.md)   
+ <!--Links [External Tables](External-Tables.md)-->   
  [TableConnectionType Data Type](../datatypes/devenv-TableConnectionType-Data-Type.md)   
  [REGISTERTABLECONNECTION Method \(Database\)](devenv-REGISTERTABLECONNECTION-Method-Database.md)

@@ -67,7 +67,7 @@ EXIT(0);
 ```  
   
 ## See Also  
- [Customizing Report Layout Implementation in Codeunit 1](Customizing-Report-Layout-Implementation-in-Codeunit-1.md)   
+ <!--Links [Customizing Report Layout Implementation in Codeunit 1](Customizing-Report-Layout-Implementation-in-Codeunit-1.md) -->  
  [REPORT.RUN Method](devenv-REPORT-RUN-Method.md)   
  [SAVEASWORD Method \(REPORT\)](devenv-SAVEASWORD-Method-REPORT.md)   
  [SAVEASPDF Method \(Report\)](devenv-SAVEASPDF-Method-Report.md)   

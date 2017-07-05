@@ -31,6 +31,6 @@ ID := TENANTID
  The ID of the tenant that has started the current session.  
   
 ## See Also  
- [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md)   
+ <!--Links [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md)-->   
  [COMPANYNAME Method \(Database\)](devenv-COMPANYNAME-Method-Database.md)   
  [Database Methods](devenv-database-methods.md)

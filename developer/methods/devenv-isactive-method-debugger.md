@@ -37,5 +37,5 @@ Ok := ISACTIVE
 -   Waiting to attach to a session.  
   
 ## See Also  
- [Activating the Debugger](Activating-the-Debugger.md)   
- [How to: Activate the Debugger from the Development Environment](How-to--Activate-the-Debugger-from-the-Development-Environment.md)
+ <!--Links [Activating the Debugger](Activating-the-Debugger.md)    
+ [How to: Activate the Debugger from the Development Environment](How-to--Activate-the-Debugger-from-the-Development-Environment.md)-->  

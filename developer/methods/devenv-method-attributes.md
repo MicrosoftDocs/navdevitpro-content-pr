@@ -27,10 +27,15 @@ For example, the Integration attribute has two arguments, and the syntax is:
 ## Attributes  
 The following method attributes are available:
 
-[Integration Attribute](devenv-integration-attribute.md)   
-[Business Attribute](devenv-business-attribute.md)  
-[UpgradePerCompany](devenv-upgradepercompany-attribute.md)  
-[UpgradePerDatabase](devenv-upgradeperdatabase-attribute.md) 
+[Integration Attribute](devenv-integration-attribute.md)
+
+[Business Attribute](devenv-business-attribute.md)
+
+[EventSubscriber Attribute](devenv-eventsubscriber-attribute.md)
+
+<!--Links [UpgradePerCompany](devenv-upgradepercompany-attribute.md)
+
+[UpgradePerDatabase](devenv-upgradeperdatabase-attribute.md) -->
 
 ## See Also  
-[AL Data Types](devenv-al-data-types.md)  
+[AL Data Types](../datatypes/devenv-al-data-types.md)  

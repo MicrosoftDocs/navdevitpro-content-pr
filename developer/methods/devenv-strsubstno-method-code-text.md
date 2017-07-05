@@ -83,7 +83,7 @@ NewString := STRSUBSTNO(String [,Value1, …])
   
  If one of the values is null, then it is treated as an empty string.  
   
- For more information about the STRSUBSTNO method in a multilanguage-enabled application, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
+ <!--Links For more information about the STRSUBSTNO method in a multilanguage-enabled application, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).-->  
   
 ## Example  
  The following example shows how to use the STRSUBSTNO method.  
