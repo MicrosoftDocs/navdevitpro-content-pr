@@ -85,7 +85,7 @@ This topic lists properties of the XMLport object, element, and attribute.
   
 -   [Unbound Property](devenv-unbound-property.md)  
   
--   [VariableName Properties](devenv-variablename-property.md)  
+-   [VariableName Properties](devenv-variablename-properties.md)  
   
 -   [Width Property \(XMLport\)](devenv-width-xmlport-property.md)  
   
@@ -130,7 +130,7 @@ This topic lists properties of the XMLport object, element, and attribute.
   
 -   [Temporary Property \(XMLports\)](devenv-temporary-xmlports-property.md)  
   
--   [VariableName Properties](devenv-variablename-property.md)  
+-   [VariableName Properties](devenv-variablename-properties.md)  
   
 -   [Width Property \(XMLport\)](devenv-width-xmlports-property.md)  
   
@@ -174,7 +174,7 @@ This topic lists properties of the XMLport object, element, and attribute.
   
 -   [TextType Property](devenv-texttype-property.md)  
   
--   [VariableName Properties](devenv-variablename-property.md)  
+-   [VariableName Properties](devenv-variablename-properties.md)  
   
 -   [Width Property \(XMLport\)](devenv-width-xmlports-property.md)  
   
@@ -217,7 +217,7 @@ This topic lists properties of the XMLport object, element, and attribute.
   
 -   [Temporary Property \(XMLports\)](devenv-temporary-xmlports-property.md)  
   
--   [VariableName Properties](devenv-variablename-property.md)  
+-   [VariableName Properties](devenv-variablename-properties.md)  
   
 -   [Width Property \(XMLport\)](devenv-width-xmlports-property.md)  
   

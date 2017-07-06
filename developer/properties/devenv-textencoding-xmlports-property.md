@@ -33,7 +33,7 @@ Specifies the [File Handling and Text Encoding](../devenv-file-handling-and-text
   
 -   Windows  
   
- For more information, see [[File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md)](Text-Encoding.md).  
+ For more information, see [[File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md).  
   
 ## Remarks  
  [File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md) is the process of transforming bytes of data into readable characters for users of a system or program. There are several industry [File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md) formats and different systems support different formats. Internally, [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] uses Unicode encoding. For exporting and importing data with an XMLport, [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] supports MS-DOS, UTF-8, UTF-16, and Windows encoding formats.  
@@ -65,8 +65,9 @@ Specifies the [File Handling and Text Encoding](../devenv-file-handling-and-text
  The code example is based on XMLport 1220 in the [!INCLUDE[demolong](../includes/demolong_md.md)]. The table, **MyDefinitionTable**, has a field, **File Encoding**, that specifies the encoding for this part of an import.  
   
 ## See Also  
- [XMLports](XMLports.md)   
- [How to: Create XMLports](How-to--Create-XMLports.md)   
+ [XMLports Properties](devenv-XMLport-properties.md)   
  [Format Property \(XMLports\)](devenv-format-xmlports-property.md)   
- [Walkthrough: Importing Data from Text Files to Tables](Walkthrough--Importing-Data-from-Text-Files-to-Tables.md)   
- [[File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md)](Text-Encoding.md)
+ [[File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md)
+ <!-- [Text Encoding](../devenv-Text-Encoding.md) 
+ [How to: Create XMLports](How-to--Create-XMLports.md)  
+ [Walkthrough: Importing Data from Text Files to Tables](Walkthrough--Importing-Data-from-Text-Files-to-Tables.md) -->

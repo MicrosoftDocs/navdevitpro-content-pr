@@ -45,7 +45,7 @@ This topic lists properties that apply to the query object.
 
 -   [DataItemLink Property \(Query\)](devenv-dataitemlink-query-property.md)  
 
--   [DataItemLinkType Property](devenv-dataitemlinktype-property.md)  
+-   [DataItemLinkType Property](devenv-dataitemlink-type-property.md)   
 
 -   [Description Property](devenv-description-property.md)  
 
