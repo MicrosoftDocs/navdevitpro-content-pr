@@ -35,5 +35,5 @@ Specifies how the report opens when you preview it.
 <!--
  [Report Design Overview](../devenv-report-design-overview.md)   
  [Designing Reports](../devenv-designing-reports.md)   
- [Printing Reports](../devenv-printing-reports.md)   -->
- [PREVIEW Function (Report)](../devenv-preview-method-report.md)
+ [Printing Reports](../devenv-printing-reports.md) -->  
+ [PREVIEW Method (Report)](../methods/devenv-preview-method-report.md)

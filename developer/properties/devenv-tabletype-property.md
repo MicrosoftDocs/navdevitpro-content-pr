@@ -32,12 +32,13 @@ Specifies the table type.
 |**MicrosoftGraph**|This is for internal use only.|
 
 ## Remarks  
- Tables that are marked as **CRM** or **ExternalSQL** are considered to external tables that are not managed by [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. These tables use a different SQL Server connection than the normal tables in the [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] database. For more information, see [External Tables](External-Tables.md).  
+ Tables that are marked as **CRM** or **ExternalSQL** are considered to external tables that are not managed by [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. These tables use a different SQL Server connection than the normal tables in the [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] database. <!-- For more information, see [External Tables](External-Tables.md).  -->
 
 > [!IMPORTANT]  
->  We advise against creating tables of type CRM manually. Instead, use the integration mapping functionality. For more information, see [Introduction to Dynamics CRM Integration Customization in Dynamics NAV](Introduction-to-Dynamics-CRM-Integration-Customization-in-Dynamics-NAV.md).  
-
+>  We advise against creating tables of type CRM manually. Instead, use the integration mapping functionality. 
+<!-- For more information, see [Introduction to Dynamics CRM Integration Customization in Dynamics NAV](Introduction-to-Dynamics-CRM-Integration-Customization-in-Dynamics-NAV.md).  
+ -->
 ## See Also  
- [External Tables](External-Tables.md)   
- [Table Designer](uiref/-$-S_2102-Table-Designer-$-.md)   
- [Properties](devenv-properties.md)
+ [Properties](devenv-properties.md) 
+<!--  [External Tables](External-Tables.md)   
+ [Table Designer](uiref/-$-S_2102-Table-Designer-$-.md)  -->

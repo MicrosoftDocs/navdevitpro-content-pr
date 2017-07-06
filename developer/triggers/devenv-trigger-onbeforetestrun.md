@@ -53,7 +53,7 @@ Specifies the permission set level to use on the test run. The value is retrieve
 *   **NonRestrictive**
 *   **InheritFromTestCodunit** - Specifies that a test the  uses the **TestPermissions** property setting of the test codeunit to which it belongs.
 
-For more information, see [Testing With Permission Sets](testing-permissionsets.md). 
+<!-- For more information, see [Testing With Permission Sets](testing-permissionsets.md). -->
 
 ## Return Value
 *Ok*
@@ -93,10 +93,10 @@ EXIT(true);
 
 ## See Also  
  [Triggers](devenv-triggers.md)  
-<!--
+
 [TestPermissions Property](../properties/devenv-testpermissions-property.md)  
 [OnAfterTestRun Trigger](devenv-trigger-onaftertestrun.md)  
-[Testing With Permission Sets](testing-permissionsets.md)  
+<!--[Testing With Permission Sets](testing-permissionsets.md)  
 [Testing the Application](testing-the-application.md)  
 [How to: Create a Test Runner Codeunit](how-to-create-a-test-runner-codeunit.md)  
 [How to: Create Test Codeunits and Test Methods](how-to-create-test-codeunits-and-test-methods.md)  

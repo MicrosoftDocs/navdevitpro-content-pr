@@ -23,7 +23,7 @@ Sets a caption for the request page tab that is related to this data item. The v
 -   Table elements XMLports.  
   
 ## Property Value  
- Any valid string. If [ReqFilterHeadingML Property](devenv-reqfilterheadingml-property.md) is set, then the value for the selected language is used. If [ReqFilterHeadingML Property](devenv-reqfilterheadingml-property.md) is not set, then the default is the name of the table that is the specified in the [DataItemTable Property](DataItemTable-Property.md).  
+ Any valid string. If [ReqFilterHeadingML Property](devenv-reqfilterheadingml-property.md) is set, then the value for the selected language is used. If [ReqFilterHeadingML Property](devenv-reqfilterheadingml-property.md) is not set, then the default is the name of the table that is the specified in the [DataItemTable Property](devenv-dataitemtable-property.md).  
   
 ## See Also  
  [Multilanguage Development](../devenv-multilanguage-development.md)

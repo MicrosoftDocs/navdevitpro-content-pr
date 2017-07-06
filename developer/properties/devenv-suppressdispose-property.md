@@ -25,7 +25,7 @@ Specifies if a Microsoft .NET Framework object that is defined by a **DotNet** v
 
 ## Remarks  
  When a local .NET Framework object is disposed, it cannot be assigned outside the scope of its local function. If you want to assign the local **DotNet** variable to a global AL or .NET Framework object, then you set the **SuppressDispose** property to **true**.  
-
+<!-- 
 ## See Also  
  [Calling .NET Framework Members from AL](Calling-.NET-Framework-Members-from-AL.md)   
- [How to: Call .NET Framework Types From AL Code](How-to-Call-.NET-Framework-Types-From-AL-Code.md)
+ [How to: Call .NET Framework Types From AL Code](How-to-Call-.NET-Framework-Types-From-AL-Code.md) -->

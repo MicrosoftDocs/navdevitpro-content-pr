@@ -28,7 +28,7 @@ Specifies whether fonts are embedded in PDF files that are generated for reports
   
 |[!INCLUDE[bp_tableoption](../includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |----------------------------------|---------------------------------------|  
-|**Default**|Uses the **Report PDF Embedding** setting of the [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance to determine whether fonts are embedded in PDF files. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).<br /><br /> This is the default setting.|  
+|**Default**|Uses the **Report PDF Embedding** setting of the [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance to determine whether fonts are embedded in PDF files. <!-- For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).--> <br /><br /> This is the default setting.|  
 |**False**|Fonts are not embedded in PDF files.|  
 |**True**|Fonts are embedded in PDF files.|  
 
