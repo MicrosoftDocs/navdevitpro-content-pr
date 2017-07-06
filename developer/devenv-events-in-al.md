@@ -1,7 +1,7 @@
 ---
-title: "Events in Microsoft Dynamics NAV"
+title: "Events in Microsoft Dynamics 365 for Financials"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/06/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +11,7 @@ ms.assetid: e800bc78-feb2-4f19-b79a-3fd70e06320f
 caps.latest.revision: 7
 manager: edupont
 ---
-# Events in Microsoft Dynamics NAV
+# Events in Microsoft Dynamics 365 for Financials
 The use of events is a proven and established programming concept that can ease application upgrade and limit or even eliminate the need for code modifications in customized applications because of application platform changes.  
 
 You can use events to design the application to react to specific actions or behavior that occur. Events enable you to separate customized functionality from the application business logic. By using events in the application where customizations are typically made, you can lower the cost of code modifications and upgrades to the original application.  
@@ -24,7 +24,7 @@ You can use events to design the application to react to specific actions or beh
 
  There are several different event types. The process for implementing these events is slightly different. To learn about the different types, see [Event Types](devenv-event-types.md).
   
-## How Events Work  
+## How events work  
  The basic principal is that you program events in the application to run customized behavior when they occur. Events in AL are modeled after Microsoft .NET Framework. There are three major participants involved in events: the *event*, a *publisher* and a *subscriber*.  
   
 -   An *event* is the declaration of the occurrence or change in the application. An event is declared by a AL method, which is referred to as an *event publisher function*. An event publisher method is comprised of a signature only and does not execute any code.
@@ -41,7 +41,7 @@ You can use events to design the application to react to specific actions or beh
   
  There can by multiple subscribers to a single event publisher function. However, a publisher has no knowledge of subscribers, if any. Subscribers can reside in different parts of the application than publishers.  
   
-## How to Implement Events  
+## How to implement events  
  Implementing events consists of the following tasks:  
   
 1.  Publish the event.  
@@ -62,6 +62,6 @@ You can use events to design the application to react to specific actions or beh
 [Raising Events](devenv-raising-events.md)  
 [Subscribing to Events](devenv-subscribing-to-events.md)  
 [Debugging Events](devenv-debugging-events.md)  
-[Best Practices with Microsoft Dynamics NAV Events](devenv-events-best-practices.md)  
+[Best Practices with Microsoft Dynamics 365 for Financials](devenv-events-best-practices.md)  
 <!--NAV [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough--Publishing--Raising--and-Subcribing-to-an-Event-in-Microsoft-Dynamics-NAV.md)-->  
 [Walkthrough: Implementing New Workflow Events and Responses](Walkthrough--Implementing-New-Workflow-Events-and-Responses.md)  
