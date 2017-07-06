@@ -11,6 +11,9 @@ ms.assetid: 0a30827a-bbd7-4894-ba9f-9bb20caef174
 caps.latest.revision: 7
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FieldDelimiter Property
 Specifies the text delimiter for a field.  
   

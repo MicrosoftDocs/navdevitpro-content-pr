@@ -11,13 +11,17 @@ ms.assetid: c927f9e3-e6ef-4046-b0d8-7d38e67a50be
 caps.latest.revision: 13
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # PaperSourceFirstPage Property
 Specifies which paper source to use when printing page one of the report.  
   
 ## Applies To  
  Reports  
-  
+<!--
 ## Remarks  
+
  In the **Report – Properties** window, in the **PaperSourceFirstPage** field, choose the paper source. The list contains 13 standard trays and 16 printer-specific trays. It is based on information in the fin.stx file.  
   
  If the printer that is used for this report does not support the specified paper source, then the printer uses the default tray that is specified by the printer driver.  
@@ -35,4 +39,4 @@ Specifies which paper source to use when printing page one of the report.
 ## See Also  
  [PaperSourceDefaultPage Property](devenv-papersourcedefaultpage-property.md)   
  [PaperSourceLastPage Property](devenv-papersourcelastpage-property.md)   
- [How to: Add GetPaperTrayForReport Procedure in Codeunit 1](How-to--Add-GetPaperTrayForReport-Procedure-in-Codeunit-1.md)
+ [How to: Add GetPaperTrayForReport Procedure in Codeunit 1](How-to--Add-GetPaperTrayForReport-Procedure-in-Codeunit-1.md) -->

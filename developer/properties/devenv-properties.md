@@ -10,12 +10,15 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 0ff73303-b92d-4ce0-9a41-3952f8de7b7a
 caps.latest.revision: 13
-author: SusanneWindfeldPedersen04
+author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Properties
 This section describes all properties that are available to developers in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].  
 
- You can set the value of each property in the **Value** field. When you leave this field \(by pressing Enter or by moving with the arrow keys\), the property is updated. Default values are displayed in angle brackets \(\<>\). If a property has a default value, then you can reset the property to the default value by deleting the current value and then moving out of the field.  
+ You can set the value of each property in the **Value** field. When you leave this field (by pressing Enter or by moving with the arrow keys), the property is updated. Default values are displayed in angle brackets (<>). If a property has a default value, then you can reset the property to the default value by deleting the current value and then moving out of the field.  
 
 <!--
 > [!NOTE]  
@@ -28,9 +31,9 @@ This section describes all properties that are available to developers in [!INCL
 [Query Properties](devenv-query-properties.md)  
 [Report Properties](devenv-report-properties.md)  
 [Table Properties](devenv-table-properties.md)  
-[XMLPort Properties](devenv-XMLPort-properties.md)  
-[AL Methods](../methods/devenv-AL-Methods.md)  
+[XMLPort Properties](devenv-xmlport-properties.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  
 [Triggers](../triggers/devenv-triggers.md)  
-[How to: View or Modify Properties on a Table or Field](How-to--View-or-Modify-Properties-on-a-Table-or-Field.md)  
-<!-- //NAV [Page Properties Not Supported by Microsoft Dynamics NAV Web Client](Page-Properties-Not-Supported-by-Microsoft-Dynamics-NAV-Web-Client.md)  
+<!-- //NAV[How to: View or Modify Properties on a Table or Field](How-to--View-or-Modify-Properties-on-a-Table-or-Field.md)  
+ [Page Properties Not Supported by Microsoft Dynamics NAV Web Client](Page-Properties-Not-Supported-by-Microsoft-Dynamics-NAV-Web-Client.md)  
 -->

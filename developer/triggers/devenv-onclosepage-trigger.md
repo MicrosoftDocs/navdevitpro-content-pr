@@ -11,6 +11,9 @@ ms.assetid: cc77a05c-f93d-4f5e-bbb5-21967cb95707
 caps.latest.revision: 14
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnClosePage Trigger
 Executed as a page closes after the [OnQueryClosePage Trigger](devenv-onqueryclosepage-trigger.md) is executed.  
 
@@ -36,3 +39,6 @@ OnClosePage()
  This trigger is initiated by a user action, such as when the user chooses the **Close** button, or by the CurrPage.CLOSE  being called.  
 
  You can write to the database from this trigger.
+
+## See Also  
+ [Triggers](devenv-triggers.md)  

@@ -11,6 +11,9 @@ ms.assetid: 90204123-a179-409d-921e-fc65f240596d
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETTASKREADY Method
 Sets a task that runs a codeunit to the ready state. The task will not run unless it is in the ready state.  
 
@@ -42,7 +45,7 @@ Sets a task that runs a codeunit to the ready state. The task will not run unles
  **true** if a task has been set to ready; otherwise, **false**.  
 
 ## Remarks  
- For more information about tasks and **TASKSCEDULER** data type methods, see managing tasks [Task Scheduler](Task-Scheduler.md).  
+ For more information about tasks and **TASKSCEDULER** data type methods, see managing tasks [Task Scheduler](../devenv-task-scheduler.md).  
 
 ## Example  
  The following example creates a task, and then uses the SETTASKREADY method to set the task to ready.  
@@ -59,7 +62,7 @@ TASKSCHEDULER.SETTASKREADY(taskID);
 ```  
 
 ## See Also  
- [Task Scheduler](Task-Scheduler.md)  
+ [Task Scheduler](../devenv-task-scheduler.md)  
  [TaskScheduler Data Type](../datatypes/devenv-TaskScheduler-Data-Type.md)   
  [CREATETASK Method](devenv-CREATETASK-Method.md)   
  [CANCELTASK Method](devenv-CANCELTASK-Method.md)   

@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 28606407-f54a-48e6-941f-811634efefff
 caps.latest.revision: 3
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ISBYTE Method (Variant)
 Indicates whether an AL variant contains a Byte data type variable.  
   

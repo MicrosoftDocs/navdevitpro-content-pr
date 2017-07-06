@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 070737cc-4fda-4fa9-84c6-976473d7e2e0
 caps.latest.revision: 3
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TENANTID Method (Database)
 Gets the ID of the tenant that has started the current session.  
   
@@ -28,6 +31,6 @@ ID := TENANTID
  The ID of the tenant that has started the current session.  
   
 ## See Also  
- [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md)   
+ <!--Links [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md)-->   
  [COMPANYNAME Method \(Database\)](devenv-COMPANYNAME-Method-Database.md)   
  [Database Methods](devenv-database-methods.md)

@@ -9,6 +9,9 @@ ms.topic: article
 ms.author: jswymer
 ms.prod: "dynamics-nav-2017"
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TestPermissions Property
 Specifies a value that can be used to determine which permission sets are used on tests that are run by test codunits or test methods.
 
@@ -21,7 +24,7 @@ Specifies a value that can be used to determine which permission sets are used o
     Test methods are methods that have the **MethodType** property set to **Test**.
 
 ## Property values
-The property has the following values:
+The property has the following values: 
 
 *   **Disabled**
     
@@ -37,7 +40,7 @@ Apart from **InheritFromTestCodunit**, the values themselves do not perform any 
 
 ## Remarks
 The TestPermissions property works together with the **OnBeforeTestRun** and **OnAfterTestRun** triggers in test runner codeunits. The value of of the TestPermissions property is passed as a parameter to the test runner codeunit triggers. The permission sets that are used during a test are determined by the code that you add to the triggers. Typically, you use the **OnBeforeTestRun** trigger to apply permissions sets and the **OnAfterTestRun** trigger to clear permissions sets.
-
+<!--
 ## See Also
 [Testing With Permission Sets](../devenv-testing-permissionsets.md)  
 [Testing the Application](../devenv-Testing-the-Application.md)  
@@ -46,4 +49,4 @@ The TestPermissions property works together with the **OnBeforeTestRun** and **O
 [How to: Create Handler Methods](../methods/devenv-How-to-Create-Handler-Methods.md)  
 [Walkthrough: Testing Purchase Invoice Discounts](../Walkthrough--Testing-Purchase-Invoice-Discounts.md)  
 [OnAfterTestRun Trigger](../triggers/devenv-trigger-onaftertestrun.md)  
-[OnBeforeTestRun Trigger](../triggers/devenv-trigger-onbeforetestrun.md)  
+[OnBeforeTestRun Trigger](../triggers/devenv-trigger-onbeforetestrun.md)  -->

@@ -11,6 +11,9 @@ ms.assetid: 210b187f-76ff-4835-9ada-a682fcf93a34
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # INIT Method (Record)
 Initializes a record in a table.  
   

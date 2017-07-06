@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 82001e76-9705-4ad8-904c-1610a6c8ee53
 caps.latest.revision: 5
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETDEFAULTTABLECONNECTION Method (Database)
 Establishes a connection to an external database based on a previously registered connection of the specified type.  
   
@@ -41,4 +44,4 @@ SETDEFAULTCONNECTIONTYPE(Type, Name, Scope)
  [GETDEFAULTTABLECONNECTION Method \(Database\)](devenv-GETDEFAULTTABLECONNECTION-Method-Database.md)   
  [REGISTERTABLECONNECTION Method \(Database\)](devenv-REGISTERTABLECONNECTION-Method-Database.md)   
  [UNREGISTERTABLECONNECTION Method \(Database\)](devenv-UNREGISTERTABLECONNECTION-Method-Database.md)   
- [External Tables](External-Tables.md)
+ <!--Links [External Tables](External-Tables.md)-->

@@ -11,6 +11,9 @@ ms.assetid: 690b2ee9-0491-4de6-92b8-8bb988f91b73
 caps.latest.revision: 12
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Query Properties
 This topic lists properties that apply to the query object.  
 
@@ -42,7 +45,7 @@ This topic lists properties that apply to the query object.
 
 -   [DataItemLink Property \(Query\)](devenv-dataitemlink-query-property.md)  
 
--   [DataItemLinkType Property](devenv-dataitemlinktype-property.md)  
+-   [DataItemLinkType Property](devenv-dataitemlink-type-property.md)   
 
 -   [Description Property](devenv-description-property.md)  
 

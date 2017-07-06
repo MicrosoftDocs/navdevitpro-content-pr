@@ -9,6 +9,9 @@ ms.topic: article
 ms.author: jswymer
 ms.prod: "dynamics-365-financials"
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnBeforeTestRun Trigger
 Executed before a test  of a test codeunit is run.
 
@@ -50,7 +53,7 @@ Specifies the permission set level to use on the test run. The value is retrieve
 *   **NonRestrictive**
 *   **InheritFromTestCodunit** - Specifies that a test the  uses the **TestPermissions** property setting of the test codeunit to which it belongs.
 
-For more information, see [Testing With Permission Sets](testing-permissionsets.md). 
+<!-- For more information, see [Testing With Permission Sets](testing-permissionsets.md). -->
 
 ## Return Value
 *Ok*
@@ -73,7 +76,8 @@ By using the *TestPermissions* parameter, you can add code to control which perm
 
 The **OnBeforeTestRun** trigger is run in its own database transaction.
 
-For more information, see [Testing the Application](testing-the-application.md) and [How to: Create a Test Runner Codeunit](how-to-create-a-test-runner-codeunit.md).  
+<!--
+For more information, see [Testing the Application](testing-the-application.md) and [How to: Create a Test Runner Codeunit](how-to-create-a-test-runner-codeunit.md).  -->
 
 ## Example
 The following **OnBeforeTestRun** trigger code initializes a logging variable and returns true to indicate that the test  should execute. This example requires that you create the following global variable.
@@ -88,11 +92,13 @@ EXIT(true);
 ```
 
 ## See Also  
+ [Triggers](devenv-triggers.md)  
+
 [TestPermissions Property](../properties/devenv-testpermissions-property.md)  
 [OnAfterTestRun Trigger](devenv-trigger-onaftertestrun.md)  
-[Testing With Permission Sets](testing-permissionsets.md)  
+<!--[Testing With Permission Sets](testing-permissionsets.md)  
 [Testing the Application](testing-the-application.md)  
 [How to: Create a Test Runner Codeunit](how-to-create-a-test-runner-codeunit.md)  
 [How to: Create Test Codeunits and Test Methods](how-to-create-test-codeunits-and-test-methods.md)  
 [How to: Create Handler Methods](how-to-create-handler-methods.md)  
-[Walkthrough: Testing Purchase Invoice Discounts](walkthrough-testing-purchase-invoice-discounts.md)  
+[Walkthrough: Testing Purchase Invoice Discounts](walkthrough-testing-purchase-invoice-discounts.md)  -->

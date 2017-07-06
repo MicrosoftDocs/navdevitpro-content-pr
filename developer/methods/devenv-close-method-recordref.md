@@ -1,7 +1,7 @@
 ---
 title: "CLOSE Method (RecordRef)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: 4726d978-e289-45ce-96b2-a666078bc71c
 caps.latest.revision: 13
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CLOSE Method (RecordRef)
 Closes the current page or table.  
   

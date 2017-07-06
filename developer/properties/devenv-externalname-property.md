@@ -11,6 +11,9 @@ ms.assetid: ddde23c8-cc94-4b5b-a5d7-83595ea4943a
 caps.latest.revision: 2
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ExternalName Property
 Specifies the name of the original table in the external database.  
 
@@ -31,6 +34,3 @@ Specifies the name of the original table in the external database.
  [ExternalSchema Property](devenv-externalschema-property.md)   
  [Name Property](devenv-name-property.md)   
  [Properties](devenv-properties.md)   
- [Table Designer](uiref/-$-S_2102-Table-Designer-$-.md)   
- [External Tables](External-Tables.md)   
- [Customizing Dynamics CRM and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)

@@ -11,6 +11,9 @@ ms.assetid: a49c867c-aec4-4d5f-9881-1a2442274a1a
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # STOPSESSION Method (Sessions)
 Stops a [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] session.  
 

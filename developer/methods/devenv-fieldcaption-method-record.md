@@ -11,6 +11,9 @@ ms.assetid: 4b1bcb52-fea1-4981-9b12-c8299f1893b4
 caps.latest.revision: 15
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FIELDCAPTION Method (Record)
 Gets the current caption of the specified field as a string.  
   
@@ -56,4 +59,4 @@ MESSAGE(varFieldCaption);
 ## See Also  
  [TABLECAPTION Method \(Record\)](devenv-TABLECAPTION-Method-Record.md)   
  [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
- [Multilanguage Development](Multilanguage-Development.md)
+ [Multilanguage Development](../devenv-multilanguage-development.md)

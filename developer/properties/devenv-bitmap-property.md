@@ -11,6 +11,9 @@ ms.assetid: 3c78cce8-d9a4-4b25-a576-1b6837a1460f
 caps.latest.revision: 16
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Bitmap Property
 Sets a bitmap icon to be shown with a department on the Department page.  
 

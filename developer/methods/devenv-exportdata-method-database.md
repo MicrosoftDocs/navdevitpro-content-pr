@@ -12,6 +12,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 90a14701-7468-4cc4-b01f-4859ae1be04b
 caps.latest.revision: 4
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EXPORTDATA Method (Database)
 Exports data from the [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] database to a file. The data is not deleted from the database.  
 
@@ -66,6 +69,6 @@ Exports data from the [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] database
  Specifies the company or companies that must be imported.  
 
 ## See Also  
-[Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md)   
+<!--Links[Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md) -->   
 [IMPORTDATA Method \(Database\)](devenv-IMPORTDATA-Method-Database.md)  
 [Database Methods](devenv-database-methods.md)  

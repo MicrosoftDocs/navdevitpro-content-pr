@@ -12,6 +12,9 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 3ac73e26-7723-46b1-aa15-fd578aa4b56f
 ms.author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Style Property
 Sets a value that determines how text in a field on a page is formatted. For fields that are included in a **CueGroup**, this property sets the value of the color indicator on the cue.  
 
@@ -40,7 +43,7 @@ Sets a value that determines how text in a field on a page is formatted. For fie
 ## Remarks  
 
 > [!NOTE]  
->  This information in this topic mainly pertains to formatting the text on page fields. For information about how to use the **Style** property for configuring Cues, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](devenv-How-to-Set-Up-Colored-Indicators-on-Cues-by-Using-the-Style-and-StyleExpr-Property.md).  
+>  This information in this topic mainly pertains to formatting the text on page fields. <!-- For information about how to use the **Style** property for configuring Cues, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](devenv-How-to-Set-Up-Colored-Indicators-on-Cues-by-Using-the-Style-and-StyleExpr-Property.md).  -->
 
  The **Style** property works together with the [StyleExpr Property](devenv-styleexpr-property.md) value to determine whether the field is formatted. If the [StyleExpr Property](devenv-styleexpr-property.md) evaluates to **true**, then the value of the field is formatted as specified by the **Style** property.  
 
@@ -63,5 +66,5 @@ Sets a value that determines how text in a field on a page is formatted. For fie
  On pages, you use the **Style** property for group, part, field, and action controls. You can change the formatting of a control either statically by setting the property to **true** or **false**, or dynamically by using a Boolean variable or a Boolean field on the page. The Boolean field on the page can be either a true/false Boolean or a Boolean expression, such as “Credit Limit > Sales YTD”.  
 
 ## See Also  
- [How to: Style Field Text on a Page](../devenv-How-to-Style-Field-Text-on-a-Page.md)   
+ <!-- [How to: Style Field Text on a Page](../devenv-How-to-Style-Field-Text-on-a-Page.md)   -->
  [Properties](devenv-properties.md)

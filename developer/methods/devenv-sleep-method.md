@@ -11,6 +11,9 @@ ms.assetid: e4610f5e-a86b-4994-a6d6-05922716565d
 caps.latest.revision: 8
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SLEEP Method
 Returns control to the operating system for a specified time.  
   

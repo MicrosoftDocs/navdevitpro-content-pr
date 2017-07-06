@@ -11,6 +11,9 @@ ms.assetid: 8e5643d2-7864-4d53-a52f-0a4fb0d8fa95
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ISBREAKPOINTHIT Method (Debugger)
 Specifies if a breakpoint is hit in a debugging session.  
   
@@ -26,5 +29,6 @@ Ok := ISBREAKPOINTHIT
   
  **true** if a breakpoint is hit in a debugging session; otherwise, **false**.  
   
+<!--Links
 ## See Also  
- [Breakpoints](Breakpoints.md)
+ [Breakpoints](Breakpoints.md)-->

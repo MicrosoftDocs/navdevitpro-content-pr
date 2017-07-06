@@ -10,6 +10,9 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 88f67ba0-2aa4-42c3-a6fb-f5546b31b22d
 caps.latest.revision: 10
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RecordSeparator Property
 Sets the string that is to be used to separate records.  
   
@@ -20,7 +23,7 @@ Sets the string that is to be used to separate records.
 ## Property Value  
   
 |**Value**|**Description**|  
-|---------------|---------------------|  
+|---------|---------------|  
 |**\<None>**|There will no be RecordSeparator.|  
 |**\<NewLine> \(default\)**|Any combination of CR and LF characters.|  
 |**\<CR/LF>**|CR followed by LF.|  
@@ -30,7 +33,7 @@ Sets the string that is to be used to separate records.
 |**Other strings**|The literal string entered.|  
   
 ## Remarks  
- The strings in the preceding table must be entered literally, that is, the **\<** and **>** characters must be entered. These special strings can be combined and can be mixed with other characters.  
+ The strings in the preceding table must be entered literally, that is, the **<** and **>** characters must be entered. These special strings can be combined and can be mixed with other characters.  
   
  CR refers to the character with ASCII value 13.  
   

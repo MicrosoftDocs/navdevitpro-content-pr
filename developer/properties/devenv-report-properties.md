@@ -11,6 +11,9 @@ ms.assetid: a9518144-46ef-4cd9-b260-1d232895f2d2
 caps.latest.revision: 12
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Report Properties
 This topic lists properties of the report object.  
 
@@ -23,7 +26,7 @@ This topic lists properties of the report object.
 
 -   [Description Property](devenv-description-property.md)  
 
--   [EnableExternalAssemblies Property](devenv-enableexternalassemblies-property.md)  
+-   [EnableExternalAssemblies Property](devenv-enableexternalassemblies-property.md)   
 
 -   [EnableExternalImages Property](devenv-enableexternalimages-property.md)  
 
@@ -51,7 +54,7 @@ This topic lists properties of the report object.
 
 -   [UseSystemPrinter Property](devenv-usesystemprinter-property.md)  
 
--   [PDFFontEmbedding Property](devenv-pdffontembedding-property.md)  
+-   [PDFFontEmbedding Property](devenv-pdf-fontembedding-property.md)  
 
 ## DataItem Properties  
  The following properties apply to **DataItem** controls of a report object.  
@@ -60,7 +63,7 @@ This topic lists properties of the report object.
 
 -   [DataItemLink Property \(Reports\)](devenv-dataitemlink-reports-property.md)  
 
--   [DataItemLinkReference Property](devenv-dataitemlinkreference-property.md)  
+-   [DataItemLinkReference Property](devenv-dataitemlink-reference-property.md)  
 
 -   [DataItemTable Property](devenv-dataitemtable-property.md)  
 
@@ -70,7 +73,7 @@ This topic lists properties of the report object.
 
 -   [Indentation Property \(Reports\)](devenv-indentation-reports-property.md)  
 
--   [MaxIteration Property](MaxIteration-Property.md)  
+-   [MaxIteration Property](devenv-maxiteration-property.md)  
 
 -   [Name Property](devenv-name-property.md)  
 

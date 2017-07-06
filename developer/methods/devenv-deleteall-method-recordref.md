@@ -11,6 +11,9 @@ ms.assetid: 7f6bc123-2390-45d4-b2e7-6c45594b6aea
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DELETEALL Method (RecordRef)
 Deletes all records in a table that fall within a specified range.  
   

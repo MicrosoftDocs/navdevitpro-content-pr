@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: ad51ee4e-6f33-466b-b751-87daf76eb251
 caps.latest.revision: 13
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # NEXT Method (Record)
 Steps through a specified number of records and retrieves a record.  
   

@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: dfd9bab5-eb17-4e12-b5de-3acafc336d60
 caps.latest.revision: 10
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EVALUATE Method
 Evaluates a string representation of a value into its typical representation. The result is assigned to a variable.  
   

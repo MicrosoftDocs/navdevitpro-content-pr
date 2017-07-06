@@ -11,6 +11,9 @@ ms.assetid: 9fa14511-7807-4f9e-823f-bab30edbdd95
 caps.latest.revision: 10
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Numeric Property
 Sets a value that requires that users enter only numbers in the field.  
   

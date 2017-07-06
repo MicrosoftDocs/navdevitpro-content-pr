@@ -11,6 +11,9 @@ ms.assetid: c6b911c1-55b2-4837-b1af-32dbe64f84e3
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnOpenPage Trigger
 Executed after a page is initialized and run.  
 
@@ -35,7 +38,10 @@ OnOpenPage()
  If an error occurs in the trigger execution, then the page closes.  
 
 > [!NOTE]  
->  If you use the [LOCKTABLE Record\)](../methods/devenv-locktable-method-record.md) in the OnOpenPage trigger, then the table lock will be released when the trigger completes execution and not when the user closes the page.  
+>  If you use the [LOCKTABLE Record)](../methods/devenv-locktable-method-record.md) in the OnOpenPage trigger, then the table lock will be released when the trigger completes execution and not when the user closes the page.  
 
 > [!NOTE]  
->  The OnOpenPage trigger does not support calls to control add-in methods and properties because the trigger is invoked before the page is instantiated. For more information see, [Exposing Methods and Properties in a Windows Client Control Add-in](exposing-methods-and-properties-in-a-windows-client-control-add-in.md).
+>  The OnOpenPage trigger does not support calls to control add-in methods and properties because the trigger is invoked before the page is instantiated. <!-- For more information see, [Exposing Methods and Properties in a Windows Client Control Add-in](exposing-methods-and-properties-in-a-windows-client-control-add-in.md).-->
+
+## See Also  
+ [Triggers](devenv-triggers.md)  

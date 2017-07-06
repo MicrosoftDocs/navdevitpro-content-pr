@@ -11,6 +11,9 @@ ms.assetid: 41504b4f-3023-4be1-a180-04bc01b56c05
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # WRITE Method (BigText)
 Streams a BigText object to a BLOB field in a table.  
   

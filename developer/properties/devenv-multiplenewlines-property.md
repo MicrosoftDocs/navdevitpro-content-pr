@@ -11,6 +11,9 @@ ms.assetid: efd1be68-2d66-4ee8-af3f-63a43a64b152
 caps.latest.revision: 7
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # MultipleNewLines Property
 Sets a value that determines whether users can add multiple new lines between records.  
   

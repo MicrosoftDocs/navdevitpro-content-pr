@@ -11,6 +11,9 @@ ms.assetid: 2e946369-2c8b-47f2-8f3e-0bd805f5c94a
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnNextRecord Trigger
 Determines the next record to be displayed.  
 

@@ -11,6 +11,9 @@ ms.assetid: ccfbe1a3-b0ac-4933-9036-ae499041ecd5
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EventMethod Property
 Specifies the event publisher method that the event subscriber method subscribes to.  
 
@@ -28,10 +31,10 @@ Specifies the event publisher method that the event subscriber method subscribes
 
  You add AL code to this method that defines the logic to handle the event when it is called.  
 
- For more information about events, see [Subscribing to Events](Subscribing-to-Events.md).
+ <!-- For more information about events, see [Subscribing to Events](Subscribing-to-Events.md).
 
 ## See Also  
- <!-- //NAV [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   -->
+ [AL Method Statements](../devenv-al-method-statements.md)
+<!-- //NAV [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)  
  [Publishing Events](Publishing-Events.md)   
- [Raising Events](Raising-Events.md)   
- [AL Method Statements](AL-method-statements.md)
+ [Raising Events](Raising-Events.md)    -->

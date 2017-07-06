@@ -9,6 +9,9 @@ ms.topic: article
 ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # IMPORTSTREAM Method (MediaSet)
 Adds a media file, such as a JPEG image, from an InStream object to the MediaSet of record for displaying in the client. The media is imported to the database and included in a MediaSet for the record.
 
@@ -110,6 +113,6 @@ MESSAGE(Text000,itemRec."No.",count,mediasetId);
 If you run system table **2000000181 Tenant Media**, you should see the new images in the list.
 
 ## See Also  
- [Working With Media on Records](Working-With-Media-on-Records.md)  
+ [Working With Media on Records](../devenv-working-with-media-on-records.md)  
  [IMPORTFILE Method \(MediaSet\)](devenv-IMPORTFILE-Method-MediaSet.md)   
  [MediaSet Data Type](../datatypes/devenv-MediaSet-Data-Type.md)

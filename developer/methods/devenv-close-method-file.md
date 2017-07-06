@@ -1,7 +1,7 @@
 ---
 title: "CLOSE Method (File)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: fd9ff535-d12e-46d4-bda7-d120957e8b1c
 caps.latest.revision: 8
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CLOSE Method (File)
 Closes a file that has been opened by the [OPEN Method \(File\)](devenv-OPEN-Method-File.md).  
   

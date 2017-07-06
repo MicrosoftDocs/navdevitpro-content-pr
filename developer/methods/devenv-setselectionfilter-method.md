@@ -11,6 +11,9 @@ ms.assetid: 1fee3659-dec1-4ae9-b9cd-d6ae4bd89050
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETSELECTIONFILTER Method
 Notes the records that the user has selected on the page, marks those records in the table specified, and sets the filter to "marked only".  
   

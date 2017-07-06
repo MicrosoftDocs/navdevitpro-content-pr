@@ -11,9 +11,12 @@ ms.assetid: 0b03b2f5-e6b8-4aea-aceb-dedeb7b2be82
 caps.latest.revision: 9
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+<!-- 
 # SumIndexFields Property
 Sets the [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md) for the key, if applicable.  
-  
+  -->
 ## Applies To  
  Keys  
   
@@ -23,6 +26,6 @@ Sets the [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md)
  The fields must be of a numeric datatype \(Decimal, Integer, BigInteger, or Duration\).  
   
  Changing existing keys may affect the behavior of the application since other parts of your application may depend on the existence of certain keys.  
-  
+  <!-- 
 ## See Also  
- [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md)
+ [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md) -->

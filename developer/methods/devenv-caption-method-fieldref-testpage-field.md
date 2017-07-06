@@ -1,7 +1,7 @@
 ---
 title: "CAPTION Method (FieldRef, TestPage Field)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 4addc78b-44ac-43ac-861e-d7e848b32414
 caps.latest.revision: 18
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CAPTION Method (FieldRef, TestPage Field)
 Gets the current caption of a field as a String.  
   
@@ -73,4 +76,5 @@ CustomerRecref.CLOSE;
   
 ## See Also  
  [FieldRef Data Type](../datatypes/devenv-FieldRef-Data-Type.md)   
- [Multilanguage Development](Multilanguage-Development.md)
+ [Multilanguage Development](../devenv-multilanguage-development.md)
+ 

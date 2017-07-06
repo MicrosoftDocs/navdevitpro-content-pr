@@ -9,8 +9,11 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 10e8a6db-079f-4ac1-b589-245b1ad43196
 caps.latest.revision: 18
-ms.author: edupont
+ms.author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Editable Property
 Sets a value that indicates whether a field, page, or control can be edited through the UI.  
 
@@ -33,12 +36,12 @@ Sets a value that indicates whether a field, page, or control can be edited thro
  The property setting is checked during validation. Validation occurs only if the field or control value is updated through the UI, for example, if a value is updated on a page or if a field is updated in a table. If a field is updated through application code, then the **Editable** property is not validated.  
 
 > [!NOTE]  
->  When using CurrPage.Editable, the **Editable** property also reflects the page mode that the page was opened in. This applies to Edit, Create, and Delete modes, but not to View mode. If the page is editable, then CurrPage.Editable will return **false**.  
+>  When using `CurrPage.Editable`, the **Editable** property also reflects the page mode that the page was opened in. This applies to Edit, Create, and Delete modes, but not to View mode. If the page is editable, then `CurrPage.Editable` will return **false**.  
 
  On pages, you use the **Editable** property for group, part, field, and action controls. You can make them editable or non-editable either statically by setting the property to **true** or **false**, or dynamically by using a Boolean variable or a Boolean field on the page. The Boolean field on the page can be either a true/false Boolean or a Boolean expression, such as “Credit Limit > Sales YTD”.  
 
 > [!CAUTION]  
->  Do not use CurrPage.Editable to prevent users from deleting entries. We recommend that you use permissions to control which users can delete data.  
+>  Do not use `CurrPage.Editable` to prevent users from deleting entries. We recommend that you use permissions to control which users can delete data.  
 
 ## See Also  
  [Properties](devenv-properties.md)   

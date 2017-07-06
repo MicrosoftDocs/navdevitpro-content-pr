@@ -11,6 +11,9 @@ ms.assetid: 680810f5-425f-483d-b574-4fe1db644b51
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnNewRecord Trigger
 Executed after a new record is initialized, but before users can make entries.  
   
@@ -34,7 +37,7 @@ OnNewRecord(BelowxRec)
  If an error occurs in the trigger code a popup dialog shows an error message. When the dialog is closed, the user can enter new data.  
   
 > [!NOTE]  
->  The OnNewRecord trigger does not support calls to control add-in methods and properties because the trigger is invoked before the page is instantiated. For more information see, [Exposing Methods and Properties in a Windows Client Control Add-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
+>  The OnNewRecord trigger does not support calls to control add-in methods and properties because the trigger is invoked before the page is instantiated. <!-- For more information see, [Exposing Methods and Properties in a Windows Client Control Add-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  -->
   
 ## See Also  
  [Triggers](devenv-triggers.md)

@@ -11,6 +11,9 @@ ms.assetid: a21e19e1-25c3-446c-a846-620061f31e99
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnBeforeModifyRecord Trigger
 Executed after a record is read from the input stream and before the existing record in the database is modified.  
   

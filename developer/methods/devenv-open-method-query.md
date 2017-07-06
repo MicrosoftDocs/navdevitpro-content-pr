@@ -11,6 +11,9 @@ ms.assetid: f9c876a7-a29c-4b4c-a255-e67747a0e6a2
 caps.latest.revision: 16
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OPEN Method (Query)
 Runs a query object and generates a dataset that can be read.  
 
@@ -110,6 +113,6 @@ MyQuery.CLOSE;
  **Customer name = The Device Shop, Quantity = 30**  
 
 ## See Also  
- <!--NAV [How to: Create Queries](How-to--Create-Queries.md) -->   
- [Working with Queries in AL](Working-with-Queries-in-AL.md)   
+ <!--Links [How to: Create Queries](How-to--Create-Queries.md)  
+ [Working with Queries in AL](Working-with-Queries-in-AL.md)-->  
  [Query Object](../devenv-query-object.md)

@@ -11,6 +11,9 @@ ms.assetid: 0860c732-75f6-45cd-b750-1311ecc75f33
 caps.latest.revision: 10
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ReadState Property
 Specifies which records are read and how they are locked when a query is executed.  
   
@@ -29,6 +32,6 @@ Specifies which records are read and how they are locked when a query is execute
 ## Remarks  
  Committed data is data that is saved to the database when a transaction is completed.  
   
- The ReadState property will overrule the current transaction type of the data as set by a [CURRENTTRANSACTIONTYPE Method \(Database\)](CURRENTTRANSACTIONTYPE-Method--Database-.md) call in the AL code because queries ignore the CURRENTTRANSACTIONTYPE method call.  
+ The ReadState property will overrule the current transaction type of the data as set by a [CURRENTTRANSACTIONTYPE Method (Database)](../methods/devenv-currenttransactiontype-method-database.md) call in the AL code because queries ignore the CURRENTTRANSACTIONTYPE method call.   
   
  Each query will use the specified ReadState regardless of other queries that have already been executed. This means that you can read uncommitted data and committed data from the same tables in the same transaction. However, the strictest lock placed on a row will remain until the transaction is committed.

@@ -1,7 +1,7 @@
 ---
 title: "ADDACTION Method (Notification)"
 ms.custom: na
-ms.date: 09/20/2016
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,6 +9,9 @@ ms.topic: article
 ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ADDACTION Method (Notification)
 Specifies an action for the notification.
 
@@ -38,7 +41,7 @@ The name of the method in the codeunit, which is specified by the *CodeunitID* p
 ## Remarks
 An action provides a way for you to add an interactive notification that enables users to respond to or take action on the notification. The method that is called by the action contains logic that you want to run for the action.
 
-For more information and a detailed example, see [Notifications](notifications-developing.md).
+For more information and a detailed example, see [Notifications](../devenv-notifications-developing.md).
 
 ##  Example
 The following code creates two actions for a notification. The actions call the **RunAction1** and **RunAction2** methods in the codeunit **Action Handler**.
@@ -66,4 +69,4 @@ END;
 ## See Also
 [SCOPE Method(Notification)](devenv-scope-method-notification.md)  
 [SEND Method (Notification)](devenv-send-method-notification.md)  
-[Notifications](notifications-developing.md)
+[Notifications](../devenv-notifications-developing.md)

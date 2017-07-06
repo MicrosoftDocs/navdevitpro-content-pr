@@ -1,7 +1,7 @@
 ---
 title: "COPY Method (Record)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: 93fd51a9-c2db-4b12-912e-7eaa215e0b94
 caps.latest.revision: 16
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COPY Method (Record)
 Copies a specified record, filters, marks, and keys that are associated with the record from a table or creates a reference to a record.  
   
@@ -45,7 +48,7 @@ Record.COPY(FromRecord [, ShareTable])
  The default value is **false**. If you specify **false**, only filters, marks, and keys are copied.  
   
 ## Example  
- The following example copies a record to another record in the **Customer** table. The [GET Method \(Record\)](devenv-GET-Method-Record.md) retrieves record number 30000 from the **Customer** table and stores record in the sourceRecord variable. The **COPY** method copies the record that is stored in the sourceRecord to the destRecord. The *ShareTable* parameter is set to **true** because the [Temporary Property](../properties/devenv-Temporary-Property.md) for the both sourceRecord and destRecord are set to **Yes** to make the records temporary. If the record is copied, then a message indicating that the record is copied is displayed in a message box. Otherwise, a message indicating that the record is not copied is displayed. This example requires that you create the following global variables and text constant.  
+ The following example copies a record to another record in the **Customer** table. The [GET Method \(Record\)](devenv-GET-Method-Record.md) retrieves record number 30000 from the **Customer** table and stores record in the sourceRecord variable. The **COPY** method copies the record that is stored in the sourceRecord to the destRecord. The *ShareTable* parameter is set to **true** because the [Temporary Property](../properties/devenv-Temporary-Property.md) for the both sourceRecord and destRecord are set to **true** to make the records temporary. If the record is copied, then a message indicating that the record is copied is displayed in a message box. Otherwise, a message indicating that the record is not copied is displayed. This example requires that you create the following global variables and text constant.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

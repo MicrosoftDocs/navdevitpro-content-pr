@@ -12,6 +12,9 @@ caps.latest.revision: 16
 manager: edupont
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETVIEW Method (Record)
 Gets a string that describes the current sort order, key, and filters on a table.  
   

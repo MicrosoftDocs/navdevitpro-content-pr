@@ -11,6 +11,9 @@ ms.assetid: 8caf7298-009d-47b6-ae43-3268a47f1ce2
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DELETELINKS Method (RecordRef)
 Deletes all of the links that have been added to a record.  
   

@@ -10,6 +10,9 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: e79b25b8-4582-450b-93e0-5ec01110e9fc
 caps.latest.revision: 3
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # PreviewMode Property
 Specifies how the report opens when you preview it.  
 
@@ -29,7 +32,8 @@ Specifies how the report opens when you preview it.
  Regardless of your choice, users can change the display mode in the **Print Preview** window. For example, if you choose the default mode, users can choose the **Print Layout** button. However, if the AL code for the report uses the PREVIEW function to disable printing from the preview, then users cannot change the display mode to print layout.  
 
 ## See Also  
+<!--
  [Report Design Overview](../devenv-report-design-overview.md)   
  [Designing Reports](../devenv-designing-reports.md)   
- [Printing Reports](../devenv-printing-reports.md)   
- [PREVIEW Function \(Report\)](../devenv-PREVIEW-method-Report.md)
+ [Printing Reports](../devenv-printing-reports.md) -->  
+ [PREVIEW Method (Report)](../methods/devenv-preview-method-report.md)

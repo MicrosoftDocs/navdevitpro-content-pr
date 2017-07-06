@@ -11,6 +11,9 @@ ms.assetid: 25e52e9d-cdaf-4f35-bf27-25a8465d595e
 caps.latest.revision: 9
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # AutoCalcField Property
 Sets whether FlowFields should be automatically calculated.  
   
@@ -24,4 +27,4 @@ Sets whether FlowFields should be automatically calculated.
  **True** if the FlowField is automatically calculated; otherwise, **false**. The default is **true**.  
   
 ## See Also  
- [FlowFields](FlowFields.md)
+ [FlowFields](../devenv-flowfields.md)

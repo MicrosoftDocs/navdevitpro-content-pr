@@ -11,6 +11,9 @@ ms.assetid: c886feae-07bd-4de4-b457-4e2bd9f7e5a9
 caps.latest.revision: 6
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ControlType Property
 Use this property when you select a control type.  
   

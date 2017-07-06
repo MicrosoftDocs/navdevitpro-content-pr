@@ -11,6 +11,9 @@ ms.assetid: 58897231-df6f-4958-baf2-55a2ce23bde6
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Variable Methods
 The following AL methods for variables are available:  
   
@@ -23,5 +26,4 @@ The following AL methods for variables are available:
 [EVALUATE Method](devenv-EVALUATE-Method.md)  
   
 ## See Also  
- [Technical Reference](../devenv-technical-reference.md)   
- [AL Reference Guide](../AL-Reference-Guide.md)
+ [AL Reference Guide](../devenv-AL-Reference-Guide.md)

@@ -11,6 +11,9 @@ ms.assetid: 12b3f553-ca5a-4726-a9d4-3f19daac83d1
 caps.latest.revision: 19
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETFILTER Method (Query)
 Sets a filter on a column of a query to limit the records in the resulting dataset of a query.  
   
@@ -32,7 +35,7 @@ Query.SETFILTER(Column, String[, Value],...)
  *String*  
  Type: Text or code  
   
- The filter expression. A valid expression consists of alphanumeric characters and one or more of the following operators: \<, >, \*, &, &#124;, and =. You can use replacement fields \(%1, %2, and so on\) to insert values at run-time. For more information about filter expressions and syntax, see [Entering Criteria in Filters](Entering-Criteria-in-Filters.md).  
+ The filter expression. A valid expression consists of alphanumeric characters and one or more of the following operators: \<, >, \*, &, &#124;, and =. You can use replacement fields \(%1, %2, and so on\) to insert values at run-time. <!--Links For more information about filter expressions and syntax, see [Entering Criteria in Filters](Entering-Criteria-in-Filters.md).-->  
   
  *Value*  
  Type: Any  
@@ -77,7 +80,7 @@ Query.READ;
   
  `Query.SETFILTER ("Quantity", '>1’)` will result in a filter that is equivalent to: 1\<Quantity \<100.  
   
- For more information about how to set filters in Query Designer, see [Understanding Query Filters](Understanding-Query-Filters.md).  
+ <!--Links For more information about how to set filters in Query Designer, see [Understanding Query Filters](Understanding-Query-Filters.md).-->  
   
 ## Example  
  The following AL code example demonstrates how to use the **SETFILTER** method on a query. The example code sets a filter on a query column, and then displays a message when the query is run that indicates the filter on the column.  

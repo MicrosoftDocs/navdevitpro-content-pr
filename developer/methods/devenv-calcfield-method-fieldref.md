@@ -1,7 +1,7 @@
 ---
 title: "CALCFIELD Method (FieldRef)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: d226598c-f73c-41f1-baa9-17a642483c35
 caps.latest.revision: 25
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CALCFIELD Method (FieldRef)
 Updates FlowFields in a record.  
 
@@ -29,7 +32,7 @@ Updates FlowFields in a record.
 ## Property Value/Return Value  
  Type: Boolean  
 
- **true** if FlowField has been calculated; otherwise, **false**.  
+ **True** if FlowField has been calculated; otherwise, **false**.  
 
 ## Remarks  
  FlowFields are virtual fields. The values in these fields are not saved in the table.  
@@ -70,4 +73,4 @@ IF CustRecordref.FIND('-') THEN
 
 ## See Also  
  [FieldRef Data Type](../datatypes/devenv-FieldRef-Data-Type.md)   
- [FlowFields](FlowFields.md)
+ [FlowFields](../devenv-flowfields.md)  

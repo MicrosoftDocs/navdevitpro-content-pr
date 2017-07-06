@@ -11,6 +11,9 @@ ms.assetid: 8381d595-c371-4b95-b0f6-c66164976819
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CURRENTEXECUTIONMODE Method (Sessions)
 Specifies the mode in which the session is running.  
 
@@ -45,4 +48,4 @@ MESSAGE('Current execution mode is %1.', Mode);
 
 ## See Also  
  [Session Methods](devenv-session-methods.md)   
- [Debugging](Debugging.md)
+ <!--Links [Debugging](Debugging.md) -->

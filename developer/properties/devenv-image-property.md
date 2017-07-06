@@ -11,6 +11,9 @@ ms.assetid: 33bb844b-f09c-4286-951f-d1c7efa96b6e
 caps.latest.revision: 13
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Image Property
 Specifies the icon that you want to associate with an action or an activity button. 
   
@@ -23,6 +26,7 @@ Specifies the icon that you want to associate with an action or an activity butt
   
 ## See Also  
  [Properties](devenv-properties.md)   
+ <!--
  [How to: Promote Actions on Pages](../devenv-How-to-Promote-Actions-on-Pages.md)   
  [How to: Set an Icon on an Activity Button](../devenv-How-to-Set-an-Icon-on-an-Activity-Button.md)   
- [How to: Set an Icon on an Action](../devenv-How-to-Set-an-Icon-on-an-Action.md)
+ [How to: Set an Icon on an Action](../devenv-How-to-Set-an-Icon-on-an-Action.md) -->

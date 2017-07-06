@@ -1,7 +1,7 @@
 ---
 title: "CHECKLICENSEFILE Method (Database)"
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: 75a44f18-76d3-4768-82fc-b1de595d7e6b
 caps.latest.revision: 7
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CHECKLICENSEFILE Method (Database)
 Checks a key in the license file of the system.  
   

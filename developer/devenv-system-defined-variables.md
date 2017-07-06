@@ -11,6 +11,9 @@ ms.assetid: d3797441-20f0-4463-aa6e-45d61fef1f89
 caps.latest.revision: 17
 authoer: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+
 # System-Defined Variables
 [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] automatically declares and initializes several variables that you can use when you develop applications. The following table describes the system-defined variables.  
 
@@ -39,5 +42,5 @@ In addition, some triggers, such as the [OnFormat](triggers/devenv-onformat-trig
 -   If the order has shipped, compare the customer number fields in the Rec and xRec records. If they differ, reject the change.  
 
 ## See Also  
- [AL Methods](methods/devenv-al-methods.md)   
+ [AL Method Reference](methods/devenv-al-method-reference.md)   
  [Properties](properties/devenv-properties-overview.md)

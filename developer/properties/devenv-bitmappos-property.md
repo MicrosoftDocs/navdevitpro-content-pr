@@ -11,6 +11,9 @@ ms.assetid: ba7eb2b6-b5e7-4b52-a40a-1bdfb76fd0c4
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # BitmapPos Property
 Sets the position of a bitmap.  
   

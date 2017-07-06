@@ -11,6 +11,9 @@ ms.assetid: 0e06ffde-8cce-4e62-8d40-4109cca9495a
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnModifyRecord Trigger
 Executed before a record is modified in the table.  
   
@@ -24,7 +27,7 @@ Executed before a record is modified in the table.
 ## Return Value  
  *Ok*  
   
- \(Boolean\) Indicates whether a record should be modified. The return value is checked after each  call. If **True**, the record is modified \(default\). If **false**, the record is not modified.  
+ (Boolean) Indicates whether a record should be modified. The return value is checked after each  call. If **True**, the record is modified (default). If **false**, the record is not modified.  
   
 ## Applies To  
   

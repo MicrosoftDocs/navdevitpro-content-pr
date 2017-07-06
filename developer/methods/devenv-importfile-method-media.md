@@ -10,6 +10,9 @@ ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # IMPORTFILE Method (Media)
 Adds a media type, such as a JPEG image, from a file to a **Media** data type field of a record for displaying the media with the record in the client. The media file is imported to the application database, and a reference to the media is included in the **Media** data type field.
 
@@ -72,7 +75,7 @@ To support the example code that follows, create the following objects:
         This is the field on which you will import the media file.
     - A field group that has the name **Brick** and includes the **No.** and **Image** fields.
 
-        The field group is used to display the image on a page in the brick layout. For more information, see [How to: Display Data as Bricks](How-to--Display-Data-as-Bricks.md).
+        The field group is used to display the image on a page in the brick layout. <!--LinksFor more information, see [How to: Display Data as Bricks](How-to--Display-Data-as-Bricks.md).-->
 -   A page that is named **My Items** and has the following characteristics:
 
     -   List type page that uses the **My Items** table as its source.
@@ -119,7 +122,7 @@ BEGIN
 END;
 ```
 ## See Also  
- [Working With Media on Records](Working-With-Media-on-Records.md)  
+ [Working With Media on Records](../devenv-working-with-media-on-records.md)  
  [IMPORTSTREAM Method \(Media\)](devenv-IMPORTSTREAM-Method-Media.md)   
  [IMPORTFILE Method \(MediaSet\)](devenv-IMPORTFILE-Method-MediaSet.md)   
  [IMPORTSTREAM Method \(MediaSet\)](devenv-IMPORTSTREAM-Method-MediaSet.md)   

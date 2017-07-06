@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 8210a809-ecc9-4254-8887-b91d48763de8
 caps.latest.revision: 2
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETASCENDING Method (Record)
 Gets the sort order for the records returned. You can use GETASCENDING to identify the sort order of the specified field because fields can be sorted in ascending or descending order.  
   
@@ -40,4 +43,4 @@ OK:= Record.GETASCENDING(Field)
   
 ## See Also  
  [SETASCENDING Method \(Record\)](devenv-SETASCENDING-Method-Record.md)   
- [OData Web Services](OData-Web-Services.md)
+ <!--Links [OData Web Services](OData-Web-Services.md)-->

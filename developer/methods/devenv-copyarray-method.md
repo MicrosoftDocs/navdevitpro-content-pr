@@ -1,7 +1,7 @@
 ---
 title: "COPYARRAY Method"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: d1c55795-ca34-4d88-bf09-713b8f47f755
 caps.latest.revision: 15
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COPYARRAY Method
 Copies one or more elements in an array to a new array.  
 

@@ -11,6 +11,9 @@ ms.assetid: 89baebc9-7d28-42b9-b8ad-cb3ca760fad2
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # WRITEPERMISSION Method (Record)
 Determines whether a user can write to a table. This method can test for both full write permission and partial write permission that has been granted with a security filter. A write permission consists of Insert, Delete, and Modify permissions.  
   
@@ -49,7 +52,7 @@ Ok := Record.WRITEPERMISSION
 ## Remarks  
  This method uses the filter that is currently applied to the *Record* to determine whether you have write permission. If no filter is applied, the method tests for full write permission. If a filter has been set, the method only tests for write permission within the range of the filter.  
   
- To determine whether the user has a partial read permission, because a security filter has been applied, view the **Permissions** page. For more information, see [How to: Set Security Filters](How-to--Set-Security-Filters.md).  
+ To determine whether the user has a partial read permission, because a security filter has been applied, view the **Permissions** page. <!--Links For more information, see [How to: Set Security Filters](How-to--Set-Security-Filters.md).-->  
   
  If you do not have permission to write to a table and you attempt to write, a run-time error occurs. This method allows you to determine in advance if you have write permission. When the permissions are checked, the combination of permissions in the license file and the user's permissions in the Permission table is considered.  
   

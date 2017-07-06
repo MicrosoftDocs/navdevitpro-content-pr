@@ -11,6 +11,9 @@ ms.assetid: b1e5c043-9398-4229-95f9-79ca3754b5c3
 caps.latest.revision: 8
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SQL Data Type Property
 Sets the data type that you want to allow in a code field.  
   
@@ -51,6 +54,6 @@ Sets the data type that you want to allow in a code field.
   
 ## See Also  
  [Properties](devenv-properties.md)   
- [Integer Data Type](Integer-Data-Type.md)   
- [BigInteger Data Type](BigInteger-Data-Type.md)   
- [Variant Data Type](Variant-Data-Type.md)
+ [Integer Data Type](../datatypes/devenv-integer-data-type.md)   
+ [BigInteger Data Type](../datatypes/devenv-biginteger-data-type.md)   
+ [Variant Data Type](../datatypes/devenv-variant-data-type.md)

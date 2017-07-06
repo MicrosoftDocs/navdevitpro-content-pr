@@ -11,6 +11,9 @@ ms.assetid: ead172ab-f80a-4a5e-94dd-5539653d2cc6
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # MenuItemType Property
 Sets the value for the type of menu item.  
   
@@ -21,7 +24,7 @@ Sets the value for the type of menu item.
   
 |**Value**|**Description**|  
 |---------------|---------------------|  
-|**MenuItem \(default\)**|If the menu item is a standard menu item|  
+|**MenuItem (default)**|If the menu item is a standard menu item|  
 |**Separator**|If the menu item separates other items|  
   
 ## Remarks  

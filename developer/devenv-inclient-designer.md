@@ -13,6 +13,8 @@ ms.author: SusanneWindfeldPedersen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+
 # Using the In-Client Designer
 
 With the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in-client designer, you can create extensions using drag-and-drop inside the client. With this preview of the in-client designer, you can:
@@ -42,6 +44,6 @@ Change a FastTab caption by clicking the caption and start writing.
 The display type icons let you preview the changes you made on desktop, tablet, and phone clients. This way you can make sure that your design will work on the intended display target(s). You can flip to display tablet and phone designs in landscape as well.
 
 ## See Also
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)  
+[Developing Extensions](devenv-dev-overview.md)  
 [Getting Started](devenv-get-started.md)  
 [Developer Reference](devenv-reference-overview.md)

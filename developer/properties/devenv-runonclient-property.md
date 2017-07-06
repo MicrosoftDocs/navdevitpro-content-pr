@@ -1,7 +1,7 @@
 ---
 title: "RunOnClient Property"
 ms.custom: na
-ms.date: 06/14/2017
+ms.date: 07/05/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: c75899f7-b01d-407a-9961-44648116a2c8
 caps.latest.revision: 6
-author: SusanneWindfeldPedersen
+manager: edupont
 ---
 # RunOnClient Property
 Sets whether a .NET object that is defined by a variable is run on the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or [!INCLUDE[nav_server](../includes/nav_server_md.md)].  
@@ -28,7 +28,8 @@ Sets whether a .NET object that is defined by a variable is run on the [!INCLUDE
 
 > [!NOTE]  
 >  If you set the RunOnClient property to **true**, then the .NET assembly that is used by the variable must be installed on the machine that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)].  
-
+<!--
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)   
  [How to: Call .NET Framework Types From AL Code](How-to--Call-.NET-Framework-Types-From-AL-Code.md)
+-->

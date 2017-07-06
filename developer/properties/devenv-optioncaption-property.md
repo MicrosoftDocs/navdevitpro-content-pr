@@ -11,6 +11,9 @@ ms.assetid: e678b07f-3dbb-42e8-a1ac-58b6db53507e
 caps.latest.revision: 7
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OptionCaption Property
 Sets the text string options that are displayed to the user.  
   

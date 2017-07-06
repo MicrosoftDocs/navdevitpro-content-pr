@@ -11,6 +11,9 @@ ms.assetid: 83dda5c6-a608-49ca-9eb1-19f49c91088e
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # INVOKE Method (TestPage Action)
 Invokes an action on a test page.  
   
@@ -35,5 +38,5 @@ TestPage.Action.INVOKE
  All actions that are available on the page are also available on the test page.  
   
 ## See Also  
- [Test Pages](Test-Pages.md)   
+ <!--Links [Test Pages](Test-Pages.md) -->   
  [TestPage Methods](devenv-TestPage-Methods.md)

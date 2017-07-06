@@ -11,6 +11,9 @@ ms.assetid: 51a69e42-c585-43aa-a85d-81d52a887432
 caps.latest.revision: 12
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TYPE Method (FieldRef)
 Gets the data type of the field that is currently selected.  
   

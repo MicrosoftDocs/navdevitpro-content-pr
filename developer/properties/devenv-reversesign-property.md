@@ -11,6 +11,9 @@ ms.assetid: 1a82a17a-7145-4cf9-a1d7-8ae71c9fb1b7
 caps.latest.revision: 6
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ReverseSign Property
 Changes negative values into positive values and positive values into negative values in a column of a resulting query dataset.  
   
@@ -25,6 +28,6 @@ Changes negative values into positive values and positive values into negative v
   
 ## Remarks  
  Field values in a database table can be negative numbers, as well as positive. For example, credits are typically stored as negative values to deduct them from the overall balance due. However, for displaying purposes, such as in spreadsheets and charts, you might want these quantities to appear as a positive numbers.  
-  
+ <!--  
 ## See Also  
- [How to: Create Queries](../devenv-How-to-Create-Queries.md)
+ [How to: Create Queries](../devenv-How-to-Create-Queries.md) -->

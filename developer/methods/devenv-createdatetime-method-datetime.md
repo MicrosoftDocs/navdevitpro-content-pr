@@ -1,7 +1,7 @@
 ---
 title: "CREATEDATETIME Method (DateTime)"
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: da519380-0780-48da-8b37-bdda2bcf632c
 caps.latest.revision: 6
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CREATEDATETIME Method (DateTime)
 Creates a DateTime object from a date and a time.  
   

@@ -11,6 +11,9 @@ ms.assetid: c9a4c961-c9c2-4afb-8493-fbeefdad27ca
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnValidate (Page fields) Trigger
 Executed when a field loses focus after its value has been changed.  
   
@@ -28,7 +31,10 @@ OnValidate()
 ## Remarks  
  Use this trigger to validate user entries in a page field. If validation fails, then the field is marked with an error and its value is not saved.  
   
- The OnValidate trigger is also a field trigger at the table level. For more information, see [OnValidate \(Fields\) Trigger](devenv-onvalidate-fields-trigger.md). If both the table field and page field triggers are defined, then the OnValidate trigger on the table field is executed before the OnValidate trigger on the page field.  
+ The OnValidate trigger is also a field trigger at the table level. For more information, see [OnValidate (Fields) Trigger](devenv-onvalidate-fields-trigger.md). If both the table field and page field triggers are defined, then the OnValidate trigger on the table field is executed before the OnValidate trigger on the page field.  
   
 > [!NOTE]  
->  You can use this trigger to write to the database. You cannot call the UPDATE  from this trigger.
+>  You can use this trigger to write to the database. You cannot call the UPDATE from this trigger.
+
+## See Also  
+ [Triggers](devenv-triggers.md)  

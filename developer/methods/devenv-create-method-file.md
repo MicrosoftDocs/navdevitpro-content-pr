@@ -1,7 +1,7 @@
 ---
 title: "CREATE Method (File)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: b37c1137-eab2-42f9-aedd-e3559b3b678d
 caps.latest.revision: 20
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CREATE Method (File)
 Creates and opens an ASCII or binary file. If the file already exists, it will be truncated and then opened.  
   
@@ -40,16 +43,16 @@ Creates and opens an ASCII or binary file. If the file already exists, it will b
  *TextEncoding*  
  Value: **MsDos**, **UTF8**, **UTF16**, or **Windows**  
   
- Optionally, you can specify the encoding on the file. By specifying the text encoding, you ensure that all the language-specific characters are represented correctly in [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] when you read data and write data.  
+ Optionally, you can specify the encoding on the file. By specifying the [File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md), you ensure that all the language-specific characters are represented correctly in [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] when you read data and write data.  
   
- For more information, see [Text Encoding](Text-Encoding.md).  
+ For more information, see [File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md).  
   
 ## Property Value/Return Value  
  Type: Boolean  
   
  Specifies whether the file was created.  
   
- **true** if the file was created; otherwise, **false**.  
+ **True** if the file was created; otherwise, **false**.  
   
 ## Remarks  
  If the [TEXTMODE Method \(File\)](devenv-TEXTMODE-Method-File.md) returns **true** and you read or write to the file, text is put in the buffer.  
@@ -76,4 +79,4 @@ ERROR('The file could not be created');
   
 ## See Also  
  [File Data Type](../datatypes/devenv-File-Data-Type.md)   
- [Text Encoding](Text-Encoding.md)
+ [File Handling and Text Encoding](../devenv-file-handling-and-text-encoding.md)

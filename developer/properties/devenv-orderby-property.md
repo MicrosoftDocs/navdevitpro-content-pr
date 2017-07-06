@@ -11,6 +11,9 @@ ms.assetid: 5e093f0e-7e9c-4bb0-af90-ec8dc9ea5595
 caps.latest.revision: 8
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OrderBy Property
 Sorts rows in the resulting dataset of a query in ascending or descending order by a column or columns.  
   
@@ -22,9 +25,9 @@ Sorts rows in the resulting dataset of a query in ascending or descending order 
   
 -   *Column* is the name of the query column as specified by its [Name Property](devenv-name-property.md).  
   
--   **Ascending** sorts the column from lowest value to the highest value \(A to Z, 0 to 9\).  
+-   **Ascending** sorts the column from lowest value to the highest value (A to Z, 0 to 9).  
   
--   **Descending** sorts the column from highest value to the lowest value \(Z to A, 9 to 0\).  
+-   **Descending** sorts the column from highest value to the lowest value (Z to A, 9 to 0).  
   
 > [!NOTE]  
 >  Separate multiple columns with a comma.  
@@ -45,7 +48,7 @@ Sorts rows in the resulting dataset of a query in ascending or descending order 
  This following table shows the results of a query that retrieves the quantity of items in every open sales order for each customer.  
   
 |Customer|Quantity|  
-|--------------|--------------|  
+|--------|--------|  
 |The Cannon Group|50|  
 |New Concepts|15|  
 |New Concepts|30|  

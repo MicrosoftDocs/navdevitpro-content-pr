@@ -10,6 +10,9 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: c90654ad-da85-496c-900a-1c2fc7dd2f2b
 caps.latest.revision: 13
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ReqFilterFields Property
 Sets which fields are automatically included on the tab of the request page that is related to this data item. The user can set filters on these fields.  
   
@@ -30,6 +33,6 @@ Sets which fields are automatically included on the tab of the request page that
 -   Do not specify any filters in the **ReqFilterFields** property and specify a key field on which to sort in the [DataItemTableView Property](devenv-dataitemtableview-property.md).  
   
 -   Remove the request page by using the [UseRequestPage Property](devenv-userequestpage-property.md) of the report.  
-  
+<!--  
 ## See Also  
- [Request Pages](../Request-Pages.md)
+ [Request Pages](../Request-Pages.md) -->

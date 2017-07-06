@@ -3,7 +3,7 @@ title: "JSON Files"
 description: "Description of the content of the JSON files."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 12/30/2016
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -13,6 +13,8 @@ ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
+
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # JSON Files
 

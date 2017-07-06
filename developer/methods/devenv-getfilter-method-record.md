@@ -11,6 +11,9 @@ ms.assetid: e98cdb71-ad05-4bfd-87a6-ebf35b06b55c
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETFILTER Method (Record)
 Gets a list of the filters within the current filter group that are applied to a field.  
   

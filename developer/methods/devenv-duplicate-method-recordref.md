@@ -11,6 +11,9 @@ ms.assetid: 9c57c8c0-5b99-4f9b-aecc-e6895e2da1e2
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DUPLICATE Method (RecordRef)
 Duplicates the table that contains the RecordRef.  
   

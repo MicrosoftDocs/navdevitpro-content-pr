@@ -11,6 +11,9 @@ ms.assetid: 32db8616-21ad-43e5-9fc6-2a77908063b8
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DEFAULTLAYOUT Method
 Gets the default built-in layout type that is used on a specified report.  
 
@@ -38,5 +41,5 @@ DefaultLayout := REPORT.DEFAULTLAYOUT(Number)
 
 ## See Also  
  [Report Object](../devenv-report-object.md)   
- [How to. Specify the Default Built-in Report Layout](How-to.-Specify-the-Default-Built-in-Report-Layout.md)   
- [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)
+ <!--Links [How to Specify the Default Built-in Report Layout](How-to-Specify-the-Default-Built-in-Report-Layout.md)   
+ [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)-->

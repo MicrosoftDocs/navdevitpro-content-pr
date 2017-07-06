@@ -10,8 +10,11 @@ ms.author: SusanneWindfeldPedersen
 ms.prod: "dynamics-nav-2017"
 
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Implementation Tips for Gestures
-Swipe gestures on the [!INCLUDE[nav_phone_md](../includes/nav_phone_md.md)] are easy to implement and are defined through actions on the page. You can map an action to a swipe gesture by setting the value of the new **Gesture** property to **LeftSwipe** or **RightSwipe** on a specific action.
+Swipe gestures on the phone are easy to implement and are defined through actions on the page. You can map an action to a swipe gesture by setting the value of the new **Gesture** property to **LeftSwipe** or **RightSwipe** on a specific action.
 
 Swipe gestures are available on pages of type List or ListPart, including embedded pages. For example, you can implement gestures on the Sales Lines subpage on a Sales Invoice.
 
@@ -32,6 +35,7 @@ Before assigning gesture activation to actions, take a moment to consider which 
 In general, having a single action available on swipe-right that starts or progresses the most important task is recommended, and - optionally - a single action is made available on left swipe. In special cases, multiple actions can be made available on either right or left swipe. In this case, the user's first swipe will reveal the available actions, and a second tap gesture is then needed to activate one of the actions. When using multiple actions on swipe, organize actions in their order of importance, sequenced in reading order, most important first.
 
 ## See Also
-[Gesture Property](devenv-gesture-property.md)  
+[Gesture Property](devenv-gesture-property.md) 
+<!-- 
 [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)  
-[Adding Actions to Pages](Adding-Actions-to-Pages.md)
+[Adding Actions to Pages](Adding-Actions-to-Pages.md) -->

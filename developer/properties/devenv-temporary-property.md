@@ -11,6 +11,9 @@ ms.assetid: e12a808e-652f-467e-a8b1-768b6dba429d
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Temporary Property
 Sets whether a temporary table is created.  
   

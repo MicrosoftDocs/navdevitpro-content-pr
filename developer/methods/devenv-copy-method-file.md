@@ -1,7 +1,7 @@
 ---
 title: "COPY Method (File)"
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: 8116f838-de15-44f0-a1e7-9292c6a7c4f6
 caps.latest.revision: 15
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COPY Method (File)
 Use this method to copy a file.  
   

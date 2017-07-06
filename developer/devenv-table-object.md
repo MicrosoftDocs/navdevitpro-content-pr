@@ -3,7 +3,7 @@ title: "Table Object"
 description: "Description of the table object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 12/06/2016
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -13,6 +13,8 @@ ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
+
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Table Object
 Tables are the core objects used to store data in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Regardless of how data is inputted to the product - from a web service to a finger swipe on the phone app, the results of that transaction will be recorded in a table. <!-- Note whether this has the ame meaning but,here is a suggestion: Regardless of how data is inputted to the product - from a web service or a finger swipe on the phone app - the results of that transaction will be recorded in a table.-->
@@ -83,4 +85,4 @@ table 70000030 Address
 [Table Extension Object](devenv-table-ext-object.md)  
 [Developer Reference](devenv-reference-overview.md)  
 [Table Keys](devenv-table-keys.md)  
-[Table Properties](../properties/devenv-table-properties.md)
+[Table Properties](properties/devenv-table-properties.md)

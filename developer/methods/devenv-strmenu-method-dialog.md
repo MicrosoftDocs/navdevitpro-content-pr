@@ -11,6 +11,9 @@ ms.assetid: 0fd35393-b2ad-4303-a0e5-9f32d5bd5ca3
 caps.latest.revision: 15
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # STRMENU Method (Dialog)
 Creates a menu window that displays a series of options.  
   
@@ -25,7 +28,7 @@ OptionNumber := Dialog.STRMENU(OptionString [, DefaultNumber] [, Instruction])
  *OptionString*  
  Type: Code or text constant  
   
- A comma-separated string. Each substring in *OptionString* specifies an option on the menu. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
+ A comma-separated string. Each substring in *OptionString* specifies an option on the menu. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](../devenv-multilanguage-development.md).  
   
  *DefaultNumber*  
  Type: Integer  

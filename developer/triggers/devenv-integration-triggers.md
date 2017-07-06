@@ -11,6 +11,9 @@ ms.assetid: 7ee8c36d-9751-448f-9072-97e69bcc5712
 caps.latest.revision: 5
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Integration Triggers
 The following triggers have been added to support integration with Dynamics 365 CRM solutions:  
 

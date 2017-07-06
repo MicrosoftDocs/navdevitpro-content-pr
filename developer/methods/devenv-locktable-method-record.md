@@ -11,6 +11,9 @@ ms.assetid: ba5aa5db-100c-4081-80e0-986cbc8e034d
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # LOCKTABLE Method (Record)
 Locks a table to protect it from write transactions that conflict with each other.  
   

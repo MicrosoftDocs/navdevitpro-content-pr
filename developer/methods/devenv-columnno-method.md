@@ -1,7 +1,7 @@
 ---
 title: "COLUMNNO Method"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: 5305add4-662d-4624-9a92-a9f9c3e7939c
 caps.latest.revision: 6
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COLUMNNO Method
 Returns the ID that is assigned to a query column in the query definition.  
 
@@ -55,7 +58,7 @@ Number := MyQuery.COLUMNNO("Customer_No");
 ```  
 
 ## See Also  
- <!--NAV [How to: Create Queries](How-to--Create-Queries.md) -->   
- [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md)   
+ <!--Links [How to: Create Queries](How-to--Create-Queries.md)    
+ [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md)-->  
  [Query Object](../devenv-query-object.md)   
  [Record Data Type](../datatypes/devenv-Record-Data-Type.md)

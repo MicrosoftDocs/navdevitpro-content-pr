@@ -16,14 +16,14 @@ This data type stores test request pages. A test request page part is a logical 
 
 Here is a list of TestRequestPage methods:
 
-[SAVEASEXCEL Method](devenv-saveasexcel-method-testrequestpage.md)
+[SAVEASEXCEL Method](../methods/devenv-saveasexcel-method-testrequestpage.md)
 
-[SAVEASPDF Method](devenv-saveaspdf-method-testrequestpage.md)
+[SAVEASPDF Method](../methods/devenv-saveaspdf-method-testrequestpage.md)
 
-[SAVEASWORD Method](devenv-saveasword-method-testrequestpage.md)
+[SAVEASWORD Method](../methods/devenv-saveasword-method-testrequestpage.md)
 
-[SAVEASXML Method](devenv-saveasxml-method-testrequestpage.md)
+[SAVEASXML Method](../methods/devenv-saveasxml-method-testrequestpage.md)
 
 ## See Also  
 [TestPage Data Type](devenv-testpage-data-type.md)  
-[AL Methods](../devenv-al-methods.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

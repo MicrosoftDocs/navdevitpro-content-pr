@@ -11,6 +11,9 @@ ms.assetid: d27b1678-5656-4483-9fbe-b6278e0cffc4
 caps.latest.revision: 6
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnFindRecord Trigger
 Overrides the default page behavior and enables you to specify which record you want to display when the page opens.  
   
@@ -39,8 +42,8 @@ Overrides the default page behavior and enables you to specify which record you 
   
 |Value|Result|  
 |-----------|------------|  
-|TRUE|Found|  
-|FALSE|Not found \(default\)|  
+|true|Found|  
+|false|Not found (default)|  
   
 ## Applies To  
   

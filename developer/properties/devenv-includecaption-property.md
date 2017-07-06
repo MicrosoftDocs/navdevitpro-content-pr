@@ -11,11 +11,14 @@ ms.assetid: 5c155846-4dd6-49d0-a6f5-9af11f725d54
 caps.latest.revision: 8
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # IncludeCaption Property
 Sets whether to include the caption of a field in the dataset of a report.  
 
 ## Applies To  
- Columns on client report definition \(RDLC\) report datasets.  
+ Columns on client report definition (RDLC) report datasets.  
 
 ## Property Value  
  **True** if the caption is included in the dataset; otherwise **false**. The default value is **true**.  
@@ -27,4 +30,5 @@ Sets whether to include the caption of a field in the dataset of a report.
 
 ## See Also  
  [Caption Property](devenv-caption-property.md)   
- [How to: Create Labels for a Report](../devenv-How-to-Create-Labels-for-a-Report.md)
+ <!--
+ [How to: Create Labels for a Report](../devenv-How-to-Create-Labels-for-a-Report.md) -->

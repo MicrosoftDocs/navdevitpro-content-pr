@@ -1,7 +1,7 @@
 ---
 title: "COUNT Method (MediaSet)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,6 +9,9 @@ ms.topic: article
 ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COUNT Method (MediaSet)
 Counts the number of media objects that are included in the MediaSet of a record.
 
@@ -58,5 +61,5 @@ itemRec.GET('1000');
 ```  
 
 ## See Also  
-[Working With Media on Records](Working-With-Media-on-Records.md)  
+[Working With Media on Records](../devenv-working-with-media-on-records.md)  
 [MediaSet Data Type](../datatypes/devenv-MediaSet-Data-Type.md)  

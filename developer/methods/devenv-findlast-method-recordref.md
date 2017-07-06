@@ -11,6 +11,9 @@ ms.assetid: 730062d7-0530-46a7-9cbf-cad9d7732bbd
 caps.latest.revision: 13
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FINDLAST Method (RecordRef)
 Finds the last record in a table based on the current key and filter.  
   
@@ -27,7 +30,7 @@ Finds the last record in a table based on the current key and filter.
   
  The RecordRef that refers to the table in which you want to find the last record.  
   
- If the record is found, it is returned in *RecordRef* and any [FlowFields](FlowFields.md) in the record are set to zero. You must update any FlowFields using [CALCFIELDS Method \(Record\)](devenv-CALCFIELDS-Method-Record.md).  
+ If the record is found, it is returned in *RecordRef* and any [FlowFields](../devenv-flowfields.md) in the record are set to zero. You must update any FlowFields using [CALCFIELDS Method \(Record\)](devenv-CALCFIELDS-Method-Record.md).  
   
  If the record is not found and if you omitted the return value, a run-time error occurs.  
   

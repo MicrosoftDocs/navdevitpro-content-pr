@@ -11,6 +11,9 @@ ms.assetid: 8f07e5a8-72ed-46ef-bc5a-04089315c90a
 caps.latest.revision: 5
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # MergeDocument Method
 Loads the custom Word layout that is currently set up to use on the report and renders it in the targeted format, such as Word or PDF.  
 
@@ -68,7 +71,7 @@ DocumentReportMgt.MergeWordLayout(ObjectID,ReportAction,XmlData,FileName);
 ```  
 
 ## See Also  
- [Customizing Report Layout Implementation in Codeunit 1](Customizing-Report-Layout-Implementation-in-Codeunit-1.md)   
+ <!--Links [Customizing Report Layout Implementation in Codeunit 1](Customizing-Report-Layout-Implementation-in-Codeunit-1.md) -->  
  [REPORT.RUN Method](devenv-REPORT-RUN-Method.md)   
  [SAVEASWORD Method \(REPORT\)](devenv-SAVEASWORD-Method-REPORT.md)   
  [SAVEASPDF Method \(Report\)](devenv-SAVEASPDF-Method-Report.md)   

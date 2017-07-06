@@ -1,7 +1,7 @@
 ---
 title: "EnableExternalAssemblies Property"
 ms.custom: na
-ms.date: 06/13/2017
+ms.date: 07/06/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -29,4 +29,4 @@ Sets whether external Microsoft .NET assemblies can be used on a report.
   
 ## See Also  
  [Properties](devenv-properties.md)   
- [Designing Reports](Designing-Reports.md)
+ <!-- [Designing Reports](Designing-Reports.md) -->

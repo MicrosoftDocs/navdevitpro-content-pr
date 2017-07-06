@@ -11,6 +11,9 @@ ms.assetid: 96935e30-d516-4997-b47e-f693b8e5718a
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SuppressDispose Property
 Specifies if a Microsoft .NET Framework object that is defined by a **DotNet** variable is disposed when it goes out of scope.  
 
@@ -22,7 +25,7 @@ Specifies if a Microsoft .NET Framework object that is defined by a **DotNet** v
 
 ## Remarks  
  When a local .NET Framework object is disposed, it cannot be assigned outside the scope of its local function. If you want to assign the local **DotNet** variable to a global AL or .NET Framework object, then you set the **SuppressDispose** property to **true**.  
-
+<!-- 
 ## See Also  
  [Calling .NET Framework Members from AL](Calling-.NET-Framework-Members-from-AL.md)   
- [How to: Call .NET Framework Types From AL Code](How-to-Call-.NET-Framework-Types-From-AL-Code.md)
+ [How to: Call .NET Framework Types From AL Code](How-to-Call-.NET-Framework-Types-From-AL-Code.md) -->

@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-financials"
 ms.assetid: b81542a2-308f-4ed4-b5c4-9484df43285c
 caps.latest.revision: 9
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnLookup (Fields) Trigger
 Causes the system to display a lookup page.  
 
@@ -43,4 +46,4 @@ Causes the system to display a lookup page.
 >  The lookup for a non-editable field is not rendered. You can use the [OnDrillDown Trigger](devenv-ondrilldown-trigger.md) instead.
 
 ## See Also  
- [OnLookup \(Page fields\) Trigger](devenv-onlookup-page-fields-trigger.md)
+ [OnLookup (Page fields) Trigger](devenv-onlookup-page-fields-trigger.md)

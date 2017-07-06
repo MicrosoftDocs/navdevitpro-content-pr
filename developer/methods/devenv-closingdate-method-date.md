@@ -1,7 +1,7 @@
 ---
 title: "CLOSINGDATE Method (Date)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: ff8ed675-00d3-4d11-af67-3ffc0621d3a7
 caps.latest.revision: 18
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CLOSINGDATE Method (Date)
 Gets the closing date for a [Date Data Type](../datatypes/devenv-Date-Data-Type.md).  
   

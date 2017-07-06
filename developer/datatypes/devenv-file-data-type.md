@@ -1,7 +1,7 @@
 ---
 title: "File Data Type"
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,14 +14,14 @@ author: SusanneWindfeldPedersen
 # File Data Type
 The File data type gives access to files. Files can be opened in text or binary mode. For more information, see [TEXTMODE method (File)](../methods/devenv-textmode-method-file.md).  
   
- You can read from or write to a file by creating input and output streams, respectively. To do so, use the [CREATEINSTREAM method (File)](../methods/devenv-createinstream-method-file.md) and [CREATEOUTSTREAM method (File)](../methods/devenv-createoutstream-method-file.md). For more information, see [InStream and OutStream Data Types](../methods/devenv-instream-and-outstream-data-types.md).  
+ You can read from or write to a file by creating input and output streams, respectively. To do so, use the [CREATEINSTREAM method (File)](../methods/devenv-createinstream-method-file.md) and [CREATEOUTSTREAM method (File)](../methods/devenv-createoutstream-method-file.md). For more information, see [InStream and OutStream Data Types](devenv-instream-and-outstream-data-types.md).  
 
 ## Methods  
 The methods supported for the File data type are:
 
 [CLOSE method (File)](../methods/devenv-close-method-file.md)   
 [COPY method (File)](../methods/devenv-copy-method-file.md)   
-[CREATE method (File)](../methods/devenv-create-method-ile.md)   
+[CREATE method (File)](../methods/devenv-create-method-file.md)   
 [CREATEINSTREAM method (File)](../methods/devenv-createinstream-method-file.md)   
 [CREATEOUTSTREAM method (File)](../methods/devenv-createoutstream-method-file.md)   
 [CREATETEMPFILE method (File)](../methods/devenv-createtempfile-method-file.md)   

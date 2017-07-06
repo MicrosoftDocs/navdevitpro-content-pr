@@ -11,6 +11,9 @@ ms.assetid: 045e0883-f0ab-468d-832d-5cc1798db87b
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnDelete Trigger
 Executed when a user tries to delete a record.  
   

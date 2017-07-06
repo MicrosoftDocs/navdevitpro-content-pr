@@ -1,7 +1,7 @@
 ---
 title: "CREATEINSTREAM Method (File)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: 4703bba6-70af-49a6-9700-033b24adfb7a
 caps.latest.revision: 15
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CREATEINSTREAM Method (File)
 Creates an InStream object for a file. This enables you to import or read data from the file.  
 

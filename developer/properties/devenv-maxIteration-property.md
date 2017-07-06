@@ -11,6 +11,9 @@ ms.assetid: de72895e-8df3-4ae7-921d-44f5738bd4bb
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # MaxIteration Property
 Sets a limit on the number of times that a data item will be iterated when the report is run.  
   
@@ -18,7 +21,7 @@ Sets a limit on the number of times that a data item will be iterated when the r
  Data items  
   
 ## Remarks  
- Valid settings of this property are integers between 0 and the maximum value of an integer \(2,147,483,647\).  
+ Valid settings of this property are integers between 0 and the maximum value of an integer (2,147,483,647).  
   
 ## See Also  
  [Properties](devenv-properties.md)

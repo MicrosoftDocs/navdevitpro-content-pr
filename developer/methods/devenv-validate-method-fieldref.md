@@ -11,6 +11,9 @@ ms.assetid: cd589e34-0250-47e7-825f-1b0b56361f14
 caps.latest.revision: 16
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # VALIDATE Method (FieldRef)
 Use this method to enter a new value into a field and have the new value validated by the properties and code that have been defined for that field.  
 

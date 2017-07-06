@@ -10,6 +10,9 @@ ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # MEDIAID Method (Media)
 Gets the unique identifier of a media object on a record.  
 
@@ -63,7 +66,7 @@ myItemRec.GET('1');
 ```  
 
 ## See Also  
- [Working With Media on Records](Working-With-Media-on-Records.md)  
+ [Working With Media on Records](../devenv-working-with-media-on-records.md)  
  [IMPORTFILE Method \(Media\)](devenv-IMPORTFILE-Method-Media.md)   
  [IMPORTSTREAM Method \(Media\)](devenv-IMPORTSTREAM-Method-Media.md)   
  [Media Data Type](../datatypes/devenv-Media-Data-Type.md)

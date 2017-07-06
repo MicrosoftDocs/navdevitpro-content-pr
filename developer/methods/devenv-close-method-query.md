@@ -1,7 +1,7 @@
 ---
 title: "CLOSE Method (Query)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: d4cf28df-1382-437a-9579-eb160dc94417
 caps.latest.revision: 14
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CLOSE Method (Query)
 Closes a query dataset and returns the query instance to the initialized state.  
 
@@ -70,6 +73,6 @@ MyQuery.CLOSE;
 ```  
 
 ## See Also  
- <!--NAV [How to: Create Queries](How-to--Create-Queries.md) -->   
- [Working with Queries in AL](Working-with-Queries-in-AL.md)   
+ <!--Links [How to: Create Queries](How-to--Create-Queries.md)   
+ [Working with Queries in AL](Working-with-Queries-in-AL.md) -->    
  [Query Object](../devenv-query-object.md)

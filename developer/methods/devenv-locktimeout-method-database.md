@@ -12,6 +12,9 @@ ms.assetid: a11adeb8-faf1-41bc-9742-5039c3621335
 caps.latest.revision: 7
 manager: edupont04
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # LOCKTIMEOUT Method (Database)
 Determines whether the lock time-out setting is set to **On**. You can also use this method to override the default setting.  
 

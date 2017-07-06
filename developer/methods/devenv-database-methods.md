@@ -11,6 +11,9 @@ ms.assetid: d264a2df-c391-4ddc-9014-b601493ba1a1
 caps.latest.revision: 8
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Database Methods
 The following AL methods for operations on the database are available.
 
@@ -57,6 +60,6 @@ The following AL methods for operations on the database are available.
 [USERID Method \(Sessions\)](devenv-USERID-Method-Sessions.md)  
 
 ## See Also  
- [AL Methods](devenv-al-methods.md)   
+ [AL Method Reference](devenv-al-method-reference.md)   
  [AL Reference Guide](../devenv-al-reference-guide.md)   
- [Development](devenv-Development.md)
+ <!--Links [Development](devenv-Development.md) -->

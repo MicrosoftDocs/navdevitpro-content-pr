@@ -11,6 +11,9 @@ ms.assetid: bc6beaeb-07bb-4a5e-b84a-3c48b17f3c54
 caps.latest.revision: 5
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # XMLport Triggers
 The following triggers apply to XMLports.  
   
@@ -35,4 +38,6 @@ The following triggers apply to XMLports.
 |[OnPreXMLItem Trigger](devenv-onprexmlitem-trigger.md)|Executed after the table is initialized and before you start exporting data to an XML object. This trigger only applies to XMLport elements that have a source type of Table.<br /><br /> This trigger is only used to export data.|  
   
 ## See Also  
- [How to: Define or Modify Table or Field Triggers](How-to-define-or-modify-table-or-field-triggers.md)
+ [Triggers](devenv-triggers.md)  
+<!--
+ [How to: Define or Modify Table or Field Triggers](How-to-define-or-modify-table-or-field-triggers.md) -->

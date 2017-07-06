@@ -1,7 +1,7 @@
 ---
 title: "ADDLINK Method (Record)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: 4b49e92d-b390-45cc-9fd2-4ae8e0d9758a
 caps.latest.revision: 13
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ADDLINK Method (Record)
 Adds a link to a record.  
 
@@ -56,4 +59,4 @@ ID := Customer.ADDLINK('www.northwindtraders.com','Northwind Traders');
 ```  
 
 ## See Also  
- [Record Data Type](../datatypes/devenv-Record-Data-Type.md)
+ [Record Data Type](../datatypes/devenv-record-data-type.md)

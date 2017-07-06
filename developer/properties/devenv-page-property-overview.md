@@ -23,7 +23,6 @@ The following properties apply to the page object.
 
 |Property Name|Page Object|Page Extension Object|
 |-------------|-----------|---------------------|
-|[CardPageId Property](devenv-cardpageid-property.md)|X||
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 |[PageType Property](devenv-pagetype-property.md)|X||
 |[Editable Property](devenv-editable-property.md)|X||
@@ -68,8 +67,8 @@ The following properties apply to Group controls on a page.
 |[Enabled Property](devenv-enabled-property.md)|X|X|
 |[Description Property](devenv-description-property.md)|X||
 |[InstructionalTextML Property](devenv-instructionaltextml-property.md)|X|X|
-|[GridLayout Property](devenv-gridlayout-property.md)|X||
-|[IndentationColumn Property](devenv-indentationcolumn-property.md)|X||
+|GridLayout Property|X||
+|[IndentationColumn Property](devenv-indentationcolumnname-property.md)|X||
 |[IndentationControls Property](devenv-indentationcontrols-property.md)|X||
 |[FreezeColumn Property](devenv-freezecolumnid-property.md)|X|X|
 |[ShowAsTree Property](devenv-showastree-property.md)|X||
@@ -113,7 +112,7 @@ The following properties apply to Field controls on a page.
 |[DrillDownPageId Property](devenv-drilldownpageid-property.md)|X||
 |[Importance Property](devenv-importance-property.md)|X|X|
 |[ToolTipML Property](devenv-tooltipml-property.md)|X|X|
-|[Title Property](devenv-title-property.md)|X|X|
+|Title Property|X|X|
 |[QuickEntry Property](devenv-quickentry-property.md)|X|X|
 |[Lookup Property](devenv-lookup-property.md)|X||
 |[DrillDown Property](devenv-drilldown-property.md)|X||
@@ -140,7 +139,7 @@ The following properties apply to Part controls on a page.
 |[SubPageLink Property](devenv-subpagelink-property.md)|X||
 |[ShowFilter Property](devenv-showfilter-property.md)|X||
 |[UpdatePropagation Property](devenv-updatepropagation-property.md)|X||
-|[Provider Property](devenv-provider-property.md)|X||
+|Provider Property|X||
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[Description Property](devenv-description-property.md)|X||
 
@@ -195,8 +194,8 @@ The following properties apply to Separators.
 |[IsHeader Property]()|X||
 
 ## See Also
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  
 [Developer Reference](../devenv-reference-overview.md)  
-[Page Object](../devenv-page-object.md)
+[Page Object](../devenv-page-object.md)  
 [Page Extension Object](../devenv-page-ext-object.md)  
 [Report Object](../devenv-report-object.md)  

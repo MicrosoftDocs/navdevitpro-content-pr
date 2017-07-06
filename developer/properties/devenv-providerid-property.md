@@ -11,6 +11,9 @@ ms.assetid: 830a7ad9-3712-4c6d-a724-59a351631502
 caps.latest.revision: 6
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ProviderID Property
 Sets the ProviderID for a FactBox.  
   
@@ -19,7 +22,7 @@ Sets the ProviderID for a FactBox.
 -   Part controls on pages  
   
 ## Remarks  
- This property enables you to create a link from a Repeater or any other type of control to a Factbox. It could also be used to link two FactBoxes. For example, the Sales Order page \(42\), uses this property to update the Sales Line FactBox by creating a ProviderID link to the SalesLines FastTab.  
+ This property enables you to create a link from a Repeater or any other type of control to a Factbox. It could also be used to link two FactBoxes. For example, the Sales Order page (42), uses this property to update the Sales Line FactBox by creating a ProviderID link to the SalesLines FastTab.  
   
 ## See Also  
  [Properties](devenv-properties.md)

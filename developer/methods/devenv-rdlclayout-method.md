@@ -11,6 +11,9 @@ ms.assetid: d0a7992f-a1f2-4c37-bfc0-cfc0459cfe44
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RDLCLAYOUT Method
 Gets the RDLC layout that is used on a report and returns it as a data stream.  
   
@@ -52,5 +55,6 @@ Gets the RDLC layout that is used on a report and returns it as a data stream.
 ## Remarks  
  Using the return value is optional. When you use the return value, if the RDLC layout cannot be retrieved at run-time, then the system returns **false** and no error recorded. When you omit the return value, if the RDLC layout cannot be retrieved at run-time, then an error occurs, which states that the layout could not be retrieved.  
   
+<!--Links
 ## See Also  
- [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)
+ [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)-->
