@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Aged accounts receivable resource type
-Represents an agedAccountsReceivable resource type in Dynamics 365 for Financials.
+Represents an agedAccountsReceivable object in Dynamics 365 for Financials, which is showing the aging of a customer account.
 
 ## Methods
 

@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Customer payment resource type
-Represents a customerPayment resource type in Dynamics 365 for Financials.
+Represents a customer payment in Dynamics 365 for Financials.
 
 ## Methods
 
