@@ -28,6 +28,6 @@ Changes negative values into positive values and positive values into negative v
   
 ## Remarks  
  Field values in a database table can be negative numbers, as well as positive. For example, credits are typically stored as negative values to deduct them from the overall balance due. However, for displaying purposes, such as in spreadsheets and charts, you might want these quantities to appear as a positive numbers.  
-  
+ <!--  
 ## See Also  
- [How to: Create Queries](../devenv-How-to-Create-Queries.md)
+ [How to: Create Queries](../devenv-How-to-Create-Queries.md) -->

@@ -29,7 +29,7 @@ Sets whether the format that is specified in the [Style Property](devenv-style-p
 ## Remarks  
 
 > [!NOTE]  
->  The information in this topic is mainly applicable to formatting the text of page fields. For information about how to use the **StyleExpr** property for configuring Cues, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](devenv-How-to-Set-Up-Colored-Indicators-on-Cues-by-Using-the-Style-and-StyleExpr-Property.md).  
+>  The information in this topic is mainly applicable to formatting the text of page fields. <!-- For information about how to use the **StyleExpr** property for configuring Cues, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](devenv-How-to-Set-Up-Colored-Indicators-on-Cues-by-Using-the-Style-and-StyleExpr-Property.md).  -->
 
  You can set **StyleExpr** to either the name of a variable; a text constant in apostrophes, for example, 'strong'; or, for backward compatibility, to **true** or **false**.  
 
@@ -40,6 +40,6 @@ Sets whether the format that is specified in the [Style Property](devenv-style-p
 
 > [!NOTE]  
 >  To use a variable for the **StyleExpr** property, the [IncludeInDataSet Property](devenv-includeindataset-property.md) of the variable must be set to **true**.  
-
+<!-- 
 ## See Also  
- [How to: Style Field Text on a Page](../How-to--Style-Field-Text-on-a-Page.md)
+ [How to: Style Field Text on a Page](../How-to--Style-Field-Text-on-a-Page.md) -->

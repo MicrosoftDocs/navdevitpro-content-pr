@@ -19,7 +19,8 @@ author: SusanneWindfeldPedersen
 >  This property is not supported in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. The property must be set to **false**, otherwise you will receive an error at runtime.  
   
 ## Applies To  
- Global variables of the [Automation Data Type](../datatypes/devenv-automation-data-type.md).  
-  
+ Global variables of the Automation Data Type.  
+<!--  
 ## See Also  
- [Automation Data Type](../datatypes/devenv-automation-data-Type.md)
+ [Automation Data Type](../datatypes/devenv-automation-data-type.md) 
+ -->

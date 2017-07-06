@@ -18,7 +18,7 @@ author: SusanneWindfeldPedersen
 Specifies whether data is committed to the database during execution of a test method and whether transactions are rolled back at the end of a test method.  
 
 ## Applies To  
- AL test methods on test codeunits. A test codeunit is a codeunit that has the [SubType Property \(Codeunit\)](devenv-subtype-codeunit-property.md) set to **Test**.  
+ AL test methods on test codeunits. A test codeunit is a codeunit that has the [SubType Property \(Codeunit\)](devenv-subtype-property-codeunit.md) set to **Test**.  
 
  The TransactionModel property applies to both test methods that use TestPages and test methods that do not use TestPages.  
 
@@ -26,7 +26,7 @@ Specifies whether data is committed to the database during execution of a test m
 
 |Value|Description|  
 |-----------|-----------------|  
-|AutoCommit|A commit is issued at the end of the test method. If an error occurs during the test method, then the transaction is rolled back. If an error occurs and you catch it with an **ASSERTERROR** statement, then the transaction is rolled back. If the code that is being tested calls the [COMMIT Method \(Database\)](COMMIT-Method--Database-.md) before an error occurs, then the transaction is rolled back only to the point at which the **COMMIT** was called.<br /><br /> **AutoCommit** is the default value.|  
+|AutoCommit|A commit is issued at the end of the test method. If an error occurs during the test method, then the transaction is rolled back. If an error occurs and you catch it with an **ASSERTERROR** statement, then the transaction is rolled back. If the code that is being tested calls the COMMIT Method (\Database\) before an error occurs, then the transaction is rolled back only to the point at which the **COMMIT** was called.<br /><br /> **AutoCommit** is the default value.|  
 |AutoRollback|The transaction is rolled back after test execution. Calls to the **COMMIT** method during a test that is set to **AutoRollback** fail with an error.|  
 |None|Used primarily with TestPages. The test method does not have an open write transaction; therefore, it cannot write to the database. Each interaction with the database occurs through TestPage triggers, which open their own write transactions. At the end of each trigger, if no errors occurred, then any changes are committed to the database. If an error occurred, then changes are rolled back at the end of the transaction.|  
 
@@ -73,7 +73,7 @@ Specifies whether data is committed to the database during execution of a test m
 
 ## See Also  
  [TestIsolation Property](devenv-testisolation-property.md)   
- [Testing the Application](Testing-the-Application.md)   
+ <!-- [Testing the Application](Testing-the-Application.md)   
  [Testing Pages](Testing-Pages.md)   
  [How to: Create Test Codeunits and Test Methods](How-to--Create-Test-Codeunits-and-Test-Methods.md)   
- [AL ASSERTERROR Statements](C-AL-ASSERTERROR-Statements.md)
+ [AL ASSERTERROR Statements](AL-ASSERTERROR-Statements.md) -->
