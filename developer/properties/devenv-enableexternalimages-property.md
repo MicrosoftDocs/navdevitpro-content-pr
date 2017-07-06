@@ -44,6 +44,5 @@ Sets whether external images are allowed on a report.
   
 ## See Also  
  [Properties](devenv-properties.md)   
- [Designing Reports](Designing-Reports.md)   
- <!--
+  <!--[Designing Reports](Designing-Reports.md)   
  [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md) -->

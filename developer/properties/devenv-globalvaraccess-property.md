@@ -27,7 +27,7 @@ Specifies whether global variables in the object that contains the event publish
   
 ## Remarks  
  When you set the GlobalVarAccess property to **true**, event subscriber methods that subscribe to an event can call the global variable parameters in the object that is specified by the [EventPublisherObject Property](devenv-eventpublisherobject-property.md), which contains the event publisher method that declares the event. You must add variable parameters to the event subscriber methods manually and use a name and type that matches the variable declaration in the event publisher object.  
-  
+ <!-- 
 ## See Also  
  [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
  [Publishing Events](Publishing-Events.md)   
@@ -35,3 +35,4 @@ Specifies whether global variables in the object that contains the event publish
  [Subscribing to Events](Subscribing-to-Events.md)   
  [GlobalVarAccess Property](devenv-globalvaraccess-property.md)   
  [AL Method Statements](AL-method-Statements.md)
+ -->
