@@ -3,7 +3,7 @@ title: "Page Object"
 description: "Description of the page object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 12/15/2016
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -21,7 +21,7 @@ Pages are the main way to display and organize visual data in [!INCLUDE[d365fin_
 
 The structure of a page is hierarchical and breaks down in to three sections. The first block contains metadata for the overall page; the type of the page and the source table it is showing data from. The next section; the layout, describes the visual parts on the page. The final section details the actions that are published on the page.
 
-When developing a solution for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you will follow the code layout for a page as shown in the page example below, but for more details on the individual controls and properties that are available, see [Page Property Overview](devenv-page-property-overview.md).
+When developing a solution for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you will follow the code layout for a page as shown in the page example below, but for more details on the individual controls and properties that are available, see [Page Property Overview](properties/devenv-page-property-overview.md).
 
 ## Snippet support
 Typing the shortcut ```tpage``` will create the basic layout for a page object when using the AL Extension in Visual Studio Code.
@@ -73,6 +73,4 @@ page 70000200 SimpleCustomerCard
 [Developing Extensions](devenv-dev-overview.md)  
 [Developer Reference](devenv-reference-overview.md)  
 [Page Extension Object](devenv-page-ext-object.md)  
-[Page Extension Properties](devenv-page-property-overview.md)  
-[Pages](pages.md)  
-[Tables](tables.md)  
+[Page Extension Properties](properties/devenv-page-property-overview.md)   
