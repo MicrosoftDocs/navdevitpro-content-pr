@@ -25,8 +25,8 @@ Specifies a field to be a timestamp field.
 
 ## Remarks  
  Each table in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] includes a hidden timestamp field. The timestamp field contains row version numbers for records as maintained in SQL Server. This property exposes the timestamp field in the table object, and enables you to write code against it.  
-
+<!-- 
  For more information, see [How to: Use a Timestamp Field](How-to--Use-a-Timestamp-Field.md).  
 
 ## See Also  
- [Tables](Tables.md)
+ [Tables](Tables.md) -->

@@ -54,6 +54,6 @@ Sets the data type that you want to allow in a code field.
   
 ## See Also  
  [Properties](devenv-properties.md)   
- [Integer Data Type](Integer-Data-Type.md)   
- [BigInteger Data Type](BigInteger-Data-Type.md)   
- [Variant Data Type](Variant-Data-Type.md)
+ [Integer Data Type](../datatypes/devenv-integer-data-type.md)   
+ [BigInteger Data Type](../datatypes/devenv-biginteger-data-type.md)   
+ [Variant Data Type](../datatypes/devenv-variant-data-type.md)

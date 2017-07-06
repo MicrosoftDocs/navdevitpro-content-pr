@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 0ff73303-b92d-4ce0-9a41-3952f8de7b7a
 caps.latest.revision: 13
-author: SusanneWindfeldPedersen04
+author: SusanneWindfeldPedersen
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -34,6 +34,6 @@ This section describes all properties that are available to developers in [!INCL
 [XMLPort Properties](devenv-xmlport-properties.md)  
 [AL Method Reference](../methods/devenv-al-method-reference.md)  
 [Triggers](../triggers/devenv-triggers.md)  
-[How to: View or Modify Properties on a Table or Field](How-to--View-or-Modify-Properties-on-a-Table-or-Field.md)  
-<!-- //NAV [Page Properties Not Supported by Microsoft Dynamics NAV Web Client](Page-Properties-Not-Supported-by-Microsoft-Dynamics-NAV-Web-Client.md)  
+<!-- //NAV[How to: View or Modify Properties on a Table or Field](How-to--View-or-Modify-Properties-on-a-Table-or-Field.md)  
+ [Page Properties Not Supported by Microsoft Dynamics NAV Web Client](Page-Properties-Not-Supported-by-Microsoft-Dynamics-NAV-Web-Client.md)  
 -->

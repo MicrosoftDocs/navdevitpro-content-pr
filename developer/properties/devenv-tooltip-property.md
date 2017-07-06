@@ -45,4 +45,4 @@ In the client, tooltips appear when you point to caption of the control.
 
 ## See Also  
  [ToolTipML Property](devenv-tooltipml-property.md)   
- [Multilanguage Development](Multilanguage-Development.md)
+ <!-- [Multilanguage Development](Multilanguage-Development.md)-->
