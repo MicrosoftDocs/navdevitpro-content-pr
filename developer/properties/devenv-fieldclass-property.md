@@ -29,7 +29,7 @@ Sets the class of the field.
 |**FlowField**|A calculated field|  
   
 ## Remarks  
- There are three classes of fields: Normal, FlowFields, and FlowFilters. For more information, see [FlowFields](FlowFields.md) and [FlowFilter Overview](FlowFilter-Overview.md).  
+ There are three classes of fields: Normal, FlowFields, and FlowFilters. For more information, see [FlowFields](../devenv-flowfields.md) and [FlowFilter Overview](../devenv-flowfilter-overview.md).  
   
 ## See Also  
  [Properties](devenv-properties.md)   

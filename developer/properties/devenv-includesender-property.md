@@ -36,8 +36,8 @@ Specifies whether global methods in the object that contains the event publisher
 <!--  For more information about events, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  -->
   
 ## See Also  
- [Publishing Events](Publishing-Events.md)   
- [Raising Events](Raising-Events.md)   
- [Subscribing to Events](Subscribing-to-Events.md)   
  [GlobalVarAccess Property](devenv-globalvaraccess-property.md)   
- [AL Method Statements](AL-Method-Statements.md)
+ <!--[Publishing Events](Publishing-Events.md)   
+ [Raising Events](Raising-Events.md)   
+ [Subscribing to Events](Subscribing-to-Events.md)  
+ [AL Method Statements](AL-Method-Statements.md) -->
