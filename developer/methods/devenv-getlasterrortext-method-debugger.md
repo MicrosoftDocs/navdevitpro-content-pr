@@ -11,6 +11,9 @@ ms.assetid: d64248cf-2e9b-4d26-b089-305891c82385
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETLASTERRORTEXT Method (Debugger)
 Gets the last error that occurred in the debugger.  
   
@@ -27,5 +30,5 @@ String := GETLASTERRORTEXT
  A text that represents the last error that occurred.  
   
 ## See Also  
- [Debugging](Debugging.md)   
+ <!--Links [Debugging](Debugging.md) -->   
  [BREAKONERROR Method \(Debugger\)](devenv-BREAKONERROR-Method-Debugger.md)

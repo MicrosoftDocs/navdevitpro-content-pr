@@ -11,6 +11,9 @@ ms.assetid: d0dd11d6-a428-4cf4-b9fb-47959ab4868c
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # WORDLAYOUT Method
 Gets the Word report layout that is used on a report and returns it as a data stream.  
   
@@ -52,5 +55,6 @@ Gets the Word report layout that is used on a report and returns it as a data st
 ## Remarks  
  Using the return value is optional. When you use the return value, if the Word report layout cannot be retrieved at run-time, then the system returns **false** and no error recorded. When you omit the return value, if the Word report layout cannot be retrieved at run-time, then an error occurs, which states that the Word report could not be retrieved.  
   
+<!--Links
 ## See Also  
- [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)
+ [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)-->

@@ -23,7 +23,7 @@ Denotes a date and time ranging from January 1, 1753, 00:00:00.000 to December 3
   
  The DateTime data type does not support closing dates.  
   
- By default, DateTimes are displayed using the standard display format. When you use the standard display format, seconds and milliseconds are not displayed until you select the DateTime field. Furthermore, if you export your data using an XMLport or by writing it to a file, the seconds and milliseconds are not exported unless you specify that DateTime fields use another format and display this information. For more information about how DateTime objects are displayed and the formats that are available, see [Format Property](../devenv-format-property.md).  
+ By default, DateTimes are displayed using the standard display format. When you use the standard display format, seconds and milliseconds are not displayed until you select the DateTime field. Furthermore, if you export your data using an XMLport or by writing it to a file, the seconds and milliseconds are not exported unless you specify that DateTime fields use another format and display this information. For more information about how DateTime objects are displayed and the formats that are available, see [Format Property](../properties/devenv-format-property.md).  
   
  The only constant available when you use the DateTime data type is the undefined DateTime, 0DT. To assign a constant value to a DateTime variable you must use the [CREATEDATETIME method (DateTime)](../methods/devenv-createdatetime-method-datetime.md).  
   

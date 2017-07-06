@@ -11,6 +11,9 @@ ms.assetid: a9a813ea-3543-42ee-9fdc-6e3700c604ac
 caps.latest.revision: 8
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # FieldClass Property
 Sets the class of the field.  
   
@@ -26,7 +29,7 @@ Sets the class of the field.
 |**FlowField**|A calculated field|  
   
 ## Remarks  
- There are three classes of fields: Normal, FlowFields, and FlowFilters. For more information, see [FlowFields](FlowFields.md) and [FlowFilter Overview](FlowFilter-Overview.md).  
+ There are three classes of fields: Normal, FlowFields, and FlowFilters. For more information, see [FlowFields](../devenv-flowfields.md) and [FlowFilter Overview](../devenv-flowfilter-overview.md).  
   
 ## See Also  
  [Properties](devenv-properties.md)   

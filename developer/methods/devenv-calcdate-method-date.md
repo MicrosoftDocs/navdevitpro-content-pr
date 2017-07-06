@@ -1,7 +1,7 @@
 ---
 title: "CALCDATE Method (Date)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: c5b62613-565d-47ed-b47b-1c734a599d65
 caps.latest.revision: 20
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CALCDATE Method (Date)
 Calculates a new date that is based on a date expression and a reference date.  
 
@@ -90,7 +93,7 @@ NewDate := CALCDATE(DateExpression [, Date])
  \<Prefix>\<Unit>\<Sign>\<Number>\<Unit>\<Sign>\<Number>\<Unit>  
 
 > [!NOTE]  
->  The angle brackets \(\< >\) specify that the expression is not translated, regardless of the application language. For more information about multilanguage capabilities with date formulas, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
+>  The angle brackets \(\< >\) specify that the expression is not translated, regardless of the application language. <!-- For more information about multilanguage capabilities with date formulas, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  -->
 
 ## Example  
  This example shows how to use the CALCDATE method.  
@@ -137,5 +140,5 @@ MESSAGE(Text000 + Text001 + Text002 + Text003,
  **The expression: CM+30D returns 06/30/96**  
 
 ## See Also  
- [Date and Time Methods](devenv-Date-and-Time-Methods.md)   
- [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)
+ [Date and Time Methods](devenv-date-and-time-methods.md)   
+ <!-- [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md) -->

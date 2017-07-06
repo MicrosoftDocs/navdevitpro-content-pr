@@ -10,6 +10,9 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: c20c0f86-3eb9-4b29-ac43-c569614162c8
 caps.latest.revision: 6
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ConstValueML Property
 Sets the values of a AL text constant for the different languages that are available in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].  
   
@@ -36,5 +39,5 @@ Sets the values of a AL text constant for the different languages that are avail
  In this example, values are set for Danish (DAN), English (United States), Spanish Traditional Sort (ESP), and French Standard (FRA).  
   
 ## See Also  
- [How to: Change the Language in the User Interface](How-to--Change-the-Language-in-the-User-Interface.md)   
- [Multilanguage Development](devenv-multilanguage-development.md)
+ <!-- [How to: Change the Language in the User Interface](How-to--Change-the-Language-in-the-User-Interface.md)  --> 
+ [Multilanguage Development](../devenv-multilanguage-development.md)

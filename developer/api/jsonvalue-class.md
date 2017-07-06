@@ -2,7 +2,7 @@
 title: "JsonValue Class"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 06/30/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -13,6 +13,8 @@ caps.latest.revision: 9
 manager: edupont
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # JsonValue Class
 JsonValue is a container for any well-formed fundamental JSON value. A default JsonValue is set to the JSON value of NULL.
@@ -48,5 +50,5 @@ The following methods are available on the JsonValue class.
 |[SetValueToUndefined](jsonvalue-setvaluetoundefined-method.md)|Set the contents of the JsonValue variable to the JSON representation of UNDEFINED.|
 
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions](../devenv-dev-overview.md)

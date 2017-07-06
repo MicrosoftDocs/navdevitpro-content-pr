@@ -1,7 +1,7 @@
 ---
 title: "CLEAR Method"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: 438b632a-5ba3-4820-b44e-ac0b0433eb33
 caps.latest.revision: 12
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CLEAR Method
 Clears the value of a single variable. Also clears all the filters that were set if the variable is a record and resets the key to the primary key and the company on a record variable.  
 

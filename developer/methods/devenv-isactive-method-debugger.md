@@ -11,6 +11,9 @@ ms.assetid: 7eebb2b9-5ba8-4c3d-8af7-f22137387698
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ISACTIVE Method (Debugger)
 Indicates whether the debugger is active.  
   
@@ -34,5 +37,5 @@ Ok := ISACTIVE
 -   Waiting to attach to a session.  
   
 ## See Also  
- [Activating the Debugger](Activating-the-Debugger.md)   
- [How to: Activate the Debugger from the Development Environment](How-to--Activate-the-Debugger-from-the-Development-Environment.md)
+ <!--Links [Activating the Debugger](Activating-the-Debugger.md)    
+ [How to: Activate the Debugger from the Development Environment](How-to--Activate-the-Debugger-from-the-Development-Environment.md)-->  

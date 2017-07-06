@@ -11,6 +11,9 @@ ms.assetid: cd6bcd37-7b5d-4d06-a551-5569555160dc
 caps.latest.revision: 7
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Namespaces Property
 Specifies namespaces on the XMLport.  
   
@@ -29,8 +32,8 @@ Specifies namespaces on the XMLport.
   
  To specify a default namespace, leave the **Prefix** field blank. You can also specify the default namespace by specifying the namespace in the [DefaultNamespace Property](devenv-defaultnamespace-property.md) and setting the [UseDefaultNamespace Property](devenv-usedefaultnamespace-property.md) to **true**. However, there can only be one default namespace. So if you want to specify a default namespace in the **Namespace** property, you must set the **UseDefaultNamespace** Property to **false**.  
 <!--
- For more information about namespaces with XMLports, see see [Using Namespaces with XMLports](Using-Namespaces-with-XMLports.md).  -->
+ For more information about namespaces with XMLports, see see [Using Namespaces with XMLports](Using-Namespaces-with-XMLports.md).  
   
 ## See Also  
  [Designing XMLports](Designing-XMLports.md)   
- [How to: Create XMLports](How-to--Create-XMLports.md)
+ [How to: Create XMLports](How-to--Create-XMLports.md) -->

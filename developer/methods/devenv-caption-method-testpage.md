@@ -1,7 +1,7 @@
 ---
 title: "CAPTION Method (TestPage)"
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: 61e73712-b23b-4d4a-a376-1217999162a9
 caps.latest.revision: 2
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CAPTION Method (TestPage)
 Gets the caption of the test page.  
   

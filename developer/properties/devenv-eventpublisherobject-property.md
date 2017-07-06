@@ -11,6 +11,9 @@ ms.assetid: 52162969-4523-4998-813c-341c63f65992
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EventPublisherObject Property
 Specifies the object that contains the event publisher method that the event subscriber responds to.  
   
@@ -32,10 +35,10 @@ Specifies the object that contains the event publisher method that the event sub
   
  After you set this property, you set the [EventMethod Property](devenv-eventmethod-property.md) to specify the event publisher method that you want the event subscriber to subscribe to.  
   
- For more information about events, see [Event Types](Event-Types.md) and [Subscribing to Events](Subscribing-to-Events.md).  
+ <!--For more information about events, see [Event Types](Event-Types.md) and [Subscribing to Events](Subscribing-to-Events.md).  
   
 ## See Also  
  [Publishing Events](Publishing-Events.md)   
  [Raising Events](Raising-Events.md)   
  [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
- [AL Method Statements](../devenv-al-method-statements.md)
+ [AL Method Statements](../devenv-al-method-statements.md) -->

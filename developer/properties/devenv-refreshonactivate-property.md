@@ -12,6 +12,9 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 036a07c2-26b0-483b-96ae-4052fdfba6ad
 caps.latest.revision: 2
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RefreshOnActivate Property
 Set this property on pages where you want to refresh the data when the user navigates back from another page.   
   

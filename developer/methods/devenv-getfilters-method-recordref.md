@@ -11,6 +11,9 @@ ms.assetid: 59e65d40-c8e0-4a56-a737-b76f2cbe22ac
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETFILTERS Method (RecordRef)
 Determines which filters have been applied to the table referred to by the RecordRef.  
   

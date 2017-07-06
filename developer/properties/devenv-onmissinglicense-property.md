@@ -11,12 +11,15 @@ ms.assetid: 4a2da080-292d-49b1-9499-48e2931e9d37
 caps.latest.revision: 3
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnMissingLicense Property
 Specifies what happens to the event subscriber function call when the license of the [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] user account that is running the current session does not include the codeunit that contains the subscriber function.  
   
 ## Applies to  
   
--   AL functions in codeunits.  
+-   AL functions in codeunits.
   
      This property is only available when the [Event Property](devenv-event-property.md) is set to **Subscriber**.  
   
@@ -26,7 +29,7 @@ Specifies what happens to the event subscriber function call when the license of
 |-----------|-----------------|  
 |**Error**|An error is thrown and the code execution stops. This is the default value.|  
 |**Skip**|The subscriber call will be ignored, and execution will continue to the next subscriber.|  
-  
+ <!-- 
 ## Remarks  
  For more information about events, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  
   
@@ -35,3 +38,4 @@ Specifies what happens to the event subscriber function call when the license of
  [Raising Events](Raising-Events.md)   
  [Subscribing to Events](Subscribing-to-Events.md)   
  [AL Method Statements](../devenv-al-method-statements.md)
+ -->

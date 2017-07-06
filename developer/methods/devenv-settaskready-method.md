@@ -11,6 +11,9 @@ ms.assetid: 90204123-a179-409d-921e-fc65f240596d
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETTASKREADY Method
 Sets a task that runs a codeunit to the ready state. The task will not run unless it is in the ready state.  
 

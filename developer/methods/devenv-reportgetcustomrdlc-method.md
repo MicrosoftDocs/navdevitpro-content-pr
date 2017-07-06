@@ -11,6 +11,9 @@ ms.assetid: 77da162a-e857-4af2-91a2-5aa347697ff0
 caps.latest.revision: 5
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ReportGetCustomRdlc Method
 Loads the proper custom RDLC layout for a report at run time and uses the layout to render the report.  
   
@@ -51,7 +54,7 @@ EXIT(ReportLayout.GetCustomRdlc(ReportId));
 ```  
   
 ## See Also  
- [Customizing Report Layout Implementation in Codeunit 1](Customizing-Report-Layout-Implementation-in-Codeunit-1.md)   
+ <!--Links [Customizing Report Layout Implementation in Codeunit 1](Customizing-Report-Layout-Implementation-in-Codeunit-1.md) -->  
  [REPORT.RUN Method](devenv-REPORT-RUN-Method.md)   
  [SAVEASWORD Method \(REPORT\)](devenv-SAVEASWORD-Method-REPORT.md)   
  [SAVEASPDF Method \(Report\)](devenv-SAVEASPDF-Method-Report.md)   

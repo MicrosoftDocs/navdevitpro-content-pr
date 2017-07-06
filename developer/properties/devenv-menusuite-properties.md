@@ -11,6 +11,9 @@ ms.assetid: 6364b2aa-2717-4f2a-9efe-d419435e9649
 caps.latest.revision: 6
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # MenuSuite Properties
 This topic lists properties that apply to the MenuSuite object.  
 
@@ -25,12 +28,11 @@ This topic lists properties that apply to the MenuSuite object.
 
 ## Menu Item Properties  
 
-1.  [AccessByPermission Property](devenv-accessbypermission-property.md)  
+-  [AccessByPermission Property](devenv-accessbypermission-property.md)  
 
-2.  [Caption Property](devenv-caption-property.md)  
+-  [Caption Property](devenv-caption-property.md)  
 
-3.  [CaptionML Property](devenv-captionml-property.md)  
+-  [CaptionML Property](devenv-captionml-property.md)  
 
 ## See Also  
  [Properties](devenv-properties.md)   
- [MenuSuites](../devenv-menusuites.md)

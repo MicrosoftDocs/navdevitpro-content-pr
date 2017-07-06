@@ -1,7 +1,7 @@
 ---
 title: "CLEARLASTERROR Method"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 808e5173-2e31-4f8c-8b13-38c948b3690c
 caps.latest.revision: 10
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CLEARLASTERROR Method
 Removes the last error message from memory.  
   

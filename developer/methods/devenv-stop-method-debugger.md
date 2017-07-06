@@ -11,6 +11,9 @@ ms.assetid: 1e7dad68-bd57-4952-a36d-ed6eabec093b
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # STOP Method (Debugger)
 Stops execution as if the code hits an error.  
   
@@ -29,4 +32,4 @@ Stops execution as if the code hits an error.
   
 ## See Also  
  [Debugger Methods](devenv-debugger-methods.md)   
- [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)
+ <!--Links [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)-->

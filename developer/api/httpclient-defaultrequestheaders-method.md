@@ -2,7 +2,7 @@
 title: "DefaultRequestHeaders Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 06/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -13,6 +13,8 @@ caps.latest.revision: 9
 manager: edupont
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # DefaultRequestHeaders Method
 Gets the default request headers which should be sent with each request.
@@ -30,5 +32,5 @@ The HttpHeaders variable is a reference type. When you add a header to this vari
 You cannot set another HttpHeaders object as a default header, you have to update the header fetched from HttpClient.
 
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions](../devenv-dev-overview.md)

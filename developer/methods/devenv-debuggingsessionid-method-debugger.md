@@ -11,6 +11,9 @@ ms.assetid: 8c170f24-d743-45b4-968a-afdc1a35d100
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DEBUGGINGSESSIONID Method (Debugger)
 Gets the ID of the session that the debugger is currently attached to.  
   
@@ -27,5 +30,5 @@ SessionID := DEBUGGINGSESSIONID
  The session ID that the debugger is currently attached to.  
   
 ## See Also  
- [Debugging](Debugging.md)   
+ <!--Links [Debugging](Debugging.md) -->   
  [DEBUGGEDSESSIONID Method \(Debugger\)](devenv-DEBUGGEDSESSIONID-Method-Debugger.md)

@@ -17,7 +17,7 @@ caps.latest.revision: 16
 # AL Reference Guide
 This section describes all functions, data types, properties, and triggers in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. They also provide general descriptions of some of the features and functionality that [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] supports.  
 
- In the Table of Contents, all [AL Methods](methods/devenv-al-methods.md) are listed under the [AL Data Types](datatypes/devenv-al-data-types.md) that they support. Each data type topic contains a description of the data type.  
+ In the Table of Contents, all [AL Method Reference](methods/devenv-al-method-reference.md) are listed under the [AL Data Types](datatypes/devenv-al-data-types.md) that they support. Each data type topic contains a description of the data type.  
 
  [Properties](properties/devenv-properties.md) and [Triggers](triggers/devenv-triggers.md) are also listed alphabetically.  
 
@@ -25,7 +25,7 @@ This section describes all functions, data types, properties, and triggers in [!
 
 ## In This Section  
 
--   [AL Methods](methods/devenv-al-methods.md)  
+-   [AL Method Reference](methods/devenv-al-method-reference.md)  
 
 -   [Properties](properties/devenv-al-properties.md)  
 

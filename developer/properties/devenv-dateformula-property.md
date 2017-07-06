@@ -11,6 +11,9 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: d6bda43c-b5b4-4243-ac85-4b55cd2fe202
 caps.latest.revision: 9
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DateFormula Property
 Sets a date formula used to verify that the date the user enters is correct.  
 
@@ -38,7 +41,7 @@ Sets a date formula used to verify that the date the user enters is correct.
  For fields, this property only applies to text fields. In earlier versions of [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)], the property also applied to code fields, but this has been deprecated.
 
 > [!NOTE]  
->  We recommend that you do not use this property. Use the [DateFormula Data Type](../datatypes/devenv-dateformula-data-type.md) instead.  
+>  We recommend that you do not use this property. Use the [DateFormula Data Type](../datatypes/devenv-date-formula-data-type.md) instead.  
 
 ## See Also  
- [DateFormula Data Type](../datatypes/devenv-dateformula-data-type.md)
+ [DateFormula Data Type](../datatypes/devenv-date-formula-data-type.md)

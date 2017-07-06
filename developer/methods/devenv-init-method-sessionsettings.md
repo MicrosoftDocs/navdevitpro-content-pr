@@ -9,8 +9,11 @@ ms.topic: article
 ms.prod: "dynamics-365-for-financials"
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # INIT Method
-Creates an instance of a SessionsSettings object that is populated with the current client user's personalization properties (such as Profile ID and Company) that are stored in the database.
+Populates the instance of a SessionsSettings with the current client user's personalization properties (such as Profile ID and Company) that are stored in the database.
 
 ## Syntax  
 

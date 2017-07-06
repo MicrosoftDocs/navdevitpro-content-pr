@@ -11,6 +11,9 @@ ms.assetid: 90a5408d-e091-409c-85fe-49508eeb92f0
 caps.latest.revision: 23
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EnableExternalImages Property
 Sets whether external images are allowed on a report.  
   
@@ -41,6 +44,5 @@ Sets whether external images are allowed on a report.
   
 ## See Also  
  [Properties](devenv-properties.md)   
- [Designing Reports](Designing-Reports.md)   
- <!--
+  <!--[Designing Reports](Designing-Reports.md)   
  [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md) -->

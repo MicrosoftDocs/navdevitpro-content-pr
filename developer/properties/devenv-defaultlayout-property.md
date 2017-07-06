@@ -11,6 +11,9 @@ ms.assetid: b2f560c0-bda3-467e-8e81-50cdf8e64ed5
 caps.latest.revision: 3
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # DefaultLayout Property
 Specifies whether the report uses the built-in RDLC or Word report layout by default.  
   
@@ -26,9 +29,9 @@ Specifies whether the report uses the built-in RDLC or Word report layout by def
   
 ## Remarks  
  A report object can include a built-in layout of either an RDLC type, Word type, or both. When you set the property to a type, then that layout type is used by default to view, save and print a report. Users can change a report to use another layout from the [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] client.  
-  
- For more information, see [Built-in and Custom Report Layouts](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuilinCustomLayouts).  
-  
+ <!-- 
+ For more information, see [Built-in and Custom Report Layouts](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuilinCustomLayouts). 
+  -->
 ## See Also  
  [Report Object](../devenv-report-object.md)  
  <!--

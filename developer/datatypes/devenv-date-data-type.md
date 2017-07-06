@@ -1,7 +1,7 @@
 ---
 title: "Date Data Type"
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 06/30/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -43,13 +43,13 @@ The methods supported for the Date data type are:
 [CLOSINGDATE method (Date)](../methods/devenv-closingdate-method-date.md)   
 [DATE2DMY method (Date)](../methods/devenv-date2dmy-method-date.md)   
 [DATE2DWY method (Date)](../methods/devenv-date2dwy-method-date.md)   
-[DATI2VARIANT method](../methods/devenv-dati2variant-method.md)   
 [DMY2DATE method (Date)](../methods/devenv-dmy2date-method-date.md)   
 [DWY2DATE method (Date)](../methods/devenv-dwy2date-method-date.md)   
 [NORMALDATE method (Date)](../methods/devenv-normaldate-method-date.md)   
 [TODAY method (Date)](../methods/devenv-today-method-date.md)   
 [VARIANT2DATE method](../methods/devenv-variant2date-method.md)   
 [WORKDATE method (Date)](../methods/devenv-workdate-method-date.md)
+<!--[DATI2VARIANT method](../articles/devenv-methods-not-supported/devenv-dati2variant-method.md)  --> 
 
 ## Example  
  This example shows valid assignments of Dates. It requires that you define the following variable.  

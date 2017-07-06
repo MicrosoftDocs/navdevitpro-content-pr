@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: c4141c46-ce87-480a-98eb-390a0fe0573b
 caps.latest.revision: 3
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # System Methods
 The following system methods are available:  
 
@@ -24,4 +27,4 @@ The following system methods are available:
 [Variable Methods](devenv-variable-methods.md)
 
 ## See Also  
- [AL Methods](devenv-al-methods.md)  
+ [AL Method Reference](devenv-al-method-reference.md)  

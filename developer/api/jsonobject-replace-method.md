@@ -2,7 +2,7 @@
 title: "Replace Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 06/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -13,6 +13,8 @@ caps.latest.revision: 9
 manager: edupont
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # Replace Method
 
@@ -33,7 +35,7 @@ Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | I
 ## Return Value
 Type: Boolean
 
-**true** if the operation was successful; otherwise, **false**.
+**True** if the operation was successful; otherwise, **false**.
 
 If you omit this optional return value and if the select does not execute successfully, then a run-time error occurs.
 
@@ -41,5 +43,5 @@ If you omit this optional return value and if the select does not execute succes
 The operation will fail if the object does not contain a property with the given key.
 
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions](../devenv-dev-overview.md)

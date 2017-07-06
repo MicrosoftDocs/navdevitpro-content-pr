@@ -1,7 +1,7 @@
 ---
 title: "TestPage Data Type"
 ms.custom: na
-ms.date: 06/08/2017
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ A test page can be any page type. For more information [Page Object](../devenv-p
 There are three categories of TestPage data type methods: TestPage, TestPage field, and TestPage filter.
   
 ## TestPage methods
-You use the TestPage Functions to:
+You use the TestPage methods to:
 -   Open and close test pages.
 -   Navigate among records to display on the test page.
 -   Navigate among fields on the test page.
@@ -30,92 +30,92 @@ You use the TestPage Functions to:
 
 Here is a list of the TestPage methods:
 
-[OPENEDIT Method](devenv-OPENEDIT-Method-TestPage.md)
+[OPENEDIT Method](../methods/devenv-openedit-method-testpage.md)
 
-[OPENNEW Method ](devenv-OPENNEW-Method-TestPage.md)
+[OPENNEW Method](../methods/devenv-opennew-method-testpage.md)
 
-[OPENVIEW Method ](devenv-OPENVIEW-Method-TestPage.md)
+[OPENVIEW Method](../methods/devenv-openview-method-testpage.md)
 
-[CLOSE Method ](devenv-CLOSE-Method-TestPage.md)
+[CLOSE Method](../methods/devenv-close-method-testpage.md)
 
-[TRAP Method ](devenv-TRAP-Method-TestPage.md)
+[TRAP Method](../methods/devenv-trap-method-testpage.md)
 
-[FIRST Method ](devenv-FIRST-Method-TestPage.md)
+[FIRST Method](../methods/devenv-first-method-testpage.md)
 
-[LAST Method ](devenv-LAST-Method-TestPage.md)
+[LAST Method](../methods/devenv-last-method-testpage.md)
 
-[NEXT Method ](devenv-NEXT-Method-TestPage.md)
+[NEXT Method](../methods/devenv-next-method-testpage.md)
 
-[PREVIOUS Method ](devenv-PREVIOUS-Method-TestPage.md)
+[PREVIOUS Method](../methods/devenv-previous-method-testpage.md)
 
-[GOTOKEY Method ](devenv-GOTOKEY-Method-TestPage.md)
+[GOTOKEY Method](../methods/devenv-gotokey-method-testpage.md)
 
-[GOTORECORD Method ](devenv-GOTORECORD-Method-TestPage.md)
+[GOTORECORD Method](../methods/devenv-gotorecord-method-testpage.md)
 
-[FINDFIRSTFIELD Method ](devenv-FINDFIRSTFIELD-Method-TestPage.md)
+[FINDFIRSTFIELD Method](../methods/devenv-findfirstfield-method-testpage.md)
 
-[FINDNEXTFIELD Method ](devenv-FINDNEXTFIELD-Method-TestPage.md)
+[FINDNEXTFIELD Method](../methods/devenv-findnextfield-method-testpage.md)
 
-[FINDPREVIOUSFIELD Method ](devenv-FINDPREVIOUSFIELD-Method-TestPage.md)
+[FINDPREVIOUSFIELD Method](../methods/devenv-findpreviousfield-method-testpage.md)
 
-[GETFIELD Method ](devenv-GETFIELD-Method-TestPage.md) 
+[GETFIELD Method](../methods/devenv-getfield-method-testpage.md) 
 
-[EXPAND Method ](devenv-EXPAND-Method-TestPage.md)
+[EXPAND Method](../methods/devenv-expand-method-testpage.md)
 
-[NEW Method ](devenv-NEW-Method-TestPage.md)
+[NEW Method](../methods/devenv-new-method-testpage.md)
 
-[GETOPTION Method \(TestPage Field\)](devenv-GETOPTION-Method-TestPage-Field.md)
+[GETOPTION Method (TestPage Field)](../methods/devenv-getoption-method-testpage-field.md)
 
-[OPTIONCOUNT Method \(TestPage Field\)](devenv-OPTIONCOUNT-Method-TestPage-Field.md)
+[OPTIONCOUNT Method (TestPage Field)](../methods/devenv-optioncount-method-testpage-field.md)
 
-[GETVALIDATIONERROR Method \(TestPage, TestPage Field\)](devenv-GETVALIDATIONERROR-Method-TestPage-TestPage-Field.md)
+[GETVALIDATIONERROR Method (TestPage, TestPage Field)](../methods/devenv-getvalidationerror-method-testpage-testpage-field.md)
 
-[VALIDATIONERRORCOUNT Method \(TestPage, TestPage Field\)](devenv-VALIDATIONERRORCOUNT-Method-TestPage-TestPage-Field.md)
+[VALIDATIONERRORCOUNT Method (TestPage, TestPage Field)](../methods/devenv-validationerrorcount-method-testpage-testpage-field.md)
 
 ## TestPage field methods
 The field methods enable you to view or change the value of a field on a test page.
 
 Here is a list of the TestPage field methods:
 
-[CAPTION Method](devenv-caption-method-fieldref-testpage-field.md)
+[CAPTION Method](../methods/devenv-caption-method-fieldref-testpage-field.md)
 
-[ASBOOLEAN Method](devenv-asboolean-method-testpage-field)
+[ASBOOLEAN Method](../methods/devenv-asboolean-method-testpage-field.md)
 
-[ASDECIMAL Method](devenv-asdecimal-method-testpage-field)
+[ASDECIMAL Method](../methods/devenv-asdecimal-method-testpage-field.md)
 
-[ASINTEGER Method](devenv-asinteger-method-testpage-field)
+[ASINTEGER Method](../methods/devenv-asinteger-method-testpage-field.md)
 
-[ASSERTEQUALS Mehtod](devenv-assertequals-method-testpage-field)
+[ASSERTEQUALS Mehtod](../methods/devenv-assertequals-method-testpage-field.md)
 
-[ASSISTEDIT Method](devenv-assistedit-method-testpage-field)
+[ASSISTEDIT Method](../methods/devenv-assistedit-method-testpage-field.md)
 
-[DRILLDOWN Method](devenv-drilldown-method-testpage-field)
+[DRILLDOWN Method](../methods/devenv-drilldown-method-testpage-field.md)
 
-[GETVALIDATIONERROR Method](devenv-GETVALIDATIONERROR-Method-TestPage-TestPage-Field.md)
+[GETVALIDATIONERROR Method](../methods/devenv-getvalidationerror-method-testpage-testpage-field.md)
 
-[LOOKUP Method](devenv-lookup-method-testpage-field)
+[LOOKUP Method](../methods/devenv-lookup-method-testpage-field.md)
 
-[OPTIONCOUNT Method](devenv-optioncount-method-testpage-field)
+[OPTIONCOUNT Method](../methods/devenv-optioncount-method-testpage-field.md)
 
-[SETVALUE Method](devenv-setvalue-method-testpage-field)
+[SETVALUE Method](../methods/devenv-setvalue-method-testpage-field.md)
 
-[VALIDATIONERRORCOUNT Method \(TestPage, TestPage Field\)](devenv-VALIDATIONERRORCOUNT-Method-TestPage-TestPage-Field.md)
+[VALIDATIONERRORCOUNT Method \(TestPage, TestPage Field\)](../methods/devenv-validationerrorcount-method-testpage-testpage-field.md)
 
 ## TestPage filter methods
 The filter methods enable you to filter data that can be accessed on a test page.
 
 Here is a list of the TestPage filter methods:
 
-[ASCENDING Method](devenv-ascending-method-testpage-filter)
+[ASCENDING Method](../methods/devenv-ascending-method-testpage-filter.md)
 
-[CURRENTKEY Method](devenv-currentkey-method-testpage-filter)
+[CURRENTKEY Method](../methods/devenv-currentkey-method-testpage-filter.md)
 
-[GETFILTER Method](devenv-getfilter-method-testpage-filter)
+[GETFILTER Method](../methods/devenv-getfilter-method-testpage-filter.md)
 
-[SETCURRENTKEY Method](devenv-setcurrentkey-method-testpage-filter)
+[SETCURRENTKEY Method](../methods/devenv-setcurrentkey-method-testpage-filter.md)
 
-[SETFILTER Method](devenv-setfilter-method-testpage-filter)
+[SETFILTER Method](../methods/devenv-setfilter-method-testpage-filter.md)
 
 ## See Also
-[AL Methods](../devenv-al-methods.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  
 [TestRequestPage Data Type](devenv-testrequestpage-data-type.md)  

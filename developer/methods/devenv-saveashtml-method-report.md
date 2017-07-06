@@ -11,6 +11,9 @@ ms.assetid: 5a570de4-a310-42ea-80f1-dd26d8e2b1a3
 caps.latest.revision: 18
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SAVEASHTML Method (Report)
 Saves a report as an HTML file. The file is saved on the computer where the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance is running, and then downloaded to the client when ready.  
   

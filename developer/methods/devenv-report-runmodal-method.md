@@ -11,6 +11,9 @@ ms.assetid: 0a1ffa1a-8b23-4ea4-9bd7-d7ea523b6e3a
 caps.latest.revision: 16
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # REPORT.RUNMODAL Method
 Loads and runs the report that you specify. The report is run modally.  
 
@@ -39,7 +42,7 @@ REPORT.RUNMODAL(Number [, ReqWindow] [, SystemPrinter] [, Record])
  This parameter overrides the setting of the [UseRequestPage Property](../properties/devenv-UseRequestPage-Property.md) of the report. If you do not provide a value for the *ReqWindow* parameter, then the setting of the UseRequestPage property is used.  
 
 > [!IMPORTANT]  
->  Client-side printing is not supported<!--NAV by [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->. If you set this parameter to **false**<!--NAV and the report will be run on [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->, you must set up the report to print from [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)], otherwise an error occurs at runtime. For more information, see [How to: Specify Printer Selection for Reports](How-to--Specify-Printer-Selection-for-Reports.md) and [STARTSESSION Method \(Sessions\)](devenv-STARTSESSION-Method-Sessions.md).  
+>  Client-side printing is not supported<!--NAV by [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->. If you set this parameter to **false**<!--NAV and the report will be run on [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->, you must set up the report to print from [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)], otherwise an error occurs at runtime. For more information, see <!--Links [How to: Specify Printer Selection for Reports](How-to--Specify-Printer-Selection-for-Reports.md) and -->[STARTSESSION Method \(Sessions\)](devenv-STARTSESSION-Method-Sessions.md).  
 
  *SystemPrinter*  
  Type: Boolean  

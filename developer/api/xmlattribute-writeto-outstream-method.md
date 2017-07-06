@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # WriteTo Method
 Serializes and saves the current node to the given variable.  
 ```  
@@ -27,9 +29,9 @@ The OutStream to which you want to save.
 ## Return Value
 *Ok*  
 &emsp;Type: Boolean  
-**true** if the operation was successful; otherwise, **false**.  
+**True** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

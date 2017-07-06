@@ -1,7 +1,7 @@
 ---
 title: "CANLOADTYPE Method"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 9b8a593c-0a96-4e09-97c6-00cb4311dbe6
 caps.latest.revision: 2
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CANLOADTYPE Method
 Tests if the specified .NET Framework type can be loaded by [!INCLUDE[d365fin_md](../includes/d365fin_md.md)].  
 
@@ -44,6 +47,7 @@ Ok := CANLOADTYPE(DotNet)
 IF NOT CANLOADTYPE(OObjLibrary) THEN  
    ERROR(MyError);  
 ```  
-
+<!--
 ## See Also  
  [Calling .NET Framework Members from AL](Calling-.NET-Framework-Members-from-AL.md)
+-->

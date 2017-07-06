@@ -11,6 +11,9 @@ ms.assetid: c89468d5-2618-44eb-92c3-d9cfd1357681
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # NEW Method (TestPage)
 Sets the current row of the test page to an empty row in a dataset.  
   

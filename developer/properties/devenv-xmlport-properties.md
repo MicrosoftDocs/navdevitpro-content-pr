@@ -11,6 +11,9 @@ ms.assetid: 1c8d76d0-27e6-409a-b7ec-057763c9d2c7
 caps.latest.revision: 9
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # XMLport Properties
 This topic lists properties of the XMLport object, element, and attribute.  
   

@@ -1,7 +1,7 @@
 ---
 title: "Company Method (SessionSettings)"
 ms.custom: na
-ms.date: 01/06/2017
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,6 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-365-for-financials"
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COMPANY Method
 Gets or sets the company property in a SessionSettings object.  
 

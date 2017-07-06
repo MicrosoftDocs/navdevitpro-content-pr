@@ -11,6 +11,9 @@ ms.assetid: 82e799d6-dbe0-4e9e-8507-bc43862ac201
 caps.latest.revision: 10
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # EXPORTENCRYPTIONKEY Method
 Returns a password protected temporary filepath containing the encryption key.  
 

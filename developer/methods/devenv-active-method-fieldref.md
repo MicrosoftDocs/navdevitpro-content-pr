@@ -1,7 +1,7 @@
 ---
 title: "ACTIVE Method (FieldRef)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 8dbe2401-6f58-4e13-85f5-3fb5db9228d1
 caps.latest.revision: 18
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ACTIVE Method (FieldRef)
 Checks whether the field that is currently selected is enabled.  
 
@@ -29,7 +32,7 @@ Ok := FieldRef.ACTIVE
 ## Property Value/Return Value  
  Type: Boolean  
 
- **true** if the field is enabled; otherwise, **false**.  
+ **True** if the field is enabled; otherwise, **false**.  
 
 ## Remarks  
  Each field in a record can be set as enabled or disabled in the table description.  
@@ -75,4 +78,4 @@ END;
 ```  
 
 ## See Also  
- [FieldRef Data Type](../datatypes/devenv-FieldRef-Data-Type.md)
+ [FieldRef Data Type](../datatypes/devenv-fieldref-data-type.md)

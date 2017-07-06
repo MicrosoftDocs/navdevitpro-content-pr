@@ -11,6 +11,9 @@ ms.assetid: 07ed58f1-0fa9-47c4-97ef-10ebc52d4fe9
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # WINDOWSLANGUAGE Method
 Gets the current Windows language setting.  
   
@@ -27,7 +30,7 @@ LanguageID := WINDOWSLANGUAGE
 ## Remarks  
  The *LanguageID* is a standard Windows language ID. The Windows Language virtual table contains a list of these IDs and the corresponding names and short names.  
   
- For more information, see [Multilanguage Development](Multilanguage-Development.md).  
+ For more information, see [Multilanguage Development](../devenv-multilanguage-development.md).  
   
 ## See Also  
  [GLOBALLANGUAGE Method](devenv-GLOBALLANGUAGE-Method.md)

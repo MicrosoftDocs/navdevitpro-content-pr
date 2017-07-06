@@ -1,7 +1,7 @@
 ---
 title: "CLEARMARKS Method (Record)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: 52b76918-c0b4-48b6-9635-0ac38308613d
 caps.latest.revision: 8
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CLEARMARKS Method (Record)
 Removes all the marks from a record.  
   

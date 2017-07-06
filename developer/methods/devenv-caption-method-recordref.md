@@ -1,7 +1,7 @@
 ---
 title: "CAPTION Method (RecordRef)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: fe9efbda-301d-4d38-9892-e527fa5d6e61
 caps.latest.revision: 13
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CAPTION Method (RecordRef)
 Gets the caption of the table that is currently selected. Returns an error if no table is selected.  
   

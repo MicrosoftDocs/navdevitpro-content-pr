@@ -1,7 +1,7 @@
 ---
 title: "COMPRESSARRAY Method"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: ce2474f7-3682-47fa-a7bb-29c3204c6c5b
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COMPRESSARRAY Method
 Moves all non-empty strings \(text\) in an array to the beginning of the array. The resulting StringArray has the same number of elements as the input array, but empty entries appear at the end of the array.  
   

@@ -11,6 +11,9 @@ ms.assetid: dec4ab66-1811-490b-9fb2-c4504a39d4f8
 caps.latest.revision: 19
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # WORDXMLPART Method
 Returns the report data structure as structured XML that is compatible with Microsoft Word custom XML parts.  
 
@@ -101,5 +104,6 @@ SalesStatsReport.CLOSE;
 
  The code generates the report structure as XML, and then writes the XML to the file *C:\\Report Documents\\SalesStatsReport.xml*.  
 
+<!--Links
 ## See Also  
- [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)
+ [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)-->

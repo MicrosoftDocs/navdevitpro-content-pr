@@ -30,6 +30,6 @@ Triggers are available for the different objects as described in the following s
 -   [Query Triggers](devenv-query-triggers.md)  
 
 ## See Also  
- [AL Methods](../methods/devenv-al-methods.md)   
+ [AL Method Reference](../methods/devenv-al-method-reference.md)   
  [Properties](../properties/devenv-properties.md)   
- [Triggers Overview](../triggers-overview.md)
+ [Triggers Overview](../devenv-triggers-overview.md)

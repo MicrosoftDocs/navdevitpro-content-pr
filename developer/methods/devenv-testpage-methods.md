@@ -11,6 +11,9 @@ ms.assetid: f6497b07-5e15-4c52-b460-fd80f9bef502
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # TestPage Methods
 You can use the TestPage methods for the following purposes.  
   
@@ -25,5 +28,5 @@ You can use the TestPage methods for the following purposes.
 |Get validation errors and error counts.|-   [GETVALIDATIONERROR Method \(TestPage, TestPage Field\)](devenv-GETVALIDATIONERROR-Method-TestPage-TestPage-Field.md)<br />-   [VALIDATIONERRORCOUNT Method \(TestPage, TestPage Field\)](devenv-VALIDATIONERRORCOUNT-Method-TestPage-TestPage-Field.md)|  
   
 ## See Also  
-[AL Methods](devenv-al-methods.md)  
-<!--NAV [Test Pages](Test-Pages.md) -->
+[AL Method Reference](devenv-al-method-reference.md)  
+<!--Links [Test Pages](Test-Pages.md) -->

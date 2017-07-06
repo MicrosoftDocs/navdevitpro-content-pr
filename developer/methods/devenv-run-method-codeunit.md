@@ -11,6 +11,9 @@ ms.assetid: 35b58153-17d6-4906-81e9-489a21ff6ffa
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RUN Method (Codeunit)
 Loads and executes the unit of AL code you specify. To use this method, you can specify a table associated with the codeunit when you defined the codeunit properties. This allows you to pass a variable with the method. The transaction that the codeunit contains is always committed due to the Boolean return value.  
   

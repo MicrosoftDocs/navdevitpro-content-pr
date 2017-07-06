@@ -11,6 +11,9 @@ ms.assetid: 48450294-49ad-47cd-bc3a-f570713e4e52
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ISEXPANDED Method (TestPage)
 Specifies if rows on a test page are expanded.  
   

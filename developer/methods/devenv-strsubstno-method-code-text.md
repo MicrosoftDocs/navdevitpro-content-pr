@@ -11,6 +11,9 @@ ms.assetid: 11f92b63-3130-468e-94f7-0e34c6a44a0f
 caps.latest.revision: 14
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # STRSUBSTNO Method (Code, Text)
 Replaces %1, %2, %3... and \#1, \#2, \#3... fields in a string with the values you provide as optional parameters.  
   
@@ -80,7 +83,7 @@ NewString := STRSUBSTNO(String [,Value1, …])
   
  If one of the values is null, then it is treated as an empty string.  
   
- For more information about the STRSUBSTNO method in a multilanguage-enabled application, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
+ <!--Links For more information about the STRSUBSTNO method in a multilanguage-enabled application, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).-->  
   
 ## Example  
  The following example shows how to use the STRSUBSTNO method.  

@@ -11,6 +11,9 @@ ms.assetid: 392923cf-6be2-4e6e-b4ec-2e0a9fd4b91b
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ASBOOLEAN Method (TestPage Field)
 Converts the value in a field on a test page to a **Boolean** data type.  
   

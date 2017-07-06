@@ -11,6 +11,9 @@ ms.assetid: e582fbdb-5a43-4c9f-bd79-84eb724590c7
 caps.latest.revision: 11
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ValidateTableRelation Property
 Sets whether to validate a table relationship.  
   

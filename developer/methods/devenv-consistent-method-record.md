@@ -1,7 +1,7 @@
 ---
 title: "CONSISTENT Method (Record)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: a6c358a3-4f74-4ccb-b840-0589566795d1
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CONSISTENT Method (Record)
 Marks a table as being consistent or inconsistent.  
   

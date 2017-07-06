@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 35587c5b-6994-4183-8237-db5eae9ab568
 caps.latest.revision: 9
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SELECTLATESTVERSION Method (Database)
 Forces the latest version of the database to be used.  
   
@@ -28,4 +31,4 @@ SELECTLATESTVERSION
   
 ## See Also  
  [Database Methods](devenv-database-methods.md)   
- [CaptionClass Functionality](CaptionClass-Functionality.md)
+ <!--Links [CaptionClass Functionality](CaptionClass-Functionality.md)-->  

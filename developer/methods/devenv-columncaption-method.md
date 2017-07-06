@@ -1,7 +1,7 @@
 ---
 title: "COLUMNCAPTION Method"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: 47ad403e-3a68-47b8-a4a2-0896b1c88a0d
 caps.latest.revision: 12
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COLUMNCAPTION Method
 Returns the current caption of a query column as a text string.  
 
@@ -38,7 +41,7 @@ Caption := Query.COLUMNCAPTION(Column)
  The current value of [CaptionML Property](../properties/devenv-CaptionML-Property.md) for the query column.  
 
 ## Remarks  
- The **CaptionML** property is multi-language enabled, so it can contain a list of text strings in different languages. The string that is used is selected according to the user's language settings. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
+ The **CaptionML** property is multi-language enabled, so it can contain a list of text strings in different languages. The string that is used is selected according to the user's language settings. For more information, see [Multilanguage Development](../devenv-multilanguage-development.md).  
 
 ## Example  
  The following example shows how to get the caption for a column of a query. The query is called **My Customer Query** and has a column with the name **Customer\_No**.  

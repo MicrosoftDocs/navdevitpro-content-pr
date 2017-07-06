@@ -11,6 +11,9 @@ ms.assetid: c100689d-bfaf-41b9-bae6-c0fcba92db24
 caps.latest.revision: 6
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Session Methods
 The following AL methods for managing [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] sessionsare available.  
 
@@ -35,4 +38,4 @@ The following AL methods for managing [!INCLUDE[d365fin_long_md](../includes/d36
  [USERSECURITYID Method](devenv-USERSECURITYID-Method.md)
 
 ## See Also  
- [AL Methods](devenv-al-methods.md)  
+ [AL Method Reference](devenv-al-method-reference.md)  

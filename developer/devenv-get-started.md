@@ -17,13 +17,21 @@ caps.latest.revision: 18
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Getting Started
-To get started writing extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] you will need a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenant, and Visual Studio Code. Visual Studio Code is a cross platform editor that you will use for coding and debugging. For the preview, you will download a VM (virtual machine) from the Microsoft Azure Gallery. The VM is set up for trying out the new development environment.
+To get started writing extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] you will need a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenant, Visual Studio Code, and the AL Language extension. Visual Studio Code is a cross platform editor that you will use for coding and debugging.
 
 ## Steps
-1) First, you will need an Azure subscription. You can sign up for a [free subscription](https://azure.microsoft.com/en-us/free/).   
-2) Go to [Microsoft Azure Marketplace](https://ms.portal.azure.com/#blade/Microsoft_Azure_Marketplace/GalleryFeaturedMenuItemBlade/selectedMenuItemId/home) and search for **Microsoft Dynamics NAV Developer Preview**.  
-3) Follow the instructions to deploy and run.   
-4) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen.
+Follow these three steps to get up and running.
+
+1) First, you will need an Azure subscription, sign up for a free subscription.  
+2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).  
+3) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen.  
+
+> [!NOTE] Get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
+
+<!--
+1) Sign up for [Dynamics 365 for Financials]()  
+2) Download [Visual Studio Code](https://code.visualstudio.com/Download)  
+3) Download the [AL Language extension](vscode:extension/ms-dynamics-smb.al)  -->
 
 # Getting started with Visual Studio Code
 With the developer preview, you get sample code that compiles and runs by following a few steps.  

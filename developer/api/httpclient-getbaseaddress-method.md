@@ -2,7 +2,7 @@
 title: "GetBaseAddress Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 03/28/2017
+ms.date: 06/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -13,6 +13,8 @@ caps.latest.revision: 9
 manager: edupont
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # GetBaseAddress Method
 Gets the base address of Uniform Resource Identifier (URI) of the Internet resource used when sending requests.
@@ -29,8 +31,8 @@ Gets the base address of Uniform Resource Identifier (URI) of the Internet resou
 *Address*  
 &emsp;Type: Boolean
 
-The base address of Uniform Resource Identifier (URI) of the Internet resource used when sending requests.
+The base address of URI of the Internet resource used when sending requests.
 
 ## See Also
-[Getting Started](devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
+[Getting Started](../devenv-get-started.md)  
+[Developing Extensions](../devenv-dev-overview.md)

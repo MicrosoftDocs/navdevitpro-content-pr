@@ -12,6 +12,9 @@ ms.assetid: 0ff73303-b92d-4ce0-9a41-3952f8de7b7a
 caps.latest.revision: 13
 author: SusanneWindfeldPedersen04
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Properties
 This section describes all properties that are available to developers in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].  
 
@@ -29,7 +32,7 @@ This section describes all properties that are available to developers in [!INCL
 [Report Properties](devenv-report-properties.md)  
 [Table Properties](devenv-table-properties.md)  
 [XMLPort Properties](devenv-xmlport-properties.md)  
-[AL Methods](../methods/devenv-al-methods.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  
 [Triggers](../triggers/devenv-triggers.md)  
 [How to: View or Modify Properties on a Table or Field](How-to--View-or-Modify-Properties-on-a-Table-or-Field.md)  
 <!-- //NAV [Page Properties Not Supported by Microsoft Dynamics NAV Web Client](Page-Properties-Not-Supported-by-Microsoft-Dynamics-NAV-Web-Client.md)  

@@ -11,6 +11,9 @@ ms.assetid: 155e83e1-8d2c-4f5a-b9c1-69ffc985cb49
 caps.latest.revision: 11
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # LEN Method (File)
 Gets the length of an ASCII or binary file.  
   

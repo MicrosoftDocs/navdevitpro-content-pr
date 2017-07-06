@@ -11,6 +11,9 @@ ms.assetid: 83d2305f-6d7c-44b7-9e63-897ebb81c4b5
 caps.latest.revision: 6
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # IncludeSender Property
 Specifies whether global methods in the object that contains the event publisher method are exposed to event subscriber methods that subscribe to the event.  
   
@@ -33,8 +36,8 @@ Specifies whether global methods in the object that contains the event publisher
 <!--  For more information about events, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  -->
   
 ## See Also  
- [Publishing Events](Publishing-Events.md)   
- [Raising Events](Raising-Events.md)   
- [Subscribing to Events](Subscribing-to-Events.md)   
  [GlobalVarAccess Property](devenv-globalvaraccess-property.md)   
- [AL Method Statements](AL-Method-Statements.md)
+ <!--[Publishing Events](Publishing-Events.md)   
+ [Raising Events](Raising-Events.md)   
+ [Subscribing to Events](Subscribing-to-Events.md)  
+ [AL Method Statements](AL-Method-Statements.md) -->

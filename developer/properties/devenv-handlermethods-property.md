@@ -11,12 +11,15 @@ ms.assetid: f5d1b271-5b27-498b-9a0b-af0166f6412b
 caps.latest.revision: 14
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # HandlerMethods Property
 Specifies the handler methods that are used by the test method.  
   
 ## Applies To  
- AL test methods on test codeunits. A test method is a method that has the [MethodType Property (Test Codeunits)](../devenv-methodtype-property-test-codeunits.md) set to **Test**.  
-  
+ AL test methods on test codeunits. A test method is a method that has the [MethodType Property (Test Codeunits)](devenv-methodtype-property-test-codeunits.md) set to **Test**.  
+   
 ## Property Value  
  The handler method name as specified on the **Methods** tab of **the AL Global** window for the test codeunit.  
   
@@ -28,7 +31,7 @@ Specifies the handler methods that are used by the test method.
   
  The following is some important information about handler methods:  
   
--   To be a handler method, the [MethodType Property (Test Codeunits)](../devenv-methodtype-property-test-codeunits.md) must set to one of the handler types: MessageHandler, ConfirmHandler, StrMenuHandler, PageHandler, ModalPageHandler, ReportHandler, RequestPageHandler, or FilterPageHandler.  
+-   To be a handler method, the [MethodType Property (Test Codeunits)](devenv-methodtype-property-test-codeunits.md) must set to one of the handler types: MessageHandler, ConfirmHandler, StrMenuHandler, PageHandler, ModalPageHandler, ReportHandler, RequestPageHandler, or FilterPageHandler.  
   
 -   A test method can only call handler methods that are defined in the same test codeunit as the test method.  
   
@@ -36,10 +39,10 @@ Specifies the handler methods that are used by the test method.
   
 -   Every handler method that you enter in the **HandlerMethods** property must be called at least once in the test method. If you execute a test method that has a handler method listed that is not called, then the test fails.  
   
- For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create Handler Methods](../methods/devenv-How-to-Create-Handler-Methods.md).  
+ <!-- For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create Handler Methods](../methods/devenv-How-to-Create-Handler-Methods.md).  
   
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   
  [How to: Create Test Codeunits and Test Methods](../methods/devenv-How-to-Create-Test-Codeunits-and-Test-Methods.md)   
  [How to: Create Handler Methods](../methods/devenv-How-to-Create-Handler-Methods.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough-Testing-Purchase-Invoice-Discounts.md)
+ [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough-Testing-Purchase-Invoice-Discounts.md) -->

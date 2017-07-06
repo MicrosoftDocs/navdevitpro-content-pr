@@ -11,6 +11,9 @@ ms.assetid: be638302-3a50-41a3-a231-c18da1977a9f
 caps.latest.revision: 10
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # PromotedCategory Property
 Sets a category for a promoted action.  
   

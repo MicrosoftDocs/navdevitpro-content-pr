@@ -9,6 +9,9 @@ ms.topic: article
 ms.author: jswymer
 ms.prod: "dynamics-365-for-financials"
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GETDATA Method (Notification)
 Retrieves data that was passed to a notification instance as specified by a [SETDATA Method](devenv-setdata-method-notification.md) call.
 

@@ -1,7 +1,7 @@
 ---
 title: "CHANGECOMPANY Method (Record)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: e50d0b45-9556-42a0-9efa-e23c88f1b152
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # CHANGECOMPANY Method (Record)
 Redirects references to table data from one company to another.  
   
@@ -35,7 +38,7 @@ Redirects references to table data from one company to another.
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the company was found; otherwise, **false**.  
+ **True** if the company was found; otherwise, **false**.  
   
  If you omit this optional return value and the company cannot be found, a run-time error occurs. If you include the return value, you must handle any errors.  
   

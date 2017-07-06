@@ -10,6 +10,9 @@ ms.author: SusanneWindfeldPedersen
 ms.prod: "dynamics-nav-2017"
 
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Implementation Tips for Gestures
 Swipe gestures on the phone are easy to implement and are defined through actions on the page. You can map an action to a swipe gesture by setting the value of the new **Gesture** property to **LeftSwipe** or **RightSwipe** on a specific action.
 

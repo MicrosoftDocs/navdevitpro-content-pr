@@ -1,7 +1,7 @@
 ---
 title: "ADDFIELD Method"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,9 @@ ms.assetid: 0d9238f4-d428-4519-8da2-d79b058df9cb
 caps.latest.revision: 4
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ADDFIELD Method
 Adds a table field to the filter control for a table on filter page.  
   
@@ -39,7 +42,7 @@ Adds a table field to the filter control for a table on filter page.
 ## Return Value  
  Type: Boolean  
   
- **true** if the field was added to the field list for the specified filter control; otherwise, **false**.  
+ **True** if the field was added to the field list for the specified filter control; otherwise, **false**.  
   
 ## Remarks  
  The filter control that specified by *ItemName* parameter must already exist in the FilterPageBuilder object before the ADDFIELD method is called. This means that either the ADDTABLE, ADDRECORD, or ADDRECORDREF methods must be called before the ADDFIELD method.  
@@ -68,12 +71,12 @@ varFilterPageBuilder.ADDFIELD(varDateItem, varDateRecord."Period Start");
 ```  
   
 ## See Also  
- [ADDFIELD Method](devenv-ADDFIELD-Method.md)   
- [ADDFIELDNO Method](devenv-ADDFIELDNO-Method.md)   
- [ADDRECORD Method](devenv-ADDRECORD-Method.md)   
- [ADDRECORDREF Method](devenv-ADDRECORDREF-Method.md)   
- [GETVIEW method \(FilterPageBuilder\)](devenv-GETVIEW-Method-FilterPageBuilder.md)   
- [SETVIEW Method](devenv-SETVIEW-Method.md)   
- [COUNT Method \(FilterPageBuilder\)](devenv-COUNT-Method-FilterPageBuilder.md)   
- [NAME Method \(FilterPageBuilder\)](devenv-NAME-Method-FilterPageBuilder.md)   
- [RUNMODAL Method \(FilterPageBuilder\)](devenv-RUNMODAL-Method-FilterPageBuilder.md)
+ [ADDFIELD Method](devenv-addfield-method.md)   
+ [ADDFIELDNO Method](devenv-addfieldno-method.md)   
+ [ADDRECORD Method](devenv-addrecord-method.md)   
+ [ADDRECORDREF Method](devenv-addrecordref-method.md)   
+ [GETVIEW Method \(FilterPageBuilder\)](devenv-getview-method-filterpagebuilder.md)   
+ [SETVIEW Method](devenv-setview-method.md)   
+ [COUNT Method \(FilterPageBuilder\)](devenv-count-method-filterpagebuilder.md)   
+ [NAME Method \(FilterPageBuilder\)](devenv-name-method-filterpagebuilder.md)   
+ [RUNMODAL Method \(FilterPageBuilder\)](devenv-runmodal-method-filterpagebuilder.md)

@@ -3,7 +3,7 @@ title: "COPYCOMPANY Method (Database)"
 author: edupont04
 manager: edupont04
 ms.custom: na
-ms.date: 10/14/2016
+ms.date: 07/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,6 +12,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: dd8058d0-5b1e-4fd1-aeb1-7ef480fa581d
 caps.latest.revision: 2
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # COPYCOMPANY Method (Database)
 Creates a new company and copies all data from an existing company in the same database.  
 

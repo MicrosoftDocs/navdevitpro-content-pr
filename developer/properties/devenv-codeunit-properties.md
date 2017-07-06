@@ -24,7 +24,7 @@ This topic lists properties that apply to the Codeunit object, variables, text c
   
 -   [SingleInstance Property](devenv-singleinstance-property.md)  
   
--   [SubType Property (Codeunit)](devenv-subtype-codeunit-property.md)  
+-   [SubType Property (Codeunit)](devenv-subtype-property-codeunit.md)  
   
 -   [TableNo Property](devenv-tableno-property.md)  
   
@@ -60,12 +60,10 @@ This topic lists properties that apply to the Codeunit object, variables, text c
 -   [ID Property](devenv-id-property.md)  
   
 -   [Local Property](devenv-local-property.md)  
+   
+-   [MethodType Property \(Upgrade Codeunits\)](devenv-methodtype-property-upgrade-codeunits.md) 
   
- <!-- 
--   //NAV [MethodType Property \(Upgrade Codeunits\)](MethodType-Property--Upgrade-Codeunits-.md) 
-  
--   [MethodType Property \(Test Codeunits\)](MethodType-Property--Test-Codeunits-.md)  
- -->
+-   [MethodType Property \(Test Codeunits\)](devenv-methodtype-property-test-codeunits.md)  
   
 -   [HandlerMethods Property](devenv-handlermethods-property.md)  
   

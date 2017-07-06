@@ -11,6 +11,9 @@ ms.assetid: 9765a761-62d2-4343-9e5c-73cb01b887b0
 caps.latest.revision: 8
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ContainerType Property
 Sets the container type when you want to add one of the following controls to a page:  
   

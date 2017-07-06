@@ -11,6 +11,9 @@ ms.assetid: 734be992-db50-4100-8c1d-2b09d3b67643
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SAVEASXML Method (Reports)
 Saves a report as an .xml file on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)].  
 

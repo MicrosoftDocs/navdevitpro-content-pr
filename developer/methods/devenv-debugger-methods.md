@@ -11,6 +11,9 @@ ms.assetid: f52333e3-3bf3-4f0f-a6e4-c22cbc6676fe
 caps.latest.revision: 6
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Debugger Methods
 Use the debugger methods to implement a debugger for AL code. The [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] Debugger is an example of a debugger application that is built using tables, pages, codeunits, and the AL debugger methods.
 
@@ -51,4 +54,4 @@ Use the debugger methods to implement a debugger for AL code. The [!INCLUDE[d365
 [STOP Method](devenv-stop-method-debugger.md)
 
 ## See Also  
-[AL Methods](devenv-al-methods.md)  
+[AL Method Reference](devenv-al-method-reference.md)  

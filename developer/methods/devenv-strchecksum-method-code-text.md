@@ -11,6 +11,9 @@ ms.assetid: 2c19a082-ec78-4910-afcc-766c718d3431
 caps.latest.revision: 10
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # STRCHECKSUM Method (Code, Text)
 Calculates a checksum for a string that contains a number.  
 
@@ -46,7 +49,7 @@ CheckNumber :=STRCHECKSUM(String[, WeightString][, Modulus])
 
  The checksum, which is calculated using this formula:  
 
- ![STRCHECKSUM formula](media/NAV_STRCHECKSUM_Formula.png "STRCHECKSUM\_Formula")  
+ ![STRCHECKSUM formula](../media/NAV_STRCHECKSUM_Formula.png "STRCHECKSUM\_Formula")  
 
 ## Example  
  This example shows how to use the STRCHECKSUM method to calculate a checksum.  

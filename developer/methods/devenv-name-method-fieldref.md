@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 644334ea-8769-4466-bd5c-4b0a06666fff
 caps.latest.revision: 11
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # NAME Method (FieldRef)
 Gets the name of a field as a string.  
 
@@ -62,4 +65,4 @@ END;
 
 ## See Also  
  [FieldRef Data Type](../datatypes/devenv-FieldRef-Data-Type.md)   
- [Multilanguage Development](Multilanguage-Development.md)
+ [Multilanguage Development](../devenv-multilanguage-development.md)

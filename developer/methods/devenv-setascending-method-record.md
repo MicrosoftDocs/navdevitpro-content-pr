@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: 9ca16239-3e08-450a-87c1-29d5b7764094
 caps.latest.revision: 2
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETASCENDING Method (Record)
 Sets the sort order for the records returned. Use this method after you have set the keys to sort after, using SETCURRENTKEY. The default sort order is ascending. You can use SETASCENDING to change the sort order to descending for a specific field, while the other fields in the specified key are sorted in ascending order.  
   
@@ -74,4 +77,4 @@ ATown
   
 ## See Also  
  [SETCURRENTKEY Method \(Record\)](devenv-SETCURRENTKEY-Method-Record.md)   
- [OData Web Services](OData-Web-Services.md)
+ <!--Links [OData Web Services](OData-Web-Services.md)-->

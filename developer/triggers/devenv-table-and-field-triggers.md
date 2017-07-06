@@ -36,8 +36,8 @@ manager: edupont
 
 |Field trigger|Executes when|  
 |-------------------|-------------------|  
-|[OnValidate \(Fields\) Trigger](devenv-onvalidate-fields-trigger.md)|Data is entered in a field or when the [VALIDATE Record\)](../methods/devenv-validate-method-record.md) is executed.|  
-|[OnLookup \(Fields\) Trigger](devenv-onlookup-fields-trigger.md)|Lookup is activated.|  
+|[OnValidate (Fields) Trigger](devenv-onvalidate-fields-trigger.md)|Data is entered in a field or when the [VALIDATE Record)](../methods/devenv-validate-method-record.md) is executed.|  
+|[OnLookup (Fields) Trigger](devenv-onlookup-fields-trigger.md)|Lookup is activated.|  
 
 ## See Also  
- [How to: Define or Modify Table or Field Triggers](how-to-define-or-modify-table-or-field-triggers.md)
+ [Triggers](devenv-triggers.md)  

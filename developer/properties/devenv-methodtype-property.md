@@ -11,6 +11,9 @@ ms.assetid: 2173a1b2-c2aa-470d-a17f-13f71ece068c
 caps.latest.revision: 9
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # MethodType Property
 Sets a date or totals type method on the query column. The method is applied by the [Method Property](devenv-method-property.md).  
   
@@ -26,11 +29,11 @@ Sets a date or totals type method on the query column. The method is applied by 
 |Totals|Applies the totals method that is specified by the **Method** property to the query column. The available totals methods calculate the sum of field values in the column, the average, minimum, and maximum field value in a column, or the total number, or count, of records for a group in the resulting dataset.|  
   
 ## Remarks  
- The **Date** method type can only be set in fields that have a data type of Date or DateTime. For more information about date methods, see [Using the Date Method to Retrieve Day, Month, and Year Data](../devenv-Using-the-Date-Method-to-Retrieve-Day-Month--and-Year-Data.md).  
+ The **Date** method type can only be set in fields that have a data type of Date or DateTime. <!-- For more information about date methods, see [Using the Date Method to Retrieve Day, Month, and Year Data](../devenv-Using-the-Date-Method-to-Retrieve-Day-Month-and-Year-Data.md).  -->
   
  Except when the **Method** property is set to **Count**, the **Totals** method type can only be used on fields that have a numeric data type of **Decimal**, **Integer**, **BigInteger**, or **Duration**.  
   
- When you set the **MethodType** property of a column to **Totals**, the rows in the resulting dataset are automatically grouped by the other columns in the query as indicated by a check mark in the **Group By** column in Query Designer. When grouped in the resulting dataset, rows that have similar column values are combined into a single record. Setting the **MethodType** property to **Totals** corresponds to using the SQL aggregate functions SUM, AVG, MIN, MAX, and COUNT in SQL SELECT statements. For more information, see [Understanding Query Totals and Grouping](../devenv-Understanding-Query-Totals-and-Grouping.md).  
+ When you set the **MethodType** property of a column to **Totals**, the rows in the resulting dataset are automatically grouped by the other columns in the query as indicated by a check mark in the **Group By** column in Query Designer. When grouped in the resulting dataset, rows that have similar column values are combined into a single record. Setting the **MethodType** property to **Totals** corresponds to using the SQL aggregate functions SUM, AVG, MIN, MAX, and COUNT in SQL SELECT statements. <!-- For more information, see [Understanding Query Totals and Grouping](../devenv-Understanding-Query-Totals-and-Grouping.md).  -->
   
 ## See Also  
  [Method Property](devenv-method-property.md)   

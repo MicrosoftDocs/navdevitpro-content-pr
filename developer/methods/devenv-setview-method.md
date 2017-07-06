@@ -11,6 +11,9 @@ ms.assetid: 01c22c94-f8c8-498f-8212-389647ca789a
 caps.latest.revision: 3
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SETVIEW Method
 Sets the current filter view, which defines the sort order, key, and filters, for a record in a filter control on a filter page.  
   
@@ -38,7 +41,7 @@ Sets the current filter view, which defines the sort order, key, and filters, fo
 ## Return Value  
  Type: Boolean  
   
- **true** if view was applied to the specified filter control; otherwise, **false**.  
+ **True** if view was applied to the specified filter control; otherwise, **false**.  
   
 ## Remarks  
  The filter control that is specified by *ItemName* must already exist in the FilterPageBuilder object before the ADDFIELDNO method is called. Either the ADDTABLE, ADDRECORD, or ADDRECORDREF methods must be called before the SETVIEW method.  
@@ -67,12 +70,12 @@ varFilterPageBuilder.SETVIEW(varDateItem, varDefaultView);
 ```  
   
 ## See Also  
- [ADDFIELD Method](devenv-ADDFIELD-Method.md)   
- [ADDFIELDNO Method](devenv-ADDFIELDNO-Method.md)   
- [ADDRECORD Method](devenv-ADDRECORD-Method.md)   
- [ADDRECORDREF Method](devenv-ADDRECORDREF-Method.md)   
- [ADDTABLE Method](devenv-ADDTABLE-Method.md)   
- [GETVIEW method \(FilterPageBuilder\)](devenv-GETVIEW-Method-FilterPageBuilder.md)   
- [COUNT Method \(FilterPageBuilder\)](devenv-COUNT-Method-FilterPageBuilder.md)   
- [NAME Method \(FilterPageBuilder\)](devenv-NAME-Method-FilterPageBuilder.md)   
- [RUNMODAL Method \(FilterPageBuilder\)](devenv-RUNMODAL-Method-FilterPageBuilder.md)
+ [ADDFIELD Method](devenv-addfield-method.md)   
+ [ADDFIELDNO Method](devenv-addfieldno-method.md)   
+ [ADDRECORDREF Method](devenv-addrecordref-method.md)   
+ [ADDTABLE Method](devenv-addtable-method.md)   
+ [GETVIEW Method \(FilterPageBuilder\)](devenv-getview-method-filterpagebuilder.md)   
+ [SETVIEW Method](devenv-setview-method.md)   
+ [COUNT Method \(FilterPageBuilder\)](devenv-count-method-filterpagebuilder.md)   
+ [NAME Method \(FilterPageBuilder\)](devenv-name-method-filterpagebuilder.md)   
+ [RUNMODAL Method \(FilterPageBuilder\)](devenv-runmodal-method-filterpagebuilder.md)

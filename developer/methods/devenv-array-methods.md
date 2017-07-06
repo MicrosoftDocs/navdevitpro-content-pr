@@ -10,6 +10,9 @@ ms.prod: "dynamics-365-for-financials"
 ms.assetid: c4141c46-ce87-480a-98eb-390a0fe0573b
 caps.latest.revision: 3
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Array Methods
 The following AL methods for arrays are available:  
 
@@ -20,4 +23,4 @@ The following AL methods for arrays are available:
 [COPYARRAY Method](devenv-COPYARRAY-Method.md)
 
 ## See Also  
- [AL Methods](devenv-al-methods.md)  
+ [AL Method Reference](devenv-al-method-reference.md)  

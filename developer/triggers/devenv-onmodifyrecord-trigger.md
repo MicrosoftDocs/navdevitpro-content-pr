@@ -27,7 +27,7 @@ Executed before a record is modified in the table.
 ## Return Value  
  *Ok*  
   
- \(Boolean\) Indicates whether a record should be modified. The return value is checked after each  call. If **True**, the record is modified \(default\). If **false**, the record is not modified.  
+ (Boolean) Indicates whether a record should be modified. The return value is checked after each  call. If **True**, the record is modified (default). If **false**, the record is not modified.  
   
 ## Applies To  
   

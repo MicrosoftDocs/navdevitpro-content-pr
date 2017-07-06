@@ -9,6 +9,9 @@ ms.topic: article
 author: jswymer
 ms.prod: "dynamics-365-for-financials"
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SCOPE Method (Notification)
 Specifies the context in which the notification appears in the client.
 
@@ -51,4 +54,4 @@ MyNotification.SEND;
 [SCOPE Method(Notification)](devenv-scope-method-notification.md)  
 [SEND Method (Notification)](devenv-send-method-notification.md)  
 [Notifications](../devenv-notifications-developing.md)  
-[Multilanguage Development](multilanguage-development.md)
+[Multilanguage Development](../devenv-multilanguage-development.md)

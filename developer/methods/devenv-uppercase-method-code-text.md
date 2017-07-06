@@ -11,6 +11,9 @@ ms.assetid: c701f575-b29f-4683-ba54-622ab2c7c34d
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # UPPERCASE Method (Code, Text)
 Converts all letters in a string to uppercase.  
   

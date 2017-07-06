@@ -11,6 +11,9 @@ ms.assetid: 070eefff-a103-41f9-8e3f-f625de7ba048
 caps.latest.revision: 7
 author: jswymer
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # ENCRYPTIONENABLED Method
 Checks if the tenant is configured to allow encryption.  
 

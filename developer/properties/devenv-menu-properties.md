@@ -11,6 +11,9 @@ ms.assetid: 5e0d5fb4-d559-4cfe-86da-a4d34067349a
 caps.latest.revision: 9
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Menu Properties
 Modifies a menu for a department. The menu represents a department in a company.  
 
