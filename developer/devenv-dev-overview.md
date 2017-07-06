@@ -71,5 +71,3 @@ Extensions are compiled as .navx package files. The .navx package file can be de
 [Getting Started](devenv-get-started.md)  
 [Keyboard Shortcuts](devenv-keyboard-shortcuts.md)    
 [Developer Reference](devenv-reference-overview.md)  
-[Extending Microsoft Dynamics NAV Using Extension Packages](extending-microsoft-dynamics-nav-using-extension-packages.md)  
-[Development](development.md)
