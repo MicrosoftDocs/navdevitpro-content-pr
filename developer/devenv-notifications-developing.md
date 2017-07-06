@@ -1,7 +1,7 @@
 ---
 title: "Notifications"
 ms.custom: na
-ms.date: 09/20/2016
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
