@@ -17,7 +17,7 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 
 # Developing Extensions
 
-Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behavior of the solution. This section explains how you can develop extensions using the development environment for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behavior of the solution. This section explains how you can develop extensions using the development environment for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. For an overview of developing apps for Dynamics 365 for Financials, see [aka.ms/GetStartedWithApps](devenv-develop-apps-for-fin.md).
 
 If you're new to building extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started](devenv-get-started.md) to set up the tools.
 
@@ -59,7 +59,7 @@ The extension model is object-based; you create new objects, and extend existing
 
 For more information about the object types, see [Reference Overview](devenv-reference-overview.md).
 
-For information about AL language changes, see [Differences in the Dynamics NAV Development Environments](devenv-differences.md).
+For information about AL language changes, see [Differences in the Development Environments](devenv-differences.md).
 
 ## In-client designer
 The in-client designer works in the client itself allowing design of pages using a drag-and-drop interface. The in-client designer allows building extensions in the client itself by rearranging fields, adding fields, and previewing the page design. For more information, see [Using the In-Client Designer](devenv-inclient-designer.md).
@@ -71,5 +71,3 @@ Extensions are compiled as .navx package files. The .navx package file can be de
 [Getting Started](devenv-get-started.md)  
 [Keyboard Shortcuts](devenv-keyboard-shortcuts.md)    
 [Developer Reference](devenv-reference-overview.md)  
-[Extending Microsoft Dynamics NAV Using Extension Packages](extending-microsoft-dynamics-nav-using-extension-packages.md)  
-[Development](development.md)
