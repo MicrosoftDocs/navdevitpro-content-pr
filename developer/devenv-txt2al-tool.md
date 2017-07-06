@@ -53,4 +53,4 @@ To run the Txt2Al conversion tool, follow the steps outlined below.
 [Developer Reference](devenv-reference-overview.md)  
 [Page Extension Object](devenv-page-ext-object.md)  
 [Report Object](devenv-report-object.md)  
-[Page Properties](devenv-page-property-overview.md)
+[Page Properties](properties/devenv-page-property-overview.md)

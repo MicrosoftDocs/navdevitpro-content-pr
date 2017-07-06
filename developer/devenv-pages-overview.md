@@ -36,7 +36,7 @@ The structure of a page is hierarchical and breaks down in to three sections. Th
  
 -->
 
-Furthermore, the page has properties. Properties work in the same way for pages as they do for other [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] objects. For more information, see [Page Properties](Page-Properties.md).  
+Furthermore, the page has properties. Properties work in the same way for pages as they do for other [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] objects. For more information, see [Page Properties](properties/devenv-page-property-overview.md).  
 
 ## Page Metadata
 For a new page object, you must at least specify the type of page; `PageType` and the data source; `SourceTable` of the page. And you can also set other metadata at the beginning of the declaration of the page object, such as 
@@ -149,4 +149,4 @@ We recommend that you simplify the user experience by reducing what users see by
 -   Use one to three FactBoxes on a page to provide supplementary information and a place for adding notes.  
   
 ## See Also  
-[Page Properties Overview](devenv-page-properties.md)
+[Page Properties Overview](properties/devenv-page-property-overview.md)

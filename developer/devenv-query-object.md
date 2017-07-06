@@ -86,10 +86,8 @@ query 100 "Top Customer Overview"
 ```
 
 ## See Also
-[Developing Extensions](newdev-dev-overview.md)  
-[Developer Reference](newdev-reference-overview.md)  
-[Page Extension Object](newdev-page-ext-object.md)  
-[Report Object](newdev-report-object.md)  
-[Pages](pages.md)  
-[Tables](tables.md)  
-[Page Properties](page-properties.md)
+[Developing Extensions](devenv-dev-overview.md)  
+[Developer Reference](devenv-reference-overview.md)  
+[Page Extension Object](devenv-page-ext-object.md)  
+[Report Object](devenv-report-object.md)  
+[Page Properties](properties/devenv-page-property-overview.md)

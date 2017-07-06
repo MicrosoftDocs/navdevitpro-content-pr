@@ -12,8 +12,8 @@ author: jswymer
 # Event Types
 [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] supports different types of events for different purposes.
   
-##  <a name="BusinessEvents"></a> Business Events  
- A business event is a custom event that is raised by C/AL code. It defines a formal contract that carries an implicit promise not to change in future releases. It is the expectation that business events are published by solution ISVs, including Microsoft.  
+##  <a name="BusinessEvents"></a> Business events  
+ A business event is a custom event that is raised by AL code. It defines a formal contract that carries an implicit promise not to change in future releases. It is the expectation that business events are published by solution ISVs, including Microsoft.  
   
  Business events can be compared with publicly released APIs on which 3rd party solution provider develop integrations and additions. Therefore, the downstream cost of making changes to a business event implementation can be considerable for those who use the event in their applications. There may be some cases where changes are required; however, you should keep these to an absolute minimum.  
   
@@ -23,8 +23,8 @@ author: jswymer
   
  Business events should be documented with the solution, including the before-state and after-state of the events.  
   
-##  <a name="IntegrationEvents"></a> Integration Events  
- An integration event is also a custom event that is raised by C/AL code, like a business event, except that it does not carry the same promise of not changing, nor does it have the restriction not to expose implementation details.  
+##  <a name="IntegrationEvents"></a> Integration events  
+ An integration event is also a custom event that is raised by AL code, like a business event, except that it does not carry the same promise of not changing, nor does it have the restriction not to expose implementation details.  
   
  The main purpose of integration events is to enable the integration of other solutions with [!INCLUDE[navnow](includes/navnow_md.md)] without having to perform traditional code modifications.  
   
@@ -32,16 +32,16 @@ author: jswymer
   
  An integration event can be changed to a business event later. At which time, it must adhere to the same implied contract and commitment as any business event. It can also simply be designed-in hook points for external add-ons.  
   
-##  <a name="SystemEvents"></a> Global Events  
+##  <a name="SystemEvents"></a> Global events  
  Global events are predefined system events that are automatically raised by Codeunit 1 **ApplicationManagement**. Codeunit 1 includes several global method triggers, such as CompanyOpen, CompanyClose, and GetSystemIndicator. For most of these global method triggers, there are one or two global events: a before and after event. For example, there is an OnBeforeCompanyOpen event and an OnAfterCompanyOpen event. The global events are defined as integration events by local methods in codeunit 1.  
   
-## Trigger Events  
+## Trigger events  
  Unlike business and integration events which must be programmed, trigger events are predefined events. Trigger events are published by the runtime and they cannot be raised programmatically. There are two types of trigger events: database trigger events and page trigger events.  
   
 > [!NOTE]  
 >  Trigger events do not appear as methods in AL for a table or page object.  
   
-###  <a name="DatabaseEvents"></a> Database Trigger Events  
+###  <a name="DatabaseEvents"></a> Database trigger events  
  Trigger events are automatically raised by the system when it performs database operations on a table object, such as deleting, inserting, modifying, and renaming a record, as defined in a table. Trigger events are closely associated with the table triggers for database operations: OnDelete, OnInsert, OnModify, OnRename, and OnValidate \(for fields\). For each database operation, there is a "before" and "after" trigger event with a fixed signature.  
   
  **Available Database Trigger Events**  
@@ -82,7 +82,7 @@ author: jswymer
 |4|Database operations|Delete the record|  
 |5|Trigger event \(after\)|OnAfterDeleteEvent|  
   
-###  <a name="PageEvents"></a> Page Trigger Events  
+###  <a name="PageEvents"></a> Page trigger events  
  Page Trigger events are raised automatically by the system when it performs certain operations in a page object. Page trigger events are closely associated with the standard page triggers, such as OnOpenPage. OnClosePage, and OnAction.  
   
  **Available Page Trigger Events**  
@@ -102,7 +102,7 @@ author: jswymer
 |`OnInsertRecordEvent(VAR Rec : Record, BelowxRec : Boolean, VAR xRec : Record, VAR AllowInsert : Boolean)`|Executed after the [OnInsertRecord Trigger](triggers/devenv-OnInsertRecord-Trigger.md), which is called before a record is inserted in a table.|  
 |`OnModifyRecordEvent(VAR Rec : Record, VAR xRec : Record, VAR AllowModify : Boolean)`|Executed after the [OnModifyRecord Trigger](triggers/devenv-OnModifyRecord-Trigger.md), which is called before a record is modified in a table.|  
 |`OnNewRecordEvent(VAR Rec: Record, BelowxRec : Boolean, VAR xRec : Record)`|Executed after the [OnNewRecord Trigger](triggers/devenv-OnNewRecord-Trigger.md), which is called before a new record is initialized.|  
-|`OnOpenPageEvent(VAR Rec : Record)`|Executed after the [OnOpenPage Trigger](OnOpenPage-Trigger.md), which is called after a page is initialized and run.|  
+|`OnOpenPageEvent(VAR Rec : Record)`|Executed after the [OnOpenPage Trigger](triggers/devenv-OnOpenPage-Trigger.md), which is called after a page is initialized and run.|  
 |`OnQueryClosePageEvent(VAR Rec : Record, VAR AllowClose : Boolean)`|Executed after the [OnQueryClosePage Trigger](triggers/devenv-OnQueryClosePage-Trigger.md), which is called as a page closes and before the OnClosePage Trigger executes.|  
   
  The following table describes the parameters of the trigger events:  

@@ -27,7 +27,7 @@ This section describes all functions, data types, properties, and triggers in [!
 
 -   [AL Method Reference](methods/devenv-al-method-reference.md)  
 
--   [Properties](properties/devenv-al-properties.md)  
+-   [Properties](properties/devenv-properties.md)  
 
 -   [Triggers](triggers/devenv-triggers.md)  
 

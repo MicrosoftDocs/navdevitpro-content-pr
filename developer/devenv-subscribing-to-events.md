@@ -35,7 +35,7 @@ For an explanation about the different types, see [Event Types](devenv-event-typ
 
 3.  Add a AL method to the codeunit.  
 
-     We recommend that you give the method a name that indicates what the subscriber does, and has the format *[Action][Event]*. *[Action]* is text that describes what the method does and *[Event]* is the name of the event publisher method to which it subscribes. For more information about naming, see [Best Practices with Events](devenv-events-best-practices.md).  
+     We recommend that you give the method a name that indicates what the subscriber does, and has the format *[Action][Event]*. *[Action]* is text that describes what the method does and *[Event]* is the name of the event publisher method to which it subscribes. <!-- For more information about naming, see [Best Practices with Events](devenv-events-best-practices.md).  -->
 
 4.  Decorate the method with the [EventSubscriber attribute](methods/devenv-eventsubscriber-attribute.md), and change accordingly.
 
