@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Customer sales statement resource type
-Represents an customerSales resource type in Dynamics 365 for Financials.
+Represents an customer sales in Dynamics 365 for Financials.
 
 ## Methods
 
