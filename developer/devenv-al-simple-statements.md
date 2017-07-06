@@ -26,7 +26,7 @@ AL simple statements are single-line statements that are executed sequentially a
   
 -   [AL WITH Statements](devenv-al-with-statements.md)-->
 
-## Assignment Statements
+## Assignment statements
 Assignment statements assign a value to a variable. The value that you assign to the variable is a AL expression. It can be a constant or a variable, or it can consist of multiple elements of AL expressions. If you use a method call as the value to assign to a variable in an assignment statement, then the value that is assigned is the return value of the method.  
 
  You use the ":=" operator for assignment statements.  
@@ -46,7 +46,7 @@ Amount := 2 * Price;
 ```  
 
 ### Example  
- The following example assigns the return value of the [OPEN Method \(File\)](methods/devenv-open-method-file.md) to a Boolean variable that you have defined.  
+ The following example assigns the return value of the [OPEN Method (File)](methods/devenv-open-method-file.md) to a Boolean variable that you have defined.  
 
 ```  
 OK := TestFile.OPEN('C:\temp\simple.xml');  
@@ -67,10 +67,10 @@ ELSE
   ERROR(Text001);  
 ```  
 
-## Method Statements
+## Method statements
 You use method statements to execute either built-in system methods or user-defined (custom) methods. Method calls may include parameters, which are passed to the method. For more information, see [Calling Methods](devenv-al-methods.md#CallMethod). 
 
-## ASSERTERROR Statements
+## ASSERTERROR statements
 You use ASSERTERROR statements in test methods to test how your application behaves under failing conditions. The ASSERTERROR keyword specifies that an error is expected at run time in the statement that follows the ASSERTERROR keyword.  
 
  If a simple or compound statement that follows the ASSERTERROR keyword causes an error, then execution successfully continues to the next statement in the test method. You can get the error text of the statement by using the [GETLASTERRORTEXT method](methods/devenv-GETLASTERRORTEXT-method.md).  
@@ -101,7 +101,7 @@ var
     Text001 : TextConst 'The date is outside the valid date range.';
 ```  
 
-## WITH Statements
+## WITH statements
 The following syntax shows a WITH-DO statement.  
 
 ```  
@@ -151,7 +151,7 @@ WITH CustomerRec DO BEGIN
 END;  
 ```  
 
-### Programming Conventions  
+### Programming conventions  
  Within WITH-DO blocks, do not repeat the name of the object by using the member variable or method.  
 
  If you nest a WITH-DO block within another explicit or implicit WITH-DO block, then the WITH-DO block that you create within another WITH-DO block must always be attached to a variable of the same type as the variable that is attached to the surrounding WITH-DO block. Otherwise, it can be difficult to see what variable that a member variable or method refers to. For example, implicit WITH-DO blocks occur in table objects and in pages that have been attached to a record.  
@@ -170,7 +170,7 @@ WITH CustLedgEntry DO BEGIN
 END;  
 ```  
 
-#### Incorrect Example  
+#### Incorrect example  
  The following example demonstrates incorrect code in which you cannot directly tell which record variable that the MyField field refers to.  
 
 ```  
