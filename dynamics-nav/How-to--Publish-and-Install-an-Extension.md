@@ -16,7 +16,7 @@ To make your extension available to users, the package must be published to a sp
 
 ### To publish or remove an extension  
 
-1.  In the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], use the `Publish-NAVApp` cmdlet. The cmdlet takes as parameters the server you want to install to and the .navx package file that contains the extension. The following example publishes the extension MyExtension to the YourDynamicsNAVServer instance.  
+1.  In the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)], use the `Publish-NAVApp` cmdlet. The cmdlet takes as parameters the server you want to install to and the .navx package file that contains the extension. The following example publishes the extension MyExtension to the YourDynamicsNAVServer instance.  
 
     ```  
     Publish-NAVApp -ServerInstance YourDynamicsNAVServer -Path MyExtension.navx  

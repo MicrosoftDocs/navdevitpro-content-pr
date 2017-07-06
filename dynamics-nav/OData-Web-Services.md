@@ -47,5 +47,5 @@ An error occurred while processing this request.
   
 ## See Also  
  [SOAP Web Services](SOAP-Web-Services.md)   
- [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives:-SOAP-and-OData.md)   
- [Web Service Walkthroughs](Web-Service-Walkthroughs.md)
+ [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives--SOAP-and-OData.md)   
+ [Web Service Walkthroughs](Web-Service-Walkthroughs.md)  
