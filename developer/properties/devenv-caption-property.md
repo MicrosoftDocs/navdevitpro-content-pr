@@ -41,4 +41,4 @@ Sets the text string that displays with the object, control, or other element in
 
 ## See Also  
  [ShowCaption Property](devenv-showcaption-property.md)   
- [Multilanguage Development](multilanguage-development.md)
+ [Multilanguage Development](../devenv-multilanguage-development.md)
