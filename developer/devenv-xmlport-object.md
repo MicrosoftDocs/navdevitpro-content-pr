@@ -3,7 +3,7 @@ title: "XMLport Object"
 description: "Description of the xmlport object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 03/24/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

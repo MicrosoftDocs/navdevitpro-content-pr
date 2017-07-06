@@ -3,7 +3,7 @@ title: "Developer Reference"
 description: "Overview of the objects."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 12/23/2016
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

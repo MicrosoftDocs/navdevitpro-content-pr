@@ -1,7 +1,7 @@
 --
-title: "Essential C/AL Methods"
+title: "Essential AL Methods"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/06/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

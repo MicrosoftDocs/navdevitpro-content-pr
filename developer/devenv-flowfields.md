@@ -1,7 +1,7 @@
 ---
 title: "FlowFields"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/06/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -21,7 +21,7 @@ FlowFields display the result of the calculation described in the [CalcFormula P
   
  FlowFields are not physical fields that are stored in the database. They are a description of a calculation and a location for the result to be displayed. Because the information in FlowFields exists only at run time, values in FlowFields are automatically initialized to 0 (zero). To update a FlowField, use the [CALCFIELDS Function (Record)](methods/devenv-calcfields-method-record.md). If a FlowField is the direct source expression of a control on a page, then the FlowField is automatically calculated when the page is displayed.  
   
-## FlowField Types  
+## FlowField types  
  There are seven types of FlowFields. Each is described in the following table.  
   
 |FlowField type|Field type|Description|  

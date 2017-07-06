@@ -3,7 +3,7 @@ title: "Developing Extensions"
 description: "Overview of the development experience for building extensions."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 05/29/2017
+ms.date: 07/06/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

@@ -16,14 +16,14 @@ The first phase of implementing an event is publishing the event. Publishing an 
 
 -   Trigger events, on the other hand, do not require that you create publisher methods. Trigger events are by predefined event publisher methods that are called automatically at runtime. This means that trigger events are readily available to subscribers by default.  
 
-## Creating an Event Publisher Method to Publish Business and Integration Events  
+## Creating an event publisher method to publish business and integration events  
  You create an event publisher method the same way you create any method in AL, except that there are specific properties that you set to make it an event publisher. Additionally, an event publisher method has the following requirements and restrictions that you must follow, otherwise you not able to compile your code changes:  
 
 -   An event publisher method cannot include any code except comments.  
 
 -   An event publisher method cannot have a return value, variables, or text constants.  
 
- The following procedure provides an outline of the tasks that are involved in creating an event publisher method for declaring an event. <!--NAV The tasks are performed from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. For detailed step-by-step instructions for the tasks, see [Walkthrough: Publishing, Raising, and Subscribing to an Event in Microsoft Dynamics NAV](Walkthrough--Publishing--Raising--and-Subcribing-to-an-Event-in-Microsoft-Dynamics-NAV.md).-->  
+ The following procedure provides an outline of the tasks that are involved in creating an event publisher method for declaring an event. <!--NAV The tasks are performed from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. For detailed step-by-step instructions for the tasks, see [Walkthrough: Publishing, Raising, and Subscribing to an Event in Microsoft Dynamics NAV](Walkthrough-Publishing-Raising-and-Subcribing-to-an-Event-in-Microsoft-Dynamics-NAV.md).-->  
 
 #### To create an event publisher method  
 
