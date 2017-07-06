@@ -22,7 +22,7 @@ The control structures in AL are divided into the following main groups, as desc
 -   Conditional Statements
 -   Repetitive Statements
 
-## AL Compound Statements
+## AL compound statements
 In some cases, the AL syntax only lets you use a single statement. However, if you have to execute more than one simple statement, the statements can be written as a compound statement by enclosing the statements between the begin and end keywords.  
 
 ```  
@@ -64,7 +64,7 @@ end else begin
   y := a;  
 end;  
 ```  
-## AL Conditional Statements
+## AL conditional statements
 You use conditional statements to specify a condition and one or more commands to execute if the condition is evaluated as true or false. There are two types of conditional statements in AL:  
 
 -   if-then-else, where there are two choices.  
@@ -271,7 +271,7 @@ var
 
  The value set 'abc' is not converted because the evaluated expression MyCode is a code variable.  
 
-## Repetitive Statements
+## Repetitive statements
 A repetitive statement is also known as a loop. The following table shows the looping mechanisms in AL.  
 
 |Looping mechanism|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
@@ -596,7 +596,7 @@ var
 ```  
 The FIND method finds the first entry in the table. Each time NEXT is called, it steps one record forward. When NEXT equals 0, there are no more entries in the table. The loop is exited, and a message displays how many entries were found.  
 
-### Exit Statement  
+### Exit statement  
  The exit statement is used to control the flow of the execution. The following syntax shows an exit statement.  
 
 ```  
@@ -624,7 +624,7 @@ for I := 1 to 1000 do begin
 end;  
 ```  
 
-## <a name="BREAK"></a>Break Statement
+## <a name="BREAK"></a>break statement
 You use the break statement to terminate the iterative statement in which it appears.  
 
 ```  
