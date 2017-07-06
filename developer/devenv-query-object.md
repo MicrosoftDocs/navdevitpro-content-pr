@@ -3,7 +3,7 @@ title: "Query Object"
 description: "Description of the query object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 04/26/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

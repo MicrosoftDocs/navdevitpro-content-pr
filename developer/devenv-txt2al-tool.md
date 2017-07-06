@@ -3,7 +3,7 @@ title: "The Txt2Al Conversion Tool"
 description: "Description of the converter tool."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 04/25/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

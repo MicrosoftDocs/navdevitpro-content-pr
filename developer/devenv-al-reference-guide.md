@@ -23,7 +23,7 @@ This section describes all functions, data types, properties, and triggers in [!
 
  For more information about the [!INCLUDE[d365_dev_long_md](includes/d365_dev_long_md.md)], see [Development](devenv-dev-overview.md).  
 
-## In This Section  
+## In this section  
 
 -   [AL Method Reference](methods/devenv-al-method-reference.md)  
 
