@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Trial balance resource type
-Represents an trialBalance resource type in Dynamics 365 for Financials.
+Represents an trial balance in Dynamics 365 for Financials.
 
 ## Methods
 
