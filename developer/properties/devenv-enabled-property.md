@@ -1,6 +1,5 @@
 ---
 title: "Enabled Property"
-author: edupont04
 ms.custom: na
 ms.date: 06/13/2017
 ms.reviewer: na
@@ -9,8 +8,9 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: e54c1bbb-2070-40cb-b633-4be7738cd3d6
-ms.author: edupont
+ms.author: SusanneWindfeldPedersen
 ---
+
 # Enabled Property
 Sets a value that indicates whether a field or key is enabled or disabled, or whether a control can respond to user-generated events.  
 

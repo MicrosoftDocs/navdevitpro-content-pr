@@ -37,7 +37,7 @@ The scope of the current notification.
 
 ## Remarks
 
-For more information and a detailed example, see [Notifications](notifications-developing.md).
+For more information and a detailed example, see [Notifications](../devenv-notifications-developing.md).
 
 ##  Example
 The following code creates a notification and sends it in the local scope.
@@ -50,5 +50,5 @@ MyNotification.SEND;
 ## See Also  
 [SCOPE Method(Notification)](devenv-scope-method-notification.md)  
 [SEND Method (Notification)](devenv-send-method-notification.md)  
-[Notifications](notifications-developing.md)  
+[Notifications](../devenv-notifications-developing.md)  
 [Multilanguage Development](multilanguage-development.md)

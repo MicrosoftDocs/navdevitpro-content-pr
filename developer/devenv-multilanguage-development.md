@@ -11,6 +11,9 @@ ms.assetid: 6e0ff568-9cad-4b0f-bd97-b8ac5690a470
 caps.latest.revision: 26
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+
 # Multilanguage Development
 [!INCLUDE[navnow](includes/navnow_md.md)] is multilanguage enabled, which means that you can display the user interface \(UI\) in different languages.  
   

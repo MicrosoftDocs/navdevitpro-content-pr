@@ -39,13 +39,10 @@ Sets the strings that are displayed to the user for selecting an option. OptionC
 DAN=Resultatopgørelse,Balance;DEU=GuV,Bilanz;ESP=Comercial,Balance  
 ```  
   
- In this example, values are set up for Danish \(DAN\), German Standard \(DEU\), and Spanish Traditional Sort \(ESP\).  
-  
-## How to Enter OptionCaptionML Values  
- When you choose the **AssistEdit** button in the OptionCaptionML Value field, the **Multilanguage Editor** opens. This editor has two columns: Language and Value. The Language column is populated with all languages defined by Windows. For your convenience, the names, not the abbreviated names, of the languages are displayed. The OptionCaptionML value for a language is added by entering a value in the Value field for that language. You must close the **Multilanguage Editor** by choosing **OK**. If you close it by pressing the ESC key, the OptionCaptionML field is not updated.  
+ In this example, values are set up for Danish (DAN), German Standard (DEU), and Spanish Traditional Sort (ESP).  
   
 ## Examples of Using OptionCaptionML  
- The following examples demonstrate the relationship between the [OptionString Property](devenv-optionstring-property.md) and the OptionCaptionML property on fields \(or variables\) and controls.  
+The following examples demonstrate the relationship between the [OptionString Property](devenv-optionstring-property.md) and the OptionCaptionML property on fields (or variables) and controls.  
   
 1.  An Option field in a table has the following [OptionString Property](devenv-optionstring-property.md) value: opt1,opt2,op3. The value of OptionCaptionML is not set. A page based on this table contains a text box that is based on the Option field. OptionString and OptionCaptionML are not set for the text box.  
   

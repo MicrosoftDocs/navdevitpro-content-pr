@@ -46,6 +46,7 @@
 #### [RecordID Data Type](datatypes/devenv-recordid-data-type.md) 
 #### [RecordRef Data Type](datatypes/devenv-recordref-data-type.md) 
 #### [Report Data Type](datatypes/devenv-report-data-type.md) 
+#### [SessionSettings Data Type](datatypes/devenv-sessionsettings-data-type.md) 
 #### [TableConnectionType Data Type](datatypes/devenv-tableconnectiontype-data-type.md) 
 #### [TableFilter Data Type](datatypes/devenv-tablefilter-data-type.md) 
 #### [TaskScheduler Data Type](datatypes/devenv-taskscheduler-data-type.md) 

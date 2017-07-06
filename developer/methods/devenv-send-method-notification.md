@@ -27,7 +27,7 @@ If you omit this optional return value and if the notification cannot be sent, t
 ## Remarks
 The SEND method displays the content of the notification that is specified by the [MESSAGE Method](devenv-message-method-notification.md).
 
-For more information and a detailed example, see [Notifications](notifications-developing.md).
+For more information and a detailed example, see [Notifications](../devenv-notifications-developing.md).
 
 ##  Example
 The following code creates a notification and sends it to the client in the local scope.
@@ -40,4 +40,4 @@ MyNotification.SEND;
 ## See Also  
 [MESSAGE Method (Notification)](devenv-message-method-notification.md)  
 [SCOPE Method(Notification)](devenv-scope-method-notification.md)  
-[Notifications](notifications-developing.md)
+[Notifications](../devenv-notifications-developing.md)

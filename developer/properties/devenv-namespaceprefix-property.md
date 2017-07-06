@@ -16,12 +16,12 @@ Specifies the namespace prefix on an XMLport element.
   
 ## Applies To  
   
--   XMLports that have the [Format Property \(XMLports\)](devenv-format-xmlports-property.md) set to **Xml**. The property applies only to **Element** node types. It is not supported on **Attribute** node types.  
+-   XMLports that have the [Format Property (XMLports)](devenv-format-xmlports-property.md) set to **Xml**. The property applies only to **Element** node types. It is not supported on **Attribute** node types.  
   
 ## Remarks  
  You can only set the property to a prefix that is declared in the [Namespaces Property](devenv-namespaces-property.md) of the XMLport.  
-  
- For more information about namespaces with XMLports, see [Using Namespaces with XMLports](../devenv-Using-Namespaces-with-XMLports.md).  
+<!--
+ For more information about namespaces with XMLports, see [Using Namespaces with XMLports](../devenv-Using-Namespaces-with-XMLports.md).  -->
   
 ## See Also  
  [Designing XMLports](../devenv-Designing-XMLports.md)   

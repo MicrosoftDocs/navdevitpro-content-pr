@@ -11,6 +11,9 @@ ms.assetid: c9a4c961-c9c2-4afb-8493-fbeefdad27ca
 caps.latest.revision: 9
 manager: edupont
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # OnValidate (Page fields) Trigger
 Executed when a field loses focus after its value has been changed.  
   

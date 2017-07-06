@@ -12,14 +12,14 @@ caps.latest.revision: 4
 author: SusanneWindfeldPedersen
 ---
 # DefaultNamespace Property
-Specifies the default namespace for both the [IMPORT Method \(XMLport\)](../methods/devenv-IMPORT-Method-XMLport.md) and [EXPORT Method \(XMLport\)](../methods/devenv-EXPORT-Method-XMLport.md) methods.  
+Specifies the default namespace for both the [IMPORT Method (XMLport)](../methods/devenv-IMPORT-Method-XMLport.md) and [EXPORT Method (XMLport)](../methods/devenv-EXPORT-Method-XMLport.md) methods.  
   
 ## Applies To  
   
 -   XMLports  
   
 ## Remarks  
- This property specifies the default namespace for both import and export. The default value is unique for different XMLports. For example, the following string specifies a namespace: urn:microsoft-dynamics-nav/xmlports/x100, where 100 is the ID of the XMLport.  
+ This property specifies the default namespace for both import and export. The default value is unique for different XMLports. For example, the following string specifies a namespace: `urn:microsoft-dynamics-nav/xmlports/x100`, where 100 is the ID of the XMLport.  
   
 ## See Also  
  [Properties](devenv-properties.md)

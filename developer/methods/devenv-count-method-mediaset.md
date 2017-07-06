@@ -58,5 +58,5 @@ itemRec.GET('1000');
 ```  
 
 ## See Also  
-[Working With Media on Records](Working-With-Media-on-Records.md)  
+[Working With Media on Records](../devenv-working-with-media-on-records.md)  
 [MediaSet Data Type](../datatypes/devenv-MediaSet-Data-Type.md)  
