@@ -24,22 +24,10 @@ Whether you're creating a new page, or extending en existing page, you will add 
 
 The structure of a page is hierarchical and breaks down in to three sections. The first block contains metadata for the overall page. The metadata describes the page type and the source table it is showing data from. The next section; the layout, describes the visual parts on the page. The final section details the actions that are published on the page.
 
-
-
-<!--  where does this belong?
-|Type|SubType|  
-|----------|-------------|  
-|Container|ContentArea<br /><br /> FactBoxArea<br /><br /> RoleCenterArea|  
-|Group|Group<br /><br /> Repeater<br /><br /> CueGroup<br /><br /> FixedLayout|  
-|Field|No SubType available for this Type|  
-|Part|No SubType available for this Type|  
- 
--->
-
 Furthermore, the page has properties. Properties work in the same way for pages as they do for other [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] objects. For more information, see [Page Properties](properties/devenv-page-property-overview.md).  
 
 ## Page Metadata
-For a new page object, you must at least specify the type of page; `PageType` and the data source; `SourceTable` of the page. And you can also set other metadata at the beginning of the declaration of the page object, such as 
+For a new page object, you must at least specify the type of page; `PageType` and the data source; `SourceTable` of the page. And you can also set other metadata at the beginning of the declaration of the page object, such as:
 
 ```
 page Id PageName
@@ -47,7 +35,7 @@ page Id PageName
     PageType = List;
     SourceTable = TableName;
     ...
-
+}
 ```
 ### Types of Pages  
 The page type you choose depends on the application task that you want to support, the content that you want to display, and how you want to display it. The Role Center page is the main or home page and it helps the user focus on the most important daily tasks and activities. Other types of pages, such as list pages or card pages are typically linked from the home page for easy access. The following page types are available:  
