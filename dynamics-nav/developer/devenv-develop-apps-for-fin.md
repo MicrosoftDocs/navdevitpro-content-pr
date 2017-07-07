@@ -82,7 +82,7 @@ Are you a business owner, a marketing person, or a developer? You can find speci
  
 [How Do I: Design Wizards for HTML Clients in Microsoft Dynamics NAV 2017?](https://mbspartner.microsoft.com/NAV/Videos/101246)  
 
-[Get started with our development tools](https://docs.microsoft.com/en-us/dynamics365/developerbe/devenv-dev-overview?branch=master)  
+[Get started with our development tools](devenv-get-started.md)  
 
 [Read more about integrating with Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/overview)  
 
