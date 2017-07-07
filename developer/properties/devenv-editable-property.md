@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 10e8a6db-079f-4ac1-b589-245b1ad43196
 caps.latest.revision: 18
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]

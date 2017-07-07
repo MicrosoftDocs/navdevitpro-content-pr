@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: e54c1bbb-2070-40cb-b633-4be7738cd3d6
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ---
 
 # Enabled Property
