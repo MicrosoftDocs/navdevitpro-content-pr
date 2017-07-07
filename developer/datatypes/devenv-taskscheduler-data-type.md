@@ -1,7 +1,11 @@
 ---
 title: "TaskScheduler Data Type"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/08/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 2b9d7dad-f05c-4f93-a167-8a9fa036ed28
 caps.latest.revision: 2
-author: SusanneWindfeldPedersen
 ---
 # TaskScheduler Data Type
 The TaskScheduler data type is a complex data type for creating and managing tasks in the task scheduler, which runs codeunits at scheduled times.  

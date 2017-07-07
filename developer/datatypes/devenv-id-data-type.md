@@ -1,7 +1,11 @@
 ---
 title: "ID Data Type"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/27/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 96328bb5-ef6c-413f-9294-e18d6639d919
 caps.latest.revision: 12
-author: SusanneWindfeldPedersen
 ---
 # ID Data Type
 Sets a unique numeric ID for this codeunit, table, page, report, XMLport, or control.  

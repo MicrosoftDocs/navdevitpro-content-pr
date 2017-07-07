@@ -1,7 +1,11 @@
 ---
 title: "Text Data Type"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/08/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: fe8419b7-96a2-486e-858d-51f62c66657f
 caps.latest.revision: 16
-author: SusanneWindfeldPedersen
 ---
 # Text Data Type
 This simple data type denotes a text string.  
