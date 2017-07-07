@@ -1,6 +1,6 @@
 ---
 title: "Get Method"
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ms.custom: na
 ms.date: 06/29/2017
 ms.reviewer: na
