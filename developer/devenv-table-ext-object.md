@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 caps.latest.revision: 18
 ---
 
@@ -67,5 +67,5 @@ Tables
 
 ## See Also
 [Developer Reference](devenv-reference-overview.md)  
-[Table Object](devenv-table-object.md)  
+[Table Object](devenv-table-object.md)   
 [Table and Table Extension Properties](properties/devenv-table-properties.md)

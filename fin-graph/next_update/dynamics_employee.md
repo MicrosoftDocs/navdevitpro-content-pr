@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Employee resource type
-Represents an employee resource type in Dynamics 365 for Financials.
+Represents an employee in Dynamics 365 for Financials.
 
 ## Methods
 

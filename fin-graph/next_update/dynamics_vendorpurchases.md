@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Vendor purchases statement resource type
-Represents an vendorPurchases resource type in Dynamics 365 for Financials.
+Represents a vendor purchase in Dynamics 365 for Financials.
 
 ## Methods
 
