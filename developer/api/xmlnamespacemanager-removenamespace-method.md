@@ -1,6 +1,6 @@
 ---
 title: "RemoveNamespace Method"
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ms.custom: na
 ms.date: 30/06/2017
 ms.reviewer: na

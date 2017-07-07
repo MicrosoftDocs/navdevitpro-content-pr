@@ -1,6 +1,6 @@
 ---
 title: "WriteTo_String Method"
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ms.custom: na
 ms.date: 06/30/2017
 ms.reviewer: na
