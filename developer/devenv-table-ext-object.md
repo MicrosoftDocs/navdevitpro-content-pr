@@ -67,5 +67,5 @@ Tables
 
 ## See Also
 [Developer Reference](devenv-reference-overview.md)  
-[Table Object](devenv-table-object.md)  
+[Table Object](devenv-table-object.md)   
 [Table and Table Extension Properties](properties/devenv-table-properties.md)
