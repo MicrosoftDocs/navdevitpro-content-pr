@@ -1,6 +1,6 @@
 ---
 title: "SelectNodes Method"
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ms.custom: na
 ms.date: 27/06/2017
 ms.reviewer: na

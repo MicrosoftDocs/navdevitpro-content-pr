@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 3ac73e26-7723-46b1-aa15-fd578aa4b56f
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
