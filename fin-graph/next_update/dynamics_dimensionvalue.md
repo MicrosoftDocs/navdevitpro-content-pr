@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # DimensionValue resource type
-Represents a dimensionValue resource type in Dynamics 365 for Financials.
+Represents a dimension value in Dynamics 365 for Financials.
 
 ## Methods
 
