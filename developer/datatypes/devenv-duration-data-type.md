@@ -1,7 +1,11 @@
 ---
 title: "Duration Data Type"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/30/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 4925b06d-1f96-4221-98b8-5bdd33b20b9e
 caps.latest.revision: 12
-author: SusanneWindfeldPedersen
+
 ---
 # Duration Data Type
 Represents the difference between two DateTimes. This value can be negative. It is stored as a 64-bit integer. The integer value is the number of milliseconds during the duration.  

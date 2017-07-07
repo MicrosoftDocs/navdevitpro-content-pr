@@ -1,7 +1,11 @@
 ---
 title: "Variant Data Type"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/08/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 98348284-4055-40e2-9bc0-808e95289626
 caps.latest.revision: 21
-author: SusanneWindfeldPedersen
 ---
 # Variant Data Type
 The AL variant data type can contain many AL data types <!--NAV or any variants from OCX and Automation objects-->. However, not all these values can be mapped to AL values. 

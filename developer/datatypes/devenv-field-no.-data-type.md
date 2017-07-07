@@ -1,7 +1,11 @@
 ---
 title: "Field No. Data Type"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/27/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 5c8218df-818e-4b07-b431-5f776e877cc1
 caps.latest.revision: 5
-author: SusanneWindfeldPedersen
 ---
 # Field No. Data Type
 Sets a unique numeric ID for the field.  
