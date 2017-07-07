@@ -61,8 +61,7 @@ You can use events to design the application to react to specific actions or beh
 [Publishing Events](devenv-publishing-events.md)  
 [Raising Events](devenv-raising-events.md)  
 [Subscribing to Events](devenv-subscribing-to-events.md)  
-[Debugging Events](devenv-debugging-events.md)  
-<!--NAV
+<!--NAV [Debugging Events](devenv-debugging-events.md)   
 [Best Practices with Microsoft Dynamics 365 for Financials](devenv-events-best-practices.md)  
  [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough--Publishing--Raising--and-Subcribing-to-an-Event-in-Microsoft-Dynamics-NAV.md)  
 [Walkthrough: Implementing New Workflow Events and Responses](Walkthrough--Implementing-New-Workflow-Events-and-Responses.md)  -->
