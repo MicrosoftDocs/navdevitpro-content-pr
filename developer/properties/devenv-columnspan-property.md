@@ -35,7 +35,8 @@ Sets the number of columns that a field spans in a GridLayout control.
 > [!IMPORTANT]  
 >  The ColumnSpan property is not supported by the [!INCLUDE[nav_web](../includes/nav_web_md.md)]. If the page displays in the [!INCLUDE[nav_web](../includes/nav_web_md.md)], the property is ignored and the field will not span any columns.  
 
- -->
+
   
 ## See Also  
  [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](../devenv-How-to--Arrange-Fields-in-Rows-and-Columns-Using-the-GridLayout-Control.md)
+  -->

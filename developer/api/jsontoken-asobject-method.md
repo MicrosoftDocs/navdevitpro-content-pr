@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # AsObject Method
 
 Converts the value in a JsonToken to a JsonObject data type.
@@ -35,4 +37,4 @@ The returned JsonObject contains the same data as the JsonToken, but allows obje
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)

@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # JsonArray Class
 JsonArray is a container for any well-formed JSON array. A default JsonArray contains an empty JSON array.
 
@@ -43,4 +45,4 @@ Objects of type JsonArray represent a 0-based array.
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)

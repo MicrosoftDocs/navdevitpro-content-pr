@@ -101,4 +101,4 @@ DOWNLOADFROMSTREAM(NewStream,'Export','','All Files (*.*)|*.*',ToFileName)
 
 ## See Also  
  [File Data Type](../datatypes/devenv-File-Data-Type.md)   
- [Walkthrough: Transferring a File from Microsoft Dynamics NAV Server to the Client](Walkthrough--Transferring-a-File-from-Microsoft-Dynamics-NAV-Server-to-the-Client.md)
+ <!--Links [Walkthrough: Transferring a File from Microsoft Dynamics NAV Server to the Client](Walkthrough--Transferring-a-File-from-Microsoft-Dynamics-NAV-Server-to-the-Client.md)-->  

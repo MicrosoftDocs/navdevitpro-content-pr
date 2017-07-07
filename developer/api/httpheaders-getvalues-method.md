@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GetValues Method
 Gets the values for the specified key.
 
@@ -38,4 +40,4 @@ Gets the values for the specified key.
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)

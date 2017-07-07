@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Remove Method
 Removes the key and the related values from the HttpHeaders object.
 
@@ -34,4 +36,4 @@ Removes the key and the related values from the HttpHeaders object.
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)

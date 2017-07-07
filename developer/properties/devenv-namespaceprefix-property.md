@@ -24,8 +24,8 @@ Specifies the namespace prefix on an XMLport element.
 ## Remarks  
  You can only set the property to a prefix that is declared in the [Namespaces Property](devenv-namespaces-property.md) of the XMLport.  
 <!--
- For more information about namespaces with XMLports, see [Using Namespaces with XMLports](../devenv-Using-Namespaces-with-XMLports.md).  -->
-  
+ For more information about namespaces with XMLports, see [Using Namespaces with XMLports](../devenv-Using-Namespaces-with-XMLports.md). 
+
 ## See Also  
  [Designing XMLports](../devenv-Designing-XMLports.md)   
- [How to: Create XMLports](../devenv-How-to-Create-XMLports.md)
+ [How to: Create XMLports](../devenv-How-to-Create-XMLports.md) -->

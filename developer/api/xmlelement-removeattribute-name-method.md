@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # RemoveAttribute Method
 Removes the specified attribute from this element.  
 ```  
@@ -26,4 +28,4 @@ The fully qualified name of the attribute to remove.
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

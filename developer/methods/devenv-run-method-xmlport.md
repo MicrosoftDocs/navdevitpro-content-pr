@@ -58,7 +58,7 @@ This parameter overrides the setting of the [UseRequestPage Property](../propert
  The record to use in the XMLport. The system will use any filters that are attached to the specified record.  
 
 ## Example  
- The following example creates a codeunit that runs the XMLport that has ID 50002, runs a request page that lets the user set filters, and exports data from the Customer table. On the request page, you can either open the file and view it or save it as an XML document on your computer. This example assumes that you have created an XMLport and saved it with ID 50002. For more information about how to create an XMLport, see [How to: Create XMLports](How-to--Create-XMLports.md). This example requires that you create the following global variable.  
+ The following example creates a codeunit that runs the XMLport that has ID 50002, runs a request page that lets the user set filters, and exports data from the Customer table. On the request page, you can either open the file and view it or save it as an XML document on your computer. This example assumes that you have created an XMLport and saved it with ID 50002. <!--Links For more information about how to create an XMLport, see [How to: Create XMLports](How-to--Create-XMLports.md).--> This example requires that you create the following global variable.  
 
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -70,4 +70,4 @@ XMLPORT.RUN (50002, TRUE, FALSE, varRec);
 
 ## See Also  
  [XMLport Data Type](../datatypes/devenv-XMLport-Data-Type.md)   
- [How to: Create XMLports](How-to--Create-XMLports.md)
+ [XMLPort object](../devenv-xmlport-object.md)  

@@ -31,4 +31,4 @@ SELECTLATESTVERSION
   
 ## See Also  
  [Database Methods](devenv-database-methods.md)   
- [CaptionClass Functionality](CaptionClass-Functionality.md)
+ <!--Links [CaptionClass Functionality](CaptionClass-Functionality.md)-->  

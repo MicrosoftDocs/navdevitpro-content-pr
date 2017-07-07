@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # GetData Method
 Gets the content of the processing instruction, excluding the target.  
 ```  
@@ -32,4 +34,4 @@ If you omit this optional return value and the operation does not execute succes
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

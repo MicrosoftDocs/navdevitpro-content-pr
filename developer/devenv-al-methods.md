@@ -11,7 +11,13 @@ author: jswymer
 ---
 # AL Methods
 
-Like other languages, AL methods are a fundamental programming element. A method, also known as a procedure, is a named group of statements that perform an operation or task. Depending on the scope, methods can be called and executed from the same object in which they are declared or from other parts of the application.
+Like other languages, AL methods are a fundamental programming element. A method, also known as a procedure, is a named group of statements that perform an operation or task. Depending on the scope, methods can be executed, or *called*, from the same object in which they are declared or from other parts of the application. 
+
+There are two types of methods: system methods and user-defined (custom) methods.
+
+- Built-in methods are part of the platform. Built-in methods can be used for different purposes, such as string handling, text formatting, database handling, and so on. For information about the available built-in methods, see [AL Method Reference](methods/devenv-al-method-reference.md) and [Essential AL Methods](devenv-essential-al-methods.md).
+
+- Custom methods are specialized methods for your application to bind the objects, such as tables, pages, and codeunits, together to form a unified whole. You can create special functions for use anywhere in the database.
 
 ## Declaring Methods
 
@@ -22,11 +28,8 @@ The method declaration defines the method and has the following syntax:
 local procedure <method_name>(parameter list) <return_value_name> : <data_type>[<length>]
 ```
 
->[!TIP]
-> Use the `tprocedure` code snippet to help declare a method.
-
 ### Snippet support
-Typing the shortcut ```tprocedure``` will create the basic structure for a method when usingng the AL Extension in Visual Studio Code.
+Typing the shortcut ```tprocedure``` will create the basic structure for a method when using the AL Extension in Visual Studio Code.
 
 ### Attributes (optional)
 An attribute is modifier on a method declaration that specifies information that controls the method's use and behavior. For example, decorating a method with the Integration attribute sets the method to be an event publisher. An attribute can have one or more arguments that set properties for the method instance.
@@ -49,19 +52,20 @@ To declare a global method, omit `local`:
 ### Parameters (optional)  
 A parameter is one or more variables or expressions that are sent to the method through
 the method call. The parameter provides information to the method, and the
-method can modify that information. In the method declaration, you place the parameters with a set of parentheses `()`. If there is more than one parameter, the parameters are
-separated by commas. A parameter is defined by a data type. Some data types, such as `Reccord`require a subtype.
+method can modify that information. In the method declaration, you place the parameters in parentheses `()`. If there is more than one parameter, the parameters are
+separated by commas. A parameter is defined by a data type. Some data types, such as `Record`, require an additional subtype.
 
 For example, the the following method declaration includes two parameters: `MyCustomer`and `MyDimension`:
 ```
  procedure  MyMethod(MyCustomer : Record Customer;VAR MyDimension : ARRAY [2] OF Boolean)
-````
+```
 
 ### Return values (optional)
+
 A method can return data that can be then coded against. A return value is a defined by a name, data type, and optional length depending on the data type (For example, if the return value is a Text DataType, the text might have a length of 50).
 
-## Calling Methods
-You run, or call, a method by using its name in a method statement. When a method is called the current application sequence is suspended and the code on the method is executed. When the method code is completed, the application code sequence returns to where the method was called from. How the method is called determines what happens when it returns.
+## <a name="CallMethod"></a>Calling Methods
+You can execute, or call, a built-in or custom method by using its name in a method call statement. When a method is called the current application sequence is suspended and the code on the method is executed. When the method code is completed, the application code sequence returns to where the method was called from. How the method is called determines what happens when it returns.
 
 A method can be used as part of an expression. For example, the following code uses a
 method named `CalculatePrice` as an expression:
@@ -79,9 +83,9 @@ example of calling a method named `MyRunMethod`:
 IF Quantity > 5 THEN
 MyRunMethod;
 ```
-The `MyRunMethod` returns no data back to the calling code. For more information, see [Method Call Statements](devenv-method-statements.md).
+The `MyRunMethod` returns no data back to the calling code.
 
-### Parameters  
+### <a name="Parameters"></a> Parameters  
 In a method call, the parameters are separated by commas, and the optional parameters may be omitted starting from the right. For example, this means that if a method has three optional parameters, then you cannot omit the second parameter without omitting the third parameter.  
   
 You can specify that a parameter is passed to a method by value or by reference.  

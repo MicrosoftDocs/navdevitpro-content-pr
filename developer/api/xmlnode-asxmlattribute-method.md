@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # AsXmlAttribute Method
 Converts the node to an XmlAttribute node. The operation will fail if the node is not an XmlAttribute.  
 ```  
@@ -25,4 +27,4 @@ XmlAttribute := XmlNode.AsXmlAttribute()
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

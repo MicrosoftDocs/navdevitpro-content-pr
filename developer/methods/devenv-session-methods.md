@@ -38,4 +38,4 @@ The following AL methods for managing [!INCLUDE[d365fin_long_md](../includes/d36
  [USERSECURITYID Method](devenv-USERSECURITYID-Method.md)
 
 ## See Also  
- [AL Methods](devenv-al-methods.md)  
+ [AL Method Reference](devenv-al-method-reference.md)  

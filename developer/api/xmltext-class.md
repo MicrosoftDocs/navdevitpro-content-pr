@@ -14,7 +14,11 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # XmlText Class
+Represents the text content of an element or attribute.
+
 The following methods are available on the XmlText class.  
   
 |Method name|Description|  
@@ -36,4 +40,4 @@ The following methods are available on the XmlText class.
 |[XmlText.SelectNodes(String, XmlNamespaceManager, XmlNodeList)](xmltext-selectnodes-xpath-namespacemanager-nodelist-method.md)|Selects a list of nodes matching the XPath expression.|  
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

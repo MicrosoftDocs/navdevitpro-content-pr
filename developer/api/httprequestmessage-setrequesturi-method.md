@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # SetRequestUri Method
 Sets Uniform Resource Identifier (URI) used for the HTTP request.
 
@@ -35,4 +37,4 @@ Sets Uniform Resource Identifier (URI) used for the HTTP request.
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)

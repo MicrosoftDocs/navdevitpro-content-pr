@@ -77,4 +77,4 @@ ATown
   
 ## See Also  
  [SETCURRENTKEY Method \(Record\)](devenv-SETCURRENTKEY-Method-Record.md)   
- [OData Web Services](OData-Web-Services.md)
+ <!--Links [OData Web Services](OData-Web-Services.md)-->

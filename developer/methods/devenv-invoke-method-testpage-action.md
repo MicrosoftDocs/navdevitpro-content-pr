@@ -38,5 +38,5 @@ TestPage.Action.INVOKE
  All actions that are available on the page are also available on the test page.  
   
 ## See Also  
- [Test Pages](Test-Pages.md)   
+ <!--Links [Test Pages](Test-Pages.md) -->   
  [TestPage Methods](devenv-TestPage-Methods.md)

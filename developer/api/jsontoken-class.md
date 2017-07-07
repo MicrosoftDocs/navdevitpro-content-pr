@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # JsonToken Class
 
 A JsonToken object is a container for any well-formed JSON data. A default JsonToken object contains the JSON value of NULL.
@@ -38,4 +40,4 @@ The following methods are available on JsonToken objects.
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)

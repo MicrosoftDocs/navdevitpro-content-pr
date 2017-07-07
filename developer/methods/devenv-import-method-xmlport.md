@@ -63,4 +63,4 @@ ImportXmlFile.CLOSE;
   
 ## See Also  
  [XMLport Data Type](../datatypes/devenv-XMLport-Data-Type.md)   
- [XMLport Walkthroughs](XMLport-Walkthroughs.md)
+ <!--Links [XMLport Walkthroughs](XMLport-Walkthroughs.md)-->  

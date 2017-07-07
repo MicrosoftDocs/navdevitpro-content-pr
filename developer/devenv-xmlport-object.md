@@ -3,7 +3,7 @@ title: "XMLport Object"
 description: "Description of the xmlport object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 03/24/2017
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -135,7 +135,7 @@ xmlport 70000124 ExportPermissionSet {
 ```
 
 ## See Also
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)  
+[Developing Extensions](devenv-dev-overview.md)  
 [Developer Reference](devenv-reference-overview.md)  
 [Page Extension Object](devenv-page-ext-object.md)  
 [Report Object](devenv-report-object.md)  

@@ -30,5 +30,5 @@ SessionID := DEBUGGINGSESSIONID
  The session ID that the debugger is currently attached to.  
   
 ## See Also  
- [Debugging](Debugging.md)   
+ <!--Links [Debugging](Debugging.md) -->   
  [DEBUGGEDSESSIONID Method \(Debugger\)](devenv-DEBUGGEDSESSIONID-Method-Debugger.md)

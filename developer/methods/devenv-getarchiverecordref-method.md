@@ -33,6 +33,7 @@ Returns a RecordRef for the specified table.
   
  Specifies the reference.  
   
+<!--Links
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
- [How to: Develop an Extension](How-to--Develop-an-Extension.md)
+ [How to: Develop an Extension](How-to--Develop-an-Extension.md)-->

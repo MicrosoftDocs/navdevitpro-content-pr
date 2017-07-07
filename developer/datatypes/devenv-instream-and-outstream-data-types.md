@@ -21,13 +21,13 @@ Reads from or writes to files and BLOBs.
   
  You can create a stream object by using the following methods:  
   
--   [CREATEINSTREAM method \(BLOB\)](../methods/devenv-createinstream-method-blob.md)  
+-   [CREATEINSTREAM method (BLOB)](../methods/devenv-createinstream-method-blob.md)  
   
--   [CREATEOUTSTREAM method \(BLOB\)](../methods/devenv-createoutstream-method-blob.md)  
+-   [CREATEOUTSTREAM method (BLOB)](../methods/devenv-createoutstream-method-blob.md)  
   
--   [CREATEINSTREAM method \(File\)](../methods/devenv-createinstream-method-file.md)  
+-   [CREATEINSTREAM method (File)](../methods/devenv-createinstream-method-file.md)  
   
--   [CREATEOUTSTREAM method \(File\)](../methods/devenv-createoutstream-method-file.md)  
+-   [CREATEOUTSTREAM method (File)](../methods/devenv-createoutstream-method-file.md)  
   
  You can use InStream in the following ways:  
   
@@ -46,3 +46,6 @@ Reads from or writes to files and BLOBs.
 -   [OutStream.WRITE method](../methods/devenv-outstream-write-method.md)  
   
 -   [OutStream.WRITETEXT method](../methods/devenv-outstream-writetext-method.md)
+
+## See Also 
+[AL Data Types](devenv-al-data-types.md)  

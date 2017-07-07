@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # HasNamespace Method
 Gets a value indicating whether the supplied prefix has a namespace defined for the current pushed scope.  
 ```  
@@ -30,4 +32,4 @@ The prefix of the namespace you want to find.
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

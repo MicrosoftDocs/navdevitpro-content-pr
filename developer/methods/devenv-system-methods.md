@@ -27,4 +27,4 @@ The following system methods are available:
 [Variable Methods](devenv-variable-methods.md)
 
 ## See Also  
- [AL Methods](devenv-al-methods.md)  
+ [AL Method Reference](devenv-al-method-reference.md)  

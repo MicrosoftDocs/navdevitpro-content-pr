@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # AsDate Method
 
 Converts the value in a JsonValue to a Date data type.
@@ -34,4 +36,4 @@ If the JsonValue does not contain a string of the format "yyyy-MM-dd" e.g. "2017
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)

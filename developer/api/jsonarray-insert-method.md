@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # Insert Method
 
 Inserts the value at the given index in the array while shifting all the values to the right by one position.
@@ -44,4 +46,4 @@ The operation will fail if the *Index* is smaller than 0 or greater than JsonArr
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)

@@ -42,9 +42,10 @@ Sets a filter on the column filter row of a query.
 ```  
 Quantity=FILTER(>20&<50)  
 ```  
-  
+<!--  
 ## See Also  
- [Understanding Query Filters](Understanding-Query-Filters.md)   
+ [Understanding Query Filters](../devenv-understanding-Query-Filters.md)   
  [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md)   
  [How to: Create Queries](How-to--Create-Queries.md)   
  [Queries](Queries.md)
+ -->

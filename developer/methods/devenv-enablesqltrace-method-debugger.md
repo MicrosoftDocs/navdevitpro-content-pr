@@ -49,4 +49,4 @@ Enables or verifies SQL tracing. If you enable SQL tracing, then SQL Server even
  You can also enable and disable SQL tracing by using the **Start Full SQL Tracing** and **Stop Full SQL Tracing** buttons on the **Session List** page.  
   
 ## See Also  
- [Debugging](Debugging.md)
+ <!--Links [Debugging](Debugging.md) -->

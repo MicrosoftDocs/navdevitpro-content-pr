@@ -39,5 +39,5 @@ Sets the values of a AL text constant for the different languages that are avail
  In this example, values are set for Danish (DAN), English (United States), Spanish Traditional Sort (ESP), and French Standard (FRA).  
   
 ## See Also  
- [How to: Change the Language in the User Interface](How-to--Change-the-Language-in-the-User-Interface.md)   
- [Multilanguage Development](devenv-multilanguage-development.md)
+ <!-- [How to: Change the Language in the User Interface](How-to--Change-the-Language-in-the-User-Interface.md)  --> 
+ [Multilanguage Development](../devenv-multilanguage-development.md)

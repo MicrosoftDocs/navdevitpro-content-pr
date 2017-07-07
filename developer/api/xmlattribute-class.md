@@ -14,7 +14,11 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # XmlAttribute Class
+Represents an attribute.
+
 The following methods are available on the XmlAttribute class.  
   
 |Method name|Description|  
@@ -26,7 +30,7 @@ The following methods are available on the XmlAttribute class.
 |[XmlAttribute.LocalName](xmlattribute-localname-property.md)|The local name of the attribute.|  
 |[XmlAttribute.NamespaceUri](xmlattribute-namespaceuri-property.md)|The namespace URI of the attribute.|  
 |[XmlAttribute.NamespacePrefix](xmlattribute-namespaceprefix-property.md)|The prefix of the attribute (if any).|  
-|[XmlAttribute.IsNamespaceDeclaration](xmlattribute-isnamespacedeclaration-property.md)|Determines if this attribute is a namespace declaration.|  
+|[XmlAttribute.IsNamespaceDeclaration](xmlattribute-isnamespacedeclaration-property.md)|Determines if this attribute is a namespace declaration.| 
 |[XmlAttribute.Value(String)](xmlattribute-value-property.md)|Gets or sets the value of the attribute.|  
 |[XmlAttribute.AsXmlNode()](xmlattribute-asxmlnode-method.md)|Convert the node to an XmlNode.|  
 |[XmlAttribute.GetParent(XmlElement)](xmlattribute-getparent-method.md)|Gets the parent XmlElement of this node.|  
@@ -41,6 +45,7 @@ The following methods are available on the XmlAttribute class.
 |[XmlAttribute.SelectSingleNode(String, XmlNamespaceManager, XmlNode)](xmlattribute-selectsinglenode-xpath-namespacemanager-node-method.md)|Selects the first XmlNode that matches the XPath expression.|  
 |[XmlAttribute.SelectNodes(String, XmlNodeList)](xmlattribute-selectnodes-xpath-nodelist-method.md)|Selects a list of nodes matching the XPath expression.|  
 |[XmlAttribute.SelectNodes(String, XmlNamespaceManager, XmlNodeList)](xmlattribute-selectnodes-xpath-namespacemanager-nodelist-method.md)|Selects a list of nodes matching the XPath expression.|  
+
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

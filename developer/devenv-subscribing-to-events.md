@@ -1,7 +1,7 @@
 ---
 title: "Subscribing to Events"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,7 +12,7 @@ author: jswymer
 # Subscribing to Events
 To handle events, you design event subscribers. Event subscribers determine what actions to take in response to an event that has been raised. An event subscriber is a AL method that subscribes to, or listens for, a specific event that is declared by an event publisher method. The event subscriber includes code that defines the business logic to handle the event. When the published event is raised, the event subscriber is called and its code is run.  
 
-Subscribing to an event tells the runtime that the subscriber method must be called whenever the publisher method is run,either by code \(as with business and integration events\) or by the system \(as with trigger events\). The runtime establishes the link between an event raised by the publisher and its subscribers by looking for event subscriber methods.  
+Subscribing to an event tells the runtime that the subscriber method must be called whenever the publisher method is run,either by code (as with business and integration events) or by the system (as with trigger events). The runtime establishes the link between an event raised by the publisher and its subscribers by looking for event subscriber methods.  
 
 There can be multiple subscribers to the same event from various locations in the application code. When an event is raised, the subscriber methods are run one at a time in random order. You cannot specify the order in which the subscriber methods are called.  
 
@@ -21,7 +21,7 @@ Be aware that changing the state may not only impact the publishing code but oth
 > [!NOTE]  
 >  Subscriber methods cannot access the sender and or access global variables.  
 
-## Creating an Event Subscriber Method  
+## Creating an event subscriber method  
 You create an event subscriber method just like other methods except that you specify properties that set up the subscription to an event publisher. The procedure is slightly different for database and page trigger events than business and integration events because business and integration events are raised by event publisher methods in application code. Trigger events are predefined system events that are raised automatically on tables and pages.  
 
 For an explanation about the different types, see [Event Types](devenv-event-types.md).  
@@ -35,7 +35,7 @@ For an explanation about the different types, see [Event Types](devenv-event-typ
 
 3.  Add a AL method to the codeunit.  
 
-     We recommend that you give the method a name that indicates what the subscriber does, and has the format *\[Action\]\[Event\]*. *\[Action\]* is text that describes what the method does and *\[Event\]* is the name of the event publisher method to which it subscribes. For more information about naming, see [Best Practices with Events](devenv-events-best-practices.md).  
+     We recommend that you give the method a name that indicates what the subscriber does, and has the format *[Action][Event]*. *[Action]* is text that describes what the method does and *[Event]* is the name of the event publisher method to which it subscribes. <!-- For more information about naming, see [Best Practices with Events](devenv-events-best-practices.md).  -->
 
 4.  Decorate the method with the [EventSubscriber attribute](methods/devenv-eventsubscriber-attribute.md), and change accordingly.
 
