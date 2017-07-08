@@ -1,7 +1,11 @@
 ---
 title: "Option Data Type"
+description: 
+suthor: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 07/03/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 4ce38f7b-bae2-427d-9db8-3e5014a48c6a
 caps.latest.revision: 11
-author: SusanneWindfeldPedersen
 ---
 # Option Data Type
 This simple data type denotes an option value.  

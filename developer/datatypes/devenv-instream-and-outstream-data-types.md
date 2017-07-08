@@ -1,7 +1,11 @@
 ---
 title: "InStream and OutStream Data Types"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 07/03/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: d16b1998-7b14-4aca-9848-3882ca5a92f0
 caps.latest.revision: 9
-author: SusanneWindfeldPedersen
 ---
 # InStream and OutStream Data Types
 Reads from or writes to files and BLOBs.  

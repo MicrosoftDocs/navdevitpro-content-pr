@@ -1,7 +1,11 @@
 ---
 title: "Query Data Type"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/08/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: ee5c8ebe-98a6-4453-ba43-908f4ef2af93
 caps.latest.revision: 6
-author: SusanneWindfeldPedersen
+
 ---
 # Query Data Type
 A complex data type that stores queries.  
