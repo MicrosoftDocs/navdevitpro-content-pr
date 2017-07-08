@@ -12,7 +12,7 @@ ms.prod: "dynamics-nav-2017"
 ms.author: jswymer
 ---
 # ObsoleteState Property
-Marks whether the table, field, or key is will become obsolete (or deprecated) in a future release or it is already obsolete.   
+Marks whether the table, field, or key is or will become obsolete (deprecated).   
 
 ## Applies To  
 
@@ -26,8 +26,8 @@ Marks whether the table, field, or key is will become obsolete (or deprecated) i
 |  Value  |  Description  |
 |---------|---------------|  
 |**No**|Not obsolete. This is the normal/default setting.|  
-|**Pending**|Will be obsolete in the future. This setting has no effect on the current use of the table, field, or key in code. |  
-|**Removed**|Marked as obsolete in the database. The element is not removed from the database. However, references to the the element in code are only allowed in upgrade codeunits. References from other objects will result in a runtime error.|   
+|**Pending**|Will be obsolete in a future release. This setting has no effect on the current use of the table, field, or key in code. |  
+|**Removed**|Is obsolete. The element is not deleted from the database; however, references to the the element in code are only allowed in upgrade codeunits. References from other objects will result in a runtime error.|   
 
 ## Remarks  
 By coding against this property, you can use this property as a way to communicate through code to other developers which tables and fields will become obsolete over time and those which are already obsolete, enabling them to adjust there application code accordingly.

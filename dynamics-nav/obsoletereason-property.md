@@ -11,8 +11,8 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.author: jswymer
 ---
-# ObsoleteState Property
-Specifes why a table, field, or key has been marked as **Pending** or **Obsolete** by the **ObsoleteState** property.   
+# ObsoleteReason Property
+Specifes why a table, field, or key has been marked as **Pending** or **Obsolete** in the **ObsoleteState** property.   
 
 ## Applies To  
 
