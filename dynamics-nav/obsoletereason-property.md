@@ -27,7 +27,7 @@ Specifes why a table, field, or key has been marked as **Pending** or **Obsolete
 Use this property to inform developers about a table, field, or key that will become obsolete in time or is already obsolete.
 
 ## See Also  
- [ObsoleteState](obsoletestate.md)  
+ [ObsoleteState](obsoletestate-property.md)  
  [Properties](Properties.md)  
  [Upgrade Codeunits](upgrade-codeunits.md)  
 

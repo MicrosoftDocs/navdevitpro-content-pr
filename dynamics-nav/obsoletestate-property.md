@@ -33,7 +33,7 @@ Marks whether the table, field, or key is or will become obsolete (deprecated).
 By coding against this property, you can use this property as a way to communicate through code to other developers which tables and fields will become obsolete over time and those which are already obsolete, enabling them to adjust there application code accordingly.
 
 ## See Also  
- [ObsoleteReason Property](Oobsoletereason-property.md)  
+ [ObsoleteReason Property](Obsoletereason-property.md)  
  [Properties](Properties.md)  
  [Upgrade Codeunits](upgrade-codeunits.md)  
 
