@@ -12,7 +12,7 @@ ms.prod: "dynamics-nav-2017"
 ms.author: jswymer
 ---
 # ObsoleteState Property
-Specifies whether a table, field, or key is pending obsolete or ets a value that determines how text in a field on a page is formatted. For fields that are included in a **CueGroup**, this property sets the value of the color indicator on the cue.  
+Marks whether the table, field, or key is will become obsolete (or deprecated) in a future release or it is already obsolete.   
 
 ## Applies To  
 
@@ -20,19 +20,20 @@ Specifies whether a table, field, or key is pending obsolete or ets a value that
 -   Table fields
 -   Table keys
   
-
 ## Property Value  
- The following table lists the values and their formatting for text and Cues.  
+ The following table describes the property values.  
 
 |  Value  |  Description  |
 |---------|---------------|  
-|**No**|Not obsolete. This is the default setting.|  
-|**Pending**|Marks the it| 
-|**Removed**|Bold|   
+|**No**|Not obsolete. This is the normal/default setting.|  
+|**Pending**|Will be obsolete in the future. This setting has no effect on the current use of the table, field, or key in code. |  
+|**Removed**|Marked as obsolete in the database. The element is not removed from the database. However, references to the the element in code are only allowed in upgrade codeunits. References from other objects will result in a runtime error.|   
 
 ## Remarks  
-This property can be used 
+By coding against this property, you can use this property as a way to communicate through code to other developers which tables and fields will become obsolete over time and those which are already obsolete, enabling them to adjust there application code accordingly.
 
 ## See Also  
- [How to: Style Field Text on a Page](How-to--Style-Field-Text-on-a-Page.md)   
- [Properties](Properties.md)
+ [ObsoleteReason Property](Oobsoletereason-property.md)  
+ [Properties](Properties.md)  
+ [Upgrade Codeunits](upgrade-codeunits.md)  
+
