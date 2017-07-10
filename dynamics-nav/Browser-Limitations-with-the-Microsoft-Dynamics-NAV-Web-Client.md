@@ -32,6 +32,7 @@ The [!INCLUDE[nav_web](includes/nav_web_md.md)] supports several browsers. There
 |Windows authentication|Validating user credentials by using Windows authentication is not supported.|Safari|For more information about authentication and credentials, see [Users and Credential Types](Users-and-Credential-Types.md).|  
 |Documentation Feedback link in the Microsoft Dynamics NAV Online Help.|Using the Documentation Feedback link does not work.|Mozilla Firefox|Use a different browser to provide feedback.|  
 
+
 ## See Also  
  [Feature Limitations of the Microsoft Dynamics NAV Web Client](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client.md)   
  [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   

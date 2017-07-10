@@ -1,12 +1,15 @@
 ---
 title: "Notification Data Type"
+description: 
+author: SussaneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/08/2017
+ms.date: 07/07/2017
+ms.author: jswymer
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.author: jswymer
 ms.prod: "dynamics-nav-2017"
 ---
 # Notification Data Type
@@ -15,16 +18,16 @@ A complex type for publishing and consuming notifications in the application. No
 ## Methods
 The following methods are supported for the Notifications data type:
 
-[ADDACTION method (Notification)](../methods/devenv-method-notificationaddaction.md)   
-[GETDATA method (Notification)](../methods/devenv-method-notificationgetdata.md)   
-[ID method (Notification)](../methods/devenv-method-notificationid.md)   
-[MESSAGE method (Notification)](../methods/devenv-method-notificationmessage.md)   
-[RECALL method (Notification)](../methods/devenv-method-notificationrecall.md)   
-[SCOPE method (Notification)](../methods/devenv-method-notificationscope.md)   
-[SETDATA method (Notification)](../methods/devenv-method-notificationsetdata.md)  
-[SETDATA method (Notification)](../methods/devenv-method-notificationsetdata.md)  
+[ADDACTION method (Notification)](../methods/devenv-addaction-method-notification.md)   
+[GETDATA method (Notification)](../methods/devenv-getdata-method-notification.md)   
+[ID method (Notification)](../methods/devenv-id-method-notification.md)   
+[MESSAGE method (Notification)](../methods/devenv-message-method-notification.md)   
+[RECALL method (Notification)](../methods/devenv-recall-method-notification.md)   
+[SCOPE method (Notification)](../methods/devenv-scope-method-notification.md)   
+[SETDATA method (Notification)](../methods/devenv-send-method-notification.md)  
+[SETDATA method (Notification)](../methods/devenv-setdata-method-notification.md)  
 
 
 ## See Also  
- [Notifications](notifications-developing.md)  
+ [Notifications](../devenv-notifications-developing.md)  
  

@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Dimension resource type
-Represents a dimension resource type in Dynamics 365 for Financials.
+Represents a dimension in Dynamics 365 for Financials.
 
 ## Methods
 

@@ -1,7 +1,11 @@
 ---
 title: "Page Data Type"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/08/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 75b2a3a2-d2e6-4099-980c-1f4a343c79b6
 caps.latest.revision: 7
-author: SusanneWindfeldPedersen
+
 ---
 # Page Data Type
 This complex data type stores pages.  
@@ -25,10 +29,11 @@ The following methods are supported for the Page data type:
 [SETRECORD method (Page)](../methods/devenv-setrecord-method-page.md)   
 [SETSELECTIONFILTER method](../methods/devenv-setselectionfilter-method.md)   
 [SETTABLEVIEW method (Page, Report, XMLport)](../methods/devenv-settableview-method-page-report-xmlport.md)   
-[UPDATE](UPDATE.md)
+<!--[UPDATE](../../dynamics-nav/UPDATE.md)-->
 
 ## Remarks  
  Pages contain a number of simpler elements called controls. Controls are used to display information to the user or receive information from the user.  
 
-## See Also  
+## See Also
+[AL Data Types](devenv-al-data-types.md)  
  

@@ -1,7 +1,11 @@
 ---
 title: "Codeunit Triggers"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/19/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,5 +27,6 @@ The following triggers apply to codeunits.
 
 ## See Also  
  [Triggers](devenv-triggers.md)  
+ <!--
  [Testing the Application](../testing-the-application.md)   
- [How to: Create Test Codeunits and Test Methods](../devenv-how-to-create-test-codeunits-and-test-methods.md)
+ [How to: Create Test Codeunits and Test Methods](../devenv-how-to-create-test-codeunits-and-test-methods.md) -->

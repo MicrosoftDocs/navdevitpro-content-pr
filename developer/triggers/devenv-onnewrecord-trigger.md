@@ -1,7 +1,11 @@
 ---
 title: "OnNewRecord Trigger"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/19/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -37,7 +41,7 @@ OnNewRecord(BelowxRec)
  If an error occurs in the trigger code a popup dialog shows an error message. When the dialog is closed, the user can enter new data.  
   
 > [!NOTE]  
->  The OnNewRecord trigger does not support calls to control add-in methods and properties because the trigger is invoked before the page is instantiated. For more information see, [Exposing Methods and Properties in a Windows Client Control Add-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
+>  The OnNewRecord trigger does not support calls to control add-in methods and properties because the trigger is invoked before the page is instantiated. <!-- For more information see, [Exposing Methods and Properties in a Windows Client Control Add-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  -->
   
 ## See Also  
  [Triggers](devenv-triggers.md)

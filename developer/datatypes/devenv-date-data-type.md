@@ -1,7 +1,11 @@
 ---
 title: "Date Data Type"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: b179c72d-48ea-4015-bb76-c60a3b459c70
 caps.latest.revision: 21
-author: SusanneWindfeldPedersen
 ---
 # Date Data Type
 Denotes a date ranging from January 1, 1753 to December 31, 9999.  
@@ -43,13 +46,13 @@ The methods supported for the Date data type are:
 [CLOSINGDATE method (Date)](../methods/devenv-closingdate-method-date.md)   
 [DATE2DMY method (Date)](../methods/devenv-date2dmy-method-date.md)   
 [DATE2DWY method (Date)](../methods/devenv-date2dwy-method-date.md)   
-[DATI2VARIANT method](../methods/devenv-dati2variant-method.md)   
 [DMY2DATE method (Date)](../methods/devenv-dmy2date-method-date.md)   
 [DWY2DATE method (Date)](../methods/devenv-dwy2date-method-date.md)   
 [NORMALDATE method (Date)](../methods/devenv-normaldate-method-date.md)   
 [TODAY method (Date)](../methods/devenv-today-method-date.md)   
 [VARIANT2DATE method](../methods/devenv-variant2date-method.md)   
 [WORKDATE method (Date)](../methods/devenv-workdate-method-date.md)
+<!--[DATI2VARIANT method](../articles/devenv-methods-not-supported/devenv-dati2variant-method.md)  --> 
 
 ## Example  
  This example shows valid assignments of Dates. It requires that you define the following variable.  

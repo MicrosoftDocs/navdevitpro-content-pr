@@ -26,7 +26,7 @@ authoer: SusanneWindfeldPedersen
 |RequestOptionsPage|This variable specifies the request options page for the current report.|  
 |CurrFieldNo|This variable specifies the field number of the current field in the current page. Retained for compatibility reasons.| 
 
-In addition, some triggers, such as the [OnFormat](triggers/devenv-onformat-trigger.md) trigger of a control, have a parameter that is defined as a local variable.  
+In addition, some triggers, such as the OnFormat Trigger, trigger of a control, have a parameter that is defined as a local variable.   
 
 ## Example  
  The following example shows how to use the Rec and xRec pair of records.  
@@ -42,5 +42,5 @@ In addition, some triggers, such as the [OnFormat](triggers/devenv-onformat-trig
 -   If the order has shipped, compare the customer number fields in the Rec and xRec records. If they differ, reject the change.  
 
 ## See Also  
- [AL Methods](methods/devenv-al-methods.md)   
- [Properties](properties/devenv-properties-overview.md)
+ [AL Method Reference](methods/devenv-al-method-reference.md)   
+ [Properties](properties/devenv-properties.md)

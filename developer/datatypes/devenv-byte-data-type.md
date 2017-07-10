@@ -1,7 +1,11 @@
 ---
 title: "Byte Data Type"
+decription: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 66cf2909-97b3-4cf5-a3c9-8b8c55db553d
 caps.latest.revision: 3
-author: SusanneWindfeldPedersen
 ---
 # Byte Data Type
 Use this simple data type to store a single, 8-bit character as a value in the range 0 to 255. You can easily convert this data type from a number to a character and vice versa. This means you can use mathematical operators on Byte variables.  
@@ -39,4 +42,3 @@ MyText[5] := 'e';
 [AL Data Types](devenv-al-data-types.md)  
 [Text Data Type](devenv-text-data-type.md)   
 [Code Data Type](devenv-code-data-type.md)  
-[Byte Data Type](devenv-byte-data-type.md)

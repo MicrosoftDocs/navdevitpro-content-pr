@@ -1,7 +1,11 @@
 ---
 title: "MediaSet Data Type"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/08/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: f9d59da2-cc6c-43ae-8d67-3d0f123ab931
 caps.latest.revision: 4
-author: SusanneWindfeldPedersen
 ---
 # MediaSet Data Type
 A complex type that encapsulates media, such as images, in application database tables. The **MediaSet** data type can be used as a table field data type, but cannot be used as variable or parameter.  
