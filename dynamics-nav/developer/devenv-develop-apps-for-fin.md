@@ -55,7 +55,7 @@ To get started with development, you must have a some necessary accounts in plac
 When developing your app you need to think about some technical aspects.  
 If earlier you were building apps as Extensions v1.0 in the classic development tools of Dynamics NAV and you want to publish apps today we ask you to familiarize yourself with the information on [aka.ms/AppsForFinancials](http://aka.ms/AppsForFinancials).  
 In any other case we believe you should familiarize yourself with the development tools for Dynamics 365 for Financials which is in preview. With this toolset you will be able to build Extensions v2.0.
-Extensions v2.0 have lots of benefits and will be enabled in the Dynamics 365 for Financials service soon. Learn more about Extensions 2.0 here and the new development tools [here](https://docs.microsoft.com/en-us/dynamics365/developerbe/devenv-dev-overview?branch=master).  
+Extensions v2.0 have lots of benefits and will be enabled in the Dynamics 365 for Financials service soon. Learn more about Extensions 2.0 here and the new development tools [here](devenv-get-started.md).  
 You also need to spend some time on how to best market your app on Microsoft Appsource. Simply listing your app's features and functionality will not convert prospects to buyers. Learn how to develop the [Marketing aspects](https://go.microsoft.com/fwlink/?linkid=841518) of your app.
 
 #### 3)	Ready for publication?  
