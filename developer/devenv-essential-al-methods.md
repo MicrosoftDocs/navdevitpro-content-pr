@@ -1,4 +1,4 @@
---
+---
 title: "Essential AL Methods"
 ms.custom: na
 ms.date: 07/06/2017
@@ -10,7 +10,7 @@ ms.prod: "dynamics-365-financials"
 ms.assetid: 5b6983ee-0991-4734-9e25-9b550de6958f
 caps.latest.revision: 6
 author: jswymer
---
+---
 # Essential AL Methods
 Although there are hundreds of methods in AL, there are several methods that you will use more often than the others. This does not mean that the rest of the methods are obsolete or that you will never use them. However, it does mean that if you are very familiar with this small set of essential methods, you will be able to accomplish many tasks when you are programming in AL. When you want to add more specialized functionality to your applications, you can learn about more of the methods.  
 
