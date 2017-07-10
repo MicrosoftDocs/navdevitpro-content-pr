@@ -1,7 +1,11 @@
 ---
 title: "OnModifyRecord Trigger"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/19/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,7 +31,7 @@ Executed before a record is modified in the table.
 ## Return Value  
  *Ok*  
   
- (Boolean) Indicates whether a record should be modified. The return value is checked after each  call. If **True**, the record is modified (default). If **false**, the record is not modified.  
+ (Boolean) Indicates whether a record should be modified. The return value is checked after each  call. If **true**, the record is modified (default). If **false**, the record is not modified.  
   
 ## Applies To  
   

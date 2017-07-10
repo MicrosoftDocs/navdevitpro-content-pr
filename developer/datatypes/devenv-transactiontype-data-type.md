@@ -1,7 +1,11 @@
 ---
 title: "TransactionType Data Type"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/08/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 077f3272-7f80-43a0-8437-6dda48f65f42
 caps.latest.revision: 6
-author: SusanneWindfeldPedersen
 ---
 # TransactionType Data Type
 Use variables of this complex data type to store the current transaction type. You can then use the value to set the transaction type. You can only change the transaction type when there is no current transaction (immediately after a commit).  
