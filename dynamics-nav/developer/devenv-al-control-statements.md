@@ -239,16 +239,6 @@ end
 The following AL code prints various messages depending on the value of *Number*. If the value of *Number* does not match any of the entries in the case structure, then the else entry is used as the default.  
  
 
-```  
-case Number of  
-  1,2,9:  
-    MESSAGE('1, 2, or 9.');  
-  10..100:  
-    MESSAGE('In the range from 10 to 100.');  
-  else  
-    MESSAGE('Neither 1, 2, 9, nor in the range from 10 to 100.');  
-end  
-```  
 #### Example  
 The following AL code shows how value sets in a case statement are evaluated if the expression is a Code data type.
 
@@ -264,7 +254,7 @@ else
 end
 ```
 
-This example requires that you create the following code fata type variable.
+This example requires that you create the following code data type variable.
 
 ```
 var
