@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
 # Update sales quote line
-Update the properties of a salesQuoteLine object for Dynamics 365 for Financials.
+Update the properties of a sales quote line object for Dynamics 365 for Financials.
 
 ## HTTP request
 

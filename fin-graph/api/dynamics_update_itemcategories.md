@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
 # Update item categories
-Update the properties of an itemCategories object for Dynamics 365 for Financials.
+Update the properties of an item categories object for Dynamics 365 for Financials.
 
 ## HTTP request
 
