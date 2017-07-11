@@ -29,7 +29,7 @@ Represents an employee in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The employee ID. Read-Only.|
+|id|GUID|The employee ID. Non-editable.|
 |number|string|The employee number. Read-Only.|
 |displayName|string|The employee givenName + surname. Read-Only.|
 |givenName|string|The given name of the employee.|

@@ -29,7 +29,7 @@ Represents a sales order in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The order ID. Read-Only.|
+|id|GUID|The order ID. Non-editable.|
 |number|string, maximum size 20|The order number. Read-Only.|
 |orderDate|date|The order date|
 |customerId|GUID|The id of the order customer.|

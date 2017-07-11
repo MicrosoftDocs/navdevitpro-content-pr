@@ -29,7 +29,7 @@ Represents a line in a journal in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the journal line. Read-Only.|
+|id|GUID|The unique ID of the journal line. Non-editable.|
 |journalDisplayName|string, maximum size 10|The display name of the journal that this line belongs to. Read-Only.|
 |lineNumber|integer|The number of the journal line.|
 |accountId|GUID|The unique ID of the account that the journal line is related to.|
