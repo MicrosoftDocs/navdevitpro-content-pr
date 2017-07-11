@@ -234,7 +234,7 @@ case Field of
   end;  
 end  
 ```  
-
+<!--
 #### Example  
 The following AL code prints various messages depending on the value of *Number*. If the value of *Number* does not match any of the entries in the case structure, then the else entry is used as the default.  
  
