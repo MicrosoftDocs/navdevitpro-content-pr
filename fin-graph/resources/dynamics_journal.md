@@ -29,7 +29,7 @@ Represents a journal in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the journal. Read-Only.|
+|id|GUID|The unique ID of the journal. Non-editable.|
 |code|string, maximum size 10| The code of the journal.|
 |displayName|string, maximum size 50| The display name of the journal.|
 |lastModifiedDateTime|datetime|The last datetime the journal was modified. Read-Only.|

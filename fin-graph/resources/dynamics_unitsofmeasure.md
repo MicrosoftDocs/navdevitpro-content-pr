@@ -29,7 +29,7 @@ Represents a unitsOfMeasure object in Dynamics 365 for Financials which is a sta
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the unitsOfMeasure. Read-Only.|
+|id|GUID|The unique ID of the unitsOfMeasure. Non-editable.|
 |code|string|Specifies the code for the Unit of Measure.|
 |displayName|string|Specifies the Unit of Measure's display name.|
 |internationalStandardCode|string|Specifies the unit of measure code expressed according to the UNECE Rec20 standard in connection with electronic sending of sales documents.|
