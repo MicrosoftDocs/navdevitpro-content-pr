@@ -30,7 +30,7 @@ You decide whether you want to **connect** to your existing service or **extend*
 [![Community](media/CustomerTestimonials.png)](https://www.youtube.com/watch?v=ptL3QXuoLW4&list=PLcakwueIHoT9tZzsgDLpBixftGfnymAyz&index=2 "Customers")
 
 ## Want to try it out?
-It's easy! Just spin up a sandbox environment by going through these steps. 
+It's easy. Just sign up by following these steps.
 
 1) First, you will need an Azure subscription, sign up for a free subscription.  
 2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).  
@@ -39,7 +39,7 @@ It's easy! Just spin up a sandbox environment by going through these steps.
 > [!NOTE] Build and get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
 
 <!-- Developer sandbox
-
+It's easy! Just spin up a sandbox environment by going through these steps.
 1) Sign up for [Dynamics 365 for Financials]()  
 2) Download [Visual Studio Code](https://code.visualstudio.com/Download)  
 3) Download the [AL Language extension](vscode:extension/ms-dynamics-smb.al)  
