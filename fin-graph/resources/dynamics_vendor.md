@@ -29,7 +29,7 @@ Represents a vendor in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the vendor. Read-Only.|
+|id|GUID|The unique ID of the vendor. Non-editable.|
 |number|string|The vendor number.|
 |displayName|string|The vendor's display name.|
 |address|[NAV.PostalAddress](../resources/dynamics_complex_types.md)|The vendor's address.|

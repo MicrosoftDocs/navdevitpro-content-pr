@@ -30,7 +30,7 @@ Represents a method of shipment in Dynamics 365 for Financials, such as UPS, Fed
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the shipmentMethod. Read-Only.|
+|id|GUID|The unique ID of the shipmentMethod. Non-editable.|
 |code|string|Specifies the shipment method code.|
 |displayName|string|Specifies the shipment method display name.|
 |lastModifiedDateTime|datetime|The last datetime the shipment method was modified. Read-Only.|  
