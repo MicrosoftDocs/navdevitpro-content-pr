@@ -50,21 +50,6 @@ Creates, runs, and closes a specified page object. When a page is run modally, n
 
  Specifies what action the user took on the page. The following table shows the possible return values for the different user actions.
 
- <!--NAV
-In some cases, the actions for the return values are different when the page displays in the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] than in the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)].  
-
-|Return value|[!INCLUDE[nav_windows](../includes/nav_windows_md.md)]|[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]|  
-|------------------|-------------------------------|---------------------------|  
-|OK|To close the page window, the user does one of the following:<br /><br /> -   Chooses the **OK** button.<br />-   Chooses the **X** button when there was no **Cancel** button on the window.<br />-   Presses the Esc key when there is no **Cancel** button on the window.|To close the page window, the user does one of the following:<br /><br /> -   Chooses the **Close** button.<br />-   Chooses the **X** button when there is no **Cancel** button on the window.|  
-|Cancel|To close the page window, the user does one of the following:<br /><br /> -   Chooses the **Cancel** button.<br />-   Chooses the **X** button when there is a **Cancel** button on the window.<br />-   Presses the Esc key when there is a **Cancel** button on the window.|To close the page window, the user does one of the following:<br /><br /> -   Chooses the **Cancel** button.<br />-   Chooses the **X** button when there is a **Cancel** button on the window.|  
-|LookupOK|To close a lookup window, the user does one of the following:<br /><br /> -   Chooses the **OK** button.<br />-   Chooses an item in the Lookup window.|To close a lookup window, the user chooses the **OK** button.|  
-|LookupCancel|To close a lookup window, the user chooses the **Cancel** button.|Same as [!INCLUDE[nav_windows](../includes/nav_windows_md.md)].|  
-|Yes|To close a confirmation window, the user selects **Yes**.|Same as [!INCLUDE[nav_windows](../includes/nav_windows_md.md)].|  
-|No|To close a confirmation window, the user does one of the following:<br /><br /> -   Chooses the **No** button.<br />-   Chooses the **X** button.<br />-   Presses the Esc key.|To close a confirmation window, the user does one of the following:<br /><br /> -   Chooses the **No** button.<br />-   Chooses the **X** button.|  
-|RunObject|The user selected an option that ran another [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] object.|Same as [!INCLUDE[nav_windows](../includes/nav_windows_md.md)].|  
-|RunSystem|The user selected an option that ran an external program.|Same as [!INCLUDE[nav_windows](../includes/nav_windows_md.md)].|  
--->
-
 |  Return value  |  Description  |  
 |----------------|---------------|  
 |OK|To close the page window, the user does one of the following:<br /><br /> -   Chooses the **Close** button.<br />-   Chooses the **X** button when there is no **Cancel** button on the window.|  
