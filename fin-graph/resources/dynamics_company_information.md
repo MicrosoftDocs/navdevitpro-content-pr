@@ -28,7 +28,7 @@ Represents the information specified for the current company in Dynamics 365 for
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the company. Read-Only.|
+|id|GUID|The unique ID of the company. Non-editable.|
 |displayName|string|The company's display name.|
 |address|[NAV.PostalAddress](../resources/dynamics_complex_types.md)|The company's address. View the complex type for additional detail.|
 |phoneNumber|string|The company's telephone number.|
