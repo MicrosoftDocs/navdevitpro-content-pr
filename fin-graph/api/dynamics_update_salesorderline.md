@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
 # Update sales order line
-Update the properties of a salesOrderLine object for Dynamics 365 for Financials.
+Update the properties of a sales order line object for Dynamics 365 for Financials.
 
 ## HTTP request
 

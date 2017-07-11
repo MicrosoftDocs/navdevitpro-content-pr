@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete item categories
-Delete an itemCategories from Dynamics 365 for Financials.
+Delete an item category from Dynamics 365 for Financials.
 
 
 ## HTTP request

@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
 # Update IRS 1099 code
-Update the properties of a irs1099Codes object for Dynamics 365 for Financials.
+Update the properties of an IRS 1099 codes object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
