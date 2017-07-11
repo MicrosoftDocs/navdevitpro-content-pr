@@ -1,12 +1,15 @@
 ---
 title: "OnAfterTestRun Trigger"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/19/2017
+ms.date: 07/07/2017
+ms.author: jswymer
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.author: jswymer
 manager: edupont
 ms.prod: "dynamics-365-financials"
 ---
