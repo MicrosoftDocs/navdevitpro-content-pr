@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
 # Delete tax groups
-Delete a taxGroups from Dynamics 365 for Financials.
+Delete a tax group from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
