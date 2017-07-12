@@ -17,9 +17,6 @@ ms.author: solsen
 # Delete IRS 1099 code
 Delete a irs1099Codes from Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 ```
 DELETE /financials/companies/{id}/irs1099Codes/{id}

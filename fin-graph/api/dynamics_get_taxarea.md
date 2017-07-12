@@ -17,9 +17,6 @@ ms.author: solsen
 # Get tax area
 Retrieve the properties and relationships of a tax area object for Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 
 ```

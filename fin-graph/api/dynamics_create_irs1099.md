@@ -17,9 +17,6 @@ ms.author: solsen
 # Create IRS 1099 code
 Create a irs1099Codes in Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 ```
 POST /financials/companies/{id}/irs1099Codes

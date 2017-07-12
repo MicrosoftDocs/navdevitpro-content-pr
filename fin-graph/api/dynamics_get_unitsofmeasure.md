@@ -17,9 +17,6 @@ ms.author: solsen
 # Get unit of measure
 Retrieve the properties and relationships of a units of measure object for Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 
 ```

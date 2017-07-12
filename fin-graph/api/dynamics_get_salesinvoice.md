@@ -17,9 +17,6 @@ ms.author: solsen
 # Get sales invoice
 Retrieve the properties and relationships of a sales object for Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 
 ```

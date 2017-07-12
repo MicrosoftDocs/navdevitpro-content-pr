@@ -17,9 +17,6 @@ ms.author: solsen
 # Delete journal line
 Delete a journal line from Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 ```
 DELETE /financials/companies/{id}/journals/{ID}/journalLines/{id}

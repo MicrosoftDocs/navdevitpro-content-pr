@@ -18,9 +18,6 @@ ms.author: solsen
 Update the properties of an employee object for Dynamics 365 for Financials.
 
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 
 ```

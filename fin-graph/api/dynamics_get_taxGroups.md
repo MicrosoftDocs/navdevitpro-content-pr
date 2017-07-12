@@ -17,9 +17,6 @@ ms.author: solsen
 # Get tax groups
 Retrieve the properties and relationships of a tax groups object for Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 
 ```

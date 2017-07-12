@@ -17,9 +17,6 @@ ms.author: solsen
 # Get shipment method
 Retrieve the properties and relationships of a shipment methods object for Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 
 ```
