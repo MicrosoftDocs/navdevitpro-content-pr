@@ -17,9 +17,6 @@ ms.author: solsen
 # Create payment method
 Create a paymentMethods in Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 ```
 POST /financials/companies/{id}/paymentMethods

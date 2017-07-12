@@ -17,9 +17,6 @@ ms.author: solsen
 # Create sales order line
 Create a salesOrder in Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 
 ```

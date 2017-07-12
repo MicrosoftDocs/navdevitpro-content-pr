@@ -17,9 +17,6 @@ ms.author: solsen
 # Update customer payments
 Update the properties of a customer payments object for Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 
 ```

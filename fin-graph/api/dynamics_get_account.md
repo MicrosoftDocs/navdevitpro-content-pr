@@ -18,9 +18,6 @@ ms.author: solsen
 Retrieve the properties and relationships of an account object for Dynamics 365 for Financials.
 
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 ```
 GET /financials/companies/{id}/accounts/{id}

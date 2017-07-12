@@ -17,9 +17,6 @@ ms.author: solsen
 # Get trial balance
 Retrieve the properties and relationships of a trial balance report object for Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 ```
 GET /financials/companies/{id}/trialBalance

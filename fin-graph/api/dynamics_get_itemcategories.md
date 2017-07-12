@@ -17,9 +17,6 @@ ms.author: solsen
 # Get item categories
 Retrieve the properties and relationships of an item categories object for Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 
 ```

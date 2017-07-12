@@ -17,9 +17,6 @@ ms.author: solsen
 # Delete payment terms
 Delete a payment term from Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 ```
 DELETE /financials/companies/{id}/paymentTerms/{id}

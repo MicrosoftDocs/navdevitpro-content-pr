@@ -17,9 +17,6 @@ ms.author: solsen
 # Update shipment method
 Update the properties of a shipment methods object for Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 ```
 PATCH /financials/companies/{id}/shipmentMethods/{id}

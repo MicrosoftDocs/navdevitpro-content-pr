@@ -17,9 +17,6 @@ ms.author: solsen
 # Update purchase invoice line
 Update the properties of a purchase invoice line object for Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 
 ```
