@@ -27,7 +27,7 @@ AL simple statements are single-line statements that are executed sequentially a
 -   [AL WITH Statements](devenv-al-with-statements.md)-->
 
 ## Assignment statements
-Assignment statements assign a value to a variable. The value that you assign to the variable is a AL expression. It can be a constant or a variable, or it can consist of multiple elements of AL expressions. If you use a method call as the value to assign to a variable in an assignment statement, then the value that is assigned is the return value of the method.  
+Assignment statements assign a value to a variable. The value that you assign to the variable is an AL expression. It can be a constant or a variable, or it can consist of multiple elements of AL expressions. If you use a method call as the value to assign to a variable in an assignment statement, then the value that is assigned is the return value of the method.  
 
  You use the ":=" operator for assignment statements.  
 
