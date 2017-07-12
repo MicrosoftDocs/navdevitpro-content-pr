@@ -18,6 +18,9 @@ ms.author: solsen
 Update the properties of a company information object for Dynamics 365 for Financials.
 
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 ```
 PATCH /financials/companies/{id}/companyInformation/{id}
@@ -26,7 +29,7 @@ PATCH /financials/companies/{id}/companyInformation/{id}
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization |Bearer. Required.|
+|Authorization |Bearer {token}. Required.|
 |Content-Type  |application/json|
 |If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the companyInformation, the companyInformation will not be updated. |
 

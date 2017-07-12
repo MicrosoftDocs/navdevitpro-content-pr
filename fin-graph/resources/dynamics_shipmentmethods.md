@@ -1,5 +1,5 @@
 ---
-title: Shipment Method resource type | Microsoft Docs
+title: shipmentMethod resource type | Microsoft Docs
 description: A Shipment Method.
 services: project-madeira
 documentationcenter: ''
@@ -14,9 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Shipment method resource type
+# shipmentMethod resource type
 Represents a method of shipment in Dynamics 365 for Financials, such as UPS, Fedex, and DHL.
-
 
 ## Methods
 

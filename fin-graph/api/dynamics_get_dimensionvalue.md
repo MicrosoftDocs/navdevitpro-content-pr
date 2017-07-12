@@ -19,6 +19,9 @@ Retrieve the properties and relationships of a dimension value object for Dynami
 
 ## Prerequisites
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 
 ```
@@ -28,7 +31,7 @@ GET /financials/companies/{id}/dimensions/{id}/dimensionValues{id}
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.

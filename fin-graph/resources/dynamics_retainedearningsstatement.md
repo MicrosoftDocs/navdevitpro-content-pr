@@ -1,5 +1,5 @@
 ---
-title: RetainedEarningsStatement resource type | Microsoft Docs
+title: retainedEarningsStatement resource type | Microsoft Docs
 description: A RetainedEarningsStatement.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Retained earnings statement resource type
+# retainedEarningsStatement resource type
 Represents an retained earnings statement in Dynamics 365 for Financials.
 
 ## Methods

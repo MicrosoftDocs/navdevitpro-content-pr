@@ -17,6 +17,9 @@ ms.author: solsen
 # Get employee
 Retrieve the properties and relationships of an employee object for Dynamics 365 for Financials.
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 ```
 GET /financials/companies/{id}/employees/{id}
@@ -25,7 +28,7 @@ GET /financials/companies/{id}/employees/{id}
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.

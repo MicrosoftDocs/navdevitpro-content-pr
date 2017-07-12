@@ -1,5 +1,5 @@
 ---
-title: Purchase Invoice resource type | Microsoft Docs
+title: purchaseInvoice resource type | Microsoft Docs
 description: A Purchase Invoice.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Purchase invoice resource type
+# purchaseInvoice resource type
 Represents a purchase invoice in Dynamics 365 for Financials. 
 
 ## Methods
