@@ -17,9 +17,6 @@ ms.author: solsen
 # Update IRS 1099 code
 Update the properties of an IRS 1099 codes object for Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 ```
 PATCH /financials/companies/{id}/irs1099Codes/{id}

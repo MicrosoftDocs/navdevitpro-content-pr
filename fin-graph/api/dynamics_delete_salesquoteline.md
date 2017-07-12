@@ -17,9 +17,6 @@ ms.author: solsen
 # Delete sales quote line
 Delete a sales quote line from Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 ```
 DELETE /financials/companies/{id}/salesQuotes/{id}/salesQuoteLines(documentId={id},sequence={number})

@@ -19,9 +19,6 @@ Retrieve the properties and relationships of a sales order line object for Dynam
 
 ## Prerequisites
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 
 ```

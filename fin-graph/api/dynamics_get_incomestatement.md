@@ -17,9 +17,6 @@ ms.author: solsen
 # Get income statement
 Retrieve the properties and relationships of an income statement report object for Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 ```
 GET /financials/companies/{id}/incomeStatement

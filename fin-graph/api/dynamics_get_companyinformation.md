@@ -17,9 +17,6 @@ ms.author: solsen
 # Get company information
 Retrieve the properties and relationships of an company information object for Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 ```
 GET /financials/companies/{id}/companyInformation/{id}

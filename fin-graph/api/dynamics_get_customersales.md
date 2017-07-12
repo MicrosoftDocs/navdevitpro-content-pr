@@ -17,9 +17,6 @@ ms.author: solsen
 # Get customer sales
 Retrieve the properties and relationships of a customer sales report object for Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 ```
 GET /financials/companies/{id}/customerSales

@@ -17,9 +17,6 @@ ms.author: solsen
 # Update countries/regions
 Update the properties of a countries regions object for Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 ```
 PATCH /financials/companies/{id}/countriesRegions/{id}

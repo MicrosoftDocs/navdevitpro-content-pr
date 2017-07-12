@@ -17,9 +17,6 @@ ms.author: solsen
 # Delete sales order line
 Delete a sales order line from Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 ```
 DELETE /financials/companies/{id}/salesOrders/{id}/salesOrderLines(documentId={id},sequence={number})

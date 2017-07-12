@@ -17,9 +17,6 @@ ms.author: solsen
 # Create journal
 Creates a journal in Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 
 ```

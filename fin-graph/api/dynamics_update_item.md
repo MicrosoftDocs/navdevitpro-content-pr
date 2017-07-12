@@ -17,9 +17,6 @@ ms.author: solsen
 # Update item
 Update the properties of an item object for Dynamics 365 for Financials.
 
-## Prerequisites
-One of the following **scopes** is required to execute this API: 
-
 ## HTTP request
 ```
 PATCH /financials/companies/{id}/items/{id}
