@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.prod: "dynamics-nav-2017"
 ---
 # Notification Data Type
-A complex type for publishing and consuming notifications in the application. Notifications provide a programmatic way to send non-intrusive information to the user interface (UI).
+A complex type for publishing and consuming notifications in the application. Notifications provide a programmatic way to send non-intrusive information to the User Interface (UI).
 
 ## Methods
 The following methods are supported for the Notifications data type:
