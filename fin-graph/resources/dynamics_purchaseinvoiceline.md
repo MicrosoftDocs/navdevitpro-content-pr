@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# PurchaseInvoiceLine resource type
+# purchaseInvoiceLine resource type
 Represents a line on a purchase invoice in Dynamics 365 for Financials.
 
 ## Methods

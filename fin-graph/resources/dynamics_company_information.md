@@ -1,5 +1,5 @@
 ---
-title: Company Information resource type | Microsoft Docs
+title: companyInformation resource type | Microsoft Docs
 description: Company Information.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Company information resource type
+# companyInformation resource type
 Represents the information specified for the current company in Dynamics 365 for Financials, such as name, address, email address, and website address.
 
 ## Methods

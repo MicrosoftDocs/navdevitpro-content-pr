@@ -17,6 +17,9 @@ ms.author: solsen
 # Delete tax groups
 Delete a tax group from Dynamics 365 for Financials.
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 ```
 DELETE /financials/companies/{id}/taxGroups/{id}
@@ -25,7 +28,7 @@ DELETE /financials/companies/{id}/taxGroups/{id}
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the taxGroup, the taxGroup will not be updated. |
 
 ## Request body

@@ -19,6 +19,9 @@ Retrieve the properties and relationships of a sales quote line object for Dynam
 
 ## Prerequisites
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 
 ```
@@ -28,7 +31,7 @@ GET /financials/companies/{id}/salesQuotes/{id}/salesQuoteLines(documentId={id},
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.

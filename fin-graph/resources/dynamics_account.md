@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Account resource type
+# account resource type
 Represents an account object in Dynamics 365 for Financials.
 
 ## Methods

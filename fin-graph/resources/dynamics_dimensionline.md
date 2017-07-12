@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# DimensionLine resource type
+# cimensionLine resource type
 Represents a dimension line in Dynamics 365 for Financials.
 
 ## Methods

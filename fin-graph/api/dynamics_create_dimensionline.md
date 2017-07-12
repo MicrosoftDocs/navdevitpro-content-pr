@@ -17,6 +17,9 @@ ms.author: solsen
 # Create dimension line
 Create a dimensionLine in Dynamics 365 for Financials.
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 
 ```
@@ -27,7 +30,7 @@ POST /financials/companies/{id}/dimensionLines
 
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required.    |
+|Authorization  |Bearer {token}. Required.    |
 |Content-Type  |application/json    |
 
 ## Request body
@@ -73,4 +76,4 @@ Content-type: application/json
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](dynamics_overview.md)
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

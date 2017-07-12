@@ -17,6 +17,9 @@ ms.author: solsen
 # Delete purchase invoice line
 Delete a purchase invoice line from Dynamics 365 for Financials.
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 ```
 DELETE /financials/companies/{id}/purchaseInvoices/{id}/purchaseInvoiceLines(documentId={id},sequence={number})
@@ -25,7 +28,7 @@ DELETE /financials/companies/{id}/purchaseInvoices/{id}/purchaseInvoiceLines(doc
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the purchase invoice line, the purchase invoice line will not be deleted. |
 
 ## Request body

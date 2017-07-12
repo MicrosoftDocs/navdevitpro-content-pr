@@ -1,5 +1,5 @@
 ---
-title: customer payment resource type | Microsoft Docs
+title: customerPayment resource type | Microsoft Docs
 description: A customer payment.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Customer payment resource type
+# customerPayment resource type
 Represents a customer payment in Dynamics 365 for Financials.
 
 ## Methods

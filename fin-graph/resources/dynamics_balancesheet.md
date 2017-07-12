@@ -1,5 +1,5 @@
 ---
-title: BalanceSheet resource type | Microsoft Docs
+title: balanceSheet resource type | Microsoft Docs
 description: A BalanceSheet.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Balance sheet resource type
+# balanceSheet resource type
 Represents a balanceSheet object in Dynamics 365 for Financials. A balance sheet is a statement of the assets, liabilities, and capital of a business at a specific point in time.
 
 ## Methods

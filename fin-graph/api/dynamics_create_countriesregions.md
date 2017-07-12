@@ -17,6 +17,9 @@ ms.author: solsen
 # Create countries/regions
 Create a countriesRegions in Dynamics 365 for Financials.
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 ```
 POST /financials/companies/{id}/countriesRegions
@@ -24,7 +27,7 @@ POST /financials/companies/{id}/countriesRegions
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 |Content-Type  |application/json   |
 
 ## Request body

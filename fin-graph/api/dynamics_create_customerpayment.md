@@ -18,6 +18,9 @@ ms.author: solsen
 # Create customer payment
 Creates a customer payment in Dynamics 365 for Financials.
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 ```
 POST /financials/companies/{id}/customerPayments/{id}
@@ -26,7 +29,7 @@ POST /financials/companies/{id}/customerPayments/{id}
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required.    |
+|Authorization  |Bearer {token}. Required.    |
 |Content-Type  |application/json    |
 
 ## Request body

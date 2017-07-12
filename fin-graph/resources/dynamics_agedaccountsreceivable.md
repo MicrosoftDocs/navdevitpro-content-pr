@@ -1,5 +1,5 @@
 ---
-title: AgedAccountsReceivable resource type | Microsoft Docs
+title: agedAccountsReceivable resource type | Microsoft Docs
 description: A AgedAccountsReceivable.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Aged accounts receivable resource type
+# agedAccountsReceivable resource type
 Represents an agedAccountsReceivable object in Dynamics 365 for Financials, which is showing the aging of a customer account.
 
 ## Methods

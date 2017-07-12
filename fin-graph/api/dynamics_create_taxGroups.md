@@ -17,6 +17,9 @@ ms.author: solsen
 # Create tax groups
 Create a taxGroups in Dynamics 365 for Financials.
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 ```
 POST /financials/companies/{id}/taxGroups
@@ -26,7 +29,7 @@ POST /financials/companies/{id}/taxGroups
 
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 |Content-Type  |application/json   |
 
 ## Request body

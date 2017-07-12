@@ -17,6 +17,9 @@ ms.author: solsen
 # Get journal line
 Retrieve the properties and relationships of a journal line object for Dynamics 365 for Financials.
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 
 ```
@@ -26,7 +29,7 @@ GET /financials/companies/{id}/journals/{ID}/journalLines/{id}
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.

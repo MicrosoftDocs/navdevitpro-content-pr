@@ -1,5 +1,5 @@
 ---
-title: Employee resource type | Microsoft Docs
+title: employee resource type | Microsoft Docs
 description: An Employee.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Employee resource type
+# employee resource type
 Represents an employee in Dynamics 365 for Financials.
 
 ## Methods
