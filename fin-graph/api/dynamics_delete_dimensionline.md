@@ -17,6 +17,9 @@ ms.author: solsen
 # Delete dimension line
 Delete a dimension line from Dynamics 365 for Financials.
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 ```
 DELETE /financials/companies/{id}/dimensionLines(parentId={id},id={id})
@@ -25,7 +28,7 @@ DELETE /financials/companies/{id}/dimensionLines(parentId={id},id={id})
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the dimension line, the dimension line will not be updated. |
 
 ## Request body

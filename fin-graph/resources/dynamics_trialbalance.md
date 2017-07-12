@@ -1,5 +1,5 @@
 ---
-title: TrialBalance resource type | Microsoft Docs
+title: trialBalance resource type | Microsoft Docs
 description: A TrialBalance.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Trial balance resource type
+# trialBalance resource type
 Represents an trial balance in Dynamics 365 for Financials.
 
 ## Methods

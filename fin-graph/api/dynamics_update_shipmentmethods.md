@@ -17,6 +17,9 @@ ms.author: solsen
 # Update shipment method
 Update the properties of a shipment methods object for Dynamics 365 for Financials.
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 ```
 PATCH /financials/companies/{id}/shipmentMethods/{id}
@@ -25,7 +28,7 @@ PATCH /financials/companies/{id}/shipmentMethods/{id}
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization |Bearer. Required.|
+|Authorization |Bearer {token}. Required.|
 |Content-Type  |application/json|
 |If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the shipmentMethods, the shipmentMethods will not be updated. |
 

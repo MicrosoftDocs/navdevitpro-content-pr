@@ -1,5 +1,5 @@
 ---
-title: CustomerSales resource type | Microsoft Docs
+title: customerSales resource type | Microsoft Docs
 description: A CustomerSales.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Customer sales statement resource type
+# customerSales resource type
 Represents an customer sales in Dynamics 365 for Financials.
 
 ## Methods

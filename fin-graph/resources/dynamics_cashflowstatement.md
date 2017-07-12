@@ -1,5 +1,5 @@
 ---
-title: CashFlowStatement resource type | Microsoft Docs
+title: cashFlowStatement resource type | Microsoft Docs
 description: A CashFlowStatement.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Cash flow statement resource type
+# cashFlowStatement resource type
 Represents an cashFlowStatement object in Dynamics 365 for Financials.
 
 ## Methods

@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# SalesQuoteLine resource type
+# salesQuoteLine resource type
 Represents a salesQuoteLine resource type in Dynamics 365 for Financials.
 
 ## Methods

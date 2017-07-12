@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Item resource type
+# item resource type
 Represents an item in Dynamics 365 for Financials.
 
 ## Methods

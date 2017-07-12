@@ -17,6 +17,9 @@ ms.author: solsen
 # Update IRS 1099 code
 Update the properties of an IRS 1099 codes object for Dynamics 365 for Financials.
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 ```
 PATCH /financials/companies/{id}/irs1099Codes/{id}
@@ -25,7 +28,7 @@ PATCH /financials/companies/{id}/irs1099Codes/{id}
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization |Bearer. Required.|
+|Authorization |Bearer {token}. Required.|
 |Content-Type  |application/json|
 |If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the irs1099Codes, the irs1099Codes will not be updated. |
 

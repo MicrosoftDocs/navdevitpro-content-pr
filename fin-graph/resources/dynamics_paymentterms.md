@@ -1,5 +1,5 @@
 ---
-title: Payment Terms resource type | Microsoft Docs
+title: paymentTerms resource type | Microsoft Docs
 description: A Payment Terms object.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Payment terms resource type
+# paymentTerms resource type
 Represents a payment term in Dynamics 365 for Financials.
 
 ## Methods

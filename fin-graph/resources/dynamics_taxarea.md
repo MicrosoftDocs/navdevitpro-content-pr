@@ -1,5 +1,5 @@
 ---
-title: tax area resource type | Microsoft Docs
+title: taxArea resource type | Microsoft Docs
 description: A tax area.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Tax area resource type
+# taxArea resource type
 Represents a tax area resource type in Dynamics 365 for Financials.
 
 ## Methods

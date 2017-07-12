@@ -1,5 +1,5 @@
 ---
-title: Companies resource type | Microsoft Docs
+title: companies resource type | Microsoft Docs
 description: A Company.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Company resource type
+# companies resource type
 Represents a companies resource type in Dynamics 365 for Financials.
 
 

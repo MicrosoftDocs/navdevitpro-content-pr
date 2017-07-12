@@ -17,6 +17,9 @@ ms.author: solsen
 # Create employee
 Create an employee in Dynamics 365 for Financials.
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 ```
 POST /financials/companies/{id}/employees
@@ -25,7 +28,7 @@ POST /financials/companies/{id}/employees
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required.  |
+|Authorization  |Bearer {token}. Required.  |
 |Content-Type  |application/json  |
 
 ## Request body

@@ -17,6 +17,9 @@ ms.author: solsen
 # Delete sales quote line
 Delete a sales quote line from Dynamics 365 for Financials.
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 ```
 DELETE /financials/companies/{id}/salesQuotes/{id}/salesQuoteLines(documentId={id},sequence={number})
@@ -25,7 +28,7 @@ DELETE /financials/companies/{id}/salesQuotes/{id}/salesQuoteLines(documentId={i
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the salesQuoteLine, the salesQuoteLine will not be updated. |
 
 ## Request body

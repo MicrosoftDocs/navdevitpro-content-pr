@@ -1,5 +1,5 @@
 ---
-title: VendorPurchases resource type | Microsoft Docs
+title: vendorPurchases resource type | Microsoft Docs
 description: A VendorPurchases.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Vendor purchases statement resource type
+# vendorPurchases resource type
 Represents a vendor purchase in Dynamics 365 for Financials.
 
 ## Methods

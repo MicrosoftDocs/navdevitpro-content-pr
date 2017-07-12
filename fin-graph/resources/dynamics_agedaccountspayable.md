@@ -1,5 +1,5 @@
 ---
-title: AgedAccountsPayable resource type | Microsoft Docs
+title: agedAccountsPayable resource type | Microsoft Docs
 description: A AgedAccountsPayable.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Aged accounts payable resource type
+# agedAccountsPayable resource type
 Represents an agedAccountsPayable object in Dynamics 365 for Financials, which is showing the aging of a vendor account.
 
 ## Methods

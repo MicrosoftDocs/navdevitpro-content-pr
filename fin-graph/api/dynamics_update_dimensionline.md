@@ -17,6 +17,9 @@ ms.author: solsen
 # Update cimension line
 Update the properties of a dimension line object for Dynamics 365 for Financials.
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 
 ```
@@ -26,7 +29,7 @@ PATCH /financials/companies/{id}/dimensionLines(parentId={id},id={id})
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization |Bearer. Required.|
+|Authorization |Bearer {token}. Required.|
 |Content-Type  |application/json|
 |If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the dimension line, the dimension line will not be updated. |
 

@@ -17,6 +17,9 @@ ms.author: solsen
 # Update purchase invoice line
 Update the properties of a purchase invoice line object for Dynamics 365 for Financials.
 
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
+
 ## HTTP request
 
 ```
@@ -26,7 +29,7 @@ PATCH /financials/companies/{id}/purchaseInvoices/{id}/purchaseInvoiceLines(docu
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization |Bearer. Required.|
+|Authorization |Bearer {token}. Required.|
 |Content-Type  |application/json|
 |If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the purchaseInvoiceLine, the purchaseInvoiceLine will not be updated. |
 

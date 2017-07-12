@@ -1,5 +1,5 @@
 ---
-title: IncomeStatement resource type | Microsoft Docs
+title: incomeStatement resource type | Microsoft Docs
 description: A IncomeStatement.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Income statement resource type
+# incomeStatement resource type
 Represents an income statement in Dynamics 365 for Financials.
 
 ## Methods
