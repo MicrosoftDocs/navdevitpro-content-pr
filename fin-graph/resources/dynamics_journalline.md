@@ -1,5 +1,5 @@
 ---
-title: journal line resource type | Microsoft Docs
+title: journalLine resource type | Microsoft Docs
 description: A journal line.
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/03/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Journal line resource type
+# JournalLine resource type
 Represents a line in a journal in Dynamics 365 for Financials.
 
 ## Methods

@@ -1,5 +1,5 @@
 ---
-title: Tax Group resource type | Microsoft Docs
+title: taxGroup resource type | Microsoft Docs
 description: A Tax Group.
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Tax Group resource type
+# taxGroup resource type
 Represents a taxGroups resource type in Dynamics 365 for Financials.
 
 

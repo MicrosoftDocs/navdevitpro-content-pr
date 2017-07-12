@@ -10,13 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
 # Delete sales quote
 Delete a sales quote from Dynamics 365 for Financials.
 
+
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
 
 ## HTTP request
 ```
@@ -26,7 +29,7 @@ DELETE /financials/companies/{id}/salesQuotes/{id}
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 |If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the salesQuotes, the salesQuotes will not be updated. |
 
 ## Request body

@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
@@ -18,6 +18,9 @@ ms.author: solsen
 Retrieve the properties and relationships of a sales quote line object for Dynamics 365 for Financials.
 
 ## Prerequisites
+
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
 
 ## HTTP request
 
@@ -28,7 +31,7 @@ GET /financials/companies/{id}/salesQuotes/{id}/salesQuoteLines(documentId={id},
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.

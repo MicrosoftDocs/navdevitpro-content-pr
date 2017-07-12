@@ -1,5 +1,5 @@
 ---
-title: Currency resource type | Microsoft Docs
+title: currency resource type | Microsoft Docs
 description: A Currency object.
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Currency resource type
+# currency resource type
 Represents a currency used in Dynamics 365 for Financials.
 
 ## Methods

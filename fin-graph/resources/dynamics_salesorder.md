@@ -1,5 +1,5 @@
 ---
-title: Sales Order resource type | Microsoft Docs
+title: salesOrder resource type | Microsoft Docs
 description: A Sales Order.
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/03/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Sales order resource type
+# salesOrder resource type
 Represents a sales order in Dynamics 365 for Financials.
 
 ## Methods

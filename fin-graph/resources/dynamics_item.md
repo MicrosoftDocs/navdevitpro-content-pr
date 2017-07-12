@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Item resource type
+# item resource type
 Represents an item in Dynamics 365 for Financials.
 
 ## Methods

@@ -10,12 +10,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
 # Get companies
-Retrieve the properties and relationships of a Companies object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a companies object for Dynamics 365 for Financials.
+
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
 
 ## HTTP request
 ```
@@ -25,7 +28,7 @@ GET /financials/companies
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.

@@ -1,5 +1,5 @@
 ---
-title: Sales Invoice resource type | Microsoft Docs
+title: salesInvoice resource type | Microsoft Docs
 description: A Sales Invoice.
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/03/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Sales invoice resource type
+# salesInvoice resource type
 Represents a sales invoice in Dynamics 365 for Financials. 
 
 ## Methods

@@ -1,5 +1,5 @@
 ---
-title: Complex Types JSON | Microsoft Docs
+title: complex Types JSON | Microsoft Docs
 description: Complex data types JSON.
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/17/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Complex types JSON
+# complex types JSON
 These are the various complex types in Dynamics 365 for Financials. You can see usage of these complex types in the various individual methods that make use of them.
 
 # Item category

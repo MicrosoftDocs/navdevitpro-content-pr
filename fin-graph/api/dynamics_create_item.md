@@ -10,12 +10,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/16/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
 # Create item
 Create an item in Dynamics 365 for Financials for use on invoices, quotes, etc.
+
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
 
 ## HTTP request
 ```
@@ -25,7 +28,7 @@ POST /financials/companies/{id}/items
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required.  |
+|Authorization  |Bearer {token}. Required.  |
 |Content-Type |application/json |
 
 ## Request body

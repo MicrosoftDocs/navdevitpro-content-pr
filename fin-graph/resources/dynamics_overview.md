@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 for Financials Overview | Microsoft Docs
-description: Oveview of the capabilities of Dynamics 365 for Finance and Operations Graph API.
+description: Overview of the capabilities of Dynamics 365 for Finance and Operations Microsoft Graph API.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/16/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
 # Working with Dynamics 365 for Financials in Microsoft Graph
-You can use Microsoft Graph to connect and integrate your web service or SaaS solution with Microsoft Dynamics 365 for Financials. With Microsoft Graph your app gets authorized access to the Microsoft Dynamics 365 for Financials data and lets you design apps that integrate seamlessly. 
+You can use Microsoft Graph to connect and integrate your web service or SaaS solution with Microsoft Dynamics 365 for Financials. With Microsoft Graph, you can build apps that get authorized access to and integrate seamlessly with Microsoft Dynamics 365 for Financials data. 
 
 
 ## Authorization
-Use the Azure AD v.20 endpoint to authenticate Dynamics 365 for Financials APIs. All APIs require the `Authorization: Bearer {access-token}` request header. For more information about authorization, see [Get access tokens to call Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/auth_overview).
+Use the Azure AD v2.0 endpoint to authenticate Dynamics 365 for Financials APIs. All APIs require the `Authorization: Bearer {access-token}` request header. For more information about authorization, see [Get access tokens to call Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/auth_overview).
 
 
 ## Common Dynamics 365 for Financials scenarios
@@ -27,4 +27,6 @@ The Dynamics 365 for Financials API allows you to read and modify business data 
 
 
 ## See also
-[Quick Start](https://developer.microsoft.com/en-us/graph/quick-start)
+
+- [Microsoft Graph quick start](https://developer.microsoft.com/en-us/graph/quick-start)
+- [Microsoft Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)

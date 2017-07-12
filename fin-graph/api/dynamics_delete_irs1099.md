@@ -10,12 +10,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
 # Delete IRS 1099 code
 Delete a irs1099Codes from Dynamics 365 for Financials.
+
+## Prerequisites
+One of the following **scopes** is required to execute this API: 
 
 ## HTTP request
 ```
@@ -26,7 +29,7 @@ DELETE /financials/companies/{id}/irs1099Codes/{id}
 
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
 
 ## Request body

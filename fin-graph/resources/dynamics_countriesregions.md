@@ -1,5 +1,5 @@
 ---
-title: Countries/Regions resource type | Microsoft Docs
+title: countriesRegions resource type | Microsoft Docs
 description: A Countries/Regions.
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Countries/regions resource type
+# countriesRegions resource type
 Represents a countriesRegions object in Dynamics 365 for Financials, which is part of an address.
 
 ## Methods
