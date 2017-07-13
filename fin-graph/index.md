@@ -20,6 +20,8 @@ When you sign up for the Financials preview you get access to a demonstration co
 In this section, you can find information about developing for Dynamics 365 for Financials.
 
 ## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](resources/dynamics_overview.md)  
+
 <!--
 [Working With Financials](../financials/ui-work-product.md)  
 [Setting Up Financials](../financials/setup.md)  
