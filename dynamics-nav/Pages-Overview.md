@@ -132,4 +132,4 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
 ## See Also  
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
  [Actions Overview](Actions-Overview.md)  
- [Developing Extensions Using the New Development Environment - Preview](newdev-dev-overview.md)
+ [Developing Extensions Using the New Development Environment - Preview](devenv-dev-overview.md)

@@ -142,13 +142,13 @@
 #### [Query Triggers](developer/triggers/devenv-query-triggers.md)
 
 <!-- old
-# [Developing Extensions Using the New Development Environment - Preview](newdev-dev-overview.md)
-## [Getting Started](newdev-get-started.md)
-## [Using the Dynamics NAV In-Client Designer](newdev-inclient-designer.md)
-## [Differences in the Dynamics NAV Development Environments](newdev-differences.md)
-## [Keyboard Shortcuts for the New Development Environment](newdev-keyboard-shortcuts.md)
-## [The Txt2Al Conversion Tool](newdev-txt2al-tool.md)
-## [Developer Reference](newdev-reference-overview.md)
+# [Developing Extensions Using the New Development Environment - Preview](devenv-dev-overview.md)
+## [Getting Started](devenv-get-started.md)
+## [Using the Dynamics NAV In-Client Designer](devenv-inclient-designer.md)
+## [Differences in the Dynamics NAV Development Environments](devenv-differences.md)
+## [Keyboard Shortcuts for the New Development Environment](devenv-keyboard-shortcuts.md)
+## [The Txt2Al Conversion Tool](devenv-txt2al-tool.md)
+## [Developer Reference](devenv-reference-overview.md)
 -->
 <!-- end -->
 # [Integrating Dynamics NAV and Microsoft Office](Integrating Dynamics NAV and Office.md)

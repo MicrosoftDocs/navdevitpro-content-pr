@@ -31,5 +31,5 @@ HttpContent.WriteFrom(Value)
 A new HttpContent is constructed with this value and headers from before.
 
 ## See Also
-[Getting Started](newdev-get-started.md)  
-[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
+[Getting Started](devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)

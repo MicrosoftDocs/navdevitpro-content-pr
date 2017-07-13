@@ -33,5 +33,5 @@ Type: Time
 If the JsonValue does not contain a string of the format "HH:mm:ss.FFFFFFF" ( see [Custom Date and Time Format Strings](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)) the operation will fail with a run-time error.
 
 ## See Also
-[Getting Started](newdev-get-started.md)  
-[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
+[Getting Started](devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
