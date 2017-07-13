@@ -20,7 +20,7 @@ ms.prod: "dynamics-nav-2017"
 |Learn about development options for [!INCLUDE[navnowlong](includes/navnowlong_md.md)]|[Development](Development.md)|  
 |Learn about administration tools and processes for [!INCLUDE[navnowlong](includes/navnowlong_md.md)]|[Administration](Administration.md)|  
 |Find reference information, including C/AL functions, triggers, properties, [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] commands, and [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] windows|[Technical Reference](Technical-Reference.md)|  
-|Learn how to develop with the new development environment]|[Getting Started](devenv-get-started.md) |
+|Learn how to develop with the new development environment]|[Getting Started](developer/devenv-get-started.md) |
 
 ## See Also
 [System Requirements for Microsoft Dynamics NAV 2017](System-Requirements-for-Microsoft-Dynamics-NAV.md)  
