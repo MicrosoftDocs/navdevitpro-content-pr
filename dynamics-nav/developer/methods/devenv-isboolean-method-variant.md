@@ -1,7 +1,7 @@
 ---
 title: "ISBOOLEAN Method (Variant)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -31,10 +31,10 @@ Ok := Variant.ISBOOLEAN
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the AL variant contains a Boolean variable; otherwise, **false**.  
+ **True** if the AL variant contains a Boolean variable; otherwise, **false**.  
   
 ## Example  
- The following example determines whether an AL variant contains a Boolean variable. The code initializes the MyBoolean variable with a Boolean value. The MyBoolean variable is assigned to the variant variable that is named MyVariant. The **ISBOOLEAN** method determines whether the variant contains a Boolean variable and stores the return value in the varResult variable. In this case, the variant contains a Boolean variable so **Yes** is returned and displayed in a message box. The Boolean value is obtained from the **Critical** field in the **Item** table. The [ISCODE Method (Variant)](devenv-ISCODE-Method-Variant.md) determines whether the variant contains a code variable. The return value is **No** because the variant does not contain a code. This example requires that you create the following global variables and text constants.  
+ The following example determines whether an AL variant contains a Boolean variable. The code initializes the MyBoolean variable with a Boolean value. The MyBoolean variable is assigned to the variant variable that is named MyVariant. The **ISBOOLEAN** method determines whether the variant contains a Boolean variable and stores the return value in the varResult variable. In this case, the variant contains a Boolean variable so **true** is returned and displayed in a message box. The Boolean value is obtained from the **Critical** field in the **Item** table. The [ISCODE Method (Variant)](devenv-ISCODE-Method-Variant.md) determines whether the variant contains a code variable. The return value is **false** because the variant does not contain a code. This example requires that you create the following global variables and text constants.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -58,4 +58,4 @@ MESSAGE(Text001,MyVariant,varResult);
 ```  
   
 ## See Also  
- [Variant Data Type](../datatypes/devenv-Variant-Data-Type.md)
+ [Variant Data Type](../datatypes/devenv-variant-data-type.md)
