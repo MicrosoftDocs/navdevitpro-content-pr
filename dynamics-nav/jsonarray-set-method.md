@@ -42,5 +42,5 @@ If you omit this optional return value and if the select does not execute succes
 The operation will fail if the *Index* is smaller than 0 or (greater or equal) than JsonArray.Count.
 
 ## See Also
-[Getting Started](newdev-get-started.md)  
-[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
+[Getting Started](devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)

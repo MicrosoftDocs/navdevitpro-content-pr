@@ -48,7 +48,7 @@ You use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to develop [!I
  You use the development environment to create and manage [!INCLUDE[navnow](includes/navnow_md.md)] databases and to upload or change [!INCLUDE[navnow](includes/navnow_md.md)] licenses. However, you cannot use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to administrate your solution. Instead, you use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or the [!INCLUDE[navnow](includes/navnow_md.md)] Windows PowerShell cmdlets.  
 
 ## See Also  
-[Developing Extensions Using the New Development Environment - Preview](newdev-dev-overview.md)  
+[Developing Extensions Using the New Development Environment - Preview](devenv-dev-overview.md)  
  [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)   
  [Administration in the Development Environment](Administration-in-the-Development-Environment.md)   
  [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md)   
