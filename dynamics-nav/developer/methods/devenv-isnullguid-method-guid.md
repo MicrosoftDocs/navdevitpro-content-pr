@@ -1,7 +1,7 @@
 ---
 title: "ISNULLGUID Method (GUID)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -31,7 +31,7 @@ Ok := ISNULLGUID(Guid);
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if a value has been assigned to the GUID; otherwise, **false**.  
+ **True** if a value has been assigned to the GUID; otherwise, **false**.  
   
 ## Remarks  
  The GUID data type is useful when you want to uniquely identify data so that it can be exchanged with external applications. For example, if you want to transfer an item catalog to an external application, you add a GUID field to the record in the table and use it as the primary reference when you communicate with the external application. A GUID is a 16-byte binary data type that can be logically grouped into the following subgroups: 4byte-2byte-2byte-2byte-6byte.  

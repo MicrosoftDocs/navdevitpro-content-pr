@@ -1,7 +1,7 @@
 ---
 title: "ISBYTE Method (Variant)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -30,10 +30,10 @@ Ok := Variant.ISBYTE
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the AL variant contains a Byte data type variable; otherwise, **false**.  
+ **True** if the AL variant contains a Byte data type variable; otherwise, **false**.  
   
 ## Example  
- The following example determines whether an AL variant contains a Byte data type variable. The code initializes the MyByte data type variable with the constant text string **A**. The MyByte variable is assigned to the variant variable that is named MyVariant. The **ISBYTE** method determines whether the variant contains a Byte variable and stores the return value in the varResult variable. In this case, the variant contains a Byte variable so **Yes** is returned and displayed in a message box. This example requires that you create the following global variables and text constants.  
+ The following example determines whether an AL variant contains a Byte data type variable. The code initializes the MyByte data type variable with the constant text string **A**. The MyByte variable is assigned to the variant variable that is named MyVariant. The **ISBYTE** method determines whether the variant contains a Byte variable and stores the return value in the varResult variable. In this case, the variant contains a Byte variable so **true** is returned and displayed in a message box. This example requires that you create the following global variables and text constants.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -53,4 +53,4 @@ MESSAGE(Text000,varResult);
 ```  
   
 ## See Also  
- [Variant Data Type](../datatypes/devenv-Variant-Data-Type.md)
+ [Variant Data Type](../datatypes/devenv-variant-data-type.md)
