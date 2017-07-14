@@ -1,7 +1,7 @@
 ---
 title: "ISACTIVE Method (Debugger)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,7 +27,7 @@ Ok := ISACTIVE
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the debugger is active; otherwise, **false**.  
+ **True** if the debugger is active; otherwise, **false**.  
   
 ## Remarks  
  When the debugger is activated, it is in one of the following states:  

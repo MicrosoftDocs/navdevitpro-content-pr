@@ -1,7 +1,7 @@
 ---
 title: "ISBREAKPOINTHIT Method (Debugger)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,7 +27,7 @@ Ok := ISBREAKPOINTHIT
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if a breakpoint is hit in a debugging session; otherwise, **false**.  
+ **True** if a breakpoint is hit in a debugging session; otherwise, **false**.  
   
 <!--Links
 ## See Also  

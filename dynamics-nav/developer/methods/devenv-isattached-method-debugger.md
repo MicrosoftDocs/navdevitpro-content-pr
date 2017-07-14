@@ -1,7 +1,7 @@
 ---
 title: "ISATTACHED Method (Debugger)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,8 +27,8 @@ Ok := ISATTACHED
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the debugger is attached to a session; otherwise, **false**.  
+ **True** if the debugger is attached to a session; otherwise, **false**.  
   
 ## See Also  
- [ATTACH Method \(Debugger\)](devenv-ATTACH-Method-Debugger.md)   
+ [ATTACH Method \(Debugger\)](devenv-attach-method-debugger.md)   
  <!--Links [How to: Activate the Debugger from the Development Environment](How-to--Activate-the-Debugger-from-the-Development-Environment.md)-->

@@ -24,7 +24,7 @@ Type: Boolean
   
 Specifies whether global methods in the object that contains the event publisher method are exposed to event subscriber methods that subscribe to the event.
 
-**true** exposes the global methods in the object that contains the event publisher function to event subscriber functions; **false** does not. The default value is **false**.
+**True** exposes the global methods in the object that contains the event publisher function to event subscriber functions; **false** does not. The default value is **false**.
 
 When you set the argument to **true**, the signature of event subscriber methods that subscribe to the published event automatically include a VAR parameter for the published event object, as shown in the following example:
 
@@ -37,7 +37,7 @@ Type: Boolean
 
 Specifies whether global variables in the object that contains the event publisher method are accessible to event subscriber methods that subscribe to the published event.
 
-**true** exposes the global variables; **false** does not. The default value is **false**.
+**True** exposes the global variables; **false** does not. The default value is **false**.
 
 When you set the argument to **true**, event subscriber methods that subscribe to the event can call the global variable parameters in the object that declares the event publisher method. You must add variable parameters to the event subscriber methods manually and use a name and type that matches the variable declaration in the event publisher object.
 
