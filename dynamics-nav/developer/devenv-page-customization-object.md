@@ -17,15 +17,26 @@ caps.latest.revision: 18
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Page Customization Object
-The page customization object in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
+The page customization object in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. The page customization object has more restrictions than the [page extension object](devenv-page-ext-object.md); when you define a new page customization object, you cannot add variables, procedures, or triggers. You can add changes to the page layout and actions.
 
 ## Snippet support
-Typing the shortcut ```?``` will create the basic layout for a page customization object when using the AL Extension in Visual Studio Code.
+Typing the shortcut ```tpagecust``` will create the basic layout for a page customization object when using the AL Extension in Visual Studio Code.
 
 ## Page customization example
 
 ```
-fsdfsdfjsdjf
+pagecustomization 70000123 MyCustomization customizes "Customer List"
+{
+    actions
+    {
+        moveafter("Blanket Orders"; "Aged Accounts Receivable")
+
+        modify(NewSalesBlanketOrder)
+        {
+            Visible = false;
+        }
+    }
+}
 ```
 
 ## See Also
