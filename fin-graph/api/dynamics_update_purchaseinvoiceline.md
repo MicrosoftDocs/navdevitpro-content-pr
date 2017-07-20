@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated p
 
 Here is an example of the request.
 ```json
-PATCH https://graph.microsoft.com/beta/financials/companies/{id}/purchaseInvoices{id}/purchaseInvoiceLines(documentId={id},sequence={number})
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/purchaseInvoices{id}/purchaseInvoiceLines(documentId={id},sequence={number})
 Content-type: application/json
 
 {

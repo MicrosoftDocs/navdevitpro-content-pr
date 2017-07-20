@@ -40,7 +40,7 @@ If successful, this method returns ```201 Created``` response code and countries
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta/finacials/companies/{id}/countriesRegions
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/countriesRegions
 Content-type: application/json
 
 {

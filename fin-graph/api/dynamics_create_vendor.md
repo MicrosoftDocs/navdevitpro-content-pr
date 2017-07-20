@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and vendors o
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta/financials/companies/{id}/vendors
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/vendors
 Content-type: application/json
 
 {
