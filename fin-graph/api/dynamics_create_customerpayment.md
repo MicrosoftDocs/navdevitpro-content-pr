@@ -1,8 +1,6 @@
-
 ---
 title: CREATE customer payment method | Microsoft Docs
 description: Creates a customer payment.
-services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
@@ -42,7 +40,7 @@ If successful, this method returns ```201 Created``` response code and customerP
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta/financials/companies/{id}/customerPayment
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/customerPayment
 Content-type: application/json
 
 {
@@ -83,4 +81,4 @@ Content-type: application/json
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)

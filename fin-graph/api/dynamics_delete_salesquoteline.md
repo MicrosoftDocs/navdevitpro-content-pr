@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://graph.microsoft.com/beta/financials/companies/{id}/salesQuotes/{id}/salesQuoteLines(documentId={id},sequence={number})
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesQuotes/{id}/salesQuoteLines(documentId={id},sequence={number})
 ```
 
 **Response** 

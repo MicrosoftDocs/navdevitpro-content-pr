@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and tax area 
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta/financials/companies/{id}/taxAreas
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/taxAreas
 Content-type: application/json
 
 ```json

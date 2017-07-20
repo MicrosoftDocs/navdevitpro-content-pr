@@ -38,7 +38,7 @@ If successful, this method returns a ```200 OK``` response code and employee obj
 Here is an example of the request.
 
 ```json
-GET https://graph.microsoft.com/beta/financials/companies/{id}/employees/{id}
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/employees/{id}
 ```
 
 **Response**
@@ -69,7 +69,7 @@ Here is an example of the response. Note: The response object shown here may be 
   "terminationDate": "0001-01-01",
   "status": "Active",
   "birthDate": "1973-12-12",
-  "picture@odata.mediaReadLink": "https://graph.microsoft.com/beta/financials/companies/{id}/employees/{id}/picture",
+  "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/employees/{id}/picture",
   "lastModifiedDateTime": "2017-03-16T14:57:19.497Z"  
 }
 ```
