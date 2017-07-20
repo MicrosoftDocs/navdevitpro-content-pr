@@ -1,8 +1,6 @@
-
 ---
 title: CREATE customer payment method | Microsoft Docs
 description: Creates a customer payment.
-services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
@@ -83,4 +81,4 @@ Content-type: application/json
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)
