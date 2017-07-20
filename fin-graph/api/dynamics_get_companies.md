@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and companies ob
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/beta/financials/companies
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies
 ```
 
 **Response**

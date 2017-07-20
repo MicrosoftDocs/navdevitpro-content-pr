@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a salesQu
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta/financials/companies/{id}/salesQuotes/{id}/salesQuoteLines
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesQuotes/{id}/salesQuoteLines
 Content-type: application/json
 
 {

@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a dimensi
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta//financials/companies/{id}/dimensionLines
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/dimensionLines
 Content-type: application/json
 
 {
@@ -73,4 +73,4 @@ Content-type: application/json
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)
