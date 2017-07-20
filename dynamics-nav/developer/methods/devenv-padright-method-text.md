@@ -1,5 +1,5 @@
 ---
-title: "Append Method"
+title: "PadRight Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 20/07/2017
@@ -14,21 +14,23 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Append Method
-Appends a copy of the specified string to this instance.  
+# PadRight Method
+Returns a new string that left-aligns the characters in this string by padding them with spaces on the right, for a specified total length.  
 ```  
-[Ok := ] TextBuilder.Append(Text)  
+Result := Text.PadRight(Count, [Char])  
 ```  
 ## Parameters
-*Text*    
-&emsp;Type: Text  
-The text to append.  
+*Count*    
+&emsp;Type: Integer  
+The number of characters in the resulting string, equal to the number of original characters plus any additional padding characters.  
+  
+*Char*    
+&emsp;Type: Char  
+A padding character.  
   
 ## Return Value
-*Ok*  
-&emsp;Type: Boolean  
-**True** if the operation was successful; otherwise, **false**.  
-If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
+*Result*  
+&emsp;Type: Text  
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  

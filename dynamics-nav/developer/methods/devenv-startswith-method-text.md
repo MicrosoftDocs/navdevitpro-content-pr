@@ -1,5 +1,5 @@
 ---
-title: "Append Method"
+title: "StartsWith Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 20/07/2017
@@ -14,21 +14,19 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Append Method
-Appends a copy of the specified string to this instance.  
+# StartsWith Method
+Determines whether the beginning of this instance matches a specified string.  
 ```  
-[Ok := ] TextBuilder.Append(Text)  
+Ok := Text.StartsWith(Value)  
 ```  
 ## Parameters
-*Text*    
+*Value*    
 &emsp;Type: Text  
-The text to append.  
+The string to compare.  
   
 ## Return Value
 *Ok*  
 &emsp;Type: Boolean  
-**True** if the operation was successful; otherwise, **false**.  
-If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  

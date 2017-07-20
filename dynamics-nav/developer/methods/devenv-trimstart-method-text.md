@@ -1,5 +1,5 @@
 ---
-title: "Append Method"
+title: "TrimStart Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 20/07/2017
@@ -14,21 +14,19 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Append Method
-Appends a copy of the specified string to this instance.  
+# TrimStart Method
+Removes all leading occurrences of a set of characters specified in an array from the current Text object.  
 ```  
-[Ok := ] TextBuilder.Append(Text)  
+Result := Text.TrimStart([Chars])  
 ```  
 ## Parameters
-*Text*    
+*Chars*    
 &emsp;Type: Text  
-The text to append.  
+A string containing the characters to remove.  
   
 ## Return Value
-*Ok*  
-&emsp;Type: Boolean  
-**True** if the operation was successful; otherwise, **false**.  
-If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
+*Result*  
+&emsp;Type: Text  
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  

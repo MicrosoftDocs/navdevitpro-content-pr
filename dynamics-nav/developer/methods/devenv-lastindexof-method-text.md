@@ -1,5 +1,5 @@
 ---
-title: "Append Method"
+title: "LastIndexOf Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 20/07/2017
@@ -14,21 +14,23 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Append Method
-Appends a copy of the specified string to this instance.  
+# LastIndexOf Method
+Reports the one-based index position of the last occurrence of a specified string within this instance.  
 ```  
-[Ok := ] TextBuilder.Append(Text)  
+Index := Text.LastIndexOf(Value, [StartIndex])  
 ```  
 ## Parameters
-*Text*    
+*Value*    
 &emsp;Type: Text  
-The text to append.  
+The string to seek.  
+  
+*StartIndex*    
+&emsp;Type: Integer  
+The search starting position. The search proceeds from startIndex toward the beginning of this instance.  
   
 ## Return Value
-*Ok*  
-&emsp;Type: Boolean  
-**True** if the operation was successful; otherwise, **false**.  
-If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
+*Index*  
+&emsp;Type: Integer  
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  

@@ -1,5 +1,5 @@
 ---
-title: "Append Method"
+title: "Replace Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 20/07/2017
@@ -14,21 +14,23 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Append Method
-Appends a copy of the specified string to this instance.  
+# Replace Method
+Returns a new Text in which all occurrences of a specified string in the current instance are replaced with another specified string.  
 ```  
-[Ok := ] TextBuilder.Append(Text)  
+Result := Text.Replace(OldValue, NewValue)  
 ```  
 ## Parameters
-*Text*    
+*OldValue*    
 &emsp;Type: Text  
-The text to append.  
+The string to replace all occurrences of OldValue.  
+  
+*NewValue*    
+&emsp;Type: Text  
+The string to be replaced.  
   
 ## Return Value
-*Ok*  
-&emsp;Type: Boolean  
-**True** if the operation was successful; otherwise, **false**.  
-If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
+*Result*  
+&emsp;Type: Text  
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  

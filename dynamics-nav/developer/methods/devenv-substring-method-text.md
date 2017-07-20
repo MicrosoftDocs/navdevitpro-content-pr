@@ -1,5 +1,5 @@
 ---
-title: "Append Method"
+title: "Substring Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 20/07/2017
@@ -14,21 +14,23 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Append Method
-Appends a copy of the specified string to this instance.  
+# Substring Method
+Retrieves a substring from this instance.  
 ```  
-[Ok := ] TextBuilder.Append(Text)  
+Substring := Text.Substring(StartIndex, [Count])  
 ```  
 ## Parameters
-*Text*    
-&emsp;Type: Text  
-The text to append.  
+*StartIndex*    
+&emsp;Type: Integer  
+The one-based starting character position of a substring in this instance.  
+  
+*Count*    
+&emsp;Type: Integer  
+The number of characters in the substring.  
   
 ## Return Value
-*Ok*  
-&emsp;Type: Boolean  
-**True** if the operation was successful; otherwise, **false**.  
-If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
+*Substring*  
+&emsp;Type: Text  
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  
