@@ -1,8 +1,8 @@
 ---
-title: "Append Method"
+title: "INDEXOF Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 20/07/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,22 +14,25 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Append Method
-Appends a copy of the specified string to this instance.  
+# INDEXOF Method
+Reports the one-based index of the first occurrence of the specified string in this instance.  
 ```  
-[Ok := ] TextBuilder.Append(Text)  
+Index := Text.INDEXOF(Value, [StartIndex])  
 ```  
 ## Parameters
-*Text*    
+*Value*    
 &emsp;Type: Text  
-The text to append.  
+The string to seek.  
+  
+*StartIndex*    
+&emsp;Type: Integer  
+The one-based search starting position.  
   
 ## Return Value
-*Ok*  
-&emsp;Type: Boolean  
-**True** if the operation was successful; otherwise, **false**.  
-If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
+*Index*  
+&emsp;Type: Integer  
   
 ## See Also
+[Text Data Type](../datatypes/devenv-text-data-type.md)  
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

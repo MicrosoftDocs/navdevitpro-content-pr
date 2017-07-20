@@ -1,8 +1,8 @@
 ---
-title: "EnsureCapacity Method"
+title: "INDEXOFANY Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 20/07/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,22 +14,25 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# EnsureCapacity Method
-Ensures that the capacity of this instance of StringBuilder is at least the specified value.  
+# INDEXOFANY Method
+ Reports the one-based index of the first occurrence of the specified string in this instance. The search starts at a specified character position.  
 ```  
-[Ok := ] TextBuilder.EnsureCapacity(NewCapacity)  
+Index := Text.INDEXOFANY(Values, [StartIndex])  
 ```  
 ## Parameters
-*NewCapacity*    
+*Values*    
+&emsp;Type: Text  
+The collection of characters to seek.  
+  
+*StartIndex*    
 &emsp;Type: Integer  
-The minimum capacity to ensure.  
+The one-based search starting position.  
   
 ## Return Value
-*Ok*  
-&emsp;Type: Boolean  
-**True** if the operation was successful; otherwise, **false**.  
-If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
+*Index*  
+&emsp;Type: Integer  
   
 ## See Also
+[Text Data Type](../datatypes/devenv-text-data-type.md)  
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

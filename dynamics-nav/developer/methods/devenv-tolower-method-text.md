@@ -1,8 +1,8 @@
 ---
-title: "Append Method"
+title: "TOLOWER Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 20/07/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,22 +14,16 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Append Method
-Appends a copy of the specified string to this instance.  
+# TOLOWER Method
+Returns a copy of this string converted to lowercase.  
 ```  
-[Ok := ] TextBuilder.Append(Text)  
+Result := Text.TOLOWER()  
 ```  
-## Parameters
-*Text*    
-&emsp;Type: Text  
-The text to append.  
-  
 ## Return Value
-*Ok*  
-&emsp;Type: Boolean  
-**True** if the operation was successful; otherwise, **false**.  
-If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
+*Result*  
+&emsp;Type: Text  
   
 ## See Also
+[Text Data Type](../datatypes/devenv-text-data-type.md)  
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
