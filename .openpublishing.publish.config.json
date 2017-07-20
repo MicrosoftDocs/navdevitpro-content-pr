@@ -19,9 +19,9 @@
       "version": 0
     },
     {
-      "docset_name": "financialssmbgraph",
-      "build_source_folder": "fin-graph",
-      "build_output_subfolder": "financialssmbgraph",
+      "docset_name": "dynamicssmbdev",
+      "build_source_folder": "developer",
+      "build_output_subfolder": "dynamicssmbdev",
       "locale": "en-us",
       "monikers": [],
       "open_to_public_contributors": false,
@@ -35,11 +35,12 @@
       "version": 0
     },
     {
-      "docset_name": "dynamicssmbdev",
-      "build_source_folder": "developer",
-      "build_output_subfolder": "dynamicssmbdev",
+      "docset_name": "financialssmbgraph",
+      "build_source_folder": "fin-graph",
+      "build_output_subfolder": "financialssmbgraph",
       "locale": "en-us",
       "monikers": [],
+      "moniker_groups": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
