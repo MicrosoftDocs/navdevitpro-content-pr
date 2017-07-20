@@ -1,8 +1,8 @@
 ---
-title: "TrimEnd Method"
+title: "TRIMEND Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 20/07/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,10 +14,10 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# TrimEnd Method
+# TRIMEND Method
 Removes all trailing occurrences of a set of characters specified in an array from the current Text object.  
 ```  
-Result := Text.TrimEnd([Chars])  
+Result := Text.TRIMEND([Chars])  
 ```  
 ## Parameters
 *Chars*    
@@ -29,5 +29,6 @@ A string containing the characters to remove.
 &emsp;Type: Text  
   
 ## See Also
+[Text Data Type](../datatypes/devenv-text-data-type.md)  
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

@@ -1,7 +1,7 @@
 ---
 title: "Text Data Type"
 ms.custom: na
-ms.date: 06/08/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

@@ -1,8 +1,8 @@
 ---
-title: "EndsWith Method"
+title: "ENDSWITH Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 20/07/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,10 +14,10 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# EndsWith Method
+# ENDSWITH Method
 Determines whether the end of this string instance matches the specified string.  
 ```  
-Ok := Text.EndsWith(Value)  
+Ok := Text.ENDSWITH(Value)  
 ```  
 ## Parameters
 *Value*    
@@ -29,5 +29,6 @@ The string to compare to the substring at the end of this instance.
 &emsp;Type: Boolean  
   
 ## See Also
+[Text Data Type](../datatypes/devenv-text-data-type.md)  
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

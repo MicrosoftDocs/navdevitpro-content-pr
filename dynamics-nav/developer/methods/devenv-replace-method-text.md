@@ -1,8 +1,8 @@
 ---
-title: "Replace Method"
+title: "REPLACE Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 20/07/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,10 +14,10 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Replace Method
+# REPLACE Method
 Returns a new Text in which all occurrences of a specified string in the current instance are replaced with another specified string.  
 ```  
-Result := Text.Replace(OldValue, NewValue)  
+Result := Text.REPLACE(OldValue, NewValue)  
 ```  
 ## Parameters
 *OldValue*    
@@ -33,5 +33,6 @@ The string to be replaced.
 &emsp;Type: Text  
   
 ## See Also
+[Text Data Type](../datatypes/devenv-text-data-type.md)  
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

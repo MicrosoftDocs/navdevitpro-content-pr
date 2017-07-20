@@ -1,8 +1,8 @@
 ---
-title: "PadRight Method"
+title: "PADRIGHT Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 20/07/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,10 +14,10 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# PadRight Method
+# PADRIGHT Method
 Returns a new string that left-aligns the characters in this string by padding them with spaces on the right, for a specified total length.  
 ```  
-Result := Text.PadRight(Count, [Char])  
+Result := Text.PADRIGHT(Count, [Char])  
 ```  
 ## Parameters
 *Count*    
@@ -33,5 +33,6 @@ A padding character.
 &emsp;Type: Text  
   
 ## See Also
+[Text Data Type](../datatypes/devenv-text-data-type.md)  
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

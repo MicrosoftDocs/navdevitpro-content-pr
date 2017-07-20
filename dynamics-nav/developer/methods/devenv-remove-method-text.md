@@ -1,8 +1,8 @@
 ---
-title: "Remove Method"
+title: "REMOVE Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 20/07/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,10 +14,10 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Remove Method
+# REMOVE Method
 Returns a new Text in which a specified number of characters from the current string are deleted.  
 ```  
-Result := Text.Remove(StartIndex, [Count])  
+Result := Text.REMOVE(StartIndex, [Count])  
 ```  
 ## Parameters
 *StartIndex*    
@@ -33,5 +33,6 @@ The number of characters to delete.
 &emsp;Type: Text  
   
 ## See Also
+[Text Data Type](../datatypes/devenv-text-data-type.md)  
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

@@ -1,8 +1,8 @@
 ---
-title: "StartsWith Method"
+title: "STARTSWITH Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 20/07/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,10 +14,10 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# StartsWith Method
+# STARTSWITH Method
 Determines whether the beginning of this instance matches a specified string.  
 ```  
-Ok := Text.StartsWith(Value)  
+Ok := Text.STARTSWITH(Value)  
 ```  
 ## Parameters
 *Value*    
@@ -29,5 +29,6 @@ The string to compare.
 &emsp;Type: Boolean  
   
 ## See Also
+[Text Data Type](../datatypes/devenv-text-data-type.md)  
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

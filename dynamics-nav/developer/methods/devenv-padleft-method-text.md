@@ -1,8 +1,8 @@
 ---
-title: "PadLeft Method"
+title: "PADLEFT Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 20/07/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,10 +14,10 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# PadLeft Method
+# PADLEFT Method
 Returns a new Text that right-aligns the characters in this instance by padding them on the left, for a specified total length.  
 ```  
-Result := Text.PadLeft(Count, [Char])  
+Result := Text.PADLEFT(Count, [Char])  
 ```  
 ## Parameters
 *Count*    
@@ -33,5 +33,6 @@ A padding character.
 &emsp;Type: Text  
   
 ## See Also
+[Text Data Type](../datatypes/devenv-text-data-type.md)  
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

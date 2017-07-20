@@ -1,8 +1,8 @@
 ---
-title: "ToLower Method"
+title: "TOLOWER Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 20/07/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,15 +14,16 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# ToLower Method
+# TOLOWER Method
 Returns a copy of this string converted to lowercase.  
 ```  
-Result := Text.ToLower()  
+Result := Text.TOLOWER()  
 ```  
 ## Return Value
 *Result*  
 &emsp;Type: Text  
   
 ## See Also
+[Text Data Type](../datatypes/devenv-text-data-type.md)  
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

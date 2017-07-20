@@ -1,8 +1,8 @@
 ---
-title: "Substring Method"
+title: "SUBSTRING Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 20/07/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,10 +14,10 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Substring Method
+# SUBSTRING Method
 Retrieves a substring from this instance.  
 ```  
-Substring := Text.Substring(StartIndex, [Count])  
+SUBSTRING := Text.SUBSTRING(StartIndex, [Count])  
 ```  
 ## Parameters
 *StartIndex*    
@@ -33,5 +33,6 @@ The number of characters in the substring.
 &emsp;Type: Text  
   
 ## See Also
+[Text Data Type](../datatypes/devenv-text-data-type.md)  
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

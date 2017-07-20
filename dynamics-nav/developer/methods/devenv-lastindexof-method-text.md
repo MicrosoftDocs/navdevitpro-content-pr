@@ -1,8 +1,8 @@
 ---
-title: "LastIndexOf Method"
+title: "LASTINDEXOF Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 20/07/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,10 +14,10 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# LastIndexOf Method
+# LASTINDEXOF Method
 Reports the one-based index position of the last occurrence of a specified string within this instance.  
 ```  
-Index := Text.LastIndexOf(Value, [StartIndex])  
+Index := Text.LASTINDEXOF(Value, [StartIndex])  
 ```  
 ## Parameters
 *Value*    
@@ -33,5 +33,6 @@ The search starting position. The search proceeds from startIndex toward the beg
 &emsp;Type: Integer  
   
 ## See Also
+[Text Data Type](../datatypes/devenv-text-data-type.md)  
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

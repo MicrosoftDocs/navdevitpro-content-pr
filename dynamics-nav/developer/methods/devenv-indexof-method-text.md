@@ -1,8 +1,8 @@
 ---
-title: "IndexOf Method"
+title: "INDEXOF Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 20/07/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,10 +14,10 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# IndexOf Method
+# INDEXOF Method
 Reports the one-based index of the first occurrence of the specified string in this instance.  
 ```  
-Index := Text.IndexOf(Value, [StartIndex])  
+Index := Text.INDEXOF(Value, [StartIndex])  
 ```  
 ## Parameters
 *Value*    
@@ -33,5 +33,6 @@ The one-based search starting position.
 &emsp;Type: Integer  
   
 ## See Also
+[Text Data Type](../datatypes/devenv-text-data-type.md)  
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
