@@ -1,6 +1,6 @@
 ---
-title: Preview of API for Dynamics 365 for Financials | Microsoft Docs
-description: Preliminarily published reference content for Dynamics 365 for Financials.
+title: API for Dynamics 365 for Financials | Microsoft Docs
+description: Reference content for the API endpoint for integration with Dynamics 365 for Financials.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
@@ -9,18 +9,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/20/2017
+ms.date: 07/21/2017
 ms.author: solsen
 
 ---
-# Welcome to the API Reference for Dynamics 365 for Financials
-Soon, you will be able to use Microsoft Graph to connect and integrate your web service or SaaS solution with Microsoft Dynamics 365 for Financials. Until then, you have access to a preview API that is described here. 
+# Welcome to the API Reference for [!INCLUDE[d365fin_long](./includes/d365fin_long_md.md)]
+Soon, you will be able to use Microsoft Graph to connect and integrate your web service or SaaS solution with [!INCLUDE[d365fin_long](./includes/d365fin_long_md.md)]. Creating your integration through the Microsoft Graph provides simple access to all supported Microsoft products in a single endpoint, giving you a simplified experience for creating a single app with integrations across multiple Microsoft products. As an alternative, app developers can also integrate the service or solution directly with the [!INCLUDE[d365fin](./includes/d365fin_md.md)] API endpoint, as outlined in this documentation.  
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](resources/dynamics_overview.md)  
-
-<!--
-[Working With Financials](../financials/ui-work-product.md)  
-[Setting Up Financials](../financials/setup.md)  
-[Customizing Financials Using Extensions](../financials/ui-extensions.md)
--->  
