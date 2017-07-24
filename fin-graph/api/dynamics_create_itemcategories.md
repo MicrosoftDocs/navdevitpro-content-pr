@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
@@ -25,7 +25,7 @@ POST /financials/companies/{id}/itemCategories
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required.    |
+|Authorization  |Bearer {token}. Required.    |
 |Content-Type  |application/json    |
 
 ## Request body

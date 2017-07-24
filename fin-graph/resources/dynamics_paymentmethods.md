@@ -1,5 +1,5 @@
 ---
-title: Payment Method resource type | Microsoft Docs
+title: paymentMethods resource type | Microsoft Docs
 description: A Payment Method object.
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Payment method resource type
+# paymentMethods resource type
 Represents a method of payment in Dynamics 365 for Financials, such as PayPal, credit card, and bank account.
 
 ## Methods
@@ -29,7 +29,7 @@ Represents a method of payment in Dynamics 365 for Financials, such as PayPal, c
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the paymentMethods. Read-Only.|
+|id|GUID|The unique ID of the paymentMethods. Non-editable.|
 |code|string|Specifies the payment method code. |
 |displayName|string|Specifies the payment method display name.|
 |lastModifiedDateTime|datetime|The last datetime the payment method was modified. Read-Only.|  

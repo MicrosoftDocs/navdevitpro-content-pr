@@ -1,5 +1,5 @@
 ---
-title: Item Categories resource type | Microsoft Docs
+title: itemCategories resource type | Microsoft Docs
 description: An Item Categories.
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Item categories resource type
+# itemCategories resource type
 Represents a category for a number of items in Dynamics 365 for Financials.
 
 ## Methods
@@ -29,7 +29,7 @@ Represents a category for a number of items in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the itemCategory. Read-Only.|
+|id|GUID|The unique ID of the itemCategory. Non-editable.|
 |code|string|The itemCategory code.|
 |displayName|string|The itemCategories display name.|
 |lastModifiedDateTime|datetime|The last datetime the itemCategory was modified. Read-Only.|  

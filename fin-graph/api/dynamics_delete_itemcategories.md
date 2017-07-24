@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete item categories
-Delete an itemCategories from Dynamics 365 for Financials.
+Delete an item category from Dynamics 365 for Financials.
 
 
 ## HTTP request
@@ -26,7 +26,7 @@ DELETE /financials/companies/{id}/itemCategories/{id}
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
 
 ## Request body

@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
 # Update shipment method
-Update the properties of a shipmentMethods object for Dynamics 365 for Financials.
+Update the properties of a shipment methods object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
@@ -25,7 +25,7 @@ PATCH /financials/companies/{id}/shipmentMethods/{id}
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization |Bearer. Required.|
+|Authorization |Bearer {token}. Required.|
 |Content-Type  |application/json|
 |If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the shipmentMethods, the shipmentMethods will not be updated. |
 

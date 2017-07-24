@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
 # Update sales invoice line
-Update the properties of a salesInvoiceLine object for Dynamics 365 for Financials.
+Update the properties of a sales invoice line object for Dynamics 365 for Financials.
 
 ## HTTP request
 
@@ -26,7 +26,7 @@ PATCH /financials/companies/{id}/salesInvoices/{id}/salesInvoiceLines(documentId
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization |Bearer. Required.|
+|Authorization |Bearer {token}. Required.|
 |Content-Type  |application/json|
 |If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the salesInvoiceLine, the salesInvoiceLine will not be updated. |
 

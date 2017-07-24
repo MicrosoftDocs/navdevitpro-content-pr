@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/16/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# POST Customer
+# Create Customer
 Create a customer in Dynamics 365 for Financials.
 
 ## HTTP request
@@ -25,7 +25,7 @@ POST /financials/companies/{id}/customers
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required.  |
+|Authorization  |Bearer {token}. Required.  |
 |Content-Type  |application/json  |
 
 ## Request body
@@ -47,6 +47,7 @@ Content-type: application/json
 {
   "number": "10000",
   "displayName": "Coho Winery",
+  "type": "Company",
   "address": {
     "street": "192 Market Square",
     "city": "Atlanta",
@@ -58,6 +59,9 @@ Content-type: application/json
   "email": "jim.glynn@cronuscorp.net",
   "website": "",
   "taxLiable": true,
+  "taxAreaId": "taxAreaId-value",
+  "taxAreaDisplayName": "tax area",
+  "taxRegistrationNumber": "28012001T",
   "currencyCode": "USD",
   "paymentTerms": {
     "code": "1M(8D)",
@@ -68,7 +72,9 @@ Content-type: application/json
     "code": "BANK",
     "description": "Bank Transfer"
   },
-  "blocked": " "
+  "blocked": " ",
+  "overdueAmount": 0,
+  "totalSalesExcludingTax": 0,
 }
 
 ```
@@ -85,6 +91,7 @@ Content-type: application/json
   "id": "id-value",
   "number": "10000",
   "displayName": "Coho Winery",
+  "type": "Company",
   "address": {
     "street": "192 Market Square",
     "city": "Atlanta",
@@ -96,6 +103,9 @@ Content-type: application/json
   "email": "jim.glynn@cronuscorp.net",
   "website": "",
   "taxLiable": true,
+  "taxAreaId": "taxAreaId-value",
+  "taxAreaDisplayName": "tax area",
+  "taxRegistrationNumber": "28012001T",
   "currencyCode": "USD",
   "paymentTerms": {
     "code": "1M(8D)",
@@ -108,6 +118,8 @@ Content-type: application/json
   },
   "blocked": " ",
   "balance": 0,
+  "overdueAmount": 0
+  "totalSalesExcludingTax": 0,
   "lastModifiedDateTime": "2017-03-07T00:35:28.983Z"
 }
 

@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Item resource type
+# item resource type
 Represents an item in Dynamics 365 for Financials.
 
 ## Methods
@@ -29,7 +29,7 @@ Represents an item in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the item. Read-Only.|
+|id|GUID|The unique ID of the item. Non-editable.|
 |number|string|The item number.|
 |displayName|string|Specifies a description of the item.|
 |type|numeric|The inventory type for the item. 1 = inventory item, 2 = service item. This is a required property.|

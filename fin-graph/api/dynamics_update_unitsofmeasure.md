@@ -10,13 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
 # Update unit of measure
-Update the properties of a unitsOfMeasure object for Dynamics 365 for Financials.
-
+Update the properties of a units of measure object for Dynamics 365 for Financials.
 
 ## HTTP request
 

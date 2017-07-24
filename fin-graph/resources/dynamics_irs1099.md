@@ -1,5 +1,5 @@
 ---
-title: IRS 1099 Code resource type | Microsoft Docs
+title: irs1099Codes resource type | Microsoft Docs
 description: A IRS 1099 Code object.
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# IRS 1099 code resource type
+# irs1099Codes resource type
 Represents an irs1099Codes object in Dynamics 365 for Financials. IRS 1099 codes are used for reporting to the IRS.
 
 ## Methods
@@ -29,7 +29,7 @@ Represents an irs1099Codes object in Dynamics 365 for Financials. IRS 1099 codes
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the IRS 1099 Code. Read-Only.|
+|id|GUID|The unique ID of the IRS 1099 Code. Non-editable.|
 |code|string|Specifies the IRS 1099 Code. |
 |displayName|string|Specifies the IRS 1099 Code display name.|
 |minimumReportable|decimal|Specifies the minimum value for this box that must be reported to the IRS on a 1099 form.|

@@ -1,5 +1,5 @@
 ---
-title: Payment Terms resource type | Microsoft Docs
+title: paymentTerms resource type | Microsoft Docs
 description: A Payment Terms object.
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Payment terms resource type
+# paymentTerms resource type
 Represents a payment term in Dynamics 365 for Financials.
 
 ## Methods
@@ -29,7 +29,7 @@ Represents a payment term in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the paymentTerms. Read-Only.|
+|id|GUID|The unique ID of the paymentTerms. Non-editable.|
 |code|string|Specifies the payment term code. |
 |displayName|string|Specifies the payment term display name.|
 |dueDateCalculation|string|Specifies the formula that is used to calculate the date that a payment must be made.|

@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
 # Get countries/regions
-Retrieve the properties and relationships of an countriesRegions object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of an countries regions object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
@@ -25,7 +25,7 @@ GET /financials/companies/{id}/countriesRegions/{id}
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.

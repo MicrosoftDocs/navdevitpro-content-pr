@@ -46,6 +46,12 @@ In this section, you can find API documentation for Microsoft Graph.
 |customer sales resource type|[customerSales](../resources/dynamics_customersales.md)|
 |vendor purchases resource type|[vendorPurchases](../resources/dynamics_vendorpurchases.md)|
 |employee resource type|[employee](../resources/dynamics_employee.md)|
+|taxGroups resource type|[taxGroups](../resources/dynamics_taxGroups.md)|
+|companies resource type|[companies](../resources/dynamics_companies.md)|
+|salesOrder resource type|[salesQuote](../resources/dynamics_salesquote.md)|
+|salesOrderLine resource type|[salesQuoteLine](../resources/dynamics_salesquoteline.md)|
+|purchaseInvoice resource type|[purchaseInvoice](../resources/dynamics_purchaseinvoice.md)|
+|purchaseInvoiceLine resource type|[purchaseInvoiceLine](../resources/dynamics_purchaseinvoiceline.md)|
 |complex types JSON|[Complex Types JSON](../resources/dynamics_complex_types.md)|
 
 ## See also

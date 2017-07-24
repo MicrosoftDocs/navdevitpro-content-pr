@@ -1,7 +1,7 @@
 ---
 title: "InStream.EOS Method"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,7 +26,7 @@ IsEOS := InStream.EOS
 ## Property Value/Return Value  
  Type: Boolean  
   
- **Yes** if the stream has reached End of Stream; otherwise, **No**.  
+ **True** if the stream has reached End of Stream; otherwise, **false**.  
   
 ## Remarks  
  If you are reading data from an external component, EOS can return **FALSE** even though no more data is available. This may occur if you have not called READ first.  

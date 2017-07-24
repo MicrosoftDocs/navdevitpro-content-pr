@@ -1,5 +1,5 @@
 ---
-title: Countries/Regions resource type | Microsoft Docs
+title: countriesRegions resource type | Microsoft Docs
 description: A Countries/Regions.
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Countries/regions resource type
+# countriesRegions resource type
 Represents a countriesRegions object in Dynamics 365 for Financials, which is part of an address.
 
 ## Methods
@@ -29,7 +29,7 @@ Represents a countriesRegions object in Dynamics 365 for Financials, which is pa
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the country/region. Read-Only.|
+|id|GUID|The unique ID of the country/region. Non-editable.|
 |code|string|Specifies the code of the country/region.|
 |displayName|string|Specifies the display name of the country/region.|
 |addressFormat|string|Specifies the format of the address that is displayed on external-facing documents. You link an address format to a country/region code so that external-facing documents based on cards or documents with that country/region code use the specified address format.|

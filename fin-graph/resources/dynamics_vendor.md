@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Vendor resource type
+# vendor resource type
 Represents a vendor in Dynamics 365 for Financials.
 
 ## Methods
@@ -29,7 +29,7 @@ Represents a vendor in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the vendor. Read-Only.|
+|id|GUID|The unique ID of the vendor. Non-editable.|
 |number|string|The vendor number.|
 |displayName|string|The vendor's display name.|
 |address|[NAV.PostalAddress](../resources/dynamics_complex_types.md)|The vendor's address.|

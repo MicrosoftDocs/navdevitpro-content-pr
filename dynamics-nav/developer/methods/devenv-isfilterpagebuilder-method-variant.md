@@ -1,7 +1,7 @@
 ---
 title: "ISFILTERPAGEBUILDER Method (Variant)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -29,7 +29,7 @@ Ok := Variant.ISFILTERPAGEBUILDER
 ## Return Value  
  Type: Boolean  
   
- **true** if the AL variant contains a FilterPageBuilder variable; otherwise, **false**.  
+ **True** if the AL variant contains a FilterPageBuilder variable; otherwise, **false**.  
   
 ## Example  
  The following example uses the ISFILTERPAGEBUILDER method on a filter page object that includes a filter control for the **Date** system table.  
