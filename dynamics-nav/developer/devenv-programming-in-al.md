@@ -68,3 +68,5 @@ one form or page.
  [Control Statements](devenv-al-control-statements.md)  
  [Methods](devenv-al-methods.md)  
  [System-Defined Variables](devenv-system-defined-variables.md)  
+ [Developing Extensions](devenv-dev-overview.md)  
+ [Getting Started](devenv-get-started.md) 

@@ -34,3 +34,4 @@ The following methods are available on the XmlNamespaceManager class.
 ## See Also
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
+[HTTP, JSON, and XML API](../devenv-restapi-overview.md)  
