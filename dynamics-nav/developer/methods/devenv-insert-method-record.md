@@ -1,7 +1,7 @@
 ---
 title: "INSERT Method (Record)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -41,7 +41,7 @@ Inserts a record into a table.
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the record was inserted; otherwise, **false**.  
+ **True** if the record was inserted; otherwise, **false**.  
   
  If you omit this optional return value and if the record cannot be inserted, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   

@@ -25,11 +25,12 @@ The following methods are available on the HttpRequestMessage class.
 |Method name|Description|
 |-----------|-----------|
 |[Content](httprequestmessage-content-method.md)|Gets or sets the contents of the HTTP message.|
-|[GetRequestUri](httprequestmessage-getrequesturi-method.md)|Gets the Uri used for the HTTP request.|
+|[GetRequestUri](httprequestmessage-getrequesturi-method.md)|Gets the Uniform Resource Identifier (URI) used for the HTTP request.|
 |[Method](httprequestmessage-method-method.md)|Gets or sets the method type as defined in the HTTP standard.|
-|[SetRequestUri](httprequestmessage-setrequesturi-method.md)|Sets the Uri used for the HTTP request.|
+|[SetRequestUri](httprequestmessage-setrequesturi-method.md)|Sets the URI used for the HTTP request.|
 
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)  
+[HTTP, JSON, and XML API](../devenv-restapi-overview.md)  

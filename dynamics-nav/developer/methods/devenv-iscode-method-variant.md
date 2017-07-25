@@ -1,7 +1,7 @@
 ---
 title: "ISCODE Method (Variant)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -30,10 +30,10 @@ Ok := Variant.ISCODE
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the AL variant contains a Code variable; otherwise, **false**.  
+ **True** if the AL variant contains a Code variable; otherwise, **false**.  
   
 ## Example  
- The following example determines whether an AL variant contains a code variable. The code initializes the MyCode variable with a string value. The MyCode variable is assigned to the variant variable that is named MyVariant. The **ISCODE** method determines whether the variant contains a code variable and stores the return value in the varResult variable. In this case, the variant contains a code variable so **Yes** is returned and displayed in a message box. The [ISTEXT Method (Variant)](devenv-ISTEXT-Method-Variant.md) determines whether the variant contains a text variable. The return value is **No** because the variant does not contain a text. This example requires that you create the following global variables and text constants.  
+ The following example determines whether an AL variant contains a code variable. The code initializes the MyCode variable with a string value. The MyCode variable is assigned to the variant variable that is named MyVariant. The **ISCODE** method determines whether the variant contains a code variable and stores the return value in the varResult variable. In this case, the variant contains a code variable so **true** is returned and displayed in a message box. The [ISTEXT Method (Variant)](devenv-ISTEXT-Method-Variant.md) determines whether the variant contains a text variable. The return value is **false** because the variant does not contain a text. This example requires that you create the following global variables and text constants.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  
@@ -56,4 +56,4 @@ MESSAGE(Text001,MyVariant,varResult);
 ```  
   
 ## See Also  
- [Variant Data Type](../datatypes/devenv-Variant-Data-Type.md)
+ [Variant Data Type](../datatypes/devenv-variant-data-type.md)

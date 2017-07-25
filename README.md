@@ -5,9 +5,11 @@ For more information see the [Code of Conduct FAQ](https://opensource.microsoft.
 
 # navdevitpro-content-pr
 
-Welcome to the repository for the developer and itpro content for on-prem &amp; PaaS.
+Welcome to the repository for the developer and ITpro content for on-prem &amp; PaaS.
 
-All articles are stored as Markdown files (.md type) in the **dynamics-nav** folder. They publish to MSDN staging here: https://msdnstage.redmond.corp.microsoft.com/en-us/../how-to--publish-and-install-an-extension?branch=master. 
+All articles are stored as Markdown files (.md type) in the **dynamics-nav** folder. They publish to MSDN staging here: https://msdnstage.redmond.corp.microsoft.com/en-us/../how-to--publish-and-install-an-extension?branch=master.
+
+The repo also holds the source for the new developer experience and the fixed endpoint API for SaaS.
 
 ======================================
 ## Getting started with GitHub
@@ -16,6 +18,8 @@ All articles are stored as Markdown files (.md type) in the **dynamics-nav** fol
 2. Link it to your work account at https://repos.opensource.microsoft.com/
 3. Join the MicrosoftDocs org at https://repos.opensource.microsoft.com/MicrosoftDocs
 4. Join the Everyone team here: https://repos.opensource.microsoft.com/microsoftdocs/teams/everyone
+
+For more information, see [Open Source at Microsoft docs](https://docs.opensource.microsoft.com/github/).
 
 ### Contributing
 You do not have write access to the master repo MicrosoftDocs/navdevitpro-content-pr. Any changes that you make will go through UA first. This means that to make changes, you must commit the changes, and then create a pull request to include the changes. A writer (UA) will then review the pull request and pull the content into the master repo.
@@ -63,18 +67,16 @@ Each topic must contain YAML section at the top of the file with the following i
 ```
 ---
 title: "A Topic"
+description: "A good description that serves as input for Google Search."
 author: MyGitHubAccount
-ms.custom: na
 ms.date: 08/19/2016
-ms.reviewer: na
-ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 143a477f-63a9-4a95-b6b0-b4b4dfec5a61
 ms.author: MyDomainAccount
 ---
 ```
+Note that the ms.date property must follow the US date format of MM/DD/YYYY.
 
 ### Headings
 Use ```#``` for headings.
@@ -264,5 +266,3 @@ The UI has tooltips for getting unblocked. Therefore, do not document fields in 
 |How to: Work With GIFI Codes in Canada|ca-finance-work-GiFI-codes.md|
 
 Naming consists of the following elements: ```<country prefix>-<category prefix>-<topic title>.<extension>```
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.

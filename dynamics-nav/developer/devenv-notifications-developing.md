@@ -11,7 +11,7 @@ manager: edupont
 ms.prod: "dynamics-nav-2017"
 ---
 # Notifications
-Notifications provide a programmatic way to send non-intrusive information to the user interface (UI) in the Dynamics NAV Web client. Notifications differ from messages initiated by the MESSAGE method. Messages are modal, which means users are typically required to address the message and take some form of corrective action before they continue working. On the other hand, notifications are non-modal. Their purpose is to give users information about a current situation, but do not require any immediate action or block users from continuing with their current task. For example, you could have a notification that a customer's credit limit is exceeded.
+Notifications provide a programmatic way to send non-intrusive information to the User Interface (UI) in the Dynamics NAV Web client. Notifications differ from messages initiated by the MESSAGE method. Messages are modal, which means users are typically required to address the message and take some form of corrective action before they continue working. On the other hand, notifications are non-modal. Their purpose is to give users information about a current situation, but do not require any immediate action or block users from continuing with their current task. For example, you could have a notification that a customer's credit limit is exceeded.
 
 ## Notifications in the UI
 In the UI, notifications appear in the **Notification** bar (similar to validation errors) at the top of the page on which a user is currently working. The user can then choose to dismiss the notification, which clears it. Or if actions are defined on notification, the user can choose one of the actions.
@@ -22,7 +22,7 @@ In the UI, notifications appear in the **Notification** bar (similar to validati
 * Validation errors on the page will be shown first.
 
 ## Notifications in the development environment
-By using the **Notification** and **NotificationScope** data types and methods in C/AL, you can add code to send notifications to users. The following table provides an overview of the available methods. The sections that follow provide additional information about how to create notifications.
+By using the **Notification** and **NotificationScope** data types and methods in AL, you can add code to send notifications to users. The following table provides an overview of the available methods. The sections that follow provide additional information about how to create notifications.
 
 |  Method  |  Description  |
 |------------|---------------|
@@ -152,4 +152,6 @@ To complete the example, follow these steps:
     ```
 
 ## See Also  
-[Notification Data Type](datatypes/devenv-notification-data-type.md)
+[Notification Data Type](datatypes/devenv-notification-data-type.md)  
+[Developing Extensions](devenv-dev-overview.md)  
+[Getting Started](devenv-get-started.md) 

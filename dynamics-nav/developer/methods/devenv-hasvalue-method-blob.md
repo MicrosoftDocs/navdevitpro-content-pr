@@ -1,7 +1,7 @@
 ---
 title: "HASVALUE Method (BLOB)"
 ms.custom: na
-ms.date: 06/30/2016
+ms.date: 07/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -36,4 +36,4 @@ HasValue := Blob.HASVALUE
  **True** if the BLOB has a value; otherwise, **false**.  
   
 ## See Also  
- [BLOB Data Type](../datatypes/devenv-BLOB-Data-Type.md)
+ [BLOB Data Type](../datatypes/devenv-blob-data-type.md)

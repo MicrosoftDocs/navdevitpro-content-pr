@@ -21,7 +21,7 @@ Coming from the Dynamics NAV Development Environment and C/SIDE, there are some 
 ## Data types
 |C/SIDE|AL Development Environment|
 |------|---------------------------|
-|Dates are parsed based on culture settings.| Locale independent and supports only: ```yyyy-mm-ddD```.|
+|Dates are parsed based on culture settings.| Locale independent and supports only: ```yyyy-mm-dd```.|
 |Boolean values could be expressed as **yes**/**no**.| Boolean values are expressed as **true**/**false**.|
 
 ## Syntax updates
@@ -59,5 +59,6 @@ Some properties require that you set another property. An example is ```Promoted
 |RunPageMode|RunObject|
 
 ## See Also
+[Developing Extensions](devenv-dev-overview.md)  
 [Getting Started](devenv-get-started.md)    
 [Developer Reference](devenv-reference-overview.md)  

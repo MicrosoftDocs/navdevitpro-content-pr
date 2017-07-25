@@ -1,7 +1,7 @@
 ---
 title: "AL Methods"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -21,4 +21,6 @@ The AL methods in this section are grouped according to the data type that they 
  [Properties](../properties/devenv-properties.md)   
  [Triggers](../triggers/devenv-triggers.md)   
  [Essential AL Methods](../devenv-Essential-AL-Methods.md)   
- [Programming in AL](../devenv-Programming-in-AL.md)
+ [Programming in AL](../devenv-Programming-in-AL.md)  
+ [Developing Extensions](../devenv-dev-overview.md)  
+ [HTTP, JSON, and XML API](../devenv-restapi-overview.md)  

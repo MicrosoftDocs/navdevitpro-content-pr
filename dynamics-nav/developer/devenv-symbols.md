@@ -17,7 +17,7 @@ caps.latest.revision: 18
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Symbol Files
-The following table lists object symbols contained in the platform symbol package file. If the symbols are not present, you will prompted to download them.
+The following table lists object symbols contained in the platform symbol package file. If the symbols are not present, you will be prompted to download them.
 
 ### System tables
 

@@ -27,7 +27,7 @@ You can use events to design the application to react to specific actions or beh
 ## How events work  
  The basic principal is that you program events in the application to run customized behavior when they occur. Events in AL are modeled after Microsoft .NET Framework. There are three major participants involved in events: the *event*, a *publisher* and a *subscriber*.  
   
--   An *event* is the declaration of the occurrence or change in the application. An event is declared by a AL method, which is referred to as an *event publisher function*. An event publisher method is comprised of a signature only and does not execute any code.
+-   An *event* is the declaration of the occurrence or change in the application. An event is declared by an AL method, which is referred to as an *event publisher function*. An event publisher method is comprised of a signature only and does not execute any code.
   
 -   A *publisher* is the object that contains event publisher method that declares the event. The publisher exposes an event in the application to subscribers, essentially providing them with a hook-up point in the application.  
   
@@ -37,7 +37,7 @@ You can use events to design the application to react to specific actions or beh
   
      Business and integration type events must be explicitly published and raised, which means that you must create event publisher functions and add them to objects manually. On the other hand, trigger events, which occur on table and page operations, are published and raised implicitly by the system at runtime. Therefore, no coding is required to publish them.  
   
--   A *subscriber* listens for and handles a published event. A subscriber is an AL method that subscribes to a specific event publisher method and includes the logic for handling the event. When an event is raised, the subscriber method is a called and its code is run. A subscriber enables partners to hook into the core application functionality without having to do traditional code modifications. Any [!INCLUDE[d365fin_long_md](includes/navnow_md.md)] solution provider, which also includes Microsoft, can use event subscribers.  
+-   A *subscriber* listens for and handles a published event. A subscriber is an AL method that subscribes to a specific event publisher method and includes the logic for handling the event. When an event is raised, the subscriber method is called and its code is run. A subscriber enables partners to hook into the core application functionality without having to do traditional code modifications. Any [!INCLUDE[d365fin_long_md](includes/navnow_md.md)] solution provider, which also includes Microsoft, can use event subscribers.  
   
  There can by multiple subscribers to a single event publisher function. However, a publisher has no knowledge of subscribers, if any. Subscribers can reside in different parts of the application than publishers.  
   
@@ -61,8 +61,9 @@ You can use events to design the application to react to specific actions or beh
 [Publishing Events](devenv-publishing-events.md)  
 [Raising Events](devenv-raising-events.md)  
 [Subscribing to Events](devenv-subscribing-to-events.md)  
-[Debugging Events](devenv-debugging-events.md)  
+[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)  
 <!--NAV
+[Debugging Events](devenv-debugging-events.md)  
 [Best Practices with Microsoft Dynamics 365 for Financials](devenv-events-best-practices.md)  
  [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough--Publishing--Raising--and-Subcribing-to-an-Event-in-Microsoft-Dynamics-NAV.md)  
 [Walkthrough: Implementing New Workflow Events and Responses](Walkthrough--Implementing-New-Workflow-Events-and-Responses.md)  -->

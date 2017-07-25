@@ -1,7 +1,7 @@
 ---
 title: "ISTEMPORARY Method (Record)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -33,7 +33,7 @@ Temp := Record.ISTEMPORARY
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the record refers to a temporary table; otherwise, **false**.  
+ **True** if the record refers to a temporary table; otherwise, **false**.  
   
 ## See Also  
  [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
