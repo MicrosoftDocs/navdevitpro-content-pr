@@ -13,8 +13,8 @@ ms.assetid: d1a3d947-ab5a-4c56-b5bf-36f0a13eda66
 caps.latest.revision: 65
 manager: edupont
 ---
-# Feature Limitations of the Microsoft Dynamics NAV Web Client
-[!INCLUDE[nav_web](includes/nav_web_md.md)] supports most of the same [!INCLUDE[navnow](includes/navnow_md.md)] objects and features as [!INCLUDE[nav_windows](includes/nav_windows_md.md)], but there are some small differences. This topic lists the features that are not supported or are partially supported by [!INCLUDE[nav_web](includes/nav_web_md.md)]. These features are listed compared with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The topic is divided into the following sections:  
+# Feature Differences Between the Dynamics NAV Windows and Web Clients
+The [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_windows](includes/nav_windows_md.md)] support almost of same features, with no difference in behavior and usage. However there are some features that are slightly different in one client versus the other, and some features that are only one client, and not the other. This topic highlights some of the more common differences.   
 
 -   [General Features](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client.md#General)  
 
@@ -34,20 +34,20 @@ manager: edupont
 ##  <a name="General"></a> General Features  
  The following table lists general features that are not fully supported by [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 
-|Feature|Level of support|Remarks|  
+|Feature|Windows client|Web client|  
 |-------------|----------------------|-------------|  
-|COM and Automation|Not supported.|If a [!INCLUDE[navnow](includes/navnow_md.md)] object implements Automation \(objects and servers\), then an error occurs when the object is run in [!INCLUDE[nav_web](includes/nav_web_md.md)].|  
-|Departments and MenuSuite|Not supported.|The **Departments** button does not appear in the navigation pane of Role Center in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Instead Page Search is available from an action in the navigation pane of the Role Center and on the top right corner of a page. MenuSuite is used to build the Departments page in [!INCLUDE[nav_windows](includes/nav_windows_md.md)].|  
-|System Indicator|Not supported.|The [!INCLUDE[nav_web](includes/nav_web_md.md)] always shows the name of the company that it connects to.|  
-|Microsoft .NET Framework Interoperability|Partially supported.|Microsoft .NET Framework interoperability objects that are configured to run on the client are not supported; objects that run on [!INCLUDE[nav_server](includes/nav_server_md.md)] are supported. For more information, see [How to: Set .NET Framework Types to Run on the Microsoft Dynamics NAV Windows Client or Microsoft Dynamics NAV Server Computers](How-to--Set-.NET-Framework-Types-to-Run-on-the-Microsoft-Dynamics-NAV-Windows-Client-or-Microsoft-Dynamics-NAV-Server-Computers.md).|  
-|Configuring the user interface for a profile|Partially supported.|You cannot perform configuration using the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Instead, you use the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [Configuring and Personalizing the Microsoft Dynamics Web Client](Configuring-and-Personalizing-the-Microsoft-Dynamics-Web-Client.md).|  
+|Departments and MenuSuite|Yes|No. The pages can be accessed by using Search.|  
+|System Indicator|Yes|No. The [!INCLUDE[nav_web](includes/nav_web_md.md)] always shows the name of the company that it connects to.|  
+|Microsoft .NET Framework Interoperability|Yes|Partially. Microsoft .NET Framework interoperability objects that are configured to run on the client are not supported; objects that run on [!INCLUDE[nav_server](includes/nav_server_md.md)] are supported. For more information, see [How to: Set .NET Framework Types to Run on the Microsoft Dynamics NAV Windows Client or Microsoft Dynamics NAV Server Computers](How-to--Set-.NET-Framework-Types-to-Run-on-the-Microsoft-Dynamics-NAV-Windows-Client-or-Microsoft-Dynamics-NAV-Server-Computers.md).|  
+|Configuring the user interface for a profile|Yes|Partial. You cannot perform configuration using the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Instead, you use the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [Configuring and Personalizing the Microsoft Dynamics Web Client](Configuring-and-Personalizing-the-Microsoft-Dynamics-Web-Client.md).|  
+|COM and Automation|Not supported.| Yes | No.<br /><br />If an  [!INCLUDE[navnow](includes/navnow_md.md)] object implements Automation \(objects and servers\), then an error occurs when the object is run in [!INCLUDE[nav_web](includes/nav_web_md.md)].|  
 
 ##  <a name="Objects"></a> Objects  
  The following object types are not supported by [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 
-|Feature|Level of support|Remarks|  
+|Feature|Windows client|Web client|  
 |-------------|----------------------|-------------|  
-|XMLport|Partially supported.|Request pages are not supported. If you try to run an XMLport with a request page from the [!INCLUDE[nav_web](includes/nav_web_md.md)], then you receive an error that the XMLport page type is not supported.<br /><br /> To run an XMLport without using a request page, you can set the [UseRequestPage Property](UseRequestPage-Property.md) of the XMLport in XML Designer to **No**. Or, if the XMLport is run from C/AL code by calling the [RUN Function \(XMLport\)](RUN-Function--XMLport-.md), then you can set the *ReqWindow* parameter to **false**.|  
+|XMLport|Yes|Partially. Request pages are not supported. If you try to run an XMLport with a request page from the [!INCLUDE[nav_web](includes/nav_web_md.md)], then you receive an error that the XMLport page type is not supported.<br /><br /> To run an XMLport without using a request page, you can set the [UseRequestPage Property](UseRequestPage-Property.md) of the XMLport in XML Designer to **No**. Or, if the XMLport is run from C/AL code by calling the [RUN Function \(XMLport\)](RUN-Function--XMLport-.md), then you can set the *ReqWindow* parameter to **false**.|  
 
 ##  <a name="Page"></a> Pages Features  
  This section includes page features that are not fully supported by [!INCLUDE[nav_web](includes/nav_web_md.md)].  
