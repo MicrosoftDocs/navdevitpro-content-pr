@@ -60,7 +60,7 @@ Ok := FieldRef.ACTIVE
 |Text000|Field %1 is enabled.|  
 |Text001|Field %1 is not enabled.|  
 
-```  
+```yaml  
 
 Recref.OPEN(18);  
 MyFieldRef := Recref.FIELD(1);  
