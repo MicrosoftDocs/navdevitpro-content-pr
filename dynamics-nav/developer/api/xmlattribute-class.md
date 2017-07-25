@@ -2,7 +2,7 @@
 title: "XmlAttribute Class"
 ms.author: solsen
 ms.custom: na
-ms.date: 27/06/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -49,3 +49,4 @@ The following methods are available on the XmlAttribute class.
 ## See Also
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
+[HTTP, JSON, and XML API](../devenv-restapi-overview.md)  

@@ -2,7 +2,7 @@
 title: "ReplaceWith Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 27/06/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
