@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 68a78e4f-d6f2-4286-8e7b-d5ba27705f9e
 caps.latest.revision: 14
 manager: edupont
@@ -90,4 +90,4 @@ MESSAGE(Text000 + Text001 + '%1\' +Text002 + '%2', Number, Text);
   
 ## See Also  
  [Dialog Data Type](../datatypes/devenv-Dialog-Data-Type.md)   
- [Configuring NAS Services](Configuring-NAS-Services.md)
+ <!--NAV [Configuring NAS Services](Configuring-NAS-Services.md)-->

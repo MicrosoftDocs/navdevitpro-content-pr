@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 3a77faff-8804-4b90-aba5-445b03debc7a
 caps.latest.revision: 6
 manager: edupont
@@ -68,6 +68,6 @@ Runs a specific report without a request page and saves the report as a PDF, Exc
 
 ## See Also  
  [Report Object](../devenv-report-object.md)   
- [Request Pages](Request-Pages.md)   
+ <!--Links [Request Pages](Request-Pages.md)-->   
  [EXECUTE Method](devenv-EXECUTE-Method.md)   
  [PRINT Method](devenv-PRINT-Method.md)

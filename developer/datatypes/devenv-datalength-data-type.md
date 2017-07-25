@@ -1,7 +1,11 @@
 ---
 title: "DataLength Data Type"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/27/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 5aeb3c81-dca9-4df6-98dc-322153eca056
 caps.latest.revision: 6
-author: SusanneWindfeldPedersen
 ---
 # DataLength Data Type
 Sets the maximum length of data stored in this field.  

@@ -1,6 +1,6 @@
 ---
 title: "XmlNamespaceManager Class"
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ms.custom: na
 ms.date: 30/06/2017
 ms.reviewer: na
@@ -14,7 +14,11 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # XmlNamespaceManager Class
+Resolves, adds, and removes namespaces to a collection and provides scope management for these namespaces.
+
 The following methods are available on the XmlNamespaceManager class.  
   
 |Method name|Description|  
@@ -29,4 +33,4 @@ The following methods are available on the XmlNamespaceManager class.
 |[XmlNamespaceManager.PopScope()](xmlnamespacemanager-popscope-method.md)|Pops a namespace scope off the stack.|  
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

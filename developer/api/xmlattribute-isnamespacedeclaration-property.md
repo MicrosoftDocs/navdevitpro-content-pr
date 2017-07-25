@@ -1,6 +1,6 @@
 ---
 title: "IsNamespaceDeclaration Property"
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ms.custom: na
 ms.date: 27/06/2017
 ms.reviewer: na
@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # IsNamespaceDeclaration Property
 Determines if this attribute is a namespace declaration.  
 ```  
@@ -25,4 +27,4 @@ IsNamespaceDeclaration := XmlAttribute.IsNamespaceDeclaration
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

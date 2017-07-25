@@ -1,6 +1,6 @@
 ---
 title: "SelectSingleNode Method"
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ms.custom: na
 ms.date: 30/06/2017
 ms.reviewer: na
@@ -13,6 +13,8 @@ caps.latest.revision: 1
 manager: edupont
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # SelectSingleNode Method
 Selects the first XmlNode that matches the XPath expression.  
@@ -36,4 +38,4 @@ If you omit this optional return value and the operation does not execute succes
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

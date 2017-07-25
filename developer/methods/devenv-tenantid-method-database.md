@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 070737cc-4fda-4fa9-84c6-976473d7e2e0
 caps.latest.revision: 3
 ---
@@ -31,6 +31,6 @@ ID := TENANTID
  The ID of the tenant that has started the current session.  
   
 ## See Also  
- [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md)   
+ <!--Links [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md)-->   
  [COMPANYNAME Method \(Database\)](devenv-COMPANYNAME-Method-Database.md)   
  [Database Methods](devenv-database-methods.md)

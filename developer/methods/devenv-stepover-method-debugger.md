@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 06c982d7-04f9-420b-9cc2-a92e8f1d76a5
 caps.latest.revision: 4
 manager: edupont
@@ -31,6 +31,6 @@ Executes a method call and then stops at the first line outside the method call.
  If you omit this optional return value and if the break is not set successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## See Also  
- [Breakpoints](Breakpoints.md)   
+<!--Links [Breakpoints](Breakpoints.md) -->  
  [STEPINTO Method \(Debugger\)](devenv-STEPINTO-Method-Debugger.md)   
  [STEPOUT Method \(Debugger\)](devenv-STEPOUT-Method-Debugger.md)

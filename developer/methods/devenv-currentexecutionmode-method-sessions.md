@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 8381d595-c371-4b95-b0f6-c66164976819
 caps.latest.revision: 4
 manager: edupont
@@ -48,4 +48,4 @@ MESSAGE('Current execution mode is %1.', Mode);
 
 ## See Also  
  [Session Methods](devenv-session-methods.md)   
- [Debugging](Debugging.md)
+ <!--Links [Debugging](Debugging.md) -->

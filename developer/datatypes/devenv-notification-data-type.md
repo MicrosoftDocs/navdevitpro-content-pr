@@ -1,12 +1,15 @@
 ---
 title: "Notification Data Type"
+description: 
+author: SussaneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/08/2017
+ms.date: 07/07/2017
+ms.author: jswymer
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.author: jswymer
 ms.prod: "dynamics-nav-2017"
 ---
 # Notification Data Type

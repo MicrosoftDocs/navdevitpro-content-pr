@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 58897231-df6f-4958-baf2-55a2ce23bde6
 caps.latest.revision: 7
 manager: edupont
@@ -26,5 +26,4 @@ The following AL methods for variables are available:
 [EVALUATE Method](devenv-EVALUATE-Method.md)  
   
 ## See Also  
- [Technical Reference](../devenv-technical-reference.md)   
- [AL Reference Guide](../AL-Reference-Guide.md)
+ [AL Reference Guide](../devenv-AL-Reference-Guide.md)

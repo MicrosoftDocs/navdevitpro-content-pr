@@ -3,14 +3,14 @@ title: "Table Object"
 description: "Description of the table object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 12/06/2016
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 caps.latest.revision: 18
 ---
 
@@ -85,4 +85,4 @@ table 70000030 Address
 [Table Extension Object](devenv-table-ext-object.md)  
 [Developer Reference](devenv-reference-overview.md)  
 [Table Keys](devenv-table-keys.md)  
-[Table Properties](../properties/devenv-table-properties.md)
+[Table Properties](properties/devenv-table-properties.md) 

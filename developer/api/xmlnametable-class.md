@@ -1,6 +1,6 @@
 ---
 title: "XmlNameTable Class"
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ms.custom: na
 ms.date: 30/06/2017
 ms.reviewer: na
@@ -14,13 +14,18 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # XmlNameTable Class
+Table of automized string object.
+
 The following methods are available on the XmlNameTable class.  
   
 |Method name|Description|  
 |-----------|-----------|  
 |[XmlNameTable.Add(String)](xmlnametable-add-method.md)|Atomizes the specified string and adds it to the NameTable.|  
 |[XmlNameTable.Get(String, Text)](xmlnametable-get-method.md)|Gets the atomized string with the specified value.|  
+
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

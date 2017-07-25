@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 83dda5c6-a608-49ca-9eb1-19f49c91088e
 caps.latest.revision: 4
 manager: edupont
@@ -38,5 +38,5 @@ TestPage.Action.INVOKE
  All actions that are available on the page are also available on the test page.  
   
 ## See Also  
- [Test Pages](Test-Pages.md)   
+ <!--Links [Test Pages](Test-Pages.md) -->   
  [TestPage Methods](devenv-TestPage-Methods.md)

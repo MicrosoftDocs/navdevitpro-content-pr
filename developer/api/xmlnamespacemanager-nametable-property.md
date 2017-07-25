@@ -1,6 +1,6 @@
 ---
 title: "NameTable Property"
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ms.custom: na
 ms.date: 30/06/2017
 ms.reviewer: na
@@ -13,6 +13,8 @@ caps.latest.revision: 1
 manager: edupont
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # NameTable Property
 Gets or sets the XmlNameTable associated with this object.  
@@ -30,4 +32,4 @@ The new XmlNameTable to associate with this object. Setting the NameTable will r
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

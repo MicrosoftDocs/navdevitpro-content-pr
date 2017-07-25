@@ -8,7 +8,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 1208c431-8d3d-4cc7-9696-98533d992ebb
 caps.latest.revision: 3
 ---
@@ -45,7 +45,7 @@ Imports data from a file that has been exported from a [!INCLUDE[d365fin_md](../
  Create a variable of type Boolean to specify this parameter.  
 
 > [!IMPORTANT]  
->  To import application objects, you must use the **Import-NAVData** Windows PowerShell cmdlet. For more information, see [Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md).  
+>  To import application objects, you must use the **Import-NAVData** Windows PowerShell cmdlet. For more information, see <!--Links[Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md) -->.  
 
  *IncludeGlobalData*  
  Type: Variable  
@@ -60,6 +60,6 @@ Imports data from a file that has been exported from a [!INCLUDE[d365fin_md](../
  Specifies the company or companies that must be imported.  
 
 ## See Also  
-[Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md)  
+<!--Links[Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md) -->  
 [EXPORTDATA Method \(Database\)](devenv-EXPORTDATA-Method-Database.md)  
 [Database Methods](devenv-database-methods.md)  

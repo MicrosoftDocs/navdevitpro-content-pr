@@ -73,7 +73,7 @@ The [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_windows](inclu
 ||RowSpan|Not supported.||  
 ||AssistEdit|Partially supported.|The **AssistEdit** button never appears on a field that has the data type Option.|  
 |Part|ChartPartID|Not supported.|If a page contains a Chart part, then the part is ignored and nothing appears for the part in the [!INCLUDE[nav_web](includes/nav_web_md.md)].|  
-||SystemPartID|Partially supported.|[!INCLUDE[nav_web](includes/nav_web_md.md)] supports Notes and RecordLinks system parts, but not Outlook and MyNotes.|  
+||SystemPartID|Partially supported.|[!INCLUDE[nav_web](includes/nav_web_md.md)] supports Notes and RecordLinks system parts, but not Outlook and MyNotes system parts. RecordLinks only supports access to URLs and resources on file shares; files that are stored locally on the user's computer cannot be accessed. |  
 ||PartType|Partially supported.|The **Chart** option is not supported. If a page contains a Chart part or an unsupported System part, then the part is ignored and nothing appears for the part in the [!INCLUDE[nav_web](includes/nav_web_md.md)].|  
 
 ##  <a name="Report"></a> Report Features  

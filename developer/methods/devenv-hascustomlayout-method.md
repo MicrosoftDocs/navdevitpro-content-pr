@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 721512fc-5ebc-49cb-a50a-5f9fbda62e91
 caps.latest.revision: 6
 manager: edupont
@@ -67,7 +67,7 @@ EXIT(0);
 ```  
   
 ## See Also  
- [Customizing Report Layout Implementation in Codeunit 1](Customizing-Report-Layout-Implementation-in-Codeunit-1.md)   
+ <!--Links [Customizing Report Layout Implementation in Codeunit 1](Customizing-Report-Layout-Implementation-in-Codeunit-1.md) -->  
  [REPORT.RUN Method](devenv-REPORT-RUN-Method.md)   
  [SAVEASWORD Method \(REPORT\)](devenv-SAVEASWORD-Method-REPORT.md)   
  [SAVEASPDF Method \(Report\)](devenv-SAVEASPDF-Method-Report.md)   

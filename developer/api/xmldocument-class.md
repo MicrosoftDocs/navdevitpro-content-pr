@@ -1,6 +1,6 @@
 ---
 title: "XmlDocument Class"
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ms.custom: na
 ms.date: 30/06/2017
 ms.reviewer: na
@@ -14,7 +14,11 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # XmlDocument Class
+Represents an XML document. This class can be used to load, validate, edit, add, and position XML in a document.
+
 The following methods are available on the XmlDocument class.  
   
 |Method name|Description|  
@@ -54,4 +58,4 @@ The following methods are available on the XmlDocument class.
 |[XmlDocument.GetDescendantElements(String, String)](xmldocument-getdescendantelements-localname-namespaceuri-method.md)|Gets a list containing the descendant elements for this document, in document order.|  
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: f3930bd5-9734-4d1a-8f78-1c7b44a59b4c
 caps.latest.revision: 7
 manager: edupont
@@ -129,4 +129,4 @@ REPORT.PRINT(206,XmlParameters);
 
 ## See Also  
  [Report Object](../devenv-report-object.md)   
- [Request Pages](Request-Pages.md)
+ <!--Links [Request Pages](Request-Pages.md)-->

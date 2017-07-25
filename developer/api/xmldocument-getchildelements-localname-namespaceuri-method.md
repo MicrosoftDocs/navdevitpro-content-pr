@@ -1,6 +1,6 @@
 ---
 title: "GetChildElements Method"
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ms.custom: na
 ms.date: 30/06/2017
 ms.reviewer: na
@@ -13,6 +13,8 @@ caps.latest.revision: 1
 manager: edupont
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # GetChildElements Method
 Gets a list containing the child elements for this document, in document order.  
@@ -34,4 +36,4 @@ The namespace URI of the elements to retrieve.
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

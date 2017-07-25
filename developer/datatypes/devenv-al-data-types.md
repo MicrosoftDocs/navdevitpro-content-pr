@@ -1,7 +1,11 @@
 ---
 title: "AL Data Types"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 976c36b9-f2bf-4cd5-8ad7-ff3b5eb0cf26
 caps.latest.revision: 44
-author: SusanneWindfeldPedersen
 ---
 # AL Data Types
 AL uses variables to store data of various types. By declaring variables of the correct type, you do the following:  
@@ -394,4 +397,4 @@ MAXSTRLEN(t); // Returns 6.
  To declare a variable as an array, open the **Properties** window for the variable and then set the **Dimensions** property. For more information, see [Dimensions Property](../properties/devenv-dimensions-property.md).
 
 ## See Also
-[AL Methods](../methods/devenv-al-methods.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

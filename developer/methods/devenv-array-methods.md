@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: c4141c46-ce87-480a-98eb-390a0fe0573b
 caps.latest.revision: 3
 ---
@@ -23,4 +23,4 @@ The following AL methods for arrays are available:
 [COPYARRAY Method](devenv-COPYARRAY-Method.md)
 
 ## See Also  
- [AL Methods](devenv-al-methods.md)  
+ [AL Method Reference](devenv-al-method-reference.md)  

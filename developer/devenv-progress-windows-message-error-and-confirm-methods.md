@@ -1,7 +1,7 @@
 ---
 title: "Progress Windows, MESSAGE, ERROR, and CONFIRM Methods"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -22,9 +22,9 @@ You can use several specialized methods to display messages and gather input. We
 
 -   To let the user confirm a choice before the program continues running.  
 
- You can also use the STRMENU method to create pages that present options to the user. It is much faster to use this method than to design a page which only presents a limited set of options to the user. For more information about the STRMENU method, see [STRMENU Method](devenv-STRMENU-Method.md).  
+ You can also use the STRMENU method to create pages that present options to the user. It is much faster to use this method than to design a page which only presents a limited set of options to the user. For more information about the STRMENU method, see [STRMENU Method](methods/devenv-STRMENU-Method.md).  
 
-## Best Practices for User Messages  
+## Best practices for user messages  
  We recommend the following guidelines for writing messages for end users:  
 
 -   Write messages correctly according to the grammatical rules for your language.  
@@ -39,16 +39,16 @@ You can use several specialized methods to display messages and gather input. We
 
 -   Do not enter the text directly in the AL code. Instead, enter it as a text constant so that the message can be translated.  
 
-## Creating a Window to Indicate Progress  
+## Creating a window to indicate progress  
  If you have an application that performs some processing that can take a long time to complete, then you should consider displaying a window that informs the user of the progress that is being made. It is always a good idea to inform the user that processes are still running.  
 
  A **Cancel** button is automatically added to every dialog window and gives the user the opportunity to stop the processing.  
 
  In some applications, you may want to create a window in which each field is updated when the program is running. For example, the fields in the window display the count of the number of postings made. In another application, you may want to display information about the record that is currently being processed. For example, the field in the window displays the number of the account that is currently being processed.  
 
- To create this kind of progress window, you use the Dialog data type. For more information, see [How to: Create a Progress Window](How-to-Create-a-Progress-Window.md).  
+ To create this kind of progress window, you use the Dialog data type. <!-- For more information, see [How to: Create a Progress Window](How-to-Create-a-Progress-Window.md).   -->
 
-## MESSAGE Method  
+## MESSAGE method  
  The [MESSAGE Method \(Dialog\)](methods/devenv-MESSAGE-Method-Dialog.md) displays a message in a window that remains open until the user chooses the **OK** button.  
 
  The MESSAGE method has the following syntax.  
@@ -72,7 +72,7 @@ MESSAGE(Text001,"No.",SalesHeader2."No.");
 > [!NOTE]  
 >  Unlike the progress window, the MESSAGE method does not require that you first declare a variable of type Dialog. The MESSAGE method creates a window of its own.  
 
-## ERROR Method  
+## ERROR method  
  The [ERROR Method \(Dialog\)](methods/devenv-ERROR-Method-Dialog.md) is very similar to the MESSAGE method except that when the user has acknowledged the message from an ERROR method, execution ends. The ERROR method is also similar to the FIELDERROR method. For more information, see [CALCFIELDS, CALCSUMS,FIELDERROR, FIELDNAME, INIT, TESTFIELD, and VALIDATE Methods](devenv-CALCFIELDS-CALCSUMS-FIELDERROR-FIELDNAME-INIT-TESTFIELD-and-VALIDATE-Methods.md).  
 
  The ERROR method has the following syntax.  
@@ -81,7 +81,7 @@ MESSAGE(Text001,"No.",SalesHeader2."No.");
 ERROR(String [, Value1, ...])  
 ```  
 
-## CONFIRM Method  
+## CONFIRM method  
  The [CONFIRM Method \(Dialog\)](methods/devenv-CONFIRM-Method-Dialog.md) is used just like the MESSAGE method to display a message. However, unlike the MESSAGE method, the CONFIRM method has a required return value.  
 
  The CONFIRM method has the following syntax.  

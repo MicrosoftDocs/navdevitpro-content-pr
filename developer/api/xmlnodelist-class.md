@@ -1,6 +1,6 @@
 ---
 title: "XmlNodeList Class"
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ms.custom: na
 ms.date: 30/06/2017
 ms.reviewer: na
@@ -14,7 +14,11 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # XmlNodeList Class
+Represents an ordered collection of nodes.
+
 The following methods are available on the XmlNodeList class.  
   
 |Method name|Description|  
@@ -23,4 +27,4 @@ The following methods are available on the XmlNodeList class.
 |[XmlNodeList.Get(Integer, XmlNode)](xmlnodelist-get-method.md)|Gets a node at the given index.|  
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

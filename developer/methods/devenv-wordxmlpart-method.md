@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: dec4ab66-1811-490b-9fb2-c4504a39d4f8
 caps.latest.revision: 19
 manager: edupont
@@ -104,5 +104,6 @@ SalesStatsReport.CLOSE;
 
  The code generates the report structure as XML, and then writes the XML to the file *C:\\Report Documents\\SalesStatsReport.xml*.  
 
+<!--Links
 ## See Also  
- [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)
+ [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)-->

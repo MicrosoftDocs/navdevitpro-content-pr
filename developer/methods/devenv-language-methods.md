@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 3bdc4c96-7979-4583-8ddc-fab296e81d36
 caps.latest.revision: 4
 manager: edupont
@@ -22,4 +22,4 @@ The following AL methods for langauge are available:
 [WINDOWSLANGUAGE Method](devenv-WINDOWSLANGUAGE-Method.md)
 
 ## See Also
-[AL Methods](devenv-al-methods.md)  
+[AL Method Reference](devenv-al-method-reference.md)  

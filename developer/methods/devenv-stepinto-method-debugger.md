@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 63acfb1d-c14e-42a5-87fe-7ed401324647
 caps.latest.revision: 4
 manager: edupont
@@ -33,4 +33,4 @@ Executes a method call and then stops at the first line of code inside the metho
 ## See Also  
  [STEPOVER Method \(Debugger\)](devenv-STEPOVER-Method-Debugger.md)   
  [STEPOUT Method \(Debugger\)](devenv-STEPOUT-Method-Debugger.md)   
- [Breakpoints](Breakpoints.md)
+ <!--Links [Breakpoints](Breakpoints.md)-->

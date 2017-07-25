@@ -1,6 +1,6 @@
 ---
 title: "AsXmlDeclaration Method"
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ms.custom: na
 ms.date: 30/06/2017
 ms.reviewer: na
@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
+
 # AsXmlDeclaration Method
 Converts the node to an XmlDeclaration node. The operation will fail if the node is not an XmlDeclaration.  
 ```  
@@ -25,4 +27,4 @@ XmlDeclaration := XmlNode.AsXmlDeclaration()
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

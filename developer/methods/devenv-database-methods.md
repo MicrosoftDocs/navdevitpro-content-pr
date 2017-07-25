@@ -60,6 +60,6 @@ The following AL methods for operations on the database are available.
 [USERID Method \(Sessions\)](devenv-USERID-Method-Sessions.md)  
 
 ## See Also  
- [AL Methods](devenv-al-methods.md)   
+ [AL Method Reference](devenv-al-method-reference.md)   
  [AL Reference Guide](../devenv-al-reference-guide.md)   
- [Development](devenv-Development.md)
+ <!--Links [Development](devenv-Development.md) -->

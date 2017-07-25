@@ -1,7 +1,11 @@
 ---
 title: "Decimal Data Type"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 1dbd3bd0-9cd2-4e2a-a959-3942fcca60ee
 caps.latest.revision: 13
-author: SusanneWindfeldPedersen
 ---
 # Decimal Data Type
 This simple data type denotes decimal numbers ranging from -999,999,999,999,999.99 to +999,999,999,999,999.99.  
