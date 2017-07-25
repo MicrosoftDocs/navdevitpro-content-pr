@@ -18,13 +18,15 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 # Keyboard Shortcuts
 The following table provides an overview of some of the shortcut key combinations that you can use when you're working with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Visual Studio Code. For a complete overview, see [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/customization/keybindings)
 
-## AL extension 
+## AL 
 |Keyboard Shortcut| Action|
 |-----------------|-------|
+|Ctrl+Shift+P|Show All Commands|
 |Ctrl+F7|Download source code|
 |Alt+A Alt+L|Go!|
 |Ctrl+Shift+B|Package|
-|F5|Publish|
+|F5|Publish|  
+|Ctrl+F5|Publish without debugging|  
 |F6|Publish and open the designer|
 |Ctrl+F2|Update the compiler used by the service tier(s)|
 
@@ -57,6 +59,6 @@ The following table provides an overview of some of the shortcut key combination
 |F5|Build and deploy|
 
 ## See Also
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)  
+[Developing Extensions](devenv-dev-overview.md)  
 [Getting Started](devenv-get-started.md)    
 [Developer Reference](devenv-reference-overview.md)
