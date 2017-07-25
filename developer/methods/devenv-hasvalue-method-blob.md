@@ -1,12 +1,12 @@
 ---
 title: "HASVALUE Method (BLOB)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/30/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 9f814d8d-d535-4e0b-8989-e0248930456d
 caps.latest.revision: 10
 manager: edupont
@@ -33,7 +33,7 @@ HasValue := Blob.HASVALUE
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the BLOB has a value; otherwise, **false**.  
+ **True** if the BLOB has a value; otherwise, **false**.  
   
 ## See Also  
  [BLOB Data Type](../datatypes/devenv-BLOB-Data-Type.md)

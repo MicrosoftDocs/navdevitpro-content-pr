@@ -1,8 +1,8 @@
 ---
 title: "HttpResponseMessage Class"
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ms.custom: na
-ms.date: 03/28/2017
+ms.date: 06/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -13,6 +13,8 @@ caps.latest.revision: 9
 manager: edupont
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # HttpResponseMessage Class
 
@@ -31,4 +33,4 @@ The following methods are available on the HttpResponseMessage class.
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)

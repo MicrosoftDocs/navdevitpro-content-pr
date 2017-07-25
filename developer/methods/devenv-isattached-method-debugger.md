@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 68960c6f-aaf4-4dde-9840-7eac4a2e0279
 caps.latest.revision: 4
 manager: edupont
@@ -31,4 +31,4 @@ Ok := ISATTACHED
   
 ## See Also  
  [ATTACH Method \(Debugger\)](devenv-ATTACH-Method-Debugger.md)   
- [How to: Activate the Debugger from the Development Environment](How-to--Activate-the-Debugger-from-the-Development-Environment.md)
+ <!--Links [How to: Activate the Debugger from the Development Environment](How-to--Activate-the-Debugger-from-the-Development-Environment.md)-->

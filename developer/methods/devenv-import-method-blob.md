@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 21394df3-3a62-40ee-b56a-7e7ae2d2f1a0
 caps.latest.revision: 13
 manager: edupont
@@ -46,7 +46,7 @@ Imports a binary large object \(BLOB\).
  *CommonDialog*  
  Type: Boolean  
 
- Specifies whether you want to display an import dialog box before the BLOB is imported. This dialog box lets you select the file that you want to import. Based on the [SubType Property \(BLOB\)](../propeties/devenv-subtype-blob-property.md), only the relevant file types are listed, such as bitmap files \(\*.bmp\), memo files \(\*.txt\), or all files \(\*.\*\).  
+ Specifies whether you want to display an import dialog box before the BLOB is imported. This dialog box lets you select the file that you want to import. Based on the [SubType Property \(BLOB\)](../properties/devenv-subtype-blob-property.md), only the relevant file types are listed, such as bitmap files \(\*.bmp\), memo files \(\*.txt\), or all files \(\*.\*\).  
 
  If the *CommonDialog* parameter is **true**, then [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] displays the import dialog box. If the *CommonDialog* parameter is **false** \(default\), then [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] does not display the import dialog box.  
 

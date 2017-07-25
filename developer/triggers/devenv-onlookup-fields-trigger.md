@@ -1,7 +1,11 @@
 ---
 title: "OnLookup (Fields) Trigger"
+description:
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/19/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -46,4 +50,4 @@ Causes the system to display a lookup page.
 >  The lookup for a non-editable field is not rendered. You can use the [OnDrillDown Trigger](devenv-ondrilldown-trigger.md) instead.
 
 ## See Also  
- [OnLookup \(Page fields\) Trigger](devenv-onlookup-page-fields-trigger.md)
+ [OnLookup (Page fields) Trigger](devenv-onlookup-page-fields-trigger.md)

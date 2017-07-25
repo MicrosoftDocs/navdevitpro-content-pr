@@ -1,7 +1,11 @@
 ---
 title: "OnPostReport Trigger"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/19/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -39,4 +43,6 @@ MESSAGE(Text000, NumberOfErrors);
  Because this trigger is executed before the End Write Transaction, you can also give the user the opportunity to roll back changes to the database by leaving the report with the [QUIT Method \(Report, XMLport\)](../methods/devenv-quit-method-report-xmlport.md).  
 
 ## See Also  
- [QUIT Method \(Report, XMLport\)](../methods/devenv-quit-method-report-xmlport.md)
+## See Also  
+ [Triggers](devenv-triggers.md)  
+ [QUIT Method (Report, XMLport)](../methods/devenv-quit-method-report-xmlport.md)

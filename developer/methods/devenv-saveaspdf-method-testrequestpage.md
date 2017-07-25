@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 38f043cb-bfa2-4301-8087-c5a0ed14b2e3
 caps.latest.revision: 7
 manager: edupont
@@ -43,11 +43,11 @@ TestRequestPage.SAVEASPDF(Filename)
 ## Example  
  The following example shows the code for a test method to run a report and a request page handler method to test the request page. This example requires that you create the following:  
   
--   A test codeunit called SaveAsPDF. For more information, see [How to: Create Test Codeunits and Test Methods](devenv-How-to--Create-Test-Codeunits-and-Test-Methods.md).  
+-   A test codeunit called SaveAsPDF. <!--Links For more information, see [How to: Create Test Codeunits and Test Methods](devenv-How-to--Create-Test-Codeunits-and-Test-Methods.md).-->  
   
--   A test method in the test codeunit called TestSaveAsPDF. For more information, see [How to: Create Test Codeunits and Test Methods](devenv-How-to--Create-Test-Codeunits-and-Test-Methods.md).  
+-   A test method in the test codeunit called TestSaveAsPDF. <!--Links For more information, see [How to: Create Test Codeunits and Test Methods](devenv-How-to--Create-Test-Codeunits-and-Test-Methods.md).-->  
   
--   A handler method of type RequestPageHandler called ReqPageHandler. This handler method has one parameter called RequestPage of Type TestRequestPage and Subtype Customer – Top 10 List. The RequestPage parameter is specified as VAR and is passed by reference to the handler method. For more information, see [How to: Create Handler Methods](devenv-How-to--Create-Handler-Methods.md).  
+-   A handler method of type RequestPageHandler called ReqPageHandler. This handler method has one parameter called RequestPage of Type TestRequestPage and Subtype Customer – Top 10 List. The RequestPage parameter is specified as VAR and is passed by reference to the handler method. <!--Links For more information, see [How to: Create Handler Methods](devenv-How-to--Create-Handler-Methods.md). --> 
   
  This example also requires that you create the following global variable of the SaveAsPDF codeunit.  
   
@@ -75,4 +75,4 @@ RequestPage.SAVEASPDF(Filename);
 ## See Also  
  [SAVEASEXCEL Method \(TestRequestPage\)](devenv-SAVEASEXCEL-Method-TestRequestPage.md)   
  [SAVEASWORD Method \(TestRequestPage\)](devenv-SAVEASWORD-Method-TestRequestPage.md)   
- [Testing the Application](Testing-the-Application.md)
+ <!--Links [Testing the Application](Testing-the-Application.md)-->  

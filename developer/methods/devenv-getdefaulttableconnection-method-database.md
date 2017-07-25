@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 28b41eb4-c57d-498f-afdb-460002850de9
 caps.latest.revision: 4
 ---
@@ -33,4 +33,4 @@ Name:= GETDEFAULTCONNECTIONTYPE(Type)
  [TableConnectionType Data Type](../datatypes/devenv-TableConnectionType-Data-Type.md)   
  [REGISTERTABLECONNECTION Method \(Database\)](devenv-REGISTERTABLECONNECTION-Method-Database.md)   
  [SETDEFAULTTABLECONNECTION Method \(Database\)](devenv-SETDEFAULTTABLECONNECTION-Method-Database.md)   
- [External Tables](External-Tables.md)
+ <!--Links [External Tables](External-Tables.md)-->

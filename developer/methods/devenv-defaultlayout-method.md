@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 32db8616-21ad-43e5-9fc6-2a77908063b8
 caps.latest.revision: 3
 manager: edupont
@@ -41,5 +41,5 @@ DefaultLayout := REPORT.DEFAULTLAYOUT(Number)
 
 ## See Also  
  [Report Object](../devenv-report-object.md)   
- [How to. Specify the Default Built-in Report Layout](How-to.-Specify-the-Default-Built-in-Report-Layout.md)   
- [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)
+ <!--Links [How to Specify the Default Built-in Report Layout](How-to-Specify-the-Default-Built-in-Report-Layout.md)   
+ [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)-->

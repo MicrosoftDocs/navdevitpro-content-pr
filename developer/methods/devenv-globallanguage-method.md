@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 9a14088c-b930-48d2-9516-e16e5db214c1
 caps.latest.revision: 9
 manager: edupont
@@ -34,7 +34,7 @@ Gets and sets the current global language setting.
 ## Remarks  
  The LanguageID is a standard Windows language ID. The Windows Language virtual table contains a list of these IDs and the corresponding names and short names.  
   
- For more information, see [Multilanguage Development](Multilanguage-Development.md).  
+ For more information, see [Multilanguage Development](../devenv-multilanguage-development.md).  
   
 ## See Also  
  [WINDOWSLANGUAGE Method](devenv-WINDOWSLANGUAGE-Method.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 9ca16239-3e08-450a-87c1-29d5b7764094
 caps.latest.revision: 2
 ---
@@ -77,4 +77,4 @@ ATown
   
 ## See Also  
  [SETCURRENTKEY Method \(Record\)](devenv-SETCURRENTKEY-Method-Record.md)   
- [OData Web Services](OData-Web-Services.md)
+ <!--Links [OData Web Services](OData-Web-Services.md)-->

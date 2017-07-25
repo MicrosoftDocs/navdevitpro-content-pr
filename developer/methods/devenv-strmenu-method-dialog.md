@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 0fd35393-b2ad-4303-a0e5-9f32d5bd5ca3
 caps.latest.revision: 15
 manager: edupont
@@ -28,7 +28,7 @@ OptionNumber := Dialog.STRMENU(OptionString [, DefaultNumber] [, Instruction])
  *OptionString*  
  Type: Code or text constant  
   
- A comma-separated string. Each substring in *OptionString* specifies an option on the menu. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
+ A comma-separated string. Each substring in *OptionString* specifies an option on the menu. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](../devenv-multilanguage-development.md).  
   
  *DefaultNumber*  
  Type: Integer  

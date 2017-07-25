@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 7eebb2b9-5ba8-4c3d-8af7-f22137387698
 caps.latest.revision: 4
 manager: edupont
@@ -37,5 +37,5 @@ Ok := ISACTIVE
 -   Waiting to attach to a session.  
   
 ## See Also  
- [Activating the Debugger](Activating-the-Debugger.md)   
- [How to: Activate the Debugger from the Development Environment](How-to--Activate-the-Debugger-from-the-Development-Environment.md)
+ <!--Links [Activating the Debugger](Activating-the-Debugger.md)    
+ [How to: Activate the Debugger from the Development Environment](How-to--Activate-the-Debugger-from-the-Development-Environment.md)-->  

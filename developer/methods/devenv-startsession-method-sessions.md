@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 5b45f707-c33c-4b93-8192-cf9f31a5f403
 caps.latest.revision: 13
 manager: edupont
@@ -29,7 +29,7 @@ Starts a [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] session without a UI 
 
  The ID of the new session that is started. The ID is assigned to the *SessionID* variable after the session is started successfully.  
 
- This parameter is passed by reference to the method. For more information about passing parameters by reference, see [AL Method Calls](AL-Method-Calls.md).  
+ This parameter is passed by reference to the method. For more information about passing parameters by reference, see [Parameters](../devenv-al-methods.md#Parameters).  
 
  *CodeunitID*  
  Type: Integer  
@@ -89,7 +89,7 @@ IF OK THEN
 ELSE  
   ERROR('The session was not started successfully.');  
 ```  
-
+<!--Links
 ## See Also  
  [Printing Reports from a Background Session](Printing-Reports-from-a-Background-Session.md)   
- [How to: Debug a Background Session](How-to--Debug-a-Background-Session.md)
+ [How to: Debug a Background Session](How-to--Debug-a-Background-Session.md)-->

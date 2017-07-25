@@ -1,0 +1,20 @@
+- name: Dynamics NAV
+  tocHref: /dynamics-nav/
+  topicHref: /dynamics-nav/index
+  items:
+  - name: New Development Environment
+    tocHref: /dynamics-nav/developer/
+    topicHref: /dynamics-nav/developer/devenv-dev-overview
+    items:
+    - name: Data Types
+      tocHref: /dynamics-nav/developer/
+      topicHref: /dynamics-nav/developer/datatypes/devenv-al-data-types
+    - name: Methods
+      tocHref: /dynamics-nav/developer/
+      topicHref: /dynamics-nav/developer/methods/devenv-al-method-reference
+    - name: Properties
+      tocHref: /dynamics-nav/developer/
+      topicHref: /dynamics-nav/developer/properties/devenv-properties
+    - name: Triggers
+      tocHref: /dynamics-nav/developer/
+      topicHref: /dynamics-nav/developer/triggers/devenv-triggers

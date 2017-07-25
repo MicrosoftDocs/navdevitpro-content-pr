@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: a6598c08-aeb0-466e-b5a9-d2374eff813b
 caps.latest.revision: 12
 manager: edupont
@@ -55,4 +55,4 @@ MESSAGE('The name of the table is: %1', TableName);
   
 ## See Also  
  [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
- [Multilanguage Development](Multilanguage-Development.md)
+ [Multilanguage Development](../devenv-multilanguage-development.md)

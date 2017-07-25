@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 651bb14b-8e07-44db-bcfd-7e743604bb0b
 caps.latest.revision: 18
 manager: edupont
@@ -28,7 +28,7 @@ ERROR(String [, Value1, …])
  *String*  
  Type: Text constant or code  
 
- This string contains the text of the error message you want to display to the user. Use percent signs \(%\) or number signs \(\#\) to insert variable values into the string. Place the percent or number signs where you want to substitute the variable value. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
+ This string contains the text of the error message you want to display to the user. Use percent signs \(%\) or number signs \(\#\) to insert variable values into the string. Place the percent or number signs where you want to substitute the variable value. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](../devenv-multilanguage-development.md).  
 
  *Value1, …*  
  Type: Any  

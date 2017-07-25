@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 4f0f85c5-ca77-4dc9-bf83-67ab2669dbc9
 caps.latest.revision: 4
 ---
@@ -34,6 +34,6 @@ UNREGISTERTABLECONNECTION(Type, Name)
  Specifies the name of the connection in your code, or the name of the primary key field on the table.  
   
 ## See Also  
- [External Tables](External-Tables.md)   
+ <!--Links [External Tables](External-Tables.md)-->   
  [TableConnectionType Data Type](../datatypes/devenv-TableConnectionType-Data-Type.md)   
  [REGISTERTABLECONNECTION Method \(Database\)](devenv-REGISTERTABLECONNECTION-Method-Database.md)

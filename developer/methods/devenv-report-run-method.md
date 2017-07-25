@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 58f49755-b127-4d3e-9ae5-289402bbe557
 caps.latest.revision: 17
 manager: edupont
@@ -42,7 +42,7 @@ REPORT.RUN(Number [, ReqWindow] [, SystemPrinter] [, Record])
  This parameter overrides the setting of the [UseRequestPage Property](../properties/devenv-UseRequestPage-Property.md) of the report. If you do not provide a value for the *ReqWindow* parameter, then the setting of the UseRequestPage property is used.  
 
 > [!IMPORTANT]  
->  Client-side printing is not supported<!--NAV by [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->. If you set this parameter to **false**<!--NAV and the report will be run on [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->, you must set up the report to print from the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)], otherwise an error occurs at runtime. For more information, see [How to: Specify Printer Selection for Reports](How-to--Specify-Printer-Selection-for-Reports.md) and [STARTSESSION Method \(Sessions\)](devenv-STARTSESSION-Method-Sessions.md).  
+>  Client-side printing is not supported<!--NAV by [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->. If you set this parameter to **false**<!--NAV and the report will be run on [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]-->, you must set up the report to print from the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)], otherwise an error occurs at runtime. For more information, see <!--Links [How to: Specify Printer Selection for Reports](How-to--Specify-Printer-Selection-for-Reports.md) and -->[STARTSESSION Method \(Sessions\)](devenv-STARTSESSION-Method-Sessions.md).  
 
  *SystemPrinter*  
  Type: Boolean  

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: c974ffb7-9d99-47d4-a16a-b29de54d071b
 caps.latest.revision: 3
 ---
@@ -33,6 +33,7 @@ Returns a RecordRef for the specified table.
   
  Specifies the reference.  
   
+<!--Links
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
- [How to: Develop an Extension](How-to--Develop-an-Extension.md)
+ [How to: Develop an Extension](How-to--Develop-an-Extension.md)-->

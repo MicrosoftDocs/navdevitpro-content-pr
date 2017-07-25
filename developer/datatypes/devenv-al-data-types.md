@@ -1,7 +1,11 @@
 ---
 title: "AL Data Types"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 976c36b9-f2bf-4cd5-8ad7-ff3b5eb0cf26
 caps.latest.revision: 44
-author: SusanneWindfeldPedersen
 ---
 # AL Data Types
 AL uses variables to store data of various types. By declaring variables of the correct type, you do the following:  
@@ -49,11 +52,10 @@ AL uses variables to store data of various types. By declaring variables of the 
 |[BigText Data Type](devenv-bigtext-data-type.md)|Complex||  
 |[BLOB Data Type](devenv-blob-data-type.md)|Complex||  
 |[Codeunit Data Type](devenv-codeunit-data-type.md)|Complex||  
-|[DateFormula Data Type](devenv-dateformula-data-type.md)|Complex||  
+|[DateFormula Data Type](devenv-date-formula-data-type.md)|Complex||  
 |[Dialog Data Type](devenv-dialog-data-type.md)|Complex||  
-|DotNet Data Type|Complex||  
 |[File Data Type](devenv-file-data-type.md)|Complex||  
-|[fieldref Data Type](devenv-fieldref-data-type.md)|Complex||  
+|[Fieldref Data Type](devenv-fieldref-data-type.md)|Complex||  
 |[GUID Data Type](devenv-guid-data-type.md)|Complex||  
 |[InStream and OutStream Data Types](devenv-instream-and-outstream-data-types.md)|Complex||  
 |[KeyRef Data Type](devenv-keyref-data-type.md)|Complex||  
@@ -395,5 +397,4 @@ MAXSTRLEN(t); // Returns 6.
  To declare a variable as an array, open the **Properties** window for the variable and then set the **Dimensions** property. For more information, see [Dimensions Property](../properties/devenv-dimensions-property.md).
 
 ## See Also
-[AL Methods](../methods/devenv-al-methods.md)  
-[AL Data Types]()  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

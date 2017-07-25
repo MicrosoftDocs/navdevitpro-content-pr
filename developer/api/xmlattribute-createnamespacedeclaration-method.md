@@ -1,6 +1,6 @@
 ---
 title: "CreateNamespaceDeclaration Method"
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ms.custom: na
 ms.date: 27/06/2017
 ms.reviewer: na
@@ -13,6 +13,8 @@ caps.latest.revision: 1
 manager: edupont
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # CreateNamespaceDeclaration Method
 Creates an attribute that represents a namespace declaration.  
@@ -34,4 +36,4 @@ The URI of the attribute. If the prefix is xmlns, then this parameter must be ht
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

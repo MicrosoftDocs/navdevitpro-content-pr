@@ -1,7 +1,11 @@
 ---
 title: "OnFindRecord Trigger"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/19/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -42,8 +46,8 @@ Overrides the default page behavior and enables you to specify which record you 
   
 |Value|Result|  
 |-----------|------------|  
-|TRUE|Found|  
-|FALSE|Not found \(default\)|  
+|true|Found|  
+|false|Not found (default)|  
   
 ## Applies To  
   

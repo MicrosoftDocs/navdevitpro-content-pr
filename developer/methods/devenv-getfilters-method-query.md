@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 4900997c-a171-4bbf-8939-5fecf6ac3f2a
 caps.latest.revision: 15
 manager: edupont
@@ -35,7 +35,7 @@ Filter := Query.GETFILTERS
  The **GETFILTERS** method returns the filters that are currently set for all data columns and filter rows by the [SETFILTER Method \(Query\)](devenv-SETFILTER-Method-Query.md) method, [SETRANGE Method \(Query\)](devenv-SETRANGE-Method-Query.md) method, and the [ColumnFilter Property](../properties/devenv-ColumnFilter-Property.md) in Query Designer. The **GETFILTER** method does not return filters that are set on a column's source field by the [DataItemTableFilter Property](../properties/devenv-DataItemTable-Filter-Property.md) in Query Designer or global filters that are set by the **FILTERGROUP** method.  
   
 > [!NOTE]  
->  A filter row is row in Query Designer that is used to filter on a field that is not included in the resulting dataset. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md).  
+>  A filter row is row in Query Designer that is used to filter on a field that is not included in the resulting dataset. <!--Links For more information, see [Understanding Query Filters](Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md). -->  
   
  You can call the **GETFILTERS** method multiple times and at any point in the code. If you call the **GETFILTERS** method before the first **SETFILTER** or **SETRANGE** method call, then the **GETFILTERS** method returns only filters that are set by the **ColumnFilter** property of the columns.  
   
@@ -99,6 +99,7 @@ MESSAGE(Text000, MyFilters);
   
  **The filters are as follows: Quantity > 10, Name = Selangorian Ltd.**  
   
+<!--Links
 ## See Also  
  [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md)   
- [Understanding Query Filters](Understanding-Query-Filters.md)
+ [Understanding Query Filters](Understanding-Query-Filters.md)-->

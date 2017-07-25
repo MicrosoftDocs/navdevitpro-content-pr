@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 4b1bcb52-fea1-4981-9b12-c8299f1893b4
 caps.latest.revision: 15
 manager: edupont
@@ -59,4 +59,4 @@ MESSAGE(varFieldCaption);
 ## See Also  
  [TABLECAPTION Method \(Record\)](devenv-TABLECAPTION-Method-Record.md)   
  [Record Data Type](../datatypes/devenv-Record-Data-Type.md)   
- [Multilanguage Development](Multilanguage-Development.md)
+ [Multilanguage Development](../devenv-multilanguage-development.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 4eba463e-d0ac-4b69-928a-07a671e2f814
 caps.latest.revision: 4
 manager: edupont
@@ -18,4 +18,4 @@ manager: edupont
 Access page actions by using the dot notation and the [INVOKE Method \(TestPage Action\)](devenv-INVOKE-Method-TestPage-Action.md).  
   
 ## See Also  
- [Test Pages](Test-Pages.md)
+<!--Links [Test Pages](Test-Pages.md) -->  

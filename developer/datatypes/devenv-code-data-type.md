@@ -1,7 +1,11 @@
 ---
 title: "Code Data Type"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 07/07/2017
+ms.author: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 5f0c3922-cf78-49a1-9143-466bffa29ab3
 caps.latest.revision: 21
-author: SusanneWindfeldPedersen
 ---
 # Code Data Type
 This simple data type denotes a special type of string that is converted to uppercase and removes any trailing or leading spaces.  
@@ -25,7 +28,7 @@ This simple data type denotes a special type of string that is converted to uppe
   
  You can index any character position in a string, such as A[65]. The resulting value will be a [Char Data Type](devenv-char-data-type.md).  
   
- Fields that contain a date formula must not have data type Code. Instead, use the [DateFormula Data Type](devenv-dateformula-data-type.md). All fields that contain a date formula with data type Code must be converted into data type DateFormula.  
+ Fields that contain a date formula must not have data type Code. Instead, use the [DateFormula Data Type](devenv-date-formula-data-type.md). All fields that contain a date formula with data type Code must be converted into data type DateFormula.  
   
  You cannot assign a char to a position in the code variable greater than the current length of the variable +1. For more information, see [Char Data Type](devenv-char-data-type.md).  
   

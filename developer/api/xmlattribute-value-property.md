@@ -1,6 +1,6 @@
 ---
 title: "Value Property"
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ms.custom: na
 ms.date: 27/06/2017
 ms.reviewer: na
@@ -13,6 +13,8 @@ caps.latest.revision: 1
 manager: edupont
 author: SusanneWindfeldPedersen
 ---
+
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # Value Property
 Gets or sets the value of the attribute.  
@@ -30,4 +32,4 @@ The new value of the attribute.
   
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

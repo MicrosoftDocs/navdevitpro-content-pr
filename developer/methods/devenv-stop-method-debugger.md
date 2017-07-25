@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-for-financials"
+ms.service: dynamics365-financials
 ms.assetid: 1e7dad68-bd57-4952-a36d-ed6eabec093b
 caps.latest.revision: 4
 manager: edupont
@@ -32,4 +32,4 @@ Stops execution as if the code hits an error.
   
 ## See Also  
  [Debugger Methods](devenv-debugger-methods.md)   
- [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)
+ <!--Links [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)-->
