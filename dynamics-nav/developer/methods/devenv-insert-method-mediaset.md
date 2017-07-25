@@ -44,7 +44,7 @@ Existing media objects are stored in the system table **2000000184 Tenant Media*
 ## Property Value/Return Value  
 Type: Boolean  
 
-**true** if the media is successfully added to the MediaSet; otherwise, **false**.
+**True** if the media is successfully added to the MediaSet; otherwise, **false**.
 
 ## Remarks  
 When media object is inserted in a MediaSet, it is assigned in index number. For more information, see [Indexing of media objects in a media set](../devenv-working-with-media-on-records.md#Indexing).

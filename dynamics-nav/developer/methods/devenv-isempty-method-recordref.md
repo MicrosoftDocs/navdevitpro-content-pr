@@ -1,7 +1,7 @@
 ---
 title: "ISEMPTY Method (RecordRef)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 07/13/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -32,7 +32,7 @@ Empty := RecordRef.ISEMPTY
 ## Property Value/Return Value  
  Type: Boolean  
 
- **true** if the record or table is empty; otherwise, **false**.  
+ **True** if the record or table is empty; otherwise, **false**.  
 
 ## Remarks  
  If you have not applied filters to the record, this method determines whether the table is empty. If you have applied filters, the method determines whether the filtered set of records is empty.  

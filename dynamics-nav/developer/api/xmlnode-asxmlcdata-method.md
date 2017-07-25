@@ -2,7 +2,7 @@
 title: "AsXmlCData Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 30/06/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

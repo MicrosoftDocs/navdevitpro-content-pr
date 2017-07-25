@@ -27,7 +27,7 @@ For more information about the Page and Page Extension objects, see [Pages Overv
 Typing the shortcut ```tpageext``` will create the basic layout for a table object when using the AL Extension in Visual Studio Code.
 
 ## Page extension examples
-The following page extension object extends the Customer Card page object by adding a field control ```ShoeSize``` to the ```General``` group on the page. The field control is added as the last control in the group using the ```addlast``` function. In the actions area, you can see what the syntax looks like for actions that execute triggers and actions that run objects.
+The following page extension object extends the Customer Card page object by adding a field control ```ShoeSize``` to the ```General``` group on the page. The field control is added as the last control in the group using the ```addlast``` method. In the actions area, you can see what the syntax looks like for actions that execute triggers and actions that run objects.
 
 ```
 pageextension 70000020 CustomerCardExtension extends "Customer Card"
@@ -88,7 +88,7 @@ pageextension 70000020 CustomerCardExtension extends "Customer Card"
 }
 ```
 
-You can reference Report and XMLPort objects and use these objects in the **RunObject** property, as well as, declare variables of the types **Report** and **XMLPort** and call AL functions on them. This page extension object extends the Customer List page object by adding two actions; the first action calls the **Customer - List** report, the second action calls the **Export Contact** xmlport.
+You can reference Report and XMLPort objects and use these objects in the **RunObject** property, as well as, declare variables of the types **Report** and **XMLPort** and call AL methods on them. This page extension object extends the Customer List page object by adding two actions; the first action calls the **Customer - List** report, the second action calls the **Export Contact** xmlport.
 
 ```
 pageextension 70000030 AddCustomerReport extends "Customer List"
@@ -126,6 +126,7 @@ Pages
 
 ## See Also  
 [Page Object](devenv-page-object.md)  
+[Page Extension Properties](./properties/devenv-page-property-overview.md)    
+[Page Properties](./properties/devenv-page-properties.md)  
+[Developing Extensions](devenv-dev-overview.md)  
 [Developer Reference](devenv-reference-overview.md)  
-[Page Extension Properties](devenv-page-property-overview.md)    
-[Page Properties](page-properties.md)

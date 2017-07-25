@@ -16,14 +16,14 @@ manager: edupont
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # HttpHeaders Class
-The HttpHeaders class contains a collection of headers and their values.
+The HttpHeaders' class contains a collection of headers and their values.
 
 The following methods are available on the HttpHeaders class.
 
 |Method name|Description|
 |-----------|-----------|
-|[Add](httpheaders-add-method.md)|Adds sets the provided value for the provided header name.|
-|[Clear](httpheaders-clear-method.md)|Sets the HttpHeaders variable to the default value.|
+|[Add](httpheaders-add-method.md)|Sets the provided value for the provided header name.|
+|[Clear](httpheaders-clear-method.md)|Sets the HttpHeaders' variable to the default value.|
 |[Contains](httpheaders-contains-method.md)|Checks if an HttpHeaders contains a property with a given key.|
 |[GetValues](httpheaders-getvalues-method.md)|Gets the values for the specified key.|
 |[Remove](httpheaders-remove-method.md)|Removes the key and the related values from the HttpHeaders object.|
@@ -31,4 +31,5 @@ The following methods are available on the HttpHeaders class.
 
 ## See Also
 [Getting Started](../devenv-get-started.md)  
-[Developing Extensions](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)  
+[HTTP, JSON, and XML API](../devenv-restapi-overview.md)  

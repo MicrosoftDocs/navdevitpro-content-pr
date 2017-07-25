@@ -1,7 +1,7 @@
 ---
 title: "Text Data Type"
 ms.custom: na
-ms.date: 06/08/2017
+ms.date: 07/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,22 +26,39 @@ This simple data type denotes a text string.
 ## Methods
 The following methods are supported for the Text data type:
 
-[CONVERTSTR method (Code, Text)](../methods/devenv-convertstr-method-code-text.md)   
-[COPYSTR method (Code, Text)](../methods/devenv-copystr-method-code-text.md)   
-[DELCHR method (Code, Text)](../methods/devenv-delchr-method-code-text.md)   
-[DELSTR method (Code, Text)](../methods/devenv-delstr-method-code-text.md)   
-[FORMAT method (Code, Text)](../methods/devenv-format-method-code-text.md)   
-[INCSTR method (Code, Text)](../methods/devenv-incstr-method-code-text.md)   
-[INSSTR method (Code, Text)](../methods/devenv-insstr-method-code-text.md)   
-[LOWERCASE method (Code, Text)](../methods/devenv-lowercase-method-code-text.md)   
-[MAXSTRLEN method (Code, Text)](../methods/devenv-maxstrlen-method-code-text.md)   
-[PADSTR method (Code, Text)](../methods/devenv-padstr-method-code-text.md)   
-[SELECTSTR method (Code, Text)](../methods/devenv-selectstr-method-code-text.md)   
-[STRCHECKSUM method (Code, Text)](../methods/devenv-strchecksum-method-code-text.md)   
-[STRLEN method (Code, Text)](../methods/devenv-strlen-method-code-text.md)   
-[STRPOS method (Code, Text)](../methods/devenv-strpos-method-code-text.md)   
-[STRSUBSTNO method (Code, Text)](../methods/devenv-strsubstno-method-code-text.md)   
-[UPPERCASE method (Code, Text)](../methods/devenv-uppercase-method-code-text.md)
+[CONTAINS Method (Text)](../methods/devenv-contains-method-text.md)   
+[CONVERTSTR Method (Code, Text)](../methods/devenv-convertstr-method-code-text.md)   
+[COPYSTR Method (Code, Text)](../methods/devenv-copystr-method-code-text.md)   
+[DELCHR Method (Code, Text)](../methods/devenv-delchr-method-code-text.md)   
+[DELSTR Method (Code, Text)](../methods/devenv-delstr-method-code-text.md)   
+[ENDSWITH Method (Text)](../methods/devenv-endswith-method-text.md)   
+[FORMAT Method (Code, Text)](../methods/devenv-format-method-code-text.md)   
+[INCSTR Method (Code, Text)](../methods/devenv-incstr-method-code-text.md)   
+[INDEXOFANY Method (Text)](../methods/devenv-indexofany-method-text.md)   
+[INDEXOF Method (Text)](../methods/devenv-indexof-method-text.md)   
+[INSSTR Method (Code, Text)](../methods/devenv-insstr-method-code-text.md)   
+[LASTINDEXOF Method (Text)](../methods/devenv-lastindexof-method-text.md)   
+[LOWERCASE Method (Code, Text)](../methods/devenv-lowercase-method-code-text.md)   
+[MAXSTRLEN Method (Code, Text)](../methods/devenv-maxstrlen-method-code-text.md)   
+[PADLEFT Method (Text)](../methods/devenv-padleft-method-text.md)   
+[PADRIGHT Method (Text)](../methods/devenv-padright-method-text.md)   
+[PADSTR Method (Code, Text)](../methods/devenv-padstr-method-code-text.md)   
+[REMOVE Method (Text)](../methods/devenv-remove-method-text.md)   
+[REPLACE Method (Text)](../methods/devenv-replace-method-text.md)   
+[SELECTSTR Method (Code, Text)](../methods/devenv-selectstr-method-code-text.md)   
+[STARTSWITH Method (Text)](../methods/devenv-startswith-method-text.md)   
+[STRCHECKSUM Method (Code, Text)](../methods/devenv-strchecksum-method-code-text.md)   
+[STRLEN Method (Code, Text)](../methods/devenv-strlen-method-code-text.md)   
+[STRPOS Method (Code, Text)](../methods/devenv-strpos-method-code-text.md)   
+[STRSUBSTNO Method (Code, Text)](../methods/devenv-strsubstno-method-code-text.md)   
+[SUBSTRING Method (Text)](../methods/devenv-substring-method-text.md)   
+[TOLOWER Method (Text)](../methods/devenv-tolower-method-text.md)   
+[TOUPPER Method (Text)](../methods/devenv-toupper-method-text.md)   
+[TRIMEND Method (Text)](../methods/devenv-trimend-method-text.md)   
+[TRIM Method (Text)](../methods/devenv-trim-method-text.md)   
+[TRIMSTART Method (Text)](../methods/devenv-trimstart-method-text.md)  
+[UPPERCASE Method (Code, Text)](../methods/devenv-uppercase-method-code-text.md)  
+
 
 ## Example  
  This example shows some typical examples of text strings. In these examples, the text variable has a maximum length of 6.  

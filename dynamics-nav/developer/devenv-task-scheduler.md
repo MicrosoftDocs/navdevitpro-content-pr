@@ -24,7 +24,7 @@ In AL code, you create and manage tasks by using the AL methods that are availab
 |CANCELTASK|Cancels a scheduled task.|[CANCELTASK Method](methods/devenv-CANCELTASK-Method.md)|  
 
 ## How task scheduler works  
-To set up a task, you create a codeunit that contains the logic that you want to run at a scheduled time. Optionally, you can create a second codeunit that contains the logic to handle the task if an error occurs for any reason. This codeunit is referred to as a *failure codeunit*. Once you have the codeunits, you can add C/AL code to the application that calls the CREATETASK method to schedule a task to run the codeunits. The CREATETASK method can also specify the earliest date to run the task, and whether the task is in the ready state.  
+To set up a task, you create a codeunit that contains the logic that you want to run at a scheduled time. Optionally, you can create a second codeunit that contains the logic to handle the task if an error occurs for any reason. This codeunit is referred to as a *failure codeunit*. Once you have the codeunits, you can add AL code to the application that calls the CREATETASK method to schedule a task to run the codeunits. The CREATETASK method can also specify the earliest date to run the task, and whether the task is in the ready state.  
 
 ### Task flow  
  Here is an overview of the process that a task goes through:  
@@ -68,4 +68,6 @@ When an error occurs, unless the task is interrupted by the failure codeunit, th
  The session runs by using the same user/credentials that are used when calling AL code. The user must have appropriate permissions to the codeunit and any other objects that are associated with the operation of the codeunit.
 
 ## See Also
-[Task Scheduler Data Type](datatypes/devenv-taskscheduler-data-type.md)  
+[Task Scheduler Data Type](datatypes/devenv-taskscheduler-data-type.md)   
+[Developing Extensions](devenv-dev-overview.md)  
+[Getting Started](devenv-get-started.md) 
