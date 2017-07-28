@@ -1,14 +1,14 @@
---
+---
 title: "File Handling and Text Encoding"
 ms.custom: na
-ms.date: 06/27/2017
+ms.date: 07/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-365-financials"
 author: jswymer
---
+---
 # File Handling and Text Encoding
 There are several AL methods that you can use to open files, import and export files to and from [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], and more. For a list of methods, see [File Data Type](datatypes/devenv-file-data-type.md).
 
@@ -16,7 +16,7 @@ The following are recommended best practices for working with files:
 
 -   Use fully qualified paths to eliminate ambiguity.
 
--   Be aware of operating system file access restrictions when designing applications that use files. Consider which users have access to files and directories and what access control list (ACL) that you need to apply to file directories. 
+-   Be aware of operating system file access restrictions when designing applications that use files. Consider which users have access to files and directories and what Access Control List (ACL) that you need to apply to file directories. 
 
 ## Text encoding 
 Text encoding is the process of transforming bytes of data into readable characters for users of a system or program. When you import a file as text or as a stream, the text encoding format ensures that all the language-specific characters are represented correctly in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. When you export a file as text or as a stream, the text encoding format ensures that all the language-specific characters are represented correctly in the system or program that will read the exported file.  
@@ -77,5 +77,5 @@ For example, if an XMLport can import bank files from a foreign bank in addition
 Windows encoding is compatible with ASCII so that it will understand files written in ASCII format.  
   
 ## See Also  
- [TextEncoding Property \(XMLports\)](properties/devenv-TextEncoding-xmlports-Property.md)
+ [TextEncoding Property \(XMLports\)](properties/devenv-TextEncoding-xmlports-Property.md)  
  [File Data Type](datatypes/devenv-file-data-type.md)
