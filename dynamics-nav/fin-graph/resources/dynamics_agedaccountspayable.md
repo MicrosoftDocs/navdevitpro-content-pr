@@ -30,13 +30,12 @@ Represents an agedAccountsPayable object in Dynamics 365 for Financials, which i
 |vendorNumber|string|Specifies vendor's number.|
 |name|string|Specifies vendor's name.|
 |currencyCode|string|Specifies the currency.|
-|before|numeric|Specifies balance before first aging period.|
-|period1|numeric|Specifies balance in the first aging period.|
-|period2|numeric|Specifies balance in the second aging period.|
-|period3|numeric|Specifies balance in the third aging period.|
-|after|numeric|Specifies balance after third aging period.|
-|balance|numeric|Specifies vendor's total balance.|
-|periodStartDateFilter|date|Specifies period start date used to calculate aging periods.|
+|balanceDue|numeric|Specifies vendor's total balance.|
+|currentAmount|numeric|Specifies balance before first aging period.|
+|period1Amount|numeric|Specifies balance in the first aging period.|
+|period2Amount|numeric|Specifies balance in the second aging period.|
+|period3Amount|numeric|Specifies balance in the third aging period.|
+|agedAsOfDate|date|Specifies period start date used to calculate aging periods.|
 |periodLengthFilter|string|Specifies the length of the periods.|
 
 
@@ -54,13 +53,12 @@ Here is a JSON representation of the resource.
     "vendorNumber": "string",
     "name": "string",
     "currencyCode": "string",
-    "before": "decimal",
-    "period1": "decimal",
-    "period2": "decimal",
-    "period3": "decimal",
-    "after": "decimal",
-    "balance": "decimal",
-    "periodStartDateFilter": "date",
+    "balanceDue": "decimal",
+    "currentAmount": "decimal",
+    "period1Amount": "decimal",
+    "period2Amount": "decimal",
+    "period3Amount": "decimal",
+    "agedAsOfDate": "date",
     "periodLengthFilter": "string
 }
 
