@@ -52,13 +52,12 @@ Here is an example of the response. Note: The response object shown here may be 
   "vendorNumber": "50000",
   "name": "Nod Publishers",
   "currencyCode": "USD",
-  "before": 0,
-  "period1": 0,
-  "period2": 0,
-  "period3": 0,
-  "after": 17273.87,
-  "balance": 17273.87,
-  "periodStartDateFilter": "2019-01-01",
+  "balanceDue": 17273.87,
+  "currentAmount": 0,
+  "period1Amount": 0,
+  "period2Amount": 0,
+  "period3Amount": 17273.87,
+  "agedAsOfDate": "2019-01-01",
   "periodLengthFilter": "3M"  
 }
 ```
