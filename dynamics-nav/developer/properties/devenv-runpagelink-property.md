@@ -1,7 +1,7 @@
 ---
 title: "RunPageLink Property"
 ms.custom: na
-ms.date: 06/16/2016
+ms.date: 07/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,5 +26,5 @@ Sets up a link to the page you are launching.
  For an example of how to use RunPageLink to launch a page from an action in the RoleTailored client, see [Walkthrough: Adding Actions to a Customer List Page](Walkthrough--Adding-Actions-to-a-Customer-List-Page.md).  -->
   
 ## See Also  
- [RunPageView Property](devenv-runpageview-property.md)
+ [RunPageView Property](devenv-runpageview-property.md)  
  [RunObject Property](devenv-runobject-property.md)

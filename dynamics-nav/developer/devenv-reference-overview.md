@@ -40,5 +40,5 @@ This section describes all of the objects that are available with [!INCLUDE[d365
 |Learn about writing codeunits for your extension.|[Codeunit Object](devenv-codeunit-object.md)|
 
 ## See Also
-[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)  
+[Developing Extensions](devenv-dev-overview.md)  
 [Getting Started](devenv-get-started.md)   
