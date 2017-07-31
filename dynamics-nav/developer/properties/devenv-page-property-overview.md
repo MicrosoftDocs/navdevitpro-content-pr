@@ -45,7 +45,8 @@ The following properties apply to the page object.
 |[PromotedActionCategoriesML Property](devenv-promotedactioncategoriesml-property.md)|X|X|
 |[DelayedInsert Property](devenv-delayedinsert-property.md)|X||
 |[RefreshOnActivate Property](devenv-refreshonactivate-property.md)|X||
-<!-- |[ODateKeyFields Property]()|X||-->
+  
+  <!-- |[ODateKeyFields Property]()|X||-->
 
 ## Container control properties
 The following properties apply to Container controls on a page.

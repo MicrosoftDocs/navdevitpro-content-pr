@@ -22,3 +22,11 @@ Sets the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] control add-in t
   
 ## Remarks  
  A control add-in is a custom control, or visual element, for displaying and modifying data on [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] pages.  
+ <!-- 
+## See Also  
+ [Extending Any Microsoft Dynamics NAV Client Using Control Add-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)   
+ [Windows Client Control Add-in Overview](Windows-Client-Control-Add-in-Overview.md)   
+ [Installing and Configuring Windows Client Control Add-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
+ [Developing Windows Client Control Add-ins](Developing-Windows-Client-Control-Add-ins.md)   
+ [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough--Creating-and-Using-a-Windows-Client-Control-Add-in.md)
+ -->
