@@ -65,6 +65,7 @@ The following methods are supported for the *static* Text data type:
 |[STRLEN Method (Code, Text)](../methods/devenv-strlen-method-code-text.md)|X|
 |[STRPOS Method (Code, Text)](../methods/devenv-strpos-method-code-text.md)|X|
 |[STRSUBSTNO Method (Code, Text)](../methods/devenv-strsubstno-method-code-text.md)|X|
+|[UPPERCASE Method (Code, Text)](../methods/devenv-uppercase-method-code-text.md)|X|
 
 ## Example  
  This example shows some typical examples of text strings. In these examples, the text variable has a maximum length of 6.  
