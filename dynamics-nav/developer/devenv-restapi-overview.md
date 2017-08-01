@@ -1,9 +1,9 @@
 ---
-title: "HTTP, JSON, and XML API Reference"
+title: "HTTP, JSON, TextBuilder, and XML API Reference"
 description: "Overview of the API capabilities."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 07/04/2017
+ms.date: 07/31/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,7 +16,7 @@ caps.latest.revision: 18
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-# HTTP, JSON, and XML API Overview
+# HTTP, JSON, TextBuilder, and XML API Overview
 With the API for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] you have HTTP, JSON, and XML classes available for accessing services. The following table shows the classes that are available.
 
 ## API reference
@@ -32,6 +32,7 @@ With the API for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] you ha
 |[JsonObject](api/jsonobject-class.md)|JsonObject object is a container for any well-formed JSON object. A default JsonObject contains an empty JSON object.|
 |[JsonToken](api/jsontoken-class.md)|JsonToken object is a container for any well-formed JSON data. A default JsonToken contains the JSON value of NULL.|
 |[JsonValue](api/jsonvalue-class.md)|JsonValue object is a container for any well-formed JSON object. A default JsonValue is set to the JSON value of NULL.|
+|[TextBuilder](api/textbuilder-class.md)|TextBuilder can performantly concatenate multiple bigger strings together.|
 |[XmlAttribute](api/xmlattribute-class.md)|Represents an attribute.|
 |[XmlCData](api/xmlcdata-class.md)|Represents the CDATA section.|
 |[XmlComment](api/xmlcomment-class.md)|Represents the content of an XML comment.|
