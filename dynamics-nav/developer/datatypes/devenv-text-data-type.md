@@ -24,41 +24,48 @@ This simple data type denotes a text string.
  The Text data type supports Unicode.  
 
 ## Methods
-The following methods are supported for the Text data type:
+  
+The following methods are supported for *instance* Text data type:  
 
-[CONTAINS Method (Text)](../methods/devenv-contains-method-text.md)   
-[CONVERTSTR Method (Code, Text)](../methods/devenv-convertstr-method-code-text.md)   
-[COPYSTR Method (Code, Text)](../methods/devenv-copystr-method-code-text.md)   
-[DELCHR Method (Code, Text)](../methods/devenv-delchr-method-code-text.md)   
-[DELSTR Method (Code, Text)](../methods/devenv-delstr-method-code-text.md)   
-[ENDSWITH Method (Text)](../methods/devenv-endswith-method-text.md)   
-[FORMAT Method (Code, Text)](../methods/devenv-format-method-code-text.md)   
-[INCSTR Method (Code, Text)](../methods/devenv-incstr-method-code-text.md)   
-[INDEXOFANY Method (Text)](../methods/devenv-indexofany-method-text.md)   
-[INDEXOF Method (Text)](../methods/devenv-indexof-method-text.md)   
-[INSSTR Method (Code, Text)](../methods/devenv-insstr-method-code-text.md)   
-[LASTINDEXOF Method (Text)](../methods/devenv-lastindexof-method-text.md)   
-[LOWERCASE Method (Code, Text)](../methods/devenv-lowercase-method-code-text.md)   
-[MAXSTRLEN Method (Code, Text)](../methods/devenv-maxstrlen-method-code-text.md)   
-[PADLEFT Method (Text)](../methods/devenv-padleft-method-text.md)   
-[PADRIGHT Method (Text)](../methods/devenv-padright-method-text.md)   
-[PADSTR Method (Code, Text)](../methods/devenv-padstr-method-code-text.md)   
-[REMOVE Method (Text)](../methods/devenv-remove-method-text.md)   
-[REPLACE Method (Text)](../methods/devenv-replace-method-text.md)   
-[SELECTSTR Method (Code, Text)](../methods/devenv-selectstr-method-code-text.md)   
-[STARTSWITH Method (Text)](../methods/devenv-startswith-method-text.md)   
-[STRCHECKSUM Method (Code, Text)](../methods/devenv-strchecksum-method-code-text.md)   
-[STRLEN Method (Code, Text)](../methods/devenv-strlen-method-code-text.md)   
-[STRPOS Method (Code, Text)](../methods/devenv-strpos-method-code-text.md)   
-[STRSUBSTNO Method (Code, Text)](../methods/devenv-strsubstno-method-code-text.md)   
-[SUBSTRING Method (Text)](../methods/devenv-substring-method-text.md)   
-[TOLOWER Method (Text)](../methods/devenv-tolower-method-text.md)   
-[TOUPPER Method (Text)](../methods/devenv-toupper-method-text.md)   
-[TRIMEND Method (Text)](../methods/devenv-trimend-method-text.md)   
-[TRIM Method (Text)](../methods/devenv-trim-method-text.md)   
-[TRIMSTART Method (Text)](../methods/devenv-trimstart-method-text.md)  
-[UPPERCASE Method (Code, Text)](../methods/devenv-uppercase-method-code-text.md)  
+|Method      |Instance   |
+|------------|-----------|
+|[CONTAINS Method (Text)](../methods/devenv-contains-method-text.md)|X|
+|[ENDSWITH Method (Text)](../methods/devenv-endswith-method-text.md)|X|
+|[INDEXOFANY Method (Text)](../methods/devenv-indexofany-method-text.md)|X|
+|[INDEXOF Method (Text)](../methods/devenv-indexof-method-text.md)|X|
+|[LASTINDEXOF Method (Text)](../methods/devenv-lastindexof-method-text.md)|X|
+|[PADLEFT Method (Text)](../methods/devenv-padleft-method-text.md)|X|
+|[PADRIGHT Method (Text)](../methods/devenv-padright-method-text.md)|X|
+|[REMOVE Method (Text)](../methods/devenv-remove-method-text.md)|X|
+|[REPLACE Method (Text)](../methods/devenv-replace-method-text.md)|X|
+|[STARTSWITH Method (Text)](../methods/devenv-startswith-method-text.md)|X|
+|[SUBSTRING Method (Text)](../methods/devenv-substring-method-text.md)|X|
+|[TOLOWER Method (Text)](../methods/devenv-tolower-method-text.md)|X|
+|[TOUPPER Method (Text)](../methods/devenv-toupper-method-text.md)|X|
+|[TRIMEND Method (Text)](../methods/devenv-trimend-method-text.md)|X|
+|[TRIM Method (Text)](../methods/devenv-trim-method-text.md)|X|
+|[TRIMSTART Method (Text)](../methods/devenv-trimstart-method-text.md)|X|
 
+The following methods are supported for the *static* Text data type:
+
+|Method       |Static    |
+|------------|-----------|
+|[CONVERTSTR Method (Code, Text)](../methods/devenv-convertstr-method-code-text.md)|X|
+|[COPYSTR Method (Code, Text)](../methods/devenv-copystr-method-code-text.md)|X|
+|[DELCHR Method (Code, Text)](../methods/devenv-delchr-method-code-text.md)|X|
+|[DELSTR Method (Code, Text)](../methods/devenv-delstr-method-code-text.md)|X| 
+|[FORMAT Method (Code, Text)](../methods/devenv-format-method-code-text.md)|X|
+|[INCSTR Method (Code, Text)](../methods/devenv-incstr-method-code-text.md)|X|
+|[INSSTR Method (Code, Text)](../methods/devenv-insstr-method-code-text.md)|X|
+|[LOWERCASE Method (Code, Text)](../methods/devenv-lowercase-method-code-text.md)|X|
+|[MAXSTRLEN Method (Code, Text)](../methods/devenv-maxstrlen-method-code-text.md)|X|
+|[PADSTR Method (Code, Text)](../methods/devenv-padstr-method-code-text.md)|X|
+|[SELECTSTR Method (Code, Text)](../methods/devenv-selectstr-method-code-text.md)|X|
+|[STRCHECKSUM Method (Code, Text)](../methods/devenv-strchecksum-method-code-text.md)|X|
+|[STRLEN Method (Code, Text)](../methods/devenv-strlen-method-code-text.md)|X|
+|[STRPOS Method (Code, Text)](../methods/devenv-strpos-method-code-text.md)|X|
+|[STRSUBSTNO Method (Code, Text)](../methods/devenv-strsubstno-method-code-text.md)|X|
+|[UPPERCASE Method (Code, Text)](../methods/devenv-uppercase-method-code-text.md)|X|
 
 ## Example  
  This example shows some typical examples of text strings. In these examples, the text variable has a maximum length of 6.  
@@ -73,3 +80,4 @@ text := '123456abc';
   
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
+[TextBuilder](../api/textbuilder-class.md)
