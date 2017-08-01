@@ -75,7 +75,7 @@ Content-type: application/json
     "symbol": null,
     "unitConversion": null
   },
-  "directUnitCost": 71.1,
+  "unitCost": 71.1,
   "quantity": 96,
   "discountAmount": 0,
   "discountPercent": 0,

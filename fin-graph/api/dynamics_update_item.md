@@ -63,6 +63,7 @@ Content-type: application/json
   "displayName": "ATHENS Desk - blocked",
   "type": "Inventory",
   "blocked": true,
+  "baseUnitOfMeasureId": "id-value", 
   "baseUnitOfMeasure": {
     "unitCode": "PCS",
     "unitName": "Piece",
@@ -78,6 +79,7 @@ Content-type: application/json
   "unitPrice": 1000.8,
   "priceIncludesTax": false,
   "unitCost": 780.7,
+  "taxGroupId": "id-value",
   "taxGroupCode": "FURNITURE",
   "lastModifiedDateTime": "2017-03-07T00:35:30.073Z"
 }
