@@ -37,6 +37,7 @@ Represents a purchase invoice in Dynamics 365 for Financials.
 |vendorId|GUID|The id of the invoice vendor.|
 |vendorNumber|string, maximum size 20|The vendor number for the invoice.|
 |vendorName|string, maximum size 50|The full name of the vendor. Read-Only.|
+|buyFromAddress||[NAV.PostalAddress](../resources/dynamics_complex_types.md)|The vendor's address.
 |currencyCode|string, maximum size 10|The currency code for the invoice.|
 |status|string, maximum size 20|The invoice status. Status can be: Draft, In Review, Open, Paid, Canceled, or Corrective. Read-Only.|
 |discountAmount|numeric|The invoice discount amount|
@@ -45,7 +46,6 @@ Represents a purchase invoice in Dynamics 365 for Financials.
 |totalTaxAmount|numeric|The total tax amount for the invoice. Read-Only.|
 |totalAmountIncludingTax|numeric|The total amount for the invoice, including tax. Read-Only.|
 |pricesIncludeTax|boolean|Specifies whether the prices include Tax or not. Read-Only.|
-|billingPostalAddress|complex|The billing postal address for the invoice.|  
 |paymentTerms|string, maximum size 10|The payment terms of the invoice.|
 |shipmentMethod|string, maximum size 10|The shipment method of the invoice.|
 |lastModifiedDateTime|datetime|The last datetime the purchase invoice was modified. Read-Only.|

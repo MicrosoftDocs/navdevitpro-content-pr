@@ -64,12 +64,15 @@ Here is an example of the response. Note: The response object shown here may be 
   "email": "toby.rhode@cronuscorp.net",
   "website": "",
   "taxRegistrationNumber": "",
+  "currencyId": "id-value",
   "currencyCode": "USD",
   "irs1099Code": "",
+  "paymentTermsId": "id-value",
   "paymentTerms": {
     "code": "CM",
     "description": "Current Month"
   },
+  "paymentMethodId": "id-value",
   "paymentMethod": {
     "code": "BANK",
     "description": "Bank Transfer"

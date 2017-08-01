@@ -38,8 +38,11 @@ Represents a salesQuote resource type in Dynamics 365 for Financials.
 |customerNumber|string, maximum size 20|The customer number for the quote.|
 |customerName|string, maximum size 50|The full name of the customer. Read-Only.|
 |billingPostalAddress|complex|The billing postal address for the quote.|  
+|currencyId|GUID|The id of the quote currency.|
 |currencyCode|string, maximum size 10|The currency code for the quote.|
+|paymentTermsId|GUID|The id of the quote payment term.|
 |paymentTerms|string, maximum size 10|The payment terms of the quote.|
+|shipmentMethodId|GUID|The id of the quote shipment method.|
 |shipmentMethod|string, maximum size 10|The payment terms of the quote.|
 |salesperson|string, maximum size 20|The salesperson code for the quote.|
 |discountAmount|numeric|The quote discount amount|
@@ -47,6 +50,8 @@ Represents a salesQuote resource type in Dynamics 365 for Financials.
 |totalTaxAmount|numeric|The total tax amount for the quote. Read-Only.|
 |totalAmountIncludingTax|numeric|The total amount for the quote, including tax. Read-Only.|
 |status|string, maximum size 20|The quote status. Status can be: Open,Released,Pending Approval,Pending Prepayment. Read-Only.|
+|validUntilDate|Date|The date a quote is valid until.|
+|acceptedDate|Date|The date a quote is accepted. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the sales quote was modified. Read-Only.|
 
 
@@ -75,8 +80,11 @@ Here is a JSON representation of the resource.
       "customerNumber": "string",
       "customerName": "string",
       "billingPostalAddress": {NAV.PostalAddress},
+      "currencyId": "GUID",
       "currencyCode": "string",
+      "paymentTermsId": "GUID",
       "paymentTerms": "string",
+      "shipmentMethodId": "GUID",
       "shipmentMethod": "string",
       "salesperson": "string",
       "discountAmount": decimal,
@@ -84,6 +92,8 @@ Here is a JSON representation of the resource.
       "totalTaxAmount": decimal,
       "totalAmountIncludingTax": decimal,
       "status": "string",
+      "validUntilDate": "Date",
+      "acceptedDate": "Date",
       "lastModifiedDateTime": "DateTime"
 }
 

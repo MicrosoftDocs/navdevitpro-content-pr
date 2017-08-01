@@ -67,7 +67,7 @@ Here is an example of the response. Note: The response object shown here may be 
     "symbol": null,
     "unitConversion": null
   },
-  "directUnitCost": 71.1,
+  "unitCost": 71.1,
   "quantity": 96,
   "discountAmount": 0,
   "discountPercent": 0,
