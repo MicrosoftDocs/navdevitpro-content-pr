@@ -36,7 +36,8 @@ Represents a line on a sales order in Dynamics 365 for Financials.
 |lineType|string|The type of the line. Can be Comment,Account,Item,Resource,Fixed Asset,Charge|
 |lineDetails|complex|The details of the line.|
 |description|string|A description of the item in the order line.|
-|unitOfMeasure|complex|The unit of measure complex type.|
+|unitOfMeasureId|GUID|The Id of the unit of measure in the order line.|
+|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complex_types.md)|The unit of measure complex type.|
 |quantity|numeric|The quantity of the item in the order line.|
 |unitPrice|numeric|The unit price of each individual item in the order line.|
 |discountAmount|numeric|The line discount amount.|

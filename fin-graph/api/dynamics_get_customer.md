@@ -65,12 +65,16 @@ Here is an example of the response. Note: The response object shown here may be 
   "taxAreaId": "taxAreaId-value",
   "taxAreaDisplayName": "tax area",
   "taxRegistrationNumber": "28012001T",
+  "currencyId": "currencyId-value",
   "currencyCode": "USD",
+  "paymentTermsId": "paymentTermsId-value",
   "paymentTerms": {
     "code": "1M(8D)",
     "description": "1 Month/2% 8 days"
   },
+  "shipmentMethodId": "shipmentMethodId-value",
   "shipmentMethod": null,
+  "paymentMethodId": "paymentMethodId-value",
   "paymentMethod": {
     "code": "BANK",
     "description": "Bank Transfer"
