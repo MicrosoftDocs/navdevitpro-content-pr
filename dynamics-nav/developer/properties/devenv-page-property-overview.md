@@ -195,6 +195,7 @@ The following properties apply to Separators.
 |[IsHeader Property]()|X||
 
 ## See Also
+[Properties](devenv-properties.md)  
 [Page Object](../devenv-page-object.md)  
 [Page Extension Object](../devenv-page-ext-object.md)  
 [Report Object](../devenv-report-object.md)  
