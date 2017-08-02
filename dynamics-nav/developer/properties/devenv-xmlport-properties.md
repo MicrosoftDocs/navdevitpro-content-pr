@@ -20,58 +20,40 @@ This topic lists properties of the XMLport object, element, and attribute.
 ## XMLport Object Properties  
  The following properties apply to the **XMLport** object.  
   
--   [Caption Property](devenv-caption-property.md)  
-  
--   [CaptionML Property](devenv-captionml-property.md)  
-  
--   [CurrentPath Property](devenv-currentpath-property.md)  
-  
--   [DefaultFieldsValidation Property](devenv-defaultfieldsvalidation-property.md)  
-  
--   [DefaultNamespace Property](devenv-defaultnamespace-property.md)  
-  
--   [Direction Property](devenv-direction-property.md)  
-  
--   [Encoding Property](devenv-encoding-property.md)  
-  
--   [FileName Property](devenv-filename-property.md)  
-  
--   [Format Property](devenv-format-property.md)  
-  
--   [Format-Evaluate Property](devenv-format-evaluate-property.md)  
-  
--   [ID Property](devenv-id-property.md)  
-  
--   [InlineSchema Property](devenv-inlineschema-property.md)  
-  
--   [Name Property](devenv-name-property.md)  
-  
--   [NamespacePrefix Property](devenv-namespaceprefix-property.md)  
-  
--   [Namespaces Property](devenv-namespaces-property.md)  
-  
--   [Permissions Property](devenv-permissions-property.md)  
-  
--   [PreserveWhiteSpace Property](devenv-preservewhitespace-property.md)  
-  
--   [TextEncoding Property \(XMLports\)](devenv-textencoding-xmlports-property.md)  
-  
--   [TransactionType Property](devenv-transactiontype-property.md)  
-  
--   [UseDefaultNamespace Property](devenv-usedefaultnamespace-property.md)  
-  
--   [UseLax Property](devenv-uselax-property.md)  
-  
--   [UseRequestPage Property](devenv-userequestpage-property.md)  
-  
--   [XMLVersionNo Property](devenv-xmlversionno-property.md)  
+|Property Name|XMLport Object|
+|-------------|--------------|
+|[Caption Property](devenv-caption-property.md)|X|  
+|[CaptionML Property](devenv-captionml-property.md)|X|
+|[CurrentPath Property](devenv-currentpath-property.md)|X|
+|[DefaultFieldsValidation Property](devenv-defaultfieldsvalidation-property.md)|X|
+|[DefaultNamespace Property](devenv-defaultnamespace-property.md)|X|
+|[Direction Property](devenv-direction-property.md)|X|
+|[Encoding Property](devenv-encoding-property.md)|X|
+|[FileName Property](devenv-filename-property.md)|X|
+|[Format Property](devenv-format-property.md)|X|
+|[Format-Evaluate Property](devenv-format-evaluate-property.md)|X|
+|[ID Property](devenv-id-property.md)|X|
+|[InlineSchema Property](devenv-inlineschema-property.md)|X|
+|[Name Property](devenv-name-property.md)|X|
+|[NamespacePrefix Property](devenv-namespaceprefix-property.md)|X|
+|[Namespaces Property](devenv-namespaces-property.md)|X|
+|[Permissions Property](devenv-permissions-property.md)|X|
+|[PreserveWhiteSpace Property](devenv-preservewhitespace-property.md)|X|
+|[TextEncoding Property \(XMLports\)](devenv-textencoding-xmlports-property.md)|X|
+|[TransactionType Property](devenv-transactiontype-property.md)|X|
+|[UseDefaultNamespace Property](devenv-usedefaultnamespace-property.md)|X|
+|[UseLax Property](devenv-uselax-property.md)|X|
+|[UseRequestPage Property](devenv-userequestpage-property.md)|X|
+|[XMLVersionNo Property](devenv-xmlversionno-property.md)|X|
   
 ## Text Element Properties  
  The following properties apply to **Text**  elements of an XMLport object.  
-  
--   [Indentation Property \(XMLports\)](devenv-indentation-xmlports-property.md)  
-  
--   [MaxOccurs Property](devenv-maxoccurs-property.md)  
+
+|Property Name|XMLport Object|
+|-------------|--------------|
+
+|[Indentation Property \(XMLports\)](devenv-indentation-xmlports-property.md)||
+|[MaxOccurs Property](devenv-maxoccurs-property.md)||
   
 -   [MinOccurs Property](devenv-minoccurs-property.md)  
   
@@ -91,7 +73,10 @@ This topic lists properties of the XMLport object, element, and attribute.
   
 ## Table Element Properties  
  The following properties apply to **Table** elements of an XMLport object.  
-  
+
+|Property Name|XMLport Object|
+|-------------|--------------|
+
 -   [AutoReplace Property](devenv-autoreplace-property.md)  
   
 -   [AutoSave Property](devenv-autosave-property.md)  
@@ -136,7 +121,10 @@ This topic lists properties of the XMLport object, element, and attribute.
   
 ## Field Element Properties  
  The following properties apply to **Field** elements of an XMLport Object.  
-  
+
+|Property Name|XMLPort Object|
+|-------------|--------------|
+
 -   [AutoCalcField Property](devenv-autocalcfield-property.md)  
   
 -   [FieldValidate Property](devenv-fieldvalidate-property.md)  
@@ -161,7 +149,10 @@ This topic lists properties of the XMLport object, element, and attribute.
   
 ## Text Attribute Properties  
  The following properties apply to **Text** attributes of an XMLport object.  
-  
+
+|Property Name|XMLPort Object|
+|-------------|--------------|
+
 -   [Indentation Property \(XMLports\)](devenv-indentation-xmlports-property.md)  
   
 -   [NodeName Property](devenv-nodename-property.md)  
@@ -180,7 +171,10 @@ This topic lists properties of the XMLport object, element, and attribute.
   
 ## Table Attribute Properties  
  The following properties apply to **Table** attributes of an XMLport object.  
-  
+
+|Property Name|XMLPort Object|
+|-------------|--------------|
+
 -   [AutoReplace Property](devenv-autoreplace-property.md)  
   
 -   [AutoSave Property](devenv-autosave-property.md)  
@@ -223,7 +217,10 @@ This topic lists properties of the XMLport object, element, and attribute.
   
 ## Field Attribute Properties  
  The following properties apply to **Field** attributes of an XMLport object.  
-  
+
+|Property Name|XMLPort Object|
+|-------------|--------------|
+
 -   [AutoCalcField Property](devenv-autocalcfield-property.md)  
   
 -   [FieldValidate Property](devenv-fieldvalidate-property.md)  
