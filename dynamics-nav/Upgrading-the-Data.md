@@ -135,13 +135,23 @@ In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], import all the a
 
 3. When prompted, set the **Synchronize Schema** option to **Later**.  
 
-##  <a name="CompSysTables"></a> Task 9: Compile all objects that are not already compiled
+##  <a name="ConnectToServer"></a> Task 9: Connect a [!INCLUDE[nav2017](includes/nav2017.md)] Server instance to the converted database  
+You use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] to connect a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to the converted database.  
+
+In addition, you must add the service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance as a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server.  
+
+> [!IMPORTANT]  
+>  When upgrading a large database, you should increase the **SQL Command Timeout** setting for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, to avoid timeouts during schema synchronization. The default setting is 30 minutes.  
+
+For more information, see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect-a-Microsoft-Dynamics-NAV-Server-Instance-to-a-Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).
+
+##  <a name="CompSysTables"></a> Task 10: Compile all objects that are not already compiled
 
 Use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe to compile all objects that are not already compiled. This includes the imported application objects, data tables, and system tables. Choose to run schema synchronization later.
 
 For example, in Object Designer, choose **Tools**, choose **Compile**, set the **Synchronize Schema** option to **Later**, and then choose **OK**. For more information, see [Compiling Objects](compiling-objects.md).
 
-If you get errors on the following table objects, then delete the objects because they are no longer used.
+If you get errors on the following table objects, use the Object Designer to delete the objects because they are no longer used.
 
 -   Table 470 Job Queue (replaced by the [Task Scheduler](Task-Scheduler.md))
 -   Table 824 DO Payment Connection Details
@@ -151,16 +161,7 @@ If you get errors on the following table objects, then delete the objects becaus
 -   Table 829 DO Payment Trans. Log Entry
 -   Table 1510 Notification Template
 
-When deleting the table objects, set the **Synchronize Schema** option to **Force**.
-##  <a name="ConnectToServer"></a> Task 10: Connect a [!INCLUDE[nav2017](includes/nav2017.md)] Server instance to the converted database  
-You use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] to connect a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to the converted database.  
-
-In addition, you must add the service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance as a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server.  
-
-> [!IMPORTANT]  
->  When upgrading a large database, you should increase the **SQL Command Timeout** setting for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, to avoid timeouts during schema synchronization. The default setting is 30 minutes.  
-
-For more information, see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect-a-Microsoft-Dynamics-NAV-Server-Instance-to-a-Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).
+When you delete a table object, in the **Delete** confirmation dialog box, set the **Synchronize Schema** option to **Force**. At this point, it is very important that you do not use the **Sync. Schema For All Tables** option from the **Tools** menu.  
 
 ##  <a name="RunSync1"></a> Task 11: Run the schema synchronization on the imported objects the database conversion  
 You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
