@@ -1,15 +1,13 @@
 ---
 title: "How to: Install the Web Server Components"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 03/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 79e434bd-a66e-4846-b102-97c41b0646b3
-caps.latest.revision: 36
-manager: edupont
+author: edupjswymeront
 ---
 # How to: Install the Web Server Components
 To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer that is running Internet Information Services \(IIS\). To access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you must have a web browser and a network connection to a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The following illustration shows the components involved in the setup.  
@@ -27,7 +25,7 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
 -   Verify that the system requirements are met on the computer that you want to install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. For more information, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
 
--   Install Internet Information Services 7.0 at a minimum.  
+-   Install Internet Information Services 7.5 at a minimum.  
 
      Make sure that the required features are enabled. For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md)  
 
@@ -96,9 +94,9 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
 14. When Setup is complete, choose the **Close** button.  
 
- A website called [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client is added on the IIS. The website includes a web application that has the name WebClient. The physical path of the web application is C:\\inetpub\\wwwroot\\DynamicsNav90\\WebClient.  
+ A website called [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client is added on the IIS. The website includes a web application that has the name WebClient. The physical path of the web application is C:\\inetpub\\wwwroot\\DynamicsNav100\\WebClient.  
 
- The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] are also installed in the %systemroot%\\Program Files\\Microsoft Dynamics NAV\\90\\Web Client folder of the computer.  
+ The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] are also installed in the %systemroot%\\Program Files\\Microsoft Dynamics NAV\\100\\Web Client folder of the computer.  
 
  For more information about the [!INCLUDE[nav_web](includes/nav_web_md.md)] installation on IIS, see [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md).  
 
@@ -108,7 +106,7 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
     -   Choose **Start**, in the **Search** box, type **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client**, and then choose the related link  
 
-    -   Open a web browser, and then in the address box, type **http://localhost:port/DynamicsNAV90/WebClient**. Replace port with the TCP port number that you chose during Setup.  
+    -   Open a web browser, and then in the address box, type **http://localhost:port/DynamicsNAV100/WebClient**. Replace port with the TCP port number that you chose during Setup.  
 
      For more information, see [How to: Open the Microsoft Dynamics NAV Web Client](How-to--Open-the-Microsoft-Dynamics-NAV-Web-Client.md). If you get an error when trying to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md) for information about resolving the problem.  
 
