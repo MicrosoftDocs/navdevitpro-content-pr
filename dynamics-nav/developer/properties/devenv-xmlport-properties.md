@@ -22,7 +22,7 @@ This topic lists properties of the XMLport object, element, and attribute.
   
 |Property Name|XMLport Object|
 |-------------|--------------|
-|[Caption Property](devenv-caption-property.md)|X|  
+|[Caption Property](devenv-caption-property.md)|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|
 |[CurrentPath Property](devenv-currentpath-property.md)|X|
 |[DefaultFieldsValidation Property](devenv-defaultfieldsvalidation-property.md)|X|
@@ -52,192 +52,117 @@ This topic lists properties of the XMLport object, element, and attribute.
 |Property Name|XMLport Object|
 |-------------|--------------|
 
-|[Indentation Property \(XMLports\)](devenv-indentation-xmlports-property.md)||
-|[MaxOccurs Property](devenv-maxoccurs-property.md)||
-  
--   [MinOccurs Property](devenv-minoccurs-property.md)  
-  
--   [NodeName Property](devenv-nodename-property.md)  
-  
--   [NodeType Property](devenv-nodetype-property.md)  
-  
--   [SourceType Property](devenv-sourcetype-property.md)  
-  
--   [TextType Property](devenv-texttype-property.md)  
-  
--   [Unbound Property](devenv-unbound-property.md)  
-  
--   [VariableName Properties](devenv-variablename-properties.md)  
-  
--   [Width Property \(XMLport\)](devenv-width-xmlport-property.md)  
+|[Indentation Property \(XMLports\)](devenv-indentation-xmlports-property.md)|X|
+|[MaxOccurs Property](devenv-maxoccurs-property.md)|X|
+|[MinOccurs Property](devenv-minoccurs-property.md)|X|
+|[NodeName Property](devenv-nodename-property.md)|X|
+|[NodeType Property](devenv-nodetype-property.md)|X|
+|[SourceType Property](devenv-sourcetype-property.md)|X|
+|[TextType Property](devenv-texttype-property.md)|X|
+|[Unbound Property](devenv-unbound-property.md)|X|
+|[VariableName Properties](devenv-variablename-properties.md)|X|
+|[Width Property \(XMLport\)](devenv-width-xmlport-property.md)|X|
   
 ## Table Element Properties  
  The following properties apply to **Table** elements of an XMLport object.  
 
 |Property Name|XMLport Object|
 |-------------|--------------|
-
--   [AutoReplace Property](devenv-autoreplace-property.md)  
-  
--   [AutoSave Property](devenv-autosave-property.md)  
-  
--   [AutoUpdate Property](devenv-autoupdate-property.md)  
-  
--   [CalcFields Property](devenv-calcfields-property.md)  
-  
--   [Indentation Property \(XMLports\)](devenv-indentation-xmlports-property.md)  
-  
--   [LinkFields Property](devenv-linkfields-property.md)  
-  
--   [LinkTable Property](devenv-linktable-property.md)  
-  
--   [LinkTableForceInsert Property](devenv-linktableforceinsert-property.md)  
-  
--   [MaxOccurs Property](devenv-maxoccurs-property.md)  
-  
--   [MinOccurs Property](devenv-minoccurs-property.md)  
-  
--   [NodeName Property](devenv-nodename-property.md)  
-  
--   [NodeType Property](devenv-nodetype-property.md)  
-  
--   [ReqFilterFields Property](devenv-reqfilterfields-property.md)  
-  
--   [ReqFilterHeading Property](devenv-reqfilterheading-property.md)  
-  
--   [ReqFilterHeadingML Property](devenv-reqfilterheadingml-property.md)  
-  
--   [SourceTable Property \(XMLports\)](devenv-sourcetable-xmlports-property.md)  
-  
--   [SourceTableView Property \(XMLports\)](devenv-sourcetableview-property.md)  
-  
--   [SourceType Property](devenv-sourcetype-property.md)  
-  
--   [Temporary Property \(XMLports\)](devenv-temporary-xmlports-property.md)  
-  
--   [VariableName Properties](devenv-variablename-properties.md)  
-  
--   [Width Property \(XMLport\)](devenv-width-xmlports-property.md)  
+|[AutoReplace Property](devenv-autoreplace-property.md)|X|
+|[AutoSave Property](devenv-autosave-property.md)|X|
+|[AutoUpdate Property](devenv-autoupdate-property.md)|X|
+|[CalcFields Property](devenv-calcfields-property.md)|X|
+|[Indentation Property \(XMLports\)](devenv-indentation-xmlports-property.md)|X|
+|[LinkFields Property](devenv-linkfields-property.md)|X|
+|[LinkTable Property](devenv-linktable-property.md)|X|
+|[LinkTableForceInsert Property](devenv-linktableforceinsert-property.md)|X|
+|[MaxOccurs Property](devenv-maxoccurs-property.md)|X|
+|[MinOccurs Property](devenv-minoccurs-property.md)|X|
+|[NodeName Property](devenv-nodename-property.md)|X|
+|[NodeType Property](devenv-nodetype-property.md)|X|
+|[ReqFilterFields Property](devenv-reqfilterfields-property.md)|X|
+|[ReqFilterHeading Property](devenv-reqfilterheading-property.md)|X|
+|[ReqFilterHeadingML Property](devenv-reqfilterheadingml-property.md)|X|
+|[SourceTable Property \(XMLports\)](devenv-sourcetable-xmlports-property.md)|X|
+|[SourceTableView Property \(XMLports\)](devenv-sourcetableview-property.md)|X|
+|[SourceType Property](devenv-sourcetype-property.md)|X|
+|[Temporary Property \(XMLports\)](devenv-temporary-xmlports-property.md)|X|
+|[VariableName Properties](devenv-variablename-properties.md)|X|
+|[Width Property \(XMLport\)](devenv-width-xmlports-property.md)|X|
   
 ## Field Element Properties  
  The following properties apply to **Field** elements of an XMLport Object.  
 
 |Property Name|XMLPort Object|
 |-------------|--------------|
-
--   [AutoCalcField Property](devenv-autocalcfield-property.md)  
-  
--   [FieldValidate Property](devenv-fieldvalidate-property.md)  
-  
--   [Indentation Property \(XMLports\)](devenv-indentation-xmlports-property.md)  
-  
--   [MaxOccurs Property](devenv-maxoccurs-property.md)  
-  
--   [MinOccurs Property](devenv-minoccurs-property.md)  
-  
--   [NodeName Property](devenv-nodename-property.md)  
-  
--   [NodeType Property](devenv-nodetype-property.md)  
-  
--   [SourceField Property](devenv-sourcefield-property.md)  
-  
--   [SourceType Property](devenv-sourcetype-property.md)  
-  
--   [Unbound Property](devenv-unbound-property.md)  
-  
--   [Width Property \(XMLport\)](devenv-width-xmlports-property.md)  
+|[AutoCalcField Property](devenv-autocalcfield-property.md)|X|
+|[FieldValidate Property](devenv-fieldvalidate-property.md)|X|
+|[Indentation Property \(XMLports\)](devenv-indentation-xmlports-property.md)|X|
+|[MaxOccurs Property](devenv-maxoccurs-property.md)|X|
+|[MinOccurs Property](devenv-minoccurs-property.md)|X|
+|[NodeName Property](devenv-nodename-property.md)|X|
+|[NodeType Property](devenv-nodetype-property.md)|X|
+|[SourceField Property](devenv-sourcefield-property.md)|X|
+|[SourceType Property](devenv-sourcetype-property.md)|X|
+|[Unbound Property](devenv-unbound-property.md)|X|
+|[Width Property \(XMLport\)](devenv-width-xmlports-property.md)|X|
   
 ## Text Attribute Properties  
  The following properties apply to **Text** attributes of an XMLport object.  
 
 |Property Name|XMLPort Object|
 |-------------|--------------|
-
--   [Indentation Property \(XMLports\)](devenv-indentation-xmlports-property.md)  
-  
--   [NodeName Property](devenv-nodename-property.md)  
-  
--   [NodeType Property](devenv-nodetype-property.md)  
-  
--   [Occurrence Property](devenv-occurrence-property.md)  
-  
--   [SourceType Property](devenv-sourcetype-property.md)  
-  
--   [TextType Property](devenv-texttype-property.md)  
-  
--   [VariableName Properties](devenv-variablename-properties.md)  
-  
--   [Width Property \(XMLport\)](devenv-width-xmlports-property.md)  
+|[Indentation Property \(XMLports\)](devenv-indentation-xmlports-property.md)|X|
+|[NodeName Property](devenv-nodename-property.md)|X|
+|[NodeType Property](devenv-nodetype-property.md)|X|
+|[Occurrence Property](devenv-occurrence-property.md)|X|
+|[SourceType Property](devenv-sourcetype-property.md)|X|
+|[TextType Property](devenv-texttype-property.md)|X|
+|[VariableName Properties](devenv-variablename-properties.md)|X|
+|[Width Property \(XMLport\)](devenv-width-xmlports-property.md)|X|
   
 ## Table Attribute Properties  
  The following properties apply to **Table** attributes of an XMLport object.  
 
 |Property Name|XMLPort Object|
 |-------------|--------------|
-
--   [AutoReplace Property](devenv-autoreplace-property.md)  
-  
--   [AutoSave Property](devenv-autosave-property.md)  
-  
--   [AutoUpdate Property](devenv-autoupdate-property.md)  
-  
--   [CalcFields Property](devenv-calcfields-property.md)  
-  
--   [Indentation Property \(XMLports\)](devenv-indentation-xmlports-property.md)  
-  
--   [LinkFields Property](devenv-linkfields-property.md)  
-  
--   [LinkTable Property](devenv-linktable-property.md)  
-  
--   [LinkTableForceInsert Property](devenv-linktableforceinsert-property.md)  
-  
--   [NodeName Property](devenv-nodename-property.md)  
-  
--   [NodeType Property](devenv-nodetype-property.md)  
-  
--   [Occurrence Property](devenv-occurrence-property.md)  
-  
--   [ReqFilterFields Property](devenv-reqfilterfields-property.md)  
-  
--   [ReqFilterHeading Property](devenv-reqfilterheading-property.md)  
-  
--   [ReqFilterHeadingML Property](devenv-reqfilterheadingml-property.md)  
-  
--   [SourceTable Property \(XMLports\)](devenv-sourcetable-xmlports-property.md)  
-  
--   [SourceTableView Property \(XMLports\)](devenv-sourcetableview-property.md)  
-  
--   [SourceType Property](devenv-sourcetype-property.md)  
-  
--   [Temporary Property \(XMLports\)](devenv-temporary-xmlports-property.md)  
-  
--   [VariableName Properties](devenv-variablename-properties.md)  
-  
--   [Width Property \(XMLport\)](devenv-width-xmlports-property.md)  
+|[AutoReplace Property](devenv-autoreplace-property.md)|X|
+|[AutoSave Property](devenv-autosave-property.md)|X|
+|[AutoUpdate Property](devenv-autoupdate-property.md)|X|
+|[CalcFields Property](devenv-calcfields-property.md)|X|
+|[Indentation Property \(XMLports\)](devenv-indentation-xmlports-property.md)|X|
+|[LinkFields Property](devenv-linkfields-property.md)|X|
+|[LinkTable Property](devenv-linktable-property.md)|X|
+|[LinkTableForceInsert Property](devenv-linktableforceinsert-property.md)|X|
+|[NodeName Property](devenv-nodename-property.md)|X|
+|[NodeType Property](devenv-nodetype-property.md)|X|
+|[Occurrence Property](devenv-occurrence-property.md)|X|
+|[ReqFilterFields Property](devenv-reqfilterfields-property.md)|X|
+|[ReqFilterHeading Property](devenv-reqfilterheading-property.md)|X|
+|[ReqFilterHeadingML Property](devenv-reqfilterheadingml-property.md)|X|
+|[SourceTable Property \(XMLports\)](devenv-sourcetable-xmlports-property.md)|X|
+|[SourceTableView Property \(XMLports\)](devenv-sourcetableview-property.md)|X|
+|[SourceType Property](devenv-sourcetype-property.md)|X|
+|[Temporary Property \(XMLports\)](devenv-temporary-xmlports-property.md)|X|
+|[VariableName Properties](devenv-variablename-properties.md)|X|
+|[Width Property \(XMLport\)](devenv-width-xmlports-property.md)|X|
   
 ## Field Attribute Properties  
  The following properties apply to **Field** attributes of an XMLport object.  
 
 |Property Name|XMLPort Object|
 |-------------|--------------|
-
--   [AutoCalcField Property](devenv-autocalcfield-property.md)  
-  
--   [FieldValidate Property](devenv-fieldvalidate-property.md)  
-  
--   [Indentation Property \(XMLports\)](devenv-indentation-xmlports-property.md)  
-  
--   [NodeName Property](devenv-nodename-property.md)  
-  
--   [NodeType Property](devenv-nodetype-property.md)  
-  
--   [Occurrence Property](devenv-occurrence-property.md)  
-  
--   [SourceField Property](devenv-sourcefield-property.md)  
-  
--   [SourceType Property](devenv-sourcetype-property.md)  
-  
--   [Width Property \(XMLport\)](devenv-width-xmlports-property.md)  
+|[AutoCalcField Property](devenv-autocalcfield-property.md)|X|
+|[FieldValidate Property](devenv-fieldvalidate-property.md)|X|
+|[Indentation Property \(XMLports\)](devenv-indentation-xmlports-property.md)|X|
+|[NodeName Property](devenv-nodename-property.md)|X|
+|[NodeType Property](devenv-nodetype-property.md)|X|
+|[Occurrence Property](devenv-occurrence-property.md)|X|
+|[SourceField Property](devenv-sourcefield-property.md)|X|
+|[SourceType Property](devenv-sourcetype-property.md)|X|
+|[Width Property \(XMLport\)](devenv-width-xmlports-property.md)|X|
   
 ## See Also  
  [Properties](devenv-properties.md)
+ [Table and Table Extension Properties](devenv-table-properties.md)
+ [Page and Page Extension Properties Overview](devenv-page-property-overview.md)

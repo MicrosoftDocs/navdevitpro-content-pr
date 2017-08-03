@@ -28,4 +28,4 @@ The following methods are available on the XmlNodeList class.
 ## See Also
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
-[HTTP, JSON, and XML API](../devenv-restapi-overview.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
