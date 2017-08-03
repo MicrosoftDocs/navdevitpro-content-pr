@@ -63,7 +63,7 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
 6.  On the **Choose an Installation Option** page, choose **Custom**.  
 
-7.  On the **Customize the Installation** page, select the **NAV Web Server Components** check box, and then choose **Run from My Computer**.  
+7.  On the **Customize the Installation** page, select the **Web Server Components**, and then choose **Run from My Computer**.  
 
 8.  Choose the **Next** button to go to the **Specify Parameters** page.  
 
