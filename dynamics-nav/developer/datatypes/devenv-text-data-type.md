@@ -81,4 +81,4 @@ text := '123456abc';
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
 [TextBuilder](../api/textbuilder-class.md)  
-[AL Method Reference](../methods7devenv-al-method-reference.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  
