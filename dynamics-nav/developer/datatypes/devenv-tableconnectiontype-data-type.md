@@ -28,4 +28,6 @@ The following methods are supported for the TableConnectionType data type:
 
 ## See Also  
  [TableType Property](../properties/devenv-tabletype-property.md)   
+ [AL Data Types](devenv-al-data-types.md)  
+ [AL Method Reference](../methods/devenv-al-method-reference.md)  
  <!--[External Tables](../../dynamics-nav/External-Tables.md)   -->

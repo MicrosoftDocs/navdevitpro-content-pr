@@ -39,3 +39,4 @@ PurchHeaderRec."Document Type" := PurchHeaderRec."Document Type"::Invoice;
 ```
 ## See Also
 [AL Data Types](devenv-al-data-types.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

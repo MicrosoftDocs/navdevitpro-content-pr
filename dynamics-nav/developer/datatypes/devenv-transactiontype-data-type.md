@@ -20,3 +20,4 @@ Use variables of this complex data type to store the current transaction type. Y
 
 ## See Also
 [AL Data Types](devenv-al-data-types.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

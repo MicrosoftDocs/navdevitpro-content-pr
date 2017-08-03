@@ -54,3 +54,4 @@ The following methods are supported for the Integer data type:
   
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  
