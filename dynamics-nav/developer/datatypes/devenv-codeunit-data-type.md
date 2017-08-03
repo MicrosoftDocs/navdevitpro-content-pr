@@ -21,4 +21,5 @@ The methods supported for the Codeunit data type are:
 [RUN method (Codeunit)](../methods/devenv-run-method-codeunit.md)
  
 ## See Also  
-[AL Data Types](devenv-al-data-types.md)
+[AL Data Types](devenv-al-data-types.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

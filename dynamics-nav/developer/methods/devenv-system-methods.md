@@ -27,5 +27,5 @@ The following system methods are available:
 [Variable Methods](devenv-variable-methods.md)  
 
 ## See Also  
- [AL Method Reference](devenv-al-method-reference.md)  
- [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md) 
+[AL Method Reference](devenv-al-method-reference.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md) 
