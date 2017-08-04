@@ -18,18 +18,18 @@ author: SusanneWindfeldPedersen
 Specifies the handler methods that are used by the test method.  
   
 ## Applies To  
- AL test methods on test codeunits. A test method is a method that has the [MethodType Property (Test Codeunits)](devenv-methodtype-property-test-codeunits.md) set to **Test**.  
+AL test methods on test codeunits. A test method is a method that has the [MethodType Property (Test Codeunits)](devenv-methodtype-property-test-codeunits.md) set to **Test**.  
    
 ## Property Value  
- The handler method name as specified on the **Methods** tab of **the AL Global** window for the test codeunit.  
+The handler method name as specified on the **Methods** tab of **the AL Global** window for the test codeunit.  
   
 > [!NOTE]  
 >  If the test method uses more than one handler method, then you should separate the handler method names by a comma.  
   
 ## Remarks  
- You use test codeunits and test methods to test your application. A handler method allows you to automate tests by handling instances when user interaction is required by the code that is being tested. In these instances, the test method calls the handler method, which is run instead of the user interface.  
+You use test codeunits and test methods to test your application. A handler method allows you to automate tests by handling instances when user interaction is required by the code that is being tested. In these instances, the test method calls the handler method, which is run instead of the user interface.  
   
- The following is some important information about handler methods:  
+The following is some important information about handler methods:  
   
 -   To be a handler method, the [MethodType Property (Test Codeunits)](devenv-methodtype-property-test-codeunits.md) must set to one of the handler types: MessageHandler, ConfirmHandler, StrMenuHandler, PageHandler, ModalPageHandler, ReportHandler, RequestPageHandler, or FilterPageHandler.  
   
@@ -39,10 +39,13 @@ Specifies the handler methods that are used by the test method.
   
 -   Every handler method that you enter in the **HandlerMethods** property must be called at least once in the test method. If you execute a test method that has a handler method listed that is not called, then the test fails.  
   
- <!-- For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create Handler Methods](../methods/devenv-How-to-Create-Handler-Methods.md).  
-  
+<!-- For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create Handler Methods](../methods/devenv-How-to-Create-Handler-Methods.md).  
+-->
 ## See Also  
- [Testing the Application](Testing-the-Application.md)   
- [How to: Create Test Codeunits and Test Methods](../methods/devenv-How-to-Create-Test-Codeunits-and-Test-Methods.md)   
- [How to: Create Handler Methods](../methods/devenv-How-to-Create-Handler-Methods.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough-Testing-Purchase-Invoice-Discounts.md) -->
+[Properties](devenv-properties.md)  
+[AL Methods](../methods/devenv-al-method-reference.md)  
+<!-- 
+[Testing the Application](Testing-the-Application.md)   
+[How to: Create Test Codeunits and Test Methods](../methods/devenv-How-to-Create-Test-Codeunits-and-Test-Methods.md)  [How to: Create Handler Methods](../methods/devenv-How-to-Create-Handler-Methods.md)   
+[Walkthrough: Testing Purchase Invoice Discounts](Walkthrough-Testing-Purchase-Invoice-Discounts.md) 
+-->
