@@ -39,3 +39,4 @@ MyText[5] := 'e';
 [AL Data Types](devenv-al-data-types.md)  
 [Text Data Type](devenv-text-data-type.md)   
 [Code Data Type](devenv-code-data-type.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  
