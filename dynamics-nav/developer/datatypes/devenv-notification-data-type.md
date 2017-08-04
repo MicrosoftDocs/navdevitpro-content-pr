@@ -26,5 +26,7 @@ The following methods are supported for the Notifications data type:
 
 
 ## See Also  
- [Notifications](../devenv-notifications-developing.md)  
+[Notifications](../devenv-notifications-developing.md)  
+[AL Data Types](devenv-al-data-types.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)    
  

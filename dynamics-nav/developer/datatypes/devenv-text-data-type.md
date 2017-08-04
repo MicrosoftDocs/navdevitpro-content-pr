@@ -25,7 +25,7 @@ This simple data type denotes a text string.
 
 ## Methods
   
-The following methods are supported for *instance* Text data type:  
+The following methods are instance methods, which support the Text data type:  
 
 |Method      |Instance   |
 |------------|-----------|
@@ -46,7 +46,7 @@ The following methods are supported for *instance* Text data type:
 |[TRIM Method (Text)](../methods/devenv-trim-method-text.md)|X|
 |[TRIMSTART Method (Text)](../methods/devenv-trimstart-method-text.md)|X|
 
-The following methods are supported for the *static* Text data type:
+The following methods are static methods, which support the Text data type:
 
 |Method       |Static    |
 |------------|-----------|
@@ -80,4 +80,5 @@ text := '123456abc';
   
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
-[TextBuilder](../api/textbuilder-class.md)
+[TextBuilder](../api/textbuilder-class.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

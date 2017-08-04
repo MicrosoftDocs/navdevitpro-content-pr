@@ -47,3 +47,4 @@ The methods supported for the File data type are:
 
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

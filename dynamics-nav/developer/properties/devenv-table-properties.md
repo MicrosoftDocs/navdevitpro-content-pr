@@ -461,3 +461,4 @@ The following topic lists properties that apply to the table object.
 
 ## See Also  
  [Properties](devenv-properties.md)
+ [Page and Page Extension Properties](devenv-page-property-overview.md)

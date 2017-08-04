@@ -45,4 +45,6 @@ MESSAGE(FORMAT(Duration));
  **124 days 4 hours 30 minutes 1 second**  
   
 ## See Also  
- [DateTime Data Type](devenv-datetime-data-type.md)
+ [DateTime Data Type](devenv-datetime-data-type.md)  
+ [AL Method Reference](../methods/devenv-al-method-reference.md)  
+ [AL Data Types](devenv-al-data-types.md)

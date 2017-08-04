@@ -66,7 +66,7 @@ Here is an example of the response. Note: The response object shown here may be 
   "currentFiscalYearStartDate": "2018-01-01",
   "industry": "",
   "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/companyInformation/{id}/picture",
-  "businessId": "",
+  "businessProfileId": "",
   "lastModifiedDateTime": "2017-03-16T14:57:19.497Z"
 }
 ```

@@ -35,3 +35,4 @@ TextBuilder can performantly concatenate multiple bigger strings together. The f
 ## See Also
 [Getting Started](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)
