@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-author: edupjswymeront
+author: jswymer
 ---
 # How to: Install the Web Server Components
 To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer that is running Internet Information Services \(IIS\). To access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you must have a web browser and a network connection to a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The following illustration shows the components involved in the setup.  
