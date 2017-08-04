@@ -125,5 +125,6 @@ The following methods are supported for the Variant data type:
 
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  
  <!--NAV [DATI2VARIANT method](../methods/devenv-DATI2VARIANT-method.md)-->   
  

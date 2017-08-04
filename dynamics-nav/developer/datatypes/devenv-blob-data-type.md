@@ -42,4 +42,5 @@ The methods supported for the BLOB data type are:
 
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
-[Variant Data Type](devenv-variant-data-type.md)
+[Variant Data Type](devenv-variant-data-type.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

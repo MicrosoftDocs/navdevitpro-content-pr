@@ -48,3 +48,4 @@ BI := 455500000000L;
 [AL Data Types](devenv-al-data-types.md)  
 [Decimal Data Type](devenv-decimal-data-type.md)   
 [Integer Data Type](devenv-integer-data-type.md)   
+[AL Method Reference](../methods/devenv-al-method-reference.md)  
