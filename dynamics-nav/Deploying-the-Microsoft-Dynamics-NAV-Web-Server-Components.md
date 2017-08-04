@@ -11,12 +11,12 @@ ms.assetid: 9c5a0bb0-66a9-437b-b228-17b43001d579
 caps.latest.revision: 24
 ---
 # Deploying the Microsoft Dynamics NAV Web Server Components
-This section contains information about the deployment of the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. It is important to understand the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] environment and consider the factors that will affect the installation and configuration, such as network architecture and infrastructure, users, security, and the deployment phase.  
-  
- When you deploy the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you get both the [!INCLUDE[nav_web](includes/nav_web_md.md)] and the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)].  
-  
-## Network Architecture and Topology  
- The following illustration shows the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] environment.  
+The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is required for the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], and [!INCLUDE[nav_phone](includes/nav_phone_md.md)]. This article provides an overview of the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] deployment. It is important to understand the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] environment and consider the factors that will affect the installation and configuration, such as network architecture and infrastructure, users, security, and the deployment phase.  
+
+If you just want to install and get started wih the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).
+
+## Network Topology  
+ The following illustration shows the component infrastructure that that supports the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] environment on your network.  
   
  ![NAV Web Client network architecture](media/NAV_WebClient_Network_Architecture.png "NAV\_WebClient\_Network\_Architecture")  
   
@@ -24,8 +24,8 @@ This section contains information about the deployment of the [!INCLUDE[nav_web_
   
  For information about the common deployment scenarios, see [Deployment Scenarios for the Microsoft Dynamics NAV Web Server Components](Deployment-Scenarios-for-the-Microsoft-Dynamics-NAV-Web-Server-Components.md).  
   
-##  <a name="WebClientonIIS"></a> Microsoft Dynamics NAV Web Server Components Installation on IIS  
- To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)], you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer that is running Internet Information Services \(IIS\). For more information about how to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and IIS, see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md) and [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md).  
+##  <a name="WebClientonIIS"></a> Microsoft Dynamics NAV Web Server Components on IIS  
+ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)], you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer that is running Internet Information Services \(IIS\) and ASP .NET Core.  
   
  When you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], a web server instance is added on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The web server instance consists of a virtual directory and application. The following illustration shows the structure in Internet Information Services Manager. For more information about these elements in IIS, see [IIS Manager UI](http://go.microsoft.com/fwlink/?LinkID=614897).  
   
@@ -84,5 +84,7 @@ This section contains information about the deployment of the [!INCLUDE[nav_web_
  For more information, see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md) and [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md).  
   
 ## See Also  
- [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   
- [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)
+ [Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   
+ [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)  
+ [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md)  
+ [Configuring-the-Dynamics-NAV-Web-Server-and-Client.md](Configuring-the-Microsoft-Dynamics-NAV-Web-Server-and-Client.md)  

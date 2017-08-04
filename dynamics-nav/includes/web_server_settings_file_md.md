@@ -1,0 +1,1 @@
+navsettings.json file
