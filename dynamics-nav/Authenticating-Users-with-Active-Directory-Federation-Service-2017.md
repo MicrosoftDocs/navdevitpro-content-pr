@@ -199,6 +199,8 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
 
     Replace ```[Dynamics NAV Web Client URL]``` with the full URL for your Web client, such as ```https://MyWebServer:8080/DynamicsNAV100/WebClient```. This is same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
 
+    >[!NOTE]
+    >In [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] and earlier, this setting does not exist. Instead, you set the **ACSUri** setting in the web.config for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. This will be done in the next task.
 
 4.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
@@ -206,15 +208,25 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
     >You can use the [Set-NAVServerInstance cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVServerInstance.md) to restart the service instance.
 
 ### Dynamics NAV Web Client setup
-You configure the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] by modifying it's [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].
+You configure the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] by modifying it's web.config file.
 
-Change the **ClientServicesCredentialType** setting to ```AccessControlService``` as shown:
+1.  Change the **ClientServicesCredentialType** setting to ```AccessControlService``` as shown:
 
     ```
-    "ClientServicesCredentialType":  "AccessControlService",
+    <add key="ClientServicesCredentialType" value="AccessControlService" />
     ```
 
-The configuration changes are automatically picked up by the Internet Information Service (IIS). For more information about modifying the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)], see [Configuring Dynamics NAV Web Client by Modifying the Navsettings.json File.md](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md)
+2. For [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] and earlier, set the **ACSUri** setting the WS-Federation login end point for authenticating users.
+
+    ```
+    <add key="ACSUri" value="https://[Public URL for AD FS server]/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwebclient%26wreply=[Dynamics NAV Web Client URL]" />
+    ```
+
+    Replace ```[Dynamics NAV Web Client URL]``` with the full URL for your Web client, such as ```https://MyWebServer:8080/DynamicsNAV100/WebClient```. This is the same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
+
+    This step is not relevant in [!INCLUDE[nav2017](includes/nav2017.md)] and later because the end point is configured in the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
+
+The configuration changes are automatically picked up by the Internet Information Service (IIS).
 
 >[!TIP]
 >Instead of reconfiguring the existing web client, consider using the [New-NAVWebServerInstance cmdlet](Microsoft.Dynamics.Nav.Management/New-NAVWebServerInstance.md) in the Dynamics NAV Administration Shell to add an additional web client instance, and leave the existing instance running NavUserPassword authentication.
