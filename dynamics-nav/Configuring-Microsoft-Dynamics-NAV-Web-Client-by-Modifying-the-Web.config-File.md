@@ -38,18 +38,17 @@ To use the cmdlet, run the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md
 ```
 Set-NAVWebServerInstanceConfiguration -Server [MyComputer] -ServerInstance [NAVServerInstanceName] -KeyName [Setting] -KeyValue [Value]
 ```
-
 Replace:
 -   `[MyComputer]` with the name of the computer that is running the [!INCLUDE[nav_server_md](includes/nav_server_md.md)]
--   `[NAVServerInstanceName]` with the name of the server instance, such as **DynamicsNAV110**.
+-   `[NAVServerInstanceName]` with the name of the server instance, such as **[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]**.
 -   `[KeyName]` with the name of the setting. Refer to the next section in this article.
 -   `[KeyValue]` with the new value of the setting.
 
 ## Settings in the navsettings.json file  
-The following table describes the settings that are available in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].  
+The following table describes the settings that are available in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].   
 
 > [!IMPORTANT]  
->  All values must be followed by a comma.    
+>  If modifying the file directly, place values in double quotes `""`, followed by a comma.    
 
 |Setting/KeyName|Description|  
 |-------------|-----------------|  
