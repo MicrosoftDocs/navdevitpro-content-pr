@@ -36,11 +36,15 @@ Sets the data item link type between data items in a query to determine the reco
  The DataItemLinkType property works together with the DataItemLinkType property to combine records from tables into a dataset. The DataItemLink property sets up "equal to" \(=\) comparison between two or more fields of the data item tables. When the query is run, the query compares each row of the two data items to find records that have matching values for the fields. Records that have matching field values are combined into a row in the resulting dataset. In some cases, there will be records that do not have matching values. You use the [DataItemLinkType Property](devenv-dataitemlink-type-property.md) to include records that do not have matching field values.  
   
 > [!NOTE]  
->  If the DataItemLinkType property is set to **SQL Advanced Options** and the [SQLJoinType Property](devenv-sql-join-type-property.md) is set to **Cross Join**, then you cannot set the DataItemLink property because there is no relationship between table fields. 
+>  If the DataItemLinkType property is set to **SQL Advanced Options** and the [SQLJoinType Property](devenv-sql-join-type-property.md) is set to **Cross Join**, then you cannot set the DataItemLink property because there is no relationship between table fields.  
+
 <!-- 
 For more information about cross joins, see [SQL Advanced Options for Data Item Link Types](SQL-Advanced-Options-for-Data-Item-Link-Types.md).  
  
 For more information about data item links, see [Understanding Data Item Links](Understanding-Data-Item-Links.md).  
 
 For a step-by-example of using the DataItemLinkType, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md). 
--->
+-->  
+## See Also  
+[Properties](devenv-properties.md)  
+[DataItemLink Query](devenv-dataitemlink-query-property.md)  
