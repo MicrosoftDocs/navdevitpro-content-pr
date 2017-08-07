@@ -19,7 +19,7 @@ After installation, you can change the configuration by modifying the [!INCLUDE[
 ## Modify the navsettings.json file for web server instance 
 The [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] is a Java Script Object Notification file type that is similar to files that use the XML file format. There are two ways to modify this file:
 
-## Modify the navsettings.json directly
+## Modify the navsettings.json file directly
 
 Open and edit the file in any text or code editor, such as Notepad or Visual Studio Code.
 
