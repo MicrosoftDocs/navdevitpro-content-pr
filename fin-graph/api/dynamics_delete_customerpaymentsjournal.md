@@ -1,6 +1,6 @@
 ---
-title: DELETE customer payment method | Microsoft Docs
-description: Deletes a customer payment.
+title: DELETE customer payments journal method | Microsoft Docs
+description: Deletes a customer payments journal.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,19 +14,19 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete customer payment
-Delete a customer payment from Dynamics 365 for Financials.
+# Delete customer payments journal
+Delete a customer payments journal from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/customerPaymentsJournals/{id}/customerPayments/{id}
+DELETE /financials/companies/{id}/customerPaymentsJournals/{id}
 ```
 
 ## Request headers
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
-|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
+|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer payments journal, the customer payments journal will not be updated. |
 
 ## Request body
 
@@ -43,7 +43,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/customerPaymentsJournals/{id}/customerPayments/{id}
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/customerPaymentsJournals/{id}
 ```
 
 **Response** 
@@ -55,4 +55,4 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  

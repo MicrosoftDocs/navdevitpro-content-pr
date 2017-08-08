@@ -34,7 +34,7 @@ CurrXMLPort.BREAK
  Compare this with the [QUIT Method \(Report, XMLport\)](devenv-QUIT-Method-Report-XMLport.md).  
 
 > [!TIP]  
->  You can also use the [AL BREAK Statement](../devenv-al-control-statements.md#BREAK) to exit an iteration or loop. The difference is that the BREAK statement does not terminate the trigger. It just exits the loop.  
+>  You can also use the [AL BREAK Statement](../devenv-al-control-statements.md) to exit an iteration or loop. The difference is that the BREAK statement does not terminate the trigger. It just exits the loop.  
 
 ## Example  
  This example of code in a trigger on a report object requires that you create the following global variable and text constant.  
