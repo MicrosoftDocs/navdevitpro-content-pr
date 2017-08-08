@@ -16,11 +16,17 @@ author: SusanneWindfeldPedersen
 Sets the number of columns that a field spans in a GridLayout control.  
   
 ## Applies To  
- Field controls in a GridLayout control on a page.  
+Field controls in a GridLayout control on a page.  
   
 ## Property Values  
- An integer that specifies the number of columns to span the field.  
+An integer that specifies the number of columns to span the field.  
   
 ## Remarks  
- When you set a field to span several columns, the field occupies the cells to its right, and existing fields in the occupied cells are moved to the right. For example, the following figure illustrates a GridLayout control that consists of four fields arranged in two rows.  
+When you set a field to span several columns, the field occupies the cells to its right, and existing fields in the occupied cells are moved to the right. 
+<!-- 
+For example, the following figure illustrates a GridLayout control that consists of four fields arranged in two rows. --> 
+
+## See Also    
+[Properties](devenv-properties.md)  
+[Layout Property](devenv-layout-property.md)  
   
