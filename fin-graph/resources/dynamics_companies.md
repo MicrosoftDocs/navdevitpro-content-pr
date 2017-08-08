@@ -1,5 +1,5 @@
 ---
-title: Companies resource type | Microsoft Docs
+title: companies resource type | Microsoft Docs
 description: A Company.
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Company resource type
+# companies resource type
 Represents a companies resource type in Dynamics 365 for Financials.
 
 
@@ -30,6 +30,8 @@ Represents a companies resource type in Dynamics 365 for Financials.
 |id|GUID|The unique ID of the company. Read-Only.|
 |name|string|Specifies the Company.|
 |displayName|string|Specifies the company display name.|
+|systemVersion|string|Specifies the internal version of the company.|
+|businessProfileId|string|Specifies the Business Profile ID linked to the company.|
 
 
 ## Relationships
@@ -43,7 +45,9 @@ Here is a JSON representation of the company.
 {
   "id": "GUID",
   "name": "string",
-  "displayName": "string"
+  "displayName": "string",
+  "systemVersion": "string",
+  "businessProfileId": "string"
 }
 
 ```

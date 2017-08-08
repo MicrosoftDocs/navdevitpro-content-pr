@@ -1,5 +1,5 @@
 ---
-title: Sales Order resource type | Microsoft Docs
+title: salesOrder resource type | Microsoft Docs
 description: A Sales Order.
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/03/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Sales order resource type
+# salesOrder resource type
 Represents a sales order in Dynamics 365 for Financials.
 
 ## Methods
@@ -29,7 +29,7 @@ Represents a sales order in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The order ID. Read-Only.|
+|id|GUID|The order ID. Non-editable.|
 |number|string, maximum size 20|The order number. Read-Only.|
 |orderDate|date|The order date|
 |customerId|GUID|The id of the order customer.|
@@ -37,8 +37,10 @@ Represents a sales order in Dynamics 365 for Financials.
 |customerNumber|string, maximum size 20|The customer number for the order.|
 |customerName|string, maximum size 50|The full name of the customer. Read-Only.|
 |billingPostalAddress|complex|The billing postal address for the order.|  
+|currencyId|GUID|The id of the order currency.|
 |currencyCode|string, maximum size 10|The currency code for the order.|
 |pricesIncludeTax|boolean|Specifies whether the prices include Tax or not. Read-Only.|
+|paymentTermsId|GUID|The id of the order payment term.|
 |paymentTerms|string, maximum size 10|The payment terms of the order.|
 |salesperson|string, maximum size 20|The salesperson code for the order.|
 |partialShipping|boolean|Specifies whether partial shipping of items is preferred or not.|
@@ -77,8 +79,10 @@ Here is a JSON representation of the resource.
       "customerNumber": "string",
       "customerName": "string",
       "billingPostalAddress": {NAV.PostalAddress},
+      "currencyId": "GUID",
       "currencyCode": "string",
       "pricesIncludeTax": boolean,
+      "paymentTermsId": "GUID",
       "paymentTerms": "string",
       "salesperson": "string",
       "partialShipping": boolean,

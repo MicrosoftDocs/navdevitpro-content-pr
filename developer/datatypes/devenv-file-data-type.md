@@ -1,7 +1,11 @@
 ---
 title: "File Data Type"
+description: 
+author: SusanneWindfeldPedersen
+
 ms.custom: na
-ms.date: 07/03/2017
+ms.date: 07/07/2017
+ms.auhtor: solsen
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +13,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: e69359b6-5b74-46c2-88ac-2d98f48a9d38
 caps.latest.revision: 12
-author: SusanneWindfeldPedersen
+
 ---
 # File Data Type
 The File data type gives access to files. Files can be opened in text or binary mode. For more information, see [TEXTMODE method (File)](../methods/devenv-textmode-method-file.md).  

@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
@@ -28,7 +28,7 @@ GET /financials/companies/{id}/purchaseInvoices/{id}/purchaseInvoiceLines(docume
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and purchaseInvo
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/beta/financials/companies/{id}/purchaseInvoices/{id}/purchaseInvoiceLines(documentId={id},sequence={number})
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/purchaseInvoices/{id}/purchaseInvoiceLines(documentId={id},sequence={number})
 ```
 
 **Response**
@@ -67,7 +67,7 @@ Here is an example of the response. Note: The response object shown here may be 
     "symbol": null,
     "unitConversion": null
   },
-  "directUnitCost": 71.1,
+  "unitCost": 71.1,
   "quantity": 96,
   "discountAmount": 0,
   "discountPercent": 0,

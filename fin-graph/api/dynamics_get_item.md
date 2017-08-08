@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
@@ -27,7 +27,7 @@ GET /financials/companies/{id}/items/{id}
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization|Bearer. Required.|
+|Authorization|Bearer {token}. Required.|
 
 ## Request body
 Do not supply a request body for this method.
@@ -54,6 +54,7 @@ Here is an example of the response. Note: The response object shown here may be 
   "displayName": "ATHENS Desk",
   "type": "Inventory",
   "blocked": false,
+  "baseUnitOfMeasureId": "id-value",
   "baseUnitOfMeasure": {
     "unitCode": "PCS",
     "unitName": "Piece",
@@ -69,6 +70,7 @@ Here is an example of the response. Note: The response object shown here may be 
   "unitPrice": 1000.8,
   "priceIncludesTax": false,
   "unitCost": 780.7,
+  "taxGroupId": "id-value",
   "taxGroupCode": "FURNITURE",
   "lastModifiedDateTime": "2017-03-07T00:35:30.073Z"
 }

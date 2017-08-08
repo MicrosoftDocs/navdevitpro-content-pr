@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/08/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
 # Update purchase invoice line
-Update the properties of a purchaseInvoiceLine object for Dynamics 365 for Financials.
+Update the properties of a purchase invoice line object for Dynamics 365 for Financials.
 
 ## HTTP request
 
@@ -26,7 +26,7 @@ PATCH /financials/companies/{id}/purchaseInvoices/{id}/purchaseInvoiceLines(docu
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization |Bearer. Required.|
+|Authorization |Bearer {token}. Required.|
 |Content-Type  |application/json|
 |If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the purchaseInvoiceLine, the purchaseInvoiceLine will not be updated. |
 
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated p
 
 Here is an example of the request.
 ```json
-PATCH https://graph.microsoft.com/beta/financials/companies/{id}/purchaseInvoices{id}/purchaseInvoiceLines(documentId={id},sequence={number})
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/purchaseInvoices{id}/purchaseInvoiceLines(documentId={id},sequence={number})
 Content-type: application/json
 
 {
@@ -75,7 +75,7 @@ Content-type: application/json
     "symbol": null,
     "unitConversion": null
   },
-  "directUnitCost": 71.1,
+  "unitCost": 71.1,
   "quantity": 96,
   "discountAmount": 0,
   "discountPercent": 0,

@@ -1,5 +1,5 @@
 ---
-title: Complex Types JSON | Microsoft Docs
+title: complex Types JSON | Microsoft Docs
 description: Complex data types JSON.
 services: project-madeira
 documentationcenter: ''
@@ -10,18 +10,18 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/17/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Complex types JSON
+# complex types JSON
 These are the various complex types in Dynamics 365 for Financials. You can see usage of these complex types in the various individual methods that make use of them.
 
-# Item category
+## Item category
 
 Represents an Item Category complex type in Dynamics 365 for Financials.
 
-## Properties
+### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |categoryId|string|The unique ID of the item category.|
@@ -35,33 +35,33 @@ Represents an Item Category complex type in Dynamics 365 for Financials.
 } 
 ```
 
-# Unit of measure
+## Unit of measure
 
 Represents a Unit of Measure complex type in Dynamics 365 for Financials.       
 
-## Properties
+### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|unitCode|string|The unique ID of the unit of measure.|
-|unitName|string|Specifies the description of the unit of measure.|
+|code|string|The unique ID of the unit of measure.|
+|displayName|string|Specifies the description of the unit of measure.|
 |symbol|string|Specifies a graphical representation of the unit of measure.|
 |unitConversion|Specifies the conversion rate to a different (target) unit of measure.|
 
 ```json
 "UnitOfMeasure" 
 {  
-  "unitCode":  "string", 
-  "unitName": "string", 
+  "code":  "string", 
+  "displayName": "string", 
   "symbol": "string", 
   "unitConversion": "NAV.ItemUnitOfMeasureConversion" 
 } 
 ```
 
-# Unit of measure conversion
+## Unit of measure conversion
 
 Represents a Unit of Measure Conversion complex type in Dynamics 365 for Financials.       
 
-## Properties
+### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |toUnitOfMeasure|string|Specifies the unit of measure to convert to.|
@@ -75,11 +75,11 @@ Represents a Unit of Measure Conversion complex type in Dynamics 365 for Financi
 } 
  ```
 
- # Payment method
+## Payment method
 
 Represents a Payment Method complex type in Dynamics 365 for Financials.       
 
-## Properties
+### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |code|string|The unique code of the payment method.|
@@ -93,11 +93,11 @@ Represents a Payment Method complex type in Dynamics 365 for Financials.
 } 
  ```
 
- # Payment terms
+## Payment terms
 
 Represents a Payment Terms complex type in Dynamics 365 for Financials.       
 
-## Properties
+### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |code|string|The unique code of the payment terms.|
@@ -111,11 +111,11 @@ Represents a Payment Terms complex type in Dynamics 365 for Financials.
 } 
  ```
 
- # Postal address
+## Postal address
 
 Represents a Postal Address complex type in Dynamics 365 for Financials.       
 
-## Properties
+### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |street|string|Postal address street.|
@@ -135,11 +135,11 @@ Represents a Postal Address complex type in Dynamics 365 for Financials.
 } 
  ```
 
- # Shipment method
+## Shipment method
 
 Represents a Shipment Method complex type in Dynamics 365 for Financials.       
 
-## Properties
+### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |code|string|The unique code of the shipment method.|
@@ -153,11 +153,11 @@ Represents a Shipment Method complex type in Dynamics 365 for Financials.
 } 
 ```
 
-# Line details
+## Line details
 
 Represents a Line Details complex type in Dynamics 365 for Financials.       
 
-## Properties
+### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |number|string|The sequence number of the document line details.|

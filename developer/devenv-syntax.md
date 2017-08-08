@@ -3,14 +3,14 @@ title: "Syntax"
 description: "Description of syntax."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 12/14/2016
+ms.date: 06/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 caps.latest.revision: 18
 ---
 

@@ -349,7 +349,7 @@ This example requires the following Integer data type variables.
 ```  
 var
   I : Integer;
-  I : Integer;
+  J : Integer;
 ```  
 
 <!--NAV
@@ -586,7 +586,7 @@ if Customer.FIND('-') then
 repeat  
   Count := Count + 1;  
 until Customer.NEXT <= 0;  
-Message(’The Customer table contains %1 records.’,Count);  
+Message('The Customer table contains %1 records.',Count);  
 ```  
 This example requires the following variables.
 ```  

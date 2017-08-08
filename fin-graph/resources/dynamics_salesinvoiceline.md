@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/02/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# SalesInvoiceLine resource type
+# salesInvoiceLine resource type
 Represents a line on a sales invoice in Dynamics 365 for Financials.
 
 ## Methods
@@ -36,7 +36,8 @@ Represents a line on a sales invoice in Dynamics 365 for Financials.
 |lineType|string|The type of the line. Can be Comment,Account,Item,Resource,Fixed Asset,Charge|
 |lineDetails|complex|The details of the line.|
 |description|string|A description of the item in the invoice line.|
-|unitOfMeasure|complex|The unit of measure complex type.|
+|unitOfMeasureId|GUID|The unit of measure for the invoice line.|
+|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complex_types.md)|The unit of measure complex type.|
 |quantity|numeric|The quantity of the item in the invoice line.|
 |unitPrice|numeric|The unit price of each individual item in the invoice line.|
 |discountAmount|numeric|The line discount amount.|
@@ -77,6 +78,7 @@ Here is a JSON representation of the resource.
       "lineType": "String",
       "lineDetails": {NAV.documentLineObjectDetails},
       "description": "String",
+      "unitOfMeasureId": "GUID",
       "unitOfMeasure": {NAV.UnitOfMeasure},
       "unitPrice": decimal,
       "quantity": decimal,

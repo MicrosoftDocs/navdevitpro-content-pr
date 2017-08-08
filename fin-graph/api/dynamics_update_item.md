@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
@@ -25,7 +25,7 @@ PATCH /financials/companies/{id}/items/{id}
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization |Bearer. Required.|
+|Authorization |Bearer {token}. Required.|
 |Content-Type  |application/json.|
 |If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the item, the item will not be updated. |
 
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and an updated i
 
 Here is an example of the request.
 ```json
-PATCH https://graph.microsoft.com/beta/financials/companies/{id}/items{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/items{id}
 Content-type: application/json
 
 {
@@ -63,6 +63,7 @@ Content-type: application/json
   "displayName": "ATHENS Desk - blocked",
   "type": "Inventory",
   "blocked": true,
+  "baseUnitOfMeasureId": "id-value", 
   "baseUnitOfMeasure": {
     "unitCode": "PCS",
     "unitName": "Piece",
@@ -78,6 +79,7 @@ Content-type: application/json
   "unitPrice": 1000.8,
   "priceIncludesTax": false,
   "unitCost": 780.7,
+  "taxGroupId": "id-value",
   "taxGroupCode": "FURNITURE",
   "lastModifiedDateTime": "2017-03-07T00:35:30.073Z"
 }

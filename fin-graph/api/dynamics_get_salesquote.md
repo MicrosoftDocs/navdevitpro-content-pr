@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
@@ -26,7 +26,7 @@ GET /financials/companies/{id}/salesQuotes/{id}
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and salesQuote o
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/beta/financials/companies/{id}/salesQuotes/{id}
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesQuotes/{id}
 ```
 
 **Response**
@@ -78,8 +78,8 @@ Here is an example of the response. Note: The response object shown here may be 
   "totalAmountIncludingTax": 7508.16,
   "status": "Open",
   "sentDate": "0001-01-01T00:00:00Z",
-  "validUntilDate": "0001-01-01",
-  "acceptedDate": "0001-01-01",
+  "validUntilDate": "2019-01-24",
+  "acceptedDate": "2019-01-24",
   "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```

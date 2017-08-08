@@ -35,10 +35,10 @@ Specifies the object that contains the event publisher method that the event sub
   
  After you set this property, you set the [EventMethod Property](devenv-eventmethod-property.md) to specify the event publisher method that you want the event subscriber to subscribe to.  
   
- For more information about events, see [Event Types](Event-Types.md) and [Subscribing to Events](Subscribing-to-Events.md).  
+ <!--For more information about events, see [Event Types](Event-Types.md) and [Subscribing to Events](Subscribing-to-Events.md).  
   
 ## See Also  
  [Publishing Events](Publishing-Events.md)   
  [Raising Events](Raising-Events.md)   
  [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
- [AL Method Statements](../devenv-al-method-statements.md)
+ [AL Method Statements](../devenv-al-method-statements.md) -->

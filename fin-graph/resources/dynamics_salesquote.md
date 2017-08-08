@@ -1,5 +1,5 @@
 ---
-title: Sales Quote resource type | Microsoft Docs
+title: salesQuote resource type | Microsoft Docs
 description: A Sales Quote.
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/03/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Sales quote resource type
+# salesQuote resource type
 Represents a salesQuote resource type in Dynamics 365 for Financials.
 
 ## Methods
@@ -39,11 +39,11 @@ Represents a salesQuote resource type in Dynamics 365 for Financials.
 |customerNumber|string, maximum size 20|The customer number for the quote.|
 |customerName|string, maximum size 50|The full name of the customer. Read-Only.|
 |billingPostalAddress|complex|The billing postal address for the quote.|  
-|currencyId|GUID|The id of the currency code.|
+|currencyId|GUID|The id of the quote currency.|
 |currencyCode|string, maximum size 10|The currency code for the quote.|
-|paymentTermsId|GUID|The id of the payment term.|
+|paymentTermsId|GUID|The id of the quote payment term.|
 |paymentTerms|string, maximum size 10|The payment terms of the quote.|
-|shipmentMethodId|GUID|The id of the shipment method.|
+|shipmentMethodId|GUID|The id of the quote shipment method.|
 |shipmentMethod|string, maximum size 10|The payment terms of the quote.|
 |salesperson|string, maximum size 20|The salesperson code for the quote.|
 |discountAmount|numeric|The quote discount amount|
@@ -52,8 +52,8 @@ Represents a salesQuote resource type in Dynamics 365 for Financials.
 |totalAmountIncludingTax|numeric|The total amount for the quote, including tax. Read-Only.|
 |status|string, maximum size 20|The quote status. Status can be: Draft,Sent,Accepted. Read-Only.|
 |sentDate|datetime|The the date and time the quote was sent our to the customer. Read-Only.|
-|validUntilDate|date|The date the quote is valid until.|
-|acceptedDate|date|The date the quote accepted. Read-Only.|
+|validUntilDate|Date|The date a quote is valid until.|
+|acceptedDate|Date|The date a quote is accepted. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the sales quote was modified. Read-Only.|
 
 

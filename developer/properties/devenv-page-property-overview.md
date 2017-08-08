@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 caps.latest.revision: 18
 ---
 
@@ -67,8 +67,8 @@ The following properties apply to Group controls on a page.
 |[Enabled Property](devenv-enabled-property.md)|X|X|
 |[Description Property](devenv-description-property.md)|X||
 |[InstructionalTextML Property](devenv-instructionaltextml-property.md)|X|X|
-|[GridLayout Property](devenv-gridlayout-property.md)|X||
-|[IndentationColumn Property](devenv-indentationcolumn-property.md)|X||
+|GridLayout Property|X||
+|[IndentationColumn Property](devenv-indentationcolumnname-property.md)|X||
 |[IndentationControls Property](devenv-indentationcontrols-property.md)|X||
 |[FreezeColumn Property](devenv-freezecolumnid-property.md)|X|X|
 |[ShowAsTree Property](devenv-showastree-property.md)|X||
@@ -112,7 +112,7 @@ The following properties apply to Field controls on a page.
 |[DrillDownPageId Property](devenv-drilldownpageid-property.md)|X||
 |[Importance Property](devenv-importance-property.md)|X|X|
 |[ToolTipML Property](devenv-tooltipml-property.md)|X|X|
-|[Title Property](devenv-title-property.md)|X|X|
+|Title Property|X|X|
 |[QuickEntry Property](devenv-quickentry-property.md)|X|X|
 |[Lookup Property](devenv-lookup-property.md)|X||
 |[DrillDown Property](devenv-drilldown-property.md)|X||
@@ -139,7 +139,7 @@ The following properties apply to Part controls on a page.
 |[SubPageLink Property](devenv-subpagelink-property.md)|X||
 |[ShowFilter Property](devenv-showfilter-property.md)|X||
 |[UpdatePropagation Property](devenv-updatepropagation-property.md)|X||
-|[Provider Property](devenv-provider-property.md)|X||
+|Provider Property|X||
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[Description Property](devenv-description-property.md)|X||
 

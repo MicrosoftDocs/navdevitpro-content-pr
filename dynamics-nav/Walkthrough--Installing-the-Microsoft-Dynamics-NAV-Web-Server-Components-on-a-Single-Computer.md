@@ -43,7 +43,7 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
 
          For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).  
 
-    -   Internet Information Services 7 or Internet Information Services 8.  
+    -   A supported version of Internet Information Services. For more information, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md). 
 
          You must enable IIS with the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md).  
 
@@ -126,7 +126,7 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
  Viktor chose to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on port 8080 of the computer. This port is typically blocked by Windows Firewall. To allow communication to the port from client devices, he must create an inbound rule on the port 8080 in the Windows Firewall setup.  
 
 > [!NOTE]  
->  You do not have to perform this task if the computer is running Windows Server 2012.  
+>  You do not have to perform this task if the computer is running Windows Server 2012 or Windows Server 2016.  
 
 #### To create an inbound rule on the port that is used by [!INCLUDE[nav_web](includes/nav_web_md.md)]  
 

@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
 # Get companies
-Retrieve the properties and relationships of a Companies object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a companies object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
@@ -25,7 +25,7 @@ GET /financials/companies
 ## Request headers
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required. |
+|Authorization  |Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and companies ob
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/beta/financials/companies
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies
 ```
 
 **Response**
@@ -48,9 +48,11 @@ Here is an example of the response. Note: The response object shown here may be 
 
 ```json
 {
-  "id": "id-value",
-  "name": "CRONUS International Ltd.",
-  "displayName": "CRONUS International Ltd."
+    "id": "id-value",
+    "systemVersion": "17806",
+    "name": "CRONUS US",
+    "displayName": "CRONUS USA, Inc.",
+    "businessProfileId": ""
 }
 ```
 
