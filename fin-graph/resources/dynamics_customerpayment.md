@@ -46,6 +46,8 @@ Represents a customer payment in Dynamics 365 for Financials.
 
 
 ## Relationships
+A customer payment is a subpage of a customer payments journal. It cannot be accessed directly.
+
 A customer payment can be a "Parent Entity" of the dimension lines.
 
 A Customer (customerId) must exist in the Customers table.
