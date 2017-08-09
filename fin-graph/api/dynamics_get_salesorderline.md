@@ -62,6 +62,7 @@ Here is an example of the response. Note: The response object shown here may be 
     "description": null
   },
   "description": "GL00000091",
+  "unitOfMeasureId": "id-value",
   "unitOfMeasure": {
     "code": "BOX",
     "displayName": "Box",

@@ -45,7 +45,8 @@ The following properties apply to the page object.
 |[PromotedActionCategoriesML Property](devenv-promotedactioncategoriesml-property.md)|X|X|
 |[DelayedInsert Property](devenv-delayedinsert-property.md)|X||
 |[RefreshOnActivate Property](devenv-refreshonactivate-property.md)|X||
-<!-- |[ODateKeyFields Property]()|X||-->
+  
+  <!-- |[ODateKeyFields Property]()|X||-->
 
 ## Container control properties
 The following properties apply to Container controls on a page.
@@ -194,8 +195,8 @@ The following properties apply to Separators.
 |[IsHeader Property]()|X||
 
 ## See Also
-[Developing Extensions](../devenv-dev-overview.md)  
-[Developer Reference](../devenv-reference-overview.md)  
+[Properties](devenv-properties.md)  
 [Page Object](../devenv-page-object.md)  
 [Page Extension Object](../devenv-page-ext-object.md)  
 [Report Object](../devenv-report-object.md)  
+[Table and Table Extension Properties](devenv-table-properties.md)

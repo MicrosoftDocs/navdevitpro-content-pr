@@ -42,16 +42,16 @@ Represents a Unit of Measure complex type in Dynamics 365 for Financials.
 ### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|unitCode|string|The unique ID of the unit of measure.|
-|unitName|string|Specifies the description of the unit of measure.|
+|code|string|The unique ID of the unit of measure.|
+|displayName|string|Specifies the description of the unit of measure.|
 |symbol|string|Specifies a graphical representation of the unit of measure.|
 |unitConversion|Specifies the conversion rate to a different (target) unit of measure.|
 
 ```json
 "UnitOfMeasure" 
 {  
-  "unitCode":  "string", 
-  "unitName": "string", 
+  "code":  "string", 
+  "displayName": "string", 
   "symbol": "string", 
   "unitConversion": "NAV.ItemUnitOfMeasureConversion" 
 } 

@@ -38,4 +38,5 @@ IF FORMAT(DateFormulaVariable) = ' ' THEN
 
 ## See Also  
  <!-- [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)  -->
- [DateFormula Property](../properties/devenv-dateformula-property.md)
+ [DateFormula Property](../properties/devenv-dateformula-property.md)  
+ [AL Method Reference](../methods/devenv-al-method-reference.md)  

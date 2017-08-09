@@ -56,7 +56,7 @@ Runs a specific report without a request page and saves the report as a PDF, Exc
 
  If you omit this optional return value and if the report cannot be saved as a file, then a run-time error occurs that states that the report cannot be saved. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs, even though the report is not saved.  
 
- **true** if the report was saved to a file; otherwise, **false**.  
+ **True** if the report was saved to a file; otherwise, **false**.  
 
 ## Remarks  
  You typically use this method together with the [RUNREQUESTPAGE Method](devenv-RUNREQUESTPAGE-Method.md) method. The RUNREQUESTPAGE method runs a report request page without actually running the report, but instead, returns the parameters that are set on the request page as a string. You can then call the SAVEAS method to get the parameter string and save the report to a file of the specified format.  
@@ -68,6 +68,6 @@ Runs a specific report without a request page and saves the report as a PDF, Exc
 
 ## See Also  
  [Report Object](../devenv-report-object.md)   
- <!--Links [Request Pages](Request-Pages.md)-->   
  [EXECUTE Method](devenv-EXECUTE-Method.md)   
- [PRINT Method](devenv-PRINT-Method.md)
+ [PRINT Method](devenv-PRINT-Method.md)  
+  <!--Links [Request Pages](Request-Pages.md)-->   

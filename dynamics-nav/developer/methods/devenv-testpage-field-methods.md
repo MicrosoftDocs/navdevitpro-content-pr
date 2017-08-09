@@ -18,4 +18,4 @@ manager: edupont
 The field methods enable you to view or change the value of a field on a test page.  
   
 ## See Also  
- [Testing Pages](Testing-Pages.md)
+[Testing Pages](devenv-testpage-methods.md)

@@ -48,9 +48,11 @@ Here is an example of the response. Note: The response object shown here may be 
 
 ```json
 {
-  "id": "id-value",
-  "name": "CRONUS International Ltd.",
-  "displayName": "CRONUS International Ltd."
+    "id": "id-value",
+    "systemVersion": "17806",
+    "name": "CRONUS US",
+    "displayName": "CRONUS USA, Inc.",
+    "businessProfileId": ""
 }
 ```
 

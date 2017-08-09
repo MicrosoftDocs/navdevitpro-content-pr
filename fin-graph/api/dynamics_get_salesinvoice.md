@@ -65,10 +65,13 @@ Here is an example of the response. Note: The response object shown here may be 
     "countryLetterCode": "",
     "postalCode": ""
   },
+  "currencyId": "currencyId-value",
   "currencyCode": "GBP",
   "orderId": "id-value",
   "orderNumber": "",
+  "paymentTermsId": "paymentTermsId-value",
   "paymentTerms": "COD",
+  "shipmentMethodId": "shipmentMethodId-value",
   "shipmentMethod": "",
   "salesperson": "",
   "pricesIncludeTax": false,

@@ -51,6 +51,7 @@ Here is an example of the response. Note: The response object shown here may be 
 {
   "id": "id-value",
   "number": "1006",
+  "externalDocumentNumber": "",
   "documentDate": "2019-01-24",
   "dueDate": "2019-01-24",
   "customerId": "customerId-value",
@@ -64,8 +65,11 @@ Here is an example of the response. Note: The response object shown here may be 
     "countryLetterCode": "",
     "postalCode": ""
   },
+  "currencyId": "currencyId-value",
   "currencyCode": "GBP",
+  "paymentTermsId": "paymentTermsId-value",
   "paymentTerms": "COD",
+  "shipmentMethodId": "shipmentMethodId-value",
   "shipmentMethod": "EXW",
   "salesperson": "",
   "discountAmount": 0,
@@ -73,6 +77,9 @@ Here is an example of the response. Note: The response object shown here may be 
   "totalTaxAmount": 682.56,
   "totalAmountIncludingTax": 7508.16,
   "status": "Open",
+  "sentDate": "0001-01-01T00:00:00Z",
+  "validUntilDate": "2019-01-24",
+  "acceptedDate": "2019-01-24",
   "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```

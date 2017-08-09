@@ -50,8 +50,8 @@ Here is an example of the response. Note: The response object shown here may be 
 {
   "number": "1110",
   "display": "Accounts Receivable",
-  "netChangeDebit": "0.00",
-  "netChangeCredit": "0.00",
+  "totalDebit": "0.00",
+  "totalCredit": "0.00",
   "balanceAtDateDebit": "72,893.84",
   "balanceAtDateCredit": "0.00",
   "dateFilter": "2019-12-31"    

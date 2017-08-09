@@ -46,7 +46,10 @@ You can use several specialized methods to display messages and gather input. We
 
  In some applications, you may want to create a window in which each field is updated when the program is running. For example, the fields in the window display the count of the number of postings made. In another application, you may want to display information about the record that is currently being processed. For example, the field in the window displays the number of the account that is currently being processed.  
 
- To create this kind of progress window, you use the Dialog data type. For more information, see [How to: Create a Progress Window](How-to-Create-a-Progress-Window.md).  
+ To create this kind of progress window, you use the Dialog data type.  
+ <!-- 
+ For more information, see [How to: Create a Progress Window](How-to-Create-a-Progress-Window.md).  
+ -->
 
 ## MESSAGE method  
  The [MESSAGE Method \(Dialog\)](methods/devenv-MESSAGE-Method-Dialog.md) displays a message in a window that remains open until the user chooses the **OK** button.  

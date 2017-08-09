@@ -30,21 +30,22 @@ manager: edupont
   
 > [!NOTE]  
 >  When you change the language of [!INCLUDE[navnow](includes/navnow_md.md)], you are not changing the language of the data that is stored in [!INCLUDE[navnow](includes/navnow_md.md)]. Changing the text that is stored as application data is not part of the language modules. Examples of such text are the names of items in the inventory or the comments for a customer.  
-  <!--
- For more information, see [Language Modules](Language-Modules.md).  
-  
+
+<!--  
+For more information, see [Language Modules](Language-Modules.md).  
 
 ## Developing Multilanguage Applications  
- After you install a language module, you must design your application to take advantage of the multilanguage functionality. For more information, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
- -->
+After you install a language module, you must design your application to take advantage of the multilanguage functionality. For more information, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
+-->
   
 ## Viewing the Application in Different Languages  
- The language that is displayed to end users in the application depends on several factors, including the language on the localized version of the application, whether a user has specified a global language, whether a developer has specified a global language in AL code, or whether a developer has specified a language for a particular object in AL code.<!-- For more information, see [Viewing the Application in Different Languages](Viewing-the-Application-in-Different-Languages.md).  -->
+ The language that is displayed to end users in the application depends on several factors, including the language on the localized version of the application, whether a user has specified a global language, whether a developer has specified a global language in AL code, or whether a developer has specified a language for a particular object in AL code. <!-- For more information, see [Viewing the Application in Different Languages](Viewing-the-Application-in-Different-Languages.md). -->
   
-## See Also  
- <!--
- [Development](Development.md)   
- [Adding Languages to Microsoft Dynamics NAV](Adding-Languages-to-Microsoft-Dynamics-NAV.md)   
- [Language Modules](Language-Modules.md)   
- [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)   
- [Viewing the Application in Different Languages](Viewing-the-Application-in-Different-Languages.md)-->
+
+<!--
+[Development](Development.md)   
+[Adding Languages to Microsoft Dynamics NAV](Adding-Languages-to-Microsoft-Dynamics-NAV.md)   
+[Language Modules](Language-Modules.md)   
+[Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)   
+[Viewing the Application in Different Languages](Viewing-the-Application-in-Different-Languages.md) 
+-->

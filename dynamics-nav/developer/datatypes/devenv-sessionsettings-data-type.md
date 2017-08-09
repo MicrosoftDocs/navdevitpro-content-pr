@@ -44,3 +44,4 @@ The following methods are supported for the SessionSettings data type:
 
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

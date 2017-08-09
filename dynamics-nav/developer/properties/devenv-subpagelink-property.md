@@ -1,7 +1,7 @@
 ---
 title: "SubPageLink Property"
 ms.custom: na
-ms.date: 06/16/2016
+ms.date: 07/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,5 +26,5 @@ Sets a link to a Factbox from a page.
  For an example of how to use SubPageLink to update the content of a FactBox in the RoleTailored client as different items are selected in a list page. <!-- See [Walkthrough: Adding a FactBox to the Customer List Page](../devenv-Walkthrough-Adding-a-FactBox-to-the-Customer-List-Page.md).  -->
   
 ## See Also  
- [Properties](devenv-properties.md)
+ [Properties](devenv-properties.md)  
  [SubPageView Property](devenv-subpageview-property.md)

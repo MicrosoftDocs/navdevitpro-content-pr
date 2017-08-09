@@ -18,4 +18,5 @@ Indicates **true** or **false**.
 You can use the [FORMAT method (Code, Text)](../methods/devenv-format-method-code-text.md) to specify how Boolean values are shown.
 
 ## See Also
-[AL Data Types](devenv-al-data-types.md)
+[AL Data Types](devenv-al-data-types.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

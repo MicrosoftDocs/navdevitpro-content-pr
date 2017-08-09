@@ -29,6 +29,10 @@ Sets the field to associate with a column of a query.
  A query retrieves data from fields of one or more tables. To specify a table in a query, you define a data item, and then set the DataItemTable Property of the data item to the table. After you define the data item, you can add columns under the data item, and then modify the DataSource properties of the columns to specify the fields to include in the query results. You can also set the column field by changing the **Data Source** column in Query Designer.  
   
  You can use the same field on different columns in your query. Each column in a query must a unique name, which is defined by the defined by the [Name Property](devenv-name-property.md). By default, columns are given a name that is based on the field name. If the query has duplicate column names, then you use the Name Property to give columns unique names.  
- <!-- 
+
 ## See Also  
- [Understanding Query Filters](Understanding-Query-Filters.md)  --> 
+[DataItemTable Property](devenv-dataitemtable-property.md)  
+[Properties](devenv-properties.md)
+<!-- 
+[Understanding Query Filters](Understanding-Query-Filters.md)  
+--> 
