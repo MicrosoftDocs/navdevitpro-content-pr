@@ -72,7 +72,9 @@
 #### [JsonObject](developer/api/jsonobject-class.md)
 #### [JsonToken](developer/api/jsontoken-class.md)
 #### [JsonValue](developer/api/jsonvalue-class.md)
+<!--
 #### [TextBuilder](developer/api/textbuilder-class.md)
+-->
 #### [XmlAttribute](developer/api/xmlattribute-class.md)
 #### [XmlcData](developer/api/xmlcdata-class.md)
 #### [XmlComment](developer/api/xmlcomment-class.md)
