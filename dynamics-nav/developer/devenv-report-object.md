@@ -219,8 +219,8 @@ report 70010101 "Customer List"
 ```
 
 ## See Also
-[Developing Extensions](devenv-dev-overview.md)  
-[Developer Reference](devenv-reference-overview.md)  
 [How to: Create a Report](devenv-howto-report-layout.md)  
 [Page Extension Object](devenv-page-ext-object.md)   
-[Page Properties](properties/devenv-page-property-overview.md)
+[Page Properties](properties/devenv-page-property-overview.md)  
+[Developing Extensions](devenv-dev-overview.md)  
+[Developer Reference](devenv-reference-overview.md)  

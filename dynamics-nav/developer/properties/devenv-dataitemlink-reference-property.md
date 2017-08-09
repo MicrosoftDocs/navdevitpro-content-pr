@@ -24,6 +24,10 @@ Sets the parent data item to which a child (indented) data item is linked. After
 -   Reports  
   
 ## Remarks  
- The value of the **DataItemLinkReference** property must be specified as the **Name** of a parent data item.  
+The value of the **DataItemLinkReference** property must be specified as the **Name** of a parent data item.  
   
- The default value is the name of the last preceding data item in the report with lower indentation. You can set **DataItemLinkReference** and **DataItemLink** properties for a data item that is not a child of another data item, however, this will not have any effect.
+The default value is the name of the last preceding data item in the report with lower indentation. You can set **DataItemLinkReference** and **DataItemLink** properties for a data item that is not a child of another data item, however, this will not have any effect.  
+
+## See Also  
+[Properties](devenv-properties.md)  
+[DataItemLink Property (Reports)](devenv-dataitemlink-reports-property.md)  

@@ -1,7 +1,7 @@
 ---
 title: "SubPageView Property"
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 07/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,5 +26,5 @@ Sets the table view for a subpage.
  You can use this property to sort the information in the table for display in this subpage. Use the **AssistEdit** button to help you set the table view for the subpage.
 
  ## See Also  
- [Properties](devenv-properties.md)
+ [Properties](devenv-properties.md)  
  [SubPageLink Property](devenv-subpagelink-property.md)

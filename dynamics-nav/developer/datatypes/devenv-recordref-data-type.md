@@ -19,4 +19,6 @@ A RecordRef object references a record in a table. Typically, you use a RecordRe
  If one RecordRef variable is assigned to another RecordRef variable, then they both refer to the same table instance.  
   
 ## See Also  
- [FieldRef Data Type](devenv-fieldref-data-type.md)
+ [FieldRef Data Type](devenv-fieldref-data-type.md)  
+ [AL Data Types](devenv-al-data-types.md)  
+ [AL Method Reference](../methods/devenv-al-method-reference.md)  

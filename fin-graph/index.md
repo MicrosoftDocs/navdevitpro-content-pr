@@ -1,7 +1,6 @@
 ---
-title: Welcome to Developer Documentation for Dynamics 365 for Financials | Microsoft Docs
-description: Dynamics 365 for Financials is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system.
-services: project-madeira
+title: Preview of API for Dynamics 365 for Financials | Microsoft Docs
+description: Preliminarily published reference content for Dynamics 365 for Financials.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
@@ -10,14 +9,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/13/2017
+ms.date: 07/20/2017
 ms.author: solsen
 
 ---
-# Welcome to Developer Documentation for Dynamics 365 for Financials
-Financials is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system.
-When you sign up for the Financials preview you get access to a demonstration company. The demonstration company contains sample data, but you can create your own sales documents, for example, or set up a bank account.  
-In this section, you can find information about developing for Dynamics 365 for Financials.
+# Welcome to the API Reference for Dynamics 365 for Financials
+Soon, you will be able to use Microsoft Graph to connect and integrate your web service or SaaS solution with Microsoft Dynamics 365 for Financials. Until then, you have access to a preview API that is described here. 
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](resources/dynamics_overview.md)  

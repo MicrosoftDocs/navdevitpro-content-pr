@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and trialBalance
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/beta/financials/companies/{id}/trialBalance?$orderby number&$filter=dateFilter ge 2019-01-01 and dateFilter le 2019-12-31
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/trialBalance?$orderby number&$filter=dateFilter ge 2019-01-01 and dateFilter le 2019-12-31
 ```
 
 **Response**
@@ -50,8 +50,8 @@ Here is an example of the response. Note: The response object shown here may be 
 {
   "number": "1110",
   "display": "Accounts Receivable",
-  "netChangeDebit": "0.00",
-  "netChangeCredit": "0.00",
+  "totalDebit": "0.00",
+  "totalCredit": "0.00",
   "balanceAtDateDebit": "72,893.84",
   "balanceAtDateCredit": "0.00",
   "dateFilter": "2019-12-31"    

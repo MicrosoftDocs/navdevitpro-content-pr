@@ -1,8 +1,6 @@
-
 ---
 title: CREATE customer payment method | Microsoft Docs
 description: Creates a customer payment.
-services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
@@ -20,7 +18,7 @@ Creates a customer payment in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/{id}/customerPayments/{id}
+POST /financials/companies/{id}/customerPaymentsJournals/{ID}/customerPayments/{id}
 ```
 
 ## Request headers
@@ -42,7 +40,7 @@ If successful, this method returns ```201 Created``` response code and customerP
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta/financials/companies/{id}/customerPayment
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/customerPayment
 Content-type: application/json
 
 {
@@ -70,12 +68,14 @@ Content-type: application/json
   "id": "id-value",
   "journalDisplayName": "DEFAULT",
   "lineNumber": 10000,
-  "accountId": "id-value",
-  "accountNumber": "10400",
+  "customerId": "customerId-value",
+  "customerNumber": "10400",
   "postingDate": "2015-12-31",
   "documentNumber": "1234",
   "externalDocumentNumber": "",
   "amount": 1500,
+  "appliesToInvoiceId": "appliesToInvoiceId-value",
+  "appliesToInvoiceNumber": "100000",
   "description": "Accounts Receivable",
   "comment": "",
   "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
@@ -83,4 +83,4 @@ Content-type: application/json
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)

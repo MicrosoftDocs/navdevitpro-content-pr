@@ -39,3 +39,4 @@ The following method attributes are available:
 
 ## See Also  
 [AL Data Types](../datatypes/devenv-al-data-types.md)  
+[AL Method Reference](devenv-al-method-reference.md)  

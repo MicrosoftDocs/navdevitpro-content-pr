@@ -27,5 +27,6 @@ The following methods are supported for the Media data type:
 
 ## See Also  
  [Working With Media on Records](../devenv-working-with-media-on-records.md)  
+ [AL Method Reference](../methods/devenv-al-method-reference.md)  
  
  

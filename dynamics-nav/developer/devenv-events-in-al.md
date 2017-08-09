@@ -61,6 +61,7 @@ You can use events to design the application to react to specific actions or beh
 [Publishing Events](devenv-publishing-events.md)  
 [Raising Events](devenv-raising-events.md)  
 [Subscribing to Events](devenv-subscribing-to-events.md)  
+[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)  
 <!--NAV
 [Debugging Events](devenv-debugging-events.md)  
 [Best Practices with Microsoft Dynamics 365 for Financials](devenv-events-best-practices.md)  

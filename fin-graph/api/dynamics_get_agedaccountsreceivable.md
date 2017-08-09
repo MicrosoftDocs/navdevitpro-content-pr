@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and agedAccounts
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/beta/financials/companies/{id}/agedAccountsReceivable
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/agedAccountsReceivable
 ```
 
 **Response**
@@ -52,13 +52,12 @@ Here is an example of the response. Note: The response object shown here may be 
   "customerNumber": "30000",
   "name": "Relecloud",
   "currencyCode": "USD",
-  "before": 0,
-  "period1": 349615.45,
-  "period2": 0,
-  "period3": 0,
-  "after": 0,
-  "balance": 349615.45,
-  "periodStartDateFilter": "2017-04-25",
+  "balanceDue": 349615.45,
+  "currentAmount": 0,
+  "period1Amount": 349615.45,
+  "period2Amount": 0,
+  "period3Amount": 0,
+  "agedAsOfDate": "2017-04-25",
   "periodLengthFilter": "3M"   
 }
 ```

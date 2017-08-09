@@ -7,8 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: f232c9e6-a09c-465b-83fe-7f591df96fcd
-caps.latest.revision: 27
+author: jswymer
 ---
 # Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Two Computers
 In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] in a production environment, where the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] is on one computer and [!INCLUDE[nav_server](includes/nav_server_md.md)] and Microsoft SQL Server with [!INCLUDE[navnow](includes/navnow_md.md)] database components are on another computer.  
@@ -20,7 +19,7 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
 |Computer|Installed operating system and software|  
 |--------------|---------------------------------------------|  
 |**NAVSRV-SQL**|A supported operating system with the 64-bit edition of a supported version of SQL Server installed.<br /><br /> You will install [!INCLUDE[navnow](includes/navnow_md.md)] database components and [!INCLUDE[nav_server](includes/nav_server_md.md)] on this computer. **Note:**  If a supported SQL Server product is not already installed on the target computer, then [!INCLUDE[navnow](includes/navnow_md.md)] Setup automatically installs a 64-bit edition of SQL Server Express edition.|  
-|**NAVWEB**|A supported operating system.<br /><br /> Internet Information Services (IIS) version 7 or 8. **Note:**  [!INCLUDE[navnow](includes/navnow_md.md)] Setup can automatically enable IIS and the IIS features that are required for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. <br /><br /> You will install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on this computer.|  
+|**NAVWEB**|A supported operating system.<br /><br /> Supported version of Internet Information Services (IIS). **Note:**  [!INCLUDE[navnow](includes/navnow_md.md)] Setup can automatically enable IIS and the IIS features that are required for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. <br /><br /> You will install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on this computer.|  
 |**DEVICE**|A device with an Internet connection and a web browser.|  
 
 > [!NOTE]  
@@ -237,7 +236,7 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
  By default, the [!INCLUDE[nav_web](includes/nav_web_md.md)] is configured for communication on port 8080 of the computer. This port is typically blocked by Windows Firewall. To allow communication to the [!INCLUDE[nav_web](includes/nav_web_md.md)] from client devices, you must create an inbound rule on the port 8080 in the Windows Firewall setup.  
 
 > [!NOTE]  
->  You do not have to perform this task if the computer is running Windows Server 2012 because communication on the port is automatically allowed by Windows Firewall.  
+>  You do not have to perform this task if the computer is running Windows Server 2012 or Windows Server 2016 because communication on the port is automatically allowed by Windows Firewall.  
 
 #### To create an inbound rule on the port that is used by [!INCLUDE[nav_web](includes/nav_web_md.md)]  
 

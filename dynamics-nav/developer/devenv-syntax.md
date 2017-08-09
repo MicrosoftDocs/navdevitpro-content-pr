@@ -21,7 +21,8 @@ The syntax of the AL language is designed to assist in building business applica
 
 From code, you have access to various snippets that will give you a template for a specific object type. 
 
-> [!NOTE] Use a code snippet from an .al file by start typing the snippet name.
+> [!NOTE]  
+> Use a code snippet from an .al file by start typing the snippet name.
 
 |Type... | To get a... |
 |--------|-------------|

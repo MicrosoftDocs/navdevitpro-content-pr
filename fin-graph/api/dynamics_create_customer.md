@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and customers
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta/finacials/companies/{id}/customers
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/customers
 Content-type: application/json
 
 {
@@ -62,12 +62,16 @@ Content-type: application/json
   "taxAreaId": "taxAreaId-value",
   "taxAreaDisplayName": "tax area",
   "taxRegistrationNumber": "28012001T",
+  "currencyId": "currencyId-value",
   "currencyCode": "USD",
+  "paymentTermsId": "paymentTermsId-value",
   "paymentTerms": {
     "code": "1M(8D)",
     "description": "1 Month/2% 8 days"
   },
+  "shipmentMethodId": "shipmentMethodId-value",
   "shipmentMethod": null,
+  "paymentMethodId": "paymentMethodId-value",
   "paymentMethod": {
     "code": "BANK",
     "description": "Bank Transfer"

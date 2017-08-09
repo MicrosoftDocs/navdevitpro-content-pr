@@ -76,4 +76,5 @@ AutoSplitKey
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
 [CREATEGUID method (GUID)](../methods/devenv-createguid-method-guid.md)   
-[ISNULLGUID method (GUID)](../methods/devenv-isnullguid-method-guid.md)
+[ISNULLGUID method (GUID)](../methods/devenv-isnullguid-method-guid.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

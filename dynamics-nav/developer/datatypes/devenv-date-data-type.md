@@ -82,3 +82,4 @@ MESSAGE(FORMAT(Date1));
   
 ## See Also  
 [AL Data types](devenv-al-data-types.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

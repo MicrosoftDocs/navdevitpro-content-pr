@@ -72,7 +72,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
      For more information, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
 
-3.  Install Internet Information Services 7.0 or Internet Information Services 8.0.  
+3.  Install Internet Information Services.  
 
      For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md).  
 
@@ -145,7 +145,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
          For example, if the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on port 8080, then you can use the following URL:  
 
         ```  
-        http://ComputerName:PortNumber/nav_server_instance/WebClient  
+        http://NavWeb:8080/DynamicsNAV/WebClient  
         ```  
 
      For a list of supported devices and browsers, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  

@@ -29,3 +29,4 @@ The following methods are supported for the MediaSet data type:
 
 ## See Also  
 [Working With Media on Records](../devenv-working-with-media-on-records.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

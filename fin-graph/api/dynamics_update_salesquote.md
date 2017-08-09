@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated s
 
 Here is an example of the request.
 ```json
-PATCH https://graph.microsoft.com/beta/financials/companies/{id}/salesQuotes{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesQuotes{id}
 Content-type: application/json
 
 {
@@ -61,6 +61,7 @@ Content-type: application/json
 {
   "id": "id-value",
   "number": "1006",
+  "externalDocumentNumber": "",
   "documentDate": "2019-01-24",
   "dueDate": "2019-01-24",
   "customerId": "customerId-value",
@@ -74,8 +75,11 @@ Content-type: application/json
     "countryLetterCode": "",
     "postalCode": ""
   },
+  "currencyId": "currencyId-value",
   "currencyCode": "GBP",
+  "paymentTermsId": "paymentTermsId-value",
   "paymentTerms": "COD",
+  "shipmentMethodId": "shipmentMethodId-value",
   "shipmentMethod": "EXW",
   "salesperson": "",
   "discountAmount": 0,
@@ -83,6 +87,9 @@ Content-type: application/json
   "totalTaxAmount": 682.56,
   "totalAmountIncludingTax": 7508.16,
   "status": "Open",
+  "sentDate": "0001-01-01T00:00:00Z",
+  "validUntilDate": "0001-01-01",
+  "acceptedDate": "0001-01-01",  
   "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```

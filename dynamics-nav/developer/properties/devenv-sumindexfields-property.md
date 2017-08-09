@@ -16,7 +16,7 @@ author: SusanneWindfeldPedersen
 <!-- 
 # SumIndexFields Property
 Sets the [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md) for the key, if applicable.  
-  -->
+-->
 ## Applies To  
  Keys  
   
@@ -26,6 +26,10 @@ Sets the [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md)
  The fields must be of a numeric datatype \(Decimal, Integer, BigInteger, or Duration\).  
   
  Changing existing keys may affect the behavior of the application since other parts of your application may depend on the existence of certain keys.  
-  <!-- 
+
 ## See Also  
- [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md) -->
+[AL Data Types](../datatypes/devenv-al-data-types.md)
+[Properties](devenv-properties.md)  
+<!-- 
+[SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md) 
+-->

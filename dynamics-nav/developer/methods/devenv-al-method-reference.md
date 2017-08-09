@@ -14,11 +14,13 @@ manager: edupont
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
-# AL Methods
+# AL Methods    
 The AL methods in this section are grouped according to the data type that they support or according to a category. Each data type topic contains a description of the data type.  
 
 ## See Also  
- [Properties](../properties/devenv-properties.md)   
- [Triggers](../triggers/devenv-triggers.md)   
- [Essential AL Methods](../devenv-Essential-AL-Methods.md)   
- [Programming in AL](../devenv-Programming-in-AL.md)
+[Properties](../properties/devenv-properties.md)   
+[Triggers](../triggers/devenv-triggers.md)   
+[Essential AL Methods](../devenv-Essential-AL-Methods.md)   
+[Programming in AL](../devenv-Programming-in-AL.md)  
+[Developing Extensions](../devenv-dev-overview.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
