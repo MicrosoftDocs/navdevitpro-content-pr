@@ -36,8 +36,7 @@ It's easy. Just sign up by following these steps.
 2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).  
 3) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen.  
 
-> [!NOTE]  
-> Build and get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
+> [!NOTE] Build and get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
 
 <!-- Developer sandbox
 It's easy! Just spin up a sandbox environment by going through these steps.
@@ -50,7 +49,7 @@ It's easy! Just spin up a sandbox environment by going through these steps.
 We are excited to have you in our family of Dynamics 365 for Financials App Providers. Now that you are getting serious about this, here are the steps that you will have to go through: 
 
 #### 1)	Get the prerequisites in place  
-To get started with development, you must have a some necessary accounts in place. Next, we ask you to send us your app idea via Microsoft AppSource to get your object range and developer license. Learn more about this step [here](http://download.microsoft.com/download/7/F/2/7F23168D-76D9-4988-BBAC-E303FC548802/1). 
+To get started with development, you must have a some necessary accounts in place. Next, we ask you to send us your app idea via Microsoft AppSource to get your object range and developer license. Learn more about this step [here](http://download.microsoft.com/download/7/F/2/7F23168D-76D9-4988-BBAC-E303FC548802/1.Get%20the%20prerequisites%20in%20place.pdf). 
 
 #### 2)	Develop your Dynamics 365 for Financials App   
 When developing your app you need to think about some technical aspects.  
