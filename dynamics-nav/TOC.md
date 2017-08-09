@@ -59,7 +59,10 @@
 ### [Codeunit Object](developer/devenv-codeunit-object.md)
 ### [Query Object](developer/devenv-query-object.md)
 ### [XMLPort Object](developer/devenv-xmlport-object.md)
+### [HTTP, JSON, and XML API](developer/devenv-restapi-overview.md)
+<!-- For Update 10
 ### [HTTP, JSON, TextBuilder, and XML API](developer/devenv-restapi-overview.md)
+-->
 #### [HttpClient](developer/api/httpclient-class.md)
 #### [HttpContent](developer/api/httpcontent-class.md)
 #### [HttpHeaders](developer/api/httpheaders-class.md)
