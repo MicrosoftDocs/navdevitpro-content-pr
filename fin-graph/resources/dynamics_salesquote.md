@@ -31,6 +31,7 @@ Represents a salesQuote resource type in Dynamics 365 for Financials.
 |:---------------|:--------|:----------|
 |id|GUID|The quote ID. Read-Only.|
 |number|string, maximum size 20|The quote number. Read-Only.|
+|externalDocumentNumber|string, maximum size 35|The external document number.|
 |documentDate|date|The quote date|
 |dueDate|date|The quote due date|
 |customerId|GUID|The id of the quote customer.|
@@ -49,7 +50,8 @@ Represents a salesQuote resource type in Dynamics 365 for Financials.
 |totalAmountExcludingTax|numeric|The total amount excluding tax. Read-Only.|
 |totalTaxAmount|numeric|The total tax amount for the quote. Read-Only.|
 |totalAmountIncludingTax|numeric|The total amount for the quote, including tax. Read-Only.|
-|status|string, maximum size 20|The quote status. Status can be: Open,Released,Pending Approval,Pending Prepayment. Read-Only.|
+|status|string, maximum size 20|The quote status. Status can be: Draft,Sent,Accepted. Read-Only.|
+|sentDate|datetime|The the date and time the quote was sent our to the customer. Read-Only.|
 |validUntilDate|Date|The date a quote is valid until.|
 |acceptedDate|Date|The date a quote is accepted. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the sales quote was modified. Read-Only.|
@@ -73,6 +75,7 @@ Here is a JSON representation of the resource.
 {
       "id": "GUID",
       "number": "string",
+      "externalDocumentNumber": "string",
       "documentDate": "Date",
       "dueDate": "Date",
       "customerId": "GUID",
@@ -92,6 +95,7 @@ Here is a JSON representation of the resource.
       "totalTaxAmount": decimal,
       "totalAmountIncludingTax": decimal,
       "status": "string",
+      "sentDate": "DateTime",
       "validUntilDate": "Date",
       "acceptedDate": "Date",
       "lastModifiedDateTime": "DateTime"

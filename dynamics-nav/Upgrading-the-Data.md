@@ -163,7 +163,7 @@ If you get errors on the following table objects, use the Object Designer to del
 
 When you delete a table object, in the **Delete** confirmation dialog box, set the **Synchronize Schema** option to **Force**. At this point, it is very important that you do not use the **Sync. Schema For All Tables** option from the **Tools** menu.  
 
-##  <a name="RunSync1"></a> Task 11: Run the schema synchronization on the imported objects the database conversion  
+##  <a name="RunSync1"></a> Task 11: Run the schema synchronization on the imported objects  
 You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
 
 For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
