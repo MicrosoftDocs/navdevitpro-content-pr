@@ -48,3 +48,4 @@ Causes the system to display a lookup page.
 ## See Also  
  [OnLookup (Page fields) Trigger](devenv-onlookup-page-fields-trigger.md)  
  [Triggers](devenv-triggers.md)  
+ [Table and Field Triggers](devenv-table-and-field-triggers.md)  
