@@ -29,3 +29,4 @@ Executed after a record has been inserted into a database table.
  [Triggers](devenv-triggers.md)  
  [AutoSave Property](../properties/devenv-autosave-property.md)  
  [XMLport Triggers](devenv-xmlport-triggers.md)  
+ [OnBeforeInsertRecord Trigger](devenv-onbeforeinsertrecord-trigger.md)  
