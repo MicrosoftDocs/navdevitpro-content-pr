@@ -17,13 +17,13 @@ manager: edupont
 # Table and Field Triggers
 [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] recognizes certain actions that happen to a table when you use it, for example, when you insert or modify data. In response, you specify to execute AL code defined in a trigger. Triggers are predefined methods that are executed when certain actions happen. The bodies of these methods are initially empty and must be defined by the developer. Defining AL code in triggers allows you to change the default behavior of [!INCLUDE[d365fin_md](../includes/d365fin_md.md)].  
 
- The triggers in a table can be divided into two categories:  
+The triggers in a table can be divided into two categories:  
 
 -   Table triggers  
 
--   Field triggers  
+-   Field triggers      
 
- Tables have the following triggers.  
+Tables have the following triggers.  
 
 |Table trigger|Executes when|  
 |-------------------|-------------------|  
@@ -41,3 +41,4 @@ manager: edupont
 
 ## See Also  
  [Triggers](devenv-triggers.md)  
+ [Table and Table Extension Properties](../properties/devenv-table-properties.md)  
