@@ -24,4 +24,5 @@ Executed after a field has been assigned a value and before it is validated and 
  This trigger is only used to import data. It gives you access to the values in the imported record and is typically used to manipulate data that is being imported.  
 
 ## See Also  
- [Triggers](devenv-triggers.md)
+ [Triggers](devenv-triggers.md)  
+ [XMLport Triggers](devenv-xmlport-triggers.md)  

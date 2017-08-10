@@ -27,4 +27,5 @@ Executed when a user inserts a new record into the table.
   
 ## See Also  
  [Triggers](devenv-triggers.md)   
- [PasteIsValid Property](../properties/devenv-pasteisvalid-property.md)
+ [PasteIsValid Property](../properties/devenv-pasteisvalid-property.md)  
+ [Table and Field Triggers](devenv-table-and-field-triggers.md)

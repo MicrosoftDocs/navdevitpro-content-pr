@@ -30,6 +30,6 @@ MODIFYALL("Modification Date",TODAY);
 ```  
   
 ## See Also  
-## See Also  
  [Triggers](devenv-triggers.md)  
- [OnPostReport Trigger](devenv-onpostreport-trigger.md)
+ [OnPostReport Trigger](devenv-onpostreport-trigger.md)  
+ [Report and Data Item Triggers](devenv-report-and-data-item-triggers.md)  
