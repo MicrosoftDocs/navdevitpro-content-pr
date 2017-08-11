@@ -26,4 +26,5 @@ Executed after the current record is retrieved from the table.
  If there is an error in the trigger code, then the page is closed.  
 
 ## See Also  
- [Triggers](devenv-triggers.md)
+ [Triggers](devenv-triggers.md)  
+ [Page and Action Triggers](devenv-page-and-action-triggers.md)  
