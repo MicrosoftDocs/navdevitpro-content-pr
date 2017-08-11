@@ -30,4 +30,5 @@ ReportFilter := SomeRecord.GETFILTERS;
   
 ## See Also  
  [Triggers](devenv-triggers.md)  
- [GETFILTERS Method Record)](../methods/devenv-getfilters-method-record.md)
+ [GETFILTERS Method Record)](../methods/devenv-getfilters-method-record.md)  
+ [Report and Data Item Triggers](devenv-report-and-data-item-triggers.md)  

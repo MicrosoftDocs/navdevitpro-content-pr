@@ -24,4 +24,5 @@ Executed when a user tries to rename a record.
  When you rename a record in one location, it is updated in all other locations. The OnRename trigger executes before the rename occurs. The record is not renamed if an error occurs in the trigger code.  
   
 ## See Also  
- [Triggers](devenv-triggers.md)
+ [Triggers](devenv-triggers.md)  
+ [Table and Field Triggers](devenv-table-and-field-triggers.md)  
