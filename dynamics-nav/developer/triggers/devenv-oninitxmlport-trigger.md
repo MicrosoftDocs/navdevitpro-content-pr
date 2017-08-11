@@ -21,4 +21,5 @@ Executed when the XMLport is loaded and before any table views and filters are s
  XMLports  
   
 ## See Also  
- [Triggers](devenv-triggers.md)
+ [Triggers](devenv-triggers.md)  
+ [XMLport Triggers](devenv-xmlport-triggers.md)  

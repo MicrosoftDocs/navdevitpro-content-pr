@@ -31,4 +31,5 @@ Executed after a record has been modified.
  [OnBeforeInsertRecord Trigger](devenv-onbeforeinsertrecord-trigger.md)   
  [AutoReplace Property](../properties/devenv-autoreplace-property.md)   
  [AutoSave Property](../properties/devenv-autosave-property.md)   
- [AutoUpdate Property](../properties/devenv-autoupdate-property.md)
+ [AutoUpdate Property](../properties/devenv-autoupdate-property.md)  
+ [XMLport Triggers](devenv-xmlport-triggers.md)  

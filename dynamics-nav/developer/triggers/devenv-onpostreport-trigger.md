@@ -41,4 +41,5 @@ MESSAGE(Text000, NumberOfErrors);
 ## See Also  
 ## See Also  
  [Triggers](devenv-triggers.md)  
- [QUIT Method (Report, XMLport)](../methods/devenv-quit-method-report-xmlport.md)
+ [QUIT Method (Report, XMLport)](../methods/devenv-quit-method-report-xmlport.md)  
+ [Report and Data Item Triggers](devenv-report-and-data-item-triggers.md)  
