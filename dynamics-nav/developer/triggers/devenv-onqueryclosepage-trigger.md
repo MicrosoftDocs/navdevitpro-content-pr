@@ -58,7 +58,7 @@ Executed as a page closes and before the [OnClosePage Trigger](devenv-OnClosePag
 
  ## See Also  
  [OnClosePage Trigger](devenv-onclosepage-trigger.md)  
- [Page and Action Triggers](devenv-page-action-triggers.md)  
+ [Page and Action Triggers](devenv-page-and-action-triggers.md)  
  [Page Properties](../properties/devenv-page-properties.md)  
  [Triggers](devenv-triggers.md)  
 

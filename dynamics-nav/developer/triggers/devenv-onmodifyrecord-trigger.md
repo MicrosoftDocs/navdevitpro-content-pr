@@ -40,5 +40,5 @@ Executed before a record is modified in the table.
   
 ## See Also  
  [Triggers](devenv-triggers.md)  
- [Page and Action Trigger](devenv-)
+ [Page and Action Trigger](devenv-page-and-action-triggers.md)  
  [Page Properties](../properties/devenv-page-properties.md)  
