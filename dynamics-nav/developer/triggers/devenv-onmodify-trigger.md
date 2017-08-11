@@ -28,3 +28,4 @@ Executed when a user modifies an existing record in a table.
 ## See Also  
  [Triggers](devenv-triggers.md)  
  [Table and Field Triggers](devenv-table-and-field-triggers.md)  
+ [Table Properties](../properties/devenv-table-properties.md)  

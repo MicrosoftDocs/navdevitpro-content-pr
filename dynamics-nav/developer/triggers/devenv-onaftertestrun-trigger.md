@@ -107,7 +107,9 @@ log.INSERT(true);
  The GETLASTERRORTEXT  returns the text that was contained in the last error message.  
 
 ## See Also  
+[SubType Property (Codeunit)](../properties/devenv-subtype-property-codeunit.md)  
 [OnBeforeTestRun Trigger](devenv-onbeforetestrun-trigger.md)  
+[Codeunit Triggers](devenv-codeunit-triggers.md)  
 [Triggers](devenv-triggers.md)
 <!--
 [Testing the Application](testing-the-application.md)   
@@ -115,5 +117,4 @@ log.INSERT(true);
 [How to: Create Test Codeunits and Test Methods](how-to-create-test-codeunits-and-test-methods.md)   
 [How to: Create Handler Methods](../methods/devenv-how-to-create-handler-methods.md)   
 [Walkthrough: Testing Purchase Invoice Discounts](walkthrough-testing-purchase-invoice-discounts.md)   
--->
-
+-->  

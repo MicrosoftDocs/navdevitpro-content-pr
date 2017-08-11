@@ -37,4 +37,6 @@ Executed before a record is deleted from the table.
  The action is canceled but the page is not closed if an error occurs in the trigger code. You can use this trigger to write to the database.  
   
 ## See Also  
- [Triggers](devenv-triggers.md)
+ [Triggers](devenv-triggers.md)  
+ [Page and Action Triggers](devenv-page-and-action-triggers.md)  
+ [Page Properties](../properties/devenv-page-properties.md)  
