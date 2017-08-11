@@ -32,12 +32,12 @@ You decide whether you want to **connect** to your existing service or **extend*
 ## Want to try it out?
 It's easy! Just spin up a sandbox environment by going through these steps.
 
-1) Sign up for a [Dynamics 365 for Financials sandbox](https://aka.ms/GetSandboxForFinancials)  
-2) Download [Visual Studio Code](https://code.visualstudio.com/Download)
-3) Download the [AL Language extension](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al)
-4) Press **Alt+A, Alt+L** to trigger the **Go!** command, and then choose **Cloud**.
-5) Enter the credentials you provided for the sign up, and then **Download symbols**.
-6) Press **F5** to deploy and run the extension on your online sandbox tenant.
+1) Sign up for a [Dynamics 365 for Financials sandbox](https://aka.ms/GetSandboxForFinancials).    
+2) Download [Visual Studio Code](https://code.visualstudio.com/Download).  
+3) Download the [AL Language extension](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al).  
+4) Press **Alt+A, Alt+L** to trigger the **Go!** command, and then choose **Cloud**.  
+5) Enter the credentials you provided for the sign up, and then **Download symbols**.  
+6) Press **F5** to deploy and run the extension on your online sandbox tenant.  
 
 > [!NOTE]  
 > Use **Ctrl+Shift+P** to clear the credentials cache if you want to deploy against a different environment.
