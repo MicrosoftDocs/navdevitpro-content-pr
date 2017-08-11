@@ -43,11 +43,9 @@ It's easy! Just spin up a sandbox environment by going through these steps.
 > Use **Ctrl+Shift+P** to clear the credentials cache if you want to deploy against a different environment.
 
 
-As this feature is still in preview you might run into unrecoverable issues from time to time. In these cases you can use the following URL to reset the sandbox and start from a clean environment:
-https://portal.financials.dynamics.com/reset?env=sandbox&redirectedFromSignup=false
+As this feature is still in preview you might run into unrecoverable issues from time to time. In these cases, use [Reset Sandbox](https://portal.financials.dynamics.com/reset?env=sandbox&redirectedFromSignup=false) to reset the sandbox and start from a clean environment .
 
-
-If you're interested in an on premise version, it's just as easy. Just sign up by following these steps.
+Interested in an on-premise version? It's just as easy. Just sign up by following these steps.
 
 1) First, you will need an Azure subscription, sign up for a free subscription.  
 2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).  
@@ -56,7 +54,7 @@ If you're interested in an on premise version, it's just as easy. Just sign up b
 > [!NOTE]  
 > Build and get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
 
-## Ready to build a business App and publish it to Microsoft AppSource?
+## Ready to build a business app and publish it to Microsoft AppSource?
 We are excited to have you in our family of Dynamics 365 for Financials App Providers. Now that you are getting serious about this, here are the steps that you will have to go through: 
 
 #### 1)	Get the prerequisites in place  
