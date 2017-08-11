@@ -30,7 +30,22 @@ You decide whether you want to **connect** to your existing service or **extend*
 [![Community](media/CustomerTestimonials.png)](https://www.youtube.com/watch?v=ptL3QXuoLW4&list=PLcakwueIHoT9tZzsgDLpBixftGfnymAyz&index=2 "Customers")
 
 ## Want to try it out?
-It's easy. Just sign up by following these steps.
+It's easy! Just spin up a sandbox environment by going through these steps.
+
+1) Sign up for a [Dynamics 365 for Financials sandbox](https://aka.ms/GetSandboxForFinancials).    
+2) Download [Visual Studio Code](https://code.visualstudio.com/Download).  
+3) Download the [AL Language extension](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al).  
+4) Press **Alt+A, Alt+L** to trigger the **Go!** command, and then choose **Cloud**.  
+5) Enter the credentials you provided for the sign up, and then **Download symbols**.  
+6) Press **F5** to deploy and run the extension on your online sandbox tenant.  
+
+> [!NOTE]  
+> Use **Ctrl+Shift+P** to clear the credentials cache if you want to deploy against a different environment.
+
+
+As this feature is still in preview you might run into unrecoverable issues from time to time. In these cases, use [Reset Sandbox](https://portal.financials.dynamics.com/reset?env=sandbox&redirectedFromSignup=false) to reset the sandbox and start from a clean environment .
+
+Interested in an on-premise version? It's just as easy. Just sign up by following these steps.
 
 1) First, you will need an Azure subscription, sign up for a free subscription.  
 2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).  
@@ -39,14 +54,7 @@ It's easy. Just sign up by following these steps.
 > [!NOTE]  
 > Build and get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
 
-<!-- Developer sandbox
-It's easy! Just spin up a sandbox environment by going through these steps.
-1) Sign up for [Dynamics 365 for Financials]()  
-2) Download [Visual Studio Code](https://code.visualstudio.com/Download)  
-3) Download the [AL Language extension](vscode:extension/ms-dynamics-smb.al)  
--->
-
-## Ready to build a business App and publish it to Microsoft AppSource?
+## Ready to build a business app and publish it to Microsoft AppSource?
 We are excited to have you in our family of Dynamics 365 for Financials App Providers. Now that you are getting serious about this, here are the steps that you will have to go through: 
 
 #### 1)	Get the prerequisites in place  

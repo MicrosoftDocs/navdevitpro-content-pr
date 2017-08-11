@@ -29,4 +29,7 @@ Executed in place of the [AssistEdit Property](../properties/devenv-assistedit-p
  You can use this trigger to write to the database.  
 
 ## See Also  
- [Triggers](devenv-triggers.md)
+ [Triggers](devenv-triggers.md)  
+ [AssistEdit Property](../properties/devenv-assistedit-property.md)  
+ [Page and Action Triggers](devenv-page-and-action-triggers.md)  
+ [Page Properties](../properties/devenv-page-properties.md)  

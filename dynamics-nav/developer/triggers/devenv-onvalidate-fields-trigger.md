@@ -24,4 +24,6 @@ Executed when user input is validated.
  This trigger is executed after the default validation behavior. An error message displays if an error occurs in the trigger code. In case of an error, the user entry is not written to the database.  
   
 ## See Also  
- [Triggers](devenv-triggers.md)
+ [Triggers](devenv-triggers.md)  
+ [Table and Field Triggers](devenv-table-and-field-triggers.md)  
+ [Table Properties](../properties/devenv-table-properties.md)    
