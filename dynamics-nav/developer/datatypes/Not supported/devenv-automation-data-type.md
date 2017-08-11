@@ -32,18 +32,19 @@ Use the Automation data type to reference an automation server.
 'Microsoft Excel X.0 Object Library'.Application  
 ```  
 
- When you have defined an automation server as a variable, you must use [CREATE method (Automation)](../../../articles/devenv-methods-not-supported/devenv-create-method-automation.md) to create an instance of the server. After that, you can use the server through the variable. You can browse its methods and properties in the **Symbol** menu.  
+When you have defined an automation server as a variable, you must use CREATE method (Automation) <!--(../../../articles/devenv-methods-not-supported/devenv-create-method-automation.md) --> to create an instance of the server. After that, you can use the server through the variable. You can browse its methods and properties in the **Symbol** menu.  
 
- When you are using a server, you should know that there is not a one-to-one relationship between AL data types and COM data types. For an overview of the data type mapping, see [Using COM Technologies in Microsoft Dynamics NAV](../../../dynamics-nav/Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md).  
+When you are using a server, you should know that there is not a one-to-one relationship between AL data types and COM data types. 
+<!-- For an overview of the data type mapping, see [Using COM Technologies in Microsoft Dynamics NAV](../../../dynamics-nav/Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md).  -->
 
- If you use a variable of type Automation to automate Microsoft Excel and you run an English \(United States\) version of Excel but the regional settings for the computer are configured for a non-English language, then you will receive the following error:  
+If you use a variable of type Automation to automate Microsoft Excel and you run an English \(United States\) version of Excel but the regional settings for the computer are configured for a non-English language, then you will receive the following error:  
 
 ```  
 Error: 0x80028018 (-2147647512)  
 Description: Old Format or Invalid Type Library   
 ```  
 
- For more information, see Microsoft Help and Support article [320369: BUG: "Old format or invalid type library" error when automating Excel](http://go.microsoft.com/fwlink/?linkid=3052&kbid=320369).  
+For more information, see Microsoft Help and Support article [320369: BUG: "Old format or invalid type library" error when automating Excel](http://go.microsoft.com/fwlink/?linkid=3052&kbid=320369).  
 
 <!--
 
@@ -55,7 +56,8 @@ Description: Old Format or Invalid Type Library
 
 -->
 
-## See Also  
- [CREATE method \(Automation\)](../../../articles/devenv-methods-not-supported/devenv-create-method-automation.md)   
- [ISCLEAR method \(Automation\)](../../../articles/devenv-methods-not-supported/devenv-isclear-method-automation.md)   
- [Variant Data Type](../../../dynamics-nav/Variant-Data-Type.md)
+
+<!-- [CREATE method \(Automation\)](../../../articles/devenv-methods-not-supported/devenv-create-method-automation.md)   
+[ISCLEAR method \(Automation\)](../../../articles/devenv-methods-not-supported/devenv-isclear-method-automation.md)   
+[Variant Data Type](../../../dynamics-nav/Variant-Data-Type.md)
+-->

@@ -1,6 +1,6 @@
 ---
-title: GET Sales Quote method | Microsoft Docs
-description: Gets a sales quote.
+title: GET Sales Credit Memo method | Microsoft Docs
+description: Gets a sales credit memo.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get sales quote
-Retrieve the properties and relationships of a sales quote object for Dynamics 365 for Financials.
+# Get sales credit memo
+Retrieve the properties and relationships of a sales object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/salesQuotes/{id}
+GET /financials/companies/{id}/salesCreditMemos/{id}
 ```
 
 ## Request headers
@@ -32,7 +32,7 @@ GET /financials/companies/{id}/salesQuotes/{id}
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and salesQuote object in the response body.
+If successful, this method returns a ```200 OK``` response code and salesCreditMemo object in the response body.
 
 ## Example
 
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and salesQuote o
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesQuotes/{id}
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesCreditMemos/{id}
 ```
 
 **Response**
@@ -50,14 +50,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ```json
 {
   "id": "id-value",
-  "number": "1006",
-  "externalDocumentNumber": "",
-  "documentDate": "2019-01-24",
-  "dueDate": "2019-01-24",
+  "number": "1009",
+  "creditMemoDate": "2015-12-31",
+  "dueDate": "2016-01-31",
   "customerId": "customerId-value",
   "contactId": "",
-  "customerNumber": "10000",
-  "customerName": "Coho Winery",
+  "customerNumber": "GL00000008",
+  "customerName": "GL00000008",
   "billingPostalAddress": {
     "street": "",
     "city": "",
@@ -69,18 +68,17 @@ Here is an example of the response. Note: The response object shown here may be 
   "currencyCode": "GBP",
   "paymentTermsId": "paymentTermsId-value",
   "paymentTerms": "COD",
-  "shipmentMethodId": "shipmentMethodId-value",
-  "shipmentMethod": "EXW",
   "salesperson": "",
+  "pricesIncludeTax": false,
   "discountAmount": 0,
+  "discountAppliedBeforeTax": true,
   "totalAmountExcludingTax": 6825.6,
   "totalTaxAmount": 682.56,
   "totalAmountIncludingTax": 7508.16,
-  "status": "Open",
-  "sentDate": "0001-01-01T00:00:00Z",
-  "validUntilDate": "2019-01-24",
-  "acceptedDate": "2019-01-24",
-  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
+  "status": "Draft",
+  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z",
+  "invoiceId": "invoiceid-value",
+  "invoiceNumber": "100009"
 }
 ```
 

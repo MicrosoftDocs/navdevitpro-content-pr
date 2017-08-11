@@ -29,5 +29,3 @@ A user may want to limit calculations to include only those values in a column t
 
  You cannot have a FlowFilter field as the **SourceExpression** value for a control on a page. If you do, then the control on the page is not editable, and you cannot select a value and filter the data that is displayed in the page.  
 
-
-## See Also  

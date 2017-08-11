@@ -26,7 +26,8 @@ Follow these three steps to get up and running.
 2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).  
 3) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen.  
 
-> [!NOTE] Get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
+> [!NOTE]  
+> Get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
 
 <!--
 1) Sign up for [Dynamics 365 for Financials]()  
@@ -42,7 +43,8 @@ With the developer preview, you get sample code that compiles and runs by follow
 
 You now have a HelloWorld sample that compiles and runs. The JSON files in the project are automatically updated with the settings that allows you to press **F5** to build and deploy the solution.
 
-> [!NOTE] If symbols are missing, you will be prompted to download them.
+> [!NOTE]  
+> If symbols are missing, you will be prompted to download them.
 
 ## JSON file settings
 There are two JSON files in the project; the `app.json` file and the `launch.json` file. The files are automatically generated for your project. For more information, see [JSON files](devenv-json-files.md).

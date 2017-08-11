@@ -1,6 +1,6 @@
 ---
-title: DELETE customer payment method | Microsoft Docs
-description: Deletes a customer payment.
+title: DELETE sales credit memo method | Microsoft Docs
+description: Deletes a sales credit memo.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete customer payment
-Delete a customer payment from Dynamics 365 for Financials.
+# Delete sales credit memo
+Delete a sales credit memo from Dynamics 365 for Financials.
+
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/customerPaymentsJournals/{id}/customerPayments/{id}
+DELETE /financials/companies/{id}/salesCreditMemos/{id}
 ```
 
 ## Request headers
@@ -29,11 +30,9 @@ DELETE /financials/companies/{id}/customerPaymentsJournals/{id}/customerPayments
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
 
 ## Request body
-
 Do not supply a request body for this method.
 
 ## Response
-
 If successful, this method returns ```204 No Content``` response code. It does not return anything in the response body.
 
 ## Example
@@ -43,7 +42,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/customerPaymentsJournals/{id}/customerPayments/{id}
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesCreditMemos/{id}
 ```
 
 **Response** 
