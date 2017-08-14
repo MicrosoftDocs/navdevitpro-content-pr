@@ -21,7 +21,7 @@ Represents an agedAccountsReceivable object in Dynamics 365 for Financials, whic
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET agedAccountsReceivable](../api/dynamics_get_agedaccountsreceivable.md)|AgedAccountsReceivable|Get AgedAccountsReceivable object|
+|[GET agedAccountsReceivable](../api/dynamics_get_agedaccountsreceivable.md)|agedAccountsReceivable|Get agedAccountsReceivable object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -59,7 +59,7 @@ Here is a JSON representation of the resource.
     "period2Amount": "decimal",
     "period3Amount": "decimal",
     "agedAsOfDate": "date",
-    "periodLengthFilter": "string
+    "periodLengthFilter": "string"
 }
 
 ```

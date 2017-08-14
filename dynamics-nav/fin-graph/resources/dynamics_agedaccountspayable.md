@@ -21,7 +21,7 @@ Represents an agedAccountsPayable object in Dynamics 365 for Financials, which i
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET agedAccountsPayable](../api/dynamics_get_agedaccountspayable.md)|AgedAccountsPayable|Get AgedAccountsPayable object|
+|[GET agedAccountsPayable](../api/dynamics_get_agedaccountspayable.md)|agedAccountsPayable|Get AgedAccountsPayable object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -59,7 +59,7 @@ Here is a JSON representation of the resource.
     "period2Amount": "decimal",
     "period3Amount": "decimal",
     "agedAsOfDate": "date",
-    "periodLengthFilter": "string
+    "periodLengthFilter": "string"
 }
 
 ```
