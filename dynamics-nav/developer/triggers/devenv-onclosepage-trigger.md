@@ -42,3 +42,5 @@ OnClosePage()
 
 ## See Also  
  [Triggers](devenv-triggers.md)  
+ [OnQueryClosePage Trigger](devenv-onqueryclosepage-trigger.md)
+ [Page and Action Triggers](devenv-page-and-action-triggers.md)  
