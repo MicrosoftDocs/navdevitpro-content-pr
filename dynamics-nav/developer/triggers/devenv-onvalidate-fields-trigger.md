@@ -26,3 +26,4 @@ Executed when user input is validated.
 ## See Also  
  [Triggers](devenv-triggers.md)  
  [Table and Field Triggers](devenv-table-and-field-triggers.md)  
+ [Table Properties](../properties/devenv-table-properties.md)    

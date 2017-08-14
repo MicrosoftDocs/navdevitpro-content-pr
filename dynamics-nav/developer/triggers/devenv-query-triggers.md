@@ -26,4 +26,5 @@ This topic describes the AL triggers that are available for queries. Triggers ar
 
 ## See Also  
  [Triggers](devenv-triggers.md)  
- [SETFILTER Method (Query)](../methods/devenv-setfilter-method-query.md)
+ [SETFILTER Method (Query)](../methods/devenv-setfilter-method-query.md)  
+ [Report Triggers](devenv-report-triggers.md)  

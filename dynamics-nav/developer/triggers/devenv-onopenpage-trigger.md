@@ -45,3 +45,5 @@ OnOpenPage()
 
 ## See Also  
  [Triggers](devenv-triggers.md)  
+ [Page and Action Triggers](devenv-page-and-action-triggers.md)  
+ [LOCKTABLE Record](../methods/devenv-locktable-method-record.md)  

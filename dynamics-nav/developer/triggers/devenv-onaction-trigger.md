@@ -37,4 +37,7 @@ OnAction()
 >  The OnAction trigger is not used on Role Center pages. If you add AL code to the trigger, the Role Center page will compile, but the AL code will be ignored at runtime.  
 
 ## See Also  
- [Page and Action Triggers](devenv-page-and-action-triggers.md)
+ [RunObject Property](../properties/devenv-runobject-property.md)  
+ [Page and Action Triggers](devenv-page-and-action-triggers.md)  
+ [Page Properties](../properties/devenv-page-properties.md)  
+ [Triggers](devenv-triggers.md)  
