@@ -1,6 +1,6 @@
 ---
 title: agedAccountsReceivable resource type | Microsoft Docs
-description: A AgedAccountsReceivable.
+description: An agedAccountsReceivable.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -44,8 +44,7 @@ None
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
-
+Here is a JSON representation of the resource.  
 
 ```json
 {

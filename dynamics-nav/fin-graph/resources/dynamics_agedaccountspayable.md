@@ -1,6 +1,6 @@
 ---
 title: agedAccountsPayable resource type | Microsoft Docs
-description: A AgedAccountsPayable.
+description: An agedAccountsPayable.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

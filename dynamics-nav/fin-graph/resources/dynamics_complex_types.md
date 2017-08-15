@@ -45,7 +45,7 @@ Represents a Unit of Measure complex type in Dynamics 365 for Financials.
 |unitCode|string|The unique ID of the unit of measure.|
 |unitName|string|Specifies the description of the unit of measure.|
 |symbol|string|Specifies a graphical representation of the unit of measure.|
-|unitConversion|Specifies the conversion rate to a different (target) unit of measure.|
+|unitConversion||Specifies the conversion rate to a different (target) unit of measure.|
 
 ```json
 "UnitOfMeasure" 
