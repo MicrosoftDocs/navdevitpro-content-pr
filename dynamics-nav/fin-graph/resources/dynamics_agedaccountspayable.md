@@ -21,7 +21,7 @@ Represents an agedAccountsPayable object in Dynamics 365 for Financials, which i
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET agedAccountsPayable](../api/dynamics_get_agedaccountspayable.md)|agedAccountsPayable|Get AgedAccountsPayable object|
+|[GET agedAccountsPayable](../api/dynamics_get_agedaccountspayable.md)|agedAccountsPayable|Get agedAccountsPayable object|
 
 ## Properties
 | Property	   | Type	|Description|
