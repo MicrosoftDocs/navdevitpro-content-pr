@@ -11,22 +11,16 @@ ms.assetid: fd5a62ed-50c7-49ad-9610-f299e1961725
 caps.latest.revision: 19
 manager: edupont
 ---
-# Data Access
-The SQL Server interface from [!INCLUDE[nav_server](includes/nav_server_md.md)] uses ADO.NET instead of ODBC, which was used in [!INCLUDE[nav2009](includes/nav2009_md.md)] and earlier. The advantages of the new access layer are described in the following sections.  
+Data needed in the client goes through the following path from the [!INCLUDE[nav_server](includes/nav_server_md.md)] to the SQL Server database:
+1. If the data is cached in the [!INCLUDE[nav_server](includes/nav_server_md.md)] data cache, it is returned
+2. If the data is not cached in the [!INCLUDE[nav_server](includes/nav_server_md.md)] data cache, it is fetched from SQL Server over the network
+    1. If the data resides in SQL Servers data cache, it is returned
+    2. If the data does not reside in SQL Servers data cache, it is fetched from storage and returned
 
-## Simplified Deployment  
- The new ADO.NET interface is a managed data access layer that supports SQL Server connection pooling, which can dramatically decrease memory consumption by [!INCLUDE[nav_server](includes/nav_server_md.md)]. SQL Server connection pooling also simplifies deployment of the [!INCLUDE[navnow](includes/navnow_md.md)] three-tier architecture for deployments where the three tiers are installed on separate computers. Specifically, administrators are no longer required to manually create SPNs or to set up delegation when the client, [!INCLUDE[nav_server](includes/nav_server_md.md)], and SQL Server are on separate computers. For more information, see [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough--Installing-the-Three-Tiers-on-Three-Computers.md).  
+## [!INCLUDE[nav_server](includes/nav_server_md.md)] data caching
+In [!INCLUDE[navnow](includes/navnow_md.md)], the data cache is shared by all users who are connected to the same [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. This means that after one user has read a record, a second user who reads the same record gets it from the cache. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], the data cache was isolated for each user.  
 
-## Collation  
- SQL Server 2008 is full aligned with the collations in Windows Server 2008. If you upgrade to [!INCLUDE[navnow](includes/navnow_md.md)] from [!INCLUDE[nav_2009_long](includes/nav_2009_long_md.md)], the step to convert the database includes upgrading the database to Windows collation. The collation changes provide users with the most up-to-date and linguistically accurate cultural sorting conventions. For more information, see [Collation and Unicode Support](http://go.microsoft.com/fwlink/?LinkID=247971).  
-
-## Decreased Resource Consumption  
- There is no longer a one-to-one correlation between the number of client connections and the number of SQL Server connections. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], each SQL Server connection could consume up to 40 MB of memory. Additionally, memory allocation is now in managed memory, which is generally more efficient than unmanaged memory.  
-
- In [!INCLUDE[navnow](includes/navnow_md.md)], the data cache is shared by all users who are connected to the same [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. This means that after one user has read a record, a second user who reads the same record gets it from the cache. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], the data cache was isolated for each user.  
-
-## Caching  
- [!INCLUDE[navnowlong](includes/navnowlong_md.md)] uses an improved cache system. The following functions use the cache system:  
+The following C/AL functions utilize the cache system:  
 
 -   GET  
 
@@ -63,12 +57,19 @@ The cache that is used is determined by the lock state of a table. If a table is
 
  You can set the cache synchronization interval by using the *CacheSynchronizationPeriod* parameter in the CustomSettings.config file. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
 
-## Performance  
- Records are retrieved using multiple active result sets \(MARS\). Functions such as NEXT, FIND\('-'\), FIND\('+'\), FIND\('>'\), and FIND\('\<'\) are generally faster with MARS than the server cursors that earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)] used.  
+## [!INCLUDE[nav_server](includes/nav_server_md.md)] connections to SQL Server
+Starting from Dynamics NAV 2013, the [!INCLUDE[nav_server](includes/nav_server_md.md)] uses ADO.NET to connect to the SQL Server database. Installations of [!INCLUDE[nav2009](includes/nav2009_md.md)] and earlier uses ODBC to connect to the SQL Server database.
 
- SIFT indexes have also been improved. For example, COUNT and AVERAGE formulas can now use SIFT indexes. For more information, see [CALCSUMS Function \(Record\)](CALCSUMS-Function--Record-.md) and [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md). MIN and MAX formulas now use SQL Server MIN and MAX functions exclusively.  
+The ADO.NET interface is a managed data access layer that supports SQL Server connection pooling, which can dramatically decrease memory consumption by [!INCLUDE[nav_server](includes/nav_server_md.md)]. SQL Server connection pooling also simplifies deployment of the [!INCLUDE[navnow](includes/navnow_md.md)] three-tier architecture for deployments where the three tiers are installed on separate computers. Specifically, administrators are no longer required to manually create SPNs or to set up delegation when the client, [!INCLUDE[nav_server](includes/nav_server_md.md)], and SQL Server are on separate computers. For more information, see [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough--Installing-the-Three-Tiers-on-Three-Computers.md).  
 
- RecordIds and SQL Variant columns in a table no longer prevent the use of BULK insert inserts. For more information, see [Bulk Inserts](Bulk-Inserts.md).  
+There is no longer a one-to-one correlation between the number of client connections and the number of SQL Server connections. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], each SQL Server connection could consume up to 40 MB of memory. Additionally, memory allocation is now in managed memory, which is generally more efficient than unmanaged memory.  
+
+ Records are retrieved using Multiple Active Result Sets \(MARS\). Functions such as NEXT, FIND\('-'\), FIND\('+'\), FIND\('>'\), and FIND\('\<'\) are generally faster with MARS than the server cursors that earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)] used.  
+
+## Data read/write performance  
+C/AL functions COUNT and AVERAGE formulas can use SIFT indexes. For more information, see [CALCSUMS Function \(Record\)](CALCSUMS-Function--Record-.md) and [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md). MIN and MAX formulas use SQL Server MIN and MAX functions exclusively.  
+
+ RecordIds and SQL Variant columns in a table does not prevent the use of BULK insert inserts. For more information, see [Bulk Inserts](Bulk-Inserts.md).  
 
  In most cases, filtering on FlowFields issues a single SQL statement. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], filtering on FlowFields issued an SQL statement for each filtered FlowField and for each record in the table in order to calculate the filtered FlowFields. The exceptions in [!INCLUDE[navnow](includes/navnow_md.md)] in which filtering on FlowFields does not issue a single SQL statement are as follows:  
 
@@ -79,6 +80,10 @@ The cache that is used is determined by the lock state of a table. If a table is
 -   You specify **Validated** for the [SecurityFiltering Property](SecurityFiltering-Property.md) on a record. This value for the **SecurityFiltering** property means that each record that is part of the calculation must be verified for inclusion in the security filter.  
 
 In most cases, calling the FIND or NEXT functions after you have set the view to include only marked records issues a single SQL statement. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], calling FIND or NEXT functions that have marked records issued an SQL statement for each mark. There are some exceptions if many records are marked. For more information, see [MARKEDONLY Function \(Record\)](MARKEDONLY-Function--Record-.md).  
+
+## Database and Windows collations  
+ Starting from SQL Server 2008, collations are fully aligned with the collations in Windows Server 2008. If you upgrade to [!INCLUDE[navnow](includes/navnow_md.md)] from [!INCLUDE[nav_2009_long](includes/nav_2009_long_md.md)], the step to convert the database includes upgrading the database to Windows collation. This collation change provides users with the most up-to-date and linguistically accurate cultural sorting conventions. For more information, see [Collation and Unicode Support](http://go.microsoft.com/fwlink/?LinkID=247971).  
+
 
 ## See Also  
  [Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md)   
