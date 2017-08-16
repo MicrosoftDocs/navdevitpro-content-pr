@@ -21,7 +21,7 @@ This article describes how to convert a  [!INCLUDE[navnow](includes/navnow_md.md
 -   [!INCLUDE[nav2017](includes/nav2017.md)] (cumulative update)
 
 ## About database conversion
-Converting a database, which is often referred to as a *technical upgrade*, changes the database so that it works on the new [!INCLUDE[nav2017](includes/nav2017.md)] platform. The conversion updates the system tables of the old database to the new schema (data structure), and upgrades of all reports to support Report Viewer 2012. It provides you with the latest platform features and performance enhancements.
+Converting a database, which is often referred to as a *technical upgrade*, changes the database so that it works on the new [!INCLUDE[nav2017](includes/nav2017.md)] platform. The conversion updates the system tables of the old database to the new schema (data structure), and upgrades of all reports to support Report Viewer 2015. It provides you with the latest platform features and performance enhancements.
 
 <!--You typically convert a database, as described in this article, when you want to upgrade an existing [!INCLUDE[nav2017](includes/nav2017.md)] database to a new platform version that does not include application changes. A database conversion is typically what is required for a cumulative update.
 
