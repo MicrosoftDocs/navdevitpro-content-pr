@@ -87,10 +87,6 @@ In most cases, filtering on FlowFields issues a single SQL statement. In earlier
 
 In most cases, calling the FIND or NEXT functions after you have set the view to include only marked records issues a single SQL statement. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], calling FIND or NEXT functions that have marked records issued an SQL statement for each mark. There are some exceptions if many records are marked. For more information, see [MARKEDONLY Function \(Record\)](MARKEDONLY-Function--Record-.md).  
 
-## Database and Windows collations  
- Starting from SQL Server 2008, collations are fully aligned with the collations in Windows Server 2008. If you upgrade to [!INCLUDE[navnow](includes/navnow_md.md)] from [!INCLUDE[nav_2009_long](includes/nav_2009_long_md.md)], the step to convert the database includes upgrading the database to Windows collation. This collation change provides users with the most up-to-date and linguistically accurate cultural sorting conventions. For more information, see [Collation and Unicode Support](http://go.microsoft.com/fwlink/?LinkID=247971).  
-
-
 ## See Also  
  [Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md)   
  [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md)   
