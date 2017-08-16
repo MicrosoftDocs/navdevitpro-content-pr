@@ -11,13 +11,14 @@ ms.assetid: fd5a62ed-50c7-49ad-9610-f299e1961725
 caps.latest.revision: 19
 manager: edupont
 ---
-Data needed in the client goes through the following path from the [!INCLUDE[nav_server](includes/nav_server_md.md)] to the SQL Server database:
-1. If the data is cached in the [!INCLUDE[nav_server](includes/nav_server_md.md)] data cache, it is returned
-2. If the data is not cached in the [!INCLUDE[nav_server](includes/nav_server_md.md)] data cache, it is fetched from SQL Server over the network
-    1. If the data resides in SQL Servers data cache, it is returned
-    2. If the data does not reside in SQL Servers data cache, it is fetched from storage and returned
+# Data Access
+Data that is needed in the client goes through the following path from the [!INCLUDE[nav_server](includes/nav_server_md.md)] to the SQL Server database:
+1.  If the data is cached in the [!INCLUDE[nav_server](includes/nav_server_md.md)] data cache, it is returned.
+2. If the data is not cached in the [!INCLUDE[nav_server](includes/nav_server_md.md)] data cache, it is fetched from SQL Server over the network as follows:
+    1. If the data resides in SQL Servers data cache, it is returned.
+    2. If the data does not reside in SQL Servers data cache, it is fetched from storage and returned.
 
-## [!INCLUDE[nav_server](includes/nav_server_md.md)] data caching
+## Dynamics NAV Server data caching
 In [!INCLUDE[navnow](includes/navnow_md.md)], the data cache is shared by all users who are connected to the same [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. This means that after one user has read a record, a second user who reads the same record gets it from the cache. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], the data cache was isolated for each user.  
 
 The following C/AL functions utilize the cache system:  
@@ -39,26 +40,26 @@ The following C/AL functions utilize the cache system:
 -   CALCFIELDS  
 
 
-There are two types of caches:  
+There are two types of caches, global and private:  
 
--   Global cache – for all users connected to a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
+-   Global cache is for all users connected to a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
 
--   Private cache – per user, per company, in a transactional scope. Data in a private cache for a given table and company are flushed when a transaction ends.  
+-   Private cache is per user, per company, in a transactional scope. Data in a private cache for a given table and company is flushed when a transaction ends.  
 
-The cache that is used is determined by the lock state of a table. If a table is not locked than the global cache is queried for data; otherwise, the private cache is queried.  
+The cache that is used is determined by the lock state of a table. If a table is not locked, then the global cache is queried for data; otherwise, the private cache is queried.  
 
- Results from query objects are not cached.  
+Results from query objects are not cached.  
 
- For a call to any of the **FIND** functions, 1024 rows are cached. You can set the size of the cache by using the **Data Cache Size** setting in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration file. The default size is 9, which approximates a cache size of 500 MB. If you increase this number by one, then the cache size doubles.  
+For a call to any of the **FIND** functions, 1024 rows are cached. You can set the size of the cache by using the **Data Cache Size** setting in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration file. The default size is 9, which approximates a cache size of 500 MB. If you increase this number by one, then the cache size doubles.  
 
- You can bypass the cache by using the [SELECTLATESTVERSION Function \(Database\)](SELECTLATESTVERSION-Function--Database-.md).  
+You can bypass the cache by using the [SELECTLATESTVERSION Function \(Database\)](SELECTLATESTVERSION-Function--Database-.md).  
 
- [!INCLUDE[navnow](includes/navnow_md.md)] synchronizes caching between [!INCLUDE[nav_server](includes/nav_server_md.md)] instances that are connected to the same database. By default, the synchronization occurs every 30 seconds.  
+[!INCLUDE[navnow](includes/navnow_md.md)] synchronizes caching between [!INCLUDE[nav_server](includes/nav_server_md.md)] instances that are connected to the same database. By default, the synchronization occurs every 30 seconds.  
 
- You can set the cache synchronization interval by using the *CacheSynchronizationPeriod* parameter in the CustomSettings.config file. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
+You can set the cache synchronization interval by using the *CacheSynchronizationPeriod* parameter in the CustomSettings.config file. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
 
 ## [!INCLUDE[nav_server](includes/nav_server_md.md)] connections to SQL Server
-Starting from Dynamics NAV 2013, the [!INCLUDE[nav_server](includes/nav_server_md.md)] uses ADO.NET to connect to the SQL Server database. Installations of [!INCLUDE[nav2009](includes/nav2009_md.md)] and earlier uses ODBC to connect to the SQL Server database.
+Starting from [!INCLUDE[nav7long_md](includes/nav7long_md.md)], the [!INCLUDE[nav_server](includes/nav_server_md.md)] uses ADO.NET to connect to the SQL Server database. Installations of [!INCLUDE[nav2009](includes/nav2009_md.md)] and earlier uses ODBC to connect to the SQL Server database.
 
 The ADO.NET interface is a managed data access layer that supports SQL Server connection pooling, which can dramatically decrease memory consumption by [!INCLUDE[nav_server](includes/nav_server_md.md)]. SQL Server connection pooling also simplifies deployment of the [!INCLUDE[navnow](includes/navnow_md.md)] three-tier architecture for deployments where the three tiers are installed on separate computers. Specifically, administrators are no longer required to manually create SPNs or to set up delegation when the client, [!INCLUDE[nav_server](includes/nav_server_md.md)], and SQL Server are on separate computers. For more information, see [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough--Installing-the-Three-Tiers-on-Three-Computers.md).  
 
@@ -69,9 +70,9 @@ There is no longer a one-to-one correlation between the number of client connect
 ## Data read/write performance  
 C/AL functions COUNT and AVERAGE formulas can use SIFT indexes. For more information, see [CALCSUMS Function \(Record\)](CALCSUMS-Function--Record-.md) and [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md). MIN and MAX formulas use SQL Server MIN and MAX functions exclusively.  
 
- RecordIds and SQL Variant columns in a table does not prevent the use of BULK insert inserts. For more information, see [Bulk Inserts](Bulk-Inserts.md).  
+ RecordIds and SQL Variant columns in a table do not prevent the use of BULK inserts. For more information, see [Bulk Inserts](Bulk-Inserts.md).  
 
- In most cases, filtering on FlowFields issues a single SQL statement. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], filtering on FlowFields issued an SQL statement for each filtered FlowField and for each record in the table in order to calculate the filtered FlowFields. The exceptions in [!INCLUDE[navnow](includes/navnow_md.md)] in which filtering on FlowFields does not issue a single SQL statement are as follows:  
+In most cases, filtering on FlowFields issues a single SQL statement. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], filtering on FlowFields issued an SQL statement for each filtered FlowField and for each record in the table in order to calculate the filtered FlowFields. The exceptions in [!INCLUDE[navnow](includes/navnow_md.md)] in which filtering on FlowFields does not issue a single SQL statement are as follows:  
 
 -   You use the ValueIsFilter option on a field and the field has a value. For more information about the ValueIsFilter option, see [How to: Create, View, and Edit a Calculation Formula](How-to--Create--View--and-Edit-a-Calculation-Formula.md).  
 
