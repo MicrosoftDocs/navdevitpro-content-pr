@@ -77,27 +77,24 @@ In most cases, filtering on FlowFields issues a single SQL statement. In earlier
 
 In most cases, calling the FIND or NEXT functions after you have set the view to include only marked records issues a single SQL statement. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], calling FIND or NEXT functions that have marked records issued an SQL statement for each mark. There are some exceptions if many records are marked. For more information, see [MARKEDONLY Function \(Record\)](MARKEDONLY-Function--Record-.md).  
 
-## Database and Windows collations  
- Starting from SQL Server 2008, collations are fully aligned with the collations in Windows Server 2008. If you upgrade to [!INCLUDE[navnow](includes/navnow_md.md)] from [!INCLUDE[nav_2009_long](includes/nav_2009_long_md.md)], the step to convert the database includes upgrading the database to Windows collation. This collation change provides users with the most up-to-date and linguistically accurate cultural sorting conventions. For more information, see [Collation and Unicode Support](http://go.microsoft.com/fwlink/?LinkID=247971).  
-
 ## Using SQL Server table partitioning
 As of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], the use of SQL Server table and index partitioning is a supported configuration. The data of partitioned tables and indexes is divided into units that can be spread across more than one filegroup in a SQL Server database. All partitions of a single index or table must reside in the same database. The table or index is treated as a single logical entity when queries or updates are performed on the data. Prior to SQL Server 2016 SP1, partitioned tables and indexes were not available in every edition of SQL Server.
 Partitioning large tables or indexes can have the following manageability and performance benefits:
--   You can perform maintenance operations on one or more partitions more quickly. The operations are more efficient because they target only these data subsets, instead of the whole table. For example, you can choose to rebuild one or more partitions of an index. 
--   You might be able to improve query performance, based on the types of queries you frequently run and on your hardware configuration. 
-When SQL Server performs data sorting for I/O operations, it sorts the data first by partition. SQL Server accesses one drive at a time, and this might reduce performance. To improve data sorting performance, stripe the data files of your partitions across more than one disk by setting up a RAID (redundant array of independent disks). In this way, although SQL Server still sorts data by partition, it can access all the drives of each partition at the same time. 
+-   You can perform maintenance operations on one or more partitions more quickly. The operations are more efficient because they target only these data subsets, instead of the whole table. For example, you can choose to rebuild one or more partitions of an index.
+-   You might be able to improve query performance, based on the types of queries you frequently run and on your hardware configuration.
+When SQL Server performs data sorting for I/O operations, it sorts the data first by partition. SQL Server accesses one drive at a time, and this might reduce performance. To improve data sorting performance, stripe the data files of your partitions across more than one disk by setting up a RAID (redundant array of independent disks). In this way, although SQL Server still sorts data by partition, it can access all the drives of each partition at the same time.
 -   You can use partitioning to distribute parts of tables to different IO sub systems. For example, you could archive data for old transactions on slow and inexpensive disks and keep current data on solid-state drives (SSD).
 You can improve performance by enabling lock escalation at the partition level instead of a whole table. This can reduce lock contention on the table.
 
-For more general information about partitioned tables and indexes in SQL Server, see [Partitioned Tables and Indexes](https://docs.microsoft.com/en-us/sql/relational-databases/partitions/partitioned-tables-and-indexes). 
+For more general information about partitioned tables and indexes in SQL Server, see [Partitioned Tables and Indexes](https://docs.microsoft.com/en-us/sql/relational-databases/partitions/partitioned-tables-and-indexes).
 
-### How Dynamics NAV supports partitioning 
+### How Dynamics NAV supports partitioning
 
 If you have altered tables in a [!INCLUDE[navnow](includes/navnow_md.md)] database to make them partitioned tables, the synchronization engine, which is responsible for mapping the logical metamodel to physical tables, will respect this configuration during upgrades. After a schema upgrade, even if tables have been dropped and recreated, the partitioning strategy applied to the original tables will be added to the upgraded tables.
-You can create a partitioned table or index in SQL Server by using SQL Server Management Studio or Transact-SQL. 
+You can create a partitioned table or index in SQL Server by using SQL Server Management Studio or Transact-SQL.
 
 > [!NOTE]  
-> For partitioning to work, the partition column must be part of the clustering key on the table. 
+> For partitioning to work, the partition column must be part of the clustering key on the table.
 
 ### Table Partioning Example
 This example uses Transact-SQL to change table **G_L Entry** to be partitioned on the **Posting Date** field, with data partitioned on the year, and where all partitions are aligned to the PRIMARY file group.
@@ -106,7 +103,7 @@ This example uses Transact-SQL to change table **G_L Entry** to be partitioned o
 
     ```
     CREATE PARTITION FUNCTION [DataHistoryPartitionFunction] (datetime)
-    AS RANGE LEFT FOR VALUES ( 
+    AS RANGE LEFT FOR VALUES (
     '20151231 23:59:59.997',
     '20161231 23:59:59.997',
     '20171231 23:59:59.997',
@@ -117,8 +114,8 @@ This example uses Transact-SQL to change table **G_L Entry** to be partitioned o
 2. Create a partition scheme that maps partitions to file groups. In this example, all partitions are mapped to the PRIMARY file group (this can be used for partitioning multiple tables):
 
     ```
-    CREATE PARTITION SCHEME DataHistoryPartitionScheme 
-    AS PARTITION DataHistoryPartitionFunction ALL TO ([PRIMARY]) 
+    CREATE PARTITION SCHEME DataHistoryPartitionScheme
+    AS PARTITION DataHistoryPartitionFunction ALL TO ([PRIMARY])
     GO
     ```
 
@@ -133,7 +130,7 @@ This example uses Transact-SQL to change table **G_L Entry** to be partitioned o
     DROP CONSTRAINT [G_L Entry$0]
     GO
 
-    ALTER TABLE [dbo].[G_L Entry] 
+    ALTER TABLE [dbo].[G_L Entry]
     ADD CONSTRAINT [G_L Entry$0] PRIMARY KEY CLUSTERED
     (
     [$companyId], [Entry No_], [Posting Date]
