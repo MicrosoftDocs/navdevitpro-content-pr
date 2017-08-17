@@ -1,6 +1,6 @@
 ---
-title: GET AgedAccountsPayable method | Microsoft Docs
-description: Gets a AgedAccountsPayable.
+title: GET agedAccountsPayable method | Microsoft Docs
+description: Gets an agedAccountsPayable.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get aged accounts payable
+# Get agedAccountsPayable
 Retrieve the properties and relationships of an aged accounts payable report object for Dynamics 365 for Financials.
 
 ## HTTP request
@@ -44,7 +44,10 @@ GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/agedAccount
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response.  
+
+> [!NOTE]  
+> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
 
 ```json
 {
