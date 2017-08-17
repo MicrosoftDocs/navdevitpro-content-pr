@@ -102,7 +102,7 @@ You can create a partitioned table or index in SQL Server by using SQL Server Ma
 ### Table Partioning Example
 This example uses Transact-SQL to change table **G_L Entry** to be partitioned on the **Posting Date** field, with data partitioned on the year, and where all partitions are aligned to the PRIMARY file group.
 
-1. In SQL Query Editor or Transact-SQL Editor, create a partition function that creates partitions that divide on year (this can be used for partitioning multiple tables):
+1. In SQL query editor, create a partition function that creates partitions that divide on year (this can be used for partitioning multiple tables):
 
     ```
     CREATE PARTITION FUNCTION [DataHistoryPartitionFunction] (datetime)
