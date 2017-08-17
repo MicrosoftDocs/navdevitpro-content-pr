@@ -1,6 +1,6 @@
 ---
-title: GET Company Information method | Microsoft Docs
-description: Gets Company Information.
+title: GET companyInformation method | Microsoft Docs
+description: Gets Company information.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get company information
+# Get companyInformation
 Retrieve the properties and relationships of an company information object for Dynamics 365 for Financials.
 
 ## HTTP request
@@ -44,7 +44,10 @@ GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/companyInfo
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response.  
+
+> [!NOTE]  
+> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
 
 ```json
 {
@@ -69,7 +72,6 @@ Here is an example of the response. Note: The response object shown here may be 
   "lastModifiedDateTime": "2017-03-16T14:57:19.497Z"
 }
 ```
-
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

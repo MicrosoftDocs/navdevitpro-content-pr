@@ -153,6 +153,10 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
  You have now completed the conversion of the database to be accessed from [!INCLUDE[nav2017](includes/nav2017.md)]. To test the converted database, you can connect it to the [!INCLUDE[nav2017](includes/nav2017.md)] Server instance that is used by [!INCLUDE[navnow](includes/navnow_md.md)] clients, and then open a client.  
 
+## Database and Windows collations  
+ Starting from SQL Server 2008, SQL Server collations are fully aligned with the collations in Windows Server. If you upgrade to [!INCLUDE[navnow](includes/navnow_md.md)] from [!INCLUDE[nav_2009_long](includes/nav_2009_long_md.md)], the step to convert the database includes upgrading the database from using SQL collations to using Windows collation. This collation change provides users with the most up-to-date and linguistically accurate cultural sorting conventions. For more information, see [Collation and Unicode Support](http://go.microsoft.com/fwlink/?LinkID=247971).  
+
+
 ## See Also  
  [Upgrading the Application Code](Upgrading-the-Application-Code.md)   
  [Upgrading the Data](Upgrading-the-Data.md)   

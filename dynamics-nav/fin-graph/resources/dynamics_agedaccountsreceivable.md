@@ -1,6 +1,6 @@
 ---
 title: agedAccountsReceivable resource type | Microsoft Docs
-description: A AgedAccountsReceivable.
+description: An agedAccountsReceivable.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,7 +21,7 @@ Represents an agedAccountsReceivable object in Dynamics 365 for Financials, whic
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET agedAccountsReceivable](../api/dynamics_get_agedaccountsreceivable.md)|AgedAccountsReceivable|Get AgedAccountsReceivable object|
+|[GET agedAccountsReceivable](../api/dynamics_get_agedaccountsreceivable.md)|agedAccountsReceivable|Get agedAccountsReceivable object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -44,8 +44,7 @@ None
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
-
+Here is a JSON representation of the resource.  
 
 ```json
 {
@@ -59,7 +58,7 @@ Here is a JSON representation of the resource.
     "period2Amount": "decimal",
     "period3Amount": "decimal",
     "agedAsOfDate": "date",
-    "periodLengthFilter": "string
+    "periodLengthFilter": "string"
 }
 
 ```
