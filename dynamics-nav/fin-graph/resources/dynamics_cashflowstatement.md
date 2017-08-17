@@ -1,6 +1,6 @@
 ---
 title: cashFlowStatement resource type | Microsoft Docs
-description: A CashFlowStatement.
+description: A cashFlowStatement.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,7 +21,7 @@ Represents an cashFlowStatement object in Dynamics 365 for Financials.
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET cashFlowStatement](../api/dynamics_get_cashflowstatement.md)|CashFlowStatement|Get a CashFlowStatement object|
+|[GET cashFlowStatement](../api/dynamics_get_cashflowstatement.md)|cashFlowStatement|Get a cashFlowStatement object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -34,13 +34,13 @@ Represents an cashFlowStatement object in Dynamics 365 for Financials.
 |dateFilter|date|The date filter used to calculate the cashFlowStatement items.|
 
 
-## Relationships
+## Relationships  
+
 None
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
-
+Here is a JSON representation of the resource.  
 
 ```json
 {
@@ -53,5 +53,6 @@ Here is a JSON representation of the resource.
 }
 
 ```
+
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# companies resource type
+# company resource type
 Represents a companies resource type in Dynamics 365 for Financials.
 
 
@@ -22,13 +22,13 @@ Represents a companies resource type in Dynamics 365 for Financials.
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET company](../api/dynamics_get_companies.md)|company|Get a Company.|
+|[GET company](../api/dynamics_get_companies.md)|company|Get a company.|
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the company. Read-Only.|
-|name|string|Specifies the Company.|
+|name|string|Specifies the company.|
 |displayName|string|Specifies the company display name.|
 
 

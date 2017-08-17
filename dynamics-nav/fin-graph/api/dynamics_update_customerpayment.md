@@ -1,6 +1,6 @@
 ---
-title: UPDATE customer payments method | Microsoft Docs
-description: Updates a customer payments.
+title: UPDATE customerPayment method | Microsoft Docs
+description: Updates a customer payment.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update customer payments
+# Update customerPayment
 Update the properties of a customer payments object for Dynamics 365 for Financials.
 
 ## HTTP request
@@ -52,7 +52,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response.  
+
+> [!NOTE]  
+> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
 
 ```json
 HTTP/1.1 200 OK
@@ -75,5 +78,6 @@ Content-type: application/json
   "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```
-## See also
+
+## See also  
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
