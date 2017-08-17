@@ -1,5 +1,5 @@
 ---
-title: CREATE currency method | Microsoft Docs
+title: CREATE currencies method | Microsoft Docs
 description: Creates a currency.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create currency
+# Create currencies
 Create a currencies in Dynamics 365 for Financials.
 
 ## HTTP request
