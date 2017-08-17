@@ -86,6 +86,5 @@ Content-type: application/json
   }
 ```
 
-
 ## See also  
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

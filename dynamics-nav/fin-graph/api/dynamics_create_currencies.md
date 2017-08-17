@@ -1,6 +1,6 @@
 ---
-title: CREATE Currency Method | Microsoft Docs
-description: Creates a Currency.
+title: CREATE currency method | Microsoft Docs
+description: Creates a currency.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -55,7 +55,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response.  
+
+> [!NOTE]  
+> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
 
 ```json
 HTTP/1.1 201 Created
@@ -73,7 +76,5 @@ Content-type: application/json
 
 ```
 
-
-
-## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+## See also  
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  
