@@ -1,6 +1,6 @@
 ---
-title: UPDATE Currency method | Microsoft Docs
-description: Updates a Currency.
+title: UPDATE currency method | Microsoft Docs
+description: Updates a currency.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -51,7 +51,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response.  
+
+> [!NOTE]  
+> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
 
 ```json
 HTTP/1.1 200 OK
@@ -67,7 +70,6 @@ Content-type: application/json
   "lastModifiedDateTime": "2017-03-22T21:12:18.793Z"
 }
 ```
-
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
