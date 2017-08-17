@@ -2,7 +2,7 @@
 title: "Setting up the Excel Add-In for Editing Data"
 author: jswymer
 manager: edupont
-ms.author: edupont
+ms.author: jswymer
 ms.custom: na
 ms.date: 08/17/2017
 ms.reviewer: na
@@ -114,7 +114,7 @@ You must add the Excel add-in to the [!INCLUDE[nav_server](includes/nav_server_m
 
 3.  In the **OData Services** section, set the **OData Base URL** field to the public URL for accessing OData services.
 
-    The URL must have the following format ```https://<hostname>:<port>/<instance>/ODataV4/, such as ```https://Cronus.Nav.net:7047/dynamicsnav/ODataV4/```.
+    The URL must have the following format ```https://<hostname>:<port>/<instance>/ODataV4/```, such as ```https://Cronus.Nav.net:7047/dynamicsnav/ODataV4/```.
 
     With the **Set-NAVServerConfiguration** cmdlet, set the ```PublicODataBaseUrl``` key.
 
