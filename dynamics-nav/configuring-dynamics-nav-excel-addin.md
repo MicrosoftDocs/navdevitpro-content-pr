@@ -108,13 +108,13 @@ You must add the Excel add-in to the [!INCLUDE[nav_server](includes/nav_server_m
 
 2.  In the **Client Services** section, set the **Web Client Base URL** field to the base URL of the [!INCLUDE[nav_web_md](includes/nav_web_md.md)].
 
-	This is the root portion of all URLs that are used to access pages in the web client. This must have the format ```https://[hostname:port]/[instance]/WebClient```, such as ```https://MyNavWebServer:48900/DynamicsNAV/WebClient/```.
+	This is the root portion of all URLs that are used to access pages in the web client. This must have the format ```https://[hostname:port]/[instance]/WebClient```, such as ```https://MyNavWebServer/DynamicsNAV/WebClient/```.
 
     With the **Set-NAVServerConfiguration** cmdlet, set the ```PublicWebBaseUrl``` key.
 
 3.  In the **OData Services** section, set the **OData Base URL** field to the public URL for accessing OData services.
 
-    The URL must have the following format ```https://<hostname>:<port>/<instance>/OData/, such as ```https://Cronus.Nav.net:7047/dynamicsnav/OData/```.
+    The URL must have the following format ```https://<hostname>:<port>/<instance>/ODataV4/, such as ```https://Cronus.Nav.net:7047/dynamicsnav/ODataV4/```.
 
     With the **Set-NAVServerConfiguration** cmdlet, set the ```PublicODataBaseUrl``` key.
 
