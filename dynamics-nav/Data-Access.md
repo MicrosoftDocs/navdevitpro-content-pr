@@ -91,7 +91,7 @@ You can improve performance by enabling lock escalation at the partition level i
 
 For more general information about partitioned tables and indexes in SQL Server, see [Partitioned Tables and Indexes](https://docs.microsoft.com/en-us/sql/relational-databases/partitions/partitioned-tables-and-indexes). 
 
-### How partitioning is supported by Dynamics NAV
+### How Dynamics NAV supports partitioning 
 
 If you have altered tables in a [!INCLUDE[navnow](includes/navnow_md.md)] database to make them partitioned tables, the synchronization engine, which is responsible for mapping the logical metamodel to physical tables, will respect this configuration during upgrades. After a schema upgrade, even if tables have been dropped and recreated, the partitioning strategy applied to the original tables will be added to the upgraded tables.
 You can create a partitioned table or index in SQL Server by using SQL Server Management Studio or Transact-SQL. 
@@ -102,7 +102,7 @@ You can create a partitioned table or index in SQL Server by using SQL Server Ma
 ### Table Partioning Example
 This example uses Transact-SQL to change table **G_L Entry** to be partitioned on the **Posting Date** field, with data partitioned on the year, and where all partitions are aligned to the PRIMARY file group.
 
-1. In the Transact-SQL Editor, create a partition function that creates partitions that divide on year (this can be used for partitioning multiple tables):
+1. In SQL Query Editor or Transact-SQL Editor, create a partition function that creates partitions that divide on year (this can be used for partitioning multiple tables):
 
     ```
     CREATE PARTITION FUNCTION [DataHistoryPartitionFunction] (datetime)
@@ -124,7 +124,7 @@ This example uses Transact-SQL to change table **G_L Entry** to be partitioned o
 
 3. In the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], add the **Posting Date** field to the primary key.
 
-    For more information, see [How to: Define Primary and Secondary Keys.md](How-to--Define-Primary-and-Secondary-Keys.md)
+    For more information, see [How to: Define Primary and Secondary Keys](How-to--Define-Primary-and-Secondary-Keys.md).
 
 4. In the Transact-SQL Editor, partition table **G_L Entry** by using the previously defined partition scheme:
 
