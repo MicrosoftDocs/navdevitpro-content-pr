@@ -45,7 +45,8 @@ Here is an example of a request.
 ```json
 POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/purchaseInvoices
 Content-type: application/json
-
+```
+```json
 {
   "id": "id-value",
   "number": "1009",
@@ -54,6 +55,7 @@ Content-type: application/json
   "currencyCode": "GBP",
   "paymentTerms": "COD"
 }
+```
 
-## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+## See also  
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  

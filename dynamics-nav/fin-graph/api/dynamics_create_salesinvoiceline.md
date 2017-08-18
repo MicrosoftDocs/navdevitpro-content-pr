@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create sales invoice line
-Create a salesInvoice in Dynamics 365 for Financials.
+Create a salesInvoice in Dynamics 365 for Financials. 
 
 ## HTTP request
 
@@ -51,6 +51,7 @@ Content-type: application/json
 "lineType": "Item",
 "quantity": 9
 }
+```
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](dynamics_overview.md)

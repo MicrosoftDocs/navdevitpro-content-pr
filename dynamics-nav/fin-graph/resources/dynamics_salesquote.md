@@ -50,14 +50,15 @@ Represents a salesQuote resource type in Dynamics 365 for Financials.
 |lastModifiedDateTime|datetime|The last datetime the sales quote was modified. Read-Only.|
 
 
-## Relationships
-A Currency(currencyCode) must exist in the Currencies table.
+## Relationships  
 
-A Payment Term(paymentTerms) must exist in the Payment Terms table.
+- A Currency (currencyCode) must exist in the Currencies table.  
 
-A Shipment Method(shipmentMethod) must exist in the Shipment Method table.
+- A Payment Term(paymentTerms) must exist in the Payment Terms table.  
 
-A Customer (customerId) must exist in the Customer table.
+- A Shipment Method (shipmentMethod) must exist in the Shipment Method table.  
+
+- A Customer (customerId) must exist in the Customer table.  
 
 ## JSON representation
 
