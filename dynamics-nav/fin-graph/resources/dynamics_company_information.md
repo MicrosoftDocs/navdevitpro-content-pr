@@ -1,6 +1,6 @@
 ---
 title: companyInformation resource type | Microsoft Docs
-description: Company Information.
+description: Company information.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,8 +21,8 @@ Represents the information specified for the current company in Dynamics 365 for
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET companyInformation](../api/dynamics_get_companyinformation.md)|companyInformation|Get Company Information.|
-|[PATCH companyInformation](../api/dynamics_update_companyinformation.md)|companyInformation|Update Company Information.|
+|[GET companyInformation](../api/dynamics_get_companyinformation.md)|companyInformation|Get company information.|
+|[PATCH companyInformation](../api/dynamics_update_companyinformation.md)|companyInformation|Update company information.|
 
 
 ## Properties

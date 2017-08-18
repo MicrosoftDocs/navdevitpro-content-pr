@@ -1,6 +1,6 @@
 ---
 title: balanceSheet resource type | Microsoft Docs
-description: A BalanceSheet.
+description: A balance sheet.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,7 +21,7 @@ Represents a balanceSheet object in Dynamics 365 for Financials. A balance sheet
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET balanceSheet](../api/dynamics_get_balancesheet.md)|BalanceSheet|Get a BalanceSheet object|
+|[GET balanceSheet](../api/dynamics_get_balancesheet.md)|balanceSheet|Get a balance sheet object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -39,8 +39,7 @@ None
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
-
+Here is a JSON representation of the resource.  
 
 ```json
 {
