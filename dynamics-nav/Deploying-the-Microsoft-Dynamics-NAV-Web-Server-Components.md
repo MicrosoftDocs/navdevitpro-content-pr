@@ -11,12 +11,12 @@ ms.assetid: 9c5a0bb0-66a9-437b-b228-17b43001d579
 caps.latest.revision: 24
 ---
 # Deploying the Microsoft Dynamics NAV Web Server Components
-The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is required for the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], and [!INCLUDE[nav_phone](includes/nav_phone_md.md)]. This article provides an overview of the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] deployment. It is important to understand the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] environment and consider the factors that will affect the installation and configuration, such as network architecture and infrastructure, users, security, and the deployment phase.  
+Providing users with the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] requires a web server instance on Internet Information Services (IIS). For all practicle purposes, this a web site that hosts all the components for serving users the different clients. This article provides an overview deploying [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances to help you determine the deployment that suits your network and requirments. There are factors to consider that will affect the installation and configuration, such as network topolgy, users, security, and more.  
 
 If you just want to install and get started wih the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).
 
 ## Network Topology  
- The following illustration shows the component infrastructure that that supports the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] environment on your network.  
+ The following illustration shows the component infrastructure that supports the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] environment on your network.  
   
  ![NAV Web Client network architecture](media/NAV_WebClient_Network_Architecture.png "NAV\_WebClient\_Network\_Architecture")  
   
