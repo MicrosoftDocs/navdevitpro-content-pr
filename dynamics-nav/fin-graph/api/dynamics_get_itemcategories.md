@@ -1,5 +1,5 @@
 ---
-title: GET Item Categories method | Microsoft Docs
+title: GET item categories method | Microsoft Docs
 description: Gets an Item Categories.
 services: project-madeira
 documentationcenter: ''
@@ -39,13 +39,17 @@ If successful, this method returns a ```200 OK``` response code and itemCategori
 **Request**
 
 Here is an example of the request.
+
 ```json
 GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/itemCategories/{id}
 ```
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response.  
+
+> [!NOTE]  
+> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
 
 ```json
 {
@@ -56,6 +60,5 @@ Here is an example of the response. Note: The response object shown here may be 
 }
 ```
 
-
-## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+## See also  
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  

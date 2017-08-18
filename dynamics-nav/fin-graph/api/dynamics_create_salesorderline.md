@@ -51,6 +51,7 @@ Content-type: application/json
 "lineType": "Item",
 "quantity": 9
 }
+```
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](dynamics_overview.md)

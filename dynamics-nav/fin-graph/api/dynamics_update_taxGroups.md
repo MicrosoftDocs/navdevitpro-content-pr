@@ -1,6 +1,6 @@
 ---
 title: UPDATE Tax Groups method | Microsoft Docs
-description: Updates a Tax Group.
+description: Updates a tax group.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -17,7 +17,8 @@ ms.author: solsen
 # Update tax groups
 Update the properties of a tax groups object for Dynamics 365 for Financials.
 
-## HTTP request
+## HTTP request  
+
 ```
 PATCH /financials/companies/{id}/taxGroups/{id}
 ```
@@ -39,7 +40,8 @@ If successful, this method returns a ```200 OK``` response code and an updated t
 
 **Request**
 
-Here is an example of the request.
+Here is an example of the request.  
+
 ```json
 PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/taxGroups{id}
 Content-type: application/json
@@ -51,7 +53,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response.  
+
+> [!NOTE]  
+> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK
@@ -62,9 +67,8 @@ Content-type: application/json
   "code": "FURNITURE",
   "displayName": "Taxable Furniture",
   "lastModifiedDateTime": "2017-03-15T02:20:57.09Z"
-  }
+}
 ```
 
-
-## See Also
+## See also  
 [Working with Dynamics 365 for Financials in Microsoft Graph](../api/dynamics_graph_reference.md)  

@@ -1,6 +1,6 @@
 ---
-title: GET RetainedEarningsStatement method | Microsoft Docs
-description: Gets a RetainedEarningsStatement.
+title: GET retainedEarningsStatement method | Microsoft Docs
+description: Gets a retainedEarningsStatement.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -44,7 +44,10 @@ GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/retainedEar
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response.  
+
+> [!NOTE]  
+> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
 
 ```json
 {
@@ -56,7 +59,6 @@ Here is an example of the response. Note: The response object shown here may be 
   "dateFilter": "2016-12-31"   
 }
 ```
-
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

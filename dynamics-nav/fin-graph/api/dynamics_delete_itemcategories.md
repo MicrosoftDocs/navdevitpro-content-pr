@@ -1,6 +1,6 @@
 ---
-title: DELETE Item Categories method | Microsoft Docs
-description: Deletes an Item Category.
+title: DELETE item categories method | Microsoft Docs
+description: Deletes an item category.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -45,7 +45,7 @@ Here is an example of the request.
 DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/itemCategories/{id}
 ```
 
-**Response** 
+**Response**  
 
 Here is an example of the response. 
 

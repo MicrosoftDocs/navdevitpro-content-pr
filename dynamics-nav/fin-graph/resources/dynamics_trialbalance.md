@@ -1,6 +1,6 @@
 ---
 title: trialBalance resource type | Microsoft Docs
-description: A TrialBalance.
+description: A trialBalance.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -55,5 +55,5 @@ Here is a JSON representation of the resource.
 }
 
 ```
-## See also
+## See also  
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
