@@ -1,6 +1,6 @@
 ---
 title: DELETE Payment Terms method | Microsoft Docs
-description: Deletes a Payment Terms.
+description: Deletes a payment terms.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

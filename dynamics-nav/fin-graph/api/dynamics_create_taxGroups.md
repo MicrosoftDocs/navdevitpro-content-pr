@@ -1,6 +1,6 @@
 ---
 title: CREATE Tax Groups method | Microsoft Docs
-description: Creates a Tax Group.
+description: Creates a tax group.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
