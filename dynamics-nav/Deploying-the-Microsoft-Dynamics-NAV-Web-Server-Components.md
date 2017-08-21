@@ -11,12 +11,12 @@ ms.assetid: 9c5a0bb0-66a9-437b-b228-17b43001d579
 caps.latest.revision: 24
 ---
 # Deploying the Microsoft Dynamics NAV Web Server Components
-Providing users with the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] requires a web server instance on Internet Information Services (IIS). For all practicle purposes, this a web site that hosts all the components for serving users the different clients. This article provides an overview deploying [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances to help you determine the deployment that suits your network and requirments. There are factors to consider that will affect the installation and configuration, such as network topolgy, users, security, and more.  
+Giving users the capability to access to data by using the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], [!INCLUDE[nav_phone](includes/nav_phone_md.md)], and Outlook add-in requires a Internet Information Services (IIS) web site as part of your deployment, together with the [!INCLUDE[nav_server](includes/nav_server_md.md)] and database. The website, which we refer to as [!INCLUDE[nav_web_server_instance](includes/nav_web_server_instance md.md) hosts the files that provide content and services to client users over the Internet. There are factors to consider that will affect the installation and configuration, such as network topolgy, users, security, and more.  
 
 If you just want to install and get started wih the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).
 
-## Network Topology  
- The following illustration shows the component infrastructure that supports the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] environment on your network.  
+## Network Topology 
+ The following illustration shows the component infrastructure that supports the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] on your network.  
   
  ![NAV Web Client network architecture](media/NAV_WebClient_Network_Architecture.png "NAV\_WebClient\_Network\_Architecture")  
   
@@ -24,8 +24,8 @@ If you just want to install and get started wih the [!INCLUDE[nav_web_server](in
   
  For information about the common deployment scenarios, see [Deployment Scenarios for the Microsoft Dynamics NAV Web Server Components](Deployment-Scenarios-for-the-Microsoft-Dynamics-NAV-Web-Server-Components.md).  
   
-##  <a name="WebClientonIIS"></a> Microsoft Dynamics NAV Web Server Components on IIS  
- To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)], you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer that is running Internet Information Services \(IIS\) and ASP .NET Core.  
+##  <a name="WebClientonIIS"></a> Microsoft Dynamics NAV Web Server instances on IIS  
+[!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances run on ASP.NET Core on IIS, which in part dictates the directory structure of the instances. To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)], you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer that is running Internet Information Services \(IIS\) and ASP .NET Core.  
   
  When you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], a web server instance is added on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The web server instance consists of a virtual directory and application. The following illustration shows the structure in Internet Information Services Manager. For more information about these elements in IIS, see [IIS Manager UI](http://go.microsoft.com/fwlink/?LinkID=614897).  
   
