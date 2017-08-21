@@ -40,7 +40,8 @@ If successful, this method returns a ```200 OK``` response code and an updated j
 
 **Request**
 
-Here is an example of the request.
+Here is an example of the request.  
+
 ```json
 PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/journals{id}
 Content-type: application/json
@@ -53,7 +54,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response.  
+
+> [!NOTE]  
+> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK
@@ -67,5 +71,5 @@ Content-type: application/json
 }
 ```
 
-## See also
+## See also  
 [Microsoft Graph Reference](../api/dynamics_graph_reference.md)  

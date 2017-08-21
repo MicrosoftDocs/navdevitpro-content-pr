@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# company resource type
+# companies resource type
 Represents a companies resource type in Dynamics 365 for Financials.
 
 

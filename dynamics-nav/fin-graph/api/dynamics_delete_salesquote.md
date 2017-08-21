@@ -17,7 +17,6 @@ ms.author: solsen
 # Delete sales quote
 Delete a sales quote from Dynamics 365 for Financials.
 
-
 ## HTTP request
 ```
 DELETE /financials/companies/{id}/salesQuotes/{id}
@@ -47,11 +46,11 @@ DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesQuo
 
 **Response** 
 
-Here is an example of the response. 
+Here is an example of the response.  
 
 ```json
 HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  

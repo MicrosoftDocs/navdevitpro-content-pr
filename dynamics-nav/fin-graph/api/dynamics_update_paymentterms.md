@@ -1,6 +1,6 @@
 ---
 title: UPDATE Payment Terms method | Microsoft Docs
-description: Updates a Payment Terms.
+description: Updates a payment terms.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -39,7 +39,8 @@ If successful, this method returns a ```200 OK``` response code and an updated p
 
 **Request**
 
-Here is an example of the request.
+Here is an example of the request.  
+
 ```json
 PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/paymentTerms{id}
 Content-type: application/json
@@ -52,7 +53,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response.  
+
+> [!NOTE]  
+> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
 
 ```json
 HTTP/1.1 200 OK
@@ -70,6 +74,5 @@ Content-type: application/json
 }
 ```
 
-
-## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+## See also  
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  

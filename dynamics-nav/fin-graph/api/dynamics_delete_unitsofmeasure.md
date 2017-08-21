@@ -1,6 +1,6 @@
 ---
 title: DELETE Unit of Measure method | Microsoft Docs
-description: Deletes an Unit of Measure.
+description: Deletes an unit of measure.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
