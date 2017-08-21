@@ -38,7 +38,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 
 **Request**
 
-Here is an example of the request.
+Here is an example of the request.  
 
 ```json
 DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/dimensionLines(parentId={id},id={id})
@@ -53,4 +53,4 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  

@@ -54,7 +54,6 @@ An Account (accountId) must exist in the Accounts table.
 
 Here is a JSON representation of the resource.
 
-
 ```json
 {
     "id": "GUID",
@@ -72,5 +71,5 @@ Here is a JSON representation of the resource.
 }
 ```
 
-## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+## See also  
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  

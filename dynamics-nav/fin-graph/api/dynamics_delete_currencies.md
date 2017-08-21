@@ -1,5 +1,5 @@
 ---
-title: DELETE currency method | Microsoft Docs
+title: DELETE currencies method | Microsoft Docs
 description: Deletes a currency.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete currency
+# Delete currencies
 Delete a currencies from Dynamics 365 for Financials.
 
 ## HTTP request
