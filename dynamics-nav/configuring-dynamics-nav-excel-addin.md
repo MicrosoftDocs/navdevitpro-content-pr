@@ -2,9 +2,9 @@
 title: "Setting up the Excel Add-In for Editing Data"
 author: jswymer
 manager: edupont
-ms.author: edupont
+ms.author: jswymer
 ms.custom: na
-ms.date: 10/22/2016
+ms.date: 08/17/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,15 +25,15 @@ Your deployment must meet the following prerequisites:
 -   Azure Active Directory (Azure AD) used to authenticate users.
 
     The [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance, clients, and users must be configured for NavUserPassword, Azure Access Control Service (ACS), or Azure Active Directory (Azure AD) authentication.
-    
+
     For more information, see [Authenticating Users with Azure Active Directory](Authenticating-Users-with-Azure-Active-Directory.md).  
 -   OData enabled and uses Secure Sockets Layer (SSL) for authentication.
 
     For more information, see [Walkthrough: Configuring Web Services to Use SSL (SOAP and OData)](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md).  
-    
+
 -   [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)] installed and configured to use SSL (https).
-    
-    For more information, see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md) and [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md) 
+
+    For more information, see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md) and [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md)
 
 -   If your deployment is multitenant, [!INCLUDE[nav_web](includes/nav_web_md.md)] must accept host names for tenants.
 
@@ -49,7 +49,7 @@ When Azure AD authentication was set up for your [!INCLUDE[navnow](includes/navn
 You can add the Azure AD application by using the [Azure portal](http://go.microsoft.com/fwlink/?LinkID=317944). The following procedure outlines the steps you must perform to add and configure the Excel add-in application in your Azure AD tenant. For more specific guidelines about how to use the Azure portal, see [Register your application with your Azure Active Directory tenant](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-app-registration).
 
 1.  Add an Azure AD application for the Excel add-in.
-  
+
     When you add an application to an Azure AD tenant, you must specify the following information:  
 
     <table>
@@ -87,7 +87,7 @@ You can add the Azure AD application by using the [Azure portal](http://go.micro
 
 3.  Configure OAuth2 authentication in the Excel add-in application manifest.
 
-    The Excel add-in requires OAuth2 implicit grant flow to be enabled on the application. The manifest for the application is a .json file type. To enable OAuth2 implicit grant flow in the manifest file, change the *oauth2AllowImplicitFlow* key to *true*. 
+    The Excel add-in requires OAuth2 implicit grant flow to be enabled on the application. The manifest for the application is a .json file type. To enable OAuth2 implicit grant flow in the manifest file, change the *oauth2AllowImplicitFlow* key to *true*.
 
 4. Add the following URL to the *ReplyUrl* list:
 
@@ -95,7 +95,7 @@ You can add the Azure AD application by using the [Azure portal](http://go.micro
     https://az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/*
     ```  
 
-5.  Copy the **Client ID (Application ID)** that is assigned to Excel add-in application. You'll need this in the procedure. 
+5.  Copy the **Client ID (Application ID)** that is assigned to Excel add-in application. You'll need this in the procedure.
 
 This completes the work you have to do in the Azure portal. The final configuration is to add the Excel add-in to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances.
 
@@ -105,17 +105,17 @@ You must add the Excel add-in to the [!INCLUDE[nav_server](includes/nav_server_m
 1.  In the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], in the **Azure Active Directory** section, set the **Excel add-in AAD client ID** field to the client ID (or application ID) for the Excel add-in application that you copied from the Azure portal.
 
     With the Set-NAVServerConfiguration cmdlet, set the ```ExcelAddInAzureActiveDirectoryClientId``` key.
-    
+
 2.  In the **Client Services** section, set the **Web Client Base URL** field to the base URL of the [!INCLUDE[nav_web_md](includes/nav_web_md.md)].
 
-	This is the root portion of all URLs that are used to access pages in the web client. This must have the format ```https://[hostname:port]/[instance]/WebClient```, such as ```https://MyNavWebServer:443/DynamicsNAV/WebClient/```.
-    
+	This is the root portion of all URLs that are used to access pages in the web client. This must have the format ```https://[hostname:port]/[instance]/WebClient```, such as ```https://MyNavWebServer/DynamicsNAV/WebClient/```.
+
     With the **Set-NAVServerConfiguration** cmdlet, set the ```PublicWebBaseUrl``` key.
 
 3.  In the **OData Services** section, set the **OData Base URL** field to the public URL for accessing OData services.
- 	
-    The URL must have the following format ```https://<hostname>:<port>/<nav-instance>/WS/, such as ```https://Cronus.Nav.net:7047/dynamicsnav/WS/```.
-    
+
+    The URL must have the following format ```https://<hostname>:<port>/<instance>/ODataV4/```, such as ```https://Cronus.Nav.net:7047/dynamicsnav/ODataV4/```.
+
     With the **Set-NAVServerConfiguration** cmdlet, set the ```PublicODataBaseUrl``` key.
 
 ## Use the Excel Add-In
