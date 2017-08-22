@@ -33,13 +33,13 @@ Represents an item in Dynamics 365 for Financials.
 |number|string|The item number.|
 |displayName|string|Specifies a description of the item.|
 |type|numeric|The inventory type for the item. 1 = inventory item, 2 = service item. This is a required property.|
-|blocked|boolean|Specifies that transactions with the item cannot be posted, for example, because the item is in quarantine. Set to **True** if item is blocked.|
+|blocked|boolean|Specifies that transactions with the item cannot be posted, for example, because the item is in quarantine. Set to **true**, if item is blocked.|
 |baseUnitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complex_types.md)|Specifies the unit in which the item is held in inventory.|
 |gtin|numeric|This is the Global Trade Item Number.|
 |itemCategoryCode|[NAV.ItemCategory](../resources/dynamics_complex_types.md)|Specifies the category that the item belongs to. Item categories also contain any assigned item attributes.|
 |inventory|decimal|Specifies how many units, such as pieces, boxes, or cans, of the item are in inventory. Read-Only.|
 |unitPrice|decimal|Specifies the price for one unit of the item in the specified currency.|
-|priceIncludesTax|boolean|Specifies that the unitPrice includes tax. Set to **True** if unitPrice includes tax.|
+|priceIncludesTax|boolean|Specifies that the unitPrice includes tax. Set to **true**, if unitPrice includes tax.|
 |unitCost|decimal|Specifies the cost per unit of the item.|
 |taxGroupCode|numeric|A Tax Group represents a group of inventory items or resources that are subject to identical tax terms.|
 |lastModifiedDateTime|datetime|The last datetime the item was modified. Read-Only.|  
@@ -50,8 +50,7 @@ A Tax Group(taxGroupCode) must exist in the Tax Group table.
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
-
+Here is a JSON representation of the resource.  
 
 ```json
 {
@@ -73,5 +72,5 @@ Here is a JSON representation of the resource.
 
 ```
 
-## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+## See also  
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  
