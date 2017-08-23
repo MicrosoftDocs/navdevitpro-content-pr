@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get paymentMethod
+# Get paymentMethods
 Retrieve the properties and relationships of a payment methods object for Dynamics 365 for Financials.
 
 ## HTTP request

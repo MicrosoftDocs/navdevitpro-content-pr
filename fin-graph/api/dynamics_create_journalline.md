@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create journalLine
-Creates a journal line in Dynamics 365 for Financials.
+Creates a journalLine in Dynamics 365 for Financials.
 
 ## HTTP request
 

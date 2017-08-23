@@ -17,7 +17,6 @@ ms.author: solsen
 # Get account
 Retrieve the properties and relationships of an account object for Dynamics 365 for Financials.
 
-
 ## HTTP request
 ```
 GET /financials/companies/{id}/accounts/{id}

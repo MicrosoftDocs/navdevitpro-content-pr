@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update shipmentMethod
+# Update shipmentMethods
 Update the properties of a shipment methods object for Dynamics 365 for Financials.
 
 ## HTTP request

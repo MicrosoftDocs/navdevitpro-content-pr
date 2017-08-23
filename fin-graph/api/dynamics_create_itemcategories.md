@@ -1,6 +1,6 @@
 ---
-title: CREATE itemCategory method | Microsoft Docs
-description: Creates an item category.
+title: CREATE itemCategories method | Microsoft Docs
+description: Creates item categories.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create itemCategory
+# Create itemCategories
 Create an itemCategories in Dynamics 365 for Financials.
 
 ## HTTP request

@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get purchase invoice
+# Get purchaseInvoices
 Retrieve the properties and relationships of a purchase object for Dynamics 365 for Financials.
 
 ## HTTP request

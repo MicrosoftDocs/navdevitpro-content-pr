@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update dimensionLine
+# Update dimensionLines
 Update the properties of a dimension line object for Dynamics 365 for Financials.
 
 ## HTTP request

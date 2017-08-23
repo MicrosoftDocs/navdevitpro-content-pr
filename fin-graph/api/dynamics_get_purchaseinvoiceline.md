@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get purchase invoice line
+# Get purchaseInvoiceLines
 Retrieve the properties and relationships of a purchase invoice line object for Dynamics 365 for Financials.
 
 ## Prerequisites

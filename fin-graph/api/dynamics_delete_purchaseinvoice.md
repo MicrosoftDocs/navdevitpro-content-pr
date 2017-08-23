@@ -17,7 +17,6 @@ ms.author: solsen
 # Delete purchaseInvoice
 Delete a purchaseInvoice from Dynamics 365 for Financials.
 
-
 ## HTTP request
 ```
 DELETE /financials/companies/{id}/purchaseInvoices/{id}

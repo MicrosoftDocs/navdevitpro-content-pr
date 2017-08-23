@@ -1,5 +1,5 @@
 ---
-title: GET salesOrderLine method | Microsoft Docs
+title: GET salesOrderLines method | Microsoft Docs
 description: Gets a sales order line.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get salesOrderLine
+# Get salesOrderLiness
 Retrieve the properties and relationships of a sales order line object for Dynamics 365 for Financials.
 
 ## Prerequisites

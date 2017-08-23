@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update salesCreditMemo
+# Update salesCreditMemos
 Update the properties of a sales credit memo object for Dynamics 365 for Financials.
 
 ## HTTP request

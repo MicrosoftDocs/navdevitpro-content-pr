@@ -1,5 +1,5 @@
 ---
-title: GET Sales Credit Memo method | Microsoft Docs
+title: GET salesCreditMemo method | Microsoft Docs
 description: Gets a sales credit memo.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get sales credit memo
+# Get salesCreditMemos
 Retrieve the properties and relationships of a sales object for Dynamics 365 for Financials.
 
 ## HTTP request
