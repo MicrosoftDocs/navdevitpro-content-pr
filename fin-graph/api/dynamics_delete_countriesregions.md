@@ -1,6 +1,6 @@
 ---
-title: DELETE Countries/Regions method | Microsoft Docs
-description: Deletes a Countries/Regions.
+title: DELETE countries/Regions method | Microsoft Docs
+description: Deletes a countries/regions.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete Countries/Regions Method
+# Delete countriesRegions
 Delete a countriesRegions from Dynamics 365 for Financials.
 
 ## HTTP request

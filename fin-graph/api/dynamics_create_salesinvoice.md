@@ -1,5 +1,5 @@
 ---
-title: CREATE Sales Invoice method | Microsoft Docs
+title: CREATE salesInvoice method | Microsoft Docs
 description: Creates a sales invoice.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create sales invoice
+# Create salesInvoice
 Create a salesInvoice in Dynamics 365 for Financials.
 
 ## HTTP request

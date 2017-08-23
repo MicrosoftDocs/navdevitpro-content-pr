@@ -1,5 +1,5 @@
 ---
-title: DELETE sales credit memo method | Microsoft Docs
+title: DELETE salesCreditMemos method | Microsoft Docs
 description: Deletes a sales credit memo.
 services: project-madeira
 documentationcenter: ''
@@ -14,8 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete sales credit memo
-Delete a sales credit memo from Dynamics 365 for Financials.
+# Delete salesCreditMemos
+Delete a salesCreditMemos from Dynamics 365 for Financials.
 
 
 ## HTTP request

@@ -38,53 +38,57 @@ page Id PageName
 }
 ```
 ### Types of Pages  
-The page type you choose depends on the application task that you want to support, the content that you want to display, and how you want to display it. The Role Center page is the main or home page and it helps the user focus on the most important daily tasks and activities. Other types of pages, such as list pages or card pages are typically linked from the home page for easy access. The following page types are available:  
+Which page type you choose depends on the application task that you want to support, the content that you want to display, and how you want to display it. The Role Center page is the main or home page and it helps the user focus on the most important daily tasks and activities. Other types of pages, such as list pages or card pages are typically linked from the home page for easy access. The following page types are available:  
 
--   RoleCenter    
--   Card  
--   CardPart  
--   List  
--   ListPart  
--   ListPlus  
--   Document  
--   Worksheet    
--   ConfirmationDialog  
--   StandardDialog   
--   NavigatePage (Wizard)  
+|Page type   |Description|
+|------------|-----------|
+|`RoleCenter`||
+|`Card`||
+|`CardPart`||
+|`List`||
+|`ListPart`||
+|`ListPlus`||
+|`Document`||
+|`WorkSheet`||
+|`ConfirmationDialog`||
+|`StandardDialog`||
+|`NavigatePage`||
 
 ## Page Layout
-The page layout of the page object determines what the page will look like and is specified in the `layout{}` section. The `layout{}` contains one or more `area{}` sections that define a certain placement on the page. 
+The page layout of the page object determines what the page will look like and is specified in the `layout` section. The `layout` contains one or more `area` sections that define a certain placement on the page. 
 
-You can choose between the following `area{}` categories:
+You can choose between the following `area` categories:
 
-- `content{}`
-- `factboxes{}`
-- `rolecenter{}`
+|Area type|Placement on the page|
+|---------|-----------------|
+|`Content`|The content area displays the content of a RoleCenter or List page.|
+|`FactBoxes`|The factbox area is placed to the right-most side of a page. Displays content related to an item om the main content page.|
+|`RoleCenter`|The RoleCenter is the main page of the application and is used for quick access to frequently used information and tasks.|
 
-In the ```layout``` section, you can use the following methods to place page fields and groups on the page. Similarly, in the ```actions``` section, which is described [below](#page-actions), you use these methods to place actions in the ribbon. 
+### Adding and moving
+In the `layout` section, you can use the following methods to place and move fields and groups on the page. Similarly, in the `actions` section, which is described [below](#page-actions), you use these methods to place actions in the ribbon. 
 
-|Method example|Applies to...|
-|--------------|-------------|
+|Method example         |Applies to |
+|-----------------------|-------------|
 |```addfirst(General)```|Groups only|
-|```addlast(General)```|Groups only|
-|```addafter(AddressDetails)```|Fields and groups|
+|```addlast(General)``` |Groups only|
+|```addafter(AddressDetails)``` |Fields and groups|
 |```addbefore(AddressDetails)```|Fields and groups|
 |```movefirst(General)```|Groups only|
-|```movelast(General)```|Groups only|
-|```moveafter(AddressDetails)```|Fields and groups|
+|```movelast(General)``` |Groups only|
+|```moveafter(AddressDetails)``` |Fields and groups|
 |```movebefore(AddressDetails)```|Fields and groups|
 
-If you want to modify existing fields and groups on a page, you use the ```modify()``` function. See the code example below for syntax.
+If you want to modify existing fields and groups on a page, you use the `modify` function. See the code example below for syntax.
 
 ### Page controls  
-
-You can then add the following page controls to a page depending on the page type you have chosen:  
+You can add the page controls to a page depending on the page type you have chosen. 
   
 repeater
 cuegroup
 part
 
-
+<!--
 -   FactBoxes (area)  
   
 -   FastTab  ??
@@ -102,9 +106,10 @@ part
 -   Ribbon  
   
 -   Filter Pane  
+-->
   
 ## Page actions
-All pages contain menu items and navigation controls called actions. The ```actions``` section of the page describes what the user is able to do on a page and must be designed with the user's need for process support in mind. Actions are added to the ribbon or as activity buttons/cues. The following example creates a new group in the ribbon and places it last in the General 
+All pages contain menu items and navigation controls called actions. The ```actions``` section of the page describes what the user is able to do on a page and must be designed with the user's need for process support in mind. Actions are added to the ribbon or as activity buttons/cues. The following example creates a new group in the ribbon and places it last in the General group.
 
 ```
 addlast(General)
