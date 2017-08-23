@@ -1,5 +1,5 @@
 ---
-title: CREATE tax area method | Microsoft Docs
+title: CREATE taxArea method | Microsoft Docs
 description: Creates a tax area.
 services: project-madeira
 documentationcenter: ''
@@ -14,8 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create tax area
-Creates a tax area in Dynamics 365 for Financials.
+# Create taxArea
+Creates a taxArea in Dynamics 365 for Financials.
 
 ## HTTP request
 

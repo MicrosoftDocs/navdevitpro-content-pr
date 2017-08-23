@@ -1,5 +1,5 @@
 ---
-title: DELETE journal line method | Microsoft Docs
+title: DELETE journalLine method | Microsoft Docs
 description: Deletes a journal line.
 services: project-madeira
 documentationcenter: ''
@@ -14,8 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete journal line
-Delete a journal line from Dynamics 365 for Financials.
+# Delete journalLine
+Delete a journalLine from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

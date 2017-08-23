@@ -1,5 +1,5 @@
 ---
-title: CREATE Sales Order method | Microsoft Docs
+title: CREATE salesOrder method | Microsoft Docs
 description: Creates a sales order.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create sales order
+# Create salesOrder
 Create a salesOrder in Dynamics 365 for Financials.
 
 ## HTTP request

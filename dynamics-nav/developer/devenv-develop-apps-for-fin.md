@@ -43,7 +43,7 @@ It's easy! Just spin up a sandbox environment by going through these steps.
 > Use **Ctrl+Shift+P** to clear the credentials cache if you want to deploy against a different environment.
 
 
-As this feature is still in preview you might run into unrecoverable issues from time to time. In these cases, use [Reset Sandbox](https://portal.financials.dynamics.com/reset?env=sandbox&redirectedFromSignup=false) to reset the sandbox and start from a clean environment .
+As this feature is still in preview you might run into unrecoverable issues from time to time. In these cases, use [Reset Sandbox](https://portal.financials.dynamics.com/reset?env=sandbox&redirectedFromSignup=false) to reset the sandbox and start from a clean environment.
 
 Interested in an on-premise version? It's just as easy. Just sign up by following these steps.
 
@@ -58,7 +58,7 @@ Interested in an on-premise version? It's just as easy. Just sign up by followin
 We are excited to have you in our family of Dynamics 365 for Financials App Providers. Now that you are getting serious about this, here are the steps that you will have to go through: 
 
 #### 1)	Get the prerequisites in place  
-To get started with development, you must have a some necessary accounts in place. Next, we ask you to send us your app idea via Microsoft AppSource to get your object range and developer license. Learn more about this step [here](http://download.microsoft.com/download/7/F/2/7F23168D-76D9-4988-BBAC-E303FC548802/1.Get%20the%20prerequisites%20in%20place.pdf). 
+To get started with development, you must have some necessary accounts in place. Next, we ask you to send us your app idea via Microsoft AppSource to get your object range and developer license. Learn more about this step [here](http://download.microsoft.com/download/7/F/2/7F23168D-76D9-4988-BBAC-E303FC548802/1.Get%20the%20prerequisites%20in%20place.pdf). 
 
 #### 2)	Develop your Dynamics 365 for Financials App   
 When developing your app you need to think about some technical aspects.  
@@ -68,7 +68,7 @@ Extensions v2.0 have lots of benefits and will be enabled in the Dynamics 365 fo
 You also need to spend some time on how to best market your app on Microsoft Appsource. Simply listing your app's features and functionality will not convert prospects to buyers. Learn how to develop the [Marketing aspects](https://go.microsoft.com/fwlink/?linkid=841518) of your app.
 
 #### 3)	Ready for publication?  
-If you want to publish an app today we require an Extension v1.0 developed in the classic development environment. Please find more information on how to build and publish at [aka.ms/AppsForFinancials](http://aka.ms/AppsForFinancials). 
+If you want to publish your app today we require an Extension v1.0 developed in the classic development environment. Please find more information on how to build and publish at [aka.ms/AppsForFinancials](http://aka.ms/AppsForFinancials). 
 If you want to publish an Extension v2.0, created in the new development tools, we ask you to be a bit more patient. We are currently working hard to create a smooth upload process. We expect to be ready with this publication process early in the fall.
 
 ## Things to consider

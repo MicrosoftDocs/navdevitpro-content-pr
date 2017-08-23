@@ -1,5 +1,5 @@
 ---
-title: CREATE customer payment method | Microsoft Docs
+title: CREATE customerPayment method | Microsoft Docs
 description: Creates a customer payment.
 documentationcenter: ''
 author: SusanneWindfeldPedersen

@@ -1,5 +1,5 @@
 ---
-title: DELETE sales invoice method | Microsoft Docs
+title: DELETE salesInvoice method | Microsoft Docs
 description: Deletes a sales invoice.
 services: project-madeira
 documentationcenter: ''
@@ -14,8 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete sales invoice
-Delete a sales invoice from Dynamics 365 for Financials.
+# Delete salesInvoice
+Delete a salesInvoice from Dynamics 365 for Financials.
 
 
 ## HTTP request
