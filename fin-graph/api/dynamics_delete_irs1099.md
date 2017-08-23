@@ -1,6 +1,6 @@
 ---
-title: DELETE IRS 1099 Code method | Microsoft Docs
-description: Deletes a IRS 1099 Code.
+title: DELETE IRS1099Codes method | Microsoft Docs
+description: Deletes an IRS 1099 code.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete IRS 1099 code
+# Delete IRS1099Codes
 Delete a irs1099Codes from Dynamics 365 for Financials.
 
 ## HTTP request

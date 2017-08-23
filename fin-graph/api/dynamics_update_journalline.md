@@ -1,5 +1,5 @@
 ---
-title: UPDATE journal lines method | Microsoft Docs
+title: UPDATE journalLines method | Microsoft Docs
 description: Updates a journal lines.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update journal lines
+# Update journalLines
 Update the properties of a journal lines object for Dynamics 365 for Financials.
 
 ## HTTP request

@@ -1,5 +1,5 @@
 ---
-title: DELETE customer payment method | Microsoft Docs
+title: DELETE customerPayment method | Microsoft Docs
 description: Deletes a customer payment.
 services: project-madeira
 documentationcenter: ''
@@ -14,8 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete customer payment
-Delete a customer payment from Dynamics 365 for Financials.
+# Delete customerPayment
+Delete a customerPayment from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

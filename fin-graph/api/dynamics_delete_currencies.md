@@ -1,6 +1,6 @@
 ---
-title: DELETE Currency method | Microsoft Docs
-description: Deletes a Currency.
+title: DELETE currency method | Microsoft Docs
+description: Deletes a currency.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

@@ -1,6 +1,6 @@
 ---
-title: DELETE Item Categories method | Microsoft Docs
-description: Deletes an Item Category.
+title: DELETE itemCategories method | Microsoft Docs
+description: Deletes an item category.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,8 +14,8 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# Delete item categories
-Delete an item category from Dynamics 365 for Financials.
+# Delete itemCategories
+Delete an itemCategory from Dynamics 365 for Financials.
 
 
 ## HTTP request

@@ -1,5 +1,5 @@
 ---
-title: PATCH Sales Quote Line method | Microsoft Docs
+title: PATCH salesQuoteLine method | Microsoft Docs
 description: Gets a sales quote line.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update sales quote line
+# Update salesQuoteLine
 Update the properties of a sales quote line object for Dynamics 365 for Financials.
 
 ## HTTP request
@@ -52,7 +52,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK

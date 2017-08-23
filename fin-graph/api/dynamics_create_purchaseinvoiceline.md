@@ -1,5 +1,5 @@
 ---
-title: CREATE Purchase Invoice Line method | Microsoft Docs
+title: CREATE purchaseInvoiceLine method | Microsoft Docs
 description: Creates a purchase invoice line.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create purchase invoice line
+# Create purchaseInvoiceLine
 Create a purchaseInvoice in Dynamics 365 for Financials.
 
 ## HTTP request

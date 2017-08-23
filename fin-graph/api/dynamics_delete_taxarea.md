@@ -1,5 +1,5 @@
 ---
-title: DELETE tax area method | Microsoft Docs
+title: DELETE taxArea method | Microsoft Docs
 description: Deletes a tax area.
 services: project-madeira
 documentationcenter: ''
@@ -14,8 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete tax area
-Delete a tax area from Dynamics 365 for Financials.
+# Delete taxArea
+Delete a taxArea from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

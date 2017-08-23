@@ -20,7 +20,7 @@ In this section, you can find API documentation for Microsoft Graph.
 |For Resource Type|See|
 |-----------------|---|
 |item resource type|[item](../resources/dynamics_item.md)|
-|item categories resource type|[itemCategories](../resources/dynamics_itemcategories.md)|
+|itemCategories resource type|[itemCategories](../resources/dynamics_itemcategories.md)|
 |customer resource type|[customer](../resources/dynamics_customer.md)|
 |vendor resource type|[vendor](../resources/dynamics_vendor.md)|
 |salesInvoice resource type|[salesInvoice](../resources/dynamics_salesinvoice.md)|
@@ -31,7 +31,7 @@ In this section, you can find API documentation for Microsoft Graph.
 |journalLine resource type|[journalLine](../resources/dynamics_journalline.md)|
 |paymentMethods resource type|[paymentMethods](../resources/dynamics_paymentmethods.md)|
 |paymentTerms resource type|[paymentTerms](../resources/dynamics_paymentterms.md)|
-|irs1099 resource type|[irs1099](../resources/dynamics_irs1099.md)|
+|IRS1099 resource type|[irs1099](../resources/dynamics_irs1099.md)|
 |account resource type|[account](../resources/dynamics_account.md)|
 |countriesRegions resource type|[countriesRegions](../resources/dynamics_countriesregions.md)|
 |currencies resource type|[currencies](../resources/dynamics_currencies.md)|
