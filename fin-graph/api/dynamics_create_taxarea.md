@@ -14,8 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create taxArea
-Creates a taxArea in Dynamics 365 for Financials.
+# Create taxAreas
+Creates a taxAreas object in Dynamics 365 for Financials.
 
 ## HTTP request
 

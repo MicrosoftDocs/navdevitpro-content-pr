@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create taxGroups
-Create a taxGroups in Dynamics 365 for Financials.
+Create a taxGroups object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```

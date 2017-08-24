@@ -17,7 +17,6 @@ ms.author: solsen
 # Delete salesInvoice
 Delete a salesInvoice from Dynamics 365 for Financials.
 
-
 ## HTTP request
 ```
 DELETE /financials/companies/{id}/salesInvoices/{id}

@@ -14,8 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete taxArea
-Delete a taxArea from Dynamics 365 for Financials.
+# Delete taxAreas
+Delete a taxAreas object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

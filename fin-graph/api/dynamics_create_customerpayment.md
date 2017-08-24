@@ -13,7 +13,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create customer payment
+# Create customerPayment
 Creates a customer payment in Dynamics 365 for Financials.
 
 ## HTTP request

@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update salesOrderLine
+# Update salesOrderLines
 Update the properties of a sales order line object for Dynamics 365 for Financials.
 
 ## HTTP request

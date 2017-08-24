@@ -17,7 +17,6 @@ ms.author: solsen
 # Delete salesOrder
 Delete a salesOrder from Dynamics 365 for Financials.
 
-
 ## HTTP request
 ```
 DELETE /financials/companies/{id}/salesOrders/{id}

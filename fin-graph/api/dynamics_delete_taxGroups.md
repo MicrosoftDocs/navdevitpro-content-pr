@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete taxGroups
-Delete a taxGroups from Dynamics 365 for Financials.
+Delete a taxGroups object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
