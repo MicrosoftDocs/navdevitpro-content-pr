@@ -1,5 +1,5 @@
 ---
-title: GET salesQuote method | Microsoft Docs
+title: GET salesQuotes method | Microsoft Docs
 description: Gets a sales quote.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get salesQuote
+# Get salesQuotes
 Retrieve the properties and relationships of a sales quote object for Dynamics 365 for Financials.
 
 ## HTTP request

@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create countries/regions
+# Create countriesRegions
 Create a countriesRegions in Dynamics 365 for Financials.
 
 ## HTTP request

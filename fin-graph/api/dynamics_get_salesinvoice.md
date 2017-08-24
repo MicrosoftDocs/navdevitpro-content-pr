@@ -1,5 +1,5 @@
 ---
-title: GET Sales Invoice method | Microsoft Docs
+title: GET salesInvoice method | Microsoft Docs
 description: Gets a sales invoice.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get sales invoice
+# Get salesInvoice
 Retrieve the properties and relationships of a sales object for Dynamics 365 for Financials.
 
 ## HTTP request

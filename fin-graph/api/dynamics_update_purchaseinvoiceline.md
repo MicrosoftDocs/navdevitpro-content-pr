@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update purchaseInvoiceLine
+# Update purchaseInvoiceLines
 Update the properties of a purchase invoice line object for Dynamics 365 for Financials.
 
 ## HTTP request

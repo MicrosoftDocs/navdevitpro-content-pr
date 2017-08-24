@@ -1,5 +1,5 @@
 ---
-title: CREATE customer payments journal method | Microsoft Docs
+title: CREATE customerPaymentsJournal method | Microsoft Docs
 description: Creates a customer payments journal.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create customer payments journal
+# Create customerPaymentsJournal
 Creates a customer payments journal in Dynamics 365 for Financials.
 
 ## HTTP request

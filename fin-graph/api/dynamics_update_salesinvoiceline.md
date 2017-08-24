@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update salesInvoiceLine
+# Update salesInvoiceLines
 Update the properties of a sales invoice line object for Dynamics 365 for Financials.
 
 ## HTTP request
