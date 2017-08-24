@@ -29,31 +29,7 @@ The following table lists the new functions in [!INCLUDE[navnowlong](includes/na
 
 |Function|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
-|[ADDACTION Function \(Notification\)](function-notificationaddaction.md)|Specifies an action for the notification.|  
-|[GETDATA Function \(Notification\)](function-notificationgetdata.md)|Retrieves data that was passed to a notification instance as specified by a [SETDATA function](function-notificationsetdata.md) call.|  
-|[ID Function \(Notification\)](function-notificationid.md)|Specifies the identifier for a notification.|  
-|[MESSAGE Function \(Notification\)](function-notificationmessage.md)|Specifies the content of the notification.|  
-|[RECALL Function \(Notification\)](function-notificationrecall.md)|Recall a sent notification.|  
-|[SCOPE Function \(Notification\)](function-notificationscope.md)|Specifies the context in which the notification appears in the client.|  
-|[SEND Function \(Notification\)](function-notificationsend.md)|Sends the notification to the client, where it will display in the UI.|  
-|[SETDATA Function \(Notification\)](function-notificationsetdata.md)|Specifies a data property value for the notification. The data is specified as text in a key-value pair.|  
-|[APPLICATIONAREA Function](APPLICATIONAREA-Function.md)|Gets or sets the application areas for the current session.|  
-|[CAPTIONCLASSTRANSLATE Function](CAPTIONCLASSTRANSLATE-Function.md)|Returns a translated version of the caption string. The string is translated to the current local language.|  
-|[CHANGECOMPANY Function \(RecordRef\)](CHANGECOMPANY-Function--RecordRef-.md)|Redirects references to table data from one company to another.|  
-|[COUNT Function \(MediaSet\)](COUNT-Function--MediaSet-.md)|Gets the number of media files that are included in a media set of a record.|  
-|[EXPORTFILE Function \(Media\)](EXPORTFILE-Function--Media-.md)|Exports a media object that is set up on a record to a file.|  
-|[EXPORTFILE Function](EXPORTFILE-Function-MediaSet.md)|Exports the media objects that included in a media set to individual files.|  
-|[EXPORTSTREAM Function \(Media\)](EXPORTSTREAM-Function--Media-.md)|Exports a media object that is set up on a record to an OutStream object.|  
-|[HASVALUE Function \(Media\)](HASVALUE-Function--Media-.md)|Detects whether a record has a media object in the **Media** data type field.|  
-|[IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md)|Adds media from a file to a media set of a record.|  
-|[IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)|Adds media from a file to a media set of a record.|  
-|[IMPORTSTREAM Function \(Media\)](IMPORTSTREAM-Function--Media-.md)|Adds media from an InStream object to a record.|  
-|[IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)|Adds media from an InStream object to a media set of a record.|  
-|[ISBYTE Function \(Variant\)](ISBYTE-Function--Variant-.md)|Indicates whether a C/AL variant contains a Byte variable.|  
-|[ISTEXTCONSTANT Function \(Variant\)](ISTEXTCONSTANT-Function--Variant-.md)|Indicates whether a C/AL variant contains a text constant.|  
-|[MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md)|Get the ID that is assigned to media in the database.|  
-|[MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)|Gets the ID that is assigned to the media set of a record.|  
-|[PRODUCTNAME Functions](function-productname.md)|Get the name of the application in three variations: full, marketing, and short.|  
+|[CANCREATTASK\(TaskScheduler\)](cancreatetask-function.md)|Indicates whether a user has permissions to create or schedule a task.|  
 
 ### Changed functions
 The following table lists the changed functions in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
