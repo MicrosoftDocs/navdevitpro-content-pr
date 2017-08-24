@@ -1,6 +1,6 @@
 ---
-title: GET Companies method | Microsoft Docs
-description: Gets a Companies.
+title: GET companies method | Microsoft Docs
+description: Gets a companies.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -44,7 +44,10 @@ GET https://api.financials.dynamics.com/v1.0/api/beta/companies
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {

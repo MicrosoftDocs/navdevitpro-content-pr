@@ -1,6 +1,6 @@
 ---
-title: UPDATE Item Categories method | Microsoft Docs
-description: Updates an Item Categories.
+title: UPDATE itemCategories method | Microsoft Docs
+description: Updates an item categories.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update item categories
+# Update itemCategories
 Update the properties of an item categories object for Dynamics 365 for Financials.
 
 ## HTTP request
@@ -52,7 +52,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK

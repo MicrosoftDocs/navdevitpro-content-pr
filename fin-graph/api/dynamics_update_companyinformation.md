@@ -1,6 +1,6 @@
 ---
-title: UPDATE Company Information method | Microsoft Docs
-description: Updates Company Information.
+title: UPDATE companyInformation method | Microsoft Docs
+description: Updates company information.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update company information
+# Update companyInformation
 Update the properties of a company information object for Dynamics 365 for Financials.
 
 
@@ -53,7 +53,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK

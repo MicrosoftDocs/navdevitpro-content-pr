@@ -1,6 +1,6 @@
 ---
-title: DELETE Payment Method method | Microsoft Docs
-description: Deletes a Payment Method.
+title: DELETE paymentMethod method | Microsoft Docs
+description: Deletes a payment method.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,8 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete payment method
-Delete a payment method from Dynamics 365 for Financials.
+# Delete paymentMethod
+Delete a paymentMethod from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

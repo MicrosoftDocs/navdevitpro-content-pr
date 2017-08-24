@@ -1,5 +1,5 @@
 ---
-title: CREATE Sales Invoice Line method | Microsoft Docs
+title: CREATE salesInvoiceLine method | Microsoft Docs
 description: Creates a sales invoice line.
 services: project-madeira
 documentationcenter: ''
@@ -14,8 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create sales invoice line
-Create a salesInvoice in Dynamics 365 for Financials.
+# Create salesInvoiceLine
+Create a salesInvoiceLine in Dynamics 365 for Financials.
 
 ## HTTP request
 
