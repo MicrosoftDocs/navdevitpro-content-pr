@@ -21,7 +21,7 @@ Update the properties of a customers object for Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/customers/{id}
+PATCH /financials/companies/({id})/customers/({id})
 ```
 
 ## Request headers

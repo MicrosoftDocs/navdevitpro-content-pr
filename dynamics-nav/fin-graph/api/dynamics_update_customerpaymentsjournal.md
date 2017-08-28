@@ -20,7 +20,7 @@ Update the properties of a customer payments journal object for Dynamics 365 for
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/journals/{id}
+PATCH /financials/companies/({id})/journals/({id})
 ```
 
 ## Request headers

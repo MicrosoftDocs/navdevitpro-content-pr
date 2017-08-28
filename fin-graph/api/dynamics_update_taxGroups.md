@@ -19,7 +19,7 @@ Update the properties of a tax groups object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-PATCH /financials/companies/({id})/taxGroups/{id}
+PATCH /financials/companies/({id})/taxGroups/({id})
 ```
 
 ## Request headers

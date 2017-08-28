@@ -19,7 +19,7 @@ Update the properties of a countries regions object for Dynamics 365 for Financi
 
 ## HTTP request
 ```
-PATCH /financials/companies/({id})/countriesRegions/{id}
+PATCH /financials/companies/({id})/countriesRegions/({id})
 ```
 
 ## Request headers

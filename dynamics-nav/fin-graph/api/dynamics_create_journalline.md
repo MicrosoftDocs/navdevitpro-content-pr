@@ -20,7 +20,7 @@ Creates a journalLine in Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-POST /financials/companies/({id})/journals/{ID}/journalLines/{id}
+POST /financials/companies/({id})/journals/({id})/journalLines/({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and journalLi
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/journals/{ID}/journalLine
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/journals/({id})/journalLine
 Content-type: application/json
 
 {

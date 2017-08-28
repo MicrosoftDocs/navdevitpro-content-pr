@@ -20,7 +20,7 @@ Update the properties of a units of measure object for Dynamics 365 for Financia
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/unitsOfMeasure/{id}
+PATCH /financials/companies/({id})/unitsOfMeasure/({id})
 ```
 
 ## Request headers

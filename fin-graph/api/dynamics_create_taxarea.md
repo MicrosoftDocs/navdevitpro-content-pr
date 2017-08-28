@@ -20,7 +20,7 @@ Creates a taxAreas object in Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-POST /financials/companies/({id})/taxAreas/{id}
+POST /financials/companies/({id})/taxAreas/({id})
 ```
 
 ## Request headers

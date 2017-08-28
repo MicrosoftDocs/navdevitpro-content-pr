@@ -20,7 +20,7 @@ Update the properties of a sales orders object for Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/salesOrders/{id}
+PATCH /financials/companies/({id})/salesOrders/({id})
 ```
 
 ## Request headers

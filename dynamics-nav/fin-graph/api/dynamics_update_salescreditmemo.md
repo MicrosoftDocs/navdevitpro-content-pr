@@ -20,7 +20,7 @@ Update the properties of a sales credit memo object for Dynamics 365 for Financi
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/salesCreditMemos/{id}
+PATCH /financials/companies/({id})/salesCreditMemos/({id})
 ```
 
 ## Request headers

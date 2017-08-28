@@ -19,7 +19,7 @@ Update the properties of an IRS 1099 codes object for Dynamics 365 for Financial
 
 ## HTTP request
 ```
-PATCH /financials/companies/({id})/irs1099Codes/{id}
+PATCH /financials/companies/({id})/irs1099Codes/({id})
 ```
 
 ## Request headers

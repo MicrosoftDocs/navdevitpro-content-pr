@@ -18,7 +18,7 @@ Creates a customer payment in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/({id})/customerPaymentsJournals/{ID}/customerPayments/{id}
+POST /financials/companies/({id})/customerPaymentsJournals/({id})/customerPayments/({id})
 ```
 
 ## Request headers

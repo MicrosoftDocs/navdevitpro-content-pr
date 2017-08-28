@@ -20,7 +20,7 @@ Update the properties of a tax area object for Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/taxAreas/{id}
+PATCH /financials/companies/({id})/taxAreas/({id})
 ```
 
 ## Request headers

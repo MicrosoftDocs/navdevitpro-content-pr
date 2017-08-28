@@ -19,7 +19,7 @@ Update the properties of a currencies object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-PATCH /financials/companies/({id})/currencies/{id}
+PATCH /financials/companies/({id})/currencies/({id})
 ```
 
 ## Request headers

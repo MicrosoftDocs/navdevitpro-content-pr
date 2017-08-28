@@ -19,7 +19,7 @@ Update the properties of a payment terms object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-PATCH /financials/companies/({id})/paymentTerms/{id}
+PATCH /financials/companies/({id})/paymentTerms/({id})
 ```
 
 ## Request headers
