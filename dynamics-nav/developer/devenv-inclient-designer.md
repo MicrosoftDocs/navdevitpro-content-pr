@@ -3,7 +3,7 @@ title: "Using the In-Client Designer"
 description: "Description of how the in-client designer works."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 08/24/2017
+ms.date: 08/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -34,18 +34,16 @@ Other capabilities for using the in-client designer include:
 
 ## Switch to design mode  
 
-The in-client designer is switched on by choosing the design icon on the ribbon top right corner from any page that you want to make modifications to, and then choosing **More**.  
+The in-client designer is switched on by choosing the design icon ![design icon](media/design_icon.png) on the ribbon top right corner from any page that you want to make modifications to, and then choosing **More**.  
 
 > [!NOTE]  
 > With this preview you can only add existing table fields. Adding pages, groups, parts, and actions is not yet supported.
 
 ![Design](media/start-design.gif)  
   
-In design mode, you modify the current page; you can add existing table fields, move fields around, or remove fields from the page. 
+## Drag-and-drop functionality  
 
-## Using drag-and-drop functionality  
-
-You can use the in-client designer to make changes of what everybody in a specific role sees, by customizing the workspace to suit your business goals. Changing pages to display the information it needs, and where it needs by using the simple drag-and-drop functionality.  
+In design mode, you modify the current page; you can add existing table fields, move fields around, or remove fields from the page. You can use the in-client designer to make changes of what everybody in a specific role sees, by customizing the workspace to suit your business goals. Changing pages to display the information it needs, and where it needs by using the simple drag-and-drop functionality.  
 
 ## Add components
 
@@ -65,7 +63,7 @@ Fields, columns, cues (tiles), and parts.
 
 ## Remove components
 
-To remove a field, column, part, or a cue, select the arrowhead indicator placed on the component, and choose **Remove**. 
+To remove a field, column, part, or a cue, select the arrowhead indicator ![arrowhead indicator left](media/designer_arrow_left.png) or ![arrowhead indicator down](media/designer_arrow_down.png) placed on the component, and choose **Remove**. 
 
 **Applies to**  
 
@@ -75,16 +73,16 @@ Fields, columns, cues (tiles), and parts.
 
 The freeze pane defines the columns that always appear in the list, even when you scroll horizontally; and locks one or more columns in left till where you set freeze pane to.
 
-Select the arrowhead of the column that you want as the last column of the freeze pane, and then choose **Set Freeze Pane**.
+Select the arrowhead indicator ![arrowhead indicator left](media/designer_arrow_left.png) or ![arrowhead indicator down](media/designer_arrow_down.png) of the column that you want as the last column of the freeze pane, and then choose **Set Freeze Pane**.
 
-If you want to set the freeze pane back to its original designed location, select the arrowhead for the current freeze pane column, and choose **Clear Freeze Pane**.
+If you want to set the freeze pane back to its original designed location, select the arrowhead indicator ![arrowhead indicator left](media/designer_arrow_left.png) or ![arrowhead indicator down](media/designer_arrow_down.png) for the current freeze pane column, and choose **Clear Freeze Pane**.
 
 **Applies to**  
 
 Columns
 
 > [!IMPORTANT]  
-> For columns, you cannot make changes to a list if the list is shown as tiles. You must first switch the page to the list view by selecting the icon *show as list*. 
+> For columns, you cannot make changes to a list if the list is shown as tiles. You must first switch the page to the list view by selecting the icon ![show as list](media/show_as_list.png "show as list").  
 
 ## Edit caption
 
@@ -96,7 +94,9 @@ FastTab
 
 ## Preview on target device
 
-The display type icons let you preview the changes you made on desktop, tablet, and phone clients. This way you can make sure that your design will work on the intended display target(s). You can flip to display tablet and phone designs in landscape as well. 
+The display type icons let you preview the changes you made on desktop ![desktop](media/desktop_view.png), tablet ![tablet](media/tablet_view.png), and phone ![phone](media/phone_view.png) clients. This way you can make sure that your design will work on the intended display target(s). You can flip to display tablet and phone designs in landscape as well. 
+
+![Display options](media/display_options.png)  
 
 ## Save extension
 Finish up your design by choosing **Stop Designing**, which allows you to name the extension with an option to download code, and save the extension for the tenant. 
@@ -105,7 +105,9 @@ Finish up your design by choosing **Stop Designing**, which allows you to name t
 
 - When you modify subpages on a given page, a square is displayed to mark the area that you can move a field within. This is also true for FactBoxes.  
 
-- Removing specific fields are not allowed due to accounting limitations.
+- Removing specific fields are restricted due to accounting limitations.
+
+- You can only add fields, columns or tiles to its specific view type; from list view ![show as list](media/show_as_list.png "show as list") , tall tiles view ![show as tall tiles](media/show_as_tall_tiles.png "show as tall tiles") , and wide tiles view ![show as wide tiles](media/show_as_wide_tiles.png "show as wide tiles"). Specific components are not allowed to drop when it is restrcited to that view.
 
 - You can only add fields, columns, or tiles from a predefined list, which is based on the page. You cannot create new ones.
 
