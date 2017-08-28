@@ -1,6 +1,6 @@
 ---
 title: GET companyInformation method | Microsoft Docs
-description: Gets Company information.
+description: Gets company information.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -19,7 +19,7 @@ Retrieve the properties and relationships of an company information object for D
 
 ## HTTP request
 ```
-GET /financials/companies/{id}/companyInformation/{id}
+GET /financials/companies/({id})/companyInformation/{id}
 ```
 
 ## Request headers
@@ -39,15 +39,15 @@ If successful, this method returns a ```200 OK``` response code and companyInfor
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/companyInformation/{id}
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/companyInformation/{id}
 ```
 
 **Response**
 
-Here is an example of the response.  
+Here is an example of the response. 
 
 > [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {
@@ -68,10 +68,12 @@ Here is an example of the response.
   "currencyCode": "USD",
   "currentFiscalYearStartDate": "2018-01-01",
   "industry": "",
-  "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/companyInformation/{id}/picture",
+  "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/companyInformation/({id})/picture",
+  "businessProfileId": "",
   "lastModifiedDateTime": "2017-03-16T14:57:19.497Z"
 }
 ```
+
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

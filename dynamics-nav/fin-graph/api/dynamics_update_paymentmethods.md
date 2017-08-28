@@ -1,6 +1,6 @@
 ---
-title: UPDATE Payment Method method | Microsoft Docs
-description: Updates a Payment Method.
+title: UPDATE paymentMethod method | Microsoft Docs
+description: Updates a payment method.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update payment method
+# Update paymentMethods
 Update the properties of a payment methods object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-PATCH /financials/companies/{id}/paymentMethods/{id}
+PATCH /financials/companies/({id})/paymentMethods/{id}
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and an updated p
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/paymentMethods{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentMethods{id}
 Content-type: application/json
 
 {
@@ -54,7 +54,7 @@ Content-type: application/json
 Here is an example of the response. 
 
 > [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK
@@ -68,5 +68,6 @@ Content-type: application/json
 }
 ```
 
+
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

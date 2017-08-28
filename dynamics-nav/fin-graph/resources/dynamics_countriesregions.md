@@ -1,6 +1,6 @@
 ---
 title: countriesRegions resource type | Microsoft Docs
-description: A countries/regions.
+description: A Countries/Regions.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,10 +21,10 @@ Represents a countriesRegions object in Dynamics 365 for Financials, which is pa
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET countriesRegions](../api/dynamics_get_countriesregions.md)|countriesRegions|Get a countries/regions.|
-|[POST countriesRegions](../api/dynamics_create_countriesregions.md)|countriesRegions|Create a countries/regions.|
-|[PATCH countriesRegions](../api/dynamics_update_countriesregions.md)|countriesRegions|Update a countries/regions.|
-|[DELETE countriesRegions](../api/dynamics_delete_countriesregions.md)|none|Delete a countries/regions.|
+|[GET countriesRegions](../api/dynamics_get_countriesregions.md)|countriesRegions|Get a Countries/Regions.|
+|[POST countriesRegions](../api/dynamics_create_countriesregions.md)|countriesRegions|Create a Countries/Regions.|
+|[PATCH countriesRegions](../api/dynamics_update_countriesregions.md)|countriesRegions|Update a Countries/Regions.|
+|[DELETE countriesRegions](../api/dynamics_delete_countriesregions.md)|none|Delete a Countries/Regions.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -55,5 +55,5 @@ Here is a JSON representation of the countriesRegions.
 
 ```
 
-## See also  
+## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

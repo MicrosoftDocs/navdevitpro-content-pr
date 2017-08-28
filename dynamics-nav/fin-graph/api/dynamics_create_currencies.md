@@ -1,5 +1,5 @@
 ---
-title: CREATE currencies method | Microsoft Docs
+title: CREATE currency method | Microsoft Docs
 description: Creates a currency.
 services: project-madeira
 documentationcenter: ''
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create currencies
+# Create currency
 Create a currencies in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/{id}/currencies
+POST /financials/companies/({id})/currencies
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and currencie
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/currencies
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/currencies
 Content-type: application/json
 
 {
@@ -55,10 +55,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response.  
+Here is an example of the response. 
 
 > [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
+>  The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 201 Created
@@ -76,5 +76,5 @@ Content-type: application/json
 
 ```
 
-## See also  
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

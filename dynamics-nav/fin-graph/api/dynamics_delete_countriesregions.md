@@ -1,6 +1,6 @@
 ---
-title: DELETE Countries/Regions method | Microsoft Docs
-description: Deletes a Countries/Regions.
+title: DELETE countries/Regions method | Microsoft Docs
+description: Deletes a countries/regions.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete Countries/Regions Method
+# Delete countriesRegions
 Delete a countriesRegions from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/countriesRegions/{id}
+DELETE /financials/companies/({id})/countriesRegions/{id}
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/countriesRegions/{id}
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/countriesRegions/{id}
 ```
 
 **Response** 

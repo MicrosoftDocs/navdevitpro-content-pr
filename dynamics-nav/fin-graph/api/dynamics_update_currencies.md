@@ -1,5 +1,5 @@
 ---
-title: UPDATE currencies method | Microsoft Docs
+title: UPDATE currency method | Microsoft Docs
 description: Updates a currency.
 services: project-madeira
 documentationcenter: ''
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update currencies
+# Update currency
 Update the properties of a currencies object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-PATCH /financials/companies/{id}/currencies/{id}
+PATCH /financials/companies/({id})/currencies/{id}
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and an updated c
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/currencies{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/currencies{id}
 Content-type: application/json
 
 {
@@ -51,10 +51,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response.  
+Here is an example of the response. 
 
 > [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK
@@ -70,6 +70,7 @@ Content-type: application/json
   "lastModifiedDateTime": "2017-03-22T21:12:18.793Z"
 }
 ```
+
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
