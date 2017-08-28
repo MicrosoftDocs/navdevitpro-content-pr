@@ -52,5 +52,6 @@ Here is a JSON representation of the shipmentMethod.
 
 ```
 
-## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+## See also  
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  
+ 

@@ -46,7 +46,8 @@ To run the Txt2Al conversion tool, follow the steps outlined below.
 |--extensionStartId |The starting numeric ID of the extension objects (Default: 70000000). It will be incremented by 1 for each extension object.|
 |--help |Show help screen.|
 
-> NOTE: It is recommended to only use the conversion tool for export. Importing objects that have been exported can damage your application.
+> [!NOTE] 
+> It is recommended to only use the conversion tool for export. Importing objects that have been exported can damage your application.
 
 ## See Also
 [Developing Extensions](devenv-dev-overview.md)  

@@ -1,5 +1,5 @@
 ---
-title: DELETE customer payments journal method | Microsoft Docs
+title: DELETE customerPaymentsJournal method | Microsoft Docs
 description: Deletes a customer payments journal.
 services: project-madeira
 documentationcenter: ''
@@ -14,8 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete customer payments journal
-Delete a customer payments journal from Dynamics 365 for Financials.
+# Delete customerPaymentsJournal
+Delete a customerPaymentsJournal from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

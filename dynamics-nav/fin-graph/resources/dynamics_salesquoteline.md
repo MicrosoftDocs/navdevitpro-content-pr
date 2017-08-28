@@ -50,19 +50,19 @@ Represents a salesQuoteLine resource type in Dynamics 365 for Financials.
 |netTaxAmount|numeric|The net tax amount is the tax amount calculated from net amount. Read-Only.|
 |netAmountIncludingTax|numeric|The net amount including tax is the total net amount including tax. Read-Only.|
 
-## Relationships
-A Sales Quote (documentId) must exist in the Sales Quotes table.
+## Relationships  
 
-An Item (itemId) must exist in the Item table.
+- A Sales Quote (documentId) must exist in the Sales Quotes table.  
 
-An Account (accountId) must exist in the Accounts table.
+- An Item (itemId) must exist in the Item table.  
 
-A Unit of Measure (unitOfMeasure) must exist in the Unit of Measure table.
+- An Account (accountId) must exist in the Accounts table.  
+
+- A Unit of Measure (unitOfMeasure) must exist in the Unit of Measure table.  
 
 ## JSON representation
 
 Here is a JSON representation of the resource.
-
 
 ```json
   "value": [

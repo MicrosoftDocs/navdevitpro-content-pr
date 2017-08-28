@@ -1,6 +1,6 @@
 ---
-title: DELETE Currency method | Microsoft Docs
-description: Deletes a Currency.
+title: DELETE currencies method | Microsoft Docs
+description: Deletes a currency.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete currency
+# Delete currencies
 Delete a currencies from Dynamics 365 for Financials.
 
 ## HTTP request
@@ -45,13 +45,13 @@ Here is an example of the request.
 DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/currencies/{id}
 ```
 
-**Response** 
+**Response**  
 
-Here is an example of the response. 
+Here is an example of the response.  
 
 ```json
 HTTP/1.1 204 No Content
 ```
 
-## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+## See also  
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  

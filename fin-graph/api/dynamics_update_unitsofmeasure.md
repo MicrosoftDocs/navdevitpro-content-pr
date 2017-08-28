@@ -1,6 +1,6 @@
 ---
-title: UPDATE Unit of Measure method | Microsoft Docs
-description: Updates an Unit of Measure.
+title: UPDATE unitsOfMeasure method | Microsoft Docs
+description: Updates a units of measure object.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update unit of measure
+# Update unitsOfMeasure
 Update the properties of a units of measure object for Dynamics 365 for Financials.
 
 ## HTTP request
@@ -52,7 +52,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK

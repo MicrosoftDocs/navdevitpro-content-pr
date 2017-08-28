@@ -1,6 +1,6 @@
 ---
-title: UPDATE Payment Method method | Microsoft Docs
-description: Updates a Payment Method.
+title: UPDATE paymentMethod method | Microsoft Docs
+description: Updates a payment method.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update payment method
+# Update paymentMethods
 Update the properties of a payment methods object for Dynamics 365 for Financials.
 
 ## HTTP request
@@ -51,7 +51,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK

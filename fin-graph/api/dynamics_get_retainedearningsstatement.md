@@ -1,5 +1,5 @@
 ---
-title: GET RetainedEarningsStatement method | Microsoft Docs
+title: GET retainedEarningsStatement method | Microsoft Docs
 description: Gets a RetainedEarningsStatement.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get retained earnings statement
+# Get retainedEarningsStatement
 Retrieve the properties and relationships of a retained earnings statement report object for Dynamics 365 for Financials.
 
 ## HTTP request
@@ -44,7 +44,10 @@ GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/retainedEar
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {

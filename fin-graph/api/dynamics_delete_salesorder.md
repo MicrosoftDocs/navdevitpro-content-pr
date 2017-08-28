@@ -1,5 +1,5 @@
 ---
-title: DELETE sales order method | Microsoft Docs
+title: DELETE salesOrder method | Microsoft Docs
 description: Deletes a sales order.
 services: project-madeira
 documentationcenter: ''
@@ -14,9 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete sales order
-Delete a sales order from Dynamics 365 for Financials.
-
+# Delete salesOrder
+Delete a salesOrder from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

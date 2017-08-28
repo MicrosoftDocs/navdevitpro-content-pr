@@ -1,6 +1,6 @@
 ---
-title: CREATE IRS 1099 Code Method | Microsoft Docs
-description: Creates a IRS 1099 Code.
+title: CREATE IRS1099Code method | Microsoft Docs
+description: Creates a IRS 1099 code.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,8 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create IRS 1099 code
-Create a irs1099Codes in Dynamics 365 for Financials.
+# Create IRS1099Code
+Create an irs1099Codes in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
@@ -53,7 +53,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 201 Created
