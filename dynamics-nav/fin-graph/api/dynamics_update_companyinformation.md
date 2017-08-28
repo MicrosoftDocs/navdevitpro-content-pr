@@ -20,7 +20,7 @@ Update the properties of a company information object for Dynamics 365 for Finan
 
 ## HTTP request
 ```
-PATCH /financials/companies/({id})/companyInformation/{id}
+PATCH /financials/companies/({id})/companyInformation/({id})
 ```
 
 ## Request headers

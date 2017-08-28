@@ -20,7 +20,7 @@ Creates a customer payments journal in Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-POST /financials/companies/({id})/customerPaymentsJournals/{id}
+POST /financials/companies/({id})/customerPaymentsJournals/({id})
 ```
 
 ## Request headers

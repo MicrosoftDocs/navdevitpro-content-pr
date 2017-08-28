@@ -20,7 +20,7 @@ Update the properties of a sales invoices object for Dynamics 365 for Financials
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/salesInvoices/{id}
+PATCH /financials/companies/({id})/salesInvoices/({id})
 ```
 
 ## Request headers

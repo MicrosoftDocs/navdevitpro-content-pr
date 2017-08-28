@@ -19,7 +19,7 @@ Update the properties of a shipment methods object for Dynamics 365 for Financia
 
 ## HTTP request
 ```
-PATCH /financials/companies/({id})/shipmentMethods/{id}
+PATCH /financials/companies/({id})/shipmentMethods/({id})
 ```
 
 ## Request headers

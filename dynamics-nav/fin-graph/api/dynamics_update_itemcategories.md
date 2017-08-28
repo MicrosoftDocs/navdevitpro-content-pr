@@ -20,7 +20,7 @@ Update the properties of an item categories object for Dynamics 365 for Financia
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/itemCategories/{id}
+PATCH /financials/companies/({id})/itemCategories/({id})
 ```
 
 ## Request headers

@@ -20,7 +20,7 @@ Update the properties of a journal lines object for Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/journals/{ID}/journalLines/{id}
+PATCH /financials/companies/({id})/journals/{ID}/journalLines/({id})
 ```
 
 ## Request headers

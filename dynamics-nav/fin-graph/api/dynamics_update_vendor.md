@@ -19,7 +19,7 @@ Update the properties of a vendor object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-PATCH /financials/companies/({id})/vendors/{id}
+PATCH /financials/companies/({id})/vendors/({id})
 ```
 
 ## Request headers

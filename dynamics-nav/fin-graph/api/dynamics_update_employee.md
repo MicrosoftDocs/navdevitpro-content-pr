@@ -21,7 +21,7 @@ Update the properties of an employee object for Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/employees/{id}
+PATCH /financials/companies/({id})/employees/({id})
 ```
 
 ## Request headers

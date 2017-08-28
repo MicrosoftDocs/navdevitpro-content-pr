@@ -19,7 +19,7 @@ Update the properties of a payment methods object for Dynamics 365 for Financial
 
 ## HTTP request
 ```
-PATCH /financials/companies/({id})/paymentMethods/{id}
+PATCH /financials/companies/({id})/paymentMethods/({id})
 ```
 
 ## Request headers

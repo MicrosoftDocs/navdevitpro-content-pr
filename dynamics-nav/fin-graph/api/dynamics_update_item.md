@@ -19,7 +19,7 @@ Update the properties of an item object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-PATCH /financials/companies/({id})/items/{id}
+PATCH /financials/companies/({id})/items/({id})
 ```
 
 ## Request headers
