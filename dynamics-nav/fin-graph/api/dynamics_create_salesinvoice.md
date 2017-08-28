@@ -1,5 +1,5 @@
 ---
-title: CREATE Sales Invoice method | Microsoft Docs
+title: CREATE salesInvoice method | Microsoft Docs
 description: Creates a sales invoice.
 services: project-madeira
 documentationcenter: ''
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create sales invoice
+# Create salesInvoice
 Create a salesInvoice in Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-POST /financials/companies/{id}/salesInvoices
+POST /financials/companies/({id})/salesInvoices
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a salesIn
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesInvoices
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesInvoices
 Content-type: application/json
 
 {
@@ -54,7 +54,6 @@ Content-type: application/json
   "currencyCode": "GBP",
   "paymentTerms": "COD"
 }
-```
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

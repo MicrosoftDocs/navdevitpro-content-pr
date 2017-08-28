@@ -1,5 +1,5 @@
 ---
-title: CREATE tax area method | Microsoft Docs
+title: CREATE taxArea method | Microsoft Docs
 description: Creates a tax area.
 services: project-madeira
 documentationcenter: ''
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create tax area
-Creates a tax area in Dynamics 365 for Financials.
+# Create taxAreas
+Creates a taxAreas object in Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-POST /financials/companies/{id}/taxAreas/{id}
+POST /financials/companies/({id})/taxAreas/{id}
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and tax area 
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/taxAreas
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/taxAreas
 Content-type: application/json
 
 ```json

@@ -43,6 +43,7 @@ Represents an employee in Dynamics 365 for Financials.
 |personalEmail|string|Specifies the employee's personal email address.|
 |employmentDate|date|Specifies the date when the employee began to work for the company.|
 |terminationDate|date|Specifies the date when the employee was terminated, due to retirement or dismissal, for example.|
+|status|string|Specifies the employee's status. Possible values are Active, Inactive or Terminated|
 |birthDate|date|Specifies the employee's date of birth.|
 |picture|stream|The employee picture. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the employee was modified. Read-Only.|  
@@ -72,6 +73,7 @@ Here is a JSON representation of the resource.
     "personalEmail": "string",
     "employmentDate": "date",
     "terminationDate": "date",
+    "status": "string",
     "birthDate": "date",
     "picture": "stream",
     "lastModifiedDateTime": "datetime"

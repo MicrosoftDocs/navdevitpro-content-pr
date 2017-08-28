@@ -1,5 +1,5 @@
 ---
-title: DELETE currencies method | Microsoft Docs
+title: DELETE currency method | Microsoft Docs
 description: Deletes a currency.
 services: project-madeira
 documentationcenter: ''
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete currencies
+# Delete currency
 Delete a currencies from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/currencies/{id}
+DELETE /financials/companies/({id})/currencies/{id}
 ```
 
 ## Request headers
@@ -42,16 +42,16 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/currencies/{id}
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/currencies/{id}
 ```
 
-**Response**  
+**Response** 
 
-Here is an example of the response.  
+Here is an example of the response. 
 
 ```json
 HTTP/1.1 204 No Content
 ```
 
-## See also  
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

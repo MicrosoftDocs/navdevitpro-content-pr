@@ -1,6 +1,6 @@
 ---
-title: GET tax area method | Microsoft Docs
-description: Gets a tax area.
+title: GET taxAreas method | Microsoft Docs
+description: Gets a tax areas.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get tax area
+# Get taxAreas
 Retrieve the properties and relationships of a tax area object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/taxAreas/{id}
+GET /financials/companies/({id})/taxAreas/{id}
 ```
 
 ## Request headers
@@ -38,18 +38,17 @@ If successful, this method returns a ```200 OK``` response code and tax area obj
 
 **Request**
 
-Here is an example of the request.  
-
+Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/taxAreas/{id}
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/taxAreas/{id}
 ```
 
 **Response**
 
-Here is an example of the response.  
+Here is an example of the response. 
 
 > [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {
@@ -60,5 +59,5 @@ Here is an example of the response.
 }
 ```
 
-## See also  
+## See also
 [Microsoft Graph Reference](../api/dynamics_graph_reference.md)  

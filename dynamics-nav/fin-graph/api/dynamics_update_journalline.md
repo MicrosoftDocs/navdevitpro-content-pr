@@ -1,5 +1,5 @@
 ---
-title: UPDATE journal lines method | Microsoft Docs
+title: UPDATE journalLines method | Microsoft Docs
 description: Updates a journal lines.
 services: project-madeira
 documentationcenter: ''
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update journal lines
+# Update journalLines
 Update the properties of a journal lines object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-PATCH /financials/companies/{id}/journals/{ID}/journalLines/{id}
+PATCH /financials/companies/({id})/journals/{ID}/journalLines/{id}
 ```
 
 ## Request headers
@@ -40,10 +40,9 @@ If successful, this method returns a ```200 OK``` response code and an updated j
 
 **Request**
 
-Here is an example of the request.  
-
+Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/journals/{ID}/journalLines{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/journals/{ID}/journalLines{id}
 Content-type: application/json
 
 {

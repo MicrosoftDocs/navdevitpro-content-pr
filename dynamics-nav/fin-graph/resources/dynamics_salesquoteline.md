@@ -36,7 +36,8 @@ Represents a salesQuoteLine resource type in Dynamics 365 for Financials.
 |lineType|string|The type of the line. Can be Comment,Account,Item,Resource,Fixed Asset,Charge|
 |lineDetails|complex|The details of the line.|
 |description|string|A description of the item in the quote line.|
-|unitOfMeasure|complex|The unit of measure complex type.|
+|unitOfMeasureId|GUID|The Id of the unit of measure in the quote line.|
+|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complex_types.md)|The unit of measure complex type.|
 |unitPrice|numeric|The unit price of each individual item in the quote line.|
 |quantity|numeric|The quantity of the item in the quote line.|
 |discountAmount|numeric|The line discount amount.|
@@ -44,25 +45,26 @@ Represents a salesQuoteLine resource type in Dynamics 365 for Financials.
 |discountAppliedBeforeTax|boolean|Specified if the discount is applied before tax. Read-Only.|
 |amountExcludingTax|numeric|The line amount excluding the tax. Read-Only.|
 |taxCode|string|The tax code for the line.|
+|taxPercent|decimal|The tax percent for the line.|
 |totalTaxAmount|numeric|The total tax amount for the line. Read-Only.|
 |amountIncludingTax|numeric|The total amount for the line including tax. Read-Only.|
 |netAmount|numeric|The net amount is the amount including all discounts (taken from quote header). Read-Only.|
 |netTaxAmount|numeric|The net tax amount is the tax amount calculated from net amount. Read-Only.|
 |netAmountIncludingTax|numeric|The net amount including tax is the total net amount including tax. Read-Only.|
 
-## Relationships  
+## Relationships
+A Sales Quote (documentId) must exist in the Sales Quotes table.
 
-- A Sales Quote (documentId) must exist in the Sales Quotes table.  
+An Item (itemId) must exist in the Item table.
 
-- An Item (itemId) must exist in the Item table.  
+An Account (accountId) must exist in the Accounts table.
 
-- An Account (accountId) must exist in the Accounts table.  
-
-- A Unit of Measure (unitOfMeasure) must exist in the Unit of Measure table.  
+A Unit of Measure (unitOfMeasure) must exist in the Unit of Measure table.
 
 ## JSON representation
 
 Here is a JSON representation of the resource.
+
 
 ```json
   "value": [
@@ -74,6 +76,7 @@ Here is a JSON representation of the resource.
       "lineType": "String",
       "lineDetails": {NAV.documentLineObjectDetails},
       "description": "String",
+      "unitOfMeasureId": "GUID",
       "unitOfMeasure": {NAV.UnitOfMeasure},
       "unitPrice": decimal,
       "quantity": decimal,

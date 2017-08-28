@@ -1,5 +1,5 @@
 ---
-title: CREATE Purchase Invoice Line method | Microsoft Docs
+title: CREATE purchaseInvoiceLine method | Microsoft Docs
 description: Creates a purchase invoice line.
 services: project-madeira
 documentationcenter: ''
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create purchase invoice line
+# Create purchaseInvoiceLine
 Create a purchaseInvoice in Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-POST /financials/companies/{id}/purchaseInvoices/{id}/purchaseInvoiceLines
+POST /financials/companies/({id})/purchaseInvoices/({id})/purchaseInvoiceLines
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a purchas
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/purchaseInvoices/{id}/purchaseInvoiceLines
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/purchaseInvoices/({id})/purchaseInvoiceLines
 Content-type: application/json
 
 {
@@ -51,7 +51,6 @@ Content-type: application/json
 "lineType": "Item",
 "quantity": 9
 }
-```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  
+[Working with Dynamics 365 for Financials in Microsoft Graph](dynamics_overview.md)

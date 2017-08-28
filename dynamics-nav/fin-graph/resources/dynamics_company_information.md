@@ -1,6 +1,6 @@
 ---
 title: companyInformation resource type | Microsoft Docs
-description: Company information.
+description: Company Information.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,8 +21,8 @@ Represents the information specified for the current company in Dynamics 365 for
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET companyInformation](../api/dynamics_get_companyinformation.md)|companyInformation|Get company information.|
-|[PATCH companyInformation](../api/dynamics_update_companyinformation.md)|companyInformation|Update company information.|
+|[GET companyInformation](../api/dynamics_get_companyinformation.md)|companyInformation|Get Company Information.|
+|[PATCH companyInformation](../api/dynamics_update_companyinformation.md)|companyInformation|Update Company Information.|
 
 
 ## Properties
@@ -40,6 +40,7 @@ Represents the information specified for the current company in Dynamics 365 for
 |currentFiscalYearStartDate|date|The company's current fiscal year start date. Read-Only.|
 |industry|string|The industry the company is part of.|
 |picture|stream|The company logo. Read-Only.|
+|businessProfileId|string|The business profile ID linked to the Financials company. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the company was modified. Read-Only.|  
 
 
@@ -63,6 +64,7 @@ Here is a JSON representation of the companyInformation
   "currentFiscalYearStartDate": "date",
   "industry": "string",
   "picture": "stream",
+  "businessProfileId": "string",
   "lastModifiedDateTime": "datetime"
 }
 

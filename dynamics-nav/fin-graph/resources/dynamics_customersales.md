@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # customerSales resource type
-Represents a customer sales in Dynamics 365 for Financials.
+Represents an customer sales in Dynamics 365 for Financials.
 
 ## Methods
 

@@ -1,5 +1,5 @@
 ---
-title: CREATE Sales Quote Line method | Microsoft Docs
+title: CREATE salesQuoteLine method | Microsoft Docs
 description: Creates a sales quote line.
 services: project-madeira
 documentationcenter: ''
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create sales quote line
+# Create salesQuoteLine
 Create a salesQuoteLine in Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-POST /financials/companies/{id}/salesQuotes/{id}/salesQuoteLines
+POST /financials/companies/({id})/salesQuotes/({id})/salesQuoteLines
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a salesQu
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesQuotes/{id}/salesQuoteLines
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesQuotes/({id})/salesQuoteLines
 Content-type: application/json
 
 {
@@ -51,7 +51,6 @@ Content-type: application/json
 "lineType": "Item",
 "quantity": 9
 }
-```
 
-## See also  
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](dynamics_overview.md)
