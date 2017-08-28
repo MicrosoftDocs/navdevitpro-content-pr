@@ -22,7 +22,7 @@ Retrieve the properties and relationships of a sales order line object for Dynam
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/salesOrders/{id}/salesOrderLines(documentId={id},sequence={number})
+GET /financials/companies/({id})/salesOrders/({id})/salesOrderLines(documentId={id},sequence={number})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and salesOrderLi
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesOrders/{id}/salesOrderLines(documentId={id},sequence={number})
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesOrders/({id})/salesOrderLines(documentId={id},sequence={number})
 ```
 
 **Response**
