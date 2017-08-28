@@ -19,7 +19,7 @@ Update the properties of a payment methods object for Dynamics 365 for Financial
 
 ## HTTP request
 ```
-PATCH /financials/companies/{id}/paymentMethods/{id}
+PATCH /financials/companies/({id})/paymentMethods/{id}
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and an updated p
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/paymentMethods{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentMethods{id}
 Content-type: application/json
 
 {

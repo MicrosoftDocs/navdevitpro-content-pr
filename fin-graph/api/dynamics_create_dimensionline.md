@@ -20,7 +20,7 @@ Create a dimensionLine in Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-POST /financials/companies/{id}/dimensionLines
+POST /financials/companies/({id})/dimensionLines
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a dimensi
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/dimensionLines
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/dimensionLines
 Content-type: application/json
 
 {

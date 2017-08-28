@@ -20,7 +20,7 @@ Retrieve the properties and relationships of a sales object for Dynamics 365 for
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/salesCreditMemos/{id}
+GET /financials/companies/({id})/salesCreditMemos/{id}
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and salesCreditM
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesCreditMemos/{id}
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesCreditMemos/{id}
 ```
 
 **Response**
