@@ -20,7 +20,7 @@ Retrieve the properties and relationships of a tax groups object for Dynamics 36
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/taxGroups/{id}
+GET /financials/companies/({id})/taxGroups/({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and taxGroups ob
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/taxGroups/{id}
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/taxGroups/({id})
 ```
 
 **Response**

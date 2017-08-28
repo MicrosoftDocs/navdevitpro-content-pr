@@ -19,7 +19,7 @@ Create a currencies in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/{id}/currencies
+POST /financials/companies/({id})/currencies
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and currencie
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/currencies
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/currencies
 Content-type: application/json
 
 {

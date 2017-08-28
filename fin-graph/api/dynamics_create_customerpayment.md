@@ -18,7 +18,7 @@ Creates a customer payment in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/{id}/customerPaymentsJournals/{ID}/customerPayments/{id}
+POST /financials/companies/({id})/customerPaymentsJournals/{ID}/customerPayments/({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns ```201 Created``` response code and customerP
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/customerPayment
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customerPayment
 Content-type: application/json
 
 {

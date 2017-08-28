@@ -19,7 +19,7 @@ Create a paymentMethods in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/{id}/paymentMethods
+POST /financials/companies/({id})/paymentMethods
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and paymentMe
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/paymentMethods
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentMethods
 Content-type: application/json
 
 {

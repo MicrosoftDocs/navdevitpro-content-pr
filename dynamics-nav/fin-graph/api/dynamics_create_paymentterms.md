@@ -1,6 +1,6 @@
 ---
-title: CREATE Payment Terms Method | Microsoft Docs
-description: Creates a Payment Terms.
+title: CREATE paymentTerms method | Microsoft Docs
+description: Creates a payment term.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create payment terms
+# Create paymentTerms
 Create a paymentTerms in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/{id}/paymentTerms
+POST /financials/companies/({id})/paymentTerms
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and paymentTe
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/paymentTerms
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentTerms
 Content-type: application/json
 
 {
@@ -56,10 +56,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response.  
+Here is an example of the response. 
 
 > [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 201 Created
@@ -77,6 +77,8 @@ Content-type: application/json
 }
 
 ```
+
+
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

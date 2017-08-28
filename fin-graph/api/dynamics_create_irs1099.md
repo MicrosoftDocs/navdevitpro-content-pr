@@ -19,7 +19,7 @@ Create an irs1099Codes in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/{id}/irs1099Codes
+POST /financials/companies/({id})/irs1099Codes
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and irs1099Co
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/irs1099Codes
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/irs1099Codes
 Content-type: application/json
 
 {

@@ -1,5 +1,5 @@
 ---
-title: DELETE Sales Order Line method | Microsoft Docs
+title: DELETE salesOrderLine method | Microsoft Docs
 description: Deletes a sales order line.
 services: project-madeira
 documentationcenter: ''
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete sales order line
-Delete a sales order line from Dynamics 365 for Financials.
+# Delete salesOrderLine
+Delete a salesOrderLine from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/salesOrders/{id}/salesOrderLines(documentId={id},sequence={number})
+DELETE /financials/companies/({id})/salesOrders/({id})/salesOrderLines(documentId={id},sequence={number})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesOrders/{id}/salesOrderLines(documentId={id},sequence={number})
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesOrders/({id})/salesOrderLines(documentId={id},sequence={number})
 ```
 
 **Response** 
@@ -53,4 +53,4 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
