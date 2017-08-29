@@ -107,9 +107,10 @@ Finish up your design by choosing **Stop Designing**, which allows you to name t
 
 - Removing specific fields are restricted due to accounting limitations.
 
+- You can only add fields, columns or tiles to the applicable view by selecting the icon ![show as list](media/show_as_list.png "show as list"), ![show as tall tiles](media/show_as_tall_tiles.png "show as tall tiles"), or ![show as wide tiles](media/show_as_wide_tiles.png "show as wide tiles"). Adding certain components is not allowed using drag-and-drop when it is restrcited to that view.
+
 - You can only add fields, columns, or tiles from a predefined list, which is based on the page. You cannot create new ones.  
 
-- You can only add fields, columns or tiles in its specific view ![show as list](media/show_as_list.png "show as list"), ![show as tall tiles](media/show_as_tall_tiles.png "show as tall tiles"), or ![show as wide tiles](media/show_as_wide_tiles.png "show as wide tiles"). 
 
 ## See Also
 [Developing Extensions](devenv-dev-overview.md)  
