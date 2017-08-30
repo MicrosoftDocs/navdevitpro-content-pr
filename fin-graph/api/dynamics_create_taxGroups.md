@@ -1,6 +1,6 @@
 ---
-title: CREATE Tax Groups method | Microsoft Docs
-description: Creates a Tax Group.
+title: CREATE taxGroups method | Microsoft Docs
+description: Creates a tax group.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create tax groups
-Create a taxGroups in Dynamics 365 for Financials.
+# Create taxGroups
+Create a taxGroups object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/{id}/taxGroups
+POST /financials/companies/({id})/taxGroups
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and taxGroups
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/taxGroups
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/taxGroups
 Content-type: application/json
 
 {
@@ -53,7 +53,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 201 Created

@@ -1,6 +1,6 @@
 ---
-title: CREATE Item Category method | Microsoft Docs
-description: Creates an Item Category.
+title: CREATE itemCategories method | Microsoft Docs
+description: Creates item categories.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create item category
+# Create itemCategories
 Create an itemCategories in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/{id}/itemCategories
+POST /financials/companies/({id})/itemCategories
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and itemCateg
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/itemCategories
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/itemCategories
 Content-type: application/json
 
 {
@@ -52,7 +52,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 201 Created

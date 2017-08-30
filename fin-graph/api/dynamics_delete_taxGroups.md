@@ -1,6 +1,6 @@
 ---
-title: DELETE Tax Groups method | Microsoft Docs
-description: Deletes a Tax Group.
+title: DELETE taxGroups method | Microsoft Docs
+description: Deletes a tax group.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete tax groups
-Delete a tax group from Dynamics 365 for Financials.
+# Delete taxGroups
+Delete a taxGroups object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/taxGroups/{id}
+DELETE /financials/companies/({id})/taxGroups/({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```204,No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/taxGroups/{id}
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/taxGroups/({id})
 ```
 
 **Response** 

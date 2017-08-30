@@ -1,5 +1,5 @@
 ---
-title: DELETE item categories method | Microsoft Docs
+title: DELETE itemCategories method | Microsoft Docs
 description: Deletes an item category.
 services: project-madeira
 documentationcenter: ''
@@ -14,13 +14,13 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# Delete item categories
-Delete an item category from Dynamics 365 for Financials.
+# Delete itemCategories
+Delete an itemCategory from Dynamics 365 for Financials.
 
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/itemCategories/{id}
+DELETE /financials/companies/({id})/itemCategories/({id})
 ```
 
 ## Request headers
@@ -42,10 +42,10 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/itemCategories/{id}
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/itemCategories/({id})
 ```
 
-**Response**  
+**Response** 
 
 Here is an example of the response. 
 

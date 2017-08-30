@@ -1,6 +1,6 @@
 ---
-title: currencies resource type | Microsoft Docs
-description: A currency object.
+title: currency resource type | Microsoft Docs
+description: A Currency object.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# currencies resource type
+# currency resource type
 Represents a currency used in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET currencies](../api/dynamics_get_currencies.md)|currencies|Get a currency.|
-|[POST currencies](../api/dynamics_create_currencies.md)|currencies|Create a currency.|
-|[PATCH currencies](../api/dynamics_update_currencies.md)|currencies|Update a currency.|
-|[DELETE currencies](../api/dynamics_delete_currencies.md)|none|Delete a currency.|
+|[GET currencies](../api/dynamics_get_currencies.md)|currencies|Get a Currency.|
+|[POST currencies](../api/dynamics_create_currencies.md)|currencies|Create a Currency.|
+|[PATCH currencies](../api/dynamics_update_currencies.md)|currencies|Update a Currency.|
+|[DELETE currencies](../api/dynamics_delete_currencies.md)|none|Delete a Currency.|
 
 ## Properties
 | Property	   | Type	|Description|

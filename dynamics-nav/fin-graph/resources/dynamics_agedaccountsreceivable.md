@@ -1,6 +1,6 @@
 ---
 title: agedAccountsReceivable resource type | Microsoft Docs
-description: An agedAccountsReceivable.
+description: A AgedAccountsReceivable.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,7 +21,7 @@ Represents an agedAccountsReceivable object in Dynamics 365 for Financials, whic
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET agedAccountsReceivable](../api/dynamics_get_agedaccountsreceivable.md)|agedAccountsReceivable|Get agedAccountsReceivable object|
+|[GET agedAccountsReceivable](../api/dynamics_get_agedaccountsreceivable.md)|AgedAccountsReceivable|Get AgedAccountsReceivable object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -30,12 +30,13 @@ Represents an agedAccountsReceivable object in Dynamics 365 for Financials, whic
 |customerNumber|string|Specifies customer's number.|
 |name|string|Specifies customer's name.|
 |currencyCode|string|Specifies the currency.|
-|balanceDue|numeric|Specifies customer's total balance.|
-|currentAmount|numeric|Specifies balance before first aging period.|
-|period1Amount|numeric|Specifies balance in the first aging period.|
-|period2Amount|numeric|Specifies balance in the second aging period.|
-|period3Amount|numeric|Specifies balance in the third aging period.|
-|agedAsOfDate|date|Specifies period start date used to calculate aging periods.|
+|before|numeric|Specifies balance before first aging period.|
+|period1|numeric|Specifies balance in the first aging period.|
+|period2|numeric|Specifies balance in the second aging period.|
+|period3|numeric|Specifies balance in the third aging period.|
+|after|numeric|Specifies balance after third aging period.|
+|balance|numeric|Specifies customer's total balance.|
+|periodStartDateFilter|date|Specifies period start date used to calculate aging periods.|
 |periodLengthFilter|string|Specifies the length of the periods.|
 
 
@@ -44,7 +45,8 @@ None
 
 ## JSON representation
 
-Here is a JSON representation of the resource.  
+Here is a JSON representation of the resource.
+
 
 ```json
 {
@@ -52,13 +54,14 @@ Here is a JSON representation of the resource.
     "customerNumber": "string",
     "name": "string",
     "currencyCode": "string",
-    "balanceDue": "decimal",
-    "currentAmount": "decimal",
-    "period1Amount": "decimal",
-    "period2Amount": "decimal",
-    "period3Amount": "decimal",
-    "agedAsOfDate": "date",
-    "periodLengthFilter": "string"
+    "before": "decimal",
+    "period1": "decimal",
+    "period2": "decimal",
+    "period3": "decimal",
+    "after": "decimal",
+    "balance": "decimal",
+    "periodStartDateFilter": "date",
+    "periodLengthFilter": "string
 }
 
 ```

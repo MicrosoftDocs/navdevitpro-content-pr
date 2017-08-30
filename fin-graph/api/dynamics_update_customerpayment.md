@@ -1,5 +1,5 @@
 ---
-title: UPDATE customer payments method | Microsoft Docs
+title: UPDATE customerPayments method | Microsoft Docs
 description: Updates a customer payments.
 services: project-madeira
 documentationcenter: ''
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update customer payments
+# Update customerPayments
 Update the properties of a customer payments object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-PATCH /financials/companies/{id}/customerPaymentsJournals/{id}/customerPayments/{id}
+PATCH /financials/companies/({id})/customerPaymentsJournals/({id})/customerPayments/({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated c
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/customerPaymentsJournals/{id}/customerPayments{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customerPaymentsJournals/({id})/customerPayments{id}
 Content-type: application/json
 
 {
@@ -52,7 +52,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK

@@ -1,5 +1,5 @@
 ---
-title: DELETE Dimension Line method | Microsoft Docs
+title: DELETE dimensionLine method | Microsoft Docs
 description: Deletes a dimension line.
 services: project-madeira
 documentationcenter: ''
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete dimension line
-Delete a dimension line from Dynamics 365 for Financials.
+# Delete dimensionLine
+Delete a dimensionLine from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/dimensionLines(parentId={id},id={id})
+DELETE /financials/companies/({id})/dimensionLines(parentId={id},id={id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/dimensionLines(parentId={id},id={id})
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/dimensionLines(parentId={id},id={id})
 ```
 
 **Response** 
