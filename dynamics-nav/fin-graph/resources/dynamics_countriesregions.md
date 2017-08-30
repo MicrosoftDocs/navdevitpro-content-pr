@@ -19,20 +19,20 @@ Represents a countriesRegions object in Dynamics 365 for Financials, which is pa
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
+| Method         | Return Type  |Description|
+|:---------------|:-------------|:----------|
 |[GET countriesRegions](../api/dynamics_get_countriesregions.md)|countriesRegions|Get a Countries/Regions.|
 |[POST countriesRegions](../api/dynamics_create_countriesregions.md)|countriesRegions|Create a Countries/Regions.|
 |[PATCH countriesRegions](../api/dynamics_update_countriesregions.md)|countriesRegions|Update a Countries/Regions.|
 |[DELETE countriesRegions](../api/dynamics_delete_countriesregions.md)|none|Delete a Countries/Regions.|
 
 ## Properties
-| Property	   | Type	|Description|
+| Property	     | Type	   |Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the country/region. Non-editable.|
-|code|string|Specifies the code of the country/region.|
-|displayName|string|Specifies the display name of the country/region.|
-|addressFormat|string|Specifies the format of the address that is displayed on external-facing documents. You link an address format to a country/region code so that external-facing documents based on cards or documents with that country/region code use the specified address format.|
+|id              |GUID     |The unique ID of the country/region. Non-editable.|
+|code            |string   |Specifies the code of the country/region.|
+|displayName     |string   |Specifies the display name of the country/region.|
+|addressFormat   |string   |Specifies the format of the address that is displayed on external-facing documents. You link an address format to a country/region code so that external-facing documents based on cards or documents with that country/region code use the specified address format.|
 |lastModifiedDateTime|datetime|The last datetime the country/region was modified. Read-Only.|  
 
 
