@@ -20,14 +20,14 @@ Update the properties of a dimension line object for Dynamics 365 for Financials
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/dimensionLines(parentId={id},id={id})
+PATCH /financials/companies/({id})/dimensionLines(parentId=({id}),id=({id}))
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header        |Value                    |
+|--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|
-|Content-Type  |application/json|
+|Content-Type  |application/json         |
 |If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the dimension line, the dimension line will not be updated. |
 
 ## Request body
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated d
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/dimensionLines(parentId={id},id={id})
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/dimensionLines(parentId=({id}),id=({id}))
 Content-type: application/json
 
 {

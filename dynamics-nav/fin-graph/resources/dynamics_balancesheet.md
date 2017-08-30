@@ -20,7 +20,7 @@ Represents a balanceSheet object in Dynamics 365 for Financials. A balance sheet
 ## Methods
 
 | Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
+|:-------------|:-------------|:----------|
 |[GET balanceSheet](../api/dynamics_get_balancesheet.md)|balanceSheet|Get a balanceSheet object|
 
 ## Properties

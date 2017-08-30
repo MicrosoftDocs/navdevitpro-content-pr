@@ -21,7 +21,7 @@ Represents an cashFlowStatement object in Dynamics 365 for Financials.
 
 | Method       | Return Type  |Description|
 |:-------------|:-------------|:----------|
-|[GET cashFlowStatement](../api/dynamics_get_cashflowstatement.md)|CashFlowStatement|Get a CashFlowStatement object|
+|[GET cashFlowStatement](../api/dynamics_get_cashflowstatement.md)|cashFlowStatement|Get a cashFlowStatement object|
 
 ## Properties
 | Property	   | Type	|Description                              |

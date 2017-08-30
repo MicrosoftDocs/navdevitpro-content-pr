@@ -24,9 +24,9 @@ GET /financials/companies/({id})/irs1099Codes/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer {token}. Required. |
+|Header       |Value                    |
+|-------------|-------------------------|
+|Authorization|Bearer {token}. Required.|
 
 ## Request body
 Do not supply a request body for this method.

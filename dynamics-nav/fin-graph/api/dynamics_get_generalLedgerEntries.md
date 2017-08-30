@@ -24,9 +24,9 @@ GET /financials/companies/({id})/generalLedgerEntries/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer. Required. |
+|Header       |Value             |
+|-------------|------------------|
+|Authorization|Bearer. Required. |
 
 ## Request body
 Do not supply a request body for this method.

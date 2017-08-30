@@ -20,17 +20,17 @@ Represents a dimension in Dynamics 365 for Financials.
 ## Methods
 
 | Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
+|:-------------|:-------------|:----------|
 |[GET dimension](../api/dynamics_get_dimension.md)|dimension|Get a dimension.|
 
 
 ## Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|id|GUID|The unique ID of the item.|
-|code|string, maximum size 20|The dimension code.|
-|displayName|string|Specifies the dimension's name. This name will appear where the dimension is used.|
-|lastModifiedDateTime|datetime|The last datetime the dimension was modified.|  
+| Property	         | Type                  |Description               |
+|:-------------------|:----------------------|:-------------------------|
+|id                  |GUID                   |The unique ID of the item.|
+|code                |string, maximum size 20|The dimension code.       |
+|displayName         |string                 |Specifies the dimension's name. This name will appear where the dimension is used.|
+|lastModifiedDateTime|datetime               |The last datetime the dimension was modified.|  
 
 
 ## JSON representation
