@@ -37,6 +37,7 @@ Represents a customer in Dynamics 365 for Financials.
 |phoneNumber  |string    |Specifies the customer's telephone number.|
 |email        |string    |Specifies the customer's email address.|
 |website      |string    |Specifies the customer's home page address.|
+|taxLiable    |boolean   |Specifies if the customer or vendor is liable for sales tax. Set to **true** if the customer is tax liable.|
 |taxAreaId    |GUID      |Specifies which tax area the customer belongs to.|
 |taxAreaDisplayName|string|Specified the display name of the tax area the customer belongs to.|
 |taxRegistrationNumber|string, maximum size 20|Specified the tax registration number of the customer.|
@@ -48,6 +49,7 @@ Represents a customer in Dynamics 365 for Financials.
 |paymentMethod|[NAV.PaymentMethod](../resources/dynamics_complex_types.md)|Specifies how the customer usually submits payment, such as bank transfer or check.|
 |shipmentMethodId|GUID   |Specifies which shipment method the customer uses.|
 |shipmentMethod|[NAV.ShipmentMethod](../resources/dynamics_complex_types.md)|Specifies which shipment method to use when you ship items to the customer.|
+|blocked      |string    |Specifies that transactions with the customer cannot be posted. Set to **All**, if the customer is blocked, set to blank if not blocked.|
 |balance      |numeric   |Specifies the payment amount that the customer owes for completed sales. This value is also known as the customer's balance. Read-Only.|
 |overdueAmount|numeric   |Specifies the customer's overdue amount.|
 |totalSalesExcludingTax|numeric|Specifies the total sales amount excluding tax of the customer.|
