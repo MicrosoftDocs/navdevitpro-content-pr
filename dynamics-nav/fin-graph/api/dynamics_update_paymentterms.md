@@ -23,10 +23,10 @@ PATCH /financials/companies/({id})/paymentTerms/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header        |Value                    |
+|--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|
-|Content-Type  |application/json|
+|Content-Type  |application/json         |
 |If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the paymentTerms, the paymentTerms will not be updated. |
 
 ## Request body
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and an updated p
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentTerms{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentTerms({id})
 Content-type: application/json
 
 {

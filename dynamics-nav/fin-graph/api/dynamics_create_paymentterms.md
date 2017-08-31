@@ -24,9 +24,9 @@ POST /financials/companies/({id})/paymentTerms
 
 ## Request headers
 |Header|Value|
-|------|-----|
+|---------------|-----------------------------|
 |Authorization  |Bearer {token}. Required.    |
-|Content-Type  |application/json    |
+|Content-Type   |application/json             |
 
 ## Request body
 In the request body, supply a JSON representation of paymentTerms object.
