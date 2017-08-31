@@ -32,14 +32,14 @@ The following table describes the settings in the ```app.json``` file:
 |description|No|Longer description of the extension.|
 |version|Yes|The version of the app package.|
 |compatibilityId|Yes||
-|privacyStatement|No|Link to the privacy statement for the extension.|
+|privacyStatement|No|URL to the privacy statement for the extension.|
 |EULA|No|URL to the license terms for the extension.|
 |help|No|URL to the help for the extension.|
 |url|No|URL of the extension package.|
 |logo|No|URL to the logo for the extension package.|
 |dependencies|No|List of dependencies for the extension package.|
 |screenshots|No|Relative paths to any screenshots that should be in the extension package.|
-|platform|Yes, if system tables are referenced in the extension|The minimum supported version of the platform symbol package file, for example: "11.0.0.0". See the **List of objects in the platform symbol file section** below for the list of object symbols contained in the platform symbol package file.|
+|platform|Yes, if system tables are referenced in the extension|The minimum supported version of the platform symbol package file, for example: "11.0.0.0". See the [Symbols](devenv-symbols.md) for the list of object symbols contained in the platform symbol package file.|
 |application|Yes, if base application objects are extended or referenced |The minimum supported version and locale of the base application to extend, for example: ```{  "version": "11.0.0.0",  "locale": "W1"  }```|
 |idRange|No|An optional range for application object IDs. For all objects outside the range, a compilation error will be raised.|
 
