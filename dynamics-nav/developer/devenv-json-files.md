@@ -3,7 +3,7 @@ title: "JSON Files"
 description: "Description of the content of the JSON files."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 08/31/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -28,23 +28,44 @@ The following table describes the settings in the ```app.json``` file:
 |id|Yes|The unique ID of the extension. When app.json file is automatically created, the ID is set to a new GUID value.|
 |name|Yes|The unique extension name.|
 |publisher|Yes|The name of your publisher, for example: **NAV Partner**, **LLC** |
-|application|Yes, if base application objects are extended or referenced |The minimum supported version and locale of the base application to extend, for example: ```{  "version": "10.0.0.0",  "locale": "W1"  }```|
-|platform|Yes, if system tables are referenced in the extension|The minimum supported version of the platform symbol package file, for example: "10.0.0.0". See the **List of objects in the platform symbol file section** below for the list of object symbols contained in the platform symbol package file.|
-|packageCachePath|Yes, if base application is extended or system tables are referenced| The path to the folder where referenced symbol package files are located. The path could either be absolute or relative to the current extension working directory, for example: "../../resources"|
+|brief|No|Short description of the extension.|
+|description|No|Longer description of the extension.|
+|version|Yes|The version of the app package.|
+|compatibilityId|Yes||
+|privacyStatement|No|Link to the privacy statement for the extension.|
+|EULA|No|URL to the license terms for the extension.|
+|help|No|URL to the help for the extension.|
+|url|No|URL of the extension package.|
+|logo|No|URL to the logo for the extension package.|
+|dependencies|No|List of dependencies for the extension package.|
+|screenshots|No|Relative paths to any screenshots that should be in the extension package.|
+|platform|Yes, if system tables are referenced in the extension|The minimum supported version of the platform symbol package file, for example: "11.0.0.0". See the **List of objects in the platform symbol file section** below for the list of object symbols contained in the platform symbol package file.|
+|application|Yes, if base application objects are extended or referenced |The minimum supported version and locale of the base application to extend, for example: ```{  "version": "11.0.0.0",  "locale": "W1"  }```|
+|idRange|No|An optional range for application object IDs. For all objects outside the range, a compilation error will be raised.|
 
 ## Launch.json file
 
-The following table describes the settings in the ```launch.json``` file:
+The following table describes the settings in the ```launch.json``` file. The `launch.json` file has two configurations depending on whether the extension is published to a local server or to the cloud.
 
+### Publish to local server settings
 |Setting|Mandatory|Value|
 |-------|---------|-----|
-|server|Yes, if connecting to an on-premises server|The HTTP URL of your server, for example: http://localhost|
-|serverInstance|Yes, if connecting to an on-premises server|The instance name of your server, for example: NAV|
-|port|No|The port on which the development endpoint is running on the server, default value: 7049|
-|tenant|No|The tenant ID in case the server is configured for multitenancy.|
-|windowsAuthentication|No|Specifies whether Windows or Azure authentication should be used for publishing the extension. Currently only Windows authentication is supported.|
-|startupObjectId|No|The ID of the startup object to launch when you press F5. Currently only objects of type Page are supported.|
+|name|Yes|"Publish to local server"|
+|type|||
+|request||Request type of the configuration. Can be `publish` or `attach`.|
+|server|Yes|The HTTP URL of your server, for example: `http://localhost|serverInstance`|
+|serverInstance|Yes|The instance name of your server, for example: `"NAV"`|
+|authentication|Yes|Specifies the server authentication method.|
+|startupObjectId|Yes|Specifies the ID of the object to open after publishing. Only objects of type Page are currently supported.|
 
+### Publish to cloud settings
+|Setting|Mandatory|Value|
+|-------|---------|-----|
+|name|Yes|"Publish to cloud"|
+|type|||
+|request||Request type of the configuration. Can be `publish` or `attach`.|
+|startupObjectId|Yes|Specifies the ID of the object to open after publishing. Only objects of type Page are currently supported.|
+|serverInstance|Yes|The instance name of your server, for example: `"US"`|
 
 ## The platform symbol file
 The platform symbol file contains all of the base app objects that your extension builds on. If the symbol file is not present, you will be prompted to download it. For more inforamtion about the platform symbol file, see [Symbols](devenv-symbols.md).
