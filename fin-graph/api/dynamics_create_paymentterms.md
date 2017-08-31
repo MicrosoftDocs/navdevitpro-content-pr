@@ -19,7 +19,7 @@ Create a paymentTerms in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/{id}/paymentTerms
+POST /financials/companies/({id})/paymentTerms
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and paymentTe
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/paymentTerms
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentTerms
 Content-type: application/json
 
 {

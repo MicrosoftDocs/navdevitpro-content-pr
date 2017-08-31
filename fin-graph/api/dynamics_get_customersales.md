@@ -19,7 +19,7 @@ Retrieve the properties and relationships of a customer sales report object for 
 
 ## HTTP request
 ```
-GET /financials/companies/{id}/customerSales
+GET /financials/companies/({id})/customerSales
 ```
 
 ## Request headers
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and customerSale
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/customerSales
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customerSales
 ```
 
 **Response**

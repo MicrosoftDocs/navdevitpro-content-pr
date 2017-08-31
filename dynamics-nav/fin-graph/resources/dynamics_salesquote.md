@@ -31,6 +31,7 @@ Represents a salesQuote resource type in Dynamics 365 for Financials.
 |:---------------|:--------|:----------|
 |id|GUID|The quote ID. Read-Only.|
 |number|string, maximum size 20|The quote number. Read-Only.|
+|externalDocumentNumber|string, maximum size 35|The external document number.|
 |documentDate|date|The quote date|
 |dueDate|date|The quote due date|
 |customerId|GUID|The id of the quote customer.|
@@ -38,27 +39,32 @@ Represents a salesQuote resource type in Dynamics 365 for Financials.
 |customerNumber|string, maximum size 20|The customer number for the quote.|
 |customerName|string, maximum size 50|The full name of the customer. Read-Only.|
 |billingPostalAddress|complex|The billing postal address for the quote.|  
+|currencyId|GUID|The id of the quote currency.|
 |currencyCode|string, maximum size 10|The currency code for the quote.|
+|paymentTermsId|GUID|The id of the quote payment term.|
 |paymentTerms|string, maximum size 10|The payment terms of the quote.|
+|shipmentMethodId|GUID|The id of the quote shipment method.|
 |shipmentMethod|string, maximum size 10|The payment terms of the quote.|
 |salesperson|string, maximum size 20|The salesperson code for the quote.|
 |discountAmount|numeric|The quote discount amount|
 |totalAmountExcludingTax|numeric|The total amount excluding tax. Read-Only.|
 |totalTaxAmount|numeric|The total tax amount for the quote. Read-Only.|
 |totalAmountIncludingTax|numeric|The total amount for the quote, including tax. Read-Only.|
-|status|string, maximum size 20|The quote status. Status can be: Open,Released,Pending Approval,Pending Prepayment. Read-Only.|
+|status|string, maximum size 20|The quote status. Status can be: Draft,Sent,Accepted. Read-Only.|
+|sentDate|datetime|The the date and time the quote was sent our to the customer. Read-Only.|
+|validUntilDate|Date|The date a quote is valid until.|
+|acceptedDate|Date|The date a quote is accepted. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the sales quote was modified. Read-Only.|
 
 
-## Relationships  
+## Relationships
+A Currency(currencyCode) must exist in the Currencies table.
 
-- A Currency (currencyCode) must exist in the Currencies table.  
+A Payment Term(paymentTerms) must exist in the Payment Terms table.
 
-- A Payment Term(paymentTerms) must exist in the Payment Terms table.  
+A Shipment Method(shipmentMethod) must exist in the Shipment Method table.
 
-- A Shipment Method (shipmentMethod) must exist in the Shipment Method table.  
-
-- A Customer (customerId) must exist in the Customer table.  
+A Customer (customerId) must exist in the Customer table.
 
 ## JSON representation
 
@@ -69,6 +75,7 @@ Here is a JSON representation of the resource.
 {
       "id": "GUID",
       "number": "string",
+      "externalDocumentNumber": "string",
       "documentDate": "Date",
       "dueDate": "Date",
       "customerId": "GUID",
@@ -76,8 +83,11 @@ Here is a JSON representation of the resource.
       "customerNumber": "string",
       "customerName": "string",
       "billingPostalAddress": {NAV.PostalAddress},
+      "currencyId": "GUID",
       "currencyCode": "string",
+      "paymentTermsId": "GUID",
       "paymentTerms": "string",
+      "shipmentMethodId": "GUID",
       "shipmentMethod": "string",
       "salesperson": "string",
       "discountAmount": decimal,
@@ -85,6 +95,9 @@ Here is a JSON representation of the resource.
       "totalTaxAmount": decimal,
       "totalAmountIncludingTax": decimal,
       "status": "string",
+      "sentDate": "DateTime",
+      "validUntilDate": "Date",
+      "acceptedDate": "Date",
       "lastModifiedDateTime": "DateTime"
 }
 

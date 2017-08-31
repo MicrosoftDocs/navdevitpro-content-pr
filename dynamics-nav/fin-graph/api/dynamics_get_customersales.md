@@ -1,6 +1,6 @@
 ---
 title: GET CustomerSales method | Microsoft Docs
-description: Gets a CustomerSales.
+description: Gets a customer sales.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get customer sales
+# Get customerSales
 Retrieve the properties and relationships of a customer sales report object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-GET /financials/companies/{id}/customerSales
+GET /financials/companies/({id})/customerSales
 ```
 
 ## Request headers
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and customerSale
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/customerSales
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customerSales
 ```
 
 **Response**
@@ -47,7 +47,7 @@ GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/customerSal
 Here is an example of the response. 
 
 > [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {
@@ -59,5 +59,6 @@ Here is an example of the response.
 }
 ```
 
-## See also  
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  
+
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

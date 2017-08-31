@@ -36,9 +36,9 @@ Represents a line on a purchase invoice in Dynamics 365 for Financials.
 |lineType|string|The type of the line. Can be Comment,Account,Item,Resource,Fixed Asset,Charge|
 |lineDetails|complex|The details of the line.|
 |description|string|A description of the item in the invoice line.|
-|unitOfMeasure|complex|The unit of measure complex type.|
+|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complex_types.md)|The unit of measure complex type.|
+|unitCost|numeric|The unit cost of each individual item in the invoice line.|
 |quantity|numeric|The quantity of the item in the invoice line.|
-|directUnitCost|numeric|The direct unit cost of each individual item in the invoice line.|
 |discountAmount|numeric|The line discount amount.|
 |discountPercent|numeric|The line discount percent.|
 |discountAppliedBeforeTax|boolean|Specified if the discount is applied before tax. Read-Only.|
@@ -79,6 +79,7 @@ Here is a JSON representation of the resource.
       "description": "String",
       "unitOfMeasure": {NAV.UnitOfMeasure},
       "directUnitCost": decimal,
+      "unitCost": "decimal",
       "quantity": decimal,
       "discountAmount": decimal,
       "discountPercent": decimal,

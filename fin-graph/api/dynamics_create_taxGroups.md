@@ -15,11 +15,11 @@ ms.author: solsen
 ---
 
 # Create taxGroups
-Create a taxGroups in Dynamics 365 for Financials.
+Create a taxGroups object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/{id}/taxGroups
+POST /financials/companies/({id})/taxGroups
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and taxGroups
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/taxGroups
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/taxGroups
 Content-type: application/json
 
 {

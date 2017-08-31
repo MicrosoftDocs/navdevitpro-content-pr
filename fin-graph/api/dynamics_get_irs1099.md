@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get IRS1099Code
+# Get IRS1099Codes
 Retrieve the properties and relationships of an IRS 1099 codes object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/irs1099Codes/{id}
+GET /financials/companies/({id})/irs1099Codes/({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and irs1099Codes
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/irs1099Codes/{id}
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/irs1099Codes/({id})
 ```
 
 **Response**

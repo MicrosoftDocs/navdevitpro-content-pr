@@ -1,6 +1,6 @@
 ---
-title: GET IRS 1099 Code method | Microsoft Docs
-description: Gets a IRS 1099 Code.
+title: GET IRS1099Code method | Microsoft Docs
+description: Gets a IRS 1099 code.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get IRS 1099 code
+# Get IRS1099Codes
 Retrieve the properties and relationships of an IRS 1099 codes object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/irs1099Codes/{id}
+GET /financials/companies/({id})/irs1099Codes/({id})
 ```
 
 ## Request headers
@@ -38,18 +38,17 @@ If successful, this method returns a ```200 OK``` response code and irs1099Codes
 
 **Request**
 
-Here is an example of the request.  
-
+Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/irs1099Codes/{id}
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/irs1099Codes/({id})
 ```
 
 **Response**
 
-Here is an example of the response.  
+Here is an example of the response. 
 
 > [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {
@@ -61,5 +60,6 @@ Here is an example of the response.
 }
 ```
 
-## See also  
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  
+
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

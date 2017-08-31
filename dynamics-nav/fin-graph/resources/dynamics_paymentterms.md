@@ -35,7 +35,7 @@ Represents a payment term in Dynamics 365 for Financials.
 |dueDateCalculation|string|Specifies the formula that is used to calculate the date that a payment must be made.|
 |discountDateCalculation|string|Specifies the formula that is used to calculate the date that a payment must be made in order to obtain a discount.|
 |discountPercent|decimal|Specifies the discount percentage that is applied for early payment of an invoice amount.|
-|calculateDiscountOnCreditMemos|boolean|Specifies if the discount should be applied to credit memos. **True** indicates a discount will be given, **false** indicates a discount will not be given.|
+|calculateDiscountOnCreditMemos|boolean|Specifies if the discount should be applied to credit memos. **True** indicates a discount will be given, **False** indicates a discount will not be given.|
 |lastModifiedDateTime|datetime|The last datetime the paymentTerms was modified. Read-Only.|  
 
 

@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update IRS1099Code
+# Update IRS1099Codes
 Update the properties of an IRS 1099 codes object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-PATCH /financials/companies/{id}/irs1099Codes/{id}
+PATCH /financials/companies/({id})/irs1099Codes/({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and an updated i
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/irs1099Codes{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/irs1099Codes{id}
 Content-type: application/json
 
 {
