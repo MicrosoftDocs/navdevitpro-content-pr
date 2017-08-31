@@ -70,7 +70,7 @@ You also need to spend some time on how to best market your app on Microsoft App
 Before we publish, we will collaborate with you to ensure that your app stands out on Microsoft AppSource and on your own landing page! We need to validate your app to ensure it is marketed well, trustworthy, and is up-to-date. For more information about the validation process and how to publish your app, get the [Publish your app](https://go.microsoft.com/fwlink/?linkid=841517) document.
 
 ## Questions?
-This [FAQ](https://go.microsoft.com/fwlink/?linkid=841520) responds to the most common questions you might have about apps for Dynamics 365 for Financials. If you have further questions, don't hesitate to email [d365val@microsoft.com](d365val@microsoft.com).
+This [FAQ](https://go.microsoft.com/fwlink/?linkid=841520) responds to the most common questions you might have about apps for Dynamics 365 for Financials. If you have further questions, don't hesitate to email d365val@microsoft.com.
 
 ## Things to consider
 Are you a business owner, a marketing person, or a developer? You can find specific resources below for you.
@@ -107,4 +107,4 @@ Partners in this list:
 •	Are assisting or have assisted a minimum of three partners with bringing apps into Microsoft AppSource  
 •	Have a packaged service available (and listed on their website) about the app guidance that they provide  
 
-If you believe you should be listed as an app service partner, don't hesitate to reach out to [d365-smb@microsoft.com](d365-smb@microsoft.com).
+If you believe you should be listed as an app service partner, don't hesitate to reach out to d365-smb@microsoft.com.
