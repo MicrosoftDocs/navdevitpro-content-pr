@@ -23,10 +23,10 @@ DELETE /financials/companies/({id})/customerPaymentsJournals/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer {token}. Required. |
-|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer payments journal, the customer payments journal will not be updated. |
+|Header       |Value                     |
+|-------------|--------------------------|
+|Authorization|Bearer {token}. Required. |
+|If-Match     |Required. When this request header is included and the eTag provided does not match the current tag on the customer payments journal, the customer payments journal will not be updated. |
 
 ## Request body
 

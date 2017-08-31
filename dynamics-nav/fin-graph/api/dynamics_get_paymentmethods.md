@@ -24,8 +24,8 @@ GET /financials/companies/({id})/paymentMethods/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
 
 ## Request body

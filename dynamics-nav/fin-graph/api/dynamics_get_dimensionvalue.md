@@ -22,13 +22,13 @@ Retrieve the properties and relationships of a dimension value object for Dynami
 ## HTTP request
 
 ```
-GET /financials/companies/({id})/dimensions/({id})/dimensionValues{id}
+GET /financials/companies/({id})/dimensions/({id})/dimensionValues({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer {token}. Required. |
+|Header       |Value                     |
+|-------------|--------------------------|
+|Authorization|Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and dimensionVal
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/dimensions/({id})/dimensionValues{id}
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/dimensions/({id})/dimensionValues({id})
 ```
 
 **Response**

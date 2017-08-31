@@ -1,6 +1,6 @@
 ---
 title: GET companies method | Microsoft Docs
-description: Gets a companies.
+description: Gets companies.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

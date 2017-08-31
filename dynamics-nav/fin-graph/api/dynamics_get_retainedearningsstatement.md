@@ -23,8 +23,8 @@ GET /financials/companies/({id})/retainedEarningsStatement
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
 
 ## Request body
@@ -59,7 +59,6 @@ Here is an example of the response.
   "dateFilter": "2016-12-31"   
 }
 ```
-
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

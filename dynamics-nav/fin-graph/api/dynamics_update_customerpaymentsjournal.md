@@ -42,11 +42,11 @@ If successful, this method returns a ```200 OK``` response code and an updated c
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customerPaymentsJournals{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customerPaymentsJournals({id})
 Content-type: application/json
 
 {
-  "code": "EXPENSE,
+  "code": "EXPENSE",
   "displayName": "Expense Batch"
 }
 ```
