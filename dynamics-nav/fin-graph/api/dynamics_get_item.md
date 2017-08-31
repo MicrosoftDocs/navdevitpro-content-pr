@@ -25,8 +25,8 @@ GET /financials/companies/({id})/items/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header       |Value                    |
+|-------------|-------------------------|
 |Authorization|Bearer {token}. Required.|
 
 ## Request body

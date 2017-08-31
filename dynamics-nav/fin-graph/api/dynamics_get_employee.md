@@ -1,6 +1,6 @@
 ---
 title: GET employee method | Microsoft Docs
-description: Gets a employee.
+description: Gets an employee.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -23,9 +23,9 @@ GET /financials/companies/({id})/employees/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer {token}. Required. |
+|Header       |Value                     |
+|-------------|--------------------------|
+|Authorization|Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.

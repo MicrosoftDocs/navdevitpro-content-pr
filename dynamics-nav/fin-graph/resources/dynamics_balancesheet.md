@@ -1,6 +1,6 @@
 ---
 title: balanceSheet resource type | Microsoft Docs
-description: A BalanceSheet.
+description: A balanceSheet.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -20,18 +20,18 @@ Represents a balanceSheet object in Dynamics 365 for Financials. A balance sheet
 ## Methods
 
 | Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
-|[GET balanceSheet](../api/dynamics_get_balancesheet.md)|BalanceSheet|Get a BalanceSheet object|
+|:-------------|:-------------|:----------|
+|[GET balanceSheet](../api/dynamics_get_balancesheet.md)|balanceSheet|Get a balanceSheet object|
 
 ## Properties
 | Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|lineNumber|numeric|The balanceSheet item line number.|
-|display|string|The balanceSheet item display name.|
-|balance|numeric|The balanceSheet item balance.|
-|lineType|string|The balanceSheet item line type can be: header, detail, total, or spacer.|
-|indentation|numeric|The balanceSheet item indentation used in report layout.|
-|dateFilter|date|The date filter used to calculate the balanceSheet items.|
+|:-------------|:-------|:----------|
+|lineNumber    |numeric |The balanceSheet item line number.|
+|display       |string  |The balanceSheet item display name.|
+|balance       |numeric |The balanceSheet item balance.|
+|lineType      |string  |The balanceSheet item line type can be: header, detail, total, or spacer.|
+|indentation   |numeric |The balanceSheet item indentation used in report layout.|
+|dateFilter    |date    |The date filter used to calculate the balanceSheet items.|
 
 
 ## Relationships

@@ -19,18 +19,18 @@ Represents an customer sales in Dynamics 365 for Financials.
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
+| Method            | Return Type |Description               |
+|:------------------|:------------|:-------------------------|
 |[GET customerSales](../api/dynamics_get_customerSales.md)|CustomerSales|Get a CustomerSales object|
 
 ## Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|customerId|GUID|Represents the customer ID.|
-|customerNumber|string|Represents the customer number.|
-|name|string|Represents the name of the customer .|
-|totalSalesAmount|numeric|Represents the customer sales.|
-|dateFilter_FilterOnly|date|Represents the date filter for the customer sales.|
+| Property	          | Type  |Description                                       |
+|:--------------------|:------|:-------------------------------------------------|
+|customerId           |GUID   |Represents the customer ID.                       |
+|customerNumber       |string |Represents the customer number.                   |
+|name                 |string |Represents the name of the customer.              |
+|totalSalesAmount     |numeric|Represents the customer sales.                    |
+|dateFilter_FilterOnly|date   |Represents the date filter for the customer sales.|
 
 
 ## Relationships

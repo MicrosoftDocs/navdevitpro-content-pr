@@ -19,20 +19,20 @@ Represents a customer payments journal in Dynamics 365 for Financials.
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
-|[GET customer payments journal](../api/dynamics_get_customerpaymentsjournal.md)|customer payments journal|Get customer payments journal.|
-|[POST customer payments journal](../api/dynamics_create_customerpaymentsjournal.md)|customer payments journal|Create customer payments journal.|
-|[PATCH customer payments journal](../api/dynamics_update_customerpaymentsjournal.md)|customer payments journal|Update customer payments journal.|
-|[DELETE customer payments journal](../api/dynamics_delete_customerpaymentsjournal.md)|none|Delete customer payments journal.|
+| Method                                                                              | Return Type             |Description                      |
+|:------------------------------------------------------------------------------------|:------------------------|:--------------------------------|
+|[GET customer payments journal](../api/dynamics_get_customerpaymentsjournal.md)      |customer payments journal|Get customer payments journal.   |
+|[POST customer payments journal](../api/dynamics_create_customerpaymentsjournal.md)  |customer payments journal|Create customer payments journal.|
+|[PATCH customer payments journal](../api/dynamics_update_customerpaymentsjournal.md) |customer payments journal|Update customer payments journal.|
+|[DELETE customer payments journal](../api/dynamics_delete_customerpaymentsjournal.md)|none                     |Delete customer payments journal.|
 
 ## Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|id|GUID|The unique ID of the customer payments journal. Non-editable.|
-|code|string, maximum size 10| The code of the customer payments journal.|
-|displayName|string, maximum size 50| The display name of the customer payments journal.|
-|lastModifiedDateTime|datetime|The last datetime the customer payments journal was modified. Read-Only.|
+| Property	         | Type	                 |Description                                                             |
+|:-------------------|:----------------------|:-----------------------------------------------------------------------|
+|id                  |GUID                   |The unique ID of the customer payments journal. Non-editable.           |
+|code                |string, maximum size 10| The code of the customer payments journal.                             |
+|displayName         |string, maximum size 50| The display name of the customer payments journal.                     |
+|lastModifiedDateTime|datetime               |The last datetime the customer payments journal was modified. Read-Only.|
 
 ## Relationships
 
