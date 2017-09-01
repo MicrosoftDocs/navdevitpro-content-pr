@@ -25,10 +25,10 @@ POST /financials/companies/({id})/shipmentMethods
 
 ## Request headers
 
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
-|Content-Type  |application/json   |
+|Content-Type   |application/json          |
 
 ## Request body
 In the request body, supply a JSON representation of shipmentMethods object.
