@@ -12,7 +12,7 @@ caps.latest.revision: 21
 manager: edupont
 ---
 # Designing RDLC Report Layouts
-To create an RDLC layout, you use Visual Studio Report Designer or Microsoft SQL Server Reporting Services Report Builder from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. With RDLC layouts, you can add useful features to your report layouts, such as:  
+To create an RDLC layout, you use Report Designer for Visual Studio or Report Builder for SQL Server. With RDLC layouts, you can add useful features to your report layouts, such as:  
   
 -   Links from a field on a report to either a page or another report.  
   
