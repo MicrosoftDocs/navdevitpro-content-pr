@@ -1,4 +1,4 @@
----
+--- 
 title: GET agedAccountsReceivable method | Microsoft Docs
 description: Gets an aged accounts receivable.
 services: project-madeira
@@ -38,6 +38,7 @@ If successful, this method returns a ```200 OK``` response code and agedAccounts
 **Request**
 
 Here is an example of the request.
+
 ```json
 GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/agedAccountsReceivable
 ```

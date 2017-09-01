@@ -19,20 +19,20 @@ Represents an irs1099Codes object in Dynamics 365 for Financials. IRS 1099 codes
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
-|[GET irs1099Codes](../api/dynamics_get_irs1099.md)|irs1099Codes|Get a Payment Terms.|
-|[POST irs1099Codes](../api/dynamics_create_irs1099.md)|irs1099Codes|Create a Payment Terms.|
-|[PATCH irs1099Codes](../api/dynamics_update_irs1099.md)|irs1099Codes|Update a Payment Terms.|
-|[DELETE irs1099Codes](../api/dynamics_delete_irs1099.md)|none|Delete a Payment Terms.|
+| Method                                                 | Return Type|Description            |
+|:-------------------------------------------------------|:-----------|:----------------------|
+|[GET irs1099Codes](../api/dynamics_get_irs1099.md)      |irs1099Codes|Get a Payment Terms.   |
+|[POST irs1099Codes](../api/dynamics_create_irs1099.md)  |irs1099Codes|Create a Payment Terms.|
+|[PATCH irs1099Codes](../api/dynamics_update_irs1099.md) |irs1099Codes|Update a Payment Terms.|
+|[DELETE irs1099Codes](../api/dynamics_delete_irs1099.md)|none        |Delete a Payment Terms.|
 
 ## Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|id|GUID|The unique ID of the IRS 1099 Code. Non-editable.|
-|code|string|Specifies the IRS 1099 Code. |
-|displayName|string|Specifies the IRS 1099 Code display name.|
-|minimumReportable|decimal|Specifies the minimum value for this box that must be reported to the IRS on a 1099 form.|
+| Property	         | Type 	|Description                                      |
+|:-------------------|:-------|:------------------------------------------------|
+|id                  |GUID    |The unique ID of the IRS 1099 Code. Non-editable.|
+|code                |string  |Specifies the IRS 1099 Code.                     |
+|displayName         |string  |Specifies the IRS 1099 Code display name.        |
+|minimumReportable   |decimal |Specifies the minimum value for this box that must be reported to the IRS on a 1099 form.|
 |lastModifiedDateTime|datetime|The last datetime the IRS 1099 Code was modified. Read-Only.|  
 
 

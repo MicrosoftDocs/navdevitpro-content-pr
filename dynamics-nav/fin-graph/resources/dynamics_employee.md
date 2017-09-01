@@ -19,33 +19,33 @@ Represents an employee in Dynamics 365 for Financials.
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
-|[GET Employee](../api/dynamics_get_employee.md)|Employee|Get an Employee object|
-|[POST Employee](../api/dynamics_create_employee.md)|Employee|Create an Employee object|
-|[PATCH Employee](../api/dynamics_update_employee.md)|Employee|Update an Employee object|
-|[DELETE Employee](../api/dynamics_delete_employee.md)|none|Delete an Employee object|
+| Method                                              | Return Type|Description              |
+|:----------------------------------------------------|:-----------|:------------------------|
+|[GET Employee](../api/dynamics_get_employee.md)      |Employee    |Get an Employee object   |
+|[POST Employee](../api/dynamics_create_employee.md)  |Employee    |Create an Employee object|
+|[PATCH Employee](../api/dynamics_update_employee.md) |Employee    |Update an Employee object|
+|[DELETE Employee](../api/dynamics_delete_employee.md)|none        |Delete an Employee object|
 
 ## Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|id|GUID|The employee ID. Non-editable.|
-|number|string|The employee number. Read-Only.|
-|displayName|string|The employee givenName + surname. Read-Only.|
-|givenName|string|The given name of the employee.|
-|middleName|string|The middle name of the employee.|
-|surname|string|The surname of the employee|
-|jobTitle|string|The full name of the employee|
-|address|[NAV.PostalAddress](../resources/dynamics_complex_types.md)|Specifies the employee's address. This address will appear on all resource documents for the employee.|
-|phoneNumber|string|Specifies the employee's telephone number.|
-|mobilePhone|string|Specifies the employee's mobile telephone number.|
-|email|string|Specifies the employee's email address.|
-|personalEmail|string|Specifies the employee's personal email address.|
-|employmentDate|date|Specifies the date when the employee began to work for the company.|
-|terminationDate|date|Specifies the date when the employee was terminated, due to retirement or dismissal, for example.|
-|status|string|Specifies the employee's status. Possible values are Active, Inactive or Terminated|
-|birthDate|date|Specifies the employee's date of birth.|
-|picture|stream|The employee picture. Read-Only.|
+| Property	         | Type	  |Description                                            |
+|:-------------------|:-------|:------------------------------------------------------|
+|id                  |GUID    |The employee ID. Non-editable.                         |
+|number              |string  |The employee number. Read-Only.                        |
+|displayName         |string  |The employee givenName + surname. Read-Only.           |
+|givenName           |string  |The given name of the employee.                        |
+|middleName          |string  |The middle name of the employee.                       |
+|surname             |string  |The surname of the employee                            |
+|jobTitle            |string  |The full name of the employee                          |
+|address             |[NAV.PostalAddress](../resources/dynamics_complex_types.md)|Specifies the employee's address. This address will appear on all resource documents for the employee.|
+|phoneNumber         |string  |Specifies the employee's telephone number.             |
+|mobilePhone         |string  |Specifies the employee's mobile telephone number.      |
+|email               |string  |Specifies the employee's email address.                |
+|personalEmail       |string  |Specifies the employee's personal email address.       |
+|employmentDate      |date    |Specifies the date when the employee began to work for the company.|
+|terminationDate     |date    |Specifies the date when the employee was terminated, due to retirement or dismissal, for example.|
+|status              |string  |Specifies the employee's status. Possible values are Active, Inactive or Terminated|
+|birthDate           |date    |Specifies the employee's date of birth.                |
+|picture             |stream  |The employee picture. Read-Only.                       |
 |lastModifiedDateTime|datetime|The last datetime the employee was modified. Read-Only.|  
 
 

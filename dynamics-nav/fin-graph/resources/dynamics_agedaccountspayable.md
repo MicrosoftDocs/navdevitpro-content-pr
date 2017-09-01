@@ -1,6 +1,6 @@
 ---
 title: agedAccountsPayable resource type | Microsoft Docs
-description: A AgedAccountsPayable.
+description: An agedAccountsPayable.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -19,25 +19,25 @@ Represents an agedAccountsPayable object in Dynamics 365 for Financials, which i
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
-|[GET agedAccountsPayable](../api/dynamics_get_agedaccountspayable.md)|AgedAccountsPayable|Get AgedAccountsPayable object|
+| Method         | Return Type  |Description|
+|:---------------|:-------------|:----------|
+|[GET agedAccountsPayable](../api/dynamics_get_agedaccountspayable.md)|agedAccountsPayable|Get agedAccountsPayable object|
 
 ## Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|vendorId|GUID|The unique ID of vendor.|
-|vendorNumber|string|Specifies vendor's number.|
-|name|string|Specifies vendor's name.|
-|currencyCode|string|Specifies the currency.|
-|before|numeric|Specifies balance before first aging period.|
-|period1|numeric|Specifies balance in the first aging period.|
-|period2|numeric|Specifies balance in the second aging period.|
-|period3|numeric|Specifies balance in the third aging period.|
-|after|numeric|Specifies balance after third aging period.|
-|balance|numeric|Specifies vendor's total balance.|
+| Property	    | Type	   |Description                                 |
+|:--------------|:---------|:-------------------------------------------|
+|vendorId       |GUID      |The unique ID of vendor.                    |
+|vendorNumber   |string    |Specifies vendor's number.                  |
+|name           |string    |Specifies vendor's name.                    |
+|currencyCode   |string    |Specifies the currency.                     |
+|before         |numeric   |Specifies balance before first aging period.|
+|period1        |numeric   |Specifies balance in the first aging period.|
+|period2        |numeric   |Specifies balance in the second aging period.|
+|period3        |numeric   |Specifies balance in the third aging period.|
+|after          |numeric   |Specifies balance after third aging period. |
+|balance        |numeric   |Specifies vendor's total balance.           |
 |periodStartDateFilter|date|Specifies period start date used to calculate aging periods.|
-|periodLengthFilter|string|Specifies the length of the periods.|
+|periodLengthFilter|string |Specifies the length of the periods.        |
 
 
 ## Relationships
@@ -61,7 +61,7 @@ Here is a JSON representation of the resource.
     "after": "decimal",
     "balance": "decimal",
     "periodStartDateFilter": "date",
-    "periodLengthFilter": "string
+    "periodLengthFilter": "string"
 }
 
 ```

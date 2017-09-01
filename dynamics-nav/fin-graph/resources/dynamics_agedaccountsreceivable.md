@@ -1,6 +1,6 @@
 ---
 title: agedAccountsReceivable resource type | Microsoft Docs
-description: A AgedAccountsReceivable.
+description: An agedAccountsReceivable.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -19,25 +19,25 @@ Represents an agedAccountsReceivable object in Dynamics 365 for Financials, whic
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
-|[GET agedAccountsReceivable](../api/dynamics_get_agedaccountsreceivable.md)|AgedAccountsReceivable|Get AgedAccountsReceivable object|
+| Method         | Return Type  |Description|
+|:---------------|:-------------|:----------|
+|[GET agedAccountsReceivable](../api/dynamics_get_agedaccountsreceivable.md)|agedAccountsReceivable|Get agedAccountsReceivable object|
 
 ## Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|customerId|GUID|The unique ID of customer.|
-|customerNumber|string|Specifies customer's number.|
-|name|string|Specifies customer's name.|
-|currencyCode|string|Specifies the currency.|
-|before|numeric|Specifies balance before first aging period.|
-|period1|numeric|Specifies balance in the first aging period.|
-|period2|numeric|Specifies balance in the second aging period.|
-|period3|numeric|Specifies balance in the third aging period.|
-|after|numeric|Specifies balance after third aging period.|
-|balance|numeric|Specifies customer's total balance.|
+| Property	     | Type    |Description                                  |
+|:---------------|:--------|:--------------------------------------------|
+|customerId      |GUID     |The unique ID of customer.                   |
+|customerNumber  |string   |Specifies customer's number.                 |
+|name            |string   |Specifies customer's name.                   |
+|currencyCode    |string   |Specifies the currency.                      |
+|before          |numeric  |Specifies balance before first aging period. |
+|period1         |numeric  |Specifies balance in the first aging period. |
+|period2         |numeric  |Specifies balance in the second aging period.|
+|period3         |numeric  |Specifies balance in the third aging period. |
+|after           |numeric  |Specifies balance after third aging period.  |
+|balance         |numeric  |Specifies customer's total balance.          |  
 |periodStartDateFilter|date|Specifies period start date used to calculate aging periods.|
-|periodLengthFilter|string|Specifies the length of the periods.|
+|periodLengthFilter|string |Specifies the length of the periods.         |
 
 
 ## Relationships
@@ -61,7 +61,7 @@ Here is a JSON representation of the resource.
     "after": "decimal",
     "balance": "decimal",
     "periodStartDateFilter": "date",
-    "periodLengthFilter": "string
+    "periodLengthFilter": "string"
 }
 
 ```

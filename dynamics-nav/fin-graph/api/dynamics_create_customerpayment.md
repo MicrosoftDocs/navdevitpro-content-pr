@@ -22,10 +22,10 @@ POST /financials/companies/({id})/customerPaymentsJournals/({id})/customerPaymen
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer {token}. Required.    |
-|Content-Type  |application/json    |
+|Header        |Value                    |
+|--------------|-------------------------|
+|Authorization |Bearer {token}. Required.|
+|Content-Type  |application/json         |
 
 ## Request body
 In the request body, supply a JSON representation of customerPayment object.

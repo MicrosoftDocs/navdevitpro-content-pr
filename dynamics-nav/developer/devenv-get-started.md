@@ -19,32 +19,34 @@ caps.latest.revision: 18
 # Getting Started
 To get started writing extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] you will need a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenant, Visual Studio Code, and the AL Language extension. Visual Studio Code is a cross platform editor that you will use for coding and debugging.
 
-## Steps
-Follow these three steps to get up and running.
+## Steps to set up a sandbox environment and Visual Studio Code
+Go through the following steps to set up a sandbox environment. With the preview you get sample code that compiles and runs with just a few commands.
+
+1) Sign up for a [Dynamics 365 for Financials sandbox](https://aka.ms/GetSandboxForFinancials).    
+2) Download [Visual Studio Code](https://code.visualstudio.com/Download).  
+3) Download the [AL Language extension](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al).  
+4) Press **Alt+A, Alt+L** to trigger the **Go!** command, and then choose **Cloud**.  
+5) Enter the credentials you provided for the sign up, and then **Download symbols**.  
+6) Press **F5** to deploy and run the extension on your online sandbox tenant.  
+
+> [!NOTE]  
+> Use **Ctrl+Shift+P** to clear the credentials cache if you want to deploy against a different environment.
+
+You now have a HelloWorld sample that compiles and runs. The JSON files in the project are automatically updated with the settings that allows you to press **F5** to build and deploy the solution.
+
+> [!NOTE]  
+> If symbols are missing, you will be prompted to download them.
+
+As this feature is still in preview you might run into unrecoverable issues from time to time. In these cases, use [Reset Sandbox](https://portal.financials.dynamics.com/reset?env=sandbox&redirectedFromSignup=false) to reset the sandbox and start from a clean environment.
+
+Interested in an on-premise version? It's just as easy. Just sign up by following these steps.
 
 1) First, you will need an Azure subscription, sign up for a free subscription.  
 2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).  
 3) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen.  
 
 > [!NOTE]  
-> Get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
-
-<!--
-1) Sign up for [Dynamics 365 for Financials]()  
-2) Download [Visual Studio Code](https://code.visualstudio.com/Download)  
-3) Download the [AL Language extension](vscode:extension/ms-dynamics-smb.al)  -->
-
-# Getting started with Visual Studio Code
-With the developer preview, you get sample code that compiles and runs by following a few steps.  
-
-1) In Visual Studio Code, press **Ctrl**+**Shift**+**P** to show all commands.  
-2) Type **AL: Go** (case-insensitive) and select a project folder.  
-3) Then, select between developing on a local server, or a cloud server.
-
-You now have a HelloWorld sample that compiles and runs. The JSON files in the project are automatically updated with the settings that allows you to press **F5** to build and deploy the solution.
-
-> [!NOTE]  
-> If symbols are missing, you will be prompted to download them.
+> Build and get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
 
 ## JSON file settings
 There are two JSON files in the project; the `app.json` file and the `launch.json` file. The files are automatically generated for your project. For more information, see [JSON files](devenv-json-files.md).

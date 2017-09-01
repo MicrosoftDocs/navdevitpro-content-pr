@@ -25,10 +25,10 @@ PATCH /financials/companies/({id})/employees/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
-|Content-Type   |application/json. |
+|Content-Type   |application/json.         |
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the employee, the employee will not be updated. |
 
 ## Request body

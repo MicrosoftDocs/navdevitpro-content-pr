@@ -23,10 +23,10 @@ PATCH /financials/companies/({id})/paymentMethods/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
-|Authorization |Bearer {token}. Required.|
-|Content-Type  |application/json|
+|Header        |Value                     |
+|--------------|--------------------------|
+|Authorization |Bearer {token}. Required. |
+|Content-Type  |application/json          |
 |If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the paymentMethods, the paymentMethods will not be updated. |
 
 ## Request body
