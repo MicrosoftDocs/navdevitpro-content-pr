@@ -117,19 +117,19 @@ The following sections list the minimum hardware and software requirements to in
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
-|Hardware resources|-   Hard disk space: 500 MB.<br />-   Memory: 2 GB.|  
-|[!INCLUDE[crm](includes/crm_md.md)] integration|-   Windows Identity Framework.<br />     For a list of supported [!INCLUDE[crm](includes/crm_md.md)] versions, see [Microsoft Dynamics CRM Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#CRM).|  
-|Additional software|-   Microsoft .NET Framework 4.6.1.<br />-   Windows PowerShell 3.0.|  
+|Supported operating systems|<ul><li>Windows 10 Pro, Enterprise, or Education \(64-bit edition\).</li><li>Windows 8.1 Professional or Enterprise \(64-bit edition\).</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).</li><li>Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
+|Hardware resources|<ul><li>Hard disk space: 500 MB.</li><li>Memory: 2 GB.|  
+|[!INCLUDE[crm](includes/crm_md.md)] integration|<ul><li>Windows Identity Framework.<br />     For a list of supported [!INCLUDE[crm](includes/crm_md.md)] versions, see [Microsoft Dynamics CRM Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#CRM).|  
+|Additional software|<ul><li>Microsoft .NET Framework 4.6.1.</li><li>Windows PowerShell 3.0.|  
 |Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer:<br /><br /> <ul><li>Microsoft .NET Framework 4.6.1.</li><li>Windows Identity Framework.</li></ul></li></ul>|  
 
 ##  <a name="WebServer"></a> Microsoft Dynamics NAV Web Server Components Requirements  
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
+|Supported operating systems|<ul><li>Windows 10 Pro, Enterprise, or Education \(64-bit edition\).</li><li>Windows 8.1 Professional or Enterprise \(64-bit edition\).</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).</li><li>Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
 |Web server|<ul><li>Internet Information Server 10, Internet Information Server 8.5, Internet Information Server 8.0, or Internet Information Server 7.5.|   
-|Additional software|-   Microsoft .NET Framework 4.5.2.<br />-   Windows PowerShell 3.0.|  
+|Additional software|<ul><li>Microsoft .NET Framework 4.5.2.</li><li>Windows PowerShell 3.0.|  
 |Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer.<ul><li>Microsoft .NET Framework 4.5.2.</li><li>Internet Information Server 10, Internet Information Server 8.5, Internet Information Server 8.0, or Internet Information Server 7.5 depending in the operating system, with the required features enabled.</li></ul></li><li>For more information about installing IIS, see [How to: Install Internet Information Services for Microsoft Dynamics NAV Web Client](how-to--install-and-configure-internet-information-services-for-microsoft-dynamics-nav-web-client.md).</li><li>To avoid crashes on the IIS server with many concurrent users, download and install the update from here [Update for the .NET Framework 4.5 in Windows 8, Windows RT, and Windows Server 2012](http://go.microsoft.com/fwlink/?LinkId=313427).</li></ul>|  
 
 ##  <a name="SQLReq"></a> Microsoft Dynamics NAV Database Components for SQL Server Requirements  
@@ -137,49 +137,49 @@ The following sections list the minimum hardware and software requirements to in
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\). |  
+|Supported operating systems|<ul><li>Windows 10 Pro, Enterprise, or Education \(64-bit edition\).</li><li>Windows 8.1 Professional or Enterprise \(64-bit edition\).</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).</li><li>Windows Server 2012 Standard or Essentials \(64-bit edition\). |  
 |Hardware resources|For more information, see [Hardware and Software Requirements for Installing SQL Server 2016](http://go.microsoft.com/fwlink/?LinkId=622999). From this page, you can also access requirements for other versions of SQL Server.|  
-|SQL Server|-   Microsoft SQL Server 2016 Express, Standard or Enterprise.<br/>-   Microsoft SQL Server 2014 Express, Standard or Enterprise.<br />-   Microsoft SQL Server 2012 Service Pack 2 Express, Standard, or Enterprise \(64-bit editions only\).<br />-   Azure SQL Database V12 Standard and Premium service tiers.<br /><br /> For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).|  
+|SQL Server|<ul><li>Microsoft SQL Server 2016 Express, Standard or Enterprise.</li><li>Microsoft SQL Server 2014 Express, Standard or Enterprise.</li><li>Microsoft SQL Server 2012 Service Pack 2 Express, Standard, or Enterprise \(64-bit editions only\).</li><li>Azure SQL Database V12 Standard and Premium service tiers.<br /><br /> For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).|  
 |Service Packs and Cumulative Updates| Unless explicitly stated, all released Service Packs and Cumulative Updates of the above Microsoft SQL Server versions are supported. It is recommended to always be on the latest released Service Pack and Cumulative Update.|
-|Additional information|[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer:<br /><br /> <ul><li>SQL Server 2016 Express \(64-bit edition\).<br>If the operating system on the target computer does not support SQL Server 2016 Express, Setup displays a pre-requisite warning. In this case you should exit Setup and then update the operating system on the computer to one that does support SQL Server 2016 Express. Then run Setup again.</li></ul>|  
+|Additional information|[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer:<ul><li>SQL Server 2016 Express \(64-bit edition\).<br>If the operating system on the target computer does not support SQL Server 2016 Express, Setup displays a pre-requisite warning. In this case you should exit Setup and then update the operating system on the computer to one that does support SQL Server 2016 Express. Then run Setup again.</li></ul>|  
 
 ##  <a name="HelpServer"></a> Microsoft Dynamics NAV Help Server Requirements  
  The following table shows the minimum system requirements for the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server.  
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit editions\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />-   Windows Server 2012.<br />-   Windows Server 2012 Essentials.|  
-|Hardware resource|-   Hard disk space: 500 MB.<br />-   Memory: 2 GB.|  
+|Supported operating systems|<ul><li>Windows 10 Pro, Enterprise, or Education \(64-bit editions\).</li><li>Windows 8.1 Professional or Enterprise \(64-bit edition\).</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012.</li><li>Windows Server 2012 Essentials.</li></ul>|  
+|Hardware resource|<ul><li>Hard disk space: 500 MB.</li><li>Memory: 2 GB.</li></ul>|  
 |Web server|<ul><li>Internet Information Server 10, Internet Information Server 8.5, Internet Information Server 8.0, or Internet Information Server 7.5. The following features must be enabled:<br /><br /> <ul><li>.NET Extensibility 4.5.2.</li><li>ASP .NET 4.5.</li><li>ISAPI Extensions.</li><li>ISAPI Filters.</li><li>Request Filtering.</li><li>Windows Authentication.</li><li>Static Content.</li><li>HTTP Activation.</li></ul></li></ul>|  
-|Additional software|-   Microsoft .NET Framework 4.6.1.|  
-|Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer.<br /><br /> <ul><li>Microsoft .NET Framework 4.6.1.</li><li>Internet Information Server 10, Internet Information Server 8.5, Internet Information Server 8.0, or Internet Information Server 7.5, depending on the operating system, with the required features enabled.</li></ul></li><li>For more information about installing IIS, see [How to: Install Internet Information Services for Microsoft Dynamics NAV Web Client](http://go.microsoft.com/fwlink/?LinkId=265466)</li><li>Windows Search must be enabled on the computer that you install the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server on. If you install on Windows Server 2012, and Windows Search is not enabled as a file service, [!INCLUDE[navnow](includes/navnow_md.md)] Setup adds the service. However, the changes do not take effect until the computer has restarted.</li></ul>|  
+|Additional software|<ul><li>Microsoft .NET Framework 4.6.1.</li></ul>|  
+|Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer.<ul><li>Microsoft .NET Framework 4.6.1.</li><li>Internet Information Server 10, Internet Information Server 8.5, Internet Information Server 8.0, or Internet Information Server 7.5, depending on the operating system, with the required features enabled.</li></ul></li><li>For more information about installing IIS, see [How to: Install Internet Information Services for Microsoft Dynamics NAV Web Client](http://go.microsoft.com/fwlink/?LinkId=265466)</li><li>Windows Search must be enabled on the computer that you install the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server on. If you install on Windows Server 2012, and Windows Search is not enabled as a file service, [!INCLUDE[navnow](includes/navnow_md.md)] Setup adds the service. However, the changes do not take effect until the computer has restarted.</li></ul>|  
 
 ##  <a name="ADCS"></a> Automated Data Capture System Requirements  
  The following table shows the minimum system requirements for Automated Data Capture System \(ADCS\) for [!INCLUDE[navnow](includes/navnow_md.md)].  
 
 |||  
 |-|-|  
-|Additional software|-   MSXML version 6.0.<br />-   Telnet or Microsoft Windows HyperTerminal.<br />-   VT100 Plug-in for each computer on which you install ADCS.<br />-   Microsoft Loopback Adapter.|  
-|Additional information|-   HyperTerminal is no longer included with Windows. For more information, see [What happened to HyperTerminal?](http://go.microsoft.com/fwlink/?LinkId=222571) in the Windows Help.<br />-   VT100 Plug-in acts as a virtual Telnet server.|  
+|Additional software|<ul><li>MSXML version 6.0.</li><li>Telnet or Microsoft Windows HyperTerminal.</li><li>VT100 Plug-in for each computer on which you install ADCS.</li><li>Microsoft Loopback Adapter.</li></ul>|  
+|Additional information|<ul><li>HyperTerminal is no longer included with Windows. For more information, see [What happened to HyperTerminal?](http://go.microsoft.com/fwlink/?LinkId=222571) in the Windows Help.</li><li>VT100 Plug-in acts as a virtual Telnet server.</li></ul>|  
 
 ##  <a name="BusInboxOutlook"></a> Business Inbox in Microsoft Outlook Requirements  
 The following table shows the minimum system requirements for using [!INCLUDE[navnow_md](includes/navnow_md.md)] as your business inbox in Outlook.
 
 |||  
 |-|-|  
-|Supported Outlook Applications |Outlook 2013 or later, Outlook Web App, OWA for iPad, OWA for iPhone, and OWA for Android.|
-|Supported Exchange Servers|Exchange Online, Exchange Server 2016, or Exchange Server 2013.<br />In deployments that use Exchange Server, the Exchange PowerShell endpoint must be accessible by [!INCLUDE[nav_server](includes/nav_server_md.md)].|
-|Supported Authentication|The [!INCLUDE[nav_server_md](includes/nav_server_md.md)] must be configured to run with NavUserPassword, ACS, or AAD Credentials Type.<br /> Also, the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] must be configured for Secure Sockets Layer (SSL).|
-|Supported Browsers|When using the Outlook Web App (OWA), your computer must be running a supported browser listed in the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] Requirements.|
-|Supported Operating Systems|When using OWA for iPad, OWA for iPad, or OWA for Android, your mobile device must use a supported Operating System listed in [!INCLUDE[nav_uni_app_md](includes/nav_uni_app_md.md)] Requirements.|  
+|Supported Outlook Applications |<ul><li>Outlook 2013 or later</li><li>Outlook Web App</li><li>OWA for iPad</li><li>OWA for iPhone</li><li> OWA for Android.</li></ul>|
+|Supported Exchange Servers|<ul><li>Exchange Online</li><li>Exchange Server 2016</li><li>Exchange Server 2013.<br />In deployments that use Exchange Server, the Exchange PowerShell endpoint must be accessible by [!INCLUDE[nav_server](includes/nav_server_md.md)].</li></ul>|
+|Supported Authentication|<ul><li>The [!INCLUDE[nav_server_md](includes/nav_server_md.md)] must be configured to run with NavUserPassword, ACS, or AAD Credentials Type.<br /> Also, the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] must be configured for Secure Sockets Layer (SSL).</li></ul>|
+|Supported Browsers|<ul><li>When using the Outlook Web App (OWA), your computer must be running a supported browser listed in the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] Requirements.</li></ul>|
+|Supported Operating Systems|<ul><li>When using OWA for iPad, OWA for iPad, or OWA for Android, your mobile device must use a supported Operating System listed in [!INCLUDE[nav_uni_app_md](includes/nav_uni_app_md.md)] Requirements.</li></ul>|  
 
 ##  <a name="Outlook"></a> Microsoft Outlook Add-In Requirements  
 The following table shows the minimum system requirements for the [!INCLUDE[navnow_md](includes/navnow_md.md)] Add-In for Outlook for synchronization with Outlook.
 
 |||  
 |-|-|  
-|Supported Outlook Applications |Outlook 2016, Outlook 2013 SP1, or Outlook 2010 SP2 \(32-bit edition\).|
-|Supported Exchange Servers|Exchange Server 2016, Exchange Server 2013, or Exchange Online.|  
+|Supported Outlook Applications |<ul><li>Outlook 2016</li><li>Outlook 2013 SP1</li><li> Outlook 2010 SP2 \(32-bit edition\).</li></ul>|
+|Supported Exchange Servers|<ul><li>Exchange Server 2016</li><li>Exchange Server 2013</li><li>Exchange Online.</li></ul>|  
 
 
 ##  <a name="CRM"></a> Microsoft Dynamics CRM Integration Requirements  
@@ -187,18 +187,16 @@ The following table shows the minimum system requirements for the [!INCLUDE[navn
 
 |||  
 |-|-|  
-|Microsoft Dynamics CRM versions|- Microsoft Dynamics CRM 2015 or Microsoft Dynamics CRM 2016<BR />&nbsp;&nbsp;Note: AD, IFD and Claims authentication types are supported for above editions.<BR /><BR />-  Microsoft Dynamics CRM Online 2015, Microsoft Dynamics CRM Online 2015 Update 1, or Microsoft Dynamics CRM Online 2016 Update 1 or Microsoft Dynamics 365<BR />&nbsp;&nbsp;Note: Oauth and Office365 authentication types are supported for these editions. <BR /><BR />For more details on authentication types, see [Connection strings in XRM tooling to connect to Dynamics 365](https://msdn.microsoft.com/en-us/library/mt608573.aspx).|
-|[!INCLUDE[navnow_md](includes/navnow_md.md)] Integration Solution (.zip)|For Dynamics CRM 2015, Dynamics CRM Online 2015, and Dynamics CRM Online 2015 Update 1:<BR/><BR/>- Use the DynamicsNAVIntegrationSolution.zip file that is found on the Dynamics NAV 2016 installation media (DVD) to install the solution.<BR/>- Item Availability is not supported on Dynamics CRM 2015, versions Update 1 and Online.<BR/><BR/>For more information, see [How to: Prepare Dynamics CRM for Integration](How-to-prepare-Dynamics-CRM-for-Integration.md).      |  
-
-
+|Microsoft Dynamics CRM versions|<ul><li>Microsoft Dynamics CRM 2015 or Microsoft Dynamics CRM 2016<BR />Note: AD, IFD and Claims authentication types are supported for above editions.</li><li>Microsoft Dynamics CRM Online 2015, Microsoft Dynamics CRM Online 2015 Update 1, or Microsoft Dynamics CRM Online 2016 Update 1 or Microsoft Dynamics 365<BR />Note: Oauth and Office365 authentication types are supported for these editions.</li></ul>For more details on authentication types, see [Connection strings in XRM tooling to connect to Dynamics 365](https://msdn.microsoft.com/en-us/library/mt608573.aspx).|
+|[!INCLUDE[navnow_md](includes/navnow_md.md)] Integration Solution (.zip)|For Dynamics CRM 2015, Dynamics CRM Online 2015, and Dynamics CRM Online 2015 Update 1:<ul><li>Use the DynamicsNAVIntegrationSolution.zip file that is found on the Dynamics NAV 2016 installation media (DVD) to install the solution.</li><li>Item Availability is not supported on Dynamics CRM 2015, versions Update 1 and Online.</li></ul>For more information, see [How to: Prepare Dynamics CRM for Integration](How-to-prepare-Dynamics-CRM-for-Integration.md).      |  
 
 ##  <a name="SharePointApp"></a> Microsoft Dynamics NAV as an App for SharePoint Requirements  
  The following table shows the minimum system requirements for [!INCLUDE[navnow](includes/navnow_md.md)] as an App for SharePoint.  
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />- Windows Server 2012 R2 Standard or Datacenter \(64-bit edition\).<br />-   Windows Server 2012 Standard or Datacenter \(64-bit edition\).|  
-|Additional software|-   SharePoint 2013 Service Pack 1.<br />-   SharePoint Online.|  
+|Supported operating systems|<ul><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012 R2 Standard or Datacenter \(64-bit edition\).</li><li>Windows Server 2012 Standard or Datacenter \(64-bit edition\).</li></ul>|  
+|Additional software|<ul><li>SharePoint 2013 Service Pack 1.</li><li>SharePoint Online.</li></ul>|  
 
 ##  <a name="Azure"></a> Automated Deployment on Microsoft Azure Requirements  
  Automated deployment of [!INCLUDE[navnow](includes/navnow_md.md)] on Microsoft Azure by using the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] is only supported on Azure virtual machines that are running Windows Server 2012. For additional requirements for specific [!INCLUDE[navnow](includes/navnow_md.md)] components, refer to the other sections in this topic.
