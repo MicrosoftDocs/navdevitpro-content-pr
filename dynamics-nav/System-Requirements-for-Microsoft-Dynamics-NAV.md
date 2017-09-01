@@ -58,16 +58,16 @@ The following sections list the minimum hardware and software requirements to in
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(32-bit and 64-bit editions\).<br />-   Windows 8.1 Professional or Enterprise \(32-bit and 64-bit editions\).<br />-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
-|Hardware resources|-   Hard disk space: 200 MB.<br />-   Memory: 1 GB.|  
-|Reports|<ul><li>For editing RDLC report layouts:<ul><li>Report Builder for SQL Server 2016 or Visual Studio 2017 with [Microsoft Rdlc Report Designer for Visual Studio](https://go.microsoft.com/fwlink/?linkid=857038).</li></ul><li>For editing Word layouts:<ul><li>Microsoft Word 2013 or later</li></ul></ul>|  
-|Instant messaging and Telephony API|-   Microsoft Lync 2013 or Microsoft Lync 2010.|  
-|Outlook client integration and mail merge|-   Microsoft Office 365, Microsoft Office 2016, Microsoft Office 2013 Service Pack 1 \(SP1\), or Microsoft Office 2010 Service Pack 2 \(SP2\).|  
-|Import and export with Microsoft Excel and Office XML, and SharePoint links|-   Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.|  
-|Editing in Excel using the Excel Add-in |Excel 2016<br /><br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).|  
-|OneNote integration|-   Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 2010 SP2.|  
-|Email logging|-   Active Directory and Microsoft Exchange Server 2010 or Microsoft Exchange Server 2013.<br />-   Microsoft Exchange Online, or Exchange Online as part of an Office 365 subscription.|  
-|Additional software|-   Microsoft .NET Framework 4.6.1.|  
+|Supported operating systems|<ul><li>Windows 10 Pro, Enterprise, or Education \(32-bit and 64-bit editions\).</li><li>Windows 8.1 Professional or Enterprise \(32-bit and 64-bit editions\).</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).</li><li>Windows Server 2012 Standard or Essentials \(64-bit edition\).</li></ul>|  
+|Hardware resources|<ul><li>Hard disk space: 200 MB.</li><li>Memory: 1 GB.</li></ul>|  
+|Reports|<ul><li>For editing RDLC report layouts:<ul><li>Report Builder for SQL Server 2016 or Visual Studio 2017 with [Microsoft Rdlc Report Designer for Visual Studio](https://go.microsoft.com/fwlink/?linkid=857038) installed.</li></ul><li>For editing Word layouts:<ul><li>Microsoft Word 2013 or later</li></ul></ul>|  
+|Instant messaging and Telephony API|<ul><li>Microsoft Lync 2013 or Microsoft Lync 2010.</li></ul>|  
+|Outlook client integration and mail merge|<ul><li>Microsoft Office 365, Microsoft Office 2016, Microsoft Office 2013 Service Pack 1 \(SP1\), or Microsoft Office 2010 Service Pack 2 \(SP2\).</li></ul>|  
+|Import and export with Microsoft Excel and Office XML, and SharePoint links|<ul><li>Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
+|Editing in Excel using the Excel Add-in |<ul><li>Excel 2016.<br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).</li></ul>|  
+|OneNote integration|<ul><li>Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 2010 SP2.</li></ul>|
+|Email logging|<ul><li>Active Directory and Microsoft Exchange Server 2010 or Microsoft Exchange Server 2013.</li><li>Microsoft Exchange Online, or Exchange Online as part of an Office 365 subscription.</li></ul>|  
+|Additional software|<ul><li>Microsoft .NET Framework 4.6.1.</li></ul>|  
 |Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present in the target computer:<ul><li>Microsoft .NET Framework 4.6.1.</li></ul></li><li>The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is available in a 32-bit version and 64-bit version. On a 32-bit Windows operating system, the 32-bit version is run. On a 64-bit Windows operating system, the 64-bit version is run by default; however, you can also run the 32-bit version if it is required.</li><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup can only install the Excel Add-in if Excel is present on the target computer.</li><li>Outlook synchronization is not supported on 64-bit versions of Office.</li><li>**Note:** We’ve had reports that .NET framework 4.7 can cause the Windows client environment to crash. In this case the solution is to uninstall .NET framework 4.7.</li></ul>|  
 
 ##  <a name="DevEnv"></a> Microsoft Dynamics NAV Development Environment Requirements  
@@ -75,10 +75,10 @@ The following sections list the minimum hardware and software requirements to in
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(32-bit and 64-bit editions\).<br />-   Windows 8.1 Professional or Enterprise \(32-bit and 64-bit editions\).<br />-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
-|Hardware resources|-   Hard disk space: 200 MB.<br />-   Memory: 1 GB.|  
-|Reports|<ul><li>For creating and editing RDLC report layouts:<ul><li>Report Builder for SQL Server 2016 or Visual Studio 2017 with [Microsoft Rdlc Report Designer for Visual Studio](https://go.microsoft.com/fwlink/?linkid=857038).<br /> The following versions and editions of Visual Studio are supported:<ul><li>Microsoft Visual Studio 2017</li><li>Microsoft Visual Studio 2015 Professional or Enterprise edition with SQL Server Data Tools installed.<br />**Important:**  Before you install Visual Studio 2015, install Microsoft .NET Framework 4.6.1; otherwise, an error will occur when you compile or run RDLC reports. For more information, see [Report error "Visual Basic Command Line Compiler has stopped working"](http://go.microsoft.com/fwlink/?LinkID=722862).</li></ul></li></ul></ul><ul><li>For upgrading reports:<ul><li>Report Builder for SQL Server 2016</li></ul><li>For creating Word report layouts:<ul><li>Word 2013 or later</li></ul></li></ul>|  
-|Additional software|-   Microsoft .NET Framework 4.6.1.|  
+|Supported operating systems|<ul><li> Windows 10 Pro, Enterprise, or Education \(32-bit and 64-bit editions\).</li><li>Windows 8.1 Professional or Enterprise \(32-bit and 64-bit editions\).</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).</li><li>Windows Server 2012 Standard or Essentials \(64-bit edition\).</li></ul>|  
+|Hardware resources|<ul><li>Hard disk space: 200 MB.</li><li> Memory: 1 GB.</li></ul>|  
+|Reports|<ul><li>For creating and editing RDLC report layouts:<ul><li>Report Builder for SQL Server 2016 or one of the following versions of Visual Studio:<ul><li>Visual Studio 2017 with [Microsoft Rdlc Report Designer for Visual Studio](https://go.microsoft.com/fwlink/?linkid=857038) installed.</li><li>Microsoft Visual Studio 2015 Professional or Enterprise edition with SQL Server Data Tools installed.<br />**Important:**  Before you install Visual Studio 2015, install Microsoft .NET Framework 4.6.1; otherwise, an error will occur when you compile or run RDLC reports. For more information, see [Report error "Visual Basic Command Line Compiler has stopped working"](http://go.microsoft.com/fwlink/?LinkID=722862).</li></ul></li></ul></ul><ul><li>For upgrading reports:<ul><li>Report Builder for SQL Server 2016</li></ul><li>For creating Word report layouts:<ul><li>Word 2013 or later</li></ul></li></ul>|  
+|Additional software|<ul><li>Microsoft .NET Framework 4.6.1.</li></ul>|  
 |Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present in the target computer:<ul><li>Microsoft .NET Framework 4.6.1.</li><li>SQL Server Native Client 11.0.</li><li>Report Builder for SQL Server 2016. This is not installed if a version of SQL Server Report Builder or Microsoft Visual Studio is already present on the target computer</li></ul></li><li>If the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] are on the same computer, then only a 64-bit operating system is supported.</li><li>**Note:** We’ve had reports that .NET framework 4.7 can cause the Windows client environment to crash. In this case the solution is to uninstall .NET framework 4.7.</li></ul>|  
 
 ##  <a name="WebClient"></a> Microsoft Dynamics NAV Web Client Requirements  
@@ -86,12 +86,12 @@ The following sections list the minimum hardware and software requirements to in
 
 |||  
 |-|-|  
-|Supported browsers|-   Microsoft Edge.<br />-   Internet Explorer 11.<br />-   Google Chrome 53.0 for Windows.<br />-   Mozilla Firefox 49.0 for Windows.<br />-   Safari 9.0 and 10.0 on OSX.<br /><br /> For a list of browser limitations, see [Browser Limitations with the Microsoft Dynamics NAV Web Client](Browser-Limitations-with-the-Microsoft-Dynamics-NAV-Web-Client.md).|  
-|Business inbox in Outlook|-   Microsoft Office 365.|  
-|Sending data to Excel|-   Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.|  
-|Editing in Excel using the Excel Add-in |Excel 2016.<br /><br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).|  
-|SharePoint Online links|-   Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.|  
-|Printing reports to Excel or Word|-   Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.|  
+|Supported browsers|<ul><li>Microsoft Edge.</li><li>Internet Explorer 11.</li><li>Google Chrome 53.0 for Windows.</li><li>Mozilla Firefox 49.0 for Windows.</li><li>Safari 9.0 and 10.0 on OSX.</li></ul>For a list of browser limitations, see [Browser Limitations with the Microsoft Dynamics NAV Web Client](Browser-Limitations-with-the-Microsoft-Dynamics-NAV-Web-Client.md).|  
+|Business inbox in Outlook|<ul><li>Microsoft Office 365.</li></ul>|  
+|Sending data to Excel|<ul><li>Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
+|Editing in Excel using the Excel Add-in |<ul><li>Excel 2016.<br /><br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).</li></ul>|  
+|SharePoint Online links|<ul><li>Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
+|Printing reports to Excel or Word|<ul><li>Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
 |Additional information|If you experience problems using the [!INCLUDE[nav_web](includes/nav_web_md.md)], you can try to turn off browser tools, such as translator tools that may run in the background.|  
 
 ##  <a name="NavApps"></a> Microsoft Dynamics NAV Tablet Client and Phone Client \(in a Browser\) Requirements  
@@ -100,17 +100,17 @@ The following sections list the minimum hardware and software requirements to in
 |||  
 |-|-|  
 |Server component|Identical to the [!INCLUDE[navnow](includes/navnow_md.md)] Web client.|  
-|Supported browsers|The following desktop browsers are supported:<br /><br /> -   Microsoft Edge<br />-   Internet Explorer 11 \(build 11.0.9600.17239\) for Windows 10 and for Windows 8.1 \(32-bit and 64-bit versions\).<br />-   Google Chrome 53.0 for Windows.<br />-   Mozilla Firefox 49.0 for Windows.|  
+|Supported browsers|The following desktop browsers are supported:<ul><li> Microsoft Edge</li><li>Internet Explorer 11 \(build 11.0.9600.17239\) for Windows 10 and for Windows 8.1 \(32-bit and 64-bit versions\).</li><li>Google Chrome 53.0 for Windows.</li><li>Mozilla Firefox 49.0 for Windows.|  
 
 ##  <a name="DynNAVApp"></a> Microsoft Dynamics NAV Universal App Requirements  
  The following table shows the minimum system requirements for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)]. For the latest information, see [Dynamics NAV for Windows](http://go.microsoft.com/fwlink/?LinkId=509974), [Dynamics NAV for iPad and iPhone](http://go.microsoft.com/fwlink/?LinkId=509975), and [Dynamics NAV for Android tablet and Android phone](http://go.microsoft.com/fwlink/?LinkId=509976).  
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Home, Pro, Enterprise, or Education \(32-bit and 64-bit editions\).<br />-   Android 5.0 or higher (tablet and phone).<br />-   iOS 9.0 or higher (iPad and iPhone).<br />-   Windows Phone 8.1 or higher.<br />|  
-|Additional hardware|-   1 GB RAM for Android and Windows.|  
-|Additional software|-   A third-party telephony or VoIP app such as Skype or Lync is required for placing calls from [!INCLUDE[navnow](includes/navnow_md.md)].<br />-   A third-party email program such as Outlook is required for sending emails from [!INCLUDE[navnow](includes/navnow_md.md)].<br />-   Microsoft Office 2013 SP1 or Microsoft Office 365 is required for sending data to Microsoft Excel or to Microsoft Word.|  
-|Additional information|-   Device diagonal screen size 7” for tablets.<br />-   Screen resolution 960 × 510 for tablets.<br /> -   Device diagonal screen size 4” for phones.<br />-   Screen resolution 854 x 480 for phones.|  
+|Supported operating systems|<ul><li>Windows 10 Home, Pro, Enterprise, or Education \(32-bit and 64-bit editions\).</li><li>Android 5.0 or higher (tablet and phone).</li><li>iOS 9.0 or higher (iPad and iPhone).</li><li>Windows Phone 8.1 or higher.</li></ul>|  
+|Additional hardware|<ul><li>1 GB RAM for Android and Windows.</li></ul>|  
+|Additional software|<ul><li>A third-party telephony or VoIP app such as Skype or Lync is required for placing calls from [!INCLUDE[navnow](includes/navnow_md.md)].</li><li>A third-party email program such as Outlook is required for sending emails from [!INCLUDE[navnow](includes/navnow_md.md)].</li><li>Microsoft Office 2013 SP1 or Microsoft Office 365 is required for sending data to Microsoft Excel or to Microsoft Word.</li></ul>|  
+|Additional information|<ul><li>Device diagonal screen size 7” for tablets.</li><li>Screen resolution 960 × 510 for tablets.</li><li>Device diagonal screen size 4” for phones.</li><li>Screen resolution 854 x 480 for phones.</li></ul>|  
 
 ##  <a name="NavServerReqs"></a> Microsoft Dynamics NAV Server Requirements  
  The following table shows the minimum system requirements for [!INCLUDE[nav_server](includes/nav_server_md.md)].  
