@@ -19,19 +19,19 @@ Represents a category for a number of items in Dynamics 365 for Financials.
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
-|[GET itemCategories](../api/dynamics_get_itemcategories.md)|itemCategories|Get an Item Category.|
-|[POST itemCategories](../api/dynamics_create_itemcategories.md)|itemCategories|Create an Item Category.|
-|[PATCH itemCategories](../api/dynamics_update_itemcategories.md)|itemCategories|Update an Item Category.|
-|[DELETE itemCategories](../api/dynamics_delete_itemcategories.md)|none|Delete an Item Category.|
+| Method                                                          | Return Type  |Description             |
+|:----------------------------------------------------------------|:-------------|:-----------------------|
+|[GET itemCategories](../api/dynamics_get_itemcategories.md)      |itemCategories|Get an Item Category.   |
+|[POST itemCategories](../api/dynamics_create_itemcategories.md)  |itemCategories|Create an Item Category.|
+|[PATCH itemCategories](../api/dynamics_update_itemcategories.md) |itemCategories|Update an Item Category.|
+|[DELETE itemCategories](../api/dynamics_delete_itemcategories.md)|none          |Delete an Item Category.|
 
 ## Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|id|GUID|The unique ID of the itemCategory. Non-editable.|
-|code|string|The itemCategory code.|
-|displayName|string|The itemCategories display name.|
+| Property	         | Type	  |Description                                     |
+|:-------------------|:-------|:-----------------------------------------------|
+|id                  |GUID    |The unique ID of the itemCategory. Non-editable.|
+|code                |string  |The itemCategory code.                          |
+|displayName         |string  |The itemCategories display name.                |
 |lastModifiedDateTime|datetime|The last datetime the itemCategory was modified. Read-Only.|  
 
 

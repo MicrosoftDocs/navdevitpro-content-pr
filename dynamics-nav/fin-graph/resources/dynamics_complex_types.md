@@ -22,10 +22,10 @@ These are the various complex types in Dynamics 365 for Financials. You can see 
 Represents an Item Category complex type in Dynamics 365 for Financials.
 
 ### Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|categoryId|string|The unique ID of the item category.|
-|description|string|Specifies the description of the item category.|
+| Property	   | Type	 |Description                                    |
+|:-------------|:------|:----------------------------------------------|
+|categoryId    |string |The unique ID of the item category.            |
+|description   |string |Specifies the description of the item category.|
 
 ```json
 "ItemCategory" 
@@ -40,12 +40,12 @@ Represents an Item Category complex type in Dynamics 365 for Financials.
 Represents a Unit of Measure complex type in Dynamics 365 for Financials.       
 
 ### Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|code|string|The unique ID of the unit of measure.|
-|displayName|string|Specifies the description of the unit of measure.|
-|symbol|string|Specifies a graphical representation of the unit of measure.|
-|unitConversion|Specifies the conversion rate to a different (target) unit of measure.|
+| Property	   | Type	 |Description                                                 |
+|:-------------|:------|:-----------------------------------------------------------|
+|code          |string |The unique ID of the unit of measure.                       |
+|displayName   |string |Specifies the description of the unit of measure.           |
+|symbol        |string |Specifies a graphical representation of the unit of measure.|
+|unitConversion|       |Specifies the conversion rate to a different (target) unit of measure.|
 
 ```json
 "UnitOfMeasure" 
@@ -62,10 +62,10 @@ Represents a Unit of Measure complex type in Dynamics 365 for Financials.
 Represents a Unit of Measure Conversion complex type in Dynamics 365 for Financials.       
 
 ### Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|toUnitOfMeasure|string|Specifies the unit of measure to convert to.|
-|fromToConversionRate|decimal|Specifies what the (source) base unit of measure is multiplied with in order to convert to the target unit of measure.|
+| Property	         | Type	   |Description                                  |
+|:-------------------|:--------|:--------------------------------------------|
+|toUnitOfMeasure     |string   |Specifies the unit of measure to convert to. |
+|fromToConversionRate|decimal  |Specifies what the (source) base unit of measure is multiplied with in order to convert to the target unit of measure.|
 
 ```json
 "ItemUnitOfMeasureConversion" 
@@ -80,10 +80,10 @@ Represents a Unit of Measure Conversion complex type in Dynamics 365 for Financi
 Represents a Payment Method complex type in Dynamics 365 for Financials.       
 
 ### Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|code|string|The unique code of the payment method.|
-|description|string|Specifies a text that describes the payment method.|
+| Property	   | Type	 |Description                           |
+|:-------------|:------|:-------------------------------------|
+|code          |string |The unique code of the payment method.|
+|description   |string |Specifies a text that describes the payment method.|
 
 ```json
 "PaymentMethod" 
@@ -98,10 +98,10 @@ Represents a Payment Method complex type in Dynamics 365 for Financials.
 Represents a Payment Terms complex type in Dynamics 365 for Financials.       
 
 ### Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|code|string|The unique code of the payment terms.|
-|description|string|Specifies a text that describes the payment terms.|
+| Property	| Type	|Description                          |
+|:----------|:------|:------------------------------------|
+|code       |string |The unique code of the payment terms.|
+|description|string |Specifies a text that describes the payment terms.|
 
 ```json
 "PaymentTermsType" 
@@ -116,13 +116,13 @@ Represents a Payment Terms complex type in Dynamics 365 for Financials.
 Represents a Postal Address complex type in Dynamics 365 for Financials.       
 
 ### Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|street|string|Postal address street.|
-|city|string|Postal address city.|
-|state|string|Postal address state.|
-|countryLetterCode|string|Postal address country letter code (two character word)|
-|postalCode|string|Postal address post code|
+| Property	   | Type	    |Description             |
+|:-------------|:---------|:-----------------------|
+|street        |string    |Postal address street.  |
+|city          |string    |Postal address city.    |
+|state         |string    |Postal address state.   |
+|countryLetterCode|string |Postal address country letter code (two character word)|
+|postalCode    |string    |Postal address post code|
 
 ```json
 "PostalAddress" 
@@ -140,10 +140,10 @@ Represents a Postal Address complex type in Dynamics 365 for Financials.
 Represents a Shipment Method complex type in Dynamics 365 for Financials.       
 
 ### Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|code|string|The unique code of the shipment method.|
-|description|string|Specifies the description of the shipment method.|
+| Property	|Type	  |Description                            |
+|:----------|:------|:--------------------------------------|
+|code       |string |The unique code of the shipment method.|
+|description|string |Specifies the description of the shipment method.|
 
 ```json
 "ShipmentMethod" 
@@ -158,10 +158,10 @@ Represents a Shipment Method complex type in Dynamics 365 for Financials.
 Represents a Line Details complex type in Dynamics 365 for Financials.       
 
 ### Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|number|string|The sequence number of the document line details.|
-|displayName|string|The display name of the line.|
+| Property	  | Type	|Description                  |
+|:------------|:------|:----------------------------|
+|number       |string |The sequence number of the document line details.|
+|displayName  |string |The display name of the line.|
 
 ```json
 "documentLineObjectDetails" 

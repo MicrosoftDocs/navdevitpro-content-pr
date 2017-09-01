@@ -19,22 +19,22 @@ Represents a dimension line in Dynamics 365 for Financials.
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
-|[GET Dimension Line](../api/dynamics_get_dimensionline.md)|Dimension Line|Get Dimension Line object|
-|[POST Dimension Line](../api/dynamics_create_dimensionline.md)|Dimension Line|Create Dimension Line object|
-|[PATCH Dimension Line](../api/dynamics_update_dimensionline.md)|Dimension Line|Update Dimension Line object|
-|[DELETE Dimension Line](../api/dynamics_delete_dimensionline.md)|none|Delete Dimension Line object|
+| Method                                                         | Return Type  |Description                 |
+|:---------------------------------------------------------------|:-------------|:---------------------------|
+|[GET Dimension Line](../api/dynamics_get_dimensionline.md)      |Dimension Line|Get Dimension Line object   |
+|[POST Dimension Line](../api/dynamics_create_dimensionline.md)  |Dimension Line|Create Dimension Line object|
+|[PATCH Dimension Line](../api/dynamics_update_dimensionline.md) |Dimension Line|Update Dimension Line object|
+|[DELETE Dimension Line](../api/dynamics_delete_dimensionline.md)|none          |Delete Dimension Line object|
 
 ## Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|parentId|GUID|The ID of the parent entity. Non editable.|
-|id|GUID|The unique ID of the dimension line. Non editable.|
-|code|string, maximum size 20| The code of the dimension.|
-|displayName|string, maximum size 30| The display name of the dimension. Read-Only.|
-|valueId|GUID|The unique ID of the value of the dimension.|
-|valueCode|string, maximum size 20|The code of the value of the dimension.|
+| Property	     | Type	                 |Description                                               |
+|:---------------|:----------------------|:---------------------------------------------------------|
+|parentId        |GUID                   |The ID of the parent entity. Non editable.                |
+|id              |GUID                   |The unique ID of the dimension line. Non editable.        |
+|code            |string, maximum size 20| The code of the dimension.                               |
+|displayName     |string, maximum size 30| The display name of the dimension. Read-Only.            |
+|valueId         |GUID                   |The unique ID of the value of the dimension.              |
+|valueCode       |string, maximum size 20|The code of the value of the dimension.                   |
 |valueDisplayName|string, maximum size 50|The display name of the value of the dimension. Read-Only.|
 
 ## Relationships

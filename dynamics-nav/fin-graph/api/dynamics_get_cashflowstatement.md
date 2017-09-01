@@ -56,7 +56,7 @@ Here is an example of the response.
   "netChange": 39133.89,
   "lineType": "total",
   "indentation": 1,
-  "dateFilter": "2016-12-31"    
+  "dateFilter": "2016-12-31"   
 }
 ```
 
