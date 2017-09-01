@@ -16,9 +16,10 @@ You can run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup at a command
  After installation, the typical location for Setup.exe on the target computer is:  
   
 ```  
-C:\Program Files (x86)\Common Files\Microsoft Dynamics NAV\90\Setup  
+C:\Program Files (x86)\Common Files\Microsoft Dynamics NAV\<Version number>\Setup  
 ```  
-  
+where <Version number> is 90 for Dynamics NAV 2016 and 100 for Dynamics NAV 2017.
+ 
  You can use the following options with Setup.exe.  
   
 |Setup option|Description|  
