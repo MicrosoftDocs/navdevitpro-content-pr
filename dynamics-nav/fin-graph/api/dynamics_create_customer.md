@@ -19,14 +19,14 @@ Create a customer in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/{id}/customers
+POST /financials/companies/({id})/customers
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer {token}. Required.  |
-|Content-Type  |application/json  |
+|Header         |Value                    |
+|---------------|-------------------------|
+|Authorization  |Bearer {token}. Required.|
+|Content-Type   |application/json         |
 
 ## Request body
 In the request body, supply a JSON representation of customers object.
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and customers
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/customers
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customers
 Content-type: application/json
 
 {
@@ -62,12 +62,16 @@ Content-type: application/json
   "taxAreaId": "taxAreaId-value",
   "taxAreaDisplayName": "tax area",
   "taxRegistrationNumber": "28012001T",
+  "currencyId": "currencyId-value",
   "currencyCode": "USD",
+  "paymentTermsId": "paymentTermsId-value",
   "paymentTerms": {
     "code": "1M(8D)",
     "description": "1 Month/2% 8 days"
   },
+  "shipmentMethodId": "shipmentMethodId-value",
   "shipmentMethod": null,
+  "paymentMethodId": "paymentMethodId-value",
   "paymentMethod": {
     "code": "BANK",
     "description": "Bank Transfer"
@@ -81,10 +85,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response.  
+Here is an example of the response. 
 
 > [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 201 Created
@@ -128,5 +132,6 @@ Content-type: application/json
 
 ```
 
-## See also  
+## See Also  
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  
+ 

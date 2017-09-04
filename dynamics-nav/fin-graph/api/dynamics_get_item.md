@@ -21,12 +21,12 @@ Retrieve the properties and relationships of an item object for Dynamics 365 for
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/items/{id}
+GET /financials/companies/({id})/items/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header       |Value                    |
+|-------------|-------------------------|
 |Authorization|Bearer {token}. Required.|
 
 ## Request body
@@ -40,15 +40,15 @@ If successful, this method returns a ```200 OK``` response code and items object
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/v1.0/financials/companies/{id}/items/{id}
+GET https://graph.microsoft.com/v1.0/financials/companies/({id})/items/({id})
 ```
 
 **Response**
 
-Here is an example of the response.  
+Here is an example of the response. 
 
 > [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {
@@ -57,6 +57,7 @@ Here is an example of the response.
   "displayName": "ATHENS Desk",
   "type": "Inventory",
   "blocked": false,
+  "baseUnitOfMeasureId": "id-value",
   "baseUnitOfMeasure": {
     "unitCode": "PCS",
     "unitName": "Piece",
@@ -72,11 +73,11 @@ Here is an example of the response.
   "unitPrice": 1000.8,
   "priceIncludesTax": false,
   "unitCost": 780.7,
+  "taxGroupId": "id-value",
   "taxGroupCode": "FURNITURE",
   "lastModifiedDateTime": "2017-03-07T00:35:30.073Z"
 }
 
 ```
-
-## See also  
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

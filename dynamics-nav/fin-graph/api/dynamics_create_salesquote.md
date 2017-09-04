@@ -1,5 +1,5 @@
 ---
-title: CREATE Sales Quote method | Microsoft Docs
+title: CREATE salesQuote method | Microsoft Docs
 description: Creates a sales quote.
 services: project-madeira
 documentationcenter: ''
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create sales quote
+# Create salesQuote
 Create a salesQuote in Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-POST /financials/companies/{id}/salesQuotes
+POST /financials/companies/({id})/salesQuotes
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a salesQu
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesQuotes
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesQuotes
 Content-type: application/json
 
 {
@@ -54,7 +54,6 @@ Content-type: application/json
   "currencyCode": "GBP",
   "paymentTerms": "COD"
 }
-```
 
-## See also  
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

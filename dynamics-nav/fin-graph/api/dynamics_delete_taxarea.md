@@ -1,5 +1,5 @@
 ---
-title: DELETE tax area method | Microsoft Docs
+title: DELETE taxArea method | Microsoft Docs
 description: Deletes a tax area.
 services: project-madeira
 documentationcenter: ''
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete tax area
-Delete a tax area from Dynamics 365 for Financials.
+# Delete taxAreas
+Delete a taxAreas object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/taxAreas/{id}
+DELETE /financials/companies/({id})/taxAreas/({id})
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/taxAreas/{id}
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/taxAreas/({id})
 ```
 
 **Response** 
@@ -54,5 +54,5 @@ Here is an example of the response.
 HTTP/1.1 204 No Content
 ```
 
-## See also  
+## See also
 [Microsoft Graph Reference](../api/dynamics_graph_reference.md)  

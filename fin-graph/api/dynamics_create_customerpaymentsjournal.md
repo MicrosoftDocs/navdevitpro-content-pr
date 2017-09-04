@@ -20,7 +20,7 @@ Creates a customer payments journal in Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-POST /financials/companies/{id}/customerPaymentsJournals/{id}
+POST /financials/companies/({id})/customerPaymentsJournals/({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and a custome
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/customerPaymentsJournals
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customerPaymentsJournals
 Content-type: application/json
 
 ```json

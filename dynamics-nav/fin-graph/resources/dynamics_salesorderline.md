@@ -33,10 +33,11 @@ Represents a line on a sales order in Dynamics 365 for Financials.
 |sequence|numeric|The line sequence number.|
 |itemId|GUID|The Id of the item in the order line.|
 |accountId|GUID|The Id of the Account that will be used for this line. lineType will automatically be set to "Account" if this is set.|
-|lineType|string|The type of the line. Can be Comment, Account, Item,Resource, Fixed Asset, Charge.|
+|lineType|string|The type of the line. Can be Comment,Account,Item,Resource,Fixed Asset,Charge|
 |lineDetails|complex|The details of the line.|
 |description|string|A description of the item in the order line.|
-|unitOfMeasure|complex|The unit of measure complex type.|
+|unitOfMeasureId|GUID|The Id of the unit of measure in the order line.|
+|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complex_types.md)|The unit of measure complex type.|
 |quantity|numeric|The quantity of the item in the order line.|
 |unitPrice|numeric|The unit price of each individual item in the order line.|
 |discountAmount|numeric|The line discount amount.|

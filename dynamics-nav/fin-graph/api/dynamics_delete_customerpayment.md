@@ -15,16 +15,16 @@ ms.author: solsen
 ---
 
 # Delete customerPayment
-Delete a customer payment from Dynamics 365 for Financials.
+Delete a customerPayment from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/customerPayments/{id}
+DELETE /financials/companies/({id})/customerPaymentsJournals/({id})/customerPayments/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
 
@@ -43,7 +43,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/customerPayments/{id}
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customerPaymentsJournals/({id})/customerPayments/({id})
 ```
 
 **Response** 
@@ -54,5 +54,5 @@ Here is an example of the response.
 HTTP/1.1 204 No Content
 ```
 
-## See also  
+## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

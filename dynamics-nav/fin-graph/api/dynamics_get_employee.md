@@ -1,6 +1,6 @@
 ---
 title: GET employee method | Microsoft Docs
-description: Gets a Employee.
+description: Gets an employee.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -19,13 +19,13 @@ Retrieve the properties and relationships of an employee object for Dynamics 365
 
 ## HTTP request
 ```
-GET /financials/companies/{id}/employees/{id}
+GET /financials/companies/({id})/employees/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer {token}. Required. |
+|Header       |Value                     |
+|-------------|--------------------------|
+|Authorization|Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.
@@ -38,7 +38,7 @@ If successful, this method returns a ```200 OK``` response code and employee obj
 Here is an example of the request.
 
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/employees/{id}
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/employees/({id})
 ```
 
 **Response**
@@ -46,7 +46,7 @@ GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/employees/{
 Here is an example of the response. 
 
 > [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {
@@ -72,7 +72,7 @@ Here is an example of the response.
   "terminationDate": "0001-01-01",
   "status": "Active",
   "birthDate": "1973-12-12",
-  "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/employees/{id}/picture",
+  "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/employees/({id})/picture",
   "lastModifiedDateTime": "2017-03-16T14:57:19.497Z"  
 }
 ```

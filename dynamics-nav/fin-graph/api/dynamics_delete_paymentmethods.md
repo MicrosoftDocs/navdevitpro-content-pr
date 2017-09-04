@@ -1,6 +1,6 @@
 ---
-title: DELETE Payment Method method | Microsoft Docs
-description: Deletes a Payment Method.
+title: DELETE paymentMethod method | Microsoft Docs
+description: Deletes a payment method.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,18 +14,18 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete payment method
-Delete a payment method from Dynamics 365 for Financials.
+# Delete paymentMethod
+Delete a paymentMethod from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/paymentMethods/{id}
+DELETE /financials/companies/({id})/paymentMethods/({id})
 ```
 
 ## Request headers
 
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
 
@@ -42,7 +42,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/paymentMethods/{id}
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentMethods/({id})
 ```
 
 **Response** 

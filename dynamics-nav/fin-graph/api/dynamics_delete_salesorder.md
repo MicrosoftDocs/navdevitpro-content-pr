@@ -1,5 +1,5 @@
 ---
-title: DELETE sales order method | Microsoft Docs
+title: DELETE salesOrder method | Microsoft Docs
 description: Deletes a sales order.
 services: project-madeira
 documentationcenter: ''
@@ -14,13 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete sales order
-Delete a sales order from Dynamics 365 for Financials.
-
+# Delete salesOrder
+Delete a salesOrder from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/salesOrders/{id}
+DELETE /financials/companies/({id})/salesOrders/({id})
 ```
 
 ## Request headers
@@ -42,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesOrders/{id}
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesOrders/({id})
 ```
 
 **Response** 

@@ -1,5 +1,5 @@
 ---
-title: UPDATE Payment Terms method | Microsoft Docs
+title: UPDATE paymentTerms method | Microsoft Docs
 description: Updates a payment terms.
 services: project-madeira
 documentationcenter: ''
@@ -14,19 +14,19 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update payment terms
+# Update paymentTerms
 Update the properties of a payment terms object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-PATCH /financials/companies/{id}/paymentTerms/{id}
+PATCH /financials/companies/({id})/paymentTerms/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header        |Value                    |
+|--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|
-|Content-Type  |application/json|
+|Content-Type  |application/json         |
 |If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the paymentTerms, the paymentTerms will not be updated. |
 
 ## Request body
@@ -39,10 +39,9 @@ If successful, this method returns a ```200 OK``` response code and an updated p
 
 **Request**
 
-Here is an example of the request.  
-
+Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/paymentTerms{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentTerms({id})
 Content-type: application/json
 
 {
@@ -53,10 +52,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response.  
+Here is an example of the response. 
 
 > [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK
@@ -74,5 +73,6 @@ Content-type: application/json
 }
 ```
 
-## See also  
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  
+
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

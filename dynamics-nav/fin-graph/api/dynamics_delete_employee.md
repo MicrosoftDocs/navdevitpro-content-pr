@@ -19,12 +19,12 @@ Delete an employee from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/employees/{id}
+DELETE /financials/companies/({id})/employees/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the employee, the employee will not be updated. |
 
@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/employees/{id}
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/employees/({id})
 ```
 
 **Response** 

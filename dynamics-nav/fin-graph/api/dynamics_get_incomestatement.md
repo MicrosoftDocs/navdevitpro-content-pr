@@ -1,6 +1,6 @@
 ---
-title: GET IncomeStatement method | Microsoft Docs
-description: Gets a IncomeStatement.
+title: GET incomeStatement method | Microsoft Docs
+description: Gets an income statement.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,18 +14,18 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get income statement
+# Get incomeStatement
 Retrieve the properties and relationships of an income statement report object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-GET /financials/companies/{id}/incomeStatement
+GET /financials/companies/({id})/incomeStatement
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer {token}. Required. |
+|Header       |Value                     |
+|-------------|--------------------------|
+|Authorization|Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.
@@ -39,15 +39,15 @@ If successful, this method returns a ```200 OK``` response code and incomeStatem
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/incomeStatement?$orderby=lineNumber&$filter=dateFilter ge 2019-01-01 and dateFilter le 2020-12-31
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/incomeStatement?$orderby=lineNumber&$filter=dateFilter ge 2019-01-01 and dateFilter le 2020-12-31
 ```
 
 **Response**
 
-Here is an example of the response.  
+Here is an example of the response. 
 
 > [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {
@@ -60,5 +60,6 @@ Here is an example of the response.
 }
 ```
 
-## See also  
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)  
+
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

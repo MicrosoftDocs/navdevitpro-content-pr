@@ -19,18 +19,18 @@ Represents a dimension value in Dynamics 365 for Financials.
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
+| Method       | Return Type  |Description                   |
+|:-------------|:-------------|:-----------------------------|
 |[GET Dimension Value](../api/dynamics_get_dimensionvalue.md)|Dimension Value|Get Dimension Value object|
 
 
 ## Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|id|GUID|The unique ID of the item.|
-|code|string, maximum size 20|The dimension value code.|
-|displayName|string|Specifies the dimension value's name. This name will appear where the dimension value is used.|
-|lastModifiedDateTime|datetime|The last datetime the dimension value was modified.|  
+| Property	         | Type                  |Description                                        |
+|:-------------------|:----------------------|:--------------------------------------------------|
+|id                  |GUID                   |The unique ID of the item.                         |
+|code                |string, maximum size 20|The dimension value code.                          |
+|displayName         |string                 |Specifies the dimension value's name. This name will appear where the dimension value is used.|
+|lastModifiedDateTime|datetime               |The last datetime the dimension value was modified.|  
 
 
 ## JSON representation
