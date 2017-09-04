@@ -1,7 +1,7 @@
 ---
 title: "Next Steps"
 ms.custom: na
-ms.date: 09/01/2017
+ms.date: 09/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,7 +14,7 @@ author: SusanneWindfeldPedersen
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-# Next Steps 
+# Your Next Steps 
 
 ## As a reseller of Dynamics 365 for Financials
 
@@ -27,7 +27,7 @@ Become [CSP](https://partner.microsoft.com/en-US/cloud-solution-provider) or
 Reach out to [offerspilot@microsoft.com](mailto:offerspilot@microsoft.com) on questions.   
  
 ### You can provide customization services with Dynamics 365 for Financials  
-Respond to the individual needs of your customer by building customizations for Dynamics 365 for Financials. Customizations can be developed in the Financials in-client designer and by code developed in Visual Studio Code. See how you can easily get started here [aka.ms/GetStartedWithApps][http://aka.ms/getstartedwithapps]. 
+Respond to the individual needs of your customer by building customizations for Dynamics 365 for Financials. Customizations can be developed in the Financials in-client designer and by code developed in Visual Studio Code. See how you can easily get started here [aka.ms/GetStartedWithApps](http://aka.ms/getstartedwithapps). 
 
 And learn all about building customizations in [sandbox environments](https://docs.microsoft.com/en-us/dynamics365/financials/across-how-create-sandbox-environment).  
  
@@ -40,7 +40,7 @@ Reach more customers by bringing apps for Dynamics 365 for Financials into Micro
  
 You decide whether you want to connect to your existing service or extend the Dynamics 365 for Financials functionality. For more information on how to get started with building Apps, click [here](https://msdn.microsoft.com/en-us/dynamics-nav/developer/devenv-develop-apps-for-fin).  
  
-After you have gotten your [prerequisites in place](http://download.microsoft.com/download/7/F/2/7F23168D-76D9-4988-BBAC-E303FC548802/1.Get%20the%20prerequisites%20in%20place.pdf) you will receive an invite for our Monthly Office Hour Call. During this hour, different experts will be present to help demystify any potential technical and marketing questions you might have during your development and onboarding process.  
+After you have gotten your [prerequisites in place](https://go.microsoft.com/fwlink/?linkid=857095) you will receive an invite for our Monthly Office Hour Call. During this hour, different experts will be present to help demystify any potential technical and marketing questions you might have during your development and onboarding process.  
 
 ## As an accountant and financial service outsourcer 
 
