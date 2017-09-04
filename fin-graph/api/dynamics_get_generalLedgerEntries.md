@@ -52,8 +52,7 @@ Here is an example of the response.
 
 ```json
 {
-    "id": "id-value",
-    "number": "10700",
+    "id": "10700",
     "postingDate": "2017-03-15",
     "documentNumber": "108027",
     "documentType": "Invoice",
