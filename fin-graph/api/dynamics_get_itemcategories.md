@@ -1,6 +1,6 @@
 ---
-title: GET Item Categories method | Microsoft Docs
-description: Gets an Item Categories.
+title: GET itemCategories method | Microsoft Docs
+description: Gets an item categories.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get item categories
+# Get itemCategories
 Retrieve the properties and relationships of an item categories object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/itemCategories/{id}
+GET /financials/companies/({id})/itemCategories/({id})
 ```
 
 ## Request headers
@@ -40,12 +40,15 @@ If successful, this method returns a ```200 OK``` response code and itemCategori
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/itemCategories/{id}
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/itemCategories/({id})
 ```
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {

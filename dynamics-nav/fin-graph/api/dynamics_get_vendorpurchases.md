@@ -1,6 +1,6 @@
 ---
-title: GET VendorPurchases method | Microsoft Docs
-description: Gets a VendorPurchases.
+title: GET vendorPurchases method | Microsoft Docs
+description: Gets a vendor purchases.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get vendor purchases
+# Get vendorPurchases
 Retrieve the properties and relationships of a vendor purchases report object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-GET /financials/companies/{id}/vendorPurchases
+GET /financials/companies/({id})/vendorPurchases
 ```
 
 ## Request headers
@@ -39,12 +39,15 @@ If successful, this method returns a ```200 OK``` response code and vendorPurcha
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/vendorPurchases
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/vendorPurchases
 ```
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {

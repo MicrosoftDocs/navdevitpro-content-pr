@@ -1,5 +1,5 @@
 ---
-title: DELETE journal line method | Microsoft Docs
+title: DELETE journalLine method | Microsoft Docs
 description: Deletes a journal line.
 services: project-madeira
 documentationcenter: ''
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete journal line
-Delete a journal line from Dynamics 365 for Financials.
+# Delete journalLine
+Delete a journalLine from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/journals/{ID}/journalLines/{id}
+DELETE /financials/companies/({id})/journals/{ID}/journalLines/({id})
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/journals/{ID}/journalLines/{id}
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/journals/{ID}/journalLines/({id})
 ```
 
 **Response** 

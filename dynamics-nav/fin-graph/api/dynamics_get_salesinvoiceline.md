@@ -1,5 +1,5 @@
 ---
-title: GET Sales Invoice Line method | Microsoft Docs
+title: GET salesInvoiceLine method | Microsoft Docs
 description: Gets a sales invoice line.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get sales invoice line
+# Get salesInvoiceLine
 Retrieve the properties and relationships of a sales invoice line object for Dynamics 365 for Financials.
 
 ## Prerequisites
@@ -22,7 +22,7 @@ Retrieve the properties and relationships of a sales invoice line object for Dyn
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/salesInvoices/{id}/salesInvoiceLines(documentId={id},sequence={number})
+GET /financials/companies/({id})/salesInvoices/({id})/salesInvoiceLines(documentId={id},sequence={number})
 ```
 
 ## Request headers
@@ -42,12 +42,15 @@ If successful, this method returns a ```200 OK``` response code and salesInvoice
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesInvoices/{id}/salesInvoiceLines(documentId={id},sequence={number})
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesInvoices/({id})/salesInvoiceLines(documentId={id},sequence={number})
 ```
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {
@@ -62,6 +65,7 @@ Here is an example of the response. Note: The response object shown here may be 
     "description": null
   },
   "description": "someText",
+  "unitOfMeasureId": "id-value",
   "unitOfMeasure": {
     "code": "BOX",
     "displayName": "Box",

@@ -19,7 +19,7 @@ Create an employee in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/{id}/employees
+POST /financials/companies/({id})/employees
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and employees
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/employees
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/employees
 Content-type: application/json
 
 {
@@ -68,7 +68,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 201 Created
@@ -97,7 +100,7 @@ Content-type: application/json
   "terminationDate": "0001-01-01",
   "status": "Active",
   "birthDate": "1973-12-12",
-  "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/employees/{id}/picture",
+  "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/employees/({id})/picture",
   "lastModifiedDateTime": "2017-03-16T14:57:19.497Z" 
 }
 

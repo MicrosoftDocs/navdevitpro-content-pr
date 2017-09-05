@@ -1,5 +1,5 @@
 ---
-title: PATCH sales invoice method | Microsoft Docs
+title: PATCH salesInvoice method | Microsoft Docs
 description: Patches a sales invoice.
 services: project-madeira
 documentationcenter: ''
@@ -14,20 +14,20 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update sales invoice
+# Update salesInvoice
 Update the properties of a sales invoices object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-PATCH /financials/companies/{id}/salesInvoices/{id}
+PATCH /financials/companies/({id})/salesInvoices/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header        |Value                    |
+|--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|
-|Content-Type  |application/json|
+|Content-Type  |application/json         |
 |If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the salesInvoice, the salesInvoice will not be updated. |
 
 ## Request body
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated s
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesInvoices{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesInvoices({id})
 Content-type: application/json
 
 {
@@ -52,7 +52,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK

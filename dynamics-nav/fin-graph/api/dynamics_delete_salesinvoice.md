@@ -1,5 +1,5 @@
 ---
-title: DELETE sales invoice method | Microsoft Docs
+title: DELETE salesInvoice method | Microsoft Docs
 description: Deletes a sales invoice.
 services: project-madeira
 documentationcenter: ''
@@ -14,18 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete sales invoice
-Delete a sales invoice from Dynamics 365 for Financials.
-
+# Delete salesInvoice
+Delete a salesInvoice from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/salesInvoices/{id}
+DELETE /financials/companies/({id})/salesInvoices/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+| Header        | Value                    |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
 
@@ -42,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesInvoices/{id}
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesInvoices/({id})
 ```
 
 **Response** 

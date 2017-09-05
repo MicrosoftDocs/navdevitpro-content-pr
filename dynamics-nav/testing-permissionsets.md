@@ -14,6 +14,9 @@ You can write application tests in C/AL that use specific permission sets when t
 
 Without applying any permission sets, a test will run with full permissions, similar to the rights that are granted by the SUPER permission set. This is probably satisfactory for testing the functionality in general. However, in most cases, users will be running with a permission set that limits their access to the functionality they need to do their work.
 
+>[!IMPORTANT]  
+>Security filters are not tested. 
+
 ## Overview
 To run tests with permission sets requires that you work with test codeunits and/or test functions and test runner codeunits.
 

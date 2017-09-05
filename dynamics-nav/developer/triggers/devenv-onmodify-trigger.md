@@ -26,4 +26,6 @@ Executed when a user modifies an existing record in a table.
  We recommend that you do not include code that can stop the user from recording a change in the OnModify trigger on a table. For example, do not include code for displaying error messages. If a user has previously changed the contents of some fields in a record, then these changes must always be accepted by the system.  
   
 ## See Also  
- [Triggers](devenv-triggers.md)
+ [Triggers](devenv-triggers.md)  
+ [Table and Field Triggers](devenv-table-and-field-triggers.md)  
+ [Table Properties](../properties/devenv-table-properties.md)  

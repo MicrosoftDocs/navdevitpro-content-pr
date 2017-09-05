@@ -23,6 +23,7 @@ The page customization object in [!INCLUDE[d365fin_long_md](includes/d365fin_lon
 Typing the shortcut ```tpagecust``` will create the basic layout for a page customization object when using the AL Extension in Visual Studio Code.
 
 ## Page customization example
+The following page customization example 
 
 ```
 pagecustomization 70000123 MyCustomization customizes "Customer List"
@@ -35,6 +36,8 @@ pagecustomization 70000123 MyCustomization customizes "Customer List"
         {
             Visible = false;
         }
+
+        
     }
 }
 ```

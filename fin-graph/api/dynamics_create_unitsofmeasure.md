@@ -1,6 +1,6 @@
 ---
-title: CREATE Unit of Measure method | Microsoft Docs
-description: Creates an Unit of Measure.
+title: CREATE unitsOfMeasure method | Microsoft Docs
+description: Creates a units of measure.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create unit of measure
-Create an unitsOfMeasure in Dynamics 365 for Financials.
+# Create unitsOfMeasure
+Create a unitsOfMeasure in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/{id}/unitsOfMeasure
+POST /financials/companies/({id})/unitsOfMeasure
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and unitsOfMe
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/unitsOfMeasure
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/unitsOfMeasure
 Content-type: application/json
 
 {
@@ -53,7 +53,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 201 Created

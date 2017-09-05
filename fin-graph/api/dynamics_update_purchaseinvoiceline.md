@@ -1,5 +1,5 @@
 ---
-title: PATCH Purchase Invoice Line method | Microsoft Docs
+title: PATCH purchaseInvoiceLine method | Microsoft Docs
 description: Gets a purchase invoice line.
 services: project-madeira
 documentationcenter: ''
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update purchase invoice line
+# Update purchaseInvoiceLines
 Update the properties of a purchase invoice line object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-PATCH /financials/companies/{id}/purchaseInvoices/{id}/purchaseInvoiceLines(documentId={id},sequence={number})
+PATCH /financials/companies/({id})/purchaseInvoices/({id})/purchaseInvoiceLines(documentId={id},sequence={number})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated p
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/purchaseInvoices{id}/purchaseInvoiceLines(documentId={id},sequence={number})
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/purchaseInvoices{id}/purchaseInvoiceLines(documentId={id},sequence={number})
 Content-type: application/json
 
 {
@@ -52,7 +52,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK

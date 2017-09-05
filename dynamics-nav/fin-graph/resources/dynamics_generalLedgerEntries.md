@@ -48,7 +48,7 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-  "number": int,
+  "id": int,
   "postingDate": "Date",
   "documentNumber": "string",
   "documentType": "string",

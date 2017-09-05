@@ -1,6 +1,6 @@
 ---
-title: UPDATE Company Information method | Microsoft Docs
-description: Updates Company Information.
+title: UPDATE companyInformation method | Microsoft Docs
+description: Updates company information.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,21 +14,21 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update company information
+# Update companyInformation
 Update the properties of a company information object for Dynamics 365 for Financials.
 
 
 ## HTTP request
 ```
-PATCH /financials/companies/{id}/companyInformation/{id}
+PATCH /financials/companies/({id})/companyInformation/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header        |Value                    |
+|--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|
-|Content-Type  |application/json|
-|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the companyInformation, the companyInformation will not be updated. |
+|Content-Type  |application/json         |
+|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the companyInformation, the companyInformation will not be updated.  |
 
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated c
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/companyInformation{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/companyInformation({id})
 Content-type: application/json
 
 {
@@ -53,7 +53,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK
@@ -77,7 +80,7 @@ Content-type: application/json
   "currencyCode": "USD",
   "currentFiscalYearStartDate": "2018-01-01",
   "industry": "",
-  "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/companyInformation{id}/picture",
+  "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/companyInformation({id})/picture",
   "lastModifiedDateTime": "2017-03-16T14:57:19.497Z"
   }
 ```

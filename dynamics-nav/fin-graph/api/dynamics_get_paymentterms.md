@@ -1,6 +1,6 @@
 ---
-title: GET Payment Terms method | Microsoft Docs
-description: Gets a Payment Terms.
+title: GET paymentTerms method | Microsoft Docs
+description: Gets a paymentTerms.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,18 +14,18 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get payment terms
+# Get paymentTerms
 Retrieve the properties and relationships of a payment terms object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/paymentTerms/{id}
+GET /financials/companies/({id})/paymentTerms/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
 
 ## Request body
@@ -40,12 +40,15 @@ If successful, this method returns a ```200 OK``` response code and paymentTerms
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/paymentTerms/{id}
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentTerms/({id})
 ```
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {

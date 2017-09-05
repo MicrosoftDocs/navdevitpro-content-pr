@@ -1,6 +1,6 @@
 ---
-title: GET Unit of Measure method | Microsoft Docs
-description: Gets an Unit of Measure.
+title: GET unitsOfMeasure method | Microsoft Docs
+description: Gets a unitd of measure.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get unit of measure
+# Get unitsOfMeasure
 Retrieve the properties and relationships of a units of measure object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/unitsOfMeasure/{id}
+GET /financials/companies/({id})/unitsOfMeasure/({id})
 ```
 
 ## Request headers
@@ -40,12 +40,15 @@ If successful, this method returns a ```200 OK``` response code and unitsOfMeasu
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/unitsOfMeasure/{id}
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/unitsOfMeasure/({id})
 ```
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {

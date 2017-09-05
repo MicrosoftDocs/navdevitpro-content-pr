@@ -1,5 +1,5 @@
 ---
-title: GET Sales Invoice method | Microsoft Docs
+title: GET salesInvoice method | Microsoft Docs
 description: Gets a sales invoice.
 services: project-madeira
 documentationcenter: ''
@@ -14,18 +14,18 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get sales invoice
+# Get salesInvoice
 Retrieve the properties and relationships of a sales object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/salesInvoices/{id}
+GET /financials/companies/({id})/salesInvoices/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
 
 ## Request body
@@ -40,12 +40,15 @@ If successful, this method returns a ```200 OK``` response code and salesInvoice
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesInvoices/{id}
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesInvoices/({id})
 ```
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {
@@ -65,10 +68,13 @@ Here is an example of the response. Note: The response object shown here may be 
     "countryLetterCode": "",
     "postalCode": ""
   },
+  "currencyId": "currencyId-value",
   "currencyCode": "GBP",
   "orderId": "id-value",
   "orderNumber": "",
+  "paymentTermsId": "paymentTermsId-value",
   "paymentTerms": "COD",
+  "shipmentMethodId": "shipmentMethodId-value",
   "shipmentMethod": "",
   "salesperson": "",
   "pricesIncludeTax": false,

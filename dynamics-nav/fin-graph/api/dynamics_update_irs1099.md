@@ -1,5 +1,5 @@
 ---
-title: UPDATE IRS 1099 Code method | Microsoft Docs
+title: UPDATE IRS1099Code method | Microsoft Docs
 description: Updates a IRS 1099 Code.
 services: project-madeira
 documentationcenter: ''
@@ -14,20 +14,20 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update IRS 1099 code
+# Update IRS1099Codes
 Update the properties of an IRS 1099 codes object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-PATCH /financials/companies/{id}/irs1099Codes/{id}
+PATCH /financials/companies/({id})/irs1099Codes/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
-|Authorization |Bearer {token}. Required.|
-|Content-Type  |application/json|
-|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the irs1099Codes, the irs1099Codes will not be updated. |
+|Header       |Value                    |
+|-------------|-------------------------|
+|Authorization|Bearer {token}. Required.|
+|Content-Type |application/json         |
+|If-Match     |Required. When this request header is included and the eTag provided does not match the current tag on the irs1099Codes, the irs1099Codes will not be updated. |
 
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and an updated i
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/irs1099Codes{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/irs1099Codes({id})
 Content-type: application/json
 
 {
@@ -51,7 +51,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK

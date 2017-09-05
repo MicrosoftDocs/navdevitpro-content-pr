@@ -1,5 +1,5 @@
 ---
-title: GET General Ledger Entry method | Microsoft Docs
+title: GET generalLedgerEntry method | Microsoft Docs
 description: Gets a general ledger entry.
 services: project-madeira
 documentationcenter: ''
@@ -14,13 +14,13 @@ ms.date: 03/17/2017
 ms.author: solsen
 ---
 
-# Get general ledger entry
+# Get generalLedgerEntry
 Retrieve the properties and relationships of a general ledger entry object for Dynamics 365 for Financials.
 
 
 ## HTTP request
 ```
-GET /financials/companies/{id}/generalLedgerEntries/{id}
+GET /financials/companies/({id})/generalLedgerEntries/({id})
 ```
 
 ## Request headers
@@ -40,12 +40,15 @@ If successful, this method returns a ```200 OK``` response code and generalLedge
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/beta/financials/companies/{id}/generalLedgerEntries/{id}
+GET https://graph.microsoft.com/beta/financials/companies/({id})/generalLedgerEntries/({id})
 ```
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {

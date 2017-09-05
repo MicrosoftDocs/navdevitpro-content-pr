@@ -1,5 +1,5 @@
 ---
-title: PATCH purchase invoice method | Microsoft Docs
+title: PATCH purchaseInvoice method | Microsoft Docs
 description: Patches a purchase invoice.
 services: project-madeira
 documentationcenter: ''
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update purchase invoice
+# Update purchaseInvoices
 Update the properties of a purchase invoices object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-PATCH /financials/companies/{id}/purchaseInvoices/{id}
+PATCH /financials/companies/({id})/purchaseInvoices/({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated p
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/purchaseInvoices{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/purchaseInvoices{id}
 Content-type: application/json
 
 {
@@ -52,7 +52,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK

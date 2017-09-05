@@ -1,6 +1,6 @@
 ---
-title: UPDATE Countries/Regions method | Microsoft Docs
-description: Updates a Countries/Regions.
+title: UPDATE countriesRegions method | Microsoft Docs
+description: Updates a countries/regions object.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update countries/regions
+# Update countriesRegions
 Update the properties of a countries regions object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-PATCH /financials/companies/{id}/countriesRegions/{id}
+PATCH /financials/companies/({id})/countriesRegions/({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated c
 Here is an example of the request.
 
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/countriesRegions{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/countriesRegions{id}
 Content-type: application/json
 
 {
@@ -52,7 +52,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK
