@@ -84,7 +84,7 @@ Here is a JSON representation of the resource.
       "quantity": "decimal",
       "discountAmount": "decimal",
       "discountPercent": "decimal",
-      "discountAppliedBeforeTax": false,
+      "discountAppliedBeforeTax": "boolean",
       "amountExcludingTax": "decimal",
       "taxCode": "string",
       "taxPercent": "decimal",
