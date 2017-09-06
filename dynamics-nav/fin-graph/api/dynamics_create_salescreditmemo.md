@@ -54,6 +54,6 @@ Content-type: application/json
   "currencyCode": "GBP",
   "paymentTerms": "COD"
 }
-
+```
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

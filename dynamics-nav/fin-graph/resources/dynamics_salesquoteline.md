@@ -70,27 +70,27 @@ Here is a JSON representation of the resource.
   "value": [
     {
       "documentId": "GUID",
-      "sequence": decimal,
+      "sequence": "decimal",
       "itemId": "GUID",
       "accountId": "GUID",
       "lineType": "String",
       "lineDetails": {NAV.documentLineObjectDetails},
-      "description": "String",
+      "description": "string",
       "unitOfMeasureId": "GUID",
       "unitOfMeasure": {NAV.UnitOfMeasure},
-      "unitPrice": decimal,
-      "quantity": decimal,
-      "discountAmount": decimal,
-      "discountPercent": decimal,
-      "discountAppliedBeforeTax": false,
-      "amountExcludingTax": decimal,
+      "unitPrice": "decimal",
+      "quantity": "decimal",
+      "discountAmount": "decimal",
+      "discountPercent": "decimal",
+      "discountAppliedBeforeTax": "boolean",
+      "amountExcludingTax": "decimal",
       "taxCode": "String",
-      "taxPercent": decimal,
-      "totalTaxAmount": decimal,
-      "amountIncludingTax": decimal,
-      "netAmount": decimal,
-      "netTaxAmount": decimal,
-      "netAmountIncludingTax": decimal
+      "taxPercent": "decimal",
+      "totalTaxAmount": "decimal",
+      "amountIncludingTax": "decimal",
+      "netAmount": "decimal",
+      "netTaxAmount": "decimal",
+      "netAmountIncludingTax": "decimal"
     }
   ]
 

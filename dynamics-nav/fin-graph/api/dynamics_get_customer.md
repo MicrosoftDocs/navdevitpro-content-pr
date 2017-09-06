@@ -84,7 +84,7 @@ Here is an example of the response.
   },
   "blocked": " ",
   "balance": 0,
-  "overdueAmount": 0
+  "overdueAmount": 0,
   "totalSalesExcludingTax": 0,
   "lastModifiedDateTime": "2017-03-07T00:35:28.983Z"
 }

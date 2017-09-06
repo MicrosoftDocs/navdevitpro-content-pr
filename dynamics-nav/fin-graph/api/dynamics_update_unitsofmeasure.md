@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated u
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/unitsOfMeasure{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/unitsOfMeasure({id})
 Content-type: application/json
 
 {
