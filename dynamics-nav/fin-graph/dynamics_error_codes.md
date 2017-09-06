@@ -41,7 +41,7 @@ The following table lists the error codes for ODataExceptions, NavCSideException
 |ODataNotFoundException|Resource not found for the segment 'OfficeAppResourceRegistrations' multiple segment errors (Company, v1.0, nativeInvoicingSalesInvoices,metadata,nativeInvoicingItems , companies, company etc.)|`OData_Request_InvalidRequestUrl`, `OData_Request_badrequest`, `OData`, `OData_Request_InvalidGuidFormat`|
 |ODataNotFoundException|Bad Request - Error in query syntax||
 |ODataNotFoundException|Expression expected at position 153 in '(AAMkAGY2ZTQwODIwLTNkOWYtNDY3NC04N2JkLTE3MDEyNzlkM2VkOQBGAAAAAADFMnbflwH_RqlNoMYdjhvBBwCepO6AHq7GRJ13ldPngx5BAAAAAAEcAACepO6AHq7GRJ13ldPngx5BAAAGZyTmAAA=)'|
-|ODataNotFoundException|`'|'` or `','` expected at position 3 in (GUID)||
+|ODataNotFoundException|'|' or ',' expected at position 3 in (GUID)||
 |ODataInvalidOperationException|Control 'Last Date Modified' is read-only||
 |ODataBadRequestException|Field 'taxable' must not be blank or empty. Could not validate the client concurrency token required by the service. Please provide a valid token in the client request.|`OData_Required_Param_NotProvided`, `OData_Invalid_Token`|
 |ODataConflictException|Another user has already changed the record.|`OData_Entity_Changed`|
@@ -52,8 +52,7 @@ The following table lists the error codes for ODataExceptions, NavCSideException
 |NavCSideException|Cannot establish a connection to the SQL Server/Database. |`NavCSide_DB_Connection_Error`|
 |NavCSideDuplicateKeyException|The Attachment Entity Buffer already exists. Identification fields and values: Document Id='{DAC3AB2F-5FEA-4AD2-A663-EF832F270A7B}',Id='{00000000-0000-0000-0000-000000000000}' |`NavCSide_Entity_With_Samekey`|
 |**NavNCLExceptions**|||
-|NavNCLDialogException|You cannot delete Item 1000 because there is at least one outstanding Sales Quote that includes this item. A customerNumber or a customerID must be provided. You may not enter numbers manually. If you want to enter numbers manually, please activate Manual Nos. in No. Series FA. You are not allowed to apply and post an entry to an entry with an earlier posting date. The"amount" should be a negative number. 
-||
+|NavNCLDialogException|You cannot delete Item 1000 because there is at least one outstanding Sales Quote that includes this item. A customerNumber or a customerID must be provided. You may not enter numbers manually. If you want to enter numbers manually, please activate Manual Nos. in No. Series FA. You are not allowed to apply and post an entry to an entry with an earlier posting date. The"amount" should be a negative number.|
 |NavNCLEvaluateException|The value "Depreciation" cannot be evaluated into type Option. ||
 |NavNCLStringLengthExceededException|The length of the string is 57, but it must be less than or equal to 50 characters. Value: JACKSBORO PUMP & SPECIALTY BRIDGEPORT PUMP & SUPPLY, INC. |`NavNCL_String_ExceededLength`|
 |NavNCLInvalidGuidFormatException|Invalid format of GUID string. The correct format of the GUID string is: CDEF7890-ABCD-0123-1234-567890ABCDEF where 0-9, A-F symbolizes hexadecimal digits. |`NavNCL_Invalid_GUID`|
