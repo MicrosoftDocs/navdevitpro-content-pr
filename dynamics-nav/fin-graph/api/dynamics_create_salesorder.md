@@ -25,10 +25,10 @@ POST /financials/companies/({id})/salesOrders
 
 ## Request headers
 
-|Header|Value|
-|------|-----|
+|Header         |Value                        |
+|---------------|-----------------------------|
 |Authorization  |Bearer {token}. Required.    |
-|Content-Type  |application/json    |
+|Content-Type   |application/json             |
 
 ## Request body
 In the request body, supply a JSON representation of a salesOrder object.
@@ -54,6 +54,7 @@ Content-type: application/json
   "currencyCode": "GBP",
   "paymentTerms": "COD"
 }
+```
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

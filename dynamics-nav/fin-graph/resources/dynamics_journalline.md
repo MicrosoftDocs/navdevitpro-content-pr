@@ -59,13 +59,13 @@ Here is a JSON representation of the resource.
 {
     "id": "GUID",
     "journalDisplayName": "string",
-    "lineNumber": integer,
+    "lineNumber": "integer",
     "accountId": "GUID",
     "accountNumber": "string",
     "postingDate": "date",
     "documentNumber": "string",
     "externalDocumentNumber": "string",
-    "amount": decimal,
+    "amount": "decimal",
     "description": "string",
     "comment": "string",
     "lastModifiedDateTime": "datetime"

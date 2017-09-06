@@ -51,7 +51,7 @@ Here is a JSON representation of the currencies.
   "id": "GUID",
   "code": "string",
   "displayName": "string",
-  "symbol": "sring",
+  "symbol": "string",
   "amountDecimalPlaces": "string",
   "amountRoundingPrecision": "decimal",
   "lastModifiedDateTime": "datetime"
