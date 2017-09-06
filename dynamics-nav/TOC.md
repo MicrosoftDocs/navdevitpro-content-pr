@@ -270,6 +270,7 @@
 # [Legal Artefacts for Dynamics NAV 2017](terms/legal.md)
 <!-- preview of Graph API starts-->
 # [Preview of API Reference for Dynamics 365 for Financials](fin-graph/index.md)
+## [Error Codes](fin-graph/dynamics_error_codes.md)
 ## [Account](fin-graph/resources/dynamics_account.md)
 ### [Get account](fin-graph/api/dynamics_get_account.md)
 ## [Aged accounts payable](fin-graph/resources/dynamics_agedaccountspayable.md)
