@@ -20,7 +20,7 @@ Update the properties of a sales credit memo line object for Dynamics 365 for Fi
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/salesCreditMemos/({id})/salesCreditMemoLines(documentId={id},sequence={number})
+PATCH /financials/companies/({id})/salesCreditMemos/({id})/salesCreditMemoLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated s
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesCreditMemos{id}/salesCreditMemoLines(documentId={id},sequence={number})
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesCreditMemos({id})/salesCreditMemoLines(documentId=({id}),sequence=({number}))
 Content-type: application/json
 
 {

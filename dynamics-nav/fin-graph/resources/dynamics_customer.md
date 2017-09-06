@@ -82,7 +82,7 @@ Here is a JSON representation of the resource.
     "phoneNumber": "string",
     "email": "string",
     "website": "string",
-    "taxLiable": boolean,
+    "taxLiable": "boolean",
     "taxAreaId": "GUID",
     "taxAreaDisplayName": "string",
     "taxRegistrationNumber": "string",
@@ -91,9 +91,9 @@ Here is a JSON representation of the resource.
     "shipmentMethod": NAV.ShipmentMethod,
     "paymentMethod":  NAV.PaymentMethod,
     "blocked": "string",
-    "balance": decimal,
-    "overdueAmount": numeric,
-    "totalSalesExcludingTax": numeric,
+    "balance": "decimal",
+    "overdueAmount": "numeric",
+    "totalSalesExcludingTax": "numeric",
     "lastModifiedDateTime": "datetime"
 }
 

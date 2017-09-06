@@ -28,7 +28,7 @@ POST /financials/companies/({id})/salesCreditMemos/({id})/salesCreditMemoLines
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required.    |
-|Content-Type  |application/json    |
+|Content-Type   |application/json    |
 
 ## Request body
 In the request body, supply a JSON representation of a sales credit memo line object.
@@ -51,6 +51,6 @@ Content-type: application/json
 "lineType": "Item",
 "quantity": 9
 }
-
+```
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](dynamics_overview.md)
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)
