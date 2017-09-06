@@ -34,6 +34,7 @@ With the API for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] you ha
 |[JsonValue](api/jsonvalue-class.md)|JsonValue object is a container for any well-formed JSON object. A default JsonValue is set to the JSON value of NULL.|
 |[TextBuilder](api/textbuilder-class.md)|TextBuilder can performantly concatenate multiple bigger strings together.|
 |[XmlAttribute](api/xmlattribute-class.md)|Represents an attribute.|
+|[XmlAttributeCollection](api/xmlattributecollection-class.md)|Represents a collection of attributes associated with an XmlElement.|
 |[XmlCData](api/xmlcdata-class.md)|Represents the CDATA section.|
 |[XmlComment](api/xmlcomment-class.md)|Represents the content of an XML comment.|
 |[XmlDeclaration](api/xmldeclaration-class.md)|Represents the XML declaration node.|
