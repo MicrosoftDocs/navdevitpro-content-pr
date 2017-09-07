@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and an updated p
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentMethods{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentMethods({id})
 Content-type: application/json
 
 {
