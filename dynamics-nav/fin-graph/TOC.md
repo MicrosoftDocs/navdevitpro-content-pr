@@ -1,4 +1,5 @@
 # [Welcome](index.md)
+## [Error Codes](dynamics_error_codes.md)
 ## [Account](resources/dynamics_account.md)
 ### [Get account](api/dynamics_get_account.md)
 ## [Aged accounts payable](resources/dynamics_agedaccountspayable.md)
