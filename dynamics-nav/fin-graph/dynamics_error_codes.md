@@ -16,23 +16,6 @@ ms.author: solsen
 
 # Error Codes
 The following table lists the error codes for ODataExceptions, NavCSideExceptions, NavNCLExceptions, and other exceptions. The default error code is "unknown".
-<!--
-<table>
-  <tr>
-    <th>Exception Type</th>
-    <th>Error Message</th>
-    <th>Error Code</th>
-  </tr>
-  <tr>
-    <td>ODataExceptions</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Jane</td>
-    <td>Doe</td>
-  </tr>
-</table>
--->
 
 |Exception Type |Error Message |Error Code|
 |---------------|--------------|----------|
@@ -67,8 +50,6 @@ The following table lists the error codes for ODataExceptions, NavCSideException
 |FaultException|Sorry, but you can’t use this app with the user role that’s been assigned to you. Check with your admin and request access. If your company has Business Premium, this application will be made available to you soon.||
 |NavTenantNotAccessibleException|The tenant 'msca1a7355t05263373' is not accessible ||
 |NavSqlDatabaseSyncException|Metadata is not in sync for table with ID 2000000073. Please try again later or contact your system administrator.||
-
-
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](resources/dynamics_overview.md) 

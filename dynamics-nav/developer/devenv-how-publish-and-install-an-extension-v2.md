@@ -51,19 +51,35 @@ To make your extension available to users, the package must be published to a sp
     UnInstall-NAVApp -ServerInstance YourDynamicsNAVServer -Name ”My Extension.app” –Tenant Tenant1
     ```  
 
-
     > [!NOTE]  
     >  When you uninstall an extension that includes tables and fields, this impacts the database schema and any data that the tables and fields contain.
 
 ### To synchronize schemas
 Before you install the extension, you must run the `Sync-NavApp` cmdlet. The `Sync-NavApp` synchronizes the schema of a tenant database to a V2 extension before installation; it adds the tables from the extension to the tenant.
 
-```
-Sync-NavApp -ServerInstance NAV -Name ExtensionName -Path “C:\Users\vmadmin\Desktop\ExtensionName.app”
-```
+    ```
+    Sync-NavApp -ServerInstance NAV -Name ExtensionName -Path “C:\Users\vmadmin\Desktop\ExtensionName.app”
+    ```
 
-Run the `Start-NavAppDataUpgrade` cmdlet to upgrade a previously installed version of an extension to a new version and run extension upgrade code.
+Next, run the `Start-NavAppDataUpgrade` cmdlet to upgrade the data from a previously installed version of an extension to a new version of an extension in the tenant database.
 
+The following example upgrades the app with the specified name and version for the tenant with the ID **Tenant1**.
+
+    ```
+    Start-NAVAppDataUpgrade -ServerInstance DynamicsNAV -Name 'Proseware SmartApp' -Version 2.3.4.500 -Tenant 'Tenant1'
+    ```
+
+The next example upgrades an app that is returned from the `Get-NAVAppInfo` cmdlet for the tenant with the ID **Tenant1**.
+
+    ```
+    Get-NAVAppInfo -ServerInstance DynamicsNAV -Name 'Proseware SmartApp' -Version 2.3.4.500 | Start-NAVAppDataUpgrade -Tenant 'Tenant1'
+    ```
+
+This example upgrades the app at the specified path for the tenant with the ID **Tenant1**.
+
+    ```
+    Start-NAVAppDataUpgrade -ServerInstance DynamicsNAV -Path '.\Proseware SmartApp.navx' -Tenant 'Tenant1'
+    ```
 
 ### To install an extension in the client  
 
@@ -80,7 +96,7 @@ In the **Extension Management** window, you can view the extensions that are pub
 2. Choose the **Uninstall** button to uninstall the extension.
     
     > [!NOTE]  
-    >  When you uninstall an extension that includes tables and fields, this impacts the database schema and any data that the tables and fields contain. For more information, see [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md).  
+    >  When you uninstall an extension that includes tables and fields, this impacts the database schema and any data that the tables and fields contain.
 
 ## See Also  
 [Developing Extensions](devenv-dev-overview.md)

@@ -31,7 +31,7 @@ Respond to the individual needs of your customer by building customizations for 
 
 And learn all about building customizations in [sandbox environments](https://docs.microsoft.com/en-us/dynamics365/financials/across-how-create-sandbox-environment).  
  
-Reach out to XXXX@Microsoft.com on questions.  
+Reach out to [dyn365bep@microsoft.com](mailto:dyn365bep@microsoft.com) on questions.  
 
 ## As a developer on Dynamics 365 for Financials 
 
@@ -40,7 +40,13 @@ Reach more customers by bringing apps for Dynamics 365 for Financials into Micro
  
 You decide whether you want to connect to your existing service or extend the Dynamics 365 for Financials functionality. For more information on how to get started with building Apps, click [here](https://msdn.microsoft.com/en-us/dynamics-nav/developer/devenv-develop-apps-for-fin).  
  
-After you have gotten your [prerequisites in place](https://go.microsoft.com/fwlink/?linkid=857095) you will receive an invite for our Monthly Office Hour Call. During this hour, different experts will be present to help demystify any potential technical and marketing questions you might have during your development and onboarding process.  
+In October 2017, we are releasing a new readiness program ‘Ready! for Dynamics 365, Business edition’ where we will provide you with everything you need to get you going in building apps. You will benefit from pre-release bits, a platform to ask questions and provide feedback, what’s new information and much more. We will collaborate in this program on modern tools and involve our subject matter experts. Once you indicated you are building an app, you will automatically roll into the program. Those who are already working on having an app in Microsoft Appsource will be contacted soon. 
+
+### You can work with Dev Centers to move your solution(s) in Dynamics 365.
+Porting full industry solutions in extensions 2.0 can be a big challenging task. Microsoft has selected and educated a set of Microsoft ISV Development Centers (Dev Centers) to help you in this regard. These Dev Centers were established to provide strong third-party technical services that can be contracted and leveraged by Microsoft's Partners.
+Learn more about the available Dev Centers in your region here: https://mbs.microsoft.com/partnersource/northamerica/partner-essentials/all-partner-essentials-documents/FindISVDevelopmentCenter 
+
+Reach out to [dyn365bep@microsoft.com](mailto:dyn365bep@microsoft.com) on questions.
 
 ## As an accountant and financial service outsourcer 
 
