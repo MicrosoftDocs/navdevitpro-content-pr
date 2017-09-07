@@ -42,7 +42,7 @@
 <!-- new -->
 # [Developing Extensions Using the New Development Environment - Preview](developer/devenv-dev-overview.md)
 ## [Getting Started](developer/devenv-get-started.md)
-## [Using the In-Client Designer](developer/devenv-inclient-designer.md)
+## [Using Designer](developer/devenv-inclient-designer.md)
 ## [Keyboard Shortcuts](developer/devenv-keyboard-shortcuts.md)
 ## [Differences in the Development Environments](developer/devenv-differences.md)
 ## [The Txt2Al Conversion Tool](developer/devenv-txt2al-tool.md)
@@ -50,6 +50,7 @@
 ## [Events](developer/devenv-events-in-al.md)
 ## [Notifications](developer/devenv-notifications-developing.md)
 ## [Task Scheduler](developer/devenv-task-scheduler.md)
+## [How to: Publish and Install an Extension V2.0](developer/devenv-how-publish-and-install-an-extension-v2.md)
 ## [Developer Reference](developer/devenv-reference-overview.md)
 ### [Table Object](developer/devenv-table-object.md)
 ### [Table Extension Object](developer/devenv-table-ext-object.md)
