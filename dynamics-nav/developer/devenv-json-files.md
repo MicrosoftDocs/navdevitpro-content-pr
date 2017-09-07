@@ -31,7 +31,6 @@ The following table describes the settings in the ```app.json``` file:
 |brief|No|Short description of the extension.|
 |description|No|Longer description of the extension.|
 |version|Yes|The version of the app package.|
-|compatibilityId|Yes||
 |privacyStatement|No|URL to the privacy statement for the extension.|
 |EULA|No|URL to the license terms for the extension.|
 |help|No|URL to the help for the extension.|
@@ -51,8 +50,8 @@ The following table describes the settings in the ```launch.json``` file. The `l
 |Setting|Mandatory|Value|
 |-------|---------|-----|
 |name|Yes|"Publish to local server"|
-|type|||
-|request||Request type of the configuration. Can be `publish` or `attach`.|
+|type|Yes|Must be set to ".al". Required by Visual Studio Code.|
+|request|Yes|Request type of the configuration. Must be set to `publish`. Required by Visual Studio Code.|
 |server|Yes|The HTTP URL of your server, for example: `http://localhost|serverInstance`|
 |serverInstance|Yes|The instance name of your server, for example: `"NAV"`|
 |authentication|Yes|Specifies the server authentication method.|
@@ -62,8 +61,8 @@ The following table describes the settings in the ```launch.json``` file. The `l
 |Setting|Mandatory|Value|
 |-------|---------|-----|
 |name|Yes|"Publish to cloud"|
-|type|||
-|request||Request type of the configuration. Can be `publish` or `attach`.|
+|type|Yes|Must be set to ".al". Required by Visual Studio Code.|
+|request||Request type of the configuration. Must be set to `publish`. Required by Visual Studio Code.|
 |startupObjectId|Yes|Specifies the ID of the object to open after publishing. Only objects of type Page are currently supported.|
 |serverInstance|Yes|The instance name of your server, for example: `"US"`|
 
