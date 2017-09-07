@@ -1,7 +1,7 @@
 ---
-title: "Next Steps"
+title: "Your Next Steps"
 ms.custom: na
-ms.date: 09/04/2017
+ms.date: 09/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,8 +11,6 @@ ms.assetid: 471299b6-82cd-41cc-b529-8b60ece530a5
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
 ---
-
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Your Next Steps 
 
@@ -27,7 +25,7 @@ Become [CSP](https://partner.microsoft.com/en-US/cloud-solution-provider) or
 Reach out to [offerspilot@microsoft.com](mailto:offerspilot@microsoft.com) on questions.   
  
 ### You can provide customization services with Dynamics 365 for Financials  
-Respond to the individual needs of your customer by building customizations for Dynamics 365 for Financials. Customizations can be developed in the Financials in-client designer and by code developed in Visual Studio Code. See how you can easily get started here [aka.ms/GetStartedWithApps](http://aka.ms/getstartedwithapps). 
+Respond to the individual needs of your customer by building customizations for Dynamics 365 for Financials. Customizations can be developed in the Financials Designer and by code developed in Visual Studio Code. See how you can easily get started here [aka.ms/GetStartedWithApps](http://aka.ms/getstartedwithapps). 
 
 And learn all about building customizations in [sandbox environments](https://docs.microsoft.com/en-us/dynamics365/financials/across-how-create-sandbox-environment).  
  
@@ -38,13 +36,13 @@ Reach out to [dyn365bep@microsoft.com](mailto:dyn365bep@microsoft.com) on ques
 ### You can connect to or extend Dynamics 365 for Financials by delivering apps in Microsoft AppSource  
 Reach more customers by bringing apps for Dynamics 365 for Financials into Microsoft AppSource, the marketplace for Microsoft business apps. Dynamics 365 gives you rich functionality, a modern always up-to-date platform, and a set of great new development tools. When your app is done, publish it through Microsoft AppSource – the marketplace for Microsoft’s business apps and start benefiting from a brand that millions of users know and trust.  
  
-You decide whether you want to connect to your existing service or extend the Dynamics 365 for Financials functionality. For more information on how to get started with building Apps, click [here](https://msdn.microsoft.com/en-us/dynamics-nav/developer/devenv-develop-apps-for-fin).  
+You decide whether you want to connect to your existing service or extend the Dynamics 365 for Financials functionality. For more information on how to get started with building apps, click [here](https://msdn.microsoft.com/en-us/dynamics-nav/developer/devenv-develop-apps-for-fin).  
  
 In October 2017, we are releasing a new readiness program ‘Ready! for Dynamics 365, Business edition’ where we will provide you with everything you need to get you going in building apps. You will benefit from pre-release bits, a platform to ask questions and provide feedback, what’s new information and much more. We will collaborate in this program on modern tools and involve our subject matter experts. Once you indicated you are building an app, you will automatically roll into the program. Those who are already working on having an app in Microsoft Appsource will be contacted soon. 
 
 ### You can work with Dev Centers to move your solution(s) in Dynamics 365.
 Porting full industry solutions in extensions 2.0 can be a big challenging task. Microsoft has selected and educated a set of Microsoft ISV Development Centers (Dev Centers) to help you in this regard. These Dev Centers were established to provide strong third-party technical services that can be contracted and leveraged by Microsoft's Partners.
-Learn more about the available Dev Centers in your region here: https://mbs.microsoft.com/partnersource/northamerica/partner-essentials/all-partner-essentials-documents/FindISVDevelopmentCenter 
+Learn more about the available Dev Centers in your region [here]( https://mbs.microsoft.com/partnersource/northamerica/partner-essentials/all-partner-essentials-documents/FindISVDevelopmentCenter). 
 
 Reach out to [dyn365bep@microsoft.com](mailto:dyn365bep@microsoft.com) on questions.
 
