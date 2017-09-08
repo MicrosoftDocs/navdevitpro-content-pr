@@ -63,7 +63,7 @@ Before you start personalizing pages, it is important to understand how the pers
 - From this point on, you will personalize the page in the Windows and Web client independent of each other, which means the page can potentially look different in each client. The [!INCLUDE[nav_phone_md](includes/nav_phone_md.md)] and [!INCLUDE[nav_web_md](includes/nav_phone_md.md)] will show the same page personalizations as the Web client.  
 
 ## See Also
-[Personalizing Your Workspace in the Dynamics NAV Windows Client](ui-personalization-windows-client.md)  
 [Personalizing Your Workspace in the Dynamics NAV Web Client](ui-personalization-user.md)  
+[Personalizing Your Workspace in the Dynamics NAV Windows Client](ui-personalization-windows-client.md)  
 [Managing Personalization](ui-personalization-manage.md)  
 [Customize the User Interface](customize-the-user-interface.md)  
