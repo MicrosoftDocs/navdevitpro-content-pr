@@ -13,6 +13,7 @@ ms.date: 09/07/2017
 ms.author: jswymer
 
 ---
+[!INCLUDE[personalization_md](includes/personalization_md.md)]
 # Why the page is locked
 If there is a lock icon in the **Personalizing** banner when you open a page (as shown), this means that you are currently prevented from making any more personalization changes to the page.
 

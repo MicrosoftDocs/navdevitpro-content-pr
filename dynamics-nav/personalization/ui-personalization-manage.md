@@ -15,6 +15,7 @@ ms.date: 07/26/2017
 ms.author: jswymer
 
 ---
+[!INCLUDE[personalization_md](includes/personalization_md.md)]
 # Managing Personalization as an Administrator
 Users can personalize their workspace to suit their own preferences. As an administrator, you can control and manage personalization by disabling the ability for users to personalize pages and clearing any page personalizations that users have made. 
 
