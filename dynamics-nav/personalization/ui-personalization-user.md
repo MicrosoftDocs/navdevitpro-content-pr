@@ -43,7 +43,7 @@ To help you better understand personalization, here are some pointers.
 
 ## To personalize a page
 
-1. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then **Personalize**.
+1. In the upper-right corner, select the sign-in icon, and then **Personalize**.
 
     The **Personalizing** banner appears at the top, which indicates that you can start making changes. 
 
