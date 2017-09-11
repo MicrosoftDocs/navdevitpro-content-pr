@@ -50,15 +50,15 @@ Here is a JSON representation of the resource.
 ```json
 {
   "id": "GUID",
-  "number": int,
+  "number": "int",
   "postingDate": "Date",
   "documentNumber": "string",
   "documentType": "string",
   "accountId": "GUID",
   "accountNumber": "string",
   "description": "string",
-  "debitAmount": decimal,
-  "creditAmount": decimal,
+  "debitAmount": "decimal",
+  "creditAmount": "decimal",
   "lastModifiedDateTime": "datetime"
 }
 
