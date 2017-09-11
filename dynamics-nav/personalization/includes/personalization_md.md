@@ -1,0 +1,1 @@
+>The capability to personalize in the Dynamics NAV Web client is still under development and not yet available.
