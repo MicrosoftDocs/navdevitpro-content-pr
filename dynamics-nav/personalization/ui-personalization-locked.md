@@ -34,8 +34,5 @@ If you want to do some more personalizing to the page now in the [!INCLUDE[nav_w
 ## See Also
 [Personalization Overview](ui-personalization-overview.md)  
 [Personalizing Your Workspace by Using the Web Client](ui-personalization-user.md)  
-[Personalizing Your Workspace by Using the Windows Client](ui-personalization-windows-client.md)  
+[Personalizing Your Workspace by Using the Windows Client](https://msdn.microsoft.com/en-us/library/hh879078(v=nav.90).aspx)  
 [Managing Personalization](ui-personalization-manage.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[How to: Change the Role Center](change-role.md)  
-[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

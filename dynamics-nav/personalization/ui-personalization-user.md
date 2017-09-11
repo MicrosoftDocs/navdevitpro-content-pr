@@ -77,7 +77,6 @@ To help you better understand personalization, here are some pointers.
 At some point, you might want to undo all the personalization changes that you have made to a page over time so that page looks like it did originally. To do this, in the **Personalizing** banner, choose **More**, and then **Clear personalization**. You will not see the changes, until you close and open the page again.
 
 ## See Also
+[Personalization Overview](ui-personalization-overview.md)  
 [Managing Personalization](ui-personalization-manage.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[How to: Change the Role Center](change-role.md)  
-[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
+[Why the page is locked](ui-personalization-locked.md)  
