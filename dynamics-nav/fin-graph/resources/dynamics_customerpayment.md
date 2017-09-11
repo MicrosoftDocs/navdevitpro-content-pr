@@ -62,14 +62,14 @@ Here is a JSON representation of the resource.
 ```json
 {
     "id": "GUID",
-    "lineNumber": integer,
+    "lineNumber": "integer",
     "customerId": "GUID",
     "customerNumber": "string",
     "contactId": "string",
     "postingDate": "date",
     "documentNumber": "string",
     "externalDocumentNumber": "string",
-    "amount": decimal,
+    "amount": "decimal",
     "appliesToInvoiceId": "GUID",
     "appliesToInvoiceNumber": "string",
     "description": "string",
