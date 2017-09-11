@@ -36,7 +36,8 @@ Represents a line on a sales order in Dynamics 365 for Financials.
 |lineType|string|The type of the line. Can be Comment,Account,Item,Resource,Fixed Asset,Charge|
 |lineDetails|complex|The details of the line.|
 |description|string|A description of the item in the order line.|
-|unitOfMeasure|complex|The unit of measure complex type.|
+|unitOfMeasureId|GUID|The Id of the unit of measure in the order line.|
+|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complex_types.md)|The unit of measure complex type.|
 |quantity|numeric|The quantity of the item in the order line.|
 |unitPrice|numeric|The unit price of each individual item in the order line.|
 |discountAmount|numeric|The line discount amount.|
@@ -75,32 +76,32 @@ Here is a JSON representation of the resource.
   "value": [
     {
       "documentId": "GUID",
-      "sequence": decimal,
+      "sequence": "decimal",
       "itemId": "GUID",
       "accountId": "GUID",
-      "lineType": "String",
+      "lineType": "string",
       "lineDetails": {NAV.documentLineObjectDetails},
-      "description": "String",
+      "description": "string",
       "unitOfMeasure": {NAV.UnitOfMeasure},
-      "unitPrice": decimal,
-      "quantity": decimal,
-      "discountAmount": decimal,
-      "discountPercent": decimal,
-      "discountAppliedBeforeTax": false,
-      "amountExcludingTax": decimal,
-      "taxCode": "String",
-      "taxPercent": decimal,
-      "totalTaxAmount": decimal,
-      "amountIncludingTax": decimal,
-      "invoiceDiscountAllocation": decimal,
-      "netAmount": decimal,
-      "netTaxAmount": decimal,
-      "netAmountIncludingTax": decimal,
+      "unitPrice": "decimal",
+      "quantity": "decimal",
+      "discountAmount": "decimal",
+      "discountPercent": "decimal",
+      "discountAppliedBeforeTax": "boolean",
+      "amountExcludingTax": "decimal",
+      "taxCode": "string",
+      "taxPercent": "decimal",
+      "totalTaxAmount": "decimal",
+      "amountIncludingTax": "decimal",
+      "invoiceDiscountAllocation": "decimal",
+      "netAmount": "decimal",
+      "netTaxAmount": "decimal",
+      "netAmountIncludingTax": "decimal",
       "shipmentDate": "Date",
-      "shippedQuantity": decimal,
-      "invoicedQuantity": decimal,
-      "invoiceQuantity": decimal,
-      "shipQuantity": decimal
+      "shippedQuantity": "decimal",
+      "invoicedQuantity": "decimal",
+      "invoiceQuantity": "decimal",
+      "shipQuantity": "decimal"
     }
   ]
 

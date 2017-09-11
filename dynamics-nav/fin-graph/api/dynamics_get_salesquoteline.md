@@ -1,5 +1,5 @@
 ---
-title: GET Sales Quote Line method | Microsoft Docs
+title: GET salesQuoteLines method | Microsoft Docs
 description: Gets a sales quote line.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get sales quote line
+# Get salesQuoteLines
 Retrieve the properties and relationships of a sales quote line object for Dynamics 365 for Financials.
 
 ## Prerequisites
@@ -22,7 +22,7 @@ Retrieve the properties and relationships of a sales quote line object for Dynam
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/salesQuotes/{id}/salesQuoteLines(documentId={id},sequence={number})
+GET /financials/companies/({id})/salesQuotes/({id})/salesQuoteLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
@@ -42,12 +42,15 @@ If successful, this method returns a ```200 OK``` response code and salesQuoteLi
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesQuotes/{id}/salesQuoteLines(documentId={id},sequence={number})
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesQuotes/({id})/salesQuoteLines(documentId=({id}),sequence={number}))
 ```
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {
@@ -62,6 +65,7 @@ Here is an example of the response. Note: The response object shown here may be 
     "description": null
   },
   "description": "ATHENS Desk",
+  "unitOfMeasureId": "id-value",
   "unitOfMeasure": {
     "code": "BOX",
     "displayName": "Box",

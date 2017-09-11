@@ -1,6 +1,6 @@
 ---
-title: CREATE Shipment Method method | Microsoft Docs
-description: Creates a Shipment Method.
+title: CREATE shipmentMethod method | Microsoft Docs
+description: Creates a shipment method.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,21 +14,21 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create shipment method
+# Create shipmentMethod
 Create a shipmentMethod in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/{id}/shipmentMethods
+POST /financials/companies/({id})/shipmentMethods
 ```
 ## Optional query parameters
 
 ## Request headers
 
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
-|Content-Type  |application/json   |
+|Content-Type   |application/json          |
 
 ## Request body
 In the request body, supply a JSON representation of shipmentMethods object.
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and shipmentM
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/shipmentMethods
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/shipmentMethods
 Content-type: application/json
 
 {
@@ -54,7 +54,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 201 Created

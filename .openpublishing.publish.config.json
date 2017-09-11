@@ -36,7 +36,7 @@
     },
     {
       "docset_name": "financialssmbgraph",
-      "build_source_folder": "fin-graph",
+      "build_source_folder": "fin-graph-do-not-use",
       "build_output_subfolder": "financialssmbgraph",
       "locale": "en-us",
       "monikers": [],

@@ -1,5 +1,5 @@
 ---
-title: CREATE Purchase Invoice method | Microsoft Docs
+title: CREATE purchaseInvoice method | Microsoft Docs
 description: Creates a purchase invoice.
 services: project-madeira
 documentationcenter: ''
@@ -14,21 +14,21 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create purchase invoice
+# Create purchaseInvoice
 Create a purchaseInvoice in Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-POST /financials/companies/{id}/purchaseInvoices
+POST /financials/companies/({id})/purchaseInvoices
 ```
 
 ## Request headers
 
-|Header|Value|
-|------|-----|
+|Header         |Value                        |
+|---------------|-----------------------------|
 |Authorization  |Bearer {token}. Required.    |
-|Content-Type  |application/json    |
+|Content-Type   |application/json             |
 
 ## Request body
 In the request body, supply a JSON representation of a purchaseInvoice object.
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a purchas
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/purchaseInvoices
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/purchaseInvoices
 Content-type: application/json
 
 {
@@ -54,6 +54,7 @@ Content-type: application/json
   "currencyCode": "GBP",
   "paymentTerms": "COD"
 }
+```
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

@@ -1,6 +1,6 @@
 ---
-title: UPDATE Tax Groups method | Microsoft Docs
-description: Updates a Tax Group.
+title: UPDATE taxGroups method | Microsoft Docs
+description: Updates a tax groups.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update tax groups
+# Update taxGroups
 Update the properties of a tax groups object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-PATCH /financials/companies/{id}/taxGroups/{id}
+PATCH /financials/companies/({id})/taxGroups/({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and an updated t
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/taxGroups{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/taxGroups({id})
 Content-type: application/json
 
 {
@@ -51,7 +51,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK

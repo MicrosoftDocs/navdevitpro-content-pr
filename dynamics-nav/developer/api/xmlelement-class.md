@@ -27,13 +27,13 @@ The following methods are available on the XmlElement class.
 |[XmlElement.Create(String, String)](xmlelement-create-localname-namespaceuri-method.md)|Creates an XmlElement node.|  
 |[XmlElement.Create(String, String, Joker)](xmlelement-create-localname-namespaceuri-content-method.md)|Creates an XmlElement node.|  
 |[XmlElement.Create(String, Joker)](xmlelement-create-name-content-method.md)|Creates an XmlElement node.|  
-|[XmlElement.HasAttributes](xmlelement-hasattributes-property.md)|TODO:Add documentation|  
+|[XmlElement.HasAttributes](xmlelement-hasattributes-property.md)|Gets a boolean value indicating whether the current node has any attributes.|  
 |[XmlElement.HasElements](xmlelement-haselements-property.md)|Gets a value indicating whether this element has at least one attribute.|  
 |[XmlElement.IsEmpty](xmlelement-isempty-property.md)|Gets a value indicating whether this element contains no content.|  
 |[XmlElement.Name](xmlelement-name-property.md)|Gets the fully qualified name of this element.|  
 |[XmlElement.LocalName](xmlelement-localname-property.md)|Gets the local name of this element.|  
 |[XmlElement.NamespaceUri](xmlelement-namespaceuri-property.md)|Gets the namespace URI of this element.|  
-|[XmlElement.InnerXml](xmlelement-innerxml-property.md)|TODO:Add documentation|  
+|[XmlElement.InnerXml](xmlelement-innerxml-property.md)|Gets the markup representing only the child nodes of this node.|  
 |[XmlElement.GetNamespaceOfPrefix(String, Text)](xmlelement-getnamespaceofprefix-method.md)|Gets the namespace associated with a particular prefix for this element.|  
 |[XmlElement.GetPrefixOfNamespace(String, Text)](xmlelement-getprefixofnamespace-method.md)|Gets the prefix associated with a namespace URI for this element.|  
 |[XmlElement.RemoveAllAttributes()](xmlelement-removeallattributes-method.md)|Removes the attributes of this element.|  

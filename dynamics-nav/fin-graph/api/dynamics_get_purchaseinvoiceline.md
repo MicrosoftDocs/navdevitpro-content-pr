@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get purchase invoice line
+# Get purchaseInvoiceLines
 Retrieve the properties and relationships of a purchase invoice line object for Dynamics 365 for Financials.
 
 ## Prerequisites
@@ -22,12 +22,12 @@ Retrieve the properties and relationships of a purchase invoice line object for 
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/purchaseInvoices/{id}/purchaseInvoiceLines(documentId={id},sequence={number})
+GET /financials/companies/({id})/purchaseInvoices/({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
 
 ## Request body
@@ -42,12 +42,15 @@ If successful, this method returns a ```200 OK``` response code and purchaseInvo
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/purchaseInvoices/{id}/purchaseInvoiceLines(documentId={id},sequence={number})
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/purchaseInvoices/({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {
@@ -67,7 +70,7 @@ Here is an example of the response. Note: The response object shown here may be 
     "symbol": null,
     "unitConversion": null
   },
-  "directUnitCost": 71.1,
+  "unitCost": 71.1,
   "quantity": 96,
   "discountAmount": 0,
   "discountPercent": 0,

@@ -1,5 +1,5 @@
 ---
-title: DELETE purchase invoice method | Microsoft Docs
+title: DELETE purchaseInvoice method | Microsoft Docs
 description: Deletes a purchase invoice.
 services: project-madeira
 documentationcenter: ''
@@ -14,18 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete purchase invoice
-Delete a purchase invoice from Dynamics 365 for Financials.
-
+# Delete purchaseInvoice
+Delete a purchaseInvoice from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/purchaseInvoices/{id}
+DELETE /financials/companies/({id})/purchaseInvoices/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the purchase invoice, the purchase invoice will not be updated. |
 
@@ -42,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/purchaseInvoices/{id}
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/purchaseInvoices/({id})
 ```
 
 **Response** 

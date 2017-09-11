@@ -37,8 +37,10 @@ Represents a sales order in Dynamics 365 for Financials.
 |customerNumber|string, maximum size 20|The customer number for the order.|
 |customerName|string, maximum size 50|The full name of the customer. Read-Only.|
 |billingPostalAddress|complex|The billing postal address for the order.|  
+|currencyId|GUID|The id of the order currency.|
 |currencyCode|string, maximum size 10|The currency code for the order.|
 |pricesIncludeTax|boolean|Specifies whether the prices include Tax or not. Read-Only.|
+|paymentTermsId|GUID|The id of the order payment term.|
 |paymentTerms|string, maximum size 10|The payment terms of the order.|
 |salesperson|string, maximum size 20|The salesperson code for the order.|
 |partialShipping|boolean|Specifies whether partial shipping of items is preferred or not.|
@@ -77,18 +79,20 @@ Here is a JSON representation of the resource.
       "customerNumber": "string",
       "customerName": "string",
       "billingPostalAddress": {NAV.PostalAddress},
+      "currencyId": "GUID",
       "currencyCode": "string",
-      "pricesIncludeTax": boolean,
+      "pricesIncludeTax": "boolean",
+      "paymentTermsId": "GUID",
       "paymentTerms": "string",
       "salesperson": "string",
-      "partialShipping": boolean,
+      "partialShipping": "boolean",
       "requestedDeliveryDate": "Date",
-      "discountAmount": decimal,
-      "discountAppliedBeforeTax": boolean,
-      "totalAmountExcludingTax": decimal,
-      "totalTaxAmount": decimal,
-      "totalAmountIncludingTax": decimal,
-      "fullyShipped": boolean,
+      "discountAmount": "decimal",
+      "discountAppliedBeforeTax": "boolean",
+      "totalAmountExcludingTax": "decimal",
+      "totalTaxAmount": "decimal",
+      "totalAmountIncludingTax": "decimal",
+      "fullyShipped": "boolean",
       "status": "string",
       "lastModifiedDateTime": "DateTime"
 }

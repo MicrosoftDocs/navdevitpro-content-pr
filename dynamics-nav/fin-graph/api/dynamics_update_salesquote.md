@@ -1,5 +1,5 @@
 ---
-title: PATCH sales quote method | Microsoft Docs
+title: PATCH salesQuote method | Microsoft Docs
 description: Patches a sales quote.
 services: project-madeira
 documentationcenter: ''
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update sales quote
+# Update salesQuote
 Update the properties of a sales quotes object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-PATCH /financials/companies/{id}/salesQuotes/{id}
+PATCH /financials/companies/({id})/salesQuotes/({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated s
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesQuotes{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesQuotes({id})
 Content-type: application/json
 
 {
@@ -52,7 +52,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK
@@ -61,6 +64,7 @@ Content-type: application/json
 {
   "id": "id-value",
   "number": "1006",
+  "externalDocumentNumber": "",
   "documentDate": "2019-01-24",
   "dueDate": "2019-01-24",
   "customerId": "customerId-value",
@@ -74,8 +78,11 @@ Content-type: application/json
     "countryLetterCode": "",
     "postalCode": ""
   },
+  "currencyId": "currencyId-value",
   "currencyCode": "GBP",
+  "paymentTermsId": "paymentTermsId-value",
   "paymentTerms": "COD",
+  "shipmentMethodId": "shipmentMethodId-value",
   "shipmentMethod": "EXW",
   "salesperson": "",
   "discountAmount": 0,
@@ -83,6 +90,9 @@ Content-type: application/json
   "totalTaxAmount": 682.56,
   "totalAmountIncludingTax": 7508.16,
   "status": "Open",
+  "sentDate": "0001-01-01T00:00:00Z",
+  "validUntilDate": "0001-01-01",
+  "acceptedDate": "0001-01-01",  
   "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```

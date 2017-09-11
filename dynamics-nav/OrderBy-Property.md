@@ -35,7 +35,10 @@ Sorts rows in the resulting dataset of a query in ascending or descending order 
  To modify the **OrderBy** property, you can choose the **AssistEdit** button next to the property. In the **Order By** window, you add a column and set its direction to ascending or descending. You can sort on multiple columns by adding additional columns to the **Order By** window. The query will sort the results by the first column in the **Order By** window, then the second column, and so on.  
   
  You can also type values directly in the **Value** column of the **OrderBy** property in the **Properties** window. To sort on multiple columns, separate each column with a comma.  
-  
+
+> [!IMPORTANT]  
+> You can specify up to 7 fields for the **OrderBy** property.    
+
 > [!NOTE]  
 >  You cannot sort on the same column more than once.  
   

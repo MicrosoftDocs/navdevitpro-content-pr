@@ -1,5 +1,5 @@
 ---
-title: CREATE Sales Order method | Microsoft Docs
+title: CREATE salesOrder method | Microsoft Docs
 description: Creates a sales order.
 services: project-madeira
 documentationcenter: ''
@@ -14,21 +14,21 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create sales order
+# Create salesOrder
 Create a salesOrder in Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-POST /financials/companies/{id}/salesOrders
+POST /financials/companies/({id})/salesOrders
 ```
 
 ## Request headers
 
-|Header|Value|
-|------|-----|
+|Header         |Value                        |
+|---------------|-----------------------------|
 |Authorization  |Bearer {token}. Required.    |
-|Content-Type  |application/json    |
+|Content-Type   |application/json             |
 
 ## Request body
 In the request body, supply a JSON representation of a salesOrder object.
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a salesOr
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesOrders
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesOrders
 Content-type: application/json
 
 {
@@ -54,6 +54,7 @@ Content-type: application/json
   "currencyCode": "GBP",
   "paymentTerms": "COD"
 }
+```
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

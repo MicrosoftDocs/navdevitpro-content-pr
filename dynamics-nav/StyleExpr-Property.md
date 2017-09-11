@@ -28,7 +28,8 @@ Sets whether the format that is specified in the [Style Property](Style-Property
 > [!NOTE]  
 >  The information in this topic is mainly applicable to formatting the text of page fields. For information about how to use the **StyleExpr** property for configuring Cues, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](How-to--Set-Up-Colored-Indicators-on-Cues-by-Using-the-Style-and-StyleExpr-Property.md).  
 
- You can set **StyleExpr** to either the name of a variable; a text constant in apostrophes, for example, 'strong'; or, for backward compatibility, to **true** or **false**.  
+> [!IMPORTANT]  
+>  You can set **StyleExpr** to either the name of a variable; a text constant in apostrophes, for example, 'strong'; or, for backward compatibility, to **true** or **false**.  **StyleExpr** must not be set to a Text or Boolean array; it will compile, but fail at runtime.
 
  If the **StyleExpr** property evaluates to **true**, then the value of the field is formatted as specified by the [Style Property](Style-Property.md). You can set the value to **true** or **false**, or you can use a variable that evaluates to **true** or **false**. The property's default value is **false**.  
 
@@ -36,7 +37,9 @@ Sets whether the format that is specified in the [Style Property](Style-Property
 >  You can use a conditional setting of styles by inserting the conditional code in, for example, the [OnAfterGetRecord Trigger](OnAfterGetRecord-Trigger.md). Remember to cover all cases in else branches to avoid incorrect styles. For example: `if (MyField = 'abc') then   MyStyleVar := 'Ambiguous' else   MyStyleVar := 'Favorable'`  
 
 > [!NOTE]  
->  To use a variable for the **StyleExpr** property, the [IncludeInDataSet Property](IncludeInDataSet-Property.md) of the variable must be set to **Yes**.  
+>  To use a variable for the **StyleExpr** property, the [IncludeInDataSet Property](IncludeInDataSet-Property.md) of the variable must be set to **Yes**. 
+
+ 
 
 ## See Also  
  [How to: Style Field Text on a Page](How-to--Style-Field-Text-on-a-Page.md)

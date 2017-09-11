@@ -36,7 +36,8 @@ Represents a salesQuoteLine resource type in Dynamics 365 for Financials.
 |lineType|string|The type of the line. Can be Comment,Account,Item,Resource,Fixed Asset,Charge|
 |lineDetails|complex|The details of the line.|
 |description|string|A description of the item in the quote line.|
-|unitOfMeasure|complex|The unit of measure complex type.|
+|unitOfMeasureId|GUID|The Id of the unit of measure in the quote line.|
+|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complex_types.md)|The unit of measure complex type.|
 |unitPrice|numeric|The unit price of each individual item in the quote line.|
 |quantity|numeric|The quantity of the item in the quote line.|
 |discountAmount|numeric|The line discount amount.|
@@ -44,6 +45,7 @@ Represents a salesQuoteLine resource type in Dynamics 365 for Financials.
 |discountAppliedBeforeTax|boolean|Specified if the discount is applied before tax. Read-Only.|
 |amountExcludingTax|numeric|The line amount excluding the tax. Read-Only.|
 |taxCode|string|The tax code for the line.|
+|taxPercent|decimal|The tax percent for the line.|
 |totalTaxAmount|numeric|The total tax amount for the line. Read-Only.|
 |amountIncludingTax|numeric|The total amount for the line including tax. Read-Only.|
 |netAmount|numeric|The net amount is the amount including all discounts (taken from quote header). Read-Only.|
@@ -68,26 +70,27 @@ Here is a JSON representation of the resource.
   "value": [
     {
       "documentId": "GUID",
-      "sequence": decimal,
+      "sequence": "decimal",
       "itemId": "GUID",
       "accountId": "GUID",
       "lineType": "String",
       "lineDetails": {NAV.documentLineObjectDetails},
-      "description": "String",
+      "description": "string",
+      "unitOfMeasureId": "GUID",
       "unitOfMeasure": {NAV.UnitOfMeasure},
-      "unitPrice": decimal,
-      "quantity": decimal,
-      "discountAmount": decimal,
-      "discountPercent": decimal,
-      "discountAppliedBeforeTax": false,
-      "amountExcludingTax": decimal,
+      "unitPrice": "decimal",
+      "quantity": "decimal",
+      "discountAmount": "decimal",
+      "discountPercent": "decimal",
+      "discountAppliedBeforeTax": "boolean",
+      "amountExcludingTax": "decimal",
       "taxCode": "String",
-      "taxPercent": decimal,
-      "totalTaxAmount": decimal,
-      "amountIncludingTax": decimal,
-      "netAmount": decimal,
-      "netTaxAmount": decimal,
-      "netAmountIncludingTax": decimal
+      "taxPercent": "decimal",
+      "totalTaxAmount": "decimal",
+      "amountIncludingTax": "decimal",
+      "netAmount": "decimal",
+      "netTaxAmount": "decimal",
+      "netAmountIncludingTax": "decimal"
     }
   ]
 

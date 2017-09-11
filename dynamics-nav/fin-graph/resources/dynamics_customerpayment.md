@@ -19,16 +19,16 @@ Represents a customer payment in Dynamics 365 for Financials.
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
-|[GET customerPayment](../api/dynamics_get_customerpayment.md)|customerPayments|Get customer payment.|
-|[POST customerPayment](../api/dynamics_create_customerpayment.md)|customerPayments|Create customer payment.|
-|[PATCH customerPayment](../api/dynamics_update_customerpayment.md)|customerPayments|Update customer payment.|
-|[DELETE customerPayment](../api/dynamics_delete_customerpayment.md)|none|Delete customer payment.|
+| Method         | Return Type  |Description|
+|:---------------|:-------------|:----------|
+|[GET customerPayment](../api/dynamics_get_customerpayment.md)|customerPayments|Get Customer Payment.|
+|[POST customerPayment](../api/dynamics_create_customerpayment.md)|customerPayments|Create Customer Payment.|
+|[PATCH customerPayment](../api/dynamics_update_customerpayment.md)|customerPayments|Update Customer Payment.|
+|[DELETE customerPayment](../api/dynamics_delete_customerpayment.md)|none|Delete Customer Payment.|
 
 ## Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
+| Property	   | Type	 |Description|
+|:-------------|:--------|:----------|
 |id|GUID|The unique ID of the customer payment. Non-editable.|
 |lineNumber|integer|The number of the customer payment.|
 |customerId|GUID|The unique ID of the customer that the payment is related to.|
@@ -46,9 +46,11 @@ Represents a customer payment in Dynamics 365 for Financials.
 
 
 ## Relationships
-A customer payment can be a "Parent Entity" of the Dimension lines.
+A customer payment is a subpage of a customer payments journal. It cannot be accessed directly.
 
-A customer (customerId) must exist in the Customers table.
+A customer payment can be a "Parent Entity" of the dimension lines.
+
+A Customer (customerId) must exist in the Customers table.
 
 An Invoice (appliesToInvoiceId) must exist in the Sales Invoices Table.
 
@@ -60,14 +62,14 @@ Here is a JSON representation of the resource.
 ```json
 {
     "id": "GUID",
-    "lineNumber": integer,
+    "lineNumber": "integer",
     "customerId": "GUID",
     "customerNumber": "string",
     "contactId": "string",
     "postingDate": "date",
     "documentNumber": "string",
     "externalDocumentNumber": "string",
-    "amount": decimal,
+    "amount": "decimal",
     "appliesToInvoiceId": "GUID",
     "appliesToInvoiceNumber": "string",
     "description": "string",

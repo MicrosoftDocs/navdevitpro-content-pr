@@ -1,7 +1,7 @@
 ---
 title: "Configuring Microsoft Dynamics NAV Server"
 author: edupont04
-ms.date: 24/07/2017
+ms.date: 08/24/2017
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
@@ -66,11 +66,11 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
 |Enable Event Logging to Windows Application Log|Specifies whether to record admin and operational type events \(errors, warnings, and information messages\) that occur on [!INCLUDE[nav_server](includes/nav_server_md.md)] instances in the **Windows Application** log on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].<br /><br /> Because [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events are always logged to the **Application and Services Logs**, you can disable logging [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events in the Windows Application log and not lose any data. For more information, see [Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md) and [How to: Disable Logging Events to the Windows Application Log](How-to--Disable-Logging-Events-to-the-Windows-Application-Log.md).<br /><br /> **Important:** If you are using System Center Operations Manager to monitor [!INCLUDE[nav_server](includes/nav_server_md.md)] instances, do not disable logging to the Windows Application log. If you do, monitoring will not work.|  
 |Enable File Access by C/AL Functions|Specifies whether C/AL functions of the file data type can access files on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer.<br /><br /> Default: Enabled|  
 |Enable Full C/AL Function Tracing|Specifies whether full C/AL function tracing is enabled on Event Tracing for Windows \(ETW\) sessions.<br /><br /> When this setting is enabled, all C/AL function calls and statements are traced.<br /><br /> When this setting is disabled, only root C/AL function calls are traced. Statements and functions that are called from a function are not traced.<br /><br /> For more information, see [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md).<br /><br /> Default: Not enabled|  
-|  Encryption Key Provider  |  Specifies the encryption provider as either **LocalKeyFile** or **AzureKeyVault** values. If you use **AzureKeyVault**, see **Azure Key Vault Encryption Provider** tab settings. <BR /><BR />Default: LocalKeyFile |
+|  Encryption Key Provider  |  Specifies where the encryption key is that is used to encrypt data in the database, either **LocalKeyFile** or **AzureKeyVault** values. If you use **AzureKeyVault**, see the **Azure Key Vault Encryption Provider** tab settings. <BR /><BR />Default: LocalKeyFile |
 |Max Concurrent Calls|The maximum number of concurrent client calls that can be active on this [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> Default: 40<br /><br /> Range: 1 - 2,147,483,647<br /><br /> You can also use **MaxValue** as a value to indicate no limit.|  
 |Max Data Rows Allowed to Send to Excel|Specifies the maximum number of rows that can be included in an Excel document that is generated from data in a list type page in the client.<br /><br /> If you do not want to have a limit on rows, set the value to **MaxValue**.<br /><br /> **Note:** This setting only pertains to list type pages in the client. For other pages types, like cards, the limit on rows is configured in the client. For more information, see [Configuring the Microsoft Dynamics NAV Windows Client After Installation](Configuring-the-Windows-Client.md#afterset).|
 |Maximum Stream Read Size|Specifies the maximum number of bytes that can be read from a stream (InStream object) in a single C/AL read operation, such a READ or InStream.READTEXT function call. This setting pertains to UTF-8 and UTF-16 text encoding; not MS-DOS encoding.<br /><br />Default value: 1000000.|
-|Metadata Provider Cache Size|*This setting has been deprecated in [!INCLUDE[nav2017](includes/nav2017.md)]*.<BR /><BR />Specifies the number of objects that can be cached. Set this value to 0 to disable caching.<br /><br /> Default: 150|  
+|Metadata Provider Cache Size|Specifies the number of objects that can be cached. Set this value to 0 to disable caching.<br /><br /> Default: 150|  
 |Multitenant|Specifies if the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance can be used in a multitenant environment.<br /><br /> Tenant databases can only be mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance if this setting is selected. For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).|  
 |Network Protocol|Specifies the network protocol for accessing the database.<br /><br /> Valid values: Default, Named, Sockets, MultiProtocol<br /><br /> Default: Default|  
 |Report PDF Font Embedding|Specifies whether fonts are embedded in PDF files that are generated for reports when the report uses an RDLC report layout at runtime. This setting applies when reports are run and saved as PDF files on the [!INCLUDE[navnow](includes/navnow_md.md)] client \(from the report request page or print preview window\) or on [!INCLUDE[nav_server](includes/nav_server_md.md)] \(by the [SAVEAS Function](SAVEAS-Function.md) or [SAVEASPDF Function \(Report\)](SAVEASPDF-Function--Report-.md) in C/AL code\).<br /><br /> **Note:** This setting does not apply when a report uses a Word report layout at runtime.<br /><br /> Embedding fonts in a PDF of a report makes sure that the PDF will use the same fonts as the original file, regardless of where the PDF is opened and which fonts are installed on the computer. However, embedding fonts can significantly increase the size of the PDF files. By disabling font embedding, you can decrease the size of the report PDF files.<br /><br /> **Note:** This is a global setting for font embedding in report PDF files. You can override this setting on a report basis by the specifying the [PDFFontEmbedding Property](PDFFontEmbedding-Property.md).<br /><br /> Default: Not enabled|  
@@ -174,11 +174,14 @@ For more information, see [Configuring NAS Services](configuring-nas-services.md
 |Port|The listening TCP port for the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].<br /><br /> Default: 7045<br /><br /> Valid range: 1 - 65535|  
 
 ### Azure Key Vault Encryption Provider Tab Settings
-The following table describes fields on the **Azure Key Vault Encryption Provider** tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].
+The following table describes fields on the **Azure Key Vault Encryption Provider** tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  
+
+> [!NOTE]  
+>  These settings are used when you want to use Azure Key Vault to help encrypt data in the database. If you want to use Azure Key Vault to encrypt the connection between [!INCLUDE[nav_server](includes/nav_server_md.md)] and an Azure SQL database, you must store that key in the database. 
 
 |  Setting  |  Description  |
 |-----------|---------------|  
-|  Client Certificate Store Location|  Specifies the location of the certificate store for the Key Vault client certificate.<BR /><BR />**LocalMachine** specifies that the certificate is stored in a certificate store for the computer that the [!INCLUDE[nav_server](includes/nav_server_md.md)] is running on.<BR /><BR />**CurrentUser** specifies that the certificate is stored in a certificate store for your account on the computer that the Dynamics NAV Server is running on.<BR /><BR />Default: **LocalMachine** |
+|  Client Certificate Store Location|  Specifies the location of the certificate store for the Key Vault client certificate if you set the **Encryption Key Provider** field to **AzureKeyVault**.<BR /><BR />**LocalMachine** specifies that the certificate is stored in a certificate store for the computer that the [!INCLUDE[nav_server](includes/nav_server_md.md)] is running on.<BR /><BR />**CurrentUser** specifies that the certificate is stored in a certificate store for your account on the computer that the [!INCLUDE[nav_server](includes/nav_server_md.md)] is running on.<BR /><BR />Default: **LocalMachine** |
 |  Client Certificate Store Name|  Specifies the certificate store where the Key Vault client certificate is stored.<BR /><BR />Default: **My** |
 |  Client Certificate Thumbprint|  Specifies the thumbprint of the Key Vault client certificate<BR /><BR />Default: **My** |
 |  Client ID  |  Specifies the unique identifier (GUID) of the Key Vault client application in Microsoft Azure. |
@@ -237,12 +240,12 @@ Get-Help Set-NAVServer*
  For more information, see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
 
 ## See Also  
- [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)   
- [Enhancing Microsoft Dynamics NAV Server Security](Enhancing-Microsoft-Dynamics-NAV-Server-Security.md)   
- [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
- [Configuring Microsoft Dynamics NAV Help Server](Configuring-Microsoft-Dynamics-NAV-Help-Server.md)   
- [How to: Specify When UI Elements Are Removed](How-to--Specify-When-UI-Elements-Are-Removed.md)   
- [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
- [Configuring the Windows Client](Configuring-the-Windows-Client.md)   
- [Configuring Dynamics NAV and the Excel Add-In](configuring-dynamics-nav-excel-addin.md)  
- [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)
+[Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)   
+[Enhancing Microsoft Dynamics NAV Server Security](Enhancing-Microsoft-Dynamics-NAV-Server-Security.md)   
+[Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
+[Configuring Microsoft Dynamics NAV Help Server](Configuring-Microsoft-Dynamics-NAV-Help-Server.md)   
+[How to: Specify When UI Elements Are Removed](How-to--Specify-When-UI-Elements-Are-Removed.md)   
+[Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
+[Configuring the Windows Client](Configuring-the-Windows-Client.md)   
+[Configuring Dynamics NAV and the Excel Add-In](configuring-dynamics-nav-excel-addin.md)  
+[Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)  

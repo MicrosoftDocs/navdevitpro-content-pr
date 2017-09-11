@@ -1,5 +1,5 @@
 ---
-title: CREATE Sales Invoice Line method | Microsoft Docs
+title: CREATE salesInvoiceLine method | Microsoft Docs
 description: Creates a sales invoice line.
 services: project-madeira
 documentationcenter: ''
@@ -14,21 +14,21 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create sales invoice line
-Create a salesInvoice in Dynamics 365 for Financials.
+# Create salesInvoiceLine
+Create a salesInvoiceLine in Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-POST /financials/companies/{id}/salesInvoices/{id}/salesInvoiceLines
+POST /financials/companies/({id})/salesInvoices/({id})/salesInvoiceLines
 ```
 
 ## Request headers
 
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer {token}. Required.    |
-|Content-Type  |application/json    |
+|Header        |Value                      |
+|--------------|---------------------------|
+|Authorization |Bearer {token}. Required.  |
+|Content-Type  |application/json           |
 
 ## Request body
 In the request body, supply a JSON representation of a salesInvoice object.
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a salesIn
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/salesInvoices/{id}/salesInvoiceLines
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesInvoices/({id})/salesInvoiceLines
 Content-type: application/json
 
 {
@@ -51,6 +51,7 @@ Content-type: application/json
 "lineType": "Item",
 "quantity": 9
 }
+```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](dynamics_overview.md)
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)

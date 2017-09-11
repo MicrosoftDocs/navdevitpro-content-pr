@@ -21,14 +21,14 @@ Update the properties of a customers object for Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-PATCH /financials/companies/{id}/customers/{id}
+PATCH /financials/companies/({id})/customers/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
-|Content-Type   |application/json. |
+|Content-Type   |application/json.         |
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
 
 ## Request body
@@ -44,7 +44,7 @@ If successful, this method returns a ```200 OK``` response code and an updated c
 Here is an example of the request.
 
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/customers{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customers({id})
 Content-type: application/json
 
 {
@@ -55,10 +55,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response.  
+Here is an example of the response. 
 
 > [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK
@@ -83,12 +83,16 @@ Content-type: application/json
   "taxAreaId": "taxAreaId-value",
   "taxAreaDisplayName": "tax area",
   "taxRegistrationNumber": "28012001T",
+  "currencyId": "currencyId-value",
   "currencyCode": "USD",
+  "paymentTermsId": "paymentTermsId-value",
   "paymentTerms": {
     "code": "1M(8D)",
     "description": "1 Month/2% 8 days"
   },
+  "shipmentMethodId": "shipmentMethodId-value",
   "shipmentMethod": null,
+  "paymentMethodId": "paymentMethod-value",
   "paymentMethod": {
     "code": "BANK",
     "description": "Bank Transfer"
@@ -101,5 +105,6 @@ Content-type: application/json
 }
 ```
 
-## See also  
+
+## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

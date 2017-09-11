@@ -31,6 +31,7 @@ The following methods are available on the XmlDocument class.
 |[XmlDocument.GetDeclaration(XmlDeclaration)](xmldocument-getdeclaration-method.md)|Gets the XML declaration for this document.|  
 |[XmlDocument.SetDeclaration(XmlDeclaration)](xmldocument-setdeclaration-method.md)|Sets the XML declaration for this document.|  
 |[XmlDocument.GetDocumentType(XmlDocumentType)](xmldocument-getdocumenttype-method.md)|Gets the Document Type Definition (DTD) for this document.|  
+|[XmlDocument.NameTable](xmldocument-nametable-property.md)|Gets the XmlNameTable associated with this document.|  
 |[XmlDocument.AsXmlNode()](xmldocument-asxmlnode-method.md)|Converts the node to an XmlNode.|  
 |[XmlDocument.GetParent(XmlElement)](xmldocument-getparent-method.md)|Gets the parent XmlElement of this node.|  
 |[XmlDocument.GetDocument(XmlDocument)](xmldocument-getdocument-method.md)|Gets the XmlDocument for this node.|  

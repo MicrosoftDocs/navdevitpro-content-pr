@@ -1,6 +1,6 @@
 ---
 title: GET agedAccountsPayable method | Microsoft Docs
-description: Gets an agedAccountsPayable.
+description: Gets an aged accounts payable.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -19,13 +19,13 @@ Retrieve the properties and relationships of an aged accounts payable report obj
 
 ## HTTP request
 ```
-GET /financials/companies/{id}/agedAccountsPayable
+GET /financials/companies/({id})/agedAccountsPayable
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer {token}. Required. |
+|Header        |Value                     |
+|--------------|--------------------------|
+|Authorization |Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.
@@ -39,15 +39,15 @@ If successful, this method returns a ```200 OK``` response code and agedAccounts
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/agedAccountsPayable
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/agedAccountsPayable
 ```
 
 **Response**
 
-Here is an example of the response.  
+Here is an example of the response. 
 
 > [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {
@@ -55,13 +55,12 @@ Here is an example of the response.
   "vendorNumber": "50000",
   "name": "Nod Publishers",
   "currencyCode": "USD",
-  "before": 0,
-  "period1": 0,
-  "period2": 0,
-  "period3": 0,
-  "after": 17273.87,
-  "balance": 17273.87,
-  "periodStartDateFilter": "2019-01-01",
+  "balanceDue": 17273.87,
+  "currentAmount": 0,
+  "period1Amount": 0,
+  "period2Amount": 0,
+  "period3Amount": 17273.87,
+  "agedAsOfDate": "2019-01-01",
   "periodLengthFilter": "3M"  
 }
 ```

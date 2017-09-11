@@ -1,6 +1,6 @@
 ---
-title: UPDATE tax area method | Microsoft Docs
-description: Updates a tax area.
+title: UPDATE taxAreas method | Microsoft Docs
+description: Updates a tax areas object.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update tax area
+# Update taxAreas
 Update the properties of a tax area object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-PATCH /financials/companies/{id}/taxAreas/{id}
+PATCH /financials/companies/({id})/taxAreas/({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated t
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/taxAreas{id}
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/taxAreas({id})
 Content-type: application/json
 
 {
@@ -53,7 +53,10 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK

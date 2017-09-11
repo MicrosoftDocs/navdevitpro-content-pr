@@ -14,18 +14,18 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get purchase invoice
+# Get purchaseInvoices
 Retrieve the properties and relationships of a purchase object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/purchaseInvoices/{id}
+GET /financials/companies/({id})/purchaseInvoices/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
 
 ## Request body
@@ -40,12 +40,15 @@ If successful, this method returns a ```200 OK``` response code and purchaseInvo
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/purchaseInvoices/{id}
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/purchaseInvoices/({id})
 ```
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {

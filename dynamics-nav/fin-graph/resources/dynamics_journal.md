@@ -19,20 +19,20 @@ Represents a journal in Dynamics 365 for Financials.
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
-|[GET journal](../api/dynamics_get_journal.md)|journal|Get Journal.|
-|[POST journal](../api/dynamics_create_journal.md)|journal|Create Journal.|
-|[PATCH journal](../api/dynamics_update_journal.md)|journal|Update Journal.|
-|[DELETE journal](../api/dynamics_delete_journal.md)|none|Delete Journal.|
+| Method                                            |Return Type|Description    |
+|:--------------------------------------------------|:----------|:--------------|
+|[GET journal](../api/dynamics_get_journal.md)      |journal    |Get Journal.   |
+|[POST journal](../api/dynamics_create_journal.md)  |journal    |Create Journal.|
+|[PATCH journal](../api/dynamics_update_journal.md) |journal    |Update Journal.|
+|[DELETE journal](../api/dynamics_delete_journal.md)|none       |Delete Journal.|
 
 ## Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|id|GUID|The unique ID of the journal. Non-editable.|
-|code|string, maximum size 10| The code of the journal.|
-|displayName|string, maximum size 50| The display name of the journal.|
-|lastModifiedDateTime|datetime|The last datetime the journal was modified. Read-Only.|
+| Property	         | Type	                 |Description                                           |
+|:-------------------|:----------------------|:-----------------------------------------------------|
+|id                  |GUID                   |The unique ID of the journal. Non-editable.           |
+|code                |string, maximum size 10| The code of the journal.                             |
+|displayName         |string, maximum size 50| The display name of the journal.                     |
+|lastModifiedDateTime|datetime               |The last datetime the journal was modified. Read-Only.|
 
 ## Relationships
 
@@ -44,8 +44,8 @@ Here is a JSON representation of the resource.
 ```json
 {
   "id": "GUID",
-  "code": "String",
-  "displayName": "String",
+  "code": "string",
+  "displayName": "string",
   "lastModifiedDateTime": "datetime"
 }
 ```
