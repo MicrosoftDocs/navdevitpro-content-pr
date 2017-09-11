@@ -54,6 +54,9 @@ There are two JSON files in the project; the `app.json` file and the `launch.jso
 ## The platform symbol file
 The platform symbol file contains all of the base app objects that your extension builds on. If the symbol file is not present, you will be prompted to download it. For more information about the platform symbol file, see [Symbols](devenv-symbols.md).
 
+## Installing and publishing an extension
+To make your extension available to users, the package must be published to a specific Microsoft Dynamics NAV Server instance. The extension can be installed for one or more tenants. For more information about how to install and publish an extension, see [How to: Publish and Install an Extension V2](devenv-how-publish-and-install-an-extension-v2.md). 
+
 ## See Also
 [Differences in the Dynamics NAV Development Environments](devenv-differences.md)  
 [Developer Reference](devenv-reference-overview.md)
