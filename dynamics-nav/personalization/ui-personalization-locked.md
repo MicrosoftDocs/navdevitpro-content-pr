@@ -24,7 +24,7 @@ There can be two reasons for this:
 
     or
      
-2. You have used the [!INCLUDE[nav_web](includes/nav_web_md.md)] to personalize the page before, but it was done using a [!INCLUDE[nav2017](includes/nav2017_md.md)] or earlier version.   
+2. You have used the [!INCLUDE[nav_web](includes/nav_web_md.md)] to personalize the page before, but it was done using a [!INCLUDE[nav2017](includes/nav2017.md)] or earlier version.   
 
 If you want to do some more personalizing to the page now in the [!INCLUDE[nav_web](includes/nav_web_md.md)], then choose the lock icon and then **Unlock**.
 
