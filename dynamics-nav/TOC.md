@@ -56,7 +56,6 @@
 ## [Events](developer/devenv-events-in-al.md)
 ## [Notifications](developer/devenv-notifications-developing.md)
 ## [Task Scheduler](developer/devenv-task-scheduler.md)
-## [How to: Publish and Install an Extension V2.0](developer/devenv-how-publish-and-install-an-extension-v2.md)
 ## [Developer Reference](developer/devenv-reference-overview.md)
 ### [Table Object](developer/devenv-table-object.md)
 ### [Table Extension Object](developer/devenv-table-ext-object.md)
