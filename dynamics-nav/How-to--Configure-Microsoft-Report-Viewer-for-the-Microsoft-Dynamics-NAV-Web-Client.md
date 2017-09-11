@@ -21,7 +21,7 @@ The [!INCLUDE[nav_web](includes/nav_web_md.md)] uses Microsoft Report Viewer to 
   
 ### To configure Microsoft Report Viewer  
   
-1.  On the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)],  open the web.config file for the web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Use a text editor, such as Notepad.  
+1.  On the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open the web.config file for the web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Use a text editor, such as Notepad.  
   
      The web.config file is located in the physical path of the web application on Internet Information Services \(IIS\). By default, the path is *%systemroot%\\inetpub\\wwwroot\\\[VirtualDirectoryName\]\\WebClient*. For example, the folder for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] application is %systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\\WebClient.  
   
