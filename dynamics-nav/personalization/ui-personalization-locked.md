@@ -14,14 +14,22 @@ ms.author: jswymer
 
 ---
 [!INCLUDE[personalization_md](includes/personalization_md.md)]
-# Why the page is locked
-If there is a lock icon in the **Personalizing** banner when you open a page (as shown), this means that you are currently prevented from making any more personalization changes to the page.
+# Why is the page is locked from personalizing?
+If there is a lock icon in the **Personalizing** banner when you open a page (as shown), this means that you are currently prevented from making any more personalization changes to the page in the [!INCLUDE[nav_web](includes/nav_web_md.md)].
 
 ![Personalize Lock](media/personalization-locked.png "Personalize lock")
 
-This is because, until now, you have only personalized by using [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)].
+There can be two reasons for this:
+1.  Until now, you have only used the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] to personalize the page.
 
-If you want to do some more personalizing to the page now, then you choose the lock icon and then **Unlock**. Just be aware that if you choose to unlock the page, the current personalization of the page will be cleared, and you will have to start from scratch. In the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], the page will remain as was before and will not be effected by the new changes. This means that going forward, you personalize the page in the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] separately, so the page will potenially look different there.For more information,see [Working with personalization between the Dynamics NAV Windows and Web client](ui-personalization-overview.md#PersonalizationWinWeb).
+    or
+     
+2. You have used the [!INCLUDE[nav_web](includes/nav_web_md.md)] to personalize the page before, but it was done using a [!INCLUDE[nav2017](includes/nav2017_md.md)] or earlier version.   
+
+If you want to do some more personalizing to the page now in the [!INCLUDE[nav_web](includes/nav_web_md.md)], then choose the lock icon and then **Unlock**.
+
+>[!IMPORTANT]
+> If you choose to unlock the page, the current personalization of the page in the [!INCLUDE[nav_web](includes/nav_web_md.md)] will be cleared, and you will have to start from scratch. In the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], the page will remain as was before and will not be effected by the new changes in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. In the future, you will personalize the page in the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)] separately. Therefore, the page can potentially look different between the two. For more information,see [Working with personalization between the Dynamics NAV Windows and Web client](ui-personalization-overview.md#PersonalizationWinWeb).
 
 ## See Also
 [Personalization Overview](ui-personalization-overview.md)  
