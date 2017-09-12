@@ -35,7 +35,7 @@ You can install the Demo version of [!INCLUDE[navnowlong](includes/navnowlong_md
 -   Demo license  
 
 > [!NOTE]  
->  If SQL Server 2008 R2, SQL Server 2008, or SQL Server 2012 is present on the computer, and there is an existing SQL Server instance named NAVDEMO, then the [!INCLUDE[demolong](includes/demolong_md.md)] is installed in this instance. Otherwise, Setup automatically installs SQL Server 2012 Express, then creates a NAVDEMO instance, then installs [!INCLUDE[demolong](includes/demolong_md.md)] in this instance.  
+>  If a supported version of SQL Server is present on the computer, and there is an existing SQL Server instance named NAVDEMO, then the [!INCLUDE[demolong](includes/demolong_md.md)] is installed in this instance. Otherwise, Setup automatically installs SQL Server Express Edition, then creates a NAVDEMO instance, then installs [!INCLUDE[demolong](includes/demolong_md.md)] in this instance.  
 
 ## Recommendations and Constraints  
  You should consider the following factors before you install and use the Demo Install:  
