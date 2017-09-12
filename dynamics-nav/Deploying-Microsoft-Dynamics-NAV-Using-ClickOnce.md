@@ -14,7 +14,7 @@ manager: edupont
 # Deploying [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] Using ClickOnce
 This article contains instructions for deploying the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] using the ClickOnce deployment technology. ClickOnce allows you to deploy web applications by choosing a link on a web page. ClickOnce is a component of the Microsoft .NET Framework.  
   
-## ClickOnce installation from end-users' perspective  
+## ClickOnce installation from the end-user's perspective  
  This section covers the end user experience of installing [!INCLUDE[navnow](includes/navnow_md.md)] deployed with ClickOnce. As an administrator, you wll provide end users with a link to the ClickOnce deployment source, which can point to a file share or a website. The end user will choose the link to the application to install [!INCLUDE[navnow](includes/navnow_md.md)]. The ClickOnce runtime opens with a confirmation dialog box, which asks whether to install the application and includes an **Install** and **Don't Install** button.  
   
 -   If the user chooses the **Install** button, ClickOnce downloads all the necessary files to a local folder on their computer.  
@@ -57,8 +57,8 @@ The file structure of a ClickOnce deployment is as follows:
   
  When a user installs the application, he runs the deployment manifest, and then ClickOnce will automatically install the application.  
   
-## Installing Prerequisites on Users Computers 
- The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] has two prerequisites:  Microsoft System CLR Types for SQL Server 2016 and .NET Framework 4.6.1. These are linked from the sample web page.  
+## Install .NET Framework 4.6.1 on Users Computers 
+The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] has two prerequisites:  Microsoft System CLR Types for SQL Server 2016 and .NET Framework 4.6.1. These are linked from the sample web page.  
   
 <!-- -   The install experience can be improved for the end user by providing a solution that packages the Microsoft Report Viewer with the ClickOnce installation. Microsoft Report Viewer requires Microsoft System CLR Types for SQL Server 2014. Microsoft Certified Partners may download and redistribute the Microsoft Report Viewer 2015 Redistributable Package and Microsoft System CLR Types for SQL Server 2014 from the Microsoft Download Center. You can download Microsoft Report Viewer at [Microsoft Report Viewer 2015 RUNTIME](http://go.microsoft.com/fwlink/?LinkID=536665). Microsoft System CLR Types for SQL Server 2014 is available as part of the Microsoft SQL Server 2014 Feature Pack, which you can download at [Microsoft SQL Server 2016 Feature Pack](https://go.microsoft.com/fwlink/?linkid=857649).  -->
 
@@ -133,7 +133,7 @@ Follow these steps to host on a file share:
   
     3.  Move ClientUserSettings.config to that folder.  
   
-         This file typically installs to the equivalent of C:\\Program Data\\Microsoft\\Microsoft Dynamics NAV\\90\\, or C:\\Users\\*user name*\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\90\\. The exact location depends on your operating system.  
+         This file typically installs to the equivalent of C:\\Program Data\\Microsoft\\Microsoft Dynamics NAV\\NNN\\, or C:\\Users\\*user name*\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\NNN\\, where NN is the version number such as 90, 100 or 110. The exact location depends on your operating system.  
   
 6.  Copy the template files. The ClickOnce Installer Tools installation contains template files that will be useful starting points.  
   
@@ -155,8 +155,9 @@ Follow these steps to host on a file share:
   
         > [!IMPORTANT]  
         >  You must specify the fully qualified path to mage.exe, such as `"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\Bin\NETFX 4.6.1 Tools\mage.exe"`.  
+        
   
-         The *FromDirectory* parameter will include all files in all subdirectories found within the specified directory. If no directory is specified, such as in the example, mage.exe uses the current directory and subdirectories. For more information, see [Mage.exe](http://msdn.microsoft.com/en-us/library/acz3y3te\(v=vs.110\).aspx) in the MSDN Library.  
+        The *FromDirectory* parameter will include all files in all subdirectories found within the specified directory. If no directory is specified, such as in the example, mage.exe uses the current directory and subdirectories. For more information, see [Mage.exe](http://msdn.microsoft.com/en-us/library/acz3y3te\(v=vs.110\).aspx) in the MSDN Library.  
   
      ClickOnce does not support having the same assembly duplicated in different folders. If you receive an error, then you will have to remove one of the copies, either in the manifest file or on disk, and then run the mage.exe again. The copy of OpenXML.dll in Add-Ins folder will not be needed in a ClickOnce deployment, therefore you can delete it.  
   
@@ -194,7 +195,7 @@ Follow these steps to host on a file share:
   
      After the deployment manifest is signed, if you modify it, you will have to sign it again. For information about when it is acceptable to skip this step, see [Security Considerations](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Security).  
   
-13. Now you should be done with your ClickOnce deployment, so you can test the ClickOnce deployment. Run the deployment manifest by choosing *\\\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*.  
+13. Now you should be done with your ClickOnce deployment, so you can test the ClickOnce deployment. To do this, run the Microsoft.Dynamics.Nav.Client.application in the file share, for example, by choosing *\\\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*.  
   
     > [!NOTE]  
     >  Do not run the deployment from *C:\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*. This will give you an error that the deployment and application are in different security zones.  
