@@ -42,7 +42,7 @@ For an explanation about the different types, see [Event Types](devenv-event-typ
     ```  
     [EventSubscriber(ObjectType::ObjectType, ObjectId, 'OnSomeEvent', 'ElementName', SkipOnMissingLicense, SkipOnMissingPermission)]
     ```    
-    >[!TIP)]  
+    >[!TIP]  
     > Use the `teventsub` snippet to get started.  
 
 5.  If you are prompted whether to overwrite the edited methods signature, choose **Yes**.  
