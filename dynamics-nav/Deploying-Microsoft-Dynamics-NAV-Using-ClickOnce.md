@@ -57,7 +57,7 @@ The file structure of a ClickOnce deployment is as follows:
   
  When a user installs the application, he runs the deployment manifest, and then ClickOnce will automatically install the application.  
   
-### Installing Prerequisites  
+## Installing Prerequisites on Users Computers 
  The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] has two prerequisites:  Microsoft System CLR Types for SQL Server 2016 and .NET Framework 4.6.1. These are linked from the sample web page.  
   
 <!-- -   The install experience can be improved for the end user by providing a solution that packages the Microsoft Report Viewer with the ClickOnce installation. Microsoft Report Viewer requires Microsoft System CLR Types for SQL Server 2014. Microsoft Certified Partners may download and redistribute the Microsoft Report Viewer 2015 Redistributable Package and Microsoft System CLR Types for SQL Server 2014 from the Microsoft Download Center. You can download Microsoft Report Viewer at [Microsoft Report Viewer 2015 RUNTIME](http://go.microsoft.com/fwlink/?LinkID=536665). Microsoft System CLR Types for SQL Server 2014 is available as part of the Microsoft SQL Server 2014 Feature Pack, which you can download at [Microsoft SQL Server 2016 Feature Pack](https://go.microsoft.com/fwlink/?linkid=857649).  -->
