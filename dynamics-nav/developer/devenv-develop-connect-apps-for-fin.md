@@ -19,7 +19,8 @@ Reach more customers by bringing apps for Dynamics 365 for Financials into Micro
 Dynamics 365 gives you rich functionality, a modern always up-to-date platform, and a set of great new development tools.
 When your app is done, publish it through Microsoft AppSource – the marketplace for Microsoft’s business apps and start benefiting from a brand that millions of users know and trust.
 
-A **Connect app** establishes a connection between two independent services using an API to interchange data. A typical example of a Connect app is a Payroll solution. All work related to Payroll is done within your service and only as a last step is the financial data posted into Dynamics 365 for Financials using the API. A Connect app is mainly created using common development tools, REST API’s, and the API’s made available in Dynamics 365 for Financials from Update 7 and onwards. When needed a Connect app in Dynamics 365 for Financials can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.
+A **Connect app** establishes a connection between two independent services using an API to interchange data. A typical example of a Connect app is a Payroll solution. All work related to Payroll is done within your service and only as a last step is the financial data posted into Dynamics 365 for Financials using the API. A Connect app is mainly created using common development tools, REST API’s, and the API’s made available in Dynamics 365 for Financials. 
+When needed a Connect app in Dynamics 365 for Financials can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.
 
 <!--
 ## Hear what the community tells about Dynamics 365 and the new development tools
@@ -32,19 +33,22 @@ A **Connect app** establishes a connection between two independent services usin
 It's easy to get started! Just spin up a sandbox environment by going through these steps.
 
 1) Sign up for a [Dynamics 365 for Financials sandbox](https://aka.ms/GetSandboxForFinancials).    
-2) Download [Postman](https://www.getpostman.com/)
-3) 
+2) Download an API explorer, such as [Postman](https://www.getpostman.com/).
+3) fixed endpoint?
+4) authentication?
+5) ?
 
 For documentation on the APIs, you can get our published preview [here](https://msdn.microsoft.com/en-us/dynamics-nav/fin-graph/index).
+
 
 <!-- 
 Interested in an on-premise version? It's just as easy. Just sign up by following these steps.
 
 1) First, you will need an Azure subscription, sign up for a free subscription.  
 2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).  
-3) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen.  
-
+3) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen. 
 --> 
+
 ## Ready to build a business app and publish it to Microsoft AppSource?
 We are excited to have you in our family of Dynamics 365 for Financials App Providers. Now that you are getting serious about this, here are the steps that you will have to go through: 
 
