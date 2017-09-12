@@ -18,7 +18,7 @@ manager: edupont
 
 In [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], pages are the main way to display and organize data. Pages are the primary object that a user will interact with and have a different behavior based on the type of page that you choose. Pages are designed independently of the device they are to be rendered on, and in this way the same page can be reused across phone, tablet, and web clients.
 
-A page is defined in code as an object composed of controls, properties, actions, and triggers. You can also use the in-client designer in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] to create a page. For more information, see <>.
+A page is defined in code as an object composed of controls, properties, actions, and triggers. You can also use Designer in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] to create a page. For more information, see [Using Designer](devenv-inclient-designer.md).
 
 Whether you're creating a new page, or extending en existing page, you will add a new .al file to your project and describe the page object in code. The difference is basically that for a new page, you need to define the entire page, whereas when modifying an existing page, you only add the extra functionality or modify the existing. 
 
