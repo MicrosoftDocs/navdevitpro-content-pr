@@ -22,13 +22,14 @@ The profile object in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] a
 ## Snippet support
 Typing the shortcut ```tprofile``` will create the basic layout for a profile object when using the AL Extension in Visual Studio Code.
 
-## Page example
+## Profile object example
+The following profile object example performs a validation to check if the `Business Manager` page of type RoleCenter exists, and if `MyCustomization` exists, and if it is a page customization object. Then modifies layout of **Customer List** to make the `Name` field invisible using the `modify` method. 
 
 ```
 profile TheBoss 
 {
     Description = 'The Boss';
-    RoleCenter = "Business Manager Role Center";
+    RoleCenter = "Business Manager";
     Customizations = MyCustomization;
 }
 
