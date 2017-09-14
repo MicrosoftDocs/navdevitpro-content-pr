@@ -15,7 +15,9 @@ manager: edupont
 This article contains instructions for deploying the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] using the ClickOnce deployment technology. ClickOnce allows you to deploy web applications by choosing a link on a web page. ClickOnce is a component of the Microsoft .NET Framework.  
   
 ## ClickOnce installation from the end-user's perspective  
- This section covers the end user experience of installing [!INCLUDE[navnow](includes/navnow_md.md)] deployed with ClickOnce. As an administrator, you wll provide end users with a link to the ClickOnce deployment source, which can point to a file share or a website. The end user will choose the link to the application to install [!INCLUDE[navnow](includes/navnow_md.md)]. The ClickOnce runtime opens with a confirmation dialog box, which asks whether to install the application and includes an **Install** and **Don't Install** button.  
+As an administrator, you wll provide end users with a link to the ClickOnce deployment source, which can point to a file share or a website. The end user will choose the link to the application to install [!INCLUDE[navnow](includes/navnow_md.md)].
+
+-   The ClickOnce runtime opens with a confirmation dialog box, which asks whether to install the application and includes an **Install** and **Don't Install** button.  
   
 -   If the user chooses the **Install** button, ClickOnce downloads all the necessary files to a local folder on their computer.  
   
@@ -57,44 +59,49 @@ The file structure of a ClickOnce deployment is as follows:
   
  When a user installs the application, he runs the deployment manifest, and then ClickOnce will automatically install the application.  
   
-## Install .NET Framework 4.6.1 on Users Computers 
-The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] has two prerequisites:  Microsoft System CLR Types for SQL Server 2016 and .NET Framework 4.6.1. These are linked from the sample web page.  
-  
-<!-- -   The install experience can be improved for the end user by providing a solution that packages the Microsoft Report Viewer with the ClickOnce installation. Microsoft Report Viewer requires Microsoft System CLR Types for SQL Server 2014. Microsoft Certified Partners may download and redistribute the Microsoft Report Viewer 2015 Redistributable Package and Microsoft System CLR Types for SQL Server 2014 from the Microsoft Download Center. You can download Microsoft Report Viewer at [Microsoft Report Viewer 2015 RUNTIME](http://go.microsoft.com/fwlink/?LinkID=536665). Microsoft System CLR Types for SQL Server 2014 is available as part of the Microsoft SQL Server 2014 Feature Pack, which you can download at [Microsoft SQL Server 2016 Feature Pack](https://go.microsoft.com/fwlink/?linkid=857649).  -->
+## Prepare Users Computers by Installing .NET Framework 4.6.1
+The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] requires .NET Framework 4.6.1. Depending on the version of Windows, .NET 4.6.1 Framework might already be installed. If not, then you have two options:
 
--   Microsoft System CLR Types for SQL Server 2016 is available as part of the Microsoft SQL Server 2016 Feature Pack, which you can download at [Microsoft SQL Server 2016 Feature Pack](https://go.microsoft.com/fwlink/?linkid=857649).
+1.  Users themselves install .NET 4.6.1 Framework on their computers from the ClickOnce online installation web page.
+
+    The ClickOnce online installation web page includes a link to download .NET Framework 4.6.1. However, using this option requires that users have administrative rights on their computers. 
+
+2. An administrator installs install .NET 4.6.1 Framework on users computers. 
+
+    For more information about how to install .NET 4.6.1 Framework, see [Install the .NET Framework for developers](http://go.microsoft.com/fwlink/?LinkId=272382).   
   
-<!--
+<!-- -   The install experience can be improved for the end user by providing a solution that packages the Microsoft Report Viewer with the ClickOnce installation. Microsoft Report Viewer requires Microsoft System CLR Types for SQL Server 2014. Microsoft Certified Partners may download and redistribute the Microsoft Report Viewer 2015 Redistributable Package and Microsoft System CLR Types for SQL Server 2014 from the Microsoft Download Center. You can download Microsoft Report Viewer at [Microsoft Report Viewer 2015 RUNTIME](http://go.microsoft.com/fwlink/?LinkID=536665). Microsoft System CLR Types for SQL Server 2014 is available as part of the Microsoft SQL Server 2014 Feature Pack, which you can download at [Microsoft SQL Server 2016 Feature Pack](https://go.microsoft.com/fwlink/?linkid=857649).  
+
+ Microsoft System CLR Types for SQL Server 2016 is available as part of the Microsoft SQL Server 2016 Feature Pack, which you can download at [Microsoft SQL Server 2016 Feature Pack](https://go.microsoft.com/fwlink/?linkid=857649).
+
     > [!NOTE]  
-    >  The Microsoft Report Viewer is an optional component. If it is not installed, the end user will get an error message when trying to print or preview reports in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. All other functionality in the client will not be affected. --> 
-  
--   Depending on the version of Windows, .NET 4.6.1 Framework might already be installed. For more information about how to install .NET 4.6.1 Framework, see [Install the .NET Framework for developers](http://go.microsoft.com/fwlink/?LinkId=272382).  
+    >  The Microsoft Report Viewer is an optional component. If it is not installed, the end user will get an error message when trying to print or preview reports in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. All other functionality in the client will not be affected.
+
   
  Installing these prerequisites requires administrative rights on the computer. If the end users are not already administrators on their computers, then an administrator or a super user must first install the prerequisites on the computer. After that is complete, any user on the computer can install, uninstall, and upgrade the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Administrative rights are not needed for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
-  
- Windows operating systems are subject to compliance with the Supplemental Redist License located at [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=262161&clcid=0x409).  
+
+
+Windows operating systems are subject to compliance with the Supplemental Redist License located at [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=262161&clcid=0x409). 
+--> 
   
 ### Deploying Using ClickOnce Hosted on a File Share  
 It is easier to host a ClickOnce deployment on a file share than it is to host on a web server. Hosting on a web server is basically the same, except that you may need to make some adjustments to IIS.  
   
 Follow these steps to host on a file share:  
   
-1.  Install the Microsoft Windows SDK for Windows 7 and the .NET Framework 4. The SDK contains a utility named mage.exe, which is required in several of the following steps. It also contains utilities for creating test certificates.  
+1.  Install Manifest Generation and Editing Tool (mage.exe) on your computer.
+
+    The mage.exe is installed with Visual Studio, Windows Software Development Kit (SDK) for Windows 8 or 8.1, and Windows 10 SDK. Microsoft Windows SDK for Windows 7 and the .NET Framework 4. The SDK contains a utility named mage.exe, which is required in several of the following steps.
   
-    1.  Download and install "Microsoft Windows SDK for Windows 7 and the .NET Framework 4" from [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkId=262162).  
+    The mage.exe utility should be located in the equivalent of the following location:  
   
-        > [!IMPORTANT]  
-        >  It is important that you have "Microsoft Windows SDK for Windows 7 and the .NET Framework 4". Ensure you have the correct version of mage.exe. Locate the mage.exe in file explorer, right-click and select **Properties**. In the **Properties** window, choose the **Details** tab and make sure that the file version is 4.0.40391.1.  
-  
-    2.  The mage.exe utility should be located in the equivalent of the following location:  
-  
-         *C:\\Program Files \(x86\)\\Microsoft SDKs\\Windows\\v7.1\\Bin\\NETFX 4.0 Tools\\mage.exe*  
+    `C:\\Program Files \(x86\)\\Microsoft SDKs\\Windows\\v10.0A\\Bin\\NETFX 4.6.1 Tools`  
   
 2.  (Optional) Obtain a code signing certificate. This is a certificate that is issued by a certification authority, and will enable you to sign the application in such a way that end users can see that the application is published by the expected provider and, for example, not by a phisher.  
   
     1.  If you do not already have a code signing certificate, you will have to obtain one from one of the certification authorities. For a list of certification authorities, see [Microsoft Technet](http://go.microsoft.com/fwlink/?LinkId=262163).  
   
-    2.  You can also create a test certificate and use it for testing. For more information, see [How to: Create Your Own Test Certificate](http://msdn.microsoft.com/en-us/library/ff699202.aspx).  
+    2.  You can also create a test certificate and use it for testing. For more information, see [How to: Create Your Own Test Certificate](http://msdn.microsoft.com/en-us/library/ff699202.aspx) or [New-SelfSignedCertificate](https://technet.microsoft.com/itpro/powershell/windows/pkiclient/new-selfsignedcertificate).  
   
     3.  For information about when it is acceptable to skip this step, see [Security Considerations](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Security).  
   
@@ -120,24 +127,24 @@ Follow these steps to host on a file share:
   
      Now you have the files that you know will work, and which you want to deploy on end user computers.  
   
-5.  Copy the the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] files to a file share:
+5.  Copy the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] files to a file share:
 
-    1.  Create a file share, foe example, that has the name *\\\\fileshare\\clickonce*.  
+    1.  Create a file share, for example, that has the name *\\\\fileshare\\clickonce*.  
   
-    1.  Create a folder in the file share, such as *\\\\fileshare\\clickonce\\Deployment\\ApplicationFiles*.  
+    2.  Create a folder in the file share, such as *\\\\fileshare\\clickonce\\Deployment\\ApplicationFiles*.  
   
-    2.  Copy all the files from [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client to this new folder.  
+    3.  Copy all the files from [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client to this new folder.  
   
         > [!IMPORTANT]  
         >  Microsoft.Dynamics.Nav.Client.exe and Microsoft.Dynamics.Nav.Client.x86.exe have the same assembly identity name, so you must copy only one of these executables. You can choose either file.  
   
-    3.  Move ClientUserSettings.config to that folder.  
+    4.  Move ClientUserSettings.config to that folder.  
   
          This file typically installs to the equivalent of C:\\Program Data\\Microsoft\\Microsoft Dynamics NAV\\NNN\\, or C:\\Users\\*user name*\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\NNN\\, where NN is the version number such as 90, 100 or 110. The exact location depends on your operating system.  
   
 6.  Copy the template files. The ClickOnce Installer Tools installation contains template files that will be useful starting points.  
   
-    1.  Copy the files in [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\ClickOnce Installer Tools\\TemplateFiles to *\\\\fileshare\\clickonce*.  
+    Copy the files in [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\ClickOnce Installer Tools\\TemplateFiles to *\\\\fileshare\\clickonce*.  
   
 <!-- 7.  The [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Windows client requires Microsoft Report Viewer 2015 for viewing and printing a report, along with and Microsoft System CLR Types for SQL Server 2014. Therefore, these are a prerequisite installation in the ClickOnce scenario.  
   
@@ -156,14 +163,15 @@ Follow these steps to host on a file share:
         > [!IMPORTANT]  
         >  You must specify the fully qualified path to mage.exe, such as `"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\Bin\NETFX 4.6.1 Tools\mage.exe"`.  
         
-  
         The *FromDirectory* parameter will include all files in all subdirectories found within the specified directory. If no directory is specified, such as in the example, mage.exe uses the current directory and subdirectories. For more information, see [Mage.exe](http://msdn.microsoft.com/en-us/library/acz3y3te\(v=vs.110\).aspx) in the MSDN Library.  
   
-     ClickOnce does not support having the same assembly duplicated in different folders. If you receive an error, then you will have to remove one of the copies, either in the manifest file or on disk, and then run the mage.exe again. The copy of OpenXML.dll in Add-Ins folder will not be needed in a ClickOnce deployment, therefore you can delete it.  
+        ClickOnce does not support having the same assembly duplicated in different folders. If you receive an error, then you will have to remove one of the copies, either in the manifest file or on disk, and then run the mage.exe again. The copy of OpenXML.dll in Add-Ins folder will not be needed in a ClickOnce deployment, therefore you can delete it.  
   
-8. Update the application manifest. Open Microsoft.Dynamics.Nav.Client.exe.manifest in Notepad. You do not have to change anything in this file, but you should be aware of what it looks like. The application manifest has an identity \(assembly.assemblyIdentity\), which is referred to by the deployment manifest. This can be any string, and it will not be shown to end users. Note the version number, which will be used in upgrade scenarios.  
+8. Review the application manifest.
+
+    Open Microsoft.Dynamics.Nav.Client.exe.manifest in a text editor, like Notepad. You do not have to change anything in this file, but you should be aware of what it looks like. The application manifest has an identity \(assembly.assemblyIdentity\), which is referred to by the deployment manifest. This can be any string, and it will not be shown to end users. Note the version number, which will be used in upgrade scenarios.  
   
-9. Optionally, sign the application manifest. If you do not sign the manifest, the user will get a security warning when he installs, because the publisher, who is you, cannot be verified. This means that the end user cannot distinguish between your application and malware. If you sign the manifest, the user will see that the application is coming from your company, and he will trust it. If you have the code signing certificate PartnerCodeSigningCertificate.cer and the private key PartnerPrivateKey.pvk, run the following commands.  
+9. (Optional) Sign the application manifest. If you do not sign the manifest, the user will get a security warning when he installs, because the publisher, who is you, cannot be verified. This means that the end user cannot distinguish between your application and malware. If you sign the manifest, the user will see that the application is coming from your company, and he will trust it. If you have the code signing certificate PartnerCodeSigningCertificate.cer and the private key PartnerPrivateKey.pvk, run the following commands.  
   
      `cert2spc PartnerCodeSigningCertificate.cer PartnerSoftwarePublisherCertificate.spc`  
   
@@ -181,13 +189,13 @@ Follow these steps to host on a file share:
   
          `mage.exe -update Microsoft.Dynamics.Nav.Client.application -appmanifest ApplicationFiles\Microsoft.Dynamics.Nav.Client.exe.manifest -appcodebase \\fileshare\clickonce\Deployment\ApplicationFiles\Microsoft.Dynamics.Nav.Client.exe.manifest`  
   
-    3.  Open Microsoft.Dynamics.Nav.Client.application in Notepad, and do the following:  
+    3.  Open Microsoft.Dynamics.Nav.Client.application file in a text editor, like Notepad, and do the following:  
   
-        1.  Adjust the `assemblyIdentity name=` value so that it is unique. For example, you could add the customer’s name to the name, and if you deploy a test and a production server for the customer, then you could add **production** or **test** to the name. You should never change this value after end users have used it to install the [!INCLUDE[navnow](includes/navnow_md.md)] client. The value will not be shown to end users.  
+        1.  In the `<assemblyIdentity>` element, set the `name` parameter. For example, you could add the customer’s name to the name, and if you deploy a test and a production server for the customer, then you could add **production** or **test** to the name. You should never change this value after end users have used it to install the [!INCLUDE[navnow](includes/navnow_md.md)] client. The value will not be shown to end users.  
   
-        2.  Adjust the `description` contents as appropriate. For example, you could change the `publisher` to be "Microsoft Corporation and \<your company name>", and change the `product` to be "[!INCLUDE[navnowlong](includes/navnowlong_md.md)] for \<customer name>". These are the names that the end user will see.  
+        2.  In the `<description>` element, change the parameters as appropriate. For example, you could change the `asmv2:publisher` parameter to be "Microsoft Corporation and \<your company name>", and change the `asmv2:product` parameter to be "[!INCLUDE[navnowlong](includes/navnowlong_md.md)] for \<customer name>". These are the names that the end user will see.  
   
-        3.  Change the link in `deploymentProvider` to *\\\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*. As you can see, it is now pointing to itself so that it is possible to check for updates.  
+        3.  In `<deploymentProvider>` element, change the link of the `codebase` parameter to *\\\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*. As you can see, it is now pointing to itself so that it is possible to check for updates.  
   
 11. Optionally, sign the deployment manifest. This is similar to the application manifest.  
   
@@ -207,11 +215,11 @@ Follow these steps to host on a file share:
  In addition to creating the installer itself, you should require end users to read and accept Microsoft’s software license terms \(SLT\) as part of the installation experience.  
   
 ### Deploying Using ClickOnce Hosting on a Web Server  
- Hosting on a web server is similar to hosting on a file share. Using the steps outlined in the previous section, you should note that the two links in the deployment manifest should point to the *http://* address, instead of a *\\\\fileshare* address. This is the only change that you need to make to the files.  
+Hosting on a web server is similar to hosting on a file share. Using the steps outlined in the previous section, you should note that the two links in the deployment manifest should point to the *http://* address, instead of a *\\\\fileshare* address. This is the only change that you need to make to the files.  
   
- All the logic needed for requesting user permissions to install or check for upgrades happens on the client computer. The web server works like a file repository.  
+All the logic needed for requesting user permissions to install or check for upgrades happens on the client computer. The web server works like a file repository.  
   
- The only problem with web server hosting is that web servers use different file types differently. For example, by default a file that has the .config extension will not be downloadable from a web server. The web server will restrict access to it. To work around this, you can create a web.config file in the folder that contains the application files, with contents similar to the following.  
+ The only problem with web server hosting is that web servers use different file types differently. For example, by default a file that has the .config extension will not be able to be downloaded from a web server. The web server will restrict access to it. To work around this, you can create a web.config file in the folder that contains the application files, with contents similar to the following.  
   
 ```  
 <?xml version="1.0" encoding="UTF-8"?>  
