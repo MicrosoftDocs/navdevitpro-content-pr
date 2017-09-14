@@ -145,7 +145,7 @@ Follow these steps to host on a file share:
   
      Microsoft Report Viewer 2015 is available on download at [http://go.microsoft.com/fwlink/?LinkID=536665](http://go.microsoft.com/fwlink/?LinkID=536665).  -->
   
-8.  Update the application manifest. The application manifest lists the files that are part of the installation.  
+7.  Update the application manifest. The application manifest lists the files that are part of the installation.  
   
     1.  Open a command prompt using the **Run as administrator** option, and change the directory to *C:\\fileshare\\clickonce\\Deployment\\ApplicationFiles*.  
   
@@ -161,9 +161,9 @@ Follow these steps to host on a file share:
   
      ClickOnce does not support having the same assembly duplicated in different folders. If you receive an error, then you will have to remove one of the copies, either in the manifest file or on disk, and then run the mage.exe again. The copy of OpenXML.dll in Add-Ins folder will not be needed in a ClickOnce deployment, therefore you can delete it.  
   
-9. Update the application manifest. Open Microsoft.Dynamics.Nav.Client.exe.manifest in Notepad. You do not have to change anything in this file, but you should be aware of what it looks like. The application manifest has an identity \(assembly.assemblyIdentity\), which is referred to by the deployment manifest. This can be any string, and it will not be shown to end users. Note the version number, which will be used in upgrade scenarios.  
+8. Update the application manifest. Open Microsoft.Dynamics.Nav.Client.exe.manifest in Notepad. You do not have to change anything in this file, but you should be aware of what it looks like. The application manifest has an identity \(assembly.assemblyIdentity\), which is referred to by the deployment manifest. This can be any string, and it will not be shown to end users. Note the version number, which will be used in upgrade scenarios.  
   
-10. Optionally, sign the application manifest. If you do not sign the manifest, the user will get a security warning when he installs, because the publisher, who is you, cannot be verified. This means that the end user cannot distinguish between your application and malware. If you sign the manifest, the user will see that the application is coming from your company, and he will trust it. If you have the code signing certificate PartnerCodeSigningCertificate.cer and the private key PartnerPrivateKey.pvk, run the following commands.  
+9. Optionally, sign the application manifest. If you do not sign the manifest, the user will get a security warning when he installs, because the publisher, who is you, cannot be verified. This means that the end user cannot distinguish between your application and malware. If you sign the manifest, the user will see that the application is coming from your company, and he will trust it. If you have the code signing certificate PartnerCodeSigningCertificate.cer and the private key PartnerPrivateKey.pvk, run the following commands.  
   
      `cert2spc PartnerCodeSigningCertificate.cer PartnerSoftwarePublisherCertificate.spc`  
   
@@ -173,7 +173,7 @@ Follow these steps to host on a file share:
   
      Now the application manifest is signed. If you modify it, you will have to sign it again. For information about when it is acceptable to skip this step, see [Security Considerations](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Security).  
   
-11. Update the deployment manifest.  
+10. Update the deployment manifest.  
   
     1.  At the command promt, change the directory to ClickOnce *Deployment* folder, for example, *C:\\fileshare\\clickonce\\Deployment*.  
   
@@ -189,20 +189,20 @@ Follow these steps to host on a file share:
   
         3.  Change the link in `deploymentProvider` to *\\\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*. As you can see, it is now pointing to itself so that it is possible to check for updates.  
   
-12. Optionally, sign the deployment manifest. This is similar to the application manifest.  
+11. Optionally, sign the deployment manifest. This is similar to the application manifest.  
   
      `mage.exe -sign Microsoft.Dynamics.Nav.Client.application -certfile PartnerPersonalInformationExchange.pfx.`  
   
      After the deployment manifest is signed, if you modify it, you will have to sign it again. For information about when it is acceptable to skip this step, see [Security Considerations](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Security).  
   
-13. Now you should be done with your ClickOnce deployment, so you can test the ClickOnce deployment. To do this, run the Microsoft.Dynamics.Nav.Client.application in the file share, for example, by choosing *\\\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*.  
+12. Now you should be done with your ClickOnce deployment, so you can test the ClickOnce deployment. To do this, run the Microsoft.Dynamics.Nav.Client.application in the file share, for example, by choosing *\\\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*.  
   
     > [!NOTE]  
     >  Do not run the deployment from *C:\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*. This will give you an error that the deployment and application are in different security zones.  
   
-14. Verify that everything works as expected. The ClickOnce files are typically installed under C:\\Users\\*user name*\\AppData\\Local\\Apps. In the next step, you will have to know where these files are installed, so locate the files by searching for **Microsoft.Dynamics.Nav.Client.exe** under that folder or by typing: **dir /s Microsoft.Dynamics.Nav.Client.exe**.  
+13. Verify that everything works as expected. The ClickOnce files are typically installed under C:\\Users\\*user name*\\AppData\\Local\\Apps. In the next step, you will have to know where these files are installed, so locate the files by searching for **Microsoft.Dynamics.Nav.Client.exe** under that folder or by typing: **dir /s Microsoft.Dynamics.Nav.Client.exe**.  
   
-15. As a final verification, we recommend that you compare the files that were installed by ClickOnce, in the folder you searched for, to the files that were installed by the MSI installer in *C:\\Program Files\\...*. There will be some differences. For example, there will be multiple manifest files in the ClickOnce folder. You should review these differences and make sure they are as expected. For example, if you see a .DLL file in one folder, but not the other, this could cause an error.  
+14. As a final verification, we recommend that you compare the files that were installed by ClickOnce, in the folder you searched for, to the files that were installed by the MSI installer in *C:\\Program Files\\...*. There will be some differences. For example, there will be multiple manifest files in the ClickOnce folder. You should review these differences and make sure they are as expected. For example, if you see a .DLL file in one folder, but not the other, this could cause an error.  
   
  In addition to creating the installer itself, you should require end users to read and accept Microsoft’s software license terms \(SLT\) as part of the installation experience.  
   
