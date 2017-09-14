@@ -23,7 +23,8 @@ The page customization object in [!INCLUDE[d365fin_long_md](includes/d365fin_lon
 Typing the shortcut ```tpagecust``` will create the basic layout for a page customization object when using the AL Extension in Visual Studio Code.
 
 ## Page customization example
-The following page customization example 
+The following page customization example `MyCustomization` is intialized to perform changes to **Customer List**. By using the `moveafter` method, `Blanket Orders` is moved next to the `Aged Accounts Receivable` action item. And the `modify` method is used to hide the `NewSalesBlanketOrder` action item. 
+
 
 ```
 pagecustomization 70000123 MyCustomization customizes "Customer List"
