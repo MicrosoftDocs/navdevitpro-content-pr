@@ -4,7 +4,7 @@ author: SusanneWindfeldPedersen
 
 ms.author: solsen
 ms.custom: na
-ms.date: 09/11/2017
+ms.date: 09/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,25 +15,28 @@ ms.prod: "dynamics-nav-2017"
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Developing Connect Apps for Dynamics 365 for Financials
-A Connect app establishes a connection between two independent services using an API to interchange data. A typical example of a Connect app is a Payroll solution. All work related to Payroll is done within your payroll service and only as a last step is the financial data posted into [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] using the API. A Connect app is mainly created using common development tools and the REST API’s made available in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. REST API's can be used in combination with an extension as well, for example, to enable setup and configuration.
+A Connect app establishes a connection between two independent services using an API to interchange data. A typical example of a Connect app is a Payroll solution. All work related to Payroll is done within your payroll service and only as a last step is the financial data posted into [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] using the API. A Connect app is mainly created using common development tools and the REST API’s made available in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
 ## Want to try it out?
-With this preview, you can get started on exploring the APIs that we offer for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. We do not yet support submission to AppSource, so for now, we encourage you to get familiar with the structure and possibilities of the API.
+With this preview, you can get started exploring the APIs that we offer for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. We do not yet support submission to AppSource, so for now, we encourage you to get familiar with the structure and possibilities of the API.
 
-It's easy to get started. Just spin up a sandbox environment by going through these steps.
+It's easy to get started. Just spin up a tenant by going through these steps.
 
-1) Sign up for a [Dynamics 365 for Financials sandbox](https://aka.ms/GetSandboxForFinancials).    
-2) Set up basic authentication by achieving a Web Service Access key in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. On the **Users** page, in the **Web Service Access Key** field, generate a key.
+1) Sign up for [Dynamics 365 for Financials](https://signup.microsoft.com/signup?sku=6a4a1628-9b9a-424d-bed5-4118f0ede3fd&ru=https%3A%2F%2Fportal.financials.dynamics.com)<!-- (https://aka.ms/GetSandboxForFinancials)-->.    
+2) To connect to your tenant via APIs, you can use your tenant URL and basic authentication.  
+    1) The tenant's API endpoint is the tenant's base URL (up until .com) followed by `:7048/MS/api/beta/`, for example, `https://cronus.financials.dynamics.com:7048/MS/api/beta/`
+    2) To set up basic authentication, create a Web Service Access key in [!INCLUDEd365fin_md]. On the **Users** page, in the **Web Service Access Key** field, generate a key.
+
    > [!NOTE]
-   > For authentication, Azure Active Directory (AAD) should be used. However, for exploring and prototyping with the API's, using basic authentication as described will be faster.
+   > For production, you should use Azure Active Directory (AAD) for authentication and the common service endpoint `https://api.financials.dynamics.com/v1.0/api/beta`. However, for exploring and prototyping with the API's, using basic authentication and the tenant URL as described will be faster.
 
 3) Go to the documentation on the APIs, you can get our published preview [here](https://msdn.microsoft.com/en-us/dynamics-nav/fin-graph/index).
-4) Download an API explorer, such as [Postman](https://www.getpostman.com/) or [Fiddler](http://www.telerik.com/fiddler) to explore the API.
+4) Download an API explorer, such as [Postman](https://www.getpostman.com/) or [Fiddler](http://www.telerik.com/fiddler) to connect to and explore the API.
 
 ### Some tips for working with the API's
 
-+ Use the endpoint `https://api.financials.dynamics.com/v1.0/api/beta/` to list all the API
-+ Use the endpoint `https://api.financials.dynamics.com/v1.0/api/beta/metadata` to list all metadata for the API
++ Call (GET) the endpoint to list all the API
++ Call (GET) the endpoint with `$metadata` to list all metadata for the API
 + Calling a resource API (GET) will return a list of all instances of the resource type
 + Each resource is uniquely identified through an ID, see the following example:
 ```
@@ -46,7 +49,7 @@ It's easy to get started. Just spin up a sandbox environment by going through th
             "name": "CRONUS USA, Inc.",
             "displayName": "CRONUS USA, Inc.",
             "businessProfileId": ""
-        },
+        }
     ]
 }
 
