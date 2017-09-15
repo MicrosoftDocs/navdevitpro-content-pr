@@ -23,8 +23,8 @@ With this preview, you can get started exploring the APIs that we offer for [!IN
 It's easy to get started. Just spin up a tenant by going through these steps.
 
 1) Sign up for [Dynamics 365 for Financials](https://signup.microsoft.com/signup?sku=6a4a1628-9b9a-424d-bed5-4118f0ede3fd&ru=https%3A%2F%2Fportal.financials.dynamics.com)<!-- (https://aka.ms/GetSandboxForFinancials)-->.    
-2) To connect to your tenant via APIs, you can use your tenant URL and basic authentication.  
-    1) The tenant's API endpoint is the tenant's base URL (up until .com) followed by `:7048/MS/api/beta/`, for example, `https://cronus.financials.dynamics.com:7048/MS/api/beta/`
+2) To connect to your tenant via APIs, you can use your tenant URL and basic authentication.    
+    1) The tenant's API endpoint is the tenant's base URL (up until .com) followed by `:7048/MS/api/beta/`, for example, `https://cronus.financials.dynamics.com:7048/MS/api/beta/`  
     2) To set up basic authentication, create a Web Service Access key in [!INCLUDEd365fin_md]. On the **Users** page, in the **Web Service Access Key** field, generate a key.
 
    > [!NOTE]
@@ -54,6 +54,7 @@ It's easy to get started. Just spin up a tenant by going through these steps.
 }
 
 ```
+
 + The resource ID must be provided in the URL when trying to read or modify a resource or any of its children. The ID is provided in () after the API endpoint. For example, to GET the “CRONUS USA, Inc.” company details, you must call `<endpoint>/companies(bb6d48b6-c7b2-4a38-9a93-ad5506407f12)/`
 + All resources live in the context of a parent company, which means that the company ID must be provided in the URL for all resource API calls. For example, to GET all customers in the “CRONUS USA, Inc.” company, you must call `<endpoint>/companies(bb6d48b6-c7b2-4a38-9a93-ad5506407f12)/customers`
 + You can provide filters in API calls. The syntax for this follows the [Microsoft REST API guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#97-filtering). For example, to GET all open (unpaid) sales invoices above 1000.00 excl tax, call `<endpoint>/companies(bb6d48b6-c7b2-4a38-9a93-ad5506407f12)/salesInvoices?$filter=status eq 'Open' and totalAmountExcludingTax gt 1000.00`
