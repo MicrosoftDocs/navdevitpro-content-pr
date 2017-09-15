@@ -203,7 +203,7 @@ If you have permission to view a list, such as the sales order list, you can add
   
 
 > [!TIP]
-> If you find a link in the **Departments** pages, you can also add it to the navigation pane. For more information, see [Adding a Link from Departments to Your Role Center](ui-customization-add-department-links-role-center.md).  
+> If you find a link in the **Departments** pages, you can also add it to the navigation pane. For more information, see the section Adding a Link from Departments to Your Role Center.  
   
 ### Move or copy a link from one button to another  
   
@@ -247,7 +247,7 @@ The following table describes the types of links in each category on the **Depar
   
 3.  Confirm the message that appears.  
   
- The new link now appears in the menu to which you added it. However, you may want to move the link to another position in the menu. For example, if you added a link to the navigation pane, it will appear on the **Home** menu, but you can move it to another menu in the navigation pane. For more information, see [How to: Customize the Navigation Pane](ui-customization-navigation-pane.md). 
+ The new link now appears in the menu to which you added it. However, you may want to move the link to another position in the menu. For example, if you added a link to the navigation pane, it will appear on the **Home** menu, but you can move it to another menu in the navigation pane. For more information, see the section Customizing the Navigation Pane. 
 
 ## Adding Charts to Role Centers and List Pages
 When you have complex information, you may want to view a visual representation of the data to help see trends and make decisions. For example, you may want to monitor the balances per bank account for your company in a chart. You use the chart pane to visually show data from a list on the following types of pages:  
@@ -281,8 +281,6 @@ When you have complex information, you may want to view a visual representation 
 When [!INCLUDE[d365fin](includes/d365fin_md.md)] receives an external file, you are presented with a dialog box. In addition to selecting what to do with the file, you can decide how to treat that file type next time it is received.  
   
 When [!INCLUDE[d365fin](includes/d365fin_md.md)] is required to run an automation object, you are presented with a dialog box. You can decide whether that type of object should always or never be able to run.  
-  
-You can cancel your decisions for handling files and automation objects by opening the **Reset User-Specified Settings** window from your Role Center. For more information, see [How to: Cancel Personalization](ui-customization-cancel.md).  
   
 ### To specify how to handle external files  
   
@@ -337,7 +335,7 @@ Basic UI changes include things like:
  -  Changing the height of column headers.
  -  Sorting on columns in a list.
  -  Displaying lists as chart.
- -  Specifying how external files and automation objects are handled. For more information, see [How to: Specify How to Handle External Files and Automation Objects](ui-customization-handle-external-files-automation-objects.md).  
+ -  Specifying how external files and automation objects are handled.  
 
   
 #### To cancel basic UI changes that you have made to window sizes, column sizes, or column sorting  
