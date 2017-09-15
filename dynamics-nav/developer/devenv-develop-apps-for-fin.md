@@ -30,7 +30,10 @@ You decide whether you want to **connect** to your existing service or **extend*
 [![Community](media/CustomerTestimonials.png)](https://www.youtube.com/watch?v=ptL3QXuoLW4&list=PLcakwueIHoT9tZzsgDLpBixftGfnymAyz&index=2 "Customers")
 
 ## Want to try it out?
-It's easy to get started! Just spin up a developer sandbox environment by going through these steps. If you're looking for steps for getting started with API's, go [here](https://aka.ms/getstartedwithapis).
+It's easy to get started! Just spin up a developer sandbox environment by going through these steps. 
+
+> [!TIP] Want to get started with APIs? Go to [https://aka.ms/getstartedwithapis](https://aka.ms/getstartedwithapis).
+>
 
 1) Sign up for a [Dynamics 365 for Financials sandbox](https://aka.ms/GetSandboxForFinancials).    
 2) Download [Visual Studio Code](https://code.visualstudio.com/Download).  
@@ -61,7 +64,7 @@ We are excited to have you in our family of Dynamics 365 for Financials App Prov
 #### 1)	Get the prerequisites in place  
 To get started with development, you must have some necessary accounts in place. Next, we ask you to send us your app idea via Microsoft AppSource to get your object range and developer license. Learn more about how to get your prerequisites in place [here](https://go.microsoft.com/fwlink/?linkid=857095). 
 
-#### 2)	Develop your Dynamics 365 for Financials App   
+#### 2)	Develop your Dynamics 365 for Financials app   
 Use the development tools for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] (preview), which enables you to build Extensions v2.0. To get started, set up the [sandbox environment](#want-to-try-it-out). Please be aware, that we are only accepting Financials apps built on extensions 2.0 with Visual Studio Code, unless there are technical limitations that prevent you from being able to complete your extension. If you believe your extension will need an exception, please work with us to determine if this is the case and to receive approval for an exception.
 
 After you have completed step 1; Get the prerequisites in place, you will be eligible to access the Ready! program. Ready! for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] is an engagement program which enables those who want to develop and deliver apps for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] in Microsoft AppSource. You will get: 
@@ -105,9 +108,9 @@ Are you a business owner, a marketing person, or a developer? You can find speci
  
 [How Do I: Design Wizards for HTML Clients in Microsoft Dynamics NAV 2017?](https://mbspartner.microsoft.com/NAV/Videos/101246)  
 
-[Get started with our development tools](devenv-get-started.md)  
+[Get Started with our Development Tools](devenv-get-started.md)  
 
-[Read more about integrating with Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/overview)  
+[Read more about Integrating with Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/overview)  
 
 ## Need help?
 If you would like some coaching, you can contact an app subject matter expert from the following list:  
