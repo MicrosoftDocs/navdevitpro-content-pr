@@ -42,7 +42,7 @@ In October 2017, we are releasing a new readiness program ‘Ready! for Dynamics
 
 ### You can work with Dev Centers to move your solution(s) in Dynamics 365.
 Porting full industry solutions in extensions 2.0 can be a big challenging task. Microsoft has selected and educated a set of Microsoft ISV Development Centers (Dev Centers) to help you in this regard. These Dev Centers were established to provide strong third-party technical services that can be contracted and leveraged by Microsoft's Partners.
-Learn more about the available Dev Centers in your region [here]( https://mbs.microsoft.com/partnersource/northamerica/partner-essentials/all-partner-essentials-documents/FindISVDevelopmentCenter). 
+Learn more about the available Dev Centers in your region [here](https://mbs.microsoft.com/partnersource/northamerica/partner-essentials/all-partner-essentials-documents/FindISVDevelopmentCenter). 
 
 Reach out to [dyn365bep@microsoft.com](mailto:dyn365bep@microsoft.com) on questions.
 
