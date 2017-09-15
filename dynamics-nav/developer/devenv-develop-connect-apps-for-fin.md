@@ -23,9 +23,9 @@ With this preview, you can get started exploring the APIs that we offer for [!IN
 It's easy to get started. Just spin up a tenant by going through these steps.
 
 1) Sign up for [Dynamics 365 for Financials](https://signup.microsoft.com/signup?sku=6a4a1628-9b9a-424d-bed5-4118f0ede3fd&ru=https%3A%2F%2Fportal.financials.dynamics.com).    
-2) To connect to your tenant via APIs, you can use your tenant URL and basic authentication.
-    1) The tenant's API endpoint is the tenant's base URL (up until .com) followed by `:7048/MS/api/beta/`, for example, `https://cronus.financials.dynamics.com:7048/MS/api/beta/`.    
-    2) To set up basic authentication, create a Web Service Access key in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. On the **Users** page, in the **Web Service Access Key** field, generate a key.
+2) To connect to your tenant via APIs, you can use your tenant URL and basic authentication.  
+    + The tenant's API endpoint is the tenant's base URL (up until .com) followed by `:7048/MS/api/beta/`, for example, `https://cronus.financials.dynamics.com:7048/MS/api/beta/`.    
+    + To set up basic authentication, create a Web Service Access key in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. On the **Users** page, in the **Web Service Access Key** field, generate a key.
 
    > [!NOTE]
    > For production, you should use Azure Active Directory (AAD) for authentication and the common service endpoint `https://api.financials.dynamics.com/v1.0/api/beta`. However, for exploring and prototyping with the API's, using basic authentication and the tenant URL as described will be faster.
@@ -60,6 +60,3 @@ It's easy to get started. Just spin up a tenant by going through these steps.
 + All resources live in the context of a parent company, which means that the company ID must be provided in the URL for all resource API calls. For example, to GET all customers in the “CRONUS USA, Inc.” company, you must call `<endpoint>/companies(bb6d48b6-c7b2-4a38-9a93-ad5506407f12)/customers`
 + You can provide filters in API calls. The syntax for this follows the [Microsoft REST API guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#97-filtering). For example, to GET all open (unpaid) sales invoices above 1000.00 excl tax, call `<endpoint>/companies(bb6d48b6-c7b2-4a38-9a93-ad5506407f12)/salesInvoices?$filter=status eq 'Open' and totalAmountExcludingTax gt 1000.00`
 
-## See Also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../fin-graph/resources/dynamics_overview.md)  
-[API Documentation](https://msdn.microsoft.com/en-us/dynamics-nav/fin-graph/index)
