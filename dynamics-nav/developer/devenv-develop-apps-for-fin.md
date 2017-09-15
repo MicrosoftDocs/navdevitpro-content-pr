@@ -32,8 +32,9 @@ You decide whether you want to **connect** to your existing service or **extend*
 ## Want to try it out?
 It's easy to get started! Just spin up a developer sandbox environment by going through these steps. 
 
-> [!TIP] Want to get started with APIs? Go to [https://aka.ms/getstartedwithapis](https://aka.ms/getstartedwithapis).
->
+> [!TIP]  
+>  Want to get started with APIs? Go to [https://aka.ms/getstartedwithapis](https://aka.ms/getstartedwithapis).
+
 
 1) Sign up for a [Dynamics 365 for Financials sandbox](https://aka.ms/GetSandboxForFinancials).    
 2) Download [Visual Studio Code](https://code.visualstudio.com/Download).  
