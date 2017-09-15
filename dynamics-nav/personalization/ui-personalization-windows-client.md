@@ -19,7 +19,7 @@ ms.author: jswymer
 You can personalize, or customize, your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalization changes that you make will only affect what you see, not what other users see. You can personalize many parts of the user interface (UI), including which actions to include on the ribbon, how fields are positioned on FastTabs or in FactBoxes, and which menu items to include in the navigation pane.
 
 > [!NOTE]  
-> You can also personalize pages by using the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. To learn how personalization works between thethe two clients, see [Personalization Overview](ui-personalization-overview.md)].
+> You can also personalize pages by using the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. To learn how personalization works between the two clients, see [Personalization Overview](ui-personalization-overview.md).
  
 ## How personalization is done
 You perform most of the personalization work by using the **Customize** feature, which you can access from practically all types of pages by doing the following:
