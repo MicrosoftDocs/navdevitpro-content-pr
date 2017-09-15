@@ -34,9 +34,9 @@ Reach out to [dyn365bep@microsoft.com](mailto:dyn365bep@microsoft.com) on ques
 ## As a developer on Dynamics 365 for Financials 
 
 ### You can connect to or extend Dynamics 365 for Financials by delivering apps in Microsoft AppSource  
-Reach more customers by bringing apps for Dynamics 365 for Financials into Microsoft AppSource, the marketplace for Microsoft business apps. Dynamics 365 gives you rich functionality, a modern always up-to-date platform, and a set of great new development tools. When your app is done, publish it through Microsoft AppSource – the marketplace for Microsoft’s business apps and start benefiting from a brand that millions of users know and trust.  
+Reach more customers by bringing apps for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] into Microsoft AppSource, the marketplace for Microsoft business apps. Dynamics 365 gives you rich functionality, a modern always up-to-date platform, and a set of great new development tools. When your app is done, publish it through Microsoft AppSource – the marketplace for Microsoft’s business apps and start benefiting from a brand that millions of users know and trust.  
  
-You decide whether you want to connect to your existing service or extend the Dynamics 365 for Financials functionality. For more information on how to get started with building apps, click [here](https://msdn.microsoft.com/en-us/dynamics-nav/developer/devenv-develop-apps-for-fin).  
+You decide whether you want to connect to your existing service or extend the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] functionality. For more information on how to get started with building apps, click [here](https://aka.ms/getstartedwithapps).  
  
 In October 2017, we are releasing a new readiness program ‘Ready! for Dynamics 365, Business edition’ where we will provide you with everything you need to get you going in building apps. You will benefit from pre-release bits, a platform to ask questions and provide feedback, what’s new information and much more. We will collaborate in this program on modern tools and involve our subject matter experts. Once you indicated you are building an app, you will automatically roll into the program. Those who are already working on having an app in Microsoft Appsource will be contacted soon. 
 
@@ -49,7 +49,7 @@ Reach out to [dyn365bep@microsoft.com](mailto:dyn365bep@microsoft.com) on questi
 ## As an accountant and financial service outsourcer 
 
 ### You can use the Accountant portal extension for Dynamics 365 for Financials
-Easily access client data, effectively manage accounting processes and tasks, and focus more on your clients using Dynamics 365 for Financials — a complete Microsoft accounting software platform for accounting professionals. 
+Easily access client data, effectively manage accounting processes and tasks, and focus more on your clients using [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] — a complete Microsoft accounting software platform for accounting professionals. 
 Reach out to Christian Baek [cbaek@Microsoft.com](mailto:cbaek@Microsoft.com) on questions. 
 
 ### You can promote your packaged consulting services through Microsoft AppSource
