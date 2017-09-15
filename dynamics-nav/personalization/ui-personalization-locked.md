@@ -23,13 +23,17 @@ There can be two reasons for this:
 1.  Until now, you have only used the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] to personalize the page.
 
     or
-     
+
 2. You have used the [!INCLUDE[nav_web](includes/nav_web_md.md)] to personalize the page before, but it was done using a [!INCLUDE[nav2017](includes/nav2017.md)] or earlier version.   
 
-If you want to do some more personalizing to the page now in the [!INCLUDE[nav_web](includes/nav_web_md.md)], then choose the lock icon and then **Unlock**.
+If you want to continue personalizing the page by using the [!INCLUDE[nav_web](includes/nav_web_md.md)], choose the lock icon and then **Unlock**.
 
->[!IMPORTANT]
-> If you choose to unlock the page, the current personalization of the page in the [!INCLUDE[nav_web](includes/nav_web_md.md)] will be cleared, and you will have to start from scratch. In the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], the page will remain as was before and will not be effected by the new changes in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. In the future, you will personalize the page in the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)] separately. Therefore, the page can potentially look different between the two. For more information,see [Working with personalization between the Dynamics NAV Windows and Web client](ui-personalization-overview.md#PersonalizationWinWeb).
+## What happens when you unlock the page
+If you choose to unlock the page, the current personalization of the page in the [!INCLUDE[nav_web](includes/nav_web_md.md)] will be cleared, meaning the page will go back to its original layout and you will have to start from scratch.
+
+In the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], the page will remain as was before and will not be effected by the new changes in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The page personalization in the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] becomes separated, where you will have a personalized version in each client. 
+
+In the future, you will personalize the page in the two clients separately. Therefore, the page can potentially look different between the two. For more information,see [Working with personalization between the Dynamics NAV Windows and Web client](ui-personalization-overview.md#PersonalizationWinWeb).
 
 ## See Also
 [Personalization Overview](ui-personalization-overview.md)  
