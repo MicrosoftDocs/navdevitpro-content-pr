@@ -63,7 +63,7 @@ Before you start personalizing pages, it is important to understand how the pers
 - From this point on, you will personalize the page in the Windows and Web client independent of each other, which means the page can potentially look different in each client. The Phone and Tablet clients will show the same page personalizations as the Web client.  
 
 > [!Tip]  
->If you open the Delete User Personalization page, you can see all the pages that have been personalized by each user. The **Legacy Personalization** column gives you an indication as to whether the personalization was done in the Windows client or Web client. If there is a check mark in the column, the personalization was done in the Windows client or in the Web client prior to [!INCLUDE[nav2017](includes/nav2017.md)].
+>If you open the Delete User Personalization page, you can see all the pages that have been personalized by each user. The **Legacy Personalization** column gives you an indication as to whether the personalization was done in the Windows client or Web client. If there is a check mark in the column, the personalization was done in the Windows client or in the Web client using [!INCLUDE[nav2017](includes/nav2017.md)] or earlier.
 
 ## See Also
 [Personalizing Your Workspace in the Dynamics NAV Web Client](ui-personalization-user.md)  
