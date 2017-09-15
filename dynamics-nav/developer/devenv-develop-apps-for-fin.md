@@ -15,7 +15,7 @@ author: SusanneWindfeldPedersen
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Developing Apps for Dynamics 365 for Financials
-Reach more customers by bringing apps for Dynamics 365 for Financials into Microsoft Appsource, the marketplace for Microsoft business apps. 
+Reach more customers by bringing apps for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] into Microsoft Appsource, the marketplace for Microsoft business apps. 
 Dynamics 365 gives you rich functionality, a modern always up-to-date platform, and a set of great new development tools.
 When your app is done, publish it through Microsoft AppSource – the marketplace for Microsoft’s business apps and start benefiting from a brand that millions of users know and trust.
 
@@ -23,7 +23,7 @@ You decide whether you want to **connect** to your existing service or **extend*
 
 |<h3>Connect</h3>|<h3>Extend</h3>|
 |----------------|---------------|
-|A **Connect app** establishes a connection between two independent services using an API to interchange data. A typical example of a Connect app is a Payroll solution. All work related to Payroll is done within your service and only as a last step is the financial data posted into Dynamics 365 for Financials using the API. A Connect app is mainly created using common development tools, REST API’s, and the API’s made available in Dynamics 365 for Financials from Update 7 and onwards. When needed a Connect app in Dynamics 365 for Financials can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.|Dynamics 365 for Financials supports **Add-On** or **Embed** solutions. An Add-On adds to the existing Dynamics 365 for Financials functionality to integrate a solution such as PayPal, whereas an Embed solution implements an end-to-end experience such as a solution for the dental industry or law firms. An app typically makes use of the variety of development tools for Dynamics 365 for Financials and can also include the APIs available for Dynamics 365 for Financials. An embedded solution can furthermore be rebranded to become an integrated part of the overall end-to-end experience.|
+|A **Connect app** establishes a connection between two independent services using an API to interchange data. A typical example of a Connect app is a Payroll solution. All work related to Payroll is done within your service and only as a last step is the financial data posted into Dynamics 365 for Financials using the API. A Connect app is mainly created using common development tools, REST API’s, and the API’s made available in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] from Update 7 and onwards. When needed a Connect app in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.|[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] supports **Add-On** or **Embed** solutions. An Add-On adds to the existing [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] functionality to integrate a solution such as PayPal, whereas an Embed solution implements an end-to-end experience such as a solution for the dental industry or law firms. An app typically makes use of the variety of development tools for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and can also include the APIs available for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. An embedded solution can furthermore be rebranded to become an integrated part of the overall end-to-end experience.|
 
 ## Hear what the community tells about Dynamics 365 and the new development tools
 
@@ -55,7 +55,7 @@ Interested in an on-premise version? It's just as easy. Just sign up by followin
 2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).  
 3) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen.  
 
-> [!NOTE]  
+> [!TIP]  
 > Build and get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
 
 
@@ -66,9 +66,9 @@ We are excited to have you in our family of Dynamics 365 for Financials App Prov
 To get started with development, you must have some necessary accounts in place. Next, we ask you to send us your app idea via Microsoft AppSource to get your object range and developer license. Learn more about how to get your prerequisites in place [here](https://go.microsoft.com/fwlink/?linkid=857095). 
 
 #### 2)	Develop your Dynamics 365 for Financials app   
-Use the development tools for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] (preview), which enables you to build Extensions v2.0. To get started, set up the [sandbox environment](#want-to-try-it-out). Please be aware, that we are only accepting Financials apps built on extensions 2.0 with Visual Studio Code, unless there are technical limitations that prevent you from being able to complete your extension. If you believe your extension will need an exception, please work with us to determine if this is the case and to receive approval for an exception.
+Use the development tools for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] (preview), which enables you to build Extensions v2.0. To get started, set up the [sandbox environment](#want-to-try-it-out). Please be aware, that we are only accepting Financials apps built on extensions 2.0 with Visual Studio Code, unless there are technical limitations that prevent you from being able to complete your extension. If you believe your extension will need an exception, please work with us to determine if this is the case and to receive approval for an exception.
 
-After you have completed step 1; Get the prerequisites in place, you will be eligible to access the Ready! program. Ready! for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] is an engagement program which enables those who want to develop and deliver apps for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] in Microsoft AppSource. You will get: 
+After you have completed step 1; Get the prerequisites in place, you will be eligible to access the Ready! program. Ready! for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] is an engagement program which enables those who want to develop and deliver apps for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] in Microsoft AppSource. You will get: 
 
 +	Bi-weekly pre-release bits 
 +	Learn what’s new in recently released and upcoming versions 
@@ -78,7 +78,7 @@ After you have completed step 1; Get the prerequisites in place, you will be eli
 > [!NOTE]
 > This program will be launched in October 2017. 
 
-Partners who are already in the process of building apps will be contacted, others will sign up in the general App onboarding process. 
+Partners who are already in the process of building apps will be contacted, others will sign up in the general app onboarding process. 
 
 For more information about how to develop the technical aspects of your Financials app, get the [Develop the technical aspects of your app](https://go.microsoft.com/fwlink/?linkid=841516) document.
 You also need to spend some time on how to best market your app on Microsoft AppSource. Simply listing your app's features and functionality will not convert prospects to buyers. Learn how to develop the [Marketing aspects of your app](https://go.microsoft.com/fwlink/?linkid=841518).
@@ -87,7 +87,7 @@ You also need to spend some time on how to best market your app on Microsoft App
 Before we publish, we will collaborate with you to ensure that your app stands out on Microsoft AppSource and on your own landing page! We need to validate your app to ensure it is marketed well, trustworthy, and is up-to-date. For more information about the validation process and how to publish your app, get the [Publish your app](https://go.microsoft.com/fwlink/?linkid=841517) document.
 
 ## Questions?
-This [FAQ](https://go.microsoft.com/fwlink/?linkid=841520) responds to the most common questions you might have about apps for Dynamics 365 for Financials. If you have further questions, don't hesitate to [email us](mailto:d365val@microsoft.com).
+This [FAQ](https://go.microsoft.com/fwlink/?linkid=841520) responds to the most common questions you might have about apps for [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. If you have further questions, don't hesitate to [email us](mailto:d365val@microsoft.com).
 
 ## Things to consider
 Are you a business owner, a marketing person, or a developer? You can find specific resources below for you.
