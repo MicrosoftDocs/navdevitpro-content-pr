@@ -150,8 +150,8 @@ In the **Show FactBoxes in this order** box, select the FactBox that you want to
 2.   The **Available fields** box list all the fields that you can choose from. The **Fields shown** box shows all the fields that are currently dispalyed in the FactBox. Use the buttons to add, remove, and move the fields.   
 
 
-## Adding, Removing, Arranging, and Freezing Columns in a List or on Document Lines
-To get a better overview of the information that you need, you can customize list pages and card pages by adding or removing columns in the grids.  
+## Customize Columns in a List or on Document Lines
+To get a better overview of the information that you need, you can customize list pages and card pages by adding or removing columns in the grids, rearranging columns, and adding a freeze pane.  
   
 ### To add, remove, and arrange columns  
   
@@ -277,7 +277,7 @@ When you have complex information, you may want to view a visual representation 
 > [!NOTE]  
 >  By default, the chart pane is hidden because it can slow down performance. You should only show the chart when you must have the information.  
     
-## Specifying How to Handle External Files and Automation Objects
+## Handling External Files and Automation Objects
 When [!INCLUDE[d365fin](includes/d365fin_md.md)] receives an external file, you are presented with a dialog box. In addition to selecting what to do with the file, you can decide how to treat that file type next time it is received.  
   
 When [!INCLUDE[d365fin](includes/d365fin_md.md)] is required to run an automation object, you are presented with a dialog box. You can decide whether that type of object should always or never be able to run.  
@@ -296,11 +296,11 @@ When you are presented with the dialog, select the **Always allow** check box if
   
 Alternatively, select the **Never allow** check box to. Next time that type of automation object is required to run, the dialog box will not appear, and the automation object will not run.  
 
-## Canceling Personalization
-Canceling personalization can be divided into two categories:
+## Cancelling Personalization
+Cancelling personalization can be divided into two categories:
 
--   Canceling changes that you made by using the **Customize** feature.
--   Canceling basic UI changes. 
+-   Cancelling changes that you made by using the **Customize** feature.
+-   Cancelling basic UI changes. 
 
 ### Cancel Customization
 If you want to cancel all UI customization that you have ever made for a page under your current user logon or since you last canceled UI customizations, you can use the **Delete User Personalization** window. The layout of the page for which you delete your personalization is then reset to the default configuration for your profile.  
