@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 47fb1195-eaa1-4995-9013-5edc28b13132
 caps.latest.revision: 7
-manager: edupont
+author: edupont
 ---
 # Working With Media on Records
 This topic describes how you can upload media, such as an image, to the database for displaying with records in the client. There are two ways that you can do this:  
@@ -26,7 +26,6 @@ This topic describes how you can upload media, such as an image, to the database
     -   Display media in a report.
 
 Using the Media or MediaSet data type provides better performance than using a BLOB data type and is more flexible in its design. With a BLOB data type, each time the media is rendered in the client, it is retrieved from the SQL database server, which requires extra bandwidth and affects performance. With the Media and MediaSet data types, the client uses media ID to cache the media data, which in turn improves the response time for rendering the media in the user interface.  
-
 ## Using Media and Media Sets on Records  
 Table fields support two data types for adding media to records: **Media** and **MediaSet**. With these data types, you can import media directly from a file to a record, or media can be passed to the record in an InStream object. Imported media is stored as an object in the system table **2000000184 Tenant Media** of the application database. Each media object is assigned a unique identifier \(ID\).
 
@@ -94,8 +93,31 @@ The following table provides an overview of the C/AL functions that are related 
 |[EXPORTFILE Function \(MediaSet\)](EXPORTFILE-Function-MediaSet.md)|Exports the media objects that included in a media set to individual files.|  
 |[IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)|Adds media from a file to a record, and assigns the imported media object to a media set. The media object is stored in the application database.|  
 |[IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)|Adds media from an InStream object to a record. The imported media object is stored in the application database.|  
+|[INSERT Function \(MediaSet\)](insert-function--mediaset-.md)|Adds a media object that already exists in the database to a MediaSet of a record.|  
 |[MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)|Gets the unique identifier \(GUID\) that is assigned to the media set on a record.|  
 |[COUNT Function \(MediaSet\)](COUNT-Function--MediaSet-.md)|Gets the total number of media objects that are included in the media set on a record.|  
+
+## Automatic Deletion of Unused Media Objects 
+When a table record that contains a media object is deleted, the OnDelete trigger gets the media or media set's ID, and uses the ID to look for other references to the media object from the same field index in the same table. If no other references are found, the media object is assumed to be unreferenced and it is deleted. The runtime will not look in all tables in the database to see if a media object is referenced elsewhere, because doing this would decrease performance and result in costly SQL table scans. If media objects are to be shared between tables, they should be shared through a reference table or by sharing the media set field content as described in the next section. 
+
+## Sharing Media Objects Between Different Tables 
+To maintain data integrity related to media object, it’s important to notice that the Media and MediaSet data types are complex data types that are referenced by an ID. The ID is stored in the record field that contains the media object. If a simple copy operation is performed to copy the media object from one media set field to to another, the ID is copied to the new field. However, the application does not know that the media object is referenced in two different fields, which causes issues when a row that contains the media ID is deleted.  
+
+To avoid unintentionally deleting referenced media objects, media sharing should be done by using the [INSERT function](insert-function--mediaset-.md) function to insert the media (by its ID) into the new media set field. This will create the correct (new) MediaSet records in the system tables, which means that the media object in one field will not be deleted if media object in the other field is deleted. 
+
+### Example 
+This example copies a media set field called `MediaSetField` in table `mediaSourceTable` to a field in another table `mediaTargetTable`. The `FOR` loop will iterate all media objects in the source, and then insert their ID in the target field. 
+
+```
+FOR index := 1 TO mediaSourceTable.MediaSetField.COUNT DO 
+  mediaTargetTable.MediaSetField.INSERT(mediaSourceTable.MediaSetField.ITEM(index)); 
+MediaTargetTable.Modify(true);
+```
+
+This will create a new media set that contains the shared media object references. When you delete the media set (by deleting the MediaTargetTable record), the runtime will detect that the media object is used in multiple media sets, and therefore will not delete the media objects. The media objects might eventually be deleted when the runtime cannot find other references. 
+
+>[!IMPORTANT]
+>The simple field copy statement `mediaTargetTable.MediaSetField := mediaSourceTable.MediaSetField;` can only be used if `mediaTargetTable`is declared as the same record subtype as `mediaSourceTable`, and the target and source field IDs are the same.  
 
 ## See Also  
  [Media Data Type](Media-Data-Type.md)   

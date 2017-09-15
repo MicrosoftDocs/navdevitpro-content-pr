@@ -26,7 +26,6 @@ Use the Azure AD v2.0 endpoint to authenticate Dynamics 365 for Financials APIs.
 The Dynamics 365 for Financials API allows you to read and modify business data through apps that are connected and integrated through a single endpoint. Use the API to, for example, get access to customer and vendor information, update sales orders, or view overdue payments.
 
 
-## See also
-
-- [Microsoft Graph quick start](https://developer.microsoft.com/en-us/graph/quick-start)
-- [Microsoft Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
+## See Also
+[Microsoft Graph quick start](https://developer.microsoft.com/en-us/graph/quick-start)  
+[Microsoft Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
