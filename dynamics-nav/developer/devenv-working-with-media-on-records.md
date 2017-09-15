@@ -91,8 +91,32 @@ The following table provides an overview of the methods that are related to the 
 |[EXPORTFILE Method (MediaSet)](methods/devenv-EXPORTFILE-Method-MediaSet.md)|Exports the media objects that included in a media set to individual files.|  
 |[IMPORTFILE Method (MediaSet)](methods/devenv-IMPORTFILE-method-mediaset.md)|Adds media from a file to a record, and assigns the imported media object to a media set. The media object is stored in the application database.|  
 |[IMPORTSTREAM Method (MediaSet)](methods/devenv-IMPORTSTREAM-method-mediaset.md)|Adds media from an InStream object to a record. The imported media object is stored in the application database.|  
+|[INSERT Function (MediaSet)](methods/devenv-insert-method-mediaset.md)|Adds a media object that already exists in the database to a MediaSet of a record.|  
 |[MEDIAID Method (MediaSet)](methods/devenv-MEDIAID-method-mediaset.md)|Gets the unique identifier \(GUID\) that is assigned to the media set on a record.|  
 |[COUNT Method (MediaSet)](methods/devenv-COUNT-method-mediaset.md)|Gets the total number of media objects that are included in the media set on a record.|  
+
+## Automatic Deletion of Unused Media Objects 
+When a table record that contains a media object is deleted, the OnDelete trigger gets the media or media set's ID, and uses the ID to look for other references to the media object from the same field index in the same table. If no other references are found, the media object is assumed to be unreferenced and it is deleted. The runtime will not look in all tables in the database to see if a media object is referenced elsewhere, because doing this would decrease performance and result in costly SQL table scans. If media objects are to be shared between tables, they should be shared through a reference table or by sharing the media set field content as described in the next section. 
+
+## Sharing Media Objects Between Different Tables 
+To maintain data integrity related to media object, it’s important to notice that the Media and MediaSet data types are complex data types that are referenced by an ID. The ID is stored in the record field that contains the media object. If a simple copy operation is performed to copy the media object from one media set field to to another, the ID is copied to the new field. However, the application does not know that the media object is referenced in two different fields, which causes issues when a row that contains the media ID is deleted.  
+
+To avoid unintentionally deleting referenced media objects, media sharing should be done by using the [INSERT function](insert-function--mediaset-.md) function to insert the media (by its ID) into the new media set field. This will create the correct (new) MediaSet records in the system tables, which means that the media object in one field will not be deleted if media object in the other field is deleted. 
+
+### Example 
+This example copies a media set field called `MediaSetField` in table `mediaSourceTable` to a field in another table `mediaTargetTable`. The `FOR` loop will iterate all media objects in the source, and then insert their ID in the target field. 
+
+```
+FOR index := 1 TO mediaSourceTable.MediaSetField.COUNT DO 
+  mediaTargetTable.MediaSetField.INSERT(mediaSourceTable.MediaSetField.ITEM(index)); 
+MediaTargetTable.Modify(true);
+```
+
+This will create a new media set that contains the shared media object references. When you delete the media set (by deleting the MediaTargetTable record), the runtime will detect that the media object is used in multiple media sets, and therefore will not delete the media objects. The media objects might eventually be deleted when the runtime cannot find other references. 
+
+>[!IMPORTANT]
+>The simple field copy statement `mediaTargetTable.MediaSetField := mediaSourceTable.MediaSetField;` can only be used if `mediaTargetTable`is declared as the same record subtype as `mediaSourceTable`, and the target and source field IDs are the same.  
+
 
 ## See Also  
  [Media Data Type](datatypes/devenv-Media-Data-Type.md)   
