@@ -30,7 +30,7 @@ You decide whether you want to **connect** to your existing service or **extend*
 [![Community](media/CustomerTestimonials.png)](https://www.youtube.com/watch?v=ptL3QXuoLW4&list=PLcakwueIHoT9tZzsgDLpBixftGfnymAyz&index=2 "Customers")
 
 ## Want to try it out?
-It's easy to get started! Just spin up a sandbox environment by going through these steps.
+It's easy to get started! Just spin up a developer sandbox environment by going through these steps. If you're looking for steps for getting started with API's, go [here](https://aka.ms/getstartedwithapis).
 
 1) Sign up for a [Dynamics 365 for Financials sandbox](https://aka.ms/GetSandboxForFinancials).    
 2) Download [Visual Studio Code](https://code.visualstudio.com/Download).  
@@ -54,6 +54,7 @@ Interested in an on-premise version? It's just as easy. Just sign up by followin
 > [!NOTE]  
 > Build and get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
 
+
 ## Ready to build a business app and publish it to Microsoft AppSource?
 We are excited to have you in our family of Dynamics 365 for Financials App Providers. Now that you are getting serious about this, here are the steps that you will have to go through: 
 
@@ -61,9 +62,21 @@ We are excited to have you in our family of Dynamics 365 for Financials App Prov
 To get started with development, you must have some necessary accounts in place. Next, we ask you to send us your app idea via Microsoft AppSource to get your object range and developer license. Learn more about how to get your prerequisites in place [here](https://go.microsoft.com/fwlink/?linkid=857095). 
 
 #### 2)	Develop your Dynamics 365 for Financials App   
-Use the development tools for Dynamics 365 for Financials (preview), which enables you to build Extensions v2.0. To get started, set up the [sandbox environment](#want-to-try-it-out). Please be aware, that we are only accepting Financials apps built on extensions 2.0 with Visual Studio Code, unless there are technical limitations that prevent you from being able to complete your extension. If you believe your extension will need an exception, please work with us to determine if this is the case and to receive approval for an exception.
+Use the development tools for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] (preview), which enables you to build Extensions v2.0. To get started, set up the [sandbox environment](#want-to-try-it-out). Please be aware, that we are only accepting Financials apps built on extensions 2.0 with Visual Studio Code, unless there are technical limitations that prevent you from being able to complete your extension. If you believe your extension will need an exception, please work with us to determine if this is the case and to receive approval for an exception.
 
-For more information about everything you need to know about how to develop the technical aspects of your Financials app, get the [Develop the technical aspects of your app](https://go.microsoft.com/fwlink/?linkid=841516) document.
+After you have completed step 1; Get the prerequisites in place, you will be eligible to access the Ready! program. Ready! for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] is an engagement program which enables those who want to develop and deliver apps for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] in Microsoft AppSource. You will get: 
+
++	Bi-weekly pre-release bits 
++	Learn what’s new in recently released and upcoming versions 
++	Ability to provide feedback 
++	Ability to request base app events 
+
+> [!NOTE]
+> This program will be launched in October 2017. 
+
+Partners who are already in the process of building apps will be contacted, others will sign up in the general App onboarding process. 
+
+For more information about how to develop the technical aspects of your Financials app, get the [Develop the technical aspects of your app](https://go.microsoft.com/fwlink/?linkid=841516) document.
 You also need to spend some time on how to best market your app on Microsoft AppSource. Simply listing your app's features and functionality will not convert prospects to buyers. Learn how to develop the [Marketing aspects of your app](https://go.microsoft.com/fwlink/?linkid=841518).
 
 #### 3)	Ready for publication?  
