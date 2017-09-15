@@ -41,7 +41,7 @@ You decide whether you want to connect to your existing service or extend the [!
 In October 2017, we are releasing a new readiness program ‘Ready! for Dynamics 365, Business edition’ where we will provide you with everything you need to get you going in building apps. You will benefit from pre-release bits, a platform to ask questions and provide feedback, what’s new information and much more. We will collaborate in this program on modern tools and involve our subject matter experts. Once you indicated you are building an app, you will automatically roll into the program. Those who are already working on having an app in Microsoft Appsource will be contacted soon. 
 
 ### You can work with Dev Centers to move your solution(s) in Dynamics 365
-Porting full industry solutions in extensions 2.0 can be a big challenging task. Microsoft has selected and educated a set of Microsoft ISV Development Centers (Dev Centers) to help you in this regard. These Dev Centers were established to provide strong third-party technical services that can be contracted and leveraged by Microsoft's Partners.
+Porting full industry solutions in Extensions 2.0 can be a big challenging task. Microsoft has selected and educated a set of Microsoft ISV Development Centers (Dev Centers) to help you in this regard. These Dev Centers were established to provide strong third-party technical services that can be contracted and leveraged by Microsoft's Partners.
 Learn more about the available Dev Centers in your region [here](https://mbs.microsoft.com/partnersource/northamerica/partner-essentials/all-partner-essentials-documents/FindISVDevelopmentCenter). 
 
 Reach out to [dyn365bep@microsoft.com](mailto:dyn365bep@microsoft.com) on questions.
