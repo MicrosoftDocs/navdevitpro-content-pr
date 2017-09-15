@@ -50,6 +50,7 @@ Reach out to [dyn365bep@microsoft.com](mailto:dyn365bep@microsoft.com) on questi
 
 ### You can use the Accountant portal extension for Dynamics 365 for Financials
 Easily access client data, effectively manage accounting processes and tasks, and focus more on your clients using [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] — a complete Microsoft accounting software platform for accounting professionals. 
+
 Reach out to Christian Baek [cbaek@Microsoft.com](mailto:cbaek@Microsoft.com) on questions. 
 
 ### You can promote your packaged consulting services through Microsoft AppSource
@@ -57,7 +58,7 @@ Drive demand for your packaged consulting and consulting services with 100M user
 
 1) Get listed as a partner; [register](https://partner.microsoft.com/en-us/membership) with the Microsoft Partner Network and [create a marketing profile](https://msdn.microsoft.com/partner-center/create-a-marketing-profile) on PartnerCenter.  
 
-2) Become [CSP](https://partner.microsoft.com/en-US/cloud-solution-provider) or [DPOR](https://partner.microsoft.com/en-US/membership/digital-partner-of-Record) for Dynamics 365 for Financials, Business Edition with at least 1 customer and [submit your offers](https://cloudpartner.azure.com/) to AppSource in the Cloud Partner Portal.  
+2) Become [CSP](https://partner.microsoft.com/en-US/cloud-solution-provider) or [DPOR](https://partner.microsoft.com/en-US/membership/digital-partner-of-Record) for Dynamics 365 for Financials with at least 1 customer and [submit your offers](https://cloudpartner.azure.com/) to AppSource in the Cloud Partner Portal.  
 
 If you experience issues accessing the Offer page, please contact [offerspilot@microsoft.com](mailto:offerspilot@microsoft.com).
 
