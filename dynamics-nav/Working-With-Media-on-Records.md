@@ -105,8 +105,8 @@ To maintain data integrity related to media object, it’s important to notice t
 
 To avoid unintentionally deleting referenced media objects, media sharing should be done by using the [INSERT function](insert-function--mediaset-.md) function to insert the media (by its ID) into the new media set field. This will create the correct (new) MediaSet records in the system tables, which means that the media object in one field will not be deleted if media object in the other field is deleted. 
 
-### Example: 
-This example copies a media set field callled `MediaSetField` in table `mediaSourceTable` to a field in another table `mediaTargetTable`. The `FOR` loop will iterate all media objects in the source, and then insert their ID in the target field. 
+### Example 
+This example copies a media set field called `MediaSetField` in table `mediaSourceTable` to a field in another table `mediaTargetTable`. The `FOR` loop will iterate all media objects in the source, and then insert their ID in the target field. 
 
 ```
 FOR index := 1 TO mediaSourceTable.MediaSetField.COUNT DO 
@@ -114,7 +114,7 @@ FOR index := 1 TO mediaSourceTable.MediaSetField.COUNT DO
 MediaTargetTable.Modify(true);
 ```
 
-This will create a new media set that contains the shared media object references. When you delete the media set (by deleting the MediaTargetTable record), the runtime will detect that the media object is used in multiple media sets, and therefore will not delete the media objects. The media objects might eventually be removed when the runtime cannot find other references. 
+This will create a new media set that contains the shared media object references. When you delete the media set (by deleting the MediaTargetTable record), the runtime will detect that the media object is used in multiple media sets, and therefore will not delete the media objects. The media objects might eventually be deleted when the runtime cannot find other references. 
 
 >[!IMPORTANT]
 >The simple field copy statement `mediaTargetTable.MediaSetField := mediaSourceTable.MediaSetField;` can only be used if `mediaTargetTable`is declared as the same record subtype as `mediaSourceTable`, and the target and source field IDs are the same.  
