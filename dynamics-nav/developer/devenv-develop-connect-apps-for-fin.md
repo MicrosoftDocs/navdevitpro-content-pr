@@ -24,14 +24,15 @@ It's easy to get started. Just spin up a tenant by going through these steps.
 
 1) Sign up for [Dynamics 365 for Financials](https://signup.microsoft.com/signup?sku=6a4a1628-9b9a-424d-bed5-4118f0ede3fd&ru=https%3A%2F%2Fportal.financials.dynamics.com).    
 2) To connect to your tenant via APIs, you can use your tenant URL and basic authentication.    
-        1) The tenant's API endpoint is the tenant's base URL (up until .com) followed by `:7048/MS/api/beta/`, for example, `https://cronus.financials.dynamics.com:7048/MS/api/beta/`.  
-        2) To set up basic authentication, create a Web Service Access key in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. On the **Users** page, in the **Web Service Access Key** field, generate a key.
+    The tenant's API endpoint is the tenant's base URL (up until .com) followed by `:7048/MS/api/beta/`, for example, `https://cronus.financials.dynamics.com:7048/MS/api/beta/`.  
+    
+3) To set up basic authentication, create a Web Service Access key in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. On the **Users** page, in the **Web Service Access Key** field, generate a key.
 
    > [!NOTE]
    > For production, you should use Azure Active Directory (AAD) for authentication and the common service endpoint `https://api.financials.dynamics.com/v1.0/api/beta`. However, for exploring and prototyping with the API's, using basic authentication and the tenant URL as described will be faster.
 
-3) Go to the documentation on the APIs, you can get our published preview [here](https://msdn.microsoft.com/en-us/dynamics-nav/fin-graph/index).  
-4) Download an API explorer, such as [Postman](https://www.getpostman.com/) or [Fiddler](http://www.telerik.com/fiddler) to connect to and explore the API.
+4) Go to the documentation on the APIs, you can get our published preview [here](https://msdn.microsoft.com/en-us/dynamics-nav/fin-graph/index).  
+5) Download an API explorer, such as [Postman](https://www.getpostman.com/) or [Fiddler](http://www.telerik.com/fiddler) to connect to and explore the API.
 
 ### Some tips for working with the API's
 
