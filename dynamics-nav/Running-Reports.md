@@ -12,7 +12,7 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # Running Reports
-After you design a report's dataset and layout, you can make it available in [!INCLUDE[navnow](includes/navnow_md.md)] client applications. For example, you can add a report to the **Report** tab of a page. When you preview a report from a client computer, the report is displayed using Report Viewer.  
+After you design a report's dataset and layout, you can make it available in [!INCLUDE[navnow](includes/navnow_md.md)] client applications. For example, you can add a report to the **Report** tab of a page. 
   
  The following table describes where to find information about how to run reports.  
   
