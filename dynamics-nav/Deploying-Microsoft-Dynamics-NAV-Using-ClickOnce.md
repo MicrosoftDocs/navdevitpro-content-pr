@@ -101,7 +101,7 @@ Follow these steps to host on a file share:
   
     1.  If you do not already have a code signing certificate, you will have to obtain one from one of the certification authorities. For a list of certification authorities, see [Microsoft Technet](http://go.microsoft.com/fwlink/?LinkId=262163).  
   
-    2.  You can also create a test certificate and use it for testing. For more information, see [How to: Create Your Own Test Certificate](http://msdn.microsoft.com/en-us/library/ff699202.aspx) or [New-SelfSignedCertificate](https://technet.microsoft.com/itpro/powershell/windows/pkiclient/new-selfsignedcertificate).  
+    2.  You can also create a test certificate and use it for testing. For more information, see [How to: Create Your Own Test Certificate](http://msdn.microsoft.com/en-us/library/ff699202.aspx) or [New-SelfSignedCertificate](https://docs.microsoft.com/en-us/powershell/module/pkiclient/new-selfsignedcertificate).  
   
     3.  For information about when it is acceptable to skip this step, see [Security Considerations](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Security).  
   
@@ -270,8 +270,8 @@ All the logic needed for requesting user permissions to install or check for upg
  The upgrade check is based on the deployment manifest’s `version`. This is the version of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] that will be installed if a user installs [!INCLUDE[navnow](includes/navnow_md.md)] for the first time. The deployment manifest also contains a `minimumRequiredVersion`. If a previously installed [!INCLUDE[nav_windows](includes/nav_windows_md.md)] has a version that is less than `minimumRequiredVersion`, then the user is forced to upgrade the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. This will appear similar to the following.  
   
 ```  
-<assemblyIdentity name="Microsoft Dynamics NAV" version="7.0.0.0" … />  
-  <deployment install="true" minimumRequiredVersion="7.0.0.0">  
+<assemblyIdentity name="Microsoft Dynamics NAV" version="11.0.0.0" … />  
+  <deployment install="true" minimumRequiredVersion="11.0.0.0">  
     <subscription>  
       <update>  
         <beforeApplicationStartup />  
