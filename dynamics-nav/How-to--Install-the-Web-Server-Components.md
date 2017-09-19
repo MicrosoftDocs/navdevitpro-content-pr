@@ -113,7 +113,11 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
 #### Next Steps  
 
--   If the [!INCLUDE[nav_web](includes/nav_web_md.md)] is installed on a different computer than [!INCLUDE[nav_server](includes/nav_server_md.md)], set up delegation on [!INCLUDE[nav_server](includes/nav_server_md.md)] from the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+-   If !INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on Windows 8.0 or 8.1, create an inbound rule in the Windows Firewall to allow communication on the TCP port that you chose during Setup. 
+
+    For more information, see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create-an-Inbound-Rule-in-Windows-Firewall-for-the-Port-of-Microsoft-Dynamics-NAV-Web-Client.md). 
+
+-   If the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on a different computer than [!INCLUDE[nav_server](includes/nav_server_md.md)], set up delegation on [!INCLUDE[nav_server](includes/nav_server_md.md)] from the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 
      For more information, see [How to: Configure Delegation for Microsoft Dynamics NAV Web Client](How-to--Configure-Delegation-for-Microsoft-Dynamics-NAV-Web-Client.md).  
 

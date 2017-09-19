@@ -79,11 +79,21 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
     > [!TIP]  
     >  Instead of installing and configuring Internet Information Services \(IIS\) manually, you can use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install IIS and enable the required features. If IIS is already installed, then Setup will enable any required features that are not currently enabled.  
 
-4.  Determine which HTTP port to use for the [!INCLUDE[nav_web](includes/nav_web_md.md)] connection.  
+4.  Determine which HTTP port to use for the [!INCLUDE[nav_web](includes/nav_web_md.md)] connection. and create an inbound for the port in Windows Firewall according to the following guidelines: 
 
-    [!INCLUDE[navnow](includes/navnow_md.md)] Setup will create a website on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. During Setup, you will have to choose the port to use for the site. The default port that is used in [!INCLUDE[navnow](includes/navnow_md.md)] Setup is port 8080. If you are not sure of which port to use, then use the default port. 
 
-    An inbound rule that allows communication on the port will be automatically added to Windows Firewall. However, after installation it i a good idea to verify that the inbound rule has been added. For information about see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create-an-Inbound-Rule-in-Windows-Firewall-for-the-Port-of-Microsoft-Dynamics-NAV-Web-Client.md).  
+
+For information about how to create an inbound rule, see How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client. 
+
+
+◦If your computer is running Windows Server 2012, then an inbound rule is already created and no action is required. 
+
+
+D  
+
+    -   [!INCLUDE[navnow](includes/navnow_md.md)] Setup will create a website on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. During Setup, you will have to choose the port to use for the site. The default port that is used in [!INCLUDE[navnow](includes/navnow_md.md)] Setup is port 8080. If you are not sure of which port to use, then use the default port. 
+
+    -   An inbound rule ithat allows communication on the port must be added to Windows Firewall. With most of the supported Windows operating systems, the inbound rule will automatically be added in Windows Firewall. However, if your computer is running Windows 8.0 or 8.1. then you have to manually create an inbound rule. For information about see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create-an-Inbound-Rule-in-Windows-Firewall-for-the-Port-of-Microsoft-Dynamics-NAV-Web-Client.md).  
 
 
 #### Run [!INCLUDE[navnow](includes/navnow_md.md)] Setup  
