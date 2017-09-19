@@ -23,8 +23,8 @@ Coming from the Dynamics NAV Development Environment and C/SIDE, there are some 
 |------|---------------------------|
 |Dates are parsed based on culture settings.| Locale independent and supports only: ```yyyy-mm-dd```.|
 |Boolean values could be expressed as **yes**/**no**.| Boolean values are expressed as **true**/**false**.|
-|Integer type could allow decimal values too. For example, 5.0 converts to an integer value.| Numbers expressed in decimals are not a valid integer type.|
-|The largest constant integer could be 999999999999999. | This transforms to decimal type, which could be expressed as 999999999999999.0 or 999999999999999L.|
+|For tables, integers could allow decimal values. For example, 5.0 converts to an integer value, 5.5 throws an error at runtime.| For tables, Min, Max, InitValue numbers with a fraction are expressed as `decimal`, thus they are not a valid integer type.|
+|The largest constant integer could be `999999999999999`. | Transforms to `999'999'999'999'999.0`, a decimal value. In AL, this can be expressed as `999999999999999.0` or `999999999999999L`.|
 
 ## Syntax updates
 |C/SIDE|AL Development Environment|
@@ -56,9 +56,9 @@ The ```ActionContainer``` elements in C/SIDE have been renamed to:
 |RelatedInformation| Navigation    |
 |Reports           | Reporting     |
 
-For example, ```area(Sections)```, which can be defined inside the ```actions``` section of the page.
+For example, ```area(Sections)``` can be defined inside the ```actions``` section of the page.
 
-```Container``` and ```ContainerType``` elements in C/SIDE have been renamed to ```area(Content|FactBoxes|RoleCenter)``` and can be defined inside the ```layout``` section of the page.
+Likewise, ```Container``` and ```ContainerType``` elements in C/SIDE have been renamed to ```area(Content|FactBoxes|RoleCenter)``` and can be defined inside the ```layout``` section of the page.
 
 For syntax examples, see [Page Object](devenv-page-object.md).
 
