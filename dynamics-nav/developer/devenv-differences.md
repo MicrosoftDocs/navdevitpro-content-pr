@@ -23,7 +23,7 @@ Coming from the Dynamics NAV Development Environment and C/SIDE, there are some 
 |------|---------------------------|
 |Dates are parsed based on culture settings.| Locale independent and supports only: ```yyyy-mm-dd```.|
 |Boolean values could be expressed as **yes**/**no**.| Boolean values are expressed as **true**/**false**.|
-|For tables, integers could allow decimal values. For example, 5.0 converts to an integer value, 5.5 throws an error at runtime.| For tables, Min, Max, InitValue numbers with a fraction are expressed as `decimal`, thus they are not a valid integer type.|
+|For tables, integers could allow decimal values. For example, 5.0 converts to an integer value, 5.4 throws an error at runtime.| For tables, Min, Max, InitValue numbers with a fraction are expressed as `decimal`, thus they are not a valid integer type.|
 |The largest constant integer could be `999999999999999`. | Transforms to `999'999'999'999'999.0`, a decimal value. In AL, this can be expressed as `999999999999999.0` or `999999999999999L`.|
 
 ## Syntax updates
