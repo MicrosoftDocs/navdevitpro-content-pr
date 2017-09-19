@@ -66,8 +66,6 @@ Here are links to the most common configuration tasks that you will perform on t
   
  [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md)  
   
- [How to: Configure Microsoft Report Viewer for the Microsoft Dynamics NAV Web Client](How-to--Configure-Microsoft-Report-Viewer-for-the-Microsoft-Dynamics-NAV-Web-Client.md)  
-  
  [How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md)  
 
  [How to: Change the Microsoft Dynamics NAV Server for the Microsoft NAV Web Client](How-to--Change-the-Microsoft-Dynamics-NAV-Server-for-the-Microsoft-NAV-Web-Client)

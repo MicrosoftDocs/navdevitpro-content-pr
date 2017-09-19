@@ -25,10 +25,10 @@ POST /financials/companies/({id})/salesInvoices/({id})/salesInvoiceLines
 
 ## Request headers
 
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer {token}. Required.    |
-|Content-Type  |application/json    |
+|Header        |Value                      |
+|--------------|---------------------------|
+|Authorization |Bearer {token}. Required.  |
+|Content-Type  |application/json           |
 
 ## Request body
 In the request body, supply a JSON representation of a salesInvoice object.
@@ -51,6 +51,7 @@ Content-type: application/json
 "lineType": "Item",
 "quantity": 9
 }
+```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](dynamics_overview.md)
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)
