@@ -3,7 +3,7 @@ title: "Differences in the Development Environments"
 description: "Describes the various differences between the old and the new development environment"
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 07/06/2017
+ms.date: 09/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -45,7 +45,7 @@ Several properties have been renamed, to mention some:
 
 ## Pages
 
-The ```ActionContainer``` elements in C/SIDE have been renamed to: 
+The ```ActionContainer``` elements in AL have been renamed; the following table lists the renamed elements:
 
 |C/SIDE|AL Development Environment|
 |------|---------------------------|
@@ -56,7 +56,7 @@ The ```ActionContainer``` elements in C/SIDE have been renamed to:
 |RelatedInformation| Navigation    |
 |Reports           | Reporting     |
 
-For example, ```area(Sections)``` can be defined inside the ```actions``` section of the page.
+For instance, ```area(Sections)``` can be defined inside the ```actions``` section of the page.
 
 Likewise, ```Container``` and ```ContainerType``` elements in C/SIDE have been renamed to ```area(Content|FactBoxes|RoleCenter)``` and can be defined inside the ```layout``` section of the page.
 
