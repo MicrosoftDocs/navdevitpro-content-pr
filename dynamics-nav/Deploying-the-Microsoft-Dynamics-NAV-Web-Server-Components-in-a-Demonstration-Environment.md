@@ -12,10 +12,10 @@ ms.assetid: 111991f8-4bd9-4596-b1bd-efd877353774
 caps.latest.revision: 29
 ---
 # Deploying the Microsoft Dynamics NAV Web Server Components in a Demonstration Environment
-In this scenario, you install the major components of the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] on a single computer. The scenario enables you to install [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] in an environment where you can test its features and behavior, compare it to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], and start developing your own applications. The installation requires minimal hardware resources, preparation, and configuration.  
+In this scenario, you install the major components of the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] on a single computer. The scenario enables you to install [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_phonet](includes/nav_phone_md.md)], and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] in an environment where you can test its features and behavior, compare it to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], and start developing your own applications. The installation requires minimal hardware resources, preparation, and configuration.  
 
 > [!NOTE]  
->  [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is not required to run the [!INCLUDE[nav_web](includes/nav_web_md.md)] or [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]. In this scenario, [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is installed for demonstration only.  
+>  [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is not required to run the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_phonet](includes/nav_phone_md.md)], and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]]. In this scenario, [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is installed for demonstration only.  
 
 ## Installed Components and Configuration  
 
@@ -57,12 +57,12 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
     -   Service instance: NAVDEMO  
 
-    -   Database: Demo Database NAV \(10-0\)  
+    -   Database: Demo Database NAV \(11-0\)  
 
 -   NETWORK SERVICE account is used as the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] database.  
 
 ## Installing the Microsoft Dynamics NAV Web Server Components  
- To install the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] in this scenario, you will run [!INCLUDE[navnow](includes/navnow_md.md)] Setup two times. The first time, you will choose the **Install Demo** option, which installs the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and the [!INCLUDE[demolong](includes/demolong_md.md)]. The second time that you run Setup, you will choose the **Web Server Components** option, which installs a website for [!INCLUDE[nav_web](includes/nav_web_md.md)] on the Internet Information Services.  
+ To install the [!INCLUDE[nav_web](includes/nav_web_md.md)] in this scenario, you will run [!INCLUDE[navnow](includes/navnow_md.md)] Setup two times. The first time, you will choose the **Install Demo** option, which installs the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and the [!INCLUDE[demolong](includes/demolong_md.md)]. The second time that you run Setup, you will choose the **Web Server Components** option, which installs a website for [!INCLUDE[nav_web](includes/nav_web_md.md)] on the Internet Information Services.  
 
 #### Prepare for the [!INCLUDE[nav_web](includes/nav_web_md.md)] installation  
 
@@ -76,18 +76,15 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
      For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md).  
 
-    > [!NOTE]  
+    > [!TIP]  
     >  Instead of installing and configuring Internet Information Services \(IIS\) manually, you can use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install IIS and enable the required features. If IIS is already installed, then Setup will enable any required features that are not currently enabled.  
 
-4.  Determine which HTTP port to use for the [!INCLUDE[nav_web](includes/nav_web_md.md)] connection and create an inbound for the port in Windows Firewall according to the following guidelines:  
+4.  Determine which HTTP port to use for the [!INCLUDE[nav_web](includes/nav_web_md.md)] connection.  
 
-    -   [!INCLUDE[navnow](includes/navnow_md.md)] Setup will create a website on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. During Setup, you will have to choose the port to use for the site. The default port that is used in [!INCLUDE[navnow](includes/navnow_md.md)] Setup is port 8080. If you are not sure of which port to use, then use the default port.  
+    [!INCLUDE[navnow](includes/navnow_md.md)] Setup will create a website on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. During Setup, you will have to choose the port to use for the site. The default port that is used in [!INCLUDE[navnow](includes/navnow_md.md)] Setup is port 8080. If you are not sure of which port to use, then use the default port. 
 
-    -   If your computer is running Windows 7 or later, then you have to create an inbound rule that allows communication on the port.  
+    An inbound rule that allows communication on the port will be automatically added to Windows Firewall. However, after installation it i a good idea to verify that the inbound rule has been added. For information about see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create-an-Inbound-Rule-in-Windows-Firewall-for-the-Port-of-Microsoft-Dynamics-NAV-Web-Client.md).  
 
-         For information about how to create an inbound rule, see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create-an-Inbound-Rule-in-Windows-Firewall-for-the-Port-of-Microsoft-Dynamics-NAV-Web-Client.md).  
-
-    -   If your computer is running Windows Server 2012, then an inbound rule is already created and no action is required.  
 
 #### Run [!INCLUDE[navnow](includes/navnow_md.md)] Setup  
 
@@ -123,10 +120,10 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
 -   A [!INCLUDE[nav_web](includes/nav_web_md.md)] button on the **Start** menu.  
 
--   A web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] is installed on IIS. The web server instance includes a virtual directory and application for the [!INCLUDE[nav_web](includes/nav_web_md.md)] that has the alias *DynamicsNav90\\WebClient*.  
+-   A web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] is installed on IIS. The web server instance consists of a website, called '[!INCLUDE[navnowlong_md](includes/navnowlong_md.md)]', that contains an application that has the name (alias) '[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]'.  
 
     > [!NOTE]  
-    >  The *DynamicsNAV90* alias matches the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that was also created.  
+    >  The *[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]* alias matches the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that was also created.  
 
 #### Open the [!INCLUDE[nav_web](includes/nav_web_md.md)]  
 
@@ -135,7 +132,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 -   To open the [!INCLUDE[nav_web](includes/nav_web_md.md)] from other devices on the network, open an Internet browser, and type the following URL in the address box:  
 
     ```  
-    http://ComputerName:PortNumber/nav_server_instance/WebClient  
+    http://ComputerName:PortNumber/nav_server_instance/  
     ```  
 
     -   Substitute **ComputerName** with the name of the computer where you installed [!INCLUDE[navnow](includes/navnow_md.md)]. If you are working on the computer where you installed [!INCLUDE[navnow](includes/navnow_md.md)], then you can use **localhost**.  
@@ -145,7 +142,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
          For example, if the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on port 8080, then you can use the following URL:  
 
         ```  
-        http://NavWeb:8080/DynamicsNAV/WebClient  
+        http://NavWeb:8080/DynamicsNAV110  
         ```  
 
      For a list of supported devices and browsers, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  

@@ -16,9 +16,9 @@ This topic describes how to install and configure Internet Information Service \
   
  IIS must have the following features enabled:  
   
--   NET Extensibility 4.5 \(on Windows 8, Windows 8.1, and Windows Server 2012\), .NET Extensibility 4.6 \(on Windows 10\)  
+-   NET Extensibility 4.5, .NET Extensibility 4.6, or .NET Extensibility 4.6 \(depending on Windows version\)  
   
--   ASP.NET 4.5 \(on Windows 8, Windows 8.1, and Windows Server 2012\), or ASP.NET 4.6 \(on Windows 10\)  
+-   ASP.NET 4.5, ASP.NET 4.6, or ASP.NET 4.7 \(depending on Windows version\)  
   
 -   ISAPI Extensions  
   
@@ -36,9 +36,9 @@ This topic describes how to install and configure Internet Information Service \
   
 -   [Installing IIS Features on Windows 8, Windows 8.1, and Windows 10](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md#Win8)  
   
--   [Installing IIS Features on Windows Server 2012](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md#WS2012)  
+-   [Installing IIS Features on Windows Server](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md#WS2012)  
   
-> [!NOTE]  
+> [!TIP]  
 >  Instead of manually installing IIS, you can use the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard to install and enable the IIS features. For more information, see [Using Microsoft Dynamics NAV Setup to Install IIS Features](Using-Microsoft-Dynamics-NAV-Setup-to-Install-IIS-Features.md).  
   
 #### To install IIS features on Windows 8, Windows 8.1, and Windows 10  
@@ -49,9 +49,9 @@ This topic describes how to install and configure Internet Information Service \
   
      The **Windows features** dialog box appears.  
   
-3.  Expand the root-level item **.NET Framework 4.5 Advanced Services** \(for Windows 8\) or **.NET Framework 4.6 Advanced Services** \(for Windows 10\), and then do the following:  
+3.  Expand the root-level item **.NET Framework 4.5 Advanced Services**, **.NET Framework 4.6 Advanced Services**, or **.NET Framework 4.7 Advanced Services**, and then do the following:  
   
-    -   Select **ASP.NET 4.5** \(for Windows 8\) or **ASP.NET 4.6** \(for Windows 10\).  
+    -   Select **ASP.NET 4.5**, **ASP.NET 4.6**, or **ASP.NET 4.7**.  
   
     -   Expand **WCF Services**, and then select **HTTP Activation**.  
   
@@ -66,11 +66,11 @@ This topic describes how to install and configure Internet Information Service \
   
         -   **.NET Extensibility 3.5** \(if .NET Framework 3.5 is installed\)  
   
-        -   **.NET Extensibility 4.5** \(for Windows 8\) or **.NET Extensibility 4.6** \(for Windows 10\)  
+        -   **.NET Extensibility 4.5**, **.NET Extensibility 4.6**, or  **.NET Extensibility 4.7** \(for Windows 10\)  
   
         -   **ASP.NET 3.5** \(if .NET Framework 3.5 is installed\)  
   
-        -   **ASP.NET 4.5** \(for Windows 8\) or **ASP.NET 4.6** \(for Windows 10\)  
+        -   **ASP.NET 4.5**, **ASP.NET 4.6**, or **ASP.NET 4.7**  
   
         -   **ISAPI Extensions**  
   
@@ -94,10 +94,10 @@ This topic describes how to install and configure Internet Information Service \
   
      The default web site opens and should display an IIS 8 image.  
   
-##  <a name="WS2012"></a> Installing IIS Features on Windows Server 2012  
- The following procedure describes how to install IIS and the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)] on Windows Server 2012.  
+##  <a name="WS2012"></a> Installing IIS Features on Windows Server  
+ The following procedure describes how to install IIS and the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)] on Windows Server 2012, 2014, and 2016.  
   
-#### To install IIS features on Windows Server 2012  
+#### To install IIS features on Windows Server   
   
 1.  On the **Start** page, choose **Server Manager**.  
   
@@ -116,21 +116,23 @@ This topic describes how to install and configure Internet Information Service \
     > [!NOTE]  
     >  If you do not want to install the IIS Management Console, clear the **Include management tools** check box, and then choose the **Continue** button.  
   
-8.  On the **Select features** page, expand **.NET Framework 4.5**, and then select **ASP.NET 4.5**.  
+8.  On the **Select features** page, expand **.NET Framework N.NN**, and then select **ASP.NET N.NN**. 
+
+    **N.NN** indicates the version number, which will vary between 4.50, 4.60, and 4.70 depending on the Windows Server version.
   
 9. Expand **WCF Services**, and then select **HTTP Activation**.  
   
-10. In the **Add features that are required for ASP.NET 4.5?** dialog box, choose the **Add Features** button.  
+10. In the **Add features that are required for ASP.NET N.NN?** dialog box, choose the **Add Features** button.  
   
      The following additional features are added.  
   
-    -   ASP.NET 4.5  
+    -   ASP.NET 4.50, 4.60, or 4.70  
   
     -   ISAPI Extensions  
   
     -   ISAPI Filters  
   
-    -   .NET Extensibility 4.5  
+    -   .NET Extensibility 4.5, 4.60, or 4.70 
   
 11. If .NET Framework 3.5 is installed, then do the following:  
   
@@ -166,11 +168,11 @@ This topic describes how to install and configure Internet Information Service \
   
         -   **.NET Extensibility 3.5** \(if .NET Framework 3.5 is installed\)  
   
-        -   **.NET Extensibility 4.5**  
+        -   **.NET Extensibility 4.5, 4.60, or 4.70**  
   
         -   **ASP.NET 3.5** \(if .NET Framework 3.5 is installed\)  
   
-        -   **ASP.NET 4.5**  
+        -   **ASP.NET 4.5, 4.60, or 4.70**  
   
         -   **ISAPI Extensions**  
   
@@ -191,7 +193,7 @@ This topic describes how to install and configure Internet Information Service \
   
 18. To verify that the web server has been installed correctly, start your browser, and then type **http://localhost** in the address.  
   
-     The default website opens and should display an IIS 8 image.  
+     The default website opens and should display an IIS image.  
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
