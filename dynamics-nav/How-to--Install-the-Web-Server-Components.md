@@ -25,7 +25,7 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
 -   Verify that the system requirements are met on the computer that you want to install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. For more information, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
 
--   Install Internet Information Services 7.5 at a minimum.  
+-   Install Internet Information Services.  
 
      Make sure that the required features are enabled. For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md)  
 
@@ -60,7 +60,7 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
 4.  To accept the license terms, choose **I accept**.  
 
-5.  On the **Microsoft Dynamics NAV Setup** page, choose **Choose an installation option**.  
+5.  On the **[!INCLUDE[navnow](includes/navnow_md.md)] Setup** page, choose **Choose an installation option**.  
 
 6.  On the **Choose an Installation Option** page, choose **Custom**.  
 
@@ -95,9 +95,9 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
 14. When Setup is complete, choose the **Close** button.  
 
- A website called [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client is added on the IIS. The website includes a web application that has the name WebClient. The physical path of the web application is C:\\inetpub\\wwwroot\\DynamicsNav100\\WebClient.  
+ A website called '[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client' is added on the IIS. The website includes a web application that has the name [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)], which corresponds to the name of the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance used. The physical path of the web application is: `C:\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)`.  
 
- The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] are also installed in the %systemroot%\\Program Files\\Microsoft Dynamics NAV\\100\\Web Client folder of the computer.  
+ The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] are also installed in the %systemroot%\\Program Files\\Microsoft Dynamics NAV\\110\\Web Client folder of the computer.  
 
  For more information about the [!INCLUDE[nav_web](includes/nav_web_md.md)] installation on IIS, see [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md).  
 

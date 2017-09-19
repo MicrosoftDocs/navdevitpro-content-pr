@@ -120,7 +120,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
 -   A [!INCLUDE[nav_web](includes/nav_web_md.md)] button on the **Start** menu.  
 
--   A web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] is installed on IIS. The web server instance consists of a website, called '[!INCLUDE[navnowlong_md](includes/navnowlong_md.md)]', that contains an application that has the name (alias) '[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]'.  
+-   A web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] is installed on IIS. The web server instance consists of a web site that has the name '[!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Web Client'. The web site contains an application that has the name (and alias) '[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]'.  
 
     > [!NOTE]  
     >  The *[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]* alias matches the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that was also created.  
@@ -139,13 +139,9 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
     -   Substitute **PortNumber** with the port that you configured for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] during Setup.  
 
-         For example, if the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on port 8080, then you can use the following URL:  
+        For example, if the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on port 8080, then you can use the following URL: `http://NavWeb:8080/DynamicsNAV110`. 
 
-        ```  
-        http://NavWeb:8080/DynamicsNAV110  
-        ```  
-
-     For a list of supported devices and browsers, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
+        For a list of supported devices and browsers, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
 
 > [!NOTE]  
 >  If you get an error and the [!INCLUDE[nav_web](includes/nav_web_md.md)] does not open, then see [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md) to try to resolve the problem.  
