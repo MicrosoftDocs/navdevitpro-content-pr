@@ -12,7 +12,7 @@ ms.assetid: 111991f8-4bd9-4596-b1bd-efd877353774
 caps.latest.revision: 29
 ---
 # Deploying the Microsoft Dynamics NAV Web Server Components in a Demonstration Environment
-In this scenario, you install the major components of the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] on a single computer. The scenario enables you to install [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_phonet](includes/nav_phone_md.md)], and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] in an environment where you can test its features and behavior, compare it to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], and start developing your own applications. The installation requires minimal hardware resources, preparation, and configuration.  
+In this scenario, you install the major components of the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] on a single computer. The scenario enables you to install [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_phone](includes/nav_phone_md.md)], and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] in an environment where you can test its features and behavior, compare it to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], and start developing your own applications. The installation requires minimal hardware resources, preparation, and configuration.  
 
 > [!NOTE]  
 >  [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is not required to run the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_phonet](includes/nav_phone_md.md)], and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]]. In this scenario, [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is installed for demonstration only.  
@@ -120,10 +120,10 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
 -   A [!INCLUDE[nav_web](includes/nav_web_md.md)] button on the **Start** menu.  
 
--   A web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] is installed on IIS. The web server instance consists of a web site that has the name '[!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Web Client'. The web site contains an application that has the name (and alias) '[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]'.  
+-   A web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] is installed on IIS. The web server instance consists of a web site that has the name **[!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Web Client**. The web site contains an application that has the name (and alias) **[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]**.  
 
     > [!NOTE]  
-    >  The *[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]* alias matches the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that was also created.  
+    >  The **[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]** alias matches the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that was also created.  
 
 #### Open the [!INCLUDE[nav_web](includes/nav_web_md.md)]  
 

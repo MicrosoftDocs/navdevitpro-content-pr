@@ -95,7 +95,7 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
 14. When Setup is complete, choose the **Close** button.  
 
- A website called '[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client' is added on the IIS. The website includes a web application that has the name [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)], which corresponds to the name of the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance used. The physical path of the web application is: `C:\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)`.  
+ A website called **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client** is added on the IIS. The website includes a web application that has the name **[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]**, which corresponds to the name of the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance used. The physical path of the web application is: *C:\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)*.  
 
  The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] are also installed in the %systemroot%\\Program Files\\Microsoft Dynamics NAV\\110\\Web Client folder of the computer.  
 
@@ -107,15 +107,11 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
     -   Choose **Start**, in the **Search** box, type **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client**, and then choose the related link  
 
-    -   Open a web browser, and then in the address box, type **http://localhost:port/DynamicsNAV100/WebClient**. Replace port with the TCP port number that you chose during Setup.  
+    -   Open a web browser, and then in the address box, type **http://localhost:port/[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]**. Replace port with the TCP port number that you chose during Setup.  
 
      For more information, see [How to: Open the Microsoft Dynamics NAV Web Client](How-to--Open-the-Microsoft-Dynamics-NAV-Web-Client.md). If you get an error when trying to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md) for information about resolving the problem.  
 
 #### Next Steps  
-
--   If [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] was installed on Windows 7, create an inbound rule in the Windows Firewall to allow communication on the TCP port that you chose during Setup.  
-
-     For more information, see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create-an-Inbound-Rule-in-Windows-Firewall-for-the-Port-of-Microsoft-Dynamics-NAV-Web-Client.md).  
 
 -   If the [!INCLUDE[nav_web](includes/nav_web_md.md)] is installed on a different computer than [!INCLUDE[nav_server](includes/nav_server_md.md)], set up delegation on [!INCLUDE[nav_server](includes/nav_server_md.md)] from the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 
