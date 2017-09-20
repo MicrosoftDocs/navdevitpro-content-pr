@@ -1,15 +1,13 @@
 ---
-title: "Troubleshooting HTTP Error 500.21 Internal Server Error Handler "aspNetCore" has a bad module "AspNetCoreModule" in its module list"
+title: "Troubleshooting HTTP Error 500.21 Internal Server Error Handler aspNetCore has a bad module AspNetCoreModule in its module list"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 09/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: b306d263-4c44-4d22-81b8-a3b15070f29a
-caps.latest.revision: 14
-manager: edupont
+author: jswymer
 ---
 # Troubleshooting: HTTP Error 500.21 - Internal Server Error Handler "aspNetCore" has a bad module "AspNetCoreModule" in its module list
 When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get the following error:  
