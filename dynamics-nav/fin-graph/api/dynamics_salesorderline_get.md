@@ -1,6 +1,6 @@
 ---
-title: GET Purchase Invoice Line method | Microsoft Docs
-description: Gets a purchase invoice line.
+title: GET salesOrderLines method | Microsoft Docs
+description: Gets a sales order line.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,27 +14,27 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get purchaseInvoiceLines
-Retrieve the properties and relationships of a purchase invoice line object for Dynamics 365 for Financials.
+# Get salesOrderLines
+Retrieve the properties and relationships of a sales order line object for Dynamics 365 for Financials.
 
 ## Prerequisites
 
 ## HTTP request
 
 ```
-GET /financials/companies/({id})/purchaseInvoices/({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
+GET /financials/companies/({id})/salesOrders/({id})/salesOrderLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
-|Header         |Value                     |
-|---------------|--------------------------|
+|Header|Value|
+|------|-----|
 |Authorization  |Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and purchaseInvoiceLine object in the response body.
+If successful, this method returns a ```200 OK``` response code and salesOrderLine object in the response body.
 
 ## Example
 
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and purchaseInvo
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/purchaseInvoices/({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesOrders/({id})/salesOrderLines(documentId=({id}),sequence=({number}))
 ```
 
 **Response**
@@ -60,18 +60,20 @@ Here is an example of the response.
   "accountId": "id-value",
   "lineType": "Item",
   "lineDetails": {
-    "number": "GL000009",
-    "displayName": "GL000009"
+    "number": "GL000091",
+    "displayName": "GL000091",
+    "description": null
   },
-  "description": "someText",
+  "description": "GL00000091",
+  "unitOfMeasureId": "id-value",
   "unitOfMeasure": {
     "code": "BOX",
     "displayName": "Box",
     "symbol": null,
     "unitConversion": null
   },
-  "unitCost": 71.1,
   "quantity": 96,
+  "unitPrice": 71.1,
   "discountAmount": 0,
   "discountPercent": 0,
   "discountAppliedBeforeTax": false,
@@ -84,7 +86,11 @@ Here is an example of the response.
   "netAmount": 6825.6,
   "netTaxAmount": 682.56,
   "netAmountIncludingTax": 7508.16,
-  "expectedReceiptDate": "2015-02-24"
+  "shipmentDate": "2019-01-24",
+  "shippedQuantity": 0,
+  "invoicedQuantity": 0,
+  "invoiceQuantity": 96,
+  "shipQuantity": 96
 }
 ```
 

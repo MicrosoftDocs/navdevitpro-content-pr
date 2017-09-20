@@ -1,5 +1,5 @@
 ---
-title: GET salesCreditMemoLine method | Microsoft Docs
+title: GET salesCreditMemoLines method | Microsoft Docs
 description: Gets a sales credit memo line.
 services: project-madeira
 documentationcenter: ''

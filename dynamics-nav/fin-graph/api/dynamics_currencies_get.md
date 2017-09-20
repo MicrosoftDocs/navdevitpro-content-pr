@@ -1,6 +1,6 @@
 ---
-title: GET journal method | Microsoft Docs
-description: Gets a journal.
+title: GET currency method | Microsoft Docs
+description: Gets a currency.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get journal
-Retrieve the properties and relationships of a journal object for Dynamics 365 for Financials.
+# Get currency
+Retrieve the properties and relationships of a currencies object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-GET /financials/companies/({id})/journals/({id})
+GET /financials/companies/({id})/currencies/({id})
 ```
 
 ## Request headers
@@ -32,15 +32,16 @@ GET /financials/companies/({id})/journals/({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and journal object in the response body.
+If successful, this method returns a ```200 OK``` response code and currencies object in the response body.
 
 ## Example
 
 **Request**
 
 Here is an example of the request.
+
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/journals/({id})
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/currencies/({id})
 ```
 
 **Response**
@@ -53,11 +54,15 @@ Here is an example of the response.
 ```json
 {
   "id": "id-value",
-  "code": "DEFAULT",
-  "displayName": "Default Journal Batch",
-  "lastModifiedDateTime": "2017-05-17T11:30:01.313Z"
+  "code": "US",
+  "displayName": "US Dollar",
+  "symbol": "$",
+  "amountDecimalPlaces": "2:2",
+  "amountRoundingPrecision": 0.01,
+  "lastModifiedDateTime": "2017-03-22T21:05:09.003Z"
 }
 ```
 
+
 ## See also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

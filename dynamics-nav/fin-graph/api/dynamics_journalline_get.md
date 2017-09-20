@@ -1,5 +1,5 @@
 ---
-title: GET journalLine method | Microsoft Docs
+title: GET journalLines method | Microsoft Docs
 description: Gets a journal line.
 services: project-madeira
 documentationcenter: ''

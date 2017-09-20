@@ -1,5 +1,5 @@
 ---
-title: GET item method | Microsoft Docs
+title: GET items method | Microsoft Docs
 description: Gets an item.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get item
+# Get items
 Retrieve the properties and relationships of an item object for Dynamics 365 for Financials.
 
 

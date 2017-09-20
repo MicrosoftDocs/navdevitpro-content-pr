@@ -1,6 +1,6 @@
 ---
-title: GET salesInvoice method | Microsoft Docs
-description: Gets a sales invoice.
+title: GET purchaseInvoices method | Microsoft Docs
+description: Gets a purchase invoice.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get salesInvoice
-Retrieve the properties and relationships of a sales object for Dynamics 365 for Financials.
+# Get purchaseInvoices
+Retrieve the properties and relationships of a purchase object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-GET /financials/companies/({id})/salesInvoices/({id})
+GET /financials/companies/({id})/purchaseInvoices/({id})
 ```
 
 ## Request headers
@@ -32,7 +32,7 @@ GET /financials/companies/({id})/salesInvoices/({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and salesInvoice object in the response body.
+If successful, this method returns a ```200 OK``` response code and purchaseInvoice object in the response body.
 
 ## Example
 
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and salesInvoice
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesInvoices/({id})
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/purchaseInvoices/({id})
 ```
 
 **Response**
@@ -56,27 +56,20 @@ Here is an example of the response.
   "number": "1009",
   "invoiceDate": "2015-12-31",
   "dueDate": "2016-01-31",
-  "customerPurchaseOrderReference": "",
-  "customerId": "customerId-value",
-  "contactId": "",
-  "customerNumber": "GL00000008",
-  "customerName": "GL00000008",
-  "billingPostalAddress": {
+  "vendorInvoiceNumber": "",
+  "vendorId": "vendorId-value",
+  "vendorNumber": "GL00000008",
+  "vendorName": "GL00000008",
+  "buyFromAddress": {
     "street": "",
     "city": "",
     "state": "",
     "countryLetterCode": "",
     "postalCode": ""
   },
-  "currencyId": "currencyId-value",
   "currencyCode": "GBP",
-  "orderId": "id-value",
-  "orderNumber": "",
-  "paymentTermsId": "paymentTermsId-value",
   "paymentTerms": "COD",
-  "shipmentMethodId": "shipmentMethodId-value",
   "shipmentMethod": "",
-  "salesperson": "",
   "pricesIncludeTax": false,
   "discountAmount": 0,
   "discountAppliedBeforeTax": true,

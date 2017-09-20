@@ -1,6 +1,6 @@
 ---
-title: GET Purchase Invoice method | Microsoft Docs
-description: Gets a purchase invoice.
+title: GET salesOrders method | Microsoft Docs
+description: Gets a sales order.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,25 +14,25 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get purchaseInvoices
-Retrieve the properties and relationships of a purchase object for Dynamics 365 for Financials.
+# Get salesOrders
+Retrieve the properties and relationships of a sales object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-GET /financials/companies/({id})/purchaseInvoices/({id})
+GET /financials/companies/({id})/salesOrders/({id})
 ```
 
 ## Request headers
-|Header         |Value                     |
-|---------------|--------------------------|
+|Header|Value|
+|------|-----|
 |Authorization  |Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and purchaseInvoice object in the response body.
+If successful, this method returns a ```200 OK``` response code and salesOrder object in the response body.
 
 ## Example
 
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and purchaseInvo
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/purchaseInvoices/({id})
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesOrders/({id})
 ```
 
 **Response**
@@ -53,29 +53,33 @@ Here is an example of the response.
 ```json
 {
   "id": "id-value",
-  "number": "1009",
-  "invoiceDate": "2015-12-31",
-  "dueDate": "2016-01-31",
-  "vendorInvoiceNumber": "",
-  "vendorId": "vendorId-value",
-  "vendorNumber": "GL00000008",
-  "vendorName": "GL00000008",
-  "buyFromAddress": {
+  "number": "1006",
+  "orderDate": "2019-01-24",
+  "customerId": "customerId-value",
+  "contactId": "",
+  "customerNumber": "GL000090",
+  "customerName": "GL000090",
+  "billingPostalAddress": {
     "street": "",
     "city": "",
     "state": "",
     "countryLetterCode": "",
     "postalCode": ""
   },
+  "currencyId": "id-value",
   "currencyCode": "GBP",
-  "paymentTerms": "COD",
-  "shipmentMethod": "",
   "pricesIncludeTax": false,
+  "paymentTermsId": "id-value",
+  "paymentTerms": "COD",
+  "salesperson": "",
+  "partialShipping": true,
+  "requestedDeliveryDate": "2015-06-01",
   "discountAmount": 0,
   "discountAppliedBeforeTax": true,
   "totalAmountExcludingTax": 6825.6,
   "totalTaxAmount": 682.56,
   "totalAmountIncludingTax": 7508.16,
+  "fullyShipped": true,
   "status": "Draft",
   "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }

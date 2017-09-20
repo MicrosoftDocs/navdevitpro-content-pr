@@ -1,6 +1,6 @@
 ---
-title: GET salesCreditMemo method | Microsoft Docs
-description: Gets a sales credit memo.
+title: GET salesInvoices method | Microsoft Docs
+description: Gets a sales invoice.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,25 +14,25 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get salesCreditMemos
+# Get salesInvoices
 Retrieve the properties and relationships of a sales object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-GET /financials/companies/({id})/salesCreditMemos/({id})
+GET /financials/companies/({id})/salesInvoices/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and salesCreditMemo object in the response body.
+If successful, this method returns a ```200 OK``` response code and salesInvoice object in the response body.
 
 ## Example
 
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and salesCreditM
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesCreditMemos/({id})
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesInvoices/({id})
 ```
 
 **Response**
@@ -54,8 +54,9 @@ Here is an example of the response.
 {
   "id": "id-value",
   "number": "1009",
-  "creditMemoDate": "2015-12-31",
+  "invoiceDate": "2015-12-31",
   "dueDate": "2016-01-31",
+  "customerPurchaseOrderReference": "",
   "customerId": "customerId-value",
   "contactId": "",
   "customerNumber": "GL00000008",
@@ -69,8 +70,12 @@ Here is an example of the response.
   },
   "currencyId": "currencyId-value",
   "currencyCode": "GBP",
+  "orderId": "id-value",
+  "orderNumber": "",
   "paymentTermsId": "paymentTermsId-value",
   "paymentTerms": "COD",
+  "shipmentMethodId": "shipmentMethodId-value",
+  "shipmentMethod": "",
   "salesperson": "",
   "pricesIncludeTax": false,
   "discountAmount": 0,
@@ -79,9 +84,7 @@ Here is an example of the response.
   "totalTaxAmount": 682.56,
   "totalAmountIncludingTax": 7508.16,
   "status": "Draft",
-  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z",
-  "invoiceId": "invoiceid-value",
-  "invoiceNumber": "100009"
+  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```
 

@@ -1,6 +1,6 @@
 ---
-title: GET vendor method | Microsoft Docs
-description: Gets a vendor.
+title: GET customer method | Microsoft Docs
+description: Get a customer.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,14 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get vendor
-Retrieve the properties and relationships of a vendor object for Dynamics 365 for Financials.
-
+# Get customer
+Retrieve the properties and relationships of a customer object for Dynamics 365 for Financials.
 
 ## HTTP request
-
 ```
-GET /financials/companies/({id})/vendors/({id})
+GET /financials/companies/({id})/customers/({id})
 ```
 
 ## Request headers
@@ -33,15 +31,14 @@ GET /financials/companies/({id})/vendors/({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and vendors object in the response body.
-
-## Example
+If successful, this method returns a ```200 OK``` response code and customers object in the response body.
 
 **Request**
 
 Here is an example of the request.
+
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/vendors/({id})
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customers/({id})
 ```
 
 **Response**
@@ -54,39 +51,44 @@ Here is an example of the response.
 ```json
 {
   "id": "id-value",
-  "number": "40000",
-  "displayName": "Wide World Importers",
+  "number": "10000",
+  "displayName": "Coho Winery",
+  "type": "Company",
   "address": {
-    "street": "51 Radcroft Road",
+    "street": "192 Market Square",
     "city": "Atlanta",
     "state": "GA",
     "countryLetterCode": "US",
     "postalCode": "31772"
   },
   "phoneNumber": "",
-  "email": "toby.rhode@cronuscorp.net",
+  "email": "jim.glynn@cronuscorp.net",
   "website": "",
-  "taxRegistrationNumber": "",
-  "currencyId": "id-value",
+  "taxLiable": true,
+  "taxAreaId": "taxAreaId-value",
+  "taxAreaDisplayName": "tax area",
+  "taxRegistrationNumber": "28012001T",
+  "currencyId": "currencyId-value",
   "currencyCode": "USD",
-  "irs1099Code": "",
-  "paymentTermsId": "id-value",
+  "paymentTermsId": "paymentTermsId-value",
   "paymentTerms": {
-    "code": "CM",
-    "description": "Current Month"
+    "code": "1M(8D)",
+    "description": "1 Month/2% 8 days"
   },
-  "paymentMethodId": "id-value",
+  "shipmentMethodId": "shipmentMethodId-value",
+  "shipmentMethod": null,
+  "paymentMethodId": "paymentMethodId-value",
   "paymentMethod": {
     "code": "BANK",
     "description": "Bank Transfer"
   },
-  "taxLiable": true,
   "blocked": " ",
   "balance": 0,
-  "lastModifiedDateTime": "2017-03-07T00:35:29.667Z"
+  "overdueAmount": 0,
+  "totalSalesExcludingTax": 0,
+  "lastModifiedDateTime": "2017-03-07T00:35:28.983Z"
 }
 ```
-
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
