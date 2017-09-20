@@ -19,13 +19,13 @@ When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get 
 
   
 ## Resolution  
-This error can occur if the AspNetCoreModule is not installed properly in IIS on the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. The AspNetCoreModule is installed with Microsoft .NET Core - Windows Server Hosting package or Microsoft .NET Core SDK. You only need one of these programs. You can get this error if neither of these programs has been fully installed or the installation has been damaged. 
+This error can occur if the AspNetCoreModule is not installed properly in IIS on the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. The AspNetCoreModule is installed with the Microsoft .NET Core Windows Server Hosting bundle. You can get this error if this has been not been fully installed or the installation has been damaged in some way. 
 
-To resolve this issue, check the installed programs on the computer, and try the following:
+To resolve this issue, open **Programs and Features** in Control Panel and check whether Microsoft .NET Core Windows Server Hosting is installed. Then, try one of the following:
 
--   If neither Microsoft .NET Core - Windows Server Hosting nor Microsoft .NET Core SDK is not installed, download and install one of the from [Microsoft .NET Core - Windows Server Hosting package](http://go.microsoft.com/fwlink/?LinkId=798480) or [Download .NET Core](https://www.microsoft.com/net/download/core).
+-   If it is not installed, download and install it from [Microsoft .NET Core - Windows Server Hosting package](https://aka.ms/dotnetcore.2.0.0-windowshosting).
 
--   If either Microsoft .NET Core - Windows Server Hosting or Microsoft .NET Core SDK is installed, repair them. In Control Panel, open **Programs and Features**, select the program, select **Change**, and then select **Repair**.
+-   If it is installed, repair it from **Programs and Features**, by selecting it, choosing **Change**, and then choosing **Repair**.
 
   
 ## See Also  
