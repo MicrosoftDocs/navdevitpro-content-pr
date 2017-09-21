@@ -1,6 +1,6 @@
 ---
-title: PATCH salesCreditMemo method | Microsoft Docs
-description: Patches a sales credit memo.
+title: PATCH salesInvoices method | Microsoft Docs
+description: Patches a sales invoice.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,27 +14,27 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update salesCreditMemos
-Update the properties of a sales credit memo object for Dynamics 365 for Financials.
+# Update salesInvoices
+Update the properties of a sales invoices object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/salesCreditMemos/({id})
+PATCH /financials/companies/({id})/salesInvoices/({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header        |Value                    |
+|--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|
-|Content-Type  |application/json|
-|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the salesCreditMemo, the salesCreditMemo will not be updated. |
+|Content-Type  |application/json         |
+|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the salesInvoice, the salesInvoice will not be updated. |
 
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an updated sales credit memo object in the response body.
+If successful, this method returns a ```200 OK``` response code and an updated salesInvoices object in the response body.
 
 ## Example
 
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated s
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesCreditMemos({id})
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesInvoices({id})
 Content-type: application/json
 
 {
@@ -64,8 +64,9 @@ Content-type: application/json
 {
   "id": "id-value",
   "number": "1009",
-  "creditMemoDate": "2015-12-31",
+  "invoiceDate": "2015-12-31",
   "dueDate": "2016-01-31",
+  "customerPurchaseOrderReference": "",
   "customerId": "customerId-value",
   "contactId": "",
   "customerNumber": "GL00000008",
@@ -77,10 +78,12 @@ Content-type: application/json
     "countryLetterCode": "",
     "postalCode": ""
   },
-  "currencyId" : "currencyId-value",
   "currencyCode": "GBP",
-  "paymentTermsId" : "paymentTermsId-value"
+  "orderId": "id-value",
+  "orderNumber": "",
   "paymentTerms": "COD",
+  "shipmentMethod": "",
+  "salesperson": "",
   "pricesIncludeTax": false,
   "discountAmount": 0,
   "discountAppliedBeforeTax": true,
@@ -88,9 +91,7 @@ Content-type: application/json
   "totalTaxAmount": 682.56,
   "totalAmountIncludingTax": 7508.16,
   "status": "Draft",
-  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z",
-  "invoiceId": "invoiceid-value",
-  "invoiceNumber": "100009"
+  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```
 

@@ -1,5 +1,5 @@
 ---
-title: PATCH salesOrder method | Microsoft Docs
+title: PATCH salesOrders method | Microsoft Docs
 description: Patches a sales order.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update salesOrder
+# Update salesOrders
 Update the properties of a sales orders object for Dynamics 365 for Financials.
 
 ## HTTP request

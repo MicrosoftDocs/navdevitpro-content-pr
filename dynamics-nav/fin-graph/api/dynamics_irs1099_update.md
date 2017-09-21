@@ -1,6 +1,6 @@
 ---
-title: UPDATE paymentMethod method | Microsoft Docs
-description: Updates a payment method.
+title: UPDATE IRS1099Codes method | Microsoft Docs
+description: Updates a IRS 1099 Code.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,26 +14,26 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update paymentMethods
-Update the properties of a payment methods object for Dynamics 365 for Financials.
+# Update IRS1099Codes
+Update the properties of an IRS 1099 codes object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-PATCH /financials/companies/({id})/paymentMethods/({id})
+PATCH /financials/companies/({id})/irs1099Codes/({id})
 ```
 
 ## Request headers
-|Header        |Value                     |
-|--------------|--------------------------|
-|Authorization |Bearer {token}. Required. |
-|Content-Type  |application/json          |
-|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the paymentMethods, the paymentMethods will not be updated. |
+|Header       |Value                    |
+|-------------|-------------------------|
+|Authorization|Bearer {token}. Required.|
+|Content-Type |application/json         |
+|If-Match     |Required. When this request header is included and the eTag provided does not match the current tag on the irs1099Codes, the irs1099Codes will not be updated. |
 
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an updated paymentMethods object in the response body.
+If successful, this method returns a ```200 OK``` response code and an updated irs1099Codes object in the response body.
 
 ## Example
 
@@ -41,11 +41,11 @@ If successful, this method returns a ```200 OK``` response code and an updated p
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentMethods({id})
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/irs1099Codes({id})
 Content-type: application/json
 
 {
-  "displayName": "Personal Check Payment",
+  "minimumReportable": 250
 }
 ```
 
@@ -62,9 +62,10 @@ Content-type: application/json
 
 {
   "id": "id-value",
-  "code": "CHECK",
-  "displayName": "Personal Check Payment",
-  "lastModifiedDateTime": "2017-03-22T08:35:48.33Z"
+  "code": "R-10",
+  "displayName": "State income tax withheld",
+  "minimumReportable": 250,
+  "lastModifiedDateTime": "0001-01-01T00:00:00Z"
 }
 ```
 

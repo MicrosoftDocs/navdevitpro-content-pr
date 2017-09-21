@@ -1,5 +1,5 @@
 ---
-title: UPDATE employee method | Microsoft Docs
+title: UPDATE employees method | Microsoft Docs
 description: Updates an employee.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update employee
+# Update employees
 Update the properties of an employee object for Dynamics 365 for Financials.
 
 

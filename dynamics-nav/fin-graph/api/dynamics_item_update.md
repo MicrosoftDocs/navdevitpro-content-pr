@@ -1,5 +1,5 @@
 ---
-title: UPDATE item method | Microsoft Docs
+title: UPDATE items method | Microsoft Docs
 description: Updates an item.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update item
+# Update items
 Update the properties of an item object for Dynamics 365 for Financials.
 
 ## HTTP request

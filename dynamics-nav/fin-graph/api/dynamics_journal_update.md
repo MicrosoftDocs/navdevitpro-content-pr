@@ -1,5 +1,5 @@
 ---
-title: UPDATE journal method | Microsoft Docs
+title: UPDATE journals method | Microsoft Docs
 description: Updates a journal.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update journal
+# Update journals
 Update the properties of a journal object for Dynamics 365 for Financials.
 
 ## HTTP request

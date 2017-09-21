@@ -1,5 +1,5 @@
 ---
-title: UPDATE customer method | Microsoft Docs
+title: UPDATE customers method | Microsoft Docs
 description: Updates a customer.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update customer
+# Update customers
 Update the properties of a customers object for Dynamics 365 for Financials.
 
 

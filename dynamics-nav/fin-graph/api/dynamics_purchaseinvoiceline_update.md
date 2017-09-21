@@ -1,6 +1,6 @@
 ---
-title: PATCH salesOrderLine method | Microsoft Docs
-description: Gets a sales order line.
+title: PATCH purchaseInvoiceLines method | Microsoft Docs
+description: Gets a purchase invoice line.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,27 +14,27 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update salesOrderLines
-Update the properties of a sales order line object for Dynamics 365 for Financials.
+# Update purchaseInvoiceLines
+Update the properties of a purchase invoice line object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/salesOrders/({id})/salesOrderLines(documentId={id},sequence={number})
+PATCH /financials/companies/({id})/purchaseInvoices/({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
+|Header        |Value                    |
+|--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|
-|Content-Type  |application/json|
-|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the salesOrderLine, the salesOrderLine will not be updated. |
+|Content-Type  |application/json         |
+|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the purchaseInvoiceLine, the purchaseInvoiceLine will not be updated. |
 
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an updated salesOrderLine object in the response body.
+If successful, this method returns a ```200 OK``` response code and an updated purchaseInvoiceLine object in the response body.
 
 ## Example
 
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated s
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesOrders{id}/salesOrderLines(documentId={id},sequence={number})
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
 Content-type: application/json
 
 {
@@ -68,9 +68,8 @@ Content-type: application/json
   "accountId": "id-value",
   "lineType": "Item",
   "lineDetails": {
-    "number": "GL000091",
-    "displayName": "GL000091",
-    "description": null
+    "number": "GL000009",
+    "displayName": "GL000009"
   },
   "description": "someText",
   "unitOfMeasure": {
@@ -79,8 +78,8 @@ Content-type: application/json
     "symbol": null,
     "unitConversion": null
   },
+  "unitCost": 71.1,
   "quantity": 96,
-  "unitPrice": 71.1,
   "discountAmount": 0,
   "discountPercent": 0,
   "discountAppliedBeforeTax": false,
@@ -93,11 +92,7 @@ Content-type: application/json
   "netAmount": 6825.6,
   "netTaxAmount": 682.56,
   "netAmountIncludingTax": 7508.16,
-  "shipmentDate": "2019-01-24",
-  "shippedQuantity": 0,
-  "invoicedQuantity": 0,
-  "invoiceQuantity": 96,
-  "shipQuantity": 96
+  "expectedReceiptDate": "2015-02-24"
 }
 ```
 

@@ -1,5 +1,5 @@
 ---
-title: UPDATE vendor method | Microsoft Docs
+title: UPDATE vendors method | Microsoft Docs
 description: Updates a vendor.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update vendor
+# Update vendors
 Update the properties of a vendor object for Dynamics 365 for Financials.
 
 ## HTTP request

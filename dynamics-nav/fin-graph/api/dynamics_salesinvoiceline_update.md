@@ -1,6 +1,6 @@
 ---
-title: PATCH salesQuoteLine method | Microsoft Docs
-description: Gets a sales quote line.
+title: PATCH salesInvoiceLines method | Microsoft Docs
+description: Gets a sales invoice line.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update salesQuoteLines
-Update the properties of a sales quote line object for Dynamics 365 for Financials.
+# Update salesInvoiceLines
+Update the properties of a sales invoice line object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/salesQuotes/({id})/salesQuoteLines(documentId=({id}),sequence=({number}))
+PATCH /financials/companies/({id})/salesInvoices/({id})/salesInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
@@ -28,13 +28,13 @@ PATCH /financials/companies/({id})/salesQuotes/({id})/salesQuoteLines(documentId
 |------|-----|
 |Authorization |Bearer {token}. Required.|
 |Content-Type  |application/json|
-|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the salesQuoteLine, the salesQuoteLine will not be updated. |
+|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the salesInvoiceLine, the salesInvoiceLine will not be updated. |
 
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an updated salesQuoteLine object in the response body.
+If successful, this method returns a ```200 OK``` response code and an updated salesInvoiceLine object in the response body.
 
 ## Example
 
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated s
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesQuotes{id}/salesQuoteLines(documentId=({id}),sequence=({number}))
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesInvoices{id}/salesInvoiceLines(documentId=({id}),sequence={number}))
 Content-type: application/json
 
 {
@@ -68,8 +68,8 @@ Content-type: application/json
   "accountId": "id-value",
   "lineType": "Item",
   "lineDetails": {
-    "number": "1896-S",
-    "displayName": "ATHENS Desk",
+    "number": "GL000009",
+    "displayName": "GL000009",
     "description": null
   },
   "description": "someText",
@@ -79,19 +79,21 @@ Content-type: application/json
     "symbol": null,
     "unitConversion": null
   },
-  "unitPrice": 6165,
-  "quantity": 1,
+  "unitPrice": 71.1,
+  "quantity": 96,
   "discountAmount": 0,
   "discountPercent": 0,
   "discountAppliedBeforeTax": false,
-  "amountExcludingTax": 6165,
+  "amountExcludingTax": 6825.6,
   "taxCode": "VAT10",
   "taxPercent": 10,
-  "totalTaxAmount": 0,
-  "amountIncludingTax": 6165,
-  "netAmount": 6165,
-  "netTaxAmount": 0,
-  "netAmountIncludingTax": 6165
+  "totalTaxAmount": 682.56,
+  "amountIncludingTax": 7508.16,
+  "invoiceDiscountAllocation": 0,
+  "netAmount": 6825.6,
+  "netTaxAmount": 682.56,
+  "netAmountIncludingTax": 7508.16,
+  "shipmentDate": "2015-02-24"
 }
 ```
 

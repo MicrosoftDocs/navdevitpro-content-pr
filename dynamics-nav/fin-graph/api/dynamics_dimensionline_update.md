@@ -1,5 +1,5 @@
 ---
-title: PATCH dimensionLine method | Microsoft Docs
+title: PATCH dimensionLines method | Microsoft Docs
 description: Gets a dimension line.
 services: project-madeira
 documentationcenter: ''

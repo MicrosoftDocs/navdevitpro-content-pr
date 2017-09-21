@@ -1,5 +1,5 @@
 ---
-title: PATCH salesCreditMemoLine method | Microsoft Docs
+title: PATCH salesCreditMemoLines method | Microsoft Docs
 description: Gets a sales credit memo line.
 services: project-madeira
 documentationcenter: ''

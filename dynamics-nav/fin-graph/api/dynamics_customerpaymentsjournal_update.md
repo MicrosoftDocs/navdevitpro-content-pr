@@ -1,6 +1,6 @@
 ---
-title: UPDATE shipmentMethod method | Microsoft Docs
-description: Updates a shipment method.
+title: UPDATE customerPaymentsJournals method | Microsoft Docs
+description: Updates a customer payments journal.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update shipmentMethods
-Update the properties of a shipment methods object for Dynamics 365 for Financials.
+# Update customerPaymentsJournals
+Update the properties of a customer payments journal object for Dynamics 365 for Financials.
 
 ## HTTP request
+
 ```
-PATCH /financials/companies/({id})/shipmentMethods/({id})
+PATCH /financials/companies/({id})/customerPaymentsJournals/({id})
 ```
 
 ## Request headers
@@ -27,25 +28,27 @@ PATCH /financials/companies/({id})/shipmentMethods/({id})
 |------|-----|
 |Authorization |Bearer {token}. Required.|
 |Content-Type  |application/json|
-|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the shipmentMethods, the shipmentMethods will not be updated. |
+|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the customer payments journals, the customer payments journals will not be updated. |
 
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an updated shipmentMethods object in the response body.
+If successful, this method returns a ```200 OK``` response code and an updated customer payments journal object in the response body.
 
 ## Example
 
 **Request**
 
 Here is an example of the request.
+
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/shipmentMethods({id})
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customerPaymentsJournals({id})
 Content-type: application/json
 
 {
-  "displayName": "Pickup at Store Location"
+  "code": "EXPENSE",
+  "displayName": "Expense Batch"
 }
 ```
 
@@ -62,12 +65,11 @@ Content-type: application/json
 
 {
   "id": "id-value",
-  "code": "PICKUP",
-  "displayName": "Pickup at Store Location",
-  "lastModifiedDateTime": "2017-03-15T02:20:57.09Z"
-  }
+  "code": "EXPENSE",
+  "displayName": "Expense Batch",
+  "lastModifiedDateTime": "2017-05-17T11:30:01.313Z"
+}
 ```
 
-
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  

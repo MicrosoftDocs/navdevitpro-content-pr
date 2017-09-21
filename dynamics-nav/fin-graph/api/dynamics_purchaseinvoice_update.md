@@ -1,6 +1,6 @@
 ---
-title: PATCH salesInvoice method | Microsoft Docs
-description: Patches a sales invoice.
+title: PATCH purchaseInvoices method | Microsoft Docs
+description: Patches a purchase invoice.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update salesInvoice
-Update the properties of a sales invoices object for Dynamics 365 for Financials.
+# Update purchaseInvoices
+Update the properties of a purchase invoices object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/salesInvoices/({id})
+PATCH /financials/companies/({id})/purchaseInvoices/({id})
 ```
 
 ## Request headers
@@ -28,13 +28,13 @@ PATCH /financials/companies/({id})/salesInvoices/({id})
 |--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|
 |Content-Type  |application/json         |
-|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the salesInvoice, the salesInvoice will not be updated. |
+|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the purchaseInvoice, the purchaseInvoice will not be updated. |
 
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an updated salesInvoices object in the response body.
+If successful, this method returns a ```200 OK``` response code and an updated purchaseInvoices object in the response body.
 
 ## Example
 
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated s
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesInvoices({id})
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/purchaseInvoices({id})
 Content-type: application/json
 
 {
@@ -66,12 +66,11 @@ Content-type: application/json
   "number": "1009",
   "invoiceDate": "2015-12-31",
   "dueDate": "2016-01-31",
-  "customerPurchaseOrderReference": "",
-  "customerId": "customerId-value",
-  "contactId": "",
-  "customerNumber": "GL00000008",
-  "customerName": "GL00000008",
-  "billingPostalAddress": {
+  "vendorInvoiceNumber": "",
+  "vendorId": "vendorId-value",
+  "vendorNumber": "GL00000008",
+  "vendorName": "GL00000008",
+  "buyFromAddress": {
     "street": "",
     "city": "",
     "state": "",
@@ -79,11 +78,8 @@ Content-type: application/json
     "postalCode": ""
   },
   "currencyCode": "GBP",
-  "orderId": "id-value",
-  "orderNumber": "",
   "paymentTerms": "COD",
   "shipmentMethod": "",
-  "salesperson": "",
   "pricesIncludeTax": false,
   "discountAmount": 0,
   "discountAppliedBeforeTax": true,
