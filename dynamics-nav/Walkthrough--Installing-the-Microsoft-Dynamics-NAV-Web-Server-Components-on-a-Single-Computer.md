@@ -47,7 +47,7 @@ The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] require a supporte
 
 -   A device with a network connection and a supported web browser.  
 
-     For a list of supported browsers, see [System Requirements for [!INCLUDE[nav_web_md](includes/nav_web__md.md)]](System-Requirements-for-Microsoft-Dynamics-NAV.md#WebClient).  
+     For a list of supported browsers, see [System Requirements for [!INCLUDE[nav_web_md](includes/nav_web_md.md)]](System-Requirements-for-Microsoft-Dynamics-NAV.md#WebClient).  
 
 -   Optionally, a domain user account for accessing [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] database on the Microsoft SQL Server. The user account must have the following permissions:  
 
