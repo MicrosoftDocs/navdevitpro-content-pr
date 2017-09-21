@@ -41,9 +41,12 @@ There are two ways to create [!INCLUDE[nav_web_server_instance_md](includes/nav_
 - Setup does not let you choose the site deployment type for the web server instance. By default, it creates a subsite instance.    
 
 ### [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] 
-[!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] includes several PowerShell cmdlets that enable you to create, configure, and remove [nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances from a command line interface.
--   [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] gives you more flexibility regarding the structure of the [nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances on IIS than Setup does.
--   Using [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] does not configure the required IIS prequisites, so unless you have previously installed the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] by using Setup, you will have to configure the prerequisites manually. For more information about the prerequistes, see 
+[!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] includes several PowerShell cmdlets that enable you to create, configure, and remove [nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances from a command line interface. To create a web server instance, you use the [New-NAVWebServerInstance](Microsoft.Dynamics.Nav.Management/new-navwebserverinstance.md) cmldet, which has the follwoing advantages over Setup:
+   
+-   You can create multiple web server intances
+-   You have more flexibility regarding the deployment structure of the [nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances on IIS. For example, you can create a parent instance (rootsite) that can have one or more child instances (subsites).
+
+You should be aware that the [New-NAVWebServerInstance does not install or configure the required IIS prequisites. So unless you have previously installed the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] by using Setup, you will have to configure the prerequisites manually. For more information about the prerequistes, see 
 [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md).    
 
 ## <a name="WebClientonIIS"></a>Site Deployment Types
