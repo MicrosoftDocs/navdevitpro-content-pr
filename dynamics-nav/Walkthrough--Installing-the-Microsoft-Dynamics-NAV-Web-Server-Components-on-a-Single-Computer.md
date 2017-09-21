@@ -1,14 +1,13 @@
 ---
 title: "Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on a Single Computer"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 09/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 4248618b-1606-453c-a849-6af5687a4304
-caps.latest.revision: 25
+author: jswymer
 ---
 # Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on a Single Computer
 In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] in a production environment on one computer.  

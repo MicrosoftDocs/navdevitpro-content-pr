@@ -1,14 +1,13 @@
 ---
 title: "Configuring the Microsoft Dynamics NAV Web Server and Client"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 09/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 1ee96402-932d-466b-b829-b9a7e20fe3a3
-caps.latest.revision: 4
+author: jswymer
 ---
 # Configuring the Microsoft Dynamics NAV Web Server and Client
 When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup to initially deploy the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you provide information that is used as the configuration for the default [!INCLUDE[navnow](includes/navnow_md.md)] web server instance, which is then used by the web, tablet, and phone clients.
@@ -18,7 +17,7 @@ For example, during Setup, you specify the [!INCLUDE[nav_server](includes/nav_se
 ## Configuring the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] After Installation 
 After installation, you can change any of the configuration settings that you provided during Setup and configure additional settings to suit your deployment requirements.
 
-There are different ways to configure the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], depending on what is it is you wan to change:
+There are different ways to configure the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], depending on what is it is you want to change:
 
 1. Modify the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].
 

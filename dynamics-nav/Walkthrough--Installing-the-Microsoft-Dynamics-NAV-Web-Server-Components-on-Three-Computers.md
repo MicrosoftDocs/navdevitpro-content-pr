@@ -2,15 +2,13 @@
 title: "Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers"
 author: jswymer
 ms.custom: na
-ms.date: 10/14/2016
+ms.date: 09/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 48551073-e32c-4184-8abf-6a00d30d60cb
-caps.latest.revision: 52
-manager: edupont04
+author: jswymer
 ---
 # Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers
 In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] in a four tier production environment, with the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and Microsoft SQL Server with [!INCLUDE[navnow](includes/navnow_md.md)] database components on three separate computers as shown in the following illustration.  

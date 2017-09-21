@@ -2,14 +2,13 @@
 title: "Deploying the Microsoft Dynamics NAV Web Server Components in a Demonstration Environment"
 author: edupont04
 ms.custom: na
-ms.date: 10/14/2016
+ms.date: 09/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 111991f8-4bd9-4596-b1bd-efd877353774
-caps.latest.revision: 29
+author: jswymer
 ---
 # Deploying the Microsoft Dynamics NAV Web Server Components in a Demonstration Environment
 In this scenario, you install the major components of the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] on a single computer. The scenario enables you to install [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_phone](includes/nav_phone_md.md)], and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] in an environment where you can test its features and behavior, compare it to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], and start developing your own applications. The installation requires minimal hardware resources, preparation, and configuration.  

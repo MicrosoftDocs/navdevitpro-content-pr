@@ -1,14 +1,13 @@
 ---
 title: "Deploying the Microsoft Dynamics NAV Web Server Components in a Single Computer Environment"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 09/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 587d1c76-f77f-4763-9eaa-291b2d331264
-caps.latest.revision: 27
+author: jswymer
 ---
 # Deploying the Microsoft Dynamics NAV Web Server Components in a Single Computer Environment
 In this scenario, you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and the SQL Server database components on the same computer.  

@@ -1,21 +1,20 @@
 ---
 title: "Deploying the Microsoft Dynamics NAV Web Server Components"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 09/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 9c5a0bb0-66a9-437b-b228-17b43001d579
-caps.latest.revision: 24
+author: jswymer
 ---
 # Deploying the Microsoft Dynamics NAV Web Server Components
 Giving users the capability to access to data by using the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], [!INCLUDE[nav_phone](includes/nav_phone_md.md)], and Outlook add-in requires a Internet Information Services (IIS) web site as part of your deployment. The website, which we refer to as [!INCLUDE[nav_web_server_instance](includes/nav_web_server_instance md.md) instance, hosts the files that provide content and services to client users over the Internet. This article highlights several factors to consider to help you set up [!INCLUDE[nav_web_server_instance](includes/nav_web_server_instance md.md) instances that suit deployment requirements.
 
-If you just want to install and get started wih the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).
+If you want to get started and install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).
 
-## ASP.NET Core on IIS 
+## ASP .NET Core on IIS 
 
 [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances run on ASP.NET Core on IIS, which in part dictates the directory structure of the instances. For more information about ASP .NET Core, see [Introduction to ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/). 
 
@@ -35,7 +34,7 @@ There are two ways to create [!INCLUDE[nav_web_server_instance_md](includes/nav_
 ### [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup
 [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup is the quickest way to get a web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] up and running, and is typically how you install the first [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance in your deployment.
 
--   Setup installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], which not only installs a web server instance on IIS, it also configures IIS with the required prerequisites, and installs components that enable you to add additional web server instances without having to refer to the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] media (DVD).
+-   Setup installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], which installs a web server instance on IIS but also configures IIS with the required prerequisites, and installs components that enable you to add additional web server instances without having to refer to the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] media (DVD).
 -   You can only use Setup to install a single [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance. If you want additional instances, you must use the the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
 - Setup does not let you choose the site deployment type for the web server instance. By default, it creates a subsite instance.    
 
@@ -70,21 +69,22 @@ When you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], a we
 |Physical path|%systemroot%\\inetpub\\wwwroot\\NavWebApplicationContainer|  
 |Authentication|Windows Authentication|  
   
- **Virtual directory**  
+<!--> **Virtual directory**  
   
 |Setting|Value|  
 |-------------|-----------|  
 |Physical path|%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]|  
-|Virtual path/Alias|/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]<br /><br /> By default, this name matches the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] connects to.|  
+|Virtual path/Alias|/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]<br /><br /> By default, this name matches the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] connects to.|  -->
+
   
  **Web application**  
   
 |Setting|Value|  
 |-------------|-----------|  
-|Application pool|[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client Application Pool|  
+|Application pool|[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]|  
 |Application pool identity|ApplicationPoolIdentity|  
-|Physical path|%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\\WebClient **Note:**  This folder is a symbolic link that targets the %systemroot%\\Program Files\\Microsoft Dynamics NAV\\90\\Web Client folder.|  
-|Virtual path/Alias|/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient|  
+|Physical path|%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]|  
+|Virtual path/Alias|/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]|  
 |Protocol|http|  
 |Authentication|Windows Authentication, Forms authentication, Anonymous Authentication, and ASP.NET Impersonation.|  
   
