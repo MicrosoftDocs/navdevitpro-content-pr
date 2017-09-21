@@ -39,7 +39,7 @@ The following cmdlets have been changed in the Microsoft.Dynamics.NAV.Management
 
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
 |------------|---------------------------------------|  
-|[Dismount-NAVtenant](Microsoft.Dynamics.NAV.Management/Dismount-NAVtenant.md)|-InptTenantRuntimeSettings and -InputTenantSettings parameters have been removed.<br /><br />*ExclusiveAccessTicket* parameter has been added.|
+|[Dismount-NAVtenant](Microsoft.Dynamics.NAV.Management/Dismount-NAVtenant.md)|-InptTenantRuntimeSettings and -InputTenantSettings parameters have been removed.<br /><br />-ExclusiveAccessTicket parameter has been added.|
 |[Get-NAVTenant](Microsoft.Dynamics.NAV.Management/Get-NAVTenant.md)|-ForceRefresh parameter has been added |
 |[Mount-NAVtenant](Microsoft.Dynamics.NAV.Management/Mount-NAVtenant.md)|-TenantDatabaseId and -Async parameters have been added.|
 |[Start-NAVDataUpgrade](Microsoft.Dynamics.NAV.Management/Start-NAVDataUpgrade.md)|-SingleTransaction, -SkipAppVersionCheck, and -SkipIfAlreadyUpgraded parameters have been added.|
