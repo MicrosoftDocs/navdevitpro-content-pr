@@ -83,7 +83,7 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
 14. When Setup is complete, choose the **Close** button.  
 
- A website called **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client** is added on the IIS. The website includes a web application that has the name **[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]**, which corresponds to the name of the [!INCLUDE[nav_server_instance_md](includes/nav_server_md.md)] instance used. The physical path of the web application is: *C:\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)*.  
+ A website called **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client** is added on the IIS. The website includes a web application that has the name **[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]**, which corresponds to the name of the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance used. The physical path of the web application is: *C:\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]*.  
 
  The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] are also installed in the %systemroot%\\Program Files\\Microsoft Dynamics NAV\\110\\Web Client folder of the computer.  
 
