@@ -24,6 +24,10 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
 -   [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]  
 
+-   Internet Information Services
+
+    If IIS is already installed, then the setup will enable any required features that are not currently enabled.
+
 -   [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
 
 -   [Microsoft Dynamics NAV Server](Microsoft-Dynamics-NAV-Server.md)  
@@ -72,18 +76,12 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
      For more information, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
 
-3.  Install Internet Information Services.  
 
-     For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md).  
-
-    > [!TIP]  
-    >  Instead of installing and configuring Internet Information Services \(IIS\) manually, you can use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install IIS and enable the required features. If IIS is already installed, then Setup will enable any required features that are not currently enabled.  
-
-4.  Determine which HTTP port to use for the [!INCLUDE[nav_web](includes/nav_web_md.md)] connection. and create an inbound for the port in Windows Firewall according to the following guidelines: 
+4.  Determine which HTTP port to use for the [!INCLUDE[nav_web](includes/nav_web_md.md)] connections. 
 
     -   [!INCLUDE[navnow](includes/navnow_md.md)] Setup will create a website on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. During Setup, you will have to choose the port to use for the site. The default port that is used in [!INCLUDE[navnow](includes/navnow_md.md)] Setup is port 8080. If you are not sure of which port to use, then use the default port. 
 
-    -   An inbound rule that allows communication on the port must be added to Windows Firewall. With most of the supported Windows operating systems, the inbound rule will automatically be added in Windows Firewall, so action is required. However, if your computer is running Windows 8.0 or 8.1. then you have to manually create an inbound rule. For information about see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create-an-Inbound-Rule-in-Windows-Firewall-for-the-Port-of-Microsoft-Dynamics-NAV-Web-Client.md).  
+    -    With most of the supported Windows operating systems, an inbound rule will automatically be added in Windows Firewall to allow communication on the port. However, if your computer is running Windows 8.0 or 8.1. then you have to manually create an inbound rule. For information about see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create-an-Inbound-Rule-in-Windows-Firewall-for-the-Port-of-Microsoft-Dynamics-NAV-Web-Client.md).  
 
 
 #### Run [!INCLUDE[navnow](includes/navnow_md.md)] Setup  
@@ -98,7 +96,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
 4.  When the installation is complete, choose the **Close** button.  
 
-5.  Run the setup.exe to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup Wizard again.  
+5.  Run the setup.exe again to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup Wizard.  
 
 6.  On the **Maintenance** page, choose **Add or remove components**.  
 
@@ -109,10 +107,8 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 9. Set the **Install IIS prerequisites** parameter to **Install**.  
 
      This enables the IIS features that are required for the [!INCLUDE[nav_web](includes/nav_web_md.md)] on the computer. For more information about this parameter, see [Using Microsoft Dynamics NAV Setup to Install IIS Features](Using-Microsoft-Dynamics-NAV-Setup-to-Install-IIS-Features.md).  
-
-10. Choose the **Apply** button.  
-
-     The installation starts.  
+10. Choose the **Apply** button to start the installation.  
+  
 
 11. When the installation is complete, choose the **Close** button.  
 
@@ -131,9 +127,8 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
 -   To open the [!INCLUDE[nav_web](includes/nav_web_md.md)] from other devices on the network, open an Internet browser, and type the following URL in the address box:  
 
-    ```  
-    http://ComputerName:PortNumber/nav_server_instance/  
-    ```  
+    http://ComputerName:PortNumber/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]  
+      
 
     -   Substitute **ComputerName** with the name of the computer where you installed [!INCLUDE[navnow](includes/navnow_md.md)]. If you are working on the computer where you installed [!INCLUDE[navnow](includes/navnow_md.md)], then you can use **localhost**.  
 

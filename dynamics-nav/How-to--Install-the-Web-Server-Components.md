@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
-# How to: Install the Web Server Components
+# How to: Install the Web Server Components using Setup Wizard
 To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer that is running Internet Information Services \(IIS\). To access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you must have a web browser and a network connection to a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The following illustration shows the components involved in the setup.  
 
  ![Install NAV Web client on same computer as server](media/NAV_WebClient_Installation_OneComputer.png "NAV\_WebClient\_Installation\_OneComputer")  
@@ -19,36 +19,24 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 > [!NOTE]  
 >  You do not need a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance or SQL Server database to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. You can install these components separately and then later configure the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to use them.  
 
-### Prerequisites  
+## Prerequisites  
 
 -   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media. For example, this could be a DVD or network drive that contains the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation files.  
 
--   Verify that the system requirements are met on the computer that you want to install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. For more information, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
+-   Verify that the system requirements are met on the computer that you want to install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. For more information, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md#WebServer).  
 
--   Install Internet Information Services.  
+-   (Optional) Install Internet Information Services manually.  
 
-     Make sure that the required features are enabled. For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md)  
+     [!INCLUDE[navnow](includes/navnow_md.md)] Setup can install and configure IIS. If IIS is already installed, then Setup will enable any required features that are not currently enabled. If you want to install and configre IIS manually, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md).   
 
-    >[!TIP]
-    >Instead of installing and configuring IIS manually, you can use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install IIS and enable the required features. If IIS is already installed, then Setup will enable any required features that are not currently enabled.  
+-   (Optional) Get and install a certificate to configure SSL on the connection to [!INCLUDE[nav_web](includes/nav_web_md.md)]s.   
+    
+     You will have to import the certificate into the local computer store of the computer on which you will install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], and then get the certificate's thumbprint, which you will use during Setup.  
 
--   If you want to configure SSL on the connection to [!INCLUDE[nav_web](includes/nav_web_md.md)], then complete the following procedures:  
+     If you do not want to configure SSL now, you can configure it after installation. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md).  
 
-    -   Obtain an SSL certificate.  
 
-    -   Import the certificate into the local computer store of the computer on which you will install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
-
-    -   Obtain the certificate's thumbprint.  
-
-     For more information about these procedures, see [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md).  
-
-    > [!NOTE]  
-    >  If you do not want to configure SSL when you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you can configure it after installation. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md).  
-
-## Installing the Microsoft Dynamics NAV Web Server  
- To install the [!INCLUDE[nav_web](includes/nav_web_md.md)], you run [!INCLUDE[navnow](includes/navnow_md.md)] Setup on a computer that is running IIS, and then choose the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] option.  
-
-#### To install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] using the [!INCLUDE[navnow](includes/navnow_md.md)] Setup Wizard  
+## To install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] using the [!INCLUDE[navnow](includes/navnow_md.md)] Setup Wizard  
 
 1.  On the computer that is running IIS, open the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media.  
 
@@ -74,7 +62,7 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
     |---------------|---------------------------------------|  
     |**Server Name**|Specifies the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] for this client.|  
     |**Client Services Port**|The listening TCP port for the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].|  
-    |**Service Name**|The name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to connect to.|  
+    |**Service Name**|The name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to connect to. Make a note of this name because it will be part of the address for opening the [!INCLUDE[nav_web](includes/nav_web_md.md)] in a browser.|  
 
     > [!NOTE]  
     >  If you currently do not know the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance or you want set up the [!INCLUDE[nav_server](includes/nav_server_md.md)] later, then use the default values.  
@@ -99,7 +87,12 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
  The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] are also installed in the %systemroot%\\Program Files\\Microsoft Dynamics NAV\\110\\Web Client folder of the computer.  
 
- For more information about the [!INCLUDE[nav_web](includes/nav_web_md.md)] installation on IIS, see [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md).  
+ For more information about the [!INCLUDE[nav_web](includes/nav_web_md.md)] installation on IIS, see [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md).
+
+ 15.    If !INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on Windows 8.0 or 8.1, create an inbound rule in the Windows Firewall to allow communication on the TCP port that you chose during Setup. 
+
+    For more information, see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create-an-Inbound-Rule-in-Windows-Firewall-for-the-Port-of-Microsoft-Dynamics-NAV-Web-Client.md). 
+
 
 #### To open the [!INCLUDE[nav_web](includes/nav_web_md.md)]  
 
@@ -107,15 +100,14 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
     -   Choose **Start**, in the **Search** box, type **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client**, and then choose the related link  
 
-    -   Open a web browser, and then in the address box, type **http://localhost:port/[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]**. Replace port with the TCP port number that you chose during Setup.  
+    -   Open a web browser, and then in the address box, type `http://localhost:port/Service Name`. Replace '`port` and `Service Name`with that values that you chose during Setup. For example, the address with the default installation is:
+    
+        http://localhost:8080/[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)].
+
 
      For more information, see [How to: Open the Microsoft Dynamics NAV Web Client](How-to--Open-the-Microsoft-Dynamics-NAV-Web-Client.md). If you get an error when trying to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md) for information about resolving the problem.  
 
 #### Next Steps  
-
--   If !INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on Windows 8.0 or 8.1, create an inbound rule in the Windows Firewall to allow communication on the TCP port that you chose during Setup. 
-
-    For more information, see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create-an-Inbound-Rule-in-Windows-Firewall-for-the-Port-of-Microsoft-Dynamics-NAV-Web-Client.md). 
 
 -   If the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on a different computer than [!INCLUDE[nav_server](includes/nav_server_md.md)], set up delegation on [!INCLUDE[nav_server](includes/nav_server_md.md)] from the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 
