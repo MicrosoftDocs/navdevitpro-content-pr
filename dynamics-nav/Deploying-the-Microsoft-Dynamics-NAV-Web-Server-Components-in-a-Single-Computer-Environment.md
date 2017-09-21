@@ -19,10 +19,7 @@ This article also applies to deploying the [!INCLUDE[nav_phone](includes/nav_pho
 > [!TIP]  
 >  For a step-by-step example that describes how to deploy this scenario, see [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on a Single Computer](Walkthrough--Installing-the-Microsoft-Dynamics-NAV-Web-Server-Components-on-a-Single-Computer.md).  
 
-## Deployment Tasks  
-To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in this scenario, complete the following tasks.  
-
-### Pre-Installation Tasks  
+## Pre-Installation Tasks  
 The following table includes tasks to perform before you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
 
 |Task|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|For more information, see|  
@@ -33,14 +30,14 @@ The following table includes tasks to perform before you install the [!INCLUDE[n
 |Set up the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] and the SQL Server database.|Optional. When you install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can specify a user account that will be used to log on to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and [!INCLUDE[navnow](includes/navnow_md.md)] database. The default service account is Network Service. If you want to use Network Service, then no action is required for this task.|[Provisioning the Microsoft Dynamics NAV Server Account](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md).|  
 |Obtain and install an SSL certificate.|Optional. If you want to configure SSL on the connection to [!INCLUDE[nav_web](includes/nav_web_md.md)], then complete the following procedures:<br /><br /> -   Obtain an SSL certificate.<br />-   Import the certificate into the local computer store of the computer on which you will install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].<br />-   Obtain the certificate's thumbprint.<br /><br />**Note:**  You can also configure SSL after you have installed the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [Post-installation Tasks](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-in-a-Single-Computer-Environment.md#PostInstall).|The following sections in the Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\) topic:<br /><br /> -   [Obtaining an SSL Certificate](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md#ObtainCert)<br />-   [Importing the SSL Certificate into the Local Computer Store of the Microsoft Dynamics NAV Server computer](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md#Importing)<br />-   [Obtaining the Certificate's Thumbprint](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md#Thumbprint)|  
 
-### Installation Tasks  
+## Installation Tasks  
  The following table includes tasks for installing the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
 
 |Task|Description|For more information, see|  
 |----------|-----------------|-------------------------------|  
 |Install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and [!INCLUDE[navnow](includes/navnow_md.md)] database components.|Run the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] setup.exe file, choose the **Custom** installation option, and then choose the **SQL Server Database Components**, **Server**, and **Web Server Components** options.|[How to: Run Setup](How-to--Run-Setup.md)<br /><br /> [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)|  
 
-###  <a name="PostInstall"></a> Post-installation Tasks  
+##  <a name="PostInstall"></a> Post-installation Tasks  
  The following table includes tasks that configure the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] after installation. These tasks are optional depending on your organizational and network requirements.  
 
 |Task|Description|For more information, see|  
