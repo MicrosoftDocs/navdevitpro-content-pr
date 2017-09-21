@@ -39,13 +39,13 @@ The following cmdlets have been changed in the Microsoft.Dynamics.NAV.Management
 
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
 |------------|---------------------------------------|  
-|[Dismount-NAVtenant](Microsoft.Dynamics.NAV.Management/Dismount-NAVtenant.md)|*InptTenantRuntimeSettings* and *InputTenantSettings* parameters have been removed.<br /><br />*ExclusiveAccessTicket* parameter has been added.|
-|[Get-NAVTenant](Microsoft.Dynamics.NAV.Management/Get-NAVTenant.md)|*ForceRefresh* parameter has been added |
-|[Mount-NAVtenant](Microsoft.Dynamics.NAV.Management/Mount-NAVtenant.md)|*TenantDatabaseId* and *Async* parameters have been added.|
-|[Start-NAVDataUpgrade](Microsoft.Dynamics.NAV.Management/Start-NAVDataUpgrade.md)|*SingleTransaction* and *SkipAppVersionCheck* parameters have been added.|
-|[Sync-NAVTenant](Microsoft.Dynamics.NAV.Management/Sync-NAVTenant.md)|*CommitPerTable* parameter added.|
-|[New-NAVServerInstance](Microsoft.Dynamics.NAV.Management/New-NAVServerInstance.md)|*DeveloperServicesPort* has been added.|
-|[New-NAVWebServerInstance](Microsoft.Dynamics.NAV.Management/New-NAVWebServerInstance.md)|*RegionFormat*, *Language*, and *Company* parameters have been removed.|
+|[Dismount-NAVtenant](Microsoft.Dynamics.NAV.Management/Dismount-NAVtenant.md)|-InptTenantRuntimeSettings and -InputTenantSettings parameters have been removed.<br /><br />*ExclusiveAccessTicket* parameter has been added.|
+|[Get-NAVTenant](Microsoft.Dynamics.NAV.Management/Get-NAVTenant.md)|-ForceRefresh parameter has been added |
+|[Mount-NAVtenant](Microsoft.Dynamics.NAV.Management/Mount-NAVtenant.md)|-TenantDatabaseId and -Async parameters have been added.|
+|[Start-NAVDataUpgrade](Microsoft.Dynamics.NAV.Management/Start-NAVDataUpgrade.md)|-SingleTransaction, -SkipAppVersionCheck, and -SkipIfAlreadyUpgraded parameters have been added.|
+|[Sync-NAVTenant](Microsoft.Dynamics.NAV.Management/Sync-NAVTenant.md)|-CommitPerTable parameter added.|
+|[New-NAVServerInstance](Microsoft.Dynamics.NAV.Management/New-NAVServerInstance.md)|-DeveloperServicesPort has been added.|
+|[New-NAVWebServerInstance](Microsoft.Dynamics.NAV.Management/New-NAVWebServerInstance.md)|-RegionFormat, -Language, and -Company parameters have been removed.|
 
 <!-- A number of other new cmdlets are available in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] but are not yet listed here. For a full list, see [Administration Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626874).  -->
 
@@ -63,10 +63,10 @@ The following cmdlets have been changed in the Microsoft.Dynamics.NAV.Apps.Manag
 
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
 |------------|---------------------------------------|  
-|[Get-NAVAppInfo](Microsoft.Dynamics.NAV.Apps.Management/Get-NAVAppInfo.md)|*TenantSpecificSettings*, *SymbolsOnly*, and *TenantId* parameters have been added.|
-|[Get-NAVAppTenant](Microsoft.Dynamics.NAV.Management/Get-NAVAppTenant.md)|*IncludeFailed* and *Id* parameters have been added.|
-|[Publish-NAVApp](Microsoft.Dynamics.NAV.Apps.Management/Publish-NAVApp.md)|*PackageType*, *ApplicationDatabaseName*, *ApplicationDatabaseServer*, *ApplicationDatabaseCredentials*, and *IdePath* parameters have been added.|
-|[Repair-NAVApp](Microsoft.Dynamics.NAV.Apps.Management/Repair-NAVApp.md)|*PackageType*, *ApplicationDatabaseName*, *ApplicationDatabaseServer*, *ApplicationDatabaseCredentials*, *IdePath*, and *ServiceAccount* parameters have been added.|
+|[Get-NAVAppInfo](Microsoft.Dynamics.NAV.Apps.Management/Get-NAVAppInfo.md)|-TenantSpecificSettings, -SymbolsOnly, and -TenantId parameters have been added.|
+|[Get-NAVAppTenant](Microsoft.Dynamics.NAV.Management/Get-NAVAppTenant.md)|-IncludeFailed and -Id parameters have been added.|
+|[Publish-NAVApp](Microsoft.Dynamics.NAV.Apps.Management/Publish-NAVApp.md)|-PackageType, -ApplicationDatabaseName, -ApplicationDatabaseServer, -ApplicationDatabaseCredentials, and -IdePath parameters have been added.|
+|[Repair-NAVApp](Microsoft.Dynamics.NAV.Apps.Management/Repair-NAVApp.md)|-PackageType, -ApplicationDatabaseName, -ApplicationDatabaseServer, -ApplicationDatabaseCredentials, -IdePath, and -ServiceAccount parameters have been added.|
 
 ## Changes to [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] Cmdlets  
 
@@ -78,7 +78,7 @@ None.
 The following cmdlets have been changed in the Microsoft.Dynamics.NAV.Apps.Tools module.
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
 |------------|---------------------------------------|  
-|[Export-NAVAppTenantWebService](Microsoft.Dynamics.NAV.Apps.ToolsExport-NAVAppTenantWebService.md)|*ServiceName* parameter has been added.|
+|[Export-NAVAppTenantWebService](Microsoft.Dynamics.NAV.Apps.ToolsExport-NAVAppTenantWebService.md)|-ServiceName parameter has been added.|
 
 ## See Also  
 [Administration Cmdlets for Microsoft Dynamics NAV](Microsoft.Dynamics.NAV.Management/Microsoft.Dynamics.NAV.Management.md)  
