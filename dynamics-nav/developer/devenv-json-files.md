@@ -28,14 +28,14 @@ The following table describes the settings in the ```app.json``` file:
 |id|Yes|The unique ID of the extension. When app.json file is automatically created, the ID is set to a new GUID value.|
 |name|Yes|The unique extension name.|
 |publisher|Yes|The name of your publisher, for example: **NAV Partner**, **LLC** |
-|brief|No, but needed for AppSource submission|Short description of the extension.|
-|description|No, but needed for AppSource submission|Longer description of the extension.|
+|brief|No, but required for AppSource submission|Short description of the extension.|
+|description|No, but required for AppSource submission|Longer description of the extension.|
 |version|Yes|The version of the app package.|
-|privacyStatement|No, but needed for AppSource submission|URL to the privacy statement for the extension.|
-|EULA|No, but needed for AppSource submission|URL to the license terms for the extension.|
-|help|No, but needed for AppSource submission|URL to the help for the extension.|
+|privacyStatement|No, but required for AppSource submission|URL to the privacy statement for the extension.|
+|EULA|No, but required for AppSource submission|URL to the license terms for the extension.|
+|help|No, but required for AppSource submission|URL to the help for the extension.|
 |url|No|URL of the extension package.|
-|logo|No, but needed for AppSource submission|URL to the logo for the extension package.|
+|logo|No, but required for AppSource submission|URL to the logo for the extension package.|
 |dependencies|No|List of dependencies for the extension package.|
 |screenshots|No|Relative paths to any screenshots that should be in the extension package.|
 |platform|Yes, if system tables are referenced in the extension|The minimum supported version of the platform symbol package file, for example: "11.0.0.0". See the [Symbols](devenv-symbols.md) for the list of object symbols contained in the platform symbol package file.|

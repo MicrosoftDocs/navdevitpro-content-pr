@@ -44,7 +44,6 @@ Several properties have been renamed, to mention some:
 > Property values are considered as syntax elements; thus they should follow the standard AL escaping rules. 
 
 ## Pages
-
 The ```ActionContainer``` elements in AL have been renamed; the following table lists the renamed elements:
 
 |C/SIDE|AL Development Environment|
@@ -59,6 +58,10 @@ The ```ActionContainer``` elements in AL have been renamed; the following table 
 For instance, ```area(Sections)``` can be defined inside the ```actions``` section of the page.
 
 Likewise, ```Container``` and ```ContainerType``` elements in C/SIDE have been renamed to ```area(Content|FactBoxes|RoleCenter)``` and can be defined inside the ```layout``` section of the page.
+
+> [!NOTE]
+> For backwards compatibility we continue to support adding non-part pages as parts. We do, however, recommend that you redesign your page to only use Card part or List part, as we may remove support in a future update. 
+
 
 For syntax examples, see [Page Object](devenv-page-object.md).
 

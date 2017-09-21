@@ -34,6 +34,7 @@ page Id PageName
 {
     PageType = List;
     SourceTable = TableName;
+    Editable = true;
     ...
 }
 ```
@@ -42,17 +43,20 @@ Which page type you choose depends on the application task that you want to supp
 
 |Page type   |Description|
 |------------|-----------|
-|`RoleCenter`||
-|`Card`||
-|`CardPart`||
-|`List`||
-|`ListPart`||
-|`ListPlus`||
-|`Document`||
-|`WorkSheet`||
-|`ConfirmationDialog`||
-|`StandardDialog`||
-|`NavigatePage`||
+|`RoleCenter`|The Role Center page is the main page.|
+|`Card`|A Card page is used to view and edit one record or entity from a table.|
+|`CardPart`|A Card Part page is used in a FactBox on another page to view or edit additional fields associated with a selected entity in the page.|
+|`List`|A List page displays content from a table in a list format.|
+|`ListPart`|Similar to a List page, a List Part page displays content from a table in a list format. The difference is that you use the List part page as another page in a FactBox or as a part of the Role Center page.|
+|`ListPlus`|Similar to a List page, a List Plus page displays content from a table in a list format. The difference is that the List Plus page type can contain two lists in one page, and can be used as a two-dimensional matrix.|
+|`Document`|A Document page usually consists of two separate pages combined into one, with one page nested in the other. A Document page is suitable for use when you want to display data from two tables that are linked together.|
+|`WorkSheet`|You use a Worksheet page type for creating worksheet or journal task pages.|
+|`ConfirmationDialog`|You use the ConfirmationDialog page to display messages or prompt users with a confirmation before they continue with the task that they are working on.|
+|`StandardDialog`|The StandardDialog is a simple page type that you use when users only need to input data and do not need to perform other actions from the page.|
+|`NavigatePage`|You use a Navigate page type to create a wizard that leads the user through a sequence of steps for completing a task.|
+
+> [!NOTE]
+> For backwards compatibility we continue to support adding non-part pages as parts. We do, however, recommend that you redesign your page to only use Card part or List part, as we may remove support in a future update. 
 
 ## Page Layout
 The page layout of the page object determines what the page will look like and is specified in the `layout` section. The `layout` contains one or more `area` sections that define a certain placement on the page. 
