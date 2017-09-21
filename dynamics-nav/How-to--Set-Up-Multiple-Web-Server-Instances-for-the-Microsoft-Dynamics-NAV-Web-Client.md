@@ -1,70 +1,45 @@
 ---
 title: "How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 21/09/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 28566a8f-eccf-4344-bc00-1df9b6918783
-caps.latest.revision: 29
-manager: edupont
+author: jswymer
 ---
-# Creating Dynamics NAV Web Server Instances by using PowerShell
-You can use the [!INCLUDE[navnow](includes/navnow_md.md)] to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], which will create a single web server instance in IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. But there may be scenarios when you want to set up multiple [!INCLUDE[nav_web](includes/nav_web_md.md)] instances. For example, you could set up a separate [!INCLUDE[nav_web](includes/nav_web_md.md)] instance for the different companies. For this, you can use the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)], which contains several cmdlets that enable you to manage  [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances.
+# Creating and Managing Dynamics NAV Web Server Instances by using PowerShell
+You can use the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and create a single web server instance in IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. But there may be scenarios when you want to set up multiple [!INCLUDE[nav_web](includes/nav_web_md.md)] instances. For example, you could set up a separate [!INCLUDE[nav_web](includes/nav_web_md.md)] instance for the different companies of a business. For this scenario, you can use the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)], which contains the following cmdlets that enable you to manage  [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances.
 
-  
-  
-To add a new [!INCLUDE[nav_web](includes/nav_web_md.md)] application, you use the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell and run the New-NAVWebServerInstance cmdlet to add a new web server instance. The resultant [!INCLUDE[navnow](includes/navnow_md.md)] web server has the following characteristics:  
-  
--   A virtual directory instance with an underlying web application is added to the [!INCLUDE[nav_web](includes/nav_web_md.md)] website. The [!INCLUDE[nav_web](includes/nav_web_md.md)] application has its own web.config file that you can modify to change the configuration of the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
-  
--   You can configure IIS settings, such as application pool. You can also configure [!INCLUDE[navnow](includes/navnow_md.md)] settings, such as the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance or company. These setting must be configured separately for each web server instance.  
-  
--   The new web server instance has the same URL as other instances under the parent website, except that it includes the instance name that you specify with the New-NavWebServerInstance cmdlet.  
-  
-     For example, the URL for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] is http://MyNavWebServer:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient. The URL for the new [!INCLUDE[nav_web](includes/nav_web_md.md)] instance, which you name MyCompany, would be http://MyNavWebServer:8080/MyCompany/WebClient.  
-  
- You can run the cmdlet multiple times to create additional [!INCLUDE[navnow](includes/navnow_md.md)] web server instances on the server.  
-  
-> [!NOTE]  
->  You cannot nest applications. Only one level of applications under a website is allowed.  
-  
- For more information about [!INCLUDE[navnow](includes/navnow_md.md)] web server instances on IIS, see [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md). 
+|Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
+|------------|---------------------------------------|
+|[New-NAVWebServerInstance](Microsoft.Dynamics.NAV.Management/New-NAVWebServerInstance.md)|Creates a new [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance and binds this instance to a Dynamics NAV Server instance. |
+|[Set-NAVWebServerInstanceConfiguration](Microsoft.Dynamics.NAV.Management/Set-NAVWebServerInstanceConfiguration.md)|Specifies configuration values for a named [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance.|
+|[Get-NAVWebServerInstance](Microsoft.Dynamics.NAV.Management/Get-NAVWebServerInstance.md)|Gets the information about the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances that are registered on a computer.|
+|[Remove-NAVWebServerInstance](Microsoft.Dynamics.NAV.Management/Remove-NAVWebServerInstance.md)| Removes an existing [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance.|  
 
-## <a name="WebClientonIIS"></a>Site Deployment Types
-There are two types of [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances that you can create: RootSite or SubSite. The instance types have a different hierarchical structure in IIS, which influences the configuration and the URLs for the accessing the [!INCLUDE[nav_web](includes/nav_web_md.md)
- 
--   A *RootSite* instance is a root-level web site that is complete with content files, and it configured with its own set of bindings for accessing the site, such as protocol (http or https) and communication port. The URL for the web server instance has the format `http://[WebserverComputerName]:[port]`, for example *http://localhost:8080* or *https://localhost:8080/*. 
-
--   A *SubSite* instance is an web application that is under a container web site. The container web site is configured with a set of bindings, but the site itself has no content files. The content files are contained in the application (subsite). The application inherits the bindings and other configuration settings from the container web site. The URL of a subsite instance is generally longer than a rootsite because it also contains the application's alias (or virtual path), which you define. The URL for a subsite instance has the format `http://[WebserverComputerName]:[port]/[WebServerInstance]`, for example *http://localhost:8080/dynamicsnav* or *https://localhost:8080/dynamicsnav*. 
-  
-### To add a web server instance  
-  
-1.  \(Optional\) Modify the instanceweb.config file.  
-  
-     For more information, see [Modifying the Microsoft Dynamics NAV Settings in the Instanceweb.config File](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md#ModifyInstanceweb)  
-  
-    > [!NOTE]  
-    >  You would typically follow this step if you were adding multiple [!INCLUDE[nav_web](includes/nav_web_md.md)] instances to save time configuring each instance.  
-  
-2.  On the computer that is running IIS, run [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell as an Administrator.  
+## Create a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance
+1.  On the computer that is running IIS, run [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] as an Administrator.  
   
      On the **Start** menu, right-click **[!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell**, and then choose **Run as Administrator**.  
   
-3.  At the command prompt, type the following command.  
+2.  At the command prompt, type one of the the following commands, depending on whether you want to create a RootSite or SubSite deployment type (see [Site Deployment Types](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md#WebClientonIIS):  
   
     ```  
-    New-NAVWebServerInstance -WebServerInstance MyWebApp -Server NAVServer -ServerInstance NAVServerInstance  
+    New-NAVWebServerInstance -WebServerInstance MyWebApp -Server NAVServer -ServerInstance NAVServerInstance -SiteDeploymentType RootSite
+    ```  
+
+    ```  
+    New-NAVWebServerInstance -WebServerInstance MyWebApp -Server NAVServer -ServerInstance NAVServerInstance -SiteDeploymentType Subsite -ContainerName MySiteContainer
     ```  
   
-    -   Change *MyWebApp* to the name that you want to give the virtual directory for the web server instance. This name will become part of the URL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] application, for example, http://MyWebServer:8080/MyWebApp/WebClient.  
+    -   Susbtitute *MyWebApp* to the name that you want to give the web application in IIS for the web server instance. If you are creating a SubSite deployment type, this name will become part of the URL for opening the [!INCLUDE[nav_web](includes/nav_web_md.md)] application, for example, http://MyWebServer:8080/MyNavWebApp.  
   
-    -   Change *NAVServer* to the name of the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)] to which you want to connect.  
+    -   Susbtitute *NAVServer* to the name of the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)] to which you want to connect.  
   
-    -   Change *NAVServerInstance* to the name of the instance on the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
-  
+    -   Susbtitute *NAVServerInstance* to the name of the instance on the [!INCLUDE[nav_server](includes/nav_server_md.md)]. 
+
     > [!NOTE]  
     >  This command only sets the required parameters of the NAVWebServerInstance cmdlet. The cmdlet has several other parameters that can use to configure the web server instance. For more information about the syntax and parameters, see New-NAVWebServerInstance.  
   
@@ -72,25 +47,24 @@ There are two types of [!INCLUDE[nav_web_server_instance_md](includes/nav_web_se
   
      A new web server instance is added.  
   
-    > [!NOTE]  
-    >  If you want to change the configuration of the new [!INCLUDE[navnow](includes/navnow_md.md)] web server instance, modify the web.config file. For more information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md).  
-  
-##  <a name="ModifyInstanceweb"></a> Modifying the Microsoft Dynamics NAV Settings in the Instanceweb.config File  
- The [!INCLUDE[navnow](includes/navnow_md.md)] web server instances that you add with the New-NavWebServerInstance cmdlet use the instanceweb.config file as a template file to create the actual web.config file for the instance. Modifying the instanceweb.config file enables you to configure the [!INCLUDE[navnow](includes/navnow_md.md)] settings in advance, and then pass the settings to new web server instances when they are created.  
-  
- By default, the instanceweb.config file is located in the [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Web Client folder of the computer on which [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] are installed.  
-  
-#### To modify the [!INCLUDE[navnow](includes/navnow_md.md)] settings in the instanceweb.config file  
-  
-1.  On the computer that you installed the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open the instanceweb.config file in a text editor, such as Notepad.  
-  
-2.  Locate the `<DynamicsNAVSettings>` element.  
-  
-3.  Change the parameter values as needed.  
-  
-     For more information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md).  
-  
-4.  Save the web.config file.  
+If you want to change the configuration of the new [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance, you can use the Set-NAVWebServerInstanceConfiguration cmdlet or you can modify the configuration file (navsettings.json) of the instance directly. For more information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md).  
+
+## <a name="WebClientonIIS"></a>Site Deployment Types
+There are two types of [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances that you can create: RootSite or SubSite. The instance types have a different hierarchical structure in IIS, which influences the configuration and the URLs for the accessing the [!INCLUDE[nav_web](includes/nav_web_md.md)
+ 
+### RootSite
+A *RootSite* instance is a root-level web site that is complete with content files for serving the [!INCLUDE[nav_web](includes/nav_web_md.md)]. , and it configured with its own set of bindings for accessing the site, such as protocol (http or https) and communication port. The URL for the web server instance has the format:
+
+`http://[WebserverComputerName]:[port]`
+
+For example: `http://localhost:8080` or `https://localhost:8080`. 
+
+## SubSite
+A *SubSite* instance is an web application that is under a container web site. The container web site is configured with a set of bindings, but the site itself has no content files. The content files are contained in the application (subsite). The application inherits the bindings and other configuration settings from the container web site. The URL of a subsite instance is generally longer than a rootsite because it also contains the application's alias (or virtual path), which you define. The URL for a subsite instance has the format:
+
+`http://[WebserverComputerName]:[port]/[WebServerInstance]`
+
+For example: `http://localhost:8080/dynamicsnav` or `https://localhost:8080/dynamicsnav`. 
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
