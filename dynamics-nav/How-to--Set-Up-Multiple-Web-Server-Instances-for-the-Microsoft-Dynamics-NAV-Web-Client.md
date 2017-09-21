@@ -11,10 +11,12 @@ ms.assetid: 28566a8f-eccf-4344-bc00-1df9b6918783
 caps.latest.revision: 29
 manager: edupont
 ---
-# How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client
-When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], a website with a web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] is added on Internet Information Services \(IIS\). There may be scenarios when you want to set up multiple [!INCLUDE[nav_web](includes/nav_web_md.md)] instances on the [!INCLUDE[nav_web](includes/nav_web_md.md)] website. For example, you could set up a separate [!INCLUDE[nav_web](includes/nav_web_md.md)] instance for the different companies.  
+# Creating Dynamics NAV Web Server Instances by using PowerShell
+You can use the [!INCLUDE[navnow](includes/navnow_md.md)] to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], which will create a single web server instance in IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. But there may be scenarios when you want to set up multiple [!INCLUDE[nav_web](includes/nav_web_md.md)] instances. For example, you could set up a separate [!INCLUDE[nav_web](includes/nav_web_md.md)] instance for the different companies. For this, you can use the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)], which contains several cmdlets that enable you to manage  [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances.
+
   
- To add a new [!INCLUDE[nav_web](includes/nav_web_md.md)] application, you use the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell and run the New-NAVWebServerInstance cmdlet to add a new web server instance. The resultant [!INCLUDE[navnow](includes/navnow_md.md)] web server has the following characteristics:  
+  
+To add a new [!INCLUDE[nav_web](includes/nav_web_md.md)] application, you use the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell and run the New-NAVWebServerInstance cmdlet to add a new web server instance. The resultant [!INCLUDE[navnow](includes/navnow_md.md)] web server has the following characteristics:  
   
 -   A virtual directory instance with an underlying web application is added to the [!INCLUDE[nav_web](includes/nav_web_md.md)] website. The [!INCLUDE[nav_web](includes/nav_web_md.md)] application has its own web.config file that you can modify to change the configuration of the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
@@ -29,7 +31,14 @@ When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], 
 > [!NOTE]  
 >  You cannot nest applications. Only one level of applications under a website is allowed.  
   
- For more information about [!INCLUDE[navnow](includes/navnow_md.md)] web server instances on IIS, see [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md).  
+ For more information about [!INCLUDE[navnow](includes/navnow_md.md)] web server instances on IIS, see [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md). 
+
+## <a name="WebClientonIIS"></a>Site Deployment Types
+There are two types of [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances that you can create: RootSite or SubSite. The instance types have a different hierarchical structure in IIS, which influences the configuration and the URLs for the accessing the [!INCLUDE[nav_web](includes/nav_web_md.md)
+ 
+-   A *RootSite* instance is a root-level web site that is complete with content files, and it configured with its own set of bindings for accessing the site, such as protocol (http or https) and communication port. The URL for the web server instance has the format `http://[WebserverComputerName]:[port]`, for example *http://localhost:8080* or *https://localhost:8080/*. 
+
+-   A *SubSite* instance is an web application that is under a container web site. The container web site is configured with a set of bindings, but the site itself has no content files. The content files are contained in the application (subsite). The application inherits the bindings and other configuration settings from the container web site. The URL of a subsite instance is generally longer than a rootsite because it also contains the application's alias (or virtual path), which you define. The URL for a subsite instance has the format `http://[WebserverComputerName]:[port]/[WebServerInstance]`, for example *http://localhost:8080/dynamicsnav* or *https://localhost:8080/dynamicsnav*. 
   
 ### To add a web server instance  
   
