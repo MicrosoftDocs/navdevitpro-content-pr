@@ -10,7 +10,7 @@ ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
 # Creating and Managing [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] Instances Using PowerShell
-Although you can use the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and create a single web server instance in IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)], there may be scenarios when you want to set up multiple instances. For example, you could set up a separate [!INCLUDE[nav_web](includes/nav_web_md.md)] instance for the different companies of a business. For this scenario, you can use the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] PowerShell cmdlets that are outlines in the following table.
+Although you can use the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and create a single web server instance in IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)], there may be scenarios when you want to set up multiple instances. For example, you could set up a separate [!INCLUDE[nav_web](includes/nav_web_md.md)] instance for the different companies of a business. For this scenario, you can use the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] PowerShell cmdlets, which are outlined in the following table.
 
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
 |------------|---------------------------------------|
@@ -21,7 +21,7 @@ Although you can use the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard 
 
 ## Get started with the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] cmdlets 
 
-The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] cmdlets are contained in a PowerShell script module **NAVWebClientManagement.psm1**. This module is available on the [!INCLUDE[navnow](includes/navnow_md.md)] intallation media (DVD). It is also installed with [!INCLUDE[nav_server_md](includes/nav_server_md.md)], where the default folder is: [!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Service.
+The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] cmdlets are contained in the PowerShell script module **NAVWebClientManagement.psm1**. This module is available on the [!INCLUDE[navnow](includes/navnow_md.md)] intallation media (DVD). It is also installed with [!INCLUDE[nav_server_md](includes/nav_server_md.md)], where the default folder is: [!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Service.
 
 There are two ways to launch this module and start using the cmdlets:
 
@@ -46,9 +46,9 @@ There are two ways to launch this module and start using the cmdlets:
 ### Get Access to the WebPublish folder
 To create a new web server instance, you need access to the **WebPublish** folder that contains the content files for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)].
 
--  This folder is available on the [!INCLUDE[navnow](includes/navnow_md.md)] installation media (DVD), and has the path `DVD\WebClient\Microsoft Dynamics NAV\110\Web Client\WebPublish`. 
+-  This folder is available on the [!INCLUDE[navnow](includes/navnow_md.md)] installation media (DVD) and has the path "DVD\WebClient\Microsoft Dynamics NAV\110\Web Client\WebPublish". 
 
-- If you installed the [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)], this folder has the path **[!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Web Client\WebPublish**.
+- If you installed the [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)], this folder has the path "[!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Web Client\WebPublish".
 
 You can use either of these locations or you can copy the folder to more convenient location on your computer or network.
 
@@ -62,11 +62,11 @@ A *RootSite* instance is a root-level web site that is complete with content fil
 
 ```
 - Sites
-  - Dynamics NAV Web Client (application)
+  - Dynamics NAV Web Client (web site)
     + nn-NN (language versions)
     + www (content)
 ```
-The URL for the RootSite instance has the format:
+The [!INCLUDE[nav_web](includes/nav_web_md.md)] URL for the RootSite instance has the format:
 
 `http://[WebserverComputerName]:[port]`
 
@@ -78,7 +78,7 @@ A *SubSite* instance is a web application that is under a container web site. Th
 
 ```
 - Sites
-  - Dynamics NAV Web Client (container web site)
+  - Dynamics NAV Web Client (web site)
     - Dynamics110 (application)
       + nn-NN (language versions)
       + www 
@@ -87,7 +87,7 @@ A *SubSite* instance is a web application that is under a container web site. Th
       + www
 ```
 
-The URL of a SubSite instance is generally longer than a RootSite because it also contains the application's alias (or virtual path), which you define. The URL for a SubSite instance has the format:
+The [!INCLUDE[nav_web](includes/nav_web_md.md)] URL of a SubSite instance is generally longer than a RootSite because it also contains the application's alias (or virtual path), which you define. The URL for a SubSite instance has the format:
 
 `http://[WebserverComputerName]:[port]/[WebServerInstance]`
 
