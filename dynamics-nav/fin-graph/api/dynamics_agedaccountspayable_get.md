@@ -1,5 +1,5 @@
 ---
-title: GET agedAccountsPayable method | Microsoft Docs
+title: GET agedAccountsPayable | Microsoft Docs
 description: Gets an aged accounts payable.
 services: project-madeira
 documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-title: GET cashFlowStatement method | Microsoft Docs
+title: GET cashFlowStatement | Microsoft Docs
 description: Gets a cash flow statement.
 services: project-madeira
 documentationcenter: ''

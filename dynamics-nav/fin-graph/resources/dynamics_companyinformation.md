@@ -13,7 +13,7 @@ ms.workload: na
 ms.date: 07/11/2017
 ms.author: solsen
 ---
-
+ 
 # companyInformation resource type
 Represents the information specified for the current company in Dynamics 365 for Financials, such as name, address, email address, and website address.
 
