@@ -41,7 +41,7 @@ There are two ways to launch this module and start using the cmdlets:
 
     For more information, see [Starting Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell).
 
-## Creating a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance
+## Creating [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances
 
 ### Get Access to the WebPublish folder
 To create a new web server instance, you need access to the **WebPublish** folder that contains the content files for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)].
@@ -114,13 +114,16 @@ SubSite example:
   
 -   Susbtitute *NAVServerInstance* with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to use.
 
+-  Substitute *MySiteContainer* with name of the container web site under which you want to add the instance. If you specify a name that does not exist, then a new container web site will be created, which contains the new web server instance.
+
 -  Susbtitute *8081* with the port number that you want to bind the instance to. If you do not specify a port number, then port 80 is used. 
     
 -  Substitute *C:\WebClient\WebPublish* with the path to your WebPublish folder. By default, the cmdlet looks in the'[!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Web Client' folder. So if you are working on a computer where the [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)] are installed, you do not have to set this parameter.
 
 > [!NOTE]  
 >  This command only sets the required parameters of the NAVWebServerInstance cmdlet. The cmdlet has several other parameters that can use to configure the web server instance. For more information about the syntax and parameters, see New-NAVWebServerInstance.  
-  
+
+## Modifying a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance  
 After you create the web server intance, if you want to change its configuration, you can use the Set-NAVWebServerInstanceConfiguration cmdlet. Or, you can modify the configuration file (navsettings.json) of the instance directly. For more information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md).  
 
 ## See Also  
