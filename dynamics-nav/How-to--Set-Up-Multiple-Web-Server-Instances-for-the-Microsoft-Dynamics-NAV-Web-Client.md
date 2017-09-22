@@ -54,7 +54,7 @@ You can use either of these locations or you can copy the folder to more conveni
 
 
 ### <a name="WebClientonIIS"></a>Decide on the site deployment type for the instance
-When you create a new [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance, you can choose to create either a RootSite or SubSite type. The instance types have a different hierarchical structure in IIS, which influences the configuration and the URLs for the accessing the [!INCLUDE[nav_web](includes/nav_web_md.md)].
+When you create a new [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance, you can choose to create either a RootSite or SubSite type. Each instance type has a different hierarchical structure in IIS, which influences its configuration and the URLs for the accessing the [!INCLUDE[nav_web](includes/nav_web_md.md)].
  
 **RootSite**
 
@@ -74,15 +74,15 @@ For example: `http://localhost:8080` or `https://localhost:8080`.
 
 **SubSite**
 
-A *SubSite* instance is a web application that is under a container web site. The container web site is configured with a set of bindings, but the site itself has no content files. The content files are contained in the application (subsite). The application inherits the bindings and other configuration settings from the container web site. This is the deployment type that is created when you install [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)]. You can have multiple susbsites to the container web site. The structure in IIS for two instances looks like this in IIS:
+A *SubSite* instance is a web application that is under a container web site. The container web site is configured with a set of bindings, but the site itself has no content files. The content files are contained in the application (subsite). The application inherits the bindings from the container web site. This is the deployment type that is created when you install [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)] in the Setup wizard. You can have multiple SubSite instances in the container web site. The structure in IIS for two instances looks like this in IIS:
 
 ```
 - Sites
   - Dynamics NAV Web Client (web site)
-    - Dynamics110 (application)
+    - DynamicsNAV-1 (application)
       + nn-NN (language versions)
       + www 
-    - Dynamics110-2 (application)
+    - DynamicsNAV-2 (application)
       + nn-NN (language versions)
       + www
 ```
@@ -91,7 +91,7 @@ The [!INCLUDE[nav_web](includes/nav_web_md.md)] URL of a SubSite instance is gen
 
 `http://[WebserverComputerName]:[port]/[WebServerInstance]`
 
-For example: `http://localhost:8080/dynamicsnav` or `https://localhost:8080/dynamicsnav`. 
+For example: `http://localhost:8080/dynamicsnav-1` or `https://localhost:8080/dynamicsnav-2`. 
 
 ### Run the New-NAVWebServerInstance cmdlet
 
