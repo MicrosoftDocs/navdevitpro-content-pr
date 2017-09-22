@@ -12,7 +12,7 @@ author: jswymer
 # Deploying the Microsoft Dynamics NAV Web Server Components
 Giving users the capability to access to data by using the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], [!INCLUDE[nav_phone](includes/nav_phone_md.md)], and Outlook add-in requires a Internet Information Services (IIS) web site as part of your deployment. The website, which we refer to as [!INCLUDE[nav_web_server_instance](includes/nav_web_server_instance md.md) instance, hosts the files that provide content and services to client users over the Internet. This article highlights several factors to consider to help you set up [!INCLUDE[nav_web_server_instance](includes/nav_web_server_instance md.md) instances that suit deployment requirements.
 
-If you want to get started and install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).
+If you just want to get started installing the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).
 
 ## ASP .NET Core on IIS 
 
@@ -34,29 +34,23 @@ There are two ways to create [!INCLUDE[nav_web_server_instance_md](includes/nav_
 ### [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup
 [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup is the quickest way to get a web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] up and running, and is typically how you install the first [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance in your deployment.
 
--   Setup installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], which installs a web server instance on IIS but also configures IIS with the required prerequisites, and installs components that enable you to add additional web server instances without having to refer to the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] media (DVD).
+-   Setup installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], which installs a web server instance on IIS, installs and configure IIS with the required prerequisites, and installs components that enable you to add additional web server instances without having to refer to the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] media (DVD).
 
 -   You can only use Setup to install a single [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance. If you want additional instances, you must use the the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
 
-- Setup does not let you choose the site deployment type for the web server instance. By default, it creates a subsite instance.    
+- Setup does not let you choose the site deployment type for the web server instance. By default, it creates a subsite instance. For more information, see [Site Deployment Types](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md#WebClientonIIS).    
 
 ### [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] 
 [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] includes several PowerShell cmdlets that enable you to create, configure, and remove [nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances from a command line interface. To create a web server instance, you use the [New-NAVWebServerInstance](Microsoft.Dynamics.Nav.Management/new-navwebserverinstance.md) cmldet, which has the following advantages over Setup:
    
 -   You can create multiple web server intances.
+
 -   You have more flexibility regarding the deployment structure of the [nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances on IIS. For example, you can create a parent instance (rootsite) that can have one or more child instances (subsites).
 
 You should be aware that the New-NAVWebServerInstance cmdlet does not install or configure the required IIS prequisites. So unless you have previously installed the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] by using Setup, you will have to configure the prerequisites manually. For more information about the prerequistes, see 
-[How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md).    
+[How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md). 
 
-## <a name="WebClientonIIS"></a>Site Deployment Types
-There are two types of [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances that you can create: RootSite or SubSite. The instance types have a different hierarchical structure in IIS, which influences the configuration and the URLs for the accessing the [!INCLUDE[nav_web](includes/nav_web_md.md)
- 
--   A *RootSite* instance is a root-level web site that is complete with content files, and it configured with its own set of bindings for accessing the site, such as protocol (http or https) and communication port. The URL for the web server instance has the format `http://[WebserverComputerName]:[port]`, for example *http://localhost:8080* or *https://localhost:8080/*. 
-
--   A *SubSite* instance is an web application that is under a container web site. The container web site is configured with a set of bindings, but the site itself has no content files. The content files are contained in the application (subsite). The application inherits the bindings and other configuration settings from the container web site. The URL of a subsite instance is generally longer than a rootsite because it also contains the application's alias (or virtual path), which you define. The URL for a subsite instance has the format `http://[WebserverComputerName]:[port]/[WebServerInstance]`, for example *http://localhost:8080/dynamicsnav* or *https://localhost:8080/dynamicsnav*.
-
-## Dynamics NAV Web Server Components Installation on IIS          
+<!-- ## Dynamics NAV Web Server Components Installation on IIS          
 When you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], a web server instance is added on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The web server instance consists of a virtual directory and application. The following illustration shows the structure in Internet Information Services Manager. For more information about these elements in IIS, see [IIS Manager UI](http://go.microsoft.com/fwlink/?LinkID=614897).  
   
  ![The NAV Web client structure on IIS](media/NAVWebClientIIS.png "NAVWebClientIIS")  
@@ -74,12 +68,12 @@ When you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], a we
 |Physical path|%systemroot%\\inetpub\\wwwroot\\NavWebApplicationContainer|  
 |Authentication|Windows Authentication|  
   
-<!--> **Virtual directory**  
+ **Virtual directory**  
   
 |Setting|Value|  
 |-------------|-----------|  
 |Physical path|%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]|  
-|Virtual path/Alias|/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]<br /><br /> By default, this name matches the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] connects to.|  -->
+|Virtual path/Alias|/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]<br /><br /> By default, this name matches the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] connects to.| 
 
   
  **Web application**  
@@ -91,7 +85,7 @@ When you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], a we
 |Physical path|%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]|  
 |Virtual path/Alias|/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]|  
 |Protocol|http|  
-|Authentication|Windows Authentication, Forms authentication, Anonymous Authentication, and ASP.NET Impersonation.|  
+|Authentication|Windows Authentication, Forms authentication, Anonymous Authentication, and ASP.NET Impersonation.|  -->
   
 ## Deployment Phases  
  Typically, you will deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in phases, which can influence the network topology and security settings that you deploy. For example, in the development phase, you develop, test, and fine-tune the application. In this phase, you might consider deploying the [!INCLUDE[nav_web](includes/nav_web_md.md)] in a single-computer scenario. When you move to the production phase, you deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in the full network infrastructure.  
