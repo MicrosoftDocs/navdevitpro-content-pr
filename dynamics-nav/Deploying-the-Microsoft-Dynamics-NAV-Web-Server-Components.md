@@ -50,42 +50,6 @@ There are two ways to create [!INCLUDE[nav_web_server_instance_md](includes/nav_
 You should be aware that the New-NAVWebServerInstance cmdlet does not install or configure the required IIS prequisites. So unless you have previously installed the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] by using Setup, you will have to configure the prerequisites manually. For more information about the prerequistes, see 
 [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md). 
 
-<!-- ## Dynamics NAV Web Server Components Installation on IIS          
-When you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], a web server instance is added on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The web server instance consists of a virtual directory and application. The following illustration shows the structure in Internet Information Services Manager. For more information about these elements in IIS, see [IIS Manager UI](http://go.microsoft.com/fwlink/?LinkID=614897).  
-  
- ![The NAV Web client structure on IIS](media/NAVWebClientIIS.png "NAVWebClientIIS")  
-  
- The following table includes the default settings for each element of the website structure.  
-  
- **Website**  
-  
-|Setting|Value|  
-|-------------|-----------|  
-|Name|[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client|  
-|Binding|Type: http or https \(if you configure SSL on the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]\)<br /><br /> Port: Port number you assigned the [!INCLUDE[nav_web](includes/nav_web_md.md)] \(default 8080\)|  
-|Application pool|DefaultAppPool|  
-|Application pool identity|ApplicationPoolIdentity|  
-|Physical path|%systemroot%\\inetpub\\wwwroot\\NavWebApplicationContainer|  
-|Authentication|Windows Authentication|  
-  
- **Virtual directory**  
-  
-|Setting|Value|  
-|-------------|-----------|  
-|Physical path|%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]|  
-|Virtual path/Alias|/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]<br /><br /> By default, this name matches the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] connects to.| 
-
-  
- **Web application**  
-  
-|Setting|Value|  
-|-------------|-----------|  
-|Application pool|[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]|  
-|Application pool identity|ApplicationPoolIdentity|  
-|Physical path|%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]|  
-|Virtual path/Alias|/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]|  
-|Protocol|http|  
-|Authentication|Windows Authentication, Forms authentication, Anonymous Authentication, and ASP.NET Impersonation.|  -->
   
 ## Deployment Phases  
  Typically, you will deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in phases, which can influence the network topology and security settings that you deploy. For example, in the development phase, you develop, test, and fine-tune the application. In this phase, you might consider deploying the [!INCLUDE[nav_web](includes/nav_web_md.md)] in a single-computer scenario. When you move to the production phase, you deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in the full network infrastructure.  
