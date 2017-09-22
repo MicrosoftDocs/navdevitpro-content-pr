@@ -96,15 +96,15 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
 ## To open the [!INCLUDE[nav_web](includes/nav_web_md.md)]  
 
--   To open the [!INCLUDE[nav_web](includes/nav_web_md.md)] from the computer on which you installed the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], use one of the following procedures:  
+From the computer on which you installed the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], do one of the following:  
 
-    -   Choose **Start**, in the **Search** box, type **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client**, and then choose the related link  
+-   Choose **Start**, in the **Search** box, type **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client**, and then choose the related link  
 
-    -   Open a web browser, and then in the address box, type `http://localhost:port/Service Name`. Replace `port` and `Service Name` with that values that you chose during Setup. For example, the address with the default installation is:
+-   Open a web browser, and then in the address box, type `http://localhost:port/Service Name`. Replace `port` and `Service Name` with that values that you chose during Setup. For example, the address with the default installation is:
     
-        http://localhost:8080/[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]
+    http://localhost:8080/[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]
 
-        For more information, see [How to: Open the Microsoft Dynamics NAV Web Client](How-to--Open-the-Microsoft-Dynamics-NAV-Web-Client.md). If you get an error when trying to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md) for information about resolving the problem.  
+For more information, see [How to: Open the Microsoft Dynamics NAV Web Client](How-to--Open-the-Microsoft-Dynamics-NAV-Web-Client.md). If you get an error when trying to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md) for information about resolving the problem.  
 
 ## Next Steps  
 
