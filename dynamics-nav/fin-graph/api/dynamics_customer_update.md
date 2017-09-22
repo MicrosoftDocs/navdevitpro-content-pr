@@ -1,5 +1,5 @@
 ---
-title: UPDATE customers method | Microsoft Docs
+title: Update customers | Microsoft Docs
 description: Updates a customer.
 services: project-madeira
 documentationcenter: ''

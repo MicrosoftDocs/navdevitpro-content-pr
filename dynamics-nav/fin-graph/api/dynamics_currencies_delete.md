@@ -1,6 +1,6 @@
 ---
-title: DELETE countries/Regions method | Microsoft Docs
-description: Deletes a countries/regions.
+title: Delete currencies | Microsoft Docs
+description: Deletes a currency.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,19 +14,21 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete countriesRegions
-Delete a countriesRegions from Dynamics 365 for Financials.
+# Delete currencies
+Delete a currencies from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/({id})/countriesRegions/({id})
+DELETE /financials/companies/({id})/currencies/({id})
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
-|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
+|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be
+ updated. |
 
 ## Request body
 Do not supply a request body for this method.
@@ -41,7 +43,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/countriesRegions/({id})
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/currencies/({id})
 ```
 
 **Response** 

@@ -1,5 +1,5 @@
 ---
-title: CREATE customer method | Microsoft Docs
+title: Create customers | Microsoft Docs
 description: Creates a customer.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create customer
+# Create customers
 Create a customer in Dynamics 365 for Financials.
 
 ## HTTP request

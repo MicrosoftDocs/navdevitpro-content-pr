@@ -1,5 +1,5 @@
 ---
-title: UPDATE currencies method | Microsoft Docs
+title: Update currencies | Microsoft Docs
 description: Updates a currency.
 services: project-madeira
 documentationcenter: ''

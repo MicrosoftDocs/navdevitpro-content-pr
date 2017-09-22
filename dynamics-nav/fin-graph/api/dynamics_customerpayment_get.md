@@ -1,5 +1,5 @@
 ---
-title: GET customerPayment method | Microsoft Docs
+title: Get customerPayments | Microsoft Docs
 description: Gets a customer payment.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get customerPayment
+# Get customerPayments
 Retrieve the properties and relationships of a customer payments object for Dynamics 365 for Financials.
 
 ## HTTP request

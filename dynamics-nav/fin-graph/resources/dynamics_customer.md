@@ -1,5 +1,5 @@
 ---
-title: customer resource type | Microsoft Docs
+title: customers resource type | Microsoft Docs
 description: A customer.
 services: project-madeira
 documentationcenter: ''
@@ -14,17 +14,17 @@ ems.date: 07/11/2017
 ms.author: solsen
 ---
 
-# customer resource type
+# customers resource type
 Represents a customer in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method                                              |Return Type| Description      |
 |:----------------------------------------------------|:----------|:-----------------|
-|[GET customer](../api/dynamics_get_customer.md)      |customer   |Get a customer.   |
-|[CREATE customer](../api/dynamics_create_customer.md)|customer   |Create a customer.|
-|[UPDATE customer](../api/dynamics_update_customer.md)|customer   |Update a customer.|
-|[DELETE customer](../api/dynamics_delete_customer.md)|none       |Delete a customer.|
+|[GET customers](../api/dynamics_get_customer.md)      |customers   |Get a customer.   |
+|[CREATE customers](../api/dynamics_create_customer.md)|customers   |Create a customer.|
+|[UPDATE customers](../api/dynamics_update_customer.md)|customers   |Update a customer.|
+|[DELETE customers](../api/dynamics_delete_customer.md)|none       |Delete a customer.|
 
 ## Properties
 | Property	  | Type	 |Description|

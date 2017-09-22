@@ -1,5 +1,5 @@
 ---
-title: GET customers method | Microsoft Docs
+title: Get customers | Microsoft Docs
 description: Get a customer.
 services: project-madeira
 documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-title: customerPayment resource type | Microsoft Docs
+title: customerPayments resource type | Microsoft Docs
 description: A customer payment.
 services: project-madeira
 documentationcenter: ''
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# customerPayment resource type
+# customerPayments resource type
 Represents a customer payment in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET customerPayment](../api/dynamics_get_customerpayment.md)|customerPayments|Get Customer Payment.|
-|[POST customerPayment](../api/dynamics_create_customerpayment.md)|customerPayments|Create Customer Payment.|
-|[PATCH customerPayment](../api/dynamics_update_customerpayment.md)|customerPayments|Update Customer Payment.|
-|[DELETE customerPayment](../api/dynamics_delete_customerpayment.md)|none|Delete Customer Payment.|
+|[GET customerPayments](../api/dynamics_get_customerpayment.md)|customerPayments|Get Customer Payment.|
+|[POST customerPayments](../api/dynamics_create_customerpayment.md)|customerPayments|Create Customer Payment.|
+|[PATCH customerPayments](../api/dynamics_update_customerpayment.md)|customerPayments|Update Customer Payment.|
+|[DELETE customerPayments](../api/dynamics_delete_customerpayment.md)|none|Delete Customer Payment.|
 
 ## Properties
 | Property	   | Type	 |Description|
