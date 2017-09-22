@@ -27,14 +27,18 @@ Each [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.m
   
 For information about the common deployment scenarios, see [Deployment Scenarios for the Microsoft Dynamics NAV Web Server Components](Deployment-Scenarios-for-the-Microsoft-Dynamics-NAV-Web-Server-Components.md).  
   
-##  Creating Dynamics NAV Web Server instances  
+##  Creating [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances  
 
 There are two ways to create [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances. You can use the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup or the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
 
 ### [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup
 [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup is the quickest way to get a web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] up and running, and is typically how you install the first [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance in your deployment.
 
--   Setup installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], which installs a web server instance on IIS, installs and configure IIS with the required prerequisites, and installs components that enable you to add additional web server instances without having to refer to the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] media (DVD).
+-   Setup installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] which does the following:
+
+    -   Installs a web server instance on IIS.
+    -   Installs and configure IIS with the required prerequisites, including [Microsoft .NET Core - Windows Server Hosting package](https://aka.ms/dotnetcore.2.0.0-windowshosting)
+    -   Installs components and files in a **WebPublish** folder that enables you to add additional web server instances without having to use the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media (DVD).
 
 -   You can only use Setup to install a single [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance. If you want additional instances, you must use the the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
 
