@@ -1,5 +1,5 @@
 ---
-title: GET IRS1099Code method | Microsoft Docs
+title: GET IRS1099Codes method | Microsoft Docs
 description: Gets a IRS 1099 code.
 services: project-madeira
 documentationcenter: ''

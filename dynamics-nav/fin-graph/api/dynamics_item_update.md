@@ -1,5 +1,5 @@
 ---
-title: UPDATE items method | Microsoft Docs
+title: Update items | Microsoft Docs
 description: Updates an item.
 services: project-madeira
 documentationcenter: ''

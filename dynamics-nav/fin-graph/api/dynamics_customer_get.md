@@ -1,5 +1,5 @@
 ---
-title: GET customer method | Microsoft Docs
+title: GET customers method | Microsoft Docs
 description: Get a customer.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get customer
+# Get customers
 Retrieve the properties and relationships of a customer object for Dynamics 365 for Financials.
 
 ## HTTP request

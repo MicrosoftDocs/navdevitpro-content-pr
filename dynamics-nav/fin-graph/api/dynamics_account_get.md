@@ -1,5 +1,5 @@
 ---
-title: GET account method | Microsoft Docs
+title: GET accounts | Microsoft Docs
 description: Gets an account.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get account
+# Get accounts
 Retrieve the properties and relationships of an account object for Dynamics 365 for Financials.
 
 ## HTTP request
