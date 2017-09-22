@@ -27,7 +27,7 @@ The structure of a page is hierarchical and breaks down in to three sections. Th
 Furthermore, the page has properties. Properties work in the same way for pages as they do for other [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] objects. For more information, see [Page Properties](properties/devenv-page-property-overview.md).  
 
 ## Page Metadata
-For a new page object, you must at least specify the type of page; `PageType` and the data source; `SourceTable` of the page. And you can also set other metadata at the beginning of the declaration of the page object, such as:
+For a new page object, you must at least specify the type of page; `PageType` and the data source; `SourceTable` of the page. And you can also set other metadata at the beginning of the declaration of the page object. 
 
 ```
 page Id PageName
@@ -38,6 +38,7 @@ page Id PageName
     ...
 }
 ```
+
 ### Types of Pages  
 Which page type you choose depends on the application task that you want to support, the content that you want to display, and how you want to display it. The Role Center page is the main or home page and it helps the user focus on the most important daily tasks and activities. Other types of pages, such as list pages or card pages are typically linked from the home page for easy access. The following page types are available:  
 
@@ -85,32 +86,25 @@ In the `layout` section, you can use the following methods to place and move fie
 
 If you want to modify existing fields and groups on a page, you use the `modify` function. See the code example below for syntax.
 
-### Page controls  
-You can add the page controls to a page depending on the page type you have chosen. 
-  
-repeater
-cuegroup
-part
-
 <!--
--   FactBoxes (area)  
-  
--   FastTab  ??
-  
--   CueGroup  
-  
--   HomePart  
-  
--   ChartPart  
-  
--   PagePart  
-  
--   SystemPart  
-  
--   Ribbon  
-  
--   Filter Pane  
+### Page controls  
+You can add page controls to a page depending on the page type you have chosen.
+
+|Page Control|Supported on Pages|
+|------------|------------|
+|`repeater`|List, Card|
+|`cuegroup`||
+|`part`||
+|`factbox`||
+|`fasttab`||
+|`homepart`||
+|`chartpart`||
+|`pagepart`||
+|`systempart`||
+|`ribbon`||
+|`filterpane`||
 -->
+
   
 ## Page actions
 All pages contain menu items and navigation controls called actions. The ```actions``` section of the page describes what the user is able to do on a page and must be designed with the user's need for process support in mind. Actions are added to the ribbon or as activity buttons/cues. The following example creates a new group in the ribbon and places it last in the General group.
