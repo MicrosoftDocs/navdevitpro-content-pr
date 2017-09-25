@@ -78,7 +78,7 @@ This example mounts a tenant, 'Test', that is based on the tenant database 'Test
 
 ### EXAMPLE 7
 ```
-Mount-NAVTenant -ServerInstance “DynamicsNAV” -Tenant "Tenant1" -DatabaseName "TenantDatabase1" -EncryptionProvider "AzureKeyVault" -AzureKeyVaultsettings (new-object Microsoft.Dynamics.Nav.Types.AzureKeyVaultSettings -Argumentlist ("0a4c9971-1a94-43a3-833a-8fe1da569459","LocalMachine","my","1914ABBB1488432045A129709E49C74BA0A94A29" ,"https://mykeyvault.vault.azure.net/keys/mysecretkey"))
+Mount-NAVTenant -ServerInstance “DynamicsNAV” -Tenant "Tenant1" -DatabaseName "TenantDatabase1" -EncryptionProvider "AzureKeyVault" -AzureKeyVaultsettings (new-object Microsoft.Dynamics.Nav.Types.AzureKeyVaultSettings -Argumentlist ("0a4c9971-1a94-43a3-833a-8fe1da569459","LocalMachine","my","1914ABBB1488432045A129709E49C74BA0A94A29","https://mykeyvault.vault.azure.net/keys/mysecretkey"))
 ```
 
 This example mounts the tenant " Tenant1" in database " TenantDatabase1" and configures the encryption provider to AzureKeyVault.
