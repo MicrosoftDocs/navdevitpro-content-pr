@@ -52,6 +52,7 @@
 ## [Keyboard Shortcuts](developer/devenv-keyboard-shortcuts.md)
 ## [Differences in the Development Environments](developer/devenv-differences.md)
 ## [The Txt2Al Conversion Tool](developer/devenv-txt2al-tool.md)
+## [Upgrading from Extensions V1 to Extensions V2](developer/devenv-upgrade-v1-to-v2-overview.md)
 ## [AL Programming Guide](developer/devenv-programming-in-al.md)
 ## [Events](developer/devenv-events-in-al.md)
 ## [Notifications](developer/devenv-notifications-developing.md)
