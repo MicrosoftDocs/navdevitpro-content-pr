@@ -28,14 +28,14 @@ The following table describes the settings in the ```app.json``` file:
 |id|Yes|The unique ID of the extension. When app.json file is automatically created, the ID is set to a new GUID value.|
 |name|Yes|The unique extension name.|
 |publisher|Yes|The name of your publisher, for example: **NAV Partner**, **LLC** |
-|brief|No|Short description of the extension.|
-|description|No|Longer description of the extension.|
+|brief|No, but required for AppSource submission|Short description of the extension.|
+|description|No, but required for AppSource submission|Longer description of the extension.|
 |version|Yes|The version of the app package.|
-|privacyStatement|No|URL to the privacy statement for the extension.|
-|EULA|No|URL to the license terms for the extension.|
-|help|No|URL to the help for the extension.|
+|privacyStatement|No, but required for AppSource submission|URL to the privacy statement for the extension.|
+|EULA|No, but required for AppSource submission|URL to the license terms for the extension.|
+|help|No, but required for AppSource submission|URL to the help for the extension.|
 |url|No|URL of the extension package.|
-|logo|No|URL to the logo for the extension package.|
+|logo|No, but required for AppSource submission|URL to the logo for the extension package.|
 |dependencies|No|List of dependencies for the extension package.|
 |screenshots|No|Relative paths to any screenshots that should be in the extension package.|
 |platform|Yes, if system tables are referenced in the extension|The minimum supported version of the platform symbol package file, for example: "11.0.0.0". See the [Symbols](devenv-symbols.md) for the list of object symbols contained in the platform symbol package file.|
@@ -49,10 +49,10 @@ The following table describes the settings in the ```launch.json``` file. The `l
 ### Publish to local server settings
 |Setting|Mandatory|Value|
 |-------|---------|-----|
-|name|Yes|"Publish to local server"|
+|name|Yes|"Publish to your own server"|
 |type|Yes|Must be set to ".al". Required by Visual Studio Code.|
-|request|Yes|Request type of the configuration. Must be set to `publish`. Required by Visual Studio Code.|
-|server|Yes|The HTTP URL of your server, for example: `http://localhost|serverInstance`|
+|request|Yes|Request type of the configuration. Must be set to `launch`. Required by Visual Studio Code.|
+|server|Yes|The HTTP URL of your server, for example: `"http://localhost|serverInstance"`|
 |serverInstance|Yes|The instance name of your server, for example: `"NAV"`|
 |authentication|Yes|Specifies the server authentication method.|
 |startupObjectId|Yes|Specifies the ID of the object to open after publishing. Only objects of type Page are currently supported.|
@@ -60,14 +60,14 @@ The following table describes the settings in the ```launch.json``` file. The `l
 ### Publish to cloud settings
 |Setting|Mandatory|Value|
 |-------|---------|-----|
-|name|Yes|"Publish to cloud"|
+|name|Yes|"Publish to Microsoft cloud sandbox"|
 |type|Yes|Must be set to ".al". Required by Visual Studio Code.|
-|request||Request type of the configuration. Must be set to `publish`. Required by Visual Studio Code.|
+|request|Yes|Request type of the configuration. Must be set to `launch`. Required by Visual Studio Code.|
 |startupObjectId|Yes|Specifies the ID of the object to open after publishing. Only objects of type Page are currently supported.|
 |serverInstance|Yes|The instance name of your server, for example: `"US"`|
 
 ## The platform symbol file
-The platform symbol file contains all of the base app objects that your extension builds on. If the symbol file is not present, you will be prompted to download it. For more inforamtion about the platform symbol file, see [Symbols](devenv-symbols.md).
+The platform symbol file contains all of the base app objects that your extension builds on. If the symbol file is not present, you will be prompted to download it. For more information about the platform symbol file, see [Symbols](devenv-symbols.md).
 
 ## See Also
 [Differences in the Dynamics NAV Development Environments](devenv-differences.md)  

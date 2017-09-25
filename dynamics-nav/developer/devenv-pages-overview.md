@@ -27,32 +27,37 @@ The structure of a page is hierarchical and breaks down in to three sections. Th
 Furthermore, the page has properties. Properties work in the same way for pages as they do for other [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] objects. For more information, see [Page Properties](properties/devenv-page-property-overview.md).  
 
 ## Page Metadata
-For a new page object, you must at least specify the type of page; `PageType` and the data source; `SourceTable` of the page. And you can also set other metadata at the beginning of the declaration of the page object, such as:
+For a new page object, you must at least specify the type of page; `PageType` and the data source; `SourceTable` of the page. And you can also set other metadata at the beginning of the declaration of the page object. 
 
 ```
 page Id PageName
 {
     PageType = List;
     SourceTable = TableName;
+    Editable = true;
     ...
 }
 ```
+
 ### Types of Pages  
 Which page type you choose depends on the application task that you want to support, the content that you want to display, and how you want to display it. The Role Center page is the main or home page and it helps the user focus on the most important daily tasks and activities. Other types of pages, such as list pages or card pages are typically linked from the home page for easy access. The following page types are available:  
 
 |Page type   |Description|
 |------------|-----------|
-|`RoleCenter`||
-|`Card`||
-|`CardPart`||
-|`List`||
-|`ListPart`||
-|`ListPlus`||
-|`Document`||
-|`WorkSheet`||
-|`ConfirmationDialog`||
-|`StandardDialog`||
-|`NavigatePage`||
+|`RoleCenter`|The Role Center page is the main page.|
+|`Card`|A Card page is used to view and edit one record or entity from a table.|
+|`CardPart`|A Card Part page is used in a FactBox on another page to view or edit additional fields associated with a selected entity in the page.|
+|`List`|A List page displays content from a table in a list format.|
+|`ListPart`|Similar to a List page, a List Part page displays content from a table in a list format. The difference is that you use the List part page as another page in a FactBox or as a part of the Role Center page.|
+|`ListPlus`|Similar to a List page, a List Plus page displays content from a table in a list format. The difference is that the List Plus page type can contain two lists in one page, and can be used as a two-dimensional matrix.|
+|`Document`|A Document page usually consists of two separate pages combined into one, with one page nested in the other. A Document page is suitable for use when you want to display data from two tables that are linked together.|
+|`WorkSheet`|You use a Worksheet page type for creating worksheet or journal task pages.|
+|`ConfirmationDialog`|You use the ConfirmationDialog page to display messages or prompt users with a confirmation before they continue with the task that they are working on.|
+|`StandardDialog`|The StandardDialog is a simple page type that you use when users only need to input data and do not need to perform other actions from the page.|
+|`NavigatePage`|You use a Navigate page type to create a wizard that leads the user through a sequence of steps for completing a task.|
+
+> [!NOTE]
+> For backwards compatibility we continue to support adding non-part pages as parts. We do, however, recommend that you redesign your page to only use Card part or List part, as we may remove support in a future update. 
 
 ## Page Layout
 The page layout of the page object determines what the page will look like and is specified in the `layout` section. The `layout` contains one or more `area` sections that define a certain placement on the page. 
@@ -81,32 +86,25 @@ In the `layout` section, you can use the following methods to place and move fie
 
 If you want to modify existing fields and groups on a page, you use the `modify` function. See the code example below for syntax.
 
-### Page controls  
-You can add the page controls to a page depending on the page type you have chosen. 
-  
-repeater
-cuegroup
-part
-
 <!--
--   FactBoxes (area)  
-  
--   FastTab  ??
-  
--   CueGroup  
-  
--   HomePart  
-  
--   ChartPart  
-  
--   PagePart  
-  
--   SystemPart  
-  
--   Ribbon  
-  
--   Filter Pane  
+### Page controls  
+You can add page controls to a page depending on the page type you have chosen.
+
+|Page Control|Supported on Pages|
+|------------|------------|
+|`repeater`|List, Card|
+|`cuegroup`||
+|`part`||
+|`factbox`||
+|`fasttab`||
+|`homepart`||
+|`chartpart`||
+|`pagepart`||
+|`systempart`||
+|`ribbon`||
+|`filterpane`||
 -->
+
   
 ## Page actions
 All pages contain menu items and navigation controls called actions. The ```actions``` section of the page describes what the user is able to do on a page and must be designed with the user's need for process support in mind. Actions are added to the ribbon or as activity buttons/cues. The following example creates a new group in the ribbon and places it last in the General group.
