@@ -3,7 +3,7 @@ title: "Converting Extensions V1 to V2 Overview"
 description: "Overview of the converting of extensions."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 08/24/2017
+ms.date: 09/22/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -30,29 +30,28 @@ To convert the source code, you must use the Txt2Al conversion tool. The Txt2Al 
 ## Completing the development of the extension
 When the source code has been converted using the Txt2Al conversion tool, open the project folder. For more information about getting started with Visual Studio Code and the AL Language extension, see [Getting Started](devenv-get-started.md). You will probably run into compilation errors, these can typically be due to:
 
-- Object IDs have changed  
-The conversion tool tries to convert your code into the object ID range allowed for Extensions V2 (?)
+- Object IDs that have changed.  
+    The conversion tool tries to convert your code into the object ID range allowed for Extensions V2.
 - Field or control names look different; the AL syntax requires names, this means that no empty or default names are allowed.
 - Menusuites do not exist in Extensions V2.
-- .NET references are not allowed; There is no support for .NET types (or Control Add-ins). Instead you must use the classes that replace .NET calls. For more information, see [Reference](devenv-reference-overview.md).
+- .NET references are not allowed; there is no support for .NET types. Instead you must use the classes that replace .NET calls. For more information, see [Reference](devenv-reference-overview.md).
 
 ## Writing upgrade code to move data from Extensions V1
-In order to upgrade data from tables in Extensions V1 to Extensions V2, you must write some upgrade code. Refer to the previous section to learn more about the new event based Upgrade Code in V2.
+In order to upgrade data from tables in Extensions V1 to Extensions V2, you must write some upgrade code. <!--Refer to the previous section to learn more about the new event based upgrade code in V2.-->
 
 Writing code for the Extensions V1 to Extensions V2 upgrade is very similar to the code that you have been writing for Extensions V1. All of the NAVAPP.* system functions still work with Extensions V2. 
 
 |Example |Description |
-|---|---|
+|--------|------------|
 |`NAVAPP.DeleteArchiveData(70000000)`|Deletes the archived data from table 70000000.|
 |`NAVAPP.GetArchiveRecordRef(70000000, archRef)`|Gets a record ref to the archived data from table 70000000.|
 |`archVersion := NAVAPP.GetArchiveVersion()`|Gets the version of the archived data from the old extension.|
 |`NAVAPP.RestoreArchiveData(70000000)`|Restores the data from the archive of table 70000000.|
  
-Using this existing API, you can easily restore/move all of your data from the old V1 extension into the new V2 via an upgrade 
+Using this existing API, you can easily restore/move all of your data from the old V1 extension into the new V2 via an upgrade. 
 
 > [!IMPORTANT]
-> Your V1 Extension must be uninstalled before upgrading it to a V2 Extension. In order to use `NAVAPP.RestoreArchiveData()`, you must not change the IDs of the tables that are being restored; this means that tables from your V1 Extension must have the same IDs in V2 Extensions.
- 
+> Your Extension V1 must be uninstalled before upgrading it to an Extension V2. In order to use `NAVAPP.RestoreArchiveData()`, you must not change the IDs of the tables that are being restored; this means that tables from your Extension V1 must have the same IDs in Extensions V2. 
 
 ## See Also
 [Getting Started](devenv-get-started.md)  
