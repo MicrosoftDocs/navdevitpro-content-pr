@@ -1,6 +1,6 @@
 ---
-title: GET retainedEarningsStatement method | Microsoft Docs
-description: Gets a RetainedEarningsStatement.
+title: Get retainedEarningsStatement | Microsoft Docs
+description: Get a retained earnings statement object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

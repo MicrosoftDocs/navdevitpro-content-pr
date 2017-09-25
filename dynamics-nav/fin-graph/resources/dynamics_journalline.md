@@ -1,6 +1,6 @@
 ---
-title: journalLine resource type | Microsoft Docs
-description: A journal line.
+title: journalLines resource type | Microsoft Docs
+description: A journal line in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# JournalLine resource type
+# JournalLines resource type
 Represents a line in a journal in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method                                                    | Return Type|Description         |
 |:----------------------------------------------------------|:-----------|:-------------------|
-|[GET journalLine](../api/dynamics_get_journalline.md)      |journalLines|Get Journal Line.   |
-|[POST journalLine](../api/dynamics_create_journalline.md)  |journalLines|Create Journal Line.|
-|[PATCH journalLine](../api/dynamics_update_journalline.md) |journalLines|Update Journal Line.|
-|[DELETE journalLine](../api/dynamics_delete_journalline.md)|none        |Delete Journal Line.|
+|[GET journalLines](../api/dynamics_get_journalline.md)      |journalLines|Get Journal Line.   |
+|[POST journalLines](../api/dynamics_create_journalline.md)  |journalLines|Create Journal Line.|
+|[PATCH journalLines](../api/dynamics_update_journalline.md) |journalLines|Update Journal Line.|
+|[DELETE journalLines](../api/dynamics_delete_journalline.md)|none        |Delete Journal Line.|
 
 ## Properties
 | Property	           | Type	                |Description                                                        |

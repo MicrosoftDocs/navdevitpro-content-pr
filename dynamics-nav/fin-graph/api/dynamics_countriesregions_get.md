@@ -1,5 +1,5 @@
 ---
-title: GET countries/Regions method | Microsoft Docs
+title: Get countriesRegions | Microsoft Docs
 description: Gets a countries/regions.
 services: project-madeira
 documentationcenter: ''

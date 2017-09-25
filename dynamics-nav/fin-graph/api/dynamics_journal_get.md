@@ -1,6 +1,6 @@
 ---
-title: GET journals method | Microsoft Docs
-description: Gets a journal.
+title: Get journals | Microsoft Docs
+description: Get a journal in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

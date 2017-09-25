@@ -1,6 +1,6 @@
 ---
-title: DELETE IRS1099Codes method | Microsoft Docs
-description: Deletes an IRS 1099 code.
+title: Delete salesInvoices | Microsoft Docs
+description: Delete a sales invoice object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,20 +14,19 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete IRS1099Codes
-Delete a irs1099Codes from Dynamics 365 for Financials.
+# Delete salesInvoices
+Delete a sales invoice object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/({id})/irs1099Codes/({id})
+DELETE /financials/companies/({id})/salesInvoices/({id})
 ```
 
 ## Request headers
-
-|Header       |Value                     |
-|-------------|--------------------------|
-|Authorization|Bearer {token}. Required. |
-|If-Match     |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
+| Header        | Value                    |
+|---------------|--------------------------|
+|Authorization  |Bearer {token}. Required. |
+|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/irs1099Codes/({id})
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesInvoices/({id})
 ```
 
 **Response** 

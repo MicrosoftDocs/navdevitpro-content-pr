@@ -1,6 +1,6 @@
 ---
-title: UPDATE customerPayments method | Microsoft Docs
-description: Updates a customer payments.
+title: Update customerPayments | Microsoft Docs
+description: Updates a customer payments object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

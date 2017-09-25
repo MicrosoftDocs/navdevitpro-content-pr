@@ -1,6 +1,6 @@
 ---
-title: UPDATE employees method | Microsoft Docs
-description: Updates an employee.
+title: Update employees | Microsoft Docs
+description: Updates an employee object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

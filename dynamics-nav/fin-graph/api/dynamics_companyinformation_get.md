@@ -1,5 +1,5 @@
 ---
-title: GET companyInformation method | Microsoft Docs
+title: GET companyInformation | Microsoft Docs
 description: Gets company information.
 services: project-madeira
 documentationcenter: ''

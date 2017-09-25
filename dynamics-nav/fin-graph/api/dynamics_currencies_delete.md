@@ -1,6 +1,6 @@
 ---
-title: DELETE purchaseInvoice method | Microsoft Docs
-description: Deletes a purchase invoice.
+title: Delete currencies | Microsoft Docs
+description: Delete a currency object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,19 +14,21 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete purchaseInvoice
-Delete a purchaseInvoice from Dynamics 365 for Financials.
+# Delete currencies
+Delete a currencies object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/({id})/purchaseInvoices/({id})
+DELETE /financials/companies/({id})/currencies/({id})
 ```
 
 ## Request headers
-|Header         |Value                     |
-|---------------|--------------------------|
+
+|Header|Value|
+|------|-----|
 |Authorization  |Bearer {token}. Required. |
-|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the purchase invoice, the purchase invoice will not be updated. |
+|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be
+ updated. |
 
 ## Request body
 Do not supply a request body for this method.
@@ -41,7 +43,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/purchaseInvoices/({id})
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/currencies/({id})
 ```
 
 **Response** 

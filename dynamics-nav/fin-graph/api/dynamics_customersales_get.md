@@ -1,6 +1,6 @@
 ---
-title: GET CustomerSales method | Microsoft Docs
-description: Gets a customer sales.
+title: Get CustomerSales | Microsoft Docs
+description: Get a customer sales object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

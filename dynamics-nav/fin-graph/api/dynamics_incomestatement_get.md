@@ -1,6 +1,6 @@
 ---
-title: GET incomeStatement method | Microsoft Docs
-description: Gets an income statement.
+title: Get incomeStatement | Microsoft Docs
+description: Get an income statement in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

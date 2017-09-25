@@ -1,6 +1,6 @@
 ---
-title: DELETE itemCategories method | Microsoft Docs
-description: Deletes an item category.
+title: Delete purchaseInvoices | Microsoft Docs
+description: Delete a purchase invoice object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,24 +10,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete itemCategories
-Delete an itemCategory from Dynamics 365 for Financials.
-
+# Delete purchaseInvoices
+Delete a purchaseInvoice from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/({id})/itemCategories/({id})
+DELETE /financials/companies/({id})/purchaseInvoices/({id})
 ```
 
 ## Request headers
 |Header         |Value                     |
 |---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
-|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
+|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the purchase invoice, the purchase invoice will not be updated. |
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/itemCategories/({id})
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/purchaseInvoices/({id})
 ```
 
 **Response** 

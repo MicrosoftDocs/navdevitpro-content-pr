@@ -1,6 +1,6 @@
 ---
-title: GET currency method | Microsoft Docs
-description: Gets a currency.
+title: Get currencies | Microsoft Docs
+description: Gets a currency object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get currency
+# Get currencies
 Retrieve the properties and relationships of a currencies object for Dynamics 365 for Financials.
 
 ## HTTP request

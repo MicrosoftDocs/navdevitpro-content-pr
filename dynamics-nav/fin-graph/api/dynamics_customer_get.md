@@ -1,6 +1,6 @@
 ---
-title: GET customers method | Microsoft Docs
-description: Get a customer.
+title: Get customers | Microsoft Docs
+description: Gets a customer object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

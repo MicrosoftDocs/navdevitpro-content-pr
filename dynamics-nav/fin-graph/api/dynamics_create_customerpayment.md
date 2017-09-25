@@ -1,6 +1,6 @@
 ---
-title: CREATE customerPayment method | Microsoft Docs
-description: Creates a customer payment.
+title: Create customerPayments | Microsoft Docs
+description: Creates a customer payment in Dynamics 365 for Financials.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
@@ -13,7 +13,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create customerPayment
+# Create customerPayments
 Creates a customer payment in Dynamics 365 for Financials.
 
 ## HTTP request

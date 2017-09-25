@@ -1,6 +1,6 @@
 ---
-title: DELETE item method | Microsoft Docs
-description: Deletes an item.
+title: Delete items | Microsoft Docs
+description: Delete an item in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete item
+# Delete items
 Delete an item from Dynamics 365 for Financials.
 
 ## HTTP request

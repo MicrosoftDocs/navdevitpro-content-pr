@@ -1,6 +1,6 @@
 ---
-title: GET purchaseInvoices method | Microsoft Docs
-description: Gets a purchase invoice.
+title: Get purchaseInvoices | Microsoft Docs
+description: Get a purchase invoice object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

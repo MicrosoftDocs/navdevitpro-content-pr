@@ -1,6 +1,6 @@
 ---
-title: DELETE customer method | Microsoft Docs
-description: Deletes a customer.
+title: Delete countriesRegions | Microsoft Docs
+description: Delete countries/regions in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete customer
-Delete a customer from Dynamics 365 for Financials.
+# Delete countriesRegions
+Delete a countriesRegions object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/({id})/customers/({id})
+DELETE /financials/companies/({id})/countriesRegions/({id})
 ```
 
 ## Request headers
-|Header         |Value                     |
-|---------------|--------------------------|
+|Header|Value|
+|------|-----|
 |Authorization  |Bearer {token}. Required. |
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
 
@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customers/({id})
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/countriesRegions/({id})
 ```
 
 **Response** 
@@ -51,8 +51,6 @@ Here is an example of the response.
 ```json
 HTTP/1.1 204 No Content
 ```
-
-
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

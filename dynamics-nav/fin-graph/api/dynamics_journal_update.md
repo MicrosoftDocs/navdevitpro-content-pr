@@ -1,6 +1,6 @@
 ---
-title: UPDATE journals method | Microsoft Docs
-description: Updates a journal.
+title: Update journals | Microsoft Docs
+description: Update a journal in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

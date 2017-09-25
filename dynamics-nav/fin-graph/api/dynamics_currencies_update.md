@@ -1,6 +1,6 @@
 ---
-title: UPDATE currencies method | Microsoft Docs
-description: Updates a currency.
+title: Update currencies | Microsoft Docs
+description: Updates a currency object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

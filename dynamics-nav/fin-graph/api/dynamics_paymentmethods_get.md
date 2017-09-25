@@ -1,6 +1,6 @@
 ---
-title: GET paymentMethods method | Microsoft Docs
-description: Gets a payment method.
+title: Get paymentMethods | Microsoft Docs
+description: Get a payment method object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

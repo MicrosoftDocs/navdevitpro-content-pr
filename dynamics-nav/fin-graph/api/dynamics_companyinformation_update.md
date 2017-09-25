@@ -1,5 +1,5 @@
 ---
-title: UPDATE companyInformation method | Microsoft Docs
+title: Update companyInformation | Microsoft Docs
 description: Updates company information.
 services: project-madeira
 documentationcenter: ''

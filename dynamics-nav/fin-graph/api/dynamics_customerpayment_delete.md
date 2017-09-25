@@ -1,6 +1,6 @@
 ---
-title: DELETE journal method | Microsoft Docs
-description: Deletes a journal.
+title: Delete customerPayment | Microsoft Docs
+description: Deletes a customer payment object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete journal
-Delete a journal from Dynamics 365 for Financials.
+# Delete customerPayment
+Delete a customerPayment from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/({id})/journals/({id})
+DELETE /financials/companies/({id})/customerPaymentsJournals/({id})/customerPayments/({id})
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/journals/({id})
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customerPaymentsJournals/({id})/customerPayments/({id})
 ```
 
 **Response** 
@@ -55,4 +55,4 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

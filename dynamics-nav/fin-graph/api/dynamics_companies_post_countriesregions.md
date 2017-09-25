@@ -1,5 +1,5 @@
 ---
-title: CREATE countries/regions method | Microsoft Docs
+title: Create countriesRegions | Microsoft Docs
 description: Creates a countries/regions.
 services: project-madeira
 documentationcenter: ''

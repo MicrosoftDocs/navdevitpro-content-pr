@@ -1,6 +1,6 @@
 ---
-title: GET customerPaymentsJournal method | Microsoft Docs
-description: Gets a customer payments journal.
+title: Get customerPaymentsJournal | Microsoft Docs
+description: Gets a customer payments journal in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

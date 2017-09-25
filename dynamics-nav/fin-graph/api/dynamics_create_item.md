@@ -1,6 +1,6 @@
 ---
-title: CREATE item method | Microsoft Docs
-description: Creates an item.
+title: Create items | Microsoft Docs
+description: Create an item object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create item
+# Create items
 Create an item in Dynamics 365 for Financials for use on invoices, quotes, etc.
 
 ## HTTP request

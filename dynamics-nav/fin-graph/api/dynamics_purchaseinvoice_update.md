@@ -1,6 +1,6 @@
 ---
-title: PATCH purchaseInvoices method | Microsoft Docs
-description: Patches a purchase invoice.
+title: Update purchaseInvoices | Microsoft Docs
+description: Update a purchase invoice object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

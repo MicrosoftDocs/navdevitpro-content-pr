@@ -1,5 +1,5 @@
 ---
-title: complex Types JSON | Microsoft Docs
+title: complex types JSON | Microsoft Docs
 description: Complex data types JSON.
 services: project-madeira
 documentationcenter: ''

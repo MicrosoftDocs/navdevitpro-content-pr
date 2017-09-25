@@ -1,6 +1,6 @@
 ---
-title: DELETE paymentTerms method | Microsoft Docs
-description: Deletes a payment terms.
+title: Delete paymentMethods | Microsoft Docs
+description: Delete a payment method object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete paymentTerms
-Delete a paymentTerms from Dynamics 365 for Financials.
+# Delete paymentMethods
+Delete a paymentMethod from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/({id})/paymentTerms/({id})
+DELETE /financials/companies/({id})/paymentMethods/({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentTerms/({id})
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentMethods/({id})
 ```
 
 **Response** 

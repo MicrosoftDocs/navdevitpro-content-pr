@@ -1,6 +1,6 @@
 ---
-title: UPDATE paymentMethods method | Microsoft Docs
-description: Updates a payment method.
+title: Update paymentMethods | Microsoft Docs
+description: Updates a payment method object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

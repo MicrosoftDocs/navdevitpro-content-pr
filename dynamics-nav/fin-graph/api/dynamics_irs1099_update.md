@@ -1,6 +1,6 @@
 ---
-title: UPDATE IRS1099Codes method | Microsoft Docs
-description: Updates a IRS 1099 Code.
+title: Update irs1099Codes | Microsoft Docs
+description: Updates a IRS 1099 Code in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Update IRS1099Codes
+# Update irs1099Codes
 Update the properties of an IRS 1099 codes object for Dynamics 365 for Financials.
 
 ## HTTP request
