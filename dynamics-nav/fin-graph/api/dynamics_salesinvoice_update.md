@@ -1,6 +1,6 @@
 ---
-title: PATCH salesInvoices method | Microsoft Docs
-description: Patches a sales invoice.
+title: Update salesInvoices | Microsoft Docs
+description: Update a sales invoice object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

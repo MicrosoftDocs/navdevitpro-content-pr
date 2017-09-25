@@ -1,6 +1,6 @@
 ---
 title: Delete customers | Microsoft Docs
-description: Deletes a customer.
+description: Deletes a customers object from Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

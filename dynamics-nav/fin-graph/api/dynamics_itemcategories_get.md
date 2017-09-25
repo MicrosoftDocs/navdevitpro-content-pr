@@ -1,6 +1,6 @@
 ---
-title: GET itemCategories method | Microsoft Docs
-description: Gets an item categories.
+title: Get itemCategories | Microsoft Docs
+description: Get an item category in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

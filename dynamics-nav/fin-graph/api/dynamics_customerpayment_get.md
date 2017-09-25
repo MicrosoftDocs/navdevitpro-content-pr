@@ -1,6 +1,6 @@
 ---
 title: Get customerPayments | Microsoft Docs
-description: Gets a customer payment.
+description: Gets a customer payment object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

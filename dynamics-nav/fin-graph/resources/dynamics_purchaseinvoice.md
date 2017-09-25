@@ -1,6 +1,6 @@
 ---
-title: purchaseInvoice resource type | Microsoft Docs
-description: A Purchase Invoice.
+title: purchaseInvoices resource type | Microsoft Docs
+description: A purchase invoice object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# purchaseInvoice resource type
+# purchaseInvoices resource type
 Represents a purchase invoice in Dynamics 365 for Financials. 
 
 ## Methods
 
 | Method                                                             | Return Type    |Description                     |
 |:-------------------------------------------------------------------|:---------------|:-------------------------------|
-|[GET Purchase Invoice](../api/dynamics_get_purchaseinvoice.md)      |Purchase Invoice|Get a Purchase Invoice object   |
-|[POST Purchase Invoice](../api/dynamics_create_purchaseinvoice.md)  |Purchase Invoice|Create a Purchase Invoice object|
-|[PATCH Purchase Invoice](../api/dynamics_update_purchaseinvoice.md) |Purchase Invoice|Update a Purchase Invoice object|
-|[DELETE Purchase Invoice](../api/dynamics_delete_purchaseinvoice.md)|none            |Delete a Purchase Invoice object|
+|[GET purchaseInvoices](../api/dynamics_get_purchaseinvoice.md)      |Purchase Invoice|Get a Purchase Invoice object   |
+|[POST purchaseInvoices](../api/dynamics_create_purchaseinvoice.md)  |Purchase Invoice|Create a Purchase Invoice object|
+|[PATCH purchaseInvoices](../api/dynamics_update_purchaseinvoice.md) |Purchase Invoice|Update a Purchase Invoice object|
+|[DELETE purchaseInvoices](../api/dynamics_delete_purchaseinvoice.md)|none            |Delete a Purchase Invoice object|
 
 ## Properties
 | Property	            | Type	            |Description                                                |

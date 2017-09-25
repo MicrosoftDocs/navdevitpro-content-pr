@@ -1,6 +1,6 @@
 ---
-title: CREATE employee method | Microsoft Docs
-description: Creates an employee.
+title: Create employees | Microsoft Docs
+description: Creates an employee in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create employee
+# Create employees
 Create an employee in Dynamics 365 for Financials.
 
 ## HTTP request

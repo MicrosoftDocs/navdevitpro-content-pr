@@ -1,6 +1,6 @@
 ---
 title: GET balanceSheet method | Microsoft Docs
-description: Gets a balance sheet.
+description: Gets a balance sheet report object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

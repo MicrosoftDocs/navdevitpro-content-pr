@@ -1,6 +1,6 @@
 ---
-title: UPDATE journalLines method | Microsoft Docs
-description: Updates a journal lines.
+title: Update journalLines | Microsoft Docs
+description: Update a journal line in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

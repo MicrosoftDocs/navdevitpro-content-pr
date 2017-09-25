@@ -1,6 +1,6 @@
 ---
 title: paymentMethods resource type | Microsoft Docs
-description: A Payment Method object.
+description: A payment method object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

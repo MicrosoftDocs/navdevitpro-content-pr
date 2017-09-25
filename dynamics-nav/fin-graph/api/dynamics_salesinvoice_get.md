@@ -1,6 +1,6 @@
 ---
-title: GET salesInvoices method | Microsoft Docs
-description: Gets a sales invoice.
+title: Get salesInvoices | Microsoft Docs
+description: Get a sales invoice object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

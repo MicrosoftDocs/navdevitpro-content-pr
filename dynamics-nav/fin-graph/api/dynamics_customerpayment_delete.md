@@ -1,6 +1,6 @@
 ---
-title: DELETE itemCategories method | Microsoft Docs
-description: Deletes an item category.
+title: Delete customerPayment | Microsoft Docs
+description: Deletes a customer payment object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,17 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete itemCategories
-Delete an itemCategory from Dynamics 365 for Financials.
-
+# Delete customerPayment
+Delete a customerPayment from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/({id})/itemCategories/({id})
+DELETE /financials/companies/({id})/customerPaymentsJournals/({id})/customerPayments/({id})
 ```
 
 ## Request headers
@@ -30,9 +29,11 @@ DELETE /financials/companies/({id})/itemCategories/({id})
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
 
 ## Request body
+
 Do not supply a request body for this method.
 
 ## Response
+
 If successful, this method returns ```204 No Content``` response code. It does not return anything in the response body.
 
 ## Example
@@ -42,7 +43,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/itemCategories/({id})
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customerPaymentsJournals/({id})/customerPayments/({id})
 ```
 
 **Response** 

@@ -1,6 +1,6 @@
 ---
-title: GET paymentTerms method | Microsoft Docs
-description: Gets a paymentTerms.
+title: Get paymentTerms | Microsoft Docs
+description: Get a payment term object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

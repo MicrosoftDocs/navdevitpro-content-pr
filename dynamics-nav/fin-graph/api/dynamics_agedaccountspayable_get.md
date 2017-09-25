@@ -1,6 +1,6 @@
 ---
 title: GET agedAccountsPayable | Microsoft Docs
-description: Gets an aged accounts payable.
+description: Gets an aged accounts payable report object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

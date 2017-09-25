@@ -1,6 +1,6 @@
 ---
-title: CREATE paymentTerms method | Microsoft Docs
-description: Creates a payment term.
+title: Create paymentTerms | Microsoft Docs
+description: Create a payment term object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

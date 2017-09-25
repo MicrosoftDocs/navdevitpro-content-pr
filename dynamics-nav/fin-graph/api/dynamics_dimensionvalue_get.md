@@ -1,6 +1,6 @@
 ---
-title: GET dimensionValues method | Microsoft Docs
-description: Gets a dimension value.
+title: Get dimensionValues | Microsoft Docs
+description: Get a dimension value in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

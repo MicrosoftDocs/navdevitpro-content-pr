@@ -1,6 +1,6 @@
 ---
 title: Delete currencies | Microsoft Docs
-description: Deletes a currency.
+description: Delete a currency object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete currencies
-Delete a currencies from Dynamics 365 for Financials.
+Delete a currencies object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

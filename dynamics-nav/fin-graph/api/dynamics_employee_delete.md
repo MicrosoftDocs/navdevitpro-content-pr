@@ -1,6 +1,6 @@
 ---
-title: DELETE employee method | Microsoft Docs
-description: Deletes an employee.
+title: Delete employees | Microsoft Docs
+description: Delete an employee object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete employee
+# Delete employees
 Delete an employee from Dynamics 365 for Financials.
 
 ## HTTP request

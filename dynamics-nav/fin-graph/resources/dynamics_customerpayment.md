@@ -1,6 +1,6 @@
 ---
 title: customerPayments resource type | Microsoft Docs
-description: A customer payment.
+description: A customer payment in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

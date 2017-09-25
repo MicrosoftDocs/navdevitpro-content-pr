@@ -1,6 +1,6 @@
 ---
-title: CREATE journalLine method | Microsoft Docs
-description: Creates a journal line.
+title: Create journalLines | Microsoft Docs
+description: Create a journal line in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create journalLine
+# Create journalLines
 Creates a journalLine in Dynamics 365 for Financials.
 
 ## HTTP request

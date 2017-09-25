@@ -1,6 +1,6 @@
 ---
-title: purchaseInvoiceLine resource type | Microsoft Docs
-description: A purchase invoice line.
+title: purchaseInvoiceLines resource type | Microsoft Docs
+description: A purchase invoice line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# purchaseInvoiceLine resource type
+# purchaseInvoiceLines resource type
 Represents a line on a purchase invoice in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET Purchase Invoice Line](../api/dynamics_get_purchaseinvoiceline.md)|Purchase Invoice Line|Get Purchase Invoice Line object|
-|[POST Purchase Invoice Line](../api/dynamics_create_purchaseinvoiceline.md)|Purchase Invoice Line|Create Purchase Invoice Line object|
-|[PATCH Purchase Invoice Line](../api/dynamics_update_purchaseinvoiceline.md)|Purchase Invoice Line|Update Purchase Invoice Line object|
-|[DELETE Purchase Invoice Line](../api/dynamics_delete_purchaseinvoiceline.md)|none|Delete Purchase Invoice Line object|
+|[GET purchaseInvoiceLines](../api/dynamics_get_purchaseinvoiceline.md)|purchaseInvoiceLines|Get a purchase invoice line object|
+|[POST purchaseInvoiceLines](../api/dynamics_create_purchaseinvoiceline.md)|purchaseInvoiceLines|Create a purchase invoice line object|
+|[PATCH purchaseInvoiceLines](../api/dynamics_update_purchaseinvoiceline.md)|purchaseInvoiceLines|Update a purchase invoice line object|
+|[DELETE purchaseInvoiceLines](../api/dynamics_delete_purchaseinvoiceline.md)|none|Delete a purchase invoice line object|
 
 ## Properties
 | Property	   | Type	|Description|

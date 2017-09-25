@@ -1,6 +1,6 @@
 ---
-title: DELETE purchaseInvoice method | Microsoft Docs
-description: Deletes a purchase invoice.
+title: Delete purchaseInvoices | Microsoft Docs
+description: Delete a purchase invoice object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete purchaseInvoice
+# Delete purchaseInvoices
 Delete a purchaseInvoice from Dynamics 365 for Financials.
 
 ## HTTP request

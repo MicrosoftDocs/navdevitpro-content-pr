@@ -1,6 +1,6 @@
 ---
-title: DELETE purchaseInvoiceLine method | Microsoft Docs
-description: Deletes a purchase invoice line.
+title: Delete purchaseInvoiceLines | Microsoft Docs
+description: Delete a purchase invoice line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete purchaseInvoiceLine
+# Delete purchaseInvoiceLines
 Delete a purchaseInvoiceLine from Dynamics 365 for Financials.
 
 ## HTTP request

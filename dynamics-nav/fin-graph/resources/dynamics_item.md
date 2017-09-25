@@ -1,6 +1,6 @@
 ---
-title: item resource type | Microsoft Docs
-description: An item.
+title: items resource type | Microsoft Docs
+description: An item object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# item resource type
+# items resource type
 Represents an item in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method                                      |Return Type|Description |
 |:--------------------------------------------|:----------|:-----------|
-|[GET item](../api/dynamics_get_item.md)      |item       |Get item.   |
-|[POST item](../api/dynamics_create_item.md)  |item       |Create item.|
-|[PATCH item](../api/dynamics_update_item.md) |item       |Update item.|
-|[DELETE item](../api/dynamics_delete_item.md)|none       |Delete item.|
+|[GET items](../api/dynamics_get_item.md)      |items       |Gets an item.   |
+|[POST items](../api/dynamics_create_item.md)  |items       |Creates an item.|
+|[PATCH item](../api/dynamics_update_item.md)  |items       |Updates an item.|
+|[DELETE items](../api/dynamics_delete_item.md)|none       |Deletes an item.|
 
 ## Properties
 | Property	         | Type	|Description                                          |

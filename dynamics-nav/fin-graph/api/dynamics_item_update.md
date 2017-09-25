@@ -1,6 +1,6 @@
 ---
 title: Update items | Microsoft Docs
-description: Updates an item.
+description: Update an item in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

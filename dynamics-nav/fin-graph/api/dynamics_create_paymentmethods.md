@@ -1,6 +1,6 @@
 ---
-title: CREATE paymentMethod method | Microsoft Docs
-description: Creates a payment method.
+title: Create paymentMethods | Microsoft Docs
+description: Create a payment method object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create paymentMethod
+# Create paymentMethods
 Create a paymentMethods in Dynamics 365 for Financials.
 
 ## HTTP request

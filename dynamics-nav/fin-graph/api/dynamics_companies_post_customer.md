@@ -1,6 +1,6 @@
 ---
 title: Create customers | Microsoft Docs
-description: Creates a customer.
+description: Creates a customer object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

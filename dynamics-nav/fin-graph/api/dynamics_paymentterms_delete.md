@@ -1,6 +1,6 @@
 ---
-title: DELETE dimensionLine method | Microsoft Docs
-description: Deletes a dimension line.
+title: Delete paymentTerms | Microsoft Docs
+description: Delete a payment term object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,19 +14,20 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete dimensionLine
-Delete a dimensionLine from Dynamics 365 for Financials.
+# Delete paymentTerms
+Delete a paymentTerms from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/({id})/dimensionLines(parentId=({id}),id=({id}))
+DELETE /financials/companies/({id})/paymentTerms/({id})
 ```
 
 ## Request headers
-|Header        |Value                     |
-|--------------|--------------------------|
-|Authorization |Bearer {token}. Required. |
-|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the dimension line, the dimension line will not be updated. |
+
+|Header         |Value                     |
+|---------------|--------------------------|
+|Authorization  |Bearer {token}. Required. |
+|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
 
 ## Request body
 Do not supply a request body for this method.
@@ -41,7 +42,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/dimensionLines(parentId=({id}),id=({id}))
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentTerms/({id})
 ```
 
 **Response** 

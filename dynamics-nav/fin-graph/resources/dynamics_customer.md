@@ -1,6 +1,6 @@
 ---
 title: customers resource type | Microsoft Docs
-description: A customer.
+description: Represents a customer in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

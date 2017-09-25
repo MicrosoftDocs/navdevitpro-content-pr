@@ -1,6 +1,6 @@
 ---
-title: employee resource type | Microsoft Docs
-description: An Employee.
+title: employees resource type | Microsoft Docs
+description: An employee object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# employee resource type
+# employees resource type
 Represents an employee in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method                                              | Return Type|Description              |
 |:----------------------------------------------------|:-----------|:------------------------|
-|[GET Employee](../api/dynamics_get_employee.md)      |Employee    |Get an Employee object   |
-|[POST Employee](../api/dynamics_create_employee.md)  |Employee    |Create an Employee object|
-|[PATCH Employee](../api/dynamics_update_employee.md) |Employee    |Update an Employee object|
-|[DELETE Employee](../api/dynamics_delete_employee.md)|none        |Delete an Employee object|
+|[GET Employees](../api/dynamics_get_employee.md)      |Employees  |Get an Employee object   |
+|[POST Employees](../api/dynamics_create_employee.md)  |Employees  |Create an Employee object|
+|[PATCH Employees](../api/dynamics_update_employee.md) |Employees  |Update an Employee object|
+|[DELETE Employees](../api/dynamics_delete_employee.md)|none       |Delete an Employee object|
 
 ## Properties
 | Property	         | Type	  |Description                                            |

@@ -1,6 +1,6 @@
 ---
-title: CREATE dimensionLine method | Microsoft Docs
-description: Creates a dimension line.
+title: Create dimensionLines | Microsoft Docs
+description: Create a dimension line in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create dimensionLine
+# Create dimensionLines
 Create a dimensionLine in Dynamics 365 for Financials.
 
 ## HTTP request

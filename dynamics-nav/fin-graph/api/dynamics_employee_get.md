@@ -1,6 +1,6 @@
 ---
-title: GET employee method | Microsoft Docs
-description: Gets an employee.
+title: Get employees | Microsoft Docs
+description: Get an employee object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Get employee
+# Get employees
 Retrieve the properties and relationships of an employee object for Dynamics 365 for Financials.
 
 ## HTTP request

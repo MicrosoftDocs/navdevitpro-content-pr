@@ -1,6 +1,6 @@
 ---
-title: UPDATE customerPaymentsJournals method | Microsoft Docs
-description: Updates a customer payments journal.
+title: Update customerPaymentsJournals | Microsoft Docs
+description: Updates a customer payments journal in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

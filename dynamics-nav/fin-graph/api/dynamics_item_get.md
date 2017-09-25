@@ -1,6 +1,6 @@
 ---
-title: GET items method | Microsoft Docs
-description: Gets an item.
+title: Get items | Microsoft Docs
+description: Get an item in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

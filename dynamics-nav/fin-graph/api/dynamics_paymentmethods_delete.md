@@ -1,6 +1,6 @@
 ---
-title: DELETE journal method | Microsoft Docs
-description: Deletes a journal.
+title: Delete paymentMethods | Microsoft Docs
+description: Delete a payment method object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,26 +14,25 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete journal
-Delete a journal from Dynamics 365 for Financials.
+# Delete paymentMethods
+Delete a paymentMethod from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/({id})/journals/({id})
+DELETE /financials/companies/({id})/paymentMethods/({id})
 ```
 
 ## Request headers
+
 |Header         |Value                     |
 |---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
 
 ## Request body
-
 Do not supply a request body for this method.
 
 ## Response
-
 If successful, this method returns ```204 No Content``` response code. It does not return anything in the response body.
 
 ## Example
@@ -43,7 +42,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/journals/({id})
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentMethods/({id})
 ```
 
 **Response** 
@@ -55,4 +54,4 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
