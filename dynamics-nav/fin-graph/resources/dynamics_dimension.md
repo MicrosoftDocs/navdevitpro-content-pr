@@ -1,6 +1,6 @@
 ---
 title: dimension resource type | Microsoft Docs
-description: A dimension.
+description: A dimension in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

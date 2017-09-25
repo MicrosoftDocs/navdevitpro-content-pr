@@ -1,6 +1,6 @@
 ---
-title: CREATE purchaseInvoice method | Microsoft Docs
-description: Creates a purchase invoice.
+title: Create purchaseInvoices | Microsoft Docs
+description: Create a purchase invoice object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

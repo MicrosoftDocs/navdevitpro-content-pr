@@ -1,5 +1,5 @@
 ---
-title: account resource type | Microsoft Docs
+title: accounts resource type | Microsoft Docs
 description: An account.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# account resource type
+# accounts resource type
 Represents an account object in Dynamics 365 for Financials.
 
 ## Methods

@@ -1,6 +1,6 @@
 ---
 title: customerSales resource type | Microsoft Docs
-description: A CustomerSales.
+description: A CustomerSales in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

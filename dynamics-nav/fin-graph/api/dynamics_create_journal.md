@@ -1,6 +1,6 @@
 ---
-title: CREATE journal method | Microsoft Docs
-description: Creates a journal.
+title: Create journals | Microsoft Docs
+description: Create a journal in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create journal
+# Create journals
 Creates a journal in Dynamics 365 for Financials.
 
 ## HTTP request
