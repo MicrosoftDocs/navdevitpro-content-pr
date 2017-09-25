@@ -13,25 +13,12 @@ Mounts a tenant database against the specified Microsoft Dynamics NAV Server ins
 
 ### UseNST
 ```
-Mount-NAVTenant [-OverwriteTenantIdInDatabase] [-SkipUpdateScheduledTaskList]
- [-DatabaseCredentials <PSCredential>] [-ServerInstance] <String> [-EncryptionProvider <EncryptionProvider>]
- [-Force] [-WhatIf] [-Confirm] -Id <String> -DatabaseName <String> [-DatabaseServer <String>]
- [-AlternateId <System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]>] [-AllowAppDatabaseWrite]
- [-NasServicesEnabled] [-RunNasWithAdminRights] [-DefaultCompany <String>] [-DefaultTimeZone <TimeZoneInfo>]
- [-ExchangeAuthenticationMetadataLocation <String>] [-AadTenantId <String>] [-DatabaseInstance <String>]
- [<CommonParameters>]
+Mount-NAVTenant [-OverwriteTenantIdInDatabase] [-SkipUpdateScheduledTaskList] [-DatabaseCredentials <PSCredential>] [-ServerInstance] <String> [-EncryptionProvider <EncryptionProvider>] [-Force] [-WhatIf] [-Confirm] -Id <String> -DatabaseName <String> [-DatabaseServer <String>] [-AlternateId <System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]>] [-AllowAppDatabaseWrite] [-AzureKeyVaultSettings <AzureKeyVaultSettings>] [-NasServicesEnabled] [-RunNasWithAdminRights] [-DefaultCompany <String>] [-DefaultTimeZone <TimeZoneInfo>] [-ExchangeAuthenticationMetadataLocation <String>] [-AadTenantId <String>] [-DatabaseInstance <String>] [<CommonParameters>]
 ```
 
 ### UseDatabase
 ```
-Mount-NAVTenant [-OverwriteTenantIdInDatabase] [-SkipUpdateScheduledTaskList]
- [-DatabaseCredentials <PSCredential>] [-ApplicationDatabaseServer <String>]
- [-ApplicationDatabaseCredentials <PSCredential>] [-ApplicationDatabaseName <String>]
- [-EncryptionProvider <EncryptionProvider>] [-Force] [-WhatIf] [-Confirm] -Id <String> -DatabaseName <String>
- [-DatabaseServer <String>] [-AlternateId <System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]>]
- [-AllowAppDatabaseWrite] [-NasServicesEnabled] [-RunNasWithAdminRights] [-DefaultCompany <String>]
- [-DefaultTimeZone <TimeZoneInfo>] [-ExchangeAuthenticationMetadataLocation <String>] [-AadTenantId <String>]
- [-DatabaseInstance <String>] [<CommonParameters>]
+Mount-NAVTenant [-OverwriteTenantIdInDatabase] [-SkipUpdateScheduledTaskList] [-DatabaseCredentials <PSCredential>] [-ApplicationDatabaseServer <String>][-ApplicationDatabaseCredentials <PSCredential>] [-ApplicationDatabaseName <String>] [-EncryptionProvider <EncryptionProvider>] [-Force] [-WhatIf] [-Confirm] -Id <String> -DatabaseName <String> [-DatabaseServer <String>] [-AlternateId <System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]>] [-AllowAppDatabaseWrite] [-AzureKeyVaultSettings <AzureKeyVaultSettings>] [-NasServicesEnabled] [-RunNasWithAdminRights] [-DefaultCompany <String>] [-DefaultTimeZone <TimeZoneInfo>] [-ExchangeAuthenticationMetadataLocation <String>] [-AadTenantId <String>] [-DatabaseInstance <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -91,13 +78,10 @@ This example mounts a tenant, 'Test', that is based on the tenant database 'Test
 
 ### EXAMPLE 7
 ```
-Mount-NAVTenant -Id 'Test' -DatabaseName 'Test_Database' -DatabaseCredentials (Get-Credential) -ApplicationDatabaseServer 'MySQLServer\NAV' -ApplicationDatabaseName 'MyNavAppDatabase' -ApplicationDatabaseCredentials (Get-Credential) -KeyFilePath 'C:\key\nav.key' -KeyFilePassword (Get-Credential).Password
+Mount-NAVTenant -ServerInstance “DynamicsNAV” -Tenant "Tenant1" -DatabaseName "TenantDatabase1" -EncryptionProvider "AzureKeyVault" -AzureKeyVaultsettings (new-object Microsoft.Dynamics.Nav.Types.AzureKeyVaultSettings -Argumentlist ("0a4c9971-1a94-43a3-833a-8fe1da569459","LocalMachine","my","1914ABBB1488432045A129709E49C74BA0A94A29" ,"https://mykeyvault.vault.azure.net/keys/mysecretkey"))
 ```
 
-This example mounts a tenant, 'Test', which is based on the tenant database 'Test_Database', by specifying an application database instead of the Microsoft Dynamics NAV Server instance.
-The application database server and instance is 'MySQLServer\NAV', and the application database is 'MyNavAppDatabase'.
-The example configures SQL Authentication for accessing both the tenant application databases.
-This example requires that you export the encryption key that is used by the Microsoft Dynamics NAV Server instance to a file with the path and file name 'C:\key\nav.key'.
+This example mounts the tenant " Tenant1" in database " TenantDatabase1" and configures the encryption provider to AzureKeyVault.
 
 ## PARAMETERS
 
