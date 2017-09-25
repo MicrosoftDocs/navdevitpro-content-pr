@@ -4,7 +4,7 @@ author: edupont04
 manager: edupont
 ms.author: edupont
 ms.custom: na
-ms.date: 09/12/2017
+ms.date: 09/25/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -34,6 +34,7 @@ The following features are not intended for use in on-premises deployments. Ther
 |----------------------------------|-------------------------------------------------|
 | Help mapping       |Online deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)] use a system table to look up Help on the docs.microsoft.com site. This is not supported for on-premises deployments, where only Help Server is supported.|
 |Inviting the external accountant|Integration with [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] is not supported in on-premises deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)].|
+|Bulk Invoicing from Microsoft Bookings|Integration with the Bookings app in Office Business Premium is not supported.|
 
 ## See Also
 [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)
