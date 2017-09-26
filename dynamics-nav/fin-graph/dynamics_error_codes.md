@@ -36,7 +36,7 @@ The error codes in the table below can be divided into the following categories 
 |ODataArgumentException|An incompatible property definition<br> already exists for `'Allowed_Companies_0.Name'`|BadRequest_InvalidRequestUrl|
 |ODataNotFoundException|Bad Request - Error in query syntax|BadRequest_NotFound|
 |ODataNotFoundException|Expression expected at position 153 in '(AAMkAGY2ZTQwODIwLTNkOWYtN<br>DY3NC04N2JkLTE3MDEyNzlkM2VkOQBGAAAAAAD<br>FMnbflwH_RqlNoMYdjhvBBwCepO6AHq7GRJ13ldPngx5BAAAAAAEcAA<br>CepO6AHq7GRJ13ldPngx5BAAAGZyTmAAA=)'|BadRequest_NotFound|
-|ODataNotFoundException|\'\|\' or \',\' expected at position 3 in (GUID)|BadRequest_NotFound|
+|ODataNotFoundException|'\|' or ',' expected at position 3 in (GUID)|BadRequest_NotFound|
 |ODataResourceNotFoundException|Resource not found for the segment `'OfficeAppResourceRegistrations'` <br>multiple segment errors (Company, v1.0, nativeInvoicingSalesInvoices,metadata,<br>nativeInvoicingItems, companies,company etc.)|BadRequest_ResourceNotFound|
 |ODataInvalidOperationException|Control `'Last Date Modified'` is read-only|BadRequest_InvalidOperation|
 |ODataBadRequestException|Invalid Request Body|BadRequest|
