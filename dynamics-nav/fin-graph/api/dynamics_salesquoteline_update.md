@@ -1,6 +1,6 @@
 ---
-title: PATCH salesQuoteLines method | Microsoft Docs
-description: Gets a sales quote line.
+title: Update salesQuoteLines | Microsoft Docs
+description: Gets a sales quote line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

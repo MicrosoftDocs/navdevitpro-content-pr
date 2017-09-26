@@ -1,6 +1,6 @@
 ---
-title: GET salesOrderLines method | Microsoft Docs
-description: Gets a sales order line.
+title: Get salesOrderLines | Microsoft Docs
+description: Gets a sales order line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

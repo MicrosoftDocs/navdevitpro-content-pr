@@ -1,5 +1,5 @@
 ---
-title: Delete customerPayment | Microsoft Docs
+title: Delete customerPayments | Microsoft Docs
 description: Deletes a customer payment object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete customerPayment
+# Delete customerPayments
 Delete a customerPayment from Dynamics 365 for Financials.
 
 ## HTTP request

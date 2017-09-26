@@ -1,6 +1,6 @@
 ---
 title: companies resource type | Microsoft Docs
-description: A company.
+description: A company in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -22,7 +22,7 @@ Represents a companies resource type in Dynamics 365 for Financials.
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET companies](../api/dynamics_get_companies.md)|companies|Get a company.|
+|[GET companies](../api/dynamics_companies_get.md)|companies|Get a company.|
 
 ## Properties
 | Property	      | Type |Description                             |

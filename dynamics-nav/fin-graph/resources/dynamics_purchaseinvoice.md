@@ -21,10 +21,10 @@ Represents a purchase invoice in Dynamics 365 for Financials.
 
 | Method                                                             | Return Type    |Description                     |
 |:-------------------------------------------------------------------|:---------------|:-------------------------------|
-|[GET purchaseInvoices](../api/dynamics_get_purchaseinvoice.md)      |Purchase Invoice|Get a Purchase Invoice object   |
-|[POST purchaseInvoices](../api/dynamics_create_purchaseinvoice.md)  |Purchase Invoice|Create a Purchase Invoice object|
-|[PATCH purchaseInvoices](../api/dynamics_update_purchaseinvoice.md) |Purchase Invoice|Update a Purchase Invoice object|
-|[DELETE purchaseInvoices](../api/dynamics_delete_purchaseinvoice.md)|none            |Delete a Purchase Invoice object|
+|[GET purchaseInvoices](../api/dynamics_purchaseinvoice_get.md)      |purchaseInvoices|Gets a purchase invoice object.|
+|[POST purchaseInvoices](../api/dynamics_create_purchaseinvoice.md)  |purchaseInvoices|Creates a purchase invoice object.|
+|[PATCH purchaseInvoices](../api/dynamics_purchaseinvoice_update.md) |purchaseInvoices|Updates a purchase invoice object.|
+|[DELETE purchaseInvoices](../api/dynamics_purchaseinvoice_delete.md)|none            |Deletes a purchase invoice object.|
 
 ## Properties
 | Property	            | Type	            |Description                                                |

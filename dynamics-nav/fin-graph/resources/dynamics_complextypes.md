@@ -1,6 +1,6 @@
 ---
 title: complex types JSON | Microsoft Docs
-description: Complex data types JSON.
+description: Complex data types in JSON for Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

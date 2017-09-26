@@ -1,6 +1,6 @@
 ---
 title: GET companyInformation | Microsoft Docs
-description: Gets company information.
+description: Gets a company information in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

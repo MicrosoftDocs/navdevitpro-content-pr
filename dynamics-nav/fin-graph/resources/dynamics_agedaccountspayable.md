@@ -1,6 +1,6 @@
 ---
 title: agedAccountsPayable resource type | Microsoft Docs
-description: An agedAccountsPayable.
+description: An aged accounts payable object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,7 +21,7 @@ Represents an agedAccountsPayable object in Dynamics 365 for Financials, which i
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET agedAccountsPayable](../api/dynamics_get_agedaccountspayable.md)|agedAccountsPayable|Get agedAccountsPayable object|
+|[GET agedAccountsPayable](../api/dynamics_agedaccountspayable_get.md)|agedAccountsPayable|Get agedAccountsPayable object|
 
 ## Properties
 | Property	    | Type	   |Description                                 |

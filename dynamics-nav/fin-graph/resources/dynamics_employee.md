@@ -19,12 +19,12 @@ Represents an employee in Dynamics 365 for Financials.
 
 ## Methods
 
-| Method                                              | Return Type|Description              |
-|:----------------------------------------------------|:-----------|:------------------------|
-|[GET Employees](../api/dynamics_get_employee.md)      |Employees  |Get an Employee object   |
-|[POST Employees](../api/dynamics_create_employee.md)  |Employees  |Create an Employee object|
-|[PATCH Employees](../api/dynamics_update_employee.md) |Employees  |Update an Employee object|
-|[DELETE Employees](../api/dynamics_delete_employee.md)|none       |Delete an Employee object|
+| Method                                              | Return Type|Description               |
+|:----------------------------------------------------|:-----------|:-------------------------|
+|[GET employees](../api/dynamics_employee_get.md)      |employees  |Get an employee object.   |
+|[POST employees](../api/dynamics_create_employee.md)  |employees  |Create an employee object.|
+|[PATCH employees](../api/dynamics_employee_update.md) |employees  |Update an employee object.|
+|[DELETE employees](../api/dynamics_employee_delete.md)|none       |Delete an employee object.|
 
 ## Properties
 | Property	         | Type	  |Description                                            |
@@ -36,7 +36,7 @@ Represents an employee in Dynamics 365 for Financials.
 |middleName          |string  |The middle name of the employee.                       |
 |surname             |string  |The surname of the employee                            |
 |jobTitle            |string  |The full name of the employee                          |
-|address             |[NAV.PostalAddress](../resources/dynamics_complex_types.md)|Specifies the employee's address. This address will appear on all resource documents for the employee.|
+|address             |[NAV.PostalAddress](../resources/dynamics_complextypes.md)|Specifies the employee's address. This address will appear on all resource documents for the employee.|
 |phoneNumber         |string  |Specifies the employee's telephone number.             |
 |mobilePhone         |string  |Specifies the employee's mobile telephone number.      |
 |email               |string  |Specifies the employee's email address.                |

@@ -1,6 +1,6 @@
 ---
-title: salesQuoteLine resource type | Microsoft Docs
-description: A sales quote line.
+title: salesQuoteLines resource type | Microsoft Docs
+description: A sales quote line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# salesQuoteLine resource type
-Represents a salesQuoteLine resource type in Dynamics 365 for Financials.
+# salesQuoteLines resource type
+Represents a salesQuoteLines resource type in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET Sales Quote Line](../api/dynamics_get_salesquoteline.md)|Sales Quote Line|Get Sales Quote Line object|
-|[POST Sales Quote Line](../api/dynamics_create_salesquoteline.md)|Sales Quote Line|Create Sales Quote Line object|
-|[PATCH Sales Quote Line](../api/dynamics_update_salesquoteline.md)|Sales Quote Line|Update Sales Quote Line object|
-|[DELETE Sales Quote Line](../api/dynamics_delete_salesquoteline.md)|none|Delete Sales Quote Line object|
+|[GET salesQuoteLines](../api/dynamics_salesquoteline_get.md)|salesQuoteLines|Get a sales quote line object.|
+|[POST salesQuoteLines](../api/dynamics_create_salesquoteline.md)|salesQuoteLines|Creates a sales quote line object.|
+|[PATCH salesQuoteLines](../api/dynamics_salesquoteline_update.md)|salesQuoteLines|Updates a sales quote line object.|
+|[DELETE salesQuoteLines](../api/dynamics_salesquoteline_delete.md)|none|Deletes a sales quote line object.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -37,7 +37,7 @@ Represents a salesQuoteLine resource type in Dynamics 365 for Financials.
 |lineDetails|complex|The details of the line.|
 |description|string|A description of the item in the quote line.|
 |unitOfMeasureId|GUID|The Id of the unit of measure in the quote line.|
-|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complex_types.md)|The unit of measure complex type.|
+|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|The unit of measure complex type.|
 |unitPrice|numeric|The unit price of each individual item in the quote line.|
 |quantity|numeric|The quantity of the item in the quote line.|
 |discountAmount|numeric|The line discount amount.|

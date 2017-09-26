@@ -1,6 +1,6 @@
 ---
-title: CREATE salesOrderLine method | Microsoft Docs
-description: Creates a sales order line.
+title: Create salesOrderLines | Microsoft Docs
+description: Creates a sales order line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create salesOrderLine
+# Create salesOrderLines
 Create a salesOrderLine in Dynamics 365 for Financials.
 
 ## HTTP request

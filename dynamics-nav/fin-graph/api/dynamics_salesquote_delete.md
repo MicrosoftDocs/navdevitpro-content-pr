@@ -1,6 +1,6 @@
 ---
-title: DELETE salesQuote method | Microsoft Docs
-description: Deletes a sales quote.
+title: Delete salesQuotes | Microsoft Docs
+description: Deletes a sales quote object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete salesQuote
+# Delete salesQuotes
 Delete a salesQuote from Dynamics 365 for Financials.
 
 ## HTTP request

@@ -21,10 +21,10 @@ Represents a customer in Dynamics 365 for Financials.
 
 | Method                                              |Return Type| Description      |
 |:----------------------------------------------------|:----------|:-----------------|
-|[GET customers](../api/dynamics_get_customer.md)      |customers   |Get a customer.   |
+|[GET customers](../api/dynamics_customer_get.md)      |customers   |Get a customer.   |
 |[CREATE customers](../api/dynamics_create_customer.md)|customers   |Create a customer.|
-|[UPDATE customers](../api/dynamics_update_customer.md)|customers   |Update a customer.|
-|[DELETE customers](../api/dynamics_delete_customer.md)|none       |Delete a customer.|
+|[UPDATE customers](../api/dynamics_customer_update.md)|customers   |Update a customer.|
+|[DELETE customers](../api/dynamics_customer_delete.md)|none        |Delete a customer.|
 
 ## Properties
 | Property	  | Type	 |Description|
