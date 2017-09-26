@@ -11,11 +11,11 @@ author: jswymer
 ---
 # Troubleshooting: A manually bound event subscriber is stale and will no longer be called
 
-In the [!INCLUDE[navnow_md](includes/navnow_md.md)], the following runtime error occurs on an event subscription:   
+In the [!INCLUDE[navnow_md](includes/navnow_md.md)] lcient, the following runtime error occurs on an event subscription:   
 
-`A manually bound event subscriber is stale and will no longer be called. This can be caused by the subscriber object being updated by an operation in the development environment.`  
-`Publisher object and function: [Codeunit/Table] - [ID], [PublisherFunction]`  
-`Subscriber object and function: Codeunit - [ID], [SubscriptionFunction]`
+**A manually bound event subscriber is stale and will no longer be called. This can be caused by the subscriber object being updated by an operation in the development environment.**  
+**Publisher object and function: [Codeunit/Table] - [ID], [PublisherFunction]**  
+**Subscriber object and function: Codeunit - [ID], [SubscriptionFunction]**`
 
 ## Cause
 This error can occur when calling a event subscriber function that is manually bound to a event subscriber codeunit instance, and you have made changes to the codeunit by an operation done in the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], such as recompiling the object. 
