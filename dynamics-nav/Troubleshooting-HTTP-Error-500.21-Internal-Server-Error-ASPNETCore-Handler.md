@@ -20,9 +20,11 @@ This error can occur if the AspNetCoreModule is not installed properly in IIS on
 
 To resolve this issue, open **Programs and Features** in Control Panel and check whether Microsoft .NET Core Windows Server Hosting is installed. Then, try one of the following:
 
--   If it is not installed, download and install it from [Microsoft .NET Core - Windows Server Hosting package](https://aka.ms/dotnetcore.2.0.0-windowshosting).
-
 -   If it is installed, repair it from **Programs and Features**, by selecting it, choosing **Change**, and then choosing **Repair**.
+
+-   If it is not installed, download and install Microsoft .NET Core - Windows Server Hosting bundle.<!--[Microsoft .NET Core - Windows Server Hosting package](https://aka.ms/dotnetcore.2.0.0-windowshosting).-->
+
+
 
   
 ## See Also  
