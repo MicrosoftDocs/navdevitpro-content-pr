@@ -1,6 +1,6 @@
 ---
-title: DELETE taxGroups method | Microsoft Docs
-description: Deletes a tax group.
+title: Delete taxGroups | Microsoft Docs
+description: Deletes a tax group object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

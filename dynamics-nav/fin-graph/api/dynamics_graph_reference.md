@@ -53,6 +53,6 @@ In this section, you can find API documentation for Microsoft Graph.
 |purchaseInvoice resource type|[purchaseInvoice](../resources/dynamics_purchaseinvoice.md)|
 |purchaseInvoiceLine resource type|[purchaseInvoiceLine](../resources/dynamics_purchaseinvoiceline.md)|
 |generalLedgerEntries resource type|[generalLedgerEntries](../resources/dynamics_generalLedgerEntries.md)|
-|complex types JSON|[Complex Types JSON](../resources/dynamics_complex_types.md)|
+|complex types JSON|[Complex Types JSON](../resources/dynamics_complextypes.md)|
 
 ## See also

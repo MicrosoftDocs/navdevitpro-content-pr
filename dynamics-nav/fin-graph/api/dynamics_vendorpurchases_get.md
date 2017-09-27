@@ -1,6 +1,6 @@
 ---
-title: GET vendorPurchases method | Microsoft Docs
-description: Gets a vendor purchases.
+title: Get vendorPurchases | Microsoft Docs
+description: Gets a vendor purchase object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

@@ -1,6 +1,6 @@
 ---
-title: PATCH salesQuotes method | Microsoft Docs
-description: Patches a sales quote.
+title: Update salesQuotes | Microsoft Docs
+description: Updates a sales quote object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

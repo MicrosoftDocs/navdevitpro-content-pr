@@ -21,13 +21,14 @@ Retrieve the properties and relationships of a dimension line object for Dynamic
 
 ## HTTP request
 
-```
 If you want to receive all of the dimension lines of a specific parent entity, you can do it with the following URL:
+```
 GET /financials/companies/({id})/dimensionLines?$filter=parentId eq ({id})
+```
 
-In order to get a specific dimension line you can use the following URL:
+In order to get a specific dimension line, you can use the following URL:
+```
 GET /financials/companies/({id})/dimensionLines(parentId=({id}),id=({id}))
-
 ```
 
 ## Request headers

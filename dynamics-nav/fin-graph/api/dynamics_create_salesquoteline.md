@@ -1,6 +1,6 @@
 ---
-title: CREATE salesQuoteLine method | Microsoft Docs
-description: Creates a sales quote line.
+title: Create salesQuoteLines | Microsoft Docs
+description: Creates a sales quote line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,8 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create salesQuoteLine
-Create a salesQuoteLine in Dynamics 365 for Financials.
+# Create salesQuoteLines
+Create a salesQuoteLines object in Dynamics 365 for Financials.
 
 ## HTTP request
 

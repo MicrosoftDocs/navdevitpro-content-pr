@@ -1,6 +1,6 @@
 ---
 title: Update companyInformation | Microsoft Docs
-description: Updates company information.
+description: Updates a company information object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

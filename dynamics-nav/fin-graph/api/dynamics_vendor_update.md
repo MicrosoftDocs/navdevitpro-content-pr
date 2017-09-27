@@ -1,6 +1,6 @@
 ---
-title: UPDATE vendors method | Microsoft Docs
-description: Updates a vendor.
+title: Update vendors | Microsoft Docs
+description: Updates a vendor in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

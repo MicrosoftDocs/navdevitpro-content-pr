@@ -1,6 +1,6 @@
 ---
-title: GET salesQuoteLines method | Microsoft Docs
-description: Gets a sales quote line.
+title: Get salesQuoteLines | Microsoft Docs
+description: Gets a sales quote line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

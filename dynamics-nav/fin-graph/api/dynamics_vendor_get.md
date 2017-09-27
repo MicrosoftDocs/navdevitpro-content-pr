@@ -1,6 +1,6 @@
 ---
-title: GET vendors method | Microsoft Docs
-description: Gets a vendor.
+title: Get vendors | Microsoft Docs
+description: Gets a vendor database in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

@@ -1,6 +1,6 @@
 ---
-title: salesOrder resource type | Microsoft Docs
-description: A Sales Order.
+title: salesOrders resource type | Microsoft Docs
+description: A sales order object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# salesOrder resource type
+# salesOrders resource type
 Represents a sales order in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET Sales Order](../api/dynamics_get_salesorder.md)|Sales Order|Get a Sales Order object|
-|[POST Sales Order](../api/dynamics_create_salesorder.md)|Sales Order|Create a Sales Order object|
-|[PATCH Sales Order](../api/dynamics_update_salesorder.md)|Sales Order|Update a Sales Order object|
-|[DELETE Sales Order](../api/dynamics_delete_salesorder.md)|none|Delete a Sales Order object|
+|[GET salesOrders](../api/dynamics_salesorder_get.md)|salesOrders|Get a sales order object.|
+|[POST salesOrders](../api/dynamics_create_salesorder.md)|salesOrders|Create a sales order object.|
+|[PATCH salesOrders](../api/dynamics_salesorder_update.md)|salesOrders|Update a sales order object.|
+|[DELETE salesOrders](../api/dynamics_salesorder_delete.md)|none|Delete a sales order object.|
 
 ## Properties
 | Property	   | Type	|Description|

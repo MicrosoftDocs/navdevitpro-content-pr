@@ -1,6 +1,6 @@
 ---
-title: UPDATE taxGroups method | Microsoft Docs
-description: Updates a tax groups.
+title: Update taxGroups | Microsoft Docs
+description: Updates a tax group object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

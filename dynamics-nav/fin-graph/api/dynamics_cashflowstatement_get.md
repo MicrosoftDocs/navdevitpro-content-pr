@@ -1,5 +1,5 @@
 ---
-title: GET cashFlowStatement | Microsoft Docs
+title: Get cashFlowStatement | Microsoft Docs
 description: Gets a cash flow statement report object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''

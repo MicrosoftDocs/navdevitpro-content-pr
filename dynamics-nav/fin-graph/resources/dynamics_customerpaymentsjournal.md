@@ -1,5 +1,5 @@
 ---
-title: customerPaymentsJournal resource type | Microsoft Docs
+title: customerPaymentsJournals resource type | Microsoft Docs
 description: A customer payments journal in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# customerPaymentsJournal resource type
+# customerPaymentsJournals resource type
 Represents a customer payments journal in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method                                                                              | Return Type             |Description                      |
 |:------------------------------------------------------------------------------------|:------------------------|:--------------------------------|
-|[GET customer payments journal](../api/dynamics_get_customerpaymentsjournal.md)      |customer payments journal|Get customer payments journal.   |
-|[POST customer payments journal](../api/dynamics_create_customerpaymentsjournal.md)  |customer payments journal|Create customer payments journal.|
-|[PATCH customer payments journal](../api/dynamics_update_customerpaymentsjournal.md) |customer payments journal|Update customer payments journal.|
-|[DELETE customer payments journal](../api/dynamics_delete_customerpaymentsjournal.md)|none                     |Delete customer payments journal.|
+|[GET customerPaymentsJournals](../api/dynamics_customerpaymentsjournal_get.md)      |customerPaymentsJournals|Gets a customer payments journal.   |
+|[POST customerPaymentsJournals](../api/dynamics_create_customerpaymentsjournal.md)  |customerPaymentsJournals|Creates a customer payments journal.|
+|[PATCH customerPaymentsJournals](../api/dynamics_customerpaymentsjournal_update.md) |customerPaymentsJournals|Updates a customer payments journal.|
+|[DELETE customerPaymentsJournals](../api/dynamics_customerpaymentsjournal_delete.md)|none                     |Deletes a customer payments journal.|
 
 ## Properties
 | Property	         | Type	                 |Description                                                             |

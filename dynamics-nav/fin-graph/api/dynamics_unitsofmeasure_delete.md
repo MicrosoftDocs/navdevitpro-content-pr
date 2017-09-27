@@ -1,6 +1,6 @@
 ---
-title: DELETE unitsOfMeasure method | Microsoft Docs
-description: Deletes an units of measure.
+title: Delete unitsOfMeasure | Microsoft Docs
+description: Deletes a unit of measure object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete unitsOfMeasure
-Delete a unitsOfMeasure from Dynamics 365 for Financials.
+Deletes a unitsOfMeasure from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

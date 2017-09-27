@@ -1,6 +1,6 @@
 ---
 title: Get countriesRegions | Microsoft Docs
-description: Gets a countries/regions.
+description: Gets a countries/regions object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

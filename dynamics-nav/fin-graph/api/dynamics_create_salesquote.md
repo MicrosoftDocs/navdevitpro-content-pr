@@ -1,6 +1,6 @@
 ---
-title: CREATE salesQuote method | Microsoft Docs
-description: Creates a sales quote.
+title: Create salesQuotes | Microsoft Docs
+description: Creates a sales quote object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create salesQuote
+# Create salesQuotes
 Create a salesQuote in Dynamics 365 for Financials.
 
 ## HTTP request

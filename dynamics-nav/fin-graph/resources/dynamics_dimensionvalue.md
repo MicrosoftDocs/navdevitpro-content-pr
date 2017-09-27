@@ -21,7 +21,7 @@ Represents a dimension value in Dynamics 365 for Financials.
 
 | Method       | Return Type  |Description                   |
 |:-------------|:-------------|:-----------------------------|
-|[GET Dimension Value](../api/dynamics_get_dimensionvalue.md)|Dimension Value|Get Dimension Value object|
+|[GET dimensionValues](../api/dynamics_dimensionvalue_get.md)|dimensionValues|Gets a dimension value object.|
 
 
 ## Properties

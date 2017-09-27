@@ -1,6 +1,6 @@
 ---
-title: GET trialBalance method | Microsoft Docs
-description: Gets a trial balance.
+title: Get trialBalance | Microsoft Docs
+description: Gets a trial balance object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
