@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete unitsOfMeasure
-Delete a unitsOfMeasure from Dynamics 365 for Financials.
+Deletes a unitsOfMeasure from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

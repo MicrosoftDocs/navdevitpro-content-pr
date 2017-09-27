@@ -37,7 +37,7 @@ Represents a purchase invoice in Dynamics 365 for Financials.
 |vendorId               |GUID                   |The id of the invoice vendor.                              |
 |vendorNumber           |string, maximum size 20|The vendor number for the invoice.                         |
 |vendorName             |string, maximum size 50|The full name of the vendor. Read-Only.                    |
-|buyFromAddress         |[NAV.PostalAddress](../resources/dynamics_complex_types.md)|The vendor's address.  |
+|buyFromAddress         |[NAV.PostalAddress](../resources/dynamics_complextypes.md)|The vendor's address.  |
 |currencyCode           |string, maximum size 10|The currency code for the invoice.                         |
 |status                 |string, maximum size 20|The invoice status. Status can be: Draft, In Review, Open, Paid, Canceled, or Corrective. Read-Only.|
 |discountAmount         |numeric                |The invoice discount amount                                |

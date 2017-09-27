@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Update unitsOfMeasure
-Update the properties of a units of measure object for Dynamics 365 for Financials.
+Update the properties of a unitsOfMeasure object for Dynamics 365 for Financials.
 
 ## HTTP request
 

@@ -21,8 +21,8 @@ Represents the information specified for the current company in Dynamics 365 for
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET companyInformation](../api/dynamics_companyinformation_get.md)|companyInformation|Get Company Information.|
-|[PATCH companyInformation](../api/dynamics_companyinformation_update.md)|companyInformation|Update Company Information.|
+|[GET companyInformation](../api/dynamics_companyinformation_get.md)|companyInformation|Gets a company information.|
+|[PATCH companyInformation](../api/dynamics_companyinformation_update.md)|companyInformation|Updates a company information.|
 
 
 ## Properties
@@ -30,7 +30,7 @@ Represents the information specified for the current company in Dynamics 365 for
 |:-------------|:--------|:-------------------------------------|
 |id            |GUID|The unique ID of the company. Non-editable.|
 |displayName   |string   |The company's display name.           |
-|address       |[NAV.PostalAddress](../resources/dynamics_complex_types.md)|The company's address. View the complex type for additional detail.|
+|address       |[NAV.PostalAddress](../resources/dynamics_complextypes.md)|The company's address. View the complex type for additional detail.|
 |phoneNumber   |string   |The company's telephone number.       |
 |faxNumber     |string   |The company's fax number.             |
 |email         |string   |The company's email address.          |
