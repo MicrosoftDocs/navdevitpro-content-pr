@@ -1,6 +1,6 @@
 ---
-title: DELETE shipmentMethod method | Microsoft Docs
-description: Deletes a shipment method.
+title: Delete shipmentMethods | Microsoft Docs
+description: Deletes a shipment method in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,8 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete shipmentMethod
-Delete a shipmentMethod from Dynamics 365 for Financials.
+# Delete shipmentMethods
+Delete a shipment method from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

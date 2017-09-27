@@ -1,6 +1,6 @@
 ---
-title: GET taxGroups method | Microsoft Docs
-description: Gets a tax groups method.
+title: Get taxGroups | Microsoft Docs
+description: Gets a tax groups method in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

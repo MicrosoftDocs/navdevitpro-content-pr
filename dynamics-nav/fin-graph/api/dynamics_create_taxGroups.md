@@ -1,6 +1,6 @@
 ---
-title: CREATE taxGroups method | Microsoft Docs
-description: Creates a tax group.
+title: Create taxGroups | Microsoft Docs
+description: Creates a tax group object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

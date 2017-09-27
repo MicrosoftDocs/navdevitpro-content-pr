@@ -1,5 +1,5 @@
 ---
-title: taxArea resource type | Microsoft Docs
+title: taxAreas resource type | Microsoft Docs
 description: A tax area.
 services: project-madeira
 documentationcenter: ''
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# taxArea resource type
+# taxAreas resource type
 Represents a tax area resource type in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET tax area](../api/dynamics_get_taxarea.md)|tax area|Get Tax Area.|
-|[POST tax area](../api/dynamics_create_taxarea.md)|tax area|Create Tax Area.|
-|[PATCH tax area](../api/dynamics_update_taxarea.md)|tax area|Update Tax Area.|
-|[DELETE tax area](../api/dynamics_delete_taxarea.md)|none|Delete Tax Area.|
+|[GET taxAreas](../api/dynamics_taxarea_get.md)|taxAreas|Gets a tax area object.|
+|[POST taxAreas](../api/dynamics_create_taxarea.md)|taxAreas|Creates a tax area object.|
+|[PATCH taxAreas](../api/dynamics_taxarea_update.md)|taxAreas|Updates a tax area object.|
+|[DELETE taxAreas](../api/dynamics_taxarea_delete.md)|none|Deletes a tax area object.|
 
 ## Properties
 | Property	   | Type	|Description|

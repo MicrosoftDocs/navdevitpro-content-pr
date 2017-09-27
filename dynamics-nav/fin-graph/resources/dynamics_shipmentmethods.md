@@ -1,6 +1,6 @@
 ---
-title: shipmentMethod resource type | Microsoft Docs
-description: A Shipment Method.
+title: shipmentMethods resource type | Microsoft Docs
+description: A shipment method in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# shipmentMethod resource type
+# shipmentMethods resource type
 Represents a method of shipment in Dynamics 365 for Financials, such as UPS, Fedex, and DHL.
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET shipmentMethod](../api/dynamics_get_shipmentmethods.md)|shipmentMethod|Get a Shipment Method.|
-|[POST shipmentMethod](../api/dynamics_create_shipmentmethods.md)|shipmentMethod|Create a Shipment Method.|
-|[PATCH shipmentMethod](../api/dynamics_update_shipmentmethods.md)|shipmentMethod|Update a Shipment Method.|
-|[DELETE shipmentMethod](../api/dynamics_delete_shipmentmethods.md)|none|Delete a Shipment Method.|
+|[GET shipmentMethods](../api/dynamics_shipmentmethods_get.md)|shipmentMethods|Gets a shipment method.|
+|[POST shipmentMethods](../api/dynamics_create_shipmentmethods.md)|shipmentMethods|Creates a shipment method.|
+|[PATCH shipmentMethods](../api/dynamics_shipmentmethods_update.md)|shipmentMethods|Updates a shipment method.|
+|[DELETE shipmentMethods](../api/dynamics_shipmentmethods_delete.md)|none|Deletes a shipment method.|
 
 ## Properties
 | Property	   | Type	|Description|
