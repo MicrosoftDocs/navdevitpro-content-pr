@@ -10,46 +10,59 @@ ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
 # Configuring a [!INCLUDE[nav_web](includes/nav_web_md.md)] Instance
-You can create a [!INCLUDE[nav_web](includes/nav_web_md.md)] instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using the Setup wizard to install the [!INCLUDE[nav_web](includes/nav_web_md.md)] or by running the [New-NAVWebServerInstance cmdlet](Microsoft.Dynamics.Nav.Management/new-navwebserverinstance). When you set up a web server instance, you are configuring the connection from the [!INCLUDE[nav_web](includes/nav_web_md.md)] to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The connection settings, along with several other configuration settings, are saved in a configuartion file for the web server instance. This file is called the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].
+You can create a [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)] instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using the Setup wizard to install the [!INCLUDE[nav_web](includes/nav_web_md.md)] or by running the [New-NAVWebServerInstance cmdlet](Microsoft.Dynamics.Nav.Management/new-navwebserverinstance). When you set up a web server instance, you are configuring the connection from the [!INCLUDE[nav_web](includes/nav_web_md.md)] to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The connection settings, along with several other configuration settings, are saved in a configuartion file for the web server instance. This file is called the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].
 
-After installation, you can change the configuration by modifying the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].
+## About the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] 
+The [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] is a Java Script Object Notification file type that is similar to files that use the XML file format. After installation, you can change the configuration by modifying the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]. There are two ways to modify this file: directly or using PowerShell.
 
-## Modify the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] for a web server instance 
-The [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] is a Java Script Object Notification file type that is similar to files that use the XML file format. There are two ways to modify this file: directly or using PowerShell.
+### Where to find it
+The [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] is stored in the physical path of the web server instance, which is by default is *%systemroot%\\inetpub\\wwwroot\\[WebServerInstanceName]*. *[WebServerInstanceName]* corresponds to the name (alias) of the web server instance in IIS.  
 
 ## Modify the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] directly
-The [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] is stored in the physical path of the web server instance, which is by default is *%systemroot%\\inetpub\\wwwroot\\[WebServerInstanceName]*. *[WebServerInstanceName]* corresponds to the alias of the website or web application for the web server instance in IIS. 
 
-To make changes to the file, open it any text or code editor, such as Notepad or Visual Studio Code.
+1. Open the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] any text or code editor, such as Notepad or Visual Studio Code.
 
-Each setting is a defined by a key-value pair that has the format:
+    Each setting is a defined by a key-value pair that has the format:
 
-`"keyname" : "keyvalue"`
+    `"keyname": "keyvalue",`
 
-`keyname` is the name of the configuration setting and `keyvalue` is the value. For example, the configuration setting that specifies which [!INCLUDE[nav_server_md.md](includes/nav_server_md.md)] instance to connect to is:
-`"ServerInstance" : "DynamicsNAV110"`
+    `keyname` is the name of the configuration setting and `keyvalue` is the value. For example, the configuration setting that specifies the credential type for authenticating users is:
 
-Find the configuration settings that you want to change, and then change the values. See the next section for a description of each setting.
+    `"ClientServicesCredentialType":  "Windows",`
 
-When you are done save the file, and then restart IIS. The changes will not take effect until you restart IIS. 
+2.  Find the configuration settings that you want to change, and then change the values.
+
+    See the [Settings](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md#Settings) section for a description of each setting.
+3.  When you are done making changes, save the file.
+4.  Restart the [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)] for the changes tp take effect.
+    
+    For example, in IIS Manager, in the **Connections** pane, select website node for [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)], and then in the **Actions** pane, choose **Restart**. Or, from your desktop, run `iisreset`. 
 
 ### Use the Set-NAVWebServerInstanceConfiguration PowerShell cmdlet
-The [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] includes the [Set-NAVWebServerInstanceConfiguration cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVWebServerInstanceConfiguration.md) that enables you to configure a web server instance.
+The PowerShell script module **NAVWebClientManagement.psm1** includes the [Set-NAVWebServerInstanceConfiguration cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVWebServerInstanceConfiguration.md) that enables you to configure a web server instance. The **NAVWebClientManagement.psm1** module run from the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] or from a PowerShell command prompt.
 
-To use the cmdlet, run the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] as an administator. Then, for each setting that you want to change, at the command prompt, run the following command:
+1. Load the **NAVWebClientManagement.psm1** module, and open a PowerShell command prompt.
 
-```
-Set-NAVWebServerInstanceConfiguration -Server [MyComputer] -ServerInstance [NAVServerInstanceName] -KeyName [Setting] -KeyValue [Value]
-```
-Replace:
--   `[MyComputer]` with the name of the computer that is running the [!INCLUDE[nav_server_md](includes/nav_server_md.md)]
--   `[NAVServerInstanceName]` with the name of the server instance, such as **[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]**.
--   `[KeyName]` with the name of the setting. Refer to the next section in this article.
--   `[KeyValue]` with the new value of the setting.
+    For more information, see [Get started with the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] cmdlets](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md#GetStartedWebServerCmdlets)></a>
 
-When you are done, restart IIS. The changes will not take effect until you restart IIS.
+2. For each setting that you want to change, at the command prompt, run the following command:
 
-## Settings in the navsettings.json file  
+    ```
+    Set-NAVWebServerInstanceConfiguration -Server [MyComputer] -ServerInstance [NAVServerInstanceName] -KeyName [Setting] -KeyValue [Value]
+    ```
+    Replace:
+    -   `[MyComputer]` with the name of the computer that is running the [!INCLUDE[nav_server_md](includes/nav_server_md.md)]
+    -   `[NAVServerInstanceName]` with the name of the server instance, such as **[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]**.
+    -   `[KeyName]` with the name of the setting. Refer to the next section in this article.
+-      `[KeyValue]` with the new value of the setting.
+
+3. When you are done, restart IIS so that the changes will not take effect. For example, at the command prompt, enter the following command:
+
+    ```
+    iisreset
+    ```
+
+## <a name="Settings"></a>Settings in the navsettings.json file  
 The following table describes the settings that are available in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].   
 
 > [!IMPORTANT]  

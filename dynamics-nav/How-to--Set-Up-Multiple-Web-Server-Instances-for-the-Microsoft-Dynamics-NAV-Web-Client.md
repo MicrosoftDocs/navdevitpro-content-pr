@@ -19,9 +19,9 @@ Although you can use the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard 
 |[Get-NAVWebServerInstance](Microsoft.Dynamics.NAV.Management/Get-NAVWebServerInstance.md)|Gets the information about the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances that are registered on a computer.|
 |[Remove-NAVWebServerInstance](Microsoft.Dynamics.NAV.Management/Remove-NAVWebServerInstance.md)| Removes an existing [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance.|  
 
-## Get started with the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] cmdlets 
+## <a name="GetStartedWebServerCmdlets"></a>Get started with the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] cmdlets 
 
-The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] cmdlets are contained in the PowerShell script module **NAVWebClientManagement.psm1**. This module is available on the [!INCLUDE[navnow](includes/navnow_md.md)] intallation media (DVD). It is also installed with [!INCLUDE[nav_server_md](includes/nav_server_md.md)], where the default folder is: [!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Service.
+The [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] cmdlets are contained in the PowerShell script module **NAVWebClientManagement.psm1**. This module is available on the [!INCLUDE[navnow](includes/navnow_md.md)] intallation media (DVD). It is also installed with [!INCLUDE[nav_server_md](includes/nav_server_md.md)], where the default folder is: [!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Service.
 
 There are two ways to launch this module and start using the cmdlets:
 
