@@ -36,8 +36,7 @@ There are two ways to create a [!INCLUDE[nav_web_server_instance_md](includes/na
 
 -   Setup installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], which does the following:
 
-    -   Installs and configure IIS with the required prerequisites
-    -   Installs Microsoft .NET Core - Windows Server Hosting <!--[Microsoft .NET Core - Windows Server Hosting package](https://aka.ms/dotnetcore.2.0.0-windowshosting)-->
+    -   Installs and configure IIS with the required prerequisites, including Microsoft .NET Core - Windows Server Hosting <!--[Microsoft .NET Core - Windows Server Hosting package](https://aka.ms/dotnetcore.2.0.0-windowshosting)-->
     -   Installs a web server instance on IIS.
     -   Installs components and files in a **WebPublish** folder that enables you to add additional web server instances without having to use the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media (DVD).
 
