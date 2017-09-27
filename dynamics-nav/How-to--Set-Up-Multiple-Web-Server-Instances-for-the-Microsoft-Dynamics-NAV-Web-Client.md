@@ -21,11 +21,13 @@ Although you can use the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard 
 
 ## <a name="GetStartedWebServerCmdlets"></a>Get started with the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] cmdlets 
 
-The [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] cmdlets are contained in the PowerShell script module **NAVWebClientManagement.psm1**. This module is available on the [!INCLUDE[navnow](includes/navnow_md.md)] intallation media (DVD). It is also installed with [!INCLUDE[nav_server_md](includes/nav_server_md.md)], where the default folder is: [!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Service.
+The [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] cmdlets are contained in the PowerShell script module **NAVWebClientManagement.psm1**, which is available on the [!INCLUDE[navnow](includes/navnow_md.md)] installation media (DVD).
+
+The module is installed by the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard when install the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] or the [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)].
 
 There are two ways to launch this module and start using the cmdlets:
 
-- If you are working on the computer where the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] is installed, then you can run the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)], which automatically loads the **NAVWebClientManagement.psm1** module.
+- If you are working on the computer where the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] was installed, run the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
 
   For more information, see [Starting a [!INCLUDE[nav_shell](includes/nav_shell_md.md)] Session](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md#StartAdminShell)
 
@@ -57,7 +59,6 @@ You can use either of these locations or you can copy the folder to more conveni
 When you create a new [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance, you can choose to create either a RootSite or SubSite type. Each instance type has a different hierarchical structure in IIS, which influences its configuration and the URLs for the accessing the [!INCLUDE[nav_web](includes/nav_web_md.md)].
  
 **RootSite**
-
 A *RootSite* instance is a root-level web site that is complete with content files for serving the [!INCLUDE[nav_web](includes/nav_web_md.md)]. It is configured with its own set of bindings for accessing the site, such as protocol (http or https) and communication port. The structure in IIS looks like this:
 
 ```
@@ -65,6 +66,8 @@ A *RootSite* instance is a root-level web site that is complete with content fil
   - Dynamics NAV Web Client (web site)
     + nn-NN (language versions)
     + www (content)
+    navsettings.json
+    ...
 ```
 The [!INCLUDE[nav_web](includes/nav_web_md.md)] URL for the RootSite instance has the format:
 
@@ -73,7 +76,6 @@ The [!INCLUDE[nav_web](includes/nav_web_md.md)] URL for the RootSite instance ha
 For example: `http://localhost:8080` or `https://localhost:8080`. 
 
 **SubSite**
-
 A *SubSite* instance is a web application that is under a container web site. The container web site is configured with a set of bindings, but the site itself has no content files. The content files are contained in the application (subsite). The application inherits the bindings from the container web site. This is the deployment type that is created when you install [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)] in the Setup wizard. You can have multiple SubSite instances in the container web site. The structure in IIS for two instances looks like this in IIS:
 
 ```
@@ -82,9 +84,13 @@ A *SubSite* instance is a web application that is under a container web site. Th
     - DynamicsNAV-1 (application)
       + nn-NN (language versions)
       + www 
+      navsettings.json
+      ...
     - DynamicsNAV-2 (application)
       + nn-NN (language versions)
       + www
+      navsettings.json
+      ...
 ```
 
 The [!INCLUDE[nav_web](includes/nav_web_md.md)] URL of a SubSite instance is generally longer than a RootSite because it also contains the application's alias (or virtual path), which you define. The URL for a SubSite instance has the format:
