@@ -10,7 +10,7 @@ ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
 # Deploying the Microsoft Dynamics NAV Web Server Components
-Giving users the capability to access to data by using the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], [!INCLUDE[nav_phone](includes/nav_phone_md.md)], and Outlook add-in requires a Internet Information Services (IIS) web site as part of your deployment. The website, which we refer to as [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance, hosts the files that provide content and services to client users over the Internet. This article highlights several factors to consider to help you set up [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances that suit deployment requirements.
+Giving users the capability to access to data by using the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], [!INCLUDE[nav_phone](includes/nav_phone_md.md)], and Outlook add-in requires a Internet Information Services (IIS) web site as part of your deployment. The website, which we refer to as [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance, hosts the files that provide content and services to client users over the Internet. This article highlights several factors to consider to help you set up [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances that suit your deployment requirements.
 
 If you just want to get started installing the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).
 
@@ -27,34 +27,38 @@ Each [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.m
   
 For information about the common deployment scenarios, see [Deployment Scenarios for the Microsoft Dynamics NAV Web Server Components](Deployment-Scenarios-for-the-Microsoft-Dynamics-NAV-Web-Server-Components.md).  
   
-##  Creating [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances  
+##  Creating a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance  
 
-There are two ways to create [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances. You can use the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup or the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
+There are two ways to create a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance. You can use the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup or the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] PowerShell cmdlets.
 
-### [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup
-[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup is the quickest way to get a web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] up and running, and is typically how you install the first [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance in your deployment.
+### Using [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup
+[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup is the quickest way to get a web server instance up and running, and is typically how you install the first [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance in your deployment.
 
--   Setup installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] which does the following:
+-   Setup installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], which does the following:
 
+    -   Installs and configure IIS with the required prerequisites
+    -   Installs Microsoft .NET Core - Windows Server Hosting <!--[Microsoft .NET Core - Windows Server Hosting package](https://aka.ms/dotnetcore.2.0.0-windowshosting)-->
     -   Installs a web server instance on IIS.
-    -   Installs and configure IIS with the required prerequisites, including [Microsoft .NET Core - Windows Server Hosting package](https://aka.ms/dotnetcore.2.0.0-windowshosting)
     -   Installs components and files in a **WebPublish** folder that enables you to add additional web server instances without having to use the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media (DVD).
 
--   You can only use Setup to install a single [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance. If you want additional instances, you must use the the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
+-   You can only use Setup to install a single [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance.
 
-- Setup does not let you choose the site deployment type for the web server instance. By default, it creates a subsite instance. For more information, see [Site Deployment Types](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md#WebClientonIIS).    
+-   Setup does not let you choose the site deployment type for the web server instance. By default, it creates a SubSite instance. For more information, see [Site Deployment Types](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md#WebClientonIIS).    
+For information about how to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).
 
-### [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] 
-[!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] includes several PowerShell cmdlets that enable you to create, configure, and remove [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances from a command line interface. To create a web server instance, you use the [New-NAVWebServerInstance](Microsoft.Dynamics.Nav.Management/new-navwebserverinstance.md) cmdlet, which has the following advantages over Setup:
+### Using [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] PowerShell cmdlets 
+There are several PowerShell cmdlets that enable you to create, configure, and remove [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances from a command line interface. To create a web server instance, you use the [New-NAVWebServerInstance](Microsoft.Dynamics.Nav.Management/new-navwebserverinstance.md) cmdlet, which has the following advantages over Setup:
    
 -   You can create multiple web server instances.
 
--   You have more flexibility regarding the deployment structure of the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances on IIS. For example, you can create a parent instance (rootsite) that can have one or more child instances (subsites).
+-   You have more flexibility regarding the [site deployment type](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md#WebClientonIIS) of the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances on IIS. For example, you can create a root-level website instance  or a subsite application instance under a container website.
 
-You should be aware that the New-NAVWebServerInstance cmdlet does not install or configure the required IIS prequisites. So unless you have previously installed the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] by using Setup, you will have to configure the prerequisites manually. For more information about the prerequistes, see 
-[How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md). 
+> [!IMPORTANT]
+>Using the the New-NAVWebServerInstance cmdlet requires that Microsoft .NET Core Windows Server Hosting is installed and IIS is installed and configured with the prerequisites. So unless you have previously installed the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] by using Setup, you will have to install and configure the prerequisites manually. For more information about the prerequisites, see 
+[How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md).
 
-  
+For information about how to create a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance by using the New-NAVWebServerInstance cmdlet, see [Creating and Managing [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] Instances Using PowerShell](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md).
+
 ## Deployment Phases  
  Typically, you will deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in phases, which can influence the network topology and security settings that you deploy. For example, in the development phase, you develop, test, and fine-tune the application. In this phase, you might consider deploying the [!INCLUDE[nav_web](includes/nav_web_md.md)] in a single-computer scenario. When you move to the production phase, you deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in the full network infrastructure.  
   
