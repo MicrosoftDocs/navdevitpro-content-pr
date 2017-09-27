@@ -9,26 +9,29 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
-# Configuring Dynamics NAV Web Client by Modifying the Navsettings.json File
-To install the [!INCLUDE[nav_web](includes/nav_web_md.md)], you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup. Setup installs a website with a web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] on an Internet Information Services \(IIS\) server and configures the connection from the [!INCLUDE[nav_web](includes/nav_web_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)]. The connection settings, along with several other configuration settings, are saved in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] of the web server instance.
+# Configuring a [!INCLUDE[nav_web](includes/nav_web_md.md)] Instance
+You can create a [!INCLUDE[nav_web](includes/nav_web_md.md)] instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using the Setup wizard to install the [!INCLUDE[nav_web](includes/nav_web_md.md)] or by running the [New-NAVWebServerInstance cmdlet](Microsoft.Dynamics.Nav.Management/new-navwebserverinstance). When you set up a web server instance, you are configuring the connection from the [!INCLUDE[nav_web](includes/nav_web_md.md)] to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The connection settings, along with several other configuration settings, are saved in a configuartion file for the web server instance. This file is called the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].
 
 After installation, you can change the configuration by modifying the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].
 
-> [!TIP]  You can use [!INCLUDE[nav_shell](includes/nav_shell_md.md)] to add additional web server instances for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [How to: Set Up Multiple Web Server Instances for the Dynamics NAV WebClient](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md).
+## Modify the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] for a web server instance 
+The [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] is a Java Script Object Notification file type that is similar to files that use the XML file format. There are two ways to modify this file: directly or using PowerShell.
 
-## Modify the navsettings.json file for web server instance 
-The [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] is a Java Script Object Notification file type that is similar to files that use the XML file format. There are two ways to modify this file:
+## Modify the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] directly
+The [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] is stored in the physical path of the web server instance, which is by default is *%systemroot%\\inetpub\\wwwroot\\[WebServerInstanceName]*. *[WebServerInstanceName]* corresponds to the alias of the website or web application for the web server instance in IIS. 
 
-## Modify the navsettings.json file directly
+To make changes to the file, open it any text or code editor, such as Notepad or Visual Studio Code.
 
-Open and edit the file in any text or code editor, such as Notepad or Visual Studio Code.
+Each setting is a defined by a key-value pair that has the format:
 
-The web.config file that is stored in the physical path of the web site, which is by default *%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Web Client*.
+`"keyname" : "keyvalue"`
 
-See the next section for a description of each setting.
+`keyname` is the name of the configuration setting and `keyvalue` is the value. For example, the configuration setting that specifies which [!INCLUDE[nav_server_md.md](includes/nav_server_md.md)] instance to connect to is:
+`"ServerInstance" : "DynamicsNAV110"`
 
-> [!NOTE]  
->  After you modify the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)], if you have [!INCLUDE[nav_web](includes/nav_web_md.md)] open in the Internet browser, the changes will not take effect until you close the browser session, and then reopen [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+Find the configuration settings that you want to change, and then change the values. See the next section for a description of each setting.
+
+When you are done save the file, and then restart IIS. The changes will not take effect until you restart IIS. 
 
 ### Use the Set-NAVWebServerInstanceConfiguration PowerShell cmdlet
 The [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] includes the [Set-NAVWebServerInstanceConfiguration cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVWebServerInstanceConfiguration.md) that enables you to configure a web server instance.
@@ -43,6 +46,8 @@ Replace:
 -   `[NAVServerInstanceName]` with the name of the server instance, such as **[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]**.
 -   `[KeyName]` with the name of the setting. Refer to the next section in this article.
 -   `[KeyValue]` with the new value of the setting.
+
+When you are done, restart IIS. The changes will not take effect until you restart IIS.
 
 ## Settings in the navsettings.json file  
 The following table describes the settings that are available in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].   

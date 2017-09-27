@@ -27,10 +27,10 @@ We recommend that you secure [!INCLUDE[navnow](includes/navnow_md.md)] data that
 > [!NOTE]  
 >  You can configure SSL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] when you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. For more information, see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).  
   
-##  <a name="Cert"></a> Obtaining an SSL Certificate  
+##  <a name="Cert"></a> Obtaining and Installinf an SSL Certificate  
  In a production environment, you should obtain an SSL certificate from a certification authority. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third-party organization. In a test environment or development environment, you can create your own self-signed certificate.  
   
-#### To create a self-signed SSL certificate  
+### To create a self-signed SSL certificate  
   
 1.  To open Internet Information Services \(IIS\) Manager, search for **inetmgr**.  
   

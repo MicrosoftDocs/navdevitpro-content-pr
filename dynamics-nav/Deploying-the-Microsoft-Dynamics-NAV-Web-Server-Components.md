@@ -47,7 +47,7 @@ There are two ways to create [!INCLUDE[nav_web_server_instance_md](includes/nav_
 ### [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] 
 [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] includes several PowerShell cmdlets that enable you to create, configure, and remove [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances from a command line interface. To create a web server instance, you use the [New-NAVWebServerInstance](Microsoft.Dynamics.Nav.Management/new-navwebserverinstance.md) cmdlet, which has the following advantages over Setup:
    
--   You can create multiple web server intances.
+-   You can create multiple web server instances.
 
 -   You have more flexibility regarding the deployment structure of the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances on IIS. For example, you can create a parent instance (rootsite) that can have one or more child instances (subsites).
 
