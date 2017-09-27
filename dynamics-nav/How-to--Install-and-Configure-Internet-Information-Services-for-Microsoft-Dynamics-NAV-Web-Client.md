@@ -95,7 +95,7 @@ This topic describes how to install and configure Internet Information Service \
      The default web site opens and should display an IIS 8 image.  
   
 ##  <a name="WS2012"></a> Installing IIS Features on Windows Server  
- The following procedure describes how to install IIS and the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)] on Windows Server 2012, 2014, and 2016.  
+ The following procedure describes how to install IIS and the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)] on Windows Server 2012 and 2016.  
   
 #### To install IIS features on Windows Server   
   
