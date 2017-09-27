@@ -23,7 +23,7 @@ Although you can use the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard 
 
 The [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] cmdlets are contained in the PowerShell script module **NAVWebClientManagement.psm1**, which is available on the [!INCLUDE[navnow](includes/navnow_md.md)] installation media (DVD).
 
-The module is installed by the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard when install the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] or the [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)].
+The module is installed with the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] or the [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)].
 
 There are two ways to launch this module and start using the cmdlets:
 
