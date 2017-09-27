@@ -1,6 +1,6 @@
 ---
-title: GET salesInvoiceLines method | Microsoft Docs
-description: Gets a sales invoice line.
+title: Get salesInvoiceLines | Microsoft Docs
+description: Gets a sales invoice line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

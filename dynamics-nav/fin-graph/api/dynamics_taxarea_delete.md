@@ -1,6 +1,6 @@
 ---
-title: DELETE salesOrderLine method | Microsoft Docs
-description: Deletes a sales order line.
+title: Delete taxAreas | Microsoft Docs
+description: Deletes a tax area object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete salesOrderLine
-Delete a salesOrderLine from Dynamics 365 for Financials.
+# Delete taxAreas
+Delete a taxAreas object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/({id})/salesOrders/({id})/salesOrderLines(documentId=({id}),sequence=({number}))
+DELETE /financials/companies/({id})/taxAreas/({id})
 ```
 
 ## Request headers
@@ -29,9 +29,11 @@ DELETE /financials/companies/({id})/salesOrders/({id})/salesOrderLines(documentI
 |If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
 
 ## Request body
+
 Do not supply a request body for this method.
 
 ## Response
+
 If successful, this method returns ```204 No Content``` response code. It does not return anything in the response body.
 
 ## Example
@@ -41,7 +43,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesOrders/({id})/salesOrderLines(documentId=({id}),sequence=({number}))
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/taxAreas/({id})
 ```
 
 **Response** 
@@ -53,4 +55,4 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  

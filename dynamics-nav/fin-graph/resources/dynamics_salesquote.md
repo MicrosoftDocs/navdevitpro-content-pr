@@ -1,6 +1,6 @@
 ---
-title: salesQuote resource type | Microsoft Docs
-description: A Sales Quote.
+title: salesQuotes resource type | Microsoft Docs
+description: A sales quote object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# salesQuote resource type
+# salesQuotes resource type
 Represents a salesQuote resource type in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET Sales Quote](../api/dynamics_get_salesquote.md)|Sales Quote|Get a Sales Quote object|
-|[POST Sales Quote](../api/dynamics_create_salesquote.md)|Sales Quote|Create a Sales Quote object|
-|[PATCH Sales Quote](../api/dynamics_update_salesquote.md)|Sales Quote|Update a Sales Quote object|
-|[DELETE Sales Quote](../api/dynamics_delete_salesquote.md)|none|Delete a Sales Quote object|
+|[GET salesQuotes](../api/dynamics_salesquote_get.md)|salesQuotes|Gets a sales quote object.|
+|[POST salesQuotes](../api/dynamics_create_salesquote.md)|salesQuotes|Creates a sales quote object.|
+|[PATCH salesQuotes](../api/dynamics_salesquote_update.md)|salesQuotes|Updates a sales quote object.|
+|[DELETE salesQuotes](../api/dynamics_salesquote_delete.md)|none|Deletes a sales quote object.|
 
 ## Properties
 | Property	   | Type	|Description|

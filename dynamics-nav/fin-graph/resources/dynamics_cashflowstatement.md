@@ -1,6 +1,6 @@
 ---
 title: cashFlowStatement resource type | Microsoft Docs
-description: A cashFlowStatement.
+description: A cash flow statement object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,7 +21,7 @@ Represents an cashFlowStatement object in Dynamics 365 for Financials.
 
 | Method       | Return Type  |Description|
 |:-------------|:-------------|:----------|
-|[GET cashFlowStatement](../api/dynamics_get_cashflowstatement.md)|cashFlowStatement|Get a cashFlowStatement object|
+|[GET cashFlowStatement](../api/dynamics_cashflowstatement_get.md)|cashFlowStatement|Get a cashFlowStatement object.|
 
 ## Properties
 | Property	   | Type	|Description                              |

@@ -1,6 +1,6 @@
 ---
-title: UPDATE taxAreas method | Microsoft Docs
-description: Updates a tax areas object.
+title: Update taxAreas | Microsoft Docs
+description: Updates a tax areas object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

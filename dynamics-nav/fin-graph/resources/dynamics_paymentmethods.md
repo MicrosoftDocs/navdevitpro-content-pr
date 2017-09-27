@@ -21,10 +21,10 @@ Represents a method of payment in Dynamics 365 for Financials, such as PayPal, c
 
 | Method                                                          | Return Type  |Description             |
 |:----------------------------------------------------------------|:-------------|:-----------------------|
-|[GET paymentMethods](../api/dynamics_get_paymentmethods.md)      |paymentMethods|Get a Payment Method.   |
-|[POST paymentMethods](../api/dynamics_create_paymentmethods.md)  |paymentMethods|Create a Payment Method.|
-|[PATCH paymentMethods](../api/dynamics_update_paymentmethods.md) |paymentMethods|Update a Payment Method.|
-|[DELETE paymentMethods](../api/dynamics_delete_paymentmethods.md)|none          |Delete a Payment Method.|
+|[GET paymentMethods](../api/dynamics_paymentmethods_get.md)      |paymentMethods|Gets a payment method object.   |
+|[POST paymentMethods](../api/dynamics_create_paymentmethods.md)  |paymentMethods|Creates a payment method object.|
+|[PATCH paymentMethods](../api/dynamics_paymentmethods_update.md) |paymentMethods|Updates a payment method object.|
+|[DELETE paymentMethods](../api/dynamics_paymentmethods_delete.md)|none          |Deletes a payment method object.|
 
 ## Properties
 | Property	         | Type	  |Description                                                  |

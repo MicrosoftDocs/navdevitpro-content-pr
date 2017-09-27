@@ -1,6 +1,6 @@
 ---
 title: Update dimensionLines | Microsoft Docs
-description: Update a dimension line in Dynamics 365 for Financials.
+description: Updates a dimension line in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

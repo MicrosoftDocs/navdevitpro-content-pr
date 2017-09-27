@@ -1,6 +1,6 @@
 ---
-title: CREATE vendor method | Microsoft Docs
-description: Creates a vendor.
+title: Create vendors | Microsoft Docs
+description: Creates a vendor in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create vendor
+# Create vendors
 Create a vendor in Dynamics 365 for Financials.
 
 ## HTTP request

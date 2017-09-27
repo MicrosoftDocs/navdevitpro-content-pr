@@ -19,12 +19,12 @@ Represents a sales invoice in Dynamics 365 for Financials.
 
 ## Methods
 
-| Method                                                       | Return Type |Description                  |
-|:-------------------------------------------------------------|:------------|:----------------------------|
-|[GET salesInvoices](../api/dynamics_get_salesinvoice.md)      |Sales invoice|Get a sales invoice object   |
-|[POST salesInvoices](../api/dynamics_create_salesinvoice.md)  |Sales invoice|Create a sales invoice object|
-|[PATCH salesInvoices](../api/dynamics_update_salesinvoice.md) |Sales invoice|Update a sales invoice object|
-|[DELETE salesInvoices](../api/dynamics_delete_salesinvoice.md)|none         |Delete a sales invoice object|
+| Method                                                       | Return Type |Description                    |
+|:-------------------------------------------------------------|:------------|:------------------------------|
+|[GET salesInvoices](../api/dynamics_salesinvoice_get.md)      |salesInvoices|Gets a sales invoice object.   |
+|[POST salesInvoices](../api/dynamics_create_salesinvoice.md)  |salesInvoices|Creates a sales invoice object.|
+|[PATCH salesInvoices](../api/dynamics_salesinvoice_update.md) |salesInvoices|Updates a sales invoice object.|
+|[DELETE salesInvoices](../api/dynamics_salesinvoice_delete.md)|none         |Deletes a sales invoice object.|
 
 ## Properties
 | Property	            | Type	|Description                                                |

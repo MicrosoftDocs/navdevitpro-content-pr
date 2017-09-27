@@ -1,6 +1,6 @@
 ---
-title: DELETE salesQuoteLine method | Microsoft Docs
-description: Deletes a sales quote line.
+title: Delete vendors | Microsoft Docs
+description: Deletes a vendor in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,19 +14,19 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete salesQuoteLine
-Delete a salesQuoteLine from Dynamics 365 for Financials.
+# Delete vendors
+Delete a vendor from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/({id})/salesQuotes/({id})/salesQuoteLines(documentId=({id}),sequence=({number}))
+DELETE /financials/companies/({id})/vendors/({id})
 ```
 
 ## Request headers
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
-|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the salesQuoteLine, the salesQuoteLine will not be updated. |
+|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
 
 ## Request body
 Do not supply a request body for this method.
@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesQuotes/({id})/salesQuoteLines(documentId=({id}),sequence=({number}))
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/vendors/({id})
 ```
 
 **Response** 

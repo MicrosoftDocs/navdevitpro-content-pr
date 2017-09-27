@@ -1,6 +1,6 @@
 ---
-title: PATCH salesOrderLines method | Microsoft Docs
-description: Gets a sales order line.
+title: Update salesOrderLines | Microsoft Docs
+description: Update a sales order line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

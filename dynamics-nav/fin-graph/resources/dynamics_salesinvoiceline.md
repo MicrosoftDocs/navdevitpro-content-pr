@@ -1,6 +1,6 @@
 ---
-title: salesInvoiceLine resource type | Microsoft Docs
-description: A sales invoice line.
+title: salesInvoiceLines resource type | Microsoft Docs
+description: A sales invoice line in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# salesInvoiceLine resource type
+# salesInvoiceLines resource type
 Represents a line on a sales invoice in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method                                                                | Return Type      | Description                    |
 |:----------------------------------------------------------------------|:-----------------|:-------------------------------|
-|[GET Sales Invoice Line](../api/dynamics_get_salesinvoiceline.md)      |Sales Invoice Line|Get Sales Invoice Line object   |
-|[POST Sales Invoice Line](../api/dynamics_create_salesinvoiceline.md)  |Sales Invoice Line|Create Sales Invoice Line object|
-|[PATCH Sales Invoice Line](../api/dynamics_update_salesinvoiceline.md) |Sales Invoice Line|Update Sales Invoice Line object|
-|[DELETE Sales Invoice Line](../api/dynamics_delete_salesinvoiceline.md)|none              |Delete Sales Invoice Line object|
+|[GET salesInvoiceLines](../api/dynamics_salesinvoiceline_get.md)      |salesInvoiceLines|Gets a sales invoice line object   |
+|[POST salesInvoiceLines](../api/dynamics_create_salesinvoiceline.md)  |salesInvoiceLines|Creates a sales invoice line object.|
+|[PATCH salesInvoiceLines](../api/dynamics_salesinvoiceline_update.md) |salesInvoiceLines|Updated a sales invoice line object.|
+|[DELETE salesInvoiceLines](../api/dynamics_salesinvoiceline_delete.md)|none              |Deletes a sales invoice line object.|
 
 ## Properties
 | Property	              | Type	| Description                                               |
@@ -37,7 +37,7 @@ Represents a line on a sales invoice in Dynamics 365 for Financials.
 |lineDetails              |complex|The details of the line.                                   |
 |description              |string |A description of the item in the invoice line.             |
 |unitOfMeasureId          |GUID   |The unit of measure for the invoice line.                  |
-|unitOfMeasure            |[NAV.UnitOfMeasure](../resources/dynamics_complex_types.md)|The unit of measure complex type.|
+|unitOfMeasure            |[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|The unit of measure complex type.|
 |quantity                 |numeric|The quantity of the item in the invoice line.              |
 |unitPrice                |numeric|The unit price of each individual item in the invoice line.|
 |discountAmount           |numeric|The line discount amount.                                  |

@@ -1,6 +1,6 @@
 ---
-title: GET taxAreas method | Microsoft Docs
-description: Gets a tax areas.
+title: Get taxAreas | Microsoft Docs
+description: Gets a tax area object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

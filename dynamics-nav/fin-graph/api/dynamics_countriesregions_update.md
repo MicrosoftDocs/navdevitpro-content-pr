@@ -1,6 +1,6 @@
 ---
-title: UPDATE countriesRegions method | Microsoft Docs
-description: Updates a countries/regions object.
+title: Update countriesRegions | Microsoft Docs
+description: Updates a countries/regions object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

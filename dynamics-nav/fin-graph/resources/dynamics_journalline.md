@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# JournalLines resource type
+# journalLines resource type
 Represents a line in a journal in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method                                                    | Return Type|Description         |
 |:----------------------------------------------------------|:-----------|:-------------------|
-|[GET journalLines](../api/dynamics_get_journalline.md)      |journalLines|Get Journal Line.   |
-|[POST journalLines](../api/dynamics_create_journalline.md)  |journalLines|Create Journal Line.|
-|[PATCH journalLines](../api/dynamics_update_journalline.md) |journalLines|Update Journal Line.|
-|[DELETE journalLines](../api/dynamics_delete_journalline.md)|none        |Delete Journal Line.|
+|[GET journalLines](../api/dynamics_journalline_get.md)      |journalLines|Gets a journal line.   |
+|[POST journalLines](../api/dynamics_create_journalline.md)  |journalLines|Creates a journal line.|
+|[PATCH journalLines](../api/dynamics_journalline_update.md) |journalLines|Updates a journal line.|
+|[DELETE journalLines](../api/dynamics_journalline_delete.md)|none        |Deletes a journal line.|
 
 ## Properties
 | Property	           | Type	                |Description                                                        |

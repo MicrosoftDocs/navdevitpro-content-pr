@@ -1,6 +1,6 @@
 ---
-title: GET salesQuotes method | Microsoft Docs
-description: Gets a sales quote.
+title: Get salesQuotes | Microsoft Docs
+description: Gets a sales quote object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

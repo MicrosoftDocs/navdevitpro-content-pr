@@ -1,6 +1,6 @@
 ---
 title: GET companies method | Microsoft Docs
-description: Gets companies.
+description: Gets a company object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

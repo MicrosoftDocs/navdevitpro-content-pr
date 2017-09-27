@@ -1,6 +1,6 @@
 ---
 title: Get journalLines | Microsoft Docs
-description: Get a journal line in Dynamics 365 for Financials.
+description: Gets a journal line in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

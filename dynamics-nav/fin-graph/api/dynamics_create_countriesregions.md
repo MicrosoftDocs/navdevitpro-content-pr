@@ -1,6 +1,6 @@
 ---
 title: Create countriesRegions | Microsoft Docs
-description: Creates a countries/regions.
+description: Creates a countries/regions object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

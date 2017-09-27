@@ -1,6 +1,6 @@
 ---
-title: CREATE taxArea method | Microsoft Docs
-description: Creates a tax area.
+title: Create taxAreas | Microsoft Docs
+description: Creates a tax area object in Dynamics for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create taxAreas
-Creates a taxAreas object in Dynamics 365 for Financials.
+Creates a tax area object in Dynamics 365 for Financials.
 
 ## HTTP request
 

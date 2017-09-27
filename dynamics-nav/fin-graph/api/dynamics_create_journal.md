@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create journals
-Creates a journal in Dynamics 365 for Financials.
+Creates a journal in Dynamics 365 for Financials. 
 
 ## HTTP request
 

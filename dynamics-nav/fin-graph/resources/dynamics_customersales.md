@@ -1,6 +1,6 @@
 ---
 title: customerSales resource type | Microsoft Docs
-description: A CustomerSales in Dynamics 365 for Financials.
+description: A customer sales in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,7 +21,7 @@ Represents an customer sales in Dynamics 365 for Financials.
 
 | Method            | Return Type |Description               |
 |:------------------|:------------|:-------------------------|
-|[GET customerSales](../api/dynamics_get_customerSales.md)|CustomerSales|Get a CustomerSales object|
+|[GET customerSales](../api/dynamics_customerSales_get.md)|CustomerSales|Get a customer sales object|
 
 ## Properties
 | Property	          | Type  |Description                                       |
