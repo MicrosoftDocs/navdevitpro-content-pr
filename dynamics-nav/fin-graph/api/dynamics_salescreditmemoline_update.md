@@ -1,6 +1,6 @@
 ---
-title: PATCH salesCreditMemoLines method | Microsoft Docs
-description: Gets a sales credit memo line.
+title: Update salesCreditMemoLines | Microsoft Docs
+description: Updates a sales credit memo line object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

@@ -1,6 +1,6 @@
 ---
 title: Delete countriesRegions | Microsoft Docs
-description: Delete countries/regions in Dynamics 365 for Financials.
+description: Deletes a countries/regions object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

@@ -1,6 +1,6 @@
 ---
 title: Get generalLedgerEntries | Microsoft Docs
-description: Get a general ledger entry object in Dynamics 365 for Financials.
+description: Gets a general ledger entry object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

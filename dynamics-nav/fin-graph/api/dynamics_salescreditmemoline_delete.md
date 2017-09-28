@@ -1,6 +1,6 @@
 ---
-title: DELETE salesCreditMemoLine method | Microsoft Docs
-description: Deletes a sales credit memo line.
+title: Delete salesCreditMemoLines | Microsoft Docs
+description: Deletes a sales credit memo line in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete salesCreditMemoLines
-Delete a salesCreditMemoLines from Dynamics 365 for Financials.
+Delete a salesCreditMemoLines object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```

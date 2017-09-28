@@ -1,6 +1,6 @@
 ---
-title: GET salesOrders method | Microsoft Docs
-description: Gets a sales order.
+title: Get salesOrders | Microsoft Docs
+description: Gets a sales order object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

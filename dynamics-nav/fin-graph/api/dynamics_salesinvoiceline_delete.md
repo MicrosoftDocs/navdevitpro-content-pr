@@ -1,6 +1,6 @@
 ---
-title: DELETE salesInvoiceLine method | Microsoft Docs
-description: Deletes a sales invoice line.
+title: Delete salesInvoiceLines | Microsoft Docs
+description: Deletes a sales invoice line in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete salesInvoiceLine
+# Delete salesInvoiceLines
 Delete a salesInvoiceLine from Dynamics 365 for Financials.
 
 ## HTTP request

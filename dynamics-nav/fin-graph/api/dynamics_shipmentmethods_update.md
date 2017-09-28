@@ -1,6 +1,6 @@
 ---
 title: Update shipmentMethods | Microsoft Docs
-description: Updates a shipment method in Dynamics 365 for Financials.
+description: Updates a shipment method object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

@@ -1,6 +1,6 @@
 ---
-title: DELETE salesOrder method | Microsoft Docs
-description: Deletes a sales order.
+title: Delete salesOrders | Microsoft Docs
+description: Deletes a sales order object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,8 +14,8 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Delete salesOrder
-Delete a salesOrder from Dynamics 365 for Financials.
+# Delete salesOrders
+Delete a salesOrder object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

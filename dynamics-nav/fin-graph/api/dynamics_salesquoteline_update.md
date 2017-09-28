@@ -1,6 +1,6 @@
 ---
 title: Update salesQuoteLines | Microsoft Docs
-description: Gets a sales quote line object in Dynamics 365 for Financials.
+description: Updates a sales quote line in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

@@ -1,6 +1,6 @@
 ---
 title: Delete dimensionLines | Microsoft Docs
-description: Delete a dimension line in Dynamics 365 for Financials.
+description: Deletes a dimension line in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

@@ -1,6 +1,6 @@
 ---
-title: PATCH salesOrders method | Microsoft Docs
-description: Patches a sales order.
+title: Update salesOrders | Microsoft Docs
+description: Updates a sales order object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

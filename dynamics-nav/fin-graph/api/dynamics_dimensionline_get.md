@@ -1,6 +1,6 @@
 ---
 title: Get dimensionLines | Microsoft Docs
-description: Get a dimension line in Dynamics 365 for Financials.
+description: Gets a dimension line in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

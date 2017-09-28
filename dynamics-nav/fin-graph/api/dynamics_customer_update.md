@@ -1,6 +1,6 @@
 ---
 title: Update customers | Microsoft Docs
-description: Updates a customers object in Dynamics 365 for Financials.
+description: Updates a customer object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

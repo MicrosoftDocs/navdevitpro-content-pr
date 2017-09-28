@@ -1,6 +1,6 @@
 ---
 title: Get shipmentMethods | Microsoft Docs
-description: Gets a shipment method in Dynamics 365 for Financials. 
+description: Gets a shipment method object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
