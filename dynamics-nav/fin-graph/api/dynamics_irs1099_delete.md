@@ -1,6 +1,6 @@
 ---
 title: Delete irs1099Codes | Microsoft Docs
-description: Delete an IRS 1099 code in Dynamics 365 for Financials.
+description: Deletes an IRS 1099 code object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

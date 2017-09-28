@@ -1,6 +1,6 @@
 ---
 title: Get irs1099Codes | Microsoft Docs
-description: Get an IRS 1099 code object in Dynamics 365 for Financials.
+description: Gets an IRS 1099 code object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

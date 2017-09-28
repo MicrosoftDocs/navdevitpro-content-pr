@@ -1,6 +1,6 @@
 ---
-title: PATCH salesInvoiceLines method | Microsoft Docs
-description: Gets a sales invoice line.
+title: Update salesInvoiceLines | Microsoft Docs
+description: Updates a sales invoice line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

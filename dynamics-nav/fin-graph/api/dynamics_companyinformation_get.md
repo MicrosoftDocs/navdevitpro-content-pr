@@ -1,5 +1,5 @@
 ---
-title: GET companyInformation | Microsoft Docs
+title: Get companyInformation | Microsoft Docs
 description: Gets a company information in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''

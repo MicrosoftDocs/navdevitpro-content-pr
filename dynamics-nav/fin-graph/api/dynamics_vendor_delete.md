@@ -1,6 +1,6 @@
 ---
 title: Delete vendors | Microsoft Docs
-description: Deletes a vendor in Dynamics 365 for Financials. 
+description: Deletes a vendor object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
