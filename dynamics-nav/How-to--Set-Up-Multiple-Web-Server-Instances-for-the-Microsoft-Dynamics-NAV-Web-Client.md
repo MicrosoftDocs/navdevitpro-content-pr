@@ -63,7 +63,7 @@ A *RootSite* instance is a root-level web site that is complete with content fil
 
 ```
 - Sites
-  - Dynamics NAV Web Client (web site)
+  - DynamicsNAVWebInstance (web site)
     + nn-NN (language versions)
     + www (content)
     navsettings.json
@@ -73,31 +73,31 @@ The [!INCLUDE[nav_web](includes/nav_web_md.md)] URL for the RootSite instance ha
 
 `http://[WebserverComputerName]:[port]`
 
-For example: `http://localhost:8080` or `https://localhost:8080`. 
+For example: `http://localhost:8080`. 
 
 **SubSite**
-A *SubSite* instance is a web application that is under a container web site. The container web site is configured with a set of bindings, but the site itself has no content files. The content files are contained in the application (subsite). The application inherits the bindings from the container web site. This is the deployment type that is created when you install [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)] in the Setup wizard. You can have multiple SubSite instances in the container web site. The structure in IIS for two instances looks like this in IIS:
+A *SubSite* instance is a web application that is under a container web site. The container web site is configured with a set of bindings, but the site itself has no content files. The content files are contained in the application (SubSite). The SubSite inherits the bindings from the container web site. This is the deployment type that is created when you install [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)] in the Setup wizard. Using the New-NAVWebServerInstance cmdlet, you can add multiple SubSite instances in the container web site. The structure in IIS for two instances looks like this in IIS:
 
 ```
 - Sites
-  - Dynamics NAV Web Client (web site)
-    - DynamicsNAV-1 (application)
+  - DynamicsNAVWebSite (web site)
+    - DynamicsNAVWebInstance1 (application)
       + nn-NN (language versions)
       + www 
       navsettings.json
       ...
-    - DynamicsNAV-2 (application)
+    - DynamicsNAVWebInstance2 (application)
       + nn-NN (language versions)
       + www
       navsettings.json
       ...
 ```
 
-The [!INCLUDE[nav_web](includes/nav_web_md.md)] URL of a SubSite instance is generally longer than a RootSite because it also contains the application's alias (or virtual path), which you define. The URL for a SubSite instance has the format:
+The [!INCLUDE[nav_web](includes/nav_web_md.md)] URL of a SubSite instance is generally longer than a RootSite because it also contains the application's alias (or virtual path) for the instance, which you define. The URL for a SubSite instance has the format:
 
 `http://[WebserverComputerName]:[port]/[WebServerInstance]`
 
-For example: `http://localhost:8080/dynamicsnav-1` or `https://localhost:8080/dynamicsnav-2`. 
+For example: `http://localhost:8080/DynamicsNAVWebInstance1` and `http://localhost:8080/DynamicsNAVWebInstance2`. 
 
 ### Run the New-NAVWebServerInstance cmdlet
 
