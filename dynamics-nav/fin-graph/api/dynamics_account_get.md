@@ -1,5 +1,5 @@
 ---
-title: GET accounts | Microsoft Docs
+title: Get accounts | Microsoft Docs
 description: Gets an account object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''

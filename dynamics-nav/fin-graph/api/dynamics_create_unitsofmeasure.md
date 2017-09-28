@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create unitsOfMeasure
-Create a unitsOfMeasure in Dynamics 365 for Financials.
+Create a unitsOfMeasure object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```

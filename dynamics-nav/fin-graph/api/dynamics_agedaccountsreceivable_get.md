@@ -1,5 +1,5 @@
 --- 
-title: GET agedAccountsReceivable method | Microsoft Docs
+title: Get agedAccountsReceivable | Microsoft Docs
 description: Gets an aged accounts receivable report object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''

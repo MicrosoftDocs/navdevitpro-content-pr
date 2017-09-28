@@ -1,6 +1,6 @@
 ---
 title: Create customerPayments | Microsoft Docs
-description: Creates a customer payment in Dynamics 365 for Financials.
+description: Creates a customer payment object in Dynamics 365 for Financials.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 

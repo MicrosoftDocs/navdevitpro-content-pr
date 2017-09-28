@@ -1,6 +1,6 @@
 ---
 title: Delete paymentMethods | Microsoft Docs
-description: Delete a payment method object in Dynamics 365 for Financials.
+description: Deletes a payment method object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

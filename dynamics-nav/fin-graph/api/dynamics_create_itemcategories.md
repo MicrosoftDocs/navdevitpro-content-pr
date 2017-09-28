@@ -1,6 +1,6 @@
 ---
 title: Create itemCategories | Microsoft Docs
-description: Create an item category in Dynamics 365 for Financials.
+description: Creates an item category object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

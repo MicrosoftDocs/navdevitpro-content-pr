@@ -1,6 +1,6 @@
 ---
 title: Create purchaseInvoiceLines | Microsoft Docs
-description: Create a purchase invoice line object in Dynamics 365 for Financials.
+description: Creates a purchase invoice line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

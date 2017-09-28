@@ -1,6 +1,6 @@
 ---
 title: Delete paymentTerms | Microsoft Docs
-description: Delete a payment term object in Dynamics 365 for Financials.
+description: Deletes a payment term object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

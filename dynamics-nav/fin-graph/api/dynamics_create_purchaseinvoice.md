@@ -1,6 +1,6 @@
 ---
 title: Create purchaseInvoices | Microsoft Docs
-description: Create a purchase invoice object in Dynamics 365 for Financials.
+description: Creates a purchase invoice object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create purchaseInvoice
+# Create purchaseInvoices
 Create a purchaseInvoice in Dynamics 365 for Financials.
 
 ## HTTP request

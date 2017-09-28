@@ -1,6 +1,6 @@
 ---
 title: Delete items | Microsoft Docs
-description: Delete an item in Dynamics 365 for Financials.
+description: Deletes an item object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

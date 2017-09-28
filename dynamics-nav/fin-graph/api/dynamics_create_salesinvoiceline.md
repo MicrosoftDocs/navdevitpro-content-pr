@@ -1,6 +1,6 @@
 ---
 title: Create salesInvoiceLines | Microsoft Docs
-description: Creates a sales invoice line.
+description: Creates a sales invoice line object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

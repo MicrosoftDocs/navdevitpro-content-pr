@@ -1,6 +1,6 @@
 ---
-title: CREATE salesCreditMemoLine method | Microsoft Docs
-description: Creates a sales credit memo line.
+title: Create salesCreditMemoLines | Microsoft Docs
+description: Creates a sales credit memo line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create salesCreditMemoLine
+# Create salesCreditMemoLines
 Create a salesCreditMemoLine in Dynamics 365 for Financials.
 
 ## HTTP request

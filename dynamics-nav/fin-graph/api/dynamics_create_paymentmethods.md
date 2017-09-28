@@ -1,6 +1,6 @@
 ---
 title: Create paymentMethods | Microsoft Docs
-description: Create a payment method object in Dynamics 365 for Financials.
+description: Creates a payment method object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

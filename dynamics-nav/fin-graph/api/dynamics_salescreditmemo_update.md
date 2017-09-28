@@ -1,6 +1,6 @@
 ---
-title: PATCH salesCreditMemos method | Microsoft Docs
-description: Patches a sales credit memo.
+title: Update salesCreditMemos | Microsoft Docs
+description: Updates a sales credit memo object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

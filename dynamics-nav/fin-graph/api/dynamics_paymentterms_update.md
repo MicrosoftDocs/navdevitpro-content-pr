@@ -1,6 +1,6 @@
 ---
 title: Update paymentTerms | Microsoft Docs
-description: Update a payment term object in Dynamics 365 for Financials.
+description: Updates a payment term object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

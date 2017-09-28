@@ -1,6 +1,6 @@
 ---
 title: Update purchaseInvoices | Microsoft Docs
-description: Update a purchase invoice object in Dynamics 365 for Financials.
+description: Updates a purchase invoice object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

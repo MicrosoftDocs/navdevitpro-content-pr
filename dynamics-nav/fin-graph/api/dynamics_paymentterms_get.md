@@ -1,6 +1,6 @@
 ---
 title: Get paymentTerms | Microsoft Docs
-description: Get a payment term object in Dynamics 365 for Financials.
+description: Gets a payment term object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

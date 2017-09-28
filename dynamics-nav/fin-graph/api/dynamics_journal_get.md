@@ -1,6 +1,6 @@
 ---
 title: Get journals | Microsoft Docs
-description: Get a journal in Dynamics 365 for Financials.
+description: Gets a journal object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
