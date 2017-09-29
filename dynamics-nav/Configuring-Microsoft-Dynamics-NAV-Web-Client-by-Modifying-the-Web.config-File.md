@@ -43,7 +43,7 @@ The PowerShell script module **NAVWebClientManagement.psm1** includes the [Set-N
 
 1. Depending on your installation, run the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] or Windows PowerShell as an administrator.
 
-    For more information, see [Get started with the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] cmdlets](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md#GetStartedWebServerCmdlets)>.
+    For more information, see [Get started with the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] cmdlets](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md#GetStartedWebServerCmdlets).
 
 2. For each setting that you want to change, at the command prompt, run the following command:
 
