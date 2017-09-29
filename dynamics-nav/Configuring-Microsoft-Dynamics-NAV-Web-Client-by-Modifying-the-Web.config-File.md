@@ -34,35 +34,32 @@ The [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_
 
     See the [Settings](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md#Settings) section for a description of each setting.
 3.  When you are done making changes, save the file.
-4.  Restart the [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)] for the changes tp take effect.
+4.  Restart the [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)] for the changes to take effect.
     
     For example, in IIS Manager, in the **Connections** pane, select website node for [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)], and then in the **Actions** pane, choose **Restart**. Or, from your desktop, run `iisreset`. 
 
-### Use the Set-NAVWebServerInstanceConfiguration PowerShell cmdlet
-The PowerShell script module **NAVWebClientManagement.psm1** includes the [Set-NAVWebServerInstanceConfiguration cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVWebServerInstanceConfiguration.md) that enables you to configure a web server instance. The **NAVWebClientManagement.psm1** module run from the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] or from a PowerShell command prompt.
+### Modify the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] by using the Set-NAVWebServerInstanceConfiguration PowerShell cmdlet
+The PowerShell script module **NAVWebClientManagement.psm1** includes the [Set-NAVWebServerInstanceConfiguration cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVWebServerInstanceConfiguration.md) that enables you to configure a web server instance.
 
-1. Load the **NAVWebClientManagement.psm1** module, and open a PowerShell command prompt.
+1. Depending on your installation, run the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] or Windows PowerShell as an administrator.
 
-    For more information, see [Get started with the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] cmdlets](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md#GetStartedWebServerCmdlets)></a>
+    For more information, see [Get started with the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] cmdlets](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md#GetStartedWebServerCmdlets)>.
 
 2. For each setting that you want to change, at the command prompt, run the following command:
 
     ```
-    Set-NAVWebServerInstanceConfiguration -Server [MyComputer] -ServerInstance [NAVServerInstanceName] -KeyName [Setting] -KeyValue [Value]
+    Set-NAVWebServerInstanceConfiguration -Server [MyComputer] -ServerInstance [NAVServerInstanceName] -WebServerInstance [MyNavWebServerInstance] -KeyName [Setting] -KeyValue [Value]
     ```
+    
     Replace:
     -   `[MyComputer]` with the name of the computer that is running the [!INCLUDE[nav_server_md](includes/nav_server_md.md)]
     -   `[NAVServerInstanceName]` with the name of the server instance, such as **[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]**.
+    -   `[MyNavWebServerInstance]`with the name of the web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)].
     -   `[KeyName]` with the name of the setting. Refer to the next section in this article.
 -      `[KeyValue]` with the new value of the setting.
 
-3. When you are done, restart IIS so that the changes will not take effect. For example, at the command prompt, enter the following command:
 
-    ```
-    iisreset
-    ```
-
-## <a name="Settings"></a>Settings in the navsettings.json file  
+## <a name="Settings"></a>Settings in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]  
 The following table describes the settings that are available in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].   
 
 > [!IMPORTANT]  
@@ -70,7 +67,8 @@ The following table describes the settings that are available in the [!INCLUDE[w
 
 |Setting/KeyName|Description|  
 |-------------|-----------------|  
-|AllowedFrameAncestors|Specifies the host name of any web sites in which the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], such as `https://myhostname.com`.<BR /><BR /> For more information, see [Embedding Microsoft Dynamics NAV Web Client Pages in Other Websites](Embedding-Microsoft-Dynamics-NAV-Web-Client-Pages-in-Other-Websites.md)|
+|AllowedFrameAncestors|Specifies the host name of any web sites in which the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] or parts of are embedded. By default, the [!INCLUDE[nav_web](includes/nav_web_md.md)] will not allow a website to display it inside an iframe unless the website is hosted on the same web server. This value of this setting is a comma-separated list of host names (URIs). Wildcard names are accepted. For example: `https:mysite.sharepoint.com, https:*.myportal.com`<BR /><BR /> For more information, see [Embedding Microsoft Dynamics NAV Web Client Pages in Other Websites](Embedding-Microsoft-Dynamics-NAV-Web-Client-Pages-in-Other-Websites.md)|
+|GlobalEndPoints|Specifies the comma-separated list of global endpoints that are allowed to call this website. The values must include http scheme and fully qualifies omain name (FDQN), such as `https://financials.microsoft.com`.|
 |AllowNtlm|Specifies whether NT LAN Manager \(NTLM\) fallback is permitted for authentication.<br /><br /> To require Kerberos authentication, set this value to **false**.<br /><br /> Values: **true**, **false**<br /><br /> Default value: **true**|  
 |ClientServicesChunkSize|Sets the maximum size, in kilobytes, of a data chunk that is transmitted between [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)]. Data that is transmitted between [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] is broken down into smaller units called chunks, and then reassembled when it reaches its destination.<br /><br /> Values: From 4 to 80.<br /><br /> Default value: 28|  
 |ClientServicesCompressionThreshold|Sets the threshold in memory consumption at which [!INCLUDE[nav_web](includes/nav_web_md.md)] starts compressing data sets. This limits amount of consumed memory. The value is in kilobytes.<br /><br /> Default value: 64|  

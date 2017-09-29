@@ -59,12 +59,14 @@ http://MyWebServer/nav_server_instance/WebClient/default.aspx?company=CRONUS%20I
     </httpProtocol>  
 ```  
 
- In order to show a list page in an HTML site on a different host, the [!INCLUDE[nav_web](includes/nav_web_md.md)] web.config file has to be configured by adding a hostname as a value of the `AllowedFrameAncestors` setting in the web.config file.  
+In order to show a list page in an HTML site on a different host, the [!INCLUDE[web_server_settings_file_md](includes/web_server_settings_file_md.md)] of the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance that hosts the [!INCLUDE[nav_web](includes/nav_web_md.md)](includes/web_server_settings_file_md.md)] has to be configured to include a hostname as a value of the `AllowedFrameAncestors` setting.  
 
 ```  
-<DynamicsNAVSettings>  
-    <add key="AllowedFrameAncestors" value="https://myhostname.com"/>  
-</DynamicsNAVSettings>  
+"NAVWebSettings":  {  
+    "AllowedFrameAncestors":  "https://myhostname.com",
+    ...  
+    }
+}
 
 ```  
 
@@ -74,11 +76,11 @@ http://MyWebServer/nav_server_instance/WebClient/default.aspx?company=CRONUS%20I
  In the following some sample values for `AllowedFrameAncestors` are shown:  
 
 ```  
-<add key="AllowedFrameAncestors" value="https://mysite.sharepoint.com,https://yoursite.sharepoint.com"/>  
+ "AllowedFrameAncestors":  "https://mysite.sharepoint.com,https://yoursite.sharepoint.com",  
 ```  
 
 ```  
-<add key="AllowedFrameAncestors" value="https://*.myportal.com"/>  
+"AllowedFrameAncestors":  "https://*.myportal.com",  
 ```  
 
 > [!WARNING]  
