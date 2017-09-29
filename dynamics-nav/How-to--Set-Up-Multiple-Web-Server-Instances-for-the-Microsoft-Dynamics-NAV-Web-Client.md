@@ -27,13 +27,13 @@ The module is installed with the [!INCLUDE[nav_server_md](includes/nav_server_md
 
 There are different ways to launch this module and start using the cmdlets:
 
-- If you are working on the computer where the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] was installed, run the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
+- If you are working on the computer where the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] was installed, run the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] as an administrator.
 
   For more information, see [Starting a [!INCLUDE[nav_shell](includes/nav_shell_md.md)] Session](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md#StartAdminShell)
 
-- If you installed the [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)], just start Windows PowerShell.
+- If you installed the [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)], just start Windows PowerShell as an administrator.
 
-- Otherwise, start Windows PowerShell, and use the [Import-Module](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/import-module) cmdlet to import the **NAVWebClientManagement.psm1** file:
+- Otherwise, start Windows PowerShell as an administrator, and use the [Import-Module](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/import-module) cmdlet to import the **NAVWebClientManagement.psm1** file:
 
   ```
   Import-Module -Name [filepath]
@@ -50,7 +50,7 @@ There are different ways to launch this module and start using the cmdlets:
 ### Get Access to the WebPublish folder
 To create a new web server instance, you need access to the **WebPublish** folder that contains the content files for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)].
 
--  This folder is available on the [!INCLUDE[navnow](includes/navnow_md.md)] installation media (DVD) and has the path "DVD\WebClient\Microsoft Dynamics NAV\110\Web Client\WebPublish". 
+- This folder is available on the [!INCLUDE[navnow](includes/navnow_md.md)] installation media (DVD) and has the path "DVD\WebClient\Microsoft Dynamics NAV\110\Web Client\WebPublish". 
 
 - If you installed the [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)], this folder has the path "[!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Web Client\WebPublish".
 
