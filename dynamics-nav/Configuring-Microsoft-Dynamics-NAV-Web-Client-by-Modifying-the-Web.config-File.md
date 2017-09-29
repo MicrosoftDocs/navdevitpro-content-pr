@@ -38,7 +38,7 @@ The [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_
     
     For example, in IIS Manager, in the **Connections** pane, select website node for [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)], and then in the **Actions** pane, choose **Restart**. Or, from your desktop, run `iisreset`. 
 
-### Modify the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] by using the Set-NAVWebServerInstanceConfiguration PowerShell cmdlet
+## Modify the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] by using the Set-NAVWebServerInstanceConfiguration PowerShell cmdlet
 The PowerShell script module **NAVWebClientManagement.psm1** includes the [Set-NAVWebServerInstanceConfiguration cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVWebServerInstanceConfiguration.md) that enables you to configure a web server instance.
 
 1. Depending on your installation, run the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] or Windows PowerShell as an administrator.
@@ -50,7 +50,7 @@ The PowerShell script module **NAVWebClientManagement.psm1** includes the [Set-N
     ```
     Set-NAVWebServerInstanceConfiguration -Server [MyComputer] -ServerInstance [NAVServerInstanceName] -WebServerInstance [MyNavWebServerInstance] -KeyName [Setting] -KeyValue [Value]
     ```
-    
+
     Replace:
     -   `[MyComputer]` with the name of the computer that is running the [!INCLUDE[nav_server_md](includes/nav_server_md.md)]
     -   `[NAVServerInstanceName]` with the name of the server instance, such as **[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]**.
