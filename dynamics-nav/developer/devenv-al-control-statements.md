@@ -356,6 +356,7 @@ The foreach statement has the following syntax.
 foreach <Element> in <List> do
   <Statement>  
 ```  
+The *`<List>`* variable must be of the List, XmlNodeList, XmlAttributeCollection, or JsonArray type. The *`<Element>`* variable must be a data type that is compatible with elements specified by the *`<List>`*.  
 
 The following code example iterates through a list of customer names and returns each customer name in a message.
 ```  
