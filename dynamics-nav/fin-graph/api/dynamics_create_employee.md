@@ -1,6 +1,6 @@
 ---
 title: Create employees | Microsoft Docs
-description: Creates an employee in Dynamics 365 for Financials.
+description: Creates an employee object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create employees
-Create an employee in Dynamics 365 for Financials.
+Create an employee object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
@@ -29,10 +29,10 @@ POST /financials/companies/({id})/employees
 |Content-Type  |application/json         |
 
 ## Request body
-In the request body, supply a JSON representation of employees object.
+In the request body, supply a JSON representation of an **employees** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and employees object in the response body.
+If successful, this method returns ```201 Created``` response code and an **employees** object in the response body.
 
 ## Example
 

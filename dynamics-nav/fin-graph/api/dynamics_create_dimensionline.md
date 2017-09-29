@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create dimensionLines
-Create a dimensionLine in Dynamics 365 for Financials.
+Create a dimension line object in Dynamics 365 for Financials.
 
 ## HTTP request
 
@@ -31,10 +31,10 @@ POST /financials/companies/({id})/dimensionLines
 |Content-Type  |application/json         |
 
 ## Request body
-In the request body, supply a JSON representation of a dimensionLine object.
+In the request body, supply a JSON representation of a **dimensionLines** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a dimensionLine object in the response body.
+If successful, this method returns ```201 Created``` response code and a **dimensionLines** object in the response body.
 
 ## Example
 

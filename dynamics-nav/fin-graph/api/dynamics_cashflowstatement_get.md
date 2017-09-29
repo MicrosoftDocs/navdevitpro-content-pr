@@ -1,6 +1,6 @@
 ---
 title: Get cashFlowStatement | Microsoft Docs
-description: Gets a cash flow statement report object in Dynamics 365 for Financials.
+description: Gets a cash flow statement object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -31,7 +31,7 @@ GET /financials/companies/({id})/cashFlowStatement
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and cashFlowStatement object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **cashFlowStatement** object in the response body.
 
 ## Example
 

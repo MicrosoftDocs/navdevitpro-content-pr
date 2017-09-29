@@ -31,10 +31,10 @@ POST /financials/companies/({id})/salesInvoices
 |Content-Type   |application/json          |
 
 ## Request body
-In the request body, supply a JSON representation of a salesInvoice object.
+In the request body, supply a JSON representation of a **salesInvoices** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a salesInvoice object in the response body.
+If successful, this method returns ```201 Created``` response code and a **salesInvoices** object in the response body.
 
 ## Example
 

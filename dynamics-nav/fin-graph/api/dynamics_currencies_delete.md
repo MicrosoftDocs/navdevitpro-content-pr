@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete currencies
-Delete a currencies object from Dynamics 365 for Financials.
+Delete a currency object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

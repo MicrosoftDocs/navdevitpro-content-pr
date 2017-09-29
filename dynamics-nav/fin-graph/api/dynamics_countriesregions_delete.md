@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete countriesRegions
-Delete a countriesRegions object from Dynamics 365 for Financials.
+Delete a countries/regions object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

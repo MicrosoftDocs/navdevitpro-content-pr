@@ -30,10 +30,10 @@ POST /financials/companies/({id})/journals/({id})
 |Content-Type  |application/json          |
 
 ## Request body
-In the request body, supply a JSON representation of journal object.
+In the request body, supply a JSON representation of a **journals** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and journal object in the response body.
+If successful, this method returns ```201 Created``` response code and a **journals** object in the response body.
 
 ## Example
 

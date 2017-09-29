@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create salesCreditMemos
-Create a salesCreditMemo in Dynamics 365 for Financials.
+Create a sales credit memo object in Dynamics 365 for Financials.
 
 ## HTTP request
 
@@ -31,10 +31,10 @@ POST /financials/companies/({id})/salesCreditMemos
 |Content-Type  |application/json    |
 
 ## Request body
-In the request body, supply a JSON representation of a salesCreditMemo object.
+In the request body, supply a JSON representation of a **salesCreditMemos** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a salesCreditMemo object in the response body.
+If successful, this method returns ```201 Created``` response code and a **salesCreditMemos** object in the response body.
 
 ## Example
 

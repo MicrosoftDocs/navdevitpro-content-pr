@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create salesOrders
-Create a salesOrder in Dynamics 365 for Financials.
+Create a sales order object in Dynamics 365 for Financials.
 
 ## HTTP request
 
@@ -31,10 +31,10 @@ POST /financials/companies/({id})/salesOrders
 |Content-Type   |application/json             |
 
 ## Request body
-In the request body, supply a JSON representation of a salesOrder object.
+In the request body, supply a JSON representation of a **salesOrders** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a salesOrder object in the response body.
+If successful, this method returns ```201 Created``` response code and a **salesOrders** object in the response body.
 
 ## Example
 

@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create paymentMethods
-Create a paymentMethods in Dynamics 365 for Financials.
+Create a payment method object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
@@ -29,10 +29,10 @@ POST /financials/companies/({id})/paymentMethods
 |Content-Type   |application/json             |
 
 ## Request body
-In the request body, supply a JSON representation of paymentMethods object.
+In the request body, supply a JSON representation of a **paymentMethods** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and paymentMethods object in the response body.
+If successful, this method returns ```201 Created``` response code and a **paymentMethods** object in the response body.
 
 ## Example
 

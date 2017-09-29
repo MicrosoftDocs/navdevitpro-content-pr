@@ -31,7 +31,7 @@ GET /financials/companies/({id})/accounts/({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and accounts object in the response body.
+If successful, this method returns a ```200 OK``` response code and an **accounts** object in the response body.
 
 ## Example
 

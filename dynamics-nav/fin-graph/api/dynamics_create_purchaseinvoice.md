@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create purchaseInvoices
-Create a purchaseInvoice in Dynamics 365 for Financials.
+Create a purchase invoice report object in Dynamics 365 for Financials.
 
 ## HTTP request
 
@@ -31,10 +31,10 @@ POST /financials/companies/({id})/purchaseInvoices
 |Content-Type   |application/json             |
 
 ## Request body
-In the request body, supply a JSON representation of a purchaseInvoice object.
+In the request body, supply a JSON representation of a **purchaseInvoices** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a purchaseInvoice object in the response body.
+If successful, this method returns ```201 Created``` response code and a **purchaseInvoices** object in the response body.
 
 ## Example
 

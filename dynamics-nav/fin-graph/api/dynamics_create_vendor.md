@@ -29,10 +29,10 @@ POST /financials/companies/({id})/vendors
 |Content-Type  |application/json   |
 
 ## Request body
-In the request body, supply a JSON representation of vendors object.
+In the request body, supply a JSON representation of a **vendors** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and vendors object in the response body.
+If successful, this method returns ```201 Created``` response code and a **vendors** object in the response body.
 
 ## Example
 

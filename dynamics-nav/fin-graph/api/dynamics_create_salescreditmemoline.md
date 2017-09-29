@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create salesCreditMemoLines
-Create a salesCreditMemoLine in Dynamics 365 for Financials.
+Create a sales credit memo line object in Dynamics 365 for Financials.
 
 ## HTTP request
 
@@ -31,10 +31,10 @@ POST /financials/companies/({id})/salesCreditMemos/({id})/salesCreditMemoLines
 |Content-Type   |application/json    |
 
 ## Request body
-In the request body, supply a JSON representation of a sales credit memo line object.
+In the request body, supply a JSON representation of a **salesCreditMemoLines** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a sales credit memo line object in the response body.
+If successful, this method returns ```201 Created``` response code and a **salesCreditMemoLines** object in the response body.
 
 ## Example
 

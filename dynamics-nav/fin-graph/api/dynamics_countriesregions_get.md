@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get countriesRegions
-Retrieve the properties and relationships of an countries regions object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a countries regions object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
@@ -31,7 +31,7 @@ GET /financials/companies/({id})/countriesRegions/({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and countriesRegions object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **countriesRegions** object in the response body.
 
 ## Example
 

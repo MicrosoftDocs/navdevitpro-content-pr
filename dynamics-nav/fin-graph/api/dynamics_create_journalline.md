@@ -33,7 +33,7 @@ POST /financials/companies/({id})/journals/({id})/journalLines/({id})
 In the request body, supply a JSON representation of journalLine object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and journalLine object in the response body.
+If successful, this method returns ```201 Created``` response code and **journalLines** object in the response body.
 
 ## Example
 

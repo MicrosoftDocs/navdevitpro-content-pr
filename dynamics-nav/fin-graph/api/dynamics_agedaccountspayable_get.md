@@ -1,6 +1,6 @@
 ---
 title: Get agedAccountsPayable | Microsoft Docs
-description: Gets an aged accounts payable report object in Dynamics 365 for Financials.
+description: Gets an aged accounts payable object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -31,7 +31,7 @@ GET /financials/companies/({id})/agedAccountsPayable
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and agedAccountsPayable object in the response body.
+If successful, this method returns a ```200 OK``` response code and an **agedAccountsPayable** object in the response body.
 
 ## Example
 

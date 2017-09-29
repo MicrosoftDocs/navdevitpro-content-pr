@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create unitsOfMeasure
-Create a unitsOfMeasure object in Dynamics 365 for Financials.
+Create a units of measure object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
@@ -29,10 +29,10 @@ POST /financials/companies/({id})/unitsOfMeasure
 |Content-Type  |application/json   |
 
 ## Request body
-In the request body, supply a JSON representation of unitsOfMeasure object.
+In the request body, supply a JSON representation of a **unitsOfMeasure** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and unitsOfMeasure object in the response body.
+If successful, this method returns ```201 Created``` response code and a **unitsOfMeasure** object in the response body.
 
 ## Example
 

@@ -29,10 +29,10 @@ POST /financials/companies/({id})/items
 |Content-Type |application/json         |
 
 ## Request body
-In the request body, supply a JSON representation of items object.
+In the request body, supply a JSON representation of an **items** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and items object in the response body.
+If successful, this method returns ```201 Created``` response code and an **items** object in the response body.
 
 ## Example
 **Request**

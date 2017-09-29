@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create itemCategories
-Create an itemCategories in Dynamics 365 for Financials.
+Create an item category object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
@@ -29,10 +29,10 @@ POST /financials/companies/({id})/itemCategories
 |Content-Type |application/json         |
 
 ## Request body
-In the request body, supply a JSON representation of itemCategories object.
+In the request body, supply a JSON representation of an **itemCategories** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and itemCategories object in the response body.
+If successful, this method returns ```201 Created``` response code and an **itemCategories** object in the response body.
 
 ## Example
 

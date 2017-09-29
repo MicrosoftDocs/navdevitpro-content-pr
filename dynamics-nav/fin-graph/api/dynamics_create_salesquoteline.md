@@ -31,10 +31,10 @@ POST /financials/companies/({id})/salesQuotes/({id})/salesQuoteLines
 |Content-Type  |application/json    |
 
 ## Request body
-In the request body, supply a JSON representation of a salesQuoteLine object.
+In the request body, supply a JSON representation of a **salesQuoteLines** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a salesQuoteLine object in the response body.
+If successful, this method returns ```201 Created``` response code and a **salesQuoteLines** object in the response body.
 
 ## Example
 
