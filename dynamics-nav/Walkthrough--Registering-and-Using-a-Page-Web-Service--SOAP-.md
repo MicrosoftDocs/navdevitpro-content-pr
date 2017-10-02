@@ -62,6 +62,7 @@ This walkthrough focuses on publishing a [!INCLUDE[navnow](includes/navnow_md.md
 
 2.  In the **Address** field, enter an address of the following type: **http://\<Server>:\<WebServicePort>/\<ServerInstance>/WS/\<CompanyName>/services**. For example:  
 
+     **http://localhost:7047/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WS/CRONUS%20International%20Ltd./services**  
 
     > [!NOTE]  
     >  The company name is case-sensitive.  
