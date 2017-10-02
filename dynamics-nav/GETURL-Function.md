@@ -83,7 +83,7 @@ Generates a URL for the specified client target that is based on the configurati
 |Client|URL|  
 |------------|---------|  
 |[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|DynamicsNAV://*server*:*port*/*instance*//[!INCLUDE[demoname](includes/demoname_md.md)]|  
-|[!INCLUDE[nav_web](includes/nav_web_md.md)]|https://*server*:*port*/*instance*/?company='[!INCLUDE[demoname](includes/demoname_md.md)]'/<br /><br />https://*server*:*port*/*instance*/WebClient?company='[!INCLUDE[demoname](includes/demoname_md.md)]'/ ([!INCLUDE[nav2017](includes/nav2017.md)] and earlier)|  
+|[!INCLUDE[nav_web](includes/nav_web_md.md)]|https://*server*:*port*/*instance*/?company='[!INCLUDE[demoname](includes/demoname_md.md)]'/<br /><br />[!INCLUDE[nav2017](includes/nav2017.md)] and earlier:<br />https://*server*:*port*/*instance*/WebClient?company='[!INCLUDE[demoname](includes/demoname_md.md)]'/|  
 |[!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
 |[!INCLUDE[nav_phone](includes/nav_phone_md.md)]|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
 |[!INCLUDE[navnow](includes/navnow_md.md)] Desktop client|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
