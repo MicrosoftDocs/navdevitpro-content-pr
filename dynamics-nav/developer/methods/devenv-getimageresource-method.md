@@ -28,7 +28,8 @@ Used to get the URL for an image resource specified in the control add-in manife
  Returns a URL for the specified image resource.  
   
 ## Example  
- For a detailed code example, see [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough--Creating-and-Using-a-Client-Control-Add-in.md)  
+<!--
+ For a detailed code example, see [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough--Creating-and-Using-a-Client-Control-Add-in.md)  -->
   
 ```  
 var map = new VEMap('controlAddIn');  
@@ -40,4 +41,4 @@ var map = new VEMap('controlAddIn');
 ```  
   
 ## See Also  
- [InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md)
+ [InvokeExtensibilityMethod Method](devenv-invokeextensibility-method.md)
