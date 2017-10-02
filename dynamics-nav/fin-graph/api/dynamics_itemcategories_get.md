@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get itemCategories
-Retrieve the properties and relationships of an item categories object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of an item category object for Dynamics 365 for Financials.
 
 ## HTTP request
 
@@ -32,7 +32,7 @@ GET /financials/companies({id})/itemCategories({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and itemCategories object in the response body.
+If successful, this method returns a ```200 OK``` response code and an **itemCategories** object in the response body.
 
 ## Example
 

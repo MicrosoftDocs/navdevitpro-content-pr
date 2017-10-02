@@ -1,6 +1,6 @@
 ---
 title: Get incomeStatement | Microsoft Docs
-description: Gets an income statement in Dynamics 365 for Financials.
+description: Gets an income statement object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -31,7 +31,7 @@ GET /financials/companies({id})/incomeStatement
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and incomeStatement object in the response body.
+If successful, this method returns a ```200 OK``` response code and an **incomeStatement** object in the response body.
 
 ## Example
 

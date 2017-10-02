@@ -1,6 +1,6 @@
 ---
 title: Delete dimensionLines | Microsoft Docs
-description: Deletes a dimension line in Dynamics 365 for Financials.
+description: Deletes a dimension line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete dimensionLines
-Delete a dimensionLine from Dynamics 365 for Financials.
+Delete a dimension line object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
@@ -26,7 +26,7 @@ DELETE /financials/companies({id})/dimensionLines(parentId=({id}),id=({id}))
 |Header        |Value                     |
 |--------------|--------------------------|
 |Authorization |Bearer {token}. Required. |
-|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the dimension line, the dimension line will not be updated. |
+|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the **dimensionLines**, the dimension line will not be updated. |
 
 ## Request body
 Do not supply a request body for this method.
