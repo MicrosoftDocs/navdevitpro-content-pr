@@ -9,26 +9,40 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
-# Configuring a [!INCLUDE[nav_web](includes/nav_web_md.md)] Instance
-You can create a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using the Setup wizard to install the [!INCLUDE[nav_web](includes/nav_web_md.md)] or by running the [New-NAVWebServerInstance cmdlet](Microsoft.Dynamics.Nav.Management/new-navwebserverinstance). When you set up a web server instance, you are configuring the connection from the [!INCLUDE[nav_web](includes/nav_web_md.md)] to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The connection settings, along with several other configuration settings, are saved in a configuartion file for the web server instance. This file is called the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].
+# Configuring a [!INCLUDE[nav_web](includes/nav_web_md.md)] Instance for the Web Client
+You can create a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using the Setup wizard to install the [!INCLUDE[nav_web](includes/nav_web_md.md)] or by running the [New-NAVWebServerInstance cmdlet](Microsoft.Dynamics.Nav.Management/new-navwebserverinstance). When you set up a web server instance, you are configuring the connection from the [!INCLUDE[nav_web](includes/nav_web_md.md)] to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The connection settings, along with several other configuration settings, are saved in a configuration file for the web server instance. This file is called the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].
 
-## About the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] 
-The [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] is a Java Script Object Notification file type that is similar to files that use the XML file format. After installation, you can change the configuration by modifying the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]. There are two ways to modify this file: directly or using PowerShell.
+## <a name="WebClientSettingsFile"></a>About the configuration file
+The name of the configuration file depends on your [!INCLUDE[navnow_md.md](includes/navnow_md.md)]. The [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] is a Java Script Object Notification file type that is similar to files that use the XML file format.
 
-### Where to find it
-The [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] is stored in the physical path of the web server instance, which is by default is *%systemroot%\\inetpub\\wwwroot\\[WebServerInstanceName]*. *[WebServerInstanceName]* corresponds to the name (alias) of the web server instance in IIS.  
+-   With [!INCLUDE[nav2018_md](includes/nav2018_md.md)], because the web server instances run on .NET Core, the configuration file for the web server instances is a .json file type called *navsettings.json*.
+- With [!INCLUDE[nav2017](includes/nav2017.md)] and earlier, the configuration file is a .config type file called web.config. 
 
-## Modify the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] directly
+ After installation, you can change the configuration by modifying the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]. There are two ways to modify this file: directly or using PowerShell.
 
-1. Open the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] any text or code editor, such as Notepad or Visual Studio Code.
+### Where to find the navsettings.json or web.config file
+The navsettings.json or web.config file is stored in the physical path of the web server instance, which is by default is *%systemroot%\\inetpub\\wwwroot\\[WebServerInstanceName]*. *[WebServerInstanceName]* corresponds to the name (alias) of the web server instance in IIS, for example, *c:\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]* 
 
-    Each setting is a defined by a key-value pair that has the format:
+## Modify the navsettings.json or web.config file directly
+
+1. Open the navsettings.json any text or code editor, such as Notepad or Visual Studio Code.
+
+    Each setting is a defined by a key-value pair. The navsettins.json file has the format:
 
     `"keyname": "keyvalue",`
+
+    The web.config file has the format:
+
+    <add key="keyname" value="keyvalue"/>
 
     `keyname` is the name of the configuration setting and `keyvalue` is the value. For example, the configuration setting that specifies the credential type for authenticating users is:
 
     `"ClientServicesCredentialType":  "Windows",`
+
+    or
+    
+    `<add key="ClientServicesCredentialType" value="Windows"/>`
+
 
 2.  Find the configuration settings that you want to change, and then change the values.
 
@@ -38,7 +52,7 @@ The [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_
     
     For example, in IIS Manager, in the **Connections** pane, select website node for [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)], and then in the **Actions** pane, choose **Restart**. Or, from your desktop, run `iisreset`. 
 
-## Modify the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] by using the Set-NAVWebServerInstanceConfiguration PowerShell cmdlet
+## Modify the navsettings.json or web.config file by using the Set-NAVWebServerInstanceConfiguration PowerShell cmdlet
 The PowerShell script module **NAVWebClientManagement.psm1** includes the [Set-NAVWebServerInstanceConfiguration cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVWebServerInstanceConfiguration.md) that enables you to configure a web server instance.
 
 1. Depending on your installation, run the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] or Windows PowerShell as an administrator.
@@ -59,11 +73,11 @@ The PowerShell script module **NAVWebClientManagement.psm1** includes the [Set-N
 -      `[KeyValue]` with the new value of the setting.
 
 
-## <a name="Settings"></a>Settings in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]  
-The following table describes the settings that are available in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].   
+## <a name="Settings"></a>Settings in the navsettings.json  
+The following table describes the settings that are available in the navsettings.json.   
 
 > [!IMPORTANT]  
->  If modifying the file directly, place values in double quotes `""`, followed by a comma.    
+>  If modifying the file directly, place values in double quotes `""`.    
 
 |Setting/KeyName|Description|  
 |-------------|-----------------|  
@@ -83,9 +97,13 @@ The following table describes the settings that are available in the [!INCLUDE[w
 |UnknownSpnHint|Specifies whether to use a server principal name when establishing the connection between the [!INCLUDE[nav_web](includes/nav_web_md.md)] server and [!INCLUDE[nav_server](includes/nav_server_md.md)]. This setting is used to authenticate the [!INCLUDE[nav_server](includes/nav_server_md.md)], and it prevents the [!INCLUDE[nav_web](includes/nav_web_md.md)] server from restarting when it connects to [!INCLUDE[nav_server](includes/nav_server_md.md)] for the first time. You set values that are based on the value of the ServicePrincipalNameRequired key.<br /><br /> Value: The value has the following format.<br /><br /> \(net.tcp://NavServer:Port/ServerInstance/Service\)=NoSpn&#124;SPN<br /><br /> -   NavServer is the name of the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)].<br />-   Port is the port number on which the [!INCLUDE[nav_server](includes/nav_server_md.md)] is running.<br />-   ServerInstance is the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br />-   NoSpn&#124;SPN specifies whether to use an SPN. If the ServicePrincipalNameRequired key is set to **false**, then set this value to NoSpn. If the ServicePrincipalNameRequired key is set to **true**, then set this value to Spn.<br /><br /> Default value: \(net.tcp://localhost:7046/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/Service\)=NoSpn<br /><br /> If you set this key to the incorrect value, then during startup, the [!INCLUDE[nav_web](includes/nav_web_md.md)] will automatically determine a correct value. This will cause the [!INCLUDE[nav_web](includes/nav_web_md.md)] to restart. **Note:**  For most installations, you do not have to change this value. Unlike the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], this setting is not updated automatically. If you want to change the default value, then you must change it manually.|  
 |DnsIdentity|Specifies the subject name or common name of the service certificate for [!INCLUDE[nav_server](includes/nav_server_md.md)].<br /><br /> This parameter is only relevant when the ClientServicesCredentialType is set to UserName, NavUserPassword, or AccessControlService, which requires that security certificates are used on the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] to protect communication. **Note:**  You can find the subject name by opening the certificate in the Certificates snap-in for Microsoft Management Console \(MMC\) on the computer that is running [!INCLUDE[nav_web](includes/nav_web_md.md)] or [!INCLUDE[nav_server](includes/nav_server_md.md)]. <br /><br /> For more information, see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How-to--Configure-Authentication-of-Microsoft-Dynamics-NAV-Web-Client-Users.md).<br /><br /> Value: The subject name of the certificate.<br /><br /> Default value: none|   
 |SigninHelpLink|Specifies the URL to open if the user selects help on the sign in dialog.<br /><br /> Default value: none|  
-|MediaResourceCacheSize|Specifies the default storage size assigned to images of 512 Mb. Once the maximum storage size is reached, a cleanup of the cache is initiated. The setting applies to all tenants on the specific [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. This means that all tenants share the assigned storage value for images.<br /><br /> Default value: 512 Mb|  
 |HelpServer|Specifies the name of the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server that the [!INCLUDE[nav_web](includes/nav_web_md.md)] must connect to, such as *MyServer*.<br /><br /> Default value: none|  
-|HelpServerPort|Specifies the TCP port on the specified [!INCLUDE[navnow](includes/navnow_md.md)] Help Server that the [!INCLUDE[nav_web](includes/nav_web_md.md)] can access Help through, such as **49000**.<br /><br /> Default value: none|  
+|HelpServerPort|Specifies the TCP port on the specified [!INCLUDE[navnow](includes/navnow_md.md)] Help Server that the [!INCLUDE[nav_web](includes/nav_web_md.md)] can access Help through, such as **49000**.<br /><br /> Default value: none| 
+| Feedback Link  |Specifies the URL to a feedback system for gathering end-user feedback about the application. |
+|Community Link	|Specifies the URL to a community or resource for sharing information.|
+|Privacy Link	|Specifies the URL to the privacy information for the application. This link also appears in the sign-in page.|
+| Legal Link |Specifies the URL to the legal information about application. |
+|Sign In Help Link	|This link appears on the sign-in page. It specifies the URL to a resource that provides information to help the user sign in the Dynamics NAV application.| 
 
 ## See Also  
 [How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md)   

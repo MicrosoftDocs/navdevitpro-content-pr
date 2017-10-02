@@ -77,13 +77,13 @@ You can configure the [!INCLUDE[navnow](includes/navnow_md.md)] installation to 
 ##  <a name="WebClient"></a> Configuring the Credential Type on the Microsoft Dynamics NAV Web Client Web Site  
  To configure the credential type for the [!INCLUDE[nav_web](includes/nav_web_md.md)], perform the following procedures, as described in this section:  
   
-1.  Configure the credential type in the web.config files for the web server instance of the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+1.  Configure the credential type in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]s for the web server instance of the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 2.  Enable the authentication methods on the Internet Information Services \(IIS\) website for [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
-#### To configure the credential type in the web.config files of the Microsoft Dynamics NAV Web client site  
+#### To configure the credential type in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]s of the Microsoft Dynamics NAV Web client site  
   
-1.  On the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open the web.config file that is located in the physical path of the virtual directory for the [!INCLUDE[nav_web](includes/nav_web_md.md)] application. This web.config file contains the [!INCLUDE[navnow](includes/navnow_md.md)] settings.  
+1.  On the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] that is located in the physical path of the virtual directory for the [!INCLUDE[nav_web](includes/nav_web_md.md)] application. This [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] contains the [!INCLUDE[navnow](includes/navnow_md.md)] settings.  
   
 2.  The folder path is *%systemroot%\\inetpub\\wwwroot\\\[VirtualDirectoryName\]*. For example, the folder for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] application is *%systemroot%\\inetpub\\wwwroot\\DynamicsNAV90* folder.  
   
@@ -105,7 +105,7 @@ You can configure the [!INCLUDE[navnow](includes/navnow_md.md)] installation to 
     <add key="ClientServicesCredentialType" value="AccessControlService/>  
     ```  
   
-4.  If you are configuring the Windows credential type, then you are finished. Save the web.config file. For other credential types, continue to the next step.  
+4.  If you are configuring the Windows credential type, then you are finished. Save the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]. For other credential types, continue to the next step.  
   
 5.  Find the `<add key="DnsIdentity" value=""/>` element, and change it as follows.  
   
@@ -126,7 +126,7 @@ You can configure the [!INCLUDE[navnow](includes/navnow_md.md)] installation to 
   
      For more information, see [Authenticating Users with Microsoft Azure Access Control Service](Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md) and [Authenticating Users with Azure Active Directory](Authenticating-Users-with-Azure-Active-Directory.md).  
   
-7.  Save the web.config file.  
+7.  Save the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].  
   
 #### To enable an authentication method on the [!INCLUDE[nav_web](includes/nav_web_md.md)] site  
   

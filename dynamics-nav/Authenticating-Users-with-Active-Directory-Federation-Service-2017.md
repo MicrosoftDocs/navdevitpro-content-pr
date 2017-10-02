@@ -208,7 +208,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
     >You can use the [Set-NAVServerInstance cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVServerInstance.md) to restart the service instance.
 
 ### Dynamics NAV Web Client setup
-You configure the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] by modifying it's web.config file.
+You configure the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] by modifying it's [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].
 
 1.  Change the **ClientServicesCredentialType** setting to ```AccessControlService``` as shown:
 

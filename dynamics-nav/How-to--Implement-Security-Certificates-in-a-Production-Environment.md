@@ -110,7 +110,7 @@ This topic describes how to implement security certificates on the [!INCLUDE[nav
   
 1.  On the computer that is installed the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open the installation folder for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. By default, the folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Web Client.  
   
-2.  Open the web.config file in a text editor, such as Notepad.  
+2.  Open the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] in a text editor, such as Notepad.  
   
 3.  Find the `<DynamicsNavSettings>` element, and then change the following settings:  
   
@@ -119,6 +119,6 @@ This topic describes how to implement security certificates on the [!INCLUDE[nav
     |ClientServicesCredentialType|NavUserPassword|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md).|  
     |DnsIdentity|The subject name of the service certificate|The default value is \<identity>. Replace this with the subject name or common name \(CN\) of the certificate that is used on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].|  
   
-4.  Save the web.config file.  
+4.  Save the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].  
   
      For more information about configuring the credential type for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How-to--Configure-Authentication-of-Microsoft-Dynamics-NAV-Web-Client-Users.md).

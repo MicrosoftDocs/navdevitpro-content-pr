@@ -112,7 +112,7 @@ For more information, see [How to: Open the Microsoft Dynamics NAV Web Client](H
 
      For more information, see [How to: Configure Delegation for Microsoft Dynamics NAV Web Client](How-to--Configure-Delegation-for-Microsoft-Dynamics-NAV-Web-Client.md).  
 
--   If you want to change the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to, then modify the web.config file for the [!INCLUDE[nav_web](includes/nav_web_md.md)] website.  
+-   If you want to change the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to, then modify the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] for the [!INCLUDE[nav_web](includes/nav_web_md.md)] website.  
 
      For more information, see [How to: Change the Microsoft Dynamics NAV Server for the Microsoft NAV Web Client](How-to--Change-the-Microsoft-Dynamics-NAV-Server-for-the-Microsoft-NAV-Web-Client.md).  
 

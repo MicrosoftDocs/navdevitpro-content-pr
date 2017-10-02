@@ -77,7 +77,7 @@ http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?report=5&comp
 |`default.aspx`|Specifies the name of the active server page \(.aspx\) file to use to display the report.|  
 |`ID`|The ID of the report in [!INCLUDE[navnow](includes/navnow_md.md)].|  
 |`tenant`|Specifies the ID of the tenant to connect to. You must provide this parameter when [!INCLUDE[navnow](includes/navnow_md.md)] is deployed in multitenant architecture. The tenant that you specify must be mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to. For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).|  
-|`company`|The name of the company in [!INCLUDE[navnow](includes/navnow_md.md)] for which you want to display the page.<br /><br /> If you do not choose a company, then [!INCLUDE[nav_web](includes/nav_web_md.md)] uses the company that is defined in the web.config file. If no company is defined in the web.config file, then the last company opened by the user is displayed.|  
+|`company`|The name of the company in [!INCLUDE[navnow](includes/navnow_md.md)] for which you want to display the page.<br /><br /> If you do not choose a company, then [!INCLUDE[nav_web](includes/nav_web_md.md)] uses the company that is defined in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]. If no company is defined in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)], then the last company opened by the user is displayed.|  
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
