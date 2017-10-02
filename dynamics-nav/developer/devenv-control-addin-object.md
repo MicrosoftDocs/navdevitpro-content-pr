@@ -3,7 +3,7 @@ title: "Control Addin Object"
 description: "Description of the control addin object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 09/27/2017
+ms.date: 10/2/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -20,27 +20,25 @@ caps.latest.revision: 18
 The control add-in object allows you to add custom functionality to [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. A control add-in is a custom control, or visual element, for displaying and modifying data on [!INCLUDE[d365fin_md](includes/d365fin_md.md)] pages. Control add-ins can exchange data with the [!INCLUDE[d365fin_md](includes/d365fin_md.md)] server on various data types and can respond to user interaction to raise events that execute additional AL code.
 
 ## Control add-in properties
-In the control add-in definition, you must set the `Scripts` property to include scripts in the control add-in. The scripts could be local files in the package or references to external files using the HTTP or the HTTPS protocol. With the `StartupScript`property, you can call a special script when the page you've implemented the control add-in on, is loaded. These settings initialize the control add-in. 
+In the control add-in definition, you must set the `Scripts` property to include scripts in the control add-in. The scripts could be local files in the package or references to external files using the HTTP or the HTTPS protocol. With the `StartupScript` property, you can call a special script that runs when the page you have implemented the control add-in on, is loaded. These settings initialize the control add-in. 
 
-With the `Images` and `StyleSheet` properties, you can specify additional styling to the control add-in. 
-
-The layout properties are set to define the size of the control add-in. It is recommended to apply some size to the add-in using these properties. The properties `VerticalStretch` and `HorizontalStretch` determine how the control add-in behaves in the client when the window it is displayed in is resized. The default value is false which means that the control add-in is not resized vertically, or horizontally. The value `true` means that the control add-in is resized vertically, or horizontally. The values set by the `RequestedHeight` and `RequestedWidth` properties determine the minimum resize value of the control add-in. Read more about the sizing of control add-ins in the next section.
+With the `Images` and `StyleSheet` properties, you can specify additional styling to the control add-in. The layout properties are set to define the size of the control add-in. It is recommended to apply some size to the add-in using these properties. The properties `VerticalStretch` and `HorizontalStretch` determine how the control add-in behaves in the client when the window it is displayed in is resized. The default value is false which means that the control add-in is not resized vertically, or horizontally. The value `true` means that the control add-in is resized vertically, or horizontally. The values set by the `RequestedHeight` and `RequestedWidth` properties determine the minimum resize value of the control add-in. Read more about the sizing of control add-ins in the next section.
 
 ### Sizing of the control add-in
-To control that the sizing of the control add-in always is optimal, even on smaller display targets, such as the phone, some settings are available when you write the control add-in. The settings make sure that resizing of the control add-in works on all client types.
+To control that the sizing of the control add-in is always optimal, even on smaller display targets, such as the phone, some settings are available when you write the control add-in. The settings make sure that resizing of the control add-in works on all client types.
 
 |Property       |Value type|Description|
 |---------------|----------|-----------|
-|VerticalShrink|Boolean|Specifies that the control add-in can be made smaller vertically. This setting is optional.|
-|HorizontalShrink|Boolean|Specifies that the control add-in can be made smaller horizontally. This setting is optional.|
-|MinimumHeight|Integer|Specifies the minimum height that the control add-in can be shrunk to. This setting only applies if the VerticalShrink setting is specified.|
-|MinimumWidth|Integer|Specifies the minimum width that the control add-in can be shrunk to. This setting only applies if the HorizontalShrink setting is specified.|
-|MaximumHeight|Integer|Specifies the maximum height that the control add-in can be stretched to. This setting only applies if the VerticalStretch setting is specified.|
-|MaximumWidth|Integer|Specifies the maximum width that the control add-in can be stretched to. This setting only applies if the HorizontalStretch setting is specified.|
-|VerticalStretch|Boolean|Specifies that the control add-in can be made larger vertically. This setting is optional.|
-|HorizontalStretch|Boolean|Specifies that the control add-in can be made larger horizontally. This setting is optional.|
-|RequestedHeight|Integer|Specifies the initial height of the control add-in.|
-|RequestedWidth|Integer|Specifies the initial width of the control add-in.|
+|`VerticalShrink`|Boolean|Specifies that the control add-in can be made smaller vertically. This setting is optional.|
+|`HorizontalShrink`|Boolean|Specifies that the control add-in can be made smaller horizontally. This setting is optional.|
+|`MinimumHeight`|Integer|Specifies the minimum height that the control add-in can be shrunk to. This setting only applies if the `VerticalShrink` setting is specified.|
+|`MinimumWidth`|Integer|Specifies the minimum width that the control add-in can be shrunk to. This setting only applies if the `HorizontalShrink` setting is specified.|
+|`MaximumHeight`|Integer|Specifies the maximum height that the control add-in can be stretched to. This setting only applies if the `VerticalStretch` setting is specified.|
+|`MaximumWidth`|Integer|Specifies the maximum width that the control add-in can be stretched to. This setting only applies if the `HorizontalStretch` setting is specified.|
+|`VerticalStretch`|Boolean|Specifies that the control add-in can be made larger vertically. This setting is optional.|
+|`HorizontalStretch`|Boolean|Specifies that the control add-in can be made larger horizontally. This setting is optional.|
+|`RequestedHeight`|Integer|Specifies the initial height of the control add-in.|
+|`RequestedWidth`|Integer|Specifies the initial width of the control add-in.|
 
 ## Control add-in syntax example
 The following control add-in object example syntax defines a chart that can show how customers are represented per country on a map. The control add-in is implemented as a `usercontrol` on a page called **CustomersMapPage**.
