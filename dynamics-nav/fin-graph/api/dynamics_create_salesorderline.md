@@ -20,7 +20,7 @@ Create a salesOrderLine in Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-POST /financials/companies/({id})/salesOrders/({id})/salesOrderLines
+POST /financials/companies({id})/salesOrders({id})/salesOrderLines
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a **sales
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesOrders/({id})/salesOrderLines
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesOrders({id})/salesOrderLines
 Content-type: application/json
 
 {

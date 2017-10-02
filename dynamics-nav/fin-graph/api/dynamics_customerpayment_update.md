@@ -20,7 +20,7 @@ Update the properties of a customer payments object for Dynamics 365 for Financi
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/customerPaymentsJournals/({id})/customerPayments/({id})
+PATCH /financials/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated c
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customerPaymentsJournals/({id})/customerPayments({id})
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
 Content-type: application/json
 
 {

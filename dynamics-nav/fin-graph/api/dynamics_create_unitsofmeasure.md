@@ -19,7 +19,7 @@ Create a units of measure object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/({id})/unitsOfMeasure
+POST /financials/companies({id})/unitsOfMeasure
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and a **units
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/unitsOfMeasure
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/unitsOfMeasure
 Content-type: application/json
 
 {

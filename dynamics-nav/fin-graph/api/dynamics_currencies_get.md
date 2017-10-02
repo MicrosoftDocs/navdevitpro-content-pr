@@ -20,7 +20,7 @@ Retrieve the properties and relationships of a currencies object for Dynamics 36
 ## HTTP request
 
 ```
-GET /financials/companies/({id})/currencies/({id})
+GET /financials/companies({id})/currencies({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and a **currenci
 Here is an example of the request.
 
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/currencies/({id})
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/currencies({id})
 ```
 
 **Response**

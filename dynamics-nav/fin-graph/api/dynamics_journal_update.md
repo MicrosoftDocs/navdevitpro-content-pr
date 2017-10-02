@@ -20,7 +20,7 @@ Update the properties of a journal object for Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/journals/({id})
+PATCH /financials/companies({id})/journals({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated j
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/journals({id})
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/journals({id})
 Content-type: application/json
 
 {

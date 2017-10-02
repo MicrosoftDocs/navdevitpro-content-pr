@@ -20,7 +20,7 @@ Create a salesQuoteLines object in Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-POST /financials/companies/({id})/salesQuotes/({id})/salesQuoteLines
+POST /financials/companies({id})/salesQuotes({id})/salesQuoteLines
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a **sales
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesQuotes/({id})/salesQuoteLines
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})/salesQuoteLines
 Content-type: application/json
 
 {
