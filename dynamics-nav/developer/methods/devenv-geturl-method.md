@@ -89,7 +89,7 @@ Generates a URL for the specified client target that is based on the configurati
 
 |Client|URL|  
 |------------|---------|  
-|[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]|https://yourfinancialURL/WebClient?company='[!INCLUDE[demoname](../includes/demoname_md.md)]'/|  
+|[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]|https://yourfinancialURL/?company='[!INCLUDE[demoname](../includes/demoname_md.md)]|  
 |[!INCLUDE[d365fin_tablet_md](../includes/d365fin_tablet_md.md)]|ms-financials://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
 |[!INCLUDE[d365fin_phone_md](../includes/d365fin_phone_md.md)]|ms-financials://yourfinancialURL?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
 |[!INCLUDE[d365fin_md](../includes/d365fin_md.md)] Desktop client|ms-dynamicsnav://yourfinancialURL?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
