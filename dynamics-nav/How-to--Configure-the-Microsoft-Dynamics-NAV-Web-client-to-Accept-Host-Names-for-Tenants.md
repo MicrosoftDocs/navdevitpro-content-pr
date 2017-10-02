@@ -17,7 +17,7 @@ If you deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in a multitenant d
   
 1.  On the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open the web.config file that is located in the physical path of the web application for the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
-     The path is *%systemroot%\\inetpub\\wwwroot\\\[VirtualDirectoryName\]\\WebClient*. For example, the folder for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] application is *%systemroot%\\inetpub\\wwwroot\\DynamicsNAV90\\WebClient*.  
+     The path is *%systemroot%\\inetpub\\wwwroot\\\[VirtualDirectoryName\]\\WebClient*. For example, the folder for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] application is *%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\\WebClient*.  
   
     > [!NOTE]  
     >  You must open the web.config file as an administrator or have permission to modify the file.  

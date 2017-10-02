@@ -13,7 +13,7 @@ caps.latest.revision: 23
 # Embedding Microsoft Dynamics NAV Web Client Pages in Other Websites
 The [!INCLUDE[nav_web](includes/nav_web_md.md)] can be deployed as an independent website. In some cases, it is useful to embed parts of the [!INCLUDE[nav_web](includes/nav_web_md.md)] in other websites, for example, in order to build an internal company portal that not only contains data from [!INCLUDE[navnow](includes/navnow_md.md)], but also contains news feeds, document handling, and so on  
 
- You can do this by adding an iframe element on the embedding website, such as: `<iframe src=”http://MyWebServer/DynamicsNAV90/WebClient/default.aspx?...” />`. The [!INCLUDE[nav_web](includes/nav_web_md.md)] will display the ribbon, the navigation pane, and other UI parts inside the frame. You can update the [!INCLUDE[nav_web](includes/nav_web_md.md)] to hide the ribbon, the navigation pane, or any UI parts, and only display the core part of the list inside the frame.  
+ You can do this by adding an iframe element on the embedding website, such as: `<iframe src=”http://MyWebServer/DynamicsNAV110/WebClient/default.aspx?...” />`. The [!INCLUDE[nav_web](includes/nav_web_md.md)] will display the ribbon, the navigation pane, and other UI parts inside the frame. You can update the [!INCLUDE[nav_web](includes/nav_web_md.md)] to hide the ribbon, the navigation pane, or any UI parts, and only display the core part of the list inside the frame.  
 
 > [!NOTE]  
 >  In [!INCLUDE[navnow](includes/navnow_md.md)], only list pages are supported as framed pages.  

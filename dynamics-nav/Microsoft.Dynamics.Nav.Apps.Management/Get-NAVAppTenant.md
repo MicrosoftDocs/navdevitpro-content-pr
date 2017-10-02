@@ -31,7 +31,7 @@ You can use the returned list of tenants to apply general changes, such as unins
 
 ### EXAMPLE 1
 ```
-Get-NavAppTenant -ServerInstance DynamicsNAV90 -Name 'ProseWare SmartApp' -Version 2.3.4.500
+Get-NavAppTenant -ServerInstance DynamicsNAV110 -Name 'ProseWare SmartApp' -Version 2.3.4.500
 
           Id                    State
           ----                  ---------
@@ -40,14 +40,14 @@ Get-NavAppTenant -ServerInstance DynamicsNAV90 -Name 'ProseWare SmartApp' -Versi
           Tenant4               Mounted
 ```
 
-This example gets the tenants on the DynamicsNAV90 server instance that have the version 2.3.4.500 of the Proseware SmartApp installed.
+This example gets the tenants on the DynamicsNAV110 server instance that have the version 2.3.4.500 of the Proseware SmartApp installed.
 
 ### EXAMPLE 2
 ```
-Get-NavAppTenant -ServerInstance DynamicsNAV90 -Name 'ProseWare SmartApp' -Version 2.3.4.500 | Uninstall-NAVApp -ServerInstance DynamicsNAV90 -Name 'Proseware SmartApp' -Version 2.3.4.500
+Get-NavAppTenant -ServerInstance DynamicsNAV110 -Name 'ProseWare SmartApp' -Version 2.3.4.500 | Uninstall-NAVApp -ServerInstance DynamicsNAV110 -Name 'Proseware SmartApp' -Version 2.3.4.500
 ```
 
-This example gets the tenants on the DynamicsNAV90 server instance that have the version 2.3.4.500 of the Proseware SmartApp installed and then uninstalls that NAV App for each of those tenants by passing the tenants to the Uninstall-NAVApp cmdlet.
+This example gets the tenants on the DynamicsNAV110 server instance that have the version 2.3.4.500 of the Proseware SmartApp installed and then uninstalls that NAV App for each of those tenants by passing the tenants to the Uninstall-NAVApp cmdlet.
 
 ## PARAMETERS
 

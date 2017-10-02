@@ -84,7 +84,7 @@ Use the Set-NAVServerUser cmdlet to rename an existing Microsoft Dynamics NAV us
 
 ### EXAMPLE 1
 ```
-Set-NAVServerUser DynamicsNAV90 -Sid S-1-5-20 -NewWindowsAccount MyDomain\User1
+Set-NAVServerUser DynamicsNAV110 -Sid S-1-5-20 -NewWindowsAccount MyDomain\User1
 ```
 
 This example renames the Windows account user name of a Microsoft Dynamics NAV user.
@@ -100,7 +100,7 @@ The existing Microsoft Dynamics NAV user is identified by its current Windows us
 
 ### EXAMPLE 3
 ```
-Set-NAVServerUser DynamicsNAV90 -UserName USER1 -NewUserName USER2 -ChangePasswordAtNextLogOn -Password (Read-Host "Enter password for USER2" -AsSecureString)Enter password for USER2: ************
+Set-NAVServerUser DynamicsNAV110 -UserName USER1 -NewUserName USER2 -ChangePasswordAtNextLogOn -Password (Read-Host "Enter password for USER2" -AsSecureString)Enter password for USER2: ************
 ```
 
 This example changes the user name of a Microsoft Dynamics NAV user from USER1 to USER2.

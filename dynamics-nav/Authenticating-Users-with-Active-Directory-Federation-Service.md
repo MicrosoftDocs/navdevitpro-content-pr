@@ -70,7 +70,7 @@ You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_
         For example:
 
         ```
-        https://MyWebServer:8080/DynamicsNAV100/WebClient
+        https://MyWebServer:8080/DynamicsNAV110/WebClient
         ```
 
     -   If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], use base URL for the Web client, which is the full URL without the ```/[web-instance]/WebClient``` part. This typically has the format:
@@ -197,7 +197,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
 
     Replace ```[Public URL for AD FS server]``` with the URL for your installation.
 
-    Replace ```[Dynamics NAV Web Client URL]``` with the full URL for your Web client, such as ```https://MyWebServer:8080/DynamicsNAV100/WebClient```. This is same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
+    Replace ```[Dynamics NAV Web Client URL]``` with the full URL for your Web client, such as ```https://MyWebServer:8080/DynamicsNAV110/WebClient```. This is same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
 
 
 4.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.

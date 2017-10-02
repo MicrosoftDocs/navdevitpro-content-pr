@@ -320,13 +320,13 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
 
 2.  In the address box, type the following URL:  
 
-     **http://ComputerName:PortNumber/DynamicsNAV100/WebClient/Default.aspx**  
+     **http://ComputerName:PortNumber/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient/Default.aspx**  
 
     -   Substitute **ComputerName** with the name of the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
 
     -   Substitute **PortNumber** with the port that you configured for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] during Setup.  
 
-    -   Substitute **DynamicsNAV100** with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that you configured during Setup. [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)] is the default value.  
+    -   Substitute **[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]** with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that you configured during Setup. [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)] is the default value.  
 
      For this walkthrough, you would use the following URL:  
 

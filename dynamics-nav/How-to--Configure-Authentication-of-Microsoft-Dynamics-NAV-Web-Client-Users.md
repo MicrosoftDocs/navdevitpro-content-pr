@@ -85,7 +85,7 @@ You can configure the [!INCLUDE[navnow](includes/navnow_md.md)] installation to 
   
 1.  On the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] that is located in the physical path of the virtual directory for the [!INCLUDE[nav_web](includes/nav_web_md.md)] application. This [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] contains the [!INCLUDE[navnow](includes/navnow_md.md)] settings.  
   
-2.  The folder path is *%systemroot%\\inetpub\\wwwroot\\\[VirtualDirectoryName\]*. For example, the folder for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] application is *%systemroot%\\inetpub\\wwwroot\\DynamicsNAV90* folder.  
+2.  The folder path is *%systemroot%\\inetpub\\wwwroot\\\[VirtualDirectoryName\]*. For example, the folder for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] application is *%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]* folder.  
   
 3.  In the `<DynamicsNavSettings>` element, which is located toward the end of the file, find the `<add key="ClientServicesCredentialType" value=""/>` element, and then change it to one of the following.  
   
