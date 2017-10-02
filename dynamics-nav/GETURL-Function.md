@@ -11,7 +11,7 @@ ms.assetid: 507fd5c0-c6db-4ae0-b2b2-ff5039c6c9a6
 caps.latest.revision: 12
 ---
 # GETURL Function
-Generates a URL for the specified client target that is based on the configuration of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
+Generates a URL for the specified client target that is based on the configuration of the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.  
   
  If the code runs in a multitenant deployment architecture, the generated URL will automatically apply to the tenant ID of the current user.  
   
@@ -83,7 +83,7 @@ Generates a URL for the specified client target that is based on the configurati
 |Client|URL|  
 |------------|---------|  
 |[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|DynamicsNAV://*server*:*port*/*instance*//[!INCLUDE[demoname](includes/demoname_md.md)]|  
-|[!INCLUDE[nav_web](includes/nav_web_md.md)]|https://*server*:*port*/*instance*/?company='[!INCLUDE[demoname](includes/demoname_md.md)]'/<br /><br />https://*server*:*port*/*instance*/WebClient?company='[!INCLUDE[demoname](includes/demoname_md.md)]'/ ([!INCLUDE[nav2017](includes/nav2017.md) and earlier)]|  
+|[!INCLUDE[nav_web](includes/nav_web_md.md)]|https://*server*:*port*/*instance*/?company='[!INCLUDE[demoname](includes/demoname_md.md)]'/<br /><br />https://*server*:*port*/*instance*/WebClient?company='[!INCLUDE[demoname](includes/demoname_md.md)]'/ ([!INCLUDE[nav2017](includes/nav2017.md)] and earlier)|  
 |[!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
 |[!INCLUDE[nav_phone](includes/nav_phone_md.md)]|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
 |[!INCLUDE[navnow](includes/navnow_md.md)] Desktop client|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
