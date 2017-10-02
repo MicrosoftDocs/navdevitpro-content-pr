@@ -1,6 +1,6 @@
 ---
 title: Create journals | Microsoft Docs
-description: Create a journal in Dynamics 365 for Financials.
+description: Creates a journal object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -20,7 +20,7 @@ Creates a journal in Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-POST /financials/companies/({id})/journals/({id})
+POST /financials/companies({id})/journals({id})
 ```
 
 ## Request headers
@@ -30,10 +30,10 @@ POST /financials/companies/({id})/journals/({id})
 |Content-Type  |application/json          |
 
 ## Request body
-In the request body, supply a JSON representation of journal object.
+In the request body, supply a JSON representation of a **journals** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and journal object in the response body.
+If successful, this method returns ```201 Created``` response code and a **journals** object in the response body.
 
 ## Example
 
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and journal o
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/journals
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/journals
 Content-type: application/json
 
 ```json

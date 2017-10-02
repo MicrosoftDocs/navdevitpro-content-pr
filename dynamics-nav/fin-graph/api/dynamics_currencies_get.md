@@ -1,6 +1,6 @@
 ---
 title: Get currencies | Microsoft Docs
-description: Get a currency object in Dynamics 365 for Financials.
+description: Gets a currency object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -20,7 +20,7 @@ Retrieve the properties and relationships of a currencies object for Dynamics 36
 ## HTTP request
 
 ```
-GET /financials/companies/({id})/currencies/({id})
+GET /financials/companies({id})/currencies({id})
 ```
 
 ## Request headers
@@ -32,7 +32,7 @@ GET /financials/companies/({id})/currencies/({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and currencies object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **currencies** object in the response body.
 
 ## Example
 
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and currencies o
 Here is an example of the request.
 
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/currencies/({id})
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/currencies({id})
 ```
 
 **Response**

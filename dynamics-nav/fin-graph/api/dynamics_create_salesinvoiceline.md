@@ -1,6 +1,6 @@
 ---
 title: Create salesInvoiceLines | Microsoft Docs
-description: Creates a sales invoice line.
+description: Creates a sales invoice line object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,12 +15,12 @@ ms.author: solsen
 ---
 
 # Create salesInvoiceLines
-Create a salesInvoiceLine in Dynamics 365 for Financials.
+Create a sales invoice line object in Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-POST /financials/companies/({id})/salesInvoices/({id})/salesInvoiceLines
+POST /financials/companies({id})/salesInvoices({id})/salesInvoiceLines
 ```
 
 ## Request headers
@@ -31,10 +31,10 @@ POST /financials/companies/({id})/salesInvoices/({id})/salesInvoiceLines
 |Content-Type  |application/json           |
 
 ## Request body
-In the request body, supply a JSON representation of a salesInvoice object.
+In the request body, supply a JSON representation of a **salesInvoiceLines** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a salesInvoice object in the response body.
+If successful, this method returns ```201 Created``` response code and a **salesInvoiceLines** object in the response body.
 
 ## Example
 
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a salesIn
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesInvoices/({id})/salesInvoiceLines
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesInvoices({id})/salesInvoiceLines
 Content-type: application/json
 
 {

@@ -19,7 +19,7 @@ Retrieve the properties and relationships of a vendor purchases report object fo
 
 ## HTTP request
 ```
-GET /financials/companies/({id})/vendorPurchases
+GET /financials/companies({id})/vendorPurchases
 ```
 
 ## Request headers
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and vendorPurcha
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/vendorPurchases
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/vendorPurchases
 ```
 
 **Response**

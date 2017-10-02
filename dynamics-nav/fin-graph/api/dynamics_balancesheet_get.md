@@ -1,6 +1,6 @@
 ---
-title: GET balanceSheet method | Microsoft Docs
-description: Gets a balance sheet report object in Dynamics 365 for Financials.
+title: Get balanceSheet | Microsoft Docs
+description: Gets a balance sheet object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -19,7 +19,7 @@ Retrieve the properties and relationships of a balance sheet report object for D
 
 ## HTTP request
 ```
-GET /financials/companies/({id})/balanceSheet
+GET /financials/companies({id})/balanceSheet
 ```
 
 ## Request headers
@@ -31,7 +31,7 @@ GET /financials/companies/({id})/balanceSheet
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and balanceSheet object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **balanceSheet** object in the response body.
 
 ## Example
 
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and balanceSheet
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/balanceSheet?$orderby=lineNumber&$filter=dateFilter eq 2020-12-30
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/balanceSheet?$orderby=lineNumber&$filter=dateFilter eq 2020-12-30
 ```
 
 **Response**

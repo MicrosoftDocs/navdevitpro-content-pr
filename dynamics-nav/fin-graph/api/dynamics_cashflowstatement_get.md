@@ -1,6 +1,6 @@
 ---
 title: Get cashFlowStatement | Microsoft Docs
-description: Gets a cash flow statement report object in Dynamics 365 for Financials.
+description: Gets a cash flow statement object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -19,7 +19,7 @@ Retrieve the properties and relationships of a cash flow statement report object
 
 ## HTTP request
 ```
-GET /financials/companies/({id})/cashFlowStatement
+GET /financials/companies({id})/cashFlowStatement
 ```
 
 ## Request headers
@@ -31,7 +31,7 @@ GET /financials/companies/({id})/cashFlowStatement
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and cashFlowStatement object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **cashFlowStatement** object in the response body.
 
 ## Example
 
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and cashFlowStat
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/cashFlowStatement?$orderby=lineNumber&$filter=dateFilter ge 2019-01-01 and dateFilter le 2020-12-31
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/cashFlowStatement?$orderby=lineNumber&$filter=dateFilter ge 2019-01-01 and dateFilter le 2020-12-31
 ```
 
 **Response**

@@ -1,6 +1,6 @@
 ---
 title: Update shipmentMethods | Microsoft Docs
-description: Updates a shipment method in Dynamics 365 for Financials.
+description: Updates a shipment method object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -19,7 +19,7 @@ Update the properties of a shipment methods object for Dynamics 365 for Financia
 
 ## HTTP request
 ```
-PATCH /financials/companies/({id})/shipmentMethods/({id})
+PATCH /financials/companies({id})/shipmentMethods({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and an updated s
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/shipmentMethods({id})
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/shipmentMethods({id})
 Content-type: application/json
 
 {

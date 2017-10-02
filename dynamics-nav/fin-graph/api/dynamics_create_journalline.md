@@ -1,6 +1,6 @@
 ---
 title: Create journalLines | Microsoft Docs
-description: Create a journal line in Dynamics 365 for Financials.
+description: Creates a journal line in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,12 +15,12 @@ ms.author: solsen
 ---
 
 # Create journalLines
-Creates a journalLine in Dynamics 365 for Financials.
+Creates a journal line object in Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-POST /financials/companies/({id})/journals/({id})/journalLines/({id})
+POST /financials/companies({id})/journals({id})/journalLines({id})
 ```
 
 ## Request headers
@@ -30,10 +30,10 @@ POST /financials/companies/({id})/journals/({id})/journalLines/({id})
 |Content-Type  |application/json         |
 
 ## Request body
-In the request body, supply a JSON representation of journalLine object.
+In the request body, supply a JSON representation of **journalLines** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and journalLine object in the response body.
+If successful, this method returns ```201 Created``` response code and **journalLines** object in the response body.
 
 ## Example
 
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and journalLi
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/journals/({id})/journalLine
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/journals({id})/journalLines
 Content-type: application/json
 
 {

@@ -1,6 +1,6 @@
 ---
-title: DELETE salesCreditMemoLine method | Microsoft Docs
-description: Deletes a sales credit memo line.
+title: Delete salesCreditMemoLines | Microsoft Docs
+description: Deletes a sales credit memo line in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,11 +15,11 @@ ms.author: solsen
 ---
 
 # Delete salesCreditMemoLines
-Delete a salesCreditMemoLines from Dynamics 365 for Financials.
+Delete a salesCreditMemoLines object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/({id})/salesCreditMemos/({id})/salesCreditMemoLines(documentId=({id}),sequence=({number}))
+DELETE /financials/companies({id})/salesCreditMemos({id})/salesCreditMemoLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesCreditMemos/({id})/salesCreditMemoLines(documentId=({id}),sequence=({number}))
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesCreditMemos({id})/salesCreditMemoLines(documentId=({id}),sequence=({number}))
 ```
 
 **Response** 

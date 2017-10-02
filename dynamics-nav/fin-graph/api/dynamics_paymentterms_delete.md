@@ -1,6 +1,6 @@
 ---
 title: Delete paymentTerms | Microsoft Docs
-description: Delete a payment term object in Dynamics 365 for Financials.
+description: Deletes a payment term object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -19,7 +19,7 @@ Delete a paymentTerms from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/({id})/paymentTerms/({id})
+DELETE /financials/companies({id})/paymentTerms({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentTerms/({id})
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/paymentTerms({id})
 ```
 
 **Response** 

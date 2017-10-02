@@ -1,6 +1,6 @@
 ---
 title: Create paymentTerms | Microsoft Docs
-description: Create a payment term object in Dynamics 365 for Financials.
+description: Creates a payment terms object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,11 +15,11 @@ ms.author: solsen
 ---
 
 # Create paymentTerms
-Create a paymentTerms in Dynamics 365 for Financials.
+Create a payment terms object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/({id})/paymentTerms
+POST /financials/companies({id})/paymentTerms
 ```
 
 ## Request headers
@@ -29,10 +29,10 @@ POST /financials/companies/({id})/paymentTerms
 |Content-Type   |application/json             |
 
 ## Request body
-In the request body, supply a JSON representation of paymentTerms object.
+In the request body, supply a JSON representation of a **paymentTerms** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and paymentTerms object in the response body.
+If successful, this method returns ```201 Created``` response code and a **paymentTerms** object in the response body.
 
 ## Example
 
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and paymentTe
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/paymentTerms
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/paymentTerms
 Content-type: application/json
 
 {

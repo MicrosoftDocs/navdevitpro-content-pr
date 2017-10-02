@@ -15,11 +15,11 @@ ms.author: solsen
 ---
 
 # Get countriesRegions
-Retrieve the properties and relationships of an countries regions object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a countries regions object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-GET /financials/companies/({id})/countriesRegions/({id})
+GET /financials/companies({id})/countriesRegions({id})
 ```
 
 ## Request headers
@@ -31,7 +31,7 @@ GET /financials/companies/({id})/countriesRegions/({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and countriesRegions object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **countriesRegions** object in the response body.
 
 ## Example
 
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and countriesReg
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/countriesRegions/({id})
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/countriesRegions({id})
 ```
 
 **Response**

@@ -1,6 +1,6 @@
 ---
 title: Update customers | Microsoft Docs
-description: Updates a customers object in Dynamics 365 for Financials.
+description: Updates a customer object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,7 +21,7 @@ Update the properties of a customers object for Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-PATCH /financials/companies/({id})/customers/({id})
+PATCH /financials/companies({id})/customers({id})
 ```
 
 ## Request headers
@@ -44,7 +44,7 @@ If successful, this method returns a ```200 OK``` response code and an updated c
 Here is an example of the request.
 
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customers({id})
+PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/customers({id})
 Content-type: application/json
 
 {

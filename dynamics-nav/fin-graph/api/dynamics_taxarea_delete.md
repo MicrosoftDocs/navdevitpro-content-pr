@@ -19,7 +19,7 @@ Delete a taxAreas object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/({id})/taxAreas/({id})
+DELETE /financials/companies({id})/taxAreas({id})
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/taxAreas/({id})
+DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/taxAreas({id})
 ```
 
 **Response** 

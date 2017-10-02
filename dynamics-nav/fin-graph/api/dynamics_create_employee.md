@@ -1,6 +1,6 @@
 ---
 title: Create employees | Microsoft Docs
-description: Creates an employee in Dynamics 365 for Financials.
+description: Creates an employee object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,11 +15,11 @@ ms.author: solsen
 ---
 
 # Create employees
-Create an employee in Dynamics 365 for Financials.
+Create an employee object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/({id})/employees
+POST /financials/companies({id})/employees
 ```
 
 ## Request headers
@@ -29,10 +29,10 @@ POST /financials/companies/({id})/employees
 |Content-Type  |application/json         |
 
 ## Request body
-In the request body, supply a JSON representation of employees object.
+In the request body, supply a JSON representation of an **employees** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and employees object in the response body.
+If successful, this method returns ```201 Created``` response code and an **employees** object in the response body.
 
 ## Example
 
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and employees
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/employees
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/employees
 Content-type: application/json
 
 {
@@ -100,7 +100,7 @@ Content-type: application/json
   "terminationDate": "0001-01-01",
   "status": "Active",
   "birthDate": "1973-12-12",
-  "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/employees/({id})/picture",
+  "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/employees({id})/picture",
   "lastModifiedDateTime": "2017-03-16T14:57:19.497Z" 
 }
 

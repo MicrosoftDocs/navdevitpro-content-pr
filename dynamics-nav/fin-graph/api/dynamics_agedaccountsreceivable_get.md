@@ -1,6 +1,6 @@
 --- 
-title: GET agedAccountsReceivable method | Microsoft Docs
-description: Gets an aged accounts receivable report object in Dynamics 365 for Financials.
+title: Get agedAccountsReceivable | Microsoft Docs
+description: Gets an aged accounts receivable object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -19,7 +19,7 @@ Retrieve the properties and relationships of an aged accounts receivable report 
 
 ## HTTP request
 ```
-GET /financials/companies/({id})/agedAccountsReceivable
+GET /financials/companies({id})/agedAccountsReceivable
 ```
 
 ## Request headers
@@ -31,7 +31,7 @@ GET /financials/companies/({id})/agedAccountsReceivable
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and agedAccountsReceivable object in the response body.
+If successful, this method returns a ```200 OK``` response code and an **agedAccountsReceivable** object in the response body.
 
 ## Example
 
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and agedAccounts
 Here is an example of the request.
 
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/agedAccountsReceivable
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/agedAccountsReceivable
 ```
 
 **Response**

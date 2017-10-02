@@ -1,5 +1,5 @@
 ---
-title: GET accounts | Microsoft Docs
+title: Get accounts | Microsoft Docs
 description: Gets an account object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
@@ -19,7 +19,7 @@ Retrieve the properties and relationships of an account object for Dynamics 365 
 
 ## HTTP request
 ```
-GET /financials/companies/({id})/accounts/({id})
+GET /financials/companies({id})/accounts({id})
 ```
 
 ## Request headers
@@ -31,7 +31,7 @@ GET /financials/companies/({id})/accounts/({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and accounts object in the response body.
+If successful, this method returns a ```200 OK``` response code and an **accounts** object in the response body.
 
 ## Example
 
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and accounts obj
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/accounts/({id})
+GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/accounts({id})
 ```
 
 **Response**

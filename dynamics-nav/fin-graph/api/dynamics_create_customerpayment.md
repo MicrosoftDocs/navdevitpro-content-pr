@@ -1,6 +1,6 @@
 ---
 title: Create customerPayments | Microsoft Docs
-description: Creates a customer payment in Dynamics 365 for Financials.
+description: Creates a customer payment object in Dynamics 365 for Financials.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
@@ -14,11 +14,11 @@ ms.author: solsen
 ---
 
 # Create customerPayments
-Creates a customer payment in Dynamics 365 for Financials.
+Creates a customer payment object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/({id})/customerPaymentsJournals/({id})/customerPayments/({id})
+POST /financials/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
 ```
 
 ## Request headers
@@ -28,10 +28,10 @@ POST /financials/companies/({id})/customerPaymentsJournals/({id})/customerPaymen
 |Content-Type  |application/json         |
 
 ## Request body
-In the request body, supply a JSON representation of customerPayment object.
+In the request body, supply a JSON representation of **customerPayments** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and customerPayment object in the response body.
+If successful, this method returns ```201 Created``` response code and a **customerPayments** object in the response body.
 
 ## Example
 
@@ -40,7 +40,7 @@ If successful, this method returns ```201 Created``` response code and customerP
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customerPayment
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/customerPayment
 Content-type: application/json
 
 {

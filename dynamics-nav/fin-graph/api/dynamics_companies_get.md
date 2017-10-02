@@ -1,5 +1,5 @@
 ---
-title: GET companies method | Microsoft Docs
+title: Get companies | Microsoft Docs
 description: Gets a company object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
@@ -31,7 +31,7 @@ GET /financials/companies
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and companies object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **companies** object in the response body.
 
 ## Example
 

@@ -1,6 +1,6 @@
 ---
 title: Get generalLedgerEntries | Microsoft Docs
-description: Get a general ledger entry object in Dynamics 365 for Financials.
+description: Gets a general ledger entry object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -20,7 +20,7 @@ Retrieve the properties and relationships of a general ledger entry object for D
 
 ## HTTP request
 ```
-GET /financials/companies/({id})/generalLedgerEntries/({id})
+GET /financials/companies({id})/generalLedgerEntries({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and generalLedge
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/beta/financials/companies/({id})/generalLedgerEntries/({id})
+GET https://graph.microsoft.com/beta/financials/companies({id})/generalLedgerEntries({id})
 ```
 
 **Response**
