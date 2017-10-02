@@ -10,13 +10,14 @@ ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
 # Configuring a [!INCLUDE[nav_web](includes/nav_web_md.md)] Instance for the Web Client
-You can create a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using the Setup wizard to install the [!INCLUDE[nav_web](includes/nav_web_md.md)] or by running the [New-NAVWebServerInstance cmdlet](Microsoft.Dynamics.Nav.Management/new-navwebserverinstance.md). When you set up a web server instance, you are configuring the connection from the [!INCLUDE[nav_web](includes/nav_web_md.md)] to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The connection settings, along with several other configuration settings, are saved in a configuration file for the web server instance. This file is called the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].
+You can create a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using the Setup wizard to install the [!INCLUDE[nav_web](includes/nav_web_md.md)] or by running the [New-NAVWebServerInstance cmdlet](Microsoft.Dynamics.Nav.Management/new-navwebserverinstance.md). When you set up a web server instance, you are configuring the connection from the [!INCLUDE[nav_web](includes/nav_web_md.md)] to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The connection settings, along with several other configuration settings, are saved in a configuration file for the web server instance.
 
 ## <a name="WebClientSettingsFile"></a>About the configuration file
-The name of the configuration file depends on your [!INCLUDE[navnow_md.md](includes/navnow_md.md)]. The [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] is a Java Script Object Notification file type that is similar to files that use the XML file format.
+The name of the configuration file depends on your [!INCLUDE[navnow_md.md](includes/navnow_md.md)].
 
--   With [!INCLUDE[nav2018_md](includes/nav2018_md.md)], because the web server instances run on .NET Core, the configuration file for the web server instances is a .json file type called *navsettings.json*.
-- With [!INCLUDE[nav2017](includes/nav2017.md)] and earlier, the configuration file is a .config type file called web.config. 
+-   With [!INCLUDE[nav2018_md](includes/nav2018_md.md)], because the web server instances run on .NET Core, the configuration file for the web server instances is a .json file type called **navsettings.json**. The navsettings.json file is a Java Script Object Notification file type that is similar to files that use the XML file format.
+
+- With [!INCLUDE[nav2017](includes/nav2017.md)] and earlier, the configuration file is a .config type file called **web.config**. 
 
  After installation, you can change the configuration by modifying the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]. There are two ways to modify this file: directly or using PowerShell.
 
