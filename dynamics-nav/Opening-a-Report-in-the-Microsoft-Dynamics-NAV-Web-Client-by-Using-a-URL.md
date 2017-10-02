@@ -7,9 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 2c2b3120-69ce-4c40-bf22-8e385fefd64f
-caps.latest.revision: 16
-manager: edupont
+author: jswymer
 ---
 # Opening a Report in the Microsoft Dynamics NAV Web Client by Using a URL
 You can open a specific report in the [!INCLUDE[nav_web](includes/nav_web_md.md)] by typing the report's URL in the address of a web browser. After you have the URL of a report, you can use it as a hyperlink to the report, which you can include in other sources, such as emails or Word documents, or send to other users.  
@@ -17,19 +15,15 @@ You can open a specific report in the [!INCLUDE[nav_web](includes/nav_web_md.md)
 > [!IMPORTANT]  
 >  Certain data in the URL, such as company name, could be considered sensitive information. Use discretion if you distribute URLs that contain the company name, or if it is possible, exclude this information from the URL.  
   
- This topic includes the following sections:  
-  
--   [Example](Opening-a-Report-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md#Example)  
-  
--   [Report Address Syntax](Opening-a-Report-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md#Syntax)  
-  
--   [Building the Report Address](Opening-a-Report-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md#Building)  
-  
--   [Report Address Parameters](Opening-a-Report-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md#Paramters)  
-  
 ##  <a name="Example"></a> Example  
  The following address displays report 5 Receivables – Payables for the [!INCLUDE[demoname](includes/demoname_md.md)] company. The page is displayed in a [!INCLUDE[nav_web](includes/nav_web_md.md)] that is running on port 8080 of a computer that has the name MyWebServer.  
   
+```  
+http://MyWebServer:8080/nav_server_instance/?report=5&company=CRONUS%20International%20Ltd.   
+```  
+
+Or for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions:
+
 ```  
 http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?report=5&company=CRONUS%20International%20Ltd.   
 ```  
@@ -43,9 +37,15 @@ http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?report=5&comp
  The address for opening a report in the [!INCLUDE[nav_web](includes/nav_web_md.md)] has the following syntax.  
   
 ```  
+<http|https>://<webserver>[:<port>]/<webserverinstance>/?report=<ID>&[tenant=<tenantID>]&[company=<companyname>]  
+```  
+
+Or for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions:
+  
+```  
 <http|https>://<webserver>[:<port>]/<webserverinstance>/WebClient/default.aspx?report=<ID>&[tenant=<tenantID>]&[company=<companyname>]  
 ```  
-  
+
 ### Syntax Key  
  The following table describes the notation that is used to indicate address syntax.  
   

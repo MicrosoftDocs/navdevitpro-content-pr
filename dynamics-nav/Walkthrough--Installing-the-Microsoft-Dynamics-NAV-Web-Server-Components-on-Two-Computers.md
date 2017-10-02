@@ -267,7 +267,11 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
 
 2.  In the address box, type the following URL:  
 
-     `http://ComputerName:PortNumber/nav_server_instance/WebClient/Default.aspx`  
+    `http://ComputerName:PortNumber/nav_server_instance`  
+
+    Or for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions:
+
+    `http://ComputerName:PortNumber/nav_server_instance/WebClient/Default.aspx`  
 
     -   Substitute **ComputerName** with the name of the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
 
@@ -276,6 +280,10 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
     -   Substitute **[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]** with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that you configured during Setup. [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)] is the default value.  
 
      For this walkthrough, you would use the following URL:  
+
+    ```  
+    http://navweb:8080/nav_server_instance  
+    ```  
 
     ```  
     http://navweb:8080/nav_server_instance/WebClient/Default.aspx  

@@ -11,7 +11,7 @@ ms.assetid: 24c99ff5-7c54-408c-94ff-13a151384b3f
 author: jswymer
 ---
 # Authenticating Users with Active Directory Federation Services
-**Applies** to: [!INCLUDE[navcrete_md](includes/navcrete_md.md)] (Cummulative Update 14 and later), [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] (Cummulative Update 2 and later),  [!INCLUDE[nav2017](includes/nav2017.md)]
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md)]. For earlier versions, see [Authenticating Users with Active Directory Federation Services](Authenticating-Users-with-Active-Directory-Federation-Service-2017.md)
 
 [!INCLUDE[navnow](includes/navnow_md.md)] supports Active Directory Federation Services (AD FS) authentication for authenticating users, without having to use the Access Control Service (ACS). This article walks you through the steps about how to set up AD FS authentication in AD FS Management console, and then how to configure it in [!INCLUDE[navnow](includes/navnow_md.md)].
 
@@ -64,16 +64,16 @@ You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_
     -    If you are setting up AD FS for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], set this to the full URL for the Web client. The URL typically has the format:
 
         ```
-        https://[web-server-computer]:[port]/[web-instance]/WebClient
+        https://[web-server-computer]:[port]/[web-instance]
         ```
 
         For example:
 
         ```
-        https://MyWebServer:8080/DynamicsNAV110/WebClient
+        https://MyWebServer:8080/DynamicsNAV110
         ```
 
-    -   If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], use base URL for the Web client, which is the full URL without the ```/[web-instance]/WebClient``` part. This typically has the format:
+    -   If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], use base URL for the Web client, which is the full URL without the ```/[web-instance]``` part. This typically has the format:
 
         ```
         https://[web-server-computer]:[port]/[web-instance]
@@ -187,19 +187,6 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
     >[!NOTE]
     >This URL must to be accessible from a browser on the computer running the [!INCLUDE[nav_server](includes/nav_server_md.md)].
 
-3.  To set up the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] in [!INCLUDE[nav2017](includes/nav2017.md)] and later, set the **WSFederationLoginEndpoint** (WSFederationLoginEndpoint) to point to the AD FS login page for authenticating users.
-
-    For example, the CustomSettings file should include the following key:
-
-    ```
-    <add key="WSFederationLoginEndpoint" value="https://[Public URL for ADFS server]/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwebclient%26wreply=[Dynamics NAV Web Client URL]" />
-    ```
-
-    Replace ```[Public URL for AD FS server]``` with the URL for your installation.
-
-    Replace ```[Dynamics NAV Web Client URL]``` with the full URL for your Web client, such as ```https://MyWebServer:8080/DynamicsNAV110/WebClient```. This is same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
-
-
 4.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
     >[!TIP]
@@ -232,10 +219,10 @@ You configure the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] by modi
 2.  Set the **ACSUri** setting to the AD FS login page as shown:
 
     ```
-    <add key="ACSUri" value="https://[Public URL for ADFS server]/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwinclient%26wreply=[Dynamics NAV Web Client URL without /[Web server instance]/WebClient]" />
+    <add key="ACSUri" value="https://[Public URL for ADFS server]/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwinclient%26wreply=[Dynamics NAV Web Client URL without /[Web server instance]]" />
     ```
 
-    Replace ```[Dynamics NAV Web Client URL without /[Web server instance]/WebClient]``` with the same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] in AD FS.
+    Replace ```[Dynamics NAV Web Client URL without /[Web server instance]]``` with the same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] in AD FS.
 
 3. Restart the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)].
 

@@ -7,9 +7,6 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: f6b7668b-f925-4349-8729-46ea29210a94
-caps.latest.revision: 13
-manager: edupont
 author: jswymer
 ---
 # Setting Up the Office Add-Ins for Outlook Integration with [!INCLUDE[navnow](includes/navnow_md.md)]
@@ -61,7 +58,7 @@ You can use either the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or the **
 	 With the Set-NAVServerConfiguration cmdlet, set the ```ExchangeAuthenticationMetadataLocation``` key.
 2.	Set the **Web Client Base URL** setting to the base URL of the [!INCLUDE[nav_web_md](includes/nav_web_md.md)].
 
-	This is the root portion of all URLs that are used to access pages in the web client. This must have the format ```https://[hostname:port]/[instance]/WebClient```, such as ```https://MyNavWebServer:443/DynamicsNAV/WebClient/```.
+	This is the root portion of all URLs that are used to access pages in the web client. This must have the format `https://[hostname:port]/[instance]`, such as such as `https://MyNavWebServer:443/DynamicsNAV` or `https://[hostname:port]/[instance]/WebClient` for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions.
 
 	With the **Set-NAVServerConfiguration** cmdlet, set the ```PublicWebBaseUrl``` key.
 
