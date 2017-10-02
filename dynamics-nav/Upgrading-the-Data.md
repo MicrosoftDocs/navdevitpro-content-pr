@@ -11,11 +11,13 @@ manager: edupont
 ms.prod: "dynamics-nav-2017"
 ---
 # Upgrading the Data to Dynamics NAV 2017
-This topic describes the tasks required for upgrading the following database versions to [!INCLUDE[nav2017](includes/nav2017.md)]:
+This topic describes the tasks required for upgrading the following database versions to [!INCLUDE[nav2018_md](includes/nav2018_md.md)]:
+
 -   [!INCLUDE[nav7long](includes/nav7long_md.md)]
 -   [!INCLUDE[navsicily](includes/navsicily_md.md)]
 -   [!INCLUDE[navcrete](includes/navcrete_md.md)]
 -   [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
+-   [!INCLUDE[nav2017](includes/nav2017.md)]
 
 You use data conversion tools provided with [!INCLUDE[nav2017](includes/nav2017.md)] to convert the old data with the old version’s table and field structure, so that it functions together with the new version’s table and field structure. Mainly, only table objects and table data are modified during the data upgrade process. Other objects, such as pages, reports, codeunits, and XMLports are upgraded as part of the application code upgrade process.
 
@@ -44,7 +46,9 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 
     For more information, see [How to: Export and Import Permission Sets and Permissions](how-to--import-export-permission-sets-permissions.md#ExportPerms).
 
-4.   \(Optional\) If the old [!INCLUDE[navnow](includes/navnow_md.md)] application uses data encryption, you exported the encryption key file that it used for the data encryption.  
+4.   \(Optional\) Make a copy of the web.config file for all the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. With [!INCLUDE[nav2018_md](includes/nav2018_md.md)], [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances run on Microsoft .NET Core. With this change, the instances now use a .json type file (called navsettings.json) instead of the web.config file. 
+
+5.   \(Optional\) If the old [!INCLUDE[navnow](includes/navnow_md.md)] application uses data encryption, you exported the encryption key file that it used for the data encryption.  
 
     For more information, see [How to: Export and Import Encryption Keys](how-to-export-and-import-encryption-keys.md).  
 
@@ -87,7 +91,7 @@ In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] version that matc
 You can also use the [DeleteObjects](DeleteObjects.md) command of the finsql.exe.
 
 ##  <a name="UninstallOldProduct"></a> Task 5: Uninstall the old product and install the new product (Optional)
- Uninstall the old [!INCLUDE[navnow_md](includes/navnow_md.md)], and then install [!INCLUDE[nav2017](includes/nav2017.md)].  
+Uninstall the old [!INCLUDE[navnow_md](includes/navnow_md.md)], and then install [!INCLUDE[nav2017](includes/nav2017.md)].  
 
 During installation of [!INCLUDE[nav2017](includes/nav2017.md)], you can either choose the **Install Demo** option, for which you will discard the Demo database afterwards, or choose the **Custom** option, where you then select to install the Client \(with the Development Environment\), Server, and Administration Tool components.  
 
