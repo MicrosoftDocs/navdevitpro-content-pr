@@ -7,8 +7,6 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: d59e6e32-dc24-47ee-a541-0534f021074d
-caps.latest.revision: 29
 author: jswymer
 ---
 # Opening a Page in the Microsoft Dynamics NAV Web Client by Using a URL

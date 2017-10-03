@@ -332,7 +332,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
 
     -   Substitute **[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]** with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that you configured during Setup. [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)] is the default value.  
 
-     For this walkthrough, you would use one of the following URLs:  
+    For this walkthrough, you would use one of the following URLs:  
 
     ```  
     http://navweb:8080/nav_server_instance  
