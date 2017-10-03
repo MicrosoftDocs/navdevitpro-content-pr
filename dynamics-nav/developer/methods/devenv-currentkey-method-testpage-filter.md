@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-financials
 ms.assetid: c11ec835-402d-40b9-a280-66c06ea9bfc7
-caps.latest.revision: 8
+author: SusanneWindfeldPedersen
 manager: edupont
 ---
 
