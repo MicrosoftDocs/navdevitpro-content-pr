@@ -1,6 +1,5 @@
 ---
 title: "TRIMEND Method"
-ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 07/20/2017
 ms.reviewer: na
