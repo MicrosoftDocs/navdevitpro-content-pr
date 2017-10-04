@@ -28,7 +28,7 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {"author": "jswymer"},
     "fileMetadata": {},
     "template": [
       null
