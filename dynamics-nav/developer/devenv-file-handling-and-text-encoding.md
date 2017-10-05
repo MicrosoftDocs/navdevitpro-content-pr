@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-365-financials"
-author: jswymer
+author: SusanneWindfeldPedersen
 ---
 # File Handling and Text Encoding
 There are several AL methods that you can use to open files, import and export files to and from [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], and more. For a list of methods, see [File Data Type](datatypes/devenv-file-data-type.md).

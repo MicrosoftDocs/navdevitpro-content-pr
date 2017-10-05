@@ -1,6 +1,6 @@
 ---
-title: "Control Addin Object"
-description: "Description of the control addin object."
+title: "Control Addin Type"
+description: "Description of the control addin type."
 author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 10/2/2017
@@ -16,8 +16,8 @@ caps.latest.revision: 18
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-# Control Add-In Object
-The control add-in object allows you to add custom functionality to [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. A control add-in is a custom control, or visual element, for displaying and modifying data on [!INCLUDE[d365fin_md](includes/d365fin_md.md)] pages. Control add-ins can exchange data with the [!INCLUDE[d365fin_md](includes/d365fin_md.md)] server on various data types and can respond to user interaction to raise events that execute additional AL code.
+# Control Add-In Type
+The control add-in type allows you to add custom functionality to [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. A control add-in is a custom control, or visual element, for displaying and modifying data on [!INCLUDE[d365fin_md](includes/d365fin_md.md)] pages. Control add-ins can exchange data with the [!INCLUDE[d365fin_md](includes/d365fin_md.md)] server on various data types and can respond to user interaction to raise events that execute additional AL code.
 
 ## Control add-in properties
 In the control add-in definition, you must set the `Scripts` property to include scripts in the control add-in. The scripts could be local files in the package or references to external files using the HTTP or the HTTPS protocol. With the `StartupScript` property, you can call a special script that runs when the page you have implemented the control add-in on, is loaded. These settings initialize the control add-in. 
@@ -41,7 +41,7 @@ To control that the sizing of the control add-in is always optimal, even on smal
 |`RequestedWidth`|Integer|Specifies the initial width of the control add-in.|
 
 ## Control add-in syntax example
-The following control add-in object example syntax defines a chart that can show how customers are represented per country on a map. The control add-in is implemented as a `usercontrol` on a page called **CustomersMapPage**.
+The following control add-in example syntax defines a chart that can show how customers are represented per country on a map. The control add-in is implemented as a `usercontrol` on a page called **CustomersMapPage**.
 
 ```
 // The controladdin type declares the new add-in. 
@@ -94,12 +94,15 @@ page 50100 CustomersMapPage
     }
 } 
 
-
 ```
 
 ## See Also  
 [Developer Reference](devenv-reference-overview.md)  
 [Developing Extensions](devenv-dev-overview.md)  
+[Asynchronous Considerations for Control Add-ins](devenv-control-addin-asynchronous-considerations.md)  
+[InvokeExtensibility Method](methods/devenv-invokeextensibility-method.md)  
+[GetImageResource Method](methods/devenv-getimageresource-method.md)  
+[GetEnvironment Method](methods/devenv-getenvironment-method.md)  
 [Pages Overview](devenv-pages-overview.md)  
 [Page Extension Object](devenv-page-ext-object.md)  
 [Page Customization Object](devenv-page-customization-object.md)
