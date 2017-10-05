@@ -16,7 +16,7 @@ Sets a drill-down for a field on a page.
   
 -   Page Fields  
 
-<!--> 
+<!-- 
 > [!IMPORTANT]  
 >  This property is not supported on Repeater controls on pages when it is displayed in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. --> 
   
