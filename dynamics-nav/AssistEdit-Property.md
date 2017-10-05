@@ -23,7 +23,7 @@ Sets assist-edit capabilities for a text box.
  You can add C/AL code in the [OnAssistEdit Trigger](OnAssistEdit-Trigger.md) to change the default assist-edit behavior.  
   
 > [!NOTE]
-> In the [!INCLUDE[nav_web](includes/nav_web_md.md)], the AssistEdit button does not appear on the field when the page is in the view mode or if the field has the data type of Option. Instead, the field appears as a hyperlink. 
+> In the [!INCLUDE[nav_web](includes/nav_web_md.md)], when the page is in the view mode or if the field has the data type of Option, the AssistEdit on the field appears as a hyperlink instead of a button. 
   
 ## See Also  
  [Lookup Property](Lookup-Property.md)   

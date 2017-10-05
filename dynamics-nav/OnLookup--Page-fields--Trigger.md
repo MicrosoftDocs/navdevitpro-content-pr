@@ -48,7 +48,7 @@ OnLookup(TextString)
 > [!IMPORTANT]  
 > On non-editable fields in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the field lookup action is rendered as a hyperlink.
 >
-> On non-editable fields in the [!INCLUDE[nav_web](includes/nav_web_md.md)], the OnLookup trigger is not invoked. This means, the lookup will not render in a repeater content in view mode only. In this case, you can use the [OnDrillDown Trigger](OnDrillDown-Trigger.md) instead.   
+> On non-editable fields in the [!INCLUDE[nav_web](includes/nav_web_md.md)], the OnLookup trigger is not invoked. This means, the lookup will not render in a Repeater control in view mode. In this case, you can use the [OnDrillDown Trigger](OnDrillDown-Trigger.md) instead.   
   
 ## See Also  
  [Triggers](Triggers.md)

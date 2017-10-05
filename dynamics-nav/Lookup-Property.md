@@ -23,10 +23,7 @@ Use this property to provide a lookup window for a text box.
  By default, a lookup provides a list of records in the table. Using this list, users can select a record and retrieve information from it into this control. 
 
 > [!NOTE]
-> In the [!INCLUDE[nav_web](includes/nav_web_md.md)], the Lookup property is not supported on a field when the page is in the view mode or if the field has the data type of Option.
+> In the [!INCLUDE[nav_web](includes/nav_web_md.md)], the Lookup property is not supported in a Repeater control when the page is in the view mode or if the field has the data type of Option.
 
-See Also
- 
-  
 ## See Also  
  [LookupPageID Property](LookupPageID-Property.md)

@@ -72,8 +72,8 @@ manager: edupont
 |Field|ColumnSpan|Not supported.||  
 ||RowSpan|Not supported.||  
 ||AssistEdit|Partially supported.|The **AssistEdit** on a field when the page is in the view mode or if the field has the data type of Option appears as hyperlink instead of a button.|  
-||DrillDown|Partially supported.|The *drill-down on a field when the page is in the view mode or if the field has the data type of Option appears as hyperlink instead of a button.|  
-||Lookup|Partially supported.|The Lookup property is not supported on a field when the page is in the view mode or if the field has the data type of Option. You can use the OnDrillDown trigger instead.|  
+||DrillDown|Partially supported.|The drill-down on a field when the page is in the view mode or if the field has the data type of Option appears as hyperlink instead of a button.|  
+||Lookup|Partially supported.|The Lookup property is not supported on a Repeater control when the page is in the view mode or if the field has the data type of Option. You can use the OnDrillDown trigger instead.|  
 |Part|ChartPartID|Not supported.|If a page contains a Chart part, then the part is ignored and nothing appears for the part in the [!INCLUDE[nav_web](includes/nav_web_md.md)].|  
 ||SystemPartID|Partially supported.|[!INCLUDE[nav_web](includes/nav_web_md.md)] supports Notes and RecordLinks system parts, but not Outlook and MyNotes system parts. RecordLinks only supports access to URLs and resources on file shares; files that are stored locally on the user's computer cannot be accessed. |  
 ||PartType|Partially supported.|The **Chart** option is not supported. If a page contains a Chart part or an unsupported System part, then the part is ignored and nothing appears for the part in the [!INCLUDE[nav_web](includes/nav_web_md.md)].|  
@@ -97,6 +97,7 @@ manager: edupont
 |Triggers|Level of support|Remarks|  
 |--------------|----------------------|-------------|  
 |OnClosePage|Partially supported.|The **OnClosePage** trigger is invoked only when the [!INCLUDE[navnow](includes/navnow_md.md)] page is hosted in a modal popup dialog \(MPO\).|  
+|OnLookup|Partially supported.|On non-editable fields, the OnLookup trigger is not invoked. This means, the lookup will not render in a Repeater control in the view mode. In this case, you can use the [OnDrillDown Trigger](OnDrillDown-Trigger.md) instead|  
 |OnQueryClosePage|Partially supported.|The **OnQueryClosePage** trigger is invoked only when the [!INCLUDE[navnow](includes/navnow_md.md)] page is hosted in a modal popup dialog \(MPO\).|  
 
 ##  <a name="Functions"></a> C/AL Functions  

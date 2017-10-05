@@ -27,7 +27,7 @@ Sets a drill-down for a field on a page.
  Drill-downs are a system-wide feature of [FlowFields](FlowFields.md) that let you see the underlying transactions that make up the information shown in the FlowField. For example, if the FlowField shows an account balance, then providing a drill-down for this text box lets the user quickly see the various transactions that make up the balance shown in the field. 
 
 > [!NOTE]
-> In the [!INCLUDE[nav_web](includes/nav_web_md.md)], the drill-down button does not appear on the field when the page is in the view mode or if the field has the data type of Option. Instead, the field appears as a hyperlink. 
+> In the [!INCLUDE[nav_web](includes/nav_web_md.md)], when the page is in the view mode or if the field has the data type of Option, the drill-down on the field appears as a hyperlink instead of a button. 
   
 ## See Also  
  [Pages](Pages.md)   

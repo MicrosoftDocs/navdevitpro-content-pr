@@ -24,7 +24,7 @@ Overrides the default drill-down behavior defined in the table definition for th
  This trigger overrides the [DrillDownPageID Property](DrillDownPageID-Property.md) setting of the FlowField.  
 
 > [!NOTE]
-> In the [!INCLUDE[nav_web](includes/nav_web_md.md)], the drill-down button does not appear on the field when the page is in the view mode or if the field has the data type of Option. Instead, the field appears as a hyperlink. 
+> In the [!INCLUDE[nav_web](includes/nav_web_md.md)], when the page is in the view mode or if the field has the data type of Option, the drill-down on the field appears as a hyperlink instead of a button. 
   
   
 ## See Also  
