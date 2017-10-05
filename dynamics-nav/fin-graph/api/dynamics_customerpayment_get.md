@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get customerPayments
-Retrieve the properties and relationships of a customer payments object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a customer payment object for Dynamics 365 for Financials.
 
 ## HTTP request
 

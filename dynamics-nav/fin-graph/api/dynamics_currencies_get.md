@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get currencies
-Retrieve the properties and relationships of a currencies object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a currency object for Dynamics 365 for Financials.
 
 ## HTTP request
 
