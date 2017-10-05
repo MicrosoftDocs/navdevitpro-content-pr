@@ -99,6 +99,7 @@ page 50100 CustomersMapPage
 ## See Also  
 [Developer Reference](devenv-reference-overview.md)  
 [Developing Extensions](devenv-dev-overview.md)  
+[Asynchronous Considerations for Control Add-ins](devenv-control-addin-asynchronous-considerations.md)  
 [InvokeExtensibility Method](methods/devenv-invokeextensibility-method.md)  
 [GetImageResource Method](methods/devenv-getimageresource-method.md)  
 [GetEnvironment Method](methods/devenv-getenvironment-method.md)  
