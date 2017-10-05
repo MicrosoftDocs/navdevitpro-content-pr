@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get salesCreditMemos
-Retrieve the properties and relationships of a sales object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a sales credit memo object for Dynamics 365 for Financials.
 
 ## HTTP request
 
@@ -32,7 +32,7 @@ GET /financials/companies({id})/salesCreditMemos({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and salesCreditMemo object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **salesCreditMemos** object in the response body.
 
 ## Example
 

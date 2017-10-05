@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete journalLines
-Delete a journalLine from Dynamics 365 for Financials.
+Delete a journal line object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete salesOrders
-Delete a salesOrder object from Dynamics 365 for Financials.
+Delete a sales order object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

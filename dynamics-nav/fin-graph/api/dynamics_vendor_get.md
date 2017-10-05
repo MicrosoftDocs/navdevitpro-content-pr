@@ -33,7 +33,7 @@ GET /financials/companies({id})/vendors({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and vendors object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **vendors** object in the response body.
 
 ## Example
 

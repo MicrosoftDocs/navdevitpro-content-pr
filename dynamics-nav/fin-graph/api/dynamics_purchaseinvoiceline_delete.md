@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete purchaseInvoiceLines
-Delete a purchaseInvoiceLine from Dynamics 365 for Financials.
+Delete a purchase invoice line object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
@@ -26,7 +26,7 @@ DELETE /financials/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(d
 |Header         |Value                      |
 |---------------|---------------------------|
 |Authorization  |Bearer {token}. Required.  |
-|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the purchase invoice line, the purchase invoice line will not be deleted.  |
+|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the **purchaseInvoiceLines**, the **purchaseInvoiceLines** will not be deleted.  |
 
 ## Request body
 Do not supply a request body for this method.

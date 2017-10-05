@@ -1,6 +1,6 @@
 ---
 title: Update customerPayments | Microsoft Docs
-description: Updates a customer payments object in Dynamics 365 for Financials.
+description: Updates a customer payment object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Update customerPayments
-Update the properties of a customer payments object for Dynamics 365 for Financials.
+Update the properties of a customer payment object for Dynamics 365 for Financials.
 
 ## HTTP request
 

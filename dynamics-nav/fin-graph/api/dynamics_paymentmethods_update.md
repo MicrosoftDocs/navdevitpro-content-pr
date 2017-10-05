@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Update paymentMethods
-Update the properties of a payment methods object for Dynamics 365 for Financials.
+Update the properties of a payment method object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```

@@ -1,6 +1,6 @@
 ---
 title: Delete salesCreditMemoLines | Microsoft Docs
-description: Deletes a sales credit memo line in Dynamics 365 for Financials. 
+description: Deletes a sales credit memo line object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete salesCreditMemoLines
-Delete a salesCreditMemoLines object in Dynamics 365 for Financials.
+Delete a sales credit memo line object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
@@ -26,7 +26,7 @@ DELETE /financials/companies({id})/salesCreditMemos({id})/salesCreditMemoLines(d
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
-|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the sales credit memo line, the sales credit memo line will not be updated. |
+|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the **salesCreditMemoLines**, the **salesCreditMemoLines** will not be updated. |
 
 ## Request body
 Do not supply a request body for this method.

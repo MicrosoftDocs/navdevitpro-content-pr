@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete paymentMethods
-Delete a paymentMethod from Dynamics 365 for Financials.
+Delete a payment method object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete salesInvoiceLines
-Delete a sales Invoice line object from Dynamics 365 for Financials.
+Delete a sales invoice line object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

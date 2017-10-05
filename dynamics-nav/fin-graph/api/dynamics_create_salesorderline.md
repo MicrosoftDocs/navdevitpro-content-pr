@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create salesOrderLines
-Create a salesOrderLine in Dynamics 365 for Financials.
+Create a sales order line object in Dynamics 365 for Financials.
 
 ## HTTP request
 

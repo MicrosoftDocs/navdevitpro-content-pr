@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete customerPaymentsJournals
-Delete a customer payment journal from Dynamics 365 for Financials.
+Delete a customer payment journal object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

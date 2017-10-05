@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete customers
-Delete a customer from Dynamics 365 for Financials.
+Delete a customer object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

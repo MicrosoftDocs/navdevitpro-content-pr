@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create salesQuoteLines
-Create a salesQuoteLines object in Dynamics 365 for Financials.
+Create a sales quote line object in Dynamics 365 for Financials.
 
 ## HTTP request
 

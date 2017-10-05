@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete paymentTerms
-Delete a paymentTerms from Dynamics 365 for Financials.
+Delete a payment terms object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
