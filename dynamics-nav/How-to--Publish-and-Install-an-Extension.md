@@ -9,8 +9,9 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: aee81285-2312-4cb1-8d51-3bf82c28806b
 ms.author: edupont
 ---
+
 # How to: Publish and Install an Extension
-To make your extension available to users, the package must be published to a specific [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The extension can be installed for one or more tenants.  
+To make your extension available to users, the package must be published to a specific [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The extension can be installed for one or more tenants. This content applies to Extensions V1.0. For information about Extensions v2.0, see [How to: Publish and Install an Extension V2.0](developer/devenv-how-publish-and-install-an-extension-v2.md) and [Developing Extensions Using the AL Development Environment](developer/devenv-dev-overview.md).
 
 ### To publish or remove an extension  
 

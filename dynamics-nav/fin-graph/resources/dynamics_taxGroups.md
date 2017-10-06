@@ -1,6 +1,6 @@
 ---
-title: taxGroup resource type | Microsoft Docs
-description: A Tax Group.
+title: taxGroups resource type | Microsoft Docs
+description: A tax group object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# taxGroup resource type
+# taxGroups resource type
 Represents a taxGroups resource type in Dynamics 365 for Financials.
 
 
@@ -22,10 +22,10 @@ Represents a taxGroups resource type in Dynamics 365 for Financials.
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET taxGroup](../api/dynamics_get_taxGroups.md)|taxGroup|Get a Tax Group.|
-|[POST taxGroup](../api/dynamics_create_taxGroups.md)|taxGroup|Create a Tax Group.|
-|[PATCH taxGroup](../api/dynamics_update_taxGroups.md)|taxGroup|Update a Tax Group.|
-|[DELETE taxGroup](../api/dynamics_delete_taxGroups.md)|none|Delete a Tax Group.|
+|[GET taxGroups](../api/dynamics_taxGroups_get.md)|taxGroups|Gets a tax group object.|
+|[POST taxGroups](../api/dynamics_create_taxGroups.md)|taxGroups|Creates a tax group object.|
+|[PATCH taxGroups](../api/dynamics_taxGroups_update.md)|taxGroups|Updates a tax group object.|
+|[DELETE taxGroups](../api/dynamics_taxGroups_delete.md)|none|Deletes a tax group object.|
 
 ## Properties
 | Property	   | Type	|Description|

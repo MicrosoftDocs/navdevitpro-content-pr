@@ -1,6 +1,6 @@
 ---
-title: CREATE customer method | Microsoft Docs
-description: Creates a customer.
+title: Create customers | Microsoft Docs
+description: Creates a customer object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create customer
-Create a customer in Dynamics 365 for Financials.
+# Create customers
+Create a customer object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/({id})/customers
+POST /financials/companies({id})/customers
 ```
 
 ## Request headers
@@ -29,10 +29,10 @@ POST /financials/companies/({id})/customers
 |Content-Type   |application/json         |
 
 ## Request body
-In the request body, supply a JSON representation of customers object.
+In the request body, supply a JSON representation of **customers** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and customers object in the response body.
+If successful, this method returns ```201 Created``` response code and a **customers** object in the response body.
 
 ## Example
 
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and customers
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/customers
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/customers
 Content-type: application/json
 
 {

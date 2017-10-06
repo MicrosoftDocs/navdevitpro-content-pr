@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-financials
 ms.assetid: 20c42c77-b5e4-4c8c-bdf1-9d6c42d9f36b
-caps.latest.revision: 15
+author: SusanneWindfeldPedersen
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
