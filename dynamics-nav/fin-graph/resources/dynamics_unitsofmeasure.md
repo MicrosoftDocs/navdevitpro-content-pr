@@ -1,6 +1,6 @@
 ---
-title: Unit of Measure resource type | Microsoft Docs
-description: An Unit of Measure.
+title: unitsOfMeasure resource type | Microsoft Docs
+description: A unit of measure object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -22,10 +22,10 @@ Represents a unit of measure, which is a standard of measurement of a quantity, 
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET unitsOfMeasure](../api/dynamics_get_unitsofmeasure.md)|unitsOfMeasure|Get a unit of measure.|
-|[POST unitsOfMeasure](../api/dynamics_create_unitsofmeasure.md)|unitsOfMeasure|Create a unit of measure.|
-|[PATCH unitsOfMeasure](../api/dynamics_update_unitsofmeasure.md)|unitsOfMeasure|Update a unit of measure.|
-|[DELETE unitsOfMeasure](../api/dynamics_delete_unitsofmeasure.md)|none|Delete a unit of measure.|
+|[GET unitsOfMeasure](../api/dynamics_unitsofmeasure_get.md)|unitsOfMeasure|Gets a unit of measure object.|
+|[POST unitsOfMeasure](../api/dynamics_create_unitsofmeasure.md)|unitsOfMeasure|Creates a unit of measure object.|
+|[PATCH unitsOfMeasure](../api/dynamics_unitsofmeasure_update.md)|unitsOfMeasure|Updates a unit of measure object.|
+|[DELETE unitsOfMeasure](../api/dynamics_unitsofmeasure_delete.md)|none|Deletes a unit of measure object.|
 
 ## Properties
 | Property	   | Type	|Description|

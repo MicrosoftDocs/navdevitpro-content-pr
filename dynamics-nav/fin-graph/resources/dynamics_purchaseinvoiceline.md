@@ -1,6 +1,6 @@
 ---
-title: purchaseInvoiceLine resource type | Microsoft Docs
-description: A purchase invoice line.
+title: purchaseInvoiceLines resource type | Microsoft Docs
+description: A purchase invoice line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# purchaseInvoiceLine resource type
+# purchaseInvoiceLines resource type
 Represents a line on a purchase invoice in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET Purchase Invoice Line](../api/dynamics_get_purchaseinvoiceline.md)|Purchase Invoice Line|Get Purchase Invoice Line object|
-|[POST Purchase Invoice Line](../api/dynamics_create_purchaseinvoiceline.md)|Purchase Invoice Line|Create Purchase Invoice Line object|
-|[PATCH Purchase Invoice Line](../api/dynamics_update_purchaseinvoiceline.md)|Purchase Invoice Line|Update Purchase Invoice Line object|
-|[DELETE Purchase Invoice Line](../api/dynamics_delete_purchaseinvoiceline.md)|none|Delete Purchase Invoice Line object|
+|[GET purchaseInvoiceLines](../api/dynamics_purchaseinvoiceline_get.md)|purchaseInvoiceLines|Gets a purchase invoice line object.|
+|[POST purchaseInvoiceLines](../api/dynamics_create_purchaseinvoiceline.md)|purchaseInvoiceLines|Creates a purchase invoice line object.|
+|[PATCH purchaseInvoiceLines](../api/dynamics_purchaseinvoiceline_update.md)|purchaseInvoiceLines|Updates a purchase invoice line object.|
+|[DELETE purchaseInvoiceLines](../api/dynamics_purchaseinvoiceline_delete.md)|none   |Deletes a purchase invoice line object.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -36,7 +36,7 @@ Represents a line on a purchase invoice in Dynamics 365 for Financials.
 |lineType|string|The type of the line. Can be Comment,Account,Item,Resource,Fixed Asset,Charge|
 |lineDetails|complex|The details of the line.|
 |description|string|A description of the item in the invoice line.|
-|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complex_types.md)|The unit of measure complex type.|
+|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|The unit of measure complex type.|
 |unitCost|numeric|The unit cost of each individual item in the invoice line.|
 |quantity|numeric|The quantity of the item in the invoice line.|
 |discountAmount|numeric|The line discount amount.|
@@ -71,28 +71,28 @@ Here is a JSON representation of the resource.
   "value": [
     {
       "documentId": "GUID",
-      "sequence": decimal,
+      "sequence": "decimal",
       "itemId": "GUID",
       "accountId": "GUID",
       "lineType": "String",
       "lineDetails": {NAV.documentLineObjectDetails},
       "description": "String",
       "unitOfMeasure": {NAV.UnitOfMeasure},
-      "directUnitCost": decimal,
+      "directUnitCost": "decimal",
       "unitCost": "decimal",
-      "quantity": decimal,
-      "discountAmount": decimal,
-      "discountPercent": decimal,
-      "discountAppliedBeforeTax": false,
-      "amountExcludingTax": decimal,
+      "quantity": "decimal",
+      "discountAmount": "decimal",
+      "discountPercent": "decimal",
+      "discountAppliedBeforeTax": "boolean",
+      "amountExcludingTax": "decimal",
       "taxCode": "String",
-      "taxPercent": decimal,
-      "totalTaxAmount": decimal,
-      "amountIncludingTax": decimal,
-      "invoiceDiscountAllocation": decimal,
-      "netAmount": decimal,
-      "netTaxAmount": decimal,
-      "netAmountIncludingTax": decimal,
+      "taxPercent": "decimal",
+      "totalTaxAmount": "decimal",
+      "amountIncludingTax": "decimal",
+      "invoiceDiscountAllocation": "decimal",
+      "netAmount": "decimal",
+      "netTaxAmount": "decimal",
+      "netAmountIncludingTax": "decimal",
       "expectedReceiptDate": "Date"
     }
   ]

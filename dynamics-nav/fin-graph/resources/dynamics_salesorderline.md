@@ -1,6 +1,6 @@
 ---
-title: salesOrderLine resource type | Microsoft Docs
-description: A sales order line.
+title: salesOrderLines resource type | Microsoft Docs
+description: A sales order line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# salesOrderLine resource type
+# salesOrderLines resource type
 Represents a line on a sales order in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET Sales Order Line](../api/dynamics_get_salesorderline.md)|Sales Order Line|Get Sales Order Line object|
-|[POST Sales Order Line](../api/dynamics_create_salesorderline.md)|Sales Order Line|Create Sales Order Line object|
-|[PATCH Sales Order Line](../api/dynamics_update_salesorderline.md)|Sales Order Line|Update Sales Order Line object|
-|[DELETE Sales Order Line](../api/dynamics_delete_salesorderline.md)|none|Delete Sales Order Line object|
+|[GET salesOrderLines](../api/dynamics_salesorderline_get.md)|salesOrderLines|Gets a sales order line object.|
+|[POST salesOrderLines](../api/dynamics_create_salesorderline.md)|salesOrderLines|Creates a sales order line object.|
+|[PATCH salesOrderLines](../api/dynamics_salesorderline_update.md)|salesOrderLines|Updates a sales order line object.|
+|[DELETE salesOrderLines](../api/dynamics_salesorderline_delete.md)|none|Deletes a sales order line object.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -37,7 +37,7 @@ Represents a line on a sales order in Dynamics 365 for Financials.
 |lineDetails|complex|The details of the line.|
 |description|string|A description of the item in the order line.|
 |unitOfMeasureId|GUID|The Id of the unit of measure in the order line.|
-|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complex_types.md)|The unit of measure complex type.|
+|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|The unit of measure complex type.|
 |quantity|numeric|The quantity of the item in the order line.|
 |unitPrice|numeric|The unit price of each individual item in the order line.|
 |discountAmount|numeric|The line discount amount.|

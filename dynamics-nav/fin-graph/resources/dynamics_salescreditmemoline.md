@@ -1,6 +1,6 @@
 ---
-title: salesCreditMemoLine resource type | Microsoft Docs
-description: A sales credit memo line.
+title: salesCreditMemoLines resource type | Microsoft Docs
+description: A sales credit memo line. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# salesCreditMemoLine resource type
+# salesCreditMemoLines resource type
 Represents a line on a sales credit memo line in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET Sales Credit Memo Line](../api/dynamics_get_salescreditmemoline.md)|Sales Credit Memo Line|Get Sales Credit Memo Line object|
-|[POST Sales Credit Memo Line](../api/dynamics_create_salescreditmemoline.md)|Sales Credit Memo Line|Create Sales Credit Memo Line object|
-|[PATCH Sales Credit Memo Line](../api/dynamics_update_salescreditmemoline.md)|Sales Credit Memo Line|Update Sales Credit Memo Line object|
-|[DELETE Sales Credit Memo Line](../api/dynamics_delete_salescreditmemoline.md)|none|Delete Sales Credit Memo Line object|
+|[GET salesCreditMemoLines](../api/dynamics_salescreditmemoline_get.md)|salesCreditMemoLines|Gets a sales credit memo line object.|
+|[POST salesCreditMemoLines](../api/dynamics_create_salescreditmemoline.md)|salesCreditMemoLines|Creates a sales credit memo line object.|
+|[PATCH salesCreditMemoLines](../api/dynamics_salescreditmemoline_update.md)|salesCreditMemoLines|Updates a sales credit memo line object.|
+|[DELETE salesCreditMemoLines](../api/dynamics_salescreditmemoline_delete.md)|none   |Deletes a sales credit memo line object.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -37,7 +37,7 @@ Represents a line on a sales credit memo line in Dynamics 365 for Financials.
 |lineDetails|complex|The details of the line.|
 |description|string|A description of the item in the credit memo line.|
 |unitOfMeasureId|GUID|The unit of measure for the credit memo line.|
-|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complex_types.md)|The unit of measure complex type.|
+|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|The unit of measure complex type.|
 |quantity|numeric|The quantity of the item in the credit memo line.|
 |unitPrice|numeric|The unit price of each individual item in the credit memo line.|
 |discountAmount|numeric|The line discount amount.|

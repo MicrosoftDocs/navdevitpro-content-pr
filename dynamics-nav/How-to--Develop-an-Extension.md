@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 69203ef8-ceb0-4dc9-8f4c-eacaa0d33a6c
-ms.author: edupont
+author: jswymer
 ---
 # How to: Develop an Extension
 You can build extension packages that add functionality to a [!INCLUDE[navnow](includes/navnow_md.md)] deployment. Unlike the familiar development and deployment of [!INCLUDE[navnow](includes/navnow_md.md)] functionality, building an extension relies on the exported version of an application to .TXT files. You can export the application from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], use the development environment commands, or use the [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlet that is available in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)], `Export-NAVApplicationObjectLanguage`.  
@@ -48,7 +48,7 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
          > [!IMPORTANT]  
          >  Do not add inline comments to your code. Such comments are helpful as internal documentation, but they will cause the extension to fail when you build the extension package.  
 
-    2. Write extension upgrade code for new or modified tables. For more information, see [How to: Write Extension Upgrade Code](extensions-upgrade-howto.md).
+    2. Write extension upgrade code for new or modified tables in a codeunit. For more information, see [How to: Write Extension Upgrade Code](extensions-upgrade-howto.md).
 
     3. If you want your extension to support the multilanguage functionality, add CaptionML captions using the development environment or to a copy of the language export file using the directions for translating multilanguage files in [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add-Translated-Strings-By-Importing-and-Exporting-Multilanguage-Files.md).  
 
@@ -61,7 +61,7 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
         ```  
         Export-NAVApplicationObject -Path MODIFIED -DatabaseName MyDatabase -DatabaseServer MyDatabaseServer  
         ```  
-
+    2. Export the codeunit that contains the upgrade code to a .TXT file. This file must be placed in the folder for delta files that you create in the next step.
 4.  Create DELTA files using the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] cmdlets.  
 
     1.  Extension packages are based on application object deltas. Again, you use the application merge utilities in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] to distil the changes in the form of application object differences that are stored in DELTA files. Creating an extension uses many of the same concepts and tools as you know from application object deltas. You use the `Compare-NAVApplicationObject` cmdlet to create these delta files.  

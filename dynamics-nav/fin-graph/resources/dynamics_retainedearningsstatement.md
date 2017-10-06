@@ -1,6 +1,6 @@
 ---
 title: retainedEarningsStatement resource type | Microsoft Docs
-description: A RetainedEarningsStatement.
+description: A retained earnings statement object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,7 +21,7 @@ Represents an retained earnings statement in Dynamics 365 for Financials.
 
 | Method       | Return Type  |Description          |
 |:-------------|:-------------|:--------------------|
-|[GET retainedEarningsStatement](../api/dynamics_get_retainedearningsstatement.md)|RetainedEarningsStatement|Get a RetainedEarningsStatement object|
+|[GET retainedEarningsStatement](../api/dynamics_retainedearningsstatement_get.md)|retainedEarningsStatement|Get a retained earnings statement object.|
 
 ## Properties
 | Property	| Type	|Description                                                           |
