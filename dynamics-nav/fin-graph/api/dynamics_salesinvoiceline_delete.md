@@ -1,6 +1,6 @@
 ---
 title: Delete salesInvoiceLines | Microsoft Docs
-description: Deletes a sales invoice line in Dynamics 365 for Financials.
+description: Deletes a sales invoice line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete salesInvoiceLines
-Delete a salesInvoiceLine from Dynamics 365 for Financials.
+Delete a sales invoice line object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
@@ -26,7 +26,7 @@ DELETE /financials/companies({id})/salesInvoices({id})/salesInvoiceLines(documen
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
-|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
+|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the **salesInvoiceLines**, the **salesInvoiceLines** will not be updated. |
 
 ## Request body
 Do not supply a request body for this method.

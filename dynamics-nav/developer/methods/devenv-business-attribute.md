@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-365-financials"
-author: jswymer
+author: SusanneWindfeldPedersen
 ---
 # Business Attribute
 Specifies the method to be business type event publisher.

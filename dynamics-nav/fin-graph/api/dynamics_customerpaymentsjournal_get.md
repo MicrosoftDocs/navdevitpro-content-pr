@@ -1,6 +1,6 @@
 ---
 title: Get customerPaymentsJournals | Microsoft Docs
-description: Gets a customer payments journal in Dynamics 365 for Financials.
+description: Gets a customer payment journal in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get customerPaymentsJournals
-Retrieve the properties and relationships of a customer payments journal object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a customer payment journal object for Dynamics 365 for Financials.
 
 ## HTTP request
 
@@ -32,7 +32,7 @@ GET /financials/companies({id})/customerPaymentsJournals({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and a customer payments journal object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **customerPaymentsJournals** object in the response body.
 
 ## Example
 

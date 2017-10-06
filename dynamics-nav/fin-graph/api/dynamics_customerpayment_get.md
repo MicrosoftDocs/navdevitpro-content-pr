@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get customerPayments
-Retrieve the properties and relationships of a customer payments object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a customer payment object for Dynamics 365 for Financials.
 
 ## HTTP request
 
@@ -32,7 +32,7 @@ GET /financials/companies({id})/customerPaymentsJournals({id})/customerPayments(
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and customerPayments object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **customerPayments** object in the response body.
 
 ## Example
 

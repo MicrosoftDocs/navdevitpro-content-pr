@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get purchaseInvoices
-Retrieve the properties and relationships of a purchase object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a purchase invoice object for Dynamics 365 for Financials.
 
 ## HTTP request
 
@@ -32,7 +32,7 @@ GET /financials/companies({id})/purchaseInvoices({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and purchaseInvoice object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **purchaseInvoices** object in the response body.
 
 ## Example
 

@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete salesCreditMemos
-Delete a salesCreditMemos from Dynamics 365 for Financials.
+Delete a sales credit memo object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
@@ -26,7 +26,7 @@ DELETE /financials/companies({id})/salesCreditMemos({id})
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
-|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
+|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the **salesCreditMemos**, the **salesCreditMemos** will not be updated. |
 
 ## Request body
 Do not supply a request body for this method.

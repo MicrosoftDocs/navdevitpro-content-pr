@@ -1,6 +1,6 @@
 ---
 title: Get dimensionValues | Microsoft Docs
-description: Gets a dimension value in Dynamics 365 for Financials.
+description: Gets a dimension value object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -34,7 +34,7 @@ GET /financials/companies({id})/dimensions({id})/dimensionValues({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and dimensionValue object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **dimensionValues** object in the response body.
 
 ## Example
 

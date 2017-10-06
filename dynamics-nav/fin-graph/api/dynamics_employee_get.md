@@ -31,7 +31,7 @@ GET /financials/companies({id})/employees({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and employee object in the response body.
+If successful, this method returns a ```200 OK``` response code and an **employees** object in the response body.
 
 **Request**
 

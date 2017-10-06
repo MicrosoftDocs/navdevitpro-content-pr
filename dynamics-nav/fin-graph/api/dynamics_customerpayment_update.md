@@ -1,6 +1,6 @@
 ---
 title: Update customerPayments | Microsoft Docs
-description: Updates a customer payments object in Dynamics 365 for Financials.
+description: Updates a customer payment object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Update customerPayments
-Update the properties of a customer payments object for Dynamics 365 for Financials.
+Update the properties of a customer payment object for Dynamics 365 for Financials.
 
 ## HTTP request
 
@@ -28,13 +28,13 @@ PATCH /financials/companies({id})/customerPaymentsJournals({id})/customerPayment
 |--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|
 |Content-Type  |application/json         |
-|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the customerPayments, the customerPayments will not be updated.    |
+|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the **customerPayments**, the **customerPayments** will not be updated.    |
 
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an updated customerPayments object in the response body.
+If successful, this method returns a ```200 OK``` response code and an updated **customerPayments** object in the response body.
 
 ## Example
 

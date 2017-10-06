@@ -1,6 +1,6 @@
 ---
 title: Delete customerPaymentsJournals | Microsoft Docs
-description: Deletes a customer payments journal in Dynamics 365 for Financials.
+description: Deletes a customer payment journal in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete customerPaymentsJournals
-Delete a customerPaymentsJournal from Dynamics 365 for Financials.
+Delete a customer payment journal object from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
@@ -26,7 +26,7 @@ DELETE /financials/companies({id})/customerPaymentsJournals({id})
 |Header       |Value                     |
 |-------------|--------------------------|
 |Authorization|Bearer {token}. Required. |
-|If-Match     |Required. When this request header is included and the eTag provided does not match the current tag on the customer payments journal, the customer payments journal will not be updated. |
+|If-Match     |Required. When this request header is included and the eTag provided does not match the current tag on the **customerPaymentsJournals**, the **customerPaymentsJournals** will not be updated. |
 
 ## Request body
 

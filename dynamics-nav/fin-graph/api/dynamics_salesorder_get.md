@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get salesOrders
-Retrieve the properties and relationships of a sales object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a sales order object for Dynamics 365 for Financials.
 
 ## HTTP request
 
@@ -32,7 +32,7 @@ GET /financials/companies({id})/salesOrders({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and salesOrder object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **salesOrders** object in the response body.
 
 ## Example
 
