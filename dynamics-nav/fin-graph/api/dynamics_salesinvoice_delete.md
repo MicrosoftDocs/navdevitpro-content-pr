@@ -26,7 +26,7 @@ DELETE /financials/companies({id})/salesInvoices({id})
 | Header        | Value                    |
 |---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
-|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
+|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the **salesInvoices**, the **salesInvoices** will not be updated. |
 
 ## Request body
 Do not supply a request body for this method.

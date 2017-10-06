@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create salesQuotes
-Create a salesQuote in Dynamics 365 for Financials.
+Create a sales quote object in Dynamics 365 for Financials.
 
 ## HTTP request
 

@@ -26,7 +26,7 @@ DELETE /financials/companies({id})/salesQuotes({id})
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
-|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the salesQuotes, the salesQuotes will not be updated. |
+|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the **salesQuotes**, the **salesQuotes** will not be updated. |
 
 ## Request body
 Do not supply a request body for this method.

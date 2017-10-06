@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-author: jswymer
+author: SusanneWindfeldPedersen
 ---
 # Working With Media on Records
 This topic describes how you can upload media, such as an image, to the database for displaying with records in the client. There are two ways that you can do this:  

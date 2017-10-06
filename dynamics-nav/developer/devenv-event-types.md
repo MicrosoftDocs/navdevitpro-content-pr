@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-365-financials"
-author: jswymer
+author: SusanneWindfeldPedersen
 ---
 # Event Types
 [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] supports different types of events for different purposes.

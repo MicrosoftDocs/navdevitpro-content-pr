@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-365-financials"
 ms.assetid: 5ee737ae-3914-47e7-b61d-486309b7fa8f
 caps.latest.revision: 19
-author: jswymer
+author: SusanneWindfeldPedersen
 ---
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]

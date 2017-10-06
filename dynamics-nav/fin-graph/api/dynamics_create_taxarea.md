@@ -30,10 +30,10 @@ POST /financials/companies({id})/taxAreas({id})
 |Content-Type  |application/json    |
 
 ## Request body
-In the request body, supply a JSON representation of tax area object.
+In the request body, supply a JSON representation of a **taxAreas** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and tax area object in the response body.
+If successful, this method returns ```201 Created``` response code and a **taxAreas** object in the response body.
 
 ## Example
 

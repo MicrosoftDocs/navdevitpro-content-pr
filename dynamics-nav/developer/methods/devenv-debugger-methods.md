@@ -8,8 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-365-financials"
 ms.assetid: f52333e3-3bf3-4f0f-a6e4-c22cbc6676fe
-caps.latest.revision: 6
-author: jswymer
+author: SusanneWindfeldPedersen
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
