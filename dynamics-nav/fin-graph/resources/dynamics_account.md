@@ -1,6 +1,6 @@
 ---
-title: account resource type | Microsoft Docs
-description: An account.
+title: accounts resource type | Microsoft Docs
+description: An account object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,14 +14,14 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# account resource type
+# accounts resource type
 Represents an account object in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET accounts](../api/dynamics_get_account.md)|accounts|Get accounts object.|
+|[GET accounts](../api/dynamics_account_get.md)|accounts|Get accounts object.|
 
 ## Properties
 | Property	   | Type	|Description|
