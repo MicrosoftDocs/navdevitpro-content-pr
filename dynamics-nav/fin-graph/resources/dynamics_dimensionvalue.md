@@ -1,6 +1,6 @@
 ---
-title: dimensionValue resource type | Microsoft Docs
-description: A dimension value.
+title: dimensionValues resource type | Microsoft Docs
+description: A dimension value in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,14 +14,14 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# dimensionValue resource type
+# dimensionValues resource type
 Represents a dimension value in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method       | Return Type  |Description                   |
 |:-------------|:-------------|:-----------------------------|
-|[GET Dimension Value](../api/dynamics_get_dimensionvalue.md)|Dimension Value|Get Dimension Value object|
+|[GET dimensionValues](../api/dynamics_dimensionvalue_get.md)|dimensionValues|Gets a dimension value object.|
 
 
 ## Properties

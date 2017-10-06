@@ -1,6 +1,6 @@
 ---
-title: dimension resource type | Microsoft Docs
-description: A dimension.
+title: dimensions resource type | Microsoft Docs
+description: A dimension in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,14 +14,14 @@ ems.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Dimension resource type
+# Dimensions resource type
 Represents a dimension in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:-------------|:-------------|:----------|
-|[GET dimension](../api/dynamics_get_dimension.md)|dimension|Get a dimension.|
+|[GET dimensions](../api/dynamics_dimension_get.md)|dimension|Gets a dimension.|
 
 
 ## Properties

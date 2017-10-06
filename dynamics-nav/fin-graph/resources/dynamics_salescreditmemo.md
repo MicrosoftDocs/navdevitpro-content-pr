@@ -1,6 +1,6 @@
 ---
-title: salesInvoice resource type | Microsoft Docs
-description: A Sales Credit Memo.
+title: salesCreditMemos resource type | Microsoft Docs
+description: A sales credit memo object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# salesCreditMemo resource type
+# salesCreditMemos resource type
 Represents a sales credit memo in Dynamics 365 for Financials. 
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET Sales Credit Memo](../api/dynamics_get_salescreditmemo.md)|Sales Credit Memo|Get a Sales Credit Memo object|
-|[POST Sales Credit Memo](../api/dynamics_create_salescreditmemo.md)|Sales Credit Memo|Create a Sales Credit Memo object|
-|[PATCH Sales Credit Memo](../api/dynamics_update_salescreditmemo.md)|Sales Credit Memo|Update a Sales Credit Memo object|
-|[DELETE Sales Credit Memo](../api/dynamics_delete_salescreditmemo.md)|none|Delete a Sales Credit Memo object|
+|[GET salesCreditMemos](../api/dynamics_salescreditmemo_get.md)|salesCreditMemos|Gets a sales credit memo object.|
+|[POST salesCreditMemos](../api/dynamics_create_salescreditmemo.md)|salesCreditMemos|Creates a sales credit memo object.|
+|[PATCH salesCreditMemos](../api/dynamics_salescreditmemo_update.md)|salesCreditMemos|Update a sales credit memo object.|
+|[DELETE salesCreditMemos](../api/dynamics_salescreditmemo_delete.md)|none|Delete a sales credit memo object.|
 
 ## Properties
 | Property	   | Type	|Description|

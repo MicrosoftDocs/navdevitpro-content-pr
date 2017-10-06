@@ -1,6 +1,6 @@
 ---
 title: itemCategories resource type | Microsoft Docs
-description: An Item Categories.
+description: An item category in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,10 +21,10 @@ Represents a category for a number of items in Dynamics 365 for Financials.
 
 | Method                                                          | Return Type  |Description             |
 |:----------------------------------------------------------------|:-------------|:-----------------------|
-|[GET itemCategories](../api/dynamics_get_itemcategories.md)      |itemCategories|Get an Item Category.   |
-|[POST itemCategories](../api/dynamics_create_itemcategories.md)  |itemCategories|Create an Item Category.|
-|[PATCH itemCategories](../api/dynamics_update_itemcategories.md) |itemCategories|Update an Item Category.|
-|[DELETE itemCategories](../api/dynamics_delete_itemcategories.md)|none          |Delete an Item Category.|
+|[GET itemCategories](../api/dynamics_itemcategories_get.md)      |itemCategories|Get an item category.   |
+|[POST itemCategories](../api/dynamics_create_itemcategories.md)  |itemCategories|Create an item category.|
+|[PATCH itemCategories](../api/dynamics_itemcategories_update.md) |itemCategories|Update an item category.|
+|[DELETE itemCategories](../api/dynamics_itemcategories_delete.md)|none          |Delete an item category.|
 
 ## Properties
 | Property	         | Type	  |Description                                     |

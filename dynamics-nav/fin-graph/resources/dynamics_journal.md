@@ -1,6 +1,6 @@
 ---
 title: journal resource type | Microsoft Docs
-description: A journal.
+description: A journal in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,10 +21,10 @@ Represents a journal in Dynamics 365 for Financials.
 
 | Method                                            |Return Type|Description    |
 |:--------------------------------------------------|:----------|:--------------|
-|[GET journal](../api/dynamics_get_journal.md)      |journal    |Get Journal.   |
-|[POST journal](../api/dynamics_create_journal.md)  |journal    |Create Journal.|
-|[PATCH journal](../api/dynamics_update_journal.md) |journal    |Update Journal.|
-|[DELETE journal](../api/dynamics_delete_journal.md)|none       |Delete Journal.|
+|[GET journal](../api/dynamics_journal_get.md)      |journal    |Gets a journal.   |
+|[POST journal](../api/dynamics_create_journal.md)  |journal    |Creates a journal.|
+|[PATCH journal](../api/dynamics_journal_update.md) |journal    |Updates a journal.|
+|[DELETE journal](../api/dynamics_journal_delete.md)|none       |Deletes a journal.|
 
 ## Properties
 | Property	         | Type	                 |Description                                           |

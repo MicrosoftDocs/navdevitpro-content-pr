@@ -1,6 +1,6 @@
 ---
 title: incomeStatement resource type | Microsoft Docs
-description: A incomeStatement.
+description: An incomeStatement in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,7 +21,7 @@ Represents an income statement in Dynamics 365 for Financials.
 
 | Method       | Return Type  |Description|
 |:-------------|:-------------|:----------|
-|[GET incomeStatement](../api/dynamics_get_incomestatement.md)|incomeStatement|Get an incomeStatement object|
+|[GET incomeStatement](../api/dynamics_incomestatement_get.md)|incomeStatement|Get an income statement object.|
 
 ## Properties
 | Property	| Type	|Description                                                 |
