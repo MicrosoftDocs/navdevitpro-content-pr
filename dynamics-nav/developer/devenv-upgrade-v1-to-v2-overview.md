@@ -1,7 +1,7 @@
 ---
 title: "Converting Extensions V1 to V2 Overview"
 description: "Overview of the converting of extensions."
-author: SusanneWindfeldPedersen
+author: jswymer
 ms.custom: na
 ms.date: 09/22/2017
 ms.reviewer: na
@@ -9,7 +9,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.author: solsen
+ms.author: jswymer
 ---
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
@@ -39,7 +39,9 @@ You will probably run into compilation errors, these can typically be due to:
 -   .NET references are not allowed; there is no support for .NET types. Instead you must use the classes that replace .NET calls. For more information, see [Reference](devenv-reference-overview.md).
 
 > [!IMPORTANT]
-> In the app.json, keep the ID the same as in the V1 extension. Also, make sure to increase the version number. The version number has the format P.R.V.B. To increase the version number, you must increase the value of P, R, or V by at least one. 
+> In the app.json, keep the ID the same as in the V1 extension. Also, make sure to increase the version number.
+
+> The version number has the format `P.R.V.B`, for example `1.5.0.0`. To increase the version number, you must increase the value of `P`, `R`, or `V` by at least one, for example `1.5.1.0` or `1.6.0.0`. 
 
 > To use `NAVAPP.RestoreArchiveData()` method for upgrading, you must not change the IDs of the tables that are being restored; this means that tables from your V1 extension must have the same IDs in the V2 extensions. 
 
