@@ -31,7 +31,7 @@ To convert the source code, you must use the Txt2Al conversion tool. The Txt2Al 
 ## Complete the development of the extension
 When the source code has been converted using the Txt2Al conversion tool, open the project folder in Visual Studio Code, and then modify or add code to the new version as needed. For more information about getting started with Visual Studio Code and the AL Language extension, see [Getting Started](devenv-get-started.md).
 
-You will probably run into compilation errors, these can typically be due to:
+You might run into compilation errors, which can typically be caused by:
 
 -   Object IDs that have changed. The conversion tool tries to convert your code into the object ID range allowed for Extensions V2.
 -   Field or control names look different; the AL syntax requires names, this means that no empty or default names are allowed.
@@ -48,8 +48,8 @@ You will probably run into compilation errors, these can typically be due to:
 ## Write upgrade code to move data from V1 Extensions
 Just like with V1 extensions, you have to write code to handle data in tables during upgrade. Writing code for the V1-to-V2 extension upgrade is very similar to the code that you have been writing for V1 Extensions. The differences are:
 
--   Instead of adding code to normal codeunit, you write the  code in an upgrade codeunit, which is a codeunit whose [SubType property](properties/devenv-subtype-property-codeunit.md) is set to **Upgrade**.
--   Instead of adding code to the user-defined functions `OnNavAppUpgradePerDatabase()` or `OnNavAppUpgradePerCompany()`, you add one or more of the following system triggers to the upgrade codeunit, and then add the upgrade code to the triggers. The triggers are listed in the order in which they run.
+-   Instead of adding code to normal codeunit, you write code in an upgrade codeunit, which is a codeunit whose [SubType property](properties/devenv-subtype-property-codeunit.md) is set to **Upgrade**.
+-   Instead of adding code to the user-defined functions `OnNavAppUpgradePerDatabase()` or `OnNavAppUpgradePerCompany()`, you subscibe to one or more of the following system triggers for upgrading, and add the upgrade logic to the triggers as needed. The following table lists the upgrade triggers in the order in which they run.
 
     |Trigger |Description |
     |--------|------------|
@@ -67,7 +67,13 @@ But similar to V1 extensions, all of the same **NAVAPP** system methods still wo
 |`archVersion := NAVAPP.GetArchiveVersion()`|Gets the version of the archived data from the old extension.|
 |`NAVAPP.RestoreArchiveData(70000000)`|Restores the data from the archive of table 70000000.|
  
-By using this existing API, you can easily restore or move all of your data from the old V1 extension into the new V2 by running an upgrade. For example, a simple upgrade codeunit for restoring the V1 extension data for extension table `70000000` could be:
+By using these methods for this one-time conversion, you can easily restore or move all of your data from the old V1 extension into the new V2 by running an upgrade.
+
+> [!IMPORTANT]
+> In order to use `NAVAPP.RestoreArchiveData()`, you must not change the IDs of the tables that are being restored; this means that tables from your V1 extension must have the same IDs in the V2 extensions. 
+
+### Example
+This code illustrates a simple upgrade codeunit for restoring the V1 extension data for extension table `70000000`. 
 
 ```
 codeunit 70000001 MyExtensionUpgrade
@@ -80,9 +86,8 @@ codeunit 70000001 MyExtensionUpgrade
     end;
 }
 ```
-
-> [!IMPORTANT]
-> In order to use `NAVAPP.RestoreArchiveData()`, you must not change the IDs of the tables that are being restored; this means that tables from your V1 extension must have the same IDs in the V2 extensions. 
+> [!TIP]
+> Typing the shortcut `ttrigger` in Visual Studio Code will create the basic structure for a trigger.
 
 ## Build the extension package
 Press Ctrl+Shift+B to compile and build the extension complete with the application objects and upgrade codeunit.
@@ -94,7 +99,7 @@ The final task of the conversion is to publish the V2 extension, and the run the
 1.  Uninstall the V1 extension.
 
     ```
-    Uninstall-NavApp -ServerInstance NAV -Name ProsewareStuff -Version 1.5.0.0
+    Uninstall-NAVApp -ServerInstance NAV -Name ProsewareStuff -Version 1.5.0.0
     ```
     This removes the tables from the SQL Server database and archives extension data.
 
@@ -103,30 +108,29 @@ The final task of the conversion is to publish the V2 extension, and the run the
 
 2.  Publish the V2 extension. This example assumes the extension is not signed.
     ```
-    Publish-NavApp -ServerInstance DynamicsNAV -Path .\ProswareStuff_1.5.1.0.app -SkipVerification
+    Publish-NAVApp -ServerInstance DynamicsNAV -Path .\ProswareStuff_1.5.1.0.app -SkipVerification
     ```
     This validates the extension syntax against server instance, and stages it for syncing.
 
 3.  Synchronize the V2 extension with the database.
 
     ```
-    Sync-NavApp -ServerInstance NAV -Name ProswareStuff -Version 1.5.1.0
+    Sync-NAVApp -ServerInstance NAV -Name ProswareStuff -Version 1.5.1.0
     ```
-    This adds tables from V2 extension to SQL Server database.
+    This adds tables from V2 extension to SQL database.
 
 4.  Run the upgrade process to handle archived data from the V1 extension. 
     ```
-    Start-NavAppDataUpgrade -ServerInstance NAV -Name ProfitMaker -Version 1.5.1.0
+    Start-NAVAppDataUpgrade -ServerInstance NAV -Name ProswareStuff -Version 1.5.1.0
     ```
     This runs the upgrade logic defined by the upgrade codeunit in the extension, and installs the new V2 extension.
 
 5. (optional) Unpublish the V1 extension.
 
     ```
-    Unpublish-NavApp -ServerInstance NAV -Name ProswareStuff -Version 1.5.0.0
+    Unpublish-NAVApp -ServerInstance NAV -Name ProswareStuff -Version 1.5.0.0
     ```
     This removes the unused extension package from server.
-
 
 ## See Also
 [Getting Started](devenv-get-started.md)  
