@@ -118,7 +118,7 @@ The final task of the conversion is to publish the V2 extension, and the run the
     ```
     Start-NavAppDataUpgrade -ServerInstance NAV -Name ProfitMaker -Version 1.5.1.0
     ```
-    This runs the upgrade logic defined by the upgrade codeunit in the extension.
+    This runs the upgrade logic defined by the upgrade codeunit in the extension, and installs the new V2 extension.
 
 5. (optional) Unpublish the V1 extension.
 
