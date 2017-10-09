@@ -11,8 +11,11 @@ ms.prod: "dynamics-nav-2017"
 ---
 This topic provides information about how you can upgrade an existing extension after making changes.  
 
-## Overview
-Changes to a [!INCLUDE[navnow](includes/navnow_md.md)] deployment by an extension are treated differently than if you had manually added them to your code base. UI modifications are, in their simplest form, just the differences or deltas from the base application code. These are applied at runtime. On the other hand, because an extension package cannot modify existing code or add new code to existing objects, changes in business logic must be encapsulated through the use of events or in new codeunits. For more information, see [Introducing Events](Introducing-Events.md).  
+## Upgrading Extensions
+Changes to a [!INCLUDE[navnow](includes/navnow_md.md)] deployment by an extension are treated differently than if you had manually added them to your code base. UI modifications are, in their simplest form, just the differences or deltas from the base application code. These are applied at runtime. On the other hand, because an extension package cannot modify existing code or add new code to existing objects, changes in business logic must be encapsulated through the use of events or in new codeunits. For more information, see [Introducing Events](Introducing-Events.md). 
+
+## What constitutes an upgrade
+An *upgrade" is when you change from one version of an extension to a higher version, based on the version number assigned in the app.json file.  
 
 You should not necessarily consider the upgrade of extensions as part of the upgrade process of the [!INCLUDE[navnow](includes/navnow_md.md)] deployment as a whole; unless a product upgrade has an adverse effect on an extension. In this case, you will need to address the condition by adding upgrade code to your extension. You can upgrade your extension independently of the [!INCLUDE[navnow](includes/navnow_md.md)] deployment.  
 
