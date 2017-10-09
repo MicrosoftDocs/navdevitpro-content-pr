@@ -92,8 +92,7 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
 >  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as a multitenant server instance, then except for the **Database Name**, **Database Instance**, and **Database Server** settings, the settings apply to both the application database and the tenant database.  
 
 |Setting|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
-|-------------|---------------------------------------|  
-|Close Inactive SQL Connections|Specifies when to close inactive SQL Server connections. The value specifies the age at which to close connections. While a connection is inactive, starting from zero, the age is increased by one every 30 seconds. When the age of the inactive connection reaches the specified value, the connection is closed. A value of **0** means that inactive SQL connections will not be closed.<br /><br /> Default: 10|  
+|-------------|---------------------------------------|   
 |Database Instance|The name of the SQL Server database instance to connect to. If the value is a null string \(""\), [!INCLUDE[nav_server](includes/nav_server_md.md)] instance connects to the default database instance of SQL Server.<br /><br /> If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as a multitenant server instance, then this setting specifies the SQL Server database instance that hosts the application database.<br /><br /> Default: NAVDEMO|  
 |Database Name|The name of the [!INCLUDE[navnow](includes/navnow_md.md)] database in SQL Server.<br /><br /> If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as multi-tenant server instance, then this setting specifies the application database.<br /><br /> Default: "Demo Database NAV \(10-0\)"|  
 |Database Server|A valid network name for the computer that is running SQL Server.<br /><br /> If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as multi-tenant server instance, then this setting specifies the computer that hosts the application database.<br /><br /> Default: The computer that you selected in [!INCLUDE[navnow](includes/navnow_md.md)] Setup.|  
@@ -102,6 +101,7 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
 |Enable Encryption on SQL Server Connections|Specifies whether the SQL connect string should request encryption when connecting to SQL Server services.|  
 |Enable Trust of SQL Server Certificate|Specifies whether [!INCLUDE[nav_server](includes/nav_server_md.md)] should trust the SQL Server certificate.|  
 |SQL Command Timeout|The contextual time-out for a SQL command.<br /><br /> Default: 0:30:00|  
+|SQL Connection Idle Timeout|Specifies the time that a SQL connection can remain idle before being closed. The value has the format HH:MM:SS.<br /><br /> Default: 00:05:00|  
 |Enable SQL Parameters by Ordinal|Specifies whether parameters in SQL statements are referenced by their ordinal number.<br /><br /> Enabling this setting improves performance when using buffered inserts.<br /><br /> Default: Enabled|  
 
 ###  <a name="ClientServices"></a> Client Services Tab Settings  
