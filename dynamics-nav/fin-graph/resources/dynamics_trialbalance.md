@@ -1,6 +1,6 @@
 ---
 title: trialBalance resource type | Microsoft Docs
-description: A TrialBalance.
+description: A trial balance object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,13 +15,13 @@ ms.author: solsen
 ---
 
 # trialBalance resource type
-Represents an trial balance in Dynamics 365 for Financials.
+Represents a trial balance in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET trialBalance](../api/dynamics_get_trialbalance.md)|TrialBalance|Get a TrialBalance object|
+|[GET trialBalance](../api/dynamics_trialbalance_get.md)|trialBalance|Gets a trial balance object.|
 
 ## Properties
 | Property	   | Type	|Description|
