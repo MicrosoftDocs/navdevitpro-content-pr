@@ -47,16 +47,16 @@ You will probably run into compilation errors, these can typically be due to:
 Just like with V1 extensions, you have to write code to handle data in tables during upgrade. Writing code for the V1-to-V2 extension upgrade is very similar to the code that you have been writing for V1 Extensions. The differences are:
 
 -   Instead of adding code to normal codeunit, you write the  code in an upgrade codeunit, which is a codeunit whose [SubType property](properties/devenv-subtype-property-codeunit.md) is set to **Upgrade**.
--   Instead of adding code to the user-defined functions `OnNavAppUpgradePerDatabase()` or `OnNavAppUpgradePerCompany()`, you add code to any one of the following system triggers that are implicit in the syntax of upgrade codeunits. The triggers are listed in the order in which they run.
+-   Instead of adding code to the user-defined functions `OnNavAppUpgradePerDatabase()` or `OnNavAppUpgradePerCompany()`, you add one or more of the following system triggers to the upgrade codeunit, and then add the upgrade code to the triggers. The triggers are listed in the order in which they run.
 
-|Trigger |Description |
-|--------|------------|
-|OnCheckPreconditionsPerCompany() or OnCheckPreconditionsPerDatabase()| Used to check that certain requirements are met in order for to run.|
-|OnUpgradePerCompany() or OnUpgradePerDatabase()|Used to run the actual upgrade work| 
-|OnValidateUpgradePerCompany() or OnValidateUpgradePerDatabase()|Used to check that the upgrade was successful|
-|OnAfterUpgradeCommitPerCompany() or OnAfterUpgradeCommitPerDatabase()|Used to perform post-upgrade tasks|
+    |Trigger |Description |
+    |--------|------------|
+    |OnCheckPreconditionsPerCompany() or OnCheckPreconditionsPerDatabase()| Used to check that certain requirements are met in order for to run.|
+    |OnUpgradePerCompany() or OnUpgradePerDatabase()|Used to run the actual upgrade work| 
+    |OnValidateUpgradePerCompany() or OnValidateUpgradePerDatabase()|Used to check that the upgrade was successful|
+    |OnAfterUpgradeCommitPerCompany() or OnAfterUpgradeCommitPerDatabase()|Used to perform post-upgrade tasks|
 
-But similar to V1 extensions, all of the same NAVAPP.* system methods still work with V2 extensions, and can be called from any of the upgrade triggers. 
+But similar to V1 extensions, all of the same **NAVAPP** system methods still work with V2 extensions, and can be called from any of the upgrade triggers. 
 
 |Method |Description |
 |--------|------------|
@@ -65,7 +65,7 @@ But similar to V1 extensions, all of the same NAVAPP.* system methods still work
 |`archVersion := NAVAPP.GetArchiveVersion()`|Gets the version of the archived data from the old extension.|
 |`NAVAPP.RestoreArchiveData(70000000)`|Restores the data from the archive of table 70000000.|
  
-Using this existing API, you can easily restore/move all of your data from the old V1 extension into the new V2 by running an upgrade. For example, a simple upgrade codeunit for restoring the V1 extension data for extension table `70000000` could be:
+By using this existing API, you can easily restore or move all of your data from the old V1 extension into the new V2 by running an upgrade. For example, a simple upgrade codeunit for restoring the V1 extension data for extension table `70000000` could be:
 
 ```
 codeunit 70000001 MyExtensionUpgrade
@@ -87,7 +87,7 @@ Press Ctrl+Shift+B to compile and build the extension complete with the applicat
 
 ## Run the upgrade process
 
-The final task of the conversion is to publish the V2 extension, and the run the upgrade. The following steps use an example that upgrades a V1 extension that is called 'ProsewareStuff' and has the version '1.5.0.0.', and is published, installed, and populated with data. The V2 extension has the same name (and ID), but it has the version '1.5.1.0'. The [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance is called 'DynamicsNAV' and there is only one tenant. 
+The final task of the conversion is to publish the V2 extension, and the run the upgrade. The following steps use an example that upgrades a V1 extension that is called 'ProsewareStuff' and has the version '1.5.0.0.'. The V1 extension is published, installed, and populated with data. The V2 extension has the same name (and ID), but it has the version '1.5.1.0'. The [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance is called 'DynamicsNAV', and there is only one tenant. 
 
 1.  Uninstall the V1 extension.
 
@@ -121,7 +121,7 @@ The final task of the conversion is to publish the V2 extension, and the run the
 5. (optional) Unpublish the V1 extension.
 
     ```
-    Unpublish-NavApp -ServerInstance NAV -Name ProfitMaker -Version 1.5.0.0
+    Unpublish-NavApp -ServerInstance NAV -Name ProswareStuff -Version 1.5.0.0
     ```
     This removes the unused extension package from server.
 
