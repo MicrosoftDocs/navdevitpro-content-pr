@@ -46,7 +46,7 @@ The following cmdlets have been changed in the Microsoft.Dynamics.NAV.Management
 |[Sync-NAVTenant](Microsoft.Dynamics.NAV.Management/Sync-NAVTenant.md)|-CommitPerTable parameter added.|
 |[New-NAVServerInstance](Microsoft.Dynamics.NAV.Management/New-NAVServerInstance.md)|-DeveloperServicesPort has been added.|
 |[New-NAVWebServerInstance](Microsoft.Dynamics.NAV.Management/New-NAVWebServerInstance.md)|-RegionFormat, -Language, and -Company parameters have been removed.|
-|[Remove-NAVCompany](Microsoft.Dynamics.NAV.Management/Remove-NAVCompany.md)|-ForceImmediateDataDeletion has been added.|
+|[Remove-NAVCompany](Microsoft.Dynamics.NAV.Management/Remove-NAVCompany.md)|-ForceImmediateDataDeletion parameter has been added.|
 
 <!-- A number of other new cmdlets are available in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] but are not yet listed here. For a full list, see [Administration Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626874).  -->
 
