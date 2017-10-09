@@ -1,6 +1,6 @@
 ---
 title: vendorPurchases resource type | Microsoft Docs
-description: A VendorPurchases.
+description: A vendor purchase object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,7 +21,7 @@ Represents a vendor purchase in Dynamics 365 for Financials.
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET vendorPurchases](../api/dynamics_get_vendorpurchases.md)|VendorPurchases|Get a VendorPurchases object|
+|[GET vendorPurchases](../api/dynamics_vendorpurchases_get.md)|vendorPurchases|Gets a vendor purchase object.|
 
 ## Properties
 | Property	   | Type	|Description|

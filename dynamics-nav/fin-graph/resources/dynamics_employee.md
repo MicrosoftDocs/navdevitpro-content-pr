@@ -1,6 +1,6 @@
 ---
-title: employee resource type | Microsoft Docs
-description: An Employee.
+title: employees resource type | Microsoft Docs
+description: An employee object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# employee resource type
+# employees resource type
 Represents an employee in Dynamics 365 for Financials.
 
 ## Methods
 
-| Method                                              | Return Type|Description              |
-|:----------------------------------------------------|:-----------|:------------------------|
-|[GET Employee](../api/dynamics_get_employee.md)      |Employee    |Get an Employee object   |
-|[POST Employee](../api/dynamics_create_employee.md)  |Employee    |Create an Employee object|
-|[PATCH Employee](../api/dynamics_update_employee.md) |Employee    |Update an Employee object|
-|[DELETE Employee](../api/dynamics_delete_employee.md)|none        |Delete an Employee object|
+| Method                                              | Return Type|Description               |
+|:----------------------------------------------------|:-----------|:-------------------------|
+|[GET employees](../api/dynamics_employee_get.md)      |employees  |Get an employee object.   |
+|[POST employees](../api/dynamics_create_employee.md)  |employees  |Create an employee object.|
+|[PATCH employees](../api/dynamics_employee_update.md) |employees  |Update an employee object.|
+|[DELETE employees](../api/dynamics_employee_delete.md)|none       |Delete an employee object.|
 
 ## Properties
 | Property	         | Type	  |Description                                            |
@@ -36,7 +36,7 @@ Represents an employee in Dynamics 365 for Financials.
 |middleName          |string  |The middle name of the employee.                       |
 |surname             |string  |The surname of the employee                            |
 |jobTitle            |string  |The full name of the employee                          |
-|address             |[NAV.PostalAddress](../resources/dynamics_complex_types.md)|Specifies the employee's address. This address will appear on all resource documents for the employee.|
+|address             |[NAV.PostalAddress](../resources/dynamics_complextypes.md)|Specifies the employee's address. This address will appear on all resource documents for the employee.|
 |phoneNumber         |string  |Specifies the employee's telephone number.             |
 |mobilePhone         |string  |Specifies the employee's mobile telephone number.      |
 |email               |string  |Specifies the employee's email address.                |
