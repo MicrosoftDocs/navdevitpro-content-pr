@@ -21,7 +21,7 @@ Extensions are a programming model where functionality is defined as an addition
 2.  Complete the development of the extension in AL syntax.
 3.  Write upgrade code to restore and modify data from the V1 Extension tables.
 4.  Build the extension.
-5.  Run the upgrade on the published extension. 
+5.  Uninstall the V1 extension, and publish and run upgrade on the V2 extension. 
 
 ## Convert the source code from V1 to V2
 To convert the source code, you must use the Txt2Al conversion tool. The Txt2Al conversion tool allows you to take existing application objects that have been exported in .txt format and convert them into the new .al format. The .al format is used when developing extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. For more information about converting the source code, see [Txt2Al Conversion Tool](devenv-txt2al-tool.md).
@@ -41,7 +41,7 @@ You might run into compilation errors, which can typically be caused by:
 > [!IMPORTANT]
 > In the app.json, keep the ID the same as in the V1 extension. Also, make sure to increase the version number.
 
-> The version number has the format `P.R.V.B`, for example `1.5.0.0`. To increase the version number, you must increase the value of `P`, `R`, or `V` by at least one, for example `1.5.1.0` or `1.6.0.0`. 
+> The version number has the format `Major.Minor.Build.Revision`, for example `1.5.0.0`. To increase the version number, you must increase the value of `Major`, `Minor`, or `Build` by at least one, for example `1.5.1.0` or `1.6.0.0`. 
 
 > To use `NAVAPP.RestoreArchiveData()` method for upgrading, you must not change the IDs of the tables that are being restored; this means that tables from your V1 extension must have the same IDs in the V2 extensions. 
 
@@ -49,7 +49,7 @@ You might run into compilation errors, which can typically be caused by:
 Just like with V1 extensions, you have to write code to handle data in tables during upgrade. Writing code for the V1-to-V2 extension upgrade is very similar to the code that you have been writing for V1 Extensions. The differences are:
 
 -   Instead of adding code to normal codeunit, you write code in an upgrade codeunit, which is a codeunit whose [SubType property](properties/devenv-subtype-property-codeunit.md) is set to **Upgrade**.
--   Instead of adding code to the user-defined functions `OnNavAppUpgradePerDatabase()` or `OnNavAppUpgradePerCompany()`, you subscibe to one or more of the following system triggers for upgrading, and add the upgrade logic to the triggers as needed. The following table lists the upgrade triggers in the order in which they run.
+-   Instead of adding code to the user-defined functions `OnNavAppUpgradePerDatabase()` or `OnNavAppUpgradePerCompany()`, you add code to one or more of the following system triggers for data upgrade. These triggers are invoked when a data upgrade is started. The following table lists the upgrade triggers in the order in which they run.
 
     |Trigger |Description |
     |--------|------------|
@@ -58,7 +58,7 @@ Just like with V1 extensions, you have to write code to handle data in tables du
     |OnValidateUpgradePerCompany() or OnValidateUpgradePerDatabase()|Used to check that the upgrade was successful|
     |OnAfterUpgradeCommitPerCompany() or OnAfterUpgradeCommitPerDatabase()|Used to perform post-upgrade tasks|
 
-But similar to V1 extensions, all of the same **NAVAPP** system methods still work with V2 extensions, and can be called from any of the upgrade triggers. 
+However, for this one-time conversion, all of the same **NAVAPP** system methods you used in V1 extensions work with V2 extensions, and can be called from any of the upgrade triggers. 
 
 |Method |Description |
 |--------|------------|
@@ -67,7 +67,7 @@ But similar to V1 extensions, all of the same **NAVAPP** system methods still wo
 |`archVersion := NAVAPP.GetArchiveVersion()`|Gets the version of the archived data from the old extension.|
 |`NAVAPP.RestoreArchiveData(70000000)`|Restores the data from the archive of table 70000000.|
  
-By using these methods for this one-time conversion, you can easily restore or move all of your data from the old V1 extension into the new V2 by running an upgrade.
+By using these methods, you can restore or move all of your data from the old V1 extension into the new V2 by running an upgrade.
 
 > [!IMPORTANT]
 > In order to use `NAVAPP.RestoreArchiveData()`, you must not change the IDs of the tables that are being restored; this means that tables from your V1 extension must have the same IDs in the V2 extensions. 
@@ -131,6 +131,9 @@ The final task of the conversion is to publish the V2 extension, and the run the
     Unpublish-NAVApp -ServerInstance NAV -Name ProswareStuff -Version 1.5.0.0
     ```
     This removes the unused extension package from server.
+
+## Going forward
+The upgrade code unit becomes an integral part of the extension. The **NAVAPP** methods were mainly be used for the conversion from V1 to V2. After converting the extension, you should begin to write upgrade code as described in [Upgrading Extensions](devenv-upgrading-extensions.md).
 
 ## See Also
 [Getting Started](devenv-get-started.md)  
