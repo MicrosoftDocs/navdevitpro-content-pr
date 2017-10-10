@@ -9,24 +9,32 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ---
-This topic provides information about how you can upgrade an existing extension after making changes.  Schema changes can only be additive. This allows multiple versions to exist on the same server simultaneously.
 
+# Upgrading Extensions V2
+This topic provides information about how to upgrade an existing extension to a new version. 
+
+Schema changes can only be additive. This allows multiple versions to exist on the same server simultaneously.
 
 ## What constitutes an upgrade
-An *upgrade* is when you publish an extension that has a higher version number than the current published versions.  
+An *upgrade* is when you publish an extension that has a higher version number than the current published versions.
 
-You should not necessarily consider the upgrade of extensions as part of the upgrade process of the [!INCLUDE[navnow](includes/navnow_md.md)] deployment as a whole; unless a product upgrade has an adverse effect on an extension. In this case, you will need to address the condition by adding upgrade code to your extension. You can upgrade your extension independently of the [!INCLUDE[navnow](includes/navnow_md.md)] deployment.  
+Can I define more than one CU with the upgrade triggers?
+	- Absolutely! While there is a set order to the sequence of these triggers, there is no guarantee on the order of execution of the different CUs so developers should be aware not rely on it and keep multiple CU's need to be independent of each other.
+	
+	If I don't need to touch data between versions do I still need to 'upgrade'?
+If there are no data changes between the versions of your extension, then you do not need to write upgrade code. All data that is not modified by upgrade code will automatically be restored. 
 
-> [!TIP]  
->  We recommend that you add the upgrade code to your very first version of the extension to handle the uninstallation and reinstallation for cases when an upgrade failed, or the users inadvertently uninstalled.  
+## Developing an extension for upgrading
+When developing a new extension version, you have to consider the data that comes from an old extension version, and determine any modifications that must be applied to the data to make it compatible with the current version. For example, it could be that the new version has a new field that needs default values for existing records or the new version has new tables that must be linked to existing records. To address this type of data handling, you have to a write upgrade code for the extension version.
 
-## Developing an Extension for Upgrading
+If there are no data changes between the versions of your extension, then you do not need to write upgrade code. All data that is not modified by upgrade code will automatically be restored. 
 
-You 
-### Writing upgrade code for an extension
-When developing a new extension version, you should consider the data that comes from an old extension version and any modifications that must be applied to make it compatible with the current version. This includes things like the new version has a new field that needs default values for existing records or the new version has new tables that must be linked to existing records.
+### Writing upgrade code
 
-You write the logic for handling this data in an upgrade codenit, which is a codeunit whose [SubType property] is set to **Upgrade**.  An upgrade codeunit supports several system triggers on which you can write the upgrade code. These triggers are invoked when you run a data upgrade on the new extension. The following tables lists the upgrade trigger in the order in whihh they are invoked. 
+You write upgrade logic in an upgrade codenit, which is a codeunit whose [SubType property] is set to **Upgrade**.  An upgrade codeunit supports several system triggers on which you can add data upgrade code. These triggers are invoked when you run a data upgrade process on the new extension.
+
+### Upgrade triggers
+The following tables describes the upgrade triggers and lists them in the order in which they are invoked.
 
 |Trigger |Description | Fails the upgrade on error |
 |--------|------------|------------------------|
@@ -68,15 +76,12 @@ codeunit [ID] [NAME]
 	end;
 }
 ```
+> [!TIP]
+> Use the shortcuts `tcodunit`and `ttrigger` to create the basic structure for the codeunit and trigger.
 
-> [!IMPORTANT]  
->  You can use more than one codeunit to contain the upgrade functions. However, it is recommended that you use a single codeunit because this gives you more control over the execution order of the upgrade code.
+## Running the upgrade orto a new extension version
 
-You must include `OnNavAppUpgradePerDatabase` or `OnNavAppUpgradePerCompany` functions to your upgrade code. If these functions are not present at the time of creating the extension package and there are schema changes, the packaging will fail with an error. The installation of an extension package will also validate that all table changes are handled, and the following error occurs if they are not handled:
-
-*The package contains changes to the database schema that are not handled in upgrade code.*
-
-## Upgrading to a new extension version
+To upgrade to the new extension version, you use the Sync-NAVApp and Start-NAVAppDataUpgrade cmdlets of the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)] to synchronize table schema changes in the extension with the SQL and run the data upgrade.
 
 1.  Publish the new extension version. This example assumes the extension is not signed, which is not recommend in a production environment.
 
