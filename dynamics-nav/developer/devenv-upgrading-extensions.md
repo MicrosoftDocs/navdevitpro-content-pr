@@ -97,7 +97,7 @@ codeunit 70000001 MyUpgradeCodeunit
 ## Running the upgrade for the new extension version
 To upgrade to the new extension version, you use the Sync-NAVApp and Start-NAVAppDataUpgrade cmdlets of the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)] to synchronize table schema changes in the extension with the SQL and run the data upgrade code.
 
-1.  Publish the new extension version. This example assumes the extension is not signed, which is not recommend in a production environment.
+1.  Publish the new extension version. This example assumes the extension is not signed. This is not recommend in a production environment.
 
     ```
     Publish-NAVApp -ServerInstance DynamicsNAV -Path .\ProswareStuff_1.7.1.0.app -SkipVerification
@@ -114,11 +114,11 @@ To upgrade to the new extension version, you use the Sync-NAVApp and Start-NAVAp
 4.  Run a data upgrade.
 
     ```
-    Start-NAVAppDataUpgrade -ServerInstance NAV -Name ProswareStuff -Version 1.5.1.0
+    Start-NAVAppDataUpgrade -ServerInstance NAV -Name ProswareStuff -Version 1.7.1.0
     ```
     This runs the upgrade logic that is defined by the upgrade codeunits in the extension. The current extension version is uninstalled, and the new extension version is installed.
 
 ## See Also  
 [Developing Extensions](devenv-dev-overview.md)  
-[Getting Started](devenv-getting-started.md) 
-[How to: Publish and Install an Extension](devenv-how-publish-and-install-an-extension-v2)  
+[Getting Started](devenv-get-started.md) 
+[How to: Publish and Install an Extension](devenv-how-publish-and-install-an-extension-v2.md)  
