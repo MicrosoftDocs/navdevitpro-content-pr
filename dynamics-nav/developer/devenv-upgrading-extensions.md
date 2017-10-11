@@ -24,7 +24,7 @@ If there are no data changes between the versions of your extension, then you do
 ### Writing upgrade code
 You write upgrade logic in an upgrade codeunit, which is a codeunit whose [SubType property](properties/devenv-subtype-property-codeunit.md) is set to **Upgrade**. An upgrade codeunit supports several system triggers on which you can add data upgrade code. These triggers are invoked when you run the data upgrade process on the new extension.
 
-The upgrade codeunit becomes an integral part of the extension, and can be modified as needed for subsequent version. You can have more than one upgrade codeunit. However, be aware that although there is a set order to the sequence of the upgrade triggers, there is no guarantee on the order of execution of the different codeunits. So if you do use multiple upgrade units, make sure that they can ve run independent of each other.
+The upgrade codeunit becomes an integral part of the extension and can be modified as needed for subsequent version. You can have more than one upgrade codeunit. However, be aware that although there is a set order to the sequence of the upgrade triggers, there is no guarantee on the order of execution of the different codeunits. So if you do use multiple upgrade units, make sure that they can run independent of each other.
 
 ### Upgrade triggers
 The following tables describes the upgrade triggers and lists them in the order in which they are invoked.
