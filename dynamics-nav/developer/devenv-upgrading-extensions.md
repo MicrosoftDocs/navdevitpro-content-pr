@@ -1,6 +1,6 @@
 ---
 author: jswymer
-title: "Upgrading an Extension V" to a new version"
+title: "Upgrading an Extension V2 to a new version"
 description: "Describes how to add code to upgrade data in a new extension version."
 ms.custom: na
 ms.date: 11/10/2017
@@ -10,12 +10,11 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ---
-
 # Upgrading Extensions V2
 This article provides information about how to make a newer version of extension upgrade available on tenants. The first phase of this process is to develop the extension for upgrading, which means adding code to upgrade data from the previous extension version. Once you have the upgrade development in place, you can run the upgrade for new version to get it published and installed.
 
 > [!Note]
-> An *upgrade* is defined as enabling an extension that has a greater version number, as defined in the app.json file, than the current published extension. 
+> An *upgrade* is defined as enabling an extension that has a greater version number, as defined in the app.json file, than the current installed extension version. 
 
 ## Developing an extension for upgrading
 When developing a new extension version, you have to consider modifications that must be applied to the data from the previous versionto to make it compatible with the current version. For example, it could be that the new version has a new field that needs default values for existing records or the new version has new tables that must be linked to existing records. To address this type of data handling, you have to a write upgrade code for the extension version.
