@@ -115,7 +115,7 @@ To upgrade to the new extension version, you use the Sync-NAVApp and Start-NAVAp
     ```
     Start-NAVAppDataUpgrade -ServerInstance NAV -Name ProswareStuff -Version 1.7.1.0
     ```
-    This runs the upgrade logic that is defined by the upgrade codeunits in the extension. The current extension version is uninstalled, and the new extension version is installed.
+    This runs the upgrade logic that is defined by the upgrade codeunits in the extension. This will uninstall the current extension version, and install the new version.
 
 ## See Also  
 [Developing Extensions](devenv-dev-overview.md)  
