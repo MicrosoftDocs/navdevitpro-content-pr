@@ -11,27 +11,21 @@ ms.prod: "dynamics-nav-2017"
 ---
 
 # Upgrading Extensions V2
-This topic provides information about how to upgrade an existing extension to a new version. 
+This article provides information about how to make a newer version of extension upgrade available on tenants. The first phase of this process is to develop the extension for upgrading, which means adding code to upgrade data from the previous extention version. Once you have the upgrade development in place, you can run the upgrade for new version to get it published and installed.
 
-Schema changes can only be additive. This allows multiple versions to exist on the same server simultaneously.
-
-## What constitutes an upgrade
-An *upgrade* is when you publish an extension that has a higher version number than the current published versions.
-
-Can I define more than one CU with the upgrade triggers?
-	- Absolutely! While there is a set order to the sequence of these triggers, there is no guarantee on the order of execution of the different CUs so developers should be aware not rely on it and keep multiple CU's need to be independent of each other.
-	
-	If I don't need to touch data between versions do I still need to 'upgrade'?
-If there are no data changes between the versions of your extension, then you do not need to write upgrade code. All data that is not modified by upgrade code will automatically be restored. 
+> [!Note]
+> An *upgrade* is defined as enabling an extension version that has a greater version number, as defined in the app.json file, than the current published extension versions.
 
 ## Developing an extension for upgrading
-When developing a new extension version, you have to consider the data that comes from an old extension version, and determine any modifications that must be applied to the data to make it compatible with the current version. For example, it could be that the new version has a new field that needs default values for existing records or the new version has new tables that must be linked to existing records. To address this type of data handling, you have to a write upgrade code for the extension version.
+When developing a new extension version, you have to consider modifications that must be applied to the data from the previous versionto to make it compatible with the current version. For example, it could be that the new version has a new field that needs default values for existing records or the new version has new tables that must be linked to existing records. To address this type of data handling, you have to a write upgrade code for the extension version.
 
 If there are no data changes between the versions of your extension, then you do not need to write upgrade code. All data that is not modified by upgrade code will automatically be restored. 
 
 ### Writing upgrade code
 
-You write upgrade logic in an upgrade codenit, which is a codeunit whose [SubType property] is set to **Upgrade**.  An upgrade codeunit supports several system triggers on which you can add data upgrade code. These triggers are invoked when you run a data upgrade process on the new extension.
+You write upgrade logic in an upgrade codenit, which is a codeunit whose [SubType property](properties/devenv-subtype-property-codeunit.md) is set to **Upgrade**.  An upgrade codeunit supports several system triggers on which you can add data upgrade code. These triggers are invoked when you run a data upgrade process on the new extension.
+
+The upgrade codeunot becaomes an integral part of the extension, and can be modified as need for subsequent version. You can have more than one upgrade codeunit. However, be aware that although there is a set order to the sequence of the triggers, there is no guarantee on the order of execution of the different codeunits. So you do use multiple upgrade units, make sure that they are independent of each other.
 
 ### Upgrade triggers
 The following tables describes the upgrade triggers and lists them in the order in which they are invoked.
@@ -79,9 +73,9 @@ codeunit [ID] [NAME]
 > [!TIP]
 > Use the shortcuts `tcodunit`and `ttrigger` to create the basic structure for the codeunit and trigger.
 
-## Running the upgrade orto a new extension version
+## Running the upgrade for the new extension version
 
-To upgrade to the new extension version, you use the Sync-NAVApp and Start-NAVAppDataUpgrade cmdlets of the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)] to synchronize table schema changes in the extension with the SQL and run the data upgrade.
+To upgrade to the new extension version, you use the Sync-NAVApp and Start-NAVAppDataUpgrade cmdlets of the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)] to synchronize table schema changes in the extension with the SQL and run the data upgrade code.
 
 1.  Publish the new extension version. This example assumes the extension is not signed, which is not recommend in a production environment.
 
@@ -95,7 +89,7 @@ To upgrade to the new extension version, you use the Sync-NAVApp and Start-NAVAp
     ```
     Sync-NAVApp -ServerInstance NAV -Name ProswareStuff -Version 1.7.1.0
     ```
-    This synchronizes any table schema changes in the extension with the SQL database.
+    This synchronizes the database with any table schema changes in the extension; it adds the tables from the extension to the tenant.
 
 4.  Run a data upgrade.
 
@@ -105,15 +99,6 @@ To upgrade to the new extension version, you use the Sync-NAVApp and Start-NAVAp
     This runs the upgrade logic that is defined by the upgrade codeunits in the extension. The current extension version is uninstalled, and the new extension version is installed.
 
 ## See Also  
-[Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)  
-[Upgrading Extensions](extensions-upgrading.md)  
-[GETARCHIVEVERSION Function](GETARCHIVEVERSION-Function.md)  
-[GETARCHIVERECORDREF Function](GETARCHIVERECORDREF-Function.md)  
-[RESTOREARCHIVEDATA Function](restorearchivedata-function.md)  
-[DELETEARCHIVEDATA Function](deletearchivedata-function.md)  
-[How to: Develop an Extension](How-to--Develop-an-Extension.md)  
-[How to: Create an Extension Package](How-to--Create-an-Extension-Package.md)  
-[Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)  
-[Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
-[Development Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510540)  
-[Development](development.md)  
+[Developing Extensions](devenv-dev-overview.md)  
+[Getting Started](devenv-getting-started.md) 
+[How to: Publish and Install an Extension](devenv-how-publish-and-install-an-extension-v2)  
