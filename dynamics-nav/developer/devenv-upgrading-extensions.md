@@ -1,8 +1,9 @@
 ---
 author: jswymer
-title: "How to: Write Extension Upgrade Code"
+title: "Upgrading an Extension V" to a new version"
+description: "Describes how to add code to upgrade data in a new extension version."
 ms.custom: na
-ms.date: 07/10/2017
+ms.date: 11/10/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,10 +12,10 @@ ms.prod: "dynamics-nav-2017"
 ---
 
 # Upgrading Extensions V2
-This article provides information about how to make a newer version of extension upgrade available on tenants. The first phase of this process is to develop the extension for upgrading, which means adding code to upgrade data from the previous extention version. Once you have the upgrade development in place, you can run the upgrade for new version to get it published and installed.
+This article provides information about how to make a newer version of extension upgrade available on tenants. The first phase of this process is to develop the extension for upgrading, which means adding code to upgrade data from the previous extension version. Once you have the upgrade development in place, you can run the upgrade for new version to get it published and installed.
 
 > [!Note]
-> An *upgrade* is defined as enabling an extension version that has a greater version number, as defined in the app.json file, than the current published extension versions.
+> An *upgrade* is defined as enabling an extension that has a greater version number, as defined in the app.json file, than the current published extension. 
 
 ## Developing an extension for upgrading
 When developing a new extension version, you have to consider modifications that must be applied to the data from the previous versionto to make it compatible with the current version. For example, it could be that the new version has a new field that needs default values for existing records or the new version has new tables that must be linked to existing records. To address this type of data handling, you have to a write upgrade code for the extension version.
@@ -22,10 +23,9 @@ When developing a new extension version, you have to consider modifications that
 If there are no data changes between the versions of your extension, then you do not need to write upgrade code. All data that is not modified by upgrade code will automatically be restored. 
 
 ### Writing upgrade code
+You write upgrade logic in an upgrade codenit, which is a codeunit whose [SubType property](properties/devenv-subtype-property-codeunit.md) is set to **Upgrade**. An upgrade codeunit supports several system triggers on which you can add data upgrade code. These triggers are invoked when you run a data upgrade process on the new extension.
 
-You write upgrade logic in an upgrade codenit, which is a codeunit whose [SubType property](properties/devenv-subtype-property-codeunit.md) is set to **Upgrade**.  An upgrade codeunit supports several system triggers on which you can add data upgrade code. These triggers are invoked when you run a data upgrade process on the new extension.
-
-The upgrade codeunot becaomes an integral part of the extension, and can be modified as need for subsequent version. You can have more than one upgrade codeunit. However, be aware that although there is a set order to the sequence of the triggers, there is no guarantee on the order of execution of the different codeunits. So you do use multiple upgrade units, make sure that they are independent of each other.
+The upgrade codeunit becomes an integral part of the extension, and can be modified as needed for subsequent version. You can have more than one upgrade codeunit. However, be aware that although there is a set order to the sequence of the triggers, there is no guarantee on the order of execution of the different codeunits. So you do use multiple upgrade units, make sure that they are independent of each other.
 
 ### Upgrade triggers
 The following tables describes the upgrade triggers and lists them in the order in which they are invoked.
@@ -73,8 +73,28 @@ codeunit [ID] [NAME]
 > [!TIP]
 > Use the shortcuts `tcodunit`and `ttrigger` to create the basic structure for the codeunit and trigger.
 
-## Running the upgrade for the new extension version
+### Get information about an extension
+Each extension version has a set of properties that contain information about the extension, including: AppVersion, DataVersion, Dependencies, Id, Name, and Publisher. This information can be useful when upgrading. For example, one of the more important properties is the `DataVersion` property, which tells you what version of data you are dealing with. These properties are encapsulated in a `ModuleInfo` data type. You can access these properties through `NAVApp.GetCurrentModuleInfo()` and `NAVAPP.GetCurrentModuleInfo()` methods.
 
+### Upgrade codeunit example 
+This example uses the `OnCheckPreconditionsPerDatabase()` trigger to check the data version of the previous extension version is compatible for the upgrade.
+
+```
+codeunit 70000001 MyUpgradeCodeunit
+{
+    Subtype=Upgrade;
+    
+    trigger OnCheckPreconditionsPerDatabase();
+    var 
+        myInfo : ModuleInfo;
+    begin
+        if NavApp.GetCurrentModuleInfo(myInfo) then
+            if myInfo.DataVersion = Version.Create(1, 0, 0, 1) then
+                ERROR('The upgrade is not compatible'); 
+    end;
+```
+
+## Running the upgrade for the new extension version
 To upgrade to the new extension version, you use the Sync-NAVApp and Start-NAVAppDataUpgrade cmdlets of the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)] to synchronize table schema changes in the extension with the SQL and run the data upgrade code.
 
 1.  Publish the new extension version. This example assumes the extension is not signed, which is not recommend in a production environment.
