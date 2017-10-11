@@ -65,12 +65,12 @@ codeunit [ID] [NAME]
 	
 	procedure OnAfterUpgradeCommitPerCompany()
 	begin
-		// Code that performs  company related 'post-commit' tasks
+		// Code that performs company related 'post-commit' tasks
 	end;
 }
 ```
 > [!TIP]
-> Use the shortcuts `tcodunit`and `ttrigger` to create the basic structure for the codeunit and trigger.
+> Use the shortcuts `tcodunit` and `ttrigger` to create the basic structure for the codeunit and trigger.
 
 ### Get information about an extension
 Each extension version has a set of properties that contain information about the extension, including: AppVersion, DataVersion, Dependencies, Id, Name, and Publisher. This information can be useful when upgrading. For example, one of the more important properties is the `DataVersion` property, which tells you what version of data you are dealing with. These properties are encapsulated in a `ModuleInfo` data type. You can access these properties through `NAVApp.GetCurrentModuleInfo()` and `NAVAPP.GetCurrentModuleInfo()` methods.
