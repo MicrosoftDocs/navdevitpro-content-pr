@@ -71,7 +71,30 @@ To get quickly get started, let's use the HelloWorld example that comes with the
 
 1. Create a new .al file, called **RewardsCard.al**.
 2. Use the **tpage** snippet to fill in the structure of the page object. There are two snippets; in this case choose the **Page of type card** option.
-3. 
+3. In the **RewardsCard**, add the following lines of code:  
+    ``` <!-- write as code in file, check -->
+
+    pageId = 50101;
+    pageName = "Reward Card";
+    tableName = Reward;
+    groupName = General;
+    ```
+4. Now, add the following fields:
+    ```
+    field("Reward Id";"Reward ID")
+                {
+                    ApplicationArea = All;
+                }
+                field(Description;Description)
+                {
+                    ApplicationArea = All;
+                }
+                field("Discount Percentage";"Discount Percentage")
+                {
+                    ApplicationArea = All;
+                }
+
+    ```
 
 
     
