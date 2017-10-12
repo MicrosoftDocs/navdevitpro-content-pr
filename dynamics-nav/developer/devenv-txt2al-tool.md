@@ -39,7 +39,7 @@ To run the Txt2Al conversion tool, follow the steps outlined below.
 
 |Parameter   |Description|
 |------------|-----------|
-|--source=Path |Required. The path of the directory containing the TXT files.|
+|--source=Path |Required. The path of the directory containing the .delta  files.|
 |--target=Path |Required. The path of the directory into which the converted AL files will be placed.|
 |--rename |Rename the output files to prevent clashes with the source .txt files.|
 |--type=ObjectType |The type of object to convert. Allowed values: Codeunit, Table, Page, Report, Query, XmlPort|

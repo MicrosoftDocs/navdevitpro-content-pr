@@ -1,6 +1,6 @@
 ---
-title: G/L Entry resource type | Microsoft Docs
-description: A G/L entry.
+title: generalLedgerEntries resource type | Microsoft Docs
+description: A general ledger entry in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,14 +14,14 @@ ms.date: 03/16/2017
 ms.author: solsen
 ---
 
-# G/L entry resource type
+# generalLedgerEntries resource type
 Represents a generalLedgerEntry object in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:-------------|:-------------|:----------|
-|[GET generalLedgerEntries](../api/dynamics_get_generalLedgerEntries.md)|generalLedgerEntries|Get G/L Entry object.|
+|[GET generalLedgerEntries](../api/dynamics_generalledgerentries_get.md)|generalLedgerEntries|Get a G/L entry object.|
 
 ## Properties
 | Property	         | Type	                 |Description                                  |

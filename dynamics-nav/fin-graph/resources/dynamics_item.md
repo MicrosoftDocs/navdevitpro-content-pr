@@ -1,6 +1,6 @@
 ---
-title: item resource type | Microsoft Docs
-description: An item.
+title: items resource type | Microsoft Docs
+description: An item object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# item resource type
+# items resource type
 Represents an item in Dynamics 365 for Financials.
 
 ## Methods
 
 | Method                                      |Return Type|Description |
 |:--------------------------------------------|:----------|:-----------|
-|[GET item](../api/dynamics_get_item.md)      |item       |Get item.   |
-|[POST item](../api/dynamics_create_item.md)  |item       |Create item.|
-|[PATCH item](../api/dynamics_update_item.md) |item       |Update item.|
-|[DELETE item](../api/dynamics_delete_item.md)|none       |Delete item.|
+|[GET items](../api/dynamics_item_get.md)      |items     |Gets an item object.   |
+|[POST items](../api/dynamics_create_item.md)  |items     |Creates an item object.|
+|[PATCH item](../api/dynamics_item_update.md)  |items     |Updates an item object.|
+|[DELETE items](../api/dynamics_item_delete.md)|none      |Deletes an item object.|
 
 ## Properties
 | Property	         | Type	|Description                                          |
@@ -35,9 +35,9 @@ Represents an item in Dynamics 365 for Financials.
 |type                |numeric |The inventory type for the item. 1 = inventory item, 2 = service item. This is a required property.|
 |blocked             |boolean |Specifies that transactions with the item cannot be posted, for example, because the item is in quarantine. Set to **true**, if item is blocked.|
 |baseUnitOfMeasureId |GUID    |Specifies the ID of the unit of measure.             |
-|baseUnitOfMeasure   |[NAV.UnitOfMeasure](../resources/dynamics_complex_types.md)|Specifies the unit in which the item is held in inventory.|
+|baseUnitOfMeasure   |[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|Specifies the unit in which the item is held in inventory.|
 |gtin                |numeric |This is the Global Trade Item Number.                |
-|itemCategory        |[NAV.ItemCategory](../resources/dynamics_complex_types.md)|Specifies the category that the item belongs to. Item categories also contain any assigned item attributes.|
+|itemCategory        |[NAV.ItemCategory](../resources/dynamics_complextypes.md)|Specifies the category that the item belongs to. Item categories also contain any assigned item attributes.|
 |inventory           |decimal |Specifies how many units, such as pieces, boxes, or cans, of the item are in inventory. Read-Only.|
 |unitPrice           |decimal |Specifies the price for one unit of the item in the specified currency.|
 |priceIncludesTax    |boolean |Specifies that the unitPrice includes tax. Set to **true**, if unitPrice includes tax.|

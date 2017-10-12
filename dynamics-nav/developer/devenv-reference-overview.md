@@ -1,9 +1,9 @@
 ---
-title: "Developer Reference"
-description: "Overview of the objects."
+title: "Development Environment"
+description: "Overview of the objects in the AL Language development environment."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 10/11/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

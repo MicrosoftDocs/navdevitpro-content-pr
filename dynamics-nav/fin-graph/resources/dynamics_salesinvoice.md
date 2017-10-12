@@ -1,6 +1,6 @@
 ---
-title: salesInvoice resource type | Microsoft Docs
-description: A Sales Invoice.
+title: salesInvoices resource type | Microsoft Docs
+description: A sales invoice object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# salesInvoice resource type
+# salesInvoices resource type
 Represents a sales invoice in Dynamics 365 for Financials. 
 
 ## Methods
 
-| Method                                                       | Return Type |Description                  |
-|:-------------------------------------------------------------|:------------|:----------------------------|
-|[GET Sales Invoice](../api/dynamics_get_salesinvoice.md)      |Sales Invoice|Get a Sales Invoice object   |
-|[POST Sales Invoice](../api/dynamics_create_salesinvoice.md)  |Sales Invoice|Create a Sales Invoice object|
-|[PATCH Sales Invoice](../api/dynamics_update_salesinvoice.md) |Sales Invoice|Update a Sales Invoice object|
-|[DELETE Sales Invoice](../api/dynamics_delete_salesinvoice.md)|none         |Delete a Sales Invoice object|
+| Method                                                       | Return Type |Description                    |
+|:-------------------------------------------------------------|:------------|:------------------------------|
+|[GET salesInvoices](../api/dynamics_salesinvoice_get.md)      |salesInvoices|Gets a sales invoice object.   |
+|[POST salesInvoices](../api/dynamics_create_salesinvoice.md)  |salesInvoices|Creates a sales invoice object.|
+|[PATCH salesInvoices](../api/dynamics_salesinvoice_update.md) |salesInvoices|Updates a sales invoice object.|
+|[DELETE salesInvoices](../api/dynamics_salesinvoice_delete.md)|none         |Deletes a sales invoice object.|
 
 ## Properties
 | Property	            | Type	|Description                                                |

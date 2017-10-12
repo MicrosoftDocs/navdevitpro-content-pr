@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: "dynamics365-financials"
 ms.assetid: cea1b445-58fe-4c4d-9843-7700e64bb46f
 caps.latest.revision: 8
-author: jswymer
+author: SusanneWindfeldPedersen
 ---
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
@@ -279,6 +279,7 @@ A repetitive statement is also known as a loop. The following table shows the lo
 |Looping mechanism|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-----------------------|---------------------------------------|  
 |for|Repeats the inner statement until a counter variable equals the maximum or minimum value specified.|  
+|foreach|Repeats the inner statement for each statement in a List, XmlNodeList, XmlAttributeCollection, or JsonArray.|
 |while|Repeats the inner statement as long as the specified condition is **true**. The statement in a loop of this kind is repeated 0 or more times.|  
 |repeat|Repeats the inner statements until the specified conditions evaluate to **true**. The statements in a loop of this kind are always executed at least one time.|  
 
@@ -347,6 +348,27 @@ var
   J : Integer;
 ```  
 
+### Foreach control structure
+You can use the foreach statement to iterate through List, XmlNodeList, XmlAttributeCollection, and JsonArray expressions.
+The foreach statement has the following syntax.
+
+```  
+foreach <Element> in <List> do
+  <Statement>  
+```  
+The *`<List>`* variable must be of the List, XmlNodeList, XmlAttributeCollection, or JsonArray type. The *`<Element>`* variable must be a data type that is compatible with elements specified by the *`<List>`*.  
+
+The following code example iterates through a list of customer names and returns each customer name in a message.
+```  
+procedure PrintCustomerNames(customerNames : List of [Text]);
+var
+  customerName : Text;
+begin
+  foreach customerName in customerNames do
+    message(customerName);
+end;
+
+```  
 
 ### While-do control structure  
  The following syntax shows the while-do statement.  
