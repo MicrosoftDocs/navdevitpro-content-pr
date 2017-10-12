@@ -41,7 +41,7 @@ This topic describes how to install and configure Internet Information Service \
 > [!TIP]  
 >  Instead of manually installing IIS, you can use the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard to install and enable the IIS features. For more information, see [Using Microsoft Dynamics NAV Setup to Install IIS Features](Using-Microsoft-Dynamics-NAV-Setup-to-Install-IIS-Features.md).  
   
-#### To install IIS features on Windows 8, Windows 8.1, and Windows 10  
+#### To install IIS features on Windows 7, 8, 8.1, and 10  
   
 1.  On the **Start** page, choose **Control Panel**, and then choose **Programs**.  
   

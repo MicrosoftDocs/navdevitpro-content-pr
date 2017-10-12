@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 8079f309-e5ca-4d23-a6b9-412892a565ad
 caps.latest.revision: 23
-manager: edupont
+author: jswymer
 ---
 # How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client
 We recommend that you secure [!INCLUDE[navnow](includes/navnow_md.md)] data that is transmitted over the Internet by enabling Secure Sockets Layer \(SSL\) on the connection to [!INCLUDE[nav_web](includes/nav_web_md.md)].  
@@ -27,7 +27,7 @@ We recommend that you secure [!INCLUDE[navnow](includes/navnow_md.md)] data that
 > [!NOTE]  
 >  You can configure SSL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] when you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. For more information, see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).  
   
-##  <a name="Cert"></a> Obtaining and Installinf an SSL Certificate  
+##  <a name="Cert"></a> Obtaining and Installing an SSL Certificate  
  In a production environment, you should obtain an SSL certificate from a certification authority. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third-party organization. In a test environment or development environment, you can create your own self-signed certificate.  
   
 ### To create a self-signed SSL certificate  
