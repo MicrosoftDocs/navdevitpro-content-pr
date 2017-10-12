@@ -149,6 +149,10 @@ The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] require a supporte
 
      **http://ComputerName:PortNumber/[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]**  
 
+    Or for [!INCLUDE[nav2017](includes/nav2017.md)]:
+    
+    **http://ComputerName:PortNumber/dynamicsnav100/webclient**
+
     -   Substitute **ComputerName** with the name of the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. If you are working on the computer where you installed [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], then you can use **localhost**.  
 
     -   Substitute **PortNumber** with the port that you configured for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] during Setup.  
@@ -157,7 +161,11 @@ The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] require a supporte
 
      For example, if the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on port 8080 and the computer has the name NavWeb, then you can use the following URL:  
 
-     **http://NavWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]**  
+     **http://NavWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]** 
+
+     or:
+    
+    **http://NavWeb:8080//dynamicsnav100/webclient**
 
 ### Troubleshooting  
  If you are cannot connect the [!INCLUDE[nav_web](includes/nav_web_md.md)] or you are experiencing problems, see [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md).  

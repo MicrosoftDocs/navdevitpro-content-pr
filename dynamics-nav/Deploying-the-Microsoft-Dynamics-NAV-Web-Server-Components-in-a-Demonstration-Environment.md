@@ -127,7 +127,9 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 -   To open the [!INCLUDE[nav_web](includes/nav_web_md.md)] from other devices on the network, open an Internet browser, and type the following URL in the address box:  
 
     http://ComputerName:PortNumber/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]  
-      
+    Or for [!INCLUDE[nav2017](includes/nav2017.md)]:
+    
+    http://ComputerName:PortNumber/dynamicsnav100/webclient
 
     -   Substitute **ComputerName** with the name of the computer where you installed [!INCLUDE[navnow](includes/navnow_md.md)]. If you are working on the computer where you installed [!INCLUDE[navnow](includes/navnow_md.md)], then you can use **localhost**.  
 
