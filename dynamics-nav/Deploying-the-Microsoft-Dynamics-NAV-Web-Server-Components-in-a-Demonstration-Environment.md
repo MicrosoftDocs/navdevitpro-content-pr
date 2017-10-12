@@ -80,7 +80,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
     -   [!INCLUDE[navnow](includes/navnow_md.md)] Setup will create a website on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. During Setup, you will have to choose the port to use for the site. The default port that is used in [!INCLUDE[navnow](includes/navnow_md.md)] Setup is port 8080. If you are not sure of which port to use, then use the default port. 
 
-    -    With most of the supported Windows operating systems, an inbound rule will automatically be added in Windows Firewall to allow communication on the port. However, if your computer is running Windows 8.0 or 8.1. then you have to manually create an inbound rule. For information about see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create-an-Inbound-Rule-in-Windows-Firewall-for-the-Port-of-Microsoft-Dynamics-NAV-Web-Client.md).  
+    -    With most of the supported Windows operating systems, an inbound rule will automatically be added in Windows Firewall to allow communication on the port. However, if your computer is running Windows 7, 8.0, or 8.1, then you have to manually create an inbound rule. For information about see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create-an-Inbound-Rule-in-Windows-Firewall-for-the-Port-of-Microsoft-Dynamics-NAV-Web-Client.md).  
 
 
 ### Run [!INCLUDE[navnow](includes/navnow_md.md)] Setup  
