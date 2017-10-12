@@ -14,10 +14,11 @@ manager: edupont
 # TaskScheduler Data Type
 The TaskScheduler data type is a complex data type for creating and managing tasks in the task scheduler, which runs codeunits at scheduled times.  
 
- For more information about the task scheduler, see [Task Scheduler](Task-Scheduler.md).  
+For more information about the task scheduler, see [Task Scheduler](Task-Scheduler.md).  
 
 ## See Also  
- [CANCELTASK Function](CANCELTASK-Function.md)   
+ [CANCELTASK Function](CANCELTASK-Function.md)  
+ [CANCREATETASK Function](CANCREATETASK-Function.md)  
  [CREATETASK Function](CREATETASK-Function.md)   
  [SETTASKREADY Function](SETTASKREADY-Function.md)   
  [TASKEXISTS Function](TASKEXISTS-Function.md)
