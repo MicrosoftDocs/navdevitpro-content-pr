@@ -89,7 +89,7 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
  For more information about the [!INCLUDE[nav_web](includes/nav_web_md.md)] installation on IIS, see [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md).
 
-15. If [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on Windows 8.0 or 8.1, create an inbound rule in the Windows Firewall to allow communication on the TCP port that you chose during Setup. 
+15. If [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on Windows 7, 8, or 8.1 create an inbound rule in the Windows Firewall to allow communication on the TCP port that you chose during Setup. 
 
     For more information, see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create-an-Inbound-Rule-in-Windows-Firewall-for-the-Port-of-Microsoft-Dynamics-NAV-Web-Client.md). 
 
@@ -100,7 +100,15 @@ From the computer on which you installed the [!INCLUDE[nav_web_server](includes/
 
 -   Choose **Start**, in the **Search** box, type **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client**, and then choose the related link  
 
--   Open a web browser, and then in the address box, type `http://localhost:port/Service Name`. Replace `port` and `Service Name` with that values that you chose during Setup. For example, the address with the default installation is:
+-   Open a web browser, and then in the address box, type:
+
+    `http://localhost:port/ServiceName`
+    
+    Or for [!INCLUDE[nav2017](includes/nav2017.md)]:
+    
+    `http://localhost:port/webclient`
+
+    Replace `port` and `ServiceName` with that values that you chose during Setup. For example, the address with the default installation is:
     
     http://localhost:8080/[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]
 
