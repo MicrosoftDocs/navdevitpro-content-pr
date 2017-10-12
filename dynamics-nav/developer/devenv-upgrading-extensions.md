@@ -17,7 +17,7 @@ This article provides information about how to make a newer version of extension
 > An *upgrade* is defined as enabling an extension that has a greater version number, as defined in the app.json file, than the current installed extension version. 
 
 ## Developing an extension for upgrading
-When developing a new extension version, you must consider to the data from the previous version, and any modifications that must be applied to the data to make it compatible with the current version. For example, it could be that the new version adds a new field that needs default values set for existing records or the new version adds new tables that must be linked to existing records. To address this type of data handling, you have to a write upgrade code for the extension version.
+When developing a new extension version, you must consider to the data from the previous version, and any modifications that must be applied to the data to make it compatible with the current version. For example, it could be that the new version adds a new field that needs default values set for existing records or the new version adds new tables that must be linked to existing records. To address this type of data handling, you must write upgrade code for the extension version.
 
 If there are no data changes between the versions of your extension, then you do not need to write upgrade code. All data that is not modified by upgrade code will automatically be restored. 
 
@@ -121,3 +121,4 @@ To upgrade to the new extension version, you use the Sync-NAVApp and Start-NAVAp
 [Developing Extensions](devenv-dev-overview.md)  
 [Getting Started](devenv-get-started.md) 
 [How to: Publish and Install an Extension](devenv-how-publish-and-install-an-extension-v2.md)  
+[Converting Extensions V1 to Extensions V2](devenv-upgrade-v1-to-v2-overview.md)  

@@ -14,7 +14,7 @@ ms.author: jswymer
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-# Converting Extensions V1 to Extensions V2 Overview
+# Converting Extensions V1 to Extensions V2
 Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behavior of the solution. This article explains the steps involved in converting V1 extensions, written in C/SIDE. to V2 extensions; written using the AL Language extension for Visual Studio Code. The overall steps for the conversion are:
 
 1.  Convert the source code from C/AL to the AL syntax.
@@ -35,7 +35,7 @@ You might run into compilation errors, which can typically be caused by:
 
 -   Object IDs that have changed. The conversion tool tries to convert your code into the object ID range allowed for Extensions V2.
 -   Field or control names look different; the AL syntax requires names, this means that no empty or default names are allowed.
--   Menusuites do not exist in Extensions V2.
+-   Menu suites do not exist in Extensions V2.
 -   .NET references are not allowed; there is no support for .NET types. Instead you must use the classes that replace .NET calls. For more information, see [Reference](devenv-reference-overview.md).
 
 > [!IMPORTANT]
@@ -53,12 +53,12 @@ Just like with V1 extensions, you have to write code to handle data in tables du
 
     |Trigger |Description |
     |--------|------------|
-    |OnCheckPreconditionsPerCompany() or OnCheckPreconditionsPerDatabase()| Used to check that certain requirements are met in order for to run.|
+    |OnCheckPreconditionsPerCompany() or OnCheckPreconditionsPerDatabase()| Used to check that certain requirements are met in order to run.|
     |OnUpgradePerCompany() or OnUpgradePerDatabase()|Used to run the actual upgrade work| 
     |OnValidateUpgradePerCompany() or OnValidateUpgradePerDatabase()|Used to check that the upgrade was successful|
     |OnAfterUpgradeCommitPerCompany() or OnAfterUpgradeCommitPerDatabase()|Used to perform post-upgrade tasks|
 
-However, for this one-time conversion, all of the same **NAVAPP** system methods you used in V1 extensions work with V2 extensions, and can be called from any of the upgrade triggers. 
+However, for this one-time conversion, all of the same **NAVAPP** system methods you used in V1 extensions work with V2 extensions and can be called from any of the upgrade triggers. 
 
 |Method |Description |
 |--------|------------|
@@ -67,10 +67,10 @@ However, for this one-time conversion, all of the same **NAVAPP** system methods
 |`archVersion := NAVAPP.GetArchiveVersion()`|Gets the version of the archived data from the old extension.|
 |`NAVAPP.RestoreArchiveData(70000000)`|Restores the data from the archive of table 70000000.|
  
-By using these methods, you can restore or move all of your data from the old V1 extension into the new V2 by running an upgrade.
+By using these methods, you can restore or move all your data from the old V1 extension into the new V2 by running an upgrade.
 
 > [!IMPORTANT]
-> In order to use `NAVAPP.RestoreArchiveData()`, you must not change the IDs of the tables that are being restored; this means that tables from your V1 extension must have the same IDs in the V2 extensions. 
+> To use `NAVAPP.RestoreArchiveData()`, you must not change the IDs of the tables that are being restored; this means that tables from your V1 extension must have the same IDs in the V2 extensions. 
 
 ### Example
 This code illustrates a simple upgrade codeunit for restoring the V1 extension data for extension table `70000000`. 
