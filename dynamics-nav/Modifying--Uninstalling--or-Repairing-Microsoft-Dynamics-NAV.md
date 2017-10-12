@@ -51,9 +51,9 @@ If you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup on a computer
  If you have installed SQL Server with the guidelines in [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md), then SQL Server Management Studio is already installed on your computer. Otherwise, update your SQL Server installation to include the **Management Tools - Complete** option for SQL Server.  
   
 ### With SQL Server Express  
- If you did not have SQL Server on your computer when you installed the demo database, then [!INCLUDE[navnow](includes/navnow_md.md)] Setup installed SQL Server 2012 Express Edition to host the database. To remove the demo database, follow these steps:  
+ If you did not have SQL Server on your computer when you installed the demo database, then [!INCLUDE[navnow](includes/navnow_md.md)] Setup installed SQL Server 2016 Express Edition to host the database. To remove the demo database, follow these steps:  
   
-1.  From the Microsoft Download Center, download and install [Microsoft SQL Server 2012 Management Studio Express](http://go.microsoft.com/fwlink/?LinkId=140351).  
+1.  Download and install [Microsoft SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms).  
   
 2.  Use SQL Server Management Studio Express to remove the [!INCLUDE[navnow](includes/navnow_md.md)] demo database, which is called **Demo Database \(7-1\)**. By default, the database is installed to the **NAVDEMO** SQL Server instance.  
   
