@@ -13,7 +13,7 @@ ms.assetid: 014e3285-02be-459c-9a54-eae45ea71e04
 
 ---
 # System Requirements for Microsoft Dynamics NAV TENERIFE
-The following sections list the specifications of minimum hardware and software requirements to install and run [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. **Minimum** means that later versions \(such as SP1, SP2, or R2 versions\) of a required software product are also supported.  
+The following sections list the minimum hardware and software requirements to install and run [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. **Minimum** means that later versions \(such as SP1, SP2, or R2 versions\) of a required software product are also supported.  
 
 **Client components**  
 
