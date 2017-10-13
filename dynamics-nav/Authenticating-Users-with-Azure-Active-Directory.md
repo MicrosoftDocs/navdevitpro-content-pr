@@ -7,8 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 24c99ff5-7c54-408c-94ff-13a151384b3f
-caps.latest.revision: 17
+author: jswymer
 ---
 # Authenticating Users with Azure Active Directory
 Azure Active Directory \(Azure AD\) is a cloud service that provides identity and access capabilities, such as for applications on Microsoft Azure, Microsoft Office 365, and for applications that install on-premises. If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured to use the AccessControlService credential type, you can associate the [!INCLUDE[navnow](includes/navnow_md.md)] user accounts with Azure AD accounts that users use to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_windows](includes/nav_windows_md.md)], Office 365, and SharePoint.  
@@ -40,7 +39,7 @@ Azure Active Directory \(Azure AD\) is a cloud service that provides identity an
 |-----------------|---------------------------------|---------------------------------------|
 |Name|The name of your application as it will display to your users, such as **Financial App by Solutions**.|
 |Type|Choose **Web application and/or web app**.|
-|Sign-on URL (App URL)|The URI for signing on to the [!INCLUDE[nav_web](includes/nav_web_md.md)], such as ```https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/```.|
+|Sign-on URL (App URL)|The URI for signing on to the [!INCLUDE[nav_web](includes/nav_web_md.md)], such as ```https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV``` or ```https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/``` (for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions).|
 |App ID URI|The URI to a domain in your Azure AD tenant, such as **https://CRONUSInternationLtd.onmicrosoft.com/Financials**. <BR /><BR />**Important:**  The App ID URI must be unique within the Azure AD tenant. However, if you want to share your [!INCLUDE[navnow](includes/navnow_md.md)] solution with other Azure AD tenants, the App ID URI must be unique in Azure AD. <br /><br /> This URI is appended to the **WS-Federation Login Endpoint** setting in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration and **ACSURI** setting in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] configuration. Additionally, in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration, it must be specified in the **Azure AD App ID URI** setting for SOAP and OData web services.|
 |Directory Access|Choose **Single Sign-On**.|
 |Reply URL|Add a reply URL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] and the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The reply URL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] is the same as the Sign-on URL. The reply URL for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is the URL for opening the client, such as ```https://dynamicsnavwinclient/```.|
@@ -75,8 +74,10 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
 	Example:
 
 	```
-    https://login.windows.net/CRONUSInternationLtd.onmicrosoft.com/wsfed?wa=wsignin1.0%26wtrealm=https://CRONUSInternationLtd.onmicrosoft.com/Financials%26wreply=https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/SignIn.aspx
+    https://login.windows.net/CRONUSInternationLtd.onmicrosoft.com/wsfed?wa=wsignin1.0%26wtrealm=https://CRONUSInternationLtd.onmicrosoft.com/Financials%26wreply=https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/SignIn.aspx
     ```
+
+    (For [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions, include `/WebClient`after `/DynamicsNAV`.)
 
 	Description:
 
@@ -88,7 +89,7 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
 
 	[APP ID URI] is the ID that was assigned to the [!INCLUDE[navnow](includes/navnow_md.md)] application when it was registered in Azure AD, for example ```https://localhost/``` or ```https://CRONUSInternationLtd.onmicrosoft.com/Financials```.
 
-	[APP REPLY URL] is the reply URL that was assigned to the [!INCLUDE[navnow](includes/navnow_md.md)] application when it was registered in the Azure AD tenant. This parameter must point to the SignIn.aspx page of the [!INCLUDE[nav_web](includes/nav_web_md.md)], which in most cases, this is the same as the **Sign-On URL** for the application. For example, ```https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/SignIn.aspx```. The wreply parameter is optional. The wreply query parameter tells the Azure AD authentication service where to send the authentication token. If you do not specify the wreply parameter, it will be deducted from the URL in the browser.
+	[APP REPLY URL] is the reply URL that was assigned to the [!INCLUDE[navnow](includes/navnow_md.md)] application when it was registered in the Azure AD tenant. This parameter must point to the SignIn.aspx page of the [!INCLUDE[nav_web](includes/nav_web_md.md)], which in most cases, this is the same as the **Sign-On URL** for the application. For example, ```https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/SignIn.aspx``` or ```https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/SignIn.aspx``` (for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions). The wreply parameter is optional. The wreply query parameter tells the Azure AD authentication service where to send the authentication token. If you do not specify the wreply parameter, it will be deducted from the URL in the browser.
 
   >[!IMPORTANT]
   >The query string parameter must be URI-encoded. This means, for example, use "%26" instead of "&".

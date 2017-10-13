@@ -62,7 +62,7 @@ This example returns information about Microsoft Dynamics NAV users.
 
 ### EXAMPLE 2
 ```
-Get-NAVServerUser DynamicsNAV90 -Tenant "Tenant1"
+Get-NAVServerUser DynamicsNAV110 -Tenant "Tenant1"
 
 User Security ID         : b5013678-36e5-4469-8f07-dcc453fed66f
 User Name                : MyDomain_x005C_User1

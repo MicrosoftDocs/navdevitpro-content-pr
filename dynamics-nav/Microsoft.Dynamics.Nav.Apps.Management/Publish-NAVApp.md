@@ -45,7 +45,7 @@ Publish-NAVApp -ServerInstance DynamicsNAV91 -Path '.\Proseware SmartApp.navx' -
 
           Name                  Publisher              Version                   ServerInstance
           ----                  ---------              -------                   --------------
-          Proseware SmartApp    Proseware, Inc.        2.3.4.500                 DynamicsNAV90
+          Proseware SmartApp    Proseware, Inc.        2.3.4.500                 DynamicsNAV110
 ```
 
 This example publishes the Extension from the Proseware SmartApp.navx package to the DynamicsNAV91 server instance and then returns an Extension object.

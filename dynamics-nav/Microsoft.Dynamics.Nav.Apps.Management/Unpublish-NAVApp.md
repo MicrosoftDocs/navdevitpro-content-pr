@@ -101,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerInstance
-Specifies the Microsoft Dynamics NAV Server instance that the NAV App will be unpublished from, such as DynamicsNAV90.
+Specifies the Microsoft Dynamics NAV Server instance that the NAV App will be unpublished from, such as DynamicsNAV110.
 
 ```yaml
 Type: String

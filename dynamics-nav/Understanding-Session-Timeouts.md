@@ -37,7 +37,7 @@ When you start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCL
 |-------------|-----------------|-------------|  
 |SessionTimeout|Specifies the amount of time that session remains open when there is no activity over the connection from the [!INCLUDE[nav_web](includes/nav_web_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)].|For more information, see [Configuring How Long a Session Remains Open When the Client Connection is Inactive](Understanding-Session-Timeouts.md#InactiveSession).|  
 
- This setting is available in the web.config file of Dynamics Web Server for the client. For more information about this file, see [Configuring the Microsoft Dynamics NAV Web Server and Client](Configuring-the-Microsoft-Dynamics-NAV-Web-Server-and-Client.md).  
+ This setting is available in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] of Dynamics Web Server for the client. For more information about this file, see [Configuring the Microsoft Dynamics NAV Web Server and Client](Configuring-the-Microsoft-Dynamics-NAV-Web-Server-and-Client.md).  
 
 ##  <a name="InactiveSession"></a> Configuring How Long a Session Remains Open When the Client Connection is Inactive  
  Inactivity on a connection is when the [!INCLUDE[navnow](includes/navnow_md.md)] client is not sending messages to [!INCLUDE[nav_server](includes/nav_server_md.md)]. Controlling when a session will timeout and close because of inactivity is different for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)].  

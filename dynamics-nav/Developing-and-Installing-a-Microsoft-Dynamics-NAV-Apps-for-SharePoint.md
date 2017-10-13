@@ -11,6 +11,8 @@ ms.assetid: 0ac8f2ec-63ba-443b-985b-2b4ee0a01f7e
 caps.latest.revision: 26
 ---
 # Developing and Installing a Microsoft Dynamics NAV Apps for SharePoint
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. For earlier versions, see[Developing and Installing a Microsoft Dynamics NAV Apps for SharePoint](Developing-and-Installing-a-Microsoft-Dynamics-NAV-Apps-for-SharePoint-2017.md)
+
 If you set up a SharePoint site using SharePoint Online or SharePoint on-premises, you can embed [!INCLUDE[navnow](includes/navnow_md.md)] in an app on the site. You can create an app that opens [!INCLUDE[nav_web](includes/nav_web_md.md)] in a new browser tab, and you can display [!INCLUDE[navnow](includes/navnow_md.md)] data in hosted app parts in the SharePoint site. Building and deploying apps for SharePoint requires that you create the app in Visual Studio and add it to the SharePoint site. After you have built your app, you can make it available to other sites, such as subsites in your site collection. For example, if you provide financial services to several customers, you can set up a site collection with a subsite for each subscriber. You can then create and deploy an app for SharePoint that displays each subscriber’s [!INCLUDE[navnow](includes/navnow_md.md)] data in their SharePoint site. You can create an app for SharePoint that will display different pages in [!INCLUDE[nav_web](includes/nav_web_md.md)] as hosted app parts.  
 
 This topic describes the overall configuration of an app for SharePoint that uses [!INCLUDE[navnow](includes/navnow_md.md)] data with examples of what you are likely to have to do.  
@@ -88,7 +90,7 @@ After you create the app, you modify settings in the app manifest for the app, w
 
     |Element|Description|  
     |-------------|-----------------|  
-    |`StartPage`|Set this element to the URL of the [!INCLUDE[nav_web](includes/nav_web_md.md)] and append the URL with the *{StandardTokens}* parameter. For example, if the URL of the [!INCLUDE[nav_web](includes/nav_web_md.md)] is *https://www.solutions.com/DynamicsNAV/WebClient*, then set the element to *https://www.solutions.com/DynamicsNAV/WebClient/?{StandardTokens}*.<br /><br /> If the [!INCLUDE[nav_web](includes/nav_web_md.md)] is deployed in a multitenant environment, then include the *tenant* parameter in the URL to specify which tenants the app applies to. You can configure that app to apply to a specific tenant or all tenants as follows:<br /><br /> -   To apply the app to a specific tenant only, set the *tenant* parameter to the ID of the tenant, such as *https://www.solutions.com/DynamicsNAV/WebClient/?tenant=tenant1*. In this example, the tenant ID is *tenant1*. The value of the tenant parameter must be included in tenant's list of alternative IDs.<br />     Alternatively, if you have configured the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to accept host names, you can specify the host name in the URL. For more information, see [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](How-to--Configure-the-Microsoft-Dynamics-NAV-Web-client-to-Accept-Host-Names-for-Tenants.md).<br />-   To apply the app to all tenants, set the tenant parameter to *{HostUrl}*, such as *https://www.solutions.com/DynamicsNAV/WebClient/?tenant={HostUrl}* .<br />     When the app accesses the [!INCLUDE[nav_web](includes/nav_web_md.md)], *HostUrl* is automatically replaced by the SharePoint site address where the app is installed. Because the SharePoint site is tenant-specific, this parameter identifies the tenant.<br />     You must include all SharePoint site addresses that can access a tenant in the tenant's list of alternative IDs. **Note:**  For more information about how to set alternate IDs for tenants, see [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](How-to--Mount-or-Dismount-a-Tenant-on-a-Microsoft-Dynamics-Server-Instance.md).|  
+    |`StartPage`|Set this element to the URL of the [!INCLUDE[nav_web](includes/nav_web_md.md)] and append the URL with the *{StandardTokens}* parameter. For example, if the URL of the [!INCLUDE[nav_web](includes/nav_web_md.md)] is *https://www.solutions.com/DynamicsNAV*, then set the element to *https://www.solutions.com/DynamicsNAV?{StandardTokens}*.<br /><br /> If the [!INCLUDE[nav_web](includes/nav_web_md.md)] is deployed in a multitenant environment, then include the *tenant* parameter in the URL to specify which tenants the app applies to. You can configure that app to apply to a specific tenant or all tenants as follows:<br /><br /> -   To apply the app to a specific tenant only, set the *tenant* parameter to the ID of the tenant, such as *https://www.solutions.com/DynamicsNAV?tenant=tenant1*. In this example, the tenant ID is *tenant1*. The value of the tenant parameter must be included in tenant's list of alternative IDs.<br />     Alternatively, if you have configured the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to accept host names, you can specify the host name in the URL. For more information, see [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](How-to--Configure-the-Microsoft-Dynamics-NAV-Web-client-to-Accept-Host-Names-for-Tenants.md).<br />-   To apply the app to all tenants, set the tenant parameter to *{HostUrl}*, such as *https://www.solutions.com/DynamicsNAV/?tenant={HostUrl}* .<br />     When the app accesses the [!INCLUDE[nav_web](includes/nav_web_md.md)], *HostUrl* is automatically replaced by the SharePoint site address where the app is installed. Because the SharePoint site is tenant-specific, this parameter identifies the tenant.<br />     You must include all SharePoint site addresses that can access a tenant in the tenant's list of alternative IDs. **Note:**  For more information about how to set alternate IDs for tenants, see [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](How-to--Mount-or-Dismount-a-Tenant-on-a-Microsoft-Dynamics-Server-Instance.md).|  
     |`RemoteWebApplication`|Set the value of the *ClientId* parameter to App ID that was assigned when you registered the app.|  
 
      The following code example illustrates the content of an AppManifest.xml file:  
@@ -103,7 +105,7 @@ After you create the app, you modify settings in the app manifest for the app, w
     >  
       <Properties>  
         <Title>Financial App by Solutions</Title>  
-        <StartPage>https://www.solutions.com/DynamicsNAV/WebClient/?{StandardTokens}</StartPage>  
+        <StartPage>https://www.solutions.com/DynamicsNAV/?{StandardTokens}</StartPage>  
       </Properties>  
 
       <AppPrincipal>  
@@ -117,7 +119,7 @@ After you create the app, you modify settings in the app manifest for the app, w
 ### Adding Web Parts to the App  
 Optionally, you can add client web parts to the project and configure them to show specific [!INCLUDE[navnow](includes/navnow_md.md)] pages in [!INCLUDE[nav_web](includes/nav_web_md.md)]. This means that the [!INCLUDE[navnow](includes/navnow_md.md)] pages will display inside the SharePoint pages. When you create a client web part, you can specify URLs that display a page without displaying the ribbon or UI parts. As a result, the page will appear to be just another app part on the SharePoint site, but it is the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [Embedding Microsoft Dynamics NAV Web Client Pages in Other Websites](Embedding-Microsoft-Dynamics-NAV-Web-Client-Pages-in-Other-Websites.md)  
 
-To add web parts to the app, add an item of type **Client Web Part \(Host Web\)** to the project in Visual Studio. Specify that it must use an existing web page, and then specify use a URL such as **https://www.solutions.com/DynamicsNAV/WebClient/default.aspx?mode=View&isembedded=1&page=9301&shownavigation=0&showribbon=0&showuiparts=0&pagesize=7&SPHostUrl={HostUrl}**.  
+To add web parts to the app, add an item of type **Client Web Part \(Host Web\)** to the project in Visual Studio. Specify that it must use an existing web page, and then specify use a URL such as **https://www.solutions.com/DynamicsNAV/?mode=View&isembedded=1&page=9301&shownavigation=0&showribbon=0&showuiparts=0&pagesize=7&SPHostUrl={HostUrl}**.  
 
 You can choose to convert the query parameters of the URL into properties on the web part, which will enable you to configure the same web part differently when inserting it on different SharePoint pages. To do this, you modify the Elements.xml file for the web part. In the Elements.xml file, the `Src` attribute of the `Content` element specifies the URL of the page of the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For each parameter of the URL that you want to make a property, replace its value with a property name that has the format `_PropertyName_`, and then add a corresponding `Property` element in the `Properties` element. For example, the following code illustrates the content of the Elements.xml file for a web part for page 9301 of the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 
@@ -126,7 +128,7 @@ You can choose to convert the query parameters of the URL into properties on the
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
   <ClientWebPart Name="ListPart" Title="Microsoft Dynamics NAV List Part" Description="List from Microsoft Dynamics NAV" DefaultWidth="800" DefaultHeight="300" >  
 
-    <Content Type="html" Src="https://www.solutions.com/DynamicsNAV/WebClient/default.aspx?mode=View&isembedded=1&page=9301&shownavigation=0&showribbon=0&showuiparts=0&pagesize=7&SPHostUrl={HostUrl}" />  
+    <Content Type="html" Src="https://www.solutions.com/DynamicsNAV/?mode=View&isembedded=1&page=9301&shownavigation=0&showribbon=0&showuiparts=0&pagesize=7&SPHostUrl={HostUrl}" />  
 
     <Properties>  
     </Properties>  
@@ -141,7 +143,7 @@ The following code illustrates how to change the Elements.xml file to include pr
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
   <ClientWebPart Name="ListPart" Title="Microsoft Dynamics NAV List Part" Description="List from Microsoft Dynamics NAV" DefaultWidth="800" DefaultHeight="300" >  
 
-    <Content Type="html" Src="https://www.solutions.com/DynamicsNAV/WebClient/default.aspx?mode=View&isembedded=1&page=_PageId_&shownavigation=0&&pagesize=_PageSize_&SPHostUrl={HostUrl}" />  
+    <Content Type="html" Src="https://www.solutions.com/DynamicsNAV/?mode=View&isembedded=1&page=_PageId_&shownavigation=0&&pagesize=_PageSize_&SPHostUrl={HostUrl}" />  
 
     <Properties>  
         <Property  
