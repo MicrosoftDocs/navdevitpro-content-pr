@@ -1,8 +1,9 @@
 ---
-title: "System Requirements for Microsoft Dynamics NAV TENERIFE"
+title: System Requirements for Microsoft Dynamics NAV TENERIFE
+description: This article provides the specifications of minimum hardware and software requirements to install and run Microsoft Dynamics NAV 'TENERIFE'.
 author: edupont04
 ms.custom: na
-ms.date: 12/28/2016
+ms.date: 10/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
