@@ -23,7 +23,7 @@ Use the Remove-NAVServerPermissionSet cmdlet to remove a permission set from the
 
 ### EXAMPLE 1
 ```
-Remove-NAVServerPermissionSet DynamicsNAV90 -PermissionSetId AVOCADO
+Remove-NAVServerPermissionSet DynamicsNAV110 -PermissionSetId AVOCADO
 ```
 
 The example removes the AVOCADO permission set.

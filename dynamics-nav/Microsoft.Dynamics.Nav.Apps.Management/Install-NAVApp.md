@@ -70,7 +70,7 @@ This example installs the NAV App with the provided name and version on a single
 
 ### EXAMPLE 6
 ```
-Get-NAVTenant -ServerInstance DynamicsNAV | Install-NAVApp -ServerInstance DynamicsNAV90 -Name 'Proseware SmartApp' -Version 2.3.4.500
+Get-NAVTenant -ServerInstance DynamicsNAV | Install-NAVApp -ServerInstance DynamicsNAV110 -Name 'Proseware SmartApp' -Version 2.3.4.500
 ```
 
 This example installs the NAV App with the provided name and version to all tenants of the DynamicsNAV NAV server instance.

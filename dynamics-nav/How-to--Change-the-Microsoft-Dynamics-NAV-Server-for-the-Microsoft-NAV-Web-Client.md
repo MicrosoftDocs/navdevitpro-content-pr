@@ -12,7 +12,7 @@ caps.latest.revision: 15
 manager: edupont
 ---
 # How to: Change the Microsoft Dynamics NAV Server for the Microsoft NAV Web Client
-The [!INCLUDE[nav_server](includes/nav_server_md.md)] that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to is configured in the web.config file for the website that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. By default, [!INCLUDE[navnow](includes/navnow_md.md)] Setup configures the [!INCLUDE[nav_web](includes/nav_web_md.md)] to connect to the following [!INCLUDE[nav_server](includes/nav_server_md.md)] instance:  
+The [!INCLUDE[nav_server](includes/nav_server_md.md)] that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to is configured in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] for the website that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. By default, [!INCLUDE[navnow](includes/navnow_md.md)] Setup configures the [!INCLUDE[nav_web](includes/nav_web_md.md)] to connect to the following [!INCLUDE[nav_server](includes/nav_server_md.md)] instance:  
   
 -   Server name: localhost  
   
@@ -20,16 +20,16 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] that the [!INCLUDE[nav_web
   
 -   Client service port: 7046  
   
- To change the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance after you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you modify the web.config file.  
+ To change the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance after you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you modify the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].  
   
 ### To change the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance  
   
-1.  On the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open the web.config file for the web server instance of [!INCLUDE[nav_web](includes/nav_web_md.md)]. Use a text editor, such as Notepad.  
+1.  On the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] for the web server instance of [!INCLUDE[nav_web](includes/nav_web_md.md)]. Use a text editor, such as Notepad.  
   
-     The web.config file is located in the physical path of the virtual directory for the web server instance on Internet Information Services \(IIS\). By default, the path is *%systemroot%\\inetpub\\wwwroot\\\[VirtualDirectoryName\]*. For example, the folder for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] instance is %systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].  
+     The [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] is located in the physical path of the virtual directory for the web server instance on Internet Information Services \(IIS\). By default, the path is *%systemroot%\\inetpub\\wwwroot\\\[VirtualDirectoryName\]*. For example, the folder for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] instance is %systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].  
   
     > [!IMPORTANT]  
-    >  You must open the web.config file as an administrator or have permission to modify the file.  
+    >  You must open the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] as an administrator or have permission to modify the file.  
   
 2.  Locate the `<DynamicsNAVSettings>` element.  
   
@@ -41,7 +41,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] that the [!INCLUDE[nav_web
     |Server|Specifies the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].<br /><br /> Default value: localhost|  
     |ServerInstance|Specifies the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to.<br /><br /> For more information, see [Managing Microsoft Dynamics NAV Server Instances](Managing-Microsoft-Dynamics-NAV-Server-Instances.md).<br /><br /> Default value: [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]|  
   
-4.  Save the web.config file.  
+4.  Save the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].  
   
 ## See Also  
  [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)   

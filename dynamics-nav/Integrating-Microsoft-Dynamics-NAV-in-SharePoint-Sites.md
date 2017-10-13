@@ -7,8 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: bf55f101-a925-4b56-9968-c4607522f965
-caps.latest.revision: 24
+author: jswymer
 ---
 # Integrating Microsoft Dynamics NAV in SharePoint Sites
 You can set up [!INCLUDE[navnow](includes/navnow_md.md)] to be available as an app for SharePoint. This means that [!INCLUDE[navnow](includes/navnow_md.md)] data can be shown in a SharePoint site, and that you can modify the data on the SharePoint site through the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
@@ -42,11 +41,11 @@ You can set up [!INCLUDE[navnow](includes/navnow_md.md)] to be available as an a
 ### Apps for SharePoint and Multitenant Deployments of [!INCLUDE[navnow](includes/navnow_md.md)]  
  You can deploy [!INCLUDE[navnow](includes/navnow_md.md)] in a multitenant deployment architecture. When you create an app for SharePoint that will access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you must decide if you want to deploy the app for a specific tenant, or if the app can be used by all tenants that are mounted against a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. Then, in the app manifest for the app, you include a *tenant* parameter in start page URL according to the following:  
   
--   If you want the app to apply to a specific tenant only, then set the *tenant* parameter to the tenant ID, such as *https://www.solutions.com/DynamicsNAV/WebClient/?tenant=tenant1*. In this example, the tenant ID is *tenant1*. The value of the tenant parameter must be included in tenants list of alternative IDs.  
+-   If you want the app to apply to a specific tenant only, then set the *tenant* parameter to the tenant ID, such as *https://www.solutions.com/DynamicsNAV/?tenant=tenant1* or https://www.solutions.com/DynamicsNAV/WebClient/?tenant=tenant1* (for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions). In this example, the tenant ID is *tenant1*. The value of the tenant parameter must be included in tenants list of alternative IDs.  
   
      Alternatively, if you have configured the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to accept host names, you can specify the host name in the URL in the app manifest. For more information, see [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](How-to--Configure-the-Microsoft-Dynamics-NAV-Web-client-to-Accept-Host-Names-for-Tenants.md).  
   
--   If you want the app to apply to all tenants, then set the *tenant* parameter to *{HostUrl}*, such as *https://www.solutions.com/DynamicsNAV/WebClient/?tenant={HostUrl}*.  
+-   If you want the app to apply to all tenants, then set the *tenant* parameter to *{HostUrl}*, such as *https://www.solutions.com/DynamicsNAV/?tenant={HostUrl}* or *https://www.solutions.com/DynamicsNAV/WebClient/?tenant={HostUrl}*(for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions).  
   
      When the app accesses the [!INCLUDE[nav_web](includes/nav_web_md.md)], *HostUrl* is automatically replaced by the SharePoint site address where the app is installed. Because the SharePoint site is tenant-specific, this parameter identifies the tenant.  
   

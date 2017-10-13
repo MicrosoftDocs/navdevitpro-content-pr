@@ -48,7 +48,7 @@ A user has been added to the database with the following credentials:
 
 2.  In the address, type the following address:  
 
-     **https://virtualmachine.cloudapp.net/DynamicsNAV90\_Instance1**  
+     **https://virtualmachine.cloudapp.net/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\_Instance1**  
 
      Substitute *virtualmachine* with the name of the virtual machine that in running the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
 

@@ -42,7 +42,7 @@ SessionID                 : 1
 
 UserSID                   : DE8B398E-C154-45BC-931A-3A74A8AF5A85
 
-ServerInstanceName : DynamicsNAV90
+ServerInstanceName : DynamicsNAV110
 
 ServerComputerName : MyServer
 
@@ -63,7 +63,7 @@ SessionID                 : 2
 
 UserSID                   : DE8B398E-C154-45BC-931A-3A74A8AF5A85
 
-ServerInstanceName : DynamicsNAV90
+ServerInstanceName : DynamicsNAV110
 
 ServerComputerName : MyServer
 

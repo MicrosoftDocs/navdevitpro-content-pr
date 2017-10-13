@@ -11,13 +11,13 @@ ms.assetid: eb87ee8c-be21-4fed-a5f7-2229c4101c61
 caps.latest.revision: 6
 ---
 # How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants
-If you deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in a multitenant deployment architecture, URLs that must access a specific tenant must specify the tenant ID. However, the [!INCLUDE[nav_web](includes/nav_web_md.md)] can be accessed from URLs that specify a host name. If your deployment must support host names for tenants, then you must enable the corresponding URL rewrite rule in the web.config file for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
+If you deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in a multitenant deployment architecture, URLs that must access a specific tenant must specify the tenant ID. However, the [!INCLUDE[nav_web](includes/nav_web_md.md)] can be accessed from URLs that specify a host name. If your deployment must support host names for tenants, then you must enable the corresponding URL rewrite rule in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
   
 ### To enable the URL rewrite rule to configure the [!INCLUDE[nav_web](includes/nav_web_md.md)] to accept host names for tenants  
   
 1.  On the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open the web.config file that is located in the physical path of the web application for the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
-     The path is *%systemroot%\\inetpub\\wwwroot\\\[VirtualDirectoryName\]\\WebClient*. For example, the folder for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] application is *%systemroot%\\inetpub\\wwwroot\\DynamicsNAV90\\WebClient*.  
+     The path is *%systemroot%\\inetpub\\wwwroot\\\[VirtualDirectoryName\]\\WebClient*. For example, the folder for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] application is *%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\\WebClient*.  
   
     > [!NOTE]  
     >  You must open the web.config file as an administrator or have permission to modify the file.  
