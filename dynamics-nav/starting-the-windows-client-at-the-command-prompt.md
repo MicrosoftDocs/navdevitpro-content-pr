@@ -42,7 +42,7 @@ DynamicsNAV://<Server/ServerInstance>/<Company>/
 For example, to open the CRONUS Danmark A/S company, you would enter:
 
 ```
-DynamicsNAV://localhost/DynamicsNAV100/CRONUS%20International%20Ltd./
+DynamicsNAV://localhost/DynamicsNAV110/CRONUS%20International%20Ltd./
 ```
 ### Command-Line Parameters
 You can use the following parameters when you start the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] at a command prompt.
@@ -53,7 +53,7 @@ Parameter  |Description
 ---------|---------
 -?         |Displays this list of parameters.  
 -configure |Starts the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] in configuration mode. You use configuration mode to configure a profile. To specify which profile to configure, add the **-profile** parameter.<br/>**Example:**<br/>This command starts the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] in configuration mode for editing the Accounting Manager profile: `Microsoft.Dynamics.Nav.Client.exe -configure -profile:"Accounting Manager"` <!-- For more information, see [How to: Open Microsoft Dynamics NAV in Configuration Mode](How%20to:%20Open%20Microsoft%20Dynamics%20NAV%20in%20Configuration%20Mode.md).-->       
--debug     |Starts the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] in debug mode.<br/>**Example:**<br/>This command starts the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] in debug mode and runs the **Session List** page so that you can select a session to debug: Microsoft.Dynamics.Nav.Client.exe –debug "DynamicsNAV://localhost:7046/DynamicsNAV100/CRONUS International Ltd./runpage?page=9506"         
+-debug     |Starts the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] in debug mode.<br/>**Example:**<br/>This command starts the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] in debug mode and runs the **Session List** page so that you can select a session to debug: Microsoft.Dynamics.Nav.Client.exe –debug "DynamicsNAV://localhost:7046/DynamicsNAV110/CRONUS International Ltd./runpage?page=9506"         
 -disablepersonalization     |Disables personalization in the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)]. Personalization lets users customize their Role Center and pages by showing or hiding elements such as actions, FactBoxes, FastTabs, and fields.<br/>**Example:**<br/>This command starts the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] with personalization disabled for the Accounting Manager profile: <br/>**NOTE:** You can also disable personalization for users based on their [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] profile. <!-- For more information, see [How to: Disable Personalization](How%20to:%20Disable%20Personalization.md).-->         
 -shownavigationpage     |Opens a specific page without displaying the navigation page.<br/>**Example:**<br/>This command starts the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] on page 21 without showing the navigation page.<br/>`Microsoft.Dynamics.Nav.Client.exe -shownavigationpage:0 "DynamicsNAV://Server/Server Instance/Company/RunPage?Page=21"`      
 -fullscreen     |Opens a specific page in full-screen mode in [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)].<br/>**Example:**<br/>This command starts the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] on page 21 in full-screen mode.<br/>`Microsoft.Dynamics.Nav.Client.exe -fullscreen "DynamicsNAV://Server/Server Instance/Company/RunPage?Page=21"`  

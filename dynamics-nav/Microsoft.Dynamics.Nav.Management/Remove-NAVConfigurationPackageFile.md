@@ -26,7 +26,7 @@ Removes a configuration package file from the Microsoft Dynamics NAV app databas
 Remove-NAVConfigurationPackageFile -Code GB.ENU.TRIAL -ServerInstance DynamicsNAV
 ```
 
-If a package with code GB.ENU.TRIAL is present in the application database of the DynamicsNAV90 instance, it will be removed.
+If a package with code GB.ENU.TRIAL is present in the application database of the DynamicsNAV110 instance, it will be removed.
 
 ## PARAMETERS
 

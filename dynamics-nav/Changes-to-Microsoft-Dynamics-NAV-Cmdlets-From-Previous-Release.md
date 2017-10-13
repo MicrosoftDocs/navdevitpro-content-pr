@@ -11,6 +11,9 @@ manager: edupont
 ms.prod: "dynamics-nav-2017"
 ---
 # Changes to Microsoft Dynamics NAV Cmdlets From Previous Release
+
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2017.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)]](Changes-to-Microsoft-Dynamics-NAV-Cmdlets-From-Previous-Release-2017.md).
+
 The following sections provide an overview of the new, changed, and removed cmdlets in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] and [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] since the previous release.  
 
 ## Changes to [!INCLUDE[nav_shell](includes/nav_shell_md.md)] Cmdlets  
@@ -24,7 +27,7 @@ The following cmdlets are new in the Microsoft.Dynamics.NAV.Management module.
 |[Copy-NAVTenantData](Microsoft.Dynamics.NAV.Management/Copy-NAVTenantData.md)|Copies tenant data from one tenant to another tenant. |
 |[Dismount-NAVTenantDatabase](Microsoft.Dynamics.NAV.Management/Dismount-NAVTenantDatabase.md)|Dismounts a tenant database on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
 |[Get-NAVTenantDatabase](Microsoft.Dynamics.NAV.Management/Get-NAVTenantDatabase.md)|Specifies a setting in an application-specific configuration file for a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
-|[Mount-NAVTenantDatabase](Microsoft.Dynamics.NAV.Management/[Mount-NAVTenantDatabase.md)| Mounts a tenant database on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
+|[Mount-NAVTenantDatabase](Microsoft.Dynamics.NAV.Management/Mount-NAVTenantDatabase.md)| Mounts a tenant database on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
 |[Move-NAVTenant](Microsoft.Dynamics.NAV.Management/Move-NAVTenant.md)| Moves a tenant to another tenant database.|
 |[New-NAVTenant](Microsoft.Dynamics.NAV.Management/New-NAVTenant.md)| Creates a new tenant in a tenant database. |
 |[Restart-NAVServerInstance](Microsoft.Dynamics.NAV.Management/Restart-NAVServerInstance.md)| Restarts a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance. |
@@ -79,7 +82,7 @@ None.
 The following cmdlets have been changed in the Microsoft.Dynamics.NAV.Apps.Tools module.
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
 |------------|---------------------------------------|  
-|[Export-NAVAppTenantWebService](Microsoft.Dynamics.NAV.Apps.ToolsExport-NAVAppTenantWebService.md)|-ServiceName parameter has been added.|
+|[Export-NAVAppTenantWebService](Microsoft.Dynamics.NAV.Apps.Tools/Export-NAVAppTenantWebService.md)|-ServiceName parameter has been added.|
 
 ## See Also  
 [Administration Cmdlets for Microsoft Dynamics NAV](Microsoft.Dynamics.NAV.Management/Microsoft.Dynamics.NAV.Management.md)  

@@ -34,7 +34,7 @@ Use the Get-NAVAppInfo cmdlet to get information about a specific NAV App, or to
 
 ### EXAMPLE 1
 ```
-Get-NAVAppInfo -ServerInstance DynamicsNAV90
+Get-NAVAppInfo -ServerInstance DynamicsNAV110
 
                     Id                                       Name                 Version    Publisher
                     --                                       ----                 -------    ---------
@@ -42,11 +42,11 @@ Get-NAVAppInfo -ServerInstance DynamicsNAV90
                     3c88160c-e0eb-4fe1-b4f6-011e45d74b10     Proseware SmartApp   2.3.4.500  Proseware, Inc.
 ```
 
-This example returns information about all of the NAV Apps published on the DynamicsNAV90 server instance.
+This example returns information about all of the NAV Apps published on the DynamicsNAV110 server instance.
 
 ### EXAMPLE 2
 ```
-Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Name 'Proseware SmartApp' -Version 2.3.4.500
+Get-NAVAppInfo -ServerInstance DynamicsNAV110 -Name 'Proseware SmartApp' -Version 2.3.4.500
 
                     Id                 : 3c88160c-e0eb-4fe1-b4f6-011e45d74b10
                     Name               : Proseware SmartApp
@@ -66,11 +66,11 @@ Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Name 'Proseware SmartApp' -Version
                     Dependencies       :
 ```
 
-This example returns information about the NAV App with the specified name and version on the DynamicsNAV90 server instance.
+This example returns information about the NAV App with the specified name and version on the DynamicsNAV110 server instance.
 
 ### EXAMPLE 3
 ```
-Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Publisher 'Proseware, Inc.'
+Get-NAVAppInfo -ServerInstance DynamicsNAV110 -Publisher 'Proseware, Inc.'
 
                     Id                                       Name                 Version    Publisher
                     --                                       ----                 -------    ---------
@@ -78,11 +78,11 @@ Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Publisher 'Proseware, Inc.'
                     3c88160c-e0eb-4fe1-b4f6-011e45d74b10     Proseware SmartApp   2.3.4.500  Proseware, Inc.
 ```
 
-This example returns information about all of the NAV Apps published on the DynamicsNAV90 server instance that are published by Proseware, Inc.
+This example returns information about all of the NAV Apps published on the DynamicsNAV110 server instance that are published by Proseware, Inc.
 
 ### EXAMPLE 4
 ```
-Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Tenant 'Tenant1'
+Get-NAVAppInfo -ServerInstance DynamicsNAV110 -Tenant 'Tenant1'
 
                     Id                 : 3c88160c-e0eb-4fe1-b4f6-011e45d74b10
                     Name               : Proseware SmartApp
@@ -102,7 +102,7 @@ Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Tenant 'Tenant1'
                     Dependencies       :
 ```
 
-This example returns information about all of the NAV Apps installed for the tenant with an ID of Tenant1 on the DynamicsNAV90 server instance.
+This example returns information about all of the NAV Apps installed for the tenant with an ID of Tenant1 on the DynamicsNAV110 server instance.
 
 ### EXAMPLE 5
 ```
@@ -130,7 +130,7 @@ This example returns information about the NAV App from the package file provide
 
 ### EXAMPLE 6
 ```
-Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Tenant default
+Get-NAVAppInfo -ServerInstance DynamicsNAV110 -Tenant default
 
                     Id                 : 3c88160c-e0eb-4fe1-b4f6-011e45d74b10
                     Name               : Proseware SmartApp
@@ -230,7 +230,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerInstance
-Specifies the Microsoft Dynamics NAV Server instance to which the NAV App is deployed, such as DynamicsNAV90.
+Specifies the Microsoft Dynamics NAV Server instance to which the NAV App is deployed, such as DynamicsNAV110.
 
 ```yaml
 Type: String

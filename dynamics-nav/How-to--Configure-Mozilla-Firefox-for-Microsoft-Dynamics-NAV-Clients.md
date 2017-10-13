@@ -1,15 +1,13 @@
 ---
 title: "How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 02/10/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 5e12c815-a749-45e1-8a5c-92a8ec5a7f85
-caps.latest.revision: 22
-manager: edupont
+author: jswymer
 ---
 # How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients
 This topic describes how to configure Mozilla Firefox web browser to work with the [!INCLUDE[nav_web](includes/nav_web_md.md)]. To open the client, Firefox must be configured to allow cookies and JavaScript. In addition, the address of the [!INCLUDE[nav_web](includes/nav_web_md.md)] must be configured as a trusted unified resource identifier \(URI\) in Firefox.  
@@ -38,7 +36,7 @@ This topic describes how to configure Mozilla Firefox web browser to work with t
     |If you want to|Then|  
     |--------------------|----------|  
     |Allow cookies from all websites|1.  Select **Accept cookies from sites**.<br />2.  Choose the **OK** button.|  
-    |Allow cookies only from the [!INCLUDE[nav_web](includes/nav_web_md.md)] site|1.  Select **Exceptions**.<br />2.  In the **Address of the website** box, type the address of the [!INCLUDE[nav_web](includes/nav_web_md.md)], for example: **http://myNAVServer:8080//DynamicsNAV90/WebClient**.<br />3.  Choose **Allow**.<br />     The [!INCLUDE[nav_web](includes/nav_web_md.md)] address appears in the **Site** list.<br />4.  Choose **Close**, and then choose the **OK** button.|  
+    |Allow cookies only from the [!INCLUDE[nav_web](includes/nav_web_md.md)] site|1.  Select **Exceptions**.<br />2.  In the **Address of the website** box, type the address of the [!INCLUDE[nav_web](includes/nav_web_md.md)], for example: **http://myNAVServer:8080//[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]** or **http://myNAVServer:8080//[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient** (for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions). <br />3.  Choose **Allow**.<br />     The [!INCLUDE[nav_web](includes/nav_web_md.md)] address appears in the **Site** list.<br />4.  Choose **Close**, and then choose the **OK** button.|  
 
 ##  <a name="Java"></a> Enabling JavaScript in Firefox  
  JavaScript is a programming language for making web pages interactive.  
@@ -80,7 +78,7 @@ This topic describes how to configure Mozilla Firefox web browser to work with t
 
     1.  In the **Search** box, enter **network.automatic**, and then double-click the line **network.automatic-ntlm-auth.trusted-uris**.  
 
-    2.  In the **Enter string value** dialog box, type the address that you use to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], for example, **http://myNAVServer:8080/DynamicsNAV90/WebClient**.  
+    2.  In the **Enter string value** dialog box, type the address that you use to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], for example, **http://myNAVServer:8080//[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]** or **http://myNAVServer:8080//[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient** (for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions).
 
     3.  Choose the **OK** button.  
 
@@ -91,7 +89,7 @@ This topic describes how to configure Mozilla Firefox web browser to work with t
 
     1.  In the **Search box**, enter **network.negotiate**, and then double-click the line **network.negotiate-auth.trusted-uris**.  
 
-    2.  In the **Enter string value** dialog box, type the address that you use to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], for example, **http://myNAVServer:8080/DynamicsNAV90/WebClient**.  
+    2.  In the **Enter string value** dialog box, type the address that you use to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], for example, **http://myNAVServer:8080//[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]** or **http://myNAVServer:8080//[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient** (for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions).
 
     3.  Choose the **OK** button.  
 

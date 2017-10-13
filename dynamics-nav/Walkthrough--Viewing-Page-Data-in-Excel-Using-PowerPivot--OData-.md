@@ -80,7 +80,7 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
 
     -   **ServiceInstance** is the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for your solution. The default name is [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].  
 
-     For example, if the [!INCLUDE[nav_server](includes/nav_server_md.md)] is running on the computer that you are working on, you can use: **http://localhost:7048/DynamicsNAV100/OData/**  
+     For example, if the [!INCLUDE[nav_server](includes/nav_server_md.md)] is running on the computer that you are working on, you can use: **http://localhost:7048/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/OData/**  
 
      The browser should now show the web service that you have published, as shown in the following illustration.  
 
@@ -112,11 +112,11 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
 
     3.  In the **UserID** field, type the user name for the [!INCLUDE[navnow](includes/navnow_md.md)] user account. For this walkthrough, use **NavTest**.  
 
-    4.  In the **Source** section, in the **Service Document URL** field, type the URL for the OData web service that you verified in the previous procedure,  for example, **http://localhost:7048/DynamicsNAV100/OData/**.  
+    4.  In the **Source** section, in the **Service Document URL** field, type the URL for the OData web service that you verified in the previous procedure,  for example, **http://localhost:7048/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/OData/**.  
 
     5.  Choose the **OK** button to return to the **Table Import Wizard**.  
 
-5.  In the **Connect to a Data Feed** page, in the **Data Feed Url** field, enter the OData URI that you verified in the previous procedure, for example **http://localhost:7048/DynamicsNAV100/OData/**. Choose the **Next** button.  
+5.  In the **Connect to a Data Feed** page, in the **Data Feed Url** field, enter the OData URI that you verified in the previous procedure, for example **http://localhost:7048/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/OData/**. Choose the **Next** button.  
 
     > [!IMPORTANT]  
     >  The URI must end with a slash \(/\) as shown in the example.  

@@ -1,14 +1,13 @@
 ---
 title: "Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on a Single Computer"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 09/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 4248618b-1606-453c-a849-6af5687a4304
-caps.latest.revision: 25
+author: jswymer
 ---
 # Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on a Single Computer
 In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] in a production environment on one computer.  
@@ -26,7 +25,9 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
 
 -   [Allowing Inbound Communication on the Microsoft Dynamics NAV Web Client Port Through the Windows Firewall](Walkthrough--Installing-the-Microsoft-Dynamics-NAV-Web-Server-Components-on-Three-Computers.md#Firewall)  
 
--   [Opening the Microsoft Dynamics NAV Web client](Walkthrough--Installing-the-Microsoft-Dynamics-NAV-Web-Server-Components-on-a-Single-Computer.md#Opening)  
+-   [Opening the Microsoft Dynamics NAV Web client](Walkthrough--Installing-the-Microsoft-Dynamics-NAV-Web-Server-Components-on-a-Single-Computer.md#Opening) 
+
+The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] require a supported version of Internet Information Services (IIS). This walkthrough uses [!INCLUDE[navnow](includes/navnow_md.md)] Setup to automaticaally install and configure IIS for you. If you want to do this manually, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md).  
 
 ### Prerequisites  
  To complete this walkthrough, you will need:  
@@ -35,24 +36,17 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
 
 -   A computer that is installed with the following software:  
 
-    -   A supported operating system. For more information, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
+    -   A supported operating system. For more information, see [System Requirements for [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]](System-Requirements-for-Microsoft-Dynamics-NAV.md#WebServer).  
 
-    -   A supported version of Microsoft SQL Server. For more information, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md)  
+    -   A supported version of Microsoft SQL Server. For more information, see [System Requirements for Microsoft Dynamics NAV Database](System-Requirements-for-Microsoft-Dynamics-NAV.md#SQLReq)  
 
          If a supported SQL Server product is not already installed on the target computer, then [!INCLUDE[navnow](includes/navnow_md.md)] Setup automatically installs a 64-bit edition of SQL Server Express.  
 
          For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).  
 
-    -   A supported version of Internet Information Services. For more information, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md). 
-
-         You must enable IIS with the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md).  
-
-        > [!NOTE]  
-        >  Instead of installing and configuring IIS manually, you can use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install IIS and enable the required features, as described in this walkthrough.  
-
 -   A device with a network connection and a supported web browser.  
 
-     For a list of supported browsers, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
+     For a list of supported browsers, see [System Requirements for [!INCLUDE[nav_web_md](includes/nav_web_md.md)]](System-Requirements-for-Microsoft-Dynamics-NAV.md#WebClient).  
 
 -   Optionally, a domain user account for accessing [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] database on the Microsoft SQL Server. The user account must have the following permissions:  
 
@@ -108,25 +102,21 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
 
 11. In the **SQL Server Database Components** section, in the **SQL Database** field, type a name for the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
 
-     For this walkthrough, type **Demo Database NAV \(9-0\).**  
+     For this walkthrough, type **Demo Database NAV \(11-0\).**  
 
 12. In the **Web Server Components** section, set the **Port** field to **8080**.  
 
 13. Set the **Install IIS prerequisites** parameter to **Install**.  
 
      This enables the IIS features that are required for the [!INCLUDE[nav_web](includes/nav_web_md.md)] on the computer. For more information about this parameter, see [Using Microsoft Dynamics NAV Setup to Install IIS Features](Using-Microsoft-Dynamics-NAV-Setup-to-Install-IIS-Features.md).  
-
 14. Choose **Apply** to complete the installation.  
 
 15. When Setup is complete, choose the **Close** button.  
 
  A website that has the name [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client has been installed on IIS. The website uses port 8080. A website that has the name [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client has been installed on IIS. The website includes a web server instance for [!INCLUDE[nav_web](includes/nav_web_md.md)] that has the name [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]. The default physical path of the web server instance is C:\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\\.  
 
-##  <a name="Firewall"></a> Allowing Inbound Communication on the Microsoft Dynamics NAV Web Client Port Through the Windows Firewall  
- Viktor chose to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on port 8080 of the computer. This port is typically blocked by Windows Firewall. To allow communication to the port from client devices, he must create an inbound rule on the port 8080 in the Windows Firewall setup.  
-
-> [!NOTE]  
->  You do not have to perform this task if the computer is running Windows Server 2012 or Windows Server 2016.  
+##  <a name="Firewall"></a> Allowing Inbound Communication on the Port Through the Windows Firewall (Windows 8.0 and 8.1 only)  
+ Viktor installed the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer running Windows 8.0. Port 8080 is typically blocked by Windows Firewall. To allow communication to the port from client devices, he must create an inbound rule on the port 8080 in the Windows Firewall setup. 
 
 #### To create an inbound rule on the port that is used by [!INCLUDE[nav_web](includes/nav_web_md.md)]  
 
@@ -157,7 +147,11 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
 
 2.  In the address box, type the following URL:  
 
-     **http://ComputerName:PortNumber/DynamicsNAV100/WebClient/Default.aspx**  
+     **http://ComputerName:PortNumber/[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]**  
+
+    Or for [!INCLUDE[nav2017](includes/nav2017.md)]:
+    
+    **http://ComputerName:PortNumber/dynamicsnav100/webclient**
 
     -   Substitute **ComputerName** with the name of the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. If you are working on the computer where you installed [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], then you can use **localhost**.  
 
@@ -167,7 +161,11 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
 
      For example, if the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on port 8080 and the computer has the name NavWeb, then you can use the following URL:  
 
-     **http://NavWeb:8080/DynamicsNAV100/WebClient/Default.aspx**  
+     **http://NavWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]** 
+
+     or:
+    
+    **http://NavWeb:8080//dynamicsnav100/webclient**
 
 ### Troubleshooting  
  If you are cannot connect the [!INCLUDE[nav_web](includes/nav_web_md.md)] or you are experiencing problems, see [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md).  

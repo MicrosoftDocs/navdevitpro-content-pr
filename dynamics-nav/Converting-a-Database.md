@@ -12,6 +12,9 @@ ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
 # Converting a Database - Technical Upgrade
+
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2017.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)]](Converting-a-Database-2017.md).
+
 This article describes how to convert a  [!INCLUDE[navnow](includes/navnow_md.md)] database from one of the following versions to [!INCLUDE[nav2017](includes/nav2017.md)]:
 
 -   [!INCLUDE[nav7long](includes/nav7long_md.md)]

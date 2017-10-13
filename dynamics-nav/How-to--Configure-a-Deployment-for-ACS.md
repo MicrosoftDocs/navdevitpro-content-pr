@@ -8,8 +8,6 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: e863d17a-0bab-48e9-bf64-f21b8b74f19e
-ms.author: jswymer
 ---
 # How to: Configure a Deployment for ACS
 To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Microsoft Azure Access Control service \(ACS\) authentication requires the following series of configuration procedures in the Azure management portal:  
@@ -65,9 +63,9 @@ To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Mi
 
     |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**Name**|Specify a name for the application.<br /><br /> A typical value would be the name of the organization for which the deployment was created.|  
+    |**Name**|Specify a name for the application.<br /><br /> A typical value would be the name of the organization for which the deployment was created.| 
     |**Mode**|Choose **Enter settings manually**.|  
-    |**Realm**|Enter the DNS name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, such as *https://MyCompany.com* or https://localhost.<br /><br /> The DNS name must be the same that is specified in the Server parameter in the clientUserSettings.config file for [!INCLUDE[nav_windows](includes/nav_windows_md.md)] client and the web.config file for [!INCLUDE[nav_web](includes/nav_web_md.md)] clients.|  
+    |**Realm**|Enter the DNS name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, such as *https://MyCompany.com* or https://localhost.<br /><br /> The DNS name must be the same that is specified in the Server parameter in the clientUserSettings.config file for [!INCLUDE[nav_windows](includes/nav_windows_md.md)] client and the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] for [!INCLUDE[nav_web](includes/nav_web_md.md)] clients.|  
     |**Return URL**|Enter the fully qualified URL for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], such as https://MyCompany.com or https://MyServer/WebClient.<br /><br /> The URL is case-sensitive.<br /><br />**Note:** The return URL will only work on URLs that are bound to the default ports 80 for http and 443 for https. <br /><br />If you do not deploy the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you can specify any address since the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] does not use this setting.|  
     |**Token format**|Select **SWT**. Other token types are not supported in this version of [!INCLUDE[navnow](includes/navnow_md.md)].<br /><br /> This adds a **Token Signing Settings** section to the page.|  
 

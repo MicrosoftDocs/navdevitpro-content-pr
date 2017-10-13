@@ -11,6 +11,9 @@ ms.assetid: c87f0ac3-97d8-4afc-bcf6-a331cf45dd21
 caps.latest.revision: 18
 ---
 # Browser Limitations with the Microsoft Dynamics NAV Web Client
+
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2017.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)]](Browser-Limitations-with-the-Microsoft-Dynamics-NAV-Web-Client-2017.md).
+
 The [!INCLUDE[nav_web](includes/nav_web_md.md)] supports several browsers. There are some [!INCLUDE[navnow](includes/navnow_md.md)] features that are not supported by all browsers.  
 
  For a list of the supported browsers and versions, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  

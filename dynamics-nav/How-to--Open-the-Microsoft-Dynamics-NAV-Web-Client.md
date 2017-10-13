@@ -1,15 +1,13 @@
 ---
 title: "How to: Open the Microsoft Dynamics NAV Web Client"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 02/10/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 41d64ea9-47da-4184-81b7-a7e98b05d530
-caps.latest.revision: 31
-manager: edupont
+author: jswymer
 ---
 # How to: Open the Microsoft Dynamics NAV Web Client
 You open the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using a web browser from a device that has a network connection. To open the [!INCLUDE[nav_web](includes/nav_web_md.md)], you must know the name of the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and the HTTP port that it is running on.  
@@ -24,6 +22,16 @@ You open the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using a web browser 
     >  On the computer where the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] are installed, you can open the [!INCLUDE[nav_web](includes/nav_web_md.md)] directly from **Start** in Windows. In the **Search** box, type **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client**, and then choose the related link.  
 
 2.  In the address box of the browser, type one of the following URLs.  
+
+    |To open|URL|Example|  
+    |-------------|---------|-------------|  
+    |The Role Center for the default company|http://ComputerName:Port/WebServerInstance<br /><br /> Or \(for multitenant deployments\)<br /><br /> http://ComputerName:Port/WebServerInstance/?tenant=TenantID|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]|  
+    |The Role Center for a specific company|http://ComputerName:Port/WebServerInstance/?company=CompanyName<br /><br /> Or<br /><br /> http://ComputerName:Port/WebServerInstance/?tenant=TenantID&company=CompanyName|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/?company=CRONUS%20International%20Ltd.|  
+    |A specific page|http://ComputerName:Port/WebServerInstance/?page=ID<br /><br /> Or<br /><br /> http://ComputerName:Port/WebServerInstance/?tenant=TenantID&page=ID|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/?page=22|  
+    |A specific report|http://ComputerName:Port/WebServerInstance/?report=ID<br /><br /> Or<br /><br /> http://ComputerName:Port/WebServerInstance/?tenant=TenantID&report=ID|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/?report=5|  
+    |A specific profile|http://ComputerName:Port/WebServerInstance/?profile=ID<br /><br /> Or<br /><br /> http://ComputerName:Port/WebServerInstance/?profile=ID|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/?profile=Small-Business| 
+
+    For [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions:
 
     |To open|URL|Example|  
     |-------------|---------|-------------|  

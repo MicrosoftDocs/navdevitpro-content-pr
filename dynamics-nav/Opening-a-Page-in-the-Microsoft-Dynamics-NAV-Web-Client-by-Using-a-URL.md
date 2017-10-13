@@ -7,8 +7,6 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: d59e6e32-dc24-47ee-a541-0534f021074d
-caps.latest.revision: 29
 author: jswymer
 ---
 # Opening a Page in the Microsoft Dynamics NAV Web Client by Using a URL
@@ -42,15 +40,22 @@ There are several parameters that define the address for the page. These paramet
 The address to open a page in the [!INCLUDE[nav_web](includes/nav_web_md.md)] has the following syntax.
 
 ```
+<http|https>://<webserver>[:<port>]/<webserverinstance>/?<page>=<ID>&[tenant=<tenantID>]&[company=<companyname>]&[mode=<View|Edit|Create>]&[profile=<profileID>]&[bookmark=<bookmark>]&[captionhelpdisabled=<0|1>]&[showribbon=<0|1>]&[shownavigation=<0|1>]&[showuiparts=<0|1>]&[redirect<0|1>]&[extension=<extensionID>]
+```
+
+Or for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions:
+
+```
 <http|https>://<webserver>[:<port>]/<webserverinstance>/WebClient/<default|blank>.aspx?<page>=<ID>&[tenant=<tenantID>]&[company=<companyname>]&[mode=<View|Edit|Create>]&[profile=<profileID>]&[bookmark=<bookmark>]&[captionhelpdisabled=<0|1>]&[showribbon=<0|1>]&[shownavigation=<0|1>]&[showuiparts=<0|1>]&[redirect<0|1>]
 ```
 
-<!-- Tenerife
-```
-<http|https>://<webserver>[:<port>]/<webserverinstance>/WebClient/<default|blank>.aspx?<page>=<ID>&[tenant=<tenantID>]&[company=<companyname>]&[mode=<View|Edit|Create>]&[profile=<profileID>]&[bookmark=<bookmark>]&[captionhelpdisabled=<0|1>]&[showribbon=<0|1>]&[shownavigation=<0|1>]&[showuiparts=<0|1>]&[redirect<0|1>]&[extension=<extensionID>]
-```
--->
 The URL consists of two parts, the web server part and the [!INCLUDE[navnow](includes/navnow_md.md)] content part. The web server part targets a specific site on the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and includes the following syntax.
+
+```
+<http|https>://<webserver>[:<port>]/<webserverinstance>
+```
+
+Or for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions:
 
 ```
 <http|https>://<webserver>[:<port>]/<webserverinstance>/WebClient
@@ -74,11 +79,11 @@ Use the following guidelines to write page URL syntax and create a URL:
 - Place parameters in any order after `aspx?` because the order is not important. For example, the following URLs will yield the same results.
 
     ```
-    http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?company=CRONUS%20International%20Ltd.&page=9305&mode=View
+    http://MyWebServer:8080/nav_server_instance/?company=CRONUS%20International%20Ltd.&page=9305&mode=View
     ```
 
     ```
-    http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?page=9305&mode=View&company=CRONUS%20International%20Ltd.
+    http://MyWebServer:8080/nav_server_instance/?page=9305&mode=View&company=CRONUS%20International%20Ltd.
     ```
 
 -   Separate parameters after `aspx?` with the ampersand symbol (`&`).
@@ -97,7 +102,7 @@ Use the following guidelines to write page URL syntax and create a URL:
 |`port`|Specifies the server port on which the [!INCLUDE[nav_web](includes/nav_web_md.md)] is running. The default port is 8080.|
 |`webserverinstance`|Specifies the name of the web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. On IIS, this is the alias of the virtual directory of the web server instance.<br /><br /> When you install the [!INCLUDE[nav_web](includes/nav_web_md.md)] using [!INCLUDE[navnow](includes/navnow_md.md)] Setup, the web server instance is given the same name as the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that it connects to. If you use the New-NAVWebServerInstance cmdlet to add [!INCLUDE[nav_web](includes/nav_web_md.md)] instances, then you specify the web server instance name. For more information, see [How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md).|
 |`default`&#124;`blank`|Specifies the name of the active server page file to use to display the page. You can use either of the following types, regardless what the page type is: `default` or, `blank`.<br /><br /> The type that you set is not important because the [!INCLUDE[nav_web](includes/nav_web_md.md)] will automatically redirect to the appropriate page. **Important:**  You cannot use `blank` to open a RoleCenter type page. Use `default` instead.|
-|`company`|The name of the company in [!INCLUDE[navnow](includes/navnow_md.md)] for which you want to display the page.<br /><br /> If you do not choose a company, then [!INCLUDE[nav_web](includes/nav_web_md.md)] uses the company that is defined in its web.config file. If no company is defined in the web.config file, then the company last opened by the user is used.|
+|`company`|The name of the company in [!INCLUDE[navnow](includes/navnow_md.md)] for which you want to display the page.<br /><br /> If you do not choose a company, then [!INCLUDE[nav_web](includes/nav_web_md.md)] uses the company that is defined in its [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]. If no company is defined in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)], then the company last opened by the user is used.|
 |`page`|The ID of the page in [!INCLUDE[navnow](includes/navnow_md.md)].|
 |`mode`|Specifies the mode in which to display the page.<br /><br />- `View`<br /> The page can only be viewed. The user cannot change data on the page. **Note:** Worksheet page types only display in the edit mode, even if the value is set to `View`.<br /><br />- `Edit`<br /> The user can change data on the page. **Note:** To use the edit mode, the [Editable Property](Editable-Property.md) of the page in Page Designer must be set to **Yes**. This mode is not supported for pages of the type List, RoleCenter, and CardPart. If you set the value to `Edit`, pages of these types still display in the view mode. For List type pages, the user can modify the list by choosing **Edit List** in the ribbon of the page in [!INCLUDE[nav_web](includes/nav_web_md.md)].<br /><br />-  `Create`<br />Opens a blank page that enables the user to create a new item.<br /><br />**Note:** The `Create`mode is not supported for pages of the type CardPart, List, ListPart, RoleCenter, and Worksheet. For pages of the type CardPart, List, and ListPart, the page displays in the view mode. Do not use this mode for Worksheet pages; otherwise you will get an error when you try to open the page.|
 |`tenant`|Specifies the ID of the tenant to connect to. You must provide this parameter when [!INCLUDE[navnow](includes/navnow_md.md)] is deployed in multitenant architecture. The tenant that you specify must be mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to. For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).|
@@ -108,9 +113,7 @@ Use the following guidelines to write page URL syntax and create a URL:
 |`shownavigation`|Specifies whether to show the navigation pane when the specified page opens. <br /><br />If you want the navigation pane, either omit this parameter or set its value to `1`, such as `shownavigation=1`.<br /><br />If you do not want the navigation pane, set the value to `0`, such as `shownavigation=0`.<br /><br />**Note:** This parameter only works for pages of the list page type.|
 |`showuiparts`|Specifies whether to show UI parts when the specified page opens. The default value, if the parameter is not specified, is `1` which displays the UI parts. Use the value `0` to not show UI parts.<br /><br />If you want the UI parts, either omit this parameter or set its value to `1`, such as `showuiparts=1`.<br /><br />If you do not want the UI parts, set the value to `0`, such as `showuiparts=0`.<br /><br /> **Note:**  This parameter only works for pages of the list page type.|
 |`redirect`|Specifies whether users are presented with an option to download the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] when they open the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] in a browser in order to improve the user experience.<br /><br />If you want to give users this option, either omit this parameter or set its value to `1`, such as `redirect=1`.<br /><br />If you do not want to give users this option, set the value to `0`, such as `redirect=0`.<br /><br />|
-
-<!--TENERIFE
-|```extension```|Specifies the unique identifier (ID) of an extension that is deployed on the tenant. This parameter is mainly used during the development of the specified extension in a non-production environment. When this parameter is set, only the specifed extension is available in the client; all other extensions are ignored and not visible. This enables you to isolate and focus on the behavior of the specified extension only.<br /><br />An extension ID is a 32-digit GUID, such as ```72CC5E27-BD97-4271-AF55-F77E4471E493```. You set this parameter using the format ```extension={GUID}```, for example:<br /><br />`&extension={72CC5E27-BD97-4271-AF55-F77E4471E493}`<br /><br />You can determine an extension ID by opening the extension in Visual Studio Code and looking in the app.json file, or by running the [Get-NAVAppManifest cmdlet](Microsoft.Dynamics.Nav.Apps.Tools/Get-NAVAppManifest.md) on the extension package.|-->
+|`extension`|Specifies the unique identifier (ID) of an extension that is deployed on the tenant. This parameter is mainly used during the development of the specified extension in a non-production environment. When this parameter is set, only the specifed extension is available in the client; all other extensions are ignored and not visible. This enables you to isolate and focus on the behavior of the specified extension only.<br /><br />An extension ID is a 32-digit GUID, such as `72CC5E27-BD97-4271-AF55-F77E4471E493`. You set this parameter using the format `extension={GUID}`, for example:<br /><br />`&extension={72CC5E27-BD97-4271-AF55-F77E4471E493}`<br /><br />You can determine an extension ID by opening the extension in Visual Studio Code and looking in the app.json file, or by running the [Get-NAVAppManifest cmdlet](Microsoft.Dynamics.Nav.Apps.Tools/Get-NAVAppManifest.md) on the extension package.|-->
 
 For more information about framing the Web client, see [Embedding Microsoft Dynamics NAV Web Client Pages in Other Websites](Embedding-Microsoft-Dynamics-NAV-Web-Client-Pages-in-Other-Websites.md).
 
@@ -121,11 +124,17 @@ You can filter the data that is displayed in the page by using the filter parame
  The following address displays data in page 9305 only for the customer who has the Sell-to Customer No. 10000 and the Location Code Blue.
 
 ```
+http://MyWebServer:8080/nav_server_instance/?company=CRONUS%20International%20Ltd.&page=9305&filter='Sell-to-Customer-No.'-IS-'10000'-AND-'Location-Code'-IS-'BLUE'  
+```
+
+Or for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions:
+
+```
 http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?company=CRONUS%20International%20Ltd.&page=9305&filter='Sell-to-Customer-No.'-IS-'10000'-AND-'Location-Code'-IS-'BLUE'  
 ```
 
 ### Filter Syntax
- The filter has the following syntax.
+The filter has the following syntax.
 
 ```
 &filter='<field>'-IS-'<value>'[-AND-'<field>'-IS-'<value>']  

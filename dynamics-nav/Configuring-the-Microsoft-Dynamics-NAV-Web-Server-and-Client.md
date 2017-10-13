@@ -1,26 +1,62 @@
 ---
 title: "Configuring the Microsoft Dynamics NAV Web Server and Client"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 09/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 1ee96402-932d-466b-b829-b9a7e20fe3a3
-caps.latest.revision: 4
+author: jswymer
 ---
 # Configuring the Microsoft Dynamics NAV Web Server and Client
-When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you can provide configuration information that is then used as the configuration for the default [!INCLUDE[navnow](includes/navnow_md.md)] Web Server instance.After you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you can change any of the settings that you provided during Setup, or any of the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] settings, using either the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or the Windows PowerShell cmdlets for [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup to initially deploy the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you provide information that is used as the configuration for the default [!INCLUDE[navnow](includes/navnow_md.md)] web server instance, which is then used by the web, tablet, and phone clients.
+For example, during Setup, you specify the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[navnow](includes/navnow_md.md)] Web Server connects to and the port that is used. For more information about Setup, see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).  
+
   
-## Configuring the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] in Setup  
- When [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup, you configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and that the [!INCLUDE[navnow](includes/navnow_md.md)] Web Server connects to. For more information, see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).  
-  
-## Configuring the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] After Installation  
- After you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you can change any of the settings that you provided during Setup, or other settings. For more information, see the following topics.  
-  
- [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md)  
-  
+## Configuring the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] After Installation 
+After installation, you can change any of the configuration settings that you provided during Setup and configure additional settings to suit your deployment requirements.
+
+There are different ways to configure the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], depending on what is it is you want to change:
+
+1. Modify the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].
+
+     Using a text editor, you can change the configuration of a [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] instance. The file is located where you installed the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].
+
+     For more information, see  [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md).
+
+2. Use the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
+
+    The [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] includes the following cmdlets for managing [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances:
+
+    <table>
+     <tr>
+     <th>Cmdlet</th>
+     <th>[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]</th>
+     </tr>
+     <tr>
+     <td>Get-NAVWebServerInstance](Get-NAVWebServerInstance.md)</td>
+     <td>Gets the information about the instances that are registered on a computer.</td>
+     </tr>
+     <td>[New-NAVWebServerInstance](New-NAVWebServerInstance.md)</td>
+     <td>Creates a new web server instance and binds this instance to a [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)] instance.</td>
+     </tr>
+     <tr>
+    </tr>
+     <td>[Remove-NAVWebServerInstance](Remove-NAVWebServerInstance.md)</td>
+     <td>Removes an existing instance.</td>
+     </tr>
+    </tr>
+     <td>Set-NAVWebServerInstanceConfiguration](Set-NAVWebServerInstanceConfiguration.md)</td>
+     <td>Specifies configuration values for a named web server instance. You can use this cmdlet to configure all the settings in the  </td>
+     </tr>
+     </table>  
+
+     For more information, see [Microsoft.Dynamics.Nav.Management Module](Microsoft.Dynamics.Nav.Management/microsoft.dynamics.nav.management.md)
+## Typical Tasks
+
+Here are links to the most common configuration tasks that you will perform on the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances and clients:
+
  [Configuring the Web Browser for the Microsoft Dynamics NAV Web Client](Configuring-the-Web-Browser-for-the-Microsoft-Dynamics-NAV-Web-Client.md)  
   
  [How to: Configure Delegation for Microsoft Dynamics NAV Web Client](How-to--Configure-Delegation-for-Microsoft-Dynamics-NAV-Web-Client.md)  
@@ -30,6 +66,8 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
  [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md)  
   
  [How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md)  
+
+ [How to: Change the Microsoft Dynamics NAV Server for the Microsoft NAV Web Client](How-to--Change-the-Microsoft-Dynamics-NAV-Server-for-the-Microsoft-NAV-Web-Client)
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   

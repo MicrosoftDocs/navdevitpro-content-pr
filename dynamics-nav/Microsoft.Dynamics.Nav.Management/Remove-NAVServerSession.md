@@ -26,7 +26,7 @@ Use the Remove-NAVServerSession cmdlet to close a client connection, as identifi
 Remove-NAVServerSession -ServerInstance DynamicsNAV -Tenant default -SessionId 11
 ```
 
-This example closes the session with Session ID 11 in the on the DynamicsNAV90 instance.
+This example closes the session with Session ID 11 in the on the DynamicsNAV110 instance.
 
 ## PARAMETERS
 
