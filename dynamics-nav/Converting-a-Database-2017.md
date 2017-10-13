@@ -13,7 +13,7 @@ author: jswymer
 ---
 # Converting a Database - Technical Upgrade
 
-**Applies to:** [!INCLUDE[nav2018_md](includes/nav2017.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)]](Converting-a-Database-2017.md).
+**Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)].  [Go to[!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Converting-a-Database.md).
 
 This article describes how to convert a  [!INCLUDE[navnow](includes/navnow_md.md)] database from one of the following versions to [!INCLUDE[nav2017](includes/nav2017.md)]:
 
@@ -114,7 +114,7 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
 4.  When you are notified that the conversion was successful, choose the **OK** button.  
 
-5.  Connect a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Server instance to the converted database.  
+5.  Connect a [!INCLUDE[nav2017](includes/nav2017.md)] Server instance to the converted database.  
 
      You use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] to connect a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to the converted database.  
 
@@ -130,7 +130,7 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
     For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
 
-8.  If the database references any assemblies \(such as client control add-ins\) that are not included on the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media \(DVD\), then add the assemblies to the Add-ins folder on [!INCLUDE[nav_server](includes/nav_server_md.md)] or [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computers.  
+8.  If the database references any assemblies \(such as client control add-ins\) that are not included on the [!INCLUDE[nav2017](includes/nav2017.md)] installation media \(DVD\), then add the assemblies to the Add-ins folder on [!INCLUDE[nav_server](includes/nav_server_md.md)] or [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computers.  
 
      For the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the default path is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins folder.  
 

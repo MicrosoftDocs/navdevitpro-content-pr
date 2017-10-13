@@ -12,12 +12,12 @@ caps.latest.revision: 9
 ---
 # Automating the Upgrade Process using Sample Windows PowerShell Scripts
 
-**Applies to:** [!INCLUDE[nav2018_md](includes/nav2017.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)]](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts-2017.md).
+**Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [Go to[!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md).
 
-You can use [!INCLUDE[wps_2](includes/wps_2_md.md)] scripts to help you upgrade to the latest version of [!INCLUDE[navnow](includes/navnow_md.md)]. You can use automation to upgrade a single [!INCLUDE[navnow](includes/navnow_md.md)] database as well as multiple [!INCLUDE[navnow](includes/navnow_md.md)] databases that use the same application. [!INCLUDE[navnowlong](includes/navnowlong_md.md)] provides sample scripts that you can adapt for your deployment architecture.  
+You can use [!INCLUDE[wps_2](includes/wps_2_md.md)] scripts to help you upgrade to the latest version of [!INCLUDE[navnow](includes/navnow_md.md)]. You can use automation to upgrade a single [!INCLUDE[navnow](includes/navnow_md.md)] database as well as multiple [!INCLUDE[navnow](includes/navnow_md.md)] databases that use the same application. [!INCLUDE[nav2017](includes/nav2017.md)] provides sample scripts that you can adapt for your deployment architecture.  
 
 ## Automating the Upgrade Process  
- When you upgrade to [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you must first upgrade the application code, and then you upgrade the data. By using [!INCLUDE[wps_2](includes/wps_2_md.md)], you can automate both parts of the upgrade process. Also, you can use the same scripts to test each step in your upgrade process before you upgrade production databases.  
+ When you upgrade to [!INCLUDE[nav2017](includes/nav2017.md)], you must first upgrade the application code, and then you upgrade the data. By using [!INCLUDE[wps_2](includes/wps_2_md.md)], you can automate both parts of the upgrade process. Also, you can use the same scripts to test each step in your upgrade process before you upgrade production databases.  
 
  Also, if you maintain multiple [!INCLUDE[navnow](includes/navnow_md.md)] databases, for example if you support multiple customers with the same [!INCLUDE[navnow](includes/navnow_md.md)] application, you can reduce the time that you spend upgrading each database by using [!INCLUDE[wps_2](includes/wps_2_md.md)] scripts. In that case, you can upgrade the application locally, and then use scripts to roll out the upgrade of each database with reduced unavailability for each database. You can combine this automated upgrade with a migration to multitenancy if this makes maintenance easier for you.  
 
@@ -39,9 +39,9 @@ You can use [!INCLUDE[wps_2](includes/wps_2_md.md)] scripts to help you upgrade 
 
 2.  Saves the current license from the [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], or [!INCLUDE[navcrete](includes/navcrete_md.md)] database.  
 
-3.  Creates a backup of the [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], or [!INCLUDE[navcrete](includes/navcrete_md.md)] database, and then converts the database to [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+3.  Creates a backup of the [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], or [!INCLUDE[navcrete](includes/navcrete_md.md)] database, and then converts the database to [!INCLUDE[nav2017](includes/nav2017.md)].  
 
-4.  Connects the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Server instance to the converted database, imports the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] license file, and then synchronizes the table schema.  
+4.  Connects the [!INCLUDE[nav2017](includes/nav2017.md)] Server instance to the converted database, imports the [!INCLUDE[nav2017](includes/nav2017.md)] license file, and then synchronizes the table schema.  
 
 5.  Imports the application objects and upgrade toolkit objects from the specified .fob file, and then synchronizes the table schema again. This updates the SQL Server database based on the new table schema that is defined by the imported application objects. Data that must be mapped to another table is saved in upgrade tables.  
 
@@ -51,7 +51,7 @@ You can use [!INCLUDE[wps_2](includes/wps_2_md.md)] scripts to help you upgrade 
 
 8.  Initializes all companies in the upgraded database. If you specified a RapidStart package in the Set-PartnerSettings.ps1 file, the package is applied to all companies.  
 
- The sample script is intended to be run in the context of a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] deployment, including the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance cannot be multitenant. When the sample script runs successfully, the result is a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database that is connected to a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Server instance, and which uses a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] license. The sample script also returns a list of statistics about the upgrade tasks, including information about whether the task ran or not. If a task failed, it is marked, and the information includes the error message and stack trace to help you identify the problem. You can resolve errors in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], save changes, and then run the sample script again, using the database backup that you created earlier.  
+ The sample script is intended to be run in the context of a [!INCLUDE[nav2017](includes/nav2017.md)] deployment, including the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance cannot be multitenant. When the sample script runs successfully, the result is a [!INCLUDE[nav2017](includes/nav2017.md)] database that is connected to a [!INCLUDE[nav2017](includes/nav2017.md)] Server instance, and which uses a [!INCLUDE[nav2017](includes/nav2017.md)] license. The sample script also returns a list of statistics about the upgrade tasks, including information about whether the task ran or not. If a task failed, it is marked, and the information includes the error message and stack trace to help you identify the problem. You can resolve errors in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], save changes, and then run the sample script again, using the database backup that you created earlier.  
 
 ## See Also  
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   

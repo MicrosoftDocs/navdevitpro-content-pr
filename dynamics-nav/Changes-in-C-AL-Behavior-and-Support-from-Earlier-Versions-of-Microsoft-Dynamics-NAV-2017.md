@@ -12,12 +12,12 @@ author: jswymer
 ---
 # Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV
 
-**Applies to:** [!INCLUDE[nav2018_md](includes/nav2017.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)]](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV-2017.md).
+**Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)].  [Go to[!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md).
 
-The following tables provide an overview of the new, removed, or changed C/AL data types, functions, properties, and triggers in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] since the previous version of [!INCLUDE[navnow](includes/navnow_md.md)]. For more information about the changes, see the specific topic about the data type, function, property, or trigger.  
+The following tables provide an overview of the new, removed, or changed C/AL data types, functions, properties, and triggers in [!INCLUDE[nav2017](includes/nav2017.md)] since the previous version of [!INCLUDE[navnow](includes/navnow_md.md)]. For more information about the changes, see the specific topic about the data type, function, property, or trigger.  
 
 ## C/AL Data Types  
- The following table lists the new data types in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+ The following table lists the new data types in [!INCLUDE[nav2017](includes/nav2017.md)].  
 
 |Data Type|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------|---------------------------------------|  
@@ -28,21 +28,21 @@ See the C/AL Functions section that follows for a description of the data type f
 
 ## C/AL Functions  
 ### New functions
-The following table lists the new functions in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+The following table lists the new functions in [!INCLUDE[nav2017](includes/nav2017.md)].  
 
 |Function|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
 |[CANCREATTASK\(TaskScheduler\)](cancreatetask-function.md)|Indicates whether a user has permissions to create or schedule a task.|  
 
 ### Changed functions
-The following table lists the changed functions in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+The following table lists the changed functions in [!INCLUDE[nav2017](includes/nav2017.md)].  
 
 |Function|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
 |TryFunction|By default, database write transactions in a try function are not allowed. For more information, see [Database write transactions in try functions](Handling-Errors-by-Using-Try-Functions.md#DbWriteTransactions).|  
 
 ## C/AL Properties  
- The following table lists the new properties in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+ The following table lists the new properties in [!INCLUDE[nav2017](includes/nav2017.md)].  
 
 |Property|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
@@ -52,7 +52,7 @@ The following table lists the changed functions in [!INCLUDE[navnowlong](include
 |[PromotedOnly Property](PromotedOnly-Property.md)|Specifies whether a page action will appear only on the **Home** tab in the ribbon and not on the tab where it is defined.|    
 
 ## C/AL Triggers  
- The following table lists the changed triggers in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+ The following table lists the changed triggers in [!INCLUDE[nav2017](includes/nav2017.md)].  
 
 |Trigger|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  

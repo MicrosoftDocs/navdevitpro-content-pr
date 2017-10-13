@@ -11,11 +11,11 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 014e3285-02be-459c-9a54-eae45ea71e04
 
 ---
-# System Requirements for Microsoft Dynamics NAV [!INCLUDE[nav2018_md](includes/nav2017.md)]
+# System Requirements for [!INCLUDE[nav2018_md](includes/nav2018_md.md)]
 
-**Applies to:** [!INCLUDE[nav2018_md](includes/nav2017.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)]](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md).
+**Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [Go to[!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](System-Requirements-for-Microsoft-Dynamics-NAV.md).
 
-The following sections list the minimum hardware and software requirements to install and run [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. **Minimum** means that later versions \(such as SP1, SP2, or R2 versions\) of a required software product are also supported.  
+The following sections list the minimum hardware and software requirements to install and run [!INCLUDE[nav2017](includes/nav2017.md)]. **Minimum** means that later versions \(such as SP1, SP2, or R2 versions\) of a required software product are also supported.  
 
 **Client components**  
 
@@ -132,8 +132,8 @@ The following sections list the minimum hardware and software requirements to in
 |-|-|  
 |Supported operating systems|<ul><li>Windows 10 Pro, Enterprise, or Education \(64-bit edition\).</li><li>Windows 8.1 Professional or Enterprise \(64-bit edition\).</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).</li><li>Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
 |Web server|<ul><li>Internet Information Server 10, Internet Information Server 8.5, Internet Information Server 8.0, or Internet Information Server 7.5.|   
-|Additional software|<ul><li>Microsoft .NET Framework 4.6.1.</li><li>Windows PowerShell 3.0.|  
-|Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer.<ul><li>Microsoft .NET Core 1.0 Windows Server Hosting. This is installed by [!INCLUDE[navnow](includes/navnow_md.md)] Setup if not already present.</li><li>Microsoft .NET Framework 4.5.2.</li><li>Internet Information Server 10, Internet Information Server 8.5, or Internet Information Server 8.0, depending in the operating system, with the required features enabled.</li></ul></li><li>For more information about installing IIS, see [How to: Install Internet Information Services for Microsoft Dynamics NAV Web Client](how-to--install-and-configure-internet-information-services-for-microsoft-dynamics-nav-web-client.md).</li></ul>|  
+|Additional software|<ul><li>Microsoft .NET Framework 4.5.2.</li><li>Windows PowerShell 3.0.|  
+|Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer.<ul><li>Microsoft .NET Framework 4.5.2.</li><li>Internet Information Server 10, Internet Information Server 8.5, Internet Information Server 8.0, or Internet Information Server 7.5 depending in the operating system, with the required features enabled.</li></ul></li><li>For more information about installing IIS, see [How to: Install Internet Information Services for Microsoft Dynamics NAV Web Client](how-to--install-and-configure-internet-information-services-for-microsoft-dynamics-nav-web-client.md).</li><li>To avoid crashes on the IIS server with many concurrent users, download and install the update from here [Update for the .NET Framework 4.5 in Windows 8, Windows RT, and Windows Server 2012](http://go.microsoft.com/fwlink/?LinkId=313427).</li></ul>|  
 
 ##  <a name="SQLReq"></a> Microsoft Dynamics NAV Database Components for SQL Server Requirements  
  The following table shows the minimum system requirements for [!INCLUDE[navnow](includes/navnow_md.md)] database components for SQL Server.  

@@ -10,18 +10,15 @@ ms.author: jswymer
 manager: edupont
 ms.prod: "dynamics-nav-2017"
 ---
-# Upgrading the Data to [!INCLUDE[nav2018_md](includes/nav2017.md)]
+# Upgrading the Data to Dynamics NAV 2017
 
-**Applies to:** [!INCLUDE[nav2018_md](includes/nav2017.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)]](Upgrading-the-Data-2017.md).
+**Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [Go to[!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Upgrading-the-Data.md).
 
-
-This topic describes the tasks required for upgrading the following database versions to [!INCLUDE[nav2018_md](includes/nav2018_md.md)]:
-
+This topic describes the tasks required for upgrading the following database versions to [!INCLUDE[nav2017](includes/nav2017.md)]:
 -   [!INCLUDE[nav7long](includes/nav7long_md.md)]
 -   [!INCLUDE[navsicily](includes/navsicily_md.md)]
 -   [!INCLUDE[navcrete](includes/navcrete_md.md)]
 -   [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
--   [!INCLUDE[nav2017](includes/nav2017.md)]
 
 You use data conversion tools provided with [!INCLUDE[nav2017](includes/nav2017.md)] to convert the old data with the old version’s table and field structure, so that it functions together with the new version’s table and field structure. Mainly, only table objects and table data are modified during the data upgrade process. Other objects, such as pages, reports, codeunits, and XMLports are upgraded as part of the application code upgrade process.
 
@@ -31,7 +28,7 @@ The data upgrade process described in this article leads you through the databas
 Before you start the upgrade tasks, make sure you meet the following prerequisites:
 1.  Your computer uses the same codepage as the data that will be upgraded.
 
-    If you use conflicting codepages, some characters will not display in captions, and you might not be able to access the upgraded database. This is because [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)]  must remove incorrect metadata characters to complete the data upgrade. In this case, after upgrade, you must open the database in the development environment on a computer with the relevant codepage and compile all objects. This adds the missing characters again.
+    If you use conflicting codepages, some characters will not display in captions, and you might not be able to access the upgraded database. This is because [!INCLUDE[nav2017](includes/nav2017.md)]  must remove incorrect metadata characters to complete the data upgrade. In this case, after upgrade, you must open the database in the development environment on a computer with the relevant codepage and compile all objects. This adds the missing characters again.
 
     Optionally, you can export the captions before the upgrade. For more information, see [How to: Add Translated Strings for Conflicting Text Encoding Formats](How-to--Add-Translated-Strings-for-Conflicting-Text-Encoding-Formats.md).
 
@@ -50,14 +47,12 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 
     For more information, see [How to: Export and Import Permission Sets and Permissions](how-to--import-export-permission-sets-permissions.md#ExportPerms).
 
-4.   \(Optional\) Make a copy of the web.config file for all the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. With [!INCLUDE[nav2018_md](includes/nav2018_md.md)], [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances run on Microsoft .NET Core. With this change, the instances now use a .json type file (called navsettings.json) instead of the web.config file. 
-
-5.   \(Optional\) If the old [!INCLUDE[navnow](includes/navnow_md.md)] application uses data encryption, you exported the encryption key file that it used for the data encryption.  
+4.   \(Optional\) If the old [!INCLUDE[navnow](includes/navnow_md.md)] application uses data encryption, you exported the encryption key file that it used for the data encryption.  
 
     For more information, see [How to: Export and Import Encryption Keys](how-to-export-and-import-encryption-keys.md).  
 
 > [!NOTE]
->If the old Microsoft Dynamics NAV application uses Payment Services for Microsoft Dynamics ERP, be aware that this is discontinued in [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)]. This means that most of the objects that are associated with this feature will be deleted during the upgrade. Some objects you will have to manually delete.
+>If the old Microsoft Dynamics NAV application uses Payment Services for Microsoft Dynamics ERP, be aware that this is discontinued in [!INCLUDE[nav2017](includes/nav2017.md)]. This means that most of the objects that are associated with this feature will be deleted during the upgrade. Some objects you will have to manually delete.
 
 ## Task 1: Prepare the old database
 
@@ -95,7 +90,7 @@ In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] version that matc
 You can also use the [DeleteObjects](DeleteObjects.md) command of the finsql.exe.
 
 ##  <a name="UninstallOldProduct"></a> Task 5: Uninstall the old product and install the new product (Optional)
-Uninstall the old [!INCLUDE[navnow_md](includes/navnow_md.md)], and then install [!INCLUDE[nav2017](includes/nav2017.md)].  
+ Uninstall the old [!INCLUDE[navnow_md](includes/navnow_md.md)], and then install [!INCLUDE[nav2017](includes/nav2017.md)].  
 
 During installation of [!INCLUDE[nav2017](includes/nav2017.md)], you can either choose the **Install Demo** option, for which you will discard the Demo database afterwards, or choose the **Custom** option, where you then select to install the Client \(with the Development Environment\), Server, and Administration Tool components.  
 
@@ -222,7 +217,7 @@ You import the permission sets and permissions XML files.
  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], choose **Tools**, choose **Language**, and then select the language of the original customer database.  
 
 ##  <a name="AddControlAddins"></a> Task 16: Register client control add-ins  
- The database is now fully upgraded and is ready for use. However, [!INCLUDE[navnowlong](includes/navnowlong_md.md)] includes the following client control add-ins.
+ The database is now fully upgraded and is ready for use. However, [!INCLUDE[nav2017](includes/nav2017.md)] includes the following client control add-ins.
 -   Microsoft.Dynamics.Nav.Client.BusinessChart  
 -   Microsoft.Dynamics.Nav.Client.CodeViewer
 -   Microsoft.Dynamics.Nav.Client.DynamicsOnlineConnect

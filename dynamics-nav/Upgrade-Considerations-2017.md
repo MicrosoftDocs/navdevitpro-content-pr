@@ -12,18 +12,18 @@ caps.latest.revision: 2
 ---
 # Upgrade Considerations
 
-**Applies to:** [!INCLUDE[nav2018_md](includes/nav2017.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)]](Upgrade-Considerations-2017.md).
+**Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [Go to[!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Upgrade-Considerations-2017.md).
 
-Depending on which version you are upgrading from, and the degree to which your solution differs from the standard version of [!INCLUDE[navnow](includes/navnow_md.md)], you may want to prepare your solution for the upgrade. This topic provides tips for things to consider when you prepare to upgrade to [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+Depending on which version you are upgrading from, and the degree to which your solution differs from the standard version of [!INCLUDE[navnow](includes/navnow_md.md)], you may want to prepare your solution for the upgrade. This topic provides tips for things to consider when you prepare to upgrade to [!INCLUDE[nav2017](includes/nav2017.md)].  
 
 ## Names of Variables  
- [!INCLUDE[navnowlong](includes/navnowlong_md.md)] introduces new functions and statements. If your solution includes variables where the name is now used by a standard C/AL function or statement such as REGISTERTABLECONNECTION or FOREACH, you must change the variables before you upgrade to [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. Alternatively, you can enclose the variable names in quotation marks. If you do not, and you import an object that has this code in text format, you cannot compile the object. For more information, see [Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md).  
+ [!INCLUDE[nav2017](includes/nav2017.md)] introduces new functions and statements. If your solution includes variables where the name is now used by a standard C/AL function or statement such as REGISTERTABLECONNECTION or FOREACH, you must change the variables before you upgrade to [!INCLUDE[nav2017](includes/nav2017.md)]. Alternatively, you can enclose the variable names in quotation marks. If you do not, and you import an object that has this code in text format, you cannot compile the object. For more information, see [Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md).  
 
 ## Deprecated or Redesigned Functionality  
- If you are upgrading a solution that depends on functionality that is deprecated or changed in the default version of [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you must verify that the upgrade codeunits migrate data correctly.
+ If you are upgrading a solution that depends on functionality that is deprecated or changed in the default version of [!INCLUDE[nav2017](includes/nav2017.md)], you must verify that the upgrade codeunits migrate data correctly.
 
 ## Upgrade Codeunits  
- When you introduce changes to the database schema in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], [!INCLUDE[navnow](includes/navnow_md.md)] will check if these changes are destructive or not. If the database check indicates that the change may lead to data deletion, such as if you are dropping a table column so that the contents of that column will be deleted, this is considered a destructive change. You will be prompted to handle the situation using upgrade codeunits. For more information, see [Upgrade Codeunits](Upgrade-Codeunits.md).  
+ When you introduce changes to the database schema in [!INCLUDE[nav2017](includes/nav2017.md)], [!INCLUDE[navnow](includes/navnow_md.md)] will check if these changes are destructive or not. If the database check indicates that the change may lead to data deletion, such as if you are dropping a table column so that the contents of that column will be deleted, this is considered a destructive change. You will be prompted to handle the situation using upgrade codeunits. For more information, see [Upgrade Codeunits](Upgrade-Codeunits.md).  
 
 ## Company Names  
  If a company name includes a special character, an error may display during the upgrade. In this context, special characters include the following:   

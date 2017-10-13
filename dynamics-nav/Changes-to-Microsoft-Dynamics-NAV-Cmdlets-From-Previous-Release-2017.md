@@ -12,7 +12,7 @@ ms.prod: "dynamics-nav-2017"
 ---
 # Changes to Microsoft Dynamics NAV Cmdlets From Previous Release
 
-**Applies to:** [!INCLUDE[nav2018_md](includes/nav2017.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)]](Changes-to-Microsoft-Dynamics-NAV-Cmdlets-From-Previous-Release-2017.md).
+**Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)].  [Go to[!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Changes-to-Microsoft-Dynamics-NAV-Cmdlets-From-Previous-Release.md).
 
 The following sections provide an overview of the new, changed, and removed cmdlets in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] and [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] since the previous release.  
 
