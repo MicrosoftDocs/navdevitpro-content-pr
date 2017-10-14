@@ -8,6 +8,8 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms-prod: "dynamics-nav-2017"
+ms.assetid: 0adbd6ea-16d6-4030-9f3b-d9b02b447191
+caps.latest.revision: 14
 ---
 # About Permissions
 Each permission set in [!INCLUDE[nav_current_long](includes/nav_current_long_md.md)] describes a set of access permissions to tables, reports, functions, and other objects. The types of permissions are:  
