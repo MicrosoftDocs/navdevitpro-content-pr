@@ -1,6 +1,5 @@
 ---
-title: Administration Tools
-description: This article provides an overview of different tools for different administrative tasks in Microsoft Dynamics NAV 'TENERIFE'.
+title: "Administration"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -12,7 +11,7 @@ ms.assetid: cd5254cf-2773-4011-97a8-7ebe2af0557c
 caps.latest.revision: 15
 manager: edupont
 ---
-# Working with Administration Tools
+# Administration
 [!INCLUDE[navnowlong](includes/navnowlong_md.md)] provides different tools for different administration tasks.  
   
 |To|See|  
