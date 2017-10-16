@@ -10,12 +10,8 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 014e3285-02be-459c-9a54-eae45ea71e04
-
 ---
-# System Requirements for Microsoft Dynamics NAV [!INCLUDE[nav2018_md](includes/nav2017.md)]
-
-**Applies to:** [!INCLUDE[nav2018_md](includes/nav2017.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)]](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md).
-
+# System Requirements for Microsoft Dynamics NAV TENERIFE
 The following sections list the minimum hardware and software requirements to install and run [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. **Minimum** means that later versions \(such as SP1, SP2, or R2 versions\) of a required software product are also supported.  
 
 **Client components**  
