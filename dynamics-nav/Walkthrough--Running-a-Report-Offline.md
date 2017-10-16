@@ -35,9 +35,9 @@ You can view a report and view the dataset and layout on a computer that does no
 
     -   CRONUS International Ltd. demonstration database.  
 
-    -   Visual Studio with [Microsoft Rdlc Report Designer for Visual Studio](https://go.microsoft.com/fwlink/?linkid=857038) installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
+    -   Microsoft Visual Studio installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md). This walkthrough assumes that Microsoft Visual Studio 2012 or Microsoft Visual Studio 2013 is used.  
 
--   A second computer with Visual Studio.  
+-   A second computer with Microsoft Visual Studio.  
 
 ## Story  
  Viktor is a Microsoft Certified Partner working for CRONUS International. He is working on some enhancements to the Customer – Top 10 List report, but during his development phase, he has encountered some problems. Viktor wants to send the report to Microsoft Support to help him troubleshoot the problems. The Microsoft Support engineer wants to be able to view the report and report data offline instead of on a computer that has [!INCLUDE[navnow](includes/navnow_md.md)] installed. Viktor saves the report dataset and the report layout and sends them to the Microsoft Support engineer, who runs the report on his computer by using Visual Studio.  
@@ -55,7 +55,7 @@ You can view a report and view the dataset and layout on a computer that does no
 
 4.  Close the **About This Page** page.  
 
-5.  On the request page for the Customer – Top 10 List report, choose **Preview** to open the Customer - Top 10 List report.  
+5.  On the request page for the Customer – Top 10 List report, choose **Preview** to open the Customer - Top 10 List report in Report Viewer.  
 
 6.  On the report preview, on the Application menu ![Application Menu button in menu bar](media/ApplicationMenuIcon.png "ApplicationMenuIcon"), choose **Help**, and then choose **About This Report** to display the report dataset.  
 
@@ -124,11 +124,9 @@ You can view a report and view the dataset and layout on a computer that does no
     > [!TIP]  
     >  If the **Properties** window is not visible, then on the **View** menu, choose **Properties**.  
 
-9. In the **Toolbox** window, under **Reporting**, drag a new **ReportViewer** control to Form1.  
+9. In the **Toolbox** window, under **Reporting**, drag a new **Report Viewer** control to Form1.  
 
-     ![Visual Studio ReportViewer control](media/Plat_ExportReport_ReportViewerCtrl.png "Plat\_ExportReport\_ReportViewerCtrl")  
-
-    If you do not see the ReportViewer control, or the ReportViewer control version in earlier than 14.0.0.0, then see  view see [Integrating Reporting Services Using ReportViewer Controls - Get Started](https://docs.microsoft.com/en-us/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started#adding-the-reportviewer-control-to-a-new-windows-forms-project) to learn how to add the control to a Windows form application project.
+     ![Visual Studio 2010, Report Viewer control](media/Plat_ExportReport_ReportViewerCtrl.png "Plat\_ExportReport\_ReportViewerCtrl")  
 
     > [!TIP]  
     >  If the **Toolbox** window is not visible, then on the **View** menu, choose **Toolbox**.  

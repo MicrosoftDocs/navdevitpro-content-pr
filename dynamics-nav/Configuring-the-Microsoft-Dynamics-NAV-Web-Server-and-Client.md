@@ -29,6 +29,8 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
   
  [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md)  
   
+ [How to: Configure Microsoft Report Viewer for the Microsoft Dynamics NAV Web Client](How-to--Configure-Microsoft-Report-Viewer-for-the-Microsoft-Dynamics-NAV-Web-Client.md)  
+  
  [How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md)  
   
 ## See Also  
