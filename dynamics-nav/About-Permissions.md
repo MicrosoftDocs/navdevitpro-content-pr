@@ -8,6 +8,8 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms-prod: "dynamics-nav-2017"
+ms.assetid: 0adbd6ea-16d6-4030-9f3b-d9b02b447191
+caps.latest.revision: 14
 ---
 # About Permissions
 Each permission set in [!INCLUDE[nav_current_long](includes/nav_current_long_md.md)] describes a set of access permissions to tables, reports, functions, and other objects. The types of permissions are:  
@@ -32,8 +34,8 @@ Each permission set in [!INCLUDE[nav_current_long](includes/nav_current_long_md.
 ## See Also  
 [Managing Users](Managing-Users.md)  
 [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)  
-[How to: Work with the BASIC Permission Set](How-to--Work-with-the-BASIC-Permission-Set.md)  
+<!-- [How to: Work with the BASIC Permission Set](How-to--Work-with-the-BASIC-Permission-Set.md)-->  
 [How to: Define Permissions for Users](How-to--Define-Permissions-for-Users.md)   
 [Security and Protection](Security-and-Protection.md)   
-[Customize the User Interface](Customize-the-User-Interface.md)   
+<!-- [Customize the User Interface](Customize-the-User-Interface.md)-->   
 [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)
