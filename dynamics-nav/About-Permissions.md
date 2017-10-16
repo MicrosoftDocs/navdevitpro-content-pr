@@ -34,8 +34,8 @@ Each permission set in [!INCLUDE[nav_current_long](includes/nav_current_long_md.
 ## See Also  
 [Managing Users](Managing-Users.md)  
 [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)  
-[How to: Work with the BASIC Permission Set](How-to--Work-with-the-BASIC-Permission-Set.md)  
+<!-- [How to: Work with the BASIC Permission Set](How-to--Work-with-the-BASIC-Permission-Set.md)-->  
 [How to: Define Permissions for Users](How-to--Define-Permissions-for-Users.md)   
 [Security and Protection](Security-and-Protection.md)   
-[Customize the User Interface](Customize-the-User-Interface.md)   
+<!-- [Customize the User Interface](Customize-the-User-Interface.md)-->   
 [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)
