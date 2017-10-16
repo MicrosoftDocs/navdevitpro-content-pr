@@ -1,7 +1,8 @@
 ---
-title: "Web Services"
+title: SOAP and OData Web Services
+description: Compare the features of SOAP and OData web services and know how to create and maintain these services. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,11 +12,11 @@ ms.assetid: 35c974ac-f27f-4c60-86ee-85525ce06cd9
 caps.latest.revision: 29
 manager: edupont
 ---
-# Web Services
+# Working with Dynamics NAV Web Services
 The following sections provide an overview of the documentation for web services in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
   
-## Overview of [!INCLUDE[navnow](includes/navnow_md.md)] Web Services  
- This section provides overview material and information that is relevant to both SOAP and OData web services.  
+## SOAP and OData based Web Services
+ This section provides overview material and information that is relevant to both SOAP and OData web services in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
   
 |To|See|  
 |--------|---------|  

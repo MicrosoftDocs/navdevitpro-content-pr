@@ -15,75 +15,62 @@ The following sections provide an overview of the new, changed, and removed cmdl
 
 ## Changes to [!INCLUDE[nav_shell](includes/nav_shell_md.md)] Cmdlets  
 
-### New and changed cmdlets for administering the Dynamics NAV deployment
-
-The following cmdlets are new in the Microsoft.Dynamics.NAV.Management module. 
+### New cmdlets for administering the Dynamics NAV deployment  
 
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
 |------------|---------------------------------------|
-|[Copy-NAVTenantData](Microsoft.Dynamics.NAV.Management/Copy-NAVTenantData.md)|Copies tenant data from one tenant to another tenant. |
-|[Dismount-NAVTenantDatabase](Microsoft.Dynamics.NAV.Management/Dismount-NAVTenantDatabase.md)|Dismounts a tenant database on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
-|[Get-NAVTenantDatabase](Microsoft.Dynamics.NAV.Management/Get-NAVTenantDatabase.md)|Specifies a setting in an application-specific configuration file for a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
-|[Mount-NAVTenantDatabase](Microsoft.Dynamics.NAV.Management/[Mount-NAVTenantDatabase.md)| Mounts a tenant database on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
-|[Move-NAVTenant](Microsoft.Dynamics.NAV.Management/Move-NAVTenant.md)| Moves a tenant to another tenant database.|
-|[New-NAVTenant](Microsoft.Dynamics.NAV.Management/New-NAVTenant.md)| Creates a new tenant in a tenant database. |
-|[Restart-NAVServerInstance](Microsoft.Dynamics.NAV.Management/Restart-NAVServerInstance.md)| Restarts a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance. |
-|[Start-NAVServerInstance](Microsoft.Dynamics.NAV.Management/Restart-NAVServerInstance.md)| Starts a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance. |
-|[Stop-NAVServerInstance](Microsoft.Dynamics.NAV.Management/Restart-NAVServerInstance.md)| Stops a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance. |
-|[Set-NAVApplication](Microsoft.Dynamics.NAV.Management/Set-NAVApplication.md)|Sets the application version or application family fields in the application database connected to the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
-|[Set-NAVTenant](Microsoft.Dynamics.NAV.Management/Set-NAVTenant.md)|Specifies settings for a tenant in a tenant database that is mounted on a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
-|[Sync-NAVTenantDatabase](Microsoft.Dynamics.NAV.Management/Sync-NAVTenantDatabase.md)|Synchronizes a tenant database on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
-|[Test-NAVTenantDatabaseSchema](Microsoft.Dynamics.NAV.Management/Test-NAVTenantDatabaseSchema.md)| Checks for any errors in the tenant database schema.|
-
-The following cmdlets have been changed in the Microsoft.Dynamics.NAV.Management module.
-
-|Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
-|------------|---------------------------------------|  
-|[Dismount-NAVtenant](Microsoft.Dynamics.NAV.Management/Dismount-NAVtenant.md)|-InptTenantRuntimeSettings and -InputTenantSettings parameters have been removed.<br /><br />-ExclusiveAccessTicket parameter has been added.|
-|[Get-NAVTenant](Microsoft.Dynamics.NAV.Management/Get-NAVTenant.md)|-ForceRefresh parameter has been added |
-|[Mount-NAVtenant](Microsoft.Dynamics.NAV.Management/Mount-NAVtenant.md)|-TenantDatabaseId and -Async parameters have been added.|
-|[Start-NAVDataUpgrade](Microsoft.Dynamics.NAV.Management/Start-NAVDataUpgrade.md)|-SingleTransaction, -SkipAppVersionCheck, and -SkipIfAlreadyUpgraded parameters have been added.|
-|[Sync-NAVTenant](Microsoft.Dynamics.NAV.Management/Sync-NAVTenant.md)|-CommitPerTable parameter added.|
-|[New-NAVServerInstance](Microsoft.Dynamics.NAV.Management/New-NAVServerInstance.md)|-DeveloperServicesPort has been added.|
-|[New-NAVWebServerInstance](Microsoft.Dynamics.NAV.Management/New-NAVWebServerInstance.md)|-RegionFormat, -Language, and -Company parameters have been removed.|
-|[Remove-NAVCompany](Microsoft.Dynamics.NAV.Management/Remove-NAVCompany.md)|-ForceImmediateDataDeletion parameter has been added.|
+|[Get-NAVServerAppConfiguration](Microsoft.Dynamics.Nav.Management/Get-NAVServerAppConfiguration.md)|Returns the settings in an application-specific configuration file of a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
+|[New-NAVServerAppConfiguration](Microsoft.Dynamics.Nav.Management/New-NAVServerAppConfiguration.md)|Creates a new server application specific configuration file.|
+|[Set-NAVServerAppConfiguration](Microsoft.Dynamics.Nav.Management/Set-NAVServerAppConfiguration.md)|Specifies a setting in an application-specific configuration file for a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
+|[Import-NAVConfigurationPackageFile](Microsoft.Dynamics.Nav.Management/Import-NAVConfigurationPackageFile.md)|Imports a configuration package file into the application database.|
+|[Remove-NAVConfigurationPackageFile](Microsoft.Dynamics.Nav.Management/Remove-NAVConfigurationPackageFile.md)| Removes a configuration package file from the application database.|
+|[Import-NAVMembershipEntitlement](Microsoft.Dynamics.Nav.Management/Import-NAVMembershipEntitlement.md)|Imports the license entitlement data for a membership association.|
+|[Update-NAVScheduledTaskList](Microsoft.Dynamics.Nav.Management/Update-NAVScheduledTaskList.md)|Updates the application-wide list of scheduled tasks with the information from the tenant database.|
 
 <!-- A number of other new cmdlets are available in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] but are not yet listed here. For a full list, see [Administration Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626874).  -->
 
-### New and changed cmdlets for administering Dynamics NAV Extensions
-The following cmdlet are new in the Microsoft.Dynamics.NAV.Apps.Management module. 
+### New cmdlets for administering Dynamics NAV Extensions
 
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
 |------------|---------------------------------------|  
-|[Start-NAVAppDataUpgrade](Microsoft.Dynamics.NAV.Management/Start-NAVAppDataUpgrade.md)|Upgrades a NAV App to a specified tenant.|
-|[Sync-NAVApp](Microsoft.Dynamics.NAV.Management/Sync-NAVApp.md)|Synchronizes an app to the specified tenant's database.|
+|[Get-NAVAppTableModification](Microsoft.Dynamics.Nav.Apps.Management/Get-NAVAppTableModification.md)|Gets information about the tabled added or modified by an extension based on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
+|[Remove-NAVAppsForTenant](Microsoft.Dynamics.Nav.Apps.Management/Remove-NAVAppsForTenant.md)| Removes all NAV Apps from the specified, unmounted tenant. This cmdlet should be run against tenants that are not mounted.|
 
-<!--|[Get-NAVTableSynchSetupForDataUpgrade](Microsoft.Dynamics.NAV.Apps.Management/Get-NAVTableSynchSetupForDataUpgrade.md)|Gets information about the tables that will be modified, added, or removed during a tenant data upgrade on the specified  [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|-->
+<!--|[Get-NAVTableSynchSetupForDataUpgrade](Microsoft.Dynamics.Nav.Apps.Management/Get-NAVTableSynchSetupForDataUpgrade.md)|Gets information about the tables that will be modified, added, or removed during a tenant data upgrade on the specified  [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|-->
 
-The following cmdlets have been changed in the Microsoft.Dynamics.NAV.Apps.Management module.
+### Changed cmdlets  
 
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
 |------------|---------------------------------------|  
-|[Get-NAVAppInfo](Microsoft.Dynamics.NAV.Apps.Management/Get-NAVAppInfo.md)|-TenantSpecificSettings, -SymbolsOnly, and -TenantId parameters have been added.|
-|[Get-NAVAppTenant](Microsoft.Dynamics.NAV.Management/Get-NAVAppTenant.md)|-IncludeFailed and -Id parameters have been added.|
-|[Publish-NAVApp](Microsoft.Dynamics.NAV.Apps.Management/Publish-NAVApp.md)|-PackageType, -ApplicationDatabaseName, -ApplicationDatabaseServer, -ApplicationDatabaseCredentials, and -IdePath parameters have been added.|
-|[Repair-NAVApp](Microsoft.Dynamics.NAV.Apps.Management/Repair-NAVApp.md)|-PackageType, -ApplicationDatabaseName, -ApplicationDatabaseServer, -ApplicationDatabaseCredentials, -IdePath, and -ServiceAccount parameters have been added.|
+|[Install-NAVApp](Microsoft.Dynamics.Nav.Apps.Management/Install-NAVApp.md)|*ExchangeAuthenticationMetadataLocation* parameter added.|
+|[Mount-NAVTenant](Microsoft.Dynamics.Nav.Management/Mount-NAVTenant.md)|*ExchangeAuthenticationMetadataLocation* parameter added.|
+|[Get-NAVTenant](Microsoft.Dynamics.Nav.Management/Mount-NAVTenant.md)|*ExchangeAuthenticationMetadataLocation* is returned.|
+|[Start-NAVDataUpgrade](Microsoft.Dynamics.Nav.Management/Start-NAVDataUpgrade.md)|*Language* parameter added.|
+|[Sync-NAVTenant](Microsoft.Dynamics.Nav.Management/Sync-NAVTenant.md)|*CommitPerTable* parameter added.|
+|[New-NAVWebServerInstance](Microsoft.Dynamics.Nav.Management/New-NAVWebServerInstance.md)|The parameters *ACSUri*, *Language*, *RegionFormat*, and *Company* are deprecated. <BR /><BR />The *Language*, *RegionFormat*, and *Company* settings are now stored in system tables for users. Users can change the value of these settings from the **My Settings** page in the client. Administrators can globally change these settings by using User Personalization in the clients.<BR /><BR />The *ACSUri* has been replaced by the **WSFederationLoginEndpoint** key in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration file, which you can set by using the [Set-NAVServerConfiguration cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVServerConfiguration.md).|
 
 ## Changes to [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] Cmdlets  
 
-### New cmdlets for creating Dynamics NAV extension packages
-None. 
+### New cmdlets for includes cmdlets for creating Dynamics NAV extension packages
+ The following table includes the new cmdlets in the current release.  
+
+|Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
+|------------|---------------------------------------|  
+|[Export-NAVAppReportLayout](Microsoft.Dynamics.Nav.Apps.Tools/Export-NAVAppReportLayout.md)|Exports the specified custom report layout from the database to a file.|
+|[Export-NAVAppTableData](Microsoft.Dynamics.Nav.Apps.Tools/Export-NAVAppTableData.md) | Exports data from a Microsoft Dynamics NAV database table to file.|
+|[Export-NAVAppTenantWebService](Microsoft.Dynamics.Nav.Apps.Tools/Export-NAVAppTenantWebService.md)| Exports the specified web service from the database to a file.|
+
 <!-- >  A number of other new cmdlets are available in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] but are not yet listed here. For a full list, see [Development Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkId=626875). -->
 
 ### Changed cmdlets  
-The following cmdlets have been changed in the Microsoft.Dynamics.NAV.Apps.Tools module.
+
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
 |------------|---------------------------------------|  
-|[Export-NAVAppTenantWebService](Microsoft.Dynamics.NAV.Apps.ToolsExport-NAVAppTenantWebService.md)|-ServiceName parameter has been added.|
+|[New-NAVCrmTable](Microsoft.Dynamics.Nav.Model.Tools/New-NAVCrmTable.md)|*AuthenticationType* parameter added.|
 
 ## See Also  
-[Administration Cmdlets for Microsoft Dynamics NAV](Microsoft.Dynamics.NAV.Management/Microsoft.Dynamics.NAV.Management.md)  
-[Development Cmdlets for Microsoft Dynamics NAV](Microsoft.Dynamics.NAV.Model.Tools/Microsoft.Dynamics.NAV.Model.Tools.md)  
-[Administration Cmdlets for Microsoft Dynamics NAV Extensions](Microsoft.Dynamics.NAV.Apps.Tools/Microsoft.Dynamics.NAV.Apps.Tools.md)  
-[Development Cmdlets for Microsoft Dynamics NAV Extensions](Microsoft.Dynamics.NAV.Apps.Tools/Microsoft.Dynamics.NAV.Apps.Tools.md)  
+[Administration Cmdlets for Microsoft Dynamics NAV](Microsoft.Dynamics.Nav.Management/Microsoft.Dynamics.Nav.Management.md)  
+[Development Cmdlets for Microsoft Dynamics NAV](Microsoft.Dynamics.Nav.Model.Tools/Microsoft.Dynamics.Nav.Model.Tools.md)  
+[Administration Cmdlets for Microsoft Dynamics NAV Extensions](Microsoft.Dynamics.Nav.Apps.Tools/Microsoft.Dynamics.Nav.Apps.Tools.md)  
+[Development Cmdlets for Microsoft Dynamics NAV Extensions](Microsoft.Dynamics.Nav.Apps.Tools/Microsoft.Dynamics.Nav.Apps.Tools.md)  
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)

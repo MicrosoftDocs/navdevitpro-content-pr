@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV 'TENERIFE'
+Microsoft Dynamics NAV 2017

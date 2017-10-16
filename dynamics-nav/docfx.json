@@ -28,7 +28,10 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {"author": "jswymer"},
+    "globalMetadata": {
+      "author": "jswymer", 
+      "searchScope": ["DynamicsNAV"],
+      "titleSuffix": "Dynamics NAV"},
     "fileMetadata": {},
     "template": [
       null
