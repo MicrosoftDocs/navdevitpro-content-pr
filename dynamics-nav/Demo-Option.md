@@ -24,7 +24,7 @@ The **Install Demo** option is available on the first page after you accept the 
 
 -   When you choose **Demo Install**, Setup begins to copy files. After this, you have no additional interaction with Setup. Choose **Close** to exit Setup when it is finished copying files.  
 
--   Setup installs SQL Server 2016 Express, creates a SQL Server instance, **NAVDEMO**, and installs the **Demo Database NAV \(10-0\)** in this instance. Previous versions of [!INCLUDE[navnow](includes/navnow_md.md)] installed the Demo database in the default SQL Server instance.  
+-   Setup installs SQL Server 2012 Express, creates a SQL Server instance, **NAVDEMO**, and installs the **Demo Database NAV \(10-0\)** in this instance. Previous versions of [!INCLUDE[navnow](includes/navnow_md.md)] installed the Demo database in the default SQL Server instance.  
 
      The first time that you install [!INCLUDE[navnowlong](includes/navnowlong_md.md)], the new SQL Server instance and Demo database are created automatically. If you subsequently delete [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and then run Setup to install the Demo version again, Setup prompts you to replace the existing database:  
 

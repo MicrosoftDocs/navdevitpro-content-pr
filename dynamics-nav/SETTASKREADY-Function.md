@@ -62,6 +62,5 @@ TASKSCHEDULER.SETTASKREADY(taskID);
  [Task Scheduler](Task-Scheduler.md)  
  [TaskScheduler Data Type](TaskScheduler-Data-Type.md)   
  [CREATETASK Function](CREATETASK-Function.md)   
- [CANCELTASK Function](CANCELTASK-Function.md)  
- [CANCREATETASK Function](CANCREATETASK-Function.md)   
+ [CANCELTASK Function](CANCELTASK-Function.md)   
  [TASKEXISTS Function](TASKEXISTS-Function.md)
