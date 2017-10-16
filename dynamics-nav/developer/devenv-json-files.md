@@ -36,10 +36,10 @@ The following table describes the settings in the ```app.json``` file:
 |help|No, but required for AppSource submission|URL to the help for the extension.|
 |url|No|URL of the extension package.|
 |logo|No, but required for AppSource submission|URL to the logo for the extension package.|
-|dependencies|No|List of dependencies for the extension package.|
+|dependencies|No|List of dependencies for the extension package. For example: `"dependencies": [ {  "appId": "4805fd15-75a5-46a2-952f-39c1c4eab821", "name": "WeatherLibrary", "publisher": "Microsoft", "version": "1.0.0.0"}],`|
 |screenshots|No|Relative paths to any screenshots that should be in the extension package.|
 |platform|Yes, if system tables are referenced in the extension|The minimum supported version of the platform symbol package file, for example: "11.0.0.0". See the [Symbols](devenv-symbols.md) for the list of object symbols contained in the platform symbol package file.|
-|application|Yes, if base application objects are extended or referenced |The minimum supported version and locale of the base application to extend, for example: ```{  "version": "11.0.0.0",  "locale": "W1"  }```|
+|application|Yes, if base application objects are extended or referenced |The minimum supported version, for example: `"application": "11.0.0.0"`|
 |idRange|No|An optional range for application object IDs. For all objects outside the range, a compilation error will be raised.|
 
 ## Launch.json file
