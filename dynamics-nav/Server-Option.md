@@ -25,7 +25,7 @@ The Server option is available on the **Choose an installation option** page in 
   
 -   Microsoft Office Outlook integration.  
   
--   SharePoint Online integration. For more information, see [Integrating with Microsoft Office](Integrating-with-Microsoft-Office.md).  
+-   SharePoint Online integration. <!--For more information, see [Integrating with Microsoft Office](Integrating-with-Microsoft-Office.md). --> 
   
  [!INCLUDE[nav_server](includes/nav_server_md.md)] represents the middle tier in the [!INCLUDE[navnow](includes/navnow_md.md)] three-tier [Product and Architecture Overview](Product-and-Architecture-Overview.md). The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)] is tier one, and [SQL Server Database Components](SQL-Server-Database-Components.md), together with SQL Server or SQL Server Express, is tier three.  
   
