@@ -12,7 +12,7 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # Running Reports
-After you design a report's dataset and layout, you can make it available in [!INCLUDE[navnow](includes/navnow_md.md)] client applications. For example, you can add a report to the **Report** tab of a page. 
+After you design a report's dataset and layout, you can make it available in [!INCLUDE[navnow](includes/navnow_md.md)] client applications. For example, you can add a report to the **Report** tab of a page. When you preview a report from a client computer, the report is displayed using Report Viewer.  
   
  The following table describes where to find information about how to run reports.  
   
@@ -21,7 +21,6 @@ After you design a report's dataset and layout, you can make it available in [!I
 |Learn how to add a report to a client page.|[How to: Make a Report Available from a Page](How-to--Make-a-Report-Available-from-a-Page.md)|  
 |Learn about how to run reports from Object Designer, a client, or at a command prompt.|[How to: Run Reports](How-to--Run-Reports.md)|  
   
-<!-- removed for tenerife because we now ditribute our own viewer.
 ##  <a name="ReportViewer"></a> Report Viewer  
  The ReportViewer controls included with Visual Studio 2012 and Visual Studio 2013 allow reports to be embedded in [!INCLUDE[navnow](includes/navnow_md.md)] client applications. The ReportViewer controls are installed automatically on the following:  
   
@@ -33,7 +32,7 @@ After you design a report's dataset and layout, you can make it available in [!I
   
  The ReportViewer controls included with Visual Studio 2012 and Visual Studio 2013 prevent code expressions in hidden items on a report from being evaluated. We recommend that you eliminate code expressions from hidden items on reports.  
   
- In [!INCLUDE[nav2009](includes/nav2009_md.md)], when you redesigned Classic reports as client report definition \(RDLC\) reports, in some cases, you may have created hidden text boxes in the body of a report so that in the RDLC layout, you could reference that report item in the header or footer of the report. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)] you do not have to create hidden text boxes in order to reference an item in a header or footer because the RDLC version allows data-bound fields in headers and footers. Additionally, if the hidden text boxes that you added had code expressions, then they may not be evaluated by the ReportViewer controls that are used in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. We recommend that you move these data-bound fields out of the hidden items. For example, you may be able to move the code expression from the hidden text box to the **Visibility** property of the text box. For more information, see [How to: Print Report Header Information on Multiple Pages](How-to--Print-Report-Header-Information-on-Multiple-Pages.md). --> 
+ In [!INCLUDE[nav2009](includes/nav2009_md.md)], when you redesigned Classic reports as client report definition \(RDLC\) reports, in some cases, you may have created hidden text boxes in the body of a report so that in the RDLC layout, you could reference that report item in the header or footer of the report. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)] you do not have to create hidden text boxes in order to reference an item in a header or footer because the RDLC version allows data-bound fields in headers and footers. Additionally, if the hidden text boxes that you added had code expressions, then they may not be evaluated by the ReportViewer controls that are used in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. We recommend that you move these data-bound fields out of the hidden items. For example, you may be able to move the code expression from the hidden text box to the **Visibility** property of the text box. For more information, see [How to: Print Report Header Information on Multiple Pages](How-to--Print-Report-Header-Information-on-Multiple-Pages.md).  
   
 ## See Also  
  [Defining the Report Dataset](Defining-the-Report-Dataset.md)   

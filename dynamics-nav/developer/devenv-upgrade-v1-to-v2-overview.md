@@ -19,7 +19,7 @@ Extensions are a programming model where functionality is defined as an addition
 
 1.  Convert the source code from C/AL to the AL syntax.
 2.  Complete the development of the extension in AL syntax.
-3.  Write upgrade code to restore and modify data from the V1 Extension tables.
+3.  Write upgrade code to restore and modify data from the V1 extension tables.
 4.  Build the extension.
 5.  Uninstall the V1 extension, and publish and run upgrade on the V2 extension. 
 
@@ -134,7 +134,7 @@ The steps use the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)].
     This removes the unused extension package from server.
 
 ## Going forward
-The upgrade code unit becomes an integral part of the extension. The **NAVAPP** methods were mainly be used for the conversion from V1 to V2. After converting the extension, you should begin to write upgrade code as described in [Upgrading Extensions](devenv-upgrading-extensions.md).
+The upgrade code unit becomes an integral part of the extension. The **NAVAPP** methods were mainly used for the conversion from V1 to V2. After converting the extension, you should begin to write upgrade code as described in [Upgrading Extensions](devenv-upgrading-extensions.md).
 
 ## See Also
 [Getting Started](devenv-get-started.md)  
