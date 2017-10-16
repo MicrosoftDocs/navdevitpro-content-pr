@@ -63,5 +63,5 @@ The Server option is available on the **Choose an installation option** page in 
  [SQL Server Database Components](SQL-Server-Database-Components.md)   
  [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   
  [Configuring Microsoft Dynamics NAV Help Server](Configuring-Microsoft-Dynamics-NAV-Help-Server.md)   
- [Integrating with Microsoft Office](Integrating-with-Microsoft-Office.md)   
+ <!--[Integrating with Microsoft Office](Integrating-with-Microsoft-Office.md) -->  
  [Automated Data Capture System](Automated-Data-Capture-System.md)
