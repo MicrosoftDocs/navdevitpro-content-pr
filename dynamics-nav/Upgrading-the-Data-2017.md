@@ -12,7 +12,7 @@ ms.prod: "dynamics-nav-2017"
 ---
 # Upgrading the Data to Dynamics NAV 2017
 
-**Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [Go to[!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Upgrading-the-Data.md).
+**Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [See [!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Upgrading-the-Data.md).
 
 This topic describes the tasks required for upgrading the following database versions to [!INCLUDE[nav2017](includes/nav2017.md)]:
 -   [!INCLUDE[nav7long](includes/nav7long_md.md)]
@@ -28,7 +28,7 @@ The data upgrade process described in this article leads you through the databas
 Before you start the upgrade tasks, make sure you meet the following prerequisites:
 1.  Your computer uses the same codepage as the data that will be upgraded.
 
-    If you use conflicting codepages, some characters will not display in captions, and you might not be able to access the upgraded database. This is because [!INCLUDE[nav2017](includes/nav2017.md)]  must remove incorrect metadata characters to complete the data upgrade. In this case, after upgrade, you must open the database in the development environment on a computer with the relevant codepage and compile all objects. This adds the missing characters again.
+    If you use conflicting codepages, some characters will not display in captions, and you might not be able to access the upgraded database. This is because [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)]  must remove incorrect metadata characters to complete the data upgrade. In this case, after upgrade, you must open the database in the development environment on a computer with the relevant codepage and compile all objects. This adds the missing characters again.
 
     Optionally, you can export the captions before the upgrade. For more information, see [How to: Add Translated Strings for Conflicting Text Encoding Formats](How-to--Add-Translated-Strings-for-Conflicting-Text-Encoding-Formats.md).
 
@@ -52,7 +52,7 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
     For more information, see [How to: Export and Import Encryption Keys](how-to-export-and-import-encryption-keys.md).  
 
 > [!NOTE]
->If the old Microsoft Dynamics NAV application uses Payment Services for Microsoft Dynamics ERP, be aware that this is discontinued in [!INCLUDE[nav2017](includes/nav2017.md)]. This means that most of the objects that are associated with this feature will be deleted during the upgrade. Some objects you will have to manually delete.
+>If the old Microsoft Dynamics NAV application uses Payment Services for Microsoft Dynamics ERP, be aware that this is discontinued in [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)]. This means that most of the objects that are associated with this feature will be deleted during the upgrade. Some objects you will have to manually delete.
 
 ## Task 1: Prepare the old database
 
@@ -217,7 +217,7 @@ You import the permission sets and permissions XML files.
  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], choose **Tools**, choose **Language**, and then select the language of the original customer database.  
 
 ##  <a name="AddControlAddins"></a> Task 16: Register client control add-ins  
- The database is now fully upgraded and is ready for use. However, [!INCLUDE[nav2017](includes/nav2017.md)] includes the following client control add-ins.
+ The database is now fully upgraded and is ready for use. However, [!INCLUDE[navnowlong](includes/navnowlong_md.md)] includes the following client control add-ins.
 -   Microsoft.Dynamics.Nav.Client.BusinessChart  
 -   Microsoft.Dynamics.Nav.Client.CodeViewer
 -   Microsoft.Dynamics.Nav.Client.DynamicsOnlineConnect

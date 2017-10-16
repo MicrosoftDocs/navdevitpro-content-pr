@@ -12,7 +12,7 @@ caps.latest.revision: 24
 ---
 # Deploying the Microsoft Dynamics NAV Web Server Components
 
-**Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [Go to[!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md).
+**Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [See [!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md).
 
 This section contains information about the deployment of the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. It is important to understand the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] environment and consider the factors that will affect the installation and configuration, such as network architecture and infrastructure, users, security, and the deployment phase.  
   
@@ -40,7 +40,7 @@ This section contains information about the deployment of the [!INCLUDE[nav_web_
   
 |Setting|Value|  
 |-------------|-----------|  
-|Name|[!INCLUDE[nav2017](includes/nav2017.md)] Web Client|  
+|Name|[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client|  
 |Binding|Type: http or https \(if you configure SSL on the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]\)<br /><br /> Port: Port number you assigned the [!INCLUDE[nav_web](includes/nav_web_md.md)] \(default 8080\)|  
 |Application pool|DefaultAppPool|  
 |Application pool identity|ApplicationPoolIdentity|  
@@ -58,7 +58,7 @@ This section contains information about the deployment of the [!INCLUDE[nav_web_
   
 |Setting|Value|  
 |-------------|-----------|  
-|Application pool|[!INCLUDE[nav2017](includes/nav2017.md)] Web Client Application Pool|  
+|Application pool|[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client Application Pool|  
 |Application pool identity|ApplicationPoolIdentity|  
 |Physical path|%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\\WebClient **Note:**  This folder is a symbolic link that targets the %systemroot%\\Program Files\\Microsoft Dynamics NAV\\90\\Web Client folder.|  
 |Virtual path/Alias|/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient|  
@@ -74,7 +74,7 @@ This section contains information about the deployment of the [!INCLUDE[nav_web_
  [!INCLUDE[navnow](includes/navnow_md.md)] supports four methods for authenticating users who try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)]: Windows, UserName, NavUserPassword, and AccessControlService. Windows authentication is configured by default. For more information, see [Users and Credential Types](Users-and-Credential-Types.md) and [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How-to--Configure-Authentication-of-Microsoft-Dynamics-NAV-Web-Client-Users.md).  
   
 ### Service Account for [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] Database Access  
- When you install [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] database components, you must identify an Active Directory account to provide credentials for the servers. By default, [!INCLUDE[nav2017](includes/nav2017.md)] Setup runs [!INCLUDE[nav_server](includes/nav_server_md.md)] and the [!INCLUDE[navnow](includes/navnow_md.md)] database under the Network Service account, a predefined local account that is used by the service control manager.  
+ When you install [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] database components, you must identify an Active Directory account to provide credentials for the servers. By default, [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup runs [!INCLUDE[nav_server](includes/nav_server_md.md)] and the [!INCLUDE[navnow](includes/navnow_md.md)] database under the Network Service account, a predefined local account that is used by the service control manager.  
   
 > [!TIP]  
 >  We recommend that you create and use a domain user account for running [!INCLUDE[nav_server](includes/nav_server_md.md)] and accessing the [!INCLUDE[navnow](includes/navnow_md.md)] database. The Network Service account is considered less secure because it is a shared account that can be used by other unrelated network services.  

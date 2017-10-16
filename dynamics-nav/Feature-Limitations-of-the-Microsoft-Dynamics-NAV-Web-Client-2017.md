@@ -15,7 +15,7 @@ manager: edupont
 ---
 # Feature Limitations of the Microsoft Dynamics NAV Web Client
 
-**Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [Go to[!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client.md).
+**Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [See [!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client.md).
 
 [!INCLUDE[nav_web](includes/nav_web_md.md)] supports most of the same [!INCLUDE[navnow](includes/navnow_md.md)] objects and features as [!INCLUDE[nav_windows](includes/nav_windows_md.md)], but there are some small differences. This topic lists the features that are not supported or are partially supported by [!INCLUDE[nav_web](includes/nav_web_md.md)]. These features are listed compared with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The topic is divided into the following sections:  
 

@@ -11,6 +11,9 @@ manager: edupont
 ms.prod: "dynamics-nav-2017"
 ---
 # Changes to Microsoft Dynamics NAV Cmdlets From Previous Release
+
+**Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [See [!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Changes-to-Microsoft-Dynamics-NAV-Cmdlets-From-Previous-Release.md).
+
 The following sections provide an overview of the new, changed, and removed cmdlets in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] and [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] since the previous release.  
 
 ## Changes to [!INCLUDE[nav_shell](includes/nav_shell_md.md)] Cmdlets  
@@ -74,4 +77,3 @@ The following sections provide an overview of the new, changed, and removed cmdl
 [Administration Cmdlets for Microsoft Dynamics NAV Extensions](Microsoft.Dynamics.Nav.Apps.Tools/Microsoft.Dynamics.Nav.Apps.Tools.md)  
 [Development Cmdlets for Microsoft Dynamics NAV Extensions](Microsoft.Dynamics.Nav.Apps.Tools/Microsoft.Dynamics.Nav.Apps.Tools.md)  
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)
-
