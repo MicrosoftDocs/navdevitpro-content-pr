@@ -1602,7 +1602,6 @@
 # [Editing a Setup Configuration File](Editing-a-Setup-Configuration-File.md)
 # [EXPORTSTREAM Function (Media)](EXPORTSTREAM-Function--Media-.md)
 # [COUNT Function (MediaSet)](COUNT-Function--MediaSet-.md)
-# [How to: Configure Microsoft Report Viewer for the Microsoft Dynamics NAV Web Client](How-to--Configure-Microsoft-Report-Viewer-for-the-Microsoft-Dynamics-NAV-Web-Client.md)
 # [How to: Create a Test Page](How-to--Create-a-Test-Page.md)
 # [Code Coverage Virtual Table](Code-Coverage-Virtual-Table.md)
 # [DataCaptionExpr Property](DataCaptionExpr-Property.md)

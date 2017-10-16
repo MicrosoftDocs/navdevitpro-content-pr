@@ -19,7 +19,7 @@ This article provides information about how to make a newer version of extension
 ## Developing an extension for upgrading
 When developing a new extension version, you must consider to the data from the previous version, and any modifications that must be applied to the data to make it compatible with the current version. For example, it could be that the new version adds a new field that needs default values set for existing records or the new version adds new tables that must be linked to existing records. To address this type of data handling, you must write upgrade code for the extension version.
 
-If there are no data changes between the versions of your extension, then you do not need to write upgrade code. All data that is not modified by upgrade code will remain as is.
+If there are no data changes between the versions of your extension, then you do not need to write upgrade code. All data that is not modified by upgrade code will automatically be restored. 
 
 ### Writing upgrade code
 You write upgrade logic in an upgrade codeunit, which is a codeunit whose [SubType property](properties/devenv-subtype-property-codeunit.md) is set to **Upgrade**. An upgrade codeunit supports several system triggers on which you can add data upgrade code. These triggers are invoked when you run the data upgrade process on the new extension.
@@ -73,7 +73,7 @@ codeunit [ID] [NAME]
 > Use the shortcuts `tcodunit` and `ttrigger` to create the basic structure for the codeunit and trigger.
 
 ### Get information about an extension
-Each extension version has a set of properties that contain information about the extension, including: AppVersion, DataVersion, Dependencies, Id, Name, and Publisher. This information can be useful when upgrading. For example, one of the more important properties is the `DataVersion` property, which tells you what version of data you are dealing with. These properties are encapsulated in a `ModuleInfo` data type. You can access these properties by through the `NAVApp.GetCurrentModuleInfo()` and `NAVAPP.GetModuleInfo()` methods.
+Each extension version has a set of properties that contain information about the extension, including: AppVersion, DataVersion, Dependencies, Id, Name, and Publisher. This information can be useful when upgrading. For example, one of the more important properties is the `DataVersion` property, which tells you what version of data you are dealing with. These properties are encapsulated in a `ModuleInfo` data type. You can access these properties through the `NAVApp.GetCurrentModuleInfo()` and `NAVAPP.GetModuleInfo()` methods.
 
 ### Upgrade codeunit example 
 This example uses the `OnCheckPreconditionsPerDatabase()` trigger to check whether the data version of the previous extension version is compatible for the upgrade.
