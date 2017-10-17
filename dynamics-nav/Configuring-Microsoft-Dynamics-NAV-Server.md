@@ -1,7 +1,8 @@
 ---
-title: "Configuring Microsoft Dynamics NAV Server"
+title: Dynamics NAV Server Configuration
+description: Configure and modify settings in the Setup or Installed Microsoft Dynamics NAV Server using the Administration Console and PowerShell Cmdlets.
 author: edupont04
-ms.date: 08/24/2017
+ms.date: 10/16/2017
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
