@@ -39,7 +39,7 @@ From the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you can import a
 3.  Locate the file that you want to import, and then choose the **Open** button.  
   
 ## See Also  
- [Built-in and Custom Report Layouts](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuilinCustomLayouts)   
+ [Built-in and Custom Report Layouts](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuiltinCustomLayouts)   
  [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
  [How to: Modify a Word Report Layout](How-to--Modify-a-Word-Report-Layout.md)   
  [How to: Create a Word Report Layout for a Report](How-to--Create-a-Word-Report-Layout-for-a-Report.md)
