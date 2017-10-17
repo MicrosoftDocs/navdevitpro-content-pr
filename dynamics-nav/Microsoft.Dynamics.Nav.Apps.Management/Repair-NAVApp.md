@@ -35,17 +35,17 @@ If you have deployed your NAV database to Azure SQL Database, you will need to c
 
 ### EXAMPLE 1
 ```
-Repair-NAVApp -ServerInstance DynamicsNAV90 -Name 'Proseware SmartApp' -Version 2.3.4.500
+Repair-NAVApp -ServerInstance DynamicsNAV110 -Name 'Proseware SmartApp' -Version 2.3.4.500
 ```
 
 This example repairs the NAV App with a name of Proseware SmartApp and version of 2.3.4.500.
 
 ### EXAMPLE 2
 ```
-Get-NAVAppInfo -ServerInstance DynamicsNAV90 | Repair-NAVApp
+Get-NAVAppInfo -ServerInstance DynamicsNAV110 | Repair-NAVApp
 ```
 
-This example repairs all of the NAV Apps in the DynamicsNAV90 server instance's app catalog.
+This example repairs all of the NAV Apps in the DynamicsNAV110 server instance's app catalog.
 
 ## PARAMETERS
 

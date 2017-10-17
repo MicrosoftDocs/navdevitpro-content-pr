@@ -1,16 +1,18 @@
 ---
 title: "Browser Limitations with the Microsoft Dynamics NAV Web Client"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 17/10/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: c87f0ac3-97d8-4afc-bcf6-a331cf45dd21
-caps.latest.revision: 18
+author: jswymer
 ---
 # Browser Limitations with the Microsoft Dynamics NAV Web Client
+
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Browser-Limitations-with-the-Microsoft-Dynamics-NAV-Web-Client-2017.md).
+
 The [!INCLUDE[nav_web](includes/nav_web_md.md)] supports several browsers. There are some [!INCLUDE[navnow](includes/navnow_md.md)] features that are not supported by all browsers.  
 
  For a list of the supported browsers and versions, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  

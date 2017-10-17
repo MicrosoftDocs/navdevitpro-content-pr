@@ -31,7 +31,7 @@ This topic describes how to use the [!INCLUDE[navnow](includes/navnow_md.md)] Ad
 
     |Parameter|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------|---------------------------------------|  
-    |*\<MyWebApp>*|Specifies the name that you want to give the [!INCLUDE[nav_web](includes/nav_web_md.md)] application instance. This name will become part of the URL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] application, for example, http://MyWebServer:8080/MyWebApp/WebClient.|  
+    |*\<MyWebApp>*|Specifies the name that you want to give the [!INCLUDE[nav_web](includes/nav_web_md.md)] application instance. This name will become part of the URL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] application, for example, *http://MyWebServer:8080/MyWebApp* or *http://MyWebServer:8080/MyWebApp/WebClient* (for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions).|  
     |*\<NAVServer>*|Specifies the name of the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)] to connect the [!INCLUDE[navnow](includes/navnow_md.md)] web server to.|  
     |*\<NAVServerInstance>*|Specifies the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to connect the web server instance to.|  
     |*\<NAVCredentialType>*|Specifies the credential type that is configured for the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)]. Valid options are **NavUserPassword**, **Windows**, **UserName**, and **AccessControlService**. The default value is **NavUserPassword**. **Important:**  The credential type must match the credential type that is used by the [!INCLUDE[navnow](includes/navnow_md.md)] web server to authenticate [!INCLUDE[nav_web](includes/nav_web_md.md)] users. For more information, see [Configuring the Credential Type on the Microsoft Dynamics NAV Web Client Web Site](How-to--Configure-Authentication-of-Microsoft-Dynamics-NAV-Web-Client-Users.md#WebClient).|  
@@ -44,7 +44,7 @@ This topic describes how to use the [!INCLUDE[navnow](includes/navnow_md.md)] Ad
      A new [!INCLUDE[navnow](includes/navnow_md.md)] web server instance with the specified name is added to the [!INCLUDE[nav_web](includes/nav_web_md.md)] site on IIS.  
 
     > [!NOTE]  
-    >  If you want to change the configuration of the new [!INCLUDE[navnow](includes/navnow_md.md)] web server instance after it has been added, modify the web.config file. For more information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md).  
+    >  If you want to change the configuration of the new [!INCLUDE[navnow](includes/navnow_md.md)] web server instance after it has been added, modify the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]. For more information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md).  
 
 ## Example  
  This example creates a new [!INCLUDE[navnow](includes/navnow_md.md)] web server instance that is named MyNavApp. The [!INCLUDE[navnow](includes/navnow_md.md)] web server instance connects to the [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)] server instance on the MyNavServer computer.  

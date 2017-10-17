@@ -74,10 +74,10 @@ DynamicsNAV://///navigate?node=Home/Items
 
 |Parameter|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|Example|  
 |---------------|---------------------------------------|-------------|  
-|Personalization ID|Specifies the unique identification that is used in personalization to store settings in the **User Metadata** table. If a personalization ID is not found, the page is opened without personalization.|`DynamicsNAV://localhost/DynamicsNAV90/CRONUS%20International%20Ltd./runpage?page=22&personalization=0000232e-0000-001a-0008-0000836bd2d2`|  
-|Bookmark|Positions the cursor on a single record in a table.<br /><br /> Only automatically generated bookmarks should be used. If you enter an incorrect bookmark, you will get an error message.|`DynamicsNAV://localhost/DynamicsNAV90/CRONUS%20International%20Ltd./runpage?page=22&bookmark=120000000089083237343`|  
-|Mode|Enables you to open a page in a specific mode, which include view, edit, create, select, and delete.|`DynamicsNAV://localhost/DynamicsNAV90/CRONUS%20International%20Ltd./runpage?page=22&mode=View`|  
-|Filter|Enables you to open a page with a specific filter applied. In the example, you open the customer list filtered to customer number 10000.|`DynamicsNAV://localhost/DynamicsNAV90/CRONUS%20International%20Ltd./runpage?page=22&$filter='No.'-IS-'10000'`|  
+|Personalization ID|Specifies the unique identification that is used in personalization to store settings in the **User Metadata** table. If a personalization ID is not found, the page is opened without personalization.|`DynamicsNAV://localhost/DynamicsNAV110/CRONUS%20International%20Ltd./runpage?page=22&personalization=0000232e-0000-001a-0008-0000836bd2d2`|  
+|Bookmark|Positions the cursor on a single record in a table.<br /><br /> Only automatically generated bookmarks should be used. If you enter an incorrect bookmark, you will get an error message.|`DynamicsNAV://localhost/DynamicsNAV110/CRONUS%20International%20Ltd./runpage?page=22&bookmark=120000000089083237343`|  
+|Mode|Enables you to open a page in a specific mode, which include view, edit, create, select, and delete.|`DynamicsNAV://localhost/DynamicsNAV110/CRONUS%20International%20Ltd./runpage?page=22&mode=View`|  
+|Filter|Enables you to open a page with a specific filter applied. In the example, you open the customer list filtered to customer number 10000.|`DynamicsNAV://localhost/DynamicsNAV110/CRONUS%20International%20Ltd./runpage?page=22&$filter='No.'-IS-'10000'`|  
 
 ## Understanding Syntax for Creating Hyperlinks  
  The following table shows some examples of hyperlinks and provides information about how to specify parameters.  

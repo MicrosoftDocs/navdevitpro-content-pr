@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: c12c52a8-d4a8-4749-beb2-00229f98adfb
 caps.latest.revision: 4
-manager: edupont
+author: jswymer
 ---
 # Running Reports
 After you design a report's dataset and layout, you can make it available in [!INCLUDE[navnow](includes/navnow_md.md)] client applications. For example, you can add a report to the **Report** tab of a page. 
@@ -21,8 +21,7 @@ After you design a report's dataset and layout, you can make it available in [!I
 |Learn how to add a report to a client page.|[How to: Make a Report Available from a Page](How-to--Make-a-Report-Available-from-a-Page.md)|  
 |Learn about how to run reports from Object Designer, a client, or at a command prompt.|[How to: Run Reports](How-to--Run-Reports.md)|  
   
-<!-- removed for tenerife because we now ditribute our own viewer.
-##  <a name="ReportViewer"></a> Report Viewer  
+##  <a name="ReportViewer"></a> Report Viewer in [!INCLUDE[nav2017](includes/nav2017.md)] and earlier  
  The ReportViewer controls included with Visual Studio 2012 and Visual Studio 2013 allow reports to be embedded in [!INCLUDE[navnow](includes/navnow_md.md)] client applications. The ReportViewer controls are installed automatically on the following:  
   
 1.  Client computer, for viewing reports from the [!INCLUDE[navnow](includes/navnow_md.md)] client.  

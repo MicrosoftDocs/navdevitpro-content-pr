@@ -7,10 +7,12 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: ad358d83-9ef5-48e7-9ffb-a0912293705a
-caps.latest.revision: 2
+author: jswymer
 ---
 # Upgrade Considerations
+
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Upgrade-Considerations-2017.md).
+
 Depending on which version you are upgrading from, and the degree to which your solution differs from the standard version of [!INCLUDE[navnow](includes/navnow_md.md)], you may want to prepare your solution for the upgrade. This topic provides tips for things to consider when you prepare to upgrade to [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
 
 ## Names of Variables  

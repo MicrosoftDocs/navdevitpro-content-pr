@@ -7,11 +7,14 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
-manager: edupont
+author: jswymer
 ms.prod: "dynamics-nav-2017"
-
 ---
 # Upgrading to [!INCLUDE[nav2018_md](includes/nav2018_md.md)]
+
+
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Upgrading-to-Microsoft-Dynamics-NAV-2017.md).
+
 This topic provides an overview of how to upgrade to [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. The upgrade process depends on different factors, such as the version of [!INCLUDE[navnow](includes/navnow_md.md)] that you are upgrading from, and the degree to which your solution differs from the standard version of [!INCLUDE[navnow](includes/navnow_md.md)]. The mains tasks range from converting the database to upgrading application code and data.
 
 Use the following table to determine the procedures that you must complete for your upgrade scenario.
