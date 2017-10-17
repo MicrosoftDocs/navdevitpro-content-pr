@@ -1,7 +1,8 @@
 ---
-title: "Users and Credential Types"
+title: Users and Credential Authorization
+description: This article explains how the credential authorization mechanism works for Microsoft Dynamics NAV users and how to configure credential types.
 ms.custom: na
-ms.date: 01/02/2017
+ms.date: 10/17/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: ec4b3a58-4834-41b5-a382-6d619fa12636
 caps.latest.revision: 32
 ---
-# Users and Credential Types
+# Credential Types for Dynamics NAV Users
 [!INCLUDE[navnowlong](includes/navnowlong_md.md)] supports four credential authorization mechanisms for [!INCLUDE[navnow](includes/navnow_md.md)] users. When you create a user, you provide different information depending on the credential type that you are using in the current [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
 > [!IMPORTANT]  
