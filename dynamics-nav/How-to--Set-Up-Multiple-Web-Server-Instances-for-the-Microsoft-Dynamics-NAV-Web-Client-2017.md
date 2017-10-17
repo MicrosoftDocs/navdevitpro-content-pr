@@ -38,7 +38,7 @@ When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], 
   
 1.  \(Optional\) Modify the instanceweb.config file.  
   
-     For more information, see [Modifying the Microsoft Dynamics NAV Settings in the Instanceweb.config File](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md#ModifyInstanceweb)  
+     For more information, see [Modifying the Microsoft Dynamics NAV Settings in the Instanceweb.config File](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client-2017.md#ModifyInstanceweb)  
   
     > [!NOTE]  
     >  You would typically follow this step if you were adding multiple [!INCLUDE[nav_web](includes/nav_web_md.md)] instances to save time configuring each instance.  

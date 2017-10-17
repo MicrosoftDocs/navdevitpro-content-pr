@@ -10,7 +10,7 @@ author:  jswymer
 ms.prod: "dynamics-nav-2017"
 ---
 # Updating Report Layouts to Dataset Changes
-When you make changes to the report dataset, the report layouts that are used on the report must to be updated to the changes. The process for updating report layouts is different for built-in layouts and custom layouts. For an explanation of built-in and custom layouts, see [Built-in and Custom Report Layouts](managing-report-layouts.md#BuiltinLayout).  
+When you make changes to the report dataset, the report layouts that are used on the report must to be updated to the changes. The process for updating report layouts is different for built-in layouts and custom layouts. For an explanation of built-in and custom layouts, see [Built-in and Custom Report Layouts](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuiltinCustomLayouts).  
   
 ## Updating Built-in Report Layouts  
  With most changes to a report dataset, such as adding or renaming a field, the built-in report layout will automatically be updated to the changes when you compile the report. However, there are certain dataset changes, such as deleting a field or changing a field's ID, which cannot be updated in the built-in report layout automatically. With these types of changes, you will get an error, which includes a description of the problem, when you try to compile the report. To update a built-in report layout to dataset changes in these cases, you must manually modify the report layout in Word, Visual Studio, or SQL Report Builder, depending on the report layout type, and fix any errors that are caused by the changes. After you modify the built-in layout, you can compile the report.  

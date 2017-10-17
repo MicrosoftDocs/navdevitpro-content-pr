@@ -49,7 +49,7 @@ You open the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using a web browser 
 
     -   **Port** with the port number that you configured for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] during installation.  
 
-    -   **WebServerInstance** with the virtual directory alias under which the [!INCLUDE[nav_web](includes/nav_web_md.md)] application exists on the web server. For more information, see [Microsoft Dynamics NAV Web Server Components Installation on IIS](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md#WebClientonIIS).  
+    -   **WebServerInstance** with the virtual directory alias under which the [!INCLUDE[nav_web](includes/nav_web_md.md)] application exists on the web server. For more information, see [Microsoft Dynamics NAV Web Server Components Installation on IIS](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-2017.md#WebClientonIIS).  
 
     -   **TenantID** with the name of the tenant that you want to connect to. This parameter is only required when [!INCLUDE[navnow](includes/navnow_md.md)] is deployed in a multitenant architecture. The tenant that you specify must be mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to. For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).  
 

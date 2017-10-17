@@ -66,5 +66,5 @@ URL    |Opens the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] to a pa
 -showHelpId    |This command starts [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] and enables a dialog box which is called each time you press F1. This dialog box displays information about the Help topic that is called from the current page.         
 
 ### See Also
-[Creating and Running Hyperlinks](Creating%20and%20Running%20Hyperlinks.md)
+[Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md)  
 
