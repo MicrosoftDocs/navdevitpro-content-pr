@@ -7,17 +7,11 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 176e0f8c-5346-44d5-a0cf-bf3f8cf62e04
-caps.latest.revision: 16
-manager: edupont
+author: jswymer
 ---
 # Installation and Configuration Walkthroughs
 The walkthrough topics in this section present the various procedures that administrators or Microsoft Certified Partners would have to perform to successfully install the three tiers in the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Product Architecture.  
 
-<!-->  
-> [!NOTE]  
->  For assistance with setting up companies after installing and configuring [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] software, see [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](Set-Up-a-Company-With-RapidStart-Services-for-Microsoft-Dynamics-NAV.md).  -->
-  
 ## In This Section  
  [Walkthrough: Installing the Demo Version](Walkthrough--Installing-the-Demo-Version.md)  
   
