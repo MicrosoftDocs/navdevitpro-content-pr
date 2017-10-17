@@ -13,7 +13,7 @@ author: jswymer
 ---
 # Converting a Database - Technical Upgrade
 
-**Applies to:** [!INCLUDE[nav2018_md](includes/nav2017.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)]](Converting-a-Database-2017.md).
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Converting-a-Database-2017.md).
 
 This article describes how to convert a  [!INCLUDE[navnow](includes/navnow_md.md)] database from one of the following versions to [!INCLUDE[nav2017](includes/nav2017.md)]:
 

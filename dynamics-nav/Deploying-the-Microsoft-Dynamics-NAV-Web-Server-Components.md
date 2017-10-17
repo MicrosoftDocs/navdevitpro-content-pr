@@ -11,7 +11,7 @@ author: jswymer
 ---
 # Deploying the Microsoft Dynamics NAV Web and Mobile Clients
 
-**Applies to:** [!INCLUDE[nav2018_md](includes/nav2017.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)]](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-2017.md).
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-2017.md).
 
 Giving users the capability to access to data by using the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], [!INCLUDE[nav_phone](includes/nav_phone_md.md)], and Outlook add-in requires a Internet Information Services (IIS) web site as part of your deployment. The website, which we refer to as [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance, hosts the files that provide content and services to client users over the Internet. This article highlights several factors to consider to help you set up [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances that suit your deployment requirements.
 

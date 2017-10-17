@@ -10,10 +10,9 @@ ms.author: jswymer
 manager: edupont
 ms.prod: "dynamics-nav-2017"
 ---
-# Upgrading the Data to [!INCLUDE[nav2018_md](includes/nav2017.md)]
+# Upgrading the Data to [!INCLUDE[nav2018_md](includes/nav2018_md.md)]
 
-**Applies to:** [!INCLUDE[nav2018_md](includes/nav2017.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)]](Upgrading-the-Data-2017.md).
-
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Upgrading-the-Data-2017.md).
 
 This topic describes the tasks required for upgrading the following database versions to [!INCLUDE[nav2018_md](includes/nav2018_md.md)]:
 

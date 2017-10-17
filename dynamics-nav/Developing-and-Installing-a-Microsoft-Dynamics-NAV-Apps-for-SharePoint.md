@@ -7,11 +7,10 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 0ac8f2ec-63ba-443b-985b-2b4ee0a01f7e
-caps.latest.revision: 26
+author: jswymer
 ---
 # Developing and Installing a Microsoft Dynamics NAV Apps for SharePoint
-**Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. For earlier versions, see[Developing and Installing a Microsoft Dynamics NAV Apps for SharePoint](Developing-and-Installing-a-Microsoft-Dynamics-NAV-Apps-for-SharePoint-2017.md)
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Developing-and-Installing-a-Microsoft-Dynamics-NAV-Apps-for-SharePoint-2017.md)
 
 If you set up a SharePoint site using SharePoint Online or SharePoint on-premises, you can embed [!INCLUDE[navnow](includes/navnow_md.md)] in an app on the site. You can create an app that opens [!INCLUDE[nav_web](includes/nav_web_md.md)] in a new browser tab, and you can display [!INCLUDE[navnow](includes/navnow_md.md)] data in hosted app parts in the SharePoint site. Building and deploying apps for SharePoint requires that you create the app in Visual Studio and add it to the SharePoint site. After you have built your app, you can make it available to other sites, such as subsites in your site collection. For example, if you provide financial services to several customers, you can set up a site collection with a subsite for each subscriber. You can then create and deploy an app for SharePoint that displays each subscriber’s [!INCLUDE[navnow](includes/navnow_md.md)] data in their SharePoint site. You can create an app for SharePoint that will display different pages in [!INCLUDE[nav_web](includes/nav_web_md.md)] as hosted app parts.  
 

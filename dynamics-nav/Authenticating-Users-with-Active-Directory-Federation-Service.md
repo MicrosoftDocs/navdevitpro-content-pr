@@ -10,7 +10,8 @@ ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
 # Authenticating Users with Active Directory Federation Services
-**Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. For earlier versions, see [Authenticating Users with Active Directory Federation Services](Authenticating-Users-with-Active-Directory-Federation-Service-2017.md)
+
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Authenticating-Users-with-Active-Directory-Federation-Service-2017.md)
 
 [!INCLUDE[navnow](includes/navnow_md.md)] supports Active Directory Federation Services (AD FS) authentication for authenticating users, without having to use the Access Control Service (ACS). This article walks you through the steps about how to set up AD FS authentication in AD FS Management console, and then how to configure it in [!INCLUDE[navnow](includes/navnow_md.md)].
 

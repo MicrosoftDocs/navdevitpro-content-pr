@@ -7,12 +7,11 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 91b2dbc0-7d66-49ce-811f-140e18c4412c
-caps.latest.revision: 9
+author: jswymer
 ---
 # Automating the Upgrade Process using Sample Windows PowerShell Scripts
 
-**Applies to:** [!INCLUDE[nav2018_md](includes/nav2017.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)]](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts-2017.md).
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts-2017.md).
 
 You can use [!INCLUDE[wps_2](includes/wps_2_md.md)] scripts to help you upgrade to the latest version of [!INCLUDE[navnow](includes/navnow_md.md)]. You can use automation to upgrade a single [!INCLUDE[navnow](includes/navnow_md.md)] database as well as multiple [!INCLUDE[navnow](includes/navnow_md.md)] databases that use the same application. [!INCLUDE[navnowlong](includes/navnowlong_md.md)] provides sample scripts that you can adapt for your deployment architecture.  
 

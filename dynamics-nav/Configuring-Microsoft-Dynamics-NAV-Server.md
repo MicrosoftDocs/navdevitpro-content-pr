@@ -7,7 +7,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.author: edupont
 author: jswymer
-
 ---
 # Configuring Microsoft Dynamics NAV Server
 

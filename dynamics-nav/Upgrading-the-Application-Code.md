@@ -12,7 +12,7 @@ ms.prod: "dynamics-nav-2017"
 ---
 # Upgrading the Application Code
 
-**Applies to:** [!INCLUDE[nav2018_md](includes/nav2017.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)]](Upgrading-the-Application-Code-2017.md).
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Upgrading-the-Application-Code-2017.md).
 
 Typically, customers want all the customizations that have been implemented in their existing [!INCLUDE[navnow](includes/navnow_md.md)] databases to be migrated to their new [!INCLUDE[navnowlong](includes/navnowlong_md.md)] databases. Depending on the version of [!INCLUDE[navnow](includes/navnow_md.md)] that a database is being upgraded from, the amount of code changes between the two versions can vary. To upgrade the application code, you must merge code from different versions of the application. This merge process is known as a *code upgrade* or *application upgrade*. You must upgrade the application before you upgrade the data.  
 
