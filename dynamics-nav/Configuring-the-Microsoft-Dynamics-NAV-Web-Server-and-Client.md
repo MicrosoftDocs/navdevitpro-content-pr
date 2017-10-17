@@ -1,7 +1,8 @@
 ---
-title: "Configuring the Microsoft Dynamics NAV Web Server and Client"
+title: Configure the Web Server and Client
+description: This article explains how to configure the initial Setup and the Installed Microsoft Dynamics NAV Web Server and Client.
 ms.custom: na
-ms.date: 09/21/2017
+ms.date: 10/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,7 +13,6 @@ author: jswymer
 # Configuring the Microsoft Dynamics NAV Web Server and Client
 When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup to initially deploy the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you provide information that is used as the configuration for the default [!INCLUDE[navnow](includes/navnow_md.md)] web server instance, which is then used by the web, tablet, and phone clients.
 For example, during Setup, you specify the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[navnow](includes/navnow_md.md)] Web Server connects to and the port that is used. For more information about Setup, see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).  
-
   
 ## Configuring the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] After Installation 
 After installation, you can change any of the configuration settings that you provided during Setup and configure additional settings to suit your deployment requirements.
@@ -53,6 +53,7 @@ There are different ways to configure the [!INCLUDE[nav_web_server](includes/nav
      </table>  
 
      For more information, see [Microsoft.Dynamics.Nav.Management Module](Microsoft.Dynamics.Nav.Management/microsoft.dynamics.nav.management.md)
+
 ## Typical Tasks
 
 Here are links to the most common configuration tasks that you will perform on the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances and clients:
