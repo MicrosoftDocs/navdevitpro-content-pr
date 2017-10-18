@@ -27,7 +27,9 @@ By default, [!INCLUDE[navnow_md](includes/navnow_md.md)] uses a *separate schema
 
 The shared schema data model has these characteristics: 
 
--  A database can be shared by more than one tenant. Information about the tenants and their companies is stored in shared tables in the database. This introduces a fundamental change to the concept of the tenant and tenant database, particularly in a multitenant deployment. The tenant database is a container for tenants, where each tenant is a unit of data in the tenant database (see figure 2). 
+-  A database can be shared by more than one tenant. Information about the tenants and their companies is stored in shared tables in the database (see figure 2).
+
+    This is a fundamental change to the concept of the tenant and tenant database, particularly in a multitenant deployment. The tenant database is a container for one or more tenants, where each tenant is a unit of data in the tenant database (see figure 2). You can have multiple tenant databases on which you can mount tenants, delete tenants, move tenants to another tenant database, and more.  
 -  In the database, companies share tables for storing business data. There is one set of business entity data tables for all companies and tenants in the database (see figure 3). 
 
  ![Shared schema tenant data](media/SharedSchemaTenantTables.png "Shared schema tenant data")
