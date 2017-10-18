@@ -1,7 +1,8 @@
 ---
-title: "Upgrading the Data"
+title: Upgrading the Database
+description: This article describes the tasks required for upgrading from the earlier versions of database to the Microsoft Dynamics NAV 2017.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/17/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
