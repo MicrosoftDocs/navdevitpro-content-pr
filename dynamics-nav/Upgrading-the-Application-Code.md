@@ -1,7 +1,8 @@
 ---
-title: "Upgrading the Application Code"
+title: Upgrade Application Code
+description: The article explains how to upgrade the application code and how to merge code from different versions of the application.
 ms.custom: na
-ms.date: 03/04/2017
+ms.date: 10/17/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.author: jswymer
 manager: edupont
 ms.prod: "dynamics-nav-2017"
 ---
-# Upgrading the Application Code
+# Upgrading the Application Code in Dynamics NAV
 Typically, customers want all the customizations that have been implemented in their existing [!INCLUDE[navnow](includes/navnow_md.md)] databases to be migrated to their new [!INCLUDE[navnowlong](includes/navnowlong_md.md)] databases. Depending on the version of [!INCLUDE[navnow](includes/navnow_md.md)] that a database is being upgraded from, the amount of code changes between the two versions can vary. To upgrade the application code, you must merge code from different versions of the application. This merge process is known as a *code upgrade* or *application upgrade*. You must upgrade the application before you upgrade the data.  
 
 ## Application Upgrade Overview  
@@ -99,23 +100,23 @@ There are three ways to export application objects to text files:
     For example, you can run the following command:
     ```  
     Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "Demo Database NAV (10-0)" –Path C:\Upgrade\MODIFIED\OldCUSTOMVersion.txt -Filter 'Id=1..1999999999'
-```  
+    ```  
 
 Optionally, you can use the [Split-NAVApplicationObjectFile](https://go.microsoft.com/fwlink/?linkid=398885) cmdlet to split each text file into separate text files for each application object. This can make it easier to keep track of the process. The end result at this stage is three folders with one or more text files that contain the three sets of application objects that you want to merge.  
 
 ## Task 2: Merge Versions  
 You must now merge the three sets of application objects to create the application for the new database. This section illustrates how to do this by using the [Merge-NAVApplicationObject](https://go.microsoft.com/fwlink/?linkid=398884) cmdlet. Additionally, the [!INCLUDE[navnow](includes/navnow_md.md)] product media contains sample scripts provide examples of how you can use the [Merge-NAVApplicationObject](https://go.microsoft.com/fwlink/?linkid=398884) cmdlet to merge application objects. For more information, see [How to: Merge Application Changes](How-to--Merge-Application-Changes.md).
 
-> [!Note]
->In certain scenarios, you can choose to use the [Compare-NAVApplicationObject](https://go.microsoft.com/fwlink/?linkid=398882) cmdlet to identify the changes between the existing customized application and the new application. You can then choose to use the [Update-NAVApplicationObject](https://go.microsoft.com/fwlink/?linkid=398886) cmdlet to apply all or some of the changes to the new version. For more information, see [How to: Compare and Update Application Object Source Files](How-to--Compare-and-Update-Application-Object-Source-Files.md). However, we recommend that you use the Merge-NAVApplicationObject  cmdlet in most cases.
+> [!Note]  
+> In certain scenarios, you can choose to use the [Compare-NAVApplicationObject](https://go.microsoft.com/fwlink/?linkid=398882) cmdlet to identify the changes between the existing customized application and the new application. You can then choose to use the [Update-NAVApplicationObject](https://go.microsoft.com/fwlink/?linkid=398886) cmdlet to apply all or some of the changes to the new version. For more information, see [How to: Compare and Update Application Object Source Files](How-to--Compare-and-Update-Application-Object-Source-Files.md). However, we recommend that you use the Merge-NAVApplicationObject  cmdlet in most cases.
 
 ### Merge the application object versions into text files
 1. Run the  [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] as an administrator.
 2. At the command prompt, change to the directory that contains the four folders that contain the application text files, and then run the following command:
 
-    ```  
-    Merge-NAVApplicationObject -OriginalPath .\ORIGINAL -TargetPath .\TARGET -ModifiedPath .\MODIFIED -ResultPath .\RESULT  
-    ```  
+```  
+Merge-NAVApplicationObject -OriginalPath .\ORIGINAL -TargetPath .\TARGET -ModifiedPath .\MODIFIED -ResultPath .\RESULT  
+```  
 
 Depending on the number of objects that you are merging and the number of differences found, this can take a few seconds, a few minutes, or longer. When the cmdlet completes, the result of the merge is shown, including a description of any application objects with conflicting code. The **RESULT** folder will contain a text file (.TXT) for each merged application object and possibly one or more .CONFLICT files that describe the code conflicts that occurred during the merge.
 
@@ -156,7 +157,7 @@ After you have completed the merge, you import the new merged application object
 
         ```  
         Join-NAVApplicationObjectFile –Source C:\Upgrade\RESULT\*.txt -Destination C:\Upgrade\all-merged.txt   
-    ```  
+        ```  
         Then, you can run this command to import the text file:
         ```  
         Import-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "My Upgraded App" –Path C:\Upgrade\all-merged.txt  
