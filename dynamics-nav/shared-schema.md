@@ -16,10 +16,10 @@ To understand shared schema, let's first look at the conventional [!INCLUDE[navn
 ### Separate schema 
 By default, [!INCLUDE[navnow_md](includes/navnow_md.md)] uses a *separate schema* data model. This data model has these important characteristics: 
 
--  Each company has their own set of tables for storing business entity data, such as the Item, Customer, and Invoice tables (see figure 1). 
--  In a multitenant deployment, each tenant has its own database for storing business data. 
+-  A database can contain business data for one tenant only. In a multitenant deployment, you will have a separate database for each tenant. 
+-  In the database, companies have their own set of tables for storing business entity data, such as the Item, Customer, and Invoice tables (see figure 1). 
 
- ![Separate schema](media/separateschema2companies.png "Separate schema")
+![Separate schema](media/separateschema2companies.png "Separate schema")
 
 **Figure 1: Companies in the separate schema data model**
 
@@ -27,18 +27,16 @@ By default, [!INCLUDE[navnow_md](includes/navnow_md.md)] uses a *separate schema
 
 The shared schema data model has these characteristics: 
 
--  Companies in the database share tables for storing business data. There is one set of business entity data tables for all companies and tenants in the database (see figure 2). 
--  In a multitenant deployment, a database can be shared by more than one tenant. Information about the tenants, including its companies, is stored is shared tables in the database. 
-
- ![Shared schema item table](media/SharedSchemaEntityTables.png "Shared schema item table")
-
-**Figure 3: Tenant and company information in database with shared schema**
-
+-  A database can be shared by more than one tenant. Information about the tenants and their companies is stored in shared tables in the database. This introduces a fundamental change to the concept of the tenant and tenant database, particularly in a multitenant deployment. The tenant database is a container for tenants, where each tenant is a unit of data in the tenant database (see figure 2). 
+-  In the database, companies share tables for storing business data. There is one set of business entity data tables for all companies and tenants in the database (see figure 3). 
 
  ![Shared schema tenant data](media/SharedSchemaTenantTables.png "Shared schema tenant data")
 
-**Figure 3: Tenant and company information in database with shared schema**
+**Figure 2: Tenant and company information with shared schema**
 
+ ![Shared schema item table](media/SharedSchemaEntityTables.png "Shared schema item table")
+
+**Figure 3: Item table in shared schema**
 
 For example, there is an Item table for Company 1 and an Item table for Company 2. With the shared database schema model, a single entity table contains the data for all companies. For example, the Item table now contains data for both Company A and Company B.
 The shared database schema model is especially designed for a multitenant deployment. In a multitenant deployment, instead of having one single database containing entity data and application data, you now have an application database and one or more tenant databases. The application database contains tables that describe your application. A tenant database contains tables for storing business data for multiple tenants, where each tenant can hold one or more companies. In a tenant database, an entity table will contain data for all tenants and their companies. For example, let’s say you have a tenant database that includes Tenant1 (with companies C and D) and Tenant2 (with companies E and F). This is illustrated in figure 1.
