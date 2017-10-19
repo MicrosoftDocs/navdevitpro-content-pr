@@ -1,7 +1,8 @@
 ---
-title: "Upgrade Considerations"
+title: Upgrade Considerations
+description: This article provides tips and considerations to prepare a solution when you are planning to upgrade Microsoft Dynamics NAV.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/17/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +10,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
-# Upgrade Considerations
+# Considerations for Upgrading Dynamics NAV
 
 **Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Upgrade-Considerations-2017.md).
 

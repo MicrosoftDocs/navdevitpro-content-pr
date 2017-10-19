@@ -1,7 +1,8 @@
 ---
-title: "Authenticating Users with Azure Active Directory"
+title: User Authentication with Azure AD
+description: Associate an existing Microsoft account with Dynamics NAV user account to achieve single sign-on between the Web client and Office 365.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/17/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +10,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
-# Authenticating Users with Azure Active Directory
+# Authenticating Dynamics NAV Users with Azure Active Directory
 Azure Active Directory \(Azure AD\) is a cloud service that provides identity and access capabilities, such as for applications on Microsoft Azure, Microsoft Office 365, and for applications that install on-premises. If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured to use the AccessControlService credential type, you can associate the [!INCLUDE[navnow](includes/navnow_md.md)] user accounts with Azure AD accounts that users use to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_windows](includes/nav_windows_md.md)], Office 365, and SharePoint.  
 
  For example, your users access a website, such as a SharePoint site. From there, they have single sign-on access to [!INCLUDE[navnow](includes/navnow_md.md)] because you have configured [!INCLUDE[navnow](includes/navnow_md.md)] for Azure AD.  
