@@ -1,7 +1,8 @@
 ---
-title: "Viewing the Definition of a Function or Object by Using Go To Definition"
+title: Viewing Functions and Objects Definition
+description: View the definition of a function or object by selecting the items in the C/AL Editor and then choosing Go To Definition in Microsoft Dynamics NAV.
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 10/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: e453930e-af9f-446e-aa45-8ed75a684836
 caps.latest.revision: 19
 manager: edupont
 ---
-# Viewing the Definition of a Function or Object by Using Go To Definition
+# Viewing the Function or Object Definition in Dynamics NAV
 You can view the definition of a function or object by selecting the item in the C/AL Editor and then choosing **Go To Definition**. You can also view the definition of a function by selecting it in the **C/AL Globals** window and then choosing **Go To Definition**.  
   
  To go to the definition of a function or object, select or place the cursor anywhere in the function name or object variable name, and then do one of the following:  
