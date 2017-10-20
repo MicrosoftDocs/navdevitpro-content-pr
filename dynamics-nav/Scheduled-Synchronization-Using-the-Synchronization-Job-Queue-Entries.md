@@ -1,7 +1,8 @@
 ---
-title: "Synchronizing Dynamics NAV and Dynamics CRM"
+title: Synchronizing Dynamics NAV and Dynamics CRM
+description: With Microsoft Dynamics CRM integration, you can decide whether to synchronize data between Microsoft Dynamics CRM and Dynamics NAV.
 ms.custom: na
-ms.date: 24/10/2016
+ms.date: 10/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
