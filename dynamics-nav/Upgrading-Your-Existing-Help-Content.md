@@ -1,7 +1,8 @@
 ---
-title: "Upgrading Your Existing Help Content"
+title: Upgrade Help Content
+description: Reuse the earlier version of Help created using the Dynamics NAV Help Toolkit which is supported by using the HTML files.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/17/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

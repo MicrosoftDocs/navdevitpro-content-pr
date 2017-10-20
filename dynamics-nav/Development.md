@@ -1,5 +1,6 @@
 ---
-title: "Development"
+title: Getting Started with C/AL Development 
+description: Start learning about C/AL, build your C/AL knowledge, build an application, and the know earlier versions of Microsoft Dynamics NAV.
 author: jswymer
 ms.custom: na
 ms.date: 01/02/2017
@@ -11,7 +12,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 98866f17-c121-45a2-8fd0-62e213a43606
 manager: edupont
 ---
-# Development
+# Development in Microsoft Dynamics NAV 
 Before you begin developing code for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you should consider the following:  
 
 -   How to start learning about C/AL.  

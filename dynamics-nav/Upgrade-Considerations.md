@@ -1,7 +1,8 @@
 ---
-title: "Upgrade Considerations"
+title: Upgrade Considerations
+description: This article provides tips and considerations to prepare a solution when you are planning to upgrade Microsoft Dynamics NAV.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/17/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: ad358d83-9ef5-48e7-9ffb-a0912293705a
 caps.latest.revision: 2
 ---
-# Upgrade Considerations
+# Considerations for Upgrading Dynamics NAV
 Depending on which version you are upgrading from, and the degree to which your solution differs from the standard version of [!INCLUDE[navnow](includes/navnow_md.md)], you may want to prepare your solution for the upgrade. This topic provides tips for things to consider when you prepare to upgrade to [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
 
 ## Names of Variables  

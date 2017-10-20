@@ -1,7 +1,8 @@
 ---
-title: "Microsoft Office Outlook Add-In"
+title: Microsoft Office Outlook Integration
+description: Using Microsoft Office Outlook Add-In, synchronize data such as to-dos, contacts, and tasks between Microsoft Dynamics NAV and Outlook.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/18/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: f6b7668b-f925-4349-8729-46ea29210a94
 caps.latest.revision: 13
 manager: edupont
 ---
-# Microsoft Office Outlook Add-In
+# Synchronizing Dynamics NAV with Outlook
 Use the Microsoft Office Outlook Add-In component to synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE[navnow](includes/navnow_md.md)] and Outlook. The Microsoft Office Outlook Add-In uses [!INCLUDE[navnow](includes/navnow_md.md)] web services.  
   
 ## Installing Microsoft Office Outlook Add-In  

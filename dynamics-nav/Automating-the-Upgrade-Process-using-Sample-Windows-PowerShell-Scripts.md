@@ -1,7 +1,8 @@
 ---
-title: "Automating the Upgrade Process using Sample Windows PowerShell Scripts"
+title: Automate Upgrade Using PowerShell Scripts
+description: Use PowerShell scripts to automate and upgrade to the latest version of Dynamics NAV and handle single or multiple databases that use the same application.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
