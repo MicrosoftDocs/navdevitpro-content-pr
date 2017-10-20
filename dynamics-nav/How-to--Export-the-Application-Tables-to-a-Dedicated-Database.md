@@ -45,12 +45,12 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can export the tables that def
      For example, to run the cmdlet against the [!INCLUDE[demolong](includes/demolong_md.md)], type the following command:  
 
     ```  
-    Export-NAVApplication –DatabaseServer ‘MyServer’ –DatabaseInstance ‘NavDemo’ –DatabaseName ‘Demo Database NAV (10-0)’ –DestinationDatabaseName ‘NAV App’  
+    Export-NAVApplication –DatabaseServer ‘MyServer’ –DatabaseInstance ‘NavDemo’ –DatabaseName ‘Demo Database NAV (11-0)’ –DestinationDatabaseName ‘NAV App’  
     ```  
 
      In the example, the database server name is **MyServer** , and the SQL Server instance is **NavDemo**. The name of the new application database can be anything. You can specify a name that reflects your application.  
 
-     The application database is created on the same SQL Server instance as the original database. In the example, if you connect to the **NavDemo** instance using SQL Server Management Studio you will see two databases: the original database, **Demo Database NAV \(10-0\)**, and the new application database, **NAV App**.  
+     The application database is created on the same SQL Server instance as the original database. In the example, if you connect to the **NavDemo** instance using SQL Server Management Studio you will see two databases: the original database, **Demo Database NAV \(11-0\)**, and the new application database, **NAV App**.  
 
      At this stage, the original database still contains the application tables, and you can still access it using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. Next, you must remove the application tables from the original database to make it a tenant database.  
 
@@ -91,12 +91,12 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can export the tables that def
  The sample commands are assumed to run in the [!INCLUDE[navnow](includes/navnow_md.md)] administration shell based on the [!INCLUDE[demolong](includes/demolong_md.md)] on a local computer.  
 
 ```  
-PS C:\Windows\System32> Set-NAVServerInstance –ServerInstance ‘nav_server_instance’ -stop  
-PS C:\Windows\System32> Export-NAVApplication –DatabaseServer ‘MyServer’ –DatabaseInstance ‘NAVDEMO’ –DatabaseName ‘Demo Database NAV (10-0)’ –DestinationDatabaseName ‘NAV App’| Remove-NAVApplication –DatabaseName ‘Demo Database NAV (10-0)’ -Force  
-PS C:\Windows\System32> Set-NAVServerConfiguration –ServerInstance ‘nav_server_instance’ –element appSettings –KeyName ‘DatabaseName’ –KeyValue ‘’  
-PS C:\Windows\System32> Set-NAVServerInstance –ServerInstance ‘nav_server_instance’ -Start  
-PS C:\Windows\System32> Mount-NAVApplication –ServerInstance ‘nav_server_instance’ –DatabaseServer ‘MyServer\NAVDEMO’ –DatabaseName ‘NAV App’  
-PS C:\Windows\System32> Mount-NAVTenant –ServerInstance ‘nav_server_instance’ -Id tenant1 –DatabaseServer ‘MyServer\NAVDEMO’ -DatabaseName ‘Demo Database NAV (10-0)’ -OverwriteTenantIdInDatabase  
+Stop-NAVServerInstance –ServerInstance ‘nav_server_instance’ 
+Export-NAVApplication –DatabaseServer ‘MyServer’ –DatabaseInstance ‘NAVDEMO’ –DatabaseName ‘Demo Database NAV (11-0)’ –DestinationDatabaseName ‘NAV App’| Remove-NAVApplication –DatabaseName ‘Demo Database NAV (11-0)’ -Force
+Set-NAVServerConfiguration –ServerInstance ‘nav_server_instance’ –element appSettings –KeyName ‘DatabaseName’ –KeyValue ‘’
+Start-NAVServerInstance –ServerInstance ‘nav_server_instance’
+Mount-NAVApplication –ServerInstance ‘nav_server_instance’ –DatabaseServer ‘MyServer\NAVDEMO’ –DatabaseName ‘NAV App’
+Mount-NAVTenant –ServerInstance ‘nav_server_instance’ -Id tenant1 –DatabaseServer ‘MyServer\NAVDEMO’ -DatabaseName ‘Demo Database NAV (11-0)’ -OverwriteTenantIdInDatabase  
 ```  
 
  In the example, the commands stop the [!INCLUDE[nav_server](includes/nav_server_md.md)] service, creates the application database, clears the default database name in the server configuration, and then restarts the service. Then, the application database and the tenant database are mounted, and the configuration is saved in the Tenants.config file on the server. As a result, you have an application database and a single-tenant deployment. When you try to open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], an error displays because you have not specified a tenant. So in the **Select Server** window, in the **Server Address** field, add the tenant ID to the address. In this example, the address is **localhost:7046/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/tenant1**.  
