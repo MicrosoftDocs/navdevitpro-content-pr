@@ -22,7 +22,7 @@ With this preview, you can get started exploring the APIs that we offer for [!IN
 
 It's easy to get started. Just spin up a tenant by going through these steps.
 
-1) Sign up for [Dynamics 365 for Financials and Operations Business Edition](https://trials.dynamics.com/Dynamics365/Signup/financials).    
+1) Sign up for [[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]](https://go.microsoft.com/fwlink/?linkid=847861).    
 2) To connect to your tenant via APIs, you can use your tenant URL and basic authentication.  
     + The tenant's API endpoint is the tenant's base URL (up until .com) followed by `:7048/MS/api/beta/`, for example, `https://cronus.financials.dynamics.com:7048/MS/api/beta/`.    
     + To set up basic authentication, create a Web Service Access key in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. On the **Users** page, in the **Web Service Access Key** field, generate a key.
