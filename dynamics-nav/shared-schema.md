@@ -51,7 +51,7 @@ A database that uses the shared schema data model has the following characterist
 
 **Figure 3: Company business data with shared schema**
 
-## How to convert a tenant to shared schema
+## Convert to shared schema
 To convert to shared schema, you use the [Sync-NAVTenant cmdlet](https://go.microsoft.com/fwlink/?linkid=401399) that is included in the [nav_shell_md](includes/nav_shell_md.md). 
 
 
@@ -71,12 +71,6 @@ To convert to shared schema, you use the [Sync-NAVTenant cmdlet](https://go.micr
 
 
 ## See Also  
-[Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)   
-[Enhancing Microsoft Dynamics NAV Server Security](Enhancing-Microsoft-Dynamics-NAV-Server-Security.md)   
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
-[Configuring Microsoft Dynamics NAV Help Server](Configuring-Microsoft-Dynamics-NAV-Help-Server.md)   
-[How to: Specify When UI Elements Are Removed](How-to--Specify-When-UI-Elements-Are-Removed.md)  
 [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
-[Configuring the Windows Client](Configuring-the-Windows-Client.md)   
-[Configuring Dynamics NAV and the Excel Add-In](configuring-dynamics-nav-excel-addin.md)  
 [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)  
