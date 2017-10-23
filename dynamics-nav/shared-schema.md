@@ -28,7 +28,7 @@ By default, [!INCLUDE[navnow_md](includes/navnow_md.md)] uses a *separate schema
 
 ![Separate schema](media/separateschema2companies.png "Separate schema")
 
-**Figure 1: Company business data tables with the separate schema**
+**Figure 1: Company business data tables with separate schema**
 
 ### Shared schema
 
@@ -62,7 +62,7 @@ To convert to shared schema, you use the [Sync-NAVTenant cmdlet](https://go.micr
 2. If not already mounted, mount the tenant that you want to convert to the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.
 
     ```
-    Mount-NAVTenant –ServerInstance "[server_instance_name]" -Tenant "[tenant_ID]" –DatabaseServer "[server]\[database_instance]" -DatabaseName "[database_name]’
+    Mount-NAVTenant –ServerInstance "[server_instance_name]" -Tenant "[tenant_ID]" –DatabaseServer "[server]\[database_instance]" -DatabaseName "[database_name]"
     ```
 
 3. Run the Sync-NAVTenant cmdlet with the `-Mode` parameter set to `ConvertToSharedSchema`.
