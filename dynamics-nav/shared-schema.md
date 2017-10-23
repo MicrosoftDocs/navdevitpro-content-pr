@@ -28,7 +28,7 @@ By default, [!INCLUDE[navnow_md](includes/navnow_md.md)] uses a *separate schema
 
 ![Separate schema](media/separateschema2companies.png "Separate schema")
 
-**Figure 1: Company business data with the separate schema**
+**Figure 1: Company business data tables with the separate schema**
 
 ### Shared schema
 
@@ -49,7 +49,7 @@ A database that uses the shared schema data model has the following characterist
 
  ![Shared schema item table](media/SharedSchemaEntityTables.png "Shared schema item table")
 
-**Figure 3: Company business data with shared schema**
+**Figure 3: Company business data tables with shared schema**
 
 ## Convert to shared schema
 To convert to shared schema, you use the [Sync-NAVTenant cmdlet](https://go.microsoft.com/fwlink/?linkid=401399) that is included in the [nav_shell_md](includes/nav_shell_md.md). 
