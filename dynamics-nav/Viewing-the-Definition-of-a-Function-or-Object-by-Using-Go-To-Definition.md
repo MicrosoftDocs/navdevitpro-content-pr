@@ -1,6 +1,6 @@
 ---
 title: Viewing Functions and Objects Definition
-description: View the definition of a function or object by selecting the items in the C/AL Editor and then choosing Go To Definition in Microsoft Dynamics NAV.
+description: View the definition of a function or object in multiple ways by selecting the item and then choosing Go To Definition in the C/AL Editor.
 ms.custom: na
 ms.date: 10/20/2017
 ms.reviewer: na
