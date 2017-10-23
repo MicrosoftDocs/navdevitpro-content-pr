@@ -52,10 +52,12 @@ A database that uses the shared schema data model has the following characterist
 **Figure 3: Company business data tables with shared schema**
 
 ## Convert to shared schema
-To convert to shared schema, you use the [Sync-NAVTenant cmdlet](https://go.microsoft.com/fwlink/?linkid=401399) that is included in the [nav_shell_md](includes/nav_shell_md.md). 
+To convert to shared schema, you use the [Sync-NAVTenant cmdlet](https://go.microsoft.com/fwlink/?linkid=401399) that is included in the [!INCLUDE[navnow_md](includes/nav_shell_md.md)]. 
 
+> [!IMPORTANT]
+> You cannot revert back to separate schema after you convert to shared schema. We recommend that you make a backup of your database before converting to shared schema.
 
-1. Open the [nav_shell_md](includes/nav_shell_md.md) as an administrator.
+1. Open the [!INCLUDE[navnow_md](includes/nav_shell_md.md)] as an administrator.
 
 2. If not already mounted, mount the tenant that you want to convert to the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.
 
@@ -68,7 +70,6 @@ To convert to shared schema, you use the [Sync-NAVTenant cmdlet](https://go.micr
     ```
     Sync-NAVTenant -ServerInstance  "[server_instance_name]" -Tenant "[tenant_ID]" -Mode ConvertToSharedSchema
     ```
-
 
 ## See Also  
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
