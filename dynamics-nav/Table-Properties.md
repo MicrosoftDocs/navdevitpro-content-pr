@@ -1,8 +1,9 @@
 ---
-title: "Table Properties"
+title: Table Object Properties
+description: A table has several properties that determine the behavior of the table, the table objects define a set of default parameters for these properties in Dynamics NAV.
 author: edupont04
 ms.custom: na
-ms.date: 12/08/2016
+ms.date: 10/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: cf65e1e0-f696-4aac-afbd-992cd82f98de
 ms.author: edupont
 ---
-# Table Properties
+# Table Properties in Microsoft Dynamics NAV
 The following topic lists properties that apply to the table object.  
 
 ## Table Object Properties  
