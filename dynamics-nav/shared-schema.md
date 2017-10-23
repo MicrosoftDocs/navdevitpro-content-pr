@@ -8,7 +8,11 @@ ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
 # Converting to Shared Schema
+Shared schema is a data model that includes tenants and companies. By sharing database resources among tenants and companies, shared schema optimizes the reuse of resources, such as execution plans, memory, and database connections. 
+
+<!-- alternative
 Shared schema is a data model that shares database resources among tenants and companies. Shared schema optimizes the reuse of resources, such as execution plans, memory, and database connections. 
+-->
 
 Shared schema can be used in single tenant or multitenant deployment, although it is especially designed for a multitenant deployment. It enables you to have multiple tenants in the same database, where you have access to the states of both the tenants and the database. You can upgrade tenants individually to different application versions, which means that in a database, tenants can support different application versions.
 
