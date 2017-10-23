@@ -1,7 +1,8 @@
 ---
-title: "Multilanguage Development"
+title: Multilanguage Application Development
+description: Dynamics NAV is multilanguage enabled, which means that you can display the user interface UI in different languages.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 6e0ff568-9cad-4b0f-bd97-b8ac5690a470
 caps.latest.revision: 26
 manager: edupont
 ---
-# Multilanguage Development
+# Multilanguage Development in Dynamics NAV
 [!INCLUDE[navnow](includes/navnow_md.md)] is multilanguage enabled, which means that you can display the user interface \(UI\) in different languages.  
   
  A multilanguage version of [!INCLUDE[navnow](includes/navnow_md.md)] is not the same as a localized version.  
