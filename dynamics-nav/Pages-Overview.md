@@ -1,7 +1,8 @@
 ---
-title: "Pages Overview"
+title: Page Design and Structure Overview
+description: The Pages are the main way to display and organize the data on the Windows Client and Web Client, which offers a Windows like visual experience.
 ms.custom: na
-ms.date: 01/19/2017
+ms.date: 10/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 0ba68a20-d83a-4e4c-9938-dac7fa8f5461
 caps.latest.revision: 35
 manager: edupont
 ---
-# Pages Overview
+# Walkthrough: Pages in Microsoft Dynamics NAV
 In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display and organize data. Pages display in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)], which offer users a visual experience closely aligned to Microsoft Office and Windows. [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)] are [!INCLUDE[rtc](includes/rtc_md.md)]s where every user has a Role Center page, tailored to their individual needs and tasks they perform. Other types of pages, such as List pages might display lists of customers or sales orders, while others such as Document pages, focus on user tasks. Each page has its own set of controls that should only be used with that page type. For example, Cues are only used on Role Center pages, FastTabs are used on Card and Document pages, and Fixed Layout controls are used on Worksheet pages.  
   
 ## The Page Object  

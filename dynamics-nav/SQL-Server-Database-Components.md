@@ -14,9 +14,9 @@ manager: edupont
 # SQL Server Database Components
 SQL Server database components configure Microsoft SQL Server to work with [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
   
- If SQL Server is not present on the computer where you install the database components, then Setup automatically installs SQL Server Express 2016, which you can use for prototyping, developing, and testing. We recommend that you use SQL Server 2016 or SQL Server 2014 in production environments.  
+ If SQL Server is not present on the computer where you install the database components, then Setup automatically installs SQL Server Express 2014, which you can use for prototyping, developing, and testing. We recommend that you use SQL Server 2014 or SQL Server 2012 in production environments.  
   
- If you are installing the [!INCLUDE[demolong](includes/demolong_md.md)], Setup will automatically install SQL Server Express 2016 if it does not find an existing NAVDEMO instance in SQL Server. So if you intend to install the [!INCLUDE[demo](includes/demo_md.md)] database to an existing SQL Server installation, remember to create a NAVDEMO instance in SQL Server before you run [!INCLUDE[navnow](includes/navnow_md.md)] Setup.  
+ If you are installing the [!INCLUDE[demolong](includes/demolong_md.md)], Setup will automatically install SQL Server Express 2014 if it does not find an existing NAVDEMO instance in SQL Server. So if you intend to install the [!INCLUDE[demo](includes/demo_md.md)] database to an existing SQL Server installation, remember to create a NAVDEMO instance in SQL Server before you run [!INCLUDE[navnow](includes/navnow_md.md)] Setup.  
   
  In [!INCLUDE[navnow](includes/navnow_md.md)] Setup, SQL Server database components are a default component for the [Developer Option](Developer-Option.md). You can add the components to the [Server Option](Server-Option.md) or as part of a custom installation.  
   

@@ -1,7 +1,8 @@
 ---
-title: "Configuring the Windows Client"
+title: Windows Client Configuration
+description: This article explains how to configure and modify settings in the initial Setup and the Installed Microsoft Dynamics NAV Windows Client.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 05e8a8fc-bcbd-4cd6-b16c-e4f52b7d5491
 caps.latest.revision: 70
 manager: edupont
 ---
-# Configuring the Windows Client
+# Configuring the Microsoft Dynamics NAV Windows Client
 When you install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the **Specify Parameters** page in [!INCLUDE[navnow](includes/navnow_md.md)] Setup prompts you for configuration information to enable the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] to connect to [!INCLUDE[nav_server](includes/nav_server_md.md)]. This information is then saved in the default ClientUserSettings.config file.  
 
  A separate instance of the ClientUserSettings.config file is maintained for each user of the computer. The default location for this file is C:\\Users\\\<username>\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\90, where \<username> is the name of the user. This folder and file are hidden by default. Change your folder options in Windows Explorer to view hidden files before you attempt to modify the ClientUserSettings.config file.  

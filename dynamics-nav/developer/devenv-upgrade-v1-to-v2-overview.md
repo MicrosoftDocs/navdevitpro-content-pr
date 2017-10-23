@@ -19,7 +19,7 @@ Extensions are a programming model where functionality is defined as an addition
 
 1.  Convert the source code from C/AL to the AL syntax.
 2.  Complete the development of the extension in AL syntax.
-3.  Write upgrade code to restore and modify data from the V1 Extension tables.
+3.  Write upgrade code to restore and modify data from the V1 extension tables.
 4.  Build the extension.
 5.  Uninstall the V1 extension, and publish and run upgrade on the V2 extension. 
 

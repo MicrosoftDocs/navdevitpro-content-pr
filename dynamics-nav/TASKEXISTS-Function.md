@@ -36,10 +36,9 @@ Exists := TASKEXISTS(Task)
 
  For more information about tasks and TASKSCEDULER data type functions, see managing tasks [Task Scheduler](Task-Scheduler.md).  
 
-## See Also   
+## See Also  
  [Task Scheduler](Task-Scheduler.md)  
  [TaskScheduler Data Type](TaskScheduler-Data-Type.md)   
  [CREATETASK Function](CREATETASK-Function.md)   
- [CANCELTASK Function](CANCELTASK-Function.md)  
- [CANCREATETASK Function](CANCREATETASK-Function.md)   
+ [CANCELTASK Function](CANCELTASK-Function.md)   
  [SETTASKREADY Function](SETTASKREADY-Function.md)
