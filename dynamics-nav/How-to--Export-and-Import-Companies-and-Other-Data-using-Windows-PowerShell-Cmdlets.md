@@ -1,15 +1,13 @@
 ---
 title: "How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets"
-author: edupont04
+author: jswymer
 ms.custom: na
-ms.date: 10/14/2016
+ms.date: 10/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 0bfc949f-b334-4f06-8612-a611324ecd40
-caps.latest.revision: 8
 ---
 # How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets
 You can export data such as a company or an application from a [!INCLUDE[navnow](includes/navnow_md.md)] database from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]. You can also use [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to import data into a [!INCLUDE[navnow](includes/navnow_md.md)] database.  
@@ -54,7 +52,7 @@ You can export data such as a company or an application from a [!INCLUDE[navnow]
      For example, to run the cmdlet against the [!INCLUDE[demolong](includes/demolong_md.md)], type the following command:  
 
     ```  
-    Export-NAVData - DatabaseServer localhost -DatabaseName 'Demo Database NAV (10-0)' –AllCompanies -IncludeGlobalData -IncludeApplicationData -IncludeApplication -FilePath c:\Data\myappanddata.navdata  
+    Export-NAVData - DatabaseServer localhost -DatabaseName 'Demo Database NAV (11-0)' –AllCompanies -IncludeGlobalData -IncludeApplicationData -IncludeApplication -FilePath c:\Data\myappanddata.navdata  
     ```  
 
      In the example, the database server is the local computer, the database is the demonstration database, and the export includes global data, application data, and the application objects, and all companies in the database. The example is based on a single-tenant deployment where you have chosen to specify the *–DatabaseServer* and *–DatabaseName* parameters. Alternatively, you can specify the *–ServerInstance* parameter as illustrated in the previous step. In a multitenant deployment, you must also specify the tenant database.  
@@ -85,7 +83,7 @@ You can export data such as a company or an application from a [!INCLUDE[navnow]
      In the example, the command returns the following information:  
 
     ```  
-    ExportVersion               : 1  
+    ExportVersion                    : 1  
 
     DatabaseVersion                  : 70730  
 
@@ -101,7 +99,7 @@ You can export data such as a company or an application from a [!INCLUDE[navnow]
 
     CompanyName                      : {CRONUS International Ltd.}   
 
-    ExportDateTime                   : 28-08-2014 11:17:16  
+    ExportDateTime                   : 28-08-2017 11:17:16  
     ```  
 
 3.  To import a single company into a tenant database that is mounted against a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, type the following command:  
