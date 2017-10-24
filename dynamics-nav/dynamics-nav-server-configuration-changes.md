@@ -7,7 +7,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
-# Configuring Microsoft Dynamics NAV Server
+# Changes to Microsoft Dynamics NAV Server Instance Configuration
 This article lists new or removed configuration settings for [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance since the previous release. These settings are available in the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)] and directly in the CustomSettings.config file of a server instance. 
 
 ##  <a name="General"></a> General settings  
