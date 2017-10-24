@@ -107,7 +107,8 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
 |Enable Trust of SQL Server Certificate|Specifies whether [!INCLUDE[nav_server](includes/nav_server_md.md)] should trust the SQL Server certificate.|  
 |SQL Command Timeout|The contextual time-out for a SQL command.<br /><br /> Default: 0:30:00|  
 |SQL Connection Idle Timeout|Specifies the time that a SQL connection can remain idle before being closed. The value has the format HH:MM:SS.<br /><br /> Default: 00:05:00|  
-|Enable SQL Parameters by Ordinal|Specifies whether parameters in SQL statements are referenced by their ordinal number.<br /><br /> Enabling this setting improves performance when using buffered inserts.<br /><br /> Default: Enabled|  
+|Enable SQL Parameters by Ordinal|Specifies whether parameters in SQL statements are referenced by their ordinal number.<br /><br /> Enabling this setting improves performance when using buffered inserts.<br /><br /> Default: Enabled|
+|SQL Query Logging Threshold|Specifies the amount of time (in milliseconds) that an SQL query can run before a warning event is recorded in the application log for the server instance. If this threshold is exceeded, the following event is logged: Action completed successfully, but it took longer than the given threshold.<br /><br /> Default: 1000|
 
 ###  <a name="ClientServices"></a> Client Services Tab Settings  
  The following table describes fields on the **Client Services** tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  

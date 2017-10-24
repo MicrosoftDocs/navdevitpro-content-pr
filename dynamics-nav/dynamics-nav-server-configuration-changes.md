@@ -7,7 +7,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
-# Configuring Microsoft Dynamics NAV Server
+# Changes to Microsoft Dynamics NAV Server Instance Configuration
 This article lists new or removed configuration settings for [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance since the previous release. These settings are available in the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)] and directly in the CustomSettings.config file of a server instance. 
 
 ##  <a name="General"></a> General settings  
@@ -21,7 +21,8 @@ This article lists new or removed configuration settings for [!INCLUDE[nav_serve
 |  Setting  |  Description  |
 |-----------|---------------|  
 |Close Inactive SQL Connections| Removed.| 
-|SQL Connection Idle Timeout|TSpecifies the time that a SQL connection can remain idle before being closed. The value has the format HH:MM:SS.<br /><br /> Default: 00:05:00|
+|SQL Connection Idle Timeout|Specifies the time that a SQL connection can remain idle before being closed. The value has the format HH:MM:SS.<br /><br /> Default: 00:05:00|
+|SQL Query Logging Threshold|Specifies the amount of time (in milliseconds) that an SQL query can run before a warning event is recorded in the application log for the server instance. If this threshold is exceeded, the following event is logged: Action completed successfully, but it took longer than the given threshold.<br /><br /> Default: 1000|
 
 ## <a name="AzureAd"></a>Azure Active Directory (Azure AD) settings
 |  Setting  |  Description  |

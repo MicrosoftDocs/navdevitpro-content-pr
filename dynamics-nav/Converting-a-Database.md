@@ -117,7 +117,7 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
 
 5.  Connect a [!INCLUDE[nav2018_md](includes/nav2018_md.md)] Server instance to the converted database.  
 
-     You use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] to connect a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to the converted database.  
+     Use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or the [Set-NAVServerConfiguration cmdlet](https://go.microsoft.com/fwlink/?linkid=401394) to connect a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to the converted database.  
 
      In addition, you must add the service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance as a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server.  
 
