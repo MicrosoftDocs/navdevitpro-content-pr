@@ -1,7 +1,8 @@
 ---
-title: "Introducing Events"
+title: Introducing Events
+description: Use Events to design the application to react to specific actions or behavior and enable a customized functionality from the application business logic.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 0985b7bc-3184-4d04-b917-ffb0f58625f3
 caps.latest.revision: 6
 manager: edupont
 ---
-# Introducing Events
+# Introducing Events in Microsoft Dynamics NAV
 You can use events to design the application to react to specific actions or behavior that occur. Events enable you to separate customized functionality from the application business logic. By using events in the application where customizations are typically made, you can lower the cost of code modifications and upgrades to the original application.  
   
 -   Code modifications to customized functionality can be made without having to modify the original application.  

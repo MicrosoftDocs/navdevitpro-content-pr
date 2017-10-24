@@ -1,7 +1,8 @@
 ---
-title: "Running Reports"
+title: Run Reports 
+description: Add a report to the Report tab of a page and preview the report from a client computer using the Report Viewer. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: c12c52a8-d4a8-4749-beb2-00229f98adfb
 caps.latest.revision: 4
 manager: edupont
 ---
-# Running Reports
+# Running Reports in Dynamics NAV
 After you design a report's dataset and layout, you can make it available in [!INCLUDE[navnow](includes/navnow_md.md)] client applications. For example, you can add a report to the **Report** tab of a page. When you preview a report from a client computer, the report is displayed using Report Viewer.  
   
  The following table describes where to find information about how to run reports.  

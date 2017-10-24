@@ -1,8 +1,9 @@
 ---
-title: "Profiles and Role Centers in Dynamics NAV"
+title: Profiles and Role Centers
+description: Profiles are collections of the Microsoft Dynamics NAV users who share the same Role Center, a Page on which you can place different parts. 
 author: edupont04
 ms.custom: na
-ms.date: 10/21/2016
+ms.date: 10/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 manager: edupont
 ---
-# Profiles and Role Centers
+# Profiles and Role Centers in Dynamics NAV
 Profiles are collections of [!INCLUDE[navnow](includes/navnow_md.md)] users who share the same Role Center. A Role Center is a type of page on which you can place different parts. Each part is a container in which you can host other pages or pre\-defined system parts, such as an Outlook part or parts for adding tasks, notifications, or notes.  
 
  The user interface of Role Centers and all other pages can be customized in two different ways:  

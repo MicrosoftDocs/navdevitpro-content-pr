@@ -1,7 +1,8 @@
 ---
-title: "WORKDATE Function (Date)"
+title: WORKDATE Function | Date
+description: Set the work date to follow the calendar day so that the work date is always the current date, set NewDate to TODAY or 0D.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

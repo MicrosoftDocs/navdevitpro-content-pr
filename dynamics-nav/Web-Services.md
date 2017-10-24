@@ -1,5 +1,5 @@
 ---
-title: SOAP and OData Web Services
+title: SOAP and ODATA Web Services
 description: Compare the features of SOAP and OData web services and know how to create and maintain these services. 
 ms.custom: na
 ms.date: 10/13/2017

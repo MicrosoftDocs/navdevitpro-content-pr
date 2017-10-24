@@ -1,7 +1,8 @@
 ---
-title: "Web Service Alternatives: SOAP and OData"
+title: Web Service Alternatives SOAP and OData
+description: Developers planning to create Dynamics NAV web services may have to choose which type of web service is better suited to their needs.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
