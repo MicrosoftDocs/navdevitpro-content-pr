@@ -8,13 +8,13 @@ ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
 # Converting to Shared Schema
-Shared schema is a data model that includes tenants and companies. By sharing database resources among tenants and companies, shared schema optimizes the reuse of resources, such as execution plans, memory, and database connections. 
+Shared schema is a data model that includes tenants and companies. Shared schema optimizes the reuse of resources, such as execution plans, memory, and database connections. 
 
 <!-- alternative
 Shared schema is a data model that shares database resources among tenants and companies. Shared schema optimizes the reuse of resources, such as execution plans, memory, and database connections. 
 -->
 
-Shared schema can be used in single tenant or multitenant deployment, although it is especially designed for a multitenant deployment. It enables you to have multiple tenants in the same database, where you have access to the states of both the tenants and the database. You can upgrade tenants individually to different application versions, which means that in a database, tenants can support different application versions.
+Shared schema can be used in single tenant or multitenant deployment, although it is especially designed for a multitenant deployment. It enables you to have multiple tenants in the same database, where you have access to the states of both the tenants and the database. You can individually upgrade tenants to different application versions, which means that in a database, tenants can support different application versions.
 
 ## Overview
 To help explain shared schema, let's first look at the conventional [!INCLUDE[navnow_md](includes/navnow_md.md)] data model, which is referred to as *separate schema*.
@@ -42,7 +42,7 @@ A database that uses the shared schema data model has the following characterist
 
    This is a change to the concept of a tenant/tenant database as compared with the separate schema model, which has one tenant per database (the tenant database). With shared schema, the tenant database is a container for one or more tenants, and each tenant is a unit of data in the tenant database (see figure 2).
    
-   You can have multiple tenant databases among which you can mount, delete, and move tenants.  
+   You can have multiple tenant databases among which you can mount, delete, and move tenants. 
 -  Companies share tables for storing business data.
 
     There is one set of business entity data tables for all companies and tenants in the database. For example, instead  of an Item table for each company, there is a single table that contains the data for all companies (see figure 3).
