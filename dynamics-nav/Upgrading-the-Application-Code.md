@@ -102,7 +102,7 @@ There are three ways to export application objects to text files:
 
     For example, using the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] for [!INCLUDE[nav2018_md](includes/nav2018_.md)], run the following command:
     ```  
-    Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "Demo Database NAV (10-0)" –Path C:\Upgrade\Target\NewBaseVersion.txt -Filter 'Id=1..1999999999'
+    Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "Demo Database NAV (11-0)" –Path C:\Upgrade\Target\NewBaseVersion.txt -Filter 'Id=1..1999999999'
     ```  
 
 Optionally, you can use the [Split-NAVApplicationObjectFile](https://go.microsoft.com/fwlink/?linkid=398885) cmdlet to split each text file into separate text files for each application object. This can make it easier to keep track of the process. The end result at this stage is three folders with one or more text files that contain the three sets of application objects that you want to merge.  
