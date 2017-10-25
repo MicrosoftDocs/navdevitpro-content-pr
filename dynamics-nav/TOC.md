@@ -22,6 +22,7 @@
 ## [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)
 ## [Deploying Microsoft Dynamics NAV Using ClickOnce](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md)
 ## [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)
+## [Converting to Shared Schema](shared-schema.md)
 ## [Migrating to Multitenancy](Migrating-to-Multitenancy.md)
 ## [Installation and Configuration Walkthroughs](Installation-and-Configuration-Walkthroughs.md)
 # [Development](Development.md)
