@@ -77,5 +77,6 @@ To convert to shared schema, you use the [Sync-NAVTenant cmdlet](https://go.micr
 
 ## See Also  
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
+[Migrating to Multitenancy](Migrating-to-Multitenancy.md)  
 [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
 [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)  
