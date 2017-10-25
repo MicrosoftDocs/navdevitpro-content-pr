@@ -82,7 +82,7 @@ There are three ways to export application objects to text files:
 
 2.  Export all application objects from the original version of the old database, such as the original [!INCLUDE[nav2017](includes/nav2017.md)] database. Do not export system tables, which have the IDs in the 2000000000 range. Name the file **OldBaseVersion.txt**, and then save the file in the **ORIGINAL** folder that you created earlier.  
 
-    For example, start the Dynamics NAV Development Shell version that matches the database version, and run the **Export-NAVApplicationObject** function as follows:
+    For example, start the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] version that matches the database version, and run the **Export-NAVApplicationObject** function as follows:
 
     ```  
     Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "Demo Database NAV (10-0)" –Path C:\Upgrade\ORIGINAL\OldBaseVersion.txt -Filter 'Id=1..1999999999'
@@ -90,7 +90,7 @@ There are three ways to export application objects to text files:
 
 3.  Export all application objects, except system tables, from the old modified version, such as the customer's customized [!INCLUDE[nav2017](includes/nav2017.md)] database. Name the file **OldCustomVersion.txt**, and then save the file in the **MODIFIED*** folder that you created earlier.
 
-    For example, if the customer's database is called *MyCustomerNAV2016Database*, you can run the following command:
+    For example (using the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] version that matches the database version), if the customer's database is called *MyCustomerNAV2016Database*, you can run the following command:
     ```  
     Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "MyCustomerNAV2017Database" –Path C:\Upgrade\MODIFIED\OldCUSTOMVersion.txt -Filter 'Id=1..1999999999'
     ```  
@@ -98,11 +98,11 @@ There are three ways to export application objects to text files:
     > [!TIP]  
     >  In some cases, existing customizations might be irrelevant after the upgrade because they correspond to new functionality in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].
 
-4.  Export all application objects, except system tables, from the new base version, such as the original [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database. Name the file **NewBaseVersion.txt**, and then save the file in the **TARGET** folder that you created earlier.  
+4.  Export all application objects, except system tables, from the new base version, such as the original [!INCLUDE[nav2018_md](includes/nav2018_.md)] database. Name the file **NewBaseVersion.txt**, and then save the file in the **TARGET** folder that you created earlier.  
 
-    For example, you can run the following command:
+    For example, using the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] for [!INCLUDE[nav2018_md](includes/nav2018_.md)], run the following command:
     ```  
-    Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "Demo Database NAV (10-0)" –Path C:\Upgrade\MODIFIED\OldCUSTOMVersion.txt -Filter 'Id=1..1999999999'
+    Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "Demo Database NAV (10-0)" –Path C:\Upgrade\Target\NewBaseVersion.txt -Filter 'Id=1..1999999999'
     ```  
 
 Optionally, you can use the [Split-NAVApplicationObjectFile](https://go.microsoft.com/fwlink/?linkid=398885) cmdlet to split each text file into separate text files for each application object. This can make it easier to keep track of the process. The end result at this stage is three folders with one or more text files that contain the three sets of application objects that you want to merge.  
