@@ -1,7 +1,8 @@
 ---
-title: "Char Data Type"
+title: Char Data Type
+description: Char data type is a simple data type to store a single, 16-bit character as a value in the range from 0 to 65535 in Microsoft Dynamics NAV.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/26/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 93ea32a8-8019-4b75-be2c-fae30d9e9d21
 caps.latest.revision: 18
 manager: edupont
 ---
-# Char Data Type
+# Char Data Type in Dynamics NAV
 Use this simple data type to store a single, 16-bit character as a value in the range 0 to 65535. You can convert this data type from a number to a character and vice versa. This means you can use mathematical operators on Char variables.  
   
 ## Example  
