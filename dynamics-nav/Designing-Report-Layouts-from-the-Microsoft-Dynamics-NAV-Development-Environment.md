@@ -1,7 +1,8 @@
 ---
-title: "Designing Report Layouts from the Microsoft Dynamics NAV Development Environment"
+title: Design Report Layouts
+description: The report layout specifies which fields of the dataset are included and how they are arranged and formatted, such as font type and color, margin etc. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
