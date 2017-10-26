@@ -155,17 +155,6 @@
 #### [Page and Action Triggers](developer/triggers/devenv-page-and-action-triggers.md)
 #### [Codeunit Triggers](developer/triggers/devenv-codeunit-triggers.md)
 #### [Query Triggers](developer/triggers/devenv-query-triggers.md)
-
-<!-- old
-# [Developing Extensions Using the New Development Environment - Preview](devenv-dev-overview.md)
-## [Getting Started](devenv-get-started.md)
-## [Using the Dynamics NAV In-Client Designer](devenv-inclient-designer.md)
-## [Differences in the Dynamics NAV Development Environments](devenv-differences.md)
-## [Keyboard Shortcuts for the New Development Environment](devenv-keyboard-shortcuts.md)
-## [The Txt2Al Conversion Tool](devenv-txt2al-tool.md)
-## [Developer Reference](devenv-reference-overview.md)
--->
-<!-- end -->
 # [Integrating Dynamics NAV and Microsoft Office](Integrating Dynamics NAV and Office.md)
 # [Administration](Administration.md)
 ## [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)
