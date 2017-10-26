@@ -23,7 +23,7 @@ This topic describes the tasks required for upgrading the following database ver
 -   [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
 -   [!INCLUDE[nav2017](includes/nav2017.md)]
 
-You use data conversion tools provided with [!INCLUDE[nav2017](includes/nav2017.md)] to convert the old data with the old version’s table and field structure, so that it functions together with the new version’s table and field structure. Mainly, only table objects and table data are modified during the data upgrade process. Other objects, such as pages, reports, codeunits, and XMLports are upgraded as part of the application code upgrade process.
+You use data conversion tools provided with [!INCLUDE[nav2018](includes/nav2018_md.md)] to convert the old data with the old version’s table and field structure, so that it functions together with the new version’s table and field structure. Mainly, only table objects and table data are modified during the data upgrade process. Other objects, such as pages, reports, codeunits, and XMLports are upgraded as part of the application code upgrade process.
 
 The data upgrade process described in this article leads you through the database conversion (technical upgrade) and then the upgrade of the actual data, which is achieved by using the upgrade toolkit/upgrade codeunits.
 
@@ -31,7 +31,7 @@ The data upgrade process described in this article leads you through the databas
 Before you start the upgrade tasks, make sure you meet the following prerequisites:
 1.  Your computer uses the same codepage as the data that will be upgraded.
 
-    If you use conflicting codepages, some characters will not display in captions, and you might not be able to access the upgraded database. This is because [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)]  must remove incorrect metadata characters to complete the data upgrade. In this case, after upgrade, you must open the database in the development environment on a computer with the relevant codepage and compile all objects. This adds the missing characters again.
+    If you use conflicting codepages, some characters will not display in captions, and you might not be able to access the upgraded database. This is because [!INCLUDE[navnow_md](includes/navnow_md.md)] must remove incorrect metadata characters to complete the data upgrade. In this case, after upgrade, you must open the database in the development environment on a computer with the relevant codepage and compile all objects. This adds the missing characters again.
 
     Optionally, you can export the captions before the upgrade. For more information, see [How to: Add Translated Strings for Conflicting Text Encoding Formats](How-to--Add-Translated-Strings-for-Conflicting-Text-Encoding-Formats.md).
 
@@ -39,18 +39,19 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 
     For more information about upgrading the application code, see [Upgrading the Application Code](Upgrading-the-Application-Code.md).
 
-    You can find the default upgrade toolkit objects in the  **UpgradeToolKit\Data Conversion Tools** folder on the [!INCLUDE[nav2017](includes/nav2017.md)] installation media (DVD). Choose the FOB that matches the [!INCLUDE[navnow](includes/navnow_md.md)] version from which you are upgrading:
+    You can find the default upgrade toolkit objects in the  **UpgradeToolKit\Data Conversion Tools** folder on the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD). Choose the FOB that matches the [!INCLUDE[navnow](includes/navnow_md.md)] version from which you are upgrading:
 
     -   Upgrade7001000.FOB for [!INCLUDE[nav7long](includes/nav7long_md.md)]
     -   Upgrade7101000.FOB and Upgrade710HF1000.FOB for [!INCLUDE[navsicily](includes/navsicily_md.md)]
     -   Upgrade8001000.FOB for [!INCLUDE[navcrete](includes/navcrete_md.md)]
     -   Upgrade9001000.FOB for [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
+    -   Upgrade10001100.FOB.FOB for [!INCLUDE[nav2017](includes/nav2017.md)]
 
 3.   You have exported the permission sets and permissions as XML files.
 
     For more information, see [How to: Export and Import Permission Sets and Permissions](how-to--import-export-permission-sets-permissions.md#ExportPerms).
 
-4.   \(Optional\) Make a copy of the web.config file for all the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. With [!INCLUDE[nav2018_md](includes/nav2018_md.md)], [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances run on Microsoft .NET Core. With this change, the instances now use a .json type file (called navsettings.json) instead of the web.config file. 
+4.   \(Optional\) Make a copy of the web.config file for all [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. With [!INCLUDE[nav2018_md](includes/nav2018_md.md)], [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances run on Microsoft .NET Core. With this change, the instances now use a .json type file (called navsettings.json) instead of the web.config file. 
 
 5.   \(Optional\) If the old [!INCLUDE[navnow](includes/navnow_md.md)] application uses data encryption, you exported the encryption key file that it used for the data encryption.  
 
