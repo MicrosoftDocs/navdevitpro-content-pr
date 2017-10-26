@@ -59,7 +59,7 @@ To complete the tasks in this article, you will use various tools and components
 |    |  Tool/Component  |
 |----|------------------|
 | Old [!INCLUDE[navnow](includes/navnow_md.md)] version  |<ul><li>[!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]<br />or</li><li>[!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)]<br />This is not available in [!INCLUDE[nav7long](includes/nav7long_md.md)] and [!INCLUDE[navsicily](includes/navsicily_md.md)]</li></ul>|
-|[!INCLUDE[nav2018_md](includes/nav2018_md.md)] |<ul><li>[!INCLUDE[nav_server_md](includes/nav_server_md.md)]</li><li>[!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)]</li><li>[!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]</li>[!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]</li> </ul>|
+|[!INCLUDE[nav2018_md](includes/nav2018_md.md)] |<ul><li>[!INCLUDE[nav_server_md](includes/nav_server_md.md)]</li><li>[!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)]</li><li>[!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]</li>[!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]</li><li>[!INCLUDE[nav_admin](includes/nav_admin_md.md)] (optional)</li></ul>|
 
 ## Task 2: Prepare the Application Object Text Files  
 <!--The [!INCLUDE[navnow](includes/navnow_md.md)] cmdlets take text files as input.--> You must prepare text files that contain the application objects for the different application versions previously described (original, modified, and target). The text files provide the input for the application merge process.
@@ -140,9 +140,9 @@ Depending on the application that you are upgrading, you can choose to analyze a
 You can analyze the conflicts in any tool, make the relevant changes, and then run the merge operation again. Alternatively, you can import the merged files into the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and resolve the conflicts there. For more information, see [Handling Merge Conflicts](Handling-Merge-Conflicts.md).
 
 ## Task 5: Import and Compile Merged Objects in an Empty Database
-After you have completed the merge, you import the new merged application objects as text files into a new (empty) database, and then compile all objects. You must resolve any compilation errors before you can continue. The text files include successfully merged code, and code that is partially merged. You can import the partially merged objects into the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] development environment and resolve the conflicts there.
+After you have completed the merge, you import the new merged application objects as text files into a new (empty) database, and then compile all objects. You must resolve any compilation errors before you can continue. The text files include successfully merged code, and code that is partially merged. You can import the partially merged objects into the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] development environment and resolve the conflicts there.
 
-1.  Create a new [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database for the new upgraded application. The database should be empty, except for the system tables.
+1.  Create a new [!INCLUDE[nav2018_md](includes/nav2018_md.md)] database for the new upgraded application. The database should be empty, except for the system tables.
 
     For more information, see [How to: Create Databases](How-to--Create-Databases.md).
 
@@ -180,7 +180,7 @@ After you have completed the merge, you import the new merged application object
     You can do this with the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or the [Set-NAVServerConfiguration cmdlet](https://go.microsoft.com/fwlink/?linkid=401394) in the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. In addition, you must add the service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance as a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server.  
 
     For more information about how to do this using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect-a-Microsoft-Dynamics-NAV-Server-Instance-to-a-Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).  
-6.  Synchronize the database by using the Sync-NAVTenant cmdlet og the 
+6.  Synchronize the database by using the Sync-NAVTenant cmdlet of  the 
 5.  Compile all the newly imported objects.
 
     You can use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe. For more information, see [Compiling Objects](compiling-objects.md).
