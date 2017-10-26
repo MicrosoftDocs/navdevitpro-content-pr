@@ -235,6 +235,19 @@ The following table describes fields on the **Reports** tab in the [!INCLUDE[nav
 |  Enable Save from Report Preview  |  Specifies whether users can save a report as a PDF, Microsoft Word, or Microsoft Excel document from the report preview window.<BR /><BR />If you clear this check box, the **Save As** icon is removed from the report preview window.<BR /><BR />Default: Enabled|
 | Report PDF Font Embedding  |  Specifies whether fonts are embedded in PDF files that are generated for reports when the report uses an RDLC report layout at runtime. This setting applies when reports are run and saved as PDF files on the client (from the report request page or print preview window) or on the server instance (by the [SAVEAS function](SAVEAS-Function.md) or [SAVEASPDF function](SAVEASPDF-Function--Report-.md) in C/AL code).<BR /><BR />**Note:** This setting does not apply when a report uses a Word report layout at runtime.<br/><br/>Embedding fonts in a PDF of a report makes sure that the PDF will use the same fonts as the original file, regardless of where the PDF is opened and which fonts are installed on the computer. However, embedding fonts can significantly increase the size of the PDF files. By disabling font embedding, you can decrease the size of the report PDF files.<BR /><BR />**Note:** This is a global setting for font embedding in report PDF files. You can override this setting on a report basis by the specifying the [PDFFontEmbedding property](PDFFontEmbedding-Property.md).<BR /><BR />Default: Enabled|
 
+### Development Tab Settings
+The following table describes fields on the **Development** tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].
+
+|  Setting  |  Description  |
+|-----------|---------------|  
+|Allowed Extension Target Level| Specifies the allowed target level when publishing extensions. <BR /><BR />Default: Extension|
+|Enable Developer Service Endpoint|Specifies whether the Developer service endpoint will be enabled.|
+|Enable SSL|Specifies whether SSL (HTTPS) is enabled for the developer web service port.|
+|HttpClient AL Function Maximum Timeout|Specifies the maximum allowed timeout value in minutes that can be set for the HttpClient Timeout AL function.|
+|HttpClient AL Function Response Size|Specifies the maximum size in megabytes of a response buffer used by the HttpClient AL function.|
+|Port|The listening HTTP port for Microsoft Dynamics NAV Developer web services.<BR/><BR/>Valid range: 1 - 65535|
+|Enable Loading Application Symbol References at Server Startup|Specifies whether application symbol references should be loaded at server startup. This setting must be enabled to allow any symbol generation. If the setting is not enabled, the **generatesymbolreference** setting does not have any effect. For more information, see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md).|
+
 ##  <a name="UsingPowerShell"></a> Using Microsoft Dynamics NAV Administration Shell Cmdlets to Modify Settings  
  The [!INCLUDE[nav_shell](includes/nav_shell_md.md)] includes several cmdlets that enable you to create and modify [!INCLUDE[nav_server](includes/nav_server_md.md)] instances. Use the `Set-` cmdlets to modify a setting on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For example, you can change the value for `DatabaseServer` to `DatabaseServer.Domain.Com` for the server instance named `MyInstance` by executing this cmdlet:  
 

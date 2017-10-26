@@ -42,6 +42,7 @@ The **Development** tab applies to the new [!INCLUDE[navnow](includes/navnow_md.
 |-----------|---------------|  
 | Allows Extension Target level  | Specifies the allowed target level when publishing extensions.<BR /><BR />Default: Internal|
 | Enable Developer Service Endpoint  |  Specifies whether the Developer service endpoint will be enabled.<BR /><BR />Default: Enabled|
+| Enable Loading Application Symbol References at Server Startup| Specifies whether application symbol references should be loaded at server startup.  If the setting is not enabled, the **generatesymbolreference** setting does not have any effect. For more information, see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md).|
 | Enable SSL |  Specifies whether SSL (https) is enabled for the Developer web service port.<BR /><BR />Default: Not enabled|
 | HttpClient AL Function Maximum Timeout Value  |  Specifies the maximum allowed timeout value in minutes that can be set for the HttpClient Timeout AL function.<BR /><BR />Default: 00:05:00|
 | HttpClient AL Function Response Size  |  Specifies the maximum size in megabytes of a response buffer used by the HttpClient AL function.<BR /><BR />Default: 15|
