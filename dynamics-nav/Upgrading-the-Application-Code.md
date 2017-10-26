@@ -123,7 +123,7 @@ You must now merge the three sets of application objects to create the applicati
 > In certain scenarios, you can choose to use the [Compare-NAVApplicationObject](https://go.microsoft.com/fwlink/?linkid=398882) cmdlet to identify the changes between the existing customized application and the new application. You can then choose to use the [Update-NAVApplicationObject](https://go.microsoft.com/fwlink/?linkid=398886) cmdlet to apply all or some of the changes to the new version. For more information, see [How to: Compare and Update Application Object Source Files](How-to--Compare-and-Update-Application-Object-Source-Files.md). However, we recommend that you use the Merge-NAVApplicationObject  cmdlet in most cases.
 
 ### Merge the application object versions into text files
-1. Run the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] for [!INCLUDE[nav2018_md](includes/nav2018_.md)] as an administrator.
+1. Run the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] for [!INCLUDE[nav2018_md](includes/nav2018_md.md)] as an administrator.
 2. At the command prompt, change to the directory that contains the four folders that contain the application text files, and then run the following command:
 
     ```  
