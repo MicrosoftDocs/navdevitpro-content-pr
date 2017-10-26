@@ -1,7 +1,8 @@
 ---
-title: "Deploying the Microsoft Dynamics NAV Web Server Components"
+title: Deploy the Web Server Components
+description: Understand the network architecture, users, security, deployment phases for installing and configuring the Dynamics NAV Web Server Components. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/25/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
