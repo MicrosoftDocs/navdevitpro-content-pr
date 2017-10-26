@@ -162,5 +162,4 @@ This topic lists some common problems that can occur when you use the Microsoft 
   
 ## See Also  
  [Walkthrough: Setting Up Outlook Synchronization](Walkthrough--Setting-Up-Outlook-Synchronization.md)   
- [Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV](Walkthrough--Synchronizing-Information-Between-Outlook-and-Microsoft-Dynamics-NAV.md)   
  [Installation Options](Installation-Options.md)
