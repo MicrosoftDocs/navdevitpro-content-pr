@@ -1,7 +1,8 @@
 ---
-title: "BigText Data Type"
+title: BigText Data Type
+description: BigText data type is a complex data type that handles large text documents in Microsoft Dynamics NAV.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/26/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 908a9650-99d8-41a4-a4e0-2eb0f718176a
 caps.latest.revision: 4
 manager: edupont
 ---
-# BigText Data Type
+# BigText Data Type in Dynamics NAV
 This complex data type handles large text documents.  
   
 ## Remarks  

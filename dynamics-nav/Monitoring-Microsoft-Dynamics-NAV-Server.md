@@ -1,5 +1,6 @@
 ---
-title: "Monitoring Microsoft Dynamics NAV Server"
+title: Monitoring Microsoft Dynamics NAV Server
+description: This topic provides a list of articles describing the features for monitoring and troubleshooting the Microsoft Dynamics NAV Server.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

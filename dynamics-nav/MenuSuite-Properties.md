@@ -1,7 +1,8 @@
 ---
-title: "MenuSuite Properties"
+title: MenuSuite Properties
+description: This topic lists properties that apply to MenuSuite object in Dynamics NAV for menu properties and menu item properties. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/25/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 6364b2aa-2717-4f2a-9efe-d419435e9649
 caps.latest.revision: 6
 manager: edupont
 ---
-# MenuSuite Properties
+# MenuSuite Properties in Dynamics NAV
 This topic lists properties that apply to the MenuSuite object.  
 
 ## Menu Properties  
