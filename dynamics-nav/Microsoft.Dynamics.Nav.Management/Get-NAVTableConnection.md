@@ -56,7 +56,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: UseNST, UseNSTSpecificConnection
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -71,7 +71,7 @@ Specifies the name of the computer on which the SQL Server instance for the Micr
 ```yaml
 Type: String
 Parameter Sets: UseDatabase, UseDatabaseSpecificConnection
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -86,7 +86,7 @@ Specifies the name of the Microsoft Dynamics NAV database that contains the appl
 ```yaml
 Type: String
 Parameter Sets: UseDatabase, UseDatabaseSpecificConnection
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -103,7 +103,7 @@ This parameter is only relevant when you set with the ApplicationDatabaseServer 
 ```yaml
 Type: PSCredential
 Parameter Sets: UseDatabase, UseDatabaseSpecificConnection
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -113,13 +113,13 @@ Accept wildcard characters: False
 ```
 
 ### -ConnectionType
-Specifies the type of table connection. In the current version of Microsoft Dynamics NAV, you can specify two types of connection: CRM or ExternalSQL.
+Specifies the type of table connection. In the current version of Microsoft Dynamics NAV, you can specify two types of connection: 365 for Sales or ExternalSQL.
 
 ```yaml
 Type: TableConnectionType
 Parameter Sets: UseNSTSpecificConnection, UseDatabaseSpecificConnection
-Aliases: 
-Accepted values: CRM, ExternalSQL, Exchange, MicrosoftGraph
+Aliases:
+Accepted values: 365 for Sales, ExternalSQL, Exchange, MicrosoftGraph
 
 Required: True
 Position: Named
@@ -134,7 +134,7 @@ Specifies the name of the table connection.
 ```yaml
 Type: String
 Parameter Sets: UseNSTSpecificConnection, UseDatabaseSpecificConnection
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -149,7 +149,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named

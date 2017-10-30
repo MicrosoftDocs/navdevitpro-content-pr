@@ -124,7 +124,7 @@ The following sections list the specifications of minimum hardware and software 
 |Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
 |Hardware resources|-   Hard disk space: 500 MB.<br />-   Memory: 2 GB.|  
 |Reports|-   Microsoft Report Viewer 2015 for Save as Excel, Save as PDF, and Save as Word functionality.|  
-|[!INCLUDE[crm](includes/crm_md.md)] integration|-   Windows Identity Framework.<br />     For a list of supported [!INCLUDE[crm](includes/crm_md.md)] versions, see [Microsoft Dynamics CRM Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#CRM).|  
+|[!INCLUDE[crm](includes/crm_md.md)] integration|-   Windows Identity Framework.<br />     For a list of supported [!INCLUDE[crm](includes/crm_md.md)] versions, see [Microsoft Dynamics 365 for Sales Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#CRM).|  
 |Additional software| - Microsoft .NET Framework 3.5.1.<br /> - Microsoft .NET Framework 4.5.2.<br />-   Windows PowerShell 3.0.|  
 |Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer:<br /><br /> <ul><li>Microsoft .NET Framework 4.5.2.</li><li>Microsoft Report Viewer 2015.</li><li>Windows Identity Framework.</li></ul></li></ul>|  
 
@@ -188,13 +188,13 @@ The following table shows the minimum system requirements for the [!INCLUDE[navn
 |Supported Exchange Servers|Exchange Server 2016, Exchange Server 2013, or Exchange Online.|  
 
 
-##  <a name="CRM"></a> Microsoft Dynamics CRM Integration Requirements  
+##  <a name="CRM"></a> Microsoft Dynamics 365 for Sales Integration Requirements  
  The following table shows the system requirements for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with [!INCLUDE[crm](includes/crm_md.md)].  
 
 |||  
 |-|-|  
 |Additional software|-   Microsoft Dynamics CRM Online 2016, Microsoft Dynamics CRM Online 2016 Update 1, or Microsoft Dynamics CRM 2016. <br/>-   Microsoft Dynamics CRM Online 2015, Microsoft Dynamics CRM Online 2015 Update 1, or Microsoft Dynamics CRM 2015.|
-|Additional information|- Item Availability is not supported on Dynamics CRM 2015, versions Update 1 and Online.<BR/> You can obtain the item availability support by running the DynamicsNAVIntegrationSolution.zip file on the Dynanmics NAV 2016 product DVD.<BR/> For more information, see [How to: Prepare Dynamics CRM for Integration](How-to-prepare-Dynamics-CRM-for-Integration.md).      |  
+|Additional information|- Item Availability is not supported on Dynamics CRM 2015, versions Update 1 and Online.<BR/> You can obtain the item availability support by running the DynamicsNAVIntegrationSolution.zip file on the Dynanmics NAV 2016 product DVD.<BR/> For more information, see [How to: Prepare Microsoft Dynamics 365 for Sales for Integration](How-to-prepare-Dynamics-CRM-for-Integration.md).      |  
 
 ##  <a name="SharePointApp"></a> Microsoft Dynamics NAV as an App for SharePoint Requirements  
  The following table shows the minimum system requirements for [!INCLUDE[navnow](includes/navnow_md.md)] as an App for SharePoint.  

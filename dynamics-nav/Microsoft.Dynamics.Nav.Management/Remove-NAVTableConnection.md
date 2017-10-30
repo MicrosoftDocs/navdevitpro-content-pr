@@ -31,11 +31,11 @@ Use the Remove-NAVTableConnection cmdlet to remove an external table connection 
 
 ### EXAMPLE 1
 ```
-Remove-NAVTableConnection -ServerInstance DynamicsNAV -ConnectionType CRM
- -ConnectionId myCRM
+Remove-NAVTableConnection -ServerInstance DynamicsNAV -ConnectionType 365 for Sales
+ -ConnectionId my365 for Sales
 ```
 
-This example removes a connection to a Dynamics CRM table from a Dynamics NAV Server instance.
+This example removes a connection to a Dynamics 365 for Sales table from a Dynamics NAV Server instance.
 
 ## PARAMETERS
 
@@ -46,7 +46,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: UseNST
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -61,7 +61,7 @@ Specifies the name of the computer on which the SQL Server instance for the Micr
 ```yaml
 Type: String
 Parameter Sets: UseDatabase
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -76,7 +76,7 @@ Specifies the name of the Microsoft Dynamics NAV database that contains the appl
 ```yaml
 Type: String
 Parameter Sets: UseDatabase
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -93,7 +93,7 @@ You use this parameter to access the database by using SQL Server Authentication
 ```yaml
 Type: PSCredential
 Parameter Sets: UseDatabase
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -104,13 +104,13 @@ Accept wildcard characters: False
 
 ### -ConnectionType
 Specifies the type of table connection.
-In Microsoft Dynamics NAV 2016, you can specify two types of connection: CRM or ExternalSQL.
+In Microsoft Dynamics NAV 2016, you can specify two types of connection: 365 for Sales or ExternalSQL.
 
 ```yaml
 Type: TableConnectionType
 Parameter Sets: (All)
-Aliases: 
-Accepted values: CRM, ExternalSQL, Exchange, MicrosoftGraph
+Aliases:
+Accepted values: 365 for Sales, ExternalSQL, Exchange, MicrosoftGraph
 
 Required: True
 Position: Named
@@ -125,7 +125,7 @@ Specifies the name of the table connection.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -140,7 +140,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named

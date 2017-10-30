@@ -12,7 +12,7 @@ caps.latest.revision: 5
 manager: edupont
 ---
 # Integration Triggers
-The following triggers have been added to support integration with Microsoft Dynamics CRM:  
+The following triggers have been added to support integration with Microsoft Dynamics 365 for Sales:  
 
 -   **OnDatabaseCreate**  
 
