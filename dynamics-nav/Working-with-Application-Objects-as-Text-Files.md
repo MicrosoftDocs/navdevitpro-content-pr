@@ -1,7 +1,8 @@
 ---
-title: "Working with Application Objects as Text Files"
+title: Application Objects in Text Files
+description: Export application objects to text files and modify them in external tools such as comparing and merging objects using Windows PowerShell cmdlets.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 17677da3-f68a-4899-a2d3-fa2964edd6fe
 caps.latest.revision: 5
 ---
-# Working with Application Objects as Text Files
+# Working with Dynamics NAV Application Objects as Text Files
 You can export application objects to text files and modify them in external tools such as comparing and merging objects using [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets. Optionally, you can store the files in external source control systems for better maintainability.  
 
 ## Objects in Text Files  

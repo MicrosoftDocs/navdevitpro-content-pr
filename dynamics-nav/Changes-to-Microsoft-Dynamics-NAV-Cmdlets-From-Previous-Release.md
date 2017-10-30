@@ -1,7 +1,8 @@
 ---
-title: "Changes to Microsoft Dynamics NAV Cmdlets From Previous Release"
+title: Cmdlets Changes From Previous Release
+description: This article provides an overview of the new, changed, and removed cmdlets in the Administration Shell and Development Shell since previous release. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/25/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

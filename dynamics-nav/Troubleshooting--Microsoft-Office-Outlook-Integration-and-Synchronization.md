@@ -1,7 +1,8 @@
 ---
-title: "Troubleshooting: Microsoft Office Outlook Integration and Synchronization"
+title: Troubleshoot Outlook Integration and Synchronization
+description: Test multiple installations and configurations of the Dynamics NAV Synchronization Add-in to resolve the problems that can occur on the Outlook Add-in.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/26/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -161,5 +162,4 @@ This topic lists some common problems that can occur when you use the Microsoft 
   
 ## See Also  
  [Walkthrough: Setting Up Outlook Synchronization](Walkthrough--Setting-Up-Outlook-Synchronization.md)   
- [Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV](Walkthrough--Synchronizing-Information-Between-Outlook-and-Microsoft-Dynamics-NAV.md)   
  [Installation Options](Installation-Options.md)

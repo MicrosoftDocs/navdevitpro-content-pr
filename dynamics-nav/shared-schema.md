@@ -1,6 +1,6 @@
 ---
 title: Converting to Shared Schema
-description: Provides and over view of the the shared schema data model.
+description: Explains the shared schema data model and how to convert to it from the default separate schema data model.
 ms.date: 10/16/2017
 ms.tgt_pltfrm: na
 ms.topic: article
@@ -14,7 +14,7 @@ Shared schema is a data model that includes tenants and companies &#8212; optimi
 Shared schema is a data model that shares database resources among tenants and companies. Shared schema optimizes the reuse of resources, such as execution plans, memory, and database connections. 
 -->
 
-Instead of having company-specific tables for storing business data, companies share the same tables. In a multitenant deployment, shared schema enables you to have multiple tenants in the same database. Tenants in the database can support different application versions, which means that you can upgrade tenants to application versions individually.
+Instead of having company-specific tables for storing business data, companies share the same tables. In a multitenant deployment, shared schema enables you to have multiple tenants in the same database. Tenants in the database can support different application versions, which allows you to individually upgrade tenants to different application versions.
 
 ## Overview
 To help explain shared schema, let's first look at the conventional [!INCLUDE[navnow_md](includes/navnow_md.md)] data model, which is referred to as *separate schema*.
