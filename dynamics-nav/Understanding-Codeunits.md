@@ -1,7 +1,8 @@
 ---
-title: "Understanding Codeunits"
+title: Codeunits Functions and Variables
+description: A codeunit is a container for C/AL code used for application objects. Place the code in the objects that calls the functions for simple application.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: ba64befb-057a-4236-98f1-64093d5ef1e0
 caps.latest.revision: 9
 manager: edupont
 ---
-# Understanding Codeunits
+# Understanding Codeunits in Dynamics NAV
 A codeunit is a container for C/AL code that you can use in many application objects. In simple applications, you can place the code in the object that calls the functions. For example, if you use C/AL code in pages, you can store the code in the page. However, as your application grows in both size and complexity, you will often find that you use the same functions more than once in many different objects. Instead of declaring the same functions repeatedly, you can use a codeunit to define them one time.  
   
 ## What You Can Define in Codeunits  

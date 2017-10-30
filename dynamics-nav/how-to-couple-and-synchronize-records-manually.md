@@ -20,7 +20,7 @@ This topic describes how to couple [!INCLUDE[navnow_md](includes/navnow_md.md)] 
 
     You can also just open the list page and select the record that you want to couple.  
 
-2.  On the **Navigate** tab, in the **Dynamics CRM** group, choose **Coupling**, and then choose **Set Up Coupling**.  
+2.  On the **Navigate** tab, in the **Dynamics 365 for Sales** group, choose **Coupling**, and then choose **Set Up Coupling**.  
 
 3.  Fill\-in the fields, and then choose the **OK** button.  
 
@@ -28,7 +28,7 @@ This topic describes how to couple [!INCLUDE[navnow_md](includes/navnow_md.md)] 
 
 1.  In the [!INCLUDE[navnow_md](includes/navnow_md.md)] client, open the record, such as a customer or contact.  
 
-2.  On the **Navigate** tab, in the **Dynamics CRM** group, choose **Synchronize Now**.  
+2.  On the **Navigate** tab, in the **Dynamics 365 for Sales** group, choose **Synchronize Now**.  
 
 3.  If a record can be synchronized either from [!INCLUDE[navnow_md](includes/navnow_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)] or from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[navnow_md](includes/navnow_md.md)], select the option that specifies the direction of data update, and then choose the **OK** button.  
 
@@ -38,12 +38,12 @@ This topic describes how to couple [!INCLUDE[navnow_md](includes/navnow_md.md)] 
 
 2.  Select the records that you want to synchronize.  
 
-3.  On the **Navigate** tab, in the **Dynamics CRM** group, choose **Synchronize Now**.  
+3.  On the **Navigate** tab, in the **Dynamics 365 for Sales** group, choose **Synchronize Now**.  
 
 4.  If records can be synchronized either from [!INCLUDE[navnow_md](includes/navnow_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)] or from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[navnow_md](includes/navnow_md.md)], select the option that specifies the direction of data update, and then choose the **OK** button.  
 
 ## See Also  
-[Synchronizing Microsoft Dynamics NAV and Dynamics CRM](Synchronizing-Dynamics-NAV-and-Dynamics-CRM.md)   
+[Synchronizing Microsoft Dynamics NAV and Dynamics 365 for Sales](Synchronizing-Dynamics-NAV-and-Dynamics-CRM.md)   
 [Scheduled Synchronization Using the Synchronization Job Queue Entries](Scheduled-Synchronization-Using-the-Synchronization-Job-Queue-Entries.md)   
-[Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md)   
-[How to: View Microsoft Dynamics CRM Synchronization Status](how-to-view-synchronization-status.md)  
+[Setting Up Dynamics 365 for Sales Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md)   
+[How to: View Microsoft Dynamics 365 for Sales Synchronization Status](how-to-view-synchronization-status.md)  

@@ -1,7 +1,8 @@
 ---
-title: "C/AL Data Types"
+title: C/AL Data Types
+description: C/AL data type uses variables to store data of various types which are either fundamental or complex and some can also be divided into other categories.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/26/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 976c36b9-f2bf-4cd5-8ad7-ff3b5eb0cf26
 caps.latest.revision: 44
 manager: edupont
 ---
-# C/AL Data Types
+# C/AL Data Types in Microsoft Dynamics NAV
 C/AL uses variables to store data of various types. By declaring variables of the correct type, you do the following:  
 
 -   Create faster code  

@@ -1,7 +1,8 @@
 ---
-title: "Troubleshooting: 401 - Unauthorized: Access is denied due to invalid credentials."
+title: 401-Unauthorized-Access is denied due to invalid credentials
+description: The client is disconnected from the server instance and event log includes a warning event- The SAML2 token is invalid because its validity period ended.
 ms.custom: na
-ms.date: 17/01/2017
+ms.date: 10/26/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
