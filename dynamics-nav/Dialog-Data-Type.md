@@ -2,7 +2,7 @@
 title: Dialog Data Type
 description: The Dialog data type is a complex type which stores dialog windows. These variables give access to a number of dialog functions in Dynamics NAV. 
 ms.custom: na
-ms.date: 10/26/2017
+ms.date: 10/30/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
