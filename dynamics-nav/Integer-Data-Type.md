@@ -1,7 +1,8 @@
 ---
-title: "Integer Data Type"
+title: Integer Data Type
+description: This simple data type stores whole numbers, and the integers can also be represented as Boolean values where -1 represents true and 0 as false.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: ede60a1a-e656-4135-9859-f264d0aa2a66
 caps.latest.revision: 8
 ---
-# Integer Data Type
+# Integer Data Type in Dynamics NAV
 This simple data type stores whole numbers with values that range from -2,147,483,647 to 2,147,483,647.  
   
 ## Remarks  
