@@ -74,22 +74,32 @@ To convert to shared schema, you use the [Sync-NAVTenant cmdlet](https://go.micr
     ```
     Sync-NAVTenant -ServerInstance  "[server_instance_name]" -Tenant "[tenant_ID]" -Mode ConvertToSharedSchema
     ```
-    When the sync process finishes, the database has been converted.
-    
+    When the sync process finishes, the database that is used by the tenant has been converted. The tenant is still be mounted on the same NAV Server instance. If you have a multitnenant deployment, the server instance still connects to the same application database. 
+
 ## Next steps
-You can now begin the manage tenants of the database. 
--   If you have single tenant deployment, there is basically no change in the way you manage the tenant compared with before the conversion.
--   If you have a multitenant deployment, the distinction between the *tenant database* and *tenant* introduces a new paradigm for managing your tenants. This is supported by several additional Powershell cmdlets.
+You can now begin the manage tenants of the database. If you have single tenant deployment, there is basically no change in the way you manage the tenant compared with before the conversion.
 
-    To get started, we recommend that you follow these steps:
-    1. Dismount the existing tenant from the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance bu using the Dismount-NAVTenant cmdlet.
-    2. Mount the database as a tenant database to the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance by using the Mount-NAVTenantdatabase cmdlet.
-    3. Mount the tenant to the tenant database by using the Mount-NAVTenant cmdlet.
-    4. Synchronize the tenant database with the application by using the Sync-NAVTenantDatabase cmdlet.
+If you have a multitenant deployment, the distinction between the *tenant database* and *tenant* introduces a new paradigm for managing your tenants, which is supported by several additional Powershell cmdlets. To get started after converting to shared schema, we recommend that you follow these steps:
 
-    For more information, see [Managing Tenants in a Shared Schema Database](manage-tenant-shared-schems.md).
+1. Dismount the existing tenant from the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance:
+
+    ```
+    Dismount-NAVTenant -ServerInstance '[nav_server_instance_name]' -Tenant '[tenant ID]'
+    ```
+3.  Mount the database, which was used by the tenant, as a designated tenant database on the same [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance as before. 
+
+    ```
+   Mount-NAVTenantDatabase -ServerInstance '[nav_server_instance_name]' -Id '[tenant_database_id]' -DatabaseName '[exTest_Database'
+-DatabaseServer localhost\NAVDEMO
+    ```
     
-     
+by using the Mount-NAVTenantdatabase cmdlet.
+    3. Synchronize the tenant database with the application by using the Sync-NAVTenantDatabase cmdlet.
+    4. Mount the tenant to the tenant database by using the Mount-NAVTenant cmdlet.
+
+    For more information, see [Managing Tenants in a Shared Schema Database](manage-tenant-shared-schema.md).
+
+
 ## See Also  
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
 [Migrating to Multitenancy](Migrating-to-Multitenancy.md)  
