@@ -8,7 +8,7 @@ ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
 # Converting to Shared Schema
-Shared schema is a data model that includes tenants and companies &#8212; optimizing the reuse of resources, such as execution plans, memory, and database connections. 
+Shared schema is a data model that includes tenants and companies &#8212; optimizing the reuse of resources, such as databases, execution plans, memory, and database connections. 
 
 <!-- alternative
 Shared schema is a data model that shares database resources among tenants and companies. Shared schema optimizes the reuse of resources, such as execution plans, memory, and database connections. 
@@ -20,7 +20,7 @@ Instead of having company-specific tables for storing business data, companies s
 To help explain shared schema, let's first look at the conventional [!INCLUDE[navnow_md](includes/navnow_md.md)] data model, which is referred to as *separate schema*.
 
 > [!TIP]
-> A tenant is one or more companies, typically part of a business or legal entity, with common access to the application but with dedicated storage of business data in the database. In a single tenant deployment, the application and tenant business data are stored in the same database. In a multitenant deployment, the application is stored in one database, and the tenant business data in another database.
+> A tenant is one or more companies, typically part of a business or legal entity, with access to a common application but with dedicated storage of business data in the database. In a single tenant deployment, the application and tenant business data are stored in the same database. In a multitenant deployment, the application is stored in one database, and the tenant business data in another database.
 
 ### Separate schema 
 By default, [!INCLUDE[navnow_md](includes/navnow_md.md)] uses a *separate schema* data model. A database that uses separate schema has the following characteristics: 
@@ -74,7 +74,10 @@ To convert to shared schema, you use the [Sync-NAVTenant cmdlet](https://go.micr
     ```
     Sync-NAVTenant -ServerInstance  "[server_instance_name]" -Tenant "[tenant_ID]" -Mode ConvertToSharedSchema
     ```
-
+    When the sync process finishes, the database has been converted.
+    
+You can now begin the manage tenants of the database. If you do not have a multitenant deployment, there is basically no change in the way you manage a tenant compared to before the conversion. If you have a multitenant deployment, there are changes some fundemental changes to support the introduction of new tenant database concept, there are several new PowerShell cmdlets  
+that you can use the 
 ## See Also  
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
 [Migrating to Multitenancy](Migrating-to-Multitenancy.md)  
