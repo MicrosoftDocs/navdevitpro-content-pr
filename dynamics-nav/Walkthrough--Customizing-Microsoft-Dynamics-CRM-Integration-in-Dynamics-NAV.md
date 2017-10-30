@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Customizing Microsoft Dynamics CRM Integration in Dynamics NAV"
+title: "Walkthrough: Customizing Microsoft Dynamics 365 for Sales Integration in Dynamics NAV"
 author: edupont04
 manager: edupont04
 ms.custom: na
@@ -12,7 +12,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 0658548b-3a7b-4e9a-bd1a-d58c625bd0de
 caps.latest.revision: 12
 ---
-# Walkthrough: Customizing Microsoft Dynamics CRM Integration in Dynamics NAV
+# Walkthrough: Customizing Microsoft Dynamics 365 for Sales Integration in Dynamics NAV
 This walkthrough introduces customizing the integration of [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[crm](includes/crm_md.md)]. The walkthrough will guide you through setting up integration of campaigns in [!INCLUDE[navnow](includes/navnow_md.md)] and campaigns in [!INCLUDE[crm](includes/crm_md.md)].  
 
  The customization in this walkthrough is done entirely in [!INCLUDE[navnow](includes/navnow_md.md)], and does not describe how to modify your [!INCLUDE[crm](includes/crm_md.md)] solution, such as adding or modify entities and forms.  
@@ -34,7 +34,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
     -   [!INCLUDE[crm](includes/crm_md.md)] integration enabled, including the default synchronization setup and a working connection from [!INCLUDE[navnow](includes/navnow_md.md)] to [!INCLUDE[crm](includes/crm_md.md)].  
 
-         For more information, see [How to: Set Up a Microsoft Dynamics CRM Connection](How-to-Set-Up-a-Dynamics-CRM-Connection.md).  
+         For more information, see [How to: Set Up a Microsoft Dynamics 365 for Sales Connection](How-to-Set-Up-a-Dynamics-CRM-Connection.md).  
 
     -   [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
 
@@ -53,7 +53,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
 -   Using events to develop custom code to transform data when synchronizing between [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[crm](includes/crm_md.md)].  
 
-## Creating an Integration Table in Dynamics NAV for the Dynamics CRM Entity  
+## Creating an Integration Table in Dynamics NAV for the Dynamics 365 for Sales Entity  
  To integrate data from a [!INCLUDE[crm](includes/crm_md.md)] entity into [!INCLUDE[navnow](includes/navnow_md.md)], you must create a [!INCLUDE[navnow](includes/navnow_md.md)] table object that is based on the [!INCLUDE[crm](includes/crm_md.md)] entity, and then import the new table into the [!INCLUDE[navnow](includes/navnow_md.md)] database. For this walkthrough, you will create a [!INCLUDE[navnow](includes/navnow_md.md)] table object for the [!INCLUDE[crm](includes/crm_md.md)]**Campaign** entity. This table describes the schema of the [!INCLUDE[crm](includes/crm_md.md)] entity in [!INCLUDE[navnow](includes/navnow_md.md)] database. The table can contain all or some of the fields from the [!INCLUDE[crm](includes/crm_md.md)] entity. However, if you intend to write back to [!INCLUDE[crm](includes/crm_md.md)], you should include all fields in the table.  
 
  Apart from creating a table object for the entity, you must also create a table object for any relationships that the entity has. For example, the **Campaign** entity has a relationship to the **ModifiedOn** and **CreatedBy** fields of the **Systemuser** entity. Therefore, you will also have to create a [!INCLUDE[navnow](includes/navnow_md.md)] table for this entity as well. However, the default [!INCLUDE[crm](includes/crm_md.md)] integration in [!INCLUDE[navnow](includes/navnow_md.md)] already includes the integration table **5340 CRM Systemuser** for the **Systemuser** entity. Therefore, you will only have to create the table object for the **Systemuser** entity to establish the relationships; you do not have to import this table into the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
@@ -78,10 +78,10 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
      You can compile the object by using the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or by using finsql.exe. For more information, see [Importing and Exporting Objects](Importing-and-Exporting-Objects.md).  
 
-## Creating a Page for Displaying Dynamics CRM Data  
+## Creating a Page for Displaying Dynamics 365 for Sales Data  
  For scenarios where you want to view [!INCLUDE[crm](includes/crm_md.md)] data for a specific entity, you can create a page object that uses the integration table for the [!INCLUDE[crm](includes/crm_md.md)] entity as its source. For example, you might want to have a page that displays a list of the current records in a [!INCLUDE[crm](includes/crm_md.md)] entity. In this walkthrough, you will create a list page that uses table 50001 CRM Campaigns as its source.  
 
-#### To create a list page to display Dynamics CRM campaigns  
+#### To create a list page to display Dynamics 365 for Sales campaigns  
 
 1.  In [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], add a new List page.  
 
@@ -93,8 +93,8 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
 5.  Run the page to view the [!INCLUDE[crm](includes/crm_md.md)] campaign list.  
 
-## Enabling Coupling between Dynamics CRM Campaigns and Dynamics NAV Campaigns  
- To establish a relationship between a Dynamics NAV table record and a Dynamics CRM entity record, you create a coupling. A coupling consists of the primary ID \(typically a GUID\) from Dynamics CRM record and the Integration ID \(GUID\) from Dynamics NAV.  
+## Enabling Coupling between Dynamics 365 for Sales Campaigns and Dynamics NAV Campaigns  
+ To establish a relationship between a Dynamics NAV table record and a Dynamics 365 for Sales entity record, you create a coupling. A coupling consists of the primary ID \(typically a GUID\) from Dynamics 365 for Sales record and the Integration ID \(GUID\) from Dynamics NAV.  
 
  To enable users to create couplings between records in the two systems, you implement a coupling page in [!INCLUDE[navnow](includes/navnow_md.md)] for the [!INCLUDE[crm](includes/crm_md.md)] entity. The coupling page provides the user interface that users can use to couple a [!INCLUDE[navnow](includes/navnow_md.md)] record to a [!INCLUDE[crm](includes/crm_md.md)] record. The default [!INCLUDE[crm](includes/crm_md.md)] integration includes several coupling pages. To create a coupling page for [!INCLUDE[crm](includes/crm_md.md)] Campaigns, you will use page **5241 CRM Coupling Customer** and adapt it the campaign integration. The coupling page that you set up will use the integration table **50001 CRM Campaign** to retrieve campaign data from [!INCLUDE[crm](includes/crm_md.md)]. It will use page **50001 CRM Campaign List** that you created previously to display a list of the campaigns from which to choose.  
 
@@ -170,11 +170,11 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
  To enable users to open the [!INCLUDE[crm](includes/crm_md.md)] Campaign record from the [!INCLUDE[navnow](includes/navnow_md.md)] Campaign, the next step is to add an additional action to the Campaign Card page.  
 
-#### To add actions to open the Dynamics CRM campaign record  
+#### To add actions to open the Dynamics 365 for Sales campaign record  
 
 1.  Open page **5086 Campaign Card** in Page Designer, and then open Action Designer.  
 
-2.  In the **Dynamics CRM** action group, before the **Coupling** action, add a new action that has the name **GotoCRMCampaign** and caption **Campaign**.  
+2.  In the **Dynamics 365 for Sales** action group, before the **Coupling** action, add a new action that has the name **GotoCRMCampaign** and caption **Campaign**.  
 
 3.  In the C/AL code for the action, add a variable that has the name **CRMIntegrationManagement** and references codeunit **5330 CRM Integration Management**, and then add the following line of code:  
 
@@ -199,7 +199,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
  The coupling and links between [!INCLUDE[crm](includes/crm_md.md)] Campaign records and [!INCLUDE[navnow](includes/navnow_md.md)] Campaign records are now completed. Users can easily open the coupled [!INCLUDE[crm](includes/crm_md.md)] record directly from [!INCLUDE[navnow](includes/navnow_md.md)].  
 
-## Creating an Integration Table Mapping for Synchronizing Dynamics CRM Campaigns and Dynamics NAV Campaigns  
+## Creating an Integration Table Mapping for Synchronizing Dynamics 365 for Sales Campaigns and Dynamics NAV Campaigns  
  For synchronization of data between [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[crm](includes/crm_md.md)] to work, mappings must exist to associate the table ID and fields of the integration table \(in this case table **50001 CRM Campaign**\) with the [!INCLUDE[navnow](includes/navnow_md.md)] business data table \(in this case table **5081 Campaign**\). To accomplish this, you must create to types of mappings: *integration table mapping* and *integration field mapping*.  
 
 -   An integration table mapping links the [!INCLUDE[navnow](includes/navnow_md.md)] business data table to the integration table for the [!INCLUDE[crm](includes/crm_md.md)] entity.  
@@ -393,5 +393,5 @@ To add an integration field mapping in codeunit **5334 CRM Setup Defaults**, fol
  When you choose **Synchronize Now** on the **Campaign** page, and then choose to synchronize from [!INCLUDE[crm](includes/crm_md.md)] to [!INCLUDE[navnow](includes/navnow_md.md)], the **Comment** field should be updated to indicate whether the **Message** field in the [!INCLUDE[crm](includes/crm_md.md)] campaign has a value.  
 
 ## See Also  
- [Customizing Dynamics CRM and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)   
- [Introduction to Dynamics CRM Integration Customization in Dynamics NAV](Introduction-to-Dynamics-CRM-Integration-Customization-in-Dynamics-NAV.md)
+ [Customizing Dynamics 365 for Sales and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)   
+ [Introduction to Dynamics 365 for Sales Integration Customization in Dynamics NAV](Introduction-to-Dynamics-CRM-Integration-Customization-in-Dynamics-NAV.md)
