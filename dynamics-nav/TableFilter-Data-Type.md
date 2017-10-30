@@ -1,7 +1,8 @@
 ---
-title: "TableFilter Data Type"
+title: TableFilter Data Type
+description: A TableFilter data type applies a filter to another table. This data type can only be used for setting filters from the Permission table. 
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 10/30/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

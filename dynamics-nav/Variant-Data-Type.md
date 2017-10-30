@@ -1,7 +1,8 @@
 ---
-title: "Variant Data Type"
+title: Variant Data Type
+description: The C/AL variant data types can contain many C/AL data types or any variants from OCX and Automation objects but not all values can be mapped to C/AL values.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/30/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 98348284-4055-40e2-9bc0-808e95289626
 caps.latest.revision: 21
 ---
-# Variant Data Type
+# Variant Data Type in Dynamics NAV
 The C/AL variant data type can contain many C/AL data types or any variants from OCX and Automation objects. However, not all these values can be mapped to C/AL values. For more information, see [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md).  
   
  The variant data type can contain the following C/AL data types:  
