@@ -15,7 +15,7 @@ ms.prod: "dynamics-nav-2017"
 
 **Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Upgrading-the-Application-Code-2017.md).
 
-Typically, customers want all the customizations that have been implemented in their existing [!INCLUDE[navnow](includes/navnow_md.md)] databases to be migrated to their new [!INCLUDE[navnowlong](includes/navnowlong_md.md)] databases. Depending on the version of [!INCLUDE[navnow](includes/navnow_md.md)] that a database is being upgraded from, the amount of code changes between the two versions can vary. To upgrade the application code, you must merge code from different versions of the application. This merge process is known as a *code upgrade* or *application upgrade*. You must upgrade the application before you upgrade the data.  
+Typically, customers want all the customizations that have been implemented in their existing [!INCLUDE[navnow](includes/navnow_md.md)] databases to be migrated to their new [!INCLUDE[nav2018_md](includes/nav2018_md.md)] databases. Depending on the version of [!INCLUDE[navnow](includes/navnow_md.md)] that a database is being upgraded from, the amount of code changes between the two versions can vary. To upgrade the application code, you must merge code from different versions of the application. This merge process is known as a *code upgrade* or *application upgrade*. You must upgrade the application before you upgrade the data.  
 
 ## Application Upgrade Overview  
 During an upgrade, you have to first identify which changes you have to make, and then you'll have to upgrade the application objects and the application code, and finally, you might have to upgrade data so that it fits the new database schema.
@@ -24,11 +24,11 @@ For the application portion of the upgrade, you must analyze and process code ch
 
 |Version|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-------------|---------------------------------------|  
-|*Original version*|This is the baseline version of the solution that you want to upgrade, such as the original release of [!INCLUDE[nav7long](includes/nav7long_md.md)] or [!INCLUDE[navcorfu](includes/navcorfu_md.md)].|  
-|*Modified version*|This is the version that you want to upgrade, such as a customer's [!INCLUDE[nav7long](includes/nav7long_md.md)] or [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database with customizations and add-on solutions.|  
-|*Target version*|This is the target of the merge process that you want to upgrade your application to, such as the standard version of the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database.|  
+|*Original version*|This is the baseline version of the solution that you want to upgrade, such as the original release of [!INCLUDE[navcorfu](includes/navcorfu_md.md)] or [!INCLUDE[nav2017](includes/nav2017.md)].|  
+|*Modified version*|This is the version that you want to upgrade, such as a customer's [!INCLUDE[navcorfu](includes/navcorfu_md.md)] or [!INCLUDE[nav2017](includes/nav2017.md)] database with customizations and add-on solutions.|  
+|*Target version*|This is the target of the merge process that you want to upgrade your application to, such as the standard version of the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] database.|  
 
-When you merge the application objects from these three versions, you can import the result into a new [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database that then contains the upgraded application. At the end of the process, you export the merged [!INCLUDE[navnowlong](includes/navnowlong_md.md)] objects from this database to a .fob file that you will use during the data upgrade.  
+When you merge the application objects from these three versions, you can import the result into a new [!INCLUDE[nav2018_md](includes/nav2018_md.md)] database that then contains the upgraded application. At the end of the process, you export the merged [!INCLUDE[nav2018_md](includes/nav2018_md.md)] objects from this database to a .fob file that you will use during the data upgrade.  
 
 ### Different ways of upgrading application code
 You can use any tool or set of tools to help you compare and merge code.  [!INCLUDE[navnow](includes/navnow_md.md)] includes [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets and sample scripts that can help you upgrade your application. The cmdlets are available through the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)], or by importing the Microsoft.Dynamics.NAV.Model.Tools.psd1 module into the Windows PowerShell Integrated Scripting Environment (ISE). You can find the sample scripts on the product installation media, in the *WindowsPowerShellScripts\ApplicationMergeUtilities* folder.
@@ -52,21 +52,30 @@ To upgrade the application code , complete these tasks:
 5.  Export all objects.  
 -->
 
-## Task 1: Prepare the Application Object Text Files  
+## Task 1: Install the Prerequisites
+
+To complete the tasks in this article, you will use various tools and components of the old [!INCLUDE[navnow](includes/navnow_md.md)] version and [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. Ensure that you have the following installed:
+
+|    |  Tool/Component  |
+|----|------------------|
+| Old [!INCLUDE[navnow](includes/navnow_md.md)] version  |<ul><li>[!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]<br />or</li><li>[!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)]<br />This is not available in [!INCLUDE[nav7long](includes/nav7long_md.md)] and [!INCLUDE[navsicily](includes/navsicily_md.md)]</li></ul>|
+|[!INCLUDE[nav2018_md](includes/nav2018_md.md)] |<ul><li>[!INCLUDE[nav_server_md](includes/nav_server_md.md)]</li><li>[!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)]</li><li>[!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]</li>[!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]</li> </ul>|
+
+## Task 2: Prepare the Application Object Text Files  
 <!--The [!INCLUDE[navnow](includes/navnow_md.md)] cmdlets take text files as input.--> You must prepare text files that contain the application objects for the different application versions previously described (original, modified, and target). The text files provide the input for the application merge process.
 
 There are three ways to export application objects to text files:
 
 -   Use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] version that matches the application database version. For more information see [To export objects by using the development environment UI](how-to--export-objects.md#ExportObjectsDevEnv).
 -   Use the finsql.exe to run the [ExportObjects](ExportObjects.md) command. For more information, see [To export objects by running finsql.exe with the ExportObjects command  ](how-to--export-objects.md#ExportObjectsFinSQL).
--   Use the Dynamics NAV Development Shell version that matches the application database version. This is the way that is described in the tasks of this article. Note that the Dynamics NAV Development Shell is not available for [!INCLUDE[nav7long](includes/nav7long_md.md)] and [!INCLUDE[navsicily](includes/navsicily_md.md)]. For these versions, you must use [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe.
+-   Use the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] version that matches the application database version. This is the way that is described in the tasks of this article. Note that the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] is not available for [!INCLUDE[nav7long](includes/nav7long_md.md)] and [!INCLUDE[navsicily](includes/navsicily_md.md)]. For these versions, you must use [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe.
 
 ### Create the application text files
 1.  Create four folders on the computer, and name them as follows:  
 
  -   **ORIGINAL**  
 
-        This folder will be used to store the application object text file(s) from the baseline version, such as the original release of [!INCLUDE[nav7long](includes/nav7long_md.md)] or [!INCLUDE[navcorfu](includes/navcorfu_md.md)].  
+        This folder will be used to store the application object text file(s) from the baseline version, such as the original release of [!INCLUDE[navcorfu](includes/navcorfu_md.md)] or [!INCLUDE[nav2017](includes/nav2017.md)].  
 
  -   **MODIFIED**  
 
@@ -74,68 +83,68 @@ There are three ways to export application objects to text files:
 
  -   **TARGET**  
 
-        This folder will be used to store the application object text file(s) from [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+        This folder will be used to store the application object text file(s) from [!INCLUDE[nav2018_md](includes/nav2018_md.md)].  
 
  -   **RESULT**  
 
         This folder will be used to store the application object text file(s) that are the result of the application merge. It will also contain zero or more .CONFLICT files that describe conflicting code.  
 
-2.  Export all application objects from the original version, such as the original [!INCLUDE[nav7long](includes/nav7long_md.md)] database. Do not export system tables, which have the IDs in the 2000000000 range. Name the file **OldBaseVersion.txt**, and then save the file in the **ORIGINAL** folder that you created earlier.  
+2.  Export all application objects from the original version of the old database, such as the original [!INCLUDE[nav2017](includes/nav2017.md)] database. Do not export system tables, which have the IDs in the 2000000000 range. Name the file **OldBaseVersion.txt**, and then save the file in the **ORIGINAL** folder that you created earlier.  
 
-    For example, start the Dynamics NAV Development Shell version that matches the database version, and run the **Export-NAVApplicationObject** function as follows:
+    For example, start the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] version that matches the database version, and run the **Export-NAVApplicationObject** function as follows:
 
     ```  
-    Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "Demo Database NAV (9-0)" –Path C:\Upgrade\ORIGINAL\OldBaseVersion.txt -Filter 'Id=1..1999999999'
+    Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "Demo Database NAV (10-0)" –Path C:\Upgrade\ORIGINAL\OldBaseVersion.txt -Filter 'Id=1..1999999999'
     ```  
 
-3.  Export all application objects, except system tables, from the modified version, such as the customer's customized [!INCLUDE[nav7long](includes/nav7long_md.md)] database. Name the file **OldCustomVersion.txt**, and then save the file in the **MODIFIED*** folder that you created earlier.
+3.  Export all application objects, except system tables, from the old modified version, such as the customer's customized [!INCLUDE[nav2017](includes/nav2017.md)] database. Name the file **OldCustomVersion.txt**, and then save the file in the **MODIFIED*** folder that you created earlier.
 
-    For example, if the customer's database is called *MyCustomerNAV2016Database*, you can run the following command:
+    For example (using the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] version that matches the database version), if the customer's database is called *MyCustomerNAV2016Database*, you can run the following command:
     ```  
-    Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "MyCustomerNAV2016Database" –Path C:\Upgrade\MODIFIED\OldCUSTOMVersion.txt -Filter 'Id=1..1999999999'
+    Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "MyCustomerNAV2017Database" –Path C:\Upgrade\MODIFIED\OldCUSTOMVersion.txt -Filter 'Id=1..1999999999'
     ```  
 
     > [!TIP]  
-    >  In some cases, existing customizations might be irrelevant after the upgrade because they correspond to new functionality in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].
+    >  In some cases, existing customizations might be irrelevant after the upgrade because they correspond to new functionality in [!INCLUDE[nav2018_md](includes/nav2018_md.md)].
 
-4.  Export all application objects, except system tables, from the new base version, such as the original [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database. Name the file **NewBaseVersion.txt**, and then save the file in the **TARGET** folder that you created earlier.  
+4.  Export all application objects, except system tables, from the new base version, such as the original [!INCLUDE[nav2018_md](includes/nav2018_md.md)] database. Name the file **NewBaseVersion.txt**, and then save the file in the **TARGET** folder that you created earlier.  
 
-    For example, you can run the following command:
+    For example, using the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] for [!INCLUDE[nav2018_md](includes/nav2018_md.md)], run the following command:
     ```  
-    Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "Demo Database NAV (10-0)" –Path C:\Upgrade\MODIFIED\OldCUSTOMVersion.txt -Filter 'Id=1..1999999999'
+    Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "Demo Database NAV (11-0)" –Path C:\Upgrade\Target\NewBaseVersion.txt -Filter 'Id=1..1999999999'
     ```  
 
 Optionally, you can use the [Split-NAVApplicationObjectFile](https://go.microsoft.com/fwlink/?linkid=398885) cmdlet to split each text file into separate text files for each application object. This can make it easier to keep track of the process. The end result at this stage is three folders with one or more text files that contain the three sets of application objects that you want to merge.  
 
-## Task 2: Merge Versions  
+## Task 3: Merge Versions  
 You must now merge the three sets of application objects to create the application for the new database. This section illustrates how to do this by using the [Merge-NAVApplicationObject](https://go.microsoft.com/fwlink/?linkid=398884) cmdlet. Additionally, the [!INCLUDE[navnow](includes/navnow_md.md)] product media contains sample scripts provide examples of how you can use the [Merge-NAVApplicationObject](https://go.microsoft.com/fwlink/?linkid=398884) cmdlet to merge application objects. For more information, see [How to: Merge Application Changes](How-to--Merge-Application-Changes.md).
 
 > [!Note]  
 > In certain scenarios, you can choose to use the [Compare-NAVApplicationObject](https://go.microsoft.com/fwlink/?linkid=398882) cmdlet to identify the changes between the existing customized application and the new application. You can then choose to use the [Update-NAVApplicationObject](https://go.microsoft.com/fwlink/?linkid=398886) cmdlet to apply all or some of the changes to the new version. For more information, see [How to: Compare and Update Application Object Source Files](How-to--Compare-and-Update-Application-Object-Source-Files.md). However, we recommend that you use the Merge-NAVApplicationObject  cmdlet in most cases.
 
 ### Merge the application object versions into text files
-1. Run the  [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] as an administrator.
+1. Run the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] for [!INCLUDE[nav2018_md](includes/nav2018_md.md)] as an administrator.
 2. At the command prompt, change to the directory that contains the four folders that contain the application text files, and then run the following command:
 
-```  
-Merge-NAVApplicationObject -OriginalPath .\ORIGINAL -TargetPath .\TARGET -ModifiedPath .\MODIFIED -ResultPath .\RESULT  
-```  
+    ```  
+    Merge-NAVApplicationObject -OriginalPath  C:\Upgrade\ORIGINAL -TargetPath  C:\Upgrade\TARGET -ModifiedPath  C:\Upgrade\MODIFIED -ResultPath  C:\Upgrade\RESULT  
+    ```  
 
 Depending on the number of objects that you are merging and the number of differences found, this can take a few seconds, a few minutes, or longer. When the cmdlet completes, the result of the merge is shown, including a description of any application objects with conflicting code. The **RESULT** folder will contain a text file (.TXT) for each merged application object and possibly one or more .CONFLICT files that describe the code conflicts that occurred during the merge.
 
 At this point, you can either go to Task 3 to analyze and eventually resolve the conflicts, or you can go directly to Task 4 to import the merged objects as-is from the **RESULT** folder to the new [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database.  
 
-## Task 3: Handling Conflicts  
+## Task 4: Handling Conflicts  
 Depending on the application that you are upgrading, you can choose to analyze and fix the conflicting code before you import the merged objects into the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. The conflicts are shown in the merged text files but are also identified in .CONFLICT files in the subfolders of the **RESULT** folder. The subfolders **ConflictOriginal**, **ConflictModified**, and **ConflictTarget** folders then contain copies of the source files from the versions that have conflicting code.
 
 You can analyze the conflicts in any tool, make the relevant changes, and then run the merge operation again. Alternatively, you can import the merged files into the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and resolve the conflicts there. For more information, see [Handling Merge Conflicts](Handling-Merge-Conflicts.md).
 
-## Task 4: Import and Compile Merged Objects in an Empty Database
+## Task 5: Import and Compile Merged Objects in an Empty Database
 After you have completed the merge, you import the new merged application objects as text files into a new (empty) database, and then compile all objects. You must resolve any compilation errors before you can continue. The text files include successfully merged code, and code that is partially merged. You can import the partially merged objects into the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] development environment and resolve the conflicts there.
 
 1.  Create a new [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database for the new upgraded application. The database should be empty, except for the system tables.
 
-    For more information, see [How to: Create Databases](How-to--Create-Databases.md)
+    For more information, see [How to: Create Databases](How-to--Create-Databases.md).
 
 2.  Make sure the database includes a valid [!INCLUDE[navnowlong](includes/navnowlong_md.md)] license.
 
@@ -168,10 +177,18 @@ After you have completed the merge, you import the new merged application object
 
 4.  Connect a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Server instance to the database.  
 
-    You do this with the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. In addition, you must add the service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance as a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server.  
+    You can do this with the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or the [Set-NAVServerConfiguration cmdlet](https://go.microsoft.com/fwlink/?linkid=401394) in the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. In addition, you must add the service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance as a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server.  
 
-    For more information, see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect-a-Microsoft-Dynamics-NAV-Server-Instance-to-a-Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).  
-5.  Compile all the newly imported objects.
+    For more information about how to do this using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect-a-Microsoft-Dynamics-NAV-Server-Instance-to-a-Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).  
+5.  Synchronize the database by using the [Sync-NAVTenant cmdlet](https://go.microsoft.com/fwlink/?linkid=401399 ) in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].
+
+    ```
+    Sync-NAVTenant -ServerInstance [server_instance_name] 
+
+    ```
+    For more information about syncing, see [ow to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).
+
+6.  Compile all the newly imported objects.
 
     You can use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe. For more information, see [Compiling Objects](compiling-objects.md).
 
@@ -179,15 +196,15 @@ After you have completed the merge, you import the new merged application object
 
 You now have a new database with a fully upgraded application.
 
-## Task 5: Export All Objects  
-Now, you must export all objects of the new database to an **objects.fob** file so that you can import them when performing the data upgrade. The export must include customized objects, upgraded reget-helpports, and all other [!INCLUDE[navnowlong](includes/navnowlong_md.md)] objects.
+## Task 6: Export All Objects  
+Now, you must export all objects of the new database to an **objects.fob** file so that you can import them when performing the data upgrade. The export must include customized objects, upgraded reget-helpports, and all other [!INCLUDE[nav2018_md](includes/nav2018_md.md)] objects.
 
-As with exporting objects in Task 1, you can use either the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], finsql.exe, or [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)].
+As with exporting objects in Task 1, you can use either the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], finsql.exe, or [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)].
 
 With the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)], you can run a command that is similar to the following:
 
 ```  
-Export-NAVApplicationObject objects.fob -DatabaseName MyAppDatabase
+Export-NAVApplicationObject objects.fob -DatabaseName "My Upgraded App" -DatabaseServer [server_name]\[database_instance]
 ```  
 
 This completes the upgrade of the application code. Next, you must upgrade the data in the database. For more information, see [Upgrading the Data](Upgrading-the-Data.md).  
