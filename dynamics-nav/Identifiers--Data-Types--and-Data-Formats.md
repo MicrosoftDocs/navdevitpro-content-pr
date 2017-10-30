@@ -1,7 +1,8 @@
 ---
-title: "Identifiers, Data Types, and Data Formats"
+title: Identifiers, Data Types, and Data Formats
+description: This topic describes the identifiers for SQL Server tables and columns, representation of data types, and data formats used in Microsoft Dynamics NAV.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 95c4fb0a-ea08-46a0-be5d-7723381314ee
 caps.latest.revision: 13
 ---
-# Identifiers, Data Types, and Data Formats
+# Identifiers, Data Types, and Data Formats in Microsoft Dynamics NAV
 This topic describes the identifiers, data types, and data formats that are used in the [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
   
 ## Naming Identifiers  

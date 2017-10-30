@@ -108,12 +108,12 @@ manager: edupont
 ### Tooltips on [!INCLUDE[nav_web](includes/nav_web_md.md)]  
  The [ToolTip Property](ToolTip-Property.md) and the [ToolTipML Property](ToolTipML-Property.md)have been added on **ActivityButtons** and **ActionContainers** of the subtype **HomeItems** to support displaying descriptions in the navigation pane.  
 
-### Microsoft Dynamics CRM Integration  
+### Microsoft Dynamics 365 for Sales Integration  
  [!INCLUDE[navcorfu](includes/navcorfu_md.md)] introduces a new and improved integration with [!INCLUDE[crm](includes/crm_md.md)]. The new [!INCLUDE[crm](includes/crm_md.md)] integration provides an optimal and seamless experience for integrating [!INCLUDE[crm](includes/crm_md.md)] entities, such as accounts, and corresponding [!INCLUDE[navnow](includes/navnow_md.md)] business data tables, such as customers. [!INCLUDE[crm](includes/crm_md.md)] integration enables users to view [!INCLUDE[crm](includes/crm_md.md)] data in [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] data in [!INCLUDE[crm](includes/crm_md.md)]. It also enables you to synchronize the data between the solutions so that it is the same in both places.  
 
  [!INCLUDE[navcorfu](includes/navcorfu_md.md)] includes a default integration setup that is supported by several objects, including tables, pages, and codeunits. You can customize these objects to extend the integration to other [!INCLUDE[crm](includes/crm_md.md)] entities and change processes like synchronization.  
 
- For more information, see [Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](Integrating-Microsoft-Dynamics-CRM-in-Microsoft-Dynamics-NAV.md) .BROKEN-INCLUDE-endchm and [Customizing Dynamics CRM and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md).  
+ For more information, see [Integrating Microsoft Dynamics 365 for Sales in Microsoft Dynamics NAV](Integrating-Microsoft-Dynamics-CRM-in-Microsoft-Dynamics-NAV.md) .BROKEN-INCLUDE-endchm and [Customizing Dynamics 365 for Sales and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md).  
 
 ### Additional Numeric Data Types Supported in Aggregations by Queries, FlowFields, and SIFT  
  In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], data aggregations \(such as sum and average\) on tables by Query objects, FlowFields, and SumIndexField Technology could only be done on **Decimal** data type fields. With [!INCLUDE[navcorfu](includes/navcorfu_md.md)] you can use **Decimal**, **Integer**, **BigInteger**, and **Duration** data types in aggregations.  
