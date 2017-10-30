@@ -171,10 +171,10 @@ For more information, see [How to: Connect a Microsoft Dynamics NAV Server Insta
     -   Table 829 DO Payment Trans. Log Entry
     -   Table 1510 Notification Template
 
-    When you delete a table object, in the **Delete** confirmation dialog box, set the **Synchronize Schema** option to **Force**. At this point, it is very important that you do not use the **Sync. Schema For All Tables** option from the **Tools** menu.  
+    When you delete a table object, in the **Delete** confirmation dialog box, set the **Synchronize Schema** option to **Force**. **Important** At this point, it is very important that you do not use the **Sync. Schema For All Tables** option from the **Tools** menu.  
 
 ##  <a name="RunSync1"></a> Task 11: Run the schema synchronization on the imported objects  
-You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
+Synchronize the database schema with valididation. You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
 
 For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
 
