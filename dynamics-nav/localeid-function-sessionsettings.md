@@ -1,5 +1,5 @@
 ---
-title: "LOCALEID Method (SessionSettings)"
+title: "LOCALEID Function (SessionSettings)"
 ms.custom: na
 ms.date: 01/06/2017
 ms.reviewer: na
@@ -7,12 +7,9 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-financials
-author: SusanneWindfeldPedersen
+author: jswymer
 ---
-
-[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
-
-# LOCALEID Method
+# LOCALEID Function
 Gets or sets the locale ID property in a SessionSettings object.  
 
 ## Syntax  
@@ -36,19 +33,22 @@ The locale ID that is set in the SessionSettings object.
 The locale ID in the SessionSettings object corresponds to the **Locale ID** field in the system table **2000000073 User Personalization** for the client session user.
 
 ## Example
-This example creates a SessionSettings object that is populated with the current client user's personalization data, and then uses the LOCALEID method to set the locale ID to '1033'. Finally, the REQUESTSESSIONUPDATE method sends a request to the client to abandon the current client session and start a new session that uses the new locale ID. This example requires a SessionSettings data type variable.
+This example creates a SessionSettings object that is populated with the current client user's personalization data, and then uses the LOCALEID function to set the locale ID to '1033'. Finally, the REQUESTSESSIONUPDATE function sends a request to the client to abandon the current client session and start a new session that uses the new locale ID. This example requires a SessionSettings data type variable.
+
+The code requires that you create the following C/AL variable.  
+
+|Variable|DataType|  
+|--------------|--------------|  
+|MySessionSettings|SessionSettings|  
+
 
 ```
-var
-  MySessionSettings : SessionSettings;
-  begin
     MySessionSettings.INIT
     MySessionSettings.LOCALEID(1033);
     MySessionSettings.REQUESTSESSIONUPDATE(false);
-  end;  
 ```  
 
 ## See Also  
-[INIT Method](devenv-init-method-sessionsettings.md)  
-[REQUESTSESSIONUPDATE Method](devenv-requestsessionupdate-method.md)  
-[SessionSettings Data Type](../datatypes/devenv-sessionsettings-data-type.md)   
+[INIT Function](init-function-sessionsettings.md)  
+[REQUESTSESSIONUPDATE Function](requestsessionupdate-function-sessionsettings.md)  
+[SessionSettings Data Type](sessionsettings-data-type.md)   

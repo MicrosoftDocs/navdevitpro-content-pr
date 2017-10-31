@@ -1,5 +1,5 @@
 ---
-title: "PROFILESYSTEMSCOPE Method (SessionSettings)"
+title: "PROFILESYSTEMSCOPE Function (SessionSettings)"
 ms.custom: na
 ms.date: 01/06/2017
 ms.reviewer: na
@@ -7,12 +7,9 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-financials
-author: SusanneWindfeldPedersen
+author: jswymer
 ---
-
-[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
-
-# PROFILESYSTEMSCOPE Method
+# PROFILESYSTEMSCOPE Function
 Gets or sets the profile scope property in a SessionSettings object. 
 
 ## Syntax  
@@ -36,15 +33,18 @@ Type: Boolean
 The PROFILESYSTEMSCOPE property in a SessionSettings object corresponds to the **Scope** field in the in the system table **2000000073 User Personalization**.
 
 ## Example
-This example creates a SessionSettings object, and then uses the PROFILESYSTEMSCOPE method to set the profile scope to apply to the system. This example requires a SessionSettings data type variable.
+This example creates a SessionSettings object, and then uses the PROFILESYSTEMSCOPE function to set the profile scope to apply to the system. This example requires a SessionSettings data type variable.
+
+The code requires that you create the following C/AL variable.  
+
+|Variable|DataType|  
+|--------------|--------------|  
+|MySessionSettings|SessionSettings|  
+
 
 ```
-var
-  MySessionSettings : SessionSettings;
-  begin
     MySessionSettings.PROFILESYSTEMSCOPE(true);
-  end;  
-```  
+```
 
 ## See Also  
-[SessionSettings Data Type](../datatypes/devenv-sessionsettings-data-type.md)  
+[SessionSettings Data Type](sessionsettings-data-type.md)  

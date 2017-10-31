@@ -36,7 +36,7 @@ The following functions are supported for the SessionSettings data type:
 
 [PROFILESYSTEMSCOPE Function](profilesystemscope-function-sessionsettings.md)
 
-[REQUESTSESSIONUPDATE Function](requestsessionupdate-function.md)   
+[REQUESTSESSIONUPDATE Function](requestsessionupdate-function-sessionsettings.md)   
 
 [TIMEZONE Function](timezone-function-sessionsettings.md)
 

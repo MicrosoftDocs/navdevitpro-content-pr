@@ -1,5 +1,5 @@
 ---
-title: "TIMEZONE Method (SessionSettings)"
+title: "TIMEZONE Function (SessionSettings)"
 ms.custom: na
 ms.date: 01/06/2017
 ms.reviewer: na
@@ -7,12 +7,9 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-financials
-author: SusanneWindfeldPedersen
+author: jswymer
 ---
-
-[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
-
-# TIMEZONE Method
+# TIMEZONE Function
 Gets or sets the time zone property in a SessionSettings object.  
 
 ## Syntax  
@@ -37,16 +34,19 @@ Type: Text
 The time zone set in the SessionSettings object.
 
 ## Example
-This example creates a SessionSettings object that is populated with the current client user's personalization data, and then uses the TIMEZONE method to set the time zone to 'UTC' (Coordinated Universal Time). Finally, the REQUESTSESSIONUPDATE method sends a request to the client to abnandon the current session and start a new session that uses the new profile ID. This example requires a SessionSettings data type variable.
+This example creates a SessionSettings object that is populated with the current client user's personalization data, and then uses the TIMEZONE function to set the time zone to 'UTC' (Coordinated Universal Time). Finally, the REQUESTSESSIONUPDATE function sends a request to the client to abnandon the current session and start a new session that uses the new profile ID. This example requires a SessionSettings data type variable.
 
-var
-  MySessionSettings : SessionSettings;
-  begin
+The code requires that you create the following C/AL variable.  
+
+|Variable|DataType|  
+|--------------|--------------|  
+|MySessionSettings|SessionSettings|  
+
+```  
     MySessionSettings.INIT
     MySessionSettings.TIMEZONE('UTC');
     MySessionSettings.REQUESTSESSIONUPDATE(false);
-  end;  
 ```  
 
 ## See Also  
-[REQUESTSESSIONUPDATE method](devenv-requestsessionupdate-method.md)  
+[REQUESTSESSIONUPDATE function](requestsessionupdate-function-sessionsettings.md)  
