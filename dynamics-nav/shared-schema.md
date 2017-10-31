@@ -79,7 +79,7 @@ To convert to shared schema, you use the [Sync-NAVTenant cmdlet](https://go.micr
 ## Next steps
 You can now begin the manage tenants of the database. If you have single tenant deployment, there is basically no change in the way you manage the tenant compared with before the conversion.
 
-If you have a multitenant deployment, the distinction between the *tenant database* and *tenant* introduces a new paradigm for managing your tenants, which is supported by several additional Powershell cmdlets. To get started after converting to shared schema, we recommend that you follow these steps. This will help you understand the general flow for working with tenant databases and tenants.
+If you have a multitenant deployment, we recommend that you complete the following steps to get started. The distinction between the *tenant database* and *tenant* introduces a new paradigm for managing your tenants, which is supported by several additional [!INCLUDE[navnow_md](includes/navnow_md.md)] Powershell cmdlets. These steps will help you understand the general flow for working with tenant databases and tenants.
 
 1. Dismount the existing tenant from the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance:
 
@@ -92,7 +92,7 @@ If you have a multitenant deployment, the distinction between the *tenant databa
     Mount-NAVTenantDatabase -ServerInstance '[nav_server_instance_name]' -Id '[tenant_database_id]' -DatabaseName '[existing_database_name]' -DatabaseServer '[server_name]\[database_instance]'
     ```
 
-    Substitute `[tenant_database_id]` with the ID that you want to assign the tenant database. You will use this ID for subsequent operations on the database, like when dismounting it or mounting a tenant.   
+    Substitute `[tenant_database_id]` with the ID that you want to assign the tenant database. You will use this ID for subsequent operations on the database, like when syncing or dismounting it, mounting a tenant, and more.   
  3. Use the Sync-NAVTenantDatabase cmdlet to synchronize the database schema of the tenant database with the schema in the application database.
  
     ```
