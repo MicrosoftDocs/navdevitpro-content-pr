@@ -1,7 +1,8 @@
 ---
-title: "Installation and Configuration Walkthroughs"
+title: Installation and Configuration
+description: Read the walkthrough procedures for how to install the three tiers in the Dynamics NAV product architecture as Administrator or Microsoft Certified Partner.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/25/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +10,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
-# Installation and Configuration Walkthroughs
+# Installing and Configuring Microsoft Dynamics NAV
 The walkthrough topics in this section present the various procedures that administrators or Microsoft Certified Partners would have to perform to successfully install the three tiers in the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Product Architecture.  
 
 ## In This Section  

@@ -105,7 +105,7 @@ There are three ways to export application objects to text files:
     ```  
 
     > [!TIP]  
-    >  In some cases, existing customizations might be irrelevant after the upgrade because they correspond to new functionality in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].
+    >  In some cases, existing customizations might be irrelevant after the upgrade because they correspond to new functionality in [!INCLUDE[nav2018_md](includes/nav2018_md.md)].
 
 4.  Export all application objects, except system tables, from the new base version, such as the original [!INCLUDE[nav2018_md](includes/nav2018_md.md)] database. Name the file **NewBaseVersion.txt**, and then save the file in the **TARGET** folder that you created earlier.  
 
@@ -180,8 +180,15 @@ After you have completed the merge, you import the new merged application object
     You can do this with the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or the [Set-NAVServerConfiguration cmdlet](https://go.microsoft.com/fwlink/?linkid=401394) in the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. In addition, you must add the service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance as a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server.  
 
     For more information about how to do this using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect-a-Microsoft-Dynamics-NAV-Server-Instance-to-a-Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).  
-6.  Synchronize the database by using the Sync-NAVTenant cmdlet og the 
-5.  Compile all the newly imported objects.
+5.  Synchronize the database by using the [Sync-NAVTenant cmdlet](https://go.microsoft.com/fwlink/?linkid=401399 ) in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].
+
+    ```
+    Sync-NAVTenant -ServerInstance [server_instance_name] 
+
+    ```
+    For more information about syncing, see [ow to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).
+
+6.  Compile all the newly imported objects.
 
     You can use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe. For more information, see [Compiling Objects](compiling-objects.md).
 
@@ -197,7 +204,7 @@ As with exporting objects in Task 1, you can use either the [!INCLUDE[nav2018_md
 With the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)], you can run a command that is similar to the following:
 
 ```  
-Export-NAVApplicationObject objects.fob -DatabaseName MyAppDatabase
+Export-NAVApplicationObject objects.fob -DatabaseName "My Upgraded App" -DatabaseServer [server_name]\[database_instance]
 ```  
 
 This completes the upgrade of the application code. Next, you must upgrade the data in the database. For more information, see [Upgrading the Data](Upgrading-the-Data.md).  

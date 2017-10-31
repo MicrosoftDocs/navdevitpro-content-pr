@@ -26,7 +26,7 @@ An integration table mapping links the [!INCLUDE[navnow_md](includes/navnow_md.m
 ## Creating New Records  
  By default, only records in [!INCLUDE[navnow_md](includes/navnow_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] that are coupled will be synchronized by the integration synchronization jobs. You can set up table mappings so that new records will be created in the destination \(for example, [!INCLUDE[navnow_md](includes/navnow_md.md)]\) for each record in the source \(for example, [!INCLUDE[crm_md](includes/crm_md.md)]\) that is not already coupled.  
 
- For example, the SALESPEOPLE - Dynamics CRM synchronization job uses the table mapping SALESPEOPLE. The synchronization job copies data from user records in [!INCLUDE[crm_md](includes/crm_md.md)] to salesperson records in [!INCLUDE[navnow_md](includes/navnow_md.md)]. If you set up the table mapping to create new records, for every user in [!INCLUDE[crm_md](includes/crm_md.md)] that is not already coupled to a salesperson in [!INCLUDE[navnow_md](includes/navnow_md.md)], a new salesperson record is created in [!INCLUDE[navnow_md](includes/navnow_md.md)].  
+ For example, the SALESPEOPLE - Dynamics 365 for Sales synchronization job uses the table mapping SALESPEOPLE. The synchronization job copies data from user records in [!INCLUDE[crm_md](includes/crm_md.md)] to salesperson records in [!INCLUDE[navnow_md](includes/navnow_md.md)]. If you set up the table mapping to create new records, for every user in [!INCLUDE[crm_md](includes/crm_md.md)] that is not already coupled to a salesperson in [!INCLUDE[navnow_md](includes/navnow_md.md)], a new salesperson record is created in [!INCLUDE[navnow_md](includes/navnow_md.md)].  
 
 #### To create new records during synchronization  
 
@@ -54,6 +54,6 @@ An integration table mapping links the [!INCLUDE[navnow_md](includes/navnow_md.m
 3.  Set the **Int. Tbl. Config Template Code** field to the configuration template to use for new records in [!INCLUDE[crm_md](includes/crm_md.md)].  
 
 ## See Also  
-[Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md )   
-[Synchronizing Microsoft Dynamics NAV and Dynamics CRM](Synchronizing-Dynamics-NAV-and-Dynamics-CRM.md)   
+[Setting Up Dynamics 365 for Sales Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md )   
+[Synchronizing Microsoft Dynamics NAV and Dynamics 365 for Sales](Synchronizing-Dynamics-NAV-and-Dynamics-CRM.md)   
 [How to: Set Up Scheduled Synchronization by Using the Job Queue](How-to-Set-Up-Scheduled-Synchronization-by-Using-the-Job-Queue.md)  

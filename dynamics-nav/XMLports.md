@@ -1,7 +1,8 @@
 ---
-title: "XMLports"
+title: XMLports Overview
+description: Use XMLport to import or export data between an external source and a Dynamics NAV database, you first design the XMLport and set some properties.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: aa8d94aa-1cea-4602-8f8f-9fd49ffb54f1
 caps.latest.revision: 26
 manager: edupont
 ---
-# XMLports
+# XMLports in Microsoft Dynamics NAV
 XMLports are used to export or import data between an external source and a [!INCLUDE[navnow](includes/navnow_md.md)] database. Sharing data between different computer systems is seamless when it is shared in XML format. Working with XML files can be tedious so the details of how the XML file is handled are encapsulated in XMLports.  
   
  To use an XMLport to import or export data, you first design the XMLport in the XMLport Designer window and set some properties. You can run the XMLport from Object Designer or create a codeunit to run the XMLport. For more information about how to run XMLports in a codeunit, see [How to: Create Codeunits to Run XMLports](How-to--Create-Codeunits-to-Run-XMLports.md). For information about how to run XMLports in Object Designer, see [How to: Run an XMLport from Object Designer](How-to--Run-an-XMLport-from-Object-Designer.md).  

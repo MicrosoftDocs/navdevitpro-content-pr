@@ -23,11 +23,11 @@ This table contains the INCLUDE expressions associated with the content of the i
 |`[!INCLUDE[bp_fieldnoneditable_md](includes/bp_fieldnoneditable_md.md)]`|You cannot change the contents of this field.|
 |`[!INCLUDE[bp_supcli_head_md](includes/bp_supcli_head_md.md)]`|Supported Display Targets|
 |`[!INCLUDE[bp_supcli_rtc_md](includes/bp_supcli_rtc_md.md)]`|Microsoft Dynamics NAV Windows client only|
-|`[!INCLUDE[bp_tabledescription_md](includes/bp_tabledescription_md.md)]`|Description| 
+|`[!INCLUDE[bp_tabledescription_md](includes/bp_tabledescription_md.md)]`|Description|
 |`[!INCLUDE[bp_tablefield_md](includes/bp_tablefield_md.md)]`|Field|
 |`[!INCLUDE[bp_tableoption_md](includes/bp_tableoption_md.md)]`|Option|
 |`[!INCLUDE[bp_windownoneditable_md](includes/bp_windownoneditable_md.md)]`|You cannot change the contents of this window.|
-|`[!INCLUDE[crm_md](includes/crm_md.md)]`|Microsoft Dynamics CRM|
+|`[!INCLUDE[crm_md](includes/crm_md.md)]`|Microsoft Dynamics 365 for Sales|
 |`[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]`|Dynamics 365 for Financials|
 |`[!INCLUDE[d365fin_md](includes/d365fin_md.md)]`|Financials|
 |`[!INCLUDE[demo_md](includes/demo_md.md)]`|CRONUS|

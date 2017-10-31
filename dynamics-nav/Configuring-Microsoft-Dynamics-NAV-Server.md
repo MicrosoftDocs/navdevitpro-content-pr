@@ -1,12 +1,10 @@
 ---
 title: Dynamics NAV Server Configuration
 description: Configure and modify settings in the Setup or Installed Microsoft Dynamics NAV Server using the Administration Console and PowerShell Cmdlets.
-author: edupont04
 ms.date: 10/16/2017
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.author: edupont
 author: jswymer
 ---
 # Configuring Microsoft Dynamics NAV Server
@@ -185,7 +183,7 @@ For more information, see [Configuring NAS Services](configuring-nas-services.md
 The following table describes fields on the **Azure Key Vault Encryption Provider** tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  
 
 > [!NOTE]  
->  These settings are used when you want to use Azure Key Vault to help encrypt data in the database. If you want to use Azure Key Vault to encrypt the connection between [!INCLUDE[nav_server](includes/nav_server_md.md)] and an Azure SQL database, you must store that key in the database. 
+>  These settings are used when you want to use Azure Key Vault to help encrypt data in the database. If you want to use Azure Key Vault to encrypt the connection between [!INCLUDE[nav_server](includes/nav_server_md.md)] and an Azure SQL database, you must store that key in the database.
 
 |  Setting  |  Description  |
 |-----------|---------------|  

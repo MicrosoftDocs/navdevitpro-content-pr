@@ -1,7 +1,8 @@
 ---
-title: "Data Type Property"
+title: Data Type Property
+description: Data type property sets the data type of a table field in Microsoft Dynamics NAV. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/26/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 15cfbe58-8ef7-4f14-8fe7-615c2685eb94
 caps.latest.revision: 5
 manager: edupont
 ---
-# Data Type Property
+# Data Type Property 
 Sets the data type of a table field.  
   
 ## Applies To  

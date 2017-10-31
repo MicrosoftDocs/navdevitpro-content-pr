@@ -46,7 +46,7 @@ The following sections list the minimum hardware and software requirements to in
 
 -   [Microsoft Outlook Add-In Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#Outlook)  
 
--   [Microsoft Dynamics CRM Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#CRM)  
+-   [Microsoft Dynamics 365 for Sales Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#CRM)  
 
 -   [Automated Deployment on Microsoft Azure Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#Azure)  
 
@@ -120,7 +120,7 @@ The following sections list the minimum hardware and software requirements to in
 |Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
 |Hardware resources|-   Hard disk space: 500 MB.<br />-   Memory: 2 GB.|  
 |Reports|-   Microsoft Report Viewer 2015 for Save as Excel, Save as PDF, and Save as Word functionality.|  
-|[!INCLUDE[crm](includes/crm_md.md)] integration|-   Windows Identity Framework.<br />     For a list of supported [!INCLUDE[crm](includes/crm_md.md)] versions, see [Microsoft Dynamics CRM Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#CRM).|  
+|[!INCLUDE[crm](includes/crm_md.md)] integration|-   Windows Identity Framework.<br />     For a list of supported [!INCLUDE[crm](includes/crm_md.md)] versions, see [Microsoft Dynamics 365 for Sales Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#CRM).|  
 |Additional software|-   Microsoft .NET Framework 4.5.2.<br />-   Windows PowerShell 3.0.|  
 |Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer:<br /><br /> <ul><li>Microsoft .NET Framework 4.5.2.</li><li>Microsoft Report Viewer 2015.</li><li>Windows Identity Framework.</li></ul></li></ul>|  
 
@@ -183,13 +183,13 @@ The following table shows the minimum system requirements for the [!INCLUDE[navn
 |Supported Exchange Servers|Exchange Server 2016, Exchange Server 2013, or Exchange Online.|  
 
 
-##  <a name="CRM"></a> Microsoft Dynamics CRM Integration Requirements  
+##  <a name="CRM"></a> Microsoft Dynamics 365 for Sales Integration Requirements  
  The following table shows the system requirements for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with [!INCLUDE[crm](includes/crm_md.md)].  
 
 |||  
 |-|-|  
-|Microsoft Dynamics CRM versions|- Microsoft Dynamics CRM 2015 or Microsoft Dynamics CRM 2016<BR />&nbsp;&nbsp;Note: AD, IFD and Claims authentication types are supported for above editions.<BR /><BR />-  Microsoft Dynamics CRM Online 2015, Microsoft Dynamics CRM Online 2015 Update 1, or Microsoft Dynamics CRM Online 2016 Update 1 or Microsoft Dynamics 365<BR />&nbsp;&nbsp;Note: Oauth and Office365 authentication types are supported for these editions. <BR /><BR />For more details on authentication types, see [Connection strings in XRM tooling to connect to Dynamics 365](https://msdn.microsoft.com/en-us/library/mt608573.aspx).|
-|[!INCLUDE[navnow_md](includes/navnow_md.md)] Integration Solution (.zip)|For Dynamics CRM 2015, Dynamics CRM Online 2015, and Dynamics CRM Online 2015 Update 1:<BR/><BR/>- Use the DynamicsNAVIntegrationSolution.zip file that is found on the Dynamics NAV 2016 installation media (DVD) to install the solution.<BR/>- Item Availability is not supported on Dynamics CRM 2015, versions Update 1 and Online.<BR/><BR/>For more information, see [How to: Prepare Dynamics CRM for Integration](How-to-prepare-Dynamics-CRM-for-Integration.md).      |  
+|Microsoft Dynamics 365 for Sales versions|- Microsoft Dynamics CRM 2015 or Microsoft Dynamics CRM 2016<BR />&nbsp;&nbsp;Note: AD, IFD and Claims authentication types are supported for above editions.<BR /><BR />-  Microsoft Dynamics CRM Online 2015, Microsoft Dynamics CRM Online 2015 Update 1, or Microsoft Dynamics CRM Online 2016 Update 1 or Microsoft Dynamics 365<BR />&nbsp;&nbsp;Note: Oauth and Office365 authentication types are supported for these editions. <BR /><BR />For more details on authentication types, see [Connection strings in XRM tooling to connect to Dynamics 365](https://msdn.microsoft.com/en-us/library/mt608573.aspx).|
+|[!INCLUDE[navnow_md](includes/navnow_md.md)] Integration Solution (.zip)|For Dynamics CRM 2015, Dynamics CRM Online 2015, and Dynamics CRM Online 2015 Update 1:<BR/><BR/>- Use the DynamicsNAVIntegrationSolution.zip file that is found on the Dynamics NAV 2016 installation media (DVD) to install the solution.<BR/>- Item Availability is not supported on Dynamics CRM 2015, versions Update 1 and Online.<BR/><BR/>For more information, see [How to: Prepare Dynamics 365 for Sales for Integration](How-to-prepare-Dynamics-CRM-for-Integration.md).      |  
 
 
 
