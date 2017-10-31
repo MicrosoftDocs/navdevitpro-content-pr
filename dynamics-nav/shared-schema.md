@@ -79,7 +79,7 @@ To convert to shared schema, you use the [Sync-NAVTenant cmdlet](https://go.micr
 ## Next steps
 You can now begin the manage tenants of the database. If you have single tenant deployment, there is basically no change in the way you manage the tenant compared with before the conversion.
 
-If you have a multitenant deployment, the distinction between the *tenant database* and *tenant* introduces a new paradigm for managing your tenants, which is supported by several additional Powershell cmdlets. To get started after converting to shared schema, we recommend that you follow these steps:
+If you have a multitenant deployment, the distinction between the *tenant database* and *tenant* introduces a new paradigm for managing your tenants, which is supported by several additional Powershell cmdlets. To get started after converting to shared schema, we recommend that you follow these steps. This will help you understand the general flow for working with tenant databases and tenants.
 
 1. Dismount the existing tenant from the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance:
 
@@ -89,15 +89,17 @@ If you have a multitenant deployment, the distinction between the *tenant databa
 3.  Mount the database, which was used by the tenant, as a designated tenant database on the same [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance as before. 
 
     ```
-   Mount-NAVTenantDatabase -ServerInstance '[nav_server_instance_name]' -Id '[tenant_database_id]' -DatabaseName '[exTest_Database'
--DatabaseServer localhost\NAVDEMO
+    Mount-NAVTenantDatabase -ServerInstance '[nav_server_instance_name]' -Id '[tenant_database_id]' -DatabaseName '[exisiting_database_name]' -DatabaseServer '[server_name]\[database_instance]'
     ```
-    
-by using the Mount-NAVTenantdatabase cmdlet.
-    3. Synchronize the tenant database with the application by using the Sync-NAVTenantDatabase cmdlet.
-    4. Mount the tenant to the tenant database by using the Mount-NAVTenant cmdlet.
+ 3. Synchronize the tenant database with the application.
 
-    For more information, see [Managing Tenants in a Shared Schema Database](manage-tenant-shared-schema.md).
+    Use the Sync-NAVTenantDatabase cmdlet to synchronize the database schema in a tenant database with the schema in the application database.
+
+4. Assign the existing tenant to the tenant database and mount it to the server instance.
+
+    ```
+    Mount-NAVTenant -ServerInstance DynamicsNAV -Tenant 'Tenant1-1' -TenantDatabaseID 'TenantSharedDatabase1'
+    ``` 
 
 
 ## See Also  
