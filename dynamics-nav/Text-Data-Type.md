@@ -1,7 +1,8 @@
 ---
-title: "Text Data Type"
+title: Text Data Type
+description: The Text data type is a simple type that denotes a text string, it does not enforce a limit on the length of a Text variable. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/30/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: fe8419b7-96a2-486e-858d-51f62c66657f
 caps.latest.revision: 16
 ---
-# Text Data Type
+# Text Data Type in Dynamics NAV
 This simple data type denotes a text string.  
   
 ## Remarks  

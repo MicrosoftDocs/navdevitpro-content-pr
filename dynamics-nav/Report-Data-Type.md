@@ -1,7 +1,8 @@
 ---
-title: "Report Data Type"
+title: Report Data Type
+description: Report data type is a complex type which stores reports; it contains several simpler elements called controls that are used to display information.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/30/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 3db4a1d0-3356-426d-ab49-c8e65a4b7186
 caps.latest.revision: 9
 manager: edupont
 ---
-# Report Data Type
+# Report Data Type in Dynamics NAV
 This complex data type stores reports.  
   
 ## Remarks  
