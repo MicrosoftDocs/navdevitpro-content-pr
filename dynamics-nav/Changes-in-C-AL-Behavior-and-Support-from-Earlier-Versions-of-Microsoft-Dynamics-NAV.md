@@ -41,13 +41,6 @@ The following table lists the new functions in [!INCLUDE[navnowlong](includes/na
 |[REQUESTSESSIONUPDATE\(SessionSettings\)](requestsessionupdate-function-sessionsettings.md)|Passes a SessionSettings object to the client to request a new session that uses the user personalization properties that are set in the object. The current client session is abandoned and a new session is started. |
 |[TIMEZONE\(SessionSettings\)](timezone-function-sessionsettings.md)|Gets or sets the time zone property in a SessionSettings object. |
 
-### Changed functions
-The following table lists the changed functions in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
-
-|Function|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
-|--------------|---------------------------------------|  
-|  |  |  
-
 ## C/AL Properties  
 ### New properties
 The following table lists the new properties in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
