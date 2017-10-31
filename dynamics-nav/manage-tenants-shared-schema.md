@@ -27,16 +27,17 @@ After you convert the database to schared schema, you have access the following 
 ### Tenant cmdlets
 |  Cmdlet  |  [!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]  |
 |----------|-----------------------------------------------------------------------|
-|[Mount-NAVtenant](Microsoft.Dynamics.NAV.Management/Mount-NAVtenant.md)|-TenantDatabaseId and -Async parameters have been added.|
-|[Dismount-NAVtenant](Microsoft.Dynamics.NAV.Management/Dismount-NAVtenant.md)|-InptTenantRuntimeSettings and -InputTenantSettings parameters have been removed.<br /><br />-ExclusiveAccessTicket parameter has been added.|
+|[Mount-NAVtenant](Microsoft.Dynamics.NAV.Management/Mount-NAVtenant.md)|Mounts a tenant in the tenant database to the server instance that the tenant
+database is mounted.|
+|[Dismount-NAVtenant](Microsoft.Dynamics.NAV.Management/Dismount-NAVtenant.md)|Dismount a tenant in a tenant database from a server instance.
+All active user sessions that access the tenant will end.|
 |[New-NAVTenant](Microsoft.Dynamics.NAV.Management/New-NAVTenant.md)| Creates a new tenant in a tenant database. |
 |[Copy-NAVTenantData](Microsoft.Dynamics.NAV.Management/Copy-NAVTenantData.md)|Copies tenant data from one tenant to another tenant in the same tenant database. |
-|[Move-NAVTenant](Microsoft.Dynamics.NAV.Management/Move-NAVTenant.md)| Moves a tenant to another tenant database.|
-|[Get-NAVTenant](Microsoft.Dynamics.NAV.Management/Get-NAVTenant.md)|-ForceRefresh parameter has been added |
-|[Set-NAVTenant](Microsoft.Dynamics.NAV.Management/Set-NAVTenant.md)|Specifies settings for a tenant in a tenant database that is mounted on a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
-|[Sync-NAVTenant](Microsoft.Dynamics.NAV.Management/Sync-NAVTenant.md)|-CommitPerTable parameter added.|
-|[Remove-NAVTenant](Microsoft.Dynamics.NAV.Management/Set-NAVTenant.md)|Deletes a tenant and all its data from a tenant database.|
-|[Start-NAVDataUpgrade](Microsoft.Dynamics.NAV.Management/Start-NAVDataUpgrade.md)|-SingleTransaction, -SkipAppVersionCheck, and -SkipIfAlreadyUpgraded parameters have been added.|
+|[Move-NAVTenant](Microsoft.Dynamics.NAV.Management/Move-NAVTenant.md)| Moves a tenant from a tenant database to another tenant database.|
+|[Get-NAVTenant](Microsoft.Dynamics.NAV.Management/Get-NAVTenant.md)|Gets information about a tenant.|
+|[Set-NAVTenant](Microsoft.Dynamics.NAV.Management/Set-NAVTenant.md)|Changes a tenant from a normal tenant to a buffer tenant, or acquires and release exclusive access to a tenant.|
+|[Remove-NAVTenant](Microsoft.Dynamics.NAV.Management/Set-NAVTenant.md)|Deletes a tenant, including company and global data, from a tenant database.|
+|[Start-NAVDataUpgrade](Microsoft.Dynamics.NAV.Management/Start-NAVDataUpgrade.md)|Starts the process for upgrading the data in the tenant database.|
 
 
 ## Getting started
