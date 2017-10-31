@@ -52,7 +52,7 @@ manager: edupont
   
  As an end-user, the changes are only implemented on the user’s Role Center. For more information, see [Profiles and Role Centers](Profiles-and-Role-Centers.md).  
   
- If you are an administrator, then you can open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] in the Configuration mode and the changes that you make will be implemented on the Role Center for all users. For more information, see [How to: Open Microsoft Dynamics NAV in Configuration Mode](How-to--Open-Microsoft-Dynamics-NAV-in-Configuration-Mode.md).  
+ If you are an administrator, then you can open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] in the Configuration mode and the changes that you make will be implemented on the Role Center for all users. For more information, see [How to: Open Microsoft Dynamics NAV in Configuration Mode](how-to-open-microsoft-dynamics-nav-in-configuration-mode.md).  
   
 ## See Also  
  [Customization: Configuration and Personalization](Customization:-Configuration-and-Personalization.md)   

@@ -32,11 +32,7 @@ This topic describes how to install and configure Internet Information Service \
   
 -   HTTP Activation  
   
- The procedure is slightly different for the different versions of Windows. For more information, see the following sections:  
-  
--   [Installing IIS Features on Windows 8, Windows 8.1, and Windows 10](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md#Win8)  
-  
--   [Installing IIS Features on Windows Server 2012](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md#WS2012)  
+ The procedure is slightly different for the different versions of Windows. For more information, see the following sections.
   
 > [!NOTE]  
 >  Instead of manually installing IIS, you can use the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard to install and enable the IIS features. For more information, see [Using Microsoft Dynamics NAV Setup to Install IIS Features](Using-Microsoft-Dynamics-NAV-Setup-to-Install-IIS-Features.md).  
