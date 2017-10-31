@@ -1,7 +1,8 @@
 ---
-title: "SQL Data Type Property"
+title: SQL Data Type Property
+description: SQL data type property sets the data type that you want to allow in a code field. The values available are Varchar, Integer, BigInteger, and Variant.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/30/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: b1e5c043-9398-4229-95f9-79ca3754b5c3
 caps.latest.revision: 8
 manager: edupont
 ---
-# SQL Data Type Property
+# SQL Data Type Property in Dynamics NAV
 Sets the data type that you want to allow in a code field.  
   
 ## Applies To  
