@@ -10,11 +10,11 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
-# Changes in C/AL Behavior and Support from Microsoft Dynamics NAV 2017
+# Changes in C/AL Behavior and Support in Microsoft Dynamics NAV 2018
 
 **Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV-2017.md).
 
-The following tables provide an overview of the new, removed, or changed C/AL data types, functions, properties, and triggers in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] since the previous version of [!INCLUDE[navnow](includes/navnow_md.md)]. For more information about the changes, see the specific topic about the data type, function, property, or trigger.  
+The following tables provide an overview of the new, removed, or changed C/AL data types, functions, properties, and triggers in [!INCLUDE[nav2018_md](includes/nav2018_md.md)] since [!INCLUDE[nav2017](includes/nav2017.md)]. For more information about the changes, see the specific topic about the data type, function, property, or trigger.  
 
 ## C/AL Data Types  
  The following table lists the new data types in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
