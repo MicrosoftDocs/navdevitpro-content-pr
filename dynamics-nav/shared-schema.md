@@ -8,7 +8,7 @@ ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
 # Converting to Shared Schema
-Shared schema is a data model that includes tenants and companies &#8212; optimizing the reuse of resources, such as databases, execution plans, memory, and database connections. 
+Shared schema is a data model that includes tenants and companies &#8212; optimizing the reuse of resources, such as execution plans, memory, and database connections. 
 
 <!-- alternative
 Shared schema is a data model that shares database resources among tenants and companies. Shared schema optimizes the reuse of resources, such as execution plans, memory, and database connections. 
@@ -86,21 +86,24 @@ If you have a multitenant deployment, the distinction between the *tenant databa
     ```
     Dismount-NAVTenant -ServerInstance '[nav_server_instance_name]' -Tenant '[tenant ID]'
     ```
-3.  Mount the database, which was used by the tenant, as a designated tenant database on the same [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance as before. 
+3.  Use the Mount-NAVTenantDatabase cmdlet to mount the database of the dismounted tenant to the same [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance as before. This will designate the database as a  tenant database. 
 
     ```
-    Mount-NAVTenantDatabase -ServerInstance '[nav_server_instance_name]' -Id '[tenant_database_id]' -DatabaseName '[exisiting_database_name]' -DatabaseServer '[server_name]\[database_instance]'
+    Mount-NAVTenantDatabase -ServerInstance '[nav_server_instance_name]' -Id '[tenant_database_id]' -DatabaseName '[existing_database_name]' -DatabaseServer '[server_name]\[database_instance]'
     ```
- 3. Synchronize the tenant database with the application.
 
-    Use the Sync-NAVTenantDatabase cmdlet to synchronize the database schema in a tenant database with the schema in the application database.
+    Substitute `[tenant_database_id]` with the ID that you want to assign the tenant database. You will use this ID for subsequent operations on the database, like when dismounting it or mounting a tenant.   
+ 3. Use the Sync-NAVTenantDatabase cmdlet to synchronize the database schema of the tenant database with the schema in the application database.
+ 
+    ```
+    Sync-NAVTenantDatabase -ServerInstance '[nav_server_instance_name]' -Id '[tenant_database_id]'
+    ```
 
-4. Assign the existing tenant to the tenant database and mount it to the server instance.
+4. Use the Mount-NAVTenant cmdlet to add the existing tenant to the tenant database and mount it to the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] server instance.
 
     ```
     Mount-NAVTenant -ServerInstance DynamicsNAV -Tenant 'Tenant1-1' -TenantDatabaseID 'TenantSharedDatabase1'
     ``` 
-
 
 ## See Also  
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
