@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
-# Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV
+# Changes in C/AL Behavior and Support from Microsoft Dynamics NAV 2017
 
 **Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV-2017.md).
 
@@ -21,44 +21,58 @@ The following tables provide an overview of the new, removed, or changed C/AL da
 
 |Data Type|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------|---------------------------------------|  
-|Media|A complex type that encapsulates media (such as images) in the application database for displaying the media with associated records. The data type can be used on table fields and supports the following functions:<br /><br /> -   ImportFile<br />-   ImportInStream<br />-   MEDIAID<br />-   HASVALUE<br />-   EXPORTFILE<br />-   EXPORTSTREAM<br /><br />|  
-|MediaSet|A complex type that encapsulates media files, such as images, in application database for displaying the media with associated records. The **MediaSet** data type enables you to include multiple media files as part of a collection on a record. The **MediaSet** data type can be used on table fields and supports the following functions:<br /><br /> -   ImportFile<br />-   ImportInStream<br />-   MEDIAID<br />-   COUNT<br />-   EXPORTMEDIASET<br /><br />|  
-|Notification| A complex type for publishing and consuming notifications in the application. Notifications provide a programmatic way to send non-intrusive information to the user interface (UI). The **Notification** data type supports the following functions:<br /><br /> -   ADDACTION<br />-   GETDATA<br />-   ID<br />-   MESSAGE<br />-   RECALL<br />- SCOPE<br />- SEND<br />- SETDATA|  
+|SessionSettings|A complex data type for passing user personalization settings for a client session as an object. You can use the AL methods of the SessionSettings data type to get, set, and send the user personalization settings for the current client session.<br /><br />For more information, see [SessionSettings Data Type](sessionsettings-data-type.md)| 
+ 
 See the C/AL Functions section that follows for a description of the data type functions.
 
 ## C/AL Functions  
 ### New functions
 The following table lists the new functions in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
-
 |Function|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
-|[CANCREATTASK\(TaskScheduler\)](cancreatetask-function.md)|Indicates whether a user has permissions to create or schedule a task.|  
+|[CANCREATTASK\(TaskScheduler\)](cancreatetask-function.md)|Indicates whether a user has permissions to create or schedule a task.|
+|[Company\(SessionSettings\)](company-function-sessionsettings.md)|Gets or sets the company property in a SessionSettings object. |
+|[INIT\(SessionSettings\)](init-function-sessionsettings.md)|Populates the instance of a SessionsSettings with the current client user's personalization properties (such as Profile ID and Company) that are stored in the database.|
+|[LANGUAGEID\(SessionSettings\)](languageid-function-sessionsettings.md)|Gets or sets the language ID property in a SessionSettings object.|
+|[LOCALEID\(SessionSettings\)](localeid-function-sessionsettings.md)|Gets or sets the locale ID property in a SessionSettings object.|
+|[PROFILEAPPID\(SessionSettings\)](profileappid-function-sessionsettings.md)|Gets or sets the ID of an extension, which provides a profile, in a SessionSettings object. |
+|[PROFILEID\(SessionSettings\)](profileid-function-sessionsettings.md)|Gets or sets the profile ID property in a SessionSettings object. |
+|[PROFILESYSTEMSCOPE\(SessionSettings\)](profilesystemscope-function-sessionsettings.md)|Gets or sets the profile scope property in a SessionSettings object. |
+|[REQUESTSESSIONUPDATE\(SessionSettings\)](requestsessionupdate-function-sessionsettings.md)|Passes a SessionSettings object to the client to request a new session that uses the user personalization properties that are set in the object. The current client session is abandoned and a new session is started. |
+|[TIMEZONE\(SessionSettings\)](timezone-function-sessionsettings.md)|Gets or sets the time zone property in a SessionSettings object. |
 
 ### Changed functions
 The following table lists the changed functions in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
 
 |Function|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
-|TryFunction|By default, database write transactions in a try function are not allowed. For more information, see [Database write transactions in try functions](Handling-Errors-by-Using-Try-Functions.md#DbWriteTransactions).|  
+|  |  |  
 
 ## C/AL Properties  
- The following table lists the new properties in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+### New properties
+The following table lists the new properties in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
 
 |Property|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
-|[ApplicationArea Property](ApplicationArea-Property.md)|Sets the application areas that apply to the control.|  
-|[Gesture Property](property-gesture.md)|Specifies a gesture that runs the page action on a device with a touch interface.|
-|[TestPermissions Property](property-testpermissions.md)|Specifies a value that can be used to determine which permission sets are used on tests that are run by test codunits or test functions.|
-|[PromotedOnly Property](PromotedOnly-Property.md)|Specifies whether a page action will appear only on the **Home** tab in the ribbon and not on the tab where it is defined.|    
+|[ObsoleteReason Property]((obsoletereason-property.md)|Specifies why a table, field, or key has been marked as **Pending** or **Obsolete** in the **ObsoleteState** property.| 
+|[ObsoleteState Property](obsoletestate-property.md)|Marks whether the table, field, or key is or will become obsolete (deprecated).|
+
+### Changed properties
+The following table lists the new properties in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+|Property|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
+|--------------|---------------------------------------|  
+|[SubType Property]((SubType-Property--Codeunit-.md)|The **Install** option has been added for adding code that runs when you install an extension.| 
 
 ## C/AL Triggers  
- The following table lists the changed triggers in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+The following table lists the changed triggers in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
 
 |Trigger|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
-|[OnAfterTestRun Trigger](trigger-onaftertestrun.md)|Includes a TestPermissions data type parameter for running tests with permission sets.|
-|[OnBeforeTestRun Trigger](trigger-onbeforetestrun.md)|Includes a TestPermissions data type parameter for running tests with permission sets.|    
+|OnCheckPreconditionsPerCompany() and OnCheckPreconditionsPerDatabase()| Used to check that certain requirements are met in order to run the upgrade.|
+|OnUpgradePerCompany() and OnUpgradePerDatabase()|Used to perform the actual upgrade.|
+|OnValidateUpgradePerCompany() and OnValidateUpgradePerDatabase()|Used to check that the upgrade was successful.|
+|OnAfterUpgradeCommitPerCompany() and OnAfterUpgradeCommitPerDatabase()|Used to perform post-upgrade tasks after transactions in the previous triggers are committed.|    
 
 ## See Also  
- [Functions Not Supported by Microsoft Dynamics NAV Web Client](Functions-Not-Supported-by-Microsoft-Dynamics-NAV-Web-Client.md)   
- [Page Properties Not Supported by Microsoft Dynamics NAV Web Client](Page-Properties-Not-Supported-by-Microsoft-Dynamics-NAV-Web-Client.md)
+[Functions Not Supported by Microsoft Dynamics NAV Web Client](Functions-Not-Supported-by-Microsoft-Dynamics-NAV-Web-Client.md)   
+[Page Properties Not Supported by Microsoft Dynamics NAV Web Client](Page-Properties-Not-Supported-by-Microsoft-Dynamics-NAV-Web-Client.md)
