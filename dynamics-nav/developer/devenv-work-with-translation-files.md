@@ -18,8 +18,8 @@ author: SusanneWindfeldPedersen
 # Working with Translation Files
 [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] is multilanguage enabled, which means that you can display the user interface (UI) in different languages. To add a new language to the extension you have built, you must first enable the generation of .xliff files. The .xliff file contains the strings that are specified in properties like Caption and Tooltip.
 
->
-> [!NOTE] The support for using the ML properties, such as **CaptionML** and **TooltipML**, is being deprecated, so it is recommended to refactor your extension to use the corresponding **Caption** or **Tooltip** property, which is being picked up in the .xliff file.
+> [!NOTE] 
+> The support for using the ML properties, such as **CaptionML** and **TooltipML**, is being deprecated, so it is recommended to refactor your extension to use the corresponding **Caption** or **Tooltip** property, which is being picked up in the .xliff file.
 
 ## Generating the .xliff files
 In the app.json file of your extension, you must add the following line:

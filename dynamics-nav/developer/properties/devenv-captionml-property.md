@@ -15,8 +15,8 @@ author: SusanneWindfeldPedersen
 # CaptionML Property
 Sets the string that is used to identify a control or other object in the user interface.  
 
->
-> [!NOTE] The support for using the ML properties, such as **CaptionML** and **TooltipML**, is being deprecated, so it is recommended to refactor your extension to use the corresponding **Caption** or **Tooltip** property, which is being picked up in the .xliff file. For more information, see [Working with Translation Files](devenv-work-with-translation-files.md).
+> [!NOTE] 
+> The support for using the ML properties, such as **CaptionML** and **TooltipML**, is being deprecated, so it is recommended to refactor your extension to use the corresponding **Caption** or **Tooltip** property, which is being picked up in the .xliff file. For more information, see [Working with Translation Files](devenv-work-with-translation-files.md).
 
 ## Applies To  
 
