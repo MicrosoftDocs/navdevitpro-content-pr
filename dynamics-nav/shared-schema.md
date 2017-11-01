@@ -91,14 +91,15 @@ If you have a multitenant deployment, we recommend that you complete the followi
     ```
     Dismount-NAVTenant -ServerInstance '[nav_server_instance_name]' -Tenant '[tenant ID]'
     ```
-3.  Use the Mount-NAVTenantDatabase cmdlet to mount the database of the dismounted tenant to the same [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance as before. This will designate the database as a *tenant database*. 
+2.  Use the Mount-NAVTenantDatabase cmdlet to mount the database of the dismounted tenant to the same [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance as before. This will designate the database as a *tenant database*. 
 
     ```
     Mount-NAVTenantDatabase -ServerInstance '[nav_server_instance_name]' -Id '[tenant_database_id]' -DatabaseName '[existing_database_name]' -DatabaseServer '[server_name]\[database_instance]'
     ```
 
     Substitute `[tenant_database_id]` with the ID that you want to assign the tenant database. You will use this ID for subsequent operations on the database, like when syncing or dismounting it, mounting a tenant, and more.   
- 3. Use the Sync-NAVTenantDatabase cmdlet to synchronize the database schema of the tenant database with the schema in the application database that is mounted on the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.
+
+3. Use the Sync-NAVTenantDatabase cmdlet to synchronize the database schema of the tenant database with the schema in the application database that is mounted on the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.
  
     ```
     Sync-NAVTenantDatabase -ServerInstance '[nav_server_instance_name]' -Id '[tenant_database_id]'
