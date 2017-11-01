@@ -43,7 +43,7 @@ A database that uses the shared schema data model has the following characterist
 
 -  It can be shared by more than one tenant. Information about the tenants and their companies is stored in shared tables in the database (see figure 2).
 
-   This is a change to the concept of a tenant/tenant database as compared with the separate schema model, which has one tenant per database (the tenant database). With shared schema, the tenant database is a container for one or more tenants, and each tenant is a unit of data in the tenant database (see figure 2).
+   This is a fundamental change to the concept of a tenant/tenant database as compared with the separate schema model, which has one tenant per database (the tenant database). With shared schema, the tenant database is a container for one or more tenants, and each tenant is a unit of data in the tenant database (see figure 2).
    
    You can have multiple tenant databases among which you can mount, delete, and move tenants. 
 -  Companies share tables for storing business data.
