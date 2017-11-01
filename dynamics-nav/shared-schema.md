@@ -16,6 +16,9 @@ Shared schema is a data model that shares database resources among tenants and c
 
 Instead of having company-specific tables for storing business data in the database, companies share the same tables. In a multitenant deployment, shared schema enables you to have multiple tenants in the same database. Tenants in the database can support different application versions, which allows you to upgrade tenants to different application versions independent of the other tenants.
 
+> [!TIP]
+> If you convert one tenant database on a [!INCLUDE[nav_server_md](includes/nav_serever_md.md)] instance to shared schema, we recommend that you convert all tenant databases to make tenant management less complicated. 
+
 ## Overview
 To help explain shared schema, let's first look at the conventional [!INCLUDE[navnow_md](includes/navnow_md.md)] data model, which is referred to as *separate schema*.
 
