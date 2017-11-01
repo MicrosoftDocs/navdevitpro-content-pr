@@ -79,10 +79,10 @@ To convert to shared schema, you use the [Sync-NAVTenant cmdlet](https://go.micr
     ```
     Sync-NAVTenant -ServerInstance  "[server_instance_name]" -Tenant "[tenant_ID]" -Mode ConvertToSharedSchema
     ```
-    When the sync process finishes, the database that is used by the tenant has been converted. The tenant is still be mounted on the same NAV Server instance. If you have a multitnenant deployment, the server instance still connects to the same application database. 
+    When the sync process finishes, the database that is used by the tenant has been converted. The tenant is still being mounted on the same NAV Server instance. If you have a multitnenant deployment, the server instance still connects to the same application database. 
 
 ## Next steps
-You can now begin the manage tenants of the database. If you have single tenant deployment, there is basically no change in the way you manage the tenant compared with before the conversion.
+You can now begin to manage tenants of the database. If you have single tenant deployment, there is basically no change in the way you manage the tenant compared with before the conversion.
 
 If you have a multitenant deployment, we recommend that you complete the following steps to get started. The distinction between the *tenant database* and *tenant* introduces a new paradigm for managing your tenants, which is supported by several additional [!INCLUDE[navnow_md](includes/navnow_md.md)] Powershell cmdlets. These steps will help you understand the general flow for working with tenant databases and tenants.
 
@@ -91,7 +91,7 @@ If you have a multitenant deployment, we recommend that you complete the followi
     ```
     Dismount-NAVTenant -ServerInstance '[nav_server_instance_name]' -Tenant '[tenant ID]'
     ```
-3.  Use the Mount-NAVTenantDatabase cmdlet to mount the database of the dismounted tenant to the same [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance as before. This will designate the database as a  *tenant database*. 
+3.  Use the Mount-NAVTenantDatabase cmdlet to mount the database of the dismounted tenant to the same [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance as before. This will designate the database as a *tenant database*. 
 
     ```
     Mount-NAVTenantDatabase -ServerInstance '[nav_server_instance_name]' -Id '[tenant_database_id]' -DatabaseName '[existing_database_name]' -DatabaseServer '[server_name]\[database_instance]'
