@@ -3,7 +3,7 @@ title: Security Settings and IP Protection
 description: This topic explains how to set the security settings and IP protection against downloading or debugging into extension to see the source code.
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 10/31/2017
+ms.date: 11/01/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,21 +18,24 @@ caps.latest.revision: 18
 
 # Security Settings and IP Protection
 
-This topic contains the information about the security settings and IP protection against downloading or debugging into extension to see the source code in both the extensions V1 and extensions V2.
+This topic contains the information about the security settings and providing Intellectual Property (IP) protection against downloading or debugging into extension to see the source code in the V2 extensions.
 
-## Default Security Settings
-When you start a new project in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], the app.json file is generated automatically, which contains information about the extension that you are building on. The ``app.json`` file contains build-in security settings in controls called ``showMyCode``, which manages whether it is possible to debug into the extension when taken as a dependency. The default value of the Control ``showMyCode`` is set to **false**, meaning, debugging into extension to view the code is disallowed. Thus, the code is protected against viewing or downloading.
+ The [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] extension development package provides a pre-configured settings for IP protection against viewing or downloading the code of the extensions. However, these settings can also be controlled in the manifest (app.json).
+
+ ## Default IP Protection settings
+When you start a new project in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], an ``app.json`` file is generated automatically, which contains information about the extension that you are building on. The ``app.json`` file contains a setting called ``showMyCode``, which controls whether it is possible to debug into the extension, when taken as a dependency. The default value of this property is set to **false**. Meaning, debugging into extension to view the code is disallowed.
 
 > [!NOTE]  
-> The control settings for ``showMyCode`` is not displayed in the ``app.json`` file. 
+> The ``showMyCode`` setting is not displayed in the code, when the ``app.json`` file is generated.
 
-## Add control settings
+## Change the IP Protection settings
 
-It is possible to debug into extension to view the source code by adding the control setting in the ``app.json`` file. In order to allow accessing the source code, add the ``showMyCode`` control in the manifest and set the property value to **true**, as shown below.
+Allow debugging into extension to view the source code by adding a simple setting in the ``app.json`` file. Add ``showMyCode`` property in the manifest and set the property value to **true**, as shown below.
 
 ```
 "showMyCode": true
 ```
+By adding this setting, it is possible to debug into extension to view the source code as a dependency. 
 
 ## See Also  
 
