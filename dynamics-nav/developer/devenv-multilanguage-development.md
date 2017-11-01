@@ -44,13 +44,7 @@ After you install a language module, you must design your application to take ad
  <!-- For more information, see [Viewing the Application in Different Languages](Viewing-the-Application-in-Different-Languages.md). -->
   
 ## Adding languages for extensions
-When developing extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you must make sure that the user interface of the extension is translated to the language used in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. The properties in AL that contain strings that surface in the UI, can be extracted to an .xliff file and sent for translation. For more information, see [Working with Translation Files](devenv-work-with-translation-files.md).
+When developing extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you must make sure that the user interface of the extension is translated to the language used in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. The properties in AL that contain strings surfacing in the UI, can be extracted to an .xliff file and sent for translation. For more information, see [Working with Translation Files](devenv-work-with-translation-files.md).
 
-
-<!--
-[Development](Development.md)   
-[Adding Languages to Microsoft Dynamics NAV](Adding-Languages-to-Microsoft-Dynamics-NAV.md)   
-[Language Modules](Language-Modules.md)   
-[Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)   
-[Viewing the Application in Different Languages](Viewing-the-Application-in-Different-Languages.md) 
--->
+## See Also
+[Working with Translation Files](devenv-work-with-translation-files.md)  
