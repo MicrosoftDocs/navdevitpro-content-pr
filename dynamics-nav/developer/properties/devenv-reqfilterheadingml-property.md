@@ -14,6 +14,9 @@ author: SusanneWindfeldPedersen
 
 # ReqFilterHeadingML Property
 Sets the text used as a [ReqFilterHeading Property](devenv-reqfilterheading-property.md) for a request page tab.  
+
+>
+> [!NOTE] The support for using the ML properties, such as **CaptionML** and **TooltipML**, is being deprecated, so it is recommended to refactor your extension to use the corresponding **Caption** or **Tooltip** property, which is being picked up in the .xliff file. For more information, see [Working with Translation Files](devenv-work-with-translation-files.md).
   
 ## Applies To  
   
