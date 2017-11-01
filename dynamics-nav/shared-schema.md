@@ -17,7 +17,7 @@ Shared schema is a data model that shares database resources among tenants and c
 Instead of having company-specific tables for storing business data in the database, companies share the same tables.  In a multitenant deployment, where you have a database for the application and a tenant database for the business data, shared schema enables you to have multiple tenants in the same database. Tenants in the database can support different application versions, which allows you to upgrade tenants to different application versions independent of the other tenants.
 
 > [!TIP]
-> If you convert one tenant database on a [!INCLUDE[nav_server_md](includes/nav_serever_md.md)] instance to shared schema, we recommend that you convert all tenant databases to make tenant management less complicated. 
+> If you convert one tenant database on a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to shared schema, we recommend that you convert all tenant databases to make tenant management less complicated. 
 
 ## Overview
 To help explain shared schema, let's first look at the conventional [!INCLUDE[navnow_md](includes/navnow_md.md)] data model, which is referred to as *separate schema*.
@@ -50,7 +50,7 @@ A database that uses the shared schema data model has the following characterist
 
     There is one set of business entity data tables for all companies and tenants in the database. For example, instead  of an Item table for each company, there is a single table that contains the data for all companies (see figure 3).
 
--   It an support multiple application versions, which means that tenants in the database can be mounted to different [!INCLUDE[nav_server_md](includes/nav_serever_md.md)] instances that use different application versions.   
+-   It an support multiple application versions, which means that tenants in the database can be mounted to different [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instances that use different application versions.   
 
 ![Shared schema tenant data](media/SharedSchemaTenantTables.png "Shared schema tenant data")
 
