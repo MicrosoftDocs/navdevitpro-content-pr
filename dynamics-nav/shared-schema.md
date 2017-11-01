@@ -79,7 +79,7 @@ To convert to shared schema, you use the [Sync-NAVTenant cmdlet](https://go.micr
     ```
     Sync-NAVTenant -ServerInstance  "[server_instance_name]" -Tenant "[tenant_ID]" -Mode ConvertToSharedSchema
     ```
-    When the sync process finishes, the database that is used by the tenant has been converted. The tenant is still being mounted on the same NAV Server instance. If you have a multitnenant deployment, the server instance still connects to the same application database. 
+    When the sync process finishes, the database that is used by the tenant has been converted. The tenant is still mounted on the same NAV Server instance. If you have a multitnenant deployment, the server instance still connects to the same application database. 
 
 ## Next steps
 You can now begin to manage tenants of the database. If you have single tenant deployment, there is basically no change in the way you manage the tenant compared with before the conversion.
