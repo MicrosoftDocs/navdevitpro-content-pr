@@ -50,7 +50,7 @@ A database that uses the shared schema data model has the following characterist
 
     There is one set of business entity data tables for all companies and tenants in the database. For example, instead  of an Item table for each company, there is a single table that contains the data for all companies (see figure 3).
 
--   It an support multiple application versions, which means that tenants in the database can be mounted to different [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instances that use different application versions.   
+-   It can support multiple application versions, which means that tenants in the database can be mounted to different [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instances that use different application versions.   
 
 ![Shared schema tenant data](media/SharedSchemaTenantTables.png "Shared schema tenant data")
 
