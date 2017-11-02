@@ -41,6 +41,7 @@ The following table describes the settings in the ```app.json``` file:
 |platform|Yes, if system tables are referenced in the extension|The minimum supported version of the platform symbol package file, for example: "11.0.0.0". See the [Symbols](devenv-symbols.md) for the list of object symbols contained in the platform symbol package file.|
 |application|Yes, if base application objects are extended or referenced |The minimum supported version, for example: `"application": "11.0.0.0"`|
 |idRange|Yes|A range for application object IDs. For all objects outside the range, a compilation error will be raised.|
+|showMyCode|No|See the source code when debugging into extension, by adding this setting: `"showMyCode": true`|
 
 ## Launch.json file
 
