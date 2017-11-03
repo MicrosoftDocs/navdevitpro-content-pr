@@ -1,6 +1,6 @@
 ---
-title: Converting to Shared Schema
-description: Explains the shared schema data model and how to convert to it from the default separate schema data model.
+title: Converting a Tenant From Shared Schema to Separate Schema
+description: Explains how to change a tenant from the shared schema data model to the separate schema data model.
 ms.date: 10/16/2017
 ms.tgt_pltfrm: na
 ms.topic: article
@@ -8,7 +8,7 @@ ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
 # Converting a Tenant From Shared Schema to Separate Schema
-This article explains how you can convert a tenant that uses the shared schema data model to use the separate schema data model. 
+This article explains how to convert a tenant from the shared schema data model to the separate schema data model. For an overview of shared schema and separate schema, see [Converting a Database to Shared Schema - Overview](convert-database-to-shared-schema.md#SchemaOverview).
 
 1. Using the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], create an empty [!INCLUDE[navnow_md](includes/navnow_md.md)] database.
 
