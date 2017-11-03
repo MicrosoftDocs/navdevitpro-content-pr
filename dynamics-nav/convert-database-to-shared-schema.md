@@ -111,7 +111,8 @@ If you have a multitenant deployment, we recommend that you complete the followi
     Mount-NAVTenant -ServerInstance DynamicsNAV -Tenant 'Tenant1-1' -TenantDatabaseID 'TenantSharedDatabase1'
     ``` 
 
-## See Also  
+## See Also 
+[Converting a Tenant From Shared Schema to Separate Schema](convert-tenant-from-shared-schema-to-separate-schema.md)  
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
 [Migrating to Multitenancy](Migrating-to-Multitenancy.md)  
 [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
