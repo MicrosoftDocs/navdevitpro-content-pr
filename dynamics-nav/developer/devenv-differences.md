@@ -43,6 +43,9 @@ Several properties have been renamed, to mention some:
 > !NOTE  
 > Property values are considered as syntax elements; thus they should follow the standard AL escaping rules. 
 
+## Multilanguage properties
+With the introduction of .xliff files, the ML properties, such as **CaptionML** and **TooltipML** will be deprecated in a later version. Use the equivalent properties instead, such as **Caption** and **Tooltip**, then make sure the manifest is set up to generate the `/Translations` folder and use the generated .xliff files for translations of the extension. For more information, see [Working with Translation Files](devenv-work-with-translation-files.md).
+
 ## Pages
 The ```ActionContainer``` elements in AL have been renamed; the following table lists the renamed elements:
 
