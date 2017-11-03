@@ -31,7 +31,7 @@ The following table lists the new functions in [!INCLUDE[navnowlong](includes/na
 |Function|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
 |[CANCREATTASK \(TaskScheduler\)](cancreatetask-function.md)|Indicates whether a user has permissions to create or schedule a task.|
-|[COMPANYPROPERTY.DISPLAYNAME](cancreatetask-function.md)|Indicates whether a user has permissions to create or schedule a task.|
+|[DISPLAYNAME](displayname-function.md)|Gets the display name that is defined for a company.|
 |[Company \(SessionSettings\)](company-function-sessionsettings.md)|Gets or sets the company property in a SessionSettings object. |
 |[INIT \(SessionSettings\)](init-function-sessionsettings.md)|Populates the instance of a SessionsSettings with the current client user's personalization properties (such as Profile ID and Company) that are stored in the database.|
 |[LANGUAGEID \(SessionSettings\)](languageid-function-sessionsettings.md)|Gets or sets the language ID property in a SessionSettings object.|
