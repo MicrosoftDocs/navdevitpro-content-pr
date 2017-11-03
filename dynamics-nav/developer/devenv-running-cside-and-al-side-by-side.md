@@ -16,28 +16,32 @@ caps.latest.revision: 18
 
 # Running C/SIDE and AL Side-by-Side
 
-Dynamics NAV 2018 supports development using both C/SIDE and AL, as well as the in-client designer side-by-side. When new objects are added or changed in C/SIDE these changes must be reflected in the symbol download in Visual Studio Code using the AL Language extension. To enable this reflection, a new command and argument has been added to finsql.exe called `generatesymbolreference`. Run `generatesymbolreference` as illustrated below.
+Dynamics NAV 2018 supports development using both C/SIDE and AL, as well as the in-client designer side-by-side. When new objects are added or changed in C/SIDE these changes must be reflected in the symbol download in Visual Studio Code using the AL Language extension. To enable this reflection, a new command and argument has been added to finsql.exe called `generatesymbolreference`, run it as illustrated below.
 
 ## Get started generating symbols and compiling all objects
 Use the `generatesymbolreference` command specified with the database and server name. This command will add symbol references to the **NAV App Object Metadata** table for the specified database. 
 
->
-> [!IMPORTANT] Run this command at least once to have a set of symbol references.
+> [!IMPORTANT] 
+> Run this command at least once to have a set of symbol references.
 
 ### Syntax example
-`finsql.exe Command=generatesymbolreference, Database=”Demo Database NAV (11-0)”, ServerName=.\NAVDEMO`
+```
+finsql.exe Command=generatesymbolreference, Database=”Demo Database NAV (11-0)”, ServerName=.\NAVDEMO`
+```
 
-> 
-> [!NOTE] This is a lengthy operation.
+> [!NOTE] 
+> This is a lengthy operation.
 
 ## Continuously generate symbols each time you compile objects in C/SIDE
 Use `generatesymbolreference` set to yes as a command line argument each time you start finsql.exe to have all compilations add a symbol reference to the **NAV App Object Metadata** table. The default setting of the argument is no. 
 
->
-> [!NOTE] If you make changes in C/SIDE and start the C/SIDE development environment without the `generatesymbolreference` flag set to `yes`, no symbols will be generated when downloading symbols from Visual Studio Code.
+> [!NOTE] 
+> If you make changes in C/SIDE and start the C/SIDE development environment without the `generatesymbolreference` flag set to `yes`, no symbols will be generated when downloading symbols from Visual Studio Code.
 
 ### Syntax example
-`finsql.exe generatesymbolreference=yes`
+```
+finsql.exe generatesymbolreference=yes
+```
 
 ## Dynamics NAV Server setting
 In addition, a new Dynamics NAV Server setting has been introduced; **Enable Symbol Loading at Server Startup**. This setting must be enabled to allow any symbol generation. 
