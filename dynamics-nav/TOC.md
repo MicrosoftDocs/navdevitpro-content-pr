@@ -54,6 +54,7 @@
 ## [Running C/SIDE and AL Side-By-Side](developer/devenv-running-cside-and-al-side-by-side.md)
 ## [The Txt2Al Conversion Tool](developer/devenv-txt2al-tool.md)
 ## [Converting from Extensions V1 to Extensions V2](developer/devenv-upgrade-v1-to-v2-overview.md)
+## [Wrting Extension Install Code](devenv-extension-install-code.md)
 ## [Upgrading Extensions V2](developer/devenv-upgrading-extensions.md)
 ## [How to: Publish and Install an Extension V2](developer/devenv-how-publish-and-install-an-extension-v2.md)
 ## [AL Programming Guide](developer/devenv-programming-in-al.md)
