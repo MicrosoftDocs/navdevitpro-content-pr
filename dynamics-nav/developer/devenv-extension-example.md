@@ -64,8 +64,7 @@ page 50101 "Reward Card"
     {
         area(content)
         {
-
-            {
+           // {
             group(GroupName)
             {
                 field("Reward Id";"Reward ID")
@@ -153,6 +152,7 @@ The following code extends the Customer Card page display the `Reward ID` field.
 
 ```
 pageextension 50104 "Customer Card Ext" extends "Customer Card"
+    {
     layout
     {
         addlast(General)
@@ -176,6 +176,7 @@ pageextension 50104 "Customer Card Ext" extends "Customer Card"
             }
         }
     }
+}
 ```
 
 
