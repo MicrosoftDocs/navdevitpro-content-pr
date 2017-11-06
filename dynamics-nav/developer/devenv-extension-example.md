@@ -11,11 +11,14 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ---
 # Sample Extension Using Extension Objects
-The extension in this example uses objects and extension objects to extend base application with a rewards feature for customers. 
+The extension in this example uses objects and extension objects to extend base application with a rewards feature for customers. The sample is includes install and upgrade code in 
 
-The extension enables the ability to assign one of three reward levels to customers, Customers are then given a discount that is based on the reward level.
 
-The sample is includes install and upgrade code.
+## What does the extension do
+The extension enables the ability to assign one of three reward levels to customers: Gold, Silver, and Bronze. Customers are then given a discount that is based on the reward level.
+
+For the next version, you will change the Bronze level to Aluminum instead.
+
 
 ## Reward Table Object
 The following code adds a new table **50100 Reward** for storing the reward levels for customers. 
@@ -199,7 +202,7 @@ codeunit 50103 RewardsInstallCode
     begin
         InsertRewardLevel('GOLD', 'Gold Level', 20);
         InsertRewardLevel('SILVER', 'Silver Level', 10);
-        InsertRewardLevel('BRONZE', 'Bronze Level', 5);
+        InsertRewardLevel('BRONZE', 'Bronze Level', 5); //
         // InsertRewardLevel('ALUMINUM', 'Aluminum Level', 5);
     end;
 
@@ -219,7 +222,7 @@ codeunit 50103 RewardsInstallCode
 
 
 ## Upgrade Code
-The following codeunit is used to upgrade to the new version.
+The following codeunit is used to upgrade to the new version. 
 
 ```
 codeunit 50105 RewardsUpgradeCode

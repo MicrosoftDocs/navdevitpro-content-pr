@@ -16,10 +16,10 @@ Depending on the extension, there might certain operations outside of the extens
 -   An extension is installed for the very first time
 -   A previously uninstalled version of an extension is installed again.
 
-This enables you to write different code for initial installation and reinstallation. 
+This enables you to write different code for initial installation and reinstallation.
 
 > [!Note]
-> Installing a new version of an extension is considered to be upgrade, and requires separate code. For information about upgrading and writing extension upgrade code, see [Upgrading Extensions](devenv-upgrading-extensions.md). 
+> Installing a new version of an extension is considered to be upgrade, and requires separate code. For information about upgrading and writing extension upgrade code, see [Upgrading Extensions](devenv-upgrading-extensions.md).
 
 ## How to write install code
 You write install logic in an *install* codeunit. This is a codeunit that has the [SubType property](properties/devenv-subtype-property-codeunit.md) is set to **Install**. An install codeunit supports two system triggers on which you can add install code. The triggers are invoked when you install
@@ -37,13 +37,13 @@ The following code illustrates the basic syntax and structure of an install code
 ```
 codeunit [ID] [NAME]
 {
-	Subtype=Install; 
-	
+	Subtype=Install;
+
 	procedure OnInstallAppPerCompany()
 	begin
-		
+		// Code for company related operations
 	end;
-	
+
 	procedure OnInstallAppPerDatabase()
 	begin
 		// Code for database related operations
@@ -57,29 +57,29 @@ codeunit [ID] [NAME]
 ### Get information about an extension
 Each extension version has a set of properties that contain information about the extension, including: AppVersion, DataVersion, Dependencies, Id, Name, and Publisher. This information can be useful when installing. For example, one of the more important properties is the `DataVersion` property, which tells you what version of data you are dealing with. These properties are encapsulated in a `ModuleInfo` data type. You can access these properties by through the `NAVApp.GetCurrentModuleInfo()` and `NAVAPP.GetModuleInfo()` methods.
 
-### Install codeunit example 
+### Install codeunit example
 This example uses the `OnCheckPreconditionsPerDatabase()` trigger to check whether the data version of the previous extension version is compatible for the upgrade.
 
 ```
-codeunit 70000000 MyInstallCodeunit
+codeunit 50100 MyInstallCodeunit
 {
     Subtype=Install;
 
     trigger OnInstallAppPerDatabase();
-    var 
+    var
         myAppInfo : ModuleInfo;
     begin
         NavApp.GetCurrentModuleInfo(myAppInfo); // Get info about the currently executing module
 
         if myAppInfo.DataVersion = Version.Create(0,0,0,0) then // A 'DataVersion' of 0.0.0.0 indicates a 'fresh/new' install
             HandleFreshInstall
-        else 
+        else
             HandleReinstall; // If not a fresh install, then we are Re-installing the same version of the extension
     end;
 
     local procedure HandleFreshInstall();
     begin
-        // Do work needed the first time this extension is ever installed for this tenant
+        // Do work needed the first time this extension is ever installed for this tenant.
         // Some possible usages:
         // - Service callback/telemetry indicating that extension was install
         // - Initial data setup for use
@@ -87,11 +87,11 @@ codeunit 70000000 MyInstallCodeunit
 
     local procedure HandleReinstall();
     begin
-        // Do work needed when reinstalling the same version of this extension back on this tenant
+        // Do work needed when reinstalling the same version of this extension back on this tenant.
         // Some possible usages:
         // - Service callback/telemetry indicating that extension was reinstalled
-        // - Data 'patchup' work / detecting if new 'base' records that you care about have been changed since you we 'offline'
-        // - Setup 'welcome back' messaging for next user access
+        // - Data 'patchup' work, for example, detecting if new 'base' records have been changed while you have been working 'offline'.
+        // - Setup 'welcome back' messaging for next user access.
     end;
 }
 
@@ -99,6 +99,6 @@ codeunit 70000000 MyInstallCodeunit
 
 ## See Also  
 [Developing Extensions](devenv-dev-overview.md)  
-[Getting Started](devenv-get-started.md) 
+[Getting Started](devenv-get-started.md)
 [How to: Publish and Install an Extension](devenv-how-publish-and-install-an-extension-v2.md)  
 [Converting Extensions V1 to Extensions V2](devenv-upgrade-v1-to-v2-overview.md)  
