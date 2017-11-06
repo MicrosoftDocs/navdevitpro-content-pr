@@ -11,14 +11,14 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ---
 # Sample Extension Using Extension Objects
-The extension in this example uses objects and extension objects to extend base application with a rewards feature to benefit customers. 
+The extension in this example uses objects and extension objects to extend base application with a rewards feature for customers. 
 
-The extension enables the ability to assign one of three reward levels to customers, Customers are then given a discount on purchases based on the reward level.
+The extension enables the ability to assign one of three reward levels to customers, Customers are then given a discount that is based on the reward level.
 
-The sample is includes install and upgrade code for two versions.
+The sample is includes install and upgrade code.
 
 ## Reward Table Object
-The following code adds a new table **700000001 Reward** for storing the reward levels for customers. 
+The following code adds a new table **50100 Reward** for storing the reward levels for customers. 
 
 ```
 table 50100 Reward
@@ -51,7 +51,7 @@ table 50100 Reward
 ```
 
 ## Reward Card Page Object
-The following code adds a new page **700000002 Reward Card** for specifying the different reward levels that are stored in the new **Rewards** table.
+The following code adds a new page **50101 Reward Card** for specifying the different reward levels that are stored in the new **Rewards** table.
 
 ```
 page 50101 "Reward Card"
@@ -86,7 +86,7 @@ page 50101 "Reward Card"
 ```
 
 ## Reward List Page Object
-The following code adds a new page **700000003 Rewards List** for displaying the reward levels that are stored in the new **Rewards** table. Selecting a record in the list will open the **Reward Card** page for editing.
+The following code adds a new page **50102 Rewards List** for displaying the reward levels that are stored in the new **Rewards** table. Selecting a record in the list will open the **Reward Card** page for editing.
 
 ```
 page 50102 "Reward List"
@@ -120,7 +120,7 @@ page 50102 "Reward List"
 ```
 
 ## Customer Table Extension Object
-The following code extends the Customer table with the field `Reward ID`:
+The following code extends the Customer table with the field `Reward ID`.
 
 ```
 tableextension 50103 "Customer Ext" extends Customer
@@ -148,7 +148,7 @@ tableextension 50103 "Customer Ext" extends Customer
 
 ## Customer Card Page Extension Object
 
-The following code extends the Customer Card page display the `Reward ID` field. The code also adds an action to open.
+The following code extends the Customer Card page display the `Reward ID` field. The code also adds an action to open the Rewards List page.
 
 ```
 pageextension 50100 "Customer Card Ext" extends "Customer Card"
@@ -182,7 +182,7 @@ pageextension 50100 "Customer Card Ext" extends "Customer Card"
 The following codeunit is run when the extension is first installed or re-installed.
 
 ```
-codeunit 700000004 InstallCode
+codeunit 50103 RewardsInstallCode
 {
     Subtype = Install;
     
@@ -217,11 +217,12 @@ codeunit 700000004 InstallCode
 }
 ```
 
+
 ## Upgrade Code
-The following codeunit is used when you upgrade to a new version.
+The following codeunit is used to upgrade to the new version.
 
 ```
-codeunit 700000005 UpgradeCode
+codeunit 50105 RewardsUpgradeCode
 {
     Subtype = Upgrade;
 
