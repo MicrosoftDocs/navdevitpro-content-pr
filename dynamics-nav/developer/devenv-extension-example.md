@@ -16,7 +16,7 @@ The extension in this example add new objects and extension objects to extend ba
 ## Rewards extension overview
 The extension enables the ability to assign one of three reward levels to customers: Gold, Silver, and Bronze. Customers can then receive discounts based on the reward level.
 
-For the upgrade scenario, you want to change the Bronze level to Aluminum instead. This requires that you modify the install code and the upgrade code.
+For the upgrade scenario, you will change the Bronze level to Aluminum. This requires that you modify the install code and the upgrade code.
 
 ## Reward Table Object
 The following code adds a new table **50100 Reward** for storing the reward levels for customers. 
@@ -219,7 +219,7 @@ codeunit 50105 RewardsInstallCode
 ```
 
 ## Upgrade Code
-When you upgrade an extension to a newer version, if any modifications to the existing data is required to support the upgrade, you must be write upgrade code in an upgrade codeunit. In this example, the following upgrade codeunit contains code that changes the Bronze reward level on customer records to Aluminum. The upgrade codeunit will run when you run the Upgrade-NAVApp cmdlet. For more information about writing upgrade code, see [Upgrading Extension](devenv-upgrading-extensions.md).
+When you upgrade an extension to a newer version, if any modifications to the existing data are required to support the upgrade, you must be write upgrade code in an upgrade codeunit. In this example, the following upgrade codeunit contains code that changes the Bronze reward level on customer records to Aluminum. The upgrade codeunit will run when you run the Upgrade-NAVApp cmdlet. For more information about writing upgrade code, see [Upgrading Extension](devenv-upgrading-extensions.md).
  
 ```
 codeunit 50106 RewardsUpgradeCode
