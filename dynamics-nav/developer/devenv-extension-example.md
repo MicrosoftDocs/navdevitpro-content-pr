@@ -180,7 +180,7 @@ pageextension 50104 "Customer Card Ext" extends "Customer Card"
 
 
 ## Install Code
-The following codeunit is run when the extension is first installed or re-installed.
+To perform operations on the database to support the installation of an extension, you add code to an install codeunit. In this example, the following install codeunit initializes Customer records with the reward levels. The install codeunit will run when the extension is first installed and when the same version is re-installed. For more information about install code, see [Writing Extension Install Code](devenv-extension-install-code.md).
 
 ```
 codeunit 50105 RewardsInstallCode
@@ -218,10 +218,9 @@ codeunit 50105 RewardsInstallCode
 }
 ```
 
-
 ## Upgrade Code
-The following codeunit is used to upgrade to the new version. 
-
+When you upgrade an extension to a newer version, if any modifications to the existing data is required to support the upgrade, you must be write upgrade code in an upgrade codeunit. In this example, the following upgrade codeunit contains code that changes the Bronze reward level on customer records to Aluminum. The upgrade codeunit will run when you run the Upgrade-NAVApp cmdlet. For more information about writing upgrade code, see [Upgrading Extension](devenv-upgrading-extensions.md).
+ 
 ```
 codeunit 50106 RewardsUpgradeCode
 {
