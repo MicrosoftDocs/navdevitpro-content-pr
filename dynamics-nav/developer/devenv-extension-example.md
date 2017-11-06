@@ -1,7 +1,7 @@
 ---
 author: jswymer
-title: "Writing extensions installation code"
-description: "Describes how to add code to run to initialize data when an extension is installed."
+title: "Sample extension example that uses new objects and extension objects"
+description: "Includes code for an example extension, complete with new objects, extension objects, and install and upgrade code."
 ms.custom: na
 ms.date: 11/10/2017
 ms.reviewer: na
@@ -11,14 +11,12 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ---
 # Sample Extension Using Extension Objects
-The extension in this example uses objects and extension objects to extend base application with a rewards feature for customers. The sample is includes install and upgrade code in 
+The extension in this example add new objects and extension objects to extend base application with a rewards feature for customers. The sample is includes install and upgrade code in install and upgrade codeunits.
 
+## Rewards extension overview
+The extension enables the ability to assign one of three reward levels to customers: Gold, Silver, and Bronze. Customers can then receive discounts based on the reward level.
 
-## What does the extension do
-The extension enables the ability to assign one of three reward levels to customers: Gold, Silver, and Bronze. Customers are then given a discount that is based on the reward level.
-
-For the next version, you will change the Bronze level to Aluminum instead.
-
+For the upgrade scenario, you want to change the Bronze level to Aluminum instead. This requires that you modify the install code and the upgrade code.
 
 ## Reward Table Object
 The following code adds a new table **50100 Reward** for storing the reward levels for customers. 
@@ -154,7 +152,7 @@ tableextension 50103 "Customer Ext" extends Customer
 The following code extends the Customer Card page display the `Reward ID` field. The code also adds an action to open the Rewards List page.
 
 ```
-pageextension 50100 "Customer Card Ext" extends "Customer Card"
+pageextension 50104 "Customer Card Ext" extends "Customer Card"
     layout
     {
         addlast(General)
@@ -185,7 +183,7 @@ pageextension 50100 "Customer Card Ext" extends "Customer Card"
 The following codeunit is run when the extension is first installed or re-installed.
 
 ```
-codeunit 50103 RewardsInstallCode
+codeunit 50105 RewardsInstallCode
 {
     Subtype = Install;
     
@@ -225,7 +223,7 @@ codeunit 50103 RewardsInstallCode
 The following codeunit is used to upgrade to the new version. 
 
 ```
-codeunit 50105 RewardsUpgradeCode
+codeunit 50106 RewardsUpgradeCode
 {
     Subtype = Upgrade;
 
