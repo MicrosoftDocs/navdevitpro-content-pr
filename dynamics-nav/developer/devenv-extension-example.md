@@ -91,7 +91,7 @@ page 50101 "Reward Card"
 ```
 
 > [!TIP]
-> Use the shortcuts `tpage, Page of Card` to create the basic structure for the page object.
+> Use the shortcuts `tpage, Page of type card` to create the basic structure for the page object.
 
 ## Reward list page object
 The following code adds a new page **50102 Rewards List** for displaying the reward levels that are stored in the new **Rewards** table. Selecting a record in the list will open the **Reward Card** page for editing.
@@ -128,7 +128,7 @@ page 50102 "Reward List"
 ```
 
 > [!TIP]
-> Use the shortcuts `tpage, Page of typeList` to create the basic structure for the page object.
+> Use the shortcuts `tpage, Page of type list` to create the basic structure for the page object.
 
 ## Customer table extension object
 The following code extends the Customer table with the `Reward ID` field.
