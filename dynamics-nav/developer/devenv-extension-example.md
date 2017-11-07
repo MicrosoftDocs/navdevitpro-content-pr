@@ -20,7 +20,7 @@ The extension enables the ability to assign one of three reward levels to custom
 
 For the upgrade scenario, you will change the Bronze level to Aluminum. 
 
-## Reward Table Object
+## Reward table object
 The following code adds a new table **50100 Reward** for storing the reward levels for customers. The table consists of three fields: **Reward ID**, **Description**, and **Discount Percentage**.
 
 ```
@@ -56,7 +56,7 @@ table 50100 Reward
 > [!TIP]
 > Use the shortcuts `ttable` to create the basic structure for the table object.
 
-## Reward Card Page Object
+## Reward card page object
 The following code adds a new page **50101 Reward Card** for specifying the different reward levels that are stored in the new **Rewards** table.
 
 ```
@@ -93,7 +93,7 @@ page 50101 "Reward Card"
 > [!TIP]
 > Use the shortcuts `tpage, Page of Card` to create the basic structure for the page object.
 
-## Reward List Page Object
+## Reward list page object
 The following code adds a new page **50102 Rewards List** for displaying the reward levels that are stored in the new **Rewards** table. Selecting a record in the list will open the **Reward Card** page for editing.
 
 ```
@@ -130,7 +130,7 @@ page 50102 "Reward List"
 > [!TIP]
 > Use the shortcuts `tpage, Page of typeList` to create the basic structure for the page object.
 
-## Customer Table Extension Object
+## Customer table extension object
 The following code extends the Customer table with the `Reward ID` field.
 
 ```
@@ -160,7 +160,7 @@ tableextension 50103 "Customer Ext" extends Customer
 > [!TIP]
 > Use the shortcuts `ttableext` to create the basic structure for the table extension object.
 
-## Customer Card Page Extension Object
+## Customer card page extension object
 
 The following code extends the Customer Card page display the `Reward ID` field. The code also adds an action to open the **Reward List** page.
 
@@ -193,7 +193,10 @@ pageextension 50104 "Customer Card Ext" extends "Customer Card"
 }
 ```
 
-## Install Code
+> [!TIP]
+> Use the shortcuts `tpageext` to create the basic structure for the page extension coobject.
+
+## Install code
 To perform operations on the database to support the installation of an extension, you add code to an install codeunit. In this example, the following install codeunit initializes Customer records with the reward levels. The install codeunit will run when the extension is installed for the first time and when the same version is re-installed. For more information about install code, see [Writing Extension Install Code](devenv-extension-install-code.md).
 
 ```
@@ -234,7 +237,7 @@ codeunit 50105 RewardsInstallCode
 > [!TIP]
 > Use the shortcuts `tcodunit` and `ttrigger` to create the basic structure for the codeunit and trigger.
 
-## Upgrade Code
+## Upgrade code
 When you upgrade an extension to a newer version, if any modifications to the existing data are required to support the upgrade, you must write upgrade code in an upgrade codeunit. In this example, the following upgrade codeunit contains code that changes the **Bronze** reward level on customer records to **Aluminum**. The upgrade codeunit will run when you run the Upgrade-NAVApp cmdlet. For more information about writing and running upgrade code, see [Upgrading Extension](devenv-upgrading-extensions.md).
 
 > [!IMPORTANT]
