@@ -194,7 +194,7 @@ pageextension 50104 "Customer Card Ext" extends "Customer Card"
 ```
 
 > [!TIP]
-> Use the shortcuts `tpageext` to create the basic structure for the page extension coobject.
+> Use the shortcuts `tpageext` to create the basic structure for the page extension object.
 
 ## Install code
 To perform operations on the database to support the installation of an extension, you add code to an install codeunit. In this example, the following install codeunit initializes Customer records with the reward levels. The install codeunit will run when the extension is installed for the first time and when the same version is re-installed. For more information about install code, see [Writing Extension Install Code](devenv-extension-install-code.md).
