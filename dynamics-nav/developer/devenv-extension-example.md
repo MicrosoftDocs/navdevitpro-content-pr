@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ---
-# Sample Extension Using Extension Objects
+# Sample Extension With Extension Objects, Install Code, and Upgrade Code
 This sample extension adds new objects and extension objects to the base application for a simple rewards feature for customers. The sample includes install and upgrade code.
 
 To get started, create an AL project in Visual Code. Create objects that use the sample code from the sections that follow, and build the extension package. Then, you can publish and install the extension on your tenants.  
