@@ -80,4 +80,4 @@ MESSAGE(Text001); // This line is not executed.
  [Dialog Data Type](Dialog-Data-Type.md)   
  [MESSAGE Function \(Dialog\)](MESSAGE-Function--Dialog-.md)   
  [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md)   
- [Error Handling](Error-Handling.md)
+ <!-- [Error Handling](Error-Handling.md) -->

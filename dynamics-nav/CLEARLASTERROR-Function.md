@@ -24,4 +24,4 @@ CLEARLASTERROR
  You can use the [GETLASTERRORTEXT Function](GETLASTERRORTEXT-Function.md) to determine whether an error has occurred and to see the text in the last error message that was generated. You can then use the CLEARLASTERROR function to remove the last error message from memory. If you subsequently call the GETLASTERRORTEXT function, an empty string is returned.  
   
 ## See Also  
- [Error Handling](Error-Handling.md)
+<!-- [Error Handling](Error-Handling.md) -->

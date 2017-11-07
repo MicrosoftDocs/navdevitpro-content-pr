@@ -1,7 +1,8 @@
 ---
-title: "FieldRef Data Type"
+title: FieldRef Data Type
+description: The FieldRef data type is a complex type that identifies or refers a field in any table in the database and gives you access to that field. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: c85c2d81-1214-4cf3-ad50-bdc8cd44e455
 caps.latest.revision: 6
 manager: edupont
 ---
-# FieldRef Data Type
+# FieldRef Data Type in Dynamics NAV
 This complex data type identifies a field in a table and gives you access to this field. The FieldRef object can refer to any field in any table in the database.  
   
 ## See Also  
