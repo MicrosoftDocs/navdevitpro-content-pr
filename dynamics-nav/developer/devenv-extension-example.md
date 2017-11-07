@@ -53,6 +53,9 @@ table 50100 Reward
 }
 ```
 
+> [!TIP]
+> Use the shortcuts `ttable` to create the basic structure for the table object.
+
 ## Reward Card Page Object
 The following code adds a new page **50101 Reward Card** for specifying the different reward levels that are stored in the new **Rewards** table.
 
@@ -86,6 +89,9 @@ page 50101 "Reward Card"
     }
 }
 ```
+
+> [!TIP]
+> Use the shortcuts `tpage, Page of Card` to create the basic structure for the page object.
 
 ## Reward List Page Object
 The following code adds a new page **50102 Rewards List** for displaying the reward levels that are stored in the new **Rewards** table. Selecting a record in the list will open the **Reward Card** page for editing.
@@ -121,6 +127,9 @@ page 50102 "Reward List"
 }
 ```
 
+> [!TIP]
+> Use the shortcuts `tpage, Page of typeList` to create the basic structure for the page object.
+
 ## Customer Table Extension Object
 The following code extends the Customer table with the `Reward ID` field.
 
@@ -147,6 +156,9 @@ tableextension 50103 "Customer Ext" extends Customer
 }
 
 ```
+
+> [!TIP]
+> Use the shortcuts `ttableext` to create the basic structure for the table extension object.
 
 ## Customer Card Page Extension Object
 

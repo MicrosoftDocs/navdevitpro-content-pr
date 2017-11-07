@@ -23,10 +23,10 @@ You write install logic in an *install* codeunit. This is a codeunit that has th
 
 |Trigger |Description |
 |--------|------------|
-|OnInstallAppPerCompany()|Includes code for company-related operations. Runs once for each company in the database, where each trigger is executed within its own system session for the company.|
+|OnInstallAppPerCompany()|Includes code for company-related operations. Runs once for each company in the database.|
 |OnInstallAppPerDatabase()|Includes code for database-related operations. Runs once in the entire install process.|
 
-The install codeunit becomes an integral part of the extension version. You can have more than one install codeunit. However, be aware that although there is a set order to the sequence of the  triggers, there is no guarantee on the order of execution of the different codeunits. If you do use multiple upgrade units, make sure that they can run independent of each other.
+The install codeunit becomes an integral part of the extension version. You can have more than one install codeunit. However, be aware that there is no guarantee on the order of execution of the different codeunits. If you do use multiple upgrade units, make sure that they can run independent of each other.
 
 ### Install codeunit syntax
 The following code illustrates the basic syntax and structure of an install codeunit:
@@ -99,3 +99,4 @@ codeunit 50100 MyInstallCodeunit
 [Getting Started](devenv-get-started.md)
 [How to: Publish and Install an Extension](devenv-how-publish-and-install-an-extension-v2.md)  
 [Converting Extensions V1 to Extensions V2](devenv-upgrade-v1-to-v2-overview.md)  
+[Sample Extension](devenv-extension-example.md)  
