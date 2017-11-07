@@ -10,34 +10,23 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ---
-# Writing extensions install code
-When an extension is gitThis article provides information about how to make a newer version of extension upgrade available on tenants. The first phase of this process is to develop the extension for upgrading, which means adding code to upgrade data from the previous extension version. Once you have the upgrade code in place, you can publish and synchronize the new version, and the run the data upgrade.
+# Writing Extension Install Code
+There might certain operations outside of the extension code itself that you want performed when an extension is installed. These operations could include, for example, populating empty records with data, service callbacks and telemetry, version checks, and messages to users. To perform these types of operations, you write extension install code. Extension install code is run when:
 
-> [!Note]
-> An extension *installation* encompasses installing the first version of an extension for the first time, and re-installing the same version of an uninstalled extension. 
+-   An extension is installed for the very first time.
+-   An uninstalled version is installed again.
 
-## Developing an extension for upgrading
-When developing a new extension version, you must consider the data from the previous version, and any modifications that must be applied to the data to make it compatible with the current version. For example, it could be that the new version adds a new field that needs default values set for existing records or the new version adds new tables that must be linked to existing records. To address this type of data handling, you must write upgrade code for the extension version.
+This enables you to write different code for initial installation and reinstallation.
 
-If there are no data changes between the versions of your extension, then you do not need to write upgrade code. All data that is not modified by upgrade code will automatically be available when the process completes.
+## How to write install code
+You write install logic in an *install* codeunit. This is a codeunit that has the [SubType property](properties/devenv-subtype-property-codeunit.md) is set to **Install**. An install codeunit supports two system triggers on which you can add the install code.
 
-### Writing install code
-You write install logic in an install codeunit, which is a codeunit whose [SubType property](properties/devenv-subtype-property-codeunit.md) is set to **Install**. An install codeunit supports two system triggers on which you can add install. These triggers are invoked when you run the data upgrade process on the new extension.
+|Trigger |Description |
+|--------|------------|
+|OnInstallAppPerCompany()|Includes code for company-related operations. Runs once for each company in the database.|
+|OnInstallAppPerDatabase()|Includes code for database-related operations. Runs once in the entire install process.|
 
-|Trigger |Description | Install fails on error |
-|--------|------------|----------------------------|
-|OnInstallAppPerCompany()| Runs once for each company in the database, where each trigger is executed within its own system session for the company.|Yes|
-|OnInstallAppPerDatabase()|Runs once in the entire install process, in a single system session that does not open any company.|Yes|
-
-
-The upgrade codeunit becomes an integral part of the extension and can be modified as needed for subsequent versions. You can have more than one upgrade codeunit. However, be aware that although there is a set order to the sequence of the upgrade triggers, there is no guarantee on the order of execution of the different codeunits. If you do use multiple upgrade units, make sure that they can run independent of each other.
-
-### Install triggers
-The following tables describes the upgrade triggers and lists them in the order in which they are invoked.
-
-
-> [!Note]
-> These triggers are also available in upgrade codeunits for the base application, not just for extensions. 
+The install codeunit becomes an integral part of the extension version. You can have more than one install codeunit. However, be aware that there is no guarantee on the order of execution of the different codeunits. If you do use multiple upgrade units, make sure that they can run independent of each other.
 
 ### Install codeunit syntax
 The following code illustrates the basic syntax and structure of an install codeunit:
@@ -45,16 +34,16 @@ The following code illustrates the basic syntax and structure of an install code
 ```
 codeunit [ID] [NAME]
 {
-	Subtype=Install; 
-	
+	Subtype=Install;
+
 	procedure OnInstallAppPerCompany()
 	begin
-		// Code Do my company related init stuffs
+		// Code for company related operations
 	end;
-	
+
 	procedure OnInstallAppPerDatabase()
 	begin
-		// Do my database related init stuffs
+		// Code for database related operations
 	end;
 
 }
@@ -63,52 +52,51 @@ codeunit [ID] [NAME]
 > Use the shortcuts `tcodunit` and `ttrigger` to create the basic structure for the codeunit and trigger.
 
 ### Get information about an extension
-Each extension version has a set of properties that contain information about the extension, including: AppVersion, DataVersion, Dependencies, Id, Name, and Publisher. This information can be useful when upgrading. For example, one of the more important properties is the `DataVersion` property, which tells you what version of data you are dealing with. These properties are encapsulated in a `ModuleInfo` data type. You can access these properties by through the `NAVApp.GetCurrentModuleInfo()` and `NAVAPP.GetModuleInfo()` methods.
+Each extension version has a set of properties that contain information about the extension, including: AppVersion, DataVersion, Dependencies, Id, Name, and Publisher. This information can be useful when installing. For example, one of the more important properties is the `DataVersion` property, which tells you what version of data you are dealing with. These properties are encapsulated in a `ModuleInfo` data type. You can access these properties by through the `NAVApp.GetCurrentModuleInfo()` and `NAVAPP.GetModuleInfo()` methods.
 
-### Upgrade codeunit example 
+### Install codeunit example
 This example uses the `OnCheckPreconditionsPerDatabase()` trigger to check whether the data version of the previous extension version is compatible for the upgrade.
 
 ```
-codeunit 70000001 MyUpgradeCodeunit
+codeunit 50100 MyInstallCodeunit
 {
-    Subtype=Upgrade;
-    
-    trigger OnCheckPreconditionsPerDatabase();
-    var 
-        myInfo : ModuleInfo;
+    Subtype=Install;
+
+    trigger OnInstallAppPerDatabase();
+    var
+        myAppInfo : ModuleInfo;
     begin
-        if NavApp.GetCurrentModuleInfo(myInfo) then
-            if myInfo.DataVersion = Version.Create(1, 0, 0, 1) then
-                ERROR('The upgrade is not compatible'); 
+        NavApp.GetCurrentModuleInfo(myAppInfo); // Get info about the currently executing module
+
+        if myAppInfo.DataVersion = Version.Create(0,0,0,0) then // A 'DataVersion' of 0.0.0.0 indicates a 'fresh/new' install
+            HandleFreshInstall
+        else
+            HandleReinstall; // If not a fresh install, then we are Re-installing the same version of the extension
     end;
+
+    local procedure HandleFreshInstall();
+    begin
+        // Do work needed the first time this extension is ever installed for this tenant.
+        // Some possible usages:
+        // - Service callback/telemetry indicating that extension was install
+        // - Initial data setup for use
+    end;
+
+    local procedure HandleReinstall();
+    begin
+        // Do work needed when reinstalling the same version of this extension back on this tenant.
+        // Some possible usages:
+        // - Service callback/telemetry indicating that extension was reinstalled
+        // - Data 'patchup' work, for example, detecting if new 'base' records have been changed while you have been working 'offline'.
+        // - Setup 'welcome back' messaging for next user access.
+    end;
+}
+
 ```
-
-## Running the upgrade for the new extension version
-To upgrade to the new extension version, you use the Sync-NAVApp and Start-NAVAppDataUpgrade cmdlets of the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)] to synchronize table schema changes in the extension with the SQL database and run the data upgrade code.
-
-1.  Publish the new extension version. For simplicity, this example assumes the extension is not signed, which is not allowed with [!INCLUDE[d365fin_md](includes/d365fin_md.md)] and is not recommended with an on-premise production environment.
-
-    ```
-    Publish-NAVApp -ServerInstance DynamicsNAV -Path .\ProswareStuff_1.7.1.0.app -SkipVerification
-    ```
-    This validates the extension syntax against server instance, and stages it for synchronizing.
-
-3.  Synchronize the new extension version with the database.
-
-    ```
-    Sync-NAVApp -ServerInstance DynamicsNAV -Name ProswareStuff -Version 1.7.1.0
-    ```
-    This synchronizes the database with any table schema changes in the extension; it adds the tables from the extension to the tenant.
-
-4.  Run a data upgrade.
-
-    ```
-    Start-NAVAppDataUpgrade -ServerInstance DynamicsNAV -Name ProswareStuff -Version 1.7.1.0
-    ```
-    This runs the upgrade logic that is defined by the upgrade codeunits in the extension. This will uninstall the current extension version, and enable the new version instead.
 
 ## See Also  
 [Developing Extensions](devenv-dev-overview.md)  
-[Getting Started](devenv-get-started.md) 
+[Getting Started](devenv-get-started.md)
 [How to: Publish and Install an Extension](devenv-how-publish-and-install-an-extension-v2.md)  
 [Converting Extensions V1 to Extensions V2](devenv-upgrade-v1-to-v2-overview.md)  
+[Sample Extension](devenv-extension-example.md)  
