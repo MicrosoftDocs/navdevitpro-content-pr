@@ -11,15 +11,17 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ---
 # Sample Extension Using Extension Objects
-The extension in this example add new objects and extension objects to extend base application with a rewards feature for customers. The sample is includes install and upgrade code in install and upgrade codeunits.
+This sample extension adds new objects and extension objects to the base application for a simple rewards feature for customers. The sample includes install and upgrade code.
+
+To get started, create an AL project in Visual Code. Create objects that use the sample code from the sections that follow, and build the extension package. Then, you can publish and install the extension on your tenants.  
 
 ## Rewards extension overview
-The extension enables the ability to assign one of three reward levels to customers: Gold, Silver, and Bronze. Customers can then receive discounts based on the reward level.
+The extension enables the ability to assign one of three reward levels to customers: Gold, Silver, and Bronze. Each reward level can be assigned a discount percentage.
 
-For the upgrade scenario, you will change the Bronze level to Aluminum. This requires that you modify the install code and the upgrade code.
+For the upgrade scenario, you will change the Bronze level to Aluminum. 
 
 ## Reward Table Object
-The following code adds a new table **50100 Reward** for storing the reward levels for customers. 
+The following code adds a new table **50100 Reward** for storing the reward levels for customers. The table consists of three fields: **Reward ID**, **Description**, and **Discount Percentage**.
 
 ```
 table 50100 Reward
@@ -120,7 +122,7 @@ page 50102 "Reward List"
 ```
 
 ## Customer Table Extension Object
-The following code extends the Customer table with the field `Reward ID`.
+The following code extends the Customer table with the `Reward ID` field.
 
 ```
 tableextension 50103 "Customer Ext" extends Customer
@@ -148,7 +150,7 @@ tableextension 50103 "Customer Ext" extends Customer
 
 ## Customer Card Page Extension Object
 
-The following code extends the Customer Card page display the `Reward ID` field. The code also adds an action to open the Rewards List page.
+The following code extends the Customer Card page display the `Reward ID` field. The code also adds an action to open the **Reward List** page.
 
 ```
 pageextension 50104 "Customer Card Ext" extends "Customer Card"
@@ -179,9 +181,8 @@ pageextension 50104 "Customer Card Ext" extends "Customer Card"
 }
 ```
 
-
 ## Install Code
-To perform operations on the database to support the installation of an extension, you add code to an install codeunit. In this example, the following install codeunit initializes Customer records with the reward levels. The install codeunit will run when the extension is first installed and when the same version is re-installed. For more information about install code, see [Writing Extension Install Code](devenv-extension-install-code.md).
+To perform operations on the database to support the installation of an extension, you add code to an install codeunit. In this example, the following install codeunit initializes Customer records with the reward levels. The install codeunit will run when the extension is installed for the first time and when the same version is re-installed. For more information about install code, see [Writing Extension Install Code](devenv-extension-install-code.md).
 
 ```
 codeunit 50105 RewardsInstallCode
@@ -218,10 +219,15 @@ codeunit 50105 RewardsInstallCode
 
 }
 ```
+> [!TIP]
+> Use the shortcuts `tcodunit` and `ttrigger` to create the basic structure for the codeunit and trigger.
 
 ## Upgrade Code
-When you upgrade an extension to a newer version, if any modifications to the existing data are required to support the upgrade, you must be write upgrade code in an upgrade codeunit. In this example, the following upgrade codeunit contains code that changes the Bronze reward level on customer records to Aluminum. The upgrade codeunit will run when you run the Upgrade-NAVApp cmdlet. For more information about writing upgrade code, see [Upgrading Extension](devenv-upgrading-extensions.md).
- 
+When you upgrade an extension to a newer version, if any modifications to the existing data are required to support the upgrade, you must write upgrade code in an upgrade codeunit. In this example, the following upgrade codeunit contains code that changes the **Bronze** reward level on customer records to **Aluminum**. The upgrade codeunit will run when you run the Upgrade-NAVApp cmdlet. For more information about writing and running upgrade code, see [Upgrading Extension](devenv-upgrading-extensions.md).
+
+> [!IMPORTANT]
+> Remember to increase the `version` number of the extension in the app.json file. 
+
 ```
 codeunit 50106 RewardsUpgradeCode
 {

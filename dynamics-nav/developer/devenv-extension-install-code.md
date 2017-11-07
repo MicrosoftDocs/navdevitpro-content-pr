@@ -11,25 +11,22 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ---
 # Writing Extension Install Code
-Depending on the extension, there might certain operations outside of the extension code itself that you want performed when an extension is installed. These operations could include, for example, populating empty records with data, service callbacks and telemetry, version checks, and messages to users. To perform these types of operations, you write extension install code. Extension install code is run when:
+There might certain operations outside of the extension code itself that you want performed when an extension is installed. These operations could include, for example, populating empty records with data, service callbacks and telemetry, version checks, and messages to users. To perform these types of operations, you write extension install code. Extension install code is run when:
 
--   An extension is installed for the very first time
--   A previously uninstalled version of an extension is installed again.
+-   An extension is installed for the very first time.
+-   An uninstalled version is installed again.
 
 This enables you to write different code for initial installation and reinstallation.
 
-> [!Note]
-> Installing a new version of an extension is considered to be upgrade, and requires separate code. For information about upgrading and writing extension upgrade code, see [Upgrading Extensions](devenv-upgrading-extensions.md).
-
 ## How to write install code
-You write install logic in an *install* codeunit. This is a codeunit that has the [SubType property](properties/devenv-subtype-property-codeunit.md) is set to **Install**. An install codeunit supports two system triggers on which you can add install code. The triggers are invoked when you install
+You write install logic in an *install* codeunit. This is a codeunit that has the [SubType property](properties/devenv-subtype-property-codeunit.md) is set to **Install**. An install codeunit supports two system triggers on which you can add the install code.
 
-|Trigger |Description | Install fails on error |
-|--------|------------|----------------------------|
-|OnInstallAppPerCompany()|Includes code for company-related operations Runs once for each company in the database, where each trigger is executed within its own system session for the company.|Yes|
-|OnInstallAppPerDatabase()|Includes code for database-related operations. Runs once in the entire install process, in a single system session that does not open any company.|Yes|
+|Trigger |Description |
+|--------|------------|
+|OnInstallAppPerCompany()|Includes code for company-related operations. Runs once for each company in the database, where each trigger is executed within its own system session for the company.|
+|OnInstallAppPerDatabase()|Includes code for database-related operations. Runs once in the entire install process.|
 
-The install codeunit becomes an integral part of the extension version. You can have more than one upgrade codeunit. However, be aware that although there is a set order to the sequence of the upgrade triggers, there is no guarantee on the order of execution of the different codeunits. If you do use multiple upgrade units, make sure that they can run independent of each other.
+The install codeunit becomes an integral part of the extension version. You can have more than one install codeunit. However, be aware that although there is a set order to the sequence of the  triggers, there is no guarantee on the order of execution of the different codeunits. If you do use multiple upgrade units, make sure that they can run independent of each other.
 
 ### Install codeunit syntax
 The following code illustrates the basic syntax and structure of an install codeunit:
