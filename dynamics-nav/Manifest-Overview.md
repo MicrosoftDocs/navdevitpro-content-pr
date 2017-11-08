@@ -69,7 +69,9 @@ For a control add-in to work on all display targets there has to be a manifest. 
     <HorizontalStretch>true</HorizontalStretch>  
 
     <VerticalShrink>true</VerticalShrink>  
-    <HorizontalShrink>true</HorizontalShrink>    
+    <HorizontalShrink>true</HorizontalShrink> 
+
+    <AllowCaption>false</AllowCaption>
 </Manifest>  
 
 ```  
@@ -204,6 +206,15 @@ int RequestedHeight()
 ```  
 int RequestedWidth()  
 ```  
+
+### AllowCaptions Property
+The `<AllowCaptions>` tag specifies whether to display the caption that is specified by the [CaptionML Property](CaptionML-Property.md) of the page field controls that use the control add-in. 
+
+`true` to display the caption; `false` to not display the caption, which case the control add-in will use available space. 
+
+>[!NOTE]
+>The caption will only display if the [ShowCaption property](ShowCaption-Property.md) of the field control is set to `Yes` (`true`).
+
 
 ### Resource Files  
  The resource files can be described in the manifest file with or without a relative path; [!INCLUDE[navnow](includes/navnow_md.md)] supports both.  
