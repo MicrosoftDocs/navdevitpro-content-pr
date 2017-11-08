@@ -1,7 +1,8 @@
 ---
-title: "How to: Add a Global Variable to a Codeunit"
+title: Add Global Variable to Codeunit
+decription: This article describes how to add a global variable to a codeunit. Start by selecting the C/AL Editor and then choose the C/AL Globals. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/02/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 77c8278e-3355-4a09-9de3-192911618010
 caps.latest.revision: 11
 ---
-# How to: Add a Global Variable to a Codeunit
+# How to Add a Global Variable to a Codeunit in Dynamics NAV
 To add a global variable to a codeunit, use the following procedure.  
   
 ### To add a global variable  
