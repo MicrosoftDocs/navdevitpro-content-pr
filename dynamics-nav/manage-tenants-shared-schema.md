@@ -75,6 +75,7 @@ the Dynamics NAV Server instance name, tenant database ID, and tenant ID as a mi
 
 Creating New Tenants
 
+
 Buffer Tenants
 
 Versioning
