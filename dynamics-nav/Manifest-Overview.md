@@ -215,7 +215,6 @@ The `<AllowCaptions>` tag specifies whether to display the caption that is speci
 >[!NOTE]
 >The caption will only display if the [ShowCaption property](ShowCaption-Property.md) of the field control is set to `Yes` (`true`).
 
-
 ### Resource Files  
  The resource files can be described in the manifest file with or without a relative path; [!INCLUDE[navnow](includes/navnow_md.md)] supports both.  
 
