@@ -1,7 +1,8 @@
 ---
-title: "How to: Add a Microsoft Dynamics NAV Database"
+title: Add Dynamics NAV Database
+description: Add a new Dynamics NAV databse instance to SQL Server from a database backup file .bak by using the New-NAVDatabase cmdlet of the Administration Shell.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 65605d7a-a133-4dca-8bed-b58bfe857b59
 caps.latest.revision: 10
 ---
-# How to: Add a Microsoft Dynamics NAV Database
+# How to Add a Microsoft Dynamics NAV Database
 This topic describes how add a new [!INCLUDE[navnow](includes/navnow_md.md)] database instance to SQL Server from a database backup file \(.bak\). To add a [!INCLUDE[navnow](includes/navnow_md.md)] database, you use the New-NAVDatabase cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
 
 > [!TIP]  

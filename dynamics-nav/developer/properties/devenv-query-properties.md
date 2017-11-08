@@ -1,7 +1,7 @@
 ---
 title: "Query Properties"
 ms.custom: na
-ms.date: 08/02/2017
+ms.date: 11/06/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -31,6 +31,8 @@ This topic lists properties that apply to the query object.
 |[Permissions Property](devenv-permissions-property.md)|X|
 |[TopNumberOfRows Property](devenv-topnumberofrows-property.md)|X|
 |[ReadState Property](devenv-readstate-property.md)|X|
+|[EntityName Property](devenv-entityname-property.md)|X|
+|[EntitySetName Property](devenv-entitysetname-property.md)|X|
 
 ## Query Data Item Properties  
  The following properties apply to the **DataItem** control of a query.  

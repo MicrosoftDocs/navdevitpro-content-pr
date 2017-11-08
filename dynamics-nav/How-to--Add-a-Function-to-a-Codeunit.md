@@ -1,7 +1,8 @@
 ---
-title: "How to: Add a Function to a Codeunit"
+title: Add Function to Codeunit
+description: To add a function to a codeunit in Microsoft Dynamics NAV, access the C/AL Editor, and follow the step by step procedure as described in this article.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/02/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: ca45e3a6-48a9-43b2-a6bd-81cf09298c8b
 caps.latest.revision: 11
 manager: edupont
 ---
-# How to: Add a Function to a Codeunit
+# How to Add a Function to a Codeunit in Dynamics NAV
 To add a function to a codeunit, use the following procedure.  
   
 ### To add a function  
