@@ -1,4 +1,20 @@
-## User Scenario Documentation ##
+---
+title: "User Scenario Documentation"
+description: "Describing the steps you must go through to successfully submit your app to AppSource."
+author: SusanneWindfeldPedersen
+ms.custom: na
+ms.date: 11/09/2017
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.prod: "dynamics-nav-2017"
+ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
+ms.author: rweigel
+caps.latest.revision: 18
+---
+
+# User Scenario Documentation
 
 One of the keys to a successful extension validation is a document that guides the user through the setup and usage of the extension. We want to ensure that we are validating the functionality in the correct manner. Following are some key points to keep in mind when writing the user scenario document.
 
