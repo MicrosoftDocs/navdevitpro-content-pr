@@ -74,7 +74,7 @@ To convert the old database to a [!INCLUDE[nav2018_md](includes/nav2018_md.md)] 
 
     For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
 
-8.  Stop the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
+8.  Stop the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, and close the [nav_dev_short](includes/nav_dev_short_md.md)].
 
     You can use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or [Set-NAVServerInstance](https://go.microsoft.com/fwlink/?linkid=401395) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].
 

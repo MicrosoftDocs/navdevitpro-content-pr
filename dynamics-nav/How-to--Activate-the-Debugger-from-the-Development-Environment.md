@@ -1,7 +1,8 @@
----
-title: "How to: Activate the Debugger from the Development Environment"
+--- 
+title: Activate Debugger from Development Environment
+description: This article explains how to activate the debugger from the development environment and attach it to a session in Microsoft Dynamics NAV.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/02/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 2e73a3c1-af01-4b5c-b96d-c1e7e3985f73
 caps.latest.revision: 11
 manager: edupont
 ---
-# How to: Activate the Debugger from the Development Environment
+# Activate Debugger from Development Environment in Dynamics NAV
 You can activate the debugger from the development environment. After you activate the debugger and attach it to a session, program flow in that session continues normally until a breakpoint is hit. For more information, see [Breakpoints](Breakpoints.md).  
 
 ### To activate the debugger from the development environment  
