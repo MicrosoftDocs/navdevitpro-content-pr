@@ -1,4 +1,20 @@
-## Replacing OnBeforeCompanyOpen and OnAfterCompanyOpen ##
+---
+title: "Replacing OnBeforeCompanyOpen and OnAfterCompanyOpen"
+description: "Describing the steps you must go through to successfully submit your app to AppSource."
+author: SusanneWindfeldPedersen
+ms.custom: na
+ms.date: 11/09/2017
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.prod: "dynamics-nav-2017"
+ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
+ms.author: rweigel
+caps.latest.revision: 18
+---
+
+# Replacing OnBeforeCompanyOpen and OnAfterCompanyOpen
 
 To improve the login time for a Dynamics 365 for Financials, extensions should no longer use the **OnBeforeCompanyOpen** and **OnAfterCompanyOpen** events. Following are some recommended patterns to use in place of these events.
 
