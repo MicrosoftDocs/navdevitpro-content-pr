@@ -16,7 +16,7 @@ This section contains the following topics:
 
 -   [Array Functions](Array-Functions.md)  
 
--   [Error Handling](Error-Handling.md)  
+<!-- -   [Error Handling](Error-Handling.md)  -->
 
 -   [Language Functions](Language-Functions.md)  
 

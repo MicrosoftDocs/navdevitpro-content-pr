@@ -1,7 +1,8 @@
 ---
-title: "GUID Data Type"
+title: GUID Data Type
+description: The GUID data type assigns a unique identifying number to any database object which is used for identification of objects, programs, records etc.
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 10/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

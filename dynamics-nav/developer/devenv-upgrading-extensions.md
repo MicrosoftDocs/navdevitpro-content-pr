@@ -34,11 +34,10 @@ The following tables describes the upgrade triggers and lists them in the order 
 |OnCheckPreconditionsPerCompany() and OnCheckPreconditionsPerDatabase()| Used to check that certain requirements are met in order to run the upgrade.|Yes|
 |OnUpgradePerCompany() and OnUpgradePerDatabase()|Used to perform the actual upgrade.|Yes|
 |OnValidateUpgradePerCompany() and OnValidateUpgradePerDatabase()|Used to check that the upgrade was successful.|Yes|
-|OnAfterUpgradeCommitPerCompany() and OnAfterUpgradeCommitPerDatabase()|Used to perform post-upgrade tasks after transactions in the previous triggers are committed.|No|
 
 `PerCompany` triggers are run once for each company in the database, where each trigger is executed within its own system session for the company.
 
-`PerDatabase` triggers are run executed once in the entire upgrade process, in a single system session that does not open any company.
+`PerDatabase` triggers are run once in the entire upgrade process, in a single system session that does not open any company.
 
 > [!Note]
 > These triggers are also available in upgrade codeunits for the base application, not just for extensions.
@@ -64,11 +63,6 @@ codeunit [ID] [NAME]
 	trigger OnValidateUpgradePerCompany()
 	begin
 		// Code to make sure that upgrade was successful for each company
-	end;
-
-	procedure OnAfterUpgradeCommitPerCompany()
-	begin
-		// Code that performs company related 'post-commit' tasks
 	end;
 }
 ```
@@ -125,3 +119,4 @@ To upgrade to the new extension version, you use the Sync-NAVApp and Start-NAVAp
 [Getting Started](devenv-get-started.md)
 [How to: Publish and Install an Extension](devenv-how-publish-and-install-an-extension-v2.md)  
 [Converting Extensions V1 to Extensions V2](devenv-upgrade-v1-to-v2-overview.md)  
+[Sample Extension](devenv-extension-example.md)  

@@ -1,7 +1,8 @@
 ---
-title: "How to: Add a Microsoft Dynamics NAV Web Server Instance"
+title: Add Web Server Instance
+description: This topic describes how to use the Dynamics NAV Administration Shell to add a Dynamics NAV web server instance on a computer or a virtual machine.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: dc7646f1-c449-4281-af5d-8bb95ff33b08
 caps.latest.revision: 10
 ---
-# How to: Add a Microsoft Dynamics NAV Web Server Instance
+# How to Add a Microsoft Dynamics NAV Web Server Instance
 This topic describes how to use the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell to add a [!INCLUDE[navnow](includes/navnow_md.md)] web server instance on a computer or virtual machine. The [!INCLUDE[nav_shell](includes/nav_shell_md.md)] includes the New-NAVWebServerInstance cmdlet that creates an application on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 
 ### To add a [!INCLUDE[navnow](includes/navnow_md.md)] web server instance  
