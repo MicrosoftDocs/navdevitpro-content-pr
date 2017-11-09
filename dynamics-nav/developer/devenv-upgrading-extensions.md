@@ -34,7 +34,6 @@ The following tables describes the upgrade triggers and lists them in the order 
 |OnCheckPreconditionsPerCompany() and OnCheckPreconditionsPerDatabase()| Used to check that certain requirements are met in order to run the upgrade.|Yes|
 |OnUpgradePerCompany() and OnUpgradePerDatabase()|Used to perform the actual upgrade.|Yes|
 |OnValidateUpgradePerCompany() and OnValidateUpgradePerDatabase()|Used to check that the upgrade was successful.|Yes|
-|OnAfterUpgradeCommitPerCompany() and OnAfterUpgradeCommitPerDatabase()|Used to perform post-upgrade tasks after transactions in the previous triggers are committed.|No|
 
 `PerCompany` triggers are run once for each company in the database, where each trigger is executed within its own system session for the company.
 
@@ -64,11 +63,6 @@ codeunit [ID] [NAME]
 	trigger OnValidateUpgradePerCompany()
 	begin
 		// Code to make sure that upgrade was successful for each company
-	end;
-
-	procedure OnAfterUpgradeCommitPerCompany()
-	begin
-		// Code that performs company related 'post-commit' tasks
 	end;
 }
 ```

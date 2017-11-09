@@ -21,6 +21,9 @@ author: SusanneWindfeldPedersen
 > [!NOTE] 
 > The support for using the ML properties, such as **CaptionML** and **TooltipML**, is being deprecated, so it is recommended to refactor your extension to use the corresponding property, such as **Caption** or **Tooltip**, which is being picked up in the .xlf file.
 
+> [!IMPORTANT]
+> You can use the new translation files approach only for objects from your extension. For translating the base application you still need to use the .TXT files approach.
+
 ## Generating the XLIFF file
 To enable generation of the translation file, you must add a setting in the manifest. In the app.json file of your extension, add the following line:
 
