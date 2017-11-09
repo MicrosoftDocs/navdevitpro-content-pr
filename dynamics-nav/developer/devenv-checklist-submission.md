@@ -35,7 +35,7 @@ The following is a checklist of all requirements that you **must meet before sub
 |Include the proper upgrade code allowing your app to successfully upgrade from version to version.|[Upgrading Extensions](devenv-upgrading-extensions.md)|
 |Pages and code units that are designed to be exposed as Web services must not generate any UI that would cause an exception in the calling code.|[Web Services Usage](../compliance/apptest-webservices.md)|
 |You must include all translations of countries your extension is supporting.|[Translating Your Extension](devenv-work-with-translation-files.md)|
-|You are required to prefix or suffix the **Name** property of you fields. This elliminates collision between apps.|[Prefix/Suffix Guidelines](../compliance/apptest-prefix-suffix.md)|
+|You are required to prefix or suffix the **Name** property of your fields. This eliminates collision between apps.|[Prefix/Suffix Guidelines](../compliance/apptest-prefix-suffix.md)|
 
 ## See Also
 [Developing AL Language Extensions](devenv-dev-overview.md)  
