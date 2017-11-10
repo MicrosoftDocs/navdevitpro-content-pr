@@ -30,3 +30,5 @@ Microsoft Dynamics 365 for Financials exposes an API that makes it possible to i
     > This will start a process of populating all the integration tables with records for all APIs. The process can take several minutes.
 
 ## See Also
+[Configuring Microsoft Dynamics NAV Server](configuring-microsoft-dynamics-nav-server.md)  
+[Microsoft Dynamics NAV Web Services Overview](microsoft-dynamics-nav-web-services-overview.md)  
