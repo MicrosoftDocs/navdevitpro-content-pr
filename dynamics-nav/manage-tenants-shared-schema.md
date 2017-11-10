@@ -42,7 +42,7 @@ All active user sessions that access the tenant will end.|
 
 ## Getting started
 
-This section outlines the basic steps for getting a tenant database and tenant running with a Dynamics NAV application. The steps assume that the application database and tenant database already exist. The tenant database either be an empty database or a valid Dynamics NAV 2018 database. 
+This section outlines the basic steps for getting a tenant database and tenant running with a [!INCLUDE[navnow](includes/navnow_md.md)] application. The steps assume that the application database and tenant database already exist. The tenant database can either be an empty database or a valid Dynamics NAV 2018 database. 
 
 1. Mount the application database to the server instance.
 
@@ -52,27 +52,59 @@ This section outlines the basic steps for getting a tenant database and tenant r
 
     Use the Mount-NavTenantDatabase cmdlet to mount a tenant database on the same server instance as the application database.
 
+    ```
+    Mount-NAVTenantDatabase -ServerInstance '[nav_server_instance_name]' -Id '[tenant_database_id]' -DatabaseName '[existing_database_name]' -DatabaseServer '[server_name]\[database_instance]'
+    ```
+
+    Substitute `[tenant_database_id]` with the ID that you want to assign the tenant database. You will use this ID for subsequent operations on the database, like when syncing or dismounting it, mounting a tenant, and more. 
+
+    
     When a database is mounted for the first time on a Dynamics NAV Server instance, the server instance can process requests for data on the tenant database, however, the tenant database is not in the **Operational** state because it has not been synchronized with the application database on the server instance. This means that you cannot yet mount any tenants on the tenant database. 
 
 3. Synchronize the tenant database with the application database.
 
-    Use the Sync-NAVTenantDatabase cmdlet to synchronize the database schema in a tenant database with the schema in the application database. If successful, this will change the tenant database state to **Operational**, and allow you to tart mounting tenants. 
+    Use the Sync-NAVTenantDatabase cmdlet to synchronize the database schema in a tenant database with the schema in the application database.
+
+    ```
+    Sync-NAVTenantDatabase -ServerInstance '[nav_server_instance_name]' -Id '[tenant_database_id]'
+    ```
     
-    When synchronized successfully, the application version of the application database on the server instance is then registered for support in tenant database.
+    When synchronized successfully, the application version of the application database on the server instance is then registered for support in tenant database. The tenant database state changes to **Operational**, and you can start mounting tenants. 
 
-4.  Add the existing tenant to the tenant database and mount it on the Server Instance.
+4.  Add a tenant to the tenant database, and mount it on the Server Instance.
 
-    You use the Mount-NAVTenant cmdlet to  a tenant to a Dynamics NAV Server instance that is configured for
-multitenancy.
- The parameter sets depend on whether the database is using the shared schema data model.
+    Use the Mount-NAVTenant cmdlet to add a tenant to the tenant database and mount it to the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] server instance.
 
- If using the shared schema data model, a database (the tenant database) can contain one or more tenants. The
-tenant database can be mounted on one or more Dynamics NAV Server instances. In this case, the Mount-Tenant cmdlet
-takes a specific tenant from the tenant database, and mounts it on a specific server instance to which the tenant
-database is mounted. The tenant database must already be mounted on the server instance, and the tenant must exist
-in the database. You can create a tenant by using the New-NAVTenant cmdlet. To mount a tenant, you must specify
-the Dynamics NAV Server instance name, tenant database ID, and tenant ID as a minimum. 
+    ```
+    Mount-NAVTenant -ServerInstance DynamicsNAV -Tenant 'Tenant1-1' -TenantDatabaseID 'TenantSharedDatabase1'
+    ``` 
 
+    If you do not have a tenant, you can use the New-NAVTenant. hether the database is using the shared schema data model.
+
+
+## Mounting Tenant Databases
+To mount a tenant database on the, you use the Mount-NavTenantDatabase cmdlet 
+specified Dynamics NAV Server instance. The database must already exist,
+it can be either an empty database or a valid [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database.
+
+When a database is mounted for the first time on a Dynamics NAV Server
+instance, the server instance can process requests for data on the tenant
+database, however, the tenant database is not in the Operational state
+because it has not been synchronized with the application database on the
+server instance. This means that you cannot yet create or mount tenants on
+the tenant database. To synchronize the tenant database and make it
+operational, use the Sync-NAVTenantDatabase cmdlet. When synchronized
+successfully, the application version of the application database on the
+server instance is then registered for support in tenant database.
+
+A tenant database can be mounted on and synchronized with more than one
+server instance. The application database version of each server instance
+is registered for support in the tenant database. This enables you to have
+tenants in the tenant database that are using different application
+versions. This is useful, for example, when upgrading tenants to a newer
+application. An existing tenant can be upgraded to a newer application
+version by mounting it on the server instance that uses the newer
+application version, and then running a data upgrade.
 Creating New Tenants
 
 
