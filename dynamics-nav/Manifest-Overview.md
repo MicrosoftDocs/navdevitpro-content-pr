@@ -85,7 +85,7 @@ For a control add-in to work on all display targets there has to be a manifest. 
 ### Manifest elements overview
 |  Element   |  Description  |
 |--------|---------------|
-|`<Resources>`|Contains all of the resources such as the script, style sheet, and images that are required to display the Bing Maps control add-in. Each resource is included in child elements, such as `<script>`, `<stylesheete>`, and `<image>`. |
+|`<Resources>`|Contains all of the resources such as the script, style sheet, and images that are required to display the Bing Maps control add-in. Each resource is included in a child element, such as `<script>`, `<stylesheet>`, and `<image>`. |
 |`<ScriptUrls>`| Includes references to other JavaScripts from the manifest. In this case the `<ScriptUrls>` element points to online map controls.|
 | `<StyleSheetUrls>`| Contains references to style sheets from external web sites.|
 |`<Script>`|Contains the actual initialization code for the control add-in. The code must be written inside a `<![CDATA[]]>` element to be parsed as code. The `Microsoft.Dynamics.NAV.InvokeExtensibilityMethod` is described in more detail in the reference documentation. For more information, see [InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md).  |
