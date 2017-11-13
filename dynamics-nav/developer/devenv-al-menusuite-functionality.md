@@ -20,7 +20,7 @@ caps.latest.revision: 18
 
 MenuSuite in AL provides a navigation support for search in the client functionality. This is a simple setting that enables a page or report to be available through search in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. 
 
-You can enable the search when you create a [Page](devenv-page-object.md) or [Report](devenv-report-object.md) by adding a new property called **UsageCategory**. If the **UsageCategory** is set to None, or if you do not specify the **UsageCategory**, the page or report will not participate in search. If **UsageCategory** property is not None, you can specify an [AccessByPermission Property](properties/devenv-accessbypermission-property.md)  and [ApplicationArea Method](methods/devenv-applicationarea-method.md).
+You can enable the search when you create a [Page](devenv-page-object.md) or [Report](devenv-report-object.md) by adding a new property called **UsageCategory**. If the **UsageCategory** is set to None, or if you do not specify the **UsageCategory**, the page or report will not participate in search. If **UsageCategory** property is not None, you can specify an [AccessByPermission Property](properties/devenv-accessbypermission-property.md)  and [ApplicationArea Property](properties/devenv-applicationarea-property.md).
 
 
 ## MenuSuite Example
