@@ -3,7 +3,7 @@ title: "Control Addin Object"
 description: "Description of the control addin object type."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 10/2/2017
+ms.date: 10/02/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -20,7 +20,7 @@ caps.latest.revision: 18
 The control add-in object allows you to add custom functionality to [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. A control add-in is a custom control, or visual element, for displaying and modifying data on [!INCLUDE[d365fin_md](includes/d365fin_md.md)] pages. Control add-ins can exchange data with the [!INCLUDE[d365fin_md](includes/d365fin_md.md)] server on various data types and can respond to user interaction to raise events that execute additional AL code.
 
 ## Control add-in properties
-In the control add-in definition, you must set the `Scripts` property to include scripts in the control add-in. The scripts could be local files in the package or references to external files using the HTTP or the HTTPS protocol. With the `StartupScript` property, you can call a special script that runs when the page you have implemented the control add-in on, is loaded. These settings initialize the control add-in. 
+In the control add-in definition, you must set the `Scripts` property to include scripts in the control add-in. The scripts could be local files in the package or references to external files using the HTTP or the HTTPS protocol. With the `StartupScript` property, you can call a special script that runs when the page you have implemented the control add-in on, is loaded. These settings initialize the control add-in.
 
 With the `Images` and `StyleSheet` properties, you can specify additional styling to the control add-in. The layout properties are set to define the size of the control add-in. It is recommended to apply some size to the add-in using these properties. The properties `VerticalStretch` and `HorizontalStretch` determine how the control add-in behaves in the client when the window it is displayed in is resized. The default value is false which means that the control add-in is not resized vertically, or horizontally. The value `true` means that the control add-in is resized vertically, or horizontally. The values set by the `RequestedHeight` and `RequestedWidth` properties determine the minimum resize value of the control add-in. Read more about the sizing of control add-ins in the next section.
 
@@ -44,55 +44,55 @@ To control that the sizing of the control add-in is always optimal, even on smal
 The following control add-in example syntax defines a chart that can show how customers are represented per country on a map. The control add-in is implemented as a `usercontrol` on a page called **CustomersMapPage**.
 
 ```
-// The controladdin type declares the new add-in. 
+// The controladdin type declares the new add-in.
 
-controladdin CustomersPerCountryChart 
-{ 
-    // The Scripts property can reference both external and local scripts. 
-    Scripts = 'https://code.jquery.com/jquery-2.1.0.min.js', 
-              'js/main.js'; 
-    
-    // The StartupScript is a special script that the webclient calls once the page is loaded. 
-    StartupScript = 'js/chart.js'; 
-    
-    // Images and StyleSheets can be referenced in a similar fashion. 
+controladdin CustomersPerCountryChart
+{
+    // The Scripts property can reference both external and local scripts.
+    Scripts = 'https://code.jquery.com/jquery-2.1.0.min.js',
+              'js/main.js';
 
-    // The layout properties define how control add-in are displayed on the page. 
-    VerticalShrink = true; 
-    
-    // The procedure declarations specify what JavaScript methods could be called from AL. 
-    // In JavaScript code, there should be a global function LoadData(data) {} 
-    procedure LoadData(Data : JsonArray); 
-    
-    // The event declarations specify what callbacks could be raised from JavaScript by using the webclient API: 
-    // Microsoft.Dynamics.NAV.InvokeExtensibilityMethod('CountryClicked', [{country: 'M}]) 
-    event CountryClicked(Country: JsonObject); 
+    // The StartupScript is a special script that the webclient calls once the page is loaded.
+    StartupScript = 'js/chart.js';
+
+    // Images and StyleSheets can be referenced in a similar fashion.
+
+    // The layout properties define how control add-in are displayed on the page.
+    VerticalShrink = true;
+
+    // The procedure declarations specify what JavaScript methods could be called from AL.
+    // In JavaScript code, there should be a global function LoadData(data) {}
+    procedure LoadData(Data : JsonArray);
+
+    // The event declarations specify what callbacks could be raised from JavaScript by using the webclient API:
+    // Microsoft.Dynamics.NAV.InvokeExtensibilityMethod('CountryClicked', [{country: 'M}])
+    event CountryClicked(Country: JsonObject);
 }
 
-page 50100 CustomersMapPage 
-{ 
-    layout 
-    { 
-        area(Content) 
-        { 
-            // The control add-in can be placed on the page using usercontrol keyword. 
+page 50100 CustomersMapPage
+{
+    layout
+    {
+        area(Content)
+        {
+            // The control add-in can be placed on the page using usercontrol keyword.
 
-            usercontrol(ControlName; CustomersPerCountryChart) 
+            usercontrol(ControlName; CustomersPerCountryChart)
             {
-                // The control add-in events can be handled by defining a trigger with a corresponding name. 
+                // The control add-in events can be handled by defining a trigger with a corresponding name.
 
-                trigger CountryClicked(Country : JsonObject) 
-                var Data : JsonArray; 
-                begin 
-                    
-                    // The control add-in methods can be invoked via a reference to the usercontrol. 
-                    
-                    CurrPage.ControlName.LoadData(Data); 
+                trigger CountryClicked(Country : JsonObject)
+                var Data : JsonArray;
+                begin
+
+                    // The control add-in methods can be invoked via a reference to the usercontrol.
+
+                    CurrPage.ControlName.LoadData(Data);
                 end;                  
-            } 
+            }
         }
     }
-} 
+}
 
 ```
 
