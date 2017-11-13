@@ -276,7 +276,7 @@
 ### [VariableName Properties](VariableName-Properties.md)
 ### [Key Properties](Key-Properties.md)
 ## [Development Environment Commands](Development-Environment-Commands.md)
-# [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)
+# [Upgrading to Microsoft Dynamics NAV 2018](Upgrading-to-Microsoft-Dynamics-NAV.md)
 ## [Upgrade Considerations](Upgrade-Considerations.md)
 ## [Converting a Database](Converting-a-Database.md)
 ## [Upgrading the Application Code](Upgrading-the-Application-Code.md)
