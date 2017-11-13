@@ -29,6 +29,28 @@ Microsoft Dynamics 365 for Financials exposes an API that makes it possible to i
     > [!NOTE] 
     > This will start a process of populating all the integration tables with records for all APIs. The process can take several minutes.
 
+## Endpoint
+Once you have the API access enabled, you can write code that accesses the 
+
+||Dynamics 365 for Financials and Operations,|Business Edition (Online)||Microsoft Dynamics NAV 2018 (on-prem)|
+|--|--|--|--|--|
+|Means of Connection|Microsoft Graph|Common endpoint service|Direct tenant|Direct installation|
+|Usage|Production|Production|Rapid development and testing only|Production|
+|Endpoint|`https://graph.microsoft.com/financials/beta/`| `https://api.financials.dynamics.com`|`https://<tenant url>:7948/MS/api/<API version>/` Example: `https://contoso.com:7048/api/beta`|OData base URL in installation `https://<base URL>:<port>/v1.0/api/<API version>/` Example: `https://nav.contoso.com:7048/v1.0/api/beta/` Must be exposed through a firewall.|
+|Availability|Always enabled|Always enabled|Always enabled|Disabled by default. Must be enabled by the administrator.|
+|Authentication|Azure Active Directory (AAD)|Azure Active Directory (AAD)|Basic authentication. Username and web service access key as password.|Basic authentication. Username and web service access key as password.|
+|API/Data access|Based on user's permissions|Based on user's permissions|Based on user's permissions|Based on user's permissions|
+|API update cycle|Monthly|Monthly|Monthly|Hotfixes installed by partner|
+|Development instance|Sign up for tenant at http://portal.microsoft.com|Sign up for tenant at http://portal.microsoft.com|Sign up for tenant at http://portal.microsoft.com|Get Docker instance|
+
+
+
+
+
+
+
+
+
 ## See Also
 [Configuring Microsoft Dynamics NAV Server](configuring-microsoft-dynamics-nav-server.md)  
 [Microsoft Dynamics NAV Web Services Overview](microsoft-dynamics-nav-web-services-overview.md)  
