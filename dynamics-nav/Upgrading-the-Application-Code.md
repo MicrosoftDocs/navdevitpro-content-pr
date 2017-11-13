@@ -58,7 +58,7 @@ To complete the tasks in this article, you will use various tools and components
 
 |    |  Tool/Component  |
 |----|------------------|
-| Old [!INCLUDE[navnow](includes/navnow_md.md)] version  |<ul><li>[!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]<br />or</li><li>[!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)]<br />This is not available in [!INCLUDE[nav7long](includes/nav7long_md.md)] and [!INCLUDE[navsicily](includes/navsicily_md.md)]</li></ul>|
+| Old [!INCLUDE[navnow](includes/navnow_md.md)] version  |<ul><li>[!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]<br />or</li><li>[!INCLUDE[navnow](includes/navnow_md.md)] Development Shell<br />This is not available in [!INCLUDE[nav7long](includes/nav7long_md.md)] and [!INCLUDE[navsicily](includes/navsicily_md.md)]</li></ul>|
 |[!INCLUDE[nav2018_md](includes/nav2018_md.md)] |<ul><li>[!INCLUDE[nav_server_md](includes/nav_server_md.md)]</li><li>[!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)]</li><li>[!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]</li>[!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]</li> </ul>|
 
 ## Task 2: Prepare the Application Object Text Files  
@@ -186,11 +186,13 @@ After you have completed the merge, you import the new merged application object
     Sync-NAVTenant -ServerInstance [server_instance_name] 
 
     ```
-    For more information about syncing, see [ow to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).
+    For more information about syncing, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).
 
 6.  Compile all the newly imported objects.
 
     You can use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe. For more information, see [Compiling Objects](compiling-objects.md).
+
+    If you use the the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], you will first have to set it to use the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to the database. For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md) or [Database Information](uiref/-$-S_2349-Database-Information-$-.md).  
 
     When you compile the objects, an error is thrown for each code conflict, and you can use the tools that are available in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to resolve the conflicts.
 

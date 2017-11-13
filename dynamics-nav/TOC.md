@@ -58,6 +58,7 @@
 ## [Wrting Extension Install Code](developer/devenv-extension-install-code.md)
 ## [Upgrading Extensions V2](developer/devenv-upgrading-extensions.md)
 ## [How to: Publish and Install an Extension V2](developer/devenv-how-publish-and-install-an-extension-v2.md)
+## [Checklist for Submiting Your App](developer/devenv-checklist-submission.md)
 ## [AL Programming Guide](developer/devenv-programming-in-al.md)
 ## [Events](developer/devenv-events-in-al.md)
 ## [Notifications](developer/devenv-notifications-developing.md)
