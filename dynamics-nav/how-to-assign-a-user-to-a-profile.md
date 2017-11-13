@@ -1,5 +1,6 @@
 ---
-title: "How to: Assign a User to a Profile"
+title: Assign a User to a Profile
+description: Use the User Personalization page to assign a user to a profile, and then fill in the User ID, Profile ID, Language ID and Company fields.
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 10/25/2016

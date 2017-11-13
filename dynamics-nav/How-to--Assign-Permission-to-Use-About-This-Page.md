@@ -1,7 +1,8 @@
 ---
-title: "How to: Assign Permission to Use About This Page"
+title: Assign Permission to Use About This Page
+description: Add permissions to run About This Report and view information for About This Page by adding the Zoom permission to permission set and assign users to it.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/09/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: b86e1854-7c08-42c3-b73e-f318478779a0
 caps.latest.revision: 13
 manager: edupont
 ---
-# How to: Assign Permission to Use About This Page
+# Assign Permission to Use About This Page in Dynamics NAV
 The supplemental permission sets that are provided for the [!INCLUDE[rtc](includes/rtc_md.md)] do not include permissions to run About This Report and do not include permissions to view all information for About This Page. To add permissions to run About This Report and to view all information for About This Page, you add the Zoom permission to a permission set and assign users to that permission set.  
   
 ## Adding the Zoom Permission  

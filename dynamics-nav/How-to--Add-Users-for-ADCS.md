@@ -1,7 +1,8 @@
 ---
-title: "How to: Add Users for ADCS"
+title: Add Users for ADCS
+description: Add user as an Automated Data Capture System ADCS user, and optionally provide a connection that identifies ADCS user as a warehouse employee.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -36,7 +37,7 @@ translation.priority.ht:
   - ru-ru
   - sv-se
 ---
-# How to: Add Users for ADCS
+# How to Add Users for ADCS in Dynamics NAV
 You can add any user as a user of an Automated Data Capture System \(ADCS\). When you do this, the user must also provide a password. Optionally, you can also provide a connection that identifies the ADCS user as a warehouse employee. The ADCS user password can be different from the Windows logon password of the user.  
 
 ### To add an ADCS user  
