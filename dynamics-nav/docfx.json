@@ -32,7 +32,7 @@
       "author": "jswymer", 
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "searchScope": ["DynamicsNAV"],
-      "titleSuffix": "Dynamics NAV"
+      "titleSuffix": "Dynamics NAV",
       "breadcrumb_path": "/dynamics-navtest/bread/toc.json"
     },
     "fileMetadata": {},
