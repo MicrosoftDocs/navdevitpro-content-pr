@@ -29,8 +29,7 @@ After you convert the database to schared schema, you have access the following 
 |----------|-----------------------------------------------------------------------|
 |[Mount-NAVtenant](Microsoft.Dynamics.NAV.Management/Mount-NAVtenant.md)|Mounts a tenant in the tenant database to the server instance that the tenant
 database is mounted.|
-|[Dismount-NAVtenant](Microsoft.Dynamics.NAV.Management/Dismount-NAVtenant.md)|Dismount a tenant in a tenant database from a server instance.
-All active user sessions that access the tenant will end.|
+|[Dismount-NAVtenant](Microsoft.Dynamics.NAV.Management/Dismount-NAVtenant.md)|Dismount a tenant in a tenant database from a server instance. All active user sessions that access the tenant will end.|
 |[New-NAVTenant](Microsoft.Dynamics.NAV.Management/New-NAVTenant.md)| Creates a new tenant in a tenant database. |
 |[Copy-NAVTenantData](Microsoft.Dynamics.NAV.Management/Copy-NAVTenantData.md)|Copies tenant data from one tenant to another tenant in the same tenant database. |
 |[Move-NAVTenant](Microsoft.Dynamics.NAV.Management/Move-NAVTenant.md)| Moves a tenant from a tenant database to another tenant database.|
