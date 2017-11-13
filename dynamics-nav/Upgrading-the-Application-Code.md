@@ -146,6 +146,9 @@ After you have completed the merge, you import the new merged application object
 
     For more information, see [How to: Create Databases](How-to--Create-Databases.md).
 
+    >[!IMPORTANT]  
+    >Make sure to synchronize the schema for all tables of the new database.
+
 2.  Make sure the database includes a valid [!INCLUDE[navnowlong](includes/navnowlong_md.md)] license.
 
     For more information, see [How to: Upload the License File](how-to--upload-the-license-file.md)
@@ -180,19 +183,12 @@ After you have completed the merge, you import the new merged application object
     You can do this with the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or the [Set-NAVServerConfiguration cmdlet](https://go.microsoft.com/fwlink/?linkid=401394) in the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. In addition, you must add the service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance as a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server.  
 
     For more information about how to do this using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect-a-Microsoft-Dynamics-NAV-Server-Instance-to-a-Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).  
-5.  Synchronize the database by using the [Sync-NAVTenant cmdlet](https://go.microsoft.com/fwlink/?linkid=401399 ) in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].
-
-    ```
-    Sync-NAVTenant -ServerInstance [server_instance_name] 
-
-    ```
-    For more information about syncing, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).
 
 6.  Compile all the newly imported objects.
 
     You can use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe. For more information, see [Compiling Objects](compiling-objects.md).
 
-    If you use the the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], you will first have to set it to use the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to the database. For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md) or [Database Information](uiref/-$-S_2349-Database-Information-$-.md).  
+    If you use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], you will first have to set it to use the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to the database. For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md) or [Database Information](uiref/-$-S_2349-Database-Information-$-.md).  
 
     When you compile the objects, an error is thrown for each code conflict, and you can use the tools that are available in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to resolve the conflicts.
 
