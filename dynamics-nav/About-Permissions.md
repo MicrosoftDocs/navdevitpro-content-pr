@@ -12,7 +12,7 @@ ms.assetid: 0adbd6ea-16d6-4030-9f3b-d9b02b447191
 caps.latest.revision: 14
 ---
 # About Permissions
-Each permission set in [!INCLUDE[navnow_long](includes/navnow_long_md.md)] describes a set of access permissions to tables, reports, functions, and other objects. The types of permissions are:  
+Each permission set in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] describes a set of access permissions to tables, reports, functions, and other objects. The types of permissions are:  
 
 -   Read  
 
