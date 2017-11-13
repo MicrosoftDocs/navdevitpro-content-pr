@@ -83,13 +83,12 @@ This section outlines the basic steps for getting a tenant database and tenant u
 ## Mounting and Synchronizing Tenant Databases
 To connect a tenant database to a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance, you must mount it on the server instance by using the Mount-NavTenantDatabase cmdlet. The database must already exist; it can be an empty SQL database or a valid [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database, which can be either empty or contain business data. Once a tenant database is mounted on the server instance, you can start to mount tenants.
 
-When a database is mounted for the first time on a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance, the server instance can process requests for data on the tenant database, however, the tenant database is not in the **Operational** state because it has not been synchronized with the application database on the server instance. This means that you cannot yet create or mount tenants on the tenant database.
+When a database is mounted for the first time on a server instance, the server instance can process requests for data on the tenant database, however, the tenant database is not in the **Operational** state because it has not been synchronized with the application database on the server instance. This means that you cannot yet create or mount tenants on the tenant database.
 
 ### Synchronizing 
 To synchronize the tenant database and make it operational, you use the Sync-NAVTenantDatabase cmdlet. When synchronized successfully, the application version of the application database on the server instance is then registered for support in tenant database.
 
-A tenant database can be mounted on and synchronized with more than one server instance. The application database version of each server instance is registered for support in the tenant database. This enables you to hav tenants in the tenant database that are using different application versions. This is useful, for example, when upgrading tenants to a newer application. An existing tenant can be upgraded to a newer application version by mounting it on the server instance that uses the newer application version, and then running a data upgrade.
-
+A tenant database can be mounted on and synchronized with more than one server instance. The application database version of each server instance is registered for support in the tenant database. This enables you to have tenants in the tenant database that are using different application versions. This is useful, for example, when upgrading tenants to a newer application. An existing tenant can be upgraded to a newer application version by mounting it on another server instance that uses the newer application version, and then running a data upgrade.
 
 There are two important parameters that you can set to determine how the synchronization is performed: `-Mode` and `-CommitPerTable`.
 
@@ -103,18 +102,19 @@ The `-Mode` parameter specifies how the database schema for the tenant database 
 |CheckOnly or 3 |Microsoft Dynamics NAV Server tests if a change in the current application will result in data loss in the tenant database if the tenant is mounted with Mode set to ForceSync. For example, if a table or a field has been deleted in the current application and it contains data in the tenant database.|
 
 **-CommitPerTable**
-The `-CommitPerTable`parameter specifies that database schema modifications are committed by separate transactions on each affected table. Transactions are run one at a time, as they occur. With the default behavior (that is, without using the -CommitPerTable parameter), all modifications are committed in a single transaction.
+The `-CommitPerTable` parameter specifies that database schema modifications are committed by separate transactions on each affected table. Transactions are run one at a time, as they occur. With the default behavior (that is, without using the -CommitPerTable parameter), all modifications are committed in a single transaction.
 
-Using this method provides better protection against leaving the database in an inconsistent state than using the -CommitPerTable parameter. If the synchronization process is terminated before it is completed, any changes that were made before the problem occurred are rolled back, returning the database to its original state.
+Using this method provides better protection against leaving the database in an inconsistent state than using the `-CommitPerTable` parameter. If the synchronization process is terminated before it is completed, any changes that were made before the problem occurred are rolled back, returning the database to its original state.
 
 -   The drawback of setting the `-CommitPerTable` parameter is that for large databases, the synchronization process can take a long time and consume considerable computer resources.
 -   The advantage of setting the `-CommitPerTable` parameter is that it will decrease the time that is required to complete the synchronization process and consume less computer resources, which can be useful for large databases when performance is a concern. However, when you set this parameter, committed changes are not rolled back if the synchronization process is terminated before it is completed. This can result in a partial synchronization of the database, which might leave the database inoperable. We recommend that you make a backup of the database before you run the Sync-NAVTenant cmdlet. Also, tables are not always locked during synchronization. Therefore, you should prohibit users from connecting to the database during synchronization.
 
 ### Example
+This example mounts the database **NAVTenantDatabase** as a tenant database on a server instance. The database is assigned the ID **MyTenantDatabse**. The Sync-NAVTenantDatabase cmdlet synchronizes the tenant database schema with the application database that is mounted on the server instance. 
 
 ```
-Mount-NAVTenantDatabase -ServerInstance 'DynamicsNAV' -Id 'MyTenantDatabase' -DatabaseName 'NAVTenantDatabase' -DatabaseServer localhost\NAVDEMO
-Sync-NAVTenantDatabase -ServerInstance 'DynamicsNAV' -Id 'MyTenantDatabase'
+Mount-NAVTenantDatabase -ServerInstance 'DynamicsNAV' -Id 'MyTenantDatabase1' -DatabaseName 'NAVTenantDatabase' -DatabaseServer localhost\NAVDEMO
+Sync-NAVTenantDatabase -ServerInstance 'DynamicsNAV' -Id 'MyTenantDatabase1' -CommitPerTable
 ```
 
 ## Creating a new tenant in a tenant database
@@ -126,14 +126,13 @@ You can use the New-NAVTenant cmdlet to create a normal tenant (as opposed to a 
 
 The new tenant will be empty, and will not be mounted on the Dynamics NAV Server instance. If you have a tenant in the tenant database that contains business data, you can use the Copy-NAVTenant to populate the new tenant with the same data.
 
-### Example
+### <a name="NewNAVTenantExample"></a>Example
 
-This example illustrate how you can use the New-NAVTenant cmdlet together with the Copy-NAVTenantData cmdlet to create a new tenant that is populated with data from another tenant. This example assumes that you already have a tenant named 'TenantA', which contains the business data that you want in the new tenant 'TenantB'. 'TenantA' must be mounted on the Dynamics NAV Server instance 'NavServer'.
-
+This example illustrate how you can use the New-NAVTenant cmdlet together with the Copy-NAVTenantData cmdlet to create a new tenant that is populated with data from another tenant. This example assumes that you already have a tenant named **TenantA**, which contains the business data that you want in the new tenant **TenantB**. **TenantA** must be mounted on the Dynamics NAV Server instance **DynamicsNAV**.
 ```
-New-NAVTenant -ServerInstance NavServer -TenantId TenantB -TenantDatabaseId MyTenantDatabase
-Mount-NAVTenant -ServerInstance NavServer -TenantId TenantB -TenantDatabaseId MyTenantDatabase
-Copy-NAVTenantData -ServerInstance NavServer -SourceTenant TenantA -DestinationTenant TenantB
+New-NAVTenant -ServerInstance DynamicsNAV -TenantId TenantB -TenantDatabaseId MyTenantDatabase1
+Mount-NAVTenant -ServerInstance DynamicsNAV -TenantId TenantB -TenantDatabaseId MyTenantDatabase1
+Copy-NAVTenantData -ServerInstance DynamicsNAV -SourceTenant TenantA -DestinationTenant TenantB
 ```
 
 ## Copying the data from one tenant to another
@@ -146,11 +145,10 @@ You can use the Copy-NAVTenantData cmdlet to copy data from one tenant to anothe
 Together with the New-NAVTenant cmdlet, this cmdlet provides you with an efficient way to create multiple tenants that are pre-populated with
 business data. For example, you can have one tenant that contains the business data, and acts as a kind of template tenant for other tenants. You can create new tenants with the New-NAVTenant cmdlet, and then populate the new tenants with data by using the Copy-NAVTenantData cmdlet.
 
-The concept of creating new tenants and copying data between tenants is particularly useful when setting up buffer tenants in a deployment environment where you have to get new tenants up and running quickly on demand. Buffer tenants are created using the Set-NAVTenant cmdlet. For
-more information about buffer tenants, see [Using buffer tenants]().
+The concept of creating new tenants and copying data between tenants is particularly useful when setting up buffer tenants in a deployment environment where you have to get new tenants up and running quickly on demand. Buffer tenants are created using the Set-NAVTenant cmdlet. For more information about buffer tenants, see [Using buffer tenants](manage-tenants-shared-schema.md#BufferTenants).
 
 ### Example
-See the example for [Creating a new tenant in a tenant database]()
+See the example for [Creating a new tenant in a tenant database](manage-tenants-shared-schema.md#NewNAVTenantExample).
 
 ## Moving a tenant from one database to another
 You can use the Move-NAVTenant cmdlet to move a tenant from its current database to another tenant database that is mounted on the same Dynamics NAV Server instance.
@@ -190,83 +188,38 @@ Remove-NAVTenant -ServerInstance DynamicsNAV -TenantId TenantA -ForceImmediateRe
 Dismount-NAVTenant -ServerInstance DynamicsNAV -TenantId TenantA
 ```
 
-## Using buffer tenants
-There are two types of tenants: normal and buffer. A normal tenant is a tenant in the tenant database that can potentially be mounted on a Dynamics Server instance, and eventually used and managed in the production environment. Tenants are by default normal tenants. Changing a tenant from a normal tenant to a buffer tenant retains the tenant data as is, however the tenant is in a state that prevents it from being mounted until it is changed back to a normal tenant by using the Register-NAVTenant cmdlet.
+## <a name="BufferTenants"></a>Using buffer tenants
+You can use the Set-NAVTenant cmdlet to change a specific tenant from a *normal* tenant to a *buffer* tenant. There are basically two types of tenants: normal and buffer.
 
-You can use the Set-NAVTenant cmdlet to:
+-   A normal tenant is a tenant in the tenant database that can potentially be mounted on a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance, and eventually used and managed in a production environment. Tenants are by default normal tenants.
+-   A buffer tenant is a specific type of tenant that can be added to a tenant database. A buffer tenant is a kind of predefined tenant that typically contains some basic or demonstration data. Buffer tenants are useful in a deployment environment where you have to get new tenants up and running quickly on demand. A buffer tenant is created from a normal tenant by using the Set-NAVTenant cmdlet. 
 
-- Change a specific tenant from a normal tenant to a buffer tenant.
+Changing a tenant from a normal tenant to a buffer tenant retains the tenant data as is, however the tenant is in a state that prevents it from being mounted until it is changed back to a normal tenant by using the Register-NAVTenant cmdlet.
 
-- Acquire or release exclusive access to a tenant.
-
-A tenant database can contain one or more buffer tenants. A buffer tenant cannot be mounted on a Dynamics NAV Server instance until is changed to a normal tenant by using the Register-NAVTenant cmdlet. The Register-NAVTenant cmdlet can register any buffer tenant that is contained in the tenant databases that are mounted on the Dynamics NAV Server instance. There are three options for registering a buffer tenant.
+### Registering a buffer tenant for use
+A tenant database can contain one or more buffer tenants. A buffer tenant cannot be mounted on a server instance until is changed to a normal tenant by using the Register-NAVTenant cmdlet. The Register-NAVTenant cmdlet can register any buffer tenant that is contained in the tenant databases that are mounted on the Dynamics NAV Server instance. There are three options for registering a buffer tenant.
 
 - Register an unspecified buffer tenant from any mounted tenant database.
-
 - Register an unspecified buffer tenant from a specific tenant database.
-
 - Register a specific buffer tenant, if you know its ID.
-
-There are basically two types of tenants: normal and buffer. A normal tenant is a tenant in the tenant database that can potentially be mounted on a Dynamics NAV Server instance, and eventually used and managed in a production environment. Tenants are by default normal tenants. A buffer tenant is a specific type of tenant that can be added to a tenant database. A buffer tenant is a kind of predefined tenant that typically contains some basic or demonstration data. Buffer tenants are useful in a deployment environment where you have to get new tenants up and running quickly on demand. A buffer tenant is created from a normal tenant by using the Set-NAVTenant cmdlet. For more information about buffer tenants and their use, see the help for the Set-NAVTenant cmdlet.
 
 The output object of Register-NAVTenant contains all the details about the registered tenant.
 
 ### Example
- This example illustrates how to use a normal tenant (TenantA) as a
- template for creating one or more buffer tenants. The New-NAVTenant cmdlet
- creates a new empty normal tenant named 'TenantB' in the tenant database.
- The Copy-NAVTenantData cmdlet copies the data from 'TenantA' to 'TenantB'.
- Finally, the Set-NAVTenant cmdlet changes 'TenantB' to a buffer tenant.
- When needed, you can use the Register-NAVTenant cmdlet to change 'TenantB'
- to a normal tenant that can be mounted on a server instance.
+This example illustrates how to use a normal tenant (**TenantA**) as a template for creating one or more buffer tenants. The New-NAVTenant cmdlet creates a new empty normal tenant named **TenantB** in the tenant database. The Copy-NAVTenantData cmdlet copies the data from **TenantA** to **TenantB**. The Set-NAVTenant cmdlet changes **TenantB** to a buffer tenant. Finally, the Register-NAVTenant cmdlet registers the buffer tenant from the tenant database and assigns it the ID **TenantC**.
 
 ```
- New-NAVTenant -ServerInstance NavServer -Tenant TenantB -TenantDatabaseId
- MyTenantDatabase
- Mount-NAVTenant -ServerInstance NavServer -TenantId TenantB
- -TenantDatabaseId MyTenantDatabase
- Copy-NAVTenantData -ServerInstance NavServer -SourceTenant TenantA
- -DestinationTenant TenantB
- Set-NAVTenant -ServerInstance NavServer -Tenant TenantB -TenantDatabaseId
- MyTenantDatabase -BufferTenant
+New-NAVTenant -ServerInstance DynamicsNAV -Tenant TenantB -TenantDatabaseId MyTenantDatabase1
+Mount-NAVTenant -ServerInstance DynamicsNAV -TenantId TenantB -TenantDatabaseId MyTenantDatabase1
+Copy-NAVTenantData -ServerInstance DynamicsNAV -SourceTenant TenantA -DestinationTenant TenantB
+Set-NAVTenant -ServerInstance DynamicsNAV -Tenant TenantB -TenantDatabaseId MyTenantDatabase1 -BufferTenant
+Register-NAVTenant -ServerInstance 'DynamicsNAV' -Tenant 'TenantC'  -TenantDatabaseId 'MyTenantDatabase1'
 ```
 
- ----------  EXAMPLE 1  ----------
-
- Register-NAVTenant -ServerInstance 'NavServer' -Tenant 'TenantA'
-
-
- This example registers an unspecified buffer tenant from one of the tenant
- databases mounted on the Dynamics NAV Server instance 'NavServer'. The
- selected buffer tenant is changed to a normal tenant and assigned the ID
- 'TenantA'. If successful, the returned object shows the tenant
- information, including which database the tenant is in.
-
- ----------  EXAMPLE 2  ----------
-
- Register-NAVTenant-ServerInstance 'NavServer' -Tenant 'TenantA'
- -TenantDatabaseId 'MyTenantDatabase1'
-
-
- This example registers an unspecified buffer tenant from the tenant
- database 'MyTenantDatabase1' that is mounted on the Dynamics NAV Server
- instance 'NavServer'. The selected buffer tenant is changed to a normal
- tenant and assigned the ID 'TenantA'.
-
- ----------  EXAMPLE 3  ----------
-
- Register-NAVTenant -ServerInstance 'NavServer' -Tenant 'TenantA'
- -TenantDatabaseId 'MyTenantDatabase1' -BufferTenantId 'BufferTenant1'
-
-
- This example registers the buffer tenant with the ID 'BufferTenant1' in
- the tenant database 'MyTenantDatabase1'. The buffer tenant is changed to a
- normal tenant and assigned the ID 'TenantA'.
-
-## Acquiring exclusive access
+<!--## Acquiring exclusive access
 
 ## Versioning
-A tenant database can be mounted on and synchronized with more than one server instance. The application database version of each server instance is registered for support in the tenant database. This enables you to have tenants in the tenant database that are using different application versions. This is useful, for example, when upgrading tenants to a newer application. An existing tenant can be upgraded to a newer application version by mounting it on the server instance that uses the newer application version, and then running a data upgrade.
+A tenant database can be mounted on and synchronized with more than one server instance. The application database version of each server instance is registered for support in the tenant database. This enables you to have tenants in the tenant database that are using different application versions. This is useful, for example, when upgrading tenants to a newer application. An existing tenant can be upgraded to a newer application version by mounting it on the server instance that uses the newer application version, and then running a data upgrade.-->
 
 
 ## See Also  
