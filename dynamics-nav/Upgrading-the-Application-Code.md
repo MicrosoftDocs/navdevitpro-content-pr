@@ -154,7 +154,7 @@ After you have completed the merge, you import the new merged application object
 
     There are three ways to import the files:
 
-    -   Use the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].
+    -   Use the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].
 
         For more information see [To import objects by using the development environment UI](how-to--import-objects.md#ImportObjectsDevEnv).
     -   Use the finsql.exe to run the [ImportObjects](ImportObjects.md) command.
