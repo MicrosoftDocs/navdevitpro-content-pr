@@ -1,9 +1,9 @@
 ---
-title: MenuSuite Functionality in AL
-description: "Description of the MenuSuite functionality in AL."
+title: "Adding Pages and Reports to Search"
+description: "Description of how you use AL to add pages and reports to Search in the client."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/10/2017
+ms.date: 11/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,17 +16,13 @@ caps.latest.revision: 18
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-# MenuSuite Functionality in AL
+# Adding Pages and Reports to Search
+AL provides navigational support for pages and reports in the client. You enable a page or report to be available through Search in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] using the **UsageCategory** setting. 
+When you create a [Page](devenv-page-object.md) or a [Report](devenv-report-object.md), you add the **UsageCategory** property. If the **UsageCategory** is set to **None**, or if you do not specify **UsageCategory**, the page or report will not show up when you use the Search functionality. 
+Set the **UsageCategory** property to the [AccessByPermission Property](properties/devenv-accessbypermission-property.md) or the [ApplicationArea Property](properties/devenv-applicationarea-property.md).
 
-MenuSuite in AL provides a navigation support for search in the client functionality. This is a simple setting that enables a page or report to be available through search in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. 
-
-You can enable the search when you create a [Page](devenv-page-object.md) or [Report](devenv-report-object.md) by adding a new property called **UsageCategory**. If the **UsageCategory** is set to None, or if you do not specify the **UsageCategory**, the page or report will not participate in search. If **UsageCategory** property is not None, you can specify an [AccessByPermission Property](properties/devenv-accessbypermission-property.md)  and [ApplicationArea Property](properties/devenv-applicationarea-property.md).
-
-
-## MenuSuite Example
-
-This MenuSuite example creates a ``SimpleCustomerCard`` page and sets a ``UsageCategory`` property to that page, so the ``SimpleCustomerCard`` page is enabled to participate in search.
-
+## Example
+The following example creates a ``SimpleCustomerCard`` page and sets a ``UsageCategory`` property to the page, so that the ``SimpleCustomerCard`` page is enabled in Search.
 
 ```
 page 70050088 SimpleCustomerCard 
