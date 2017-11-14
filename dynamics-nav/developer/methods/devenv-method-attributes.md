@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 author: SusanneWindfeldPedersen
 ---
 # Method Attributes
@@ -21,7 +21,7 @@ In AL, attributes are placed before the method, and have the following syntax:
 For example, the Integration attribute has two arguments, and the syntax is:
 
 ```  
-[Integration(IncludeSender : Boolean, GlobalVarAccess : Boolean)] 
+[Integration(IncludeSender : Boolean, GlobalVarAccess : Boolean)]
 ```    
 
 ## Attributes  

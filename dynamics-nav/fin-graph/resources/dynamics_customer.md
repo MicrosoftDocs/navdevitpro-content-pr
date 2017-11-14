@@ -1,8 +1,6 @@
 ---
 title: customers resource type | Microsoft Docs
 description: Represents a customer in Dynamics 365 for Financials.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-financials
@@ -10,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ems.date: 07/11/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
@@ -100,4 +98,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)
