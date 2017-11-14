@@ -19,10 +19,12 @@ caps.latest.revision: 18
 # Adding Pages and Reports to Search
 AL provides navigational support for pages and reports in the client. You enable a page or report to be available through Search in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] using the **UsageCategory** setting. 
 
-When you create a [Page](devenv-page-object.md) or a [Report](devenv-report-object.md), you add the **UsageCategory** property. If the **UsageCategory** is set to **None**, or if you do not specify **UsageCategory**, the page or report will not show up when you use the Search functionality. If the **UsageCategory** property is not None, you can specify an [AccessByPermission Property](properties/devenv-accessbypermission-property.md) and [ApplicationArea Method](methods/devenv-applicationarea-method.md).
+When you create a [Page](devenv-page-object.md) or a [Report](devenv-report-object.md), you add the **UsageCategory** property. If the **UsageCategory** is set to **None**, or if you do not specify **UsageCategory**, the page or report will not show up when you use the Search functionality. 
+
+If you want to add the page or report to Search, set the **UsageCategory** property by adding the [AccessByPermission Property](properties/devenv-accessbypermission-property.md) and [ApplicationArea Property](properties/devenv-applicationarea-property.md).
 
 
-## MenuSuite Example
+## Example
 The following example creates a ``SimpleCustomerCard`` page and sets a ``UsageCategory`` property to the page, so that the ``SimpleCustomerCard`` page is enabled in Search.
 
 
