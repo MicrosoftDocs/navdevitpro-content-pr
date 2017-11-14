@@ -3,7 +3,7 @@ title: "Enabling APIs for Microsoft Dynamics NAV 2018"
 description: "Describing the steps you must go through to enable access to the APIs."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/10/2017
+ms.date: 11/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -30,11 +30,12 @@ Microsoft Dynamics 365 for Financials exposes an API that makes it possible to i
     > This will start a process of populating all the integration tables with records for all APIs. The process can take several minutes.
 
 ## Endpoint
-Once you have the API access enabled, you can write code that accesses the 
+Once you have the API access enabled, you can write code that integrates your web service or SaaS solution with Dynamics 365 for Financials or Microsoft Dynamics NAV. Creating your integration through the API provides simple access to all supported Microsoft products in a single endpoint, giving you a simplified experience for creating a single app with integrations across multiple Microsoft products. As an alternative, app developers can also integrate the service or solution directly with the Financials API endpoint, as outlined in this documentation.
+
 
 ||Dynamics 365 for Financials and Operations,|Business Edition (Online)||Microsoft Dynamics NAV 2018 (on-prem)|
 |--|--|--|--|--|
-|Means of Connection|Microsoft Graph|Common endpoint service|Direct tenant|Direct installation|
+|Means of connection|Microsoft Graph|Common endpoint service|Direct tenant|Direct installation|
 |Usage|Production|Production|Rapid development and testing only|Production|
 |Endpoint|`https://graph.microsoft.com/financials/beta/`| `https://api.financials.dynamics.com`|`https://<tenant url>:7948/MS/api/<API version>/` Example: `https://contoso.com:7048/api/beta`|OData base URL in installation `https://<base URL>:<port>/v1.0/api/<API version>/` Example: `https://nav.contoso.com:7048/v1.0/api/beta/` Must be exposed through a firewall.|
 |Availability|Always enabled|Always enabled|Always enabled|Disabled by default. Must be enabled by the administrator.|
