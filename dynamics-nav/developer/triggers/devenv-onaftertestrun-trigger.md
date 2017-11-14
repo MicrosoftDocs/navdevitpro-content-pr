@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: SusanneWindfeldPedersen
 manager: edupont
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 author: SusanneWindfeldPedersen
 ---
 

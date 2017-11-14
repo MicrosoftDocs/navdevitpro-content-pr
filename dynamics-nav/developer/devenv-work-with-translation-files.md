@@ -21,20 +21,23 @@ author: SusanneWindfeldPedersen
 > [!NOTE] 
 > The support for using the ML properties, such as **CaptionML** and **TooltipML**, is being deprecated, so it is recommended to refactor your extension to use the corresponding property, such as **Caption** or **Tooltip**, which is being picked up in the .xlf file.
 
-## Generating the .xlf file
+> [!IMPORTANT]
+> You can use the new translation files approach only for objects from your extension. For translating the base application you still need to use the .TXT files approach.
+
+## Generating the XLIFF file
 To enable generation of the translation file, you must add a setting in the manifest. In the app.json file of your extension, add the following line:
 
 ```
   "features": "TranslationFile"
 ```
 
-Now, when you run the build command (Ctrl+Shift+B) in Visual Studio Code, a `\Translations` folder will be generated and populated with the .xliff file that contain all the labels, label properties, and report labels that you are using in the extension. The generated .xliff file can now be translated.
+Now, when you run the build command (Ctrl+Shift+B) in Visual Studio Code, a `\Translations` folder will be generated and populated with the .xlf file that contain all the labels, label properties, and report labels that you are using in the extension. The generated .xlf file can now be translated.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Make sure to rename the translated file to avoid that the file is overwritten next time the extension is built.
 
 ## Syntax
-As stated above, the ML properties (CaptionML, TooltipML etc.), the old report label syntax, and TextConst do not get included in the .xliff file and will not be translated. Make sure to update your code from the old ML syntax to the new label syntax described below. 
+As stated above, the ML properties (CaptionML, TooltipML etc.), the old report label syntax, and TextConst do not get included in the .xlf file and will not be translated. Make sure to update your code from the old ML syntax to the new label syntax described below. 
 
 The label syntax is shown in the example below for the **Caption** property: 
 
@@ -42,7 +45,7 @@ The label syntax is shown in the example below for the **Caption** property:
 Caption = 'Developer translation for %1',  Comment = '%1 is extension name', locked = false, MaxLength=999; 
 ```
 > [!NOTE]
-> The `comment`, `locked` and `maxLength` attributes are optional and the order is not enforced. 
+> The `comment`, `locked`, and `maxLength` attributes are optional and the order is not enforced. 
 
 Use the same syntax for report labels:  
 

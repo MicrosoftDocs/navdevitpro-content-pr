@@ -1,7 +1,8 @@
 ---
-title: "How to: Arrange Fields in Rows and Columns Using the GridLayout Control"
+title: Arrange Fields Using GridLayout Control
+description: Fields in a FastTab are arranged automatically. Use GridLayout control to manually set up rows, columns, span fields across, and show or hide captions.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/09/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: b094eaa8-73a7-43f1-aaa2-a2735f1ddd09
 caps.latest.revision: 35
 manager: edupont
 ---
-# How to: Arrange Fields in Rows and Columns Using the GridLayout Control
+# Arrange Fields in Rows and Columns Using the GridLayout Control in Dynamics NAV
 By default, fields in a FastTab are arranged automatically in two columns that are based on the number of fields. You can use the **GridLayout** control to arrange the fields manually in one or more rows and columns. The **GridLayout** control gives you the following options:  
   
 -   Set up your grid row-by-row or column-by-column.  
