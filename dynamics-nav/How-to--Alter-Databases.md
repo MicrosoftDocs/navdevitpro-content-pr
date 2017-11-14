@@ -1,7 +1,8 @@
 ---
-title: "How to: Alter Databases"
+title: How to Alter Databases
+description: Modify the Database property settings by using the Alter Database window, which gives you access to the same settings as the New Database window.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/09/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 0aa2c178-eea8-41bf-aecd-87d71552b4c6
 caps.latest.revision: 12
 manager: edupont
 ---
-# How to: Alter Databases
+# How to Alter Databases in Dynamics NAV
 You can change the database property settings that you selected when you created the database.  
 
  The **Alter Database** window gives you access to the same settings as the [New Database](uiref/-$-S_2338-New-Database-$-.md) window.  

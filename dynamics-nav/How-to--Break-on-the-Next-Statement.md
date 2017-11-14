@@ -1,7 +1,8 @@
 ---
-title: "How to: Break on the Next Statement"
+title: Break on the Next Statement
+description: If the debugger is attached to a session, then you can specify that the debugger breaks before the next C/AL statement is run in that session. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/09/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 631a2a13-3191-47b4-a29f-1982ba70629f
 caps.latest.revision: 9
 manager: edupont
 ---
-# How to: Break on the Next Statement
+# How to Break on the Next Statement
 If the debugger is attached to a session, then you can specify that the debugger breaks before the next C/AL statement is run in that session.  
   
  For more information about how to open the **Debugger** window, see [Activating the Debugger](Activating-the-Debugger.md).  

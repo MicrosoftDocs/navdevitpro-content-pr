@@ -1,7 +1,8 @@
 ---
-title: "How to: Add New Database Files"
+title: Add New Database Files
+description: Expand a database in Dynamics NAV by creating a new database file  in the database, and it must be backed-up before proceeding to expand the database.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: c63a68cb-3855-4ab9-9a35-99f02715a7de
 caps.latest.revision: 8
 manager: edupont
 ---
-# How to: Add New Database Files
+# How to Add New Database Files in Dynamics NAV
 You can expand a database by creating a new database file in the database.  
   
 > [!NOTE]  
