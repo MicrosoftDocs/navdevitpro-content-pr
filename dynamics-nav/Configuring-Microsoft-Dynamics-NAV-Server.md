@@ -11,23 +11,23 @@ author: jswymer
 
 **Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Configuring-Microsoft-Dynamics-NAV-Server-2017.md).
 
-When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can provide configuration information that is then used as the configuration for the default [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. This information is stored in a configuration file for the server instance called CustomSetting.config. The default location of the CustomSettings.config file is *[!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Service*. 
+When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install [!INCLUDE[nav_server](includes/nav_server_md.md)], you provide information that is then used as the configuration for the default [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. This information is stored in a configuration file for the server instance called CustomSetting.config. The default location of the CustomSettings.config file is *[!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Service*. 
 
-After you install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can change any of the settings that you provided during Setup, and other settings.
+After you install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can change any of the settings that you provided during Setup, plus several other settings that are made available to you in Setup.
 
 > [!NOTE]  
->  Each [!INCLUDE[nav_server](includes/nav_server_md.md)] instance has its own CustomSettings.config file, with its own settings.  
+>  Each [!INCLUDE[nav_server](includes/nav_server_md.md)] instance has its own CustomSettings.config file.  
 
 ## Configuring [!INCLUDE[nav_server](includes/nav_server_md.md)] in Setup 
-You can configure the default instance of [!INCLUDE[nav_server](includes/nav_server_md.md)] when running [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup. You must first select [!INCLUDE[nav_server](includes/nav_server_md.md)] as a component to install. To do this, select one of the following [Installation Options](Installation-Options.md) that includes [!INCLUDE[nav_server](includes/nav_server_md.md)]:  
+You configure the default instance of [!INCLUDE[nav_server](includes/nav_server_md.md)] by running [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and selecting one of the following [Installation Options](Installation-Options.md): 
 
--   [Server Option](Server-Option.md)  
-
+-   [Demo Option](Demo-Option.md)
+-   [Server Option](Server-Option.md)
 -   [Developer Option](Developer-Option.md)  
 
 You can also customize your installation and the list of components to install. For more information, see [How to: Choose Components to Install](How-to--Choose-Components-to-Install.md).  
 
-After you specify an installation option or customize your component list, the **Specify parameters** pane is displayed in Setup. The list of parameters that you see in the **Specify parameters** pane depends on which components you have selected for configuration. Setup provides a short description for each parameter. For a description of the most important parameters for [!INCLUDE[nav_server](includes/nav_server_md.md)], see [Server Option](Server-Option.md). 
+After you specify an installation option or customize your component list, the **Specify parameters** pane is displayed in Setup. The list of parameters that you see in the **Specify parameters** pane depends on which components you have selected for configuration. Setup provides a short description for each parameter. For a description of the most important parameters for [!INCLUDE[nav_server](includes/nav_server_md.md)], see [Server Option](Server-Option.md). When you have finished entering values, choose the **Apply** button. 
 
 ## Configuring [!INCLUDE[nav_server](includes/nav_server_md.md)] After Installation  
 After you install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can change the configuration settings in the CustomSettings.config file of a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance in the following ways:  
