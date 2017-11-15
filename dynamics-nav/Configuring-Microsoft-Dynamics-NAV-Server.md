@@ -251,7 +251,7 @@ The following table describes fields on the **Development** tab in the [!INCLUDE
 |Enable Loading Application Symbol References at Server Startup|EnableSymbolLoadingAtServerStartup|Specifies whether application symbol references should be loaded at server startup. This setting must be enabled to allow any symbol generation. If the setting is not enabled, the **generatesymbolreference** setting does not have any effect. For more information, see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md).<br /><br />Default: Not enabled<br />Dynamically Updatable: No|
 |Enable SSL|DeveloperServicesSSLEnabled|Specifies whether SSL (HTTPS) is enabled for the developer web service port.<br /><br />Default: Not enabled<br />Dynamically Updatable: No|
 |HttpClient AL Function Maximum Timeout|NavHttpClientMaxTimeout|Specifies the maximum allowed timeout value in minutes that can be set for the HttpClient Timeout AL function.<br /><br />Default: 00:05:00<br />Dynamically Updatable: Yes|
-|HttpClient AL Function Response Size|NavHttpClientMaxResponseContentSize|Specifies the maximum size in megabytes of a response buffer used by the HttpClient AL function.<br /><br />Default: 15<br />Dynamically Updatable: NYes|
+|HttpClient AL Function Response Size|NavHttpClientMaxResponseContentSize|Specifies the maximum size in megabytes of a response buffer used by the HttpClient AL function.<br /><br />Default: 15<br />Dynamically Updatable: Yes|
 |Port|DeveloperServicesPort|The listening HTTP port for Microsoft Dynamics NAV Developer web services.<br /><br />Valid range: 1 - 65535<br />Default: 7049<br />Dynamically Updatable: No|
 
 
