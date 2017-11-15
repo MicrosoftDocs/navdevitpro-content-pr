@@ -44,8 +44,11 @@ After you install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can cha
 
     We recommend that you do not directly edit the configuration file, because if you make any errors in typing, then you may not be able to start the instance.  
 
-> [!IMPORTANT]  
->  After you modify a [!INCLUDE[nav_server](includes/nav_server_md.md)] setting, you must restart the associated [!INCLUDE[nav_server](includes/nav_server_md.md)] instance before any changes can take effect.  
+### Restarting [!INCLUDE[nav_server](includes/nav_server_md.md)] after modifications
+
+If you use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or modify the CustomSettings.config file directly, you must restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance before any changes can take effect.
+
+If you use the [Set-NAVServerConfiguration cmdlet](https://go.microsoft.com/fwlink/?linkid=401394), whether you need to restart the server instance will depend on the configuration setting that you change. There are several settings that are *dynamically updatable*, which means that a server instance restart is not required after modification. In the tables that follow, these settings are indicated by the text **Dynamically Updatable: Yes**.
 
 ##  <a name="NavAdminSettings"></a>[!INCLUDE[nav_server](includes/nav_server_md.md)] Instance Settings  
 This section describes all the configuration settings for a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The settings are grouped according to the tabs under which they appear in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].
@@ -252,21 +255,24 @@ The following table describes fields on the **Development** tab in the [!INCLUDE
 |Port|DeveloperServicesPort|The listening HTTP port for Microsoft Dynamics NAV Developer web services.<br /><br />Valid range: 1 - 65535<br />Default: 7049<br />Dynamically Updatable: No|
 
 
-##  <a name="UsingPowerShell"></a> Using Microsoft Dynamics NAV Administration Shell Cmdlets to Modify Settings  
-The [!INCLUDE[nav_shell](includes/nav_shell_md.md)] includes several cmdlets that enable you to create and modify [!INCLUDE[nav_server](includes/nav_server_md.md)] instances. Use the `Set-` cmdlets to modify a setting on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For example, you can change the value for `DatabaseServer` to `DatabaseServer.Domain.Com` for the server instance named `MyInstance` by executing this cmdlet:  
+##  <a name="UsingPowerShell"></a> Using [!INCLUDE[nav_shell](includes/nav_shell_md.md)] to Modify Server Instance Settings  
+The [!INCLUDE[nav_shell](includes/nav_shell_md.md)] includes several `Set-` cmdlets that enable you to create and modify [!INCLUDE[nav_server](includes/nav_server_md.md)] instances.
+
+The main cmdlet for configuring a server instance is the Set-NAVServerConfiguration cmdlet. You can use this cmdlet to change any of the configuration settings that are listed in the previous sections. To change a configuration setting, you set `-KeyName` parameter to the **Key Name** that corresponds to the setting, and set the `-KeyValue`parameter to the new value. For example, you can change the value for `DatabaseServer` to `DatabaseServer.Domain.Com` for the server instance named `MyInstance` by executing this cmdlet:  
 
 ```  
-Set-NAVServerConfiguration MyInstance -KeyName DatabaseServer -KeyValue "DatabaseServer.Domain.Com"  
+Set-NAVServerConfiguration "MyInstance" -KeyName DatabaseServer -KeyValue "DatabaseServer.Domain.Com"  
 ```  
 
-Quotation marks are required for all values. 
-To display all the `Set-` cmdlets on the Windows PowerShell console, use the following command:  
+You should unclude all values in quotation marks. 
+
+To display all the `Set-` cmdlets that are available in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], use the following command:  
 
 ```  
 Get-Help Set-NAVServer  
 ```  
 
- For more information, see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
+ For more information about running the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
 
 ## See Also  
 [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)   
