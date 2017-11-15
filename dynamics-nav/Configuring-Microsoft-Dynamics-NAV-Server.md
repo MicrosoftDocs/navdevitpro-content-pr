@@ -13,7 +13,7 @@ author: jswymer
 
 When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install [!INCLUDE[nav_server](includes/nav_server_md.md)], you provide information that is then used as the configuration for the default [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. This information is stored in a configuration file for the server instance called CustomSetting.config. The default location of the CustomSettings.config file is *[!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Service*. 
 
-After you install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can change any of the settings that you provided during Setup, plus several other settings that are made available to you in Setup.
+After you install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can change any of the settings that you provided during Setup, plus several other settings that were not available to you in Setup.
 
 > [!NOTE]  
 >  Each [!INCLUDE[nav_server](includes/nav_server_md.md)] instance has its own CustomSettings.config file.  
