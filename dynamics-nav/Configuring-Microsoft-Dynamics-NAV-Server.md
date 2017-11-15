@@ -261,18 +261,25 @@ The [!INCLUDE[nav_shell](includes/nav_shell_md.md)] includes several `Set-` cmdl
 The main cmdlet for configuring a server instance is the Set-NAVServerConfiguration cmdlet. You can use this cmdlet to change any of the configuration settings that are listed in the previous sections. To change a configuration setting, you set `-KeyName` parameter to the **Key Name** that corresponds to the setting, and set the `-KeyValue`parameter to the new value. For example, you can change the value for `DatabaseServer` to `DatabaseServer.Domain.Com` for the server instance named `MyInstance` by executing this cmdlet:  
 
 ```  
-Set-NAVServerConfiguration "MyInstance" -KeyName DatabaseServer -KeyValue "DatabaseServer.Domain.Com"  
+Set-NAVServerConfiguration -ServerInstance "MyInstance" -KeyName "DatabaseServer" -KeyValue "DatabaseServer.Domain.Com"  
 ```  
 
-You should unclude all values in quotation marks. 
+### Modifying dynamically updatable settings
+For dynamically updatable settings, use the `-ApplyTo` parameter to specify where to apply the change. The change can be written directly to the configuration file (CustomSettings.config) and/or applied to the current server instance state. Where you apply the change will determine whether a server instance restart is required for the change to take effect. The parameter has three values, as described in the following table:
 
-To display all the `Set-` cmdlets that are available in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], use the following command:  
+|  Value  |Description  |
+|-----------|-----------|
+|ConfigFile or 0|Saves the change to the configuration file of the server instance. The change will not take effect until the server instance is restarted.|
+|Memory or 1|Applies the change only to the server instance's current state. The changes take effect immediately, without a server instance restart. The change is stored in memory, so the next time the server instance is restarted, it reverts to the setting in the configuration file.|
+|All or 2|Applies the change to the server instance's current setting state (in memory) and to the configuration file. The changes take effect immediately, without a server instance restart.|
+
+For example, the following command sets the value for the `MaxStreamReadSize` key to `42424242`. A server instance restart is not required. 
 
 ```  
-Get-Help Set-NAVServer  
-```  
+Set-NAVServerConfiguration -ServerInstanceMyInstance -KeyName MaxStreamReadSize -KeyValue 42424242 -ApplyTo Memory  
+```
 
- For more information about running the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
+For more information about running the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
 
 ## See Also  
 [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)   
