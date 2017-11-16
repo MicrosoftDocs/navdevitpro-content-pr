@@ -1,6 +1,6 @@
 ---
-title: "How to: Create an RCLC Layout Report"
-description: "Describes the steps involved in creating a report that uses an RDLC layout."
+title: "How to: Create an RDL Layout Report"
+description: "Describes the steps involved in creating a report that uses an RDL layout."
 author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 11/16/2017
@@ -16,32 +16,32 @@ caps.latest.revision: 18
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-# How to: Create an RDLC Layout Report
-When you create a new report for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], there are two things you have to think about; defining the report dataset of data items and columns, and then designing the report layout. These steps will show how to create a very simple report based on an RDLC layout. For more information about the report object, see [Report Object](devenv-report-object.md).
+# How to: Create an RDL Layout Report
+When you create a new report for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], there are two things you have to think about; defining the report dataset of data items and columns, and then designing the report layout. These steps will show how to create a very simple report based on an RDL layout. For more information about the report object, see [Report Object](devenv-report-object.md).
 
-## Creating an RDLC layout report
+## Creating an RDL layout report
 
 >[!NOTE]
 >To facilitate testing your report layout, the following example extends the Customer List page with a trigger that runs the report as soon as the Customer List page is opened.
 
 1. Create a new extension to the Customer List page that contains code to run the report, as well as a simple report object by adding the following lines of code
 ```
-pageextension 50100 MyExtension extends "Customer List"
+pageextension 50101 MyExtension extends "Customer List"
 {
     trigger OnOpenPage();
     begin
-        report.Run(Report::MyWordReport);
+        report.Run(Report::MyRdlReport);
     end;
 }
 
-report 50124 MyWordReport
+report 50123 MyRdlReport
 {
-    DefaultLayout=Word;
-    WordLayout='MyWordReport.docx';
+    DefaultLayout=RDLC;
+    RDLCLayout='MyRDLCReport.rdl';
 
 }
 ```
-2. Build the extension (Ctrl+Shift+B) to generate the MyWordReport.docx file.
+2. Build the extension (Ctrl+Shift+B) to generate the MyRdlReport.rdl file.
 3. Add the **Customer** table as the data item and the **Name** field as a column to the report by adding the following lines of code:
 ```
 dataset
@@ -53,10 +53,8 @@ dataset
 }    
 ```
 4. Build the extension (Ctrl+Shift+B).
-5. Open the generated report layout file in Word.
-6. In Word, edit the layout using the **XML Mapping Pane** on the **Developer** tab. If you do not already see the Developer tab, go to **Options**, then **Customize Ribbon**, and in the **Main tabs** section, select the **Developer** check box.
-7. In Word, in the **Custom XML part**, locate the report, and then open the layout.
-9. Drag elements onto the document, and save the report layout when you are done. <!-- test this and write specifically -->
+5. Open the generated report layout file in Report Builder.
+6. ...
 10. Back in Visual Studio Code, press Shift+F5 to compile and run the report.  
 You will now see the generated report in preview mode.
 
