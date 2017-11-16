@@ -3,7 +3,7 @@ title: "Adding Pages and Reports to Search"
 description: "Description of how you use AL to add pages and reports to Search in the client."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/14/2017
+ms.date: 11/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -37,9 +37,9 @@ If you want to add the page or report to Search, set the **UsageCategory** prope
 
 ## Optional Accessibility Settings
 
-You can add the page or report to Search and control the accessibility to **Execute** access, or, allow **Read**, **Insert**, **Modify** and **Delete** access by adding the [AccessByPermission property](properties/devenv-accessbypermission-property.md). Likewise, control the accessibility to application area by the grouped-user category by adding the [ApplicationArea Property](properties/devenv-applicationarea-property.md). 
+You can add the page or report to Search and control the accessibility to **Execute** access, or, allow **Read**, **Insert**, **Modify** and **Delete** access by adding the [AccessByPermission property](properties/devenv-accessbypermission-property.md). Likewise, control the access to application area by the grouped-user category by adding the [ApplicationArea Property](properties/devenv-applicationarea-property.md). 
 
-The [AccessByPermission Property](properties/devenv-accessbypermission-property.md) and [ApplicationArea Property](properties/devenv-applicationarea-property.md) are some optional settings for using with **UsageCategory** property.
+The [AccessByPermission Property](properties/devenv-accessbypermission-property.md) and [ApplicationArea Property](properties/devenv-applicationarea-property.md) are some optional settings used to set limitations when you add the **UsageCategory** property.
 
 
 ## Example
