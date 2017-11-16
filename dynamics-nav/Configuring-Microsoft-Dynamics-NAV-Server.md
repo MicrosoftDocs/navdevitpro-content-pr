@@ -48,7 +48,7 @@ After you install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can cha
 
 If you use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or modify the CustomSettings.config file directly, you must restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance before any changes can take effect.
 
-If you use the [Set-NAVServerConfiguration cmdlet](https://go.microsoft.com/fwlink/?linkid=401394), whether you need to restart the server instance will depend on the configuration setting that you change. There are several settings that are *dynamically updatable*, which means that a server instance restart is not required after modification. In the tables that follow, these settings are indicated by the text **Dynamically Updatable: Yes**.
+If you use the [Set-NAVServerConfiguration cmdlet](https://go.microsoft.com/fwlink/?linkid=401394), whether you need to restart the server instance will depend on the configuration setting that you change. There are several settings that are *dynamically updatable*, which means that a server instance restart is not necessariyl required after modification. For more information, see [Modifying dynamically updatable settings](Configuring-Microsoft-Dynamics-NAV-Server.md#DynamicSettings). In the tables that follow, these settings are indicated by the text **Dynamically Updatable: Yes**.
 
 ##  <a name="NavAdminSettings"></a>[!INCLUDE[nav_server](includes/nav_server_md.md)] Instance Settings  
 This section describes all the configuration settings for a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The settings are grouped according to the tabs under which they appear in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].
@@ -264,10 +264,10 @@ The main cmdlet for configuring a server instance is the Set-NAVServerConfigurat
 Set-NAVServerConfiguration -ServerInstance "MyInstance" -KeyName "DatabaseServer" -KeyValue "DatabaseServer.Domain.Com"  
 ```  
 
-### Modifying dynamically updatable settings
-For dynamically updatable settings, use the `-ApplyTo` parameter to specify where to apply the change. The change can be written directly to the configuration file (CustomSettings.config) and/or applied to the current server instance state. Where you apply the change will determine whether a server instance restart is required for the change to take effect. The parameter has three values, as described in the following table:
+### <a name="DynamicSettings"></a>Modifying dynamically updatable settings
+For dynamically updatable settings, use the `-ApplyTo` parameter to specify how to apply the change. The change can be written directly to the configuration file (CustomSettings.config) and/or applied to the current server instance state. The option you choose will determine whether a server instance restart is required for the change to take effect. The parameter has three options, as described in the following table:
 
-|  Value  |Description  |
+|  Options  |Description  |
 |-----------|-----------|
 |ConfigFile or 0|Saves the change to the configuration file of the server instance. The change will not take effect until the server instance is restarted.|
 |Memory or 1|Applies the change only to the server instance's current state. The changes take effect immediately, without a server instance restart. The change is stored in memory, so the next time the server instance is restarted, it reverts to the setting in the configuration file.|
