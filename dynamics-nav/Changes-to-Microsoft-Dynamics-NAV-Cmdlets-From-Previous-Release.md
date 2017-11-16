@@ -29,25 +29,7 @@ The following cmdlets are new in the Microsoft.Dynamics.NAV.Management module.
 |[Start-NAVServerInstance](Microsoft.Dynamics.NAV.Management/Restart-NAVServerInstance.md)| Starts a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance. |
 |[Stop-NAVServerInstance](Microsoft.Dynamics.NAV.Management/Restart-NAVServerInstance.md)| Stops a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance. |
 |[Set-NAVApplication](Microsoft.Dynamics.NAV.Management/Set-NAVApplication.md)|Sets the application version or application family fields in the application database connected to the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
-
-<!-->
-|Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
-|------------|---------------------------------------|
-|[Copy-NAVTenantData](Microsoft.Dynamics.NAV.Management/Copy-NAVTenantData.md)|Copies tenant data from one tenant to another tenant. |
-|[Dismount-NAVTenantDatabase](Microsoft.Dynamics.NAV.Management/Dismount-NAVTenantDatabase.md)|Dismounts a tenant database on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
-|[Get-NAVTenantDatabase](Microsoft.Dynamics.NAV.Management/Get-NAVTenantDatabase.md)|Specifies a setting in an application-specific configuration file for a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
-|[Mount-NAVTenantDatabase](Microsoft.Dynamics.NAV.Management/Mount-NAVTenantDatabase.md)| Mounts a tenant database on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
-|[Move-NAVTenant](Microsoft.Dynamics.NAV.Management/Move-NAVTenant.md)| Moves a tenant to another tenant database.|
-|[New-NAVTenant](Microsoft.Dynamics.NAV.Management/New-NAVTenant.md)| Creates a new tenant in a tenant database. |
-|[Restart-NAVServerInstance](Microsoft.Dynamics.NAV.Management/Restart-NAVServerInstance.md)| Restarts a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance. |
-|[Start-NAVServerInstance](Microsoft.Dynamics.NAV.Management/Restart-NAVServerInstance.md)| Starts a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance. |
-|[Stop-NAVServerInstance](Microsoft.Dynamics.NAV.Management/Restart-NAVServerInstance.md)| Stops a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance. |
-|[Set-NAVApplication](Microsoft.Dynamics.NAV.Management/Set-NAVApplication.md)|Sets the application version or application family fields in the application database connected to the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
-|[Set-NAVTenant](Microsoft.Dynamics.NAV.Management/Set-NAVTenant.md)|Specifies settings for a tenant in a tenant database that is mounted on a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
-|[Sync-NAVTenantDatabase](Microsoft.Dynamics.NAV.Management/Sync-NAVTenantDatabase.md)|Synchronizes a tenant database on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
-|[Test-NAVTenantDatabaseSchema](Microsoft.Dynamics.NAV.Management/Test-NAVTenantDatabaseSchema.md)| Checks for any errors in the tenant database schema.|
-
--->
+|[Set-NAVTenant](Microsoft.Dynamics.NAV.Management/Set-NAVTenant.md)|Specifies settings for a tenant that is mounted on a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
 
 The following cmdlets have been changed in the Microsoft.Dynamics.NAV.Management module.
 
