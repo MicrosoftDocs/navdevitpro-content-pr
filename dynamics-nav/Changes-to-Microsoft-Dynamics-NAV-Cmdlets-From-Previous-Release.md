@@ -22,6 +22,15 @@ The following sections provide an overview of the new, changed, and removed cmdl
 
 The following cmdlets are new in the Microsoft.Dynamics.NAV.Management module. 
 
+
+|Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
+|------------|---------------------------------------|
+|[Restart-NAVServerInstance](Microsoft.Dynamics.NAV.Management/Restart-NAVServerInstance.md)| Restarts a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance. |
+|[Start-NAVServerInstance](Microsoft.Dynamics.NAV.Management/Restart-NAVServerInstance.md)| Starts a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance. |
+|[Stop-NAVServerInstance](Microsoft.Dynamics.NAV.Management/Restart-NAVServerInstance.md)| Stops a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance. |
+|[Set-NAVApplication](Microsoft.Dynamics.NAV.Management/Set-NAVApplication.md)|Sets the application version or application family fields in the application database connected to the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
+
+<!-->
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
 |------------|---------------------------------------|
 |[Copy-NAVTenantData](Microsoft.Dynamics.NAV.Management/Copy-NAVTenantData.md)|Copies tenant data from one tenant to another tenant. |
@@ -38,13 +47,15 @@ The following cmdlets are new in the Microsoft.Dynamics.NAV.Management module.
 |[Sync-NAVTenantDatabase](Microsoft.Dynamics.NAV.Management/Sync-NAVTenantDatabase.md)|Synchronizes a tenant database on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
 |[Test-NAVTenantDatabaseSchema](Microsoft.Dynamics.NAV.Management/Test-NAVTenantDatabaseSchema.md)| Checks for any errors in the tenant database schema.|
 
+-->
+
 The following cmdlets have been changed in the Microsoft.Dynamics.NAV.Management module.
 
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
 |------------|---------------------------------------|  
 |[Dismount-NAVtenant](Microsoft.Dynamics.NAV.Management/Dismount-NAVtenant.md)|-InptTenantRuntimeSettings and -InputTenantSettings parameters have been removed.<br /><br />-ExclusiveAccessTicket parameter has been added.|
 |[Get-NAVTenant](Microsoft.Dynamics.NAV.Management/Get-NAVTenant.md)|-ForceRefresh parameter has been added |
-|[Mount-NAVtenant](Microsoft.Dynamics.NAV.Management/Mount-NAVtenant.md)|-TenantDatabaseId and -Async parameters have been added.|
+|[Mount-NAVtenant](Microsoft.Dynamics.NAV.Management/Mount-NAVtenant.md)|-Async parameter has been added.|
 |[Start-NAVDataUpgrade](Microsoft.Dynamics.NAV.Management/Start-NAVDataUpgrade.md)|-SingleTransaction, -SkipAppVersionCheck, and -SkipIfAlreadyUpgraded parameters have been added.|
 |[Sync-NAVTenant](Microsoft.Dynamics.NAV.Management/Sync-NAVTenant.md)|-CommitPerTable parameter added.|
 |[New-NAVServerInstance](Microsoft.Dynamics.NAV.Management/New-NAVServerInstance.md)|-DeveloperServicesPort has been added.|

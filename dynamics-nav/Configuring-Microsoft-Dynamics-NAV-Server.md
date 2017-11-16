@@ -11,23 +11,23 @@ author: jswymer
 
 **Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Configuring-Microsoft-Dynamics-NAV-Server-2017.md).
 
-When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can provide configuration information that is then used as the configuration for the default [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. This information is stored in a configuration file for the server instance called CustomSetting.config. The default location of the CustomSettings.config file is *[!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Service*. 
+When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install [!INCLUDE[nav_server](includes/nav_server_md.md)], you provide information that is then used as the configuration for the default [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. This information is stored in a configuration file for the server instance called CustomSetting.config. The default location of the CustomSettings.config file is *[!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Service*. 
 
-After you install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can change any of the settings that you provided during Setup, and other settings.
+After you install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can change any of the settings that you provided during Setup, plus several other settings that were not available to you in Setup.
 
 > [!NOTE]  
->  Each [!INCLUDE[nav_server](includes/nav_server_md.md)] instance has its own CustomSettings.config file, with its own settings.  
+>  Each [!INCLUDE[nav_server](includes/nav_server_md.md)] instance has its own CustomSettings.config file.  
 
 ## Configuring [!INCLUDE[nav_server](includes/nav_server_md.md)] in Setup 
-You can configure the default instance of [!INCLUDE[nav_server](includes/nav_server_md.md)] when running [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup. You must first select [!INCLUDE[nav_server](includes/nav_server_md.md)] as a component to install. To do this, select one of the following [Installation Options](Installation-Options.md) that includes [!INCLUDE[nav_server](includes/nav_server_md.md)]:  
+You configure the default instance of [!INCLUDE[nav_server](includes/nav_server_md.md)] by running [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and selecting one of the following [Installation Options](Installation-Options.md): 
 
--   [Server Option](Server-Option.md)  
-
+-   [Demo Option](Demo-Option.md)
+-   [Server Option](Server-Option.md)
 -   [Developer Option](Developer-Option.md)  
 
 You can also customize your installation and the list of components to install. For more information, see [How to: Choose Components to Install](How-to--Choose-Components-to-Install.md).  
 
-After you specify an installation option or customize your component list, the **Specify parameters** pane is displayed in Setup. The list of parameters that you see in the **Specify parameters** pane depends on which components you have selected for configuration. Setup provides a short description for each parameter. For a description of the most important parameters for [!INCLUDE[nav_server](includes/nav_server_md.md)], see [Server Option](Server-Option.md). 
+After you specify an installation option or customize your component list, the **Specify parameters** pane is displayed in Setup. The list of parameters that you see in the **Specify parameters** pane depends on which components you have selected for configuration. Setup provides a short description for each parameter. For a description of the most important parameters for [!INCLUDE[nav_server](includes/nav_server_md.md)], see [Server Option](Server-Option.md). When you have finished entering values, choose the **Apply** button. 
 
 ## Configuring [!INCLUDE[nav_server](includes/nav_server_md.md)] After Installation  
 After you install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can change the configuration settings in the CustomSettings.config file of a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance in the following ways:  
@@ -44,8 +44,11 @@ After you install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can cha
 
     We recommend that you do not directly edit the configuration file, because if you make any errors in typing, then you may not be able to start the instance.  
 
-> [!IMPORTANT]  
->  After you modify a [!INCLUDE[nav_server](includes/nav_server_md.md)] setting, you must restart the associated [!INCLUDE[nav_server](includes/nav_server_md.md)] instance before any changes can take effect.  
+### Restarting [!INCLUDE[nav_server](includes/nav_server_md.md)] after modifications
+
+If you use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or modify the CustomSettings.config file directly, you must restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance before any changes can take effect.
+
+If you use the [Set-NAVServerConfiguration cmdlet](https://go.microsoft.com/fwlink/?linkid=401394), whether you need to restart the server instance will depend on the configuration setting that you change. There are several settings that are *dynamically updatable*, which means that a server instance restart is not necessariyl required after modification. For more information, see [Modifying dynamically updatable settings](Configuring-Microsoft-Dynamics-NAV-Server.md#DynamicSettings). In the tables that follow, these settings are indicated by the text **Dynamically Updatable: Yes**.
 
 ##  <a name="NavAdminSettings"></a>[!INCLUDE[nav_server](includes/nav_server_md.md)] Instance Settings  
 This section describes all the configuration settings for a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The settings are grouped according to the tabs under which they appear in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].
@@ -125,7 +128,7 @@ The following table describes fields on the **General** tab in the [!INCLUDE[nav
 |Max Upload Size|ClientServicesMaxUploadSize|The maximum size of files that can be uploaded to or downloaded from [!INCLUDE[nav_server](includes/nav_server_md.md)], in megabytes. Use this setting to avoid out-of-memory errors.<br /><br /> Default: 30<br />Dynamically Updatable: No|  
 |Operation Timeout|ClientServicesOperationTimeout|The maximum time that [!INCLUDE[nav_server](includes/nav_server_md.md)] can take to return a call from the client.<br /><br /> Time span format: \[dd.\]hh:mm:ss\[.ff\]<br /><br /> Where:<br />dd: days<br />hh: hours<br /> mm: minutes<br />ss: seconds<br />ff: hundredths of a second<br /><br /> You can also use **MaxValue** as a value to indicate no time-out. <br /><br /> Default: MaxValue<br />Dynamically Updatable: No|  
 |Port|ClientServicesPort|The listening HTTP port for client services.<br /><br /> Valid range: 1 - 65535<br />Default: 7046<br />Dynamically Updatable: No|  
-|Prohibited File Types|ClientServicesProhibitedFileTypes|Specifies a series of file name extensions, delimited by semi-colons. [!INCLUDE[nav_server](includes/nav_server_md.md)] will not store files of any of the specified types when requested by clients.<br /><br /> Example values:<br /><br />\* \(asterisk\): All file types are prohibited.<br /><br /> Empty string \(""\): All file types are allowed.<br /><br /> List of file types separated by semi-colons. For example, "txt;xml;pdf":<br /><br /> [!INCLUDE[nav_server](includes/nav_server_md.md)] will not store files of any of the specified types when requested by clients.<br /><br /> Default: ade;adp;app;asp;bas;bat;chm;cmd;com;cpl;csh;exe;fxp;gadget;hlp;hta;inf;ins;isp;its;js;jse;ksh;lnk;mad;maf;mag;mam;maq;mar;mas;mat;mau;mav;maw;mda;mdb;mde;mdt;mdw;mdz;msc;msi;msp;mst;ops;pcd;pif;prf;prg;pst;reg;scf;scr;sct;shb;shs;url;vb;vbe;vbs;vsmacros;vss;vst;vsw;ws;wsc;wsf;wsh<br />Dynamically Updatable: No|  
+|Prohibited File Types|ClientServicesProhibitedFileTypes|Specifies a series of file name extensions, delimited by semi-colons. [!INCLUDE[nav_server](includes/nav_server_md.md)] will not store files of any of the specified types when requested by clients.<br /><br /> Example values:<br /><br />\* \(asterisk\): All file types are prohibited.<br /><br /> Empty string \(""\): All file types are allowed.<br /><br /> List of file types separated by semi-colons. For example, "txt;xml;pdf":<br /><br /> [!INCLUDE[nav_server](includes/nav_server_md.md)] will not store files of any of the specified types when requested by clients.<br /><br /> Default: ade;adp;app;asp;bas;bat;chm;cmd;com;cpl;<br />csh;exe;fxp;gadget;hlp;hta;inf;ins;isp;its;js;jse;<br />ksh;lnk;mad;maf;mag;mam;maq;mar;mas;mat;mau;<br />mav;maw;mda;mdb;mde;mdt;mdw;mdz;msc;msi;<br />msp;mst;ops;pcd;pif;prf;prg;pst;reg;scf;scr;<br />sct;shb;shs;url;vb;vbe;vbs;vsmacros;vss;<br />vst;vsw;ws;wsc;wsf;wsh<br />Dynamically Updatable: No|  
 |Protection Level|ClientServicesProtectionLevel|Specifies the security services for protecting the data stream between clients and [!INCLUDE[nav_server](includes/nav_server_md.md)].<br /><br /> All [!INCLUDE[nav_windows](includes/nav_windows_md.md)] clients connecting to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must have the same ProtectionLevel value in their ClientUserSettings.config files. For more information, see [Configuring the Windows Client](Configuring-the-Windows-Client.md).<br /><br /> For background information about transport security, see [Understanding Protection Level](http://msdn.microsoft.com/en-us/library/aa347692.aspx) \(links to MSDN Library\).<br /><br /> Values: EncryptAndSign, Sign, None<br />Default: EncryptAndSign<br />Dynamically Updatable: No|  
 |Reconnect Period|ClientServicesReconnectPeriod|The time during which a client can reconnect to a running instance of [!INCLUDE[nav_server](includes/nav_server_md.md)].<br /><br /> Time span format: \[dd.\]hh:mm:ss\[.ff\]<br /><br /> Where:<br />dd: days<br /> hh: hours<br /> mm: minutes<br /> ss: seconds<br /> ff: hundredths of a second<br /><br /> You can also use **MaxValue** as a value to indicate no time limit.<br /><br /> Default: 00:10:00<br />Dynamically Updatable: No|  
 |Token Signing Key|ClientServicesTokenSigningKey|Specifies the signing information that you obtain from the Azure management portal. The parameter value is a 256-bit symmetric token signing key for use with Azure Access Control service \(ACS\). This parameter is relevant only when **Credential Type**, on the **General** tab, is set to **AccessControlService**.<br /><br />Default: EncryptAndSign<br />Dynamically Updatable: No|  
@@ -247,26 +250,36 @@ The following table describes fields on the **Development** tab in the [!INCLUDE
 |Enable Developer Service Endpoint|DeveloperServicesEnabled|Specifies whether the Developer service endpoint will be enabled.<br /><br />Default: Not enabled<br />Dynamically Updatable: No|
 |Enable Loading Application Symbol References at Server Startup|EnableSymbolLoadingAtServerStartup|Specifies whether application symbol references should be loaded at server startup. This setting must be enabled to allow any symbol generation. If the setting is not enabled, the **generatesymbolreference** setting does not have any effect. For more information, see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md).<br /><br />Default: Not enabled<br />Dynamically Updatable: No|
 |Enable SSL|DeveloperServicesSSLEnabled|Specifies whether SSL (HTTPS) is enabled for the developer web service port.<br /><br />Default: Not enabled<br />Dynamically Updatable: No|
-|HttpClient AL Function Maximum Timeout|NavHttpClientMaxTimeout|Specifies the maximum allowed timeout value in minutes that can be set for the HttpClient Timeout AL function.<br /><br />Default: 00:05:00<br />Dynamically Updatable: No|
-|HttpClient AL Function Response Size|NavHttpClientMaxResponseContentSize|Specifies the maximum size in megabytes of a response buffer used by the HttpClient AL function.<br /><br />Default: 15<br />Dynamically Updatable: No|
+|HttpClient AL Function Maximum Timeout|NavHttpClientMaxTimeout|Specifies the maximum allowed timeout value in minutes that can be set for the HttpClient Timeout AL function.<br /><br />Default: 00:05:00<br />Dynamically Updatable: Yes|
+|HttpClient AL Function Response Size|NavHttpClientMaxResponseContentSize|Specifies the maximum size in megabytes of a response buffer used by the HttpClient AL function.<br /><br />Default: 15<br />Dynamically Updatable: Yes|
 |Port|DeveloperServicesPort|The listening HTTP port for Microsoft Dynamics NAV Developer web services.<br /><br />Valid range: 1 - 65535<br />Default: 7049<br />Dynamically Updatable: No|
 
 
-##  <a name="UsingPowerShell"></a> Using Microsoft Dynamics NAV Administration Shell Cmdlets to Modify Settings  
-The [!INCLUDE[nav_shell](includes/nav_shell_md.md)] includes several cmdlets that enable you to create and modify [!INCLUDE[nav_server](includes/nav_server_md.md)] instances. Use the `Set-` cmdlets to modify a setting on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For example, you can change the value for `DatabaseServer` to `DatabaseServer.Domain.Com` for the server instance named `MyInstance` by executing this cmdlet:  
+##  <a name="UsingPowerShell"></a> Using [!INCLUDE[nav_shell](includes/nav_shell_md.md)] to Modify Server Instance Settings  
+The [!INCLUDE[nav_shell](includes/nav_shell_md.md)] includes several `Set-` cmdlets that enable you to create and modify [!INCLUDE[nav_server](includes/nav_server_md.md)] instances.
+
+The main cmdlet for configuring a server instance is the Set-NAVServerConfiguration cmdlet. You can use this cmdlet to change any of the configuration settings that are listed in the previous sections. To change a configuration setting, you set `-KeyName` parameter to the **Key Name** that corresponds to the setting, and set the `-KeyValue`parameter to the new value. For example, you can change the value for `DatabaseServer` to `DatabaseServer.Domain.Com` for the server instance named `MyInstance` by executing this cmdlet:  
 
 ```  
-Set-NAVServerConfiguration MyInstance -KeyName DatabaseServer -KeyValue "DatabaseServer.Domain.Com"  
+Set-NAVServerConfiguration -ServerInstance "MyInstance" -KeyName "DatabaseServer" -KeyValue "DatabaseServer.Domain.Com"  
 ```  
 
-Quotation marks are required for all values. 
-To display all the `Set-` cmdlets on the Windows PowerShell console, use the following command:  
+### <a name="DynamicSettings"></a>Modifying dynamically updatable settings
+For dynamically updatable settings, use the `-ApplyTo` parameter to specify how to apply the change. The change can be written directly to the configuration file (CustomSettings.config) and/or applied to the current server instance state. The option you choose will determine whether a server instance restart is required for the change to take effect. The parameter has three options, as described in the following table:
+
+|  Options  |Description  |
+|-----------|-----------|
+|ConfigFile or 0|Saves the change to the configuration file of the server instance. The change will not take effect until the server instance is restarted.|
+|Memory or 1|Applies the change only to the server instance's current state. The changes take effect immediately, without a server instance restart. The change is stored in memory, so the next time the server instance is restarted, it reverts to the setting in the configuration file.|
+|All or 2|Applies the change to the server instance's current setting state (in memory) and to the configuration file. The changes take effect immediately, without a server instance restart.|
+
+For example, the following command sets the value for the `MaxStreamReadSize` key to `42424242`. A server instance restart is not required. 
 
 ```  
-Get-Help Set-NAVServer  
-```  
+Set-NAVServerConfiguration -ServerInstanceMyInstance -KeyName MaxStreamReadSize -KeyValue 42424242 -ApplyTo Memory  
+```
 
- For more information, see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
+For more information about running the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
 
 ## See Also  
 [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)   
