@@ -11,6 +11,9 @@ ms.prod: "dynamics-nav-2017"
 manager: edupont
 ---
 # How to: Configure the Microsoft Dynamics NAV Web Client for ACS
+
+[!INCLUDE[ACS_md](includes/ACS_md.md)]
+
 You configure the [!INCLUDE[nav_web](includes/nav_web_md.md)] for Access Control Service \(ACS\) by editing the web.config file. The web.config file is an .xml file that you can edit with a text editor, such as Notepad. By default, the web.config file is located in the [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Web Client\\ folder.  
 
  Before you begin this procedure, you must perform the steps to configure your deployment for ACS. For more information, see [Authenticating Users with Microsoft Azure Access Control Service](Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md).  
