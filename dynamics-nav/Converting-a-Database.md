@@ -113,7 +113,7 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
 
      [!INCLUDE[navnow](includes/navnow_md.md)] will now convert the database. This includes an upgrade of system tables, and an upgrade of all reports to support Report Viewer 2012.  
 
-4.  When you are notified that the conversion was successful, choose the **OK** button.  
+4.  When you are notified that the conversion was successful, choose the **OK** button.
 
 5.  Connect a [!INCLUDE[nav2018_md](includes/nav2018_md.md)] Server instance to the converted database.  
 
@@ -127,7 +127,11 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
 
      For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md) or [Database Information](uiref/-$-S_2349-Database-Information-$-.md).  
 
-7.  Run the schema synchronization with validation to complete the database conversion.  
+7.  Compile all objects.
+
+    You can use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe. For more information, see [Compiling Objects](compiling-objects.md).
+
+8.  Run the schema synchronization with validation to complete the database conversion.  
 
     For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
 

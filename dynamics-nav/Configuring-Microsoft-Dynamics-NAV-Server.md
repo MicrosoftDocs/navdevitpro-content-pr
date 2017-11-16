@@ -267,13 +267,13 @@ Set-NAVServerConfiguration -ServerInstance "MyInstance" -KeyName "DatabaseServer
 ### <a name="DynamicSettings"></a>Modifying dynamically updatable settings
 For dynamically updatable settings, use the `-ApplyTo` parameter to specify how to apply the change. The change can be written directly to the configuration file (CustomSettings.config) and/or applied to the current server instance state. The option you choose will determine whether a server instance restart is required for the change to take effect. The parameter has three options, as described in the following table:
 
-|  Options  |Description  |
+|  Option |Description  |
 |-----------|-----------|
-|ConfigFile or 0|Saves the change to the configuration file of the server instance. The change will not take effect until the server instance is restarted.|
-|Memory or 1|Applies the change only to the server instance's current state. The changes take effect immediately, without a server instance restart. The change is stored in memory, so the next time the server instance is restarted, it reverts to the setting in the configuration file.|
-|All or 2|Applies the change to the server instance's current setting state (in memory) and to the configuration file. The changes take effect immediately, without a server instance restart.|
+|ConfigFile|Saves the change to the configuration file of the server instance. The change will not take effect until the server instance is restarted.|
+|Memory|Applies the change only to the server instance's current state. The changes take effect immediately, without having to restart the server instance. The change is stored in memory, so the next time the server instance is restarted, it reverts to the setting in the configuration file.|
+|All|Applies the change to the server instance's current setting state (in memory) and to the configuration file. The changes take effect immediately, without having to restart the server instance.|
 
-For example, the following command sets the value for the `MaxStreamReadSize` key to `42424242`. A server instance restart is not required. 
+For example, the following command sets the value for the `MaxStreamReadSize` key to `42424242`, without having to restart the server instance. 
 
 ```  
 Set-NAVServerConfiguration -ServerInstanceMyInstance -KeyName MaxStreamReadSize -KeyValue 42424242 -ApplyTo Memory  
