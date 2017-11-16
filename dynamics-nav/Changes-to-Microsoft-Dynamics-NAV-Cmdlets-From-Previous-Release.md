@@ -29,6 +29,7 @@ The following cmdlets are new in the Microsoft.Dynamics.NAV.Management module.
 |[Get-NAVTenantDatabase](Microsoft.Dynamics.NAV.Management/Get-NAVTenantDatabase.md)|Specifies a setting in an application-specific configuration file for a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
 |[Mount-NAVTenantDatabase](Microsoft.Dynamics.NAV.Management/Mount-NAVTenantDatabase.md)| Mounts a tenant database on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
 |[Move-NAVTenant](Microsoft.Dynamics.NAV.Management/Move-NAVTenant.md)| Moves a tenant to another tenant database.|
+|[Register-NAVTenant](Microsoft.Dynamics.NAV.Management/Register-NAVTenant.md)| Changes a buffer tenant to a normmal tenant.|
 |[New-NAVTenant](Microsoft.Dynamics.NAV.Management/New-NAVTenant.md)| Creates a new tenant in a tenant database. |
 |[Restart-NAVServerInstance](Microsoft.Dynamics.NAV.Management/Restart-NAVServerInstance.md)| Restarts a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance. |
 |[Start-NAVServerInstance](Microsoft.Dynamics.NAV.Management/Restart-NAVServerInstance.md)| Starts a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance. |
