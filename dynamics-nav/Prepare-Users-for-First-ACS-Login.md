@@ -11,6 +11,9 @@ ms.assetid: 1ee054ce-dbd4-4954-8ef0-212bee274dc0
 caps.latest.revision: 9
 ---
 # Prepare Users for First ACS Login
+
+[!INCLUDE[ACS_md](includes/ACS_md.md)]
+
 After you have completed all of the steps needed to use Access Control service \(ACS\) to authenticate users, you can set up new users to use ACS, or you can modify existing users to use ACS. You must send the **User Name** and **Authentication Key** values to the users and instruct them to submit these values when they log on to a [!INCLUDE[navnow](includes/navnow_md.md)] client, either [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
  For more information, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md).  

@@ -12,6 +12,9 @@ ms.assetid: e863d17a-0bab-48e9-bf64-f21b8b74f19e
 ms.author: jswymer
 ---
 # How to: Configure a Deployment for ACS
+
+[!INCLUDE[ACS_md](includes/ACS_md.md)]
+
 To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Microsoft Azure Access Control service \(ACS\) authentication requires the following series of configuration procedures in the Azure management portal:  
 
 -   Create a namespace.  

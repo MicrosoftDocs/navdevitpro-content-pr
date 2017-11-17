@@ -12,6 +12,9 @@ ms.assetid: da4d2148-9846-43f6-a12f-d0af70f23d70
 ms.author: jswymer
 ---
 # How to: Configure the Microsoft Dynamics NAV Windows Client for ACS
+
+[!INCLUDE[ACS_md](includes/ACS_md.md)]
+
 You configure the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] for Access Control Service \(ACS\) by editing the client configuration file \(ClientUserSettings.config\).  
 
  Before you begin this procedure, you must perform the steps to configure your deployment for ACS. For more information, see [Authenticating Users with Microsoft Azure Access Control Service](Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md).  
