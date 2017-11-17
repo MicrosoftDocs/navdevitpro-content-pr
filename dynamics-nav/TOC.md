@@ -46,7 +46,7 @@
 ## [Debugging](Debugging.md)
 ## [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)
 <!-- new -->
-# [Developing Extensions Using the New Development Environment - Preview](developer/devenv-dev-overview.md)
+# [Developing Extensions V2 - Preview](developer/devenv-dev-overview.md)
 ## [Getting Started](developer/devenv-get-started.md)
 ## [Using Designer](developer/devenv-inclient-designer.md)
 ## [Keyboard Shortcuts](developer/devenv-keyboard-shortcuts.md)
@@ -283,10 +283,10 @@
 ## [Upgrading the Data](Upgrading-the-Data.md)
 ## [Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md)
 # [Windows PowerShell Cmdlets for Microsoft Dynamics NAV](Windows-PowerShell-Cmdlets-for-Microsoft-Dynamics-NAV.md)
-## [Administration Cmdlets for Dynamics NAV](Microsoft.Dynamics.Nav.Management/Microsoft.Dynamics.Nav.Management.md)
-## [Administration Cmdlets for Dynamics NAV Extensions](Microsoft.Dynamics.Nav.Apps.Management/Microsoft.Dynamics.Nav.Apps.Management.md)
-## [Development Cmdlets for Dynamics NAV](Microsoft.Dynamics.Nav.Model.Tools/Microsoft.Dynamics.Nav.Model.Tools.md)
-## [Development Cmdlets for Dynamics NAV Extensions](Microsoft.Dynamics.Nav.Apps.Tools/Microsoft.Dynamics.Nav.Apps.Tools.md)
+## [Administration Cmdlets for Dynamics NAV](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management)
+## [Administration Cmdlets for Dynamics NAV Extensions](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management)
+## [Development Cmdlets for Dynamics NAV](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.model.tools)
+## [Development Cmdlets for Dynamics NAV Extensions](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.tools)
 # [Legal Artefacts for Dynamics NAV 2017](terms/legal.md)
 <!-- preview of Graph API starts-->
 # [Preview of API Reference for Dynamics 365 for Financials](fin-graph/index.md)

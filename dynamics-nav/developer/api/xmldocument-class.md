@@ -19,6 +19,9 @@ author: SusanneWindfeldPedersen
 # XmlDocument Class
 Represents an XML document. This class can be used to load, validate, edit, add, and position XML in a document.
 
+> [!NOTE]
+> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+
 The following methods are available on the XmlDocument class.  
   
 |Method name|Description|  
