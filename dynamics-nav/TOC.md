@@ -46,7 +46,7 @@
 ## [Debugging](Debugging.md)
 ## [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)
 <!-- new -->
-# [Developing Extensions Using the New Development Environment - Preview](developer/devenv-dev-overview.md)
+# [Developing Extensions V2 - Preview](developer/devenv-dev-overview.md)
 ## [Getting Started](developer/devenv-get-started.md)
 ## [Using Designer](developer/devenv-inclient-designer.md)
 ## [Keyboard Shortcuts](developer/devenv-keyboard-shortcuts.md)
