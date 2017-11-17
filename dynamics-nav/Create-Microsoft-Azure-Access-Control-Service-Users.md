@@ -11,6 +11,9 @@ ms.assetid: 6a36517e-3f9d-44aa-875d-39a77ab24bc7
 caps.latest.revision: 8
 ---
 # Create Microsoft Azure Access Control Service Users
+
+[!INCLUDE[ACS_md](includes/ACS_md.md)]
+
 Microsoft Azure Access Control service \(ACS\) users are one of four types of users that you can create in [!INCLUDE[navnow](includes/navnow_md.md)] clients. For more information about how to create one or more users for ACS authentication, see the "To create a new user for AccessControlService authentication" section in [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md). Follow the instructions  and make a note of the user names and authentication keys for any users that you create.  
   
 > [!IMPORTANT]  
