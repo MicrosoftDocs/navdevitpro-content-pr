@@ -40,7 +40,7 @@ Several properties have been renamed, to mention some:
 |DataCaptionExpr|DataCaptionExpression|
 |Layout|GridLayout|
 
-> !NOTE  
+> [!NOTE]
 > Property values are considered as syntax elements; thus they should follow the standard AL escaping rules. 
 
 ## Multilanguage properties
@@ -72,7 +72,7 @@ For syntax examples, see [Page Object](devenv-page-object.md).
 Controls, actions, and methods names must be unique on pages. In C/SIDE, you could create a Part control with the same name as a method, which would give you an error at runtime. This is now prevented, by disallowing duplicates. Similarly, trigger and trigger event names are disallowed on matching application object types. Likewise, actions and fields could have same names before, but that would have prevented page testability access, and will now throw a compilation error. 
 
 
-> !NOTE  
+> [!NOTE]
 > Name on Controls and Actions on Pages is now mandatory. 
 
 ## Property dependencies
