@@ -21,7 +21,7 @@ Extensions are a programming model where functionality is defined as an addition
 
 If you're new to building extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started](devenv-get-started.md) to set up the tools.
 
-## Understanding objects in the Dynamics 365 for Financials development environment
+## Understanding objects in the development environment
 All functionality in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] is coded in objects. Table objects define the table schema that holds data, page objects represent the pages seen in the user interface and codeunits contain code for logical calculations and for the application behavior. These objects are stored as code, known as AL code, and are saved in files with the ```.al``` file extension.  
 
 > [!NOTE]  
