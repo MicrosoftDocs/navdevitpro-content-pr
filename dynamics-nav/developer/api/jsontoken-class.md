@@ -17,8 +17,10 @@ author: SusanneWindfeldPedersen
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # JsonToken Class
-
 A JsonToken object is a container for any well-formed JSON data. A default JsonToken object contains the JSON value of NULL.
+
+> [!NOTE]
+> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
 
 The following methods are available on JsonToken objects.
 

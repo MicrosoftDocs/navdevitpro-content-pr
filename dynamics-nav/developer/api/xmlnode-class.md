@@ -19,6 +19,9 @@ author: SusanneWindfeldPedersen
 # XmlNode Class
 Represents a single node in the XML document.
 
+> [!NOTE]
+> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+
 The following methods are available on the XmlNode class.  
   
 |Method name|Description|  
