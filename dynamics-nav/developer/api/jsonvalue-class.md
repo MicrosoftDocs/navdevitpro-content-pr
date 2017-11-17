@@ -19,6 +19,9 @@ author: SusanneWindfeldPedersen
 # JsonValue Class
 JsonValue is a container for any well-formed fundamental JSON value. A default JsonValue is set to the JSON value of NULL.
 
+> [!NOTE]
+> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+
 The following methods are available on the JsonValue class.
 
 |Method name|Description|

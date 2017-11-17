@@ -70,8 +70,8 @@ The following sections provide an overview of the new, changed, and removed cmdl
 |[New-NAVCrmTable](Microsoft.Dynamics.Nav.Model.Tools/New-NAVCrmTable.md)|*AuthenticationType* parameter added.|
 
 ## See Also  
-[Administration Cmdlets for Microsoft Dynamics NAV](Microsoft.Dynamics.Nav.Management/Microsoft.Dynamics.Nav.Management.md)  
-[Development Cmdlets for Microsoft Dynamics NAV](Microsoft.Dynamics.Nav.Model.Tools/Microsoft.Dynamics.Nav.Model.Tools.md)  
-[Administration Cmdlets for Microsoft Dynamics NAV Extensions](Microsoft.Dynamics.Nav.Apps.Tools/Microsoft.Dynamics.Nav.Apps.Tools.md)  
-[Development Cmdlets for Microsoft Dynamics NAV Extensions](Microsoft.Dynamics.Nav.Apps.Tools/Microsoft.Dynamics.Nav.Apps.Tools.md)  
+[Administration Cmdlets for Microsoft Dynamics NAV](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management)  
+[Development Cmdlets for Microsoft Dynamics NAV](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.model.tools)  
+[Administration Cmdlets for Microsoft Dynamics NAV Extensions](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management)  
+[Development Cmdlets for Microsoft Dynamics NAV Extensions](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.tools)  
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)
