@@ -19,6 +19,9 @@ author: SusanneWindfeldPedersen
 # XmlDeclaration Class
 Represents the XML declaration node.
 
+> [!NOTE]
+> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+
 The following methods are available on the XmlDeclaration class.  
   
 |Method name|Description|  

@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -30,8 +31,11 @@
     "externalReference": [],
     "globalMetadata": {
       "author": "jswymer", 
+      "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "searchScope": ["DynamicsNAV"],
-      "titleSuffix": "Dynamics NAV"},
+      "titleSuffix": "Dynamics NAV",
+      "breadcrumb_path": "/dynamics-nav/bread/toc.json"
+    },
     "fileMetadata": {},
     "template": [
       null
