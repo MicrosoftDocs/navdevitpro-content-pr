@@ -19,7 +19,7 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 Coming from the Dynamics NAV Development Environment and C/SIDE, there are some differences and optimizations that you should familiarize yourself with. The following sections go through these changes.  
 
 ## Data types
-|C/SIDE|AL Development Environment|
+|C/SIDE|AL Language Development Environment|
 |------|---------------------------|
 |Dates are parsed based on culture settings.| Locale independent and supports only: ```yyyy-mm-ddD```.|
 |Boolean values could be expressed as **yes**/**no**.| Boolean values are expressed as **true**/**false**.|
@@ -27,14 +27,14 @@ Coming from the Dynamics NAV Development Environment and C/SIDE, there are some 
 |The largest constant integer could be `999999999999999`. | Transforms to `999'999'999'999'999.0`, a decimal value. In AL, this can be expressed as `999999999999999.0` or `999999999999999L`.|
 
 ## Syntax updates
-|C/SIDE|AL Development Environment|
+|C/SIDE|AL Language Development Environment|
 |------|---------------------------|
 |The token for multilanguage comment is @@@.|A multilanguage comment is marked with Comment.|
 |Supports TryFunction on code developed in C/SIDE.|Supports calling referenced TryFunctions from W1.|  
 
 Several properties have been renamed, to mention some:
 
-|C/SIDE|AL Development Environment|
+|C/SIDE|AL Language Development Environment|
 |------|---------------------------|
 |AutoFormatExpr|AutoFormatExpression|   
 |DataCaptionExpr|DataCaptionExpression|
@@ -49,7 +49,7 @@ With the introduction of .xliff files, the ML properties, such as **CaptionML** 
 ## Pages
 The ```ActionContainer``` elements in AL have been renamed; the following table lists the renamed elements:
 
-|C/SIDE|AL Development Environment|
+|C/SIDE|AL Language Development Environment|
 |------|---------------------------|
 |ActionItems       | Processing    |
 |ActivityButtons   | Sections      |
