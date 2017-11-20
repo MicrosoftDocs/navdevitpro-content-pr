@@ -27,7 +27,7 @@ The following table lists the compilation errors that might occur when you build
 
 ## Codeunit 700 Page Management
 
-In C/AL code for the function `LOCAL VerifyPageID(TableID : Integer;PageID : Integer) : Boolean`, change the `PageMetadata.APIVersion` variable to `PageMetadata.SourceTable`. 
+In the codeunit's C/AL code, on the  `LOCAL VerifyPageID(TableID : Integer;PageID : Integer) : Boolean` function, change the `PageMetadata.APIVersion` variable to `PageMetadata.SourceTable`. 
 
 **Before:**
 
@@ -41,6 +41,73 @@ EXIT(PageMetadata.GET(PageID) AND (PageMetadata.APIVersion = TableID));
 EXIT(PageMetadata.GET(PageID) AND (PageMetadata.SourceTable = TableID));
 ```
 
+## Codeunit 5330 CRM Integration Management
+
+In C/AL of the `LOCAL CheckRoleAssignedToUser` function, change the `PageMetadata.APIVersion` variable change the version number of the DotNet parameters and variables from 7.0.0.0 to 8.0.0.
+
+
+**OrganizationServiceProxy parameter - before**
+```
+Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.'Microsoft.Xrm.Sdk, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+```
+
+**OrganizationServiceProxy parameter - after**
+```
+Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.'Microsoft.Xrm.Sdk, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+```
+
+
+**QueryExpression variable - before**
+```
+Microsoft.Xrm.Sdk.Query.QueryExpression.'Microsoft.Xrm.Sdk, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+```
+
+**QueryExpression variable - after**
+```
+Microsoft.Xrm.Sdk.Query.QueryExpression.'Microsoft.Xrm.Sdk, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+```
+
+
+**EntityCollection variable - Before:**
+
+```
+Microsoft.Xrm.Sdk.EntityCollection.'Microsoft.Xrm.Sdk, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+```
+
+**EntityCollection variable - After**
+```
+Microsoft.Xrm.Sdk.EntityCollection.'Microsoft.Xrm.Sdk, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+```
+
+
+
+
+
+
+
+
+:
+Microsoft.Xrm.Sdk.EntityCollection.'Microsoft.Xrm.Sdk, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+
+
+LOCAL CheckRoleAssignedToUser(VAR OrganizationServiceProxy : DotNet "Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy";UserIDGUID : GUID;RoleIDGUID : GUID) : Boolean
+CreateRoleToUserIDQueryExpression(UserIDGUID,RoleIDGUID,QueryExpression);
+IF NOT ProcessQueryExpression(OrganizationServiceProxy,EntityCollection,QueryExpression) THEN
+  ProcessConnectionFailures;
+EXIT(EntityCollection.Entities.Count > 0);
+
+LOCAL CheckRoleAssignedToUser(VAR OrganizationServiceProxy : DotNet "Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy";UserIDGUID : GUID;RoleIDGUID : GUID) : Boolean
+CreateRoleToUserIDQueryExpression(UserIDGUID,RoleIDGUID,QueryExpression);
+IF NOT ProcessQueryExpression(OrganizationServiceProxy,EntityCollection,QueryExpression) THEN
+  ProcessConnectionFailures;
+EXIT(EntityCollection.Entities.Count > 0);
+```
+
+**After:**
+
+```
+EXIT(PageMetadata.GET(PageID) AND (PageMetadata.SourceTable = TableID));
+```
 
 
 
