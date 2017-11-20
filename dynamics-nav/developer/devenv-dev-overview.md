@@ -17,7 +17,7 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 
 # Developing Extensions V2
 
-Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behavior of the solution. This section explains how you can develop extensions using the development environment for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. For an overview of developing apps for Dynamics 365 for Financials, see [aka.ms/GetStartedWithApps](devenv-develop-apps-for-fin.md).
+Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behavior of the solution. This section explains how you can develop extensions using the development environment for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. For an overview of developing apps for [!INCLUDE[d365fin_short_md](includes/d365fin_short_md.md)], see [aka.ms/GetStartedWithApps](devenv-develop-apps-for-fin.md).
 
 If you're new to building extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started](devenv-get-started.md) to set up the tools.
 
@@ -47,6 +47,7 @@ Visual Studio Code and the AL Language extension lets you do the following tasks
 
 For more information, see [Visual Studio Code Docs](https://code.visualstudio.com/docs).
 
+## Object-based extension model
 The extension model is object-based; you create new objects, and extend existing objects depending on what you want your extension to do. The following objects are available with the AL Language extension for Visual Studio Code:
 
 - [Table Object](devenv-table-object.md)
@@ -55,9 +56,12 @@ The extension model is object-based; you create new objects, and extend existing
 - [Page Extension Object](devenv-page-ext-object.md)
 - [Codeunit Object](devenv-codeunit-object.md)
 - [Report Object](devenv-report-object.md)
-- [XmlPort Object](devenv-xmlport-object.md)
+- [XmlPort Object](devenv-xmlport-object.md)  
+- [Query Object](devenv-query-object.md)  
+- [Control Add-In Object](devenv-control-addin-object.md)  
 
-For more information about the object types, see [Reference Overview](devenv-reference-overview.md).
+
+For more information about the object types, see [Development Environment](devenv-reference-overview.md).
 
 For information about AL language changes, see [Differences in the Development Environments](devenv-differences.md).
 
@@ -66,6 +70,9 @@ The Designer works in the client itself allowing design of pages using a drag-an
 
 ## Compiling and deploying
 Extensions are compiled as .app package files. The .app package file can be deployed to the Dynamics 365 for Financials server. A .app package contains the various artifacts that deliver the new functionality to the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] deployment as well as a manifest that specifies the name, publisher, version, and other attributes of the extension. 
+
+## Submitting your app
+When development of your app is done, you must check that your app meets the requirements before you submit the app for validation and eventually submission to AppSource. For more information, see [Checklist for Submitting Your App](devenv-checklist-submission.md).
 
 ## See Also
 [Getting Started](devenv-get-started.md)  
