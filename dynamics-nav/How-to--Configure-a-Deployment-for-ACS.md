@@ -10,6 +10,9 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ---
 # How to: Configure a Deployment for ACS
+
+[!INCLUDE[ACS_md](includes/ACS_md.md)]
+
 To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Microsoft Azure Access Control service \(ACS\) authentication requires the following series of configuration procedures in the Azure management portal:  
 
 -   Create a namespace.  

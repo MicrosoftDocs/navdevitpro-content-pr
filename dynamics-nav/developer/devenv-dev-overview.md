@@ -1,5 +1,5 @@
 ---
-title: "Developing Extensions"
+title: "Developing Extensions V2"
 description: "Overview of the development experience for building extensions."
 author: SusanneWindfeldPedersen
 ms.custom: na
@@ -15,13 +15,13 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-# Developing Extensions
+# Developing Extensions V2
 
 Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behavior of the solution. This section explains how you can develop extensions using the development environment for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. For an overview of developing apps for Dynamics 365 for Financials, see [aka.ms/GetStartedWithApps](devenv-develop-apps-for-fin.md).
 
 If you're new to building extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started](devenv-get-started.md) to set up the tools.
 
-## Understanding objects in the Dynamics 365 for Financials development environment
+## Understanding objects in the development environment
 All functionality in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] is coded in objects. Table objects define the table schema that holds data, page objects represent the pages seen in the user interface and codeunits contain code for logical calculations and for the application behavior. These objects are stored as code, known as AL code, and are saved in files with the ```.al``` file extension.  
 
 > [!NOTE]  
