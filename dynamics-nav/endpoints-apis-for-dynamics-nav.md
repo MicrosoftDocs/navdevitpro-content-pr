@@ -3,7 +3,7 @@ title: "Endpoints for the APIs for Microsoft Dynamics NAV"
 description: "Describing the steps you must go through to enable access to the APIs."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/15/2017
+ms.date: 11/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,9 +27,9 @@ Once you have the API access enabled, you can write code that integrates your we
 |Endpoint|`https://graph.microsoft.com/financials/beta/`| `https://api.financials.dynamics.com`|`https://<tenant url>:7048/MS/api/<API version>/`<br>  Example: `https://contoso.com:7048/api/beta`|OData base URL in installation: <br> `https://<base URL>:<port>/v1.0/api/<API version>/` <br> Example: `https://nav.contoso.com:7048/v1.0/api/beta/` <br> Must be exposed through a firewall.|
 |Availability|Always enabled|Always enabled|Always enabled|Disabled by default.<br> Must be enabled by the administrator.|
 |Authentication|Azure Active Directory (AAD)|Azure Active Directory (AAD)|Basic authentication. Username and web service access key as password.|Basic authentication.<br> Username and web service access key as password.|
-|API/Data access|Based on user's permissions|Based on user's permissions|Based on user's permissions|Based on user's permissions|
+|API/Data access|Based on user's [permissions](permissions-on-database-objects.md)|Based on user's [permissions](permissions-on-database-objects.md)|Based on user's [permissions](permissions-on-database-objects.md)|Based on user's [permissions](permissions-on-database-objects.md)|
 |API update cycle|Monthly|Monthly|Monthly|Hotfixes installed by partner|
-|Development instance|Sign up for a tenant at http://portal.microsoft.com|Sign up for a tenant at http://portal.microsoft.com|Sign up for a tenant at http://portal.microsoft.com|Get Docker instance|
+|Development instance|Sign up for a tenant at http://portal.microsoft.com|Sign up for a tenant at http://portal.microsoft.com|Sign up for a tenant at http://portal.microsoft.com|Get [Docker](https://aka.ms/developerpreview) instance|
 
 ## See Also
 [API Documentation (Preview)](fin-graph/index.md)  
