@@ -9,34 +9,33 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: rweigel
-caps.latest.revision: 18
+
 ---
 
 # Benefits and Guidelines for using a Prefix or Suffix
 
 It is **required** to use a prefix or suffix for the name property of the fields in your extension. You would then use the Caption/CaptionML values for what to display to the user.
 
-You must use a prefix/suffix when naming all new objects. When modifying a core D365 object using a Table Extension or Page Extension the prefix should be defined at the control or field level.
+You must use a prefix/suffix when naming all new objects. When you modify a core Dynamics 365 object using a Table Extension or Page Extension, the prefix must be defined at the control or field level.
 
 The following examples demonstrate how to name objects properly.
 
 **Table**
-table <your 70million+ range> **<Your Prefix>** Salesperson
+table <your 70million+ range> <Your Prefix> Salesperson
 
 **Page**
-page <your 70million+ range> **<Your Prefix>** Salesperson
+page <your 70million+ range> <Your Prefix> Salesperson
 
 **Codeunit**
-codeunit <your 70million+ range> **<Your Prefix>** Salesperson
+codeunit <your 70million+ range> <Your Prefix> Salesperson
 
 **Page Extension**
 actions
 {
     addafter(ApprovalEntries)
     {
-        action(**<Your Prefix>** Vacation)
+        action(<Your Prefix> Vacation)
 
 ## Benefits
 
