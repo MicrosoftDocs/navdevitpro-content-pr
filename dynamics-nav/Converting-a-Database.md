@@ -127,7 +127,7 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
 
      For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md) or [Database Information](uiref/-$-S_2349-Database-Information-$-.md).  
 
-7.  Compile all objects.
+7.  Compile all objects. When prompted about table synchronization, set the **Synchronize Schema** option to **Later**. Choose the option to 
 
     You can use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe. For more information, see [Compiling Objects](compiling-objects.md).
 

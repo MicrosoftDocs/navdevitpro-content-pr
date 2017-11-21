@@ -115,6 +115,124 @@ LOCAL [IntegrationEvent] OnInitialize(SecurityId : GUID;RedirectUri : Text;VAR A
 
 ## Page 9621 New Page Patterns List Part
 
+**Before**
+
+LOCAL SaveNewFieldDefinition()
+NewFieldId := NavDesigner.CreateTableField(PageId,NewFieldName,'Option',35,NewFieldDescr);
+IF NewFieldId > 0 THEN BEGIN
+  NavDesigner.SetFieldProperty(NewFieldId,'Caption',NewFieldCaption);
+  NavDesigner.SetFieldProperty(NewFieldId,'OptionString',NewFieldOptionsValue);
+END;
+
+IF NewFieldId = 0 THEN
+  ERROR('');
+
+**After**
+
+
+CODE
+  {
+    VAR
+      NavDesignerProperty@1017 : DotNet "'Microsoft.Dynamics.Nav.Ncl, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.Microsoft.Dynamics.Nav.Runtime.Designer.DesignerFieldProperty";
+      NavDesignerFieldType@1050 : DotNet "'Microsoft.Dynamics.Nav.Ncl, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.Microsoft.Dynamics.Nav.Runtime.Designer.DesignerFieldType";
+      NavDesigner@1000 : DotNet "'Microsoft.Dynamics.Nav.Ncl, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.Microsoft.Dynamics.Nav.Runtime.Designer.NavDesignerALFunctions";
+      PropertyDictionary@1037 : DotNet "'mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.System.Collections.Generic.Dictionary`2";
+      IsNextVisible@1001 : Boolean;
+      IsBackVisible@1004 : Boolean;
+      IsCreateBtnVisible@1005 : Boolean;
+      IsFinishBtnVisible@1007 : Boolean;
+      NewFieldName@1008 : Text;
+      NewFieldDescr@1009 : Text;
+      NewFieldCaption@1010 : Text;
+      NewOptionsFieldValues@1011 : Text;
+      NewFieldInitialValue@1012 : Text;
+      PageId@1014 : Integer;
+      NewFieldId@1015 : Integer;
+      NewFieldType@1016 : Text;
+      NumberFieldTypes@1019 : 'Integer,Decimal,BigInteger';
+      TextFieldType@1021 : 'Text,Code';
+      IsTextFieldTypeVisible@1022 : Boolean;
+      IsNumberFieldTypeVisible@1023 : Boolean;
+      DateTimeFieldType@1024 : 'Date,DateTime,Time';
+      IsDateTimeFieldTypeVisible@1025 : Boolean;
+      TextFieldTypeDataLength@1032 : Integer;
+      Field_NoOfDecimalPlaces@1035 : Text;
+      IsOptionDetailsVisible@1026 : Boolean;
+      IsFieldEditable@1027 : Boolean;
+      IsBlankZero@1028 : Boolean;
+      RelatedTableFieldName@1038 : Text;
+      RelatedTableName@1039 : Text;
+      RelatedFieldMethod@1041 : 'Sum,Average,Count';
+      FilterType@1052 : 'CONST,FILTER,FIELD';
+      RelatedTableNumber@1053 : Integer;
+      RelatedTableFilterFieldName@1056 : Text;
+      CurrentTableFilterFieldName@1058 : Text;
+      FilterValue@1059 : Text;
+      RelatedFieldFormulaCalc_ReverseSign@1029 : Boolean;
+      RelatedFieldType@1033 : 'Linked value,Computed value';
+      FieldType@1002 : Text;
+      MandateFieldNameErr@1003 : TextConst 'ENU=Field name is required.';
+      RelatedFieldValidationErrorErr@1006 : TextConst 'ENU=Table and Field values are required.';
+      FieldCreationErrorErr@1018 : TextConst 'ENU=Error occurred while creating the field. Please validate the input values are correct and field name is unique.';
+      InvalidRelatedFieldNameErr@1020 : TextConst '@@@="%1 = Field name";ENU=%1 field not found.';
+      InvalidTableNumberOrNameErr@1034 : TextConst '@@@="%1 = Table name";ENU=%1 table not found.';
+      CurrentNavigationPage@1036 : 'FieldSelectionPage,FieldBasicDefinitionPage,FieldAdvancedDefinitionPage';
+      DateFieldDescMsg@1046 : TextConst 'ENU=Stores date of an event';
+      FieldTypeMessage@1047 : Text;
+      TimeFieldDescMsg@1048 : TextConst 'ENU=Stores time of an event';
+      DateTimeFieldDescMsg@1049 : TextConst 'ENU=Stores Date and Time of an event';
+      FieldTypeEnumValue@1042 : Integer;
+      PageIdNotFoundErr@1013 : TextConst 'ENU=Please navigate to a card details page and begin process for field creation.';
+
+    LOCAL PROCEDURE SaveNewFieldDefinition@2();
+    VAR
+      FieldDetails@1001 : Record 2000000041;
+    BEGIN
+      FieldType := NewFieldType;
+      IF NewFieldType = 'Related Data Field' THEN BEGIN
+        IF (RelatedTableName = '') OR (RelatedTableFieldName = '') THEN
+          ERROR(RelatedFieldValidationErrorErr);
+
+        FieldDetails.SETFILTER(TableNo,FORMAT(RelatedTableNumber));
+        FieldDetails.SETFILTER(FieldName,RelatedTableFieldName);
+        IF FieldDetails.FINDFIRST THEN BEGIN
+          FieldType := FORMAT(FieldDetails.Type);
+          TextFieldTypeDataLength := 0;
+          IF (FieldType = 'Text') OR (FieldType = 'Code') THEN
+            TextFieldTypeDataLength := FieldDetails.Len;
+        END;
+      END;
+
+      PropertyDictionary := PropertyDictionary.Dictionary;
+      PropertyDictionary.Add(NavDesignerProperty.Description,NewFieldDescr);
+      PropertyDictionary.Add(NavDesignerProperty.Caption,NewFieldCaption);
+
+      CASE NewFieldType OF
+        'Text','Code':
+          PropertyDictionary.Add(NavDesignerProperty.Editable,ConvertToBooleanText(IsFieldEditable));
+        'Decimal':
+          BEGIN
+            PropertyDictionary.Add(NavDesignerProperty.DecimalPlaces,FORMAT(Field_NoOfDecimalPlaces));
+            PropertyDictionary.Add(NavDesignerProperty.BlankZero,ConvertToBooleanText(IsBlankZero));
+          END;
+        'Integer','BigInteger':
+          PropertyDictionary.Add(NavDesignerProperty.BlankZero,ConvertToBooleanText(IsBlankZero));
+        'Option':
+          BEGIN
+            PropertyDictionary.Add(NavDesignerProperty.OptionString,NewOptionsFieldValues);
+            PropertyDictionary.Add(NavDesignerProperty.InitValue,NewFieldInitialValue);
+          END;
+      END;
+
+      IF PageId > 0 THEN
+        NewFieldId := NavDesigner.CreateTableField(PageId,NewFieldName,FieldTypeEnumValue,TextFieldTypeDataLength,PropertyDictionary)
+      ELSE
+        ERROR(PageIdNotFoundErr);
+
+      IF NewFieldId = 0 THEN
+        ERROR(FieldCreationErrorErr);
+    END;
+
 
 ## See Also  
 [Converting a Database](Converting-a-Database.md)  
