@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -33,7 +34,7 @@
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "searchScope": ["DynamicsNAV"],
       "titleSuffix": "Dynamics NAV",
-      "breadcrumb_path": "/dynamics-navtest/bread/toc.json"
+      "breadcrumb_path": "/dynamics-nav/bread/toc.json"
     },
     "fileMetadata": {},
     "template": [

@@ -12,6 +12,9 @@ ms.assetid: 33f5c0d7-5bf9-487c-b9a3-ef25e4c65216
 ms.author: jswymer
 ---
 # How to: Configure the Microsoft Dynamics NAV Server Instance for ACS
+
+[!INCLUDE[ACS_md](includes/ACS_md.md)]
+
 You configure your [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for Access Control Service \(ACS\) by using either the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or the [!INCLUDE[navnow](includes/navnow_md.md)] PowerShell API.  
 
  Before you begin this procedure, you must perform the steps to configure your deployment for ACS. For more information, see [Authenticating Users with Microsoft Azure Access Control Service](Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md).  

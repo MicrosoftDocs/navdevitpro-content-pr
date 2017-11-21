@@ -14,7 +14,7 @@ author: SusanneWindfeldPedersen
 
 # Your Next Steps 
 
-## As a reseller of Dynamics 365 for Financials
+## As a reseller of Dynamics 365 for Finance and Operations, Business edition
 
 ### You can provide packaged implementation services on Microsoft AppSource  
 Drive demand for your packaged implementation and consulting services with 100M users of Office 365, Dynamics 365, and Power BI. To get started providing consulting services, you need to do the following:  
@@ -31,9 +31,9 @@ And learn all about building customizations in [sandbox environments](https://
  
 Reach out to [dyn365bep@microsoft.com](mailto:dyn365bep@microsoft.com) on questions.  
 
-## As a developer on Dynamics 365 for Financials 
+## As a developer on Dynamics 365 for Finance and Operations, Business edition
 
-### You can connect to or extend Dynamics 365 for Financials by delivering apps in Microsoft AppSource  
+### You can connect to or extend Dynamics 365 for Finance and Operations, Business edition by delivering apps in Microsoft AppSource  
 Reach more customers by bringing apps for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] into Microsoft AppSource, the marketplace for Microsoft business apps. Dynamics 365 gives you rich functionality, a modern always up-to-date platform, and a set of great new development tools. When your app is done, publish it through Microsoft AppSource – the marketplace for Microsoft’s business apps and start benefiting from a brand that millions of users know and trust.  
  
 You decide whether you want to connect to your existing service or extend the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] functionality. For more information on how to get started with building apps, click [here](https://aka.ms/getstartedwithapps).  
@@ -48,7 +48,7 @@ Reach out to [dyn365bep@microsoft.com](mailto:dyn365bep@microsoft.com) on questi
 
 ## As an accountant and financial service outsourcer 
 
-### You can use the Accountant portal extension for Dynamics 365 for Financials
+### You can use the Accountant portal extension for Dynamics 365 for Finance and Operations, Business edition
 Easily access client data, effectively manage accounting processes and tasks, and focus more on your clients using [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] — a complete Microsoft accounting software platform for accounting professionals. 
 
 Reach out to Christian Baek [cbaek@Microsoft.com](mailto:cbaek@Microsoft.com) on questions. 
