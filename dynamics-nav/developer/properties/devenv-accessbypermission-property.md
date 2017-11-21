@@ -58,16 +58,16 @@ The **AccessByPermission** property values are as described below:
 
 ## Remarks
 
-The property value for TableData can be set with a combination of **Read**, **Insert**, **Modify** and **Delete** permissions. This means, you can set the property to **R**, or **I**, or **M**, or **D** permissions; the value **X** is not valid for the TableData object. 
+The property value for TableData can be set with a combination of **Read**, **Insert**, **Modify** and **Delete** permissions. This means, you can set the property value to ``RIMD`` permissions; the value ``X`` is not valid for TableData. 
 
-For other objects including Codeunit, Page, Table, Query, Report, or Xmlport, you can set the property with a combination of **Read**, **Insert**, **Modify**, **Delete** and **Execute** permissions. Likewise, you can set the property value to **R**, or **I**, or **M**, or **D**, or **X** permissions for the specified object. 
+For other objects including Table, Page, Query, Report, Codeunit, or Xmlport, it can only be **Execute** permission. This means, you can set the property value to ``X`` for the specified object. 
 
 > [!NOTE]  
 >  If you set multiple permissions, then one or the other applies. 
 
 ## Syntax
 ```
-AccessByPermission = page SimpleCustomerCard = X;
+AccessByPermission = tabledata MySetup = I; 
 ```
 
 ## Dependent Property
