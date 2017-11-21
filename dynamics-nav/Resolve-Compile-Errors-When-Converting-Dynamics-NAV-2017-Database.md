@@ -1,7 +1,7 @@
 ---
 title: "Compilation Errors When Converting a Microsoft Dynamics NAV 2016 Database"
 ms.custom: na
-ms.date: 20/03/2017
+ms.date: 20/11/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,15 +16,16 @@ author: jswymer
 When you convert a [!INCLUDE[nav2017](includes/nav2017.md)] database, you will receive compilation errors in several standard [!INCLUDE[navnow](includes/navnow_md.md)] objects. This article describes how to resolve these errors.
 
 ## Compilation Errors
-The following table lists the compilation errors that might occur when you build the server application objects during the database conversion, with a link to a solution for fixing the problem.
+The following table lists the compilation errors that might occur when you compile objects during the database conversion.
 
 |  Object Type  |  Object ID  |  Object Name  |  Function/Trigger  |  Error Message  |  Solution  |
 |---------------|-------------|---------------|--------------------|------------|------------|
 |Codeunit|700|Page Management|CheckAnyRoleAssignedToUser|Type conversion is not possible because 1 of the operators contains an invalid type. Text = Integer.|See [Codeunit 700 Page Management Error](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2017-Database.md#CU700). |
 |Codeunit|5330|CRM Integration Management|CheckAnyRoleAssignedToUser|You have specified an unknown variable. Entities Define the variable under 'Global C/AL symbols'.|See [Codeunit 5330 CRM Integration Management Error](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2017-Database.md#CU5330). |
 |Codeunit|6303|Azure AD Auth Flow|Initialize|Type conversion is not possible because 1 of the operators contains an invalid type. DotNet := GUID|See [Codeunit 6303 Azure AD Auth Flow Error](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2017-Database.md#CU6303).|
-|Page|9621|Add Page Fields| SaveNewFieldDefinition|Type conversion is not possible because 1 of the operators contains an invalid type. Integer := OemMText|See [Page 9621 New Page Patterns List Part Error](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2017-Database.md#P9621).|
-|Page|9626|New Page Patterns List Part| - |TableData 2000000174 does not exist.|See [Resolving Dynamics Online Payment Service Errors](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2017-Database.md#P9626).|
+|Page|9621|Add Page Fields| SaveNewFieldDefinition|Type conversion is not possible because 1 of the operators contains an invalid type. Integer := OemMText|See [Page 9621 Add Page Fields Error](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2017-Database.md#P9621).|
+|Page|9626|New Page Patterns List Part| - |TableData 2000000174 does not exist.|See [Page 9626 New Page Patterns List Part Error](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2017-Database.md#P9626).|
+
 
 ## <a name="CU700"></a> Codeunit 700 Page Management Error
 
@@ -223,7 +224,7 @@ IF NewFieldId = 0 THEN
     END;
 ```
 
-## <a name="P9626"></a> Page 9626 New Page Patterns List
+## <a name="P9626"></a> Page 9626 New Page Patterns List Error
 
 Page **9626** has been deleted in [!INCLUDE[nav2017](includes/nav2017.md)]. To resolve this issue, you delete the page. Also, on page **9625 New Page**, you must delete the page part that displays page **9626**. 
 
