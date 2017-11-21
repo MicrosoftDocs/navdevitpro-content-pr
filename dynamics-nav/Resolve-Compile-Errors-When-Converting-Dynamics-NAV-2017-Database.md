@@ -116,6 +116,13 @@ LOCAL [IntegrationEvent] OnInitialize(SecurityId : GUID;RedirectUri : Text;VAR A
 
 ## <a name="P9621"></a> Page 9621 Add Page Fields Error
 
+
+Update page 9621 with code from page 9621 in NAV 2018 database
+Update page 9622 with code from page 9622 in NAV 2018 database
+Add pages 9627, 9628, 9629, 9630
+
+
+
 **Before**
 
 LOCAL SaveNewFieldDefinition()
