@@ -52,25 +52,25 @@ The **AccessByPermission** property values are as described below:
 |----------|------------|-------------------------------------------------------|
 |R         |Read        |Specify if Read permission is required to display the UI element.|
 |I         |Insert      |Specify if Insert permission is required to display the UI element.| 
-|D         |Delete      |Specify if Delete permission is required to display the UI element.
-|M         |Modify      |Specify if Modify permission is required to display the UI element.|
+|M         |Modify      |Specify if Modify permission is required to display the UI element.
+|D         |Delete      |Specify if Delete permission is required to display the UI element.|
 |X         |Execute     |Specify if Execute permission is required to display the UI element.|
 
+## Remarks
+
+The property value for TableData can be set with a combination of **RIMD** permissions. This means, you can set the property value to *Read*, or *Insert*, or *Modify*, or *Delete* permissions; the value **X** is not valid for the TableData object. For other objects including Codeunit, Page, Table, Query, Report or Xmlport, can be set with a combination of **RIMDX** permissions. This means, you can set the property value to *Read*, or *Insert*, or *Modify*, or *Delete*, or *Execute* permissions for the specified object. 
+
 > [!NOTE]  
->  If multiple permissions are selected, then one or the other applies.  
+>  If you set multiple permissions, then one or the other applies. 
 
 ## Syntax
 ```
 AccessByPermission = page SimpleCustomerCard = X;
 ```
 
-## Remarks
-
-The property value for TableData can be set to **RIDM**, which means, you can enable the permission to either a *Read*, or *Insert*, or *Delete*, or *Modify* permission, as the value **X** is not valid for the TableData object. For other objects including Codeunit, Page, Table, Query, Report or Xmlport, you can set the values with **RIMDX** permissions. This means, you can set a value to *Read*, or *Insert*, or *Delete*, or *Modify*, or *Execute* permission for the specified object. 
-
 ## Dependent Property
 
-The **UsageCategory** property is a required setting used together with the **AccessByPermission** property. This setting enables an object to show-up in Search for the navigation support. For more information about navigation support, see [Adding Pages and Reports to Search](/devenv-al-menusuite-functionality.md).  
+The **UsageCategory** property is a required setting used together with the **AccessByPermission** property. This enables an object to be available in Search for the navigation support. For more information about navigation support, see [Adding Pages and Reports to Search](/devenv-al-menusuite-functionality.md).  
 
 
 ## See Also  
