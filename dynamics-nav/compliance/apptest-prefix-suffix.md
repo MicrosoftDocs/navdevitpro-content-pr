@@ -21,21 +21,29 @@ You must use a prefix/suffix when naming all new objects. When you modify a core
 
 Declare your objects with a prefix as shown in the following examples.
 
-**Table**
+**Table**  
+```
 table 70000000 MyPrefix Salesperson
+```
 
-**Page**
+**Page**  
+```
 page 70000000 MyPrefix Salesperson
+```
 
-**Codeunit**
+**Codeunit**  
+```
 codeunit 70000000 MyPrefix Salesperson
+```
 
-**Page Extension**
+**Page Extension**  
+```
 actions
 {
     addafter(ApprovalEntries)
     {
         action(MyPrefix Vacation)
+```
 
 ## Benefits
 
