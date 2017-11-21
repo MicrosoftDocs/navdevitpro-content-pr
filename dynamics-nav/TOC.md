@@ -161,7 +161,12 @@
 #### [Page and Action Triggers](developer/triggers/devenv-page-and-action-triggers.md)
 #### [Codeunit Triggers](developer/triggers/devenv-codeunit-triggers.md)
 #### [Query Triggers](developer/triggers/devenv-query-triggers.md)
-
+## [Rules and Guidelines for AL Code](compliance/apptest-overview.md)
+### [Benefits and Guidelines for using a Prefix or Suffix](compliance/apptest-prefix-suffix.md)
+### [Testing your Extension](compliance/apptest-testingyourextension.md)
+### [User Scenario Documentation](compliance/apptest-userscenario.md)
+### [Restrictions on UI for Objects Exposed as Web Services](compliance/apptest-webservices.md)
+### [Replacing OnBeforeCompanyOpen and OnAfterCompanyOpen](compliance/apptest-onbeforecompanyopen.md)
 <!-- old
 # [Developing Extensions Using the New Development Environment - Preview](devenv-dev-overview.md)
 ## [Getting Started](devenv-get-started.md)
@@ -287,7 +292,7 @@
 ## [Administration Cmdlets for Dynamics NAV Extensions](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management)
 ## [Development Cmdlets for Dynamics NAV](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.model.tools)
 ## [Development Cmdlets for Dynamics NAV Extensions](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.tools)
-# [Legal Artefacts for Dynamics NAV 2017](terms/legal.md)
+# [Legal Artefacts for Dynamics NAV](terms/legal.md)
 <!-- preview of Graph API starts-->
 # [Preview of API Reference for Dynamics 365 for Financials](fin-graph/index.md)
 ## [Error Codes](fin-graph/dynamics_error_codes.md)
