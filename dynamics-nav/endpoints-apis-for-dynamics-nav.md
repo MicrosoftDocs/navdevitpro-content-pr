@@ -14,11 +14,11 @@ ms.author: solsen
 caps.latest.revision: 18
 ---
 
-# Endpoints for the APIs for Microsoft Dynamics NAV
-Dynamics NAV and Dynamics 365 for Financials expose an API that makes it possible to integrate with other services. To enable integration with these APIs, you must go through a few steps to enable the access for [!INCLUDE[navnow](includes/navnow_md.md)] first. For more information about these steps, see [Enabling APIs for Microsoft Dynamics NAV](enabling-apis-for-dynamics-nav.md).
+# Endpoints for the APIs for Microsoft Dynamics NAV 
+[!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] expose an API that makes it possible to integrate with other services. To enable integration with these APIs, you must go through a few steps to enable the access for [!INCLUDE[navnow](includes/navnow_md.md)] first. For more information about these steps, see [Enabling APIs for Microsoft Dynamics NAV](enabling-apis-for-dynamics-nav.md).
 
 ## Accessing the endpoint
-Once you have the API access enabled, you can write code that integrates your web service or SaaS solution with Microsoft Dynamics NAV. Creating your integration through an API provides simple access to the supported functionality in a single endpoint, giving you a simplified experience for creating a single app with integrations across multiple Microsoft products. 
+Once you have the API access enabled, you can write code that integrates your web service or SaaS solution with [!INCLUDE[navnow](includes/navnow_md.md)]. Creating your integration through an API provides simple access to the supported functionality in a single endpoint, giving you a simplified experience for creating a single app with integrations across multiple Microsoft products. 
 
 ||Dynamics 365 for Financials (online)|||Microsoft Dynamics NAV 2018 (on-prem)|
 |--|--|--|--|--|
