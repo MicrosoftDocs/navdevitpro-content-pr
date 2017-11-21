@@ -61,7 +61,7 @@ page 70050088 SimpleCustomerCard
 
 ## Optional Accessibility Settings
 
-You can add a page or a report to the Search. Additionally, control the accessibility of an object by providing the **Read**, **Insert**, **Modify**, **Delete** and **Execute** (RIMDX) permissions by adding the [AccessByPermission property](properties/devenv-accessbypermission-property.md). Likewise, control the application area access on the specified object by adding the [ApplicationArea Property](properties/devenv-applicationarea-property.md). 
+You can add a page or a report to the Search. Additionally, control the accessibility of an object by providing **Read**, **Insert**, **Modify**, **Delete** and **Execute** (RIMDX) permissions by adding the [AccessByPermission property](properties/devenv-accessbypermission-property.md). Likewise, control the application area access on the specified object by adding the [ApplicationArea Property](properties/devenv-applicationarea-property.md). 
 
 The **AccessByPermission** property and **ApplicationArea** property are the optional settings, which can be applied with the **UsageCategory** property. These settings are used to set restrictions on an object when you enable the Search functionality. 
 
