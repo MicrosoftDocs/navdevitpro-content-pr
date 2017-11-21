@@ -58,7 +58,9 @@ The **AccessByPermission** property values are as described below:
 
 ## Remarks
 
-The property value for TableData can be set with a combination of **RIMD** permissions. This means, you can set the property value to *Read*, or *Insert*, or *Modify*, or *Delete* permissions; the value **X** is not valid for the TableData object. For other objects including Codeunit, Page, Table, Query, Report or Xmlport, can be set with a combination of **RIMDX** permissions. This means, you can set the property value to *Read*, or *Insert*, or *Modify*, or *Delete*, or *Execute* permissions for the specified object. 
+The property value for TableData can be set with a combination of **Read**, **Insert**, **Modify** and **Delete** permissions. This means, you can set the property to **R**, or **I**, or **M**, or **D** permissions; the value **X** is not valid for the TableData object. 
+
+For other objects including Codeunit, Page, Table, Query, Report, or Xmlport, you can set the property with a combination of **Read**, **Insert**, **Modify**, **Delete** and **Execute** permissions. Likewise, you can set the property value to **R**, or **I**, or **M**, or **D**, or **X** permissions for the specified object. 
 
 > [!NOTE]  
 >  If you set multiple permissions, then one or the other applies. 
