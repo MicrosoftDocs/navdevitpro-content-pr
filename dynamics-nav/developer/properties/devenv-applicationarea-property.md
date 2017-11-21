@@ -42,7 +42,7 @@ ApplicationArea = All;
 
 ## Dependent Property
 
-The **UsageCategory** property is a required setting used together with the **ApplicationArea** property. This enables an object to be avaiable in Search for the navigation support. For more information about navigation support, see [Adding Pages and Reports to Search](/devenv-al-menusuite-functionality.md).  
+The **UsageCategory** property is a required setting used together with the **ApplicationArea** property. This enables a page or a report to be avaiable in Search for the navigation support. For more information about navigation support, see [Adding Pages and Reports to Search](/devenv-al-menusuite-functionality.md).  
    
 ## See Also  
  [APPLICATIONAREA Method](../methods/devenv-applicationarea-method.md)  

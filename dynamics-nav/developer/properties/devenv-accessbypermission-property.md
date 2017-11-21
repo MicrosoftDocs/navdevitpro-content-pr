@@ -60,7 +60,7 @@ The **AccessByPermission** property values are as described below:
 
 The property value for TableData can be set with a combination of **Read**, **Insert**, **Modify** and **Delete** permissions. This means, you can set the property value to ``RIMD`` permissions; the value ``X`` is not valid for TableData. 
 
-For other objects including Table, Page, Query, Report, Codeunit, or Xmlport, it can only be **Execute** permission. This means, you can set the property value to ``X`` for the specified object. 
+For other objects including Table, Page, Query, Report, Codeunit, or Xmlport, it can only be **Execute** permission. This means, you can set the property value to ``X`` for the specified object type. 
 
 > [!NOTE]  
 >  If you set multiple permissions, then one or the other applies. 
@@ -72,7 +72,7 @@ AccessByPermission = tabledata MySetup = I;
 
 ## Dependent Property
 
-The **UsageCategory** property is a required setting used together with the **AccessByPermission** property. This enables an object to be available in Search for the navigation support. For more information about navigation support, see [Adding Pages and Reports to Search](/devenv-al-menusuite-functionality.md).  
+The **UsageCategory** property is a required setting used together with the **AccessByPermission** property. This enables a page or a report to be available in Search for the navigation support. For more information about navigation support, see [Adding Pages and Reports to Search](/devenv-al-menusuite-functionality.md).  
 
 
 ## See Also  
