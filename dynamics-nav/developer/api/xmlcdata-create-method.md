@@ -31,5 +31,5 @@ A string that contains the value of the new XmlCData node.
 &emsp;Type: XmlCData  
   
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

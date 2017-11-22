@@ -36,5 +36,5 @@ The operation will succeed if the value was created from a Boolean using *SetVal
 
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)
