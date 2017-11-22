@@ -34,5 +34,5 @@ JsonToken := JsonObject.AsToken
 The returned JsonToken contains the same data as the JsonObject, but allows for treating the data in a generic manner.
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

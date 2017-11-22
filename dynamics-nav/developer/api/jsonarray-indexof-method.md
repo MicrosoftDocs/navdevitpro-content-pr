@@ -35,5 +35,5 @@ Index := JsonArray.IndexOf(Value)
 The position of the value in the JsonArray. -1 will be returned if *Value* cannot be found in the array.
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

@@ -35,5 +35,5 @@ Removes the key and the related values from the HttpHeaders object.
 &emsp;**True** if key exists; **false** otherwise.
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

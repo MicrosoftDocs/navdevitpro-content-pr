@@ -53,6 +53,6 @@ The following methods are available on the JsonValue class.
 |[SetValueToUndefined](jsonvalue-setvaluetoundefined-method.md)|Set the contents of the JsonValue variable to the JSON representation of UNDEFINED.|
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  

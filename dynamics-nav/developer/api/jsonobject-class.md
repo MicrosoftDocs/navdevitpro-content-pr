@@ -42,6 +42,6 @@ The following methods are available on JsonObject objects.
 |[RemoveAll](jsonobject-removeall-method.md)|Removes all the properties of the given object.|
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  

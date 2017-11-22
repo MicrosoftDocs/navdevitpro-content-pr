@@ -31,5 +31,5 @@ The content to add to this document.
 &emsp;Type: XmlDocument  
   
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
