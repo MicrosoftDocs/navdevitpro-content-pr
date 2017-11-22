@@ -1,7 +1,6 @@
 ---
-title: "How to: Change Which Layout is Currently Used on a Report"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/22/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -36,7 +35,7 @@ translation.priority.ht:
   - ru-ru
   - sv-se
 ---
-# How to: Change Which Layout is Currently Used on a Report
+# How to Change the Report Layout in Dynamics NAV
 This procedure describes how to change the layout that is used by a report. A report can be set up with more than one report layout, which you can then switch among as needed.  
 
  Depending on the layouts that are available for a report, you can choose to use a built-in RDLC report layout, a built-in Word report layout, or a custom layout. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [Managing Report Layouts](managing-report-layouts.md).  
