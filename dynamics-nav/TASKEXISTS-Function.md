@@ -1,18 +1,16 @@
 ---
 title: "TASKEXISTS Function"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 22/11/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 0d76d61f-c6c7-4e4e-bd21-3a239221a571
-caps.latest.revision: 3
-manager: edupont
+author: jswymer
 ---
 # TASKEXISTS Function
-Checks whether a specific task exists.  
+Checks whether a specific task exists and is waiting to be run by task scheduler.  
 
 ## Syntax  
 
@@ -29,12 +27,13 @@ Exists := TASKEXISTS(Task)
 ## Property Value/Return Value  
  Type: Boolean  
 
- **true** if a task exists; otherwise, **false**.  
+ **true** if the task exists and is waiting to be run; otherwise, **false**. A task that is running or completed is not considered to be an existing task.   
 
 ## Remarks  
- Scheduled tasks are recorded in table **2000000175 Scheduled Task**. To see an example of CANCELTASK in use, refer to C/AL code of table **472 Job Queue Entry**.  
 
- For more information about tasks and TASKSCEDULER data type functions, see managing tasks [Task Scheduler](Task-Scheduler.md).  
+Scheduled tasks are recorded in table **2000000175 Scheduled Task**. To see an example of TASKEXISTS in use, refer to C/AL code of table **472 Job Queue Entry**.  
+
+For more information about tasks and TASKSCEDULER data type functions, see managing tasks [Task Scheduler](Task-Scheduler.md).  
 
 ## See Also   
  [Task Scheduler](Task-Scheduler.md)  
