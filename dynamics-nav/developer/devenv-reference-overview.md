@@ -41,4 +41,4 @@ This section describes all of the objects that are available with the AL Languag
 
 ## See Also
 [Developing Extensions](devenv-dev-overview.md)  
-[Getting Started](devenv-get-started.md)   
+[Getting Started with AL](devenv-get-started.md)   

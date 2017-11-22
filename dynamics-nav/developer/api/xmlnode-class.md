@@ -57,6 +57,6 @@ The following methods are available on the XmlNode class.
 |[XmlNode.AsXmlProcessingInstruction()](xmlnode-asxmlprocessinginstruction-method.md)|Converts the node to an XmlProcessingInstruction node. The operation will fail if the node is not an XmlProcessingInstruction.|  
 |[XmlNode.AsXmlText()](xmlnode-asxmltext-method.md)|Converts the node to an XmlText node. The operation will fail if the node is not an XmlText.|  
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
