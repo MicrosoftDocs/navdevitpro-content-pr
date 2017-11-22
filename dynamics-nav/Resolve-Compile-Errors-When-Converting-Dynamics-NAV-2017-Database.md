@@ -1,5 +1,5 @@
 ---
-title: "Compilation Errors When Converting a Microsoft Dynamics NAV 2016 Database"
+title: "Compilation Errors When Converting a Microsoft Dynamics NAV 2017 Database"
 ms.custom: na
 ms.date: 20/11/2017
 ms.reviewer: na
@@ -7,13 +7,10 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 6ea75b39-cf7d-4c88-868b-86fa0be2426b
-caps.latest.revision: 4
-manager: edupont
 author: jswymer
 ---
 # Resolving Compilation Errors When Converting a Dynamics NAV 2017 Database
-When you convert a [!INCLUDE[nav2017](includes/nav2017.md)] database, you will receive compilation errors in several standard [!INCLUDE[navnow](includes/navnow_md.md)] objects. This article describes how to resolve these errors.
+When you convert a [!INCLUDE[nav2017](includes/nav2017.md)] database to a newer [!INCLUDE[navnow](includes/navnow_md.md)] version, you will receive compilation errors in several standard [!INCLUDE[navnow](includes/navnow_md.md)] objects. This article describes how to resolve these errors.
 
 ## Compilation Errors
 The following table lists the compilation errors that might occur when you compile objects during the database conversion.
@@ -82,7 +79,7 @@ Microsoft.Xrm.Sdk.EntityCollection.'Microsoft.Xrm.Sdk, Version=8.0.0.0, Culture=
 
 -->
 
-## <a name="CU6303"></a> Codeunit 6303 Azure AD Auth Flow Error
+## <a name="CU6303"></a>Codeunit 6303 Azure AD Auth Flow Error
 On the `Initialize`and  `OnInitialize` functions, remove the `SecurityId` parameter and all references so that the function signatures and code are as follows:
 
 **Initialize function code - before**
@@ -104,15 +101,18 @@ Initialize(RedirectUri : Text)
     OnInitialize(RedirectUri,AuthFlow);
 ```
 
-**OnInitialize function signature- before**
+
+**OnInitialize function signature - before**
+```
+LOCAL [IntegrationEvent] OnInitialize(SecurityId : GUID;RedirectUri : Text;VAR AzureADAuthFlow : DotNet "Microsoft.Dynamics.Nav.Runtime.ALAzureAdCodeGrantFlow")
+```
+
+**OnInitialize function signature- after**
 ```
 LOCAL [External] [IntegrationEvent] OnInitialize(RedirectUri : Text;VAR AzureADAuthFlow : DotNet "Microsoft.Dynamics.Nav.Runtime.ALAzureAdCodeGrantFlow")
 ```
 
-**OnInitialize function signature - after**
-```
-LOCAL [IntegrationEvent] OnInitialize(SecurityId : GUID;RedirectUri : Text;VAR AzureADAuthFlow : DotNet "Microsoft.Dynamics.Nav.Runtime.ALAzureAdCodeGrantFlow")
-```
+
 
 ## <a name="P9621"></a> Page 9621 Add Page Fields Error
 

@@ -1,25 +1,23 @@
 ---
-title: "Compilation Errors When Converting a Microsoft Dynamics NAV 2016 Database"
+title: "Compilation Errors When Converting a Microsoft Dynamics NAV 2015 or 2016 Database"
 ms.custom: na
-ms.date: 20/03/2017
+ms.date: 22/11/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 6ea75b39-cf7d-4c88-868b-86fa0be2426b
-caps.latest.revision: 4
-manager: edupont
 author: jswymer
 ---
 # Resolving Compilation Errors When Converting a Dynamics NAV 2016 Database
-When you convert a [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database, you will receive compilation errors in several standard [!INCLUDE[navnow](includes/navnow_md.md)] objects. This article describes how to resolve these errors.
+When you convert a [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database to a newer [!INCLUDE[navnow](includes/navnow_md.md)] version, you will receive compilation errors in several standard [!INCLUDE[navnow](includes/navnow_md.md)] objects. This article describes how to resolve these errors.
 
 ## Compilation Errors
-The following table lists the compilation errors that might occur when you build the server application objects during the database conversion, with a link to a solution for fixing the problem.
+The following table lists the compilation errors that might occur when you compile and build the server application objects during the database conversion, with a link to a solution for fixing the problem.
 
 |  Object Type  |  Object ID  |  Object Name  |  Function/Trigger  |  Error Message  |  Solution  |
 |---------------|-------------|---------------|--------------------|------------|------------|
+|Codeunit|700|Page Management|CheckAnyRoleAssignedToUser|Type conversion is not possible because 1 of the operators contains an invalid type. Text = Integer.|See [Codeunit 700 Page Management Error](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2017-Database.md#CU700). |
 |Table|5330|CRM Connection Setup|CreateOrganizationService|You have specified an unknown variable. CrmServiceClient Define the variable under 'Global C/AL symbols'.|See [Resolving Table 5330 CRM Connection Setup Error](Resolve-Table-5330-Error-Converting-Database.md). |
 |Codeunit|824|DO Encryption Mgt.|Encrypt|You have specified an unknown variable. KeyExists Define the variable under 'Global C/AL symbols'.|See [Resolving Dynamics Online Payment Service Errors](Resolve-Dynamics-Online-Errors-Database-Conversion.md).|
 |Codeunit|825|DO Payment Mgt.| - | - |See [Resolving Dynamics Online Payment Service Errors](Resolve-Dynamics-Online-Errors-Database-Conversion.md).|
@@ -33,4 +31,4 @@ The following table lists the compilation errors that might occur when you build
 |Codeunit|130402|CAL Command Line Test Runner|OnAfterTestRun|The OnAfterTestRun trigger signature is not valid.|See [Resolving OnBeforeTestRun and OnAfterTestRun Trigger Errors](Resolve-OnBeforeTestRun-OnAfterTestRun-Compile-Errors.md).|
 
 ## See Also  
- [Converting a Database](Converting-a-Database.md)
+[Converting a Database](Converting-a-Database.md)
