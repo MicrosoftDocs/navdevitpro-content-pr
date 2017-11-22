@@ -136,9 +136,6 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
 
      For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md) or [Database Information](uiref/-$-S_2349-Database-Information-$-.md).  
 
-<!--
-8.  In the development environment, on the **Tools** menu, choose **Build Server Application Objects**, and then, in the dialog box, choose the **Yes** button.  -->
-
 8.  Compile all objects without table schema synchronizing; you will do this later.  
 
     For more information, see [Compiling Objects](compiling-objects.md).
