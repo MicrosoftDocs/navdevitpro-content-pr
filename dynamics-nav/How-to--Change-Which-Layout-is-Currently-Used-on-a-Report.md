@@ -1,4 +1,6 @@
 ---
+title: Change the Report Layout
+description: Learn how to change the currently used report layout to a custom layout on a report. Setup with more than one report layout and switch among as needed.
 ms.custom: na
 ms.date: 11/22/2017
 ms.reviewer: na

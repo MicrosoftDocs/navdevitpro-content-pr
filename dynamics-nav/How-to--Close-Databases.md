@@ -1,4 +1,5 @@
 ---
+title: How to Close a Database
 description: This topic explains how to close a database connection in development environment. For example, close an open database, before opening another database.
 ms.custom: na
 ms.date: 11/22/2017
