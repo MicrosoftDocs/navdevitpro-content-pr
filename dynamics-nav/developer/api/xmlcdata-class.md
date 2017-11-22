@@ -42,6 +42,6 @@ The following methods are available on the XmlCData class.
 |[XmlCData.SelectNodes(String, XmlNodeList)](xmlcdata-selectnodes-xpath-nodelist-method.md)|Selects a list of nodes matching the XPath expression.|  
 |[XmlCData.SelectNodes(String, XmlNamespaceManager, XmlNodeList)](xmlcdata-selectnodes-xpath-namespacemanager-nodelist-method.md)|Selects a list of nodes matching the XPath expression.|  
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)   
