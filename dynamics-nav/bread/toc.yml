@@ -40,6 +40,22 @@
       - name: Fin Graph
         tocHref: /dynamics-nav/fin-graph/
         topicHref: /dynamics-nav/fin-graph/index
+      - name: Dynamics NAV PowerShell Cmdlet Modules
+        tocHref: /powershell/dynamics-nav/
+        topicHref: /powershell/dynamics-nav/overview
+        items:
+        - name: Administration Cmdlets for Dynamics NAV
+          tocHref: /powershell/module/Microsoft.Dynamics.Nav.Management/
+          topicHref: /powershell/dynamics-nav/overview
+        - name: Administration Cmdlets for Dynamics NAV Extensions
+          tocHref: /powershell/module/Microsoft.Dynamics.Nav.Apps.Management/
+          topicHref: /powershell/dynamics-nav/overview
+        - name: Development Cmdlets for Dynamics NAV
+          tocHref: /powershell/module/Microsoft.Dynamics.Nav.Model.Tools/
+          topicHref: /powershell/dynamics-nav/overview
+        - name: Development Cmdlets for Dynamics NAV Extensions
+          tocHref: /powershell/module/Microsoft.Dynamics.Nav.Apps.Tools/ 
+          topicHref: /powershell/dynamics-nav/overview
 
 
 
