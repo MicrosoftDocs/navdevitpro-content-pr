@@ -33,5 +33,5 @@ A string that contains the system identifier for this Document Type Definition (
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

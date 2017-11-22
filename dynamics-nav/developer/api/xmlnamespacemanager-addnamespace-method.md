@@ -31,5 +31,5 @@ The prefix to associate with the namespace being added. Use an empty string to a
 The namespace to add.  
   
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

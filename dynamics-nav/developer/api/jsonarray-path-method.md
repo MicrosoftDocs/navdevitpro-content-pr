@@ -34,5 +34,5 @@ The path of the array relative to its containing JSON tree.
 If the object is the root of the JSON tree, the path will be empty.
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

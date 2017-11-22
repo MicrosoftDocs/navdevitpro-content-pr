@@ -29,7 +29,7 @@ You can publish multiple extensions to a [!INCLUDE[d365fin_md](includes/d365fin_
 In most cases, two extension packages can coexist and work independently of each other; however there is the possibility that two apps will try to modify the same object properties. In those cases, if the conflict cannot be resolved, the installation of the conflicting extension fails.  
 
 ### Development  
-Extensions are developed using the AL Language extension for Visual Studio Code, stored in AL code and saved in files with the ```.al``` file extension. Using the AL Language extension for Visual Studio Code, you will get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[d365fin_md](includes/d365fin_md.md)] tenant. For more information on getting up and running, see [Getting Started](devenv-get-started.md).
+Extensions are developed using the AL Language extension for Visual Studio Code, stored in AL code and saved in files with the ```.al``` file extension. Using the AL Language extension for Visual Studio Code, you will get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[d365fin_md](includes/d365fin_md.md)] tenant. For more information on getting up and running, see [Getting Started with AL](devenv-get-started.md).
 
 #### Licensing Considerations  
 Licensing is the same for functionality that is made available in an extension package as in a .fob file. You must have the relevant license to create and export objects as TXT files. Similarly, your consumers must also have the appropriate licensing to use your extension.  

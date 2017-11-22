@@ -39,5 +39,5 @@ A string containing "yes" or "no" that specifies whether the XML is standalone o
 &emsp;Type: XmlDeclaration  
   
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

@@ -30,6 +30,6 @@ The following methods are available on the XmlNameTable class.
 |[XmlNameTable.Get(String, Text)](xmlnametable-get-method.md)|Gets the atomized string with the specified value.|  
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  

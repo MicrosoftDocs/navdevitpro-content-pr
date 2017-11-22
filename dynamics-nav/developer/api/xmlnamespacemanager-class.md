@@ -35,6 +35,6 @@ The following methods are available on the XmlNamespaceManager class.
 |[XmlNamespaceManager.PushScope()](xmlnamespacemanager-pushscope-method.md)|Pushes a namespace scope onto the stack.|  
 |[XmlNamespaceManager.PopScope()](xmlnamespacemanager-popscope-method.md)|Pops a namespace scope off the stack.|  
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  

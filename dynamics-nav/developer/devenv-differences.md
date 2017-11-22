@@ -93,5 +93,5 @@ The ```InitValue``` of type ```DateTime``` only allows for the value ```0DT```.
 
 ## See Also
 [Developing Extensions](devenv-dev-overview.md)  
-[Getting Started](devenv-get-started.md)    
+[Getting Started with AL](devenv-get-started.md)    
 [Developer Reference](devenv-reference-overview.md)  
