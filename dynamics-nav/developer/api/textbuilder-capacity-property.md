@@ -29,5 +29,5 @@ The maximum number of characters that can be contained in the memory allocated b
 &emsp;Type: Integer  
   
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

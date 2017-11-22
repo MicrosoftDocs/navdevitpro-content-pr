@@ -41,5 +41,5 @@ Sends a PUT request to the specified Uniform Resource Identifier (URI) as an asy
 Accessing the HttpContent property of HttpResponseMessage in a case when the request fails will result in an error.
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

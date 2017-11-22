@@ -33,5 +33,5 @@ Type: Boolean
 **True** if a property with the given key was present on the object; otherwise, **false**.
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

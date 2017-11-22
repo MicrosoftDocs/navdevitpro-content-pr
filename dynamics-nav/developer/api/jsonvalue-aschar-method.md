@@ -34,5 +34,5 @@ Type: Char
 If the JsonValue does not contain a number which can be converted without loss of precision to a Char, the operation will fail with a run-time error.
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)
