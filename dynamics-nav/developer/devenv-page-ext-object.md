@@ -129,7 +129,6 @@ Pages
 
 ## See Also  
 [Page Object](devenv-page-object.md)  
-[Page Extension Properties](./properties/devenv-page-property-overview.md)    
-[Page Properties](./properties/devenv-page-properties.md)  
+[Page and Page Extension Properties](properties/devenv-page-property-overview.md)    
 [Developing Extensions](devenv-dev-overview.md)  
 [AL Development Environment](devenv-reference-overview.md)  
