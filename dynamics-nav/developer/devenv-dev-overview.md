@@ -19,7 +19,7 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 
 Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behavior of the solution. This section explains how you can develop extensions using the development environment for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. For an overview of developing apps for [!INCLUDE[d365fin_md](includes/d365fin_md.md)], see [aka.ms/GetStartedWithApps](devenv-develop-apps-for-fin.md).
 
-If you're new to building extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started](devenv-get-started.md) to set up the tools.
+If you're new to building extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started with AL](devenv-get-started.md) to set up the tools.
 
 ## Understanding objects in the development environment
 All functionality in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] is coded in objects. Table objects define the table schema that holds data, page objects represent the pages seen in the user interface and codeunits contain code for logical calculations and for the application behavior. These objects are stored as code, known as AL code, and are saved in files with the ```.al``` file extension.  
@@ -35,7 +35,7 @@ There are two other special objects which are specifically used for building ext
 For more information, see [Page Extension Object](devenv-page-ext-object.md) and [Table Extension Object](devenv-table-ext-object.md).
 
 ## Developing extensions in Visual Studio Code
-Using the AL Language extension for Visual Studio Code, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenant. For more information on getting up and running, see [Getting Started](devenv-get-started.md).
+Using the AL Language extension for Visual Studio Code, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenant. For more information on getting up and running, see [Getting Started with AL](devenv-get-started.md).
 
 Visual Studio Code and the AL Language extension lets you do the following tasks:
 
@@ -75,6 +75,6 @@ Extensions are compiled as .app package files. The .app package file can be depl
 When development of your app is done, you must check that your app meets the requirements before you submit the app for validation and eventually submission to AppSource. For more information, see [Checklist for Submitting Your App](devenv-checklist-submission.md).
 
 ## See Also
-[Getting Started](devenv-get-started.md)  
+[Getting Started with AL](devenv-get-started.md)  
 [Keyboard Shortcuts](devenv-keyboard-shortcuts.md)    
 [Developer Reference](devenv-reference-overview.md)  

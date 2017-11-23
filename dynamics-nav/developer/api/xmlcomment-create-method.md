@@ -31,5 +31,5 @@ A string that contains the contents of the new XmlComment node.
 &emsp;Type: XmlComment  
   
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

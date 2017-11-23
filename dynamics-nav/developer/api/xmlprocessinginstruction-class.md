@@ -42,6 +42,6 @@ The following methods are available on the XmlProcessingInstruction class.
 |[XmlProcessingInstruction.SelectNodes(String, XmlNodeList)](xmlprocessinginstruction-selectnodes-xpath-nodelist-method.md)|Selects a list of nodes matching the XPath expression.|  
 |[XmlProcessingInstruction.SelectNodes(String, XmlNamespaceManager, XmlNodeList)](xmlprocessinginstruction-selectnodes-xpath-namespacemanager-nodelist-method.md)|Selects a list of nodes matching the XPath expression.|  
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
