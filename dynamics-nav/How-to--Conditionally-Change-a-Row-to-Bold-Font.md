@@ -1,7 +1,8 @@
 ---
-title: "How to: Conditionally Change a Row to Bold Font"
+title: Conditionally Format Rows to Bold Font
+description: In reports, you can format rows as bold based on the value of a field in the row. Change the rows to bold font conditionally in the development environment.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/22/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: f4dff8b9-66fe-4b5c-8f6a-8c4797714f39
 caps.latest.revision: 19
 manager: edupont
 ---
-# How to: Conditionally Change a Row to Bold Font
+# Conditionally Format a Row to Bold Font in Reports
 In some reports, you may want to format rows as bold based on the value of a field in the row. For example, in the [!INCLUDE[demolong](includes/demolong_md.md)], on report 1, Chart of Accounts, you could conditionally specify that rows whose account type is **Posting** are bold and rows whose account type is anything other than **Posting** are not bold.  
   
 ### To conditionally change rows to bold font  
