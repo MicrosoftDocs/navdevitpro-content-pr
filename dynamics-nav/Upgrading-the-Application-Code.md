@@ -163,7 +163,7 @@ After you have completed the merge, you import the new merged application object
     -   Use the finsql.exe to run the [ImportObjects](ImportObjects.md) command.
 
         For more information, see [To import objects by running finsql.exe with the ImportObjects command  ](how-to--import-objects.md#ImportObjectsFinSQL).
-        
+
     -   Use the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] (or Microsoft.Dynamics.NAV.Model.Tools.psd1 module).
 
         The shell includes the **Join-NAVApplicationObjectFile** cmdlet and **Import-NAVApplicationObject** function. The **Join-NAVApplicationObjectFile** cmdlet combines multiple application object text files into one text file. The **Import-NAVApplicationObject** function runs the [ImportObjects](ImportObjects.md) command to import an object file.
@@ -211,3 +211,4 @@ This completes the upgrade of the application code. Next, you must upgrade the d
 [Upgrading the Data](Upgrading-the-Data.md)   
 [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)  
 [How to: Create Databases.md](How-to--Create-Databases.md)  
+[Deprecated Features in the UK Version of Microsoft Dynamics NAV 2018](deprecated-features-uk.md)  
