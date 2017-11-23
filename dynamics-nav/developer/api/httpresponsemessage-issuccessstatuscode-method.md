@@ -28,5 +28,5 @@ HttpResponseMessage.IsSuccessStatusCode
 &emsp;**True** if the status code is 200; **false** otherwise.
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

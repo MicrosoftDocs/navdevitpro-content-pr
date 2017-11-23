@@ -19,6 +19,9 @@ author: SusanneWindfeldPedersen
 # JsonObject Class
 A JsonObject object is a container for any well-formed JSON object. A default JsonObject contains an empty JSON object.
 
+> [!NOTE]
+> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+
 The following methods are available on JsonObject objects.
 
 |Method name|Description|
@@ -39,6 +42,6 @@ The following methods are available on JsonObject objects.
 |[RemoveAll](jsonobject-removeall-method.md)|Removes all the properties of the given object.|
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  

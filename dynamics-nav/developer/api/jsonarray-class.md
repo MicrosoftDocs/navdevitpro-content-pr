@@ -19,6 +19,9 @@ author: SusanneWindfeldPedersen
 # JsonArray Class
 JsonArray is a container for any well-formed JSON array. A default JsonArray contains an empty JSON array.
 
+> [!NOTE]
+> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+
 The following methods are available on the JsonArray class.
 
 |Method name|Description|
@@ -44,6 +47,6 @@ The following methods are available on the JsonArray class.
 Objects of type JsonArray represent a 0-based array.
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  

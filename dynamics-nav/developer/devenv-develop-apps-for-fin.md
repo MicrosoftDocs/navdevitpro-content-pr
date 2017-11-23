@@ -1,5 +1,5 @@
 ---
-title: "Developing Apps for Dynamics 365 for Financials"
+title: "Developing Apps for Dynamics 365 for Finance and Operations, Business edition"
 ms.custom: na
 ms.date: 08/31/2017
 ms.reviewer: na
@@ -14,7 +14,7 @@ author: SusanneWindfeldPedersen
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-# Developing Apps for Dynamics 365 for Financials
+# Developing Apps for Dynamics 365 for Finance and Operations, Business edition
 Reach more customers by bringing apps for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] into Microsoft Appsource, the marketplace for Microsoft business apps. 
 Dynamics 365 gives you rich functionality, a modern always up-to-date platform, and a set of great new development tools.
 When your app is done, publish it through Microsoft AppSource – the marketplace for Microsoft’s business apps and start benefiting from a brand that millions of users know and trust.

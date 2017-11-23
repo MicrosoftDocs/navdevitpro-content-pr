@@ -3,7 +3,7 @@ title: "Development Environment"
 description: "Overview of the objects in the AL Language development environment."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 10/11/2017
+ms.date: 11/17/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,16 +16,16 @@ caps.latest.revision: 18
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-# Developer Reference
-This section describes all of the objects that are available with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+# Development Environment
+This section describes all of the objects that are available with the AL Language development environment for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-## Defining the data model
+## Defining the AL data model
 |To | See |
 |---|-----|
 |Learn about how to define new table objects for your extension.|[Table Object](devenv-table-object.md)|
 |Learn about how to modify and extend existing table objects. |[Table Extension Object](devenv-table-ext-object.md)|
 
-## Presenting the data
+## Presenting the AL data
 |To |See |
 |---|----|
 |Learn about how to create new page objects for your extension.|[Page Object](devenv-page-object.md)|
@@ -34,11 +34,11 @@ This section describes all of the objects that are available with [!INCLUDE[d365
 |Learn about how to create xmlport objects|[XmlPort Object](devenv-xmlport-object.md)|
 |Learn about how to create query objects|[Query Object](devenv-query-object.md)|
 
-## Writing code
+## Writing AL code
 |To |See |
 |---|----|
 |Learn about writing codeunits for your extension.|[Codeunit Object](devenv-codeunit-object.md)|
 
 ## See Also
 [Developing Extensions](devenv-dev-overview.md)  
-[Getting Started](devenv-get-started.md)   
+[Getting Started with AL](devenv-get-started.md)   

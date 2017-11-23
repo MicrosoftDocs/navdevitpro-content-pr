@@ -19,6 +19,9 @@ author: SusanneWindfeldPedersen
 # XmlElement Class
 Represents an element.
 
+> [!NOTE]
+> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+
 The following methods are available on the XmlElement class.  
   
 |Method name|Description|  
@@ -69,6 +72,6 @@ The following methods are available on the XmlElement class.
 |[XmlElement.GetDescendantElements(String)](xmlelement-getdescendantelements-name-method.md)|Gets a list containing the descendant elements for this element, in document order.|  
 |[XmlElement.GetDescendantElements(String, String)](xmlelement-getdescendantelements-localname-namespaceuri-method.md)|Gets a list containing the descendant elements for this element, in document order.|  
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  

@@ -19,6 +19,9 @@ author: SusanneWindfeldPedersen
 # HttpClient Class
 Provides a base class for sending HTTP requests and receiving HTTP responses from a resource identified by a Uniform Resource Identifier (URI).
 
+> [!NOTE]
+> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data. 
+
 The following methods are available on the HttpClient class.
 
 |Method name|Description|
@@ -36,6 +39,6 @@ The following methods are available on the HttpClient class.
 |[AddCertificate](httpclient-addcertificate-method.md)|Adds a certificate to the HttpClient class.|
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)
