@@ -73,7 +73,7 @@ page 70000200 SimpleCustomerCard
 ```
 
 ## See Also  
-[Developer Reference](devenv-reference-overview.md)  
+[AL Development Environment](devenv-reference-overview.md)  
 [Page Extension Object](devenv-page-ext-object.md)  
 [Page Extension Properties](properties/devenv-page-property-overview.md)   
 [Developing Extensions](devenv-dev-overview.md)  

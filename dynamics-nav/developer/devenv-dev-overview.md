@@ -31,7 +31,7 @@ There are two other special objects which are specifically used for building ext
 > [!NOTE]  
 > Extension objects can have a name with a maximum length of 30 characters.
 
-You have several options for creating new objects withthe AL Language extension for Visual Studio Code. For more information about the objects that you can create for your extension, see [AL Development Environment](devenv-reference-overview.md).
+You have several options for creating new objects with the AL Language extension for Visual Studio Code. For more information about the objects that you can create for your extension, see [AL Development Environment](devenv-reference-overview.md).
 
 ## Developing extensions in Visual Studio Code
 Using the AL Language extension for Visual Studio Code, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenant. For more information on getting up and running, see [Getting Started with AL](devenv-get-started.md).
@@ -58,4 +58,4 @@ Extensions are compiled as .app package files. The .app package file can be depl
 ## See Also
 [Getting Started with AL](devenv-get-started.md)  
 [Keyboard Shortcuts](devenv-keyboard-shortcuts.md)    
-[Developer Reference](devenv-reference-overview.md)  
+[AL Development Environment](devenv-reference-overview.md)  
