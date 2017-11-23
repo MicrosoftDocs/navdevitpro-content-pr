@@ -87,4 +87,4 @@ You can specify supply types such as sales, loan, exchange, hire, lease, rental,
 ## See Also
 [Upgrading to Microsoft Dynamics NAV 2018](upgrading-to-microsoft-dynamics-nav.md)  
 [Upgrading the Application Code](upgrading-the-application-code.md)  
-[United Kingdom Local Functionality](/dynamics365/financials/localfunctionality/UnitedKingdom/united-kingdom-local-functionality?toc=/dynamics-nav/toc.json))  
+[United Kingdom Local Functionality](/dynamics365/financials/localfunctionality/unitedkingdom/united-kingdom-local-functionality?toc=/dynamics-nav/toc.json)  
