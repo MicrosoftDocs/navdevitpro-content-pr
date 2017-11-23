@@ -19,6 +19,9 @@ caps.latest.revision: 18
 # Page Customization Object
 The page customization object in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. The page customization object has more restrictions than the [page extension object](devenv-page-ext-object.md); when you define a new page customization object, you cannot add variables, procedures, or triggers. You can add changes to the page layout and actions.
 
+> [!NOTE]  
+> Extension objects can have a name with a maximum length of 30 characters.     
+
 ## Snippet support
 Typing the shortcut ```tpagecust``` will create the basic layout for a page customization object when using the AL Extension in Visual Studio Code.
 
