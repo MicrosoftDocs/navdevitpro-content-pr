@@ -23,6 +23,9 @@ The structure of a page is hierarchical and breaks down in to three sections. Th
 
 When developing a solution for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you will follow the code layout for a page as shown in the page example below, but for more details on the individual controls and properties that are available, see [Page Property Overview](properties/devenv-page-property-overview.md).
 
+> [!NOTE]  
+> Extension objects can have a name with a maximum length of 30 characters.      
+
 ## Snippet support
 Typing the shortcut ```tpage``` will create the basic layout for a page object when using the AL Extension in Visual Studio Code.
 
