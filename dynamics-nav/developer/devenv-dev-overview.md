@@ -55,6 +55,9 @@ The Designer works in the client itself allowing design of pages using a drag-an
 ## Compiling and deploying
 Extensions are compiled as .app package files. The .app package file can be deployed to the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] server. An .app package contains the various artifacts that deliver the new functionality to the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] deployment as well as a manifest that specifies the name, publisher, version, and other attributes of the extension. For information about the manifest, see [JSON Files](devenv-json-files.md).
 
+## Submitting your app
+When all development and testing is done, you can submit your extension package to AppSource. Before you submit the extension package, we encourage you to read the checklist to help facilitating the validation. For more information, see [Checklist for Submitting Your App](devenv-checklist-submission.md).
+
 ## See Also
 [Getting Started with AL](devenv-get-started.md)  
 [Keyboard Shortcuts](devenv-keyboard-shortcuts.md)    
