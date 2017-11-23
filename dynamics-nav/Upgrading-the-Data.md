@@ -44,7 +44,7 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
     -   Upgrade7101000.FOB and Upgrade710HF1000.FOB for [!INCLUDE[navsicily](includes/navsicily_md.md)]
     -   Upgrade8001000.FOB for [!INCLUDE[navcrete](includes/navcrete_md.md)]
     -   Upgrade9001000.FOB for [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
-    -   Upgrade10001100.FOB.FOB for [!INCLUDE[nav2017](includes/nav2017.md)]
+    -   Upgrade10001100.FOB for [!INCLUDE[nav2017](includes/nav2017.md)]
 3.   You have exported the permission sets and permissions as XML files. 
 
     For more information, see [How to: Export and Import Permission Sets and Permissions](how-to--import-export-permission-sets-permissions.md#ExportPerms).
