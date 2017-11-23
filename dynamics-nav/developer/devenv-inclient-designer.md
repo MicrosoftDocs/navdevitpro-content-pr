@@ -74,4 +74,4 @@ The display type icons let you preview the changes you made on desktop, tablet, 
 ## See Also
 [Developing Extensions](devenv-dev-overview.md)  
 [Getting Started with AL](devenv-get-started.md)  
-[Developer Reference](devenv-reference-overview.md)
+[AL Development Environment](devenv-reference-overview.md)

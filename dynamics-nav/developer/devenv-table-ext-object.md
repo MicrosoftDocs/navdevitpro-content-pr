@@ -69,6 +69,6 @@ tableextension 70000020 RetailWinterSportsStore extends Customer
 Tables
 
 ## See Also
-[Developer Reference](devenv-reference-overview.md)  
+[AL Development Environment](devenv-reference-overview.md)  
 [Table Object](devenv-table-object.md)  
 [Table and Table Extension Properties](properties/devenv-table-properties.md)

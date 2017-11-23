@@ -127,4 +127,4 @@ The following table lists object symbols contained in the platform symbol packag
 
 ## See Also
 [Differences in the Development Environments](devenv-differences.md)  
-[Developer Reference](devenv-reference-overview.md)
+[AL Development Environment](devenv-reference-overview.md)

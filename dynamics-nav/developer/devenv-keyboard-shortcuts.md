@@ -3,7 +3,7 @@ title: "Keyboard Shortcuts"
 description: "List of keyboard shortcuts for the new development environment."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 07/21/2017
+ms.date: 11/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,9 +16,9 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Keyboard Shortcuts
-The following table provides an overview of some of the shortcut key combinations that you can use when you're working with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Visual Studio Code. For a complete overview, see [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/customization/keybindings)
+The following table provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Visual Studio Code. For a complete overview, see [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/customization/keybindings).
 
-## AL Language Extension Specific
+## AL Language Extension Specific for Visual Studio Code
 |Keyboard Shortcut| Action|
 |-----------------|-------|
 |Ctrl+Shift+P|Show All Commands|
@@ -30,7 +30,7 @@ The following table provides an overview of some of the shortcut key combination
 |F6|Publish and open the designer|
 |Ctrl+F2|Update the compiler used by the service tier(s)|
 
-## Editing
+## Editing in Visual Studio Code
 |Keyboard Shortcut| Action|
 |-----------------|-------|
 |Ctrl+Space|Look up suggestions for the current object|
@@ -46,26 +46,24 @@ The following table provides an overview of some of the shortcut key combination
 |Ctrl+K Ctrl+U|Remove line comment|
 |Ctrl+Shift+P|Show All Commands|
 
-## Errors
+## Errors in Visual Studio Code
 |Keyboard Shortcut| Action|
 |-----------------|-------|
 |F8|Move to the next error or warning|
 |Shift+F8|Move to the previous error or warning|
 
-## Compile
+## Compile in Visual Studio Code
 |Keyboard Shortcut| Action|
 |-----------------|-------|
 |Ctrl+Shift+B|Compile and build the solution|
 |Ctrl+F5|Build and deploy|
 
-## Debugger
+## Debugging in Visual Studio Code
 |Keyboard Shortcut|Action|
 |-----------------|------|
 |F5|Start debugging session|
 
-
-
 ## See Also
 [Developing Extensions](devenv-dev-overview.md)  
-[Getting Started with AL](devenv-get-started.md)    
-[Developer Reference](devenv-reference-overview.md)
+[Getting Started with AL](devenv-get-started.md)  
+[AL Development Environment](devenv-reference-overview.md)
