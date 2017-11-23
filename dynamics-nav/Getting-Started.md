@@ -13,7 +13,7 @@ ms.author: solsen
 ---
 
 # Getting Started
-To get started developing for [!INCLUDE[d365fin_long_md.md](includes/d365fin_long_md.md)] and [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see the following topics.
+To get started developing for [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and for [!INCLUDE[d365fin_long_md.md](includes/d365fin_long_md.md)], see the following topics.
 
 ## Learn about AL
 
