@@ -1,7 +1,8 @@
 ---
-title: "How to: Compare and Update Application Object Source Files"
+title: Compare and Update Application Object Source Files
+description: Compare the different set of Dynamics NAV application objects using Windows PowerShell cmdlets and apply all or some differences to the target solution.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/22/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 464cf181-c272-42db-baa0-2c817aa66468
 caps.latest.revision: 3
 ---
-# How to: Compare and Update Application Object Source Files
+# Compare and Update Application Object Source Files
 You can use [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to compare different sets of [!INCLUDE[navnow](includes/navnow_md.md)] application objects to identify the differences. Then, you can choose to apply all or some of the differences to a target solution.  
   
  We recommend that you use the Merge-NAVApplicationObject cmdlet because it is the faster and easier way to merge objects. However, you can choose to use the Compare-NAVApplicationObject cmdlet and Update-NAVApplicationObject cmdlet to identify the differences before you apply them. Or, for example, when you want to apply the same modifications to multiple applications or similar. The following procedures illustrate how you can use these two cmdlets in combination  

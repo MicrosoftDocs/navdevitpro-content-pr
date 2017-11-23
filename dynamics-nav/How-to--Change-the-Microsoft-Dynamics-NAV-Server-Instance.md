@@ -1,7 +1,8 @@
 ---
-title: "How to: Change the Microsoft Dynamics NAV Server Instance"
+title: Change the Server Instance
+description: Change the currently used Dynamics NAV Server instance by specifying the server instance from a list, or the field in the Database options window. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: c06ea848-bc0d-493d-99b8-9db10a684ecb
 caps.latest.revision: 5
 manager: edupont
 ---
-# How to: Change the Microsoft Dynamics NAV Server Instance
+# How to Change the Microsoft Dynamics NAV Server Instance
 In some cases, you may want to change the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is being used. For example:  
 
 -   When you select an object in Object Designer and then choose the **Run** button, you may want the selected object to run on a different [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the one that is currently specified.  
