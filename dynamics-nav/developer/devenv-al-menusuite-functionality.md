@@ -70,4 +70,4 @@ The **AccessByPermission** property and **ApplicationArea** property are the opt
 [MenuSuite Properties](properties/devenv-menusuite-properties.md)   
 [Page Object](devenv-page-object.md)  
 [Report Object](devenv-report-object.md)  
-[Developer Reference](devenv-reference-overview.md)
+[AL Development Environment](devenv-reference-overview.md)

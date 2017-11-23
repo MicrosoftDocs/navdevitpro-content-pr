@@ -86,6 +86,6 @@ table 70000030 Address
 
 ## See Also
 [Table Extension Object](devenv-table-ext-object.md)  
-[Developer Reference](devenv-reference-overview.md)  
+[AL Development Environment](devenv-reference-overview.md)  
 [Table Keys](devenv-table-keys.md)  
 [Table Properties](properties/devenv-table-properties.md)  
