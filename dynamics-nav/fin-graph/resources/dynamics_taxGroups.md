@@ -1,6 +1,6 @@
 ---
 title: taxGroups resource type | Microsoft Docs
-description: A tax group object in Dynamics 365 for Financials. 
+description: A tax group object in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,11 +15,12 @@ ms.author: solsen
 ---
 
 # taxGroups resource type
-Represents a taxGroups resource type in Dynamics 365 for Financials.
+Represents a taxGroups resource type in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
 |[GET taxGroups](../api/dynamics_taxGroups_get.md)|taxGroups|Gets a tax group object.|
@@ -54,4 +55,4 @@ Here is a JSON representation of the taxGroup.
 ```
 
 ## See Also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Microsoft Graph](../api/dynamics_graph_reference.md)  

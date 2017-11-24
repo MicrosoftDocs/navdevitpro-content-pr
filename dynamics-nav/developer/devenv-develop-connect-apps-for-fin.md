@@ -1,10 +1,10 @@
 ---
-title: "Developing Connect Apps for Dynamics 365 for Financials"
+title: "Developing Connect Apps for Dynamics 365 for Finance and Operations, Business edition"
 author: SusanneWindfeldPedersen
 
 ms.author: solsen
 ms.custom: na
-ms.date: 09/15/2017
+ms.date: 11/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,6 +19,9 @@ A Connect app establishes a connection between two independent services using an
 
 ## Want to try it out?
 With this preview, you can get started exploring the APIs that we offer for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. We do not yet support submission to AppSource for Connect apps, so for now, we encourage you to get familiar with the structure and possibilities of the API.
+
+> [!NOTE]  
+> For information about enabling the APIs on [!INCLUDE[navnow_md](includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../enabling-apis-for-dynamics-nav.md).
 
 It's easy to get started. Just spin up a tenant by going through these steps.
 

@@ -15,7 +15,10 @@ ms.author: solsen
 ---
 
 # salesCreditMemoLines resource type
-Represents a line on a sales credit memo line in Dynamics 365 for Financials.
+Represents a line on a sales credit memo line in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -101,4 +104,4 @@ Here is a JSON representation of the resource.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 
