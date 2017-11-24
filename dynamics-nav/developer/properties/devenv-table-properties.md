@@ -1,8 +1,9 @@
 ---
-title: "Table Properties"
+title: Table and Table Extension Properties
+description: This topic lists table properties that apply to feilds of a table object.
 author: edupont04
 ms.custom: na
-ms.date: 06/27/2017
+ms.date: 11/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,7 +15,7 @@ ms.author: edupont
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
-# Table Properties
+# Table and Table Extension Properties
 The following topic lists properties that apply to the table object.  
 
 ## Table Object Properties  
