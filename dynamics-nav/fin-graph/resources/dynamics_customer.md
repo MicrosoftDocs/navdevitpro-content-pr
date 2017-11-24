@@ -1,6 +1,6 @@
 ---
 title: customers resource type | Microsoft Docs
-description: Represents a customer in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+description: Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-financials
@@ -13,7 +13,7 @@ ms.author: solsen
 ---
 
 # customers resource type
-Represents a customer in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
@@ -101,4 +101,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)

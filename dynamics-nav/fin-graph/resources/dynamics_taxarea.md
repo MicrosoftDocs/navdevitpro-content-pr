@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # taxAreas resource type
-Represents a tax area resource type in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Represents a tax area resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).

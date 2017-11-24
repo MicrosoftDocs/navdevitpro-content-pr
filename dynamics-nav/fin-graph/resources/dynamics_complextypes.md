@@ -1,6 +1,6 @@
 ---
 title: complex types JSON | Microsoft Docs
-description: Complex data types in JSON for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+description: Complex data types in JSON for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,14 +15,14 @@ ms.author: solsen
 ---
 
 # complex types JSON
-These are the various complex types in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. You can see usage of these complex types in the various individual methods that make use of them.
+These are the various complex types in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. You can see usage of these complex types in the various individual methods that make use of them.
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Item category
 
-Represents an Item Category complex type in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Represents an Item Category complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ### Properties
 | Property	   | Type	 |Description                                    |
@@ -40,7 +40,7 @@ Represents an Item Category complex type in [!INCLUDE[d365fin_long_md](includes/
 
 ## Unit of measure
 
-Represents a Unit of Measure complex type in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].       
+Represents a Unit of Measure complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
 | Property	   | Type	 |Description                                                 |
@@ -62,7 +62,7 @@ Represents a Unit of Measure complex type in [!INCLUDE[d365fin_long_md](includes
 
 ## Unit of measure conversion
 
-Represents a Unit of Measure Conversion complex type in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].       
+Represents a Unit of Measure Conversion complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
 | Property	         | Type	   |Description                                  |
@@ -80,7 +80,7 @@ Represents a Unit of Measure Conversion complex type in [!INCLUDE[d365fin_long_m
 
 ## Payment method
 
-Represents a Payment Method complex type in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].       
+Represents a Payment Method complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
 | Property	   | Type	 |Description                           |
@@ -98,7 +98,7 @@ Represents a Payment Method complex type in [!INCLUDE[d365fin_long_md](includes/
 
 ## Payment terms
 
-Represents a Payment Terms complex type in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].       
+Represents a Payment Terms complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
 | Property	| Type	|Description                          |
@@ -116,7 +116,7 @@ Represents a Payment Terms complex type in [!INCLUDE[d365fin_long_md](includes/d
 
 ## Postal address
 
-Represents a Postal Address complex type in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].       
+Represents a Postal Address complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
 | Property	   | Type	    |Description             |
@@ -140,7 +140,7 @@ Represents a Postal Address complex type in [!INCLUDE[d365fin_long_md](includes/
 
 ## Shipment method
 
-Represents a Shipment Method complex type in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].       
+Represents a Shipment Method complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
 | Property	|Type	  |Description                            |
@@ -158,7 +158,7 @@ Represents a Shipment Method complex type in [!INCLUDE[d365fin_long_md](includes
 
 ## Line details
 
-Represents a Line Details complex type in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].       
+Represents a Line Details complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
 | Property	  | Type	|Description                  |
@@ -175,4 +175,4 @@ Represents a Line Details complex type in [!INCLUDE[d365fin_long_md](includes/d3
 ```
 
 ## See also
-[Working with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

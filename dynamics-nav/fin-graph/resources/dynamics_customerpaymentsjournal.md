@@ -1,6 +1,6 @@
 ---
 title: customerPaymentsJournals resource type | Microsoft Docs
-description: A customer payments journal in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+description: A customer payments journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # customerPaymentsJournals resource type
-Represents a customer payments journal in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Represents a customer payments journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
