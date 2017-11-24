@@ -24,7 +24,7 @@ Become [CSP](https://partner.microsoft.com/en-US/cloud-solution-provider) or
  
 Reach out to [offerspilot@microsoft.com](mailto:offerspilot@microsoft.com) on questions.   
  
-### You can provide customization services with Dynamics 365 for Financials  
+### You can provide customization services with Dynamics 365 for Finance and Operations, Business edition  
 Respond to the individual needs of your customer by building customizations for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Customizations can be developed in the Designer and by code developed in Visual Studio Code using the AL Language extension. See how you can easily get started here [aka.ms/GetStartedWithApps](http://aka.ms/getstartedwithapps). 
 
 And learn all about building customizations in [sandbox environments](https://docs.microsoft.com/en-us/dynamics365/financials/across-how-create-sandbox-environment).  
@@ -58,7 +58,7 @@ Drive demand for your packaged consulting and consulting services with 100M user
 
 1) Get listed as a partner; [register](https://partner.microsoft.com/en-us/membership) with the Microsoft Partner Network and [create a marketing profile](https://msdn.microsoft.com/partner-center/create-a-marketing-profile) on PartnerCenter.  
 
-2) Become [CSP](https://partner.microsoft.com/en-US/cloud-solution-provider) or [DPOR](https://partner.microsoft.com/en-US/membership/digital-partner-of-Record) for Dynamics 365 for Financials with at least 1 customer and [submit your offers](https://cloudpartner.azure.com/) to AppSource in the Cloud Partner Portal.  
+2) Become [CSP](https://partner.microsoft.com/en-US/cloud-solution-provider) or [DPOR](https://partner.microsoft.com/en-US/membership/digital-partner-of-Record) for Dynamics 365 for Finance and Operations, Business edition with at least 1 customer and [submit your offers](https://cloudpartner.azure.com/) to AppSource in the Cloud Partner Portal.  
 
 If you experience issues accessing the Offer page, please contact [offerspilot@microsoft.com](mailto:offerspilot@microsoft.com).
 
