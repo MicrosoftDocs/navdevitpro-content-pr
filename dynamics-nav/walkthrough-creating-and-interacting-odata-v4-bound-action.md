@@ -17,7 +17,7 @@ author: SusanneWindfeldPedersen
 This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/navnow_md.md)] function as an OData V4 web service action. 
 
 ## About This Walkthrough  
-This walkthrough provides an overview of how to expose a function as a Web service action and how to verify that the service is working as expected. The walkthrough illustrates the following tasks:
+This walkthrough provides an overview of how to expose a function as a web service action and how to verify that the service is working as expected. The walkthrough illustrates the following tasks:
 
 -   Publishing a [!INCLUDE[navnow](includes/navnow_md.md)] function as a web service.    
 -   Verifying web service availability from a browser.

@@ -1,5 +1,5 @@
 ---
-title: "Enabling APIs for Microsoft Dynamics NAV 2018"
+title: "Enabling APIs for Microsoft Dynamics NAV"
 description: "Describing the steps you must go through to enable access to the APIs."
 author: SusanneWindfeldPedersen
 ms.custom: na
@@ -14,7 +14,7 @@ ms.author: solsen
 caps.latest.revision: 18
 ---
 
-# Enabling the APIs for Microsoft Dynamics NAV 2018
+# Enabling the APIs for Microsoft Dynamics NAV
 Dynamics NAV and Dynamics 365 for Financials expose an API that makes it possible to integrate with other services. To enable integration with these APIs, you must go through a few steps to enable the access for [!INCLUDE[navnow](includes/navnow_md.md)].
 
 ## Enable access to the APIs
@@ -33,6 +33,6 @@ Depending on where you want to access the APIs from, you must specify the correc
 
 ## See Also
 [API Documentation (Preview)](fin-graph/index.md)  
-[Developing Connect Apps for Dynamics 365 for Financials](developer/devenv-develop-connect-apps-for-fin.md)  
+[Developing Connect Apps for Dynamics 365 for Finance and Operations, Business edition](developer/devenv-develop-connect-apps-for-fin.md)  
 [Configuring Microsoft Dynamics NAV Server](configuring-microsoft-dynamics-nav-server.md)  
 [Microsoft Dynamics NAV Web Services Overview](microsoft-dynamics-nav-web-services-overview.md)  
