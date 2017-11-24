@@ -21,7 +21,10 @@ The table extension object allows you to add additional fields or to change some
 
 Along with defining other fields, the table extension is where you write trigger code for your additional fields.
 
-When developing a solution for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you will follow the code layout for a table extension as shown in the example below.<!-- insert link for more information when the table properties topic is done -->
+When developing a solution for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you will follow the code layout for a table extension as shown in the example below.
+
+> [!NOTE]  
+> Extension objects can have a name with a maximum length of 30 characters.      
 
 ## Snippet support
 Typing the shortcut ```ttableext``` will create the basic layout for a table extension object when using the AL Extension in Visual Studio Code.
@@ -66,6 +69,6 @@ tableextension 70000020 RetailWinterSportsStore extends Customer
 Tables
 
 ## See Also
-[Developer Reference](devenv-reference-overview.md)  
+[AL Development Environment](devenv-reference-overview.md)  
 [Table Object](devenv-table-object.md)  
 [Table and Table Extension Properties](properties/devenv-table-properties.md)
