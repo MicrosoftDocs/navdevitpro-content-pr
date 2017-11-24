@@ -48,6 +48,8 @@ The following properties apply to the page object.
 |[EntityName Property](devenv-entityname-property.md)|X||
 |[EntitySetName Property](devenv-entitysetname-property.md)|X||
 |[UsageCategory Property](devenv-usagecategory-property.md)|X||
+|[ApplicationArea Property](devenv-applicationarea-property.md)|X||
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
   
   <!-- |[ODateKeyFields Property]()|X||-->
 

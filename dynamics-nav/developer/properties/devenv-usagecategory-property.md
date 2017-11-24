@@ -17,7 +17,7 @@ caps.latest.revision: 18
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # UsageCategory Property
-AL provides navigational support for pages and reports in the client. You enable a page or report to be available through Search in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] using the **UsageCategory** property. For more information about the Search functionality, see [Adding Pages and Reports to Search](../devenv-al-menusuite-functionality.md)
+AL provides navigational support for pages and reports in the client. You enable a page or report to be available through Search in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] using the **UsageCategory** property. For more information about the Search functionality in AL, see [Adding Pages and Reports to Search](../devenv-al-menusuite-functionality.md)
 
 ## Property Values
 The values for the UsageCategory property are listed below: 
@@ -42,7 +42,7 @@ UsageCategory = ReportsAndAnalysis;
 
 ## Dependent Properties
 
-The [AccessByPermission property](devenv-accessbypermission-property.md) and [ApplicationArea Property](devenv-applicationarea-property.md) are the optional properties, which can be applied to set restrictions on an object accessibility, when you add the **UsageCategory** property. 
+The [AccessByPermission property](devenv-accessbypermission-property.md) and [ApplicationArea Property](devenv-applicationarea-property.md) are optional properties, which can be applied to set restrictions on an object accessibility, when you add the **UsageCategory** property. 
 
 
 ## See Also
