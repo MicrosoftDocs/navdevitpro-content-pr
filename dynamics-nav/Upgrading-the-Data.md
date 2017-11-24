@@ -133,7 +133,7 @@ Use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to compile all t
 In Object Designer, choose **Tools**, choose **Compile**, set the **Synchronize Schema** to **Later**, and then choose **OK**.
 -->
 
-##  <a name="ImportAppObj"></a> Task 8: Import the application objects to the converted database and compile  
+##  <a name="ImportAppObj"></a> Task 8: Import the application objects to the converted database  
 Using the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], import all the old application objects that you want in the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] database. This includes the application objects FOB file (from the application code upgrade) and the upgrade toolkit objects FOB file.
 
 1. If the upgrade toolkit objects are stored in a separate FOB file, import the application objects FOB file first, and then import the upgrade toolkit FOB file.
@@ -226,8 +226,8 @@ You import the permission sets and permissions XML files.
 ##  <a name="AddControlAddins"></a> Task 16: Register client control add-ins  
  The database is now fully upgraded and is ready for use. However, [!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes the following client control add-ins.
 -   Microsoft.Dynamics.Nav.Client.BusinessChart  
--   Microsoft.Dynamics.Nav.Client.CodeViewer
 -   Microsoft.Dynamics.Nav.Client.DynamicsOnlineConnect
+-   Microsoft.Dynamics.Nav.Client.FlowIntegration
 -   Microsoft.Dynamics.Nav.Client.OAuthIntegration
 -   Microsoft.Dynamics.Nav.Client.PageReady  
 -   Microsoft.Dynamics.Nav.Client.PingPong  
