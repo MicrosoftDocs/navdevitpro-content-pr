@@ -1,6 +1,6 @@
 ---
 title: journal resource type | Microsoft Docs
-description: A journal in Dynamics 365 for Financials.
+description: A journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,7 +15,10 @@ ms.author: solsen
 ---
 
 # journal resource type
-Represents a journal in Dynamics 365 for Financials.
+Represents a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 

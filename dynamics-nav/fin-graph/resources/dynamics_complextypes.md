@@ -1,6 +1,6 @@
 ---
 title: complex types JSON | Microsoft Docs
-description: Complex data types in JSON for Dynamics 365 for Financials.
+description: Complex data types in JSON for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,11 +15,14 @@ ms.author: solsen
 ---
 
 # complex types JSON
-These are the various complex types in Dynamics 365 for Financials. You can see usage of these complex types in the various individual methods that make use of them.
+These are the various complex types in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. You can see usage of these complex types in the various individual methods that make use of them.
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Item category
 
-Represents an Item Category complex type in Dynamics 365 for Financials.
+Represents an Item Category complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ### Properties
 | Property	   | Type	 |Description                                    |
@@ -37,7 +40,7 @@ Represents an Item Category complex type in Dynamics 365 for Financials.
 
 ## Unit of measure
 
-Represents a Unit of Measure complex type in Dynamics 365 for Financials.       
+Represents a Unit of Measure complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
 | Property	   | Type	 |Description                                                 |
@@ -59,7 +62,7 @@ Represents a Unit of Measure complex type in Dynamics 365 for Financials.
 
 ## Unit of measure conversion
 
-Represents a Unit of Measure Conversion complex type in Dynamics 365 for Financials.       
+Represents a Unit of Measure Conversion complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
 | Property	         | Type	   |Description                                  |
@@ -77,7 +80,7 @@ Represents a Unit of Measure Conversion complex type in Dynamics 365 for Financi
 
 ## Payment method
 
-Represents a Payment Method complex type in Dynamics 365 for Financials.       
+Represents a Payment Method complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
 | Property	   | Type	 |Description                           |
@@ -95,7 +98,7 @@ Represents a Payment Method complex type in Dynamics 365 for Financials.
 
 ## Payment terms
 
-Represents a Payment Terms complex type in Dynamics 365 for Financials.       
+Represents a Payment Terms complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
 | Property	| Type	|Description                          |
@@ -113,7 +116,7 @@ Represents a Payment Terms complex type in Dynamics 365 for Financials.
 
 ## Postal address
 
-Represents a Postal Address complex type in Dynamics 365 for Financials.       
+Represents a Postal Address complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
 | Property	   | Type	    |Description             |
@@ -137,7 +140,7 @@ Represents a Postal Address complex type in Dynamics 365 for Financials.
 
 ## Shipment method
 
-Represents a Shipment Method complex type in Dynamics 365 for Financials.       
+Represents a Shipment Method complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
 | Property	|Type	  |Description                            |
@@ -155,7 +158,7 @@ Represents a Shipment Method complex type in Dynamics 365 for Financials.
 
 ## Line details
 
-Represents a Line Details complex type in Dynamics 365 for Financials.       
+Represents a Line Details complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
 | Property	  | Type	|Description                  |
@@ -172,4 +175,4 @@ Represents a Line Details complex type in Dynamics 365 for Financials.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

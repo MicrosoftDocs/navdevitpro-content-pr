@@ -1,6 +1,6 @@
 ---
 title: companyInformation resource type | Microsoft Docs
-description: Company information in Dynamics 365 for Financials.
+description: Company information in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,7 +15,10 @@ ms.author: solsen
 ---
  
 # companyInformation resource type
-Represents the information specified for the current company in Dynamics 365 for Financials, such as name, address, email address, and website address.
+Represents the information specified for the current company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)], such as name, address, email address, and website address.
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -71,4 +74,4 @@ Here is a JSON representation of the companyInformation
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 
