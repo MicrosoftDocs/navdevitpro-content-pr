@@ -42,6 +42,8 @@ This topic lists properties of the report object.
 |[UseSystemPrinter Property](devenv-usesystemprinter-property.md)|X|
 |[PDFFontEmbedding Property](devenv-pdf-fontembedding-property.md)|X|
 |[UsageCategory Property](devenv-usagecategory-property.md)|X|
+|[ApplicationArea Property](devenv-applicationarea-property.md)|X|
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|X|
 
 ## DataItem Properties  
  The following properties apply to **DataItem** controls of a report object.  
