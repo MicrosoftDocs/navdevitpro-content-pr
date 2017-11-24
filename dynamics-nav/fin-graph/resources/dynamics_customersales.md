@@ -1,6 +1,6 @@
 ---
 title: customerSales resource type | Microsoft Docs
-description: A customer sales in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+description: A customer sales in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

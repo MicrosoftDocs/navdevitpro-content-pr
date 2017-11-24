@@ -1,6 +1,6 @@
 ---
 title: agedAccountsPayable resource type | Microsoft Docs
-description: An aged accounts payable object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+description: An aged accounts payable object in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

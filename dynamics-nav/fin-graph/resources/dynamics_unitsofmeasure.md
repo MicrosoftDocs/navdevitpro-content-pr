@@ -1,6 +1,6 @@
 ---
 title: unitsOfMeasure resource type | Microsoft Docs
-description: A unit of measure object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+description: A unit of measure object in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

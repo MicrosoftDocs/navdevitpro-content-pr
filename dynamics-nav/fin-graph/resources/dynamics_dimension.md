@@ -1,6 +1,6 @@
 ---
 title: dimensions resource type | Microsoft Docs
-description: A dimension in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+description: A dimension in Dynamics 365 for Finance and Operations, Business edition.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-financials

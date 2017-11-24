@@ -1,6 +1,6 @@
 ---
 title: complex types JSON | Microsoft Docs
-description: Complex data types in JSON for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+description: Complex data types in JSON for Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

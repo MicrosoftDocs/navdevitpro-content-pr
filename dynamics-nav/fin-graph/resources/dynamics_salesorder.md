@@ -1,6 +1,6 @@
 ---
 title: salesOrders resource type | Microsoft Docs
-description: A sales order object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+description: A sales order object in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

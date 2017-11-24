@@ -1,6 +1,6 @@
 ---
 title: vendorPurchases resource type | Microsoft Docs
-description: A vendor purchase object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+description: A vendor purchase object in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

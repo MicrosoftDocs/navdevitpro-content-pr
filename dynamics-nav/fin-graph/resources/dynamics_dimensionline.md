@@ -1,6 +1,6 @@
 ---
 title: dimensionLines resource type | Microsoft Docs
-description: A dimension line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+description: A dimension line in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

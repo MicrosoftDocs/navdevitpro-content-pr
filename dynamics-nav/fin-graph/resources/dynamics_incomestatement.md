@@ -1,6 +1,6 @@
 ---
 title: incomeStatement resource type | Microsoft Docs
-description: An incomeStatement in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+description: An incomeStatement in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get journalLines
-Retrieve the properties and relationships of a journal line object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a journal line object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 

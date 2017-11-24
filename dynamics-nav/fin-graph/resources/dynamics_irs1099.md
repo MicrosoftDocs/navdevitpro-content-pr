@@ -1,6 +1,6 @@
 ---
 title: irs1099Codes resource type | Microsoft Docs
-description: An IRS 1099 Code object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+description: An IRS 1099 Code object in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

@@ -1,5 +1,5 @@
 ---
-title: [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] Overview | Microsoft Docs
+title: Dynamics 365 for Finance and Operations, Business edition Overview | Microsoft Docs
 description: Overview of the capabilities of Dynamics 365 for Finance and Operations Microsoft Graph API.
 services: project-madeira
 documentationcenter: ''

@@ -1,6 +1,6 @@
 ---
 title: companies resource type | Microsoft Docs
-description: A company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+description: A company in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
