@@ -35,5 +35,5 @@ Type: Text
 The operation will fail with a run-time error if the JsonValue contains NULL or UNDEFINED.
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

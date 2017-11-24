@@ -70,4 +70,4 @@ When an error occurs, unless the task is interrupted by the failure codeunit, th
 ## See Also
 [Task Scheduler Data Type](datatypes/devenv-taskscheduler-data-type.md)   
 [Developing Extensions](devenv-dev-overview.md)  
-[Getting Started](devenv-get-started.md) 
+[Getting Started with AL](devenv-get-started.md) 

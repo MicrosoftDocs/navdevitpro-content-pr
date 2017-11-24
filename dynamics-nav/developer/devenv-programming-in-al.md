@@ -69,4 +69,4 @@ one form or page.
  [Methods](devenv-al-methods.md)  
  [System-Defined Variables](devenv-system-defined-variables.md)  
  [Developing Extensions](devenv-dev-overview.md)  
- [Getting Started](devenv-get-started.md)
+ [Getting Started with AL](devenv-get-started.md)

@@ -1,5 +1,5 @@
 ---
-title: "Developing Apps for Dynamics 365 for Financials"
+title: "Developing Apps for Dynamics 365 for Finance and Operations, Business edition"
 ms.custom: na
 ms.date: 08/31/2017
 ms.reviewer: na

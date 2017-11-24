@@ -1,5 +1,5 @@
 ---
-title: "Getting Started"
+title: "Getting Started with AL"
 description: "Description of how to get started with the new development environment"
 author: SusanneWindfeldPedersen
 ms.custom: na
@@ -16,7 +16,7 @@ caps.latest.revision: 18
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-# Getting Started
+# Getting Started with AL
 To get started writing extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] you will need a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenant, Visual Studio Code, and the AL Language extension. Visual Studio Code is a cross platform editor that you will use for coding and debugging.
 
 ## Steps to set up a sandbox environment and Visual Studio Code
