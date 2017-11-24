@@ -20,19 +20,19 @@ caps.latest.revision: 18
 ## Accessing the endpoint
 Once you have the API access enabled, you can write code that integrates your web service or SaaS solution with [!INCLUDE[navnow](includes/navnow_md.md)]. Creating your integration through an API provides simple access to the supported functionality in a single endpoint, giving you a simplified experience for creating a single app with integrations across multiple Microsoft products. 
 
-||Dynamics 365 for Financials (online)|||Microsoft Dynamics NAV 2018 (on-prem)|
+||Dynamics 365 (online)|||Microsoft Dynamics NAV 2018 (on-prem)|
 |--|--|--|--|--|
 |Means of connection|Microsoft Graph|Common endpoint service|Direct tenant|Direct installation|
 |Usage|Production|Production|Rapid development and testing only|Production|
-|Endpoint|`https://graph.microsoft.com/financials/beta/`| `https://api.financials.dynamics.com`|`https://<tenant url>:7048/MS/api/<API version>/`<br>  Example: `https://contoso.com:7048/api/beta`|OData base URL in installation: <br> `https://<base URL>:<port>/v1.0/api/<API version>/` <br> Example: `https://nav.contoso.com:7048/v1.0/api/beta/` <br> Must be exposed through a firewall.|
+|Endpoint|`https://`<br>`graph.microsoft.com`<br>`/financials/beta/`| `https://`<br>`api.financials.dynamics.com`|`https://`<br>`<tenant url>:7048/MS/api/<API version>/`<br>  Example: `https://`<br>`contoso.com:7048/api/beta`|OData base URL in installation: <br> `https://`<br>`<base URL>:<port>/v1.0/api/<API version>/` <br> Example: `https://`<br>`nav.contoso.com:7048`<br>`/v1.0/api/beta/` <br> Must be exposed through a firewall.|
 |Availability|Always enabled|Always enabled|Always enabled|Disabled by default.<br> Must be enabled by the administrator.|
 |Authentication|Azure Active Directory (AAD)|Azure Active Directory (AAD)|Basic authentication. Username and web service access key as password.|Basic authentication.<br> Username and web service access key as password.|
 |API/Data access|Based on user's [permissions](permissions-on-database-objects.md)|Based on user's [permissions](permissions-on-database-objects.md)|Based on user's [permissions](permissions-on-database-objects.md)|Based on user's [permissions](permissions-on-database-objects.md)|
 |API update cycle|Monthly|Monthly|Monthly|Hotfixes installed by partner|
-|Development instance|Sign up for a tenant at http://portal.microsoft.com|Sign up for a tenant at http://portal.microsoft.com|Sign up for a tenant at http://portal.microsoft.com|Get [Docker](https://aka.ms/developerpreview) instance|
+|Development instance|Sign up for a tenant at<br> http://portal.microsoft.com|Sign up for a tenant at<br> http://portal.microsoft.com|Sign up for a tenant at<br> http://portal.microsoft.com|Get [Docker](https://aka.ms/developerpreview) instance|
 
 ## See Also
 [API Documentation (Preview)](fin-graph/index.md)  
-[Developing Connect Apps for Dynamics 365 for Financials](developer/devenv-develop-connect-apps-for-fin.md)  
+[Developing Connect Apps for Dynamics 365 for Finance and Operations, Business edition](developer/devenv-develop-connect-apps-for-fin.md)  
 [Configuring Microsoft Dynamics NAV Server](configuring-microsoft-dynamics-nav-server.md)  
 [Microsoft Dynamics NAV Web Services Overview](microsoft-dynamics-nav-web-services-overview.md)  
