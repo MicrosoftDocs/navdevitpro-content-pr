@@ -72,7 +72,7 @@ AccessByPermission = tabledata MySetup = I;
 
 ## Dependent Property
 
-The **UsageCategory** property is a required setting used together with the **AccessByPermission** property. This enables a page or a report to be available in Search for the navigation support. For more information about navigation support, see [Adding Pages and Reports to Search](/devenv-al-menusuite-functionality.md).  
+The **UsageCategory** property is a required setting used together with the **AccessByPermission** property. This enables a page or a report to be available in Search for the navigation support. For more information about navigation support, see [Adding Pages and Reports to Search](../devenv-al-menusuite-functionality.md).  
 
 
 ## See Also  

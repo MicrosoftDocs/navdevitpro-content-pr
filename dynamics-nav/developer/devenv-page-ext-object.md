@@ -23,6 +23,9 @@ The structure of a page is hierarchical and breaks down in to three sections. Th
 
 For more information about the Page and Page Extension objects, see [Pages Overview](devenv-pages-overview.md).
 
+> [!NOTE]  
+> Extension objects can have a name with a maximum length of 30 characters.      
+
 ## Snippet support
 Typing the shortcut ```tpageext``` will create the basic layout for a table object when using the AL Extension in Visual Studio Code.
 
@@ -126,7 +129,6 @@ Pages
 
 ## See Also  
 [Page Object](devenv-page-object.md)  
-[Page Extension Properties](./properties/devenv-page-property-overview.md)    
-[Page Properties](./properties/devenv-page-properties.md)  
+[Page and Page Extension Properties](properties/devenv-page-property-overview.md)    
 [Developing Extensions](devenv-dev-overview.md)  
-[Developer Reference](devenv-reference-overview.md)  
+[AL Development Environment](devenv-reference-overview.md)  

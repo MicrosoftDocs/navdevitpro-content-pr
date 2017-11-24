@@ -38,4 +38,4 @@ By adding this setting, you *enable debugging* into an extension to view the sou
 
 ## See Also  
 [JSON Files](devenv-json-files.md)  
-[Developer Reference](devenv-reference-overview.md)  
+[AL Development Environment](devenv-reference-overview.md)  

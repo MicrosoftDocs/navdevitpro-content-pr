@@ -27,6 +27,9 @@ Before you begin developing code for [!INCLUDE[navnowlong](includes/navnowlong_m
 
 -   How to upload and download files between the server and the client.  
 
+> [!NOTE]
+> To develop extensions for [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[d365fin_long_md.md](includes/d365fin_long_md.md)] you use the AL language. For more information, see [Getting Started with AL](developer/devenv-get-started.md).
+
 ## Developing in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]  
 
 |To|See|  
