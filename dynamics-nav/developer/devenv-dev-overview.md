@@ -3,7 +3,7 @@ title: "Developing Extensions in AL"
 description: "Overview of the development experience for building extensions using the AL language."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/23/2017
+ms.date: 11/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,7 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-# Developing Extensions in AL
+# Development in AL
 Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behavior of the solution. This section explains how you can develop extensions using the development environment for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. For an overview of developing apps for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], see [aka.ms/GetStartedWithApps](devenv-develop-apps-for-fin.md).
 
 If you're new to building extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started with AL](devenv-get-started.md) to set up the tools.

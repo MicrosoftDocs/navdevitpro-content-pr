@@ -33,7 +33,7 @@ It's easy to get started. Just spin up a tenant by going through these steps.
    > [!NOTE]
    > For production, you should use Azure Active Directory (AAD) for authentication and the common service endpoint `https://api.financials.dynamics.com/v1.0/api/beta`. However, for exploring and prototyping with the APIs, using basic authentication and the tenant URL as described will be faster.
 
-3) Go to the documentation on the APIs, you can get our published preview [here](https://msdn.microsoft.com/en-us/dynamics-nav/fin-graph/index).  
+3) Go to the documentation on the APIs, you can get our published preview [here](https://docs.microsoft.com/en-gb/dynamics-nav/fin-graph/).  
 4) Download an API explorer, such as [Postman](https://www.getpostman.com/) or [Fiddler](http://www.telerik.com/fiddler) to connect to and explore the API.
 
 ### Some tips for working with the API's

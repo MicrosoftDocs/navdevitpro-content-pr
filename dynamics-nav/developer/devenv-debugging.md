@@ -3,7 +3,7 @@ title: "Debugging"
 description: "Overview of debugging in AL"
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 08/15/2017
+ms.date: 11/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,13 +16,15 @@ ms.author: solsen
 # Debugging
 The process of finding and correcting errors is called *debugging*. With Visual Studio Code and the AL Language extension you get an integrated debugger to help you inspect your code to verify that your application can run as expected. You start a debugging session by pressing F5. For the preview, there are a number of limitations to be aware of:
 
-- No support yet of watch or conditional breakpoints
 - No breakpoints can be set in "external code" such as base application objects, though you can step through them
 - Not all AL types yet show helpful debugging
 - Each file must contain only one application object for the breakpoints to be evaluated correctly
 - The debugger launches a new client instance each time you press F5. If you close the debugging session, and then start a new session, this new session will rely on a new client instance. We recommend that you close the Web client instances when you close a debugging session.  
 - If you stop at a breakpoint and then walk the call stack, you risk seeing duplicate stack traces. This is an issue in Visual Studio Code, and we are working with them to get this resolved.
 - And finally, using the debugger with the online sandbox signup and AAD authentication method is not yet supported.
+
+> [!NOTE]  
+> For information about security and IP protection, see [Security Setting and IP Protection](devenv-security-settings-and-ip-protection).
 
 ## Breakpoints  
 The basic concept in debugging is the *breakpoint*, which is a mark that you set on a statement. When the program flow reaches the breakpoint, the debugger stops execution until you instruct it to continue. Without any breakpoints, the code runs without interruption when the debugger is active. <!-- For more information, see [Breakpoints](Breakpoints.md).  -->
