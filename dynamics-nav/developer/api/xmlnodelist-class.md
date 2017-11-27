@@ -29,6 +29,6 @@ The following methods are available on the XmlNodeList class.
 |[XmlNodeList.Count](xmlnodelist-count-property.md)|Gets the number of nodes in the XmlNodeList.|  
 |[XmlNodeList.Get(Integer, XmlNode)](xmlnodelist-get-method.md)|Gets a node at the given index.|  
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  

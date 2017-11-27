@@ -21,7 +21,7 @@ The process of finding and correcting errors is called *debugging*. With Visual 
 - Not all AL types yet show helpful debugging
 - Each file must contain only one application object for the breakpoints to be evaluated correctly
 - The debugger launches a new client instance each time you press F5. If you close the debugging session, and then start a new session, this new session will rely on a new client instance. We recommend that you close the Web client instances when you close a debugging session.  
-- If you stop at a breakpoint and then walk the call stack, you risk seeing duplicate stack traces. This is an issue in VS Code, and we are working with them to get this resolved.
+- If you stop at a breakpoint and then walk the call stack, you risk seeing duplicate stack traces. This is an issue in Visual Studio Code, and we are working with them to get this resolved.
 - And finally, using the debugger with the online sandbox signup and AAD authentication method is not yet supported.
 
 ## Breakpoints  

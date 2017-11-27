@@ -41,6 +41,6 @@ The following methods are available on JsonToken objects.
 |[AsValue](jsontoken-asvalue-method.md)|Converts the value in a JsonToken to a JsonValue data type.|
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  

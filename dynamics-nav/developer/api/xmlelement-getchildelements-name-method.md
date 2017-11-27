@@ -31,5 +31,5 @@ The fully qualified name of the elements to retrieve.
 &emsp;Type: XmlNodeList  
   
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

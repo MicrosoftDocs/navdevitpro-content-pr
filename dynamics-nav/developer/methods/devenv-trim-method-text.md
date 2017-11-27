@@ -25,5 +25,5 @@ Result := Text.TRIM()
   
 ## See Also
 [Text Data Type](../datatypes/devenv-text-data-type.md)   
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

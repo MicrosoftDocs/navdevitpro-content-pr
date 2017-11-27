@@ -23,6 +23,9 @@ Creating a report for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] c
 
 You build the layout of a report by arranging data items and columns, and specifying the general format, such as text font and size. There are two types of report layouts; client report definition, also called RDCL layouts and Word layouts. RDLC layouts are defined in Visual Studio Report Designer or Microsoft SQL Server Reporting Services Report Builder. Word layouts are created using Word. Word layouts are based on a Word document that includes a custom XML part representing the report dataset.
 
+> [!NOTE]  
+> Extension objects can have a name with a maximum length of 30 characters.      
+
 ## Snippet support
 Typing the shortcut ```treport``` will create the basic layout for a report object when using the AL Extension in Visual Studio Code.
 
@@ -223,4 +226,4 @@ report 70010101 "Customer List"
 [Page Extension Object](devenv-page-ext-object.md)   
 [Page Properties](properties/devenv-page-property-overview.md)  
 [Developing Extensions](devenv-dev-overview.md)  
-[Developer Reference](devenv-reference-overview.md)  
+[AL Development Environment](devenv-reference-overview.md)  

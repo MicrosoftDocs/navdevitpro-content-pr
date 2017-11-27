@@ -1,7 +1,7 @@
 ---
 title: "System"
 ms.custom: na
-ms.date: 07/03/2017
+ms.date: 11/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -29,4 +29,4 @@ This section contains the following topics:
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
 [AL Method Reference](../methods/devenv-al-method-reference.md)   
- <!--[Developer Reference](../devenv-developer-reference.md)-->
+[AL Development Environment](../devenv-developer-reference.md)

@@ -29,7 +29,7 @@ To convert the source code, you must use the Txt2Al conversion tool. The Txt2Al 
 <!-- see if Hunter's comments should be applied to the txt2al tool topic -->
 
 ## Complete the development of the extension
-When the source code has been converted using the Txt2Al conversion tool, open the project folder in Visual Studio Code, and then modify or add code to the new version as needed. For more information about getting started with Visual Studio Code and the AL Language extension, see [Getting Started](devenv-get-started.md).
+When the source code has been converted using the Txt2Al conversion tool, open the project folder in Visual Studio Code, and then modify or add code to the new version as needed. For more information about getting started with Visual Studio Code and the AL Language extension, see [Getting Started with AL](devenv-get-started.md).
 
 You might run into compilation errors, which can typically be caused by:
 
@@ -136,6 +136,6 @@ The steps use the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)].
 The upgrade code unit becomes an integral part of the extension. The **NAVAPP** methods were mainly used for the conversion from V1 to V2. After converting the extension, you should begin to write upgrade code as described in [Upgrading Extensions](devenv-upgrading-extensions.md).
 
 ## See Also
-[Getting Started](devenv-get-started.md)  
+[Getting Started with AL](devenv-get-started.md)  
 [Keyboard Shortcuts](devenv-keyboard-shortcuts.md)    
-[Developer Reference](devenv-reference-overview.md)  
+[AL Development Environment](devenv-reference-overview.md)  
