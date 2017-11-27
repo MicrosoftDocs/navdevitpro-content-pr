@@ -14,7 +14,18 @@ ms.author: solsen
 ---
 
 # Debugging
-The process of finding and correcting errors is called *debugging*. With Visual Studio Code and the AL Language extension you get an integrated debugger to help you inspect your code to verify that your application can run as expected. You start a debugging session by pressing F5. For the preview, there are a number of limitations to be aware of:
+The process of finding and correcting errors is called *debugging*. With Visual Studio Code and the AL Language extension you get an integrated debugger to help you inspect your code to verify that your application can run as expected. You start a debugging session by pressing F5.  
+
+> [!TIP]  
+> For more information about Debugging in Visual Studio Code, see [Debugging](https://code.visualstudio.com/docs/editor/debugging).
+
+> [!IMPORTANT]  
+> To enable debugging the `NetFx40_LegacySecurityPolicy` setting in the Microsoft.Dynamics.Nav.Server.exe.config file must be set to **false**.
+This requires a server restart.
+ 
+
+
+For the preview, there are a number of limitations to be aware of:
 
 - No breakpoints can be set in "external code" such as base application objects, though you can step through them
 - Not all AL types yet show helpful debugging
@@ -24,10 +35,10 @@ The process of finding and correcting errors is called *debugging*. With Visual 
 - And finally, using the debugger with the online sandbox signup and AAD authentication method is not yet supported.
 
 > [!NOTE]  
-> For information about security and IP protection, see [Security Setting and IP Protection](devenv-security-settings-and-ip-protection).
+> For information about security and IP protection, see [Security Setting and IP Protection](devenv-security-settings-and-ip-protection.md).
 
 ## Breakpoints  
-The basic concept in debugging is the *breakpoint*, which is a mark that you set on a statement. When the program flow reaches the breakpoint, the debugger stops execution until you instruct it to continue. Without any breakpoints, the code runs without interruption when the debugger is active. <!-- For more information, see [Breakpoints](Breakpoints.md).  -->
+The basic concept in debugging is the *breakpoint*, which is a mark that you set on a statement. When the program flow reaches the breakpoint, the debugger stops execution until you instruct it to continue. Without any breakpoints, the code runs without interruption when the debugger is active. Set a breakpoint by using the Debug Menu in Visual Studio Code. 
 
 ## Debugging Shortcuts
 
