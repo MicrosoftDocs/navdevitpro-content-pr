@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get salesOrderLines
-Retrieve the properties and relationships of a sales order line object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a sales order line object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## Prerequisites
 

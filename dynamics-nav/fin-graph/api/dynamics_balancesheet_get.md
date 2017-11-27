@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get balanceSheet
-Retrieve the properties and relationships of a balance sheet report object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a balance sheet report object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
