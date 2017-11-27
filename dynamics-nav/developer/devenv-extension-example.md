@@ -23,7 +23,7 @@ This walkthrough illustrates the following tasks:
 
 - Developing a sample extension with a table, a card page, and a list page.
 
-- Using the Designer to modify visual aspects of the extension. 
+- Using the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Designer to modify visual aspects of the extension. 
 
 - Creating extension objects that can be used to modify page and table objects.
 
@@ -34,23 +34,19 @@ This walkthrough illustrates the following tasks:
 ## Prerequisites
 To complete this walkthrough, you will need: 
 
-- A Dynamics 365 for Finance and Operations, Business edition tenant.
+- The [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenant.
 
 - Visual Studio Code.
 
 - The AL Language extension for Visual Studio Code.
 
-For more information on how to get started with your first extension for Dynamics 365 for Financials, see [Getting Started](devenv-get-started.md).
+For more information on how to get started with your first extension for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], see [Getting Started](devenv-get-started.md).
 
 ## Rewards extension overview
 
 The extension enables the ability to assign one of three reward levels to customers: GOLD, SILVER, and BRONZE. Each reward level can be assigned a discount percentage. Different types of objects available within the AL development environment will build the foundation of the user interface, allowing the user to edit the information. If you look for another option to update the layout of a page, you can use the Designer drag-and-drop interface. Additionally, this exercise contains the install code that will create the base for the reward levels. The upgrade code is run to upgrade the extension to a newer version and it will change the BRONZE level to ALUMINUM. Following all the steps of this walkthrough allows you to publish the extension on your tenant and create a possible new feature for your customers. 
 
-<!-- OR
-## Story  
-Is this the right persona?
-Viktor/Sean is a developer who has started working for a small-sized company that develops solutions based on the Microsoft Dynamics NAV system. His first task is to develop an extension that allows users to assign one of three reward levels to customers, therefore enhancing the overall customer experience.
-Viktor/Sean tries to create a sample extension using AL. He starts by creating table and page objects and he uses the Designer to update the layout of his pages from a simple drag-and-drop interface. He uses install and upgrade code to create the base for the reward levels and upgrade the extension to a newer version. As he follows the steps in this walkthrough, Viktor/Sean publishes the extension to his tenant and gets instant feedback.  -->
+
 
 
 ## Reward table object
@@ -84,16 +80,16 @@ table 50100 Reward
         // be applied for this reward.
         field(3;"Discount Percentage";Decimal)
         {
-            // The MinValue property sets the minimum value for the "Discount Percentage" 
+            // The "MinValue" property sets the minimum value for the "Discount Percentage" 
             // field.
             MinValue = 0;
 
-            // The MaxValue property sets the maximum value for the "Discount Percentage"
+            // The "MaxValue" property sets the maximum value for the "Discount Percentage"
             // field.
             MaxValue = 100;
             
-            // The DecimalPlaces property is set to 2 to display discount values with exactly 
-            // 2 decimals.
+            // The "DecimalPlaces" property is set to 2 to display discount values with  
+            // exactly 2 decimals.
             DecimalPlaces = 2;
         }
     }
@@ -110,11 +106,11 @@ table 50100 Reward
 }
 ```
 
-For more information about table properties, go to [Table Properties](properties/devenv-table-properties.md).
+For more information about table properties, see [Table Properties](properties/devenv-table-properties.md).
 
 
 ## Reward card page object
-The following code adds a new page **50101 Reward Card** for viewing and editing the different reward levels that are stored in the new **Reward** table. Pages are the primary object that a user will interact with and have a different behavior based on the type of page that you choose. The **Reward Card** page is of type "Card" and it is used to view and edit one record or entity from the **Reward** table. 
+The following code adds a new page **50101 Reward Card** for viewing and editing the different reward levels that are stored in the new **Reward** table. Pages are the primary object that a user will interact with and have a different behavior based on the type of page that you choose. The **Reward Card** page is of type Card and it is used to view and edit one record or entity from the **Reward** table. 
 
 > [!TIP]
 > Use the snippet `tpage, Page of type card` to create the basic structure for the page object.
@@ -158,7 +154,7 @@ page 50101 "Reward Card"
     }
 }
 ```
-For more information about the types of pages in AL, go to [Pages Overview](devenv-pages-overview.md).
+For more information about the types of pages in AL, see [Pages Overview](devenv-pages-overview.md).
 
 ## Reward list page object
 The following code adds the **50102 Reward List** page that enables users to view the contents of the **Reward** table and edit specific records by selecting them and viewing them in the **Reward Card** page. 
@@ -276,23 +272,26 @@ field("Last Modified Date";"Last Modified Date")
 }
 
 ``` 
-Using the F6 key shortcut in Visual Studio Code launches the browser and enters the Designer. Note that every time you start designing, you create a new extension and the changes you make in the Designer will apply to all users.     
+Using the F6 key shortcut in Visual Studio Code launches the browser and enters the Designer.
+
+> [NOTE!]
+> Every time you start designing, you create a new extension and the changes you make in the Designer will apply to all users.     
 
 
 To add the same fields and customize the **Customer Card** page, follow the next steps:
-- Click on the purple box to the right of the **Last Modified Date** field and select **Remove**. 
-- Navigate to the **Reward Card** page by clicking on **+ new**.  
+- Choose the purple box to the right of the **Last Modified Date** field and select **Remove**. 
+- Navigate to the **Reward Card** page by choosing **+ new**.  
 - Select **More** from the Designer bar. 
 - Select **Field** from the Designer bar to show the list of available fields. 
-- Drag the **Minimum Purchase** and **Last Modified Date** fields from the list onto the page in the **General** group. 
-- Click on **General** in the group caption to enable the value to be edited. Change the caption to **Info** and press **Enter**.
+- Drag the **Minimum Purchase** and **Last Modified Date** fields from the list onto the page in the **General group**. 
+- Choose the **General** in the group caption to enable the value to be edited. Change the caption to **Info** and press **Enter**.
 
-After making these adjustments, finish up your design by choosing Stop Designing, which allows you to name the extension with an option to download code, and save the extension for the tenant. If you choose not to download the code at the end, you can still pull the changes via the Ctrl+F7 shortcut from Visual Studio Code. You can also uninstall the extension by opening the Extension Management page.  
-For more information about Designer, go to [Designer](devenv-inclient-designer.md). 
+After making these adjustments, finish up your design by choosing **Stop Designing**, which allows you to name the extension with an option to download code, and save the extension for the tenant. If you choose not to download the code at the end, you can still pull the changes via the Ctrl+F7 shortcut from Visual Studio Code. You can also uninstall the extension by opening the **Extension Management** page.  
+For more information about Designer, see [Designer](devenv-inclient-designer.md). 
 
 ## Customer table extension object
 
-The **Customer** table, like many other tables, is part of the Dynamics 365 for Finance and Operations, Business edition service and it cannot be modified directly by developers. To add additional fields or to change properties on this table, developers must create a new type of object, a table extension.
+The **Customer** table, like many other tables, is part of the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] service and it cannot be modified directly by developers. To add additional fields or to change properties on this table, developers must create a new type of object, a table extension.
 The following code creates a table extension for the **Customer** table and adds the `Reward ID` field. 
 
 > [!TIP]
@@ -331,7 +330,7 @@ tableextension 50103 "Customer Ext" extends Customer
 
 ## Customer card page extension object
 
-A page extension object can be used to add new functionality to pages that are part of the Dynamics 365 for Finance and Operations, Business edition service. The following page extension object extends the **Customer Card** page object by adding a field control, **Reward ID**, to the General group on the page. The field is added in the layout section, while in the actions section the code adds an action to open the **Reward List** page. 
+A page extension object can be used to add new functionality to pages that are part of the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] service. The following page extension object extends the **Customer Card** page object by adding a field control, **Reward ID**, to the **General group** on the page. The field is added in the layout section, while in the actions section the code adds an action to open the **Reward List** page. 
 
 > [!TIP]
 > Use the shortcuts `tpageext` to create the basic structure for the page extension object.
@@ -429,7 +428,7 @@ codeunit 50105 RewardsInstallCode
 For more information about install code, see [Writing Extension Install Code](devenv-extension-install-code.md).
 
 ## Upgrade code
-When you upgrade an extension to a newer version, if any modifications to the existing data are required to support the upgrade, you must write upgrade code in an upgrade codeunit. In this example, the following upgrade codeunit contains code that changes the BRONZE reward level to customer records to ALUMINUM. The upgrade codeunit will run when you run the Upgrade-NAVApp cmdlet. 
+When you upgrade an extension to a newer version, if any modifications to the existing data are required to support the upgrade, you must write upgrade code in an upgrade codeunit. In this example, the following upgrade codeunit contains code that changes the BRONZE reward level to customer records to ALUMINUM. The upgrade codeunit will run when you run the `Upgrade-NAVApp` cmdlet. 
 
 
 > [!IMPORTANT]
