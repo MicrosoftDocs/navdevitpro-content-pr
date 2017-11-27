@@ -22,6 +22,9 @@ A query describes a dataset of [!INCLUDE[d365fin_long_md](includes/d365fin_long_
 
 When you have specified the dataitem and column elements, you create links between the dataitem elements. A dataitem link determines which records to include in the dataset based on a common field between two dataitems.
 
+> [!NOTE]  
+> Extension objects can have a name with a maximum length of 30 characters.      
+
 ## Snippet support
 Typing the shortcut ```tquery``` will create the basic layout for a Query object when using the AL Extension in Visual Studio Code.
 
@@ -87,7 +90,7 @@ query 100 "Top Customer Overview"
 
 ## See Also
 [Developing Extensions](devenv-dev-overview.md)  
-[Developer Reference](devenv-reference-overview.md)  
+[AL Development Environment](devenv-reference-overview.md)  
 [Page Extension Object](devenv-page-ext-object.md)  
 [Report Object](devenv-report-object.md)  
 [Page Properties](properties/devenv-page-property-overview.md)

@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get salesOrders
-Retrieve the properties and relationships of a sales order object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a sales order object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 

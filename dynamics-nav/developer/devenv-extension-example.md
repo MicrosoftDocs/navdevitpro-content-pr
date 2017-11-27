@@ -1,9 +1,9 @@
 ---
 author: jswymer
-title: "Sample extension example that uses new objects and extension objects"
+title: "Building your first sample extension that uses new objects and extension objects"
 description: "Includes code for an example extension, complete with new objects, extension objects, and install and upgrade code."
 ms.custom: na
-ms.date: 11/10/2017
+ms.date: 11/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ---
 
-# Sample Extension With Extension Objects, Install Code, and Upgrade Code
+# Building Your First Sample Extension With Extension Objects, Install Code, and Upgrade Code
 This walkthrough will guide you through all the steps that you must follow to create a sample extension in AL. New objects and extension objects will be added to the base application for a simple reward feature for customers. Every section of this exercise includes code that serves for installing, customizing, or upgrading this sample extension. The final result can be published and installed on your tenants.
 
 ## About This Walkthrough

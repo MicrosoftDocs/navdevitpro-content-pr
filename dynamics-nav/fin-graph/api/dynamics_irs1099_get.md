@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get irs1099Codes
-Retrieve the properties and relationships of an IRS 1099 codes object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of an IRS 1099 codes object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 

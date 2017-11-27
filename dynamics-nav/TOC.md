@@ -46,8 +46,9 @@
 ## [Debugging](Debugging.md)
 ## [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)
 <!-- new -->
-# [Developing Extensions in AL - Preview](developer/devenv-dev-overview.md)
+# [Developing Extensions in AL](developer/devenv-dev-overview.md)
 ## [Getting Started with AL](developer/devenv-get-started.md)
+## [Building Your First Sample Extension With Extension Objects, Install Code, and Upgrade Code](developer/devenv-extension-example.md)
 ## [Using Designer](developer/devenv-inclient-designer.md)
 ## [Keyboard Shortcuts](developer/devenv-keyboard-shortcuts.md)
 ## [The AL Formatter](developer/devenv-al-formatter.md)
@@ -298,6 +299,7 @@
 # [Legal Artefacts for Dynamics NAV](terms/legal.md)
 <!-- preview of Graph API starts-->
 # [Preview of API Reference for Dynamics 365 for Financials](fin-graph/index.md)
+## [Enabling the APIs for Microsoft Dynamics NAV](enabling-apis-for-dynamics-nav.md)
 ## [Error Codes](fin-graph/dynamics_error_codes.md)
 ## [Account](fin-graph/resources/dynamics_account.md)
 ### [Get account](fin-graph/api/dynamics_account_get.md)

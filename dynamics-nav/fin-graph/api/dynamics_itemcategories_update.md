@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Update itemCategories
-Update the properties of an item category object for Dynamics 365 for Financials.
+Update the properties of an item category object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 

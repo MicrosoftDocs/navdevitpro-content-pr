@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Update taxAreas
-Update the properties of a tax area object for Dynamics 365 for Financials.
+Update the properties of a tax area object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 

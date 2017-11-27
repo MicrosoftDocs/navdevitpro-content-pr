@@ -9,7 +9,13 @@
         "exclude": [
           "**/obj/**",
           "../**",
-          "**/includes/**"
+          "**/includes/**",
+           "**/_themes/**",
+           "**/_themes.pdf/**",
+           "README.md",          
+           "LICENSE",
+           "LICENSE-CODE",
+           "ThirdPartyNotices" 
         ]
       }
     ],
