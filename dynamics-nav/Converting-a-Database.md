@@ -14,14 +14,14 @@ author: jswymer
 
 **Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Converting-a-Database-2017.md).
 
-This article describes how to convert a  [!INCLUDE[navnow](includes/navnow_md.md)] database from one of the following versions to [!INCLUDE[nav2017](includes/nav2017.md)]:
+This article describes how to convert a  [!INCLUDE[navnow](includes/navnow_md.md)] database from one of the following versions to [!INCLUDE[nav2018_md](includes/nav2018_md.md)]:
 
 -   [!INCLUDE[nav7long](includes/nav7long_md.md)]
 -   [!INCLUDE[navsicily](includes/navsicily_md.md)]
 -   [!INCLUDE[navcrete](includes/navcrete_md.md)]
 -   [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
 -   [!INCLUDE[nav2017](includes/nav2017.md)] 
--   [!INCLUDE[nav20118_md](includes/nav2018_md.md)] (cumulative update)
+-   [!INCLUDE[nav2018_md](includes/nav2018_md.md)] \(cumulative update\)
 
 ## About database conversion
 Converting a database, which is often referred to as a *technical upgrade*, changes the database so that it works on the latest [!INCLUDE[nav2018_md](includes/nav2018_md.md)] platform. The conversion updates the system tables of the old database to the new schema (data structure), and upgrades of all reports to support Report Viewer 2015. It provides you with the latest platform features and performance enhancements.
@@ -72,7 +72,7 @@ To convert the old database to a [!INCLUDE[nav2018_md](includes/nav2018_md.md)] 
 
     For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
 
-8.  Stop the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, and close the [nav_dev_short_md](includes/nav_dev_short_md.md)].
+8.  Stop the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, and close the [!INCLUDE[nav_dev_short_md](includes/nav_dev_short_md.md)].
 
     You can use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or [Set-NAVServerInstance](https://go.microsoft.com/fwlink/?linkid=401395) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].
 
