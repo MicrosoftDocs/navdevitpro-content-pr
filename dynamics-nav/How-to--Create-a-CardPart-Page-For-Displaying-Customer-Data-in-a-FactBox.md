@@ -1,7 +1,8 @@
 ---
-title: "How to: Create a CardPart Page For Displaying Customer Data in a FactBox"
+title: Display Customer Data in FactBox 
+description: The FactBox types are page part, system part and chart part that displays additional information to the user which can be used with different page types. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 3b6588d1-c1ea-4239-a002-8acba0dfa12b
 caps.latest.revision: 19
 manager: edupont
 ---
-# How to: Create a CardPart Page For Displaying Customer Data in a FactBox
+# Create CardPart Page to Display Customer Data in FactBox
 A FactBox displays additional information to the user in a pane located on the right of the main page display area.  
   
  There are three types of FactBoxes:  

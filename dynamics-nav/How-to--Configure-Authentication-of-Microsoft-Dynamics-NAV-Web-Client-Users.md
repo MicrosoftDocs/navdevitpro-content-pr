@@ -1,7 +1,8 @@
 ---
-title: "How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users"
+title: Configure Web Client Users Authentication
+description: Configure the installation to authenticate users who connect by using the Web Client on Windows, UserName, NavUserPassword and AccessControlService credential types.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: c9e0dd2b-1f7f-417d-a9ca-a08ef2f22d26
 caps.latest.revision: 37
 manager: edupont
 ---
-# How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users
+# Configuring Dynamics NAV Web Client Users Authentication
 You can configure the [!INCLUDE[navnow](includes/navnow_md.md)] installation to authenticate users who connect by using the [!INCLUDE[nav_web](includes/nav_web_md.md)] on one of the following credential types.  
   
 |Credential type|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|Prompted to sign in|  

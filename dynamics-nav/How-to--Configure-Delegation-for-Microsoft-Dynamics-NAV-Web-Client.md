@@ -1,7 +1,8 @@
 ---
-title: "How to: Configure Delegation for Microsoft Dynamics NAV Web Client"
+title: Configure Web Client Delegation
+description: The client device, Web Client and Server are on separate computers. Web Client performs actions on behalf of client device called impersonation process.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 186b2dcd-97d5-499d-928e-15c069bb18f1
 caps.latest.revision: 13
 manager: edupont
 ---
-# How to: Configure Delegation for Microsoft Dynamics NAV Web Client
+# Configuring Dynamics NAV Web Client Delegation
 When the client device, [!INCLUDE[nav_web](includes/nav_web_md.md)], and [!INCLUDE[nav_server](includes/nav_server_md.md)] are on separate computers, the client device interacts with [!INCLUDE[nav_server](includes/nav_server_md.md)] through the computer that is running [!INCLUDE[nav_web](includes/nav_web_md.md)]. [!INCLUDE[nav_web](includes/nav_web_md.md)] is performing actions on the client device's behalf. This process is known as *impersonation*. Impersonation cannot be used across multiple computers, so you must set up delegation from [!INCLUDE[nav_web](includes/nav_web_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)]. Delegation occurs when [!INCLUDE[nav_web](includes/nav_web_md.md)] forwards a request from a device request to the [!INCLUDE[nav_server](includes/nav_server_md.md)] service so that the [!INCLUDE[nav_server](includes/nav_server_md.md)] service can impersonate the device.  
   
 -   [Delegating Access from the Web Server to Microsoft Dynamics NAV Server](How-to--Configure-Delegation-for-Microsoft-Dynamics-NAV-Web-Client.md#Delegate)  

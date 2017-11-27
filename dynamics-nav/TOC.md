@@ -24,7 +24,7 @@
 ## [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)
 ## [Migrating to Multitenancy](Migrating-to-Multitenancy.md)
 ## [Installation and Configuration Walkthroughs](Installation-and-Configuration-Walkthroughs.md)
-# [Development](Development.md)
+# [Development in C/AL](Development.md)
 ## [Application Design Overview](Application-Design-Overview.md)
 ## [Programming in C/AL](Programming-in-C-AL.md)
 ## [Objects](Objects.md)
@@ -46,7 +46,7 @@
 ## [Debugging](Debugging.md)
 ## [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)
 <!-- new -->
-# [Developing Extensions in AL](developer/devenv-dev-overview.md)
+# [Development in AL](developer/devenv-dev-overview.md)
 ## [Getting Started with AL](developer/devenv-get-started.md)
 ## [Building Your First Sample Extension With Extension Objects, Install Code, and Upgrade Code](developer/devenv-extension-example.md)
 ## [Using Designer](developer/devenv-inclient-designer.md)

@@ -24,7 +24,7 @@ When you create a new report for [!INCLUDE[d365fin_long_md](includes/d365fin_lon
 >[!NOTE]
 >To facilitate testing your report layout, the following example extends the Customer List page with a trigger that runs the report as soon as the Customer List page is opened.
 
-1. Create a new extension to the Customer List page that contains code to run the report, as well as a simple report object by adding the following lines of code
+1. Create a new extension to the **Customer List** page that contains code to run the report, as well as a simple report object by adding the following lines of code:
 
 ```
 pageextension 50100 MyExtension extends "Customer List"
@@ -55,7 +55,7 @@ dataset
 ```
 4. Build the extension (Ctrl+Shift+B).
 5. Open the generated report layout file in Word.
-6. In Word, edit the layout using the **XML Mapping Pane** on the **Developer** tab. If you do not already see the Developer tab, go to **Options**, then **Customize Ribbon**, and in the **Main tabs** section, select the **Developer** check box.
+6. In Word, edit the layout using the **XML Mapping Pane** on the **Developer** tab. If you do not see the Developer tab, go to **Options**, then **Customize Ribbon**, and in the **Main tabs** section, select the **Developer** check box.
 7. In Word, in the **Custom XML part**, locate the report, and then open the layout.
 9. Drag elements onto the document, and save the report layout when you are done. <!-- test this and write specifically -->
 10. Back in Visual Studio Code, press Shift+F5 to compile and run the report.  
