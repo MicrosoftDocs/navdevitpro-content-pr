@@ -1,7 +1,8 @@
 ---
-title: "Compilation Errors When Converting a Microsoft Dynamics NAV 2017 Database"
+title: "Page 9621 Add Page Fields Error When Converting to Dynamics NAV 2018"
+description: "Explains how to resolve the compilation error that you get for Page 9621 Add Page Fields when converting a database from Dynamics NAV 2017 to 2018."
 ms.custom: na
-ms.date: 20/11/2017
+ms.date: 27/11/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,115 +10,16 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
-# Resolving Compilation Errors When Converting a Dynamics NAV 2017 Database
-When you convert a [!INCLUDE[nav2017](includes/nav2017.md)] database to a newer [!INCLUDE[navnow](includes/navnow_md.md)] version, you will receive compilation errors in several standard [!INCLUDE[navnow](includes/navnow_md.md)] objects. This article describes how to resolve these errors.
+## Resolving Page 9621 Add Page Fields Compilation Error 
+This article explains how to resolve the compilation error that you get for page **9621 Add Page Fields** when converting a [!INCLUDE[nav2017](includes/navcorfu_md.md)] database to [!INCLUDE[nav2018_md](includes/nav2018_md.md)].
 
-## Compilation Errors
-The following table lists the compilation errors that might occur when you compile objects during the database conversion.
+To resolve this error, you can update page **9621 Add Page Fields** in the converted database to support the latest platform changes by replacing its code with the code that follows: 
 
-|  Object Type  |  Object ID  |  Object Name  |  Function/Trigger  |  Error Message  |  Solution  |
-|---------------|-------------|---------------|--------------------|------------|------------|
-|Codeunit|700|Page Management|CheckAnyRoleAssignedToUser|Type conversion is not possible because 1 of the operators contains an invalid type. Text = Integer.|See [Resolving Codeunit 700 Page Management Compilation Error](Resolve-Codunit-700-Error-Converting-Database.md). |
-|Codeunit|5330|CRM Integration Management|CheckAnyRoleAssignedToUser|You have specified an unknown variable. Entities Define the variable under 'Global C/AL symbols'.|See [Resolving Codeunit 5330 CRM Integration Management Compilation Error](Resolve-Codunit-5330-Error-Converting-Database.md). |
-|Codeunit|6303|Azure AD Auth Flow|Initialize|Type conversion is not possible because 1 of the operators contains an invalid type. DotNet := GUID|See [Resolving Codeunit 6303 Azure AD Auth Flow Compilation Error](Resolve-Codunit-6303-Error-Converting-Database.md).|
-|Page|9621|Add Page Fields| SaveNewFieldDefinition|Type conversion is not possible because 1 of the operators contains an invalid type. Integer := OemMText|See [Resolving Page 9621 Add Page Fields Compilation Error](Resolve-Page-9621-Error-Converting-Database.md).|
-|Page|9626|New Page Patterns List Part| - |TableData 2000000174 does not exist.|[Resolving Page 9626 New Page Patterns List Part Compilation Error](Resolve-Page-9626-Error-Converting-Database.md).|
+1. Copy the code to a text editor, and save it as a .txt file type.
+2. Use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to import and compile the file to the converted database.
 
-
-<!--
-## <a name="CU700"></a> Codeunit 700 Page Management Error
-
-On the  `LOCAL VerifyPageID` function, change the `PageMetadata.APIVersion` variable to `PageMetadata.SourceTable`. 
-
-**Before:**
-
-```
-EXIT(PageMetadata.GET(PageID) AND (PageMetadata.APIVersion = TableID));
-```
-
-**After:**
-
-```
-EXIT(PageMetadata.GET(PageID) AND (PageMetadata.SourceTable = TableID));
-```
-
-## <a name="CU5330"></a> Codeunit 5330 CRM Integration Management Error
-
-On the `LOCAL CheckRoleAssignedToUser` function, change the version number of the .NET type that is used on the `OrganizationServiceProxy` parameter, `QueryExpression` and `EntityCollection` variables from `7.0.0.0` to `8.0.0.0`. For example:
-
-**OrganizationServiceProxy parameter - before**
-```
-Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.'Microsoft.Xrm.Sdk, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
-```
-
-**OrganizationServiceProxy parameter - after**
-```
-Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.'Microsoft.Xrm.Sdk, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
-```
-
-<!--
-**QueryExpression variable - before**
-```
-Microsoft.Xrm.Sdk.Query.QueryExpression.'Microsoft.Xrm.Sdk, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
-```
-
-**QueryExpression variable - after**
-```
-Microsoft.Xrm.Sdk.Query.QueryExpression.'Microsoft.Xrm.Sdk, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
-```
-
-
-**EntityCollection variable - Before:**
-
-```
-Microsoft.Xrm.Sdk.EntityCollection.'Microsoft.Xrm.Sdk, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
-```
-
-**EntityCollection variable - After**
-```
-Microsoft.Xrm.Sdk.EntityCollection.'Microsoft.Xrm.Sdk, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
-```
-
-## <a name="CU6303"></a>Codeunit 6303 Azure AD Auth Flow Error
-On the `Initialize`and  `OnInitialize` functions, remove the `SecurityId` parameter and all references so that the function signatures and code are as follows:
-
-**Initialize function code - before**
-
-```
-Initialize(SecurityId : GUID;RedirectUri : Text)
-  IF CanHandle THEN
-    AuthFlow := AuthFlow.ALAzureAdCodeGrantFlow(SecurityId,Uri.Uri(RedirectUri))
-  ELSE
-    OnInitialize(SecurityId,RedirectUri,AuthFlow);
-```
-
-**Initialize function code - after**
-```
-Initialize(RedirectUri : Text)
-  IF CanHandle THEN
-    AuthFlow := AuthFlow.ALAzureAdCodeGrantFlow(Uri.Uri(RedirectUri))
-  ELSE
-    OnInitialize(RedirectUri,AuthFlow);
-```
-
-
-**OnInitialize function signature - before**
-```
-LOCAL [IntegrationEvent] OnInitialize(SecurityId : GUID;RedirectUri : Text;VAR AzureADAuthFlow : DotNet "Microsoft.Dynamics.Nav.Runtime.ALAzureAdCodeGrantFlow")
-```
-
-**OnInitialize function signature- after**
-```
-LOCAL [External] [IntegrationEvent] OnInitialize(RedirectUri : Text;VAR AzureADAuthFlow : DotNet "Microsoft.Dynamics.Nav.Runtime.ALAzureAdCodeGrantFlow")
-```
-
-
-
-## <a name="P9621"></a> Page 9621 Add Page Fields Error
-
-1.  Update page 9621 with code from page 9621 in NAV 2018 database
-2.  Update page 9622 with code from page 9622 in NAV 2018 database
-3.  Add pages 9627, 9628, 9629, 9630
+> [!NOTE]  
+>  If the page **9621 Add Page Fields**  object in your database includes custom code, then you might have to resolve conflicts with your custom code.
 
 ```
 OBJECT Page 9621 Add Page Fields
@@ -583,61 +485,7 @@ OBJECT Page 9621 Add Page Fields
 }
 ```
 
-## <a name="P9626"></a> Page 9626 New Page Patterns List Error
-
-Page **9626** has been deleted in [!INCLUDE[nav2017](includes/nav2017.md)]. To resolve this issue, you can delete the page or copy the following code to a text editor, save it as a .txt file type, and then use the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)] to import the file to replaces the existing code. Also, on page **9625 New Page**, you must delete the page part that displays page **9626**. 
-
-
-```
-OBJECT Page 9626 New Page Patterns List Part
-{
-  OBJECT-PROPERTIES
-  {
-    Date=;
-    Time=;
-    Version List=;
-  }
-  PROPERTIES
-  {
-    CaptionML=ENU=New Page Patterns List Part;
-    InsertAllowed=No;
-    DeleteAllowed=No;
-    ModifyAllowed=No;
-    DelayedInsert=No;
-    PageType=ListPart;
-  }
-  CONTROLS
-  {
-    { 1   ;    ;Container ;
-                Name=Containers;
-                CaptionML=ENU=Container;
-                ContainerType=ContentArea }
-
-    { 2   ;1   ;Group     ;
-                GroupType=Repeater }
-
-    { 3   ;2   ;Field     ;
-                ApplicationArea=#All;
-                SourceExpr="Display Name" }
-
-    { 4   ;2   ;Field     ;
-                ApplicationArea=#All;
-                SourceExpr=Description }
-
-  }
-  CODE
-  {
-    VAR
-      "Display Name"@1000 : Text;
-      Description@1001 : Text;
-
-    BEGIN
-    END.
-  }
-}
-```
--->
-
-
 ## See Also  
-[Converting a Database - Technical Upgrade](Converting-a-Database.md)  
+ [Converting a Database](Converting-a-Database.md)  
+ [Resolving Compilation Errors When Converting a Dynamics NAV 2017 Database](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2017-Database.md)  
+ [How to: Import-Objects](How-to--Import-Objects.md)
