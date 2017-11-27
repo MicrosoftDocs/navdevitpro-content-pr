@@ -137,14 +137,14 @@ At this point, you can either go to Task 3 to analyze and eventually resolve the
 ## Task 4: Handling Conflicts  
 Depending on the application that you are upgrading, you can choose to analyze and fix the conflicting code before you import the merged objects into the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. The conflicts are shown in the merged text files but are also identified in .CONFLICT files in the subfolders of the **RESULT** folder. The subfolders **ConflictOriginal**, **ConflictModified**, and **ConflictTarget** folders then contain copies of the source files from the versions that have conflicting code.
 
-You can analyze the conflicts in any tool, make the relevant changes, and then run the merge operation again. Alternatively, you can import the merged files into the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and resolve the conflicts there. For more information, see [Handling Merge Conflicts](Handling-Merge-Conflicts.md).
+You can analyze the conflicts in any tool, make the relevant changes, and then run the merge operation again. For more information, see [Handling Merge Conflicts](Handling-Merge-Conflicts.md). Alternatively, you can go directly to task 5 to import the merged files into the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and resolve the conflicts there. 
 
 ## Task 5: Import and Compile Merged Objects in an Empty Database
 After you have completed the merge, you import the new merged application objects as text files into a new (empty) database, and then compile all objects. You must resolve any compilation errors before you can continue. The text files include successfully merged code, and code that is partially merged. You can import the partially merged objects into the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] development environment and resolve the conflicts there.
 
 1.  Create a new [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database for the new upgraded application. The database should be empty, except for the system tables.
 
-    For more information, see [How to: Create Databases](How-to--Create-Databases.md).
+    For example, give the database the name *My Upgraded App*. For more information, see [How to: Create Databases](How-to--Create-Databases.md).
 
     >[!IMPORTANT]  
     >Make sure to synchronize the schema for all tables of the new database.
