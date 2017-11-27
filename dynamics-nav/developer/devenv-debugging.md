@@ -22,20 +22,14 @@ The process of finding and correcting errors is called *debugging*. With Visual 
 > [!IMPORTANT]  
 > To enable debugging the `NetFx40_LegacySecurityPolicy` setting in the Microsoft.Dynamics.Nav.Server.exe.config file must be set to **false**.
 This requires a server restart.
- 
-
 
 For the preview, there are a number of limitations to be aware of:
 
-- No breakpoints can be set in "external code" such as base application objects, though you can step through them
-- Not all AL types yet show helpful debugging
-- Each file must contain only one application object for the breakpoints to be evaluated correctly
+- "External code" can only be debugged if the code has the `ShowMyCode` flag set. For more information, see [Security Setting and IP Protection](devenv-security-settings-and-ip-protection.md). 
+- Not all AL types yet show helpful debugging.
 - The debugger launches a new client instance each time you press F5. If you close the debugging session, and then start a new session, this new session will rely on a new client instance. We recommend that you close the Web client instances when you close a debugging session.  
-- If you stop at a breakpoint and then walk the call stack, you risk seeing duplicate stack traces. This is an issue in Visual Studio Code, and we are working with them to get this resolved.
 - And finally, using the debugger with the online sandbox signup and AAD authentication method is not yet supported.
 
-> [!NOTE]  
-> For information about security and IP protection, see [Security Setting and IP Protection](devenv-security-settings-and-ip-protection.md).
 
 ## Breakpoints  
 The basic concept in debugging is the *breakpoint*, which is a mark that you set on a statement. When the program flow reaches the breakpoint, the debugger stops execution until you instruct it to continue. Without any breakpoints, the code runs without interruption when the debugger is active. Set a breakpoint by using the Debug Menu in Visual Studio Code. 
