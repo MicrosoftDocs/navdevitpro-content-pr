@@ -37,7 +37,7 @@ For more information about tasks and **TASKSCEDULER** data type functions, see m
 |TaskID|GUID|  
 
 ```  
-IF TASKSCHEDULER.CREATETASK THEN
+IF TASKSCHEDULER.CANCREATETASK THEN
   TaskID := TASKSCHEDULER.CREATETASK(CODEUNIT::"Job Queue Dispatcher", CODEUNIT::"Job Queue Error Handler");  
   TASKSCHEDULER.SETTASKREADY(taskID);  
 ```  
