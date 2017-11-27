@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Update purchaseInvoiceLines
-Update the properties of a purchase invoice line object for Dynamics 365 for Financials.
+Update the properties of a purchase invoice line object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 

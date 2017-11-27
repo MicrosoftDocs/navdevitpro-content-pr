@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get customerPaymentsJournals
-Retrieve the properties and relationships of a customer payment journal object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a customer payment journal object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 

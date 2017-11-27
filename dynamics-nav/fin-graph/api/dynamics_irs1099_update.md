@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Update irs1099Codes
-Update the properties of an IRS 1099 codes object for Dynamics 365 for Financials.
+Update the properties of an IRS 1099 codes object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
