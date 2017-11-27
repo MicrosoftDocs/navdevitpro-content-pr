@@ -1,8 +1,9 @@
 ---
-title: "How to: Configure the Microsoft Dynamics NAV Server Instance for ACS"
+title: Configure Server Instance for ACS
+description: You configure your Dynamics NAV Server instance for Access Control Service by using either the Server Admininstration Tool or the PowerShell API. 
 author: jswymer
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 33f5c0d7-5bf9-487c-b9a3-ef25e4c65216
 ms.author: jswymer
 ---
-# How to: Configure the Microsoft Dynamics NAV Server Instance for ACS
+# Configuring Dynamics NAV Server Instance for ACS
 
 [!INCLUDE[ACS_md](includes/ACS_md.md)]
 
