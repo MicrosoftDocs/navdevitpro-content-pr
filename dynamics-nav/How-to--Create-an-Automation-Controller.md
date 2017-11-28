@@ -1,7 +1,8 @@
 ---
-title: "How to: Create an Automation Controller"
+title: Automation Controller
+description: By using variables that have Automation data type, an Automation controller implements and runs Automation objects from an Automation server.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: cc53dd13-0c5d-4cea-8b1a-4e32c3188648
 caps.latest.revision: 18
 manager: edupont
 ---
-# How to: Create an Automation Controller
+# Creating Automation Controller in Dynamics NAV
 To implement Automation in [!INCLUDE[navnow](includes/navnow_md.md)], create an Automation controller in C/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object. By using variables that have an Automation data type, an Automation controller implements and runs Automation objects from an Automation server. This topic outlines the procedure for creating an Automation controller.  
   
 ### To create an Automation controller that uses an Automation server  
