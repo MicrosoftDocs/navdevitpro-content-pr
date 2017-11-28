@@ -1,9 +1,6 @@
 ---
-title: "Endpoints for the APIs for Microsoft Dynamics NAV"
-description: "Describing the steps you must go through to enable access to the APIs."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,7 +11,6 @@ ms.author: solsen
 caps.latest.revision: 18
 ---
 
-# Endpoints for the APIs for Microsoft Dynamics NAV 
 [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] expose an API that makes it possible to integrate with other services. To enable integration with these APIs, you must go through a few steps to enable the access for [!INCLUDE[navnow](includes/navnow_md.md)] first. For more information about these steps, see [Enabling APIs for Microsoft Dynamics NAV](enabling-apis-for-dynamics-nav.md).
 
 ## Accessing the endpoint

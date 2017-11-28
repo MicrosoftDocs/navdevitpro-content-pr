@@ -23,7 +23,7 @@ After the installation is done, to use the AL Language extension, follow these s
 3. From the equivalent folder of `C:\Program Files(x86)\Microsoft Dynamics NAV\110\Modern Development Environment\` locate the ALLanguage.vsix file and install it.  
     
 > [!TIP]  
-> To run both AL and C/SIDE see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md).
+> To run both AL and C/SIDE see [Running C/SIDE and AL Side-by-Side](devenv-running-cside-and-al-side-by-side.md).
 
 ## See Also  
 [Custom Option](../custom-option.md)  
