@@ -2,7 +2,7 @@
 title: "SPLIT Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 11/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,14 +16,14 @@ author: SusanneWindfeldPedersen
 
 # SPLIT Method
 
-Is an instance method that splits the text into a list of sub-texts based on the texts provided as arguments.
+The SPLIT method is an instance method that splits the text into a list of sub-texts based on the texts provided as arguments.
 ```
 Substrings := Value.SPLIT(Separators)
 ```
 ## Parameters
 *Separators*    
 &emsp;Type: List of [Text]  
-A list of text values that delimit the substrings in this text.
+A list of text values that delimits the substrings in text.
 
 ## Return Value
 *Substrings*  
@@ -60,4 +60,4 @@ end;
 ## See Also
 [Text Data Type](../datatypes/devenv-text-data-type.md)  
 [Getting Started with AL](../devenv-get-started.md)  
-[Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
+[Development in AL](../devenv-dev-overview.md)  
