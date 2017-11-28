@@ -26,7 +26,7 @@ caps.latest.revision: 18
 5. On the **API Setup** page, choose the **Integrate APIs** button.  
     This will start a process of populating all the integration tables with records for all APIs. The process can take several minutes.
 
-Depending on where you want to access the APIs from, you must specify the correct endpoint. For more information, see [Endpoints for APIs for Microsoft Dynamics NAV](endpoints-apis-for-dynamics.md).
+Depending on where you want to access the APIs from, you must specify the correct endpoint. For more information, see [Endpoints for APIs](endpoints-apis-for-dynamics.md).
 
 ## See Also
 [API Documentation (Preview)](fin-graph/index.md)  
