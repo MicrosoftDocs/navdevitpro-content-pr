@@ -1,0 +1,83 @@
+---
+title: Fields that are Moved, Removed, or Replaced
+description: We're constantly streamlining and adjusting our app in-step with market developments. Read about the fields that you want to refactor your code for.
+author: edupont04
+ms.prod: dynamics-nav-2018
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms. search.keywords: deprecated, obsolete
+ms.date: 11/28/2017
+ms.author: edupont
+
+---
+
+# Deprecated Fields, and Fields Marked as Obsolete
+In the [!INCLUDE[navnowlong](includes/navnowlong_md.md)], a number of fields have been deprecated in the current release or marked to be obsolete in a later release.  
+
+## Definitions
+Deprecated fields fall into one of the following groups:
+1.	Fields moved to an extension by Microsoft  
+
+    Partner impact: Remember to install the extension when you upgrade an existing solution from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)].  
+2.	Fields marked as Obsolete:Pending  
+
+    Partner impact: None in the current release, this is just a heads-up that a change is coming.  
+3.	Fields no longer in use in Microsoft code  
+
+    Partner impact: Refactor your code as soon as possible.  
+
+## 1. Fields moved to an extension by Microsoft in [!INCLUDE[nav2018](includes/nav2018_md.md)]
+Pending...
+
+## 2. Fields marked as ObsoleteState:Pending in [!INCLUDE[nav2018](includes/nav2018_md.md)]
+A number of fields are marked as ObsoleteState:Pending. There is no impact on code in this release.  
+
+## United Kingdom
+The following fields are marked as ObsoleteState:Pending in the UK version.  
+
+|Table ID|Field ID|Comments|
+|--------|--------|--------|
+|112|10501|Will be removed in a later release.|
+|114|10501|Will be removed in a later release.|
+|122|10501|Will be removed in a later release.|
+|124|10501|Will be removed in a later release.|
+|18|10500|Will be removed in a later release.|
+|23|10500|Will be removed in a later release.|
+|36|10501|Will be removed in a later release.|
+|38|10501|Will be removed in a later release.|
+|5107|10501|Will be removed in a later release.|
+|5109|10501|Will be removed in a later release.|
+
+A number of fields are also deleted in the UK version. For more information, see [Deprecated Features in the UK Version](deprecated-features-uk.md).
+
+## 3. Fields no longer in use in Microsoft code in [!INCLUDE[nav2018](includes/nav2018_md.md)]
+A number of fields that are related to product groups are no longer in use, because the feature was replaced by item categories in [!INCLUDE[nav2017](includes/nav2017.md)]. The fields are marked as ObsoleteState:Pending.  
+
+|Table ID|Field ID|Comments|
+|--------|--------|--------|
+|5723|All|Deprecated. Do not use.|
+|111|5712|Will be removed in a later release.|
+|113|5712|Will be removed in a later release.|
+|115|5712|Will be removed in a later release.|
+|123|5712|Will be removed in a later release.|
+|125|5712|Will be removed in a later release.|
+|246|5705|Will be removed in a later release.|
+|27|5704|Will be removed in a later release.|
+|32|5707|Will be removed in a later release.|
+|37|5712|Will be removed in a later release.|
+|5108|5712|Will be removed in a later release.|
+|5110|5712|Will be removed in a later release.|
+|5741|5712|Will be removed in a later release.|
+|5745|5707|Will be removed in a later release.|
+|5747|5707|Will be removed in a later release.|
+|5902|5712|Will be removed in a later release.|
+|5991|5712|Will be removed in a later release.|
+|5993|5712|Will be removed in a later release.|
+|6651|5712|Will be removed in a later release.|
+|6661|5712|Will be removed in a later release.|
+|753|5707|Will be removed in a later release.|
+|83|5707|Will be removed in a later release.|
+
+For more information about the impact, see [The new Item Categories feature replaced the Product Group feature in Dynamics NAV 2017](https://blogs.msdn.microsoft.com/nav/2017/03/30/the-new-item-categories-feature-replaced-the-product-group-feature-in-dynamics-nav-2017/) on the Dynamics NAV team blog. For more information about item categories, see [https://docs.microsoft.com/en-us/dynamics365/financials/inventory-how-categorize-items](/dynamics365/financials/inventory-how-categorize-items) in the [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] documentation.

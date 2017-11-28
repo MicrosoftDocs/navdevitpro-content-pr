@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: deprecated, United Kingdom, local functionality
-ms.date: 11/23/2017
+ms.date: 11/28/2017
 ms.author: bholtorf
 
 ---
@@ -84,7 +84,27 @@ You can specify supply types such as sales, loan, exchange, hire, lease, rental,
 |----|----|
 |Removed| Lack of use. The business need that this functionality was introduced to cover is no longer relevant.  |
 
+## Objects and Fields that are deleted in [!INCLUDE[nav2018](includes/nav2018_md.md)]
+the following list shows objects or fields that are deleted as a result of the features that have been removed.  
+
+|Table ID|Field ID|Comments|
+|--------|--------|--------|
+|10505|All|Deleted.|
+|23|10550|Deleted.|
+|81|10550|Deleted.|
+|81|10551|Deleted.|
+|81|10552|Deleted.|
+|81|10553|Deleted.|
+|271|10550|Deleted.|
+|312|10550|Deleted.|
+|312|10551|Deleted.|
+|334|10505|Deleted.|
+|363|10550|Deleted.|
+|7118|10505|Deleted.|
+|7152|10550|Deleted.|
+
 ## See Also
 [Upgrading to Microsoft Dynamics NAV 2018](upgrading-to-microsoft-dynamics-nav.md)  
 [Upgrading the Application Code](upgrading-the-application-code.md)  
+[Deprecated Fields, and Fields Marked as Obsolete](deprecated-fields.md)  
 [United Kingdom Local Functionality](/dynamics365/financials/localfunctionality/unitedkingdom/united-kingdom-local-functionality?toc=/dynamics-nav/toc.json)  
