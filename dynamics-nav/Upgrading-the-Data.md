@@ -243,22 +243,11 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 [!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes a number of extensions that you must publish and install as part of the upgrade process. To enable these extensions, it is important that you follow the steps below.
 
 1. First, download [platform symbols](https://go.microsoft.com/fwlink/?linkid=864045).
-2. Next, make sure that the **Enable loading application symbol references at server startup** flag is set on the Dynamics NAV server instance.
-3. To add application symbol references, run the following command replacing the `Database` and `ServerName` settings. For more information, see [Running C/SIDE and AL Side-by-Side](devenv-running-cside-and-al-side-by-side.md).
+2. Next, add symbol references to the **NAV App Object Metadata** table for your database by running the finsql command and replacing the `Database` and `ServerName` settings in the syntax below. The **Enable loading application symbol references at server startup** flag must be enabled. For more information, see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md).
 ```
-finsql.exe Command=generatesymbolreference, Database="<MyDatabaseName>”, ServerName=<ServerName\DatabaseInstance>
+finsql.exe Command=generatesymbolreference, Database=”Demo Database NAV (11-0)”, ServerName=.\NAVDEMO`
 ```
-4. Next publish all the extensions from the `\Extensions` folder of your installation by running the following command.
-```
-Publish-NAVApp -ServerInstance YourDynamicsNAVServer -Path MyExtension.app  
-```
-5. For .app extensions, run the following command:
-```
-Sync-NavApp -ServerInstance NAV -Name ExtensionName -Path “C:\Users\vmadmin\Desktop\ExtensionName.app”
-```
-
-
-
+3. The next step is to publish and install the extensions that you want to enable. Go to the `\Extensions` folder of your installation to view the available extensions for your country. For Extensions V2 (.app) follow the guidelines in [How to: Publish and Install an Extension V2](developer/devenv-how-publish-and-install-an-extension-v2.md).
 
 
 <!-- deprecated ##  <a name="UploadEncryptionKeys"></a> Task 16: Import Payment Services and Data Encryption Key \(Optional\)  
