@@ -27,8 +27,9 @@ manager: edupont
 ### Required Security Configuration  
  After you install [!INCLUDE[navnow](includes/navnow_md.md)], you must then set up security. For more information, see [Security Overview](Security-Overview.md).  
 
+<!--
 ### [!INCLUDE[rimlong](includes/rimlong_md.md)]  
- For assistance with setting up companies in [!INCLUDE[navnow](includes/navnow_md.md)], see [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](Set-Up-a-Company-With-RapidStart-Services-for-Microsoft-Dynamics-NAV.md).  
+ For assistance with setting up companies in [!INCLUDE[navnow](includes/navnow_md.md)], see [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](Set-Up-a-Company-With-RapidStart-Services-for-Microsoft-Dynamics-NAV.md).  -->
 
 ## In This Section  
  [How to: Run Setup](How-to--Run-Setup.md)  
