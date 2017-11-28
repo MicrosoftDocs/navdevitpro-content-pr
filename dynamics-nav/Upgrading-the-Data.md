@@ -238,6 +238,22 @@ You import the permission sets and permissions XML files.
 
 To use these add-ins, they must be registered in table **2000000069 Client Add-in**. Depending on the version that you upgraded from, all the add-ins might not be registered after the upgrade process. You can register missing control add-ins in the **Control Add-ins** page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The assemblies (.dlls) for these add-ins are located in subfolders to the **Add-ins** folder of the Dynamics NAV Server installation, which by default is  [!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Service\Add-ins. For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
 
+
+##  <a name="AddExtensions"></a> Task 17: Publish and install extensions
+[!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes a number of extensions that you must publish and install as part of the upgrade process. To enable these extensions, it is important that you follow the steps below.
+
+1. First, download [platform symbols](https://go.microsoft.com/fwlink/?linkid=864045).
+2. Next, add symbol references to the **NAV App Object Metadata** table for your database by running the finsql command and replacing the `Database` and `ServerName` settings in the syntax below. The **Enable loading application symbol references at server startup** flag must be enabled. For more information, see [Running C/SIDE and AL Side-by-Side](devenv-running-cside-and-al-side-by-side.md).
+```
+finsql.exe Command=generatesymbolreference, Database=”Demo Database NAV (11-0)”, ServerName=.\NAVDEMO`
+```
+3. The next step is to publish and install the extensions that you want to enable. Go to the `\Extensions` folder of your installation to view the available extensions for your country. For Extensions V2 (.app) follow the guidelines in [How to: Publish and Install an Extension V2](developer/devenv-how-publish-and-install-an-extension-v2.md).
+
+
+
+
+
+
 <!-- deprecated ##  <a name="UploadEncryptionKeys"></a> Task 16: Import Payment Services and Data Encryption Key \(Optional\)  
 
 -   If you want to set up Payment Services for Microsoft Dynamics ERP as before, you must upload the payment service encryption key file that was downloaded previously.  
