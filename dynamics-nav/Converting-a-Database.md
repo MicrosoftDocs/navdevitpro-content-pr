@@ -1,13 +1,12 @@
 ---
 title: "Converting a Database - Technical Upgrade"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 21/11/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
-manager: edupont
 ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
@@ -15,14 +14,14 @@ author: jswymer
 
 **Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Converting-a-Database-2017.md).
 
-This article describes how to convert a  [!INCLUDE[navnow](includes/navnow_md.md)] database from one of the following versions to [!INCLUDE[nav2017](includes/nav2017.md)]:
+This article describes how to convert a  [!INCLUDE[navnow](includes/navnow_md.md)] database from one of the following versions to [!INCLUDE[nav2018_md](includes/nav2018_md.md)]:
 
 -   [!INCLUDE[nav7long](includes/nav7long_md.md)]
 -   [!INCLUDE[navsicily](includes/navsicily_md.md)]
 -   [!INCLUDE[navcrete](includes/navcrete_md.md)]
 -   [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
 -   [!INCLUDE[nav2017](includes/nav2017.md)] 
--   [!INCLUDE[nav20118_md](includes/nav2018_md.md)] (cumulative update)
+-   [!INCLUDE[nav2018_md](includes/nav2018_md.md)] \(cumulative update\)
 
 ## About database conversion
 Converting a database, which is often referred to as a *technical upgrade*, changes the database so that it works on the latest [!INCLUDE[nav2018_md](includes/nav2018_md.md)] platform. The conversion updates the system tables of the old database to the new schema (data structure), and upgrades of all reports to support Report Viewer 2015. It provides you with the latest platform features and performance enhancements.
@@ -52,14 +51,13 @@ To convert the old database to a [!INCLUDE[nav2018_md](includes/nav2018_md.md)] 
 
      For more information, see [How to: Open Databases](How-to--Open-Databases.md).  
 
-3.  In Object Designer, verify that no objects are locked.  
+3.  In Object Designer, verify that all objects are compiled and no objects are locked.  
 
-     If one or more objects are locked, the conversion process cannot update the database version number. As a result, the conversion does not complete.  
+     For more information about compiling objects, see [Compiling Objects](compiling-objects.md).
+
+     If one or more objects are locked, the conversion process cannot update the database version number. As a result, the conversion does not complete. For more information, see [Locking and Unlocking Objects](Locking-and-Unlocking-Objects.md).
 
 4.  On the **Tools** menu, choose **Build Server Application Objects**, and then choose the **Yes** button.  
-
-    > [!NOTE]  
-    >  This step does not compile objects in the old database that have not been compiled before.  
 
 5.  If any errors occur, they are shown in the **Error List** window. Make sure that you address all compilation errors before you continue.  
 
@@ -68,13 +66,13 @@ To convert the old database to a [!INCLUDE[nav2018_md](includes/nav2018_md.md)] 
      For more information, see [Uploading a License File for a Specific Database](How-to--Upload-the-License-File.md#UploadtoDatabase).  
 
     > [!IMPORTANT]  
-    >  The license that you upload must be a developer license. During the conversion, the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] will convert the report objects that are stored in the old database to the RDL 2012 format.  
+    >  The license that you upload must be a developer license. During the conversion, the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] will convert the report objects that are stored in the old database to the RDL format.  
 
 7.  Run the schema synchronization with validation to synchronize the database schema changes.  
 
     For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
 
-8.  Stop the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, and close the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].
+8.  Stop the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, and close the [!INCLUDE[nav_dev_short_md](includes/nav_dev_short_md.md)].
 
     You can use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or [Set-NAVServerInstance](https://go.microsoft.com/fwlink/?linkid=401395) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].
 
@@ -105,53 +103,60 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
 
      Run the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] Setup, and choose to install the **Developer** option.  
 
-2.  Run the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] development environment as an administrator, and then connect to the database that you prepared in the previous task.  
+2.  Run the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] development environment as an administrator.
 
-     For more information, see [How to: Open Databases](How-to--Open-Databases.md).  
+    -   If the [!INCLUDE[nav_dev_short_md](includes/nav_dev_short_md.md)] is already connected to the old database, a dialog box about converting the database appears. Go to the next step.
+    
+    -   Otherwise, connect to the old database that you prepared in the previous task, and then go to the next step.
+    
+        For more information, see [How to: Open Databases](How-to--Open-Databases.md).
 
 3.  In the dialog box that appears, read the instructions about converting the database carefully because this action cannot be reversed. When you are ready, choose the **OK** button, and then choose the **OK** button to confirm that you want to convert the database.  
 
-     [!INCLUDE[navnow](includes/navnow_md.md)] will now convert the database. This includes an upgrade of system tables, and an upgrade of all reports to support Report Viewer 2012.  
+     [!INCLUDE[navnow](includes/navnow_md.md)] will now convert the database. This includes an upgrade of system tables and reports.  
 
 4.  When you are notified that the conversion was successful, choose the **OK** button.
 
-5.  Connect a [!INCLUDE[nav2018_md](includes/nav2018_md.md)] Server instance to the converted database.  
+5.  If the database references any assemblies \(such as client control add-ins\) that are not included on the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media \(DVD\), then add the assemblies to the Add-ins folder on [!INCLUDE[nav_server](includes/nav_server_md.md)] or [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computers.  
+
+     For the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the default path is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins folder.  
+
+     For [!INCLUDE[nav_server](includes/nav_server_md.md)], the default path is the [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Add-ins folder.
+
+
+6.  Connect a [!INCLUDE[nav2018_md](includes/nav2018_md.md)] Server instance to the converted database.  
 
      Use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or the [Set-NAVServerConfiguration cmdlet](https://go.microsoft.com/fwlink/?linkid=401394) to connect a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to the converted database.  
 
      In addition, you must add the service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance as a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server.  
 
      For more information, see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect-a-Microsoft-Dynamics-NAV-Server-Instance-to-a-Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).  
-
-6.  Go to the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and set it to use the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to the database.  
+     
+7.  Go to the [!INCLUDE[nav_dev_short_md](includes/nav_dev_short_md.md)], and set it to use the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to the database.  
 
      For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md) or [Database Information](uiref/-$-S_2349-Database-Information-$-.md).  
 
-7.  Compile all objects.
+8.  Compile all objects without table schema synchronizing; you will do this later.  
 
-    You can use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe. For more information, see [Compiling Objects](compiling-objects.md).
+    For more information, see [Compiling Objects](compiling-objects.md).
 
-8.  Run the schema synchronization with validation to complete the database conversion.  
+9. Fix compilation errors.  
 
-    For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
+    If any errors occur, they are shown in the **Error List** window. For help on resolving the errors, see the following:
 
-8.  If the database references any assemblies \(such as client control add-ins\) that are not included on the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media \(DVD\), then add the assemblies to the Add-ins folder on [!INCLUDE[nav_server](includes/nav_server_md.md)] or [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computers.  
+    -   [Resolving Compilation Errors When Converting a Dynamics NAV 2013 Database](Compilation-Errors-When-Converting-a-Microsoft-Dynamics-NAV-2013-Database.md).  
 
-     For the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the default path is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins folder.  
+    -   [Resolving Compilation Errors When Converting a Dynamics NAV 2015 Database](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2015-Database.md). 
 
-     For [!INCLUDE[nav_server](includes/nav_server_md.md)], the default path is the [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Add-ins folder  
+    -   [Resolving Compilation Errors When Converting a Dynamics NAV 2016 Database](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2016-Database.md). 
 
-9. In the development environment, on the **Tools** menu, choose **Build Server Application Objects**, and then, in the dialog box, choose the **Yes** button.  
-
-10. Fix compilation errors.  
-
-    If any errors occur, they are shown in the **Error List** window.
-
-    For information about compilation errors when you are converting a [!INCLUDE[nav7long](includes/nav7long_md.md)] database, see [Resolving Compilation Errors When Converting a Microsoft Dynamics NAV 2013 Database](Compilation-Errors-When-Converting-a-Microsoft-Dynamics-NAV-2013-Database.md).  
-
-    For information about compilation errors when you are converting a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] database, see [Resolving Compilation Errors When Converting a Microsoft Dynamics NAV 2016 Database](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2016-Database.md).  
+    -   [Resolving Compilation Errors When Converting a Dynamics NAV 2017 Database](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2017-Database.md).   
 
     You can find all objects which did not compile in the **Object Designer** window, by setting a field filter on the **Compiled** field.  
+
+10.  Run the schema synchronization with validation to complete the database conversion.  
+
+        For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
 
 11.  If you converted a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)], you will have to modify C/AL code to ensure that the **My Settings** page works properly in the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. For more information, see [Resolving My Settings Page Implementation After a Database Conversion](Resolve-MySettings-Page-After-Upgrade.md).
 
@@ -162,11 +167,10 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
  You have now completed the conversion of the database to be accessed from [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. To test the converted database, you can connect it to the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] Server instance that is used by [!INCLUDE[navnow](includes/navnow_md.md)] clients, and then open a client.  
 
 ## Database and Windows collations  
- Starting from SQL Server 2008, SQL Server collations are fully aligned with the collations in Windows Server. If you upgrade to [!INCLUDE[nav2018_md](includes/nav2018_md.md)] from [!INCLUDE[nav_2009_long](includes/nav_2009_long_md.md)], the step to convert the database includes upgrading the database from using SQL collations to using Windows collation. This collation change provides users with the most up-to-date and linguistically accurate cultural sorting conventions. For more information, see [Collation and Unicode Support](http://go.microsoft.com/fwlink/?LinkID=247971).  
-
+Starting from SQL Server 2008, SQL Server collations are fully aligned with the collations in Windows Server. If you upgrade to [!INCLUDE[nav2018_md](includes/nav2018_md.md)] from [!INCLUDE[nav_2009_long](includes/nav_2009_long_md.md)], the step to convert the database includes upgrading the database from using SQL collations to using Windows collation. This collation change provides users with the most up-to-date and linguistically accurate cultural sorting conventions. For more information, see [Collation and Unicode Support](http://go.microsoft.com/fwlink/?LinkID=247971).  
 
 ## See Also  
- [Upgrading the Application Code](Upgrading-the-Application-Code.md)   
- [Upgrading the Data](Upgrading-the-Data.md)   
- [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)   
- [Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md)
+[Upgrading the Application Code](Upgrading-the-Application-Code.md)   
+[Upgrading the Data](Upgrading-the-Data.md)   
+[Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)   
+[Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md)

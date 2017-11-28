@@ -71,7 +71,7 @@ The PowerShell script module **NAVWebClientManagement.psm1** includes the [Set-N
     -   `[NAVServerInstanceName]` with the name of the server instance, such as **[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]**.
     -   `[MyNavWebServerInstance]`with the name of the web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)].
     -   `[KeyName]` with the name of the setting. Refer to the next section in this article.
--      `[KeyValue]` with the new value of the setting.
+    -   `[KeyValue]` with the new value of the setting.
 
 
 ## <a name="Settings"></a>Settings in the navsettings.json  
