@@ -50,8 +50,8 @@ The following properties apply to the page object.
 |[UsageCategory Property](devenv-usagecategory-property.md)|X||
 |[ApplicationArea Property](devenv-applicationarea-property.md)|X||
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
-  
-  <!-- |[ODateKeyFields Property]()|X||-->
+|[ODataEDMType Property](devenv-odataedmtype-property.md)|X|X|
+|[ODataKeyFields Property](devenv-odatakeyfields-property.md)|X||
 
 ## Container control properties
 The following properties apply to Container controls on a page.
@@ -73,11 +73,12 @@ The following properties apply to Group controls on a page.
 |[Enabled Property](devenv-enabled-property.md)|X|X|
 |[Description Property](devenv-description-property.md)|X||
 |[InstructionalTextML Property](devenv-instructionaltextml-property.md)|X|X|
-|GridLayout Property|X||
+|[GridLayout Property](devenv-gridlayout-property.md)|X||
 |[IndentationColumn Property](devenv-indentationcolumnname-property.md)|X||
 |[IndentationControls Property](devenv-indentationcontrols-property.md)|X||
 |[FreezeColumn Property](devenv-freezecolumnid-property.md)|X|X|
 |[ShowAsTree Property](devenv-showastree-property.md)|X||
+|[ShowCaption Property](devenv-showcaption-property.md)|X||
 
 ## Field control properties
 The following properties apply to Field controls on a page.
@@ -128,7 +129,7 @@ The following properties apply to Field controls on a page.
 |[Style Property](devenv-style-property.md)|X|X|
 |[StyleExpr Property](devenv-styleexpr-property.md)|X|X|
 |[Image Property](devenv-image-property.md)|X||
-|[ODataEDMType Property]()|X||
+|[ODataEDMType Property](devenv-odataedmtype-property.md)|X|X|
 
 ## Part control properties
 The following properties apply to Part controls on a page.
@@ -199,7 +200,7 @@ The following properties apply to Separators.
 |Property Name|Page Object|Page Extension Object|
 |-------------|-----------|---------------------|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
-|[IsHeader Property]()|X||
+|[IsHeader Property](devenv-isheader-property.md)|X||
 
 ## See Also
 [Properties](devenv-properties.md)  
