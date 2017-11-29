@@ -3,7 +3,7 @@ title: "Debugging"
 description: "Overview of debugging in AL"
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/27/2017
+ms.date: 11/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
