@@ -1,7 +1,8 @@
 ---
-title: "How to: Create a Table"
+title: Create a Table
+description: When you create a table, you must choose what type of information you want to store in it, which is held in fields i.e. declared in data types.
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 11/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 33ba7a28-9f72-4950-9c6e-2ab687161c17
 caps.latest.revision: 7
 manager: edupont
 ---
-# How to: Create a Table
+# Creating a Table in Dynamics NAV
 When you first create a table, it does not contain any data. Nevertheless, when you create the table you must also decide what types of information you want to store in it. The information is held in fields, and each field can be declared as one of the data types that are available.  
   
 ### To create a table  
