@@ -24,6 +24,9 @@ From code, you have access to various snippets that will give you a template for
 > [!NOTE]  
 > Use a code snippet from an .al file by start typing the snippet name.
 
+## Examples of snippets
+The following is a non-comprehensive list of the snippets that you can use in the AL.
+
 |Type... | To get a... |
 |--------|-------------|
 |```tassert```| Assert error structure|
@@ -46,4 +49,7 @@ From code, you have access to various snippets that will give you a template for
 |```ttrigger```| Trigger structure|
 |```twithdo```| With do structure|
 |```twhile```| While structure|
-|```txmport```| XMLport object structure|
+|```txmlport```| XMLport object structure|
+
+## See Also
+[Getting Started with AL](devenv-get-started.md)  

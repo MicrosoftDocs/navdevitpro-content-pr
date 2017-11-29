@@ -17,7 +17,7 @@ caps.latest.revision: 18
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Symbol Files
-The following table lists object symbols contained in the platform symbol package file. If the symbols are not present, you will be prompted to download them.
+The following table lists object symbols contained in the platform symbol package file. If the symbols are not present, you will be prompted to download them. Symbols are a prerequisite for writing extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
 ### System tables
 
