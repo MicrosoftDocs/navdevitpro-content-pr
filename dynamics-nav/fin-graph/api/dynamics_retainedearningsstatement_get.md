@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get retainedEarningsStatement
-Retrieve the properties and relationships of a retained earnings statement report object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a retained earnings statement report object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```

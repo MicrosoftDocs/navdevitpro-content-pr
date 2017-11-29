@@ -35,4 +35,3 @@ When you make changes to the report dataset, the report layouts that are used on
 ## See Also   
  [Designing RDLC Report Layouts](Designing-RDLC-Report-Layouts.md)   
  [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)  
- 

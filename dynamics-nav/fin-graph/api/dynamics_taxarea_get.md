@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get taxAreas
-Retrieve the properties and relationships of a tax area object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a tax area object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 

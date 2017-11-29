@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Update paymentMethods
-Update the properties of a payment method object for Dynamics 365 for Financials.
+Update the properties of a payment method object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
