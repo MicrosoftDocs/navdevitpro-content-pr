@@ -19,25 +19,25 @@ SENDTRACETAG(Tag, Category, Verbosity, Message)
 ```  
   
 #### Parameters  
- *Tag*  
- Type: Record  
-  
- The record that contains the field that you want to filter.  
-  
- *Category*  
- Type: Field  
-  
- The field that you want to filter.  
-  
- *Verbosity*  
+*Tag*  
  Type: Text or code  
   
- The filter expression. A valid expression consists of alphanumeric characters and one or more of the following operators: \<, >, \*, &, &#124;, and =. You can use replacement fields \(%1, %2, and so on\) to insert values at run-time.  
+The record that contains the field that you want to filter.  
   
- *Message*  
- Type: Any  
+*Category*  
+Type: Text or code  
   
- Replacement values to insert in replacement fields in the filter expression. The data type of *Value* must match the data type of *Field*.  
+The field that you want to filter.  
+  
+*Verbosity*  
+Type: Verbosity  
+  
+Specifies the level of the event as either: Critical, Error, Warning, Normal, Verbose.   
+  
+*Message*  
+Type: Text or code  
+  
+Specifies the error message of the trace event..  
   
 ## Remarks  
  If the function is called with a field for which a filter already exists, that filter will be removed before the new one is set. You can construct filters using the following operators:  
