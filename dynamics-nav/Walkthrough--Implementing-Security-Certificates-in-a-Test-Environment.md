@@ -263,7 +263,7 @@ If a problem or error occurs, see the Windows Event Log on the computer running 
 
 1.  On the [!INCLUDE[navnow](includes/navnow_md.md)] web server instance, open the [!INCLUDE[nav_web](includes/nav_web_md.md)] folder. By default, the folder is C:\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].  
 
-2.  Open the web.config file in a text editor, such as Notepad.  
+2.  Open the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] in a text editor, such as Notepad.  
 
 3.  Find the `<DynamicsNavSettings>` element, and then change the following settings:  
 
@@ -272,6 +272,6 @@ If a problem or error occurs, see the Windows Event Log on the computer running 
     |ClientServicesCredentialType|NavUserPassword or Username|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md).|  
     |DnsIdentity|The subject name of the service certificate|For this walkthrough, set the key to **NavServiceCert**.|  
 
-4.  Save the web.config file.  
+4.  Save the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].  
 
      For more information about configuring the credential type for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How-to--Configure-Authentication-of-Microsoft-Dynamics-NAV-Web-Client-Users.md).

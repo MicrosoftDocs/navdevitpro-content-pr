@@ -1,10 +1,10 @@
 ---
-title: "Developing Connect Apps for Dynamics 365 for Financials"
+title: "Developing Connect Apps for Dynamics 365 for Finance and Operations, Business edition"
 author: SusanneWindfeldPedersen
 
 ms.author: solsen
 ms.custom: na
-ms.date: 09/15/2017
+ms.date: 11/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -20,6 +20,9 @@ A Connect app establishes a connection between two independent services using an
 ## Want to try it out?
 With this preview, you can get started exploring the APIs that we offer for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. We do not yet support submission to AppSource for Connect apps, so for now, we encourage you to get familiar with the structure and possibilities of the API.
 
+> [!NOTE]  
+> For information about enabling the APIs on [!INCLUDE[navnow_md](includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../enabling-apis-for-dynamics-nav.md).
+
 It's easy to get started. Just spin up a tenant by going through these steps.
 
 1) Sign up for [[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]](https://go.microsoft.com/fwlink/?linkid=847861).    
@@ -30,7 +33,7 @@ It's easy to get started. Just spin up a tenant by going through these steps.
    > [!NOTE]
    > For production, you should use Azure Active Directory (AAD) for authentication and the common service endpoint `https://api.financials.dynamics.com/v1.0/api/beta`. However, for exploring and prototyping with the APIs, using basic authentication and the tenant URL as described will be faster.
 
-3) Go to the documentation on the APIs, you can get our published preview [here](https://msdn.microsoft.com/en-us/dynamics-nav/fin-graph/index).  
+3) Go to the documentation on the APIs, you can get our published preview [here](https://docs.microsoft.com/en-gb/dynamics-nav/fin-graph/).  
 4) Download an API explorer, such as [Postman](https://www.getpostman.com/) or [Fiddler](http://www.telerik.com/fiddler) to connect to and explore the API.
 
 ### Some tips for working with the API's

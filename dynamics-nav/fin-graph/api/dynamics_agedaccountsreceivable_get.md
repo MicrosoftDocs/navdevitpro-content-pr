@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get agedAccountsReceivable
-Retrieve the properties and relationships of an aged accounts receivable report object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of an aged accounts receivable report object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```

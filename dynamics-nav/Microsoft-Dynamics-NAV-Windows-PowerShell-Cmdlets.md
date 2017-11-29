@@ -22,7 +22,7 @@ caps.latest.revision: 17
 > [!NOTE]  
 >  Alternatively to running [!INCLUDE[nav_shell](includes/nav_shell_md.md)] and [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] from where they are installed, you can import the relevant module into the [!INCLUDE[wps_2](includes/wps_2_md.md)] Integrated Scripting Environment \(ISE\).  
 
-## Starting a [!INCLUDE[nav_shell](includes/nav_shell_md.md)] Session  
+## <a name="StartAdminShell"></a>Starting a [!INCLUDE[nav_shell](includes/nav_shell_md.md)] Session  
  You must run the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an Administrator. On the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], choose **Start**, in the **Search** box, type **[!INCLUDE[nav_shell](includes/nav_shell_md.md)]**, right-click the related link, and then choose **Run as Administrator**.  
 
 > [!IMPORTANT]  
