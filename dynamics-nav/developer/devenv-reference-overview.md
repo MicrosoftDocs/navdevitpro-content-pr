@@ -29,12 +29,12 @@ This section describes all of the objects that are available with the AL Languag
 |To |See |
 |---|----|
 |Learn about how to create new page objects for your extension.|[Page Object](devenv-page-object.md)|
-|Learn about how to modify and extend existing page objects. |[Page Extension Object](devenv-page-ext-object.md)|
+|Learn about how to modify and extend existing page objects.|[Page Extension Object](devenv-page-ext-object.md)|
 |Learn about how to create page customization objects.|[Page Customization Object](devenv-page-customization-object.md)|
 |Learn about how to create profile objects.|[Profile Object](devenv-profile-object.md)|
-|Learn about how to create report objects|[Report Object](devenv-report-object.md)|
-|Learn about how to create xmlport objects|[XmlPort Object](devenv-xmlport-object.md)|
-|Learn about how to create query objects|[Query Object](devenv-query-object.md)|
+|Learn about how to create report objects.|[Report Object](devenv-report-object.md)|
+|Learn about how to create xmlport objects.|[XmlPort Object](devenv-xmlport-object.md)|
+|Learn about how to create query objects.|[Query Object](devenv-query-object.md)|
 |Learn about how to create control add-in objects.|[Control Add-In Object](devenv-control-addin-object.md)|
 
 ## Writing AL code
