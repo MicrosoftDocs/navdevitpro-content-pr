@@ -1,5 +1,5 @@
 ---
-title: "Development Environment"
+title: "AL Development Environment"
 description: "Overview of the objects in the AL Language development environment."
 author: SusanneWindfeldPedersen
 ms.custom: na
@@ -16,7 +16,7 @@ caps.latest.revision: 18
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-# Development Environment
+# AL Development Environment
 This section describes all of the objects that are available with the AL Language development environment for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
 ## Defining the AL data model
