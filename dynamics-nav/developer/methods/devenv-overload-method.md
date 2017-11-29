@@ -66,7 +66,7 @@ codeunit 10 Stringifier
 
 ```
 
-In the second snippet, we overload the ToString procedure for Text, Date and Integer. At this point, it is impossible for a caller to call a ToString method with a different type other than Integer, Date or Text. This will catch the bug above at compile time. 
+In the second snippet, we overload the ToString procedure for Text, Date and Integer. At this point, it is not possible for a caller to call a ToString method with a different type other than Integer, Date or Text. This will catch the bug above at compile time. 
 
 ```
 codeunit 10 StringifierWithOverloads 
@@ -89,7 +89,7 @@ codeunit 10 StringifierWithOverloads
 ```
 
 ## See Also
-[AL Development Environment](devenv-reference-overview.md)   
-[AL Data Types](devenv-al-data-types.md)   
-[Variant Data Type](devenv-variant-data-type.md)
+[AL Development Environment](../devenv-reference-overview.md)  
+[AL Data Types](../datatypes/devenv-al-data-types.md)   
+[Variant Data Type](../datatypes/devenv-variant-data-type.md)
 
