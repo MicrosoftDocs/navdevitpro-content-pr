@@ -33,20 +33,21 @@ A number of fields have been moved from the base application to an extension.
 ### Denmark
 The functionality for payments and reconciliation in the Danish version (FIK) has been moved to the Payments and Reconciliations (DK) extension. For more information, see [The Payments and Reconciliations (DK) Extension](/dynamics365/financials/ui-extensions-payments-reconciliation-formats-dk) in the [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] documentation.
 
-|Table ID|Old Field ID|New Field ID|
-|--------|--------|--------|
-|23|13650|13651|
-|25|13650|13651|
-|38|13650|13651|
-|79|13600|13651|
-|81|13650|13651|
-|122|13650|13651|
-|273|13600|13601|
-|289|13601|13652|
-|372|13650|13651|
-|1226|13650|13651|
-|1250|13601|13652|
-|1250|13600|13653|
+|Table ID|Table Name|Old Field ID|New Field ID|Old Field Name|New Field Name|
+|--------|--------|--------|--------|--------|--------|
+|23|Vendor|13650|13651|Giro Acc No.|GiroAccNo|
+|25|Vendor Ledger Entry|13650|13651|Giro Acc No.|GiroAccNo|
+|38|Purchase Header|13650|13651|Giro Acc No.|GiroAccNo|
+|79|Company Information|13600|13651|Bank Creditor No.|BankCreditorNo|
+|81|General Journal Line|13650|13651|Giro Acc No.|GiroAccNo|
+|122|Purchase Invoice Header|13650|13651|Giro Acc No.|GiroAccNo|
+|273|Bank Acc. Reconciliation|13600|13601|FIK Payment Reconciliation|FIKPaymentReconciliation|
+|274|Bank Acc. Reconciliation Line|13600|13601|Payment Reference|PaymentReference|
+|289|Payment Method|13601|13652|Payment Type Validation|PaymentTypeValidation|
+|372|Payment Buffer|13650|13651|Giro Acc No.|GiroAccNo|
+|1226|Payment Export Data|13650|13651|Recipient Giro Acc No.|RecipientGiroAccNo|
+|1250|Bank Statement Matching Buffer|13601|13652|Match Status|MatchStatus|
+|1250|Bank Statement Matching Buffer|13600|13653|Description|DescriptionBankStatement|
 
 ## Fields marked as ObsoleteState:Pending in [!INCLUDE[nav2018](includes/nav2018_md.md)]
 A number of fields are marked as ObsoleteState:Pending. There is no impact on code in this release.  
