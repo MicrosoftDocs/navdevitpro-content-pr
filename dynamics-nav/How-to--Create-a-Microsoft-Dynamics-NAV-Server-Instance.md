@@ -1,7 +1,8 @@
 ---
-title: "How to: Create a Microsoft Dynamics NAV Server Instance"
+title: Create Server Instance
+description: A Server contains a single instance by default. To create additional instances, install Server on computers or create other instances on the original Server.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
