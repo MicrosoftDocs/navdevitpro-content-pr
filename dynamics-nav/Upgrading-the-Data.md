@@ -244,6 +244,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
 1. First, download [platform symbols](https://go.microsoft.com/fwlink/?linkid=864045).
 2. Next, add symbol references to the **NAV App Object Metadata** table for your database by running the finsql command and replacing the `Database` and `ServerName` settings in the syntax below. The **Enable loading application symbol references at server startup** flag must be enabled. For more information, see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md).
+
 ```
 finsql.exe Command=generatesymbolreference, Database=”Demo Database NAV (11-0)”, ServerName=.\NAVDEMO`
 ```
