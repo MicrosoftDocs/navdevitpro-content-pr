@@ -279,7 +279,7 @@
 ## [Upgrading the Application Code](Upgrading-the-Application-Code.md)
 ## [Upgrading the Data](Upgrading-the-Data.md)
 ## [Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md)
-# [Windows PowerShell Cmdlets for Microsoft Dynamics NAV](Windows-PowerShell-Cmdlets-for-Microsoft-Dynamics-NAV.md)
+# [Windows PowerShell Cmdlets for Microsoft Dynamics NAV](https://docs.microsoft.com/en-us/powershell/dynamics-nav/overview)
 ## [Administration Cmdlets for Dynamics NAV](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management)
 ## [Administration Cmdlets for Dynamics NAV Extensions](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management)
 ## [Development Cmdlets for Dynamics NAV](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.model.tools)
