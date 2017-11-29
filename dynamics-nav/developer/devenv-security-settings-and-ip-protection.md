@@ -28,7 +28,7 @@ When you start a new project in [!INCLUDE[d365fin_long_md](includes/d365fin_long
 > The ``showMyCode`` setting is not visible in the ``app.json`` file when it is generated.
 
 ## Change the IP Protection setting
-If you want to allow debugging into an extension to view the source code, you can add the ``showMyCode`` property in the `app.json`file (the manifest) and set the property value to **true**. For example, if a developer develops an extension A and he or someone else on the team develops extension B, and B depends on A, then debugging B will only step into the code for A if a method from A is called and if the `ShowMyCode` flag is set to **true** in the app.json for extension A as shown in the example below:
+If you want to allow debugging into an extension to view the source code, you can add the ``showMyCode`` property in the `app.json` file (the manifest) and set the property value to **true**. For example, if a developer develops an extension A and he or someone else on the team develops extension B, and B depends on A, then debugging B will only step into the code for A if a method from A is called and if the `ShowMyCode` flag is set to **true** in the app.json for extension A as shown in the example below:
 
 ```
 "showMyCode": true
