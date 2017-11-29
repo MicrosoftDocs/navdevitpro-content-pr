@@ -3,7 +3,7 @@ title: "Debugging"
 description: "Overview of debugging in AL"
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/27/2017
+ms.date: 11/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -30,7 +30,6 @@ For the preview, there are a number of limitations to be aware of:
 - The debugger launches a new client instance each time you press F5. If you close the debugging session, and then start a new session, this new session will rely on a new client instance. We recommend that you close the Web client instances when you close a debugging session.  
 - And finally, using the debugger with the online sandbox signup and AAD authentication method is not yet supported.
 
-
 ## Breakpoints  
 The basic concept in debugging is the *breakpoint*, which is a mark that you set on a statement. When the program flow reaches the breakpoint, the debugger stops execution until you instruct it to continue. Without any breakpoints, the code runs without interruption when the debugger is active. Set a breakpoint by using the Debug Menu in Visual Studio Code. 
 
@@ -45,6 +44,8 @@ The basic concept in debugging is the *breakpoint*, which is a mark that you set
 |F10          |Step over|
 |F11          |Step into|
 |Shift+F11    |Step out|
+
+For more shortcuts, see [Debugging](https://code.visualstudio.com/docs/editor/debugging).
 
 ## See Also  
 [Developing Extensions](devenv-dev-overview.md)  
