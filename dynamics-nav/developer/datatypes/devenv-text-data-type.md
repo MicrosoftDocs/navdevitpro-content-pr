@@ -39,6 +39,7 @@ The following methods are **instance** methods, which support the Text data type
 |[REMOVE Method (Text)](../methods/devenv-remove-method-text.md)|
 |[REPLACE Method (Text)](../methods/devenv-replace-method-text.md)|
 |[STARTSWITH Method (Text)](../methods/devenv-startswith-method-text.md)|
+|[SPLIT Method (Text)](../methods/devenv-split-method-text.md)|
 |[SUBSTRING Method (Text)](../methods/devenv-substring-method-text.md)|
 |[TOLOWER Method (Text)](../methods/devenv-tolower-method-text.md)|
 |[TOUPPER Method (Text)](../methods/devenv-toupper-method-text.md)|
