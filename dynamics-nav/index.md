@@ -2,7 +2,7 @@
 title: "Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV"
 author: edupont04
 ms.custom: na
-ms.date: 10/18/2017
+ms.date: 11/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,8 +17,10 @@ ms.prod: "dynamics-nav-2017"
 |To|See|  
 |--|---|  
 |Learn how to install, deploy, and configure [!INCLUDE[navnowlong](includes/navnowlong_md.md)]|[Deployment](Deployment.md)|  
-|Learn about development options for [!INCLUDE[navnowlong](includes/navnowlong_md.md)]|[Development](Development.md)|  
+|Learn about developing in AL|[Development in AL](developer/devenv-dev-overview.md)|
+|Learn about developing in C/AL|[Development in C/AL](Development.md)|  
 |Learn about administration tools and processes for [!INCLUDE[navnowlong](includes/navnowlong_md.md)]|[Administration](Administration.md)|  
+|Find AL reference information, including methods, triggers, properties and APIs|[AL Development Environment](developer/devenv-reference-overview.md)|
 |Find reference information, including C/AL functions, triggers, properties, [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] commands, and [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] windows|[Technical Reference](Technical-Reference.md)|  
 |Learn how to develop with the new development environment|[Getting Started](developer/devenv-get-started.md) |
 

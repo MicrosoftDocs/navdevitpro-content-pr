@@ -1,9 +1,9 @@
 ---
-title: "Development Environment"
+title: "AL Development Environment"
 description: "Overview of the objects in the AL Language development environment."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/17/2017
+ms.date: 11/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,7 +16,7 @@ caps.latest.revision: 18
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-# Development Environment
+# AL Development Environment
 This section describes all of the objects that are available with the AL Language development environment for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
 ## Defining the AL data model
@@ -30,9 +30,12 @@ This section describes all of the objects that are available with the AL Languag
 |---|----|
 |Learn about how to create new page objects for your extension.|[Page Object](devenv-page-object.md)|
 |Learn about how to modify and extend existing page objects. |[Page Extension Object](devenv-page-ext-object.md)|
+|Learn about how to create page customization objects.|[Page Customization Object](devenv-page-customization-object.md)|
+|Learn about how to create profile objects.|[Profile Object](devenv-profile-object.md)|
 |Learn about how to create report objects|[Report Object](devenv-report-object.md)|
 |Learn about how to create xmlport objects|[XmlPort Object](devenv-xmlport-object.md)|
 |Learn about how to create query objects|[Query Object](devenv-query-object.md)|
+|Learn about how to create control add-in objects.|[Control Add-In Object](devenv-control-addin-object.md)|
 
 ## Writing AL code
 |To |See |
