@@ -2,7 +2,7 @@
 title: Upgrade Considerations
 description: This article provides tips and considerations to prepare a solution when you are planning to upgrade Microsoft Dynamics NAV.
 ms.custom: na
-ms.date: 11/28/2017
+ms.date: 11/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -44,4 +44,5 @@ Sometimes Microsoft will refactor code so that fields are no longer used, or the
 [Upgrading the Application Code](Upgrading-the-Application-Code.md)   
 [Upgrading the Data](Upgrading-the-Data.md)   
 [Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md)   
+[Deprecated Fields, and Fields Marked as Obsolete](deprecated-fields.md)  
 [Deprecated Features in the UK Version of Microsoft Dynamics NAV 2018](deprecated-features-uk.md)  
