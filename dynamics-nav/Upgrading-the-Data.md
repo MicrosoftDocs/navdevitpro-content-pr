@@ -83,7 +83,7 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 
  For more information, see [Create a Full Database Backup \(SQL Server\)](http://msdn.microsoft.com/en-us/library/ms187510.aspx).  
 
-##  <a name="UploadLicense"></a> Task 3: Upload the [!INCLUDE[nav2017](includes/nav2017.md)] license to the old database  
+##  <a name="UploadLicense"></a> Task 3: Upload the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] license to the old database  
 By using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] that matches the old database, upload the [!INCLUDE[nav2017](includes/nav2017.md)] license to the database.
 
 For more information, see [Uploading a License File for a Specific Database](How-to--Upload-the-License-File.md#UploadtoDatabase).  
@@ -93,7 +93,7 @@ In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] version that matc
 
 You can also use the [DeleteObjects](DeleteObjects.md) command of the finsql.exe.
 
-##  <a name="UninstallOldProduct"></a> Task 5: Uninstall the old product and install the new product (Optional)
+##  <a name="UninstallOldProduct"></a> Task 5: Uninstall (optional) the old product and install the new product
 Uninstall the old [!INCLUDE[navnow_md](includes/navnow_md.md)], and then install [!INCLUDE[nav2017](includes/nav2017.md)].  
 
 During installation of [!INCLUDE[nav2017](includes/nav2017.md)], you can either choose the **Install Demo** option, for which you will discard the Demo database afterwards, or choose the **Custom** option, where you then select to install the Client \(with the Development Environment\), Server, and Administration Tool components.  
@@ -108,7 +108,7 @@ Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records fro
     ```
 
 ##  <a name="ConvertDb"></a> Task 7: Convert the old database to the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] format  
- To convert the old database to the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] format, open the old database in the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and follow the conversion instructions.
+To convert the old database to the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] format, open the old database in the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and follow the conversion instructions.
 
 > [!IMPORTANT]
 > Do not run schema synchronization at this time.
@@ -242,13 +242,32 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 ##  <a name="AddExtensions"></a> Task 17: Publish and install extensions
 [!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes a number of extensions that you must publish and install as part of the upgrade process. To enable these extensions, it is important that you follow the steps below.
 
-1. First, download [platform symbols](https://go.microsoft.com/fwlink/?linkid=864045).
-2. Next, add symbol references to the **NAV App Object Metadata** table for your database by running the finsql command and replacing the `Database` and `ServerName` settings in the syntax below. The **Enable loading application symbol references at server startup** flag must be enabled. For more information, see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md).
+1. Download the [platform symbols](https://go.microsoft.com/fwlink/?linkid=864045).
+2. Make sure that **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup) is set on the Dynamics NAV server instance.
 
-```
-finsql.exe Command=generatesymbolreference, Database=”Demo Database NAV (11-0)”, ServerName=.\NAVDEMO`
-```
-3. The next step is to publish and install the extensions that you want to enable. Go to the `\Extensions` folder of your installation to view the available extensions for your country. For Extensions V2 (.app) follow the guidelines in [How to: Publish and Install an Extension V2](developer/devenv-how-publish-and-install-an-extension-v2.md).
+    For more infromation, see [Configuring Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).
+2. To add application symbol references, run the following command, replacing the `Database` and `ServerName` settings. 
+
+    ```
+    finsql.exe Command=generatesymbolreference, Database=<MyDatabaseName>, ServerName=<DatabaseServerName>\<DatabaseInstance>
+    ```
+
+    For more information, see [Running C/SIDE and AL Side-by-Side](devenv-running-cside-and-al-side-by-side.md).
+
+4. Publish all the extensions from the `\Extensions` folder of the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD) by running the following command for each extension.
+
+    ```
+    Publish-NAVApp -ServerInstance "<ServerInstanceName> -Path <ExtensionFileName> 
+    ```
+    Depending on the extension, the file type will have either a `.navx` or `.app`. 
+
+    For more information about publishing extensions, see [How to: Publish and Install an Extension V2](developer/devenv-how-publish-and-install-an-extension-v2.md).
+
+5.  For .app extensions, run the following command:
+
+    ```
+    Sync-NAVApp -ServerInstance NAV -Name ExtensionName -Path “C:\Users\vmadmin\Desktop\ExtensionName.app”
+    ```
 
 
 <!-- deprecated ##  <a name="UploadEncryptionKeys"></a> Task 16: Import Payment Services and Data Encryption Key \(Optional\)  
