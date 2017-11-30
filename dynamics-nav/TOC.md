@@ -1,7 +1,7 @@
 # [Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV](index.md)
 ## [Getting Started](Getting-Started.md)
 ## [Touring the RoleTailored Client for Developers](Touring-the-RoleTailored-Client-for-Developers.md)
-## [System Requirements for Microsoft Dynamics NAV 2017](System-Requirements-for-Microsoft-Dynamics-NAV.md)
+## [System Requirements for Microsoft Dynamics NAV 2018](System-Requirements-for-Microsoft-Dynamics-NAV.md)
 # [Product and Architecture Overview](Product-and-Architecture-Overview.md)
 ## [Client Types](Client-Types.md)
 ## [Microsoft Dynamics NAV Server](Microsoft-Dynamics-NAV-Server.md)
