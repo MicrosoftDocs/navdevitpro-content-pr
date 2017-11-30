@@ -91,7 +91,7 @@ Open the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] that matches to old 
     Get-NAVAppInfo -ServerInstance <ServerInstanceName> -Tenant <TenantID> |ft
     ```
     
-    Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server_md](includes/nav_servermd.md)] instance that the database connects to. Replace `<TenantID>` with the tenant ID of the database. If you do not have a multitenant server instance, use `default`.
+    Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance that the database connects to. Replace `<TenantID>` with the tenant ID of the database. If you do not have a multitenant server instance, use `default`.
 
     In the table that appears, Extensions V1 are indicated by `CSIDE` in the `Extension Type`column.
 
@@ -229,7 +229,7 @@ To view the progress of the data upgrade, you can run Get-NavDataUpgrade cmdlet 
 The data upgrade process runs CheckPreconditions and Upgrade functions in the upgrade codeunits. If any of the preconditions are not met or an upgrade function fails, you must correct the error and resume the data upgrade process. If CheckPreconditions and Upgrade functions are executed successfully, codeunit 2 is automatically run to initialize all companies in the database unless you set the *SkipCompanyIntitialization* parameter.  
 
 ##  <a name="DeleteUpgCodeunits"></a> Task 14: Delete the upgrade objects  
-At this point, you have upgraded the database to [!INCLUDE[nav2017](includes/nav2017.md)]. Now, you can delete the upgrade codeunits and upgrade table objects that you imported in task 8.  
+At this point, you have upgraded the database to [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. Now, you can delete the upgrade codeunits and upgrade table objects that you imported in task 8.  
 
 When you delete tables, on the **Delete** dialog box, set the **Synchronize Schema** option to **Force**.  
 
@@ -263,12 +263,20 @@ You import the permission sets and permissions XML files.
 To use these add-ins, they must be registered in table **2000000069 Client Add-in**. Depending on the version that you upgraded from, all the add-ins might not be registered after the upgrade process. You can register missing control add-ins in the **Control Add-ins** page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The assemblies (.dlls) for these add-ins are located in subfolders to the **Add-ins** folder of the Dynamics NAV Server installation, which by default is  [!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Service\Add-ins. For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
 
 
-##  <a name="AddExtensions"></a> Task 18: Publish and install extensions
+##  <a name="AddExtensions"></a> Task 18: Publish and install/upgrade extensions
 [!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes a number of extensions that you must publish and install as part of the upgrade process. To enable these extensions, it is important that you follow the steps below.
 
 1. Download the [platform symbols](https://go.microsoft.com/fwlink/?linkid=864045).
 
     Make a note of the location where you store the file.
+
+3. Publish the platform symbols to the Dynamics NAV server instance:
+
+    Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and run the following command:
+
+    ```
+        Publish-NAVApp -ServerInstance <ServerInstanceName> -Path <SymbolFilePath> -PackageType SymbolsOnly
+    ```
 2. Make sure that **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup) is set on the Dynamics NAV server instance.
 
     For more infromation, see [Configuring Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).
@@ -282,19 +290,11 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
     Replace values for the `Database` and `ServerName` settings to suit.
 
-    For more information about generation symbols, see [Running C/SIDE and AL Side-by-Side](devenv-running-cside-and-al-side-by-side.md).
-
-3. Publish the platform and application symbols files to the Dynamics NAV server instance:
-
-    Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and run the following command for each file:
-
-    ```
-        Publish-NAVApp -ServerInstance <ServerInstanceName> -Path <SymbolFilePath> -PackageType SymbolsOnly
-    ```
+    For more information about generation symbols, see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md).
 
 4. Publish all the extensions from the `\Extensions` folder of the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD):
 
-    In the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the following command for each extension.
+    From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the following command for each extension.
 
     ```
     Publish-NAVApp -ServerInstance <ServerInstanceName> -Path <ExtensionFileName> 
@@ -304,25 +304,54 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
     For more information about publishing extensions, see [How to: Publish and Install an Extension](developer/devenv-how-publish-and-install-an-extension-v2.md).
 
-5.  Upgrade the Extensions V1 that you uninstalled previously in Task 3 by reinstalling them.
+5.  Upgrade the Extensions V1 that you uninstalled previously in Task 3 by reinstalling them. From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the following commands: 
 
-    1. Get-NAVAppInfo -ServerInstance |Format-Table
-    2. If there is a newer version, choose that
-    3. Install-NAVApp
-    These are now upgraded to new versions
+    1. To get a list of the published extensions on the server instance, run this command:
+    
+        ```
+        Get-NAVAppInfo -ServerInstance <ServerInstanceName> |ft
+        ```
 
-6.  Upgrade V2 extentions that are currentFor .app extensions, run the following command to synchronize:
+    2. To determine which Extensions V1 to install, inspect the list that appears, and compare it with the list that you gathered in Task 3. Extensions V1 are indicated by `CSIDE` in the `Extension Type`column. If there is a newer version of an Extension V1, you should install the newer version.
+    3. For each Extension V1 that you want to install, run this command:
+    
+        ```  
+        Install-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N> –Tenant <TenantID>
+        ```
+    
+        Replace `<Name>` and `<N.N.N.N>` with the name and version of the Extension V1 as it appeared in the previous step. For `<TenantID>`, In single-tenant deployments, you either specify `default`or you omit the `–Tenant` parameter.
+        
+        This will upgrade the Extensions V1.
+6.  Upgrade Extensions V2 that are currently installed: 
 
-    1. Get-NAVAppInfo -ServerInstance -Tenant default |Format-Table 
-    2. for each:
+    1. To get a list of the installed Extensions V2, run this command:
+    
+        ```
+        Get-NAVAppInfo -ServerInstance <ServerInstanceName> |ft
+        ```
+        
+        Extensions V2 are indicated by `ModernDev` in the `Extension Type`column.
+     2. For each Extension V2 that you want to upgrade, run this commands:
 
-    ```
-    Sync-NAVApp -ServerInstance NAV -Name ExtensionName -Publisher -Version 
-    Start-NAVAppDataUpgrade 
+        ```
+        Sync-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N>
+        Start-NAVAppDataUpgrade -ServerInstance DynamicsNAV -Name ProswareStuff -Version <N.N.N.N>
+        ``` 
+        
+        This will upgrade the Extensions V2.
+7. For the Denmark (DK) local version of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you must install the following new Extensions V2 in order to get all the local functionality:
 
-    ```
-7. If DK, must install:
-8. install additional 
+    |Name|Publisher|Version|
+    |----|---------|-------|
+    |Payroll Data Import Definitions (DK)|    Microsoft| 1.0.19502.0|
+    |Payment and Reconciliation Formats (DK)| Microsoft| 1.0.19502.0|
+    |Tax File Formats (DK)| Microsoft| 1.0.19502.0 |
+
+    For each Extension V2, run this command:
+
+        ```
+        Install-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N> 
+        ```
 
 <!-- deprecated ##  <a name="UploadEncryptionKeys"></a> Task 16: Import Payment Services and Data Encryption Key \(Optional\)  
 
