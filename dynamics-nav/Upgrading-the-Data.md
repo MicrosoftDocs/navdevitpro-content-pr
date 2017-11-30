@@ -91,7 +91,7 @@ Open the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] that matches to old 
     Get-NAVAppInfo -ServerInstance <ServerInstanceName> -Tenant <TenantID> |ft
     ```
     
-    Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server_md](includes/nav_servermd.md)] instance that the database connects to. Replace `<TenantID>` with the tenant ID of the database. If you do not have a multitenant server instance, use `default`.
+    Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance that the database connects to. Replace `<TenantID>` with the tenant ID of the database. If you do not have a multitenant server instance, use `default`.
 
     In the table that appears, Extensions V1 are indicated by `CSIDE` in the `Extension Type`column.
 
@@ -290,7 +290,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
     Replace values for the `Database` and `ServerName` settings to suit.
 
-    For more information about generation symbols, see [Running C/SIDE and AL Side-by-Side](devenv-running-cside-and-al-side-by-side.md).
+    For more information about generation symbols, see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md).
 
 4. Publish all the extensions from the `\Extensions` folder of the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD):
 
