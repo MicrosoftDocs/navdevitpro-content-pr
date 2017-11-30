@@ -23,12 +23,13 @@ ms.prod: "dynamics-nav-2017"
 |Find AL reference information, including methods, triggers, properties and APIs|[AL Development Environment](developer/devenv-reference-overview.md)|
 |Find reference information, including C/AL functions, triggers, properties, [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] commands, and [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] windows|[Technical Reference](Technical-Reference.md)|  
 |Learn how to develop with the new development environment|[Getting Started](developer/devenv-get-started.md) |
+|Learn about [!INCLUDE[navnow](includes/navnow_md.md)] business functionality|(/dynamics-nav-app/madeira-business-functionality)|
 
 > [!NOTE]  
 > Don't know why you ended up here? Were you trying to find the [!INCLUDE[navnow](includes/navnow_md.md)] developer center on MSDN, perhaps? Or were you trying to find another location that has been deprecated? We apologize for the confusion, but across Microsoft we are deprecating some sites and moving content around. That means that the developer center is no longer available, and neither is the icon library that we published there. Due to redirection, you don't always end up where you expect, but this page will be the landing page for developer and IT-pro content for [!INCLUDE[navnow](includes/navnow_md.md)] going forward.  
 
 ## See Also
-[System Requirements for Microsoft Dynamics NAV 2017](System-Requirements-for-Microsoft-Dynamics-NAV.md)  
+[System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md)  
 [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)  
 [Accessibility](Accessibility.md)  
 [Terms of Use](terms/legal.md)  
