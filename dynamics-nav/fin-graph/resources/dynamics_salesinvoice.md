@@ -1,6 +1,6 @@
 ---
-title: salesInvoice resource type | Microsoft Docs
-description: A Sales Invoice.
+title: salesInvoices resource type | Microsoft Docs
+description: A sales invoice object in Dynamics 365 for Finance and Operations, Business edition. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,20 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# salesInvoice resource type
-Represents a sales invoice in Dynamics 365 for Financials. 
+# salesInvoices resource type
+Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
-| Method                                                       | Return Type |Description                  |
-|:-------------------------------------------------------------|:------------|:----------------------------|
-|[GET Sales Invoice](../api/dynamics_get_salesinvoice.md)      |Sales Invoice|Get a Sales Invoice object   |
-|[POST Sales Invoice](../api/dynamics_create_salesinvoice.md)  |Sales Invoice|Create a Sales Invoice object|
-|[PATCH Sales Invoice](../api/dynamics_update_salesinvoice.md) |Sales Invoice|Update a Sales Invoice object|
-|[DELETE Sales Invoice](../api/dynamics_delete_salesinvoice.md)|none         |Delete a Sales Invoice object|
+| Method                                                       | Return Type |Description                    |
+|:-------------------------------------------------------------|:------------|:------------------------------|
+|[GET salesInvoices](../api/dynamics_salesinvoice_get.md)      |salesInvoices|Gets a sales invoice object.   |
+|[POST salesInvoices](../api/dynamics_create_salesinvoice.md)  |salesInvoices|Creates a sales invoice object.|
+|[PATCH salesInvoices](../api/dynamics_salesinvoice_update.md) |salesInvoices|Updates a sales invoice object.|
+|[DELETE salesInvoices](../api/dynamics_salesinvoice_delete.md)|none         |Deletes a sales invoice object.|
 
 ## Properties
 | Property	            | Type	|Description                                                |
@@ -107,4 +110,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

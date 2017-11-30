@@ -1,7 +1,8 @@
 ---
-title: "System Tables"
+title: System Tables 
+description: The information in System Tables are stored in the database, closely related to DBMS, which uses to manage system security and permissions.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 6e9be5ec-3b61-4054-97fe-56cc24299c16
 caps.latest.revision: 12
 ---
-# System Tables
+# System Tables in Microsoft Dynamics NAV
 System tables are stored in the database just like other database tables. However, unlike other database tables, they are created automatically. The information in system tables is closely related to the Database Management System \(DBMS\), which uses the system tables to manage, for example, system security and permissions.  
   
  You can read, write, modify, and delete the information in system tables.  

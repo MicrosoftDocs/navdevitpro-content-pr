@@ -1,7 +1,8 @@
 ---
-title: "How to: Change the Printed Values of Boolean Variables"
+title: Change Printed Values of Boolean Variables
+description: This article describes how to change the printed value of a Boolean variable or field in an RDLC report layout from True or False to Yes or No.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: a4d7b9c6-17f6-4083-b0fe-3b238b4e2138
 caps.latest.revision: 16
 manager: edupont
 ---
-# How to: Change the Printed Values of Boolean Variables
+# How to Change the Printed Values of Boolean Variables
 In a client report definition \(RDLC\) report layout, when a Boolean value appears on a report, the value is printed as "True" or "False" in the target language.  
   
  In some cases, you may want to change the printed value of a Boolean variable or field in an RDLC report layout. You can change the value to "Yes" or "No" instead of "True" or "False."  

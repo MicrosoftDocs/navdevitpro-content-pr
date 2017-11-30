@@ -34,5 +34,5 @@ Type: Boolean
 **True** if the JsonValue contains the JSON value of UNDEFINED; otherwise, **false**.
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

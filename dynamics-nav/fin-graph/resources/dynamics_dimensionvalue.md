@@ -1,6 +1,6 @@
 ---
-title: dimensionValue resource type | Microsoft Docs
-description: A dimension value.
+title: dimensionValues resource type | Microsoft Docs
+description: A dimension value in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,14 +14,17 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# dimensionValue resource type
-Represents a dimension value in Dynamics 365 for Financials.
+# dimensionValues resource type
+Represents a dimension value in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method       | Return Type  |Description                   |
 |:-------------|:-------------|:-----------------------------|
-|[GET Dimension Value](../api/dynamics_get_dimensionvalue.md)|Dimension Value|Get Dimension Value object|
+|[GET dimensionValues](../api/dynamics_dimensionvalue_get.md)|dimensionValues|Gets a dimension value object.|
 
 
 ## Properties
@@ -49,4 +52,4 @@ Here is a JSON representation of the resource.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

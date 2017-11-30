@@ -1,6 +1,6 @@
 ---
 title: trialBalance resource type | Microsoft Docs
-description: A TrialBalance.
+description: A trial balance object in Dynamics 365 for Finance and Operations, Business edition. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,13 +15,16 @@ ms.author: solsen
 ---
 
 # trialBalance resource type
-Represents an trial balance in Dynamics 365 for Financials.
+Represents a trial balance in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET trialBalance](../api/dynamics_get_trialbalance.md)|TrialBalance|Get a TrialBalance object|
+|[GET trialBalance](../api/dynamics_trialbalance_get.md)|trialBalance|Gets a trial balance object.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -56,4 +59,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

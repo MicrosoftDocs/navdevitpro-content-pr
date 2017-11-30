@@ -40,5 +40,5 @@ Type: Boolean
 If you omit this optional return value and if the write does not execute successfully, then a run-time error occurs.
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

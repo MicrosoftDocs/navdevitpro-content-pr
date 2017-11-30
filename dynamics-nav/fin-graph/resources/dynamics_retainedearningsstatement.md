@@ -1,6 +1,6 @@
 ---
 title: retainedEarningsStatement resource type | Microsoft Docs
-description: A RetainedEarningsStatement.
+description: A retained earnings statement object in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,13 +15,16 @@ ms.author: solsen
 ---
 
 # retainedEarningsStatement resource type
-Represents an retained earnings statement in Dynamics 365 for Financials.
+Represents an retained earnings statement in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method       | Return Type  |Description          |
 |:-------------|:-------------|:--------------------|
-|[GET retainedEarningsStatement](../api/dynamics_get_retainedearningsstatement.md)|RetainedEarningsStatement|Get a RetainedEarningsStatement object|
+|[GET retainedEarningsStatement](../api/dynamics_retainedearningsstatement_get.md)|retainedEarningsStatement|Get a retained earnings statement object.|
 
 ## Properties
 | Property	| Type	|Description                                                           |
@@ -54,4 +57,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

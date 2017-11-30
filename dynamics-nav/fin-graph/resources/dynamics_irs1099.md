@@ -1,6 +1,6 @@
 ---
 title: irs1099Codes resource type | Microsoft Docs
-description: A IRS 1099 Code object.
+description: An IRS 1099 Code object in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,16 +15,19 @@ ms.author: solsen
 ---
 
 # irs1099Codes resource type
-Represents an irs1099Codes object in Dynamics 365 for Financials. IRS 1099 codes are used for reporting to the IRS.
+Represents an irs1099Codes object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. IRS 1099 codes are used for reporting to the IRS.
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method                                                 | Return Type|Description            |
 |:-------------------------------------------------------|:-----------|:----------------------|
-|[GET irs1099Codes](../api/dynamics_get_irs1099.md)      |irs1099Codes|Get a Payment Terms.   |
-|[POST irs1099Codes](../api/dynamics_create_irs1099.md)  |irs1099Codes|Create a Payment Terms.|
-|[PATCH irs1099Codes](../api/dynamics_update_irs1099.md) |irs1099Codes|Update a Payment Terms.|
-|[DELETE irs1099Codes](../api/dynamics_delete_irs1099.md)|none        |Delete a Payment Terms.|
+|[GET irs1099Codes](../api/dynamics_irs1099_get.md)      |irs1099Codes|Gets an IRS 1099 code. |
+|[POST irs1099Codes](../api/dynamics_create_irs1099.md)  |irs1099Codes|Creates an IRS 1099 code.|
+|[PATCH irs1099Codes](../api/dynamics_irs1099_update.md) |irs1099Codes|Update an IRS 1099 code.|
+|[DELETE irs1099Codes](../api/dynamics_irs1099_delete.md)|none        |Delete an IRS 1099 code.|
 
 ## Properties
 | Property	         | Type 	|Description                                      |
@@ -56,4 +59,4 @@ Here is a JSON representation of the irs1099Codes.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

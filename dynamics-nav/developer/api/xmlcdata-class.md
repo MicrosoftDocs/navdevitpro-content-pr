@@ -19,6 +19,9 @@ author: SusanneWindfeldPedersen
 # XmlCData Class
 Represents the CDATA section.
 
+> [!NOTE]
+> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+
 The following methods are available on the XmlCData class.  
   
 |Method name|Description|  
@@ -39,6 +42,6 @@ The following methods are available on the XmlCData class.
 |[XmlCData.SelectNodes(String, XmlNodeList)](xmlcdata-selectnodes-xpath-nodelist-method.md)|Selects a list of nodes matching the XPath expression.|  
 |[XmlCData.SelectNodes(String, XmlNamespaceManager, XmlNodeList)](xmlcdata-selectnodes-xpath-namespacemanager-nodelist-method.md)|Selects a list of nodes matching the XPath expression.|  
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)   

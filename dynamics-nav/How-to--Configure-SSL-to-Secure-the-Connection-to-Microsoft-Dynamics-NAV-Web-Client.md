@@ -1,7 +1,8 @@
 ---
-title: "How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client"
+title: Secure Web Client - SSL Configuration
+description: Learn how to secure Dynamics NAV data that is transmitted over the internet by enabling Secure Sockets Layer on the connection to Web Client.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,9 +10,9 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 8079f309-e5ca-4d23-a6b9-412892a565ad
 caps.latest.revision: 23
-manager: edupont
+author: jswymer
 ---
-# How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client
+# Configuring SSL to Secure the Connection to Dynamics NAV Web Client
 We recommend that you secure [!INCLUDE[navnow](includes/navnow_md.md)] data that is transmitted over the Internet by enabling Secure Sockets Layer \(SSL\) on the connection to [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
  *SSL* is a web protocol that encrypts data that is transmitted over a network to make the data and the network more secure and reliable. A website that is enabled with SSL uses Hypertext Transfer Protocol Secure \(HTTPS\) instead of Hypertext Transfer Protocol \(HTTP\) as a communication protocol. Enabling SSL on a website requires that an SSL certificate is installed on the web server. An SSL certificate is a small file that the web server uses to prove its identity and establish a trusted connection with the browser that is trying to access [!INCLUDE[nav_web](includes/nav_web_md.md)]. When a browser connects to the [!INCLUDE[nav_web](includes/nav_web_md.md)], the web server replies by sending its certificate to the browser. This certificate contains the web server's public encryption key and the name of the authority that granted the certificate. The browser verifies the certificate using the authority's public key.  
@@ -27,10 +28,10 @@ We recommend that you secure [!INCLUDE[navnow](includes/navnow_md.md)] data that
 > [!NOTE]  
 >  You can configure SSL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] when you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. For more information, see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).  
   
-##  <a name="Cert"></a> Obtaining an SSL Certificate  
+##  <a name="Cert"></a> Obtaining and Installing an SSL Certificate  
  In a production environment, you should obtain an SSL certificate from a certification authority. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third-party organization. In a test environment or development environment, you can create your own self-signed certificate.  
   
-#### To create a self-signed SSL certificate  
+### To create a self-signed SSL certificate  
   
 1.  To open Internet Information Services \(IIS\) Manager, search for **inetmgr**.  
   
@@ -68,7 +69,7 @@ We recommend that you secure [!INCLUDE[navnow](includes/navnow_md.md)] data that
 7.  Choose the **OK** button, and then choose the **Close** button.  
   
 ##  <a name="Redirect"></a> Redirecting HTTP to HTTPS \(Optional\)  
- To ensure that users always access the site that is secured with SSL, you can automatically redirect HTTP requests to HTTPS. This means that users do not have to explicitly include https in the URL in the browser. For example, the nonsecure URL of the [!INCLUDE[nav_web](includes/nav_web_md.md)] could be http://MyWebclient:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient and the secure URL could be https://MyWebclient:443/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient. If a user types http://MyWebclient:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient, the browser automatically redirects to **https://MyWebclient:443/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient**.  
+ To ensure that users always access the site that is secured with SSL, you can automatically redirect HTTP requests to HTTPS. This means that users do not have to explicitly include https in the URL in the browser. For example, the nonsecure URL of the [!INCLUDE[nav_web](includes/nav_web_md.md)] could be http://MyWebclient:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)] and the secure URL could be https://MyWebclient:443/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]. If a user types http://MyWebclient:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)], the browser automatically redirects to **https://MyWebclient:443/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]**.  
   
  There are different ways to redirect HTTP requests to HTTPS. The following procedure describes how to redirect HTTP requests to HTTPS by installing the Microsoft Application Request Routing for IIS 7 and modifying the web.config file for the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   

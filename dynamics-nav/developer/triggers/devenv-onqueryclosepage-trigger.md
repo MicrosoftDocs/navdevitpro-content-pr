@@ -6,9 +6,9 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: 820616a5-daa7-4819-8bf8-02f376ef806e
-caps.latest.revision: 14
+author: SusanneWindfeldPedersen
 manager: edupont
 ---
 

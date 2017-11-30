@@ -1,7 +1,8 @@
 ---
-title: "How to: Create a Page"
+title: Create a Page
+description: Pages are objects for viewing and editing data in the RoleTailored client. To create a page, consider page's business purpose and user tasks.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: a7d37590-e781-4c4d-8c71-beb3b93c44d7
 caps.latest.revision: 35
 manager: edupont
 ---
-# How to: Create a Page
+# Creating a Page in Microsoft Dynamics NAV
 Pages are objects for viewing and editing data in the [!INCLUDE[rtc](includes/rtc_md.md)]. When you create a new page, consider the page's business purpose, including which user uses it and what tasks the user must have. There are ten page types from which you can choose, including:  
   
 -   Role Center pages, which are home pages for a specific user role such as account manager or sales order processor.  

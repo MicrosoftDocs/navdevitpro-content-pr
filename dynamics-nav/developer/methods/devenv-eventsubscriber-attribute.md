@@ -6,8 +6,8 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
-author: jswymer
+ms.service: "dynamics365-financials"
+author: SusanneWindfeldPedersen
 ---
 # EventSubscriber Attribute
 Specifies the method to be integration type event publisher.

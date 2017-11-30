@@ -53,7 +53,13 @@ You can create new [!INCLUDE[navnow](includes/navnow_md.md)] databases in the [!
 
     -   [Altering Databases - Advanced Tab](Altering-Databases---Advanced-Tab.md)  
 
- Now that you have created a new database, you must configure your [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to access the database and then restart the service. For more information, see [How to: Configure a Microsoft Dynamics NAV Server Instance](How-to--Configure-a-Microsoft-Dynamics-NAV-Server-Instance.md). Next, you must synchronize the table schema. For more information, see [Synchronizing Table Schemas](Synchronizing-Table-Schemas.md).  
+ 8. Now that you have created a new database, you must configure your [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to access the database and then restart the service. For more information, see [How to: Configure a Microsoft Dynamics NAV Server Instance](How-to--Configure-a-Microsoft-Dynamics-NAV-Server-Instance.md).
+ 
+ 9. You must synchronize the schema for all tables of the new database.
+ 
+    From the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Sync. Schema For All Tables**, and then **With Validation**. For more information, see [Synchronizing Table Schemas](Synchronizing-Table-Schemas.md).
+
+    You can also use the Sync-NAVTenant cmdlet of the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
 
 > [!WARNING]  
 >  You can always enlarge a database later on, but you cannot make it smaller.  

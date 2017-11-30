@@ -26,5 +26,5 @@ Gets a collection of the attributes of this element.
 &emsp;Type: XmlAttributeCollection  
   
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

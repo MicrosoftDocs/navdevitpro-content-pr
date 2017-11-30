@@ -1,6 +1,6 @@
 ---
-title: journalLine resource type | Microsoft Docs
-description: A journal line.
+title: journalLines resource type | Microsoft Docs
+description: A journal line in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,20 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# JournalLine resource type
-Represents a line in a journal in Dynamics 365 for Financials.
+# journalLines resource type
+Represents a line in a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method                                                    | Return Type|Description         |
 |:----------------------------------------------------------|:-----------|:-------------------|
-|[GET journalLine](../api/dynamics_get_journalline.md)      |journalLines|Get Journal Line.   |
-|[POST journalLine](../api/dynamics_create_journalline.md)  |journalLines|Create Journal Line.|
-|[PATCH journalLine](../api/dynamics_update_journalline.md) |journalLines|Update Journal Line.|
-|[DELETE journalLine](../api/dynamics_delete_journalline.md)|none        |Delete Journal Line.|
+|[GET journalLines](../api/dynamics_journalline_get.md)      |journalLines|Gets a journal line.   |
+|[POST journalLines](../api/dynamics_create_journalline.md)  |journalLines|Creates a journal line.|
+|[PATCH journalLines](../api/dynamics_journalline_update.md) |journalLines|Updates a journal line.|
+|[DELETE journalLines](../api/dynamics_journalline_delete.md)|none        |Deletes a journal line.|
 
 ## Properties
 | Property	           | Type	                |Description                                                        |
@@ -73,4 +76,4 @@ Here is a JSON representation of the resource.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

@@ -1,6 +1,6 @@
 ---
-title: CREATE item method | Microsoft Docs
-description: Creates an item.
+title: Create items | Microsoft Docs
+description: Creates an item object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create item
+# Create items
 Create an item in Dynamics 365 for Financials for use on invoices, quotes, etc.
 
 ## HTTP request
 ```
-POST /financials/companies/({id})/items
+POST /financials/companies({id})/items
 ```
 
 ## Request headers
@@ -29,10 +29,10 @@ POST /financials/companies/({id})/items
 |Content-Type |application/json         |
 
 ## Request body
-In the request body, supply a JSON representation of items object.
+In the request body, supply a JSON representation of an **items** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and items object in the response body.
+If successful, this method returns ```201 Created``` response code and an **items** object in the response body.
 
 ## Example
 **Request**
@@ -40,7 +40,7 @@ If successful, this method returns ```201 Created``` response code and items obj
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/items
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/items
 Content-type: application/json
 
 {

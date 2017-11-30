@@ -1,6 +1,6 @@
 ---
-title: CREATE countries/regions method | Microsoft Docs
-description: Creates a countries/regions.
+title: Create countriesRegions | Microsoft Docs
+description: Creates a countries/regions object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,11 +15,11 @@ ms.author: solsen
 ---
 
 # Create countriesRegions
-Create a countriesRegions in Dynamics 365 for Financials.
+Create a countriesRegions object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/({id})/countriesRegions
+POST /financials/companies({id})/countriesRegions
 ```
 ## Request headers
 |Header|Value|
@@ -28,10 +28,10 @@ POST /financials/companies/({id})/countriesRegions
 |Content-Type  |application/json   |
 
 ## Request body
-In the request body, supply a JSON representation of countriesRegions object.
+In the request body, supply a JSON representation of **countriesRegions** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and countriesRegions object in the response body.
+If successful, this method returns ```201 Created``` response code and a **countriesRegions** object in the response body.
 
 ## Example
 
@@ -40,7 +40,7 @@ If successful, this method returns ```201 Created``` response code and countries
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/countriesRegions
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/countriesRegions
 Content-type: application/json
 
 {

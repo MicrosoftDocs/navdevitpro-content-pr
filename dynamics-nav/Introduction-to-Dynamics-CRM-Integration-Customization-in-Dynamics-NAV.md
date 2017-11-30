@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Dynamics CRM Integration Customization in Dynamics NAV"
+title: "Introduction to Dynamics 365 for Sales Integration Customization in Dynamics NAV"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 87918c6d-eb00-48bf-aaa8-b995ba718b5e
 caps.latest.revision: 4
 manager: edupont
 ---
-# Introduction to Dynamics CRM Integration Customization in Dynamics NAV
+# Introduction to Dynamics 365 for Sales Integration Customization in Dynamics NAV
 This topic provides an overview about customizing [!INCLUDE[crm](includes/crm_md.md)] integration in [!INCLUDE[navnow](includes/navnow_md.md)].  
 
 ## Integration Objects  
@@ -30,7 +30,7 @@ This topic provides an overview about customizing [!INCLUDE[crm](includes/crm_md
 |Codeunit **5340 CRM Integration Table Synch.**|Contains complex table mappings and synchronization rules.|  
 
 ## Getting Started  
- The following list outlines the typical tasks required to integrate a [!INCLUDE[crm](includes/crm_md.md)] entity and a [!INCLUDE[navnow](includes/navnow_md.md)] table \(record type\). For step-by-step procedures for each of these tasks, see [Walkthrough: Customizing Microsoft Dynamics CRM Integration in Dynamics NAV](Walkthrough--Customizing-Microsoft-Dynamics-CRM-Integration-in-Dynamics-NAV.md).  
+ The following list outlines the typical tasks required to integrate a [!INCLUDE[crm](includes/crm_md.md)] entity and a [!INCLUDE[navnow](includes/navnow_md.md)] table \(record type\). For step-by-step procedures for each of these tasks, see [Walkthrough: Customizing Microsoft Dynamics 365 for Sales Integration in Dynamics NAV](Walkthrough--Customizing-Microsoft-Dynamics-CRM-Integration-in-Dynamics-NAV.md).  
 
 1.  Create an integration table for the [!INCLUDE[crm](includes/crm_md.md)] entity.  
 
@@ -77,5 +77,5 @@ This topic provides an overview about customizing [!INCLUDE[crm](includes/crm_md
      Certain events are published and raised by codeunit **5335 CRM Integration Table Synch.**. You can add code that subscribes to these events and runs code when the events are raised. This enables you to add custom logic at different stages of the synchronization process.  
 
 ## See Also  
- [Customizing Dynamics CRM and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)   
+ [Customizing Dynamics 365 for Sales and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)   
  [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)

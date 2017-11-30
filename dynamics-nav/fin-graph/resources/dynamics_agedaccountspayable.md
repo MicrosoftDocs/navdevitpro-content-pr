@@ -1,6 +1,6 @@
 ---
 title: agedAccountsPayable resource type | Microsoft Docs
-description: An agedAccountsPayable.
+description: An aged accounts payable object in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,13 +15,16 @@ ms.author: solsen
 ---
 
 # agedAccountsPayable resource type
-Represents an agedAccountsPayable object in Dynamics 365 for Financials, which is showing the aging of a vendor account.
+Represents an agedAccountsPayable object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)], which is showing the aging of a vendor account.
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET agedAccountsPayable](../api/dynamics_get_agedaccountspayable.md)|agedAccountsPayable|Get agedAccountsPayable object|
+|[GET agedAccountsPayable](../api/dynamics_agedaccountspayable_get.md)|agedAccountsPayable|Get agedAccountsPayable object|
 
 ## Properties
 | Property	    | Type	   |Description                                 |
@@ -66,4 +69,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

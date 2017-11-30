@@ -1,6 +1,6 @@
 ---
 title: balanceSheet resource type | Microsoft Docs
-description: A balanceSheet.
+description: A balance sheet in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,13 +15,16 @@ ms.author: solsen
 ---
 
 # balanceSheet resource type
-Represents a balanceSheet object in Dynamics 365 for Financials. A balance sheet is a statement of the assets, liabilities, and capital of a business at a specific point in time.
+Represents a balanceSheet object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. A balance sheet is a statement of the assets, liabilities, and capital of a business at a specific point in time.
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:-------------|:-------------|:----------|
-|[GET balanceSheet](../api/dynamics_get_balancesheet.md)|balanceSheet|Get a balanceSheet object|
+|[GET balanceSheet](../api/dynamics_balancesheet_get.md)|balanceSheet|Get a balanceSheet object.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -54,4 +57,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

@@ -1,6 +1,6 @@
 ---
-title: vendor resource type | Microsoft Docs
-description: A vendor.
+title: vendors resource type | Microsoft Docs
+description: A vendor object in Dynamics 365 for Finance and Operations, Business edition. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,20 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# vendor resource type
-Represents a vendor in Dynamics 365 for Financials.
+# vendors resource type
+Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET vendor](../api/dynamics_get_vendor.md)|vendor|Get a vendor.|
-|[POST vendor](../api/dynamics_create_vendor.md)|vendor|Create a vendor.|
-|[PATCH vendor](../api/dynamics_update_vendor.md)|vendor|Update a vendor.|
-|[DELETE vendor](../api/dynamics_delete_vendor.md)|none|Delete a vendor.|
+|[GET vendors](../api/dynamics_vendor_get.md)|vendors|Gets a vendor object.|
+|[POST vendors](../api/dynamics_create_vendor.md)|vendors|Creates a vendor object.|
+|[PATCH vendors](../api/dynamics_vendor_update.md)|vendors|Updates a vendor object.|
+|[DELETE vendor](../api/dynamics_vendor_delete.md)|none|Deletes a vendor object.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -32,7 +35,7 @@ Represents a vendor in Dynamics 365 for Financials.
 |id|GUID|The unique ID of the vendor. Non-editable.|
 |number|string|The vendor number.|
 |displayName|string|The vendor's display name.|
-|address|[NAV.PostalAddress](../resources/dynamics_complex_types.md)|The vendor's address.|
+|address|[NAV.PostalAddress](../resources/dynamics_complextypes.md)|The vendor's address.|
 |phoneNumber|string|The vendor's telephone number.|
 |email|string|The vendor's email address.|
 |website|string|The vendor's website address.|
@@ -41,9 +44,9 @@ Represents a vendor in Dynamics 365 for Financials.
 |currencyCode|string|The default currency code for the vendor.|
 |irs1099Code|string|Specifies a 1099 code for the vendor. US only.|
 |paymentTermsId|GUID|The default payment terms ID for the vendor.|
-|paymentTerms|[NAV.PaymentTerms](../resources/dynamics_complex_types.md)|The default payment terms for the vendor.|
+|paymentTerms|[NAV.PaymentTerms](../resources/dynamics_complextypes.md)|The default payment terms for the vendor.|
 |paymentMethodId|GUID|The default payment method ID for the vendor.|
-|paymentMethod|[NAV.PaymentMethod](../resources/dynamics_complex_types.md)|The default payment method for the vendor.|
+|paymentMethod|[NAV.PaymentMethod](../resources/dynamics_complextypes.md)|The default payment method for the vendor.|
 |taxLiable|boolean|Specifies if the vendor is liable for tax.|
 |blocked|string|Specifies which transactions with the vendor that cannot be posted. Accepted values are blank, Payment or All|
 |balance|decimal|The vendor's balance. Read-Only.|
@@ -83,4 +86,4 @@ Here is a JSON representation of the vendor.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

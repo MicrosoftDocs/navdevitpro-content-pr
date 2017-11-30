@@ -1,6 +1,6 @@
 ---
-title: currency resource type | Microsoft Docs
-description: A Currency object.
+title: currencies resource type | Microsoft Docs
+description: A currency object in Dynamics 365 for Finance and Operations, Business edition 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,20 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# currency resource type
-Represents a currency used in Dynamics 365 for Financials.
+# currencies resource type
+Represents a currency used in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method                                                  |Return Type|Description       |
 |:--------------------------------------------------------|:----------|:-----------------|
-|[GET currencies](../api/dynamics_get_currencies.md)      |currencies |Get a Currency.   |
+|[GET currencies](../api/dynamics_currencies_get.md)      |currencies |Get a Currency.   |
 |[POST currencies](../api/dynamics_create_currencies.md)  |currencies |Create a Currency.|
-|[PATCH currencies](../api/dynamics_update_currencies.md) |currencies |Update a Currency.|
-|[DELETE currencies](../api/dynamics_delete_currencies.md)|none       |Delete a Currency.|
+|[PATCH currencies](../api/dynamics_currencies_update.md) |currencies |Update a Currency.|
+|[DELETE currencies](../api/dynamics_currencies_delete.md)|none       |Delete a Currency.|
 
 ## Properties
 | Property	            | Type	 |Description                                                   |
@@ -60,4 +63,4 @@ Here is a JSON representation of the currencies.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

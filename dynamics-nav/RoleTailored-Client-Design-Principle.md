@@ -1,7 +1,8 @@
 ---
-title: "RoleTailored Client Design Principle"
+title: RoleTailored Client Design Principle
+description: The RoleTailored Clients in Dynamics NAV have a customizable UI that supports the job functions of different work roles in your organization. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 4c5ba2f3-94fe-4635-801f-7d01b487f969
 caps.latest.revision: 10
 manager: edupont
 ---
-# RoleTailored Client Design Principle
+# RoleTailored Client Design in Dynamics NAV
 ## Design Principle  
 The RoleTailored clients have a customizable user interface that supports the job functions of different work roles in your organization. The RoleTailored clients are built around a navigation structure based on a user-centric design. The RoleTailored clients are comprised of a number of pages, similar to pages, which contain different information and tasks. The pages are combined in the RoleTailored clients and displayed in a series of windows  
 

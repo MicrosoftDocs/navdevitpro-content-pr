@@ -1,7 +1,8 @@
 ---
-title: "Microsoft Dynamics NAV Server"
+title: Microsoft Dynamics NAV Server
+description: Dynamics NAV Server is a .NET-based Windows Service application that manages communications between clients and databases in the SQL Server.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/17/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 169cdd88-5449-42e8-8c79-90af2f6ca484
 caps.latest.revision: 25
 manager: edupont
 ---
-# Microsoft Dynamics NAV Server
+# Working with Microsoft Dynamics NAV Server
 [!INCLUDE[nav_server](includes/nav_server_md.md)] is a .NET-based Windows Service application that manages communications between [!INCLUDE[navnow](includes/navnow_md.md)] clients and [!INCLUDE[navnow](includes/navnow_md.md)] databases in SQL Server. It uses the Windows Communication Framework \(WCF\) as its communication protocol.  
 
  [!INCLUDE[nav_server](includes/nav_server_md.md)] uses an ADO.NET interface, which is a managed data access layer that supports SQL Server connection pooling. This simplifies deployment of the [!INCLUDE[navnow](includes/navnow_md.md)] three-tier architecture for deployments where the three tiers are installed on separate computers. Specifically, administrators are not required to manually create service principal names \(SPNs\) or to set up delegation when the client, [!INCLUDE[nav_server](includes/nav_server_md.md)], and SQL Server are on separate computers. For more details, see [Data Access](Data-Access.md).  

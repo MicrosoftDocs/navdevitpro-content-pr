@@ -1,7 +1,8 @@
 ---
-title: "How to: Create a Windows Client Control Add-in"
+title: Windows Client Control Add-ins
+description: A control add-in is defined as a class in a Visual C\# solution. After developing a control add-in, you build and sign an assembly before you install.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: fdc41aa6-5780-4cd7-b22c-994cfd795a93
 caps.latest.revision: 40
 manager: edupont
 ---
-# How to: Create a Windows Client Control Add-in
+# Creating a Windows Client Control Add-in
 You develop [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-ins using the API that is defined in the Microsoft.Dynamics.Framework.UI.Extensibility assembly. A control add-in is defined as a class in a Visual C\# solution. You can include more than one control add-in a single solution. When you have finished developing a control add-in, you build and sign an assembly before you install it on the computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
 
  To create a control add-in, you need the following prerequisites:  

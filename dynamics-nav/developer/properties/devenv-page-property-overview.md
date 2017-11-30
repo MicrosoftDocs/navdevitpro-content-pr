@@ -3,7 +3,7 @@ title: "Page and Page Extension Properties Overview"
 description: "Description of the available properties on page extensions."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 06/16/2017
+ms.date: 11/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -45,6 +45,11 @@ The following properties apply to the page object.
 |[PromotedActionCategoriesML Property](devenv-promotedactioncategoriesml-property.md)|X|X|
 |[DelayedInsert Property](devenv-delayedinsert-property.md)|X||
 |[RefreshOnActivate Property](devenv-refreshonactivate-property.md)|X||
+|[EntityName Property](devenv-entityname-property.md)|X||
+|[EntitySetName Property](devenv-entitysetname-property.md)|X||
+|[UsageCategory Property](devenv-usagecategory-property.md)|X||
+|[ApplicationArea Property](devenv-applicationarea-property.md)|X||
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
   
   <!-- |[ODateKeyFields Property]()|X||-->
 
@@ -123,7 +128,7 @@ The following properties apply to Field controls on a page.
 |[Style Property](devenv-style-property.md)|X|X|
 |[StyleExpr Property](devenv-styleexpr-property.md)|X|X|
 |[Image Property](devenv-image-property.md)|X||
-|[ODataEDMType Property]()]|X||
+|[ODataEDMType Property]()|X||
 
 ## Part control properties
 The following properties apply to Part controls on a page.
@@ -143,6 +148,8 @@ The following properties apply to Part controls on a page.
 |Provider Property|X||
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[Description Property](devenv-description-property.md)|X||
+|[EntityName Property](devenv-entityname-property.md)|X||
+|[EntitySetName Property](devenv-entitysetname-property.md)|X||
 
 
 ## ActionGroup properties

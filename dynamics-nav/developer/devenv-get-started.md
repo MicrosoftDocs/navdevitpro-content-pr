@@ -1,5 +1,5 @@
 ---
-title: "Getting Started"
+title: "Getting Started with AL"
 description: "Description of how to get started with the new development environment"
 author: SusanneWindfeldPedersen
 ms.custom: na
@@ -16,7 +16,7 @@ caps.latest.revision: 18
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-# Getting Started
+# Getting Started with AL
 To get started writing extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] you will need a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenant, Visual Studio Code, and the AL Language extension. Visual Studio Code is a cross platform editor that you will use for coding and debugging.
 
 ## Steps to set up a sandbox environment and Visual Studio Code
@@ -51,12 +51,12 @@ Interested in an on-premise version? It's just as easy. Just sign up by followin
 ## JSON file settings
 There are two JSON files in the project; the `app.json` file and the `launch.json` file. The files are automatically generated for your project. For more information, see [JSON files](devenv-json-files.md).
 
-## The platform symbol file
-The platform symbol file contains all of the base app objects that your extension builds on. If the symbol file is not present, you will be prompted to download it. For more information about the platform symbol file, see [Symbols](devenv-symbols.md).
+## The symbol file
+The symbol file contains metadata of the application. This is what your extension is being built on, and therefore the symbol file must be present. If it is not present, you will be prompted to download it. For more information about the platform symbol file, see [Symbols](devenv-symbols.md).
 
 ## Installing and publishing an extension
 To make your extension available to users, the package must be published to a specific Microsoft Dynamics NAV Server instance. The extension can be installed for one or more tenants. For more information about how to install and publish an extension, see [How to: Publish and Install an Extension V2](devenv-how-publish-and-install-an-extension-v2.md). 
 
 ## See Also
 [Differences in the Dynamics NAV Development Environments](devenv-differences.md)  
-[Developer Reference](devenv-reference-overview.md)
+[AL Development Environment](devenv-reference-overview.md)

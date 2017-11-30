@@ -1,7 +1,8 @@
 ---
-title: "Microsoft Dynamics NAV Help Server"
+title: Microsoft Dynamics NAV Help Server 
+description: The Help functionality deploys to a Dynamics NAV Help Server, which is a website that installs on the specified server.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/18/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 168fade9-6f28-4e01-ae0e-20f4a8b546cd
 caps.latest.revision: 5
 ---
-# Microsoft Dynamics NAV Help Server
+# Working with Dynamics NAV Help Server 
 [!INCLUDE[navnow](includes/navnow_md.md)] Help deploys to a [!INCLUDE[navnow](includes/navnow_md.md)] Help Server, which is a website that installs on the specified server. The website includes Search and other navigation, and it provides context-sensitive Help for [!INCLUDE[nav_web](includes/nav_web_md.md)] in addition to [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Depending on your deployment architecture, you can choose to set up a dedicated Help Server that all clients connect to, or you can choose to deploy customer-specific Help Servers.  
 
 ## Accessing [!INCLUDE[navnow](includes/navnow_md.md)] Help  

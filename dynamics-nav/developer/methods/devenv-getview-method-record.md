@@ -10,7 +10,7 @@ ms.service: dynamics365-financials
 ms.assetid: a124767f-1311-4fe8-9312-754f7dc95719
 caps.latest.revision: 16
 manager: edupont
-author: jswymer
+author: SusanneWindfeldPedersen
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]

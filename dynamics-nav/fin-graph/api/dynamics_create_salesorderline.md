@@ -1,6 +1,6 @@
 ---
-title: CREATE salesOrderLine method | Microsoft Docs
-description: Creates a sales order line.
+title: Create salesOrderLines | Microsoft Docs
+description: Creates a sales order line object in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create salesOrderLine
-Create a salesOrderLine in Dynamics 365 for Financials.
+# Create salesOrderLines
+Create a sales order line object in Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-POST /financials/companies/({id})/salesOrders/({id})/salesOrderLines
+POST /financials/companies({id})/salesOrders({id})/salesOrderLines
 ```
 
 ## Request headers
@@ -31,10 +31,10 @@ POST /financials/companies/({id})/salesOrders/({id})/salesOrderLines
 |Content-Type   |application/json    |
 
 ## Request body
-In the request body, supply a JSON representation of a salesOrder object.
+In the request body, supply a JSON representation of a **salesOrderLines** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a salesOrder object in the response body.
+If successful, this method returns ```201 Created``` response code and a **salesOrderLines** object in the response body.
 
 ## Example
 
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a salesOr
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/salesOrders/({id})/salesOrderLines
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesOrders({id})/salesOrderLines
 Content-type: application/json
 
 {

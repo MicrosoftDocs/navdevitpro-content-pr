@@ -1,7 +1,8 @@
 ---
-title: "Automation Data Type"
+title: Automation Data Type
+description: This article explains how to use the automation data type to reference an automation server in Microsoft Dynamics NAV and learn the limitations of this type.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/26/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 3d37ff31-161a-4181-898f-fbb2b56234b9
 caps.latest.revision: 22
 manager: edupont
 ---
-# Automation Data Type
+# Automation Data Type in Microsoft Dynamics NAV
 Use the Automation data type to reference an automation server.  
   
 ### To use an automation server in [!INCLUDE[navnow](includes/navnow_md.md)]  

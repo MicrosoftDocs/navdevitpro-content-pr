@@ -1,6 +1,6 @@
 ---
-title: shipmentMethod resource type | Microsoft Docs
-description: A Shipment Method.
+title: shipmentMethods resource type | Microsoft Docs
+description: A shipment method in Dynamics 365 for Finance and Operations, Business edition. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,20 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# shipmentMethod resource type
-Represents a method of shipment in Dynamics 365 for Financials, such as UPS, Fedex, and DHL.
+# shipmentMethods resource type
+Represents a method of shipment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)], such as UPS, Fedex, and DHL.
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET shipmentMethod](../api/dynamics_get_shipmentmethods.md)|shipmentMethod|Get a Shipment Method.|
-|[POST shipmentMethod](../api/dynamics_create_shipmentmethods.md)|shipmentMethod|Create a Shipment Method.|
-|[PATCH shipmentMethod](../api/dynamics_update_shipmentmethods.md)|shipmentMethod|Update a Shipment Method.|
-|[DELETE shipmentMethod](../api/dynamics_delete_shipmentmethods.md)|none|Delete a Shipment Method.|
+|[GET shipmentMethods](../api/dynamics_shipmentmethods_get.md)|shipmentMethods|Gets a shipment method.|
+|[POST shipmentMethods](../api/dynamics_create_shipmentmethods.md)|shipmentMethods|Creates a shipment method.|
+|[PATCH shipmentMethods](../api/dynamics_shipmentmethods_update.md)|shipmentMethods|Updates a shipment method.|
+|[DELETE shipmentMethods](../api/dynamics_shipmentmethods_delete.md)|none|Deletes a shipment method.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -53,4 +56,4 @@ Here is a JSON representation of the shipmentMethod.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

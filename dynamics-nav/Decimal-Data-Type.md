@@ -1,7 +1,8 @@
 ---
-title: "Decimal Data Type"
+title: Decimal Data Type
+description: In Dynamics NAV, the Decimal data type denote decimal numbers ranging from -999,999,999,999,999.99 to +999,999,999,999,999.99.  
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/26/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 1dbd3bd0-9cd2-4e2a-a959-3942fcca60ee
 caps.latest.revision: 13
 manager: edupont
 ---
-# Decimal Data Type
+# Decimal Data Type in Dynamics NAV
 This simple data type denotes decimal numbers ranging from -999,999,999,999,999.99 to +999,999,999,999,999.99.  
 
 ## Example  

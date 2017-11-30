@@ -1,7 +1,8 @@
 ---
-title: "How to: Create a FlowField"
+title: Create a FlowField
+description: FlowFields display the result of the calculation described in the CalcFormula property. Learn how to set up a FlowField in Microsoft Dynamics NAV.
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 11/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 2f6560a1-33a5-4fee-beac-fa6a3100c85a
 caps.latest.revision: 11
 manager: edupont
 ---
-# How to: Create a FlowField
+# How to: Create a FlowField in Dynamics NAV
 The following procedure describes how to set up a FlowField.  
 
 ### To create a FlowField  

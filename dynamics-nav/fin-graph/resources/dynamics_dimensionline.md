@@ -1,6 +1,6 @@
 ---
-title: dimensionLine resource type | Microsoft Docs
-description: A dimension line.
+title: dimensionLines resource type | Microsoft Docs
+description: A dimension line in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,25 +14,28 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# cimensionLine resource type
-Represents a dimension line in Dynamics 365 for Financials.
+# dimensionLines resource type
+Represents a dimension line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method                                                         | Return Type  |Description                 |
 |:---------------------------------------------------------------|:-------------|:---------------------------|
-|[GET Dimension Line](../api/dynamics_get_dimensionline.md)      |Dimension Line|Get Dimension Line object   |
-|[POST Dimension Line](../api/dynamics_create_dimensionline.md)  |Dimension Line|Create Dimension Line object|
-|[PATCH Dimension Line](../api/dynamics_update_dimensionline.md) |Dimension Line|Update Dimension Line object|
-|[DELETE Dimension Line](../api/dynamics_delete_dimensionline.md)|none          |Delete Dimension Line object|
+|[GET dimensionLines](../api/dynamics_dimensionline_get.md)      |dimensionLines|Gets a dimension line object   |
+|[POST dimensionLines](../api/dynamics_create_dimensionline.md)  |dimensionLines|Creates a dimension line object|
+|[PATCH dimensionLines](../api/dynamics_dimensionline_update.md) |dimensionLines|Updates a dimension line object|
+|[DELETE dimensionLines](../api/dynamics_dimensionline_delete.md)|none          |Deletes a dimension line object|
 
 ## Properties
 | Property	     | Type	                 |Description                                               |
 |:---------------|:----------------------|:---------------------------------------------------------|
 |parentId        |GUID                   |The ID of the parent entity. Non editable.                |
 |id              |GUID                   |The unique ID of the dimension line. Non editable.        |
-|code            |string, maximum size 20| The code of the dimension.                               |
-|displayName     |string, maximum size 30| The display name of the dimension. Read-Only.            |
+|code            |string, maximum size 20|The code of the dimension.                                |
+|displayName     |string, maximum size 30|The display name of the dimension. Read-Only.             |
 |valueId         |GUID                   |The unique ID of the value of the dimension.              |
 |valueCode       |string, maximum size 20|The code of the value of the dimension.                   |
 |valueDisplayName|string, maximum size 50|The display name of the value of the dimension. Read-Only.|
@@ -65,4 +68,4 @@ Here is a JSON representation of the resource.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

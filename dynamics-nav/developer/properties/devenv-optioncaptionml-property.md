@@ -16,6 +16,9 @@ author: SusanneWindfeldPedersen
 
 # OptionCaptionML Property
 Sets the strings that are displayed to the user for selecting an option. OptionCaptionML is only used if the field or variable has an [OptionString Property](devenv-optionstring-property.md). The OptionString property contains the set of values that are acceptable choices, and it is one of these values that is saved in the database or used in AL code.  
+
+> [!NOTE] 
+> The support for using the ML properties, such as **CaptionML** and **TooltipML**, is being deprecated, so it is recommended to refactor your extension to use the corresponding **Caption** or **Tooltip** property, which is being picked up in the .xliff file. For more information, see [Working with Translation Files](../devenv-work-with-translation-files.md).
   
 ## Applies To  
   

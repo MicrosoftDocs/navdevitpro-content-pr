@@ -19,6 +19,9 @@ author: SusanneWindfeldPedersen
 # XmlText Class
 Represents the text content of an element or attribute.
 
+> [!NOTE]
+> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+
 The following methods are available on the XmlText class.  
   
 |Method name|Description|  
@@ -39,6 +42,6 @@ The following methods are available on the XmlText class.
 |[XmlText.SelectNodes(String, XmlNodeList)](xmltext-selectnodes-xpath-nodelist-method.md)|Selects a list of nodes matching the XPath expression.|  
 |[XmlText.SelectNodes(String, XmlNamespaceManager, XmlNodeList)](xmltext-selectnodes-xpath-namespacemanager-nodelist-method.md)|Selects a list of nodes matching the XPath expression.|  
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
