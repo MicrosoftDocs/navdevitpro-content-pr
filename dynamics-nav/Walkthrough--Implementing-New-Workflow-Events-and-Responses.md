@@ -463,6 +463,6 @@ If a business scenario requires a workflow event or a workflow response that is 
  You have now enabled a new workflow scenario by implementing the required workflow event and response in the application code. The workflow administrator can now select the workflow event and workflow response from the **Workflow** page to define new or edit existing workflows. For more information, see [How to: Create Workflows](https://docs.microsoft.com/en-us/dynamics-nav-app/across-how-to-create-workflows) in the application help.
 
 ## See Also  
- [Workflow](https://docs.microsoft.com/en-us/dynamics-nav-app/across-workflow)   
+ [Workflow](/dynamics365/financials/across-workflow)   
  [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
  [Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV](index.md)
