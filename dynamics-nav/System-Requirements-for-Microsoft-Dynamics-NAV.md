@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ---
-# System Requirements for Microsoft Dynamics NAV [!INCLUDE[nav2018_md](includes/nav2018_md.md)]
+# System Requirements for [!INCLUDE[nav2018_md](includes/nav2018_md.md)]
 
 **Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md).
 
