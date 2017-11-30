@@ -32,12 +32,6 @@
 ## [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)
 ## [Notifications](notifications-developing.md)
 ## [Extending Microsoft Dynamics NAV](Extending-Microsoft-Dynamics-NAV.md)
-### [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)
-#### [Microsoft Dynamics NAV Extension Packages](Microsoft-Dynamics-NAV-Extention-Packages.md)
-#### [How to: Develop an Extension](How-to--Develop-an-Extension.md)
-#### [How to: Create an Extension Package](How-to--Create-an-Extension-Package.md)
-#### [How to: Publish and Install an Extension](How-to--Publish-and-Install-an-Extension.md)
-#### [Extension Packages Capability Support Matrix](Extension-Packages-Capability-Support-Matrix.md)
 ## [Developing for the Microsoft Dynamics NAV Web Client](Developing-for-the-Microsoft-Dynamics-NAV-Web-Client.md)
 ## [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)
 ## [Customizing Dynamics 365 for Sales and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)
@@ -45,7 +39,8 @@
 ## [Testing the Application](Testing-the-Application.md)
 ## [Debugging](Debugging.md)
 ## [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)
-<!-- new -->
+
+<!-- AL -->
 # [Development in AL](developer/devenv-dev-overview.md)
 ## [Getting Started with AL](developer/devenv-get-started.md)
 ## [Building Your First Sample Extension With Extension Objects, Install Code, and Upgrade Code](developer/devenv-extension-example.md)
@@ -172,16 +167,8 @@
 ### [User Scenario Documentation](compliance/apptest-userscenario.md)
 ### [Restrictions on UI for Objects Exposed as Web Services](compliance/apptest-webservices.md)
 ### [Replacing OnBeforeCompanyOpen and OnAfterCompanyOpen](compliance/apptest-onbeforecompanyopen.md)
-<!-- old
-# [Developing Extensions Using the New Development Environment - Preview](devenv-dev-overview.md)
-## [Getting Started](devenv-get-started.md)
-## [Using the Dynamics NAV In-Client Designer](devenv-inclient-designer.md)
-## [Differences in the Dynamics NAV Development Environments](devenv-differences.md)
-## [Keyboard Shortcuts for the New Development Environment](devenv-keyboard-shortcuts.md)
-## [The Txt2Al Conversion Tool](devenv-txt2al-tool.md)
-## [Developer Reference](devenv-reference-overview.md)
--->
-<!-- end -->
+<!-- end AL -->
+
 # [Integrating Dynamics NAV and Microsoft Office](Integrating Dynamics NAV and Office.md)
 # [Administration](Administration.md)
 ## [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)
@@ -292,7 +279,7 @@
 ## [Upgrading the Application Code](Upgrading-the-Application-Code.md)
 ## [Upgrading the Data](Upgrading-the-Data.md)
 ## [Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md)
-# [Windows PowerShell Cmdlets for Microsoft Dynamics NAV](Windows-PowerShell-Cmdlets-for-Microsoft-Dynamics-NAV.md)
+# [Windows PowerShell Cmdlets for Microsoft Dynamics NAV](https://docs.microsoft.com/en-us/powershell/dynamics-nav/overview)
 ## [Administration Cmdlets for Dynamics NAV](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management)
 ## [Administration Cmdlets for Dynamics NAV Extensions](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management)
 ## [Development Cmdlets for Dynamics NAV](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.model.tools)

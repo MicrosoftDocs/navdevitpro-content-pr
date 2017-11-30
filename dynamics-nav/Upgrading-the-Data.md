@@ -83,6 +83,9 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 
  For more information, see [Create a Full Database Backup \(SQL Server\)](http://msdn.microsoft.com/en-us/library/ms187510.aspx).  
 
+## Task 2b Uninstall Extensions
+Before uninstalling make anote of what you have installed. 
+Note V1 ext only.
 ##  <a name="UploadLicense"></a> Task 3: Upload the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] license to the old database  
 By using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] that matches the old database, upload the [!INCLUDE[nav2017](includes/nav2017.md)] license to the database.
 
@@ -134,7 +137,7 @@ In Object Designer, choose **Tools**, choose **Compile**, set the **Synchronize 
 -->
 
 ##  <a name="ImportAppObj"></a> Task 8: Import the application objects to the converted database  
-Using the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], import all the old application objects that you want in the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] database. This includes the application objects FOB file (from the application code upgrade) and the upgrade toolkit objects FOB file.
+Using the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], import all the merged application objects that you want in the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] database. This includes the application objects FOB file (from the application code upgrade) and the upgrade toolkit objects FOB file.
 
 1. If the upgrade toolkit objects are stored in a separate FOB file, import the application objects FOB file first, and then import the upgrade toolkit FOB file.
 
@@ -243,6 +246,8 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 [!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes a number of extensions that you must publish and install as part of the upgrade process. To enable these extensions, it is important that you follow the steps below.
 
 1. Download the [platform symbols](https://go.microsoft.com/fwlink/?linkid=864045).
+
+    Make a note of the location where you store the file.
 2. Make sure that **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup) is set on the Dynamics NAV server instance.
 
     For more infromation, see [Configuring Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).
@@ -254,6 +259,12 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
     For more information, see [Running C/SIDE and AL Side-by-Side](devenv-running-cside-and-al-side-by-side.md).
 
+3. Publish the symbols files. run for each file.
+
+    ```
+        Publish-NAVApp -ServerInstance "<ServerInstanceName> -Path <ExtensionFileName> -SymbolsOnly
+    ```
+
 4. Publish all the extensions from the `\Extensions` folder of the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD) by running the following command for each extension.
 
     ```
@@ -261,14 +272,28 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
     ```
     Depending on the extension, the file type will have either a `.navx` or `.app`. 
 
-    For more information about publishing extensions, see [How to: Publish and Install an Extension V2](developer/devenv-how-publish-and-install-an-extension-v2.md).
+    For more information about publishing extensions, see [How to: Publish and Install an Extension](developer/devenv-how-publish-and-install-an-extension-v2.md).
 
-5.  For .app extensions, run the following command:
+5.  Reinstall the V1 extensions that you uninstalled previously.
+
+        1. Get-NAVAppInfo -ServerInstance |Format-Table
+        2. If there is a newer version, choose that
+        3. Install-NAVApp
+    These are now upgraded to new versions
+
+
+6.  Upgrade V2 extentions that are currentFor .app extensions, run the following command to synchronize:
+
+    1. Get-NAVAppInfo -ServerInstance -Tenant default |Format-Table 
+    2. for each:
 
     ```
-    Sync-NAVApp -ServerInstance NAV -Name ExtensionName -Path “C:\Users\vmadmin\Desktop\ExtensionName.app”
-    ```
+    Sync-NAVApp -ServerInstance NAV -Name ExtensionName -Publisher -Version 
+    Start-NAVAppDataUpgrade 
 
+    ```
+7. If DK, must install:
+8. install additional 
 
 <!-- deprecated ##  <a name="UploadEncryptionKeys"></a> Task 16: Import Payment Services and Data Encryption Key \(Optional\)  
 
