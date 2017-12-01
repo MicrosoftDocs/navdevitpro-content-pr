@@ -46,28 +46,8 @@ Visual Studio Code and the AL Language extension lets you do the following tasks
 
 For more information, see [Visual Studio Code Docs](https://code.visualstudio.com/docs).
 
-<<<<<<< HEAD
-## Object-based extension model
-The extension model is object-based; you create new objects, and extend existing objects depending on what you want your extension to do. The following objects are available with the AL Language extension for Visual Studio Code:
-
-- [Table Object](devenv-table-object.md)
-- [Table Extension Object](devenv-table-ext-object.md)
-- [Page Object](devenv-page-object.md)
-- [Page Extension Object](devenv-page-ext-object.md)
-- [Codeunit Object](devenv-codeunit-object.md)
-- [Report Object](devenv-report-object.md)
-- [XmlPort Object](devenv-xmlport-object.md)  
-- [Query Object](devenv-query-object.md)  
-- [Control Add-In Object](devenv-control-addin-object.md)  
-
-
-For more information about the object types, see [Development Environment](devenv-reference-overview.md).
-
-For information about AL language changes, see [Differences in the Development Environments](devenv-differences.md).
-=======
 > [!TIP]
 > If you have previous experience working with the C/SIDE development environment and need an overview of some of the changes between the two development environments, see [Differences in the Development Environments](devenv-differences.md).
->>>>>>> refs/remotes/origin/master
 
 ## Designer
 The Designer works in the client itself allowing design of pages using a drag-and-drop interface. The Designer allows building extensions in the client itself by rearranging fields, adding fields, and previewing the page design. For more information, see [Using Designer](devenv-inclient-designer.md).
@@ -77,9 +57,6 @@ Extensions are compiled as .app package files. The .app package file can be depl
 
 ## Submitting your app
 When all development and testing is done, you can submit your extension package to AppSource. Before you submit the extension package, we encourage you to read the checklist to help facilitating the validation. For more information, see [Checklist for Submitting Your App](devenv-checklist-submission.md).
-
-## Submitting your app
-When development of your app is done, you must check that your app meets the requirements before you submit the app for validation and eventually submission to AppSource. For more information, see [Checklist for Submitting Your App](devenv-checklist-submission.md).
 
 ## See Also
 [Getting Started with AL](devenv-get-started.md)  
