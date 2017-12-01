@@ -275,6 +275,8 @@
 ## [Development Environment Commands](Development-Environment-Commands.md)
 # [Upgrading to Microsoft Dynamics NAV 2018](Upgrading-to-Microsoft-Dynamics-NAV.md)
 ## [Upgrade Considerations](Upgrade-Considerations.md)
+### [Deprecated Fields, and Fields Marked as Obsolete](deprecated-fields.md)
+### [Deprecated Features in the UK Version](deprecated-features-uk.md)
 ## [Converting a Database](Converting-a-Database.md)
 ## [Upgrading the Application Code](Upgrading-the-Application-Code.md)
 ## [Upgrading the Data](Upgrading-the-Data.md)
