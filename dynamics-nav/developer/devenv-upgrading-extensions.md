@@ -14,7 +14,7 @@ ms.prod: "dynamics-nav-2017"
 This article provides information about how to make a newer version of extension upgrade available on tenants. The first phase of this process is to develop the extension for upgrading, which means adding code to upgrade data from the previous extension version. Once you have the upgrade code in place, you can publish and synchronize the new version, and the run the data upgrade.
 
 > [!Note]
-> An *upgrade* is defined as enabling an extension that has a greater version number, as defined in the app.json file, than the current installed extension version. 
+> An *upgrade* is defined as enabling an extension that has a greater version number, as defined in the app.json file, than the current installed extension version.
 
 ## Developing an extension for upgrading
 When developing a new extension version, you must consider the data from the previous version, and any modifications that must be applied to the data to make it compatible with the current version. For example, it could be that the new version adds a new field that needs default values set for existing records or the new version adds new tables that must be linked to existing records. To address this type of data handling, you must write upgrade code for the extension version.
@@ -32,7 +32,7 @@ The following tables describes the upgrade triggers and lists them in the order 
 |Trigger |Description | Fails the upgrade on error |
 |--------|------------|------------------------|
 |OnCheckPreconditionsPerCompany() and OnCheckPreconditionsPerDatabase()| Used to check that certain requirements are met in order to run the upgrade.|Yes|
-|OnUpgradePerCompany() and OnUpgradePerDatabase()|Used to perform the actual upgrade.|Yes| 
+|OnUpgradePerCompany() and OnUpgradePerDatabase()|Used to perform the actual upgrade.|Yes|
 |OnValidateUpgradePerCompany() and OnValidateUpgradePerDatabase()|Used to check that the upgrade was successful.|Yes|
 
 `PerCompany` triggers are run once for each company in the database, where each trigger is executed within its own system session for the company.
@@ -40,7 +40,7 @@ The following tables describes the upgrade triggers and lists them in the order 
 `PerDatabase` triggers are run once in the entire upgrade process, in a single system session that does not open any company.
 
 > [!Note]
-> These triggers are also available in upgrade codeunits for the base application, not just for extensions. 
+> These triggers are also available in upgrade codeunits for the base application, not just for extensions.
 
 ### Upgrade codeunit syntax
 The following code illustrates the basic syntax and structure of an upgrade codeunit:
@@ -49,17 +49,17 @@ The following code illustrates the basic syntax and structure of an upgrade code
 codeunit [ID] [NAME]
 {
 	Subtype=Upgrade;
-	
+
 	trigger OnCheckPreconditionsPerCompany()
 	begin
 		// Code to make sure company is OK to upgrade.
 	end;
-	
+
 	trigger OnUpgradePerCompany()
 	begin
 		// Code to perform company related table upgrade tasks
 	end;
-	
+
 	trigger OnValidateUpgradePerCompany()
 	begin
 		// Code to make sure that upgrade was successful for each company
@@ -70,23 +70,23 @@ codeunit [ID] [NAME]
 > Use the shortcuts `tcodunit` and `ttrigger` to create the basic structure for the codeunit and trigger.
 
 ### Get information about an extension
-Each extension version has a set of properties that contain information about the extension, including: AppVersion, DataVersion, Dependencies, Id, Name, and Publisher. This information can be useful when upgrading. For example, one of the more important properties is the `DataVersion` property, which tells you what version of data you are dealing with. These properties are encapsulated in a `ModuleInfo` data type. You can access these properties by through the `NAVApp.GetCurrentModuleInfo()` and `NAVAPP.GetModuleInfo()` methods.
+Each extension version has a set of properties that contain information about the extension, including: AppVersion, DataVersion, Dependencies, Id, Name, and Publisher. This information can be useful when upgrading. For example, one of the more important properties is the `DataVersion` property, which tells you what version of data you are dealing with. These properties are encapsulated in a `ModuleInfo` data type. You can access these properties through the `NAVApp.GetCurrentModuleInfo()` and `NAVAPP.GetModuleInfo()` methods.
 
-### Upgrade codeunit example 
+### Upgrade codeunit example
 This example uses the `OnCheckPreconditionsPerDatabase()` trigger to check whether the data version of the previous extension version is compatible for the upgrade.
 
 ```
 codeunit 70000001 MyUpgradeCodeunit
 {
     Subtype=Upgrade;
-    
+
     trigger OnCheckPreconditionsPerDatabase();
-    var 
+    var
         myInfo : ModuleInfo;
     begin
         if NavApp.GetCurrentModuleInfo(myInfo) then
             if myInfo.DataVersion = Version.Create(1, 0, 0, 1) then
-                ERROR('The upgrade is not compatible'); 
+                ERROR('The upgrade is not compatible');
     end;
 ```
 
@@ -116,7 +116,7 @@ To upgrade to the new extension version, you use the Sync-NAVApp and Start-NAVAp
 
 ## See Also  
 [Developing Extensions](devenv-dev-overview.md)  
-[Getting Started with AL](devenv-get-started.md) 
+[Getting Started with AL](devenv-get-started.md)
 [How to: Publish and Install an Extension](devenv-how-publish-and-install-an-extension-v2.md)  
 [Converting Extensions V1 to Extensions V2](devenv-upgrade-v1-to-v2-overview.md)  
 [Sample Extension](devenv-extension-example.md)  

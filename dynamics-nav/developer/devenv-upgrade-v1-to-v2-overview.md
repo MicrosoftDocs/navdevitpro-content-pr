@@ -3,7 +3,7 @@ title: "Converting Extensions V1 to V2 Overview"
 description: "Overview of the converting of extensions."
 author: jswymer
 ms.custom: na
-ms.date: 09/22/2017
+ms.date: 11/30/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,14 +19,12 @@ Extensions are a programming model where functionality is defined as an addition
 
 1.  Convert the source code from C/AL to the AL syntax.
 2.  Complete the development of the extension in AL syntax.
-3.  Write upgrade code to restore and modify data from the V1 extension tables.
+3.  Write upgrade code to restore and modify data from the V1 Extension tables.
 4.  Build the extension.
 5.  Uninstall the V1 extension, and publish and run upgrade on the V2 extension. 
 
 ## Convert the source code from V1 to V2
 To convert the source code, you must use the Txt2Al conversion tool. The Txt2Al conversion tool allows you to take existing application objects that have been exported in .txt format and convert them into the new .al format. The .al format is used when developing extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. For more information about converting the source code, see [Txt2Al Conversion Tool](devenv-txt2al-tool.md).
-
-<!-- see if Hunter's comments should be applied to the txt2al tool topic -->
 
 ## Complete the development of the extension
 When the source code has been converted using the Txt2Al conversion tool, open the project folder in Visual Studio Code, and then modify or add code to the new version as needed. For more information about getting started with Visual Studio Code and the AL Language extension, see [Getting Started with AL](devenv-get-started.md).
@@ -133,7 +131,7 @@ The steps use the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)].
     This removes the unused extension package from server.
 
 ## Going forward
-The upgrade code unit becomes an integral part of the extension. The **NAVAPP** methods were mainly used for the conversion from V1 to V2. After converting the extension, you should begin to write upgrade code as described in [Upgrading Extensions](devenv-upgrading-extensions.md).
+The upgrade code unit becomes an integral part of the extension. The **NAVAPP** methods were mainly be used for the conversion from V1 to V2. After converting the extension, you should begin to write upgrade code as described in [Upgrading Extensions](devenv-upgrading-extensions.md).
 
 ## See Also
 [Getting Started with AL](devenv-get-started.md)  

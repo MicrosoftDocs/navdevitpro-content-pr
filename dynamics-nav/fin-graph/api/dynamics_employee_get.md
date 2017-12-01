@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get employees
-Retrieve the properties and relationships of an employee object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of an employee object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```

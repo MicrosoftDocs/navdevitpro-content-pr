@@ -29,4 +29,4 @@ This section contains the following topics:
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
 [AL Method Reference](../methods/devenv-al-method-reference.md)   
-[AL Development Environment](../devenv-developer-reference.md)
+[AL Development Environment](../devenv-reference-overview.md)

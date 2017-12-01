@@ -1,7 +1,8 @@
 ---
-title: "How to: Create a Table Relationship"
+title: Create a Table Relationship
+description: Table relationships are defined using the TableRelation Property. Define both simple and advanced table relationship and set conditions and filters.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 265af3c3-7160-413d-8620-00c194bb1a4b
 caps.latest.revision: 8
 manager: edupont
 ---
-# How to: Create a Table Relationship
+# Creating a Table Relationship
 Table relationships are defined using the [TableRelation Property](TableRelation-Property.md). This property allows you to define both simple and advanced table relationships. A typical simple table relationship consists of a table name and an optional field name. An advanced table relationship might additionally contain conditions and filters.  
   
 ### To create a table relationship  

@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get currencies
-Retrieve the properties and relationships of a currency object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a currency object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 

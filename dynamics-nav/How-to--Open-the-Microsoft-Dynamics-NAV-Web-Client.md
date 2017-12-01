@@ -1,15 +1,13 @@
 ---
 title: "How to: Open the Microsoft Dynamics NAV Web Client"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 02/10/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 41d64ea9-47da-4184-81b7-a7e98b05d530
-caps.latest.revision: 31
-manager: edupont
+author: jswymer
 ---
 # How to: Open the Microsoft Dynamics NAV Web Client
 You open the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using a web browser from a device that has a network connection. To open the [!INCLUDE[nav_web](includes/nav_web_md.md)], you must know the name of the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and the HTTP port that it is running on.  
@@ -27,6 +25,16 @@ You open the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using a web browser 
 
     |To open|URL|Example|  
     |-------------|---------|-------------|  
+    |The Role Center for the default company|http://ComputerName:Port/WebServerInstance<br /><br /> Or \(for multitenant deployments\)<br /><br /> http://ComputerName:Port/WebServerInstance/?tenant=TenantID|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]|  
+    |The Role Center for a specific company|http://ComputerName:Port/WebServerInstance/?company=CompanyName<br /><br /> Or<br /><br /> http://ComputerName:Port/WebServerInstance/?tenant=TenantID&company=CompanyName|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/?company=CRONUS%20International%20Ltd.|  
+    |A specific page|http://ComputerName:Port/WebServerInstance/?page=ID<br /><br /> Or<br /><br /> http://ComputerName:Port/WebServerInstance/?tenant=TenantID&page=ID|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/?page=22|  
+    |A specific report|http://ComputerName:Port/WebServerInstance/?report=ID<br /><br /> Or<br /><br /> http://ComputerName:Port/WebServerInstance/?tenant=TenantID&report=ID|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/?report=5|  
+    |A specific profile|http://ComputerName:Port/WebServerInstance/?profile=ID<br /><br /> Or<br /><br /> http://ComputerName:Port/WebServerInstance/?profile=ID|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/?profile=Small-Business| 
+
+    For [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions:
+
+    |To open|URL|Example|  
+    |-------------|---------|-------------|  
     |The Role Center for the default company|http://ComputerName:Port/WebServerInstance/WebClient<br /><br /> Or \(for multitenant deployments\)<br /><br /> http://ComputerName:Port/WebServerInstance/WebClient/default.aspx?tenant=TenantID|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient|  
     |The Role Center for a specific company|http://ComputerName:Port/WebServerInstance/WebClient/default.aspx?company=CompanyName<br /><br /> Or<br /><br /> http://ComputerName:Port/WebServerInstance/WebClient/default.aspx?tenant=TenantID&company=CompanyName|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient/default.aspx?company=CRONUS%20International%20Ltd.|  
     |A specific page|http://ComputerName:Port/WebServerInstance/WebClient/default.aspx?page=ID<br /><br /> Or<br /><br /> http://ComputerName:Port/WebServerInstance/WebClient/default.aspx?tenant=TenantID&page=ID|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient/default.aspx?page=22|  
@@ -41,7 +49,7 @@ You open the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using a web browser 
 
     -   **Port** with the port number that you configured for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] during installation.  
 
-    -   **WebServerInstance** with the virtual directory alias under which the [!INCLUDE[nav_web](includes/nav_web_md.md)] application exists on the web server. For more information, see [Microsoft Dynamics NAV Web Server Components Installation on IIS](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md#WebClientonIIS).  
+    -   **WebServerInstance** with the virtual directory alias under which the [!INCLUDE[nav_web](includes/nav_web_md.md)] application exists on the web server. For more information, see [Microsoft Dynamics NAV Web Server Components Installation on IIS](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-2017.md#WebClientonIIS).  
 
     -   **TenantID** with the name of the tenant that you want to connect to. This parameter is only required when [!INCLUDE[navnow](includes/navnow_md.md)] is deployed in a multitenant architecture. The tenant that you specify must be mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to. For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).  
 

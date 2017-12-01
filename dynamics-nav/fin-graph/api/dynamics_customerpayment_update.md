@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Update customerPayments
-Update the properties of a customer payment object for Dynamics 365 for Financials.
+Update the properties of a customer payment object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 

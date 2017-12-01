@@ -42,9 +42,13 @@
     "live": [
       "Publish",
       "Pdf"
+    ],
+    "master": [
+      "Publish",
+      "Pdf"
     ]
   },
   "need_generate_pdf_url_template": true,
-  "need_generate_pdf": false,
+  "need_generate_pdf": true,
   "need_generate_intellisense": false
 }

@@ -2,15 +2,13 @@
 title: "Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers"
 author: jswymer
 ms.custom: na
-ms.date: 10/14/2016
+ms.date: 09/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.assetid: 48551073-e32c-4184-8abf-6a00d30d60cb
-caps.latest.revision: 52
-manager: edupont04
+author: jswymer
 ---
 # Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers
 In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] in a four tier production environment, with the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and Microsoft SQL Server with [!INCLUDE[navnow](includes/navnow_md.md)] database components on three separate computers as shown in the following illustration.  
@@ -322,20 +320,27 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
 
 2.  In the address box, type the following URL:  
 
-     **http://ComputerName:PortNumber/DynamicsNAV100/WebClient/Default.aspx**  
+     **http://ComputerName:PortNumber/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]**  
+
+    Or for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions:
+
+    **http://ComputerName:PortNumber/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient/Default.aspx**
 
     -   Substitute **ComputerName** with the name of the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
 
     -   Substitute **PortNumber** with the port that you configured for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] during Setup.  
 
-    -   Substitute **DynamicsNAV100** with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that you configured during Setup. [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)] is the default value.  
+    -   Substitute **[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]** with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that you configured during Setup. [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)] is the default value.  
 
-     For this walkthrough, you would use the following URL:  
+    For this walkthrough, you would use one of the following URLs:  
+
+    ```  
+    http://navweb:8080/nav_server_instance  
+    ```  
 
     ```  
     http://navweb:8080/nav_server_instance/WebClient/Default.aspx  
-    ```  
-
+    ``` 
 ### Troubleshooting  
  If you are cannot connect the [!INCLUDE[nav_web](includes/nav_web_md.md)] or you are experiencing problems, see [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md).  
 
