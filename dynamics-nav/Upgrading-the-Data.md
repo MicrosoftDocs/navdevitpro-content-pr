@@ -279,7 +279,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
     ```
 2. Make sure that **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup) is set on the Dynamics NAV server instance.
 
-    For more infromation, see [Configuring Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).
+    For more information, see [Configuring Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).
 3. Generate the application symbol references:
 
     Open a command prompt, change to the directory where the `finsql.exe` file has been installed as part of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], and then run the following command:
@@ -339,13 +339,13 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         ``` 
         
         This will upgrade the Extensions V2.
-7. For the Denmark (DK) local version of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you must install the following new Extensions V2 in order to get all the local functionality:
+7. For the Denmark (DK) local version of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you must install the following new Extensions V2 in order to get all the local functionality.
 
     |Name|Publisher|Version|
     |----|---------|-------|
-    |Payroll Data Import Definitions (DK)|    Microsoft| 1.0.19502.0|
-    |Payment and Reconciliation Formats (DK)| Microsoft| 1.0.19502.0|
-    |Tax File Formats (DK)| Microsoft| 1.0.19502.0 |
+    |Payroll Data Import Definitions (DK)|    Microsoft| 1.0.19502.0 (or later)|
+    |Payment and Reconciliation Formats (DK)| Microsoft| 1.0.19502.0 (or later)|
+    |Tax File Formats (DK)| Microsoft| 1.0.19502.0 (or later)|
 
     For each Extension V2, run this command:
 
