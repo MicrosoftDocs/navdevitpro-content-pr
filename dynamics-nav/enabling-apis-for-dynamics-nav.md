@@ -15,7 +15,7 @@ caps.latest.revision: 18
 ---
 
 # Enabling the APIs for Microsoft Dynamics NAV
-[!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] expose an API that makes it possible to integrate with other services. To enable integration with these APIs, you must go through a few steps to enable the access for [!INCLUDE[navnow](includes/navnow_md.md)].
+[!INCLUDE[navnow](includes/navnow_md.md)] exposes an API that makes it possible to integrate with other services. To enable integration with these APIs, you must go through a few steps to enable the access for [!INCLUDE[navnow](includes/navnow_md.md)].
 
 ## Enable access to the APIs
 1. Open [!INCLUDE[navnow](includes/navnow_md.md)] Administration tool. 
