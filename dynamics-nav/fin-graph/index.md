@@ -9,7 +9,7 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/21/2017
+ms.date: 11/30/2017
 ms.author: solsen
 ---
 
@@ -20,6 +20,9 @@ As an alternative, app developers can also integrate the service or solution dir
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../enabling-apis-for-dynamics-nav.md).
+
+> [!TIP]  
+> For information about developing extensions in AL see [Development in AL](../developer/devenv-dev-overview.md).
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](resources/dynamics_overview.md)  
