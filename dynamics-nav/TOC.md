@@ -48,6 +48,7 @@
 ## [Keyboard Shortcuts](developer/devenv-keyboard-shortcuts.md)
 ## [The AL Formatter](developer/devenv-al-formatter.md)
 ## [Differences in the Development Environments](developer/devenv-differences.md)
+## [JSON Files](developer/devenv-json-files.md)
 ## [Debugging in AL](developer/devenv-debugging.md)
 ## [Security Setting and IP Protection](developer/devenv-security-settings-and-ip-protection.md)
 ## [Running C/SIDE and AL Side-By-Side](developer/devenv-running-cside-and-al-side-by-side.md)
