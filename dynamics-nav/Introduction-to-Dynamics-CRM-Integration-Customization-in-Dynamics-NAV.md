@@ -12,7 +12,7 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # Introduction to Dynamics 365 for Sales Integration Customization in Dynamics NAV
-This topic provides an overview about customizing [!INCLUDE[crm](includes/crm_md.md)] integration in [!INCLUDE[navnow](includes/navnow_md.md)].  
+This topic provides an overview about customizing [!INCLUDE[crm](includes/crm_md.md)] integration in [!INCLUDE[navnow](includes/navnow_md.md)]. When the integration is made, you can perform various sales and marketing tasks across the two products. For more information, see [Managing Customers and Sales Created in Dynamics 365 for Sales](/dynamics-nav-app/marketing-integrate-dynamicscrm) in the application help. 
 
 ## Integration Objects  
  The following table describes the main objects in the [!INCLUDE[navnow](includes/navnow_md.md)] database that are related to customizing [!INCLUDE[crm](includes/crm_md.md)] integration.  
