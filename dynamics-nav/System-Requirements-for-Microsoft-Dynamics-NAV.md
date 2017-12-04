@@ -3,14 +3,14 @@ title: System Requirements for Microsoft Dynamics NAV 2018
 description: This article provides the specifications of minimum hardware and software requirements to install and run Microsoft Dynamics NAV 'TENERIFE'.
 author: jswymer
 ms.custom: na
-ms.date: 10/13/2017
+ms.date: 11/30/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ---
-# System Requirements for Microsoft Dynamics NAV [!INCLUDE[nav2018_md](includes/nav2018_md.md)]
+# System Requirements for [!INCLUDE[nav2018_md](includes/nav2018_md.md)]
 
 **Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md).
 

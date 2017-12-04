@@ -36,7 +36,7 @@ ApplicationArea = All;
 ```
 
 ## Remarks  
- The **ApplicationArea** property is used together with the [APPLICATIONAREA method](/methods/devenv-applicationarea-method.md) to hide user interface elements.  
+ The **ApplicationArea** property is used together with the [APPLICATIONAREA method](../methods/devenv-applicationarea-method.md) to hide user interface elements.  
   
  If one or more application areas are enabled in a session, any controls that are not tagged with an application area will not appear in the user interface.  
 
