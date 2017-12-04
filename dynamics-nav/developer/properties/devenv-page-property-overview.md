@@ -119,7 +119,6 @@ The following properties apply to Field controls on a page.
 |[DrillDownPageId Property](devenv-drilldownpageid-property.md)|X||
 |[Importance Property](devenv-importance-property.md)|X|X|
 |[ToolTipML Property](devenv-tooltipml-property.md)|X|X|
-|Title Property|X|X|
 |[QuickEntry Property](devenv-quickentry-property.md)|X|X|
 |[Lookup Property](devenv-lookup-property.md)|X||
 |[DrillDown Property](devenv-drilldown-property.md)|X||
@@ -146,7 +145,7 @@ The following properties apply to Part controls on a page.
 |[SubPageLink Property](devenv-subpagelink-property.md)|X||
 |[ShowFilter Property](devenv-showfilter-property.md)|X||
 |[UpdatePropagation Property](devenv-updatepropagation-property.md)|X||
-|Provider Property|X||
+|[Provider Property](devenv-providerid-property.md)|X||
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[Description Property](devenv-description-property.md)|X||
 |[EntityName Property](devenv-entityname-property.md)|X||
@@ -187,7 +186,7 @@ The following properties apply to Actions.
 |[Ellipsis Property](devenv-ellipsis-property.md)|X||
 |[ShortcutKey Property](devenv-shortcutkey-property.md)|X||
 |[RunObject Property](devenv-runobject-property.md)|X||
-|[RunPageView Property](../properties/devenv-runpageview-property.md)|X||
+|[RunPageView Property](devenv-runpageview-property.md)|X||
 |[RunPageLink Property](devenv-runpagelink-property.md)|X||
 |[RunPageOnRec Property](devenv-runpageonrec-property.md)|X||
 |[InFooterBar Property](devenv-infooterbar-property.md)|X|X|
@@ -200,7 +199,6 @@ The following properties apply to Separators.
 |Property Name|Page Object|Page Extension Object|
 |-------------|-----------|---------------------|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
-|[IsHeader Property](devenv-isheader-property.md)|X||
 
 ## See Also
 [Properties](devenv-properties.md)  
