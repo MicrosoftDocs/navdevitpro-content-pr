@@ -1,7 +1,7 @@
 ---
 title: "Integrating Dynamics 365 for Sales in Dynamics NAV"
 ms.custom: na
-ms.date: 24/10/2016
+ms.date: 12/05/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -24,7 +24,7 @@ ms.prod: "dynamics-nav-2017"
 [!INCLUDE[crm_md](includes/crm_md.md)] integration enables you to couple [!INCLUDE[crm_md](includes/crm_md.md)] records with [!INCLUDE[navnow_md](includes/navnow_md.md)] records - essentially linking the records together. Once coupled, you can access [!INCLUDE[crm_md](includes/crm_md.md)] records from [!INCLUDE[navnow_md](includes/navnow_md.md)] and, for some entities, access [!INCLUDE[navnow_md](includes/navnow_md.md)] records from [!INCLUDE[crm_md](includes/crm_md.md)] (see the note after the following table). You can also synchronize data between records so that data is the same in both systems.
 
 > [!NOTE]  
-> For [!INCLUDE[navnow_md](includes/navnow_md.md)] fields of type Option, only records for options that also exist in [!INCLUDE[crm_md](includes/crm_md.md)] can be synchronized. During synchronization, such non-mapped options are ignored, the missing options are appended to the related [!INCLUDE[navnow_md](includes/navnow_md.md)] table and added to the **CRM Option Mapping** system table for manual handling later, for example by adding the missing options in either product and then updating the mapping. For more information, see [Handling Missing Option Values](Handling Missing Option Values in Mapping.md).
+> For [!INCLUDE[navnow_md](includes/navnow_md.md)] fields of type Option, only records for options that also exist in [!INCLUDE[crm_md](includes/crm_md.md)] can be synchronized. During synchronization, such non-mapped options are ignored, the missing options are appended to the related [!INCLUDE[navnow_md](includes/navnow_md.md)] table and added to the **CRM Option Mapping** system table for manual handling later, for example by adding the missing options in either product and then updating the mapping. For more information, see [Handling Missing Option Values in Mapping](Handling Missing Option Values in Mapping.md).
 
 The following table describes the [!INCLUDE[crm_md](includes/crm_md.md)] entities that are integrated with [!INCLUDE[navnow_md](includes/navnow_md.md)] record types (tables) in the default implementation and the supported features.  
 
