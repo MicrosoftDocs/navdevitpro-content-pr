@@ -44,9 +44,6 @@ To handle events, you design event subscribers. Event subscribers determine what
 
 5.  Set the function's [EventPublisherObject Property](EventPublisherObject-Property.md) to the object that contains the event publisher function that declares the event that you want to subscribe to.
 
-    >[!IMPORTANT]  
-    >If the event publisher object is a page, the page must have a source table. Otherwise, when you compile the codeunit, you will get the error **TableData 0 does not exist**.
-
 6.  Set the function's [EventFunction Property](EventFunction-Property.md) to the event publisher function that declares the event that you want to subscribe to.  
 
 7.  If you are prompted whether to overwrite the edited functions signature, choose the **Yes** button.  
