@@ -108,6 +108,7 @@ The **CRM Option Mapping** table is updated.
 ![Dynamics 365 for Sales Integration 1](media/crm_mapping_11.png)
 
 The **Payment Terms** table in [!INCLUDE[navnow_md](includes/navnow_md.md)] will then have new records for the [!INCLUDE[crm_md](includes/crm_md.md)] options. (New  options are in bold font below. Yellow rows represent all options that can now be synchronized. Gray rows represent options are not in use and will be ignored during synchronization. You can remove them or extend [!INCLUDE[crm_md](includes/crm_md.md)] options with the same names.)
+
 ![Dynamics 365 for Sales Integration 1](media/crm_mapping_12.png)
 
 ## See Also  
