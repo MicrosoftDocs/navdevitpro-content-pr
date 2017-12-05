@@ -39,6 +39,7 @@ Several properties have been renamed, to mention some:
 |AutoFormatExpr|AutoFormatExpression|   
 |DataCaptionExpr|DataCaptionExpression|
 |Layout|GridLayout|
+|ProviderID|Provider|
 
 > [!NOTE]
 > Property values are considered as syntax elements; thus they should follow the standard AL escaping rules. 
