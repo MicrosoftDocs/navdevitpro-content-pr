@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-author: sgroespe
+author: SorenGP
 manager: edupont
 ---
 # Handling Missing Option Values in Mapping
