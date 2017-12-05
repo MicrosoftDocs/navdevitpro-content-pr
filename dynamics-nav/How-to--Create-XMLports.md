@@ -1,7 +1,8 @@
 ---
-title: "How to: Create XMLports"
+title: Create XMLports 
+description: You can design XMLports to import or export XML documents, variable text files, or fixed-width text files. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 12/05/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: db7e208e-9780-40e2-a2f6-aeee8b7c1923
 caps.latest.revision: 11
 manager: edupont
 ---
-# How to: Create XMLports
+# Creating XMLports in Dynamics NAV
 You design XMLports to export data from Microsoft Dynamics NAV tables or import data to a Microsoft Dynamic NAV tables. You can design XMLports to import or export XML documents, variable text files, or fixed-width text files.  
   
 ### To design an XMLport  
