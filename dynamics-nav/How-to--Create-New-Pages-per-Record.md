@@ -1,7 +1,8 @@
 ---
-title: "How to: Create New Pages per Record"
+title: Create New Pages per Record
+description: Print a new page for each new record by creating a report dataset that includes the data items and columns that you want in the report.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 12/05/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 8cbf1aed-c255-4ac4-bdd1-b4bc5fe7aa95
 caps.latest.revision: 22
 manager: edupont
 ---
-# How to: Create New Pages per Record
+# Creating New Pages per Record
 For some reports, you may want to print a new page for each new record.  
   
  An example of a report that begins a new page for each new record is report 205, Order Confirmation, in the [!INCLUDE[demolong](includes/demolong_md.md)].  
