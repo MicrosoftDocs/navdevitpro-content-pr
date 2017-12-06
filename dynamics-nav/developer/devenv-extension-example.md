@@ -205,7 +205,7 @@ For more information, see [JSON Files](devenv-json-files.md).
 
 ## Designer 
 
-Dynamics 365 for Finance and Operations, Business edition Designer works in the web client and allows modifying the current page. It enables users to add existing table fields, move fields around, or remove fields from the page. Users can make changes to display the information they need, where they need it by using drag-and-drop components.  
+[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Designer works in the Web client and allows modifying the current page. It enables users to add existing table fields, move fields around, or remove fields from the page. Users can make changes to display the information they need, where they need it by using drag-and-drop components.  
 To show how the Designer changes the design of a page, you begin by adding two new fields to the **Reward** table. These fields will be used later on to exemplify the Designer's properties. 
 
 ```
@@ -274,8 +274,8 @@ field("Last Modified Date";"Last Modified Date")
 ``` 
 Using the F6 key shortcut in Visual Studio Code launches the browser and enters the Designer.
 
-> [NOTE!]
-> Every time you start designing, you create a new extension and the changes you make in the Designer will apply to all users.     
+> [!NOTE]  
+> Every time you start designing, you create a new extension and the changes you make in the Designer will apply to all users.
 
 
 To add the same fields and customize the **Customer Card** page, follow the next steps:
