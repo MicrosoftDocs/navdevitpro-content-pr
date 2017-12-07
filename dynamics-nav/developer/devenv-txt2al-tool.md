@@ -25,11 +25,14 @@ The Txt2Al conversion tool allows you to take existing Dynamics NAV objects that
 ## To run the Txt2Al conversion tool
 To run the Txt2Al conversion tool, follow the steps outlined below.
 
-1. Start with a clean Dynamics NAV database and make an export of **all the baseline objects** in the command line using the following syntax:
+1. Start with a clean Dynamics NAV database and compile the database.  
+It is **very** important that you compile the database to get the right result in the next step.
+2. Make an export of **all the baseline objects** in the command line using the following syntax:
 ```finsql.exe Command=ExportToNewSyntax, File=<filename.txt>, Database="<databasename>", ServerName=<servername> ,Filter=Type=table;ID=<tableID>``` The following example exports the table **225** from the Demo Database NAV 10-0 database:  
   ```finsql.exe Command=ExportToNewSyntax, File=exportedObjects.txt, Database="Demo Database NAV (10-0)", ServerName=.\NAVDEMO ,Filter=Type=table;ID=225```
-2. Import your solution using the import option in C/SIDE.
-3. Export all **new and/or modified** objects using the following syntax:
+3. Import your solution using the import option in C/SIDE and compile the database.  
+It is **very** important that you compile the database to get the right result in the next step.
+4. Export all **new and/or modified** objects using the following syntax:
 ```finsql.exe Command=ExportToNewSyntax, File=<filename.txt>, Database="<databasename>", ServerName=<servername> ,Filter=Type=table;ID=<tableID>``` The following example exports the table **225** from the Demo Database NAV 10-0 database:  
   ```finsql.exe Command=ExportToNewSyntax, File=exportedObjects.txt, Database="Demo Database NAV (10-0)", ServerName=.\NAVDEMO ,Filter=Type=table;ID=225```
 5. Create .delta files using the Compare-NAVApplicationObject powershell script. For more information, see [How to: Develop an Extension v1.0](https://msdn.microsoft.com/en-us/library/mt574395(v=nav.90).aspx).
