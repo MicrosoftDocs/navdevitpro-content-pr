@@ -34,22 +34,22 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 
     Optionally, you can export the captions before the upgrade. For more information, see [How to: Add Translated Strings for Conflicting Text Encoding Formats](How-to--Add-Translated-Strings-for-Conflicting-Text-Encoding-Formats.md).
 
-2.  You have a FOB file(s) that contains the upgraded application code and upgrade toolkit. The upgrade toolkit can be in the same FOB file as the application code or in a separate FOB file.  
+2.  You have a FOB file(s) that contains the upgraded application code and upgrade toolkit. The upgrade toolkit includes upgrade codeunits for handling the data upgrade. The upgrade toolkit can be in the same FOB file as the application code or in a separate FOB file.  
 
     For more information about upgrading the application code, see [Upgrading the Application Code](Upgrading-the-Application-Code.md).
 
     You can find the default upgrade toolkit objects in the  **UpgradeToolKit\Data Conversion Tools** folder on the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD). Choose the FOB that matches the [!INCLUDE[navnow](includes/navnow_md.md)] version from which you are upgrading:
 
-    -   Upgrade7001000.FOB for [!INCLUDE[nav7long](includes/nav7long_md.md)]
-    -   Upgrade7101000.FOB and Upgrade710HF1000.FOB for [!INCLUDE[navsicily](includes/navsicily_md.md)]
-    -   Upgrade8001000.FOB for [!INCLUDE[navcrete](includes/navcrete_md.md)]
-    -   Upgrade9001000.FOB for [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
+    -   Upgrade7001100.FOB for [!INCLUDE[nav7long](includes/nav7long_md.md)]
+    -   Upgrade7101100.FOB and Upgrade710HF1100.FOB for [!INCLUDE[navsicily](includes/navsicily_md.md)]
+    -   Upgrade8001100.FOB for [!INCLUDE[navcrete](includes/navcrete_md.md)]
+    -   Upgrade9001100.FOB for [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
     -   Upgrade10001100.FOB for [!INCLUDE[nav2017](includes/nav2017.md)]
 3.   You have exported the permission sets and permissions as XML files. 
 
     For more information, see [How to: Export and Import Permission Sets and Permissions](how-to--import-export-permission-sets-permissions.md#ExportPerms).
 
-4.   \(Optional\) Make a copy of the web.config file for all [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. With [!INCLUDE[nav2018_md](includes/nav2018_md.md)], [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances run on Microsoft .NET Core. With this change, the instances now use a .json type file (called navsettings.json) instead of the web.config file. 
+4.   \(Optional\) Make a copy of the web.config file for all [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. With [!INCLUDE[nav2018_md](includes/nav2018_md.md)], [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances run on Microsoft .NET Core. With this change, the instances now use a .json type file (called navsettings.json) instead of the web.config file.
 
 5.   \(Optional\) If the old [!INCLUDE[navnow](includes/navnow_md.md)] application uses data encryption, you exported the encryption key file that it used for the data encryption.  
 
@@ -93,7 +93,7 @@ Open the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] that matches to old 
     
     Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance that the database connects to. Replace `<TenantID>` with the tenant ID of the database. If you do not have a multitenant server instance, use `default`.
 
-    In the table that appears, Extensions V1 are indicated by `CSIDE` in the `Extension Type`column.
+    In the table that appears, Extensions V1 are indicated by `CSIDE` in the `Extension Type` column.
 
     Make a note of the Extensions V1 that you will uninstall because you will reinstall these later, after you upgrade the database.
 2. For each Extension V1, run this command to uninstall it:
@@ -108,7 +108,7 @@ Open the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] that matches to old 
 > Do not uninstall Extensions V2 (ModernDev type).
 
 ##  <a name="UploadLicense"></a> Task 4: Upload the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] license to the old database  
-By using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] that matches the old database, upload the [!INCLUDE[nav2017](includes/nav2017.md)] license to the database.
+By using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] that matches the old database, upload the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] license to the database.
 
 For more information, see [Uploading a License File for a Specific Database](How-to--Upload-the-License-File.md#UploadtoDatabase).  
 
@@ -118,15 +118,16 @@ In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] version that matc
 You can also use the [DeleteObjects](DeleteObjects.md) command of the finsql.exe.
 
 ##  <a name="UninstallOldProduct"></a> Task 6: Uninstall (optional) the old product and install the new product
-Uninstall the old [!INCLUDE[navnow_md](includes/navnow_md.md)], and then install [!INCLUDE[nav2017](includes/nav2017.md)].  
+Uninstall the old [!INCLUDE[navnow_md](includes/navnow_md.md)], and then install [!INCLUDE[nav2018_md](includes/nav2018_md.md)].  
 
 During installation of [!INCLUDE[nav2017](includes/nav2017.md)], you can either choose the **Install Demo** option, for which you will discard the Demo database afterwards, or choose the **Custom** option, where you then select to install the Client \(with the Development Environment\), Server, and Administration Tool components.  
 
 ## Task 7: Clear Dynamics NAV Server instance records from old database
-Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records from the **dbo.Server Instance** table in the  database in SQL Server.  
+Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records from the **dbo.Server Instance** table in the database in SQL Server.  
 
 1.  If you did not uninstall the old [!INCLUDE[navnow_md](includes/navnow_md.md)], make sure that you stop the old [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, and close any tools that connect to the database, such as the Dynamics NAV Administration Tool and [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].
 2.  Using SQL Server Management Studio, open and clear the **dbo.Server Instance** table of the old database. For example, you can run the following SQL query:
+
     ```
     DELETE FROM [My NAV Database Name].[dbo].[Server Instance]
     ```
@@ -157,10 +158,10 @@ Use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to compile all t
 In Object Designer, choose **Tools**, choose **Compile**, set the **Synchronize Schema** to **Later**, and then choose **OK**.
 -->
 
-##  <a name="ImportAppObj"></a> Task 9: Import the application objects to the converted database  
-Using the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], import the merged application objects that you want in the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] database. This includes the application objects FOB file (from the application code upgrade) and the upgrade toolkit objects FOB file.
+##  <a name="ImportAppObj"></a> Task 9: Import the upgraded application objects and upgrade toolkit objects into the converted database  
+Using the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], import the application objects that you want in the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] database. This includes the application objects FOB file (from the application code upgrade) and the upgrade toolkit objects FOB file.
 
-1. If the upgrade toolkit objects are stored in a separate FOB file, import the application objects FOB file first, and then import the upgrade toolkit FOB file.
+1. Import the application objects FOB file first, and then import the upgrade toolkit FOB file.
 
     For more information, see [How to: Import Objects](how-to--import-objects.md).
 
@@ -183,7 +184,10 @@ For more information, see [How to: Connect a Microsoft Dynamics NAV Server Insta
 
     For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md) or [Database Information](uiref/-$-S_2349-Database-Information-$-.md).  
 
-2. Use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe to compile all objects that are not already compiled. This includes the imported application objects, data tables, and system tables. **IMPORTANT** Choose to run schema synchronization later. For example, in Object Designer, choose **Tools**, choose **Compile**, set the **Synchronize Schema** option to **Later**, and then choose **OK**. For more information, see [Compiling Objects](compiling-objects.md).
+2. Use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe to compile all objects that are not already compiled. This includes the imported application objects, data tables, and system tables. 
+
+    > [!IMPORTANT]
+    >Choose to run schema synchronization later. For example, in Object Designer, choose **Tools**, choose **Compile**, set the **Synchronize Schema** option to **Later**, and then choose **OK**. For more information, see [Compiling Objects](compiling-objects.md).
 
 3. ([!INCLUDE[navcorfu](includes/navcorfu_md.md)] and earlier only) If you get errors on the following table objects, use the Object Designer to delete the objects because they are no longer used.
 
@@ -224,9 +228,9 @@ Start-NavDataUpgrade -ServerInstance <ServerInstanceName> -Force
 
 Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is connected to the database.  
 
-To view the progress of the data upgrade, you can run Get-NavDataUpgrade cmdlet with the –Progress switch.  
+To view the progress of the data upgrade, you can run Get-NavDataUpgrade cmdlet with the `–Progress` switch.  
 
-The data upgrade process runs CheckPreconditions and Upgrade functions in the upgrade codeunits. If any of the preconditions are not met or an upgrade function fails, you must correct the error and resume the data upgrade process. If CheckPreconditions and Upgrade functions are executed successfully, codeunit 2 is automatically run to initialize all companies in the database unless you set the *SkipCompanyIntitialization* parameter.  
+The data upgrade process runs `CheckPreconditions` and `Upgrade` functions in the upgrade codeunits. If any of the preconditions are not met or an upgrade function fails, you must correct the error and resume the data upgrade process. If CheckPreconditions and Upgrade functions are executed successfully, codeunit 2 is automatically run to initialize all companies in the database unless you set the `-SkipCompanyIntitialization` parameter.  
 
 ##  <a name="DeleteUpgCodeunits"></a> Task 14: Delete the upgrade objects  
 At this point, you have upgraded the database to [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. Now, you can delete the upgrade codeunits and upgrade table objects that you imported in task 8.  
@@ -290,6 +294,9 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
     Replace values for the `Database` and `ServerName` settings to suit.
 
+    > [!NOTE]  
+    >  This command does not generate a file. It populates the **NAV App Object** table in the database.
+    
     For more information about generation symbols, see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md).
 
 4. Publish all the extensions from the `\Extensions` folder of the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD):
