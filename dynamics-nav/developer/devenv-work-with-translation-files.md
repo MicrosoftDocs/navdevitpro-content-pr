@@ -31,7 +31,7 @@ To enable generation of the translation file, you must add a setting in the mani
   "features": "TranslationFile"
 ```
 
-Now, when you run the build command (Ctrl+Shift+B) in Visual Studio Code, a `\Translations` folder will be generated and populated with the .xlf file that contain all the labels, label properties, and report labels that you are using in the extension. The generated .xlf file can now be translated.
+Now, when you run the build command (Ctrl+Shift+B) in Visual Studio Code, a `\Translations` folder will be generated and populated with the .xlf file that contains all the labels, label properties, and report labels that you are using in the extension. The generated .xlf file can now be translated.
 
 > [!IMPORTANT]
 > Make sure to rename the translated file to avoid that the file is overwritten next time the extension is built.
