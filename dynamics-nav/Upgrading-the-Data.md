@@ -83,9 +83,9 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 
  For more information, see [Create a Full Database Backup \(SQL Server\)](http://msdn.microsoft.com/en-us/library/ms187510.aspx).  
 
-## Task 3 Uninstall all Extensions V1 in old database
+## Task 3 Uninstall all V1 extensions in old database
 Open the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] that matches to old database, and run these commands: 
-1.  To get a list of the Extensions V1 that are installed, run this command:
+1.  To get a list of the V1 extensions that are installed, run this command:
 
     ```
     Get-NAVAppInfo -ServerInstance <ServerInstanceName> -Tenant <TenantID> |ft
@@ -93,9 +93,9 @@ Open the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] that matches to old 
     
     Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance that the database connects to. Replace `<TenantID>` with the tenant ID of the database. If you do not have a multitenant server instance, use `default`.
 
-    In the table that appears, Extensions V1 are indicated by `CSIDE` in the `Extension Type` column.
+    In the table that appears, V1 extensions are indicated by `CSIDE` in the `Extension Type` column.
 
-    Make a note of the Extensions V1 that you will uninstall because you will reinstall these later, after you upgrade the database.
+    Make a note of the V1 extensions that you will uninstall because you will reinstall these later, after you upgrade the database.
 2. For each Extension V1, run this command to uninstall it:
 
     ```
@@ -105,7 +105,7 @@ Open the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] that matches to old 
     Replace `<Name>` and `<N.N.N.N>` with the name and version of the Extension V1 as it appeared in the previous step.
 
 > [!IMPORTANT]
-> Do not uninstall Extensions V2 (ModernDev type).
+> Do not uninstall V2 extensions (ModernDev type).
 
 ##  <a name="UploadLicense"></a> Task 4: Upload the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] license to the old database  
 By using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] that matches the old database, upload the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] license to the database.
@@ -268,7 +268,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
 
 ##  <a name="AddExtensions"></a> Task 18: Publish and install/upgrade extensions
-[!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes a number of extensions that you must publish and install as part of the upgrade process. To enable these extensions, it is important that you follow the steps below.
+[!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes a number of extensions that you publish and install as part of the upgrade process. To enable these extensions, it is important that you follow the steps below.
 
 1. Download the [platform symbols](https://go.microsoft.com/fwlink/?linkid=864045).
 
@@ -307,9 +307,9 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         Publish-NAVApp -ServerInstance <ServerInstanceName> -Path <ExtensionFileName> 
         ```
     
-        Extensions V1 have the file type `.navx`. Extensions V2 have the file type `.app`. 
+        V1 extensions have the file type `.navx`. V2 extensions have the file type `.app`. 
 
-    2.  For  Extensions V2, synchronize the schema of a tenant database to a Extension V2 by running the following command:
+    2.  For each Extension V2, run the following command to synchronize its schema with the tenant database:
     <!-- I got message that application and tenant database were not synched, so I had to sync to go futher-->
 
         ```    
@@ -318,7 +318,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
     For more information about publishing extensions, see [How to: Publish and Install an Extension](developer/devenv-how-publish-and-install-an-extension-v2.md).
 
-5.  Upgrade the Extensions V1 that you uninstalled previously in Task 3 by reinstalling them. From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the following commands: 
+5.  Upgrade the V1 extensions that you uninstalled previously in Task 3 by reinstalling them. From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the following commands: 
 
     1. To get a list of the published extensions on the server instance, run this command:
     
@@ -326,25 +326,25 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         Get-NAVAppInfo -ServerInstance <ServerInstanceName>
         ```
 
-    2. To determine which Extensions V1 to install, inspect the list that appears, and compare it with the list that you gathered in Task 3. Extensions V1 are indicated by `Extension Type : CSIDE`. If there is a newer version of an Extension V1, you should install the newer version.
+    2. To determine which V1 extensions to install, inspect the list that appears, and compare it with the list that you gathered in Task 3. V1 extensions are indicated by `Extension Type : CSIDE`. If there is a newer version of an Extension V1, you should install the newer version.
     3. For each Extension V1 that you want to install, run this command:
     
         ```  
         Install-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N> –Tenant <TenantID>
         ```
     
-        Replace `<Name>` and `<N.N.N.N>` with the name and version of the Extension V1 as it appeared in the previous step. For `<TenantID>`, In single-tenant deployments, you either specify `default`or you omit the `–Tenant` parameter.
+        Replace `<Name>` and `<N.N.N.N>` with the name and version of the Extension V1 as it appeared in the previous step. For `<TenantID>`, in single-tenant deployments, you either specify `default`or you omit the `–Tenant` parameter.
         
-        This will upgrade the Extensions V1.
-6.  Upgrade Extensions V2 that are currently installed: 
+        This will upgrade the V1 extensions.
+6.  Upgrade V2 extensions that are currently installed: 
 
-    1. To get a list of the installed Extensions V2, run this command:
+    1. To get a list of the installed V2 extensions, run this command:
     
         ```
         Get-NAVAppInfo -ServerInstance <ServerInstanceName>
         ```
         
-        Extensions V2 are indicated by `ModernDev` in the `Extension Type`column.
+        V2 extensions are indicated by `ModernDev` in the `Extension Type`column.
      2. For each Extension V2 that you want to upgrade, run this commands:
 
         ```
@@ -352,8 +352,8 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         Start-NAVAppDataUpgrade -ServerInstance DynamicsNAV -Name ProswareStuff -Version <N.N.N.N>
         ``` 
         
-        This will upgrade the Extensions V2.
-7. For the Denmark (DK) local version of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you must install the following new Extensions V2 in order to get all the local functionality.
+        This will upgrade the V2 extensions.
+7. For the Denmark (DK) local version of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you must install the following new V2 extensions in order to get all the local functionality.
 
     |Name|Publisher|Version|
     |----|---------|-------|
