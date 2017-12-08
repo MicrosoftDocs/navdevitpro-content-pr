@@ -301,13 +301,20 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
 4. Publish all the extensions from the `\Extensions` folder of the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD):
 
-    From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the following command for each extension.
+    1. From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the following command for each extension.
 
-    ```
-    Publish-NAVApp -ServerInstance <ServerInstanceName> -Path <ExtensionFileName> 
-    ```
+        ```
+        Publish-NAVApp -ServerInstance <ServerInstanceName> -Path <ExtensionFileName> 
+        ```
     
-    Extensions V1 have the file type `.navx`. Extensions V2 have the file type `.app`. 
+        Extensions V1 have the file type `.navx`. Extensions V2 have the file type `.app`. 
+
+    2.  For  Extensions V2, synchronize the schema of a tenant database to a Extension V2 by running the following command:
+    <!-- I got message that application and tenant database were not synched, so I had to sync to go futher-->
+
+        ```    
+        Sync-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N>
+        ```
 
     For more information about publishing extensions, see [How to: Publish and Install an Extension](developer/devenv-how-publish-and-install-an-extension-v2.md).
 
@@ -316,10 +323,10 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
     1. To get a list of the published extensions on the server instance, run this command:
     
         ```
-        Get-NAVAppInfo -ServerInstance <ServerInstanceName> |ft
+        Get-NAVAppInfo -ServerInstance <ServerInstanceName>
         ```
 
-    2. To determine which Extensions V1 to install, inspect the list that appears, and compare it with the list that you gathered in Task 3. Extensions V1 are indicated by `CSIDE` in the `Extension Type`column. If there is a newer version of an Extension V1, you should install the newer version.
+    2. To determine which Extensions V1 to install, inspect the list that appears, and compare it with the list that you gathered in Task 3. Extensions V1 are indicated by `Extension Type : CSIDE`. If there is a newer version of an Extension V1, you should install the newer version.
     3. For each Extension V1 that you want to install, run this command:
     
         ```  
@@ -334,7 +341,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
     1. To get a list of the installed Extensions V2, run this command:
     
         ```
-        Get-NAVAppInfo -ServerInstance <ServerInstanceName> |ft
+        Get-NAVAppInfo -ServerInstance <ServerInstanceName>
         ```
         
         Extensions V2 are indicated by `ModernDev` in the `Extension Type`column.
