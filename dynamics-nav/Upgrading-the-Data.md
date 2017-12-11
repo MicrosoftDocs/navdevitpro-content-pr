@@ -345,7 +345,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         ```
         
         V2 extensions are indicated by `ModernDev` in the `Extension Type`column.
-     2. For each Extension V2 that you want to upgrade, run this commands:
+    2. For each Extension V2 that you want to upgrade, run this commands:
 
         ```
         Sync-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N>
@@ -366,6 +366,11 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         ```
         Install-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N> 
         ```
+
+## Task 19: Update the Dynamics NAV Web client configuration file (navsettings.json)
+If you have installed the [!INCLUDE[nav_web_server](includes/nav_web_server.md)], populate the navsettings.json file for the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance with the settings of the old web.config file.
+
+For more information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the NavSettings.json File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md).  
 
 <!-- deprecated ##  <a name="UploadEncryptionKeys"></a> Task 16: Import Payment Services and Data Encryption Key \(Optional\)  
 
