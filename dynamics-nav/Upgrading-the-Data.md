@@ -368,7 +368,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         ```
 
 ## Task 19: Update the Dynamics NAV Web client configuration file (navsettings.json)
-If you have installed the [!INCLUDE[nav_web_server](includes/nav_web_server.md)], populate the navsettings.json file for the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance with the settings of the old web.config file.
+If you have installed the [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)], populate the navsettings.json file for the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance with the settings of the old web.config file.
 
 For more information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the NavSettings.json File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md).  
 
