@@ -120,7 +120,7 @@ You can also use the [DeleteObjects](DeleteObjects.md) command of the finsql.exe
 ##  <a name="UninstallOldProduct"></a> Task 6: Uninstall (optional) the old product and install the new product
 Uninstall the old [!INCLUDE[navnow_md](includes/navnow_md.md)], and then install [!INCLUDE[nav2018_md](includes/nav2018_md.md)].  
 
-During installation of [!INCLUDE[nav2017](includes/nav2017.md)], you can either choose the **Install Demo** option, for which you will discard the Demo database afterwards, or choose the **Custom** option, where you then select to install the Client \(with the Development Environment\), Server, and Administration Tool components.  
+During installation of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you can either choose the **Install Demo** option, for which you will discard the Demo database afterwards, or choose the **Custom** option, where you then select to install the Client \(with the Development Environment\), Server, and Administration Tool components.  
 
 ## Task 7: Clear Dynamics NAV Server instance records from old database
 Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records from the **dbo.Server Instance** table in the database in SQL Server.  
@@ -381,4 +381,4 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
  [Upgrading the Application Code](Upgrading-the-Application-Code.md)   
  [Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md)   
  [Synchronizing Table Schemas](Synchronizing-Table-Schemas.md)   
- [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)
+ [Upgrading to Microsoft Dynamics NAV](Upgrading-to-Microsoft-Dynamics-NAV.md)
