@@ -1,7 +1,8 @@
 ---
-title: "How to: Define Permissions for Users"
+title: Define User Permissions
+description: Dynamics NAV provides a standard permission sets. All users must be assigned one or more permission sets before they can access Dynamics NAV.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 12/06/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: a8018367-db1d-45fd-b086-0b8fe714b709
 caps.latest.revision: 22
 ---
-# How to: Define Permissions for Users
+# Define Permissions for Users
 [!INCLUDE[navnow](includes/navnow_md.md)] provides a set of standard permission sets. A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 > [!NOTE]  
