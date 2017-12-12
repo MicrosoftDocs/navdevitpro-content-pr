@@ -1,7 +1,8 @@
 ---
-title: "How to: Define or Modify Table or Field Triggers"
+title: Define or Modify Field Triggers
+description: Define or modify a table or field trigger by choosing table on object designer and then design or modify using the C/AL Editor. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 12/06/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: c300ddfe-2622-42b0-a836-89a0a473d55e
 caps.latest.revision: 5
 manager: edupont
 ---
-# How to: Define or Modify Table or Field Triggers
+# Define or Modify Table or Field Triggers
 The following procedure describes how to set up a trigger.  
   
 ### To define or modify a table or field trigger  
