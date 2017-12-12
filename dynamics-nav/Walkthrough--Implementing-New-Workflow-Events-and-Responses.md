@@ -13,7 +13,7 @@ caps.latest.revision: 14
 # Walkthrough: Implementing New Workflow Events and Responses
 If a business scenario requires a workflow event or a workflow response that is not supported in a Microsoft Dynamics NAV solution, you must implement it by customizing the application code.  
 
- In the **Workflow** window, the workflow administrator creates a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, customized by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](/nav-content/dynamics-nav-app/across-how-to-create-workflows) in the application help.
+ In the **Workflow** window, the workflow administrator creates a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, customized by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](/dynamics-nav-app/across-how-to-create-workflows) in the application help.
 
  The following procedure describes how to add a new workflow event and a new workflow response to the application code and then register the involved object relations, so that the new elements can be used in workflows. The workflow administrator can then select the new workflow event and response from the **Workflow** window to incorporate them in new or existing workflow steps.  
 
@@ -23,7 +23,7 @@ If a business scenario requires a workflow event or a workflow response that is 
 > [!NOTE]  
 >  This topic refers to two types of events:  
 >   
-> - *Workflow Event*: An occurrence in the application that users in the client can select from the **Workflow** page to define workflow steps. For more information, see [Workflow](/nav-content/dynamics-nav-app/across-workflow) in the application Help.
+> - *Workflow Event*: An occurrence in the application that users in the client can select from the **Workflow** page to define workflow steps. For more information, see [Workflow](/dynamics-nav-app/across-workflow) in the application Help.
 > - *Event*: The declaration of the occurrence or change in the application. Workflow events typically subscribe to events. For more information, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  
 
  The development work involved in creating a new workflow event and a related workflow response consists of the following tasks, as a minimum:  
@@ -463,6 +463,6 @@ If a business scenario requires a workflow event or a workflow response that is 
  You have now enabled a new workflow scenario by implementing the required workflow event and response in the application code. The workflow administrator can now select the workflow event and workflow response from the **Workflow** page to define new or edit existing workflows. For more information, see [How to: Create Workflows](https://docs.microsoft.com/en-us/dynamics-nav-app/across-how-to-create-workflows) in the application help.
 
 ## See Also  
- [Workflow](/nav-content/dynamics-nav-app/across-workflow)   
+ [Workflow](/dynamics-nav-app/across-workflow)   
  [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
  [Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV](index.md)

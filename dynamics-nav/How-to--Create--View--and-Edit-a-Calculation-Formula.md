@@ -1,7 +1,8 @@
 ---
-title: "How to: Create, View, and Edit a Calculation Formula"
+title: FlowField Calculation Formula
+description: This topic describes the steps to take to create and revise a calculation formula for a FlowField of a table for create, view, and edit operations.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 12/05/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
