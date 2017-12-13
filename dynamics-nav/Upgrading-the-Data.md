@@ -274,17 +274,17 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
     Make a note of the location where you store the file.
 
-3. Publish the platform symbols to the Dynamics NAV server instance:
+2. Publish the platform symbols to the Dynamics NAV server instance:
 
     Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and run the following command:
 
     ```
-        Publish-NAVApp -ServerInstance <ServerInstanceName> -Path <SymbolFilePath> -PackageType SymbolsOnly
+    Publish-NAVApp -ServerInstance <ServerInstanceName> -Path <SymbolFilePath> -PackageType SymbolsOnly
     ```
-2. Make sure that **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup) is set on the Dynamics NAV server instance.
+3. Make sure that **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup) is set on the Dynamics NAV server instance.
 
     For more information, see [Configuring Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).
-3. Generate the application symbol references:
+4. Generate the application symbol references:
 
     Open a command prompt, change to the directory where the `finsql.exe` file has been installed as part of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], and then run the following command:
 
@@ -299,7 +299,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
     
     For more information about generation symbols, see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md).
 
-4. Publish all the extensions from the `\Extensions` folder of the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD):
+5. Publish all the extensions from the `\Extensions` folder of the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD):
 
     1. From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the following command for each extension.
 
@@ -318,7 +318,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
     For more information about publishing extensions, see [How to: Publish and Install an Extension](developer/devenv-how-publish-and-install-an-extension-v2.md).
 
-5.  Upgrade the V1 extensions that you uninstalled previously in Task 3 by reinstalling them. From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the following commands: 
+6.  Upgrade the V1 extensions that you uninstalled previously in Task 3 by reinstalling them. From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the following commands: 
 
     1. To get a list of the published extensions on the server instance, run this command:
     
@@ -336,15 +336,17 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         Replace `<Name>` and `<N.N.N.N>` with the name and version of the Extension V1 as it appeared in the previous step. For `<TenantID>`, in single-tenant deployments, you either specify `default`or you omit the `–Tenant` parameter.
         
         This will upgrade the V1 extensions.
-6.  Upgrade V2 extensions that are currently installed: 
+7.  Upgrade V2 extensions that are currently installed: 
 
     1. To get a list of the installed V2 extensions, run this command:
     
         ```
-        Get-NAVAppInfo -ServerInstance <ServerInstanceName>
+        Get-NAVAppInfo -ServerInstance <ServerInstanceName> -Tenant <TenantID>
         ```
         
-        V2 extensions are indicated by `ModernDev` in the `Extension Type`column.
+        Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance that the database connects to. Replace `<TenantID>` with the tenant ID of the database. If you do not have a multitenant server instance, use `default`.
+        
+        V2 extensions are indicated by `Extension Type : ModernDev`.
     2. For each Extension V2 that you want to upgrade, run this commands:
 
         ```
@@ -353,7 +355,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         ``` 
         
         This will upgrade the V2 extensions.
-7. For the Denmark (DK) local version of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you must install the following new V2 extensions in order to get all the local functionality.
+8. For the Denmark (DK) local version of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you must install the following new V2 extensions in order to get all the local functionality.
 
     |Name|Publisher|Version|
     |----|---------|-------|

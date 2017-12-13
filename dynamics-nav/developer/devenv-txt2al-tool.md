@@ -35,7 +35,7 @@ It is **very** important that you compile the database to get the right result i
 4. Export all **new and/or modified** objects using the following syntax:
 ```finsql.exe Command=ExportToNewSyntax, File=<filename.txt>, Database="<databasename>", ServerName=<servername> ,Filter=Type=table;ID=<tableID>``` The following example exports the table **225** from the Demo Database NAV 10-0 database:  
   ```finsql.exe Command=ExportToNewSyntax, File=exportedObjects.txt, Database="Demo Database NAV (10-0)", ServerName=.\NAVDEMO ,Filter=Type=table;ID=225```
-5. Create .delta files using the Compare-NAVApplicationObject powershell script. For more information, see [How to: Develop an Extension v1.0](https://msdn.microsoft.com/en-us/library/mt574395(v=nav.90).aspx).
+5. Create .delta files using the Compare-NAVApplicationObject powershell script. For more information, see [Generating DELTA Files](devenv-generating-delta-files.md).
 6. Go to the *\Program Files(x86)\DynamicsNAV\100\RoleTailored Client* folder and locate the **txt2al.exe** converter tool. 
 7. Run the tool from the command line using the following syntax:  
 ```txt2al --source --target --rename --type --extensionStartId```
