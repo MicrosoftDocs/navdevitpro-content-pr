@@ -1,15 +1,15 @@
 ---
 title: "Walkthrough: Creating and Using a Client Control Add-in"
-author: SusanneWindfeldPedersen
+author: jswymer
 ms.custom: na
-ms.date: 11/07/2016
+ms.date: 12/12/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 758fd34e-e77d-4d35-bea9-7dcef8f7ea40
-ms.author: SusanneWindfeldPedersen
+ms.author: jswmer
 caps.latest.revision: 27
 ---
 # Walkthrough: Creating and Using a Client Control Add-in
@@ -27,7 +27,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 
 -   [!INCLUDE[demolong](includes/demolong_md.md)].  
 
--   Microsoft Visual Studio Express or Microsoft Visual Studio 2013.  
+-   Microsoft Visual Studio Express or Microsoft Visual Studio.  
 
 -   Microsoft .NET Strong Name Utility \(sn.exe\). This is included with Windows SDKs.  
 
@@ -43,52 +43,45 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 
 1.  In Visual Studio, on the **File** menu, choose **New**, and then choose **Project**.  
 
-2.  Under **Installed Templates**, choose **Visual C\#**, and then choose **Class Library**.  
+2.  Under **Installed**, choose **Visual C\#**, and then choose **Class Library** (.NET Framework).  
 
 3.  In the **Solution Name** text box, enter the name of your solution. For example, you can enter **BingMapsControlAddIn** and then choose the **OK** button.  
 
-4.  You will add a reference to the following assembly: `Microsoft.Dynamics.Framework.UI.Extensibility.dll`  
+4.  Add a reference to the assembly `Microsoft.Dynamics.Framework.UI.Extensibility.dll`. 
 
-5.  In Solution Explorer, right-click your project, and then choose **Add Reference**.  
+    1.  In Solution Explorer, right-click your project, and then choose **Add > Reference**.  
 
-6.  In the **Add Reference** window, on the **Browse** tab, navigate to the location of the Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly on your computer, and then choose the **OK** button. By default, the path of the assembly is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client.  
+    2.  In the **Add Reference** window, choose **Browse**, navigate to the location of the `Microsoft.Dynamics.Framework.UI.Extensibility.dll` assembly on your computer, and then choose the **OK** button. By default, the path of the assembly is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client.  
 
-7.  Open the Class1.cs file and add the following **using** directive.  
+    3.  Open the Class1.cs file and add the following **using** directive.  
 
-    ```  
-    using Microsoft.Dynamics.Framework.UI.Extensibility;  
-    ```  
+        ```  
+        using Microsoft.Dynamics.Framework.UI.Extensibility;  
+        ```  
 
 8.  In the BingMapsControlAddIn namespace, add the following code to declare a new interface named **BingMapsControlAddIn**.  
 
     ```  
-    namespace BingMapsControlAddIn  
     {  
         [ControlAddInExport("BingMapsControl")]  
         public interface IBingMapsControlAddIn  
         {  
-            [ApplicationVisible]  
-            event ApplicationEventHandler ControlAddInReady;  
+            [ApplicationVisible]
+            event ApplicationEventHandler ControlAddInReady;
 
-            [ApplicationVisible]  
-            event ApplicationEventHandler MapLoaded;  
+            [ApplicationVisible]
+            void LoadMap(double latitude, double longitude);
 
-            [ApplicationVisible]  
-            void LoadMap(double latitude, double longitude);  
-
-            [ApplicationVisible]  
-            void ShowMiniMap(bool show);  
-
-            [ApplicationVisible]  
-            void ShowPushpin(string title, string imageName);  
+            [ApplicationVisible]
+            void ShowPushpin(string title, string imageName);
         }  
     }  
 
     ```  
 
-9. You will use the name `BingMapsControl` later in the walkthrough when you register the control add-in in [!INCLUDE[navnow](includes/navnow_md.md)].  
+You will use the name `BingMapsControl` later in the walkthrough when you register the control add-in in [!INCLUDE[navnow](includes/navnow_md.md)].  
 
- The assembly must now be signed to be used with [!INCLUDE[navnow](includes/navnow_md.md)]. The next steps will discuss how to sign the assembly.  
+The assembly must now be signed to be used with [!INCLUDE[navnow](includes/navnow_md.md)]. The next steps will discuss how to sign the assembly.  
 
 ### To sign the assembly  
 
@@ -96,7 +89,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 
 2.  In the **Properties** window, choose **Signing**, and then select the **Sign the assembly** check box.  
 
-3.  In the **Choose a strong name key file** drop-down list, select **New**.  
+3.  In the **Choose a strong name key file** drop-down list, select **\<New...\>**.  
 
 4.  In the **Key file name** text box, enter **BingMapsControlAddIn**, and then clear the **Protect my key file with a password** check box.  
 
@@ -111,47 +104,48 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 
 #### To copy the control add-in assembly to the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]  
 
-1.  On the computer, locate and copy the control add-in assembly file \(.dll\) file in the control add-in project’s output folder.  
+1.  In the control add-in project’s output folder, locate and copy the control add-in assembly file \(.dll\) file, for example BingMapsControlAddIn.dll.
 
-2.  By default, this folder is C:\\Documents\\MyDocuments\\Visual Studio\\Projects\\\[Your Addin Project\]\\\[Your Class Library\]\\bin\\Debug.  
+    The .dll is located in the *bin\Debug*folder. By default, the full folder path is *C:\\Documents\\MyDocuments\\Visual Studio\\Projects\\\[Your Addin Project\]\\\[Your Class Library\]\\bin\\Debug*.  
+ 
+3.  On the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], paste the assembly in the **Add-ins** folder.  
 
-3.  On the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], paste the assembly in the Add-ins folder.  
-
-     By default, this folder is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins.  
+     By default, this folder is *[!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins*.  
 
 ## Creating the Manifest File  
- After you create an interface in Visual Studio that exposes a number of properties for the BingMapsControlAddIn, you must create a manifest file. A manifest file is written in XML and contains information such as where to look for resource files, references to external JavaScripts, and the size of the control add-in. For more information, see [Manifest Overview](Manifest-Overview.md). In the next steps, you will create a manifest file that loads a BingMaps control and you will register this manifest in the **Client Add-in** page.  
+After you create an interface in Visual Studio that exposes a number of properties for the BingMapsControlAddIn, you must create a manifest file. A manifest file is written in XML and contains information such as where to look for resource files, references to external JavaScripts, and the size of the control add-in. For more information, see [Manifest Overview](Manifest-Overview.md). In the next steps, you will create a manifest file that loads a BingMaps control and register this manifest in the **Client Add-in** page.  
 
 #### To create the manifest file  
 
 1.  Copy this sample manifest and paste it into any text editor.  
 
     ```  
-    <?xml version="1.0" encoding="utf-8"?>  
-    <Manifest>  
-        <Resources>  
-            <Script>Script.js</Script>  
-        </Resources>  
-        <ScriptUrls>  
-          <ScriptUrl>http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.3</ScriptUrl>  
-        </ScriptUrls>  
+    <?xml version="1.0" encoding="utf-8"?>
+    <Manifest>
+        <Resources>
+            <Image>PushpinBlue.png</Image>
+            <Image>PushpinGreen.png</Image>
+            <Image>PushpinRed.png</Image>
+            <Script>Script.js</Script>
+            <StyleSheet>StyleSheet.css</StyleSheet>
+        </Resources>
 
-        <Script>  
-            <![CDATA[  
-               InitializeMap('controlAddIn');  
-               Microsoft.Dynamics.NAV.InvokeExtensibilityMethod('ControlAddInReady', null);  
-            ]]>  
-        </Script>  
-
-        <RequestedHeight>300</RequestedHeight>  
-        <RequestedWidth>700</RequestedWidth>  
-        <VerticalStretch>false</VerticalStretch>  
-        <HorizontalStretch>false</HorizontalStretch>  
-    </Manifest>  
-
+        <ScriptUrls>
+            <ScriptUrl>http://www.bing.com/api/maps/mapcontrol</ScriptUrl>
+        </ScriptUrls>
+    
+        <Script>
+            <![CDATA[Microsoft.Dynamics.NAV.InvokeExtensibilityMethod('ControlAddInReady', null);]]>
+        </Script>
+    
+        <RequestedHeight>500</RequestedHeight>
+        <RequestedWidth>500</RequestedWidth>
+        <VerticalStretch>true</VerticalStretch>
+        <HorizontalStretch>true</HorizontalStretch>
+    </Manifest>
     ```  
 
-2.  Save the manifest to a file that is in same directory that the assembly is saved in, the Add-ins directory.  
+2.  Save the manifest to a file that is in same directory that the assembly is saved in, the Add-ins directory (check).  
 
      Name the manifest **Manifest** and make sure to add the .xml extension to the file, so that the file name will now be **Manifest.xml**.  
 
@@ -165,61 +159,43 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 1.  Copy this sample script and paste it into any text editor.  
 
     ```  
-    var map = null;  
+    var map = null;
 
-        function InitializeMap(controlId) {  
-            map = new VEMap(controlId);  
-            map.HideScalebar();  
-            map.onLoadMap = function () {  
-            Microsoft.Dynamics.NAV.InvokeExtensibilityMethod ('MapLoaded', null);  
-            };  
-        }  
+    function LoadMap(latitude, longiture) {
+        map = new Microsoft.Maps.Map("#controlAddIn", {
+            credentials: "Your Bing Maps Key",
+            center: new Microsoft.Maps.Location(latitude, longiture),
+            mapTypeId: Microsoft.Maps.MapTypeId.aerial,
+            zoom: 18
+        }); 
+    }
 
-        function LoadMap(latitude, longiture) {  
-            var mapOptions = new VEMapOptions();  
-            mapOptions.DashboardColor = "black";  
-            mapOptions.EnableSearchLogo = false;  
+    function ShowPushpin(title, imageName) {
+        map.entities.clear();
 
-            map.LoadMap(  
-                new VELatLong(latitude, longiture), // Center  
-                1,                                  // Zoom level 1-19  
-                VEMapStyle.Birdseye,                // Map style  
-                false,                              // Fixed map  
-                VEMapMode.Mode2D,                   // Map mode  
-                true,                               // Map mode switch  
-                0,                                  // Tile buffer  
-                mapOptions                          // Options  
-            );  
-        }          
+        if (title !== "") {
+            var point = map.getCenter();
+            var imageUrl = Microsoft.Dynamics.NAV.GetImageResource(imageName);
+            var pushpin = new Microsoft.Maps.Pushpin(point, {
+                icon: imageUrl,
+                title: title
+            });
 
-        function ShowMiniMap(show) {  
-            if (show)  
-                map.ShowMiniMap();  
-            else  
-                map.HideMiniMap();  
-        }  
-
-        function ShowPushpin(title, imageName) {  
-            map.Clear();   
-
-            if (title != '') {  
-                var point = map.GetCenter();  
-                var pushpin = map.AddPushpin(point);  
-                pushpin.SetTitle(title);  
-            }  
-        }  
+            map.entities.push(pushpin);
+        }
+    }
     ```  
 
-2.  Save and name the script **Script** and make sure to add the .js extension to the file, so that the file name will now be **Script.js**.  
+2.  Save and name the script **Script** and make sure to add the .js extension to the file, so that the file name will now be **Script.js**. You can save this file anywhere you like.  
 
- The next step is to create a .zip file containing the manifest and resource files and register this file with the control add-in in [!INCLUDE[navnow](includes/navnow_md.md)].  
+The next step is to create a .zip file containing the manifest and resource files and register this file with the control add-in in [!INCLUDE[navnow](includes/navnow_md.md)].  
 
 ## Creating a Resource .Zip File  
- Before registering the control add-in in [!INCLUDE[navnow](includes/navnow_md.md)], you must create one single file containing the manifest and any resource files. This single file is a .zip file and it will be registered in the **Client Add-in** page. The .zip file must contain a certain structure for it to be recognized by the **Client Add-in** page. In the next steps, you will create the right structure and a .zip file.  
+Before registering the control add-in in [!INCLUDE[navnow](includes/navnow_md.md)], you must create one single file containing the manifest and any resource files. This single file is a .zip file and it will be registered in the **Client Add-in** page. The .zip file must contain a certain structure for it to be recognized by the **Client Add-in** page. In the next steps, you will create the right structure and a .zip file.  
 
 #### To create a resource .zip file  
 
-1.  On your computer, in a folder of your own choice, create the following folder structure: **Image**, **Script**, and **StyleSheet**.  
+1.  On your computer, in a folder of your own choice, create the following folders: **Image**, **Script**, and **StyleSheet**.  
 
 2.  Locate the **Manifest.xml** file that you created in the previous steps, and copy this to the same folder structure. Then locate the **Script.js** file that you created in the previous steps, and copy this to the **Script** folder. Your folder should now look like this:  
 
@@ -227,12 +203,12 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 
 3.  Place images, scripts, and stylesheets in the right folders, but in this walkthrough we will leave the rest of these folders empty.  
 
-4.  In the Windows Explorer mark all of the folders and the manifest file and right-click, and then choose **Send to…**, and then choose **Compressed \(zipped\) folder**.  
+4.  In Windows Explorer select all of the folders and the manifest file, right-click, and then choose **Send to…**, and then choose **Compressed \(zipped\) folder**.  
 
 5.  Name the .zip file **BingMapsControlAddIn**.  
 
 ## Registering the Control Add-in in [!INCLUDE[navnow](includes/navnow_md.md)]  
- To register a control add-in, you include it in the **Control Add-in** page in [!INCLUDE[navnow](includes/navnow_md.md)]. To include a control add-in in the page, you must provide the following information:  
+ To register a control add-in, you include it in the **Control Add-ins** page in [!INCLUDE[navnow](includes/navnow_md.md)]. To include a control add-in in the page, you must provide the following information:  
 
 -   Control Add-in name.  
 
@@ -250,7 +226,11 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 
 #### To determine the public key token for the control add-in  
 
-1.  On the Windows taskbar, choose **Start**, choose **All Programs**, choose **Microsoft Visual Studio 2013**, choose **Visual Studio Tools**, and then choose **Developer Command Prompt for VS2013** to open the command prompt.  
+1.  To determine the public key token, you use the you can run the Strong Name tool \(sn.exe\) on the control add-in assembly.
+
+    -   Depending on the Microsoft Visual Studio version you have, you can run this from the Visual Studio Developer Command Prompt. To do this, choose **Start**, choose **All Programs**, choose **Microsoft Visual Studio**, choose **Visual Studio Tools**, and then choose **Developer Command Prompt** to open the command prompt.  
+    
+    -   Otherwise, you can open a command prompt from the Windows **Start** menu, and then navigate to the location of the sn.exe file. The location will depend on your operating system and the installed Microsoft .NET Framework SDK. For example, *C:\\Program Files\\Microsoft SDKs\\Windows\\v7.0\\Bin* or *C:\\Utils\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools\\x64*. The easiest way is to seacrh your computer for this file. 
 
 2.  At a command prompt, change to the directory that contains the assembly that you copied. For example, [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins.  
 
@@ -279,7 +259,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 3.  Choose the **OK** button to close the **Control Add-in** page.  
 
 ## Creating a Page to Display the Control Add-in  
- You have set up the prerequisites for using a control add-in from a page. Now you need a way to display the BingMapsControlAddIn control. In this section, you will create a new page called **Bing Maps** that contains two fields to control the coordinates of the map and one field that contains the map control. This involves the following tasks:  
+You have set up the prerequisites for using a control add-in from a page. Now you need a way to display the BingMapsControlAddIn control. In this section, you will create a new page called **Bing Maps** that contains two fields to control the coordinates of the map and one field that contains the map control. This involves the following tasks:  
 
 -   Creating a new page called Bing Maps.  
 
@@ -303,7 +283,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 
 7.  On a new line, choose **Group**, and in the **Caption** column, enter **Map**.  
 
-8.  On a new line, under the **Map** group, for the **Type** column set to **Field**, in the **Name** column, enter **Bing Maps Control**.  
+8.  On a new line, under the **Map** group, for the **Type** column set to **Field**, in the **Name** column, enter **BingMapsControl**.  
 
      Your page design should now look like this.  
 
@@ -315,7 +295,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 
 ##### To add variables and properties  
 
-1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], in Object Designer, choose **Page**, and then choose the **Bing Maps** page.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], in Object Designer, choose **Page**, and then choose the **Bing Maps** page. 
 
 2.  On the **Tools** menu, choose **View**, and then **C/AL Globals**.  
 
@@ -333,9 +313,12 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 
 9. Select the **BingMapsControl** field, and then on the **View** menu, choose **Properties**.  
 
-10. In the **Properties** window, locate the **ControlAddIn** property and choose the Up Arrow. Select the **BingMapsControl** control add-in from the **Client Add-in** window.  
+10. In the **Properties** window, locate the **ControlAddIn** property and choose the Up Arrow. Select the **BingMapsControl** control add-in from the **Client Add-in** window.
 
-11. Choose the **OK** button to close the **Client Add-In** window. The public key token is inserted into the **Value** field. Close the **Properties** window.  
+11. Choose the **OK** button to close the **Client Add-In** window. The public key token is inserted into the **Value** field.
+    The field value should look similar to this: `BingMapsControl;PublicKeyToken=daf55d6ceedb18d5`.
+    
+12. Close the **Properties** window.  
 
 ##### To add C/AL triggers  
 
@@ -347,20 +330,14 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
     CurrPage.BingMapControl.LoadMap(Latitude, Longitude);  
     ```  
 
-3.  In the **Page Bing Maps – C/AL Editor** window, locate the `BingMapControl::MapLoaded()` trigger, and add the following line of code.  
-
-    ```  
-    CurrPage.BingMapControl.ShowMiniMap(MiniMap);  
-    ```  
-
-4.  Finally, locate the `OnInit()` trigger, and add the following line of code.  
+3. Finally, locate the `OnInit()` trigger, and add the following line of code.  
 
     ```  
     Latitude := 40.689467;  
     Longitude :=  74.044444;  
     ```  
 
-5.  Save and compile the Bing Maps page.  
+4.  Save and compile the Bing Maps page.  
 
  After you have saved and compiled the **Bing Maps** page, you can run the page directly from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to verify that it works on the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [Opening a Page in the Microsoft Dynamics NAV Web Client by Using a URL](Opening-a-Page-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md).  
 
