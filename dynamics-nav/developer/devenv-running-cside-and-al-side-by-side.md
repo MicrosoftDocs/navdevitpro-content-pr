@@ -33,7 +33,7 @@ finsql.exe Command=generatesymbolreference, Database=”Demo Database NAV (11-0)
 > This is a lengthy operation.
 
 ## Continuously generate symbols each time you compile objects in C/SIDE
-Use `generatesymbolreference` set to yes as a command line argument each time you start finsql.exe to have all compilations add a symbol reference to the **NAV App Object Metadata** table. The default setting of the argument is no. 
+Use `generatesymbolreference` set to yes as a command line argument each time you start finsql.exe to have all compilations add a symbol reference to the **Object Metadata** table. The default setting of the argument is no. 
 
 > [!NOTE] 
 > If you make changes in C/SIDE and start the C/SIDE development environment without the `generatesymbolreference` flag set to `yes`, no symbols will be generated when downloading symbols from Visual Studio Code.
