@@ -19,7 +19,7 @@ caps.latest.revision: 18
 Dynamics NAV 2018 supports development using both C/SIDE and AL, as well as the in-client designer side-by-side. When new objects are added or changed in C/SIDE these changes must be reflected in the symbol download in Visual Studio Code using the AL Language extension. To enable this reflection, a new command and argument has been added to finsql.exe called `generatesymbolreference`, run it as illustrated below.
 
 ## Get started generating symbols and compiling all objects
-Use the `generatesymbolreference` command specified with the database and server name. This command will add symbol references to the **NAV App Object Metadata** table for the specified database. 
+Use the `generatesymbolreference` command specified with the database and server name. This command will add symbol references to the **Object Metadata** table for the specified database. 
 
 > [!IMPORTANT] 
 > Run this command at least once to have a set of symbol references.
