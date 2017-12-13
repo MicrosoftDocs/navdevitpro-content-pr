@@ -33,6 +33,7 @@ The following features are not intended for use in on-premises deployments. Ther
 | **Feature**                      |**Description**                                  |
 |----------------------------------|-------------------------------------------------|
 | Help mapping       |Online deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)] use a system table to look up Help on the docs.microsoft.com site. This is not supported for on-premises deployments, where only Help Server is supported.|
+|In-product search in Help| In online deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)], you can extend an in-product search to also search in help content on the docs.microsoft.com site. This is not supported for on-premises deployments, where only Help Server is supported.|
 |Inviting the external accountant|Integration with [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] is not supported in on-premises deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)].|
 |Bulk Invoicing from Microsoft Bookings|Integration with the Bookings app in Office Business Premium is not supported.|
 
