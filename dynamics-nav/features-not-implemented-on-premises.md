@@ -26,6 +26,7 @@ The following features are not available in all on-premises deployments because 
 |Coversheets for contact management|The integration with Word to create the coversheets requires Azure Active Directory as the authentication mechanism.|
 | Built-in Power BI reports and charts       |The integration with Power BI requires Azure Active Directory as the authentication mechanism. |
 |Built-in web services |A number pages and queries are exposed as web services. However, the default endpoint must be manually updated before the web services can be consumed.|
+|Outlook add-in|The Outlook add-in requires Dynamics NAV User/Password or Azure Active Directory as the authentication mechanism. |
 
 ## Features not intended for use in on-premises deployments
 The following features are not intended for use in on-premises deployments. There are no plans to implement these features in on-premises deployments.
@@ -36,6 +37,7 @@ The following features are not intended for use in on-premises deployments. Ther
 |In-product search in Help| In online deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)], you can extend an in-product search to also search in help content on the docs.microsoft.com site. This is not supported for on-premises deployments, where only Help Server is supported.|
 |Inviting the external accountant|Integration with [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] is not supported in on-premises deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)].|
 |Bulk Invoicing from Microsoft Bookings|Integration with the Bookings app in Office Business Premium is not supported.|
+|Create Workflow from Flow|Microsoft Flow does not integrate with on premise workflow functionality.|
 
 ## See Also
 [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)
