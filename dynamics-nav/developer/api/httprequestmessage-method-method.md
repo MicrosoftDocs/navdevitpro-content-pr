@@ -2,7 +2,7 @@
 title: "Method Property"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,5 +23,7 @@ Gets or sets the method type as defined in the HTTP standard.
 Type: Text
 
 ## See Also
+[HttpRequestMessage](httprequestmessage-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)
