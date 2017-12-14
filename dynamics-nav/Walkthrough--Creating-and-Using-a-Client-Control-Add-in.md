@@ -31,7 +31,11 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 
 -   Microsoft .NET Strong Name Utility \(sn.exe\). This is included with Windows SDKs.  
 
--   Experience using Visual Studio.  
+-   Experience using Visual Studio.
+
+-   (Optional) Create three image files that can be used for indicating pinpoints on the map, for example PushpinBlue.png, PushpinGreen.png, and PushpinRed.png.
+
+-   (Optional) Create a style sheet, for example Style.css, that can be used for styling the map in the client.
 
 ## Story  
  Simon is a software developer working for [!INCLUDE[demoname](includes/demoname_md.md)] He has been told that the users of the [!INCLUDE[nav_web](includes/nav_web_md.md)] want to see Bing Maps displayed on the Web client. He wants to use the client extensibility framework to test how to do this on a separate page first.  
@@ -145,6 +149,8 @@ After you create an interface in Visual Studio that exposes a number of properti
     </Manifest>
     ```  
 
+    >[!NOTE]
+    > If you do not have images or a style sheet, leave the `<image>` and `<StyleSheet>` elements blank.
 2.  Save the manifest to a file that is in same directory that the assembly is saved in, the Add-ins directory (check).  
 
      Name the manifest **Manifest** and make sure to add the .xml extension to the file, so that the file name will now be **Manifest.xml**.  
@@ -195,13 +201,16 @@ Before registering the control add-in in [!INCLUDE[navnow](includes/navnow_md.md
 
 #### To create a resource .zip file  
 
-1.  On your computer, in a folder of your own choice, create the following folders: **Image**, **Script**, and **StyleSheet**.  
+1.  On your computer, in a folder of your own choice, create the following folders: **Image**, **Script**, and **StyleSheet**. 
+
+    >[!NOTE]
+    > If you do not have images or a style sheet, then you do not need the **Image** and **StyleSheet** folders.  
 
 2.  Locate the **Manifest.xml** file that you created in the previous steps, and copy this to the same folder structure. Then locate the **Script.js** file that you created in the previous steps, and copy this to the **Script** folder. Your folder should now look like this:  
 
      ![Folder structure before creating the .zip file](media/ControlAddInSingleFileFolderStructure.png "ControlAddInSingleFileFolderStructure")  
 
-3.  Place images, scripts, and stylesheets in the right folders, but in this walkthrough we will leave the rest of these folders empty.  
+3.  Place images, scripts, and stylesheets in the right folders.  
 
 4.  In Windows Explorer select all of the folders and the manifest file, right-click, and then choose **Send to…**, and then choose **Compressed \(zipped\) folder**.  
 
