@@ -21,7 +21,7 @@ XmlAttributeCollection.Remove(Name)
 ```  
 ## Parameters
 *Name*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 The qualified name of the attribute to remove.  
   
 ## See Also

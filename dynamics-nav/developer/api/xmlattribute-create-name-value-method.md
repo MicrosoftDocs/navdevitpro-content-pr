@@ -23,11 +23,11 @@ XmlAttribute := XmlAttribute.Create(Name, Value)
 ```  
 ## Parameters
 *Name*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 The qualified name of the attribute. If the name is of the form {namespace}localName, it will be qualified with the given namespace.  
   
 *Value*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 The value of the attribute.  
   
 ## Return Value

@@ -33,7 +33,7 @@ Reads the JSON data from the stream into a JsonObject variable.
 The InStream object from which the JSON data will be read.
 
 ## Property Value/Return Value
-Type: Boolean
+&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
 
 **True** if the read was successful; otherwise, **false**.
 

@@ -33,7 +33,7 @@ Serializes and writes the JSON data of the JsonArray to a given OutStream object
 The OutStream object to which the JSON data will be written.
 
 ## Property Value/Return Value
-Type: Boolean
+&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
 
 **True** if the write was successful; otherwise, **false**.
 

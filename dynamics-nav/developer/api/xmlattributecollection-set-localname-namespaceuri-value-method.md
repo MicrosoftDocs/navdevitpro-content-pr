@@ -21,15 +21,15 @@ XmlAttributeCollection.Set(LocalName, NamespaceUri, Value)
 ```  
 ## Parameters
 *LocalName*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 The local name of the attribute to set.  
   
 *NamespaceUri*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 The namespace URI of the attribute to set.  
   
 *Value*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 The value to set for the attribute.  
   
 ## See Also

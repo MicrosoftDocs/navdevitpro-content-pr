@@ -23,7 +23,7 @@ XmlElement := XmlElement.Create(Name, Content,...)
 ```  
 ## Parameters
 *Name*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 The fully qualified name of the element to create.  
   
 *Content*    

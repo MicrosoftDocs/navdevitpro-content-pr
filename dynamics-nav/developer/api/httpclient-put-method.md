@@ -35,7 +35,7 @@ Sends a PUT request to the specified Uniform Resource Identifier (URI) as an asy
 
 ## Return Value
 *Ok*  
-&emsp;Type: Boolean  
+&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)  
 &emsp;**True** if the operation was successful; otherwise, **false**.
 
 Accessing the [HttpContent](httpcontent-class.md) property of [HttpResponseMessage](httpresponsemessage-class.md) in a case when the request fails will result in an error.
