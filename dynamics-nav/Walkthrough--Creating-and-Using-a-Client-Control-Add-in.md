@@ -18,7 +18,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 > [!IMPORTANT]  
 >  This walkthrough addresses the [!INCLUDE[navnow](includes/navnow_md.md)] implementation of extensibility. This makes it possible to write control add-ins for all display targets. For information about how to write control add-ins specifically for [!INCLUDE[nav_windows](includes/nav_windows_md.md)], see [Extending the Windows Client Using Control Add-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md).  
 
- In a typical business scenario, developers create control add-ins using Microsoft Visual Studio Express, or Visual Studio 2013. Implementers of [!INCLUDE[navnow](includes/navnow_md.md)] solutions then use the control add-ins on [!INCLUDE[navnow](includes/navnow_md.md)] client pages, such as the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the [!INCLUDE[nav_web](includes/nav_web_md.md)], or the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)].  
+ In a typical business scenario, developers create control add-ins using Microsoft Visual Studio Express, or Visual Studio. Implementers of [!INCLUDE[navnow](includes/navnow_md.md)] solutions then use the control add-ins on [!INCLUDE[navnow](includes/navnow_md.md)] client pages, such as the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the [!INCLUDE[nav_web](includes/nav_web_md.md)], or the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)].  
 
 ## Prerequisites  
  To complete this walkthrough, you will need:  
@@ -243,9 +243,13 @@ Before registering the control add-in in [!INCLUDE[navnow](includes/navnow_md.md
 
 2.  At a command prompt, change to the directory that contains the assembly that you copied. For example, [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins.  
 
-3.  Type the following command: `sn –T <assembly>`  
+3.  Type the following command:
 
-     Replace `<assembly>` with the assembly name, such as BingMapsControlAddIn.dll.  
+    ```
+    sn –T <assembly>
+    ```  
+
+    Replace `<assembly>` with the assembly name, such as BingMapsControlAddIn.dll.  
 
 4.  Press Enter and note the public token key that is displayed.  
 
