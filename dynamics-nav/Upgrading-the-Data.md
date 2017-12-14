@@ -165,7 +165,11 @@ Using the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short
 
     For more information, see [How to: Import Objects](how-to--import-objects.md).
 
-2. When you import the FOB file, if you experience metadata conflicts, the **Import Worksheet** windows appears. Use this window to handle these conflicts. For more information, see [Import Worksheet](Import-Worksheet.md).
+2. When you import the FOB file, if you experience metadata conflicts, the **Import Worksheet** windows appears.
+
+    Review the Worksheet page. For more information, see [Import Worksheet](Import-Worksheet.md).
+    
+    Choose **Replace All** to continue.
 
 3. **IMPORTANT** When prompted about table synchronization, set the **Synchronize Schema** option to **Later**.  
 
