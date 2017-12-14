@@ -33,6 +33,12 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 
 -   Experience using Visual Studio.
 
+- Bing Maps account and key. For information, see the following:
+
+    [Creating a Bing Maps Account](https://msdn.microsoft.com/en-us/library/gg650598.aspx)
+    
+    [Getting a Bing Maps Key](https://msdn.microsoft.com/en-us/library/ff428642.aspx)
+
 -   (Optional) Create three image files that can be used for indicating pinpoints on the map, for example PushpinBlue.png, PushpinGreen.png, and PushpinRed.png.
 
 -   (Optional) Create a style sheet, for example Style.css, that can be used for styling the map in the client.
@@ -77,7 +83,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
             void LoadMap(double latitude, double longitude);
 
             [ApplicationVisible]
-            void ShowPushpin(string title, string imageName);
+            void ShowPusourhpin(string title, string imageName);
         }  
     }  
 
@@ -169,7 +175,7 @@ After you create an interface in Visual Studio that exposes a number of properti
 
     function LoadMap(latitude, longiture) {
         map = new Microsoft.Maps.Map("#controlAddIn", {
-            credentials: "Your Bing Maps Key",
+            credentials: "Enter your Bing Maps key here",
             center: new Microsoft.Maps.Location(latitude, longiture),
             mapTypeId: Microsoft.Maps.MapTypeId.aerial,
             zoom: 18
