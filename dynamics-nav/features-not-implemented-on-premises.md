@@ -37,7 +37,7 @@ The following features are not intended for use in on-premises deployments. Ther
 |In-product search in Help| In online deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)], you can extend an in-product search to also search in help content on the docs.microsoft.com site. This is not supported for on-premises deployments, where only Help Server is supported.|
 |Inviting the external accountant|Integration with [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] is not supported in on-premises deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)].|
 |Bulk Invoicing from Microsoft Bookings|Integration with the Bookings app in Office Business Premium is not supported.|
-|Create Workflow from Flow|Microsoft Flow does not integrate with on premise workflow functionality.|
+|Create Workflow from Flow|Microsoft Flow does not integrate with on-premises workflow functionality.|
 
 ## See Also
 [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)
