@@ -2,7 +2,7 @@
 title: "Content Property"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -24,8 +24,11 @@ HttpResponseMessage.Content
 ```
 
 ## Property Value
-Type: HttpContent
+Type: [HttpContent](httpcontent-class.md)
 
 ## See Also
+[HttpResponseMessage](httpresponsemessage-class.md)  
+[HttpContent](httpcontent-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)
