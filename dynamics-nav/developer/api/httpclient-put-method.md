@@ -25,7 +25,7 @@ Sends a PUT request to the specified Uniform Resource Identifier (URI) as an asy
 
 ## Parameters
 *Path*  
-&emsp;Type: String
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 
 *Content*  
 &emsp;Type: [HttpContent](httpcontent-class.md)
