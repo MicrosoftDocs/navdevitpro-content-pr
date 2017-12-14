@@ -1,7 +1,8 @@
 ---
-title: "How to: Create Databases"
+title: Create Databases
+description: Create a new Dynamics NAV database in the development environment and by using the New-NAVDatabase cmdlet in the Administration Shell. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 12/05/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,7 +13,7 @@ caps.latest.revision: 9
 manager: edupont
 author: jswymer
 ---
-# How to: Create Databases
+# Creating Databases
 You can create new [!INCLUDE[navnow](includes/navnow_md.md)] databases in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and by using the [New-NAVDatabase](http://go.microsoft.com/fwlink/?LinkID=401374) cmdlet in the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].  
 
  When you create a database you must specify the SQL Server instance for the database and the authentication type.  

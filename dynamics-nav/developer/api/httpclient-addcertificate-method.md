@@ -2,7 +2,7 @@
 title: "AddCertificate Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,7 +23,7 @@ HttpClient.AddCertificate(certificate, password)
 ```
 ## Parameters
 *HttpClient*  
-&emsp;Type: HttpClient
+&emsp;Type: [HttpClient](httpclient-class.md)
 
 *certificate*  
 &emsp;Type: Text
@@ -36,5 +36,7 @@ HttpClient.AddCertificate(certificate, password)
 The certificate must be in base 64 format.
 
 ## See Also
+[HttpClient](httpclient-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
-[Developing Extensions](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)  
