@@ -23,12 +23,12 @@ Atomizes the specified string and adds it to the NameTable.
 ```  
 ## Parameters
 *Key*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 The string to add.  
   
 ## Return Value
 *AddedKey*  
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

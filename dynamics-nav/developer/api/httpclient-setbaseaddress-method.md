@@ -25,11 +25,12 @@ Sets the base address of Uniform Resource Identifier (URI) of the Internet resou
 ```
 ## Parameters
 *Path*  
-Type: String
+Type: [String](/datatypes/devenv-text-data-type.md)
 
 ## Return value
 *Ok*  
-&emsp;Type: Boolean  
+&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)  
+
 &emsp;**True** if the operation was successful; otherwise, **false**.
 
 ## See Also

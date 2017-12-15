@@ -28,11 +28,12 @@ Reads the content into the provided text.
 &emsp;Type: [HttpContent](httpcontent-class.md)
 
 *Result*  
-&emsp;Type: Text or InStream
+&emsp;Type: [Text](/datatypes/devenv-text-data-type.md) or [InStream](/datatypes/devenv-instream-and-outstream-data-types.md)
 
 ## Return Value
 *Ok*  
-&emsp;Type: Boolean  
+&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)  
+
 &emsp;**True** if the operation was successful; otherwise, **false**.
 
 Accessing the [HttpContent](httpcontent-class.md) property of [HttpResponseMessage](httpresponsemessage-class.md) in a case when the request fails will result in an error.
