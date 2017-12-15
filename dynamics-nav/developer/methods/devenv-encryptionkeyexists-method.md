@@ -1,15 +1,14 @@
 ---
-title: "ENCRYPTIONKEYEXISTS Method
+title: "ENCRYPTIONKEYEXISTS Method"
 ms.custom: na
 ms.date: 07/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: c31eb42b-c3a4-4592-b712-a24bb6141ccc
-caps.latest.revision: 5
-author: jswymer
+author: SusanneWindfeldPedersen
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]

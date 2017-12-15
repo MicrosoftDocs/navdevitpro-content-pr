@@ -1,5 +1,6 @@
 ---
-title: "Development"
+title: Getting Started with C/AL Development 
+description: Start learning about C/AL, build your C/AL knowledge, build an application, and the know earlier versions of Microsoft Dynamics NAV.
 author: jswymer
 ms.custom: na
 ms.date: 01/02/2017
@@ -11,7 +12,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 98866f17-c121-45a2-8fd0-62e213a43606
 manager: edupont
 ---
-# Development
+# Development in Microsoft Dynamics NAV 
 Before you begin developing code for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you should consider the following:  
 
 -   How to start learning about C/AL.  
@@ -25,6 +26,9 @@ Before you begin developing code for [!INCLUDE[navnowlong](includes/navnowlong_m
 -   What the differences are between developing in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)].  
 
 -   How to upload and download files between the server and the client.  
+
+> [!NOTE]
+> To develop extensions for [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[d365fin_long_md.md](includes/d365fin_long_md.md)] you use the AL language. For more information, see [Getting Started with AL](developer/devenv-get-started.md).
 
 ## Developing in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]  
 

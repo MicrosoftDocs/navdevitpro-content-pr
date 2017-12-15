@@ -1,1 +1,1 @@
-Financials development environment
+AL Language development environment

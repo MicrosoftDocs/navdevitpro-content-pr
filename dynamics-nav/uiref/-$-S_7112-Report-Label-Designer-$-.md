@@ -1,5 +1,5 @@
 ---
-title: "Report Label Designer
+title: Report Label Designer
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -8,7 +8,6 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 04163202-1fdc-4306-aa46-5651ce1bd61b
-caps.latest.revision: 11
 manager: edupont
 ---
 # Report Label Designer

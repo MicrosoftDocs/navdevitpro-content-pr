@@ -1,7 +1,5 @@
 ---
 title: "DATAFILEINFORMATION Method (Database)"
-author: edupont04
-manager: edupont04
 ms.custom: na
 ms.date: 10/14/2016
 ms.reviewer: na
@@ -10,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-financials
 ms.assetid: 731a41c4-85c7-42c6-8dc6-00a7dcd090b2
-caps.latest.revision: 3
+author: SusanneWindfeldPedersen
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]

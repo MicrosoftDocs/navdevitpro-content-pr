@@ -1,6 +1,6 @@
 ---
 title: paymentMethods resource type | Microsoft Docs
-description: A Payment Method object.
+description: A payment method object in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,16 +15,19 @@ ms.author: solsen
 ---
 
 # paymentMethods resource type
-Represents a method of payment in Dynamics 365 for Financials, such as PayPal, credit card, and bank account.
+Represents a method of payment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)], such as PayPal, credit card, and bank account.
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method                                                          | Return Type  |Description             |
 |:----------------------------------------------------------------|:-------------|:-----------------------|
-|[GET paymentMethods](../api/dynamics_get_paymentmethods.md)      |paymentMethods|Get a Payment Method.   |
-|[POST paymentMethods](../api/dynamics_create_paymentmethods.md)  |paymentMethods|Create a Payment Method.|
-|[PATCH paymentMethods](../api/dynamics_update_paymentmethods.md) |paymentMethods|Update a Payment Method.|
-|[DELETE paymentMethods](../api/dynamics_delete_paymentmethods.md)|none          |Delete a Payment Method.|
+|[GET paymentMethods](../api/dynamics_paymentmethods_get.md)      |paymentMethods|Gets a payment method object.   |
+|[POST paymentMethods](../api/dynamics_create_paymentmethods.md)  |paymentMethods|Creates a payment method object.|
+|[PATCH paymentMethods](../api/dynamics_paymentmethods_update.md) |paymentMethods|Updates a payment method object.|
+|[DELETE paymentMethods](../api/dynamics_paymentmethods_delete.md)|none          |Deletes a payment method object.|
 
 ## Properties
 | Property	         | Type	  |Description                                                  |
@@ -54,4 +57,4 @@ Here is a JSON representation of the paymentMethods.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

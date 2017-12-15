@@ -1,7 +1,8 @@
 ---
-title: "How to: Add Translated Strings for Conflicting Text Encoding Formats"
+title: Add Translated Strings for Conflicting Text Encoding Formats
+description: Configure solution for users with different regional settings and formats by allowing access to the same Server but see UI strings in their local language.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: cf0de1f9-a072-4c94-9110-e31e3cfc6a04
 caps.latest.revision: 4
 ---
-# How to: Add Translated Strings for Conflicting Text Encoding Formats
+# How to Add Translated Strings for Conflicting Text Encoding Formats in Dynamics NAV
 You can configure your [!INCLUDE[navnow](includes/navnow_md.md)] solution so that users with different regional settings and text formats can access the same [!INCLUDE[nav_server](includes/nav_server_md.md)] and see user interface strings in their local language. This functionality supplements the use of language modules and helps resolve issues with conflicting text encoding.  
   
  The following procedure assumes that your solution contains strings in English and Dutch, and that you want to add support for Chinese. English and Dutch follow the same text encoding format, so you have been able to import the translation into Dutch to your [!INCLUDE[navnow](includes/navnow_md.md)] solution. But you cannot import strings in Chinese into the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] because the text file cannot handle Chinese as well as Dutch and English. The same situation will occur if you want to add Chinese and Japanese to your solution.  

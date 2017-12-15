@@ -1,8 +1,9 @@
 ---
-title: "How to: Create a Profile"
+title: Create a Profile
+description: Profile card is used to create profiles for end users – typically based on job titles in a company, and each profile is associated with a Role Center.
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 10/25/2016
+ms.date: 11/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,7 +13,7 @@ ms.assetid: a70e92fa-2956-4895-a798-975ae0d1d475
 caps.latest.revision: 6
 ---
 
-# How to: Create a Profile
+# Creating a Profile in Dynamics NAV
 You use the **Profile** card to create profiles for end users. Each profile is associated with a Role Center. Profiles are typically based on job titles in a company.  
   
 ## Creating a Profile  

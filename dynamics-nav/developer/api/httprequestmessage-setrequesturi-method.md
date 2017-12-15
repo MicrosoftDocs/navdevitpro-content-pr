@@ -2,7 +2,7 @@
 title: "SetRequestUri Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,7 +25,7 @@ Sets Uniform Resource Identifier (URI) used for the HTTP request.
 
 ## Parameters
 *HttpRequestMessage*  
-&emsp;Type: HttpRequestMessage
+&emsp;Type: [HttpRequestMessage](httprequestmessage-class.md)
 
 *RequestUri*  
 &emsp;Type: Text
@@ -36,5 +36,7 @@ Sets Uniform Resource Identifier (URI) used for the HTTP request.
 &emsp;**True** if the URI was valid; otherwise, **false**.
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[HttpRequestMessage](httprequestmessage-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

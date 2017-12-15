@@ -1,7 +1,8 @@
 ---
-title: "Pages"
+title: Documentation for Developing Pages
+description: Pages are the main way to interact with the RoleTailored client user interface. Locate the documentation for how to develop the Pages in Dynamics NAV.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: a07f67fd-b684-430d-b3fc-bb66e1e3d357
 caps.latest.revision: 16
 manager: edupont
 ---
-# Pages
+# Developing Pages in Microsoft Dynamics NAV
 The following sections provide an overview of how to locate [!INCLUDE[navnow](includes/navnow_md.md)] documentation about developing pages.  
   
  In [!INCLUDE[navnow](includes/navnow_md.md)], pages provide the main way to interact with the RoleTailored client user interface. Pages are XML-based and can be displayed on multiple display targets. They are also role based to the needs of individual users.  

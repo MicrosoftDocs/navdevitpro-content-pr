@@ -1,5 +1,6 @@
 ---
-title: "Managing User Groups in Dynamics NAV"
+title: User Groups and Permissions
+description: Dynamics NAV is managed in user groups. Set up user groups, add and remove permissions, and apply changes to all or specific user groups.
 author: edupont04
 ms.custom: na
 ms.date: 10/21/2016

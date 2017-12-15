@@ -1,7 +1,8 @@
 ---
-title: "Upgrading to Microsoft Dynamics NAV 2017"
+title: Upgrade Microsoft Dynamics NAV
+description: This article explains the tasks ranging from converting the database to upgrading application code and data for upgrading Microsoft Dynamics NAV.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/17/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ manager: edupont
 ms.prod: "dynamics-nav-2017"
 
 ---
-# Upgrading to [!INCLUDE[nav2017](includes/nav2017.md)]
+# Upgrading to Microsoft Dynamics NAV 2017
 This topic provides an overview of how to upgrade to [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. The upgrade process depends on different factors, such as the version of [!INCLUDE[navnow](includes/navnow_md.md)] that you are upgrading from, and the degree to which your solution differs from the standard version of [!INCLUDE[navnow](includes/navnow_md.md)]. The mains tasks range from converting the database to upgrading application code and data.
 
 Use the following table to determine the procedures that you must complete for your upgrade scenario.

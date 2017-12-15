@@ -1,8 +1,6 @@
 ---
-title: customer resource type | Microsoft Docs
-description: A customer.
-services: project-madeira
-documentationcenter: ''
+title: customers resource type | Microsoft Docs
+description: Represents a customer in Dynamics 365 for Finance and Operations, Business edition.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-financials
@@ -10,21 +8,24 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ems.date: 07/11/2017
+ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# customer resource type
-Represents a customer in Dynamics 365 for Financials.
+# customers resource type
+Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method                                              |Return Type| Description      |
 |:----------------------------------------------------|:----------|:-----------------|
-|[GET customer](../api/dynamics_get_customer.md)      |customer   |Get a customer.   |
-|[CREATE customer](../api/dynamics_create_customer.md)|customer   |Create a customer.|
-|[UPDATE customer](../api/dynamics_update_customer.md)|customer   |Update a customer.|
-|[DELETE customer](../api/dynamics_delete_customer.md)|none       |Delete a customer.|
+|[GET customers](../api/dynamics_customer_get.md)      |customers   |Gets a customer.   |
+|[CREATE customers](../api/dynamics_create_customer.md)|customers   |Creates a customer.|
+|[UPDATE customers](../api/dynamics_customer_update.md)|customers   |Updates a customer.|
+|[DELETE customers](../api/dynamics_customer_delete.md)|none        |Deletes a customer.|
 
 ## Properties
 | Property	  | Type	 |Description|
@@ -33,7 +34,7 @@ Represents a customer in Dynamics 365 for Financials.
 |number       |string    |The customer number.|
 |displayName  |string    |Specifies the customer's name. This name will appear on all sales documents for the customer.|
 |type         |string    |Specifies the type of customer, can be "Company" or "Person".|
-|address      |[NAV.PostalAddress](../resources/dynamics_complex_types.md)|Specifies the customer's address. This address will appear on all sales documents for the customer.|
+|address      |[NAV.PostalAddress](../resources/dynamics_complextypes.md)|Specifies the customer's address. This address will appear on all sales documents for the customer.|
 |phoneNumber  |string    |Specifies the customer's telephone number.|
 |email        |string    |Specifies the customer's email address.|
 |website      |string    |Specifies the customer's home page address.|
@@ -44,11 +45,11 @@ Represents a customer in Dynamics 365 for Financials.
 |currencyId   |GUID      |Specifies which currency the customer uses.|
 |currencyCode |numeric   |The default currency code for the customer.|
 |paymentTermsId|GUID     |Specifies which payment term the customer uses.|
-|paymentTerms |[NAV.PaymentTermsType](../resources/dynamics_complex_types.md)|Specifies a code that indicates the payment terms that you require of the customer.|
+|paymentTerms |[NAV.PaymentTermsType](../resources/dynamics_complextypes.md)|Specifies a code that indicates the payment terms that you require of the customer.|
 |paymentMethodId|GUID    |Specifies which payment method the customer uses.|
-|paymentMethod|[NAV.PaymentMethod](../resources/dynamics_complex_types.md)|Specifies how the customer usually submits payment, such as bank transfer or check.|
+|paymentMethod|[NAV.PaymentMethod](../resources/dynamics_complextypes.md)|Specifies how the customer usually submits payment, such as bank transfer or check.|
 |shipmentMethodId|GUID   |Specifies which shipment method the customer uses.|
-|shipmentMethod|[NAV.ShipmentMethod](../resources/dynamics_complex_types.md)|Specifies which shipment method to use when you ship items to the customer.|
+|shipmentMethod|[NAV.ShipmentMethod](../resources/dynamics_complextypes.md)|Specifies which shipment method to use when you ship items to the customer.|
 |blocked      |string    |Specifies that transactions with the customer cannot be posted. Set to **All**, if the customer is blocked, set to blank if not blocked.|
 |balance      |numeric   |Specifies the payment amount that the customer owes for completed sales. This value is also known as the customer's balance. Read-Only.|
 |overdueAmount|numeric   |Specifies the customer's overdue amount.|
@@ -100,4 +101,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)

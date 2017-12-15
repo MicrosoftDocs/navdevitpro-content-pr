@@ -1,7 +1,8 @@
 ---
-title: "How to: Add New Transaction Log Files"
+title: Add New Transaction Log Files
+description: Expland a transaction log by creating a new log file in the database; it contains the changes made to the database and used for database recovery.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 9e64e3b8-6702-4594-8fc4-ae74963c09e1
 caps.latest.revision: 8
 manager: edupont
 ---
-# How to: Add New Transaction Log Files
+# How to Add New Transaction Log Files in Dynamics NAV
 You can expand a transaction log by creating a new transaction log file in the database. The transaction log contains the changes that are made to the database and is used for database recovery.  
   
 > [!NOTE]  

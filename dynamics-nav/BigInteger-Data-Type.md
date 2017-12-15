@@ -1,7 +1,8 @@
 ---
-title: "BigInteger Data Type"
+title: BigInteger Data Type
+description: BigInteger data type stores very large whole numbers that range from -9,223,372,036,854,775,807 to 9,223,372,036,854,775,807 in Microsoft Dynamics NAV.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/26/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 227f707b-04f6-47c6-9feb-0fb9499d11e5
 caps.latest.revision: 9
 manager: edupont
 ---
-# BigInteger Data Type
+# BigInteger Data Type in Dynamics NAV
 Stores very large whole numbers that range from -9,223,372,036,854,775,807 to 9,223,372,036,854,775,807.  
   
 ## Remarks  

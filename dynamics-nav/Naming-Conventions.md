@@ -1,5 +1,6 @@
 ---
-title: "Naming Conventions"
+title: Naming Conventions in Dynamics NAV
+description: This topic contains guidelines for naming objects, table fields, and variables, and know demo database rules for naming and abbreviating objects.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +12,7 @@ ms.assetid: 59b6506d-8123-41b4-8fd4-288e70eea201
 caps.latest.revision: 19
 manager: edupont
 ---
-# Naming Conventions
+# Naming Objects, Fields and Variables
 Precise and consistent terminology helps the end user work with the application. Rules for naming and abbreviating objects also help developers to understand the [!INCLUDE[demolong](includes/demolong_md.md)] and develop new features faster. This topic contains guidelines for naming objects, table fields, and variables. These guidelines describe naming conventions in English \(United States\).  
 
  The following general guidelines apply throughout your application:  

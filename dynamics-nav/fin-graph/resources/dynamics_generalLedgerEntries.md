@@ -1,6 +1,6 @@
 ---
-title: G/L Entry resource type | Microsoft Docs
-description: A G/L entry.
+title: generalLedgerEntries resource type | Microsoft Docs
+description: A general ledger entry in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,14 +14,17 @@ ms.date: 03/16/2017
 ms.author: solsen
 ---
 
-# G/L entry resource type
-Represents a generalLedgerEntry object in Dynamics 365 for Financials.
+# generalLedgerEntries resource type
+Represents a generalLedgerEntry object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:-------------|:-------------|:----------|
-|[GET generalLedgerEntries](../api/dynamics_get_generalLedgerEntries.md)|generalLedgerEntries|Get G/L Entry object.|
+|[GET generalLedgerEntries](../api/dynamics_generalledgerentries_get.md)|generalLedgerEntries|Get a G/L entry object.|
 
 ## Properties
 | Property	         | Type	                 |Description                                  |
@@ -64,4 +67,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

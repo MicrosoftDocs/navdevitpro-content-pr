@@ -1,6 +1,6 @@
 ---
 title: paymentTerms resource type | Microsoft Docs
-description: A Payment Terms object.
+description: A payment terms object in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,16 +15,19 @@ ms.author: solsen
 ---
 
 # paymentTerms resource type
-Represents a payment term in Dynamics 365 for Financials.
+Represents a payment term in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method                                                      | Return Type|Description            |
 |:------------------------------------------------------------|:-----------|:----------------------|
-|[GET paymentTerms](../api/dynamics_get_paymentterms.md)      |paymentTerms|Get a Payment Terms.   |
-|[POST paymentTerms](../api/dynamics_create_paymentterms.md)  |paymentTerms|Create a Payment Terms.|
-|[PATCH paymentTerms](../api/dynamics_update_paymentterms.md) |paymentTerms|Update a Payment Terms.|
-|[DELETE paymentTerms](../api/dynamics_delete_paymentterms.md)|none        |Delete a Payment Terms.|
+|[GET paymentTerms](../api/dynamics_paymentterms_get.md)      |paymentTerms|Get a payment terms object.   |
+|[POST paymentTerms](../api/dynamics_create_paymentterms.md)  |paymentTerms|Create a payment terms object.|
+|[PATCH paymentTerms](../api/dynamics_paymentterms_update.md) |paymentTerms|Update a payment terms object.|
+|[DELETE paymentTerms](../api/dynamics_paymentterms_delete.md)|none        |Delete a payment terms object.|
 
 ## Properties
 | Property	                   | Type	  |Description                                                |
@@ -62,4 +65,4 @@ Here is a JSON representation of the paymentTerms.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

@@ -1,7 +1,8 @@
 ---
-title: "SQL Server Data Types"
+title: SQL Server Data Types
+description: Every available Microsoft Dynamics NAV data type is mapped to an appropriate SQL Server data type. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/30/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 86815380-0d8c-4cf2-aabf-1ab22cb51308
 caps.latest.revision: 10
 manager: edupont
 ---
-# SQL Server Data Types
+# SQL Server Data Types in Microsoft Dynamics NAV
 Every available [!INCLUDE[navnow](includes/navnow_md.md)] data type is mapped to an appropriate SQL Server data type. The following table shows which SQL Server data type is used for the corresponding Microsoft Dynamics NAV data type.  
   
 |Microsoft Dynamics NAV Data Type|SQL Server Data Type|  

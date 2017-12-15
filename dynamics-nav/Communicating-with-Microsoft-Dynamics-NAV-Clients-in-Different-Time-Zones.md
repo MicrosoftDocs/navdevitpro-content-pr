@@ -20,7 +20,7 @@ manager: edupont
 |Client|Time zone|  
 |------------|---------------|  
 |[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|Determined by the date and time settings of the client computer.|  
-|[!INCLUDE[nav_web](includes/nav_web_md.md)]|Determined by the time zone setting in the web.config file of the [!INCLUDE[nav_web](includes/nav_web_md.md)] application. For more information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md).|  
+|[!INCLUDE[nav_web](includes/nav_web_md.md)]|Determined by the time zone setting in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] of the [!INCLUDE[nav_web](includes/nav_web_md.md)] application. For more information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md).|  
   
 ### DataTime Data Types  
  If [!INCLUDE[rtc](includes/rtc_md.md)] data contains data of the type DateTime, then upon receiving the data from the client, [!INCLUDE[nav_server](includes/nav_server_md.md)] converts this data into Coordinated Universal Time \(UTC\) based on the client time zone. When passing data of type DateTime back to the client, [!INCLUDE[nav_server](includes/nav_server_md.md)] converts the time back to the local time zone of the client before presenting the data to the end user.  

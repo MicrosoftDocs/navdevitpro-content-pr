@@ -19,6 +19,9 @@ author: SusanneWindfeldPedersen
 # XmlNamespaceManager Class
 Resolves, adds, and removes namespaces to a collection and provides scope management for these namespaces.
 
+> [!NOTE]
+> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+
 The following methods are available on the XmlNamespaceManager class.  
   
 |Method name|Description|  
@@ -32,6 +35,6 @@ The following methods are available on the XmlNamespaceManager class.
 |[XmlNamespaceManager.PushScope()](xmlnamespacemanager-pushscope-method.md)|Pushes a namespace scope onto the stack.|  
 |[XmlNamespaceManager.PopScope()](xmlnamespacemanager-popscope-method.md)|Pops a namespace scope off the stack.|  
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  

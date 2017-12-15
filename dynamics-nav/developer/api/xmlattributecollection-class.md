@@ -16,7 +16,10 @@ author: SusanneWindfeldPedersen
 
 # XmlAttributeCollection Class
 The following methods are available on the XmlAttributeCollection class.  
-  
+
+> [!NOTE]
+> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+
 |Method name|Description|  
 |-----------|-----------|  
 |[XmlAttributeCollection.Count](xmlattributecollection-count-property.md)|Gets the number of attributes in the XmlAttributeCollection.|  
@@ -30,5 +33,5 @@ The following methods are available on the XmlAttributeCollection class.
 |[XmlAttributeCollection.Set(String, String)](xmlattributecollection-set-name-value-method.md)|Sets the value of the specified attribute or create it if is not part of the collection.|  
 |[XmlAttributeCollection.Set(String, String, String)](xmlattributecollection-set-localname-namespaceuri-value-method.md)|Sets the value of the specified attribute or create it if is not part of the collection.|  
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

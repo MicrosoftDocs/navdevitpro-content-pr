@@ -1,6 +1,6 @@
 ---
 title: cashFlowStatement resource type | Microsoft Docs
-description: A cashFlowStatement.
+description: A cash flow statement object in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,13 +15,16 @@ ms.author: solsen
 ---
 
 # cashFlowStatement resource type
-Represents an cashFlowStatement object in Dynamics 365 for Financials.
+Represents an cashFlowStatement object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:-------------|:-------------|:----------|
-|[GET cashFlowStatement](../api/dynamics_get_cashflowstatement.md)|cashFlowStatement|Get a cashFlowStatement object|
+|[GET cashFlowStatement](../api/dynamics_cashflowstatement_get.md)|cashFlowStatement|Get a cashFlowStatement object.|
 
 ## Properties
 | Property	   | Type	|Description                              |
@@ -54,4 +57,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

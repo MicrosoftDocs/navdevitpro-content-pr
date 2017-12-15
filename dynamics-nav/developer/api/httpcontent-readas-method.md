@@ -2,7 +2,7 @@
 title: "ReadAs Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/12/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,7 +25,7 @@ Reads the content into the provided text.
 
 ## Parameters
 *HttpContent*  
-&emsp;Type: HttpContent
+&emsp;Type: [HttpContent](httpcontent-class.md)
 
 *Result*  
 &emsp;Type: Text or InStream
@@ -35,8 +35,11 @@ Reads the content into the provided text.
 &emsp;Type: Boolean  
 &emsp;**True** if the operation was successful; otherwise, **false**.
 
-Accessing the HttpContent property of HttpResponseMessage in a case when the request fails will result in an error.
+Accessing the [HttpContent](httpcontent-class.md) property of [HttpResponseMessage](httpresponsemessage-class.md) in a case when the request fails will result in an error.
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
-[Developing Extensions](../devenv-dev-overview.md)
+[HttpContent](httpcontent-class.md)  
+[HttpResponseMessage](httpresponsemessage-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
+[Getting Started with AL](../devenv-get-started.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

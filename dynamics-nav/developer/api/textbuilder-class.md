@@ -16,7 +16,10 @@ author: SusanneWindfeldPedersen
 
 # TextBuilder Class
 TextBuilder can performantly concatenate multiple bigger strings together. The following methods are available on the TextBuilder class.  
-  
+
+> [!NOTE]
+> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+
 |Method name|Description|  
 |-----------|-----------|  
 |[TextBuilder.Append(Text)](textbuilder-append-method.md)|Appends a copy of the specified string to this instance.|  
@@ -33,6 +36,6 @@ TextBuilder can performantly concatenate multiple bigger strings together. The f
 |[TextBuilder.ToText()](textbuilder-totext-method.md)|Converts the value of this instance or a substring of this instance to a Text.|  
 |[TextBuilder.ToText(Integer, Integer)](textbuilder-totext-startindex-count-method.md)|Converts the value of this instance or a substring of this instance to a Text.|  
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)

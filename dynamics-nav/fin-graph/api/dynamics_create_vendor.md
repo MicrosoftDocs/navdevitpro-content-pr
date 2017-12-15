@@ -1,6 +1,6 @@
 ---
-title: CREATE vendor method | Microsoft Docs
-description: Creates a vendor.
+title: Create vendors | Microsoft Docs
+description: Creates a vendor object in Dynamics 365 for Financials. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,12 +14,12 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create vendor
-Create a vendor in Dynamics 365 for Financials.
+# Create vendors
+Create a vendor object in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-POST /financials/companies/({id})/vendors
+POST /financials/companies({id})/vendors
 ```
 
 ## Request headers
@@ -29,10 +29,10 @@ POST /financials/companies/({id})/vendors
 |Content-Type  |application/json   |
 
 ## Request body
-In the request body, supply a JSON representation of vendors object.
+In the request body, supply a JSON representation of a **vendors** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and vendors object in the response body.
+If successful, this method returns ```201 Created``` response code and a **vendors** object in the response body.
 
 ## Example
 
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and vendors o
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/vendors
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/vendors
 Content-type: application/json
 
 {

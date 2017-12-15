@@ -1,6 +1,6 @@
 ---
-title: CREATE dimensionLine method | Microsoft Docs
-description: Creates a dimension line.
+title: Create dimensionLines | Microsoft Docs
+description: Creates a dimension line in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,13 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# Create dimensionLine
-Create a dimensionLine in Dynamics 365 for Financials.
+# Create dimensionLines
+Create a dimension line object in Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-POST /financials/companies/({id})/dimensionLines
+POST /financials/companies({id})/dimensionLines
 ```
 
 ## Request headers
@@ -31,10 +31,10 @@ POST /financials/companies/({id})/dimensionLines
 |Content-Type  |application/json         |
 
 ## Request body
-In the request body, supply a JSON representation of a dimensionLine object.
+In the request body, supply a JSON representation of a **dimensionLines** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a dimensionLine object in the response body.
+If successful, this method returns ```201 Created``` response code and a **dimensionLines** object in the response body.
 
 ## Example
 
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a dimensi
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/({id})/dimensionLines
+POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/dimensionLines
 Content-type: application/json
 
 {

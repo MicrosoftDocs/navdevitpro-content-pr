@@ -2,7 +2,7 @@
 title: "Put Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -20,7 +20,7 @@ author: SusanneWindfeldPedersen
 Sends a PUT request to the specified Uniform Resource Identifier (URI) as an asynchronous operation.
 
 ```
-[Ok := ] HttpClient.Put(Path, Content, Reponse)
+[Ok := ] HttpClient.Put(Path, Content, Response)
 ```
 
 ## Parameters
@@ -28,18 +28,23 @@ Sends a PUT request to the specified Uniform Resource Identifier (URI) as an asy
 &emsp;Type: String
 
 *Content*  
-&emsp;Type: HttpContent
+&emsp;Type: [HttpContent](httpcontent-class.md)
 
 *Response*  
-&emsp;Type: HttpResponseMessage
+&emsp;Type: [HttpResponseMessage](httpresponsemessage-class.md)
 
 ## Return Value
 *Ok*  
 &emsp;Type: Boolean  
 &emsp;**True** if the operation was successful; otherwise, **false**.
 
-Accessing the HttpContent property of HttpResponseMessage in a case when the request fails will result in an error.
+Accessing the [HttpContent](httpcontent-class.md) property of [HttpResponseMessage](httpresponsemessage-class.md) in a case when the request fails will result in an error.
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
-[Developing Extensions](../devenv-dev-overview.md)
+[HttpClient](httpclient-class.md)  
+[HttpContent](httpcontent-class.md)  
+[HttpRequestMessage](httprequestmessage-class.md)  
+[HttpReponseMessage](httpresponsemessage-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
+[Getting Started with AL](../devenv-get-started.md)  
+[Developing Extensions](../devenv-dev-overview.md)  

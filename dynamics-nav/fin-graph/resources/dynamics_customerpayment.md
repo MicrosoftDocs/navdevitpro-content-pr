@@ -1,6 +1,6 @@
 ---
-title: customerPayment resource type | Microsoft Docs
-description: A customer payment.
+title: customerPayments resource type | Microsoft Docs
+description: A customer payments object in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,17 +14,20 @@ ms.date: 07/11/2017
 ms.author: solsen
 ---
 
-# customerPayment resource type
-Represents a customer payment in Dynamics 365 for Financials.
+# customerPayments resource type
+Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET customerPayment](../api/dynamics_get_customerpayment.md)|customerPayments|Get Customer Payment.|
-|[POST customerPayment](../api/dynamics_create_customerpayment.md)|customerPayments|Create Customer Payment.|
-|[PATCH customerPayment](../api/dynamics_update_customerpayment.md)|customerPayments|Update Customer Payment.|
-|[DELETE customerPayment](../api/dynamics_delete_customerpayment.md)|none|Delete Customer Payment.|
+|[GET customerPayments](../api/dynamics_customerpayment_get.md)|customerPayments|Gets a customer payment.|
+|[POST customerPayments](../api/dynamics_create_customerpayment.md)|customerPayments|Creates a customer payment.|
+|[PATCH customerPayments](../api/dynamics_customerpayment_update.md)|customerPayments|Updates a customer payment.|
+|[DELETE customerPayments](../api/dynamics_customerpayment_delete.md)|none|Deletes a customer payment.|
 
 ## Properties
 | Property	   | Type	 |Description|
@@ -79,4 +82,4 @@ Here is a JSON representation of the resource.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 

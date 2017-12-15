@@ -11,24 +11,26 @@ ms.assetid: 0a6f16fb-07fe-4c2f-9986-5633d31d1c60
 caps.latest.revision: 42
 manager: edupont
 ---
-# Deploying Microsoft Dynamics NAV Using ClickOnce
-This document contains instructions for deploying the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] using the ClickOnce deployment technology. ClickOnce allows you to deploy web applications by choosing a link on a web page. ClickOnce is a component of the Microsoft .NET Framework.  
+# Deploying [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] Using ClickOnce
+This article contains instructions for deploying the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] using the ClickOnce deployment technology. ClickOnce allows you to deploy web applications by choosing a link on a web page. ClickOnce is a component of the Microsoft .NET Framework.  
   
-## ClickOnce Installation  
- This section covers the end user experience of installing [!INCLUDE[navnow](includes/navnow_md.md)] deployed with ClickOnce. The end user will choose the link to the application to install [!INCLUDE[navnow](includes/navnow_md.md)]. The link may point to a file share or a website. The ClickOnce runtime opens with a confirmation dialog box, which asks whether you want to install the application and includes an **Install** and **Don't Install** button.  
+## ClickOnce installation from the end-user's perspective  
+As an administrator, you wll provide end users with a link to the ClickOnce deployment source, which can point to a file share or a website. The end user will choose the link to the application to install [!INCLUDE[navnow](includes/navnow_md.md)].
+
+-   The ClickOnce runtime opens with a confirmation dialog box, which asks whether to install the application and includes an **Install** and **Don't Install** button.  
   
- If you choose the **Install** button, ClickOnce downloads all the necessary files to a local folder on your computer.  
+-   If the user chooses the **Install** button, ClickOnce downloads all the necessary files to a local folder on their computer.  
   
- When the download is complete, ClickOnce starts the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], and also installs a program shortcut on the **Start** menu of the computer.  
+-   When the download is complete, ClickOnce starts the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], and also installs a program shortcut on the **Start** menu of the computer.  
   
- The next time that you want to run the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], you can either select the link again, or you select the shortcut on the **Start** menu. In either case, ClickOnce will check if there is a newer version available, which you will have the option to install.  
+-   The next time that the user want to run the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], they can either select the link again, or you select the shortcut on the **Start** menu. In either case, ClickOnce will check if there is a newer version available, which the user will have the option to install.  
   
- No configuration of the ClientUserSettings.config file is needed during install or after install as this is set up as part of the ClickOnce deployment.  
+No configuration of the ClientUserSettings.config file is needed during install or after install as this is set up as part of the ClickOnce deployment.  
   
-### Benefits of a ClickOnce Deployment of the [!INCLUDE[navnow](includes/navnow_md.md)] Windows Client  
- ClickOnce includes the following benefits:  
+## Benefits of a ClickOnce deployment  
+ ClickOnce has the following benefits:  
   
--   Allows for a centralized configuration. The ClientUserSettings.config configuration file that is installed with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] contains several settings that must be adjusted for the specific installation, such as the server address and the authentication type to use. By using ClickOnce, you can control the ClientUserSettings.config centrally and push it out to the client computers. Configuration is not required on the individual client computer. If you make a mistake, or if the settings have to change, such as if you want to move the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to a different computer, then you can create an updated configuration file by using the upgrade capability.  
+-   Allows for a centralized configuration. The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] configuration file (ClientUserSettings.config) that is installed with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] contains several settings that must be adjusted for the specific installation, such as the server address and the authentication type to use. By using ClickOnce, you can control the ClientUserSettings.config centrally and push it out to the client computers. Configuration is not required on the individual client computer. If you make a mistake, or if the settings have to change, such as if you want to move the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to a different computer, then you can create an updated configuration file by using the upgrade capability.  
   
 -   Allows for bundled add-ins. By using ClickOnce, you can easily deploy your own assemblies and third-party add-in assemblies. You do not have to copy add-in files after the installation.  
   
@@ -40,16 +42,16 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
   
 -   ClickOnce supports a seamless upgrade. End users will hardly notice when the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is upgraded.  
   
- The result should be that end users can install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] without relying on partners or super users to do it for them.  
+The result should be that end users can install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] without relying on partners or super users to do it for them.  
   
- There are some limitations of a ClickOnce-installed [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [Limitations of ClickOnce Installed on the Microsoft Dynamics NAV Windows Client](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Limitations).  
+There are some limitations of a ClickOnce-installed [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [Limitations of ClickOnce Installed on the Microsoft Dynamics NAV Windows Client](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Limitations).  
   
-### Technical Overview of ClickOnce  
- ClickOnce is a standard .NET technology that has existed since .NET Framework 2.0. The instructions in this document are meant to help you start working with ClickOnce deployment, however ClickOnce has additional features that are not described in this document.  
+## Technical Overview of ClickOnce  
+ClickOnce is a standard .NET technology that has existed since .NET Framework 2.0. The instructions in this article are meant to help you start working with ClickOnce deployment, however ClickOnce has additional features that are not described in this article.  
   
- The file structure of a ClickOnce deployment is as follows:  
+The file structure of a ClickOnce deployment is as follows:  
   
--   Assuming that you have a folder that contains your application files, such as the EXE, DLLs, configuration files, and other files that your application needs. The files should be organized in subfolders as appropriate for your application to work correctly.  
+-   Assuming that you have a folder that contains your application files, such as the EXE, DLLs, configuration files, and other files that your application needs, the files should be organized in subfolders as appropriate for your application to work correctly.  
   
 -   You create an XML file, usually called the *application manifest*. This file should be suffixed with .manifest, and added in the root of your application folder. The application manifest file contains metadata about your application including a list of all the files, which file is the main executable file, and so on.  
   
@@ -57,49 +59,65 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
   
  When a user installs the application, he runs the deployment manifest, and then ClickOnce will automatically install the application.  
   
-### Installing Prerequisites  
- The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] has three prerequisites: Microsoft Report Viewer 2015, Microsoft System CLR Types for SQL Server 2014, and .NET Framework 4.5. These are linked from the sample web page.  
+## Prepare Users Computers by Installing .NET Framework 4.6.1
+The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] requires .NET Framework 4.6.1. Depending on the version of Windows, .NET 4.6.1 Framework might already be installed. If not, then you have two options:
+
+1.  Users themselves install .NET 4.6.1 Framework on their computers from the ClickOnce online installation web page.
+
+    The ClickOnce online installation web page includes a link to download .NET Framework 4.6.1. However, using this option requires that users have administrative rights on their computers. 
+
+2. An administrator installs install .NET 4.6.1 Framework on users computers. 
+
+    For more information about how to install .NET 4.6.1 Framework, see [Install the .NET Framework for developers](http://go.microsoft.com/fwlink/?LinkId=272382).   
   
--   The install experience can be improved for the end user by providing a solution that packages the Microsoft Report Viewer with the ClickOnce installation. Microsoft Report Viewer requires Microsoft System CLR Types for SQL Server 2014. Microsoft Certified Partners may download and redistribute the Microsoft Report Viewer 2015 Redistributable Package and Microsoft System CLR Types for SQL Server 2014 from the Microsoft Download Center. You can download Microsoft Report Viewer at [Microsoft Report Viewer 2015 RUNTIME](http://go.microsoft.com/fwlink/?LinkID=536665). Microsoft System CLR Types for SQL Server 2014 is available as part of the Microsoft SQL Server 2014 Feature Pack, which you can download at [Microsoft SQL Server 2014 Feature Pack](http://go.microsoft.com/fwlink/?LinkID=536666).  
-  
+<!-- -   The install experience can be improved for the end user by providing a solution that packages the Microsoft Report Viewer with the ClickOnce installation. Microsoft Report Viewer requires Microsoft System CLR Types for SQL Server 2014. Microsoft Certified Partners may download and redistribute the Microsoft Report Viewer 2015 Redistributable Package and Microsoft System CLR Types for SQL Server 2014 from the Microsoft Download Center. You can download Microsoft Report Viewer at [Microsoft Report Viewer 2015 RUNTIME](http://go.microsoft.com/fwlink/?LinkID=536665). Microsoft System CLR Types for SQL Server 2014 is available as part of the Microsoft SQL Server 2014 Feature Pack, which you can download at [Microsoft SQL Server 2016 Feature Pack](https://go.microsoft.com/fwlink/?linkid=857649).  
+
+ Microsoft System CLR Types for SQL Server 2016 is available as part of the Microsoft SQL Server 2016 Feature Pack, which you can download at [Microsoft SQL Server 2016 Feature Pack](https://go.microsoft.com/fwlink/?linkid=857649).
+
     > [!NOTE]  
-    >  The Microsoft Report Viewer is an optional component. If it is not installed, the end user will get an error message when trying to print or preview reports in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. All other functionality in the client will not be affected.  
+    >  The Microsoft Report Viewer is an optional component. If it is not installed, the end user will get an error message when trying to print or preview reports in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. All other functionality in the client will not be affected.
+
   
--   The .NET Framework 4.5 is pre-installed on Windows 8 and Windows Server 2012 computers and no action has to be taken. For more information about how to install .NET 4.5 Framework on earlier versions of Windows, see [Installing .NET 4.5 Framework](http://go.microsoft.com/fwlink/?LinkId=272382).  
-  
- Installing these prerequisites requires administrative rights on the computer. If the end users are not already administrators on their computers, then an administrator or a super user must first install the prerequisite on the computer. After that is complete, any user on the computer can install, uninstall, and upgrade the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Administrative rights are not needed for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
-  
- Microsoft Windows operating systems are subject to compliance with the Supplemental Redist License located at [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=262161&clcid=0x409).  
+ Installing these prerequisites requires administrative rights on the computer. If the end users are not already administrators on their computers, then an administrator or a super user must first install the prerequisites on the computer. After that is complete, any user on the computer can install, uninstall, and upgrade the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Administrative rights are not needed for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+
+
+Windows operating systems are subject to compliance with the Supplemental Redist License located at [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=262161&clcid=0x409). 
+--> 
   
 ### Deploying Using ClickOnce Hosted on a File Share  
- It is easier to host a ClickOnce deployment on a file share than it is to host on a web server. Hosting on a web server is basically the same, except that you may need to make some adjustments to IIS. Hosting on a web server is covered later in this document.  
+It is easier to host a ClickOnce deployment on a file share than it is to host on a web server. Hosting on a web server is basically the same, except that you may need to make some adjustments to IIS.  
   
- Follow these steps to host on a file share:  
+Follow these steps to host on a file share:  
   
-1.  Install the Microsoft Windows SDK for Windows 7 and the .NET Framework 4. The SDK contains a utility named mage.exe, which is required in several of the following steps. It also contains utilities for creating test certificates.  
+1.  Install Manifest Generation and Editing Tool (mage.exe) on your computer.
+
+    The mage.exe is installed with Visual Studio, Windows Software Development Kit (SDK) for Windows 8 or 8.1, and Windows 10 SDK. Microsoft Windows SDK for Windows 7 and the .NET Framework 4. The SDK contains a utility named mage.exe, which is required in several of the following steps.
   
-    1.  Download and install "Microsoft Windows SDK for Windows 7 and the .NET Framework 4" from [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkId=262162).  
+    The mage.exe utility should be located in the equivalent of the following location:  
   
-        > [!IMPORTANT]  
-        >  It is important that you have "Microsoft Windows SDK for Windows 7 and the .NET Framework 4". Ensure you have the correct version of mage.exe. Locate the mage.exe in file explorer, right-click and select **Properties**. In the **Properties** window, choose the **Details** tab and make sure that the file version is 4.0.40391.1.  
+    `C:\\Program Files \(x86\)\\Microsoft SDKs\\Windows\\v10.0A\\Bin\\NETFX 4.6.1 Tools`  
   
-    2.  The mage.exe utility should be located in the equivalent of the following location:  
-  
-         *C:\\Program Files \(x86\)\\Microsoft SDKs\\Windows\\v7.1\\Bin\\NETFX 4.0 Tools\\mage.exe*  
-  
-2.  Optionally, obtain a code signing certificate. This is a certificate that is issued by a certification authority, and will enable you to sign the application in such a way that end users can see that the application is published by the expected provider and, for example, not by a phisher.  
+2.  (Optional) Obtain a code signing certificate. This is a certificate that is issued by a certification authority, and will enable you to sign the application in such a way that end users can see that the application is published by the expected provider and, for example, not by a phisher.  
   
     1.  If you do not already have a code signing certificate, you will have to obtain one from one of the certification authorities. For a list of certification authorities, see [Microsoft Technet](http://go.microsoft.com/fwlink/?LinkId=262163).  
   
-    2.  You can also create a test certificate and use it for testing. For more information, see [How to: Create Your Own Test Certificate](http://msdn.microsoft.com/en-us/library/ff699202.aspx).  
+    2.  You can also create a test certificate and use it for testing. For more information, see [How to: Create Your Own Test Certificate](http://msdn.microsoft.com/en-us/library/ff699202.aspx) or [New-SelfSignedCertificate](https://docs.microsoft.com/en-us/powershell/module/pkiclient/new-selfsignedcertificate).  
   
     3.  For information about when it is acceptable to skip this step, see [Security Considerations](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Security).  
   
-3.  Install the ClickOnce Installer Tools. Run setup.exe and install the ClickOnce Installer Tools. The files will be installed in [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\ClickOnce Installer Tools.  
+3.  Install the ClickOnce Installer Tools:
+    1.  On the [!INCLUDE[navnow](includes/navnow_md.md)] installation media (DVD), run setup.exe.
+    2.  Choose **Custom** installation option, choose **ClickOnce Installer Tools**, and follow the instructions.
+    
+    The files will be installed in [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\ClickOnce Installer Tools.  
   
-4.  Perform a typical installation of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] by doing the following:  
+4.  Perform a typical installation of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] as follows:  
   
-    1.  Run setup.exe to install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Do not install unnecessary client components, such as the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and the Excel add-in. These add to the download size, and contain special file types that can create problems for a ClickOnce deployment. For example, the Web.config file installed with the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] can create problems when it is hosted on a web server.  
+    1.  Run setup.exe to install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].
+    
+        If not already installed, you will also need to install the [!INCLUDE[nav_server](includes/nav_server_md.md)] and database components that the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] connect to.
+
+        Do not install unnecessary client components, such as the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and the Excel add-in. These add to the download size, and contain special file types that can create problems for a ClickOnce deployment. For example, the Web.config file installed with the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] can create problems when it is hosted on a web server.
   
     2.  Install relevant language packs.  
   
@@ -109,30 +127,32 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
   
      Now you have the files that you know will work, and which you want to deploy on end user computers.  
   
-5.  Copy the files to a file share, such as *\\\\fileshare\\clickonce*.  
+5.  Copy the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] files to a file share:
+
+    1.  Create a file share, for example, that has the name *\\\\fileshare\\clickonce*.  
   
-    1.  Create a folder, such as *\\\\fileshare\\clickonce\\Deployment\\ApplicationFiles*.  
+    2.  Create a folder in the file share, such as *\\\\fileshare\\clickonce\\Deployment\\ApplicationFiles*.  
   
-    2.  Copy all the files from [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client to this new folder.  
+    3.  Copy all the files from [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client to this new folder.  
   
         > [!IMPORTANT]  
         >  Microsoft.Dynamics.Nav.Client.exe and Microsoft.Dynamics.Nav.Client.x86.exe have the same assembly identity name, so you must copy only one of these executables. You can choose either file.  
   
-    3.  Move ClientUserSettings.config to that folder.  
+    4.  Move ClientUserSettings.config to that folder.  
   
-         This file typically installs to the equivalent of C:\\Program Data\\Microsoft\\Microsoft Dynamics NAV\\90\\, or C:\\Users\\*user name*\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\90\\. The exact location depends on your operating system.  
+         This file typically installs to the equivalent of C:\\Program Data\\Microsoft\\Microsoft Dynamics NAV\\NNN\\, or C:\\Users\\*user name*\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\NNN\\, where NN is the version number such as 90, 100 or 110. The exact location depends on your operating system.  
   
 6.  Copy the template files. The ClickOnce Installer Tools installation contains template files that will be useful starting points.  
   
-    1.  Copy the files in [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\ClickOnce Installer Tools\\TemplateFiles to *\\\\fileshare\\clickonce*.  
+    Copy the files in [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\ClickOnce Installer Tools\\TemplateFiles to *\\\\fileshare\\clickonce*.  
   
-7.  The [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Windows client requires Microsoft Report Viewer 2015 for viewing and printing a report, along with and Microsoft System CLR Types for SQL Server 2014. Therefore, these are a prerequisite installation in the ClickOnce scenario.  
+<!-- 7.  The [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Windows client requires Microsoft Report Viewer 2015 for viewing and printing a report, along with and Microsoft System CLR Types for SQL Server 2014. Therefore, these are a prerequisite installation in the ClickOnce scenario.  
   
      Both are available on the Microsoft Download Center. You can download Microsoft Report Viewer at [Microsoft Report Viewer 2015 RUNTIME](http://go.microsoft.com/fwlink/?LinkID=536665). Microsoft System CLR Types for SQL Server 2014 is available as part of the Microsoft SQL Server 2014 Feature Pack, which you can download at [Microsoft SQL Server 2014 Feature Pack](http://go.microsoft.com/fwlink/?LinkID=536666).  
   
-     Microsoft Report Viewer 2015 is available on download at [http://go.microsoft.com/fwlink/?LinkID=536665](http://go.microsoft.com/fwlink/?LinkID=536665).  
+     Microsoft Report Viewer 2015 is available on download at [http://go.microsoft.com/fwlink/?LinkID=536665](http://go.microsoft.com/fwlink/?LinkID=536665).  -->
   
-8.  Update the application manifest. The application manifest lists the files that are part of the installation.  
+7.  Update the application manifest. The application manifest lists the files that are part of the installation.  
   
     1.  Open a command prompt using the **Run as administrator** option, and change the directory to *C:\\fileshare\\clickonce\\Deployment\\ApplicationFiles*.  
   
@@ -141,15 +161,17 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
          `mage.exe -Update Microsoft.Dynamics.Nav.Client.exe.manifest -FromDirectory .`  
   
         > [!IMPORTANT]  
-        >  You must specify the fully qualified path to mage.exe, such as `C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1\Bin\NETFX 4.0 Tools\mage.exe`.  
+        >  You must specify the fully qualified path to mage.exe, such as `"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\Bin\NETFX 4.6.1 Tools\mage.exe"`.  
+        
+        The *FromDirectory* parameter will include all files in all subdirectories found within the specified directory. If no directory is specified, such as in the example, mage.exe uses the current directory and subdirectories. For more information, see [Mage.exe](http://msdn.microsoft.com/en-us/library/acz3y3te\(v=vs.110\).aspx) in the MSDN Library.  
   
-         The *FromDirectory* parameter will include all files in all subdirectories found within the specified directory. If no directory is specified, such as in the example, mage.exe uses the current directory and subdirectories. For more information, see [Mage.exe](http://msdn.microsoft.com/en-us/library/acz3y3te\(v=vs.110\).aspx) in the MSDN Library.  
+        ClickOnce does not support having the same assembly duplicated in different folders. If you receive an error, then you will have to remove one of the copies, either in the manifest file or on disk, and then run the mage.exe again. The copy of OpenXML.dll in Add-Ins folder will not be needed in a ClickOnce deployment, therefore you can delete it.  
   
-     ClickOnce does not support having the same assembly duplicated in different folders. If you receive an error, then you will have to remove one of the copies, either in the manifest file or on disk, and then run the mage.exe again. The copy of OpenXML.dll in Add-Ins folder will not be needed in a ClickOnce deployment, therefore you can delete it.  
+8. Review the application manifest.
+
+    Open Microsoft.Dynamics.Nav.Client.exe.manifest in a text editor, like Notepad. You do not have to change anything in this file, but you should be aware of what it looks like. The application manifest has an identity \(assembly.assemblyIdentity\), which is referred to by the deployment manifest. This can be any string, and it will not be shown to end users. Note the version number, which will be used in upgrade scenarios.  
   
-9. Update the application manifest. Open Microsoft.Dynamics.Nav.Client.exe.manifest in Notepad. You do not have to change anything in this file, but you should be aware of what it looks like. The application manifest has an identity \(assembly.assemblyIdentity\), which is referred to by the deployment manifest. This can be any string, and it will not be shown to end users. Note the version number, which will be used in upgrade scenarios.  
-  
-10. Optionally, sign the application manifest. If you do not sign the manifest, the user will get a security warning when he installs, because the publisher, who is you, cannot be verified. This means that the end user cannot distinguish between your application and malware. If you sign the manifest, the user will see that the application is coming from your company, and he will trust it. If you have the code signing certificate PartnerCodeSigningCertificate.cer and the private key PartnerPrivateKey.pvk, run the following commands.  
+9. (Optional) Sign the application manifest. If you do not sign the manifest, the user will get a security warning when he installs, because the publisher, who is you, cannot be verified. This means that the end user cannot distinguish between your application and malware. If you sign the manifest, the user will see that the application is coming from your company, and he will trust it. If you have the code signing certificate PartnerCodeSigningCertificate.cer and the private key PartnerPrivateKey.pvk, run the following commands.  
   
      `cert2spc PartnerCodeSigningCertificate.cer PartnerSoftwarePublisherCertificate.spc`  
   
@@ -159,45 +181,45 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
   
      Now the application manifest is signed. If you modify it, you will have to sign it again. For information about when it is acceptable to skip this step, see [Security Considerations](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Security).  
   
-11. Update the deployment manifest.  
+10. Update the deployment manifest.  
   
-    1.  Change the directory to *C:\\fileshare\\clickonce\\Deployment*.  
+    1.  At the command promt, change the directory to ClickOnce *Deployment* folder, for example, *C:\\fileshare\\clickonce\\Deployment*.  
   
-    2.  Change the link to the application manifest and update its hash value.  
+    2.  Run this command to change the link to the application manifest and update its hash value.  
   
          `mage.exe -update Microsoft.Dynamics.Nav.Client.application -appmanifest ApplicationFiles\Microsoft.Dynamics.Nav.Client.exe.manifest -appcodebase \\fileshare\clickonce\Deployment\ApplicationFiles\Microsoft.Dynamics.Nav.Client.exe.manifest`  
   
-    3.  Open Microsoft.Dynamics.Nav.Client.application in Notepad, and do the following:  
+    3.  Open Microsoft.Dynamics.Nav.Client.application file in a text editor, like Notepad, and do the following:  
   
-        1.  Adjust the `assembly.assemblyIdentity.name` so that it is unique. For example, you could add the customer’s name to the name, and if you deploy a test and a production server for the customer, then you could add **production** or **test** to the name. You should never change this value after end users have used it to install the [!INCLUDE[navnow](includes/navnow_md.md)] client. The value will not be shown to end users.  
+        1.  In the `<assemblyIdentity>` element, set the `name` parameter. For example, you could add the customer’s name to the name, and if you deploy a test and a production server for the customer, then you could add **production** or **test** to the name. You should never change this value after end users have used it to install the [!INCLUDE[navnow](includes/navnow_md.md)] client. The value will not be shown to end users.  
   
-        2.  Adjust the description contents as appropriate. For example, you could change the publisher to be "Microsoft Corporation and \<your company name>", and change the product to be "[!INCLUDE[navnowlong](includes/navnowlong_md.md)] for \<customer name>". These are the names that the end user will see.  
+        2.  In the `<description>` element, change the parameters as appropriate. For example, you could change the `asmv2:publisher` parameter to be "Microsoft Corporation and \<your company name>", and change the `asmv2:product` parameter to be "[!INCLUDE[navnowlong](includes/navnowlong_md.md)] for \<customer name>". These are the names that the end user will see.  
   
-        3.  Change the link in `deploymentProvider` to *\\\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*. As you can see, it is now pointing to itself so that it is possible to check for updates.  
+        3.  In `<deploymentProvider>` element, change the link of the `codebase` parameter to *\\\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*. As you can see, it is now pointing to itself so that it is possible to check for updates.  
   
-12. Optionally, sign the deployment manifest. This is similar to the application manifest.  
+11. Optionally, sign the deployment manifest. This is similar to the application manifest.  
   
      `mage.exe -sign Microsoft.Dynamics.Nav.Client.application -certfile PartnerPersonalInformationExchange.pfx.`  
   
      After the deployment manifest is signed, if you modify it, you will have to sign it again. For information about when it is acceptable to skip this step, see [Security Considerations](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Security).  
   
-13. Now you should be done with your ClickOnce deployment, so you can test the ClickOnce deployment. Run the deployment manifest by choosing *\\\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*.  
+12. Now you should be done with your ClickOnce deployment, so you can test the ClickOnce deployment. To do this, run the Microsoft.Dynamics.Nav.Client.application in the file share, for example, by choosing *\\\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*.  
   
     > [!NOTE]  
     >  Do not run the deployment from *C:\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*. This will give you an error that the deployment and application are in different security zones.  
   
-14. Verify that everything works as expected. The ClickOnce files are typically installed under C:\\Users\\*user name*\\AppData\\Local\\Apps. In the next step, you will have to know where these files are installed, so locate the files by searching for **Microsoft.Dynamics.Nav.Client.exe** under that folder or by typing: **dir /s Microsoft.Dynamics.Nav.Client.exe**.  
+13. Verify that everything works as expected. The ClickOnce files are typically installed under C:\\Users\\*user name*\\AppData\\Local\\Apps. In the next step, you will have to know where these files are installed, so locate the files by searching for **Microsoft.Dynamics.Nav.Client.exe** under that folder or by typing: **dir /s Microsoft.Dynamics.Nav.Client.exe**.  
   
-15. As a final verification, we recommend that you compare the files that were installed by ClickOnce, in the folder you searched for, to the files that were installed by the MSI installer in *C:\\Program Files\\...*. There will be some differences. For example, there will be multiple manifest files in the ClickOnce folder. You should review these differences and make sure they are as expected. For example, if you see a .DLL file in one folder, but not the other, this could cause an error.  
+14. As a final verification, we recommend that you compare the files that were installed by ClickOnce, in the folder you searched for, to the files that were installed by the MSI installer in *C:\\Program Files\\...*. There will be some differences. For example, there will be multiple manifest files in the ClickOnce folder. You should review these differences and make sure they are as expected. For example, if you see a .DLL file in one folder, but not the other, this could cause an error.  
   
  In addition to creating the installer itself, you should require end users to read and accept Microsoft’s software license terms \(SLT\) as part of the installation experience.  
   
 ### Deploying Using ClickOnce Hosting on a Web Server  
- Hosting on a web server is similar to hosting on a file share. Using the steps outlined in the previous section, you should note that the two links in the deployment manifest should point to the *http://* address, instead of a *\\\\fileshare* address. This is the only change that you need to make to the files.  
+Hosting on a web server is similar to hosting on a file share. Using the steps outlined in the previous section, you should note that the two links in the deployment manifest should point to the *http://* address, instead of a *\\\\fileshare* address. This is the only change that you need to make to the files.  
   
- All the logic needed for requesting user permissions to install or check for upgrades happens on the client computer. The web server works like a file repository.  
+All the logic needed for requesting user permissions to install or check for upgrades happens on the client computer. The web server works like a file repository.  
   
- The only problem with web server hosting is that web servers use different file types differently. For example, by default a file that has the .config extension will not be downloadable from a web server. The web server will restrict access to it. To work around this, you can create a web.config file in the folder that contains the application files, with contents similar to the following.  
+ The only problem with web server hosting is that web servers use different file types differently. For example, by default a file that has the .config extension will not be able to be downloaded from a web server. The web server will restrict access to it. To work around this, you can create a web.config file in the folder that contains the application files, with contents similar to the following.  
   
 ```  
 <?xml version="1.0" encoding="UTF-8"?>  
@@ -248,8 +270,8 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
  The upgrade check is based on the deployment manifest’s `version`. This is the version of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] that will be installed if a user installs [!INCLUDE[navnow](includes/navnow_md.md)] for the first time. The deployment manifest also contains a `minimumRequiredVersion`. If a previously installed [!INCLUDE[nav_windows](includes/nav_windows_md.md)] has a version that is less than `minimumRequiredVersion`, then the user is forced to upgrade the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. This will appear similar to the following.  
   
 ```  
-<assemblyIdentity name="Microsoft Dynamics NAV" version="7.0.0.0" … />  
-  <deployment install="true" minimumRequiredVersion="7.0.0.0">  
+<assemblyIdentity name="Microsoft Dynamics NAV" version="11.0.0.0" … />  
+  <deployment install="true" minimumRequiredVersion="11.0.0.0">  
     <subscription>  
       <update>  
         <beforeApplicationStartup />  

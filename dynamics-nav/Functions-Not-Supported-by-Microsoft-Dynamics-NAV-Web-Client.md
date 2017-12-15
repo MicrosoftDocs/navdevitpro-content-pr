@@ -1,7 +1,8 @@
 ---
-title: "Functions Not Supported by Microsoft Dynamics NAV Web Client"
+title: Functions Not Supported by the Web Client
+description: The article describes the list of functions not supported or supported with the limited capabilities by Microsoft Dynamics NAV Web client.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
