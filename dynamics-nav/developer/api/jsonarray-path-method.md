@@ -25,7 +25,7 @@ String := JsonArray.Path
 
 ## Parameters
 *JsonArray*  
-&emsp;Type: JsonArray
+&emsp;Type: [JsonArray](jsonarray-class.md)
 
 ## Property Value/Return Value
 Type: [String](/datatypes/devenv-text-data-type.md)
@@ -34,5 +34,7 @@ The path of the array relative to its containing JSON tree.
 If the object is the root of the JSON tree, the path will be empty.
 
 ## See Also
+[JsonArray](jsonarray-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

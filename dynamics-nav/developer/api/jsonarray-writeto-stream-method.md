@@ -2,7 +2,7 @@
 title: "WriteTo_Stream Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,10 +25,10 @@ Serializes and writes the JSON data of the JsonArray to a given OutStream object
 
 ### Parameters
 *JsonArray*  
-&emsp;Type: JsonArray
+&emsp;Type: [JsonArray](jsonarray-class.md)
 
 *OutStream*  
-&emsp;Type: OutStream
+&emsp;Type: [OutStream](/datatypes/devenv-instream-and-outstream-data-types.md)
 
 The OutStream object to which the JSON data will be written.
 
@@ -40,5 +40,7 @@ The OutStream object to which the JSON data will be written.
 If you omit this optional return value and if the write does not execute successfully, then a run-time error occurs.
 
 ## See Also
+[JsonArray](jsonarray-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

@@ -2,7 +2,7 @@
 title: "Get Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/15/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,10 +25,10 @@ Retrieves the value at the given index in the JsonArray.
 
 ## Parameters
 *Index*  
-&emsp;Type: Integer
+&emsp;Type: [Integer](/datatypes/devenv-integer-data-type.md)
 
 *Result*  
-&emsp;Type: JsonToken
+&emsp;Type: [JsonToken](jsontoken-class.md)
 
 A variable of type JsonToken that will contain the result if the operation is successful.
 
@@ -43,5 +43,7 @@ If you omit this optional return value and if the select does not execute succes
 The operation will fail if the *Index* is smaller than 0 or greater or equal than JsonArray.Count.
 
 ## See Also
+[JsonArray](jsonarray-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
-[Developing Extensions](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)  

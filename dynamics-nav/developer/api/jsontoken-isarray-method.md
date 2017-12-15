@@ -2,7 +2,7 @@
 title: "IsArray Property"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/15/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,7 +17,7 @@ author: SusanneWindfeldPedersen
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # IsArray Property
-Indicates whether a JsonToken represents a JSON array.
+Indicates whether a [JsonToken](jsontoken-class.md) represents a JSON array.
 
 ```
 Ok := JsonToken.IsArray
@@ -25,7 +25,7 @@ Ok := JsonToken.IsArray
 
 ### Parameters
 *JsonToken*  
-&emsp;Type: JsonToken
+&emsp;Type: [JsonToken](jsontoken-class.md)
 
 ## Property Value/Return Value
 &emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
@@ -33,5 +33,8 @@ Ok := JsonToken.IsArray
 **True** if the JsonToken represents a JSON array; otherwise, **false**.
 
 ## See Also
+[JsonToken](jsontoken-class.md)  
+[JsonArray](jsonarray-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

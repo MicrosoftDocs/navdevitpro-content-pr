@@ -2,7 +2,7 @@
 title: "Path Property"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/15/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,14 +25,16 @@ String := JsonObject.Path
 
 ## Parameters
 *JsonObject*  
-&emsp;Type: JsonObject
+&emsp;Type: [JsonObject](jsonobject-class.md)
 
 ## Property Value/Return Value
-Type: String
+Type: [String](/datatypes/devenv-text-data-type.md)
 
 The path of the object relative to its containing JSON tree.
 If the object is the root of the JSON tree, the path will be empty.
 
 ## See Also
+[JsonObject](jsonobject-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
-[Developing Extensions](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)  

@@ -2,7 +2,7 @@
 title: "JsonArray Class" 
 ms.author: solsen
 ms.custom: na
-ms.date: 12/14/2017
+ms.date: 12/15/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -47,6 +47,9 @@ The following methods are available on the JsonArray class.
 Objects of type JsonArray represent a 0-based array.
 
 ## See Also
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
+[JsonObject](jsonobject-class.md)  
+[JsonToken](jsontoken-class.md)  
+[JsonValue](jsonvalue-class.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
-[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  

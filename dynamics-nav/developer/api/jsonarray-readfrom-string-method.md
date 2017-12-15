@@ -2,7 +2,7 @@
 title: "ReadFrom_String Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,7 +25,7 @@ Reads the JSON data from the string into a JsonArray variable.
 
 ## Parameters
 *JsonArray*  
-&emsp;Type: JsonArray
+&emsp;Type: [JsonArray](jsonarray-class.md)
 
 *String*  
 &emsp;Type: [String](/datatypes/devenv-text-data-type.md)
@@ -49,16 +49,17 @@ Clear(JsonArray)
 ```
 
 ## Example
-This example shows how to read JSON data from a string into a JsonArray variable.
+This example shows how to read JSON data from a string into a [JsonArray](jsonarray-class.md) variable.
 
 ```
 local procedure ReadJson(data : Text) result : JsonArray;
 begin
     result.ReadFrom(data);    
 end;
-
 ```
 
 ## See Also
+[JsonArray](jsonarray-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)
