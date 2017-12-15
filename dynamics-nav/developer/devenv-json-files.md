@@ -3,7 +3,7 @@ title: "JSON Files"
 description: "Description of the content of the JSON files."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 08/31/2017
+ms.date: 12/04/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,7 +18,7 @@ caps.latest.revision: 18
 
 # JSON Files
 
-There are two JSON files in the project; the `app.json` file and the `launch.json` file. These files are generated automatically when you start a new project. The `app.json` file contains information about extension that you are building, such as publisher information and specifies the minimum version of base application objects that the extension is built on. The `launch.json` file contains information about the server that the extension launches on.
+In an AL project there are two JSON files; the `app.json` file and the `launch.json` file. These files are generated automatically when you start a new project. The `app.json` file contains information about extension that you are building, such as publisher information and specifies the minimum version of base application objects that the extension is built on. Often the `app.json` file is referred to as the manifest. The `launch.json` file contains information about the server that the extension launches on.
 
 ## App.json file
 The following table describes the settings in the ```app.json``` file:
@@ -42,6 +42,7 @@ The following table describes the settings in the ```app.json``` file:
 |application|Yes, if base application objects are extended or referenced. The AL package will be compiled against the application that is present on the server that you connect to. This allows you to write a single AL extension for multiple country versions as long as you *do not* depend on country-specific code. If you *do* depend on country-specific code you should only try to compile your app against a server set up for that country.|The minimum supported version, for example: `"application": "11.0.0.0"`|
 |idRange|Yes|A range for application object IDs. For all objects outside the range, a compilation error will be raised.|
 |showMyCode|No|This is by default set to `false` and not visible in the manifest. To enable viewing the source code when debugging into an extension, add the following setting: `"showMyCode": true`|
+|target|No|By default this is `Extension`. For Dynamics NAV, you can set this to `Internal` to get access to otherwise restricted APIs. The Dynamics NAV Server setting must then also be set to `Internal`. For more information, see [Configuring Microsoft Dynamics NAV Server](../configuring-microsoft-dynamics-nav-server.md).|
 
 ## Launch.json file
 

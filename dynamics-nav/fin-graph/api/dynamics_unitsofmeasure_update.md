@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Update unitsOfMeasure
-Update the properties of a units of measure object for Dynamics 365 for Financials.
+Update the properties of a units of measure object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 

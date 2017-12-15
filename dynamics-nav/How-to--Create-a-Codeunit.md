@@ -1,7 +1,8 @@
 ---
-title: "How to: Create a Codeunit"
+title: Create a Codeunit
+description: A codeunit is a container for C/AL code. Know how to create one and use the functions in a codeunit from other application objects.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: a70e92fa-2956-4895-a798-975ae0d1d475
 caps.latest.revision: 6
 ---
-# How to: Create a Codeunit
+# Creating a Codeunit in Microsoft Dynamics NAV
 To create a new codeunit by using Object Designer, use the following procedure.  
   
 ### To create a codeunit  

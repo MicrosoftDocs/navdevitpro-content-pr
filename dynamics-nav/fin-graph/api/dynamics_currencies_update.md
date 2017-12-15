@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Update currencies
-Update the properties of a currency object for Dynamics 365 for Financials.
+Update the properties of a currency object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```

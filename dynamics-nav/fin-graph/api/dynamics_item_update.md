@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Update items
-Update the properties of an item object for Dynamics 365 for Financials.
+Update the properties of an item object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```

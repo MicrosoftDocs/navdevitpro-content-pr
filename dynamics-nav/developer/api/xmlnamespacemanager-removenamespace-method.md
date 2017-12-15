@@ -23,11 +23,11 @@ XmlNamespaceManager.RemoveNamespace(Prefix, Uri)
 ```  
 ## Parameters
 *Prefix*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 The prefix for the namespace  
   
 *Uri*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 The namespace to remove for the given prefix. The namespace removed is from the current namespace scope. Namespaces outside the current scope are ignored.  
   
 ## See Also

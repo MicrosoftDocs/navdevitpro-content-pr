@@ -46,9 +46,6 @@ For more information on how to get started with your first extension for [!INCLU
 
 The extension enables the ability to assign one of three reward levels to customers: GOLD, SILVER, and BRONZE. Each reward level can be assigned a discount percentage. Different types of objects available within the AL development environment will build the foundation of the user interface, allowing the user to edit the information. If you look for another option to update the layout of a page, you can use the Designer drag-and-drop interface. Additionally, this exercise contains the install code that will create the base for the reward levels. The upgrade code is run to upgrade the extension to a newer version and it will change the BRONZE level to ALUMINUM. Following all the steps of this walkthrough allows you to publish the extension on your tenant and create a possible new feature for your customers. 
 
-
-
-
 ## Reward table object
 The following code adds a new table **50100 Reward** for storing the reward levels for customers. The table consists of three fields: **Reward ID**, **Description**, and **Discount Percentage**. For example, the **Description** field must contain a value of type text and it cannot exceed the limit of 250 characters. The second field contains three properties that are used to set the range of the discount percentage assigned to every customer. Properties can be created for every field, depending on the scope. 
 
@@ -205,7 +202,7 @@ For more information, see [JSON Files](devenv-json-files.md).
 
 ## Designer 
 
-Dynamics 365 for Finance and Operations, Business edition Designer works in the web client and allows modifying the current page. It enables users to add existing table fields, move fields around, or remove fields from the page. Users can make changes to display the information they need, where they need it by using drag-and-drop components.  
+[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Designer works in the Web client and allows modifying the current page. It enables users to add existing table fields, move fields around, or remove fields from the page. Users can make changes to display the information they need, where they need it by using drag-and-drop components.  
 To show how the Designer changes the design of a page, you begin by adding two new fields to the **Reward** table. These fields will be used later on to exemplify the Designer's properties. 
 
 ```
@@ -274,8 +271,8 @@ field("Last Modified Date";"Last Modified Date")
 ``` 
 Using the F6 key shortcut in Visual Studio Code launches the browser and enters the Designer.
 
-> [NOTE!]
-> Every time you start designing, you create a new extension and the changes you make in the Designer will apply to all users.     
+> [!NOTE]  
+> Every time you start designing, you create a new extension and the changes you make in the Designer will apply to all users.
 
 
 To add the same fields and customize the **Customer Card** page, follow the next steps:

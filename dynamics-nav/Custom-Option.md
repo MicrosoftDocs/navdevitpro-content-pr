@@ -19,7 +19,8 @@ The Custom option is available on the **Choose an installation option** page in 
   
 |Component|Description|Additional options|  
 |---------------|-----------------|------------------------|  
-|Client|[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|-   [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]<br />-   Microsoft Office Excel Add-In|  
+|Client|[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|-   [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]<br />-   Microsoft Office Excel Add-In|
+|Modern Development Environment|Adds the AL development environment capability.<br> When the installation is done, follow the steps in the [Installing AL with Microsoft Dynamics NAV](developer/devenv-install-onprem.md) topic to enable the AL Language. |To run both AL and C/SIDE see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md)|  
 |Administration Tool|[!INCLUDE[nav_admin](includes/nav_admin_md.md)]|Not applicable|  
 |Server|[!INCLUDE[nav_server](includes/nav_server_md.md)]|-   Microsoft Office Outlook Integration<br />-   Page Testability|  
 |SQL Server Database Components|Microsoft SQL Server|-   Demo Database|  

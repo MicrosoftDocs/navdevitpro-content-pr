@@ -23,11 +23,11 @@ XmlAttribute := XmlAttribute.CreateNamespaceDeclaration(Prefix, NamespaceUri)
 ```  
 ## Parameters
 *Prefix*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 The prefix of the attribute (if any).  
   
 *NamespaceUri*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 The URI of the attribute. If the prefix is xmlns, then this parameter must be http://www.w3.org/2000/xmlns/; otherwise an exception is thrown.  
   
 ## Return Value

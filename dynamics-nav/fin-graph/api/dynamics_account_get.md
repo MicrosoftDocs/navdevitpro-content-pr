@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Get accounts
-Retrieve the properties and relationships of an account object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of an account object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```

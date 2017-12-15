@@ -2,7 +2,7 @@
 title: "Walkthrough: Creating and Interacting With an OData V4 Bound Action"
 ms.author: solsen
 ms.custom: na
-ms.date: 10/13/2017
+ms.date: 11/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,13 +14,13 @@ author: SusanneWindfeldPedersen
 ---
 
 # Walkthrough: Creating and Interacting With an OData V4 Bound Action
-This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/navnow_md.md)] function as an OData V4 Web service action. 
+This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/navnow_md.md)] function as an OData V4 web service action. 
 
 ## About This Walkthrough  
-This walkthrough provides an overview of how to expose a function as a Web service action and how to verify that the service is working as expected. The walkthrough illustrates the following tasks:
+This walkthrough provides an overview of how to expose a function as a web service action and how to verify that the service is working as expected. The walkthrough illustrates the following tasks:
 
--   Publishing a [!INCLUDE[navnow](includes/navnow_md.md)] function as a Web service.    
--   Verifying Web service availability from a browser.
+-   Publishing a [!INCLUDE[navnow](includes/navnow_md.md)] function as a web service.    
+-   Verifying web service availability from a browser.
   
 ### Prerequisites  
 To complete this walkthrough, you will need:  
@@ -29,7 +29,7 @@ To complete this walkthrough, you will need:
   
 -   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
--   The **Postman** app for testing the Web service URI.
+-   The **Postman** app for testing the web service URI.
   
 ## Publishing a Function as a Web Service   
 You publish a function as a Web service action by using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to create the function and the [!INCLUDE[navnow](includes/navnow_md.md)] Windows client or the [!INCLUDE[navnow](includes/navnow_md.md)] Web client for publishing the objects the function is for. The tutorial provides an example that will return a location header. A location header would be used to later issue a get request for the resulting object. Refer to the **Return a Value** section for an example that will return a value specified in your function.
@@ -68,9 +68,8 @@ You publish a function as a Web service action by using the [!INCLUDE[nav_dev_lo
     |ODataActionManagement|Codeunit|6711|
     |CopyDocMgt|Codeunit|6620|
     |DocType|Option|OptionString = Quote,Blanket Order,Order,Invoice,Return Order,Credit Memo,Posted Shipment,Posted Invoice,Posted Return Receipt,Posted Credit Memo|
-    <!-- check this last variable option string -->
 
- 7.	Add the code that copies the sales document, for example.  
+ 7.	Add the code that copies the sales document, for example.
     
     ```
     SalesSetup.GET;
@@ -107,7 +106,7 @@ After publishing a web service, verify that the port that web service applicatio
 
 ### To verify availability of a Microsoft Dynamics NAV Web service action
 
-1.	Start **Postman** or another tool that can execute a POST command against the Web Service URI.
+1.	Start **Postman** or another tool that can execute a POST command against the web service URI.
 2.	In the **Address** field, enter a URI in this format: `http://<Server>:<WebServicePort>/<ServerInstance>/api/beta/companies(<companyid>)/salesInvoices(<invoiceid>)/Microsoft.NAV.Copy)`.  
 
     - `<Server>` is the name of the computer that is running Microsoft Dynamics NAV Server.
@@ -116,7 +115,7 @@ After publishing a web service, verify that the port that web service applicatio
 
     Example if the default Microsoft Dynamics NAV Server is running on your local computer.
     ```http://localhost:7047/DynamicsNAV/api/beta/companies(b9248a6e-966d-478c-a25d-d91d28610397)/salesInvoices(8cc52602-3aa4-4256-b2c7-fdfef5248cbf)/Microsoft.NAV.Copy) ```
-3. Postman should now show the Web service function that you have published, and perform the action of copying an invoice. 
+3. Postman should now show the web service function that you have published, and perform the action of copying an invoice. 
 
 ## Return a value
 
@@ -160,12 +159,12 @@ After publishing a web service, verify that the port that web service applicatio
     }
     ```
 
-You have now published a [!INCLUDE[navnow](includes/navnow_md.md)] function as an OData V4 Web service action and verified that the service works as expected. To read more about Web services, see the **See Also** section below.
+You have now published a [!INCLUDE[navnow](includes/navnow_md.md)] function as an OData V4 web service action and verified that the service works as expected. To read more about web services, see the **See Also** section below.
   
 ## See Also  
  [Web Services](Web-Services.md)   
  [SOAP Web Services](SOAP-Web-Services.md)   
  [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
  [How to: Publish a Web Service](How-to--Publish-a-Web-Service.md)  
- [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md)   
+ [Walkthrough: Configuring Web Services to Use SSL (SOAP and OData)](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md)   
  [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives:-SOAP-and-OData.md)
