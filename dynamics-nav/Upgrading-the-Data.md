@@ -274,11 +274,11 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 ##  <a name="AddExtensions"></a> Task 18: Publish and install/upgrade extensions
 [!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes a number of extensions that you publish and install as part of the upgrade process. To enable these extensions, it is important that you follow the steps below.
 
-1. Download the [platform symbols](https://go.microsoft.com/fwlink/?linkid=864045) and the [test symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Test_11.0.19680.0.app).
+1. Download the [platform symbols](https://go.microsoft.com/fwlink/?linkid=864045), the [test symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Test_11.0.19680.0.app), and the [application symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Application_11.0.19738.0.app).
 
     Make a note of the location where you store the files.
 
-2. Publish the platform symbols and the test symbols one file at a time to the Dynamics NAV server instance:
+2. Publish the platform symbols, the test symbols, and the application symbols one file at a time to the Dynamics NAV server instance:
 
     Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and run the following command for each of the symbol files:
 
@@ -299,7 +299,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
     Replace values for the `Database` and `ServerName` settings to suit.
 
     > [!NOTE]  
-    >  This command does not generate a file. It populates the **NAV App Object** table in the database.
+    >  This command does not generate a file. It populates the **Object Metadata** table in the database.
     
     For more information about generation symbols, see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md).
 
