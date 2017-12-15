@@ -23,7 +23,7 @@ Comment := XmlComment.Create(Value)
 ```  
 ## Parameters
 *Value*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 A string that contains the contents of the new XmlComment node.  
   
 ## Return Value

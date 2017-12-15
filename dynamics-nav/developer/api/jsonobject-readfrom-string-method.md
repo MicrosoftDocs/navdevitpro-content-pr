@@ -28,12 +28,12 @@ Reads the JSON data from the string into a JsonObject variable.
 &emsp;Type: [JsonObject](jsonobject-class.md)
 
 *String*  
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)
 
 The String object from which the JSON data will be read.
 
 ## Property Value/Return Value
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 **True** if the read was successful; otherwise, **false**.
 

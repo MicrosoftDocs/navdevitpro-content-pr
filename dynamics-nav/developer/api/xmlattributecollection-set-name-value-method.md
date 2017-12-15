@@ -21,11 +21,11 @@ XmlAttributeCollection.Set(Name, Value)
 ```  
 ## Parameters
 *Name*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The fully qualified name of the attribute to set.  
   
 *Value*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The value to set for the attribute.  
   
 ## See Also

@@ -27,10 +27,10 @@ Index := JsonArray.IndexOf(Value)
 &emsp;Type: [JsonArray](jsonarray-class.md)
 
 *Value*  
-&emsp;Type: [JsonToken](jsontoken-class.md) | [JsonObject](jsonobject-class.md) | [JsonValue](jsonvalue-class.md) | [JsonArray](jsonarray-class.md) | [Boolean](/datatypes/devenv-boolean-data-type.md) | [Char](/datatypes/devenv-char-data-type.md) | [Byte](/datatypes/devenv-byte-data-type.md) | [Integer](/datatypes/devenv-integer-data-type.md) | [BigInteger](/datatypes/devenv-biginteger-data-type.md) | [Decimal](/datatypes/devenv-decimal-data-type.md) | [Duration](/datatypes/devenv-duration-data-type.md) | [String](/datatypes/devenv-text-data-type.md) | [Date](/datatypes/devenv-date-data-type.md) | [Time](/datatypes/devenv-time-data-type.md) | [DateTime](/datatypes/devenv-datetime-data-type.md)
+&emsp;Type: [JsonToken](jsontoken-class.md) | [JsonObject](jsonobject-class.md) | [JsonValue](jsonvalue-class.md) | [JsonArray](jsonarray-class.md) | [Boolean](../datatypes/devenv-boolean-data-type.md) | [Char](../datatypes/devenv-char-data-type.md) | [Byte](../datatypes/devenv-byte-data-type.md) | [Integer](../datatypes/devenv-integer-data-type.md) | [BigInteger](../datatypes/devenv-biginteger-data-type.md) | [Decimal](../datatypes/devenv-decimal-data-type.md) | [Duration](../datatypes/devenv-duration-data-type.md) | [String](../datatypes/devenv-text-data-type.md) | [Date](../datatypes/devenv-date-data-type.md) | [Time](../datatypes/devenv-time-data-type.md) | [DateTime](../datatypes/devenv-datetime-data-type.md)
 
 ## Return Value
-&emsp;Type: [Integer](/datatypes/devenv-integer-data-type.md)
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)
 
 The position of the value in the JsonArray. -1 will be returned if *Value* cannot be found in the array.
 

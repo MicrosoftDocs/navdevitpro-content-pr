@@ -25,7 +25,7 @@ JsonToken := JsonValue.AsToken
 
 ### Parameters
 *JsonValue*  
-&emsp;Type: JsonValue
+&emsp;Type: [JsonValue](jsonvalue-class.md)
 
 ## Return Value
 *JsonToken*

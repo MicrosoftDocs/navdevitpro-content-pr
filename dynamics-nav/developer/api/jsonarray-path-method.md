@@ -28,7 +28,7 @@ String := JsonArray.Path
 &emsp;Type: [JsonArray](jsonarray-class.md)
 
 ## Property Value/Return Value
-Type: [String](/datatypes/devenv-text-data-type.md)
+Type: [String](../datatypes/devenv-text-data-type.md)
 
 The path of the array relative to its containing JSON tree.
 If the object is the root of the JSON tree, the path will be empty.

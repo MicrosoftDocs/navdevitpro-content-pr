@@ -25,14 +25,14 @@ Sends a DELETE request to delete the resource identified by the request URL.
 
 ## Parameters
 *Path*  
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)
 
 *Response*  
 &emsp;Type: [HttpReponseMessage](httpresponsemessage-class.md)
 
 ## Return value
 *Ok*  
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 &emsp;**True** if the operation was successful; otherwise, **false**.
 

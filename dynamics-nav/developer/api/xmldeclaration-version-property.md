@@ -23,12 +23,12 @@ Gets or sets the version property for this document.
 ```  
 ## Parameters
 *NewValue*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 A string containing the version property for this document.  
   
 ## Property Value
 *Value*  
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

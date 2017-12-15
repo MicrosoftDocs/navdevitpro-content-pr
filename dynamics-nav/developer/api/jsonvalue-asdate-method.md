@@ -26,7 +26,7 @@ Date := JsonValue.AsDate
 
 ### Parameters
 *JsonValue*  
-&emsp;Type: JsonValue
+&emsp;Type: [JsonValue](jsonvalue-class.md)
 
 ## Return Value
 Type: Date

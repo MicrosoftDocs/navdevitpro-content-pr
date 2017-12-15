@@ -23,7 +23,7 @@ Selects the first XmlNode that matches the XPath expression.
 ```  
 ## Parameters
 *XPath*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The XPath expression.  
   
 *Node*    
@@ -32,7 +32,7 @@ The first XmlNode that matches the XPath query.
   
 ## Return Value
 *Ok*  
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
 **True** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   

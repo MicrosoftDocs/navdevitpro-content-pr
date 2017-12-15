@@ -24,7 +24,7 @@ HttpResponseMessage.IsSuccessStatusCode
 ```
 
 ## Property Value
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 &emsp;**True** if the status code is 200; **false** otherwise.
 
