@@ -22,7 +22,8 @@ The following features are not available in all on-premises deployments because 
 
 | **Feature**                      |**Description**                                  |
 |----------------------------------|-------------------------------------------------|
-| Read/write data with Excel add-in       |The Excel add-in that enables update of data require Azure Active Directory as the authentication mechanism. |
+| Read/write data with Excel add-in       |The Excel add-in that enables update of data requires Azure Active Directory as the authentication mechanism. |
+| Excel financial reports        |The Excel add-in that is used with the predefined Excel-based financial reports requires Azure Active Directory as the authentication mechanism. |
 |Coversheets for contact management|The integration with Word to create the coversheets requires Azure Active Directory as the authentication mechanism.|
 | Built-in Power BI reports and charts       |The integration with Power BI requires Azure Active Directory as the authentication mechanism. |
 |Built-in web services |A number pages and queries are exposed as web services. However, the default endpoint must be manually updated before the web services can be consumed.|
