@@ -1,8 +1,8 @@
 ---
-title: "JsonArray Class"
+title: "JsonArray Class" 
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -20,7 +20,7 @@ author: SusanneWindfeldPedersen
 JsonArray is a container for any well-formed JSON array. A default JsonArray contains an empty JSON array.
 
 > [!NOTE]
-> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+> For performance reasons all [HTTP, JSON, TextBuilder, and XML types](../devenv-restapi-overview.md) are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
 
 The following methods are available on the JsonArray class.
 

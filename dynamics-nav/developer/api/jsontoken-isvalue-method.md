@@ -28,7 +28,7 @@ Ok := JsonToken.IsValue
 &emsp;Type: JsonToken
 
 ## Property Value/Return Value
-Type: Boolean
+&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
 
 **true** if the JsonToken represents a JSON value; otherwise, **false**.
 

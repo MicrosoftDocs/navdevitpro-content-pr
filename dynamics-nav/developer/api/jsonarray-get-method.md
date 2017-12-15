@@ -33,7 +33,7 @@ Retrieves the value at the given index in the JsonArray.
 A variable of type JsonToken that will contain the result if the operation is successful.
 
 ## Return Value
-Type: Boolean
+&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
 
 **True** if the operation was successful; otherwise, **false**.
 

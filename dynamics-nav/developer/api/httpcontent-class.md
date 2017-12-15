@@ -33,10 +33,10 @@ The following methods are available on the HttpContent class.
 
 
 ## See Also
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [HttpClient](httpclient-class.md)  
 [HttpHeaders](httpheaders-class.md)  
 [HttpRequestMessage](httprequestmessage-class.md)  
 [HttpReponseMessage](httpresponsemessage-class.md)  
-[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

@@ -28,12 +28,12 @@ Serializes and writes the JSON data of the JsonArray to a given Text object.
 &emsp;Type: JsonArray
 
 *String*  
-&emsp;Type: Text
+&emsp;Type: [Text](/datatypes/devenv-text-data-type.md)
 
 The Text object to which the JSON data will be written.
 
 ## Property Value/Return Value
-Type: Boolean
+&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
 
 **True** if the write was successful; otherwise, **false**.
 

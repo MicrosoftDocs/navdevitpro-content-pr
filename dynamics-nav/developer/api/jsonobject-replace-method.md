@@ -33,7 +33,7 @@ Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | I
 
 
 ## Return Value
-Type: Boolean
+&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
 
 **True** if the operation was successful; otherwise, **false**.
 

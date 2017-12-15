@@ -23,7 +23,7 @@ Read and parse the XML document from the given data source.
 ```  
 ## Parameters
 *Text*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 A string containing an XML document.  
   
 *Result*    
@@ -32,7 +32,7 @@ The XmlDocument parsed from the given data source.
   
 ## Return Value
 *Ok*  
-&emsp;Type: Boolean  
+&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)  
 **true** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   

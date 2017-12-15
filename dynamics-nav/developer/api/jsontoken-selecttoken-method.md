@@ -28,7 +28,7 @@ Selects a JsonToken using a JPath expression.
 &emsp;Type: JsonToken
 
 *Path*  
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 &emsp;A valid JPath expression.
 
 *Result*  
@@ -36,7 +36,7 @@ Selects a JsonToken using a JPath expression.
 &emsp;A **JsonToken** variable that will contain the result if the operation is successful.
 
 ## Property Value/Return Value
-Type: Boolean
+&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
 
 **True** if the operation was successful; otherwise, **false**.
 

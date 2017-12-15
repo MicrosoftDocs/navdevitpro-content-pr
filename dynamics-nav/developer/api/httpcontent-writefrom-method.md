@@ -28,7 +28,7 @@ HttpContent.WriteFrom(Value)
 &emsp;Type: [HttpContent](httpcontent-class.md)
 
 *Value*  
-&emsp;Type: Text or InStream
+&emsp;Type: [Text](/datatypes/devenv-text-data-type.md) or [InStream](/datatypes/devenv-instream-and-outstream-data-types.md)
 
 A new HttpContent is constructed with this value and headers from before.
 

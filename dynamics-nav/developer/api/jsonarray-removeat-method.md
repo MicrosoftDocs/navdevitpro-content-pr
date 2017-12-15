@@ -32,7 +32,7 @@ Removes the token at the given index.
 &emsp;The position of the element that will be removed.
 
 ## Return Value
-Type: Boolean
+&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
 
 **True** if the operation was successful; otherwise, **false**.
 
