@@ -26,8 +26,9 @@ The following features are not available in all on-premises deployments because 
 | Excel financial reports        |The Excel add-in that is used with the predefined Excel-based financial reports requires Azure Active Directory as the authentication mechanism. |
 |Coversheets for contact management|The integration with Word to create the coversheets requires Azure Active Directory as the authentication mechanism.|
 | Built-in Power BI reports and charts       |The integration with Power BI requires Azure Active Directory as the authentication mechanism. |
-|Built-in web services |A number pages and queries are exposed as web services. However, the default endpoint must be manually updated before the web services can be consumed.|
-|Outlook add-in|The Outlook add-in requires Dynamics NAV User/Password or Azure Active Directory as the authentication mechanism. |
+| Built-in Microsoft Flow Management |The integration with Microsoft Flow requires Azure Active Directory as the authentication mechanism.|
+| Built-in web services |A number pages and queries are exposed as web services. However, the default endpoint must be manually updated before the web services can be consumed.|
+| Outlook add-in |The Outlook add-in requires Dynamics NAV User/Password or Azure Active Directory as the authentication mechanism. |
 
 ## Features not intended for use in on-premises deployments
 The following features are not intended for use in on-premises deployments. There are no plans to implement these features in on-premises deployments.
