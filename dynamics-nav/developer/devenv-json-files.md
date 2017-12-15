@@ -42,6 +42,7 @@ The following table describes the settings in the ```app.json``` file:
 |application|Yes, if base application objects are extended or referenced. The AL package will be compiled against the application that is present on the server that you connect to. This allows you to write a single AL extension for multiple country versions as long as you *do not* depend on country-specific code. If you *do* depend on country-specific code you should only try to compile your app against a server set up for that country.|The minimum supported version, for example: `"application": "11.0.0.0"`|
 |idRange|Yes|A range for application object IDs. For all objects outside the range, a compilation error will be raised.|
 |showMyCode|No|This is by default set to `false` and not visible in the manifest. To enable viewing the source code when debugging into an extension, add the following setting: `"showMyCode": true`|
+|target|No|By default this is `Extension`. For Dynamics NAV, you can set this to `Internal` to get access to otherwise restricted APIs. The Dynamics NAV Server setting must then also be set to `Internal`. For more information, see [Configuring Microsoft Dynamics NAV Server](../configuring-microsoft-dynamics-nav-server.md).|
 
 ## Launch.json file
 
