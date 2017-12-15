@@ -31,7 +31,7 @@ Type: [JsonToken](jsontoken-class.md)
 A JsonToken for which IsObject returns **true**. If the JsonToken does not represent a JSON object, a run-time error occurs.
 
 ## Return Value
-Type: [JsonObject](jsonobject-class)
+Type: [JsonObject](jsonobject-class.md)
 
 The returned JsonObject contains the same data as the JsonToken, but allows object-specific operations to be performed on it.
 

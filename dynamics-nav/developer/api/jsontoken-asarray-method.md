@@ -18,7 +18,7 @@ author: SusanneWindfeldPedersen
 
 # AsArray Method
 
-Converts the value in a [JsonToken](jsontoken-class) to a [JsonArray](jsonarray-class.md) data type.
+Converts the value in a [JsonToken](jsontoken-class.md) to a [JsonArray](jsonarray-class.md) data type.
 
 ```
 JsonArray := JsonToken.AsArray
