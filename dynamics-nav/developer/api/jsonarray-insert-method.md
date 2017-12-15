@@ -2,7 +2,7 @@
 title: "Insert Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/15/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,16 +26,16 @@ Inserts the value at the given index in the array while shifting all the values 
 
 ## Parameters
 *JsonArray*  
-&emsp;Type: JsonArray
+&emsp;Type: [JsonArray](jsonarray-class.md)
 
 *Index*  
-&emsp;Type: Integer
+&emsp;Type: [Integer](/datatypes/devenv-integer-data-type.md)
 
 *Value*  
-&emsp;Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
+&emsp;Type: [JsonToken](jsontoken-class.md) | [JsonObject](jsonobject-class.md) | [JsonValue](jsonvalue-class.md) | [JsonArray](jsonarray-class.md) | [Boolean](/datatypes/devenv-boolean-data-type.md) | [Char](/datatypes/devenv-char-data-type.md) | [Byte](/datatypes/devenv-byte-data-type.md) | [Integer](/datatypes/devenv-integer-data-type.md) | [BigInteger](/datatypes/devenv-biginteger-data-type.md) | [Decimal](/datatypes/devenv-decimal-data-type.md) | [Duration](/datatypes/devenv-duration-data-type.md) | [String](/datatypes/devenv-text-data-type.md) | [Date](/datatypes/devenv-date-data-type.md) | [Time](/datatypes/devenv-time-data-type.md) | [DateTime](/datatypes/devenv-datetime-data-type.md)
 
 ## Return Value
-Type: Boolean
+&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
 
 **True** if the operation was successful; otherwise, **false**.
 
@@ -45,5 +45,7 @@ If you omit this optional return value and if the select does not execute succes
 The operation will fail if the *Index* is smaller than 0 or greater than JsonArray.Count.
 
 ## See Also
+[JsonArray](jsonarray-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

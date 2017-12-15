@@ -23,15 +23,15 @@ XmlAttribute := XmlAttribute.Create(LocalName, NamespaceUri, Value)
 ```  
 ## Parameters
 *LocalName*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 The local name of the attribute.  
   
 *NamespaceUri*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 The namespace URI of the attribute.  
   
 *Value*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 The value of the attribute.  
   
 ## Return Value
