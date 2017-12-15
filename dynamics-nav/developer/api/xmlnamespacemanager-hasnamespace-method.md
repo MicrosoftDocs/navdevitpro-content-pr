@@ -23,12 +23,12 @@ HasNamespace := XmlNamespaceManager.HasNamespace(Prefix)
 ```  
 ## Parameters
 *Prefix*    
-&emsp;Type: String  
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
 The prefix of the namespace you want to find.  
   
 ## Return Value
 *HasNamespace*  
-&emsp;Type: Boolean  
+&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

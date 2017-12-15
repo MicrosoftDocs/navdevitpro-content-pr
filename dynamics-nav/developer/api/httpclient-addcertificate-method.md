@@ -26,10 +26,10 @@ HttpClient.AddCertificate(certificate, password)
 &emsp;Type: [HttpClient](httpclient-class.md)
 
 *certificate*  
-&emsp;Type: Text
+&emsp;Type: [Text](/datatypes/devenv-text-data-type.md)
 
 *password*  
-&emsp;Type: Text
+&emsp;Type: [Text](/datatypes/devenv-text-data-type.md)
 
 ## Remarks
 

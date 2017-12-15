@@ -24,7 +24,7 @@ Represents an HTTP request message.
 
 The following methods are available on the HttpRequestMessage class.
 
-|Method name|Description|
+|Method name|Description| 
 |-----------|-----------|
 |[Content](httprequestmessage-content-method.md)|Gets or sets the contents of the HTTP message.|
 |[GetRequestUri](httprequestmessage-getrequesturi-method.md)|Gets the Uniform Resource Identifier (URI) used for the HTTP request.|
@@ -33,10 +33,10 @@ The following methods are available on the HttpRequestMessage class.
 
 
 ## See Also
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [HttpResponseMessage](httpresponsemessage-class.md)  
 [HttpClient](httpclient-class.md)  
 [HttpContent](httpcontent-class.md)  
 [HttpHeaders](httpheaders-class.md)  
-[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
