@@ -18,6 +18,19 @@ You can create new [!INCLUDE[navnow](includes/navnow_md.md)] databases in the [!
 
  When you create a database you must specify the SQL Server instance for the database and the authentication type.  
 
+### To download symbols
+Before you create a database, you must make sure to download symbols first.
+
+1. Download the [platform symbols](https://go.microsoft.com/fwlink/?linkid=864045), the [test symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Test_11.0.19680.0.app), and the [application symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Application_11.0.19738.0.app).  
+Make a note of the location where you store the files. 
+2. Publish the symbol files, one file at a time to the Dynamics NAV Server instance:  
+Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and run the following command for each of the symbol files:
+
+    ```
+    Publish-NAVApp -ServerInstance <ServerInstanceName> -Path <SymbolFilePath> -PackageType SymbolsOnly
+    ```
+
+
 ### To create a database  
 
 1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **New**.  
