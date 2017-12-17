@@ -28,11 +28,11 @@ The navsettings.json or web.config file is stored in the physical path of the we
 
 ## Modify the navsettings.json or web.config file directly
 
-1. Open the navsettings.json or or web.config in any text or code editor, such as Notepad or Visual Studio Code.
+1. Open the navsettings.json or web.config in any text or code editor, such as Notepad or Visual Studio Code.
 
-    Each setting is a defined by a key-value pair.  
+    Each setting is defined by a key-value pair.  
     
-    -   In the navsettins.json file,a setting has the format:
+    -   In the navsettings.json file, a setting has the format:
 
         `"keyname": "keyvalue",`
 
