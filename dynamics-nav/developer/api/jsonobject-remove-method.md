@@ -2,7 +2,7 @@
 title: "Remove Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/15/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,13 +25,15 @@ Removes the property with the given key from the object.
 
 ## Parameters
 *Key*  
-&emsp;Type: String
+&emsp;Type: [String](/datatypes/devenv-text-data-type.md)
 
 ## Return Value  
-Type: Boolean
+&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
 
 **True** if a property with the given key was present on the object; otherwise, **false**.
 
 ## See Also
+[JsonObject](jsonobject-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

@@ -27,7 +27,7 @@ HttpContent.Create(Value)
 &emsp;Type: HttpContent
 
 *Value*  
-&emsp;Type: Text or InStream
+&emsp;Type: [Text](/datatypes/devenv-text-data-type.md) or InStream
 
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

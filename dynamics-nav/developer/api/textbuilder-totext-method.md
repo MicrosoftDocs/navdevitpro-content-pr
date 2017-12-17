@@ -21,7 +21,7 @@ Result := TextBuilder.ToText()
 ```  
 ## Return Value
 *Result*  
-&emsp;Type: Text  
+&emsp;Type: [Text](/datatypes/devenv-text-data-type.md)  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

@@ -23,7 +23,7 @@ Value := XmlNode.IsXmlDocument
 ```  
 ## Property Value
 *Value*  
-&emsp;Type: Boolean  
+&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  
