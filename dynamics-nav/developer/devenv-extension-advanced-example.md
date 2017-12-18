@@ -13,7 +13,7 @@ ms.author: SusanneWindfeldPedersen
 ---
 
 # Building an Advanced Sample Extension
-With Extensions V2.0, it is required to submit tests with your extension in order to pass validation. This walkthrough builds an advanced sample extension which is used as the foundation for writing a test which you can read about here [](). If you are new to building extensions, we suggest that you get familiar with [Building your first sample extension that uses new objects and extension objects](devenv-extension-example.md) 
+With Extensions V2.0, it is required to submit tests with your extension in order to pass validation. This walkthrough builds an advanced sample extension which is used as the foundation for writing a test which you can read about here <!--link missing-->[](). If you are new to building extensions, we suggest that you get familiar with [Building your first sample extension that uses new objects and extension objects](devenv-extension-example.md). 
 This walkthrough will guide you through all the steps that you must follow to create the sample extension in AL. The final result can be published, installed, and tested on your tenants. After you have built your extension, you must write the test for it.
 
 ## About This Walkthrough
@@ -51,7 +51,7 @@ This sample extension enables the ability to set up any number of reward levels 
 In the following section, you will be adding the objects that are needed for the Customer Rewards extension. 
 
 ### Customer Rewards table objects
-First, we'll get started with the table objects that store the data. 
+First, we will get started with the table objects that store the data. 
 
 #### Reward Level table object
 The following code adds a new table 50100 **Reward Level** for storing reward level information set up by the user. The table consists of two fields: **Level** and **Minimum Reward Points**. 
@@ -280,7 +280,7 @@ tableextension 50100 "CustomerTable Ext." extends Customer
 ### Customer Rewards page objects 
 
 #### Customer Rewards Wizard page object 
-The following code adds the 50100 **Customer Rewards Wizard** page that enables the user to accept the terms for using the extension as well as activating the extension. The page consists of a welcome step, an activation step and a finish step. The welcome step has a checkbox for the Terms of Use that must be enabled. The activation step has a text box where the activation code must be entered for validation. A valid activation code for this sample extension is any 14 character alphanumeric code. 
+The following code adds the 50100 **Customer Rewards Wizard** page that enables the user to accept the terms for using the extension as well as activating the extension. The page consists of a welcome step, an activation step, and a finish step. The welcome step has a checkbox for the Terms of Use that must be enabled. The activation step has a text box where the activation code must be entered for validation. A valid activation code for this sample extension is any 14 character alphanumeric code. 
 
 ```
 page 50100 "Customer Rewards Wizard" 
@@ -985,7 +985,7 @@ page 50101 "Rewards Level List"
 ### Customer Rewards page extension objects 
 
 #### Customer card page extension object 
-A page extension object can be used to add new functionality to pages that are part of the Dynamics 365 for Finance and Operations, Business edition service. The following page extension object extends the **Customer Card** page object by adding two field controls; **RewardLevel** and **RewardPoints** after the Name field control on the page. The fields are added in the layout section. 
+A page extension object can be used to add new functionality to pages that are part of the Dynamics 365 for Finance and Operations, Business edition service. The following page extension object extends the **Customer Card** page object by adding two field controls: **RewardLevel** and **RewardPoints** after the Name field control on the page. The fields are added in the layout section. 
 
 ```
 pageextension 50100 "Customer Card Ext." extends "Customer Card" 
@@ -1121,7 +1121,7 @@ pageextension 50101 "Customer List Ext." extends "Customer List"
 ### Customer Rewards codeunit objects 
 
 #### Customer Rewards Install Logic codeunit object 
-The following code adds the 50100 **Customer Rewards Install Logic** codeunit that initializes the default codeunit that will be used for handling events. Because this is an install codeunit, is has its **Subtype** property set to **Install**. The **OnInstallAppPerCompany** trigger is run when the extension is installed for the first time and the same version is re-installed. 
+The following code adds the 50100 **Customer Rewards Install Logic** codeunit that initializes the default codeunit that will be used for handling events. Because this is an install codeunit, it has its **Subtype** property set to **Install**. The **OnInstallAppPerCompany** trigger is run when the extension is installed for the first time and the same version is re-installed. 
 
 ```
 codeunit 50100 "Customer Rewards Install Logic" 
@@ -1168,7 +1168,7 @@ codeunit 50100 "Customer Rewards Install Logic"
 ```
  
 #### Customer Rewards Ext. Mgt. codeunit object 
-The 50101 **Customer Rewards Ext. Mgt.**  codeunit encapsulates most of the logic and functionality required for the Customer Rewards extension. This codeunit contains examples of how we can use events to react to specific actions or behavior that occur within our extension. In this sample extension, there is there need to make a call to an external service or API to validate activation codes entered by the user. Typically, you may do this by defining procedures that take in the activation code and then make calls to the API. Instead of using that approach, we use events in AL. Let us look at the following code from the codeunit. 
+The 50101 **Customer Rewards Ext. Mgt.**  codeunit encapsulates most of the logic and functionality required for the Customer Rewards extension. This codeunit contains examples of how we can use events to react to specific actions or behavior that occur within our extension. In this sample extension, there is the need to make a call to an external service or API to validate activation codes entered by the user. Typically, you may do this by defining procedures that take in the activation code and then make calls to the API. Instead of using that approach, we use events in AL. Let us look at the following code from the codeunit. 
  
 ```
     // Activates Customer Rewards if activation code is validated successfully  
