@@ -2,7 +2,7 @@
 title: "ReadFrom_Stream Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/15/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,15 +25,15 @@ Reads the JSON data from the stream into a JsonArray variable.
 
 ## Parameters
 *JsonArray*  
-&emsp;Type: JsonArray
+&emsp;Type: [JsonArray](jsonarray-class.md)
 
 *InStream*  
-&emsp;Type: InStream
+&emsp;Type: [InStream](/datatypes/devenv-instream-and-outstream-data-types.md)
 
 The InStream object from which the JSON data will be read.
 
 ## Property Value/Return Value
-Type: Boolean
+Type: [Boolean](/datatypes/devenv-text-data-type.md)
 
 **True** if the read was successful; otherwise, **false**.
 
@@ -48,7 +48,7 @@ If you omit this optional return value and if the read does not execute successf
 Clear(JsonArray)
 ```
 ## Example
-This example shows how to read JSON data from a stream into a JsonArray variable.
+This example shows how to read JSON data from a stream into a [JsonArray](jsonarray-class.md) variable.
 
 ```
 local procedure ReadJson(source : InStream) result : JsonArray;
@@ -58,5 +58,7 @@ end;
 
 ```
 ## See Also
+[JsonArray](jsonarray-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

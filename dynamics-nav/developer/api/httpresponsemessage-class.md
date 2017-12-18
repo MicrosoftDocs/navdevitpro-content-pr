@@ -25,7 +25,7 @@ Represents an HTTP response message.
 The following methods are available on the HttpResponseMessage class.
 
 |Method name|Description|
-|-----------|-----------|
+|-----------|-----------| 
 |[Content](httpresponsemessage-content-method.md)|Gets the contents of the HTTP message.|
 |[Headers](httpresponsemessage-headers-method.md)|Gets the HTTP request's HTTP headers.|
 |[HttpStatusCode](httpresponsemessage-httpstatuscode-method.md)|Gets the status code of the HTTP response.|
@@ -34,10 +34,10 @@ The following methods are available on the HttpResponseMessage class.
 
 
 ## See Also
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [HttpRequestMessage](httprequestmessage-class.md)  
 [HttpClient](httpclient-class.md)  
 [HttpContent](httpcontent-class.md)  
 [HttpHeaders](httpheaders-class.md)  
-[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

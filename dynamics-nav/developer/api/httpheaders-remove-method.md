@@ -28,10 +28,11 @@ Removes the key and the related values from the HttpHeaders object.
 &emsp;Type: [HttpHeaders](httpheaders-class.md)  
 
 *Key*  
-&emsp;Type: Text
+&emsp;Type: [Text](../datatypes/devenv-text-data-type.md)
 
 ## Return Value
-&emsp;Type: Boolean  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
+
 &emsp;**True** if key exists; **false** otherwise.
 
 ## See Also

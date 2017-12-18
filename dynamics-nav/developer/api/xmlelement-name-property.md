@@ -23,7 +23,7 @@ Value := XmlElement.Name
 ```  
 ## Property Value
 *Value*  
-&emsp;Type: String  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

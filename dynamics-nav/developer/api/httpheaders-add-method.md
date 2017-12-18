@@ -28,14 +28,15 @@ Adds sets the provided value for the provided header name.
 &emsp;Type: [HttpHeaders](httpheaders-class.md)
 
 *Key*  
-&emsp;Type: Text
+&emsp;Type: [Text](../datatypes/devenv-text-data-type.md)
 
 *Value*  
-&emsp;Type: Text
+&emsp;Type: [Text](../datatypes/devenv-text-data-type.md)
 
 ## Return Value
 *Ok*  
-&emsp;Type: Boolean  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
+
 &emsp;**True** if the operation was successful; otherwise, **false**.
 
 ## See Also

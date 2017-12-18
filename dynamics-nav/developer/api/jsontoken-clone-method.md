@@ -2,7 +2,7 @@
 title: "Clone Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/14/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,7 +18,7 @@ author: SusanneWindfeldPedersen
 
 # Clone Method
 
-Creates a deep-copy of the JsonToken value.
+Creates a deep-copy of the [JsonToken](jsontoken-class.md) value.
 
 ```
 Result := JsonToken.Clone()
@@ -26,13 +26,17 @@ Result := JsonToken.Clone()
 
 ### Parameters
 *JsonToken*  
-&emsp;Type: JsonToken
+&emsp;Type: [JsonToken](jsontoken-class.md)
 
 ## Return Value
-Type: JsonToken
+Type: [JsonToken](jsontoken-class.md)
 
 The *Result* will be a full, deep-copy of the *Value*.
 
 ## See Also
+[JsonArray](jsonarray-class.md)  
+[JsonObject](jsonobject-class.md)  
+[JsonToken](jsontoken-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
-[Developing Extensions](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)  

@@ -28,11 +28,12 @@ Sets Uniform Resource Identifier (URI) used for the HTTP request.
 &emsp;Type: [HttpRequestMessage](httprequestmessage-class.md)
 
 *RequestUri*  
-&emsp;Type: Text
+&emsp;Type: [Text](../datatypes/devenv-text-data-type.md)
 
 ## Return Value
 *Ok*  
-&emsp;Type: Boolean  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
+
 &emsp;**True** if the URI was valid; otherwise, **false**.
 
 ## See Also

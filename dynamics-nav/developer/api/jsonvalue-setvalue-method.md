@@ -26,7 +26,7 @@ JsonValue.SetValue(Value)
 
 ## Parameters
 *Value*  
-&emsp;Type: Boolean | Char | Byte | Option | Integer | BigInteger | Decimal | Duration | Date | Time | DateTime | String
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md) | Char | Byte | Option | Integer | BigInteger | Decimal | Duration | Date | Time | DateTime | String
 
 
 ### Remarks
