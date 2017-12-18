@@ -15,7 +15,7 @@ caps.latest.revision: 18
 ---
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
-# Extending/Adding Application Areas 
+# Extending Application Areas 
 
 Application area represents a feature in the system that offers developers, administrators, and users the ability to define differentiated user experiences. The user experience determines how much of the core functionality is available when you use [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Application areas are used to map the controls and actions to the various experience that will change existing page objects to match more scenarios that are part of this process.   
 
@@ -170,7 +170,7 @@ codeunit 50100 "Enable Example Extension"
 }
 ```
 
-## Application Areas advantages and disadvantages
+## Application areas advantages and disadvantages
 
 If you decide to code application areas as an extension, there are some aspects that need to be considered. Application areas enable hiding entire business scenarios and you can have the same code base, which makes possible to quickly modify the UI for different business scenarios or audiences. However, tagging erros as missing tags or incorrect tags will occur and every single control must be tagged. 
 
