@@ -21,7 +21,7 @@ Count := XmlAttributeCollection.Count
 ```  
 ## Property Value
 *Count*  
-&emsp;Type: Integer  
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

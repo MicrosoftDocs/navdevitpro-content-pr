@@ -21,24 +21,24 @@ Replaces all occurrences of a specified string in this instance with another spe
 ```  
 ## Parameters
 *OldText*    
-&emsp;Type: [Text](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [Text](../datatypes/devenv-text-data-type.md)  
 The string to replace.  
   
 *NewText*    
-&emsp;Type: [Text](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [Text](../datatypes/devenv-text-data-type.md)  
 The string that replaces OldText.  
   
 *StartIndex*    
-&emsp;Type: Integer  
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)  
 The position in this instance where the substring begins.  
   
 *Count*    
-&emsp;Type: Integer  
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)  
 The length of the substring.  
   
 ## Return Value
 *Ok*  
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
 **True** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   

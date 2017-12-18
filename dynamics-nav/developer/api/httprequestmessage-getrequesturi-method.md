@@ -28,7 +28,7 @@ RequestUri := HttpRequestMessage.GetRequestUri
 
 ## Return Value
 *RequestUri*  
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)
 
 ## See Also
 [HttpRequestMessage](httprequestmessage-class.md)  

@@ -23,7 +23,7 @@ IsNamespaceDeclaration := XmlAttribute.IsNamespaceDeclaration
 ```  
 ## Property Value
 *IsNamespaceDeclaration*  
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

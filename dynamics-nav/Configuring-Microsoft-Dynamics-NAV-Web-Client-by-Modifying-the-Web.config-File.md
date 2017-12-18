@@ -22,28 +22,33 @@ The name of the configuration file depends on your [!INCLUDE[navnow_md.md](inclu
  After installation, you can change the configuration by modifying the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]. There are two ways to modify this file: directly or using PowerShell.
 
 ### Where to find the navsettings.json or web.config file
-The navsettings.json or web.config file is stored in the physical path of the web server instance, which is by default is *%systemroot%\\inetpub\\wwwroot\\[WebServerInstanceName]*. *[WebServerInstanceName]* corresponds to the name (alias) of the web server instance in IIS, for example, *c:\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]* 
+The navsettings.json or web.config file is stored in the physical path of the web server instance, which is by default is *%systemroot%\\inetpub\\wwwroot\\[WebServerInstanceName]*.
+
+*[WebServerInstanceName]* corresponds to the name (alias) of the web server instance in IIS, for example, *c:\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]* 
 
 ## Modify the navsettings.json or web.config file directly
 
-1. Open the navsettings.json any text or code editor, such as Notepad or Visual Studio Code.
+1. Open the navsettings.json or web.config in any text or code editor, such as Notepad or Visual Studio Code.
 
-    Each setting is a defined by a key-value pair. The navsettins.json file has the format:
+    Each setting is defined by a key-value pair.  
+    
+    -   In the navsettings.json file, a setting has the format:
 
-    `"keyname": "keyvalue",`
+        `"keyname": "keyvalue",`
 
-    The web.config file has the format:
+    -   In the web.config file, a setting has the format:
 
-    <add key="keyname" value="keyvalue"/>
+        `<add key="keyname" value="keyvalue"/>`
 
-    `keyname` is the name of the configuration setting and `keyvalue` is the value. For example, the configuration setting that specifies the credential type for authenticating users is:
+    `keyname` is the name of the configuration setting and `keyvalue` is the value.
+    
+    For example, in the navsettings.json file, the configuration setting that specifies the Windows credential type for authenticating users is:
 
     `"ClientServicesCredentialType":  "Windows",`
 
-    or
+    In the web.config file, the setting is:
     
     `<add key="ClientServicesCredentialType" value="Windows"/>`
-
 
 2.  Find the configuration settings that you want to change, and then change the values.
 

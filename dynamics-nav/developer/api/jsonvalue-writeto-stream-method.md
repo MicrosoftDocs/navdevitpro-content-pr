@@ -26,7 +26,7 @@ Serializes and writes the JSON data of the JsonValue to a given OutStream object
 
 ### Parameters
 *JsonValue*  
-&emsp;Type: JsonValue
+&emsp;Type: [JsonValue](jsonvalue-class.md)
 
 *OutStream*  
 &emsp;Type: OutStream
@@ -34,7 +34,7 @@ Serializes and writes the JSON data of the JsonValue to a given OutStream object
 The OutStream object to which the JSON data will be written.
 
 ## Property Value/Return Value
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 **True** if the write was successful; otherwise, **false**.
 
