@@ -28,14 +28,14 @@ Gets the values for the specified key.
 &emsp;Type: [HttpHeaders](httpheaders-class.md)
 
 *Key*  
-&emsp;Type: [Text](/datatypes/devenv-text-data-type.md)
+&emsp;Type: [Text](../datatypes/devenv-text-data-type.md)
 
 *Result*  
 &emsp;Type: Array of [Text](/datatypes/devenv-text-data-type.md)
 
 ## Return Value
 *Ok*  
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 &emsp;**True** if headers contain the key; **false** otherwise.
 

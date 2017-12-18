@@ -26,10 +26,10 @@ String := JsonValue.Path
 
 ## Parameters
 *JsonValue*  
-&emsp;Type: JsonValue
+&emsp;Type: [JsonValue](jsonvalue-class.md)
 
 ## Property Value/Return Value
-Type: String
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)
 
 The path of the value relative to its containing JSON tree.
 If the object is the root of the JSON tree, the path will be empty.

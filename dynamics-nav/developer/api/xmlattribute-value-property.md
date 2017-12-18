@@ -23,12 +23,12 @@ Gets or sets the value of the attribute.
 ```  
 ## Parameters
 *NewValue*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The new value of the attribute.  
   
 ## Property Value
 *Value*  
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

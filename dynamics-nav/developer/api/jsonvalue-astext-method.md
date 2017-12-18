@@ -26,10 +26,10 @@ Text := JsonValue.AsText
 
 ## Parameters
 *JsonValue*  
-&emsp;Type: JsonValue
+&emsp;Type: [JsonValue](jsonvalue-class.md)
 
 ## Return Value
-&emsp;Type: [Text](/datatypes/devenv-text-data-type.md)
+&emsp;Type: [Text](../datatypes/devenv-text-data-type.md)
 
 ## Remarks
 The operation will fail with a run-time error if the JsonValue contains NULL or UNDEFINED.

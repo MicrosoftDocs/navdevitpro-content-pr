@@ -23,7 +23,7 @@ ChildElements := XmlDocument.GetChildElements(Name)
 ```  
 ## Parameters
 *Name*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The fully qualified name of the elements to retrieve.  
   
 ## Return Value

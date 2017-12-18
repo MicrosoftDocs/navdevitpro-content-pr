@@ -25,10 +25,10 @@ Removes the property with the given key from the object.
 
 ## Parameters
 *Key*  
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)
 
 ## Return Value  
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 **True** if a property with the given key was present on the object; otherwise, **false**.
 

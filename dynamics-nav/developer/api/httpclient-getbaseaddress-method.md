@@ -30,7 +30,7 @@ Gets the base address of Uniform Resource Identifier (URI) of the Internet resou
 
 ## Return value
 *Address*  
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 The base address of URI of the Internet resource used when sending requests.
 

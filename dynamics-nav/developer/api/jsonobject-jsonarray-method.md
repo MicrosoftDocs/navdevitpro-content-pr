@@ -25,14 +25,14 @@ Adds a new property to a JsonObject.
 
 ## Parameters
 *Key*  
-Type: String
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)
 
 *Value*  
 Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
 
 
 ## Return Value
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 **True** if the operation was successful; otherwise, **false**.
 

@@ -20,7 +20,7 @@ The following methods are available on the XmlAttributeCollection class.
 > [!NOTE]
 > For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
 
-|Method name|Description|  
+|Method name|Description|
 |-----------|-----------|  
 |[XmlAttributeCollection.Count](xmlattributecollection-count-property.md)|Gets the number of attributes in the XmlAttributeCollection.|  
 |[XmlAttributeCollection.Get(Integer, XmlAttribute)](xmlattributecollection-get-index-result-method.md)|Gets the specified attribute.|  

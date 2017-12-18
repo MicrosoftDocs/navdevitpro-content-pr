@@ -21,16 +21,16 @@ Removes the specified range of characters from this instance.
 ```  
 ## Parameters
 *StartIndex*    
-&emsp;Type: Integer  
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)  
 The one-based position in this instance where removal begins.  
   
 *Count*    
-&emsp;Type: Integer  
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)  
 The number of characters to remove.  
   
 ## Return Value
 *Ok*  
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
 **True** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   

@@ -23,16 +23,16 @@ Gets the namespace associated with a particular prefix for this element.
 ```  
 ## Parameters
 *Prefix*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 A string that contains the namespace prefix to look up.  
   
 *Result*    
-&emsp;Type: [Text](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [Text](../datatypes/devenv-text-data-type.md)  
 The namespace URI associated with the given prefix for this element.  
   
 ## Return Value
 *Ok*  
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
 **true** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   

@@ -23,11 +23,11 @@ XmlNamespaceManager.AddNamespace(Prefix, Uri)
 ```  
 ## Parameters
 *Prefix*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The prefix to associate with the namespace being added. Use an empty string to add a default namespace.  
   
 *Uri*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The namespace to add.  
   
 ## See Also

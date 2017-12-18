@@ -21,12 +21,12 @@ Gets or sets the maximum number of characters that can be contained in the memor
 ```  
 ## Parameters
 *NewCapacity*    
-&emsp;Type: Integer  
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)  
 The maximum number of characters that can be contained in the memory allocated by the current instance. Its value can range from Length to MaxCapacity.  
   
 ## Property Value
 *OldCapacity*  
-&emsp;Type: Integer  
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

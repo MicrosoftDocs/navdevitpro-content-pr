@@ -28,7 +28,7 @@ String := JsonToken.Path
 &emsp;Type: [JsonToken](jsontoken-class.md)
 
 ## Property Value/Return Value
-Type: [String](/datatypes/devenv-text-data-type.md)
+Type: [String](../datatypes/devenv-text-data-type.md)
 
 The path of the token relative to its containing JSON tree. If the token is the root of the JSON tree, the path will be empty.
 

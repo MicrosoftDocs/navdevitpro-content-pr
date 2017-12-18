@@ -21,12 +21,12 @@ Gets or sets the length of the current TextBuilder object.
 ```  
 ## Parameters
 *NewLength*    
-&emsp;Type: Integer  
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)  
 The new length of this instance.  
   
 ## Property Value
 *OldLength*  
-&emsp;Type: Integer  
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  
