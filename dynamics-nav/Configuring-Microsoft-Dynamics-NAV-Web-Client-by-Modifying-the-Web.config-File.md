@@ -24,7 +24,7 @@ The name of the configuration file depends on your [!INCLUDE[navnow_md.md](inclu
 ### Where to find the navsettings.json or web.config file
 The navsettings.json or web.config file is stored in the physical path of the web server instance, which is by default is *%systemroot%\\inetpub\\wwwroot\\[WebServerInstanceName]*.
 
-*[WebServerInstanceName]* corresponds to the name (alias) of the web server instance in IIS, for example, *c:\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]* 
+*[WebServerInstanceName]* corresponds to the name (alias) of the web server instance in IIS, for example, *c:\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]*. 
 
 ## Modify the navsettings.json or web.config file directly
 
@@ -40,6 +40,7 @@ The navsettings.json or web.config file is stored in the physical path of the we
 
         `<add key="keyname" value="keyvalue"/>`
 
+    
     `keyname` is the name of the configuration setting and `keyvalue` is the value.
     
     For example, in the navsettings.json file, the configuration setting that specifies the Windows credential type for authenticating users is:
