@@ -28,11 +28,11 @@ Removes the token at the given index.
 &emsp;Type: [JsonArray](jsonarray-class.md)
 
 *Index*  
-&emsp;Type: [Integer](/datatypes/devenv-integer-data-type.md)  
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)  
 &emsp;The position of the element that will be removed.
 
 ## Return Value
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 **True** if the operation was successful; otherwise, **false**.
 

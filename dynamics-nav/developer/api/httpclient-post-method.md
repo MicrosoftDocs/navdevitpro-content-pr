@@ -25,7 +25,7 @@ Sends a POST request to the specified Uniform Resource Identifier (URI) as an as
 
 ## Parameters
 *Path*  
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)
 
 *Content*  
 &emsp;Type: [HttpContent](httpcontent-class.md)  
@@ -35,7 +35,7 @@ Sends a POST request to the specified Uniform Resource Identifier (URI) as an as
 
 ## Return Value
 *Ok*  
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
 
 &emsp;**True** if the operation was successful; otherwise, **false**.
 

@@ -23,11 +23,11 @@ XmlElement.RemoveAttribute(LocalName, NamespaceUri)
 ```  
 ## Parameters
 *LocalName*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The local name of the attribute to remove.  
   
 *NamespaceUri*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The namespace URI of the attribute to remove.  
   
 ## See Also

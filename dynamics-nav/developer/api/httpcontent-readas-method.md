@@ -28,11 +28,11 @@ Reads the content into the provided text.
 &emsp;Type: [HttpContent](httpcontent-class.md)
 
 *Result*  
-&emsp;Type: [Text](/datatypes/devenv-text-data-type.md) or [InStream](/datatypes/devenv-instream-and-outstream-data-types.md)
+&emsp;Type: [Text](../datatypes/devenv-text-data-type.md) or [InStream](/datatypes/devenv-instream-and-outstream-data-types.md)
 
 ## Return Value
 *Ok*  
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
 
 &emsp;**True** if the operation was successful; otherwise, **false**.
 

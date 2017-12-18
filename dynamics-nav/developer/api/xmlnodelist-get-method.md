@@ -23,7 +23,7 @@ Gets a node at the given index.
 ```  
 ## Parameters
 *Index*    
-&emsp;Type: Integer  
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)  
 The one-based index into the list of nodes.  
   
 *Node*    
@@ -32,7 +32,7 @@ The XmlNode with the specified index in the list.
   
 ## Return Value
 *Ok*  
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
 **true** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   

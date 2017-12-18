@@ -23,7 +23,7 @@ NamespacePrefix := XmlAttribute.NamespacePrefix
 ```  
 ## Property Value
 *NamespacePrefix*  
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

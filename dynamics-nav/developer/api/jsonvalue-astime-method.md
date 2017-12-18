@@ -26,7 +26,7 @@ Time := JsonValue.AsTime
 
 ## Parameters
 *JsonValue*  
-&emsp;Type: JsonValue
+&emsp;Type: [JsonValue](jsonvalue-class.md)
 
 ## Return Value
 Type: Time

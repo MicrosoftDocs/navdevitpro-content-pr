@@ -28,7 +28,7 @@ Integer := JsonArray.Count
 &emsp;Type: [JsonArray](jsonarray-class.md)
 
 ## Property Value/Return Value
-Type: [Integer](/datatypes/devenv-integer-data-type.md)
+Type: [Integer](../datatypes/devenv-integer-data-type.md)
 The number of elements in the JsonArray.
 
 ## See Also

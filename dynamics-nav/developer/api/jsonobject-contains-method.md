@@ -28,10 +28,10 @@ Ok := JsonObject.Contains(String)
 &emsp;Type: [JsonObject](jsonobject-class.md)
 
 *String*  
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)
 
 ## Return Value
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 **True** if the object contains a property with the given key; otherwise, **false**.
 

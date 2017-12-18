@@ -23,11 +23,11 @@ XmlElement := XmlElement.Create(LocalName, NamespaceUri)
 ```  
 ## Parameters
 *LocalName*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The local name of the element to create.  
   
 *NamespaceUri*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The namespace URI of the element to create.  
   
 ## Return Value

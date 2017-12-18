@@ -23,7 +23,7 @@ Selects a list of nodes matching the XPath expression.
 ```  
 ## Parameters
 *XPath*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The XPath expression.  
   
 *NamespaceManager*    
@@ -36,7 +36,7 @@ An XmlNodeList containing a collection of nodes matching the XPath expression.
   
 ## Return Value
 *Ok*  
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
 **true** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   
