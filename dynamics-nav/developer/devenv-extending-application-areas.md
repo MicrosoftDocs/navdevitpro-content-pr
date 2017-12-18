@@ -115,7 +115,7 @@ The registration of the application area inside an experience tier is made insid
 >[!NOTE]  
 >This event is important because it is called every single time when an experience tier is reset, which can happen because of many reasons. 
 
-Another thing that is possible inside these functions is to modify the experience tier. You can also modify other application areas, such as creating an extension that extends the `Fixed Assets`. 
+Another thing that is possible inside these methods is to modify the experience tier. You can also modify other application areas, such as creating an extension that extends the `Fixed Assets`. 
 By subscribing to `OnValidateApplicationAreas` the application area inside an experience tier is validated. This is needed as there is no guarantee of the order of events execution.  
 To avoid this, you check the presence of Suite and if the application area is not enabled, an error will be displayed. 
 
