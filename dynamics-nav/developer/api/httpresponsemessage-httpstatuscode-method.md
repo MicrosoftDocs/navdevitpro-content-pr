@@ -24,7 +24,7 @@ HttpResponseMessage.HttpStatusCode
 ```
 
 ## Property Value
-&emsp;Type: [Integer](/datatypes/devenv-integer-data-type.md)
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)
 
 ## See Also
 [HttpResponseMessage](httpresponsemessage-class.md)  

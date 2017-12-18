@@ -23,12 +23,12 @@ Sets the target of the processing instruction.
 ```  
 ## Parameters
 *Value*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The new target of the processing instruction.  
   
 ## Return Value
 *Ok*  
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
 **true** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   

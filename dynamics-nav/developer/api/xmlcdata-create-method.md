@@ -23,7 +23,7 @@ CDataNode := XmlCData.Create(Value)
 ```  
 ## Parameters
 *Value*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 A string that contains the value of the new XmlCData node.  
   
 ## Return Value

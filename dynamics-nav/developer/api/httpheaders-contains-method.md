@@ -28,11 +28,11 @@ Result := HttpHeaders.Contains(Key)
 &emsp;Type: [HttpHeaders](httpheaders-class.md)
 
 *Key*  
-&emsp;Type: [Text](/datatypes/devenv-text-data-type.md)
+&emsp;Type: [Text](../datatypes/devenv-text-data-type.md)
 
 ## Return Value
 *Result*  
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 &emsp;**True** if the object contains a property with the given key; otherwise, **false**.
 

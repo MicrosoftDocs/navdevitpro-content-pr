@@ -33,7 +33,7 @@ Reads the JSON data from the stream into a [JsonObject](jsonobject-class.md) var
 The InStream object from which the JSON data will be read.
 
 ## Property Value/Return Value
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 **True** if the read was successful; otherwise, **false**.
 

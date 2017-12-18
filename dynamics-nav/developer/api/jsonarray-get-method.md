@@ -25,7 +25,7 @@ Retrieves the value at the given index in the JsonArray.
 
 ## Parameters
 *Index*  
-&emsp;Type: [Integer](/datatypes/devenv-integer-data-type.md)
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)
 
 *Result*  
 &emsp;Type: [JsonToken](jsontoken-class.md)
@@ -33,7 +33,7 @@ Retrieves the value at the given index in the JsonArray.
 A variable of type JsonToken that will contain the result if the operation is successful.
 
 ## Return Value
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 **True** if the operation was successful; otherwise, **false**.
 

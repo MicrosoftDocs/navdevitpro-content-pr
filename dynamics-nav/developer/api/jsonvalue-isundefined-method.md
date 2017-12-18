@@ -26,10 +26,10 @@ Ok := JsonValue.IsUndefined
 
 ### Parameters
 *JsonValue*  
-&emsp;Type: JsonValue
+&emsp;Type: [JsonValue](jsonvalue-class.md)
 
 ## Property Value/Return Value
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 **True** if the JsonValue contains the JSON value of UNDEFINED; otherwise, **false**.
 

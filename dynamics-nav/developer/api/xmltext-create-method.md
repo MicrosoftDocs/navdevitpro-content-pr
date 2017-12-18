@@ -23,7 +23,7 @@ Value := XmlText.Create(Content)
 ```  
 ## Parameters
 *Content*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 A string that contains the value of the new XmlText node.  
   
 ## Return Value

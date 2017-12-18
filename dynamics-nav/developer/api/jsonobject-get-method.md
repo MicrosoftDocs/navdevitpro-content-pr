@@ -25,7 +25,7 @@ Retrieves the value of a property with a given key from a [JsonObject](jsonobjec
 
 ## Parameters
 *Key*  
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)
 
 *Result*  
 &emsp;Type: [JsonToken](jsontoken-class.md)
@@ -33,7 +33,7 @@ Retrieves the value of a property with a given key from a [JsonObject](jsonobjec
 A variable of type JsonToken that will contain the result if the operation is successful.
 
 ## Return Value
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 **True** if the operation was successful; otherwise, **false**.
 

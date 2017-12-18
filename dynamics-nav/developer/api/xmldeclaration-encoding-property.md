@@ -23,12 +23,12 @@ Gets or sets the encoding of the XML document.
 ```  
 ## Parameters
 *NewValue*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The new value for the encoding of the XML document.  
   
 ## Property Value
 *Value*  
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

@@ -23,19 +23,19 @@ XmlDocumentType := XmlDocumentType.Create(Name, PublicId, SystemId, InternalSubS
 ```  
 ## Parameters
 *Name*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 A string that contains the qualified name of the DTD, which is the same as the qualified name of the root element of the XML document.  
   
 *PublicId*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 A string that contains the public identifier of an external public DTD.  
   
 *SystemId*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 A string that contains the system identifier of an external private DTD.  
   
 *InternalSubSet*    
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 A string that contains the internal subset for an internal DTD.  
   
 ## Return Value

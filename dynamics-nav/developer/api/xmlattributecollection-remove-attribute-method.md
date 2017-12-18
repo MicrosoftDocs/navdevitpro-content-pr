@@ -21,7 +21,7 @@ XmlAttributeCollection.Remove(Attribute)
 ```  
 ## Parameters
 *Attribute*    
-&emsp;Type: XmlAttribute  
+&emsp;Type: [XmlAttribute](xmlattribute-class.md)   
 The attribute to remove.  
   
 ## See Also

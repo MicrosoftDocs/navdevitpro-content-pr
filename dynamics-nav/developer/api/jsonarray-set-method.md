@@ -28,13 +28,13 @@ Replaces the value at the given index with a new value.
 &emsp;Type: [JsonArray](jsonarray-class.md)
 
 *Index*  
-&emsp;Type: [Integer](/datatypes/devenv-integer-data-type.md)
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)
 
 *Value*  
-Type: [JsonToken](jsontoken-class.md) | [JsonObject](jsonobject-class.md) | [JsonValue](jsonvalue-class.md) | [JsonArray](jsonarray-class.md) | [Boolean](/datatypes/devenv-boolean-data-type.md) | [Char](/datatypes/devenv-char-data-type.md) | [Byte](/datatypes/devenv-byte-data-type.md) | [Integer](/datatypes/devenv-integer-data-type.md) | [BigInteger](/datatypes/devenv-biginteger-data-type.md) | [Decimal](/datatypes/devenv-decimal-data-type.md) | [Duration](/datatypes/devenv-duration-data-type.md) | [String](/datatypes/devenv-text-data-type.md) | [Date](/datatypes/devenv-date-data-type.md) | [Time](/datatypes/devenv-time-data-type.md) | [DateTime](/datatypes/devenv-datetime-data-type.md)
+Type: [JsonToken](jsontoken-class.md) | [JsonObject](jsonobject-class.md) | [JsonValue](jsonvalue-class.md) | [JsonArray](jsonarray-class.md) | [Boolean](../datatypes/devenv-boolean-data-type.md) | [Char](../datatypes/devenv-char-data-type.md) | [Byte](../datatypes/devenv-byte-data-type.md) | [Integer](../datatypes/devenv-integer-data-type.md) | [BigInteger](../datatypes/devenv-biginteger-data-type.md) | [Decimal](../datatypes/devenv-decimal-data-type.md) | [Duration](../datatypes/devenv-duration-data-type.md) | [String](../datatypes/devenv-text-data-type.md) | [Date](../datatypes/devenv-date-data-type.md) | [Time](../datatypes/devenv-time-data-type.md) | [DateTime](../datatypes/devenv-datetime-data-type.md)
 
 ## Return Value
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 **True** if the operation was successful; otherwise, **false**.
 

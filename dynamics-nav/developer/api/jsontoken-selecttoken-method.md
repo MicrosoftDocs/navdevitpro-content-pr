@@ -28,7 +28,7 @@ Selects a JsonToken using a JPath expression.
 &emsp;Type: [JsonToken](jsontoken-class.md)  
 
 *Path*  
-&emsp;Type: [String](/datatypes/devenv-text-data-type.md)  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 &emsp;A valid JPath expression.
 
 *Result*  
@@ -36,7 +36,7 @@ Selects a JsonToken using a JPath expression.
 &emsp;A **JsonToken** variable that will contain the result if the operation is successful.
 
 ## Property Value/Return Value
-&emsp;Type: [Boolean](/datatypes/devenv-boolean-data-type.md)
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 **True** if the operation was successful; otherwise, **false**.
 
@@ -47,7 +47,7 @@ The operation will fail if more or less than 1 tokens are the result of evaluati
 
 ## Example
 The following example shows how to select a value from a complex [JSON Object](jsonobject-class.md).
-We build up a select expression in the *query* variable, we select the token corresponding to the salary of the employee with the given *employeeId*, and finally, we convert the token to a [Decimal](/datatypes/devenv-decimal-data-type.md) value.
+We build up a select expression in the *query* variable, we select the token corresponding to the salary of the employee with the given *employeeId*, and finally, we convert the token to a [Decimal](../datatypes/devenv-decimal-data-type.md) value.
 
 We assume that the *company* token contains JSON data similar to the one below.
 
