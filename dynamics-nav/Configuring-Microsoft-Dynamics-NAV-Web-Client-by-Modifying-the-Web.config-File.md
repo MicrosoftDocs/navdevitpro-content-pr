@@ -41,7 +41,7 @@ The navsettings.json or web.config file is stored in the physical path of the we
         `<add key="keyname" value="keyvalue"/>`
 
     
-    `keyname` is the name of the configuration setting and `keyvalue` is the value.
+    The `keyname` is the name of the configuration setting and the `keyvalue` is the value.
     
     For example, in the navsettings.json file, the configuration setting that specifies the Windows credential type for authenticating users is:
 
