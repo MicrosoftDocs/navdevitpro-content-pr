@@ -2,7 +2,7 @@
 title: "GetRequestUri Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/13/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -24,12 +24,14 @@ RequestUri := HttpRequestMessage.GetRequestUri
 ```
 ## Parameters
 *HttpRequestMessage*  
-&emsp;Type: HttpRequestMessage
+&emsp;Type: [HttpRequestMessage](httprequestmessage-class.md)
 
 ## Return Value
 *RequestUri*  
 &emsp;Type: String
 
 ## See Also
+[HttpRequestMessage](httprequestmessage-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
-[Developing Extensions](../devenv-dev-overview.md)
+[Developing Extensions](../devenv-dev-overview.md)  
