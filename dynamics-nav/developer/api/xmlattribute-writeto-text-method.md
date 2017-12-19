@@ -23,12 +23,12 @@ Serializes and saves the current node to the given variable.
 ```  
 ## Parameters
 *Text*    
-&emsp;Type: Text  
+&emsp;Type: [Text](../datatypes/devenv-text-data-type.md)  
 The Text variable to which you want to save.  
   
 ## Return Value
 *Ok*  
-&emsp;Type: Boolean  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
 **True** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   

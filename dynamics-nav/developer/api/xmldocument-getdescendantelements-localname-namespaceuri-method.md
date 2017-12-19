@@ -23,11 +23,11 @@ DescendantElements := XmlDocument.GetDescendantElements(LocalName, NamespaceUri)
 ```  
 ## Parameters
 *LocalName*    
-&emsp;Type: String  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The local name of the elements to retrieve.  
   
 *NamespaceUri*    
-&emsp;Type: String  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The namespace URI of the elements to retrieve.  
   
 ## Return Value

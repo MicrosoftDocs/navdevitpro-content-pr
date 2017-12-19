@@ -22,7 +22,6 @@ manager: edupont
 -   [General Features](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client.md#General)  
 
 -   [Objects](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client.md#Objects)  
-
 -   [Pages Features](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client.md#Page)  
 
 -   [Report Features](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client.md#Report)  
@@ -43,7 +42,7 @@ manager: edupont
 |Departments and MenuSuite|Not supported.|The **Departments** button does not appear in the navigation pane of Role Center in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Instead Page Search is available from an action in the navigation pane of the Role Center and on the top right corner of a page. MenuSuite is used to build the Departments page in [!INCLUDE[nav_windows](includes/nav_windows_md.md)].|  
 |System Indicator|Not supported.|The [!INCLUDE[nav_web](includes/nav_web_md.md)] always shows the name of the company that it connects to.|  
 |Microsoft .NET Framework Interoperability|Partially supported.|Microsoft .NET Framework interoperability objects that are configured to run on the client are not supported; objects that run on [!INCLUDE[nav_server](includes/nav_server_md.md)] are supported. For more information, see [How to: Set .NET Framework Types to Run on the Microsoft Dynamics NAV Windows Client or Microsoft Dynamics NAV Server Computers](How-to--Set-.NET-Framework-Types-to-Run-on-the-Microsoft-Dynamics-NAV-Windows-Client-or-Microsoft-Dynamics-NAV-Server-Computers.md).|  
-|Configuring the user interface for a profile|Partially supported.|You cannot perform configuration using the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Instead, you use the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [Configuring and Personalizing the Microsoft Dynamics Web Client](Configuring-and-Personalizing-the-Microsoft-Dynamics-Web-Client.md).|  
+|Configuring and personalizing the user interface|Partially supported.|Personalization using the Web client is not supported. You cannot perform configuration using the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Instead, you use the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [Configuring and Personalizing the Microsoft Dynamics Web Client](Configuring-and-Personalizing-the-Microsoft-Dynamics-Web-Client.md).|  
 
 ##  <a name="Objects"></a> Objects  
  The following object types are not supported by [!INCLUDE[nav_web](includes/nav_web_md.md)].  

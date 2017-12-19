@@ -71,6 +71,9 @@ Removing a field, column, part, or a cue can be performed, by selecting the arro
 ![Display options](media/display_options.png)  
 The display type icons let you preview the changes you made on desktop, tablet, and phone clients. This way you can make sure that your design will work on the intended display target(s). You can flip to display tablet and phone designs in portrait and landscape. 
 
+## Controlling User Access to Designer
+Access to Designer is controlled on a user or user group basis by the **D365 EXTENSION MGT** permission set. If a user is assigned this permission set, then Designer is available for the user in the client. To prohibit a user from using Designer, just remove them from the **D365 EXTENSION MGT** permission set.
+
 ## See Also
 [Developing Extensions](devenv-dev-overview.md)  
 [Getting Started with AL](devenv-get-started.md)  

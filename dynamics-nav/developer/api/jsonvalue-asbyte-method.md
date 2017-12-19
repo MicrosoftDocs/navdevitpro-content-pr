@@ -25,7 +25,7 @@ Byte := JsonValue.AsByte
 ```
 ## Parameters
 *JsonValue*  
-&emsp;Type: JsonValue
+&emsp;Type: [JsonValue](jsonvalue-class.md)
 
 ## Return Value
 Type: Byte

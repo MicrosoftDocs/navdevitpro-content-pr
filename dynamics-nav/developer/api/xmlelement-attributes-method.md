@@ -23,7 +23,7 @@ Gets a collection of the attributes of this element.
 ```  
 ## Return Value
 **  
-&emsp;Type: XmlAttributeCollection  
+&emsp;Type: [XmlAttribute](xmlattribute-class.md) Collection  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  
