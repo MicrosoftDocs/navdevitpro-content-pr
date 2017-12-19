@@ -25,7 +25,7 @@ Sends a POST request to the specified Uniform Resource Identifier (URI) as an as
 
 ## Parameters
 *Path*  
-&emsp;Type: String
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)
 
 *Content*  
 &emsp;Type: [HttpContent](httpcontent-class.md)  
@@ -35,7 +35,8 @@ Sends a POST request to the specified Uniform Resource Identifier (URI) as an as
 
 ## Return Value
 *Ok*  
-&emsp;Type: Boolean  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
+
 &emsp;**True** if the operation was successful; otherwise, **false**.
 
 Accessing the [HttpContent](httpcontent-class.md) property of [HttpResponseMessage](httpresponsemessage-class.md) in a case when the request fails will result in an error.
@@ -44,7 +45,7 @@ Accessing the [HttpContent](httpcontent-class.md) property of [HttpResponseMessa
 [HttpClient](httpclient-class.md)  
 [HttpContent](httpcontent-class.md)  
 [HttpRequestMessage](httprequestmessage-class.md)  
-[HttpReponseMessage](httpresponsemessage-class.md) 
+[HttpReponseMessage](httpresponsemessage-class.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

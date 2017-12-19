@@ -23,7 +23,7 @@ XmlAttribute := XmlNode.AsXmlAttribute()
 ```  
 ## Return Value
 *XmlAttribute*  
-&emsp;Type: XmlAttribute  
+&emsp;Type: [XmlAttribute](xmlattribute-class.md)   
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

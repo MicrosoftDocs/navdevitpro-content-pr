@@ -23,16 +23,16 @@ Gets the namespace URI for the specified prefix.
 ```  
 ## Parameters
 *Prefix*    
-&emsp;Type: String  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The prefix whose namespace URI you want to resolve. To match the default namespace, pass an empty string.  
   
 *Result*    
-&emsp;Type: Text  
+&emsp;Type: [Text](../datatypes/devenv-text-data-type.md)  
 The namespace URI for prefix.  
   
 ## Return Value
 *Ok*  
-&emsp;Type: Boolean  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
 **true** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   

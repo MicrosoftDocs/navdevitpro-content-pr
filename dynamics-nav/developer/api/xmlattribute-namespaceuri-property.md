@@ -23,7 +23,7 @@ NamespaceUri := XmlAttribute.NamespaceUri
 ```  
 ## Property Value
 *NamespaceUri*  
-&emsp;Type: String  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

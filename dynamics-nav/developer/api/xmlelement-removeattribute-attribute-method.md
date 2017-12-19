@@ -23,7 +23,7 @@ Removes the specified attribute from this element.
 ```  
 ## Parameters
 *Attribute*    
-&emsp;Type: XmlAttribute  
+&emsp;Type: [XmlAttribute](xmlattribute-class.md)   
 The XmlAttribute to remove.  
   
 ## Return Value

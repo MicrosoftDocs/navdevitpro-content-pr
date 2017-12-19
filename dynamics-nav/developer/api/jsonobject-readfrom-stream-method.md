@@ -2,7 +2,7 @@
 title: "ReadFrom_Stream Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/15/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,7 +17,7 @@ author: SusanneWindfeldPedersen
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # ReadFrom_Stream Method
-Reads the JSON data from the stream into a JsonObject variable.
+Reads the JSON data from the stream into a [JsonObject](jsonobject-class.md) variable.
 
 ```
 [Ok := ] JsonObject.ReadFrom(InStream)
@@ -25,15 +25,15 @@ Reads the JSON data from the stream into a JsonObject variable.
 
 ## Parameters
 *JsonObject*  
-&emsp;Type: JsonObject
+&emsp;Type: [JsonObject](jsonobject-class.md)
 
 *InStream*  
-&emsp;Type: InStream
+&emsp;Type: [InStream](/datatypes/devenv-instream-and-outstream-data-types.md)
 
 The InStream object from which the JSON data will be read.
 
 ## Property Value/Return Value
-Type: Boolean
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 **True** if the read was successful; otherwise, **false**.
 

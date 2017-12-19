@@ -24,7 +24,8 @@ HttpClient.Timeout
 ```
 
 ## Property Value
-&emsp;Type: Integer  
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)  
+
 &emsp;The number of seconds before the request times out.
 
 ## See Also
