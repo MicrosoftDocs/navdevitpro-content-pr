@@ -1,8 +1,8 @@
 ---
-title: "TextBuilder Class" 
+title: "TextBuilder Class"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 07/31/2017
+ms.date: 12/18/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -34,8 +34,9 @@ TextBuilder can performantly concatenate multiple bigger strings together. The f
 |[TextBuilder.Replace(Text, Text)](textbuilder-replace-oldtext-newtext-method.md)|Replaces all occurrences of a specified string in this instance with another specified string.|  
 |[TextBuilder.Replace(Text, Text, Integer, Integer)](textbuilder-replace-oldtext-newtext-startindex-count-method.md)|Replaces all occurrences of a specified string in this instance with another specified string.|  
 |[TextBuilder.ToText()](textbuilder-totext-method.md)|Converts the value of this instance or a substring of this instance to a Text.|  
-|[TextBuilder.ToText(Integer, Integer)](textbuilder-totext-startindex-count-method.md)|Converts the value of this instance or a substring of this instance to a Text.|  
+|[TextBuilder.ToText(Integer, Integer)](textbuilder-totext-startindex-count-method.md)|Converts the value of this instance or a substring of this instance to a Text.| 
+ 
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
-[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  

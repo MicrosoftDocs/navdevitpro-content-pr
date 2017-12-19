@@ -24,5 +24,6 @@ Result := TextBuilder.ToText()
 &emsp;Type: [Text](../datatypes/devenv-text-data-type.md)  
   
 ## See Also
+[TextBuilder](textbuilder-class.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

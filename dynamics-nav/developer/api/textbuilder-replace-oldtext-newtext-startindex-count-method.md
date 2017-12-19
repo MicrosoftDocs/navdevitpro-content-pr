@@ -43,5 +43,6 @@ The length of the substring.
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   
 ## See Also
+[TextBuilder](textbuilder-class.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
