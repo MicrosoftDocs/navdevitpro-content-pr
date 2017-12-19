@@ -18,7 +18,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 > [!IMPORTANT]  
 >  This walkthrough addresses the [!INCLUDE[navnow](includes/navnow_md.md)] implementation of extensibility. This makes it possible to write control add-ins for all display targets. For information about how to write control add-ins specifically for [!INCLUDE[nav_windows](includes/nav_windows_md.md)], see [Extending the Windows Client Using Control Add-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md).  
 
- In a typical business scenario, developers create control add-ins using Microsoft Visual Studio Express, or Visual Studio. Implementers of [!INCLUDE[navnow](includes/navnow_md.md)] solutions then use the control add-ins on [!INCLUDE[navnow](includes/navnow_md.md)] client pages, such as the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the [!INCLUDE[nav_web](includes/nav_web_md.md)], or the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)].  
+In a typical business scenario, developers create control add-ins using Microsoft Visual Studio Express, or Visual Studio. Implementers of [!INCLUDE[navnow](includes/navnow_md.md)] solutions then use the control add-ins on [!INCLUDE[navnow](includes/navnow_md.md)] client pages, such as the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the [!INCLUDE[nav_web](includes/nav_web_md.md)], or the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)].  
 
 ## Prerequisites  
  To complete this walkthrough, you will need:  
@@ -41,7 +41,12 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 
 -   (Optional) Create three image files that can be used for indicating pinpoints on the map, for example PushpinBlue.png, PushpinGreen.png, and PushpinRed.png.
 
+    |PushpinBlue.png|PushpinGreen.png|PushpinRed.png|
+    |:------:|:------:|:----:|
+    |![Pushpin Blue](media/PushpinBlue.png "Pushpin Blue")  |![Pushpin Green](media/PushpinGreen.png "Pushpin Green")|![Pushpin Blue](media/PushpinRed.png "Pushpin Red")|
+
 -   (Optional) Create a style sheet, for example Style.css, that can be used for styling the map in the client.
+
 
 ## Story  
  Simon is a software developer working for [!INCLUDE[demoname](includes/demoname_md.md)] He has been told that the users of the [!INCLUDE[nav_web](includes/nav_web_md.md)] want to see Bing Maps displayed on the Web client. He wants to use the client extensibility framework to test how to do this on a separate page first.  
@@ -110,22 +115,22 @@ The assembly must now be signed to be used with [!INCLUDE[navnow](includes/navno
 7.  On the **Build** menu, choose **Build \<Your Solution>** to build the project. Verify that the build succeeds.  
 
 ## Copying the Control Add-in Assembly to the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]  
- After you build the control add-in, you copy the output assembly file to the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
+After you build the control add-in, you copy the output assembly file to the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].
 
-#### To copy the control add-in assembly to the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]  
+### To copy the control add-in assembly to [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]  
 
 1.  In the control add-in project’s output folder, locate and copy the control add-in assembly file \(.dll\) file, for example BingMapsControlAddIn.dll.
 
     The .dll is located in the *bin\Debug*folder. By default, the full folder path is *C:\\Documents\\MyDocuments\\Visual Studio\\Projects\\\[Your Addin Project\]\\\[Your Class Library\]\\bin\\Debug*.  
  
-3.  On the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], paste the assembly in the **Add-ins** folder.  
+2.  On the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], paste the assembly in the **Add-ins** folder.  
 
      By default, this folder is *[!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins*.  
 
 ## Creating the Manifest File  
 After you create an interface in Visual Studio that exposes a number of properties for the BingMapsControlAddIn, you must create a manifest file. A manifest file is written in XML and contains information such as where to look for resource files, references to external JavaScripts, and the size of the control add-in. For more information, see [Manifest Overview](Manifest-Overview.md). In the next steps, you will create a manifest file that loads a BingMaps control and register this manifest in the **Client Add-in** page.  
 
-#### To create the manifest file  
+### To create the manifest file  
 
 1.  Copy this sample manifest and paste it into any text editor.  
 
@@ -157,11 +162,11 @@ After you create an interface in Visual Studio that exposes a number of properti
 
     >[!NOTE]
     > If you do not have images or a style sheet, leave the `<image>` and `<StyleSheet>` elements blank.
-2.  Save the manifest to a file that is in same directory that the assembly is saved in, the Add-ins directory (check).  
+2.  Save the manifest to a file in same folder that the assembly is saved in (the **Add-ins** folder).  
 
      Name the manifest **Manifest** and make sure to add the .xml extension to the file, so that the file name will now be **Manifest.xml**.  
 
- The next step is to create a JavaScript file containing code that calls C/AL in [!INCLUDE[navnow](includes/navnow_md.md)].  
+The next step is to create a JavaScript file containing code that calls C/AL in [!INCLUDE[navnow](includes/navnow_md.md)].  
 
 ## Creating a JavaScript File  
  Now you must create a JavaScript file to hold all of the code that calls C/AL in [!INCLUDE[navnow](includes/navnow_md.md)].  
