@@ -23,12 +23,12 @@ Gets or sets the standalone property for this document.
 ```  
 ## Parameters
 *NewValue*    
-&emsp;Type: String  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 A string containing the standalone property for this document.  
   
 ## Property Value
 *Value*  
-&emsp;Type: String  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

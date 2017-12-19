@@ -2,7 +2,7 @@
 title: "SelectToken Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/15/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,18 +25,18 @@ Selects a JsonToken using a JPath expression.
 
 ## Parameters
 *Value*  
-&emsp;Type: JsonToken
+&emsp;Type: [JsonToken](jsontoken-class.md)  
 
 *Path*  
-&emsp;Type: String  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 &emsp;A valid JPath expression.
 
 *Result*  
-&emsp;Type: JsonToken  
+&emsp;Type: [JsonToken](jsontoken-class.md)  
 &emsp;A **JsonToken** variable that will contain the result if the operation is successful.
 
 ## Property Value/Return Value
-Type: Boolean
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 **True** if the operation was successful; otherwise, **false**.
 
@@ -46,8 +46,8 @@ If you omit this optional return value and if the select does not execute succes
 The operation will fail if more or less than 1 tokens are the result of evaluating the JPath.
 
 ## Example
-The following example shows how to select a value from a complex JSON object.
-We build up a select expression in the *query* variable, we select the token corresponding to the salary of the employee with the given *employeeId*, and finally, we convert the token to a Decimal value.
+The following example shows how to select a value from a complex [JSON Object](jsonobject-class.md).
+We build up a select expression in the *query* variable, we select the token corresponding to the salary of the employee with the given *employeeId*, and finally, we convert the token to a [Decimal](../datatypes/devenv-decimal-data-type.md) value.
 
 We assume that the *company* token contains JSON data similar to the one below.
 
@@ -82,5 +82,9 @@ end;
 
 ```
 ## See Also
+[JsonArray](jsonarray-class.md)  
+[JsonObject](jsonobject-class.md)  
+[JsonToken](jsontoken-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

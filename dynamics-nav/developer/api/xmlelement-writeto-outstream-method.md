@@ -28,7 +28,7 @@ The OutStream to which you want to save the serialized representation of the nod
   
 ## Return Value
 *Ok*  
-&emsp;Type: Boolean  
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
 **true** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   

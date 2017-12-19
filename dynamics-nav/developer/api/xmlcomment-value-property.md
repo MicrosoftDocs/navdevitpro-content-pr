@@ -23,12 +23,12 @@ Gets or sets the string value of this comment.
 ```  
 ## Parameters
 *NewValue*    
-&emsp;Type: String  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The new value of this comment.  
   
 ## Property Value
 *Value*  
-&emsp;Type: String  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
   
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

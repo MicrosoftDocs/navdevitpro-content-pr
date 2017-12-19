@@ -26,10 +26,10 @@ Ok := JsonValue.IsNull
 
 ## Parameters
 *JsonValue*  
-&emsp;Type: JsonValue
+&emsp;Type: [JsonValue](jsonvalue-class.md)
 
 ## Property Value/Return Value
-Type: Boolean
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 **True** if the JsonValue contains the JSON value of NULL; otherwise, **false**.
 

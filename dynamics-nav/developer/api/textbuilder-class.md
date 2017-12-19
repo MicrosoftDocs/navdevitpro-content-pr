@@ -1,5 +1,5 @@
 ---
-title: "TextBuilder Class"
+title: "TextBuilder Class" 
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 07/31/2017
