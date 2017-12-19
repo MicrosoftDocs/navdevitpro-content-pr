@@ -23,15 +23,15 @@ XmlDeclaration := XmlDeclaration.Create(Version, Encoding, Standalone)
 ```  
 ## Parameters
 *Version*    
-&emsp;Type: String  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The version of the XML, usually "1.0".  
   
 *Encoding*    
-&emsp;Type: String  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The encoding for the XML document.  
   
 *Standalone*    
-&emsp;Type: String  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 A string containing "yes" or "no" that specifies whether the XML is standalone or requires external entities to be resolved.  
   
 ## Return Value

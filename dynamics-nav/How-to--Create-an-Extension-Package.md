@@ -1,8 +1,9 @@
 ---
-title: "How to: Create an Extension Package"
+title: Create Extension Package
+description: When you developed a Dynamics NAV extension, the next step is to wrap your new .TXT and .DELTA files into a .NAVX file, the packageing format for extensions. 
 author: edupont04
 ms.custom: na
-ms.date: 02/15/2017
+ms.date: 11/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,7 +13,7 @@ ms.assetid: c3403c71-52c4-4cd9-a8c4-22499bd78cd1
 ms.author: edupont
 ---
 
-# How to: Create an Extension Package
+# Creating an Extension Package in Dynamics NAV
 When you have developed a [!INCLUDE[navnow](includes/navnow_md.md)] extension, the next step is to wrap your new .TXT and .DELTA files into a .NAVX file, the packaging format for extensions. The package includes the application objects and metadata that describes your extension, such as name and version.  
 
 ### To create the extension manifest  

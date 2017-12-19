@@ -26,10 +26,10 @@ Integer := JsonValue.AsInteger
 
 ## Parameters
 *JsonValue*  
-&emsp;Type: JsonValue
+&emsp;Type: [JsonValue](jsonvalue-class.md)
 
 ## Return Value
-Type: Integer
+&emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)
 
 ## Remarks
 If the JsonValue does not contain a number which can be converted without loss of precision to an Integer, the operation will fail with a run-time error.

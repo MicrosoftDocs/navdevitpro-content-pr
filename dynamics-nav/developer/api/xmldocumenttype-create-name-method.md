@@ -23,7 +23,7 @@ XmlDocumentType := XmlDocumentType.Create(Name)
 ```  
 ## Parameters
 *Name*    
-&emsp;Type: String  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 A string that contains the qualified name of the DTD, which is the same as the qualified name of the root element of the XML document.  
   
 ## Return Value

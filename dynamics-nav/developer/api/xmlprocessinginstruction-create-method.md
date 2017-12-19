@@ -23,11 +23,11 @@ XmlProcessingInstruction := XmlProcessingInstruction.Create(Target, Data)
 ```  
 ## Parameters
 *Target*    
-&emsp;Type: String  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The target of the processing instruction.  
   
 *Data*    
-&emsp;Type: String  
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)  
 The content of the processing instruction, excluding the target.  
   
 ## Return Value

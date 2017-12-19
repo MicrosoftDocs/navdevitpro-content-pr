@@ -1,7 +1,8 @@
 ---
-title: "How to: Create Handler Functions"
+title: Create Handler Functions
+description: Create test codeunits, test functions, and test pages to test your application. To automate tests, create special handler functions for UI interactions. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 12/05/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +12,7 @@ ms.assetid: 6d6113e4-7a9b-4318-8942-1c08ce46db2f
 caps.latest.revision: 27
 manager: edupont
 ---
-# How to: Create Handler Functions
+# Creating Handler Functions
 You can create test codeunits, test functions, and test pages to test your application. We recommend that you create tests that can be automated. To create automated tests, you must write code to handle all UI interactions so that the tests do not require user interaction when they are running. To do this, you create special handler functions.  
   
  You can use the following handler functions:  

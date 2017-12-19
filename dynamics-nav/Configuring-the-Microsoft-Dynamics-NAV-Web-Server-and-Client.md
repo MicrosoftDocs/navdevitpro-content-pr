@@ -35,7 +35,7 @@ There are different ways to configure the [!INCLUDE[nav_web_server](includes/nav
      <th>[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]</th>
      </tr>
      <tr>
-     <td>Get-NAVWebServerInstance](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/Get-NAVWebServerInstance)</td>
+     <td>[Get-NAVWebServerInstance](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/Get-NAVWebServerInstance)</td>
      <td>Gets the information about the instances that are registered on a computer.</td>
      </tr>
      <td>[New-NAVWebServerInstance](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/New-NAVWebServerInstance)</td>
@@ -47,7 +47,7 @@ There are different ways to configure the [!INCLUDE[nav_web_server](includes/nav
      <td>Removes an existing instance.</td>
      </tr>
     </tr>
-     <td>Set-NAVWebServerInstanceConfiguration](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/Set-NAVWebServerInstanceConfiguration)</td>
+     <td>[Set-NAVWebServerInstanceConfiguration](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/Set-NAVWebServerInstanceConfiguration)</td>
      <td>Specifies configuration values for a named web server instance. You can use this cmdlet to configure all the settings in the  </td>
      </tr>
      </table>  

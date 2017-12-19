@@ -26,10 +26,10 @@ Boolean := JsonValue.AsBoolean
 
 ### Parameters
 *JsonValue*  
-&emsp;Type: JsonValue
+&emsp;Type: [JsonValue](jsonvalue-class.md)
 
 ## Return Value
-Type: Boolean
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 ## Remarks
 The operation will succeed if the value was created from a Boolean using *SetValue* or if the value was parsed from a string containing one of the values : "true" or "false". The operation will fail with a run-time error otherwise.

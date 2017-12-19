@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV 2018 Administration Shell
+Microsoft Dynamics NAV Administration Shell

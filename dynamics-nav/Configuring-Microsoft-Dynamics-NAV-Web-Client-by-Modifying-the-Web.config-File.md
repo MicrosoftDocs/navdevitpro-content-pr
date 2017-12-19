@@ -10,7 +10,7 @@ ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
 # Configuring a [!INCLUDE[nav_web](includes/nav_web_md.md)] Instance for the Web Client
-You can create a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using the Setup wizard to install the [!INCLUDE[nav_web](includes/nav_web_md.md)] or by running the [New-NAVWebServerInstance cmdlet](Microsoft.Dynamics.Nav.Management/new-navwebserverinstance.md). When you set up a web server instance, you are configuring the connection from the [!INCLUDE[nav_web](includes/nav_web_md.md)] to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The connection settings, along with several other configuration settings, are saved in a configuration file for the web server instance.
+You can create a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using the Setup wizard to install the [!INCLUDE[nav_web](includes/nav_web_md.md)] or by running the [New-NAVWebServerInstance cmdlet](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Dynamics.Nav.Management/new-navwebserverinstance). When you set up a web server instance, you are configuring the connection from the [!INCLUDE[nav_web](includes/nav_web_md.md)] to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The connection settings, along with several other configuration settings, are saved in a configuration file for the web server instance.
 
 ## <a name="WebClientSettingsFile"></a>About the configuration file
 The name of the configuration file depends on your [!INCLUDE[navnow_md.md](includes/navnow_md.md)].
@@ -22,28 +22,34 @@ The name of the configuration file depends on your [!INCLUDE[navnow_md.md](inclu
  After installation, you can change the configuration by modifying the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]. There are two ways to modify this file: directly or using PowerShell.
 
 ### Where to find the navsettings.json or web.config file
-The navsettings.json or web.config file is stored in the physical path of the web server instance, which is by default is *%systemroot%\\inetpub\\wwwroot\\[WebServerInstanceName]*. *[WebServerInstanceName]* corresponds to the name (alias) of the web server instance in IIS, for example, *c:\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]* 
+The navsettings.json or web.config file is stored in the physical path of the web server instance, which is by default is *%systemroot%\\inetpub\\wwwroot\\[WebServerInstanceName]*.
+
+*[WebServerInstanceName]* corresponds to the name (alias) of the web server instance in IIS, for example, *c:\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]*. 
 
 ## Modify the navsettings.json or web.config file directly
 
-1. Open the navsettings.json any text or code editor, such as Notepad or Visual Studio Code.
+1. Open the navsettings.json or web.config in any text or code editor, such as Notepad or Visual Studio Code.
 
-    Each setting is a defined by a key-value pair. The navsettins.json file has the format:
+    Each setting is defined by a key-value pair.  
+    
+    -   In the navsettings.json file, a setting has the format:
 
-    `"keyname": "keyvalue",`
+        `"keyname": "keyvalue",`
 
-    The web.config file has the format:
+    -   In the web.config file, a setting has the format:
 
-    <add key="keyname" value="keyvalue"/>
+        `<add key="keyname" value="keyvalue"/>`
 
-    `keyname` is the name of the configuration setting and `keyvalue` is the value. For example, the configuration setting that specifies the credential type for authenticating users is:
+    
+    The `keyname` is the name of the configuration setting and the `keyvalue` is the value.
+    
+    For example, in the navsettings.json file, the configuration setting that specifies the Windows credential type for authenticating users is:
 
     `"ClientServicesCredentialType":  "Windows",`
 
-    or
+    In the web.config file, the setting is:
     
     `<add key="ClientServicesCredentialType" value="Windows"/>`
-
 
 2.  Find the configuration settings that you want to change, and then change the values.
 
@@ -54,7 +60,7 @@ The navsettings.json or web.config file is stored in the physical path of the we
     For example, in IIS Manager, in the **Connections** pane, select website node for [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)], and then in the **Actions** pane, choose **Restart**. Or, from your desktop, run `iisreset`. 
 
 ## Modify the navsettings.json or web.config file by using the Set-NAVWebServerInstanceConfiguration PowerShell cmdlet
-The PowerShell script module **NAVWebClientManagement.psm1** includes the [Set-NAVWebServerInstanceConfiguration cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVWebServerInstanceConfiguration.md) that enables you to configure a web server instance.
+The PowerShell script module **NAVWebClientManagement.psm1** includes the [Set-NAVWebServerInstanceConfiguration cmdlet](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Dynamics.Nav.Management/Set-NAVWebServerInstanceConfiguration) that enables you to configure a web server instance.
 
 1. Depending on your installation, run the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] or Windows PowerShell as an administrator.
 
@@ -71,7 +77,7 @@ The PowerShell script module **NAVWebClientManagement.psm1** includes the [Set-N
     -   `[NAVServerInstanceName]` with the name of the server instance, such as **[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]**.
     -   `[MyNavWebServerInstance]`with the name of the web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)].
     -   `[KeyName]` with the name of the setting. Refer to the next section in this article.
--      `[KeyValue]` with the new value of the setting.
+    -   `[KeyValue]` with the new value of the setting.
 
 
 ## <a name="Settings"></a>Settings in the navsettings.json  

@@ -26,10 +26,10 @@ BigInteger := JsonValue.AsBigInteger
 
 ## Parameters
 *JsonValue*  
-&emsp;Type: JsonValue
+&emsp;Type: [JsonValue](jsonvalue-class.md)
 
 ## Return Value
-Type: BigInteger
+[BigInteger](../datatypes/devenv-biginteger-data-type.md)
 
 ## Remarks
 If the JsonValue does not contain number or a string which can be converted without loss of precision to an BigInteger, the operation will fail with a run-time error.
