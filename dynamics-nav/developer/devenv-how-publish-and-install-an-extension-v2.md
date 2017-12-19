@@ -57,7 +57,7 @@ You can get an overview of the published extensions and their state using the `G
 Once an app has been published, it must be made available for any tenant that wishes to use it.  
 
 ## Install an extension
-After you publish and synchronize an extension, you can install it on tenants. Installing an extension can be done from the [!INCLUDE[nav_now_md](includes/nav_now_md.md)] client or [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
+After you publish and synchronize an extension, you can install it on tenants. Installing an extension can be done from the [!INCLUDE[navnow_md](includes/navnow_md.md)] client or [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
 
 ### To install an extension by using [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] 
 
