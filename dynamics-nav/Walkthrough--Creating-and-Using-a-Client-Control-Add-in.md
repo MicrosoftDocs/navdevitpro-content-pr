@@ -39,7 +39,7 @@ In a typical business scenario, developers create control add-ins using Microsof
     
     [Getting a Bing Maps Key](https://msdn.microsoft.com/en-us/library/ff428642.aspx)
 
--   (Optional) Create three image files that can be used for indicating pinpoints on the map, for example PushpinBlue.png, PushpinGreen.png, and PushpinRed.png.
+-   (Optional) Create three image files that can be used for pushpins that mark certain locations on the map. This walkthrough uses three pushpin images, which ar called PushpinBlue.png, PushpinGreen.png, and PushpinRed.png. You can create you own images from scratch or from the images in the following table.
 
     |PushpinBlue.png|PushpinGreen.png|PushpinRed.png|
     |:------:|:------:|:----:|
