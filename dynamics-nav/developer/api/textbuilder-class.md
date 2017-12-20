@@ -18,10 +18,10 @@ author: SusanneWindfeldPedersen
 TextBuilder can performantly concatenate multiple bigger strings together. The following methods are available on the TextBuilder class.  
 
 > [!NOTE]
-> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+> For performance reasons all [HTTP, JSON, TextBuilder, and XML types](../devenv-restapi-overview.md) are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
 
 |Method name|Description|  
-|-----------|-----------|  
+|-----------|-----------|
 |[TextBuilder.Append(Text)](textbuilder-append-method.md)|Appends a copy of the specified string to this instance.|  
 |[TextBuilder.AppendLine(Text)](textbuilder-appendline-method.md)|Appends a copy of the specified string followed by the default line terminator to the end of the current TextBuilder object. If this parameter is omitted, only the line terminator will be appended.|  
 |[TextBuilder.Capacity(Integer)](textbuilder-capacity-property.md)|Gets or sets the maximum number of characters that can be contained in the memory allocated by the current instance.|  

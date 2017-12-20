@@ -2,7 +2,7 @@
 title: "XmlAttribute Class"
 ms.author: solsen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 12/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -20,12 +20,12 @@ author: SusanneWindfeldPedersen
 Represents an attribute.
 
 > [!NOTE]
-> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+> For performance reasons all [HTTP, JSON, TextBuilder, and XML types](../devenv-restapi-overview.md) are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
 
 The following methods are available on the XmlAttribute class.  
   
-|Method name|Description|  
-|-----------|-----------|  
+|Method name|Description| 
+|-----------|-----------|
 |[XmlAttribute.Create(String, String)](xmlattribute-create-name-value-method.md)|Creates an XmlAttribute.|  
 |[XmlAttribute.Create(String, String, String)](xmlattribute-create-localname-namespaceuri-value-method.md)|Creates an XmlAttribute.|  
 |[XmlAttribute.CreateNamespaceDeclaration(String, String)](xmlattribute-createnamespacedeclaration-method.md)|Creates an attribute that represents a namespace declaration.|  

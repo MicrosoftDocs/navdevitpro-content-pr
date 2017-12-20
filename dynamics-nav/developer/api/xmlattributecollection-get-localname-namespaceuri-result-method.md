@@ -2,7 +2,7 @@
 title: "Get Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 04/09/2017
+ms.date: 12/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -35,9 +35,12 @@ Variable containing the requested XmlAttribute if the operation is successful.
 ## Return Value
 *Ok*  
 &emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
-**true** if the operation was successful; otherwise, **false**.  
+**True** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   
 ## See Also
+[XmlAttributeCollection](xmlattributecollection-class.md)  
+[XmlAttribute](xmlattribute-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

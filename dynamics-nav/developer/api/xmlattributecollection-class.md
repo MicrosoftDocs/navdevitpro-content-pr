@@ -2,7 +2,7 @@
 title: "XmlAttributeCollection Class"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 04/09/2017
+ms.date: 12/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,7 +18,7 @@ author: SusanneWindfeldPedersen
 The following methods are available on the XmlAttributeCollection class.  
 
 > [!NOTE]
-> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+> For performance reasons all [HTTP, JSON, TextBuilder, and XML types](../devenv-restapi-overview.md) are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
 
 |Method name|Description|
 |-----------|-----------|  
@@ -32,6 +32,9 @@ The following methods are available on the XmlAttributeCollection class.
 |[XmlAttributeCollection.Remove(String, String)](xmlattributecollection-remove-localname-namespaceuri-method.md)|Removes the specified attribute from the collection.|  
 |[XmlAttributeCollection.Set(String, String)](xmlattributecollection-set-name-value-method.md)|Sets the value of the specified attribute or create it if is not part of the collection.|  
 |[XmlAttributeCollection.Set(String, String, String)](xmlattributecollection-set-localname-namespaceuri-value-method.md)|Sets the value of the specified attribute or create it if is not part of the collection.|  
+
 ## See Also
+[XmlAttribute](xmlattribute-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

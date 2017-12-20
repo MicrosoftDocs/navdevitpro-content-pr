@@ -30,5 +30,6 @@ The new length of this instance.
   
 ## See Also
 [TextBuilder](textbuilder-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

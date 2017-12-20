@@ -36,5 +36,6 @@ If you omit this optional return value and the operation does not execute succes
   
 ## See Also
 [TextBuilder](textbuilder-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
