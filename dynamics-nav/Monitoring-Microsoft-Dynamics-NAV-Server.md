@@ -7,7 +7,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ---
 # Monitoring Microsoft Dynamics NAV Server
 These articles describe the features for monitoring and troubleshooting [!INCLUDE[nav_server](includes/nav_server_md.md)].  

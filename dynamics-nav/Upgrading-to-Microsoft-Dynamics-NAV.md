@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
 author: jswymer
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ---
 # Upgrading to [!INCLUDE[nav2018_md](includes/nav2018_md.md)]
 
