@@ -52,7 +52,7 @@ This code example requires that you create the following text constants in the *
 
 |Name|ConstValue|  
 |----------|----------------|  
-|Text000|plus|   
+|Text000|additional text|   
 
 
 ```
