@@ -10,52 +10,79 @@ author: jswymer
 ms.prod: "dynamics-nav-2017"
 ---
 # HideSubsequentDialogs Function
-Hides dialogs that are created by calling the a OPEN function call on dialog type variables other than the t the Dialog.OPEN function call . called [SuppressChildDialog]. When this is set to TRUE, any subsequent call to dialog.open, update, close not related to this window would be ignored.
+Specifies whether to hide dialogs l on dialog type variables other than the t the Dialog.OPEN function call . called [SuppressChildDialog]. When this is set to TRUE, any subsequent call to dialog.open, update, close not related to this window would be ignored.
 
 ```
-[Ok := ]Dialog.HIDESUBSEQUENTDIALOGS([SetHideSubsequentDialogs])
+[IsHideSubsequentDialogs := ]Dialog.HIDESUBSEQUENTDIALOGS([SetHideSubsequentDialogs])
 ```
 ## Parameters
 *Dialog*
 
 Type: Dialog
 
-The Dialog variable that you are closing.
+The Dialog variable that you want to open.
+
+*SetHideSubsequentDialogs*
+
+Type: Boolean
+
+**true** hides any subsequent calls to dialog.OPEN, update, close that is not related to this window would be ignored. **false** is default.
+
 ## Return Value
-*Value*
+*IsHideSubsequentDialogs*
 
-Type: Code or text
+Type: Boolean
 
-**true** if the notification was sent; otherwise, **false**.
-
-If you omit this optional return value and if the notification cannot be sent, then a run-time error occurs that states that the notification cannot be sent. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs, even though the notification is not sent.
+**true** if the HIDESUBSEQUENTDIALOGS set to **true**; otherwise, **false**.
 
 ## Remarks
-The SEND function displays the content of the notification that is specified by the [MESSAGE function](function-notificationmessage.md).
+You must call Dialog.HIDESUBSEQUENTDIALOGS before Dialog.OPEN.
 
-For more information and a detailed example, see [Notifications](notifications-developing.md).
+
 
 ##  Example
-The following code creates a notification and sends it to the client in the local scope.
+The following code illustrates how the HIDESUBSEQUENTDIALOGS function works.
+
+This code example requires that you create the following variables.  
+
+|Name|DataType|  
+|----------|--------------|  
+|MyDialog1|Dialog|  
+|MyDialog2|Dialog|  
+
+This code example requires that you create the following text constants in the **C/AL Globals** window.  
+
+|Name|ConstValue|  
+|----------|----------------|  
+|Text000|plus|   
+
+
 ```
-// Here we set the HIDESUBSEQUENTDIALOGS property
+// The HIDESUBSEQUENTDIALOGS function is is used on MyDialog1 dialog.
 MyDialog1.HIDESUBSEQUENTDIALOGS := TRUE;
 
-// As soon as this dialog opens, it will register as the root dialog.
+// When MyDialog1 dialog opens, it will register as the root dialog.
 MyDialog1.OPEN('Dialog 1');
 SLEEP(2000);
 
-// The second dialog will not open. However, the code associated with the Open call will run as if it was actually opened.
-MyDialog2.OPEN('Dialog 2 #1', MyText);
+// MyDialog2 dialog will not open. However, the code associated with the Open call will run as if it was actually opened.
+MyDialog2.OPEN('Dialog 2');
 SLEEP(2000);
 
-// Updating the second dialog will not do anything
-MyDialog2.UPDATE(1, MyText2);
+// Updating MyDialog2 dialog will have no effect
+MyDialog2.UPDATE(1, Text000);
 SLEEP(2000);
 
-// As soon as they dialogs is closed they can be reopened and they will no longer be hidden
-MyDialog2.CLOSE;
+// MyDialog1 dialog will open 
+MyDialog1.OPEN('Dialog 1 #1', Text000);
+SLEEP(2000);
+
+// As soon as MyDialog1 dialog is closed, other can be reopened and they will no longer be hidden
 MyDialog1.CLOSE;
+
+MyDialog2.UPDATE(1, Text000);
+SLEEP(2000);
+
 ```
 
 ## See Also  
