@@ -9,7 +9,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ---
 # Setting up the Excel Add-In for Editing [!INCLUDE[navnow](includes/navnow_md.md)] Data
 You can set up the [!INCLUDE[navnow](includes/navnow_md.md)] deployment to support an Excel add-in that enables users in the [!INCLUDE[navnow](includes/navnow_md.md)] client to work with data from list pages in Excel. Users can get fresh data from [!INCLUDE[navnow](includes/navnow_md.md)] and update the data in [!INCLUDE[navnow](includes/navnow_md.md)] based on their work in Excel.
