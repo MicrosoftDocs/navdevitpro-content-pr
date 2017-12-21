@@ -10,7 +10,7 @@ author: jswymer
 ms.prod: "dynamics-nav-2017"
 ---
 # HideSubsequentDialogs Function
-Specifies whether to hide dialogs l on dialog type variables other than the t the Dialog.OPEN function call . called [SuppressChildDialog]. When this is set to TRUE, any subsequent call to dialog.open, update, close not related to this window would be ignored.
+Specifies whether to hide dialogs that are not instantiated by this dialog variable. When this is set to **true**, any calls to dialog functions (OPEN, UPDATE, and CLOSE) on other dialog variables are ignored, and the dialogs will not appear in the user interface.
 
 ```
 [IsHideSubsequentDialogs := ]Dialog.HIDESUBSEQUENTDIALOGS([SetHideSubsequentDialogs])
@@ -26,7 +26,7 @@ The Dialog variable that you want to open.
 
 Type: Boolean
 
-**true** hides any subsequent calls to dialog.OPEN, update, close that is not related to this window would be ignored. **false** is default.
+**true** hides any subsequent dialogs. **false** is default.
 
 ## Return Value
 *IsHideSubsequentDialogs*
@@ -36,12 +36,10 @@ Type: Boolean
 **true** if the HIDESUBSEQUENTDIALOGS set to **true**; otherwise, **false**.
 
 ## Remarks
-You must call Dialog.HIDESUBSEQUENTDIALOGS before Dialog.OPEN.
-
-
+You must call the HIDESUBSEQUENTDIALOGS function on the dialog variable before the OPEN function. Until the OPEN function is called on this variable, calls on other dialog variables will behave as normal.
 
 ##  Example
-The following code illustrates how the HIDESUBSEQUENTDIALOGS function works.
+The following code illustrates how the HIDESUBSEQUENTDIALOGS function works with two dialog variables.
 
 This code example requires that you create the following variables.  
 
@@ -58,7 +56,7 @@ This code example requires that you create the following text constants in the *
 
 
 ```
-// The HIDESUBSEQUENTDIALOGS function is is used on MyDialog1 dialog.
+// The HIDESUBSEQUENTDIALOGS function is used on MyDialog1 dialog.
 MyDialog1.HIDESUBSEQUENTDIALOGS := TRUE;
 
 // When MyDialog1 dialog opens, it will register as the root dialog.
