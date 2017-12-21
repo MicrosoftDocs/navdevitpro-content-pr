@@ -10,7 +10,7 @@ author: jswymer
 ms.prod: "dynamics-nav-2017"
 ---
 # HideSubsequentDialogs Function
-Specifies whether to hide other dialogs within the current scope that are not instantiated by this dialog variable. When this is set to **true**, any calls to dialog functions (OPEN, UPDATE, and CLOSE) on other dialog variables are ignored, and the dialogs will not appear in the user interface.
+Specifies whether to hide other dialogs within the current scope that are not instantiated by this dialog variable. When this is set to **true**, any calls to dialog functions ([OPEN](OPEN-Function--Dialog-.md), [UPDATE](UPDATE-Function--Dialog-.md), and [CLOSE](CLOSE-Function--Dialog-.md)) on other dialog variables are ignored, and the dialogs will not appear in the user interface.
 
 ```
 [IsHideSubsequentDialogs := ]Dialog.HIDESUBSEQUENTDIALOGS([SetHideSubsequentDialogs])
@@ -84,6 +84,7 @@ SLEEP(2000);
 ```
 
 ## See Also  
-[MESSAGE Function (Notification)](function-notificationmessage.md)  
-[SCOPE Function(Notification)](function-notificationscope.md)  
-[Notifications](notifications-developing.md)
+[Dialog Data Type](Dialog-Data-Type.md.md)  
+[OPEN Function (Dialog)](OPEN-Function--Dialog-.md)  
+[UPDATE Function (Dialog)](UPDATE-Function--Dialog-.md)  
+[CLOSE Function (Dialog)](CLOSE-Function--Dialog-.md)) 
