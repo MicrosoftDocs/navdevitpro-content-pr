@@ -14,7 +14,7 @@ ms.author: SorenGP
 
 ---
 
-# Deprecated Features in the Finnish Version of Microsoft Dynamics NAV 2018
+# Deprecated Features in the Austrian Version of Microsoft Dynamics NAV 2018
 This topic lists and describes the local functionality for Finland that has been removed from [!INCLUDE[navnow](includes/navnow_md.md)], made available from a new page or report, or replaced by a new feature.
 
 ## Multiple Interest Rates
@@ -22,7 +22,7 @@ When you create finance charge terms and reminder terms, for delayed payment pen
 
 |Moved, Removed, or Replaced?|Why?|
 |----|----|
-|Moved| The Multiple Interest Rates feature is no longer specific to Finland, so we have made it generally available in the standard product. |
+|Moved| The Multiple Interest Rates feature is no longer specific to Italy, so we have made it generally available in the standard product. |
 
 ## See Also
 [Upgrading to Microsoft Dynamics NAV 2018](upgrading-to-microsoft-dynamics-nav.md)  
