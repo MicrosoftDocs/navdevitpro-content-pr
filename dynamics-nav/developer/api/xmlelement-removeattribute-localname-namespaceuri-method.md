@@ -31,5 +31,7 @@ The local name of the attribute to remove.
 The namespace URI of the attribute to remove.  
   
 ## See Also
+[XmlElement](xmlelement-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

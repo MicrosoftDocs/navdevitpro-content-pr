@@ -2,7 +2,7 @@
 title: "GetNamespaceOfPrefix Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 12/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -33,9 +33,11 @@ The namespace URI associated with the given prefix for this element.
 ## Return Value
 *Ok*  
 &emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
-**true** if the operation was successful; otherwise, **false**.  
+**True** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   
 ## See Also
+[XmlElement](xmlelement-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
