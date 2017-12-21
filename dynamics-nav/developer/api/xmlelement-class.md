@@ -2,7 +2,7 @@
 title: "XmlElement Class"
 ms.author: solsen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 12/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

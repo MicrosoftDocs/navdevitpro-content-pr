@@ -2,7 +2,7 @@
 title: "XmlDocumentType Class"
 ms.author: solsen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 12/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -20,7 +20,7 @@ author: SusanneWindfeldPedersen
 Represents the document type declaration.
 
 > [!NOTE]
-> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+> For performance reasons all [HTTP, JSON, TextBuilder, and XML types](../devenv-restapi-overview.md) are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
 
 The following methods are available on the XmlDocumentType class.  
   
@@ -51,6 +51,7 @@ The following methods are available on the XmlDocumentType class.
 |[XmlDocumentType.SelectSingleNode(String, XmlNamespaceManager, XmlNode)](xmldocumenttype-selectsinglenode-xpath-namespacemanager-node-method.md)|Selects the first XmlNode that matches the XPath expression.|  
 |[XmlDocumentType.SelectNodes(String, XmlNodeList)](xmldocumenttype-selectnodes-xpath-nodelist-method.md)|Selects a list of nodes matching the XPath expression.|  
 |[XmlDocumentType.SelectNodes(String, XmlNamespaceManager, XmlNodeList)](xmldocumenttype-selectnodes-xpath-namespacemanager-nodelist-method.md)|Selects a list of nodes matching the XPath expression.|  
+
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
