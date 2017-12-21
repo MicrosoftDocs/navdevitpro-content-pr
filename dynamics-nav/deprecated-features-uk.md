@@ -1,6 +1,6 @@
 ---
 title: UK Features that are Moved, Removed, or Replaced | Microsoft Docs
-description: We're constantly streamlining and adjusting our app in-step with market developments. Read about the features for the UK that we've moved, removed, or replaced.
+description: We are constantly streamlining and adjusting our app in-step with market developments. Read about the features for the UK that we have moved, removed, or replaced.
 author: bholtorf
 
 ms.service: dynamics365-financials
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: deprecated, United Kingdom, local functionality
-ms.date: 11/28/2017
+ms.date: 12/21/2017
 ms.author: bholtorf
 
 ---
@@ -57,7 +57,7 @@ For month-end reconciliation and auditing, you can use the **Stock Received Not 
 
 |Moved, Removed, or Replaced?|Why?|
 |----|----|
-|Replaced | The functionality for the Shipped, Non-Invoiced Sales Orders and the Received, Not Invoiced Purchase Order reports are no longer specific to the UK, so we have made them generally available as views for sales orders and purchase orders. The views are available in the Navigation Pane as Shipped Not Invoiced and Shipped Not Received options under Sales Orders and Purchase Orders, respectively.|
+|Moved | The functionality for the Shipped, Non-Invoiced Sales Orders and the Received, Not Invoiced Purchase Order reports are no longer specific to the UK, so we have made them generally available as views for sales orders and purchase orders. The views are available in the Navigation Pane as Shipped Not Invoiced and Shipped Not Received options under Sales Orders and Purchase Orders, respectively.|
 
 ### Print Unposted Sales and Unposted Purchase reports
 The Unposted Sales and Unposted Purchase reports let you print a list of sales and purchase documents that are not yet posted.  
@@ -75,7 +75,7 @@ You can use the following reports for VAT reporting:
 
 |Moved, Removed, or Replaced?|Why?|
 |----|----|
-|Moved| These VAT-related reports are now generally available in the standard product. They are no longer specific to the UK. |
+|Moved| These VAT-related reports are no longer specific to the UK, so we have made them generally available in the standard product.  |
 
 ## Specify the supply type on documents
 You can specify supply types such as sales, loan, exchange, hire, lease, rental, sales on commission, on tax invoices. To do this, you must update the codes and names of the supply types in the **Types of Supply** window.
@@ -83,6 +83,13 @@ You can specify supply types such as sales, loan, exchange, hire, lease, rental,
 |Moved, Removed, or Replaced?|Why?|
 |----|----|
 |Removed| Lack of use. The business need that this functionality was introduced to cover is no longer relevant.  |
+
+## Multiple Interest Rates
+When you create finance charge terms and reminder terms, for delayed payment penalty, you can specify multiple interest rates so that the penalty fee is calculated from different interest rates in different periods.
+
+|Moved, Removed, or Replaced?|Why?|
+|----|----|
+|Moved| Multiple interest rates are no longer specific to the UK, so we have made them generally available in the standard product. |
 
 ## Objects and Fields that are deleted in [!INCLUDE[nav2018](includes/nav2018_md.md)]
 Table 10505 has been deleted. The following list shows additional fields that are deleted as a result of the features that have been removed.  
