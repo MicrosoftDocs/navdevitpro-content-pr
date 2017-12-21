@@ -23,7 +23,7 @@ This topic describes how you can format the appearance of decimal data types in 
 -   Specify characters before and after the value, such as currency signs or %.  
   
 ## Implementation Overview  
- When you use the **AutoFormatType** and **AutoFormatExpr** properties to format a field, a trigger called **AutoFormatTranslate** in codeunit 1 is called. **AutoFormatTranslate** has ID 12 and takes two parameters: one from the AutoFormatType property and one from the AutoFormatExpr property. The AutoFormatType property can contain one of the following integers: 0, 1, 2, or 10. These settings are described in the next section.  
+ When you use the **AutoFormatType** and **AutoFormatExpr** properties to format a field, a trigger called **AutoFormatTranslate** in codeunit 1 is called. **AutoFormatTranslate** has ID 12 and takes two parameters: one from the AutoFormatType property and one from the AutoFormatExpr property. The AutoFormatType property can contain one of the following integers: 0, 1, 2, 10, or 11. These settings are described in the next section.  
   
  When a field appears on a page or report, you can set the **AutoFormatType** and **AutoFormatExpr** properties directly on the page field or report field \(column\), or you can set them on the underlying table field. If you specify the properties on the table field, then format applies wherever the field is used. Specifying the properties on the page or report field will only apply the format on the specific page or report. If you specify the properties on the table field and the page or report field, then the settings on the page or report field take precedence.  
   
