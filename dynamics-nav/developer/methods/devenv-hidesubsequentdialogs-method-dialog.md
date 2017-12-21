@@ -77,7 +77,7 @@ var
 ```  
 
 ## See Also  
-[Dialog Data Type](Dialog-Data-Type.md.md)  
-[OPEN](devenv-open-method-dialog.md)  
-[CLOSE](devenv-close-method-dialog.md)  
-[UPDATE](devenv-update-method-dialog.md)  
+[Dialog Data Type](../datatypes/devenv-dialog-data-type.md)  
+[OPEN Method](devenv-open-method-dialog.md)  
+[CLOSE Method](devenv-close-method-dialog.md)  
+[UPDATE Method](devenv-update-method-dialog.md)  

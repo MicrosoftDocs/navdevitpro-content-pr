@@ -84,7 +84,7 @@ SLEEP(2000);
 ```
 
 ## See Also  
-[Dialog Data Type](Dialog-Data-Type.md.md)  
+[Dialog Data Type](Dialog-Data-Type.md)  
 [OPEN Function (Dialog)](OPEN-Function--Dialog-.md)  
 [UPDATE Function (Dialog)](UPDATE-Function--Dialog-.md)  
 [CLOSE Function (Dialog)](CLOSE-Function--Dialog-.md)) 
