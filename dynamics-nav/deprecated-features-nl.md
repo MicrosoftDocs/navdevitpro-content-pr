@@ -35,4 +35,4 @@ By default, [!INCLUDE[navnow](includes/navnow_md.md)] does not show these totals
 [Upgrading to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](upgrading-to-microsoft-dynamics-nav.md)  
 [Upgrading the Application Code](upgrading-the-application-code.md)  
 [Deprecated Fields, and Fields Marked as Obsolete](deprecated-fields.md)  
-[Netherlands Local Functionality in [Italy Local Functionality in [!INCLUDE[navnow](includes/navnow_md.md)](/dynamics-nav-app/LocalFunctionality/Netherlands/netherlands-local-functionality)  
+[Netherlands Local Functionality in [!INCLUDE[navnow](includes/navnow_md.md)]](/dynamics-nav-app/LocalFunctionality/Netherlands/netherlands-local-functionality)  
