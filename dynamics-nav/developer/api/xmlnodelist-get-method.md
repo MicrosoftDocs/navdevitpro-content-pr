@@ -2,7 +2,7 @@
 title: "Get Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 12/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,15 +27,17 @@ Gets a node at the given index.
 The one-based index into the list of nodes.  
   
 *Node*    
-&emsp;Type: XmlNode  
+&emsp;Type: [XmlNode](xmlnode-class.md)  
 The XmlNode with the specified index in the list.  
   
 ## Return Value
 *Ok*  
 &emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
-**true** if the operation was successful; otherwise, **false**.  
+**True** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   
 ## See Also
+[XmlNodeList](xmlnodelist-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

@@ -2,7 +2,7 @@
 title: "WriteTo Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 12/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,13 +23,13 @@ Serializes and saves the current node to the given variable.
 ```  
 ## Parameters
 *OutStream*    
-&emsp;Type: OutStream  
+&emsp;Type: [OutStream](../datatypes/devenv-instream-and-outstream-data-types.md)  
 The OutStream to which you want to save the serialized representation of the node.  
   
 ## Return Value
 *Ok*  
 &emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)  
-**true** if the operation was successful; otherwise, **false**.  
+**True** if the operation was successful; otherwise, **false**.  
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   
 ## See Also
