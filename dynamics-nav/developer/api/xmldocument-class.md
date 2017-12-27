@@ -62,6 +62,19 @@ The following methods are available on the XmlDocument class.
 |[XmlDocument.GetDescendantElements(String, String)](xmldocument-getdescendantelements-localname-namespaceuri-method.md)|Gets a list containing the descendant elements for this document, in document order.|  
 
 ## See Also
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
+[XmlAttribute](xmlattribute-class.md)  
+[XmlAttributeCollection](xmlattributecollection-class.md)  
+[XmlCData](xmlcdata-class.md)  
+[XmlComment](xmlcomment-class.md)  
+[XmlDeclaration](xmldeclaration-class.md)  
+[XmlDocumentType](xmldocument-class.md)  
+[XmlElement](xmlelement-class.md)  
+[XmlNamespaceManager](xmlnamespacemanager-class.md)  
+[XmlNameTable](xmlnametable-class.md)  
+[XmlNode](xmlnode-class.md)  
+[XmlNodeList](xmlnodelist-class.md)  
+[XmlProcessingInstruction](xmlprocessinginstruction-class.md)  
+[XmlText](xmltext-class.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
-[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  

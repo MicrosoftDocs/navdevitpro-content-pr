@@ -2,7 +2,7 @@
 title: "XmlNode Class"
 ms.author: solsen
 ms.custom: na
-ms.date: 12/20/2017
+ms.date: 12/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -56,7 +56,21 @@ The following methods are available on the XmlNode class.
 |[XmlNode.AsXmlElement()](xmlnode-asxmlelement-method.md)|Converts the node to an XmlElement node. The operation will fail if the node is not an XmlElement.|  
 |[XmlNode.AsXmlProcessingInstruction()](xmlnode-asxmlprocessinginstruction-method.md)|Converts the node to an XmlProcessingInstruction node. The operation will fail if the node is not an XmlProcessingInstruction.|  
 |[XmlNode.AsXmlText()](xmlnode-asxmltext-method.md)|Converts the node to an XmlText node. The operation will fail if the node is not an XmlText.|  
+
 ## See Also
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
+[XmlAttribute](xmlattribute-class.md)  
+[XmlAttributeCollection](xmlattributecollection-class.md)  
+[XmlCData](xmlcdata-class.md)  
+[XmlComment](xmlcomment-class.md)  
+[XmlDeclaration](xmldeclaration-class.md)  
+[XmlDocument](xmldocument-class.md)  
+[XmlDocumentType](xmldocument-class.md)  
+[XmlElement](xmlelement-class.md)  
+[XmlNamespaceManager](xmlnamespacemanager-class.md)  
+[XmlNameTable](xmlnametable-class.md)  
+[XmlNodeList](xmlnodelist-class.md)  
+[XmlProcessingInstruction](xmlprocessinginstruction-class.md)  
+[XmlText](xmltext-class.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
-[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  

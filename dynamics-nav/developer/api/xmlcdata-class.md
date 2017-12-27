@@ -43,6 +43,19 @@ The following methods are available on the XmlCData class.
 |[XmlCData.SelectNodes(String, XmlNamespaceManager, XmlNodeList)](xmlcdata-selectnodes-xpath-namespacemanager-nodelist-method.md)|Selects a list of nodes matching the XPath expression.|  
 
 ## See Also
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
+[XmlAttribute](xmlattribute-class.md)  
+[XmlAttributeCollection](xmlattributecollection-class.md)  
+[XmlComment](xmlcomment-class.md)  
+[XmlDeclaration](xmldeclaration-class.md)  
+[XmlDocument](xmldocument-class.md)  
+[XmlDocumentType](xmldocument-class.md)  
+[XmlElement](xmlelement-class.md)  
+[XmlNamespaceManager](xmlnamespacemanager-class.md)  
+[XmlNameTable](xmlnametable-class.md)  
+[XmlNode](xmlnode-class.md)  
+[XmlNodeList](xmlnodelist-class.md)  
+[XmlProcessingInstruction](xmlprocessinginstruction-class.md)  
+[XmlText](xmltext-class.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
-[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)   

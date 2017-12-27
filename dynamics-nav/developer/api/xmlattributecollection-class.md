@@ -34,7 +34,19 @@ The following methods are available on the XmlAttributeCollection class.
 |[XmlAttributeCollection.Set(String, String, String)](xmlattributecollection-set-localname-namespaceuri-value-method.md)|Sets the value of the specified attribute or create it if is not part of the collection.|  
 
 ## See Also
-[XmlAttribute](xmlattribute-class.md)  
 [HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
+[XmlAttribute](xmlattribute-class.md)  
+[XmlCData](xmlcdata-class.md)  
+[XmlComment](xmlcomment-class.md)  
+[XmlDeclaration](xmldeclaration-class.md)  
+[XmlDocument](xmldocument-class.md)  
+[XmlDocumentType](xmldocument-class.md)  
+[XmlElement](xmlelement-class.md)  
+[XmlNamespaceManager](xmlnamespacemanager-class.md)  
+[XmlNameTable](xmlnametable-class.md)  
+[XmlNode](xmlnode-class.md)  
+[XmlNodeList](xmlnodelist-class.md)  
+[XmlProcessingInstruction](xmlprocessinginstruction-class.md)  
+[XmlText](xmltext-class.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  
