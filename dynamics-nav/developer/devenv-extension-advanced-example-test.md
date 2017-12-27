@@ -1,6 +1,6 @@
 ---
 author: solsen
-title: "Testing the Advanced Sample Extension."
+title: "Testing the Advanced Sample Extension"
 description: "Includes test code for the advanced example extension."
 ms.custom: na
 ms.date: 12/27/2017
@@ -67,7 +67,7 @@ To help you design the relevant tests for your functionality, you can write scen
 
 The following sections provide an overview of the tags that we recommend you to use. 
 
-- FEATURE Tag 
+##### FEATURE Tag 
 
 ```
 // [FEATURE] [<FeatureTag1>] [<FeatureTagN>]
@@ -75,7 +75,7 @@ The following sections provide an overview of the tags that we recommend you to 
 
 `FeatureTag` represents the name of the feature, application area, functional area, or another aspect of the application. This list of tags must point to an area of your solution that is touched by the test. Order tags in descending importance. Start with the most important tags referring to the WHEN or THEN steps. The `[FEATURE]` tag can be set for the whole test codeunit. This means all tests in this codeunit will inherit the list of tags set there. If a test is supposed to have the same list of tags as the codeunit has, you do not have to add the `[FEATURE]` tag for this test. Add the tags only if the test has something specific to say. 
  
-- SCENARIO Tag 
+##### SCENARIO Tag 
 
 ```
 // [SCENARIO <ScenarioID>] <TestDescription>` 
@@ -85,7 +85,7 @@ The following sections provide an overview of the tags that we recommend you to 
 
 TestDescription represents a short description of the purpose of the test, such as  *Annie can apply a deferral template to a purchase order*. 
 
-- GIVEN-WHEN-THEN Tags 
+##### GIVEN-WHEN-THEN Tags 
 
 The `GIVEN-WHEN-THEN` tags provide a framework for the specific test criteria. 
 
@@ -248,10 +248,10 @@ A test codeunit must have its **Subtype** property set to **Test** and the test 
 
 In addition to the Application Test Toolkit, the following features are available to help you test your extension: 
 
-- Test pages 
+##### Test pages 
 Test pages mimic actual pages, but do not present any UI on a client computer. Test pages let you test the code on a page by using AL to simulate user interaction with the page. You can access the fields on a page and the properties of a page or a field by using the dot notation. You can open and close test pages, perform actions on the test page, and navigate around the test page by using AL methods. 
 
-- UI handlers 
+##### UI handlers 
 To create tests that can be automated, you must handle cases when user interaction is requested by code that is being tested. UI handlers run instead of the requested UI. UI handlers provide the same exit state as the UI. For example, a test method that has a ConfirmHandler handles CONFIRM method calls. If code that is being tested calls the CONFIRM method, then the ConfirmHandler method is called instead of the CONFIRM method. You write code in the ConfirmHandler method to verify that the expected question is displayed by the CONFIRM method and you write AL code to return the relevant reply. The following table describes the available UI handlers.  
 
 |Function Type|Purpose|
@@ -266,7 +266,7 @@ To create tests that can be automated, you must handle cases when user interacti
 
 You must create a specific handler for each page that you want to handle. Any unhandled UI in the test methods of the test codeunit causes a failure of the test.  
 
-- ASSERTERROR statement 
+##### ASSERTERROR statement 
 When you test your extension, you should test that your code performs as expected under both successful and failing conditions. These are called positive and negative tests. To test how your extension performs under failing conditions, you can use the ASSERTERROR keyword. The ASSERTERROR keyword specifies that an error is expected at run time in the statement that follows the ASSERTERROR keyword. If a simple or compound statement that follows the ASSERTERROR keyword causes an error, then execution successfully continues to the next statement in the test function. If a statement that follows the ASSERTERROR keyword does not cause an error, then the ASSERTERROR statement itself fails with an error, and the test function that is running produces a FAILURE result. 
 
 The 50103 **Customer Rewards Test** codeunit contains all the tests for the Customer Rewards extension. For each test method, we follow the following pattern: 
@@ -1540,7 +1540,7 @@ In order to run the tests, follow the steps below.
 2. Choose **Get Test Codeunits** and then choose **Select Test Codeunits**. 
 3. Select your test codeunits and then choose the **OK** button.
 ![Test Codeunits](media/TestGetCodeUnits.png)
-You should now see all the tests method from your test codeunits. 
+You can now see all the test methods from your test codeunits. 
 
 4. Now, choose **Run** or **Run Selected** to run all the tests in the test codeunit or only the selected tests. The **Result** column indicates whether a test was a SUCCESS or FAILURE. A summary is also presented at the bottom of the page. 
 ![Run Selected](media/RunSelected.png)
