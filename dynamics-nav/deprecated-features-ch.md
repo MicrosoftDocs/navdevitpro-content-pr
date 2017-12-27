@@ -28,4 +28,4 @@ You can archive and delete blanket sales and purchase orders. You can view docum
 [Upgrading to Microsoft Dynamics NAV 2018](upgrading-to-microsoft-dynamics-nav.md)  
 [Upgrading the Application Code](upgrading-the-application-code.md)  
 [Deprecated Fields, and Fields Marked as Obsolete](deprecated-fields.md)  
-[Switzerland Local Functionality in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](/dynamics365/financials/localfunctionality/switzerland/switzerland-local-functionality)  
+[Switzerland Local Functionality in [!INCLUDE[navnow](includes/navnow_md.md)]](/dynamics-nav-app/LocalFunctionality/Switzerland/switzerland-local-functionality)  
