@@ -2,7 +2,7 @@
 title: "Set Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 04/09/2017
+ms.date: 12/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -29,5 +29,8 @@ The fully qualified name of the attribute to set.
 The value to set for the attribute.  
   
 ## See Also
+[XmlAttributeCollection](xmlattributecollection-class.md)  
+[XmlAttribute](xmlattribute-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions Using the New Development Environment](../devenv-dev-overview.md)  

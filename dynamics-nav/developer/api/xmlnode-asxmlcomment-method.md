@@ -2,7 +2,7 @@
 title: "AsXmlComment Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 12/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,8 +23,11 @@ XmlComment := XmlNode.AsXmlComment()
 ```  
 ## Return Value
 *XmlComment*  
-&emsp;Type: XmlComment  
+&emsp;Type: [XmlComment](xmlcomment-class.md)  
   
 ## See Also
+[XmlNode](xmlnode-class.md)  
+[XmlComment](xmlcomment-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

@@ -2,7 +2,7 @@
 title: "AsXmlDocument Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 12/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,8 +23,11 @@ XmlDocument := XmlNode.AsXmlDocument()
 ```  
 ## Return Value
 *XmlDocument*  
-&emsp;Type: XmlDocument  
+&emsp;Type: [XmlDocument](xmldocument-class.md)  
   
 ## See Also
+[XmlNode](xmlnode-class.md)  
+[XmlDocument](xmldocument-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
