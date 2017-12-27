@@ -1563,8 +1563,10 @@ procedure SetDefaultCustomerRewardsExtMgtCodeunit();
 
         // Default Customer Rewards Ext. Mgt codeunit to use for handling events  
 
-         ~~CustomerRewardsExtMgtSetup."Customer Rewards Ext. Mgt. Codeunit ID" := Codeunit::"Customer Rewards Ext. Mgt.";~~
+        // Changing 
+        // CustomerRewardsExtMgtSetup."Customer Rewards Ext. Mgt. Codeunit ID" := Codeunit::"Customer Rewards Ext. Mgt.";
 
+        // To
         CustomerRewardsExtMgtSetup."Customer Rewards Ext. Mgt. Codeunit ID" := 0; 
 
         CustomerRewardsExtMgtSetup.Insert; 
