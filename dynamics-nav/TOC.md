@@ -169,6 +169,8 @@
 ### [User Scenario Documentation](compliance/apptest-userscenario.md)
 ### [Restrictions on UI for Objects Exposed as Web Services](compliance/apptest-webservices.md)
 ### [Replacing OnBeforeCompanyOpen and OnAfterCompanyOpen](compliance/apptest-onbeforecompanyopen.md)
+### [Building an Advanced Sample Extension](developer/devenv-extension-advanced-example.md)
+### [Testing the Advanced Sample Extension](developer/devenv-extension-advanced-example-test.md)
 <!-- end AL -->
 
 # [Integrating Dynamics NAV and Microsoft Office](Integrating Dynamics NAV and Office.md)

@@ -1,9 +1,9 @@
 ---
 author: solsen
-title: "Building an Advanced Sample Extension."
+title: "Building an Advanced Sample Extension"
 description: "Includes code for an advanced example extension."
 ms.custom: na
-ms.date: 12/12/2017
+ms.date: 12/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -13,7 +13,10 @@ ms.author: SusanneWindfeldPedersen
 ---
 
 # Building an Advanced Sample Extension
-With Extensions V2.0, it is required to submit tests with your extension in order to pass validation. This walkthrough builds an advanced sample extension which is used as the foundation for writing a test which you can read about here <!--link missing-->[](). If you are new to building extensions, we suggest that you get familiar with [Building your first sample extension that uses new objects and extension objects](devenv-extension-example.md). 
+With Extensions V2.0, it is required to submit tests with your extension in order to pass validation. This walkthrough builds an advanced sample extension which is used as the foundation for writing a test which you can read about in the [Testing the Advanced Sample Extension](devenv-extension-advanced-example-test.md) topic. If you are new to building extensions, we suggest that you get familiar with [Building your first sample extension that uses new objects and extension objects](devenv-extension-example.md). 
+
+For information about submitting your app to AppSource, see [Checklist for Submitting Your App](devenv-checklist-submission.md).
+
 This walkthrough will guide you through all the steps that you must follow to create the sample extension in AL. The final result can be published, installed, and tested on your tenants. After you have built your extension, you must write the test for it.
 
 ## About This Walkthrough
@@ -147,7 +150,7 @@ table 50100 "Reward Level"
 ```
 
 #### Activation Code Information table object 
-The following code adds a new table 50101 **Activation Code Information** for storing activation information for the extension. The table consists of three fields: **ActivationCode**, **Date Activated** and **Expiration Date**. 
+The following code adds a new table 50101 **Activation Code Information** for storing activation information for the extension. The table consists of three fields: **ActivationCode**, **Date Activated**, and **Expiration Date**. 
 
 ```
 table 50101 "Activation Code Information" 
@@ -253,7 +256,7 @@ table 50102 "Customer Rewards Mgt. Setup"
 ### Customer Rewards table extension objects 
 
 #### Customer table extension object 
-The **Customer** table, like many other tables, is part of the Dynamics 365 for Finance and Operations, Business edition service and it cannot be modified directly by developers. To add additional fields or to change properties on this table, developers must create a new type of object; a table extension. The following code creates a table extension for the **Customer** table and adds the **RewardPoints** field. 
+The **Customer** table, like many other tables, is part of the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] service and it cannot be modified directly by developers. To add additional fields or to change properties on this table, developers must create a new type of object; a table extension. The following code creates a table extension for the **Customer** table and adds the **RewardPoints** field. 
 
 ``` 
 tableextension 50100 "CustomerTable Ext." extends Customer 
@@ -985,7 +988,7 @@ page 50101 "Rewards Level List"
 ### Customer Rewards page extension objects 
 
 #### Customer card page extension object 
-A page extension object can be used to add new functionality to pages that are part of the Dynamics 365 for Finance and Operations, Business edition service. The following page extension object extends the **Customer Card** page object by adding two field controls: **RewardLevel** and **RewardPoints** after the Name field control on the page. The fields are added in the layout section. 
+A page extension object can be used to add new functionality to pages that are part of the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] service. The following page extension object extends the **Customer Card** page object by adding two field controls: **RewardLevel** and **RewardPoints** after the **Name** field control on the page. The fields are added in the layout section. 
 
 ```
 pageextension 50100 "Customer Card Ext." extends "Customer Card" 
@@ -1058,7 +1061,7 @@ pageextension 50100 "Customer Card Ext." extends "Customer Card"
 ```
  
 #### Customer list page extension object 
-A page extension object can be used to add new functionality to pages that are part of the Dynamics 365 for Finance and Operations, Business edition service. The following page extension object extends the **Customer List** page object by adding one action control; **Reward Levels** to the **Customer** group on the page. 
+A page extension object can be used to add new functionality to pages that are part of the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] service. The following page extension object extends the **Customer List** page object by adding one action control; **Reward Levels** to the **Customer** group on the page. 
 
 ```
 pageextension 50101 "Customer List Ext." extends "Customer List" 
@@ -1296,7 +1299,7 @@ We define an event publisher function **OnGetActivationCodeStatusFromServer** th
 
 By using events when the extension makes external calls to a service, we are able to mock the behavior of what happens when events are raised. This becomes particularly useful when writing tests for the extension. 
 
-For more information about events, see <!-- link --> Events in Microsoft Dynamics 365 for Finance and Operations, Business edition. 
+For more information about events, see [Events in Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]](devenv-events-in-al.md). 
 
 Below is the full code for this codeunit. 
 
@@ -1605,7 +1608,7 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 ```
 
 ### Conclusion
-At this point, the Customer Rewards sample extension can be published and installed on your sandbox.  
+At this point, the Customer Rewards sample extension can be published and installed on your sandbox. To continue writing tests for the sample extension, see [Testing the Advanced Sample Extension](devenv-extension-advanced-example-test.md). 
 
 ## See Also  
 [Developing Extensions](devenv-dev-overview.md)  
