@@ -3,7 +3,7 @@ author: solsen
 title: "Testing the Advanced Sample Extension."
 description: "Includes test code for the advanced example extension."
 ms.custom: na
-ms.date: 12/18/2017
+ms.date: 12/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,6 +14,8 @@ ms.author: SusanneWindfeldPedersen
 
 # Testing the Advanced Sample Extension
 With Extensions V2.0, it is required to submit tests with your extension in order to pass validation. This walkthrough builds on the advanced sample extension which you can read about here [Building an Advanced Sample Extension](devenv-extension-advanced-example.md). If you are new to building extensions, we suggest that you get familiar with [Building your first sample extension that uses new objects and extension objects](devenv-extension-example.md).
+
+For information about submitting your app to AppSource, see [Checklist for Submitting Your App](devenv-checklist-submission.md).
 
 ## Developing the test for the sample Customer Rewards extension 
 
