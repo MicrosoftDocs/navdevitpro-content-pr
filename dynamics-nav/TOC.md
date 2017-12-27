@@ -44,8 +44,6 @@
 # [Development in AL](developer/devenv-dev-overview.md)
 ## [Getting Started with AL](developer/devenv-get-started.md)
 ## [Building Your First Sample Extension With Extension Objects, Install Code, and Upgrade Code](developer/devenv-extension-example.md)
-## [Building an Advanced Sample Extension](developer/devenv-extension-advanced-example.md)
-### [Testing the Advanced Sample Extension](developer/devenv-extension-advanced-example-test.md)
 ## [Using Designer](developer/devenv-inclient-designer.md)
 ## [Keyboard Shortcuts](developer/devenv-keyboard-shortcuts.md)
 ## [The AL Formatter](developer/devenv-al-formatter.md)
@@ -171,6 +169,8 @@
 ### [User Scenario Documentation](compliance/apptest-userscenario.md)
 ### [Restrictions on UI for Objects Exposed as Web Services](compliance/apptest-webservices.md)
 ### [Replacing OnBeforeCompanyOpen and OnAfterCompanyOpen](compliance/apptest-onbeforecompanyopen.md)
+### [Building an Advanced Sample Extension](developer/devenv-extension-advanced-example.md)
+### [Testing the Advanced Sample Extension](developer/devenv-extension-advanced-example-test.md)
 <!-- end AL -->
 
 # [Integrating Dynamics NAV and Microsoft Office](Integrating Dynamics NAV and Office.md)
