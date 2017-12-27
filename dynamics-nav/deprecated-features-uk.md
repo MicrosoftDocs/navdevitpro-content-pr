@@ -113,4 +113,4 @@ Table 10505 has been deleted. The following list shows additional fields that ar
 [Upgrading to Microsoft Dynamics NAV 2018](upgrading-to-microsoft-dynamics-nav.md)  
 [Upgrading the Application Code](upgrading-the-application-code.md)  
 [Deprecated Fields, and Fields Marked as Obsolete](deprecated-fields.md)  
-[United Kingdom Local Functionality in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](/dynamics365/financials/localfunctionality/unitedkingdom/united-kingdom-local-functionality)  
+[United Kingdom Local Functionality in [!INCLUDE[navnow](includes/navnow_md.md)](/dynamics-nav-app/LocalFunctionality/unitedkingdom/united-kingdom-local-functionality)  

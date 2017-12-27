@@ -28,4 +28,4 @@ When you create finance charge terms and reminder terms, for delayed payment pen
 [Upgrading to Microsoft Dynamics NAV 2018](upgrading-to-microsoft-dynamics-nav.md)  
 [Upgrading the Application Code](upgrading-the-application-code.md)  
 [Deprecated Fields, and Fields Marked as Obsolete](deprecated-fields.md)  
-[Norway Local Functionality in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](/dynamics365/financials/localfunctionality/norway/norway-local-functionality)  
+[Norway Local Functionality in [!INCLUDE[navnow](includes/navnow_md.md)](/dynamics-nav-app/LocalFunctionality/Norway/norway-local-functionality)  
