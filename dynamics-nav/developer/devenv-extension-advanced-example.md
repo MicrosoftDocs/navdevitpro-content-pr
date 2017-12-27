@@ -150,7 +150,7 @@ table 50100 "Reward Level"
 ```
 
 #### Activation Code Information table object 
-The following code adds a new table 50101 **Activation Code Information** for storing activation information for the extension. The table consists of three fields: **ActivationCode**, **Date Activated** and **Expiration Date**. 
+The following code adds a new table 50101 **Activation Code Information** for storing activation information for the extension. The table consists of three fields: **ActivationCode**, **Date Activated**, and **Expiration Date**. 
 
 ```
 table 50101 "Activation Code Information" 
@@ -988,7 +988,7 @@ page 50101 "Rewards Level List"
 ### Customer Rewards page extension objects 
 
 #### Customer card page extension object 
-A page extension object can be used to add new functionality to pages that are part of the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] service. The following page extension object extends the **Customer Card** page object by adding two field controls: **RewardLevel** and **RewardPoints** after the Name field control on the page. The fields are added in the layout section. 
+A page extension object can be used to add new functionality to pages that are part of the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] service. The following page extension object extends the **Customer Card** page object by adding two field controls: **RewardLevel** and **RewardPoints** after the **Name** field control on the page. The fields are added in the layout section. 
 
 ```
 pageextension 50100 "Customer Card Ext." extends "Customer Card" 
@@ -1299,7 +1299,7 @@ We define an event publisher function **OnGetActivationCodeStatusFromServer** th
 
 By using events when the extension makes external calls to a service, we are able to mock the behavior of what happens when events are raised. This becomes particularly useful when writing tests for the extension. 
 
-For more information about events, see <!-- link --> Events in Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. 
+For more information about events, see [Events in Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]](devenv-events-in-al.md). 
 
 Below is the full code for this codeunit. 
 
@@ -1608,7 +1608,7 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 ```
 
 ### Conclusion
-At this point, the Customer Rewards sample extension can be published and installed on your sandbox.  
+At this point, the Customer Rewards sample extension can be published and installed on your sandbox. To continue writing tests for the sample extension, see [Testing the Advanced Sample Extension](devenv-extension-advanced-example-test.md). 
 
 ## See Also  
 [Developing Extensions](devenv-dev-overview.md)  
