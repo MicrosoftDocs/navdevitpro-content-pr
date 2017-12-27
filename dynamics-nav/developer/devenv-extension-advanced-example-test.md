@@ -60,7 +60,7 @@ We will be using the Application Test Toolkit to automate and run the tests that
 
 - Codeunits with generic and application-specific functions to reduce duplication of test code. 
 
-- Application objects for running application tests such as the Test Tool page. 
+- Application objects for running application tests such as the **Test Tool** page. 
 
 #### Describing your tests 
 To help you design the relevant tests for your functionality, you can write scenarios that outline what you want to test, and you can write test criteria in the GIVEN-WHEN-THEN format. By adding comments based on feature, scenario, and GIVEN-WHEN-THEN, you add structure to your test code and make tests readable. 
@@ -69,21 +69,25 @@ The following sections provide an overview of the tags that we recommend you to 
 
 - FEATURE Tag 
 
-`// [FEATURE] [<FeatureTag1>] [<FeatureTagN>] `
- 
-`FeatureTag` represents the name of the feature, application area, functional area, or another aspect of the application. This list of tags should point to an area of your solution that is touched by the test. Order tags in descending importance. Start with the most important tags referring to the WHEN or THEN steps. The `[FEATURE]` tag can be set for the whole test codeunit. This means all tests in this codeunit will inherit the list of tags set there. If a test is supposed to have the same list of tags as the codeunit has, you do not have to add the `[FEATURE]` tag for this test. Add the tags only if the test has something specific to say. 
+```
+// [FEATURE] [<FeatureTag1>] [<FeatureTagN>]
+```
+
+`FeatureTag` represents the name of the feature, application area, functional area, or another aspect of the application. This list of tags must point to an area of your solution that is touched by the test. Order tags in descending importance. Start with the most important tags referring to the WHEN or THEN steps. The `[FEATURE]` tag can be set for the whole test codeunit. This means all tests in this codeunit will inherit the list of tags set there. If a test is supposed to have the same list of tags as the codeunit has, you do not have to add the `[FEATURE]` tag for this test. Add the tags only if the test has something specific to say. 
  
 - SCENARIO Tag 
 
-`// [SCENARIO <ScenarioID>] <TestDescription>` 
- 
+```
+// [SCENARIO <ScenarioID>] <TestDescription>` 
+``` 
+
 `ScenarioID` links the test to a work item for the functionality. For example, if you use Visual Studio Online or Team Foundation Server, `[SCENARIO 12345]` represents a work item with the ID 12345. 
 
 TestDescription represents a short description of the purpose of the test, such as  *Annie can apply a deferral template to a purchase order*. 
 
 - GIVEN-WHEN-THEN Tags 
 
-The GIVEN-WHEN-THEN tags provide a framework for the specific test criteria. 
+The `GIVEN-WHEN-THEN` tags provide a framework for the specific test criteria. 
 
 |Tag |Description|
 |----|------------ |
@@ -138,7 +142,6 @@ codeunit 50102 MockCustomerRewardsExtMgt
     end; 
 
  
-
     // Modifies the default Customer Rewards Ext. Mgt codeunit to this codeunit to prevent the  
 
     // OnGetActivationCodeStatusFromServerSubscriber in Customer Rewards Ext. Mgt from handling 
@@ -286,9 +289,9 @@ And finally, we verify using the **Assert** codeunit from the Application Test T
 #### TestCustomerRewardsWizardActivationPageErrorsWhenInvalidActivationCodeEntered Test 
 This is one of the tests that focus on the **Customer Rewards Assisted Setup Guide**. The test verifies that an error message is displayed when a not valid activation code is entered in the wizard.  
 
-First, Initialize is called to clean up previous state and bind our mock subscriber methods to the test codeunit. Additionally, we set our MockActivationResponse to return FAILURE since we are mocking a not valid validation of the activation code. We also use the **Library - Lower Permissions** codeunit to restrict the users permission to one that does not have the SUPER permission.   
+First, **Initialize** is called to clean up previous state and bind our mock subscriber methods to the test codeunit. Additionally, we set our MockActivationResponse to return FAILURE since we are mocking a not valid validation of the activation code. We also use the **Library - Lower Permissions** codeunit to restrict the users permission to one that does not have the SUPER permission.   
 
-Next, we open the **Customer Rewards Wizard** by using a Customer Rewards Wizard <!--maybe a dot here --> TestPage object is used to mimic the actual page. On the page, the activation code is entered and then the Activate action is invoked.
+Next, we open the **Customer Rewards Wizard** by using a Customer Rewards Wizard, the TestPage object is used to mimic the actual page. On the page, the activation code is entered and then the Activate action is invoked.
 
 And finally, we verify that an error message is displayed because the validation of the activation code failed. If no other error is reported then we are also able to conclude that the functionality in this test can be run without the need for a SUPER permission.  
 
@@ -300,7 +303,7 @@ This is one of the tests that considers the interaction between Customers, Sales
 
 First, the test is initialized by calling Initialize. The extension is activated and then a BRONZE reward level for two points or more is set up in the **Reward Level** table. 
 
-Next, a new **Customer** is created using the **LibrarySales** codeunit from the Application Test Toolkit. And then, the **LibrarySales** codeunit is used again to create and post two sales orders for previously create <!-- created --> customer. 
+Next, a new **Customer** is created using the **LibrarySales** codeunit from the Application Test Toolkit. And then, the **LibrarySales** codeunit is used again to create and post two sales orders for the previously created customer. 
 
 Finally, to verify that the customer got the correct reward points and level, we open the **Customer Card** using its corresponding TestPage and then verify the values in the **Reward Points** and **Reward Level** fields. 
 
@@ -1530,16 +1533,17 @@ codeunit 50103 "Customer Rewards Test"
 At this point you can publish and run your tests on your tenant by pressing Ctrl+F5. 
 
 ### Run the tests 
-In order to run the tests, you will need to open the **Test Tool** page (130401). 
-<!-- image -->
-Choose **Get Test Codeunits** and then choose **Select Test Codeunits**. 
-<!-- image -->
-Select your test codeunits and then choose the **OK** button.
-<!-- image -->
-You should see all the tests method from your test codeunits. 
-<!-- image -->
-Now you can choose **Run** or **Run Selected** to run all the tests in the test codeunit or only the selected tests. The **Result** column indicates whether a test was a SUCCESS or FAILURE. A summary is also presented at the bottom of the page. 
-<!-- image -->
+In order to run the tests, follow the steps below.
+
+1. Open the **Test Tool** page (130401). 
+![Test Tool](media/TestToolPage.png)  
+2. Choose **Get Test Codeunits** and then choose **Select Test Codeunits**. 
+3. Select your test codeunits and then choose the **OK** button.
+![Test Codeunits](media/TestGetCodeUnits.png)
+You should now see all the tests method from your test codeunits. 
+
+4. Now, choose **Run** or **Run Selected** to run all the tests in the test codeunit or only the selected tests. The **Result** column indicates whether a test was a SUCCESS or FAILURE. A summary is also presented at the bottom of the page. 
+![Run Selected](media/RunSelected.png)
 
 ### Failing Tests 
 Let us look at what to do if you have a failing test. To create a failing test, we will modify the **SetDefaultCustomerRewardsExtMgtCodeunit** method in codeunit 50100 **Customer Rewards Install Logic** to the following: 
