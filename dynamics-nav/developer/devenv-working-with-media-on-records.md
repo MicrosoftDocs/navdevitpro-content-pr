@@ -91,7 +91,7 @@ The following table provides an overview of the methods that are related to the 
 |[EXPORTFILE Method (MediaSet)](methods/devenv-EXPORTFILE-Method-MediaSet.md)|Exports the media objects that included in a media set to individual files.|
 |[IMPORTFILE Method (MediaSet)](methods/devenv-IMPORTFILE-method-mediaset.md)|Adds media from a file to a record, and assigns the imported media object to a media set. The media object is stored in the application database.|  
 |[IMPORTSTREAM Method (MediaSet)](methods/devenv-IMPORTSTREAM-method-mediaset.md)|Adds media from an InStream object to a record. The imported media object is stored in the application database.|  
-|[INSERT Function (MediaSet)](methods/devenv-insert-method-mediaset.md)|Adds a media object that already exists in the database to a MediaSet of a record.|
+|[INSERT Method (MediaSet)](methods/devenv-insert-method-mediaset.md)|Adds a media object that already exists in the database to a MediaSet of a record.|
 |[MEDIAID Method (MediaSet)](methods/devenv-MEDIAID-method-mediaset.md)|Gets the unique identifier (GUID) that is assigned to the media set on a record.|
 |[COUNT Method (MediaSet)](methods/devenv-COUNT-method-mediaset.md)|Gets the total number of media objects that are included in the media set on a record.|  
 
