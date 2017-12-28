@@ -27,3 +27,4 @@ After the installation is done, to use the AL Language extension, follow these s
 
 ## See Also  
 [Custom Option](../custom-option.md)  
+[Differences in the Development Environments](devenv-differences.md)
