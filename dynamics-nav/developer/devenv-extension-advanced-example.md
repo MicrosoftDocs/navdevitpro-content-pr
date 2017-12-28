@@ -13,7 +13,7 @@ ms.author: SusanneWindfeldPedersen
 ---
 
 # Building an Advanced Sample Extension
-With Extensions V2.0, it is required to submit tests with your extension in order to pass validation. This walkthrough builds an advanced sample extension which is used as the foundation for writing a test which you can read about in the [Testing the Advanced Sample Extension](devenv-extension-advanced-example-test.md) topic. If you are new to building extensions, we suggest that you get familiar with [Building your first sample extension that uses new objects and extension objects](devenv-extension-example.md). 
+It is required to submit tests with your extension in order to pass validation. This walkthrough builds an advanced sample extension which is used as the foundation for writing a test which you can read about in the [Testing the Advanced Sample Extension](devenv-extension-advanced-example-test.md) topic. If you are new to building extensions, we suggest that you get familiar with [Building your first sample extension that uses new objects and extension objects](devenv-extension-example.md). 
 
 For information about submitting your app to AppSource, see [Checklist for Submitting Your App](devenv-checklist-submission.md).
 
