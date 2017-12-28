@@ -19,7 +19,7 @@ For information about submitting your app to AppSource, see [Checklist for Submi
 
 This walkthrough will guide you through all the steps that you must follow to create the sample extension in AL. The final result can be published, installed, and tested on your tenants. After you have built your extension, you must write the test for it.
 
-## About This Walkthrough
+## About this walkthrough
 This walkthrough illustrates the following tasks:
 
 - Setting up a sandbox environment.
