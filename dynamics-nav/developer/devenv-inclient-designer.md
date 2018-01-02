@@ -27,6 +27,7 @@ Here is a quick overview of the [!INCLUDE[d365fin_long_md](includes/d365fin_long
 |Move components                    |fields, columns, cues, and parts |
 |Remove components                  |fields, columns, cues, and parts |
 |Set freeze pane and clear freeze pane |columns                       |
+|Adjust column width |columns                       |
 |Edit caption                       |fasttab, cards, factbox          |
 |Save extension/download code       |general                          |
 |Preview design                     |general                          |
