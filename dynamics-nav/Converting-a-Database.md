@@ -154,6 +154,16 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
 
     You can find all objects which did not compile in the **Object Designer** window, by setting a field filter on the **Compiled** field.  
 
+10. Recompile published extensions.
+
+    Use the [Repair-NAVApp cmdlet][https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/repair-navappSynchronize] of the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Administration Shell to compile the published extensions to make sure they are work with the new platform.
+
+    For example, you can run the following command to recompile all extensions:
+
+    ```
+    Get-NAVAppInfo -ServerInstance <ServerInstanceName> | Repair-NAVApp
+    ```   
+
 10.  Run the schema synchronization with validation to complete the database conversion.  
 
         For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  

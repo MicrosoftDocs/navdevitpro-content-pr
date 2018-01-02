@@ -203,14 +203,23 @@ For more information, see [How to: Connect a Microsoft Dynamics NAV Server Insta
     -   Table 829 DO Payment Trans. Log Entry
     -   Table 1510 Notification Template
 
-    When you delete a table object, in the **Delete** confirmation dialog box, set the **Synchronize Schema** option to **Force**. **Important** At this point, it is very important that you do not use the **Sync. Schema For All Tables** option from the **Tools** menu.  
+    When you delete a table object, in the **Delete** confirmation dialog box, set the **Synchronize Schema** option to **Force**. **Important** At this point, it is very important that you do not use the **Sync. Schema For All Tables** option from the **Tools** menu. 
 
-##  <a name="RunSync1"></a> Task 12: Run the schema synchronization on the imported objects  
-Synchronize the database schema with valididation. You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
+##  <a name="RunSync1"></a> Task 12: Recompile published extensions  
+Use the [Repair-NAVApp cmdlet][https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/repair-navappSynchronize] of the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Administration Shell to compile the published extensions to make sure they are work with the new platform and application.
 
-For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
+For example, you can run the following command to recompile all extensions:
 
-##  <a name="RunStartNavUpgrade"></a> Task 13: Run the data upgrade process  
+```
+Get-NAVAppInfo -ServerInstance <ServerInstanceName> | Repair-NAVApp
+```   
+
+##  <a name="RunSync1"></a> Task 13: Run the schema synchronization on the imported objects  
+Synchronize the database schema with validation. You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
+
+For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).
+
+##  <a name="RunStartNavUpgrade"></a> Task 14: Run the data upgrade process  
 A data upgrade runs the upgrade toolkit objects, such as upgrade codeunits and upgrade tables, to migrate business data from the old table structure to the new table structure. You can start the data upgrade from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
 
 > [!NOTE]  
@@ -236,12 +245,12 @@ To view the progress of the data upgrade, you can run Get-NavDataUpgrade cmdlet 
 
 The data upgrade process runs `CheckPreconditions` and `Upgrade` functions in the upgrade codeunits. If any of the preconditions are not met or an upgrade function fails, you must correct the error and resume the data upgrade process. If CheckPreconditions and Upgrade functions are executed successfully, codeunit 2 is automatically run to initialize all companies in the database unless you set the `-SkipCompanyIntitialization` parameter.  
 
-##  <a name="DeleteUpgCodeunits"></a> Task 14: Delete the upgrade objects  
+##  <a name="DeleteUpgCodeunits"></a> Task 15: Delete the upgrade objects  
 At this point, you have upgraded the database to [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. Now, you can delete the upgrade codeunits and upgrade table objects that you imported in task 8.  
 
 When you delete tables, on the **Delete** dialog box, set the **Synchronize Schema** option to **Force**.  
 
-##  <a name="ImportPerms"></a> Task 15: Import upgraded permission sets and permissions by using the Roles and Permissions XMLports  
+##  <a name="ImportPerms"></a> Task 16: Import upgraded permission sets and permissions by using the Roles and Permissions XMLports  
 You import the permission sets and permissions XML files.
 
 1.  Delete all permission sets in the database except the SUPER permission set.  
@@ -252,10 +261,10 @@ You import the permission sets and permissions XML files.
 
     For more information, see [How to: Export and Import Permission Sets and Permissions](how-to--import-export-permission-sets-permissions.md#ImportPerms).
 
-##  <a name="SetLang"></a> Task 16: Set the language of the customer database  
+##  <a name="SetLang"></a> Task 17: Set the language of the customer database  
  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], choose **Tools**, choose **Language**, and then select the language of the original customer database.  
 
-##  <a name="AddControlAddins"></a> Task 17: Register client control add-ins  
+##  <a name="AddControlAddins"></a> Task 18: Register client control add-ins  
  The database is now fully upgraded and is ready for use. However, [!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes the following client control add-ins.
 -   Microsoft.Dynamics.Nav.Client.BusinessChart  
 -   Microsoft.Dynamics.Nav.Client.DynamicsOnlineConnect
@@ -271,7 +280,7 @@ You import the permission sets and permissions XML files.
 To use these add-ins, they must be registered in table **2000000069 Client Add-in**. Depending on the version that you upgraded from, all the add-ins might not be registered after the upgrade process. You can register missing control add-ins in the **Control Add-ins** page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The assemblies (.dlls) for these add-ins are located in subfolders to the **Add-ins** folder of the Dynamics NAV Server installation, which by default is  [!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Service\Add-ins. For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
 
 
-##  <a name="AddExtensions"></a> Task 18: Publish and install/upgrade extensions
+##  <a name="AddExtensions"></a> Task 19: Publish and install/upgrade extensions
 [!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes a number of extensions that you publish and install as part of the upgrade process. To enable these extensions, it is important that you follow the steps below.
 
 1. Download the [platform symbols](https://go.microsoft.com/fwlink/?linkid=864045), the [test symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Test_11.0.19680.0.app), and the [application symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Application_11.0.19738.0.app).
@@ -373,7 +382,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         Install-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N> 
         ```
 
-## Task 19: Update the Dynamics NAV Web client configuration file (navsettings.json)
+## Task 20: Update the Dynamics NAV Web client configuration file (navsettings.json)
 If you have installed the [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)], populate the navsettings.json file for the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance with the settings of the old web.config file.
 
 For more information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the NavSettings.json File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md).  
