@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 0ba68a20-d83a-4e4c-9938-dac7fa8f5461
 caps.latest.revision: 35
 manager: edupont
@@ -84,7 +84,7 @@ In the `layout` section, you can use the following methods to place and move fie
 |```moveafter(AddressDetails)``` |Fields and groups|
 |```movebefore(AddressDetails)```|Fields and groups|
 
-If you want to modify existing fields and groups on a page, you use the `modify` function. See the code example below for syntax.
+If you want to modify existing fields and groups on a page, you use the `modify` method. See the code example below for syntax.
 
 <!--
 ### Page controls  

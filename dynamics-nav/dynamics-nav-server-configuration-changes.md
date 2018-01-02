@@ -3,7 +3,7 @@ title: "Changes to Microsoft Dynamics NAV Server instance configuration"
 ms.date: 08/24/2017
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
 # Changes to Microsoft Dynamics NAV Server Instance Configuration
