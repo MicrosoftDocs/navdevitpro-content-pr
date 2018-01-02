@@ -2,7 +2,7 @@
 title: "Capacity Property"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 12/18/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -29,5 +29,7 @@ The maximum number of characters that can be contained in the memory allocated b
 &emsp;Type: [Integer](../datatypes/devenv-integer-data-type.md)  
   
 ## See Also
+[TextBuilder](textbuilder-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

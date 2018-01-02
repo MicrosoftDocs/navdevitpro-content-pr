@@ -351,7 +351,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance that the database connects to. Replace `<TenantID>` with the tenant ID of the database. If you do not have a multitenant server instance, use `default`.
         
         V2 extensions are indicated by `Extension Type : ModernDev`.
-    2. For each Extension V2 that you want to upgrade, run this commands:
+    2. For each Extension V2 that you want to upgrade, run these commands:
 
         ```
         Sync-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N>

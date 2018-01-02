@@ -169,6 +169,8 @@
 ### [User Scenario Documentation](compliance/apptest-userscenario.md)
 ### [Restrictions on UI for Objects Exposed as Web Services](compliance/apptest-webservices.md)
 ### [Replacing OnBeforeCompanyOpen and OnAfterCompanyOpen](compliance/apptest-onbeforecompanyopen.md)
+### [Building an Advanced Sample Extension](developer/devenv-extension-advanced-example.md)
+### [Testing the Advanced Sample Extension](developer/devenv-extension-advanced-example-test.md)
 <!-- end AL -->
 
 # [Integrating Dynamics NAV and Microsoft Office](Integrating Dynamics NAV and Office.md)
@@ -278,11 +280,14 @@
 # [Upgrading to Microsoft Dynamics NAV 2018](Upgrading-to-Microsoft-Dynamics-NAV.md)
 ## [Upgrade Considerations](Upgrade-Considerations.md)
 ### [Deprecated Fields, and Fields Marked as Obsolete](deprecated-fields.md)
+### [Deprecated Features in the Austrian Version](deprecated-features-at.md)
 ### [Deprecated Features in the Dutch Version](deprecated-features-nl.md)
 ### [Deprecated Features in the Finnish Version](deprecated-features-fi.md)
+### [Deprecated Features in the German Version](deprecated-features-de.md)
 ### [Deprecated Features in the Italian Version](deprecated-features-it.md)
 ### [Deprecated Features in the Norwegian Version](deprecated-features-no.md)
 ### [Deprecated Features in the Swedish Version](deprecated-features-se.md)
+### [Deprecated Features in the Swiss Version](deprecated-features-ch.md)
 ### [Deprecated Features in the UK Version](deprecated-features-uk.md)
 ## [Converting a Database](Converting-a-Database.md)
 ## [Upgrading the Application Code](Upgrading-the-Application-Code.md)
