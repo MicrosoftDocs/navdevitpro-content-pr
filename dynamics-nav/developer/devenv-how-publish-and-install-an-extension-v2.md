@@ -17,7 +17,7 @@ caps.latest.revision: 18
 # How to: Publish and Install an Extension v2.0
 To make your extension available to users, the package must be published to a specific Microsoft Dynamics NAV Server instance. The extension can be installed for one or more tenants.  
 
-### To publish or remove an extension  
+## To publish or remove an extension  
 
 1.  In the Microsoft Dynamics NAV 2017 Administration Shell, use the `Publish-NAVApp` cmdlet. The cmdlet takes as parameters the server you want to install to and the .app package file that contains the extension. The following example publishes the extension MyExtension to the YourDynamicsNAVServer instance.  
 
@@ -37,7 +37,7 @@ To make your extension available to users, the package must be published to a sp
 
  Once an app has been published, it must be made available for any tenant that wishes to use it.  
 
-### To install and uninstall an extension using PowerShell  
+## To install and uninstall an extension using PowerShell  
 
 -   In the Microsoft Dynamics NAV 2017 Administration Shell, use the `Install-NAVApp` cmdlet. The following example installs the MyExtension for Tenant1 and Tenant3. In single-tenant deployments, you either specify default as the tenant ID, or you omit the *–Tenant* parameter.  
 
@@ -54,7 +54,7 @@ To make your extension available to users, the package must be published to a sp
     > [!NOTE]  
     >  When you uninstall an extension that includes tables and fields, this impacts the database schema and any data that the tables and fields contain.
 
-### To synchronize schemas
+## To synchronize schemas
 Before you install the extension, you must run the `Sync-NavApp` cmdlet. The `Sync-NavApp` synchronizes the schema of a tenant database to a V2 extension before installation; it adds the tables from the extension to the tenant.
 
     ```
@@ -81,7 +81,7 @@ This example upgrades the app at the specified path for the tenant with the ID *
     Start-NAVAppDataUpgrade -ServerInstance DynamicsNAV -Path '.\Proseware SmartApp.navx' -Tenant 'Tenant1'
     ```
 
-### To install an extension in the client  
+## To install an extension in the client  
 
 1.  In [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], choose the icon, enter **Extension Management**, and then choose the related link.
 In the **Extension Management** window, you can view the extensions that are published to your server. For each extension, you can see the current installation status.  
@@ -90,7 +90,7 @@ In the **Extension Management** window, you can view the extensions that are pub
 4.  Choose the **Install** button to install the extension.      
 5.  To uninstall an extension, choose the **Uninstall** action.  
     
-### To uninstall an extension in the client
+## To uninstall an extension in the client
 
 1. In the **Extension Management** window, choose an extension that you want to uninstall.
 2. Choose the **Uninstall** button to uninstall the extension.
