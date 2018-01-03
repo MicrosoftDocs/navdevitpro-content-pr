@@ -21,8 +21,8 @@ When you create a new report for [!INCLUDE[d365fin_long_md](includes/d365fin_lon
 
 ## Creating an RDL layout report
 
->[!NOTE]
->To facilitate testing your report layout, the following example extends the Customer List page with a trigger that runs the report as soon as the Customer List page is opened.
+> [!NOTE]
+> To facilitate testing your report layout, the following example extends the Customer List page with a trigger that runs the report as soon as the Customer List page is opened.
 
 1. Create a new extension to the Customer List page that contains code to run the report, as well as a simple report object by adding the following lines of code:
 
