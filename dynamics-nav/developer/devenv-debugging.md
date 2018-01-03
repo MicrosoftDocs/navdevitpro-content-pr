@@ -33,7 +33,7 @@ For the preview, there are a number of limitations to be aware of:
 ## Breakpoints  
 The basic concept in debugging is the *breakpoint*, which is a mark that you set on a statement. When the program flow reaches the breakpoint, the debugger stops execution until you instruct it to continue. Without any breakpoints, the code runs without interruption when the debugger is active. Set a breakpoint by using the Debug Menu in Visual Studio Code. 
 
-## Debugging Shortcuts
+## Debugging shortcuts
 
 |Keystroke    |Action         |
 |-------------|---------------|
