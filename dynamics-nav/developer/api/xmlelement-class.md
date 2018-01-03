@@ -2,7 +2,7 @@
 title: "XmlElement Class"
 ms.author: solsen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 12/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -20,9 +20,9 @@ author: SusanneWindfeldPedersen
 Represents an element.
 
 > [!NOTE]
-> For performance reasons all HTTP, JSON, TextBuilder, and XML types are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+> For performance reasons all [HTTP, JSON, TextBuilder, and XML types](../devenv-restapi-overview.md) are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
 
-The following methods are available on the XmlElement class.  
+The following methods are available on the XmlElement class. 
   
 |Method name|Description|  
 |-----------|-----------|  
@@ -71,7 +71,21 @@ The following methods are available on the XmlElement class.
 |[XmlElement.GetDescendantElements()](xmlelement-getdescendantelements--method.md)|Gets a list containing the descendant elements for this element, in document order.|  
 |[XmlElement.GetDescendantElements(String)](xmlelement-getdescendantelements-name-method.md)|Gets a list containing the descendant elements for this element, in document order.|  
 |[XmlElement.GetDescendantElements(String, String)](xmlelement-getdescendantelements-localname-namespaceuri-method.md)|Gets a list containing the descendant elements for this element, in document order.|  
+
 ## See Also
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
+[XmlAttribute](xmlattribute-class.md)  
+[XmlAttributeCollection](xmlattributecollection-class.md)  
+[XmlCData](xmlcdata-class.md)  
+[XmlComment](xmlcomment-class.md)  
+[XmlDeclaration](xmldeclaration-class.md)  
+[XmlDocument](xmldocument-class.md)  
+[XmlDocumentType](xmldocument-class.md)  
+[XmlNamespaceManager](xmlnamespacemanager-class.md)  
+[XmlNameTable](xmlnametable-class.md)  
+[XmlNode](xmlnode-class.md)  
+[XmlNodeList](xmlnodelist-class.md)  
+[XmlProcessingInstruction](xmlprocessinginstruction-class.md)  
+[XmlText](xmltext-class.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
-[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  

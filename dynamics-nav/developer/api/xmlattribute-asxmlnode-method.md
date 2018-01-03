@@ -23,8 +23,11 @@ XmlNode := XmlAttribute.AsXmlNode()
 ```  
 ## Return Value
 *XmlNode*  
-&emsp;Type: XmlNode  
+&emsp;Type: [XmlNode](xmlnode-class.md)
   
 ## See Also
+[XmlAttribute](xmlattribute-class.md)  
+[XmlNode](xmlnode-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

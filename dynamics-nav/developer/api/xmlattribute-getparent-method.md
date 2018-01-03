@@ -2,7 +2,7 @@
 title: "GetParent Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 12/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,7 +23,7 @@ Gets the parent XmlElement of this node.
 ```  
 ## Parameters
 *Parent*    
-&emsp;Type: XmlElement  
+&emsp;Type: [XmlElement](xmlelement-class.md)
 The parent XmlElement of this node.  
   
 ## Return Value
@@ -33,5 +33,8 @@ The parent XmlElement of this node.
 If you omit this optional return value and the operation does not execute successfully, a run-time error will occur.  
   
 ## See Also
+[XmlAttribute](xmlattribute-class.md)
+[XmlElement](xmlelement-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

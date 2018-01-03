@@ -2,7 +2,7 @@
 title: "SetAttribute Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 12/22/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -35,5 +35,7 @@ The namespace URI of the attribute to set.
 The value to set for the attribute.  
   
 ## See Also
+[XmlElement](xmlelement-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

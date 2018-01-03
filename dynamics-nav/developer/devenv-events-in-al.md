@@ -39,14 +39,14 @@ You can use events to design the application to react to specific actions or beh
   
 -   A *subscriber* listens for and handles a published event. A subscriber is an AL method that subscribes to a specific event publisher method and includes the logic for handling the event. When an event is raised, the subscriber method is called and its code is run. A subscriber enables partners to hook into the core application functionality without having to do traditional code modifications. Any [!INCLUDE[d365fin_long_md](includes/navnow_md.md)] solution provider, which also includes Microsoft, can use event subscribers.  
   
- There can by multiple subscribers to a single event publisher function. However, a publisher has no knowledge of subscribers, if any. Subscribers can reside in different parts of the application than publishers.  
+ There can by multiple subscribers to a single event publisher method. However, a publisher has no knowledge of subscribers, if any. Subscribers can reside in different parts of the application than publishers.  
   
 ## How to implement events  
  Implementing events consists of the following tasks:  
   
 1.  Publish the event.  
   
-     For business and integration events, create and configure a function in an application object to be an event publisher method. For more information, see [Publishing Events](devenv-publishing-events.md). This is not required for trigger events because these are automatically published by the system. 
+     For business and integration events, create and configure a method in an application object to be an event publisher method. For more information, see [Publishing Events](devenv-publishing-events.md). This is not required for trigger events because these are automatically published by the system. 
   
 2.  Raise the event.  
   

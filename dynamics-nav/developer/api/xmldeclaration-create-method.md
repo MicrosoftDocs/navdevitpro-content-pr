@@ -2,7 +2,7 @@
 title: "Create Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 12/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -36,8 +36,10 @@ A string containing "yes" or "no" that specifies whether the XML is standalone o
   
 ## Return Value
 *XmlDeclaration*  
-&emsp;Type: XmlDeclaration  
+&emsp;Type: [XmlDeclaration](xmldeclaration-class.md)  
   
 ## See Also
+[XmlDeclaration](xmldeclaration-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  
