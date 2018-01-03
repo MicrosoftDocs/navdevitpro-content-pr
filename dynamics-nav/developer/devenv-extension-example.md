@@ -14,7 +14,7 @@ ms.prod: "dynamics-nav-2018"
 # Building Your First Sample Extension With Extension Objects, Install Code, and Upgrade Code
 This walkthrough will guide you through all the steps that you must follow to create a sample extension in AL. New objects and extension objects will be added to the base application for a simple reward feature for customers. Every section of this exercise includes code that serves for installing, customizing, or upgrading this sample extension. The final result can be published and installed on your tenants.
 
-## About This Walkthrough
+## About this walkthrough
 This walkthrough illustrates the following tasks:
 
 - Setting up a sandbox environment.
