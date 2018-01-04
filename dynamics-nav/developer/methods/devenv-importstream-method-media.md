@@ -19,7 +19,7 @@ Adds a media type \(MIME\), such as jpeg image, from an InStream object to a **M
 ## Syntax  
 
 ```  
-[Guid := ]Record.MediaField.IMPORTSTREAM(InStream, Description[, MimeType])  
+[Guid := ]Record.MediaField.IMPORTSTREAM(InStream, Description[, MimeType][, FileName])  
 ```  
 
 #### Parameters  
@@ -47,6 +47,11 @@ Type: Media
  Type: Text  
 
 [!INCLUDE[mimetype](../includes/mimetype_md.md)]
+
+ *FileName*  
+ Type: Text  
+
+Specifies a name for the media. 
 
 ## Property Value/Return Value  
  Type: GUID  

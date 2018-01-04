@@ -46,15 +46,24 @@ A media set is an ordered list of media objects, determined by the order in whic
 > If a **MediaSet** data type field is used in a report object, then only the first associated media file is displayed in the generated report.
 
 ###  <a name="SupportedMediaTypes"></a> Supported Media Types  
-The media type, sometimes referred to as the MIME type, is an Internet standard to describe the contents of a file. Internet browsers use the media types to determine how to handle the file. There are several media types, such as image, audio, and video. Currently, [!INCLUDE[navnow](includes/navnow_md.md)] only supports image types. More specifically, you can only use image types that are supported by the System.Drawing.Image class of the .NET Framework, which include:
--   BMP
--   EMF
--   EXIF
--   GIF
--   JPEG
--   PNG
--   TIFF
--   WMF
+The product supports most all media types. The media type, also referred to as the MIME (Multipurpose Internet Mail Extensions) type, is an Internet standard to describe the contents of a file. Internet browsers use the MIME type to determine how to handle the file. 
+
+A MIME type is defined by two parts, the *type* and *subtype*, where the format is `type/subtype`. For example, the MIME type for a JPEG image is image/jpeg. There are several types, including image, application, audio, video, text, and more. Each MIME type is associated with one or more acceptable file extensions. The following table lists some of the more common MIME types and their file extensions. 
+
+|  MIME type  |  File extension  |
+|------------|--------------|
+|image/bmp|bmp|
+|image/jpeg|jpeg, jpg, jpe|
+|image/gif|gif|
+|application/msword|doc|
+|application/vnd.ms-excel|xls|
+|application/pdf|pdf|
+|audio/mpeg |mp3 |
+|audio/x-wav |wav |
+|video/mp4  |mp4|
+|video/x-msvideo|avi|
+|text/html  |htm, html |
+|text/plain   |txt |
 
 >[!Note]
 >GIF type is not supported on reports. If you want to display an image on a report, use another supported type.
