@@ -49,8 +49,11 @@ It is **very** important that you compile the database to get the right result i
 |--extensionStartId |The starting numeric ID of the extension objects (Default: 70000000). It will be incremented by 1 for each extension object.|
 |--help |Show help screen.|
 
-> [!NOTE] 
+> [!NOTE]   
 > It is recommended to only use the conversion tool for export. Importing objects that have been exported can damage your application.
+
+> [!TIP]  
+> You can use the Dynamics NAV Development Shell cmdlet `Export-NAVApplicationObject` with the `-ExportToNewSyntax` flag set instead of using finsql. From the command prompt in the Dynamics NAV Development Shell, run `Get-Help Export-NAVApplicationObject -full` to see the full syntax.
 
 ## See Also
 [Developing Extensions](devenv-dev-overview.md)  
