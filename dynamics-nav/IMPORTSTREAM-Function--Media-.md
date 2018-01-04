@@ -45,10 +45,10 @@ Type: Media
 
 [!INCLUDE[mimetype](includes/mimetype_md.md)]
 
- *FileName*  
+*FileName*  
  Type: Text  
 
-Specifies a name for the media. 
+Assigns a name to the media. You can use this parameter to give the media a user-friendly name to which you can code against. The text is stored in the **File Name** column of the **2000000184 Tenant Media** table.
 
 ## Property Value/Return Value  
  Type: GUID  
@@ -116,7 +116,7 @@ BEGIN
     IF FILE.EXISTS(fileName) THEN BEGIN  
         importFile.OPEN(fileName);  
         importFile.CREATEINSTREAM(imageInstream);  
-        imageID := myItemRec.Image.IMPORTSTREAM(imageInstream, 'Demo image for item ' + FORMAT( myItemRec."No."));  
+        imageID := myItemRec.Image.IMPORTSTREAM(imageInstream, 'Demo image for item ' + FORMAT( myItemRec."No."), '', fileName);  
         myItemRec.MODIFY;  
         MESSAGE(Text000, myItemRec."No.", imageID);  
         importFile.CLOSE;
