@@ -94,11 +94,12 @@ The following table provides an overview of the C/AL functions that are related 
 
 **Media data type**
 
-|  Function  |  Description  |  
-|------------|- -------------|
-|[IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md)|Adds  media from a file to a record. The imported media object is stored in the application database.|  
-|[IMPORTSTREAM Function \(Media\)](IMPORTSTREAM-Function--Media-.md)|Adds a media from an InStream object to a record. The imported media object is stored in the application database.|  
-|[HASVALUE Function \(Media\)](HASVALUE-Function--Media-.md)|Detects whether a record has a media object in the **Media** data type field.|  
+
+|  Function  |  Description  |
+|------------|--------------|
+|[IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md)|Adds  media from a file to a record. The imported media object is stored in the application database.|
+|[IMPORTSTREAM Function \(Media\)](IMPORTSTREAM-Function--Media-.md)|Adds a media from an InStream object to a record. The imported media object is stored in the application database.|
+|[HASVALUE Function \(Media\)](HASVALUE-Function--Media-.md)|Detects whether a record has a media object in the **Media** data type field.|
 |[MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md)|Gets the unique identifier \(GUID\) that is assigned to the media object in the application database.|  
 |[EXPORTFILE Function \(Media\)](EXPORTFILE-Function--Media-.md)|Exports a media object from a record to a file.|  
 |[EXPORTSTREAM Function \(Media\)](EXPORTSTREAM-Function--Media-.md)|Exports a media object from a record to an OutStream object.|  
@@ -106,7 +107,7 @@ The following table provides an overview of the C/AL functions that are related 
 **MediaSet data type**
 
 |  Function  |  Description  |  
-|------------|- -------------|
+|------------|--------------|
 |[EXPORTFILE Function \(MediaSet\)](EXPORTFILE-Function-MediaSet.md)|Exports the media objects that included in a media set to individual files.|  
 |[IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)|Adds media from a file to a record, and assigns the imported media object to a media set. The media object is stored in the application database.|  
 |[IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)|Adds media from an InStream object to a record. The imported media object is stored in the application database.|  
