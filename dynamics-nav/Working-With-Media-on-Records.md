@@ -26,7 +26,7 @@ This topic describes how you can upload media, such as an image, Word document, 
     -   Display media in a report.
 
 Using the Media or MediaSet data type provides better performance than using a BLOB data type and is more flexible in its design. With a BLOB data type, each time the media is rendered in the client, it is retrieved from the SQL database server, which requires extra bandwidth and affects performance. With the Media and MediaSet data types, the client uses media ID to cache the media data, which in turn improves the response time for rendering the media in the user interface.  
-# Using Media and Media Sets on Records  
+## Using Media and Media Sets on Records  
 Table fields support two data types for adding media to records: **Media** and **MediaSet**. With these data types, you can import media directly from a file to a record, or media can be passed to the record in an InStream object. Imported media is stored as an object in the system table **2000000184 Tenant Media** of the application database. Each media object is assigned a unique identifier \(ID\).
 
 ## Media data type
