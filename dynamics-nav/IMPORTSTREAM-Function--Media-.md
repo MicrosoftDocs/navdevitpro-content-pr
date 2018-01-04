@@ -1,14 +1,14 @@
 ---
 title: "IMPORTSTREAM Function (Media)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 04/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
 ms.prod: "dynamics-nav-2018"
-manager: edupont
+author: jswymer
 ---
 # IMPORTSTREAM Function (Media)
 Adds a media type \(MIME\), such as jpeg image, from an InStream object to a **Media** data type field of a record for displaying the media in the client. The media file is imported to the application database and a reference to the media is included in the **Media** data type field.  
