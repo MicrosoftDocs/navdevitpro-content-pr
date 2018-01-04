@@ -70,6 +70,8 @@ A MIME type is defined by two parts, the *type* and *subtype*, where the format 
 
 > [!NOTE]  
 > GIF type is not supported on reports. If you want to display an image on a report, use another supported type.
+>
+> Files with extensions that are not recognized are also supported and can be imported. These are stored as BLOBs (binary larger objects).
 
 ### General procedure for adding Media to Records  
 The general procedure for setting up media on records is as follows:  
