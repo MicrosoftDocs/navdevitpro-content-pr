@@ -12,7 +12,7 @@ author: jswymer
 ---
 # Changes in C/AL Behavior and Support [!INCLUDE[navtenerife_md](includes/navtenerife_md.md)]
 
-**Applies to:** [!INCLUDE[navtenerife_md](includes/navtenerife_md.md)].[See [!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV-2018.md). [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV-2017.md).
+**Applies to:** [!INCLUDE[navtenerife_md](includes/navtenerife_md.md)]. [See [!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV-2018.md). [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV-2017.md).
 
 The following tables provide an overview of the new, removed, or changed C/AL data types, functions, properties, and triggers in [!INCLUDE[navtenerife_md](includes/navtenerife_md.md)] since [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. For more information about the changes, see the specific topic about the data type, function, property, or trigger.  
 
@@ -32,7 +32,7 @@ The following tables provide an overview of the new, removed, or changed C/AL da
 The following table lists the changes functions.  
 |Function|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
-|None||
+|[IMPORTSTREAM (MEDIA) Function](IMPORTSTREAM-Function--Media-.md)|`-FileName` parameter added.|
 
 ## C/AL Properties  
 ### New properties
