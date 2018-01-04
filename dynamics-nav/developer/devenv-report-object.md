@@ -3,7 +3,7 @@ title: "Report Object"
 description: "Description of the report object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 01/03/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -222,7 +222,8 @@ report 70010101 "Customer List"
 ```
 
 ## See Also
-[How to: Create a Report](devenv-howto-report-layout.md)  
+[How to: Create an RDL Layout Report](devenv-howto-rdl-report-layout.md)  
+[How to: Create a Word Layout Report](devenv-howto-report-layout.md)  
 [Page Extension Object](devenv-page-ext-object.md)   
 [Page Properties](properties/devenv-page-property-overview.md)  
 [Developing Extensions](devenv-dev-overview.md)  

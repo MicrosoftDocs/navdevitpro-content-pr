@@ -18,7 +18,7 @@ To use a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-in on a
   
 1.  Locate the sn.exe file.  
   
-     The default folder for the Microsoft .NET Framework SDK is C:\\Program Files\\Microsoft SDKs\\Windows\\v7.0\\Bin.  
+     The location will depend on your operating system and the installed Microsoft .NET Framework SDK. For example, *C:\\Program Files\\Microsoft SDKs\\Windows\\v7.0\\Bin* or *C:\\Utils\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools\\x64*.  
   
 2.  At the command prompt, change to the directory that contains the sn.exe utility.  
   
