@@ -2,7 +2,7 @@
 title: "Create Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 12/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -36,8 +36,10 @@ The content to add to the element to create.
   
 ## Return Value
 *XmlElement*  
-&emsp;Type: XmlElement  
+&emsp;Type: [XmlElement](xmlelement-class.md)  
   
 ## See Also
+[XmlElement](xmlelement-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
 [Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

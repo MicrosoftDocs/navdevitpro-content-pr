@@ -89,7 +89,7 @@ When you create finance charge terms and reminder terms, for delayed payment pen
 
 |Moved, Removed, or Replaced?|Why?|
 |----|----|
-|Moved| Multiple interest rates are no longer specific to the UK, so we have made them generally available in the standard product. |
+|Moved| The Multiple Interest Rates feature is no longer specific to the UK, so we have made it generally available in the standard product. |
 
 ## Objects and Fields that are deleted in [!INCLUDE[nav2018](includes/nav2018_md.md)]
 Table 10505 has been deleted. The following list shows additional fields that are deleted as a result of the features that have been removed.  
@@ -113,4 +113,4 @@ Table 10505 has been deleted. The following list shows additional fields that ar
 [Upgrading to Microsoft Dynamics NAV 2018](upgrading-to-microsoft-dynamics-nav.md)  
 [Upgrading the Application Code](upgrading-the-application-code.md)  
 [Deprecated Fields, and Fields Marked as Obsolete](deprecated-fields.md)  
-[United Kingdom Local Functionality in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](/dynamics365/financials/localfunctionality/unitedkingdom/united-kingdom-local-functionality)  
+[United Kingdom Local Functionality in [!INCLUDE[navnow](includes/navnow_md.md)]](/dynamics-nav-app/LocalFunctionality/unitedkingdom/united-kingdom-local-functionality)  

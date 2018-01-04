@@ -22,10 +22,10 @@ When you create finance charge terms and reminder terms, for delayed payment pen
 
 |Moved, Removed, or Replaced?|Why?|
 |----|----|
-|Moved| Multiple interest rates are no longer specific to the UK, so we have made them generally available in the standard product. |
+|Moved| The Multiple Interest Rates feature is no longer specific to Finland, so we have made it generally available in the standard product. |
 
 ## See Also
 [Upgrading to Microsoft Dynamics NAV 2018](upgrading-to-microsoft-dynamics-nav.md)  
 [Upgrading the Application Code](upgrading-the-application-code.md)  
 [Deprecated Fields, and Fields Marked as Obsolete](deprecated-fields.md)  
-[Finland Local Functionality in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](/dynamics365/financials/localfunctionality/finland/finland-local-functionality)  
+[Finland Local Functionality in [!INCLUDE[navnow](includes/navnow_md.md)]](/dynamics-nav-app/LocalFunctionality/Finland/finland-local-functionality)  
