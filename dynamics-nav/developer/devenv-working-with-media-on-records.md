@@ -27,53 +27,37 @@ Using the Media or MediaSet data type provides better performance than using a B
 ## Using Media and Media Sets on Records  
 Table fields support two data types for adding media to records: **Media** and **MediaSet**. With these data types, you can import media directly from a file to a record, or media can be passed to the record in an InStream object. Imported media is stored as an object in the system table **2000000184 Tenant Media** of the application database. Each media object is assigned a unique identifier \(ID\).
 
-## Media data type
+### Media data type
 The **Media** data type associates a record with a single media object. For example, you can use this data type to display an image with each record in a list type page.
 
 If a media object is added to Media data type field, the field references the media object by its ID.
 
-## MediaSet data type
+### MediaSet data type
 The **MediaSet** data type associates a record with one or more media objects. This enables you to set up a collection or catalog of media for a record. For example, you can use this data type to set up a slide show of images for a record in a card type page.
 
 If a media object is added to **MediaSet** data type field, the media object is assigned to a media set in the system table **2000000183 Tenant Media Set**. The media set is assigned a unique identifier, which is then referenced from the field. The media set is created with the first file media object that you add on the record. Any additional media objects for the record are then associated with the same media set.
 
-### <a name="Indexing"></a>Indexing of media objects in a media set
+#### <a name="Indexing"></a>Indexing of media objects in a media set
 A media set is an ordered list of media objects, determined by the order in which the media objects were added to the media set. This order cannot be changed. To identify this order, each media object is assigned an index number, starting a 1. This means that the first media added gets the index 1, the second media gets the index 2, and so on. If a media object is removed from the set, the list is re-indexed accordingly.
 
 > [!NOTE]  
 > If a **MediaSet** data type field is used in a report object, then only the first associated media file is displayed in the generated report.
 
-##  <a name="SupportedMediaTypes"></a> Supported Media (MIME) types  
-The media type, also referred to as the MIME (Multipurpose Internet Mail Extensions) type, is an Internet standard to describe the contents of a file. Internet browsers use the MIME type to determine how to handle the file. The Media and MediaSet datatypes support all recognized MIME types.
-
-A MIME type is defined by two parts, the *type* and *subtype*, where the format is `type/subtype`. For example, the MIME type for a JPEG image is image/jpeg. There are several types, including image, application, audio, video, text, and more. Each MIME type is associated with one or more acceptable file extensions. The following table lists some of the more common MIME types and their file extensions. 
-
-|  MIME type  |  File extension  |
-|------------|--------------|
-|image/bmp|bmp|
-|image/jpeg|jpeg, jpg, jpe|
-|image/gif|gif|
-|application/msword|doc|
-|application/vnd.openxmlformats-officedocument.wordprocessingml.document|docx|
-|application/vnd.ms-excel|xls|
-|application/vnd.openxmlformats-officedocument.spreadsheetml.sheet|xlsx|
-|application/vnd.ms-powerpoint|ppt|
-|application/vnd.openxmlformats-officedocument.presentationml.presentation|pptx|
-|application/pdf|pdf|
-|audio/mpeg |mp3 |
-|audio/x-wav |wav |
-|video/mp4  |mp4|
-|video/x-msvideo|avi|
-|text/html  |htm, html |
-|text/plain   |txt |
-
+###  <a name="SupportedMediaTypes"></a> Supported Media types  
+The media type, sometimes referred to as the MIME type, is an Internet standard to describe the contents of a file. Internet browsers use the media types to determine how to handle the file. There are several media types, such as image, audio, and video. Currently, only image types are supported. More specifically, you can only use image types that are supported by the System.Drawing.Image class of the .NET Framework, which include:
+-   BMP
+-   EMF
+-   EXIF
+-   GIF
+-   JPEG
+-   PNG
+-   TIFF
+-   WMF
 
 > [!NOTE]  
 > GIF type is not supported on reports. If you want to display an image on a report, use another supported type.
->
-> Files with extensions that are not recognized are also supported and can be imported. These are stored as BLOBs (binary larger objects).
 
-## General procedure for adding Media to Records  
+### General procedure for adding Media to Records  
 The general procedure for setting up media on records is as follows:  
 
 1.  Obtain the media file or files that you want to use on the record.  
@@ -86,7 +70,7 @@ The general procedure for setting up media on records is as follows:
 
     For example, you can create a codeunit that calls one of the import methods, or add a page action that calls one of the methods.  
 
-## AL methods  
+### AL methods  
 The following table provides an overview of the methods that are related to the Media and MediaSet data types.  
 
 **Media data type**
