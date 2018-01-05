@@ -1,14 +1,14 @@
 ---
 title: "IMPORTSTREAM Function (Media)"
 ms.custom: na
-ms.date: 04/01/2018
+ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
 ms.prod: "dynamics-nav-2018"
-author: jswymer
+manager: edupont
 ---
 # IMPORTSTREAM Function (Media)
 Adds a media type \(MIME\), such as jpeg image, from an InStream object to a **Media** data type field of a record for displaying the media in the client. The media file is imported to the application database and a reference to the media is included in the **Media** data type field.  
@@ -16,7 +16,7 @@ Adds a media type \(MIME\), such as jpeg image, from an InStream object to a **M
 ## Syntax  
 
 ```  
-[Guid := ]Record.MediaField.IMPORTSTREAM(InStream, Description[, MimeType][, FileName])  
+[Guid := ]Record.MediaField.IMPORTSTREAM(InStream, Description[, MimeType])  
 ```  
 
 #### Parameters  
@@ -44,11 +44,6 @@ Type: Media
  Type: Text  
 
 [!INCLUDE[mimetype](includes/mimetype_md.md)]
-
-*FileName*  
- Type: Text  
-
-Assigns a name to the media. You can use this parameter to give the media a user-friendly name to which you can code against. The text is stored in the **File Name** column of the **2000000184 Tenant Media** table.
 
 ## Property Value/Return Value  
  Type: GUID  
@@ -116,7 +111,7 @@ BEGIN
     IF FILE.EXISTS(fileName) THEN BEGIN  
         importFile.OPEN(fileName);  
         importFile.CREATEINSTREAM(imageInstream);  
-        imageID := myItemRec.Image.IMPORTSTREAM(imageInstream, 'Demo image for item ' + FORMAT( myItemRec."No."), '', fileName);  
+        imageID := myItemRec.Image.IMPORTSTREAM(imageInstream, 'Demo image for item ' + FORMAT( myItemRec."No."));  
         myItemRec.MODIFY;  
         MESSAGE(Text000, myItemRec."No.", imageID);  
         importFile.CLOSE;
