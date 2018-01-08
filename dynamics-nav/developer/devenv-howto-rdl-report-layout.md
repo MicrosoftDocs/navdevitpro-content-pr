@@ -3,7 +3,7 @@ title: "How to: Create an RDL Layout Report"
 description: "Describes the steps involved in creating a report that uses an RDL layout."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/16/2017
+ms.date: 01/03/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -21,8 +21,8 @@ When you create a new report for [!INCLUDE[d365fin_long_md](includes/d365fin_lon
 
 ## Creating an RDL layout report
 
->[!NOTE]
->To facilitate testing your report layout, the following example extends the Customer List page with a trigger that runs the report as soon as the Customer List page is opened.
+> [!NOTE]
+> To facilitate testing your report layout, the following example extends the Customer List page with a trigger that runs the report as soon as the Customer List page is opened.
 
 1. Create a new extension to the Customer List page that contains code to run the report, as well as a simple report object by adding the following lines of code:
 

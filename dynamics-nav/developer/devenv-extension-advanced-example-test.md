@@ -22,10 +22,10 @@ For information about submitting your app to AppSource, see [Checklist for Submi
 ### Identifying the areas of the extension that need to be tested 
 Before writing tests for your extension, you need to identify all the areas of the extension that need to be tested.  
 
-- Ensure that your tests cover all the setup and usage scenario steps found in the [user scenario](devenv-extension-advanced-example.md) document. This includes Assisted Setup, pages, fields, actions, events, and other controls and objects used by your extension.  
+- Ensure that your tests cover all the **setup and usage scenario** steps found in the [user scenario](devenv-extension-advanced-example.md) document. This includes Assisted Setup, pages, fields, actions, events, and other controls and objects used by your extension.  
 - The CRONUS demo company will be used. If your app requires setup within the core product or any additional data, remember to include that in your tests. 
-- As part of your tests, remember to include tests that verify that the extension works as expected for a user that does not have SUPER permissions.  
-- Your tests should not make any requests to an external service. Mock your external calls to prevent this from happening. 
+- As part of your tests, remember to include tests that verify that the extension works as expected for **a user that does not have SUPER permissions**.  
+- Your tests **should not make any requests to an external service**. Mock your external calls to prevent this from happening. 
 
 In the sample test we will consider the following: 
 
@@ -46,11 +46,53 @@ In the sample test we will consider the following:
 - Each test will also verify that the extension works for a user that does not have SUPER permissions. 
 
 ### Writing the tests 
-Before we begin writing the tests for the extension, we need to import symbols for the Test framework that our extension will need. We do this by adding a test setting to the `app.json` file with the minimum supported value, for example: 
+We will first create a new project (CustomerRewardsTest) for the tests. You are required to separate the extension and the tests into separate projects.  
 
-``` 
-"test" : "11.0.0.0". 
+Before we can start writing the tests for the extension, we need to do the following: 
+
++ Specify the dependencies between the extension (CustomerRewards) and the test (CustomerRewardsTest) projects.  
+Our CustomerRewardsTest project will be referencing objects from the CustomerRewards project and so we will need to specify this in the `dependencies` setting in the CustomerRewardsTest project's app.json file. The `dependencies` setting takes a list of dependencies, where each dependency specifies the `appId`, `name`, `publisher`, and `version` of the base project/package that the current project/package will depend on.  
+
+ ```
+  "dependencies": [ 
+
+    { 
+
+      "appId": "c228bdcf-7112-480b-a832-da81971b6feb", 
+
+      "name": "CustomerRewards", 
+
+      "publisher": "Microsoft", 
+
+      "version": "1.0.0.0" 
+
+    } 
+
+  ] 
 ```
+ 
+
+For more information, see [JSON Files](devenv-json-files.md). 
+
+After setting the `dependencies` value, you will be prompted to download the symbols from the base project/package if they are not present.  
+
+
++ Import symbols for the Test framework.  
+We do this by adding a `test` setting to the app.json file with the minimum supported value, for example: "test" : "11.0.0.0". 
+
+```
+Machine generated alternative text:
+•screenshots": 
+"platform": "Il.e.ø.e", 
+"application" : 
+"ll.e.ø.e", 
+" "ll.ø.e.e" 
+test : 
+"idRange": { 
+"from": 581ee, 
+"to": se149 
+```
+
 If the test symbol is not present, you will be prompted to download it. For more information, see [Symbols](devenv-symbols.md). 
 
 #### Application Test Toolkit 

@@ -2,7 +2,7 @@
 title: Upgrading the Database
 description: This article describes the tasks required for upgrading from the earlier versions of database to the Microsoft Dynamics NAV 2018.
 ms.custom: na
-ms.date: 10/17/2017
+ms.date: 03/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -120,7 +120,7 @@ You can also use the [DeleteObjects](DeleteObjects.md) command of the finsql.exe
 ##  <a name="UninstallOldProduct"></a> Task 6: Uninstall (optional) the old product and install the new product
 Uninstall the old [!INCLUDE[navnow_md](includes/navnow_md.md)], and then install [!INCLUDE[nav2018_md](includes/nav2018_md.md)].  
 
-During installation of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you can either choose the **Install Demo** option, for which you will discard the Demo database afterwards, or choose the **Custom** option, where you then select to install the Client \(with the Development Environment\), Server, and Administration Tool components.  
+As a minimum, you must install the following [!INCLUDE[nav2018_md](includes/nav2018_md.md)] components: Client (with the Development Environment), Modern Development Environment, Administration Tools, Server, and SQL Server Components. You can install these components by choosing the **Custom** option during Setup. For more information, see [Custom Option](Custom-option.md).
 
 ## Task 7: Clear Dynamics NAV Server instance records from old database
 Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records from the **dbo.Server Instance** table in the database in SQL Server.  
@@ -203,14 +203,23 @@ For more information, see [How to: Connect a Microsoft Dynamics NAV Server Insta
     -   Table 829 DO Payment Trans. Log Entry
     -   Table 1510 Notification Template
 
-    When you delete a table object, in the **Delete** confirmation dialog box, set the **Synchronize Schema** option to **Force**. **Important** At this point, it is very important that you do not use the **Sync. Schema For All Tables** option from the **Tools** menu.  
+    When you delete a table object, in the **Delete** confirmation dialog box, set the **Synchronize Schema** option to **Force**. **Important** At this point, it is very important that you do not use the **Sync. Schema For All Tables** option from the **Tools** menu. 
 
-##  <a name="RunSync1"></a> Task 12: Run the schema synchronization on the imported objects  
-Synchronize the database schema with valididation. You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
+##  <a name="RunSync1"></a> Task 12: Recompile published extensions  
+Use the [Repair-NAVApp cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/repair-navappSynchronize) of the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Administration Shell to compile the published extensions to make sure they are work with the new platform and application.
 
-For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
+For example, you can run the following command to recompile all extensions:
 
-##  <a name="RunStartNavUpgrade"></a> Task 13: Run the data upgrade process  
+```
+Get-NAVAppInfo -ServerInstance <ServerInstanceName> | Repair-NAVApp
+```   
+
+##  <a name="RunSync1"></a> Task 13: Run the schema synchronization on the imported objects  
+Synchronize the database schema with validation. You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
+
+For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).
+
+##  <a name="RunStartNavUpgrade"></a> Task 14: Run the data upgrade process  
 A data upgrade runs the upgrade toolkit objects, such as upgrade codeunits and upgrade tables, to migrate business data from the old table structure to the new table structure. You can start the data upgrade from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
 
 > [!NOTE]  
@@ -236,12 +245,12 @@ To view the progress of the data upgrade, you can run Get-NavDataUpgrade cmdlet 
 
 The data upgrade process runs `CheckPreconditions` and `Upgrade` functions in the upgrade codeunits. If any of the preconditions are not met or an upgrade function fails, you must correct the error and resume the data upgrade process. If CheckPreconditions and Upgrade functions are executed successfully, codeunit 2 is automatically run to initialize all companies in the database unless you set the `-SkipCompanyIntitialization` parameter.  
 
-##  <a name="DeleteUpgCodeunits"></a> Task 14: Delete the upgrade objects  
+##  <a name="DeleteUpgCodeunits"></a> Task 15: Delete the upgrade objects  
 At this point, you have upgraded the database to [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. Now, you can delete the upgrade codeunits and upgrade table objects that you imported in task 8.  
 
 When you delete tables, on the **Delete** dialog box, set the **Synchronize Schema** option to **Force**.  
 
-##  <a name="ImportPerms"></a> Task 15: Import upgraded permission sets and permissions by using the Roles and Permissions XMLports  
+##  <a name="ImportPerms"></a> Task 16: Import upgraded permission sets and permissions by using the Roles and Permissions XMLports  
 You import the permission sets and permissions XML files.
 
 1.  Delete all permission sets in the database except the SUPER permission set.  
@@ -252,10 +261,10 @@ You import the permission sets and permissions XML files.
 
     For more information, see [How to: Export and Import Permission Sets and Permissions](how-to--import-export-permission-sets-permissions.md#ImportPerms).
 
-##  <a name="SetLang"></a> Task 16: Set the language of the customer database  
+##  <a name="SetLang"></a> Task 17: Set the language of the customer database  
  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], choose **Tools**, choose **Language**, and then select the language of the original customer database.  
 
-##  <a name="AddControlAddins"></a> Task 17: Register client control add-ins  
+##  <a name="AddControlAddins"></a> Task 18: Register client control add-ins  
  The database is now fully upgraded and is ready for use. However, [!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes the following client control add-ins.
 -   Microsoft.Dynamics.Nav.Client.BusinessChart  
 -   Microsoft.Dynamics.Nav.Client.DynamicsOnlineConnect
@@ -271,24 +280,20 @@ You import the permission sets and permissions XML files.
 To use these add-ins, they must be registered in table **2000000069 Client Add-in**. Depending on the version that you upgraded from, all the add-ins might not be registered after the upgrade process. You can register missing control add-ins in the **Control Add-ins** page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The assemblies (.dlls) for these add-ins are located in subfolders to the **Add-ins** folder of the Dynamics NAV Server installation, which by default is  [!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Service\Add-ins. For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
 
 
-##  <a name="AddExtensions"></a> Task 18: Publish and install/upgrade extensions
+##  <a name="AddExtensions"></a> Task 19: Publish and install/upgrade extensions
 [!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes a number of extensions that you publish and install as part of the upgrade process. To enable these extensions, it is important that you follow the steps below.
 
-1. Download the [platform symbols](https://go.microsoft.com/fwlink/?linkid=864045), the [test symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Test_11.0.19680.0.app), and the [application symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Application_11.0.19738.0.app).
-
-    Make a note of the location where you store the files.
-
-2. Publish the platform symbols, the test symbols, and the application symbols one file at a time to the Dynamics NAV server instance:
+1. Publish the platform symbols, the test symbols, and the application symbols one file at a time to the Dynamics NAV server instance:
 
     Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and run the following command for each of the symbol files:
 
     ```
     Publish-NAVApp -ServerInstance <ServerInstanceName> -Path <SymbolFilePath> -PackageType SymbolsOnly
     ```
-3. Make sure that **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup) is set on the Dynamics NAV server instance.
+2. Make sure that **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup) is set on the Dynamics NAV server instance.
 
     For more information, see [Configuring Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).
-4. Generate the application symbol references:
+3. Generate the application symbol references:
 
     Open a command prompt, change to the directory where the `finsql.exe` file has been installed as part of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], and then run the following command:
 
@@ -303,7 +308,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
     
     For more information about generation symbols, see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md).
 
-5. Publish all the extensions from the `\Extensions` folder of the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD):
+4. Publish all the extensions from the `\Extensions` folder of the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD):
 
     1. From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the following command for each extension.
 
@@ -322,7 +327,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
     For more information about publishing extensions, see [How to: Publish and Install an Extension](developer/devenv-how-publish-and-install-an-extension-v2.md).
 
-6.  Upgrade the V1 extensions that you uninstalled previously in Task 3 by reinstalling them. From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the following commands: 
+5.  Upgrade the V1 extensions that you uninstalled previously in Task 3 by reinstalling them. From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the following commands: 
 
     1. To get a list of the published extensions on the server instance, run this command:
     
@@ -340,7 +345,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         Replace `<Name>` and `<N.N.N.N>` with the name and version of the Extension V1 as it appeared in the previous step. For `<TenantID>`, in single-tenant deployments, you either specify `default`or you omit the `–Tenant` parameter.
         
         This will upgrade the V1 extensions.
-7.  Upgrade V2 extensions that are currently installed: 
+6.  Upgrade V2 extensions that are currently installed: 
 
     1. To get a list of the installed V2 extensions, run this command:
     
@@ -359,7 +364,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         ``` 
         
         This will upgrade the V2 extensions.
-8. For the Denmark (DK) local version of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you must install the following new V2 extensions in order to get all the local functionality.
+7. For the Denmark (DK) local version of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you must install the following new V2 extensions in order to get all the local functionality.
 
     |Name|Publisher|Version|
     |----|---------|-------|
@@ -373,7 +378,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         Install-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N> 
         ```
 
-## Task 19: Update the Dynamics NAV Web client configuration file (navsettings.json)
+## Task 20: Update the Dynamics NAV Web client configuration file (navsettings.json)
 If you have installed the [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)], populate the navsettings.json file for the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance with the settings of the old web.config file.
 
 For more information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the NavSettings.json File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md).  
