@@ -24,7 +24,7 @@ Sets the classification of the data in the table or field. The data classificati
 |---------------|---------------------|
 |CustomerContent|Content directly provided/created by admins and users. This is the default value.|
 |EndUserIdentificationInformation|(EUII) Data that identifies or could be used to identify the user of a Microsoft service. EUII does not contain Customer content. | 
-|AccountData|Customer billing information and payment instrument information, and administrator contact information, such as tenant administrator’s name, address, or phone number.|  
+|AccountData|Customer billing information and payment instrument information, including administrator contact information, such as tenant administrator’s name, address, or phone number.|  
 |EndUsePseudonymousIdentifiers|(EUPI) An identifier created by Microsoft tied to the user of a Microsoft service. When EUPI is combined with other information, such as a mapping table, it identifies the end user. EUPI does not contain information uploaded or created by the customer (Customer content or EUII). |
 |OrganizationIdentifiableInformation|(OII) Data that can be used to identify a tenant, generally config or usage data. This data is not linkable to a user and does not contain Customer content.| 
 |SystemMetadata|Data generated in the course of running the service or program that is not linkable to a user or tenant. | 
