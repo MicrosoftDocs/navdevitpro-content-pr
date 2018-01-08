@@ -120,7 +120,7 @@ You can also use the [DeleteObjects](DeleteObjects.md) command of the finsql.exe
 ##  <a name="UninstallOldProduct"></a> Task 6: Uninstall (optional) the old product and install the new product
 Uninstall the old [!INCLUDE[navnow_md](includes/navnow_md.md)], and then install [!INCLUDE[nav2018_md](includes/nav2018_md.md)].  
 
-As a minimum, you must install the following [!INCLUDE[nav2018_md](includes/nav2018_md.md)] components: Client (with the Development Environment), Modern Development Environment, Administration Tools, Server, and SQL Server Components. You can install these components by choosing **Custom** option during Setup. For more information, see [Custom Option](Custom-option.md).
+As a minimum, you must install the following [!INCLUDE[nav2018_md](includes/nav2018_md.md)] components: Client (with the Development Environment), Modern Development Environment, Administration Tools, Server, and SQL Server Components. You can install these components by choosing the **Custom** option during Setup. For more information, see [Custom Option](Custom-option.md).
 
 ## Task 7: Clear Dynamics NAV Server instance records from old database
 Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records from the **dbo.Server Instance** table in the database in SQL Server.  
