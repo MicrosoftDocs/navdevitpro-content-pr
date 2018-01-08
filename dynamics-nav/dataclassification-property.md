@@ -12,12 +12,12 @@ author: jswymer
 ---
 
 # DataClassification Property
-Sets the classification of the data in the table or field. The data classification can be used to adhere to security, compliance, and privacy requirements or processes for collecting, storing, and using personal information.  
+Sets the classification of the data in the table or field. The data classification can be used to adhere to security, compliance, and privacy requirements and processes for collecting, storing, and using User personal information.  
 
 ## Applies to  
 
 -   Table objects
--   Table field controls that are not defined as FlowField or FlowFilter.
+-   Table field controls that are not specified as FlowFields or FlowFilters.
 
 ## Property Values  
 The following table includes the possible data classification values and information about their intended use.
