@@ -20,7 +20,19 @@ Sets the classification of the data in the table or field. The data classificati
 -   Table field controls that are not specified as FlowFields or FlowFilters.
 
 ## Property Values  
-The following table includes the possible data classification values and information about their intended use.
+|Value|Description| 
+|---------------|---------------------|
+|CustomerContent|Content directly provided/created by admins and users. This is the default value.|
+|EndUserIdentificationInformation|(EUII) Data that identifies or could be used to identify the user of a Microsoft service. EUII does not contain Customer content. | 
+|AccountData|Customer billing information and payment instrument information, and administrator contact information, such as tenant administrator’s name, address, or phone number.|  
+|EndUsePseudonymousIdentifiers|(EUPI) An identifier created by Microsoft tied to the user of a Microsoft service. When EUPI is combined with other information, such as a mapping table, it identifies the end user. EUPI does not contain information uploaded or created by the customer (Customer content or EUII). |
+|OrganizationIdentifiableInformation|(OII) Data that can be used to identify a tenant, generally config or usage data. This data is not linkable to a user and does not contain Customer content.| 
+|SystemMetadata|Data generated in the course of running the service or program that is not linkable to a user or tenant. | 
+
+<!--
+
+
+The following table lists the possible data classification values along with a description about their intended use.
 
 |Value|Description| Example |
 |---------------|---------------------|----|  
@@ -29,6 +41,8 @@ The following table includes the possible data classification values and informa
 |AccountData|Contact and billing/purchase/payment/license information for the enterprise, including the admin and any subdelegated admins.|<ul><li>Customer’s provisioning information</li><li>Account configuration and billing data </li><li>Tenant administrator contact information (for example, tenant administrator’s name, address, e-mail address, phone number).  Note: Contact information for users other than the tenant admin is considered EndUserIdentificationInformation.</li><li>Information about service health of customer machines and applications, registry data, and error-tracking files.</li><li>Licensing and purchase information.  </li></ul>|  
 |EndUsePseudonymousIdentifiers|An identifier created by Microsoft that is tied to the user and customer of a Microsoft service.  When EndUsePseudonymousIdentifiers is combined with other information (such as a mapping table), it identifies the end user. EndUsePseudonymousIdentifiers does not contain information uploaded or created by the customer (that is CustomerContent or EndUserIdentificationInformation data). |<ul><li>User GUIDs or PUIDs. Other common GUIDs include: machine IDs, device IDs - Session IDs </li><li>Salted hashed EndUserIdentificationInformation data, while Microsoft retains the salt</li><li>Encrypted EEndUserIdentificationInformation data for which Microsoft retains the encryption key and can decrypt.</li></ul>|
 |SystemMetadata|Data generated in the course of running the service or program that is not linkable to a user or tenant.  This does not contain CustomerContent, EndUserIdentificationInformation, AccountData, or EndUsePseudonymousIdentifiersPublic data.| <ul><li>Event logs</li><li>Access Control logs</li><li>Account information belonging to Microsoft operations personnel</li><li>Microsoft server names/server IPs</li><li>Behavioral/Usage Data</li><li>Server patching and vulnerability data</li><li>Service configuration data</li><li>Telemetry (on-prem or cloud)</li><li>SQM Data</li><li>Telecomunication region specific SHORT CODE phone numbers (for example, 911 )</li></ul>|  
+
+-->
 
 
 ## Remarks  
