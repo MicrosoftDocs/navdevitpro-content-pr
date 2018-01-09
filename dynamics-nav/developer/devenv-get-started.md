@@ -25,7 +25,7 @@ Go through the following steps to set up a sandbox environment. With the preview
 1) Sign up for a [Dynamics 365 for Financials sandbox](https://aka.ms/GetSandboxForFinancials).    
 2) Download [Visual Studio Code](https://code.visualstudio.com/Download).  
 3) Download the [AL Language extension](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al).  
-4) Press **Ctrl+,** to open **user settings** window, and you can choose to enable or disable the [telemetry settings](devenv-get-started.md#telemetry-settings).
+4) Press **Ctrl+,** to open **user settings** window, and you can configure the [telemetry settings](devenv-get-started.md#telemetry-settings).  
 5) Press **Alt+A, Alt+L** to trigger the **Go!** command, and then choose **Cloud**.  
 6) Enter the credentials you provided for the sign up, and then **Download symbols**.  
 7) Press **F5** to deploy and run the extension on your online sandbox tenant.  
@@ -53,7 +53,14 @@ Interested in an on-premise version? It's just as easy. Just sign up by followin
 There are two JSON files in the project; the `app.json` file and the `launch.json` file. The files are automatically generated for your project. For more information, see [JSON files](devenv-json-files.md).
 
 ## Telemetry settings
-By default, Visual Studio Code is set up with telemetry to enable data and errors to be sent to Microsoft. You can choose to opt-out of telemetry by adding this setting `"telemetry.enableTelemetry": false,` in the `settings.json` file, which is often known as user settings. For more information about VS Code user settings, see [User and Workspace settings](https://code.visualstudio.com/docs/getstarted/settings).
+By default, Visual Studio Code is set up with telemetry system to enable data and errors to be sent to Microsoft. If you do not want to send telemetry data, you can set `telemetry.enableTelemetry` from `true` to `false`. 
+
+To modify telemetry setting, press **Ctrl+,** on VS Code and choose **user settings** window, which opens `settings.json` file, and then add `telemetry.enableTelemetry` to `false`. 
+```
+"telemetry.enableTelemetry": false,
+```
+> [!TIP]  
+> The `settings.json` file contains user and workspace settings which can be modified easily. If you want to modify VS Code editor options and its functional behavior, see [creating user and workspace settings](https://code.visualstudio.com/docs/getstarted/settings).
 
 
 ## The symbol file
