@@ -60,7 +60,7 @@ To modify telemetry setting, press **Ctrl+,** in Visual Studio Code and choose *
 "telemetry.enableTelemetry": false,
 ```
 > [!TIP]  
-> The `settings.json` file contains user and workspace settings, these options can be modified to suit your preferences. If you want to modify VS Code editor options and functional behavior settings, see [User and Workspace Settings](https://code.visualstudio.com/docs/getstarted/settings).
+> The `settings.json` file contains user and workspace settings, these options can be modified to suit your preference. If you want to modify VS Code editor options and functional behavior settings, see [User and Workspace Settings](https://code.visualstudio.com/docs/getstarted/settings).
 
 
 ## The symbol file
