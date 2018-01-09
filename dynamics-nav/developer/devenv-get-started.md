@@ -55,12 +55,12 @@ There are two JSON files in the project; the `app.json` file and the `launch.jso
 ## Telemetry settings
 By default, Visual Studio Code is set up with telemetry system to enable data and errors to be sent to Microsoft. If you do not want to send telemetry data, you can set `telemetry.enableTelemetry` from `true` to `false`. 
 
-To modify telemetry setting, press **Ctrl+,** on VS Code and choose **user settings** window, which opens `settings.json` file, and then add `telemetry.enableTelemetry` to `false`. 
+To modify telemetry setting, press **Ctrl+,** in Visual Studio Code and choose **user settings** window, which opens `settings.json` file, and then add `telemetry.enableTelemetry` to `false`. 
 ```
 "telemetry.enableTelemetry": false,
 ```
 > [!TIP]  
-> The `settings.json` file contains user and workspace settings which can be modified easily. If you want to modify VS Code editor options and functional behavior settings, see [User and Workspace Settings](https://code.visualstudio.com/docs/getstarted/settings).
+> The `settings.json` file contains user and workspace settings, these options can be modified to suit your preferences. If you want to modify VS Code editor options and functional behavior settings, see [User and Workspace Settings](https://code.visualstudio.com/docs/getstarted/settings).
 
 
 ## The symbol file
