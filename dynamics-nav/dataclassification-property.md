@@ -22,7 +22,7 @@ Sets the classification of the data in the table or field. The data classificati
 ## Property Values  
 |Value|Description| 
 |---------------|---------------------|
-|ToBeClassified|Content that has yet been given a classification. This is the initial value when table or field is created.|
+|ToBeClassified|Content that has not yet been given a classification. This is the initial value when table or field is created.|
 |CustomerContent|Content directly provided/created by admins and users. This is the default when no value has been specified.|
 |EndUserIdentificationInformation|(EUII) Data that identifies or could be used to identify the user of a Microsoft service. EUII does not contain Customer content. | 
 |AccountData|Customer billing information and payment instrument information, including administrator contact information, such as tenant administrator’s name, address, or phone number.|  
@@ -43,7 +43,7 @@ Sets the classification of the data in the table or field. The data classificati
 -->
 
 ## Remarks  
-FlowField and FlowFilter fields are automatically set the **SystemMetadata** data classification.  
+FlowField and FlowFilter fields are automatically set to the **SystemMetadata** data classification.  
   
 ## See Also
 [Table Properties](table-properties.md)  
