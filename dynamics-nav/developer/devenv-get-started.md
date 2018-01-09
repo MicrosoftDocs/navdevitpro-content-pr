@@ -25,7 +25,7 @@ Go through the following steps to set up a sandbox environment. With the preview
 1) Sign up for a [Dynamics 365 for Financials sandbox](https://aka.ms/GetSandboxForFinancials).    
 2) Download [Visual Studio Code](https://code.visualstudio.com/Download).  
 3) Download the [AL Language extension](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al).  
-4) Press **Ctrl+,** to open **user settings** window, and you can configure the [telemetry settings](devenv-get-started.md#telemetry-settings).  
+4) Press **Ctrl+,** to open **user settings** window, and here you can configure the [telemetry settings](devenv-get-started.md#telemetry-settings).  
 5) Press **Alt+A, Alt+L** to trigger the **Go!** command, and then choose **Cloud**.  
 6) Enter the credentials you provided for the sign up, and then **Download symbols**.  
 7) Press **F5** to deploy and run the extension on your online sandbox tenant.  
