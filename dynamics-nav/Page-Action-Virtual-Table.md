@@ -15,7 +15,7 @@ The **Page Action** virtual table contains data about actions on a pages. The **
  
 |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
-|**[Page ID]**|The ID for the page object.|  
+|**Page ID**|The ID for the page object.|  
 |**Action Index**|The actions index in the page. |  
 |**Action ID**|The ID of the action.|  
 |**Indentation**|The indentation level of the action.|  
