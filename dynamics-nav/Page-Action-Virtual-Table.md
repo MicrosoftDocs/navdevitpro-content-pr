@@ -11,7 +11,7 @@ author: jswymer
 ---
 
 # Page Action Virtual Table
-The **Page Action** virtual table contains data about actions on a pages. The **Page Action** virtual table contains the following fields.   
+The **Page Action** virtual table contains data about actions on pages. The **Page Action** virtual table contains the following fields.   
  
 |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
