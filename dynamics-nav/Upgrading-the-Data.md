@@ -120,7 +120,7 @@ You can also use the [DeleteObjects](DeleteObjects.md) command of the finsql.exe
 ##  <a name="UninstallOldProduct"></a> Task 6: Uninstall (optional) the old product and install the new product
 Uninstall the old [!INCLUDE[navnow_md](includes/navnow_md.md)], and then install [!INCLUDE[nav2018_md](includes/nav2018_md.md)].  
 
-During installation of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you can either choose the **Install Demo** option, for which you will discard the Demo database afterwards, or choose the **Custom** option, where you then select to install the Client \(with the Development Environment\), Server, and Administration Tool components.  
+As a minimum, you must install the following [!INCLUDE[nav2018_md](includes/nav2018_md.md)] components: Client (with the Development Environment), Modern Development Environment, Administration Tools, Server, and SQL Server Components. You can install these components by choosing the **Custom** option during Setup. For more information, see [Custom Option](Custom-option.md).
 
 ## Task 7: Clear Dynamics NAV Server instance records from old database
 Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records from the **dbo.Server Instance** table in the database in SQL Server.  
@@ -283,17 +283,22 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 ##  <a name="AddExtensions"></a> Task 19: Publish and install/upgrade extensions
 [!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes a number of extensions that you publish and install as part of the upgrade process. To enable these extensions, it is important that you follow the steps below.
 
-1. Download the [platform symbols](https://go.microsoft.com/fwlink/?linkid=864045), the [test symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Test_11.0.19680.0.app), and the [application symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Application_11.0.19738.0.app).
-
-    Make a note of the location where you store the files.
-
-2. Publish the platform symbols, the test symbols, and the application symbols one file at a time to the Dynamics NAV server instance:
+1. Download the system and test symbols file from the *ModernDev* folder on the DVD, and make a note of the path where you store the files.  
+    > [!NOTE]  
+    > If you are upgrading to [!INCLUDE[nav2018_md](includes/nav2018_md.md)] RTM, the symbols are not included on the DVD, and you must download them here: [system symbols](https://go.microsoft.com/fwlink/?linkid=864045), [test symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Test_11.0.19680.0.app), and [application symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Application_11.0.19738.0.app).  
+    If you are upgrading to [!INCLUDE[nav2018_md](includes/nav2018_md.md)] CU1, or higher, please use the symbols that you find in the *ModernDev* folder on the cumulative update DVD. 
+  
+2. Publish the platform symbols and the test symbols one file at a time to the Dynamics NAV server instance:
 
     Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and run the following command for each of the symbol files:
 
     ```
     Publish-NAVApp -ServerInstance <ServerInstanceName> -Path <SymbolFilePath> -PackageType SymbolsOnly
     ```
+    
+    > [!NOTE]  
+    > If you are upgrading to [!INCLUDE[nav2018_md](includes/nav2018_md.md)] RTM, you must also publish the application symbol file.
+
 3. Make sure that **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup) is set on the Dynamics NAV server instance.
 
     For more information, see [Configuring Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).
