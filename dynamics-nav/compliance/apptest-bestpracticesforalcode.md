@@ -22,7 +22,7 @@ This page defines the best practices to follow when writing AL extensions.
 ## Extension Structure 
 
 An extension is fully contained in a single folder. This folder can contain an app.json file, a BuildMetadata.xml file, an image file representing the extension's logo, a "src", and a "test" folder. The extension does not need to follow a flat structure,  which means that, depending on the amount of application files, additional folders can be used in the "src" or "test" folders to group objects based on their functionality.   
-<!--The structure of an extension has app.json in root folder, BuildMetadata.xml and the extension logo. Additional folders such as src and test are used to group objects based on the functionality and the amount of files. The extension does not need to follow a flat structure, which means that it can contain files or documents. At the same time they must not be split by type, but according to their functionality. 
+<!--The structure of an extension has app.json in root folder, BuildMetadata.xml and the extension logo. Additional folders such as src and test are used to group objects based on the functionality and the amount of files. 
 
 What does it mean?
 Res for resources -->
