@@ -17,7 +17,8 @@ caps.latest.revision: 18
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Extending Application Areas 
-Application area represents a feature in the system that offers developers, administrators, and users the ability to define differentiated user experiences. The user experience determines how much of the core functionality is available when you use [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Application areas are used to map the controls and actions to the various experience that will change existing page objects to match more scenarios that are part of this process.   
+Application area represents a feature in the system that offers developers, administrators, and users the ability to define differentiated user experiences.
+Application areas are used to map the controls and actions to the various experience that will change existing page objects to match more scenarios that are part of this process.   
 
 ## Extending application areas and the experience tier 
 In this example you will: 
@@ -27,11 +28,6 @@ In this example you will:
 - Modify the experience tier (optional).
 - Validate the application area in the **OnValidateApplicationAreas**.
 
-<!-- OR  
-In this example you will: 
-- Add and enable a new application area.
-- Extend the experience tier.
-- Validate the application area. -->
 
 The following example extends the **Customer List** page. The field **ExampleField** is added and it is followed by a series of properties. The **ApplicationArea** property sets the application areas that apply to the control and in this code, **ExampleAppArea** is assigned to it. 
 
@@ -68,7 +64,8 @@ pageextension 50100 CustomerListExt extends "Customer List"
 ```
 
 ## Adding an application area 
-To add an application area, the **Application Area Setup** table must be extended. A new boolean field is added and the name of this field will be used in the attribute that you want to be tagged with this application area. This particular case, in the code below, is an exception, because space is used inside it. Usually, spaces are omitted in the application area attribute. At this point, the extension has an application area and it needs the codeunit to enable it. 
+To add an application area, the **Application Area Setup** table must be extended. A new boolean field is added and the name of this field will be used in the attribute that you want to be tagged with this application area. This particular case, in the code below, is an exception, because space is used inside it. Usually, spaces are omitted in the application area attribute. At this point, the extension has an application area but it still needs to be enabled. 
+
 
 ```
 tableextension 50100 "Application Area Setup" extends "Application Area Setup"
@@ -105,12 +102,19 @@ codeunit 50101 "Install Example Extension"
 }
 ```
 
-The registration of the application area inside an experience tier is made inside the **OnGetSuiteExperienceAppArea**. There are different versions of this event, one for each experience tier and in this case, the Suite is chosen. This will make the extension visible inside the Suite experience and the event shows a **TempApplicationAreaSetup** record to the **Application Area Setup** table. At this point, to enable the application area, this must be set to true.
+The registration of the application area inside an experience tier is made inside the **OnGetSuiteExperienceAppArea**. There are different versions of this event, one for each experience tier and in this case, the Suite is chosen. This will make the extension visible inside the Suite experience and the event exposes an **Application Area Setup** temporary record, **TempApplicationAreaSetup**, to the **Application Area Setup** table. At this point, to enable the application area, this must be set to true.
+
+
+
 
 > [!NOTE]  
 > This event is important because it is called every single time an experience tier is reset, which can happen because of many reasons. 
 
-Another thing that is possible inside these methods is to modify the experience tier. You can also modify other application areas, such as creating an extension that extends the Fixed Assets. By subscribing to **OnValidateApplicationAreas** the application area inside an experience tier is validated. This is needed as there is no guarantee of the order of events execution. To avoid this, you check the presence of Suite and if the application area is not enabled, an error will be displayed. 
+Another thing that is possible inside these methods is to modify the experience tier. You can also modify other application areas, such as creating an extension that extends the Fixed Assets. 
+By subscribing to **OnValidateApplicationAreas** the application area inside an experience tier is validated. **OnValidateApplicationAreas** is guaranteed to be executed after the events in the OnGet*ExperienceAppArea family. The validation is necessary in the presence of extensions concurrently manipulating the same application areas.
+
+In case a needed application area is not enabled, the suggested action is to show an error and disable the extension to avoid unintended behavior. However, if the functionality controlled by this application area is of secondary importance and its loss does not affect the rest of the extension, it is also appropriate to keep the extension enabled.
+
 
 ```
 codeunit 50100 "Enable Example Extension"
@@ -164,7 +168,7 @@ codeunit 50100 "Enable Example Extension"
 ```
 
 ## Application areas advantages and disadvantages
-If you decide to code application areas as an extension, there are some aspects that must be considered. Application areas enable hiding entire business scenarios and you can have the same code base, which makes it possible to quickly modify the UI for different business scenarios or audiences. However, tagging erros as missing tags or incorrect tags will occur and every single control must be tagged. 
+If you decide to code application areas as an extension, there are some aspects that must be considered. Application areas enable hiding entire business scenarios and you can have the same code base, which makes it possible to quickly modify the UI for different business scenarios or audiences. However, tagging errors as missing tags or incorrect tags will occur and every single control will need to be tagged. 
 
 ## See Also
 [ApplicationArea Property](properties/devenv-applicationarea-property.md)  
