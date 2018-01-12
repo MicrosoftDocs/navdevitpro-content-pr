@@ -14,7 +14,7 @@ ms.author: solsen
 caps.latest.revision: 18
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+[!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # Best Practices for AL  
 This page defines the best practices to follow when writing AL code.
