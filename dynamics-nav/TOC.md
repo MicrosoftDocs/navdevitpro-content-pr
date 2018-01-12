@@ -167,6 +167,7 @@
 #### [Codeunit Triggers](developer/triggers/devenv-codeunit-triggers.md)
 #### [Query Triggers](developer/triggers/devenv-query-triggers.md)
 ## [Rules and Guidelines for AL Code](compliance/apptest-overview.md)
+### [Best Practices for AL](compliance/apptest-bestpracticesforalcode.md)
 ### [Benefits and Guidelines for using a Prefix or Suffix](compliance/apptest-prefix-suffix.md)
 ### [Testing your Extension](compliance/apptest-testingyourextension.md)
 ### [User Scenario Documentation](compliance/apptest-userscenario.md)
