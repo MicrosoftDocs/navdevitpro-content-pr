@@ -46,11 +46,11 @@ When you set the schema update mode to **Recreate**, all the tables and table ex
 
 Synchronize is the default schema update mode for syncing the database and the extension. There are some key factors to consider when you work with the **Synchronize** mode.  
 
-- After publishing, the field data and the primary key information syncs with all the tables and the table extensions. Thus, you can do additions easily, but not deletions. For example, you can add a field and sync that with the extension just by using the F5 shortcut key, but if a field is removed then the table data cannot be synchronized and you have to either use the **Recreate** mode or write an [upgrade codeunit](devenv-upgrading-extensions).  
+- After publishing, the field data and the primary key information syncs with all the tables and the table extensions. Thus, you can do additions easily, but not deletions. For example, you can add a field and sync that with the extension just by using the F5 shortcut key, but if a field is removed then the table data cannot be synchronized and you have to either use the **Recreate** mode or write an [upgrade codeunit](devenv-upgrading-extensions.md).  
  
 - When you make changes to the data types, you can only enlarge the unit size, and not decrease the unit size. For example, you can set a text type from `Code[20]` to `Code[50]` or `Text[32]` to  `Text[87]`, and you cannot set a text type from `Code[50]` to `Code[30]` or `Text[87]` to `Text[40]`.  
 
-- Making major table structural changes could lead to compilation errors. For example, if you want to update a primary key. In this case, the table data cannot be synchronized, and if you want to publish the extension, you must change the `updateSchemaMode` to `Recreate` or write an upgrade codeunit. For more information, see [Upgrading Extensions](devenv-upgrading-extensions).  
+- Making major table structural changes could lead to compilation errors. For example, if you want to update a primary key. In this case, the table data cannot be synchronized, and if you want to publish the extension, you must change the `updateSchemaMode` to `Recreate` or write an upgrade codeunit. For more information, see [Upgrading Extensions](devenv-upgrading-extensions.md).  
 
 
 ## See Also
