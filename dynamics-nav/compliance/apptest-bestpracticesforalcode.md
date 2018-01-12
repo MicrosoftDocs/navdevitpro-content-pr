@@ -1,9 +1,9 @@
 ---
 title: "Best Practices for AL code"
-description: "Document the Best Practices for AL Code."
+description: "Best Practices for writing AL code."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/06/2017
+ms.date: 01/12/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,37 +17,37 @@ caps.latest.revision: 18
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # Best Practices for AL  
-This page defines the best practices to follow when writing AL code.
+This page defines the best practices to follow when writing AL code. These best practices are additional to rules and guidelines that are caught during compilation of AL code.
 
-## Extension Structure 
+## Extension structure 
+An extension is fully contained in a single folder. This folder often contains multiple files, such as app.json and launch.json files, perhaps an image file representing the extension's logo, various folders for source; "\src", other resources; "\res", and a test folder; "\test" folder. The extension does not need to follow a flat structure, which means that, depending on the amount of application files, additional folders can be used in the "src" or "test" folders to group objects based on their functionality, which can help make maintaining a large .al project easier.   
 
-An extension is fully contained in a single folder. This folder can contain an app.json file, an image file representing the extension's logo, a "src", a "res" and a "test" folder. The extension does not need to follow a flat structure, which means that, depending on the amount of application files, additional folders can be used in the "src" or "test" folders to group objects based on their functionality.   
+## File naming 
+Each file name must start with the corresponding type and ID, followed by a dot for full objects or a dash for extensions. The name of the object is written only with characters [A-Za-z0-9] and dot al is used for the file type. 
 
-## File Naming 
-
-Each file name starts with the corresponding type and ID, followed by a dot for full objects or a dash for extensions. The name of the object is written only with characters [A-Za-z0-9] and dot al is used for the file type. 
-
-
-### Structure 
+### File naming notation
+Follow the syntax for file naming as shown below:
 
 |Full objects|Extensions|
 |------|---------------------------|
 |`<Type><Id>.<ObjectName>.al`|`<Type><BaseId>-Ext<ObjectId>.<ObjectName>.al`|
 
 ### Type map
+Use the listed abbreviations for each type of object in the file naming:
 
-|Object|Abbreviation|
-|------|---------------------------|
-|Page|Pag|
+|Object    |Abbreviation|
+|----------|---------------------------|
+|Page      |Pag|
 |Page Extension|PageExt|
-|Codeunit|Cod|
-|Table|Tab|
+|Codeunit  |Cod|
+|Table     |Tab|
 |Table Extension|TabExt|
-|XML Port|Xml|
-|Report|Rep|
-|Query|Que|
+|XML Port  |Xml|
+|Report    |Rep|
+|Query     |Que|
 
-### Example
+### Examples of file naming
+The following table illustrates how the file naming should look.
 
 |Object name|File name|
 |------|---------------------------|
@@ -57,12 +57,12 @@ Each file name starts with the corresponding type and ID, followed by a dot for 
 
 
 ## Formatting
-
-It is recommended to keep your AL code properly formatted as it follows:
-- Use all lowercase letters for reserved language keywords. Built-in functions and types are not included in this rule because they are written using pascalcasing. 
+We recommended to keep your AL code properly formatted as follows:
+- Use all lowercase letters for reserved language keywords. Built-in methods and types are not included in this rule because they are written using Pascal case. 
 - Use four spaces for indentation. 
-- Curly braces are always on a new line. If there is one property, put it in a single line. 
+- Curly brackets are always on a new line. If there is one property, put it on a single line. 
 
+The following example illustrates these formatting rules. 
 
 ```
 page 123 PageName
@@ -119,37 +119,37 @@ page 123 PageName
 
 The AL Language extension offers users the option to automatically format their source code. For more information on how to use it, see [AL Formatter](../developer/devenv-al-formatter.md).
 
-## Line Length
-There is no line length restriction, but the code can become unreadable due to this issue.<!-- In this case, remind the coder in CodeReview that it must be fixed.  -->
+## Line length
+In general there is no restriction on line length, but lengthy lines can make the the code unreadable. We recommend that you keep your code easily scannable and readable.
 
-## Object Naming
-Object names are not prefixed. They start with the feature/group name, followed by the logical name as in these two examples: `Intrastat extension validation codeunit for Denmark`, `codeunit 123 "IntrastatDK Validation"`
+## Object naming
+Object names are not prefixed. They start with the feature/group name, followed by the logical name as in these two examples: 
+
+- `Intrastat extension validation codeunit for Denmark`
+- `codeunit 123 "IntrastatDK Validation"`
 
 
 > [!NOTE]  
-> "MS - " prefix is not required. 
+> The "MS - " prefix is not required. 
 
-## File Structure 
+## File structure 
+Inside an .al code file, the structure for all objects must follow the sequence below:
 
-The file structure for all objects is as follows:
 1. Properties
-2. Object specific constructs such as:
+2. Object-specific constructs such as:
     *  Table fields
     *  Page layout
     *  Actions
 3. Global variables
     * Labels (old Text Constants)
     * Global variables
-4. Functions
-
-
+4. Methods
 
 ## Referencing 
-
-Objects are referenced by the object name,not by ID. 
-
+In AL, objects are referenced by their object name, not by their ID. 
 
 ### Example
+
 ```
 Page.RunModal(Page::"Customer Card", ...)
  
@@ -157,26 +157,24 @@ var
 
 Customer: Record Customer;
 ```
-## Variable Naming 
 
-All variables remain unchanged when they are named. This means that they can be named using pascalcasing, temporary variables have the Temp prefix, and objects must include the object name in the name. 
+## Variable naming 
+All variables remain unchanged when they are named. This means that they can be named using Pascal case, temporary variables have the `Temp` prefix, and objects must include the object name in the name. 
 
-
-### Example 
+### Example
 ```
 TempCustomer: temporary Record Customer;
 
 Vendor: Record Vendor; 
 ```
 
-## Function Declaration 
-To declare a function, follow the guidelines below: 
+## Method declaration 
+To declare a method, follow the guidelines below: 
+
 - Include a space after a semicolon when declaring multiple arguments. 
-- Semicolons are used at the end of the signature/function header. If you use a snippet, the semicolons are automatically added.
-- Functions are named as variables using pascalcasing. However, this is not a mandatory rule. 
-- There must be a blank line between function declarations. If you format your code using the AL Formatter tool, the auto-formatter sets the blank line between procedures. 
-
-
+- Semicolons are used at the end of the signature/method header. If you use a snippet, the semicolons are automatically added.
+- Methods are named as variables using Pascal case. However, this is not a mandatory rule. 
+- There must be a blank line between method declarations. If you format your code using the [AL Formatter](../developer/devenv-al-formatter.md) tool, the auto-formatter sets the blank line between procedures. 
 
 ### Example
  
@@ -195,10 +193,10 @@ begin
 end
 ```
 
-## Function Calling 
-When calling a function, include one space after each command if multiple parameters are passed. Parentheses are needed when doing a function call and for system calls such as: Init(), Modify(), Insert() etc. 
+## Calling methods
+When calling a method, include one space after each command if you are passing multiple parameters. Parentheses must be specified when you are making a method call or system call such as: Init(), Modify(), Insert() etc. 
 
-### Example:
+### Example
 ```
 MyProcedure();
 
@@ -207,9 +205,8 @@ MyProcedure(1);
 MyProcedure(1, 2); 
 ```
 
-
-## Type Definition (colon)
-When declaring a variable or a parameter, the name of that variable or parameter must be immediately followed by a colon, by a single space, and by the type of the variable/parameter.
+## Type definition (colon)
+When declaring a variable or a parameter, the name of that variable or parameter must be immediately followed by a colon, then a single space, and then the type of the variable/parameter as illustrated in the example below.
 
 ```
 Var
@@ -218,3 +215,7 @@ Number: Integer;
 
 local procedure MyProcedure(a: Integer; b: Integer): Integer 
 ```
+
+## See Also
+[Checklist for Submitting Your App](../developer/devenv-checklist-submission.md)  
+[Rules and Guidelines for AL Code](apptest-overview.md)  
