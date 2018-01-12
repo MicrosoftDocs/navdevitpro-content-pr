@@ -16,34 +16,17 @@ caps.latest.revision: 18
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
-# Best Practices for AL Code/Extensions 
-This page defines the best practices to follow when writing AL extensions.
+# Best Practices for AL  
+This page defines the best practices to follow when writing AL code.
 
 ## Extension Structure 
 
-An extension is fully contained in a single folder. This folder can contain an app.json file, a BuildMetadata.xml file, an image file representing the extension's logo, a "src", and a "test" folder. The extension does not need to follow a flat structure,  which means that, depending on the amount of application files, additional folders can be used in the "src" or "test" folders to group objects based on their functionality.   
-<!--The structure of an extension has app.json in root folder, BuildMetadata.xml and the extension logo. Additional folders such as src and test are used to group objects based on the functionality and the amount of files. 
-
-What does it mean?
-Res for resources -->
-
-## ID Range 
-Extensions that are applicable for multiple countries are included in the W1 range. In case W1 range is too small, it is extended to extension range. However, extensions for only one country stay in the local country range. 
-
-For more information on number ranges in different countries, see [Number Ranges](../Number-Ranges-for-Text-Constants.md).
-
-<!-- 
-Table Extensions that belong to W1 range, new start with the beginning of the extension range
-
-pageextension 1857 PurchaseInvoiceForecastExt extends "Purchase Invoice" 
-add file PAGEXT1857.TXT in App\BaseApp.
--->
-> [!REMEMBER]  
-> Block the ID in BaseApp for W1, Extension range IDs or in the country folder for country extensions by adding an empty file in the required folder. The ID should be blocked also when you do your tests. 
+An extension is fully contained in a single folder. This folder can contain an app.json file, an image file representing the extension's logo, a "src", a "res" and a "test" folder. The extension does not need to follow a flat structure, which means that, depending on the amount of application files, additional folders can be used in the "src" or "test" folders to group objects based on their functionality.   
 
 ## File Naming 
 
 Each file name starts with the corresponding type and ID, followed by a dot for full objects or a dash for extensions. The name of the object is written only with characters [A-Za-z0-9] and dot al is used for the file type. 
+
 
 ### Structure 
 
@@ -76,11 +59,10 @@ Each file name starts with the corresponding type and ID, followed by a dot for 
 ## Formatting
 
 It is recommended to keep your AL code properly formatted as it follows:
-- Use all lowercase letters for reserved language keywords. Built-in functions and types are not included in this rule because they are written in the PascalCase style. 
+- Use all lowercase letters for reserved language keywords. Built-in functions and types are not included in this rule because they are written using pascalcasing. 
 - Use four spaces for indentation. 
 - Curly braces are always on a new line. If there is one property, put it in a single line. 
-<!-- Curly braces: Curly braces are always on new line, expect if there is zero or one property, put it in a single line.  
--->
+
 
 ```
 page 123 PageName
@@ -138,10 +120,10 @@ page 123 PageName
 The AL Language extension offers users the option to automatically format their source code. For more information on how to use it, see [AL Formatter](../developer/devenv-al-formatter.md).
 
 ## Line Length
-There is no line length restriction, but code can become unreadable due to this issue.<!-- In this case, remind the coder in CodeReview that it must be fixed.  -->
+There is no line length restriction, but the code can become unreadable due to this issue.<!-- In this case, remind the coder in CodeReview that it must be fixed.  -->
 
 ## Object Naming
-All object names are not prefixed. They start with feature/group name, followed by the logical name as in these two examples: `Intrastat extension validation codeunit for Denmark`, `codeunit 123 "IntrastatDK Validation"`
+Object names are not prefixed. They start with the feature/group name, followed by the logical name as in these two examples: `Intrastat extension validation codeunit for Denmark`, `codeunit 123 "IntrastatDK Validation"`
 
 
 > [!NOTE]  
@@ -161,9 +143,10 @@ The file structure for all objects is as follows:
 4. Functions
 
 
+
 ## Referencing 
 
-Objects are referenced by name, not by ID. 
+Objects are referenced by the object name,not by ID. 
 
 
 ### Example
@@ -176,9 +159,9 @@ Customer: Record Customer;
 ```
 ## Variable Naming 
 
-All variables remain unchanged when they are named. This means that they are named using PascalCase style, temporary variables have the Temp prefix, and objects must include the object name in the name. 
+All variables remain unchanged when they are named. This means that they can be named using pascalcasing, temporary variables have the Temp prefix, and objects must include the object name in the name. 
 
- 
+
 ### Example 
 ```
 TempCustomer: temporary Record Customer;
@@ -189,9 +172,11 @@ Vendor: Record Vendor;
 ## Function Declaration 
 To declare a function, follow the guidelines below: 
 - Include a space after a semicolon when declaring multiple arguments. 
-- Semicolons are not used at the end of a function header. 
-- Functions are named as variables using PascalCase style. 
-- There should always be a blank line between function declarations. 
+- Semicolons are used at the end of the signature/function header. If you use a snippet, the semicolons are automatically added.
+- Functions are named as variables using pascalcasing. However, this is not a mandatory rule. 
+- There must be a blank line between function declarations. If you format your code using the AL Formatter tool, the auto-formatter sets the blank line between procedures. 
+
+
 
 ### Example
  
@@ -211,7 +196,7 @@ end
 ```
 
 ## Function Calling 
-When calling a function, include one space after each command if multiple parameters are passed. Parenthesis are needed for a function call and also for system calls such as: Init(), Modify(), Insert() etc. 
+When calling a function, include one space after each command if multiple parameters are passed. Parentheses are needed when doing a function call and for system calls such as: Init(), Modify(), Insert() etc. 
 
 ### Example:
 ```
@@ -221,6 +206,7 @@ MyProcedure(1);
 
 MyProcedure(1, 2); 
 ```
+
 
 ## Type Definition (colon)
 When declaring a variable or a parameter, the name of that variable or parameter must be immediately followed by a colon, by a single space, and by the type of the variable/parameter.
