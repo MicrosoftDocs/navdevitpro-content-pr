@@ -18,7 +18,7 @@ caps.latest.revision: 18
 
 # Retaining table data after publishing
 
-When developing an extension, you would debug your app several times using the F5 shortcut key, and you would test your app with some sample data. In [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you can synchronize the sample data specified in the extension when you do subsequent publishing from Visual Studio Code.
+When developing an extension, you would debug your app several times using the F5 shortcut key, and you would test your app by adding some sample data every time. To simplify extension development process in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you can synchronize the sample data specified in the extension when you do subsequent publishing from Visual Studio Code.
 
 ## How data synchronization works
 
@@ -46,7 +46,7 @@ When you set the schema update mode to **Recreate**, all the tables and table ex
 
 Synchronize is the default schema update mode for syncing the database and the extension. There are some key factors to consider when you work with the **Synchronize** mode.  
 
-- After publishing, the field data and the primary key information syncs with all the tables and the table extensions. Thus, you can do additions easily, but not deletions. For example, you can add a field and sync that with the extension just by using the F5 shortcut key, but if a field is removed then the table data cannot be synchronized and you have to either use the **Recreate** mode or write an [upgrade codeunit](devenv-upgrading-extensions.md).  
+- After publishing, the field data and the primary key information syncs with all the tables and the table extensions. Thus, you can do additions easily, but not deletions. For example, you can add a field and sync that with the extension just by pressing the F5 shortcut key, but if a field is removed then the table data cannot be synchronized and you have to either use the **Recreate** mode or write an [upgrade codeunit](devenv-upgrading-extensions.md).  
  
 - When you make changes to the data types, you can only enlarge the unit size, and not decrease the unit size. For example, you can set a text type from `Code[20]` to `Code[50]` or `Text[32]` to  `Text[87]`, and you cannot set a text type from `Code[50]` to `Code[30]` or `Text[87]` to `Text[40]`.  
 
@@ -56,3 +56,5 @@ Synchronize is the default schema update mode for syncing the database and the e
 ## See Also
 [Differences in the Dynamics NAV Development Environments](devenv-differences.md)  
 [AL Development Environment](devenv-reference-overview.md)  
+[Upgrading Extensions](devenv-upgrading-extensions.md)  
+[Debugging](devenv-debugging.md)  
