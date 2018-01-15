@@ -27,7 +27,7 @@ Synchronizing an extension updates the database schema of the tenant database wi
 
 1.  Start the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
 
-2.  To publish the extension, use the [Publish-NAVApp cmdlet](https://go.microsoft.com/fwlink/?linkid=616079).
+2.  To publish the extension, run the [Publish-NAVApp cmdlet](https://go.microsoft.com/fwlink/?linkid=616079).
 
     The cmdlet takes as parameters the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance that you want to install to and the .app package file that contains the extension. The following example publishes the extension **MyExtension** to the **YourDynamicsNAVServer** instance.  
 
@@ -45,7 +45,10 @@ Synchronizing an extension updates the database schema of the tenant database wi
 The extension can now be installed on tenants.
 
 ## Install an extension
-After you publish and synchronize an extension, you can install it on tenants. Installing an extension can be done from the [!INCLUDE[navnow_md](includes/navnow_md.md)] client or [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
+After you publish and synchronize an extension, you can install it on tenants to make it available to users. Installing an extension can be done from the [!INCLUDE[navnow_md](includes/navnow_md.md)] client or [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
+
+> [!NOTE]  
+> Installing an extension will run any installation code that is built-in to the extension. Installation code could, for example, perform operations like populating empty records with data, service callbacks and telemetry, version checks, and messages to users. For more information, see [Writing Extension Install Code](devenv-extension-install-code.md).
 
 ### To install an extension by using [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] 
 
@@ -65,8 +68,7 @@ After you publish and synchronize an extension, you can install it on tenants. I
     In the **Extension Management** window, you can view the extensions that are published to your server. For each extension, you can see the current installation status. 
 2.  Choose an extension to see additional information and to install the extension.  
 3.  Review and accept the license agreement.  
-4.  Choose the **Install** button to install the extension.      
-    
+4.  Choose the **Install** button to install the extension.
 
 <!--
 ### To synchronize schemas
@@ -98,20 +100,58 @@ This example upgrades the app at the specified path for the tenant with the ID *
 -->
 
 
-## Unpublish an extension  
+## Unpublishing and uninstalling extensions
+
+*Uninstalling* an extension is done on the tenant level. It makes an extension unavailable to users in the client, removing any user interface that the extension provides. Business data that has been collected through the use of the extension is not lost; but preserved so that if you reinstall the extension, the data is still available.
+
+*Unpublishing* an extension is done on the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance level. This removes the extension from the server instance's app catalog, and deletes the business data collected through the use of the extension. An extension cannot be unpublished if it is installed on a tenant of the server instance.
+
+
+### Unpublish extensions
+
+Like publishing an extensions, you unpublish an extension on a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance by using the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
+
+A server instance can have several published extensions, and unpublishing the extensions requires that you provide information about the extension, like the name, version or path to extension package file. To get this information, you can run the the [Get-NAVAppInfo cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/get-navappinfo) on the server instance:
+
+```
+Get-NAVAppInfo -ServerInstance YourDynamicsNAVServer
+```
+
+To unpublish the extension, run the [Unpublish-NAVApp cmdlet](https://go.microsoft.com/fwlink/?linkid=616080). You can unpublish the extension by specifying the path to extension package file or by the extension name. The following examples unpublishes the extension by using its extension package file path `.\MyExtension.app`. 
+
+```  
+Unpublish-NAVApp -ServerInstance YourDynamicsNAVServer -Path '.\MyExtension.app'  
+``` 
+The following example unpublishes the extension by using its name `My Extension`and version `1.0.0.0`:
+
+```  
+Unpublish-NAVApp -ServerInstance YourDynamicsNAVServer -Name "My Extension" -Version 1.0.0.0
+```  
+
+The following example combines the Get-NAVAppInfo and Unpublish-NAVApp cmldets into a single command:
+
+
+```  
+Get-NAVAppInfo -ServerInstance YourDynamicsNAVServer -Name 'My Extension' -Version 1.0.0.0 | Unpublish-NAVApp
+```  
+
+To get a list of the extensions that are installed, run the Get-NAVAppInfo cmdlet (https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/get-navappinfo) :
+
+    ```
+    Get-NAVAppInfo -ServerInstance <ServerInstanceName> -Tenant <TenantID> |ft
+    ```
+    
+    Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance that the database connects to. Replace `<TenantID>` with the tenant ID of the database. If you do not have a multitenant server instance, use `default`.
+
+    In the table that appears, V1 extensions are indicated by `CSIDE` in the `Extension Type` column.ing Getting an overview 
+
 1. Start the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
 
-2. Use the [Unpublish-NAVApp cmdlet](https://go.microsoft.com/fwlink/?linkid=616080) to unpublish the extension.
 
-    The cmdlet takes as parameters the server you want to remove the extension from, and the name of the extension. The following example removes the extension MyExtension from the YourDynamicsNAVServer instance.  
-
-    ```  
-    Unpublish-NAVApp -ServerInstance YourDynamicsNAVServer -Path MyExtension.app  
-    ```  
 
 ## Uninstall 
 
-You can get an overview of the published extensions and their state using the `Get-NAVAppInfo` cmdlet. If no tenants have a specific extension installed, you can completely remove it using the `Unpublish-NAVApp` cmdlet.
+To get an overview of the published extensions and their state using the `Get-NAVAppInfo` cmdlet. If no tenants have a specific extension installed, you can completely remove it using the `Unpublish-NAVApp` cmdlet.
 
 
 Use `Get-NAVAppInfo –Tenant` command to get an overview of the extensions for that tenant, use the `Get-NAVAppTenant` cmdlet to get all tenants that have installed a specified extension, and uninstall an extension using the `Uninstall-NAVApp` cmdlet.
