@@ -13,16 +13,21 @@ ms.author: solsen
 ---
 
 # How to: Publish and Install an Extension v2.0
-To make your extension available to users, the package must be first published to a specific [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance. After the extension has been published, you install it on one or more tenants.
+To make your extension available to tenant users requires three basic tasks: publish the extension package to the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance, synchronize the extension with the tenant database, and install the extension on the tenant.
 
 > [!NOTE]  
->  This article describes how to publish and install the first version of a V2 extension. If you want to publish an install newer version of an extension, see  that has not been  you uninstall an extension that includes tables and fields, this impacts the database schema and any data that the tables and fields contain.  
+>  This article describes how to publish and install the first version of a V2 extension. If you want to publish an install newer version of an extension, see [Upgrading Extensions V2](devenv-upgrading-extensions.md).  
 
-## Publish an extension  
+## Publish and synchronize an extension
+Publishing an extension to a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance adds the extension to the app catalog of the server instance, making it available for installation on tenants of the server instance. Publishing updates internal tables, compiles the components of the extension behind-the-scenes, and builds the necessary metadata objects that are used at runtime.
+
+Synchronizing an extension updates the database schema of the tenant database with the database schema that is defined by the extension objects. For example, if a table or table extension is included in the extension, then the respective full or companion table is created in the tenant database.  
+
+### To publish and synchronize an extension
 
 1.  Start the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
 
-2.  Use the  [Publish-NAVApp cmdlet](https://go.microsoft.com/fwlink/?linkid=616079) to publish the extension.
+2.  To publish the extension, use the [Publish-NAVApp cmdlet](https://go.microsoft.com/fwlink/?linkid=616079).
 
     The cmdlet takes as parameters the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance that you want to install to and the .app package file that contains the extension. The following example publishes the extension **MyExtension** to the **YourDynamicsNAVServer** instance.  
 
@@ -30,9 +35,7 @@ To make your extension available to users, the package must be first published t
     Publish-NAVApp -ServerInstance YourDynamicsNAVServer -Path "C:\Users\vmadmin\Desktop\ExtensionName.app"  
     ```  
 
-    Publish does more than just update internal tables. It also compiles the components of the extension behind-the-scenes and builds the necessary metadata objects that are used at runtime.  
-
-3. Use the [Sync-NavApp cmdlet]((https://go.microsoft.com/fwlink/?linkid=846311) to synchronize the schema of a tenant database to a V2 extension. Synchronization adds the tables from the extension to the tenant.
+3.  To synchronize the schema of a tenant database to the extension, run the [Sync-NavApp cmdlet]((https://go.microsoft.com/fwlink/?linkid=846311).
 
     The following example synchronizes the extension MyExtension: 
    
@@ -40,21 +43,6 @@ To make your extension available to users, the package must be first published t
     Sync-NavApp -ServerInstance YourDynamicsNAVServer -Name ExtensionName -Path “C:\Users\vmadmin\Desktop\ExtensionName.app”
     ```
 The extension can now be installed on tenants.
-
-## Unpublish an extension  
-1. Start the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
-
-2. Use the [Unpublish-NAVApp cmdlet](https://go.microsoft.com/fwlink/?linkid=616080) to unpublish the extension.
-
-    The cmdlet takes as parameters the server you want to remove the extension from, and the name of the extension. The following example removes the extension MyExtension from the YourDynamicsNAVServer instance.  
-
-    ```  
-    Unpublish-NAVApp -ServerInstance YourDynamicsNAVServer -Path MyExtension.app  
-    ```  
-
-You can get an overview of the published extensions and their state using the `Get-NAVAppInfo` cmdlet. If no tenants have a specific extension installed, you can completely remove it using the `Unpublish-NAVApp` cmdlet.
-
-Once an app has been published, it must be made available for any tenant that wishes to use it.  
 
 ## Install an extension
 After you publish and synchronize an extension, you can install it on tenants. Installing an extension can be done from the [!INCLUDE[navnow_md](includes/navnow_md.md)] client or [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
@@ -68,17 +56,7 @@ After you publish and synchronize an extension, you can install it on tenants. I
 
     ```  
     Install-NAVApp -ServerInstance YourDynamicsNAVServer -Name ”My Extension.app” –Tenant Tenant1, Tenant3  
-    ```  
-
-### To install an extension by using [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] 
-Use `Get-NAVAppInfo –Tenant` command to get an overview of the extensions for that tenant, use the `Get-NAVAppTenant` cmdlet to get all tenants that have installed a specified extension, and uninstall an extension using the `Uninstall-NAVApp` cmdlet.
-
-```
-UnInstall-NAVApp -ServerInstance YourDynamicsNAVServer -Name ”My Extension.app” –Tenant Tenant1
-```  
-
-> [!NOTE]  
->  When you uninstall an extension that includes tables and fields, this impacts the database schema and any data that the tables and fields contain.
+    ```   
 
 ### To install an extension by using the client  
 
@@ -89,13 +67,7 @@ UnInstall-NAVApp -ServerInstance YourDynamicsNAVServer -Name ”My Extension.app
 3.  Review and accept the license agreement.  
 4.  Choose the **Install** button to install the extension.      
     
-### To uninstall an extension in the client
 
-1. In the **Extension Management** window, choose an extension that you want to uninstall.
-2. Choose the **Uninstall** button to uninstall the extension.
-    
-    > [!NOTE]  
-    >  When you uninstall an extension that includes tables and fields, this impacts the database schema and any data that the tables and fields contain.
 <!--
 ### To synchronize schemas
 Before you install the extension, you must run the `Sync-NavApp` cmdlet. The `Sync-NavApp` synchronizes the schema of a tenant database to a V2 extension before installation; it adds the tables from the extension to the tenant.
@@ -125,6 +97,31 @@ This example upgrades the app at the specified path for the tenant with the ID *
     ```
 -->
 
+
+## Unpublish an extension  
+1. Start the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
+
+2. Use the [Unpublish-NAVApp cmdlet](https://go.microsoft.com/fwlink/?linkid=616080) to unpublish the extension.
+
+    The cmdlet takes as parameters the server you want to remove the extension from, and the name of the extension. The following example removes the extension MyExtension from the YourDynamicsNAVServer instance.  
+
+    ```  
+    Unpublish-NAVApp -ServerInstance YourDynamicsNAVServer -Path MyExtension.app  
+    ```  
+
+## Uninstall 
+
+You can get an overview of the published extensions and their state using the `Get-NAVAppInfo` cmdlet. If no tenants have a specific extension installed, you can completely remove it using the `Unpublish-NAVApp` cmdlet.
+
+
+Use `Get-NAVAppInfo –Tenant` command to get an overview of the extensions for that tenant, use the `Get-NAVAppTenant` cmdlet to get all tenants that have installed a specified extension, and uninstall an extension using the `Uninstall-NAVApp` cmdlet.
+
+```
+UnInstall-NAVApp -ServerInstance YourDynamicsNAVServer -Name ”My Extension.app” –Tenant Tenant1
+```  
+
+> [!NOTE]  
+>  When you uninstall an extension that includes tables and fields, this impacts the database schema and any data that the tables and fields contain.
 
 
 ## See Also  
