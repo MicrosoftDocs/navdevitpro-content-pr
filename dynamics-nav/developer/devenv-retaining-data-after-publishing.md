@@ -17,12 +17,10 @@ caps.latest.revision: 18
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Retaining table data after publishing
-
-When developing an extension, you would debug your app several times using the F5 shortcut key, and you would test your app by adding some sample data every time. To simplify extension development process in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you can synchronize the sample data specified in the extension when you do subsequent publishing from Visual Studio Code.
+When developing an extension, you debug several times using the F5 shortcut key, and you also test your app by adding some sample data every time. To simplify the extension development process in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you can synchronize the sample data specified in the extension when you do subsequent publishing from Visual Studio Code.
 
 ## How data synchronization works
-
-The data synchronization between each publish is controlled by the `schemaUpdateMode` setting, which is specified in the `launch.json` file. This setting consists of **Synchronize** and **Recreate** options. The default value for `schemaUpdateMode` is set to the **Synchronize** mode, which means that every time you publish an extension to the development server, the data you entered previously stays. If you do not want to synchronize the sample data with each publish, you can change the `schemaUpdateMode` setting from `Synchronize` to `Recreate` as shown in the example below. 
+The data synchronization between each publish is controlled by the `schemaUpdateMode` setting, which is specified in the `launch.json` file. This setting consists of two options; **Synchronize** and **Recreate**. The default value for `schemaUpdateMode` is set to the **Synchronize** mode, which means that every time you publish an extension to the development server, the data you entered previously stays. If you do not want to synchronize the sample data with each publish, you can change the `schemaUpdateMode` setting from `Synchronize` to `Recreate` as shown in the example below. 
 
 
 ```json
@@ -39,14 +37,12 @@ The data synchronization between each publish is controlled by the `schemaUpdate
 ```
 
 ## Recreate mode
-
-When you set the schema update mode to **Recreate**, all the tables and table extensions are recreated at every publish, which means that all the data in those tables are lost. Thus, you will get empty records when you publish your extension.
+When you set the schema update mode to **Recreate**, all the tables and table extensions are recreated at every publish, which means that all the data in those tables are lost. This means that you will get empty records when you publish your extension.
 
 ## Things to be aware of
+**Synchronize** is the default schema update mode for syncing the database and the extension. There are some key factors to consider when you work with the **Synchronize** mode.  
 
-Synchronize is the default schema update mode for syncing the database and the extension. There are some key factors to consider when you work with the **Synchronize** mode.  
-
-- After publishing, the field data and the primary key information syncs with all the tables and the table extensions. Thus, you can do additions easily, but not deletions. For example, you can add a field and sync that with the extension just by pressing the F5 shortcut key, but if a field is removed then the table data cannot be synchronized and you have to either use the **Recreate** mode or write an [upgrade codeunit](devenv-upgrading-extensions.md).  
+- After publishing, the field data and the primary key information synchronizes with all the tables and the table extensions. This means that you can do additions easily, but not deletions. For example, you can add a field and sync that with the extension just by pressing the F5 shortcut key, but if a field is removed then the table data cannot be synchronized and you have to either use the **Recreate** mode or write an [upgrade codeunit](devenv-upgrading-extensions.md).  
  
 - When you make changes to the data types, you can only enlarge the unit size, and not decrease the unit size. For example, you can set a text type from `Code[20]` to `Code[50]` or `Text[32]` to  `Text[87]`, and you cannot set a text type from `Code[50]` to `Code[30]` or `Text[87]` to `Text[40]`.  
 
