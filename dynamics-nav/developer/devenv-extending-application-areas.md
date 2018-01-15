@@ -18,7 +18,7 @@ caps.latest.revision: 18
 
 # Extending Application Areas 
 Application area represents a feature in the system that offers developers, administrators, and users the ability to define differentiated user experiences.
-Application areas are used to map the controls and actions to the various experience that will change existing page objects to match more scenarios that are part of this process.   
+Application areas are mapped to controls to show or hide them on page objects to enable more or less business scenarios.   
 
 ## Extending application areas and the experience tier 
 In this example you will: 
@@ -81,7 +81,7 @@ tableextension 50100 "Application Area Setup" extends "Application Area Setup"
 }
 ```
 
-The codeunit **Install Example Extension** is of the subtype Install and it enables the application area inside the **OnInstallAppPerCompany** trigger. To make the extension work, the application area must be registered inside an experience tier. 
+The codeunit **Install Example Extension** is of the subtype Install and it enables the application area inside the **OnInstallAppPerCompany** trigger. 
 
 ```
 codeunit 50101 "Install Example Extension"
@@ -102,7 +102,7 @@ codeunit 50101 "Install Example Extension"
 }
 ```
 
-The registration of the application area inside an experience tier is made inside the **OnGetSuiteExperienceAppArea**. There are different versions of this event, one for each experience tier and in this case, the Suite is chosen. This will make the extension visible inside the Suite experience and the event exposes an **Application Area Setup** temporary record, **TempApplicationAreaSetup**, to the **Application Area Setup** table. At this point, to enable the application area, this must be set to true.
+The registration of the application area inside an experience tier is made inside the **OnGetEssentialExperienceAppArea**. There are different versions of this event, one for each experience tier and in this case, the Essential is chosen. This will make the extension visible inside the Essential experience and the event exposes an **Application Area Setup** temporary record, **TempApplicationAreaSetup**, to the **Application Area Setup** table. At this point, to enable the application area, this must be set to true.
 
 
 
@@ -119,9 +119,9 @@ In case a needed application area is not enabled, the suggested action is to sho
 ```
 codeunit 50100 "Enable Example Extension"
 {
-    // Extend and Modify Suite Experience Tier with "Example App Area"
-    [EventSubscriber(ObjectType::Codeunit, Codeunit::"Application Area Mgmt.", 'OnGetSuiteExperienceAppAreas', '', false, false)]
-    local procedure RegisterExampleExtensionOnGetSuiteExperienceAppAreas(var TempApplicationAreaSetup: Record "Application Area Setup" temporary)
+    // Extend and Modify Essential Experience Tier with "Example App Area"
+    [EventSubscriber(ObjectType::Codeunit, Codeunit::"Application Area Mgmt.", 'OnGetEssentialExperienceAppAreas', '', false, false)]
+    local procedure RegisterExampleExtensionOnGetEssentialExperienceAppAreas(var TempApplicationAreaSetup: Record "Application Area Setup" temporary)
     begin
         TempApplicationAreaSetup."Example App Area" := true;
         // Modify other application areas here...
@@ -131,9 +131,9 @@ codeunit 50100 "Enable Example Extension"
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Application Area Mgmt.", 'OnValidateApplicationAreas', '', false, false)]
     local procedure VerifyApplicationAreasOnValidateApplicationAreas(ExperienceTierSetup: Record "Experience Tier Setup"; TempApplicationAreaSetup: Record "Application Area Setup" temporary)
     begin
-        if ExperienceTierSetup.Suite then
+        if ExperienceTierSetup.Essential then
             if not TempApplicationAreaSetup."Example App Area" then
-                Error('Example App Area should be part of Suite in order for the Example Extension to work.');
+                Error('Example App Area should be part of Essential in order for the Example Extension to work.');
     end;
 
     // Helpers ................................................................
@@ -153,7 +153,7 @@ codeunit 50100 "Enable Example Extension"
         ApplicationAreaMgmtFacade: Codeunit "Application Area Mgmt. Facade";
     begin
         if ExperienceTierSetup.Get(CompanyName()) then; //CRONUS International Ltd. //TODO remove
-        if not ExperienceTierSetup.Suite then
+        if not ExperienceTierSetup.Essential then
             exit;
 
         if ApplicationAreaMgmtFacade.GetApplicationAreaSetupRecFromCompany(ApplicationAreaSetup, CompanyName()) then begin
