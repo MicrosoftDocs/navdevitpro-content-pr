@@ -31,19 +31,21 @@ Synchronizing an extension updates the database schema of the tenant database wi
 
 2.  To publish the extension, run the [Publish-NAVApp cmdlet](https://go.microsoft.com/fwlink/?linkid=616079).
 
-    The cmdlet takes as parameters the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance that you want to install to and the .app package file that contains the extension. The following example publishes the extension **MyExtension** to the **YourDynamicsNAVServer** instance.  
+    The cmdlet takes as parameters the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance that you want to install to and the .app package file that contains the extension. The following example publishes the extension **MyExtension.app** to the **YourDynamicsNAVServer** instance.  
 
     ```  
-    Publish-NAVApp -ServerInstance YourDynamicsNAVServer -Path "C:\Users\vmadmin\Desktop\ExtensionName.app"  
+    Publish-NAVApp -ServerInstance YourDynamicsNAVServer -Path ".\MyExtension.app"
     ```  
 
 3.  To synchronize the schema of a tenant database to the extension, run the [Sync-NavApp cmdlet]((https://go.microsoft.com/fwlink/?linkid=846311).
 
-    The following example synchronizes the extension MyExtension: 
+    The following example synchronizes the extension **MyExtension** with the tenant: 
    
     ```
-    Sync-NavApp -ServerInstance YourDynamicsNAVServer -Name ExtensionName -Path “C:\Users\vmadmin\Desktop\ExtensionName.app”
+    Sync-NavApp -ServerInstance YourDynamicsNAVServer -Name ExtensionName -Path “.\MyExtension.app” -Tenant TenantID
     ```
+    Replace `TenantID` with the tenant ID of the database. If you do not have a multitenant server instance, use `default` or omit this parameter.
+
 The extension can now be installed on tenants.
 
 ## Install an extension
@@ -58,12 +60,12 @@ After you publish and synchronize an extension, you can install it on tenants to
 
     For more information, see [Starting a Microsoft Dynamics NAV Administration Shell Session](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md#StartAdminShell). 
 
-2. Use the `Install-NAVApp` cmdlet to install the extension on one or more tenants.
+2. To install the extension on one or more tenants, use the `Install-NAVApp` cmdlet .
 
-    The following example installs the MyExtension for Tenant1 and Tenant3. In single-tenant deployments, you either specify default as the tenant ID, or you omit the *–Tenant* parameter.  
+    The following example installs the MyExtension for Tenant1 and Tenant3. In single-tenant deployments, you either specify default as the tenant ID, or you omit the `–Tenant` parameter.  
 
     ```  
-    Install-NAVApp -ServerInstance YourDynamicsNAVServer -Name ”My Extension.app” –Tenant Tenant1, Tenant3  
+    Install-NAVApp -ServerInstance YourDynamicsNAVServer -Name ”My Extension” –Tenant Tenant1, Tenant3  
     ```   
 
 ### To install an extension by using the client  
