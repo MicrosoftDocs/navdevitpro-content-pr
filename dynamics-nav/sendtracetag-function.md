@@ -39,8 +39,10 @@ Type: Text or code
   
 Specifies the error message of the trace event. 
   
-## Remarks  
-## Example  
+## Remarks 
+The server instance setting will determine which level of telemetry events are logged
+In Event Viewer, telemtry events are stored in the Common folder. The Admin folder contains the custom events set by this function. Event viewer will not show Verbose or Info messages, regardlesss of server setting. The operational log will list all system telemetry, based on the server setting.
+## Example 
   
 ```  
 SENDTRACETAG('My-0001', 'MyTest', VERBOSITY::Critical, 'My critical message');
