@@ -27,7 +27,7 @@ You can uninstall an extension by using the [!INCLUDE[nav_shell_md](includes/nav
 1. Start the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. 
 
     For more information, see [Starting a Microsoft Dynamics NAV Administration Shell Session](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md#StartAdminShell). 
-2. To get a list of the extensions that are currently installed on a tenant, run the Get-NAVAppInfo cmdlet (https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/get-navappinfo) with the `Tenant`parameter set. This cmdlet is useful because when uninstall the extension, you will have to provide information about the extensions, such as the its name, version, or path to the extension package file.
+2. To get a list of the extensions that are currently installed on a tenant, run the [Get-NAVAppInfo cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/get-navappinfo) with the `Tenant`parameter set. This cmdlet is useful because when you uninstall the extension, you will have to provide information about the extensions, such as the its name, version, or path to the extension package file.
 
     ```
     Get-NAVAppInfo -ServerInstance YourDynamicsNAVServer -Tenant TenantID
@@ -35,7 +35,7 @@ You can uninstall an extension by using the [!INCLUDE[nav_shell_md](includes/nav
 
     Replace `TenantID` with the tenant ID of the database. If you do not have a multitenant server instance, use `default` or omit this parameter. 
 
-3. To uninstall an extension, run the [Uninstall-NAVApp cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/uninstall-navapp].
+3. To uninstall an extension, run the [Uninstall-NAVApp cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/uninstall-navapp).
 
     The following example uninstalls an extension by using its extension package file path `.\MyExtension.app`. 
 
