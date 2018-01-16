@@ -12,7 +12,7 @@ author: jswymer
 ---
 # Instrumenting an Application for Telemetry
 
-One aspect of event logging is collecting data about how the application and your deployment infrastructure is working in order to diagnose conditions and troubleshoot problems that affect operation and performance. Another aspect of event logging collecting data about how your application is being used. This is referred to as *telemetry*. Telemetry can tell you about specific activities that users perform within the application. navnow_md.mdCollecting that data is the purpose of instrumenting your app from the inside for telemetry and analytics.
+One aspect of event logging is collecting data about how the application and your deployment infrastructure is working in order to diagnose conditions and troubleshoot problems that affect operation and performance. Another aspect of event logging collecting data about how your application is being used. This is referred to as *telemetry*. Telemetry can tell you about specific activities that users perform within the application. [!INCLUDE[navnow](includes/navnow_md.md)] has built-in instrumenting telemetry events navnow_md.md. Collecting that data is the purpose of instrumenting your app from the inside for telemetry and analytics.
 
 Logging is typically oriented around the internal structure of your app rather than reflecting real-world customer usage. In short, logging is how you collect data about your app in the lab; instrumenting your app for telemetry, on the other hand, is how you collect data once the app is released into the wild.
 
