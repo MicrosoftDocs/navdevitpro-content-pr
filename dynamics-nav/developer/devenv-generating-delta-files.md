@@ -1,6 +1,6 @@
 ---
-title: "Generating DELTA files"
-description: "Description of how to generate DELTA files with the ExportToNewSyntax flag."
+title: "Generating Delta files"
+description: "Description of how to generate delta files with the ExportToNewSyntax flag."
 author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 12/12/2017
@@ -8,13 +8,13 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: solsen
 caps.latest.revision: 18
 ---
 
-# Generating DELTA files
+# Generating Delta files
 You can use the `Compare-NAVApplicationObject` powershell cmdlet to generate .delta files from two versions of a set of application objects. 
 
 The cmdlet has a `ExportToNewSyntax` switch that allows generating .delta files that can be used as a starting point for creating V2 extensions. Setting the `ExportToNewSyntax` flag generates .delta files that contain additional information needed to generate the correct structure and layout of V2 extension objects.  

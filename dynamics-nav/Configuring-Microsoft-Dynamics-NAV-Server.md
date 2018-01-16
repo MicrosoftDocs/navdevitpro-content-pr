@@ -4,7 +4,7 @@ description: Configure and modify settings in the Setup or Installed Microsoft D
 ms.date: 10/16/2017
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
 # Configuring Microsoft Dynamics NAV Server
