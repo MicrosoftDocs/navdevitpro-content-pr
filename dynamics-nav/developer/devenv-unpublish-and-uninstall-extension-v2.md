@@ -36,12 +36,13 @@ To get a list of the extensions that are installed, run the Get-NAVAppInfo cmdle
 
 
 
-## Uninstall 
+## Uninstall an extension using the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]
 
-To get an overview of the published extensions and their state using the `Get-NAVAppInfo` cmdlet. If no tenants have a specific extension installed, you can completely remove it using the `Unpublish-NAVApp` cmdlet.
+To get an overview of the extensions that are installed on a tenant of a server instance, use ing the `Get-NAVAppInfo` cmdlet. Use `Get-NAVAppInfo –Tenant` command to get an overview of the extensions for that tenant, use the `Get-NAVAppTenant` cmdlet to get all tenants that have installed a specified extension, and uninstall an extension using the `Uninstall-NAVApp` cmdlet.
 
-
-Use `Get-NAVAppInfo –Tenant` command to get an overview of the extensions for that tenant, use the `Get-NAVAppTenant` cmdlet to get all tenants that have installed a specified extension, and uninstall an extension using the `Uninstall-NAVApp` cmdlet.
+```
+Get-NAVAppInfo -ServerInstance YourDynamicsNAVServer -Tenant YourTenantID
+```
 
 ```
 UnInstall-NAVApp -ServerInstance YourDynamicsNAVServer -Name ”My Extension.app” –Tenant Tenant1
