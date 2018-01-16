@@ -27,7 +27,7 @@ You can uninstall an extension by using the [!INCLUDE[nav_shell_md](includes/nav
 1. Start the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. 
 
     For more information, see [Starting a Microsoft Dynamics NAV Administration Shell Session](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md#StartAdminShell). 
-2. To get a list of the extensions that are currently installed on a tenant, run the [Get-NAVAppInfo cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/get-navappinfo) with the `Tenant`parameter set. This cmdlet is useful because when you uninstall the extension, you will have to provide information about the extensions, such as the its name, version, or path to the extension package file.
+2. To get a list of the extensions that are currently installed on a tenant, run the [Get-NAVAppInfo cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/get-navappinfo) with the `Tenant` parameter set. This cmdlet is useful because when you uninstall the extension, you will have to provide information about the extensions, such as the its name, version, or path to the extension package file.
 
     ```
     Get-NAVAppInfo -ServerInstance YourDynamicsNAVServer -Tenant TenantID
@@ -73,7 +73,9 @@ You unpublish an extension on a [!INCLUDE[nav_server_md](includes/nav_server_md.
 
     For more information, see [Starting a Microsoft Dynamics NAV Administration Shell Session](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md#StartAdminShell). 
 
-2. To get a list of the extensions that are currently installed on a tenant, run the Get-NAVAppInfo cmdlet (https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/get-navappinfo) (without the `Tenant`parameter). This is useful because a server instance can have several published extensions, and unpublishing an extension requires that you provide specific information about the extension, like the name, version or path to extension package file. 
+2. To get a list of the extensions that are currently installed on a tenant, run the Get-NAVAppInfo cmdlet (https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/get-navappinfo) (without the `Tenant` parameter).
+    
+    This is useful because a server instance can have several published extensions, and unpublishing an extension requires that you provide specific information about the extension, like the name, version or path to extension package file. 
 
     ```
     Get-NAVAppInfo -ServerInstance YourDynamicsNAVServer
