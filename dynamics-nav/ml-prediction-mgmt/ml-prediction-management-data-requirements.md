@@ -1,0 +1,3 @@
+
+
+The more data you have about payments that were on-time and late, the better. As a general rule of thumb, you should have two or three hundred records of each type, that is, both late payments and payments that were on-time. However, depending on other factors, such as variance in your data, you might be able to get accurate predictions even if you have less than that. For example, you might try actually removing some of your data and then retraining your model, or just train the model several times. Our API will check the quality of your model, which you can use to decide whether the predictions are reliable enough to use. 
