@@ -25,7 +25,7 @@ Next, follow the [Getting Started with AL](devenv-get-started.md) to set up the 
 
 
 ## Which version of the AL Language extension should I use?
-1) For Microsoft Dynamics NAV 2018 you must use the AL Language extension that is installed together with the product (minimum version 0.12.XXX).
+1) For [!INCLUDE[navnow_md](includes/navnow_md.md)] you must use the AL Language extension that is installed together with the product (minimum version 0.12.XXX).
 2) For [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] cloud sandboxes you must use the AL Language extension available in the Visual Studio Code Marketplace.
 3) For the latest Developer Preview releases you must use the AL Language extension that is available on the Docker images.
 
@@ -33,21 +33,21 @@ Next, follow the [Getting Started with AL](devenv-get-started.md) to set up the 
 To read about enabling the Visual Studio Code Debugger, see here [Debugging](devenv-debugging.md)
 
 ## Can I create something similar to Menusuites?
-With the AL Language extension, the concept of Menusuites is not supported. The two primary purposes of Menusuites are:
+In the AL Language extension, the concept of Menusuites is not supported. The two primary purposes of Menusuites are:
 
 - Making pages searchable
 - Making pages accessible through a navigation structure
 
 The first purpose can be achieved in Extensions V2 by using the new properties added to Pages and Reports. For more information, see [Adding Pages and Reports to Search](devenv-al-menusuite-functionality.md).
 
-The second purpose can be achieved by extending the Navigation Pane page and/or by adding Actions to other existing pages that can serve as a navigation starting point. <!-- See Extending Navigation Pane #669 for an example. -->
+The second purpose can be achieved by extending the Navigation Pane page and/or by adding Actions to other existing pages that can serve as a navigation starting point. <!-- add link to new topic here -->
 
 ## How do I upgrade Extensions V1 to Extensions V2?
 For information on upgrading, see the following topics:
 [Upgrading Extensions v2](devenv-upgrading-extensions.md) and [Converting from Extensions v1 to Extensions v2](devenv-upgrade-v1-to-v2-overview.md).
 
 ## File APIs are not available in Extensions V2. What do I do?
-Code that relies on temporary files must be rewritten to rely on InStream and OutStream types. Code that relies on permanent files must be rewritten to use another form of permanent storage.
+Code that relies on temporary files must be rewritten to rely on `InStream` and `OutStream` types. Code that relies on permanent files must be rewritten to use another form of permanent storage.
 
 ## DotNet types are not available in Extensions V2. What now?
 For cloud solutions DotNet interop is not available due to safety issues in running arbitrary .NET code on cloud servers. 
