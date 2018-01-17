@@ -19,7 +19,7 @@ To make your extension available to tenant users requires three basic tasks: pub
 >  This article describes how to publish and install the first version of a V2 extension. If you want to publish an install newer version of an extension, see [Upgrading Extensions V2](devenv-upgrading-extensions.md).  
 
 ## Publish and synchronize an extension
-Publishing an extension to a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance adds the extension to the app catalog of the server instance, making it available for installation on tenants of the server instance. Publishing updates internal tables, compiles the components of the extension behind-the-scenes, and builds the necessary metadata objects that are used at runtime.
+Publishing an extension to a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance adds the extension to the application database that is mounted on the server instance, making it available for installation on tenants of the server instance. Publishing updates internal tables, compiles the components of the extension behind-the-scenes, and builds the necessary metadata objects that are used at runtime.
 
 Synchronizing an extension updates the database schema of the tenant database with the database schema that is defined by the extension objects. For example, if a table or table extension is included in the extension, then the respective full or companion table is created in the tenant database.  
 
@@ -49,7 +49,7 @@ Synchronizing an extension updates the database schema of the tenant database wi
 The extension can now be installed on tenants.
 
 ## Install an extension
-After you publish and synchronize an extension, you can install it on tenants to make it available to users. Installing an extension can be done from the [!INCLUDE[navnow_md](includes/navnow_md.md)] client or [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
+After you publish and synchronize an extension, you can install it on tenants to enable the extension and make it available to users in the client. Installing an extension can be done from the [!INCLUDE[navnow_md](includes/navnow_md.md)] client or [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
 
 > [!NOTE]  
 > Installing an extension will run any installation code that is built-in to the extension. Installation code could, for example, perform operations like populating empty records with data, service callbacks and telemetry, version checks, and messages to users. For more information, see [Writing Extension Install Code](devenv-extension-install-code.md).
