@@ -17,7 +17,7 @@ The [!INCLUDE[navnow](includes/navnow_md.md)] PingPong add-in can be invoked to 
 Using the PingPong add-in instead of a timer is recommended, because you can run all of the C/AL code on the trigger. If you use a server timer, you cannot trigger events on the client.
 
 > [!NOTE]   
-> The PingPong add-in is only supported in the [!INCLUDE[nav_windows](includes/nav_winodws_md.md)] 
+> The PingPong add-in is only supported in the [!INCLUDE[nav_windows_md](includes/nav_winodws_md.md)] 
   
 ## Using PingPong Events  
   
