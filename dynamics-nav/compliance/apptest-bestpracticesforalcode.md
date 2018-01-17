@@ -57,7 +57,7 @@ The following table illustrates how the file naming should look.
 
 
 ## Formatting
-We recommended to keep your AL code properly formatted as follows:
+We recommend keeping your AL code properly formatted as follows:
 - Use all lowercase letters for reserved language keywords. Built-in methods and types are not included in this rule because they are written using Pascal case. 
 - Use four spaces for indentation. 
 - Curly brackets are always on a new line. If there is one property, put it on a single line. 
