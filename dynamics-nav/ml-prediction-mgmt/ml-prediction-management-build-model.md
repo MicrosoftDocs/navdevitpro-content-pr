@@ -34,5 +34,3 @@ If you create your own model in Azure Machine Learning Studio, without using the
 
 ##See Also  
 [Azure Machine Learning Studio Documentation](https://docs.microsoft.com/en-us/azure/machine-learning/studio/)  
-[Customizing Dynamics 365, Business edition Using Extensions](../ui-extensions.md)  
-[Welcome to [!INCLUDE[d365fin_long](../../includes/d365fin_long_md.md)]](../index.md)  
