@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 890e4a5b-2f43-4cb8-bc7a-18261eaf8139
 caps.latest.revision: 19
 author: jswymer
@@ -15,6 +15,8 @@ author: jswymer
 This topic describes how to install and configure Internet Information Service \(IIS\) for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)], you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer that running IIS 7.5, IIS 8.0, IIS 8.0, or IIS 10.0. A website for [!INCLUDE[nav_web](includes/nav_web_md.md)] is installed on the IIS.  
 
  IIS must have the following features enabled:  
+
+-   HTTP Activation  
 
 -   NET Extensibility 4.5, .NET Extensibility 4.6, or .NET Extensibility 4.6 \(depending on Windows version\)  
 
@@ -28,9 +30,14 @@ This topic describes how to install and configure Internet Information Service \
 
 -   Windows Authentication  
 
+-   Default Document
+
+-   Directory Browsing
+
+-   HTTP Errors
+
 -   Static Content  
 
--   HTTP Activation  
 
  The procedure is slightly different for the different versions of Windows. For more information, see the following sections.
 
@@ -72,7 +79,7 @@ This topic describes how to install and configure Internet Information Service \
 
         -   **ISAPI Filters**  
 
-    2.  Expand **Common HTTP Features**, and then select the **Static Content** feature.  
+    2.  Expand **Common HTTP Features**, and then select **Defau lt Document**, **Default Browsing**, **HTTP Errors**, and **Static Content**.  
 
     3.  Expand **Security**, and then select the following features:  
 
@@ -152,6 +159,9 @@ This topic describes how to install and configure Internet Information Service \
 
     -   **Common HTTP Features**  
 
+        -   **Default Document**
+        -   **Default Browsing**
+        -   **HTTP Errors** 
         -   **Static Content**  
 
     -   **Security**  

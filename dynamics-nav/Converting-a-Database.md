@@ -1,13 +1,13 @@
 ---
 title: "Converting a Database - Technical Upgrade"
 ms.custom: na
-ms.date: 21/11/2017
+ms.date: 03/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
 # Converting a Database - Technical Upgrade
@@ -153,6 +153,16 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
     -   [Resolving Compilation Errors When Converting a Dynamics NAV 2017 Database](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2017-Database.md).   
 
     You can find all objects which did not compile in the **Object Designer** window, by setting a field filter on the **Compiled** field.  
+
+10. Recompile published extensions.
+
+    Use the [Repair-NAVApp cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/repair-navappSynchronize) of the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Administration Shell to compile the published extensions to make sure they are work with the new platform.
+
+    For example, you can run the following command to recompile all extensions:
+
+    ```
+    Get-NAVAppInfo -ServerInstance <ServerInstanceName> | Repair-NAVApp
+    ```   
 
 10.  Run the schema synchronization with validation to complete the database conversion.  
 
