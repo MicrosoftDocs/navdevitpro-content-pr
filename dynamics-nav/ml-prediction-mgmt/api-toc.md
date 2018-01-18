@@ -3,7 +3,6 @@
 ## [Overview](ml-prediction-management-overview.md)  
 ## [Getting Started](ml-prediction-management-get-started.md)  
 ## [How to]  
-### [How to: Create and Test an Experiment in Azure Machine Learning Studio](ml-prediction-management-create-experiment.md)  
 ### [How to: Build and Test a Predictive Model](ml-prediction-management-build-model.md)  
 ### [How to: Call the API]  
 ## [Reference]  

@@ -1,9 +1,23 @@
+---
+title: Set Record | Microsoft Docs
+description: Set the value for the record.
+services: project-madeira
+documentationcenter: ''
+author: bholtorf
 
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.date: 01/02/2018
+ms.author: bholtorf
+---
 
 #SET record
 <!--Detailed Description, starts with a verb>-->
 
-For more information, see [Essential AL Methods](devenv-essential-al-methods.md).
+For more information, see [Essential AL Methods](../../devenv-essential-al-methods.md).
 
 ##Properties
 |Property|Type|Description|
@@ -19,7 +33,7 @@ For more information, see [Essential AL Methods](devenv-essential-al-methods.md)
 ||||
 ||||
 
-For more information, see [Codeunit Properties](codeunit-properties.md).
+For more information, see [Codeunit Properties](../../codeunit-properties.md).
 
 ##Return type
 <!--State the type of return. For example-->
@@ -29,7 +43,7 @@ For more information, see [Codeunit Properties](codeunit-properties.md).
 ```
 
 ```
-For more information, see [AL Data Types](devenv-al-data-types).
+For more information, see [AL Data Types](../../devenv-al-data-types).
 
 ## See Also
-[The ML Prediction Management API](ml-prediction-management-welcome.md)
+[The ML Prediction Management API](../../ml-prediction-management-welcome.md)

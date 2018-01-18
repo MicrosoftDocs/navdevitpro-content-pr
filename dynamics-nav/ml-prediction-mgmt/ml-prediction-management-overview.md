@@ -1,7 +1,23 @@
-#Working with the ML Prediction Management API
+---
+title: Using ML Prediction Management API | Microsoft Docs
+description: Provides an overview of the methods in each phase.
+services: project-madeira
+documentationcenter: ''
+author: bholtorf
+
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.date: 01/02/2018
+ms.author: bholtorf
+---
+
+# Working with the ML Prediction Management API
 This topic describes the methods to use to prepare data for analysis, train the model on data and evaluate its quality, and make a prediction that is accompanied by a confidence score that indicates how accurate the prediction is. All of these methods are available in codeunit 2003.
 
-##How to initialize the codeunit
+## How to initialize the codeunit
 The methods in the following table initialize codeunit 2003.
 
 |Method|Description|
@@ -9,7 +25,7 @@ The methods in the following table initialize codeunit 2003.
 |[Default Initialize](default-initialize.md)|<short description, starts with a verb>|
 |[Initialize](initialize.md)|<short description, starts with a verb>|
 
-##Prepare your data
+## Prepare your data
 The methods in the following table prepare data.
 
 |Method|Description|
@@ -29,5 +45,5 @@ The methods in the following table create a model that can generate predictions.
 |[evaluate](evaluate.md)|<short description, starts with a verb>|
 |[predict](predict.md)|<short description, starts with a verb>|
 
-##See Also
+## See Also
 Getting Started with the ML Prediction Management API

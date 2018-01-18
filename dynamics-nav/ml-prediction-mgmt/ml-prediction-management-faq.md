@@ -1,5 +1,20 @@
+---
+title: Frequently Asked Questions | Microsoft Docs
+description: Learn how to build up an experiement, and use it to generate a predictive model.
+services: project-madeira
+documentationcenter: ''
+author: bholtorf
 
-# Frequently Asked Questions
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.date: 01/02/2018
+ms.author: bholtorf
+---
+# Questions and Answers
+This topic answers questions about ML Prediction Management API, and tips and tricks for working around a few known issues.  
 
 ##Can I use the web service with the Excel add-in?
 Yes, but there is a known issue to be aware of. There is a mismatch between what the experiment expects as Global Parameters (a CSV-like two lines of text) and what the Excel add-in can provide (one line of text).

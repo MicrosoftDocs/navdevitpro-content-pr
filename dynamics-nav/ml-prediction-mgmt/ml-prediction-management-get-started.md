@@ -1,3 +1,18 @@
+---
+title: Getting Started with ML Prediction Management API | Microsoft Docs
+description: Read about the steps to get going with a predictive model.
+services: project-madeira
+documentationcenter: ''
+author: bholtorf
+
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.date: 01/02/2018
+ms.author: bholtorf
+---
 # Getting Started
 This topic describes the requirements for using the ML Prediction Management API.
 
