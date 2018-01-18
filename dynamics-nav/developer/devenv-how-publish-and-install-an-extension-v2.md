@@ -62,7 +62,7 @@ After you publish and synchronize an extension, you can install it on tenants to
 
 2. To install the extension on one or more tenants, use the `Install-NAVApp` cmdlet .
 
-    The following example installs the MyExtension for Tenant1 and Tenant3. In single-tenant deployments, you either specify default as the tenant ID, or you omit the `–Tenant` parameter.  
+    The following example installs the extension **My Extension** for Tenant1 and Tenant3. In single-tenant deployments, you either specify `default` as the tenant ID, or you omit the `–Tenant` parameter.  
 
     ```  
     Install-NAVApp -ServerInstance YourDynamicsNAVServer -Name ”My Extension” –Tenant Tenant1, Tenant3  
