@@ -7,11 +7,10 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
-ms.assetid: 7f3a9bd7-a507-465d-8bf7-0c7fce32038d
-caps.latest.revision: 24
+author: jswymer
 ---
 # Monitoring Microsoft Dynamics NAV Server Event Traces
-Event tracing provides detailed information about what is occurring on the [!INCLUDE[nav_server](includes/nav_server_md.md)] when users work with [!INCLUDE[navnow](includes/navnow_md.md)]. This can help you identify and analyze problems or conditions that affect performance. Event tracing enables you to dynamically monitor [!INCLUDE[nav_server](includes/nav_server_md.md)] without having to restart the server or [!INCLUDE[navnow](includes/navnow_md.md)] clients. By using industry-standard tools for event tracing, you can start and stop event tracing sessions, and then view the trace event data from a stored log file.  
+Event tracing provides detailed information about what is occurring on the [!INCLUDE[nav_server](includes/nav_server_md.md)] and application when users work with [!INCLUDE[navnow](includes/navnow_md.md)]. This can help you identify and analyze problems or conditions that affect performance. Event tracing enables you to dynamically monitor [!INCLUDE[nav_server](includes/nav_server_md.md)] without having to restart the server or [!INCLUDE[navnow](includes/navnow_md.md)] clients. By using industry-standard tools for event tracing, you can start and stop event tracing sessions, and then view the trace event data from a stored log file.  
   
  You can use event tracing to track the following operations on [!INCLUDE[nav_server](includes/nav_server_md.md)] instances:  
   
@@ -20,6 +19,8 @@ Event tracing provides detailed information about what is occurring on the [!INC
 -   Execution of SQL statements by [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
 -   Execution of C/AL functions.  
+
+-   User activity (telemetry). 
   
 -   Windows event log events.  
   
