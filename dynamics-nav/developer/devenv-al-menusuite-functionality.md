@@ -3,7 +3,7 @@ title: "Adding Pages and Reports to Search"
 description: "Description of how you use AL to add pages and reports to Search in the client."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/16/2017
+ms.date: 19/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,10 @@ caps.latest.revision: 18
 # Adding Pages and Reports to Search
 AL provides navigational support for pages and reports in the client. You enable a page or report to be available through Search in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] using the **UsageCategory** setting. 
 
-When you create a [Page](devenv-page-object.md) or a [Report](devenv-report-object.md), you add the [UsageCategory Property](properties/devenv-usagecategory-property.md). If the **UsageCategory** is set to **None**, or if you do not specify **UsageCategory**, the page or report will not show up when you use the Search functionality. 
+
+## Working with the Search in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
+
+When you create a [Page](devenv-page-object.md) or a [Report](devenv-report-object.md), you add the [UsageCategory Property](properties/devenv-usagecategory-property.md). If the **UsageCategory** is set to **None**, or if you do not specify **UsageCategory**, the page or report will not show up when you use the Search functionality.  
 
 ## UsageCategory Property Values
 The values for the UsageCategory property are listed below: 
@@ -67,6 +70,7 @@ The **AccessByPermission** property and **ApplicationArea** property are the opt
 
 
 ## See Also
+[Adding Menus to the Navigation Pane](devenv-adding-menus-to-navigation-pane.md)  
 [MenuSuite Properties](properties/devenv-menusuite-properties.md)   
 [Page Object](devenv-page-object.md)  
 [Report Object](devenv-report-object.md)  
