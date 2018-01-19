@@ -11,20 +11,52 @@ ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
 # Instrumenting an Application for Telemetry
+This article describes how you can implement custom telemetry trace events in your application for collecting for telemetry data. This data can then be visualized for the purpose troubleshooting or analyzing the application against the desired business goals. 
 
-One aspect of event logging is collecting data about how the application and your deployment infrastructure is working in order to diagnose conditions and troubleshoot problems that affect operation and performance. Another aspect of event logging collecting data about how your application is being used. This is referred to as *telemetry*. Telemetry can tell you about specific activities that users perform within the application. [!INCLUDE[navnow](includes/navnow_md.md)] has built-in instrumenting telemetry events navnow_md.md. Collecting that data is the purpose of instrumenting your app from the inside for telemetry and analytics.
+## Telemetry overview
+One aspect of event logging is collecting data about how the application and your deployment infrastructure is working in order to diagnose conditions and troubleshoot problems that affect operation and performance, for example, [!INCLUDE[nav_server_md](includes/nav_server_md.md)] events and trace events like SQL and AL function traces.
 
-Logging is typically oriented around the internal structure of your app rather than reflecting real-world customer usage. In short, logging is how you collect data about your app in the lab; instrumenting your app for telemetry, on the other hand, is how you collect data once the app is released into the wild.
+Another aspect of event logging is *telemetry*, which is collecting data about how your application functions and how it is being used in production. Telemetry can tell you about specific activities that users perform within the application in the production enviroment. Telemetry is also useful tool for troubleshooting, especially instances where you are not able to reproduce the conditions experienced by the user or have no access to the user's environment. With this in mind, telemetry can be divided into different levels or categories, like: telemetry for engineering, telemetry about the business, telemetry for customers
 
-Telemetry is an automated remote measurement and data collection. 
+By default, the [!INCLUDE[navnow](includes/navnow_md.md)] application is instrumented to emit several system telemetry trace events that are recorded in the event log. Custom telemetry trace events enable you to send telemetry data from anywhere in the application code. 
 
-You might be thinking, “Hey, no problem—I’ve littered my code with all kinds of logging. Won’t that work?” Well, logging is a good start, but it is generally a tool that you use during development so that you can diagnose errors and code flows. Logging is typically oriented around the internal structure of your app rather than reflecting real-world customer usage. In short, logging is how you collect data about your app in the lab; instrumenting your app for telemetry, on the other hand, is how you collect data once the app is released into the wild.
+## Creating custom telemetry events
 
-Telemetry, or tele-metering, is automated remote measurement and data collection. It’s used in all kinds of industries, from tracking spacecraft, tracking wildlife, medical monitoring, law enforcement, and so on. The electrical meter attached to my house, for example, automatically sends readings to the utility company, which has eliminated the need for human meter readers. I especially like to think of telemetry in the context of spacecraft, where it is the way in which mission controllers monitor the health and operation of a very expensive piece of hardware that is completely unreachable any other way. 
+To create a custom telemetry event, you use the [SENDTRACETAG function](sendtracetag-function.md) in C/AL code. The SENDTRACETAG function has the following syntax:
 
+```  
+SENDTRACETAG(Tag, Category, Verbosity, Message)  
+```  
 
+Use the parameters define the information about the telemetry trace event. This information is can be consumed by event logging tools, and presented in different ways.
 
+|Parameter|Description|
+|---------|-----------|
+|Tag|A text string that assigns an identifier to the trace event. The tag can consist of letters, numbers, and special characters. For example, system telemetry events use an auto-generated 7-character tag, such as 000002Q. Try to make your tags unique, for example, by using a prefix. |
+|Category|A text string that assigns the trace event to a category.|
+|Verbosity|An enumeration that specifies the severity level of the event. The value can be Critical, Error, Warning, Normal, Verbose.|
+|Message|A text string that specifies the descriptive message for the trace event.|
 
+For example, the following code defines simple telemetry events for the five different severity levels. 
+```  
+SENDTRACETAG('MyCo-0001', 'Action', VERBOSITY::Critical, 'This is a critical message.');
+SENDTRACETAG('MyCo-0002', 'Action', VERBOSITY::Error, 'This is an error message.');
+SENDTRACETAG('MyCo-0003', 'Action', VERBOSITY::Warning, 'This is a warning message.');
+SENDTRACETAG('MyCo-0004', 'Action', VERBOSITY::Normal, 'This is an informational message.');
+SENDTRACETAG('MyCo-0005', 'Action', VERBOSITY::Verbose, 'This is a verbose message. ');
+```  
+
+To test out this code, add it to the `OnRun` tigger of a codeunit, and then run the codeunit.
+
+## Viewing and collecting telemetry
+Viewing and collecting telemetry data is done the same way as with other trace events emitted by [!INCLUDE[navnow](includes/navnow_md.md)] by using various tools like Event Viewer, Performance Monitor, PerfView, and LogMan.
+
+In Event Viewer, telemetry trace events can be viewed from **Applications and Services Logs**, in the **Microsoft** > **DynamicsNAV** > **Common** folder. The custom telemetry trace events are recorded in the **Admin**  folder. You should be aware that only events with severity level of Warning, Error, and Critical will appear. 
+
+With other tools like Performance Monitor and PerfView, you can collect telemetry data by using the **Microsoft-DynamicsNAV-Common** as the event trace provider. 
+
+> [!IMPORTANT]  
+>  The [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance includes a configuration setting called **Diagnostic Trace Level** (`TraceLevel` in the customsettings.config file) that enables you to specify the lowest severity level of telemetry events to be recorded in the event log, or even turn off telemetry event logging altogether. If you do see the expected events, then verify the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance configuration with an administrator. For information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md#General) 
 
 ## See Also
 [Monitoring SQL Database Locks](Monitoring-Database-Locks.md)  

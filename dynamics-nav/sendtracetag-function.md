@@ -10,7 +10,7 @@ ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
 # SENDTRACETAG Function
-Defines a trace event.  
+Sends a telemetry trace event to the event log.  
   
 ## Syntax  
   
@@ -22,34 +22,34 @@ SENDTRACETAG(Tag, Category, Verbosity, Message)
 *Tag*  
 Type: Text or code  
   
-Specifies the tag for the trace event.  
+Specifies an identifier of the trace event. The tag can consist of letters, numbers, and special characters. For example, system telemetry events use an auto-generated 7-character tag, such as 000002Q. Try to make your tags unique, for example, by using a prefix.  
   
 *Category*  
 Type: Text or code  
   
-Specifies a category for the trace event.  
+Specifies category for the telemetry trace.  
   
 *Verbosity*  
 Type: Verbosity  
   
-Specifies the level of the event as either: Critical, Error, Warning, Normal, Verbose.   
+Specifies the level of the event. You can set this parameter to either `Critical`, `Error`, `Warning`, `Normal`, or `Verbose`.   
   
 *Message*  
 Type: Text or code  
   
-Specifies the error message of the trace event. 
+Specifies the descriptive message for the telemetry trace event. 
   
 ## Remarks 
-The server instance setting will determine which level of telemetry events are logged
-In Event Viewer, telemtry events are stored in the Common folder. The Admin folder contains the custom events set by this function. Event viewer will not show Verbose or Info messages, regardlesss of server setting. The operational log will list all system telemetry, based on the server setting.
+You use the SENDTRACETAG function as part instrumenting an application for telemetry. When the SENDTRACETAG function called, a telemetry event is emitted and recorded in the event log. For more information, see [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md).
+
 ## Example 
-  
+The following code defines simple telemetry events for the five different severity levels. 
 ```  
-SENDTRACETAG('My-0001', 'MyTest', VERBOSITY::Critical, 'My critical message');
-SENDTRACETAG('My-0002', 'MyTest', VERBOSITY::Error, 'My error message');
-SENDTRACETAG('My-0003', 'MyTest', VERBOSITY::Warning, 'My waarning message');
-SENDTRACETAG('My-0002', 'MyTest', VERBOSITY::Normal, 'My informational message');
-SENDTRACETAG('My-0002', 'MyTest', VERBOSITY::Verbose, 'My verbose message');
+SENDTRACETAG('MyCo-0001', 'Action', VERBOSITY::Critical, 'This is a critical message.');
+SENDTRACETAG('MyCo-0002', 'Action', VERBOSITY::Error, 'This is an error message.');
+SENDTRACETAG('MyCo-0003', 'Action', VERBOSITY::Warning, 'This is a warning message.');
+SENDTRACETAG('MyCo-0004', 'Action', VERBOSITY::Normal, 'This is an informational message.');
+SENDTRACETAG('MyCo-0005', 'Action', VERBOSITY::Verbose, 'This is a verbose message. ');
 ```  
   
 ## See Also  
