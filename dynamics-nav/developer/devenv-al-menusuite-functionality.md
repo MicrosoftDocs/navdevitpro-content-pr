@@ -19,6 +19,9 @@ caps.latest.revision: 18
 # Adding Pages and Reports to Search
 AL provides navigational support for pages and reports in the client. You enable a page or report to be available through Search in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] using the **UsageCategory** setting. 
 
+
+## Working with the Search in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
+
 When you create a [Page](devenv-page-object.md) or a [Report](devenv-report-object.md), you add the [UsageCategory Property](properties/devenv-usagecategory-property.md). If the **UsageCategory** is set to **None**, or if you do not specify **UsageCategory**, the page or report will not show up when you use the Search functionality.  
 
 ## UsageCategory Property Values
