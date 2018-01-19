@@ -69,6 +69,7 @@
 ## [Task Scheduler](developer/devenv-task-scheduler.md)
 ## [Multilanguage Development](developer/devenv-multilanguage-development.md)
 ### [Working with Translation Files](developer/devenv-work-with-translation-files.md)
+## [Adding Menus to the Navigation Pane](developer/devenv-adding-menus-to-navigation-pane.md)
 ## [Adding Pages and Reports to Search](developer/devenv-al-menusuite-functionality.md)
 ## [How to: Create an RDL Layout Report](developer/devenv-howto-rdl-report-layout.md)
 ## [How to: Create a Word Layout Report](developer/devenv-howto-report-layout.md)
