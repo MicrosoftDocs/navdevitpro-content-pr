@@ -16,6 +16,8 @@ caps.latest.revision: 18
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
+[!INCLUDE[nav_not_supported](includes/nav_not_supported.md)]
+
 # AL Formatter
 The AL Language extension offers users the option to automatically format their source code. This capability increases the usability of the editor by allowing developers to instantly fix the indentation and formatting of their code. 
 
