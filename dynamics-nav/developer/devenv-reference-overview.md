@@ -42,6 +42,9 @@ This section describes all of the objects that are available with the AL Languag
 |---|----|
 |Learn about writing codeunits for your extension.|[Codeunit Object](devenv-codeunit-object.md)|
 
+## API for HTTP, JSON, TextBuilder, and XML
+For information about the HTTP, JSON, TextBuilder, and XML classes, see [HTTP, JSON, TextBuilder, and XML API Overview](devenv-restapi-overview.md).
+
 ## See Also
 [Developing Extensions](devenv-dev-overview.md)  
 [Getting Started with AL](devenv-get-started.md)   
