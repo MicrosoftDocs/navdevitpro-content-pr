@@ -70,3 +70,4 @@ You will now see the generated report in preview mode.
 
 ## See Also
 [Report Object](devenv-report-object.md)  
+[How to: Create a Word Layout Report](devenv-howto-report-layout.md)  
