@@ -20,21 +20,23 @@ caps.latest.revision: 18
 # Adding Menus to the Navigation Pane
 
  The navigation pane appears on the left side of the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] window, and contains multiple sections that enable users to quickly navigate and perform actions in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. A single section in the navigation pane can be defined as a menu group that contains multiple sub-menu items. 
- 
+
  The navigation pane displays the home menu items by default; the other menu items can be accessed by clicking on the small drop-down arrow placed next to the *selected* menu category in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. For users, the menu groups that display in the navigation pane could change depending on the role center page that they access. 
+
+
  
- ## Adding the Menu Items to the Navigation Pane
+ ## How to Add Menus to the Navigation Pane
 
  In order to add a menu group and sub-menu items to the navigation pane, follow the steps described below.
  
- 1. Create a [Page Extension Object](devenv-page-extension.md) that extends the **Role Center** page.  
+ 1. Create a [Page Extension Object](devenv-page-ext-object.md) that extends the **Role Center** page.  
  2. Start creating the [Actions](devenv-actions-overview.md); this will enable you to add multiple actions that users can perform.  
  3. Specify where you will place the new menu group with the existing set of menu items. For example, if you want to place a new menu group before the Sales menu, then add  `addbefore(Sales)`.  
  4. The new menu group should be given a name; this will be the name of the **Actions** group that displays on the Navigation pane.  
  5. Finally, define the appropriate set of **Actions** that you want to add to the new menu group; these actions are displayed as the sub-menu items.
 
 
- ## The example
+ ## Example
  The example below explains how to add the menu group called `My New Action Group` to the navigation pane. The sub-menu items for the `My New Action Group` contains the actions which are named as `First new page` and `Second new page`. The `First new page` action opens the `Customer Bank Account List` page. In this example, the `My New Action Group` will appear on the navigation pane for the **Sales Order Processor** Role Center. 
 
 ```al
@@ -62,13 +64,12 @@ pageextension 50120 ExtendNavigationPane extends "Order Processor Role Center"
     }
 }
 ```
- 
- You can also add pages and reports to the search for a quick navigational support. To enable pages and reports to be available through search in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], see [Adding Pages and Reports to Search](devenv-al-menusuite-functionality.md).  
 
+You can also enable pages and reports to appear in the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] search for a quick navigational support. For more information, see [Adding Pages and Reports to Search](devenv-al-menusuite-functionality.md).   
 
 ## See Also
 [Differences in the Dynamics NAV Development Environments](devenv-differences.md)  
 [AL Development Environment](devenv-reference-overview.md)  
-[Page Extension Object](devenv-page-ext-object)  
+[Page Extension Object](devenv-page-ext-object.md)  
 [Actions Overview](devenv-actions-overview.md)  
 [Adding Pages and Reports to Search](devenv-al-menusuite-functionality.md)  
