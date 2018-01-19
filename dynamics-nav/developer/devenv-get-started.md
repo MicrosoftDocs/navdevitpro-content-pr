@@ -53,7 +53,9 @@ Interested in an on-premise version? It's just as easy. Just sign up by followin
 There are two JSON files in the project; the `app.json` file and the `launch.json` file. The files are automatically generated for your project. For more information, see [JSON files](devenv-json-files.md).
 
 ## Telemetry settings
-[!INCLUDE[nav_not_supported](includes/nav_not_supported.md)]
+
+> [!NOTE]  
+> [!INCLUDE[nav_not_supported](includes/nav_not_supported.md)]
 
 By default, Visual Studio Code is set up with a telemetry system to enable that data and errors are sent to Microsoft. If you do not want to send telemetry data, you can change the `telemetry.enableTelemetry` setting from `true` to `false`. 
 

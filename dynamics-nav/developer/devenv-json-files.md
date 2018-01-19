@@ -58,7 +58,7 @@ The following table describes the settings in the ```launch.json``` file. The `l
 |serverInstance|Yes|The instance name of your server, for example: `"NAV"`|
 |authentication|Yes|Specifies the server authentication method.|
 |startupObjectId|Yes|Specifies the ID of the object to open after publishing. Only objects of type Page are currently supported.|
-|schemaUpdateMode|Yes|Specifies the data synchronization mode when you publish an extension to the development server, for example: <br>`"schemaUpdateMode": "Synchronize Recreate"`</br> The default value is Synchronize. For more information, see [Retaining table data after publishing](devenv-retaining-data-after-publishing.md). [!INCLUDE[nav_not_supported](includes/nav_not_supported.md)]  |
+|schemaUpdateMode|Yes|Specifies the data synchronization mode when you publish an extension to the development server, for example: <br>`"schemaUpdateMode": "Synchronize Recreate"`</br> The default value is Synchronize. For more information, see [Retaining table data after publishing](devenv-retaining-data-after-publishing.md)  [!INCLUDE[nav_not_supported](includes/nav_not_supported.md)]  |
 
 ### Publish to cloud settings
 |Setting|Mandatory|Value|
