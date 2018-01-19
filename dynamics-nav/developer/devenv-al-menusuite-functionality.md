@@ -20,11 +20,10 @@ caps.latest.revision: 18
 AL provides navigational support for pages and reports in the client. You enable a page or report to be available through Search in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] using the **UsageCategory** setting. 
 
 
-## Working with the Search in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
-
+## Working with Search in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
 When you create a [Page](devenv-page-object.md) or a [Report](devenv-report-object.md), you add the [UsageCategory Property](properties/devenv-usagecategory-property.md). If the **UsageCategory** is set to **None**, or if you do not specify **UsageCategory**, the page or report will not show up when you use the Search functionality.  
 
-## UsageCategory Property Values
+## UsageCategory property values
 The values for the UsageCategory property are listed below: 
 
 - None
@@ -62,9 +61,8 @@ page 70050088 SimpleCustomerCard
 } 
 ```
 
-## Optional Accessibility Settings
-
-You can add a page or a report to the Search. Additionally, control the accessibility of an object by providing **Read**, **Insert**, **Modify**, **Delete** and **Execute** (RIMDX) permissions by adding the [AccessByPermission property](properties/devenv-accessbypermission-property.md). Likewise, control the application area access on the specified object by adding the [ApplicationArea Property](properties/devenv-applicationarea-property.md). 
+## Optional accessibility settings
+You can add a page or a report to Search. Additionally, control the accessibility of an object by providing **Read**, **Insert**, **Modify**, **Delete** and **Execute** (RIMDX) permissions by adding the [AccessByPermission property](properties/devenv-accessbypermission-property.md). Likewise, control the application area access on the specified object by adding the [ApplicationArea Property](properties/devenv-applicationarea-property.md). 
 
 The **AccessByPermission** property and **ApplicationArea** property are the optional settings, which can be applied with the **UsageCategory** property. These settings are used to set restrictions on an object when you enable the Search functionality. 
 
