@@ -36,6 +36,7 @@
 ## [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)
 ## [Customizing Dynamics 365 for Sales and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)
 ## [Multilanguage Development](Multilanguage-Development.md)
+## [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md)
 ## [Testing the Application](Testing-the-Application.md)
 ## [Debugging](Debugging.md)
 ## [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)
