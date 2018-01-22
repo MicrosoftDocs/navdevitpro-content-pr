@@ -25,9 +25,9 @@ Event tracing provides detailed information about what is occurring on the [!INC
 -   Windows event log events.  
   
 ## Event Trace Monitoring Tools  
- There are various industry-standard tools that you can use to collect event trace data. The procedures in this section use Windows Performance Monitor, PerfView, Event Viewer, and Windows PowerShell to illustrate how you can collect and view event trace data. For details about how to use these tools and others, refer to the documentation available with the tool.  
+There are various industry-standard tools that you can use to collect event trace data. The procedures in this section use Windows Performance Monitor, PerfView, Event Viewer, and Windows PowerShell to illustrate how you can collect and view event trace data. For details about how to use these tools and others, refer to the documentation available with the tool.  
   
-## Getting Started  
+## <a name="GetStartedEvents"></a>Get Started  
   
 |Task|For more information, see|  
 |----------|-------------------------------|  

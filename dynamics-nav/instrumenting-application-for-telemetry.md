@@ -49,11 +49,11 @@ SENDTRACETAG('MyCo-0005', 'Action', VERBOSITY::Verbose, 'This is a verbose messa
 To test out this code, add it to the `OnRun` tigger of a codeunit, and then run the codeunit.
 
 ## Viewing and collecting telemetry data
-Viewing and collecting telemetry data is done the same way as with other trace events emitted by [!INCLUDE[navnow](includes/navnow_md.md)], for example, by using tools like Event Viewer, Performance Monitor, PerfView, and LogMan.
+Viewing and collecting telemetry data is done the same way as with other trace events emitted by [!INCLUDE[navnow](includes/navnow_md.md)], for example, by using tools like Event Viewer, Performance Monitor, PerfView, and logman.
 
 In Event Viewer, telemetry trace events can be viewed from **Applications and Services Logs**, in the **Microsoft** > **DynamicsNAV** > **Common** folder. The custom telemetry trace events are recorded in the **Admin**  folder. You should be aware that only events with severity level of Warning, Error, and Critical will appear. For more information, see [Monitoring Dynamics NAV Server Events Using Event Viewer](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md).
 
-With other tools like Performance Monitor and PerfView, you can collect telemetry data by using **Microsoft-DynamicsNAV-Common** as the event trace provider. 
+With other tools like Performance Monitor and PerfView, you can collect telemetry data by using **Microsoft-DynamicsNAV-Common** as the event trace provider. For more information, see [Get Started Monitoring Events](Monitoring-Microsoft-Dynamics-NAV-Server-Event-Traces#GetStartedEvents).
 
 > [!IMPORTANT]  
 >  The [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance includes a configuration setting called **Diagnostic Trace Level** (`TraceLevel` in the customsettings.config file) that enables you to specify the lowest severity level of telemetry events to be recorded in the event log, or even turn off telemetry event logging altogether. If you do not see the expected events, then verify the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance configuration with an administrator. For information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md#General). 
