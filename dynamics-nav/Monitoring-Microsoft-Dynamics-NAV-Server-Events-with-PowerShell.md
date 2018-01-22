@@ -13,7 +13,7 @@ author: jswymer
 Events that occur on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances are recorded in event logs on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. You can view the events by using Windows PowerShell as described in this article.  
 
 ##  <a name="ViewEventsWinPS"></a> Using Windows PowerShell  
-You can use the Get-WinEvent cmdlet of Windows PowerShell to view [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events and trace events in the event logs and event tracing log files on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer. The Get-WinEvent cmdlet retrieves the same events that can be viewed in Event Viewer under **Applications and Services Logs** > **Microsoft** > **DynamicsNAV** (see [Monitoring Dynamics NAV Server Events Using Event Viewer](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log)). 
+You can use the Get-WinEvent cmdlet of Windows PowerShell to view [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events and trace events in the event logs and event tracing log files on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer. The Get-WinEvent cmdlet retrieves the same events that can be viewed in Event Viewer under **Applications and Services Logs** > **Microsoft** > **DynamicsNAV** (see [Monitoring Dynamics NAV Server Events Using Event Viewer](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md)). 
   
 The Get-WinEvent cmdlet includes several parameters that enable you to filter the events that you view and specify how the events are displayed. Windows PowerShell enables you can create scripts that perform complex operations for extracting and displaying specific event data. For more information about the Get-WinEvent cmdlet, see [Get-WinEvent](http://go.microsoft.com/fwlink/?LinkID=513535).  
   
@@ -23,7 +23,7 @@ For more information about installing and getting started with Windows PowerShel
   
 1.  If you want to view events in a **Debug** log, ensure that the log is enabled. The **Admin** and **Operational** logs are enabled by default.  
   
-     For information, see [To enable the Microsoft Dynamics NAV Server Debug Log from Windows PowerShell](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md#EnableLog).  
+     For information, see [To enable the Microsoft Dynamics NAV Server Debug Log from Windows PowerShell](Monitoring-Microsoft-Dynamics-NAV-Server-Events-with-PowerShell.md#EnableLog).  
   
 2.  On the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], start Window PowerShell.  
   
@@ -42,7 +42,7 @@ For more information about installing and getting started with Windows PowerShel
   
 ###  <a name="EnableLog"></a> To enable the Dynamics NAV Debug Logs from Windows PowerShell 
 
-There are two debug logs for Dynamics NAV: Microsoft-DynamicsNav-Server/Debug and Microsoft-DynamicsNav-Common/Debug.
+There are two debug logs for Dynamics NAV: **Microsoft-DynamicsNav-Server/Debug** and **Microsoft-DynamicsNav-Common/Debug**.
   
 1.  On the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], start Window PowerShell as an administrator.  
   
