@@ -11,7 +11,7 @@ ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
 # Instrumenting an Application for Telemetry
-This article describes how you can implement custom telemetry trace events in your application for collecting telemetry data. This data can then be visualized for the purpose troubleshooting or analyzing the application against the desired business goals. 
+This article describes how you can implement custom telemetry trace events in your application for collecting telemetry data. This data can then be collected and visualized for  troubleshooting or analyzing the application against the desired business goals. 
 
 ## Telemetry overview
 One aspect of event logging is collecting data about how the application and your deployment infrastructure is working in order to diagnose conditions and troubleshoot problems that affect operation and performance. For example, this type of event logging includes [!INCLUDE[nav_server_md](includes/nav_server_md.md)] events and trace events like SQL and AL function traces.
@@ -51,7 +51,7 @@ To test out this code, add it to the `OnRun` tigger of a codeunit, and then run 
 ## Viewing and collecting telemetry data
 Viewing and collecting telemetry data is done the same way as with other trace events emitted by [!INCLUDE[navnow](includes/navnow_md.md)], for example, by using tools like Event Viewer, Performance Monitor, PerfView, and LogMan.
 
-In Event Viewer, telemetry trace events can be viewed from **Applications and Services Logs**, in the **Microsoft** > **DynamicsNAV** > **Common** folder. The custom telemetry trace events are recorded in the **Admin**  folder. You should be aware that only events with severity level of Warning, Error, and Critical will appear. 
+In Event Viewer, telemetry trace events can be viewed from **Applications and Services Logs**, in the **Microsoft** > **DynamicsNAV** > **Common** folder. The custom telemetry trace events are recorded in the **Admin**  folder. You should be aware that only events with severity level of Warning, Error, and Critical will appear. For more information, see [Monitoring Dynamics NAV Server Events Using Event Viewer](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md).
 
 With other tools like Performance Monitor and PerfView, you can collect telemetry data by using **Microsoft-DynamicsNAV-Common** as the event trace provider. 
 
