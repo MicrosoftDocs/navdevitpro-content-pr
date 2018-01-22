@@ -12,14 +12,14 @@ author: jswymer
 # Monitoring Dynamics NAV Server Events with PowerShell
 Events that occur on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances are recorded in event logs on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. You can view the events by using Windows PowerShell as described in this article.  
 
-##  <a name="ViewEventsWinPS"></a> Using Windows PowerShell  
+##  <a name="ViewEventsWinPS"></a>PowerShell Get-WinEvent Cmdlet   
 You can use the Get-WinEvent cmdlet of Windows PowerShell to view [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events and trace events in the event logs and event tracing log files on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer. The Get-WinEvent cmdlet retrieves the same events that can be viewed in Event Viewer under **Applications and Services Logs** > **Microsoft** > **DynamicsNAV** (see [Monitoring Dynamics NAV Server Events Using Event Viewer](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md)). 
   
 The Get-WinEvent cmdlet includes several parameters that enable you to filter the events that you view and specify how the events are displayed. Windows PowerShell enables you can create scripts that perform complex operations for extracting and displaying specific event data. For more information about the Get-WinEvent cmdlet, see [Get-WinEvent](http://go.microsoft.com/fwlink/?LinkID=513535).  
   
 For more information about installing and getting started with Windows PowerShell, see [Getting Started with Windows PowerShell](http://go.microsoft.com/fwlink/?LinkID=254637).  
   
-## Use the Get-WinEvent Cmdlet to view events  
+## To usse the Get-WinEvent Cmdlet to view events  
   
 1.  If you want to view events in a **Debug** log, ensure that the log is enabled. The **Admin** and **Operational** logs are enabled by default.  
   
@@ -40,7 +40,7 @@ For more information about installing and getting started with Windows PowerShel
     |Events in the [!INCLUDE[nav_server](includes/nav_server_md.md)] Operational log|`Get-WinEvent -LogName Microsoft-DynamicsNav-Server/Operational`|  
     |Trace events in the [!INCLUDE[nav_server](includes/nav_server_md.md)] Debug log|`Get-WinEvent -LogName Microsoft-DynamicsNav-Server/Debug -Oldest`|  
   
-###  <a name="EnableLog"></a> To enable the Dynamics NAV Debug Logs from Windows PowerShell 
+##  <a name="EnableLog"></a> To enable the Dynamics NAV Debug Logs from Windows PowerShell 
 
 There are two debug logs for Dynamics NAV: **Microsoft-DynamicsNav-Server/Debug** and **Microsoft-DynamicsNav-Common/Debug**.
   
@@ -59,10 +59,10 @@ There are two debug logs for Dynamics NAV: **Microsoft-DynamicsNav-Server/Debug*
 > [!TIP]  
 >  You can also enable the Debug log from Event Viewer. For more information, see [Enable Analytic and Debug Logs](http://technet.microsoft.com/en-us/library/cc749492.aspx).  
   
-### Filtering [!INCLUDE[nav_server](includes/nav_server_md.md)] Events  
- You can filter the events that you view in a [!INCLUDE[nav_server](includes/nav_server_md.md)] log by setting the *FilterXpath* parameter of the Get-WinEvent cmdlet. The following examples illustrate how you can use the *FilterXpath* parameter to filter the [!INCLUDE[nav_server](includes/nav_server_md.md)] events.  
+## Filtering [!INCLUDE[nav_server](includes/nav_server_md.md)] Events  
+You can filter the events that you view in a [!INCLUDE[nav_server](includes/nav_server_md.md)] log by setting the *FilterXpath* parameter of the Get-WinEvent cmdlet. The following examples illustrate how you can use the *FilterXpath* parameter to filter the [!INCLUDE[nav_server](includes/nav_server_md.md)] events.  
   
- #### Example 1  
+### Example 1  
   
 The following example uses the Get-WinEvent cmdlet to view errors in the [!INCLUDE[nav_server](includes/nav_server_md.md)] Admin log for the tenant *MyTenant1* on the server instance *MyNavServerInstance1*.  
   
@@ -70,7 +70,7 @@ The following example uses the Get-WinEvent cmdlet to view errors in the [!INCLU
 Get-WinEvent -LogName 'Microsoft-DynamicsNav-Server/Admin' -FilterXPath "*[System[(Level=2)]] and *[EventData[Data[@Name='tenantId'] and (Data = 'MyTenant1')]] and *[EventData[Data[@Name='serverInstanceName'] and Data='MyNavServerInstance1']]" | Format-List -Property Message-  
 ```  
   
-#### Example 2  
+### Example 2  
   
 The following is an example of a Windows PowerShell script that you can create and run to view trace events in the [!INCLUDE[nav_server](includes/nav_server_md.md)] Debug log. The script returns the start and stop C/AL function trace events that take more than four seconds to execute on the tenant *MyTenant1* of the server instance *MyNavServerInstance1*.  
   
