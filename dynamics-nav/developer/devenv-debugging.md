@@ -30,6 +30,9 @@ For the preview, there are a number of limitations to be aware of:
 - The debugger launches a new client instance each time you press F5. If you close the debugging session, and then start a new session, this new session will rely on a new client instance. We recommend that you close the Web client instances when you close a debugging session.  
 - And finally, using the debugger with the online sandbox signup and AAD authentication method is not yet supported.
 
+> [!TIP]  
+> To control table data synchronization between each debugging session, see [Retaining table data after publishing](devenv-retaining-data-after-publishing.md).  
+
 ## Breakpoints  
 The basic concept in debugging is the *breakpoint*, which is a mark that you set on a statement. When the program flow reaches the breakpoint, the debugger stops execution until you instruct it to continue. Without any breakpoints, the code runs without interruption when the debugger is active. Set a breakpoint by using the Debug Menu in Visual Studio Code. 
 
