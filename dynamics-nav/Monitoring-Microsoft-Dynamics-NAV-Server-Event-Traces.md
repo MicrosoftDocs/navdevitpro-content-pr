@@ -12,7 +12,7 @@ author: jswymer
 # Monitoring Microsoft Dynamics NAV Server Event Traces
 Event tracing provides detailed information about what is occurring on the [!INCLUDE[nav_server](includes/nav_server_md.md)] and application when users work with [!INCLUDE[navnow](includes/navnow_md.md)]. This can help you identify and analyze problems or conditions that affect performance. Event tracing enables you to dynamically monitor [!INCLUDE[nav_server](includes/nav_server_md.md)] without having to restart the server or [!INCLUDE[navnow](includes/navnow_md.md)] clients. By using industry-standard tools for event tracing, you can start and stop event tracing sessions, and then view the trace event data from a stored log file.  
   
- You can use event tracing to track the following operations on [!INCLUDE[nav_server](includes/nav_server_md.md)] instances:  
+You can use event tracing to track the following operations on [!INCLUDE[nav_server](includes/nav_server_md.md)] instances:  
   
 -   Running [!INCLUDE[navnow](includes/navnow_md.md)] reports, queries, and XMLports.  
   
@@ -20,7 +20,7 @@ Event tracing provides detailed information about what is occurring on the [!INC
   
 -   Execution of C/AL functions.  
 
--   User activity (telemetry). 
+-   Telemetry. 
   
 -   Windows event log events.  
   
@@ -35,9 +35,9 @@ There are various industry-standard tools that you can use to collect event trac
 |Collect event trace data in an event trace log \(.etl\) file. Use the event trace monitoring tool to start an event trace session.|[How to: Use Performance Monitor to Collect Event Trace Data](How-to--Use-Performance-Monitor-to-Collect-Event-Trace-Data.md)<br /><br /> [How to: Use PerfView to Collect Event Trace Data](How-to--Use-PerfView-to-Collect-Event-Trace-Data.md)<br /><br />[How to: Use Logman to Collect Event Trace Data](How-to--Use-Logman-to-Collect-Event-Trace-Data.md)|  
 |View event trace data that is contained in an .etl file.|[How to: Use PerfView to View Event Trace Data](How-to--Use-PerfView-to-View-Event-Trace-Data.md)|  
 |Use Event Viewer to collect and view event trace data|[How to: Use Event Viewer to Collect and View Trace Events](How-to--Use-Event-Viewer-to-Collect-and-View-Trace-Events.md)|  
-|Use Windows PowerShell to view event trace data|[Viewing Microsoft Dynamics NAV Server Events by Using Windows PowerShell](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md#ViewEventsWinPS)|  
+|Use Windows PowerShell to view event trace data|[Viewing Microsoft Dynamics NAV Server Events by Using Windows PowerShell](Monitoring-Microsoft-Dynamics-NAV-Server-Events-with-PowerShell.md)|  
   
 ## See Also  
- [Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md)   
- [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
- [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)
+[Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md)   
+[Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
+[Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)
