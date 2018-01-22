@@ -1,5 +1,5 @@
 ---
-title: "Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log"
+title: "Monitoring Microsoft Dynamics NAV Server Events in Event Viewer and PowerShell"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
