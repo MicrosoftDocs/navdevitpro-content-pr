@@ -19,7 +19,7 @@ The Get-WinEvent cmdlet includes several parameters that enable you to filter th
   
 For more information about installing and getting started with Windows PowerShell, see [Getting Started with Windows PowerShell](http://go.microsoft.com/fwlink/?LinkID=254637).  
   
-## To usse the Get-WinEvent Cmdlet to view events  
+## To use the Get-WinEvent Cmdlet to view events  
   
 1.  If you want to view events in a **Debug** log, ensure that the log is enabled. The **Admin** and **Operational** logs are enabled by default.  
   
