@@ -73,9 +73,9 @@ The following table lists the SQL trace events.
 |-------------|-------------|-------------------|-----------------------|  
 |Microsoft-DynamicsNAV-Server|ServiceCall|4|0x4|  
   
- The event data that is collected includes: session ID, tenant ID, [!INCLUDE[navnow](includes/navnow_md.md)] user, and the [!INCLUDE[navnow](includes/navnow_md.md)] object ID. For more information, see [Event Trace Data](Microsoft-Dynamics-NAV-Server-Trace-Events.md#ArgRef).  
+The event data that is collected includes: session ID, tenant ID, [!INCLUDE[navnow](includes/navnow_md.md)] user, and the [!INCLUDE[navnow](includes/navnow_md.md)] object ID. For more information, see [Event Trace Data](Microsoft-Dynamics-NAV-Server-Trace-Events.md#ArgRef).  
   
- The following table lists the service call trace events.  
+The following table lists the service call trace events.  
   
 |ID|Event \(task/opcode\)|What is traced|  
 |--------|----------------------------|--------------------|  
@@ -95,12 +95,12 @@ C/AL function tracing events track the execution of C/AL functions and statement
 |-------------|-------------|-------------------|-----------------------|  
 |Microsoft-DynamicsNAV-Server|ALTracing|8|0x8|  
   
- The event data that is collected includes: session ID, tenant ID, [!INCLUDE[navnow](includes/navnow_md.md)] user, C/ALC/AL function, C/AL statements, and line number. For more information, see [Event Trace Data](Microsoft-Dynamics-NAV-Server-Trace-Events.md#ArgRef).  
+The event data that is collected includes: session ID, tenant ID, [!INCLUDE[navnow](includes/navnow_md.md)] user, C/ALC/AL function, C/AL statements, and line number. For more information, see [Event Trace Data](Microsoft-Dynamics-NAV-Server-Trace-Events.md#ArgRef).  
   
 > [!IMPORTANT]  
 >  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is not configured for full C/AL function tracing, then only root-level C/AL function will be traced. Statements and C/AL functions that are called from functions will not be traced. By default, the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is not configured for full C/AL functionf tracing. For information about how to specify full C/AL function tracing, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
   
- The following table lists the C/AL function tracing events.  
+The following table lists the C/AL function tracing events.  
   
 |ID|Event \(task/opcode\)|What is traced|  
 |--------|----------------------------|--------------------|  
@@ -114,7 +114,7 @@ Telemetry trace events provide data about the application functions and how it i
 
 |Event trace provider|Keyword|Decimal value|Hexadecimal value|  
 |-------------|-------------|-------------------|-----------------------|  
-|Microsoft-DynamicsNAV-Common|TelemetryData|||  
+|Microsoft-DynamicsNAV-Common|TelemetryTracing|32|0x20|  
 
 Custom telemtry trace events that are emitted from the application. These are events that are sent by [SENDTRACETAG function](sendtracetag-function.md) calls from inside the application. For more information about custom telemetry trace events, see [Instrumenting av Application for Telemetry](instrumenting-application-for-telemetry.md)].  
 
