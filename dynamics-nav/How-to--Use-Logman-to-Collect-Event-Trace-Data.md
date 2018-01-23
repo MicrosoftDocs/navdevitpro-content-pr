@@ -78,4 +78,5 @@ You can also use PerView. For more information, see [How to: Use PerfView to Vie
   
 ## See Also  
  [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
- [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)
+ [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)  
+ [Instrumenting av Application for Telemetry](instrumenting-application-for-telemetry.md)]
