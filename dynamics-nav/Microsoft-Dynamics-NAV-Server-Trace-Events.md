@@ -139,5 +139,5 @@ Custom telemtry trace events that are emitted from the application. These are ev
 |userName|Specifies the [!INCLUDE[navnow](includes/navnow_md.md)] user account that is logged on to the session.|All|  
 
 ## See Also  
- [Monitoring Microsoft Dynamics NAV Server Event Traces](Monitoring-Microsoft-Dynamics-NAV-Server-Event-Traces.md)   
+ [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
  [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)

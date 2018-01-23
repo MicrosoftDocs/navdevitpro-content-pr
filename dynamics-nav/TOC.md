@@ -1295,7 +1295,7 @@
 # [How to: Set an Icon on an Activity Button](How-to--Set-an-Icon-on-an-Activity-Button.md)
 # [DELETEALL Function (RecordRef)](DELETEALL-Function--RecordRef-.md)
 # [PasteIsValid Property](PasteIsValid-Property.md)
-# [Monitoring Microsoft Dynamics NAV Server Event Traces](Monitoring-Microsoft-Dynamics-NAV-Server-Event-Traces.md)
+# [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)
 # [ISACTIVE Function (Debugger)](ISACTIVE-Function--Debugger-.md)
 # [Integration Triggers](Integration-Triggers.md)
 # [AutoSave Property](AutoSave-Property.md)
