@@ -44,7 +44,7 @@ The code requires that you create the following C/AL variable.
 
 
 ```
-    MySessionSettings.INIT
+    MySessionSettings.INIT;
     MySessionSettings.COMPANY('MyCompany');
     MySessionSettings.REQUESTSESSIONUPDATE(false);
 ```  
