@@ -22,6 +22,7 @@ C/AL test functions that have the [FunctionType](FunctionType-Property--Test-Cod
 The **HandlerIsOptional** property determines how a **SendNotificationHandler** or **RecallNotificationHandler** handler behaves when testing notifications that are sent (by a [SEND function](function-notificationsend.md) call) or recalled (by a [Recall function](function-notificationrecall.md) call) in a test function. You are not required to have a notification handler, even if a notification is sent or recalled from the test code. The following table provides an overview of the behavior if you use a notification handler: 
 
 |Test function code|HandlerIsOptional=Yes|HandlerIsOptional=No|
+|------------------|---------------------|--------------------|
 |Sends/recalls a notification|Handler gets called; test succeeds|Handler gets called; test succeeds|
 |Does not send/recall a notification|Handler is not called; test succeeds|Handler is not called; test fails.|
 
