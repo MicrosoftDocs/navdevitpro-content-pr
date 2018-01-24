@@ -45,7 +45,7 @@ The code requires that you create the following C/AL variable.
 
 
 ```
-    MySessionSettings.INIT
+    MySessionSettings.INIT;
     MySessionSettings.PROFILEID('MyExtensionProfile');
     MySessionSettings.PROFILEAPPID('12345678-1234-1234-1234-1234567890AB');
     MySessionSettings.REQUESTSESSIONUPDATE(false);
