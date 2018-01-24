@@ -42,7 +42,7 @@ This example creates a SessionSettings object that is populated with the current
 var
   MySessionSettings : SessionSettings;
   begin
-    MySessionSettings.INIT
+    MySessionSettings.INIT;
     MySessionSettings.PROFILEID('Business Manager');
     MySessionSettings.REQUESTSESSIONUPDATE(false);
   end;  
