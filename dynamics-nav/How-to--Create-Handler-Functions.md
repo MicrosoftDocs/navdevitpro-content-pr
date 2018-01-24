@@ -52,18 +52,18 @@ Before you begin, you must create a test codeunit and test function that will us
   
     |FunctionType|Signature|  
     |------------------|---------------|  
-    |MessageHandler|\<*Function name*>\(\<*Msg*> : Text\[1024\]\)|  
-    |ConfirmHandler|\<*Function name*>\(\<*Question*> : Text\[1024\]; VAR \<*Reply*> : Boolean\)|  
-    |StrMenuHandler|\<*Function name*>\(\<*Options* : Test\[1024\]; VAR \<*Choice*> : Integer; \<*Instruction*> : Text\[1024\]\)|  
-    |PageHandler|\<*Function name*>\(VAR \<*variable name*> : Page \<*page id*>\)<br /><br /> \<*Function name*>\(VAR \<*variable name*> : TestPage \<*testpage id*>\)|  
-    |ModalPageHandler|\<*Function name*>\(VAR \<*variable name*> : Page \<*page id*>; VAR \<*Response*> : Action\)<br /><br /> \<*Function name*>\(VAR \<*variable name*> : Page \<*testpage id*>\)|  
-    |ReportHandler|\<*Function name*>\(VAR \<*report name*> : Report \<*report id*>\)|  
-    |RequestPageHandler|\<*Function name*>\(VAR \<*TestRequestPage* > : TestRequestPage\)|  
-    |FilterPageHandler|\<*Function name*>\(VAR \<*RecRef1*> : RecordRef\)\[, VAR \<*RecRef2*> : RecordRef\] **Note:**  You must a VAR parameter for each record on the FilterPageBuilder object. For more informatiion about Filter|  
-    |HyperlinkHandler|\<*Function name*>\(\<*Hyperlink*> : Text\[1024\]\)|  
-    |SendNotificationHandler|\<*Function name*>\(\<*Hyperlink*> : Text\[1024\]\)|
-    |RecallNotificationHandler|\<*Function name*>\(\<*Hyperlink*> : Text\[1024\]\)|
-    |SessionSettingsHandler|\<*Function name*>\(\<*Hyperlink*> : Text\[1024\]\)|
+    |MessageHandler|`<Function name>(<Msg> : Text[1024])`|  
+    |ConfirmHandler|`<Function name>(<Question> : Text[1024]; VAR <Reply> : Boolean)`|  
+    |StrMenuHandler|`<Function name>(<Options> : Text[1024]; VAR <Choice> : Integer; <Instruction> : Text[1024])`|  
+    |PageHandler|`<Function name>(VAR <variable name> : Page <page id>)`<br /><br />`<Function name>(VAR <variable name> : TestPage <testpage id>)`|  
+    |ModalPageHandler|`<Function name>(VAR <variable name> : Page <page id>; VAR <Response> : Action)`<br /><br />`<Function name>(VAR <variable name> : Page <testpage id>)`|  
+    |ReportHandler|`<Function name>(VAR <report name> : Report <report id>)`|  
+    |RequestPageHandler|`<Function name>(VAR <TestRequestPage> : TestRequestPage)`|  
+    |FilterPageHandler|`<Function name>(VAR <RecRef1> : RecordRef)[, VAR <RecRef2> : RecordRef]`<br /><br /> **Note:**  You must a VAR parameter for each record on the FilterPageBuilder object. For more informatiion about Filter|  
+    |HyperlinkHandler|`<Function name>(<Hyperlink> : Text[1024])`|  
+    |SendNotificationHandler|`<Function name>(VAR <variable name> : Notification) : Boolean`|
+    |RecallNotificationHandler|`<Function name>(VAR <variable name> : Notification) : Boolean`|
+    |SessionSettingsHandler|`<Function name>(VAR <variable name> : SessionSettings) : Boolean`|
   
      The parameters of the functions that are being handled are passed as parameters to the handler functions. For example, when MESSAGE is called in a test function, the parameter of the MESSAGE function is passed as the parameter of the MessageHandler function. For page and report handlers, the page, report, or request page is passed as the parameter of the PageHandler, ModalPageHandler, ReportHandler, or RequestPageHandler.  
   
