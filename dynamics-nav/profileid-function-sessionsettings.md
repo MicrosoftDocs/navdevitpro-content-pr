@@ -42,7 +42,7 @@ The code requires that you create the following C/AL variable.
 |MySessionSettings|SessionSettings|  
 
 ```
-    MySessionSettings.INIT
+    MySessionSettings.INIT;
     MySessionSettings.PROFILEID('Business Manager');
     MySessionSettings.REQUESTSESSIONUPDATE(false);
 ```  
