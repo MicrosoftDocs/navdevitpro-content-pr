@@ -63,9 +63,9 @@ It's easy to get started. Just spin up a tenant by going through these steps.
 + The resource ID must be provided in the URL when trying to read or modify a resource or any of its children. The ID is provided in () after the API endpoint. For example, to GET the “CRONUS USA, Inc.” company details, you must call `<endpoint>/companies(bb6d48b6-c7b2-4a38-9a93-ad5506407f12)/`
 + All resources live in the context of a parent company, which means that the company ID must be provided in the URL for all resource API calls. For example, to GET all customers in the “CRONUS USA, Inc.” company, you must call `<endpoint>/companies(bb6d48b6-c7b2-4a38-9a93-ad5506407f12)/customers`
 
-### Delta token 
+### Delta
 
-Delta tokens are opaque, service-generated links that the client uses to retrieve subsequent changes to a result. 
+Delta links are opaque, service-generated links that the client uses to retrieve subsequent changes to a result. 
 
 > [!Note]  
 > Delta token support is available only in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and not available in Dynamics NAV.
