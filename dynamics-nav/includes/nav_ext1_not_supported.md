@@ -1,7 +1,5 @@
 > [!NOTE]  
-> Extensions v1.0 are no longer supported. 
-
-For more information about writing extensions in AL, see the following sections:
+> Extensions v1.0 are no longer supported. The text in the article applies to extensions v1.0. For information about writing extensions in AL, see the table below.
 
 |For information about |See |
 |----------------------|----|
