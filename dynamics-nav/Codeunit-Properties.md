@@ -65,6 +65,8 @@ This topic lists properties that apply to the Codeunit object, variables, text c
 -   [FunctionType Property \(Test Codeunits\)](FunctionType-Property--Test-Codeunits-.md)  
   
 -   [HandlerFunctions Property](HandlerFunctions-Property.md)  
+
+-   [HandlerIsOptional Property](handlerisoptional-property.md)  
   
 -   [TransactionModel Property](TransactionModel-Property.md)  
   
