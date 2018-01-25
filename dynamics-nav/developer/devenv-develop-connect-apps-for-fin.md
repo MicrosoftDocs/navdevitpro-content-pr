@@ -40,8 +40,8 @@ It's easy to get started. Just spin up a tenant by going through these steps.
 
 + Call (GET) the endpoint to list all the API
 + Call (GET) the endpoint with `$metadata` to list all metadata for the API
-+ Call (GET) the endpoint with the `odata.track-changes` preference to obtain the deltaLink to return the records that have changed in the data set since the last query
-+ Call (GET) the endpoint with `$filter` to list all the records within the specified range
++ Call (GET) the endpoint with the `odata.track-changes` preference to obtain a [deltaLink](devenv-develop-connect-apps-for-fin.md#delta-token) to return the records that have changed in the data set since the last query
++ Call (GET) the endpoint with `$filter` to list all the records within the specified range by providing [Filters](devenv-develop-connect-apps-for-fin.md#filters)
 + Calling a resource API (GET) will return a list of all instances of the resource type
 + Each resource is uniquely identified through an ID, see the following example:  
 
@@ -58,7 +58,6 @@ It's easy to get started. Just spin up a tenant by going through these steps.
             }
         ]
     }
-
     ```
 
 + The resource ID must be provided in the URL when trying to read or modify a resource or any of its children. The ID is provided in () after the API endpoint. For example, to GET the “CRONUS USA, Inc.” company details, you must call `<endpoint>/companies(bb6d48b6-c7b2-4a38-9a93-ad5506407f12)/`
