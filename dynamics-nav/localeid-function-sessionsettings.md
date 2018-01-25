@@ -43,7 +43,7 @@ The code requires that you create the following C/AL variable.
 
 
 ```
-    MySessionSettings.INIT
+    MySessionSettings.INIT;
     MySessionSettings.LOCALEID(1033);
     MySessionSettings.REQUESTSESSIONUPDATE(false);
 ```  
