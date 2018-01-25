@@ -1,46 +1,39 @@
 ---
 title: "Extension Packages Capability Support Matrix"
-author: edupont04
+author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/03/2017
+ms.date: 01/16/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.assetid: 83351319-ce8a-4a84-9831-f68ed9f14835
-ms.author: edupont
+ms.author: solsen
 ---
-# Extension Packages Capability Support Matrix
-In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can add new objects of the following object types to an extension:  
 
-- Pages
-- Tables
-- Codeunits
-- Reports
-- XMLports
-- Queries
-- Menu suites  
+# Extension Capability Support Matrix
+If you want to modify existing code, use extensions to do so. For more information to get started, see [Development in AL](developer/devenv-dev-overview.md). In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can add new objects of the following object types to an extension:  
 
-An extension package can also contain modifications of objects of the following object types:  
+- [Table object](developer/devenv-table-object.md)
+- [Table extension object](developer/devenv-table-ext-object.md)
+- [Page object](developer/devenv-page-object.md)
+- [Page extension object](developer/devenv-page-ext-object.md)
+- [Page customization object](developer/devenv-page-customization-object.md)
+- [Profile object](developer/devenv-profile-object.md)
+- [Report object](developer/devenv-report-object.md)
+- [XmlPort object](developer/devenv-xmlport-object.md)
+- [Query object](developer/devenv-query-object.md)
+- [Control add-in object](developer/devenv-control-addin-object.md)
+- [Codeunit object](developer/devenv-codeunit-object.md)
 
-- Pages
-- Tables
-
-You cannot delete any existing objects. Also, certain properties cannot be modified by an extension as described in the [Restricted Properties](#RestrictedProperties) section.  
+You cannot delete any existing objects. To see the properties that apply to the available objects, see [Properties](developer/properties/devenv-properties.md). 
 
 > [!IMPORTANT]  
->  You cannot modify any existing C/AL code, including code in codeunits and in triggers on existing objects. You cannot include any modifications of codeunits in an extension package. If you want to modify existing code, use the new C/AL eventing model. This restriction is only on existing code and objects. New pages, tables, and so on, can contain C/AL code as it is considered part of the new object.  
+> When developing cloud solutions, .NET is not considered secure, and you must rewrite code to use other classes that the extension framework makes available. For more information, see [HTTP, JSON, TextBuilder, and XML API Overview](developer/devenv-restapi-overview.md).
 
-In addition to the object types described above, you are also able to include per-tenant web services, multilanguage files, and the following types of data:
-
--	Permission sets  
--	Web services  
--	Table data  
--	Custom report layouts  
-
-
-## <a name="RestrictedProperties"></a> Restricted properties  
+<!--
+## Restricted properties  
  There are restrictions on certain property changes for modified objects. The following sections list the properties you cannot change. The cmdlets that create and install packages will halt with errors if any of these properties are changed in your extension.  
 
 ### Restricted properties on existing page modifications  
@@ -180,8 +173,8 @@ You can add table keys, but you cannot delete or modify existing keys.
 -   ValuesAllowed Width  
 
 You can add fields to a table group, but you cannot remove fields or groups.  
+-->
 
 ## See Also  
- [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
- [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
- [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)
+[Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
+[Development in AL](developer/devenv-dev-overview.md)  

@@ -16,6 +16,9 @@ caps.latest.revision: 18
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
+> [!NOTE]  
+> [!INCLUDE[nav_not_supported](includes/nav_not_supported.md)]
+
 # How to: Create an RDL Layout Report
 When you create a new report for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], there are two things you have to think about; defining the report dataset of data items and columns, and then designing the report layout. These steps will show you how to create a very simple report based on an RDL layout. For more information about the report object, see [Report Object](devenv-report-object.md).
 
@@ -67,3 +70,4 @@ You will now see the generated report in preview mode.
 
 ## See Also
 [Report Object](devenv-report-object.md)  
+[How to: Create a Word Layout Report](devenv-howto-report-layout.md)  
