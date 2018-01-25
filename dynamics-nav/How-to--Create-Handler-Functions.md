@@ -36,6 +36,7 @@ Handlers react to specific function calls in the test functions that generate UI
 
 ## Requirements
 Except for **SendNotificationHandler** and **RecallNotificationHandler** types, if the test function calls a function that has UI, then you must have a correspondiing handler for the function; otherwise the test will fail. On the otherhand, if you have a handler but the test function code does not call a function that corresponds to the handler, the test will fail as well. 
+
 With **SendNotificationHandler** and **RecallNotificationHandler** handlers, you are not required to have a notification handler, even if a notification is sent or recalled from the test code. In addition, you can use the use the [HandlerIsOptional property](function-notificationrecall.md) to control the handler's behavior if you implement one. 
  
 ## Create a handler function  
