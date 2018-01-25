@@ -75,17 +75,17 @@ The user can obtain a delta link from each entity API in the library by includin
 
 On subsequent calls, the API consumer can use the deltaLink URL, which will provide the changes that have occurred in the data set since the initial request was made including the following points.
 
-+ Any records that have not changed will exclude from the resulting response.
-+ Any added or updated entries appear as regular JSON objects with their current properties.
-+ Any records that have been removed will include in the response but represented only by their `"id"` and a `@odata.context` URL followed by a `/$deletedEntity`.
++ Any records that have not changed will exclude from the resulting response
++ Any added or updated entries appear as regular JSON objects with their current properties
++ Any records that have been removed will include in the response but represented only by their `"id"` and a `@odata.context` URL followed by a `/$deletedEntity`
 
 
 #### Example 
 In the following example, the specified changes have occurred since the initial API was called.
 
-1. A customer name was changed to "Super Cloud".
-2. A customer record was deleted.
-3. A new customer "Alpine Ski House" was created.
+1. A customer name was changed to "Super Cloud"
+2. A customer record was deleted
+3. A new customer "Alpine Ski House" was created
 
 When the API consumer calls a GET using the `@odata.deltaLink`, as shown below.  
 
@@ -133,7 +133,7 @@ The response would return with the specified changes in the result, see the foll
 
 ### Filters
 
-+ You can provide filters in API calls. The syntax for this follows the [Microsoft REST API guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#97-filtering). For example, to GET all open (unpaid) sales invoices above 1000.00 excl tax, call `<endpoint>/companies(bb6d48b6-c7b2-4a38-9a93-ad5506407f12)/salesInvoices?$filter=status eq 'Open' and totalAmountExcludingTax gt 1000.00` 
++ You can provide filters in API calls. The syntax for this follows the [Microsoft REST API guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#97-filtering). For example, to GET all open (unpaid) sales invoices above 1000.00 excl tax, call `<endpoint>/companies(bb6d48b6-c7b2-4a38-9a93-ad5506407f12)/salesInvoices?$filter=status eq 'Open' and totalAmountExcludingTax gt 1000.00`.
 
 + You can include filters for the delta links; which are typically based on the GET query call. When calling the API with the deltaLink to get the changes, each entity that previously did not match the filter criteria, but matches it now, returns as an `"add"` entity. Each entity that previously matched the query but no longer does, either because the entity was deleted, or the properties of the entity have changed such that it no longer matches the query parameters. In this case, it returns as a `"removed"` entity.
 
