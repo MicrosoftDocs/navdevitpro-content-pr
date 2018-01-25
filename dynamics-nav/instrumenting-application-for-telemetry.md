@@ -22,7 +22,7 @@ By default, the [!INCLUDE[navnow](includes/navnow_md.md)] application is instrum
 
 ## Creating custom telemetry events
 
-To create a custom telemetry event, you use the [SENDTRACETAG function](sendtracetag-function.md) in C/AL code. The SENDTRACETAG function has the following syntax:
+To create a custom telemetry event, you use the [SENDTRACETAG function](sendtracetag-function.md) in C/AL code. You can use the SENDTRACETAG function in any object, trigger or function. The SENDTRACETAG function has the following syntax:
 
 ```  
 SENDTRACETAG(Tag, Category, Verbosity, Message)  
@@ -32,23 +32,23 @@ You use the parameters to define the information about the telemetry trace event
 
 |Parameter|Description|
 |---------|-----------|
-|Tag|A text string that assigns an identifier to the telemetry trace event. The tag can consist of letters, numbers, and special characters. For example, system telemetry events use an auto-generated 7-character tag, such as 000002Q. Try to make your tags unique, for example, by using a prefix. |
-|Category|A text string that assigns the telemetry trace event to a category.|
-|Verbosity|An enumeration that specifies the severity level of the telemetry trace event. The value can be Critical, Error, Warning, Normal, Verbose.|
+|Tag|A text string that assigns an identifier to the telemetry trace event. The tag can consist of letters, numbers, and special characters. [!INCLUDE[navnow_md](includes/navnow_md.md)] system telemetry events use an auto-generated, auto-incremented, 7-character tag that includes numbers and letter, such as 000002Q. and 000013P. Try to make your tags unique from these telemetry event tags by, for example, using at least 8 characters or a prefix, like Cronus-0001 and Cronus-0002.  |
+|Category|A text string that assigns the telemetry trace event to a category that you define. For example, you could have a category for upgrading, user activity, or reporting.|
+|Verbosity|An enumeration that specifies the severity level of the telemetry trace event. The value can be Critical, Error, Warning, Normal, Verbose. This severity level can be used by [!INCLUDE[nav_server_md](includes/nav_server_md.md)] to filter out lower-level telemetry trace events from being emitted. See [Viewing and collecting telemetry data](instrumenting-application-for-telemetry.md#ViewTelemetry) |
 |Message|A text string that specifies the descriptive message for the telemetry trace event.|
 
 For example, the following code creates simple telemetry trace events for the five different severity levels. 
 ```  
-SENDTRACETAG('MyCo-0001', 'Action', VERBOSITY::Critical, 'This is a critical message.');
-SENDTRACETAG('MyCo-0002', 'Action', VERBOSITY::Error, 'This is an error message.');
-SENDTRACETAG('MyCo-0003', 'Action', VERBOSITY::Warning, 'This is a warning message.');
-SENDTRACETAG('MyCo-0004', 'Action', VERBOSITY::Normal, 'This is an informational message.');
-SENDTRACETAG('MyCo-0005', 'Action', VERBOSITY::Verbose, 'This is a verbose message. ');
+SENDTRACETAG('Cronus-0001', 'UserActivity', VERBOSITY::Critical, 'This is a critical message.');
+SENDTRACETAG('Cronus-0002', 'UserActivity', VERBOSITY::Error, 'This is an error message.');
+SENDTRACETAG('Cronus-0003', 'UserActivity', VERBOSITY::Warning, 'This is a warning message.');
+SENDTRACETAG('Cronus-0004', 'UserActivity', VERBOSITY::Normal, 'This is an informational message.');
+SENDTRACETAG('Cronus-0005', 'UserActivity', VERBOSITY::Verbose, 'This is a verbose message. ');
 ```  
 
-To test out this code, add it to the `OnRun` tigger of a codeunit, and then run the codeunit.
+For a simple test of this code, add it to the `OnRun` trigger of a codeunit, and then run the codeunit. Of course, you can also try it from other objects, triggers or functions as well.
 
-## Viewing and collecting telemetry data
+## <a name="ViewTelemetry"></a>Viewing and collecting telemetry data
 Viewing and collecting telemetry data is done the same way as with other trace events emitted by [!INCLUDE[navnow](includes/navnow_md.md)], for example, by using tools like Event Viewer, Performance Monitor, PerfView, or logman.
 
 In Event Viewer, telemetry trace events can be viewed from **Applications and Services Logs**, in the **Microsoft** > **DynamicsNAV** > **Common** folder. The custom telemetry trace events are recorded in the **Admin**  folder. You should be aware that only events with severity level of Warning, Error, and Critical will appear. For more information, see [Monitoring Dynamics NAV Server Events Using Event Viewer](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md).
