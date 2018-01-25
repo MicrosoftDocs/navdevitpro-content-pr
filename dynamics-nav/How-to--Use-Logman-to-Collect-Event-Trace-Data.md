@@ -68,7 +68,8 @@ The data is now stored in an .elt file.
 
 There are various industry tools available for viewing data in .etl files.
 
-For example, from the command line, you can use the [tracerpt command](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc732700(v=ws.11) to create dump files, summary, and report files. The following code creates files for the MyTelemetryTraceData_000001.etl file:  
+For example, from the command line, you can use the
+ [tracerpt command](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc732700(v=ws.11)) to create dump files, summary, and report files. The following code creates files for the MyTelemetryTraceData_000001.etl file:  
   
 ```
 tracerpt c:\perflogs\MyTelemetryTraceData_000001.etl -o c:\perflogs\MyTelemetry-dmp.xml -of XML -summary c:\perflogs\MyTelemetry-summary.txt -report c:\perflogs\MyTelemetry-rpt.xml
@@ -79,4 +80,4 @@ You can also use PerView. For more information, see [How to: Use PerfView to Vie
 ## See Also  
  [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
  [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)  
- [Instrumenting av Application for Telemetry](instrumenting-application-for-telemetry.md)]
+ [Instrumenting av Application for Telemetry](instrumenting-application-for-telemetry.md)  
