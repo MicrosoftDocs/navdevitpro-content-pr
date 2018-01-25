@@ -34,7 +34,9 @@ Handlers react to specific function calls in the test functions that generate UI
 |RecallNotificationHandler|Handles [RECALL](function-notificationrecall.md) function calls.|  
 |SessionSettingsHandler|Handles [REREQUESTSESSIONUPDATE](requestsessionupdate-function-sessionsettings.md) function calls.|  
 
-Except for **SendNotificationHandler** and **RecallNotificationHandler** types, if the test function calls a function that has UI, then you must have a correspondiing handler for the function; otherwise the test will fail. On the otherhand, if you have a handler but the test function code does not call a function that corresponds to the handler, the test will fail as well. **SendNotificationHandler** and **RecallNotificationHandler** handlers do not have the same hard requirements. 
+## Requirements
+Except for **SendNotificationHandler** and **RecallNotificationHandler** types, if the test function calls a function that has UI, then you must have a correspondiing handler for the function; otherwise the test will fail. On the otherhand, if you have a handler but the test function code does not call a function that corresponds to the handler, the test will fail as well. 
+With **SendNotificationHandler** and **RecallNotificationHandler** handlers, you are not required to have a notification handler, even if a notification is sent or recalled from the test code. In addition, you can use the use the [HandlerIsOptional property](function-notificationrecall.md) to control the handler's behavior if you implement one. 
  
 ## Create a handler function  
   
@@ -54,7 +56,7 @@ Except for **SendNotificationHandler** and **RecallNotificationHandler** types, 
   
 7.  In the **Properties** window, in the **FunctionType** property, select the type of handler from the drop-down list. 
 
-8.  If you are creating a **SendNotificationHandler** or **RecallNotificationHandler** type, then In the **Properties** window, se t the  **HandlerIsOptional** property to specify whether the handler is optional or not.
+8.  If you are creating a **SendNotificationHandler** or **RecallNotificationHandler** type, then in the **Properties** window, set the  **HandlerIsOptional** property to specify whether the handler is optional or not.
 
     For more information, see [HandlerIsOptional Property](handlerisoptional-property.md).   
   
