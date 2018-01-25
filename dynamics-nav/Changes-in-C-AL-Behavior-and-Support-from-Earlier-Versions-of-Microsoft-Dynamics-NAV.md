@@ -38,7 +38,7 @@ The following table lists the changes functions.
 ### New properties
 |Property|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
-|None|| 
+|[HandlerIsOptional Property](handlerisoptional.md)|Sets whether the notification handler function is optional.  | 
 
 ### Changed properties
 |Property|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
