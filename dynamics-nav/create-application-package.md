@@ -13,33 +13,43 @@ author: jswymer
 ---
 # Creating a Deployment Package
 
+This topic describes how to prepare an application database and tenant database from a single Microsoft Dynamics NAV database for deployment on an application in the Dynamics NAV Management Portal.
+The Dynamics NAV Management Portal provisions an application as a multitenant cloud service that consists of an application database and one or more tenant databases. The application database contains information about the Microsoft Dynamics NAV application that is served to customers. A tenant database is used by each tenant (customer) that is hosted on the application service, and it contains the customer-specific business data.
+If not already done, you must divide your Microsoft Dynamics NAV database into an application database and a tenant database. If your database is from an earlier Microsoft Dynamics NAV, you must also convert it to Microsoft Dynamics NAV 2016.
+
 To deploy a [!INCLUDE[navnow](includes/navnow_md.md)] database to Azure SQL Database, the database must be exported as a data-tier application \(DAC\) file, which is known as a .bacpac file. This can be performed by using SQL Server Manager, as described in this topic.  
 
-> [!IMPORTANT]  
->  To optimize, we recommend that the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to the database is deployed on a virtual machine in Azure. Additionally, the virtual machine and SQL Database must be in the same Azure region.  
 
 ## Prepare the application
 
 1. Download the latest [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] version from [Microsoft Collaborate](https://developer.microsoft.com/en-us/dashboard/collaborate/packages).
-2. Complete a technical upgrade of your current application to the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] version.
+2. Complete a technical upgrade of your current application database to the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] version.
 
-    This will upgrade your application database to the new platform. For more information, see [Converting a Database - Technical Upgrade](https://docs.microsoft.com/en-us/dynamics-nav/converting-a-database).
+    This will upgrade your application so that is runs on the new platform. For more information, see [Converting a Database - Technical Upgrade](https://docs.microsoft.com/en-us/dynamics-nav/converting-a-database).
 
     > [!IMPORTANT]  
-    >  After the technical upgrade, make that all the components are compiled successfully.
+    >  After the technical upgrade, make sure that all the components are compiled successfully.
 
-3. Optionally, upgrade the application code to the new application.
+3. (optional) Upgrade your application to the new features of [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] application.
 
     For more information, see [Upgrading the Application Code in Dynamics NAV](https://docs.microsoft.com/en-us/dynamics-nav/upgrading-the-application-code).
 
 4. Complete the following steps as needed:
     
-    1.  Import control add-ins that you want to use into the application into the database. 
+    1.  Import any control add-ins that you want to use in your application into the database. 
     
-        For more information, see [To import the control add-in to the database](how-to--install-a-windows-client-control-add-in-assembly.md#InstallOnDatabase)
+        For more information, see [To import the control add-in to the database](how-to--install-a-windows-client-control-add-in-assembly.md#InstallOnDatabase).
+
+    1.	Install any new add-ins in the database that you want in the application that are not currently installed.
+
+        Import any client-side and server-side add-ins (such as control add-ins and .NET Framework Interoperability objects) which are not included by default into the old application database.
+
+        You can perform this task by using the Control Add-ins page in a Dynamics NAV client or the New-NAVAddIn cmdlet in the Dynamics NAV Administration Shell.
+
+        For more information, see [To import a .NET Framework assembly into the database](http://go.microsoft.com/fwlink/?LinkID=691836), [Automatic Deployment of Control Add-ins](http://go.microsoft.com/fwlink/?LinkID=691837), or [New-NAVAddin Cmdlet](http://go.microsoft.com/fwlink/?LinkID=521781).
 
     2. Import test automation objects.
-    3. Publish and synchronize any V2 extensions that you want  in application that are not already published.
+    3. Publish and synchronize any V2 extensions that you want in application that are not already published.
 
         For more information, see [Publishing and Installing an Extension v2.0](devenv-how-publish-and-install-an-extension-v2).
     
@@ -47,62 +57,99 @@ To deploy a [!INCLUDE[navnow](includes/navnow_md.md)] database to Azure SQL Data
 
 6. Separate the application data and the business data into two databases: the application database and the tenant database. 
 
-    For more information, see [How to: Export the Application Tables to a Dedicated Database](how-to--export-the-application-tables-to-a-dedicated-database.md)
+    This step is only necessary if your Microsoft Dynamics NAV database is not already separated into an application database and tenant database. For more information, see [How to: Export the Application Tables to a Dedicated Database](how-to--export-the-application-tables-to-a-dedicated-database.md)
 
 
 
-## To deploy a [!INCLUDE[navnow](includes/navnow_md.md)] database to Azure SQL Database  
+## Prepare the Databases
 
 1.  In SQL Server Manager, for each database, remove all users except the default users like, dbo, guest, INFORMATION,SCHEMA, and sys. 
 
-2. use the **Deploy a Database to SQL Azure** Wizard to deploy the [!INCLUDE[navnow](includes/navnow_md.md)] database from an instance of the Database Engine to the Azure SQL Database server you created in the previous step. The wizard deploys the database by first exporting the [!INCLUDE[navnow](includes/navnow_md.md)] database as a . bacpac file and then importing .bacbac file to the specified Azure SQL Database.  
+     Use SQL Server Management Studio to remove any previous database users that are assigned to these databases, such as service account that was used by the Microsoft Dynamics NAV Server to connect to the database (for example, the [NT AUTHORITY\NETWORK SERVICE] account).
 
-    1.  Specify the server name as *SQLDatabaseServerName.database.windows.net*, where SQLDatabaseServerName is the name of Azure SQL Database server.  
+# Preparing the Application and Tenant Databases
 
-    2.  Set the authentication to **SQL Server Authentication**, and provide the login name and password \(from step 2\) for accessing the Azure SQL Database server.  
 
-    3.  Set the maximum database size to at least 10 GB.  
+<!-- 
+## Prerequisites
+You perform some of the tasks by using SQL Server Management Studio. You must use SQL Server Management Studio 2012 SP1 or later.
+##Tasks
+To prepare the databases, complete the following procedure.
 
-    4.  Make a note of the database name because you will need it later.  
+2.	If the database is from an earlier Microsoft Dynamics NAV version than Microsoft Dynamics NAV 2016, convert the database to the Microsoft Dynamics NAV 2016 platform.
 
-     When completed successfully, you can connect to the database in Azure SQL from the SQL Server Manager or from the Azure Management Portal.  
+ You must convert the old database to comply with the Microsoft Dynamics NAV 2016 technical requirements. To convert the old database to a Microsoft Dynamics NAV 2016 format, open the old database in the Microsoft Dynamics NAV 2016 development environment, and follow the conversion instructions. For complete instructions, see [Converting a Database](http://go.microsoft.com/fwlink/?LinkID=626660).
+ >**Note:** The old database does not need to include a Dynamics NAV 2016 license at this time, so you can skip the step for uploading the license. However, you will need a valid license file when you want to provision an application service that uses a version of the application.    
+3.	Separate the converted database into an application database and a tenant database.
 
-     For more information about how to deploy a database to Azure SQL, see [Deploy a Database By Using a DAC](https://msdn.microsoft.com/en-us/library/JJ554810\(v=sql.120\).aspx)  
+ For more information, see [How to: Export the Application Tables to a Dedicated Database](http://go.microsoft.com/fwlink/?LinkID=626654).
 
-4.  Create and configure an Azure Virtual Machine for [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+ This step is only necessary if your Microsoft Dynamics NAV database is not already separated into an application database and tenant database. Later, by using the Dynamics NAV Management Portal, you will upload the application database that you want to use for your application service together with a matching tenant template database to be deployed for each new tenant added to the application service.
+4.	Upload your Microsoft Dynamics NAV license to the application database.
 
-     In the Azure Management Portal, create a virtual machine on which you will later install the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+ If you did not do so during database conversion in step 2, upload the Microsoft Dynamics NAV license into the application database. For more information, see Uploading a License File for a Specific Database. This task is optional because you can also add a license to an application when you set it up in the Dynamics NAV Management Portal. The advantage of uploading the license at this time is that it acts as a default license.
+5.	Clean up the system tables in the application and tenant database.
 
-    1.  Choose an image for an operating system that is supported by the [!INCLUDE[nav_server](includes/nav_server_md.md)]. For more information, see [Microsoft Dynamics NAV Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#NavServerReqs) supported  
+ For more information, see [Cleaning up the system tables in the application and tenant database](#cleaning-up-the-system-tables-in-the-application-and-tenant-databases).
 
-    2.  Make a note of the Cloud Service DNS Name and the user name and password that you specified because you will need this later.  
+6.	Remove users from the application and tenant databases.
 
-         The user name and password will be used for logging on the Azure SQL database.  
+ Use SQL Server Management Studio to remove any previous database users that are assigned to these databases, such as service account that was used by the Microsoft Dynamics NAV Server to connect to the database (for example, the [NT AUTHORITY\NETWORK SERVICE] account).
+7.	Export the application and tenant databases to data-tier application files in BACPAC format.
+You must have a .bacpac file for the application database and one for the tenant database.
+For more information, see [Exporting an application or tenant database to a BACPAC file](#exporting-an-application-or-tenant-database-to-a-BACPAC-file) that follows.
 
-    3.  Set up endpoints for the [!INCLUDE[navnow](includes/navnow_md.md)] client services, Remote Desktop PowerShell.  
+##Cleaning up the system tables in the application and tenant databases
+ After you have prepared your application and tenant databases, you must clean up certain system tables in these databases to ensure that that do not contain any records that are related to the previous deployment environment or activities. Additionally, you must remove any database users that are associated with the previous deployment, such as the Microsoft Dynamics NAV Server service account.
 
-         You must set up an endpoint for the TCP port that clients will use to communicate with the . The default is port in the  configuration is 7046.  
+ The following table lists the system tables in the application and tenant databases from which you must clear data.
 
-         Remote Desktop and PowerShell ports are set up automatically.[!INCLUDE[nav_server](includes/nav_server_md.md)][!INCLUDE[nav_server](includes/nav_server_md.md)][!INCLUDE[navnow](includes/navnow_md.md)].  
+| Database | Table |Remarks|
+|----------|--------|-----|
+|Application|	dbo.Server Instance| |
+| |	dbo.$ndo$tenants|Note This table is only available if the original database was used in a multitenant environment.|
+| |dbo.Object Tracking |  |
+|Tenant|dbo.Access Control| |
+||dbo.Active Session||
+||dbo.Session Event||
+||dbo.User||
+||dbo.User Default Style Sheet||
+||dbo.User Metadata||
+||dbo.User Personalization||
+||dbo.User Property||
 
-     For more information, see [How to create a custom virtual machine](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-create-custom/)  
+ You can perform this work manually by using SQL Server Management Studio to connect to the databases and make the modifications directly. Or, you can use Windows PowerShell.
 
-5.  Configure the Azure SQL Database Server firewall to allow the [!INCLUDE[nav_server](includes/nav_server_md.md)] virtual machine to connect to the database server.  
+ To use Windows Powershell, you can run the following cmdlets:
+ ```
+$DBServerInstance = ‘[YOUR SQL SERVER INSTANCE NAME]’  
+$DatabaseName = ‘[YOUR DB NAME]’
 
-     In the Azure Management Portal, you must add a rule to the firewall that allows the public virtual IP address of the [!INCLUDE[nav_server](includes/nav_server_md.md)] virtual machine. For more information, see [How to: Configure Firewall Settings \(Azure SQL Database\)](https://azure.microsoft.com/en-us/documentation/articles/sql-database-configure-firewall-settings/).  
+Invoke-Sqlcmd –ServerInstance $DBServerInstance –Query “USE [$DatabaseName] DELETE FROM dbo.[Server Instance]” –Verbose | Write
+Invoke-Sqlcmd –ServerInstance $DBServerInstance –Query “USE [$DatabaseName] DELETE FROM dbo.[$(“$”)ndo$(“$”)cachesync]” –Verbose | Write
+```
 
-    > [!NOTE]  
-    >  You can identify the IP address by viewing the Dashboard of the virtual machine in the Azure Management Portal.  
+For example, follow these steps:
 
-6.  Install and configure a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance on the virtual machine.  
+1. Open Windows PowerShell ISE as an Administrator.
+Add similar cmdlets to clean up the listed tables and run them too.
+2. Copy and paste the cmdlet code.
+  * Replace [YOUR DB NAME] with the name of your application database and tenant database accordingly.
+  * Replace [YOUR SQL SERVER INSTANCE NAME] with the name of the SQL Server instance that hosts the database.
+3. Run the cmdlets.
+-->
 
-     From the Azure Management Portal, connect to the virtual machine. Run the setup.exe file that is available on the [!INCLUDE[navnow](includes/navnow_md.md)] installation media \(DVD\) to install the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+##Exporting an application or tenant database to a BACPAC file
+An application or tenant database must be in data-tier application files in BACPAC format (.bacpac file) before you can import them to an application in Dynamics NAV Management Portal. You can export the databases to .bacpac files by using SQL Server Management Studio.
+>**Important:** You must use SQL Server Management Studio 2012 Service Pack 1 or later. The reason for this is that earlier versions of SQL Server Management Studio store table data in .bacpac files in JSON format, which is not supported by the Dynamics NAV Management Portal. Later versions store data in BCP format, which is supported by the Dynamics NAV Management Portal.
 
-    1.  After you install the [!INCLUDE[nav_server](includes/nav_server_md.md)], configure SQL Server Authentication on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For the database credentials, use the login name and password that you set up in step 2.  
+To export a database to a BACPAC file, follow these steps:
+1.	In SQL Server Management Studio, connect to the server instance that hosts the application and tenant databases.
+2.	In Object Explorer, right-click the application database, choose Task, and then choose Export Data-tier Application.
+3.	Follow the steps in the Export Data-tier Application wizard to export the application database to a .bacpac file on your computer or network.
+You can use any name for the .bacpac file.
 
-         For more information, see [How to: Configure SQL Server Authentication in Microsoft Dynamics NAV](How-to--Configure-SQL-Server-Authentication-in-Microsoft-Dynamics-NAV.md).  
-
- The [!INCLUDE[navnow](includes/navnow_md.md)] database is now deployed and configured on Azure. For developing, you can connect to the database from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
+  For more information about exporting databases to .bacpac format, see [Export a Data-tier Application](https://msdn.microsoft.com/en-us/library/Hh213241.aspx).
 
 ## See Also  
  [Configuring Database Components](Configuring-Database-Components.md)   
