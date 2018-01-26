@@ -122,5 +122,5 @@ By default, the [!INCLUDE[nav_server](includes/nav_server_md.md)] logs contain e
  [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
  [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)   
  [Monitoring Microsoft Dynamics NAV Server](Monitoring-Microsoft-Dynamics-NAV-Server.md)   
- [Monitoring Microsoft Dynamics NAV Server Using Performance Counters](Monitoring-Microsoft-Dynamics-NAV-Server-Using-Performance-Counters.md)  [Event Viewer](http://go.microsoft.com/fwlink/?LinkID=314067)  
+ [Monitoring Microsoft Dynamics NAV Server Using Performance Counters](Monitoring-Microsoft-Dynamics-NAV-Server-Using-Performance-Counters.md)  
  [Windows Event Viewer](http://go.microsoft.com/fwlink/?LinkID=314067)  
