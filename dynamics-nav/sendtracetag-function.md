@@ -22,7 +22,7 @@ SENDTRACETAG(Tag, Category, Verbosity, Message)
 *Tag*  
 Type: Text or code  
   
-Specifies an identifier of the trace event. The tag can consist of letters, numbers, and special characters. For example, system telemetry events use an auto-generated 7-character tag, such as 000002Q. Try to make your tags unique, for example, by using a prefix.  
+Specifies an identifier of the trace event. The tag can consist of letters, numbers, and special characters. [!INCLUDE[navnow_md](includes/navnow_md.md)] system telemetry events use an auto-generated, auto-incremented, 7-character tag that includes numbers and letters, such as 000002Q. and 000013P. Try to make your tags unique from these telemetry event tags by, for example, using at least 8 characters or a prefix, like Cronus-0001 and Cronus-0002. 
   
 *Category*  
 Type: Text or code  

@@ -25,7 +25,7 @@ The **Server** folder contains events from the event trace provider called **Mic
   
 |Log|Description|  
 |---------|-----------------|  
-|Admin|Includes events that target end users and IT administrators. These events typically indicate a problem that requires action to resolve the problem. An example of an admin event is a tenant database failing to mount on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For a list and description of the events that can occur, see [Microsoft Dynamics NAV Server Events](Microsoft-Dynamics-NAV-Server-Events.md). <br /><br /> For a list and description of these events, see [Dynamics NAV Server Admin and Operational Events](Microsoft-Dynamics-NAV-Server-Events.md).|  
+|Admin|Includes events that target end users and IT administrators. These events typically indicate a problem that requires action to resolve the problem. An example of an admin event is a tenant database failing to mount on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> For a list and description of these events, see [Dynamics NAV Server Admin and Operational Events](Microsoft-Dynamics-NAV-Server-Events.md).|  
 |Operational|Includes events that provide information about an operation that occurred on [!INCLUDE[nav_server](includes/nav_server_md.md)] instances. These events are typically ordinary operating events that do not require any action but can be used to analyze and diagnose a problem. An example of an operational event is the shutting down of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> For a list and description of these events, see [Dynamics NAV Server Admin and Operational Events](Microsoft-Dynamics-NAV-Server-Events.md).|  
 |Debug|Includes the trace event types: SQL (SQLTracing), service calls (ServiceCalls), and C/AL function calls (ALTracing).  For more information about the different trace events and others ways to monitor them, see [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md) and [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md).<br /><br /> **Note:** In Event Viewer, this log is hidden and disabled by default. For information about how to show and enable this log, see [How to: Enable Dynamics NAV Debug Logs in Event Viewer](How-to--Use-Event-Viewer-to-Collect-and-View-Trace-Events.md).|  
 
@@ -35,7 +35,7 @@ The **Common** folder contains telemetry events from the event trace provider ca
       
 |Log|Description|  
 |---------|-----------------|  
-|Admin|Includes custom telemetry trace events that are emitted from the application. These are events that are sent by [SENDTRACETAG function](sendtracetag-function.md) calls from inside the application. For more information, see [Instrumenting av Application for Telemetry](instrumenting-application-for-telemetry.md).<br /><br /> **Note** The [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance includes a configuration setting called **Diagnostic Trace Level** (`TraceLevel` in the customsettings.config file) that enables you to specify the lowest severity level of telemetry events to be recorded in the event log, or even turn off telemetry event logging altogether. If you do not see the expected events, then verify the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance configuration with an administrator. For information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md#General).|  
+|Admin|Includes custom telemetry trace events that are emitted from the application. These are events that are sent by [SENDTRACETAG function](sendtracetag-function.md) calls from inside the application. <br /><br /> For more information, see [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md).<br /><br /> **Note** The [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance includes a configuration setting called **Diagnostic Trace Level** (`TraceLevel` in the customsettings.config file) that enables you to specify the lowest severity level of telemetry events to be recorded in the event log, or even turn off telemetry event logging altogether. If you do not see the expected events, then verify the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance configuration with an administrator. For information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md#General).|  
 |Operational|Not applicable.|  
 |Debug|Includes system telemetry trace events that occur.<br /><br /> **Note:** In Event Viewer, this log is hidden and disabled by default. For information about how to show and enable this log, see [How to: Enable Dynamics NAV Debug Logs in Event Viewer](How-to--Use-Event-Viewer-to-Collect-and-View-Trace-Events.md).|  
   
@@ -49,9 +49,7 @@ The events in this log are the same events that are recorded in the **Admin** an
   
 > [!NOTE]  
 >  Trace events are not included in this log.  
-  
-For more information about how to use Event Viewer, see [Windows Event Viewer.](http://go.microsoft.com/fwlink/?LinkID=314067)  
-  
+
 ## Filtering Dynamics Server Events in Event Viewer  
 By default, the [!INCLUDE[nav_server](includes/nav_server_md.md)] logs contain events of all levels \(error, warning, and information\) for all [!INCLUDE[nav_server](includes/nav_server_md.md)] instances. You can use the filtering functionality that is available in Event Viewer to display only [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events that meet specific criteria. For example, if you have several [!INCLUDE[nav_server](includes/nav_server_md.md)] instances, you can filter logs to show only events from a specific [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For more information, see the following example.  
   
@@ -124,4 +122,5 @@ By default, the [!INCLUDE[nav_server](includes/nav_server_md.md)] logs contain e
  [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
  [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)   
  [Monitoring Microsoft Dynamics NAV Server](Monitoring-Microsoft-Dynamics-NAV-Server.md)   
- [Monitoring Microsoft Dynamics NAV Server Using Performance Counters](Monitoring-Microsoft-Dynamics-NAV-Server-Using-Performance-Counters.md)  [Event Viewer](http://go.microsoft.com/fwlink/?LinkID=314067)
+ [Monitoring Microsoft Dynamics NAV Server Using Performance Counters](Monitoring-Microsoft-Dynamics-NAV-Server-Using-Performance-Counters.md)  [Event Viewer](http://go.microsoft.com/fwlink/?LinkID=314067)  
+ [Windows Event Viewer](http://go.microsoft.com/fwlink/?LinkID=314067)  
