@@ -28,5 +28,11 @@ Logman (logman.exe) is a tool that comes with the Windows Operating System. You 
 ## Windows PowerShell  
  You can use the Get-WinEvent cmdlet of Windows PowerShell to view [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events that are recorded in the Windows Event Logs. For more information, see [Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](Monitoring-Microsoft-Dynamics-NAV-Server-Events-with-PowerShell.md).  
 
+## Microsoft TraceEvent Library
+You can also log ETW events using the Microsoft TraceEvent Library, which includes classes for controlling providers and parsing events. For more information and downloading, see [Microsoft.Diagnostics.Tracing.TraceEvent](https://www.nuget.org/packages/Microsoft.Diagnostics.Tracing.TraceEvent)
+
 ## PerfView  
 PerfView is a performance-analysis tool that focuses on Event Tracing for Windows information. PerfView can help you isolate performance issues that are related to [!INCLUDE[nav_server](includes/nav_server_md.md)]. To download and install PerfView, see [http://go.microsoft.com/fwlink/?LinkID=313428](http://go.microsoft.com/fwlink/?LinkID=313428).
+
+## See Also
+[Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
