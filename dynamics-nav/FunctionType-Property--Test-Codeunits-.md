@@ -34,7 +34,7 @@ Sets the type of function in a test codeunit.
 |**HyperlinkHandler**|Handles specific hyperlinks.|  
 |**SendNotificationHandler**|Handles specific [SEND](function-notificationsend.md) functions.|  
 |**RecallNotificationHandler**|Handles [RECALL](function-notificationrecall.md) functions.|  
-|**SessionSettingsHandler**|Handles specific session settings.|  
+|**SessionSettingsHandler**|Handles [REREQUESTSESSIONUPDATE](requestsessionupdate-function-sessionsettings.md) functions.|  
   
 ## Remarks  
  You create test codeunits to test your application. A test codeunit can consist of one or more test functions, handler functions, and normal functions.  
