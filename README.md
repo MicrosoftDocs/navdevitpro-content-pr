@@ -7,7 +7,7 @@ For more information see the [Code of Conduct FAQ](https://opensource.microsoft.
 
 Welcome to the repository for the developer and ITpro content for on-prem &amp; PaaS.
 
-All articles are stored as Markdown files (.md type) in the **dynamics-nav** folder. They publish to MSDN staging here: https://msdnstage.redmond.corp.microsoft.com/en-us/../how-to--publish-and-install-an-extension?branch=master.
+All articles are stored as Markdown files (.md type) in the **dynamics-nav** folder. They publish to Docs staging here: https://review.docs.microsoft.com/en-gb/dynamics-nav/getting-started?branch=master.
 
 The repo also holds the source for the new developer experience and the fixed endpoint API for SaaS.
 
