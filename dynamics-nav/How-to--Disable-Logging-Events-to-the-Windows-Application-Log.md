@@ -50,4 +50,4 @@ Because the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events ar
   
 ## See Also  
  [Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md)   
- [Monitoring Microsoft Dynamics NAV Server Event Traces](Monitoring-Microsoft-Dynamics-NAV-Server-Event-Traces.md)
+ [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)
