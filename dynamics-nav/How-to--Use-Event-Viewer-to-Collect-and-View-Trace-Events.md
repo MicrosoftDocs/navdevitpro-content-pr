@@ -10,16 +10,23 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: ddd157e5-069a-44c5-b25b-1e90cb0bf1d0
 caps.latest.revision: 4
 ---
-# How to: Use Event Viewer to Collect and View Trace Events
-This topic describes how to collect and view [!INCLUDE[nav_server](includes/nav_server_md.md)] event trace data in Event Viewer. Trace events are recorded in a **Debug** log for [!INCLUDE[nav_server](includes/nav_server_md.md)] in the **Applications and Services Logs**. By default the **Debug** log is disabled and may also be hidden in the Event Viewer. To collect trace event data, you must enable the **Debug** log.  
+# How to: Enable Dynamics NAV Debug Logs in Event Viewer
+
+Some [!INCLUDE[nav_server](includes/nav_server_md.md)] events are collected in the following **Debug** logs specific to Dynamics NAV in Event Viewer:
+
+-   **Applications and Services Logs** > **Microsoft** > **DynamicsNAV** > **Server**
+
+- **Applications and Services Logs** > **Microsoft** > **DynamicsNAV** > **Common**
+
+By default the **Debug** logs are disabled and may also be hidden in the Event Viewer. To collect trace event data, you must enable the **Debug** logs.  
   
-### To collect and view trace events in Event Viewer  
+### To enable Debug logs in Event Viewer  
   
 1.  On the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], start Event Viewer.  
   
      For more information, see [How to Start Event Viewer](http://technet.microsoft.com/en-us/library/gg163894.aspx).  
   
-2.  In the console tree, choose **Applications and Services Logs**, **Microsoft**, **DynamicsNAV**, and then **Server**.  
+2.  In the console tree, choose **Applications and Services Logs**, **Microsoft**, **DynamicsNAV**, and then **Server** or **Common**.  
   
 3.  If the **Debug** log is not shown under **Server**, then on the **View** menu, select **Show Analytic and Debug Logs**.  
   
@@ -31,6 +38,6 @@ This topic describes how to collect and view [!INCLUDE[nav_server](includes/nav_
  [!INCLUDE[nav_server](includes/nav_server_md.md)] trace events will now be recorded in the **Debug** log. For a list and description of trace events, see [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md).  
   
 ## See Also  
- [Monitoring Microsoft Dynamics NAV Server Event Traces](Monitoring-Microsoft-Dynamics-NAV-Server-Event-Traces.md)   
+ [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
  [Show or Hide Analytic and Debug](http://technet.microsoft.com/en-us/library/cc766275.aspx)   
  [Enable Analytic and Debug Logs](http://technet.microsoft.com/en-us/library/cc749492.aspx)
