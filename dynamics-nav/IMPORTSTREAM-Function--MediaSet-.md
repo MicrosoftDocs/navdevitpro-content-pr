@@ -76,6 +76,7 @@ The code requires that you create the following variables and text constant:
 |  Variable name  |  DataType  |  Subtype  |  
 |-----------------|------------|-----------|  
 |itemRec|Record|Item|  
+|fileName|Text||  
 |inStreamObject|InStream||  
 |importFile|File||
 |count|Integer||  

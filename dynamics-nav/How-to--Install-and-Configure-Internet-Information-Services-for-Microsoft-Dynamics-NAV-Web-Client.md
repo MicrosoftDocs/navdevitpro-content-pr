@@ -16,6 +16,8 @@ This topic describes how to install and configure Internet Information Service \
 
  IIS must have the following features enabled:  
 
+-   HTTP Activation  
+
 -   NET Extensibility 4.5, .NET Extensibility 4.6, or .NET Extensibility 4.6 \(depending on Windows version\)  
 
 -   ASP.NET 4.5, ASP.NET 4.6, or ASP.NET 4.7 \(depending on Windows version\)  
@@ -28,9 +30,14 @@ This topic describes how to install and configure Internet Information Service \
 
 -   Windows Authentication  
 
+-   Default Document
+
+-   Directory Browsing
+
+-   HTTP Errors
+
 -   Static Content  
 
--   HTTP Activation  
 
  The procedure is slightly different for the different versions of Windows. For more information, see the following sections.
 
@@ -72,7 +79,7 @@ This topic describes how to install and configure Internet Information Service \
 
         -   **ISAPI Filters**  
 
-    2.  Expand **Common HTTP Features**, and then select the **Static Content** feature.  
+    2.  Expand **Common HTTP Features**, and then select **Defau lt Document**, **Default Browsing**, **HTTP Errors**, and **Static Content**.  
 
     3.  Expand **Security**, and then select the following features:  
 
@@ -152,6 +159,9 @@ This topic describes how to install and configure Internet Information Service \
 
     -   **Common HTTP Features**  
 
+        -   **Default Document**
+        -   **Default Browsing**
+        -   **HTTP Errors** 
         -   **Static Content**  
 
     -   **Security**  

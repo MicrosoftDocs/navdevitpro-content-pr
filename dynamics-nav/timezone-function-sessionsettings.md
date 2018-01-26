@@ -43,7 +43,7 @@ The code requires that you create the following C/AL variable.
 |MySessionSettings|SessionSettings|  
 
 ```  
-    MySessionSettings.INIT
+    MySessionSettings.INIT;
     MySessionSettings.TIMEZONE('UTC');
     MySessionSettings.REQUESTSESSIONUPDATE(false);
 ```  
