@@ -11,64 +11,103 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
-# Creating a Deployment Package
+# Moving from  Onpremise to Online 
+This article describes you can move your on-premise [!INCLUDE[navnow](includes/navnow_md.md)] solution to [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] online. 
 
-This topic describes how to prepare an application database and tenant database from a single Microsoft Dynamics NAV database for deployment on an application in the Dynamics NAV Management Portal.
-The Dynamics NAV Management Portal provisions an application as a multitenant cloud service that consists of an application database and one or more tenant databases. The application database contains information about the Microsoft Dynamics NAV application that is served to customers. A tenant database is used by each tenant (customer) that is hosted on the application service, and it contains the customer-specific business data.
-If not already done, you must divide your Microsoft Dynamics NAV database into an application database and a tenant database. If your database is from an earlier Microsoft Dynamics NAV, you must also convert it to Microsoft Dynamics NAV 2016.
+## Prerequisites
+To complete the tasks in this article, you will need the followingensure that you have the following:
 
-To deploy a [!INCLUDE[navnow](includes/navnow_md.md)] database to Azure SQL Database, the database must be exported as a data-tier application \(DAC\) file, which is known as a .bacpac file. This can be performed by using SQL Server Manager, as described in this topic.  
+-   Installation media (DVD) for the latest [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] version. 
 
+    Download the version from [Microsoft Collaborate](https://developer.microsoft.com/en-us/dashboard/collaborate/packages).
 
-## Prepare the application
+-   [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] license.
 
-1. Download the latest [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] version from [Microsoft Collaborate](https://developer.microsoft.com/en-us/dashboard/collaborate/packages).
-2. Complete a technical upgrade of your current application database to the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] version.
+-   A working environment of your current [!INCLUDE[navnow](includes/navnow_md.md)] application, including the following tools:
+    -   [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]
+    -   [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)]
+    -   [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]
+    -   [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)]
+-    Microsoft SQL Server Management Studio installed.
 
-    This will upgrade your application so that is runs on the new platform. For more information, see [Converting a Database - Technical Upgrade](https://docs.microsoft.com/en-us/dynamics-nav/converting-a-database).
+     You must use SQL Server Management Studio 2012 Service Pack 1 or later. To download the latest version, see [Download SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms).
+
+## Upgrade your current application
+1. Complete a technical upgrade of your current application to the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] version.
+
+    This will convert your application database so that is runs on the new [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] platform. For more information, see [Converting a Database - Technical Upgrade](https://docs.microsoft.com/en-us/dynamics-nav/converting-a-database).
 
     > [!IMPORTANT]  
-    >  After the technical upgrade, make sure that all the components are compiled successfully.
+    >  Be sure to upload your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] to converted database.
+    >
+    > After the technical upgrade, make sure that all the components are compiled successfully.
 
-3. (optional) Upgrade your application to the new features of [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] application.
 
+2. Optionally, upgrade your application to the new [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] application.
+
+    You only have to complete this step if you want any new application features that are part of the latest [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] version.
+    
     For more information, see [Upgrading the Application Code in Dynamics NAV](https://docs.microsoft.com/en-us/dynamics-nav/upgrading-the-application-code).
 
-4. Complete the following steps as needed:
+3. Complete the following steps as needed:
     
-    1.  Import any control add-ins that you want to use in your application into the database. 
+    1.  Import any new control add-ins that you want to use into the application database. 
+
+        Import any client-side and server-side add-ins (such as control add-ins and .NET Framework Interoperability objects) which are not included by default into the old application database.
     
         For more information, see [To import the control add-in to the database](how-to--install-a-windows-client-control-add-in-assembly.md#InstallOnDatabase).
 
-    1.	Install any new add-ins in the database that you want in the application that are not currently installed.
-
-        Import any client-side and server-side add-ins (such as control add-ins and .NET Framework Interoperability objects) which are not included by default into the old application database.
-
-        You can perform this task by using the Control Add-ins page in a Dynamics NAV client or the New-NAVAddIn cmdlet in the Dynamics NAV Administration Shell.
-
-        For more information, see [To import a .NET Framework assembly into the database](http://go.microsoft.com/fwlink/?LinkID=691836), [Automatic Deployment of Control Add-ins](http://go.microsoft.com/fwlink/?LinkID=691837), or [New-NAVAddin Cmdlet](http://go.microsoft.com/fwlink/?LinkID=521781).
-
     2. Import test automation objects.
-    3. Publish and synchronize any V2 extensions that you want in application that are not already published.
+    3. Publish and synchronize any new V2 extensions that you want in application that are not already published.
 
         For more information, see [Publishing and Installing an Extension v2.0](devenv-how-publish-and-install-an-extension-v2).
     
-5. Test and validate the upgraded application on-premise.
-
-6. Separate the application data and the business data into two databases: the application database and the tenant database. 
-
-    This step is only necessary if your Microsoft Dynamics NAV database is not already separated into an application database and tenant database. For more information, see [How to: Export the Application Tables to a Dedicated Database](how-to--export-the-application-tables-to-a-dedicated-database.md)
+4. Test and validate the upgraded application on-premise.
 
 
+## Prepare the Application and Tenant Databases
 
-## Prepare the Databases
+1. Separate the old database into two databases: the application database and the tenant database. 
 
-1.  In SQL Server Manager, for each database, remove all users except the default users like, dbo, guest, INFORMATION,SCHEMA, and sys. 
+    This step is only necessary if your database is not already separated into an application database and tenant database. 
+    
+    You do this by using the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)]. For more information, see [How to: Export the Application Tables to a Dedicated Database](how-to--export-the-application-tables-to-a-dedicated-database.md).
 
-     Use SQL Server Management Studio to remove any previous database users that are assigned to these databases, such as service account that was used by the Microsoft Dynamics NAV Server to connect to the database (for example, the [NT AUTHORITY\NETWORK SERVICE] account).
+2.  For each database, remove all users except the default users like, dbo, guest, INFORMATION,SCHEMA, and sys. 
 
-# Preparing the Application and Tenant Databases
+     Use SQL Server Management Studio to remove any previous database users that are assigned to these databases. This includes the service account that was used by the Microsoft Dynamics NAV Server to connect to the database (for example, the [NT AUTHORITY\NETWORK SERVICE] account).
 
+3.  Clean up the system tables in the application and tenant databases.
+
+    You must clean up certain system tables in these databases to ensure that that do not contain any records that are related to the previous deployment environment or activities.
+
+    The following table lists the system tables in the application and tenant databases from which you must clear data.
+
+    | Database | Table |Remarks|
+    |----------|--------|-----|
+    |Application|	dbo.Server Instance| |
+    | |	dbo.$ndo$tenants|Note This table is only available if the original database was used in a multitenant environment.|
+    | |dbo.Object Tracking |  |
+    |Tenant|dbo.Access Control| |
+    ||dbo.Active Session||
+    ||dbo.Session Event||
+    ||dbo.User||
+    ||dbo.User Default Style Sheet||
+    ||dbo.User Metadata||
+    ||dbo.User Personalization||
+    ||dbo.User Property||
+
+    You can perform this work manually by using SQL Server Management Studio to connect to the databases and make the modifications directly. Or, you can use Windows PowerShell.
+
+    To use Windows Powershell, you can run the following cmdlets:
+ 
+    ```
+    $DBServerInstance = ‘[YOUR SQL SERVER INSTANCE NAME]’  
+    $DatabaseName = ‘[YOUR DB NAME]’
+
+    Invoke-Sqlcmd –ServerInstance $DBServerInstance –Query “USE [$DatabaseName] DELETE FROM dbo.[Server Instance]” –Verbose | Write
+    Invoke-Sqlcmd –ServerInstance $DBServerInstance –Query “USE [$DatabaseName] DELETE FROM dbo.[$(“$”)ndo$(“$”)cachesync]” –Verbose | Write
+    ```
 
 <!-- 
 ## Prerequisites
@@ -139,17 +178,22 @@ Add similar cmdlets to clean up the listed tables and run them too.
 3. Run the cmdlets.
 -->
 
-##Exporting an application or tenant database to a BACPAC file
-An application or tenant database must be in data-tier application files in BACPAC format (.bacpac file) before you can import them to an application in Dynamics NAV Management Portal. You can export the databases to .bacpac files by using SQL Server Management Studio.
->**Important:** You must use SQL Server Management Studio 2012 Service Pack 1 or later. The reason for this is that earlier versions of SQL Server Management Studio store table data in .bacpac files in JSON format, which is not supported by the Dynamics NAV Management Portal. Later versions store data in BCP format, which is supported by the Dynamics NAV Management Portal.
+## Create the deployment package
 
-To export a database to a BACPAC file, follow these steps:
+When you deploy your application online, you must provide a compressed .zip file that contains the application and tenant databases as data-tier application files, known as BACPAC (.bacpac) files. This article describes how you to create the BACPAC files and zip. You can do this using SQL Server Management Studio.
+
+### Export the application and tenant database to BACPAC files
+
 1.	In SQL Server Management Studio, connect to the server instance that hosts the application and tenant databases.
-2.	In Object Explorer, right-click the application database, choose Task, and then choose Export Data-tier Application.
-3.	Follow the steps in the Export Data-tier Application wizard to export the application database to a .bacpac file on your computer or network.
-You can use any name for the .bacpac file.
+2.	In **Object Explorer**, right-click either the application or tenant database, choose **Task**, and then choose **xport Data-tier Application**.
+3.	Follow the steps in the **Export Data-tier Application** wizard to export the database to a .bacpac file on your computer or network.
 
-  For more information about exporting databases to .bacpac format, see [Export a Data-tier Application](https://msdn.microsoft.com/en-us/library/Hh213241.aspx).
+    You can use any name for the .bacpac file. 
+4.  Repeat steps 2 and 3 for the other database.
+
+For more information about exporting databases to .bacpac format, see [Export a Data-tier Application](https://msdn.microsoft.com/en-us/library/Hh213241.aspx).
+
+## Create a zip file 
 
 ## See Also  
  [Configuring Database Components](Configuring-Database-Components.md)   
