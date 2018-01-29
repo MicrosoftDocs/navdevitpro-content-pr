@@ -1,6 +1,6 @@
 ---
-title: Using ML Prediction Management API | Microsoft Docs
-description: Provides an overview of the methods in each phase.
+title: Using ML Prediction Management | Microsoft Docs
+description: Provides an overview of the methods in codeunit 2003 to use in each phase of implementing a predictive model.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -14,8 +14,10 @@ ms.date: 01/02/2018
 ms.author: bholtorf
 ---
 
-# Working with the ML Prediction Management API
+# Working with ML Prediction Management
 This topic describes the methods to use to prepare data for analysis, train the model on data and evaluate its quality, and make a prediction that is accompanied by a confidence score that indicates how accurate the prediction is. All of these methods are available in codeunit 2003.
+
+For more information about codeunits, see [Dynamics NAV Codeunits Overview](https://docs.microsoft.com/en-us/dynamics-nav/codeunits).
 
 ## How to initialize the codeunit
 The methods in the following table initialize codeunit 2003.
@@ -25,7 +27,7 @@ The methods in the following table initialize codeunit 2003.
 |[Default Initialize](default-initialize.md)|<short description, starts with a verb>|
 |[Initialize](initialize.md)|<short description, starts with a verb>|
 
-## Prepare your data
+## How to prepare your data
 The methods in the following table prepare data.
 
 |Method|Description|
@@ -36,7 +38,7 @@ The methods in the following table prepare data.
 |[setTrainingPercent](set-training-percent.md)|<short description, starts with a verb>|
 |[isDataSufficientForClassification](is-data-sufficient-for-classification.md)|<short description, starts with a verb>|
 
-## Create a Working Model 
+## How to create a working model 
 The methods in the following table create a model that can generate predictions.
 
 |Method|Description|
@@ -46,4 +48,5 @@ The methods in the following table create a model that can generate predictions.
 |[predict](predict.md)|<short description, starts with a verb>|
 
 ## See Also
-Getting Started with the ML Prediction Management API
+[Welcome to ML Prediction Management](../ml-prediction-management-welcome.md)
+[Getting Started with ML Prediction Management](../ml-prediction-management-get-started.md)
