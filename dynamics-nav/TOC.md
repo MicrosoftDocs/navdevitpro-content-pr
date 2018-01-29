@@ -25,6 +25,7 @@
 ## [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)
 ## [Migrating to Multitenancy](Migrating-to-Multitenancy.md)
 ## [Installation and Configuration Walkthroughs](Installation-and-Configuration-Walkthroughs.md)
+## [Deploying Online](create-application-package.md)
 <!-- C/SIDE -->
 # [Development in C/AL](Development.md)
 ## [Application Design Overview](Application-Design-Overview.md)

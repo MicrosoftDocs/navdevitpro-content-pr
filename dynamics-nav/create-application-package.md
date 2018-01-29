@@ -10,7 +10,7 @@ ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
 # Moving from Dynamics NAV On-premise to Online 
-This article describes you can move your on-premise [!INCLUDE[navnow](includes/navnow_md.md)] solution, including the application and its tenants, to [!INCLUDE[d365_bus_ctr_long_md](includes/d365fin_long_md.md)] online. 
+This article describes you can move your on-premise [!INCLUDE[navnow](includes/navnow_md.md)] solution, including the application and its tenants, to [!INCLUDE[d365_bus_ctr_long_md](includes/d365_bus_ctr_long_md.md)] online. 
 
 ## Prerequisites
 To complete the tasks in this article, you will need the following:
