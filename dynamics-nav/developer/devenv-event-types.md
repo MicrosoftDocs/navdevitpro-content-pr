@@ -1,7 +1,7 @@
 ---
 title: "Event Types"
 ms.custom: na
-ms.date: 07/06/2017
+ms.date: 01/29/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,8 +10,11 @@ ms.service: "dynamics365-financials"
 author: SusanneWindfeldPedersen
 ---
 # Event Types
-[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] supports different types of events for different purposes.
-  
+[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] supports different types of events for different purposes.
+
+> [!NOTE]  
+> [!INCLUDE[d365fin_navnow_supported_md](includes/d365fin_navnow_supported_md.md)]
+
 ##  <a name="BusinessEvents"></a> Business events  
  A business event is a custom event that is raised by AL code. It defines a formal contract that carries an implicit promise not to change in future releases. It is the expectation that business events are published by solution ISVs, including Microsoft.  
   
@@ -92,7 +95,7 @@ author: SusanneWindfeldPedersen
 |Trigger event with signature|Description|  
 |----------------------------------|-----------------|  
 |`OnBeforeActionEvent(VAR Rec : Record)`|Executed before the [OnAction Trigger](triggers/devenv-onaction-trigger.md), which is called when a user selects an action on the page.|  
-|`OnAfterActionEvent(VAR Rec : Record)`|Executed after the [OnAction Trigger](triggers/devenv-onaction-trigger.md), which is called when a user selects an action on the page.|  
+|`OnAfterActionEvent(VAR Rec : Record)`|Executed aftkver the [OnAction Trigger](triggers/devenv-onaction-trigger.md), which is called when a user selects an action on the page.|  
 |`OnAfterGetCurrRecordEvent(VAR Rec : Record)`|Executed after the [OnAfterGetCurrRecord Trigger](triggers/devenv-onaftergetcurrrecord-trigger.md), which is called after the current record is retrieved from the table.|  
 |`OnAfterGetRecordEvent(VAR Rec : Record)`|Executed after the [OnAfterGetCurrRecord Trigger](triggers/devenv-onaftergetcurrrecord-trigger.md), which is called after the record is retrieved from the table but before it is displayed to the user.|  
 |`OnBeforeValidateEvent(VAR Rec : Record, VAR xRec : Record)`|Executed before the [OnValidate \(Page fields\) Trigger](triggers/devenv-onvalidate-page-fields-trigger.md), which is called when a field loses focus after its value has been changed.|  
