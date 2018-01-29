@@ -178,7 +178,7 @@ In this walkthrough, you set up an environment to test integrating certificates 
 6.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
 
 
-If a problem or error occurs, see the Windows Event Log on the computer running the [!INCLUDE[nav_server](includes/nav_server_md.md)]. For more information, see [Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md).
+If a problem or error occurs, see the Windows Event Log on the computer running the [!INCLUDE[nav_server](includes/nav_server_md.md)]. For more information, see [Monitoring Dynamics NAV Server Events Using Event Viewer](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md).
 
 ## Configuring the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)]  
  With the chain trust configuration, only the root CA and the certificate revocation list must be installed for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. To do this, complete these procedures on the computer running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  

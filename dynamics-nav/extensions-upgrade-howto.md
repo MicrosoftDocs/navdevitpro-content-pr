@@ -1,17 +1,19 @@
 ---
-author: edupont04
+author: SusanneWindfeldPedersen
 title: "How to: Write Extension Upgrade Code"
 ms.custom: na
-ms.date: 11/04/2016
+ms.date: 01/22/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: f76ac1a0-9529-4c87-bad2-b468f3f95506
 ms.prod: "dynamics-nav-2018"
-ms.author: edupont
+ms.author: solsen
 ---
 # How to: Write Extension Upgrade Code
+[!INCLUDE[nav_ext1_not_supported](includes/nav_ext1_not_supported.md)]
+
 The process of upgrading an extension includes uninstalling the current version of the extension and then installing a new version. If the extension modifies the schema of an existing table, or adds new tables, upgrade code will be required to handle the data that was automatically archived from the tables during uninstall.
 For more information about upgrading extensions, see [Upgrading Extensions](extensions-upgrading.md).  
 
@@ -140,6 +142,8 @@ PROCEDURE OnNavAppUpgradePerDatabase@1();
 ```
 
 ## See Also  
+[Getting Started](developer/devenv-get-started.md)  
+<!--
 [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)  
 [Upgrading Extensions](extensions-upgrading.md)  
 [GETARCHIVEVERSION Function](GETARCHIVEVERSION-Function.md)  
@@ -152,3 +156,4 @@ PROCEDURE OnNavAppUpgradePerDatabase@1();
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
 [Development Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510540)  
 [Development](development.md)  
+-->

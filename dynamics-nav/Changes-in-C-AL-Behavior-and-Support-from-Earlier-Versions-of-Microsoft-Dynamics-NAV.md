@@ -40,6 +40,7 @@ The following table lists the new functions in [!INCLUDE[navnowlong](includes/na
 |[PROFILEID \(SessionSettings\)](profileid-function-sessionsettings.md)|Gets or sets the profile ID property in a SessionSettings object. |
 |[PROFILESYSTEMSCOPE \(SessionSettings\)](profilesystemscope-function-sessionsettings.md)|Gets or sets the profile scope property in a SessionSettings object. |
 |[REQUESTSESSIONUPDATE \(SessionSettings\)](requestsessionupdate-function-sessionsettings.md)|Passes a SessionSettings object to the client to request a new session that uses the user personalization properties that are set in the object. The current client session is abandoned and a new session is started. |
+|[SENDTRACETAG](sendtracetag-function.md)|Sends a telemetry trace event.|
 |[TIMEZONE \(SessionSettings\)](timezone-function-sessionsettings.md)|Gets or sets the time zone property in a SessionSettings object. |
 
 ## C/AL Properties  

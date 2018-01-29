@@ -71,4 +71,5 @@ Tables
 ## See Also
 [AL Development Environment](devenv-reference-overview.md)  
 [Table Object](devenv-table-object.md)  
-[Table and Table Extension Properties](properties/devenv-table-properties.md)
+[Table and Table Extension Properties](properties/devenv-table-properties.md)  
+[Table Keys](devenv-table-keys.md)
