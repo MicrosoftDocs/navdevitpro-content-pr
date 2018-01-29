@@ -66,53 +66,30 @@ The following example illustrates these formatting rules.
 
 ```
 page 123 PageName
-
 {
-
     actions
-
     {
-
         area(Processing)
-
         {
-
             action(ActionName)
-
             {
-
                 trigger OnAction()
-
                 begin
-
                 end;
-
             }
-
         }
-
     }
 
-
-
     var
-
         TempCustomer: temporary Record Customer;
 
     [EventSubscriber(ObjectType::Page, Page::"Item Card", 'OnAfterGetCurrRecordEvent', '', false, false)]
-
     local procedure OnOpenItemCard(var rec: Record Item)
-
     var
-
         OnRecord: Option " ", Item, Contact;
-
     begin
-
         EnablePictureAnalyzerNotification(rec."No.", OnRecord::Item);
-
     end;
-
 }
 
 ```
@@ -123,7 +100,7 @@ The AL Language extension offers users the option to automatically format their 
 In general there is no restriction on line length, but lengthy lines can make the the code unreadable. We recommend that you keep your code easily scannable and readable.
 
 ## Object naming
-Object names are not prefixed. They start with the feature/group name, followed by the logical name as in these two examples: 
+Object names are prefixed. They start with the feature/group name, followed by the logical name as in these two examples: 
 
 - `Intrastat extension validation codeunit for Denmark`
 - `codeunit 123 "IntrastatDK Validation"`
@@ -154,7 +131,6 @@ In AL, objects are referenced by their object name, not by their ID.
 Page.RunModal(Page::"Customer Card", ...)
  
 var
-
 Customer: Record Customer;
 ```
 
@@ -164,7 +140,6 @@ All variables remain unchanged when they are named. This means that they can be 
 ### Example
 ```
 TempCustomer: temporary Record Customer;
-
 Vendor: Record Vendor; 
 ```
 
@@ -181,15 +156,10 @@ To declare a method, follow the guidelines below:
 ```
 local procedure MyProcedure(Customer: Record Customer; Int: Integer)
 begin
-
 end
-
 // space
-
 local procedure MyProcedure2(Customer: Record Customer; Int: Integer)
-
 begin
-
 end
 ```
 
@@ -199,9 +169,7 @@ When calling a method, include one space after each command if you are passing m
 ### Example
 ```
 MyProcedure();
-
 MyProcedure(1);
-
 MyProcedure(1, 2); 
 ```
 
@@ -210,7 +178,6 @@ When declaring a variable or a parameter, the name of that variable or parameter
 
 ```
 Var
-
 Number: Integer;
 
 local procedure MyProcedure(a: Integer; b: Integer): Integer 
