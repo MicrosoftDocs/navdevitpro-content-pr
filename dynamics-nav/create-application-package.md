@@ -1,5 +1,5 @@
 ---
-title: "Creating a Deployment Package for [!INCLUDE[d365_bus_ctr_long_md](includes/d365_bus_ctr_long_md.md)] online"
+title: "Creating a deployable package for [!INCLUDE[d365_bus_ctr_long_md](includes/d365_bus_ctr_long_md.md)] online"
 ms.custom: na
 ms.date: 28/01/2018
 ms.reviewer: na
@@ -110,7 +110,7 @@ To complete the tasks in this article, you will need the following:
     Invoke-Sqlcmd –ServerInstance $DBServerInstance –Query “USE [$DatabaseName] DELETE FROM dbo.[$(“$”)ndo$(“$”)cachesync]” –Verbose | Write
     ```
 
-## Create the deployment package (.zip file)
+## Create the deployable package (.zip file)
 When you deploy your application online, you must provide a compressed .zip file that contains the application and tenant databases as data-tier application files, known as BACPAC (.bacpac) files. This article describes how you to create the BACPAC files and zip. You can do this using SQL Server Management Studio.
 
 1.	In SQL Server Management Studio, connect to the server instance that hosts the application and tenant databases.
@@ -124,9 +124,9 @@ When you deploy your application online, you must provide a compressed .zip file
 
 5. Create a single ZIP (compressed) file that contains the application and tenant database BACPAC files.
 
-## Upload the deployment package to the Dynamics Lifecycle Services (LCS)
+## Upload the deployable package to the Dynamics Lifecycle Services (LCS)
 
-To upload your deployment package, you will create a project in LCS. 
+To upload your deployable package, you will create a project in LCS. 
 
 1. Sign-in to LCS from [https://lcs.dynamics.com/v2](https://lcs.dynamics.com/logon/index).
 2. On the **Geting Started** page, under Recent Project
