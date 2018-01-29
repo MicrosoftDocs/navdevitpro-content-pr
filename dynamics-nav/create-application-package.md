@@ -1,5 +1,5 @@
 ---
-title: "Creating a Deployment Package"
+title: "Creating a Deployment Package for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] online"
 ms.custom: na
 ms.date: 28/01/2018
 ms.reviewer: na
@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
-# Moving from On-premise to Online 
-This article describes you can move your on-premise [!INCLUDE[navnow](includes/navnow_md.md)] solution that is application and tenants, to [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] online. 
+# Moving from Dynamics NAV On-premise to Online 
+This article describes you can move your on-premise [!INCLUDE[navnow](includes/navnow_md.md)] solution, including the application and its tenants, to [!INCLUDE[d365_bus_ctr_long_md](includes/d365fin_long_md.md)] online. 
 
 ## Prerequisites
-To complete the tasks in this article, you will need the followingensure that you have the following:
+To complete the tasks in this article, you will need the following:
 
--   Installation media (DVD) for the latest [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] version. 
+-   The installation media (DVD) for the latest [!INCLUDE[d365fin_long_md](includes/d365_bus_ctr_long_md.md)] version. 
 
     Download the version from [Microsoft Collaborate](https://developer.microsoft.com/en-us/dashboard/collaborate/packages).
 
--   [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] license.
+-   A [!INCLUDE[d365_bus_ctr_long_md](includes/d365fin_long_md.md)] license.
 
 -   A working environment of your current [!INCLUDE[navnow](includes/navnow_md.md)] application, including the following tools:
     -   [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]
@@ -30,19 +30,23 @@ To complete the tasks in this article, you will need the followingensure that yo
 
      You must use SQL Server Management Studio 2012 Service Pack 1 or later. To download the latest version, see [Download SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms).
 
+-   A Microsoft Dynamics Lifecycle Services (LCS) subscription.  
+
+    You will use LCS to upload your solution for deployment. To get a subscription, follow the step in [Sign up for a preview subscription](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription).
+
 ## Upgrade your application
 1. Complete a technical upgrade of your current application to the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] version.
 
-    This will convert your application database so that is runs on the new [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] platform. For more information, see [Converting a Database - Technical Upgrade](https://docs.microsoft.com/en-us/dynamics-nav/converting-a-database).
+    This will convert your application database so that is runs on the new [!INCLUDE[d365_bus_ctr_long_md](includes/d365fin_long_md.md)] platform. For more information, see [Converting a Database - Technical Upgrade](https://docs.microsoft.com/en-us/dynamics-nav/converting-a-database).
 
     > [!IMPORTANT]  
-    >  Be sure to upload your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] to converted database.
+    >  Be sure to upload your [!INCLUDE[d365_bus_ctr_long_md](includes/d365fin_long_md.md)] to converted database.
     >
     > After the technical upgrade, make sure that all the components are compiled successfully.
 
-2. Optionally, upgrade your application to the new [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] application.
+2. Optionally, upgrade your application to the new [!INCLUDE[d365_bus_ctr_long_md](includes/d365fin_long_md.md)] application.
 
-    You only have to complete this step if you want any new application features that are part of the latest [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] version.
+    You only have to complete this step if you want any new application features that are part of the latest [!INCLUDE[d365_bus_ctr_long_md](includes/d365fin_long_md.md)] version.
     
     For more information, see [Upgrading the Application Code in Dynamics NAV](https://docs.microsoft.com/en-us/dynamics-nav/upgrading-the-application-code).
 
@@ -70,7 +74,7 @@ To complete the tasks in this article, you will need the followingensure that yo
     
     You do this by using the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)]. For more information, see [How to: Export the Application Tables to a Dedicated Database](how-to--export-the-application-tables-to-a-dedicated-database.md).
 
-2.  For each database, remove all users except the default users like, dbo, guest, INFORMATION,SCHEMA, and sys. 
+2.  For application and tenant database, remove all users except the default users like, dbo, guest, INFORMATION,SCHEMA, and sys. 
 
      Use SQL Server Management Studio to remove any previous database users that are assigned to these databases. This includes the service account that was used by the Microsoft Dynamics NAV Server to connect to the database (for example, the [NT AUTHORITY\NETWORK SERVICE] account).
 
@@ -106,7 +110,7 @@ To complete the tasks in this article, you will need the followingensure that yo
     Invoke-Sqlcmd –ServerInstance $DBServerInstance –Query “USE [$DatabaseName] DELETE FROM dbo.[$(“$”)ndo$(“$”)cachesync]” –Verbose | Write
     ```
 
-## Create the deployment package (.zip)
+## Create the deployment package (.zip file)
 When you deploy your application online, you must provide a compressed .zip file that contains the application and tenant databases as data-tier application files, known as BACPAC (.bacpac) files. This article describes how you to create the BACPAC files and zip. You can do this using SQL Server Management Studio.
 
 1.	In SQL Server Management Studio, connect to the server instance that hosts the application and tenant databases.
@@ -118,7 +122,49 @@ When you deploy your application online, you must provide a compressed .zip file
 
     For more information about exporting databases to .bacpac format, see [Export a Data-tier Application](https://msdn.microsoft.com/en-us/library/Hh213241.aspx).
 
-5. Create a ZIP (compressed) file that contains the application and tenant data base BACPAC files.
+5. Create a single ZIP (compressed) file that contains the application and tenant database BACPAC files.
+
+## Upload the deployment package to the Dynamics Lifecycle Services (LCS)
+
+To upload your deployment package, you will create a project in LCS. 
+
+1. Sign-in to LCS from [https://lcs.dynamics.com/v2](https://lcs.dynamics.com/logon/index).
+2. On the **Geeting Startted** page, under Recent Project
+
+     ![Shows the Getting Started page in the LCS portal](media/LCSGettingStarted.png "Shows the Getting Started page in the LCS portal")  
+3. In the **What is this project for?** box, select **Migrate, create solutions, and learn**.
+
+4. Enter a name and description for your project, and then the remaning fields accordingly:
+
+    |  Field  |  Value  |
+    |---------|---------|
+    |Product name|[!INCLUDE[d365_bus_ctr_long_md](includes/d365fin_long_md.md)]|
+    |Country|Set this to the country where your solution will be published.|
+    |Import roles and users from existing LCS project|No|
+
+5. Select **Create**. 
+
+    Your project is created and its home page opens.
+6. Select **Asset Library**.
+
+7. On the **Asset library** page, select select **Software deployable package**, and then select **+**.
+
+     ![Shows the Asset Library in the LCS portal](media/LCSAssetLibrary.png "Shows the Asset Library in the LCS portal")  
+8. In the **Upload Software deployable package file** box, enter a name, select **Add a file**.
+9. In the **Upload file asset** box, select **Browse** > *select your deployable package* > **Open** > **Upload**. 
+
+    When the file has been uploaded, go to the nect step to assign the project to a [!INCLUDE[d365_bus_ctr_long_md](includes/d365fin_long_md.md)] user for processing.
+
+10. Go back to you project home page, and select **Project users**.
+11. On the **Project user management** page, select **+**.
+
+     ![Shows the users assigned to a project in the LCS portal](media/LCSProjectUsers.png "Shows the users assigned to a project in the LCS portal")  
+
+12. In the **Invite user** box, use the **User lookup** field to find the [!INCLUDE[d365_bus_ctr_long_md](includes/d365fin_long_md.md)] user or enter the email address directly in the **Email** field, and then select **Invite**.  
+
+
+
+
 
 ## See Also  
  [Configuring Database Components](Configuring-Database-Components.md)   
