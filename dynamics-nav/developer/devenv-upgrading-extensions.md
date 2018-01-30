@@ -91,7 +91,7 @@ codeunit 70000001 MyUpgradeCodeunit
 ```
 
 ## Running the upgrade for the new extension version
-To upgrade to the new extension version, you use the Sync-NAVApp and Start-NAVAppDataUpgrade cmdlets of the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)] to synchronize table schema changes in the extension with the SQL database and run the data upgrade code.
+To upgrade to the new extension version, you use the [Sync-NavApp](https://go.microsoft.com/fwlink/?linkid=846311) and [Start-NAVAppDataUpgrade](https://go.microsoft.com/fwlink/?linkid=849315) cmdlets of the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] to synchronize table schema changes in the extension with the SQL database and run the data upgrade code.
 
 1.  Publish the new extension version. For simplicity, this example assumes the extension is not signed, which is not allowed with [!INCLUDE[d365fin_md](includes/d365fin_md.md)] and is not recommended with an on-premise production environment.
 
