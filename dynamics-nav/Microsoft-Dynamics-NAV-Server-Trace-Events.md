@@ -116,7 +116,7 @@ Telemetry trace events provide data about the application functions and how it i
 |-------------|-------------|-------------------|-----------------------|  
 |Microsoft-DynamicsNAV-Common|TelemetryTracing|32|0x20|  
 
-Custom telemtry trace events that are emitted from the application. These are events that are sent by [SENDTRACETAG function](sendtracetag-function.md) calls from inside the application. For more information about custom telemetry trace events, see [Instrumenting av Application for Telemetry](instrumenting-application-for-telemetry.md)].  
+Custom telemetry trace events are emitted from the application. These are events that are sent by [SENDTRACETAG function](sendtracetag-function.md) calls from inside the application. For more information about custom telemetry trace events, see [Instrumenting av Application for Telemetry](instrumenting-application-for-telemetry.md)].  
 
 ##  <a name="ArgRef"></a> Event Trace Data  
  The following table lists the arguments that make up the data collected for trace events. When viewing event trace data, the way that the arguments are interpreted and displayed can vary depending on the tool that you use.  

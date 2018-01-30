@@ -61,25 +61,29 @@ These values correspond to values of the [DataClassification property](dataclass
 ## Remarks 
 You use the SENDTRACETAG function for instrumenting the application for telemetry. When the SENDTRACETAG function called, a telemetry trace event is emitted. The event can then be recorded in the Windows event log or collected by other event trace collection tools, like PerfView, Logman, and Performance Monitor. 
 
-The telemetry trace  = 700;
-        public const int Error = 701;
-        public const int Informational = 702;
-        public const int LogAlways = 703;
-        public const int Verbose = 704;
-        public const int Warning = 705;
-        public const int ActivityTransfer = 706;
+A telemetry event is given one of the following event IDs, depending on the `VERBOSITY`and `DATACLASSIFICATION`:
 
-For more information, see [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md) and [Monitoring-Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md). 
+|  Event ID  |  VERBOSITY  |  DATACLASSIFICATION   |
+|------------|-------------|-----------------------|
+|700|Critical|Any value except CustomerContent and EndUserIdentificationInformation|
+|701|Error|Any value except CustomerContent and EndUserIdentificationInformation|
+|702|Informational|Any value except CustomerContent and EndUserIdentificationInformation|
+|704|Verbose|Any value except CustomerContent and EndUserIdentificationInformation|
+|705|Warning|Any value except CustomerContent and EndUserIdentificationInformation|
+|707|Any value|CustomerContent and EndUserIdentificationInformation|
+
+
+For more information about instrumenting and monitoring telemetry, see [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md) and [Monitoring-Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md). 
 
 
 ## Example 
 The following code defines simple telemetry events for the five different severity levels. 
 ```  
 SENDTRACETAG('MyCo-0001', 'Action', VERBOSITY::Critical, 'This is a critical message.', DATACLASSIFICATION::CustomerContent);
-SENDTRACETAG('MyCo-0002', 'Action', VERBOSITY::Error, 'This is an error message.',  DATACLASSIFICATION::CustomerContent);
-SENDTRACETAG('MyCo-0003', 'Action', VERBOSITY::Warning, 'This is a warning message.', DATACLASSIFICATION::CustomerContent);
-SENDTRACETAG('MyCo-0004', 'Action', VERBOSITY::Normal, 'This is an informational message.', DATACLASSIFICATION::CustomerContent);
-SENDTRACETAG('MyCo-0005', 'Action', VERBOSITY::Verbose, 'This is a verbose message.', DATACLASSIFICATION::CustomerContent);
+SENDTRACETAG('MyCo-0002', 'Action', VERBOSITY::Error, 'This is an error message.',  DATACLASSIFICATION::EndUserIdentificationInformation);
+SENDTRACETAG('MyCo-0003', 'Action', VERBOSITY::Warning, 'This is a warning message.', DATACLASSIFICATION::AccountData);
+SENDTRACETAG('MyCo-0004', 'Action', VERBOSITY::Normal, 'This is an informational message.', DATACLASSIFICATION::OrganizationIdentifiableInformation);
+SENDTRACETAG('MyCo-0005', 'Action', VERBOSITY::Verbose, 'This is a verbose message.', DATACLASSIFICATION::SystemMetadata);
 ```  
   
 ## See Also  
