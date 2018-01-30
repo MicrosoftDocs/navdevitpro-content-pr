@@ -95,7 +95,7 @@ author: SusanneWindfeldPedersen
 |Trigger event with signature|Description|  
 |----------------------------------|-----------------|  
 |`OnBeforeActionEvent(VAR Rec : Record)`|Executed before the [OnAction Trigger](triggers/devenv-onaction-trigger.md), which is called when a user selects an action on the page.|  
-|`OnAfterActionEvent(VAR Rec : Record)`|Executed aftkver the [OnAction Trigger](triggers/devenv-onaction-trigger.md), which is called when a user selects an action on the page.|  
+|`OnAfterActionEvent(VAR Rec : Record)`|Executed after the [OnAction Trigger](triggers/devenv-onaction-trigger.md), which is called when a user selects an action on the page.|  
 |`OnAfterGetCurrRecordEvent(VAR Rec : Record)`|Executed after the [OnAfterGetCurrRecord Trigger](triggers/devenv-onaftergetcurrrecord-trigger.md), which is called after the current record is retrieved from the table.|  
 |`OnAfterGetRecordEvent(VAR Rec : Record)`|Executed after the [OnAfterGetCurrRecord Trigger](triggers/devenv-onaftergetcurrrecord-trigger.md), which is called after the record is retrieved from the table but before it is displayed to the user.|  
 |`OnBeforeValidateEvent(VAR Rec : Record, VAR xRec : Record)`|Executed before the [OnValidate \(Page fields\) Trigger](triggers/devenv-onvalidate-page-fields-trigger.md), which is called when a field loses focus after its value has been changed.|  
