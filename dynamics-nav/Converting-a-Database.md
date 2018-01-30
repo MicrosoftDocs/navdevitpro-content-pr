@@ -117,6 +117,9 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
 
 4.  When you are notified that the conversion was successful, choose the **OK** button.
 
+    > [!IMPORTANT]  
+    >  Although the message indicates to do so, do not synchronize the table schemas at this point. 
+
 5.  If the database references any assemblies \(such as client control add-ins\) that are not included on the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media \(DVD\), then add the assemblies to the Add-ins folder on [!INCLUDE[nav_server](includes/nav_server_md.md)] or [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computers.  
 
      For the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the default path is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins folder.  
@@ -136,9 +139,12 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
 
      For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md) or [Database Information](uiref/-$-S_2349-Database-Information-$-.md).  
 
-8.  Compile all objects without table schema synchronizing; you will do this later.  
+8.  Compile all objects **without** synchronizing table schemas; you will do this later. 
 
-    For more information, see [Compiling Objects](compiling-objects.md).
+    For more information, see [Compiling Objects](compiling-objects.md). 
+
+    > [!IMPORTANT]
+    > When prompted about table synchronization, set the **Synchronize Schema** option to **Later**.
 
 9. Fix compilation errors.  
 
