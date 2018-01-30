@@ -3,7 +3,7 @@ title: "AL Development Environment"
 description: "Overview of the objects in the AL Language development environment."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/29/2017
+ms.date: 01/22/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -41,6 +41,9 @@ This section describes all of the objects that are available with the AL Languag
 |To |See |
 |---|----|
 |Learn about writing codeunits for your extension.|[Codeunit Object](devenv-codeunit-object.md)|
+
+## API for HTTP, JSON, TextBuilder, and XML
+For information about the HTTP, JSON, TextBuilder, and XML classes, see [HTTP, JSON, TextBuilder, and XML API Overview](devenv-restapi-overview.md).
 
 ## See Also
 [Developing Extensions](devenv-dev-overview.md)  

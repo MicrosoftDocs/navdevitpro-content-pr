@@ -3,7 +3,7 @@ title: "Getting Started with AL"
 description: "Description of how to get started with the new development environment"
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 05/26/2017
+ms.date: 01/08/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,9 +25,10 @@ Go through the following steps to set up a sandbox environment. With the preview
 1) Sign up for a [Dynamics 365 for Financials sandbox](https://aka.ms/GetSandboxForFinancials).    
 2) Download [Visual Studio Code](https://code.visualstudio.com/Download).  
 3) Download the [AL Language extension](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al).  
-4) Press **Alt+A, Alt+L** to trigger the **Go!** command, and then choose **Cloud**.  
-5) Enter the credentials you provided for the sign up, and then **Download symbols**.  
-6) Press **F5** to deploy and run the extension on your online sandbox tenant.  
+4) Press **Ctrl+,** to open the **user settings** window; here you can modify the [telemetry settings](devenv-get-started.md#telemetry-settings).  
+5) Press **Alt+A, Alt+L** to trigger the **Go!** command, and then choose **Cloud**.  
+6) Enter the credentials you provided for the sign up, and then **Download symbols**.  
+7) Press **F5** to deploy and run the extension on your online sandbox tenant.  
 
 > [!NOTE]  
 > Use **Ctrl+Shift+P** to clear the credentials cache if you want to deploy against a different environment.
@@ -50,6 +51,22 @@ Interested in an on-premise version? It's just as easy. Just sign up by followin
 
 ## JSON file settings
 There are two JSON files in the project; the `app.json` file and the `launch.json` file. The files are automatically generated for your project. For more information, see [JSON files](devenv-json-files.md).
+
+## Telemetry settings
+
+> [!NOTE]  
+> [!INCLUDE[nav_not_supported](includes/nav_not_supported.md)]
+
+By default, Visual Studio Code is set up with a telemetry system to enable that data and errors are sent to Microsoft. If you do not want to send telemetry data, you can change the `telemetry.enableTelemetry` setting from `true` to `false`. 
+
+To modify the telemetry setting, press **Ctrl+,** in Visual Studio Code and choose the **user settings** window, which opens the `settings.json` file, and then add `telemetry.enableTelemetry` and set it to `false`. 
+```
+"telemetry.enableTelemetry": false,
+```
+
+> [!TIP]  
+> The `settings.json` file contains user and workspace settings, these options can be modified to suit your preference. If you want to modify Visual Studio Code editor options and functional behavior settings, see [User and Workspace Settings](https://code.visualstudio.com/docs/getstarted/settings).
+
 
 ## The symbol file
 The symbol file contains metadata of the application. This is what your extension is being built on, and therefore the symbol file must be present. If it is not present, you will be prompted to download it. For more information about the platform symbol file, see [Symbols](devenv-symbols.md).

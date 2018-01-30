@@ -70,3 +70,4 @@ You will now see the generated report in preview mode.
 
 ## See Also
 [Report Object](devenv-report-object.md)  
+[How to: Create an RDL Layout Report](devenv-howto-rdl-report-layout.md)  

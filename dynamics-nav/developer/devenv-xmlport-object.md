@@ -28,7 +28,8 @@ Typing the shortcut ```txmlport``` will create the basic layout for an XMLport o
 The following example shows a page extension of the **Permission Sets** page that adds an action to the specified page calling the XMLport **ExportPermissionSet**. The XMLport exports the permission set data to an XML file. 
 
 ```
-pageextension 70000987 PermissionSetExporter extends "Permission Sets"{
+pageextension 70000987 PermissionSetExporter extends "Permission Sets"
+{
     actions{
         addafter(Permissions){
             action(ExportPermissionSet){
