@@ -61,16 +61,21 @@ These values correspond to values of the [DataClassification property](dataclass
 ## Remarks 
 You use the SENDTRACETAG function for instrumenting the application for telemetry. When the SENDTRACETAG function called, a telemetry trace event is emitted. The event can then be recorded in the Windows event log or collected by other event trace collection tools, like PerfView, Logman, and Performance Monitor. 
 
-A telemetry event is given one of the following event IDs, depending on the `VERBOSITY`and `DATACLASSIFICATION`:
+A telemetry event is given one of the following event IDs, depending on the `DATACLASSIFICATION`and `VERBOSITY`:
 
-|  Event ID  |  VERBOSITY  |  DATACLASSIFICATION   |
-|------------|-------------|-----------------------|
-|700|Critical|Any value except CustomerContent and EndUserIdentificationInformation|
-|701|Error|Any value except CustomerContent and EndUserIdentificationInformation|
-|702|Informational|Any value except CustomerContent and EndUserIdentificationInformation|
-|704|Verbose|Any value except CustomerContent and EndUserIdentificationInformation|
-|705|Warning|Any value except CustomerContent and EndUserIdentificationInformation|
-|707|Any value|CustomerContent and EndUserIdentificationInformation|
+|  DATACLASSIFICATION |  VERBOSITY |    ID|
+|----------------------|------|------------------------------|
+|All except `CustomerContent` and `EndUserIdentificationInformation`|Critical|700|
+||Error|701|
+||Informational|702|
+||Verbose|704|
+||Warning|705|
+|`CustomerContent` or `EndUserIdentificationInformation`|Critical|707|
+||Error|708|
+||Informational|709|
+||Verbose|711 |
+||Warning|712 |
+
 
 
 For more information about instrumenting and monitoring telemetry, see [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md) and [Monitoring-Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md). 
