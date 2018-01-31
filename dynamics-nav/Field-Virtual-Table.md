@@ -26,9 +26,11 @@ The **Field** virtual table contains information about fields in database tables
 |**Enabled**|Whether the field is enabled.|  
 |**Type Name**|The data type assigned to the field. The length of the field entry in bytes is included for Code and Text data types.|  
 |**Field Caption**|The caption of the field in the language that has been selected.|  
-|**RelationTableNo**|The ID number for the table that the field is related to.|  
-|**RelationFieldNo**|The number of the field in another table that the field is related to.|  
+|**RelationTableNo**|The ID number for the table that the field is related to.| |**RelationFieldNo**|The number of the field in another table that the field is related to.|  
 |**SQLDataType**|The data type assigned to code fields.|  
+|**ObsoleteState** |Whether the table is or will become obsolete (deprecated).   |  
+|**ObsoleteReason**|Why a table has been marked as **Pending** or **Obsolete** in the **ObsoleteState** property. |
+|**DataClassification**|The classification of data in the field.|
   
  You must create a tabular-type page to access the **Field** table. For more information, see [How to: Create a Page to View a Virtual Table](How-to--Create-a-Page-to-View-a-Virtual-Table.md).  
   
