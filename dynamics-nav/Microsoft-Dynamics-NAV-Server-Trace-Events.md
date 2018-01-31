@@ -116,18 +116,28 @@ Telemetry trace events provide data about the application functions and how it i
 |-------------|-------------|-------------------|-----------------------|  
 |Microsoft-DynamicsNAV-Common|TelemetryTracing|32|0x20|  
 
-Custom telemetry trace events are emitted from the application. These are events that are sent by [SENDTRACETAG function](sendtracetag-function.md) calls from inside the application. For more information about custom telemetry trace events, see [Instrumenting av Application for Telemetry](instrumenting-application-for-telemetry.md)]. 
+Custom telemetry trace events are emitted from the application. These are events that are sent by [SENDTRACETAG function](sendtracetag-function.md) calls from inside the application. For more information about custom telemetry trace events, see [Instrumenting av Application for Telemetry](instrumenting-application-for-telemetry.md)]. Some of the important event data that is collected includes: tag, category, message, dataclassification.  For more information, see [Event Trace Data](Microsoft-Dynamics-NAV-Server-Trace-Events.md#ArgRef). 
 
-Telemetry events can have one of the following event IDs, depending on the events' VERBOSITY and DATACLASSIFICATION of the `:
+Telemetry events can have one of the following event IDs, based on the dataclassification and verbosity (or seveity level):
 
-|  ID  |  VERBOSITY  |  DATACLASSIFICATION   |
-|------------|-------------|-----------------------|
-|700|Critical|Any classification except CustomerContent and EndUserIdentificationInformation|
-|701|Error|Any classification except CustomerContent and EndUserIdentificationInformation|
-|702|Informational|Any classification except CustomerContent and EndUserIdentificationInformation|
-|704|Verbose|Any classification except CustomerContent and EndUserIdentificationInformation|
-|705|Warning|Any classification except CustomerContent and EndUserIdentificationInformation|
-|707|Any value|CustomerContent and EndUserIdentificationInformation| 
+|  Data classification |  Verbosity |    ID|
+|----------------------|------|------------------------------|
+|All except CustomerContent and EndUserIdentificationInformation|Critical|700|
+||Error|701|
+||Informational|702|
+||Informational|703|
+||Verbose|704|
+||Warning|705|
+||Informational|706|
+|CustomerContent and EndUserIdentificationInformation|Critical|707|
+||Error|708|
+||Informational|709|
+||Informational|710|
+||Verbose|711 |
+||Warning|712 |
+
+>[!NOTE]
+> Event IDs 703, 706, and 710 are used only for system telemetry trace events. All other IDs are used for both system and custom events.
 
 ##  <a name="ArgRef"></a> Event Trace Data  
  The following table lists the arguments that make up the data collected for trace events. When viewing event trace data, the way that the arguments are interpreted and displayed can vary depending on the tool that you use.  
@@ -135,7 +145,8 @@ Telemetry events can have one of the following event IDs, depending on the event
 |Argument|Description|Trace event type|  
 |--------------|-----------------|----------------------|  
 |category|Specifies the category of the telemetry trace event.|Telemetry (TelemetryData)|  
-|connectionType|Specifies the [!INCLUDE[rtc](includes/rtc_md.md)] that has established the connection to the [!INCLUDE[navnow](includes/navnow_md.md)] server instance. Values include [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)].|Service calls (ServiceCall)|  
+|connectionType|Specifies the [!INCLUDE[rtc](includes/rtc_md.md)] that has established the connection to the [!INCLUDE[navnow](includes/navnow_md.md)] server instance. Values include [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)].|Service calls (ServiceCall)|
+|dataclassification|Specifies the [!INCLUDE[rtc](includes/rtc_md.md)] that has established the connection to the [!INCLUDE[navnow](includes/navnow_md.md)] server instance. Values include [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)].|Service calls (ServiceCall)|    
 |failureMessage|Includes the error message that is returned when a C/AL function fails.|C/AL function trace events (ALTracing)|  
 |functionName|Specifies the C/AL function that was executed.|C/AL function trace events (ALTracing)|  
 |lineNumber|Specifies the line number of the statement in the C/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object that was executed.|C/AL function trace events|  
