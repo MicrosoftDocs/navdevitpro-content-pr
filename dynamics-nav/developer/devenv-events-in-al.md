@@ -1,7 +1,7 @@
 ---
 title: "Events in Microsoft Dynamics 365 for Financials and Dynamics NAV"
 ms.custom: na
-ms.date: 01/29/2018
+ms.date: 02/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,6 +11,7 @@ ms.assetid: e800bc78-feb2-4f19-b79a-3fd70e06320f
 caps.latest.revision: 7
 manager: edupont
 ---
+
 > [!NOTE]  
 > [!INCLUDE[d365fin_navnow_supported_md](includes/d365fin_navnow_supported_md.md)]
 

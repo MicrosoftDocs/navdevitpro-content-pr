@@ -2,7 +2,7 @@
 title: "Properties"
 author: edupont04
 ms.custom: na
-ms.date: 11/23/2017
+ms.date: 02/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,7 +16,10 @@ author: SusanneWindfeldPedersen
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # Properties
-This section describes all properties that are available to developers in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].  
+This section describes all properties that are available to developers in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](../includes/navnow_md.md)].  
+
+> [!NOTE]  
+> [!INCLUDE[d365fin_navnow_supported_md](../includes/d365fin_navnow_supported_md.md)]
 
  You can set the value of each property in the **Value** field. When you leave this field (by pressing Enter or by moving with the arrow keys), the property is updated. Default values are displayed in angle brackets (<>). If a property has a default value, then you can reset the property to the default value by deleting the current value and then moving out of the field.  
 
