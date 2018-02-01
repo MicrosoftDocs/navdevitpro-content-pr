@@ -19,7 +19,12 @@ Sets the classification of the data in the table or field. The data classificati
 -   Table objects
 -   Table field controls that are not specified as FlowFields or FlowFilters.
 
-## Property Values  
+## Property Values 
+
+[!INCLUDE[data_classifications](includes/data_classifications.md)] 
+
+<!--
+
 |Value|Description|Example| 
 |-----|-----------|-------|
 |ToBeClassified|Content that has not yet been given a classification. This is the initial value when table or field is created.||
@@ -30,6 +35,7 @@ Sets the classification of the data in the table or field. The data classificati
 |OrganizationIdentifiableInformation|(OII) Data that can be used to identify a tenant, generally config or usage data. This data is not linkable to a user and does not contain Customer content.|<ul><li>Tenant ID (non-GUID)</li><li>Domain name in e-mail address (xxx@contoso.com) or other tenant-specific domain information</li></ul>| 
 |SystemMetadata|Data generated while running the service or program that is not linkable to a user or tenant. |<ul><li>Database table names, database column names, entity names</li></ul>| 
 
+-->
 
 ## Remarks  
 FlowField and FlowFilter fields are automatically set to the **SystemMetadata** data classification.  
