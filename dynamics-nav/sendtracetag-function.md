@@ -76,8 +76,6 @@ A telemetry event is given one of the following event IDs, depending on the `DAT
 ||Verbose|711 |
 ||Warning|712 |
 
-
-
 For more information about instrumenting and monitoring telemetry, see [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md) and [Monitoring-Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md). 
 
 
