@@ -24,8 +24,36 @@ The following table describes the differents classifications that you can apply 
 
 [!INCLUDE[data_classifications](includes/data_classifications.md)] 
   
-## Classifying Data in Tables and Fields
-Table objects and field controls include the DataClassification property that you can use to classify the data contained in each. is propery to assign the TABLE OR
+## Classifying data in tables and fields
+Table objects and field controls include the **DataClassification** property that you can use to tag data with one of the classification prevously described.
+
+-   When you add a new field to a table, the field is assigned an initial value of **ToBeClassified**.
+-   FlowField and FlowFilter fields are automatically set to the **SystemMetadata** data classification. 
+
+For more information about this property, see the following articles:
+-   [DataClassification Property in C/AL](dataclassification-property.md)
+-   [DataClassification Property in AL](developer/devenv-dataclassification-property.md) 
+
+### Viewing the current data classifications
+To view the data classification on all fields, you can do one of the following:
+
+-   From [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], in the **Tools**, select **Show Field Data Classification**. 
+-   From the client, search for and open the **Field Data Classification** page. 
+-   Create a page that has the virtual table **Field** (ID 2000000041) as its source, and open the page in the client.
+
+To view the data classification on all tables, create a page that has the virtual table **Table Metadata** (ID 2000000136)  as its source, and open the page in the client.
+
+### Data classification on upgrade
+When you upgrade an application from a [!INCLUDE[navnow_md](includes/navnow_md.md)] version that does not contain the DataClassification property, existing tables and fields (except for FlowFields and FlowFilters) will automatically be assigned the **CustomerContent** classification. You can then access the **DataClassification** property on these tables and fields, and change the classification as needed. FlowFields and FlowFilters will be assigned the **SystemMetadata** classification automatically.
+
+## Classifying custom telemetry trace events
+Custom telemetry trace events are defined by calls to the SENDTRACETAG function/method in the application code. The SENDTRACETAG function/method includes an optional parameter called `DataClassification` that you can use to tag the telemetry trace event with a data classification.
+
+For more information, see the following articles:
+
+-   [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md) 
+-   [SENDTRACETAG Function (C/AL)](sendtracetag-function.md)
+-   [SENDTRACETAG Method (AL)](developer/devenv-sendtracetag-function.md)
 
 ## See Also
-[Table Properties](table-properties.md)  
+
