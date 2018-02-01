@@ -18,7 +18,7 @@ Sends a telemetry trace event to the event log.
 SENDTRACETAG(Tag, Category, Verbosity, Message[, DataClassification])  
 ```  
   
-#### Parameters  
+## Parameters  
 *Tag*  
 Type: Text or code  
   

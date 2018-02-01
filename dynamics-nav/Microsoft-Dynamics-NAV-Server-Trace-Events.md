@@ -110,18 +110,20 @@ The following table lists the C/AL function tracing events.
 
 ## Telemetry Trace Events
 
-Telemetry trace events provide data about the application functions and how it is being used in production. These events include both system telemetry trace events and custom telemetry trace events. 
+Telemetry trace events can provide data about operations in the application and how it is being used in production. These events include both system telemetry trace events and user-defined, custom telemetry trace events. 
 
 |Event trace provider|Keyword|Decimal value|Hexadecimal value|  
 |-------------|-------------|-------------------|-----------------------|  
 |Microsoft-DynamicsNAV-Common|TelemetryTracing|32|0x20|  
 
-Custom telemetry trace events are emitted from the application. These are events that are sent by [SENDTRACETAG function](sendtracetag-function.md) calls from inside the application. For more information about custom telemetry trace events, see [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md). Some of the important event data that is collected includes: tag, category, message, dataclassification.  For more information, see [Event Trace Data](Microsoft-Dynamics-NAV-Server-Trace-Events.md#ArgRef). 
+Custom telemetry trace events are emitted from the application. These are events that are sent by [SENDTRACETAG function](sendtracetag-function.md) calls from inside the application. For more information about custom telemetry trace events, see [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md).
+
+Some of the important event data that is collected for both system and custom telemetry trace events includes: tag, category, message, dataclassification.  For more information about this data, see [Event Trace Data](Microsoft-Dynamics-NAV-Server-Trace-Events.md#ArgRef). 
 
 Telemetry events can have one of the following event IDs, based on the dataclassification and verbosity (or seveity level):
 
-|  Data classification |  Verbosity |    ID|
-|----------------------|------|------------------------------|
+|  Data classification |  Verbosity | ID  |
+|----------------------|------------|-----|
 |All except CustomerContent and EndUserIdentifiableInformation|Critical|700|
 ||Error|701|
 ||Informational|702|
@@ -140,7 +142,7 @@ Telemetry events can have one of the following event IDs, based on the dataclass
 > Event IDs 703, 706, and 710 are used only for system telemetry trace events. All other IDs are used for both system and custom events.
 
 ##  <a name="ArgRef"></a> Event Trace Data  
- The following table lists the arguments that make up the data collected for trace events. When viewing event trace data, the way that the arguments are interpreted and displayed can vary depending on the tool that you use.  
+The following table lists the arguments that make up the data collected for trace events. When viewing event trace data, the way that the arguments are interpreted and displayed can vary depending on the tool that you use.  
   
 |Argument|Description|Trace event type|  
 |--------------|-----------------|----------------------|  
@@ -160,5 +162,4 @@ Telemetry events can have one of the following event IDs, based on the dataclass
 |userName|Specifies the [!INCLUDE[navnow](includes/navnow_md.md)] user account that is logged on to the session.|All|  
 
 ## See Also  
- [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
- [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)
+ [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)  
