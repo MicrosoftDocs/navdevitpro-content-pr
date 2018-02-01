@@ -95,4 +95,4 @@ The events emitted by this code will have the events IDs (listed in the order th
 
 
 ## See Also  
-[Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md)   
+[../../Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md)   
