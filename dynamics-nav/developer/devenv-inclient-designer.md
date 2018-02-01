@@ -3,7 +3,7 @@ title: "Using Designer"
 description: "Description of how Designer works."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 09/08/2017
+ms.date: 02/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,9 +17,12 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 
 # Using Designer
 
-Developing extensions using new development environment offers a wide range of possibilities. It is exceedingly important to pick suitable ways that servers a better development experience. [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Designer truly complements Visual Studio Code, as it provides easy and convenient way of making immediate adjustments to your design using drag-and-drop components.  
+Developing extensions using new development environment offers a wide range of possibilities. It is exceedingly important to pick suitable ways that servers a better development experience. Designer in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] truly complements Visual Studio Code, as it provides easy and convenient way of making immediate adjustments to your design by simply dragging and dropping the components around.  
 
-Here is a quick overview of the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Designer capabilities: 
+> [!NOTE]  
+> [!INCLUDE[d365fin_navnow_supported_md](includes/d365fin_navnow_supported_md.md)]
+
+Here is a quick overview of Designer capabilities: 
 
 |Features                           |Applies to                       | 
 |-----------------------------------|---------------------------------|
@@ -69,7 +72,6 @@ Removing a field, column, part, or a cue can be performed, by selecting the arro
 
 ## Preview design
 
-![Display options](media/display_options.png)  
 The display type icons let you preview the changes you made on desktop, tablet, and phone clients. This way you can make sure that your design will work on the intended display target(s). You can flip to display tablet and phone designs in portrait and landscape. 
 
 ## Controlling User Access to Designer
