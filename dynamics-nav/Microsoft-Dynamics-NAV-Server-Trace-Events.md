@@ -122,14 +122,14 @@ Telemetry events can have one of the following event IDs, based on the dataclass
 
 |  Data classification |  Verbosity |    ID|
 |----------------------|------|------------------------------|
-|All except CustomerContent and EndUserIdentificationInformation|Critical|700|
+|All except CustomerContent and EndUserIdentifiableInformation|Critical|700|
 ||Error|701|
 ||Informational|702|
 ||Informational|703|
 ||Verbose|704|
 ||Warning|705|
 ||Informational|706|
-|CustomerContent or EndUserIdentificationInformation|Critical|707|
+|CustomerContent or EndUserIdentifiableInformation|Critical|707|
 ||Error|708|
 ||Informational|709|
 ||Informational|710|

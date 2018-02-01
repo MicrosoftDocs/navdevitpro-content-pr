@@ -39,15 +39,16 @@ You use the parameters to define the information about the telemetry trace event
 |DataClassification|A text string that specifies the descriptive message for the telemetry trace event.|
 
 For example, the following code creates simple telemetry trace events for the five different severity levels. 
+
 ```  
-SENDTRACETAG('Cronus-0001', 'UserActivity', VERBOSITY::Critical, 'This is a critical message.');
-SENDTRACETAG('Cronus-0002', 'UserActivity', VERBOSITY::Error, 'This is an error message.');
-SENDTRACETAG('Cronus-0003', 'UserActivity', VERBOSITY::Warning, 'This is a warning message.');
-SENDTRACETAG('Cronus-0004', 'UserActivity', VERBOSITY::Normal, 'This is an informational message.');
-SENDTRACETAG('Cronus-0005', 'UserActivity', VERBOSITY::Verbose, 'This is a verbose message. ');
+SENDTRACETAG('Cronus-0001', 'Action', VERBOSITY::Critical, 'This is a critical message.', DATACLASSIFICATION::CustomerContent);
+SENDTRACETAG('Cronus-0002', 'Action', VERBOSITY::Error, 'This is an error message.',  DATACLASSIFICATION::EndUserIdentifiableInformation);
+SENDTRACETAG('Cronus-0003', 'Action', VERBOSITY::Warning, 'This is a warning message.', DATACLASSIFICATION::AccountData);
+SENDTRACETAG('Cronus-0004', 'Action', VERBOSITY::Normal, 'This is an informational message.', DATACLASSIFICATION::OrganizationIdentifiableInformation);
+SENDTRACETAG('Cronus-0005', 'Action', VERBOSITY::Verbose, 'This is a verbose message.', DATACLASSIFICATION::SystemMetadata);
 ```  
 
-For a simple test of this code, add it to the `OnRun` trigger of a codeunit, and then run the codeunit. Of course, you can also try it from other objects, triggers or functions as well.
+For a simple test of this code, add it to the `OnRun` trigger of a codeunit, and then run the codeunit. Of course, you can also call the code from other objects, triggers or functions as well.
 
 ## <a name="ViewTelemetry"></a>Viewing and collecting telemetry data
 Viewing and collecting telemetry data is done the same way as with other trace events emitted by [!INCLUDE[navnow](includes/navnow_md.md)], for example, by using tools like Event Viewer, Performance Monitor, PerfView, or logman.
