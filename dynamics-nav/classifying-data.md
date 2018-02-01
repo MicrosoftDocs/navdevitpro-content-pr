@@ -53,7 +53,7 @@ For more information, see the following articles:
 
 -   [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md) 
 -   [SENDTRACETAG Function (C/AL)](sendtracetag-function.md)
--   [SENDTRACETAG Method (AL)](developer/devenv-sendtracetag-function.md)
+-   [SENDTRACETAG Method (AL)](developer/devenv-sendtracetag-method.md)
 
 ## See Also
 
