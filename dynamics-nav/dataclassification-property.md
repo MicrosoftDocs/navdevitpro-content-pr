@@ -22,6 +22,7 @@ Sets the classification of the data in the table or field. The data classificati
 ## Property Values 
 
 [!INCLUDE[data_classifications](includes/data_classifications.md)] 
+|ToBeClassified|Content that has not yet been given a classification. This is the initial value when table or field is created.||
 
 <!--
 

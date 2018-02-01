@@ -24,8 +24,8 @@ The following table describes the differents classifications that you can apply 
 
 [!INCLUDE[data_classifications](includes/data_classifications.md)] 
   
-## Classifying Tables and Fields
-Table objects and field controls in the table objects include the DataClassification property. You can use this propery to assign the TABLE OR
+## Classifying Data in Tables and Fields
+Table objects and field controls include the DataClassification property that you can use to classify the data contained in each. is propery to assign the TABLE OR
 
 ## See Also
 [Table Properties](table-properties.md)  

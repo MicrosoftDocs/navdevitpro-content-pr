@@ -47,7 +47,7 @@ Type: DataClassification
   
 Specifies a classification for the data in the telemetry trace event. The following values are supported:
 
-[!INCLUDE[data_classifications](includes/data_classifications.md)] 
+[!INCLUDE[data_classifications](../../includes/data_classifications.md)] 
 
 <!--
 
@@ -101,4 +101,4 @@ The events emitted by this code will have the events IDs (listed in the order th
 
 
 ## See Also  
-[../../Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md)   
+[Instrumenting an Application for Telemetry](../../instrumenting-application-for-telemetry.md)   

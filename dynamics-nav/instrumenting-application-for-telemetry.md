@@ -36,7 +36,7 @@ You use the parameters to define the information about the telemetry trace event
 |Category|A text string that assigns the telemetry trace event to a category that you define. For example, you could have a category for upgrading, user activity, or reporting.|
 |Verbosity|An enumeration that specifies the severity level of the telemetry trace event. The value can be Critical, Error, Warning, Normal, Verbose. This severity level can be used by [!INCLUDE[nav_server_md](includes/nav_server_md.md)] to filter out lower-level telemetry trace events from being emitted. See [Viewing and collecting telemetry data](instrumenting-application-for-telemetry.md#ViewTelemetry). |
 |Message|A text string that specifies the descriptive message for the telemetry trace event.|
-|DataClassification|A DataClassification data type that assigns a classification to the telemetry trace event. For more information, see [Data Classifications](classifying-data.md#DataClassification).|
+|DataClassification|A DataClassification data type that assigns a classification to the telemetry trace event. For more information, see [Data Classifications](classifying-data.md#DataClassifications).|
 
 For example, the following code creates simple telemetry trace events for the five different severity levels. 
 
