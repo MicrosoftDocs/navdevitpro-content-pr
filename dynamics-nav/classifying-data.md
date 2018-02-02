@@ -26,7 +26,7 @@ The following table describes the differents classifications that you can apply 
 [!INCLUDE[data_classifications](includes/data_classifications.md)] 
   
 ## Classifying data in tables and fields
-Table objects and field controls include the **DataClassification** property that you can use to tag data with one of the classifications prevously described.
+Table objects and field controls include the **DataClassification** property that you can use to tag data with one of the classifications previously described.
 
 -   When you add a new field to a table, the field is assigned an initial value of **ToBeClassified**.
 -   FlowField and FlowFilter fields are automatically set to the **SystemMetadata** data classification. 
