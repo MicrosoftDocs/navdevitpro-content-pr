@@ -1,7 +1,7 @@
 ---
 title: "Working with Translation Files"
 ms.custom: na
-ms.date: 11/01/2017
+ms.date: 02/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,8 +15,11 @@ author: SusanneWindfeldPedersen
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
+> [!NOTE]  
+> [!INCLUDE[d365fin_navnow_supported_md](includes/d365fin_navnow_supported_md.md)]
+
 # Working with Translation Files
-[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] is multilanguage enabled, which means that you can display the user interface (UI) in different languages. To add a new language to the extension you have built, you must first enable the generation of XLIFF files. The XLIFF file extension is .xlf. The generated XLIFF file contains the strings that are specified in properties such as **Caption** and **Tooltip**.
+[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] is multilanguage enabled, which means that you can display the user interface (UI) in different languages. To add a new language to the extension you have built, you must first enable the generation of XLIFF files. The XLIFF file extension is .xlf. The generated XLIFF file contains the strings that are specified in properties such as **Caption** and **Tooltip**.
 
 > [!NOTE] 
 > The support for using the ML properties, such as **CaptionML** and **TooltipML**, is being deprecated, so it is recommended to refactor your extension to use the corresponding property, such as **Caption** or **Tooltip**, which is being picked up in the .xlf file.
@@ -88,7 +91,7 @@ In the generated .xlf file, you can see a `<source>` element for each label. For
 > [!NOTE]
 > You can have only one .xlf file per language. If you translate your extension to multiple languages, you must have a translation file per language. There is no enforced naming on the file, but a suggested good practice is to name it `<extensionname>.<language>.xlf`.
 
-When the extension is built and published, you change the language of [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] to view the UI in the translated language. 
+When the extension is built and published, you change the language of [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]  and [!INCLUDE[navnow_md](includes/navnow_md.md)] to view the UI in the translated language. 
 
 ## See Also
 [Multilanguage Development](devenv-multilanguage-development.md)  

@@ -1,7 +1,7 @@
 ---
-title: "Events in Microsoft Dynamics 365 for Financials"
+title: "Events in Microsoft Dynamics 365 for Financials and Dynamics NAV"
 ms.custom: na
-ms.date: 07/06/2017
+ms.date: 02/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +11,11 @@ ms.assetid: e800bc78-feb2-4f19-b79a-3fd70e06320f
 caps.latest.revision: 7
 manager: edupont
 ---
-# Events in Microsoft Dynamics 365 for Finance and Operations, Business edition
+
+> [!NOTE]  
+> [!INCLUDE[d365fin_navnow_supported_md](includes/d365fin_navnow_supported_md.md)]
+
+# Events in AL
 The use of events is a proven and established programming concept that can ease application upgrade and limit or even eliminate the need for code modifications in customized applications because of application platform changes.  
 
 You can use events to design the application to react to specific actions or behavior that occur. Events enable you to separate customized functionality from the application business logic. By using events in the application where customizations are typically made, you can lower the cost of code modifications and upgrades to the original application.  
@@ -37,7 +41,7 @@ You can use events to design the application to react to specific actions or beh
   
      Business and integration type events must be explicitly published and raised, which means that you must create event publisher functions and add them to objects manually. On the other hand, trigger events, which occur on table and page operations, are published and raised implicitly by the system at runtime. Therefore, no coding is required to publish them.  
   
--   A *subscriber* listens for and handles a published event. A subscriber is an AL method that subscribes to a specific event publisher method and includes the logic for handling the event. When an event is raised, the subscriber method is called and its code is run. A subscriber enables partners to hook into the core application functionality without having to do traditional code modifications. Any [!INCLUDE[d365fin_long_md](includes/navnow_md.md)] solution provider, which also includes Microsoft, can use event subscribers.  
+-   A *subscriber* listens for and handles a published event. A subscriber is an AL method that subscribes to a specific event publisher method and includes the logic for handling the event. When an event is raised, the subscriber method is called and its code is run. A subscriber enables partners to hook into the core application functionality without having to do traditional code modifications. Any [!INCLUDE[d365fin_long_md](includes/navnow_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] solution provider, which also includes Microsoft, can use event subscribers.  
   
  There can by multiple subscribers to a single event publisher method. However, a publisher has no knowledge of subscribers, if any. Subscribers can reside in different parts of the application than publishers.  
   
