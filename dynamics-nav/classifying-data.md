@@ -57,4 +57,4 @@ For more information, see the following articles:
 -   [SENDTRACETAG Method (AL)](developer/methods/devenv-sendtracetag-method.md)
 
 ## See Also
-
+[How to: Create a Page to View a Virtual Table](How-to--Create-a-Page-to-View-a-Virtual-Table.md)    
