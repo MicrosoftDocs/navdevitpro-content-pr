@@ -18,7 +18,7 @@ Sets the classification of the data in the table or field. The data classificati
 ## Applies to  
 
 -   Table objects
--   Fields
+-   Table field controls that are not specified as FlowFields or FlowFilters
 
 ## Property Values  
 |Value|Description|Example| 
