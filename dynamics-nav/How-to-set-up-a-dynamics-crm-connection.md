@@ -90,7 +90,7 @@ For all authentication types other than Office 365 authentication, you set your 
   </tr>
   <tr>
     <td>Dynamics 365 SDK Version</td>
-    <td>Specifies that Dynamics 365 software development kit ( also referred to as Xrm) to use to connect [!INCLUDE[navnow_md](includes/navnow_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version that you select must be compatible with SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)].</td>
+    <td>Specifies that Dynamics 365 software development kit ( also referred to as Xrm) to use to connect [!INCLUDE[navnow_md](includes/navnow_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version that you select must be compatible with SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)]. You must set this version equal or higher than the version used by  used by [!INCLUDE[crm_md](includes/crm_md.md)].</td>
   </tr>
 </table>
 8.  Choose the **OK** button when done.  
