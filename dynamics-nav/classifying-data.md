@@ -28,8 +28,11 @@ The following table describes the differents classifications that you can apply 
 ## Classifying data in tables and fields
 Table objects and field controls include the **DataClassification** property that you can use to tag data with one of the classifications prevously described.
 
+Dynamics NAV operates with some standard rules for classification:
 -   When you add a new field to a table, the field is assigned an initial value of **ToBeClassified**.
--   FlowField and FlowFilter fields are automatically set to the **SystemMetadata** data classification. 
+-   FlowField and FlowFilter fields are automatically set to the **SystemMetadata** data classification. This cannot be changed.
+-   Existing tables and fields (except for FlowFields and FlowFilters) in an application that has been upgraded from a [!INCLUDEnavnow_md] version without the DataClassification property, will automatically be assigned the **CustomerContent** classification.
+
 
 For more information about this property, see the following articles:
 -   [DataClassification Property in C/AL](dataclassification-property.md)
