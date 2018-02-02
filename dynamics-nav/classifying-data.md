@@ -35,7 +35,7 @@ For more information about this property, see the following articles:
 -   [DataClassification Property in C/AL](dataclassification-property.md)
 -   [DataClassification Property in AL](developer/methods/devenv-dataclassification-property.md) 
 
-### <a name="ViewDataClassifications"></a>Viewing the current data classifications
+## <a name="ViewDataClassifications"></a>Viewing the current field classifications
 To view the data classification on all fields, you can do one of the following:
 
 -   From [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], in the **Tools** menu, select **Show Field Data Classification**. 
