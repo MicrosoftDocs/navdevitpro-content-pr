@@ -35,6 +35,9 @@ For more information about this property, see the following articles:
 -   [DataClassification Property in C/AL](dataclassification-property.md)
 -   [DataClassification Property in AL](developer/methods/devenv-dataclassification-property.md) 
 
+### Data classification on upgrade
+When you upgrade an application from a [!INCLUDE[navnow_md](includes/navnow_md.md)] version that does not contain the DataClassification property, existing tables and fields (except for FlowFields and FlowFilters) will automatically be assigned the **CustomerContent** classification. You can then access the **DataClassification** property on these tables and fields, and change the classification as needed. FlowFields and FlowFilters will be assigned the **SystemMetadata** classification automatically.
+
 ## <a name="ViewDataClassifications"></a>Viewing the current field classifications
 To view the data classification on all fields, you can do one of the following:
 
@@ -44,8 +47,6 @@ To view the data classification on all fields, you can do one of the following:
 
 To view the data classification on all tables, create a page that has the virtual table **Table Metadata** (ID 2000000136)  as its source, and open the page in the client.
 
-### Data classification on upgrade
-When you upgrade an application from a [!INCLUDE[navnow_md](includes/navnow_md.md)] version that does not contain the DataClassification property, existing tables and fields (except for FlowFields and FlowFilters) will automatically be assigned the **CustomerContent** classification. You can then access the **DataClassification** property on these tables and fields, and change the classification as needed. FlowFields and FlowFilters will be assigned the **SystemMetadata** classification automatically.
 
 ## Classifying data in custom telemetry trace events
 Custom telemetry trace events are defined by calls to the SENDTRACETAG function/method in the application code. The SENDTRACETAG function/method includes an optional parameter called `DataClassification` that you can use to tag the telemetry trace event with a data classification.
