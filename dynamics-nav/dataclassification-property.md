@@ -44,3 +44,4 @@ FlowField and FlowFilter fields are automatically set to the **SystemMetadata** 
   
 ## See Also
 [Table Properties](table-properties.md)  
+[View All Current Field Data Classifications](classifying-data.md#ViewDataClassifications)  

@@ -120,7 +120,7 @@ Custom telemetry trace events are emitted from the application. These are events
 
 Some of the important event data that is collected for both system and custom telemetry trace events includes: tag, category, message, dataclassification.  For more information about this data, see [Event Trace Data](Microsoft-Dynamics-NAV-Server-Trace-Events.md#ArgRef). 
 
-Telemetry events can have one of the following event IDs, based on the dataclassification and verbosity (or seveity level):
+Telemetry events can have one of the following event IDs, based on the data classification and verbosity (or seveity level):
 
 |  Data classification |  Verbosity | ID  |
 |----------------------|------------|-----|
@@ -163,3 +163,4 @@ The following table lists the arguments that make up the data collected for trac
 
 ## See Also  
  [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)  
+ [Classifying Data](classifying-data.md)  
