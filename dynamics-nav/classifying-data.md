@@ -15,7 +15,7 @@ author: jswymer
 [!INCLUDE[navnow_md](includes/navnow_md.md)] includes development features for tagging business data with specific classifications. Specifically, this includes data that is stored in table fields of the database and telemetry data that is emitted from the application.    
 
 ## About Data Classification
-Classifying data serves different purposes. It can make data easier and more efficient to locate and retrieve, and also add another layer of protection and security for handling private and sensitive data. It can act as valuable supplement to your  process for ensuring that the application is compliant with legislative and regulatory requirements for collecting, storing, and using personal information. 
+Classifying data serves different purposes. It can make data easier and more efficient to locate and retrieve, and also help to add another layer of protection and security for handling private and sensitive data. It can supplement your process for making the application compliant with legislative and regulatory requirements for collecting, storing, and using personal information. 
 
 >[!IMPORTANT]
 > You should consider the data classification features offered in [!INCLUDE[navnow_md](includes/navnow_md.md)] as the first layer of classification - done by developers (Dynamics NAV and partners) on customizations, add-ons, and extensions. The second layer is the end-users, and how they handle data they provide and that is made available to them.
