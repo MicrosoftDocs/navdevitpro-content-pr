@@ -235,3 +235,6 @@ FOR iii := 1 TO ImageAnalysisResult.DominantColorCount DO
    MESSAGE('Color %1',ImageAnalysisResult.DominantColor (iii));
 
 ```
+## See Also
+[Get Started with ML Prediction Management](ml-prediction-management-get-started.md)
+
