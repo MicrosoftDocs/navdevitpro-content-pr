@@ -145,7 +145,7 @@
 ## [Converting from Extensions V1 to Extensions V2](developer/devenv-upgrade-v1-to-v2-overview.md)
 ## [Writing Extension Install Code](developer/devenv-extension-install-code.md)
 ## [Upgrading Extensions V2](developer/devenv-upgrading-extensions.md)
-## [Signing the Extension](developer/devenv-sign-extension.md)
+## [Signing an APP Package File](developer/devenv-sign-extension.md)
 ## [How to: Publish and Install an Extension V2](developer/devenv-how-publish-and-install-an-extension-v2.md)
 ## [Extending Application Areas](developer/devenv-extending-application-areas.md)
 ## [Checklist for Submitting Your App](developer/devenv-checklist-submission.md)
