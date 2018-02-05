@@ -1,6 +1,6 @@
 ---
-title: "Getting Started with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Docker"
-description: "Description of how to get started with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Docker"
+title: "Getting Started with Microsoft Dynamics NAV in Docker"
+description: "Description of how to get started with Microsoft Dynamics NAV in Docker"
 author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 01/15/2018
@@ -15,23 +15,23 @@ caps.latest.revision: 18
 ---
 
 
-# Getting Started with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Docker container
+# Getting Started with Microsoft Dynamics NAV in Docker container
 <!-- Should I also mention Microsoft Dynamics NAV 2018? -->
-All shipped cumulative updates and all localizations of [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] 2016 and 2017 are available as Docker images in the Docker Hub, ready for execution on a Windows system with Docker installed.
+All shipped cumulative updates and all localizations of Microsoft Dynamics NAV 2016 and 2017 are available as Docker images in the Docker Hub, ready for execution on a Windows system with Docker installed.
 
 
 > [!NOTE]  
-> [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] ships and maintains Docker images for all versions (all cumulative updates, all localizations) since[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] 2016RTM. No images will be shipped for older versions, but you can run [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] 2015 in Docker. Moreover, with Docker Generic image version 0.0.4.1 you can run older versions in Docker. 
+> Microsoft Dynamics NAV ships and maintains Docker images for all versions (all cumulative updates, all localizations) since Microsoft Dynamics NAV 2016RTM. No images will be shipped for older versions, but you can run Microsoft Dynamics NAV 2015 in Docker. Moreover, with Docker Generic image version 0.0.4.1 you can run older versions in Docker. 
 
 
-## Steps to run [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Docker
+## Steps to run Microsoft Dynamics NAV in Docker
 
-Go through the following steps to start [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in a Docker container. 
+Go through the following steps to start Microsoft Dynamics NAV in a Docker container. 
 
 1) Enable virtualization on the host machine that will be hosting the Docker container.
 2) Enable Hyper-V and Containers on the machine from Windows Features.
 3) Install and configure Docker.
-4) Run a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Docker image.
+4) Run a Microsoft Dynamics NAV Docker image.
 
 ### Enable virtualization 
 
@@ -50,10 +50,10 @@ After you install Docker, it is required to log out of Windows, to log in again,
 
 ###  Run the Docker image 
 
-Run the following command in a Command Prompt as Administrator to run a Docker image of [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]:  
+Run the following command in a Command Prompt as Administrator to run a Docker image of Microsoft Dynamics NAV:  
 `docker run -e accept_eula=Y -m 4G microsoft/dynamics-nav`
 
-You will get the W1 country version of the latest cumulative update of the latest version of [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] running on your computer. You can also run any other cumulative update (of 2016 or 2017), by specifying the version, the CU, and the country version you want as a tag: 
+You will get the W1 country version of the latest cumulative update of the latest version of Microsoft Dynamics NAV 2016 and 2017 running on your computer. You can also run any other cumulative update (of 2016 or 2017), by specifying the version, the CU, and the country version you want as a tag: 
 
 `docker run -e accept_eula=Y -m 4G microsoft/dynamics-nav:2016-cu5-dk`
 
@@ -74,10 +74,6 @@ To see which functions are available in the NAV Container Helper use:
 
 ## See also:
 <!--
-// In progress: 
-[Troubleshooting NAV on Docker](devenv-troubleshooting-nav-on-docker.md)
-// In progress:
-[Docker's commands]()
 // Should we add the link to the Docker hub?
 [](https://hub.docker.com/r/microsoft/dynamics-nav/)
 
