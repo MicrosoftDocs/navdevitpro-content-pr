@@ -37,13 +37,13 @@ Our ML experts have created two experiments that you can use to create your own 
 The experiments are available in the [Cortana Intelligence Gallery](https://go.microsoft.com/fwlink/?linkid=828352):
 
 * Forecasting Model for [!INCLUDE[d365fin_long](../includes/d365fin_long_md.md)]  
-* Late Payment Prediction Model for for [!INCLUDE[d365fin_long](../includes/d365fin_long_md.md)]
+* Late Payment Prediction Model for [!INCLUDE[d365fin_long](../includes/d365fin_long_md.md)]
 
 ### About the Codeunits We Provide
 You can use the following codeunits when you build your own extension:
 
-* Codeunit 2003 for payment predictions  
-* Codeunit  <!--Need the codeunit number. Also, is this codeunit used for both sales and inventory forecasts and cash flow forecasts?-->
+* Codeunit 2003 for predictions  
+* Codeunit 2000 for time series management  <!--Need the codeunit number. Also, is this codeunit used for both sales and inventory forecasts and cash flow forecasts?-->
 
 ## Predictive Models
 ML Prediction Management uses a classification model. The goal of a classification model is to assign something to a predefined class, or category. These classes or categories are called "labels," and are defined when you train the model. For this API, we have two labels, **Late** and **On-Time.**
