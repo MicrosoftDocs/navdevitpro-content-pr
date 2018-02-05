@@ -19,6 +19,11 @@ This topic describes the methods to use to prepare data for analysis, train the 
 
 For more information about codeunits, see [Dynamics NAV Codeunits Overview](https://docs.microsoft.com/en-us/dynamics-nav/codeunits).
 
+## To get an API URL and API key
+1. In a browser, go to the experiment.  
+2. Choose ****.  
+3. Get an API URI, and API key.
+
 ## How to initialize the codeunit
 The methods in the following table initialize codeunit 2003.
 
