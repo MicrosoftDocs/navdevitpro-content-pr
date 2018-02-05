@@ -24,7 +24,7 @@ Specifies a field to be a timestamp field.
  **True** if the field is the timestamp field; otherwise, **false**. The default value is **false**.  
 
 ## Remarks  
- Each table in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] includes a hidden timestamp field. The timestamp field contains row version numbers for records as maintained in SQL Server. This property exposes the timestamp field in the table object, and enables you to write code against it.  
+ Each table includes a hidden timestamp field. The timestamp field contains row version numbers for records as maintained in SQL Server. This property exposes the timestamp field in the table object, and enables you to write code against it.  
 
 ## See Also  
  [Table and Table Extension Properties](devenv-table-properties.md)  
