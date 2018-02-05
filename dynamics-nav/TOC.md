@@ -148,7 +148,7 @@
 ## [Signing the Extension](developer/devenv-sign-extension.md)
 ## [How to: Publish and Install an Extension V2](developer/devenv-how-publish-and-install-an-extension-v2.md)
 ## [Extending Application Areas](developer/devenv-extending-application-areas.md)
-## [Checklist for Submiting Your App](developer/devenv-checklist-submission.md)
+## [Checklist for Submitting Your App](developer/devenv-checklist-submission.md)
 ## [Events](developer/devenv-events-in-al.md)
 ### [Publishing Events](developer/devenv-publishing-events.md)
 ### [Raising Events](developer/devenv-raising-events.md)
