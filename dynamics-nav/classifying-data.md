@@ -38,7 +38,7 @@ For more information about this property, see the following articles:
 ### Data classification on upgrade
 When you upgrade an application from a [!INCLUDE[navnow_md](includes/navnow_md.md)] version that does not contain the DataClassification property, existing tables and fields (except for FlowFields and FlowFilters) will automatically be assigned the **CustomerContent** classification. You can then access the **DataClassification** property on these tables and fields, and change the classification as needed. FlowFields and FlowFilters will be assigned the **SystemMetadata** classification automatically.
 
-## <a name="ViewDataClassifications"></a>Viewing the current field classifications
+## <a name="ViewDataClassifications"></a>Viewing current field classifications
 To view the data classification on all fields, you can do one of the following:
 
 -   From [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], in the **Tools** menu, select **Show Field Data Classification**. 
