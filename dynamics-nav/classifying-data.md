@@ -38,6 +38,21 @@ For more information about this property, see the following articles:
 ### Data classification on upgrade
 When you upgrade an application from a [!INCLUDE[navnow_md](includes/navnow_md.md)] version that does not contain the DataClassification property, existing tables and fields (except for FlowFields and FlowFilters) will automatically be assigned the **CustomerContent** classification. You can then access the **DataClassification** property on these tables and fields, and change the classification as needed. FlowFields and FlowFilters will be assigned the **SystemMetadata** classification automatically.
 
+### Bulk-classifying data
+The Field Data Classification report also lets you assign data classifications for more than one field. For example, this is useful if you are assigning classifications for the first time, or have changed several fields and want to update their classifications. You can bulk-edit classifications only for fields in CSIDE. The script does not update fields in extensions.  
+
+To bulk-edit classifications, export the report to Excel, update the classifications and then save your changes. Then, in Windows PowerShell, run the following commands to run the Import-Module script and set the classifications on the fields.  
+
+To run the script from the default folder on the DVD, run:  
+``` 
+Import-Module WindowsPowerShellScripts\DataClassification\DataClassification.psm1
+``` 
+
+To update the DataClassification property, run:  
+``` 
+Set-FieldDataClassificationFromExcelFile -ExcelFilePath "C:\NAV\W1 Fields (Main).xlsx" -SheetName 'Field Data Classification' -RTCFolder "*<path to the client files, for example, C:\Program Files\Microsoft Dynamics NAV\110\RoleTailored Client>*" -DBName Navision_NAV2 -OutputFolder C:\Nav2\Classifications
+```  
+
 ## <a name="ViewDataClassifications"></a>Viewing current field classifications
 To view the data classification on all fields, you can do one of the following:
 
