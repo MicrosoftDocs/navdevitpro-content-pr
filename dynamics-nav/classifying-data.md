@@ -39,9 +39,9 @@ For more information about this property, see the following articles:
 When you upgrade an application from a [!INCLUDE[navnow_md](includes/navnow_md.md)] version that does not contain the DataClassification property, existing tables and fields (except for FlowFields and FlowFilters) will automatically be assigned the **CustomerContent** classification. You can then access the **DataClassification** property on these tables and fields, and change the classification as needed. FlowFields and FlowFilters will be assigned the **SystemMetadata** classification automatically.
 
 ### Bulk-classifying data
-The Field Data Classification report also lets you assign data classifications for more than one field. For example, this is useful if you are assigning classifications for the first time, or have changed several fields and want to update their classifications. You can bulk-edit classifications only for fields in CSIDE. The script does not update fields in extensions.  
+The Field Data Classification report, which is described in the *Viewing current field classifications* section in this topic, provides an overview of the data classifications for fields. The report also lets you assign data classifications for more than one field. For example, this is useful if you are assigning classifications for the first time, or have changed several fields and want to update their classifications. You can bulk-edit classifications only for fields in CSIDE. The script does not update fields in extensions.  
 
-To bulk-edit classifications, export the report to Excel, update the classifications and then save your changes. Then, in Windows PowerShell, run the following commands to run the Import-Module script and set the classifications on the fields.  
+To bulk-edit classifications, export the report to Excel, update the classifications, and then save your changes. Then, in Windows PowerShell, run the following commands to run the Import-Module script and set the classifications on the fields.  
 
 To run the script from the default folder on the DVD, run:  
 ``` 
