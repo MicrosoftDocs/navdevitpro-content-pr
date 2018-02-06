@@ -48,10 +48,11 @@ To run the script from the default folder on the DVD, run:
 Import-Module WindowsPowerShellScripts\DataClassification\DataClassification.psm1
 ``` 
 
-To update the DataClassification property, run:  
+To update the DataClassification property, run the following command. Replace *<FilePath>* with the full path to the client files. For example, C:\Program Files\Microsoft Dynamics NAV\110\RoleTailored Client.  
 ``` 
-Set-FieldDataClassificationFromExcelFile -ExcelFilePath "C:\NAV\W1 Fields (Main).xlsx" -SheetName 'Field Data Classification' -RTCFolder "*<path to the client files, for example, C:\Program Files\Microsoft Dynamics NAV\110\RoleTailored Client>*" -DBName Navision_NAV2 -OutputFolder C:\Nav2\Classifications
+Set-FieldDataClassificationFromExcelFile -ExcelFilePath "C:\NAV\W1 Fields (Main).xlsx" -SheetName 'Field Data Classification' -RTCFolder "<FilePath>" -DBName Navision_NAV2 -OutputFolder C:\Nav2\Classifications
 ```  
+
 
 ## <a name="ViewDataClassifications"></a>Viewing current field classifications
 To view the data classification on all fields, you can do one of the following:
