@@ -18,5 +18,6 @@ This complex data type corresponds to a row in a table. Each record consist of f
  To access a field in a table in your AL code, use the following syntax: TableName.FieldName
 
 ## See Also
-[AL Data Types](devenv-al-data-types.md)  
+[AL Data Types](devenv-al-data-types.md)   
+[Essential AL Methods](../devenv-essential-al-methods.md)   
 [AL Method Reference](../methods/devenv-al-method-reference.md)  
