@@ -3,7 +3,7 @@ title: "Synchronizing extension test data"
 description: "Retaining table data after publishing an extension"
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 01/12/2018
+ms.date: 02/07/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,9 +15,6 @@ caps.latest.revision: 18
 ---
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
-
-> [!NOTE]  
-> [!INCLUDE[nav_not_supported](includes/nav_not_supported.md)]
 
 # Retaining table data after publishing
 When developing an extension, you debug several times using the F5 shortcut key, and you also test your app by adding some sample data every time. To simplify the extension development process in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you can synchronize the sample data specified in the extension when you do subsequent publishing from Visual Studio Code.
