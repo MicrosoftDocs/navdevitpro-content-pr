@@ -14,6 +14,9 @@ author: jswymer
 # Style Guide
 This article lists the colors and fonts that are used in the user interface of the [!INCLUDE[navnow](includes/navnow_md.md)] clients.
 
+> [!IMPORTANT]  
+> This article is currently in progress and contents will change.
+
 ## Colors
 
 ### Main colors
