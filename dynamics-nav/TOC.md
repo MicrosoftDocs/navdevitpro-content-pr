@@ -140,7 +140,7 @@
 ## [Retaining Table Data after Publishing](developer/devenv-retaining-data-after-publishing.md)
 ## [Security Setting and IP Protection](developer/devenv-security-settings-and-ip-protection.md)
 ## [Running C/SIDE and AL Side-By-Side](developer/devenv-running-cside-and-al-side-by-side.md)
-## [Creating runtime packages](developer/devenv-creating-runtime-packages.md)
+## [Creating Runtime Packages](developer/devenv-creating-runtime-packages.md)
 ## [The Txt2Al Conversion Tool](developer/devenv-txt2al-tool.md)
 ### [Generating Delta files](developer/devenv-generating-delta-files.md)
 ## [Converting from Extensions V1 to Extensions V2](developer/devenv-upgrade-v1-to-v2-overview.md)
