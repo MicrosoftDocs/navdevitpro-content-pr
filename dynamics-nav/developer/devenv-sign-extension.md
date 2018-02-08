@@ -61,7 +61,7 @@ SignTool sign /n Prosewaretest "C:\NAV\Extension\Proseware.app”
 ```
 
 > [!NOTE]  
->  If you want to publish an unsigned extension package, you need explicitly state that by using the *–SkipVerification* parameter on the `Publish-NAVApp` cmdlet.  
+>  If you want to publish an unsigned extension package, you must explicitly state that by using the *–SkipVerification* parameter on the `Publish-NAVApp` cmdlet.  
 
 
 ## See Also
