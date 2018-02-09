@@ -8,7 +8,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: rweigel
 caps.latest.revision: 18
@@ -18,7 +18,7 @@ caps.latest.revision: 18
 
 Several key things lead to your extension passing the Microsoft validation process. However, one of the most important checks you can do is to take the time and test your extension before submitting it for validation. This allows you to catch some of the basic errors that could lead to validation failures. Following are some points to keep in mind when doing your testing.
 
-- Always test in a true Dynamics 365 for Financials SaaS environment. If you test in on-prem, you might miss errors that would be seen on SaaS.
+- Always test in a true [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] SaaS environment. If you test in on-prem, you might miss errors that would be seen on SaaS.
 - Ensure that your extension can be published without code signing errors. You **must not** use the -skipverification flag.
 - The extension should be able to be installed without errors.
 - If you are using the **Assisted Setup**, ensure that you can use your wizard to completion without errors.

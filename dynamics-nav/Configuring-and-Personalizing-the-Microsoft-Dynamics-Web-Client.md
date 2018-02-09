@@ -7,11 +7,14 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: f32dc985-bb5e-4338-a66a-b32a0e75914c
 caps.latest.revision: 11
 ---
 # Configuring and Personalizing the Microsoft Dynamics NAV Web Client
+
+**Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [See [!INCLUDE[nav2018_md](includes/nav2018_md.md)] and later version](https://docs.microsoft.com/en-us/dynamics-nav-app/ui-personalization-user).
+
 A [!INCLUDE[navnow](includes/navnow_md.md)] page can consist of several different elements, such as FactBoxes, FastTabs, a Filter pane, actions, and more. Like the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], you can customize pages that display in the [!INCLUDE[nav_web](includes/nav_web_md.md)] so that some elements are not shown. This lets you hide nonessential information and limit the space that a page occupies on the website. The difference with the [!INCLUDE[nav_web](includes/nav_web_md.md)] is that you cannot perform customization tasks directly from the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Instead, you perform the customization tasks in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], which means that any customization that is performed applies to both the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 
 > [!NOTE]  

@@ -1,1 +1,1 @@
-Dynamics 365 for Financials development environment
+AL Language development environment

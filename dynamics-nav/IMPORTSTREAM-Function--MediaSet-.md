@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ---
 # IMPORTSTREAM Function (MediaSet)
 Adds a media file, such as a JPEG image, from an InStream object to the MediaSet of record for displaying in the client. The media is imported to the database and included in a MediaSet for the record.
@@ -76,6 +76,7 @@ The code requires that you create the following variables and text constant:
 |  Variable name  |  DataType  |  Subtype  |  
 |-----------------|------------|-----------|  
 |itemRec|Record|Item|  
+|fileName|Text||  
 |inStreamObject|InStream||  
 |importFile|File||
 |count|Integer||  

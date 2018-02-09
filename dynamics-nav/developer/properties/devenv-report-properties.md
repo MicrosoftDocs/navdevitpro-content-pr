@@ -1,12 +1,13 @@
 ---
-title: "Report Properties"
+title: Report Properties
+description: This topic lists report properties that apply to controls of a report object.
 ms.custom: na
-ms.date: 06/15/2017
+ms.date: 11/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: a9518144-46ef-4cd9-b260-1d232895f2d2
 caps.latest.revision: 12
 author: SusanneWindfeldPedersen
@@ -40,6 +41,9 @@ This topic lists properties of the report object.
 |[UseRequestPage Property](devenv-userequestpage-property.md)|X|
 |[UseSystemPrinter Property](devenv-usesystemprinter-property.md)|X|
 |[PDFFontEmbedding Property](devenv-pdf-fontembedding-property.md)|X|
+|[UsageCategory Property](devenv-usagecategory-property.md)|X|
+|[ApplicationArea Property](devenv-applicationarea-property.md)|X|
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|X|
 
 ## DataItem Properties  
  The following properties apply to **DataItem** controls of a report object.  

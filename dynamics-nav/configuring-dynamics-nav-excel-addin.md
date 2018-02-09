@@ -9,7 +9,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ---
 # Setting up the Excel Add-In for Editing [!INCLUDE[navnow](includes/navnow_md.md)] Data
 You can set up the [!INCLUDE[navnow](includes/navnow_md.md)] deployment to support an Excel add-in that enables users in the [!INCLUDE[navnow](includes/navnow_md.md)] client to work with data from list pages in Excel. Users can get fresh data from [!INCLUDE[navnow](includes/navnow_md.md)] and update the data in [!INCLUDE[navnow](includes/navnow_md.md)] based on their work in Excel.
@@ -67,7 +67,7 @@ You can add the Azure AD application by using the [Azure portal](http://go.micro
     </tr>
     <tr>
     <td>Sign-on URL (App URL)</td>
-    <td>The URI for signing in to your [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], such as ```https://www.solutions.com/DynamicsNAV/WebClient/```.</td>
+    <td>The URI for signing in to your [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], such as ```https://www.solutions.com/DynamicsNAV``` or ```https://www.solutions.com/DynamicsNAV/WebClient/``` (for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions).</td>
     </tr>
     <tr>
     <td>App ID URI</td>
@@ -108,7 +108,7 @@ You must add the Excel add-in to the [!INCLUDE[nav_server](includes/nav_server_m
 
 2.  In the **Client Services** section, set the **Web Client Base URL** field to the base URL of the [!INCLUDE[nav_web_md](includes/nav_web_md.md)].
 
-	This is the root portion of all URLs that are used to access pages in the web client. This must have the format ```https://[hostname:port]/[instance]/WebClient```, such as ```https://MyNavWebServer/DynamicsNAV/WebClient/```.
+	This is the root portion of all URLs that are used to access pages in the web client. This must have the format ```https://[hostname:port]/[instance]``` or ```https://www.solutions.com/DynamicsNAV/WebClient/``` (for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions), such as ```https://MyNavWebServer/DynamicsNAV``` and ```https://MyNavWebServer/DynamicsNAV/WebClient/```.
 
     With the **Set-NAVServerConfiguration** cmdlet, set the ```PublicWebBaseUrl``` key.
 

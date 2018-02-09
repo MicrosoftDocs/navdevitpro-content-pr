@@ -7,7 +7,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 35c974ac-f27f-4c60-86ee-85525ce06cd9
 caps.latest.revision: 29
 manager: edupont
@@ -25,7 +25,7 @@ The following sections provide an overview of the documentation for web services
 |Avoid issues that may occur when [!INCLUDE[navnow](includes/navnow_md.md)] pages expect user interaction.|[Handling UI Interaction When Working with Web Services](Handling-UI-Interaction-When-Working-with-Web-Services.md)|  
 |Coordinate web service applications across multiple time zones.|[Managing Time Zones with Web Services](Managing-Time-Zones-with-Web-Services.md)|  
 |Avoid data loss that can be caused by out-of-date proxies.|[Preserving Data When Working with a Statically Generated Proxy](Preserving-Data-When-Working-with-a-Statically-Generated-Proxy.md)|  
-|Implement policies to make your web services easier to understand and maintain.|[Web Services Best Practices](Web-Services-Best-Practices.md)|  
+|Implement policies to make your web services easier to understand and maintain.|[Web Services Best Practices](Web-Services-Best-Practices.md)|
   
 ## SOAP Web Services  
  The topics in this section describe how to create and maintain SOAP web services.  
@@ -39,7 +39,6 @@ The following sections provide an overview of the documentation for web services
   
 ## OData Web Services  
  The topics in this section describe how to create and maintain OData web services.  
-  
 |To|See|  
 |--------|---------|  
 |Use OData to obtain an AtomPub document.|[How to: Use OData to Return-Obtain an AtomPub Document](How-to--Use-OData-to-Return-Obtain-an-AtomPub-Document.md)|  
@@ -62,3 +61,4 @@ The following sections provide an overview of the documentation for web services
 |View and analyze [!INCLUDE[navnow](includes/navnow_md.md)] page data in Microsoft Excel using Microsoft PowerPivot for Excel, which is a data analysis add-in.|[Walkthrough: Viewing Page Data in Excel Using PowerPivot \(OData\)](Walkthrough--Viewing-Page-Data-in-Excel-Using-PowerPivot--OData-.md)|  
 |Make web service communication more secure.|[Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md)|  
 |Combine data from [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with data from Microsoft Azure Marketplace.|[Walkthrough: Combining Data from Microsoft Dynamics NAV Queries and Pages with Data from Azure DataMarket \(OData\)](Walkthrough--Combining-Data-from-Microsoft-Dynamics-NAV-Queries-and-Pages-with-Data-from-Azure-DataMarket--OData-.md)|
+|Create and interact with an OData V4 Bound Action|[Walkthrough: Creating and Interacting With an OData V4 Bound Action](walkthrough-creating-and-interacting-odata-v4-bound-action.md)|

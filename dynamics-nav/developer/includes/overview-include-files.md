@@ -7,7 +7,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 0745a889-d9ba-4023-a4a8-dba74097ddd0
 caps.latest.revision: 15
 manager: edupont
@@ -48,7 +48,7 @@ This table contains the INCLUDE expressions associated with the content of the i
 |`[!INCLUDE[nav_phone_md](includes/nav_phone_md.md)]`|Microsoft Dynamics NAV Phone client|
 |`[!INCLUDE[nav_prov_long_md](includes/nav_prov_long_md.md)]`|Microsoft Dynamics NAV Provisioning Tools for Microsoft Azure|
 |`[!INCLUDE[nav_prov_short_md](includes/nav_prov_short_md.md)]`|provisioning tools|
-|`[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]`|DynamicsNAV100|
+|`[!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)]`|DynamicsNAV110|
 |`[!INCLUDE[nav_server_md](includes/nav_server_md.md)]`|Microsoft Dynamics NAV Server|
 |`[!INCLUDE[nav_setup_md](includes/nav_setup_md.md)]`|Microsoft Dynamics NAV 2017 Setup|
 |`[!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]`|Microsoft Dynamics NAV 2017 Administration Shell|

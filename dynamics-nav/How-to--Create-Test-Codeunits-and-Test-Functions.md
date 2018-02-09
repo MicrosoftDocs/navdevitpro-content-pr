@@ -1,17 +1,18 @@
 ---
-title: "How to: Create Test Codeunits and Test Functions"
+title: Test Codeunits and Test Functions
+description: This topic describes how to create test codeunits and how to create test functions in the test codeunits in Dynamics NAV. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 12/05/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 6da55c81-d0e3-4a77-b45c-751479ff17b9
 caps.latest.revision: 15
 manager: edupont
 ---
-# How to: Create Test Codeunits and Test Functions
+# Creating Test Codeunits and Test Functions
 In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create test codeunits and create test functions in the test codeunits.  
 
  When you create a new function in a test codeunit, the **FunctionType** property is set to **Test** by default.  

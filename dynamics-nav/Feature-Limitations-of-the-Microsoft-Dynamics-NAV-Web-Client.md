@@ -1,19 +1,19 @@
 ﻿---
 title: "Feature Limitations of the Microsoft Dynamics NAV Web Client"
 description: "Listing non-supported and partically supported features of the Web client."
-author: SusanneWindfeldPedersen
+author: jswymer
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
-ms.assetid: d1a3d947-ab5a-4c56-b5bf-36f0a13eda66
-caps.latest.revision: 65
-manager: edupont
+ms.prod: "dynamics-nav-2018"
 ---
 # Feature Limitations of the Microsoft Dynamics NAV Web Client
+
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client-2017.md).
+
 [!INCLUDE[nav_web](includes/nav_web_md.md)] supports most of the same [!INCLUDE[navnow](includes/navnow_md.md)] objects and features as [!INCLUDE[nav_windows](includes/nav_windows_md.md)], but there are some small differences. This topic lists the features that are not supported or are partially supported by [!INCLUDE[nav_web](includes/nav_web_md.md)]. These features are listed compared with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The topic is divided into the following sections:  
 
 -   [General Features](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client.md#General)  
@@ -40,7 +40,7 @@ manager: edupont
 |Departments and MenuSuite|Not supported.|The **Departments** button does not appear in the navigation pane of Role Center in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Instead Page Search is available from an action in the navigation pane of the Role Center and on the top right corner of a page. MenuSuite is used to build the Departments page in [!INCLUDE[nav_windows](includes/nav_windows_md.md)].|  
 |System Indicator|Not supported.|The [!INCLUDE[nav_web](includes/nav_web_md.md)] always shows the name of the company that it connects to.|  
 |Microsoft .NET Framework Interoperability|Partially supported.|Microsoft .NET Framework interoperability objects that are configured to run on the client are not supported; objects that run on [!INCLUDE[nav_server](includes/nav_server_md.md)] are supported. For more information, see [How to: Set .NET Framework Types to Run on the Microsoft Dynamics NAV Windows Client or Microsoft Dynamics NAV Server Computers](How-to--Set-.NET-Framework-Types-to-Run-on-the-Microsoft-Dynamics-NAV-Windows-Client-or-Microsoft-Dynamics-NAV-Server-Computers.md).|  
-|Configuring the user interface for a profile|Partially supported.|You cannot perform configuration using the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Instead, you use the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [Configuring and Personalizing the Microsoft Dynamics Web Client](Configuring-and-Personalizing-the-Microsoft-Dynamics-Web-Client.md).|  
+|Configuring the user interface for a profile|Partially supported.|You cannot perform configuration using the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Instead, you use the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [Configuring the User Interface (UI) for Users](https://docs.microsoft.com/en-us/dynamics-nav-app/admin-configure-user-interface).|  
 
 ##  <a name="Objects"></a> Objects  
  The following object types are not supported by [!INCLUDE[nav_web](includes/nav_web_md.md)].  

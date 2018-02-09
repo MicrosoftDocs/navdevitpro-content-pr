@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 98fd11e6-fac1-4ad6-8a3f-93e8b39e94b1
 caps.latest.revision: 3
 ---
@@ -49,5 +49,5 @@ Because the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events ar
 3.  Save the file, and then restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
 ## See Also  
- [Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md)   
- [Monitoring Microsoft Dynamics NAV Server Event Traces](Monitoring-Microsoft-Dynamics-NAV-Server-Event-Traces.md)
+ [Monitoring Dynamics NAV Server Events Using Event Viewer](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md)   
+ [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)

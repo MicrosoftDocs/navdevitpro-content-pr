@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: f7ce3b2d-5e2e-4d2d-97fa-bed3a6add0d2
 caps.latest.revision: 20
 manager: edupont
@@ -18,7 +18,7 @@ To use a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-in on a
   
 1.  Locate the sn.exe file.  
   
-     The default folder for the Microsoft .NET Framework SDK is C:\\Program Files\\Microsoft SDKs\\Windows\\v7.0\\Bin.  
+     The location will depend on your operating system and the installed Microsoft .NET Framework SDK. For example, *C:\\Program Files\\Microsoft SDKs\\Windows\\v7.0\\Bin* or *C:\\Utils\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools\\x64*.  
   
 2.  At the command prompt, change to the directory that contains the sn.exe utility.  
   

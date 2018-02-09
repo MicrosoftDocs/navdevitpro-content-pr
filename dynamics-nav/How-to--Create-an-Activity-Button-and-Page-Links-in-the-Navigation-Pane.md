@@ -1,17 +1,18 @@
 ---
-title: "How to: Create an Activity Button and Page Links in the Navigation Pane"
+title: Navigation Pane - Activity Button and Page Links
+description: Learn how to create activity buttons and page links for navigation pane with a menu of links by adding actions on the page that defines the Role Center.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 8e8e9c18-7509-4353-a996-d63f4a9d44e4
 caps.latest.revision: 23
 manager: edupont
 ---
-# How to: Create an Activity Button and Page Links in the Navigation Pane
+# Creating Activity Buttons and Page Links in the Navigation Pane
 An activity button in the navigation pane displays a menu of links to additional pages in the RoleTailored client. The following illustration shows activity buttons in the navigation pane.  
   
  ![Navigation pane clip that shows Activity buttons](media/NAV_ADG_NavigationPane_ActivityButtons.jpg "NAV\_ADG\_NavigationPane\_ActivityButtons")  

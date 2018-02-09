@@ -1,6 +1,6 @@
 ---
 title: dimensionLines resource type | Microsoft Docs
-description: A dimension line in Dynamics 365 for Financials.
+description: A dimension line in Dynamics 365 for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,7 +15,10 @@ ms.author: solsen
 ---
 
 # dimensionLines resource type
-Represents a dimension line in Dynamics 365 for Financials.
+Represents a dimension line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -65,4 +68,11 @@ Here is a JSON representation of the resource.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Get dimension line](../api/dynamics_dimensionline_get.md)  
+[Post dimension line](../api/dynamics_create_dimensionline.md)  
+[Patch dimension line](../api/dynamics_dimensionline_update.md)  
+[Delete dimension line](../api/dynamics_dimensionline_delete.md)  

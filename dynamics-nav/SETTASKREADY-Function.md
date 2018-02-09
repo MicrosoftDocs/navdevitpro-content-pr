@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 90204123-a179-409d-921e-fc65f240596d
 caps.latest.revision: 3
 manager: edupont
@@ -62,5 +62,6 @@ TASKSCHEDULER.SETTASKREADY(taskID);
  [Task Scheduler](Task-Scheduler.md)  
  [TaskScheduler Data Type](TaskScheduler-Data-Type.md)   
  [CREATETASK Function](CREATETASK-Function.md)   
- [CANCELTASK Function](CANCELTASK-Function.md)   
+ [CANCELTASK Function](CANCELTASK-Function.md)  
+ [CANCREATETASK Function](CANCREATETASK-Function.md)   
  [TASKEXISTS Function](TASKEXISTS-Function.md)
