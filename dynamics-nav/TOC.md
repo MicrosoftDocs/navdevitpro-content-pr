@@ -164,6 +164,7 @@
 ## [How to: Create a Word Layout Report](developer/devenv-howto-report-layout.md)
 ## [AL Development Environment](developer/devenv-reference-overview.md)
 ### [AL Programming Guide](developer/devenv-programming-in-al.md)
+### [FAQ for Developing in AL](developer/devenv-dev-faq.md)
 ### [Table Object](developer/devenv-table-object.md)
 ### [Table Extension Object](developer/devenv-table-ext-object.md)
 ### [Page Object](developer/devenv-page-object.md)
