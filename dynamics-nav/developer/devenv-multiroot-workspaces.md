@@ -19,30 +19,17 @@ caps.latest.revision: 18
 
 # How to: Handle solutions that contain multiple projects 
 
-When you want to group a set of different project folders into one workspace, you can use Visual Studio Code. 
-<!-- Visual Studio Code recently introduced the so called multi root workspace support which allows you to organize your work in multiple top level folders. See the details on how to add multiple folders to a workspace in https://code.visualstudio.com/docs/editor/multi-root-workspaces
-
-The AL Language extension now also supports the multi root functionality. This feature-set allows you to work with multiple top level AL folders (roots/projects) within one workspace. Not all roots have to be AL-based - you can mix all kinds of roots/projects together. Each AL project will now have its own configuration values for the following settings:
-
-al.packageCachePath   
-al.enableCodeAnalysis
- 
-
-This allows to create a package cache path relative to each project or use the same absolute path to share the same packages across different projects.  -->
-
-
-Visual Studio Code allows working on multiple project folders with multi-root workspaces, which makes it possible to organize your work in multiple top level folders. /
-
-Visual Studio Code 
+Visual Studio Code offers the multi-root workspace feature which enables grouping different project folders into one workspace. The AL Language extension also supports the multi-root functionality and allows you to work with multiple AL folders including roots and projects within one workspace. 
+<!--
+Sa dau un exemplu aici? 
+-->
 
 <!--
 Multi-root workspaces let developers group a set of disparate project folders into one workspace, instead of having to work with files and folders residing only in a single root folder. This provides a variety of advantages and use cases, such as working on multiple projects at the same time.
 After folders have been added, the workspace can be named and saved and developers can switch back and forth among workspaces through a variety of UI interactions.
 
--->
-
 search for the official documentation  on VSCode for multi-root.
-what does it enable it to do. can you structure your project differently? highlightingth be
+what does it enable it to do. can you structure your project differently? -->
 
 
 
@@ -54,11 +41,37 @@ Go through the following steps to work on several related projects at one time:
 4) Workspace file schema - The schema of .code-workspace is fairly straightforward. You have an array of folders with either absolute or relative paths. Relative paths are better when you want to share Workspace files.
 
 You can override the display name of your folders with the name attribute for a clearer display in the Explorer. 
+
++ Maybe include this part: 
+With multiple root folders in one workspace, it is possible to have a .vscode folder in each root folder defining the settings that should apply for that folder. To avoid setting collisions, only resource (file, folder) settings are applied when using a multi-root workspace. Settings which affect the entire editor (for example, UI layout) are ignored. For example, two projects cannot both set the zoom level.
+
+User settings are supported as with single folder project and you can also set global Workspace settings which will apply to all folders in your multi-root Workspace. Global Workspace settings will be stored in your .code-workspace file.
+When you go from a single folder instance to multiples folders, VS Code will add the appropriate editor-wide settings from the first folder to the new global Workspace settings.
+
+You can easily review and modify the different settings files through the Settings editor. The Settings editor dropdown lets you select your User settings, global Workspace settings and individual folder settings.
+
+settings dropdown
+
+You can also open specific settings files with the commands:
+
+Preferences: Open User Settings - Open your global User settings
+Preferences: Open Workspace Settings - Open the settings section of your Workspace file.
+Preferences: Open Folder Settings - Open the settings for the active folder.
+Global Workspace settings override User settings and folder settings can override Workspace or User settings.
 -->
+
+You can work with multiple project folders in Visual Studio Code with multi-root workspaces
 
 ## Grouping a set of disparate project folders into one workspace
 
-It is not mandatory to use only AL-based roots. Different kinds of projects can be mixed, and each AL project will have its configuration values for the following settings: `al.packageCachePath` and `al.enableCodeAnalysis`. 
+It is not mandatory to use only AL-based roots. Different kinds of projects can be mixed, and each AL project will have its configuration values for the following settings: 
+- `al.packageCachePath`  
+- `al.enableCodeAnalysis`
+
+The first setting allows you to create a package cache path relative to each project or use the same absolute path to share the same packages across different projects. The second one ...
+<!--
+Intreaba-l din nou pe Alex ce face al.enableCodeAnalysis
+-->
 
 
 <!--
@@ -76,5 +89,5 @@ If you want to move your Workspace file to a new location, you can use the File 
 
 -->
 
-Mail Susanne: 
-It’s about enabling the capability of having multiple projects in one – there is also a link to the VS Code docs, please read that too. You should also spin up a project to see if it is working (provided that this is checked into the latest build, not sure). Please consider what we need here, maybe just one new topic on how to work with this, plus I think we have a reference in the getting started topic on creating a project, make sure that statement is up to date as well. 
+<!-- Mail Susanne: 
+It’s about enabling the capability of having multiple projects in one – there is also a link to the VS Code docs, please read that too (DONE). You should also spin up a project to see if it is working (provided that this is checked into the latest build, not sure) (DONE). Please consider what we need here, maybe just one new topic on how to work with this, (plus I think we have a reference in the getting started topic on creating a project, make sure that statement is up to date as well. - DONE)  -->
