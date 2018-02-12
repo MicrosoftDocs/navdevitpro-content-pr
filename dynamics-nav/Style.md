@@ -21,14 +21,21 @@ This article lists the colors and fonts that are used in the user interface of t
 
 ### Main colors
  
-<blockquote STYLE="background-color: #002050;border-left:None;color: white"><br />#002050<br /><br /></blockquote>
-<blockquote STYLE="background-color: #008098;border-left:None;color: white"><br />#008098<br /><br /></blockquote>
-<blockquote STYLE="background-color: #009CA6;border-left:None;color: white"><br />#009CA6<br /><br /></blockquote>
-<blockquote STYLE="background-color: #00B7C3;border-left:None;color: white"><br />#00B7C3<br /><br /></blockquote>
-<blockquote STYLE="background-color: #394453;border-left:None;color: white"><br />#394453<br /><br /></blockquote>
-<blockquote STYLE="background-color: #505C6D;border-left:None;color: white"><br />#505C6D<br /><br /></blockquote>
+<blockquote STYLE="background-color: #00B7C3;border-left:None;color: white"><br />Primary (#00B7C3)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #505C6D;border-left:None;color: white"><br />Secondary (#505C6D)<br /><br /></blockquote>
 
-### Miscellaneous
+### Style colors
+
+<blockquote STYLE="background-color: #212121;border-left:None;color: white"><br />STANDARD (#212121)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #00B7C3;border-left:None;color: white"><br />ACCENT (#00B7C3)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #212121;border-left:None;color: white"><br />STRONG (#212121)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #35AB22;border-left:None;color: white"><br />FAVORABLE (#35AB22)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #9F9700;border-left:None;color: white"><br />AMBIGUOUS (#9F9700)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #EB6965;border-left:None;color: white"><br />UNFAVORABLE (#EB6965)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #EB6965;border-left:None;color: white"><br />ATTENTION (#EB6965)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #A7ADB6;border-left:None;color: white"><br />SUBORDINATE (#A7ADB6)<br /><br /></blockquote>
+
+### Miscellaneous colors
 
 <table style="width:100%;text-align:left;color:white;padding: 10px">
   <tr align="left">
@@ -39,40 +46,29 @@ This article lists the colors and fonts that are used in the user interface of t
   <tr STYLE="background-color: #FFFFFF;border-left:None;color:black">
     <th>White</th>
     <th>#FFFFFF</th> 
-    <th>#FFFFFFRGB</th>
+    <th>255, 255, 255</th>
    </tr>
   <tr STYLE="background-color: #3062d6;border-left:None;color: white">
-    <th>White</th>
-    <th>#3062d6</th> 
-    <th>#FFFFFFRGB</th>
+    <th>Black</th>
+    <th>#000000</th> 
+    <th>0, 0, 0</th>
    </tr>
 </table> 
 
+### More palette colors
+<blockquote STYLE="background-color: #C9C472;border-left:None;color: white"><br />YELLOW (#C9C472)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #88CE81;border-left:None;color: white"><br />GREEN (#88CE81)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #E97768;border-left:None;color: white"><br />RED (#E97768)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #75B5E7;border-left:None;color: white"><br />BLUE (#75B5E7)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #59CCB4;border-left:None;color: white"><br />LIGHTGREEN (#59CCB4)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #75D8E7;border-left:None;color: white"><br />SKY (#75D8E7)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #EEEA86;border-left:None;color: white"><br />EGG (#EEEA86)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #E89E63;border-left:None;color: white"><br />ORANGE (#E89E63)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #DBBDEB;border-left:None;color: white"><br />VIOLET (#DBBDEB)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #39B294;border-left:None;color: white"><br />TEAL (#39B294)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #73BA5A;border-left:None;color: white"><br />GRASS (#73BA5A)<br /><br /></blockquote>
+<blockquote STYLE="background-color: #E65E6D;border-left:None;color: white"><br />SCARLET (#E65E6D)<br /><br /></blockquote>
 
-<blockquote STYLE="background-color: #FFFFFF;border-left:None;color: black"><br />#FFFFFF<br /><br /></blockquote>
-<blockquote STYLE="background-color: #3062d6;border-left:None;color: white"><br />#3062D6<br /><br /></blockquote>
-
-### Tile (Cue) Thresholds
-<blockquote STYLE="background-color: #CC514C;border-left:None;color: white"><br />#CC514C<br /><br /></blockquote>
-<blockquote STYLE="background-color: #F3605B;border-left:None;color: white"><br />#F3605B<br /><br /></blockquote>
-<blockquote STYLE="background-color: #42AB31;border-left:None;color: white"><br />#42AB31<br /><br /></blockquote>
-<blockquote STYLE="background-color: #57C647;border-left:None;color: white"><br />#57C647<br /><br /></blockquote>
-<blockquote STYLE="background-color: #A69F32;border-left:None;color: white"><br />#A69F32<br /><br /></blockquote>
-<blockquote STYLE="background-color: #C2BA3A;border-left:None;color: white"><br />#C2BA3A<br /><br /></blockquote>
-
-### Action Tiles
-<blockquote STYLE="background-color: #009CA6;border-left:None;color: white"><br />#009CA6<br /><br /></blockquote>
-<blockquote STYLE="background-color: #75B5E7;border-left:None;color: white"><br />#75B5E7<br /><br /></blockquote>
-<blockquote STYLE="background-color: #A6E6EA;border-left:None;color: white"><br />#A6E6EA<br /><br /></blockquote>
-<blockquote STYLE="background-color: #59CCB4;border-left:None;color: white"><br />#59CCB4<br /><br /></blockquote>
-<blockquote STYLE="background-color: #39B294;border-left:None;color: white"><br />#39B294<br /><br /></blockquote>
-<blockquote STYLE="background-color: #73BA5A;border-left:None;color: white"><br />#73BA5A<br /><br /></blockquote>
-<blockquote STYLE="background-color: #88CE81;border-left:None;color: white"><br />#88CE81<br /><br /></blockquote>
-<blockquote STYLE="background-color: #C9C472;border-left:None;color: white"><br />#C9C472<br /><br /></blockquote>
-<blockquote STYLE="background-color: #E09E6A;border-left:None;color: white"><br />#E09E6A<br /><br /></blockquote>
-<blockquote STYLE="background-color: #E68C6D;border-left:None;color: white"><br />#E68C6D<br /><br /></blockquote>
-<blockquote STYLE="background-color: #E68C6D;border-left:None;color: white"><br />#E68C6D<br /><br /></blockquote>
-<blockquote STYLE="background-color: #DBBDEB;border-left:None;color: white"><br />#DBBDEB<br /><br /></blockquote>
 
 ### Charts
 <blockquote STYLE="background-color: #505C6D;border-left:None;color: white"><br />#505C6D<br /><br /></blockquote>
