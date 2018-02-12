@@ -67,3 +67,4 @@ When all development and testing is done, you can submit your extension package 
 [Getting Started with AL](devenv-get-started.md)  
 [Keyboard Shortcuts](devenv-keyboard-shortcuts.md)    
 [AL Development Environment](devenv-reference-overview.md)  
+[FAQ for Developing in AL](devenv-dev-faq.md)  

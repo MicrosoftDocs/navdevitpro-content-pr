@@ -76,4 +76,5 @@ To make your extension available to users, the package must be published to a sp
 
 ## See Also
 [Differences in the Dynamics NAV Development Environments](devenv-differences.md)  
-[AL Development Environment](devenv-reference-overview.md)
+[AL Development Environment](devenv-reference-overview.md)  
+[FAQ for Developing in AL](devenv-dev-faq.md)  
