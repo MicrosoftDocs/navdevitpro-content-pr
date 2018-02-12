@@ -21,8 +21,8 @@ This article lists the colors and fonts that are used in the user interface of t
 
 ### Main colors
  
-<blockquote STYLE="background-color: #00B7C3;border-left:None;color: white"><br />Primary (#00B7C3)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #505C6D;border-left:None;color: white"><br />Secondary (#505C6D)<br /><br /></blockquote>
+<blockquote STYLE="background-color:#00B7C3;border-left:None;color: white"><br />Primary (#00B7C3)<br /><br /></blockquote>
+<blockquote STYLE="background-color:#505C6D;border-left:None;color: white"><br />Secondary (#505C6D)<br /><br /></blockquote>
 
 ### Style colors
 
