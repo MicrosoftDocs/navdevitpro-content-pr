@@ -25,8 +25,7 @@ If you are new to building extensions, we recommend that you read this document 
 
 ## Understanding objects in the development environment
 All functionality in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] is coded in objects. The extension model is object-based; you create new objects, and extend existing objects depending on what you want your extension to do. Table objects define the table schema that holds data, page objects represent the pages seen in the user interface and codeunits contain code for logical calculations and for the application behavior. These objects are stored as code, known as AL code, and are saved in files with the ```.al``` file extension. The AL Language extension also supports the multi-root functionality which allows you to work with multiple AL folders within one workspace. 
-For more information on how to group a set of disparate project folders into one workspace, see [How to: Handle solutions that contain multiple projects](devenv-multiroot-workspaces.md).
-<!-- Remember to check that the topic's title has not been changed!-->
+
 
 > [!NOTE]  
 > A single .al file may contain multiple objects.      
