@@ -21,6 +21,8 @@ This article lists the colors and fonts that are used in the user interface of t
 
 <h1 style="color:blue;">This is a Blue Heading</h1> 
 
+<blockquote STYLE="background: #81BEF7;border-left:None"><b>FULL EXPERIENCE</b><br />This is sample text his is sample text his is sample texthis is sample texthis is sample texthis is sample texthis is sample texthis is sample texthis is sample texthis is sample texthis is sample text </blockquote>
+
 ### Main colors
  
 <blockquote STYLE="background-color:#00B7C3;border-left:None;color: white;"><br />Primary (#00B7C3)<br /><br /></blockquote>
