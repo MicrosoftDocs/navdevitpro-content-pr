@@ -45,9 +45,9 @@ A page field control includes the [Style Property](Style-Property.md) that you u
 4.  Set the **StyleExpr** property value to **True**.  
 
 ## Applying Conditional Formatting to Text in a Page Field Control  
- By using a page field's **StyleExpr** property, you can apply the format that is specified by the **Style** property to a field based on the field's data. For example, you can display text in red if the value of the field is a negative number, italic red if an item is low in stock, or bold green to indicate a favorable value, such as a high credit limit.  
+By using a page field's **StyleExpr** property, you can apply the format that is specified by the **Style** property to a field based on the field's data. For example, you can display text in red if the value of the field is a negative number, italic red if an item is low in stock, or bold green to indicate a favorable value, such as a high credit limit.  
 
- To set up this formatting, you define a Boolean variable and add C/AL code to the page that evaluates the field's data. The C/AL code should return the Boolean variable as **True** when the data meets the conditions for which you want to apply the formatting. You then set the variable on the field's **StyleExpr** property.  
+To set up this formatting, you define a Boolean variable and add C/AL code to the page that evaluates the field's data. The C/AL code should return the Boolean variable as **True** when the data meets the conditions for which you want to apply the formatting. You then set the variable on the field's **StyleExpr** property.  
 
 #### To define a variable to use to format field text  
 
