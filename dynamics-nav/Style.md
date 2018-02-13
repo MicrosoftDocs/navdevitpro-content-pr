@@ -17,8 +17,6 @@ This article lists the colors and fonts that are used in the user interface of t
 > [!IMPORTANT]  
 > This article is currently in progress and contents will change.
 
-<iframe src="media/styleframe.htm"></iframe>
-
 ## Colors
 
 ### Main colors
