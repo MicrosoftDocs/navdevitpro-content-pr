@@ -86,6 +86,13 @@ This article lists the colors and fonts that are used in the user interface of t
 
 
 ### Charts
+
+|    |  Hex  |  RGB  |
+|----|-------|-------|
+|![Primary (#00B7C3)](media/505C6D-v2.png "Primary (#00B7C3)")|#505C6D ||
+|![Secondary (#505C6D)](media/008089.png "Secondary (#505C6D)")  |#008089||
+
+
 <blockquote STYLE="background-color: #505C6D;border-left:None;color: white"><br />#505C6D<br /><br /></blockquote>
 <blockquote STYLE="background-color: #008089;border-left:None;color: white"><br />#008089<br /><br /></blockquote>
 <blockquote STYLE="background-color: #00B7C3;border-left:None;color: white"><br />#00B7C3<br /><br /></blockquote>
