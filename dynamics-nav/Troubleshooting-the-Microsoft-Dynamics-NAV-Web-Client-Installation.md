@@ -13,7 +13,7 @@ caps.latest.revision: 10
 manager: edupont
 ---
 # Troubleshooting the Dynamics NAV Web Server and Client Installation
-Use the following links to help you resolve problems with [!INCLUDE[nav_web_server_m](includes/nav_web_server_md.md)] and Web client installation.  
+Use the following links to help resolve problems with [!INCLUDE[nav_web_server_m](includes/nav_web_server_md.md)] and Web client installation.  
 
 -   [Troubleshooting: Microsoft Dynamics NAV Web Client does have styles and images are missing](Troubleshooting--Microsoft-Dynamics-NAV-Web-Client-does-have-styles-and-images-are-missing.md)  
 
