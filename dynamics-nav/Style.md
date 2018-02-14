@@ -94,7 +94,7 @@ This article lists the colors and fonts that are used in the user interface of t
 
 ### Charts
 |    |    | 
-|----|-------|
+|----:|:-------|
 |![Secondary (#505C6D)](media/00B7C3-v2.png "Secondary (#505C6D)") |#00B7C3|
 |![Secondary (#505C6D)](media/00B7C3-v2.png "Secondary (#505C6D)") |#00B7C3|
 |![Secondary (#505C6D)](media/00B7C3-v2.png "Secondary (#505C6D)") |#00B7C3|
