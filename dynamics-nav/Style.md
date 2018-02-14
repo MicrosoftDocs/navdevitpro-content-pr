@@ -12,7 +12,17 @@ caps.latest.revision: 4
 author: jswymer
 ---
 # Style Guide
-This article lists the colors and fonts that are used in the user interface of the [!INCLUDE[navnow](includes/navnow_md.md)] clients.
+Add-ins for Dynamics 365 "Tenerife" extend a business solution by surfacing contextual functionality alongside business data. Add-ins empower users to get more done without costly context switching, no matter which device they access Dynamics 365 from. Typical uses of add-ins include unique data visualizations, surfacing controls from a third party service, or displaying related content from another data source.
+
+To design an add-in to blend seamlessly into Dynamics 365 "Tenerife", you should follow these basic principles:
+
+- Apply similar patterns for command, navigation and presentation of data.
+- Favor content over chrome
+- Design for all platforms and input methods.
+- Make it accessible to all users.
+- Make it enjoyable and keep users in control.
+
+This article offers a variety of stylistic definitions that can be applied to your AddIn and help you create an experience that delights users and complements Dynamics 365.
 
 > [!IMPORTANT]  
 > This article is currently in progress and contents will change.
@@ -118,7 +128,9 @@ This article lists the colors and fonts that are used in the user interface of t
 <blockquote STYLE="background-color: #39B294;border-left:None;color: white"><br />#39B294<br /><br /></blockquote>
 <blockquote STYLE="background-color: #73BE5A;border-left:None;color: white"><br />#73BE5A<br /><br /></blockquote>
 
-## Fonts
+## Typography
+
+
 
 <blockquote STYLE="font-family: Segoe UI;border-left:None"><br />Segoe UI<br /><br /></blockquote>
 <blockquote STYLE="font-family: Segoe UI Light;border-left:None"><br />Segoe UI Light<br /><br /></blockquote>
