@@ -23,6 +23,7 @@ This article lists the colors and fonts that are used in the user interface of t
 
  ![Primary (#00B7C3)](media/00B7C3.png "Primary (#00B7C3)")
  ![Secondary (#505C6D)](media/505C6D.png "Secondary (#505C6D)")
+
 <!--
 <blockquote STYLE="background-color:#00B7C3;border-left:None;color: white;"><br />Primary (#00B7C3)<br /><br /></blockquote>
 <blockquote STYLE="background-color:#505C6D;border-left:None;color: white;"><br />Secondary (#505C6D)<br /><br /></blockquote>
@@ -30,7 +31,15 @@ This article lists the colors and fonts that are used in the user interface of t
 -->
 
 ### Style colors
-
+![Primary (#00B7C3)](media/212121.png "Primary (#00B7C3)")
+![Secondary (#505C6D)](media/00B7C3-accent.png "Secondary (#505C6D)")
+![Primary (#00B7C3)](media/212121-strong.png "Primary (#00B7C3)")
+![Secondary (#505C6D)](media/35AB22-favorable.png "Secondary (#505C6D)")
+![Primary (#00B7C3)](media/9F9700-ambiguous.png "Primary (#00B7C3)")
+![Secondary (#505C6D)](media/EB6965-unfavorable.png "Secondary (#505C6D)")
+![Primary (#00B7C3)](media/EB6965-attention.png "Primary (#00B7C3)")
+![Secondary (#505C6D)](media/A7ADB6-subordinate.png "Secondary (#505C6D)")
+<!--
 <blockquote STYLE="background-color: #212121;border-left:None;color: white"><br />STANDARD (#212121)<br /><br /></blockquote>
 <blockquote STYLE="background-color: #00B7C3;border-left:None;color: white"><br />ACCENT (#00B7C3)<br /><br /></blockquote>
 <blockquote STYLE="background-color: #212121;border-left:None;color: white"><br />STRONG (#212121)<br /><br /></blockquote>
@@ -39,6 +48,7 @@ This article lists the colors and fonts that are used in the user interface of t
 <blockquote STYLE="background-color: #EB6965;border-left:None;color: white"><br />UNFAVORABLE (#EB6965)<br /><br /></blockquote>
 <blockquote STYLE="background-color: #EB6965;border-left:None;color: white"><br />ATTENTION (#EB6965)<br /><br /></blockquote>
 <blockquote STYLE="background-color: #A7ADB6;border-left:None;color: white"><br />SUBORDINATE (#A7ADB6)<br /><br /></blockquote>
+-->
 
 ### Miscellaneous colors
 
