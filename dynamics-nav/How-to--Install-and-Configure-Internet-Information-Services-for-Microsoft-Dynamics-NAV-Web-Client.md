@@ -204,7 +204,7 @@ IIS must have the following features enabled:
 ## <a name="ARR"></a> Configure Headers in Application Request Routing (ARR) Rules
 [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] runs on ASP .NET Core, which requires both an `X-Forwarded-For` header and `X-Forwarded-Proto` header in ARR routing rules. However, by default, ARR only adds the `X-Forwarded-For` header; not the `X-Forwarded-Proto` header. So will have to configure the `X-Forwarded-Proto` header manually.
 
-On the server farm in IIS, add or edit a routing rule to include a server variable for `X-Forwarded-Proto`. For example, using IIS Manager, select **Routihg Rules** > **URL Rewrite** > **Edit** > **Server Variables**, and then add a server variable that has the following settings: 
+On the server farm in IIS, add or edit a routing rule to include a server variable for `X-Forwarded-Proto`. For example, using IIS Manager, select **Routing Rules** > **URL Rewrite** > **Edit** > **Server Variables**, and then add a server variable that has the following settings: 
 
 |  Name  |  Value  |  Replace  |
 |--------|---------|-----------|
