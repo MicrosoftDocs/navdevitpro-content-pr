@@ -73,7 +73,7 @@ This article offers a variety of stylistic definitions that can be applied to yo
     <th>#FFFFFF</th> 
     <th>255, 255, 255</th>
    </tr>
-  <tr STYLE="background-color: #3062d6;border-left:None;color: white">
+  <tr STYLE="background-color: #000000;border-left:None;color: white">
     <th>Black</th>
     <th>#000000</th> 
     <th>0, 0, 0</th>
@@ -130,6 +130,7 @@ This article offers a variety of stylistic definitions that can be applied to yo
 
 ## Typography
 
+### Fonts
 
 
 <blockquote STYLE="font-family: Segoe UI;border-left:None"><br />Segoe UI<br /><br /></blockquote>
