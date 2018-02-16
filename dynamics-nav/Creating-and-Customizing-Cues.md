@@ -77,7 +77,7 @@ The first thing that you must do is to create a table that contains fields that 
   
     To add primary key, for example, add a field with the name **Primary Key**, and then set its data type to **Code**.  
 
-###  <a name="CreatePage"></a> Add the Cues to a Page objecy   
+###  <a name="CreatePage"></a> Add the Cues to a Page object   
 After you have a table for holding the Cue data, you create a page that you associate the table, and then add Cue fields on the page. Typically, you will create Card Part type page that will be part of the Role Center page.
 
 Cues are arranged into one or more groups on the page. Each group will have its own caption.  
@@ -88,9 +88,9 @@ Cues are arranged into one or more groups on the page. Each group will have its 
 
    The following figure illustrates the Page Designer for a page that contains two Cues.  
   
-    ![Page Designer showing Cues](media/NAV_PageDesigner_SalesThisMonthCue_Clip.png "NAV\_PageDesigner\_SalesThisMonthCue\_Clip")  
+    ![Page Designer showing Cues](media/O365-activities-cues-clip.png "Page Designer showing Cues")  
 
-4. If you want to set the CueGroup to use the wide layout, set the [Layout property](layout-property.md).
+4. If you want to set the CueGroup to use the wide layout, set the [Layout property](layout-property.md) to **Wide**.
 
 5. Repeat steps 2-4 for each additional CueGroup.
 
