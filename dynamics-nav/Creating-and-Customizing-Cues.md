@@ -82,7 +82,7 @@ After you have a table for holding the Cue data, you create a page that you asso
 
 Cues are arranged into one or more groups on the page. Each group will have its own caption.  
 
-1. Create a page that has the [SourceTable property](sourcetable-property) set to the Cue data table.
+1. Create a page that has the [SourceTable property](sourcetable-property.md) set to the Cue data table.
 2. To define a Cue group, add a control that has the Type **Group** and the Subtype **CueGroup**.
 3. Under the **Group** control, for each Cue that you want to display, add a **Field** control.
 
