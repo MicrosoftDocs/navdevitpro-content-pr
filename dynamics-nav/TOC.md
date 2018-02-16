@@ -30,7 +30,7 @@
 ## [Application Design Overview](Application-Design-Overview.md)
 ## [Programming in C/AL](Programming-in-C-AL.md)
 ## [Objects](Objects.md)
-### [Tables-duplicate 20](Tables.md)
+### [Tables](Tables.md)
 ### [Codeunits](Codeunits.md)
 ### [Pages](Pages.md)
 #### [Overview](Pages-Overview.md)
