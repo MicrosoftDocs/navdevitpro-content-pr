@@ -19,17 +19,17 @@ This article provides an overview of Cues and the tasks involved in creating and
   
 ##  <a name="CueDesign"></a> Cue Design Overview 
 
-Cues are interactive, meaning that you can select the Cue to drill down to data or open another page. To accommodate this, there are two types of Cues, field-based Cues and Action Cues, which are illustrated in the following diagram:
+Cues are interactive, meaning that you can select the Cue to drill down to data or open another page, run code, and more. To accommodate this, there are two types of Cues, field-based Cues and Action Cues, which are illustrated in the following diagram:
 
 ![Cues on the Role Center](media/Cue-overview-online.png "Cues on the Role Center") 
 
 
 ### Field-based Cues
-Field-based Cues display data that is contained in a table field. There are two layout options for field-based Cues.
+Field-based Cues display data that is contained in a table field. This can be raw data or caluclated data. There are two layout options for field-based Cues: normal and wide.
 
-The default layout displays Cues as tiles. With this layout, Cue groups automatically arrange to fill in the width of the workspace, which means there can be more than one group horizontally across the workspace.
+The normal layout displays Cues as tiles. With this layout, Cue groups are automatically arranged to fill in the width of the workspace, which means there can be more than one group horizontally across the workspace.
 
-You can also set up Cues in a wide layout. With the wide layout, a single Cue group displays the entire width of the workspace. Instead of tiles, Cues display large values.
+With the wide layout, a single Cue group displays the entire width of the workspace. Instead of tiles, Cues display large values. The wide layout gives you a way emphasize a set of Cues. With this in mind, although it is not required, it is a good idea to place Cue groups that use the wide layout, above those that use the normal layout.
 
 ### Action Cues
 Action Cues act as links that perform a task or operation, like opening another page, starting a video, targeting an another resource or URL, or running code. Action-based Cues display only as tiles. They will arrange on the workspace just like field-base Cues that use the default layout.
