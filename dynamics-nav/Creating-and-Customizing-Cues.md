@@ -32,13 +32,12 @@ The default layout displays Cues as tiles. With this layout, Cue groups automati
 You can also set up Cues in a wide layout. With the wide layout, a single Cue group displays the entire width of the workspace. Instead of tiles, Cues display large values.
 
 ### Action Cues
-Action Cues act as links that can open another resource, like another page, a video, or URL. Action-based Cues display only as tiles. They will arrange on the workspace just like field-base Cues that use the default layout.
+Action Cues act as links that perform a task or operation, like opening another page, starting a video, targeting an another resource or URL, or running code. Action-based Cues display only as tiles. They will arrange on the workspace just like field-base Cues that use the default layout.
 
 >[!IMPORTANT]
 >Do not include action Cues in a Cue group that uses the wide layout. If you do, the wide layout will be ignored and the Cue group will use the default layout.
 
-
-## Creating Field-based Cues
+## Creating field-based Cues
 The implementation of a Cue involves the following elements:
 
 -   A table object with a field that holds the data that is contained in the Cue at runtime.  
@@ -49,13 +48,13 @@ The implementation of a Cue involves the following elements:
   
      The logic can consist of a combination of C/AL and [!INCLUDE[navnow](includes/navnow_md.md)] objects, such as tables, queries, and codeunits. How and where you implement the logic will depend on whether the Cue is based on a FlowField or Normal field and what you want to achieve.  
   
-### Supported Data Types  
- You can only base Cues on integer and decimal data types. Other data types are not supported and will not display in a Cue.  
+### Supported data types  
+You can only base Cues on integer and decimal data types. Other data types are not supported and will not display in a Cue.  
   
-### FlowFields versus Normal Fields  
- A Cue can be based on a FlowField or Normal field. If you base the Cue on a FlowField, then you add the logic that calculates the data for the Cue to the [CalcFormula Property](CalcFormula-Property.md) of the FlowField. If you use a Normal field, then you will typically add the logic that calculates the Cue data to a C/AL trigger or function. Unlike a FlowField, where data is extracted from tables, a Normal field enables you to extract data from other objects such as queries.  
+### FlowFields versus normal fields  
+A Cue can be based on a FlowField or Normal field. If you base the Cue on a FlowField, then you add the logic that calculates the data for the Cue to the [CalcFormula Property](CalcFormula-Property.md) of the FlowField. If you use a Normal field, then you will typically add the logic that calculates the Cue data to a C/AL trigger or function. Unlike a FlowField, where data is extracted from tables, a Normal field enables you to extract data from other objects such as queries.  
   
-###  <a name="CreateTable"></a> Create a Table for Cue Data  
+###  <a name="CreateTable"></a> Create a table for Cue data  
 The first thing that you must do is to create a table that contains fields that will hold the calculated data to display in the Cues at runtime.  
   
 1.  Create a table.
@@ -77,18 +76,25 @@ The first thing that you must do is to create a table that contains fields that 
     A table must have at least one data field. Because a **FlowField** is based on a calculation, it not considered an actual data field. Therefore, if the Cue table only includes FlowFields, you must add "dummy" primary key field that does not yield any data.  
   
     To add primary key, for example, add a field with the name **Primary Key**, and then set its data type to **Code**.  
-  
-##  <a name="CreatePage"></a> Create a Page for the Cues  
- After you have a table for holding the Cue data, you create a page that you associate the table, and then add fields on the page for the Cues. Typically, you will create Card Part type page that will be part of the Role Center page.  
 
-1. Create a page.
-2. Add the Cue fields. 
+###  <a name="CreatePage"></a> Add the Cues to a Page objecy   
+After you have a table for holding the Cue data, you create a page that you associate the table, and then add Cue fields on the page. Typically, you will create Card Part type page that will be part of the Role Center page.
 
-    To setup the Cues on a page, you add a **CueGroup** control, and then for each Cue that you want to display, you add a **Field** control. The following figure illustrates the Page Designer for a page that contains two Cues.  
+Cues are arranged into one or more groups on the page. Each group will have its own caption.  
+
+1. Create a page that has the [SourceTable property](sourcetable-property) set to the Cue data table.
+2. To define a Cue group, add a control that has the Type **Group** and the Subtype **CueGroup**.
+3. Under the **Group** control, for each Cue that you want to display, add a **Field** control.
+
+   The following figure illustrates the Page Designer for a page that contains two Cues.  
   
     ![Page Designer showing Cues](media/NAV_PageDesigner_SalesThisMonthCue_Clip.png "NAV\_PageDesigner\_SalesThisMonthCue\_Clip")  
-  
-3.  Initialize the Cue fields.  
+
+4. If you want to set the CueGroup to use the wide layout, set the [Layout property](layout-property.md).
+
+5. Repeat steps 2-4 for each additional CueGroup.
+
+4. Initialize the Cue fields.  
 
     You must initialize the Cue fields on the page. To do this, for example, you can add the following C/AL code to the [OnOpenPage Trigger](OnOpenPage-Trigger.md).  
   
@@ -99,7 +105,24 @@ The first thing that you must do is to create a table that contains fields that 
       INSERT;  
     END;  
     ```  
-  
+
+## Creating Action Cues
+Similar to field-based Cues, Action Cues can be grouped together, under a common caption, by using the **CueGroup** subtype control. The difference is that instead adding field controls under the **CueGroup** subtype control, you create Action Cues by adding actions to the control **CueGroup** subtype control. 
+
+1. Develop or locate the functionality that you want to Action Cue to perform.
+
+  For example, create the page object that you want the Action Cue to open, add C/AL code that you want the Action to run, find the URL to the video.
+
+2. Open the page on which you want to display the Action Cues.
+
+   For example, this could be the page that you created in the previous task.
+3. In the location where you want the Action Cue group, add a control that has the Type **Group** and the Subtype **CueGroup**.
+4. In the **View** menu, select **Control Actions**.
+5. Add a control that has the **Type** set to **Action**.
+6. Configure the control to the desired operation.
+
+  For example, if it should open a page, set the control's [RunObject property] to the appropriate page. Or, set it to call a function or method.
+
 
 ## Customizing a Cue  
  This section contains information about how you can change the appearance of the Cues.  
@@ -110,7 +133,7 @@ The first thing that you must do is to create a table that contains fields that 
  For more information, see [How to: Set Up an Image on a Cue](How-to--Set-Up-an-Image-on-a-Cue.md).  
   
 ###  <a name="DrillDown"></a> Setting up a Drill Down Page on the Cue  
- You can set up a Cue to link to a page that displays details about the transactions that make up the data in the Cue. This page is referred to as a *drill down page*. For example, if the Cue displays the number of open sales orders, then you can set up the Cue to link to list page that includes the sales orders. The page opens when a user selects the Cue.  
+You can set up a Cue to link to a page that displays details about the transactions that make up the data in the Cue. This page is referred to as a *drill down page*. For example, if the Cue displays the number of open sales orders, then you can set up the Cue to link to list page that includes the sales orders. The page opens when a user selects the Cue.  
   
  To set up a drill down page, you can do one of the following:  
   
