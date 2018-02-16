@@ -120,7 +120,7 @@ Similar to field-based Cues, Action Cues can be grouped together, under a common
 4. In the **View** menu, select **Control Actions**.
 5. Add a control that has the **Type** set to **Action**.
 
-    The following figure illustrates the Page Designer for a page that contains three field-based and two Action Cues.  
+    The following figure illustrates the Page Designer for a page that contains three field-based and two Action Cues at the bottom.  
   
     ![Page Designer showing Cues](media/O365-activities-cues-with-actions-clip.png "Page Designer showing Cues")  
 
