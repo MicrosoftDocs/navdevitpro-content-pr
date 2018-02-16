@@ -58,11 +58,9 @@ The implementation of a Cue involves the following elements:
 ###  <a name="CreateTable"></a> Create a Table for Cue Data  
 The first thing that you must do is to create a table that contains fields that will hold the calculated data to display in the Cues at runtime.  
   
- 
-  
 1.  Create a table.
 
-    If you already have a table for your Cues, then you can just add a new field to the existing table. 
+    If you already have a table for your Cues, go to the next step. 
 
 2.  Add fields for the Cue data  
 
@@ -74,31 +72,35 @@ The first thing that you must do is to create a table that contains fields that 
   
       If field is a FlowField, then set the [CalcFormula Property](CalcFormula-Property.md) to calculate the Cue data. For more information, see and [How to: Create, View, and Edit a Calculation Formula](How-to--Create--View--and-Edit-a-Calculation-Formula.md).  
   
-3.  Adding a Primary Key Field for FlowFields  
+3.  Add a primary key field for FlowFields  
 
     A table must have at least one data field. Because a **FlowField** is based on a calculation, it not considered an actual data field. Therefore, if the Cue table only includes FlowFields, you must add "dummy" primary key field that does not yield any data.  
   
     To add primary key, for example, add a field with the name **Primary Key**, and then set its data type to **Code**.  
   
-##  <a name="CreatePage"></a> Creating a Page for the Cues  
+##  <a name="CreatePage"></a> Create a Page for the Cues  
  After you have a table for holding the Cue data, you create a page that you associate the table, and then add fields on the page for the Cues. Typically, you will create Card Part type page that will be part of the Role Center page.  
+
+1. Create a page.
+2. Add the Cue fields. 
+
+    To setup the Cues on a page, you add a **CueGroup** control, and then for each Cue that you want to display, you add a **Field** control. The following figure illustrates the Page Designer for a page that contains two Cues.  
   
-### Adding the Cue Fields  
- To setup the Cues on a page, you add a **CueGroup** control, and then for each Cue that you want to display, you add a **Field** control. The following figure illustrates the Page Designer for a page that contains two Cues.  
+    ![Page Designer showing Cues](media/NAV_PageDesigner_SalesThisMonthCue_Clip.png "NAV\_PageDesigner\_SalesThisMonthCue\_Clip")  
   
- ![Page Designer showing Cues](media/NAV_PageDesigner_SalesThisMonthCue_Clip.png "NAV\_PageDesigner\_SalesThisMonthCue\_Clip")  
+3.  Initialize the Cue fields.  
+
+    You must initialize the Cue fields on the page. To do this, for example, you can add the following C/AL code to the [OnOpenPage Trigger](OnOpenPage-Trigger.md).  
   
-### Initializing the Cue Fields  
- You must initialize the Cue fields on the page. To do this, for example, you can add the following C/AL code to the [OnOpenPage Trigger](OnOpenPage-Trigger.md).  
+    ```  
+    RESET;  
+    IF NOT GET THEN BEGIN  
+      INIT;  
+      INSERT;  
+    END;  
+    ```  
   
-```  
-RESET;  
-IF NOT GET THEN BEGIN  
-  INIT;  
-  INSERT;  
-END;  
-```  
-  
+
 ## Customizing a Cue  
  This section contains information about how you can change the appearance of the Cues.  
   
