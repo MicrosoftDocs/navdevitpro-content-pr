@@ -86,7 +86,7 @@ Cues are arranged into one or more groups on the page. Each group will have its 
 2. To define a Cue group, add a control that has the Type **Group** and the Subtype **CueGroup**.
 3. Under the **Group** control, for each Cue that you want to display, add a **Field** control.
 
-   The following figure illustrates the Page Designer for a page that contains two Cues.  
+   The following figure illustrates the Page Designer for a page that contains thres field-based Cues.  
   
     ![Page Designer showing Cues](media/O365-activities-cues-clip.png "Page Designer showing Cues")  
 
@@ -119,6 +119,11 @@ Similar to field-based Cues, Action Cues can be grouped together, under a common
 3. In the location where you want the Action Cue group, add a control that has the Type **Group** and the Subtype **CueGroup**.
 4. In the **View** menu, select **Control Actions**.
 5. Add a control that has the **Type** set to **Action**.
+
+    The following figure illustrates the Page Designer for a page that contains three field-based and two Action Cues.  
+  
+    ![Page Designer showing Cues](media/O365-activities-cues-with-actions-clip.png "Page Designer showing Cues")  
+
 6. Configure the control to the desired operation.
 
   For example, if it should open a page, set the control's [RunObject property] to the appropriate page. Or, set it to call a function or method.
