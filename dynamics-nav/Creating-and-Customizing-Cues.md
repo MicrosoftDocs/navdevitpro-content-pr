@@ -9,35 +9,38 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.assetid: 3b95ce45-d4c5-45e4-8463-8fc2cbe668f8
 caps.latest.revision: 11
-manager: edupont
+author: jswymer
 ---
 # Creating and Customizing Cues
-This topic provides an overview of Cues and the tasks involved in creating and customizing a Cue for displaying on a page the [!INCLUDE[navnow](includes/navnow_md.md)] clients.  
-  
- This topic contains the following sections:  
-  
--   [Cue Design Overview](Creating-and-Customizing-Cues.md#CueDesign)  
-  
--   [Creating a Table for Cue Data](Creating-and-Customizing-Cues.md#CreateTable)  
-  
--   [Creating a Page for the Cues](Creating-and-Customizing-Cues.md#CreatePage)  
-  
--   [Specifying an Image on the Cue](Creating-and-Customizing-Cues.md#SpecifyImage)  
-  
--   [Setting up a Drill Down Page on the Cue](Creating-and-Customizing-Cues.md#DrillDown)  
-  
--   [Formatting the Data in the Cue](Creating-and-Customizing-Cues.md#FormatData)  
-  
--   [Adding an Action to the Cue](Creating-and-Customizing-Cues.md#AddAction)  
-  
--   [Setting up Colored Indicators on Cues](Creating-and-Customizing-Cues.md#SetupIndicator)  
+This article provides an overview of Cues and the tasks involved in creating and customizing a Cue for displaying on a page the [!INCLUDE[navnow](includes/navnow_md.md)] clients.  
   
 > [!NOTE]  
 >  For step-by-step instructions on many of the tasks discussed in this topic, see [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough--Creating-a-Cue-Based-on-a-FlowField.md) and [Walkthrough: Creating a Cue Based on a Normal Field and a Query](Walkthrough--Creating-a-Cue-Based-on-a-Normal-Field-and-a-Query.md).  
   
-##  <a name="CueDesign"></a> Cue Design Overview  
- The implementation of a Cue involves the following elements:  
-  
+##  <a name="CueDesign"></a> Cue Design Overview 
+
+Cues are interactive, meaning that you can select the Cue to drill down to data or open another page. To accommodate this, there are two types of Cues, field-based Cues and Action Cues, which are illustrated in the following diagram:
+
+![Cues on the Role Center](media/Cue-overview-online.png "Cues on the Role Center") 
+
+
+### Field-based Cues
+Field-based Cues display data that is contained in a table field. There are two layout options for field-based Cues.
+
+The default layout displays Cues as tiles. With this layout, Cue groups automatically arrange to fill in the width of the workspace, which means there can be more than one group horizontally across the workspace.
+
+You can also set up Cues in a wide layout. With the wide layout, a single Cue group displays the entire width of the workspace. Instead of tiles, Cues display large values.
+
+### Action Cues
+Action Cues act as links that can open another resource, like another page, a video, or URL. Action-based Cues display only as tiles. They will arrange on the workspace just like field-base Cues that use the default layout.
+
+>[!IMPORTANT]
+>Do not include action Cues in a Cue group that uses the wide layout. If you do, the wide layout will be ignored and the Cue group will use the default layout.
+
+
+## Creating Field-based Cues
+The implementation of a Cue involves the following elements:
+
 -   A table object with a field that holds the data that is contained in the Cue at runtime.  
   
 -   A page object that contains the table field and displays the Cue in the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
@@ -52,25 +55,30 @@ This topic provides an overview of Cues and the tasks involved in creating and c
 ### FlowFields versus Normal Fields  
  A Cue can be based on a FlowField or Normal field. If you base the Cue on a FlowField, then you add the logic that calculates the data for the Cue to the [CalcFormula Property](CalcFormula-Property.md) of the FlowField. If you use a Normal field, then you will typically add the logic that calculates the Cue data to a C/AL trigger or function. Unlike a FlowField, where data is extracted from tables, a Normal field enables you to extract data from other objects such as queries.  
   
-##  <a name="CreateTable"></a> Creating a Table for Cue Data  
- The first thing that you must do is to create a table that contains fields that will hold the calculated data to display in the Cues at runtime.  
+###  <a name="CreateTable"></a> Create a Table for Cue Data  
+The first thing that you must do is to create a table that contains fields that will hold the calculated data to display in the Cues at runtime.  
   
-> [!NOTE]  
->  If you already have a table for your Cues, then you can just add a new field to the existing table.  
+ 
   
-### Adding a Field for the Cue Data  
- For each Cue that you want to display on the page, you must add a **Field** control in the table. When you add the **Field** control, specify the following properties.  
+1.  Create a table.
+
+    If you already have a table for your Cues, then you can just add a new field to the existing table. 
+
+2.  Add fields for the Cue data  
+
+    For each Cue that you want to display on the page, you must add a **Field** control in the table. When you add the **Field** control, specify the following properties:  
   
-1.  Set the [Data Type Property](Data-Type-Property.md) to **Decimal**, **Integer**, or **Text**, depending on the type of data the Cue will display.  
+    - Set the [Data Type Property](Data-Type-Property.md) to **Decimal**, **Integer**, or **Text**, depending on the type of data the Cue will display. 
+
+    - Set the [FieldClass Property](FieldClass-Property.md) to **FlowField** or **Normal**.  
   
-2.  Set the [FieldClass Property](FieldClass-Property.md) to **FlowField** or **Normal**.  
+      If field is a FlowField, then set the [CalcFormula Property](CalcFormula-Property.md) to calculate the Cue data. For more information, see and [How to: Create, View, and Edit a Calculation Formula](How-to--Create--View--and-Edit-a-Calculation-Formula.md).  
   
-     If field is a FlowField, then set the [CalcFormula Property](CalcFormula-Property.md) to calculate the Cue data. For more information, see and [How to: Create, View, and Edit a Calculation Formula](How-to--Create--View--and-Edit-a-Calculation-Formula.md).  
+3.  Adding a Primary Key Field for FlowFields  
+
+    A table must have at least one data field. Because a **FlowField** is based on a calculation, it not considered an actual data field. Therefore, if the Cue table only includes FlowFields, you must add "dummy" primary key field that does not yield any data.  
   
-### Adding a Primary Key Field for FlowFields  
- A table must have at least one data field. Because a **FlowField** is based on a calculation, it not considered an actual data field. Therefore, if the Cue table only includes FlowFields, you must add "dummy" primary key field that does not yield any data.  
-  
- To add primary key, for example, add a field with the name **Primary Key**, and then set its data type to **Code**.  
+    To add primary key, for example, add a field with the name **Primary Key**, and then set its data type to **Code**.  
   
 ##  <a name="CreatePage"></a> Creating a Page for the Cues  
  After you have a table for holding the Cue data, you create a page that you associate the table, and then add fields on the page for the Cues. Typically, you will create Card Part type page that will be part of the Role Center page.  
@@ -78,7 +86,7 @@ This topic provides an overview of Cues and the tasks involved in creating and c
 ### Adding the Cue Fields  
  To setup the Cues on a page, you add a **CueGroup** control, and then for each Cue that you want to display, you add a **Field** control. The following figure illustrates the Page Designer for a page that contains two Cues.  
   
- ![Page Designer showing cues](media/NAV_PageDesigner_SalesThisMonthCue_Clip.png "NAV\_PageDesigner\_SalesThisMonthCue\_Clip")  
+ ![Page Designer showing Cues](media/NAV_PageDesigner_SalesThisMonthCue_Clip.png "NAV\_PageDesigner\_SalesThisMonthCue\_Clip")  
   
 ### Initializing the Cue Fields  
  You must initialize the Cue fields on the page. To do this, for example, you can add the following C/AL code to the [OnOpenPage Trigger](OnOpenPage-Trigger.md).  

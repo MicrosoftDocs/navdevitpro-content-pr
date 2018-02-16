@@ -1,32 +1,43 @@
 ---
 title: "Layout Property"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 15/02/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
-ms.assetid: 7c117ea8-3426-4e48-8991-10b08feec6c3
-caps.latest.revision: 9
+author: jswymer
 ---
 # Layout Property
-Sets whether the fields in Group controls are arranged horizontally in a row or vertically in a column.  
+The Layout property serves two purposes:
+
+-   In a field GridLayout, it specifies whether the fields in Group controls are arranged horizontally (as a row) or vertically (as a column). For more information, see  [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How-to--Arrange-Fields-in-Rows-and-Columns-Using-the-GridLayout-Control.md).
+
+-   In a Cue group, it specifies whether the cues are displayed in the wide layout. With the wide layout, instead of displaying as tiles, cues display as large numbers, where each cue group extends the entire with of the workspace. For more, see  [Creating and Customizing Cues](Creating-and-Customizing-Cues.md). 
   
 ## Applies To  
   
--   Group controls, including Group, Repeater, CueGroup, FixedLayout, and GridLayout subtypes on pages.  
+-   **Group** controls that have the subtype **GridLayout** or **CueGroups** on pages.  
   
 ## Property Values  
-  
+
+**GridLayout subtype control**  
 |Value|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
 |**Rows**|Arranges fields within Group controls in rows.|  
-|**Columns**|Arranges fields within Group controls in columns. This is the default setting.|  
-|**Undefined**|Same as the **Columns** setting.|  
-  
-## Remarks  
- You use a Group control to arrange fields in rows and columns. To define the rows and columns of fields, you add **SubType** Group controls to the Group control. Each **SubType** control contains the fields that you want to display. You can use the **Layout** property to specify whether the fields in a group are arranged in rows or columns.  
+|**Columns**|Arranges fields within Group controls in columns. |  
+|**Undefined**|This is the default setting, and does the same as the **Columns** setting.|  
+
+**CueGroup subtype control**  
+|Value|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
+|-----------|---------------------------------------|  
+|**Undefined**|Cues in the group display as tiles. This is the default setting.|
+|**Wide**|Cues in the group display in the wide layout.|  
+
+## Remarks
+The **Wide** value has no effect on CueGroups that contain only Actions. 
   
 ## See Also  
- [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How-to--Arrange-Fields-in-Rows-and-Columns-Using-the-GridLayout-Control.md)
+[How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How-to--Arrange-Fields-in-Rows-and-Columns-Using-the-GridLayout-Control.md)   
+[Creating and Customizing Cues](Creating-and-Customizing-Cues.md)  
