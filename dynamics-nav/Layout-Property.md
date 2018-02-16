@@ -14,7 +14,7 @@ The Layout property serves two purposes:
 
 -   In a field GridLayout, it specifies whether the fields in Group controls are arranged horizontally (as a row) or vertically (as a column). For more information, see  [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How-to--Arrange-Fields-in-Rows-and-Columns-Using-the-GridLayout-Control.md).
 
--   In a Cue group, it specifies whether the cues are displayed in the wide layout. With the wide layout, instead of displaying as tiles, cues display as large numbers, where each cue group extends the entire with of the workspace. For more, see  [Creating and Customizing Cues](Creating-and-Customizing-Cues.md). 
+-   In a Cue group, it specifies whether the Cues are displayed in the wide layout. With the wide layout, instead of displaying as tiles, Cues display as large numbers, where each Cue group extends the entire with of the workspace. For more, see  [Creating and Customizing Cues](Creating-and-Customizing-Cues.md). 
   
 ## Applies To  
   
