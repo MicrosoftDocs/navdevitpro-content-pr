@@ -30,7 +30,7 @@ The normal layout displays Cues as tiles. With this layout, Cue groups are autom
 With the wide layout, a single Cue group displays the entire width of the workspace. Instead of tiles, Cues display large values. The wide layout gives you a way emphasize a set of Cues. With this in mind, although it is not required, it is a good idea to place Cue groups that use the wide layout, above those that use the normal layout.
 
 ### Action Cues
-Action Cues act as links that perform a task or operation, like opening another page, starting a video, targeting an another resource or URL, or running code. Action-based Cues display only as tiles. They will arrange on the workspace just like field-base Cues that use the default layout.
+Action Cues act as links that perform a task or operation, like opening another page, starting a video, targeting an another resource or URL, or running code. Action-based Cues display only as tiles. They will arrange on the workspace just like field-base Cues that use the normal layout.
 
 >[!IMPORTANT]
 >Do not include action Cues in a Cue group that uses the wide layout. If you do, the wide layout will be ignored and the Cue group will use the default layout.
