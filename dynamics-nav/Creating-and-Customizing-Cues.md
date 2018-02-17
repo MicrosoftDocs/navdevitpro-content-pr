@@ -17,7 +17,7 @@ This article provides an overview of Cues and the tasks involved in creating and
   
 ##  <a name="CueDesign"></a> Cue Design Overview 
 
-Cues are interactive, meaning that you can select the Cue to drill down to data or open another page, run code, and more. To accommodate this, there are two types of Cues, field-based Cues and Action Cues, which are illustrated in the following diagram:
+A Cue can do two things. It can provide a visual representation of aggregated business data, such as the number of open sales invoices or the total sales for the month. It can also promote an action or operation to the user. Cues are interactive, meaning that you can select the Cue to drill down to data or open another page, run code, and more. To accommodate this, there are two types of Cues, field-based Cues and Action Cues, which are illustrated in the following diagram:
 
 ![Cues on the Role Center](media/Cue-overview-online.png "Cues on the Role Center") 
 
@@ -32,8 +32,8 @@ With the wide layout, a single Cue group displays the entire width of the worksp
 ### Action Cues
 Action Cues act as links that perform a task or operation, like opening another page, starting a video, targeting an another resource or URL, or running code. Action-based Cues display only as tiles. They will arrange on the workspace just like field-base Cues that use the normal layout.
 
->[!IMPORTANT]
->Do not include action Cues in a Cue group that uses the wide layout. If you do, the wide layout will be ignored and the Cue group will use the default layout.
+>[!NOTE]
+>You can mix and match field-based and Action cues in a Cue group. However, do not include Action Cues in a Cue group that uses the wide layout. If you do, the wide layout will be ignored and the Cue group will display in the normal layout.
 
 ## Creating field-based Cues
 The implementation of a Cue involves the following elements:
@@ -46,10 +46,10 @@ The implementation of a Cue involves the following elements:
   
      The logic can consist of a combination of C/AL and [!INCLUDE[navnow](includes/navnow_md.md)] objects, such as tables, queries, and codeunits. How and where you implement the logic will depend on whether the Cue is based on a FlowField or Normal field and what you want to achieve.  
   
-### Supported data types  
+#### Supported data types  
 You can only base Cues on integer and decimal data types. Other data types are not supported and will not display in a Cue.  
   
-### FlowFields versus normal fields  
+#### FlowFields versus normal fields  
 A Cue can be based on a FlowField or Normal field. If you base the Cue on a FlowField, then you add the logic that calculates the data for the Cue to the [CalcFormula Property](CalcFormula-Property.md) of the FlowField. If you use a Normal field, then you will typically add the logic that calculates the Cue data to a C/AL trigger or function. Unlike a FlowField, where data is extracted from tables, a Normal field enables you to extract data from other objects such as queries.  
   
 ###  <a name="CreateTable"></a> Create a table for Cue data  
