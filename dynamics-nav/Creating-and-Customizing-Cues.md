@@ -21,7 +21,6 @@ A Cue can do two things. It can provide a visual representation of aggregated bu
 
 ![Cues on the Role Center](media/Cue-overview-online.png "Cues on the Role Center") 
 
-
 ### Field-based Cues
 Field-based Cues display data that is contained in a table field. This can be raw data or caluclated data. There are two layout options for field-based Cues: normal and wide.
 
@@ -33,7 +32,7 @@ With the wide layout, a single Cue group displays the entire width of the worksp
 Action Cues act as links that perform a task or operation, like opening another page, starting a video, targeting an another resource or URL, or running code. Action-based Cues display only as tiles. They will arrange on the workspace just like field-base Cues that use the normal layout.
 
 >[!NOTE]
->You can mix and match field-based and Action cues in a Cue group. However, do not include Action Cues in a Cue group that uses the wide layout. If you do, the wide layout will be ignored and the Cue group will display in the normal layout.
+>You can mix and match field-based and Action Cues in a Cue group. However, do not include Action Cues in a Cue group that uses the wide layout. If you do, the wide layout will be ignored and the Cue group will display in the normal layout.
 
 ## Creating field-based Cues
 The implementation of a Cue involves the following elements:
