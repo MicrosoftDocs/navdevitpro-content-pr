@@ -14,7 +14,7 @@ author: jswymer
 # How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client
 This topic describes how to install and configure Internet Information Service \(IIS\) for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)], you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer that running IIS 7.5, IIS 8.0, IIS 8.0, or IIS 10.0. A website for [!INCLUDE[nav_web](includes/nav_web_md.md)] is installed on the IIS.  
 
- IIS must have the following features enabled:  
+IIS must have the following features enabled:  
 
 -   HTTP Activation  
 
@@ -39,12 +39,15 @@ This topic describes how to install and configure Internet Information Service \
 -   Static Content  
 
 
- The procedure is slightly different for the different versions of Windows. For more information, see the following sections.
+> [!IMPORTANT]
+> If you are hosting the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on an IIS server farm that is using Application Request Routing (ARR), see [Configure Headers in Application Request Routing (ARR) Rules](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md#ARR).
 
 > [!TIP]  
->  Instead of manually installing IIS, you can use the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard to install and enable the IIS features. For more information, see [Using Microsoft Dynamics NAV Setup to Install IIS Features](Using-Microsoft-Dynamics-NAV-Setup-to-Install-IIS-Features.md).  
+>  Instead of manually installing IIS, you can use the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard to install and enable the IIS features. For more information, see [Using Microsoft Dynamics NAV Setup to Install IIS Features](Using-Microsoft-Dynamics-NAV-Setup-to-Install-IIS-Features.md). 
 
-#### To install IIS features on Windows 7, 8, 8.1, and 10  
+
+
+## Install IIS on Windows 7, 8, 8.1, and 10  
 
 1.  On the **Start** page, choose **Control Panel**, and then choose **Programs**.  
   
@@ -97,10 +100,7 @@ This topic describes how to install and configure Internet Information Service \
 
      The default web site opens and should display an IIS 8 image.  
 
-##  <a name="WS2012"></a> Installing IIS Features on Windows Server  
- The following procedure describes how to install IIS and the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)] on Windows Server 2012 and 2016.  
-
-#### To install IIS features on Windows Server   
+##  <a name="WS2012"></a> Install IIS on Windows Server 2012 and 2016     
 
 1.  On the **Start** page, choose **Server Manager**.  
 
@@ -199,8 +199,16 @@ This topic describes how to install and configure Internet Information Service \
 
 18. To verify that the web server has been installed correctly, start your browser, and then type **http://localhost** in the address.  
 
-     The default website opens and should display an IIS image.  
+     The default website opens and should display an IIS image. 
 
+## <a name="ARR"></a> Configure Headers in Application Request Routing (ARR) Rules
+[!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] runs on ASP .NET Core, which requires both an `X-Forwarded-For` header and `X-Forwarded-Proto` header in ARR routing rules. However, by default, ARR only adds the `X-Forwarded-For` header; not the `X-Forwarded-Proto` header. So will have to configure the `X-Forwarded-Proto` header manually.
+
+On the server farm in IIS, add or edit a routing rule to include a server variable for `X-Forwarded-Proto`. For example, using IIS Manager, select **Routing Rules** > **URL Rewrite** > **Edit** > **Server Variables**, and then add a server variable that has the following settings: 
+
+|  Name  |  Value  |  Replace  |
+|--------|---------|-----------|
+|`HTTP_X_FORWARED_PROTO`|`http` ot `https`|`true`|
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)
