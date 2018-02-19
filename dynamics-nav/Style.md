@@ -20,7 +20,7 @@ Apart from the functionality, an important part of creating a control add-in is 
 - Make it accessible to all users.
 - Make it enjoyable and keep users in control.
 
-This article offers a variety of stylistic definitions that can be applied to your AddIn and help you create an experience that delights users and complements Dynamics 365.
+This article offers a variety of stylistic definitions that are used through out Dynamics 365 "Tenerife" which you can apply to your control add-ins to create an experience that complements Dynamics 365 "Tenerife".
 
 > [!IMPORTANT]  
 > This article is currently in progress and contents will change.
@@ -118,23 +118,31 @@ The main goal of typography is to provide clean and readable text in the user in
 
 ### Font Families
 
-Dynamics 365 "Tenerife" uses the following font families to specifiy the typeface and weight for text elements, such as headings, captions, messages, and so on:
+Dynamics 365 "Tenerife" uses the following font families to specify the typeface and weight for text elements, such as headings, captions, messages, and so on:
 
-|  Example  | Name| Font values |
-|----|------------|:-----:|-------------|
-|![Segoe UI font family](media/style/segoe-ui.png "Segoe UI font family")| Segoe UI | `"Segoe UI", "Segoe WP", Segoe, device-segoe, Tahoma, Helvetica, Arial, sans-serif` |
+|  Example  |  Name  | Value |
+|-----------|--------|:-----------:|
+|![Segoe UI font family](media/style/segoe-ui.png "Segoe UI font family")| Segoe UI | ```"Segoe UI", "Segoe WP", Segoe, device-segoe, Tahoma, Helvetica, Arial, sans-serif ``` |
 |![Segoe UI Light font family](media/style/segoe-ui-light.png "Segoe UI Light font family")| Segoe UI Light | `"Segoe UI Light", "Segoe WP Light", device-segoe-light, "Segoe WP Semilight", "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif` |
 |![Segoe UI Semilight font family](media/style/segoe-ui-semi-light.png "Segoe UI Semilight font family")| Segoe UI Semilight | `"Segoe UI Semilight", "Segoe WP Semilight", device-segoe-semilight, "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif` |
 |![Segoe UI Semibold font family](media/style/segoe-ui-semi-bold.png "Segoe UI Semibold font family")| Segoe UI Semibold | `"Segoe UI Semibold", "Segoe WP Semibold", device-segoe-semibold, "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif` |
 
 ### Sizes
-Dynamics 365 "Tenerife" uses the following font sizes, depending on the client. 
+Dynamics 365 "Tenerife" uses the following font sizes for text. You consider the client/device when choosing the size. 
 
-#### Desktop and tablet client
+|  Example  | Name | Value |
+|-----------|------|:-----:|
+|![largest-plus-font-size (37.5pt)](media/style/37-5-fontsize.png "largest-plus-font-size (37.5pt)")| largest-plus-font-size | `37.5pt` |
+|![largest-font-size (30pt)](media/style/30-fontsize.png "largest-font-size (30pt)")| largest-font-size | `30pt` |
+|![large-plus-font-size (22.5pt)](media/style/22-5-fontsize.png "large-plus-font-size (22.5pt)")| large-plus-font-size | `22.5pt` |
+|![large-font-size (18pt)](media/style/18-fontsize.png "large-font-size (18pt)")| large-font-size | `18pt` |
+|![medium-plus-font-size (15pt)](media/style/15-fontsize.png "medium-plus-font-size (15pt)")| medium-plus-font-size | `15pt` |
+|![medium-font-size (13.5pt)](media/style/13-5-fontsize.png "medium-font-size (13.5pt)")| medium-font-size | `13,5pt` |
+|![small-plus-font-size (12pt)](media/style/12-fontsize.png "small-plus-font-size (12pt)")| small-plus-font-size | `12pt` |
+|![small-font-size (10.5pt)](media/style/10-5-fontsize.png "small-font-size (10.5pt)")| small-font-size | `10,5pt` |
+|![smallest-font-size (9pt)](media/style/9-fontsize.png "smallest-font-size (9pt)")| smallest-font-size | `9pt` |
 
-| Name | Value |
-|------------|:-----:|
-| Largest | `24pt` |
+<!-- 
 | Large | `16pt` |
 | Medium+ | `14pt` |
 | Medium | `12pt` |
@@ -151,6 +159,7 @@ Dynamics 365 "Tenerife" uses the following font sizes, depending on the client.
 | Medium | `14pt` |
 | Small | `12pt` |
 | Smallest | `10pt` |
+-->
 
 ### Applying Font Families and Sizes
 To apply fonts and sizes to text elements in the UI, you need specify the following CSS properties:
