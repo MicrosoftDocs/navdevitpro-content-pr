@@ -45,7 +45,7 @@ Choosing the right color gives the interface visual continuity. Color can be use
 
 -->
 
-### Accent colors
+### Style colors
 
 The following colors are used to accentuate conditions and user activity in the UI. For example, these colors are used as sentinaments, or color indication, on Cues.
   
@@ -94,6 +94,7 @@ The following colors are used to accentuate conditions and user activity in the 
 -->
 
 ### More palette colors
+The following table includes additional colors that you can use in the UI.
 |  Color  |  Description  | HEX value|
 |---------|---------------|----------|
 |![YELLOW (#C9C472)](media/style/C9C472.png "YELLOW (#C9C472)")|Yellow|#C9C472|
@@ -127,8 +128,8 @@ The following colors are used to accentuate conditions and user activity in the 
 -->
 
 
-### Charts
-
+### Chart colors
+The following table describes the colors used in charts.
 |  Color  |  Description  | HEX value|
 |---------|---------------|----------|
 | ![Secondary (#505C6D)](media/style/505C6D.png "Secondary (#505C6D)")|-|#505C6D|
@@ -160,6 +161,9 @@ The following colors are used to accentuate conditions and user activity in the 
 <blockquote STYLE="background-color: #73BE5A;border-left:None;color: white"><br />#73BE5A<br /><br /></blockquote>
 
 -->
+
+<!--
+
 ### Miscellaneous colors
 |  Color  |  Description  |  HEX value  |  RGB value |
 |---------|---------------|-------------|------------|
@@ -167,14 +171,149 @@ The following colors are used to accentuate conditions and user activity in the 
 |![Black (#000000)](media/style/000000.png "Black (#FFFFFF)")|Black|#000000|0, 0, 0|
 ## Typography
 
-### Fonts
+-->
+### Applying colors
+Make sure to use apply CSS rules for colors in the right place.
+
+For example, to change the background of a part of your UI to use the `Secondary (#505C6D)` color, write the following CSS:
+
+```css
+.my-ui-part {
+    background-color: #505C6D;
+}
+```
+
+If you want to change the text color of a caption to the Primary (#00B7C3) color, use the following CSS:
+
+```css
+.my-caption {
+    color: #00B7C3;
+}
+```
+## Typography
+
+The main goal of typography is to provide clean and readable text in the user interface. Similar to colors, typgraphy can alos be used to convey or communicate conditions to the user. 
 
 
-<blockquote STYLE="font-family: Segoe UI;border-left:None"><br />Segoe UI<br /><br /></blockquote>
-<blockquote STYLE="font-family: Segoe UI Light;border-left:None"><br />Segoe UI Light<br /><br /></blockquote>
-<blockquote STYLE="font-family: Segoe UI;border-left:None"><br /><b>Segoe UI Bold</b><br /><br /></blockquote>
-<blockquote STYLE="font-family: Segoe UI Semibold;border-left:None"><br />Segoe UI Semibold<br /><br /></blockquote>
+## Font Families
 
+Dynamics 365 "Tenerife"uses the following font families throughout the UI. ):
+
+| Color name | Value | Description |
+|------------|:-----:|-------------|
+| Segoe UI | `"Segoe UI", "Segoe WP", Segoe, device-segoe, Tahoma, Helvetica, Arial, sans-serif` | Favorable sentiment |
+| Segoe UI Light | `"Segoe UI Light", "Segoe WP Light", device-segoe-light, "Segoe WP Semilight", "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif` | Ambiguous sentiment |
+| Segoe UI Semilight | `"Segoe UI Semilight", "Segoe WP Semilight", device-segoe-semilight, "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif` | Unfavorable sentiment |
+| Segoe UI Semibold | `"Segoe UI Semibold", "Segoe WP Semibold", device-segoe-semibold, "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif` | Unfavorable sentiment |
+
+## Sizes
+The font sizes will depend on the client. 
+
+### Desktop and tablet client
+
+| Name | Value |
+|------------|:-----:|
+| Largest | `24pt` |
+| Large | `16pt` |
+| Medium+ | `14pt` |
+| Medium | `12pt` |
+| Small | `10pt` |
+| Smallest | `9pt` |
+
+### Phone client
+
+| Name | Value |
+|------------|:-----:|
+| Largest | `24pt` |
+| Large | `18pt` |
+| Medium+ | `14pt` |
+| Medium | `14pt` |
+| Small | `12pt` |
+| Smallest | `10pt` |
+
+### Applying Font Families and Sizes
+To apply fonts and sizes to text elements in the UI, you need specify the following CSS properties:
+
+- Font face. use property `font-family`.
+- Font size. use property `font-size`.
+
+Make sure to use apply CSS rules for fonts in the right place.
+
+> [!IMPORTANT]
+>  Do not alter the fallback list or change the order of font faces. This will ensure that you use the right fonts also on devices.
+
+For example, to change a UI element for he Tablet client to use the font family *Segoe UI Light* and the size *Small* (10pt), write the following CSS:
+
+```css
+.my-ui-part {
+    font-family: "Segoe UI Light", "Segoe WP Light", device-segoe-light, "Segoe WP Semilight", "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+}
+```
+
+## Example
+Following is a complete example about how to style a simple HTML UI part:
+
+```html
+<div class="addin">
+    <div class="control">
+        <div class="caption">Name:</div>
+        <div class="value">
+            <input type="text" name="name">
+        </div>
+    </div>
+
+    <div class="control">
+        <div class="caption">Surname:</div>
+        <div class="value">
+            <input type="text" name="name">
+        </div>
+    </div>
+
+    <div class="control">
+        <div class="submit">Submit</div>
+    </div>
+</div>
+```
+
+And the corresponding CSS for styling it:
+
+```css
+.addin {
+    padding: 1em;
+    background-color: #505C6D; /* Ash grey */
+}
+
+.addin .control {
+     border-color: #00B7C3; /* Charcoal grey */
+}
+
+.addin .control. .caption {
+    color: #00B7C3; /* Charcoal grey */
+
+    /* Segoe UI Light, small */
+    font-family: "Segoe UI Light", "Segoe WP Light", device-segoe-light, "Segoe WP Semilight", "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+}
+
+.addin .control. .value {
+    color: #008089; /* Tertiary shade 2 */
+
+    /* Segoe UI, medium */
+    font-family: "Segoe UI", "Segoe WP", Segoe, device-segoe, Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+}
+
+.addin .control .submit {
+    color: white;
+    background-color: #00B7C3; /* Aqua */
+
+    /* Segoe UI Semibold, medium */
+    font-family: "Segoe UI Semibold", "Segoe WP Semibold", device-segoe-semibold, "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+```
 
 ## See Also  
  [Development](Development.md)
