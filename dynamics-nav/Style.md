@@ -28,14 +28,14 @@ This article offers a variety of stylistic definitions that can be applied to yo
 > This article is currently in progress and contents will change.
 
 ## Colors
-Choosing the right color gives the interface visual continuity. Color can be used to convey information to users, indicate interactivity, give feedback, and more. 
+Choosing the right color gives the interface visual continuity. Color can be used to convey information to users, indicate interactivity, give feedback, and more. The following sections describe the colors used Dynamics 365 "Tenerife".
 
 
 ### Main colors
-|  Color  |  Description  | HEX value|
-|---------|---------------|----------|
-|![Primary (#00B7C3)](media/style/00B7C3.png "Primary (#00B7C3)")|Primary color|#00B7C3|
-| ![Secondary (#505C6D)](media/style/505C6D.png "Secondary (#505C6D)")|Secondary color|#505C6D|
+|  Color  |  Name  |  Use  |  HEX value  |
+|---------|--------|-------|-------------|
+|![Primary (#00B7C3)](media/style/00B7C3.png "Primary (#00B7C3)")|Primary color|Titles, subtitles, and captions.|#00B7C3|
+| ![Secondary (#505C6D)](media/style/505C6D.png "Secondary (#505C6D)")|Secondary| Background and links.|#505C6D|
  
 
 
@@ -45,7 +45,10 @@ Choosing the right color gives the interface visual continuity. Color can be use
 
 -->
 
-### Sentiment colors
+### Accent colors
+
+The following colors are used to accentuate conditions and user activity in the UI. For example, these colors are used as sentinaments, or color indication, on Cues.
+  
 |  Color  |  Description  | HEX value|
 |---------|---------------|----------|
 |![Standard (#00B7C3)](media/style/212121.png "Accent (#00B7C3)")|Standard|#212121|
