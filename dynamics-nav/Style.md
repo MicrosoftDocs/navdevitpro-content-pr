@@ -7,8 +7,6 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
-ms.assetid: 31a1fbeb-a4b4-452d-8cf4-4937c0f87479
-caps.latest.revision: 4
 author: jswymer
 ---
 # Style Guide
@@ -28,26 +26,17 @@ This article offers a variety of stylistic definitions that can be applied to yo
 > This article is currently in progress and contents will change.
 
 ## Colors
-Choosing the right color gives the interface visual continuity. Color can be used to convey information to users, indicate interactivity, give feedback, and more. The following sections describe the colors used Dynamics 365 "Tenerife".
-
+Choosing the right color gives the interface visual continuity. Color can be used to convey information to users, indicate interactivity, give feedback, and more. The following sections describe the colors used in Dynamics 365 "Tenerife". The colors can be used on all aspects of a UI element, such background, border, text, and more. 
 
 ### Main colors
 |  Color  |  Name  |  Use  |  HEX value  |
 |---------|--------|-------|-------------|
 |![Primary (#00B7C3)](media/style/00B7C3.png "Primary (#00B7C3)")|Primary color|Titles, subtitles, and captions.|#00B7C3|
 | ![Secondary (#505C6D)](media/style/505C6D.png "Secondary (#505C6D)")|Secondary| Background and links.|#505C6D|
- 
-
-
-<!--
-<blockquote STYLE="background-color:#00B7C3;border-left:None;color: white;"><br />Primary (#00B7C3)<br /><br /></blockquote>
-<blockquote STYLE="background-color:#505C6D;border-left:None;color: white;"><br />Secondary (#505C6D)<br /><br /></blockquote>
-
--->
 
 ### Style colors
 
-The following colors are used to accentuate conditions and user activity in the UI. For example, these colors are used as sentinaments, or color indication, on Cues.
+The following colors are used to express conditions or user activity in the UI. For example, these colors are used as sentiments, or color indication, on Cues.
   
 |  Color  |  Description  | HEX value|
 |---------|---------------|----------|
@@ -60,41 +49,9 @@ The following colors are used to accentuate conditions and user activity in the 
 |![Attention (#EB6965)](media/style/EB6965.png "Attention (#EB6965)")|Attention|#EB6965|
 |![Subordinate (#A7ADB6)](media/style/A7ADB6.png "Subordinate (#A7ADB6)")|Subordinate|#A7ADB6|
 
-<!--
-<blockquote STYLE="background-color: #212121;border-left:None;color: white"><br />STANDARD (#212121)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #00B7C3;border-left:None;color: white"><br />ACCENT (#00B7C3)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #212121;border-left:None;color: white"><br />STRONG (#212121)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #35AB22;border-left:None;color: white"><br />FAVORABLE (#35AB22)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #9F9700;border-left:None;color: white"><br />AMBIGUOUS (#9F9700)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #EB6965;border-left:None;color: white"><br />UNFAVORABLE (#EB6965)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #EB6965;border-left:None;color: white"><br />ATTENTION (#EB6965)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #A7ADB6;border-left:None;color: white"><br />SUBORDINATE (#A7ADB6)<br /><br /></blockquote>
--->
-
-
-
-<!--
-<table style="width:100%;text-align:left;color:white;padding: 10px">
-  <tr align="left">
-    <th >Name</th>
-    <th>HEX</th> 
-    <th>RGB</th>
-   </tr>
-  <tr STYLE="background-color: #FFFFFF;border-left:None;color:black">
-    <th>White</th>
-    <th>#FFFFFF</th> 
-    <th>255, 255, 255</th>
-   </tr>
-  <tr STYLE="background-color: #000000;border-left:None;color: white">
-    <th>Black</th>
-    <th>#000000</th> 
-    <th>0, 0, 0</th>
-   </tr>
-</table> 
--->
-
 ### More palette colors
 The following table includes additional colors that you can use in the UI.
+
 |  Color  |  Description  | HEX value|
 |---------|---------------|----------|
 |![YELLOW (#C9C472)](media/style/C9C472.png "YELLOW (#C9C472)")|Yellow|#C9C472|
@@ -109,24 +66,6 @@ The following table includes additional colors that you can use in the UI.
 |![TEAL (#39B294)](media/style/39B294.png "TEAL (#39B294)")|Teal|#39B294|
 |![GRASS (#73BA5A)](media/style/73BA5A.png "GRASS (#73BA5A)")|Grass|#73BA5A|
 |![SCARLET (#E65E6D)](media/style/E65E6D.png "SCARLET (#E65E6D)")|Scarlet|#E65E6D|
-
-
-
-<!--
-<blockquote STYLE="background-color: #C9C472;border-left:None;color: white"><br />YELLOW (#C9C472)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #88CE81;border-left:None;color: white"><br />GREEN (#88CE81)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #E97768;border-left:None;color: white"><br />RED (#E97768)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #75B5E7;border-left:None;color: white"><br />BLUE (#75B5E7)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #59CCB4;border-left:None;color: white"><br />LIGHTGREEN (#59CCB4)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #75D8E7;border-left:None;color: white"><br />SKY (#75D8E7)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #EEEA86;border-left:None;color: white"><br />EGG (#EEEA86)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #E89E63;border-left:None;color: white"><br />ORANGE (#E89E63)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #DBBDEB;border-left:None;color: white"><br />VIOLET (#DBBDEB)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #39B294;border-left:None;color: white"><br />TEAL (#39B294)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #73BA5A;border-left:None;color: white"><br />GRASS (#73BA5A)<br /><br /></blockquote>
-<blockquote STYLE="background-color: #E65E6D;border-left:None;color: white"><br />SCARLET (#E65E6D)<br /><br /></blockquote>
--->
-
 
 ### Chart colors
 The following table describes the colors used in charts.
@@ -144,23 +83,6 @@ The following table describes the colors used in charts.
 |![VIOLET (#DBBDEB)](media/style/DBBDEB.png "VIOLET (#DBBDEB)")|Violet|#DBBDEB|
 |![TEAL (#39B294)](media/style/39B294.png "TEAL (#39B294)")|Teal|#39B294|
 |![GRASS (#73BA5A)](media/style/73BA5A.png "GRASS (#73BA5A)")|Grass|#73BA5A|
-
-<!--
-
-<blockquote STYLE="background-color: #505C6D;border-left:None;color: white"><br />#505C6D<br /><br /></blockquote>
-<blockquote STYLE="background-color: #008089;border-left:None;color: white"><br />#008089<br /><br /></blockquote>
-<blockquote STYLE="background-color: #00B7C3;border-left:None;color: white"><br />#00B7C3<br /><br /></blockquote>
-<blockquote STYLE="background-color: #C9C472;border-left:None;color: white"><br />#C9C472<br /><br /></blockquote>
-<blockquote STYLE="background-color: #E97768;border-left:None;color: white"><br />#E97768<br /><br /></blockquote>
-<blockquote STYLE="background-color: #75B5E7;border-left:None;color: white"><br />#75B5E7<br /><br /></blockquote>
-<blockquote STYLE="background-color: #59CCB4;border-left:None;color: white"><br />#59CCB4<br /><br /></blockquote>
-<blockquote STYLE="background-color: #75D8E7;border-left:None;color: white"><br />#75D8E7<br /><br /></blockquote>
-<blockquote STYLE="background-color: #EEEA86;border-left:None;color: white"><br />#EEEA86<br /><br /></blockquote>
-<blockquote STYLE="background-color: #DBBDEB;border-left:None;color: white"><br />#DBBDEB<br /><br /></blockquote>
-<blockquote STYLE="background-color: #39B294;border-left:None;color: white"><br />#39B294<br /><br /></blockquote>
-<blockquote STYLE="background-color: #73BE5A;border-left:None;color: white"><br />#73BE5A<br /><br /></blockquote>
-
--->
 
 <!--
 
@@ -192,15 +114,14 @@ If you want to change the text color of a caption to the Primary (#00B7C3) color
 ```
 ## Typography
 
-The main goal of typography is to provide clean and readable text in the user interface. Similar to colors, typgraphy can alos be used to convey or communicate conditions to the user. 
-
+The main goal of typography is to provide clean and readable text in the user interface. Similar to colors, typgraphy can also be used to convey or communicate conditions to the user. 
 
 ## Font Families
 
-Dynamics 365 "Tenerife"uses the following font families throughout the UI. ):
+Dynamics 365 "Tenerife" uses the following font families to specifiy the typeface and weight for text, such as headings, captions, messages, and so on:
 
-| Color name | Value | Description |
-|------------|:-----:|-------------|
+|    | Name| Font values | Description |
+|----|------------|:-----:|-------------|
 | Segoe UI | `"Segoe UI", "Segoe WP", Segoe, device-segoe, Tahoma, Helvetica, Arial, sans-serif` | Favorable sentiment |
 | Segoe UI Light | `"Segoe UI Light", "Segoe WP Light", device-segoe-light, "Segoe WP Semilight", "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif` | Ambiguous sentiment |
 | Segoe UI Semilight | `"Segoe UI Semilight", "Segoe WP Semilight", device-segoe-semilight, "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif` | Unfavorable sentiment |
