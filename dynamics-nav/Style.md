@@ -33,12 +33,12 @@ Choosing the right color gives the interface visual continuity. Color can be use
 
 ### Main colors
 
-The follwoing colors are the most prominent colors used in Dynamics 365 "Tenerife".
+The following colors represent the Dynamics 365 "Tenerife" theme main palette.
 
 |  Color  |  Name  |  Use  |  HEX value  |
 |---------|--------|-------|-------------|
-|![Primary (#00B7C3)](media/style/00B7C3.png "Primary (#00B7C3)")|Primary color|Titles, subtitles, and captions.|#00B7C3|
-| ![Secondary (#505C6D)](media/style/505C6D.png "Secondary (#505C6D)")|Secondary color| Background and links.|#505C6D|
+|![Primary (#00B7C3)](media/style/00B7C3.png "Primary (#00B7C3)")|Primary color|Prominent UI elements and areas.|#00B7C3|
+| ![Secondary (#505C6D)](media/style/505C6D.png "Secondary (#505C6D)")|Secondary color| UI elements and areas in default or subdued state.|#505C6D|
 
 ### Style colors
 The following colors are used to express or accent conditions or user activity in the UI. For example, these colors are used as sentiments, or color indication, on Cues.
