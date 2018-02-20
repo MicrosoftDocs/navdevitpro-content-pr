@@ -33,7 +33,7 @@ The Layout property serves two purposes:
 |Value|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
 |**Undefined**|Cues in the group display as tiles. This is the default setting.|
-|**Wide**|Cues in the group display in the wide layout.|  
+|**Wide**|Cues in the group display in the wide layout.<br /><br />**Note:** This is only supported in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. |  
 
 ## Remarks
 The **Wide** value has no effect on CueGroups that contain only Actions. 
