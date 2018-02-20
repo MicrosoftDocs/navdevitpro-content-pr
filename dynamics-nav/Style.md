@@ -244,13 +244,13 @@ The following is CSS code for styling the controls, including padding, backgroun
 }
 
 .addin .control .submit {
-    color: white;
-    background-color: #00B7C3; /* Aqua */
+    color: white; /* Sets the caption text to "white" */
+    background-color: #00B7C3; /* Sets the background to "Primary */
 
     /* Segoe UI Semibold, medium */
     font-family: "Segoe UI Semibold", "Segoe WP Semibold", device-segoe-semibold, "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif;
     font-size: 12pt;
-    text-transform: uppercase;
+    text-transform: uppercase; /* Sets the caption to use all uppercase letters */
 }
 ```
 
