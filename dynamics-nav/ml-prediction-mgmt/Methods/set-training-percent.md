@@ -1,6 +1,6 @@
 ---
 title: Set Training Percent | Microsoft Docs
-description: Sets the training completed as a percentage.
+description: Sets the training set size as a percentage of the total dataset size.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -14,36 +14,34 @@ ms.date: 01/02/2018
 ms.author: bholtorf
 ---
 
-#SET trainingPercent
-<!--Detailed Description, starts with a verb>-->
+# SetTrainingPercent
+Get the training set size as a percentage of the total dataset size.
 
-For more information, see [Essential AL Methods](../../devenv-essential-al-methods.md).
+This function will throw an error if the percentage value you are trying to set is outside of the ]0.0, 1.0[ range.
 
-##Properties
-|Property|Type|Description|
+<!--For more information, see [Essential AL Methods](../../devenv-essential-al-methods.md).-->
+
+## Parameters
+|Parameter|Type|Description|
 |---|---|---|
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
+|TrainingPercentValue|Decimal|The percentage of data to take in the data set to perform the training. The remaining will be used as validation data for the model.|
 
-For more information, see [Codeunit Properties](../../codeunit-properties.md).
+## Return type
+This method does not return any value.
 
-##Return type
-<!--State the type of return. For example-->
+## Example
+The following exemple sets the training percentage to 50%, then calls Initialize, then sets it again to 50% after the training percentage has been automatically set to the default of 80% when calling Initialize.
+```
+MLPredictionManagement.SetTrainingPercent(0.5);
+MLPredictionManagement.Initialize(ApiUri, ApiKey, 0);
 
-##Example
-<!--ADD CODE EXAMPLE BETWEEN THE BACKTICKS-->
+if MLPredictionManagement.GetTrainingPercent() <> 0.8 then begin
+    Message('Initialize called SefaultInitialize and set the training percentage to 80%. Changing it back to 50%!');
+    MLPredictionManagement.SetTrainingPercent(0.5);
+end;
 ```
 
-```
-For more information, see [AL Data Types](../../devenv-al-data-types).
+<!--For more information, see [AL Data Types](../../devenv-al-data-types).-->
 
 ## See Also
 [The ML Prediction Management API](../../ml-prediction-management-welcome.md)

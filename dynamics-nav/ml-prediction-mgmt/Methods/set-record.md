@@ -1,6 +1,6 @@
 ---
 title: Set Record | Microsoft Docs
-description: Set the value for the record.
+description: Set the record on codeunit 2003.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -14,36 +14,44 @@ ms.date: 01/02/2018
 ms.author: bholtorf
 ---
 
-#SET record
-<!--Detailed Description, starts with a verb>-->
+# SetRecord
+Sets the record to be used by the next calls to codeunit 2003 methods.
+This includes methods:
+- [AddFeature](add-feature.md)
+- [SetLabel](set-label.md)
+- [Train](train.md)
+- [Predict](predict.md)
+- [Evaluate](evaluate.md)
+- [IsDataSufficientForClassification](is-data-sufficient-for-classification.md)
 
-For more information, see [Essential AL Methods](../../devenv-essential-al-methods.md).
+<!--For more information, see [Essential AL Methods](../../devenv-essential-al-methods.md).-->
 
-##Properties
-|Property|Type|Description|
+## Parameters
+|Parameter|Type|Description|
 |---|---|---|
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
+|RecordVariant|Variant|The record to use for next calls to the codeunit. |
 
-For more information, see [Codeunit Properties](../../codeunit-properties.md).
+<!--For more information, see [Codeunit Properties](../../codeunit-properties.md).-->
 
-##Return type
-<!--State the type of return. For example-->
+## Return type
+This method does not return any value.
 
-##Example
-<!--ADD CODE EXAMPLE BETWEEN THE BACKTICKS-->
+## Example
+The following example populates a record with one line to predict on, then calls predict.
 ```
+MLPredictionManagement.Initialize(ApiUri, ApiKey, 0);
 
+MyRecord.DeleteAll();
+MyRecord.Init();
+MyRecord.Validate("My Feature Field Name", 42);
+MyRecord.Insert();
+MLPredictionManagement.SetRecord(MyRecord);
+
+MLPredictionManagement.AddFeature(MyRecord.FieldNo("My Feature Field Name"));
+MLPredictionManagement.SetLabel(MyRecord.FieldNo("My Label Field Name"));
+MLPredictionManagement.Predict(MyModelTxt);
 ```
-For more information, see [AL Data Types](../../devenv-al-data-types).
+<!--For more information, see [AL Data Types](../../devenv-al-data-types).-->
 
 ## See Also
 [The ML Prediction Management API](../../ml-prediction-management-welcome.md)

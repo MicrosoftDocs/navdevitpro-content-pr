@@ -1,6 +1,6 @@
 ---
-title: Using ML Prediction Management | Microsoft Docs
-description: Provides an overview of the methods in codeunit 2003 to use in each phase of implementing a predictive model.
+title: Using ML Prediction Management API | Microsoft Docs
+description: Provides an overview of the methods in each phase.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -14,44 +14,39 @@ ms.date: 01/02/2018
 ms.author: bholtorf
 ---
 
-# Working with ML Prediction Management
+# Working with the ML Prediction Management API
 This topic describes the methods to use to prepare data for analysis, train the model on data and evaluate its quality, and make a prediction that is accompanied by a confidence score that indicates how accurate the prediction is. All of these methods are available in codeunit 2003.
-
-For more information about codeunits, see [Dynamics NAV Codeunits Overview](https://docs.microsoft.com/en-us/dynamics-nav/codeunits).
-
-## To get an API URL and API key
-1. In a browser, go to the experiment.  
-2. Choose ****.  
-3. Get an API URI, and API key.
 
 ## How to initialize the codeunit
 The methods in the following table initialize codeunit 2003.
 
 |Method|Description|
 |---|---|
-|[Default Initialize](default-initialize.md)|<short description, starts with a verb>|
-|[Initialize](initialize.md)|<short description, starts with a verb>|
+|[DefaultInitialize](Methods/default-initialize.md)|Initializes the codeunit with default values|
+|[Initialize](Methods/initialize.md)|Initialize the codeunit, providing your values.|
 
-## How to prepare your data
+Before using the codeunit, you need to initialize it, by calling the Initialize method, providing your API URI, API Key, and timeout. 
+
+## Prepare your data
 The methods in the following table prepare data.
 
 |Method|Description|
 |---|---|
-|[setRecord](set-record.md)|<short description, starts with a verb>|
-|[addFeature](add-feature.md)|<short description, starts with a verb>|
-|[setLabel](set-label.md)|<short description, starts with a verb>|
-|[setTrainingPercent](set-training-percent.md)|<short description, starts with a verb>|
-|[isDataSufficientForClassification](is-data-sufficient-for-classification.md)|<short description, starts with a verb>|
+|[SetRecord](Methods/set-record.md)|<short description, starts with a verb>|
+|[AddFeature](Methods/add-feature.md)|<short description, starts with a verb>|
+|[SetLabel](Methods/set-label.md)|<short description, starts with a verb>|
+|[SetTrainingPercent](Methods/set-training-percent.md)|<short description, starts with a verb>|
+|[GetTrainingPercent](Methods/get-training-percent.md)|<short description, starts with a verb>|
+|[IsDataSufficientForClassification](Methods/is-data-sufficient-for-classification.md)|<short description, starts with a verb>|
 
-## How to create a working model 
+## Create a Working Model 
 The methods in the following table create a model that can generate predictions.
 
 |Method|Description|
 |---|---|
-|[train](train.md)|<short description, starts with a verb>|
-|[evaluate](evaluate.md)|<short description, starts with a verb>|
-|[predict](predict.md)|<short description, starts with a verb>|
+|[train](Methods/train.md)|<short description, starts with a verb>|
+|[evaluate](Methods/evaluate.md)|<short description, starts with a verb>|
+|[predict](Methods/predict.md)|<short description, starts with a verb>|
 
 ## See Also
-[Welcome to ML Prediction Management](../ml-prediction-management-welcome.md)
-[Getting Started with ML Prediction Management](../ml-prediction-management-get-started.md)
+Getting Started with the ML Prediction Management API

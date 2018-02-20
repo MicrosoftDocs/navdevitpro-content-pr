@@ -14,36 +14,29 @@ ms.date: 01/02/2018
 ms.author: bholtorf
 ---
 
-#IS dataSufficientForClassification
-<!--Detailed Description, starts with a verb>-->
+# IsDataSufficientForClassification
+Checks if there is enough data in the previously set record, to train a classification model with enough confidence that the training will succeed. For this, we need the training set to contain every possible label.
 
-For more information, see [Essential AL Methods](../../devenv-essential-al-methods.md).
+<!--For more information, see [Essential AL Methods](../../devenv-essential-al-methods.md).-->
 
-##Properties
-|Property|Type|Description|
-|---|---|---|
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
+## Parameters
+There are no parameters on this method.
 
-For more information, see [Codeunit Properties](../../codeunit-properties.md).
+## Return type
+Boolean. True if the data is diverse enough, else false.
 
-##Return type
-<!--State the type of return. For example-->
-
-##Example
-<!--ADD CODE EXAMPLE BETWEEN THE BACKTICKS-->
+## Example
+The following example initializes the codeunit, checks there is enough data to perform classification, then trains a new model with the data from the record that has been set on the codeunit.
 ```
+MLPredictionManagement.Initialize(ApiUri, ApiKey, 0);
+MLPredictionManagement.SetRecord(MyRecord);
+MLPredictionManagement.AddFeature(MyRecord.FieldNo("My Feature Field Name"));
+MLPredictionManagement.SetLabel(MyRecord.FieldNo("My Label Field Name"));
 
+if MLPredictionManagement.IsDataSufficientForClassification() then
+    MLPredictionManagement.Train(MyVarModelTxt, MyVarModelQuality);
 ```
-For more information, see [AL Data Types](../../devenv-al-data-types).
+<!--For more information, see [AL Data Types](../../devenv-al-data-types).-->
 
 ## See Also
 [The ML Prediction Management API](../../ml-prediction-management-welcome.md)

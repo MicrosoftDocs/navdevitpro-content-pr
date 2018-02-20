@@ -16,7 +16,7 @@ ms.author: bholtorf
 # Questions and Answers
 This topic answers questions about ML Prediction Management API, and tips and tricks for working around a few known issues.  
 
-##Can I use the web service with the Excel add-in?
+## Can I use the web service with the Excel add-in?
 Yes, but there is a known issue to be aware of. There is a mismatch between what the experiment expects as Global Parameters (a CSV-like two lines of text) and what the Excel add-in can provide (one line of text).
 
 The cause of the error is that the experiment expects the **Horizon** parameter in Global Parameters. To change that, change the default forecasting horizon to **3** by replacing these lines in the R code in the experiment:

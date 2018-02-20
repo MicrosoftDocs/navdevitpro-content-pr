@@ -1,6 +1,6 @@
 ---
-title: Build and Test a Predictive Model | Microsoft Docs
-description: Learn how to build and test a predictive model in Azure Machine Learning Studio.
+title: Building a Predictive Model | Microsoft Docs
+description: Learn how to generate a predictive model from an experiement in Azure Machine Learning Studio.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -13,13 +13,10 @@ ms.workload: na
 ms.date: 01/02/2018
 ms.author: bholtorf
 ---
-# How to: Build and Test Your Own Predictive Model
-You can use Azure Machine Learning Studio to build your own predictive model and use it in [!INCLUDE[d365fin](../includes/d365fin_md.md)]. To use your own model, you must subscribe to Azure Machine Learning. <!--Can we recommend a particular subscription?--> For more information, see [Azure Machine Learning Studio Documentation](https://go.microsoft.com/fwlink/?linkid=861765).  
 
-## Predictive Models
-The ML Prediction Management API uses what's called a "classification" model. The goal of a classification model is to assign something to a predefined class, or category. These classes or categories are called "labels," and are defined when you train the model. For this API, we have two labels, **Late** and **On-Time.**
+# How to: Building Your Own Predictive Model
+You can use Azure Machine Learning Studio to build your own predictive model and use it in [!INCLUDE[d365fin](../includes/d365fin_md.md)]. To use your own model, you must subscribe to Azure Machine Learning. <!--Can we recommend a particular subscription?--> For more information, see [Azure Machine Learning Studio Documentation](https://go.microsoft.com/fwlink/?linkid=861765).  
   
-## Building a Model Based on Our Experiment
 We do, however, offer an easier way for you to create and use your own predictive model. You can share the data from your invoices with our predictive experiment in Azure Machine Learning, and let our experiment create and train a predictive model based on your data. The data you share is listed earlier in this topic. To share your data, on the **Late Payment Prediction** page, choose the **Create Custom Model** action. Afterward, predictions will be based on your model, not ours.  
   
 > [!Note]
@@ -34,3 +31,4 @@ If you create your own model in Azure Machine Learning Studio, without using the
 
 ## See Also  
 [Azure Machine Learning Studio Documentation](https://docs.microsoft.com/en-us/azure/machine-learning/studio/)  
+[Customizing Dynamics 365, Business edition Using Extensions](../ui-extensions.md)  
