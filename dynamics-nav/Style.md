@@ -191,7 +191,7 @@ For example, to change a UI element for he Tablet client to use the font family 
 >   To ensure that the correct fonts are used on devices, do not omit fonts or change the order of the fonts.
 
 ## Example
-This examples illustrates how to use CSS to style a simple HTML UI part of a control add-in. The example includes three UI controls, defined by the classes `Name`, `Surname`, and `Submit` as shown in the following HTML code:
+This examples illustrates how to use CSS to style a simple HTML UI part of a control add-in. The example includes three UI controls, as shown in the following HTML code:
 
 ```html
 <div class="addin">
@@ -215,7 +215,7 @@ This examples illustrates how to use CSS to style a simple HTML UI part of a con
 </div>
 ```
 
-The following is CSS code for styling the controls, with padding, backround colors, and fonts:
+The following is CSS code for styling the controls, including padding, background colors, and fonts:
 
 ```css
 .addin {
