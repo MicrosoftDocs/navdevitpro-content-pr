@@ -10,6 +10,9 @@ ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
 # Style Guide
+This article offers a variety of stylistic definitions that are used through out Dynamics 365 "Tenerife", which you can apply to your control add-ins to create an experience that complements Dynamics 365 "Tenerife".
+
+## Introduction
 Control add-ins for Dynamics 365 "Tenerife" extend a business solution by surfacing contextual functionality alongside business data. Control add-ins empower users to get more done without costly context switching, no matter which device they access Dynamics 365 from. Typical uses of control add-ins include unique data visualizations, surfacing controls from a third party service, or displaying related content from another data source.
 
 Apart from the functionality, an important part of creating a control add-in is making sure the control add-in looks good and blends seamlessly into Dynamics 365 "Tenerife". To achieve this, you should follow these basic principles:
@@ -20,7 +23,7 @@ Apart from the functionality, an important part of creating a control add-in is 
 - Make it accessible to all users.
 - Make it enjoyable and keep users in control.
 
-This article offers a variety of stylistic definitions that are used through out Dynamics 365 "Tenerife" which you can apply to your control add-ins to create an experience that complements Dynamics 365 "Tenerife".
+Dynamics O365 uses a set of specific colors and fonts. You can employ these colors and fonts in your control add-ins to give it the same style that matches the client's user interface.  
 
 > [!IMPORTANT]  
 > This article is currently in progress and contents will change.
@@ -29,14 +32,16 @@ This article offers a variety of stylistic definitions that are used through out
 Choosing the right color gives the interface visual continuity. Color can be used to convey information to users, indicate interactivity, give feedback, and more. The following sections describe the colors used in Dynamics 365 "Tenerife". The colors can be used on all aspects of a UI element, such background, border, text, and more. 
 
 ### Main colors
+
+The follwoing colors are the most prominent colors used in Dynamics 365 "Tenerife".
+
 |  Color  |  Name  |  Use  |  HEX value  |
 |---------|--------|-------|-------------|
 |![Primary (#00B7C3)](media/style/00B7C3.png "Primary (#00B7C3)")|Primary color|Titles, subtitles, and captions.|#00B7C3|
 | ![Secondary (#505C6D)](media/style/505C6D.png "Secondary (#505C6D)")|Secondary color| Background and links.|#505C6D|
 
 ### Style colors
-
-The following colors are used to express conditions or user activity in the UI. For example, these colors are used as sentiments, or color indication, on Cues.
+The following colors are used to express or accent conditions or user activity in the UI. For example, these colors are used as sentiments, or color indication, on Cues.
   
 |  Color  |  Description  | HEX value|
 |---------|---------------|----------|
@@ -95,7 +100,13 @@ The following table describes the colors used in charts.
 
 -->
 ### Applying colors
-Make sure to use apply CSS rules for colors in the right place.
+To apply a color scheme to the control add-in, you specify CSS rule-sets that use the following properties:
+
+|  Property  |  Description  |
+|------------|---------------|
+|`color`|Specifies font color.|
+|`background-color`|Specifies background colors.|
+|`border-color`|Specifies Border colors. |
 
 For example, to change the background of a part of your UI to use the `Secondary (#505C6D)` color, write the following CSS:
 
@@ -167,11 +178,6 @@ To apply fonts and sizes to text elements in the UI, you need specify the follow
 - Font face. use property `font-family`.
 - Font size. use property `font-size`.
 
-Make sure to use apply CSS rules for fonts in the right place.
-
-> [!IMPORTANT]
->  Do not alter the fallback list or change the order of font faces. This will ensure that you use the right fonts also on devices.
-
 For example, to change a UI element for he Tablet client to use the font family *Segoe UI Light* and the size *Small* (10pt), write the following CSS:
 
 ```css
@@ -180,6 +186,9 @@ For example, to change a UI element for he Tablet client to use the font family 
     font-size: 10pt;
 }
 ```
+
+> [!IMPORTANT]
+>   To ensure that the correct fonts are used on devices, do not omit fonts or change the order of the fonts.
 
 ## Example
 This examples illustrates how to use CSS to style a simple HTML UI part of a control add-in. The example includes three UI controls, defined by the classes `Name`, `Surname`, and `Submit` as shown in the following HTML code:
