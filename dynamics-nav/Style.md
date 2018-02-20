@@ -32,7 +32,7 @@ Choosing the right color gives the interface visual continuity. Color can be use
 |  Color  |  Name  |  Use  |  HEX value  |
 |---------|--------|-------|-------------|
 |![Primary (#00B7C3)](media/style/00B7C3.png "Primary (#00B7C3)")|Primary color|Titles, subtitles, and captions.|#00B7C3|
-| ![Secondary (#505C6D)](media/style/505C6D.png "Secondary (#505C6D)")|Secondary| Background and links.|#505C6D|
+| ![Secondary (#505C6D)](media/style/505C6D.png "Secondary (#505C6D)")|Secondary color| Background and links.|#505C6D|
 
 ### Style colors
 
@@ -182,7 +182,7 @@ For example, to change a UI element for he Tablet client to use the font family 
 ```
 
 ## Example
-Following is a complete example about how to style a simple HTML UI part:
+This examples illustrates how to use CSS to style a simple HTML UI part of a control add-in. The example includes three UI controls, defined by the classes `Name`, `Surname`, and `Submit` as shown in the following HTML code:
 
 ```html
 <div class="addin">
@@ -206,23 +206,23 @@ Following is a complete example about how to style a simple HTML UI part:
 </div>
 ```
 
-And the corresponding CSS for styling it:
+The following is CSS code for styling the controls, with padding, backround colors, and fonts:
 
 ```css
 .addin {
     padding: 1em;
-    background-color: #505C6D; /* Ash grey */
+    background-color: #505C6D; /* Sets the background color to "Secondary" */
 }
 
 .addin .control {
-     border-color: #00B7C3; /* Charcoal grey */
+     border-color: #00B7C3; /* Sets the border color to "Primary" */
 }
 
 .addin .control. .caption {
-    color: #00B7C3; /* Charcoal grey */
+    color: #00B7C3; /* Sets the captions to "Primary" */
 
     /* Segoe UI Light, small */
-    font-family: "Segoe UI Light", "Segoe WP Light", device-segoe-light, "Segoe WP Semilight", "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif;
+    font-family: "Segoe UI Light", "Segoe WP Light", device-segoe-light, "Segoe WP Semilight", "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif; /* Sets the font of the caption to ""Segoe UI Light" */
     font-size: 10pt;
 }
 
