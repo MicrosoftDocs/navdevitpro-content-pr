@@ -69,6 +69,7 @@ The following topic lists properties that apply to the table object.
 |[MinValue Property](devenv-minvalue-property.md)|X||  
 |[NotBlank Property](devenv-notblank-property.md)|X||
 |[SignDisplacement Property](devenv-signdisplacement-property.md)|X||
+|[SqlTimeStamp Property](devenv-sql-timestamp-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X|| 
