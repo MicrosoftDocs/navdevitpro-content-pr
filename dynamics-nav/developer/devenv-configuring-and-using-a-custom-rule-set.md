@@ -18,11 +18,10 @@ caps.latest.revision: 18
 This topic shows how you can use code analysis tools. The code analysis tools are configured to use a customized rule set on an AL project, and you can select a rule set that corresponds with your current project type. 
 
 ## Using rule sets with code analysis
-First, create a simple project in AL. Depending on 
+First, create a simple project in AL. 
 1. Press **Alt + A, Alt + L** to create a new project.
 2. Open the Command Palette **Ctrl+Shift+B** and choose either User Settings or Workspace Settings.
-3. Copy the setting `al.enableCodeAnalysis` to the settings.json file and set it to to `true`, like in the following example:
-```"al.enableCodeAnalysis": true```.
+3. Copy the setting `al.enableCodeAnalysis` to the settings.json file and set it to `true`: `"al.enableCodeAnalysis": true`.
 
 At this point, the analyzers packaged with the AL Language extensions will be run on your project. Next, add some code to the project that will, in the following example, be used to demonstrate violations of the AA0001 **"There must be exactly one space character on each side of a binary operator such as := + - AND OR =."** code analysis rule. 
 
@@ -54,22 +53,22 @@ To create and customize a rule set of your own, follow the next steps:
 2. Save the empty file with a name, for example `ruleset.json` and make a note of the file path.
 3. Add the following code to the `ruleset.json` file:
 
-```
-{
-    "name": "My Custom Rule Set",
-    "analyzerRules": [
-        {
-            "analyzerId": "Microsoft.Dynamics.Nav.CodeCop",
-            "rules": [
-                {                    
-                    "id": "AA0001",                    
-                    "action": "None"
-                }
-            ]
-        }
-    ]
-}
-```
+    ```
+    {
+        "name": "My Custom Rule Set",
+        "analyzerRules": [
+            {
+                "analyzerId": "Microsoft.Dynamics.Nav.CodeCop",
+                "rules": [
+                    {                    
+                        "id": "AA0001",                    
+                        "action": "None"
+                    }
+                ]
+            }
+        ]
+    }
+    ```
 4. In your project settings set `al.ruleSetPath` to the path to the `ruleset.json` file, relative to the project root. For more information about custom rules, see []().
 
 ## Running the code analysis
