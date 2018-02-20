@@ -1,5 +1,5 @@
 ---
-title: "Style Guide"
+title: "Control Add-in Style Guide"
 ms.custom: na
 ms.date: 02/08/2018
 ms.reviewer: na
@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
-# Style Guide
+# Control Add-in Style Guide
 This article offers a variety of stylistic definitions that are used through out Dynamics 365 "Tenerife", which you can apply to your control add-ins to create an experience that complements Dynamics 365 "Tenerife".
 
 ## Introduction
@@ -23,7 +23,7 @@ Apart from the functionality, an important part of creating a control add-in is 
 - Make it accessible to all users.
 - Make it enjoyable and keep users in control.
 
-Dynamics O365 uses a set of specific colors and fonts. You can employ these colors and fonts in your control add-ins to give it the same style that matches the client's user interface.  
+Dynamics O365 uses a set of specific colors and fonts. You can employ these colors and fonts in your control add-ins to give it a style that matches the rest of client's user interface.  
 
 > [!IMPORTANT]  
 > This article is currently in progress and contents will change.
