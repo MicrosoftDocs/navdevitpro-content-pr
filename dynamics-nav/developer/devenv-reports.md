@@ -39,7 +39,7 @@ Creating a report involves two primary tasks. First, you create a report object 
 ## See Also  
 [Report Object](devenv-report-object.md)   
 [How to: Create a Report](devenv-howto-report-layout.md)  
-[How to: Create an RDL Layout Report](devenv-howto-adl-report-layout.md)  
+[How to: Create an RDL Layout Report](devenv-howto-rdl-report-layout.md)  
 
 
 
