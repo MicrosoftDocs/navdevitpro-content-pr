@@ -22,12 +22,14 @@ A Cue can do two things. It can provide a visual representation of aggregated bu
 ![Cues on the Role Center](media/Cue-overview-online.png "Cues on the Role Center") 
 
 ### Field-based Cues
-Field-based Cues display data that is contained in a table field. This can be raw data or caluclated data. There are two layout options for field-based Cues: normal and wide.
+Field-based Cues display data that is contained in a table field. This can be raw data or caluclated data. There are two layout options for field-based Cues: *normal* and *wide*.
 
-The normal layout displays Cues as tiles. With this layout, Cue groups are automatically arranged to fill in the width of the workspace, which means there can be more than one group horizontally across the workspace.
+The *normal* layout displays Cues as tiles. With this layout, Cue groups are automatically arranged to fill in the width of the workspace, which means there can be more than one group horizontally across the workspace.
 
-With the wide layout, a single Cue group displays the entire width of the workspace. Instead of tiles, Cues display large values. The wide layout gives you a way emphasize a set of Cues. With this in mind, although it is not required, it is a good idea to place Cue groups that use the wide layout, above those that use the normal layout.
+With the *wide* layout, a single Cue group displays the entire width of the workspace. Instead of tiles, Cues display large values. The wide layout gives you a way emphasize a set of Cues. With this in mind, although it is not required, it is a good idea to place Cue groups that use the wide layout, above those that use the normal layout.
 
+> [!NOTE]  
+>  The wide layout is only supported in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. 
 
 ### Action Cues
 Action Cues act as links that perform a task or operation, like opening another page, starting a video, targeting an another resource or URL, or running code. Action-based Cues display only as tiles. They will arrange on the workspace just like field-base Cues that use the normal layout.
