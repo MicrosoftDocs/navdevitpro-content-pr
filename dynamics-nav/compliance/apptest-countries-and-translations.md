@@ -15,7 +15,7 @@ caps.latest.revision: 18
 ---
 
 # Countries and Translations Supported
-This page lists the [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] supported countries together with the supported translations for each country version.
+This page lists the countries that are supported with [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] together with the supported translations for each country version. If you are developing an extension, this table provides the guideline for the translations your extension must support.
 
 |Country|Language Code|
 |-------|-------------|
