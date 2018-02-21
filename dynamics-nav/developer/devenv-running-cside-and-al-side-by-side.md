@@ -26,7 +26,7 @@ Use the `generatesymbolreference` command specified with the database and server
 
 ### Syntax example
 ```
-finsql.exe Command=generatesymbolreference, Database=”Demo Database NAV (11-0)”, ServerName=.\NAVDEMO`
+finsql.exe Command=generatesymbolreference, Database="Demo Database NAV (11-0)", ServerName=.\NAVDEMO
 ```
 
 > [!NOTE]  
