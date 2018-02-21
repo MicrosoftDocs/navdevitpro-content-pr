@@ -19,11 +19,8 @@ author: SusanneWindfeldPedersen
 
 Develop extensions and streamline the workflow by synchronizing the Sales data from Microsoft Dynamics 365 for Sales with [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](../includes/navnow_md.md)]. 
 
-<!--For developing extensions to integrate with sales data, you simply enable the tables used in Dynamics 365 for Sales. The extension development process includes the following set of properties to enable field mapping.
+For developing extensions to integrate with sales data, you simply enable the tables used in Dynamics 365 for Sales. The extension development process includes the following set of properties to enable field mapping.
 You can enable the field mapping by using the following properties. 
--->
-
-In order to develop extension for integrating with Dynamics 365 for Sales tables, you use the properties for mapping the fields.
 
 ## Associated table and field properties
 
@@ -45,7 +42,7 @@ Typically in Dynamics 365 for Sales, entities handle the internal processes. In 
 Typing the shortcut `ttable` will create the basic layout for a table object when using the AL Extension in Visual Studio Code. 
 
 ## Example 
-In the following example, the `SalesIntegration` table contains the properties including TableType and ExternalName which links the underlying `CRM` entity for mapping the fields from the `Sales` table with the specified fields in the field properties. 
+In the following example, the `SalesIntegration` table uses the properties including TableType and ExternalName to link the underlying **CRM** entity for mapping the fields from the `Sales` table with the specified fields in the field properties. 
 
 ```
 table 50100 SalesIntegration
