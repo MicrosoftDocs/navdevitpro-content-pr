@@ -18,6 +18,7 @@ This article provides an overview of Cues and the tasks involved in creating and
 ##  <a name="CueDesign"></a> Cue Design Overview 
 
 A Cue can do two things. It can provide a visual representation of aggregated business data, such as the number of open sales invoices or the total sales for the month. It can also promote an action or operation to the user. Cues are interactive, meaning that you can select the Cue to drill down to data or open another page, run code, and more. To accommodate this, there are two types of Cues, field-based Cues and Action Cues, which are illustrated in the following diagram:
+*I would be careful on choosing screenshots as we haven't fully completed the changes. Where is this taken from?*
 
 ![Cues on the Role Center](media/Cue-overview-online.png "Cues on the Role Center") 
 
@@ -26,7 +27,7 @@ Field-based Cues display data that is contained in a table field. This can be ra
 
 The *normal* layout displays Cues as tiles. With this layout, Cue groups are automatically arranged to fill in the width of the workspace, which means there can be more than one group horizontally across the workspace.
 
-With the *wide* layout, a single Cue group displays the entire width of the workspace. Instead of tiles, Cues display large values. The wide layout gives you a way emphasize a set of Cues. With this in mind, although it is not required, it is a good idea to place Cue groups that use the wide layout, above those that use the normal layout.
+The *wide* layout is designed to display large values and gives you a way emphasize a set of Cues. Wide and normal cue groups can be interleaved but when *wide* group(s) precedes *normal* groups the *wide* group(s) will be placed in own section spanning the entire width of the workspace. With this in mind, although it is not required, it is a good idea to place Cue groups that use the wide layout, above those that use the normal layout.
 
 > [!NOTE]  
 >  The wide layout is only supported in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. 
@@ -34,8 +35,9 @@ With the *wide* layout, a single Cue group displays the entire width of the work
 ### Action Cues
 Action Cues act as links that perform a task or operation, like opening another page, starting a video, targeting an another resource or URL, or running code. Action-based Cues display only as tiles. They will arrange on the workspace just like field-base Cues that use the normal layout.
 
+have you tested this? I don't think that you can do this??
 >[!NOTE]
->You can mix and match field-based and Action Cues in a Cue group. However, do not include Action Cues in a Cue group that uses the wide layout. If you do, the wide layout will be ignored and the Cue group will display in the normal layout.
+>You can mix and match field-based and Action Cues in a Cue group. However, do not include Action Cues in a Cue group that uses the wide layout. If you do, the wide layout will be ignored and the Cue group will display in the normal layout. 
 
 ## Creating field-based Cues
 The implementation of a Cue involves the following elements:
