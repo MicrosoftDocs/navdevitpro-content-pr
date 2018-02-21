@@ -2,7 +2,7 @@
 title: Enabling Sales Tables for Extension Development
 description: This topic explains how to enable Dynamics 365 for Sales tables for the extension development process.
 ms.custom: na
-ms.date: 02/08/2018
+ms.date: 02/20/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,32 +17,35 @@ author: SusanneWindfeldPedersen
 
 # Integrating Dynamics 365 for Sales for Extension Development
 
-Develop extensions to streamline the process by synchronizing the sales data from Microsoft Dynamics 365 for Sales with [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](../includes/navnow_md.md)]. 
+Develop extensions and streamline the workflow by synchronizing the Sales data from Microsoft Dynamics 365 for Sales with [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](../includes/navnow_md.md)]. 
 
-For developing extensions to integrate with sales data, you enable the tables from Microsoft Dynamics 365 for Sales. The extension development process includes a set of properties which enables field mapping with the tables you use in Dynamics 365 for Sales. 
+<!--For developing extensions to integrate with sales data, you simply enable the tables used in Dynamics 365 for Sales. The extension development process includes the following set of properties to enable field mapping.
+You can enable the field mapping by using the following properties. 
+-->
 
+In order to develop extension for integrating with Dynamics 365 for Sales tables, you use the properties for mapping the fields.
 
 ## Associated table and field properties
 
-The following properties are used for connecting with the Microsoft Dynamics 365 for Sales tables:
+The following properties are used for integrating with Microsoft Dynamics 365 for Sales:
 
 |Properties | Applies to | Description |
 |-----------|------------|-------------|
-|[TableType Property](properties/devenv-tabletype-property.md)|Tables |Specifies the table type. This will enable the table connection with the external database. For example, `CRM`. |
+|[TableType Property](properties/devenv-tabletype-property.md)|Tables |Specifies the table type. This enables the table to integrate with the external database. For example, `CRM`. |
 |[ExternalName Property](properties/devenv-externalname-property.md)|Tables, Fields|Specifies the name of the original table in the external database when used as a table property. <br>Specifies the field name of the corresponding field specified in the external table when used as a field property.</br> | 
-|[ExternalAccess Property](properties/devenv-externalaccess-property.md)|Fields|Sets the type of the access, which includes Full, Insert, Modify and Read access.|
-|[ExternalType Property]()|Fields|Specifies the data type of the corresponding field in Dynamics 365 for Sales table. |
+|[ExternalAccess Property](properties/devenv-externalaccess-property.md)|Fields|Specifies the access to the underlying CRM entity when CRM tables are generated using the cmdlet.|
+|[ExternalType Property](properties/devenv-externaltype-property.md)|Fields|Specifies the data type of the corresponding field in Dynamics 365 for Sales table. |
 |[OptionMembers Property](properties/devenv-optionstring-property.md)|Fields|Sets the option values for a field, text box or variable. | 
 |[OptionOrdinalValues Property](properties/devenv-optionordinalvalues-property.md)|Fields|Specifies the list of option values. You can set this property, if the ExternalType is set to Picklist.| 
 
-## Enabling external table integration
-The TableType property values include CRM, ExternalSQL, Exchange and MicrosoftGraph. You must specify the value `CRM`; this enables the table as an integration table for integrating [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](../includes/navnow_md.md)] with Microsoft Dynamics 365 for Sales. The table is typically based on an entity in Dynamics 365 for Sales, such as the Accounts entity.
+## Enabling the CRM entities
+Typically in Dynamics 365 for Sales, entities handle the internal processes. In order to access to the underlying CRM entity, you use the TableType property and select the value called **CRM**. This enables the table as an integration table for integrating [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](../includes/navnow_md.md)] with Dynamics 365 for Sales. The table is mainly based on an entity in Dynamics 365 for Sales, such as the Accounts entity.
 
 ## Snippet support
 Typing the shortcut `ttable` will create the basic layout for a table object when using the AL Extension in Visual Studio Code. 
 
 ## Example 
-In the following example, the `SalesIntegration` table is created with the TableType `CRM` which establishes connection with the external database. The ExternalName `Sales` is the external table name that supports for mapping the fields in the type `CRM` property, in this case, we are mapping the fields `ActualSales` and `SalesCategories` with the Dynamics 365 for Sales table. 
+In the following example, the `SalesIntegration` table contains the properties including TableType and ExternalName which links the underlying `CRM` entity for mapping the fields from the `Sales` table with the specified fields in the field properties. 
 
 ```
 table 50100 SalesIntegration

@@ -16,7 +16,7 @@ author: SusanneWindfeldPedersen
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # OptionOrdinalValues Property
-Specifies the list of ordinal values. You can set this property, if the ExternalType is set to Option or Picklist. 
+Specifies the list of ordinal values and specifies the position of the option members value in the external database. You can set this property, if the **ExternalType property** is set to Picklist. 
 
 ## Applies to  
 

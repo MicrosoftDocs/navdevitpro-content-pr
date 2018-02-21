@@ -15,16 +15,16 @@ author: SusanneWindfeldPedersen
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # ExternalAccess Property
-Specifies the access permission level of the table in the external database.  
-
- Specify this property if the original name is different from the name that you specify in the **Name** property. This means that you can use a different name for the table in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].  
+This property is specific to CRM; this means that the ExternalAccess property specifies the access to the underlying CRM entity when Dynamics 365 for Sales tables are generated using the cmdlet. 
 
 ## Applies To  
 
 -   Fields  
 
 ## Property Values  
- 
+
+The ExternalAccess Property sets the access level as described in the table below:
+
 |Property value| Description|
 |------|-----------|
 |Full  |Allows the full access to the external database.|
