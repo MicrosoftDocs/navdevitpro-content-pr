@@ -1,17 +1,19 @@
 ---
 title: "How to: Develop an Extension"
-author: edupont04
+author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/24/2016
+ms.date: 01/22/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 69203ef8-ceb0-4dc9-8f4c-eacaa0d33a6c
-author: jswymer
+author: solsen
 ---
 # How to: Develop an Extension
+[!INCLUDE[nav_ext1_not_supported](includes/nav_ext1_not_supported.md)]
+
 You can build extension packages that add functionality to a [!INCLUDE[navnow](includes/navnow_md.md)] deployment. Unlike the familiar development and deployment of [!INCLUDE[navnow](includes/navnow_md.md)] functionality, building an extension relies on the exported version of an application to .TXT files. You can export the application from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], use the development environment commands, or use the [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlet that is available in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)], `Export-NAVApplicationObjectLanguage`.  
 
 > [!TIP]  
@@ -164,6 +166,8 @@ If the existing table is not a company-specific table, then create a page where 
 
 
 ## See Also  
+[Getting Started](developer/devenv-get-started.md)  
+<!--
 [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)  
 [How to: Write Extension Upgrade Code](extensions-upgrade-howto.md)  
 [How to: Export Data for an Extension](how-to-export-data-for-an-extension.md)  
@@ -172,3 +176,4 @@ If the existing table is not a company-specific table, then create a page where 
 [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
 [Development Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510540)
+-->

@@ -1,7 +1,7 @@
 ---
 title: "Working With Media on Records"
 ms.custom: na
-ms.date: 06/28/2017
+ms.date: 12/01/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -43,7 +43,7 @@ A media set is an ordered list of media objects, determined by the order in whic
 > [!NOTE]  
 > If a **MediaSet** data type field is used in a report object, then only the first associated media file is displayed in the generated report.
 
-###  <a name="SupportedMediaTypes"></a> Supported Media Types  
+###  <a name="SupportedMediaTypes"></a> Supported Media types  
 The media type, sometimes referred to as the MIME type, is an Internet standard to describe the contents of a file. Internet browsers use the media types to determine how to handle the file. There are several media types, such as image, audio, and video. Currently, only image types are supported. More specifically, you can only use image types that are supported by the System.Drawing.Image class of the .NET Framework, which include:
 -   BMP
 -   EMF
@@ -54,10 +54,10 @@ The media type, sometimes referred to as the MIME type, is an Internet standard 
 -   TIFF
 -   WMF
 
->[!Note]
->GIF type is not supported on reports. If you want to display an image on a report, use another supported type.
+> [!NOTE]  
+> GIF type is not supported on reports. If you want to display an image on a report, use another supported type.
 
-### General Procedure for Adding Media to Records  
+### General procedure for adding Media to Records  
 The general procedure for setting up media on records is as follows:  
 
 1.  Obtain the media file or files that you want to use on the record.  
@@ -70,38 +70,38 @@ The general procedure for setting up media on records is as follows:
 
     For example, you can create a codeunit that calls one of the import methods, or add a page action that calls one of the methods.  
 
-### AL Methods  
+### AL methods  
 The following table provides an overview of the methods that are related to the Media and MediaSet data types.  
 
 **Media data type**
 
-|  Method  |  Description  |  
-|------------|- -------------|
-|[IMPORTFILE Method (Media)](methods/devenv-IMPORTFILE-Method-media.md)|Adds  media from a file to a record. The imported media object is stored in the application database.|  
+|  Method  |  Description  |
+|------------|--------------|
+|[IMPORTFILE Method (Media)](methods/devenv-IMPORTFILE-Method-media.md)|Adds media from a file to a record. The imported media object is stored in the application database.|
 |[IMPORTSTREAM Method (Media)](methods/devenv-IMPORTSTREAM-Method-media.md)|Adds a media from an InStream object to a record. The imported media object is stored in the application database.|  
-|[HASVALUE Method (Media)](methods/devenv-HASVALUE-Method-media.md)|Detects whether a record has a media object in the **Media** data type field.|  
+|[HASVALUE Method (Media)](methods/devenv-HASVALUE-Method-media.md)|Detects whether a record has a media object in the **Media** data type field.|
 |[MEDIAID Method (Media)](methods/devenv-MEDIAID-Method-media.md)|Gets the unique identifier (GUID) that is assigned to the media object in the application database.|  
 |[EXPORTFILE Method (Media)](methods/devenv-EXPORTFILE-Method-media.md)|Exports a media object from a record to a file.|  
 |[EXPORTSTREAM Method (Media)](methods/devenv-EXPORTSTREAM-Method-media.md)|Exports a media object from a record to an OutStream object.|  
 
 **MediaSet data type**
 
-|  Method  |  Description  |  
-|------------|- -------------|
-|[EXPORTFILE Method (MediaSet)](methods/devenv-EXPORTFILE-Method-MediaSet.md)|Exports the media objects that included in a media set to individual files.|  
+|  Method  |  Description |
+|----------|--------------|
+|[EXPORTFILE Method (MediaSet)](methods/devenv-EXPORTFILE-Method-MediaSet.md)|Exports the media objects that included in a media set to individual files.|
 |[IMPORTFILE Method (MediaSet)](methods/devenv-IMPORTFILE-method-mediaset.md)|Adds media from a file to a record, and assigns the imported media object to a media set. The media object is stored in the application database.|  
 |[IMPORTSTREAM Method (MediaSet)](methods/devenv-IMPORTSTREAM-method-mediaset.md)|Adds media from an InStream object to a record. The imported media object is stored in the application database.|  
-|[INSERT Function (MediaSet)](methods/devenv-insert-method-mediaset.md)|Adds a media object that already exists in the database to a MediaSet of a record.|  
-|[MEDIAID Method (MediaSet)](methods/devenv-MEDIAID-method-mediaset.md)|Gets the unique identifier \(GUID\) that is assigned to the media set on a record.|  
+|[INSERT Method (MediaSet)](methods/devenv-insert-method-mediaset.md)|Adds a media object that already exists in the database to a MediaSet of a record.|
+|[MEDIAID Method (MediaSet)](methods/devenv-MEDIAID-method-mediaset.md)|Gets the unique identifier (GUID) that is assigned to the media set on a record.|
 |[COUNT Method (MediaSet)](methods/devenv-COUNT-method-mediaset.md)|Gets the total number of media objects that are included in the media set on a record.|  
 
-## Automatic Deletion of Unused Media Objects 
+## Automatic deletion of unused Media objects 
 When a table record that contains a media object is deleted, the OnDelete trigger gets the media or media set's ID, and uses the ID to look for other references to the media object from the same field index in the same table. If no other references are found, the media object is assumed to be unreferenced and it is deleted. The runtime will not look in all tables in the database to see if a media object is referenced elsewhere, because doing this would decrease performance and result in costly SQL table scans. If media objects are to be shared between tables, they should be shared through a reference table or by sharing the media set field content as described in the next section. 
 
-## Sharing Media Objects Between Different Tables 
+## Sharing Media objects between different tables 
 To maintain data integrity related to media object, it’s important to notice that the Media and MediaSet data types are complex data types that are referenced by an ID. The ID is stored in the record field that contains the media object. If a simple copy operation is performed to copy the media object from one media set field to to another, the ID is copied to the new field. However, the application does not know that the media object is referenced in two different fields, which causes issues when a row that contains the media ID is deleted.  
 
-To avoid unintentionally deleting referenced media objects, media sharing should be done by using the [INSERT function](insert-function--mediaset-.md) function to insert the media (by its ID) into the new media set field. This will create the correct (new) MediaSet records in the system tables, which means that the media object in one field will not be deleted if media object in the other field is deleted. 
+To avoid unintentionally deleting referenced media objects, media sharing should be done by using the INSERT method to insert the media (by its ID) into the new media set field. This will create the correct (new) MediaSet records in the system tables, which means that the media object in one field will not be deleted if media object in the other field is deleted. 
 
 ### Example 
 This example copies a media set field called `MediaSetField` in table `mediaSourceTable` to a field in another table `mediaTargetTable`. The `FOR` loop will iterate all media objects in the source, and then insert their ID in the target field. 
@@ -114,8 +114,8 @@ MediaTargetTable.Modify(true);
 
 This will create a new media set that contains the shared media object references. When you delete the media set (by deleting the MediaTargetTable record), the runtime will detect that the media object is used in multiple media sets, and therefore will not delete the media objects. The media objects might eventually be deleted when the runtime cannot find other references. 
 
->[!IMPORTANT]
->The simple field copy statement `mediaTargetTable.MediaSetField := mediaSourceTable.MediaSetField;` can only be used if `mediaTargetTable`is declared as the same record subtype as `mediaSourceTable`, and the target and source field IDs are the same.  
+> [!IMPORTANT]  
+> The simple field copy statement `mediaTargetTable.MediaSetField := mediaSourceTable.MediaSetField;` can only be used if `mediaTargetTable`is declared as the same record subtype as `mediaSourceTable`, and the target and source field IDs are the same.  
 
 
 ## See Also  

@@ -3,12 +3,12 @@ title: "Control Addin Object"
 description: "Description of the control addin object type."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 10/02/2017
+ms.date: 02/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: solsen
 caps.latest.revision: 18
@@ -17,7 +17,10 @@ caps.latest.revision: 18
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Control Add-In Object
-The control add-in object allows you to add custom functionality to [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. A control add-in is a custom control, or visual element, for displaying and modifying data on [!INCLUDE[d365fin_md](includes/d365fin_md.md)] pages. Control add-ins can exchange data with the [!INCLUDE[d365fin_md](includes/d365fin_md.md)] server on various data types and can respond to user interaction to raise events that execute additional AL code.
+The control add-in object allows you to add custom functionality to [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)]. A control add-in is a custom control, or visual element, for displaying and modifying data on pages. Control add-ins can exchange data with the [!INCLUDE[d365fin_md](includes/d365fin_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] server on various data types and can respond to user interaction to raise events that execute additional AL code.
+
+> [!NOTE]  
+> [!INCLUDE[d365fin_navnow_supported_md](includes/d365fin_navnow_supported_md.md)]
 
 ## Control add-in properties
 In the control add-in definition, you must set the `Scripts` property to include scripts in the control add-in. The scripts could be local files in the package or references to external files using the HTTP or the HTTPS protocol. With the `StartupScript` property, you can call a special script that runs when the page you have implemented the control add-in on, is loaded. These settings initialize the control add-in.
@@ -97,7 +100,7 @@ page 50100 CustomersMapPage
 ```
 
 ## See Also  
-[Developer Reference](devenv-reference-overview.md)  
+[AL Development Environment](devenv-reference-overview.md)  
 [Developing Extensions](devenv-dev-overview.md)  
 [Asynchronous Considerations for Control Add-ins](devenv-control-addin-asynchronous-considerations.md)  
 [InvokeExtensibility Method](methods/devenv-invokeextensibility-method.md)  

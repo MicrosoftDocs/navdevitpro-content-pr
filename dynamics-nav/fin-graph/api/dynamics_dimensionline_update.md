@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Update dimensionLines
-Update the properties of a dimension line object for Dynamics 365 for Financials.
+Update the properties of a dimension line object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
@@ -73,4 +73,11 @@ Content-type: application/json
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Dimension line](../resources/dynamics_dimensionline.md)  
+[Get dimension line](../api/dynamics_dimensionline_get.md)  
+[Post dimension line](../api/dynamics_create_dimensionline.md)  
+[Delete dimension line](../api/dynamics_dimensionline_delete.md)  

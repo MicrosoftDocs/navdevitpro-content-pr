@@ -7,7 +7,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 4daf23a1-aec6-4f96-9f3e-fb654722254c
 caps.latest.revision: 2
 author: jswymer
@@ -19,16 +19,16 @@ author: jswymer
 
 |  Description  |  See module  |
 |---------------|--------------|  
-| Administration Cmdlets for Dynamics NAV|[Microsoft.Dynamics.Nav.Management](Microsoft.Dynamics.Nav.Management/Microsoft.Dynamics.Nav.Management.md)|
-| Administration Cmdlets for Dynamics NAV Extensions |[Microsoft.Dynamics.Nav.Apps.Management](Microsoft.Dynamics.Nav.Apps.Management/Microsoft.Dynamics.Nav.Apps.Management.md)  |
+| Administration Cmdlets for Dynamics NAV|[Microsoft.Dynamics.Nav.Management](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management)|
+| Administration Cmdlets for Dynamics NAV Extensions |[Microsoft.Dynamics.Nav.Apps.Management](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management)  |
 
 
 ## [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)]
 
 |  Description  |  See module  |
 |---------------|--------------|
-|  Development Cmdlets for Dynamics NAV  |[Microsoft.Dynamics.Nav.Model.Tools](Microsoft.Dynamics.Nav.Model.Tools/Microsoft.Dynamics.Nav.Model.Tools.md)  |
-| Development Cmdlets for Dynamics NAV Extensions |[Microsoft.Dynamics.Nav.Apps.Tools](Microsoft.Dynamics.Nav.Apps.Tools/Microsoft.Dynamics.Nav.Apps.Tools.md)  |
+|  Development Cmdlets for Dynamics NAV  |[Microsoft.Dynamics.Nav.Model.Tools](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.model.tools)  |
+| Development Cmdlets for Dynamics NAV Extensions |[Microsoft.Dynamics.Nav.Apps.Tools](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.tools)  |
 
 >[!TIP]
 >For a list of new and changed cmdlets since [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)], see [Changes to Dynamics NAV Cmdlets From Previous Release](Changes-to-Microsoft-Dynamics-NAV-Cmdlets-From-Previous-Release.md).

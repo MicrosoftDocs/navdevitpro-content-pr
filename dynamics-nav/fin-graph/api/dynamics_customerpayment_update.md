@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 01/03/2018
 ms.author: solsen
 ---
 
 # Update customerPayments
-Update the properties of a customer payment object for Dynamics 365 for Financials.
+Update the properties of a customer payment object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
@@ -79,4 +79,11 @@ Content-type: application/json
 }
 ```
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Customer payments](../resources/dynamics_customerpayment.md)  
+[Get customer payments](dynamics_customerpayment_get.md)  
+[Post customer payments](dynamics_create_customerpayment.md)  
+[Delete customer payments](dynamics_customerpayment_delete.md)  

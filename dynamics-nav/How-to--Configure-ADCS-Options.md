@@ -1,17 +1,18 @@
 ---
-title: "How to: Configure ADCS Options"
+title: Configure ADCS Options
+description: Modify Dynamics NAV VT100Plugin configuration file to work with Automated Data Capture Systems (ADCS) which should be performed by a system administrator.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/22/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 8e1e399e-a538-4438-bca4-06c5b7090e38
 caps.latest.revision: 24
 manager: edupont
 ---
-# How to: Configure ADCS Options
+# How to Configure ADCS Options in Dynamics NAV
 Before you can work with Automated Data Capture Systems \(ADCS\), you have to configure [!INCLUDE[navnow](includes/navnow_md.md)] by modifying the VT100Plugin configuration file.  
   
 > [!IMPORTANT]  

@@ -89,7 +89,7 @@ Generates a URL for the specified client target that is based on the configurati
 
 |Client|URL|  
 |------------|---------|  
-|[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]|https://yourfinancialURL/WebClient?company='[!INCLUDE[demoname](../includes/demoname_md.md)]'/|  
+|[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]|https://yourfinancialURL/?company='[!INCLUDE[demoname](../includes/demoname_md.md)]|  
 |[!INCLUDE[d365fin_tablet_md](../includes/d365fin_tablet_md.md)]|ms-financials://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
 |[!INCLUDE[d365fin_phone_md](../includes/d365fin_phone_md.md)]|ms-financials://yourfinancialURL?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
 |[!INCLUDE[d365fin_md](../includes/d365fin_md.md)] Desktop client|ms-dynamicsnav://yourfinancialURL?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
@@ -125,7 +125,7 @@ url := GETURL(CURRENTCLIENTTYPE, 'COMPANYNAME', ObjectType::Page, 21, Cust);
 |Client|URL|  
 |------------|---------|  
 |[!INCLUDE[nav_windows](../includes/nav_windows_md.md)]|DynamicsNAV://*server*:*port*/*instance*/*company*/runpage?page=21&bookmark=*bookmark*|  
-|[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]|https://*server*:*port*/*instance*/WebClient?*company*&page=21&bookmark=*bookmark*|  
+|[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]|https://*server*:*port*/*instance*/?*company*&page=21&bookmark=*bookmark*|  
 |OData|Not applicable because the client type is set to Current, which is not supported for Odata web services.|  
 |SOAP|Not applicable because the URL for SOAP web services does not support filtering for the record.|  
 

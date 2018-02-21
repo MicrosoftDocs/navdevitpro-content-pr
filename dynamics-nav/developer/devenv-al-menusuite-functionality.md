@@ -3,12 +3,12 @@ title: "Adding Pages and Reports to Search"
 description: "Description of how you use AL to add pages and reports to Search in the client."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/16/2017
+ms.date: 02/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: solsen
 caps.latest.revision: 18
@@ -17,9 +17,16 @@ caps.latest.revision: 18
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Adding Pages and Reports to Search
-AL provides navigational support for pages and reports in the client. You enable a page or report to be available through Search in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] using the **UsageCategory** setting. 
+AL provides navigational support for pages and reports in the client. You enable a page or report to be available through Search in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] using the **UsageCategory** setting. 
 
-When you create a [Page](devenv-page-object.md) or a [Report](devenv-report-object.md), you add the **UsageCategory** property. The values for the UsageCategory property are listed below: 
+> [!NOTE]  
+> [!INCLUDE[d365fin_navnow_supported_md](includes/d365fin_navnow_supported_md.md)]
+
+## Working with Search
+When you create a [Page](devenv-page-object.md) or a [Report](devenv-report-object.md), you add the [UsageCategory Property](properties/devenv-usagecategory-property.md). If the **UsageCategory** is set to **None**, or if you do not specify **UsageCategory**, the page or report will not show up when you use the Search functionality in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)]. 
+
+## UsageCategory property values
+The values for the UsageCategory property are listed below: 
 
 - None
 - Lists
@@ -28,19 +35,6 @@ When you create a [Page](devenv-page-object.md) or a [Report](devenv-report-obje
 - Documents
 - History
 - Administration
-
-If the **UsageCategory** is set to **None**, or if you do not specify **UsageCategory**, the page or report will not show up when you use the Search functionality. 
-
-<!--
-If you want to add the page or report to Search, set the **UsageCategory** property by adding the [AccessByPermission Property](properties/devenv-accessbypermission-property.md) and [ApplicationArea Property](properties/devenv-applicationarea-property.md). 
--->
-
-## Optional Accessibility Settings
-
-You can add the page or report to Search and control the accessibility to **Execute** access, or, allow **Read**, **Insert**, **Modify** and **Delete** access by adding the [AccessByPermission property](properties/devenv-accessbypermission-property.md). Likewise, control the access to application area by the grouped-user category by adding the [ApplicationArea Property](properties/devenv-applicationarea-property.md). 
-
-The [AccessByPermission Property](properties/devenv-accessbypermission-property.md) and [ApplicationArea Property](properties/devenv-applicationarea-property.md) are some optional settings used to set limitations when you add the **UsageCategory** property.
-
 
 ## Example
 The following example creates a ``SimpleCustomerCard`` page and sets a ``UsageCategory`` property to the page, so that the ``SimpleCustomerCard`` page is enabled in Search. 
@@ -53,7 +47,7 @@ page 70050088 SimpleCustomerCard
     SourceTable = Customer; 
     UsageCategory = Documents;  
     AccessByPermission = page SimpleCustomerCard = X;
-    ApplicationArea = Basic;
+    ApplicationArea = All;
     layout 
     { 
         area(content) 
@@ -67,11 +61,17 @@ page 70050088 SimpleCustomerCard
         } 
     } 
 } 
-
 ```
 
+## Optional accessibility settings
+You can add a page or a report to Search. Additionally, control the accessibility of an object by providing **Read**, **Insert**, **Modify**, **Delete** and **Execute** (RIMDX) permissions by adding the [AccessByPermission property](properties/devenv-accessbypermission-property.md). Likewise, control the application area access on the specified object by adding the [ApplicationArea Property](properties/devenv-applicationarea-property.md). 
+
+The **AccessByPermission** property and **ApplicationArea** property are the optional settings, which can be applied with the **UsageCategory** property. These settings are used to set restrictions on an object when you enable the Search functionality. 
+
+
 ## See Also
+[Adding Menus to the Navigation Pane](devenv-adding-menus-to-navigation-pane.md)  
 [MenuSuite Properties](properties/devenv-menusuite-properties.md)   
 [Page Object](devenv-page-object.md)  
 [Report Object](devenv-report-object.md)  
-[Developer Reference](devenv-reference-overview.md)
+[AL Development Environment](devenv-reference-overview.md)

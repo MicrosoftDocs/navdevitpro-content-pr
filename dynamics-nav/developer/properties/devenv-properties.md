@@ -2,12 +2,12 @@
 title: "Properties"
 author: edupont04
 ms.custom: na
-ms.date: 06/02/2017
+ms.date: 02/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 0ff73303-b92d-4ce0-9a41-3952f8de7b7a
 caps.latest.revision: 13
 author: SusanneWindfeldPedersen
@@ -16,7 +16,10 @@ author: SusanneWindfeldPedersen
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # Properties
-This section describes all properties that are available to developers in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].  
+This section describes all properties that are available to developers in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](../includes/navnow_md.md)].  
+
+> [!NOTE]  
+> [!INCLUDE[d365fin_navnow_supported_md](../includes/d365fin_navnow_supported_md.md)]
 
  You can set the value of each property in the **Value** field. When you leave this field (by pressing Enter or by moving with the arrow keys), the property is updated. Default values are displayed in angle brackets (<>). If a property has a default value, then you can reset the property to the default value by deleting the current value and then moving out of the field.  
 
@@ -27,7 +30,7 @@ This section describes all properties that are available to developers in [!INCL
 ## See Also  
 [Codeunit Properties](devenv-codeunit-properties.md)  
 [MenuSuite Properties](devenv-menusuite-properties.md)  
-[Page Properties](devenv-page-properties.md)  
+[Page Properties](devenv-page-property-overview.md)  
 [Query Properties](devenv-query-properties.md)  
 [Report Properties](devenv-report-properties.md)  
 [Table Properties](devenv-table-properties.md)  

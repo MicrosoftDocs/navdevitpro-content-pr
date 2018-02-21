@@ -1,17 +1,18 @@
 ---
-title: "How to: Create Labels for a Report"
+title: Create Labels for Report
+description: Add labels to the dataset by using Report Dataset Designer in development environment using RDLC report layout in Visual Studio or Word report layout. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 12/05/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: fa9bc4b3-14f1-4ba3-95fd-d9d309d39186
 caps.latest.revision: 17
 manager: edupont
 ---
-# How to: Create Labels for a Report
+# Creating Labels for Report in Dynamics NAV
 Whether you are using an RDLC report layout in Visual Studio or a Word report layout, if you want to add a label to the report layout, such as a caption for a field, a title for a chart, or a title for the report, then the label must be included in the report dataset. You add labels to the dataset by using Report Dataset Designer in [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. You can either add labels that are related to column of a data item in the dataset, such as the caption for a table field, or labels that are not related to a column of a data item, such as the title of the report. After you add a label to the dataset, you add to the report layout.  
 
 ### To add a label that is related to a column of a data item  

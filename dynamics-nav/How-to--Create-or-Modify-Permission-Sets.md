@@ -1,18 +1,19 @@
 ---
-title: "How to: Create or Modify Permission Sets"
+title: Create or Modify Permission Sets
+description: You can create new permission sets, if the default permission set provided with Dynamics NAV are not sufficient or appropriate for your organization. 
 author: edupont04
 manager: edupont04
 ms.custom: na
-ms.date: 10/13/2016
+ms.date: 12/05/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: e5b80343-d193-467f-8259-d6090cffcd76
 caps.latest.revision: 23
 ---
-# How to: Create or Modify Permission Sets
+# Creating or Modify Permission Sets
 If the default permission sets that are provided with [!INCLUDE[navnow](includes/navnow_md.md)] are not sufficient or not appropriate for your organization, then you can create new permission sets. If the individual object permissions that define a permission set are not adequate, then you can modify a permission set.  
 
 > [!NOTE]  
