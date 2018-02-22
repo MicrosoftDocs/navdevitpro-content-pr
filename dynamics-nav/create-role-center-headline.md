@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
-# Create a Role Center Headline
+# Creating a Role Center Headline
 
 You can set up a Role Center to display a series of headlines, where headlines appear one at a time for a predefined period of time before displaying the next. The headlines can provide users with up-to-date information and insight into the business and daily work. Typical categories of headlines might include:
 
