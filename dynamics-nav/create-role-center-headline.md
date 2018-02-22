@@ -11,7 +11,7 @@ author: jswymer
 ---
 # Create a Role Center Headline
 
-You can set up a Role Center to display a series of headlines that can provide the user with up-to-date information and insight into the business and daily work. For example, typical categories for headlines could include:
+You can set up a Role Center to display a series of headlines, where headlines appear one at a time for a predefined period of time. The headlines can provide users with up-to-date information and insight into the business and daily work. Typical categories of headlines could include:
 
 -   My performance
 -   My workday 
@@ -20,23 +20,33 @@ You can set up a Role Center to display a series of headlines that can provide t
 -   Cross-tenant insights (gamification, performance relative to peers) 
 -   Getting started 
  
+Headlines will only appear in the [!INCLUDE[navnow](includes/navnow_md.md)]; they will be hidden on all client types.
 
-##  <a name=""></a> w Headlines Work
+##  <a name=""></a>Design concept
 
-## n development
-Headline headlines is a table object, where each field defines the content of a specific headline. The headlines are displayed by adding a HeadlinePart page to the Role Center. The source of this page it headline table. 
+### In development
+Headlines are displayed by using a **HeadlinePart** type page. Each individual headline is defined by a field on the page. The source for this field can be a field in an underlying table or an expression.
+
+-   The HeadlinePart page is designed for Role Centers, in other words, pages that have the page type **RoleCenter**. If you use a **HeadlinePart** page on another page type, the part will not render in the client.
+
+-   Headlines can be made interactive by using the OnDrillown trigger or DrillDown property on fields. This makes it possible for users to dig deeper into numbers or values that are shown in the headline or link to another page or URL, like online Help. users to select the headline and be taken somewhere else. 
+
+    For example, by using the OnDrillDown trigger, you 
+-   You can stop an individual headlines by setting the Visible property on the field. 
 
 ## In the Client 
-The Role Center will display the first headline for 5 seconds, then display the next headline for 5 seconds, and so on. When it cycles through all headlines, it will start again.
+The Role Center will start by displaying the first headline that is defined on the Headline part page. The headline will appear for 5 seconds, then the next headline will appear for 5 seconds, and so on. When all the headlines have been displayed, it will cycle back to the first headline and continue from there.
+
+If a headline is interactive, the user can select s can 
 
 The user can manually switch among headlines by selecting the dots (ooo).
 
-The user can personalize their Role Center to show or hide headline part.
+User can personalize their Role Center to show or hide Headline part.
 
 As an administrator, you can  by using Person
 
 
-Create a In the client, the  
+## Create headline   
 
 1. Create a table that for the headlines.
 
