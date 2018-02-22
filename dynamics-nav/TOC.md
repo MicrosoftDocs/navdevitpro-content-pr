@@ -190,6 +190,7 @@
 ## [AL Development Environment](developer/devenv-reference-overview.md)
 ### [AL Programming Guide](developer/devenv-programming-in-al.md)
 ### [FAQ for Developing in AL](developer/devenv-dev-faq.md)
+### [Working with Multiple AL Project Folders within One Workspace](developer/devenv-multiroot-workspaces.md)
 ### [Table Object](developer/devenv-table-object.md)
 ### [Table Extension Object](developer/devenv-table-ext-object.md)
 ### [Page Object](developer/devenv-page-object.md)
