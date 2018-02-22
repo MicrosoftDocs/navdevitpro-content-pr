@@ -45,7 +45,7 @@ The Role Center will start by displaying the first headline that is defined on t
 
 ## Creating a HeadlinePart
 1. Determine and implement the logic for headline field expressions that you will use on the page. 
-2. Create a page that has the [PageType property](devenv/properties/pagetype-property.md) set to `HeadlinePart`.
+2. Create a page that has the [PageType property](developer/properties/pagetype-property.md) set to `HeadlinePart`.
 3. For each headline, add a field, and set the `Expression` attribute. The order of the fields, determines the order in which they appear
 
     The following example shows the AL code for a simple HeadlinePart page that consists of four fields that display static text. 
@@ -85,6 +85,7 @@ The Role Center will start by displaying the first headline that is defined on t
         text004: TextConst ENU='This is headline 4';
     }
     ```
+
 ## Changing the visibility of headlines
 You can use the [Visible property](developer\properties\devenv-visible-property.md) to show or hide headlines that are defined on the HeadlinePart page. With the `Visible` property, you can show or hide the control either statically by setting the property to **true** or **false**, or dynamically by using a `Boolean` variable. 
 
@@ -138,8 +139,9 @@ group(Group2)
     }
 }
 ```
+
 ### Dynamic visibility
-With dynamic visibility, if you want to change the visibility of a headline, the field must be in `group` control. Then, you set `Visible` property to the `Boolean`variable that determines the visibility
+With dynamic visibility, to change the visibility of a headline, the field must be in `group` control. Then, you set `Visible` property to the `Boolean` variable that determines the visibility.
 
 ```
 group(Group1)
