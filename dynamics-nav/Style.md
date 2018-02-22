@@ -10,12 +10,12 @@ ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
 # Control Add-in Style Guide
-This article offers a variety of stylistic definitions that are used through out Dynamics 365 "Tenerife", which you can apply to your control add-ins to create an experience that complements Dynamics 365 "Tenerife".
+This article offers a variety of stylistic definitions that are used throughout Dynamics 365 "Tenerife", which you can apply to your control add-ins to create an experience that complements Dynamics 365 "Tenerife".
 
 ## Introduction
 Control add-ins for Dynamics 365 "Tenerife" extend a business solution by surfacing contextual functionality alongside business data. Control add-ins empower users to get more done without costly context switching, no matter which device they access Dynamics 365 from. Typical uses of control add-ins include unique data visualizations, surfacing controls from a third party service, or displaying related content from another data source.
 
-Apart from the functionality, an important part of creating a control add-in is making sure the control add-in looks good and blends seamlessly into Dynamics 365 "Tenerife". To achieve this, you should follow these basic principles:
+Apart from the functionality, an important aspect of creating a control add-in is making sure the control add-in looks good and blends seamlessly into Dynamics 365 "Tenerife". To achieve this, you should follow these basic principles:
 
 - Apply similar patterns for command, navigation and presentation of data.
 - Favor content over chrome
@@ -23,7 +23,7 @@ Apart from the functionality, an important part of creating a control add-in is 
 - Make it accessible to all users.
 - Make it enjoyable and keep users in control.
 
-Dynamics O365 uses a set of specific colors and fonts. You can employ these colors and fonts in your control add-ins to give it a style that matches the rest of client's user interface.  
+Dynamics 365 "Tenerife" uses a set of specific colors and fonts. You can employ these colors and fonts in your control add-ins to give it a style that matches the rest of client's user interface.  
 
 > [!IMPORTANT]  
 > This article is currently in progress and contents will change.
@@ -137,9 +137,11 @@ Dynamics 365 "Tenerife" uses the following font families to specify the typeface
 |![Segoe UI Light font family](media/style/segoe-ui-light.png "Segoe UI Light font family")| Segoe UI Light | `"Segoe UI Light", "Segoe WP Light", device-segoe-light, "Segoe WP Semilight", "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif` |
 |![Segoe UI Semilight font family](media/style/segoe-ui-semi-light.png "Segoe UI Semilight font family")| Segoe UI Semilight | `"Segoe UI Semilight", "Segoe WP Semilight", device-segoe-semilight, "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif` |
 |![Segoe UI Semibold font family](media/style/segoe-ui-semi-bold.png "Segoe UI Semibold font family")| Segoe UI Semibold | `"Segoe UI Semibold", "Segoe WP Semibold", device-segoe-semibold, "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif` |
+|![Bahnschrift font family](media/style/bahn.png "Bahnschrift font family")| Bahnschrift | `TBD ANDREA` |
+.5
 
 ### Sizes
-Dynamics 365 "Tenerife" uses the following font sizes for text. You consider the client/device when choosing the size. 
+Dynamics 365 "Tenerife" uses the following font sizes for text. The same font family on different clients may apply different sizes.
 
 |  Example  | Name | Value |
 |-----------|------|:-----:|
@@ -148,9 +150,9 @@ Dynamics 365 "Tenerife" uses the following font sizes for text. You consider the
 |![large-plus-font-size (22.5pt)](media/style/22-5-fontsize.png "large-plus-font-size (22.5pt)")| large-plus-font-size | `22.5pt` |
 |![large-font-size (18pt)](media/style/18-fontsize.png "large-font-size (18pt)")| large-font-size | `18pt` |
 |![medium-plus-font-size (15pt)](media/style/15-fontsize.png "medium-plus-font-size (15pt)")| medium-plus-font-size | `15pt` |
-|![medium-font-size (13.5pt)](media/style/13-5-fontsize.png "medium-font-size (13.5pt)")| medium-font-size | `13,5pt` |
+|![medium-font-size (13.5pt)](media/style/13-5-fontsize.png "medium-font-size (13.5pt)")| medium-font-size | `13.5pt` |
 |![small-plus-font-size (12pt)](media/style/12-fontsize.png "small-plus-font-size (12pt)")| small-plus-font-size | `12pt` |
-|![small-font-size (10.5pt)](media/style/10-5-fontsize.png "small-font-size (10.5pt)")| small-font-size | `10,5pt` |
+|![small-font-size (10.5pt)](media/style/10-5-fontsize.png "small-font-size (10.5pt)")| small-font-size | `10.5pt` |
 |![smallest-font-size (9pt)](media/style/9-fontsize.png "smallest-font-size (9pt)")| smallest-font-size | `9pt` |
 
 <!-- 
@@ -175,15 +177,15 @@ Dynamics 365 "Tenerife" uses the following font sizes for text. You consider the
 ### Applying Font Families and Sizes
 To apply fonts and sizes to text elements in the UI, you need specify the following CSS properties:
 
-- Font face. use property `font-family`.
+- Font family. use property `font-family`.
 - Font size. use property `font-size`.
 
-For example, to change a UI element for he Tablet client to use the font family *Segoe UI Light* and the size *Small* (10pt), write the following CSS:
+For example, to change a UI element for the Web client to use the font family *Segoe UI Light* and the size *Small* (10.5pt), write the following CSS:
 
 ```css
 .my-ui-part {
     font-family: "Segoe UI Light", "Segoe WP Light", device-segoe-light, "Segoe WP Semilight", "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif;
-    font-size: 10pt;
+    font-size: 10.5pt;
 }
 ```
 
@@ -232,7 +234,7 @@ The following is CSS code for styling the controls, including padding, backgroun
 
     /* Segoe UI Light, small */
     font-family: "Segoe UI Light", "Segoe WP Light", device-segoe-light, "Segoe WP Semilight", "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif; /* Sets the font of the caption to ""Segoe UI Light" */
-    font-size: 10pt;
+    font-size: 10.5pt;
 }
 
 .addin .control. .value {
