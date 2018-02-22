@@ -11,26 +11,26 @@ author: jswymer
 ---
 # Create a Role Center Headline
 
-You can set up a Role Center to display a series of headlines, where headlines appear one at a time for a predefined period of time before displaying the next. The headlines can provide users with up-to-date information and insight into the business and daily work. Typical categories of headlines could include:
+You can set up a Role Center to display a series of headlines, where headlines appear one at a time for a predefined period of time before displaying the next. The headlines can provide users with up-to-date information and insight into the business and daily work. Typical categories of headlines might include:
 
 -   My performance
 -   My workday 
--   Organizational health,  
+-   Organizational health  
 -   Productivity tips 
--   Cross-tenant insights (gamification, performance relative to peers) 
--   Getting started 
+-   Cross-tenant insights (performance relative to peers
+-   Getting started information
  
 > [!IMPORTANT]
-> Headlines will only appear in the [!INCLUDE[navnow](includes/navnow_md.md)]; they will not be shown on all client types.
+> Headlines will only appear in the [!INCLUDE[navnow](includes/navnow_md.md)]; they will not be shown on other client types.
 
-##  <a name=""></a>Design concept
+## Design concept
 
 ### In development
-In short, the Headline is basically a page that containns one or more fields. The page must be the **HeadlinePart** type page. Each field defines an individual headline to be displayed. The source for a field can be an expression or a field in an underlying table.
+In short, the Headline is basically a page that contains one or more fields. The page must be the **HeadlinePart** type page. Each field defines an individual headline to be displayed. The source for a field can be an expression or a field in an underlying table.
 
 -   The HeadlinePart page is designed for Role Centers, that is, pages that have the type **RoleCenter**. If you use a **HeadlinePart** page on another page type, the part will not render in the client.
 
--   Headlines can be made interactive by using the OnDrillown trigger or DrillDown property on fields - making it possible for users to dig deeper into numbers or values that are shown in the headline or link to another page or URL, like online Help.
+-   Using the OnDrillDon trigger, headlines can be made active, meaning that users can select the headline to dig deeper into numbers or values that are shown in the headline or link to another page or URL.
 
 -   You can dynamically toggle visibility of a specific headline, for example based its relevancy, by setting the Visible property on the field. 
 
@@ -41,12 +41,15 @@ The Role Center will start by displaying the first headline that is defined on t
 
 -  Users can manually switch among headlines by selecting a corresponding dot that is displayed under the headlines. 
 
--  Users can personalize their Role Center to show or hide Headline part as they like.
+-  Users can personalize their Role Center to show or hide the Headline part as they like.
 
-## Creating a HeadlinePart
-1. Determine and implement the logic for headline field expressions that you will use on the page. 
+## Creating a HeadlinePart page
+1. Implement the logic that resolves field expressions for the headlines that you will use on the page. 
+
+    You can apply more flexible and complex patterns,  such as having data tables drive the text, drill-down and relevance engine for headlines.
+
 2. Create a page that has the [PageType property](developer/properties/pagetype-property.md) set to `HeadlinePart`.
-3. For each headline, add a field, and set the `Expression` attribute. The order of the fields, determines the order in which they appear
+3. For each headline, add a field, and set the `Expression` property. The order of the fields, determines the order in which they appear
 
     The following example shows the AL code for a simple HeadlinePart page that consists of four fields that display static text. 
 
@@ -86,6 +89,26 @@ The Role Center will start by displaying the first headline that is defined on t
     }
     ```
 
+4. You can now add the HeadLinePart page in a part on the RoleCenter page.
+
+## Making headlines active
+You can use the [OnDrillDown trigger](developer/triggers/devenv-ondrilldown-trigger.md) of a headline fields to link the headline to more details or relevant information about what is shown in the headlines. For example, if the headline announced the largest sales order for the month, you could set up the headline to open a page that shows a sorted list of sales order for the month.
+
+The following code uses the OnDrillDown trigger to link `Headline1` to the [!INCLUDE[navnow](includes/navnow_md.md)] online help.
+
+
+```
+field(Headline1; text001)
+{
+    trigger OnDrillDown()
+    var
+        DrillDownURL: TextConst ENU='https://go.microsoft.com/fwlink/?linkid=867580';
+    begin
+        Hyperlink(DrillDownURL)
+    end;
+}
+```
+
 ## Changing the visibility of headlines
 You can use the [Visible property](developer\properties\devenv-visible-property.md) to show or hide headlines that are defined on the HeadlinePart page. With the `Visible` property, you can show or hide the control either statically by setting the property to **true** or **false**, or dynamically by using a `Boolean` variable. 
 
@@ -112,6 +135,7 @@ With static visibility, you can simply set the `Visible` property on specific fi
     }
 }
 ```
+
 By adding fields under `Group` controls, you can hide or show more than one headline by setting the `Visible` property on the `Group` control. For example, the following code hides headings `Headline3` and `Headline4`:
 
 ```
@@ -168,6 +192,8 @@ group(Group2)
     }
 }
 ```
-UserGreetingVisible := HeadlineManagement.ShouldUserGreetingBeVisible;
+
+## See Also
+[Page Object](developer/devenv-page-object.md)  
   
 
