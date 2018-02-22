@@ -23,16 +23,23 @@ Objective: Introucing Connect Apps + Business value
 New video that needs to be created -->
  
 ## How can I benefit from offering a Connect app? 
-Online service offerings like payroll, expense management, web-shops, project planning etc. typically have many connection points. Connect apps allows you to make connections between those online service offerings and your business solution. This connection can be achieved on a data level without needing to do development. Therefore, reusing those connection points provide you with an opportunity to reuse your investments from REST integrations with other Cloud Services. 
-Optionally, you can build an interface in Dynamics 365 Business Central, which determines how your data needs to flow between Dynamics 365 Business Central and your online service offering.  
+Online service offerings like payroll, expense management, web-shops, project planning etc. typically have many connection points. Connect apps allow you to make connections between those online service offerings and your business solution. This connection can be achieved on a data level without any further  development. Therefore, reusing those connection points provide you with an opportunity to reuse your investments from REST integrations with other Cloud Services. Optionally, you can build an interface in Dynamics 365 Business Central, which determines how your data flows between Dynamics 365 Business Central and your online service offering.  
 
 ## Examples of Connect apps 
 Below you can find some examples of online services, which could benefit from being integrated to Dynamics 365 Business Central using Connect apps: 
-- Payroll – Read chart of accounts, synchronizing employee information and push payroll transactions to the Dynamics 365 Business Central Ledger 
-- Bank integration – Make payments from within your business solutions towards your bank. 
-- Expenses – Collect and reconcile transactions in well-adopted expense apps. 
-- Web-shops – Synchronize items, customers and other entities to create sales orders and invoices. 
-- Financial Services – Read financial data and provide value added services such as funding and loans. 
+
+- Payroll
+    - Read the chart of accounts.
+    - Synchronize employee information.
+    - Push payroll transactions to the Dynamics 365 Business Central ledger.
+- Bank integration
+    - Make payments from within your business solutions to your bank. 
+- Expenses
+    - Collect and reconcile transactions in well-adopted expense apps. 
+- Web-shops
+    - Synchronize items, customers, and other entities to create sales orders and invoices. 
+- Financial Services
+    - Read financial data and provide value added services such as funding and loans. 
 
 ## How do I develop a Connect App?
 Dynamics 365 Business Central offers many APIs that you can call from within your preferred coding language. 
@@ -50,11 +57,11 @@ HDI – V6 – Use APIs from a Connect App -->
 You can now develop the integration using your favorite development tool. 
 
 ## How do I get my Connect app published in AppSource?  
-To ease your journey, from the initial idea submission to the final publication, we have created a guide that you can lean on throughout the process of bringing your Connect app to Microsoft AppSource. The guide consists of 3 documents that outlines all the steps that must be taken to get your app to go live on the platform. You need to complete the steps in the given order to pass the different validation stages and getting your app published on AppSource (see steps below): 
-Get the prerequisites in place & Develop the technical aspects of your Connect app  
-Needs to be build (combo of original doc 1. and 2.1) 
-Develop the marketing aspects of your app 
-Publish your app. 
+To ease your journey, from the initial idea submission to the final publication, we have created a guide that you can lean on throughout the process of bringing your Connect app to Microsoft AppSource. The guide consists of a set of documents outlining the steps to take to get your app go live on the platform. You must complete the following steps in the given order to pass the different validation stages and get your app published on AppSource: 
+
+1. Get the prerequisites in place & Develop the technical aspects of your Connect app  <!-- note about this - how many steps?>
+2. Develop the marketing aspects of your app 
+3. Publish your app. 
  
 Learn more about each step here: [aka.ms/BusinessCentralApps](). 
  
@@ -63,12 +70,12 @@ Ojective: “Publish a Connect app”
 New video that needs to be created --> 
  
 ## Where do I learn more about Connect apps? 
-To learn more about how to develop Connect apps, select the following links:  
-- Documentation on REST APIs 
-- Getting started with connect apps  
-- Overview of connection endpoints and authentication options 
-- Link to blogpost – haven’t been created yet  [Symbol] NOTE: waiting on input from Peter  
-- If your Connect app requires a specific set up in Dynamics 365 Business Central, then you have the opportunity to add objects. In this case you will have to follow the guide on developing Add-on apps in combination with using the Connect API. Find the guide on how to develop Add-on apps here.  
+To learn more about how to develop Connect apps, see the following:  
+- [Documentation on REST APIs]() 
+- [Getting started with connect apps]()  
+- [Overview of connection endpoints and authentication options]() 
+<!-- - Link to blogpost – haven’t been created yet  [Symbol] NOTE: waiting on input from Peter  -->
+- If your Connect app requires a specific setup in Dynamics 365 Business Central, you can add objects by following the guide on developing Add-on apps in combination with using the Connect API. Find the guide on how to develop Add-on apps [here]().  
  
 To learn more about Connect apps in general, select the following links:  
 - FAQ on Connect apps <!--  – needs to be created -->
