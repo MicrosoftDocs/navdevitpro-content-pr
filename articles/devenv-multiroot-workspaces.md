@@ -1,9 +1,9 @@
 ---
-title: "How to: Work with multiple AL project folders within one workspace"
-description: "How to handle solutions that contain multiple projects."
+title: "Working with multiple AL project folders within one workspace"
+description: "Handling solutions in the AL language that contain multiple projects."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 12/02/2018
+ms.date: 02/20/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,28 +14,25 @@ ms.author: solsen
 caps.latest.revision: 18
 ---
 
-# How to: Work with multiple AL project folders within one workspace
-
+# Working with multiple AL project folders within one workspace
 Visual Studio Code offers the multi-root workspace feature which enables grouping different project folders into one workspace. The AL Language extension also supports the multi-root functionality and allows you to work with multiple AL folders including roots and projects within one workspace. 
 
 ## Working with multiple project folders 
-Go through the following steps to work simultaneously on several related projects:
+Go through the following steps to work simultaneously on several related projects
 1) On the **File** tab of Visual Studio Code, select **Add Folder to Workspace...** .
-2) Save the workspace file if you plan to open it again. This will create a `code-workspace` file that contains an array of folders with either absolute or relative paths. If you want to share your workspace files, choose the relative paths. 
-3) Modify the settings of your files in the **Setings** editor. You can change your User settings, global Workspace settings, or individual folder settings. 
-<!--
-This is the official VS Code documentation for multi-root Workspaces. Can we keep it or should I remove it?
--->
+2) Save the workspace file if you plan to open it again.  
+    This will create a `code-workspace` file that contains an array of folders with either absolute or relative paths. If you want to share your workspace files, choose the relative paths. 
+3) Modify the settings of your files in the **Settings** editor. You can change your user settings, global workspace settings, or individual folder settings. 
+
 For more information about multi-root workspaces in Visual Studio Code, see [Multi-root Workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces).
 
-
 ## Grouping a set of disparate project folders into one workspace
-
 It is not mandatory to use only AL-based roots. Different kinds of projects can be mixed, and each AL project will have its configuration values for the following settings: 
+
 - `al.packageCachePath`  
 - `al.enableCodeAnalysis`
 
-The first setting allows you to specify the path to a folder that will act as the cache for the symbol files used by your project. It can be specified in the User Settings, Workspace Settings or Project Settings. The second one allows you to enable or disable the execution of code analyzers on your project. It can be specified in the User Settings, Workspace Settings or Project Settings.
+The `al.packageCachePath` setting allows you to specify the path to a folder that will act as the cache for the symbol files used by your project. It can be specified in the **User Settings**, **Workspace Settings**, or **Project Settings**. The `al.enableCodeAnalysis` setting allows you to enable the execution of code analyzers on your project. It can likewise be specified in the **User Settings**, **Workspace Settings**, or **Project Settings**.
 
 
 ## See also 
