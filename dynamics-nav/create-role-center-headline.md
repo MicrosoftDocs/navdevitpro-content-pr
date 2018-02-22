@@ -43,16 +43,12 @@ The Role Center will start by displaying the first headline that is defined on t
 
 -  Users can personalize their Role Center to show or hide Headline part as they like.
 
-
-if you want to change the visibility of a field in OnAfterGetCurrenRec (when we refresh the page) you need to set that variable on the group
-the changes done to fields are not sent back to the client
-
 ## Creating a HeadlinePart
 1. Determine and implement the logic for headline field expressions that you will use on the page. 
 2. Create a page that has the [PageType property](devenv/properties/pagetype-property.md) set to `HeadlinePart`.
-3. For each headline, add a field, and set the `Expression` attribute.
+3. For each headline, add a field, and set the `Expression` attribute. The order of the fields, determines the order in which they appear
 
-    The following example shows the AL code for a simple HeadlinePart page that consists of four fields that display a 
+    The following example shows the AL code for a simple HeadlinePart page that consists of four fields that display static text. 
 
     ```
     page 50100 RoleCenterHeadline
@@ -88,7 +84,88 @@ the changes done to fields are not sent back to the client
         text003: TextConst ENU='This is headline 3';
         text004: TextConst ENU='This is headline 4';
     }
-    ``
+    ```
+## Changing the visibility of headlines
+You can use the [Visible property](developer\properties\devenv-visible-property.md) to show or hide headlines that are defined on the HeadlinePart page. With the `Visible` property, you can show or hide the control either statically by setting the property to **true** or **false**, or dynamically by using a `Boolean` variable. 
 
+### Static visibility
+With static visibility, you can simply set the `Visible` property on specific fields. For example, following code hides `Headline3`: 
+
+```
+{
+    field(Headline1; text001)
+    {
+
+    }
+    field(Headline2; text002)
+    {
+
+    }
+    field(Headline3; text003)
+    {
+         Visible=false;
+    }
+    field(Headline4; text004)
+    {
+                
+    }
+}
+```
+By adding fields under `Group` controls, you can hide or show more than one headline by setting the `Visible` property on the `Group` control. For example, the following code hides headings `Headline3` and `Headline4`:
+
+```
+group(Group1)
+{
+    field(Headline1; text001)
+    {
+                
+    }
+    field(Headline2; text002)
+    {
+
+    }
+    }
+group(Group2)
+{
+    Visible=false;
+    field(Headline3; text003)
+    {
+         Visible=false;
+    }
+    field(Headline4; text004)
+    {
+                
+    }
+}
+```
+### Dynamic visibility
+With dynamic visibility, if you want to change the visibility of a headline, the field must be in `group` control. Then, you set `Visible` property to the `Boolean`variable that determines the visibility
+
+```
+group(Group1)
+{
+    field(Headline1; text001)
+    {
+                
+    }
+    field(Headline2; text002)
+    {
+
+    }
+    }
+group(Group2)
+{
+    Visible=false;
+    field(Headline3; text003)
+    {
+         Visible=false;
+    }
+    field(Headline4; text004)
+    {
+                
+    }
+}
+```
+UserGreetingVisible := HeadlineManagement.ShouldUserGreetingBeVisible;
   
 
