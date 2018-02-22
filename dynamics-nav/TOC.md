@@ -279,7 +279,7 @@
 #### [Query Properties](developer/properties/devenv-query-properties.md)  
 #### [Report Properties](developer/properties/devenv-report-properties.md)  
 #### [XMLPort Properties](developer/properties/devenv-XMLPort-properties.md)  
-#### [Integrating with Dynamics 365 for Sales](developer/devenv-integrating-dynamics-365-for-sales-extensions.md)  
+#### [Integrating with Dynamics 365 for Sales](developer/devenv-integrating-dynamics-365-for-sales-extension-development.md)  
 ### [Triggers](developer/triggers/devenv-triggers.md)
 #### [Report and Data Item Triggers](developer/triggers/devenv-report-and-data-item-triggers.md)
 #### [Table and Field Triggers](developer/triggers/devenv-table-and-field-triggers.md)
