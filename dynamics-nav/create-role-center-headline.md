@@ -11,7 +11,7 @@ author: jswymer
 ---
 # Create a Role Center Headline
 
-You can set up a Role Center to display a series of headlines, where headlines appear one at a time for a predefined period of time. The headlines can provide users with up-to-date information and insight into the business and daily work. Typical categories of headlines could include:
+You can set up a Role Center to display a series of headlines, where headlines appear one at a time for a predefined period of time before displaying the next. The headlines can provide users with up-to-date information and insight into the business and daily work. Typical categories of headlines could include:
 
 -   My performance
 -   My workday 
@@ -20,56 +20,75 @@ You can set up a Role Center to display a series of headlines, where headlines a
 -   Cross-tenant insights (gamification, performance relative to peers) 
 -   Getting started 
  
-Headlines will only appear in the [!INCLUDE[navnow](includes/navnow_md.md)]; they will be hidden on all client types.
+> [!IMPORTANT]
+> Headlines will only appear in the [!INCLUDE[navnow](includes/navnow_md.md)]; they will not be shown on all client types.
 
 ##  <a name=""></a>Design concept
 
 ### In development
-Headlines are displayed by using a **HeadlinePart** type page. Each individual headline is defined by a field on the page. The source for this field can be a field in an underlying table or an expression.
+In short, the Headline is basically a page that containns one or more fields. The page must be the **HeadlinePart** type page. Each field defines an individual headline to be displayed. The source for a field can be an expression or a field in an underlying table.
 
--   The HeadlinePart page is designed for Role Centers, in other words, pages that have the page type **RoleCenter**. If you use a **HeadlinePart** page on another page type, the part will not render in the client.
+-   The HeadlinePart page is designed for Role Centers, that is, pages that have the type **RoleCenter**. If you use a **HeadlinePart** page on another page type, the part will not render in the client.
 
--   Headlines can be made interactive by using the OnDrillown trigger or DrillDown property on fields. This makes it possible for users to dig deeper into numbers or values that are shown in the headline or link to another page or URL, like online Help. users to select the headline and be taken somewhere else. 
+-   Headlines can be made interactive by using the OnDrillown trigger or DrillDown property on fields - making it possible for users to dig deeper into numbers or values that are shown in the headline or link to another page or URL, like online Help.
 
-    For example, by using the OnDrillDown trigger, you 
--   You can stop an individual headlines by setting the Visible property on the field. 
+-   You can dynamically toggle visibility of a specific headline, for example based its relevancy, by setting the Visible property on the field. 
 
-## In the Client 
+### In the client 
 The Role Center will start by displaying the first headline that is defined on the Headline part page. The headline will appear for 5 seconds, then the next headline will appear for 5 seconds, and so on. When all the headlines have been displayed, it will cycle back to the first headline and continue from there.
 
-If a headline is interactive, the user can select s can 
+-  If a headline is interactive, the user can select the headline to open the target defined in the headline.
 
-The user can manually switch among headlines by selecting the dots (ooo).
+-  Users can manually switch among headlines by selecting a corresponding dot that is displayed under the headlines. 
 
-User can personalize their Role Center to show or hide Headline part.
-
-As an administrator, you can  by using Person
+-  Users can personalize their Role Center to show or hide Headline part as they like.
 
 
-## Create headline   
+if you want to change the visibility of a field in OnAfterGetCurrenRec (when we refresh the page) you need to set that variable on the group
+the changes done to fields are not sent back to the client
 
-1. Create a table that for the headlines.
+## Creating a HeadlinePart
+1. Determine and implement the logic for headline field expressions that you will use on the page. 
+2. Create a page that has the [PageType property](devenv/properties/pagetype-property.md) set to `HeadlinePart`.
+3. For each headline, add a field, and set the `Expression` attribute.
 
-    Add field for each headline that you want to display, and add logic/code to calculate/generate the headlines.
+    The following example shows the AL code for a simple HeadlinePart page that consists of four fields that display a 
 
-2. Create a page for displaying that has the pagetype set to HeadlinePart
+    ```
+    page 50100 RoleCenterHeadline
+    {
+    PageType = HeadLinePart;
+    
+    layout
+    {
+        area(content)
+        {
+            field(Headline1; text001)
+            {
 
-The source of a headline is a table field.   
- The implementation of a Cue involves the following elements:  
+            }
+            field(Headline2; text002)
+            {
+
+            }
+            field(Headline3; text003)
+            {
+
+            }
+            field(Headline4; text004)
+            {
+                
+            }
+        }
+    }
+    
+    var
+        text001: TextConst ENU='This is headline 1';
+        text002: TextConst ENU='This is headline 2';
+        text003: TextConst ENU='This is headline 3';
+        text004: TextConst ENU='This is headline 4';
+    }
+    ``
+
   
--   A table object with a field that holds the data that is contained in the Cue at runtime.  
-  
--   A page object that contains the table field and displays the Cue in the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
-  
--   Logic that calculates the data to display in the Cue at runtime.  
-  
-     The logic can consist of a combination of C/AL and [!INCLUDE[navnow](includes/navnow_md.md)] objects, such as tables, queries, and codeunits. How and where you implement the logic will depend on whether the Cue is based on a FlowField or Normal field and what you want to achieve. 
-
-
-> [!IMPORTANT]  
->  If ACS authentication is not available, consider creating at least one user who will be able to connect by using a [!INCLUDE[navnow](includes/navnow_md.md)] client. For example, if users are registered by using a certain ACS namespace and that namespace changes, then the users will no longer be able to connect.  
->   
->  One way to prevent this kind of lockout is to create a user who will be able to access the client using **NavUserPassword** authentication. For more information, see [Users and Credential Types](Users-and-Credential-Types.md). Another option is to create an ACS user but to never log that user in with ACS authentication, so that the user's ACS status remains **Pending**.  
->   
->  For either option, make sure that you assign the SUPER permission set to this user, to make sure that there is at least one user with full access to all client functionality.
 
