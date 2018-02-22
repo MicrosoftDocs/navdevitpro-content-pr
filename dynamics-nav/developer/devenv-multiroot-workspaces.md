@@ -36,5 +36,5 @@ The `al.packageCachePath` setting allows you to specify the path to a folder tha
 
 
 ## See also 
-[Development in AL](../dynamics-nav/developer/devenv-dev-overview.md)   
-[Best Practices for AL](../dynamics-nav/compliance/apptest-bestpracticesforalcode.md)
+[Development in AL](devenv-dev-overview.md)   
+[Best Practices for AL](../compliance/apptest-bestpracticesforalcode.md)
