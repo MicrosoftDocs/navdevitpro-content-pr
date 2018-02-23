@@ -1,4 +1,4 @@
----
+)---
 title: "Create a Role Center Headline"
 ms.custom: na
 ms.date: 23/02/2018
@@ -17,11 +17,11 @@ You can set up a Role Center to display a series of headlines, where headlines a
 -   My workday 
 -   Organizational health  
 -   Productivity tips 
--   Cross-tenant insights (performance relative to peers
+-   Cross-tenant insights (performance relative to peers)
 -   Getting started information
  
 > [!IMPORTANT]
-> Headlines will only appear in the [!INCLUDE[d365fin_md](includes/d365fin_md.md)]; they will not be shown on other client types.
+> Headlines will only appear in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]; they will not be shown on other client types.
 
 ## Design concept
 
@@ -32,13 +32,13 @@ In short, the Headline is basically a page that contains one or more fields. The
 
 -   Using the OnDrillDown trigger, headlines can be made interactive, meaning that users can select the headline to dig deeper into numbers or values that are shown in the headline or link to another page or URL.
 
--   You can dynamically toggle visibility of a specific headline, for example based its relevancy, by setting the Visible property on the field. 
+-   You can dynamically toggle visibility of a specific headline, for example base its relevancy, by setting the Visible property on the field. 
 
 -    There are only a few field properties that apply to fields that are used on a **HeadlinePart** type page, including Expression, Visible, ApplicationArea, Drilldown, and DrillDownPageID. All other properties are ignored.
 
 
 ### In the client 
-The Role Center will start by displaying the first headline that is defined on the Headline part page. The headline will appear for 5 seconds, then the next headline will appear for 5 seconds, and so on. When all the headlines have been displayed, it will cycle back to the first headline and continue from there.
+The Role Center will start by displaying the first visible headline that is defined on the Headline part page. The headline will appear for 5 seconds, then the next headline will appear for 5 seconds, and so on. When all the headlines have been displayed, it will cycle back to the first headline and continue from there.
 
 -  If a headline is interactive, users can select the headline to open the target defined in the headline.
 
@@ -97,7 +97,7 @@ The Role Center will start by displaying the first headline that is defined on t
 4. You can now add the **HeadlinePart** page to the **RoleCenter** page.
 
 ## Making headlines interactive
-You can use the [OnDrillDown trigger](triggers/devenv-ondrilldown-trigger.md) of a headline fields to link the headline to more details or relevant information about what is shown in the headlines. For example, if the headline announced the largest sales order for the month, you could set up the headline to open a page that shows a sorted list of sales order for the month.
+You can use the [OnDrillDown trigger](triggers/devenv-ondrilldown-trigger.md) of a headline field to link the headline to more details or relevant information about what is shown in the headlines. For example, if the headline announced the largest sales order for the month, you could set up the headline to open a page that shows a sorted list of sales order for the month.
 
 The following code uses the OnDrillDown trigger to link `Headline1` to the [!INCLUDE[d365fin_md](includes/d365fin_md.md)] online help.
 
