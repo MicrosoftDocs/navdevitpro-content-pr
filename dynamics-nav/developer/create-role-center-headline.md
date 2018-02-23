@@ -34,7 +34,7 @@ In short, the Headline is basically a page that contains one or more fields. The
 
 -   You can dynamically toggle visibility of a specific headline, for example based its relevancy, by setting the Visible property on the field. 
 
--    There are only a few field properties that apply to fields that are used on a **HeadlinePart** type page, including SourceExpr, Visible, ApplicationArea, Drilldown, DrillDownPageID, ToolTip, and ToolTipMl. All other properties are ignored.
+-    There are only a few field properties that apply to fields that are used on a **HeadlinePart** type page, including Expression, Visible, ApplicationArea, Drilldown, DrillDownPageID, ToolTip, and ToolTipMl. All other properties are ignored.
 
 
 ### In the client 
@@ -174,7 +174,7 @@ group(Group2)
 
 
 ### Dynamic visibility
-With dynamic visibility, to change the visibility of a headline, the field must be in `group` control. Then, you set `Visible` property on the `group` control to the `Boolean` variable that determines the visibility.
+With dynamic visibility, in order to change the visibility of a headline, the field must be in `group` control. Then, you set the `Visible` property on the `group` control to a `Boolean` variable that determines the visibility. For example, you could add code on the page's `OnAfterGetRecord` trigger that evaluates the relevance of displaying `Headline3` and results in a `Boolean` variable being set to `true`or `false`.   
 
 ```
 group(Group1)
@@ -190,7 +190,7 @@ group(Group1)
     }
 group(Group2)
 {
-    Visible=my;
+    Visible=ShowHeadline3;
     field(Headline3; text003)
     {
      
