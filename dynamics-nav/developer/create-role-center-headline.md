@@ -1,4 +1,4 @@
-)---
+---
 title: "Create a Role Center Headline"
 ms.custom: na
 ms.date: 23/02/2018
