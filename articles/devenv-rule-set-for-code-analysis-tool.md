@@ -1,5 +1,5 @@
 ---
-title: "Rule Set for the Code Analysis Tool"
+title: "Creating Rule Sets for the Code Analysis Tool"
 description: "Description of the custom rule set for the Code Analysis Tool."
 author: SusanneWindfeldPedersen
 ms.custom: na
@@ -16,7 +16,7 @@ caps.latest.revision: 18
 
 # Rule Set for the Code Analysis Tool 
 
-In an AL project, you can use a custom rule set file to specify how code analysis will report the issues it encounters. Different settings can affect how rules are applied and each rule set file name must follow the pattern `<name>.ruleset.json` to benefit from Intellisense in Visual Studio Code.  
+In an AL project, you can use a custom rule set file to specify how code analysis will report the issues it encounters. Different settings can affect how rules are applied and each rule set file name must follow the pattern `<name>.ruleset.json` to benefit from IntelliSense in Visual Studio Code.  
 
 The following table describes the settings in a `<name>.ruleset.json` file:
 
