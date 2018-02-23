@@ -37,4 +37,6 @@ Sets the option values for a field, text box, or variable. OptionString is multi
  This property setting is checked recursively during validation.  
 
 ## See Also  
- [OptionCaptionML Property](devenv-optioncaptionml-property.md)
+ [OptionCaptionML Property](devenv-optioncaptionml-property.md)  
+ [Properties](devenv-properties.md)  
+ [Table Properties](devenv-table-properties.md)  
