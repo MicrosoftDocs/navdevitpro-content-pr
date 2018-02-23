@@ -14,7 +14,7 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
 # Build Your Business on Dynamics 365 Business Central
-Microsoft Dynamics 365 Business Central is a business management solution that helps companies connect their financials, sales, service, and operations to streamline business processes, improve customer interactions, and make better decisions. With this modern business platform you can easily and quickly tailor, extend and build applications so they fit your specific needs — with little to no code development. Watch the short video below to get an overview of your opportunities. 
+Microsoft Dynamics 365 Business Central is a business management solution that helps companies connect their financials, sales, service, and operations to streamline business processes, improve customer interactions, and make better decisions. With this modern business platform you can easily and quickly tailor, extend, and build applications so they fit your specific needs — with little to no code development. Watch the short video below to get an overview of your opportunities. 
 
 <!-- video -->
 
@@ -24,7 +24,7 @@ The decision is yours - decide whether you want to connect to your existing serv
 ## Go to market with Microsoft AppSource
 AppSource is Microsoft’s marketplace for business apps. There are several reasons why going to market with Microsoft AppSource is a great idea:  
 - It allows you to promote your brand, expand your reach, accelerate the customer journey, and upsell your solutions.  
-- It connects you with millions of Office 365 & Dynamics 365 business users.  
+- It connects you with millions of Office 365 and Dynamics 365 business users.  
  
 You can bring two types of offerings to Microsoft AppSource: 
 
