@@ -138,7 +138,6 @@ Dynamics 365 "Tenerife" uses the following font families to specify the typeface
 |![Segoe UI Semilight font family](media/style/segoe-ui-semi-light.png "Segoe UI Semilight font family")| Segoe UI Semilight | `"Segoe UI Semilight", "Segoe WP Semilight", device-segoe-semilight, "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif` |
 |![Segoe UI Semibold font family](media/style/segoe-ui-semi-bold.png "Segoe UI Semibold font family")| Segoe UI Semibold | `"Segoe UI Semibold", "Segoe WP Semibold", device-segoe-semibold, "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif` |
 |![Bahnschrift font family](media/style/bahn.png "Bahnschrift font family")| Bahnschrift | `TBD ANDREA` |
-.5
 
 ### Sizes
 Dynamics 365 "Tenerife" uses the following font sizes for text. The same font family on different clients may apply different sizes.
