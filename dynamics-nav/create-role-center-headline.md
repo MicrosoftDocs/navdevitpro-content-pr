@@ -53,7 +53,7 @@ The Role Center will start by displaying the first headline that is defined on t
 
     You can apply more flexible and complex patterns,  such as having data tables drive the text, drill-down and relevance engine for headlines.
 
-2. Create a page that has the [PageType property](developer/properties/pagetype-property.md) set to `HeadlinePart`.
+2. Create a page that has the [PageType property](developer/properties/devenv-pagetype-property.md) set to `HeadlinePart`.
 3. For each headline, add a field, and set the [Expression property](developer/properties/devenv-sourceexpr-property.md). The order of the fields, determines the order in which they appear.
 
     The following example shows the AL code for a simple **HeadlinePart** page that consists of four fields that display static text. 
