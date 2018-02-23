@@ -44,14 +44,14 @@ pageextension 50100 CustomerListExt extends "Customer List"
 }
 ```
 
-On the **View** tab of Visual Studio Code, select the **Problems** option and you will see a warning with the message "There must be exactly one space character on each side of '+'.". In this case, the problem can be fixed by running the AL Formatter command. For more information, see [AL Formatter](devenv-al-formatter.md).
+On the **View** tab of Visual Studio Code, select the **Problems** option and you will see a warning with the message "There must be exactly one space character on each side of '+'.". In this case, the problem can be fixed by running the AL Formatter command. For more information, see [AL Formatter](../dynamics-nav/developer/devenv-al-formatter.md).
 
 ## Creating and customizing a rule set
 To create and customize a rule set of your own, follow the next steps:
 
 1. On the **File** tab in Visual Studio Code, choose **New File**.
-2. Save the empty file with a name, for example `ruleset.json` and make a note of the file path.
-3. Add the following code to the `ruleset.json` file:
+2. Save the empty file with a name, for example `<name>.ruleset.json` and make a note of the file path.
+3. Add the following code to the `<name>.ruleset.json` file:
 
     ```
     {
@@ -69,12 +69,12 @@ To create and customize a rule set of your own, follow the next steps:
         ]
     }
     ```
-4. In your project settings set `al.ruleSetPath` to the path to the `ruleset.json` file, relative to the project root. For more information about custom rules, see []().
+4. In your project settings set `al.ruleSetPath` to the path to the `<name>.ruleset.json` file, relative to the project root. For more information about custom rules, see [Rule Set for the Code Analysis tool](devenv-rule-set-for-code-analysis-tool.md).
 
 ## Running the code analysis
 The code analysis will run in the background and you will see the warning **"There must be exactly one space character on each side of '+'."** disappear from the **Problems** option in Visual Studio Code.
 
-To trigger a new compilation manually, use the **Ctrl+Shift+B** shortcut to build your project. For more information about AL keyboard shortcuts, see [Keyboard shortcuts](devenv-keyboard-shortcuts.md).
+To trigger a new compilation manually, use the **Ctrl+Shift+B** shortcut to build your project. For more information about AL keyboard shortcuts, see [Keyboard shortcuts](../dynamics-nav/developer/devenv-keyboard-shortcuts.md).
 
 ## Limitations
 Changing the contents of the rule set file will not be detected by the AL Language extension. To see the effects of changing the rule set file, you can try any of the following:
@@ -83,5 +83,5 @@ Changing the contents of the rule set file will not be detected by the AL Langua
 - In the project settings, change the `al.ruleSetPath` setting to a non valid path, save the settings file, and finally change back the setting and save it.
 
 ## See also
-[Development in AL](devenv-dev-overview.md)  
-[Debugging in AL](devenv-debugging.md)
+[Development in AL](../dynamics-nav/developer/devenv-dev-overview.md)  
+[Debugging in AL](../dynamics-nav/developer/devenv-debugging.md)
