@@ -1,7 +1,7 @@
 ---
 title: "Create a Role Center Headline"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 23/02/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -21,20 +21,20 @@ You can set up a Role Center to display a series of headlines, where headlines a
 -   Getting started information
  
 > [!IMPORTANT]
-> Headlines will only appear in the [!INCLUDE[navnow](includes/navnow_md.md)]; they will not be shown on other client types.
+> Headlines will only appear in the [!INCLUDE[d365fin_md](includes/d365fin_md.md)]; they will not be shown on other client types.
 
 ## Design concept
 
 ### In development
 In short, the Headline is basically a page that contains one or more fields. The page must be the **HeadlinePart** type page. Each field defines an individual headline to be displayed. The source for a field can be an expression or a field in an underlying table.
 
--   The HeadlinePart page is designed for Role Centers, that is, pages that have the type **RoleCenter**. If you use a **HeadlinePart** page on another page type, the part will not render in the client.
+-   The **HeadlinePart** page is designed for Role Centers, that is, pages that have the type **RoleCenter**. If you use a **HeadlinePart** page on another page type, the part will not render in the client.
 
 -   Using the OnDrillDown trigger, headlines can be made interactive, meaning that users can select the headline to dig deeper into numbers or values that are shown in the headline or link to another page or URL.
 
 -   You can dynamically toggle visibility of a specific headline, for example based its relevancy, by setting the Visible property on the field. 
 
--    There are only a few field properties that apply to fields that are used on a **HeadlinePart** type page, including SourceExpr, Visible, ApplicationArea, Drilldown, DrillDownPageID, ToolTip, and ToolTipMl. All other fields are ignored.
+-    There are only a few field properties that apply to fields that are used on a **HeadlinePart** type page, including SourceExpr, Visible, ApplicationArea, Drilldown, DrillDownPageID, ToolTip, and ToolTipMl. All other properties are ignored.
 
 
 ### In the client 
@@ -54,9 +54,9 @@ The Role Center will start by displaying the first headline that is defined on t
     You can apply more flexible and complex patterns,  such as having data tables drive the text, drill-down and relevance engine for headlines.
 
 2. Create a page that has the [PageType property](developer/properties/pagetype-property.md) set to `HeadlinePart`.
-3. For each headline, add a field, and set the `Expression` property. The order of the fields, determines the order in which they appear
+3. For each headline, add a field, and set the [Expression property](developer/properties/sourceExpr-property.md). The order of the fields, determines the order in which they appear.
 
-    The following example shows the AL code for a simple HeadlinePart page that consists of four fields that display static text. 
+    The following example shows the AL code for a simple **HeadlinePart** page that consists of four fields that display static text. 
 
     ```
     page 50100 RoleCenterHeadline
@@ -94,12 +94,12 @@ The Role Center will start by displaying the first headline that is defined on t
     }
     ```
 
-4. You can now add the HeadLinePart page in a part on the RoleCenter page.
+4. You can now add the **HeadlinePart** page to the **RoleCenter** page.
 
 ## Making headlines interactive
 You can use the [OnDrillDown trigger](developer/triggers/devenv-ondrilldown-trigger.md) of a headline fields to link the headline to more details or relevant information about what is shown in the headlines. For example, if the headline announced the largest sales order for the month, you could set up the headline to open a page that shows a sorted list of sales order for the month.
 
-The following code uses the OnDrillDown trigger to link `Headline1` to the [!INCLUDE[navnow](includes/navnow_md.md)] online help.
+The following code uses the OnDrillDown trigger to link `Headline1` to the [!INCLUDE[d365fin_md](includes/d365fin_md.md)] online help.
 
 
 ```
@@ -115,7 +115,7 @@ field(Headline1; text001)
 ```
 
 ## Changing the visibility of headlines
-You can use the [Visible property](developer\properties\devenv-visible-property.md) to show or hide headlines that are defined on the HeadlinePart page. With the `Visible` property, you can show or hide the control either statically by setting the property to **true** or **false**, or dynamically by using a `Boolean` variable. 
+You can use the [Visible property](developer\properties\devenv-visible-property.md) to show or hide headlines that are defined on the **HeadlinePart** page. With the `Visible` property, you can show or hide the control either statically by setting the property to **true** or **false**, or dynamically by using a `Boolean` variable. 
 
 ### Static visibility
 With static visibility, you can simply set the `Visible` property on specific fields. For example, following code hides `Headline3`: 
@@ -203,6 +203,7 @@ group(Group2)
 ```
 
 ## See Also
+[Pages Overview](developer/devenv-pages-overview.md)  
 [Page Object](developer/devenv-page-object.md)  
   
 
