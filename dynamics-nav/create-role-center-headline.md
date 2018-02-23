@@ -30,7 +30,7 @@ In short, the Headline is basically a page that contains one or more fields. The
 
 -   The HeadlinePart page is designed for Role Centers, that is, pages that have the type **RoleCenter**. If you use a **HeadlinePart** page on another page type, the part will not render in the client.
 
--   Using the OnDrillDown trigger, headlines can be made active, meaning that users can select the headline to dig deeper into numbers or values that are shown in the headline or link to another page or URL.
+-   Using the OnDrillDown trigger, headlines can be made interactive, meaning that users can select the headline to dig deeper into numbers or values that are shown in the headline or link to another page or URL.
 
 -   You can dynamically toggle visibility of a specific headline, for example based its relevancy, by setting the Visible property on the field. 
 
@@ -96,7 +96,7 @@ The Role Center will start by displaying the first headline that is defined on t
 
 4. You can now add the HeadLinePart page in a part on the RoleCenter page.
 
-## Making headlines active
+## Making headlines interactive
 You can use the [OnDrillDown trigger](developer/triggers/devenv-ondrilldown-trigger.md) of a headline fields to link the headline to more details or relevant information about what is shown in the headlines. For example, if the headline announced the largest sales order for the month, you could set up the headline to open a page that shows a sorted list of sales order for the month.
 
 The following code uses the OnDrillDown trigger to link `Headline1` to the [!INCLUDE[navnow](includes/navnow_md.md)] online help.
