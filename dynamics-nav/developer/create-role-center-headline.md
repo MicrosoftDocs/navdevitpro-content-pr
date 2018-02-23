@@ -34,7 +34,7 @@ In short, the Headline is basically a page that contains one or more fields. The
 
 -   You can dynamically toggle visibility of a specific headline, for example based its relevancy, by setting the Visible property on the field. 
 
--    There are only a few field properties that apply to fields that are used on a **HeadlinePart** type page, including Expression, Visible, ApplicationArea, Drilldown, DrillDownPageID, ToolTip, and ToolTipMl. All other properties are ignored.
+-    There are only a few field properties that apply to fields that are used on a **HeadlinePart** type page, including Expression, Visible, ApplicationArea, Drilldown, and DrillDownPageID. All other properties are ignored.
 
 
 ### In the client 
