@@ -53,8 +53,8 @@ The Role Center will start by displaying the first headline that is defined on t
 
     You can apply more flexible and complex patterns,  such as having data tables drive the text, drill-down and relevance engine for headlines.
 
-2. Create a page that has the [PageType property](developer/properties/devenv-pagetype-property.md) set to `HeadlinePart`.
-3. For each headline, add a field, and set the [Expression property](developer/properties/devenv-sourceexpr-property.md). The order of the fields, determines the order in which they appear.
+2. Create a page that has the [PageType property](properties/devenv-pagetype-property.md) set to `HeadlinePart`.
+3. For each headline, add a field, and set the [Expression property](properties/devenv-sourceexpr-property.md). The order of the fields, determines the order in which they appear.
 
     The following example shows the AL code for a simple **HeadlinePart** page that consists of four fields that display static text. 
 
@@ -97,7 +97,7 @@ The Role Center will start by displaying the first headline that is defined on t
 4. You can now add the **HeadlinePart** page to the **RoleCenter** page.
 
 ## Making headlines interactive
-You can use the [OnDrillDown trigger](developer/triggers/devenv-ondrilldown-trigger.md) of a headline fields to link the headline to more details or relevant information about what is shown in the headlines. For example, if the headline announced the largest sales order for the month, you could set up the headline to open a page that shows a sorted list of sales order for the month.
+You can use the [OnDrillDown trigger](triggers/devenv-ondrilldown-trigger.md) of a headline fields to link the headline to more details or relevant information about what is shown in the headlines. For example, if the headline announced the largest sales order for the month, you could set up the headline to open a page that shows a sorted list of sales order for the month.
 
 The following code uses the OnDrillDown trigger to link `Headline1` to the [!INCLUDE[d365fin_md](includes/d365fin_md.md)] online help.
 
@@ -115,7 +115,7 @@ field(Headline1; text001)
 ```
 
 ## Changing the visibility of headlines
-You can use the [Visible property](developer\properties\devenv-visible-property.md) to show or hide headlines that are defined on the **HeadlinePart** page. With the `Visible` property, you can show or hide the control either statically by setting the property to **true** or **false**, or dynamically by using a `Boolean` variable. 
+You can use the [Visible property](properties/devenv-visible-property.md) to show or hide headlines that are defined on the **HeadlinePart** page. With the `Visible` property, you can show or hide the control either statically by setting the property to **true** or **false**, or dynamically by using a `Boolean` variable. 
 
 ### Static visibility
 With static visibility, you can simply set the `Visible` property on specific fields. For example, following code hides `Headline3`: 
@@ -203,7 +203,7 @@ group(Group2)
 ```
 
 ## See Also
-[Pages Overview](developer/devenv-pages-overview.md)  
-[Page Object](developer/devenv-page-object.md)  
+[Pages Overview](devenv-pages-overview.md)  
+[Page Object](devenv-page-object.md)  
   
 
