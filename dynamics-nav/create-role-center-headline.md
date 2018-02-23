@@ -160,7 +160,7 @@ group(Group2)
     Visible=false;
     field(Headline3; text003)
     {
-         Visible=false;
+         
     }
     field(Headline4; text004)
     {
@@ -174,7 +174,7 @@ group(Group2)
 
 
 ### Dynamic visibility
-With dynamic visibility, to change the visibility of a headline, the field must be in `group` control. Then, you set `Visible` property to the `Boolean` variable that determines the visibility.
+With dynamic visibility, to change the visibility of a headline, the field must be in `group` control. Then, you set `Visible` property on the `group` control to the `Boolean` variable that determines the visibility.
 
 ```
 group(Group1)
@@ -190,10 +190,10 @@ group(Group1)
     }
 group(Group2)
 {
-    Visible=false;
+    Visible=my;
     field(Headline3; text003)
     {
-         Visible=false;
+     
     }
     field(Headline4; text004)
     {
