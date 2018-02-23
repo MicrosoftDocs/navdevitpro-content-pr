@@ -30,14 +30,19 @@ In short, the Headline is basically a page that contains one or more fields. The
 
 -   The HeadlinePart page is designed for Role Centers, that is, pages that have the type **RoleCenter**. If you use a **HeadlinePart** page on another page type, the part will not render in the client.
 
--   Using the OnDrillDon trigger, headlines can be made active, meaning that users can select the headline to dig deeper into numbers or values that are shown in the headline or link to another page or URL.
+-   Using the OnDrillDown trigger, headlines can be made active, meaning that users can select the headline to dig deeper into numbers or values that are shown in the headline or link to another page or URL.
 
 -   You can dynamically toggle visibility of a specific headline, for example based its relevancy, by setting the Visible property on the field. 
+
+-    There are only a few field properties that apply to fields that are used on a **HeadlinePart** type page, including SourceExpr, Visible, ApplicationArea, Drilldown, DrillDownPageID, ToolTip, and ToolTipMl. All other fields are ignored.
+
 
 ### In the client 
 The Role Center will start by displaying the first headline that is defined on the Headline part page. The headline will appear for 5 seconds, then the next headline will appear for 5 seconds, and so on. When all the headlines have been displayed, it will cycle back to the first headline and continue from there.
 
--  If a headline is interactive, the user can select the headline to open the target defined in the headline.
+-  If a headline is interactive, users can select the headline to open the target defined in the headline.
+
+- Users can pause on a headline by pointing to it. 
 
 -  Users can manually switch among headlines by selecting a corresponding dot that is displayed under the headlines. 
 
@@ -163,6 +168,10 @@ group(Group2)
     }
 }
 ```
+
+> [!IMPORTANT]
+> On **HeadlinePart** type pages, the `group` control has no effect on the UI, like with other page types. Its primary purpose is to enable developers to group headlines for controlling visibility.
+
 
 ### Dynamic visibility
 With dynamic visibility, to change the visibility of a headline, the field must be in `group` control. Then, you set `Visible` property to the `Boolean` variable that determines the visibility.
