@@ -11,7 +11,7 @@ ms.prod: "dynamics-nav-2018"
 ---
 # Deploying and Developing for Upgrade
 
-When you upgrade [!INCLUDE[navnowlong](includes/navnowlong_md.md)] from one version to the next, whether its a cumulative update or full-version update, a platform update or application update, there will most likely be a period where customers cannot access their application and data. If this downtime is crucial for your customers, there are deployment, development, upgrade practices that you can leverage to minimize this downtime  which focus on:
+When you upgrade [!INCLUDE[navnowlong](includes/navnowlong_md.md)] from one version to the next, whether its a cumulative update or full-version update, a platform update or application update, there will most likely be a period where customers cannot access their application and data. If this downtime is crucial for your customers, there are deployment, development, and upgrade practices that you can leverage to minimize this downtime that  which focus on:
 
 -   Prioritize upgrade work to be before or after the offline window
 -   Eliminate upgrade tasks
