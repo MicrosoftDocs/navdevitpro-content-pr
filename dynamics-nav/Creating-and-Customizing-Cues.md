@@ -27,18 +27,21 @@ Field-based Cues display data that is contained in a table field. This can be ra
 
 The *normal* layout displays Cues as tiles. With this layout, Cue groups are automatically arranged to fill in the width of the workspace, which means there can be more than one group horizontally across the workspace.
 
-The *wide* layout is designed to display large values and gives you a way emphasize a set of Cues. Wide and normal cue groups can be interleaved but when *wide* group(s) precedes *normal* groups the *wide* group(s) will be placed in own section spanning the entire width of the workspace. With this in mind, although it is not required, it is a good idea to place Cue groups that use the wide layout, above those that use the normal layout.
+The *wide* layout is designed to display large values, and gives you a way emphasize a group of Cues. Wide and normal Cue groups can be interleaved. However, wide groups that precede all normal groups will appear in their own section of the workspace, and span the entire width - providing space for the large values. Wide groups that are placed after normal groups will behave just like the normal groups. With this in mind, it is good idea to place Cue groups that use the wide layout, above those that use the normal layout.
 
 > [!NOTE]  
->  The wide layout is only supported in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. 
+>  The wide layout is only supported in the [!INCLUDE[nav_web](includes/nav_web_md.md)].
+>
+> The Caption and CaptionML properties of the CueGroup control are ignored when the CueGroup layout is wide.
 
 ### Action Cues
 Action Cues act as links that perform a task or operation, like opening another page, starting a video, targeting an another resource or URL, or running code. Action-based Cues display only as tiles. They will arrange on the workspace just like field-base Cues that use the normal layout.
 
-have you tested this? I don't think that you can do this??
+<!--  have you tested this? I don't think that you can do this??
 >[!NOTE]
 >You can mix and match field-based and Action Cues in a Cue group. However, do not include Action Cues in a Cue group that uses the wide layout. If you do, the wide layout will be ignored and the Cue group will display in the normal layout. 
 
+--> 
 ## Creating field-based Cues
 The implementation of a Cue involves the following elements:
 
@@ -48,7 +51,7 @@ The implementation of a Cue involves the following elements:
   
 -   Logic that calculates the data to display in the Cue at runtime.  
   
-     The logic can consist of a combination of C/AL and [!INCLUDE[navnow](includes/navnow_md.md)] objects, such as tables, queries, and codeunits. How and where you implement the logic will depend on whether the Cue is based on a FlowField or Normal field and what you want to achieve.  
+    The logic can consist of a combination of C/AL and [!INCLUDE[navnow](includes/navnow_md.md)] objects, such as tables, queries, and codeunits. How and where you implement the logic will depend on whether the Cue is based on a FlowField or Normal field and what you want to achieve.  
   
 #### Supported data types  
 You can only base Cues on integer and decimal data types. Other data types are not supported and will not display in a Cue.  
@@ -88,7 +91,7 @@ Cues are arranged into one or more groups on the page. Each group will have its 
 2. To define a Cue group, add a control that has the Type **Group** and the Subtype **CueGroup**.
 3. Under the **Group** control, for each Cue that you want to display, add a **Field** control.
 
-   The following figure illustrates the Page Designer for a page that contains thres field-based Cues.  
+   The following figure illustrates the Page Designer for a page that contains three field-based Cues.  
   
     ![Page Designer showing Cues](media/O365-activities-cues-clip.png "Page Designer showing Cues")  
 
@@ -128,7 +131,7 @@ Similar to field-based Cues, Action Cues can be grouped together, under a common
 
 6. Configure the control to the desired operation.
 
-  For example, if it should open a page, set the control's [RunObject property] to the appropriate page. Or, set it to call a function or method.
+  For example, if it should open a page, set the control's [RunObject property](runobject-property.md) to the appropriate page. Or, set it to call a function or method.
 
 
 ## Customizing a Cue  
