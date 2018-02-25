@@ -9,40 +9,35 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
-# Creating and Customizing Cues
-This article provides an overview of Cues and the tasks involved in creating and customizing a Cue for displaying on a page the [!INCLUDE[navnow](includes/navnow_md.md)] clients.  
+# Creating Cues and Action Tiles on Role Centers
+This article provides an overview of Cues and Action tiles, and the tasks involved in creating and customizing them for displaying on Role Centers, as illustrated in the following figure.  
+
+![Cues on the Role Center](../media/Cue-overview-online.png "Cues on the Role Center")  
   
-> [!NOTE]  
->  For step-by-step instructions on many of the tasks discussed in this topic, see [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough--Creating-a-Cue-Based-on-a-FlowField.md) and [Walkthrough: Creating a Cue Based on a Normal Field and a Query](Walkthrough--Creating-a-Cue-Based-on-a-Normal-Field-and-a-Query.md).  
-  
-##  <a name="CueDesign"></a> Cue Design Overview 
+##  <a name="CueDesign"></a>Cue design 
 
-A Cue can do two things. It can provide a visual representation of aggregated business data, such as the number of open sales invoices or the total sales for the month. It can also promote an action or operation to the user. Cues are interactive, meaning that you can select the Cue to drill down to data or open another page, run code, and more. To accommodate this, there are two types of Cues, field-based Cues and Action Cues, which are illustrated in the following diagram:
-*I would be careful on choosing screenshots as we haven't fully completed the changes. Where is this taken from?*
+A Cue provides a visual representation of aggregated business data, such as the number of open sales invoices or the total sales for the month. Cues are interactive, meaning that you can select the Cue to drill down to data or open another page, run code, and more. Cues display data that is contained in a table field. This can be raw data or calculated data.
 
-![Cues on the Role Center](media/Cue-overview-online.png "Cues on the Role Center") 
+### Normal and wide layout
 
-### Field-based Cues
-Field-based Cues display data that is contained in a table field. This can be raw data or caluclated data. There are two layout options for field-based Cues: *normal* and *wide*.
+There are two layout options that influence how Cues appear in the client: *normal* and *wide*. 
 
-The *normal* layout displays Cues as tiles. With this layout, Cue groups are automatically arranged to fill in the width of the workspace, which means there can be more than one group horizontally across the workspace.
+-   The *normal* layout displays Cues as tiles. With this layout, Cue groups are automatically arranged to fill in the width of the workspace, which means there can be more than one group horizontally across the workspace.
 
-The *wide* layout is designed to display large values, such as montand gives you a way emphasize a group of Cues. Wide and normal Cue groups can be interleaved. However, wide groups that precede all normal groups will appear in their own section of the workspace, and span the entire width - providing space for the large values. Wide groups that are placed after normal groups will behave just like the normal groups. With this in mind, it is good idea to place Cue groups that use the wide layout, above those that use the normal layout.
+-   The *wide* layout is designed to display large values, such as monetary values, and gives you a way emphasize a group of Cues. Wide and normal Cue groups can be interleaved. However, wide groups that precede all normal groups will appear in their own section of the workspace, and span the entire width - providing space for the large values. Wide groups that are placed after normal groups will behave just like the normal groups. With this in mind, it is good practice to place Cue groups that use the wide layout, above those that use the normal layout.
 
 > [!NOTE]  
 >  The wide layout is only supported in the [!INCLUDE[nav_web](includes/nav_web_md.md)].
 >
 > The Caption and CaptionML properties of the CueGroup control are ignored when the CueGroup layout is wide.
 
-### Action Cues
-Action Cues act as links that perform a task or operation, like opening another page, starting a video, targeting an another resource or URL, or running code. Action-based Cues display only as tiles. They will arrange on the workspace just like field-base Cues that use the normal layout.
-
-<!--  have you tested this? I don't think that you can do this??
->[!NOTE]
->You can mix and match field-based and Action Cues in a Cue group. However, do not include Action Cues in a Cue group that uses the wide layout. If you do, the wide layout will be ignored and the Cue group will display in the normal layout. 
-
---> 
-## Creating field-based Cues
+### Supported data types  
+You can only base Cues on integer and decimal data types. Other data types are not supported and will not display in a Cue.  
+  
+### FlowFields versus normal fields  
+A Cue can be based on a FlowField or Normal field. If you base the Cue on a FlowField, then you add the logic that calculates the data for the Cue to the [CalcFormula Property](CalcFormula-Property.md) of the FlowField. If you use a Normal field, then you will typically add the logic that calculates the Cue data to a C/AL trigger or function. Unlike a FlowField, where data is extracted from tables, a Normal field enables you to extract data from other objects such as queries.  
+  
+### Creating a Cue
 The implementation of a Cue involves the following elements:
 
 -   A table object with a field that holds the data that is contained in the Cue at runtime.  
@@ -53,12 +48,7 @@ The implementation of a Cue involves the following elements:
   
     The logic can consist of a combination of C/AL and [!INCLUDE[navnow](includes/navnow_md.md)] objects, such as tables, queries, and codeunits. How and where you implement the logic will depend on whether the Cue is based on a FlowField or Normal field and what you want to achieve.  
   
-#### Supported data types  
-You can only base Cues on integer and decimal data types. Other data types are not supported and will not display in a Cue.  
-  
-#### FlowFields versus normal fields  
-A Cue can be based on a FlowField or Normal field. If you base the Cue on a FlowField, then you add the logic that calculates the data for the Cue to the [CalcFormula Property](CalcFormula-Property.md) of the FlowField. If you use a Normal field, then you will typically add the logic that calculates the Cue data to a C/AL trigger or function. Unlike a FlowField, where data is extracted from tables, a Normal field enables you to extract data from other objects such as queries.  
-  
+
 ###  <a name="CreateTable"></a> Create a table for Cue data  
 The first thing that you must do is to create a table that contains fields that will hold the calculated data to display in the Cues at runtime.  
   
@@ -112,15 +102,20 @@ Cues are arranged into one or more groups on the page. Each group will have its 
     ```  
 
 ## Creating Action Cues
-Similar to field-based Cues, Action Cues can be grouped together, under a common caption, by using the **CueGroup** subtype control. The difference is that instead adding field controls under the **CueGroup** subtype control, you create Action Cues by adding actions to the control **CueGroup** subtype control. 
 
-1. Develop or locate the functionality that you want to Action Cue to perform.
+## Action tiles
+Action tiles promote an action or operation to the user on the Role Center. Action tiles act as links that perform a task or operation, like opening another page, starting a video, targeting an another resource or URL, or running code. They will arrange on the workspace just like that use the normal layout.
 
-  For example, create the page object that you want the Action Cue to open, add C/AL code that you want the Action to run, find the URL to the video.
+Similar to Cues, Action tile can be grouped together, under a common caption, by using the **CueGroup** subtype control. The difference is that instead adding field controls under the **CueGroup** subtype control, you create Action Cues by adding actions to the control **CueGroup** subtype control. 
+
+1. Develop or locate the functionality that you want to Action tile to perform.
+
+  For example, create the page object that you want the Action tile to open, add AL code that you want the Action tile to run, find the URL to the video.
 
 2. Open the page on which you want to display the Action Cues.
 
    For example, this could be the page that you created in the previous task.
+
 3. In the location where you want the Action Cue group, add a control that has the Type **Group** and the Subtype **CueGroup**.
 4. In the **View** menu, select **Control Actions**.
 5. Add a control that has the **Type** set to **Action**.
