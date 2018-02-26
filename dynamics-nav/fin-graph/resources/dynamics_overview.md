@@ -28,5 +28,5 @@ The [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] API allows yo
 
 
 ## See Also
-[Developing Connect Apps for Dynamics 365 Business Central](developer/devenv-develop-connect-apps.md)  
+[Developing Connect Apps for Dynamics 365 Business Central](../../developer/devenv-develop-connect-apps.md)  
 
