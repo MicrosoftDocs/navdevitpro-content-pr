@@ -14,7 +14,7 @@ This article provides an overview of Cues and Action tiles, and the tasks involv
 
 ![Cues on the Role Center](../media/Cue-overview-online.png "Cues on the Role Center")  
   
-##  <a name="CueDesign"></a>Cue design 
+##  <a name="CueDesign"></a>Designing Cues 
 
 A Cue provides a visual representation of aggregated business data, such as the number of open sales invoices or the total sales for the month. Cues are interactive, meaning that you can select the Cue to drill down to data or open another page, run code, and more. Cues display data that is contained in a table field. This can be raw data or calculated data.
 
@@ -24,7 +24,7 @@ There are two layout options that influence how Cues appear in the client: *norm
 
 -   The *normal* layout displays Cues as tiles. With this layout, Cue groups are automatically arranged to fill in the width of the workspace, which means there can be more than one group horizontally across the workspace.
 
--   The *wide* layout is designed to display large values, such as monetary values, and gives you a way emphasize a group of Cues. Wide and normal Cue groups can be interleaved. However, wide groups that precede all normal groups will appear in their own section of the workspace, and span the entire width - providing space for the large values. Wide groups that are placed after normal groups will behave just like the normal groups. With this in mind, it is good practice to place Cue groups that use the wide layout, above those that use the normal layout.
+-   The *wide* layout is designed to display large values, such as monetary values, and gives you a way emphasize a group of Cues. Wide and normal Cue groups can be interleaved. However, wide groups that precede all normal groups will appear in their own section of the workspace, and span the entire width - providing space for the large values. Wide groups that are placed after normal groups will behave just like the normal groups. With this in mind, it is good practice to place Cue groups that use the wide layout, above those that use the normal layout. The wide layout is specified by setting the CuegroupLayout property to wide. 
 
 > [!NOTE]  
 >  The wide layout is only supported in the [!INCLUDE[nav_web](includes/nav_web_md.md)].
@@ -42,23 +42,20 @@ The implementation of a Cue involves the following elements:
 
 -   A table object with a field that holds the data that is contained in the Cue at runtime.  
   
--   A page object that contains the table field and displays the Cue in the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
+-   A page object that contains the table field and displays the Cue in the client.  
   
 -   Logic that calculates the data to display in the Cue at runtime.  
   
-    The logic can consist of a combination of C/AL and [!INCLUDE[navnow](includes/navnow_md.md)] objects, such as tables, queries, and codeunits. How and where you implement the logic will depend on whether the Cue is based on a FlowField or Normal field and what you want to achieve.  
-  
+    The logic can consist of a combination of AL code and objects, such as tables, queries, and codeunits. How and where you implement the logic will depend on whether the Cue is based on a FlowField or Normal field and what you want to achieve.  
 
 ###  <a name="CreateTable"></a> Create a table for Cue data  
 The first thing that you must do is to create a table that contains fields that will hold the calculated data to display in the Cues at runtime.  
   
-1.  Create a table.
+1.  Create a table object or use an existing one.  
 
-    If you already have a table for your Cues, go to the next step. 
+2.  Add fields for the Cue data.  
 
-2.  Add fields for the Cue data  
-
-    For each Cue that you want to display on the page, you must add a **Field** control in the table. When you add the **Field** control, specify the following properties:  
+    For each Cue that you want to display on the page, you must add a **Field** control in the table object. When you add the **Field** control, specify the following properties:  
   
     - Set the [Data Type Property](Data-Type-Property.md) to **Decimal**, **Integer**, or **Text**, depending on the type of data the Cue will display. 
 
@@ -72,63 +69,125 @@ The first thing that you must do is to create a table that contains fields that 
   
     To add primary key, for example, add a field with the name **Primary Key**, and then set its data type to **Code**.  
 
-###  <a name="CreatePage"></a> Add the Cues to a Page object   
-After you have a table for holding the Cue data, you create a page that you associate the table, and then add Cue fields on the page. Typically, you will create Card Part type page that will be part of the Role Center page.
 
-Cues are arranged into one or more groups on the page. Each group will have its own caption.  
+```
+table 50100 SalesInvoiceCueTable
+{
+    DataClassification = ToBeClassified;
+    
+    fields
+    {
+        field(1;PrimaryKey; Code[250])
+        {
+            
+            DataClassification = ToBeClassified;
+        }
+        field(2; SalesInvoicesOpen ; Integer)
+        {
+            FieldClass = FlowField;
+            CalcFormula = count("Sales Header" where("Document Type"=Filter(Invoice), Status=FILTER(Open)));
 
-1. Create a page that has the [SourceTable property](sourcetable-property.md) set to the Cue data table.
-2. To define a Cue group, add a control that has the Type **Group** and the Subtype **CueGroup**.
-3. Under the **Group** control, for each Cue that you want to display, add a **Field** control.
+        }
+    }
+    
+    keys
+    {
+        key(PK; PrimaryKey)
+        {
+            Clustered = true;
+        }
+    }
+}
+```
 
-   The following figure illustrates the Page Designer for a page that contains three field-based Cues.  
-  
-    ![Page Designer showing Cues](media/O365-activities-cues-clip.png "Page Designer showing Cues")  
 
-4. If you want to set the CueGroup to use the wide layout, set the [Layout property](layout-property.md) to **Wide**.
+###  <a name="CreatePage"></a> Add Cues to a Page object   
+After you have a table for holding the Cue data, you create a page that you associate the table, and then add Cue fields on the page. Typically, you will create Card Part type page that will be part of the Role Center page. Cues are arranged into one or more groups on the page. Each group will have its own caption.  
 
-5. Repeat steps 2-4 for each additional CueGroup.
+1. Create a page object that has the [SourceTable property](sourcetable-property.md) set to the Cue data table.
+2. Add a `cuegroup` control.
+3. Under the `cuegroup` control, for each Cue that you want to display, add a `field` control.
+4. If you want to set the `cuegroup` to use the wide layout, set the [CuegroupLayout property](layout-property.md) to `Wide`.
 
-4. Initialize the Cue fields.  
+    Repeat steps 2-4 to add additional Cue groups.
+5. Initialize the Cue fields.  
 
-    You must initialize the Cue fields on the page. To do this, for example, you can add the following C/AL code to the [OnOpenPage Trigger](OnOpenPage-Trigger.md).  
-  
-    ```  
-    RESET;  
-    IF NOT GET THEN BEGIN  
-      INIT;  
-      INSERT;  
-    END;  
-    ```  
+    You must initialize the Cue fields on the page. To do this, for example, you can add the following AL code to the [OnOpenPage Trigger](OnOpenPage-Trigger.md).         
 
-## Creating Action Cues
+```
+page 50105 SalesInvoiceCuePage
+{
+    PageType = CardPart;
+    SourceTable = SalesInvoiceCueTable;
 
-## Action tiles
+    layout
+    {
+        area(content)
+        {
+            cuegroup(SalesCueContainer)
+            {
+                CaptionML=ENU='Sales Invoices';
+                // CuegroupLayout=Wide;
+                field(SalesCue; SalesInvoicesOpen)
+                {
+                    CaptionML=ENU='Open';
+                    DrillDownPageId="Sales Invoice List";
+                }
+            }
+        }
+    }
+        
+    trigger OnOpenPage();
+    begin
+        RESET;
+        if not get then begin
+            INIT;
+            INSERT;
+        end;
+    end;
+}
+```
+
+## Designing Action tiles
 Action tiles promote an action or operation to the user on the Role Center. Action tiles act as links that perform a task or operation, like opening another page, starting a video, targeting an another resource or URL, or running code. They will arrange on the workspace just like that use the normal layout.
 
-Similar to Cues, Action tile can be grouped together, under a common caption, by using the **CueGroup** subtype control. The difference is that instead adding field controls under the **CueGroup** subtype control, you create Action Cues by adding actions to the control **CueGroup** subtype control. 
+Similar to Cues, Actions tile can be grouped together, under a common caption, by using the `cuegroup` control. The difference is that instead adding field controls under the `cuegroup` control, you create Action tiles by adding actions to the `cuegroup` control. 
 
+### Create an Action Tile
 1. Develop or locate the functionality that you want to Action tile to perform.
 
   For example, create the page object that you want the Action tile to open, add AL code that you want the Action tile to run, find the URL to the video.
 
-2. Open the page on which you want to display the Action Cues.
+2. Open the page on which you want to display the Action tiles. For example, this could be the page that you created in the previous task.
 
-   For example, this could be the page that you created in the previous task.
+3. In the location where you want the Action group, add a `cuegroup` control.
 
-3. In the location where you want the Action Cue group, add a control that has the Type **Group** and the Subtype **CueGroup**.
-4. In the **View** menu, select **Control Actions**.
-5. Add a control that has the **Type** set to **Action**.
+4. Configure the control to the desired operation.
 
-    The following figure illustrates the Page Designer for a page that contains three field-based and two Action Cues at the bottom.  
-  
-    ![Page Designer showing Cues](media/O365-activities-cues-with-actions-clip.png "Page Designer showing Cues")  
+    For example, if it should open a page, set the control's [RunObject property](runobject-property.md) to the appropriate page. Or, set it to call a function or method.
 
-6. Configure the control to the desired operation.
+The following code adds an Action tile that opens page xxxx by settingthe RunObject property on the action.
 
-  For example, if it should open a page, set the control's [RunObject property](runobject-property.md) to the appropriate page. Or, set it to call a function or method.
+```
+cuegroup(SalesActionontainer)
+{
+    CaptionML=ENU='New Sales Invoice';
+                
+    actions
+    {
 
-
+        action(ActionName)
+        {
+            RunObject=page "Sales Invoice";
+            trigger OnAction()
+            begin
+                        
+            end;
+        }
+    }
+}
+```
+<!--
 ## Customizing a Cue  
  This section contains information about how you can change the appearance of the Cues.  
   
@@ -168,6 +227,8 @@ You can set up a Cue to link to a page that displays details about the transacti
  You can set up Cues to include a colored bar along the top border, which changes color based on the data in the Cue.  
   
  For more information, see [Setting Up Colored Indicators on Cues](Setting-Up-Colored-Indicators-on-Cues.md).  
+
+ -->
   
 ## See Also  
  [Setting Up Cues](Setting-Up-Cues.md)   
