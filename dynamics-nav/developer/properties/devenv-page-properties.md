@@ -167,6 +167,8 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [Enabled Property](devenv-enabled-property.md)  
 
+-   [Expression Property](devenv-Sourceexpr-property.md)  
+
 -   [ExtendedDataType Property](devenv-extendeddatatype-property.md)  
 
 -   [HideValue Property](devenv-hidevalue-property.md)  
@@ -202,8 +204,6 @@ This topic lists properties that apply to the page object, controls, and actions
 -   [ShowCaption Property](devenv-showcaption-property.md)  
 
 -   [ShowMandatory Property](devenv-showmandatory-property.md)  
-
--   [SourceExpr Property](devenv-Sourceexpr-property.md)  
 
 -   [Style Property](devenv-style-property.md)  
 
