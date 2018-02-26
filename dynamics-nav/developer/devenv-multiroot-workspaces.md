@@ -18,10 +18,11 @@ caps.latest.revision: 18
 Visual Studio Code offers the multi-root workspace feature which enables grouping different project folders into one workspace. The AL Language extension also supports the multi-root functionality and allows you to work with multiple AL folders including roots and projects within one workspace. 
 
 ## Working with multiple project folders 
-Go through the following steps to work simultaneously on several related projects
+Go through the following steps to work simultaneously on several related projects.  
+
 1) On the **File** tab of Visual Studio Code, select **Add Folder to Workspace...** .  
 2) Save the workspace file if you plan to open it again.  
-    This will create a `code-workspace` file that contains an array of folders with either absolute or relative paths. If you want to share your workspace files, choose the relative paths.  
+This will create a `code-workspace` file that contains an array of folders with either absolute or relative paths. If you want to share your workspace files, choose the relative paths.  
 3) Modify the settings of your files in the **Settings** editor. You can change your user settings, global workspace settings, or individual folder settings. 
 
 For more information about multi-root workspaces in Visual Studio Code, see [Multi-root Workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces).
