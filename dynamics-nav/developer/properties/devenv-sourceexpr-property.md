@@ -14,7 +14,7 @@ author: SusanneWindfeldPedersen
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
-# SourceExpr Property
+# Expression Property
 Sets the source expression for this control.  
   
 ## Applies To  
