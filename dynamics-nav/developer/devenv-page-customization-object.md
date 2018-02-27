@@ -3,7 +3,7 @@ title: "Page Customization Object"
 description: "Description of the page customization object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 07/12/2017
+ms.date: 02/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,7 +17,10 @@ caps.latest.revision: 18
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Page Customization Object
-The page customization object in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. The page customization object has more restrictions than the [page extension object](devenv-page-ext-object.md); when you define a new page customization object, you cannot add variables, procedures, or triggers. You can add changes to the page layout and actions.
+The page customization object in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] allows you to add changes to the page layout and actions. The page customization object has more restrictions than the [page extension object](devenv-page-ext-object.md); when you define a new page customization object, you cannot add variables, procedures, or triggers. 
+
+> [!NOTE]  
+> [!INCLUDE[d365fin_navnow_supported_md](includes/d365fin_navnow_supported_md.md)]
 
 > [!NOTE]  
 > Extension objects can have a name with a maximum length of 30 characters.     
@@ -40,7 +43,6 @@ pagecustomization 70000123 MyCustomization customizes "Customer List"
         {
             Visible = false;
         }
-
         
     }
 }

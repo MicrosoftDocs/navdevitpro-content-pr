@@ -3,7 +3,7 @@ title: "How to: Create a Word Layout Report"
 description: "Describes the steps involved in creating a report that uses a Word layout."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 01/03/2018
+ms.date: 02/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,7 +17,7 @@ caps.latest.revision: 18
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # How to: Create a Word Layout Report
-When you create a new report for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], there are two things you have to think about; defining the report dataset of data items and columns, and then designing the report layout. These steps will show how to create a very simple report based on a Word layout. For more information about the report object, see [Report Object](devenv-report-object.md).
+When you create a new report, there are two things you have to think about; defining the report dataset of data items and columns, and then designing the report layout. These steps will show how to create a very simple report based on a Word layout. For more information about the report object, see [Report Object](devenv-report-object.md).
 
 ## Creating a Word layout report
 
@@ -43,7 +43,7 @@ report 50124 MyWordReport
 }
 ```
 2. Build the extension (Ctrl+Shift+B) to generate the MyWordReport.docx file.
-3. Add the **Customer** table as the data item and the **Name** field as a column to the report by adding the following lines of code:
+3. Add the **Customer** table as the data item and the **Name** field as a column to the report by adding the following lines of code. For more information about defining a dataset, see [Report Dataset](devenv-report-dataset.md).
 
 ```
   dataset
