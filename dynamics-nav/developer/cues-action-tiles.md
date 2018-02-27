@@ -10,9 +10,9 @@ ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
 # Creating Cues and Action Tiles on Role Centers
-This article provides an overview of Cues and Action tiles, and the tasks involved in creating and customizing them for displaying on Role Centers, as illustrated in the following figure.  
+This article provides an overview of Cues and Action tiles, and the tasks involved in creating and customizing them for displaying on Role Centers, as illustrated in the following figure:  
 
-![Cues on the Role Center](../media/Cue-overview-online.png "Cues on the Role Center")  
+![Cues on the Role Center](media/Cue-overview-online-v2.png "Cues on the Role Center")  
   
 ##  <a name="CueDesign"></a>Designing Cues 
 
