@@ -73,6 +73,7 @@ The first thing that you must do is to create a table that contains fields that 
   
     To add primary key, for example, add a field with the name **Primary Key**, and then set its data type to **Code**.  
 
+#### Example:
 
 ```
 table 50100 SalesInvoiceCueTable
@@ -115,8 +116,17 @@ After you have a table for holding the Cue data, you create a page that you asso
     Repeat steps 2-4 to add additional Cue groups.
 5. Initialize the Cue fields.  
 
-    You must initialize the Cue fields on the page. To do this, for example, you can add the following AL code to the [OnOpenPage Trigger](triggers/devenv-onopenpage-trigger.md).         
+    You must initialize the Cue fields on the page. To do this, for example, you can add the following AL code to the [OnOpenPage Trigger](triggers/devenv-onopenpage-trigger.md).     
 
+    ```
+          RESET;
+        if not get then begin
+            INIT;
+            INSERT;
+        end;
+    ```    
+
+#### Example 
 ```
 page 50105 SalesInvoiceCuePage
 {
@@ -169,6 +179,7 @@ Similar to Cues, Actions tile can be grouped together, under a common caption, b
 
     For example, if it should open a page, set the control's [RunObject property](properties/devenv-runobject-property.md) to the appropriate page. Or, set it to call a function or method.
 
+#### Example
 The following code adds an Action tile that opens **Sales Invoice** page.
 
 ```
