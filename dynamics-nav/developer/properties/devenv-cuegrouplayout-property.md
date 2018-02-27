@@ -22,7 +22,7 @@ Sets whether a `cuegroup` control displays in the wide layout.
 `wide` sets the `cuegroup` control to the wide layout; otherwise, the control uses the normal layout.     
   
 ## Remarks  
-For more information about the wide layout for Cues, see [Normal and wide layout for Cues](../cue-action-tiles.md#CueWideLayout).
+For more information about the wide layout for Cues, see [Normal and wide layout for Cues](../cues-action-tiles.md#CueWideLayout).
 
 ## Example
 ```
