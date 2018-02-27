@@ -61,7 +61,7 @@ The first thing that you must do is to create a table that contains fields that 
 
     For each Cue that you want to display on the page, you must add a **Field** control in the table object. When you add the **Field** control, specify the following properties:  
   
-    - Set the [Data Type property](properties/devenv-datatype-property.md) to **Decimal**, **Integer**, or **Text**, depending on the type of data the Cue will display. 
+    - Set the [Data Type property](properties/devenv-data-type-property.md) to **Decimal**, **Integer**, or **Text**, depending on the type of data the Cue will display. 
 
     - Set the [FieldClass property](properties/devenv-fieldclass-property.md) to **FlowField** or **Normal**.  
   
@@ -110,7 +110,7 @@ After you have a table for holding the Cue data, you create a page that you asso
 1. Create a page object that has the [SourceTable property](properties/devenv-sourcetable-property.md) set to the Cue data table.
 2. Add a `cuegroup` control.
 3. Under the `cuegroup` control, for each Cue that you want to display, add a `field` control.
-4. If you want to set the `cuegroup` to use the wide layout, set the [CuegroupLayout property](layout-property.md) to `Wide`.
+4. If you want to set the `cuegroup` to use the wide layout, set the `CuegroupLayout` property to `wide`.
 
     Repeat steps 2-4 to add additional Cue groups.
 5. Initialize the Cue fields.  
@@ -182,6 +182,8 @@ cuegroup(SalesActionontainer)
         action(ActionName)
         {
             RunObject=page "Sales Invoice";
+            Image=Document;
+
             trigger OnAction()
             begin
                         
@@ -234,5 +236,4 @@ You can set up a Cue to link to a page that displays details about the transacti
  -->
   
 ## See Also  
- [Setting Up Cues](Setting-Up-Cues.md)   
- [FlowFields](FlowFields.md)
+[FlowFields](devenv-flowfields.md)  
