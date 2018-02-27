@@ -14,13 +14,17 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
 # Dynamics 365 Business Central Reseller
-If you are an Dynamics 365 Reseller that wants to offer customers a business solution that fits their unique needs, there are several reasons why you should choose to resell Dynamics 365 Business Central: 
+If you are a Dynamics 365 reseller that wants to offer customers a business solution that fits their unique needs, there are several reasons why you should choose to resell Dynamics 365 Business Central: 
 
-- Reach more customers by using Microsoft AppSource to promote your packaged Consulting Services offerings or customization services. 
+- Reach more customers by using Microsoft AppSource to promote your packaged Consulting service offerings or customization services. 
 - Bundle recognized apps from Microsoft AppSource into an offering for your customers. 
 
 To obtain these goals, there are several different paths you can take: 
 
-- Bundle and provide Consulting Services offerings with the Dynamics 365 Business Central through Microsoft AppSource. Read more [here]() <!-- (7-CONSULTING) -->
-- Streamline processes and build tools with Power BI*, Microsoft Flow and PowerApps connected to Dynamics 365 Business Central. Read more [here]() <!--> (6-NOCODE) -->
+- Bundle and provide consulting services offerings with the Dynamics 365 Business Central through Microsoft AppSource. Read more [here](). <!-- (7-CONSULTING) -->
+- Streamline processes and build tools with Power BI*, Microsoft Flow and PowerApps connected to Dynamics 365 Business Central. Read more [here](). <!-- (6-NOCODE) -->
+- Use modern development tools and Extensions v2.0 to customize a specific customers experience with Dynamics 365 Business Central. 
+- Validate and apply compatible Add-on apps from AppSource onto a customers Dynamics 365 Business Central tenant. 
+- Learn more about the material in the Ready to Go program who can help you build a Business Central Offering. Read more [here](). <!-- (3-Ready2Go) -->
 
+ 
