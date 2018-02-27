@@ -15,7 +15,7 @@ caps.latest.revision: 18
 ---
 
 # Running a Container-Based Development Environment
-Dynamics 365 Business Central is available as a container-based image, ready for execution on a Windows system with Docker installed.
+Dynamics 365 Business Central is available as a container-based image, ready for execution on a Windows system with Docker installed. The container-based approach is used when you need access to both the AL development environment and the C/SIDE development environment. <!-- more explanation and intro -->
 
 ## Prerequisites for running container-based 
 Complete the following steps to set up a machine that can run a container-based development environment.
@@ -34,7 +34,7 @@ The first step to installing Docker is choosing the version of Docker that is ap
 By default Docker is set to use Linux containers. Change this by pressing right-click on the Docker tray icon and then select **Switch to Windows Containers**. After you install Docker, you must log out of Windows, then log in again, and Docker will start running automatically. 
 
 ### Run the container-based image 
-Run the following command in a Command Prompt as Administrator to run a Docker image of Microsoft Dynamics NAV:  
+Run the following command in a Command Prompt as Administrator to run a Docker image of Dynamics 365 Business Central:  
 `docker run -e accept_eula=Y -m 4G microsoft/dynamics-nav` <!-- this needs to change -->
 
 You will get the W1 country version of the latest <!-- ?--> update of the latest version of Microsoft Dynamics NAV 2016 and 2017 running on your computer. You can also run any other cumulative update (of 2016 or 2017), by specifying the version, the CU, and the country version you want as a tag: 
@@ -55,7 +55,7 @@ To see which functions are available in the `NavContainerHelper` module use the 
 
 `Write-NavContainerHelperWelcomeText`
 
-To get quickly get started, run the following command from the `NavContainerHelper` module:
+To quickly get started, run the following command from the `NavContainerHelper` module:
 
 ```new-navcontainer -accept_eula -containerName test -imageName microsoft/dynamics-nav:devpreview```
 
