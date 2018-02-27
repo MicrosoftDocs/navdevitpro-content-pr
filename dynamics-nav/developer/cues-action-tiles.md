@@ -18,7 +18,7 @@ This article provides an overview of Cues and Action tiles, and the tasks involv
 
 A Cue provides a visual representation of aggregated business data, such as the number of open sales invoices or the total sales for the month. Cues are interactive, meaning that you can select the Cue to drill down to data or open another page, run code, and more. Cues display data that is contained in a table field. This can be raw data or calculated data.
 
-### Normal and wide layout
+### <a name="CueWideLayout"></a>Normal and wide layout
 
 There are two layout options that influence how Cues appear in the client: *normal* and *wide*. 
 
