@@ -29,13 +29,13 @@ There are two layout options that influence how Cues appear in the client: *norm
 > [!NOTE]  
 >  The wide layout is only supported in the [!INCLUDE[nav_web](includes/nav_web_md.md)].
 >
-> The Caption and CaptionML properties of the CueGroup control are ignored when the CueGroup layout is wide.
+> The [Caption](properties/devenv-caption-property.md) and [CaptionML](properties/devenv-captionml-property.md) properties of the `cuegroup` control are ignored when the layout is wide.
 
 ### Supported data types  
 You can only base Cues on integer and decimal data types. Other data types are not supported and will not display in a Cue.  
   
 ### FlowFields versus normal fields  
-A Cue can be based on a FlowField or Normal field. If you base the Cue on a FlowField, then you add the logic that calculates the data for the Cue to the [CalcFormula Property](CalcFormula-Property.md) of the FlowField. If you use a Normal field, then you will typically add the logic that calculates the Cue data to a C/AL trigger or function. Unlike a FlowField, where data is extracted from tables, a Normal field enables you to extract data from other objects such as queries.  
+A Cue can be based on a FlowField or Normal field. If you base the Cue on a FlowField, then you add the logic that calculates the data for the Cue to the [CalcFormula property](properties/devenv-calcformula-property.md) of the FlowField. If you use a Normal field, then you will typically add the logic that calculates the Cue data to a C/AL trigger or function. Unlike a FlowField, where data is extracted from tables, a Normal field enables you to extract data from other objects such as queries.  
   
 ### Creating a Cue
 The implementation of a Cue involves the following elements:
@@ -46,7 +46,11 @@ The implementation of a Cue involves the following elements:
   
 -   Logic that calculates the data to display in the Cue at runtime.  
   
-    The logic can consist of a combination of AL code and objects, such as tables, queries, and codeunits. How and where you implement the logic will depend on whether the Cue is based on a FlowField or Normal field and what you want to achieve.  
+    The logic can consist of a combination of AL code and objects, such as tables, queries, and codeunits. How and where you implement the logic will depend on whether the Cue is based on a FlowField or Normal field and what you want to achieve.
+
+
+> [!NOTE]
+> The examples in this section will set up a Cue that extracts the number of open sales invoices from the **Sales Header** table. 
 
 ###  <a name="CreateTable"></a> Create a table for Cue data  
 The first thing that you must do is to create a table that contains fields that will hold the calculated data to display in the Cues at runtime.  
@@ -57,11 +61,11 @@ The first thing that you must do is to create a table that contains fields that 
 
     For each Cue that you want to display on the page, you must add a **Field** control in the table object. When you add the **Field** control, specify the following properties:  
   
-    - Set the [Data Type Property](Data-Type-Property.md) to **Decimal**, **Integer**, or **Text**, depending on the type of data the Cue will display. 
+    - Set the [Data Type property](properties/devenv-datatype-property.md) to **Decimal**, **Integer**, or **Text**, depending on the type of data the Cue will display. 
 
-    - Set the [FieldClass Property](FieldClass-Property.md) to **FlowField** or **Normal**.  
+    - Set the [FieldClass property](properties/devenv-fieldclass-property.md) to **FlowField** or **Normal**.  
   
-      If field is a FlowField, then set the [CalcFormula Property](CalcFormula-Property.md) to calculate the Cue data. For more information, see and [How to: Create, View, and Edit a Calculation Formula](How-to--Create--View--and-Edit-a-Calculation-Formula.md).  
+      If field is a FlowField, then set the `CalcFormula` property to calculate the Cue data. For more information, see and [How to: Create, View, and Edit a Calculation Formula](How-to--Create--View--and-Edit-a-Calculation-Formula.md).  
   
 3.  Add a primary key field for FlowFields  
 
@@ -100,11 +104,10 @@ table 50100 SalesInvoiceCueTable
 }
 ```
 
-
 ###  <a name="CreatePage"></a> Add Cues to a Page object   
 After you have a table for holding the Cue data, you create a page that you associate the table, and then add Cue fields on the page. Typically, you will create Card Part type page that will be part of the Role Center page. Cues are arranged into one or more groups on the page. Each group will have its own caption.  
 
-1. Create a page object that has the [SourceTable property](sourcetable-property.md) set to the Cue data table.
+1. Create a page object that has the [SourceTable property](properties/devenv-sourcetable-property.md) set to the Cue data table.
 2. Add a `cuegroup` control.
 3. Under the `cuegroup` control, for each Cue that you want to display, add a `field` control.
 4. If you want to set the `cuegroup` to use the wide layout, set the [CuegroupLayout property](layout-property.md) to `Wide`.
@@ -112,7 +115,7 @@ After you have a table for holding the Cue data, you create a page that you asso
     Repeat steps 2-4 to add additional Cue groups.
 5. Initialize the Cue fields.  
 
-    You must initialize the Cue fields on the page. To do this, for example, you can add the following AL code to the [OnOpenPage Trigger](OnOpenPage-Trigger.md).         
+    You must initialize the Cue fields on the page. To do this, for example, you can add the following AL code to the [OnOpenPage Trigger](triggers/devenv-onopenpage-trigger.md).         
 
 ```
 page 50105 SalesInvoiceCuePage
@@ -164,9 +167,9 @@ Similar to Cues, Actions tile can be grouped together, under a common caption, b
 
 4. Configure the control to the desired operation.
 
-    For example, if it should open a page, set the control's [RunObject property](runobject-property.md) to the appropriate page. Or, set it to call a function or method.
+    For example, if it should open a page, set the control's [RunObject property](properties/devenv-runobject-property.md) to the appropriate page. Or, set it to call a function or method.
 
-The following code adds an Action tile that opens page xxxx by settingthe RunObject property on the action.
+The following code adds an Action tile that opens **Sales Invoice** page.
 
 ```
 cuegroup(SalesActionontainer)
