@@ -43,7 +43,7 @@ report 50124 MyWordReport
 }
 ```
 2. Build the extension (Ctrl+Shift+B) to generate the MyWordReport.docx file.
-3. Add the **Customer** table as the data item and the **Name** field as a column to the report by adding the following lines of code:
+3. Add the **Customer** table as the data item and the **Name** field as a column to the report by adding the following lines of code. For more information about defining a dataset, see [Report Dataset](devenv-report-dataset.md).
 
 ```
   dataset
