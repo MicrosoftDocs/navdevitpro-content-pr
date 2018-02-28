@@ -1,20 +1,21 @@
 ---
-title: "Table Properties"
+title: Table and Table Extension Properties
+description: This topic lists table properties that apply to feilds of a table object.
 author: edupont04
 ms.custom: na
-ms.date: 06/27/2017
+ms.date: 11/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: cf65e1e0-f696-4aac-afbd-992cd82f98de
 ms.author: edupont
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
-# Table Properties
+# Table and Table Extension Properties
 The following topic lists properties that apply to the table object.  
 
 ## Table Object Properties  
@@ -36,7 +37,7 @@ The following topic lists properties that apply to the table object.
 ## BLOB Properties  
  The following properties apply to the **BLOB** field of a table object.  
 
- |Property Name|BLOB Object|BLOB Extension Object|
+ |Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
@@ -48,7 +49,7 @@ The following topic lists properties that apply to the table object.
 ## BigInteger Properties  
  The following properties apply to the **BigInteger** field of a table object.  
 
-|Property Name|BigInteger Object|BigInteger Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
@@ -68,6 +69,7 @@ The following topic lists properties that apply to the table object.
 |[MinValue Property](devenv-minvalue-property.md)|X||  
 |[NotBlank Property](devenv-notblank-property.md)|X||
 |[SignDisplacement Property](devenv-signdisplacement-property.md)|X||
+|[SqlTimeStamp Property](devenv-sql-timestamp-property.md)|X||
 |[TableRelation Property](devenv-tablerelation-property.md)|X||
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X|| 
@@ -76,7 +78,7 @@ The following topic lists properties that apply to the table object.
 ## Boolean Properties  
  The following properties apply to the **Boolean** field of a table object.  
 
-|Property Name|Boolean Object|Boolean Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
@@ -102,7 +104,7 @@ The following topic lists properties that apply to the table object.
 ## Code Properties  
  The following properties apply to the **Code** field of a table object.  
 
-|Property Name|Code Object|Code Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
@@ -128,7 +130,7 @@ The following topic lists properties that apply to the table object.
 ## Date Properties  
  The following properties apply to the **Date** field of a table object.  
 
-|Property Name|Date Object|Date Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
@@ -154,7 +156,7 @@ The following topic lists properties that apply to the table object.
 ## DateFormula Properties  
  The following properties apply to the **DateFormula** field of a table object.  
 
-|Property Name|DatFormula Object|DateFormula Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
@@ -175,7 +177,7 @@ The following topic lists properties that apply to the table object.
 ## DateTime Properties  
  The following properties apply to the **DataTime** field of a table object.  
 
-|Property Name|DateTime Object|DateTime Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
@@ -200,7 +202,7 @@ The following topic lists properties that apply to the table object.
 ## Decimal Properties  
  The following properties apply to the **Decimal** field of a table object.  
 
-|Property Name|Decimal Object|Decimal Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
@@ -227,7 +229,7 @@ The following topic lists properties that apply to the table object.
 ## Duration Properties  
  The following properties apply to the **Duration** field of a table object.  
 
-|Property Name|Duration Object|Duration Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
@@ -254,7 +256,7 @@ The following topic lists properties that apply to the table object.
 ## GUID Properties  
  The following properties apply to the **GUID** field of a table object.  
 
-|Property Name|GUID Object|GUID Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
@@ -275,7 +277,7 @@ The following topic lists properties that apply to the table object.
 ## Integer Properties  
  The following properties apply to the **Integer** field of a table object.  
 
-|Property Name|Integer Object|Integer Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
@@ -302,7 +304,7 @@ The following topic lists properties that apply to the table object.
 ## OemCode Properties  
  The following properties apply to the **OemCode** field of a table object.  
 
-|Property Name|OemCode Object|OemCode Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
@@ -328,7 +330,7 @@ The following topic lists properties that apply to the table object.
 ## OemText Properties  
  The following properties apply to the **OemText** field of a table object.  
 
-|Property Name|OemText Object|OemText Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
@@ -353,7 +355,7 @@ The following topic lists properties that apply to the table object.
 ## Option Properties  
  The following properties apply to the **Option** field of a table object.  
 
-|Property Name|Option Object|Option Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
@@ -381,7 +383,7 @@ The following topic lists properties that apply to the table object.
 ## RecordID Properties  
  The following properties apply to the **RecordID** field of a table object.  
 
-|Property Name|RecordID Object|RecordID Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
@@ -402,7 +404,7 @@ The following topic lists properties that apply to the table object.
 ## TableFilter Properties  
  The following properties apply to the **TableFilter** field of a table object.  
 
-|Property Name|RecordID Object|RecordID Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X|| 
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
@@ -412,7 +414,7 @@ The following topic lists properties that apply to the table object.
 ## Text Properties  
  The following properties apply to the **Text** field of a table object.  
 
-|Property Name|Text Object|Text Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||
@@ -437,7 +439,7 @@ The following topic lists properties that apply to the table object.
 ## Time Properties  
  The following properties apply to the **Time** field of a table object.  
 
-|Property Name|Time Object|Time Extension Object|
+|Property Name|Table Object|Table Extension Object|
 |-------------|-----------|---------------------|
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|X||

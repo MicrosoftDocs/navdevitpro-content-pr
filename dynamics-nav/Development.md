@@ -8,7 +8,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 98866f17-c121-45a2-8fd0-62e213a43606
 manager: edupont
 ---
@@ -26,6 +26,9 @@ Before you begin developing code for [!INCLUDE[navnowlong](includes/navnowlong_m
 -   What the differences are between developing in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)].  
 
 -   How to upload and download files between the server and the client.  
+
+> [!NOTE]
+> To develop extensions for [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[d365fin_long_md.md](includes/d365fin_long_md.md)] you use the AL language. For more information, see [Getting Started with AL](developer/devenv-get-started.md).
 
 ## Developing in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]  
 
@@ -49,6 +52,7 @@ Before you begin developing code for [!INCLUDE[navnowlong](includes/navnowlong_m
 |Learn about how to transfer files between the client and the server.|[File Handling](File-Handling.md)|
 |Learn about how to upload media, such as a JPEG or PNG image, on table records for displaying on pages and reports in the client.|[Working with Media on Records](Working-With-Media-on-Records.md)|
 |Learn about how to test an application.|[Testing the Application](Testing-the-Application.md)|
+|Learn about how to emit, collect, and view custom telemetry for your an application.|[Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md)|
 |Learn about differences between developing in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)].|[Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md)|  
 
 ## See Also

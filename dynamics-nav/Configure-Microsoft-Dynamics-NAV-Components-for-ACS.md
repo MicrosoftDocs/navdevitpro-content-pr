@@ -6,11 +6,14 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: cf1140e5-33dc-4a24-a296-e2cbad96d95d
 caps.latest.revision: 9
 ---
 # Configure Microsoft Dynamics NAV Components for ACS
+
+[!INCLUDE[ACS_md](includes/ACS_md.md)]
+
 The components to configure are the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and the client. This is either the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 > [!WARNING]  

@@ -1,12 +1,12 @@
 ---
 title: "Customizing Dynamics 365 for Sales and Dynamics NAV Integration"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 12/05/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 author: jswymer
 manager: edupont
 ---
@@ -19,9 +19,10 @@ If you have a customer relationship solution that is based on [!INCLUDE[crm](inc
 
 |**To**|**See**|  
 |------------|-------------|  
+|Get an overview of the basic concepts behind [!INCLUDE[crm](includes/crm_md.md)].|[Integration Concepts and Terminology](Dynamics-CRM-Integration-Concepts-and-Terminology.md)|
 |Learn about which [!INCLUDE[crm](includes/crm_md.md)] entities are integrated with [!INCLUDE[navnow](includes/navnow_md.md)] by default, and get an overview of the integration features.|[Integrating Dynamics 365 for Sales in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md)|  
-|Get an overview of the basic concepts behind [!INCLUDE[crm](includes/crm_md.md)].|[Integration Concepts and Terminology](Dynamics-CRM-Integration-Concepts-and-Terminology.md)|  
-|Install and enable the default [!INCLUDE[crm](includes/crm_md.md)] integration.|[Setting Up Dynamics 365 for Sales Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md)|  
+|Install and enable the default [!INCLUDE[crm](includes/crm_md.md)] integration.|[Setting Up Dynamics 365 for Sales Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md)|
 |Get an overview of customizing [!INCLUDE[crm](includes/crm_md.md)] integration to include additional [!INCLUDE[crm](includes/crm_md.md)] entities.|[Introduction to Dynamics 365 for Sales Integration Customization in Dynamics NAV](Introduction-to-Dynamics-CRM-Integration-Customization-in-Dynamics-NAV.md)|  
+|Understand mapping limitations for option values in [!INCLUDE[crm](includes/crm_md.md)] and learn how to make simple extensions to enable missing option values in automatic synchronization.|[Handling Missing Option Values in Mapping](Handling Missing Option Values in Mapping.md)|
 |Follow a step-by-step example that illustrates how to customize integration.|[Walkthrough: Customizing Dynamics 365 for Sales Integration in Dynamics NAV](Walkthrough--Customizing-Microsoft-Dynamics-CRM-Integration-in-Dynamics-NAV.md)|
-|<!--|Understand what features and tasks are available to end-users.-->|<!-- [Working with Dynamics 365 for Sales Data in Microsoft Dynamics NAV](Working-with-Dynamics-CRM-Data-in-Microsoft-Dynamics-NAV.md)-->|
+|Understand what features and tasks are available to end-users.|[Managing Customers and Sales Created in Dynamics 365 for Sales](/dynamics-nav-app/marketing-integrate-dynamicscrm)|

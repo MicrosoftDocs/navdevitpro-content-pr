@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 01/08/2018
 ms.author: solsen
 ---
 
 # Update salesQuoteLines
-Update the properties of a sales quote line object for Dynamics 365 for Financials.
+Update the properties of a sales quote line object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
@@ -96,4 +96,12 @@ Content-type: application/json
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Sales quote line](../resources/dynamics_salesquoteline.md)  
+[Get sales quote line](../api/dynamics_salesquoteline_get.md)  
+[Create sales quote line](../api/dynamics_create_salesquoteline.md)  
+[Delete sales quote line](../api/dynamics_salesquoteline_delete.md)  

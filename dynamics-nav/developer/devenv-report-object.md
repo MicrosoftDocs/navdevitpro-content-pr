@@ -1,14 +1,14 @@
 ---
 title: "Report Object"
-description: "Description of the report object."
+description: "Reports are used to print or display information from a database."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 06/07/2017
+ms.date: 02/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: solsen
 caps.latest.revision: 18
@@ -19,9 +19,14 @@ caps.latest.revision: 18
 # Report Object
 Reports are used to print or display information from a database. You can use a report to structure and summarize information, and to print documents, such as sales quotes and invoices.
 
-Creating a report for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] consists of two primary tasks; the first task is to create the underlying data model and the next is to define the visual layout that displays the data. The report object defines the underlying data model and specifies which database tables and fields to pull data from. When the report is run, that data is displayed in a specified layout; the visual layout, which determines the content and format of a report when it is viewed and printed.
+Creating a report consists of two primary tasks; the first task is to create the underlying data model and the next is to define the visual layout that displays the data. The report object defines the underlying data model and specifies which database tables and fields to pull data from. When the report is run, that data is displayed in a specified layout; the visual layout, which determines the content and format of a report when it is viewed and printed. 
 
-You build the layout of a report by arranging data items and columns, and specifying the general format, such as text font and size. There are two types of report layouts; client report definition, also called RDCL layouts and Word layouts. RDLC layouts are defined in Visual Studio Report Designer or Microsoft SQL Server Reporting Services Report Builder. Word layouts are created using Word. Word layouts are based on a Word document that includes a custom XML part representing the report dataset.
+For more information about defining database tables and fields, see [Defining a Report Dataset](devenv-report-dataset.md).
+
+You build the layout of a report by arranging data items and columns, and specifying the general format, such as text font and size. There are two types of report layouts; client report definition, also called RDL layouts and Word layouts. RDL layouts are defined in Visual Studio Report Designer or Microsoft SQL Server Reporting Services Report Builder. Word layouts are created using Word. Word layouts are based on a Word document that includes a custom XML part representing the report dataset. 
+
+> [!NOTE]  
+> Extension objects can have a name with a maximum length of 30 characters.      
 
 ## Snippet support
 Typing the shortcut ```treport``` will create the basic layout for a report object when using the AL Extension in Visual Studio Code.
@@ -219,8 +224,9 @@ report 70010101 "Customer List"
 ```
 
 ## See Also
-[How to: Create a Report](devenv-howto-report-layout.md)  
+[How to: Create an RDL Layout Report](devenv-howto-rdl-report-layout.md)  
+[How to: Create a Word Layout Report](devenv-howto-report-layout.md)  
 [Page Extension Object](devenv-page-ext-object.md)   
 [Page Properties](properties/devenv-page-property-overview.md)  
 [Developing Extensions](devenv-dev-overview.md)  
-[Developer Reference](devenv-reference-overview.md)  
+[AL Development Environment](devenv-reference-overview.md)  

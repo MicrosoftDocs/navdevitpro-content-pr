@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 939606f2-3092-4f14-9faf-c99a3499a58d
 caps.latest.revision: 17
 ---
@@ -82,6 +82,7 @@ For a control add-in to work on all display targets there has to be a manifest. 
 </Manifest>  
 
 ```  
+
 ### Manifest elements overview
 |  Element   |  Description  |
 |--------|---------------|
@@ -89,12 +90,12 @@ For a control add-in to work on all display targets there has to be a manifest. 
 |`<ScriptUrls>`| Includes references to other JavaScripts from the manifest. In this case the `<ScriptUrls>` element points to online map controls.|
 | `<StyleSheetUrls>`| Contains references to style sheets from external web sites.|
 |`<Script>`|Contains the actual initialization code for the control add-in. The code must be written inside a `<![CDATA[]]>` element to be parsed as code. The `Microsoft.Dynamics.NAV.InvokeExtensibilityMethod` is described in more detail in the reference documentation. For more information, see [InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md).  |
-| `<RefreshScript>`| Used for refreshing the control add-in when the user refreshes the page by using F5 or if the [RefreshOnActivate](RefreshOnActivate-Property.md) is called from code.|
-| `<RecreateScript>`| Used for reloading the control add-in script in following instances:<ul><li>In a list in a FasTab, when the user selects **Show More** or **Show Less**.</li><li>In Designer, when the user switches the display target.</li></ul>.  If this element is not defined, then the `<Script>` is used.|
+| `<RefreshScript>`| Used for refreshing the control add-in when the user refreshes the page by using F5 or if the [RefreshOnActivate](RefreshOnActivate-Property.md) is property is set on the page.|
+| `<RecreateScript>`| Used for reloading the control add-in script in following instances:<ul><li>In a FastTab, when the user selects **Show More** or **Show Less**. Applies to the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] only.</li><li>In Designer, when the user switches the display target. Applies to the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] only.</li></ul>If this element is not defined, then the `<Script>` elememt is used. This element only pertains to the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)].|
 |`<RequestedHeight>` and `<RequestedWidth>`|Determine the minimum resize value of the control add-in. These are set to definite sizes. It is recommended to apply some size to the add-in using these elements.|
 | `<VerticalStretch>` and `<HorizontalStretch>`| Determine how the control add-in behaves in the client when the window it is displayed in is resized. The default value is **false** which means that the control add-in is not resized vertically, or horizontally. The value **true** means that the control add-in is resized vertically, or horizontally. |
-|`<VerticalShrink>` and `<HorizontalShrink>`  | Specifies that the control add-in can be made smaller vertically and horizontally.al. |
-|`<AllowCaption>`|The `<AllowCaptions>` element specifies whether to display the caption that is specified by the [CaptionML Property](CaptionML-Property.md) of the page field control that the control add-in uses.<br /><br />Set to `true` to display the caption; `false` to not display the caption, which case the control add-in will use all the available space. <br /><br />The caption will only display if the [ShowCaption property](ShowCaption-Property.md) of the field control is set to `Yes` (`true`).|
+|`<VerticalShrink>` and `<HorizontalShrink>`  | Specifies that the control add-in can be made smaller vertically and horizontally. |
+|`<AllowCaption>`|Specifies whether to display the caption that is specified by the [CaptionML Property](CaptionML-Property.md) of the page field control that the control add-in uses.<br /><br />Set to `true` to display the caption; `false` to not display the caption, in which case the control add-in will use all the available space. `false` is the default setting.<br /><br />The caption will only display if the [ShowCaption property](ShowCaption-Property.md) of the field control is set to `Yes` (`true`).|
 
 ## Script Code in a Separate File  
  Code that is called from C/AL code must be put in a separate file under the *\\Script* folder. The code below is called from the manifest file and initializes and loads the map.  

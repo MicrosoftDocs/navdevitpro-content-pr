@@ -8,7 +8,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ---
 # Upgrading Extensions V2
 This article provides information about how to make a newer version of extension upgrade available on tenants. The first phase of this process is to develop the extension for upgrading, which means adding code to upgrade data from the previous extension version. Once you have the upgrade code in place, you can publish and synchronize the new version, and the run the data upgrade.
@@ -91,7 +91,7 @@ codeunit 70000001 MyUpgradeCodeunit
 ```
 
 ## Running the upgrade for the new extension version
-To upgrade to the new extension version, you use the Sync-NAVApp and Start-NAVAppDataUpgrade cmdlets of the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)] to synchronize table schema changes in the extension with the SQL database and run the data upgrade code.
+To upgrade to the new extension version, you use the [Sync-NavApp](https://go.microsoft.com/fwlink/?linkid=846311) and [Start-NAVAppDataUpgrade](https://go.microsoft.com/fwlink/?linkid=849315) cmdlets of the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] to synchronize table schema changes in the extension with the SQL database and run the data upgrade code.
 
 1.  Publish the new extension version. For simplicity, this example assumes the extension is not signed, which is not allowed with [!INCLUDE[d365fin_md](includes/d365fin_md.md)] and is not recommended with an on-premise production environment.
 
@@ -116,7 +116,7 @@ To upgrade to the new extension version, you use the Sync-NAVApp and Start-NAVAp
 
 ## See Also  
 [Developing Extensions](devenv-dev-overview.md)  
-[Getting Started](devenv-get-started.md)
+[Getting Started with AL](devenv-get-started.md)  
 [How to: Publish and Install an Extension](devenv-how-publish-and-install-an-extension-v2.md)  
 [Converting Extensions V1 to Extensions V2](devenv-upgrade-v1-to-v2-overview.md)  
 [Sample Extension](devenv-extension-example.md)  

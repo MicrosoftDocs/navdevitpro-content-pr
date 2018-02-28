@@ -3,12 +3,19 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
           "../**",
-          "**/includes/**"
+          "**/includes/**",
+           "**/_themes/**",
+           "**/_themes.pdf/**",
+           "README.md",          
+           "LICENSE",
+           "LICENSE-CODE",
+           "ThirdPartyNotices" 
         ]
       }
     ],
@@ -30,8 +37,11 @@
     "externalReference": [],
     "globalMetadata": {
       "author": "jswymer", 
+      "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "searchScope": ["DynamicsNAV"],
-      "titleSuffix": "Dynamics NAV"},
+      "titleSuffix": "Dynamics NAV",
+      "breadcrumb_path": "/dynamics-nav/bread/toc.json"
+    },
     "fileMetadata": {},
     "template": [
       null

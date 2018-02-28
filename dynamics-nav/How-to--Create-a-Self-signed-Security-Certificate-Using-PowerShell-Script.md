@@ -1,17 +1,18 @@
 ---
-title: "How to: Create a Self-signed Security Certificate Using PowerShell Script"
+title: Self-signed Security Certificate
+description: Create a self-signed certificate using PowerShell cmdlet to help secure the communication between the Server and Web Client in Dynamics NAV.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 227a75d5-2eed-4a88-acea-1a280aaef027
 caps.latest.revision: 13
 manager: edupont
 ---
-# How to: Create a Self-signed Security Certificate Using PowerShell Script
+# Creating Self-signed Security Certificate Using PowerShell Script
 With the `New-NavSelfSignedCertificate` PowerShell cmdlet, you can create a self-signed certificate to help secure the communication between the [!INCLUDE[nav_server](includes/nav_server_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
  Running the `New-NavSelfSignedCertificate` takes several parameters. One of these parameters is `MakeCertExePath`. This parameter must be filled in with the file path of the Windows SDK MakeCert.exe file. Typically, this file can be found under *C:\\Program Files \(x86\)\\Windows Kits\\8.1\\bin\\x86\\makecert.exe*. If you do not have a Windows 7.1 or 8.1 SDK on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer, you can download this from [MSDN](http://go.microsoft.com/fwlink/?LinkId=335897).  

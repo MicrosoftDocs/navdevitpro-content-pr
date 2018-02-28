@@ -1,18 +1,21 @@
 ---
-title: "How to: Create an Extension Package"
-author: edupont04
+title: Create Extension Package
+description: When you developed a Dynamics NAV extension, the next step is to wrap your new .TXT and .DELTA files into a .NAVX file, the packageing format for extensions. 
+author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/15/2017
+ms.date: 01/22/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: c3403c71-52c4-4cd9-a8c4-22499bd78cd1
-ms.author: edupont
+ms.author: solsen
 ---
 
-# How to: Create an Extension Package
+# Creating an Extension Package in Dynamics NAV
+[!INCLUDE[nav_ext1_not_supported](includes/nav_ext1_not_supported.md)]
+
 When you have developed a [!INCLUDE[navnow](includes/navnow_md.md)] extension, the next step is to wrap your new .TXT and .DELTA files into a .NAVX file, the packaging format for extensions. The package includes the application objects and metadata that describes your extension, such as name and version.  
 
 ### To create the extension manifest  
@@ -43,7 +46,7 @@ The New-NAVAppManifest cmdlet creates an in-memory Manifest object.
 New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12"  
 ```  
 
-You can either persist this object to a file and then check it in to source control by using `New-NAVAppManifestFile`, or you can pass it directly to [!INCLUDE[wps_2_md](includes/wps_2_md.md)] `New-NAVAppPackage` <!-- LINK CMDLET --> as described in the next step.
+You can either persist this object to a file and then check it in to source control by using `New-NAVAppManifestFile`, or you can pass it directly to [!INCLUDE[wps_2_md](includes/wps_2_md.md)] `New-NAVAppPackage` as described in the next step.
 
 ```  
 New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12" | New-NavAppManifestFile -Path proseware.xml  
@@ -122,6 +125,8 @@ SignTool sign /n Prosewaretest “C:\NAV\Extension\Proseware.navx”
 >  If you want to publish an unsigned extension package, you need explicitly state that by using the *–SkipVerification* parameter on the `Publish-NAVApp` cmdlet.  
 
 ## See Also  
+[Getting Started](developer/devenv-get-started.md)  
+<!-- 
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
  [Manifest Overview](Manifest-Overview.md)  
  [How to: Develop an Extension](How-to--Develop-an-Extension.md)  
@@ -132,3 +137,4 @@ SignTool sign /n Prosewaretest “C:\NAV\Extension\Proseware.navx”
  [Development Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626875)  
  [Authenticode](https://msdn.microsoft.com/en-us/library/ms537359\(VS.85\).aspx)  
  [Introduction to Code Signing](https://msdn.microsoft.com/en-us/library/ms537361\(v=vs.85\).aspx)  
+-->

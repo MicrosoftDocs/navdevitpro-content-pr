@@ -1,17 +1,18 @@
 ---
-title: "How to: Configure Microsoft Report Viewer for the Microsoft Dynamics NAV Web Client"
+title: Microsoft Report Viewer Web Client Configuration
+description: Dynamics NAV reports should be configured by adding the ASP.NET web handler file to the web.config file for Microsoft Report Viewer to display reports.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 4d817dd2-4a6d-4728-a2bc-a7a19f371be6
 caps.latest.revision: 26
 manager: edupont
 ---
-# How to: Configure Microsoft Report Viewer for the Microsoft Dynamics NAV Web Client
+# Configuring Microsoft Report Viewer for Dynamics NAV Web Client
 The [!INCLUDE[nav_web](includes/nav_web_md.md)] uses Microsoft Report Viewer to display [!INCLUDE[navnow](includes/navnow_md.md)] reports. Before you can do this, Microsoft Report Viewer must be configured on a web site of  the [!INCLUDE[nav_web](includes/nav_web_md.md)]. To configure Microsoft Report Viewer, you add the ASP.NET web handler file for Microsoft Report Viewer to the web.config file of the [!INCLUDE[nav_web](includes/nav_web_md.md)] site.  
   
 > [!NOTE]  

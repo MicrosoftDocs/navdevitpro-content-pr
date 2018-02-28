@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 author:  jswymer
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ---
 # Updating Report Layouts to Dataset Changes
 When you make changes to the report dataset, the report layouts that are used on the report must to be updated to the changes. The process for updating report layouts is different for built-in layouts and custom layouts. For an explanation of built-in and custom layouts, see [Built-in and Custom Report Layouts](managing-report-layouts.md).  
@@ -24,7 +24,7 @@ When you make changes to the report dataset, the report layouts that are used on
 
      The report layout update feature in the [!INCLUDE[navnow](includes/navnow_md.md)] client enables end-users to update the custom reports layouts. The report update feature can handle many types of changes to a report dataset, such as adding or renaming a field \(column\). However, similar to built-in report layouts, there are some changes that cannot be handled by the report update feature. To fix these changes from the client, the user will have to open and modify the report layout manually.  
 
-     For more information about updating custom report layouts from the [!INCLUDE[navnow](includes/navnow_md.md)] client, see [Updating Report Layouts](managing-report-Layouts.md#UpdateCustomLayouts).  
+     For more information about updating custom report layouts from the [!INCLUDE[navnow](includes/navnow_md.md)] client, see [Updating Report Layouts](managing-report-Layouts.md).  
 
 -   Programmatically updating custom report layouts using upgrade codeunits  
 
@@ -34,4 +34,4 @@ When you make changes to the report dataset, the report layouts that are used on
 
 ## See Also   
  [Designing RDLC Report Layouts](Designing-RDLC-Report-Layouts.md)   
- [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)
+ [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)  

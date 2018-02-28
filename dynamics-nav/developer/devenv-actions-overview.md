@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: cb249654-c9be-482b-9a25-c26d7f229fc2
 caps.latest.revision: 44
 author: SusanneWindfeldPedersen
@@ -79,8 +79,7 @@ Pages can have the following actions.
 ### Home Items  
  Home Items are actions that appear under the Home button, on the Role Center navigation pane. This navigation has a tree structure, and each node in the tree links to a list page.  
   
- The user Role Center is like a home page, and home items in the navigation pane are links to the user’s most useful list pages. <!-- For more information, see [Setting Up the Home Button and Home Items](Setting-Up-the-Home-Button-and-Home-Items.md)  
- -->
+ The user Role Center is like a home page, and home items in the navigation pane are links to the user’s most useful list pages. <!-- For more information, see [Setting Up the Home Button and Home Items](Setting-Up-the-Home-Button-and-Home-Items.md)  -->
 
 ### Activity Buttons  
  If there are too many Home items to fit on the Role Center without scrolling, then activity buttons can be used to group other important processes together.  
@@ -122,9 +121,8 @@ if confirm('Are you sure you want to call this codeunit?', true) then begin
 end;        
   
 ```  
-<!-- 
-## See Also  
 
- [Walkthrough: Adding Actions to a Customer List Page](Walkthrough--Adding-Actions-to-a-Customer-List-Page.md)   
- [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md)   
- [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md) -->
+## See Also  
+[Differences in the Dynamics NAV Development Environments](devenv-differences.md)  
+[AL Development Environment](devenv-reference-overview.md)  
+[Developing Extensions in AL](devenv-dev-overview.md)  

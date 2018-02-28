@@ -43,8 +43,8 @@ The code requires that you create the following C/AL variable.
 
 
 ```
-    MySessionSettings.INIT
-    MySessionSettings.LANGUAGE(1030);
+    MySessionSettings.INIT;
+    MySessionSettings.LANGUAGEID(1030);
     MySessionSettings.REQUESTSESSIONUPDATE(false);
 ```  
 

@@ -1,17 +1,18 @@
 ---
-title: "How to: Define Primary and Secondary Keys"
-ms.custom: na
-ms.date: 06/05/2016
+title: Set Primary and Secondary Keys
+description: When you create a table in Table Designer, the field with the lowest field number sets the primary key. Use this procedure to define a different primary key.
+ms.custom: na 
+ms.date: 12/06/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: cf31b59c-3436-48cb-ae78-c8e03a80ca92
 caps.latest.revision: 10
 manager: edupont
 ---
-# How to: Define Primary and Secondary Keys
+# Define Primary and Secondary Keys
 A maximum of 20 distinct fields can be used to define a primary key. The number of fields used in the primary key limits the number of fields in the secondary keys. Fields used by one key can also be used in another key; however, no more than 20 unique fields can be used to create primary or secondary keys.  
   
  This means that if your primary key includes four distinct fields, your secondary keys can include these four fields, and at most 16 other fields. Correspondingly, if your primary key consists of 20 distinct fields, then your secondary keys must consist only of combinations of these fields.  

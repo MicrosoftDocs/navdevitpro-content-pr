@@ -1,6 +1,6 @@
 ---
 title: taxGroups resource type | Microsoft Docs
-description: A tax group object in Dynamics 365 for Financials. 
+description: A tax group object in Dynamics 365 for Finance and Operations, Business edition. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,16 +10,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 01/08/2018
 ms.author: solsen
 ---
 
 # taxGroups resource type
-Represents a taxGroups resource type in Dynamics 365 for Financials.
+Represents a taxGroups resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
 |[GET taxGroups](../api/dynamics_taxGroups_get.md)|taxGroups|Gets a tax group object.|
@@ -54,4 +55,12 @@ Here is a JSON representation of the taxGroup.
 ```
 
 ## See Also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../api/dynamics_graph_reference.md)  
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Get tax groups](../api/dynamics_taxgroups_get.md)  
+[Create tax groups](../api/dynamics_create_taxgroups.md)  
+[Update tax groups](../api/dynamics_taxgroups_update.md)  
+[Delete tax groups](../api/dynamics_taxgroups_delete.md)  

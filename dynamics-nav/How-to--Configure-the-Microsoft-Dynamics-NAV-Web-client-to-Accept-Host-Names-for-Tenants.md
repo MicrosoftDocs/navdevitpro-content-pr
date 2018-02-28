@@ -1,17 +1,18 @@
 ---
-title: "How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants"
+title: Web Client Configuration for Tenants
+description: To deploy the Dynamics NAV Web Client in a multitenant development architecture, URLs must specify the tenant ID to access a specific tenant.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: eb87ee8c-be21-4fed-a5f7-2229c4101c61
 caps.latest.revision: 6
 ---
-# How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants
-If you deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in a multitenant deployment architecture, URLs that must access a specific tenant must specify the tenant ID. However, the [!INCLUDE[nav_web](includes/nav_web_md.md)] can be accessed from URLs that specify a host name. If your deployment must support host names for tenants, then you must enable the corresponding URL rewrite rule in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
+# Configuring Dynamics NAV Web Client to Accept Host Names for Tenants
+If you deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in a multitenant deployment architecture, URLs that must access a specific tenant must specify the tenant ID. However, the [!INCLUDE[nav_web](includes/nav_web_md.md)] can be accessed from URLs that specify a host name. If your deployment must support host names for tenants, then you must enable the corresponding URL rewrite rule in the web.config file for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
   
 ### To enable the URL rewrite rule to configure the [!INCLUDE[nav_web](includes/nav_web_md.md)] to accept host names for tenants  
   

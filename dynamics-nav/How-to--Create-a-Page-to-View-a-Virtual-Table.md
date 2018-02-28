@@ -1,17 +1,18 @@
 ---
-title: "How to: Create a Page to View a Virtual Table"
+title: Create a Page to View Virtual Table
+description: To view a virtual table, you create a list page based on the virtual tables, since they are not stored in the database, you cannot view them directly. 
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 11/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 7bc4f22f-a4de-400e-96d2-936df880b89c
 caps.latest.revision: 4
 manager: edupont
 ---
-# How to: Create a Page to View a Virtual Table
+# Creating a Page to View a Virtual Table
 Virtual tables are not stored in the database, therefore you cannot view them directly. To view a virtual table, you must create a list page that is based on the virtual table.  
   
 ### To create a page to view a virtual table  

@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 01/08/2018
 ms.author: solsen
 ---
 
 # Update taxGroups
-Update the properties of a tax groups object for Dynamics 365 for Financials.
+Update the properties of a tax groups object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
@@ -70,4 +70,12 @@ Content-type: application/json
 
 
 ## See Also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../api/dynamics_graph_reference.md)  
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Tax groups](../resources/dynamics_taxgroups.md)  
+[Get tax groups](../api/dynamics_taxgroups_get.md)  
+[Create tax groups](../api/dynamics_create_taxgroups.md)  
+[Delete tax groups](../api/dynamics_taxgroups_delete.md)  

@@ -1,16 +1,19 @@
 ---
-author: edupont04
+author: SusanneWindfeldPedersen
 title: "Upgrading Extensions"
 ms.custom: na
-ms.date: 11/03/2016
+ms.date: 01/22/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
-ms.author: edupont
+ms.prod: "dynamics-nav-2018"
+ms.author: solsen
 ---
+
 # Upgrading Extensions
+[!INCLUDE[nav_ext1_not_supported](includes/nav_ext1_not_supported.md)]
+
 This topic provides information about how you can upgrade an existing extension after making changes.  
 
 ## Overview
@@ -73,6 +76,4 @@ You must include `OnNavAppUpgradePerDatabase` or `OnNavAppUpgradePerCompany` fun
 For detailed instructions about how to write upgrade code, see [How to: Write Extension Upgrade Code](extensions-upgrade-howto.md).
 
 ## See Also  
-[Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
-[How to: Develop an Extension](How-to--Develop-an-Extension.md)  
-[How to: Write Extension Upgrade Code](extensions-upgrade-howto.md)
+[Getting Started](developer/devenv-get-started.md)  

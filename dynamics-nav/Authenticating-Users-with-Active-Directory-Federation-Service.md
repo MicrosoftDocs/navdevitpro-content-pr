@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
 # Authenticating Users with Active Directory Federation Services
@@ -158,7 +158,7 @@ JWT tokens are not supported by AD FS 2.0 or [!INCLUDE[navcrete_md](includes/nav
 To setup [!INCLUDE[navnow_md](includes/navnow_md.md)] for ADFS authentication, you must modify the configuration of the [!INCLUDE[nav_server](includes/nav_server_md.md)], [!INCLUDE[nav_web_md](includes/nav_web_md.md)], and [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)]s.
 
 ### Dynamics NAV Server instance setup
-The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configured to allow claims based authentication. You can do this by using the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)], the [Set-NAVServerConfiguration cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVServerConfiguration.md) in the [!INCLUDE[navnow_md](includes/navnow_md.md)] Administration Shell, or by modifying the server instance's CustomSettings.config file directly.
+The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configured to allow claims based authentication. You can do this by using the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)], the [Set-NAVServerConfiguration cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/Set-NAVServerConfiguration) in the [!INCLUDE[navnow_md](includes/navnow_md.md)] Administration Shell, or by modifying the server instance's CustomSettings.config file directly.
 
 1.  Set the **Credential Type** (ClientServicesCredentialType) to ```NavUserPassword``` or ```AccessControlService```.
     -   If you set this to ```NavUserPassword```, client users can use either NavUserPassword or claims based authentication to access [!INCLUDE[navnow](includes/navnow_md.md)]. The CustomSetting.config file should include the following line:
@@ -190,7 +190,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
 4.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
     >[!TIP]
-    >You can use the [Set-NAVServerInstance cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVServerInstance.md) to restart the service instance.
+    >You can use the [Set-NAVServerInstance cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/Set-NAVServerInstance) to restart the service instance.
 
 ### Dynamics NAV Web Client setup
 You configure the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] by modifying it's [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].
@@ -204,7 +204,7 @@ Change the **ClientServicesCredentialType** setting to ```AccessControlService``
 The configuration changes are automatically picked up by the Internet Information Service (IIS). For more information about modifying the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)], see [Configuring Dynamics NAV Web Client by Modifying the Navsettings.json File.md](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md)
 
 >[!TIP]
->Instead of reconfiguring the existing web client, consider using the [New-NAVWebServerInstance cmdlet](Microsoft.Dynamics.Nav.Management/New-NAVWebServerInstance.md) in the Dynamics NAV Administration Shell to add an additional web client instance, and leave the existing instance running NavUserPassword authentication.
+>Instead of reconfiguring the existing web client, consider using the [New-NAVWebServerInstance cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/New-NAVWebServerInstance) in the Dynamics NAV Administration Shell to add an additional web client instance, and leave the existing instance running NavUserPassword authentication.
 
 ### Dynamic NAV Windows client setup (optional)
 You configure the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] by modifying the ClientUserSettings.config file for each client installation.

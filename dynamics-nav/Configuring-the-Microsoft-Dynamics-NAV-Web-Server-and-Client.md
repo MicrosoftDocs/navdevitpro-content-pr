@@ -7,7 +7,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
 # Configuring the Microsoft Dynamics NAV Web Server and Client
@@ -35,24 +35,24 @@ There are different ways to configure the [!INCLUDE[nav_web_server](includes/nav
      <th>[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]</th>
      </tr>
      <tr>
-     <td>Get-NAVWebServerInstance](Get-NAVWebServerInstance.md)</td>
+     <td>[Get-NAVWebServerInstance](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/Get-NAVWebServerInstance)</td>
      <td>Gets the information about the instances that are registered on a computer.</td>
      </tr>
-     <td>[New-NAVWebServerInstance](New-NAVWebServerInstance.md)</td>
+     <td>[New-NAVWebServerInstance](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/New-NAVWebServerInstance)</td>
      <td>Creates a new web server instance and binds this instance to a [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)] instance.</td>
      </tr>
      <tr>
     </tr>
-     <td>[Remove-NAVWebServerInstance](Remove-NAVWebServerInstance.md)</td>
+     <td>[Remove-NAVWebServerInstance](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/Remove-NAVWebServerInstance)</td>
      <td>Removes an existing instance.</td>
      </tr>
     </tr>
-     <td>Set-NAVWebServerInstanceConfiguration](Set-NAVWebServerInstanceConfiguration.md)</td>
+     <td>[Set-NAVWebServerInstanceConfiguration](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/Set-NAVWebServerInstanceConfiguration)</td>
      <td>Specifies configuration values for a named web server instance. You can use this cmdlet to configure all the settings in the  </td>
      </tr>
      </table>  
 
-     For more information, see [Microsoft.Dynamics.Nav.Management Module](Microsoft.Dynamics.Nav.Management/microsoft.dynamics.nav.management.md)
+     For more information, see [Microsoft.Dynamics.Nav.Management Module](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management)
 
 ## Typical Tasks
 

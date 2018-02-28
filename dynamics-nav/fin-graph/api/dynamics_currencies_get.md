@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 01/03/2018
 ms.author: solsen
 ---
 
 # Get currencies
-Retrieve the properties and relationships of a currency object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a currency object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
@@ -65,4 +65,11 @@ Here is an example of the response.
 
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Currencies](../resources/dynamics_currencies.md)  
+[Post currencies](dynamics_create_currencies.md)  
+[Patch currencies](dynamics_currencies_update.md)  
+[Delete currencies](dynamics_currencies_delete.md)  

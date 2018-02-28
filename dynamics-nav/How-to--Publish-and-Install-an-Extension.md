@@ -5,12 +5,14 @@ ms.date: 27/07/2017
 ms.reviewer: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: aee81285-2312-4cb1-8d51-3bf82c28806b
 ms.author: edupont
 ---
 
 # How to: Publish and Install an Extension
+[!INCLUDE[nav_ext1_not_supported](includes/nav_ext1_not_supported.md)]
+
 To make your extension available to users, the package must be published to a specific [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The extension can be installed for one or more tenants. This content applies to Extensions V1.0. For information about Extensions v2.0, see [How to: Publish and Install an Extension V2.0](developer/devenv-how-publish-and-install-an-extension-v2.md) and [Developing Extensions Using the AL Development Environment](developer/devenv-dev-overview.md).
 
 ### To publish or remove an extension  
@@ -63,6 +65,8 @@ To make your extension available to users, the package must be published to a sp
     >  When you uninstall an extension that includes tables and fields, this impacts the database schema and any data that the tables and fields contain. For more information, see [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md).  
 
 ## See Also  
+[Getting Started](developer/devenv-get-started.md)  
+<!--
 [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
 [How to: Develop an Extension](How-to--Develop-an-Extension.md)   
 [How to: Create an Extension Package](How-to--Create-an-Extension-Package.md)   

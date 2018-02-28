@@ -1,8 +1,6 @@
 ---
 title: dimensions resource type | Microsoft Docs
-description: A dimension in Dynamics 365 for Financials.
-services: project-madeira
-documentationcenter: ''
+description: A dimension in Dynamics 365 for Finance and Operations, Business edition.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-financials
@@ -10,15 +8,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ems.date: 07/11/2017
+ms.date: 01/05/2018
 ms.author: solsen
 ---
 
 # Dimensions resource type
-Represents a dimension in Dynamics 365 for Financials.
+Represents a dimension in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
 | Method       | Return Type  |Description|
 |:-------------|:-------------|:----------|
 |[GET dimensions](../api/dynamics_dimension_get.md)|dimension|Gets a dimension.|
@@ -50,4 +50,8 @@ Here is a JSON representation of the resource.
 
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Get dimensions](../api/dynamics_dimension_get.md)  

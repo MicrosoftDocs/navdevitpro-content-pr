@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV 2018 Development Shell
+Microsoft Dynamics NAV Development Shell

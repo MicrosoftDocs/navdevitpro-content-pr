@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: e394abcd-3510-4cb7-b867-b30ddc32cb6f
 caps.latest.revision: 16
 author: SusanneWindfeldPedersen
@@ -107,6 +107,6 @@ This topic lists properties that apply to the Codeunit object, variables, text c
 
 ##See Also
 [Developing Extensions](../devenv-dev-overview.md)  
-[Developer Reference](../devenv-reference-overview.md)  
+[AL Development Environment](../devenv-reference-overview.md)  
 [Table and Table Extension Properties](devenv-table-properties.md)  
 [Page and Page Extension Properties Overview](devenv-page-property-overview.md)

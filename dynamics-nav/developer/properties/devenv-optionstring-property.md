@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: c77a75d8-8bff-42fd-8b1a-4eaf745be70f
 caps.latest.revision: 10
 author: SusanneWindfeldPedersen
@@ -37,4 +37,6 @@ Sets the option values for a field, text box, or variable. OptionString is multi
  This property setting is checked recursively during validation.  
 
 ## See Also  
- [OptionCaptionML Property](devenv-optioncaptionml-property.md)
+ [OptionCaptionML Property](devenv-optioncaptionml-property.md)  
+ [Properties](devenv-properties.md)  
+ [Table Properties](devenv-table-properties.md)  
