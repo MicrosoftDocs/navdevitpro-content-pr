@@ -32,14 +32,14 @@ Technically and architecturally an Embed app can be constructed and composed by 
 - Including Add-on apps provided by other ISV’s and created specifically to enhance and extend the capabilities of Dynamics 365 Business Central – for example payment and shipping functionality. 
 - Creating your own extensions and customizations to Dynamics 365 Business Central. 
  
-Being able to customize the Dynamics 365 Business Central experience is one of the unique properties of Dynamics 365 Business Central. To customize and extend Dynamics 365 Business Central you can use Extensions v2.0 and the modern development tools with Visual Studio Code <!--  (see more here [note: here we can link to the same place as where we technically explain how to create an Add-On App]) -->
+Being able to customize the Dynamics 365 Business Central experience is one of the unique properties of Dynamics 365 Business Central. To customize and extend Dynamics 365 Business Central you can use Extensions v2.0 and the modern development tools with Visual Studio Code. For more information, see [Add-on Apps](readiness-add-on-apps.md). 
 
 ## What if I already have a vertical solution created for Microsoft Dynamics NAV?
 Dynamics 365 Business Central represent the next exciting chapter of Dynamics NAV. To bring your existing Dynamics NAV vertical solution into the cloud and onto Dynamics 365 Business Central you have two overall options. 
 
 - Refactor your existing solution to use Extensions v2.0 and the AL language using the modern development tools and Visual Studio Code. 
  
-- Lift your existing C/SIDE-based solution onto Dynamics 365 Business Central and then over time shift (aka. refactor) the solution to AL and Extensions v2.0 to align you solution with the investments being made for Dynamics 365 Business Central and reap the benefits of a modern development approach.  
+- Lift your existing C/SIDE-based solution onto Dynamics 365 Business Central and then over time shift (aka refactor) the solution to AL and Extensions v2.0 to align you solution with the investments being made for Dynamics 365 Business Central and reap the benefits of a modern development approach.  
  
 The refactor approach identical to what was outlined in the previous section. The *lift, then shift* scenario is currently in limited preview. We expect to open for more broad access sometime during late fall 2018. In any case this option will only be available for ISV’s that have a vertical solution that qualifies for the ISV Embed program <!-- [insert link when available]-->, as this approach requires a commitment to a minimum user base. The size of the minimum user base is yet to be defined. 
 
@@ -56,15 +56,15 @@ Learn more about each step here [http://aka.ms/BusinessCentralApps](http://aka.m
 
 ## Where do I learn more? 
 To learn more about how to develop Embed apps, select the following links:  
-<!-- link to docs and right headers
-How to set up AL tools: aka.ms/GetStartedWithAL 
-How to set up the AL Development Environment 
-How to develop Extensions in AL 
-Get updates on the AL developer preview on the Dynamics NAV Team Blog. 
-How to convert from Extensions V1 to Extensions V2 -->
+- [Getting Started with AL](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-get-started)  
+- [Development in AL](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-dev-overview)  
+- [Dynamics NAV Team Blog](https://blogs.msdn.microsoft.com/nav/)  
+- [Converting Extensions V1 to Extensions V2](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-upgrade-v1-to-v2-overview)  
+- Contact your local Microsoft representative to learn more about ISV Embed solutions.  
+
+
 <!--  
 To learn more about embed apps in general, select the following links:  
 A document describing Dynamics 365 Business Central ISV Embed solutions – needs to be built 
 FAQ on Embed apps – needs to be built -->
-- Contact your local Microsoft representative to learn more about ISV Embed solutions.  
 

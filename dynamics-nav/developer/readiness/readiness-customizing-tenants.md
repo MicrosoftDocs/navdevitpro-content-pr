@@ -38,11 +38,10 @@ To ensure business continuity and protect the integrity of live customer data, y
 
 ## Where do I learn more? 
 To learn more about the Designer select the following links:  
-- How to use the Designer 
-- Getting started on AL development in Visual Studio Code (video) 
-- Getting started with AL 
-- Learn about AL objects and extension objects 
-- Docker (find link) 
+- [Using Designer](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-inclient-designer) 
+- Getting started with AL development in Visual Studio Code (video) 
+- [Getting started with AL](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-get-started) 
+- [AL Development Environment](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-reference-overview)
  
 
 

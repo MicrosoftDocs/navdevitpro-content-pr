@@ -71,10 +71,10 @@ To ease your journey, from the initial idea submission to the final publication,
  
 ## Where do I learn more about Connect apps? 
 To learn more about how to develop Connect apps, see the following:  
-- [Documentation on REST APIs]() 
-- [Getting started with connect apps]()  
-- [Overview of connection endpoints and authentication options]() 
+- [Documentation on REST APIs](https://docs.microsoft.com/en-us/dynamics-nav/fin-graph/) 
+- [Getting started with connect apps](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-develop-connect-apps-for-fin)  <!-- shift to the new one -->
+- [Overview of connection endpoints and authentication options](https://docs.microsoft.com/en-us/dynamics-nav/endpoints-apis-for-dynamics) 
 <!-- - Link to blogpost – haven’t been created yet  [Symbol] NOTE: waiting on input from Peter  -->
-- If your Connect app requires a specific setup in Dynamics 365 Business Central, you can add objects by following the guide on developing Add-on apps in combination with using the Connect API. Find the guide on how to develop Add-on apps [here]().  
+- If your Connect app requires a specific setup in Dynamics 365 Business Central, you can add objects by following the guide on developing Add-on apps in combination with using the Connect API. Find the guide on how to develop Add-on apps [here](readiness-add-on-apps.md).  
 
 

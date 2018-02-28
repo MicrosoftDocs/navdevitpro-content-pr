@@ -85,14 +85,12 @@ Anyone can discover your Add-on app on AppSource. For other ISV’s to use your 
 
 ## Where do I learn more about Add-on apps? 
 Learn more about how to develop Add-on apps here:  
+- [Getting Started with AL](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-get-started)  
+- [Development in AL](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-dev-overview)  
+- [Dynamics NAV Team Blog](https://blogs.msdn.microsoft.com/nav/)  
+- [Converting Extensions V1 to Extensions V2](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-upgrade-v1-to-v2-overview)  
+
 <!-- 
-Fix these to doc titles and links
-How to set up AL tools: aka.ms/GetStartedWithAL 
-How to set up the AL Development Environment 
-How to develop Extensions in AL 
-Get updates on the AL developer preview on the Dynamics NAV Team Blog. 
-How to convert from Extensions V1 to Extensions V2 
- -->
 To learn more about Add-on apps in general, select the following links:  
 FAQ on add-on apps – needs to be build 
-Best Practices (Add-on apps) – needs to be build 
+Best Practices (Add-on apps) – needs to be build -->
