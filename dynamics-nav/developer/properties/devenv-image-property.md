@@ -1,7 +1,7 @@
 ---
 title: "Image Property"
 ms.custom: na
-ms.date: 06/16/2017
+ms.date: 28/02/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,7 +16,7 @@ author: jswymer
 Specifies the icon that you want to associate with an action<!-- or an activity button-->. 
   
 > [!NOTE]  
->  The image property is not valid on page link actions that are set up under activity buttons in the navigation pane. These actions use a default image that cannot be changed.  
+>  On **RoleCenter** type pages, the image property does not apply to actions that are set up in the navigation bar or top-level actions in the action bar. These actions cannot be assigned in icon, or if they have icon by default, the icon cannot be changed. The property only applies to subgroups and child actions in the action bar.
   
 ## Applies To  
   
