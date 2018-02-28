@@ -31,7 +31,7 @@ You can bring two types of offerings to Microsoft AppSource:
 Find more information on which apps and consulting services that currently are available on Microsoft AppSource [here]().<!-- link -->
 
 ## Getting started - find what is important to you 
-In order support you in the best possible way we have organized the following material into categories based on what you bring to market, so that you will be directed to the right place from the start.
+In order support you in the best possible way we have organized the following material into categories based on what you bring to market, so that you will be directed to the right place from the start. Putting in a new text.
 
 |What is your profession?|
 |------------------------|
