@@ -3,7 +3,7 @@ title: "Page and Page Extension Properties Overview"
 description: "Description of the available properties on page extensions."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/23/2017
+ms.date: 02/26/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,6 +16,117 @@ caps.latest.revision: 18
 
 # Page and Page Extension Properties Overview
 
+This topic lists properties that apply to the [Page Object](../devenv-page-object.md) and [Page Extension Object](../devenv-page-ext-object.md). 
+
+## Page object properties
+The following properties apply to the page object.
+
+|Property Name|Page Extension Object|Applies to|
+|-------------|-----------|---------------------|
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|No|<ul><li>Page object</li><li>Field control</li><li>Part control</li><li>Action</li></ul>|
+|[ApplicationArea Property](devenv-applicationarea-property.md)|Yes|<ul><li>Page object</li><li>Field control</li><li>Part control</li><li>Action</li></ul>|
+|[AssistEdit Property](devenv-assistedit-property.md)|No|<ul><li>Field control</li></ul>|
+|[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|No|<ul><li>Field control</li></ul>|
+|[AutoFormatType Property](devenv-autoformattype-property.md)|No|<ul><li>Field control</li></ul>|
+|[AutoSplitKey Property](devenv-autosplitkey-property.md)|No|<ul><li>Page object</li></ul>|
+|[BlankNumbers Property](devenv-blanknumbers-property.md)|No|<ul><li>Field control</li></ul>|
+|[BlankZero Property](devenv-blankzero-property.md)|No|<ul><li>Field control</li></ul>|
+|[CaptionML Property](devenv-captionml-property.md)|Yes|<ul><li>Page object</li><li>Container control</li><li>Group control</li><li>Field control</li><li>Part control</li><li>ActionGroup</li><li>Action</li><li>Separator</li></ul>|
+|[CaptionClass Property](devenv-captionclass-property.md)|Yes|<ul><li>Field control</li></ul>|
+|[CharAllowed Property](devenv-charallowed-property.md)|No|<ul><li>Field control</li></ul>|
+|[ClosingDates Property](devenv-closingdates-property.md)|Yes|<ul><li>Field control</li></ul>|
+|[ColumnSpan Property](devenv-columnspan-property.md)|No|<ul><li>Field control</li></ul>|
+|[ContainerType Property](devenv-containertype-property.md)|Yes|<ul><li>Container control</li></ul>|
+|[DataCaptionExpression Property](devenv-datacaptionexpr-property.md)|Yes|<ul><li>Page object</li></ul>|
+|[DateFormula Property](devenv-dateformula-property.md)|No|<ul><li>Field control</li></ul>|
+|[DecimalPlaces Property](devenv-decimalplaces-property.md)|No|<ul><li>Field control</li></ul>|
+|[DelayedInsert Property](devenv-delayedinsert-property.md)|No|<ul><li>Page object</li></ul>|
+|[DeleteAllowed Property](devenv-deleteallowed-property.md)|No|<ul><li>Page object</li></ul>|
+|[Description Property](devenv-description-property.md)|Yes|<ul><li>Page object</li><li>Container control</li><li>Group control</li><li>Field control</li><li>Part control</li><li>ActionGroup</li><li>Action</li></ul>|
+|[DrillDown Property](devenv-drilldown-property.md)|No|<ul><li>Field control</li></ul>|
+|[DrillDownPageId Property](devenv-drilldownpageid-property.md)|No|<ul><li>Field control</li></ul>|
+|[Editable Property](devenv-editable-property.md)|No|<ul><li>Page object</li><li>Group control</li><li>Field control</li><li>Part control</li></ul>|
+|[Ellipsis Property](devenv-ellipsis-property.md)|No|<ul><li>Action</li></ul>|
+|[Enabled Property](devenv-enabled-property.md)|Yes|<ul><li>Group control</li><li>Field control</li><li>Part control</li><li>ActionGroup</li><li>Action</li></ul>|
+|[EntityName Property](devenv-entityname-property.md)|No|<ul><li>Page object</li><li>Part control</li></ul>|
+|[EntitySetName Property](devenv-entitysetname-property.md)|No|<ul><li>Page object</li><li>Part control</li></ul>|
+|[ExtendedDataType Property](devenv-Extendeddatatype-property.md)|No|<ul><li>Field control</li></ul>|
+|[FreezeColumn Property](devenv-freezecolumnid-property.md)|Yes|<ul><li>Group control</li></ul>|
+|[GridLayout Property](devenv-gridlayout-property.md)|No|<ul><li>Group control</li></ul>|
+|[Gesture Property](devenv-gesture-property.md)|No|<ul><li>Action</li></ul>|
+|[HideValue Property](devenv-hidevalue-property.md)|Yes|<ul><li>Field control</li></ul>|
+|[IndentationColumn Property](devenv-indentationcolumnname-property.md)|No|<ul><li>Group control</li></ul>|
+|[IndentationControls Property](devenv-indentationcontrols-property.md)|No|<ul><li>Group control</li></ul>|
+|[InFooterBar Property](devenv-infooterbar-property.md)|Yes|<ul><li>Action</li></ul>|
+|[InsertAllowed Property](devenv-insertallowed-property.md)|No|<ul><li>Page object</li></ul>|
+|[InstructionalTextML Property](devenv-instructionaltextml-property.md)|Yes|<ul><li>Page object</li><li>Group control</li></ul>|
+|[Image Property](devenv-image-property.md)|No|<ul><li>Field control</li><li>ActionGroup</li><li>Action</li></ul>|
+|[Importance Property](devenv-importance-property.md)|Yes|<ul><li>Field control</li></ul>|
+|[LinksAllowed Property](devenv-linksallowed-property.md)|No|<ul><li>Page object</li></ul>|
+|[LookupPageId Property](devenv-lookuppageid-property.md)|No|<ul><li>Field control</li></ul>|
+|[Lookup Property](devenv-lookup-property.md)|No|<ul><li>Field control</li></ul>|
+|[ModifyAllowed Property](devenv-modifyallowed-property.md)|No|<ul><li>Page object</li></ul>|
+|[MultipleNewLines Property](devenv-multiplenewlines-property.md)|No|<ul><li>Page object</li></ul>|
+|[MinValue Property](devenv-minvalue-property.md)|No|<ul><li>Field control</li></ul>|
+|[MaxValue Property](devenv-maxvalue-property.md)|No|<ul><li>Field control</li></ul>|
+|[MultiLine Property](devenv-multiline-property.md)|No|<ul><li>Field control</li></ul>|
+|[NotBlank Property](devenv-notblank-property.md)|No|<ul><li>Field control</li></ul>|
+|[Numeric Property](devenv-numeric-property.md)|No|<ul><li>Field control</li></ul>|
+|[ODataEDMType Property](devenv-odataedmtype-property.md)|Yes|<ul><li>Page object</li><li>Field control</li></ul>|
+|[ODataKeyFields Property](devenv-odatakeyfields-property.md)|No|<ul><li>Page object</li></ul>|
+|[OptionCaptionML Property](devenv-optioncaptionml-property.md)|No|<ul><li>Field control</li></ul>|
+|[PageType Property](devenv-pagetype-property.md)|No|<ul><li>Page object</li></ul>|
+|[Permissions Property](devenv-permissions-property.md)|No|<ul><li>Page object</li></ul>|
+|[PopulateAllFields Property](devenv-populateallfields-property.md)|No|<ul><li>Page object</li></ul>|
+|[Promoted Property](devenv-promoted-property.md)|Yes|<ul><li>Action</li></ul>|
+|[PromotedActionCategoriesML Property](devenv-promotedactioncategoriesml-property.md)|Yes|<ul><li>Page object</li></ul>|
+|[PromotedCategory Property](devenv-promotedcategory-property.md)|Yes|<ul><li>Action</li></ul>|
+|[PromotedIsBig Property](devenv-promotedisbig-property.md)|Yes|<ul><li>Action</li></ul>|
+|[PromotedOnly Property](devenv-promotedonly-property.md)|Yes|<ul><li>Action</li></ul>|
+|[Provider Property](devenv-providerid-property.md)|No|<ul><li>Part control</li></ul>|
+|[QuickEntry Property](devenv-quickentry-property.md)|Yes|<ul><li>Field control</li></ul>|
+|[RefreshOnActivate Property](devenv-refreshonactivate-property.md)|No|<ul><li>Page object</li></ul>|
+|[RowSpan property](devenv-rowspan-property.md)|No|<ul><li>Field control</li></ul>|
+|[RunObject Property](devenv-runobject-property.md)|No|<ul><li>Action</li></ul>|
+|[RunPageLink Property](devenv-runpagelink-property.md)|No|<ul><li>Action</li></ul>|
+|[RunPageMode Property](devenv-runpagemode-property.md)|No|<ul><li>Action</li></ul>|
+|[RunPageOnRec Property](devenv-runpageonrec-property.md)|No|<ul><li>Action</li></ul>|
+|[RunPageView Property](devenv-runpageview-property.md)|No|<ul><li>Action</li></ul>|
+|[SaveValues Property](devenv-savevalues-property.md)|No|<ul><li>Page object</li></ul>|
+|[Scope Property](devenv-scope-property.md)|No|<ul><li>Action</li></ul>|
+|[ShortcutKey Property](devenv-shortcutkey-property.md)|No|<ul><li>Action</li></ul>|
+|[ShowAsTree Property](devenv-showastree-property.md)|No|<ul><li>Group control</li></ul>|
+|[ShowCaption Property](devenv-showcaption-property.md)|Yes|<ul><li>Group control</li><li>Field control</li></ul>|
+|[ShowFilter Property](devenv-showfilter-property.md)|No|<ul><li>Page object</li><li>Part control</li></ul>|
+|[ShowMandatory Property](devenv-showmandatory-property.md)|No|<ul><li>Field control</li></ul>|
+|[SignDisplacement Property](devenv-signdisplacement-property.md)|No|<ul><li>Field control</li></ul>|
+|[SourceTable Property](devenv-sourcetable-property.md)|No|<ul><li>Page object</li></ul>|
+|[SourceTableTemporary Property](devenv-sourcetabletemporary-property.md)|No|<ul><li>Page object</li></ul>|
+|[SourceTableView Property](devenv-sourcetableview-property.md)|No|<ul><li>Page object</li></ul>|
+|[Style Property](devenv-style-property.md)|Yes|<ul><li>Field control</li></ul>|
+|[StyleExpr Property](devenv-styleexpr-property.md)|Yes|<ul><li>Field control</li></ul>|
+|[SubPageView Property](devenv-subpageview-property.md)|No|<ul><li>Part control</li></ul>|
+|[SubPageLink Property](devenv-subpagelink-property.md)|No|<ul><li>Part control</li></ul>|
+|[TableRelation Property](devenv-tablerelation-property.md)|No|<ul><li>Field control</li></ul>|
+|[ToolTipML Property](devenv-tooltipml-property.md)|Yes|<ul><li>Field control</li><li>Part control</li><li>ActionGroup</li><li>Action</li></ul>|
+|[UpdatePropagation Property](devenv-updatepropagation-property.md)|No|<ul><li>Part control</li></ul>|
+|[UsageCategory Property](devenv-usagecategory-property.md)|No|<ul><li>Page object</li></ul>|
+|[ValuesAllowed Property](devenv-valuesallowed-property.md)|No|<ul><li>Field control</li></ul>|
+|[Visible Property](devenv-visible-property.md)|Yes|<ul><li>Group control</li><li>Field control</li><li>Part control</li><li>ActionGroup</li><li>Action</li></ul>|
+|[Width Property](devenv-width-property.md)|Yes|<ul><li>Field control</li></ul>|
+
+
+
+
+## See Also
+[Properties](devenv-properties.md)  
+[Page Object](../devenv-page-object.md)  
+[Page Extension Object](../devenv-page-ext-object.md)  
+[Report Object](../devenv-report-object.md)  
+[Table and Table Extension Properties](devenv-table-properties.md)
+
+
+<!--
 This topic lists properties that apply to the [Page Object](../devenv-page-object.md) and [Page Extension Object](../devenv-page-ext-object.md). 
 
 ## Page object properties
@@ -200,9 +311,4 @@ The following properties apply to Separators.
 |-------------|-----------|---------------------|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 
-## See Also
-[Properties](devenv-properties.md)  
-[Page Object](../devenv-page-object.md)  
-[Page Extension Object](../devenv-page-ext-object.md)  
-[Report Object](../devenv-report-object.md)  
-[Table and Table Extension Properties](devenv-table-properties.md)
+-->

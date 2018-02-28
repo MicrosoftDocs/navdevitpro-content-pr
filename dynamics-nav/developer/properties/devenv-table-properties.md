@@ -1,9 +1,9 @@
 ---
 title: Table and Table Extension Properties
-description: This topic lists table properties that apply to feilds of a table object.
+description: This topic lists table properties that apply to fields of a table object.
 author: edupont04
 ms.custom: na
-ms.date: 11/23/2017
+ms.date: 02/26/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,8 +16,59 @@ ms.author: edupont
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # Table and Table Extension Properties
-The following topic lists properties that apply to the table object.  
+The following topic lists properties that apply to the [Table Object](../devenv-table-object.md) and, in some cases, to the [Table Extension Object](../devenv-table-ext-object.md).  
 
+|Property Name|Table Extension Object|Applies to|
+|-------------|-----------|---------------------|
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|No|<ul><li>BLOB field</li><li>BigInteger field</li><li>Boolean field</li><li>Code field</li><li>Date field</li><li>DateFormula field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>GUID field</li><li>Integer field</li><li>OemCode field</li><li>OemText field</li><li>Option field</li><li>RecordID field</li><li>TableFilter field</li><li>Text field</li><li>Time field</li></ul>|
+|[AutoFormatExpression Property](devenv-autoformatexpr-property.md)|No|<ul><li>BigInteger field</li><li>Boolean field</li><li>Code field</li><li>Date field</li><li>DateFormula field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>GUID field</li><li>Integer field</li><li>OemCode field</li><li>OemText field</li><li>Option field</li><li>RecordID field</li><li>Text field</li><li>Time field</li></ul>|
+|[AutoFormatType Property](devenv-autoformattype-property.md)|No|<ul><li>BigInteger field</li><li>Boolean field</li><li>Code field</li><li>Date field</li><li>DateFormula field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>GUID field</li><li>Integer field</li><li>OemCode field</li><li>OemText field</li><li>Option field</li><li>RecordID field</li><li>Text field</li><li>Time field</li></ul>|
+|[AutoIncrement Property](devenv-autoincrement-property.md)|No|<ul><li>BigInteger</li></ul>|
+|[BlankNumbers Property](devenv-blanknumbers-property.md)|No|<ul><li>BigInteger field</li><li>Boolean field</li><li>Date field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>Integer field</li><li>Option field</li><li>Time field</li></ul>|
+|[BlankZero Property](devenv-blankzero-property.md)|No|<ul><li>BigInteger field</li><li>Boolean field</li><li>Decimal field</li><li>Duration field</li><li>Integer field</li><li>Option</li></ul>|
+|[CaptionClass Property](devenv-captionclass-property.md)|Yes|<ul><li>BigInteger field</li><li>Boolean field</li><li>Code field</li><li>Date field</li><li>DateFormula field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>GUID field</li><li>Integer field</li><li>OemCode field</li><li>OemText field</li><li>Option field</li><li>RecordID field</li><li>Text field</li><li>Time field</li></ul>|
+|[CaptionML Property](devenv-captionml-property.md)|Yes|<ul><li>Table object</li><li>BLOB Field</li><li>BigInteger field</li><li>Boolean field</li><li>Code field</li><li>Date field</li><li>DateFormula field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>GUID field</li><li>Integer field</li><li>OemCode field</li><li>OemText field</li><li>Option field</li><li>RecordID field</li><li>TableFilter field</li><li>Text field</li><li>Time field</li></ul>|
+|[CharAllowed Property](devenv-charallowed-property.md)|No|<ul><li>Code field</li><li>OemCode field</li><li>OemText field</li><li>Text field</li></ul>|
+|[ClosingDates Property](devenv-closingdates-property.md)|Yes|<ul><li>Date field</li></ul>|
+|[Compressed Property](devenv-compressed-property.md)|No|<ul><li>BLOB field</li></ul>|
+|[DataCaptionFields Property](devenv-datacaptionfields-property.md)|Yes|<ul><li>Table object</li></ul>|
+|[DateFormula Property](devenv-dateformula-property.md)|No|<ul><li>Code</li><li>OemCode field</li><li>OemText field</li><li>Text field</li></ul>|
+|[DataPerCompany Property](devenv-datapercompany-property.md)|No|<ul><li>Table object</li></ul>|
+|[Description Property](devenv-description-property.md)|Yes|<ul><li>Table object</li><li>BLOB field</li><li>BigInteger field</li><li>Boolean field</li><li>Code field</li><li>Date field</li><li>DateFormula field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>GUID field</li><li>Integer field</li><li>OemCode field</li><li>OemText field</li><li>Option field</li><li>RecordID field</li><li>TableFilter field</li><li>Text field</li><li>Time field</li></ul>|
+|[DrillDownPageID Property](devenv-drilldownpageid-property.md)|No|<ul><li>Table object</li></ul>|
+|[Editable Property](devenv-editable-property.md)|No|<ul><li>BigInteger field</li><li>Boolean field</li><li>Code field</li><li>Date field</li><li>DateFormula field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>GUID field</li><li>Integer field</li><li>OemCode field</li><li>OemText field</li><li>Option field</li><li>RecordID field</li><li>Text field</li><li>Time field</li></ul>|
+|[Enabled Property](devenv-enabled-property.md)|No|<ul><li>BLOB field</li><li>BigInteger field</li><li>Boolean field</li><li>Code field</li><li>Date field</li><li>DateFormula field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>GUID field</li><li>Integer field</li><li>OemCode field</li><li>OemText field</li><li>Option field</li><li>RecordID field</li><li>TableFilter field</li><li>Text field</li><li>Time field</li></ul>|
+|[ExtendedDataType Property](devenv-extendeddatatype-property.md)|No|<ul><li>BigInteger field</li><li>Boolean field</li><li>Code field</li><li>Date field</li><li>DateFormula field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>GUID field</li><li>Integer field</li><li>OemCode field</li><li>OemText field</li><li>Option field</li><li>RecordID field</li><li>Text field</li><li>Time field</li></ul>|
+|[FieldClass Property](devenv-fieldclass-property.md)|No|<ul><li>BigInteger field</li><li>Boolean field</li><li>Code field</li><li>Date field</li><li>DateFormula field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>GUID field</li><li>Integer field</li><li>OemCode field</li><li>OemText field</li><li>Option field</li><li>RecordID field</li><li>Text field</li><li>Time field</li></ul>|
+|[InitValue Property](devenv-initvalue-property.md)|No|<ul><li>BigInteger field</li><li>Boolean field</li><li>Code field</li><li>Date field</li><li>DateFormula field</li><li>Decimal field</li><li>Duration field</li><li>GUID field</li><li>Integer field</li><li>OemCode field</li><li>OemText field</li><li>Option field</li><li>RecordID field</li><li>Text field</li><li>Time field</li></ul>|
+|[LinkedObject Property](devenv-linkedobject-property.md)|No|<ul><li>Table object</li></ul>|
+|[LookupPageID Property](devenv-lookuppageid-property.md)|No|<ul><li>Table object</li></ul>|
+|[MaxValue Property](devenv-maxvalue-property.md)|No|<ul><li>BigInteger field</li><li>Boolean field</li><li>Date field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>Integer field</li><li>Option field</li><li>Time field</li></ul>|
+|[MinValue Property](devenv-minvalue-property.md)|No|<ul><li>BigInteger field</li><li>Boolean field</li><li>Date field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>Integer field</li><li>Option field</li><li>Time field</li></ul>| 
+|[NotBlank Property](devenv-notblank-property.md)|No|<ul><li>BigInteger field</li><li>Boolean field</li><li>Code field</li><li>Date field</li><li>DateFormula field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>GUID field</li><li>Integer field</li><li>OemCode field</li><li>OemText field</li><li>Option field</li><li>RecordID field</li><li>Text field</li><li>Time field</li></ul>| 
+|[Numeric Property](devenv-numeric-property.md)|No|<ul><li>Code field</li><li>OemCode field</li><li>OemText field</li><li>Text field</li></ul>|
+|[OptionCaptionML Property](devenv-optioncaptionml-property.md)|Yes|<ul><li>Option field</li></ul>|
+|[OptionMembers Property](devenv-optionstring-property.md)|No|<ul><li>Option field</li></ul>|
+|[PasteIsValid Property](devenv-pasteisvalid-property.md)|No|<ul><li>Table object</li></ul>|
+|[Permissions Property](devenv-permissions-property.md)|No|<ul><li>Table object</li></ul>|
+|[SignDisplacement Property](devenv-signdisplacement-property.md)|No|<ul><li>BigInteger field</li><li>Boolean field</li><li>Date field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>Integer field</li><li>Option field</li><li>Time field</li></ul>|
+|[SQLDataType Property](devenv-sql-data-type-property.md)|No|<ul><li>Code field</li><li>OemCode field</li></ul>|
+|[SqlTimeStamp Property](devenv-sql-timestamp-property.md)|No|<ul><li>BigInteger</li></ul>|
+|[SubType Property \(BLOB\)](devenv-subtype-blob-property.md)|No|<ul><li>BLOB field</li></ul>|
+|[TableRelation Property](devenv-tablerelation-property.md)|No|<ul><li>BigInteger field</li><li>Boolean field</li><li>Code field</li><li>Date field</li><li>DateFormula field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>GUID field</li><li>Integer field</li><li>OemCode field</li><li>OemText field</li><li>Option field</li><li>RecordID field</li><li>Text field</li><li>Time field</li></ul>|
+|[TableType Property](devenv-tabletype-property.md)|No|<ul><li>Table object</li></ul>|
+|[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|No|<ul><li>BigInteger field</li><li>Boolean field</li><li>Code field</li><li>Date field</li><li>DateFormula field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>GUID field</li><li>Integer field</li><li>OemCode field</li><li>OemText field</li><li>Option field</li><li>RecordID field</li><li>Text field</li><li>Time field</li></ul>|
+|[ValuesAllowed Property](devenv-valuesallowed-property.md)|No|<ul><li>BigInteger field</li><li>Boolean field</li><li>Code field</li><li>Date field</li><li>DateFormula field</li><li>DateTime field</li><li>Decimal field</li><li>Duration field</li><li>GUID field</li><li>Integer field</li><li>OemCode field</li><li>OemText field</li><li>Option field</li><li>RecordID field</li><li>Text field</li><li>Time field</li></ul>| 
+|[Width Property](devenv-width-property.md)|Yes|<ul><li>BigInteger field</li><li>Code field</li><li>Decimal field</li><li>Duration field</li><li>Integer field</li><li>OemCode field</li><li>OemText field</li><li>Text field</li></ul>| 
+
+
+
+## See Also  
+ [Properties](devenv-properties.md)  
+ [Page and Page Extension Properties](devenv-page-property-overview.md)
+
+
+<!--
 ## Table Object Properties  
  The following properties apply to a **Table** object.  
 
@@ -461,6 +512,4 @@ The following topic lists properties that apply to the table object.
 |[ValidateTableRelation Property](devenv-validatetablerelation-property.md)|X||
 |[ValuesAllowed Property](devenv-valuesallowed-property.md)|X||
 
-## See Also  
- [Properties](devenv-properties.md)
- [Page and Page Extension Properties](devenv-page-property-overview.md)
+-->
