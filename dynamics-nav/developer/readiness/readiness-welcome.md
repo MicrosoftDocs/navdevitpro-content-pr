@@ -38,8 +38,8 @@ In order support you in the best possible way we have organized the following ma
 
 |What is your profession?|
 |------------------------|
-|[**3rd party online services**]() </br>You have an online service that you want to connect and integrate with Dynamics 365 Business Central.|
-|[**Development of a vertical solution**]() </br>You want to create an app specialized within a specific industry.|
-|[**Development of a horizontal solution**]()</br>You want to extend the experience and capability of Dynamics 365 Business Central by creating an add-on app.|
-|[**Dynamics 365 reseller (VAR)**]()</br>You want to resell Dynamics 365 Business Central and you want to provide consulting services to customers helping them customize Dynamics 365 Business Central to their needs.|
+|[**3rd party online services**](readiness-thirdparty-solution.md) </br>You have an online service that you want to connect and integrate with Dynamics 365 Business Central.|
+|[**Development of a vertical solution**](readiness-develop-vertical.md) </br>You want to create an app specialized within a specific industry.|
+|[**Development of a horizontal solution**](readiness-develop-horizontal.md)</br>You want to extend the experience and capability of Dynamics 365 Business Central by creating an add-on app.|
+|[**Dynamics 365 reseller (VAR)**](readiness-reseller.md)</br>You want to resell Dynamics 365 Business Central and you want to provide consulting services to customers helping them customize Dynamics 365 Business Central to their needs.|
 
