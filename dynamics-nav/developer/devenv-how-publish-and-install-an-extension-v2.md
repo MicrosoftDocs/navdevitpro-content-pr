@@ -3,7 +3,7 @@ title: "How to: Publish and Install an Extension v2.0"
 description: "Description of the process of publishing and installing an extension"
 author: jswymer
 ms.custom: na
-ms.date: 16/01/2018
+ms.date: 02/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -70,7 +70,7 @@ After you publish and synchronize an extension, you can install it on tenants to
 
 ### To install an extension by using the client  
 
-1.  In [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], use search to open the **Extension Management** page.
+1.  In [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)], use search to open the **Extension Management** page.
 
     In the **Extension Management** window, you can view the extensions that are published to your server. For each extension, you can see the current installation status. 
 2.  Choose an extension to see additional information and to install the extension.  
