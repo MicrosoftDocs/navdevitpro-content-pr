@@ -133,11 +133,11 @@ Dynamics 365 "Tenerife" uses the following font families to specify the typeface
 
 |  Example  |  Name  | Value |
 |-----------|--------|:-----------:|
-|![Segoe UI font family](media/style/segoe-ui.png "Segoe UI font family")| Segoe UI | ```"Segoe UI", "Segoe WP", Segoe, device-segoe, Tahoma, Helvetica, Arial, sans-serif ``` |
+|![Segoe UI font family](media/style/segoe-ui.png "Segoe UI font family")| Segoe UI | `"Segoe UI", "Segoe WP", Segoe, device-segoe, Tahoma, Helvetica, Arial, sans-serif` |
 |![Segoe UI Light font family](media/style/segoe-ui-light.png "Segoe UI Light font family")| Segoe UI Light | `"Segoe UI Light", "Segoe WP Light", device-segoe-light, "Segoe WP Semilight", "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif` |
 |![Segoe UI Semilight font family](media/style/segoe-ui-semi-light.png "Segoe UI Semilight font family")| Segoe UI Semilight | `"Segoe UI Semilight", "Segoe WP Semilight", device-segoe-semilight, "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif` |
 |![Segoe UI Semibold font family](media/style/segoe-ui-semi-bold.png "Segoe UI Semibold font family")| Segoe UI Semibold | `"Segoe UI Semibold", "Segoe WP Semibold", device-segoe-semibold, "Segoe UI", "Segoe WP", Segoe, Tahoma, Helvetica, Arial, sans-serif` |
-|![Bahnschrift font family](media/style/bahn.png "Bahnschrift font family")| Bahnschrift | `TBD ANDREA` |
+|![Bahnschrift font family](media/style/bahnschrift.png "Bahnschrift font family")| Bahnschrift | `"Bahnschrift", "Segoe UI", "Segoe WP", Segoe, device-segoe, Tahoma, Helvetica, Arial, sans-serif` |
 
 ### Sizes
 Dynamics 365 "Tenerife" uses the following font sizes for text. The same font family on different clients may apply different sizes.
