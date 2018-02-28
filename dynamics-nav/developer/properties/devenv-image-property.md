@@ -7,15 +7,13 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
-ms.assetid: 33bb844b-f09c-4286-951f-d1c7efa96b6e
-caps.latest.revision: 13
-author: SusanneWindfeldPedersen
+author: jswymer
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # Image Property
-Specifies the icon that you want to associate with an action or an activity button. 
+Specifies the icon that you want to associate with an action<!-- or an activity button-->. 
   
 > [!NOTE]  
 >  The image property is not valid on page link actions that are set up under activity buttons in the navigation pane. These actions use a default image that cannot be changed.  
