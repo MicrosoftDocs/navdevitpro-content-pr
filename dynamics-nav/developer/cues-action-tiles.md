@@ -205,14 +205,14 @@ cuegroup(SalesActionontainer)
 ```
 
 ### Styling an Action tile
-You can use the [Image property](properties/devenv-image-property.md) on a `action`control to change the look of the Action tile. The `Image` property supports several standard values that start with the text `Tile`, such as `TileNew` and `TileYellow`. These values change the Action's background color and icon as follows:
+You can use the [Image property](properties/devenv-image-property.md) on an `action` control to change the look of the Action tile. For Action tiles, the `Image` property supports several standard values that start with the text `Tile`, such as `TileNew` and `TileYellow`. These values change the Action's background color and icon as follows:
 
--   Values that have the format `Tile[color]` will set the Action tile to use the circle icon and a background that is specified by `[color]`. For example, `TileBlue`will display a circle icon in a blue background.
+-   A value that has the format `Tile[color]` will set the Action tile to use the circle icon and a background that is specified by `[color]`. For example, `TileBlue` will display a circle icon in a blue background.
 
--   A value that have the format `Tile[picture]` will the Action tile an icon that that is specified by `[picture]` and a neutral background color. For example, `TileCamera` will display a camera icon on the neutral background.  
+-   A value that has the format `Tile[picture]` will set the Action tile to use an icon that that is specified by `[picture]` and a neutral background color. For example, `TileCamera` will display a camera icon on the neutral background.  
 
 > [!NOTE]
-> If you use a value that not recognized, the Action tile will default to display circle icon on the neutral background. 
+> If you use a value that is not valid or recognized, the Action tile will default to display the circle icon on the neutral background. 
 
 
 
@@ -261,3 +261,6 @@ You can set up a Cue to link to a page that displays details about the transacti
   
 ## See Also  
 [FlowFields](devenv-flowfields.md)  
+[Page Object](devenv-page-object.md)  
+[Pages Overview](devenv-pages-overview.md)  
+[Table Object](devenv-table-object.md)  
