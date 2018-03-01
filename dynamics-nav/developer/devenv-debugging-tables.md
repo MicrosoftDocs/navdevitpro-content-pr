@@ -16,7 +16,7 @@ For developers, administrators, or support personnel, it can be useful to view a
 
 -   In a production enviroment, administrators and support can run a table directly from the client by simply modifying the URL. 
 
--   In the development environment, in addition to running a table table directly from the client, developers can launch a table automatically when they publish/debug an AL project in Visual Studio. 
+-   In a development environment, in addition to running a table table directly from the client, developers can launch a table automatically when they publish/debug an AL project in Visual Studio. 
 
 > [!NOTE]
 > In the client, the table is read-only, so modifications cannot be made.
