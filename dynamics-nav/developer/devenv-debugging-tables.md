@@ -1,7 +1,7 @@
 ---
 title: "Viewing Table Data in Browser"
 description: "View tables in browser for troubleshooting"
-author: SusanneWindfeldPedersen
+author: jswymer
 ms.custom: na
 ms.date: 03/01/2018
 ms.reviewer: na
@@ -11,42 +11,84 @@ ms.topic: article
 ms.author: jswymer
 ---
 
-# Viewing Table Data in Browser
-The process of finding and correcting errors is called *debugging*. With Visual Studio Code and the AL Language extension you get an integrated debugger to help you inspect your code to verify that your application can run as expected. You start a debugging session by pressing F5.  
+# Viewing Table Data by Using the Client
+For developing and troubleshooting| it can be useful to view and inspect records and data in tables of the tenant database. To accommodate this| you can run a table object in the [!INCLUDE[d365fin_short_md](includes/d365fin_short_md.md)] Web client| which you can do directly from the browser or from your Visual Studio project. 
 
-> [!TIP]  
-> For more information about Debugging in Visual Studio Code, see [Debugging](https://code.visualstudio.com/docs/editor/debugging).
+In the client| the table is read-only| so modifications cannot be made.
 
-> [!IMPORTANT]  
-> To enable debugging the `NetFx40_LegacySecurityPolicy` setting in the Microsoft.Dynamics.Nav.Server.exe.config file must be set to **false**.
-This requires a server restart.
+## Required permissions
+Whether running the table directly from the client or from Visual Code| your [!INCLUDE[d365fin_short_md](includes/d365fin_short_md.md)] user account must have the following permissions:
 
-For the preview, there are a number of limitations to be aware of:
+-   Read permission on the table that you want to run.
+-   Execution permission (direct) on the System object **1350 Run table**.
 
-- "External code" can only be debugged if the code has the `ShowMyCode` flag set. For more information, see [Security Setting and IP Protection](devenv-security-settings-and-ip-protection.md). 
-- Not all AL types yet show helpful debugging.
-- The debugger launches a new client instance each time you press F5. If you close the debugging session, and then start a new session, this new session will rely on a new client instance. We recommend that you close the Web client instances when you close a debugging session.  
-- And finally, using the debugger with the online sandbox signup and AAD authentication method is not yet supported.
+For information about assigning permissions| see [Manage Users and Permissions](https://docs.microsoft.com/en-US/dynamics365/financials/ui-how-users-permissions).
+ 
+## Run a table object directly from the client
+To run table| add `&table=<TableID>` to the client's address (URL); replacing `<TableID>` with the ID of the table that you want to run.
 
-> [!TIP]  
-> To control table data synchronization between each debugging session, see [Retaining table data after publishing](devenv-retaining-data-after-publishing.md).  
+For example| to run table **18 Customer**| you could use the following URL:
 
-## Breakpoints  
-The basic concept in debugging is the *breakpoint*, which is a mark that you set on a statement. When the program flow reaches the breakpoint, the debugger stops execution until you instruct it to continue. Without any breakpoints, the code runs without interruption when the debugger is active. Set a breakpoint by using the Debug Menu in Visual Studio Code. 
+```
+https://www.microsoft.com/en-US/dynamics365/financials/ui-how-users-permissions&table=18
 
-## Debugging shortcuts
+```
 
-|Keystroke    |Action         |
-|-------------|---------------|
-|F5           |Start debugging|
-|Ctrl+F5      |Start without debugging|
-|Shift+F5     |Stop debugging|
-|Ctrl+Shift+F5|Restart debugging|
-|F10          |Step over|
-|F11          |Step into|
-|Shift+F11    |Step out|
+## Run a table object from Visual Code project
+<!--
+U
+sers: 
+Must have read access to the table 
+Must have execute permission on the Run Table System object 
+Developers: 
+Can only run a table through the web client so they require the same permissions 
+Can set StartupObjectId to the ID of the table they want to inspect and StartupObjectType to "Table" and press Ctrl+F5 from VSCode to open the page. 
+ 
+Append '?AID=FIN&table={YourTableId}'    
+ 
+Limitations: 
+By design: Nobody can access Internal tables, independent of permissions 
+Known limitation: Viewing and scrolling through large tables has bad performance characteristics. 
 
-For more shortcuts, see [Debugging](https://code.visualstudio.com/docs/editor/debugging).
+-->
+## Constraints
+You cannot view the following system tables:
+
+|  |Configuration Package File|
+|  |Data Sensitivity|
+|  |Debugger Breakpoint|
+|  |Debugger Watch|
+|  |Device|
+|  |Document Service|
+|  |Entitlement Set|
+|  |Entitlement|
+|  |MediaSet|
+|  |Media|
+|  |Membership Entitlement|
+|  |Nav App Capabilities|
+|  |Nav App Data Archive|
+|  |Nav App Dependencies|
+|  |Nav App Object Metadata|
+|  |Nav App Objec tPrerequisites|
+|  |Nav App Resource|
+|  |Nav App Tenan tApp|
+|  |Nav App|
+|  |Object Metadata|
+|  |Object Tracking|
+|  |Object|
+|  |PageDocumentation|
+|  |Profile Page Metadata|
+|  |Report Layout|
+|  |Send To Program|
+|  |Server Instance|
+|  |Style Sheet|
+|  |Token Cache|
+|  |Upgrade Blob Storage|
+|  |User Property|
+|  |Web Service|
+|  |Webhook Notification|
+|  |Webhook Subscription|
+
 
 ## See Also  
 [Developing Extensions](devenv-dev-overview.md)  
