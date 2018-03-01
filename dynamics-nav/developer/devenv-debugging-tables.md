@@ -12,12 +12,12 @@ ms.author: jswymer
 ---
 
 # Viewing Table Data by Using the Client
-For developing and troubleshooting| it can be useful to view and inspect records and data in tables of the tenant database. To accommodate this| you can run a table object in the [!INCLUDE[d365fin_short_md](includes/d365fin_short_md.md)] Web client| which you can do directly from the browser or from your Visual Studio project. 
+While developing and troubleshooting the application or extension, it can be useful to view and inspect records and data in tables of the tenant database. To accommodate this, you can run table objects in the [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Web client. You can this directly from the browser or from your Visual Studio project. 
 
-In the client| the table is read-only| so modifications cannot be made.
+In the client, the table is read-only, so modifications cannot be made.
 
 ## Required permissions
-Whether running the table directly from the client or from Visual Code| your [!INCLUDE[d365fin_short_md](includes/d365fin_short_md.md)] user account must have the following permissions:
+Whether running the table directly from the client or from Visual Code| your [!INCLUDE[d365fin_md](includes/d365fin_md.md)] user account must have the following permissions:
 
 -   Read permission on the table that you want to run.
 -   Execution permission (direct) on the System object **1350 Run table**.
@@ -25,16 +25,37 @@ Whether running the table directly from the client or from Visual Code| your [!I
 For information about assigning permissions| see [Manage Users and Permissions](https://docs.microsoft.com/en-US/dynamics365/financials/ui-how-users-permissions).
  
 ## Run a table object directly from the client
-To run table| add `&table=<TableID>` to the client's address (URL); replacing `<TableID>` with the ID of the table that you want to run.
+To run table, add `&table=<TableID>` to the client's address (URL); replacing `<TableID>` with the ID of the table that you want to run.
 
-For example| to run table **18 Customer**| you could use the following URL:
+For example, if the client's URL is `https://home.financials.dynamics.com`, to run table **18 Customer**, you would use the following URL:
 
 ```
-https://www.microsoft.com/en-US/dynamics365/financials/ui-how-users-permissions&table=18
+https://home.financials.dynamics-tie.com/?company=CRONUS%20USA%2C%20Inc.&table=18
 
 ```
 
 ## Run a table object from Visual Code project
+You can configure your project to run a table in the Web client when you the project with or without debugging. 
+
+In the launch.json file, set the 
+```
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Your own server",
+            "server": "http://localhost",
+            "serverInstance": "dynamicsnav110",
+            "authentication": "Windows",
+            "startupObjectId": 22
+            "st"
+        }
+    ]
+} 
+
+```
 <!--
 U
 sers: 
@@ -52,42 +73,44 @@ Known limitation: Viewing and scrolling through large tables has bad performance
 
 -->
 ## Constraints
-You cannot view the following system tables:
-
-|  |Configuration Package File|
-|  |Data Sensitivity|
-|  |Debugger Breakpoint|
-|  |Debugger Watch|
-|  |Device|
-|  |Document Service|
-|  |Entitlement Set|
-|  |Entitlement|
-|  |MediaSet|
-|  |Media|
-|  |Membership Entitlement|
-|  |Nav App Capabilities|
-|  |Nav App Data Archive|
-|  |Nav App Dependencies|
-|  |Nav App Object Metadata|
-|  |Nav App Objec tPrerequisites|
-|  |Nav App Resource|
-|  |Nav App Tenan tApp|
-|  |Nav App|
-|  |Object Metadata|
-|  |Object Tracking|
-|  |Object|
-|  |PageDocumentation|
-|  |Profile Page Metadata|
-|  |Report Layout|
-|  |Send To Program|
-|  |Server Instance|
-|  |Style Sheet|
-|  |Token Cache|
-|  |Upgrade Blob Storage|
-|  |User Property|
-|  |Web Service|
-|  |Webhook Notification|
-|  |Webhook Subscription|
+You cannot run virtual tables and the following system tables:
+| ID |Name|
+|----|----|
+| 2000000170 |Configuration Package File|
+| 2000000170 |Configuration Package File|
+| 2000000173 |Data Sensitivity|
+| 2000000100 |Debugger Breakpoint|
+| 2000000103 |Debugger Watch|
+| 2000000130 |Device|
+| 2000000114 |Document Service|
+| 2000000190 |Entitlement Set|
+| 2000000191 |Entitlement|
+|2000000180 |MediaSet|
+| 2000000181 |Media|
+| 2000000195 |Membership Entitlement|
+| 2000000162 |Nav App Capabilities|
+| 2000000152 |Nav App Data Archive|
+| 2000000161 |Nav App Dependencies|
+| 2000000150 |Nav App Object Metadata|
+| 2000000163 |Nav App Object Prerequisites|
+| 2000000142 |Nav App Resource|
+|2000000151  |Nav App TenantApp|
+| 2000000160 |Nav App|
+| 2000000071 |Object Metadata|
+| 2000000079 |Object Tracking|
+| 2000000001 |Object|
+| 2000000198 |Page Documentation|
+| 2000000186 |Profile Page Metadata|
+| 2000000082 |Report Layout|
+| 2000000065 |Send To Program|
+| 2000000112 |Server Instance|
+| 2000000066 |Style Sheet|
+| 2000000197 |Token Cache|
+| 2000000081 |Upgrade Blob Storage|
+| 2000000121 |User Property|
+| 2000000076 |Web Service|
+| 2000000194 |Webhook Notification|
+| 2000000199 |Webhook Subscription|
 
 
 ## See Also  
