@@ -20,7 +20,7 @@ A Connect app describes the scenario of establishing a point-to-point connection
 
 ## How do I create a Connect app?
 A Connect app is typically created using standard REST API to interchange data. Any coding language capable of calling REST APIs can be used to develop your Connect app.  
-Dynamics 365 Business Central exposes 44 standard APIs at the time of writing. More will be added over time. We strongly encourage using the standard API’s when possible. In cases where more interoperability is needed additional custom APIs can be created by utilizing Extensions v2.0 and the modern development tools.  
+Dynamics 365 Business Central exposes 44 standard APIs at the time of writing. More will be added over time. We strongly encourage using the standard APIs when possible. In cases where more interoperability is needed additional custom APIs can be created by utilizing Extensions v2.0 and the modern development tools.  
 
 <!-- INSERT VIDEO:  
 Objective: Introucing Connect Apps + Business value 
@@ -29,7 +29,7 @@ New video that needs to be created -->
 ## How can I benefit from offering a Connect app? 
 Online service offerings like payroll, expense management, web-shops, project planning etc. typically have many connection points. Connect apps allow you to make connections between those online service offerings and your business solution. This connection can be achieved on a data level without any development. Therefore, reusing those connection points provides you with an opportunity to reuse your investments from REST integrations with other Cloud Services. 
 
-Optionally, you can build an interface in Dynamics 365 Business Central, which determines how your data flows between Dynamics 365 Business Central and your online service offering. In this case we advise you to follow the guidance specified in the [Add-on section]().
+Optionally, you can build an interface in Dynamics 365 Business Central, which determines how your data flows between Dynamics 365 Business Central and your online service offering. In this case we advise you to follow the guidance specified in the [Add-on Apps](readiness-add-on-apps.md).
 
 ## Examples of Connect apps 
 Below you can find some examples of online services, which could benefit from being integrated to Dynamics 365 Business Central using Connect apps: 
