@@ -14,11 +14,9 @@ ms.author: jswymer
 # Viewing Table Data
 For developers, administrators, or support personnel, it can be useful to view and inspect records and data in tables of the tenant database, particularly when debugging or troubleshooting. To support this need, you can run table objects in the [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Web client.
 
--   In a production enviroment, administators and support presonnel can run a table direclty from the client, by simply modifying the URL. 
+-   In a production enviroment, administrators and support presonnel can run a table directly from the client, by simply modifying the URL. 
 
--   In the development environment, developers can launch a table automatically when they publish/debug a AL project in Visual Studio. 
-
-
+-   In the development environment, in addition to running a table table directly from the client, developers can launch a table automatically when they publish/debug an AL project in Visual Studio. 
 
 > [!NOTE]
 > In the client, the table is read-only, so modifications cannot be made.
@@ -32,21 +30,29 @@ Whether running the table directly from the client or from Visual Code, your [!I
 For information about assigning permissions, see [Manage Users and Permissions](https://docs.microsoft.com/en-US/dynamics365/financials/ui-how-users-permissions).
  
 ## Run a table object directly from the client
-To run a table, you add `table=<TableID>` to the client's address (URL), replacing `<TableID>` with the ID of the table that you want to run.
+To run a table, you `table=<TableID>` to the client's address (URL), replacing `<TableID>` with the ID of the table that you want to run.
 
-Depending on where in the URL you place `<TableID>`, you will have to prefix with either 
+For example, if the client's domain is `https://home.financials.dynamics.com`, then to run table **18 Customer**, you would use the following URL:
 
-For example, if the client's URL is `https://home.financials.dynamics-tie.com/?company=CRONUS%20USA%2C%20Inc.`, to run table **18 Customer**, you would use the following URL:
+```
+https://home.financials.dynamics.com/?table=18
+
+```
+
+Or for a specific company, such as "CRONUS USA Inc.":
 
 ```
 https://home.financials.dynamics-tie.com/?company=CRONUS%20USA%2C%20Inc.&table=18
 
 ```
 
-## Run a table object from Visual Code project
-You can configure your AL project to run a table in the Web client when you publish the project , with or without debugging (F5 or Ctrl+F5). 
+Notice the use of `&` when `table=<TableID>` is located within the query string after the domain name.
 
-In the `launch.json` file for the project, set the `"startupObjectType"` paramter to `Table` and the `startupObjectId"` parameter to the ID of the table to run. For example:
+
+## Run a table object from an AL project in Visual Studio
+You can configure an AL project to run a table when you publish the project with or without debugging (F5 or Ctrl+F5). 
+
+In the `launch.json` file for the project, set the `"startupObjectType"` parameter to `Table` and the `"startupObjectId"` parameter to the ID of the table. For example:
 
 ```
 {
@@ -83,7 +89,7 @@ Known limitation: Viewing and scrolling through large tables has bad performance
 
 -->
 ## Constraints
-You cannot run virtual tables and the following system tables:
+You cannot run virtual tables or the following system tables:
 | ID |Name|
 |----|----|
 | 2000000170 |Configuration Package File|
