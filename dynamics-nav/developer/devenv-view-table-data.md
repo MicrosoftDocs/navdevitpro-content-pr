@@ -22,7 +22,7 @@ For developers, administrators, and support personnel, it can be useful to view 
 > The table appears as read-only in the client, so modifications cannot be made.
 
 > [!IMPORTANT]
-> Data in the tables can be sensitive. Be sure to follow your organizations guidelines for handling such data. 
+> Data in the tables can be sensitive. Be sure to follow your organization's guidelines for handling such data. 
 
 ## Required permissions
 Whether running the table directly from the client or from Visual Code, your [!INCLUDE[d365fin_md](includes/d365fin_md.md)] user account must have the following permissions:

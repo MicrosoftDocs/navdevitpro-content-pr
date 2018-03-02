@@ -44,7 +44,7 @@ The following table describes the settings in the ```app.json``` file:
 |showMyCode|No|This is by default set to `false` and not visible in the manifest. To enable viewing the source code when debugging into an extension, add the following setting: `"showMyCode": true`|
 |target|No|By default this is `Extension`. For Dynamics NAV, you can set this to `Internal` to get access to otherwise restricted APIs. The Dynamics NAV Server setting must then also be set to `Internal`. For more information, see [Configuring Microsoft Dynamics NAV Server](../configuring-microsoft-dynamics-nav-server.md).|
 
-## <a name="Launch"></a>Launch.json file
+## <a name="Launchjson"></a>Launch.json file
 
 The following table describes the settings in the ```launch.json``` file. The `launch.json` file has two configurations depending on whether the extension is published to a local server or to the cloud.
 
@@ -58,7 +58,7 @@ The following table describes the settings in the ```launch.json``` file. The `l
 |serverInstance|Yes|The instance name of your server, for example: `"NAV"`|
 |authentication|Yes|Specifies the server authentication method.|
 |startupObjectId|Yes|Specifies the ID of the object to open after publishing. Only objects of type Page and Table are currently supported.|
-|startupObjectType|No|Specifies the object to open after publishing is a Page type (`"page"`) or Table type (`"table"`) object.  The default is `"page"`.|
+|startupObjectType|No|Specifies whether the object to open after publishing is a Page type (`"page"`) or Table type (`"table"`) object. The default is `"page"`.|
 |schemaUpdateMode|No|Specifies the data synchronization mode when you publish an extension to the development server, for example: <br>`"schemaUpdateMode": "Synchronize Recreate"`</br> The default value is Synchronize. For more information, see [Retaining table data after publishing](devenv-retaining-data-after-publishing.md)  <br>[!INCLUDE[nav_not_supported](includes/nav_not_supported.md)]  |
 
 ### Publish to cloud settings
@@ -68,7 +68,7 @@ The following table describes the settings in the ```launch.json``` file. The `l
 |type|Yes|Must be set to `".al"`. Required by Visual Studio Code.|
 |request|Yes|Request type of the configuration. Must be set to `"launch"`. Required by Visual Studio Code.|
 |startupObjectId|Yes|Specifies the ID of the object to open after publishing. Only objects of type Page and Table are currently supported.|
-|startupObjectType|No|Specifies the object to open after publishing is a Page type (`"page"`) or Table type (`"table"`) object.  The default is `"page"`.|
+|startupObjectType|No|Specifies whether the object to open after publishing is a Page type (`"page"`) or Table type (`"table"`) object.  The default is `"page"`.|
 |serverInstance|Yes|The instance name of your server, for example: `"US"`|
 
 ## The platform symbol file
