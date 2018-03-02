@@ -54,13 +54,19 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 -   Using events to develop custom code to transform data when synchronizing between [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[crm](includes/crm_md.md)].  
 
 ## Creating an Integration Table in Dynamics NAV for the Dynamics 365 for Sales Entity  
- To integrate data from a [!INCLUDE[crm](includes/crm_md.md)] entity into [!INCLUDE[navnow](includes/navnow_md.md)], you must create a [!INCLUDE[navnow](includes/navnow_md.md)] table object that is based on the [!INCLUDE[crm](includes/crm_md.md)] entity, and then import the new table into the [!INCLUDE[navnow](includes/navnow_md.md)] database. For this walkthrough, you will create a [!INCLUDE[navnow](includes/navnow_md.md)] table object for the [!INCLUDE[crm](includes/crm_md.md)]**Campaign** entity. This table describes the schema of the [!INCLUDE[crm](includes/crm_md.md)] entity in [!INCLUDE[navnow](includes/navnow_md.md)] database. The table can contain all or some of the fields from the [!INCLUDE[crm](includes/crm_md.md)] entity. However, if you intend to write back to [!INCLUDE[crm](includes/crm_md.md)], you should include all fields in the table.  
+ To integrate data from a [!INCLUDE[crm](includes/crm_md.md)] entity into [!INCLUDE[navnow](includes/navnow_md.md)], you must create a [!INCLUDE[navnow](includes/navnow_md.md)] table object that is based on the [!INCLUDE[crm](includes/crm_md.md)] entity, and then import the new table into the [!INCLUDE[navnow](includes/navnow_md.md)] database. For this walkthrough, you will create a [!INCLUDE[navnow](includes/navnow_md.md)] table object for the [!INCLUDE[crm](includes/crm_md.md)] **Campaign** entity. This table describes the schema of the [!INCLUDE[crm](includes/crm_md.md)] entity in [!INCLUDE[navnow](includes/navnow_md.md)] database. The table can contain all or some of the fields from the [!INCLUDE[crm](includes/crm_md.md)] entity. However, if you intend to write back to [!INCLUDE[crm](includes/crm_md.md)], you should include all fields in the table.  
 
  Apart from creating a table object for the entity, you must also create a table object for any relationships that the entity has. For example, the **Campaign** entity has a relationship to the **ModifiedOn** and **CreatedBy** fields of the **Systemuser** entity. Therefore, you will also have to create a [!INCLUDE[navnow](includes/navnow_md.md)] table for this entity as well. However, the default [!INCLUDE[crm](includes/crm_md.md)] integration in [!INCLUDE[navnow](includes/navnow_md.md)] already includes the integration table **5340 CRM Systemuser** for the **Systemuser** entity. Therefore, you will only have to create the table object for the **Systemuser** entity to establish the relationships; you do not have to import this table into the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
 
 #### To create the integration table for the [!INCLUDE[crm](includes/crm_md.md)] Campaign entity  
 
-1.  Open the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].  
+1.  Open the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].
+
+2. Run the following command:
+
+    ```
+    Import-NAVCrmModule
+    ```
 
 2.  At the command prompt, run the New-NAVCrmTable cmdlet as shown in the following example. Include parameters that specify the [!INCLUDE[crm](includes/crm_md.md)] Server URL, the logical names of the [!INCLUDE[crm](includes/crm_md.md)]**Systemuser** and **Campaign** entities, the ID and name of the corresponding business data table objects in [!INCLUDE[navnow](includes/navnow_md.md)], and the path in which to store the generated text files for the table objects.  
 

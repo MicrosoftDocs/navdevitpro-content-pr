@@ -25,7 +25,7 @@ To integrate with [!INCLUDE[crm_md](includes/crm_md.md)], you must set up a conn
 ### To set up, test, and enable a connection to [!INCLUDE[crm_md](includes/crm_md.md)]  
 For all authentication types other than Office 365 authentication, you set your 365 for Sales connection up in the **Microsoft Dynamics 365 for Sales Connection Setup** window. For Office 365 authentication, you can also use the **Microsoft Dynamics 365 for Sales Connection Setup** assisted setup, which is a wizard that helps you fill in the required setup fields. The following procedure describes how to fill in the fields in the **Microsoft Dynamics 365 for Sales Connection Setup** window manually.
 
-1. In the **Search** box, enter **Microsoft Dynamics 365 for Sales Connection Setup**, and then choose the related link.  
+1. In the **Search** box, enter **Microsoft Dynamics 365 Connection Setup**, and then choose the related link.  
 
 2. Specify the Dynamics 365 for Sales URL and the user name and password of the service account of the server.
 3. On the **Authentication Type Details** FastTab, fill in the fields if you want to configure a connection to a 365 for Sales instance with a specific authentication type. For more information, see [Use connection strings in XRM tooling to connect to Dynamics 365](https://go.microsoft.com/fwlink/?linkid=843055).
@@ -61,32 +61,36 @@ For all authentication types other than Office 365 authentication, you set your 
     <th>Description</th>
   </tr>
   <tr>
-    <td>**Active Scheduled Synchronization Jobs**</td>
+    <td>Active Scheduled Synchronization Jobs</td>
     <td>Specifies how many of the default integration synchronization job queue entries are in the **Ready** state.<br /><br /> The default integration synchronization job queue entries synchronize data between [!INCLUDE[navnow_md](includes/navnow_md.md)] records and [!INCLUDE[crm_md](includes/crm_md.md)] records, such as customers and accounts. If there is no job queue started, the integration synchronization job queue entries cannot run.<br /><br /> For more information, see [Scheduled Synchronization Using the Synchronization Job Queue Entries](Scheduled-Synchronization-Using-the-Synchronization-Job-Queue-Entries.md).</td>
   </tr>
   <tr>
-    <td>**Dynamics NAV Integration Solution Imported**</td>
+    <td>Dynamics NAV Integration Solution Imported</td>
     <td>Specifies whether the [!INCLUDE[navnow_md](includes/navnow_md.md)] Integration Solution is installed and configured in [!INCLUDE[crm_md](includes/crm_md.md)]. You cannot change this setting. For more information, see [Install the Microsoft Dynamics NAV Integration Solution](How-to-prepare-Dynamics-CRM-for-Integration.md#InstallNavSolution).</td>
   </tr>
   <tr>
-    <td>**Dynamics NAV URL**</td>
+    <td>Dynamics NAV URL</td>
     <td>Specifies the URL of [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. This enables users in [!INCLUDE[crm_md](includes/crm_md.md)] to open corresponding records in [!INCLUDE[navnow_md](includes/navnow_md.md)] from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as an account or product. The [!INCLUDE[navnow_md](includes/navnow_md.md)] records open in the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. Set this field to the URL of the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] instance to use.<br /><br /> To reset the field to the default URL for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], choose **Reset Web Client URL** action.<br /><br /> This field is only relevant if the [!INCLUDE[navnow_md](includes/navnow_md.md)] Integration Solution is installed in [!INCLUDE[crm_md](includes/crm_md.md)].</td>
   </tr>
   <tr>
-    <td>**Version**</td>
+    <td>Version</td>
     <td>Specifies the version of [!INCLUDE[crm_md](includes/crm_md.md)]. For more information about the supported versions, see [Microsoft Dynamics NAV System Requirements](http://go.microsoft.com/fwlink/?LinkID=317819).</td>
   </tr>
   <tr>
-    <td>**Dynamics 365 for Sales Connection User is Integration User**</td>
+    <td>Dynamics 365 for Sales Connection User is Integration User</td>
     <td>Specifies the [!INCLUDE[crm_md](includes/crm_md.md)] user account that is used for the connection from [!INCLUDE[navnow_md](includes/navnow_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)] to be an integration user. When set to **Yes**, the integration user property of the connection user account is set and the user becomes a non\-interactive user in [!INCLUDE[crm_md](includes/crm_md.md)]. This setting does not assign the Integration User role to the connection user.</td>
   </tr>
   <tr>
-    <td>**Sales Order Integration is Enabled**</td>
+    <td>Sales Order Integration is Enabled</td>
     <td>Specifies whether sales order processing integration is enabled in [!INCLUDE[crm_md](includes/crm_md.md)]. This enables [!INCLUDE[crm_md](includes/crm_md.md)] users to submit sales orders, which can then be viewed and imported in [!INCLUDE[navnow_md](includes/navnow_md.md)].</td>
   </tr>
   <tr>
-    <td>**Dynamics NAV Users Must Map to Dynamics 365 for Sales Users**</td>
+    <td>Dynamics NAV Users Must Map to Dynamics 365 for Sales Users</td>
     <td>Specifies that [!INCLUDE[navnow_md](includes/navnow_md.md)] user accounts must have a matching user accounts in [!INCLUDE[crm_md](includes/crm_md.md)], as determined by the email addresses of the accounts. The **Office 365 Authentication Email** of the [!INCLUDE[navnow_md](includes/navnow_md.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[navnow_md](includes/navnow_md.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[navnow_md](includes/navnow_md.md)] is performed on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[navnow_md](includes/navnow_md.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is performed on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection user.</td>
+  </tr>
+  <tr>
+    <td>Dynamics 365 SDK Version</td>
+    <td>Specifies that Dynamics 365 software development kit ( also referred to as Xrm) to use to connect [!INCLUDE[navnow_md](includes/navnow_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version that you select must be compatible with SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)]. You must set this version equal or higher than the version used by  used by [!INCLUDE[crm_md](includes/crm_md.md)].</td>
   </tr>
 </table>
 8.  Choose the **OK** button when done.  
