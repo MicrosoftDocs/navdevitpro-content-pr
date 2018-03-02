@@ -52,21 +52,23 @@ The following table describes the settings in the ```launch.json``` file. The `l
 |Setting|Mandatory|Value|
 |-------|---------|-----|
 |name|Yes|"Publish to your own server"|
-|type|Yes|Must be set to ".al". Required by Visual Studio Code.|
-|request|Yes|Request type of the configuration. Must be set to `launch`. Required by Visual Studio Code.|
+|type|Yes|Must be set to `".al"`. Required by Visual Studio Code.|
+|request|Yes|Request type of the configuration. Must be set to `"launch"`. Required by Visual Studio Code.|
 |server|Yes|The HTTP URL of your server, for example: `"http://localhost|serverInstance"`|
 |serverInstance|Yes|The instance name of your server, for example: `"NAV"`|
 |authentication|Yes|Specifies the server authentication method.|
-|startupObjectId|Yes|Specifies the ID of the object to open after publishing. Only objects of type Page are currently supported.|
+|startupObjectId|Yes|Specifies the ID of the object to open after publishing. Only objects of type Page and Table are currently supported.|
+|startupObjectType|No|Specifies the object to open after publishing is a Page type (`"page"`) or Table type (`"table"`) object.  The default is `"page"`.|
 |schemaUpdateMode|No|Specifies the data synchronization mode when you publish an extension to the development server, for example: <br>`"schemaUpdateMode": "Synchronize Recreate"`</br> The default value is Synchronize. For more information, see [Retaining table data after publishing](devenv-retaining-data-after-publishing.md)  <br>[!INCLUDE[nav_not_supported](includes/nav_not_supported.md)]  |
 
 ### Publish to cloud settings
 |Setting|Mandatory|Value|
 |-------|---------|-----|
 |name|Yes|"Publish to Microsoft cloud sandbox"|
-|type|Yes|Must be set to ".al". Required by Visual Studio Code.|
-|request|Yes|Request type of the configuration. Must be set to `launch`. Required by Visual Studio Code.|
-|startupObjectId|Yes|Specifies the ID of the object to open after publishing. Only objects of type Page are currently supported.|
+|type|Yes|Must be set to `".al"`. Required by Visual Studio Code.|
+|request|Yes|Request type of the configuration. Must be set to `"launch"`. Required by Visual Studio Code.|
+|startupObjectId|Yes|Specifies the ID of the object to open after publishing. Only objects of type Page and Table are currently supported.|
+|startupObjectType|No|Specifies the object to open after publishing is a Page type (`"page"`) or Table type (`"table"`) object.  The default is `"page"`.|
 |serverInstance|Yes|The instance name of your server, for example: `"US"`|
 
 ## The platform symbol file
