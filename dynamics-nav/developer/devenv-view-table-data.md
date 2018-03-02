@@ -12,11 +12,11 @@ ms.author: jswymer
 ---
 
 # Viewing Table Data
-For developers, administrators, and support personnel, it can be useful to view and inspect records and data in tables of the tenant database, particularly when debugging or troubleshooting. To support this need, you can run table objects in the [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Web client.
+For developers, administrators, and support personnel, it can be useful to view and inspect records and data in tables of the tenant database, particularly when debugging or troubleshooting. To support this need, you can view table objects in the [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Web client.
 
--   In a production environment, administrators and support can run a table directly from the client by appending the URL in the browser. 
+-   In a production environment, administrators and support can view a table directly from the client by appending the URL in the browser. 
 
--   In a development environment, in addition to running a table directly from the client, developers can launch a table automatically when they publish/debug an AL project from Visual Studio. 
+-   In a development environment, in addition to viewing a table directly from the client, developers can view a table automatically when they publish/debug an AL project from Visual Studio. 
 
 > [!NOTE]
 > The table appears as read-only in the client, so modifications cannot be made.
@@ -25,27 +25,27 @@ For developers, administrators, and support personnel, it can be useful to view 
 > Data in the tables can be sensitive. Be sure to follow your organization's guidelines for handling such data. 
 
 ## Required permissions
-Whether running the table directly from the client or from Visual Code, your [!INCLUDE[d365fin_md](includes/d365fin_md.md)] user account must have the following permissions:
+Whether viewing the table directly from the client or from Visual Code, your [!INCLUDE[d365fin_md](includes/d365fin_md.md)] user account must have the following permissions:
 
--   Read permission on the table that you want to run.
+-   Read permission on the table that you want to view.
 -   Execution permission (direct) on the System object **1350 Run table**.
 
 For information about assigning permissions, see [Manage Users and Permissions](https://docs.microsoft.com/en-US/dynamics365/financials/ui-how-users-permissions).
  
-## Run a table object directly from the client
-To run a table, you add the `&table=<TableID>` to the client's address (URL), replacing `<TableID>` with the ID of the table that you want to run.
+## View a table object directly from the client
+To view a table, you add the `&table=<TableID>` to the client's address (URL), replacing `<TableID>` with the ID of the table that you want to see.
 
-For example, if the URL is `https://home.financials.dynamics.com`, then to run table **18 Customer**, you would use the following URL:
+For example, if the URL is `https://home.financials.dynamics.com`, then to view table **18 Customer**, you would use the following URL:
 
 ```
-https://home.financials.dynamics.com/?&table=18
+https://dynamics.businesscentral.com/?&table=18
 
 ```
 
 Or for a specific company, such as "CRONUS Inc.":
 
 ```
-https://home.financials.dynamics-tie.com/?company=CRONUS%20Inc.&table=18
+https://dynamics.businesscentral.com/?company=CRONUS%20Inc.&table=18
 
 ```
 
@@ -54,8 +54,8 @@ Notice the use of `&` when `table=<TableID>` is located within the query string 
 -->
 
 
-## Run a table object from an AL project in Visual Studio
-You can configure an AL project to run a table when you publish or debug the project (pressing F5 or Ctrl+F5). 
+## View a table object from an AL project in Visual Studio
+You can configure an AL project to view a table when you publish or debug the project (pressing F5 or Ctrl+F5). 
 
 In the `launch.json` file for the project, set the `"startupObjectType"` parameter to `"table"` and the `"startupObjectId"` parameter to the ID of the table. For example:
 
@@ -94,7 +94,7 @@ Known limitation: Viewing and scrolling through large tables has bad performance
 
 -->
 ## Constraints
-You cannot run virtual tables or the following system tables:
+You cannot view virtual tables or the following system tables:
 
 |  ID  |  Name  |
 |------|--------|
