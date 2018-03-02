@@ -35,7 +35,7 @@ For information about assigning permissions, see [Manage Users and Permissions](
 ## View a table object directly from the client
 To view a table, you add the `&table=<TableID>` to the client's address (URL), replacing `<TableID>` with the ID of the table that you want to see.
 
-For example, if the URL is `https://home.financials.dynamics.com`, then to view table **18 Customer**, you would use the following URL:
+For example, if the URL is `https://dynamics.businesscentral.com`, then to view table **18 Customer**, you would use the following URL:
 
 ```
 https://dynamics.businesscentral.com/?&table=18
