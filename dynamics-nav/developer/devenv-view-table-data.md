@@ -16,10 +16,13 @@ For developers, administrators, and support personnel, it can be useful to view 
 
 -   In a production environment, administrators and support can run a table directly from the client by appending the URL in the browser. 
 
--   In a development environment, in addition to running a table directly from the client, developers can launch a table automatically when they publish/debug an AL project in Visual Studio. 
+-   In a development environment, in addition to running a table directly from the client, developers can launch a table automatically when they publish/debug an AL project from Visual Studio. 
 
 > [!NOTE]
 > The table appears as read-only in the client, so modifications cannot be made.
+
+> [!IMPORTANT]
+> Data in the tables can be sensitive. Be sure to follow your organizations guidelines for handling such data. 
 
 ## Required permissions
 Whether running the table directly from the client or from Visual Code, your [!INCLUDE[d365fin_md](includes/d365fin_md.md)] user account must have the following permissions:
@@ -35,14 +38,14 @@ To run a table, you add the `&table=<TableID>` to the client's address (URL), re
 For example, if the URL is `https://home.financials.dynamics.com`, then to run table **18 Customer**, you would use the following URL:
 
 ```
-https://home.financials.dynamics.com/?table=18
+https://home.financials.dynamics.com/?&table=18
 
 ```
 
-Or for a specific company, such as "CRONUS USA Inc.":
+Or for a specific company, such as "CRONUS Inc.":
 
 ```
-https://home.financials.dynamics-tie.com/?company=CRONUS%20USA%2C%20Inc.&table=18
+https://home.financials.dynamics-tie.com/?company=CRONUS%20Inc.&table=18
 
 ```
 
@@ -52,10 +55,9 @@ Notice the use of `&` when `table=<TableID>` is located within the query string 
 
 
 ## Run a table object from an AL project in Visual Studio
-You can configure an AL project to run a table when you publish the project with and without debugging (F5 or Ctrl+F5). 
+You can configure an AL project to run a table when you publish or debug the project (pressing F5 or Ctrl+F5). 
 
-In the `launch.json` file for the project, set the `"startupObjectType"` parameter to `table` and the `"startupObjectId"` parameter to the ID of the table. For example:
-
+In the `launch.json` file for the project, set the `"startupObjectType"` parameter to `"table"` and the `"startupObjectId"` parameter to the ID of the table. For example:
 
 ```
 {
@@ -73,6 +75,8 @@ In the `launch.json` file for the project, set the `"startupObjectType"` paramet
 } 
 
 ```
+
+For more information about the `launch.json` file, see [Launch.json file](devenv-json-files.md#Launchjson).
 <!--
 U
 sers: 
@@ -91,8 +95,9 @@ Known limitation: Viewing and scrolling through large tables has bad performance
 -->
 ## Constraints
 You cannot run virtual tables or the following system tables:
-| ID |Name|
-|----|----|
+
+|  ID  |  Name  |
+|------|--------|
 | 2000000170 |Configuration Package File|
 | 2000000170 |Configuration Package File|
 | 2000000173 |Data Sensitivity|
@@ -102,7 +107,7 @@ You cannot run virtual tables or the following system tables:
 | 2000000114 |Document Service|
 | 2000000190 |Entitlement Set|
 | 2000000191 |Entitlement|
-|2000000180 |MediaSet|
+| 2000000180 |MediaSet|
 | 2000000181 |Media|
 | 2000000195 |Membership Entitlement|
 | 2000000162 |Nav App Capabilities|
@@ -111,7 +116,7 @@ You cannot run virtual tables or the following system tables:
 | 2000000150 |Nav App Object Metadata|
 | 2000000163 |Nav App Object Prerequisites|
 | 2000000142 |Nav App Resource|
-|2000000151  |Nav App TenantApp|
+| 2000000151  |Nav App TenantApp|
 | 2000000160 |Nav App|
 | 2000000071 |Object Metadata|
 | 2000000079 |Object Tracking|
@@ -128,7 +133,6 @@ You cannot run virtual tables or the following system tables:
 | 2000000076 |Web Service|
 | 2000000194 |Webhook Notification|
 | 2000000199 |Webhook Subscription|
-
 
 ## See Also  
 [Developing Extensions](devenv-dev-overview.md)  

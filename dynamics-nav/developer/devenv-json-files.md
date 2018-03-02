@@ -44,7 +44,7 @@ The following table describes the settings in the ```app.json``` file:
 |showMyCode|No|This is by default set to `false` and not visible in the manifest. To enable viewing the source code when debugging into an extension, add the following setting: `"showMyCode": true`|
 |target|No|By default this is `Extension`. For Dynamics NAV, you can set this to `Internal` to get access to otherwise restricted APIs. The Dynamics NAV Server setting must then also be set to `Internal`. For more information, see [Configuring Microsoft Dynamics NAV Server](../configuring-microsoft-dynamics-nav-server.md).|
 
-## Launch.json file
+## <a name="Launch"></a>Launch.json file
 
 The following table describes the settings in the ```launch.json``` file. The `launch.json` file has two configurations depending on whether the extension is published to a local server or to the cloud.
 
