@@ -90,10 +90,14 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
 |ModalPageHandler|Handles specific pages that are run modally.|  
 |ReportHandler|Handles specific reports.|  
 |RequestPageHandler|Handles the request page of a specific report.|  
+|HyperlinkHandler|Handles specific hyperlinks.|  
+|SendNotificationHandler|Handles [SEND](function-notificationsend.md) statements.|  
+|RecallNotificationHandler|Handles [RECALL](function-notificationrecall.md) statements.|  
+|SessionSettingsHandler|Handles [REREQUESTSESSIONUPDATE](requestsessionupdate-function-sessionsettings.md) statements.|  
 
- You create a specific handler for each page that you want to handle and a specific report handler for each report that you want to handle.  
+You create a specific handler for each page that you want to handle and a specific report handler for each report that you want to handle.  
 
- If you run a test codeunit from a test runner codeunit, then any unhandled UI in the test functions of the test codeunit causes a failure of the test. If you do not run the test codeunit from a test runner codeunit, then any unhandled UI is displayed as it typically would.  
+If you run a test codeunit from a test runner codeunit, then any unhandled UI in the test functions of the test codeunit causes a failure of the test. If you do not run the test codeunit from a test runner codeunit, then any unhandled UI is displayed as it typically would.  
 
  For more information, see [How to: Create Handler Functions](How-to--Create-Handler-Functions.md).  
 

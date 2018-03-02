@@ -32,6 +32,9 @@ Sets the type of function in a test codeunit.
 |**RequestPageHandler**|Handles specific report request pages.|  
 |**FilterPageHandler**|Handles specific filter pages for filtering tables.<br /><br /> For more information, see [Creating Filter Pages for Filtering Tables](Creating-Filter-Pages-for-Filtering-Tables.md)|  
 |**HyperlinkHandler**|Handles specific hyperlinks.|  
+|**SendNotificationHandler**|Handles specific [SEND](function-notificationsend.md) functions.|  
+|**RecallNotificationHandler**|Handles [RECALL](function-notificationrecall.md) functions.|  
+|**SessionSettingsHandler**|Handles [REREQUESTSESSIONUPDATE](requestsessionupdate-function-sessionsettings.md) functions.|  
   
 ## Remarks  
  You create test codeunits to test your application. A test codeunit can consist of one or more test functions, handler functions, and normal functions.  
