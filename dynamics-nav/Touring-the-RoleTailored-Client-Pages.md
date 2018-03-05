@@ -36,7 +36,9 @@ You can choose from the following page types:
   
 -   [StandardDialog Page Type](#StandardDialogPage)  
   
--   [Worksheet Page](#WorksheetPage)  
+-   [Worksheet Page](#WorksheetPage)
+
+-   [Headline Part Type](create-role-center-headline.md)  
   
 ## Designing Pages  
  You create page objects using Page Designer. In Page Designer, a page is basically an XML object comprised of a number of XML elements that determine the layout and the page content. The following illustration shows an example of Page Designer.  

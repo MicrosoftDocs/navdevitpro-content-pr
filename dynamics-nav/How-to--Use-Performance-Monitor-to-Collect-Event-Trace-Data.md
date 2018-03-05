@@ -83,4 +83,4 @@ This topic describes how to use Windows Performance Monitor to collect event tra
 ## See Also  
  [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
  [How to: Use PerfView to View Event Trace Data](How-to--Use-PerfView-to-View-Event-Trace-Data.md)  
- [Instrumenting av Application for Telemetry](instrumenting-application-for-telemetry.md)]
+ [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md)]
