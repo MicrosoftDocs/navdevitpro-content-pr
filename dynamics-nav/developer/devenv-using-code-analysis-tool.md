@@ -74,7 +74,7 @@ The analyzers that are shipped with the AL Language extension are available thro
 
 ## See also
 [Using the Code Analysis Tools with the Rule Set](devenv-using-code-analysis-tool-with-rule-set.md)  
-[Rule Set for the Code Analysis Tool](devenv-rule-set-syntax-for-code-analysis-tool.md)  
+[Rule Set for the Code Analysis Tool](devenv-rule-set-syntax-for-code-analysis-tools.md)  
 [Development in AL](devenv-dev-overview.md)  
 [Debugging in AL](devenv-debugging.md)
 
