@@ -56,7 +56,6 @@ To update the DataClassification property, run the following command. Replace \<
 Set-FieldDataClassificationFromExcelFile -ExcelFilePath "C:\NAV\W1 Fields (Main).xlsx" -SheetName 'Field Data Classification' -RTCFolder "<FilePath>" -DBName Navision_NAV2 -OutputFolder C:\Nav2\Classifications
 ```  
 
-
 ## <a name="ViewDataClassifications"></a>Viewing current field classifications
 To view the data classification on all fields, you can do one of the following:
 
