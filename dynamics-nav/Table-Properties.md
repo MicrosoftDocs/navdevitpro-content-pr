@@ -24,6 +24,8 @@ The following topic lists properties that apply to the table object.
 
 -   [DataCaptionFields Property](DataCaptionFields-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [DataPerCompany Property](DataPerCompany-Property.md)  
 
 -   [Description Property](Description-Property.md)  
@@ -38,11 +40,16 @@ The following topic lists properties that apply to the table object.
 
 -   [Name Property](Name-Property.md)  
 
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
+
 -   [PasteIsValid Property](PasteIsValid-Property.md)  
 
 -   [Permissions Property](Permissions-Property.md)  
 
 -   [TableType Property](TableType-Property.md)  
+
 
 ## BLOB Properties  
  The following properties apply to the **BLOB** field of a table object.  
@@ -57,6 +64,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [Description Property](Description-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
@@ -64,6 +73,10 @@ The following topic lists properties that apply to the table object.
 -   [Field No. Property](Field-No.-Property.md)  
 
 -   [Name Property](Name-Property.md)  
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [Owner Property](Owner-Property.md)  
 
@@ -94,6 +107,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [Description Property](Description-Property.md)  
 
 -   [Editable Property](Editable-Property.md)  
@@ -114,7 +129,11 @@ The following topic lists properties that apply to the table object.
 
 -   [Name Property](Name-Property.md)  
 
--   [NotBlank Property](NotBlank-Property.md)  
+-   [NotBlank Property](NotBlank-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [SignDisplacement Property](SignDisplacement-Property.md)  
 
@@ -151,6 +170,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [Description Property](Description-Property.md)  
 
 -   [Editable Property](Editable-Property.md)  
@@ -171,7 +192,11 @@ The following topic lists properties that apply to the table object.
 
 -   [Name Property](Name-Property.md)  
 
--   [NotBlank Property](NotBlank-Property.md)  
+-   [NotBlank Property](NotBlank-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [SignDisplacement Property](SignDisplacement-Property.md)  
 
@@ -204,6 +229,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [DataLength Property](DataLength-Property.md)  
 
 -   [DateFormula Property](DateFormula-Property.md)  
@@ -226,7 +253,11 @@ The following topic lists properties that apply to the table object.
 
 -   [NotBlank Property](NotBlank-Property.md)  
 
--   [Numeric Property](Numeric-Property.md)  
+-   [Numeric Property](Numeric-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [SQL Data Type Property](SQL-Data-Type-Property.md)  
 
@@ -263,6 +294,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [Description Property](Description-Property.md)  
 
 -   [Editable Property](Editable-Property.md)  
@@ -283,7 +316,11 @@ The following topic lists properties that apply to the table object.
 
 -   [Name Property](Name-Property.md)  
 
--   [NotBlank Property](NotBlank-Property.md)  
+-   [NotBlank Property](NotBlank-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [SignDisplacement Property](SignDisplacement-Property.md)  
 
@@ -314,6 +351,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [Description Property](Description-Property.md)  
 
 -   [Editable Property](Editable-Property.md)  
@@ -328,7 +367,11 @@ The following topic lists properties that apply to the table object.
 
 -   [InitValue Property](InitValue-Property.md)  
 
--   [Name Property](Name-Property.md)  
+-   [Name Property](Name-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [NotBlank Property](NotBlank-Property.md)  
 
@@ -361,6 +404,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [Description Property](Description-Property.md)  
 
 -   [Editable Property](Editable-Property.md)  
@@ -381,7 +426,11 @@ The following topic lists properties that apply to the table object.
 
 -   [Name Property](Name-Property.md)  
 
--   [NotBlank Property](NotBlank-Property.md)  
+-   [NotBlank Property](NotBlank-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [SignDisplacement Property](SignDisplacement-Property.md)  
 
@@ -416,6 +465,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [Description Property](Description-Property.md)  
 
 -   [Editable Property](Editable-Property.md)  
@@ -436,7 +487,11 @@ The following topic lists properties that apply to the table object.
 
 -   [Name Property](Name-Property.md)  
 
--   [NotBlank Property](NotBlank-Property.md)  
+-   [NotBlank Property](NotBlank-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [SignDisplacement Property](SignDisplacement-Property.md)  
 
@@ -473,6 +528,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [Description Property](Description-Property.md)  
 
 -   [Editable Property](Editable-Property.md)  
@@ -493,7 +550,11 @@ The following topic lists properties that apply to the table object.
 
 -   [Name Property](Name-Property.md)  
 
--   [NotBlank Property](NotBlank-Property.md)  
+-   [NotBlank Property](NotBlank-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [SignDisplacement Property](SignDisplacement-Property.md)  
 
@@ -528,6 +589,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [Description Property](Description-Property.md)  
 
 -   [Editable Property](Editable-Property.md)  
@@ -544,7 +607,11 @@ The following topic lists properties that apply to the table object.
 
 -   [Name Property](Name-Property.md)  
 
--   [NotBlank Property](NotBlank-Property.md)  
+-   [NotBlank Property](NotBlank-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [TableRelation Property](TableRelation-Property.md)  
 
@@ -577,6 +644,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [Description Property](Description-Property.md)  
 
 -   [Editable Property](Editable-Property.md)  
@@ -597,7 +666,11 @@ The following topic lists properties that apply to the table object.
 
 -   [Name Property](Name-Property.md)  
 
--   [NotBlank Property](NotBlank-Property.md)  
+-   [NotBlank Property](NotBlank-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [SignDisplacement Property](SignDisplacement-Property.md)  
 
@@ -610,6 +683,97 @@ The following topic lists properties that apply to the table object.
 -   [ValuesAllowed Property](ValuesAllowed-Property.md)  
 
 -   [Width Property](Width-Property.md)  
+
+
+## Media Properties  
+The following properties apply to the **Media** field of a table object.
+
+-   [AccessByPermission Property](AccessByPermission-Property.md)  
+
+-   [AutoFormatExpr Property](AutoFormatExpr-Property.md)  
+
+-   [AutoFormatType Property](AutoFormatType-Property.md)  
+
+-   [Caption Property](Caption-Property.md)  
+
+-   [CaptionClass Property](CaptionClass-Property.md)  
+
+-   [CaptionML Property](CaptionML-Property.md)  
+
+-   [Data Type Property](Data-Type-Property.md)  
+
+-   [DataClassification Property](dataclassification-Property.md)  
+
+-   [Description Property](Description-Property.md)  
+
+-   [Editable Property](Editable-Property.md)  
+
+-   [Enabled Property](Enabled-Property.md)  
+
+-   [Field No. Property](Field-No.-Property.md)  
+
+-   [FieldClass Property](FieldClass-Property.md)  
+
+-   [InitValue Property](InitValue-Property.md)  
+
+-   [Name Property](Name-Property.md)  
+
+-   [NotBlank Property](NotBlank-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
+
+-   [TableRelation Property](TableRelation-Property.md)  
+
+-   [TestTableRelation Property](TestTableRelation-Property.md)  
+
+-   [ValidateTableRelation Property](ValidateTableRelation-Property.md)  
+
+## MediaSet Properties  
+The following properties apply to the **MediaSet** field of a table object.
+
+-   [AccessByPermission Property](AccessByPermission-Property.md)  
+
+-   [AutoFormatExpr Property](AutoFormatExpr-Property.md)  
+
+-   [AutoFormatType Property](AutoFormatType-Property.md)  
+
+-   [Caption Property](Caption-Property.md)  
+
+-   [CaptionClass Property](CaptionClass-Property.md)  
+
+-   [CaptionML Property](CaptionML-Property.md)  
+
+-   [Data Type Property](Data-Type-Property.md)  
+
+-   [DataClassification Property](dataclassification-Property.md)  
+
+-   [Description Property](Description-Property.md)  
+
+-   [Editable Property](Editable-Property.md)  
+
+-   [Enabled Property](Enabled-Property.md)  
+
+-   [Field No. Property](Field-No.-Property.md)  
+
+-   [FieldClass Property](FieldClass-Property.md)  
+
+-   [InitValue Property](InitValue-Property.md)  
+
+-   [Name Property](Name-Property.md)  
+
+-   [NotBlank Property](NotBlank-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
+
+-   [TableRelation Property](TableRelation-Property.md)  
+
+-   [TestTableRelation Property](TestTableRelation-Property.md)  
+
+-   [ValidateTableRelation Property](ValidateTableRelation-Property.md)  
 
 ## OemCode Properties  
  The following properties apply to the **OemCode** field of a table object.  
@@ -632,6 +796,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [DataLength Property](DataLength-Property.md)  
 
 -   [DateFormula Property](DateFormula-Property.md)  
@@ -652,9 +818,13 @@ The following topic lists properties that apply to the table object.
 
 -   [Name Property](Name-Property.md)  
 
--   [NotBlank Property](NotBlank-Property.md)  
+-   [NotBlank Property](NotBlank-Property.md)    
 
 -   [Numeric Property](Numeric-Property.md)  
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [TableRelation Property](TableRelation-Property.md)  
 
@@ -691,6 +861,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [DataLength Property](DataLength-Property.md)  
 
 -   [DateFormula Property](DateFormula-Property.md)  
@@ -713,7 +885,11 @@ The following topic lists properties that apply to the table object.
 
 -   [NotBlank Property](NotBlank-Property.md)  
 
--   [Numeric Property](Numeric-Property.md)  
+-   [Numeric Property](Numeric-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [TableRelation Property](TableRelation-Property.md)  
 
@@ -748,6 +924,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [Description Property](Description-Property.md)  
 
 -   [Editable Property](Editable-Property.md)  
@@ -768,7 +946,11 @@ The following topic lists properties that apply to the table object.
 
 -   [Name Property](Name-Property.md)  
 
--   [NotBlank Property](NotBlank-Property.md)  
+-   [NotBlank Property](NotBlank-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [OptionCaption Property](OptionCaption-Property.md)  
 
@@ -805,6 +987,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [Description Property](Description-Property.md)  
 
 -   [Editable Property](Editable-Property.md)  
@@ -821,7 +1005,11 @@ The following topic lists properties that apply to the table object.
 
 -   [Name Property](Name-Property.md)  
 
--   [NotBlank Property](NotBlank-Property.md)  
+-   [NotBlank Property](NotBlank-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [TableRelation Property](TableRelation-Property.md)  
 
@@ -842,13 +1030,19 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [Description Property](Description-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
 -   [Field No. Property](Field-No.-Property.md)  
 
--   [Name Property](Name-Property.md)  
+-   [Name Property](Name-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [TableIDExpr Property](TableIDExpr-Property.md)  
 
@@ -873,6 +1067,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [DataLength Property](DataLength-Property.md)  
 
 -   [DateFormula Property](DateFormula-Property.md)  
@@ -893,9 +1089,13 @@ The following topic lists properties that apply to the table object.
 
 -   [Name Property](Name-Property.md)  
 
--   [NotBlank Property](NotBlank-Property.md)  
+-   [NotBlank Property](NotBlank-Property.md)    
 
--   [Numeric Property](Numeric-Property.md)  
+-   [Numeric Property](Numeric-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [TableRelation Property](TableRelation-Property.md)  
 
@@ -909,7 +1109,6 @@ The following topic lists properties that apply to the table object.
 
 -   [Width Property](Width-Property.md)  
 
--  
 
 ## Time Properties  
  The following properties apply to the **Time** field of a table object.  
@@ -932,6 +1131,8 @@ The following topic lists properties that apply to the table object.
 
 -   [Data Type Property](Data-Type-Property.md)  
 
+-   [DataClassification Property](dataclassification-Property.md)  
+
 -   [Description Property](Description-Property.md)  
 
 -   [Editable Property](Editable-Property.md)  
@@ -952,7 +1153,11 @@ The following topic lists properties that apply to the table object.
 
 -   [Name Property](Name-Property.md)  
 
--   [NotBlank Property](NotBlank-Property.md)  
+-   [NotBlank Property](NotBlank-Property.md)    
+
+-   [ObsoleteReason Property](obsoletereason-property.md)  
+
+-   [ObsoleteState Property](obsoletestate-property.md)  
 
 -   [SignDisplacement Property](SignDisplacement-Property.md)  
 
