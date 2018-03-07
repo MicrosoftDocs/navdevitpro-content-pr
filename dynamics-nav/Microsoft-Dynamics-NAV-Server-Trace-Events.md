@@ -120,7 +120,7 @@ Custom telemetry trace events are emitted from the application. These are events
 
 Some of the important event data that is collected for both system and custom telemetry trace events includes: tag, category, message, dataclassification.  For more information about this data, see [Event Trace Data](Microsoft-Dynamics-NAV-Server-Trace-Events.md#ArgRef). 
 
-Telemetry events can have one of the following event IDs, based on the data classification and verbosity (or seveity level):
+Telemetry events can have one of the following event IDs, based on the data classification and verbosity (severity level):
 
 |  Data classification |  Verbosity | ID  |
 |----------------------|------------|-----|
@@ -138,6 +138,7 @@ Telemetry events can have one of the following event IDs, based on the data clas
 ||Verbose|711 |
 ||Warning|712 |
 
+
 >[!NOTE]
 > Event IDs 703, 706, and 710 are used only for system telemetry trace events. All other IDs are used for both system and custom events.
 
@@ -148,7 +149,7 @@ The following table lists the arguments that make up the data collected for trac
 |--------------|-----------------|----------------------|  
 |category|Specifies the category of the telemetry trace event.|Telemetry (TelemetryData)|  
 |connectionType|Specifies the [!INCLUDE[rtc](includes/rtc_md.md)] that has established the connection to the [!INCLUDE[navnow](includes/navnow_md.md)] server instance. Values include [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)].|Service calls (ServiceCall)|
-|dataclassification|Specifies the [!INCLUDE[rtc](includes/rtc_md.md)] that has established the connection to the [!INCLUDE[navnow](includes/navnow_md.md)] server instance. Values include [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)].|Service calls (ServiceCall)|    
+|dataclassification|Specifies the client that has established the connection to the [!INCLUDE[navnow](includes/navnow_md.md)] server instance. Values include [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)].|Service calls (ServiceCall)|    
 |failureMessage|Includes the error message that is returned when a C/AL function fails.|C/AL function trace events (ALTracing)|  
 |functionName|Specifies the C/AL function that was executed.|C/AL function trace events (ALTracing)|
 |lineNumber|Specifies the line number of the statement in the C/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object that was executed.|C/AL function trace events|  

@@ -51,11 +51,11 @@ You use the parameters to define the information about the telemetry trace event
 For example, the following code creates simple telemetry trace events for the five different severity levels. 
 
 ```  
-SENDTRACETAG('Cronus-0001', 'Action', VERBOSITY::Critical, 'This is a critical message.', DATACLASSIFICATION::CustomerContent);
-SENDTRACETAG('Cronus-0002', 'Action', VERBOSITY::Error, 'This is an error message.',  DATACLASSIFICATION::EndUserIdentifiableInformation);
-SENDTRACETAG('Cronus-0003', 'Action', VERBOSITY::Warning, 'This is a warning message.', DATACLASSIFICATION::AccountData);
-SENDTRACETAG('Cronus-0004', 'Action', VERBOSITY::Normal, 'This is an informational message.', DATACLASSIFICATION::OrganizationIdentifiableInformation);
-SENDTRACETAG('Cronus-0005', 'Action', VERBOSITY::Verbose, 'This is a verbose message.', DATACLASSIFICATION::SystemMetadata);
+SENDTRACETAG('Cronus-0001', 'Action', VERBOSITY::Critical, 'This is a critical message.');
+SENDTRACETAG('Cronus-0002', 'Action', VERBOSITY::Error, 'This is an error message.');
+SENDTRACETAG('Cronus-0003', 'Action', VERBOSITY::Warning, 'This is a warning message.');
+SENDTRACETAG('Cronus-0004', 'Action', VERBOSITY::Normal, 'This is an informational message.');
+SENDTRACETAG('Cronus-0005', 'Action', VERBOSITY::Verbose, 'This is a verbose message.');
 ```  
 
 <!-- future CU

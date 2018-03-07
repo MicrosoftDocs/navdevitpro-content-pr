@@ -74,6 +74,7 @@ These values correspond to values of the [DataClassification property](dataclass
 ## Remarks 
 You use the SENDTRACETAG function for instrumenting the application for telemetry. When the SENDTRACETAG function called, a telemetry trace event is emitted. The event can then be recorded in the Windows event log or collected by other event trace collection tools, like PerfView, Logman, and Performance Monitor. 
 
+<!-- future CU 
 A telemetry event is given one of the following event IDs, depending on the `DATACLASSIFICATION`and `VERBOSITY`:
 
 |  DATACLASSIFICATION |  VERBOSITY |    ID|
@@ -89,11 +90,21 @@ A telemetry event is given one of the following event IDs, depending on the `DAT
 ||Verbose|711 |
 ||Warning|712 |
 
+-->
+
 For more information about instrumenting and monitoring telemetry, see [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md) and [Monitoring-Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md). 
 
 
 ## Example 
 The following code defines simple telemetry events for the five different severity levels. 
+```  
+SENDTRACETAG('Cronus-0001', 'Action', VERBOSITY::Critical, 'This is a critical message.');
+SENDTRACETAG('Cronus-0002', 'Action', VERBOSITY::Error, 'This is an error message.');
+SENDTRACETAG('Cronus-0003', 'Action', VERBOSITY::Warning, 'This is a warning message.');
+SENDTRACETAG('Cronus-0004', 'Action', VERBOSITY::Normal, 'This is an informational message.');
+SENDTRACETAG('Cronus-0005', 'Action', VERBOSITY::Verbose, 'This is a verbose message.');
+```  
+<!-- 
 ```  
 SENDTRACETAG('Cronus-0001', 'Action', VERBOSITY::Critical, 'This is a critical message.', DATACLASSIFICATION::CustomerContent);
 SENDTRACETAG('Cronus-0002', 'Action', VERBOSITY::Error, 'This is an error message.',  DATACLASSIFICATION::EndUserIdentifiableInformation);
@@ -101,7 +112,7 @@ SENDTRACETAG('Cronus-0003', 'Action', VERBOSITY::Warning, 'This is a warning mes
 SENDTRACETAG('Cronus-0004', 'Action', VERBOSITY::Normal, 'This is an informational message.', DATACLASSIFICATION::OrganizationIdentifiableInformation);
 SENDTRACETAG('Cronus-0005', 'Action', VERBOSITY::Verbose, 'This is a verbose message.', DATACLASSIFICATION::SystemMetadata);
 ```  
-
+-->
 The events emitted by this code will have the events IDs (listed in the order that the are called): 707, 708, 705, 702, and 704.
 
 ## See Also  
