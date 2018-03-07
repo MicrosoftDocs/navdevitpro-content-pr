@@ -18,7 +18,12 @@ author: jswymer
 Classifying data serves different purposes. It can make data easier and more efficient to locate and retrieve, and also help to add another layer of protection and security for handling private and sensitive data. It can supplement your process for making the application compliant with legislative and regulatory requirements for collecting, storing, and using personal information. 
 
 >[!IMPORTANT]
-> You should consider the data classification features offered in [!INCLUDE[navnow_md](includes/navnow_md.md)] as the first layer of classification - done by developers (Dynamics NAV and partners) on customizations, add-ons, and extensions. The second layer is to classify the sensitivity of the data itself. For more information, see [Classifying Data Sensitivity](classifying-data-sensitivity.md). It's also important to consider end-users, and how they handle data they provide and that is made available to them.
+> You should consider the data classification features offered in [!INCLUDE[navnow_md](includes/navnow_md.md)] as the first layer of classification - done by developers (Dynamics NAV and partners) on customizations, add-ons, and extensions. The second layer is the users and how they handle data they provide and that is made available to them.
+
+<!-- future CU
+The second layer is to classify the sensitivity of the data itself. For more information, see [Classifying Data Sensitivity](classifying-data-sensitivity.md). It's also important to consider end-users, and how they handle data they provide and that is made available to them.
+
+-->
 
 ## <a name="DataClassifications"></a>What are the different data classifications?
 The following table describes the different classifications that you can apply to data:
@@ -65,7 +70,7 @@ To view the data classification on all fields, you can do one of the following:
 
 To view the data classification on all tables, create a page that has the virtual table **Table Metadata** (ID 2000000136)  as its source, and open the page in the client.
 
-
+<!-- future CU
 ## Classifying data in custom telemetry trace events
 Custom telemetry trace events are defined by calls to the SENDTRACETAG function/method in the application code. The SENDTRACETAG function/method includes an optional parameter called `DataClassification` that you can use to tag the telemetry trace event with a data classification.
 
@@ -74,6 +79,8 @@ For more information, see the following articles:
 -   [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md) 
 -   [SENDTRACETAG Function (C/AL)](sendtracetag-function.md)
 -   [SENDTRACETAG Method (AL)](developer/methods/devenv-sendtracetag-method.md)
+
+--> 
 
 ## See Also
 [How to: Create a Page to View a Virtual Table](How-to--Create-a-Page-to-View-a-Virtual-Table.md)    
