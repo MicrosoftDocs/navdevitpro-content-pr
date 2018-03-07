@@ -2,7 +2,7 @@
 title: "Classifying Data in Dynamics NAV"
 ms.author: jswymer
 ms.custom: na
-ms.date: 01/05/2018
+ms.date: 07/03/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
