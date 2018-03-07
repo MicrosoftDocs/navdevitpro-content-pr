@@ -305,6 +305,7 @@
 ## [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)
 ## [Managing Users](Managing-Users.md)
 ## [Managing Companies](Managing-Companies.md)
+## [Classifying Data](classifying-data.md)
 ## [Administration in the Development Environment](Administration-in-the-Development-Environment.md)
 ## [Optimizing SQL Server Performance with Microsoft Dynamics NAV](Optimizing-SQL-Server-Performance-with-Microsoft-Dynamics-NAV.md)
 ## [Monitoring Microsoft Dynamics NAV Server](Monitoring-Microsoft-Dynamics-NAV-Server.md)
