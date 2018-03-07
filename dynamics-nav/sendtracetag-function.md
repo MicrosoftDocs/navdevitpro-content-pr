@@ -15,9 +15,13 @@ Sends a telemetry trace event to the event log.
 ## Syntax  
   
 ```  
-SENDTRACETAG(Tag, Category, Verbosity, Message[, DataClassification])  
+SENDTRACETAG(Tag, Category, Verbosity, Message)  
 ```  
-  
+<!-- future CU
+```  
+SENDTRACETAG(Tag, Category, Verbosity, Message[, DataClassification])  
+``` 
+-->
 ## Parameters  
 *Tag*  
 Type: Text or code  
@@ -39,12 +43,15 @@ Type: Text or code
   
 Specifies the descriptive message for the telemetry trace event. 
 
+<!-- future CU
 *DataClassification*  
 Type: DataClassification  
   
 Specifies a classification for the data in the telemetry trace event. The following values are supported:
 
 [!INCLUDE[data_classifications](includes/data_classifications.md)] 
+
+-->
 
 <!--
 

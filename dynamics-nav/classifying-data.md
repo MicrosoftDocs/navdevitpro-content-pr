@@ -39,9 +39,11 @@ Dynamics NAV operates with some standard rules for classification:
 -   Existing tables and fields (except for FlowFields and FlowFilters) in an application that has been upgraded from a [!INCLUDE[navnow_md](includes/navnow_md.md)] version without the DataClassification property, will automatically be assigned the **CustomerContent** classification.
 
 
-For more information about this property, see the following articles:
--   [DataClassification Property in C/AL](dataclassification-property.md)
+For more information about this property, see [DataClassification Property in C/AL](dataclassification-property.md).
+
+<!-- 
 -   [DataClassification Property in AL](developer/properties/devenv-dataclassification-property.md) 
+-->
 
 ### Data classification on upgrade
 When you upgrade an application from a [!INCLUDE[navnow_md](includes/navnow_md.md)] version that does not contain the DataClassification property, existing tables and fields (except for FlowFields and FlowFilters) will automatically be assigned the **CustomerContent** classification. You can then access the **DataClassification** property on these tables and fields, and change the classification as needed. FlowFields and FlowFilters will be assigned the **SystemMetadata** classification automatically.

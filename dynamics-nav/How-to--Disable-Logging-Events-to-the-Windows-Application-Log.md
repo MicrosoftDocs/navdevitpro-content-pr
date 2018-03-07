@@ -18,7 +18,7 @@ Because the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events ar
   
  To disable logging to the Window Applications Log, you can use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or modify the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance configuration file \(CustomSettings.config\).  
   
-## To configure custome telemtery logging to the Windows Application log by using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]  
+## To configure custom telemtery logging to the Windows Application log by using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]  
   
 1.  To start the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], choose **Start**, and in the **Search programs and files** box, type **Microsoft Dynamics NAV Administration**, and then choose the related link.  
   
