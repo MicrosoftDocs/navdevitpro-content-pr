@@ -27,6 +27,8 @@ The following AL methods for managing [!INCLUDE[d365fin_long_md](../includes/d36
 
  [DEFAULTCLIENTTYPE Method](devenv-DEFAULTCLIENTTYPE-Method.md)  
 
+ [SENDTRACETAG Method](devenv-SENDTRACETAG-Method.md)
+
  [STARTSESSION Method \(Sessions\)](devenv-STARTSESSION-Method-Sessions.md)
 
  [STOPSESSION Method \(Sessions\)](devenv-STOPSESSION-Method-Sessions.md)
