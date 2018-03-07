@@ -49,7 +49,7 @@ Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |partialShipping|boolean|Specifies whether partial shipping of items is preferred or not.|
 |requestedDeliveryDate|Date|The requested delivery date.|
 |discountAmount|numeric|The order discount amount|
-|discountAppliedBeforeTax|boolean|Specifies whether the discount is applied before tax.|
+|discountAppliedBeforeTax|boolean|Specifies whether the discount is applied before tax. Read-Only.|
 |totalAmountExcludingTax|numeric|The total amount excluding tax. Read-Only.|
 |totalTaxAmount|numeric|The total tax amount for the order. Read-Only.|
 |totalAmountIncludingTax|numeric|The total amount for the order, including tax. Read-Only.|
