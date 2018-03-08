@@ -17,7 +17,7 @@ ms.author: SorenGP
 # Deprecated Features in the Spanish Version of Microsoft Dynamics NAV 2018
 This topic lists and describes the local functionality for Spain that has been removed from [!INCLUDE[navnow](includes/navnow_md.md)], made available from a new page or report, or replaced by a new feature.
 
-## Multiple Interest Rates
+## G/L Account Equivalency Tool
 The **G/L Account Equivalency** tool that was used for one-time conversion of an existing chart of accounts to a new one has been removed.
 
 |Moved, Removed, or Replaced?|Why?|
