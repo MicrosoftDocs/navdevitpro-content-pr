@@ -22,7 +22,7 @@ The **G/L Account Equivalency** tool that was used for one-time conversion of an
 
 |Moved, Removed, or Replaced?|Why?|
 |----|----|
-|Moved| The Multiple Interest Rates feature is no longer specific to Spain, so we have made it generally available in the standard product. |
+|Removed| The **G/L Account Equivalency** tool that was used for one-time conversion of an existing chart of accounts to a new one has been removed. |
 
 ## See Also
 [Upgrading to Microsoft Dynamics NAV 2018](upgrading-to-microsoft-dynamics-nav.md)  
