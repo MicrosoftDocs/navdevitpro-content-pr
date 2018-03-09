@@ -340,6 +340,7 @@
 ### [Deprecated Features in the German Version](deprecated-features-de.md)
 ### [Deprecated Features in the Italian Version](deprecated-features-it.md)
 ### [Deprecated Features in the Norwegian Version](deprecated-features-no.md)
+### [Deprecated Features in the Spanish Version](deprecated-features-es.md)
 ### [Deprecated Features in the Swedish Version](deprecated-features-se.md)
 ### [Deprecated Features in the Swiss Version](deprecated-features-ch.md)
 ### [Deprecated Features in the UK Version](deprecated-features-uk.md)
