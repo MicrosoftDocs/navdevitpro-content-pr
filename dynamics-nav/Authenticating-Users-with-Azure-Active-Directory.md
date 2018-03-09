@@ -1,5 +1,5 @@
 ---
-title: User Authentication with Azure AD
+title: User Authentication with Azure AD for Single Sign-on
 description: Associate an existing Microsoft account with Dynamics NAV user account to achieve single sign-on between the Web client and Office 365.
 ms.custom: na
 ms.date: 10/17/2017
