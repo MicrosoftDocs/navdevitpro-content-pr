@@ -176,7 +176,9 @@ Using the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short
 ##  <a name="ConnectToServer"></a> Task 10: Connect a [!INCLUDE[nav2018_md](includes/nav2018_md.md)] Server instance to the converted database
 You use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] for [!INCLUDE[nav2018_md](includes/nav2018_md.md)] or [Set-NAVServerConfiguration cmdlet](https://go.microsoft.com/fwlink/?linkid=401394) in the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] to connect a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to the converted database.  
 
-In addition, you must add the service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance as a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server.  
+The service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance as a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server or Azure SQL Database.
+
+On Azure SQL Database, the service account must also be a member of the **dbmanager** database role on master database. This membership is only required for converting the database, and can be removed afterwards. 
 
 > [!IMPORTANT]  
 >  When upgrading a large database, you should increase the **SQL Command Timeout** setting for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, to avoid timeouts during schema synchronization. The default setting is 30 minutes.  
