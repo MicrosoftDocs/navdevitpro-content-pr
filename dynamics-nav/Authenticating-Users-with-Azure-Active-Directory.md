@@ -25,19 +25,18 @@ Azure Active Directory \(Azure AD\) is a cloud service that provides identity an
 
  If you want to sign up for an Office 365 plan, you can use a plan such as Office 365 Enterprise E1 as your test site, or sign up for a trial developer plan. A trial plan includes an administrative account which you will use to access the Azure management portal. For example, if your Office 365 site is *Solutions.onmicrosoft.com*, your administrative account can be *admin@solutions.onmicrosoft.com*. For more information, see [Select an Office 365 plan for business](http://go.microsoft.com/fwlink/?LinkId=309050).  
 
- Alternatively, you can sign up for an Azure subscription that is not associated with an Office 365 subscription. You can sign up in the Azure management portal at [http://manage.windowsazure.com](http://manage.windowsazure.com). Then, you can configure an Active Directory, which creates an Azure AD tenant. For more information, see [Administering your Azure AD tenant](http://go.microsoft.com/fwlink/?LinkId=317423).  
+ Alternatively, you can sign up for an Azure subscription that is not associated with an Office 365 subscription. You can sign up in the Azure portal at [http://portal.azure.com](http://portal.azure.com). Then, you can configure an Azure Active Directory, which creates an Azure AD tenant. For more information, see [How to get an Azure Active Directory tenant](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-howto-tenant).
+ 
+ <!-- For more information, see [Administering your Azure AD tenant](http://go.microsoft.com/fwlink/?LinkId=317423).-->  
 
- When you create a directory in the Azure management portal, you must specify a domain name that identifies your Azure AD tenant, such as *solutions.onmicrosoft.com* or *CRONUSInternationLtd.onmicrosoft.com*. You will use the domain name when you add users to your Azure AD.  
+ When you create an Azure Active Directory in the Azure portal, you must specify a domain name that identifies your Azure AD tenant, such as *solutions.onmicrosoft.com* or *CRONUSInternationLtd.onmicrosoft.com*. You will use the domain name when you add users to your Azure AD.  
 
- When you have created the Azure AD tenant, you must add users. For more information, see [Add new users or users with Microsoft accounts to Azure Active Directory](http://go.microsoft.com/fwlink/?LinkId=317435). 
-
-
-https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-howto-tenant
+ When you have created the Azure AD tenant, you must add users. For more information, see [Quickstart: Add new users to Azure Active Directory](http://go.microsoft.com/fwlink/?LinkId=317435). 
 
 ## Task 2: Add an Application for [!INCLUDE[navnow](includes/navnow_md.md)] to the Azure AD Tenant  
  You must register your [!INCLUDE[navnow](includes/navnow_md.md)] solution as an application in Azure AD tenant. Then, you can choose to make it available to other Azure AD tenants.  
 
- You can add the Azure AD application by using the [Azure portal](http://go.microsoft.com/fwlink/?LinkID=317944). For more specific guidelines about how to use the Azure portal, see [Register your application with your Azure Active Directory tenant](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-app-registration). When you add an application to an Azure AD tenant, you must specify the following information.
+ You can add the Azure AD application by using the [Azure portal](http://portal.azure.com). For more specific guidelines, see [Register your application with your Azure Active Directory tenant](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-app-registration). When you add an application to an Azure AD tenant, you must specify the following information.
 
 |Setting/option|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
 |-----------------|---------------------------------|---------------------------------------|
@@ -67,7 +66,8 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
 
 	The federation metadata is used to establish a trust relationship between [!INCLUDE[navnow](includes/navnow_md.md)] and Azure AD. You must specify the federation metadata document URL that you retrieved from the Azure AD overview page in the configuration settings for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances. The federation metadata location is part of the client services section of the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration. For example, in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], on the **Azure Active Directory** tab, the **WS-Federation Metadata Location** field specifies the location, such as:
 	
-	``` https://login.windows.net/CRONUSInternationLtd.onmicrosoft.com/FederationMetadata/2007-06/FederationMetadata.xml
+	```
+	https://login.windows.net/CRONUSInternationLtd.onmicrosoft.com/FederationMetadata/2007-06/FederationMetadata.xml
 	```  
 
 3.	Specify the WS-federation login endpoint.
@@ -84,7 +84,7 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
     https://login.windows.net/CRONUSInternationLtd.onmicrosoft.com/wsfed?wa=wsignin1.0%26wtrealm=https://CRONUSInternationLtd.onmicrosoft.com/Financials%26wreply=https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/SignIn.aspx
     ```
 
-    (For [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions, include `/WebClient`after `/DynamicsNAV`.)
+    (For [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions, include `/WebClient` after `/DynamicsNAV`.)
 
 	**Parameter descriptions**:
 
@@ -98,11 +98,15 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
 
 	`[APP REPLY URL]` is the reply URL that was assigned to the [!INCLUDE[navnow](includes/navnow_md.md)] application when it was registered in the Azure AD tenant. This parameter must point to the SignIn.aspx page of the [!INCLUDE[nav_web](includes/nav_web_md.md)], which in most cases, this is the same as the **Sign-On URL** for the application. For example:
 	
-	```https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/SignIn.aspx```
+	```
+	https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/SignIn.aspx
+	```
 	
 	 or for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions:
 	 
-	```https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/SignIn.aspx```
+	```
+	https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/SignIn.aspx
+	```
 	
 	The wreply parameter is optional. The wreply query parameter tells the Azure AD authentication service where to send the authentication token. If you do not specify the wreply parameter, it will be deducted from the URL in the browser.
 
