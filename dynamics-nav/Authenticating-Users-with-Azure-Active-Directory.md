@@ -20,7 +20,7 @@ Azure Active Directory \(Azure AD\) is a cloud service that provides identity an
 
  The following sections describe the tasks involved in setting up Azure AD authentication for authenticating [!INCLUDE[navnow](includes/navnow_md.md)] users.
 
-## Create an Azure AD Tenant  
+## Task 1: Create an Azure AD Tenant  
  If you have an Office 365 subscription that is based on a domain such as *solutions.onmicrosoft.com*, you are already using Azure AD because the user accounts are based on Azure AD. Then, if you add the email addresses for those user accounts to the user accounts in [!INCLUDE[navnow](includes/navnow_md.md)], the users experience seamless integration between your SharePoint site and the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 
  If you want to sign up for an Office 365 plan, you can use a plan such as Office 365 Enterprise E1 as your test site, or sign up for a trial developer plan. A trial plan includes an administrative account which you will use to access the Azure management portal. For example, if your Office 365 site is *Solutions.onmicrosoft.com*, your administrative account can be *admin@solutions.onmicrosoft.com*. For more information, see [Select an Office 365 plan for business](http://go.microsoft.com/fwlink/?LinkId=309050).  
@@ -31,7 +31,10 @@ Azure Active Directory \(Azure AD\) is a cloud service that provides identity an
 
  When you have created the Azure AD tenant, you must add users. For more information, see [Add new users or users with Microsoft accounts to Azure Active Directory](http://go.microsoft.com/fwlink/?LinkId=317435). 
 
-## Add an Application for [!INCLUDE[navnow](includes/navnow_md.md)] to the Azure AD Tenant  
+
+https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-howto-tenant
+
+## Task 2: Add an Application for [!INCLUDE[navnow](includes/navnow_md.md)] to the Azure AD Tenant  
  You must register your [!INCLUDE[navnow](includes/navnow_md.md)] solution as an application in Azure AD tenant. Then, you can choose to make it available to other Azure AD tenants.  
 
  You can add the Azure AD application by using the [Azure portal](http://go.microsoft.com/fwlink/?LinkID=317944). For more specific guidelines about how to use the Azure portal, see [Register your application with your Azure Active Directory tenant](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-app-registration). When you add an application to an Azure AD tenant, you must specify the following information.
@@ -49,10 +52,10 @@ Your [!INCLUDE[navnow](includes/navnow_md.md)] solution is now registered in you
 
 Next, you must configure the application to be externally available. Also, you can change the logo to reflect the functionality of the application. From the overview page for [!INCLUDE[navnow](includes/navnow_md.md)] as an application, you can change configuration settings by choosing **Configure**. Then, save your changes.  
 
-## Make [!INCLUDE[navnow](includes/navnow_md.md)] Available to Azure AD Tenants (for SharePoint app only)  
+## Task 2a: Make [!INCLUDE[navnow](includes/navnow_md.md)] Available to Azure AD Tenants (for SharePoint app only)  
 In the overview page for the application, the **URL for Granting Access** field contains a URL that you can send to users in other Azure AD tenants. Then, when they choose the link, a page displays where they must agree to trust the application. If they accept, the app is added to their SharePoint site.  
 
-## Configure [!INCLUDE[nav_server](includes/nav_server_md.md)] for Azure AD
+## Task 3: Configure [!INCLUDE[nav_server](includes/nav_server_md.md)] for Azure AD
 
 You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] and by using [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).
 
@@ -101,12 +104,12 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
 
  You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] and by using [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
 
-## Configure [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] for Azure AD  
+## Task 4: Configure [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] for Azure AD  
  You must configure The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] that must support Azure AD must also be configured to use AccessControlService as the credential type.  
 
 For more information see, [Configure Authentication of Dynamics NAV Web Client Users](How-to--Configure-Authentication-of-Microsoft-Dynamics-NAV-Web-Client-Users.md).
 
-## Configure [!INCLUDE[nav_windows](includes/nav_windows_md.md)] for Azure AD  
+## Task 5: Configure [!INCLUDE[nav_windows](includes/nav_windows_md.md)] for Azure AD  
  The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] must also be configured to use AccessControlService as the credential type in order to support Azure AD. In addition, the **ACSUri** setting for Azure AD authentication must be set. The value should be that same as the **WS-Federation Login Endpoint** setting of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances, except for the [App REPLY URL] parameter. The *ACSUri* setting has the following format:
 
 ```
