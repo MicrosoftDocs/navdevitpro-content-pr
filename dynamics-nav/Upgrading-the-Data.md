@@ -133,6 +133,9 @@ Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records fro
     ```
 
 ##  <a name="ConvertDb"></a> Task 8: Convert the old database to the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] format  
+
+If the database is on Azure SQL Database, you must first add your user account to the **dbmanager** database role on master database. This membership is only required for converting the database, and can be removed afterwards. 
+
 To convert the old database to the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] format, open the old database in the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and follow the conversion instructions.
 
 > [!IMPORTANT]
@@ -176,7 +179,8 @@ Using the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short
 ##  <a name="ConnectToServer"></a> Task 10: Connect a [!INCLUDE[nav2018_md](includes/nav2018_md.md)] Server instance to the converted database
 You use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] for [!INCLUDE[nav2018_md](includes/nav2018_md.md)] or [Set-NAVServerConfiguration cmdlet](https://go.microsoft.com/fwlink/?linkid=401394) in the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] to connect a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to the converted database.  
 
-In addition, you must add the service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance as a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server.  
+The service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server or Azure SQL Database.
+
 
 > [!IMPORTANT]  
 >  When upgrading a large database, you should increase the **SQL Command Timeout** setting for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, to avoid timeouts during schema synchronization. The default setting is 30 minutes.  
