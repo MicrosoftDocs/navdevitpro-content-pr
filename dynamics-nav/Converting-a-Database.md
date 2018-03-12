@@ -97,9 +97,13 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
 > [!TIP]  
 >  If you want to write a script that helps you convert databases, you can use the Invoke-NAVDatabaseConversion function in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].  
 
-#### To convert the database  
+### To convert the database  
 
-1.  Install [!INCLUDE[nav2018_md](includes/nav2018_md.md)].  
+1.  If the database is on Azure SQL Database, add your user account to the **dbmanager** database role on master database.
+
+    This membership is only required for converting the database, and can be removed afterwards. 
+
+2. Install [!INCLUDE[nav2018_md](includes/nav2018_md.md)].  
 
      Run the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] Setup, and choose to install the **Developer** option.  
 
@@ -130,8 +134,6 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
 
      > [!IMPORTANT]
      > The service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server or Azure SQL Database.
-     >
-     > On Azure SQL Database, the service account must also be a member of the **dbmanager** database role on master database. This membership is only required for converting the database, and can be removed afterwards. 
 
      For more information, see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect-a-Microsoft-Dynamics-NAV-Server-Instance-to-a-Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).  
      
