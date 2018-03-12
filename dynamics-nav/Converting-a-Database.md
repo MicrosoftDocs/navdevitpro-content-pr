@@ -99,7 +99,7 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
 
 ### To convert the database  
 
-1.  If the database is on Azure SQL Database, add your user account to the **dbmanager** database role on master database.
+1.  If the database is on Azure SQL Database, add your user account to the **dbmanager** database role on the master database.
 
     This membership is only required for converting the database, and can be removed afterwards. 
 
