@@ -14,9 +14,6 @@ author: jswymer
 # Classifying Data in [!INCLUDE[navnow_md](includes/navnow_md.md)]
 [!INCLUDE[navnow_md](includes/navnow_md.md)] includes development features for tagging business data with specific classifications. Specifically, this includes data that is stored in table fields of the database and telemetry data that is emitted from the application. 
 
-> [!IMPORTANT]
-> Microsoft is providing this **DataClassification property** as a matter of convenience only. It's your responsibility to classify the data appropriately and comply with any laws and regulations that are applicable to you. Microsoft disclaims all responsibility towards any claims related to your classification of the data.”   
-
 ## About Data Classification
 Classifying data serves different purposes. It can make data easier and more efficient to locate and retrieve, and also help to add another layer of protection and security for handling private and sensitive data. It can supplement your process for making the application compliant with legislative and regulatory requirements for collecting, storing, and using personal information.
 
@@ -41,8 +38,8 @@ Dynamics NAV operates with some standard rules for classification:
 -   FlowField and FlowFilter fields are automatically set to the **SystemMetadata** data classification. This cannot be changed.
 -   Existing tables and fields (except for FlowFields and FlowFilters) in an application that has been upgraded from a [!INCLUDE[navnow_md](includes/navnow_md.md)] version without the DataClassification property, will automatically be assigned the **CustomerContent** classification.
 
->[!NOTE]
-> Microsoft is providing this DataClassification property as a matter of convenience only. It's your responsibility to classify the data appropriately and comply with any laws and regulations that are applicable to you. Microsoft disclaims all responsibility towards any claims related to your classification of the data.  
+>[!IMPORTANT]
+> Microsoft is providing this **DataClassification** property as a matter of convenience only. It's your responsibility to classify the data appropriately and comply with any laws and regulations that are applicable to you. Microsoft disclaims all responsibility towards any claims related to your classification of the data.  
 
 For more information about this property, see [DataClassification Property in C/AL](dataclassification-property.md).
 
