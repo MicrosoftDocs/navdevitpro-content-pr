@@ -19,7 +19,7 @@ An Embed app defines a customer scenario. Specifically, the scenario of a custom
 
 An Embed App is therefore the term for what is being provided to a given customer segment, unrelated to how the solution is being implemented or architected. 
  
-[!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] plays a fundamental role in the Embed App when [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] is embedded as an integral part of the overall solution. 
+[!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] plays a fundamental role in the Embed App when [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] is embedded as an integral part of the overall solution. 
   
 Examples of Embed apps are a dentist solution and a real estate agent solution. 
 
@@ -30,16 +30,16 @@ New video that needs to be created -->
 
 ## How do I create an Embed app? 
 Technically and architecturally an Embed App can be constructed and composed by combining a few approaches such as: 
-- Creating your own extensions and customizations to [!INCLUDE[d365fin_long](../includes/d365fin_long_md.md)].
+- Creating your own extensions and customizations to [!INCLUDE[d365fin_long](../includes/d365_bus_central_md.md)].
 - Leveraging other services components from Microsoft; for example, PowerBI, Flow, PowerApp, Office 365, Azure services, and more.   
 - Leveraging the integration to services from other ISV’s; for example, Payroll services, Bank integration, and more.   
-- Including Add-on apps provided by other ISV’s that are specifically created to enhance and extend the capabilities of [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]; for example, payment and shipping functionality, and more. 
+- Including Add-on apps provided by other ISV’s that are specifically created to enhance and extend the capabilities of [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)]; for example, payment and shipping functionality, and more. 
 
-Being able to customize the [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] experience is one of the unique properties of [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. To customize and extend [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] you can use Extensions version 2.0 and the modern development tools with Visual Studio Code. Find more information, see [Add-on Apps](readiness-add-on-apps.md).
+Being able to customize the [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] experience is one of the unique properties of [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)]. To customize and extend [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] you can use Extensions version 2.0 and the modern development tools with Visual Studio Code. Find more information, see [Add-on Apps](readiness-add-on-apps.md).
 
 
 ## What if I already have a vertical solution created for Dynamics NAV? 
-[!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] represent the next exciting chapter of Dynamics NAV. To bring you existing Dynamics NAV vertical solution into the cloud and onto [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] you have two overall options:
+[!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] represent the next exciting chapter of Dynamics NAV. To bring you existing Dynamics NAV vertical solution into the cloud and onto [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] you have two overall options:
 
 - *Refactor* your existing solution to use Extensions version 2.0 and the AL program language using the modern development tools and Visual Studio Code. 
  
