@@ -12,12 +12,15 @@ author: jswymer
 ---
 
 # Classifying Data in [!INCLUDE[navnow_md](includes/navnow_md.md)]
-[!INCLUDE[navnow_md](includes/navnow_md.md)] includes development features for tagging business data with specific classifications. Specifically, this includes data that is stored in table fields of the database and telemetry data that is emitted from the application.    
+[!INCLUDE[navnow_md](includes/navnow_md.md)] includes development features for tagging business data with specific classifications. Specifically, this includes data that is stored in table fields of the database and telemetry data that is emitted from the application. 
+
+> [!IMPORTANT]
+> Microsoft is providing this **DataClassification property** as a matter of convenience only. It's your responsibility to classify the data appropriately and comply with any laws and regulations that are applicable to you. Microsoft disclaims all responsibility towards any claims related to your classification of the data.”   
 
 ## About Data Classification
 Classifying data serves different purposes. It can make data easier and more efficient to locate and retrieve, and also help to add another layer of protection and security for handling private and sensitive data. It can supplement your process for making the application compliant with legislative and regulatory requirements for collecting, storing, and using personal information. 
 
->[!IMPORTANT]
+>[!NOTE]
 > You should consider the data classification features offered in [!INCLUDE[navnow_md](includes/navnow_md.md)] as the first layer of classification - done by developers (Dynamics NAV and partners) on customizations, add-ons, and extensions. The second layer is the users and how they handle data they provide and that is made available to them.
 
 <!-- future CU
