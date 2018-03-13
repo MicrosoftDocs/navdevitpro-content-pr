@@ -14,7 +14,10 @@ author: bholtorf
 # Classifying Data Sensitivity
 To classify the fields that hold sensitive or personal data, a Microsoft partner can set the ```DataClassification``` property on fields. This requires access to the database tables, either through the development environment or by running a Windows PowerShell script. For more information, see [Classifying Data](classifying-data.md).  
 
-As a customer, you can add a second level of classification by specifying sensitivity levels for the data you store in standard and custom fields. Classifying data sensitivity helps ensure that you know where you keep personal data in your system, and makes it easier to respond to requests from data subjects. For example, if a contact or customer asks you to export their personal data.
+As a customer, you can add a second level of classification by specifying sensitivity levels for the data you store in standard and custom fields. Classifying data sensitivity helps ensure that you know where you keep personal data in your system, and makes it easier to respond to requests from data subjects. For example, if a contact or customer asks you to export their personal data. For more information, see [Respond to a Request About Personal Data](admin-respond-to-a-request-about-personal-data.md).
+
+> [!Important]
+> Microsoft is providing this Data Sensitivity Classification feature as a matter of convenience only. It's your responsibility to classify the data appropriately and comply with any laws and regulations that are applicable to you. Microsoft disclaims all responsibility towards any claims related to your classification of the data.
 
 The following table describes data sensitivity levels you can assign.
 
@@ -28,7 +31,7 @@ The following table describes data sensitivity levels you can assign.
 ## How Do I Classify My Data?
 Classifying the sensitivity of a large number of fields one-by-one would take a long time. To help speed up the process, we provide tools that you can use to bulk classify the sensitivity of fields, and then fine-tune classifications for specific fields. You can find tools on the Data Classification worksheet, which is available on the Administration of users, user groups, and permissions Role Center. You must be a system administrator to use the worksheet.
 
-> [!Important]
+> [!Note]
 > When you open the Data Classification worksheet for the first time, it will be empty. You must run the Data Classification guide to generate the list of fields. To start the guide, choose the **Set Up Data Classifications** action. 
 
 For example, the Data Classification worksheet lets you do things like:  
