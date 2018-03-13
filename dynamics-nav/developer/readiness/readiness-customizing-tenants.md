@@ -20,7 +20,7 @@ Whilst there may already be Add-on apps available on AppSource that cover a cust
  
 ## Examples of custom changes to [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] 
 
-- Capture industry specific information about the products you sell. 
+- Capture industry-specific information about the products you sell. 
 - Connect to other in-house data repositories or legacy systems to reduce duplicate data entry. 
 - Hide data fields that are rarely or never used. 
 - Add a printable report covering legally required declarations for your industry. 
