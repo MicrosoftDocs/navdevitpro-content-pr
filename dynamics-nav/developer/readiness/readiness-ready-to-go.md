@@ -23,7 +23,7 @@ It holds the following three core elements:
 3. The Ready to Go platform
 
 ## The Ready to Go online learning
-An extensive resource library hosted on the **Dynamics Learning Portal**. It contains readiness information for marketers, business decision makers, Architects and developers. The content addresses the needs of both reselling partners of [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] as App builders who want to provide Apps on Microsoft AppSource. 
+An extensive resource library hosted on the **Dynamics Learning Portal**. It contains readiness information for marketers, business decision makers, architects, and developers. The content addresses the needs of both reselling partners of [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] as App builders who want to provide Apps on Microsoft AppSource. 
 
 You can find the **Ready to Go Online Training Catalog** at the Dynamics Learning Portal: http://aka.ms/ReadyToGoOnlineLearning. 
 

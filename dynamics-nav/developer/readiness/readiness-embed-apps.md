@@ -29,7 +29,7 @@ INSERT VIDEO:
 New video that needs to be created -->
 
 ## How do I create an Embed app? 
-Technically and architecturally an Embed App can be constructed and composed by combining a few approaches such as: 
+Technically and architecturally an Embed app can be constructed and composed by combining a few approaches such as: 
 - Creating your own extensions and customizations to [!INCLUDE[d365fin_long](../includes/d365_bus_central_md.md)].
 - Leveraging other services components from Microsoft; for example, PowerBI, Flow, PowerApp, Office 365, Azure services, and more.   
 - Leveraging the integration to services from other ISV’s; for example, Payroll services, Bank integration, and more.   
@@ -43,7 +43,7 @@ Being able to customize the [!INCLUDE[d365_bus_central_md](../includes/d365_bus_
 
 - *Refactor* your existing solution to use Extensions version 2.0 and the AL program language using the modern development tools and Visual Studio Code. 
  
-- *Lift* your existing C/SIDE based solution onto Dynamics 365 Business Central and then over time *shift* (aka. refactor) the solution to AL and Extensions version 2.0 to align you solution with the investments being made for Dynamics 365 Business Central and reap the benefits of a modern development approach. 
+- *Lift* your existing C/SIDE based solution onto Dynamics 365 Business Central and then over time *shift* (aka. refactor) the solution to AL and Extensions version 2.0 to align your solution with the investments being made for Dynamics 365 Business Central and reap the benefits of a modern development approach. 
  
 The *lift* and *shift* approach currently offers a limited preview for few selected partners. We expect to open for more broad access. Also, expect to see both business and technical requirements in order for you to step into this approach. More details will be shared later.
 
