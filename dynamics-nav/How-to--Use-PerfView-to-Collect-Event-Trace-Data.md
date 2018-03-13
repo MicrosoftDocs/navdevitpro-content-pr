@@ -66,4 +66,4 @@ This topic describes how to use PerfView to collect event trace data for [!INCLU
 ## See Also  
  [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
  [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)  
- [Instrumenting av Application for Telemetry](instrumenting-application-for-telemetry.md)]
+ [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md)]

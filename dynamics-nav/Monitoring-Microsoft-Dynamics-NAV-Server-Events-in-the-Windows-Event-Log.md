@@ -31,7 +31,7 @@ The **Server** folder contains events from the event trace provider called **Mic
 
 ### Common folder 
 
-The **Common** folder contains telemetry events from the event trace provider called **Microsoft-DynamicsNAV-Common**. This folder contains strictly telemetry events, which have IDs 700-706. The telemetry events are recorded in the following logs:  
+The **Common** folder contains telemetry events from the event trace provider called **Microsoft-DynamicsNAV-Common**. This folder contains strictly telemetry events, which have IDs 700-707. The telemetry events are recorded in the following logs:  
       
 |Log|Description|  
 |---------|-----------------|  
