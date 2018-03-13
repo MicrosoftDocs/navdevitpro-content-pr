@@ -3,7 +3,7 @@ title: "Customizing Tenants"
 description: ""
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 03/06/2018
+ms.date: 03/13/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,7 +27,7 @@ Whilst there may already be Add-on apps available on AppSource that cover a cust
 - Create a role-specific dashboard and set of tasks for a unique role in your organization, such as mobile purchasing managers, or recruiting specialists. 
  
 ## How do I customize? 
-For most simple changes, the browser-based In-App Designer allows you to rapidly adjust the UI without needing to write any code. Hide columns you don’t need, drag-and-drop to reposition fact boxes, or show data fields that were previously hidden: these are all examples of simple changes you can roll out to your entire organization using the Designer. 
+For most simple changes, the browser-based Designer allows you to rapidly adjust the UI without needing to write any code. Hide columns you don’t need, drag-and-drop to reposition fact boxes, or show data fields that were previously hidden: these are all examples of simple changes you can roll out to your entire organization using the Designer. 
 
 With Visual Studio Code and the AL Extension version 2.0, you’re able to customize existing pages and tables by creating page- and table extensions, or you can add new tables and pages to make entirely new functionality. You can even write business logic in AL. 
 
@@ -40,10 +40,10 @@ To ensure business continuity and protect the integrity of live customer data, y
 
 ## Where do I learn more? 
 To learn more about customization, select the following links:   
-- [Using Designer](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-inclient-designer) 
-- Coming soon - Getting started with AL development in Visual Studio Code
-- [Getting started with AL](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-get-started) 
-- [AL Development Environment](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-reference-overview)
+- COMING SOON - Using Designer
+- COMING SOON - Getting started with AL development in Visual Studio Code
+- COMING SOON - Getting started with AL
+- COMING SOON - AL Development Environment
  
 
 
