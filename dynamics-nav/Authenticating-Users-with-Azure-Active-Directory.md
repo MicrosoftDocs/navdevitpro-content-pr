@@ -134,7 +134,7 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
 
 5. Disable token-signing certificate validation.
 
-	If you are using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], select the **Disable Token-Signing Certificate Validation** check box. If you are using the the [Set-NAVServerConfiguration cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/set-navserverconfiguration) or modifying the CustomSettings.congif file directly, set `DisableTokenSigningCertificateValidation` to `true`.
+	If you are using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], select the **Disable Token-Signing Certificate Validation** check box. If you are using the the [Set-NAVServerConfiguration cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/set-navserverconfiguration) or modifying the CustomSettings.config file directly, set `DisableTokenSigningCertificateValidation` to `true`.
 
 6.	To configure SOAP and OData web services for Azure AD authentication, specify the App ID URI that is registered for [!INCLUDE[navnow](includes/navnow_md.md)] in the Azure AD.
 
