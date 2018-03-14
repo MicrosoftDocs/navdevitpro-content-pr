@@ -53,6 +53,7 @@ Before you begin developing code for [!INCLUDE[navnowlong](includes/navnowlong_m
 |Learn about how to upload media, such as a JPEG or PNG image, on table records for displaying on pages and reports in the client.|[Working with Media on Records](Working-With-Media-on-Records.md)|
 |Learn about how to test an application.|[Testing the Application](Testing-the-Application.md)|
 |Learn about how to emit, collect, and view custom telemetry for your an application.|[Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md)|
+|Learn about classifying data for compliance.|[Classifying Data](classifying-data.md)|
 |Learn about differences between developing in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)].|[Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md)|  
 
 ## See Also

@@ -24,4 +24,5 @@ Use the session functions to manage [!INCLUDE[navnow](includes/navnow_md.md)] se
  [STOPSESSION Function \(Sessions\)](STOPSESSION-Function--Sessions-.md)   
  [UNBINDSUBSCRIPTION Function](UNBINDSUBSCRIPTION-Function.md)   
  [USERID Function \(Sessions\)](USERID-Function--Sessions-.md)   
- [USERSECURITYID Function](USERSECURITYID-Function.md)
+ [USERSECURITYID Function](USERSECURITYID-Function.md)  
+ [SENDTRACETAG Function](sendtracetag-function.md)  

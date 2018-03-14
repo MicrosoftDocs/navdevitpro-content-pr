@@ -145,7 +145,7 @@ You can configure the [!INCLUDE[navnow](includes/navnow_md.md)] installation to 
   
 4.  In the **Authentication** pane, enable the appropriate authentication based on the credential type.  
   
-    -   For the Windows credential type, enable **Windows authentication**.  
+    -   For the Windows credential type, enable **Windows authentication**. If you are using [!INCLUDE[navnow](includes/navnow_md.md)] apps, you must also enable **Anonymous authentication**. 
   
     -   For the UserName, NavUserPassword, and AccessControlService credential types, enable both **Forms authentication** and **Anonymous authentication**.  
   
