@@ -43,14 +43,14 @@ Azure Active Directory \(Azure AD\) is a cloud service that provides identity an
 |Name|The name of your application as it will display to your users, such as **Financial App by Solutions**.|
 |Type|Choose **Web application and/or web app**.|
 |Sign-on URL (App URL)|The URI for signing on to the [!INCLUDE[nav_web](includes/nav_web_md.md)], such as `https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV` or for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions, `https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/`.|
-|App ID URI|The URI to a domain in your Azure AD tenant. By default, the app is assigned an pp ID URI that has the format `https://[domain]/[guid]`, such as https://CRONUSInternationLtd.onmicrosoft.com/70b20a51-46b7-4290-8686-b79ec90379f6. You can keep this value or change the [guid] portion to suit, for example, `https://CRONUSInternationLtd.onmicrosoft.com/Financials`. <BR /><BR />**Important:**  The App ID URI must be unique within the Azure AD tenant. However, if you want to share your [!INCLUDE[navnow](includes/navnow_md.md)] solution with other Azure AD tenants, the App ID URI must be unique in Azure AD. <br /><br /> This URI is appended to the **WS-Federation Login Endpoint** setting in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration and **ACSURI** setting in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] configuration. Additionally, in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration, it must be specified in the **Azure AD App ID URI** setting for SOAP and OData web services.|
+|App ID URI|The URI to a domain in your Azure AD tenant. By default, the application is assigned an App ID URI that has the format `https://[domain]/[guid]`, such as https://CRONUSInternationLtd.onmicrosoft.com/70b20a51-46b7-4290-8686-b79ec90379f6. You can keep this value or change the `[guid]` portion to suit, for example, `https://CRONUSInternationLtd.onmicrosoft.com/Financials`. <BR /><BR />**Important:**  The App ID URI must be unique within the Azure AD tenant. However, if you want to share your [!INCLUDE[navnow](includes/navnow_md.md)] solution with other Azure AD tenants, the App ID URI must be unique in Azure AD. <br /><br /> This URI is appended to the **WS-Federation Login Endpoint** setting in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration and **ACSURI** setting in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] configuration. Additionally, in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration, it must be specified in the **Azure AD App ID URI** setting for SOAP and OData web services.|
 |Reply URL|Add a reply URL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] and the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The reply URL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] is the same as the Sign-on URL. The reply URL for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is the URL for opening the client, such as `https://dynamicsnavwinclient/`.|
 
 <!-- removed from new portal
 |Directory Access|Choose **Single Sign-On**. Note: this was not an option when tested.|
 -->
 
-Your [!INCLUDE[navnow](includes/navnow_md.md)] solution is now registered in your Azure AD tenant. You will need to provide the App ID URI and Reply URLs when you configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for single sign-on. So, make a note of or copy the values for these settings. You can view the in the Azure portal by selecting **Settings** for the registered application.   
+Your [!INCLUDE[navnow](includes/navnow_md.md)] solution is now registered in your Azure AD tenant. You will need to provide the App ID URI and Reply URLs when you configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for single sign-on. So, make a note of or copy the values for these settings for later use. You can view the settings in the Azure portal by selecting **Settings** for the registered application.   
 
 <!-- 
 Next, you must configure the application to be externally available. Also, you can change the logo to reflect the functionality of the application. From the overview page for [!INCLUDE[navnow](includes/navnow_md.md)] as an application, you can change configuration settings by choosing **Settings** in new portal). Then, save your changes.
@@ -61,7 +61,7 @@ In the overview page for the application, the **URL for Granting Access** field 
 
 ## Task 3: Configure [!INCLUDE[nav_server](includes/nav_server_md.md)] for Azure AD
 
-You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance by using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] cmdlets. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).
+You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance by using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or the [Set-NAVServerConfiguration cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/set-navserverconfiguration) in the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).
 
 1.	Configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances that must support Azure AD to use `AccessControlService` as the credential type.
 
@@ -78,7 +78,7 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
 	```
 
 	For example:
-	
+
 	```
 	https://login.windows.net/CRONUSInternationLtd.onmicrosoft.com/FederationMetadata/2007-06/FederationMetadata.xml
 	```  
@@ -121,7 +121,7 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
 	https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/SignIn.aspx
 	```
 	
-	The wreply parameter is optional. The wreply query parameter tells the Azure AD authentication service where to send the authentication token. If you do not specify the wreply parameter, it will be deducted from the URL in the browser.
+	The `wreply` parameter is optional. The wreply query parameter tells the Azure AD authentication service where to send the authentication token. If you do not specify the wreply parameter, it will be deducted from the URL in the browser.
 
   >[!IMPORTANT]
   >The query string parameter must be URI-encoded. This means, for example, use "%26" instead of "&".
@@ -131,7 +131,7 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
 	In the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], you do this by setting the **Azure AD App URI** field on the **Azure Active Directory** tab. The App ID URI is typically the same as the *wtrealm* parameter value of the **WS-Federation Endpoint** setting in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration and the **ACSUri** setting in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] configuration.   
 
 ## Task 4: Configure [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] for Azure AD  
- You must configure The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] that must support Azure AD must also be configured to use `AccessControlService` as the credential type.  
+ You must configure the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to use `AccessControlService` as the credential type. `AccessControlService` also requires that you implement security certificates.  
 
 For more information see, [Configure Authentication of Dynamics NAV Web Client Users](How-to--Configure-Authentication-of-Microsoft-Dynamics-NAV-Web-Client-Users.md).
 

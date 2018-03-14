@@ -59,7 +59,7 @@ The navsettings.json or web.config file is stored in the physical path of the we
     ```
     <add key="ClientServicesCredentialType" value="Windows"/>
     ```
-
+    Include values in double quotes.
 2.  Find the configuration settings that you want to change, and then change the values.
 
     See the [Settings](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md#Settings) section for a description of each setting.
