@@ -11,7 +11,7 @@ ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
 # Troubleshooting: The X.509 certificate CN=accounts.accesscontrol.windows.net is not in the trusted people store
-Your deployment is using Azure Active Directory (Azure AD) authentication. When users try to connect to [!INCLUDE[nav_now_md](includes/nav_now_md.md)] from the client, a technical issue occurs that prevents them from connecting. The event log of the computer that is running of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance includes a warning event that has the following message:
+Your deployment is using Azure Active Directory (Azure AD) authentication. When users try to connect to [!INCLUDE[navnow_md](includes/navnow_md.md)] from the client, a technical issue occurs that prevents them from connecting. The event log of the computer that is running of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance includes a warning event that has the following message:
 
 `The X.509 certificate CN=accounts.accesscontrol.windows.net is not in the trusted people store. The X.509 certificate CN=accounts.accesscontrol.windows.net chain building failed. The certificate that was used has a trust chain that cannot be verified. Replace the certificate or change the certificateValidationMode. A certificate chain processed, but terminated in a root certificate which is not trusted by the trust provider.`
 
