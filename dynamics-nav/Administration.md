@@ -23,6 +23,7 @@ manager: edupont
 |Optimize performance when accessing [!INCLUDE[navnow](includes/navnow_md.md)] data from SQL Server.|[Optimizing SQL Server Performance with Microsoft Dynamics NAV](Optimizing-SQL-Server-Performance-with-Microsoft-Dynamics-NAV.md)|  
 |Monitor your [!INCLUDE[nav_server](includes/nav_server_md.md)] instances.|[Monitoring Microsoft Dynamics NAV Server](Monitoring-Microsoft-Dynamics-NAV-Server.md)|  
 |Connect [!INCLUDE[nav_windows](includes/nav_windows_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)] over a wide area network.|[Connecting the Microsoft Dynamics NAV Clients over a Wide Area Network](Connecting-the-Microsoft-Dynamics-NAV-Clients-over-a-Wide-Area-Network.md)|  
+|Learn about classifying data for compliance.|[Classifying Data](classifying-data.md)|
   
 ## See Also  
  [Deployment](Deployment.md)   
