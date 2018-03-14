@@ -20,6 +20,12 @@ Azure Active Directory \(Azure AD\) is a cloud service that provides identity an
 
  The following sections describe the tasks involved in setting up Azure AD authentication for authenticating [!INCLUDE[navnow](includes/navnow_md.md)] users.
 
+## Preparation
+Azure AD authentication requires the use of service certificates to help secure client connections over a wide area network (WAN). In a production environment, you should obtain a certificate from a certification authority or trusted provider. In a test environment, if you do not have certificate, then you can create your own self-signed certificate. The implementation of certificates involves installion and configuration of the certificates on the [!INCLUDE[nav_server](includes/nav_server_md.md)] server and client computers.
+
+For more informnation, see [Using Certificates to Secure a Remote Client Connection](using-certificates-to-secure-a-remote-client-connection.md).
+
+
 ## Task 1: Create an Azure AD Tenant  
  If you have an Office 365 subscription that is based on a domain such as *solutions.onmicrosoft.com*, you are already using Azure AD because the user accounts are based on Azure AD. Then, if you add the email addresses for those user accounts to the user accounts in [!INCLUDE[navnow](includes/navnow_md.md)], the users experience seamless integration between your SharePoint site and the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 
@@ -135,7 +141,7 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
 	In the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], you do this by setting the **Azure AD App URI** field on the **Azure Active Directory** tab. The App ID URI is typically the same as the *wtrealm* parameter value of the **WS-Federation Endpoint** setting in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration and the **ACSUri** setting in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] configuration.   
 
 ## Task 4: Configure [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] for Azure AD  
- You must configure the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to use `AccessControlService` as the credential type. `AccessControlService` also requires that you implement security certificates.  
+ You must configure the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to use `AccessControlService` as the credential type.  
 
 For more information see, [Configure Authentication of Dynamics NAV Web Client Users](How-to--Configure-Authentication-of-Microsoft-Dynamics-NAV-Web-Client-Users.md).
 
