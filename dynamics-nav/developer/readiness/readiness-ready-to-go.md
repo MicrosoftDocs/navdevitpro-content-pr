@@ -18,9 +18,9 @@ The **Ready to Go** program contains a set of resources, services and tools whic
 
 It holds the following three core elements:
 
-1. The Ready to Go online learning
-2. The Ready to Go trainings and workshops provided by Development Centers and Master VARs
-3. The Ready to Go platform
+1. The Ready to Go online learning.
+2. The Ready to Go trainings and workshops provided by Development Centers and Master VARs.
+3. The Ready to Go platform.
 
 ## The Ready to Go online learning
 An extensive resource library hosted on the **Dynamics Learning Portal**. It contains readiness information for marketers, business decision makers, architects, and developers. The content addresses the needs of both reselling partners of [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] as App builders who want to provide Apps on Microsoft AppSource. 
@@ -38,7 +38,7 @@ This workshop helps you in validating your complete offer, from a business, mark
 
 |Type|Company Name        |**Ready to Go** Validation Workshop|
 |----|--------------------|------------------|
-|Development Center       |1ClickFactory|[https://www.1clickfactory.com/ready-to-go/ready-to-go/](https://www.1clickfactory.com/ready-to-go/ready-to-go/)|
+|Development Center       |1ClickFactory|[https://www.1clickfactory.com/ready-to-go/](https://www.1clickfactory.com/ready-to-go/)|
 |    |Ciellos             | [http://www.ciellos.com/ready-to-go](http://www.ciellos.com/ready-to-go)   |  
 |    |Cloud Ready Software|[http://www.cloud-ready-software.com/readytogo](http://www.cloud-ready-software.com/readytogo)  |
 |    |Innova Consulting   |[http://www.innovaconsulting.es/en/readytogo/](http://www.innovaconsulting.es/en/readytogo/)   |

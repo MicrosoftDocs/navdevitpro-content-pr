@@ -42,9 +42,9 @@ New video that needs to be created -->
  
 Add-on apps are created using the AL language in Visual Studio Code, which needs to be installed locally or on a Virtual Machine. The source code for your Add-on app is file-based, and we recommend that you set up a repository in a source code management system like GitHub. For more information on getting started with AL, see COMING SOON.
 
-<!-- 
 To ease the development phase of Add-on aps we have created a video series to help you each step of the way. Learn more by consuming the content in the below video series: 
-INSERT VIDEOS:  
+
+<!-- INSERT VIDEOS:  
 HDI - V4: Build my first extension 
 HDI - V1: Add a field in an extension 
 HDI - V3: Create a table and a page 
@@ -54,11 +54,17 @@ HDI - V7: Build a custom control
 HDI - V8: How do I create custom web services for integration scenarios? 
 HDI - V9: Connect to webservices in an extension -->
 
+- [How do I add a field in an extension?](https://youtu.be/q00zPWT7e34)
+- [How do I add a relation to a foreign table?](https://youtu.be/f0no_38NggI)
+- [How do I connect to web services in an extension?](https://youtu.be/hNuC8V9T1tU)
+- [How do I add AL code to an extension?](https://youtu.be/R9o2t3whmB4)
+- [How do I upgrade logic to an extension?](https://youtu.be/hm7mCGp7qug)
+
 ## How do I get my Add-on app published in Microsoft AppSource? 
 To ease your journey, from the initial idea submission to the final publication, we have created a guide that you can lean on throughout the process of bringing your app to AppSource. The guide consists of two documents that outline all the steps that must be taken to get your app to go live on the platform. You need to complete the steps in the given order to pass the different validation stages and getting your app published on AppSource. Learn more here:
 
-- [Getting you started with Microsoft Dynamics 365 Business Central Add-on Apps](https://go.microsoft.com/fwlink/?linkid=869734)  
-- [Developing and publishing Microsoft Dynamics 365 Business Central Add-on Apps](https://go.microsoft.com/fwlink/?linkid=869733) 
+- [Getting you started with Microsoft Dynamics 365 Business Central Add-on Apps](https://go.microsoft.com/fwlink/?linkid=869734).  
+- [Developing and publishing Microsoft Dynamics 365 Business Central Add-on Apps](https://go.microsoft.com/fwlink/?linkid=869733). 
 
 ## See Also
 [Build Your Business on Dynamics 365 Business Central](readiness-welcome.md)  
