@@ -48,7 +48,7 @@ PowerShell commands can be used with Azure Active Directory to disable adhoc (se
  
 ## Enable self-service signups
 
-To enable self-service signups, follow the same steps to sign in and connect connect to your Azure AD service, and then run the following command:
+To enable self-service signups, follow the same steps to sign in and connect to your Azure AD service, and then run the following command:
 
 ```PowerShell  
 Set-MsolCompanySettings -AllowAdHocSubscriptions $true 
