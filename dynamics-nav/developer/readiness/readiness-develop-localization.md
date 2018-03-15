@@ -22,7 +22,7 @@ If you want to bring capabilities of the [!INCLUDE[d365_bus_central_md](../inclu
  
 As an app builder, your paths forward can be:
 
-- Build an **Add-on app**, which enriches the [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] experience. This type of app, which integrates into user experience of [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)], allows you to build an interface based on how you want your data to flow between [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] and your service offering. Read more [here](readiness-add-on-apps.md).  
+- Build an **Add-on app**, which adapts functional areas to the requirements of the local market. This type of app, which integrates into the user experience of [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)], allows you to align the core capabilities of [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] with local legal requirement and extend existing functionality to successfully compete on your local market. Read more [here](readiness-add-on-apps.md).
 - Learn more details on how you can build a Business Central offering in the **Ready to Go** program details. Read more [here](readiness-ready-to-go.md).  
 - Learn more about working with [translation files](../devenv-work-with-translation-files.md).  
 - Learn more about [Dynamics Translation Services](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lifecycle-services/translation-service-overview).  
