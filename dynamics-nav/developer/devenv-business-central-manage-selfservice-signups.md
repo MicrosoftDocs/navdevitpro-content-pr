@@ -57,7 +57,7 @@ Set-MsolCompanySettings -AllowAdHocSubscriptions $true
 ## Verify whether signups are enabled or disabled
 To see whether self-service signups are enabled or disabled in Azure Active Directory, follow the same steps to sign in and connect to your Azure AD service, then run the following command:
 
-````PowerShell
+```PowerShell
 Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
 ```
 ## See Also  
