@@ -1,5 +1,5 @@
 ---
-title: "Development of a Localization"
+title: "Development of a Localization Solution"
 description: "Comply with regulatory requirementsin Dynamics 365 Business Central."
 author: SusanneWindfeldPedersen
 ms.custom: na
@@ -13,7 +13,7 @@ ms.author: solsen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
-# Development of a Localization
+# Development of a Localization Solution
 If you want to bring capabilities of the [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] Core to your local market, then there are several reasons why you would want to choose [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)]: 
 
 - Easy to translate and strong base capabilities ready for localization.
