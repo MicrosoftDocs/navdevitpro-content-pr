@@ -1,15 +1,13 @@
 ---
 title: "Enable and dsiable Business Central self-service sign ups "
 ms.custom: na
-ms.date: 06/16/2017
+ms.date: 03/15/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
-ms.assetid: cb249654-c9be-482b-9a25-c26d7f229fc2
-caps.latest.revision: 44
-author: SusanneWindfeldPedersen
+author: jswymer
 ---
 
 # Enable and dsiable Business Central self-service sign ups
@@ -24,18 +22,18 @@ PowerShell commands can be used with Azure Active Directory to disable adhoc (se
 1. Start Windows PowerShell as an administrator.
 2. At the command prompt, run the following command to sign in to your Azure AD service. You must provide the credentials of an administrator of the Office 365 service:
 
-    ```ps
+    ```PowerShell
     $Msolcred = Get-credential
     ```
 2. Run the following command to connect to the Azure AD service using the provided credentials:
 
-    ```ps
+    ```PowerShell
     Connect-MsolService -Credential $MsolCred
     ```
 
 3. Run the following command to disable self-service signups:
 
-    ```ps  
+    ```PowerShell  
     Set-MsolCompanySettings -AllowAdHocSubscriptions $false 
     ```
 
@@ -52,7 +50,7 @@ PowerShell commands can be used with Azure Active Directory to disable adhoc (se
 
 To enable self-service signups, follow the same steps to sign in and connect connect to your Azure AD service, and then run the following command:
 
-```ps  
+```PowerShell  
 Set-MsolCompanySettings -AllowAdHocSubscriptions $true 
   
 ```
