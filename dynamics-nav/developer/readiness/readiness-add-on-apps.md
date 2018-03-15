@@ -71,4 +71,5 @@ To ease your journey, from the initial idea submission to the final publication,
 [Integrate a 3rd Party Solution](readiness-thirdparty-solution.md)  
 [Development of a Vertical Solution](readiness-develop-vertical.md)  
 [Development of a Horizontal Solution](readiness-develop-horizontal.md)  
+[Development of a Localization Solution](readiness-develop-localization.md)    
 [Resell Different Solutions](readiness-reseller.md)  
