@@ -10,7 +10,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
-redirect url: /readiness/readiness-connect-apps
+redirect_url: /readiness/readiness-connect-apps
 ---
 
 [!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
