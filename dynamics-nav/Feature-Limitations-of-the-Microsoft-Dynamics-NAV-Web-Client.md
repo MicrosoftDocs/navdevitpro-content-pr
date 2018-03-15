@@ -119,7 +119,8 @@ ms.prod: "dynamics-nav-2018"
 |Buffering of keyboard input for heads-down data entry|Not supported.||  
 |System actions are default actions in the **Application** menu and ribbon on pages and reports. System actions include the following:<br /><br /> -   Copy Link to Page<br />-   Recipient as Attachment<br />-   Microsoft Word<br />-   Print Page<br />-   Show as List<br />-   OneNote|Not supported.|The actions are not available in the user interface. **Note:**  You can use the action Open in Excel on list places and transfer all data in the list to an Excel spreadsheet. You can use Internet Explorer functions to print a page and to create links on a page.|  
 |Actions related to a subpage in a part when the subpage is dynamically shown or hidden based on a user interaction|Partially supported.|The actions related to the subpage will always be present and active in the ribbon, even when the page is not shown. For an example, see page 5855.|  
-|FlowFilters on pages|Not supported.|Using **Limit totals to** is not supported. Use **Filter** on column instead.|  
+|FlowFilters on pages|Not supported.|Using **Limit totals to** is not supported.| 
+|**Filter on column** on FlowFields|Not supported.||   
 |Vertical resizing of controls|Not supported.|Vertical resizing of controls is not supported on the [!INCLUDE[nav_web](includes/nav_web_md.md)]. A multiline textbox, for example, will not increase in vertical size when the user drags to increase the size of the page. This applies to all controls that can take advantage of vertical or horizontal resizing, such as charts, grids, multiline, textboxes, and control add-ins.|  
 
 ## See Also  

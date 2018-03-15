@@ -25,6 +25,7 @@ The following topic lists properties that apply to the table object.
 |-------------|-----------|---------------------|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 |[DataCaptionFields Property](devenv-datacaptionfields-property.md)|X|X|
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[DataPerCompany Property](devenv-datapercompany-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[DrillDownPageID Property](devenv-drilldownpageid-property.md)|X||
@@ -42,6 +43,7 @@ The following topic lists properties that apply to the table object.
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 |[Compressed Property](devenv-compressed-property.md)|X||
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Enabled Property](devenv-enabled-property.md)|X||
 |[SubType Property \(BLOB\)](devenv-subtype-blob-property.md)|X||
@@ -59,6 +61,7 @@ The following topic lists properties that apply to the table object.
 |[BlankZero Property](devenv-blankzero-property.md)|X||
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
@@ -87,6 +90,7 @@ The following topic lists properties that apply to the table object.
 |[BlankZero Property](devenv-blankzero-property.md)|X||
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
@@ -112,6 +116,7 @@ The following topic lists properties that apply to the table object.
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 |[CharAllowed Property](devenv-charallowed-property.md)|X||
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[DateFormula Property](devenv-dateformula-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
@@ -138,6 +143,7 @@ The following topic lists properties that apply to the table object.
 |[BlankNumbers Property](devenv-blanknumbers-property.md)|X||
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[ClosingDates Property](devenv-closingdates-property.md)|X|X|
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
@@ -163,6 +169,7 @@ The following topic lists properties that apply to the table object.
 |[AutoFormatType Property](devenv-autoformattype-property.md)|X||  
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
@@ -185,6 +192,7 @@ The following topic lists properties that apply to the table object.
 |[BlankNumbers Property](devenv-blanknumbers-property.md)|X||
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
@@ -211,6 +219,7 @@ The following topic lists properties that apply to the table object.
 |[BlankZero Property](devenv-blankzero-property.md)|X||
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
@@ -238,6 +247,7 @@ The following topic lists properties that apply to the table object.
 |[BlankZero Property](devenv-blankzero-property.md)|X||  
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
@@ -263,6 +273,7 @@ The following topic lists properties that apply to the table object.
 |[AutoFormatType Property](devenv-autoformattype-property.md)|X||
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
@@ -286,6 +297,7 @@ The following topic lists properties that apply to the table object.
 |[BlankZero Property](devenv-blankzero-property.md)|X|| 
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
@@ -312,6 +324,7 @@ The following topic lists properties that apply to the table object.
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 |[CharAllowed Property](devenv-charallowed-property.md)|X||
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[DateFormula Property](devenv-dateformula-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
@@ -338,6 +351,7 @@ The following topic lists properties that apply to the table object.
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 |[CharAllowed Property](devenv-charallowed-property.md)|X||
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[DateFormula Property](devenv-dateformula-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
@@ -364,6 +378,7 @@ The following topic lists properties that apply to the table object.
 |[BlankZero Property](devenv-blankzero-property.md)|X||
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
@@ -390,6 +405,7 @@ The following topic lists properties that apply to the table object.
 |[AutoFormatType Property](devenv-autoformattype-property.md)|X||
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
@@ -422,6 +438,7 @@ The following topic lists properties that apply to the table object.
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
 |[CharAllowed Property](devenv-charallowed-property.md)|X||
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[DateFormula Property](devenv-dateformula-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
@@ -447,6 +464,7 @@ The following topic lists properties that apply to the table object.
 |[BlankNumbers Property](devenv-blanknumbers-property.md)|X|| 
 |[CaptionClass Property](devenv-captionclass-property.md)|X|X|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
+|[DataClassification Property](devenv-dataclassification-property.md)|X||
 |[Description Property](devenv-description-property.md)|X|X|
 |[Editable Property](devenv-editable-property.md)|X||
 |[Enabled Property](devenv-enabled-property.md)|X||
