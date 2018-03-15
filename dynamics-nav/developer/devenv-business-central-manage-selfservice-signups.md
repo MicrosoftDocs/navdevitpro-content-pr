@@ -39,20 +39,14 @@ PowerShell commands can be used with Azure Active Directory to disable adhoc (se
     Set-MsolCompanySettings -AllowAdHocSubscriptions $false 
     ```
 
-    When the command has completed, self-service signups are disabled for your Azure Active Directory. Users who try to sign up for [!INCLUDE[d365_bus_central_md](includes/d365_bus_central_md.md)] or any other self-service products will see the following message:
+    When the command has completed, self-service signups are disabled for your Azure Active Directory. Users who try to sign up for [!INCLUDE[d365_bus_central_md](includes/d365_bus_central_md.md)] or any other self-service products see meassage similar to the following:
 
-    `Sorry...`
+    **Sorry...**
 
-    `We can's finish signing you up.`
+    **We can's finish signing you up.**
     
-    `Your IT department has turned off signup for Dynamics 365 Business Central.  Contact them to complete signup.` 
+    **Your IT department has turned off signup for [!INCLUDE[d365_bus_central_md](includes/d365_bus_central_md.md)]. Contact them to complete signup.** 
 
-## Verify whether signups are enabled or disable
-To see whether self-service signups are enabled or disabled in Azure Active Directory, follow the same steps to sign in and connect connect to your Azure AD service,you can run the following command:
-
-```
-Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
-```
  
 ## Enable self-service signups
 
@@ -62,6 +56,11 @@ To enable self-service signups, follow the same steps to sign in and connect con
 Set-MsolCompanySettings -AllowAdHocSubscriptions $true 
   
 ```
+## Verify whether signups are enabled or disabled
+To see whether self-service signups are enabled or disabled in Azure Active Directory, follow the same steps to sign in and connect to your Azure AD service, then run the following command:
 
+```
+Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
+```
 ## See Also  
 [Announcing Microsoft Dynamics 365 Business Central: greater impact with an end-to-end view](https://cloudblogs.microsoft.com/dynamics365/2018/03/13/announcing-microsoft-dynamics-365-business-central-greater-impact-with-an-end-to-end-view/)  
