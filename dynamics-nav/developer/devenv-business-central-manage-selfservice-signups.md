@@ -1,5 +1,5 @@
 ---
-title: "Enable and dsiable Business Central self-service sign ups "
+title: "Enable and Disable Dynamics 365 Business Central Self-service Signups "
 ms.custom: na
 ms.date: 03/15/2018
 ms.reviewer: na
