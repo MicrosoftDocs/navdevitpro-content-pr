@@ -10,7 +10,7 @@ ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
 
-# Enable and dsiable Business Central self-service sign ups
+# Enable and Disable Dynamics 365 Business Central Self-service Signups
 
 Administrators for an Office 365 Tenant might not want their users to sign up for the [!INCLUDE[d365_bus_central_md](includes/d365_bus_central_md.md)] service without their awareness. You can complete the following procedure in Azure Active Directory to block individual user signups.  
 
