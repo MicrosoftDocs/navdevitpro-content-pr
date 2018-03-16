@@ -401,8 +401,8 @@ For more information, see [Configuring Microsoft Dynamics NAV Web Client by Modi
 
      For more information, see [How to: Export and Import Encryption Keys](How-to--Export-and-Import-Encryption-Keys.md).  -->
 
-##  <a name="DeleteUpgCodeunits"></a> Task 20: Delete the upgrade objects  
-At this point, you have upgraded the database to [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. Now, you can delete the upgrade codeunits and upgrade table objects that you imported in task 9.  
+##  <a name="DeleteUpgCodeunits"></a> Task 20: Delete the upgrade objects
+At this point, you have upgraded the database to [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. Now, you can delete the upgrade codeunits and upgrade table objects that you imported in task 9. This task is recommended but not required.  
 
 When you delete tables, on the **Delete** dialog box, set the **Synchronize Schema** option to **Force**.  
 
