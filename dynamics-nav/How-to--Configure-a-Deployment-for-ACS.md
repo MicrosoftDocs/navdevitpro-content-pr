@@ -125,5 +125,4 @@ To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Mi
      You will need these values for the next stage in the ACS configuration process, which is configuring your [!INCLUDE[navnow](includes/navnow_md.md)] components for ACS.  
 
 ## See Also  
-[Configure Microsoft Dynamics NAV Components for ACS](Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)  
-[How to: Set up Microsoft Dynamics NAV for Single Sign-on With Office 365 using Windows PowerShell](How-to--Set-up-Microsoft-Dynamics-NAV-for-Single-Sign-on-With-Office-365-using-Windows-PowerShell.md)  
+[Configure Microsoft Dynamics NAV Components for ACS](Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)    
