@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -19,7 +19,7 @@ Update the properties of an item object for [!INCLUDE[d365fin_long_md](../../inc
 
 ## HTTP request
 ```
-PATCH /financials/companies({id})/items({id})
+PATCH /businesscentral/companies({id})/items({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/items({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/items({id})
 Content-type: application/json
 
 {
@@ -95,6 +95,6 @@ Content-type: application/json
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Item](../resources/dynamics_item.md)  
-[Get item](../api/dynamics_item_get.md)  
-[Post item](../api/dynamics_create_item.md)  
-[Delete item](../api/dynamics_item_delete.md)  
+[Get Item](../api/dynamics_item_get.md)  
+[Post Item](../api/dynamics_create_item.md)  
+[Delete Item](../api/dynamics_item_delete.md)  

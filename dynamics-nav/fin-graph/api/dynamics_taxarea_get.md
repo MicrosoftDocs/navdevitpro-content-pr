@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -20,7 +20,7 @@ Retrieve the properties and relationships of a tax area object for [!INCLUDE[d36
 ## HTTP request
 
 ```
-GET /financials/companies({id})/taxAreas({id})
+GET /businesscentral/companies({id})/taxAreas({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **taxAreas
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/taxAreas({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/taxAreas({id})
 ```
 
 **Response**
@@ -65,7 +65,7 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Tax area](../resources/dynamics_taxarea.md)  
-[Create tax area](../api/dynamics_create_taxarea.md)  
-[Update tax area](../api/dynamics_taxarea_update.md)  
-[Delete tax area](../api/dynamics_taxarea_delete.md)  
+[Tax Area](../resources/dynamics_taxarea.md)  
+[Create Tax Area](../api/dynamics_create_taxarea.md)  
+[Update Tax Area](../api/dynamics_taxarea_update.md)  
+[Delete Tax Area](../api/dynamics_taxarea_delete.md)  

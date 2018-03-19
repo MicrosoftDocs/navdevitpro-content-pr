@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -20,7 +20,7 @@ Retrieve the properties and relationships of an item category object for [!INCLU
 ## HTTP request
 
 ```
-GET /financials/companies({id})/itemCategories({id})
+GET /businesscentral/companies({id})/itemCategories({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and an **itemCat
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/itemCategories({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/itemCategories({id})
 ```
 
 **Response**
@@ -65,7 +65,7 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Item categories](../resources/dynamics_itemcategories.md)  
-[Create item categories](../api/dynamics_create_itemcategories.md)  
-[Update item categories](../api/dynamics_itemcategories_update.md)  
-[Delete item categories](../api/dynamics_itemcategories_delete.md)  
+[Item Categories](../resources/dynamics_itemcategories.md)  
+[Create Item Categories](../api/dynamics_create_itemcategories.md)  
+[Update Item Categories](../api/dynamics_itemcategories_update.md)  
+[Delete Item Categories](../api/dynamics_itemcategories_delete.md)  

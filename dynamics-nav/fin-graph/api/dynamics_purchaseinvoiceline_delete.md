@@ -15,11 +15,11 @@ ms.author: solsen
 ---
 
 # Delete purchaseInvoiceLines
-Delete a purchase invoice line object from Dynamics 365 for Financials.
+Delete a purchase invoice line object from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-DELETE /financials/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
+DELETE /businesscentral/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
+DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 **Response** 
@@ -58,7 +58,7 @@ HTTP/1.1 204 No Content
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Purchase invoice line](../resources/dynamics_purchaseinvoiceline.md)  
-[Get purchase invoice line](../api/dynamics_purchaseinvoiceline_get.md)  
-[Create purchase invoice line](../api/dynamics_create_purchaseinvoiceline.md)  
-[Update purchase invoice line](../api/dynamics_purchaseinvoiceline_update.md)  
+[Purchase Invoice Line](../resources/dynamics_purchaseinvoiceline.md)  
+[Get Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_get.md)  
+[Create Purchase Invoice Line](../api/dynamics_create_purchaseinvoiceline.md)  
+[Update Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_update.md)  

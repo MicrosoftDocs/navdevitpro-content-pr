@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -19,7 +19,7 @@ Update the properties of a currency object for [!INCLUDE[d365fin_long_md](../../
 
 ## HTTP request
 ```
-PATCH /financials/companies({id})/currencies({id})
+PATCH /businesscentral/companies({id})/currencies({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/currencies({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/currencies({id})
 Content-type: application/json
 
 {
@@ -78,6 +78,6 @@ Content-type: application/json
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Currencies](../resources/dynamics_currencies.md)  
-[Post currencies](dynamics_create_currencies.md)  
-[Get currencies](dynamics_currencies_get.md)  
-[Delete currencies](dynamics_currencies_delete.md)  
+[Post Currencies](dynamics_create_currencies.md)  
+[Get Currencies](dynamics_currencies_get.md)  
+[Delete Currencies](dynamics_currencies_delete.md)  

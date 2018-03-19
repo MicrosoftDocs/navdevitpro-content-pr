@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Create vendors
-Create a vendor object in Dynamics 365 for Financials.
+Create a vendor object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-POST /financials/companies({id})/vendors
+POST /businesscentral/companies({id})/vendors
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and a **vendo
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/vendors
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/vendors
 Content-type: application/json
 
 {
@@ -100,6 +100,6 @@ Content-type: application/json
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Vendor](../resources/dynamics_vendor.md)  
-[Get vendor](../api/dynamics_vendor_get.md)  
-[Update vendor](../api/dynamics_vendor_update.md)  
-[Delete vendor](../api/dynamics_vendor_delete.md)  
+[Get Vendor](../api/dynamics_vendor_get.md)  
+[Update Vendor](../api/dynamics_vendor_update.md)  
+[Delete Vendor](../api/dynamics_vendor_delete.md)  

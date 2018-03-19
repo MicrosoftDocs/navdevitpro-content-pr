@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -21,7 +21,7 @@ Update the properties of a customer object for [!INCLUDE[d365fin_long_md](../../
 ## HTTP request
 
 ```
-PATCH /financials/companies({id})/customers({id})
+PATCH /businesscentral/companies({id})/customers({id})
 ```
 
 ## Request headers
@@ -44,7 +44,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 Here is an example of the request.
 
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/customers({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customers({id})
 Content-type: application/json
 
 {
@@ -112,6 +112,6 @@ Content-type: application/json
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Customer](../resources/dynamics_customer.md)  
-[Get customers](dynamics_customer_get.md)  
-[Post customers](dynamics_create_customer.md)  
-[Delete customers](dynamics_customer_delete.md)  
+[Get Customers](dynamics_customer_get.md)  
+[Post Customers](dynamics_create_customer.md)  
+[Delete Customers](dynamics_customer_delete.md)  

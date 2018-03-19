@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -22,7 +22,7 @@ Retrieve the properties and relationships of a sales quote line object for [!INC
 ## HTTP request
 
 ```
-GET /financials/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence=({number}))
+GET /businesscentral/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and a **salesQuo
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence={number}))
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence={number}))
 ```
 
 **Response**
@@ -94,7 +94,7 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Sales quote line](../resources/dynamics_salesquoteline.md)  
-[Create sales quote line](../api/dynamics_create_salesquoteline.md)  
-[Update sales quote line](../api/dynamics_salesquoteline_update.md)  
-[Delete sales quote line](../api/dynamics_salesquoteline_delete.md)  
+[Sales Quote Line](../resources/dynamics_salesquoteline.md)  
+[Create Sales Quote Line](../api/dynamics_create_salesquoteline.md)  
+[Update Sales Quote Line](../api/dynamics_salesquoteline_update.md)  
+[Delete Sales Quote Line](../api/dynamics_salesquoteline_delete.md)  

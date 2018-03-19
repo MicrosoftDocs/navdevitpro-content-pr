@@ -15,11 +15,11 @@ ms.author: solsen
 ---
 
 # Create countriesRegions
-Create a countriesRegions object in Dynamics 365 for Financials.
+Create a countriesRegions object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-POST /financials/companies({id})/countriesRegions
+POST /businesscentral/companies({id})/countriesRegions
 ```
 ## Request headers
 |Header|Value|
@@ -40,7 +40,7 @@ If successful, this method returns ```201 Created``` response code and a **count
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/countriesRegions
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/countriesRegions
 Content-type: application/json
 
 {
@@ -76,7 +76,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Countries regions](../resources/dynamics_countriesregions.md)  
-[Get counties regions](dynamics_countriesregions_get.md)  
-[Patch countries regions](dynamics_countriesregions_update.md)  
-[Delete countries regions](dynamics_countriesregions_delete.md)  
+[Countries Regions](../resources/dynamics_countriesregions.md)  
+[Get Countries Regions](dynamics_countriesregions_get.md)  
+[Patch Countries Regions](dynamics_countriesregions_update.md)  
+[Delete Countries Regions](dynamics_countriesregions_delete.md)  

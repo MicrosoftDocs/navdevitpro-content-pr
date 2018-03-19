@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -20,7 +20,7 @@ Update the properties of a customer payment object for [!INCLUDE[d365fin_long_md
 ## HTTP request
 
 ```
-PATCH /financials/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
+PATCH /businesscentral/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
 Content-type: application/json
 
 {
@@ -83,7 +83,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Customer payments](../resources/dynamics_customerpayment.md)  
-[Get customer payments](dynamics_customerpayment_get.md)  
-[Post customer payments](dynamics_create_customerpayment.md)  
-[Delete customer payments](dynamics_customerpayment_delete.md)  
+[Customer Payments](../resources/dynamics_customerpayment.md)  
+[Get Customer Payments](dynamics_customerpayment_get.md)  
+[Post Customer Payments](dynamics_create_customerpayment.md)  
+[Delete Customer Payments](dynamics_customerpayment_delete.md)  
