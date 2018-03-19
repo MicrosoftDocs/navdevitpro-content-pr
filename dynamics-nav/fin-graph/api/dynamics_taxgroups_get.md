@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -20,7 +20,7 @@ Retrieve the properties and relationships of a tax groups object for [!INCLUDE[d
 ## HTTP request
 
 ```
-GET /financials/companies({id})/taxGroups({id})
+GET /businesscentral/companies({id})/taxGroups({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **taxGroup
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/taxGroups({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/taxGroups({id})
 ```
 
 **Response**
@@ -66,7 +66,7 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Tax groups](../resources/dynamics_taxgroups.md)  
-[Create tax groups](../api/dynamics_create_taxgroups.md)  
-[Update tax groups](../api/dynamics_taxgroups_update.md)  
-[Delete tax groups](../api/dynamics_taxgroups_delete.md)  
+[Tax Groups](../resources/dynamics_taxgroups.md)  
+[Create Tax groups](../api/dynamics_create_taxgroups.md)  
+[Update Tax Groups](../api/dynamics_taxgroups_update.md)  
+[Delete Tax Groups](../api/dynamics_taxgroups_delete.md)  

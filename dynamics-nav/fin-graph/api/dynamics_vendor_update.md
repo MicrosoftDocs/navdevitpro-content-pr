@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -19,7 +19,7 @@ Update the properties of a vendor object for [!INCLUDE[d365fin_long_md](../../in
 
 ## HTTP request
 ```
-PATCH /financials/companies({id})/vendors({id})
+PATCH /businesscentral/companies({id})/vendors({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/vendors({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/vendors({id})
 Content-type: application/json
 
 {
@@ -101,6 +101,6 @@ Content-type: application/json
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Vendor](../resources/dynamics_vendor.md)  
-[Get vendor](../api/dynamics_vendor_get.md)  
-[Create vendor](../api/dynamics_create_vendor.md)  
-[Delete vendor](../api/dynamics_vendor_delete.md)  
+[Get Vendor](../api/dynamics_vendor_get.md)  
+[Create Vendor](../api/dynamics_create_vendor.md)  
+[Delete Vendor](../api/dynamics_vendor_delete.md)  

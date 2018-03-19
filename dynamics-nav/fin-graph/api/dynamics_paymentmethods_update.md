@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -19,7 +19,7 @@ Update the properties of a payment method object for [!INCLUDE[d365fin_long_md](
 
 ## HTTP request
 ```
-PATCH /financials/companies({id})/paymentMethods({id})
+PATCH /businesscentral/companies({id})/paymentMethods({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/paymentMethods({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/paymentMethods({id})
 Content-type: application/json
 
 {
@@ -75,7 +75,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Payment methods](../resources/dynamics_paymentmethods.md)  
-[Get payment methods](../api/dynamics_paymentmethods_get.md)  
-[Create payment methods](../api/dynamics_create_paymentmethods.md)  
-[Delete payment methods](../api/dynamics_paymentmethods_delete.md)  
+[Payment Methods](../resources/dynamics_paymentmethods.md)  
+[Get Payment Methods](../api/dynamics_paymentmethods_get.md)  
+[Create Payment Methods](../api/dynamics_create_paymentmethods.md)  
+[Delete Payment Methods](../api/dynamics_paymentmethods_delete.md)  

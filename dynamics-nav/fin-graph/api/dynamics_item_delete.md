@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Delete items
-Delete an item from Dynamics 365 for Financials.
+Delete an item from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-DELETE /financials/companies({id})/items({id})
+DELETE /businesscentral/companies({id})/items({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 
 Here is an example of the request.
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/items({id})
+DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/items({id})
 ```
 
 **Response**
@@ -56,6 +56,6 @@ HTTP/1.1 204 No Content
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Item](../resources/dynamics_item.md)  
-[Get item](../api/dynamics_item_get.md)  
-[Post item](../api/dynamics_create_item.md)  
-[Patch item](../api/dynamics_item_update.md)  
+[Get Item](../api/dynamics_item_get.md)  
+[Post Item](../api/dynamics_create_item.md)  
+[Patch Item](../api/dynamics_item_update.md)  

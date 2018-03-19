@@ -9,16 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Create customerPayments
-Creates a customer payment object in Dynamics 365 for Financials.
+Creates a customer payment object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-POST /financials/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
+POST /businesscentral/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns ```201 Created``` response code and a **custo
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/customerPayment
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customerPayment
 Content-type: application/json
 
 {
@@ -87,7 +87,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Customer payments](../resources/dynamics_customerpayment.md)  
-[Get customer payments](dynamics_customerpayment_get.md)  
-[Patch customer payments](dynamics_customerpayment_update.md)  
-[Delete customer payments](dynamics_customerpayment_delete.md)  
+[Customer Payments](../resources/dynamics_customerpayment.md)  
+[Get Customer Payments](dynamics_customerpayment_get.md)  
+[Patch Customer Payments](dynamics_customerpayment_update.md)  
+[Delete Customer Payments](dynamics_customerpayment_delete.md)  
