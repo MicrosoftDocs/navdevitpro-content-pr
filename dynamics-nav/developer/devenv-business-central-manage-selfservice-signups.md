@@ -41,7 +41,7 @@ PowerShell commands can be used with Azure Active Directory to disable adhoc (se
 
     **Sorry...**
 
-    **We can's finish signing you up.**
+    **We can't finish signing you up.**
     
     **Your IT department has turned off signup for [!INCLUDE[d365_bus_central_md](includes/d365_bus_central_md.md)]. Contact them to complete signup.** 
 
