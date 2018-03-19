@@ -22,7 +22,7 @@ As an alternative, app developers can also integrate the service or solution dir
 > For information about enabling APIs for [!INCLUDE[navnow](../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../enabling-apis-for-dynamics-nav.md).
 
 > [!TIP]  
-> For information about developing extensions in AL see [Development in AL](../developer/devenv-dev-overview.md).
+> For information about developing extensions in AL see [Development in AL](/dev-itpro/developer/devenv-dev-overview).
 
 ## See also
 [Working with Dynamics 365 for Financials in Microsoft Graph](resources/dynamics_overview.md)  
