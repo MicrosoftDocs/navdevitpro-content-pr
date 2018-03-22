@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -19,7 +19,7 @@ Retrieve the properties and relationships of a countries regions object for [!IN
 
 ## HTTP request
 ```
-GET /financials/companies({id})/countriesRegions({id})
+GET /businesscentral/companies({id})/countriesRegions({id})
 ```
 
 ## Request headers
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and a **countrie
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/countriesRegions({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/countriesRegions({id})
 ```
 
 **Response**
@@ -65,7 +65,7 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get counties regions](../resources/dynamics_countriesregions.md)  
-[Post countries regions](dynamics_create_countriesregions.md)  
-[Patch countries regions](dynamics_countriesregions_update.md)  
-[Delete countries regions](dynamics_countriesregions_delete.md)  
+[Get Countries Regions](../resources/dynamics_countriesregions.md)  
+[Post Countries Regions](dynamics_create_countriesregions.md)  
+[Patch Countries Regions](dynamics_countriesregions_update.md)  
+[Delete Countries Regions](dynamics_countriesregions_delete.md)  

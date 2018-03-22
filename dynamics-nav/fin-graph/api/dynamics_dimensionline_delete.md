@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Delete dimensionLines
-Delete a dimension line object from Dynamics 365 for Financials.
+Delete a dimension line object from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-DELETE /financials/companies({id})/dimensionLines(parentId=({id}),id=({id}))
+DELETE /businesscentral/companies({id})/dimensionLines(parentId=({id}),id=({id}))
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/dimensionLines(parentId=({id}),id=({id}))
+DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/dimensionLines(parentId=({id}),id=({id}))
 ```
 
 **Response** 
@@ -57,7 +57,7 @@ HTTP/1.1 204 No Content
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Dimension line](../resources/dynamics_dimensionline.md)  
-[Get dimension line](../api/dynamics_dimensionline_get.md)  
-[Post dimension line](../api/dynamics_create_dimensionline.md)  
-[Patch dimension line](../api/dynamics_dimensionline_update.md)  
+[Dimension Line](../resources/dynamics_dimensionline.md)  
+[Get Dimension Line](../api/dynamics_dimensionline_get.md)  
+[Post Dimension Line](../api/dynamics_create_dimensionline.md)  
+[Patch Dimension Line](../api/dynamics_dimensionline_update.md)  

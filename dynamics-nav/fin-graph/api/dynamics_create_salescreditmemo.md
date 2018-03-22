@@ -10,17 +10,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Create salesCreditMemos
-Create a sales credit memo object in Dynamics 365 for Financials.
+Create a sales credit memo object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-POST /financials/companies({id})/salesCreditMemos
+POST /businesscentral/companies({id})/salesCreditMemos
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a **sales
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesCreditMemos
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesCreditMemos
 Content-type: application/json
 
 {
@@ -61,7 +61,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Sales credit memo](../resources/dynamics_salescreditmemo.md)  
-[Get sales credit memo](../api/dynamics_salescreditmemo_get.md)  
-[Update sales credit memo](../api/dynamics_salescreditmemo_update.md)  
-[Delete sales credit memo](../api/dynamics_salescreditmemo_delete.md)  
+[Sales Credit Memo](../resources/dynamics_salescreditmemo.md)  
+[Get Sales Credit Memo](../api/dynamics_salescreditmemo_get.md)  
+[Update Sales Credit Memo](../api/dynamics_salescreditmemo_update.md)  
+[Delete Sales Credit Memo](../api/dynamics_salescreditmemo_delete.md)  

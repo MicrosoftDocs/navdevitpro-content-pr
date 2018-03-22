@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Create unitsOfMeasure
-Create a units of measure object in Dynamics 365 for Financials.
+Create a units of measure object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-POST /financials/companies({id})/unitsOfMeasure
+POST /businesscentral/companies({id})/unitsOfMeasure
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and a **units
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/unitsOfMeasure
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/unitsOfMeasure
 Content-type: application/json
 
 {
@@ -80,7 +80,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Units of measure](../resources/dynamics_unitsofmeasure.md)  
-[Get units of measure](../api/dynamics_unitsofmeasure_get.md)  
-[Update units of measure](../api/dynamics_unitsofmeasure_update.md)  
-[Delete units of measure](../api/dynamics_unitsofmeasure_delete.md)  
+[Units of Measure](../resources/dynamics_unitsofmeasure.md)  
+[Get Units of Measure](../api/dynamics_unitsofmeasure_get.md)  
+[Update Units of Measure](../api/dynamics_unitsofmeasure_update.md)  
+[Delete Units of Measure](../api/dynamics_unitsofmeasure_delete.md)  

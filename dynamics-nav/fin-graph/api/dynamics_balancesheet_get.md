@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/02/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -19,7 +19,7 @@ Retrieve the properties and relationships of a balance sheet report object for [
 
 ## HTTP request
 ```
-GET /financials/companies({id})/balanceSheet
+GET /businesscentral/companies({id})/balanceSheet
 ```
 
 ## Request headers
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and a **balanceS
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/balanceSheet?$orderby=lineNumber&$filter=dateFilter eq 2020-12-30
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/balanceSheet?$orderby=lineNumber&$filter=dateFilter eq 2020-12-30
 ```
 
 **Response**
@@ -66,7 +66,7 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Balance sheet](../resources/dynamics_balancesheet.md)  
-[Get cash flow statement](dynamics_cashflowstatement_get.md)  
-[Get account](dynamics_account_get.md)  
+[Balance Sheet](../resources/dynamics_balancesheet.md)  
+[Get Cash Flow Statement](dynamics_cashflowstatement_get.md)  
+[Get Account](dynamics_account_get.md)  
 [Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
