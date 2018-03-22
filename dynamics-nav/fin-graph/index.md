@@ -1,6 +1,6 @@
 ---
-title: API for Dynamics 365 for Financials | Microsoft Docs
-description: Reference content for the API endpoint for integration with Dynamics 365 for Financials.
+title: API for Dynamics 365 Business Central | Microsoft Docs
+description: Reference content for the API endpoint for integration with Dynamics 365 Business Central.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
@@ -9,7 +9,7 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/30/2017
+ms.date: 03/22/2018
 ms.author: solsen
 ---
 
