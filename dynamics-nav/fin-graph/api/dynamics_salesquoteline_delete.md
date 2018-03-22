@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Delete salesQuoteLines
-Delete a sales quote line object from Dynamics 365 for Financials.
+Delete a sales quote line object from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-DELETE /financials/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence=({number}))
+DELETE /businesscentral/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence=({number}))
+DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence=({number}))
 ```
 
 **Response** 
@@ -58,7 +58,7 @@ HTTP/1.1 204 No Content
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Sales quote line](../resources/dynamics_salesquoteline.md)  
-[Get sales quote line](../api/dynamics_salesquoteline_get.md)  
-[Create sales quote line](../api/dynamics_create_salesquoteline.md)  
-[Update sales quote line](../api/dynamics_salesquoteline_update.md)  
+[Sales Quote Line](../resources/dynamics_salesquoteline.md)  
+[Get Sales Quote Line](../api/dynamics_salesquoteline_get.md)  
+[Create Sales Quote Line](../api/dynamics_create_salesquoteline.md)  
+[Update Sales Quote Line](../api/dynamics_salesquoteline_update.md)  

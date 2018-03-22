@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Create taxGroups
-Create a tax groups object in Dynamics 365 for Financials.
+Create a tax groups object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-POST /financials/companies({id})/taxGroups
+POST /businesscentral/companies({id})/taxGroups
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and a **taxGr
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/taxGroups
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/taxGroups
 Content-type: application/json
 
 {
@@ -79,7 +79,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Tax groups](../resources/dynamics_taxgroups.md)  
-[Get tax groups](../api/dynamics_taxgroups_get.md)  
-[Update tax groups](../api/dynamics_taxgroups_update.md)  
-[Delete tax groups](../api/dynamics_taxgroups_delete.md)  
+[Tax Groups](../resources/dynamics_taxgroups.md)  
+[Get Tax Groups](../api/dynamics_taxgroups_get.md)  
+[Update Tax Groups](../api/dynamics_taxgroups_update.md)  
+[Delete Tax Groups](../api/dynamics_taxgroups_delete.md)  

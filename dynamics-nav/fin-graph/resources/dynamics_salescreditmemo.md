@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -107,7 +107,7 @@ Here is a JSON representation of the resource.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get sales credit memo](../api/dynamics_salescreditmemo_get.md)  
-[Create sales credit memo](../api/dynamics_create_salescreditmemo.md)  
-[Update sales credit memo](../api/dynamics_salescreditmemo_update.md)  
-[Delete sales credit memo](../api/dynamics_salescreditmemo_delete.md)  
+[Get Sales Credit Memo](../api/dynamics_salescreditmemo_get.md)  
+[Create Sales Credit Memo](../api/dynamics_create_salescreditmemo.md)  
+[Update Sales Credit Memo](../api/dynamics_salescreditmemo_update.md)  
+[Delete Sales Credit Memo](../api/dynamics_salescreditmemo_delete.md)  

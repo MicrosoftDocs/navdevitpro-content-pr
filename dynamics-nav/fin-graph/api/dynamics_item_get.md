@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -21,7 +21,7 @@ Retrieve the properties and relationships of an item object for [!INCLUDE[d365fi
 ## HTTP request
 
 ```
-GET /financials/companies({id})/items({id})
+GET /businesscentral/companies({id})/items({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and an **items**
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/v1.0/financials/companies({id})/items({id})
+GET https://graph.microsoft.com/v1.0/businesscentral/companies({id})/items({id})
 ```
 
 **Response**
@@ -85,6 +85,6 @@ Here is an example of the response.
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Item](../resources/dynamics_item.md)  
-[Post item](../api/dynamics_create_item.md)  
-[Patch item](../api/dynamics_item_update.md)  
-[Delete item](../api/dynamics_item_delete.md)  
+[Post Item](../api/dynamics_create_item.md)  
+[Patch Item](../api/dynamics_item_update.md)  
+[Delete Item](../api/dynamics_item_delete.md)  

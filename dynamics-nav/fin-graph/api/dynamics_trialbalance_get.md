@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -19,7 +19,7 @@ Retrieve the properties and relationships of a trial balance report object for [
 
 ## HTTP request
 ```
-GET /financials/companies({id})/trialBalance
+GET /businesscentral/companies({id})/trialBalance
 ```
 
 ## Request headers
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and a **trialBal
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/trialBalance?$orderby number&$filter=dateFilter ge 2019-01-01 and dateFilter le 2019-12-31
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/trialBalance?$orderby number&$filter=dateFilter ge 2019-01-01 and dateFilter le 2019-12-31
 ```
 
 **Response**
@@ -68,4 +68,4 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Trial balance](../resources/dynamics_trialbalance.md)  
+[Trial Balance](../resources/dynamics_trialbalance.md)  
