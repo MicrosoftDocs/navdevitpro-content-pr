@@ -1,6 +1,6 @@
 ---
 title: purchaseInvoiceLines resource type | Microsoft Docs
-description: A purchase invoice line object in Dynamics 365 for Finance and Operations, Business edition.
+description: A purchase invoice line object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

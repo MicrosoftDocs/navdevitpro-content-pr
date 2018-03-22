@@ -1,6 +1,6 @@
 ---
 title: customerPaymentsJournals resource type | Microsoft Docs
-description: A customer payments journal in Dynamics 365 for Finance and Operations, Business edition.
+description: A customer payments journal in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

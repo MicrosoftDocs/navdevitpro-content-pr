@@ -1,6 +1,6 @@
 ---
 title: customers resource type | Microsoft Docs
-description: Represents a customer in Dynamics 365 for Finance and Operations, Business edition.
+description: Represents a customer in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-financials

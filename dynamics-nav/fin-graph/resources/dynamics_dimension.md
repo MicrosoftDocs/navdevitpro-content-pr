@@ -1,6 +1,6 @@
 ---
 title: dimensions resource type | Microsoft Docs
-description: A dimension in Dynamics 365 for Finance and Operations, Business edition.
+description: A dimension in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-financials
