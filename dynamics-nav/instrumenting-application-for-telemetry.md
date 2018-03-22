@@ -25,15 +25,8 @@ By default, the [!INCLUDE[navnow](includes/navnow_md.md)] application is instrum
 To create a custom telemetry event, you use the [SENDTRACETAG function](sendtracetag-function.md) in C/AL code. You can use the SENDTRACETAG function in any object, trigger or function. The SENDTRACETAG function has the following syntax:
 
 ```  
-SENDTRACETAG(Tag, Category, Verbosity, Message)  
-```  
-
-<!--
-
-```  
 SENDTRACETAG(Tag, Category, Verbosity, Message[, DataClassification])  
 ```  
--->
 
 You use the parameters to define the information about the telemetry trace event. This information is can be consumed by event logging tools, and presented in different ways.
 
