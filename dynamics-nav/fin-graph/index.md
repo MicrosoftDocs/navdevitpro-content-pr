@@ -13,7 +13,7 @@ ms.date: 03/22/2018
 ms.author: solsen
 ---
 
-# Welcome to the API Reference for [!INCLUDE[d365fin_long](../includes/d365fin_long_md.md)]
+# Welcome to the API for [!INCLUDE[d365fin_long](../includes/d365fin_long_md.md)]
 With [!INCLUDE[d365fin](../includes/d365fin_md.md)] you can create Connect apps. Connect apps establishes a point-to-point connection between Dynamics 365 Business Central and a 3rd party solution or service and is typically created using standard REST API to interchange data. Any coding language capable of calling REST APIs can be used to develop your Connect app. For more information to get started on Connect apps, see [Developing Connect Apps for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps).
 
 > [!NOTE]  
@@ -23,4 +23,4 @@ With [!INCLUDE[d365fin](../includes/d365fin_md.md)] you can create Connect apps.
 > For information about developing extensions in AL see [Development in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview).
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](resources/dynamics_overview.md)  
+
