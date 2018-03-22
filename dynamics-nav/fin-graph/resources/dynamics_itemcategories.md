@@ -1,6 +1,6 @@
 ---
 title: itemCategories resource type | Microsoft Docs
-description: An item category in Dynamics 365 for Finance and Operations, Business edition.
+description: An item category in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

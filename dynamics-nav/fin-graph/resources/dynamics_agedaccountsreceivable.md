@@ -1,6 +1,6 @@
 ---
 title: agedAccountsReceivable resource type | Microsoft Docs
-description: An aged accounts receivable object in Dynamics 365 for Finance and Operations, Business edition.
+description: An aged accounts receivable object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

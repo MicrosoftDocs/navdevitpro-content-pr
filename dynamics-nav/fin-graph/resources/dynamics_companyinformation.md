@@ -1,6 +1,6 @@
 ---
 title: companyInformation resource type | Microsoft Docs
-description: Company information in Dynamics 365 for Finance and Operations, Business edition.
+description: Company information in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

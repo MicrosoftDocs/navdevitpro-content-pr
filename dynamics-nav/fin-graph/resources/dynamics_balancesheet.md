@@ -1,6 +1,6 @@
 ---
 title: balanceSheet resource type | Microsoft Docs
-description: A balance sheet in Dynamics 365 for Finance and Operations, Business edition.
+description: A balance sheet in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

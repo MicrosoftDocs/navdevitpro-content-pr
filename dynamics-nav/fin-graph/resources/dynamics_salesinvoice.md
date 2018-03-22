@@ -1,6 +1,6 @@
 ---
 title: salesInvoices resource type | Microsoft Docs
-description: A sales invoice object in Dynamics 365 for Finance and Operations, Business edition. 
+description: A sales invoice object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
