@@ -43,22 +43,10 @@ You use the parameters to define the information about the telemetry trace event
 |Category|A text string that assigns the telemetry trace event to a category that you define. For example, you could have a category for upgrading, user activity, or reporting.|
 |Verbosity|An enumeration that specifies the severity level of the telemetry trace event. The value can be Critical, Error, Warning, Normal, or Verbose. This severity level can be used by [!INCLUDE[nav_server_md](includes/nav_server_md.md)] to filter out lower-level telemetry trace events from being emitted. See [Viewing and collecting telemetry data](instrumenting-application-for-telemetry.md#ViewTelemetry). |
 |Message|A text string that specifies the descriptive message for the telemetry trace event.|
-
-<!-- future CU 
 |DataClassification|A DataClassification data type that assigns a classification to the telemetry trace event. For more information, see [Data Classifications](classifying-data.md#DataClassifications).|
 
--->
 For example, the following code creates simple telemetry trace events for the five different severity levels. 
 
-```  
-SENDTRACETAG('Cronus-0001', 'Action', VERBOSITY::Critical, 'This is a critical message.');
-SENDTRACETAG('Cronus-0002', 'Action', VERBOSITY::Error, 'This is an error message.');
-SENDTRACETAG('Cronus-0003', 'Action', VERBOSITY::Warning, 'This is a warning message.');
-SENDTRACETAG('Cronus-0004', 'Action', VERBOSITY::Normal, 'This is an informational message.');
-SENDTRACETAG('Cronus-0005', 'Action', VERBOSITY::Verbose, 'This is a verbose message.');
-```  
-
-<!-- future CU
 ```  
 SENDTRACETAG('Cronus-0001', 'Action', VERBOSITY::Critical, 'This is a critical message.', DATACLASSIFICATION::CustomerContent);
 SENDTRACETAG('Cronus-0002', 'Action', VERBOSITY::Error, 'This is an error message.',  DATACLASSIFICATION::EndUserIdentifiableInformation);
@@ -66,7 +54,6 @@ SENDTRACETAG('Cronus-0003', 'Action', VERBOSITY::Warning, 'This is a warning mes
 SENDTRACETAG('Cronus-0004', 'Action', VERBOSITY::Normal, 'This is an informational message.', DATACLASSIFICATION::OrganizationIdentifiableInformation);
 SENDTRACETAG('Cronus-0005', 'Action', VERBOSITY::Verbose, 'This is a verbose message.', DATACLASSIFICATION::SystemMetadata);
 ```  
--->
 
 For a simple test of this code, add it to the `OnRun` trigger of a codeunit, and then run the codeunit. Of course, you can also call the code from other objects, triggers or functions as well.
 
