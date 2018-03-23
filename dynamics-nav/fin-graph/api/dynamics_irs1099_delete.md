@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Delete irs1099Codes
-Delete a irs1099Codes object from Dynamics 365 for Financials.
+Delete a irs1099Codes object from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-DELETE /financials/companies({id})/irs1099Codes({id})
+DELETE /businesscentral/companies({id})/irs1099Codes({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/irs1099Codes({id})
+DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/irs1099Codes({id})
 ```
 
 **Response** 

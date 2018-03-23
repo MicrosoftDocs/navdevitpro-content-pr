@@ -1,6 +1,6 @@
 ---
 title: taxGroups resource type | Microsoft Docs
-description: A tax group object in Dynamics 365 for Finance and Operations, Business edition. 
+description: A tax group object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -60,7 +60,7 @@ Here is a JSON representation of the taxGroup.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get tax groups](../api/dynamics_taxgroups_get.md)  
-[Create tax groups](../api/dynamics_create_taxgroups.md)  
-[Update tax groups](../api/dynamics_taxgroups_update.md)  
-[Delete tax groups](../api/dynamics_taxgroups_delete.md)  
+[Get Tax Groups](../api/dynamics_taxgroups_get.md)  
+[Create Tax Groups](../api/dynamics_create_taxgroups.md)  
+[Update Tax Groups](../api/dynamics_taxgroups_update.md)  
+[Delete Tax Groups](../api/dynamics_taxgroups_delete.md)  

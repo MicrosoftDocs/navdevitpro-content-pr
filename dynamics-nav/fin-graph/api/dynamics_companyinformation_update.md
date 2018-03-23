@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -20,7 +20,7 @@ Update the properties of a company information object for [!INCLUDE[d365fin_long
 
 ## HTTP request
 ```
-PATCH /financials/companies({id})/companyInformation({id})
+PATCH /businesscentral/companies({id})/companyInformation({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated a
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/companyInformation({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/companyInformation({id})
 Content-type: application/json
 
 {
@@ -92,5 +92,5 @@ Content-type: application/json
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Companies](../resources/dynamics_companies.md)  
-[Company information](../resources/dynamics_companyinformation.md)  
-[Get company information](dynamics_companyinformation_get.md)  
+[Company Information](../resources/dynamics_companyinformation.md)  
+[Get Company Information](dynamics_companyinformation_get.md)  

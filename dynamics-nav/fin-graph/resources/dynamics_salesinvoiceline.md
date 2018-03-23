@@ -1,6 +1,6 @@
 ---
 title: salesInvoiceLines resource type | Microsoft Docs
-description: A sales invoice line in Dynamics 365 for Finance and Operations, Business edition.
+description: A sales invoice line in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -109,7 +109,7 @@ Here is a JSON representation of the resource.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get sales invoice line](../api/dynamics_salesinvoiceline_get.md)  
-[Create sales invoice line](../api/dynamics_create_salesinvoiceline.md)  
-[Update sales invoice line](../api/dynamics_salesinvoiceline_update.md)  
-[Delete sales invoice line](../api/dynamics_salesinvoiceline_delete.md)  
+[Get Sales Invoice Line](../api/dynamics_salesinvoiceline_get.md)  
+[Create Sales Invoice Line](../api/dynamics_create_salesinvoiceline.md)  
+[Update Sales Invoice Line](../api/dynamics_salesinvoiceline_update.md)  
+[Delete Sales Invoice Line](../api/dynamics_salesinvoiceline_delete.md)  

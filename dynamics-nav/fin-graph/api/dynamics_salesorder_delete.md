@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Delete salesOrders
-Delete a sales order object from Dynamics 365 for Financials.
+Delete a sales order object from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-DELETE /financials/companies({id})/salesOrders({id})
+DELETE /businesscentral/companies({id})/salesOrders({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesOrders({id})
+DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesOrders({id})
 ```
 
 **Response** 
@@ -58,7 +58,7 @@ HTTP/1.1 204 No Content
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Sales order](../resources/dynamics_salesorder.md)  
-[Get sales order](../api/dynamics_salesorder_get.md)  
-[Create sales order](../api/dynamics_create_salesorder.md)  
-[Update sales order](../api/dynamics_salesorder_update.md)  
+[Sales Order](../resources/dynamics_salesorder.md)  
+[Get Sales Order](../api/dynamics_salesorder_get.md)  
+[Create Sales Order](../api/dynamics_create_salesorder.md)  
+[Update Sales Order](../api/dynamics_salesorder_update.md)  

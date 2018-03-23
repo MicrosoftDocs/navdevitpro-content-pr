@@ -10,17 +10,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Create taxAreas
-Creates a tax area object in Dynamics 365 for Financials.
+Creates a tax area object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-POST /financials/companies({id})/taxAreas({id})
+POST /businesscentral/companies({id})/taxAreas({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and a **taxAr
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/taxAreas
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/taxAreas
 Content-type: application/json
 
 ```json
@@ -71,7 +71,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Tax area](../resources/dynamics_taxarea.md)  
-[Get tax area](../api/dynamics_taxarea_get.md)  
-[Update tax area](../api/dynamics_taxarea_update.md)  
-[Delete tax area](../api/dynamics_taxarea_delete.md)  
+[Tax Area](../resources/dynamics_taxarea.md)  
+[Get Tax Area](../api/dynamics_taxarea_get.md)  
+[Update Tax Area](../api/dynamics_taxarea_update.md)  
+[Delete Tax Area](../api/dynamics_taxarea_delete.md)  

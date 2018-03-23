@@ -1,6 +1,6 @@
 ---
 title: irs1099Codes resource type | Microsoft Docs
-description: An IRS 1099 Code object in Dynamics 365 for Finance and Operations, Business edition.
+description: An IRS 1099 Code object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 

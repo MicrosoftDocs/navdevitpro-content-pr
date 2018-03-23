@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -20,7 +20,7 @@ Retrieve the properties and relationships of a journal object for [!INCLUDE[d365
 ## HTTP request
 
 ```
-GET /financials/companies({id})/journals({id})
+GET /businesscentral/companies({id})/journals({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **journals
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/journals({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/journals({id})
 ```
 
 **Response**
@@ -66,6 +66,6 @@ Here is an example of the response.
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Journal](../resources/dynamics_journal.md)  
-[Create journal](../api/dynamics_create_journal.md)  
-[Update journal](../api/dynamics_journal_update.md)  
-[Delete journal](../api/dynamics_journal_delete.md)  
+[Create Journal](../api/dynamics_create_journal.md)  
+[Update Journal](../api/dynamics_journal_update.md)  
+[Delete Journal](../api/dynamics_journal_delete.md)  

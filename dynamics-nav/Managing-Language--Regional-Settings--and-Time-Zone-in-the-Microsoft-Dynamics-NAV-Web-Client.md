@@ -22,7 +22,7 @@ This topic describes how to set the language, regional settings, and time zone f
  For information about how to install a language module, see [How to: Install Language Modules](How-to--Install-Language-Modules.md).  
   
 ### Changing the Language, Region, and Time Zone  
- You change the language, the region, and the time zone in the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using the **My Settings** page located in the upper right corner under the user name that you are signed in with. The regional settings determine the format of data such as dates, times, numbers, currency, and so on. The time zone specifies the time zone that is applied to date and time data that a user views or enters in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. You need to sign out and sign in again for the change to take effect.  
+ You change the language, the region, and the time zone in the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using the **My Settings** page located in the upper right corner under the user name that you are signed in with. The regional settings determine the format of data such as dates, times, numbers, currency, and so on. The time zone specifies the time zone that is applied to date and time data that a user views or enters in the [!INCLUDE[nav_web](includes/nav_web_md.md)].
   
 ## See Also  
  [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)   

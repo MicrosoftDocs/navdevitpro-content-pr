@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -20,7 +20,7 @@ Retrieve the properties and relationships of a sales credit memo object for [!IN
 ## HTTP request
 
 ```
-GET /financials/companies({id})/salesCreditMemos({id})
+GET /businesscentral/companies({id})/salesCreditMemos({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **salesCre
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesCreditMemos({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesCreditMemos({id})
 ```
 
 **Response**
@@ -91,7 +91,7 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Sales credit memo](../resources/dynamics_salescreditmemo.md)  
-[Create sales credit memo](../api/dynamics_create_salescreditmemo.md)  
-[Update sales credit memo](../api/dynamics_salescreditmemo_update.md)  
-[Delete sales credit memo](../api/dynamics_salescreditmemo_delete.md)  
+[Sales Credit Memo](../resources/dynamics_salescreditmemo.md)  
+[Create Sales Credit Memo](../api/dynamics_create_salescreditmemo.md)  
+[Update Sales Credit Memo](../api/dynamics_salescreditmemo_update.md)  
+[Delete Sales Credit Memo](../api/dynamics_salescreditmemo_delete.md)  

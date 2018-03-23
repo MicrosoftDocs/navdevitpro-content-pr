@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -19,7 +19,7 @@ Retrieve the properties and relationships of a company information object for [!
 
 ## HTTP request
 ```
-GET /financials/companies({id})/companyInformation({id})
+GET /businesscentral/companies({id})/companyInformation({id})
 ```
 
 ## Request headers
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and a **companyI
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/companyInformation({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/companyInformation({id})
 ```
 
 **Response**
@@ -81,5 +81,5 @@ Here is an example of the response.
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Companies](../resources/dynamics_companies.md)  
-[Company information](../resources/dynamics_companyinformation.md)  
-[Update company information](dynamics_companyinformation_update.md)  
+[Company Information](../resources/dynamics_companyinformation.md)  
+[Update Company Information](dynamics_companyinformation_update.md)  

@@ -10,17 +10,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Create journalLines
-Creates a journal line object in Dynamics 365 for Financials.
+Creates a journal line object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-POST /financials/companies({id})/journals({id})/journalLines({id})
+POST /businesscentral/companies({id})/journals({id})/journalLines({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and **journal
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/journals({id})/journalLines
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/journals({id})/journalLines
 Content-type: application/json
 
 {
@@ -85,7 +85,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Journal line](../resources/dynamics_journalline.md)  
-[Get journal line](../api/dynamics_journalline_get.md)  
-[Update journal line](../api/dynamics_journalline_update.md)  
-[Delete journal line](../api/dynamics_journalline_delete.md)  
+[Journal Line](../resources/dynamics_journalline.md)  
+[Get Journal Line](../api/dynamics_journalline_get.md)  
+[Update Journal Line](../api/dynamics_journalline_update.md)  
+[Delete Journal Line](../api/dynamics_journalline_delete.md)  

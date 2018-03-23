@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -20,7 +20,7 @@ Retrieve the properties and relationships of a units of measure object for [!INC
 ## HTTP request
 
 ```
-GET /financials/companies({id})/unitsOfMeasure({id})
+GET /businesscentral/companies({id})/unitsOfMeasure({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **unitsOfM
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/unitsOfMeasure({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/unitsOfMeasure({id})
 ```
 
 **Response**
@@ -67,7 +67,7 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Units of measure](../resources/dynamics_unitsofmeasure.md)  
-[Create units of measure](../api/dynamics_create_unitsofmeasure.md)  
-[Update units of measure](../api/dynamics_unitsofmeasure_update.md)  
-[Delete units of measure](../api/dynamics_unitsofmeasure_delete.md)  
+[Units of Measure](../resources/dynamics_unitsofmeasure.md)  
+[Create Units of Measure](../api/dynamics_create_unitsofmeasure.md)  
+[Update Units of Measure](../api/dynamics_unitsofmeasure_update.md)  
+[Delete Units of Measure](../api/dynamics_unitsofmeasure_delete.md)  

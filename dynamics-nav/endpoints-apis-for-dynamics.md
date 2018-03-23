@@ -1,5 +1,5 @@
 ---
-title: "Endpoints for the APIs for Microsoft Dynamics NAV and Microsoft Dynamics 365 for Finance and Operations, Business edition"
+title: "Endpoints for the APIs for Microsoft Dynamics NAV and Microsoft Dynamics 365 Business Central"
 description: "Describing the steps you must go through to enable access to the APIs in on-prem and cloud product versions."
 author: SusanneWindfeldPedersen
 ms.custom: na
@@ -14,7 +14,7 @@ ms.author: solsen
 caps.latest.revision: 18
 ---
 
-# Endpoints for the APIs for Microsoft Dynamics NAV and Microsoft Dynamics 365 for Finance and Operations, Business edition 
+# Endpoints for the APIs for Microsoft Dynamics NAV and Microsoft Dynamics 365 Business Central 
 [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] expose an API that makes it possible to integrate with other services. To enable integration with these APIs, for [!INCLUDE[navnow](includes/navnow_md.md)] you must go through a few steps to enable the access first. For more information about these steps, see [Enabling APIs for Microsoft Dynamics NAV](enabling-apis-for-dynamics-nav.md).
 
 ## Accessing the endpoint
@@ -33,6 +33,6 @@ Once you have the API access enabled, you can write code that integrates your we
 
 ## See Also
 [API Documentation (Preview)](fin-graph/index.md)  
-[Developing Connect Apps for Dynamics 365 for Finance and Operations, Business edition](developer/devenv-develop-connect-apps-for-fin.md)  
+[Developing Connect Apps for Dynamics 365 Business Central](developer/devenv-develop-connect-apps-for-fin.md)  
 [Configuring Microsoft Dynamics NAV Server](configuring-microsoft-dynamics-nav-server.md)  
 [Microsoft Dynamics NAV Web Services Overview](microsoft-dynamics-nav-web-services-overview.md)  

@@ -1,6 +1,6 @@
 ---
 title: customers resource type | Microsoft Docs
-description: Represents a customer in Dynamics 365 for Finance and Operations, Business edition.
+description: Represents a customer in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-financials
@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -105,7 +105,7 @@ Here is a JSON representation of the resource.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get customers](../api/dynamics_customer_get.md)  
-[Post customers](../api/dynamics_create_customer.md)  
-[Patch customers](../api/dynamics_customer_update.md)  
-[Delete customers](../api/dynamics_customer_delete.md)  
+[Get Customers](../api/dynamics_customer_get.md)  
+[Post Customers](../api/dynamics_create_customer.md)  
+[Patch Customers](../api/dynamics_customer_update.md)  
+[Delete Customers](../api/dynamics_customer_delete.md)  

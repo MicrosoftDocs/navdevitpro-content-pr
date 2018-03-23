@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -20,7 +20,7 @@ Retrieve the properties and relationships of a general ledger entry object for [
 
 ## HTTP request
 ```
-GET /financials/companies({id})/generalLedgerEntries({id})
+GET /businesscentral/companies({id})/generalLedgerEntries({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **generalL
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/beta/financials/companies({id})/generalLedgerEntries({id})
+GET https://graph.microsoft.com/beta/businesscentral/companies({id})/generalLedgerEntries({id})
 ```
 
 **Response**
@@ -72,4 +72,4 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[General ledger entries](../resources/dynamics_generalledgerentries.md)  
+[General Ledger Entries](../resources/dynamics_generalledgerentries.md)  
