@@ -14,7 +14,7 @@ ms.author: solsen
 caps.latest.revision: 18
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+ 
 
 > [!TIP]  
 > Looking for the latest AL developer documentation? Visit our new [[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] developer docs](/dynamics365/business-central/dev-itpro/).
