@@ -1,14 +1,8 @@
 {
     "redirections": [ {
-            "source_path": "dynamics-nav/developer/devenv-actions-overview.md",
-            "redirect_url": "/dynamics365/dev-itpro/developer/devenv-actions-overview",
+            "source_path": "dynamics-nav/developer/devenv-inclient-designer.md",
+            "redirect_url": "/dynamics365/dev-itpro/developer/devenv-inclient-designer",
             "redirect_document_id": true
         },    
-        {
-            "source_path": "dynamics-nav/developer/devenv-adding-menus-to-navigation-pane.md",
-            "redirect_url": "/dynamics365/dev-itpro/developer/devenv-adding-menus-to-navigation-pane",
-            "redirect_document_id": true
-        },
-        
    ]
 }
