@@ -2,10 +2,10 @@
 title: "Walkthrough: Creating and Interacting With an OData V4 Bound Action"
 ms.author: solsen
 ms.custom: na
-ms.date: 11/24/2017
+ms.date: 04/04/2018
 ms.reviewer: na
 ms.suite: na
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: na   
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.assetid: efcf5eaf-b129-469d-b4f7-b8681574483e
@@ -154,7 +154,7 @@ After publishing a web service, verify that the port that web service applicatio
 9.	The returned value will be returned in the body of the message.  
     ```
     {
-        "@odata.context": "http://farpedro.northamerica.corp.microsoft.com:7047/Navision_NAV/ODataV4/$metadata#Edm.String",
+        "@odata.context": "http://localhost:7047/Navision_NAV/ODataV4/$metadata#Edm.String",
         "value": "Hello World Completed"
     }
     ```
