@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Create items
-Create an item in Dynamics 365 for Financials for use on invoices, quotes, etc.
+Create an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] for use on invoices, quotes, etc.
 
 ## HTTP request
 ```
-POST /financials/companies({id})/items
+POST /businesscentral/companies({id})/items
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns ```201 Created``` response code and an **item
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/items
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/items
 Content-type: application/json
 
 {
@@ -93,6 +93,6 @@ Content-type: application/json
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Item](../resources/dynamics_item.md)  
-[Get item](../api/dynamics_item_get.md)  
+[Get Item](../api/dynamics_item_get.md)  
 [Patch item](../api/dynamics_item_update.md)  
-[Delete item](../api/dynamics_item_delete.md)  
+[Delete Item](../api/dynamics_item_delete.md)  

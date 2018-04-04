@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/02/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -19,7 +19,7 @@ Retrieve the properties and relationships of an account object for [!INCLUDE[d36
 
 ## HTTP request
 ```
-GET /financials/companies({id})/accounts({id})
+GET /businesscentral/companies({id})/accounts({id})
 ```
 
 ## Request headers
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and an **account
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/accounts({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/accounts({id})
 ```
 
 **Response**
@@ -68,5 +68,5 @@ Here is an example of the response.
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Account](../resources/dynamics_account.md)  
-[Get aged accounts payable](dynamics_agedaccountspayable_get.md)  
-[Get aged accounts receivable](dynamics_agedaccountsreceivable_get.md)  
+[Get Aged Accounts Payable](dynamics_agedaccountspayable_get.md)  
+[Get Aged Accounts Receivable](dynamics_agedaccountsreceivable_get.md)  

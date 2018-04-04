@@ -1,5 +1,5 @@
 ---
-title: "Developing Apps for Dynamics 365 for Finance and Operations, Business edition"
+title: "Developing Apps for Dynamics 365 Business Central"
 ms.custom: na
 ms.date: 11/23/2017
 ms.reviewer: na
@@ -10,12 +10,12 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: 471299b6-82cd-41cc-b529-8b60ece530a5
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
-redirect_url: /readiness/readiness-add-on-apps
+redirect_url: http://www.microsoft.com
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+ 
 
-# Developing Apps for Dynamics 365 for Finance and Operations, Business edition
+# Developing Apps for Dynamics 365 Business Central
 Reach more customers by bringing apps for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] into Microsoft Appsource, the marketplace for Microsoft business apps. 
 Dynamics 365 gives you rich functionality, a modern always up-to-date platform, and a set of great new development tools.
 When your app is done, publish it through Microsoft AppSource – the marketplace for Microsoft’s business apps and start benefiting from a brand that millions of users know and trust.
@@ -37,7 +37,7 @@ It's easy to get started! Just spin up a developer sandbox environment by going 
 >  Want to get started with APIs? Go to [https://aka.ms/getstartedwithapis](https://aka.ms/getstartedwithapis).
 
 
-1) Sign up for a [Dynamics 365 for Finance and Operations, Business edition sandbox](https://go.microsoft.com/fwlink/?linkid=847861).    
+1) Sign up for a [Dynamics 365 Business Central sandbox](https://go.microsoft.com/fwlink/?linkid=847861).    
 2) Download [Visual Studio Code](https://code.visualstudio.com/Download).  
 3) Download the [AL Language extension](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al).  
 4) Press **Alt+A, Alt+L** to trigger the **Go!** command, and then choose **Cloud**.  
@@ -66,7 +66,7 @@ We are excited to have you in our family of [!INCLUDE[d365fin_long_md](includes/
 #### 1)	Get the prerequisites in place  
 To get started with development, you must have some necessary accounts in place. Next, we ask you to send us your app idea via Microsoft AppSource to get your object range and developer license. Learn more about how to get your prerequisites in place [here](https://go.microsoft.com/fwlink/?linkid=857095). 
 
-#### 2)	Develop your Dynamics 365 for Finance and Operations, Business edition app   
+#### 2)	Develop your Dynamics 365 Business Central app   
 Use the development tools for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] (preview), which enables you to build Extensions v2.0. To get started, set up the [sandbox environment](#want-to-try-it-out). Please be aware, that we are **only** accepting [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] apps built on Extensions v2.0 with Visual Studio Code. You can no longer submit Extensions V1.0. For questions, please [email us](mailto:d365val@microsoft.com).
 
 After you have completed step 1; Get the prerequisites in place, you will be eligible to access the Ready! program. Ready! for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] is an engagement program which enables those who want to develop and deliver apps for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] in Microsoft AppSource. You will get: 

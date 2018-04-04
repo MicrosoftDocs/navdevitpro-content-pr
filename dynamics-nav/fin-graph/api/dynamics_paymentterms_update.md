@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -19,7 +19,7 @@ Update the properties of a payment terms object for [!INCLUDE[d365fin_long_md](.
 
 ## HTTP request
 ```
-PATCH /financials/companies({id})/paymentTerms({id})
+PATCH /businesscentral/companies({id})/paymentTerms({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/paymentTerms({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/paymentTerms({id})
 Content-type: application/json
 
 {
@@ -80,7 +80,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Payment terms](../resources/dynamics_paymentterms.md)  
-[Get payment terms](../api/dynamics_paymentterms_get.md)  
-[Create payment terms](../api/dynamics_create_paymentterms.md)  
-[Delete payment terms](../api/dynamics_paymentterms_delete.md)  
+[Payment Terms](../resources/dynamics_paymentterms.md)  
+[Get Payment Terms](../api/dynamics_paymentterms_get.md)  
+[Create Payment Terms](../api/dynamics_create_paymentterms.md)  
+[Delete Payment Terms](../api/dynamics_paymentterms_delete.md)  

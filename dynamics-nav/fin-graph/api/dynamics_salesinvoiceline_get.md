@@ -22,7 +22,7 @@ Retrieve the properties and relationships of a sales invoice line object for [!I
 ## HTTP request
 
 ```
-GET /financials/companies({id})/salesInvoices({id})/salesInvoiceLines(documentId=({id}),sequence=({number}))
+GET /businesscentral/companies({id})/salesInvoices({id})/salesInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and a **salesInv
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesInvoices({id})/salesInvoiceLines(documentId=({id}),sequence=({number}))
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesInvoices({id})/salesInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 **Response**
@@ -96,7 +96,7 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Sales invoice line](../resources/dynamics_salesinvoiceline.md)  
-[Create sales invoice line](../api/dynamics_create_salesinvoiceline.md)  
-[Update sales invoice line](../api/dynamics_salesinvoiceline_update.md)  
-[Delete sales invoice line](../api/dynamics_salesinvoiceline_delete.md)  
+[Sales Invoice Line](../resources/dynamics_salesinvoiceline.md)  
+[Create Sales Invoice Line](../api/dynamics_create_salesinvoiceline.md)  
+[Update Sales Invoice Line](../api/dynamics_salesinvoiceline_update.md)  
+[Delete Sales Invoice Line](../api/dynamics_salesinvoiceline_delete.md)  

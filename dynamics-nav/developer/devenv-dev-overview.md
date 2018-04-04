@@ -13,7 +13,10 @@ ms.author: solsen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+ 
+
+> [!TIP]  
+> Looking for the latest AL developer documentation? Visit our new [[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] developer docs](/dynamics365/business-central/dev-itpro/).
 
 # Development in AL
 Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behavior of the solution. This section explains how you can develop extensions using the development environment for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)]. For an overview of developing apps for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)], see [aka.ms/GetStartedWithApps](devenv-develop-apps-for-fin.md). 

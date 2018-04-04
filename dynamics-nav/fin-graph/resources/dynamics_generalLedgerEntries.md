@@ -1,6 +1,6 @@
 ---
 title: generalLedgerEntries resource type | Microsoft Docs
-description: A general ledger entry in Dynamics 365 for Finance and Operations, Business edition.
+description: A general ledger entry in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -71,5 +71,5 @@ Here is a JSON representation of the resource.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[General ledger entries](../resources/dynamics_generalledgerentries.md)  
-[Get general ledger entries](../api/dynamics_generalledgerentries_get.md)  
+[General Ledger Entries](../resources/dynamics_generalledgerentries.md)  
+[Get General Ledger Entries](../api/dynamics_generalledgerentries_get.md)  

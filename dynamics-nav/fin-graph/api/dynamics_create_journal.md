@@ -10,17 +10,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Create journals
-Creates a journal in Dynamics 365 for Financials. 
+Creates a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
 
 ## HTTP request
 
 ```
-POST /financials/companies({id})/journals({id})
+POST /businesscentral/companies({id})/journals({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and a **journ
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/journals
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/journals
 Content-type: application/json
 
 ```json
@@ -72,6 +72,6 @@ Content-type: application/json
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Journal](../resources/dynamics_journal.md)  
-[Get journal](../api/dynamics_journal_get.md)  
-[Update journal](../api/dynamics_journal_update.md)  
-[Delete journal](../api/dynamics_journal_delete.md)  
+[Get Journal](../api/dynamics_journal_get.md)  
+[Update Journal](../api/dynamics_journal_update.md)  
+[Delete Journal](../api/dynamics_journal_delete.md)  

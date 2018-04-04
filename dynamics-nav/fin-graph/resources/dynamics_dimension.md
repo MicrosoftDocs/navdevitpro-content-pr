@@ -1,6 +1,6 @@
 ---
 title: dimensions resource type | Microsoft Docs
-description: A dimension in Dynamics 365 for Finance and Operations, Business edition.
+description: A dimension in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-financials
@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -54,4 +54,4 @@ Here is a JSON representation of the resource.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get dimensions](../api/dynamics_dimension_get.md)  
+[Get Dimensions](../api/dynamics_dimension_get.md)  

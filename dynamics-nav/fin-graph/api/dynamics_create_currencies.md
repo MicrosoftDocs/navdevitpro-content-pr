@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Create currencies
-Create a currency object in Dynamics 365 for Financials.
+Create a currency object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-POST /financials/companies({id})/currencies
+POST /businesscentral/companies({id})/currencies
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and a **curre
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/currencies
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/currencies
 Content-type: application/json
 
 {
@@ -82,6 +82,6 @@ Content-type: application/json
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Currencies](../resources/dynamics_currencies.md)  
-[Get currencies](dynamics_currencies_get.md)  
-[Patch currencies](dynamics_currencies_update.md)  
-[Delete currencies](dynamics_currencies_delete.md)  
+[Get Currencies](dynamics_currencies_get.md)  
+[Patch Currencies](dynamics_currencies_update.md)  
+[Delete Currencies](dynamics_currencies_delete.md)  

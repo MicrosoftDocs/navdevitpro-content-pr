@@ -10,17 +10,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Create purchaseInvoiceLines
-Create a purchase invoice line object in Dynamics 365 for Financials.
+Create a purchase invoice line object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-POST /financials/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines
+POST /businesscentral/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a **purch
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines
 Content-type: application/json
 
 {
@@ -59,7 +59,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Purchase invoice line](../resources/dynamics_purchaseinvoiceline.md)  
-[Get purchase invoice line](../api/dynamics_purchaseinvoiceline_get.md)  
-[Update purchase invoice line](../api/dynamics_purchaseinvoiceline_update.md)  
-[Delete purchase invoice line](../api/dynamics_purchaseinvoiceline_delete.md)  
+[Purchase Invoice Line](../resources/dynamics_purchaseinvoiceline.md)  
+[Get Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_get.md)  
+[Update Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_update.md)  
+[Delete Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_delete.md)  

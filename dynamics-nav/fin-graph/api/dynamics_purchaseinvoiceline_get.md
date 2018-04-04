@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -22,7 +22,7 @@ Retrieve the properties and relationships of a purchase invoice line object for 
 ## HTTP request
 
 ```
-GET /financials/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
+GET /businesscentral/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and a **purchase
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 **Response**
@@ -94,7 +94,7 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Purchase invoice line](../resources/dynamics_purchaseinvoiceline.md)  
-[Create purchase invoice line](../api/dynamics_create_purchaseinvoiceline.md)  
-[Update purchase invoice line](../api/dynamics_purchaseinvoiceline_update.md)  
-[Delete purchase invoice line](../api/dynamics_purchaseinvoiceline_delete.md)  
+[Purchase Invoice Line](../resources/dynamics_purchaseinvoiceline.md)  
+[Create Purchase Invoice Line](../api/dynamics_create_purchaseinvoiceline.md)  
+[Update Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_update.md)  
+[Delete Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_delete.md)  

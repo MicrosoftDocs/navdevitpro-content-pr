@@ -14,7 +14,7 @@ ms.author: solsen
 caps.latest.revision: 18
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+ 
 
 # Extending Application Areas 
 Application area represents a feature in the system that offers developers, administrators, and users the ability to define differentiated user experiences.
@@ -27,6 +27,9 @@ In this example you will:
 - Extend the experience tier in the **OnGetExperienceAppArea**.
 - Modify the experience tier (optional).
 - Validate the application area in the **OnValidateApplicationAreas**.
+
+> [!IMPORTANT]
+> The code used in this example is still under active development and might be subject to change in the future. 
 
 
 The following example extends the **Customer List** page. The field **ExampleField** is added and it is followed by a series of properties. The **ApplicationArea** property sets the application areas that apply to the control and in this code, **ExampleAppArea** is assigned to it. 
@@ -152,7 +155,7 @@ codeunit 50100 "Enable Example Extension"
         ExperienceTierSetup: Record "Experience Tier Setup";
         ApplicationAreaMgmtFacade: Codeunit "Application Area Mgmt. Facade";
     begin
-        if ExperienceTierSetup.Get(CompanyName()) then; //CRONUS International Ltd. //TODO remove
+        if ExperienceTierSetup.Get(CompanyName()) then; 
         if not ExperienceTierSetup.Essential then
             exit;
 

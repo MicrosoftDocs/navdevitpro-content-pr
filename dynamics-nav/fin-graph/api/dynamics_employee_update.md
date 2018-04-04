@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -21,7 +21,7 @@ Update the properties of an employee object for [!INCLUDE[d365fin_long_md](../..
 ## HTTP request
 
 ```
-PATCH /financials/companies({id})/employees({id})
+PATCH /businesscentral/companies({id})/employees({id})
 ```
 
 ## Request headers
@@ -44,7 +44,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 Here is an example of the request.
 
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/employees({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/employees({id})
 Content-type: application/json
 
 {
@@ -99,6 +99,6 @@ Content-type: application/json
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Employee](../resources/dynamics_employee.md)  
-[Get employee](../api/dynamics_employee_get.md)  
-[Post employee](../api/dynamics_create_employee.md)  
-[Delete employee](../api/dynamics_employee_delete.md)  
+[Get Employee](../api/dynamics_employee_get.md)  
+[Post Employee](../api/dynamics_create_employee.md)  
+[Delete Employee](../api/dynamics_employee_delete.md)  

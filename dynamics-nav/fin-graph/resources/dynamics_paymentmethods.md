@@ -1,6 +1,6 @@
 ---
 title: paymentMethods resource type | Microsoft Docs
-description: A payment method object in Dynamics 365 for Finance and Operations, Business edition.
+description: A payment method object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -62,7 +62,7 @@ Here is a JSON representation of the paymentMethods.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get payment methods](../api/dynamics_paymentmethods_get.md)  
-[Create payment methods](../api/dynamics_create_paymentmethods.md)  
-[Update payment methods](../api/dynamics_paymentmethods_update.md)  
-[Delete payment methods](../api/dynamics_paymentmethods_delete.md)  
+[Get Payment Methods](../api/dynamics_paymentmethods_get.md)  
+[Create Payment Methods](../api/dynamics_create_paymentmethods.md)  
+[Update Payment Methods](../api/dynamics_paymentmethods_update.md)  
+[Delete Payment Methods](../api/dynamics_paymentmethods_delete.md)  

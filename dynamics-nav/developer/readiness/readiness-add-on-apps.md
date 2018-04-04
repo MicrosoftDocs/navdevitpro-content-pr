@@ -11,6 +11,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.author: solsen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
+redirect_url: /dynamics365/business-central/dev-itpro/developer/readiness/readiness-add-on-apps
 ---
 
 # Add-On Apps
@@ -46,13 +47,13 @@ To ease the development phase of Add-on aps we have created a video series to he
 
 <!-- INSERT VIDEOS:  
 HDI - V4: Build my first extension 
-HDI - V1: Add a field in an extension 
+HDI - V1: Add a field in an extension DONE
 HDI - V3: Create a table and a page 
-HDI - V2: Add a relation to a foreign table in an extension 
-HDI - V5: Add AL Code to an extension 
+HDI - V2: Add a relation to a foreign table in an extension DONE
+HDI - V5: Add AL Code to an extension DONE
 HDI - V7: Build a custom control 
 HDI - V8: How do I create custom web services for integration scenarios? 
-HDI - V9: Connect to webservices in an extension -->
+HDI - V9: Connect to webservices in an extension DONE -->
 
 - [How do I add a field in an extension?](https://youtu.be/q00zPWT7e34)
 - [How do I add a relation to a foreign table?](https://youtu.be/f0no_38NggI)

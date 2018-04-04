@@ -1,6 +1,6 @@
 ---
 title: currencies resource type | Microsoft Docs
-description: A currency object in Dynamics 365 for Finance and Operations, Business edition 
+description: A currency object in Dynamics 365 Business Central 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -67,7 +67,7 @@ Here is a JSON representation of the currencies.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get currencies](../api/dynamics_currencies_get.md)  
-[Post currencies](../api/dynamics_create_currencies.md)  
-[Patch currencies](../api/dynamics_currencies_update.md)  
-[Delete currencies](../api/dynamics_currencies_delete.md)  
+[Get Currencies](../api/dynamics_currencies_get.md)  
+[Post Currencies](../api/dynamics_create_currencies.md)  
+[Patch Currencies](../api/dynamics_currencies_update.md)  
+[Delete Currencies](../api/dynamics_currencies_delete.md)  

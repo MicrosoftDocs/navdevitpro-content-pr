@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -19,7 +19,7 @@ Update the properties of a shipment method object for [!INCLUDE[d365fin_long_md]
 
 ## HTTP request
 ```
-PATCH /financials/companies({id})/shipmentMethods({id})
+PATCH /businesscentral/companies({id})/shipmentMethods({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/shipmentMethods({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/shipmentMethods({id})
 Content-type: application/json
 
 {
@@ -75,7 +75,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Shipment methods](../resources/dynamics_shipmentmethods.md)  
-[Get shipment methods](../api/dynamics_shipmentmethods_get.md)  
-[Create shipment methods](../api/dynamics_create_shipmentmethods.md)  
-[Delete shipment methods](../api/dynamics_shipmentmethods_delete.md)  
+[Shipment Methods](../resources/dynamics_shipmentmethods.md)  
+[Get Shipment Methods](../api/dynamics_shipmentmethods_get.md)  
+[Create Shipment Methods](../api/dynamics_create_shipmentmethods.md)  
+[Delete Shipment Methods](../api/dynamics_shipmentmethods_delete.md)  

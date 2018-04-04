@@ -12,9 +12,9 @@ caps.latest.revision: 4
 author: SusanneWindfeldPedersen
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+ 
 
-# Encrypting Data in Dynamics 365 for Finance and Operations, Business edition
+# Encrypting Data in Dynamics 365 Business Central
 This article gives an overview of data encription and how to use it to add security [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
 ## Cryptography overview

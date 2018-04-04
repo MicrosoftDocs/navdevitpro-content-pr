@@ -1,6 +1,6 @@
 ---
 title: itemCategories resource type | Microsoft Docs
-description: An item category in Dynamics 365 for Finance and Operations, Business edition.
+description: An item category in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -59,7 +59,7 @@ Here is a JSON representation of the itemCategories.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get item categories](../api/dynamics_itemcategories_get.md)  
-[Create item categories](../api/dynamics_create_itemcategories.md)  
-[Update item categories](../api/dynamics_itemcategories_update.md)  
-[Delete item categories](../api/dynamics_itemcategories_delete.md)  
+[Get Item Categories](../api/dynamics_itemcategories_get.md)  
+[Create Item Categories](../api/dynamics_create_itemcategories.md)  
+[Update Item Categories](../api/dynamics_itemcategories_update.md)  
+[Delete Item Categories](../api/dynamics_itemcategories_delete.md)  

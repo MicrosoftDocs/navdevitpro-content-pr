@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -20,7 +20,7 @@ Retrieve the properties and relationships of a currency object for [!INCLUDE[d36
 ## HTTP request
 
 ```
-GET /financials/companies({id})/currencies({id})
+GET /businesscentral/companies({id})/currencies({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and a **currenci
 Here is an example of the request.
 
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/currencies({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/currencies({id})
 ```
 
 **Response**
@@ -70,6 +70,6 @@ Here is an example of the response.
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Currencies](../resources/dynamics_currencies.md)  
-[Post currencies](dynamics_create_currencies.md)  
-[Patch currencies](dynamics_currencies_update.md)  
-[Delete currencies](dynamics_currencies_delete.md)  
+[Post Currencies](dynamics_create_currencies.md)  
+[Patch Currencies](dynamics_currencies_update.md)  
+[Delete Currencies](dynamics_currencies_delete.md)  

@@ -11,6 +11,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.author: solsen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
+redirect_url: /dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go
 ---
 
 # Ready to Go
@@ -38,7 +39,7 @@ This workshop helps you in validating your complete offer, from a business, mark
 
 |Type|Company Name        |**Ready to Go** Validation Workshop|
 |----|--------------------|------------------|
-|Development Center       |1ClickFactory|[https://www.1clickfactory.com/readytogo/](https://www.1clickfactory.com/ready-to-go/)|
+|Development Center       |1ClickFactory|[https://www.1clickfactory.com/readytogo/](https://www.1clickfactory.com/readytogo/)|
 |    |Ciellos             | [http://www.ciellos.com/ready-to-go](http://www.ciellos.com/ready-to-go)   |  
 |    |Cloud Ready Software|[http://www.cloud-ready-software.com/readytogo](http://www.cloud-ready-software.com/readytogo)  |
 |    |Innova Consulting   |[http://www.innovaconsulting.es/en/readytogo/](http://www.innovaconsulting.es/en/readytogo/)   |

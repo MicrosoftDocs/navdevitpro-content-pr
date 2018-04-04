@@ -1,6 +1,6 @@
 ---
 title: countriesRegions resource type | Microsoft Docs
-description: A Countries/Regions object in Dynamics 365 for Finance and Operations, Business edition. 
+description: A Countries/Regions object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -63,7 +63,7 @@ Here is a JSON representation of the countriesRegions.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get counties regions](../api/dynamics_countriesregions_get.md)  
-[Post countries regions](../api/dynamics_create_countriesregions.md)  
-[Patch countries regions](../api/dynamics_countriesregions_update.md)  
-[Delete countries regions](../api/dynamics_countriesregions_delete.md)  
+[Get Countries Regions](../api/dynamics_countriesregions_get.md)  
+[Post Countries Regions](../api/dynamics_create_countriesregions.md)  
+[Patch Countries Regions](../api/dynamics_countriesregions_update.md)  
+[Delete Countries Regions](../api/dynamics_countriesregions_delete.md)  
