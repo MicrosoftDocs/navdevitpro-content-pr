@@ -104,8 +104,17 @@ Open the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] that matches to old 
   
     Replace `<Name>` and `<N.N.N.N>` with the name and version of the Extension V1 as it appeared in the previous step.
 
-> [!IMPORTANT]
-> Do not uninstall V2 extensions (ModernDev type).
+    > [!IMPORTANT]
+    > Do not uninstall V2 extensions (ModernDev type).
+3. Unpublish the V1 extensions that have **Microsoft** as the publisher:
+
+    ```
+    Unpublish-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N>
+    ```
+  
+    Replace `<Name>` and `<N.N.N.N>` with the name and version of the Extension V1 as it appeared in the previous step.
+
+    You will publish these again later.
 
 ##  <a name="UploadLicense"></a> Task 4: Upload the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] license to the old database  
 By using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] that matches the old database, upload the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] license to the database.
@@ -303,17 +312,20 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
     For more information, see [Configuring Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).
 4. Generate the application symbol references:
 
-    Open a command prompt, change to the directory where the `finsql.exe` file has been installed as part of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], and then run the following command:
+    1. Open a command prompt, change to the directory where the `finsql.exe` file has been installed as part of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], and then run the following command:
 
-    ```
-    finsql.exe Command=generatesymbolreference, Database=<MyDatabaseName>, ServerName=<DatabaseServerName>\<DatabaseInstance>
-    ```
+        ```
+        finsql.exe Command=generatesymbolreference, Database=<MyDatabaseName>, ServerName=<DatabaseServerName>\<DatabaseInstance>
+        ```
 
-    Replace values for the `Database` and `ServerName` settings to suit.
+        Replace values for the `Database` and `ServerName` settings to suit.
 
-    > [!NOTE]  
-    >  This command does not generate a file. It populates the **Object Metadata** table in the database.
+        > [!NOTE]  
+        >  This command does not generate a file. It populates the **Object Metadata** table in the database.
+    2. When you run the command, the console returns to an empty command prompt, and does not display or provide any indication about the status of the run. However, the finsql.exe may still be running in the background. It can take several minutes for the run to complete, and the symbols will not be generated until such time.  You can see whether the finsql.exe is still running by using Task Manager, and looking on the **Detials** tab for **finsql.exe**. 
     
+        When the process ends, a file named **navcommandresult.txt** is saved to the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] installation folder. If the command succeeded, the file will contain text like `[0] [06/12/17 14:36:17] The command completed successfully in '177' seconds.` If the command failed, another file named **naverrorlog.txt** will be generated. This file contains details about the error(s) that occurred. 
+            
     For more information about generation symbols, see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md).
 
 5. Publish all the extensions from the `\Extensions` folder of the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD):
@@ -343,8 +355,8 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         Get-NAVAppInfo -ServerInstance <ServerInstanceName>
         ```
 
-    2. To determine which V1 extensions to install, inspect the list that appears, and compare it with the list that you gathered in Task 3. V1 extensions are indicated by `Extension Type : CSIDE`. If there is a newer version of an Extension V1, you should install the newer version.
-    3. For each Extension V1 that you want to install, run this command:
+    2. To determine which V1 extensions to install, inspect the list that appears, and compare it with the list that you gathered in Task 3. V1 extensions are indicated by `Extension Type : CSIDE`. <!-- If there is a newer version of a V1 Extension, you should install the newer version.-->
+    3. For each V1 Extension that you want to install, run this command:
     
         ```  
         Install-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N> –Tenant <TenantID>
