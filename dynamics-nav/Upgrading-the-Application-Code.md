@@ -132,7 +132,7 @@ You must now merge the three sets of application objects to create the applicati
 
 Depending on the number of objects that you are merging and the number of differences found, this can take a few seconds, a few minutes, or longer. When the cmdlet completes, the result of the merge is shown, including a description of any application objects with conflicting code. The **RESULT** folder will contain a text file (.TXT) for each merged application object and possibly one or more .CONFLICT files that describe the code conflicts that occurred during the merge.
 
-At this point, you can either go to Task 3 to analyze and eventually resolve the conflicts, or you can go directly to Task 4 to import the merged objects as-is from the **RESULT** folder to the new [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database.  
+At this point, you can either go to Task 4 to analyze and eventually resolve the conflicts, or you can go directly to Task 5 to import the merged objects as-is from the **RESULT** folder to the new [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database.  
 
 ## Task 4: Handling Conflicts  
 Depending on the application that you are upgrading, you can choose to analyze and fix the conflicting code before you import the merged objects into the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. The conflicts are shown in the merged text files but are also identified in .CONFLICT files in the subfolders of the **RESULT** folder. The subfolders **ConflictOriginal**, **ConflictModified**, and **ConflictTarget** folders then contain copies of the source files from the versions that have conflicting code.
