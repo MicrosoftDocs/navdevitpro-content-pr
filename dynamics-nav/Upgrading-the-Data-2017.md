@@ -28,7 +28,7 @@ The data upgrade process described in this article leads you through the databas
 Before you start the upgrade tasks, make sure you meet the following prerequisites:
 1.  Your computer uses the same codepage as the data that will be upgraded.
 
-    If you use conflicting codepages, some characters will not display in captions, and you might not be able to access the upgraded database. This is because [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)]  must remove incorrect metadata characters to complete the data upgrade. In this case, after upgrade, you must open the database in the development environment on a computer with the relevant codepage and compile all objects. This adds the missing characters again.
+    If you use conflicting codepages, some characters will not display in captions, and you might not be able to access the upgraded database. This is because [!INCLUDE[nav2017](includes/nav2017.md)] must remove incorrect metadata characters to complete the data upgrade. In this case, after upgrade, you must open the database in the development environment on a computer with the relevant codepage and compile all objects. This adds the missing characters again.
 
     Optionally, you can export the captions before the upgrade. For more information, see [How to: Add Translated Strings for Conflicting Text Encoding Formats](How-to--Add-Translated-Strings-for-Conflicting-Text-Encoding-Formats.md).
 
@@ -38,10 +38,13 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 
     You can find the default upgrade toolkit objects in the  **UpgradeToolKit\Data Conversion Tools** folder on the [!INCLUDE[nav2017](includes/nav2017.md)] installation media (DVD). Choose the FOB that matches the [!INCLUDE[navnow](includes/navnow_md.md)] version from which you are upgrading:
 
-    -   Upgrade7001000.FOB for [!INCLUDE[nav7long](includes/nav7long_md.md)]
-    -   Upgrade7101000.FOB and Upgrade710HF1000.FOB for [!INCLUDE[navsicily](includes/navsicily_md.md)]
-    -   Upgrade8001000.FOB for [!INCLUDE[navcrete](includes/navcrete_md.md)]
-    -   Upgrade9001000.FOB for [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
+    |  Version  |  FOB  |  Remarks  |
+    |-----------|-------|-----------|
+    |[!INCLUDE[nav7long](includes/nav7long_md.md)]|Upgrade7001100.FOB|This file can be found on the [!INCLUDE[nav2017](includes/nav2017.md)] [Cumulative Update 15 installation media (DVD)](https://support.microsoft.com/en-us/help/4078579/cumulative-update-15-for-microsoft-dynamics-nav-2017-build-20333?preview). It is not available with later cumulative updates.|
+    |[!INCLUDE[navsicily](includes/navsicily_md.md)]|Upgrade7101100.FOB and Upgrade710HF1100.FOB|This file can be found on the [!INCLUDE[nav2017](includes/nav2017.md)] [Cumulative Update 15 installation media (DVD)](https://support.microsoft.com/en-us/help/4078579/cumulative-update-15-for-microsoft-dynamics-nav-2017-build-20333?preview). It is not available with later cumulative updates.|
+    | [!INCLUDE[navcrete](includes/navcrete_md.md)]| Upgrade8001100.FOB||
+    | [!INCLUDE[navcorfu](includes/navcorfu_md.md)]| Upgrade9001100.FOB||
+   
 
 3.   You have exported the permission sets and permissions as XML files.
 
@@ -52,7 +55,7 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
     For more information, see [How to: Export and Import Encryption Keys](how-to-export-and-import-encryption-keys.md).  
 
 > [!NOTE]
->If the old Microsoft Dynamics NAV application uses Payment Services for Microsoft Dynamics ERP, be aware that this is discontinued in [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)]. This means that most of the objects that are associated with this feature will be deleted during the upgrade. Some objects you will have to manually delete.
+>If the old Microsoft Dynamics NAV application uses Payment Services for Microsoft Dynamics ERP, be aware that this is discontinued in [!INCLUDE[nav2017](includes/nav2017.md). This means that most of the objects that are associated with this feature will be deleted during the upgrade. Some objects you will have to manually delete.
 
 ## Task 1: Prepare the old database
 
@@ -217,7 +220,7 @@ You import the permission sets and permissions XML files.
  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], choose **Tools**, choose **Language**, and then select the language of the original customer database.  
 
 ##  <a name="AddControlAddins"></a> Task 16: Register client control add-ins  
- The database is now fully upgraded and is ready for use. However, [!INCLUDE[navnowlong](includes/navnowlong_md.md)] includes the following client control add-ins.
+ The database is now fully upgraded and is ready for use. However, [!INCLUDE[nav2017](includes/nav2017.md)] includes the following client control add-ins.
 -   Microsoft.Dynamics.Nav.Client.BusinessChart  
 -   Microsoft.Dynamics.Nav.Client.CodeViewer
 -   Microsoft.Dynamics.Nav.Client.DynamicsOnlineConnect
@@ -242,7 +245,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
      For more information, see [How to: Export and Import Encryption Keys](How-to--Export-and-Import-Encryption-Keys.md).  -->
 
 ## See Also  
- [Upgrading the Application Code](Upgrading-the-Application-Code.md)   
+ [Upgrading the Application Code](Upgrading-the-Application-Code-2017.md)   
  [Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md)   
  [Synchronizing Table Schemas](Synchronizing-Table-Schemas.md)   
  [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)
