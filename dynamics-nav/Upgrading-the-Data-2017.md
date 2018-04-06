@@ -55,7 +55,7 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
     For more information, see [How to: Export and Import Encryption Keys](how-to-export-and-import-encryption-keys.md).  
 
 > [!NOTE]
->If the old Microsoft Dynamics NAV application uses Payment Services for Microsoft Dynamics ERP, be aware that this is discontinued in [!INCLUDE[nav2017](includes/nav2017.md). This means that most of the objects that are associated with this feature will be deleted during the upgrade. Some objects you will have to manually delete.
+>If the old Microsoft Dynamics NAV application uses Payment Services for Microsoft Dynamics ERP, be aware that this is discontinued in [!INCLUDE[nav2017](includes/nav2017.md)]. This means that most of the objects that are associated with this feature will be deleted during the upgrade. Some objects you will have to manually delete.
 
 ## Task 1: Prepare the old database
 
