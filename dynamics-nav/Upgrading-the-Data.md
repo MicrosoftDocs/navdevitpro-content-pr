@@ -40,20 +40,23 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 
     You can find the default upgrade toolkit objects in the  **UpgradeToolKit\Data Conversion Tools** folder on the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD). Choose the FOB that matches the [!INCLUDE[navnow](includes/navnow_md.md)] version from which you are upgrading:
 
-    -   Upgrade7001100.FOB for [!INCLUDE[nav7long](includes/nav7long_md.md)]
-    -   Upgrade7101100.FOB and Upgrade710HF1100.FOB for [!INCLUDE[navsicily](includes/navsicily_md.md)]
-    -   Upgrade8001100.FOB for [!INCLUDE[navcrete](includes/navcrete_md.md)]
-    -   Upgrade9001100.FOB for [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
-    -   Upgrade10001100.FOB for [!INCLUDE[nav2017](includes/nav2017.md)]
+    |  Version  |  FOB  |  Remarks  |
+    |-----------|-------|-----------|
+    |[!INCLUDE[nav7long](includes/nav7long_md.md)]|Upgrade7001100.FOB|This file can be found on the [!INCLUDE[nav2018](includes/nav2018_md.md)] [Cumulative Update 2 installation media (DVD)](https://support.microsoft.com/en-us/help/4078580/cumulative-update-02-for-microsoft-dynamics-nav-2018-build-20348?preview). It is not available with later cumulative updates.|
+    |[!INCLUDE[navsicily](includes/navsicily_md.md)]|Upgrade7101100.FOB and Upgrade710HF1100.FOB|This file can be found on the [!INCLUDE[nav2018](includes/nav2018_md.md)] [Cumulative Update 2 installation media (DVD)](https://support.microsoft.com/en-us/help/4078580/cumulative-update-02-for-microsoft-dynamics-nav-2018-build-20348?preview). It is not available with later cumulative updates.|
+    | [!INCLUDE[navcrete](includes/navcrete_md.md)]| Upgrade8001100.FOB||
+    | [!INCLUDE[navcorfu](includes/navcorfu_md.md)]| Upgrade9001100.FOB||
+    |[!INCLUDE[nav2017](includes/nav2017.md)]| Upgrade10001100.FOB||
+
 3.   You have exported the permission sets and permissions as XML files. 
 
-    For more information, see [How to: Export and Import Permission Sets and Permissions](how-to--import-export-permission-sets-permissions.md#ExportPerms).
+        For more information, see [How to: Export and Import Permission Sets and Permissions](how-to--import-export-permission-sets-permissions.md#ExportPerms).
 
 4.   \(Optional\) Make a copy of the web.config file for all [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. With [!INCLUDE[nav2018_md](includes/nav2018_md.md)], [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances run on Microsoft .NET Core. With this change, the instances now use a .json type file (called navsettings.json) instead of the web.config file.
 
 5.   \(Optional\) If the old [!INCLUDE[navnow](includes/navnow_md.md)] application uses data encryption, you exported the encryption key file that it used for the data encryption.  
 
-    For more information, see [How to: Export and Import Encryption Keys](how-to-export-and-import-encryption-keys.md).  
+        For more information, see [How to: Export and Import Encryption Keys](how-to-export-and-import-encryption-keys.md).  
 
 > [!NOTE]
 >If the old [!INCLUDE[navnow](includes/navnow_md.md)] application uses Payment Services for Microsoft Dynamics ERP, be aware that this was discontinued in [!INCLUDE[nav2017](includes/nav2017.md)]. This means that most of the objects that are associated with this feature will be deleted during the upgrade. Some objects you will have to manually delete.
@@ -104,8 +107,8 @@ Open the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] that matches to old 
   
     Replace `<Name>` and `<N.N.N.N>` with the name and version of the Extension V1 as it appeared in the previous step.
 
-> [!IMPORTANT]
-> Do not uninstall V2 extensions (ModernDev type).
+    > [!IMPORTANT]
+    > Do not uninstall V2 extensions (ModernDev type).
 
 ##  <a name="UploadLicense"></a> Task 4: Upload the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] license to the old database  
 By using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] that matches the old database, upload the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] license to the database.
