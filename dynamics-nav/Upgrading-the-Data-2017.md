@@ -34,7 +34,7 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 
 2.  You have a FOB file that contains the upgraded application code and upgrade toolkit. The upgrade toolkit can also be in a separate FOB file.  
 
-    For more information about upgrading the application code, see [Upgrading the Application Code](Upgrading-the-Application-Code.md).
+    For more information about upgrading the application code, see [Upgrading the Application Code](Upgrading-the-Application-Code-2017.md).
 
     You can find the default upgrade toolkit objects in the  **UpgradeToolKit\Data Conversion Tools** folder on the [!INCLUDE[nav2017](includes/nav2017.md)] installation media (DVD). Choose the FOB that matches the [!INCLUDE[navnow](includes/navnow_md.md)] version from which you are upgrading:
 
