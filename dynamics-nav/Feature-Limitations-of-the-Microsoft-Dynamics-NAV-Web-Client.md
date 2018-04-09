@@ -58,7 +58,7 @@ ms.prod: "dynamics-nav-2018"
 
 |Feature|Level of support|Remarks|  
 |-------------|----------------------|-------------|  
-|GridLayout control for arranging page fields|Partially supported.|The **RowSpan** and **ColumnSpan** properties on fields in the grid layout are not supported. The **Rows** layout on the grid control itself is not supported.|  
+|GridLayout control for arranging page fields|Partially supported.|The **RowSpan** and **ColumnSpan** properties on fields in the grid layout are not supported. The **Rows** and **Wide** layouts on the grid control itself are not supported.|  
 
 ### Page Properties  
  The following page properties are not supported or are partially supported by [!INCLUDE[nav_web](includes/nav_web_md.md)].  
