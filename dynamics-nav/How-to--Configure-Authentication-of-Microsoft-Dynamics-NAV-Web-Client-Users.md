@@ -131,7 +131,7 @@ You can configure the [!INCLUDE[navnow](includes/navnow_md.md)] installation to 
 
 --> 
   
-7.  Save the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].  
+6.  Save the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].  
   
 #### To enable an authentication method on the [!INCLUDE[nav_web](includes/nav_web_md.md)] site  
   
