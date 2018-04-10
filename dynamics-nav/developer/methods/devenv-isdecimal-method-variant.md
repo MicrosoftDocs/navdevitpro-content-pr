@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics365-financials
 ms.assetid: c334ced6-03df-4103-a05e-3f6aec7906c6
 caps.latest.revision: 7
-manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]

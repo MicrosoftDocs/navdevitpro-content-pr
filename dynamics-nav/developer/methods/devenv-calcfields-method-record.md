@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics365-financials
 ms.assetid: eb58dea1-05e6-4c11-97cf-75c458c119c5
 author: SusanneWindfeldPedersen
-manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]

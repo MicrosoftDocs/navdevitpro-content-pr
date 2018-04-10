@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.assetid: 1f26922f-f83c-4065-a195-70cd3619b39c
 caps.latest.revision: 6
-manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 # GetEnvironment Method
 Gets information about the environment that the control add-in is using.  

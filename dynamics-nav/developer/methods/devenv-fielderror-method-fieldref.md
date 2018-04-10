@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: dynamics365-financials
 ms.assetid: 7df700bf-2e1f-4b64-b37d-fe2da74b3479
 caps.latest.revision: 16
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
