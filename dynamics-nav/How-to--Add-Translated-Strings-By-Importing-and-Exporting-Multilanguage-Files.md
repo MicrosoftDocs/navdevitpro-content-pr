@@ -58,7 +58,12 @@ To add string translations for UI elements in a standard country/region-specific
      ![Translated Strings file in Excel](media/NAV_PLAT_TranslatingStrings.png "NAV\_PLAT\_TranslatingStrings")  
   
 ## Importing Multilanguage Files  
- After you add translated strings to the multilanguage file, you must import the file into the application.  
+After you add translated strings to the multilanguage file in .txt format, there are three ways to ensure that translations are used.
+
+1. Import the multilanguage file using Object Designer. This is described in the **To import a multilanguage file**  section below.
+2. Place the translated files on the server, or on each service instance in a `/Translations` folder. For more information, see [this guidance](https://docs.microsoft.com/en-us/previous-versions/dynamicsnav-2016/dn479852(v=nav.90)).
+3.  If you have added extensions to your solution, you must take the .txt file, and place the file in the extension root folder. When the extension is compiled, the .txt file is packaged with the extension. We recommend that you use only one .txt file per language. There is no enforced naming on the file, but a suggested good practice is to name it `<extensionname>.<language>.txt`.  
+For more information about translations using .xlf files only, see [Working With Translation Files](/dynamics365/business-central/dev-itpro/developer/devenv-work-with-translation-files).
   
 #### To import a multilanguage file  
   
