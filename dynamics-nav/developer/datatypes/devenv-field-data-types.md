@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: c365bf5b-559a-48dc-83da-159d046a784a
 caps.latest.revision: 22
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # Field Data Types
 After you select an identification number and name for a field, you have to select an appropriate data type. Each of the different field types is designed to hold a specific kind of information, such as text, numbers, or dates. Each field type has a specific size.  

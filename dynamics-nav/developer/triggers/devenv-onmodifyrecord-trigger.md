@@ -10,6 +10,7 @@ ms.service: "dynamics365-financials"
 ms.assetid: 0e06ffde-8cce-4e62-8d40-4109cca9495a
 author: SusanneWindfeldPedersen
 manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]

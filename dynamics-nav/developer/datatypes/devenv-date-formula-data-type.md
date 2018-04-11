@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: b916afad-de38-43bd-ab7e-ec607192ba1f
 caps.latest.revision: 9
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # DateFormula Data Type
 Use this data type to contain a date formula that has the same capabilities as an ordinary input string for the [CALCDATE Method (Date)](../methods/devenv-calcdate-method-date.md). The DateFormula data type is used to provide multilanguage capabilities to the [CALCDATE Method (Date)](../methods/devenv-calcdate-method-date.md).  
