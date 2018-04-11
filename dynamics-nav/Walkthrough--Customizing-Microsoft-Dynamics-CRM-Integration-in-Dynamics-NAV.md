@@ -371,9 +371,8 @@ To add an integration field mapping in codeunit **5334 CRM Setup Defaults**, fol
     |--------------------------|-----------|  
     |AdditionalFieldsWereModified|Boolean|  
 
-
     |Function Parameter Name|Data Type|  
-    |--------------------------|-----------|  
+    |-----------------------|---------|  
     |SourceRecordRef|RecordRef|  
     |DestinationRecordRef|RecordRef|  
 
