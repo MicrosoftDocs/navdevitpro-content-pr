@@ -44,7 +44,7 @@ finsql.exe generatesymbolreference=yes
 ```
 
 ## Dynamics NAV Server setting
-In addition, a new Dynamics NAV Server setting has been introduced; **Enable Symbol Loading at Server Startup**. This setting must be enabled to allow any symbol generation. 
+To allow any symbol generation, you must also enable the `EnableSymbolLoadingAtServerStartup` setting in the Dynamcis NAV server settings. For more information, see [Configuring Microsoft Dynamics NAV Server](../configuring-microsoft-dynamics-nav-server.md).
 
 If the setting is not enabled, the `generatesymbolreference` setting does not have any effect.
 

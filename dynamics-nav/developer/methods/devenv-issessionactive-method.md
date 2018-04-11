@@ -1,7 +1,7 @@
 ---
 title: "ISSESSIONACTIVE Method (Debugger)"
 author: edupont04
-manager: edupont04
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference04
 ms.custom: na
 ms.date: 07/13/2017
 ms.reviewer: na
@@ -9,6 +9,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-financials
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]

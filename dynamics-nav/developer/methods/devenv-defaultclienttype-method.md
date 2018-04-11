@@ -10,6 +10,7 @@ ms.topic: article
 ms.service: "dynamics365-financials"
 ms.assetid: e2c0248d-0c38-4387-904b-442a1b65bea0
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
