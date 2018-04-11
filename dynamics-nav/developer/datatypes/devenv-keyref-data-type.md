@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: 33951a7d-2a60-4c6d-a33e-e3c818ca9427
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # KeyRef Data Type
 Identifies a key in a table and the fields in this key.  

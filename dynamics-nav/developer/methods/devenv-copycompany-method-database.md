@@ -1,7 +1,6 @@
 ---
 title: "COPYCOMPANY Method (Database)"
 author: edupont04
-manager: edupont04
 ms.custom: na
 ms.date: 07/04/2017
 ms.reviewer: na
@@ -11,6 +10,7 @@ ms.topic: article
 ms.service: dynamics365-financials
 ms.assetid: dd8058d0-5b1e-4fd1-aeb1-7ef480fa581d
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]

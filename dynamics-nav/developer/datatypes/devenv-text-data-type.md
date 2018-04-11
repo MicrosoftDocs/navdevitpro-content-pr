@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: fe8419b7-96a2-486e-858d-51f62c66657f
 caps.latest.revision: 16
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # Text Data Type
 This simple data type denotes a text string.  

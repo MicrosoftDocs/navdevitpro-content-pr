@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: f414326f-dfa4-46d9-ae2e-2847a253088d
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # TestRequestPage Data Type
 This data type stores test request pages. A test request page part is a logical representation of a request page on a report. A test request page does not display a user interface (UI). The subtype of a test request page is the report whose request page you want to test.  You can use test request pages only within test codeunits.  

@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: 1dbd3bd0-9cd2-4e2a-a959-3942fcca60ee
 caps.latest.revision: 13
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # Decimal Data Type
 This simple data type denotes decimal numbers ranging from -999,999,999,999,999.99 to +999,999,999,999,999.99.  
