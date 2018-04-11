@@ -1,7 +1,7 @@
 ---
 title: Table and Table Extension Properties
 description: This topic lists table properties that apply to feilds of a table object.
-author: edupont04
+author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 11/23/2017
 ms.reviewer: na
@@ -10,7 +10,8 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.assetid: cf65e1e0-f696-4aac-afbd-992cd82f98de
-ms.author: edupont
+ms.author: solsen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]

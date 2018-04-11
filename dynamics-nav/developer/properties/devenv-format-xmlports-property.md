@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: d97194a3-cec2-4de3-9075-5708d5c4c7f2
 caps.latest.revision: 8
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
 ---
 
 # Format Property (XMLports)
