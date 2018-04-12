@@ -11,6 +11,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.assetid: 9cfc02d2-2211-466f-b5e9-8178bdc79311
 ms.author: solsen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-debugging
 ---
 
 # Debugging

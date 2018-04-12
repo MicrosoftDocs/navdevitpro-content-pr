@@ -10,6 +10,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.author: jswymer
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-how-publish-and-install-an-extension-v2
 ---
 
 # Publishing and Installing an Extension v2.0

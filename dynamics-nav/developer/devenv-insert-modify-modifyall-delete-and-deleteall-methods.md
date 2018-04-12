@@ -10,6 +10,7 @@ ms.service: "dynamics365-financials"
 ms.assetid: 73d7bcd0-9b00-4be2-bf4e-010bcc69ab33
 caps.latest.revision: 10
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-insert-modify-modifyall-delete-and-deleteall-methods
 ---
 
  
