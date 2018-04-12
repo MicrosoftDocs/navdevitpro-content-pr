@@ -1,17 +1,18 @@
 ---
-title: "Walkthrough: Customizing Microsoft Dynamics 365 for Sales Integration in Dynamics NAV"
+title: "Dynamics 365 for Sales integration"
+description: "End-to-end walkthrough of Dynamics 365 for Sales integration with Dynamics NAV."
 author: edupont04
 manager: edupont04
 ms.custom: na
-ms.date: 10/05/2016
+ms.date: 04/11/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.assetid: 0658548b-3a7b-4e9a-bd1a-d58c625bd0de
-caps.latest.revision: 12
 ---
+
 # Walkthrough: Customizing Microsoft Dynamics 365 for Sales Integration in Dynamics NAV
 This walkthrough introduces customizing the integration of [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[crm](includes/crm_md.md)]. The walkthrough will guide you through setting up integration of campaigns in [!INCLUDE[navnow](includes/navnow_md.md)] and campaigns in [!INCLUDE[crm](includes/crm_md.md)].  
 
@@ -116,7 +117,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
     ```  
 
-3.  In the **InitializeIntegrationRecords** trigger, add the code `AddToIntegrationPageList(PAGE::"Campaign Сard",DATABASE::Campaign,TempNameValueBuffer,NextId);` as illustrated in the following code example:   
+3.  In the **CreateIntegrationPageList** trigger, add the code `AddToIntegrationPageList(PAGE::"Campaign Card",DATABASE::Campaign,TempNameValueBuffer,NextId);` as illustrated in the following code example:   
 
     ```
     AddToIntegrationPageList(PAGE::"Contact Card",DATABASE::Contact,TempNameValueBuffer,NextId);  
@@ -137,9 +138,9 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
      For more information about how to add actions, see [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md).  
 
-2.  Add an **ActionGroup** control that is caption **Dynamics CRM**.  
+2.  Add an **ActionGroup** control that is caption **Dynamics 365 for Sales**.  
 
-3.  Add another **ActionGroup** control under **Dynamics CRM** that has the caption **Coupling**.  
+3.  Add another **ActionGroup** control under **Dynamics 365 for Sales** that has the caption **Coupling**.  
 
 4.  In the **Coupling** action group, add the following actions:  
 
@@ -164,6 +165,13 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
         ```  
 
 6.  Save and compile the page.  
+7.  Open codeunit 5334 **CRM Setup Defaults**.
+8.  In the **GetCRMTableNo** function, add the following code as a case after the *CRM Opportunity* case:  
+
+        ```
+        DATABASE::Campaign:  
+          EXIT(DATABASE::"CRM Campaign");  
+        ```
 
  The coupling page is now available from the Campaign page.  
 <!--section deleted by CRM team -->  
@@ -174,7 +182,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
 1.  Open page **5086 Campaign Card** in Page Designer, and then open Action Designer.  
 
-2.  In the **Dynamics 365 for Sales** action group, before the **Coupling** action, add a new action that has the name **GotoCRMCampaign** and caption **Campaign**.  
+2.  In the **Dynamics 365 for Sales** action group, before the **Coupling** action group, add a new action that has the name **GotoCRMCampaign** and caption **Campaign**.  
 
 3.  In the C/AL code for the action, add a variable that has the name **CRMIntegrationManagement** and references codeunit **5330 CRM Integration Management**, and then add the following line of code:  
 
@@ -257,7 +265,7 @@ To add an integration table mapping in codeunit **5334 CRM Setup Defaults**, fol
       CRMCampaign.FIELDNO(CampaignId),CRMCampaign.FIELDNO(ModifiedOn),
       '','',TRUE);
 
-    RecreateJobQueueEntry(IntegrationTableMapping,30,EnqueueJobQueEntry);
+    RecreateJobQueueEntryFromIntTableMapping(IntegrationTableMapping,30,EnqueueJobQueEntry);
     ```  
 
  For each integration table mapping entry, there must be integration field mapping entries to map the individual fields of the records in the business table and integration table. The next step is to add integration field mappings for each field in the [!INCLUDE[navnow](includes/navnow_md.md)] Campaign table that you want to map to the [!INCLUDE[crm](includes/crm_md.md)] Campaign entity.  
@@ -290,11 +298,11 @@ To add an integration field mapping in codeunit **5334 CRM Setup Defaults**, fol
 2.  In the function **ResetCampaignMapping**, add the following code. As an example, this code maps the `Description` field in the **Campaign** table to the `Name` field in the **CRM Campaign** integration table.  
 
     ```  
-    InsertIntegrationFieldMap(  
-      IntegrationTableMapName,  
+    InsertIntegrationFieldMapping(  
+      IntegrationTableMappingName,  
       Campaign.FIELDNO("Description"),  
       CRMCampaign.FIELDNO(Name),  
-      IntegrationFieldMap.Direction::Bidrectional,  
+      IntegrationFieldMapping.Direction::Bidirectional,  
       '',FALSE,FALSE);  
 
     ```  
@@ -309,7 +317,7 @@ To add an integration field mapping in codeunit **5334 CRM Setup Defaults**, fol
 
 1.  Open page **5086 Campaign Card** in Page Designer, and then open the Action Designer for the page.  
 
-2.  In the **Dynamics CRM** action group, before the **Coupling** action group, add a new action that has the name **CRMSynchronizeNow** and the caption **Synchronize Now**.  
+2.  In the **Dynamics 365 For Sales** action group, before the **Coupling** action group, add a new action that has the name **CRMSynchronizeNow** and the caption **Synchronize Now**.  
 
 3.  In the C/AL code for the action, add a global variable that has the name **CRMIntegrationManagement** and references codeunit **5330 CRM Integration Management**, and then add the following line of code:  
 
@@ -352,12 +360,21 @@ To add an integration field mapping in codeunit **5334 CRM Setup Defaults**, fol
 
 2.  Add a new function with the name **UpdateCampaignComment**.  
 
-3.  Add the following local variables to the function:  
+3.  Add the following locals to the function:  
 
-    |Name|DataType|SubType|  
+    |Function Variable Name|DataType|SubType|  
     |----------|--------------|-------------|  
     |CRMCampaign|Record|CRM Campaign|  
     |Campaign|Record|Campaign|  
+
+    |Function Return Value Name|Return Type|  
+    |--------------------------|-----------|  
+    |AdditionalFieldsWereModified|Boolean|  
+
+    |Function Parameter Name|Data Type|  
+    |-----------------------|---------|  
+    |SourceRecordRef|RecordRef|  
+    |DestinationRecordRef|RecordRef|  
 
 4.  Add the following code to implement the logic to determine whether the **Message** field has a value:  
 
