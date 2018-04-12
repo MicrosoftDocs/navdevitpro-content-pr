@@ -341,6 +341,7 @@
 ### [Deprecated Features in the Australian Version](deprecated-features-au.md)
 ### [Deprecated Features in the Dutch Version](deprecated-features-nl.md)
 ### [Deprecated Features in the Finnish Version](deprecated-features-fi.md)
+### [Deprecated Features in the French Version](deprecated-features-fr.md)
 ### [Deprecated Features in the German Version](deprecated-features-de.md)
 ### [Deprecated Features in the Italian Version](deprecated-features-it.md)
 ### [Deprecated Features in the New Zealand Version](deprecated-features-nz.md)
