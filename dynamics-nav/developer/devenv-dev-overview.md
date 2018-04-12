@@ -11,7 +11,6 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.author: solsen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
-redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-dev-overview
 ---
 
 # Development in AL
