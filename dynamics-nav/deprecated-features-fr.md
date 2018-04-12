@@ -22,7 +22,7 @@ Before you post transactions, you can create simulation entries to preview the r
 
 |Moved, Removed, or Replaced?|Why?|
 |----|----|
-|Replaced| The Simulation Entries feature has been replaced with the Posting Preview of the standard product. |
+|Replaced| The Simulation Entries feature has been replaced with the Posting Preview feature in the standard product. |
 
 ## See Also
 [Upgrading to Microsoft Dynamics NAV 2018](upgrading-to-microsoft-dynamics-nav.md)  
