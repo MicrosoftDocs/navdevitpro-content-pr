@@ -9,6 +9,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-upgrading-extensions
 ---
 # Upgrading Extensions V2
 This article provides information about how to make a newer version of extension upgrade available on tenants. The first phase of this process is to develop the extension for upgrading, which means adding code to upgrade data from the previous extension version. Once you have the upgrade code in place, you can publish and synchronize the new version, and the run the data upgrade.

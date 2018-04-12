@@ -8,6 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
 author: jswymer
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-business-central-manage-selfservice-signups
 ---
 
 # Enable and Disable Dynamics 365 Business Central Self-service Signups

@@ -11,6 +11,7 @@ ms.assetid: 6e0ff568-9cad-4b0f-bd97-b8ac5690a470
 caps.latest.revision: 26
 ms.author: solsen
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-multilanguage-development
 ---
 
  

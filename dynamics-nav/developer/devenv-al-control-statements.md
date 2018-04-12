@@ -10,6 +10,7 @@ ms.service: "dynamics365-financials"
 ms.assetid: cea1b445-58fe-4c4d-9843-7700e64bb46f
 caps.latest.revision: 8
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-al-control-statements
 ---
 
  

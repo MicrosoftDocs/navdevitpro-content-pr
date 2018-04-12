@@ -10,6 +10,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-extension-advanced-example-test
 ---
 
 # Testing the Advanced Sample Extension

@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: e800bc78-feb2-4f19-b79a-3fd70e06320f
 caps.latest.revision: 7
 manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-events-in-al
 ---
 
 > [!NOTE]  
