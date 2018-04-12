@@ -16,8 +16,9 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 # Development in AL
 
 > [!TIP]  
-> We've moved AL developer documentation for [[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] to here (/dynamics365/business-central/dev-itpro/)!  
-> But you can still find content here on the AL language that applies to [!INCLUDE[navnow_md](includes/navnow_md.md)]. 
+> We've moved AL developer documentation for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]! Visit our new library for AL documentation [here](/dynamics365/business-central/dev-itpro/)!  
+>
+> You'll still find a bit of AL content here that applies to [!INCLUDE[navnow_md](includes/navnow_md.md)]. 
 
 
 <!--
