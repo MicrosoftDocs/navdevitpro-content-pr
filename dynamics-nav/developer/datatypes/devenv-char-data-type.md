@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: 93ea32a8-8019-4b75-be2c-fae30d9e9d21
 caps.latest.revision: 18
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # Char Data Type
 Use this simple data type to store a single, 16-bit character as a value in the range 0 to 65535. You can convert this data type from a number to a character and vice versa. This means you can use mathematical operators on Char variables.  

@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: "dynamics365-financials"
 ms.assetid: 5d2c7db2-fc8b-46e1-a1c3-2be06f806258
 caps.latest.revision: 17
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-progress-windows-message-error-and-confirm-methods
 ---
 
  

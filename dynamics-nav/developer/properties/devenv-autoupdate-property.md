@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: 49de51bb-b82f-42be-964e-aadd40e3b331
 caps.latest.revision: 11
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
 ---
 
 # AutoUpdate Property

@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: 86815380-0d8c-4cf2-aabf-1ab22cb51308
 caps.latest.revision: 10
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # SQL Server Data Types
 Every available [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] data type is mapped to an appropriate SQL Server data type. The following table shows which SQL Server data type is used for the corresponding Microsoft Dynamics NAV data type.  

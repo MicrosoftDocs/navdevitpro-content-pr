@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: 2ee40a72-9b03-4ddf-878a-324921671ec9
 caps.latest.revision: 13
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
 ---
 
 # ReqFilterHeadingML Property

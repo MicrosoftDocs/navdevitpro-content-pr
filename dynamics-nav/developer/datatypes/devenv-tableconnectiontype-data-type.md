@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: e066bcd1-fbb0-4209-b9b5-738dcefa2fe4
 caps.latest.revision: 2
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # TableConnectionType Data Type
 Use variables of this data type to specify the type of connection to an external database.  

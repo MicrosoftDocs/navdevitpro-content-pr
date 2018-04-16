@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: 5c2d7eb6-0839-462c-9034-19777012c2aa
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
 ---
 
 # Indentation Property (XMLports)

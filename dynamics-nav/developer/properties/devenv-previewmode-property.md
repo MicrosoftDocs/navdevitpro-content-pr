@@ -9,6 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.assetid: e79b25b8-4582-450b-93e0-5ec01110e9fc
 caps.latest.revision: 3
+redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]

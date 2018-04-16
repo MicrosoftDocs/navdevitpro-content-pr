@@ -15,8 +15,6 @@ caps.latest.revision: 18
 redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-reference-overview
 ---
 
- 
-
 > [!TIP]  
 > Looking for the latest AL developer documentation? Visit our new [[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] developer docs](/dynamics365/business-central/dev-itpro/).
 

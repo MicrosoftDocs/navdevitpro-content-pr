@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: 0e3ac7d5-83b5-4f92-b0d5-fd98fd932647
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
 ---
 
 # ConstValue Property

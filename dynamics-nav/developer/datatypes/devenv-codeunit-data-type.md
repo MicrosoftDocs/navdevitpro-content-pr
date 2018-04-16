@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: f22ec923-97df-4456-8ff1-d1862258f253
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # Codeunit Data Type
 Use this complex data type to store units of AL code. Codeunits contain a number of user-defined methods.  
