@@ -164,6 +164,7 @@ OBJECT Codeunit 825 DO Payment Mgt.
     BEGIN
     END.
   }
+}
 ```
 ## Codeunit 826 DO Payment Integration Mgt.
 ```
