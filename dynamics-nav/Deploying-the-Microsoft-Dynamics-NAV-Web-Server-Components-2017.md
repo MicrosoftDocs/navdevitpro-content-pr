@@ -60,7 +60,7 @@ This section contains information about the deployment of the [!INCLUDE[nav_web_
 |-------------|-----------|  
 |Application pool|[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client Application Pool|  
 |Application pool identity|ApplicationPoolIdentity|  
-|Physical path|%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\\WebClient **Note:**  This folder is a symbolic link that targets the %systemroot%\\Program Files\\Microsoft Dynamics NAV\\90\\Web Client folder.|  
+|Physical path|%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\\WebClient **Note:**  This folder is a symbolic link that targets the %systemroot%\\Program Files\\Microsoft Dynamics NAV\\100\\Web Client folder.|  
 |Virtual path/Alias|/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient|  
 |Protocol|http|  
 |Authentication|Windows Authentication, Forms authentication, Anonymous Authentication, and ASP.NET Impersonation.|  
