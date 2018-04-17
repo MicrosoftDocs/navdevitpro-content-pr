@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: "dynamics365-financials"
 ms.assetid: 4b6df5e3-5346-4171-8113-54e098e4bc02
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]

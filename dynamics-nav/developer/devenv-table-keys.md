@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: 973de351-209a-44b7-b8f6-7218a1fa69e6
 caps.latest.revision: 20
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-table-keys
 ---
 
  

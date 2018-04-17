@@ -11,7 +11,9 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.assetid: 1f2b2168-cf53-4859-98ec-99d170f05625
 caps.latest.revision: 8
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
+
 # GetImageResource Method
 Used to get the URL for an image resource specified in the control add-in manifest. The image resource is stored in the NAV database as part of the .zip file for the control add-in and is exposed to the control add-in script running on the Microsoft Dynamics NAV client using the URL that this function returns.  
   

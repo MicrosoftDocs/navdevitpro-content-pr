@@ -1,7 +1,7 @@
 ---
 title: "IMPORTDATA Method (Database)"
 author: edupont04
-manager: edupont04
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference04
 ms.custom: na
 ms.date: 07/13/2017
 ms.reviewer: na
@@ -11,6 +11,7 @@ ms.topic: article
 ms.service: dynamics365-financials
 ms.assetid: 1208c431-8d3d-4cc7-9696-98533d992ebb
 caps.latest.revision: 3
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]

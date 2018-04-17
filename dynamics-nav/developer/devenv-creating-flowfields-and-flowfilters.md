@@ -9,6 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.assetid: 2f6560a1-33a5-4fee-beac-fa6a3100c85a
 caps.latest.revision: 11
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-creating-flowfields-and-flowfilters
 ---
 # Create FlowFields and FlowFilters
 This topic describes the procedure and the properties used to create FlowFields and FlowFilters. 
