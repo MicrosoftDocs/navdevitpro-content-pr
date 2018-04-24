@@ -96,7 +96,7 @@ Open the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] that matches to old 
     
     Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance that the database connects to. Replace `<TenantID>` with the tenant ID of the database. If you do not have a multitenant server instance, use `default`.
 
-    In the table that appears, V1 extensions are indicated by `CSIDE` in the `Extension Type` column.
+    <!-- In the table that appears, V1 extensions are indicated by `CSIDE` in the `Extension Type` column.-->
 
     Make a note of the V1 extensions that you will uninstall because you will reinstall these later, after you upgrade the database.
 2. For each Extension V1, run this command to uninstall it:
@@ -107,8 +107,11 @@ Open the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] that matches to old 
   
     Replace `<Name>` and `<N.N.N.N>` with the name and version of the Extension V1 as it appeared in the previous step.
 
+<!-- 
     > [!IMPORTANT]
     > Do not uninstall V2 extensions (ModernDev type).
+-->
+
 3. Unpublish the V1 extensions that have **Microsoft** as the publisher:
 
     ```
@@ -397,9 +400,9 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
     For each Extension V2, run this command:
 
-        ```
-        Install-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N> 
-        ```
+    ```
+    Install-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N> 
+    ```
 
 ## Task 19: Update the Dynamics NAV Web client configuration file (navsettings.json)
 If you have installed the [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)], populate the navsettings.json file for the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance with the settings of the old web.config file.
