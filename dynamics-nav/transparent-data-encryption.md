@@ -1,5 +1,5 @@
- ---
-title: "ITransparent Data Encryption (TDE)"
+---
+title: "Transparent Data Encryption (TDE)"
 ms.custom: na
 ms.date: 26/04/2018
 ms.reviewer: na
