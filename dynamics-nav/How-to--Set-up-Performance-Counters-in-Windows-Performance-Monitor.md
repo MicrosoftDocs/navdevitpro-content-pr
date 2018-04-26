@@ -25,7 +25,7 @@ This topic describes how to use Windows Performance Monitor to collect and view 
   
 4.  In the **Add Counters** window, in the **Select counters from computer** drop-down list, choose the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
-5.  In the **Available counters** list, expand **[!INCLUDE[navnow](includes/navnow_md.md)]**, and select one or more counters.  
+5.  In the **Available counters** list, expand **Microsoft [!INCLUDE[navnow](includes/navnow_md.md)]**, and select one or more counters.  
   
 6.  In the **Instances of selected object** list, select one or more [!INCLUDE[nav_server](includes/nav_server_md.md)] instances.  
   

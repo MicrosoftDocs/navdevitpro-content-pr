@@ -69,7 +69,7 @@ A user can try to upload any file type but an error occurs if the file is not th
 
 <!--NAV If you do not provide a path, or you upload the file that uses [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)], then the file is uploaded to the following folder on the computing that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)]:  
 
- \\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\90\\Server\\MicrosoftDynamicsNAVServer$[!INCLUDE[nav_server_instance](../includes/nav_server_instance_md.md)]\\users\\*ServiceAccount*  -->
+ \\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\110\\Server\\MicrosoftDynamicsNAVServer$[!INCLUDE[nav_server_instance](../includes/nav_server_instance_md.md)]\\users\\*ServiceAccount*  -->
 
  *ServiceAccount* is the folder for the account for [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)].  
 

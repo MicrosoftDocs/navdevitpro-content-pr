@@ -14,7 +14,7 @@ manager: edupont
 # Managing Encryption Keys for SQL Server Authentication
 When using SQL Server authentication between the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and the database in SQL Server, an encryption key is used to encrypt the credentials that the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance uses to log on to the database. The encryption key is stored on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)] and also registered in the database. There is single encryption key per [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and it must match the encryption key in the database.  
 
- On the computer running the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, the encryption key file has the name [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].key and is stored in the *%systemroot%\\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\90\\Server\\Keys*. In the database, the encryption key is registered in the dbo.$ndo$publicencryptionkey table. In a multitenant deployment, the encryption key is registered in the application database.  
+ On the computer running the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, the encryption key file has the name [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].key and is stored in the *%systemroot%\\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\110\\Server\\Keys*. In the database, the encryption key is registered in the dbo.$ndo$publicencryptionkey table. In a multitenant deployment, the encryption key is registered in the application database.  
 
  You can create encryption keys and then import and export the keys to and from databases by using encryption key cmdlets in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]. These cmdlets are useful when upgrading or transferring a solution from one set of hardware to another, where you might need a copy of the encryption key to use it on another [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
 
@@ -39,7 +39,7 @@ When using SQL Server authentication between the [!INCLUDE[nav_server](includes/
 
 1.  On the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, delete the encryption key file for SQL Server authentication.  
 
-     The encryption key file has the name [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].key and is stored in the *%systemroot%\\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\90\\Server\\Keys* folder.  
+     The encryption key file has the name [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].key and is stored in the *%systemroot%\\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\110\\Server\\Keys* folder.  
 
 2.  In the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the Import-NAVEncryptionkey cmdlet with the -Force parameter set.  
 

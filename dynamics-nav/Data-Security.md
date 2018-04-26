@@ -40,4 +40,5 @@ Graphically, these can be represented as the layers, where the central layer is 
  [Object-Level Security](Object-Level-Security.md)   
  [Permissions on Database Objects](Permissions-on-Database-Objects.md)   
  [Record-Level Security](Record-Level-Security.md)   
- [Security Considerations](Security-Considerations.md)
+ [Security Considerations](Security-Considerations.md)  
+ [Transparent Data Encryption (TDE)](transparent-data-encryption.md)  

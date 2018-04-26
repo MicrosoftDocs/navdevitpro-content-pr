@@ -306,17 +306,20 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
     For more information, see [Configuring Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).
 4. Generate the application symbol references:
 
-    Open a command prompt, change to the directory where the `finsql.exe` file has been installed as part of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], and then run the following command:
+    1. Open a command prompt, change to the directory where the `finsql.exe` file has been installed as part of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], and then run the following command:
 
-    ```
-    finsql.exe Command=generatesymbolreference, Database=<MyDatabaseName>, ServerName=<DatabaseServerName>\<DatabaseInstance>
-    ```
+        ```
+        finsql.exe Command=generatesymbolreference, Database=<MyDatabaseName>, ServerName=<DatabaseServerName>\<DatabaseInstance>
+        ```
 
-    Replace values for the `Database` and `ServerName` settings to suit.
+        Replace values for the `Database` and `ServerName` settings to suit.
 
-    > [!NOTE]  
-    >  This command does not generate a file. It populates the **Object Metadata** table in the database.
+        > [!NOTE]  
+        >  This command does not generate a file. It populates the **Object Metadata** table in the database.
+    2. When you run the command, the console returns to an empty command prompt, and does not display or provide any indication about the status of the run. However, the finsql.exe may still be running in the background. It can take several minutes for the run to complete, and the symbols will not be generated until such time.  You can see whether the finsql.exe is still running by using Task Manager, and looking on the **Detials** tab for **finsql.exe**. 
     
+        When the process ends, a file named **navcommandresult.txt** is saved to the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] installation folder. If the command succeeded, the file will contain text like `[0] [06/12/17 14:36:17] The command completed successfully in '177' seconds.` If the command failed, another file named **naverrorlog.txt** will be generated. This file contains details about the error(s) that occurred. 
+            
     For more information about generation symbols, see [Running C/SIDE and AL Side-by-Side](developer/devenv-running-cside-and-al-side-by-side.md).
 
 5. Publish all the extensions from the `\Extensions` folder of the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD):
