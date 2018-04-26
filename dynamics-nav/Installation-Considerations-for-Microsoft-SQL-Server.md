@@ -109,11 +109,9 @@ Do remember to setup backup of both system and user databases. Remember also to 
 
  For more information, see [How to: Deploy a Microsoft Dynamics NAV Database to Azure SQL Database](How-to--Deploy-a-Microsoft-Dynamics-NAV-Database-to-Azure-SQL-Database.md).  
 
-## Data Encryption Between [!INCLUDE[nav_server](includes/nav_server_md.md)] and SQL Server  
- When SQL Server and [!INCLUDE[nav_server](includes/nav_server_md.md)] are running on different computers, you can make this data channel more secure by encrypting the connection with IPSec. \(Other encryption options are not supported.\) For information on how to do this, see [Encrypting Connections to SQL Server](http://go.microsoft.com/fwlink/?LinkId=147732), which is part of SQL Server 2008 Books Online in MSDN library.  
-
 ## See Also  
  [Data Access](Data-Access.md)   
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
  [Troubleshooting: SQL Server Connection Problems](Troubleshooting--SQL-Server-Connection-Problems.md)   
  [Deployment](Deployment.md)  
+ [Enhancing Microsoft Dynamics NAV Server Security](Enhancing-Microsoft-Dynamics-NAV-Server-Security.md)  
