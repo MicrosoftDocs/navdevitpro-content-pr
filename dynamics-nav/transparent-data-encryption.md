@@ -1,17 +1,14 @@
 ---
-title: "Installation Considerations for Microsoft SQL Server and Microsoft Dynamics NAV"
+title: "ITransparent Data Encryption (TDE)"
 ms.custom: na
-ms.date: 02/20/2017
+ms.date: 26/04/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
-ms.assetid: 0c1e0c2f-e8c1-412e-86a8-6a2ba944af24
 ms.author: kepontop
-manager: edupont
 ---
-
 # Transparent Data Encryption (TDE)
 You can use Transparent Data Encryption (TDE), also as known as encrypting data at rest, to encrypt SQL Server and Azure SQL Database data files. In a scenario where the physical media (such as drives or backup tapes) are stolen, a malicious party can just restore or attach the database and browse the data. With TDE you can encrypt the sensitive data in the database and protect the keys that are used to encrypt the data with a certificate. TDE performs real-time I/O encryption and decryption of the data and log files to protect data at rest. TDE can help comply with laws, regulations, and guidelines that are established in various industries. 
 
