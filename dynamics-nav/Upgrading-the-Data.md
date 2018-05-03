@@ -60,7 +60,7 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 
 5.   \(Optional\) If the old [!INCLUDE[navnow](includes/navnow_md.md)] application uses data encryption, you exported the encryption key file that it used for the data encryption.  
 
-        For more information, see [How to: Export and Import Encryption Keys](how-to-export-and-import-encryption-keys.md).  
+    For more information, see [How to: Export and Import Encryption Keys](how-to-export-and-import-encryption-keys.md).  
 
 > [!NOTE]
 >If the old [!INCLUDE[navnow](includes/navnow_md.md)] application uses Payment Services for Microsoft Dynamics ERP, be aware that this was discontinued in [!INCLUDE[nav2017](includes/nav2017.md)]. This means that most of the objects that are associated with this feature will be deleted during the upgrade. Some objects you will have to manually delete.
