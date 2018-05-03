@@ -129,6 +129,9 @@ Depending on the application that you are upgrading, you can choose to analyze a
 
 You can analyze the conflicts in any tool, make the relevant changes, and then run the merge operation again. Alternatively, you can import the merged files into the [!INCLUDE[nav2017](includes/nav2017.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and resolve the conflicts there. For more information, see [Handling Merge Conflicts](Handling-Merge-Conflicts.md).
 
+> [!Note]
+> We recommend that you use [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to resolve conflicts because this will ensure that the proper code page (text encoding) is used for text strings like captions. If you use another tool, such as Notepad or Visual Studio Code, make sure that the proper text encoding is used.   
+
 ## Task 4: Import and Compile Merged Objects in an Empty Database
 After you have completed the merge, you import the new merged application objects as text files into a new (empty) database, and then compile all objects. You must resolve any compilation errors before you can continue. The text files include successfully merged code, and code that is partially merged. You can import the partially merged objects into the [!INCLUDE[nav2017](includes/nav2017.md)] development environment and resolve the conflicts there.
 
