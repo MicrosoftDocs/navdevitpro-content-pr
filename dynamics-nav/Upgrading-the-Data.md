@@ -2,7 +2,7 @@
 title: Upgrading the Database
 description: This article describes the tasks required for upgrading from the earlier versions of database to the Microsoft Dynamics NAV 2018.
 ms.custom: na
-ms.date: 03/01/2018
+ms.date: 03/05/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -38,7 +38,7 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 
     For more information about upgrading the application code, see [Upgrading the Application Code](Upgrading-the-Application-Code.md).
 
-    You can find the default upgrade toolkit objects in the  **UpgradeToolKit\Data Conversion Tools** folder on the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD). Choose the FOB that matches the [!INCLUDE[navnow](includes/navnow_md.md)] version from which you are upgrading:
+    For W1 versions, you can find the default upgrade toolkit objects in the  **UpgradeToolKit\Data Conversion Tools** folder on the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] installation media (DVD). Choose the FOB that matches the [!INCLUDE[navnow](includes/navnow_md.md)] version from which you are upgrading:
 
     |  Version  |  FOB  |  Remarks  |
     |-----------|-------|-----------|
@@ -48,11 +48,13 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
     | [!INCLUDE[navcorfu](includes/navcorfu_md.md)]| Upgrade9001100.FOB||
     |[!INCLUDE[nav2017](includes/nav2017.md)]| Upgrade10001100.FOB||
 
-    For local versions, you will also find upgrade toolkit objects in the **UpgradeToolKit\Local Objects** folder. The files follow the same naming convention except they include the 2 to 4 letter language code, such as **Upgrade9001100.CA.fob** for Canada.  
+    For local versions, you will find upgrade toolkit objects in the **UpgradeToolKit\Local Objects** folder. The files follow the same naming convention except they include the 2-letter local version, such as **Upgrade10001100.DK.fob** or **Upgrade10001100.DE.fob** for Germany.  
 
-3.   You have exported the permission sets and permissions as XML files. 
+3.  You have exported the permission sets (except SUPER) and permissions as XML files.
 
-        For more information, see [How to: Export and Import Permission Sets and Permissions](how-to--import-export-permission-sets-permissions.md#ExportPerms).
+    To exclude the SUPER permission set when running XMLPort 9171, add the filter `Role ID is <>SUPER`. 
+
+    For more information, see [How to: Export and Import Permission Sets and Permissions](how-to--import-export-permission-sets-permissions.md#ExportPerms).
 
 4.   \(Optional\) Make a copy of the web.config file for all [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. With [!INCLUDE[nav2018_md](includes/nav2018_md.md)], [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances run on Microsoft .NET Core. With this change, the instances now use a .json type file (called navsettings.json) instead of the web.config file.
 
@@ -76,14 +78,6 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 3.  Synchronize the database schema by using the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or Dynamics NAV Administration Shell that matches the old database.  
 
     For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).
-
-<!-- removed 
-4.  ([!INCLUDE[navcorfu](includes/navcorfu_md.md)] and earlier only) If the old database includes test runner codeunits, modify the signature of the OnBeforeTestRun and OnAfterTestRun triggers of the test runner codeunits to include the *TestPermission* parameter
-
-    For more information, see [Resolving OnBeforeTestRun and OnAfterTestRun Trigger Errors When Converting a Database](Resolve-OnBeforeTestRun-OnAfterTestRun-Compile-Errors.md).
-
-    The triggers for codeunit **130400 CAL Test Runner** and **130402 CAL Command Line Test Runner** will be updated for you during the data upgrade.
--->
 
 ##  <a name="SQLBackup"></a> Task 2: Create a full SQL backup of the old database on SQL Server  
  You must create a full backup of the old database in the SQL Server. Alternatively, you can make a copy of the old database and perform the upgrade tasks on the copy.  
@@ -179,7 +173,7 @@ Using the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short
 
     Review the Worksheet page. For more information, see [Import Worksheet](Import-Worksheet.md).
     
-    Choose **Replace All** to continue.
+    Choose **Replace All**, and then **OK** to continue.
 
 3. **IMPORTANT** When prompted about table synchronization, set the **Synchronize Schema** option to **Later**.  
 
@@ -214,7 +208,16 @@ For more information, see [How to: Connect a Microsoft Dynamics NAV Server Insta
     -   Table 829 DO Payment Trans. Log Entry
     -   Table 1510 Notification Template
 
-    When you delete a table object, in the **Delete** confirmation dialog box, set the **Synchronize Schema** option to **Force**. **Important** At this point, it is very important that you do not use the **Sync. Schema For All Tables** option from the **Tools** menu. 
+    When you delete a table object, in the **Delete** confirmation dialog box taht appears, set the **Synchronize Schema** option to **Force**.
+    
+      > [!IMPORTANT] 
+      > In this step, it is very important that you do not use the **Sync. Schema For All Tables** option from the **Tools** menu.
+      
+4.  ([!INCLUDE[navcorfu](includes/navcorfu_md.md)] and earlier only) If the old database includes test runner codeunits, you will get an errors for each codeunit that states that OnBeforeTestRun or OnAfterTestRun trigger signature is not valid. To fix this issue, you change the signature of the OnBeforeTestRun and OnAfterTestRun triggers to include the *TestPermission* parameter.
+
+    For more information, see [Resolving OnBeforeTestRun and OnAfterTestRun Trigger Errors When Converting a Database](Resolve-OnBeforeTestRun-OnAfterTestRun-Compile-Errors.md).
+
+    The triggers for codeunit **130400 CAL Test Runner** and **130402 CAL Command Line Test Runner** will be updated for you during the data upgrade.
 
 ##  <a name="RunSync1"></a> Task 12: Recompile published extensions  
 Use the [Repair-NAVApp cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/repair-navappSynchronize) of the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Administration Shell to compile the published extensions to make sure they are work with the new platform and application.
