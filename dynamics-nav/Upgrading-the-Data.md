@@ -48,7 +48,7 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
     | [!INCLUDE[navcorfu](includes/navcorfu_md.md)]| Upgrade9001100.FOB||
     |[!INCLUDE[nav2017](includes/nav2017.md)]| Upgrade10001100.FOB||
 
-    For local versions, you will find the upgrade toolkit objects in the **UpgradeToolKit\Local Objects** folder. The files follow the same naming convention except they include the 2-letter local version, such as **Upgrade10001100.DK.fob** or **Upgrade10001100.DE.fob** for Germany.  
+    For local versions, you will find the upgrade toolkit objects in the **UpgradeToolKit\Local Objects** folder. The files follow the same naming convention except they include the 2-letter local version, such as **Upgrade10001100.DK.fob** for Denmark or **Upgrade10001100.DE.fob** for Germany.  
 
 3.  You have exported the permission sets (except SUPER) and permissions as XML files.
 
@@ -123,14 +123,15 @@ Uninstall the old [!INCLUDE[navnow_md](includes/navnow_md.md)], and then install
 
 As a minimum, you must install the following [!INCLUDE[nav2018_md](includes/nav2018_md.md)] components: Client (with the Development Environment), Modern Development Environment, Administration Tools, Server, and SQL Server Components. You can install these components by choosing the **Custom** option during Setup. For more information, see [Custom Option](Custom-option.md).
 
-## Task 7: Clear Dynamics NAV Server instance records from old database
-Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records from the **dbo.Server Instance** table in the database in SQL Server.  
+## Task 7: Clear Dynamics NAV Server instance and debugger breakpoint records from old database
+Clear all records from the **dbo.Server Instance** and  **dbo.Debugger Breakpoint** tables in the database in SQL Server.  
 
 1.  If you did not uninstall the old [!INCLUDE[navnow_md](includes/navnow_md.md)], make sure that you stop the old [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, and close any tools that connect to the database, such as the Dynamics NAV Administration Tool and [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].
-2.  Using SQL Server Management Studio, open and clear the **dbo.Server Instance** table of the old database. For example, you can run the following SQL query:
+2.  Using SQL Server Management Studio, open and clear the **dbo.Server Instance** and  **dbo.Debugger Breakpoint** tables of the old database. For example, you can run the following SQL query:
 
     ```
-    DELETE FROM [My NAV Database Name].[dbo].[Server Instance]
+    DELETE FROM [<My NAV Database Name>].[dbo].[Server Instance]
+    DELETE from [<My NAV Database Name>].[dbo].[Debugger Breakpoint]
     ```
 
 ##  <a name="ConvertDb"></a> Task 8: Convert the old database to the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] format  
@@ -213,7 +214,7 @@ For more information, see [How to: Connect a Microsoft Dynamics NAV Server Insta
       > [!IMPORTANT] 
       > In this step, it is very important that you do not use the **Sync. Schema For All Tables** option from the **Tools** menu.
       
-4.  ([!INCLUDE[navcorfu](includes/navcorfu_md.md)] and earlier only) If the old database includes test runner codeunits, you will get an errors for each codeunit that states that OnBeforeTestRun or OnAfterTestRun trigger signature is not valid. To fix this issue, you change the signature of the OnBeforeTestRun and OnAfterTestRun triggers to include the *TestPermission* parameter.
+4.  ([!INCLUDE[navcorfu](includes/navcorfu_md.md)] and earlier only) If the old database includes test runner codeunits, you will get errors on these codeunits that the OnBeforeTestRun and OnAfterTestRun trigger signatures are not valid. To fix these issues, you change the signature of the OnBeforeTestRun and OnAfterTestRun triggers to include the *TestPermission* parameter.
 
     For more information, see [Resolving OnBeforeTestRun and OnAfterTestRun Trigger Errors When Converting a Database](Resolve-OnBeforeTestRun-OnAfterTestRun-Compile-Errors.md).
 
