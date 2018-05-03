@@ -48,7 +48,7 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
     | [!INCLUDE[navcorfu](includes/navcorfu_md.md)]| Upgrade9001100.FOB||
     |[!INCLUDE[nav2017](includes/nav2017.md)]| Upgrade10001100.FOB||
 
-    For local versions, you will find upgrade toolkit objects in the **UpgradeToolKit\Local Objects** folder. The files follow the same naming convention except they include the 2-letter local version, such as **Upgrade10001100.DK.fob** or **Upgrade10001100.DE.fob** for Germany.  
+    For local versions, you will find the upgrade toolkit objects in the **UpgradeToolKit\Local Objects** folder. The files follow the same naming convention except they include the 2-letter local version, such as **Upgrade10001100.DK.fob** or **Upgrade10001100.DE.fob** for Germany.  
 
 3.  You have exported the permission sets (except SUPER) and permissions as XML files.
 
