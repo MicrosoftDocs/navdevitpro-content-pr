@@ -153,6 +153,7 @@
 # [Development in AL](developer/devenv-dev-overview.md)
 ## [Differences in the Development Environments](developer/devenv-differences.md)
 ## [Running C/SIDE and AL Side-By-Side](developer/devenv-running-cside-and-al-side-by-side.md)
+## [Creating runtime packages for Dynamics NAV](developer/devenv-creating-runtime-packages.md)
 ## [Installing AL with Microsoft Dynamics NAV](developer/devenv-install-onprem.md)
 <!-- all topics redirect to the new repo per topic
 ## [Building Your First Sample Extension With Extension Objects, Install Code, and Upgrade Code](developer/devenv-extension-example.md)
