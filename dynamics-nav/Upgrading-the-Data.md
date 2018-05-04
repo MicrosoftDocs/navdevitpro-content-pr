@@ -108,8 +108,8 @@ Open the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] that matches to old 
 <!-- 
     > [!IMPORTANT]
     > Do not uninstall V2 extensions (ModernDev type).
--->
 
+ 
 3. Unpublish the V1 extensions that have **Microsoft** as the publisher:
 
     ```
@@ -119,6 +119,7 @@ Open the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] that matches to old 
     Replace `<Name>` and `<N.N.N.N>` with the name and version of the Extension V1 as it appeared in the previous step.
 
     You will publish these again later.
+-->
 
 ##  <a name="UploadLicense"></a> Task 4: Upload the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] license to the old database  
 By using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] that matches the old database, upload the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] license to the database.
