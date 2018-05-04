@@ -385,13 +385,17 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         Replace `<Name>` and `<N.N.N.N>` with the name and version of the Extension V1 as it appeared in the previous step. For `<TenantID>`, in single-tenant deployments, you either specify `default`or you omit the `–Tenant` parameter.
         
         This will upgrade the V1 extensions.
-    4.  For each Extension V2 that you want to upgrade, run these commands:
+
+        If you installed a newwer version you can unpublish the old version now.
+    4.  For each V1 Extension that you want to upgrade to a V2 Extension, run these commands:
 
         ```
         Sync-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N>
         Start-NAVAppDataUpgrade -ServerInstance DynamicsNAV -Name ProswareStuff -Version <N.N.N.N>
         ``` 
         This will upgrade the V2 extensions.
+
+        You can unpublish the V1 extension.
 
 <!-- 
 7.  Upgrade V2 extensions that are currently installed: 
