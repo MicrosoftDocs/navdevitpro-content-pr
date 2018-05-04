@@ -182,7 +182,7 @@ After you have completed the merge, you import the new merged application object
 You now have a new database with a fully upgraded application.
 
 ## Task 5: Export All Objects  
-Now, you must export all objects of the new database to an **objects.fob** file so that you can import them when performing the data upgrade. The export must include customized objects, upgraded reget-helpports, and all other [!INCLUDE[nav2017](includes/nav2017.md)] objects.
+Now, you must export all objects of the new database to an **objects.fob** file so that you can import them when performing the data upgrade. The export must include customized objects, upgraded reports, and all other [!INCLUDE[nav2017](includes/nav2017.md)] objects.
 
 As with exporting objects in Task 1, you can use either the [!INCLUDE[nav2017](includes/nav2017.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], finsql.exe, or [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)].
 
