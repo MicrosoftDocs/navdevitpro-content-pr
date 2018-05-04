@@ -370,7 +370,12 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         Get-NAVAppInfo -ServerInstance <ServerInstanceName>
         ```
 
-    2. To determine which V1 extensions to install, inspect the list that appears, and compare it with the list that you gathered in Task 3. V1 extensions are indicated by `Extension Type : CSIDE`. <!-- If there is a newer version of a V1 Extension, you should install the newer version.-->
+    2. To determine which V1 extensions to install, inspect the list that appears, and compare it with the list that you gathered in Task 3. V1 extensions are indicated by `Extension Type : CSIDE`.
+    
+        -   If there is only one version of an extension, then go to next step to reinstall the version. 
+        -   If there is a newer version of an extension, and the `Extension Type is also `CSIDE`, then go to step 2b to install the newer V1 extension. 
+        -   If there is a newer version of an extension, but the `Extension Type` is `ModernDev`, then go to step 2c. 
+
     3. For each V1 Extension that you want to install, run this command:
     
         ```  
@@ -380,6 +385,15 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         Replace `<Name>` and `<N.N.N.N>` with the name and version of the Extension V1 as it appeared in the previous step. For `<TenantID>`, in single-tenant deployments, you either specify `default`or you omit the `–Tenant` parameter.
         
         This will upgrade the V1 extensions.
+    4.  For each Extension V2 that you want to upgrade, run these commands:
+
+        ```
+        Sync-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N>
+        Start-NAVAppDataUpgrade -ServerInstance DynamicsNAV -Name ProswareStuff -Version <N.N.N.N>
+        ``` 
+        This will upgrade the V2 extensions.
+
+<!-- 
 7.  Upgrade V2 extensions that are currently installed: 
 
     1. To get a list of the installed V2 extensions, run this command:
@@ -397,9 +411,10 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         Sync-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N>
         Start-NAVAppDataUpgrade -ServerInstance DynamicsNAV -Name ProswareStuff -Version <N.N.N.N>
         ``` 
-        
+    
         This will upgrade the V2 extensions.
-8. For the Denmark (DK) local version of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you must install the following new V2 extensions in order to get all the local functionality.
+        -->
+7. For the Denmark (DK) local version of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you must install the following new V2 extensions in order to get all the local functionality.
 
     |Name|Publisher|Version|
     |----|---------|-------|
