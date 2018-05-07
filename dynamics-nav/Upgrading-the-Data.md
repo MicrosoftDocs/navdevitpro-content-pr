@@ -232,6 +232,7 @@ For more information, see [How to: Connect a Microsoft Dynamics NAV Server Insta
     For more information, see [Resolving OnBeforeTestRun and OnAfterTestRun Trigger Errors When Converting a Database](Resolve-OnBeforeTestRun-OnAfterTestRun-Compile-Errors.md).
 
     The triggers for codeunit **130400 CAL Test Runner** and **130402 CAL Command Line Test Runner** will be updated for you during the data upgrade.
+
 <!-- 
 ##  <a name="RunSync1"></a> Task 12: Recompile published extensions  
 Use the [Repair-NAVApp cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/repair-navappSynchronize) of the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Administration Shell to compile the published extensions to make sure they are work with the new platform and application.
@@ -240,8 +241,11 @@ For example, you can run the following command to recompile all extensions:
 
 ```
 Get-NAVAppInfo -ServerInstance <ServerInstanceName> | Repair-NAVApp
-```   
+```
+
+efejfefjejf   
 -->
+
 ##  <a name="RunSync1"></a> Task 12: Run the schema synchronization on the imported objects  
 Synchronize the database schema with validation. You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
 
@@ -373,8 +377,8 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
     2. To determine which V1 extensions to install, inspect the list that appears, and compare it with the list that you gathered in Task 3. V1 extensions are indicated by `Extension Type : CSIDE`.
     
         -   If there is only one version of an extension, then go to next step to reinstall the version. 
-        -   If there is a newer version of an extension and its `Extension Type` is also `CSIDE`, then go to step 2b to install the newer V1 extension. 
-        -   If there is a newer version of an extension but its `Extension Type` is `ModernDev`, then go to step 2c to upgrade the V1 extension to the V2 extension. 
+        -   If there is a newer version of an extension and its `Extension Type` is also `CSIDE`, then go to step 2c to install the newer V1 extension. 
+        -   If there is a newer version of an extension but its `Extension Type` is `ModernDev`, then go to step 2d to upgrade the V1 extension to the V2 extension. 
 
     3. For each V1 Extension that you want to install, run this command:
     
@@ -425,7 +429,8 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         ``` 
     
         This will upgrade the V2 extensions.
-        -->
+-->
+
 7. For the Denmark (DK) local version of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you must install the following new V2 extensions in order to get all the local functionality.
 
     |Name|Publisher|Version|
@@ -447,7 +452,8 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
     ```
     Get-NAVAppInfo -ServerInstance <ServerInstanceName> | Repair-NAVApp
-    ```   
+    ```
+   
 ## Task 18: Update the Dynamics NAV Web client configuration file (navsettings.json)
 If you have installed the [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)], populate the navsettings.json file for the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance with the settings of the old web.config file.
 
