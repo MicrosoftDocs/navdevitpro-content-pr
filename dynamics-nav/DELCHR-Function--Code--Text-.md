@@ -17,7 +17,6 @@ Deletes one or more characters in a string.
 ## Syntax  
   
 ```  
-  
 NewString := DELCHR(String[, Where][, Which])  
 ```  
   
