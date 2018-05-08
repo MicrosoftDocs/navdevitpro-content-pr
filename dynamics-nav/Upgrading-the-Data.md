@@ -310,26 +310,33 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 ##  <a name="AddExtensions"></a> Task 17: Publish and install/upgrade extensions
 [!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes a number of extensions that you publish and install as part of the upgrade process. To enable these extensions, it is important that you follow the steps below.
 
-1. Download the system and test symbols file from the *ModernDev* folder on the DVD, and make a note of the path where you store the files.  
+1. Download the system and test symbols file from the *ModernDev* folder on the DVD and the application symbols from [here](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Application_11.0.19738.0.app). Make a note of the path where you store the files. 
+
+<!--  
     > [!NOTE]  
     > If you are upgrading to [!INCLUDE[nav2018_md](includes/nav2018_md.md)] RTM, the symbols are not included on the DVD, and you must download them here: [system symbols](https://go.microsoft.com/fwlink/?linkid=864045), [test symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Test_11.0.19680.0.app), and [application symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Application_11.0.19738.0.app).  
     If you are upgrading to [!INCLUDE[nav2018_md](includes/nav2018_md.md)] CU1, or higher, please use the symbols that you find in the *ModernDev* folder on the cumulative update DVD. 
+
+-->
   
-2. Publish the platform symbols and the test symbols one file at a time to the Dynamics NAV server instance:
+2. Publish the platform, test, and application symbols one file at a time to the Dynamics NAV server instance:
 
     Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and run the following command for each of the symbol files:
 
     ```
     Publish-NAVApp -ServerInstance <ServerInstanceName> -Path <SymbolFilePath> -PackageType SymbolsOnly
     ```
-    
+
+   <!--  
     > [!NOTE]  
     > If you are upgrading to [!INCLUDE[nav2018_md](includes/nav2018_md.md)] RTM, you must also publish the application symbol file.
+
+    -->
 
 3. Make sure that **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup) is set on the Dynamics NAV server instance.
 
     For more information, see [Configuring Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).
-4. Generate the application symbol references:
+4. Generate the application symbol references for running Running C/SIDE and AL Side-by-Side:
 
     1. Open a command prompt, change to the directory where the `finsql.exe` file has been installed as part of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], and then run the following command:
 
