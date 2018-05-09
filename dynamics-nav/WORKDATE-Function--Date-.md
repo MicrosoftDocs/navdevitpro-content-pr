@@ -39,7 +39,7 @@ Gets and sets the work date for the current session.
  To set the work date to follow the calendar day so that the work date is always the current date, set *NewDate* to `TODAY` or `0D`. If you explicitly set *NewDate* to the current date, then the work date will also follow the calendar day.  
   
 ## Example  
- This example shows how to use the WORKDATE function. This example requires that you create the following variable and text constant in the **C/AL Globals** window.  
+The following code sets the work date to January 1, 2018, and returns the new date in a message. This example requires that you create the following variable and text constant in the **C/AL Globals** window.  
   
 |Variable|DataType|  
 |----------|----------------|  
@@ -54,11 +54,11 @@ MyWorkDate := WORKDATE(010118D);
 MESSAGE(Text000, MyWorkDate);  
 ```  
   
-The code sets the work date to January 1, 2018, and returns the new date in a message. On a computer that has the regional format set to English \(United States\), the message window displays the following:  
+On a computer that has the regional format set to English \(United States\), the message window displays the following:  
   
  **The work date is: 01/01/18**  
 
-The following example, simply gets the current work date:
+The following example, gets the current work date:
 
 ```  
 MyWorkDate := WORKDATE;
