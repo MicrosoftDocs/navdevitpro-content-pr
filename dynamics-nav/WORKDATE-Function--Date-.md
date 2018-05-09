@@ -54,7 +54,7 @@ NewDate := WORKDATE(010118D);
 MESSAGE(Text000, NewDate);  
 ```  
   
- The first line of code sets the work date to January 1, 2014. In the second line of code, the WORKDATE function returns the new work date. On a computer that has the regional format set to English \(United States\), the message window displays the following:  
+ The first line of code sets the work date to January 1, 2018. In the second line of code, the WORKDATE function returns the new work date. On a computer that has the regional format set to English \(United States\), the message window displays the following:  
   
  **The work date is: 01/01/18**  
   
