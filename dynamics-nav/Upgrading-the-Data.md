@@ -312,6 +312,8 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
 1. Download the system and test symbols file from the *ModernDev* folder on the DVD and the application symbols from [here](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Application_11.0.19738.0.app). Make a note of the path where you store the files. 
 
+    <!-- CU6 remove the part about application symbol download>
+
 <!--  
     > [!NOTE]  
     > If you are upgrading to [!INCLUDE[nav2018_md](includes/nav2018_md.md)] RTM, the symbols are not included on the DVD, and you must download them here: [system symbols](https://go.microsoft.com/fwlink/?linkid=864045), [test symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Test_11.0.19680.0.app), and [application symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Application_11.0.19738.0.app).  
@@ -383,9 +385,9 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
     2. To determine which V1 extensions to install, inspect the list that appears, and compare it with the list that you gathered in Task 3. V1 extensions are indicated by `Extension Type : CSIDE`.
     
-        -   If there is only one version of an extension, then go to next step to reinstall the version. 
-        -   If there is a newer version of an extension and its `Extension Type` is also `CSIDE`, then go to step 6c to upgrade to the newer V1 extension. 
-        -   If there is a newer version of an extension but its `Extension Type` is `ModernDev`, then go to step 6d to upgrade the V1 extension to the V2 extension. 
+        -   If there is only one version of an extension, which matches the version in the old list, then go to next step to reinstall the version. 
+        -   If there is a newer version of an extension and its `Extension Type` is also `CSIDE`, then go to step 6c to install and upgrade to the newer V1 extension. 
+        -   If there is a newer version of an extension but its `Extension Type` is `ModernDev`, then go to step 6d to upgrade the old V1 extension to the V2 extension. 
 
     3. For each V1 Extension that you want to install, run this command:
     
