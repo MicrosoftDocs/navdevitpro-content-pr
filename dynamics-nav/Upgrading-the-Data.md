@@ -385,7 +385,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
     2. To determine which V1 extensions to install, inspect the list that appears, and compare it with the list that you gathered in Task 3. V1 extensions are indicated by `Extension Type : CSIDE`.
     
-        -   If there is only one version of an extension, which matches the version in the old list, then go to next step to reinstall the version. 
+        -   If there is only one version of an extension, which matches the version in the old list, then go to step 6c to reinstall the version. 
         -   If there is a newer version of an extension and its `Extension Type` is also `CSIDE`, then go to step 6c to install and upgrade to the newer V1 extension. 
         -   If there is a newer version of an extension but its `Extension Type` is `ModernDev`, then go to step 6d to upgrade the old V1 extension to the V2 extension. 
 
