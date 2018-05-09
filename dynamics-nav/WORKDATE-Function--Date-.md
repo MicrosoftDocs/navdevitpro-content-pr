@@ -43,20 +43,25 @@ Gets and sets the work date for the current session.
   
 |Variable|DataType|  
 |----------|----------------|  
-|NewDate|Date|  
+|MyWorkDate|Date|  
 
 |Name|ConstValue|  
 |----------|----------------|  
 |Text000|The new work date is: %1|  
   
 ```  
-NewDate := WORKDATE(010118D);  
-MESSAGE(Text000, NewDate);  
+MyWorkDate := WORKDATE(010118D);  
+MESSAGE(Text000, MyWorkDate);  
 ```  
   
- The first line of code sets the work date to January 1, 2018. In the second line of code, the WORKDATE function returns the new work date. On a computer that has the regional format set to English \(United States\), the message window displays the following:  
+The code sets the work date to January 1, 2018, and returns the new date in a message. On a computer that has the regional format set to English \(United States\), the message window displays the following:  
   
  **The work date is: 01/01/18**  
-  
+
+If you just want to get the current work date, you can use this code:
+
+```  
+MyWorkDate := WORKDATE;
+```  
 ## See Also  
  [Date and Time Functions](Date-and-Time-Functions.md)
