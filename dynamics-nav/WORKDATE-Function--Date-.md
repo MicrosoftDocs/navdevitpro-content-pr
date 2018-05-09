@@ -58,7 +58,7 @@ The code sets the work date to January 1, 2018, and returns the new date in a me
   
  **The work date is: 01/01/18**  
 
-If you just want to get the current work date, you can use this code:
+The following example, simply gets the current work date:
 
 ```  
 MyWorkDate := WORKDATE;
