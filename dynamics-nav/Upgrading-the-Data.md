@@ -389,7 +389,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         -   If there is a newer version of an extension and its `Extension Type` is also `CSIDE`, then go to step 6c to install and upgrade to the newer V1 extension. 
         -   If there is a newer version of an extension but its `Extension Type` is `ModernDev`, then go to step 6d to upgrade the old V1 extension to the V2 extension. 
 
-    3. For each V1 Extension that you want to install, run this command:
+    3. For each V1 Extension that you want to reinstall or upgrade, run this command:
     
         ```  
         Install-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N> –Tenant <TenantID>
