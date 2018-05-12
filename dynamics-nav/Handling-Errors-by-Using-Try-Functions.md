@@ -37,7 +37,7 @@ A function that is designated as a try function has a Boolean return value \(tru
 
 - If a try function call does not use the return value, the try function operates like an ordinary function and errors are exposed as usual.  
 
-- If a try function call uses the return value in an `OK:=` statement or a conditional statement such as `IF-THEN`, errors are caught.  
+- If a try function call uses the return value in an `OK:=` statement or a conditional statement such as `IF-THEN`, errors are caught. The try function returns `true` if no error occurs; `false` is an error occurs. 
 
 > [!NOTE]  
 >  The return value is not accessible within the try function itself.  
@@ -65,7 +65,6 @@ MESSAGE('Everthing went well.');
 **LOCAL myfunction()**
 ```
 ERROR('An error occurred during the operation.');
-MESSAGE('Operation completed');
 ```
 
 When you run this codeunit, the execution of the OnRun trigger, the calling function, stops and the error message `An error occurred during the operation.` is thrown in the client.
