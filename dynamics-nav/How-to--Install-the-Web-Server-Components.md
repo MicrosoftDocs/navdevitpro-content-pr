@@ -16,7 +16,10 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
  You can install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on the same computer as the [!INCLUDE[nav_server](includes/nav_server_md.md)] or on a separate computer.  
 
-> [!NOTE]  
+> [!IMPORTANT]
+> The [!INCLUDE[navnow](includes/navnow_md.md)] mobile app is not supported in a deployment scenario that uses Azure Active Directory Application Proxy.
+
+> [!TIP]  
 >  You do not need a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance or SQL Server database to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. You can install these components separately and then later configure the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to use them.  
 
 ## Prerequisites  

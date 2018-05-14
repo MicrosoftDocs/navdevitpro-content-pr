@@ -316,7 +316,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
         > [!NOTE]  
         >  This command does not generate a file. It populates the **Object Metadata** table in the database.
-    2. When you run the command, the console returns to an empty command prompt, and does not display or provide any indication about the status of the run. However, the finsql.exe may still be running in the background. It can take several minutes for the run to complete, and the symbols will not be generated until such time.  You can see whether the finsql.exe is still running by using Task Manager, and looking on the **Detials** tab for **finsql.exe**. 
+    2. When you run the command, the console returns to an empty command prompt, and does not display or provide any indication about the status of the run. However, the finsql.exe may still be running in the background. It can take several minutes for the run to complete, and the symbols will not be generated until such time.  You can see whether the finsql.exe is still running by using Task Manager, and looking on the **Details** tab for **finsql.exe**. 
     
         When the process ends, a file named **navcommandresult.txt** is saved to the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] installation folder. If the command succeeded, the file will contain text like `[0] [06/12/17 14:36:17] The command completed successfully in '177' seconds.` If the command failed, another file named **naverrorlog.txt** will be generated. This file contains details about the error(s) that occurred. 
             

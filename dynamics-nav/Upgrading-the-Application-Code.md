@@ -139,6 +139,9 @@ Depending on the application that you are upgrading, you can choose to analyze a
 
 You can analyze the conflicts in any tool, make the relevant changes, and then run the merge operation again. For more information, see [Handling Merge Conflicts](Handling-Merge-Conflicts.md). Alternatively, you can go directly to task 5 to import the merged files into the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and resolve the conflicts there. 
 
+> [!Note]
+> We recommend that you use [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to resolve conflicts because this will ensure that the proper code page (text encoding) is used for text strings like captions. If you use another tool, such as Notepad or Visual Studio Code, make sure that the proper text encoding is used. 
+
 ## Task 5: Import and Compile Merged Objects in an Empty Database
 After you have completed the merge, you import the new merged application objects as text files into a new (empty) database, and then compile all objects. You must resolve any compilation errors before you can continue. The text files include successfully merged code, and code that is partially merged. You can import the partially merged objects into the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] development environment and resolve the conflicts there.
 
@@ -195,7 +198,7 @@ After you have completed the merge, you import the new merged application object
 You now have a new database with a fully upgraded application.
 
 ## Task 6: Export All Objects  
-Now, you must export all objects of the new database to an **objects.fob** file so that you can import them when performing the data upgrade. The export must include customized objects, upgraded reget-helpports, and all other [!INCLUDE[nav2018_md](includes/nav2018_md.md)] objects.
+Now, you must export all objects of the new database to an **objects.fob** file so that you can import them when performing the data upgrade. The export must include customized objects, upgraded reports, and all other [!INCLUDE[nav2018_md](includes/nav2018_md.md)] objects.
 
 As with exporting objects in Task 1, you can use either the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], finsql.exe, or [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)].
 
