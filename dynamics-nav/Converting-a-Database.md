@@ -82,11 +82,13 @@ To convert the old database to a [!INCLUDE[nav2018_md](includes/nav2018_md.md)] 
     ```
     Set-NAVServerInstance –ServerInstance <ServerInstanceName> -Stop
     ```
-9.  Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records from the **dbo.Server Instance** table in the database on SQL Server.  
+9. Clear all records from the **dbo.Server Instance** and  **dbo.Debugger Breakpoint** tables in the old database in SQL Server.  
 
-    You can do this by using SQL Server Management Studio to clear the table. For example, you can run the following SQL query:
+    Using SQL Server Management Studio, open and clear the **dbo.Server Instance** and  **dbo.Debugger Breakpoint** tables of the old database. For example, you can run the following SQL query:
+
     ```
-    DELETE FROM [My NAV Database Name].[dbo].[Server Instance]
+    DELETE FROM [<My NAV Database Name>].[dbo].[Server Instance]
+    DELETE from [<My NAV Database Name>].[dbo].[Debugger Breakpoint]
     ```
 
 10.  (Optional) Before you start the following procedure, you can uninstall the old version of [!INCLUDE[navnow_md](includes/navnow_md.md)]. When you uninstall [!INCLUDE[navnow_md](includes/navnow_md.md)], the database is still attached to the instance of SQL Server, which you can verify using SQL Server Management Studio.
