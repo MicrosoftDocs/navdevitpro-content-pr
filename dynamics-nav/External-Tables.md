@@ -74,7 +74,15 @@ for each field:
 
 ## Connect the [!INCLUDE[navnow](includes/navnow_md.md)] table to the external table
 
-1. Register the 
+1. Register the connection to the external table.
+
+    Use the REGISTERTABLECONNECTION function to register the connection to external database. The function has the following syntax:
+
+    ```  
+    REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, <Name>, <Connection>)  
+    ```   
+    Replace `<Name>` with a name that you want to assign the the connection. You will use this name when set the connection. 
+    Replace `<Connection>` with the connection string for the database that contains the external table. 
 
     ```  
     REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'ExternalDb1', 'Data Source=ProdServer1;Initial Catalog=ProdDb1;User ID=sqladmin;Password=p@ssword');  
