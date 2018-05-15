@@ -222,7 +222,7 @@ For more information, see [How to: Connect a Microsoft Dynamics NAV Server Insta
     -   Table 829 DO Payment Trans. Log Entry
     -   Table 1510 Notification Template
 
-    When you delete a table object, in the **Delete** confirmation dialog box taht appears, set the **Synchronize Schema** option to **Force**.
+    When you delete a table object, in the **Delete** confirmation dialog box that appears, set the **Synchronize Schema** option to **Force**.
     
       > [!IMPORTANT] 
       > In this step, it is very important that you do not use the **Sync. Schema For All Tables** option from the **Tools** menu.
@@ -304,11 +304,11 @@ You import the permission sets and permissions XML files.
 -   Microsoft.Dynamics.Nav.Client.VideoPlayer  
 -   Microsoft.Dynamics.Nav.Client.WebPageViewer
 
-To use these add-ins, they must be registered in table **2000000069 Client Add-in**. Depending on the version that you upgraded from, all the add-ins might not be registered after the upgrade process. You can register missing control add-ins in the **Control Add-ins** page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The assemblies (.dlls) for these add-ins are located in subfolders to the **Add-ins** folder of the Dynamics NAV Server installation, which by default is  [!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Service\Add-ins. For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
+To use these add-ins, they must be registered in table **2000000069 Client Add-in**. Depending on the version that you upgraded from, all the add-ins might not be registered after the upgrade process. You can register missing control add-ins in the **Control Add-ins** page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The assemblies (.dlls) for these add-ins are in subfolders to the **Add-ins** folder of the Dynamics NAV Server installation, which by default is  [!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Service\Add-ins. For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
 
 
 ##  <a name="AddExtensions"></a> Task 17: Publish and install/upgrade extensions
-[!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes a number of extensions that you publish and install as part of the upgrade process. To enable these extensions, it is important that you follow the steps below.
+[!INCLUDE[nav2018_md](includes/nav2018_md.md)] includes several extensions that you publish and install as part of the upgrade process. To enable these extensions, it is important that you follow the steps below.
 
 1. Download the system and test symbols file from the *ModernDev* folder on the DVD and the application symbols from [here](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Application_11.0.19738.0.app). Make a note of the path where you store the files. 
 
@@ -350,7 +350,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
         > [!NOTE]  
         >  This command does not generate a file. It populates the **Object Metadata** table in the database.
-    2. When you run the command, the console returns to an empty command prompt, and does not display or provide any indication about the status of the run. However, the finsql.exe may still be running in the background. It can take several minutes for the run to complete, and the symbols will not be generated until such time.  You can see whether the finsql.exe is still running by using Task Manager, and looking on the **Details** tab for **finsql.exe**. 
+    2. When you run the command, the console returns to an empty command prompt, and does not display or provide any indication about the status of the run. However, the finsql.exe may still be running in the background. It can take several minutes for the run to complete, and the symbols will not be generated until such time.  You can see whether the finsql.exe is still running by using Task Manager and looking on the **Details** tab for **finsql.exe**. 
     
         When the process ends, a file named **navcommandresult.txt** is saved to the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] installation folder. If the command succeeded, the file will contain text like `[0] [06/12/17 14:36:17] The command completed successfully in '177' seconds.` If the command failed, another file named **naverrorlog.txt** will be generated. This file contains details about the error(s) that occurred. 
             
@@ -395,7 +395,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         Install-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N> –Tenant <TenantID>
         ```
     
-        Replace `<Name>` and `<N.N.N.N>` with the name and version of the Extension V1 as it appeared in the previous step. For `<TenantID>`, in single-tenant deployments, you either specify `default`or you omit the `–Tenant` parameter.
+        Replace `<Name>` and `<N.N.N.N>` with the name and version of the Extension V1 as it appeared in the previous step. For `<TenantID>`, in single-tenant deployments, you either specify `default` or you omit the `–Tenant` parameter.
         
         This will upgrade the V1 extensions.
 
@@ -418,7 +418,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
         Unpublish-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N>
         ```
 
-7. For the Denmark (DK) local version of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you must install the following new V2 extensions in order to get all the local functionality.
+7. For the Denmark (DK) local version of [!INCLUDE[nav2018_md](includes/nav2018_md.md)], you must install the following new V2 extensions to get all the local functionality.
 
     |Name|Publisher|Version|
     |----|---------|-------|
