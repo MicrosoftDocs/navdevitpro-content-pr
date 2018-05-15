@@ -53,7 +53,28 @@ UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'ExternalDb1');
 REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'ExternalDb1');  
 ```  
   
- In this scenario, you can write a function that generates a connection string based on the current configuration.  
+In this scenario, you can write a function that generates a connection string based on the current configuration.  
+
+## SQL external table
+1. In SQL Server or Azure SQL Database, identify or create a table that includes the columns that you want.
+2. In [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], create a table object, and set the following properties:
+
+    |Property|Value|Example|
+    |--------|-----|-------|
+    |[TableType](tabletype-property)|**ExternalSQL**||
+    |[ExternalName](externalname-property.md)|The name of the table in the external database.||
+    |[ExternalSchema](externalschema-property.md)|The database schema of the external database.|dbo|
+
+3. Add a field in the [!INCLUDE[navnow](includes/navnow_md.md)] table for each column in the SQL Server or Azure SQL Database table. Set the following properties:
+for each field
+    |Property|Value|Example|
+    |--------|-----|-------|
+    |[Name](name-property.md)|**ExternalSQL**|The name to assign the field. You can use the same name as the column in the SQL Server or Azure SQL Database table or use a diffent names. If you use a different name, then you must set the [ExternalName](externalname-property.md) property of the field.||
+    |[DataType](data-type-property.md)|The data type that matches the column in the SQL Server or Azure SQL Database table. ||
+    |[Length](datalength-property.md) |The length the matches the column in the SQL Server or Azure SQL Database table||
+    |[ExternalName](externalname-property.md)|The name of the table in the external database. This property is required only if the field name in the [!INCLUDE[navnow](includes/navnow_md.md)] table differs from the column name in in the SQL Server or Azure SQL Database table.||
+4.  
+ 
   
 ## See Also  
  [TableType Property](TableType-Property.md)   
