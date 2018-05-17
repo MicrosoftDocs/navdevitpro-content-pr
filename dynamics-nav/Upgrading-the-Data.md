@@ -222,10 +222,11 @@ For more information, see [How to: Connect a Microsoft Dynamics NAV Server Insta
     -   Table 829 DO Payment Trans. Log Entry
     -   Table 1510 Notification Template
 
+    
     When you delete a table object, in the **Delete** confirmation dialog box that appears, set the **Synchronize Schema** option to **Force**.
     
-      > [!IMPORTANT] 
-      > In this step, it is very important that you do not use the **Sync. Schema For All Tables** option from the **Tools** menu.
+    > [!IMPORTANT] 
+    > In this step, it is very important that you do not use the **Sync. Schema For All Tables** option from the **Tools** menu.
       
 4.  ([!INCLUDE[navcorfu](includes/navcorfu_md.md)] and earlier only) If the old database includes test runner codeunits, you will get errors on these codeunits that the OnBeforeTestRun and OnAfterTestRun trigger signatures are not valid. To fix these issues, you change the signature of the OnBeforeTestRun and OnAfterTestRun triggers to include the *TestPermission* parameter.
 
@@ -246,7 +247,7 @@ Get-NAVAppInfo -ServerInstance <ServerInstanceName> | Repair-NAVApp
 efejfefjejf   
 -->
 
-##  <a name="RunSync1"></a> Task 12: Run the schema synchronization on the imported objects  
+##  <a name="RunSync1"></a> Task 12: Run the schema synchronization on the imported objects
 Synchronize the database schema with validation. You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
 
 For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).
@@ -314,12 +315,10 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
     <!-- CU6 remove the part about application symbol download>
 
-<!--  
     > [!NOTE]  
     > If you are upgrading to [!INCLUDE[nav2018_md](includes/nav2018_md.md)] RTM, the symbols are not included on the DVD, and you must download them here: [system symbols](https://go.microsoft.com/fwlink/?linkid=864045), [test symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Test_11.0.19680.0.app), and [application symbols](http://download.microsoft.com/download/C/7/9/C79AF269-A67E-4EEF-B9F2-52FAFA43E026/Microsoft_Application_11.0.19738.0.app).  
     If you are upgrading to [!INCLUDE[nav2018_md](includes/nav2018_md.md)] CU1, or higher, please use the symbols that you find in the *ModernDev* folder on the cumulative update DVD. 
-
--->
+    -->
   
 2. Publish the platform, test, and application symbols one file at a time to the Dynamics NAV server instance:
 
