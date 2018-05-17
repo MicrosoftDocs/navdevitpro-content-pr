@@ -9,11 +9,26 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ---
 # External Tables
-This article describes how to integrate tables in a database that You can create tables in [!INCLUDE[navnow](includes/navnow_md.md)] that represent tables in external products, such as [!INCLUDE[crm](includes/crm_md.md)] and SQL Server. This is a more dynamic table relationship than creating table definitions from SQL Server objects using linked objects, because the connection to the external table can be changed at runtime. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)] you can define two types of external tables: [!INCLUDE[crm](includes/crm_md.md)] tables and **SQL Server** tables. You create an external table by specifying the type of in the TableType property.  
-  
+This article describes how to integrate and synchronize data from an external SQL Server or Azure SQL Database table with the [!INCLUDE[navnow](includes/navnow_md.md)] database. In short, you do this by creating a companion table in [!INCLUDE[navnow](includes/navnow_md.md)] that represents the external table, and then establishing a connection between the two tables at runtime. Creating or modifying records in the [!INCLUDE[navnow](includes/navnow_md.md)] table will be reflected in the external table, and vice versa. Because the connection is controlled at runtime, this provides a more dynamic table relationship than creating table definitions from SQL Server objects using linked objects.
+
+> [!NOTE]
+> The concepts discussed in the article provide the basis for the integration of [!INCLUDE[navnow](includes/navnow_md.md)] with external products like [!INCLUDE[crm](includes/crm_md.md)], Microsoft Graph, and Exchange.
+
+<!--
+You can create tables in [!INCLUDE[navnow](includes/navnow_md.md)] that represent tables in external products, such as [!INCLUDE[crm](includes/crm_md.md)] and SQL Server. This is a more dynamic table relationship than creating table definitions from SQL Server objects using linked objects, because the connection to the external table can be changed at runtime. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)] you can define two types of external tables: [!INCLUDE[crm](includes/crm_md.md)] tables and **SQL Server** tables. You create an external table by specifying the type of in the TableType property.  
+
+
 > [!IMPORTANT]  
 >  We advise against creating tables of type CRM manually. Instead, use the integration mapping functionality. For more information, see [Integration Concepts and Terminology](Dynamics-CRM-Integration-Concepts-and-Terminology.md).  
-  
+
+-->
+
+## Creating [!INCLUDE[navnow](includes/navnow_md.md)] companion tables
+
+Construct the [!INCLUDE[navnow](includes/navnow_md.md)] table to include is and external table must have the same structure 
+Set the data for the fields to match the dat type of the external table fields.
+
+
 ## Creating and Using External Tables  
 [!INCLUDE[navnow](includes/navnow_md.md)] commits on all connections at the same time, such as at the same time for the tenant database connection and the application database connection in multitenant deployments. When an external connection is registered, it is joined into this so that any errors will rollback on all connections in use.  
   
