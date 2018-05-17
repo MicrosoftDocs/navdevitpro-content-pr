@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -58,7 +58,7 @@ Here is a JSON representation of the resource.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get tax area](../api/dynamics_taxarea_get.md)  
-[Create tax area](../api/dynamics_create_taxarea.md)  
-[Update tax area](../api/dynamics_taxarea_update.md)  
-[Delete tax area](../api/dynamics_taxarea_delete.md)  
+[Get Tax Area](../api/dynamics_taxarea_get.md)  
+[Create Tax Area](../api/dynamics_create_taxarea.md)  
+[Update Tax Area](../api/dynamics_taxarea_update.md)  
+[Delete Tax Area](../api/dynamics_taxarea_delete.md)  

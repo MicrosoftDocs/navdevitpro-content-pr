@@ -10,7 +10,7 @@ ms.topic: article
 ms.service: dynamics365-financials
 ms.assetid: 216cdb5a-36a1-48dd-90d0-f9f360feccee
 caps.latest.revision: 21
-manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -65,7 +65,7 @@ Use the following guidelines when you use **SetCurrentKey**:
   
     -   If the field that you specify is the first component of several keys, then the key that is selected is the first one that matches, which may not be the key that you expect.  
   
--   If no keys can be found that include the field\(s\) that you specify and sorting on a given field\(s\) cannot be set, then an runtime error occurs unless you test the Boolean value of **SetCurrentKey** in your code.  
+-   If no keys can be found that include the field\(s\) that you specify and sorting on a given field\(s\) cannot be set, then a runtime error occurs unless you test the Boolean value of **SetCurrentKey** in your code.  
   
 -   If you do test the return value, then you must decide what to do if the method returns **false**, because without a runtime error, the application continues to run even though no key was found and may fail later.  
   

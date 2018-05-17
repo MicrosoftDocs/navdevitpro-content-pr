@@ -12,10 +12,8 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: solsen
 caps.latest.revision: 18
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-symbols
 ---
-
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
-
 # Symbol Files
 The following table lists object symbols contained in the platform symbol package file. If the symbols are not present, you will be prompted to download them. Symbols are a prerequisite for writing extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 

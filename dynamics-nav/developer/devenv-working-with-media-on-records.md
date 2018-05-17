@@ -7,7 +7,9 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-working-with-media-on-records
 ---
+
 # Working With Media on Records
 This topic describes how you can upload media, such as an image, to the database for displaying with records in the client. There are two ways that you can do this:  
 

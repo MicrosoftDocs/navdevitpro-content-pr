@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: c85c2d81-1214-4cf3-ad50-bdc8cd44e455
 caps.latest.revision: 6
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # FieldRef Data Type
 This complex data type identifies a field in a table and gives you access to this field. The FieldRef object can refer to any field in any table in the database.  

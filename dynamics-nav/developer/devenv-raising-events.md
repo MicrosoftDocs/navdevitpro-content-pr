@@ -8,7 +8,9 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: "dynamics365-financials"
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-raising-events
 ---
+
 # Raising Events
 After an event has been published by an event publisher method, you can modify the application to raise the event where it is needed. Subscribers of an event will not react on the event until it is raised in the application.  
 

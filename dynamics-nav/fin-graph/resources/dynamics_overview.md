@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 for Finance and Operations, Business edition Overview | Microsoft Docs
+title: Dynamics 365 Business Central Overview | Microsoft Docs
 description: Overview of the capabilities of Dynamics 365 for Finance and Operations Microsoft Graph API.
 services: project-madeira
 documentationcenter: ''
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -30,5 +30,5 @@ The [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] API allows yo
 
 
 ## See Also
-[Microsoft Graph quick start](https://developer.microsoft.com/en-us/graph/quick-start)  
+[Microsoft Graph Quick Start](https://developer.microsoft.com/en-us/graph/quick-start)  
 [Microsoft Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)

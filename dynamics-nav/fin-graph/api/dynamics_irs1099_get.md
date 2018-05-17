@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -20,7 +20,7 @@ Retrieve the properties and relationships of an IRS 1099 codes object for [!INCL
 ## HTTP request
 
 ```
-GET /financials/companies({id})/irs1099Codes({id})
+GET /businesscentral/companies({id})/irs1099Codes({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and an **irs1099
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/irs1099Codes({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/irs1099Codes({id})
 ```
 
 **Response**

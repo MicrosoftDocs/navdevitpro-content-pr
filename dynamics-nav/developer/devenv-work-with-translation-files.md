@@ -11,9 +11,8 @@ ms.assetid: 6e0ff568-9cad-4b0f-bd97-b8ac5690a470
 caps.latest.revision: 26
 ms.author: solsen
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-work-with-translation-files
 ---
-
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 > [!NOTE]  
 > [!INCLUDE[d365fin_navnow_supported_md](includes/d365fin_navnow_supported_md.md)]

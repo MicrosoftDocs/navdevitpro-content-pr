@@ -10,9 +10,8 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.author: jswymer
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-upgrade-v1-to-v2-overview
 ---
-
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 > [!NOTE]  
 > [!INCLUDE[d365fin_navnow_supported_md](includes/d365fin_navnow_supported_md.md)]

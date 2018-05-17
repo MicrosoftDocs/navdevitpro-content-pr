@@ -10,9 +10,10 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: 973de351-209a-44b7-b8f6-7218a1fa69e6
 caps.latest.revision: 20
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-table-keys
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+ 
 
 # Table Keys
 The database management system, which is SQL Server, keeps track of each field by using the field number and the record's primary key. The primary key is composed of up to 16 fields in a record. The combination of values in fields in the primary key makes it possible to uniquely identify each record.  

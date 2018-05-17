@@ -151,7 +151,11 @@
 ### [Development Environment Commands](Development-Environment-Commands.md)
 <!-- AL -->
 # [Development in AL](developer/devenv-dev-overview.md)
-## [Getting Started with AL](developer/devenv-get-started.md)
+## [Differences in the Development Environments](developer/devenv-differences.md)
+## [Running C/SIDE and AL Side-By-Side](developer/devenv-running-cside-and-al-side-by-side.md)
+## [Creating runtime packages for Dynamics NAV](developer/devenv-creating-runtime-packages.md)
+## [Installing AL with Microsoft Dynamics NAV](developer/devenv-install-onprem.md)
+<!-- all topics redirect to the new repo per topic
 ## [Building Your First Sample Extension With Extension Objects, Install Code, and Upgrade Code](developer/devenv-extension-example.md)
 ## [Using Designer](developer/devenv-inclient-designer.md)
 ## [Keyboard Shortcuts](developer/devenv-keyboard-shortcuts.md)
@@ -298,7 +302,7 @@
 ### [Restrictions on UI for Objects Exposed as Web Services](compliance/apptest-webservices.md)
 ### [Replacing OnBeforeCompanyOpen and OnAfterCompanyOpen](compliance/apptest-onbeforecompanyopen.md)
 ### [Building an Advanced Sample Extension](developer/devenv-extension-advanced-example.md)
-### [Testing the Advanced Sample Extension](developer/devenv-extension-advanced-example-test.md)
+### [Testing the Advanced Sample Extension](developer/devenv-extension-advanced-example-test.md) -->
 <!-- end AL -->
 # [Administration](Administration.md)
 ## [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)
@@ -327,6 +331,7 @@
 # [Security and Protection](Security-and-Protection.md)
 ## [Security Overview](Security-Overview.md)
 ## [Enhancing Microsoft Dynamics NAV Server Security](Enhancing-Microsoft-Dynamics-NAV-Server-Security.md)
+## [Transparent Data Encryption (TDE)](transparent-data-encryption.md)
 ## [Data Security](Data-Security.md)
 ## [Configuring User Authentication](Configuring-Authentication.md)
 ## [Business Areas and Functional Areas](Business-Areas-and-Functional-Areas.md)
@@ -338,6 +343,7 @@
 ### [Deprecated Features in the Australian Version](deprecated-features-au.md)
 ### [Deprecated Features in the Dutch Version](deprecated-features-nl.md)
 ### [Deprecated Features in the Finnish Version](deprecated-features-fi.md)
+### [Deprecated Features in the French Version](deprecated-features-fr.md)
 ### [Deprecated Features in the German Version](deprecated-features-de.md)
 ### [Deprecated Features in the Italian Version](deprecated-features-it.md)
 ### [Deprecated Features in the New Zealand Version](deprecated-features-nz.md)

@@ -12,6 +12,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: rweigel
 caps.latest.revision: 18
+redirect_url: /dynamics365/business-central/dev-itpro/compliance/apptest-overview
 ---
 
 # Rules and Guidelines for AL Code

@@ -12,9 +12,11 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: solsen
 caps.latest.revision: 18
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-restapi-overview
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+> [!TIP]  
+> Looking for the latest AL developer documentation? Visit our new [[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] developer docs](/dynamics365/business-central/dev-itpro/).
 
 # HTTP, JSON, TextBuilder, and XML API Overview
 With the API for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] you have HTTP, JSON, TextBuilder, and XML classes available for accessing services. The following table shows the classes that are available. 

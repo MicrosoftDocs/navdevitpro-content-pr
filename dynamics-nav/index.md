@@ -24,9 +24,13 @@ ms.prod: "dynamics-nav-2018"
 |Find reference information, including C/AL functions, triggers, properties, [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] commands, and [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] windows|[Technical Reference](Technical-Reference.md)|  
 |Learn how to develop with the new development environment|[Getting Started](developer/devenv-get-started.md) |
 
-
 > [!NOTE]  
 > Don't know why you ended up here? Were you trying to find the [!INCLUDE[navnow](includes/navnow_md.md)] developer center on MSDN, perhaps? Or were you trying to find another location that has been deprecated? We apologize for the confusion, but across Microsoft we are deprecating some sites and moving content around. That means that the developer center is no longer available, and neither is the icon library that we published there. Due to redirection, you don't always end up where you expect, but this page will be the landing page for developer and IT-pro content for [!INCLUDE[navnow](includes/navnow_md.md)] going forward.  
+
+## Feedback
+At the bottom of each article, you can submit feedback either for the product or for the documentation. At this point in time, both links point at [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] for technical reasons. But if you submit feedback about the [!INCLUDE[navnow](includes/navnow_md.md)] docs in the [!INCLUDE[d365fin](includes/d365fin_md.md)] GitHub repo, we will triage it and apply relevant changes here in the docs for [!INCLUDE[navnow](includes/navnow_md.md)].  
+
+Previously submitted feedback has not been deleted but is no longer visible online. Please read the [Docs.microsoft.com blog](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs) for more information. 
 
 ## See Also
 [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md)  

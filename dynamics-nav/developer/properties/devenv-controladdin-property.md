@@ -9,7 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.assetid: a1dd0ce5-8ddc-4732-b76c-c67d62578039
 caps.latest.revision: 14
+redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
 ---
+
 # ControlAddin Property
 Sets the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] control add-in to use on the field control.  
   

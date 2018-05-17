@@ -83,11 +83,13 @@ To convert the old database to a [!INCLUDE[nav2017](includes/nav2017.md)] databa
     ```
     Set-NAVServerInstance –ServerInstance <ServerInstanceName> -Stop
     ```
-9.  Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records from the **dbo.Server Instance** table in the database on SQL Server.  
+9.  Clear all records from the **dbo.Server Instance** and  **dbo.Debugger Breakpoint** tables in the old database in SQL Server.  
 
-    You can do this by using SQL Server Management Studio to clear the table. For example, you can run the following SQL query:
+    Using SQL Server Management Studio, open and clear the **dbo.Server Instance** and  **dbo.Debugger Breakpoint** tables of the old database. For example, you can run the following SQL query:
+
     ```
-    DELETE FROM [My NAV Database Name].[dbo].[Server Instance]
+    DELETE FROM [<My NAV Database Name>].[dbo].[Server Instance]
+    DELETE from [<My NAV Database Name>].[dbo].[Debugger Breakpoint]
     ```
 
 10.  (Optional) Before you start the following procedure, you can uninstall the old version of [!INCLUDE[navnow_md](includes/navnow_md.md)]. When you uninstall [!INCLUDE[navnow_md](includes/navnow_md.md)], the database is still attached to the instance of SQL Server, which you can verify using SQL Server Management Studio.
@@ -114,7 +116,7 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
 4.  When you are notified that the conversion was successful, choose the **OK** button.  
 
-5.  Connect a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Server instance to the converted database.  
+5.  Connect a [!INCLUDE[nav2017](includes/nav2017.md)] Server instance to the converted database.  
 
      You use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] to connect a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to the converted database.  
 
@@ -130,7 +132,7 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
     For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
 
-8.  If the database references any assemblies \(such as client control add-ins\) that are not included on the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media \(DVD\), then add the assemblies to the Add-ins folder on [!INCLUDE[nav_server](includes/nav_server_md.md)] or [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computers.  
+8.  If the database references any assemblies \(such as client control add-ins\) that are not included on the [!INCLUDE[nav2017](includes/nav2017.md)] installation media \(DVD\), then add the assemblies to the Add-ins folder on [!INCLUDE[nav_server](includes/nav_server_md.md)] or [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computers.  
 
      For the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the default path is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins folder.  
 
@@ -161,7 +163,7 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
 
 ## See Also  
- [Upgrading the Application Code](Upgrading-the-Application-Code.md)   
- [Upgrading the Data](Upgrading-the-Data.md)   
+ [Upgrading the Application Code](Upgrading-the-Application-Code-2017.md)   
+ [Upgrading the Data](Upgrading-the-Data-2017.md)   
  [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)   
  [Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md)

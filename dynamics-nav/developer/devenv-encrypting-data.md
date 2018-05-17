@@ -10,11 +10,12 @@ ms.service: "dynamics365-financials"
 ms.assetid: 7e0817eb-59cd-411c-ab81-bf3d8e17844d
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+ 
 
-# Encrypting Data in Dynamics 365 for Finance and Operations, Business edition
+# Encrypting Data in Dynamics 365 Business Central
 This article gives an overview of data encription and how to use it to add security [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
 ## Cryptography overview

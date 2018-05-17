@@ -1,6 +1,6 @@
 ---
 title: items resource type | Microsoft Docs
-description: An item object in Dynamics 365 for Finance and Operations, Business edition.
+description: An item object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -86,7 +86,7 @@ Here is a JSON representation of the resource.
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Item](../resources/dynamics_item.md)  
-[Get item](../api/dynamics_item_get.md)  
-[Post item](../api/dynamics_create_item.md)  
-[Patch item](../api/dynamics_item_update.md)  
-[Delete item](../api/dynamics_item_delete.md)  
+[Get Item](../api/dynamics_item_get.md)  
+[Post Item](../api/dynamics_create_item.md)  
+[Patch Item](../api/dynamics_item_update.md)  
+[Delete Item](../api/dynamics_item_delete.md)  

@@ -11,6 +11,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: a9518144-46ef-4cd9-b260-1d232895f2d2
 caps.latest.revision: 12
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]

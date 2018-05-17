@@ -10,9 +10,10 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: 22979d5b-3f42-49e1-ad82-5a5b47fda4b1
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-entering-criteria-in-filters
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+ 
 
 # Entering Criteria in Filters
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use some special symbols or mathematical expressions. Here are the available formats:  

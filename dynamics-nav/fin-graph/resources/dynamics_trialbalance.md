@@ -1,6 +1,6 @@
 ---
 title: trialBalance resource type | Microsoft Docs
-description: A trial balance object in Dynamics 365 for Finance and Operations, Business edition. 
+description: A trial balance object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -64,4 +64,4 @@ Here is a JSON representation of the resource.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get trial balance](../api/dynamics_trialbalance_get.md)  
+[Get Trial Balance](../api/dynamics_trialbalance_get.md)  

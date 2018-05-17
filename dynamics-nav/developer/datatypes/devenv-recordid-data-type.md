@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: 22b55f8c-90a1-47f7-a716-ff833ae33ccb
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # RecordID Data Type
 This data type contains the table number and the primary key of a table.

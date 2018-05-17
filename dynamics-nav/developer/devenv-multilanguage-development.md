@@ -11,9 +11,10 @@ ms.assetid: 6e0ff568-9cad-4b0f-bd97-b8ac5690a470
 caps.latest.revision: 26
 ms.author: solsen
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-multilanguage-development
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+ 
 
 # Multilanguage Development
 [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] are multilanguage enabled, which means that you can display the user interface (UI) in different languages.  

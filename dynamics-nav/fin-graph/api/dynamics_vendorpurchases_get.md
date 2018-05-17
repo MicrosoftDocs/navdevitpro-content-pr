@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -19,7 +19,7 @@ Retrieve the properties and relationships of a vendor purchases report object fo
 
 ## HTTP request
 ```
-GET /financials/companies({id})/vendorPurchases
+GET /businesscentral/companies({id})/vendorPurchases
 ```
 
 ## Request headers
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and a **vendorPu
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/vendorPurchases
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/vendorPurchases
 ```
 
 **Response**
@@ -66,4 +66,4 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Vendor purchases](../resources/dynamics_vendorpurchases.md)  
+[Vendor Purchases](../resources/dynamics_vendorpurchases.md)  

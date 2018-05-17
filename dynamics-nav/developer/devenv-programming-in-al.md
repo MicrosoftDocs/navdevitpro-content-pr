@@ -10,9 +10,8 @@ ms.service: "dynamics365-financials"
 ms.assetid: 5ee737ae-3914-47e7-b61d-486309b7fa8f
 caps.latest.revision: 19
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-programming-in-al
 ---
-
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # Programming in AL
 AL is the programming language that is used for manipulating data (such as retrieving, inserting and modifying records) in a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] database, and controlling the execution of the various application objects, such as pages, reports, or codeunits.

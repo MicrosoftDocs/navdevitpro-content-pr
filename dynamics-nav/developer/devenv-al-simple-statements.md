@@ -10,9 +10,10 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: 471299b6-82cd-41cc-b529-8b60ece530a5
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-al-simple-statements
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+ 
 
 # AL Simple Statements
 AL simple statements are single-line statements that are executed sequentially and do not alter the flow of execution of code. This article explains some of the simple statements in AL.   

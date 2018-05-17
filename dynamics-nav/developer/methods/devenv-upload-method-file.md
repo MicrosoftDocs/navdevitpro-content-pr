@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics365-financials
 ms.assetid: 0da8d4ad-82cd-4906-9faa-e49e360262b9
 author: SusanneWindfeldPedersen
-manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -69,7 +69,7 @@ A user can try to upload any file type but an error occurs if the file is not th
 
 <!--NAV If you do not provide a path, or you upload the file that uses [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)], then the file is uploaded to the following folder on the computing that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)]:  
 
- \\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\90\\Server\\MicrosoftDynamicsNAVServer$[!INCLUDE[nav_server_instance](../includes/nav_server_instance_md.md)]\\users\\*ServiceAccount*  -->
+ \\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\110\\Server\\MicrosoftDynamicsNAVServer$[!INCLUDE[nav_server_instance](../includes/nav_server_instance_md.md)]\\users\\*ServiceAccount*  -->
 
  *ServiceAccount* is the folder for the account for [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)].  
 

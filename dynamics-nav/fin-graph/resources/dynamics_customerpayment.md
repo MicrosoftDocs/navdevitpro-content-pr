@@ -1,6 +1,6 @@
 ---
 title: customerPayments resource type | Microsoft Docs
-description: A customer payments object in Dynamics 365 for Finance and Operations, Business edition.
+description: A customer payments object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -86,7 +86,7 @@ Here is a JSON representation of the resource.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get customer payments](../api/dynamics_customerpayment_get.md)  
-[Post customer payments](../api/dynamics_create_customerpayment.md)  
-[Patch customer payments](../api/dynamics_customerpayment_update.md)  
-[Delete customer payments](../api/dynamics_customerpayment_delete.md)  
+[Get Customer Payments](../api/dynamics_customerpayment_get.md)  
+[Post Customer Payments](../api/dynamics_create_customerpayment.md)  
+[Patch Customer Payments](../api/dynamics_customerpayment_update.md)  
+[Delete Customer Payments](../api/dynamics_customerpayment_delete.md)  

@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -20,7 +20,7 @@ Update the properties of a sales quotes object for [!INCLUDE[d365fin_long_md](..
 ## HTTP request
 
 ```
-PATCH /financials/companies({id})/salesQuotes({id})
+PATCH /businesscentral/companies({id})/salesQuotes({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})
 Content-type: application/json
 
 {
@@ -103,7 +103,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Sales quote](../resources/dynamics_salesquote.md)  
-[Get sales quote](../api/dynamics_salesquote_get.md)  
-[Create sales quote](../api/dynamics_create_salesquote.md)  
-[Delete sales quote](../api/dynamics_salesquote_delete.md)  
+[Sales Quote](../resources/dynamics_salesquote.md)  
+[Get Sales Quote](../api/dynamics_salesquote_get.md)  
+[Create Sales Quote](../api/dynamics_create_salesquote.md)  
+[Delete Sales Quote](../api/dynamics_salesquote_delete.md)  

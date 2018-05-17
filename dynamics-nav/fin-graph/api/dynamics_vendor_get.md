@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
@@ -21,7 +21,7 @@ Retrieve the properties and relationships of a vendor object for [!INCLUDE[d365f
 ## HTTP request
 
 ```
-GET /financials/companies({id})/vendors({id})
+GET /businesscentral/companies({id})/vendors({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and a **vendors*
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/vendors({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/vendors({id})
 ```
 
 **Response**
@@ -95,6 +95,6 @@ Here is an example of the response.
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Vendor](../resources/dynamics_vendor.md)  
-[Create vendor](../api/dynamics_create_vendor.md)  
-[Update vendor](../api/dynamics_vendor_update.md)  
-[Delete vendor](../api/dynamics_vendor_delete.md)  
+[Create Vendor](../api/dynamics_create_vendor.md)  
+[Update Vendor](../api/dynamics_vendor_update.md)  
+[Delete Vendor](../api/dynamics_vendor_delete.md)  

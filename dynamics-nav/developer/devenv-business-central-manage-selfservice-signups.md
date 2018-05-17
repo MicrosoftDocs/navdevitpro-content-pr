@@ -8,6 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
 author: jswymer
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-business-central-manage-selfservice-signups
 ---
 
 # Enable and Disable Dynamics 365 Business Central Self-service Signups
@@ -41,7 +42,7 @@ PowerShell commands can be used with Azure Active Directory to disable adhoc (se
 
     **Sorry...**
 
-    **We can's finish signing you up.**
+    **We can't finish signing you up.**
     
     **Your IT department has turned off signup for [!INCLUDE[d365_bus_central_md](includes/d365_bus_central_md.md)]. Contact them to complete signup.** 
 

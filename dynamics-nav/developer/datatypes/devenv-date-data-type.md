@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: b179c72d-48ea-4015-bb76-c60a3b459c70
 caps.latest.revision: 21
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # Date Data Type
 Denotes a date ranging from January 1, 1753 to December 31, 9999.  

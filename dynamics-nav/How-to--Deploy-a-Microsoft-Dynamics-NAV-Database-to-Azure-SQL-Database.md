@@ -101,4 +101,5 @@ This topic describes how you can deploy a [!INCLUDE[navnow](includes/navnow_md.m
 
 ## See Also  
  [Configuring Database Components](Configuring-Database-Components.md)   
- [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)
+ [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)  
+ [Transparent Data Encryption (TDE)](transparent-data-encryption.md)  
