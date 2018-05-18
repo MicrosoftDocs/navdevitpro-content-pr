@@ -25,11 +25,27 @@ You can create tables in [!INCLUDE[navnow](includes/navnow_md.md)] that represen
 
 ## Creating [!INCLUDE[navnow](includes/navnow_md.md)] companion tables
 
-Construct the [!INCLUDE[navnow](includes/navnow_md.md)] table to include is and external table must have the same structure 
-Set the data for the fields to match the dat type of the external table fields.
+You create a companion table in [!INCLUDE[navnow](includes/navnow_md.md)] like any other table. You add a field in the companion table for each column in the external table that you want accessible from [!INCLUDE[navnow](includes/navnow_md.md)], making sure the data types are compatible.
+
+On the table level, you must set the following properties:
+
+|Property|Value|
+|--------|-----|-------|
+|[TableType](tabletype-property)|**ExternalSQL**||
+|[ExternalName](externalname-property.md)|The name of the table in the external database.|
+|[ExternalSchema](externalschema-property.md)|The database schema of the external database.|
+
+For fields, you set the following properties:
+
+|Property|Value|Example|
+|--------|-----|-------|
+|[Name](name-property.md)|The name to assign the field. You can use the same name as the column in the external table or use a diffent name. If you use a different name, then you must set the ExternalName property of the field.|
+|[DataType](data-type-property.md)|The data type that matches the column in the SQL Server or Azure SQL Database table. |
+|[Length](datalength-property.md) |The length the matches the column in the SQL Server or Azure SQL Database table|
+|[ExternalName](externalname-property.md)|The name of the table in the external database. This property is required only if the field name in the [!INCLUDE[navnow](includes/navnow_md.md)] table differs from the column name in in the SQL Server or Azure SQL Database table.||
 
 
-## Creating and Using External Tables  
+## Connecting to External Tables  
 [!INCLUDE[navnow](includes/navnow_md.md)] commits on all connections at the same time, such as at the same time for the tenant database connection and the application database connection in multitenant deployments. When an external connection is registered, it is joined into this so that any errors will rollback on all connections in use.  
   
 To use an external table in your code, you must first register one or more connections to the external database as shown in the following code example.  
@@ -68,7 +84,8 @@ REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'ExternalDb1');
   
 In this scenario, you can write a function that generates a connection string based on the current configuration.  
 
-## Create the external table
+## Example
+This example integrates a simple table in an SQL Server database with [!INCLUDE[navnow](includes/navnow_md.md)].   
 1. In SQL Server or Azure SQL Database, identify or create a table that includes the columns that you want.
 2. In [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], create a table object, and set the following properties:
 
