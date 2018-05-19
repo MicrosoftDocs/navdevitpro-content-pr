@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ---
 # External Tables
-This article describes how to integrate and synchronize data from an external SQL Server or Azure SQL Database table with the [!INCLUDE[navnow](includes/navnow_md.md)] database. In short, you do this by creating a companion table in [!INCLUDE[navnow](includes/navnow_md.md)] that represents the external table, and then establishing a connection between the two tables at runtime. Creating or modifying records in the [!INCLUDE[navnow](includes/navnow_md.md)] table will be reflected in the external table, and vice versa. Because the connection is controlled at runtime, this provides a more dynamic table relationship than creating table definitions from SQL Server objects using linked objects.
+This article describes how to integrate and synchronize data in an external SQL Server or Azure SQL Database table with the [!INCLUDE[navnow](includes/navnow_md.md)] database. You do this by creating a companion table in [!INCLUDE[navnow](includes/navnow_md.md)] that represents the external table, and then establishing a connection between the two tables at runtime. Creating or modifying records in the [!INCLUDE[navnow](includes/navnow_md.md)] table will be reflected in the external table, and vice versa. Because the connection is controlled at runtime, this provides a more dynamic table relationship than creating table definitions from SQL Server objects using linked objects.
 
 > [!NOTE]
 > The concepts discussed in the article provide the basis for the integration of [!INCLUDE[navnow](includes/navnow_md.md)] with external products like [!INCLUDE[crm](includes/crm_md.md)], Microsoft Graph, and Exchange.
@@ -23,11 +23,11 @@ You can create tables in [!INCLUDE[navnow](includes/navnow_md.md)] that represen
 
 -->
 
-## Creating [!INCLUDE[navnow](includes/navnow_md.md)] companion tables
+## Creating a [!INCLUDE[navnow](includes/navnow_md.md)] companion table
 
-You create a companion table in [!INCLUDE[navnow](includes/navnow_md.md)] like any other table. You add a field in the companion table for each column in the external table that you want accessible from [!INCLUDE[navnow](includes/navnow_md.md)], making sure the data types are compatible.
+You create a companion table in [!INCLUDE[navnow](includes/navnow_md.md)] like any other table, except there are several properties that you set to couple the table with the external table. Structurally, the companion table reflect that of the external table. For each column in the external table that you want accessible from [!INCLUDE[navnow](includes/navnow_md.md)], you add a field with a compatible data type in the companion table.
 
-On the table level, you must set the following properties:
+On the table-level, you must set the following properties:
 
 |Property|Value|
 |--------|-----|-------|
@@ -35,7 +35,7 @@ On the table level, you must set the following properties:
 |[ExternalName](externalname-property.md)|The name of the table in the external database.|
 |[ExternalSchema](externalschema-property.md)|The database schema of the external database.|
 
-For fields, you set the following properties:
+On fields, you set the following properties:
 
 |Property|Value|Example|
 |--------|-----|-------|
@@ -46,6 +46,14 @@ For fields, you set the following properties:
 
 
 ## Connecting to External Tables  
+Connecting a [!INCLUDE[navnow](includes/navnow_md.md)] table to an external is established from the application code by the two functions: REGISTERTABLECONNECTION and SETDEFAULTTABLECONNECTION. 
+
+The REGISTERTABLECONNECTION function registers the connection to the external database with the server instance.  o use an external table in your code, you must first register one or more connections to the external database as shown in the following code example.  
+  
+```  
+REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'ExternalDb1', 'Data Source=ProdServer1;Initial Catalog=ProdDb1;User ID=sqladmin;Password=p@ssword');  
+```  
+
 [!INCLUDE[navnow](includes/navnow_md.md)] commits on all connections at the same time, such as at the same time for the tenant database connection and the application database connection in multitenant deployments. When an external connection is registered, it is joined into this so that any errors will rollback on all connections in use.  
   
 To use an external table in your code, you must first register one or more connections to the external database as shown in the following code example.  
