@@ -32,19 +32,19 @@ You create a companion table in [!INCLUDE[navnow](includes/navnow_md.md)] like a
 On the table-level, you must set the following properties:
 
 |Property|Value|
-|--------|-----|-------|
-|[TableType](tabletype-property)|**ExternalSQL**||
+|--------|-----|
+|[TableType](tabletype-property.md)|**ExternalSQL**|
 |[ExternalName](externalname-property.md)|The name of the table in the external database.|
 |[ExternalSchema](externalschema-property.md)|The database schema of the external database.|
 
 On the field-level, you set the following properties:
 
-|Property|Value|Example|
-|--------|-----|-------|
+|Property|Value|
+|--------|-----|
 |[Name](name-property.md)|The name to assign the field. You can use the same name as the column in the external table or use a diffent name. If you use a different name, you must set the ExternalName property of the field.|
 |[DataType](data-type-property.md)|The data type that matches the column in the SQL Server or Azure SQL Database table. |
 |[Length](datalength-property.md) |The length the matches the column in the SQL Server or Azure SQL Database table|
-|[ExternalName](externalname-property.md)|The name of the table in the external database. This property is required only if the field name in the [!INCLUDE[navnow](includes/navnow_md.md)] table differs from the column name in in the SQL Server or Azure SQL Database table.||
+|[ExternalName](externalname-property.md)|The name of the table in the external database. This property is required only if the field name in the [!INCLUDE[navnow](includes/navnow_md.md)] table differs from the column name in in the SQL Server or Azure SQL Database table.|
 
 ## Connecting to an external table  
 Connecting a [!INCLUDE[navnow](includes/navnow_md.md)] table to an external table is controlled from the application code by three C/AL functions: REGISTERTABLECONNECTION,  SETDEFAULTTABLECONNECTION, and UNREGISTERTABLECONNECTION.
@@ -157,7 +157,7 @@ The table has the name **MyExternalTable** and includes the following columns:
 
     |Property|Value|
     |--------|-----|
-    |[TableType](tabletype-property)|**ExternalSQL**||
+    |[TableType](tabletype-property.md)|**ExternalSQL**||
     |[ExternalName](externalname-property.md)|MyExternalTable||
     |[ExternalSchema](externalschema-property.md)|dbo|
  
