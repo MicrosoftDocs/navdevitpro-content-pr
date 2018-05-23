@@ -9,12 +9,24 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ---
 # External Tables
-An *external table* is a table that is contained in database other than [!INCLUDE[navnow](includes/navnow_md.md)] database. This article describes how to integrate an external table from SQL Server or Azure SQL Database into [!INCLUDE[navnow](includes/navnow_md.md)].<!-- This article describes how to integrate a table from an external SQL Server or Azure SQL Database database into [!INCLUDE[navnow](includes/navnow_md.md)].--> To do this, you create a companion table in [!INCLUDE[navnow](includes/navnow_md.md)] that represents the external table. Then, you add application code that establishes connection between the two tables at runtime. At runtime, data from the external table is read into the [!INCLUDE[navnow](includes/navnow_md.md)] table. Records can be modified and  created, and the changes are pushed back to the external table. 
+<!--An *external table* is a table that is contained in a database other than [!INCLUDE[navnow](includes/navnow_md.md)] database. The database can be on the same server [!INCLUDE[navnow](includes/navnow_md.md)] database or a different server. This article describes how to integrate an external table that is hosted in SQL Server or Azure SQL Database into [!INCLUDE[navnow](includes/navnow_md.md)].-->
 
- Creating or modifying records in the [!INCLUDE[navnow](includes/navnow_md.md)] table will be reflected in the external table, and vice versa. Because the connection is controlled at runtime, this provides a more dynamic table relationship than creating table definitions from SQL Server objects using linked objects.
+<!-- This article describes how to integrate a table from an external SQL Server or Azure SQL Database database into [!INCLUDE[navnow](includes/navnow_md.md)].--> 
+
+An *external table* is a database table that resides outside of the [!INCLUDE[navnow](includes/navnow_md.md)] database. The database that contains the external table can be hosted on the same database server as the [!INCLUDE[navnow](includes/navnow_md.md)] database or a different one. This article describes how to integrate an external table that is hosted in SQL Server or Azure SQL Database into a [!INCLUDE[navnow](includes/navnow_md.md)] application. 
 
 > [!NOTE]
-> The concepts discussed in the article provide the basis for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with external products like [!INCLUDE[crm](includes/crm_md.md)], Microsoft Graph, and Exchange. Microsoft Graph and Exchange integration done internally for you. For [!INCLUDE[crm](includes/crm_md.md)], there are other tools and functionality available that make the integration easier than manually implementing the concepts discussed in this article. For more information, see [Integrating Dynamics 365 for Sales in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md). 
+> The concepts discussed in the article provide the basis for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with external products like [!INCLUDE[crm](includes/crm_md.md)], Microsoft Graph, and Exchange. Microsoft Graph and Exchange integration done internally for you. For [!INCLUDE[crm](includes/crm_md.md)], there are other tools and functionality available that make the integration easier than manually implementing the concepts discussed in this article. For more information, see [Integrating Dynamics 365 for Sales in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md).
+
+## Overview
+
+In short, to use an external table, you create a companion table in [!INCLUDE[navnow](includes/navnow_md.md)] that represents the external table. Then, you add application code that establishes connection between the two tables at runtime. At runtime, data from the external table is read into the [!INCLUDE[navnow](includes/navnow_md.md)] table. If you create a page that uses the companion table as its source, client users can view, modify, create, and delete records in the table, and the changes are pushed back to the external table. 
+
+<!-- Creating or modifying records in the [!INCLUDE[navnow](includes/navnow_md.md)] table will be reflected in the external table, and vice versa.-->
+
+Because the connection is controlled at runtime, this provides a more dynamic table relationship than creating table definitions from SQL Server objects using linked objects.
+
+ 
 
 <!--
 You can create tables in [!INCLUDE[navnow](includes/navnow_md.md)] that represent tables in external products, such as [!INCLUDE[crm](includes/crm_md.md)] and SQL Server. This is a more dynamic table relationship than creating table definitions from SQL Server objects using linked objects, because the connection to the external table can be changed at runtime. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)] you can define two types of external tables: [!INCLUDE[crm](includes/crm_md.md)] tables and **SQL Server** tables. You create an external table by specifying the type of in the TableType property.  
@@ -42,7 +54,7 @@ On the field-level, you set the following properties:
 |Property|Value|
 |--------|-----|
 |[Name](name-property.md)|The name to assign the field. You can use the same name as the column in the external table or use a diffent name. If you use a different name, you must set the ExternalName property of the field.|
-|[DataType](data-type-property.md)|The data type that matches the column in the SQL Server or Azure SQL Database table. |
+|[DataType](data-type-property.md)|The data type that matches the column in the SQL Server or Azure SQL Database table. For more information, see [Representation of SQL Data Types](Identifiers--Data-Types--and-Data-Formats.md#SQLDataType) |
 |[Length](datalength-property.md) |The length the matches the column in the SQL Server or Azure SQL Database table|
 |[ExternalName](externalname-property.md)|The name of the table in the external database. This property is required only if the field name in the [!INCLUDE[navnow](includes/navnow_md.md)] table differs from the column name in in the SQL Server or Azure SQL Database table.|
 
