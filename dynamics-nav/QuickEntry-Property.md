@@ -18,7 +18,9 @@ Specifies if the page control should have input focus. The default value of the 
 >  Specifying an expression as the value of the property is not supported.  
   
 ## Applies To  
- Page fields  
+Page fields.
+
+In the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], this property is ignored on fields in a list, like on a **List** type page.    
   
 ## Remarks  
  Apply this property setting to page controls that can be skipped for a faster entry of data. The **QuickEntry** property is respected when you use the Enter key. Tabbing through a page will sequentially give input focus to all page controls.  
