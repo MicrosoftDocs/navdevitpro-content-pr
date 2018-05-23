@@ -74,7 +74,8 @@ ms.prod: "dynamics-nav-2018"
 ||RowSpan|Not supported.||  
 ||AssistEdit|Partially supported.|The **AssistEdit** on a field when the page is in the view mode or if the field has the data type of Option appears as hyperlink instead of a button.|  
 ||DrillDown|Partially supported.|The drill-down on a field when the page is in the view mode or if the field has the data type of Option appears as hyperlink instead of a button.|  
-||Lookup|Partially supported.|The Lookup property is not supported on a Repeater control when the page is in the view mode or if the field has the data type of Option. You can use the OnDrillDown trigger instead.|  
+||Lookup|Partially supported.|The Lookup property is not supported on a Repeater control when the page is in the view mode or if the field has the data type of Option. You can use the OnDrillDown trigger instead.|
+||QuickEntry|Partially supported.|Not supported in lists on a page.|  
 |Part|ChartPartID|Not supported.|If a page contains a Chart part, then the part is ignored and nothing appears for the part in the [!INCLUDE[nav_web](includes/nav_web_md.md)].|  
 ||SystemPartID|Partially supported.|[!INCLUDE[nav_web](includes/nav_web_md.md)] supports Notes and RecordLinks system parts, but not Outlook and MyNotes system parts. RecordLinks only supports access to URLs and resources on file shares; files that are stored locally on the user's computer cannot be accessed. |  
 ||PartType|Partially supported.|The **Chart** option is not supported. If a page contains a Chart part or an unsupported System part, then the part is ignored and nothing appears for the part in the [!INCLUDE[nav_web](includes/nav_web_md.md)].|  
