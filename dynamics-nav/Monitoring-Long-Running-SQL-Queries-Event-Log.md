@@ -17,7 +17,7 @@ ms.prod: "dynamics-nav-2018"
 
 ## Defining Long Running SQL Queries 
 The time logged in long running SQL queries is the time spent on the called database as seen from the server. There are multiple reasons that can cause this delay, such as the database waiting for a lock to be released, or the database executing an operation that perfoms badly due to missing indexes.
-The threshold of when a query is logged is controlled in the configuration value of the *SqlLongRunningThreshold* key. The default value is 1000 ms. For more information about *SqlLongRunningThreshold*, see [Configuring Microsoft Dynamics NAV Server](configuring-microsoft-dynamics-nav-server.md#database-settings). 
+The threshold of when a query is logged is controlled in the configuration value of the *SqlLongRunningThreshold* key. The default value is 1000 ms. For more information about *SqlLongRunningThreshold*, see [Configuring Microsoft Dynamics NAV Server](configuring-microsoft-dynamics-nav-server.md), database settings section. 
 
 ## Changing Configuration Values
 With [!INCLUDE[nav2018_md](includes/nav2018_md.md)], some of the configuration values for the server can be changed in the memory of the server, without doing a server restart. To change the threshold dynamically to 2000 ms, run the Dynamics NAV Administration Shell as Administrator and then type the following PowerShell cmdlet:
