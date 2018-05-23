@@ -21,10 +21,9 @@ The threshold of what long means is changed in the configuration value of the Sq
 
 
 ## Changing Configuration Values
-With [!INCLUDE[nav2018_md](includes/nav2018_md.md)], some of the configuration values for the server can be changed in the memory of the server, without doing a server restart. The following PowerShell cmdlet example shows how you can perform a dynamical reset.
+With [!INCLUDE[nav2018_md](includes/nav2018_md.md)], some of the configuration values for the server can be changed in the memory of the server, without doing a server restart. To reset the configuration values dynamically, run the Dynamics NAV Administration Shell as Administrator and then type the following PowerShell cmdlet:
 
-```PowerShell
-
+```
 Set-NAVServerConfiguration -KeyName SqlLongRunningThreshold -ServerInstance DynamicsNAV110 -KeyValue 2000 -ApplyTo Memory
 ```
 
