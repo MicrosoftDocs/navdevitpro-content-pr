@@ -14,17 +14,21 @@ manager: edupont
 # How to: Rename Companies
 You can rename companies in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)]. You can also rename companies by using the **Rename-NAVCompany** Windows PowerShell cmdlet.  
 
- Before you rename a company, you must make sure that you are the only user who has access to the company.  
+Before you rename a company, you should make sure that you are the only user who has access to the company. This is optional but recommended because it prevents others from making changes to the database while you are renaming it, which could cause problems.  
 
 ### To make sure that you are the only user who has access to the company  
 
-1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **File** menu, choose **Database**, and then choose **Alter**.  
+1.  Stop the [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)].
 
-2.  Choose the **Options** tab, select the **Single user** check box, and then choose the **OK** button.  
+    For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start--Stop--Restart--or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).
 
- You can now rename the company in [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_web](includes/nav_web_md.md)], or by using the **Rename-NAVCompany** Windows PowerShell cmdlet.  
+2.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **File** menu, choose **Database**, and then choose **Alter**.  
 
- You can only rename a company if you have the relevant permission.  
+3.  Choose the **Options** tab, select the **Single user** check box, and then choose the **OK** button.  
+
+You can now rename the company in [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_web](includes/nav_web_md.md)], or by using the **Rename-NAVCompany** Windows PowerShell cmdlet.  
+
+You can only rename a company if you have the relevant permission.  
 
 ### To rename a company in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
 

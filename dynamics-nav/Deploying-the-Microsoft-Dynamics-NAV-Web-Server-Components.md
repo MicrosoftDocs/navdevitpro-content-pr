@@ -31,6 +31,9 @@ Each [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.m
 
 For information about the common deployment scenarios, see [Deployment Scenarios for the Microsoft Dynamics NAV Web Server Components](Deployment-Scenarios-for-the-Microsoft-Dynamics-NAV-Web-Server-Components.md).  
 
+> [!IMPORTANT]
+> The [!INCLUDE[navnow](includes/navnow_md.md)] mobile app is not supported in a deployment scenario that uses Azure Active Directory Application Proxy.
+
 ##  Creating a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance  
 
 There are two ways to create a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance. You can use the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup or the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] PowerShell cmdlets.

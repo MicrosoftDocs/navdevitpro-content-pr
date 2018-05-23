@@ -149,9 +149,6 @@ After you have completed the merge, you import the new merged application object
 
     For example, give the database the name *My Upgraded App*. For more information, see [How to: Create Databases](How-to--Create-Databases.md).
 
-    >[!IMPORTANT]  
-    >Make sure to synchronize the schema for all tables of the new database.
-
 2.  Make sure the database includes a valid [!INCLUDE[navnowlong](includes/navnowlong_md.md)] license.
 
     For more information, see [How to: Upload the License File](how-to--upload-the-license-file.md)
@@ -187,13 +184,15 @@ After you have completed the merge, you import the new merged application object
 
     For more information about how to do this using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect-a-Microsoft-Dynamics-NAV-Server-Instance-to-a-Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).  
 
-6.  Compile all the newly imported objects.
+6.  Compile all the newly imported objects. To save time, it is recommended that you choose to run schema synchronization **later** when compiling the objects. 
 
     You can use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe. For more information, see [Compiling Objects](compiling-objects.md).
 
     If you use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], you will first have to set it to use the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to the database. For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md) or [Database Information](uiref/-$-S_2349-Database-Information-$-.md).  
 
     When you compile the objects, an error is thrown for each code conflict, and you can use the tools that are available in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to resolve the conflicts.
+
+7.  If not already done, run schema synchronization. For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).
 
 You now have a new database with a fully upgraded application.
 
