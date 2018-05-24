@@ -79,7 +79,7 @@ The following are REGISTERTABLECONNECTION function calls for some typical connec
 
 **SQL Server database with SQL authentication**
 
-With SQL Server authentication, the SQL Server stores the username and password for the login. The server is identified by the its name, or IP address, and the database instance: 
+With SQL Server authentication, the SQL Server stores the username and password for the login. The server is identified by the its name or IP address, and the database instance: 
 
 ```  
 REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<MyExternalConnection1>', 'Data Source=<mydbserver\mydbinstance>;Initial Catalog=<myexternaldb1>;User ID=<sqlusername>;Password=<p@ssword>');  
