@@ -323,6 +323,7 @@
 #### [Using Logman](How-to--Use-Logman-to-Collect-Event-Trace-Data.md)
 #### [Using PowerShell](Monitoring-Microsoft-Dynamics-NAV-Server-Events-with-PowerShell.md)
 #### [Turn Off or Limit Telemetry Trace Events](disable-limit-telemetry-events.md)
+### [Monitoring Long Running SQL Queries](Monitoring-Long-Running-SQL-Queries-Event-Log.md)
 ## [Understanding Session Timeouts](Understanding-Session-Timeouts.md)
 ## [Connecting the Microsoft Dynamics NAV Clients over a Wide Area Network](Connecting-the-Microsoft-Dynamics-NAV-Clients-over-a-Wide-Area-Network.md)
 ## [Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md)
