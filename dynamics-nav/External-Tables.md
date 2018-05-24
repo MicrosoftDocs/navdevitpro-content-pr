@@ -13,7 +13,7 @@ ms.prod: "dynamics-nav-2018"
 
 <!-- This article describes how to integrate a table from an external SQL Server or Azure SQL Database database into [!INCLUDE[navnow](includes/navnow_md.md)].--> 
 
-This article describes how to integrate an external table that is hosted in SQL Server or Azure SQL Database into a [!INCLUDE[navnow](includes/navnow_md.md)] application. An *external table* is a database table that resides outside of the [!INCLUDE[navnow](includes/navnow_md.md)] database. The external table can be in a database on the same database server as the [!INCLUDE[navnow](includes/navnow_md.md)] database or a different server. 
+This article describes how to integrate an external table into a [!INCLUDE[navnow](includes/navnow_md.md)] application. An *external table* is a table that resides outside of the [!INCLUDE[navnow](includes/navnow_md.md)] database, in another database on SQL Server or Azure SQL Database. This database an be on the same database server as the [!INCLUDE[navnow](includes/navnow_md.md)] database or a different server. 
 
 > [!NOTE]
 > The concepts discussed in the article provide the basis for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with external products like [!INCLUDE[crm](includes/crm_md.md)], Microsoft Graph, and Exchange. Microsoft Graph and Exchange integration done internally for you. For [!INCLUDE[crm](includes/crm_md.md)], there are other tools and functionality available that make the integration easier than manually implementing the concepts discussed in this article. For more information, see [Integrating Dynamics 365 for Sales in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md).
@@ -39,7 +39,7 @@ You can create tables in [!INCLUDE[navnow](includes/navnow_md.md)] that represen
 
 ## Creating a [!INCLUDE[navnow](includes/navnow_md.md)] companion table
 
-You create a companion table in [!INCLUDE[navnow](includes/navnow_md.md)] like any other table, except there are several properities that you set to couple the table with the external table. Structurally, the companion table reflects that of the external table. For each column in the external table that you want accessible from [!INCLUDE[navnow](includes/navnow_md.md)], you add a field that has a compatible data type in the companion table.
+You create a companion table in [!INCLUDE[navnow](includes/navnow_md.md)] like any other table, except there are several properities that you set to couple the companion table with the external table. Structurally, the companion table reflects that of the external table, although you do not have to include all columns of the external table. For each column in the external table that you want accessible from [!INCLUDE[navnow](includes/navnow_md.md)], you add a field in companion table that has a data type that is compatible with the external table in the.
 
 On the table-level, you must set the following properties:
 
