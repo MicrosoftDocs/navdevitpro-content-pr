@@ -71,7 +71,9 @@ The first step when connecting an external table is to register the table connec
 -  Using the New-NAVTableConnection cmdlet provides a more static and global way of registering a table connection. The registered table connection is stored to the application database, which makes it always available for all client sessions.
 
 #### Using the REGISTERTABLECONNECTION function
-You can call the EGISTERTABLECONNECTION function from anywhere in your application, depending on what you want to achieve. For example, this could be when the company is initialized, as in the example that follows, or from the page that uses the external table. The REGISTERTABLECONNECTION function has the following syntax:
+The REGISTERTABLECONNECTION function can be called from from anywhere in your application code. Where you place the call depends on what you want to achieve. For example, you might wanto to register the connection the company is initialized, as in the example that follows, or when the page that uses the external table opens.
+
+The REGISTERTABLECONNECTION function has the following syntax:
 
 ```  
 REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, <Name>, <ConnectionString>) 
@@ -81,7 +83,7 @@ where:
 -   `<Name>` - specifies a name to assign the the connection. You use this name to identify and manage the connection. 
 -   `<Connection>` - specifies the connection string, or data source name (DSN), to the database that contains the external table. The connection string specifies information about the external databse, like the database server (and instance), the database name, and the login credentials.
 
-The following sections are REGISTERTABLECONNECTION function calls for some typical connection strings. The brackets `<>` indicate information that you substitute with information specific to your enviromnent.
+The following sections include REGISTERTABLECONNECTION function calls for some typical connection strings. The brackets `<>` indicate information that you substitute with values specific to your enviromnent.
 
 **SQL Server database with SQL authentication**
 
@@ -107,7 +109,7 @@ With a database in Azure SQL database, you can get the connection string from th
 REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<MyExternalConnectionName>', 'Server=<myserver>.database.windows.net;Database=<myazuredb>;User ID=<adminusername>;Password=<p@ssword>'); 
 ```  
 
-**Using the ew-NAVTableConnection cmdlet**
+#### Using the New-NAVTableConnection cmdlet
 The New-NAVTableConnection cmdlet actual table connection settings can also be managed using the following new [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets. In multitenant deployments, information about the connections is added to a table in the application database.  
   
 |Cmdlet Name|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
