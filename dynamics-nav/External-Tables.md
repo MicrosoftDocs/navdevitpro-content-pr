@@ -63,7 +63,7 @@ On the field-level, you set the following properties:
 
 Connecting a [!INCLUDE[navnow](includes/navnow_md.md)] table to an external table is primarily controlled from the application code and involves three operations: registering the table connection, setting the table connection, and unregistering the table connection. 
 
-### Register the table connection
+### Registering a table connection
 The first step when connecting an external table is to register the table connection for use. There are two ways to do this. One way is to call the REGISTERTABLECONNECTION function from code. The other way is to use the New-NAVTableConnection cmdlet from the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. 
 
 -  Using the REGISTERTABLECONNECTION function provides a more dynamic and customizable way of registering a table connection. When registered by the REGISTERTABLECONNECTION function, the connection is registered for the current client session only and will clear once the session has ended.
@@ -71,7 +71,7 @@ The first step when connecting an external table is to register the table connec
 -  Using the New-NAVTableConnection cmdlet provides a more static and global way of registering a table connection. The registered table connection is stored to the application database, which makes it always available for all client sessions all times.
 
 #### Using the REGISTERTABLECONNECTION function
-The REGISTERTABLECONNECTION function can be called from from anywhere in your application code. Where you place the call depends on what you want to achieve. For example, you might want to register the connection when the company is initialized, as in the example that follows, or when the page that uses the external table opens.
+The REGISTERTABLECONNECTION function can be called from anywhere in your application code. For example, you might want to register the connection when the company is initialized, as in the example that follows, or when the page that uses the external table opens.
 
 The REGISTERTABLECONNECTION function has the following syntax:
 
@@ -90,7 +90,7 @@ The following sections include REGISTERTABLECONNECTION function calls for some t
 With SQL Server authentication, the SQL Server stores the user name and password for the login. The server is identified by the its name or IP address, and the database instance: 
 
 ```  
-REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<MyExternalConnectionName>', 'Data Source=<mydbserver>\<mydbinstance>;Initial Catalog=<myexternaldb>;User ID=<username>;Password=<p@ssword>');  
+REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<ExternalTableConnectionName>', 'Data Source=<DatabaseServer>\<DatabaseServerInstance>;Initial Catalog=<DatabaseName>;User ID=<username>;Password=<password>');  
 ```  
 
 **SQL Server database with trusted authentication**
@@ -98,7 +98,7 @@ REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<MyExternalConnection
 Trusted authentication uses the login credentials of the current user to make the connection to SQL Server, where SQL Server validates the uses against Windows Active Directory. The server is identified by the its name, or IP address, and the database instance:  
 
 ```  
-REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<MyExternalConnectionName>', 'Data Source=<mydbserver\mydbinstance>;Initial Catalog=<myexternaldb>;Integrated Security=SSPI;');  
+REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<ExternalTableConnectionName>', 'Data Source=<DatabaseServer>\<DatabaseServerInstance>;Initial Catalog=<DatabaseName>;Integrated Security=SSPI;');  
 ```  
 
 **Azure SQL Database database**
@@ -106,8 +106,14 @@ REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<MyExternalConnection
 With a database in Azure SQL database, you can get the connection string from the Azure Portal. The following syntax is simplified for illustration purposes. The actual connection string may vary:
 
 ```  
-REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<MyExternalConnectionName>', 'Server=<myserver>.database.windows.net;Database=<myazuredb>;User ID=<adminusername>;Password=<p@ssword>'); 
+REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<ExternalTableConnectionName>', 'Server=<server>.database.windows.net;Database=<azuredatabase>;User ID=<username>;Password=<password>'); 
 ```  
+
+For example:
+
+``` 
+REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyAzureTableConnection', 'Server=fabrikam.database.windows.net;Initial Catalog=fabrikamdb;User ID=admin;Password=P@ssword123!;');
+``` 
 
 #### Using the New-NAVTableConnection cmdlet
 The New-NAVTableConnection cmdlet adds table connection information to a table in the [!INCLUDE[navnow](includes/navnow_md.md)] that is connected to a specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance. In a multitenant deployment, information about the connections is added to a table in the application database. Unlike using the REGISTERTABLECONNECTION function, you do not have to provide the connection string to the external database; only the database information. The actual connection string will automatically determined for you. 
@@ -149,24 +155,37 @@ In this scenario, you can write a function that generates a connection string ba
 -->
 
 
-### Set the external table connection in the current session
-After the code for registering the connection is in place, the next step is to add code to establish the connection to the external table. This is done by a call to the SETDEFAULTTABLECONNECTION function on the registered table connection's name. Like the REGISTERTABLECONNECTION function, where you place the SETDEFAULTTABLECONNECTION function call depends on what you want to achieve, although it must be called after the table connection has been registered. 
+### Setting an external table connection 
+After the code for registering the connection is in place, the next step is to add code to establish the connection to the external table. This is done by adding a call to the SETDEFAULTTABLECONNECTION function on the registered table connection's name. 
 
 The SETDEFAULTTABLECONNECTION function has the following syntax:
 
 ```  
-SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<MyExternalConnectionName>');  
-```  
- 
-### Unregister a table connection  
-When done using a table that are connected to a given source , issue the following command. For tables of type ExternalSQL, when **UnregisterTableConnection** is called, the current transaction will be rolled back.  
-  
-```  
-UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'ExternalDb1');  
+SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<ExternalConnectionName>');  
 ```  
 
-To see examples of how you can use these functions, see codeunits 5330 and 5331 in the standard version of [!INCLUDE[navnow](includes/navnow_md.md)].  
+For example, together with the REGISTERTABLECONNECTION function, your code might look like this:
+
+```
+REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalDatabase;Integrated Security=SSPI;');
+SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');  
+```  
+
+### Unregister a table connection  
+When done using an external table that is connected to a given source you can un, issue the following command. When UNREGISTERTABLECONNECTION is called, the current transaction will be rolled back.  
   
+```  
+UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<MyExternalConnectionName>');
+``` 
+
+For example, together with the REGISTERTABLECONNECTION and SETDEFAULTTABLECONNECTION functions, your code might look like this: 
+
+```
+UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyExternalTableConnection1');
+REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyExternalTableConnection1', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalDatabase;Integrated Security=SSPI;');
+SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyExternalTableConnection1');  
+```  
+
 ### 
 [!INCLUDE[navnow](includes/navnow_md.md)] commits on all connections at the same time, such as at the same time for the tenant database connection and the application database connection in multitenant deployments. When an external connection is registered, it is joined into this so that any errors will rollback on all connections in use.  
   
@@ -174,6 +193,9 @@ When records from external tables are instantiated, the connection is set on the
 
 ## Example
 This example integrates a simple table from an external SQL Server database. In addition to a companion table in [!INCLUDE[navnow](includes/navnow_md.md)], a page is also added for entering data into the table from the client.
+
+> [!TIP]
+> For more examples of how you can use these functions, see codeunits 5330 and 5331 in the standard version of [!INCLUDE[navnow](includes/navnow_md.md)].  
 
 This example uses the following external database and table. 
 
@@ -308,11 +330,11 @@ OBJECT Page 5001 MyNavPage
 }
 ```
 
-### Add code to register and set connetion to the external table
+### Add code to register and set connection to the external table
 
 For this example, you want to register the connection to the database when the company opens.  To do this, you create a codeunit that subscribes to the `OnAfterCompanyOpen()` event that is published by the codeunit **1 ApplicationManagement**.
 
-1. Using the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], create a codeunit  object that has the name **RegistesterExternalConnections**.
+1. Using the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], create a codeunit object that has the name **RegistesterExternalConnections**.
 
 2. Add a local function named **InitializeExternalConnections** and set the following properties to make the function a event subscriber that subscribes to the `OnAfterCompanyOpen()` event:
 
@@ -325,11 +347,11 @@ For this example, you want to register the connection to the database when the c
 3. On the `InitializeExternalConnections` function, add the following code to register and set the connection to the external database and table:
 
     ```
-    UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyExternalTableConnection');
-    REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyExternalTableConnection', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalDatabase;Integrated Security=SSPI;');
-    SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyExternalTableConnection');
+    If UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyExternalTableConnection1');
+    REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyExternalTableConnection1', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalDatabase;Integrated Security=SSPI;');
+    SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyExternalTableConnection1');
     ```
-    In this example, you assign the connection the name `MyExternalTableConnection`.
+    In this example, you assign the connection the name `MyExternalTableConnection1`.
 
     The UNREGISTERTABLECONNECTION function call is used to clear the previous connection. 
 
@@ -358,9 +380,9 @@ OBJECT Codeunit 5001 RegsisterExternalConnections
         [EventSubscriber(Codeunit,1,OnAfterCompanyOpen)]
         LOCAL PROCEDURE InitializeTableConnections@1();
         BEGIN
-            UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyExternalTableConnection');
-            REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyExternalTableConnection', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalDatabase;Integrated Security=SSPI;');
-            SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyExternalTableConnection');
+            UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyExternalTableConnection1');
+            REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyExternalTableConnection1', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalDatabase;Integrated Security=SSPI;');
+            SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyExternalTableConnection1');
         END;
 
         BEGIN
