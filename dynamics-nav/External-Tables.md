@@ -62,7 +62,7 @@ On the field-level, you set the following properties:
 |[Name](name-property.md)|The name to assign the field. You can use the same name as the column in the external table or use a diffent name. If you use a different name, you must set the ExternalName property of the field.|
 |[DataType](data-type-property.md)|The data type that matches the column in the SQL Server or Azure SQL Database table. For more information, see [Representation of SQL Data Types](Identifiers--Data-Types--and-Data-Formats.md#SQLDataType) |
 |[Length](datalength-property.md) |The length the matches the column in the SQL Server or Azure SQL Database table|
-|[ExternalName](externalname-property.md)|The name of the table in the external database. This property is required only if the field name in the [!INCLUDE[navnow](includes/navnow_md.md)] table differs from the column name in the external table.|
+|[ExternalName](externalname-property.md)|The name of the table in the external database. This property is required only if the field name differs from the column name in the external table.|
 
 ## Connecting to an external table  
 <!-- Connecting a [!INCLUDE[navnow](includes/navnow_md.md)] table to an external table is controlled from the application code by three C/AL functions: REGISTERTABLECONNECTION,  SETDEFAULTTABLECONNECTION, and UNREGISTERTABLECONNECTION.-->
@@ -248,7 +248,7 @@ The table has the name **MyExternalTable** and includes the following columns:
     |Name|text|30|
     |Date|datetime||
 
-    In this example, you want the `No.` field to map to the `ID` field in the external database. Because the names are different, you have to set the `ExternalName`property of the `No.` field name to the column name in the external table, in this case, `ID`. 
+    In this example, you want the `No.` field to map to the `ID` field in the external database. Because the names are different, you have to set the `ExternalName`property of the `No.` field to the column name in the external table, which in this case is `ID`. 
 
 The code for the new table will be similar to the following:
 
