@@ -70,7 +70,7 @@ On the field-level, you set the following properties:
 Connecting a [!INCLUDE[navnow](includes/navnow_md.md)] table to an external table is primarily controlled from the application code and involves three operations: registering the table connection, setting the table connection, and unregistering the table connection. 
 
 ### Registering a table connection
-The first step when connecting an external table is to register the table connection for use. There are two ways to do this. One way is to call the REGISTERTABLECONNECTION function from code. The other way is to use the New-NAVTableConnection cmdlet from the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. 
+The first step when using an external table is to register a connection to the database that contains the external table for use. There are two ways to do this. One way is to call the REGISTERTABLECONNECTION function from code. The other way is to use the New-NAVTableConnection cmdlet from the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. 
 
 -  Using the REGISTERTABLECONNECTION function provides a more dynamic and customizable way of registering a table connection. When registered by the REGISTERTABLECONNECTION function, the connection is registered for the current client session only and will clear once the session has ended.
 
@@ -187,7 +187,7 @@ SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1')
 ```  
 
 ### Unregister a table connection  
-When done using an external table that is connected to a given source you can , issue the following command. When UNREGISTERTABLECONNECTION is called, the current transaction will be rolled back.  
+When done using an external table, or you simply need to clear a registered table connection for whatever reaon, the the  can be unregistered. When UNREGISTERTABLECONNECTION is called, the current transaction will be rolled back.  
   
 ```  
 UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<MyExternalConnectionName>');
