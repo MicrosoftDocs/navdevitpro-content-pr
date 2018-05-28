@@ -19,7 +19,7 @@ This article describes how to integrate an external table into a [!INCLUDE[navno
 > The concepts discussed in the article provide the basis for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with external products like [!INCLUDE[crm](includes/crm_md.md)], Microsoft Graph, and Exchange. Microsoft Graph and Exchange integration is done autometically for you. For [!INCLUDE[crm](includes/crm_md.md)] integration, we provide several tools and features that make the integration easier than doing it all manually. For more information, see [Integrating Dynamics 365 for Sales in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md).
 
 ## About external tables
-You might be familiar with the *linked objects* feature in [!INCLUDE[navnow](includes/navnow_md.md)], which also offers way of integrating an external SQL tables (see [Using Linked Objects](Using-Linked-Objects.md). The difference with the method described in this article is that the table connections are controlled at runtime. This provides a more dynamic table relationship than creating table definitions from SQL Server objects using linked objects. 
+You might be familiar with the *linked objects* feature in [!INCLUDE[navnow](includes/navnow_md.md)], which also offers way of integrating an external SQL table (see [Using Linked Objects](Using-Linked-Objects.md)). The difference with the method described in this article is that the table connections are controlled at runtime. This provides a more dynamic table relationship than creating table definitions from SQL Server objects using linked objects. 
 
 In general, to use an external table, you perform the following tasks:
 
@@ -67,8 +67,8 @@ On the field-level, you set the following properties:
 |Property|Value|
 |--------|-----|
 |[Name](name-property.md)|The name to assign the field. You can use the same name as the column in the external table or use a diffent name. If you use a different name, you must set the field's **ExternalName** property.|
-|[DataType](data-type-property.md)|The data type that matches the column in the SQL Server or Azure SQL Database table. For more information, see [Representation of SQL Data Types](Identifiers--Data-Types--and-Data-Formats.md#SQLDataType) |
-|[Length](datalength-property.md) |The length the matches the column in the SQL Server or Azure SQL Database table.|
+|[DataType](data-type-property.md)|The data type that matches the column in the external table. For more information, see [Representation of SQL Data Types](Identifiers--Data-Types--and-Data-Formats.md#SQLDataType) |
+|[Length](datalength-property.md) |The length the matches the column in the external table.|
 |[ExternalName](externalname-property.md)|The name of the table in the external database. This property is required only if the field's **Name** property differs from the column name in the external table.|
 
 <!-- 
@@ -86,7 +86,7 @@ The first step when using an external table is to register a connection to the d
 -  Using the New-NAVTableConnection cmdlet provides a static and global way of registering a table connection. The registered table connection is stored to the application database, which makes it available at all times.
 
 ### Using the REGISTERTABLECONNECTION function
-The REGISTERTABLECONNECTION function can be called from anywhere in your application code. For example, you might want to register the connection when the company is initialized, as in the example that follows, or when the page that uses the external table opens.
+The REGISTERTABLECONNECTION function can be called from anywhere in your application code. For example, you might want to register the connection when the page that uses the table is opened or when the company is initialized (see the [Examples](#Examples) section to see these example in code). 
 
 The REGISTERTABLECONNECTION function has the following syntax:
 
@@ -100,7 +100,7 @@ where:
 
 The following sections include REGISTERTABLECONNECTION function calls for some typical connection strings. The brackets `<>` indicate information that you substitute with values specific to your enviromnent.
 
-**SQL Server database with SQL authentication**
+#### SQL Server database with SQL authentication
 
 With SQL Server authentication, the SQL Server stores the user name and password for the login. The server is identified by the its name or IP address, and the database instance: 
 
