@@ -16,7 +16,7 @@ ms.prod: "dynamics-nav-2018"
 This article describes how to integrate an external table into a [!INCLUDE[navnow](includes/navnow_md.md)] application. An *external table* is a table that resides outside of the [!INCLUDE[navnow](includes/navnow_md.md)] database, in another database either on SQL Server or Azure SQL Database. The external database can be hosted on the same database server as the [!INCLUDE[navnow](includes/navnow_md.md)] database or a different server. 
 
 > [!NOTE]
-> The concepts discussed in the article provide the basis for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with external products like [!INCLUDE[crm](includes/crm_md.md)], Microsoft Graph, and Exchange. Microsoft Graph and Exchange integration done autometically for you. For [!INCLUDE[crm](includes/crm_md.md)] integration, we recommend other our tools and functionality made available that make the integration easier. For more information, see [Integrating Dynamics 365 for Sales in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md).
+> The concepts discussed in the article provide the basis for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with external products like [!INCLUDE[crm](includes/crm_md.md)], Microsoft Graph, and Exchange. Microsoft Graph and Exchange integration is done autometically for you. For [!INCLUDE[crm](includes/crm_md.md)] integration, we provide several tools and features that make the integration easier than doing it all manually. For more information, see [Integrating Dynamics 365 for Sales in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md).
 
 ## About external tables
 You might be familiar with the *linked objects* feature in [!INCLUDE[navnow](includes/navnow_md.md)], which also offers way of integrating an external SQL tables (see [Using Linked Objects](Using-Linked-Objects.md). The difference with the method described in this article is that the table connections are controlled at runtime. This provides a more dynamic table relationship than creating table definitions from SQL Server objects using linked objects. 
@@ -25,16 +25,20 @@ In general, to use an external table, you perform the following tasks:
 
 -   Create a table in [!INCLUDE[navnow](includes/navnow_md.md)] that represents the external table. This table is referred to as the *companion* table.
 
--   Add application code that establishes a connection between the two tables. Connecting a [!INCLUDE[navnow](includes/navnow_md.md)] table to an external table is primarily controlled from the application code and involves three operations: registering the table connection to the external database, setting the table connection, and unregistering the table connection. 
+-   Add application code that establishes a connection between the two tables. Connecting a [!INCLUDE[navnow](includes/navnow_md.md)] table to an external table is primarily controlled from the application code and involves three operations:
+
+    -   Registering the table connection to the external database.
+    -   Setting the table connection.
+    -   Unregistering the table connection. 
 
 -   Optionally, create a page that uses the companion table as its source to enable client users can view, modify, create, and delete records in the table.
 
-At runtime, data from the external table is read into the [!INCLUDE[navnow](includes/navnow_md.md)] table, and in turn displayed in the page. When records from external tables are instantiated, the connection is set on them. Any changes that client users make to records are pushed back to the external table. 
+At runtime, data from the external table is read into the [!INCLUDE[navnow](includes/navnow_md.md)] table, and in displayed in the assciated page, if any. When records from the external table are instantiated, the connection is set on them. Any changes that client users make to records are pushed back to the external table. 
 
 <!-- Creating or modifying records in the [!INCLUDE[navnow](includes/navnow_md.md)] table will be reflected in the external table, and vice versa.-->
 
 ### Commits on external tables
-[!INCLUDE[navnow](includes/navnow_md.md)] commits on all connections at the same time. This the tenant database connection, application database connection (in a multitenant deployment), and all registered external table connection. If an error occurrs that prevents a commit, transactions on all connections in use are rolled back.  
+[!INCLUDE[navnow](includes/navnow_md.md)] commits on all connections at the same time. This includes the tenant database connection, application database connection (in a multitenant deployment), and registered external table connections. If an error occurs that prevents a commit, transactions on all connections in use are rolled back.  
  
 
 <!--
@@ -62,24 +66,24 @@ On the field-level, you set the following properties:
 
 |Property|Value|
 |--------|-----|
-|[Name](name-property.md)|The name to assign the field. You can use the same name as the column in the external table or use a diffent name. If you use a different name, you must set the ExternalName property of the field.|
+|[Name](name-property.md)|The name to assign the field. You can use the same name as the column in the external table or use a diffent name. If you use a different name, you must set the field's **ExternalName** property.|
 |[DataType](data-type-property.md)|The data type that matches the column in the SQL Server or Azure SQL Database table. For more information, see [Representation of SQL Data Types](Identifiers--Data-Types--and-Data-Formats.md#SQLDataType) |
-|[Length](datalength-property.md) |The length the matches the column in the SQL Server or Azure SQL Database table|
-|[ExternalName](externalname-property.md)|The name of the table in the external database. This property is required only if the field name differs from the column name in the external table.|
+|[Length](datalength-property.md) |The length the matches the column in the SQL Server or Azure SQL Database table.|
+|[ExternalName](externalname-property.md)|The name of the table in the external database. This property is required only if the field's **Name** property differs from the column name in the external table.|
 
 <!-- 
 ## Connecting to an external table  
 <!-- Connecting a [!INCLUDE[navnow](includes/navnow_md.md)] table to an external table is controlled from the application code by three C/AL functions: REGISTERTABLECONNECTION,  SETDEFAULTTABLECONNECTION, and UNREGISTERTABLECONNECTION.
--->
 
-Connecting a [!INCLUDE[navnow](includes/navnow_md.md)] table to an external table is primarily controlled from the application code and involves three operations: registering the table connection, setting the table connection, and unregistering the table connection. 
+
+Connecting a [!INCLUDE[navnow](includes/navnow_md.md)] table to an external table is primarily controlled from the application code and involves three operations: registering the table connection, setting the table connection, and unregistering the table connection. -->
 
 ## Registering a table connection
-The first step when using an external table is to register a connection to the database that contains the external table for use. There are two ways to do this. One way is to call the REGISTERTABLECONNECTION function from code. The other way is to use the New-NAVTableConnection cmdlet from the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. 
+The first step when using an external table is to register a connection to the database that contains the external table, making it available for use. There are two ways to do this. One way is to call the REGISTERTABLECONNECTION function from code. The other way is to use the [New-NAVTableConnection cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navtableconnection) from the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. 
 
 -  Using the REGISTERTABLECONNECTION function provides a more dynamic and customizable way of registering a table connection. When registered by the REGISTERTABLECONNECTION function, the connection is registered for the current client session only and will clear once the session has ended.
 
--  Using the New-NAVTableConnection cmdlet provides a more static and global way of registering a table connection. The registered table connection is stored to the application database, which makes it available at all times.
+-  Using the New-NAVTableConnection cmdlet provides a static and global way of registering a table connection. The registered table connection is stored to the application database, which makes it available at all times.
 
 ### Using the REGISTERTABLECONNECTION function
 The REGISTERTABLECONNECTION function can be called from anywhere in your application code. For example, you might want to register the connection when the company is initialized, as in the example that follows, or when the page that uses the external table opens.
@@ -91,7 +95,7 @@ REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, <TableConnectionName>,
 ```
 where:
 
--   `<TableConnectionName>` - specifies a name for the connection. You will use this name to identify and manage the connection. 
+-   `<TableConnectionName>` - specifies a name for identifying and managing the connection. 
 -   `<ConnectionString>` - specifies the connection string, or data source name (DSN), to the database that contains the external table. The connection string specifies information about the external databse, like the database server (and instance), the database name, and the login credentials.
 
 The following sections include REGISTERTABLECONNECTION function calls for some typical connection strings. The brackets `<>` indicate information that you substitute with values specific to your enviromnent.
@@ -132,7 +136,7 @@ REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<TableConnectionName>
 For example:
 
 ``` 
-REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'CronusTableConnection', 'Server=cronus.database.windows.net;Initial Catalog=fabrikamdb;User ID=admin;Password=P@ssword123!;');
+REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyAzureTableConnection1', 'Server=myazureserver.database.windows.net;Initial Catalog=MyAzureDatabase;User ID=admin;Password=P@ssword123!;');
 ``` 
 
 ### Using the New-NAVTableConnection cmdlet
@@ -141,7 +145,12 @@ The New-NAVTableConnection cmdlet adds the table connection information to a tab
 To register a table connection, start the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)], and then run the following command:
 
 ```
-New-NAVTableConnection -ServerInstance <NAVServerInstance> -ConnectionType ExternalSQL -ConnectionId '<TableConnectionName>' -DatabaseServer '<DatabaseServer>\<DatabaseInstance>' -DatabaseName '<ExternalDatabaseName>'
+New-NAVTableConnection -ServerInstance <NAVServerInstance> -ConnectionType ExternalSQL -ConnectionId 'MyTableConnection1' -DatabaseServer '<DatabaseServer>\<DatabaseInstance>' -DatabaseName '<ExternalDatabaseName>'
+```
+For example:
+
+```
+New-NAVTableConnection -ServerInstance DynamicsNAV -ConnectionType ExternalSQL -ConnectionId '<TableConnectionName>' -DatabaseServer 'MyDatabaseServer\NAVDEMO' -DatabaseName 'MyExternalDatabase'
 ```
 
 > [!TIP]
@@ -175,7 +184,7 @@ In this scenario, you can write a function that generates a connection string ba
 -->
 
 
-## Setting an external table connection 
+## Setting the external table connection 
 After the code for registering the connection is in place, the next step is to add code to establish the connection to the external table. This is done by adding a call to the SETDEFAULTTABLECONNECTION function on the registered table connection's name. 
 
 The SETDEFAULTTABLECONNECTION function has the following syntax:
@@ -191,11 +200,26 @@ REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1', 
 SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');  
 ```  
 
-## Unregister a table connection  
-When done using an external table, or you simply need to clear a registered table connection for whatever reaon, the the  can be unregistered. When UNREGISTERTABLECONNECTION is called, the current transaction will be rolled back.  
-  
+## Unregistering a table connection  
+
+When done using an external table connection or it requires a refresh, it can be unregistered by using either the UNREGISTERTABLECONNECTION function or the [Remove-NAVTableConnection cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/remove-navtableconnection). 
+
+-   If a table connection was registered by the UNREGISTERTABLECONNECTION function, use the UNREGISTERTABLECONNECTION function. 
+
+-   If a table connection was registered by the New-NAVTableConnection cmdlet, use the Remove-NAVTableConnection cmdlet. 
+
+
+## Using the UNREGISTERTABLECONNECTION function
+
+When a table connection is registered by the REGISTERTABLECONNECTION function, it remains registered until the current client session has ended. If there is application code that tries to register table connection that is currently registered, a runtime error occurs. To avoid this, use UNREGISTERTABLECONNECTION function before calling the UNREGISTERTABLECONNECTION function.
+
+> [NOTE]
+> When UNREGISTERTABLECONNECTION is called, the current transaction will be rolled back.  
+
+The UNREGISTERTABLECONNECTION function has the following syntax:
+
 ```  
-UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<MyExternalConnectionName>');
+UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<ExternalConnectionName>');
 ``` 
 
 For example, together with the REGISTERTABLECONNECTION and SETDEFAULTTABLECONNECTION functions, your code might look like this: 
@@ -205,13 +229,32 @@ UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1'
 REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalDatabase;Integrated Security=SSPI;');
 SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');  
 ```  
+## Using the Remove-NAVTableConnection cmdlet
+
+The Remove-NAVTableConnection cmdlet deletes a registered table connection from the application database. To unregister a table connection, start the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)], and then run the following command:
+
+```
+Remove-NAVTableConnection -ServerInstance <NAVServerInstance> -ConnectionType ExternalSQL -ConnectionId '<TableConnectionName>'
+```
+
+For example:
+
+```
+Remove-NAVTableConnection -ServerInstance DynamicsNAV -ConnectionType ExternalSQL -ConnectionId 'MyTableConnection1'
+```
+
+> [!TIP]
+> To get information about registered table connections, use the [Get-NAVTableConnection](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navtableconnection) cmdlet.
+
 ## Example
 This example integrates a simple table from an external SQL Server database. In addition to a companion table in [!INCLUDE[navnow](includes/navnow_md.md)], a page is also added for entering data into the table from the client.
 
 > [!TIP]
 > For more examples of how you can use these functions, see codeunits 5330 and 5331 in the standard version of [!INCLUDE[navnow](includes/navnow_md.md)].  
 
-This example uses the following external database and table. 
+### Prerequisites
+
+This example assumes that the following external database and table already exist. 
 
 **External database properties**
 
