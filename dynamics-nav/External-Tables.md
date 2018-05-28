@@ -16,7 +16,7 @@ ms.prod: "dynamics-nav-2018"
 This article describes how to integrate an external table into a [!INCLUDE[navnow](includes/navnow_md.md)] application. An *external table* is a table that resides outside of the [!INCLUDE[navnow](includes/navnow_md.md)] database, in another database either on SQL Server or Azure SQL Database. The external database can be hosted on the same database server as the [!INCLUDE[navnow](includes/navnow_md.md)] database or a different server. 
 
 > [!NOTE]
-> The concepts discussed in the article provide the basis for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with external products like [!INCLUDE[crm](includes/crm_md.md)], Microsoft Graph, and Exchange. Microsoft Graph and Exchange integration is done autometically for you. For [!INCLUDE[crm](includes/crm_md.md)] integration, we provide several tools and features that make the integration easier than doing it all manually. For more information, see [Integrating Dynamics 365 for Sales in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md).
+> The concepts discussed in the article provide the basis for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with external products like [!INCLUDE[crm](includes/crm_md.md)], Microsoft Graph, and Exchange. Microsoft Graph and Exchange integration is autometically done for you. For [!INCLUDE[crm](includes/crm_md.md)] integration, we provide several tools and features that make the integration easier than doing it all manually. For more information, see [Integrating Dynamics 365 for Sales in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md).
 
 ## About external tables
 You might be familiar with the *linked objects* feature in [!INCLUDE[navnow](includes/navnow_md.md)], which also offers way of integrating an external SQL table (see [Using Linked Objects](Using-Linked-Objects.md)). The difference with the method described in this article is that the table connections are controlled at runtime. This provides a more dynamic table relationship than creating table definitions from SQL Server objects using linked objects. 
@@ -33,7 +33,7 @@ In general, to use an external table, you perform the following tasks:
 
 -   Optionally, create a page that uses the companion table as its source to enable client users can view, modify, create, and delete records in the table.
 
-At runtime, data from the external table is read into the [!INCLUDE[navnow](includes/navnow_md.md)] table, and in displayed in the assciated page, if any. When records from the external table are instantiated, the connection is set on them. Any changes that client users make to records are pushed back to the external table. 
+At runtime, data from the external table is read into the [!INCLUDE[navnow](includes/navnow_md.md)] table, and in displayed in the associated page, if any. When records from the external table are instantiated, the connection is set on them. Any changes that client users make to records are pushed back to the external table. 
 
 <!-- Creating or modifying records in the [!INCLUDE[navnow](includes/navnow_md.md)] table will be reflected in the external table, and vice versa.-->
 
@@ -52,7 +52,7 @@ You can create tables in [!INCLUDE[navnow](includes/navnow_md.md)] that represen
 
 ## Creating a [!INCLUDE[navnow](includes/navnow_md.md)] companion table
 
-You create a companion table in [!INCLUDE[navnow](includes/navnow_md.md)] like any other table, except there are several properities that you set to couple the companion table with the external table. Structurally, the companion table reflects that of the external table, although you do not have to include all columns of the external table. For each column in the external table that you want accessible from [!INCLUDE[navnow](includes/navnow_md.md)], you add a field with a compatible data type to the companion table.
+You create a companion table in [!INCLUDE[navnow](includes/navnow_md.md)] like any other table, except there are several properties that you set to couple the companion table with the external table. Structurally, the companion table reflects that of the external table, although you do not have to include all columns of the external table. For each column in the external table that you want accessible from [!INCLUDE[navnow](includes/navnow_md.md)], you add a field with a compatible data type to the companion table.
 
 On the table-level, you must set the following properties:
 
@@ -83,7 +83,7 @@ The first step when using an external table is to register a connection to the d
 
 -  Using the REGISTERTABLECONNECTION function provides a more dynamic and customizable way of registering a table connection. When registered by the REGISTERTABLECONNECTION function, the connection is registered for the current client session only and will clear once the session has ended.
 
--  Using the New-NAVTableConnection cmdlet provides a static and global way of registering a table connection. The registered table connection is stored to the application database, which makes it available at all times.
+-  Using the New-NAVTableConnection cmdlet provides a static and global way of registering a table connection. The registered table connection is stored to the application database, which makes it available always.
 
 ### Using the REGISTERTABLECONNECTION function
 The REGISTERTABLECONNECTION function can be called from anywhere in your application code. For example, you might want to register the connection when the page that uses the table is opened or when the company is initialized (see the [Examples](#Examples) section to see these example in code). 
@@ -96,9 +96,9 @@ REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, <TableConnectionName>,
 where:
 
 -   `<TableConnectionName>` - specifies a name for identifying and managing the connection. 
--   `<ConnectionString>` - specifies the connection string, or data source name (DSN), to the database that contains the external table. The connection string specifies information about the external databse, like the database server (and instance), the database name, and the login credentials.
+-   `<ConnectionString>` - specifies the connection string, or data source name (DSN), to the database that contains the external table. The connection string specifies information about the external database, like the database server (and instance), the database name, and the login credentials.
 
-The following sections include REGISTERTABLECONNECTION function calls for some typical connection strings. The brackets `<>` indicate information that you substitute with values specific to your enviromnent.
+The following sections include REGISTERTABLECONNECTION function calls for some typical connection strings. The brackets `<>` indicate information that you substitute with values specific to your environment.
 
 #### SQL Server database with SQL authentication
 
@@ -112,7 +112,7 @@ For example:
 REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalDatabase;User ID=admin;Password=P@ssword123!');
 ``` 
 
-**SQL Server database with trusted authentication**
+#### SQL Server database with trusted authentication
 
 Trusted authentication uses the login credentials of the current user to make the connection to SQL Server, where SQL Server validates the uses against Windows Active Directory. The server is identified by the its name, or IP address, and the database instance:  
 
@@ -125,7 +125,7 @@ For example:
 REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalDatabase;Integrated Security=SSPI;');
 ``` 
 
-**Azure SQL Database database**
+#### Azure SQL Database
 
 With a database in Azure SQL database, you can get the connection string from the Azure Portal. The following syntax is simplified for illustration purposes. The actual connection string may vary:
 
@@ -184,7 +184,7 @@ In this scenario, you can write a function that generates a connection string ba
 -->
 
 
-## Setting the external table connection 
+## Setting the table connection 
 After the code for registering the connection is in place, the next step is to add code to establish the connection to the external table. This is done by adding a call to the SETDEFAULTTABLECONNECTION function on the registered table connection's name. 
 
 The SETDEFAULTTABLECONNECTION function has the following syntax:
@@ -230,7 +230,7 @@ SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1')
 ``` 
 
 > [!TIP]
-> You can use the [HASTABLECONNECTION](HASTABLECONNECTION-function--database.md) to verifie whether a connection to an external database exists.
+> You can use the [HASTABLECONNECTION](HASTABLECONNECTION-function--database.md) to verify whether a connection to an external database exists.
 
 ### Using the Remove-NAVTableConnection cmdlet
 
@@ -299,12 +299,12 @@ The table has the name **MyExternalTable** and includes the following columns:
     |Name|text|30|
     |Date|datetime||
 
-    In this example, you want the `No.` field to map to the `ID` field in the external database. Because the names are different, you have to set the `ExternalName`property of the `No.` field to the column name in the external table, which in this case is `ID`. 
+    In this example, you want the `No.` field to map to the `ID` field in the external database. Because the names are different, you mustset the `ExternalName`property of the `No.` field to the column name in the external table, which in this case is `ID`. 
 3. Save the table and give it the ID **50010** and name **MySampleTable**.
 
 
 ### Create a page for viewing data of the companion table from the client
-1. Create a list page object that has the table **MySampleTable** as its source and includes the three fields of the table. Give the page the name **MySamplePage**.
+1. Create a list-type page object that has the table **MySampleTable** as its source and includes the three fields of the table. Give the page the name **MySamplePage**.
 2. Add the following code to `OnInit` page trigger to register and set the connection to the external table:
 
     ```
@@ -314,7 +314,7 @@ The table has the name **MyExternalTable** and includes the following columns:
     SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');
     ```
 
-The code for the new page will be similar to the following:
+The code for the new page will look like this:
 
 ```
 OBJECT Page 50010 MySamplePage
@@ -328,8 +328,8 @@ OBJECT Page 50010 MySamplePage
   }
   PROPERTIES
   {
-    SourceTable=Table5006;
-    PageType=Worksheet;
+    SourceTable=Table50010;
+    PageType=List;
     OnInit=BEGIN
         IF HASTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1') THEN
             UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');
@@ -351,8 +351,7 @@ OBJECT Page 50010 MySamplePage
                 SourceExpr="No."; }
 
     { 4   ;2   ;Field     ;
-                SourceExpr=Name;
-                QuickEntry=False }
+                SourceExpr=Name; }
 
     { 5   ;2   ;Field     ;
                 SourceExpr=Date }
@@ -395,7 +394,7 @@ For this example, you want to register the connection to the database when the c
     The UNREGISTERTABLECONNECTION function call is used to clear the previous connection. 
 
 
-The codeunit code will be similar to the following:
+The codeunit code will look like this:
 
 ```
 OBJECT Codeunit 5001 RegsisterExternalConnections
@@ -440,7 +439,7 @@ This example slightly modifies the previous example. Instead of registering and 
 
 1. Using the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], create a codeunit object that has the name **RegistesterExternalConnections**.
 
-2. Add a local function named **InitializeExternalConnections** and set the following properties to make the function a event subscriber that subscribes to the `OnAfterCompanyOpen()` event:
+2. Add a local function named **InitializeExternalConnections** and set the following properties to make the function an event subscriber that subscribes to the `OnAfterCompanyOpen()` event:
 
     |Property|Value|
     |--------|-----|
@@ -455,7 +454,7 @@ This example slightly modifies the previous example. Instead of registering and 
     SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');
     ```
 
-    The codeunit code will be similar to the following:
+    The codeunit code will look like this:
 
     ```
     OBJECT Codeunit 50010 RegsisterExternalConnections
