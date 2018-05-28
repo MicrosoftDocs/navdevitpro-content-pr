@@ -340,12 +340,12 @@ OBJECT Table 5001 MyNavTable
 ```
 ### Create a page for modifying data of the companion table from the client
 
-Using the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], create a list page object that has the companion table **MyNavTable** as its source and includes the three fields of the table. Give the page the name **MyNavPage**.
+Using the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], create a list page object that has the companion table **MyNavTable** as its source and includes the three fields of the table. Give the page the name **MySamplePage**.
 
 The page code will be similar to the following:
 
 ```
-OBJECT Page 5001 MyNavPage
+OBJECT Page 5001 MySamplePage
 {
     OBJECT-PROPERTIES
     {
@@ -450,7 +450,62 @@ OBJECT Codeunit 5001 RegsisterExternalConnections
 
 ### Test the external table connection
 
-Run page **MyNavPage** to open it in the client. Add and modify records in the list, and then view the external table **MyExternalTable** in SQL Server Management Studio to verify the changes. 
+Run page **MySamplePage** to open it in the client. Add and modify records in the list, and then view the external table **MyExternalTable** in SQL Server Management Studio to verify the changes. 
+
+## Example 2
+This example is a slightly modified version of the previous example. Instead of registering and setting the external table connection when the **MySamplePage** opens, this example registers and sets the external table connection when the company opens by subscribing to the `OnAfterCompanyOpen()` event that is published by the codeunit **1 ApplicationManagement**. 
+
+1. Using the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], create a codeunit object that has the name **RegistesterExternalConnections**.
+
+2. Add a local function named **InitializeExternalConnections** and set the following properties to make the function a event subscriber that subscribes to the `OnAfterCompanyOpen()` event:
+
+    |Property|Value|
+    |--------|-----|
+    |[Event](event-property.md)|**Subscriber**|
+    |[EventPublisherObject](EventPublisherObject-property.md)|Codeunit ApplicationManagement|
+    |[EventFunction](EventFunction-property.md) |OnAfterCompanyOpen|
+
+3. On the `InitializeExternalConnections` function, add the following code to register and set the connection to the external database and table:
+
+    ```
+    REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalDatabase;Integrated Security=SSPI;');
+    SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');
+    ```
+
+The codeunit code will be similar to the following:
+
+```
+OBJECT Codeunit 5001 RegsisterExternalConnections
+{
+    OBJECT-PROPERTIES
+    {
+        Date=;
+        Time=1;
+        Modified=;
+        Version List=;
+    }
+    PROPERTIES
+    {
+        OnRun=BEGIN
+            END;
+
+    }
+    CODE
+    {
+
+        [EventSubscriber(Codeunit,1,OnAfterCompanyOpen)]
+        LOCAL PROCEDURE InitializeTableConnections@1();
+        BEGIN
+            UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1');
+            REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalDatabase;Integrated Security=SSPI;');
+            SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');
+        END;
+
+        BEGIN
+        END.
+    }
+} 
+```
 
 ## See Also  
  [TableType Property](TableType-Property.md)   
