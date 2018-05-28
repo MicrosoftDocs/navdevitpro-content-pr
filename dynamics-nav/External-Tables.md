@@ -145,12 +145,12 @@ The New-NAVTableConnection cmdlet adds the table connection information to a tab
 To register a table connection, start the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)], and then run the following command:
 
 ```
-New-NAVTableConnection -ServerInstance <NAVServerInstance> -ConnectionType ExternalSQL -ConnectionId 'MyTableConnection1' -DatabaseServer '<DatabaseServer>\<DatabaseInstance>' -DatabaseName '<ExternalDatabaseName>'
+New-NAVTableConnection -ServerInstance <NAVServerInstance> -ConnectionType ExternalSQL -ConnectionId '<TableConnectionName>' -DatabaseServer '<DatabaseServer>\<DatabaseInstance>' -DatabaseName '<ExternalDatabaseName>'
 ```
 For example:
 
 ```
-New-NAVTableConnection -ServerInstance DynamicsNAV -ConnectionType ExternalSQL -ConnectionId '<TableConnectionName>' -DatabaseServer 'MyDatabaseServer\NAVDEMO' -DatabaseName 'MyExternalDatabase'
+New-NAVTableConnection -ServerInstance DynamicsNAV -ConnectionType ExternalSQL -ConnectionId 'MyTableConnection1' -DatabaseServer 'MyDatabaseServer\NAVDEMO' -DatabaseName 'MyExternalDatabase'
 ```
 
 > [!TIP]
@@ -190,7 +190,7 @@ After the code for registering the connection is in place, the next step is to a
 The SETDEFAULTTABLECONNECTION function has the following syntax:
 
 ```  
-SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<ExternalConnectionName>');  
+SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<TableConnectionName>');  
 ```  
 
 For example, together with the REGISTERTABLECONNECTION function, your code might look like this:
@@ -202,24 +202,23 @@ SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1')
 
 ## Unregistering a table connection  
 
-When done using an external table connection or it requires a refresh, it can be unregistered by using either the UNREGISTERTABLECONNECTION function or the [Remove-NAVTableConnection cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/remove-navtableconnection). 
+When done using an external table connection or the connection must be refreshed, it can be unregistered by using either the UNREGISTERTABLECONNECTION function or the [Remove-NAVTableConnection cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/remove-navtableconnection). 
 
 -   If a table connection was registered by the UNREGISTERTABLECONNECTION function, use the UNREGISTERTABLECONNECTION function. 
 
 -   If a table connection was registered by the New-NAVTableConnection cmdlet, use the Remove-NAVTableConnection cmdlet. 
 
-
-## Using the UNREGISTERTABLECONNECTION function
+### Using the UNREGISTERTABLECONNECTION function
 
 When a table connection is registered by the REGISTERTABLECONNECTION function, it remains registered until the current client session has ended. If there is application code that tries to register table connection that is currently registered, a runtime error occurs. To avoid this, use UNREGISTERTABLECONNECTION function before calling the UNREGISTERTABLECONNECTION function.
 
-> [NOTE]
+> [!NOTE]
 > When UNREGISTERTABLECONNECTION is called, the current transaction will be rolled back.  
 
 The UNREGISTERTABLECONNECTION function has the following syntax:
 
 ```  
-UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<ExternalConnectionName>');
+UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<TableConnectionName>');
 ``` 
 
 For example, together with the REGISTERTABLECONNECTION and SETDEFAULTTABLECONNECTION functions, your code might look like this: 
@@ -228,8 +227,12 @@ For example, together with the REGISTERTABLECONNECTION and SETDEFAULTTABLECONNEC
 UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1');
 REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalDatabase;Integrated Security=SSPI;');
 SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');  
-```  
-## Using the Remove-NAVTableConnection cmdlet
+``` 
+
+> [!TIP]
+> You can use the [HASTABLECONNECTION](HASTABLECONNECTION-function.md) to verifie whether a connection to an external database exists.
+
+### Using the Remove-NAVTableConnection cmdlet
 
 The Remove-NAVTableConnection cmdlet deletes a registered table connection from the application database. To unregister a table connection, start the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)], and then run the following command:
 
@@ -275,8 +278,6 @@ The table has the name **MyExternalTable** and includes the following columns:
 |ID|int|
 |Name|nchar(30)|
 |Date| datetime| 
-
-
 
 > [!TIP]
 > Use SQL Server Management Studio to create, modify, and view the external table.
