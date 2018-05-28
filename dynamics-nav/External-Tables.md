@@ -52,7 +52,7 @@ On the field-level, you set the following properties:
 
 |Property|Value|
 |--------|-----|
-|[Name](name-property.md)|The name to assign the field. You can use the same name as the column in the external table or use a diffent name. If you use a different name, you must set the field's **ExternalName** property.|
+|[Name](name-property.md)|The name to assign the field. You can use the same name as the column in the external table or use a different name. If you use a different name, you must set the field's **ExternalName** property.|
 |[DataType](data-type-property.md)|The data type that matches the column in the external table. For more information, see [Representation of SQL Data Types](Identifiers--Data-Types--and-Data-Formats.md#SQLDataType). |
 |[Length](datalength-property.md) |The length the matches the column in the external table.|
 |[ExternalName](externalname-property.md)|The name of the table in the external database. This property is required only if the field's **Name** property differs from the column name in the external table.|
@@ -326,7 +326,7 @@ Run page **MySamplePage** to open it in the client. Add and modify records in th
 ## Example 2
 This example slightly modifies the previous example. Instead of registering and setting the external table connection when the **MySamplePage** opens, this example registers and sets the external table connection when the company opens. This is done by subscribing to the `OnAfterCompanyOpen()` event that is published by the codeunit **1 ApplicationManagement**. 
 
-1. Using the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], create a codeunit object that has the name **RegistesterExternalConnections**.
+1. Using the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], create a codeunit object that has the name **RegisterExternalConnections**.
 
 2. Add a local function named **InitializeExternalConnections** and set the following properties to make the function an event subscriber that subscribes to the `OnAfterCompanyOpen()` event:
 
@@ -346,7 +346,7 @@ This example slightly modifies the previous example. Instead of registering and 
     The codeunit code will look like this:
 
     ```
-    OBJECT Codeunit 50010 RegsisterExternalConnections
+    OBJECT Codeunit 50010 RegisterExternalConnections
     {
         OBJECT-PROPERTIES
         {
