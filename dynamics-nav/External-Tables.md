@@ -230,7 +230,7 @@ SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1')
 ``` 
 
 > [!TIP]
-> You can use the [HASTABLECONNECTION](HASTABLECONNECTION-function--database.md) to verify whether a connection to an external database exists.
+> You can use the [HASTABLECONNECTION](HASTABLECONNECTION-function--database-.md) to verify whether a connection to an external database exists.
 
 ### Using the Remove-NAVTableConnection cmdlet
 
