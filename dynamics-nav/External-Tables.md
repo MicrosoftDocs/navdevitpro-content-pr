@@ -276,11 +276,13 @@ The table has the name **MyExternalTable** and includes the following columns:
 |Name|nchar(30)|
 |Date| datetime| 
 
+
+
 > [!TIP]
 > Use SQL Server Management Studio to create, modify, and view the external table.
 
 ### Create the [!INCLUDE[navnow_md](includes/navnow_md.md)] companion table
-1. Using the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], create a table object that has the name **MyNavTable**, and set the following properties:
+1. Using the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], create a table object and set the following properties:
 
     |Property|Value|
     |--------|-----|
@@ -297,96 +299,75 @@ The table has the name **MyExternalTable** and includes the following columns:
     |Date|datetime||
 
     In this example, you want the `No.` field to map to the `ID` field in the external database. Because the names are different, you have to set the `ExternalName`property of the `No.` field to the column name in the external table, which in this case is `ID`. 
+3. Save the table and give it the ID **50010** and name **MySampleTable**.
 
-The code for the new table will be similar to the following:
+
+### Create a page for viewing data of the companion table from the client
+1. Create a list page object that has the table **MySampleTable** as its source and includes the three fields of the table. Give the page the name **MySamplePage**.
+2. Add the following code to `OnInit` page trigger to register and set the connection to the external table:
+
+    ```
+    IF HASTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1') THEN
+        UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');
+    REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalTable;Integrated Security=SSPI;');
+    SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');
+    ```
+
+The code for the new page will be similar to the following:
 
 ```
-OBJECT Table 5001 MyNavTable
+OBJECT Page 50010 MySamplePage
 {
-    OBJECT-PROPERTIES
-    {
-        Date=;
-        Time=;
-        Modified=;
-     Version List=;
-    }
-    PROPERTIES
-    {
-        TableType=ExternalSQL;
-        ExternalName=MyExternalTable;
-        ExternalSchema=dbo;
-    }
-    FIELDS
-    {
-        { 1   ;   ;No.                 ;Integer       ;ExternalName=ID;
-                                                   DataClassification=ToBeClassified }
-        { 2   ;   ;Name                ;Text30        ;DataClassification=ToBeClassified }
-        { 3   ;   ;Date                ;DateTime      ;DataClassification=ToBeClassified }
-    }
-    KEYS
-    {
-        {    ;No.                                     ;Clustered=Yes }
-    }
-    FIELDGROUPS
-    {
-    }
-    CODE
-    {
+  OBJECT-PROPERTIES
+  {
+    Date=;
+    Time=;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+    SourceTable=Table5006;
+    PageType=Worksheet;
+    OnInit=BEGIN
+        IF HASTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1') THEN
+            UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');
+        REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalTable;Integrated Security=SSPI;');
+        SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');
+    END;
 
-        BEGIN
-        END.
-    }
-}
-```
-### Create a page for modifying data of the companion table from the client
-
-Using the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], create a list page object that has the companion table **MyNavTable** as its source and includes the three fields of the table. Give the page the name **MySamplePage**.
-
-The page code will be similar to the following:
-
-```
-OBJECT Page 5001 MySamplePage
-{
-    OBJECT-PROPERTIES
-    {
-        Date=;
-        Time=;
-        Modified=;
-        Version List=;
-    }
-    PROPERTIES
-    {
-        SourceTable=Table5006;
-        PageType=List;
-    }
-    CONTROLS
-    {
-        { 1   ;0   ;Container ;
+  }
+  CONTROLS
+  {
+    { 1   ;0   ;Container ;
                 ContainerType=ContentArea }
 
-        { 2   ;1   ;Group     ;
+    { 2   ;1   ;Group     ;
                 Name=Group;
                 GroupType=Repeater }
 
-        { 3   ;2   ;Field     ;
-                SourceExpr="No." }
+    { 3   ;2   ;Field     ;
+                SourceExpr="No."; }
 
-        { 4   ;2   ;Field     ;
-                SourceExpr=Name }
+    { 4   ;2   ;Field     ;
+                SourceExpr=Name;
+                QuickEntry=False }
 
-        { 5   ;2   ;Field     ;
+    { 5   ;2   ;Field     ;
                 SourceExpr=Date }
 
-    }
-    CODE
-    {
+  }
+  CODE
+  {
 
-        BEGIN
-        END.
-    }
+    BEGIN
+    END.
+  }
 }
+
 ```
 
+<!--
 ### Add code to register and set connection to the external table
 
 For this example, you want to register the connection to the database when the company opens.  To do this, you create a codeunit that subscribes to the `OnAfterCompanyOpen()` event that is published by the codeunit **1 ApplicationManagement**.
@@ -447,13 +428,14 @@ OBJECT Codeunit 5001 RegsisterExternalConnections
     }
 } 
 ```
+-->
 
 ### Test the external table connection
 
 Run page **MySamplePage** to open it in the client. Add and modify records in the list, and then view the external table **MyExternalTable** in SQL Server Management Studio to verify the changes. 
 
 ## Example 2
-This example is a slightly modified version of the previous example. Instead of registering and setting the external table connection when the **MySamplePage** opens, this example registers and sets the external table connection when the company opens by subscribing to the `OnAfterCompanyOpen()` event that is published by the codeunit **1 ApplicationManagement**. 
+This example slightly modifies the previous example. Instead of registering and setting the external table connection when the **MySamplePage** opens, this example registers and sets the external table connection when the company opens. This is done by subscribing to the `OnAfterCompanyOpen()` event that is published by the codeunit **1 ApplicationManagement**. 
 
 1. Using the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], create a codeunit object that has the name **RegistesterExternalConnections**.
 
@@ -472,40 +454,40 @@ This example is a slightly modified version of the previous example. Instead of 
     SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');
     ```
 
-The codeunit code will be similar to the following:
+    The codeunit code will be similar to the following:
 
-```
-OBJECT Codeunit 5001 RegsisterExternalConnections
-{
-    OBJECT-PROPERTIES
+    ```
+    OBJECT Codeunit 50010 RegsisterExternalConnections
     {
-        Date=;
-        Time=1;
-        Modified=;
-        Version List=;
-    }
-    PROPERTIES
-    {
-        OnRun=BEGIN
+        OBJECT-PROPERTIES
+        {
+            Date=;
+            Time=1;
+            Modified=Yes;
+            Version List=;
+        }
+        PROPERTIES
+        {
+            OnRun=BEGIN
+                END;
+
+        }
+        CODE
+        {
+
+            [EventSubscriber(Codeunit,1,OnAfterCompanyOpen)]
+            LOCAL PROCEDURE InitializeTableConnections@1();
+            BEGIN
+                REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalDatabase;Integrated Security=SSPI;');
+                SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');
             END;
 
-    }
-    CODE
-    {
-
-        [EventSubscriber(Codeunit,1,OnAfterCompanyOpen)]
-        LOCAL PROCEDURE InitializeTableConnections@1();
-        BEGIN
-            UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1');
-            REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalDatabase;Integrated Security=SSPI;');
-            SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');
-        END;
-
-        BEGIN
-        END.
-    }
-} 
-```
+            BEGIN
+            END.
+        }
+    } 
+    ```
+4. In the **MySamplePage** page, remove the code on the `OnInit` page trigger that registers and sets the connection to the external table.
 
 ## See Also  
  [TableType Property](TableType-Property.md)   
