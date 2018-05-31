@@ -58,14 +58,14 @@ On the field-level, you set the following properties:
 |[ExternalName](externalname-property.md)|The name of the table in the external database. This property is required only if the field's **Name** property differs from the column name in the external table.|
 
 ## Registering a table connection
-The first step when using an external table is to register a connection to the database that contains the external table, making it available for use. There are two ways to do this. One way is to call the REGISTERTABLECONNECTION function from code. The other way is to use the [New-NAVTableConnection cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navtableconnection) from the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. 
+The first step when using an external table is to register a connection to the database that contains the external table. This makes the connection available for use. There are two ways to do this. One way is to call the REGISTERTABLECONNECTION function from code. The other way is to use the [New-NAVTableConnection cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navtableconnection) from the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. 
 
 -  Using the REGISTERTABLECONNECTION function provides a more dynamic and customizable way of registering a table connection. When registered by the REGISTERTABLECONNECTION function, the connection is registered for the current client session only and will clear once the session has ended.
 
--  Using the New-NAVTableConnection cmdlet provides a static and global way of registering a table connection. The registered table connection is stored to the application database, which makes it available always.
+-  Using the New-NAVTableConnection cmdlet provides a static and global way of registering a table connection. The registered table connection is stored to the application database, which makes the connection available always.
 
 ### Using the REGISTERTABLECONNECTION function
-The REGISTERTABLECONNECTION function can be called from anywhere in your application code. For example, you might want to register the connection when the page that uses the table is opened or when the company is initialized (see the [Examples](#Examples) section to see these example in code). 
+The REGISTERTABLECONNECTION function can be called from anywhere in your application code. For example, you might want to register the connection when the page that uses the table is opened or when the company is initialized (see the [examples](#Examples) section to see these in code). 
 
 The REGISTERTABLECONNECTION function has the following syntax:
 
@@ -119,7 +119,7 @@ REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyAzureTableConnectio
 ``` 
 
 ### Using the New-NAVTableConnection cmdlet
-The New-NAVTableConnection cmdlet adds the table connection information to a table in the [!INCLUDE[navnow](includes/navnow_md.md)] database. In a multitenant deployment, information about the connections is added to a table in the application database. Unlike using the REGISTERTABLECONNECTION function, you do not have to provide the connection string to the external database; only the database information. The actual connection string will be automatically determined. 
+The New-NAVTableConnection cmdlet stores the external table connection information to a table in the [!INCLUDE[navnow](includes/navnow_md.md)] database. In a multitenant deployment, information about the tables connections is added to a table in the application database. Unlike using the REGISTERTABLECONNECTION function, you do not have to provide the connection string to the external database; only the database information. The actual connection string will be automatically determined. 
 
 To register a table connection, start the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)], and then run the following command:
 
@@ -133,7 +133,7 @@ New-NAVTableConnection -ServerInstance DynamicsNAV -ConnectionType ExternalSQL -
 ```
 
 > [!TIP]
-> To get information about registered table connections, use the [Get-NAVTableConnection](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navtableconnection) cmdlet.
+> To get information about registered table connections, use the [Get-NAVTableConnection cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navtableconnection).
 
 
 ## Setting a table connection 
@@ -162,7 +162,7 @@ When done using an external table connection or the connection must be refreshed
 
 ### Using the UNREGISTERTABLECONNECTION function
 
-When a table connection is registered by the REGISTERTABLECONNECTION function, it remains registered until the current client session has ended. If there is application code that tries to register table connection that is currently registered, a runtime error occurs. To avoid this, use UNREGISTERTABLECONNECTION function before calling the UNREGISTERTABLECONNECTION function.
+When a table connection is registered by the REGISTERTABLECONNECTION function, it remains registered until the current client session has ended. If there is application code that tries to register a table connection that is currently registered, a runtime error occurs. To avoid this, call the UNREGISTERTABLECONNECTION function before calling the REGISTERTABLECONNECTION function.
 
 > [!NOTE]
 > When UNREGISTERTABLECONNECTION is called, the current transaction will be rolled back.  
@@ -199,9 +199,9 @@ Remove-NAVTableConnection -ServerInstance DynamicsNAV -ConnectionType ExternalSQ
 ```
 
 > [!TIP]
-> To get information about registered table connections, use the [Get-NAVTableConnection](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navtableconnection) cmdlet.
+> To get information about registered table connections, use the [Get-NAVTableConnection](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/get-navtableconnection) cmdlet.
 
-## Example 1
+## <a name="Examples"></a>Example 1
 This example integrates a simple table from an external SQL Server database. In addition to a companion table in [!INCLUDE[navnow](includes/navnow_md.md)], a page is also added for entering data into the table from the client.
 
 > [!TIP]
