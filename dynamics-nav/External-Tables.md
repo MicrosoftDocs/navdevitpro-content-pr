@@ -201,10 +201,10 @@ Remove-NAVTableConnection -ServerInstance DynamicsNAV -ConnectionType ExternalSQ
 > To get information about registered table connections, use the [Get-NAVTableConnection](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/get-navtableconnection) cmdlet.
 
 ## <a name="Examples"></a>Example 1
-This example integrates a simple table from an external SQL Server database. In addition to a companion table in [!INCLUDE[navnow](includes/navnow_md.md)], a page is also added for entering data into the table from the client.
+This example integrates a simple table from an external SQL Server database. It adds a companion table in [!INCLUDE[navnow](includes/navnow_md.md)] for the external table and a page for viewing and modifying data in the client. The registration and setting of the external table connection is controlled from the page code and occurs when the page opens. 
 
 > [!TIP]
-> For more examples of how you can use these functions, see codeunits 5330 and 5331 in the standard version of [!INCLUDE[navnow](includes/navnow_md.md)].  
+> For more examples of how you can use the functions related to external tables, see codeunits 5330 and 5331 in the standard version of [!INCLUDE[navnow](includes/navnow_md.md)].  
 
 ### Prerequisites
 
