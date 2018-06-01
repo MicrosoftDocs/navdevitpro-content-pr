@@ -57,7 +57,7 @@ On the field-level, you set the following properties:
 |[Length](datalength-property.md) |The length the matches the column in the external table.|
 |[ExternalName](externalname-property.md)|The name of the table in the external database. This property is required only if the field's **Name** property differs from the column name in the external table.|
 
-## Registering a table connection
+## Registering an external table connection
 The first step when using an external table is to register a connection to the database that contains the external table. This makes the connection available for use. There are two ways to do this. One way is to call the REGISTERTABLECONNECTION function from code. The other way is to use the [New-NAVTableConnection cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navtableconnection) from the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. 
 
 -  Using the REGISTERTABLECONNECTION function provides a more dynamic and customizable way of registering a table connection. When registered by the REGISTERTABLECONNECTION function, the connection is registered for the current client session only and will clear once the session has ended.
@@ -136,14 +136,15 @@ New-NAVTableConnection -ServerInstance DynamicsNAV -ConnectionType ExternalSQL -
 > To get information about registered table connections, use the [Get-NAVTableConnection cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navtableconnection).
 
 
-## Setting a table connection 
-After the code for registering the connection is in place, the next step is to add code to establish the connection to the external table. This is done by adding a call to the SETDEFAULTTABLECONNECTION function on the registered table connection's name. 
+## Setting an external table connection 
+After the code for registering the connection is in place, the next step is to add code to establish the connection to the external table. This is done by adding a call to the SETDEFAULTTABLECONNECTION function. 
 
 The SETDEFAULTTABLECONNECTION function has the following syntax:
 
 ```  
 SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<TableConnectionName>');  
 ```  
+`<TableConnectionName>` is the name that is assigned to the external table connection by the REGISTERTABLECONNECTION function.
 
 For example, together with the REGISTERTABLECONNECTION function, your code might look like this:
 
@@ -152,8 +153,7 @@ REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1', 
 SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');  
 ```  
 
-## Unregistering a table connection  
-
+## Unregistering an external table connection  
 When done using an external table connection or the connection must be refreshed, it can be unregistered by using either the UNREGISTERTABLECONNECTION function or the [Remove-NAVTableConnection cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/remove-navtableconnection). 
 
 -   If a table connection was registered by the UNREGISTERTABLECONNECTION function, use the UNREGISTERTABLECONNECTION function. 
@@ -161,7 +161,6 @@ When done using an external table connection or the connection must be refreshed
 -   If a table connection was registered by the New-NAVTableConnection cmdlet, use the Remove-NAVTableConnection cmdlet. 
 
 ### Using the UNREGISTERTABLECONNECTION function
-
 When a table connection is registered by the REGISTERTABLECONNECTION function, it remains registered until the current client session has ended. If there is application code that tries to register a table connection that is currently registered, a runtime error occurs. To avoid this, call the UNREGISTERTABLECONNECTION function before calling the REGISTERTABLECONNECTION function.
 
 > [!NOTE]
