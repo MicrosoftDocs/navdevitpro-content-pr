@@ -207,7 +207,6 @@ This example integrates a simple table from an external SQL Server database. It 
 > For more examples of how you can use the functions related to external tables, see codeunits 5330 and 5331 in the standard version of [!INCLUDE[navnow](includes/navnow_md.md)].  
 
 ### Prerequisites
-
 This example assumes that the following external database and table already exist. 
 
 **External database properties**
