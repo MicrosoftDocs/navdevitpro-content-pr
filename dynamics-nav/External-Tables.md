@@ -10,14 +10,19 @@ ms.prod: "dynamics-nav-2018"
 ---
 # External Tables 
 
-This article describes how to integrate an external table into a [!INCLUDE[navnow](includes/navnow_md.md)] application. An *external table* is a table that resides outside of the [!INCLUDE[navnow](includes/navnow_md.md)] database, in another database either on SQL Server or Azure SQL Database. The external database can be hosted on the same database server as the [!INCLUDE[navnow](includes/navnow_md.md)] database or a different server. 
+This article describes how to integrate an external table into a [!INCLUDE[navnow](includes/navnow_md.md)] application.
 
 > [!NOTE]
-> The concepts discussed in the article provide the basis for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with external products like [!INCLUDE[crm](includes/crm_md.md)], Microsoft Graph, and Exchange. Microsoft Graph and Exchange integration is automatically done for you. For [!INCLUDE[crm](includes/crm_md.md)] integration, we provide several tools and features that make the integration easier than doing it all manually. For more information, see [Integrating Dynamics 365 for Sales in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md).
+> The concepts discussed in the article provide the basis for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with external products like [!INCLUDE[crm](includes/crm_md.md)], Microsoft Graph, and Exchange. Microsoft Graph and Exchange integration is done for you. For [!INCLUDE[crm](includes/crm_md.md)] integration, we provide several tools and features that make the integration easier than doing it all manually. For more information, see [Integrating Dynamics 365 for Sales in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md).
 
 ## About external tables
+
+An *external table* is a table that resides outside of the [!INCLUDE[navnow](includes/navnow_md.md)] database, in another database either on SQL Server or Azure SQL Database. The external database can be hosted on the same database server as the [!INCLUDE[navnow](includes/navnow_md.md)] database or a different server. 
+
+### How this differs from linked objects
 You might be familiar with the *linked objects* feature in [!INCLUDE[navnow](includes/navnow_md.md)], which offers another way of integrating an external SQL table (see [Using Linked Objects](Using-Linked-Objects.md)). The difference with the method described in this article is that the table connections are controlled at runtime. This provides a more dynamic table relationship than creating table definitions from SQL Server objects using linked objects. 
 
+### What are the guidleines for using an external table
 In general, to use an external table, you perform the following tasks:
 
 -   Create a table in [!INCLUDE[navnow](includes/navnow_md.md)] that represents the external table. This table is referred to as the *companion* table.
@@ -28,12 +33,12 @@ In general, to use an external table, you perform the following tasks:
     -   Setting the table connection.
     -   Unregistering the table connection. 
 
--  Create a page that uses the companion table as its source to enable client users can view, modify, create, and delete records in the table. 
+-  Create a page that uses the companion table as its source to enable client users can view, modify, create, and delete records in the table. This task is optional.
 
 At runtime, data from the external table is read into the [!INCLUDE[navnow](includes/navnow_md.md)] table. When records from the external table are instantiated, the connection is set on them. Any changes that client users make to records are pushed back to the external table. 
 
 
-### Commits on external tables
+### How commits on external tables are handled 
 [!INCLUDE[navnow](includes/navnow_md.md)] commits on all connections at the same time. This includes the tenant database connection, application database connection (in a multitenant deployment), and any registered external table connections. If an error occurs that prevents a commit, transactions on all connections in use are rolled back. 
 
 ## Creating a [!INCLUDE[navnow](includes/navnow_md.md)] companion table
