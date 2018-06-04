@@ -22,7 +22,7 @@ An *external table* is a table that resides outside of the [!INCLUDE[navnow](inc
 ### How this differs from linked objects
 You might be familiar with the *linked objects* feature in [!INCLUDE[navnow](includes/navnow_md.md)], which offers another way of integrating an external SQL table (see [Using Linked Objects](Using-Linked-Objects.md)). The difference with the method described in this article is that the table connections are controlled at runtime. This provides a more dynamic table relationship than creating table definitions from SQL Server objects using linked objects. 
 
-### What the guidleines for using an external table are
+### What the guidelines for using an external table are
 In general, to use an external table, you perform the following tasks:
 
 -   Create a table in [!INCLUDE[navnow](includes/navnow_md.md)] that represents the external table. This table is referred to as the *companion* table.
@@ -51,7 +51,7 @@ On the table-level, you must set the following properties:
 |--------|-----|
 |[TableType](tabletype-property.md)|**ExternalSQL**|
 |[ExternalName](externalname-property.md)|The name of the table in the external database.|
-|[ExternalSchema](externalschema-property.md)|The database schema of the external database.|
+|[ExternalSchema](externalschema-property.md)|The schema of the table in the external database.|
 
 On the field-level, you set the following properties:
 
@@ -60,7 +60,7 @@ On the field-level, you set the following properties:
 |[Name](name-property.md)|The name to assign the field. You can use the same name as the column in the external table or use a different name. If you use a different name, you must set the field's **ExternalName** property.|
 |[DataType](data-type-property.md)|The data type that matches the column in the external table. For more information, see [Representation of SQL Data Types](Identifiers--Data-Types--and-Data-Formats.md#SQLDataType). |
 |[Length](datalength-property.md) |The length the matches the column in the external table.|
-|[ExternalName](externalname-property.md)|The name of the table in the external database. This property is required only if the field's **Name** property differs from the column name in the external table.|
+|[ExternalName](externalname-property.md)|The name of the column in the external table. This property is required only if the field's **Name** property differs from the column name in the external table.|
 
 ## Registering an external table connection
 The first step when using an external table is to register a connection to the database that contains the external table. This makes the connection available for use. There are two ways to do this. One way is to call the REGISTERTABLECONNECTION function from code. The other way is to use the [New-NAVTableConnection cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navtableconnection) from the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. 
@@ -96,9 +96,9 @@ For example:
 REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalDatabase;User ID=admin;Password=P@ssword123!');
 ``` 
 
-#### SQL Server database with trusted authentication
+#### SQL Server database with Windows authentication
 
-Trusted authentication uses the login credentials of the current user to make the connection to SQL Server, where SQL Server validates the uses against Windows Active Directory. The server is identified by the its name, or IP address, and the database instance:  
+Windows authentication uses the login credentials of the current user to make the connection to SQL Server, where SQL Server validates the uses against Windows Active Directory. The server is identified by the its name, or IP address, and the database instance:  
 
 ```  
 REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, '<TableConnectionName>', 'Data Source=<DatabaseServer>\<DatabaseServerInstance>;Initial Catalog=<DatabaseName>;Integrated Security=SSPI;');  
@@ -124,7 +124,7 @@ REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyAzureTableConnectio
 ``` 
 
 ### Using the New-NAVTableConnection cmdlet
-The New-NAVTableConnection cmdlet stores the external table connection information to a table in the [!INCLUDE[navnow](includes/navnow_md.md)] database. In a multitenant deployment, information about the tables connections is added to a table in the application database. Unlike using the REGISTERTABLECONNECTION function, you do not have to provide the connection string to the external database; only the database information. The actual connection string will be automatically determined. 
+The New-NAVTableConnection cmdlet stores the external table connection information to a table in the [!INCLUDE[navnow](includes/navnow_md.md)] database. Information about table connections is stored in an application table. Unlike using the REGISTERTABLECONNECTION function, you do not have to provide the connection string to the external database; only the database information. The actual connection string will be automatically determined. 
 
 To register a table connection, start the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)], and then run the following command:
 
@@ -159,7 +159,7 @@ SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1')
 ```  
 
 ## Unregistering an external table connection  
-When done using an external table connection or the connection must be refreshed, it can be unregistered by using either the UNREGISTERTABLECONNECTION function or the [Remove-NAVTableConnection cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/remove-navtableconnection). 
+When done using an external table connection or if the connection must be refreshed, it can be unregistered by using either the UNREGISTERTABLECONNECTION function or the [Remove-NAVTableConnection cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/remove-navtableconnection). 
 
 -   If a table connection was registered by the UNREGISTERTABLECONNECTION function, use the UNREGISTERTABLECONNECTION function. 
 
@@ -217,17 +217,19 @@ This example assumes that the following external database and table already exis
 **External database properties**
 
 The external database has the following properties:
+
 |Property|Value|
 |--------|-----|
 |Database server name|MyDatabaseServer|
 |Database server instance|NAVDEMO|
 |Authentication|Windows|
 |Database name|MyExternalDatabase|
-|Schema| dbo||
+|Schema| dbo|
 
 **External table**
 
 The table has the name **MyExternalTable** and includes the following columns:
+
 |Column Name|Data Type|
 |-----------|---------|
 |ID|int|
@@ -248,11 +250,11 @@ The table has the name **MyExternalTable** and includes the following columns:
  
 2. Add the three fields to the table that map to the columns in the external table:
 
-    |Name|Data Type|Length|
-    |----|---------|------|
-    |No.|integer||
-    |Name|text|30|
-    |Date|datetime||
+    |Name|Data Type|Length|ExternalName|
+    |----|---------|------|------------|
+    |No.|integer||ID|
+    |Name|text|30||
+    |Date|datetime|||
 
     In this example, you want the `No.` field to map to the `ID` field in the external database. Because the names are different, you mustset the `ExternalName`property of the `No.` field to the column name in the external table, which in this case is `ID`. 
 3. Save the table and give it the ID **50101** and name **MySampleTable**.
