@@ -35,14 +35,15 @@ In general, to use an external table, you perform the following tasks:
 
 -  Create a page that uses the companion table as its source to enable client users can view, modify, create, and delete records in the table. This task is optional.
 
-At runtime, data from the external table is read into the [!INCLUDE[navnow](includes/navnow_md.md)] table. When records from the external table are instantiated, the connection is set on them. Any changes that client users make to records are pushed back to the external table. 
+At runtime, data from the external table is read into the [!INCLUDE[navnow](includes/navnow_md.md)] record instance. The data is not persisted in the local database; it is only in memory.
+
+When records from the external table are instantiated, the connection is set on them. Any changes that client users make to records are pushed back to the external table. 
 
 
 ### How commits on external tables are handled 
-[!INCLUDE[navnow](includes/navnow_md.md)] commits on all connections at the same time. This includes the tenant database connection, application database connection (in a multitenant deployment), and any registered external table connections. If an error occurs that prevents a commit, transactions on all connections in use are rolled back. 
+[!INCLUDE[navnow](includes/navnow_md.md)] commits on all connections at the same time. This includes the application database connection (in a multitenant deployment), tenant database connection, and any registered external table connections. If there are open transactions on more than one database, then commits will occur one database at a time, starting with the application database. If a commit fails, the current transaction and all remaining transactions will be rolled back; any transactions that were successfully committed will not be rolled back.
 
 ## Creating a [!INCLUDE[navnow](includes/navnow_md.md)] companion table
-
 You create a companion table in [!INCLUDE[navnow](includes/navnow_md.md)] like any other table, except there are several properties that you set to couple the companion table with the external table. Structurally, the companion table reflects that of the external table, although you do not have to include all columns of the external table. For each column in the external table that you want accessible from [!INCLUDE[navnow](includes/navnow_md.md)], you add a field with a compatible data type to the companion table.
 
 On the table-level, you must set the following properties:
