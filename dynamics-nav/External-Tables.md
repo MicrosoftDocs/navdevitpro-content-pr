@@ -13,7 +13,7 @@ ms.prod: "dynamics-nav-2018"
 This article describes how to integrate an external table into a [!INCLUDE[navnow](includes/navnow_md.md)] application.
 
 > [!NOTE]
-> The concepts discussed in the article provide the basis for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with external products like [!INCLUDE[crm](includes/crm_md.md)], Microsoft Graph, and Exchange. Microsoft Graph and Exchange integration is done for you. For [!INCLUDE[crm](includes/crm_md.md)] integration, we provide several tools and features that make the integration easier than doing it all manually. For more information, see [Integrating Dynamics 365 for Sales in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md).
+> The concepts discussed in the article provide the basis for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with external products like [!INCLUDE[crm](includes/crm_md.md)], Microsoft Graph, and Exchange. Microsoft Graph and Exchange integration is done for you. For [!INCLUDE[crm](includes/crm_md.md)] integration, we provide several tools and features that make the integration easier than doing it all manually as described in this article. For more information, see [Integrating Dynamics 365 for Sales in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md).
 
 ## About external tables
 
