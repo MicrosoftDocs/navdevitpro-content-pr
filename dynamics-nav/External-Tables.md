@@ -22,7 +22,7 @@ An *external table* is a table that resides outside of the [!INCLUDE[navnow](inc
 ### How this differs from linked objects
 You might be familiar with the *linked objects* feature in [!INCLUDE[navnow](includes/navnow_md.md)], which offers another way of integrating an external SQL table (see [Using Linked Objects](Using-Linked-Objects.md)). The difference with the method described in this article is that the table connections are controlled at runtime. This provides a more dynamic table relationship than creating table definitions from SQL Server objects using linked objects. 
 
-### What are the guidleines for using an external table
+### What the guidleines for using an external table are
 In general, to use an external table, you perform the following tasks:
 
 -   Create a table in [!INCLUDE[navnow](includes/navnow_md.md)] that represents the external table. This table is referred to as the *companion* table.
@@ -255,11 +255,11 @@ The table has the name **MyExternalTable** and includes the following columns:
     |Date|datetime||
 
     In this example, you want the `No.` field to map to the `ID` field in the external database. Because the names are different, you mustset the `ExternalName`property of the `No.` field to the column name in the external table, which in this case is `ID`. 
-3. Save the table and give it the ID **50010** and name **MySampleTable**.
+3. Save the table and give it the ID **50101** and name **MySampleTable**.
 
 
 ### Create a page for viewing data of the companion table from the client
-1. Create a list-type page object that has the table **MySampleTable** as its source and includes the three fields of the table. Give the page the name **MySamplePage**.
+1. Create a list-type page object that has the table **MySampleTable** as its source and includes the three fields of the table. Give the page the ID **50name **MySamplePage**.
 2. Add the following code to `OnInit` page trigger to register and set the connection to the external table:
 
     ```
@@ -272,7 +272,7 @@ The table has the name **MyExternalTable** and includes the following columns:
 The code for the new page will look like this:
 
 ```
-OBJECT Page 50010 MySamplePage
+OBJECT Page 50101 MySamplePage
 {
   OBJECT-PROPERTIES
   {
@@ -283,7 +283,7 @@ OBJECT Page 50010 MySamplePage
   }
   PROPERTIES
   {
-    SourceTable=Table50010;
+    SourceTable=Table50101;
     PageType=List;
     OnInit=BEGIN
         IF HASTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1') THEN
@@ -349,7 +349,7 @@ This example slightly modifies the previous example. Instead of registering and 
     The codeunit code will look like this:
 
     ```
-    OBJECT Codeunit 50010 RegisterExternalConnections
+    OBJECT Codeunit 50101 RegisterExternalConnections
     {
         OBJECT-PROPERTIES
         {
