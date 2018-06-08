@@ -159,7 +159,7 @@ FROM "Salesperson/Purchaser" LEFT OUTER JOIN "Sales Header"
  The record for **New Concepts** in the Sales Header table does not have a matching record in the Salesperson/Purchaser table, so a row is included but the columns from the Salesperson/Purchaser table are given null values. The record for **Bart** in the Salesperson/Purchaser table is not included in the resulting dataset because it does not have a matching column in the Sales Header table.  
   
 ### SQL SELECT Statement for Right Outer Join  
- To specify a left outer join with an SQL statement, you use the RIGHT OUTER JOIN condition.  
+ To specify a right outer join with an SQL statement, you use the RIGHT OUTER JOIN condition.  
   
  The following example shows how to create a right outer join on the Salesperson/Purchaser and Sales Header tables by using a SQL statement.  
   
@@ -196,7 +196,7 @@ FROM "Salesperson/Purchaser" RIGHT OUTER JOIN "Sales Header"
  The records for **Bart** in the Salesperson/Purchaser table and **New Concepts** in the Sales Header table are included in a row, even though they not have matching values for columns.  
   
 ### SQL SELECT Statement for Full Outer Join  
- To specify a left outer join with an SQL statement, you use the FULL OUTER JOIN condition.  
+ To specify a full outer join with an SQL statement, you use the FULL OUTER JOIN condition.  
   
  The following example shows how to create a full outer join on the Salesperson/Purchaser and Sales Header tables by using a SQL statement.  
   

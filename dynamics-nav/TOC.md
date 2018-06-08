@@ -342,6 +342,7 @@
 ### [Deprecated Fields, and Fields Marked as Obsolete](deprecated-fields.md)
 ### [Deprecated Features in the Austrian Version](deprecated-features-at.md)
 ### [Deprecated Features in the Australian Version](deprecated-features-au.md)
+### [Deprecated Features in the Belgian Version](deprecated-features-be.md)
 ### [Deprecated Features in the Dutch Version](deprecated-features-nl.md)
 ### [Deprecated Features in the Finnish Version](deprecated-features-fi.md)
 ### [Deprecated Features in the French Version](deprecated-features-fr.md)
