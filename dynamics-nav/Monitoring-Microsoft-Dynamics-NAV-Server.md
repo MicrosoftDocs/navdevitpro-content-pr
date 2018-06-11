@@ -22,8 +22,6 @@ These articles describe the features for monitoring and troubleshooting [!INCLUD
 
 [Monitoring Long Running SQL Queries to the Event Log](Monitoring-Long-Running-SQL-Queries-Event-Log.md)  
 
-[Troubleshooting: Using the Event Log to Monitor Long Running SQL Queries in Dynamics NAV](troubleshooting-long-running-queries-using-event-log.md)
-
 [Troubleshooting: Using Query Store to Monitor Query Performance in Dynamics NAV](troubleshooting-query-performance-using-query-store.md)
 
 ## See Also
