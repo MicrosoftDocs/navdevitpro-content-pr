@@ -2,7 +2,7 @@
 title: "Troubleshooting: Analyzing Long Running SQL Queries Involving FlowFields by Disabling SmartSQL"
 description: This topic describes how to troubleshoot long running SQL queries that involve FlowFields by disabling SmartSQL.
 ms.custom: na
-ms.date: 12/28/2016
+ms.date: 06/08/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
