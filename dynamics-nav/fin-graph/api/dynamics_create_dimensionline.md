@@ -1,6 +1,6 @@
 ---
 title: Create dimensionLines | Microsoft Docs
-description: Creates a dimension line in Dynamics 365 for Financials.
+description: Creates a dimension line in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

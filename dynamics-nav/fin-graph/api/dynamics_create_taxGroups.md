@@ -1,6 +1,6 @@
 ---
 title: Create taxGroups | Microsoft Docs
-description: Creates a tax group object in Dynamics 365 for Financials. 
+description: Creates a tax group object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

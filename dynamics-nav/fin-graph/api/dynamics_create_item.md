@@ -1,6 +1,6 @@
 ---
 title: Create items | Microsoft Docs
-description: Creates an item object in Dynamics 365 for Financials.
+description: Creates an item object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

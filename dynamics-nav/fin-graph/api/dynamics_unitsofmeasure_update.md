@@ -1,6 +1,6 @@
 ---
 title: Update unitsOfMeasure | Microsoft Docs
-description: Updates a unit of measure object in Dynamics 365 for Financials.
+description: Updates a unit of measure object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
