@@ -1,6 +1,6 @@
 ---
 title: Delete customerPaymentsJournals | Microsoft Docs
-description: Deletes a customer payment journal in Dynamics 365 for Financials.
+description: Deletes a customer payment journal in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

@@ -2,18 +2,17 @@
 title: Set Primary and Secondary Keys
 description: When you create a table in Table Designer, the field with the lowest field number sets the primary key. Use this procedure to define a different primary key.
 ms.custom: na 
-ms.date: 12/06/2017
+ms.date: 06/13/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.assetid: cf31b59c-3436-48cb-ae78-c8e03a80ca92
-caps.latest.revision: 10
 manager: edupont
 ---
 # Define Primary and Secondary Keys
-A maximum of 20 distinct fields can be used to define a primary key. The number of fields used in the primary key limits the number of fields in the secondary keys. Fields used by one key can also be used in another key; however, no more than 20 unique fields can be used to create primary or secondary keys.  
+You can use a maximum of 16 distinct fields to define a primary key. The number of fields used in the primary key limits the number of fields in the secondary keys. Fields used by one key can also be used in another key; however, no more than 16 unique fields can be used to create primary or secondary keys.  
   
  This means that if your primary key includes four distinct fields, your secondary keys can include these four fields, and at most 16 other fields. Correspondingly, if your primary key consists of 20 distinct fields, then your secondary keys must consist only of combinations of these fields.  
   
@@ -35,6 +34,9 @@ A maximum of 20 distinct fields can be used to define a primary key. The number 
      The **Keys** window appears.  
   
 5.  In the first line of the **Keys** window, enter the primary key as a comma-delimited list; for example, "ID Number, Name".  
+
+> [!NOTE]  
+>  In the development environment, it is technically possible to create a primary key based on up to 20 fields. However, only the first 16 are used.  
   
 ## Defining Secondary Keys  
  Up to 40 keys can be defined for a table. The first key defined is the primary key. All the other keys are secondary keys and are optional. Secondary keys are used to view records in an order that is different from the order defined by the primary key fields.  
@@ -51,8 +53,8 @@ A maximum of 20 distinct fields can be used to define a primary key. The number 
   
      The **Keys** window appears.  
   
-5.  The first line shows the primary key. Enter the secondary keys on the following lines as comma-separated lists; for example: Name, Address.  
-  
+5.  The first line shows the primary key. Enter the secondary keys on the following lines as comma-separated lists; for example: Name, Address.    
+
 ## See Also  
  [Table Keys](Table-Keys.md)   
  [How to: View or Modify Properties on a Key](How-to--View-or-Modify-Properties-on-a-Key.md)

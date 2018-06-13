@@ -1,6 +1,6 @@
 ---
 title: Create currencies | Microsoft Docs
-description: Creates a currency object in Dynamics 365 for Financials.
+description: Creates a currency object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

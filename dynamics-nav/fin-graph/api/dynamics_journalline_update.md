@@ -1,6 +1,6 @@
 ---
 title: Update journalLines | Microsoft Docs
-description: Updates a journal line in Dynamics 365 for Financials.
+description: Updates a journal line in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

@@ -1,6 +1,6 @@
 ---
 title: Create vendors | Microsoft Docs
-description: Creates a vendor object in Dynamics 365 for Financials. 
+description: Creates a vendor object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
