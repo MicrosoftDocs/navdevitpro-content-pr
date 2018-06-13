@@ -29,7 +29,7 @@ If the value of the [SqlLongRunningThreshold](configuring-microsoft-dynamics-nav
 ![Threshold exceeded](media/EventViewerExample1.png)
 
 
-If you want to see how the individual calls that you have on a page performed, you can disable the SmartSQL optimization. This will help you find the slow subquery and then you can work on improving its performance. For more information about it, see [Troubleshooting: Analyzing Long Running SQL Queries Involving FlowFields by Disabling SmartSQL](troubleshooting-queries-involving-flowfields-by-disabling-smartsql#How-to-isolate-and-test-FlowField-queries).
+If you want to see how the individual calls that you have on a page performed, you can disable the SmartSQL optimization. This will help you find the slow subquery and then you can work on improving its performance. For more information about it, see [Troubleshooting: Analyzing Long Running SQL Queries Involving FlowFields by Disabling SmartSQL](troubleshooting-queries-involving-flowfields-by-disabling-smartsql.md#How-to-isolate-and-test-FlowField-queries).
 
 
 In some cases, you can see what caused the delay by looking at the SQL statement that came out of the AL callstack. The code below shows which AL methods slowed the perfomance of the query.
