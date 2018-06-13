@@ -1,6 +1,6 @@
 ---
 title: Get salesInvoices | Microsoft Docs
-description: Gets a sales invoice object in Dynamics 365 for Financials. 
+description: Gets a sales invoice object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

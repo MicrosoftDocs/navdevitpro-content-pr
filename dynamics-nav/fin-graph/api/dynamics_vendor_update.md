@@ -1,6 +1,6 @@
 ---
 title: Update vendors | Microsoft Docs
-description: Updates a vendor object in Dynamics 365 for Financials.
+description: Updates a vendor object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

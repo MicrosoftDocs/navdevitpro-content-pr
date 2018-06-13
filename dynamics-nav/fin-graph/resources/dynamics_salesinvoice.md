@@ -60,6 +60,16 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |salesperson            |string, maximum size 20|The salesperson code for the invoice.          |
 |lastModifiedDateTime   |datetime   |The last datetime the sales invoice was modified. Read-Only.|
 
+## Bound actions
+The salesInvoices resource type offers a bound action called `pdfDocument` which returns the response with a PDF print-out of the corresponding document as binary content.
+
+Getting a link to the content of the PDF is illustrated in the following example:  
+`GET http://<server address>:<server API port>/<server instance name>/api/beta/companies({id})/salesInvoices({id})/pdfDocument`.
+
+Getting the content of the response, the actual PDF file in binary format, is illustrated in the following example:  
+`GET http://<server address>:<server API port>/<server instance name>/api/beta/companies({id})/salesInvoices({id})/pdfDocument({id})/content`.
+
+
 
 ## Relationships
 A Currency (currencyCode) must exist in the Currencies table.

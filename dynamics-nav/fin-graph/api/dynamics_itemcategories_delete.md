@@ -1,6 +1,6 @@
 ---
 title: Delete itemCategories | Microsoft Docs
-description: Deletes an item category in Dynamics 365 for Financials.
+description: Deletes an item category in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
