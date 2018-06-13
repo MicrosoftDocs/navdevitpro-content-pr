@@ -32,7 +32,7 @@ If the value of the [SqlLongRunningThreshold](configuring-microsoft-dynamics-nav
 If you want to see how the individual calls that you have on a page performed, you can disable the SmartSQL optimization. This will help you find the slow subquery and then you can work on improving its performance. For more information about it, see [Troubleshooting: Analyzing Long Running SQL Queries Involving FlowFields by Disabling SmartSQL](troubleshooting-queries-involving-flowfields-by-disabling-smartsql.md#how-to-isolate-and-test-flowfield-queries).
 
 
-In some cases, you can see what caused the delay by looking at the SQL statement that came out of the AL callstack. The code below shows which AL methods slowed the performance of the query.
+In some cases, you can see what caused the delay by looking at the SQL statement that came out of the `AL CallStack`. The code below shows which AL methods slowed the performance of the query.
 
 ```
 Server instance: Navision_NAV
