@@ -1,6 +1,6 @@
 ---
 title: Create journals | Microsoft Docs
-description: Creates a journal object in Dynamics 365 for Financials.
+description: Creates a journal object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

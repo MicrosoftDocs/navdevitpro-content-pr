@@ -1,6 +1,6 @@
 ---
 title: Create journalLines | Microsoft Docs
-description: Creates a journal line in Dynamics 365 for Financials.
+description: Creates a journal line in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

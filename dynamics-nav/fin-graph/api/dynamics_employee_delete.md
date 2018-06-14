@@ -1,6 +1,6 @@
 ---
 title: Delete employees | Microsoft Docs
-description: Deletes an employee object in Dynamics 365 for Financials.
+description: Deletes an employee object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

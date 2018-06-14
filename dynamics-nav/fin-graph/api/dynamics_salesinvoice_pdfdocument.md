@@ -1,6 +1,6 @@
 ---
-title: Get accounts | Microsoft Docs
-description: Gets an account object in Dynamics 365 Business Central.
+title: Get pdfDocument | Microsoft Docs
+description: Gets a PDF document on a salesInvoice in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,16 +10,24 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/19/2018
+ms.date: 06/13/2018
 ms.author: solsen
 ---
 
-# Get accounts
-Retrieve the properties and relationships of an account object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+# Get pdfDocument
+Retrieve a PDF print-out of the corresponding document as binary content for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
 
 ## HTTP request
+The following example gets a link to the content of the PDF:
+
 ```
-GET /businesscentral/companies({id})/accounts({id})
+GET /businesscentral/api/beta/companies({id})/salesInvoices({id})/pdfDocument
+```
+The following example gets the content, the actual PDF file in binary format:
+
+```
+GET /businesscentral/api/beta/companies({id})/salesInvoices({id})/pdfDocument/content
 ```
 
 ## Request headers
@@ -31,23 +39,21 @@ GET /businesscentral/companies({id})/accounts({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an **accounts** object in the response body.
+If successful, this method returns a ```200 OK``` response code and a ??? in the response body.
 
 ## Example
 
 **Request**
-
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/accounts({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesInvoices({id})/pdfDocument
 ```
 
 **Response**
-
-Here is an example of the response. 
+Here is an example of the response.
 
 > [!NOTE]  
->   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {

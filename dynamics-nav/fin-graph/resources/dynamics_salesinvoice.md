@@ -29,6 +29,12 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |[PATCH salesInvoices](../api/dynamics_salesinvoice_update.md) |salesInvoices|Updates a sales invoice object.|
 |[DELETE salesInvoices](../api/dynamics_salesinvoice_delete.md)|none         |Deletes a sales invoice object.|
 
+## Bound actions
+
+|Action          |Return type   |Description         |
+|----------------|--------------|--------------------|
+|[GET pdfDocument]()|pdfDocument|Gets a PDF document.|
+
 ## Properties
 | Property	            | Type	|Description                                                |
 |:----------------------|:----------|:----------------------------------------------------------|
@@ -59,7 +65,6 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |shipmentMethod         |string, maximum size 10|The shipment method of the invoice.            |
 |salesperson            |string, maximum size 20|The salesperson code for the invoice.          |
 |lastModifiedDateTime   |datetime   |The last datetime the sales invoice was modified. Read-Only.|
-
 
 ## Relationships
 A Currency (currencyCode) must exist in the Currencies table.

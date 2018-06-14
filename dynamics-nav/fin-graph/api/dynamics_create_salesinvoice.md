@@ -1,6 +1,6 @@
 ---
 title: Create salesInvoices | Microsoft Docs
-description: Create a sales invoice object in Dynamics 365 for Financials. 
+description: Create a sales invoice object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

@@ -1,6 +1,6 @@
 ---
 title: Get incomeStatement | Microsoft Docs
-description: Gets an income statement object in Dynamics 365 for Financials.
+description: Gets an income statement object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

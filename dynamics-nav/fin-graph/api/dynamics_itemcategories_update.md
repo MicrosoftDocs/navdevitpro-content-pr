@@ -1,6 +1,6 @@
 ---
 title: Update itemCategories | Microsoft Docs
-description: Updates an item category in Dynamics 365 for Financials.
+description: Updates an item category in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

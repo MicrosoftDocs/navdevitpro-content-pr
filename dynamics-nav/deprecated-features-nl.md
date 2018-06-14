@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: deprecated, Dutch, NL, Netherlands, local functionality
-ms.date: 12/21/2017
+ms.date: 06/07/2017
 ms.author: bholtorf
 
 ---
@@ -30,6 +30,13 @@ By default, [!INCLUDE[navnow](includes/navnow_md.md)] does not show these totals
 |Moved, Removed, or Replaced?| Why?|
 |----|----|
 | Moved | The feature to check totals for purchase invoices and credit memos is no longer specific to the Netherlands, so we have made it generally available in the standard product.|
+
+## Standard Sales and Purchase Lines Setup
+You can specify in the Sales & Receivables and Purchases & Payables windows how the standard sales or purchase codes will be entered when you create different sales or purchase documents.
+
+|Moved, Removed, or Replaced?| Why?|
+|----|----|
+| Moved | The feature to set up standard sales or purchase lines is no longer specific to the Netherlands, so we have made it generally available in the standard product.|
 
 ## See Also
 [Upgrading to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](upgrading-to-microsoft-dynamics-nav.md)  

@@ -1,6 +1,6 @@
 ---
 title: Create unitsOfMeasure | Microsoft Docs
-description: Creates a unit of measure object in Dynamics 365 for Financials. 
+description: Creates a unit of measure object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

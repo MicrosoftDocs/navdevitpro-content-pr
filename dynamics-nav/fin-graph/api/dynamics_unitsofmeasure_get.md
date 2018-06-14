@@ -1,6 +1,6 @@
 ---
 title: Get unitsOfMeasure | Microsoft Docs
-description: Gets a unit of measure object in Dynamics 365 for Financials. 
+description: Gets a unit of measure object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

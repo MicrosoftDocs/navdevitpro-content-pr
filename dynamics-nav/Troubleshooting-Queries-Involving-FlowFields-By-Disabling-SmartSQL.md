@@ -2,7 +2,7 @@
 title: "Troubleshooting: Analyzing Long Running SQL Queries Involving FlowFields by Disabling SmartSQL"
 description: This topic describes how to troubleshoot long running SQL queries that involve FlowFields by disabling SmartSQL.
 ms.custom: na
-ms.date: 12/28/2016
+ms.date: 06/08/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -87,10 +87,12 @@ Now, when loading the page, each FlowField calculation is performed as a separat
 
 Once the slow subquery has been identified, you can create an index to improve its performance (or enable the MaintainSIFTIndex property of the key, if it is disabled).
 
-As you can see, poor performance might not be caused by the SmartSQL optimization. However, the fact that SmartSQL queries are not cached will only amplify the issue. It won’t help to customize the page or change the visibility of the field either. If a FlowField is contained in the metadata of the page, it will be calculated.
+As you can see, poor performance might not be caused by the SmartSQL optimization. However, the fact that SmartSQL queries are not cached will only amplify the issue. It will not help to customize the page or change the visibility of the field either. If a FlowField is contained in the metadata of the page, it will be calculated.
 
 ## See Also
 [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)  
 [SQL Server Profiler](https://docs.microsoft.com/en-us/sql/tools/sql-server-profiler/sql-server-profiler)  
+[Monitoring Long Running SQL Queries to the Event Log](monitoring-long-running-sql-queries-event-log.md)  
+[Troubleshooting: Using the Event Log to Monitor Long Running SQL Queries in Dynamics NAV](troubleshooting-long-running-queries-using-event-log.md)  
 [Troubleshooting: Using Query Store to Monitor Query Performance in Dynamics NAV](troubleshooting-query-performance-using-query-store.md)  
 [SQL Trace](https://docs.microsoft.com/en-us/sql/relational-databases/sql-trace/sql-trace)

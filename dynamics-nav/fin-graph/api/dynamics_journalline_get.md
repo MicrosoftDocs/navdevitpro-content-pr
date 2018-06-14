@@ -1,6 +1,6 @@
 ---
 title: Get journalLines | Microsoft Docs
-description: Gets a journal line object in Dynamics 365 for Financials.
+description: Gets a journal line object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

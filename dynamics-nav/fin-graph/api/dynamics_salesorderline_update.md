@@ -1,6 +1,6 @@
 ---
 title: Update salesOrderLines | Microsoft Docs
-description: Update a sales order line object in Dynamics 365 for Financials.
+description: Update a sales order line object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
