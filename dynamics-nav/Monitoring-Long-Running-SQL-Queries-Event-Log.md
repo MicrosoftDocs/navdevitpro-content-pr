@@ -29,11 +29,11 @@ Set-NAVServerConfiguration -ServerInstance <ServerInstanceName> -KeyName SqlLong
 
 
 ## See Also
-<!-- Include 
-[Troubleshooting: Using the Event Log to Monitor Long Running SQL Queries in Dynamics NAV](troubleshooting-long-running-queries-using-event-log.md) once is done. -->
 
+[Troubleshooting: Using the Event Log to Monitor Long Running SQL Queries in Dynamics NAV](troubleshooting-long-running-queries-using-event-log.md)     
+[Troubleshooting: Analyzing Long Running SQL Queries Involving FlowFields by Disabling SmartSQL](troubleshooting-queries-involving-flowfields-by-disabling-smartsql.md)  
 [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)  
-[Set-NAVServerConfiguration](https://go.microsoft.com/fwlink/?linkid=401394)   
+[Set-NAVServerConfiguration](https://go.microsoft.com/fwlink/?linkid=401394)      
 [Tools for Monitoring Performance Counters and Events](Tools-for-Monitoring-Performance-Counters-and-Events.md)  
 [Monitoring Microsoft Dynamics NAV Server Using Performance Counters](Monitoring-Microsoft-Dynamics-NAV-Server-Using-Performance-Counters.md)  
 [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)    

@@ -28,6 +28,8 @@ The following articles describe how to optimize performance in [!INCLUDE[navnowl
 
 [Troubleshooting: Using Query Store to Monitor Query Performance in Dynamics NAV](troubleshooting-query-performance-using-query-store.md)
 
+[Troubleshooting: Using the Event Log to Monitor Long Running SQL Queries in Dynamics NAV](troubleshooting-long-running-queries-using-event-log.md)
+
 ## See Also  
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
  [Microsoft SQL Server documentation](http://go.microsoft.com/fwlink/?LinkId=253107)
