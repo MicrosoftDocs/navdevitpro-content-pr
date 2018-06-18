@@ -24,11 +24,6 @@ The following example gets a link to the content of the PDF:
 ```
 GET /businesscentral/api/beta/companies({id})/salesInvoices({id})/pdfDocument
 ```
-The following example gets the content, the actual PDF file in binary format:
-
-```
-GET /businesscentral/api/beta/companies({id})/salesInvoices({id})/pdfDocument/content
-```
 
 ## Request headers
 |Header|Value|
@@ -39,7 +34,7 @@ GET /businesscentral/api/beta/companies({id})/salesInvoices({id})/pdfDocument/co
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and a ??? in the response body.
+If successful, this method returns a ```200 OK``` response code and a link to the PDF document in the response body.
 
 ## Example
 
@@ -57,16 +52,19 @@ Here is an example of the response.
 
 ```json
 {
-    "id": "id-value",
-    "number": "10700",
-    "displayName": "Inventory",
-    "category": "Assets",
-    "subCategory": "Inventory",
-    "blocked": false,
-    "lastModifiedDateTime": "2017-03-15T02:20:58.747Z"
+
+    "@odata.context":"http://api.businesscentral.dynamics.com/v1.0/api/beta/$metadata#companies('CRONUS%20International%20Ltd.')/salesInvoices(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument",
+    "value":
+    [
+        {
+            "@odata.etag":"W/\"JzQ0O0tQNUdjaUtZcU8rcUNCQTdXOUxIZVEwalA0clhjSmlXU1pqWjQ4RFczd2s9MTswMDsn\"",
+            "id":"94913756-80e9-47bc-995a-048a655b8cdd",
+            "content@odata.mediaEditLink":"http://api.businesscentral.dynamics.com/v1.0/api/beta/companies(name='CRONUS%20International%20Ltd.')/salesInvoices  (94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument(94913756-80e9-47bc-995a-048a655b8cdd)/content",
+            "content@odata.mediaReadLink":"http:// api.businesscentral.dynamics.com/v1.0/pi/beta/companies(name='CRONUS%20International%20Ltd.')/salesInvoices(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument(94913756-80e9-47bc-995a-048a655b8cdd)/content"
+        }
+    ]
 }
 ```
-
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
