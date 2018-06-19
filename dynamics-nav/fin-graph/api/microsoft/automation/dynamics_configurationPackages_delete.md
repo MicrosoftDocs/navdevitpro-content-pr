@@ -19,7 +19,7 @@ Deletes a configurationPackage object for [!INCLUDE[d365fin_long_md](../../inclu
 
 ## HTTP request
 ```json
-DELETE /microsoft/automation/beta/companies({companyId})//configurationPackages('{packageName}')
+DELETE /microsoft/automation/beta/companies({companyId})/configurationPackages('{packageName}')
 ```
 
 ## Request headers
@@ -39,7 +39,7 @@ If successful, this method returns a ```204 No Content``` response code.
 
 Here is an example of the request.
 ```json
-DELETE https://api.businesscentral.dynamics.com/v1.0/api//microsoft/automation/beta/companies({companyId})//configurationPackages('{packageName}')
+DELETE https://api.businesscentral.dynamics.com/v1.0/api//microsoft/automation/beta/companies({companyId})/configurationPackages('{packageName}')
 ```
 
 ## See Also

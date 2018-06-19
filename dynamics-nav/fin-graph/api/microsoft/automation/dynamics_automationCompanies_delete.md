@@ -19,7 +19,7 @@ Retrieve the properties and relationships of an automationCompany object for [!I
 
 ## HTTP request
 ```
-DELETE /microsoft/automation/beta/companies({{companyID}})/automationCompanies({{companyIDToBeDeleted}})
+DELETE /microsoft/automation/{apiVersion}/companies({companyID})/automationCompanies({companyIDToBeDeleted})
 ```
 
 ## Request headers
@@ -39,7 +39,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/{version}/companies({id})/automationCompanies
+DELETE https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/beta/companies({id})/automationCompanies({{companyIDToBeDeleted}})
 ```
 
 **Response**

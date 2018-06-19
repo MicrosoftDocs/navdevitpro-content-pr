@@ -1,6 +1,6 @@
 ---
-title: userGroup resource type | Microsoft Docs
-description: A user in Dynamics 365 Business Central.
+title: userGroupMember resource type | Microsoft Docs
+description: A userGroupMember in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: henrikwh, SusanneWindfeldPedersen
@@ -25,23 +25,18 @@ Represents a userGroup resource type in [!INCLUDE[d365fin_long_md](../../include
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET userGroups](../api/microsoft/automation/dynamics_user_get.md)|userGroup|Gets all userGroups|
-
-## Bound Actions 
-
-| Action         | Return Type  |Description|
-|:---------------|:-------------|:----------|
-|[GET userGroups](../api/microsoft/automation/dynamics_user_get.md)|userGroup|Gets all userGroups|
-
+|[GET userGroupMembers](../api/microsoft/automation/dynamics_userGroupMembers_get.md)|userGroup|Gets all userGroups|
+|[POST userGroupMembers](../api/microsoft/automation/dynamics_userGroupMembers_post.md)|userGroup|Add user to userGroups|
+|[DELETE userGroupMembers](../api/microsoft/automation/dynamics_userGroupMembers_delete.md)|userGroup|Remove user from userGroups|
 
 ## Properties
 
 | Property | Type |Description                             |
 |:----------------|:-----|:---------------------------------------|
 |code               |string  |code of the userGroup.|
-|displayName      |string|Display of the useGroup.     |
-|defaultProfileID|string|Id of the defaultProfile.|
-|assignToAllNewUsers|boolean|If true, all new users are assigned to userGroup|
+|userSecurityID      |Guid|SecurityId of the user.     |
+|companyName|string|Name of the company.|
+|displayName|string|Displayname of the userGroup.|
 
 ## Relationships / Navigtion properties
 
@@ -53,33 +48,34 @@ Here is a JSON representation of the extension.
 
 ```json
 {
-    "code": "D365 ADMINISTRATOR",
-    "displayName": "Opret og opsæt virksomheder",
-    "defaultProfileID": "VIRKSOMHEDSLEDER",
-    "assignToAllNewUsers": false
+    "code": "D365 BUS PREMIUM",
+    "userSecurityID": "5bb78dd8-9b40-4fc5-bc79-a28918f9d70e",
+    "companyName": "CRONUS Danmark A/S",
+    "displayName": "D365 Premium Business-adgang"
 }
 
 ```
+
+<!-- 
 ## EDM metadata
 
 ```xml
 <EntityType Name="userGroupMember">
-                <Key>
-                    <PropertyRef Name="code" />
-                    <PropertyRef Name="userSecurityID" />
-                    <PropertyRef Name="companyName" />
-                </Key>
-                <Property Name="code" Type="Edm.String" Nullable="false" MaxLength="20" />
-                <Property Name="userSecurityID" Type="Edm.Guid" Nullable="false" />
-                <Property Name="companyName" Type="Edm.String" Nullable="false" MaxLength="30" />
-                <Property Name="displayName" Type="Edm.String" MaxLength="50" />
-                <NavigationProperty Name="userGroup" Type="Microsoft.NAV.userGroup" ContainsTarget="true" />
-                <NavigationProperty Name="user" Type="Microsoft.NAV.user" ContainsTarget="true" />
-                <NavigationProperty Name="automationCompany" Type="Microsoft.NAV.automationCompany" ContainsTarget="true" />
-            </EntityType>
-
+    <Key>
+        <PropertyRef Name="code" />
+        <PropertyRef Name="userSecurityID" />
+        <PropertyRef Name="companyName" />
+    </Key>
+    <Property Name="code" Type="Edm.String" Nullable="false" MaxLength="20" />
+    <Property Name="userSecurityID" Type="Edm.Guid" Nullable="false" />
+    <Property Name="companyName" Type="Edm.String" Nullable="false" MaxLength="30" />
+    <Property Name="displayName" Type="Edm.String" MaxLength="50" />
+    <NavigationProperty Name="userGroup" Type="Microsoft.NAV.userGroup" ContainsTarget="true" />
+    <NavigationProperty Name="user" Type="Microsoft.NAV.user" ContainsTarget="true" />
+    <NavigationProperty Name="automationCompany" Type="Microsoft.NAV.automationCompany" ContainsTarget="true" />
+    </EntityType>
 ```
-
+ -->
 ## See Also
 
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

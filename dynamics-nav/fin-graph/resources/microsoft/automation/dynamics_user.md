@@ -37,10 +37,8 @@ Represents a user resource type in [!INCLUDE[d365fin_long_md](../../includes/d36
 |expiryDate|DateTimeOffset|Specifies the installation status.|
 
 ## Relationships / Navigtion properties
-
-
-                <NavigationProperty Name="userGroupMembers" Type="Collection(Microsoft.NAV.userGroupMember)" ContainsTarget="true" />
-                <NavigationProperty Name="userPermissions" Type="Collection(Microsoft.NAV.userPermission)" ContainsTarget="true" />
+The navigational property userGroupMembers links to the users  group membership.
+The navigational property userPermissions links to the users permissions.
 
 ## JSON representation
 Here is a JSON representation of the extension.
@@ -57,6 +55,22 @@ Here is a JSON representation of the extension.
 
 ```
 
+<!-- 
+```xml
+           <EntityType Name="user">
+                <Key>
+                    <PropertyRef Name="userSecurityId" />
+                </Key>
+                <Property Name="userSecurityId" Type="Edm.Guid" Nullable="false" />
+                <Property Name="userName" Type="Edm.String" MaxLength="50" />
+                <Property Name="displayName" Type="Edm.String" MaxLength="80" />
+                <Property Name="state" Type="Edm.String" />
+                <Property Name="expiryDate" Type="Edm.DateTimeOffset" />
+                <NavigationProperty Name="userGroupMembers" Type="Collection(Microsoft.NAV.userGroupMember)" ContainsTarget="true" />
+                <NavigationProperty Name="userPermissions" Type="Collection(Microsoft.NAV.userPermission)" ContainsTarget="true" />
+            </EntityType>
+```
+ -->
 ## See Also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  

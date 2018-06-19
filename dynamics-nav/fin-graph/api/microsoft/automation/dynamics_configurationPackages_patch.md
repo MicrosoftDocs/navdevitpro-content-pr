@@ -22,7 +22,7 @@ Uploads a RapidStart package to the configurationPackage object for [!INCLUDE[d3
 ### Upload RapidStart package
 
 ```json
-Patch /microsoft/automation/beta/companies({companyId})//configurationPackages('{packageName}')/file('{packageName}')/content
+PATCH /microsoft/automation/{apiVersion}/companies({companyId})/configurationPackages('{packageName}')/file('{packageName}')/content
 Content-type: application/octet-stream
 {
     FILE
@@ -35,6 +35,7 @@ Content-type: application/octet-stream
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
 |Content-type|application/octet-stream|
+|If-Match|*|
 
 ## Request body
 Content of the requestbody is a RapidStart package.
@@ -51,6 +52,7 @@ Here is an example of the request.
 PATCH https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/beta/companies({companyId})//configurationPackages('{packageName}')/file('{packageName}')/content
 Authorization : Bearer {token}
 Content-type : application/octet-stream
+If-Match:-*
 {
     FILE
 }

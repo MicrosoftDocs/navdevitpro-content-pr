@@ -14,8 +14,8 @@ ms.date: 06/15/2018
 ms.author: henrikwh, solsen
 ---
 
-# Get automationCompanies
-Retrieve the properties and relationships of an automationCompany object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+# Patch automationCompanies
+Patches an automationCompany object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```

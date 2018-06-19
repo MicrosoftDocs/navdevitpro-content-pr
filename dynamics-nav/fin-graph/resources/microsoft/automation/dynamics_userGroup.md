@@ -1,6 +1,6 @@
 ---
 title: userGroup resource type | Microsoft Docs
-description: A user in Dynamics 365 Business Central.
+description: A userGroup in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: henrikwh, SusanneWindfeldPedersen
@@ -25,7 +25,8 @@ Represents a userGroup resource type in [!INCLUDE[d365fin_long_md](../../include
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET userGroups](../api/microsoft/automation/dynamics_user_get.md)|userGroup|Gets all userGroups|
+|[GET userGroups](../api/microsoft/automation/dynamics_userGroup_get.md)|userGroup|Gets all userGroups|
+
 
 
 ## Properties
@@ -43,7 +44,7 @@ None
 
 ## JSON representation
 
-Here is a JSON representation of the extension.
+Here is a JSON representation of the userGroup.
 
 ```json
 {
@@ -54,7 +55,8 @@ Here is a JSON representation of the extension.
 }
 
 ```
-## EDM metadata
+
+<!-- ## EDM metadata
 
 ```xml
     <EntityType Name="userGroup">
@@ -67,7 +69,7 @@ Here is a JSON representation of the extension.
                 <Property Name="assignToAllNewUsers" Type="Edm.Boolean" />
     </EntityType>
 ```
-
+ -->
 
 ## See Also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
