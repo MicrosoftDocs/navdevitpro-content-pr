@@ -10,11 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/19/2018
+ms.date: 06/19/2018
 ms.author: henrikwh, SusanneWindfeldPedersen
 ---
 
 # extension resource type
+
 Represents a extension resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
 
 > [!NOTE]  
@@ -34,6 +35,7 @@ Represents a extension resource type in [!INCLUDE[d365fin_long_md](../../include
 |[Microsoft.NAV.uninstall](../api/microsoft/automation/dynamics_extension_post.md)|extension|Uninstalls an extension extensions.|
 
 ## Properties
+
 | Property	      | Type |Description                             |
 |:----------------|:-----|:---------------------------------------|
 |packageId               |GUID  |The unique ID of the package. Read-Only.|

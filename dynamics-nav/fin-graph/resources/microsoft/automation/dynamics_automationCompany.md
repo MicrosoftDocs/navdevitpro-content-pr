@@ -10,11 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/19/2018
+ms.date: 06/19/2018
 ms.author: henrikwh
 ---
 
 # automationCompany resource type
+
 Represents a automationCompany resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
 
 > [!NOTE]  
@@ -31,6 +32,7 @@ Represents a automationCompany resource type in [!INCLUDE[d365fin_long_md](../..
 
 
 ## Properties
+
 | Property	      | Type |Description                             |
 |:----------------|:-----|:---------------------------------------|
 |id               |GUID  |The unique ID of the company. Read-Only.|
@@ -41,9 +43,11 @@ Represents a automationCompany resource type in [!INCLUDE[d365fin_long_md](../..
 
 
 ## Relationships
+
 None
 
 ## JSON representation
+
 Here is a JSON representation of the automationCompany.
 
 ```json

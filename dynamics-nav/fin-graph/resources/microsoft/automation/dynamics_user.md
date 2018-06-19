@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/19/2018
+ms.date: 06/19/2018
 ms.author: henrikwh, SusanneWindfeldPedersen
 ---
 
@@ -37,7 +37,8 @@ Represents a user resource type in [!INCLUDE[d365fin_long_md](../../includes/d36
 |expiryDate|DateTimeOffset|Specifies the installation status.|
 
 ## Relationships / Navigtion properties
-None
+
+
                 <NavigationProperty Name="userGroupMembers" Type="Collection(Microsoft.NAV.userGroupMember)" ContainsTarget="true" />
                 <NavigationProperty Name="userPermissions" Type="Collection(Microsoft.NAV.userPermission)" ContainsTarget="true" />
 

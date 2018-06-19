@@ -23,10 +23,19 @@ Install and uninstall published extensions in [!INCLUDE[d365fin_long_md](../../i
 |:---------------|:-------------|:----------|
 |[Microsoft.NAV.install](../api/microsoft/automation/dynamics_extension_post.md)|extension|Installs an published extension.|
 |[Microsoft.NAV.uninstall](../api/microsoft/automation/dynamics_extension_post.md)|extension|Uninstalls an extension extensions.|
+
 ## HTTP requests
+
+### Install extension
+
+```json
+POST /microsoft/automation/{version}/companies({companyId})//extensions({{extensionId}})/Microsoft.NAV.install
 ```
-POST /microsoft/automation/{version}/companies({{companyId}})//extensions({{extensionId}})/Microsoft.NAV.install
-POST /microsoft/automation/{version}/companies({{companyId}})//extensions({{extensionId}})/Microsoft.NAV.ininstall
+
+### Uninstall extension
+
+```json
+POST /microsoft/automation/{version}/companies({companyId})//extensions({{extensionId}})/Microsoft.NAV.ininstall
 ```
 
 ## Request headers
@@ -46,7 +55,7 @@ If successful, this method returns a ```200 OK``` response code.
 
 Here is an example of the request.
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/beta/companies({companyId})/extensions(extensionId)/Microsoft.NAV.install
+POST https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/beta/companies({companyId})/extensions({extensionId})/Microsoft.NAV.install
 ```
 
 
