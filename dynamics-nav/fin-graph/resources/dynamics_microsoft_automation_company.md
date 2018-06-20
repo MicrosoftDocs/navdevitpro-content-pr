@@ -28,7 +28,8 @@ Represents a user resource type in [!INCLUDE[d365fin_long_md](../../includes/d36
 
 
 ## Properties
-| Property	      | Type |Description                             |
+
+| Property | Type |Description                             |
 |:----------------|:-----|:---------------------------------------|
 |id               |GUID  |The unique ID of the company. Read-Only.|
 |systemVersion             |string|The systemVersion.                  |
@@ -36,17 +37,17 @@ Represents a user resource type in [!INCLUDE[d365fin_long_md](../../includes/d36
 |name      |string|Name of the company.     |
 |businessProfileId|string|Id of the businesProfile.|
 
-## Relationships / Navigtion properties
-| Navigtion property	      | Type |Description                             |
+## Relationships / Navigation properties
+| Navigation property	      | Type |Description                             |
 |:----------------|:-----|:---------------------------------------|
-|automationCompanies               | automationCompany|Gets the automationCompanies |
-|extensions             |extension|Gets published extensions.                  |
-|userGroups      |userGroup|Gets userGroups.     |
-|users      |user|Gets the users.     |
-|userGroupMembers|userGroupMember|Gets userGroupMembers.|
-|userPermissions|userPermission|Gets avaliable userPermissions.|
-|permissionSets|permissionSet|Gets avaliable permissionSets.|
-|file|file|Gets file containing RapidStart package.|
+|[automationCompanies](../resources/dynamics_microsoft_automation_automationCompany.md)               | automationCompany|Gets the automationCompanies |
+|[extensions](../resources/dynamics_microsoft_automation_extension.md)             |extension|Gets published extensions.                  |
+|[userGroups](../resources/dynamics_microsoft_automation_userGroup.md)      |userGroup|Gets userGroups.     |
+|[users](../resources/dynamics_microsoft_automation_user.md)      |user|Gets the users.     |
+|[userGroupMembers](../resources/dynamics_microsoft_automation_userGroupMember.md)|userGroupMember|Gets userGroupMembers.|
+|[userPermissions](../resources/dynamics_microsoft_automation_userPermission.md)|userPermission|Gets avaliable userPermissions.|
+|[permissionSets](../resources/dynamics_microsoft_automation_permissionSet.md)|permissionSet|Gets avaliable permissionSets.|
+|[file](../resources/dynamics_microsoft_automation_file.md)|file|Gets file containing RapidStart package.|
 
 
 <!-- ```xml

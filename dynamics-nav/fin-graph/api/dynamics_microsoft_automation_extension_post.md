@@ -21,8 +21,8 @@ Install and uninstall published extensions in [!INCLUDE[d365fin_long_md](../../i
 
 | Actions         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[Microsoft.NAV.install](../api/microsoft/automation/dynamics_extension_post.md)|extension|Installs an published extension.|
-|[Microsoft.NAV.uninstall](../api/microsoft/automation/dynamics_extension_post.md)|extension|Uninstalls an extension extensions.|
+|[Microsoft.NAV.install](../api/dynamics_microsoft_automation_extension_post.md)|extension|Installs an published extension.|
+|[Microsoft.NAV.uninstall](../api/dynamics_microsoft_automation_extension_post.md)|extension|Uninstalls an extension extensions.|
 
 ## HTTP requests
 
@@ -66,8 +66,8 @@ POST https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/beta
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get extensions](../api/microsoft/automation/dynamics_extension_get.md)   
-[Install extension](../api/microsoft/automation/dynamics_extension_post.md)  
-[Uninstall extension](../api/microsoft/automation/dynamics_extension_post.md)  
-[Extension entity](../resources/microsoft/automation/dynamics_extension.md)
+[Get extensions](../api/dynamics_microsoft_automation_extension_get.md)   
+[Install extension](../api/dynamics_microsoft_automation_extension_post.md)  
+[Uninstall extension](../api/dynamics_microsoft_automation_extension_post.md)  
+[Extension entity](../resources/dynamics_microsoft_automation_extension.md)
 

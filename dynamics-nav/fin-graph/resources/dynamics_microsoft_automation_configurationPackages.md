@@ -25,19 +25,17 @@ Represents a configurationPackage resource type in [!INCLUDE[d365fin_long_md](..
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET configurationPackages](../api/microsoft/automation/dynamics_configurationPackages_get.md)|configurationPackage|Gets all configurationPackages|
-|[POST configurationPackages](../api/microsoft/automation/dynamics_configurationPackages_post.md)|none|Inserts a new configuration package
-|[Patch configurationPackages](../api/microsoft/automation/dynamics_configurationPackages_patch.md)|none|Upload a configurationPackage
-|[Delete configurationPackages](../api/microsoft/automation/dynamics_configurationPackages_delete.md)|none|Delete a configurationPackage
-
-
+|[GET configurationPackages](../api/dynamics_microsoft_automation_configurationPackages_get.md)|configurationPackage|Gets all configurationPackages|
+|[POST configurationPackages](../api/dynamics_microsoft_automation_configurationPackages_post.md)|none|Inserts a new configuration package
+|[Patch configurationPackages](../api/dynamics_microsoft_automation_configurationPackages_patch.md)|none|Upload a configurationPackage
+|[Delete configurationPackages](../api/dynamics_microsoft_automation_configurationPackages_delete.md)|none|Delete a configurationPackage
 
 ## Bound Actions
 
 | Actions         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[Microsoft.NAV.import](../api/microsoft/automation/dynamics_configurationPackages_post.md)|none|Imports configurationPackage.|
-|[Microsoft.NAV.apply](../api/microsoft/automation/dynamics_configurationPackages_post.md)|none|Applies configuration package.|
+|[Microsoft.NAV.import](../api/dynamics_microsoft_automation_configurationPackages_post.md)|none|Imports configurationPackage.|
+|[Microsoft.NAV.apply](../api/dynamics_microsoft_automation_configurationPackages_post.md)|none|Applies configuration package.|
 
 ## Properties
 
@@ -56,7 +54,7 @@ Represents a configurationPackage resource type in [!INCLUDE[d365fin_long_md](..
 |applyStatus|string|Status of configurationPackage apply|
 
 
-## Relationships / Navigtion properties
+## Relationships / Navigation properties
 
 None
 

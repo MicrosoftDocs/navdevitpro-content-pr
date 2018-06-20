@@ -21,8 +21,8 @@ Retrieve the properties and relationships of an configurationPackage object for 
 
 | Actions         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[Microsoft.NAV.import](../api/microsoft/automation/dynamics_extension_post.md)|none|Imports a configurationPackage.|
-|[Microsoft.NAV.apply](../api/microsoft/automation/dynamics_extension_post.md)|extension|Applies a configurationPackage.|
+|[Microsoft.NAV.import](../api/dynamics_microsoft_automation_extension_post.md)|none|Imports a configurationPackage.|
+|[Microsoft.NAV.apply](../api/dynamics_microsoft_automation_extension_post.md)|extension|Applies a configurationPackage.|
 
 ## HTTP requests
 ### Insert configurationPackage
@@ -93,4 +93,4 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Extension entity](../resources/microsoft/automation/dynamics_configurationPackages.md)  
+[Extension entity](../resources/dynamics_microsoft_automation_configurationPackages.md)  

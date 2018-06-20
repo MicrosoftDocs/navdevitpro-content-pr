@@ -25,10 +25,10 @@ Represents a automationCompany resource type in [!INCLUDE[d365fin_long_md](../..
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET automationCompanies](../api/microsoft/automation/dynamics_automationCompanies_get.md)|companies|Gets all automationCompanies.|
-|[POST automationCompanies](../api/microsoft/automation/dynamics_automationCompanies_post.md)|companies|Creates a company. automationCompanies.|
-|[DELETE automationCompanies](../api/microsoft/automation/dynamics_automationCompanies_delete.md)|companies|Deletes a company. automationCompanies.|
-|[PATCH automationCompanies](../api/microsoft/automation/dynamics_automationCompanies_patch.md)|companies|Updates a company, automationCompanies.|
+|[GET automationCompanies](../api/dynamics_microsoft_automation_automationCompanies_get.md)|companies|Gets all automationCompanies.|
+|[POST automationCompanies](../api/dynamics_microsoft_automation_automationCompanies_post.md)|companies|Creates a company. automationCompanies.|
+|[DELETE automationCompanies](../api/dynamics_microsoft_automation_automationCompanies_delete.md)|companies|Deletes a company. automationCompanies.|
+|[PATCH automationCompanies](../api/dynamics_microsoft_automation_automationCompanies_patch.md)|companies|Updates a company, automationCompanies.|
 
 
 ## Properties

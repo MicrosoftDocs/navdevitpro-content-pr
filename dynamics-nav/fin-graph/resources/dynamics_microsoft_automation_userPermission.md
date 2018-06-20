@@ -25,9 +25,9 @@ Represents a userPermissions resource type in [!INCLUDE[d365fin_long_md](../../i
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET userPermissions](../api/microsoft/automation/dynamics_userPermissions_get.md)|userPermission|Gets all userPermissions|
-|[POST userPermissions](../api/microsoft/automation/dynamics_userPermissions_post.md)|userGroup|Adds to userPermissions|
-|[DELETE userPermissions](../api/microsoft/automation/dynamics_userPermissions_delete.md)|userGroup|Removes from userPermissions|
+|[GET userPermissions](../api/dynamics_microsoft_automation_userPermissions_get.md)|userPermission|Gets all userPermissions|
+|[POST userPermissions](../api/dynamics_microsoft_automation_userPermissions_post.md)|userGroup|Adds to userPermissions|
+|[DELETE userPermissions](../api/dynamics_microsoft_automation_userPermissions_delete.md)|userGroup|Removes from userPermissions|
 
 ## Properties
 
@@ -38,7 +38,7 @@ Represents a userPermissions resource type in [!INCLUDE[d365fin_long_md](../../i
 |defaultProfileID|string|Id of the defaultProfile.|
 |assignToAllNewUsers|boolean|If true, all new users are assigned to userGroup|
 
-## Relationships / Navigtion properties
+## Relationships / Navigation properties
 
 None
 

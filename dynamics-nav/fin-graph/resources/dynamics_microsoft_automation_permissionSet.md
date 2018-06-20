@@ -25,7 +25,7 @@ Represents a permissionSet resource type in [!INCLUDE[d365fin_long_md](../../inc
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET permissionSets](../api/microsoft/automation/dynamics_permissionSet_get.md)|permissionSet|Gets permissionSets|
+|[GET permissionSets](../api/dynamics_microsoft_automation_permissionSet_get.md)|permissionSet|Gets permissionSets|
 
 
 ## Properties
@@ -38,7 +38,7 @@ Represents a permissionSet resource type in [!INCLUDE[d365fin_long_md](../../inc
 |displayName|string|If true, all new users are assigned to userGroup|
 |extensionName|string|If true, all new users are assigned to userGroup|
 
-## Relationships / Navigtion properties
+## Relationships / Navigation properties
 
 None
 

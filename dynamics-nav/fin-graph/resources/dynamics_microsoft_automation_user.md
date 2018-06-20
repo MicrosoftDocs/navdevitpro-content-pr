@@ -24,8 +24,8 @@ Represents a user resource type in [!INCLUDE[d365fin_long_md](../../includes/d36
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET user](../api/microsoft/automation/dynamics_user_get.md)|user|Gets all users.|
-|[PATCH user](../api/microsoft/automation/dynamics_user_get.md)|user|Update user properties|
+|[GET user](../api/dynamics_microsoft_automation_user_get.md)|user|Gets all users.|
+|[PATCH user](../api/dynamics_microsoft_automation_user_get.md)|user|Update user properties|
 
 ## Properties
 | Property	      | Type |Description                             |
@@ -36,7 +36,7 @@ Represents a user resource type in [!INCLUDE[d365fin_long_md](../../includes/d36
 |state      |string|Minor version of the extension.     |
 |expiryDate|DateTimeOffset|Specifies the installation status.|
 
-## Relationships / Navigtion properties
+## Relationships / Navigation properties
 The navigational property to userGroupMembers.
 The navigational property to userPermissions.
 
@@ -75,6 +75,6 @@ Here is a JSON representation of the user.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get extensions](../api/microsoft/automation/dynamics_extension_get.md)  
-[Install extension](../api/microsoft/automation/dynamics_extension_post.md)  
-[Uninstall extension](../api/microsoft/automation/dynamics_extension_post.md)  
+[Get extensions](../api/dynamics_microsoft_automation_extension_get.md)  
+[Install extension](../api/dynamics_microsoft_automation_extension_post.md)  
+[Uninstall extension](../api/dynamics_microsoft_automation_extension_post.md)  

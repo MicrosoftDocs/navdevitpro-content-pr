@@ -25,7 +25,7 @@ Represents a userGroup resource type in [!INCLUDE[d365fin_long_md](../../include
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET userGroups](../api/microsoft/automation/dynamics_userGroup_get.md)|userGroup|Gets all userGroups|
+|[GET userGroups](../api/dynamics_microsoft_automation_userGroup_get.md)|userGroup|Gets all userGroups|
 
 
 
@@ -38,7 +38,7 @@ Represents a userGroup resource type in [!INCLUDE[d365fin_long_md](../../include
 |defaultProfileID|string|Id of the defaultProfile.|
 |assignToAllNewUsers|boolean|If true, all new users are assigned to userGroup|
 
-## Relationships / Navigtion properties
+## Relationships / Navigation properties
 
 None
 

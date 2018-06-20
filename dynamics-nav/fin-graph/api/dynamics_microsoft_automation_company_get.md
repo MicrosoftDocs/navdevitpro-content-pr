@@ -66,4 +66,4 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Company entity](../resources/microsoft/automation/dynamics_company.md)  
+[Company entity](../resources/dynamics_microsoft_automation_company.md)  
