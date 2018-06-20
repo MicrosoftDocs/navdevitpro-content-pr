@@ -25,9 +25,9 @@ Represents a userPermissions resource type in [!INCLUDE[d365fin_long_md](../../i
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET userPermissions](../api/dynamics_microsoft_automation_userpermissions_get.md)|userPermission|Gets all userPermissions|
-|[POST userPermissions](../api/dynamics_microsoft_automation_userpermissions_post.md)|userGroup|Adds to userPermissions|
-|[DELETE userPermissions](../api/dynamics_microsoft_automation_userpermissions_delete.md)|userGroup|Removes from userPermissions|
+|[GET userPermissions](../api/dynamics_microsoft_automation_userpermission_get.md)|userPermission|Gets all userPermissions|
+|[POST userPermissions](../api/dynamics_microsoft_automation_userpermission_post.md)|userGroup|Adds to userPermissions|
+|[DELETE userPermissions](../api/dynamics_microsoft_automation_userpermission_delete.md)|userGroup|Removes from userPermissions|
 
 ## Properties
 
