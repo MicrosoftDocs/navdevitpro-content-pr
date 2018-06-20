@@ -38,7 +38,7 @@ The following characteristics are based on maximum capacity specifications for S
 |Range for field numbers|1 – 999,999,999|  
 |Maximum number of keys for a table|40|  
 |Maximum size of a [!INCLUDE[navnow](includes/navnow_md.md)] key|900 bytes|  
-|Maximum number of distinct fields per key|16|  
+|Maximum number of distinct fields per key|16 (15 for [shared schema database](convert-database-to-shared-schema.md))|  
 |Maximum size of an (non-key) index|1700 bytes|  
 |Maximum number of SumIndexFields per key|20|  
 |Maximum number of characters in a text or code field|250|  
