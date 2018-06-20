@@ -25,14 +25,14 @@ Represents a extension resource type in [!INCLUDE[d365fin_long_md](../../include
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET extensions](../api/microsoft/automation/dynamics_extension_get.md)|extension|Gets all extensions.|
+|[GET extensions](../api/microsoft/automation/dynamics_extension_get.md)|extension|Gets all published extensions.|
 
 ## Bound Actions
 
 | Actions         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[Microsoft.NAV.install](../api/microsoft/automation/dynamics_extension_post.md)|extension|Installs an published extension.|
-|[Microsoft.NAV.uninstall](../api/microsoft/automation/dynamics_extension_post.md)|extension|Uninstalls an extension extensions.|
+|[Microsoft.NAV.install](../api/microsoft/automation/dynamics_extension_post.md)|none|Installs an published extension.|
+|[Microsoft.NAV.uninstall](../api/microsoft/automation/dynamics_extension_post.md)|none|Uninstalls an extension extensions.|
 
 ## Properties
 

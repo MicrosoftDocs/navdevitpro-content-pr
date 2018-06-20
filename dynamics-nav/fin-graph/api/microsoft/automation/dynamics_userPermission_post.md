@@ -1,6 +1,6 @@
 ---
-title: Get userGroupMembers | Microsoft Docs
-description: Gets userGroupMember objects in Dynamics 365 Business Central.
+title: Update userPermission | Microsoft Docs
+description: Updates userGroupMember objects in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: henrikwh, SusanneWindfeldPedersen
@@ -15,25 +15,26 @@ ms.author: henrikwh, solsen
 ---
 
 # post userGroupMembers
-Adds user to a userGroupMembers object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Adds user to a userPermission object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```json
-POST /microsoft/automation/{apiVersion}/companies({companyId})/users({userSecurityID})/userGroupMembers
-
+POST /microsoft/automation/{apiVersion}/companies({companyId})/users({userSecurityID})/userPermissions
 ```
 
 ## Request headers
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
+|Content-Type|application/json|
+|If-Match|*|
 
 ## Request body
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```201 Created``` response code and a  **userGroupMembers** object in the response body.
+If successful, this method returns a ```201 Created``` response code and a  **userPermission** object in the response body.
 
 ## Example
 
@@ -41,13 +42,14 @@ If successful, this method returns a ```201 Created``` response code and a  **us
 
 Here is an example of the request.
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/beta/companies({companyId})/users({userSecurityID})/userGroupMembers
+POST https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/beta/companies({companyId})/users({userSecurityID})/userPermissions
 Content-Type:application/json
 If-Match:*
 { 
-    "code": "D365 EXT. ACCOUNTANT", 
-    "companyName" : "CRONUS Danmark A/S"
+    "id": "SECURITY", 
+    "company" : "CRONUS"
 }
+
 ```
 
 **Response**
@@ -59,10 +61,13 @@ Here is an example of the response.
 
 ```json
 {
-    "code": "D365 EXT. ACCOUNTANT",
-    "userSecurityID": "5bb78dd8-9b40-4fc5-bc79-a28918f9d70e",
-    "companyName": "CRONUS Danmark A/S",
-    "displayName": ""
+    "userSecurityID": "82ae94d5-3445-47de-8668-714b5113a9c2",
+    "id": "SECURITY",
+    "company": "",
+    "scope": "System",
+    "appID": "00000000-0000-0000-0000-000000000000",
+    "displayName": "",
+    "extensionName": ""
 }
 ```
 

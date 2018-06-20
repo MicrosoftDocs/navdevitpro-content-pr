@@ -20,7 +20,7 @@ Removes a user from userGroupMembers object for [!INCLUDE[d365fin_long_md](../..
 ## HTTP request
 
 ```json
-DELETE /microsoft/automation/{apiVersion}/companies({companyId})/users({userSecurityID})/userGroupMembers({code},{userSecurityID},{companyName})
+DELETE /microsoft/automation/{apiVersion}/companies({companyId})/users({userSecurityID})/userGroupMembers('{code}',{userSecurityID},'{companyName}')
 
 ```
 

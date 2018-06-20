@@ -37,8 +37,8 @@ Represents a user resource type in [!INCLUDE[d365fin_long_md](../../includes/d36
 |expiryDate|DateTimeOffset|Specifies the installation status.|
 
 ## Relationships / Navigtion properties
-The navigational property userGroupMembers links to the users  group membership.
-The navigational property userPermissions links to the users permissions.
+The navigational property to userGroupMembers.
+The navigational property to userPermissions.
 
 ## JSON representation
 Here is a JSON representation of the user.
