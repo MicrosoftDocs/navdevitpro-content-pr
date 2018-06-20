@@ -25,9 +25,9 @@ Represents a userGroup resource type in [!INCLUDE[d365fin_long_md](../../include
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET userGroupMembers](../api/dynamics_microsoft_automation_userGroupMembers_get.md)|userGroup|Gets all userGroups.|
-|[POST userGroupMembers](../api/dynamics_microsoft_automation_userGroupMembers_post.md)|userGroup|Add user to userGroups.|
-|[DELETE userGroupMembers](../api/dynamics_microsoft_automation_userGroupMembers_delete.md)|userGroup|Remove user from userGroups.|
+|[GET userGroupMembers](../api/dynamics_microsoft_automation_usergroupmembers_get.md)|userGroup|Gets all userGroups.|
+|[POST userGroupMembers](../api/dynamics_microsoft_automation_usergroupmembers_post.md)|userGroup|Add user to userGroups.|
+|[DELETE userGroupMembers](../api/dynamics_microsoft_automation_usergroupmembers_delete.md)|userGroup|Remove user from userGroups.|
 
 ## Properties
 

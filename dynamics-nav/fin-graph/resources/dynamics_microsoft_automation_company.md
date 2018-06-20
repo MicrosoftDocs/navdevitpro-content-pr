@@ -40,14 +40,14 @@ Represents a user resource type in [!INCLUDE[d365fin_long_md](../../includes/d36
 ## Relationships / Navigation properties
 | Navigation property	      | Type |Description                             |
 |:----------------|:-----|:---------------------------------------|
-|[automationCompanies](../resources/dynamics_microsoft_automation_automationCompany.md)               | automationCompany|Gets the automationCompanies |
-|[extensions](../resources/dynamics_microsoft_automation_extension.md)             |extension|Gets published extensions.                  |
-|[userGroups](../resources/dynamics_microsoft_automation_userGroup.md)      |userGroup|Gets userGroups.     |
-|[users](../resources/dynamics_microsoft_automation_user.md)      |user|Gets the users.     |
-|[userGroupMembers](../resources/dynamics_microsoft_automation_userGroupMember.md)|userGroupMember|Gets userGroupMembers.|
-|[userPermissions](../resources/dynamics_microsoft_automation_userPermission.md)|userPermission|Gets avaliable userPermissions.|
-|[permissionSets](../resources/dynamics_microsoft_automation_permissionSet.md)|permissionSet|Gets avaliable permissionSets.|
-|[file](../resources/dynamics_microsoft_automation_file.md)|file|Gets file containing RapidStart package.|
+|[automationCompanies](dynamics_microsoft_automation_automationcompany.md)               | automationCompany|Gets the automationCompanies |
+|[extensions](dynamics_microsoft_automation_extension.md)             |extension|Gets published extensions.                  |
+|[userGroups](dynamics_microsoft_automation_usergroup.md)      |userGroup|Gets userGroups.     |
+|[users](dynamics_microsoft_automation_user.md)      |user|Gets the users.     |
+|[userGroupMembers](dynamics_microsoft_automation_usergroupmember.md)|userGroupMember|Gets userGroupMembers.|
+|[userPermissions](dynamics_microsoft_automation_userpermission.md)|userPermission|Gets avaliable userPermissions.|
+|[permissionSets](dynamics_microsoft_automation_permissionset.md)|permissionSet|Gets avaliable permissionSets.|
+|[file](dynamics_microsoft_automation_file.md)|file|Gets file containing RapidStart package.|
 
 
 <!-- ```xml

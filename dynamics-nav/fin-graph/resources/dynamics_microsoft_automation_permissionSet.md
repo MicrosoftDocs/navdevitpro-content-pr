@@ -25,7 +25,7 @@ Represents a permissionSet resource type in [!INCLUDE[d365fin_long_md](../../inc
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET permissionSets](../api/dynamics_microsoft_automation_permissionSet_get.md)|permissionSet|Gets permissionSets|
+|[GET permissionSets](../api/dynamics_microsoft_automation_permissionset_get.md)|permissionSet|Gets permissionSets|
 
 
 ## Properties

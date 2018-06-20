@@ -25,17 +25,17 @@ Represents a configurationPackage resource type in [!INCLUDE[d365fin_long_md](..
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET configurationPackages](../api/dynamics_microsoft_automation_configurationPackage_get.md)|configurationPackage|Gets all configurationPackages|
-|[POST configurationPackages](../api/dynamics_microsoft_automation_configurationPackage_post.md)|none|Inserts a new configuration package
-|[Patch configurationPackages](../api/dynamics_microsoft_automation_configurationPackage_patch.md)|none|Upload a configurationPackage
-|[Delete configurationPackages](../api/dynamics_microsoft_automation_configurationPackage_delete.md)|none|Delete a configurationPackage
+|[GET configurationPackages](../api/dynamics_microsoft_automation_configurationpackage_get.md)|configurationPackage|Gets all configurationPackages|
+|[POST configurationPackages](../api/dynamics_microsoft_automation_configurationpackage_post.md)|none|Inserts a new configuration package
+|[Patch configurationPackages](../api/dynamics_microsoft_automation_configurationpackage_patch.md)|none|Upload a configurationPackage
+|[Delete configurationPackages](../api/dynamics_microsoft_automation_configurationpackage_delete.md)|none|Delete a configurationPackage
 
 ## Bound Actions
 
 | Actions         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[Microsoft.NAV.import](../api/dynamics_microsoft_automation_configurationPackage_post.md)|none|Imports configurationPackage.|
-|[Microsoft.NAV.apply](../api/dynamics_microsoft_automation_configurationPackage_post.md)|none|Applies configuration package.|
+|[Microsoft.NAV.import](../api/dynamics_microsoft_automation_configurationpackage_post.md)|none|Imports configurationPackage.|
+|[Microsoft.NAV.apply](../api/dynamics_microsoft_automation_configurationpackage_post.md)|none|Applies configuration package.|
 
 ## Properties
 
