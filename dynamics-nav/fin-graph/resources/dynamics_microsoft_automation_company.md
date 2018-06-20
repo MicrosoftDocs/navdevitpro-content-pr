@@ -24,7 +24,7 @@ Represents a user resource type in [!INCLUDE[d365fin_long_md](../../includes/d36
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET companies](../api/dynamics_microsoft_automation_companies_get.md)|company|Gets all companies.|
+|[GET companies](../api/dynamics_microsoft_automation_company_get.md)|company|Gets all companies.|
 
 
 ## Properties
