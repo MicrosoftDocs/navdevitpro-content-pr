@@ -3,7 +3,7 @@ title: userPermissions resource type | Microsoft Docs
 description: A userPermission in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
-author: henrikwh, SusanneWindfeldPedersen
+author: henrikwh
 
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/19/2018
-ms.author: henrikwh, SusanneWindfeldPedersen
+ms.author: solsen
 ---
 
 # userPermissions resource type
@@ -25,15 +25,15 @@ Represents a userPermissions resource type in [!INCLUDE[d365fin_long_md](../../i
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET userPermissions](../api/dynamics_microsoft_automation_userPermissions_get.md)|userPermission|Gets all userPermissions|
-|[POST userPermissions](../api/dynamics_microsoft_automation_userPermissions_post.md)|userGroup|Adds to userPermissions|
-|[DELETE userPermissions](../api/dynamics_microsoft_automation_userPermissions_delete.md)|userGroup|Removes from userPermissions|
+|[GET userPermissions](../api/dynamics_microsoft_automation_userpermission_get.md)|userPermission|Gets all userPermissions|
+|[POST userPermissions](../api/dynamics_microsoft_automation_userpermission_post.md)|userGroup|Adds to userPermissions|
+|[DELETE userPermissions](../api/dynamics_microsoft_automation_userpermission_delete.md)|userGroup|Removes from userPermissions|
 
 ## Properties
 
 | Property | Type |Description                             |
 |:----------------|:-----|:---------------------------------------|
-|code               |string  |code of the userGroup.|
+|code             |string  |code of the userGroup.|
 |displayName      |string|Display of the useGroup.     |
 |defaultProfileID|string|Id of the defaultProfile.|
 |assignToAllNewUsers|boolean|If true, all new users are assigned to userGroup|

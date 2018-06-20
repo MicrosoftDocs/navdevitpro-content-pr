@@ -3,7 +3,7 @@ title: userGroup resource type | Microsoft Docs
 description: A userGroup in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
-author: henrikwh, SusanneWindfeldPedersen
+author: henrikwh
 
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/19/2018
-ms.author: henrikwh, SusanneWindfeldPedersen
+ms.author: solsen
 ---
 
 # userGroup resource type
@@ -25,7 +25,7 @@ Represents a userGroup resource type in [!INCLUDE[d365fin_long_md](../../include
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET userGroups](../api/dynamics_microsoft_automation_userGroup_get.md)|userGroup|Gets all userGroups|
+|[GET userGroups](../api/dynamics_microsoft_automation_usergroup_get.md)|userGroup|Gets all userGroups|
 
 
 
@@ -33,9 +33,9 @@ Represents a userGroup resource type in [!INCLUDE[d365fin_long_md](../../include
 
 | Property | Type |Description                             |
 |:----------------|:-----|:---------------------------------------|
-|code               |string  |code of the userGroup.|
-|displayName      |string|Display of the useGroup.     |
-|defaultProfileID|string|Id of the defaultProfile.|
+|code             |string  |code of the userGroup.|
+|displayName      |string  |Display of the useGroup.     |
+|defaultProfileID|string   |Id of the defaultProfile.|
 |assignToAllNewUsers|boolean|If true, all new users are assigned to userGroup|
 
 ## Relationships / Navigation properties
