@@ -47,4 +47,4 @@ DELETE https://api.businesscentral.dynamics.com/v1.0/api//microsoft/automation/b
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Extension entity](../resources/dynamics_microsoft_automation_configurationPackages.md)  
+[ConfigurationPackage entity](../resources/dynamics_microsoft_automation_configurationPackages.md)  

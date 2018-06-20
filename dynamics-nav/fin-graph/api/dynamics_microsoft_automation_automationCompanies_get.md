@@ -68,5 +68,5 @@ Here is an example of the response.
 [Error Codes](../dynamics_error_codes.md)  
 [automationCompany entity](../resources/dynamics_microsoft_automation_automationCompany.md)  
 [Post automationCompany](../api/dynamics_microsoft_automation_automationCompanies_post.md)  
-[Update automationCompany](../api/dynamics_microsoft_automation_automationCompanies_update.md)  
+[Update automationCompany](../api/dynamics_microsoft_automation_automationCompanies_patch.md)  
 [Delete automationCompany](../api/dynamics_microsoft_automation_automationCompanies_delete.md)  

@@ -28,7 +28,8 @@ DELETE /microsoft/automation/{apiVersion}/companies({companyId})/users({userSecu
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
-|If-Match|*|
+|If-Match|Required. When this request header is included and the eTag provided does not match the current tag on the **userPermission**, the **userPermission** will not be deleted. |
+
 ## Request body
 Do not supply a request body for this method.
 

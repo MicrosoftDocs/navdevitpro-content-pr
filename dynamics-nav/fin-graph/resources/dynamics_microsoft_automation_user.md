@@ -25,7 +25,7 @@ Represents a user resource type in [!INCLUDE[d365fin_long_md](../../includes/d36
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
 |[GET user](../api/dynamics_microsoft_automation_user_get.md)|user|Gets all users.|
-|[PATCH user](../api/dynamics_microsoft_automation_user_get.md)|user|Update user properties|
+|[PATCH user](../api/dynamics_microsoft_automation_user_patch.md)|user|Update user properties|
 
 ## Properties
 | Property	      | Type |Description                             |

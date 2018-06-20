@@ -21,7 +21,7 @@ Create a company object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lon
 ## HTTP request
 
 ```
-POST /microsoft/automation/{version}/companies({id})/automationCompanies
+POST /microsoft/automation/{apiVersion}/companies({companyId})/automationCompanies
 ```
 
 ## Request headers
@@ -63,7 +63,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[automationCompany entity](../resources/dynamics_microsoft_automation_automationCompany.md)  
+[AutomationCompany entity](../resources/dynamics_microsoft_automation_automationCompany.md)  
 [Get automationCompany](../api/dynamics_microsoft_automation_automationCompanies_get.md)  
-[Update automationCompany](../api/dynamics_microsoft_automation_automationCompanies_update.md)  
+[Update automationCompany](../api/dynamics_microsoft_automation_automationCompanies_patch.md)  
 [Delete automationCompany](../api/dynamics_microsoft_automation_automationCompanies_delete.md)  

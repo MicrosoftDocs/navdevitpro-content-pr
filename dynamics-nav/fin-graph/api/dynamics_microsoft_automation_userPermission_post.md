@@ -1,5 +1,5 @@
 ---
-title: Psot userPermission | Microsoft Docs
+title: Post userPermission | Microsoft Docs
 description: Post userGroupMember objects in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -28,7 +28,6 @@ POST /microsoft/automation/{apiVersion}/companies({companyId})/users({userSecuri
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
 |Content-Type|application/json|
-|If-Match|*|
 
 ## Request body
 Do not supply a request body for this method.
@@ -44,7 +43,6 @@ Here is an example of the request.
 ```json
 POST https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/beta/companies({companyId})/users({userSecurityID})/userPermissions
 Content-Type:application/json
-If-Match:*
 { 
     "id": "SECURITY", 
     "company" : "CRONUS"
@@ -76,4 +74,4 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[UserGroupMembers entity](../resources/dynamics_microsoft_automation_userGroupMembers.md)  
+[UserPermission entity](../resources/dynamics_microsoft_automation_userPermission.md)  

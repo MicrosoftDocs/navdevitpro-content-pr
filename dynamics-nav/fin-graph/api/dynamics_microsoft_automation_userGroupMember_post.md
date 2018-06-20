@@ -42,7 +42,6 @@ Here is an example of the request.
 ```json
 POST https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/beta/companies({companyId})/users({userSecurityID})/userGroupMembers
 Content-Type:application/json
-If-Match:*
 { 
     "code": "D365 EXT. ACCOUNTANT", 
     "companyName" : "CRONUS Danmark A/S"
@@ -70,4 +69,4 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[UserGroupMembers entity](../resources/dynamics_microsoft_automation_userGroupMembers.md)  
+[UserGroupMembers entity](../resources/dynamics_microsoft_automation_userGroupMember.md)  

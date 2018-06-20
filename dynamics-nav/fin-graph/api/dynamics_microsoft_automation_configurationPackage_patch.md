@@ -35,7 +35,7 @@ Content-type: application/octet-stream
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
 |Content-type|application/octet-stream|
-|If-Match|*|
+|If-Match|Required. When this request header is included and the eTag provided does not match the current tag on the **configurationPackage**, the **configurationPackage** will not be updated. |
 
 ## Request body
 Content of the requestbody is a RapidStart package.
@@ -63,4 +63,5 @@ If-Match:-*
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[ConfigurationPackages entity](../resources/dynamics_microsoft_automation_configurationPackages.md)  
+[ConfigurationPackage entity](../resources/dynamics_microsoft_automation_configurationPackages.md)  
+

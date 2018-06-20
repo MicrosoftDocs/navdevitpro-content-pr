@@ -1,6 +1,6 @@
 ---
-title: Patch automationCompanies | Microsoft Docs
-description: Updates a company object in Dynamics 365 Business Central.
+title: Update user | Microsoft Docs
+description: Updates a user object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: henrikwh, SusanneWindfeldPedersen
@@ -14,21 +14,19 @@ ms.date: 06/15/2018
 ms.author: henrikwh, solsen
 ---
 
-# Patch automationCompanies
-
+# Patch user
 Patches an automationCompany object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
-
 ```
-PATCH /microsoft/automation/beta/companies({{companyid}})/automationCompanies
+PATCH /microsoft/automation/beta/companies({companyid})/users({securityId})
 ```
 ## Request headers
 |Header       |Value                    |
 |-------------|-------------------------|
 |Authorization|Bearer {token}. Required.|
 |Content-Type |application/json         |
-|If-Match     |Required. When this request header is included and the eTag provided does not match the current tag on the **automationCompany**, the **automationCompany** will not be updated. |
+|If-Match     |Required. When this request header is included and the eTag provided does not match the current tag on the **user**, the **user** will not be updated.|
 
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.

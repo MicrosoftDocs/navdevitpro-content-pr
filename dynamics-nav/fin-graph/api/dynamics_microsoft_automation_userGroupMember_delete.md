@@ -28,7 +28,8 @@ DELETE /microsoft/automation/{apiVersion}/companies({companyId})/users({userSecu
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
-|If-Match|*|
+|If-Match|Required. When this request header is included and the eTag provided does not match the current tag on the **userGroupMember**, the **userGroupMember** will not be updated. |
+
 ## Request body
 Do not supply a request body for this method.
 
@@ -84,4 +85,4 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[UserGroupMembers entity](../resources/dynamics_microsoft_automation_userGroupMembers.md)  
+[UserGroupMembers entity](../resources/dynamics_microsoft_automation_userGroupMember.md)  
