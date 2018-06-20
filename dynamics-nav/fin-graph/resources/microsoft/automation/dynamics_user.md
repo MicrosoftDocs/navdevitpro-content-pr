@@ -41,16 +41,15 @@ The navigational property userGroupMembers links to the users  group membership.
 The navigational property userPermissions links to the users permissions.
 
 ## JSON representation
-Here is a JSON representation of the extension.
+Here is a JSON representation of the user.
 
 ```json
 {
-    "packageId": "bbd8e783-238a-4a72-8071-c0d4ea8884e7",
-    "displayName": "Sales and Inventory Forecast",
-    "publisher": "Microsoft",
-    "versionMajor": 2,
-    "versionMinor": 0,
-    "isInstalled": true
+       "userSecurityId": "82ae94d5-3445-47de-8668-714b5113a9c2",
+            "userName": "UserName",
+            "displayName": "UserName",
+            "state": "Enabled",
+            "expiryDate": "0001-01-01T00:00:00Z"
 }
 
 ```

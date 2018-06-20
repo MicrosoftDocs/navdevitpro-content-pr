@@ -1,6 +1,6 @@
 ---
 title: Get userGroupMembers | Microsoft Docs
-description: Gets  userGroupMember objects in Dynamics 365 Business Central.
+description: Gets userGroupMember objects in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: henrikwh, SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/15/2018
+ms.date: 06/19/2018
 ms.author: henrikwh, solsen
 ---
 

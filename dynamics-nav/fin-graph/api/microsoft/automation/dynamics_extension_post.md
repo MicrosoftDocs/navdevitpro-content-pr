@@ -26,13 +26,13 @@ Install and uninstall published extensions in [!INCLUDE[d365fin_long_md](../../i
 
 ## HTTP requests
 
-### Install extension
+**Install extension**
 
 ```json
 POST /microsoft/automation/{version}/companies({companyId})//extensions({{extensionId}})/Microsoft.NAV.install
 ```
 
-### Uninstall extension
+**Uninstall extension**
 
 ```json
 POST /microsoft/automation/{version}/companies({companyId})//extensions({{extensionId}})/Microsoft.NAV.ininstall

@@ -1,6 +1,6 @@
 ---
-title: userGroup resource type | Microsoft Docs
-description: A user in Dynamics 365 Business Central.
+title: userPermissions resource type | Microsoft Docs
+description: A userPermission in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: henrikwh, SusanneWindfeldPedersen
@@ -14,9 +14,9 @@ ms.date: 06/19/2018
 ms.author: henrikwh, SusanneWindfeldPedersen
 ---
 
-# userGroupMember resource type
+# userPermissions resource type
 
-Represents a userGroup resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a userPermissions resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
@@ -25,8 +25,9 @@ Represents a userGroup resource type in [!INCLUDE[d365fin_long_md](../../include
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET userGroups](../api/microsoft/automation/dynamics_user_get.md)|userGroup|Gets all userGroups|
-
+|[GET userPermissions](../api/microsoft/automation/dynamics_userPermissions_get.md)|userPermission|Gets all userPermissions|
+|[POST userPermissions](../api/microsoft/automation/dynamics_userPermissions_post.md)|userGroup|Adds to userPermissions|
+|[DELETE userPermissions](../api/microsoft/automation/dynamics_userPermissions_delete.md)|userGroup|Removes from userPermissions|
 
 ## Properties
 
@@ -43,17 +44,22 @@ None
 
 ## JSON representation
 
-Here is a JSON representation of the extension.
+Here is a JSON representation of the userPermissions.
 
 ```json
 {
-    "code": "D365 ADMINISTRATOR",
-    "displayName": "Opret og opsæt virksomheder",
-    "defaultProfileID": "VIRKSOMHEDSLEDER",
-    "assignToAllNewUsers": false
+    "userSecurityID": "82ae94d5-3445-47de-8668-714b5113a9c2",
+    "id": "D365 READ",
+    "company": "CRONUS Danmark A/S",
+    "scope": "System",
+    "appID": "00000000-0000-0000-0000-000000000000",
+    "displayName": "Dyn. 365-læseadgang, alle",
+    "extensionName": ""
 }
 
 ```
+
+<!-- 
 ## EDM metadata
 
 ```xml
@@ -73,7 +79,7 @@ Here is a JSON representation of the extension.
             </EntityType>
 
 ```
-
+ -->
 ## See Also
 
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

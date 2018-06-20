@@ -1,6 +1,6 @@
 ---
-title: userGroup resource type | Microsoft Docs
-description: A user in Dynamics 365 Business Central.
+title: permissionSet resource type | Microsoft Docs
+description: A permissionSet in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: henrikwh, SusanneWindfeldPedersen
@@ -14,9 +14,9 @@ ms.date: 06/19/2018
 ms.author: henrikwh, SusanneWindfeldPedersen
 ---
 
-# userGroupMember resource type
+# permissionSet  resource type
 
-Represents a userGroup resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a permissionSet resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
@@ -25,7 +25,7 @@ Represents a userGroup resource type in [!INCLUDE[d365fin_long_md](../../include
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET userGroups](../api/microsoft/automation/dynamics_user_get.md)|userGroup|Gets all userGroups|
+|[GET permissionSets](../api/microsoft/automation/dynamics_user_get.md)|userGroup|Gets all userGroups|
 
 
 ## Properties
@@ -43,17 +43,20 @@ None
 
 ## JSON representation
 
-Here is a JSON representation of the extension.
+Here is a JSON representation of the permissionSet.
 
 ```json
 {
-    "code": "D365 ADMINISTRATOR",
-    "displayName": "Opret og opsæt virksomheder",
-    "defaultProfileID": "VIRKSOMHEDSLEDER",
-    "assignToAllNewUsers": false
+    "scope": "System",
+    "appID": "00000000-0000-0000-0000-000000000000",
+    "id": "D365 ACC. PAYABLE",
+    "displayName": "Gæld i Dynamics 365",
+    "extensionName": ""
 }
 
 ```
+
+<!-- 
 ## EDM metadata
 
 ```xml
@@ -73,7 +76,7 @@ Here is a JSON representation of the extension.
             </EntityType>
 
 ```
-
+ -->
 ## See Also
 
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
