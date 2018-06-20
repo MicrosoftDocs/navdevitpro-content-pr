@@ -1,6 +1,6 @@
 ---
-title: Get configurationPackages | Microsoft Docs
-description: Gets a extension object in Dynamics 365 Business Central.
+title: Get configurationPackage | Microsoft Docs
+description: Gets a configurationPackage object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: henrikwh, SusanneWindfeldPedersen
@@ -14,7 +14,7 @@ ms.date: 06/19/2018
 ms.author: henrikwh, solsen
 ---
 
-# Get configurationPackages
+# Get configurationPackage
 Retrieve the properties and relationships of an configurationPackage object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request

@@ -1,6 +1,6 @@
 ---
-title: Get userGroupMember | Microsoft Docs
-description: Gets userGroupMember objects in Dynamics 365 Business Central.
+title: Get company | Microsoft Docs
+description: Gets a company object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: henrikwh, SusanneWindfeldPedersen
@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/19/2018
+ms.date: 06/20/2018
 ms.author: henrikwh, solsen
 ---
 
-# Get userGroupMembers
-Retrieve the properties and relationships of an userGroupMembers object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+# Get extension
+Retrieve the properties and relationships of an company object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-GET /microsoft/automation/{apiVersion}/companies({companyId})/users({userSecurityID})/userGroupMembers
+GET /microsoft/automation/{apiVersion}/companies
 ```
 
 ## Request headers
@@ -31,7 +31,7 @@ GET /microsoft/automation/{apiVersion}/companies({companyId})/users({userSecurit
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and list of  **userGroupMembers** objects in the response body.
+If successful, this method returns a ```200 OK``` response code and list of  **company** objects in the response body.
 
 ## Example
 
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and list of  **u
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/beta/companies({companyId})/users({userSecurityID})/userGroupMembers
+GET https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/beta/companies
 ```
 
 **Response**
@@ -51,16 +51,19 @@ Here is an example of the response.
 
 ```json
 {
-    "code": "D365 BUS PREMIUM",
-    "userSecurityID": "5bb78dd8-9b40-4fc5-bc79-a28918f9d70e",
-    "companyName": "CRONUS Danmark A/S",
-    "displayName": "D365 Premium Business-adgang"
+    "id": "15047dda-6a0a-44fb-9f50-b61f6da88bfa",
+    "systemVersion": "22654",
+    "name": "mycompany",
+    "displayName": "mycompany",
+    "businessProfileId": ""
 }
 ```
+
+
 
 ## See Also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[UserGroupMembers entity](../resources/microsoft/automation/dynamics_userGroupMembers.md)  
+[Company entity](../resources/microsoft/automation/dynamics_company.md)  

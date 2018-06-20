@@ -1,5 +1,5 @@
 ---
-title: Delete configurationPackages | Microsoft Docs
+title: Delete configurationPackage | Microsoft Docs
 description: Deletes a configurationPackage object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 06/19/2018
 ms.author: henrikwh, solsen
 ---
 
-# Delete configurationPackages
+# Delete configurationPackage
 Deletes a configurationPackage object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request

@@ -68,6 +68,4 @@ Here is a JSON representation of the extension.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get extensions](../api/microsoft/automation/dynamics_extension_get.md)  
-[Install extension](../api/microsoft/automation/dynamics_extension_post.md)  
-[Uninstall extension](../api/microsoft/automation/dynamics_extension_post.md)  
+ 

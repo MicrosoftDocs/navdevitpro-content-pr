@@ -1,6 +1,6 @@
 ---
-title: Psot userPermission | Microsoft Docs
-description: Post userGroupMember objects in Dynamics 365 Business Central.
+title: Get permissionSet | Microsoft Docs
+description: Gets permissionSet objects in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: henrikwh, SusanneWindfeldPedersen
@@ -10,31 +10,28 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/19/2018
+ms.date: 06/20/2018
 ms.author: henrikwh, solsen
 ---
 
-# post userGroupMembers
-Adds user to a userPermission object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+# Get permissionSet
+Retrieve the properties and relationships of an permissionSet object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
-
-```json
-POST /microsoft/automation/{apiVersion}/companies({companyId})/users({userSecurityID})/userPermissions
+```
+GET /microsoft/automation/{apiVersion}/companies({{companyId}})/permissionSets
 ```
 
 ## Request headers
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
-|Content-Type|application/json|
-|If-Match|*|
 
 ## Request body
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```201 Created``` response code and a  **userPermission** object in the response body.
+If successful, this method returns a ```200 OK``` response code and list of  **permissionSet** objects in the response body.
 
 ## Example
 
@@ -42,19 +39,12 @@ If successful, this method returns a ```201 Created``` response code and a  **us
 
 Here is an example of the request.
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/beta/companies({companyId})/users({userSecurityID})/userPermissions
-Content-Type:application/json
-If-Match:*
-{ 
-    "id": "SECURITY", 
-    "company" : "CRONUS"
-}
-
+GET https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/beta/companies({companyId})/users({userSecurityID})/userPermissions
 ```
 
 **Response**
 
-Here is an example of the response.
+Here is an example of the response. 
 
 > [!NOTE]  
 >   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
@@ -62,11 +52,11 @@ Here is an example of the response.
 ```json
 {
     "userSecurityID": "82ae94d5-3445-47de-8668-714b5113a9c2",
-    "id": "SECURITY",
+    "id": "D365 BUS FULL ACCESS",
     "company": "",
     "scope": "System",
     "appID": "00000000-0000-0000-0000-000000000000",
-    "displayName": "",
+    "displayName": "Fuld Dyn 365 Business-ko.",
     "extensionName": ""
 }
 ```

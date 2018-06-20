@@ -15,7 +15,7 @@ ms.author: henrikwh, solsen
 ---
 
 # Delete userPermission
-Removes a user from userGroupMembers object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Removes a user from userPermission object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 

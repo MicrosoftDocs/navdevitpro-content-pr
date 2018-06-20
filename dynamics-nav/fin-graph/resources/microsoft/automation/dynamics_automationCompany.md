@@ -25,10 +25,10 @@ Represents a automationCompany resource type in [!INCLUDE[d365fin_long_md](../..
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET automationCompanies](../api/microsoft/automation/dynamics_companies_get.md)|companies|Gets all automationCompanies.|
-|[POST automationCompanies](../api/microsoft/automation/dynamics_companies_post.md)|companies|Creates a company. automationCompanies.|
-|[DELETE automationCompanies](../api/microsoft/automation/dynamics_companies_delete.md)|companies|Deletes a company. automationCompanies.|
-|[PATCH automationCompanies](../api/microsoft/automation/dynamics_companies_patch.md)|companies|Updates a company, automationCompanies.|
+|[GET automationCompanies](../api/microsoft/automation/dynamics_automationCompanies_get.md)|companies|Gets all automationCompanies.|
+|[POST automationCompanies](../api/microsoft/automation/dynamics_automationCompanies_post.md)|companies|Creates a company. automationCompanies.|
+|[DELETE automationCompanies](../api/microsoft/automation/dynamics_automationCompanies_delete.md)|companies|Deletes a company. automationCompanies.|
+|[PATCH automationCompanies](../api/microsoft/automation/dynamics_automationCompanies_patch.md)|companies|Updates a company, automationCompanies.|
 
 
 ## Properties
@@ -66,7 +66,3 @@ Here is a JSON representation of the automationCompany.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get automationCompany](../api/microsoft/automation/dynamics_automationCompanies_get.md)  
-[Post automationCompany](../api/microsoft/automation/dynamics_automationCompanies_post.md)  
-[Update automationCompany](../api/microsoft/automation/dynamics_automationCompanies_update.md)  
-[Delete automationCompany](../api/microsoft/automation/dynamics_automationCompanies_delete.md)  

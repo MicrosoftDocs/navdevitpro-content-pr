@@ -25,17 +25,18 @@ Represents a permissionSet resource type in [!INCLUDE[d365fin_long_md](../../inc
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET permissionSets](../api/microsoft/automation/dynamics_user_get.md)|userGroup|Gets all userGroups|
+|[GET permissionSets](../api/microsoft/automation/dynamics_permissionSet_get.md)|permissionSet|Gets permissionSets|
 
 
 ## Properties
 
 | Property | Type |Description                             |
 |:----------------|:-----|:---------------------------------------|
-|code               |string  |code of the userGroup.|
-|displayName      |string|Display of the useGroup.     |
-|defaultProfileID|string|Id of the defaultProfile.|
-|assignToAllNewUsers|boolean|If true, all new users are assigned to userGroup|
+|scope               |string  |code of the userGroup.|
+|appID      |guid|Display of the useGroup.     |
+|id|string|Id of the defaultProfile.|
+|displayName|string|If true, all new users are assigned to userGroup|
+|extensionName|string|If true, all new users are assigned to userGroup|
 
 ## Relationships / Navigtion properties
 
@@ -60,21 +61,18 @@ Here is a JSON representation of the permissionSet.
 ## EDM metadata
 
 ```xml
-<EntityType Name="userGroupMember">
-                <Key>
-                    <PropertyRef Name="code" />
-                    <PropertyRef Name="userSecurityID" />
-                    <PropertyRef Name="companyName" />
-                </Key>
-                <Property Name="code" Type="Edm.String" Nullable="false" MaxLength="20" />
-                <Property Name="userSecurityID" Type="Edm.Guid" Nullable="false" />
-                <Property Name="companyName" Type="Edm.String" Nullable="false" MaxLength="30" />
-                <Property Name="displayName" Type="Edm.String" MaxLength="50" />
-                <NavigationProperty Name="userGroup" Type="Microsoft.NAV.userGroup" ContainsTarget="true" />
-                <NavigationProperty Name="user" Type="Microsoft.NAV.user" ContainsTarget="true" />
-                <NavigationProperty Name="automationCompany" Type="Microsoft.NAV.automationCompany" ContainsTarget="true" />
-            </EntityType>
-
+    <EntityType Name="permissionSet">
+        <Key>
+            <PropertyRef Name="scope" />
+            <PropertyRef Name="appID" />
+            <PropertyRef Name="id" />
+        </Key>
+        <Property Name="scope" Type="Edm.String" Nullable="false" />
+        <Property Name="appID" Type="Edm.Guid" Nullable="false" />
+        <Property Name="id" Type="Edm.String" Nullable="false" MaxLength="20" />
+        <Property Name="displayName" Type="Edm.String" MaxLength="30" />
+        <Property Name="extensionName" Type="Edm.String" MaxLength="250" />
+    </EntityType>
 ```
  -->
 ## See Also

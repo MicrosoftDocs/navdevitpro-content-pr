@@ -1,5 +1,5 @@
 ---
-title: Delete userGroupMembers | Microsoft Docs
+title: Delete userGroupMember | Microsoft Docs
 description: Delete  userGroupMember objects in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
