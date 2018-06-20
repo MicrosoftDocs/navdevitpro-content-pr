@@ -29,6 +29,13 @@ Represents a sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d365
 |[PATCH salesCreditMemos](../api/dynamics_salescreditmemo_update.md)|salesCreditMemos|Update a sales credit memo object.|
 |[DELETE salesCreditMemos](../api/dynamics_salescreditmemo_delete.md)|none|Delete a sales credit memo object.|
 
+## Bound actions
+
+|Action          |Return type   |Description         |
+|----------------|--------------|--------------------|
+|[GET pdfDocument](../api/dynamics_salescreditmemo_pdfdocument.md)|pdfDocument|Gets a PDF document.|
+
+
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
