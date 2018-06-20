@@ -3,7 +3,7 @@ title: Patch configurationPackage | Microsoft Docs
 description: Gets a configurationPackage object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
-author: henrikwh, SusanneWindfeldPedersen
+author: henrikwh
 
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/19/2018
-ms.author: henrikwh, solsen
+ms.author: solsen
 ---
 
 # Patch configurationPackage
