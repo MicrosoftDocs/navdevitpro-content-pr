@@ -19,7 +19,7 @@ Deletes a configurationPackage object for [!INCLUDE[d365fin_long_md](../../inclu
 
 ## HTTP request
 ```json
-DELETE /microsoft/automation/beta/companies({companyId})/configurationPackages('{packageName}')
+DELETE /microsoft/automation/{apiVersion}/companies({companyId})/configurationPackages('{packageName}')
 ```
 
 ## Request headers

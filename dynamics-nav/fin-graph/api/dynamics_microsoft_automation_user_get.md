@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and list of  **u
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/{version}/companies({id})/users
+GET https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/beta/companies({id})/users
 ```
 
 **Response**

@@ -19,7 +19,7 @@ Patches an automationCompany object for [!INCLUDE[d365fin_long_md](../../include
 
 ## HTTP request
 ```
-PATCH /microsoft/automation/beta/companies({companyid})/users({securityId})
+PATCH /microsoft/automation/{apiVersion}/companies({companyid})/users({securityId})
 ```
 ## Request headers
 |Header       |Value                    |
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **automati
 
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/{version}/companies({id})/automationCompanies
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/microsoft/automation/beta/companies({id})/automationCompanies
 Content-type: application/json
 If-Match:*
 {

@@ -27,7 +27,7 @@ Retrieve the properties and relationships of an configurationPackage object for 
 ## HTTP requests
 ### Insert configurationPackage
 ```json
-POST /microsoft/automation/beta/companies({companyId})/configurationPackages
+POST /microsoft/automation/{apiVersion}/companies({companyId})/configurationPackages
 Content-type: application/json
 {
     "code":"YourPackageName"
@@ -36,12 +36,12 @@ Content-type: application/json
 
 ### Import configurationPackage
 ```json
-POST /microsoft/automation/beta/companies({companyId})/configurationPackages('{packageName}')/Microsoft.NAV.import
+POST /microsoft/automation/{apiVersion}/companies({companyId})/configurationPackages('{packageName}')/Microsoft.NAV.import
 
 ```
 ### Apply configurationPackage
 ```json
-POST /microsoft/automation/beta/companies({companyId})/configurationPackages('{packageName}')/Microsoft.NAV.apply
+POST /microsoft/automation/{apiVersion}/companies({companyId})/configurationPackages('{packageName}')/Microsoft.NAV.apply
 
 ```
 
