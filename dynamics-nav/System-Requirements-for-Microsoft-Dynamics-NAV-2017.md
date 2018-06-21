@@ -20,39 +20,39 @@ The following sections list the specifications of minimum hardware and software 
 
 **Client components**  
 
--   [Microsoft Dynamics NAV Windows Client Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#WinClient)  
+-   [Microsoft Dynamics NAV Windows Client Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#WinClient)  
 
--   [Microsoft Dynamics NAV Development Environment Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#DevEnv)  
+-   [Microsoft Dynamics NAV Development Environment Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#DevEnv)  
 
--   [Microsoft Dynamics NAV Web Client Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#WebClient)  
+-   [Microsoft Dynamics NAV Web Client Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#WebClient)  
 
 -   [Microsoft Dynamics NAV Tablet Client and Phone Client (in a Browser) Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#NavApps)  
 
--   [Microsoft Dynamics NAV Universal App Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#DynNAVApp)  
+-   [Microsoft Dynamics NAV Universal App Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#DynNAVApp)  
 
 **Server components**  
 
--   [Microsoft Dynamics NAV Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#NavServerReqs)  
+-   [Microsoft Dynamics NAV Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#NavServerReqs)  
 
--   [Microsoft Dynamics NAV Web Server Components Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#WebServer)  
+-   [Microsoft Dynamics NAV Web Server Components Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#WebServer)  
 
--   [Microsoft Dynamics NAV Database Components for SQL Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#SQLReq)  
+-   [Microsoft Dynamics NAV Database Components for SQL Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#SQLReq)  
 
--   [Microsoft Dynamics NAV Help Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#HelpServer)  
+-   [Microsoft Dynamics NAV Help Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#HelpServer)  
 
 **Additional components and features**  
 
--   [Microsoft Dynamics NAV as an App for SharePoint Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#SharePointApp)  
+-   [Microsoft Dynamics NAV as an App for SharePoint Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#SharePointApp)  
 
--   [Automated Data Capture System Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#ADCS)  
+-   [Automated Data Capture System Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#ADCS)  
 
 -   [Business Inbox in Microsoft Outlook Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#BusInboxOutlook)  
 
--   [Microsoft Outlook Add-In Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#Outlook)  
+-   [Microsoft Outlook Add-In Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#Outlook)  
 
--   [Microsoft Dynamics CRM Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#CRM)  
+-   [Microsoft Dynamics CRM Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#CRM)  
 
--   [Automated Deployment on Microsoft Azure Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#Azure)  
+-   [Automated Deployment on Microsoft Azure Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#Azure)  
 
 > [!NOTE]  
 >  [!INCLUDE[navnow](includes/navnow_md.md)] Setup installs some software if it is not already present in the target computer. For more information, see the "Additional Information" section for each component.  
