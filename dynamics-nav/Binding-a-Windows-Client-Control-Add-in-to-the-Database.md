@@ -16,7 +16,7 @@ Similar to other field controls on a page, a [!INCLUDE[nav_windows](includes/nav
 
  ![RoleTailored client control add&#45;in data binding](media/NAVRTCContolAddinDataBinding.png "NAVRTCContolAddinDataBinding")  
 
- The control add-in must implement the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition) interface that exposes the [IValueControlAddInDefinition.Value](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property as shown in the following example for a DateTime data type.  
+ The control add-in must implement the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition) interface that exposes the [IValueControlAddInDefinition.Value](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition.Value) property as shown in the following example for a DateTime data type.  
 
 ```c#  
 [ControlAddInExport("MyControlAddIn")]  
@@ -27,10 +27,10 @@ public class MyControlAddIn : IValueControlAddInDefinition<DateTime>
 
 ```  
 
- When a control add-in is instantiated on a page, the **SourceExpr** property value is passed to the control add-in [IValueControlAddInDefinition.Value](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property. The **SourceExpr** property can be a field or row in a database table or a C/AL global variable.  
+ When a control add-in is instantiated on a page, the **SourceExpr** property value is passed to the control add-in [IValueControlAddInDefinition.Value](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition.Value) property. The **SourceExpr** property can be a field or row in a database table or a C/AL global variable.  
 
 > [!NOTE]  
->  The **SourceExpr** property value can be passed to the [IValueControlAddInDefinition.Value](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property multiple times as long as a page is open, depending on application code or state in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+>  The **SourceExpr** property value can be passed to the [IValueControlAddInDefinition.Value](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition.Value) property multiple times as long as a page is open, depending on application code or state in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
 
  For more information about how to implement the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition) interface, see [How to: Create a Windows Client Control Add-in](How-to--Create-a-Windows-Client-Control-Add-in.md).  
 
