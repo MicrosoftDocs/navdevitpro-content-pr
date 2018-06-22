@@ -1,6 +1,6 @@
 ---
 title: Create employees | Microsoft Docs
-description: Creates an employee object in Dynamics 365 for Financials.
+description: Creates an employee object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

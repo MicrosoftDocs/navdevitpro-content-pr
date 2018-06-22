@@ -20,6 +20,8 @@ These articles describe the features for monitoring and troubleshooting [!INCLUD
 
 [Monitoring SQL Database Deadlocks](Monitoring-Database-Deadlocks.md)
 
+[Monitoring Long Running SQL Queries to the Event Log](Monitoring-Long-Running-SQL-Queries-Event-Log.md)  
+
 [Troubleshooting: Using Query Store to Monitor Query Performance in Dynamics NAV](troubleshooting-query-performance-using-query-store.md)
 
 ## See Also

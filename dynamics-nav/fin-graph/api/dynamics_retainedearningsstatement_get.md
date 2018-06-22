@@ -1,6 +1,6 @@
 ---
 title: Get retainedEarningsStatement | Microsoft Docs
-description: Gets a retained earnings statement object in Dynamics 365 for Financials.
+description: Gets a retained earnings statement object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

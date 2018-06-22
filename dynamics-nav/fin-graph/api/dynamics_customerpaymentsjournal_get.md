@@ -1,6 +1,6 @@
 ---
 title: Get customerPaymentsJournals | Microsoft Docs
-description: Gets a customer payment journal in Dynamics 365 for Financials.
+description: Gets a customer payment journal in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

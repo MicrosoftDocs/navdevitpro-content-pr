@@ -24,9 +24,11 @@ The following articles describe how to optimize performance in [!INCLUDE[navnowl
 
 [Query Objects and Performance](Query-Objects-and-Performance.md)  
 
-[Troubleshooting: Long Running SQL Queries Involving FlowFields by Disabling SmartSQL](Troubleshooting-Queries-Involving-FlowFields-By-Disabling-SmartSQL.md)  
+[Troubleshooting: Analyzing Long Running SQL Queries Involving FlowFields by Disabling SmartSQL](Troubleshooting-Queries-Involving-FlowFields-By-Disabling-SmartSQL.md)  
 
 [Troubleshooting: Using Query Store to Monitor Query Performance in Dynamics NAV](troubleshooting-query-performance-using-query-store.md)
+
+[Troubleshooting: Using the Event Log to Monitor Long Running SQL Queries in Dynamics NAV](troubleshooting-long-running-queries-using-event-log.md)
 
 ## See Also  
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   

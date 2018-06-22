@@ -1,6 +1,6 @@
 ---
 title: Create shipmentMethods | Microsoft Docs
-description: Creates a shipment method object in Dynamics 365 for Financials. 
+description: Creates a shipment method object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

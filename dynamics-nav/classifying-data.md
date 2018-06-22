@@ -88,3 +88,4 @@ For more information, see the following articles:
 
 ## See Also
 [How to: Create a Page to View a Virtual Table](How-to--Create-a-Page-to-View-a-Virtual-Table.md)    
+[Transparent Data Encryption (TDE)](transparent-data-encryption.md)  

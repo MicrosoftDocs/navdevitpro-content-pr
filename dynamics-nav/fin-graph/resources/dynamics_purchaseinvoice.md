@@ -29,6 +29,7 @@ Represents a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[PATCH purchaseInvoices](../api/dynamics_purchaseinvoice_update.md) |purchaseInvoices|Updates a purchase invoice object.|
 |[DELETE purchaseInvoices](../api/dynamics_purchaseinvoice_delete.md)|none            |Deletes a purchase invoice object.|
 
+
 ## Properties
 | Property	            | Type	            |Description                                                |
 |:----------------------|:----------------------|:----------------------------------------------------------|

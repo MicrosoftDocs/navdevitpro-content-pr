@@ -1,6 +1,6 @@
 ---
 title: Get balanceSheet | Microsoft Docs
-description: Gets a balance sheet object in Dynamics 365 for Financials.
+description: Gets a balance sheet object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -69,4 +69,4 @@ Here is an example of the response.
 [Balance Sheet](../resources/dynamics_balancesheet.md)  
 [Get Cash Flow Statement](dynamics_cashflowstatement_get.md)  
 [Get Account](dynamics_account_get.md)  
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with Dynamics 365 Business Central in Microsoft Graph](../resources/dynamics_overview.md) 
