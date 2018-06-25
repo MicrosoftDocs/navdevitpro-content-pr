@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: 31a1fbeb-a4b4-452d-8cf4-4937c0f87479
 caps.latest.revision: 4
 author: jswymer
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-control-addin-style
 ---
 # Style Guide
 This article lists the colors and fonts that are used in the user interface of the [!INCLUDE[navnow](includes/navnow_md.md)] clients.

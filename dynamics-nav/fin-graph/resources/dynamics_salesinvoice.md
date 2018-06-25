@@ -29,18 +29,13 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |[PATCH salesInvoices](../api/dynamics_salesinvoice_update.md) |salesInvoices|Updates a sales invoice object.|
 |[DELETE salesInvoices](../api/dynamics_salesinvoice_delete.md)|none         |Deletes a sales invoice object.|
 
-## Bound actions
-
-|Action          |Return type   |Description         |
-|----------------|--------------|--------------------|
-|[GET pdfDocument]()|pdfDocument|Gets a PDF document.|
 
 ## Properties
 | Property	            | Type	|Description                                                |
 |:----------------------|:----------|:----------------------------------------------------------|
 |id                     |GUID       |The invoice ID. Non-editable.                              |
 |number                 |string, maximum size 20|The invoice number. Read-Only.                 |
-|invoiceDate            |date       |The invoice date                                           |
+|invoiceDate            |date       |The invoice date.                                           |
 |customerPurchaseOrderReference|string, maximum size 35|The customer purchase order reference for the invoice|
 |dueDate                |date       |The date the invoice is due.                               |
 |customerNumber         |string, maximum size 20|The customer number for the invoice.           |
@@ -52,7 +47,7 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |orderId                |GUID       |The unique id of the order to which the invoice is associated to. Read-Only.|
 |orderNumber            |string, maximum size 20|The number of the order to which the invoice is associated to. Read-Only.|
 |status                 |string, maximum size 20|The invoice status. Status can be: Draft, In Review, Open, Paid, Canceled, or Corrective. Read-Only.|
-|discountAmount         |numeric    |The invoice discount amount                                |
+|discountAmount         |numeric    |The invoice discount amount.                                |
 |discountAppliedBeforeTax|boolean   |Specifies whether the discount is applied before tax.      |
 |totalAmountExcludingTax|numeric    |The total amount excluding tax. Read-Only.                 |
 |totalTaxAmount         |numeric    |The total tax amount for the invoice. Read-Only.           |
