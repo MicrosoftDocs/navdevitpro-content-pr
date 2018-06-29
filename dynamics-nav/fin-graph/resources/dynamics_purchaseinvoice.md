@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/19/2018
+ms.date: 06/26/2018
 ms.author: solsen
 ---
 
@@ -34,6 +34,7 @@ Represents a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |Action          |Return type   |Description         |
 |----------------|--------------|--------------------|
 |[GET pdfDocument](../api/dynamics_purchaseinvoice_pdfdocument.md)|pdfDocument|Gets a PDF document.|
+|[POST purchaseInvoice](../api/dynamics_purchaseinvoice_post.md)||Posts a purchase invoice.|
 
 ## Properties
 | Property	            | Type	            |Description                                                |
