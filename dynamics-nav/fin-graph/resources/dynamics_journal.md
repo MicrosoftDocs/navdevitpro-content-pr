@@ -29,6 +29,11 @@ Represents a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |[PATCH journal](../api/dynamics_journal_update.md) |journal    |Updates a journal.|
 |[DELETE journal](../api/dynamics_journal_delete.md)|none       |Deletes a journal.|
 
+## Bound actions
+|Action          |Return type   |Description         |
+|----------------|--------------|--------------------|
+|[POST journal](../api/dynamics_journal_post.md)||Posts a journal batch.|
+
 ## Properties
 | Property	         | Type	                 |Description                                           |
 |:-------------------|:----------------------|:-----------------------------------------------------|
@@ -36,14 +41,6 @@ Represents a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |code                |string, maximum size 10| The code of the journal.                             |
 |displayName         |string, maximum size 50| The display name of the journal.                     |
 |lastModifiedDateTime|datetime               |The last datetime the journal was modified. Read-Only.|
-
-## Bound actions
-The journal resource type offers a bound action called `post` which posts the corresponding general journal batch.
-
-Posting the general journal batch is illustrated in the following example:  
-`POST http://<server address>:<server API port>/<server instance name>/api/beta/companies({id})/journals({id})/Microsoft.NAV.post`.
-
-The response has no content; the response code is 204.
 
 ## JSON representation
 

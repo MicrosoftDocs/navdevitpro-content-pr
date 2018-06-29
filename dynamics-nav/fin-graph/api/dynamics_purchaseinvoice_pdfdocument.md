@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/20/2018
+ms.date: 06/28/2018
 ms.author: solsen
 ---
 
@@ -60,7 +60,7 @@ Here is an example of the response.
         {
             "@odata.etag":"W/\"JzQ0O0tQNUdjaUtZcU8rcUNCQTdXOUxIZVEwalA0clhjSmlXU1pqWjQ4RFczd2s9MTswMDsn\"",
             "id":"94913756-80e9-47bc-995a-048a655b8cdd",
-            "content@odata.mediaEditLink":"http://api.businesscentral.dynamics.com/v1.0/api/beta/companies(name='CRONUS%20International%20Ltd.')/purchaseInvoices  (94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument(94913756-80e9-47bc-995a-048a655b8cdd)/content",
+            "content@odata.mediaEditLink":"http://api.businesscentral.dynamics.com/v1.0/api/beta/companies(name='CRONUS%20International%20Ltd.')/purchaseInvoices(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument(94913756-80e9-47bc-995a-048a655b8cdd)/content",
             "content@odata.mediaReadLink":"http:// api.businesscentral.dynamics.com/v1.0/pi/beta/companies(name='CRONUS%20International%20Ltd.')/purchaseInvoices(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument(94913756-80e9-47bc-995a-048a655b8cdd)/content"
         }
     ]
@@ -94,8 +94,10 @@ GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyid}
 **Response** 
 The PDF document in binary format.
 
+## Remarks
+The pdfDocument is not supported for unposted purchase invoices. The purchase invoice must be posted before it is printed; if it is not posted, the response will return an error.
+
 ## See also
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  

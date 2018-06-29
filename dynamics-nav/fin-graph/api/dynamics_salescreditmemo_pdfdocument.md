@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/20/2018
+ms.date: 06/28/2018
 ms.author: solsen
 ---
 
@@ -22,7 +22,7 @@ Retrieve a PDF print-out of the corresponding document as binary content for [!I
 The following example gets a link to the content of the PDF:
 
 ```
-GET /businesscentral/api/beta/companies({id})/salesCreditMemos({id})/pdfDocument
+GET /businesscentral/api/beta/companies({id})/salesCreditMemos({creditMemoId})/pdfDocument
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and a link to th
 Here is an example of the request.
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesCreditMemos({id})/pdfDocument
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesCreditMemos({creditMemoId})/pdfDocument
 ```
 
 **Response**
@@ -67,9 +67,12 @@ Here is an example of the response.
 }
 ```
 
+## Remarks
+The pdfDocument is not supported for unposted sales credit memos. The sales credit memo must be posted before it is printed; if it is not posted, the response will return an error.
+
 ## HTTP request
 The following example gets the actual PDF document:
-GET /businesscentral/api/beta/companies({companyid})/salesCreditMemos({id})/pdfDocument({id})/content
+GET /businesscentral/api/beta/companies({companyid})/salesCreditMemos({creditMemoId})/pdfDocument({id})/content
 
 ## Request headers
 |Header|Value|
@@ -88,14 +91,13 @@ If successful, this method returns a `200 OK` response code and the PDF document
 Here is an example of the request.
 
 ```
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyid})/salesCreditMemos({id})/pdfDocument({id})/content
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyid})/salesCreditMemos({creditMemoId})/pdfDocument({id})/content
 ```
 
 **Response** 
 The PDF document in binary format.
 
 ## See also
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
