@@ -68,7 +68,7 @@ Here is an example of the response.
 
 ## HTTP request
 The following example gets the actual PDF document:
-GET /businesscentral/api/beta/companies({companyid})/salesInvoices({invoiceid})/pdfDocument({invoiceid})/content
+`GET /businesscentral/api/beta/companies({companyid})/salesInvoices({invoiceid})/pdfDocument({invoiceid})/content`
 
 ## Request headers
 |Header|Value|

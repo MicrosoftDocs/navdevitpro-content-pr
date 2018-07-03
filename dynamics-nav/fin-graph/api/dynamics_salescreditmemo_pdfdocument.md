@@ -71,7 +71,7 @@ The pdfDocument is not supported for unposted sales credit memos. The sales cred
 
 ## HTTP request
 The following example gets the actual PDF document:
-GET /businesscentral/api/beta/companies({companyid})/salesCreditMemos({creditMemoId})/pdfDocument({id})/content
+`GET /businesscentral/api/beta/companies({companyid})/salesCreditMemos({creditMemoId})/pdfDocument({id})/content`
 
 ## Request headers
 |Header|Value|
