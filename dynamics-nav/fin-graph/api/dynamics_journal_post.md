@@ -42,6 +42,13 @@ Here is an example of the request.
 POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId})/journals({journalId})/Microsoft.NAV.post
 ```
 
+**Response**
+
+Here is an example of the response. 
+```json
+HTTP/1.1 204 No Content
+```
+
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
