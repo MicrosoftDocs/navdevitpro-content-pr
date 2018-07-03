@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Posts journals
-Posts a general journal batch for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Posts a general journal batch for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
 
 ## HTTP request
 ```

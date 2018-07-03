@@ -60,7 +60,6 @@ Here is an example of the response.
         {
             "@odata.etag":"W/\"JzQ0O0tQNUdjaUtZcU8rcUNCQTdXOUxIZVEwalA0clhjSmlXU1pqWjQ4RFczd2s9MTswMDsn\"",
             "id":"94913756-80e9-47bc-995a-048a655b8cdd",
-            "content@odata.mediaEditLink":"http://api.businesscentral.dynamics.com/v1.0/api/beta/companies(name='CRONUS%20International%20Ltd.')/salesCreditMemos(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument(94913756-80e9-47bc-995a-048a655b8cdd)/content",
             "content@odata.mediaReadLink":"http:// api.businesscentral.dynamics.com/v1.0/pi/beta/companies(name='CRONUS%20International%20Ltd.')/salesCreditMemos(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument(94913756-80e9-47bc-995a-048a655b8cdd)/content"
         }
     ]
