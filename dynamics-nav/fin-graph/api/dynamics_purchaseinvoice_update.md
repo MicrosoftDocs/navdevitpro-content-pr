@@ -20,7 +20,7 @@ Update the properties of a purchase invoices object for [!INCLUDE[d365fin_long_m
 ## HTTP request
 
 ```
-PATCH /businesscentral/companies({id})/purchaseInvoices({id})
+PATCH /businesscentral/companies({id})/purchaseInvoices({invoiceid})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({invoiceid})
 Content-type: application/json
 
 {

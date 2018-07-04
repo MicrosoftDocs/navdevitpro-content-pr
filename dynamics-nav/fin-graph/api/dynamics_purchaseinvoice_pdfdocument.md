@@ -22,7 +22,7 @@ Retrieve a PDF print-out of the corresponding document as binary content for [!I
 The following example gets a link to the content of the PDF:
 
 ```
-GET /businesscentral/api/beta/companies({id})/purchaseInvoices({id})/pdfDocument
+GET /businesscentral/api/beta/companies({id})/purchaseInvoices({invoiceid})/pdfDocument
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and a link to th
 Here is an example of the request.
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({id})/pdfDocument
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({invoiceid})/pdfDocument
 ```
 
 **Response**
@@ -68,7 +68,7 @@ Here is an example of the response.
 
 ## HTTP request
 The following example gets the actual PDF document:
-`GET /businesscentral/api/beta/companies({companyid})/purchaseInvoices({id})/pdfDocument({id})/content`
+`GET /businesscentral/api/beta/companies({companyid})/purchaseInvoices({invoiceid})/pdfDocument({id})/content`
 
 ## Request headers
 |Header|Value|
@@ -87,7 +87,7 @@ If successful, this method returns a `200 OK` response code and the PDF document
 Here is an example of the request.
 
 ```
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyid})/purchaseInvoices({id})/pdfDocument({id})/content
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyid})/purchaseInvoices({invoiceid})/pdfDocument({id})/content
 ```
 
 **Response** 

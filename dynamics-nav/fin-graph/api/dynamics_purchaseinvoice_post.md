@@ -19,7 +19,7 @@ Posts a purchase invoice for [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 
 ## HTTP request
 ```
-POST /businesscentral/companies({id})/purchaseinvoice({invoiceid})/Microsoft.NAV.post
+POST /businesscentral/companies({id})/purchaseinvoices({invoiceid})/Microsoft.NAV.post
 ```
 
 ## Request headers
@@ -39,7 +39,7 @@ If successful, this method returns a ```204``` response code.
 
 Here is an example of the request.
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId})/purchaseinvoice({invoiceId})/Microsoft.NAV.post
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId})/purchaseinvoices({invoiceId})/Microsoft.NAV.post
 ```
 **Response**
 

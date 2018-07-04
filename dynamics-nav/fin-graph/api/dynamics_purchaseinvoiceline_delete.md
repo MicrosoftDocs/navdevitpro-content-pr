@@ -19,7 +19,7 @@ Delete a purchase invoice line object from [!INCLUDE[d365fin_long_md](../../incl
 
 ## HTTP request
 ```
-DELETE /businesscentral/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
+DELETE /businesscentral/companies({id})/purchaseInvoices({invoiceid})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
+DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({invoiceid})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 **Response** 

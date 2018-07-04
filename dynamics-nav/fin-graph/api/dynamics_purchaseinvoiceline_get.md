@@ -22,7 +22,7 @@ Retrieve the properties and relationships of a purchase invoice line object for 
 ## HTTP request
 
 ```
-GET /businesscentral/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
+GET /businesscentral/companies({id})/purchaseInvoices({invoiceid})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and a **purchase
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({invoiceid})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 **Response**
