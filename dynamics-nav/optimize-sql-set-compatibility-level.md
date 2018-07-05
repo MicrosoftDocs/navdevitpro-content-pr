@@ -13,40 +13,27 @@ author: jswymer
 ---
 # Ensure Performance with Microsoft Dynamics NAV
 
-If your [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database is running on Azure SQL Database or SQL Server 2016 or later, you can optimize the database's performance by setting the its compatibility level to match the database server. This will equip the database with the latest optimization features of the database server. For exampl, this is particularly relevant for demonstration databases that are installed by using the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup or bacpak files provided by [!INCLUDE[navnowlong](includes/navnowlong_md.md)] because by default these databases have a compatibility level that matches SQL Server 2014. 
+If your [!INCLUDE[navnow_md](includes/navnow_md.md)] database is running on Azure SQL Database or SQL Server 2016 or later, set the database's compatibility level  to match the database server. This will equip the database with the latest optimization features of the database server. This is particularly relevant for demonstration databases that are installed by using the [!INCLUDE[navnow_md](includes/navnow_md.md)] Setup or bacpak files provided by [!INCLUDE[navnowlong](includes/navnowlong_md.md)] because by default these databases have a compatibility level that matches SQL Server 2014. 
 
 ## To change the compatibility level
 You change the compatibility level of the database by using SQL Server Management Studio. There are two ways to do this:
 
+- Open the database properties, select the **Options** page, and then set the **Compatibility Level:**. 
 - Run the following query:
 
     ```
-    ALTER DATABASE <database name> SET COMPATIBILITY_LEVEL = { 140 | 130 }
+    ALTER DATABASE <database name> SET COMPATIBILITY_LEVEL = 140 | 130 
     ```
  
     where:
-    SQL Server 2017 is 140
-    Azure SQL Database is 130  
-    
-    SQL Server 2016 is 130
+   -    `<database name>` is the name of the database to be modified.
+   -    `140` sets the database to be compatible with SQL Server 2017
+   -    `130` sets the database to be compatible with SQL Server 2016 and Azure SQL Database
 
-
-[Data Access](Data-Access.md)   
-
-[Table Keys and Performance](Table-Keys-and-Performance.md)   
-
-[Bulk Inserts](Bulk-Inserts.md)   
-
-[C/AL Database Functions and Performance on SQL Server](C-AL-Database-Functions-and-Performance-on-SQL-Server.md)   
-
-[Query Objects and Performance](Query-Objects-and-Performance.md)  
-[Troubleshooting: Analyzing Long Running SQL Queries Involving FlowFields by Disabling SmartSQL](Troubleshooting-Queries-Involving-FlowFields-By-Disabling-SmartSQL.md)  
-
-[Troubleshooting: Using Query Store to Monitor Query Performance in Dynamics NAV](troubleshooting-query-performance-using-query-store.md)
-
-[Troubleshooting: Using the Event Log to Monitor Long Running SQL Queries in Dynamics NAV](troubleshooting-long-running-queries-using-event-log.md)
+   For more information, see [ALTER DATABASE (Transact-SQL) Compatibility Level](https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-database-transact-sql-compatibility-level)  
 
 ## See Also  
- [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
- [Microsoft SQL Server documentation](http://go.microsoft.com/fwlink/?LinkId=253107)
+[Optimizing SQL Server Performance](Optimizing-SQL-Server-Performance-with-Microsoft-Dynamics-NAV.md)    
+[Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
+[Microsoft SQL Server documentation](http://go.microsoft.com/fwlink/?LinkId=253107)
 a
