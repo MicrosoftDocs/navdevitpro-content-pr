@@ -1,18 +1,15 @@
 ---
-title: "EnablinSetting the INCLUDE[navnow_md](includes/navnow_md.md)] Database Compatibility Level to Enable Query Optimizer Features"
+title: "Enable query optimizer features in a Dynamics NAV Database by setting the compatibility level"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 05/07/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
-ms.assetid: e4c70172-b5bb-4649-a5cb-27fe0afd988c
-caps.latest.revision: 3
 author: jswymer
 ---
-# Enabling Query Optimizer Features in the  [!INCLUDE[navnow_md](includes/navnow_md.md)] Database
-
+# Enabling Query Optimizer Features in a [!INCLUDE[navnow_md](includes/navnow_md.md)] Database
 If your [!INCLUDE[navnow_md](includes/navnow_md.md)] database is running on Azure SQL Database or SQL Server 2016 or later, set the database's compatibility level to match the database server. This will equip the database with the latest optimizer features of Azure SQL Database or SQL Server. This is particularly relevant for demonstration databases that are installed by using the [!INCLUDE[navnow_md](includes/navnow_md.md)] Setup because the default compatibility level matches SQL Server 2014. 
 
 ## To change the compatibility level
