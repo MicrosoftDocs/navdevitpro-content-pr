@@ -11,9 +11,9 @@ ms.assetid: e4c70172-b5bb-4649-a5cb-27fe0afd988c
 caps.latest.revision: 3
 author: jswymer
 ---
-# Ensure Performance with Microsoft Dynamics NAV
+# Setting the [!INCLUDE[navnow_md](includes/navnow_md.md)] Database Compatibility Level to Enable Query Optimizer Features 
 
-If your [!INCLUDE[navnow_md](includes/navnow_md.md)] database is running on Azure SQL Database or SQL Server 2016 or later, set the database's compatibility level  to match the database server. This will equip the database with the latest optimization features of the database server. This is particularly relevant for demonstration databases that are installed by using the [!INCLUDE[navnow_md](includes/navnow_md.md)] Setup or bacpak files provided by [!INCLUDE[navnowlong](includes/navnowlong_md.md)] because by default these databases have a compatibility level that matches SQL Server 2014. 
+If your [!INCLUDE[navnow_md](includes/navnow_md.md)] database is running on Azure SQL Database or SQL Server 2016 or later, set the database's compatibility level to match the database server. This will equip the database with the latest optimizer features of the database server. This is particularly relevant for demonstration databases that are installed by using the [!INCLUDE[navnow_md](includes/navnow_md.md)] Setup because by default compatibility level matches SQL Server 2014. 
 
 ## To change the compatibility level
 You change the compatibility level of the database by using SQL Server Management Studio. There are two ways to do this:
