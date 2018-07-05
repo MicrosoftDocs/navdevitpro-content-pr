@@ -27,7 +27,7 @@ You change the compatibility level of the database by using SQL Server Managemen
    -    `140` sets the database to be compatible with SQL Server 2017
    -    `130` sets the database to be compatible with SQL Server 2016 and Azure SQL Database
 
-   For more information, see [ALTER DATABASE (Transact-SQL) Compatibility Level](https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-database-transact-sql-compatibility-level)  
+   For more information, see [ALTER DATABASE (Transact-SQL) Compatibility Level](https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-database-transact-sql-compatibility-level).  
 
 ## See Also  
 [Optimizing SQL Server Performance](Optimizing-SQL-Server-Performance-with-Microsoft-Dynamics-NAV.md)    
