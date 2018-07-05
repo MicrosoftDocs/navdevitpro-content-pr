@@ -33,4 +33,3 @@ You change the compatibility level of the database by using SQL Server Managemen
 [Optimizing SQL Server Performance](Optimizing-SQL-Server-Performance-with-Microsoft-Dynamics-NAV.md)    
 [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
 [Microsoft SQL Server documentation](http://go.microsoft.com/fwlink/?LinkId=253107)
-a
