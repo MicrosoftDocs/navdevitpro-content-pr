@@ -32,7 +32,7 @@ You change the compatibility level of the database by using SQL Server Managemen
    For more information, see [ALTER DATABASE (Transact-SQL) Compatibility Level](https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-database-transact-sql-compatibility-level).
 
 > [!NOTE]  
-> The compatibility level for Azure SQL Database is subject to change. Refer to Azure SQL Database documentation for latest levels.
+> The compatibility level for Azure SQL Database is subject to change. Refer to Azure SQL Database documentation for latest compatibility level.
 
 ## See Also  
 [Optimizing SQL Server Performance](Optimizing-SQL-Server-Performance-with-Microsoft-Dynamics-NAV.md)    
