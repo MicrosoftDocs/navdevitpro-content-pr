@@ -12,16 +12,16 @@ caps.latest.revision: 13
 manager: edupont
 ---
 # Sizing a Control Add-in on a Page
-By default, the size of a control add-in on a page is determined by the [System.Drawing.Size](assetId:///T:System.Drawing.Size) class of the control. The size is static, so when the page is resized in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the control add-in size will remain the same.  
+By default, the size of a control add-in on a page is determined by the [System.Drawing.Size](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=System.Drawing.Size) class of the control. The size is static, so when the page is resized in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the control add-in size will remain the same.  
   
 ## Changing the Size of a Control Add-in  
- To change the size of the control add-in and set it to resize with the page window size, you implement the [WinFormsControlAddInBase.ApplySize](assetId:///M:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.ApplySize(Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.DisplaySize,Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.DisplaySize)) method. This method has the following syntax.  
+ To change the size of the control add-in and set it to resize with the page window size, you implement the [WinFormsControlAddInBase.ApplySize](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.ApplySize(Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.DisplaySize,Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.DisplaySize)) method. This method has the following syntax.  
   
 ```c#  
 public void ApplySize(DisplaySize width, DisplaySize height);  
 ```  
   
- Each dimension is defined by the [DisplaySize](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.DisplaySize) method. This method has the following syntax.  
+ Each dimension is defined by the [DisplaySize](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.DisplaySize) method. This method has the following syntax.  
   
 ```c#  
 DisplaySize.DisplaySize(int minimum, int preferred, int maximum)  
@@ -55,7 +55,7 @@ this.ApplySize(DisplaySize.Default, new DisplaySize(10, 20, 200));
  In this case, the control add-in width resembles other field controls that have the same C/AL data type on the page.  
   
 ## Calling the ApplySize Method  
- You can use the [WinFormsControlAddInBase.ApplySize](assetId:///M:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.ApplySize(Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.DisplaySize,Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.DisplaySize)) method multiple times in the control add-in code to change the width and height. However, you should use it as part of the [CreateControl](assetId:///M:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.CreateControl) method.  
+ You can use the [WinFormsControlAddInBase.ApplySize](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.ApplySize(Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.DisplaySize,Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.DisplaySize)) method multiple times in the control add-in code to change the width and height. However, you should use it as part of the [CreateControl](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.CreateControl) method.  
   
 ## See Also  
  [Extending the Windows Client Using Control Add-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md)   
