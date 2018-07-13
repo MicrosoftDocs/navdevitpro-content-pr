@@ -3,13 +3,13 @@ title: Swiss Features that are Moved, Removed, or Replaced | Microsoft Docs
 description: We are constantly streamlining and adjusting our app in-step with market developments. Read about the features for Switzerland that we have moved, removed, or replaced.
 author: bholtorf
 
-ms.service: dynamics365-financials
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: deprecated, Switzerland, local functionality
-ms.date: 12/21/2017
+ms.date: 06/29/2018
 ms.author: SorenGP
 
 ---
@@ -23,6 +23,13 @@ You can archive and delete blanket sales and purchase orders. You can view docum
 |Moved, Removed, or Replaced?|Why?|
 |----|----|
 |Moved| Blanket Order Archiving and Document Line Tracking features are no longer specific to Switzerland, so we have made them generally available in the standard product. |
+
+## Deactivate Item Cost Tracking
+When inventory is not tracked for an item, the item cost does not need to be tracked, and an item ledger entry does not need to be created. For such items, you can select the **No Stokkeeping** check box to deactivate cost tracking.
+
+|Moved, Removed, or Replaced?|Why?|
+|----|----|
+|Removed| Deactivate Item Cost Tracking has been removed from the Swiss version because similar functionality is available in the standard version with the **Non-Inventory** item type. |
 
 ## See Also
 [Upgrading to Microsoft Dynamics NAV 2018](upgrading-to-microsoft-dynamics-nav.md)  

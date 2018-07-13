@@ -1,6 +1,6 @@
 ---
 title: Get salesQuotes | Microsoft Docs
-description: Gets a sales quote object in Dynamics 365 for Financials.
+description: Gets a sales quote object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

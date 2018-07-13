@@ -1,6 +1,6 @@
 ---
 title: Update salesQuotes | Microsoft Docs
-description: Updates a sales quote object in Dynamics 365 for Financials.
+description: Updates a sales quote object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

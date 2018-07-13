@@ -1,6 +1,6 @@
 ---
 title: Delete taxAreas | Microsoft Docs
-description: Deletes a tax area object in Dynamics 365 for Financials.
+description: Deletes a tax area object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

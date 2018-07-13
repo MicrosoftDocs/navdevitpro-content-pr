@@ -1,6 +1,6 @@
 ---
 title: Delete unitsOfMeasure | Microsoft Docs
-description: Deletes a unit of measure object in Dynamics 365 for Financials. 
+description: Deletes a unit of measure object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
