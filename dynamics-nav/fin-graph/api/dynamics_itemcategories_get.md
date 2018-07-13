@@ -1,6 +1,6 @@
 ---
 title: Get itemCategories | Microsoft Docs
-description: Gets an item category in Dynamics 365 for Financials.
+description: Gets an item category in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

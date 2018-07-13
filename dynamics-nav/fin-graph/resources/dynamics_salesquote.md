@@ -29,6 +29,8 @@ Represents a salesQuote resource type in [!INCLUDE[d365fin_long_md](../../includ
 |[PATCH salesQuotes](../api/dynamics_salesquote_update.md)|salesQuotes|Updates a sales quote object.|
 |[DELETE salesQuotes](../api/dynamics_salesquote_delete.md)|none|Deletes a sales quote object.|
 
+
+
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|

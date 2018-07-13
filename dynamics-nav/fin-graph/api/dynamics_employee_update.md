@@ -1,6 +1,6 @@
 ---
 title: Update employees | Microsoft Docs
-description: Updates an employee object in Dynamics 365 for Financials.
+description: Updates an employee object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

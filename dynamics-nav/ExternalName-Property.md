@@ -14,14 +14,15 @@ manager: edupont
 # ExternalName Property
 Specifies the name of the original table in the external database.  
 
- Specify this property if the original name is different from the name that you specify in the **Name** property. This means that you can use a different name for the table in [!INCLUDE[navnow](includes/navnow_md.md)].  
+Specify this property if the original name is different from the name that you specify in the **Name** property. This means that you can use a different name for the table in [!INCLUDE[navnow](includes/navnow_md.md)].  
 
 ## Applies To  
 
--   Tables  
+-   Tables
+-   Table fields  
 
 ## Property Value  
- The name of the table in the external database.  
+ The name of the table or field in the external database.  
 
 ## Remarks  
  This property appears when you specify **CRM** or **ExternalSQL** in the **TableType** property. These tables use a different SQL Server connection than the normal tables in the [!INCLUDE[navnow](includes/navnow_md.md)] database.  

@@ -1,6 +1,6 @@
 ---
 title: Get employees | Microsoft Docs
-description: Gets an employee object in Dynamics 365 for Financials.
+description: Gets an employee object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

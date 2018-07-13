@@ -17,8 +17,11 @@ The topics in this section describe actions that you can take after installing [
 -   [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md)  
   
 -   [How to: Start SQL Browser Service](How-to--Start-SQL-Browser-Service.md)  
+
+-   [Optimizing SQL Server Performance](Optimizing-SQL-Server-Performance-with-Microsoft-Dynamics-NAV.md)    
   
--   [Troubleshooting: SQL Server Connection Problems](Troubleshooting--SQL-Server-Connection-Problems.md)  
+-   [Troubleshooting: SQL Server Connection Problems](Troubleshooting--SQL-Server-Connection-Problems.md) 
+
   
 ## See Also  
  [Installation and Configuration Walkthroughs](Installation-and-Configuration-Walkthroughs.md)   

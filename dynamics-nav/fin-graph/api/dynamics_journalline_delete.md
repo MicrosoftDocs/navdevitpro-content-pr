@@ -1,6 +1,6 @@
 ---
 title: Delete journalLines | Microsoft Docs
-description: Deletes a journal line in Dynamics 365 for Financials.
+description: Deletes a journal line in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
