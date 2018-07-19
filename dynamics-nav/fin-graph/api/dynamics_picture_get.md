@@ -87,6 +87,6 @@ Here is an example of the response.
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Picture](../resources/dynamics_picture.md)  
-[Post Picture](dynamics_picture_post.md)  
-[Update Picture](dynamics_create_picture.md)  
+[Create Picture](dynamics_create_picture_.md)  
+[Update Picture](dynamics_picture_update.md)  
 [Delete Picture](dynamics_picture_delete.md)  
