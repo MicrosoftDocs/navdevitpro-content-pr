@@ -1,6 +1,6 @@
 ---
 title: Get customerPayments | Microsoft Docs
-description: Gets a customer payment object in Dynamics 365 for Financials.
+description: Gets a customer payment object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,17 +10,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Get customerPayments
-Retrieve the properties and relationships of a customer payment object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a customer payment object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-GET /financials/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
+GET /businesscentral/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **customer
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
 ```
 
 **Response**
@@ -70,4 +70,11 @@ Here is an example of the response.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Customer Payments](../resources/dynamics_customerpayment.md)  
+[Post Customer Payments](dynamics_create_customerpayment.md)  
+[Patch Customer Payments](dynamics_customerpayment_update.md)  
+[Delete Customer Payments](dynamics_customerpayment_delete.md)  

@@ -1,6 +1,6 @@
 ---
 title: Get itemCategories | Microsoft Docs
-description: Gets an item category in Dynamics 365 for Financials.
+description: Gets an item category in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,17 +10,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Get itemCategories
-Retrieve the properties and relationships of an item category object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of an item category object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-GET /financials/companies({id})/itemCategories({id})
+GET /businesscentral/companies({id})/itemCategories({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and an **itemCat
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/itemCategories({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/itemCategories({id})
 ```
 
 **Response**
@@ -61,4 +61,11 @@ Here is an example of the response.
 
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Item Categories](../resources/dynamics_itemcategories.md)  
+[Create Item Categories](../api/dynamics_create_itemcategories.md)  
+[Update Item Categories](../api/dynamics_itemcategories_update.md)  
+[Delete Item Categories](../api/dynamics_itemcategories_delete.md)  

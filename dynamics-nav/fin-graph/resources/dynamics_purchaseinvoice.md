@@ -1,6 +1,6 @@
 ---
 title: purchaseInvoices resource type | Microsoft Docs
-description: A purchase invoice object in Dynamics 365 for Financials.
+description: A purchase invoice object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,12 +10,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # purchaseInvoices resource type
-Represents a purchase invoice in Dynamics 365 for Financials. 
+Represents a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -25,6 +28,7 @@ Represents a purchase invoice in Dynamics 365 for Financials.
 |[POST purchaseInvoices](../api/dynamics_create_purchaseinvoice.md)  |purchaseInvoices|Creates a purchase invoice object.|
 |[PATCH purchaseInvoices](../api/dynamics_purchaseinvoice_update.md) |purchaseInvoices|Updates a purchase invoice object.|
 |[DELETE purchaseInvoices](../api/dynamics_purchaseinvoice_delete.md)|none            |Deletes a purchase invoice object.|
+
 
 ## Properties
 | Property	            | Type	            |Description                                                |
@@ -91,4 +95,13 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Purchase Invoice](../resources/dynamics_purchaseinvoice.md)  
+[Get Purchase Invoice](../api/dynamics_purchaseinvoice_get.md)  
+[Create Purchase Invoice](../api/dynamics_create_purchaseinvoice.md)  
+[Update Purchase Invoice](../api/dynamics_purchaseinvoice_update.md)  
+[Delete Purchase Invoice](../api/dynamics_purchaseinvoice_delete.md)  

@@ -1,16 +1,18 @@
 ---
 title: "How to: Export data for an Extension"
-author: edupont04
+author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/04/2016
+ms.date: 01/22/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
-ms.author: edupont
+ms.prod: "dynamics-nav-2018"
+ms.author: solsen
 ---
 # How to: Export Data for an Extension
+[!INCLUDE[nav_ext1_not_supported](includes/nav_ext1_not_supported.md)]
+
 An extension package may include required configuration and starting data for your extension to run properly. An extension can include the following types of data that can be imported for the tenant during the installation of the extension.  
 
 - Permission sets
@@ -48,7 +50,7 @@ The data must be exported from [!INCLUDE[navnow](includes/navnow_md.md)] into fi
 1.	Open the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].
 2.	Export the relevant data using the `Export-NAVAppTableData` cmdlet to export the data to a file. This includes setting the path to a folder where you want the .navxdata file created. A data file in the format of TAB<TABLEID>.navxdata will be created. (Example: TAB10000.navxdata)
 
-    `Export-NAVAppTableData -ServerInstance DynamicsNAVServer -Path ‘C:\NAVAppTableData’ -TableId 10000`
+    `Export-NAVAppTableData -ServerInstance DynamicsNAVServer -Path 'C:\NAVAppTableData' -TableId 10000`
 
     > [!NOTE]  
     >  Export the data for each table to a separate XML file.
@@ -69,7 +71,10 @@ The data must be exported from [!INCLUDE[navnow](includes/navnow_md.md)] into fi
 
 3.	Copy the exported files into a source folder for packaging, such as a *ReportLayouts* folder at the same level at the next to the DELTA folder.
 
+
 ## See Also  
+[Getting Started](developer/devenv-get-started.md)  
+<!--
 [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)  
 [How to: Develop an Extension](How-to--Develop-an-Extension.md)  
 [How to: Create an Extension Package](How-to--Create-an-Extension-Package.md)  
@@ -77,3 +82,4 @@ The data must be exported from [!INCLUDE[navnow](includes/navnow_md.md)] into fi
 [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)  
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
 [Development Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510540)
+-->

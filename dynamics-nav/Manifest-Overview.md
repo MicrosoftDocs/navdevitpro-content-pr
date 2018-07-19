@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 939606f2-3092-4f14-9faf-c99a3499a58d
 caps.latest.revision: 17
 ---
@@ -14,14 +14,16 @@ caps.latest.revision: 17
 For a control add-in to work on all display targets there has to be a manifest. The manifest contains a declarative description of the control add-in and is written in XML. The manifest is added together with any resource files in a .zip file and registered with the control add-in resources in the **Client Add-in** page. This topic explains the structure of a manifest by using an example of the manifest for the Bing Maps control add-in. For more information about the implementation of the Bing Maps control add-in, see [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough--Creating-and-Using-a-Client-Control-Add-in.md).  
 
 ## Example of a Manifest  
- The syntax of a manifest file is illustrated in the following example. All tags inside the `<manifest>` tag are optional. Inside the `<Manifest>` tag, the `<ScriptUrls>` tag references other JavaScripts from the manifest. In this case the `<ScriptUrls>` tag points to online map controls. The `<StyleSheetUrls>` tag contains references to style sheets from external web sites.
- Inside the `<Resources>` tag, all of the resources such as the script, style sheet, and images that are required to display the Bing Maps control add-in are listed.  
+ The syntax of a manifest file is illustrated in the following example. All elements inside the `<manifest>` element are optional.
+ 
+ <!-- Inside the `<Manifest>` element, the `<ScriptUrls>` element references other JavaScripts from the manifest. In this case the `<ScriptUrls>` element points to online map controls. The `<StyleSheetUrls>` element contains references to style sheets from external web sites.
+ Inside the `<Resources>` element, all of the resources such as the script, style sheet, and images that are required to display the Bing Maps control add-in are listed.  
 
- The `<Script>` tag contains the actual initialization code for the control add-in. The code must be written inside a `<![CDATA[]]>` tag to be parsed as code. The `Microsoft.Dynamics.NAV.InvokeExtensibilityMethod` is described in more detail in the reference documentation. For more information, see [InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md).  
+ The `<Script>` element contains the actual initialization code for the control add-in. The code must be written inside a `<![CDATA[]]>` element to be parsed as code. The `Microsoft.Dynamics.NAV.InvokeExtensibilityMethod` is described in more detail in the reference documentation. For more information, see [InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md).  
 
- The `<RefreshScript>` tag is used for refreshing the control add-in when the user refreshes the page using F5 or if the [RefreshOnActivate](RefreshOnActivate-Property.md) is called from code.
+ The `<RefreshScript>` element is used for refreshing the control add-in when the user refreshes the page using F5 or if the [RefreshOnActivate](RefreshOnActivate-Property.md) is called from code.
 
- Inside the `<Manifest>` tag, at the end of the script, the `<RequestedHeight>` and the `<RequestedWidth>` tags are set to definite sizes. It is recommended to apply some size to the add-in using these tags. The properties `<VerticalStretch>` and `<HorizontalStretch>` determine how the control add-in behaves in the client when the window it is displayed in is resized. The default value is **false** which means that the control add-in is not resized vertically, or horizontally. The value **true** means that the control add-in is resized vertically, or horizontally. The values in `<RequestedHeight>` and `<RequestedWidth>` determine the minimum resize value of the control add-in.  
+ Inside the `<Manifest>` element, at the end of the script, the `<RequestedHeight>` and the `<RequestedWidth>` elements are set to definite sizes. It is recommended to apply some size to the add-in using these elements. The properties `<VerticalStretch>` and `<HorizontalStretch>` determine how the control add-in behaves in the client when the window it is displayed in is resized. The default value is **false** which means that the control add-in is not resized vertically, or horizontally. The value **true** means that the control add-in is resized vertically, or horizontally. The values in `<RequestedHeight>` and `<RequestedWidth>` determine the minimum resize value of the control add-in.  -->
 
 ```  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -55,6 +57,11 @@ For a control add-in to work on all display targets there has to be a manifest. 
         ]]>
     </RefreshScript>
 
+    <RecreateScript>
+        <![CDATA[
+             Microsoft.Dynamics.NAV.InvokeExtensibilityMethod('Recreate', null);
+        ]]>
+    </RecreateScript>
 
     <RequestedHeight>300</RequestedHeight>  
     <RequestedWidth>700</RequestedWidth>  
@@ -69,10 +76,26 @@ For a control add-in to work on all display targets there has to be a manifest. 
     <HorizontalStretch>true</HorizontalStretch>  
 
     <VerticalShrink>true</VerticalShrink>  
-    <HorizontalShrink>true</HorizontalShrink>    
+    <HorizontalShrink>true</HorizontalShrink> 
+
+    <AllowCaption>false</AllowCaption>
 </Manifest>  
 
 ```  
+
+### Manifest elements overview
+|  Element   |  Description  |
+|--------|---------------|
+|`<Resources>`|Contains all of the resources such as the script, style sheet, and images that are required to display the Bing Maps control add-in. Each resource is included in a child element, such as `<script>`, `<stylesheet>`, and `<image>`. |
+|`<ScriptUrls>`| Includes references to other JavaScripts from the manifest. In this case the `<ScriptUrls>` element points to online map controls.|
+| `<StyleSheetUrls>`| Contains references to style sheets from external web sites.|
+|`<Script>`|Contains the actual initialization code for the control add-in. The code must be written inside a `<![CDATA[]]>` element to be parsed as code. The `Microsoft.Dynamics.NAV.InvokeExtensibilityMethod` is described in more detail in the reference documentation. For more information, see [InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md).  |
+| `<RefreshScript>`| Used for refreshing the control add-in when the user refreshes the page by using F5 or if the [RefreshOnActivate](RefreshOnActivate-Property.md) is property is set on the page.|
+| `<RecreateScript>`| Used for reloading the control add-in script in following instances:<ul><li>In a FastTab, when the user selects **Show More** or **Show Less**. Applies to the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] only.</li><li>In Designer, when the user switches the display target. Applies to the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] only.</li></ul>If this element is not defined, then the `<Script>` elememt is used. This element only pertains to the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)].|
+|`<RequestedHeight>` and `<RequestedWidth>`|Determine the minimum resize value of the control add-in. These are set to definite sizes. It is recommended to apply some size to the add-in using these elements.|
+| `<VerticalStretch>` and `<HorizontalStretch>`| Determine how the control add-in behaves in the client when the window it is displayed in is resized. The default value is **false** which means that the control add-in is not resized vertically, or horizontally. The value **true** means that the control add-in is resized vertically, or horizontally. |
+|`<VerticalShrink>` and `<HorizontalShrink>`  | Specifies that the control add-in can be made smaller vertically and horizontally. |
+|`<AllowCaption>`|Specifies whether to display the caption that is specified by the [CaptionML Property](CaptionML-Property.md) of the page field control that the control add-in uses.<br /><br />Set to `true` to display the caption; `false` to not display the caption, in which case the control add-in will use all the available space. `false` is the default setting.<br /><br />The caption will only display if the [ShowCaption property](ShowCaption-Property.md) of the field control is set to `Yes` (`true`).|
 
 ## Script Code in a Separate File  
  Code that is called from C/AL code must be put in a separate file under the *\\Script* folder. The code below is called from the manifest file and initializes and loads the map.  

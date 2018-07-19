@@ -7,7 +7,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: cd5254cf-2773-4011-97a8-7ebe2af0557c
 caps.latest.revision: 15
 manager: edupont
@@ -23,6 +23,7 @@ manager: edupont
 |Optimize performance when accessing [!INCLUDE[navnow](includes/navnow_md.md)] data from SQL Server.|[Optimizing SQL Server Performance with Microsoft Dynamics NAV](Optimizing-SQL-Server-Performance-with-Microsoft-Dynamics-NAV.md)|  
 |Monitor your [!INCLUDE[nav_server](includes/nav_server_md.md)] instances.|[Monitoring Microsoft Dynamics NAV Server](Monitoring-Microsoft-Dynamics-NAV-Server.md)|  
 |Connect [!INCLUDE[nav_windows](includes/nav_windows_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)] over a wide area network.|[Connecting the Microsoft Dynamics NAV Clients over a Wide Area Network](Connecting-the-Microsoft-Dynamics-NAV-Clients-over-a-Wide-Area-Network.md)|  
+|Learn about classifying data for compliance.|[Classifying Data](classifying-data.md)|
   
 ## See Also  
  [Deployment](Deployment.md)   

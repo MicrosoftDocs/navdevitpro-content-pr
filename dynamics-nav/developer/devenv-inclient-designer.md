@@ -3,23 +3,27 @@ title: "Using Designer"
 description: "Description of how Designer works."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 09/08/2017
+ms.date: 02/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.author: solsen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+ 
 
 # Using Designer
 
-Developing extensions using new development environment offers a wide range of possibilities. It is exceedingly important to pick suitable ways that servers a better development experience. [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Designer truly complements Visual Studio Code, as it provides easy and convenient way of making immediate adjustments to your design using drag-and-drop components.  
+Developing extensions using new development environment offers a wide range of possibilities. It is exceedingly important to pick suitable ways that servers a better development experience. Designer in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] truly complements Visual Studio Code, as it provides easy and convenient way of making immediate adjustments to your design by simply dragging and dropping the components around.  
 
-Here is a quick overview of the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Designer capabilities: 
+> [!NOTE]  
+> [!INCLUDE[d365fin_navnow_supported_md](includes/d365fin_navnow_supported_md.md)]
+
+Here is a quick overview of Designer capabilities: 
 
 |Features                           |Applies to                       | 
 |-----------------------------------|---------------------------------|
@@ -27,6 +31,7 @@ Here is a quick overview of the [!INCLUDE[d365fin_long_md](includes/d365fin_long
 |Move components                    |fields, columns, cues, and parts |
 |Remove components                  |fields, columns, cues, and parts |
 |Set freeze pane and clear freeze pane |columns                       |
+|Adjust column width |columns                       |
 |Edit caption                       |fasttab, cards, factbox          |
 |Save extension/download code       |general                          |
 |Preview design                     |general                          |
@@ -68,10 +73,12 @@ Removing a field, column, part, or a cue can be performed, by selecting the arro
 
 ## Preview design
 
-![Display options](media/display_options.png)  
 The display type icons let you preview the changes you made on desktop, tablet, and phone clients. This way you can make sure that your design will work on the intended display target(s). You can flip to display tablet and phone designs in portrait and landscape. 
+
+## Controlling User Access to Designer
+Access to Designer is controlled on a user or user group basis by the **D365 EXTENSION MGT** permission set. If a user is assigned this permission set, then Designer is available for the user in the client. To prohibit a user from using Designer, just remove them from the **D365 EXTENSION MGT** permission set.
 
 ## See Also
 [Developing Extensions](devenv-dev-overview.md)  
-[Getting Started](devenv-get-started.md)  
-[Developer Reference](devenv-reference-overview.md)
+[Getting Started with AL](devenv-get-started.md)  
+[AL Development Environment](devenv-reference-overview.md)

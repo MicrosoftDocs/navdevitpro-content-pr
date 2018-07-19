@@ -1,6 +1,6 @@
 ---
 title: Update taxAreas | Microsoft Docs
-description: Updates a tax areas object in Dynamics 365 for Financials. 
+description: Updates a tax areas object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,17 +10,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Update taxAreas
-Update the properties of a tax area object for Dynamics 365 for Financials.
+Update the properties of a tax area object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-PATCH /financials/companies({id})/taxAreas({id})
+PATCH /businesscentral/companies({id})/taxAreas({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/taxAreas({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/taxAreas({id})
 Content-type: application/json
 
 {

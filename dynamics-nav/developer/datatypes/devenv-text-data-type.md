@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: fe8419b7-96a2-486e-858d-51f62c66657f
 caps.latest.revision: 16
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # Text Data Type
 This simple data type denotes a text string.  
@@ -39,6 +40,7 @@ The following methods are **instance** methods, which support the Text data type
 |[REMOVE Method (Text)](../methods/devenv-remove-method-text.md)|
 |[REPLACE Method (Text)](../methods/devenv-replace-method-text.md)|
 |[STARTSWITH Method (Text)](../methods/devenv-startswith-method-text.md)|
+|[SPLIT Method (Text)](../methods/devenv-split-method-text.md)|
 |[SUBSTRING Method (Text)](../methods/devenv-substring-method-text.md)|
 |[TOLOWER Method (Text)](../methods/devenv-tolower-method-text.md)|
 |[TOUPPER Method (Text)](../methods/devenv-toupper-method-text.md)|

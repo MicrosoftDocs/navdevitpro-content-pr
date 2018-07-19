@@ -1,6 +1,6 @@
 ---
 title: Create itemCategories | Microsoft Docs
-description: Creates an item category object in Dynamics 365 for Financials.
+description: Creates an item category object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Create itemCategories
-Create an item category object in Dynamics 365 for Financials.
+Create an item category object [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-POST /financials/companies({id})/itemCategories
+POST /businesscentral/companies({id})/itemCategories
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and an **item
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/itemCategories
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/itemCategories
 Content-type: application/json
 
 {
@@ -73,4 +73,11 @@ Content-type: application/json
 
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Item Categories](../resources/dynamics_itemcategories.md)  
+[Get Item Categories](../api/dynamics_itemcategories_get.md)  
+[Update Item Categories](../api/dynamics_itemcategories_update.md)  
+[Delete Item Categories](../api/dynamics_itemcategories_delete.md)  

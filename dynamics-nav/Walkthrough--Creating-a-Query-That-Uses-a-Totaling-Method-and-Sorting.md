@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 692b5780-53c7-4747-9c2d-9b97afefeb81
 caps.latest.revision: 21
 manager: edupont
@@ -32,12 +32,11 @@ This walkthrough demonstrates how to modify an existing query, which links two t
  The SQL query for this dataset that Viktor wants is the following:  
   
 ```  
-SELECT C.Name, C.'No.', SUM(SL.Quantity)  
-FROM Customer AS C, "Sales Line" AS SL  
-WHERE C.'No.' = SL.'Sell-to Customer No.'  
-GROUP BY C.Name, C.'No.'  
+SELECT C.Name, C.No_, SUM(SL.Quantity)  
+FROM [CRONUS International Ltd_$Customer] AS C, [CRONUS International Ltd_$Sales Line] AS SL  
+WHERE C.No_ = SL.[Sell-to Customer No_]  
+GROUP BY C.Name, C.No_, SL.Quantity 
 ORDER BY Quantity  
-  
 ```  
   
 ## Adding a Totaling Method to a Query  

@@ -7,7 +7,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: ae4ef9f5-f1bd-4792-a232-f8cab454f3c5
 caps.latest.revision: 16
 ---
@@ -25,6 +25,9 @@ This section describes how to install and configure the [!INCLUDE[nav_web_server
 |[Deploying the Microsoft Dynamics NAV Web Server Components in a Single Computer Environment](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-in-a-Single-Computer-Environment.md)|Installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and the SQL Server database components on the same computer.|  
 |[Deploying the Microsoft Dynamics NAV Web Server Components in a Two Computer Environment](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-in-a-Two-Computer-Environment.md)|Installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer separate than [!INCLUDE[nav_server](includes/nav_server_md.md)] and the SQL Server database components.|  
 |[Deploying the Microsoft Dynamics NAV Web Server Components in a Three Computer Environment](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-in-a-Three-Computer-Environment.md)|Installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and the SQL Server database components on three separate computers.|  
+
+> [!IMPORTANT]
+> The [!INCLUDE[navnow](includes/navnow_md.md)] mobile app is not supported in a deployment scenario that uses Azure Active Directory Application Proxy.
   
 ## See Also  
  [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)

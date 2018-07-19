@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: c85fa3e9-db59-4e52-8b00-aa4b4378e147
 caps.latest.revision: 9
 manager: edupont
@@ -26,9 +26,12 @@ manager: edupont
 ```  
 netsh firewall set portopening protocol=TCP port=7046 scope=subnet addresses=LocalSubnet  
 ```  
-  
+## Data Encryption Between [!INCLUDE[nav_server](includes/nav_server_md.md)] and SQL Server  
+ When SQL Server and [!INCLUDE[nav_server](includes/nav_server_md.md)] are running on different computers, you can make this data channel more secure by encrypting the connection with IPSec. \(Other encryption options are not supported.\) For information on how to do this, see [Encrypting Connections to SQL Server](http://go.microsoft.com/fwlink/?LinkId=147732), which is part of SQL Server 2008 Books Online in MSDN library.  
+
 ## See Also  
  [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough--Installing-the-Three-Tiers-on-Three-Computers.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
  [Security Overview](Security-Overview.md)   
- [How to Use the Netsh.exe Tool and Command-Line Switches](http://go.microsoft.com/fwlink/?LinkId=166310)
+ [How to Use the Netsh.exe Tool and Command-Line Switches](http://go.microsoft.com/fwlink/?LinkId=166310)  
+ [Transparent Data Encryption (TDE)](transparent-data-encryption.md)  

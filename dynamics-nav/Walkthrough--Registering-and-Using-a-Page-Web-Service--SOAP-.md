@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 66804c95-51af-4514-b969-c3b5bec826ae
 caps.latest.revision: 63
 manager: edupont
@@ -62,7 +62,7 @@ This walkthrough focuses on publishing a [!INCLUDE[navnow](includes/navnow_md.md
 
 2.  In the **Address** field, enter an address of the following type: **http://\<Server>:\<WebServicePort>/\<ServerInstance>/WS/\<CompanyName>/services**. For example:  
 
-     **http://localhost:7047/ DynamicsNAV100/WS/CRONUS%20International%20Ltd./services**  
+     **http://localhost:7047/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WS/CRONUS%20International%20Ltd./services**  
 
     > [!NOTE]  
     >  The company name is case-sensitive.  
@@ -89,7 +89,7 @@ This walkthrough focuses on publishing a [!INCLUDE[navnow](includes/navnow_md.md
 
 4.  In Solution Explorer, right-click **References** in the project, and then choose **Add Service Reference**.  
 
-5.  Choose the **Advanced** button, choose the **Add Web Reference** button, type or paste the URL that you used when you checked the WSDL, such as **http://localhost:7047/DynamicsNAV100/WS/Services**, and then choose **Go**.  
+5.  Choose the **Advanced** button, choose the **Add Web Reference** button, type or paste the URL that you used when you checked the WSDL, such as **http://localhost:7047/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WS/Services**, and then choose **Go**.  
 
 6.  When the **Customer** service is displayed, choose **View Service**, rename **localhost** to **WebService**, and then choose **Add Reference**.  
 

@@ -1,7 +1,7 @@
 ---
 title: "EXECUTE Method"
 author: edupont04
-manager: edupont04
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference04
 ms.custom: na
 ms.date: 08/24/2016
 ms.reviewer: na
@@ -11,6 +11,7 @@ ms.topic: article
 ms.service: dynamics365-financials
 ms.assetid: f0268c2e-bbd6-493e-9ffd-08eac5df435d
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]

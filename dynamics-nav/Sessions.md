@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: c100689d-bfaf-41b9-bae6-c0fcba92db24
 caps.latest.revision: 6
 manager: edupont
@@ -24,4 +24,5 @@ Use the session functions to manage [!INCLUDE[navnow](includes/navnow_md.md)] se
  [STOPSESSION Function \(Sessions\)](STOPSESSION-Function--Sessions-.md)   
  [UNBINDSUBSCRIPTION Function](UNBINDSUBSCRIPTION-Function.md)   
  [USERID Function \(Sessions\)](USERID-Function--Sessions-.md)   
- [USERSECURITYID Function](USERSECURITYID-Function.md)
+ [USERSECURITYID Function](USERSECURITYID-Function.md)  
+ [SENDTRACETAG Function](sendtracetag-function.md)  

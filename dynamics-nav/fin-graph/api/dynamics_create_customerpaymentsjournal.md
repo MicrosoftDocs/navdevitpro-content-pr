@@ -1,6 +1,6 @@
 ---
 title: Create customerPaymentsJournals | Microsoft Docs
-description: Creates a customer payments journal object in Dynamics 365 for Financials.
+description: Creates a customer payments journal object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,17 +10,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Create customerPaymentsJournals
-Creates a customer payments journal object in Dynamics 365 for Financials.
+Creates a customer payments journal object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-POST /financials/companies({id})/customerPaymentsJournals({id})
+POST /businesscentral/companies({id})/customerPaymentsJournals({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and a **custo
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/customerPaymentsJournals
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customerPaymentsJournals
 Content-type: application/json
 
 ```json
@@ -67,3 +67,11 @@ Content-type: application/json
 
 ## See also
 [Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Customer Payments Journal](../resources/dynamics_customerpaymentsjournal.md)  
+[Get Customer Payments Journal](dynamics_customerpaymentsjournal_get.md)  
+[Patch Customer Payments Journal](dynamics_customerpaymentsjournal_update.md)  
+[Delete Customer Payments Journal](dynamics_customerpaymentsjournal_delete.md)  

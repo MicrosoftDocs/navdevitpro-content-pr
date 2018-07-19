@@ -1,16 +1,17 @@
 ---
-title: "How to: Create Codeunits to Run XMLports"
+title: Create Codeunits to Run XMLports
+description: This topic explains how to create codeunits to run XMLports. Before you create a codeunit, you must first design and save the XMLport. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 12/05/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 5912941e-bce2-44a0-ad79-6fd747be18b4
 caps.latest.revision: 9
 ---
-# How to: Create Codeunits to Run XMLports
+# Creating Codeunits to Run XMLports
 After creating an XMLport, you can create a codeunit to run the XMLport or run it from Object Designer. For more information about how to run XMLports from Object Designer, see [How to: Run an XMLport from Object Designer](How-to--Run-an-XMLport-from-Object-Designer.md). This topic shows you how to create codeunits to run XMLports. Before you create a codeunit, you must first design and save the XMLport. For more information about how to design an XMLport, see [How to: Create XMLports](How-to--Create-XMLports.md).  
   
  The basic steps for creating codeunits for export or import are similar. However, the specific code that you write is slightly different.  

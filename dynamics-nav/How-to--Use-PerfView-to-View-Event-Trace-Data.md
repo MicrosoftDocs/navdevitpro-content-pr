@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 5523466a-5f72-4138-ad36-3b678c36724b
 caps.latest.revision: 3
 ---
@@ -38,5 +38,6 @@ This topic describes how to use PerfView to view [!INCLUDE[nav_server](includes/
 ## See Also  
  [How to: Use PerfView to Collect Event Trace Data](How-to--Use-PerfView-to-Collect-Event-Trace-Data.md)   
  [How to: Use Performance Monitor to Collect Event Trace Data](How-to--Use-Performance-Monitor-to-Collect-Event-Trace-Data.md)   
- [Monitoring Microsoft Dynamics NAV Server Event Traces](Monitoring-Microsoft-Dynamics-NAV-Server-Event-Traces.md)   
- [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)
+ [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
+ [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)  
+ [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md)]  

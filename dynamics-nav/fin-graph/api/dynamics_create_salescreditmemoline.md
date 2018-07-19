@@ -1,6 +1,6 @@
 ---
 title: Create salesCreditMemoLines | Microsoft Docs
-description: Creates a sales credit memo line object in Dynamics 365 for Financials.
+description: Creates a sales credit memo line object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,17 +10,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 01/05/2018
 ms.author: solsen
 ---
 
 # Create salesCreditMemoLines
-Create a sales credit memo line object in Dynamics 365 for Financials.
+Create a sales credit memo line object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-POST /financials/companies({id})/salesCreditMemos({id})/salesCreditMemoLines
+POST /businesscentral/companies({id})/salesCreditMemos({id})/salesCreditMemoLines
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a **sales
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesCreditMemos({id})/salesCreditMemoLines
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesCreditMemos({id})/salesCreditMemoLines
 Content-type: application/json
 
 {
@@ -53,4 +53,12 @@ Content-type: application/json
 }
 ```
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md)
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Sales Credit Memo Line](../resources/dynamics_salescreditmemoline.md)  
+[Get Sales Credit Memo Line](../api/dynamics_salescreditmemoline_get.md)  
+[Update Sales Credit Memo Line](../api/dynamics_salescreditmemoline_update.md)  
+[Delete Sales Credit Memo Line](../api/dynamics_salescreditmemoline_delete.md)  

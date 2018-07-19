@@ -1,6 +1,6 @@
 ---
 title: Create employees | Microsoft Docs
-description: Creates an employee object in Dynamics 365 for Financials.
+description: Creates an employee object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Create employees
-Create an employee object in Dynamics 365 for Financials.
+Create an employee object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-POST /financials/companies({id})/employees
+POST /businesscentral/companies({id})/employees
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and an **empl
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/employees
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/employees
 Content-type: application/json
 
 {
@@ -107,4 +107,11 @@ Content-type: application/json
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Employee](../resources/dynamics_employee.md)  
+[Get Employee](../api/dynamics_employee_get.md)  
+[Patch Employee](../api/dynamics_employee_update.md)  
+[Delete Employee](../api/dynamics_employee_delete.md)  

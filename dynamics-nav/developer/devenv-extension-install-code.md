@@ -3,12 +3,13 @@ author: jswymer
 title: "Writing extensions installation code"
 description: "Describes how to add code to run to initialize data when an extension is installed."
 ms.custom: na
-ms.date: 11/10/2017
+ms.date: 11/30/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-extension-install-code
 ---
 # Writing Extension Install Code
 There might certain operations outside of the extension code itself that you want performed when an extension is installed. These operations could include, for example, populating empty records with data, service callbacks and telemetry, version checks, and messages to users. To perform these types of operations, you write extension install code. Extension install code is run when:
@@ -96,7 +97,7 @@ codeunit 50100 MyInstallCodeunit
 
 ## See Also  
 [Developing Extensions](devenv-dev-overview.md)  
-[Getting Started](devenv-get-started.md)
+[Getting Started with AL](devenv-get-started.md)  
 [How to: Publish and Install an Extension](devenv-how-publish-and-install-an-extension-v2.md)  
 [Converting Extensions V1 to Extensions V2](devenv-upgrade-v1-to-v2-overview.md)  
-[Sample Extension](devenv-extension-example.md)  
+[Building Your First Sample Extension With Extension Objects, Install Code, and Upgrade Code](devenv-extension-example.md)  

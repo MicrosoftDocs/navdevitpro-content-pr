@@ -8,7 +8,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 9d10def7-b641-497e-9e03-192d174674c8
 caps.latest.revision: 7
 ---
@@ -101,4 +101,5 @@ This topic describes how you can deploy a [!INCLUDE[navnow](includes/navnow_md.m
 
 ## See Also  
  [Configuring Database Components](Configuring-Database-Components.md)   
- [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)
+ [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)  
+ [Transparent Data Encryption (TDE)](transparent-data-encryption.md)  

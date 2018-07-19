@@ -1,6 +1,6 @@
 ---
 title: Get journals | Microsoft Docs
-description: Gets a journal object in Dynamics 365 for Financials.
+description: Gets a journal object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,17 +10,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Get journals
-Retrieve the properties and relationships of a journal object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a journal object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-GET /financials/companies({id})/journals({id})
+GET /businesscentral/companies({id})/journals({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **journals
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/journals({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/journals({id})
 ```
 
 **Response**
@@ -60,4 +60,12 @@ Here is an example of the response.
 ```
 
 ## See also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Journal](../resources/dynamics_journal.md)  
+[Create Journal](../api/dynamics_create_journal.md)  
+[Update Journal](../api/dynamics_journal_update.md)  
+[Delete Journal](../api/dynamics_journal_delete.md)  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: "dynamics365-financials"
 ms.assetid: c100689d-bfaf-41b9-bae6-c0fcba92db24
 caps.latest.revision: 6
-manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -27,6 +27,9 @@ The following AL methods for managing [!INCLUDE[d365fin_long_md](../includes/d36
 
  [DEFAULTCLIENTTYPE Method](devenv-DEFAULTCLIENTTYPE-Method.md)  
 
+<!-- future CU
+ [SENDTRACETAG Method](devenv-SENDTRACETAG-Method.md)
+-->
  [STARTSESSION Method \(Sessions\)](devenv-STARTSESSION-Method-Sessions.md)
 
  [STOPSESSION Method \(Sessions\)](devenv-STOPSESSION-Method-Sessions.md)

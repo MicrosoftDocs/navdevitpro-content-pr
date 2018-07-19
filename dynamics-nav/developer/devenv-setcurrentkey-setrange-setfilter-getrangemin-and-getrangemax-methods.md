@@ -1,7 +1,7 @@
 ---
 title: "SETCURRENTKEY, SETRANGE, SETFILTER, GETRANGEMIN, and GETRANGEMAX Methods"
 ms.custom: na
-ms.date: 014/06/2017
+ms.date: 05/02/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,9 +10,10 @@ ms.service: "dynamics365-financials"
 ms.assetid: 236dee86-1860-4d99-87dd-b30a30ae616e
 caps.latest.revision: 10
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-setcurrentkey-setrange-setfilter-getrangemin-and-getrangemax-methods
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+ 
 
 # SETCURRENTKEY, SETRANGE, SETFILTER, GETRANGEMIN, and GETRANGEMAX Methods
 The following methods are used to filter records in a table:  
@@ -30,25 +31,27 @@ The following methods are used to filter records in a table:
  These methods are some of the most commonly used AL methods. They set limits on the value of one or more specified fields, so that only a subset of the records are displayed, modified, deleted, and so on.  
 
 ## SETCURRENTKEY Method  
- SETCURRENTKEY selects a key for a record and sets the sort order that is used for the table in question.  
+ SetCurrentKey sorts the contents of the table on the provided fields and selects the key that contains the specified fields if possible. 
 
- SETCURRENTKEY has the following syntax.  
+ SetCurrentKey has the following syntax.  
 
 ```  
-[Ok :=] Record.SETCURRENTKEY(Field1, [Field2],...)  
+[Ok :=] Record.SetCurrentKey(Field1, [Field2],...)  
 ```  
 
- When you use SETCURRENTKEY the following rules apply:  
+ When you use SetCurrentKey the following rules apply:  
 
--   Inactive fields are ignored.  
+-   Inactive fields are ignored. Only active keys are scanned.  
 
 -   When searching for a key, the first occurrence of the specified fields is selected. This means the following:  
 
-    -   If you specify only one field as a parameter when you call SETCURRENTKEY, the key that is actually selected may consist of more than one field.  
+    -   If you specify only one field as a parameter when you call SetCurrentKey, the key that is actually selected may consist of more than one field.  
 
     -   If the field that you specify is the first component of several keys, the key that is selected may not be the key that you expect.  
 
     -   If no keys can be found that include the fields that you specify, the return value is FALSE. If you do not test the return value, a run-time error occurs. If you do test the return value, the program will continue to run even though no key was found.  
+
+ For more information about this method, see [SetCurrentKey Method (Record)](methods/devenv-setcurrentkey-method-record.md).
 
 ## SETRANGE Method  
  SETRANGE sets a simple filter on a field.  

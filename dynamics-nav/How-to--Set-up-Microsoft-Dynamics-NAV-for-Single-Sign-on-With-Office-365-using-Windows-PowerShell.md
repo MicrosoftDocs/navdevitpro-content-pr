@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 817bdbef-697e-4cbc-8342-77ec9fcba027
 caps.latest.revision: 15
 manager: edupont
+redirect_url: Authenticating-Users-with-Azure-Active-Directory
 ---
 # How to: Set up Microsoft Dynamics NAV for Single Sign-on With Office 365 using Windows PowerShell
 [!INCLUDE[navnow](includes/navnow_md.md)] supports federated user authentication with Microsoft Azure Active Directory \(Azure AD\). This is the Identity Provider service that is used by Office 365. Every time a new Office 365 subscription is provisioned, the Azure AD tenant for this subscription is also created. Thus, when [!INCLUDE[navnow](includes/navnow_md.md)] is configured for federated authentication with an Azure AD tenant, a Single Sign-on \(SSO\) user experience is achieved between [!INCLUDE[navnow](includes/navnow_md.md)] and the Office 365 Web Applications or/and any other applications which use the Single Sign-on capability provided by the Azure AD tenant.  
@@ -128,7 +129,7 @@ $result = Set-NavSingleSignOnWithOffice365 -AuthenticationEmail “YourOffice365
 >  When setting ACSUri in the ClientUserSettings.config file, make sure that the `ClientServicesCredentialType` is set to `AccessControlService`.  
   
 ### Adjusting the Client User Settings  
- To make sure that the account authentication for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] works correctly, the ClientUserSettings.Config file needs two settings to be of a specific type. The default location for the ClientUserSettings.Config file is *C:\\Users\\\<username>\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\90*. For more information, see [Configuring the Windows Client](Configuring-the-Windows-Client.md).  
+ To make sure that the account authentication for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] works correctly, the ClientUserSettings.Config file needs two settings to be of a specific type. The default location for the ClientUserSettings.Config file is *C:\\Users\\\<username>\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\110*. For more information, see [Configuring the Windows Client](Configuring-the-Windows-Client.md).  
   
  The `ClientServicesCredentialType` must be set to `AccessControlService`.  
   

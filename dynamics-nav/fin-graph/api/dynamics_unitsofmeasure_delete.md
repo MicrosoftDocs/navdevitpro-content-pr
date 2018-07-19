@@ -1,6 +1,6 @@
 ---
 title: Delete unitsOfMeasure | Microsoft Docs
-description: Deletes a unit of measure object in Dynamics 365 for Financials. 
+description: Deletes a unit of measure object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Delete unitsOfMeasure
-Deletes a units of measure object from Dynamics 365 for Financials.
+Deletes a units of measure object from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-DELETE /financials/companies({id})/unitsOfMeasure({id})
+DELETE /businesscentral/companies({id})/unitsOfMeasure({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/unitsOfMeasure({id})
+DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/unitsOfMeasure({id})
 ```
 
 **Response** 
@@ -53,4 +53,12 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Units of Measure](../resources/dynamics_unitsofmeasure.md)  
+[Get Units of Measure](../api/dynamics_unitsofmeasure_get.md)  
+[Create Units of Measure](../api/dynamics_create_unitsofmeasure.md)  
+[Update Units of Measure](../api/dynamics_unitsofmeasure_update.md)  

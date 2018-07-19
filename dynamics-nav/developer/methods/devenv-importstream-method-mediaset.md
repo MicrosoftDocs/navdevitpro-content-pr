@@ -8,6 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -79,6 +80,7 @@ The code requires that you create the following variables and text constant:
 |  Variable name  |  DataType  |  Subtype  |  
 |-----------------|------------|-----------|  
 |itemRec|Record|Item|  
+|fileName|Text||  
 |inStreamObject|InStream||  
 |importFile|File||
 |count|Integer||  

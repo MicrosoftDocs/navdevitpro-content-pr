@@ -1,6 +1,6 @@
 ---
 title: paymentTerms resource type | Microsoft Docs
-description: A payment terms object in Dynamics 365 for Financials.
+description: A payment terms object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,12 +10,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # paymentTerms resource type
-Represents a payment term in Dynamics 365 for Financials.
+Represents a payment term in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -62,4 +65,12 @@ Here is a JSON representation of the paymentTerms.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Get Payment Terms](../api/dynamics_paymentterms_get.md)  
+[Create Payment Terms](../api/dynamics_create_paymentterms.md)  
+[Update Payment Terms](../api/dynamics_paymentterms_update.md)  
+[Delete Payment Terms](../api/dynamics_paymentterms_delete.md)  

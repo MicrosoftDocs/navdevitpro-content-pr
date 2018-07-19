@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: d3797441-20f0-4463-aa6e-45d61fef1f89
 caps.latest.revision: 17
 authoer: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-system-defined-variables
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
 
 # System-Defined Variables
 [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] automatically declares and initializes several variables that you can use when you develop applications. The following table describes the system-defined variables.  
@@ -33,7 +33,7 @@ In addition, some triggers, such as the [OnFormat](triggers/devenv-onformat-trig
 ## Example  
  The following example shows how to use the Rec and xRec pair of records.  
 
- In an application, data is stored in two tables, a header table and a line table. The header table contains general information about, for example, sales orders, while the line table contains the specific order lines. The page that you use to enter information into the header table has fields that contain the customer’s address. These fields are related to the **Customer** table, and can be filled by using a lookup function in the field that establishes the relationship. In the header table, only the customer number is stored, and the other fields that have customer information, such as name and address, are retrieved from the **Customer** table when the **Customer No.** field is validated.  
+ In an application, data is stored in two tables, a header table and a line table. The header table contains general information about, for example, sales orders, while the line table contains the specific order lines. The page that you use to enter information into the header table has fields that contain the customer’s address. These fields are related to the **Customer** table, and can be filled by using a lookup method in the field that establishes the relationship. In the header table, only the customer number is stored, and the other fields that have customer information, such as name and address, are retrieved from the **Customer** table when the **Customer No.** field is validated.  
 
  In some situations, the user should be able to change the customer number, and in other situations the user should not be able to change it. For example, if the order has already been shipped, the user should not be able to change the customer number. If there is an incorrect number on an order that has not been processed completely, the user should be able to correct the error.  
 

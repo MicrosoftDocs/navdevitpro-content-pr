@@ -1,17 +1,18 @@
 ---
 title: "Extending Microsoft Dynamics NAV Using Extension Packages"
-author: edupont04
+author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/24/2016
+ms.date: 01/22/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 8fdc480a-bc28-4b78-8656-f27480779ff8
-ms.author: edupont
+ms.author: solsen
 ---
 # Extending Microsoft Dynamics NAV Using Extension Packages
+[!INCLUDE[nav_ext1_not_supported](includes/nav_ext1_not_supported.md)]
 
 You can extend and customize a [!INCLUDE[navnow](includes/navnow_md.md)] deployment without modifying the original application objects. With extension packages, you install, upgrade, and uninstall functionality in on-premises deployments or for select tenants in a multitenant deployment. Customers can easily add or remove horizontal or customized functionality to their solution that upgrade much easier than past solutions.  
 Your extension can add new objects and extend objects that you know to be present in the application, such as objects in the application that Microsoft makes available. The main difference from classical development is that source code modifications are not allowed. Instead, you use C/AL events to extend and customize objects.  
@@ -129,6 +130,8 @@ If your destination server does not have the required extensions, you can altern
  For more information, see [Administration Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626874).  
 
 ## See Also  
+[Getting Started](developer/devenv-get-started.md)  
+<!--
 [How to: Develop an Extension](How-to--Develop-an-Extension.md)  
 [How to: Create an Extension Package](How-to--Create-an-Extension-Package.md)  
 [How to: Publish and Install an Extension](How-to--Publish-and-Install-an-Extension.md)  
@@ -136,3 +139,4 @@ If your destination server does not have the required extensions, you can altern
 [Extension Packages Capability Support Matrix](Extension-Packages-Capability-Support-Matrix.md)  
 [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)  
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)
+-->

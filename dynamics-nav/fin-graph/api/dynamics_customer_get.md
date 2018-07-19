@@ -1,6 +1,6 @@
 ---
 title: Get customers | Microsoft Docs
-description: Gets a customer object in Dynamics 365 for Financials.
+description: Gets a customer object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Get customers
-Retrieve the properties and relationships of a customer object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a customer object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-GET /financials/companies({id})/customers({id})
+GET /businesscentral/companies({id})/customers({id})
 ```
 
 ## Request headers
@@ -38,7 +38,7 @@ If successful, this method returns a ```200 OK``` response code and a **customer
 Here is an example of the request.
 
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/customers({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customers({id})
 ```
 
 **Response**
@@ -91,4 +91,11 @@ Here is an example of the response.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Customer](../resources/dynamics_customer.md)  
+[Post Customers](dynamics_create_customer.md)  
+[Patch Customers](dynamics_customer_update.md)  
+[Delete Customers](dynamics_customer_delete.md)  

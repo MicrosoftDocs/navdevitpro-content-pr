@@ -1,16 +1,17 @@
 ---
-title: "How to: Create a Progress Window"
+title: Create a Progress Window
+description: Create a progress window for time-consuming applications by displaying a window with information of the progress that is being made. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 89d7a1a1-f0ac-4998-b1c4-e47fb118932f
 caps.latest.revision: 8
 ---
-# How to: Create a Progress Window
+# Creating a Progress Window in Dynamics NAV
 If you have an application that performs some processing which can take a long time to complete, you should consider displaying a window that informs the user of the progress that is being made.  
   
  You can create a window in which each field is updated while the program is running. For example, the fields in a window display the count of the number of postings made. You can also display information about the record that is currently being processed. For example, the field in a window displays the number of the account that is currently being processed.  

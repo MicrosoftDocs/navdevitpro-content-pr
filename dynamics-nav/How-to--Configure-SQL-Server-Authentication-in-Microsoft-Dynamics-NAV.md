@@ -1,17 +1,18 @@
 ---
-title: "How to: Configure SQL Server Authentication in Microsoft Dynamics NAV"
+title: Configure SQL Server Authentication
+description: This topic describes how to configure SQL Server Authentication between the Dynamics NAV Server instance and a Dynamics NAV database. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: acd13069-9014-4c04-84b2-05a94a2cc776
 caps.latest.revision: 7
 manager: edupont
 ---
-# How to: Configure SQL Server Authentication in Microsoft Dynamics NAV
+# Configuring SQL Server Authentication in Dynamics NAV
 This topic describes how to configure SQL Server Authentication between the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and a [!INCLUDE[navnow](includes/navnow_md.md)] database. You perform the configuration in two places: on the databases in SQL Server and on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The procedure is different when the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as a multitenant server instance than when it is not a multitenant server instance. To configure SQL Server authentication, complete the following procedures:  
   
 1.  [Set Up an Encryption Key](How-to--Configure-SQL-Server-Authentication-in-Microsoft-Dynamics-NAV.md#SetEncryptionKey)  

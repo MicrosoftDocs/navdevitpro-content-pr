@@ -8,6 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-financials
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -42,8 +43,8 @@ This example creates a SessionSettings object that is populated with the current
 var
   MySessionSettings : SessionSettings;
   begin
-    MySessionSettings.INIT
-    MySessionSettings.LANGUAGE(1030);
+    MySessionSettings.INIT;
+    MySessionSettings.LANGUAGEID(1030);
     MySessionSettings.REQUESTSESSIONUPDATE(false);
   end;  
 ```  

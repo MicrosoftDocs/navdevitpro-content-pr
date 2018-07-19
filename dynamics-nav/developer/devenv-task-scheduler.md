@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 7715e99d-ebf2-4443-a426-6b2b0a72d148
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-task-scheduler
 ---
 # Task Scheduler
 The task scheduler enables you to control when certain operations or processes (in other words *tasks*) are run. Basically, a task is a codeunit or report that is scheduled to run at a specific data and time. Tasks run in a background session between the [!INCLUDE[d365fin_server_md](includes/d365fin_server_md.md)] instance and database. Behind the scenes, the task scheduler is used by the job queue to process job queue entries that are created and managed from the clients.  
@@ -52,7 +53,7 @@ To set up a task, you create a codeunit that contains the logic that you want to
 
 -   The [!INCLUDE[d365fin_server_md](includes/d365fin_server_md.md)] instance restarted while the task was being run.  
 
-<!--NAV You can view these errors in the event log of the computer that is running the [!INCLUDE[d365fin_server_md](includes/d365fin_server_md.md)] instance. For more information, see [Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md). --> 
+<!--NAV You can view these errors in the event log of the computer that is running the [!INCLUDE[d365fin_server_md](includes/d365fin_server_md.md)] instance. For more information, see [Monitoring Dynamics NAV Server Events Using Event Viewer](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md). --> 
 
 When an error occurs, unless the task is interrupted by the failure codeunit, the server instance will rerun the task according to the following retry flow:  
 
@@ -70,4 +71,4 @@ When an error occurs, unless the task is interrupted by the failure codeunit, th
 ## See Also
 [Task Scheduler Data Type](datatypes/devenv-taskscheduler-data-type.md)   
 [Developing Extensions](devenv-dev-overview.md)  
-[Getting Started](devenv-get-started.md) 
+[Getting Started with AL](devenv-get-started.md) 

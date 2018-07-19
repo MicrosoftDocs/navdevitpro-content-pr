@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 0da8d4ad-82cd-4906-9faa-e49e360262b9
 caps.latest.revision: 24
 manager: edupont
@@ -60,7 +60,7 @@ Sends a file from the client computer to the [!INCLUDE[nav_server](includes/nav_
   
  If you do not provide a path, or you upload the file that uses [!INCLUDE[nav_web](includes/nav_web_md.md)], then the file is uploaded to the following folder on the computing that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]:  
   
- \\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\90\\Server\\MicrosoftDynamicsNAVServer$[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\\users\\*ServiceAccount*  
+ \\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\110\\Server\\MicrosoftDynamicsNAVServer$[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\\users\\*ServiceAccount*  
   
  *ServiceAccount* is the folder for the account for [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   

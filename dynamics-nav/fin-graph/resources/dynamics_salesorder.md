@@ -1,6 +1,6 @@
 ---
 title: salesOrders resource type | Microsoft Docs
-description: A sales order object in Dynamics 365 for Financials.
+description: A sales order object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,12 +10,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # salesOrders resource type
-Represents a sales order in Dynamics 365 for Financials.
+Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -46,7 +49,7 @@ Represents a sales order in Dynamics 365 for Financials.
 |partialShipping|boolean|Specifies whether partial shipping of items is preferred or not.|
 |requestedDeliveryDate|Date|The requested delivery date.|
 |discountAmount|numeric|The order discount amount|
-|discountAppliedBeforeTax|boolean|Specifies whether the discount is applied before tax.|
+|discountAppliedBeforeTax|boolean|Specifies whether the discount is applied before tax. Read-Only.|
 |totalAmountExcludingTax|numeric|The total amount excluding tax. Read-Only.|
 |totalTaxAmount|numeric|The total tax amount for the order. Read-Only.|
 |totalAmountIncludingTax|numeric|The total amount for the order, including tax. Read-Only.|
@@ -99,4 +102,12 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Get Sales Order](../api/dynamics_salesorder_get.md)  
+[Create Sales Order](../api/dynamics_create_salesorder.md)  
+[Update Sales Order](../api/dynamics_salesorder_update.md)  
+[Delete Sales Order](../api/dynamics_salesorder_delete.md)  

@@ -1,15 +1,16 @@
 ---
 title: "System"
 ms.custom: na
-ms.date: 07/03/2017
+ms.date: 11/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: cc227051-69f0-453e-ad20-fe7b6eb1f582
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # System
 This section contains the following topics:  
@@ -29,4 +30,4 @@ This section contains the following topics:
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
 [AL Method Reference](../methods/devenv-al-method-reference.md)   
- <!--[Developer Reference](../devenv-developer-reference.md)-->
+[AL Development Environment](../devenv-reference-overview.md)

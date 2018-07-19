@@ -1,6 +1,6 @@
 ---
 title: Get salesQuotes | Microsoft Docs
-description: Gets a sales quote object in Dynamics 365 for Financials.
+description: Gets a sales quote object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,17 +10,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Get salesQuotes
-Retrieve the properties and relationships of a sales quote object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of a sales quote object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-GET /financials/companies({id})/salesQuotes({id})
+GET /businesscentral/companies({id})/salesQuotes({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **salesQuo
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})
 ```
 
 **Response**
@@ -88,4 +88,12 @@ Here is an example of the response.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Sales Quote](../resources/dynamics_salesquote.md)  
+[Create Sales Quote](../api/dynamics_create_salesquote.md)  
+[Update Sales Quote](../api/dynamics_salesquote_update.md)  
+[Delete Sales Quote](../api/dynamics_salesquote_delete.md)  

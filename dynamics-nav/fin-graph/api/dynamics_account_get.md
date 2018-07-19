@@ -1,6 +1,6 @@
 ---
 title: Get accounts | Microsoft Docs
-description: Gets an account object in Dynamics 365 for Financials.
+description: Gets an account object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Get accounts
-Retrieve the properties and relationships of an account object for Dynamics 365 for Financials.
+Retrieve the properties and relationships of an account object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-GET /financials/companies({id})/accounts({id})
+GET /businesscentral/companies({id})/accounts({id})
 ```
 
 ## Request headers
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and an **account
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/accounts({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/accounts({id})
 ```
 
 **Response**
@@ -63,4 +63,10 @@ Here is an example of the response.
 
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Account](../resources/dynamics_account.md)  
+[Get Aged Accounts Payable](dynamics_agedaccountspayable_get.md)  
+[Get Aged Accounts Receivable](dynamics_agedaccountsreceivable_get.md)  

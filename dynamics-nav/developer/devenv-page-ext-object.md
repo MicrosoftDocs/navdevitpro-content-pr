@@ -3,25 +3,32 @@ title: "Page Extension Object"
 description: "Description of the page extension object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 01/06/2017
+ms.date: 02/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: solsen
 caps.latest.revision: 18
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+ 
 
 # Page Extension Object
-The page extension object extends a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] page object and adds or overrides the functionality.
+The page extension object extends a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] page object and adds or overrides the functionality.
 
 The structure of a page is hierarchical and breaks down in to three sections. The first block contains metadata for the overall page; the type of the page and the source table it is showing data from. The next section; the layout, describes the visual parts on the page. The final section details the actions that are published on the page.
 
 For more information about the Page and Page Extension objects, see [Pages Overview](devenv-pages-overview.md).
+
+> [!NOTE]  
+> [!INCLUDE[d365fin_navnow_supported_md](includes/d365fin_navnow_supported_md.md)]
+
+> [!NOTE]  
+> Extension objects can have a name with a maximum length of 30 characters.      
 
 ## Snippet support
 Typing the shortcut ```tpageext``` will create the basic layout for a table object when using the AL Extension in Visual Studio Code.
@@ -126,7 +133,6 @@ Pages
 
 ## See Also  
 [Page Object](devenv-page-object.md)  
-[Page Extension Properties](./properties/devenv-page-property-overview.md)    
-[Page Properties](./properties/devenv-page-properties.md)  
+[Page and Page Extension Properties](properties/devenv-page-property-overview.md)    
 [Developing Extensions](devenv-dev-overview.md)  
-[Developer Reference](devenv-reference-overview.md)  
+[AL Development Environment](devenv-reference-overview.md)  

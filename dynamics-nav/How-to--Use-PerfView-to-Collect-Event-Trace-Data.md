@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 0a53dde8-c139-46d0-a13c-56391eed7f95
 caps.latest.revision: 14
 ---
@@ -64,5 +64,7 @@ This topic describes how to use PerfView to collect event trace data for [!INCLU
 5.  To view details about a trace event, double-click the trace event.  
   
 ## See Also  
- [Monitoring Microsoft Dynamics NAV Server Event Traces](Monitoring-Microsoft-Dynamics-NAV-Server-Event-Traces.md)   
- [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)
+ [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
+ [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)  
+ [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md)   
+ [Monitoring Long Running SQL Queries in the Event Log](Monitoring-Long-Running-SQL-Queries-Event-Log.md)

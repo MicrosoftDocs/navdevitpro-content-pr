@@ -1,6 +1,6 @@
 ---
 title: Update companyInformation | Microsoft Docs
-description: Updates a company information object in Dynamics 365 for Financials.
+description: Updates a company information object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,17 +10,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Update companyInformation
-Update the properties of a company information object for Dynamics 365 for Financials.
+Update the properties of a company information object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 
 ## HTTP request
 ```
-PATCH /financials/companies({id})/companyInformation({id})
+PATCH /businesscentral/companies({id})/companyInformation({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated a
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/companyInformation({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/companyInformation({id})
 Content-type: application/json
 
 {
@@ -87,4 +87,10 @@ Content-type: application/json
 
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Companies](../resources/dynamics_companies.md)  
+[Company Information](../resources/dynamics_companyinformation.md)  
+[Get Company Information](dynamics_companyinformation_get.md)  

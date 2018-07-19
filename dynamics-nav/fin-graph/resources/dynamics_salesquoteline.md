@@ -1,6 +1,6 @@
 ---
 title: salesQuoteLines resource type | Microsoft Docs
-description: A sales quote line object in Dynamics 365 for Financials.
+description: A sales quote line object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,12 +10,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # salesQuoteLines resource type
-Represents a salesQuoteLines resource type in Dynamics 365 for Financials.
+Represents a salesQuoteLines resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -97,4 +100,13 @@ Here is a JSON representation of the resource.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Sales Quote Line](../resources/dynamics_salesquoteline.md)  
+[Get Sales Quote Line](../api/dynamics_salesquoteline_get.md)  
+[Create Sales Quote Line](../api/dynamics_create_salesquoteline.md)  
+[Update Sales Quote Line](../api/dynamics_salesquoteline_update.md)  
+[Delete Sales Quote Line](../api/dynamics_salesquoteline_delete.md)  

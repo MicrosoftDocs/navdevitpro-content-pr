@@ -2,22 +2,23 @@
 title: "ReadFrom_String Method"
 ms.author: solsen
 ms.custom: na
-ms.date: 06/29/2017
+ms.date: 12/15/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 620f0e32-eadc-43e9-8f6e-8fc0b12c3aaf
 caps.latest.revision: 9
 manager: edupont
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-restapi-overview
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # ReadFrom_String Method
-Reads the JSON data from the string into a JsonToken variable.
+Reads the JSON data from the string into a [JsonToken](jsontoken-class.md) variable.
 
 ```
 [Ok := ] JsonToken.ReadFrom(String)
@@ -25,15 +26,15 @@ Reads the JSON data from the string into a JsonToken variable.
 
 ## Parameters
 *JsonToken*  
-&emsp;Type: JsonToken
+&emsp;Type: [JsonToken](jsontoken-class.md)
 
 *String*  
-&emsp;Type: String
+&emsp;Type: [String](../datatypes/devenv-text-data-type.md)
 
 The String object from which the JSON data will be read.
 
 ## Property Value/Return Value
-Type: Boolean
+&emsp;Type: [Boolean](../datatypes/devenv-boolean-data-type.md)
 
 **True** if the read was successful; otherwise, **false**.
 
@@ -58,9 +59,10 @@ local procedure ReadJson(data : Text) result : JsonToken;
 begin
     result.ReadFrom(data);    
 end;
-
 ```
 
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[JsonToken](jsontoken-class.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)

@@ -7,7 +7,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: cab838ef-0247-4d36-ac42-5c2fd5d7ebbe
 ms.author: edupont
 ---
@@ -52,7 +52,7 @@ You can start the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] by runni
  The finsql.exe has the following syntax.  
 
 ```  
-Finsql.exe [command=<command> | designobject=<object type> <object ID>,] [servername=<server>,] [database=<database>,] [collationname=<collation>,] [file=<file>,] [filter=<filter>], [importaction=<default|overwrite|skip|0|1|2>,] [langid=<ID>,] [logfile=<logfile>,] [navservername=<name>,] [navserverinstance=<instance>,] [navservermanagementport=<port>,] [ntauthentication=<yes|no|0|1>,] [objectcache=<cache>,] [password=<password>,] [temppath=<path>,] [tenant=<tenant ID>,] [username=<user name>,] [synchronizeschemachanges=<yes|no|force>, ] [useoldeditor=<yes|no>,] [showalldesignercolumns=<yes|no|0|1>]  
+Finsql.exe [command=<command> | designobject=<object type> <object ID>,] [servername=<server>,] [database=<database>,] [collation=<collation>,] [file=<file>,] [filter=<filter>], [importaction=<default|overwrite|skip|0|1|2>,] [langid=<ID>,] [logfile=<logfile>,] [navservername=<name>,] [navserverinstance=<instance>,] [navservermanagementport=<port>,] [ntauthentication=<yes|no|0|1>,] [objectcache=<cache>,] [password=<password>,] [temppath=<path>,] [tenant=<tenant ID>,] [username=<user name>,] [synchronizeschemachanges=<yes|no|force>, ] [useoldeditor=<yes|no>,] [showalldesignercolumns=<yes|no|0|1>]  
 ```  
 
 ### Syntax Key  

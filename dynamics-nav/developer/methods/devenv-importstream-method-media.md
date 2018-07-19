@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
-manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -89,14 +89,14 @@ To support the example code that follows, create the following objects:
 **Code**  
 With the objects in place, you can add and run the following AL code to import the images. For this code example, create a codeunit and add the code to the **OnRun** trigger of the codeunit.
 
-This code iterates over records in the **Items** table. For each record, it looks in the *C:\\images* folder for a file whose name matches the **No.** field of the record. If there is a match the file, an InStream object is created for the file, the media is imported into the record, and a confirmation message is returned.
+This code iterates over records in the **My Items** table. For each record, it looks in the *C:\\images* folder for a file whose name matches the **No.** field of the record. If there is a match the file, an InStream object is created for the file, the media is imported into the record, and a confirmation message is returned.
 
 The code requires that you create the following variable and text constants:
 
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
 |myItemRec|Record|My Items|   
-|fileName|File||  
+|fileName|Text||  
 |importFile|File||
 |imageInStream|InStream||  
 |imageID|GUID||  

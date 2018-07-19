@@ -1,6 +1,6 @@
 ---
 title: Delete customers | Microsoft Docs
-description: Deletes a customers object from Dynamics 365 for Financials.
+description: Deletes a customers object from Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,16 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # Delete customers
-Delete a customer object from Dynamics 365 for Financials.
+Delete a customer object from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-DELETE /financials/companies({id})/customers({id})
+DELETE /businesscentral/companies({id})/customers({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/customers({id})
+DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customers({id})
 ```
 
 **Response** 
@@ -55,4 +55,11 @@ HTTP/1.1 204 No Content
 
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Customer](../resources/dynamics_customer.md)  
+[Get Customers](dynamics_customer_get.md)  
+[Post Customers](dynamics_create_customer.md)  
+[Patch Customers](dynamics_customer_update.md)  

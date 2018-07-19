@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 9677f4f9-1053-45b3-8837-d667324f16fb
 caps.latest.revision: 21
 manager: edupont
 ---
 # Designing RDLC Report Layouts
-To create an RDLC layout, you use Visual Studio Report Designer or Microsoft SQL Server Reporting Services Report Builder from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. With RDLC layouts, you can add useful features to your report layouts, such as:  
+To create an RDLC layout, you use Report Designer for Visual Studio or Report Builder for SQL Server. With RDLC layouts, you can add useful features to your report layouts, such as:  
   
 -   Links from a field on a report to either a page or another report.  
   

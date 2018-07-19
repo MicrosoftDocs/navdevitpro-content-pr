@@ -1,6 +1,6 @@
 ---
 title: salesQuotes resource type | Microsoft Docs
-description: A sales quote object in Dynamics 365 for Financials.
+description: A sales quote object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,12 +10,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # salesQuotes resource type
-Represents a salesQuote resource type in Dynamics 365 for Financials.
+Represents a salesQuote resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -25,6 +28,8 @@ Represents a salesQuote resource type in Dynamics 365 for Financials.
 |[POST salesQuotes](../api/dynamics_create_salesquote.md)|salesQuotes|Creates a sales quote object.|
 |[PATCH salesQuotes](../api/dynamics_salesquote_update.md)|salesQuotes|Updates a sales quote object.|
 |[DELETE salesQuotes](../api/dynamics_salesquote_delete.md)|none|Deletes a sales quote object.|
+
+
 
 ## Properties
 | Property	   | Type	|Description|
@@ -103,4 +108,12 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Get Sales Quote](../api/dynamics_salesquote_get.md)  
+[Create Sales Quote](../api/dynamics_create_salesquote.md)  
+[Update Sales Quote](../api/dynamics_salesquote_update.md)  
+[Delete Sales Quote](../api/dynamics_salesquote_delete.md)  

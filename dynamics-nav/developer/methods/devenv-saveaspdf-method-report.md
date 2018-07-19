@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics365-financials
 ms.assetid: 1207d441-176f-4f16-9547-43402e5d5043
 caps.latest.revision: 21
-manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -34,7 +34,7 @@ Saves a report as a .pdf file.
  *FileName*  
  Type: Text  
 
- The path and name of the file that you want to save the report as.  
+The path and name of the file that you want to save the report as. This path can be a local drive or mapped network directory, such as `C:\MyReports\report206.pdf`. For a network directory, you can also use the Universal Naming Convention (UNC) path, like `\\servername\sharename\folder\filename`.  
 
  *Record*  
  Type: Record  
