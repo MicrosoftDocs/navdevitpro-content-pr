@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: deprecated, Switzerland, local functionality
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.author: SorenGP
 
 ---
@@ -30,6 +30,13 @@ When inventory is not tracked for an item, the item cost does not need to be tra
 |Moved, Removed, or Replaced?|Why?|
 |----|----|
 |Removed| Deactivate Item Cost Tracking has been removed from the Swiss version because similar functionality is available in the standard version with the **Non-Inventory** item type. |
+
+## Block Items from Sales and Purchasing
+You can block an item from being entered on sales or purchase lines, and you can block it from being posted in any transaction.
+
+|Moved, Removed, or Replaced?|Why?|
+|----|----|
+|Moved| The Block Items from Sales and Purchasing feature is no longer specific to Switzerland, so we have made them generally available in the standard product. |
 
 ## See Also
 [Upgrading to Microsoft Dynamics NAV 2018](upgrading-to-microsoft-dynamics-nav.md)  
