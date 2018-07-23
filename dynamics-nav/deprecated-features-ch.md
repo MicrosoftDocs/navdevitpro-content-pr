@@ -24,6 +24,12 @@ You can block an item from being entered on sales or purchase lines, and you can
 |----|----|
 |Moved| The Block Items from Sales and Purchasing feature is no longer specific to Switzerland, so we have made them generally available in the standard product. |
 
+The following fields are deleted: 
+|Table|Field|
+|-----|-----|
+|27|11503|
+|27|11504|
+
 ## Deactivate Item Cost Tracking
 When inventory is not tracked for an item, the item cost does not need to be tracked, and an item ledger entry does not need to be created. For such items, you can select the **No Stokkeeping** check box to deactivate cost tracking.
 
