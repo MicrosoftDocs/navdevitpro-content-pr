@@ -24,12 +24,6 @@ You can block an item from being entered on sales or purchase lines, and you can
 |----|----|
 |Moved| The Block Items from Sales and Purchasing feature is no longer specific to Switzerland, so we have made them generally available in the standard product. |
 
-The following fields are deleted: 
-|Table|Field|
-|-----|-----|
-|27|11503|
-|27|11504|
-
 ## Deactivate Item Cost Tracking
 When inventory is not tracked for an item, the item cost does not need to be tracked, and an item ledger entry does not need to be created. For such items, you can select the **No Stokkeeping** check box to deactivate cost tracking.
 
@@ -43,6 +37,14 @@ You can archive and delete blanket sales and purchase orders. You can view docum
 |Moved, Removed, or Replaced?|Why?|
 |----|----|
 |Moved| Blanket Order Archiving and Document Line Tracking features are no longer specific to Switzerland, so we have made them generally available in the standard product. |
+
+## Objects or Fields Deleted in [!INCLUDE[nav2018](includes/nav2018_md.md)]
+The following fields have been deleted as a result of features that have been removed.  
+
+|Table ID|Table Name|Field ID|Field Name|
+|--------|--------|----------|----------|
+|27|Item|11503|Sale blocked|
+|27|Item|11504|Purchase blocked|
 
 ## See Also
 [Upgrading to Microsoft Dynamics NAV 2018](upgrading-to-microsoft-dynamics-nav.md)  
