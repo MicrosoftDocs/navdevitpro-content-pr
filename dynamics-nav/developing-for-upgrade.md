@@ -15,8 +15,7 @@ When you upgrade [!INCLUDE[navnowlong](includes/navnowlong_md.md)] from one vers
 
 -   Prioritize upgrade work to be before or after the offline window
 -   Eliminate upgrade tasks
--   Avoid unnecessary copying of data
- 
+-   Avoid unnecessary copying of data 
 -   Things you can do prior to the actual upgrade
 -   Things you can eliminate from the process all together
 -   Things you can do during the upgrade
