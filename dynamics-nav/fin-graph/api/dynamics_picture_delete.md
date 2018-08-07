@@ -19,20 +19,22 @@ Deletes the properties and relationships of a picture object for [!INCLUDE[d365f
 
 ## HTTP request
 ```
-DELETE /businesscentral/companies({id})/items({id2})/picture
+DELETE /businesscentral/companies({companyId})/items({itemId})/picture
 ```
 
 ## Request headers
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
-|If-Match| [token] Required. When this request header is included and the eTag provided does not match the current tag on the items, the items will not be updated.|
+|If-Match| When this request header is included and the eTag provided does not match the current tag on the picture, the picture will not be updated.|
 
 ## Request body
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns `204 No Content` response code. It does not return anything in the response body.
+If successful, this method returns a `204 No Content` response code. It does not return anything in the response body.
+
+The metadata will be updated on the same link.
 
 ## Example
 
@@ -41,16 +43,12 @@ If successful, this method returns `204 No Content` response code. It does not r
 Here is an example of the request. 
 
 ```json
-DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/items({id2})/picture
+DELETE https://api.businesscentral.dynamics-tie.com/v1.0/api/beta/companies(companyId)/customers(customerId)/picture(customerId)
 ```
 
 **Response**
 
-Here is an example of the response.
-
-```json
-HTTP/1.1 204 No Content
-```
+No content.
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

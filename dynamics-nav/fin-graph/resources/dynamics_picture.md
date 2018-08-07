@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # picture resource type
-Represents a picture in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. You can save the stream as the image directly.
+Represents a picture in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. You can save the stream as an image directly.
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
@@ -31,17 +31,14 @@ Represents a picture in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 
 
 ## Properties
-| Property            | Type|Description                                                |
-|:----------------------|:----------|:----------------------------------------------------------|
-|id          |GUID       |The picture ID. Non-editable.  |
+| Property   | Type|Description     |
+|:--------|:----------|:--------------|
+|id          |GUID       |ID of the entity that picture belongs to. Non-editable. |
 |width        |numeric |The picture width.  |
 |height | numeric | The picture height. |
-|value| |
-|contentType| binary |Image type. |
-|@odata.etag||
-|@odata.context||
-|content@odata.mediaEditLink||
-|content@odata.mediaReadLink||
+|contentType| MIME  |Image type. |
+|content@odata.mediaEditLink||Link to upload raw image data|
+|content@odata.mediaReadLink||Link to download raw image data|
 
 
 ## JSON representation
@@ -51,18 +48,12 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-  "@odata.context": "https:\/\/api.businesscentral.dynamics-tie.com\/v1.0\/api\/beta\/$metadata#companies(29a080a9-8dde-4d41-bc50-b9aac6b1ee1b)\/items(07493b2c-d676-4d09-ba8c-fc03607cab76)\/picture",
-  "value": [
-    {
-      "@odata.etag": "W\/\"JzQ0O3J6NzFlMTR5aHBad05uTzgyUEQ1Ujl5ZjkzYVRtM2pTRU1ZQXlNZlAwV3M9MTswMDsn\"",
-      "id": "07493b2c-d676-4d09-ba8c-fc03607cab76",
-      "width": 516,
-      "height": 466,
-      "contentType": "image\/png",
-      "content@odata.mediaEditLink": "https:\/\/api.businesscentral.dynamics-tie.com\/v1.0\/api\/beta\/companies(29a080a9-8dde-4d41-bc50-b9aac6b1ee1b)\/items(07493b2c-d676-4d09-ba8c-fc03607cab76)\/picture(07493b2c-d676-4d09-ba8c-fc03607cab76)\/content",
-      "content@odata.mediaReadLink": "https:\/\/api.businesscentral.dynamics-tie.com\/v1.0\/api\/beta\/companies(29a080a9-8dde-4d41-bc50-b9aac6b1ee1b)\/items(07493b2c-d676-4d09-ba8c-fc03607cab76)\/picture(07493b2c-d676-4d09-ba8c-fc03607cab76)\/content"
-    }
-  ]
+  "id": "d0e5d5da-795a-4924-b376-13665f794cdd",
+  "width": 500,
+  "height": 496,
+  "contentType": "image\jpeg",
+  "content@odata.mediaEditLink": "https:\\api.businesscentral.dynamics-tie.com\v1.0\api\beta\companies(55c438d0-2f5c-44a0-9965-20b4923d0bef)\items(d0e5d5da-795a-4924-b376-13665f794cdd)\picture(d0e5d5da-795a-4924-b376-13665f794cdd)\content",
+  "content@odata.mediaReadLink": "https:\\api.businesscentral.dynamics-tie.com\v1.0\api\beta\companies(55c438d0-2f5c-44a0-9965-20b4923d0bef)\items(d0e5d5da-795a-4924-b376-13665f794cdd)\picture(d0e5d5da-795a-4924-b376-13665f794cdd)\content"
 }
 ```
 

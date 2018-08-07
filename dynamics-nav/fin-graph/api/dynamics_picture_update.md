@@ -19,7 +19,7 @@ Updates the properties and relationships of a picture object for [!INCLUDE[d365f
 
 ## HTTP request
 ```
-PATCH /businesscentral/companies({id})/items({id2})/picture({id2})/content
+PATCH /businesscentral/companies({companyId})/items({itemId})/picture({itemId})/content
 ```
 
 ## Request headers
@@ -27,16 +27,12 @@ PATCH /businesscentral/companies({id})/items({id2})/picture({id2})/content
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
 |Content-Type  |application/octet-stream  | 
-|If-Match| [token] Required. When this request header is included and the eTag provided does not match the current tag on the items, the items will not be updated.|
 
 ## Request body
-In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
-
-> [!NOTE]  
-> Body should be raw binary of the file.
+Raw picture binary data.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and a **picture** object in the response body.
+If successful, this method returns `204 No Content` response code. It does not return anything in the response body.
 
 ## Example
 
@@ -45,34 +41,12 @@ If successful, this method returns a ```200 OK``` response code and a **picture*
 Here is an example of the request. 
 
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/items({id2})/picture({id2})/content
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta//companies(companyId)/items(itemId)/picture(itemId)/content
 ```
 
 **Response**
 
-Here is an example of the response.
-
-> [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
-
-```json
-{
-  "@odata.context": "https:\/\/api.businesscentral.dynamics-tie.com\/v1.0\/api\/beta\/$metadata#companies(29a080a9-8dde-4d41-bc50-b9aac6b1ee1b)\/items(07493b2c-d676-4d09-ba8c-fc03607cab76)\/picture",
-  "value": [
-    {
-      "@odata.etag": "W\/\"JzQ0O3J6NzFlMTR5aHBad05uTzgyUEQ1Ujl5ZjkzYVRtM2pTRU1ZQXlNZlAwV3M9MTswMDsn\"",
-      "id": "07493b2c-d676-4d09-ba8c-fc03607cab76",
-      "width": 516,
-      "height": 466,
-      "contentType": "image\/png",
-      "content@odata.mediaEditLink": "https:\/\/api.businesscentral.dynamics-tie.com\/v1.0\/api\/beta\/companies(29a080a9-8dde-4d41-bc50-b9aac6b1ee1b)\/items(07493b2c-d676-4d09-ba8c-fc03607cab76)\/picture(07493b2c-d676-4d09-ba8c-fc03607cab76)\/content",
-      "content@odata.mediaReadLink": "https:\/\/api.businesscentral.dynamics-tie.com\/v1.0\/api\/beta\/companies(29a080a9-8dde-4d41-bc50-b9aac6b1ee1b)\/items(07493b2c-d676-4d09-ba8c-fc03607cab76)\/picture(07493b2c-d676-4d09-ba8c-fc03607cab76)\/content"
-    }
-  ]
-}
-
-```
-
+No response. 
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
