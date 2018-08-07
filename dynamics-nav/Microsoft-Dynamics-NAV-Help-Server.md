@@ -33,7 +33,7 @@ caps.latest.revision: 5
 
  In the standard Help, most Help topics have easily recognizable file names, such as across-get-started.html for the conceptual overview that is called Getting Started.  
 
-## Versions older than [!INCLUDE[nav2017](includes/nav2017.md)]nav2017
+## Versions older than [!INCLUDE[nav2017](includes/nav2017.md)]
 In the standard Help for older versions of [!INCLUDE[navnow](includes/navnow_md.md)], many file names for topics had a prefix that identifies the type of content that the topic contains. The following table describes the prefixes for file names.  
 
 |Name|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
