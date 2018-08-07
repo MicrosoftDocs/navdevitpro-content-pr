@@ -41,7 +41,7 @@ If successful, this method returns a `204 No Content` response code. It does not
 Here is an example of the request. 
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta//companies(companyId)/items(itemId)/picture(itemId)/content
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies(companyId)/items(itemId)/picture(itemId)/content
 ```
 
 **Response**

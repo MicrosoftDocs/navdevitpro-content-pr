@@ -42,7 +42,7 @@ Here is an example of the request.
 **GET Metadata** 
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta//companies(companyId)/items(itemId)/picture(itemId)/picture
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies(companyId)/items(itemId)/picture(itemId)/picture
 ```
 **Response**
 
@@ -65,7 +65,7 @@ Here is an example of the response.
 **GET Content**
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta//companies(companyId)/items(itemId)/picture(itemId)/content
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies(companyId)/items(itemId)/picture(itemId)/content
 
 ```
 
