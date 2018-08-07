@@ -28,10 +28,10 @@ GET /businesscentral/companies({companyId})/items({itemId})/picture
 |Authorization  |Bearer {token}. Required. |
 
 ## Request body
-Body should be raw binary of the file.
+Body is the raw image data.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an **picture** object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **picture** object in the response body.
 
 ## Example
 

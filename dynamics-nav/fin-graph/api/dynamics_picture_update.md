@@ -27,6 +27,7 @@ PATCH /businesscentral/companies({companyId})/items({itemId})/picture({itemId})/
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
 |Content-Type  |application/octet-stream  | 
+|If Match | When this request header is included and the eTag provided does not match the current tag on the picture, the picture will not be updated.|
 
 ## Request body
 Raw picture binary data.
