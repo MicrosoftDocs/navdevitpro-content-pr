@@ -19,7 +19,7 @@ Retrieve the properties and relationships of a picture object for [!INCLUDE[d365
 
 ## HTTP request
 ```
-GET /businesscentral/companies({id})/items({id2})/picture
+GET /businesscentral/companies({companyId})/items({itemId})/picture
 ```
 
 ## Request headers
@@ -28,10 +28,10 @@ GET /businesscentral/companies({id})/items({id2})/picture
 |Authorization  |Bearer {token}. Required. |
 
 ## Request body
-Body should be raw binary of the file.
+Body is the raw image data.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an **picture** object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **picture** object in the response body.
 
 ## Example
 
@@ -39,19 +39,11 @@ If successful, this method returns a ```200 OK``` response code and an **picture
 
 Here is an example of the request. 
 
-*GET Metadata* 
+**GET Metadata** 
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/items({id2})/picture
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies(companyId)/items(itemId)/picture(itemId)/picture
 ```
-*Get Image (binary)*
-
-```json
-GET https://graph.microsoft.com/v1.0/businesscentral/companies({id})/items({id2})/picture({id2})/content
-```
-
-You can save the stream as the image directly.
-
 **Response**
 
 Here is an example of the response.
@@ -61,21 +53,26 @@ Here is an example of the response.
 
 ```json
 {
-  "@odata.context": "https:\/\/api.businesscentral.dynamics-tie.com\/v1.0\/api\/beta\/$metadata#companies(29a080a9-8dde-4d41-bc50-b9aac6b1ee1b)\/items(07493b2c-d676-4d09-ba8c-fc03607cab76)\/picture",
-  "value": [
-    {
-      "@odata.etag": "W\/\"JzQ0O3J6NzFlMTR5aHBad05uTzgyUEQ1Ujl5ZjkzYVRtM2pTRU1ZQXlNZlAwV3M9MTswMDsn\"",
-      "id": "07493b2c-d676-4d09-ba8c-fc03607cab76",
-      "width": 516,
-      "height": 466,
-      "contentType": "image\/png",
-      "content@odata.mediaEditLink": "https:\/\/api.businesscentral.dynamics-tie.com\/v1.0\/api\/beta\/companies(29a080a9-8dde-4d41-bc50-b9aac6b1ee1b)\/items(07493b2c-d676-4d09-ba8c-fc03607cab76)\/picture(07493b2c-d676-4d09-ba8c-fc03607cab76)\/content",
-      "content@odata.mediaReadLink": "https:\/\/api.businesscentral.dynamics-tie.com\/v1.0\/api\/beta\/companies(29a080a9-8dde-4d41-bc50-b9aac6b1ee1b)\/items(07493b2c-d676-4d09-ba8c-fc03607cab76)\/picture(07493b2c-d676-4d09-ba8c-fc03607cab76)\/content"
-    }
-  ]
+  "id": "d0e5d5da-795a-4924-b376-13665f794cdd",
+  "width": 500,
+  "height": 496,
+  "contentType": "image\jpeg",
+  "content@odata.mediaEditLink": "https:\\api.businesscentral.dynamics-tie.com\v1.0\api\beta\companies(55c438d0-2f5c-44a0-9965-20b4923d0bef)\items(d0e5d5da-795a-4924-b376-13665f794cdd)\picture(d0e5d5da-795a-4924-b376-13665f794cdd)\content",
+  "content@odata.mediaReadLink": "https:\\api.businesscentral.dynamics-tie.com\v1.0\api\beta\companies(55c438d0-2f5c-44a0-9965-20b4923d0bef)\items(d0e5d5da-795a-4924-b376-13665f794cdd)\picture(d0e5d5da-795a-4924-b376-13665f794cdd)\content"
 }
+```
+
+**GET Content**
+
+```json
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies(companyId)/items(itemId)/picture(itemId)/content
 
 ```
+
+**Response**
+
+Body is the raw image data. 
+
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
