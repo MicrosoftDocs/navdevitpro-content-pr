@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and a **purchase
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
+GET https://graph.microsoft.com/beta/financials/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 **Response**
@@ -59,17 +59,7 @@ Here is an example of the response.
   "itemId": "id-value",
   "accountId": "id-value",
   "lineType": "Item",
-  "lineDetails": {
-    "number": "GL000009",
-    "displayName": "GL000009"
-  },
   "description": "someText",
-  "unitOfMeasure": {
-    "code": "BOX",
-    "displayName": "Box",
-    "symbol": null,
-    "unitConversion": null
-  },
   "unitCost": 71.1,
   "quantity": 96,
   "discountAmount": 0,
