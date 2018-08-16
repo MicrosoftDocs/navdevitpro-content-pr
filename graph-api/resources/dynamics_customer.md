@@ -45,11 +45,8 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 |currencyId   |GUID      |Specifies which currency the customer uses.|
 |currencyCode |numeric   |The default currency code for the customer.|
 |paymentTermsId|GUID     |Specifies which payment term the customer uses.|
-|paymentTerms |[NAV.PaymentTermsType](../resources/dynamics_complextypes.md)|Specifies a code that indicates the payment terms that you require of the customer.|
 |paymentMethodId|GUID    |Specifies which payment method the customer uses.|
-|paymentMethod|[NAV.PaymentMethod](../resources/dynamics_complextypes.md)|Specifies how the customer usually submits payment, such as bank transfer or check.|
 |shipmentMethodId|GUID   |Specifies which shipment method the customer uses.|
-|shipmentMethod|[NAV.ShipmentMethod](../resources/dynamics_complextypes.md)|Specifies which shipment method to use when you ship items to the customer.|
 |blocked      |string    |Specifies that transactions with the customer cannot be posted. Set to **All**, if the customer is blocked, set to blank if not blocked.|
 |balance      |numeric   |Specifies the payment amount that the customer owes for completed sales. This value is also known as the customer's balance. Read-Only.|
 |overdueAmount|numeric   |Specifies the customer's overdue amount.|
@@ -88,9 +85,9 @@ Here is a JSON representation of the resource.
     "taxAreaDisplayName": "string",
     "taxRegistrationNumber": "string",
     "currencyCode": "string",
-    "paymentTerms": NAV.PaymentTermsType,
-    "shipmentMethod": NAV.ShipmentMethod,
-    "paymentMethod":  NAV.PaymentMethod,
+    "paymentTermsId": "GUID",
+    "shipmentMethodId": "GUID",
+    "paymentMethodId":  "GUID",
     "blocked": "string",
     "balance": "decimal",
     "overdueAmount": "numeric",
