@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and an **irs1099
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/irs1099Codes({id})
+GET https://graph.microsoft.com/beta/financials/companies({id})/irs1099Codes({id})
 ```
 
 **Response**
