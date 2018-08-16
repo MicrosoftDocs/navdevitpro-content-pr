@@ -29,8 +29,7 @@ Represents a generalLedgerEntry object in [!INCLUDE[d365fin_long_md](../../inclu
 ## Properties
 | Property	         | Type	                 |Description                                  |
 |:-------------------|:----------------------|:--------------------------------------------|
-|id                  |GUID                   |The unique ID of the G/L Entry.              |
-|number              |numeric                |Specifies the number of the G/L Entry.       |
+|id                  |numeric                |The unique ID of the G/L Entry.              |
 |postingDate         |date                   |Specifies the posting date of the G/L Entry. |
 |documentNumber      |string, maximum size 20|Specifies the document number of the G/L Entry.|
 |documentType        |string                 |Specifies the document type of the G/L Entry.|
@@ -52,8 +51,7 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-  "id": "GUID",
-  "number": "int",
+  "id": "int",
   "postingDate": "Date",
   "documentNumber": "string",
   "documentType": "string",
