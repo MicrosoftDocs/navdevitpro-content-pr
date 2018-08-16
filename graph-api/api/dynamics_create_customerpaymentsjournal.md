@@ -1,5 +1,5 @@
 ---
-title: Create customerPaymentsJournals | Microsoft Docs
+title: Create customerPaymentJournals | Microsoft Docs
 description: Creates a customer payments journal object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -14,13 +14,13 @@ ms.date: 03/19/2018
 ms.author: solsen
 ---
 
-# Create customerPaymentsJournals
-Creates a customer payments journal object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+# Create customerPaymentJournals
+Creates a customer payment journal object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-POST /businesscentral/companies({id})/customerPaymentsJournals({id})
+POST /businesscentral/companies({id})/customerPaymentJournals({id})
 ```
 
 ## Request headers
@@ -30,10 +30,10 @@ POST /businesscentral/companies({id})/customerPaymentsJournals({id})
 |Content-Type  |application/json         |
 
 ## Request body
-In the request body, supply a JSON representation of **customerPaymentsJournals** object.
+In the request body, supply a JSON representation of **customerPaymentJournals** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a **customerPaymentsJournals** object in the response body.
+If successful, this method returns ```201 Created``` response code and a **customerPaymentJournals** object in the response body.
 
 ## Example
 
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and a **custo
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customerPaymentsJournals
+POST https://graph.microsoft.com/beta/financials/companies({id})/customerPaymentJournals
 Content-type: application/json
 
 ```json
@@ -71,7 +71,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Customer Payments Journal](../resources/dynamics_customerpaymentsjournal.md)  
-[Get Customer Payments Journal](dynamics_customerpaymentsjournal_get.md)  
-[Patch Customer Payments Journal](dynamics_customerpaymentsjournal_update.md)  
-[Delete Customer Payments Journal](dynamics_customerpaymentsjournal_delete.md)  
+[Customer Payment Journal](../resources/dynamics_customerpaymentsjournal.md)  
+[Get Customer Payment Journal](dynamics_customerpaymentsjournal_get.md)  
+[Patch Customer Payment Journal](dynamics_customerpaymentsjournal_update.md)  
+[Delete Customer Payment Journal](dynamics_customerpaymentsjournal_delete.md)  
