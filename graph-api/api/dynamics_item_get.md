@@ -58,12 +58,6 @@ Here is an example of the response.
   "type": "Inventory",
   "blocked": false,
   "baseUnitOfMeasureId": "id-value",
-  "baseUnitOfMeasure": {
-    "unitCode": "PCS",
-    "unitName": "Piece",
-    "symbol": "",
-    "unitConversion": null
-  },
   "gtin": "",
   "itemCategoryId": "id-value"
   "inventory": 0,
