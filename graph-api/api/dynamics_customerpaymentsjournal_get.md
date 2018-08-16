@@ -1,5 +1,5 @@
 ---
-title: Get customerPaymentsJournals | Microsoft Docs
+title: Get customerPaymentJournals | Microsoft Docs
 description: Gets a customer payment journal in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -14,13 +14,13 @@ ms.date: 03/19/2018
 ms.author: solsen
 ---
 
-# Get customerPaymentsJournals
+# Get customerPaymentJournals
 Retrieve the properties and relationships of a customer payment journal object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-GET /businesscentral/companies({id})/customerPaymentsJournals({id})
+GET /businesscentral/companies({id})/customerPaymentJournals({id})
 ```
 
 ## Request headers
@@ -32,7 +32,7 @@ GET /businesscentral/companies({id})/customerPaymentsJournals({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and a **customerPaymentsJournals** object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **customerPaymentJournals** object in the response body.
 
 ## Example
 
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and a **customer
 Here is an example of the request.
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customerPaymentsJournals({id})
+GET https://graph.microsoft.com/beta/financials/companies({id})/customerPaymentJournals({id})
 ```
 
 **Response**
@@ -66,7 +66,7 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Customer Payments Journal](../resources/dynamics_customerpaymentsjournal.md)  
-[Get Customer Payments Journal](dynamics_customerpaymentsjournal_get.md)  
-[Patch Customer Payments Journal](dynamics_customerpaymentsjournal_update.md)  
-[Delete Customer Payments Journal](dynamics_customerpaymentsjournal_delete.md)  
+[Customer Payment Journal](../resources/dynamics_customerpaymentsjournal.md)  
+[Get Customer Payment Journal](dynamics_customerpaymentsjournal_get.md)  
+[Patch Customer Payment Journal](dynamics_customerpaymentsjournal_update.md)  
+[Delete Customer Payment Journal](dynamics_customerpaymentsjournal_delete.md)  
