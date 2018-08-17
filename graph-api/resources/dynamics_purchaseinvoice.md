@@ -50,17 +50,11 @@ Represents a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |totalTaxAmount         |numeric                |The total tax amount for the invoice. Read-Only.           |
 |totalAmountIncludingTax|numeric                |The total amount for the invoice, including tax. Read-Only.|
 |pricesIncludeTax       |boolean                |Specifies whether the prices include Tax or not. Read-Only.|
-|paymentTerms           |string, maximum size 10|The payment terms of the invoice.                          |
-|shipmentMethod         |string, maximum size 10|The shipment method of the invoice.                        |
 |lastModifiedDateTime   |datetime               |The last datetime the purchase invoice was modified. Read-Only.|
 
 
 ## Relationships
 A Currency (currencyCode) must exist in the Currencies table.
-
-A Payment Term (paymentTerms) must exist in the Payment Terms table.
-
-A Shipment Method (shipmentMethod) must exist in the Shipment Method table.
 
 A Vendor (vendorId) must exist in the Vendor table.
 
@@ -88,8 +82,6 @@ Here is a JSON representation of the resource.
       "totalTaxAmount": "decimal",
       "totalAmountIncludingTax": "decimal",
       "buyFromAddress": {NAV.PostalAddress},
-      "paymentTerms": "string",
-      "shipmentMethod": "string",
       "lastModifiedDateTime": "DateTime"
 }
 
