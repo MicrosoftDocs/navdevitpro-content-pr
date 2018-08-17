@@ -46,7 +46,6 @@ Represents a sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d365
 |currencyId|GUID|The id of the credit memo currency.|
 |currencyCode|string, maximum size 10|The currency code for the credit memo.|
 |paymentTermsId|GUID|The id of the credit memo payment term.|
-|paymentTerms|string, maximum size 10|The payment terms of the credit memo.|
 |salesperson|string, maximum size 20|The salesperson code for the credit memo.|
 |pricesIncludeTax|boolean|Specifies whether the prices include Tax or not. Read-Only.|
 |discountAmount|numeric|The credit memo discount amount|
@@ -88,7 +87,6 @@ Here is a JSON representation of the resource.
       "currencyId": "GUID",
       "currencyCode": "string",
       "paymentTermsId": "GUID",
-      "paymentTerms": "string",
       "salesperson": "string",
       "pricesIncludeTax": "boolean",
       "discountAmount": "decimal",
