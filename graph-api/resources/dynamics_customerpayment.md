@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # customerPayments resource type
-Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. A customer payment is entered as a line in a customer payment journal.
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
@@ -33,6 +33,7 @@ Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365f
 | Property	   | Type	 |Description|
 |:-------------|:--------|:----------|
 |id|GUID|The unique ID of the customer payment. Non-editable.|
+|journalDisplayName|string|The customer payment journal in which the payment record is a line.|
 |lineNumber|integer|The number of the customer payment.|
 |customerId|GUID|The unique ID of the customer that the payment is related to.|
 |customerNumber|string, maximum size 20|The number of the customer that the payment is related to.|
@@ -49,7 +50,7 @@ Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365f
 
 
 ## Relationships
-A customer payment is a subpage of a customer payments journal. It cannot be accessed directly.
+A customer payment is a subpage of a customer payment journal. It cannot be accessed directly.
 
 A customer payment can be a "Parent Entity" of the dimension lines.
 
@@ -65,6 +66,7 @@ Here is a JSON representation of the resource.
 ```json
 {
     "id": "GUID",
+    "journalDisplayName": "string",
     "lineNumber": "integer",
     "customerId": "GUID",
     "customerNumber": "string",
