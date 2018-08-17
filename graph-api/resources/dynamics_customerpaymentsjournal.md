@@ -1,5 +1,5 @@
 ---
-title: customerPaymentsJournals resource type | Microsoft Docs
+title: customerPaymentJournals resource type | Microsoft Docs
 description: A customer payments journal in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # customerPaymentsJournals resource type
-Represents a customer payments journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a customer payment journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
@@ -24,18 +24,18 @@ Represents a customer payments journal in [!INCLUDE[d365fin_long_md](../../inclu
 
 | Method               | Return Type             |Description                      |
 |:---------------------|:------------------------|:--------------------------------|
-|[GET customerPaymentsJournals](../api/dynamics_customerpaymentsjournal_get.md)      |customerPaymentsJournals|Gets a customer payments journal.   |
-|[POST customerPaymentsJournals](../api/dynamics_create_customerpaymentsjournal.md)  |customerPaymentsJournals|Creates a customer payments journal.|
-|[PATCH customerPaymentsJournals](../api/dynamics_customerpaymentsjournal_update.md) |customerPaymentsJournals|Updates a customer payments journal.|
-|[DELETE customerPaymentsJournals](../api/dynamics_customerpaymentsjournal_delete.md)|none                     |Deletes a customer payments journal.|
+|[GET customerPaymentJournals](../api/dynamics_customerpaymentsjournal_get.md)      |customerPaymentJournals|Gets a customer payment journal.   |
+|[POST customerPaymentJournals](../api/dynamics_create_customerpaymentsjournal.md)  |customerPaymentJournals|Creates a customer payment journal.|
+|[PATCH customerPaymentJournals](../api/dynamics_customerpaymentsjournal_update.md) |customerPaymentJournals|Updates a customer payment journal.|
+|[DELETE customerPaymentJournals](../api/dynamics_customerpaymentsjournal_delete.md)|none                     |Deletes a customer payment journal.|
 
 ## Properties
 | Property	         | Type	                 |Description                                                             |
 |:-------------------|:----------------------|:-----------------------------------------------------------------------|
-|id                  |GUID                   |The unique ID of the customer payments journal. Non-editable.           |
-|code                |string, maximum size 10| The code of the customer payments journal.                             |
-|displayName         |string, maximum size 50| The display name of the customer payments journal.                     |
-|lastModifiedDateTime|datetime               |The last datetime the customer payments journal was modified. Read-Only.|
+|id                  |GUID                   |The unique ID of the customer payment journal. Non-editable.           |
+|code                |string, maximum size 10| The code of the customer payment journal.                             |
+|displayName         |string, maximum size 50| The display name of the customer payment journal.                     |
+|lastModifiedDateTime|datetime               |The last datetime the customer payment journal was modified. Read-Only.|
 
 ## Relationships
 
@@ -59,7 +59,7 @@ Here is a JSON representation of the resource.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Customer Payments Journal](../api/dynamics_customerpaymentsjournal_get.md)  
-[Post Customer Payments Journal](../api/dynamics_create_customerpaymentsjournal.md)  
-[Patch Customer Payments Journal](../api/dynamics_customerpaymentsjournal_update.md)  
-[Delete Customer Payments Journal](../api/dynamics_customerpaymentsjournal_delete.md)  
+[Customer Payment Journal](../api/dynamics_customerpaymentsjournal_get.md)  
+[Post Customer Payment Journal](../api/dynamics_create_customerpaymentsjournal.md)  
+[Patch Customer Payment Journal](../api/dynamics_customerpaymentsjournal_update.md)  
+[Delete Customer Payment Journal](../api/dynamics_customerpaymentsjournal_delete.md)  
