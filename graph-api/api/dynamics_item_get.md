@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and an **items**
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/v1.0/businesscentral/companies({id})/items({id})
+GET https://graph.microsoft.com/beta/financials/companies({id})/items({id})
 ```
 
 **Response**
@@ -58,17 +58,8 @@ Here is an example of the response.
   "type": "Inventory",
   "blocked": false,
   "baseUnitOfMeasureId": "id-value",
-  "baseUnitOfMeasure": {
-    "unitCode": "PCS",
-    "unitName": "Piece",
-    "symbol": "",
-    "unitConversion": null
-  },
   "gtin": "",
-  "itemCategory": {
-    "categoryId": "TABLE",
-    "description": "Assorted Tables"
-  },
+  "itemCategoryId": "id-value"
   "inventory": 0,
   "unitPrice": 1000.8,
   "priceIncludesTax": false,
