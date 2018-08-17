@@ -51,8 +51,7 @@ Content-type: application/json
   "number": "1006",
   "documentDate": "2016-12-31",
   "customerNumber": "10000",
-  "currencyCode": "GBP",
-  "paymentTerms": "COD"
+  "currencyCode": "GBP"
 }
 ```
 ## See also
