@@ -18,7 +18,7 @@ Creates a customer payment object in [!INCLUDE[d365fin_long_md](../../includes/d
 
 ## HTTP request
 ```
-POST /businesscentral/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
+POST /businesscentral/companies({id})/customerPaymentJournals({id})/customerPayments({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns ```201 Created``` response code and a **custo
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customerPayment
+POST https://graph.microsoft.com/beta/financials/companies({id})/customerPaymentJournal({id})/customerPayments
 Content-type: application/json
 
 {
