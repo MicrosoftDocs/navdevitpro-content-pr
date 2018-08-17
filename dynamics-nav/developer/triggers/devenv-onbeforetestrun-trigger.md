@@ -6,8 +6,10 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.author: jswymer
-ms.prod: "dynamics-365-financials"
+ms.author: SusanneWindfeldPedersen
+ms.service: "dynamics365-financials"
+author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -58,7 +60,7 @@ Specifies the permission set level to use on the test run. The value is retrieve
  *Ok*  
  Type: Boolean  
 
- **true** to run the test ; otherwise, **false**. This value is checked after each  call.  
+ **True** to run the test ; otherwise, **false**. This value is checked after each  call.  
 
 ## Applies To  
  Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](../properties/devenv-subtype-property-codeunit.md) set to **TestRunner**.  
@@ -93,8 +95,12 @@ EXIT(true);
 <!--
  [Testing the Application](../devenv-testing-the-application.md)  
  [How to: Create a Test Runner Codeunit](../devenv-how-to-create-a-test-runner-codeunit.md)   
- [How to: Create Test Codeunits and Test Methods](../devenv-how-to-create-test-codeunits-and-test-methods.md)   
+ [How to: Create Test Codeunits and Test Methods](../devenv-how-to-create-test-codeunits-and-test-methods.md)  
  [How to: Create Handler Methods](../devenv-how-to-create-handler-methods.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](../devenv-walkthrough-testing-purchase-invoice-discounts.md)   -->
+ [Walkthrough: Testing Purchase Invoice Discounts](../devenv-walkthrough-testing-purchase-invoice-discounts.md)   
+ -->
  [Triggers](devenv-triggers.md)  
- [OnAfterTestRun Trigger](devenv-onaftertestrun-trigger.md)
+ [TestPermissions Property](../properties/devenv-testpermissions-property.md)  
+ [Codeunit Triggers](devenv-codeunit-triggers.md)  
+ [OnAfterTestRun Trigger](devenv-onaftertestrun-trigger.md)  
+ [Triggers](devenv-triggers.md)  

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: c84d915f-b845-4211-8f76-3323fd82ace5
 caps.latest.revision: 28
 manager: edupont
@@ -17,7 +17,7 @@ Developing for the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLU
 ## Differences and Limitations Overview  
  The following table describes some of the most common differences and limitations that you might experience when developing for [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)].  
 
-|Concept|On Tablet|On Phone|Example|Recommendation|  
+|Concept|On Tablet|On Phone|Example|Recommendation/Remarks|  
 |-------------|---------------|--------------|-------------|--------------------|  
 |Activity buttons|Only the Home activity button is shown.|Only the Home activity button is shown.|**Home**, **Departments**, and **Posted Documents** on the Sales Order Processor Role Center.|Design pages to expose the workflows needed by the user. For example, configure the profile to show the important list pages under the Home activity button. Alternatively, consider designing a new Role Center if the activities for the activity button greatly vary from activities in other activity buttons.|  
 |Selecting multiple records in lists|Not available.|Not available.|Ctrl+A or Ctrl+Click on rows in a list using [!INCLUDE[nav_windows](includes/nav_windows_md.md)].|Avoid scenarios requiring selecting multiple rows on a list. Also, try to minimize actions on lists.|  
@@ -30,7 +30,6 @@ Developing for the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLU
 |Links and Notes|Not available.|Not available.|On Sales Orders.|Similar to Factboxes, make sure the same information in the field group is visible on the corresponding card page of the given record.|  
 |Select from full list|Not available on lookups. Users are not able to run actions on a lookup page, and they cannot access the full set of records.|Not available on lookups. Users are not able to run actions on a lookup page, and they cannot access the full set of records.|On the **Item Card** when selecting the **Base Units of Measure**.|Make sure the appropriate columns are visible on the lookup. The user is still able to filter, scroll, and search through the lookup.|  
 |Search across list columns|Partly supported. Search will not include FlowFields.|Partly supported. Search will not include FlowFields.|On the Customer list page.||  
-|Report Viewer and CurrReport.PREVIEW|There is no Preview functionality available on the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]. CurrReport.PREVIEW cannot be reliably used to identify whether a report was run as a draft or as a final printed document.|There is no Preview functionality available on the [!INCLUDE[nav_phone](includes/nav_phone_md.md)]. CurrReport.PREVIEW cannot be reliably used to identify whether a report was run as a draft or as a final printed document.|See example in report 280.||  
 |Lookups|Available.|Available, with the difference that advanced and simple lookups behave similarly on the phone. The lookup will not bring up the card, show factboxes, or any field groups.|See examples on the Customer Card page.||  
 |Matrix controls|Not available.|Not available.|See example in G/L Budget.||  
 |File download|Available. Cannot download multiple files at the same time.|Available. Cannot download multiple files at the same time.|Trial Balance report in the **Print to Excel** check box.||  
@@ -39,6 +38,8 @@ Developing for the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLU
 |Indentation in repeater controls|Available.|Not available. The repeater control will be rendered as a regular flat brick layout.|Chart of Accounts and Contacts List pages.||  
 |Scope of actions|Available.|Available, but there are some behavioral differences regarding the [Scope Property](Scope-Property.md). Also, see [Defining Action Scope for Microsoft Dynamics NAV Pages](Defining-Action-Scope-for-Microsoft-Dynamics-NAV-Pages.md).|||  
 |Use of camera and location|Available in the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] on devices with a camera and GPS capabilities.<br /><br /> **NOTE:** Not available on [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)].|Available in the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] on devices with a camera and GPS capabilities.<br /><br /> **NOTE:** Not available on [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)].|On the Accounting Manager profile, under **Incoming Documents**.||  
+|Use of camera and location|Available in the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] on devices with a camera and GPS capabilities.<br /><br /> **NOTE:** Not available on [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)].|Available in the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] on devices with a camera and GPS capabilities.<br /><br /> **NOTE:** Not available on [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)].|On the Accounting Manager profile, under **Incoming Documents**.||
+|Automatic input focus on first editable field of a page|Not available. |Not available.|**Customer** card page.<BR /><BR />In the Windows or Web client, focus will automatically be on the first editable field (such as the **Name** field), enabling you to change the value right away.<BR /><BR />In the Tablet or Phone client, this field will not be in focus; instead, you will have to manually select the field first in order to make changes.| The reason for this behavior is to prevent the in-app keyboard from initially displaying and occupying screen space.|   
 
 ## See Also  
  [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   

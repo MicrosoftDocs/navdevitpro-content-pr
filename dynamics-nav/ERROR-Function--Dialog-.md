@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 651bb14b-8e07-44db-bcfd-7e743604bb0b
 caps.latest.revision: 18
 manager: edupont
@@ -80,4 +80,4 @@ MESSAGE(Text001); // This line is not executed.
  [Dialog Data Type](Dialog-Data-Type.md)   
  [MESSAGE Function \(Dialog\)](MESSAGE-Function--Dialog-.md)   
  [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md)   
- [Error Handling](Error-Handling.md)
+ <!-- [Error Handling](Error-Handling.md) -->

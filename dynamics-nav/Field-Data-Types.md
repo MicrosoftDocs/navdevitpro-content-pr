@@ -1,16 +1,17 @@
 ---
-title: "Field Data Types"
+title: Field Data Types
+description: The Field data type is designed to hold a specific kind of information with a specific size for each field, such as text, numbers, or dates.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: c365bf5b-559a-48dc-83da-159d046a784a
 caps.latest.revision: 22
 ---
-# Field Data Types
+# Field Data Types in Dynamics NAV
 After you select an identification number and name for a field, you have to select an appropriate data type. Each of the different field types is designed to hold a specific kind of information, such as text, numbers, or dates. Each field type has a specific size.  
 
 > [!NOTE]  

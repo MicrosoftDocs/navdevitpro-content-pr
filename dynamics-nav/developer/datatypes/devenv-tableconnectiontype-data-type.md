@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: e066bcd1-fbb0-4209-b9b5-738dcefa2fe4
 caps.latest.revision: 2
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # TableConnectionType Data Type
 Use variables of this data type to specify the type of connection to an external database.  
@@ -28,4 +29,6 @@ The following methods are supported for the TableConnectionType data type:
 
 ## See Also  
  [TableType Property](../properties/devenv-tabletype-property.md)   
+ [AL Data Types](devenv-al-data-types.md)  
+ [AL Method Reference](../methods/devenv-al-method-reference.md)  
  <!--[External Tables](../../dynamics-nav/External-Tables.md)   -->

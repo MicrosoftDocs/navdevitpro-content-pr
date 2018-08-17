@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: ede60a1a-e656-4135-9859-f264d0aa2a66
 caps.latest.revision: 8
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # Integer Data Type
 This simple data type stores whole numbers with values that range from -2,147,483,647 to 2,147,483,647.  
@@ -54,3 +55,4 @@ The following methods are supported for the Integer data type:
   
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

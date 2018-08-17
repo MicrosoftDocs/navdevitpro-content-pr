@@ -1,17 +1,18 @@
 ---
-title: "Understanding Query Filters"
+title: Filtering From Query Designer and C/AL Code
+description: Specify filters in a query to restrict the data in the resulting dataset. A filter applies conditions on fields in a table associated with the query.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: e1f48251-4acd-4a4f-b017-8c6579eae7b8
 caps.latest.revision: 32
 manager: edupont
 ---
-# Understanding Query Filters
+# Understanding Different Query Filters in Dynamics NAV
 You can specify filters in a query to restrict the data in the resulting dataset. A filter applies conditions on fields in a table that is associated with the query. For a field to be included in the resulting dataset, a field must meet the conditions of the filter.  
 
 ## Different Ways to Filter a Query Dataset  
@@ -21,7 +22,7 @@ You can specify filters in a query to restrict the data in the resulting dataset
 |------------|------------|-----------------|  
 |**From Query Designer**|Filter on a Data item|You can set the DataItemTableFilter property of a data item to filter on a field in the table of the data item. You can apply the filter to any field in the table, not just fields that are defined as columns in the resulting dataset. A data item filter cannot be overwritten from C/AL code.|  
 ||Filter on a Column|You can set the ColumnFilter property of a column to filter on the source field of the column. A filter on a column can be overwritten by the SETFILTER and SETRANGE functions from C/AL code.|  
-||Filter on a Filter row|A filter row lets you add a filter on a field that will not be included in the resulting dataset, but can be changed from C/AL code. To set up a filter row in Query Designer, you add a row of the type Filter that is set to the field thaaat you want to filter, and then set its ColumnFilter property.. A filter row is like a data item filter except a filter on a filter row can be overwritten by the SETFILTER and SETRANGE functions from C/AL code.|  
+||Filter on a Filter row|A filter row lets you add a filter on a field that will not be included in the resulting dataset, but can be changed from C/AL code. To set up a filter row in Query Designer, you add a row of the type Filter that is set to the field that you want to filter, and then set its ColumnFilter property.. A filter row is like a data item filter except a filter on a filter row can be overwritten by the SETFILTER and SETRANGE functions from C/AL code.|  
 |**From C/AL**|SETFILTER function|You can call the SETFILTER function from C/AL code to set a filter on a field that is exposed through a column or filter row. The filter that is set by the SETFILTER function will overwrite any filter that is applied to a column or filter row on the same field by the ColumnFilter property.|  
 ||SETRANGE function|You can SETRANGE function from C/AL code to set a filter on a field that is exposed through a column or filter row. The filter that is set by the SETRANGE function will overwrite any filter that is applied to column or filter row on the same field.|  
 

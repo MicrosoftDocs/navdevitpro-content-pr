@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: 6f6f0242-f97d-4062-bf00-4ba88ca1ebb2
-caps.latest.revision: 8
+author: SusanneWindfeldPedersen
 manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -30,6 +31,6 @@ MODIFYALL("Modification Date",TODAY);
 ```  
   
 ## See Also  
-## See Also  
  [Triggers](devenv-triggers.md)  
- [OnPostReport Trigger](devenv-onpostreport-trigger.md)
+ [OnPostReport Trigger](devenv-onpostreport-trigger.md)  
+ [Report and Data Item Triggers](devenv-report-and-data-item-triggers.md)  

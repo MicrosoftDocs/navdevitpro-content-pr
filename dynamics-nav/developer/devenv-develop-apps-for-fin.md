@@ -1,66 +1,94 @@
 ---
-title: "Developing Apps for Dynamics 365 for Financials"
+title: "Developing Apps for Dynamics 365 Business Central"
 ms.custom: na
-ms.date: 07/04/2017
+ms.date: 11/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 471299b6-82cd-41cc-b529-8b60ece530a5
 caps.latest.revision: 5
 author: SusanneWindfeldPedersen
+redirect_url: http://www.microsoft.com
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+ 
 
-# Developing Apps for Dynamics 365 for Financials
-Reach more customers by bringing apps for Dynamics 365 for Financials into Microsoft Appsource, the marketplace for Microsoft business apps. 
+# Developing Apps for Dynamics 365 Business Central
+Reach more customers by bringing apps for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] into Microsoft Appsource, the marketplace for Microsoft business apps. 
 Dynamics 365 gives you rich functionality, a modern always up-to-date platform, and a set of great new development tools.
 When your app is done, publish it through Microsoft AppSource – the marketplace for Microsoft’s business apps and start benefiting from a brand that millions of users know and trust.
 
-You decide whether you want to **connect** to your existing service or **extend** the Dynamics 365 for Financials functionality.
+You decide whether you want to **connect** to your existing service or **extend** the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] functionality.
 
 |<h3>Connect</h3>|<h3>Extend</h3>|
 |----------------|---------------|
-|A **Connect App** establishes a connection between two independent services using an API to interchange data. A typical example of a Connect App is a Payroll solution. All work related to Payroll is done within your service and only as a last step is the financial data posted into Dynamics 365 for Financials using the API. A Connect App is mainly created using common development tools, REST API’s, and the API’s made available in Dynamics 365 for Financials from Update 7 and onwards. When needed a Connect App in Dynamics 365 for Financials can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.|Dynamics 365 for Financials supports **Add-On** or **Embed** solutions. An Add-On adds to the existing Dynamics 365 for Financials functionality to integrate a solution such as PayPal, whereas an Embed solution implements an end-to-end experience such as a solution for the dental industry or law firms. An App typically makes use of the variety of development tools for Dynamics 365 for Financials and can also include the APIs available for Dynamics 365 for Financials. An embedded solution can furthermore be rebranded to become an integrated part of the overall end-to-end experience.|
+|A **Connect app** establishes a connection between two independent services using an API to interchange data. A typical example of a Connect app is a Payroll solution. All work related to Payroll is done within your service and only as a last step is the financial data posted into [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] using the API. A Connect app is mainly created using common development tools, REST APIs, and the APIs made available in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] from Update 7 and onwards. When needed a Connect app in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] can have a single page or two created as an extension used for setup, configuration or to support for example an import scenario.|[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] supports **Add-On** or **Embed** solutions. An Add-On adds to the existing [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] functionality to integrate a solution such as PayPal, whereas an Embed solution implements an end-to-end experience such as a solution for the dental industry or law firms. An app typically makes use of the variety of development tools for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and can also include the APIs available for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. An embedded solution can furthermore be rebranded to become an integrated part of the overall end-to-end experience.|
 
 ## Hear what the community tells about Dynamics 365 and the new development tools
 
 [![Community](media/CustomerTestimonials.png)](https://www.youtube.com/watch?v=ptL3QXuoLW4&list=PLcakwueIHoT9tZzsgDLpBixftGfnymAyz&index=2 "Customers")
 
 ## Want to try it out?
-It's easy. Just sign up by following these steps.
+It's easy to get started! Just spin up a developer sandbox environment by going through these steps. 
+
+> [!TIP]  
+>  Want to get started with APIs? Go to [https://aka.ms/getstartedwithapis](https://aka.ms/getstartedwithapis).
+
+
+1) Sign up for a [Dynamics 365 Business Central sandbox](https://go.microsoft.com/fwlink/?linkid=847861).    
+2) Download [Visual Studio Code](https://code.visualstudio.com/Download).  
+3) Download the [AL Language extension](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al).  
+4) Press **Alt+A, Alt+L** to trigger the **Go!** command, and then choose **Cloud**.  
+5) Enter the credentials you provided for the sign up, and then **Download symbols**.  
+6) Press **F5** to deploy and run the extension on your online sandbox tenant.  
+
+> [!NOTE]  
+> Use **Ctrl+Shift+P** to clear the credentials cache if you want to deploy against a different environment.
+
+
+As this feature is still in preview you might run into unrecoverable issues from time to time. In these cases, use [Reset Sandbox](https://portal.financials.dynamics.com/reset?env=sandbox&redirectedFromSignup=false) to reset the sandbox and start from a clean environment.
+
+Interested in an on-premise version? It's just as easy. Just sign up by following these steps.
 
 1) First, you will need an Azure subscription, sign up for a free subscription.  
 2) Go to the [Developer Preview](http://aka.ms/navdeveloperpreview).  
 3) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen.  
 
-> [!NOTE] Build and get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
+> [!TIP]  
+> Build and get inspired by our sample library on [GitHub](https://github.com/Microsoft/al).
 
-<!-- Developer sandbox
-It's easy! Just spin up a sandbox environment by going through these steps.
-1) Sign up for [Dynamics 365 for Financials]()  
-2) Download [Visual Studio Code](https://code.visualstudio.com/Download)  
-3) Download the [AL Language extension](vscode:extension/ms-dynamics-smb.al)  
--->
 
-## Ready to build a business App and publish it to Microsoft AppSource?
-We are excited to have you in our family of Dynamics 365 for Financials App Providers. Now that you are getting serious about this, here are the steps that you will have to go through: 
+## Ready to build a business app and publish it to Microsoft AppSource?
+We are excited to have you in our family of [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] App Providers. Now that you are getting serious about this, here are the steps that you will have to go through: 
 
 #### 1)	Get the prerequisites in place  
-To get started with development, you must have a some necessary accounts in place. Next, we ask you to send us your app idea via Microsoft AppSource to get your object range and developer license. Learn more about this step [here](http://download.microsoft.com/download/7/F/2/7F23168D-76D9-4988-BBAC-E303FC548802/1). 
+To get started with development, you must have some necessary accounts in place. Next, we ask you to send us your app idea via Microsoft AppSource to get your object range and developer license. Learn more about how to get your prerequisites in place [here](https://go.microsoft.com/fwlink/?linkid=857095). 
 
-#### 2)	Develop your Dynamics 365 for Financials App   
-When developing your app you need to think about some technical aspects.  
-If earlier you were building apps as Extensions v1.0 in the classic development tools of Dynamics NAV and you want to publish apps today we ask you to familiarize yourself with the information on [aka.ms/AppsForFinancials](http://aka.ms/AppsForFinancials).  
-In any other case we believe you should familiarize yourself with the development tools for Dynamics 365 for Financials which is in preview. With this toolset you will be able to build Extensions v2.0.
-Extensions v2.0 have lots of benefits and will be enabled in the Dynamics 365 for Financials service soon. Learn more about Extensions 2.0 here and the new development tools [here](devenv-get-started.md).  
-You also need to spend some time on how to best market your app on Microsoft Appsource. Simply listing your app's features and functionality will not convert prospects to buyers. Learn how to develop the [Marketing aspects](https://go.microsoft.com/fwlink/?linkid=841518) of your app.
+#### 2)	Develop your Dynamics 365 Business Central app   
+Use the development tools for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] (preview), which enables you to build Extensions v2.0. To get started, set up the [sandbox environment](#want-to-try-it-out). Please be aware, that we are **only** accepting [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] apps built on Extensions v2.0 with Visual Studio Code. You can no longer submit Extensions V1.0. For questions, please [email us](mailto:d365val@microsoft.com).
+
+After you have completed step 1; Get the prerequisites in place, you will be eligible to access the Ready! program. Ready! for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] is an engagement program which enables those who want to develop and deliver apps for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] in Microsoft AppSource. You will get: 
+
++	Bi-weekly pre-release bits 
++	Learn what’s new in recently released and upcoming versions 
++	Ability to provide feedback 
++	Ability to request base app events 
+
+> [!NOTE]
+> This program has been launched in October 2017. 
+
+Partners who are already in the process of building apps will be contacted, others will sign up in the general app onboarding process. 
+
+For more information about how to develop the technical aspects of your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] app, get the [Develop the technical aspects of your app](https://go.microsoft.com/fwlink/?linkid=841516) document.
+You also need to spend some time on how to best market your app on Microsoft AppSource. Simply listing your app's features and functionality will not convert prospects to buyers. Learn how to develop the [Marketing aspects of your app](https://go.microsoft.com/fwlink/?linkid=841518).
 
 #### 3)	Ready for publication?  
-If you want to publish an app today we require an Extension v1.0 developed in the classic development environment. Please find more information on how to build and publish at [aka.ms/AppsForFinancials](http://aka.ms/AppsForFinancials). 
-If you want to publish an Extension v2.0, created in the new development tools, we ask you to be a bit more patient. We are currently working hard to create a smooth upload process. We expect to be ready with this publication process early in the fall.
+Before we publish, we will collaborate with you to ensure that your app stands out on Microsoft AppSource and on your own landing page! We need to validate your app to ensure it is marketed well, trustworthy, and is up-to-date. For more information about the validation process and how to publish your app, get the [Publish your app](https://go.microsoft.com/fwlink/?linkid=841517) document.
+
+## Questions?
+This [FAQ](https://go.microsoft.com/fwlink/?linkid=841520) responds to the most common questions you might have about apps for [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. If you have further questions, don't hesitate to [email us](mailto:d365val@microsoft.com).
 
 ## Things to consider
 Are you a business owner, a marketing person, or a developer? You can find specific resources below for you.
@@ -68,7 +96,7 @@ Are you a business owner, a marketing person, or a developer? You can find speci
 ### Business owner
 [User Registration and Subsequent Billing Procedure](https://mbspartner.microsoft.com/secure/coursematerials/D365B/Standalone/User_Registration_and_Subsequent_Billing_Procedures.pdf)  
 
-[Set Up Your Own Financials Sandbox and Learn How to Self-Monetize](https://mbspartner.microsoft.com/D365B/Videos/101385)  
+[Set Up Your Own Sandbox and Learn How to Self-Monetize](https://mbspartner.microsoft.com/D365B/Videos/101385)  
 
 ### Marketing person
 [How to Develop a SaaSified User Experience](https://mbspartner.microsoft.com/D365B/Videos/101493)  
@@ -82,11 +110,19 @@ Are you a business owner, a marketing person, or a developer? You can find speci
  
 [How Do I: Design Wizards for HTML Clients in Microsoft Dynamics NAV 2017?](https://mbspartner.microsoft.com/NAV/Videos/101246)  
 
-[Get started with our development tools](devenv-get-started.md)  
+[Get Started with our Development Tools](devenv-get-started.md)  
 
-[Read more about integrating with Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/overview)  
+[Read more about Integrating with Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/overview)  
 
 ## Need help?
 If you would like some coaching, you can contact an app subject matter expert from the following list:  
 •	[Cloud Ready Software](http://cloud-ready-software.com)    
 •	[Dynamics App Alliance](http://dynamicsappalliance.com)
+
+Partners in this list:
+
+•	Are listed alphabetically  
+•	Are assisting or have assisted a minimum of three partners with bringing apps into Microsoft AppSource  
+•	Have a packaged service available (and listed on their website) about the app guidance that they provide  
+
+If you believe you should be listed as an app service partner, don't hesitate to [reach out to us](mailto:d365val@microsoft.com).

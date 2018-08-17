@@ -6,8 +6,10 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.author: jswymer
-ms.prod: "dynamics-365-financials"
+ms.author: SusanneWindfeldPedersen
+author: SusanneWindfeldPedersen
+ms.service: "dynamics365-financials"
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -46,7 +48,7 @@ Specifies the name of the test  to be run.
 
 Type: TestPermissions
 
-Specifies the permission set level to use on the test run. The value is retrieved from the [TestPermissions Property](../devenv-testing-permissionsets.md) of the test codeunit or test  that is run. The parameter accepts the following values:
+Specifies the permission set level to use on the test run. The value is retrieved from the [TestPermissions Property](../properties/devenv-testpermissions-property.md) of the test codeunit or test  that is run. The parameter accepts the following values:
 
 *   **Disabled**
 *   **Restrictive**

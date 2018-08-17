@@ -1,16 +1,17 @@
 ---
-title: "How to: Add a Beep to an ADCS Solution"
+title: Add Beep Sound to ADCS Solution
+description: Add a Beep to an ADCS solution by adding a keyword _BELL_ to a string for the miniform that has the functionality you want to modify.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/02/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: d1fde2a6-ab79-45f1-a703-6ceebb828147
 caps.latest.revision: 6
 ---
-# How to: Add a Beep to an ADCS Solution
+# How to Add a Beep to an ADCS Solution in Dynamics NAV
 You can add beep sounds to your ADCS solution. To do this, you add the keyword **\_BELL\_** to a string for the miniform that has the functionality you want to modify. The keyword is case sensitive. The following procedure demonstrates modifying codeunit 7705, which controls the logon screen for a handheld device.  
   
 ### To add a beep sound to an ADCS string  

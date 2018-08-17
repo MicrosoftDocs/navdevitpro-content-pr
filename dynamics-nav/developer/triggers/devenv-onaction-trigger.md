@@ -6,10 +6,10 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: 05bae0df-26f3-4b16-9e21-1c79ab3d1737
-caps.latest.revision: 10
-manager: edupont
+author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -37,4 +37,7 @@ OnAction()
 >  The OnAction trigger is not used on Role Center pages. If you add AL code to the trigger, the Role Center page will compile, but the AL code will be ignored at runtime.  
 
 ## See Also  
- [Page and Action Triggers](devenv-page-and-action-triggers.md)
+ [RunObject Property](../properties/devenv-runobject-property.md)  
+ [Page and Action Triggers](devenv-page-and-action-triggers.md)  
+ [Page Properties](../properties/devenv-page-properties.md)  
+ [Triggers](devenv-triggers.md)  

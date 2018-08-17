@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: bfdf1b47-b009-48b3-8b46-0612d66e0162
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -35,10 +36,10 @@ Specifies the table type.
  Tables that are marked as **CRM** or **ExternalSQL** are considered to external tables that are not managed by [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. These tables use a different SQL Server connection than the normal tables in the [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] database. <!-- For more information, see [External Tables](External-Tables.md).  -->
 
 > [!IMPORTANT]  
->  We advise against creating tables of type CRM manually. Instead, use the integration mapping functionality. 
-<!-- For more information, see [Introduction to Dynamics CRM Integration Customization in Dynamics NAV](Introduction-to-Dynamics-CRM-Integration-Customization-in-Dynamics-NAV.md).  
+>  We advise against creating tables of type CRM manually. Instead, use the integration mapping functionality.
+<!-- For more information, see [Introduction to Dynamics 365 for Sales Integration Customization in Dynamics NAV](Introduction-to-Dynamics-CRM-Integration-Customization-in-Dynamics-NAV.md).  
  -->
 ## See Also  
- [Properties](devenv-properties.md) 
+ [Properties](devenv-properties.md)
 <!--  [External Tables](External-Tables.md)   
  [Table Designer](uiref/-$-S_2102-Table-Designer-$-.md)  -->

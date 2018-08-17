@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 6ea75b39-cf7d-4c88-868b-86fa0be2426b
 caps.latest.revision: 4
 author: jswymer
@@ -14,7 +14,7 @@ author: jswymer
 ## Resolving Table 5330 CRM Connection Setup Error When Converting a Database
 This article explains how to resolve the compilation error that you get for Table **5330 CRM Connection Setup** when converting a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] database to [!INCLUDE[nav2017](includes/nav2017.md)].
 
-To resolve this error, you must update Table **5330 CRM Connection Setup**  to support the latest Microsoft Dynamics CRM Software Development KIT (SDK). You can do this by replacing Table **5330 CRM Connection Setup** in the converted database by using the code that follows.
+To resolve this error, you must update Table **5330 CRM Connection Setup**  to support the latest Microsoft Dynamics 365 for Sales Software Development KIT (SDK). You can do this by replacing Table **5330 CRM Connection Setup** in the converted database by using the code that follows.
 1. Copy the code to a text editor, and save it as a .txt file type.
 2.  Use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to import the file to the converted database, which replaces the existing table.
 
@@ -34,12 +34,12 @@ OBJECT Table 5330 CRM Connection Setup
   FIELDS
   {
     { 1   ;   ;Primary Key         ;Code20         }
-    { 2   ;   ;Server Address      ;Text250       ;CaptionML=ENU=Dynamics CRM URL }
+    { 2   ;   ;Server Address      ;Text250       ;CaptionML=ENU=Dynamics 365 for Sales URL }
     { 3   ;   ;User Name           ;Text250        }
     { 4   ;   ;User Password Key   ;GUID           }
     { 60  ;   ;Is Enabled          ;Boolean        }
     { 61  ;   ;Is User Mapping Required;Boolean   ;InitValue=Yes;
-                                                   CaptionML=ENU=Dynamics NAV Users Must Map to Dynamics CRM Users }
+                                                   CaptionML=ENU=Dynamics NAV Users Must Map to Dynamics 365 for Sales Users }
   }
   KEYS
   {
@@ -54,7 +54,7 @@ OBJECT Table 5330 CRM Connection Setup
       ConnectionStringFormatTok@1000 : TextConst '@@@={Locked};ENU="Url=%1; UserName=%2; Password=%3"';
       CantRegisterDisabledConnectionErr@1001 : TextConst 'ENU=A disabled connection cannot be registered.';
       ConnectionWithCallerIdStringFormatTok@1002 : TextConst '@@@={Locked};ENU="Url=%1; UserName=%2; Password=%3; CallerID=%4"';
-      UnableToRetrieveCrmVersionErr@1004 : TextConst 'ENU=Unable to retrieve Dynamics CRM version.';
+      UnableToRetrieveCrmVersionErr@1004 : TextConst 'ENU=Unable to retrieve Dynamics 365 for Sales version.';
       MissingUsernameTok@1003 : TextConst '@@@={Locked};ENU={USER}';
       MissingPasswordTok@1005 : TextConst '@@@={Locked};ENU={PASSWORD}';
 

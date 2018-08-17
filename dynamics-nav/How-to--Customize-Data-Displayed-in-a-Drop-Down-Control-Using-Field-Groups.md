@@ -1,17 +1,18 @@
 ---
-title: "How to: Customize Data Displayed in a Drop-Down Control Using Field Groups"
+title: Customize Drop-Down Control Data
+description: Fields are enabled with filter-as-you-type functionality, a drop-down control displays data from source table when you type text into these fields.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 12/05/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 27e06f03-185e-49d2-8c81-841ecf53ef28
 caps.latest.revision: 16
 manager: edupont
 ---
-# How to: Customize Data Displayed in a Drop-Down Control Using Field Groups
+# Customize Data Displayed in a Drop-Down Control Using Field Groups
 In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], some fields are enabled with filter-as-you-type functionality. When you type text into these fields, a drop-down control appears that displays data from a source table. For example, in the sell-to-customer-no field on the Sales Orders page, records from the Customer table are displayed when you use this control.  
   
  If you do not define any field groups for the drop-down control, by default you only see data from two fields in the source table; the primary key and description fields, as these are indexed automatically.  

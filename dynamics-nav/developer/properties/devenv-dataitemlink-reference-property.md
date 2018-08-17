@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: fc18f455-197e-423f-897d-1818eda47bd9
 caps.latest.revision: 6
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -24,6 +25,8 @@ Sets the parent data item to which a child (indented) data item is linked. After
 -   Reports  
   
 ## Remarks  
- The value of the **DataItemLinkReference** property must be specified as the **Name** of a parent data item.  
-  
- The default value is the name of the last preceding data item in the report with lower indentation. You can set **DataItemLinkReference** and **DataItemLink** properties for a data item that is not a child of another data item, however, this will not have any effect.
+ The default value is the name of the last preceding data item in the report with lower indentation. You can set **DataItemLinkReference** and **DataItemLink** properties for a data item that is not a child of another data item, however, this will not have any effect.  
+
+## See Also  
+[Properties](devenv-properties.md)  
+[DataItemLink Property (Reports)](devenv-dataitemlink-reports-property.md)  

@@ -6,19 +6,20 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: bc6beaeb-07bb-4a5e-b84a-3c48b17f3c54
-caps.latest.revision: 5
+author: SusanneWindfeldPedersen
 manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # XMLport Triggers
 The following triggers apply to XMLports.  
-  
+
 ## XMLport Triggers  
-  
+
 |XMLport trigger|Executed|  
 |---------------------|--------------|  
 |[OnAfterAssignField Trigger](devenv-onafterassignfield-trigger.md)|Executed after a field has been assigned a value and before it is validated and imported.<br /><br /> This trigger is only used to import data.|  
@@ -36,8 +37,10 @@ The following triggers apply to XMLports.
 |[OnPreXMLport Trigger](devenv-onprexmlport-trigger.md)|Executed after the table views and filters are set and before the XMLport is run.|  
 |[OnPostXMLport Trigger](devenv-onpostxmlport-trigger.md)|Executes after the XMLport is run.|  
 |[OnPreXMLItem Trigger](devenv-onprexmlitem-trigger.md)|Executed after the table is initialized and before you start exporting data to an XML object. This trigger only applies to XMLport elements that have a source type of Table.<br /><br /> This trigger is only used to export data.|  
-  
+
 ## See Also  
- [Triggers](devenv-triggers.md)  
+[Triggers](devenv-triggers.md)  
+[XMLport Properties](../properties/devenv-xmlport-properties.md)  
 <!--
- [How to: Define or Modify Table or Field Triggers](How-to-define-or-modify-table-or-field-triggers.md) -->
+[How to: Define or Modify Table or Field Triggers](How-to-define-or-modify-table-or-field-triggers.md)
+-->

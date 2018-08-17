@@ -1,17 +1,18 @@
 ---
-title: "DateFormula Data Type"
+title: DateFormula Data Type
+description: In Dynamics NAV, the DateFormula Data Type can used to contain a date formula that has the same capabilties as an ordinary input string for the CALC function.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/26/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: b916afad-de38-43bd-ab7e-ec607192ba1f
 caps.latest.revision: 9
 manager: edupont
 ---
-# DateFormula Data Type
+# DateFormula Data Type in Dynamics NAV
 Use this data type to contain a date formula that has the same capabilities as an ordinary input string for the [CALCDATE Function \(Date\)](CALCDATE-Function--Date-.md). The DateFormula data type is used to provide multilanguage capabilities to the [CALCDATE Function \(Date\)](CALCDATE-Function--Date-.md).  
   
 ## Remarks  

@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: 2e946369-2c8b-47f2-8f3e-0bd805f5c94a
-caps.latest.revision: 7
+author: SusanneWindfeldPedersen
 manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -44,4 +45,6 @@ Determines the next record to be displayed.
  If an error occurs in the trigger code, the page is closed.  
 
 ## See Also  
- [Triggers](devenv-triggers.md)
+ [Triggers](devenv-triggers.md)  
+ [Page and Action Triggers](devenv-page-and-action-triggers.md)  
+ [Page Properties](../properties/devenv-page-properties.md)  

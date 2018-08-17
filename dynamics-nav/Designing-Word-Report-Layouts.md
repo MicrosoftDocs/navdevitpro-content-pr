@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 1609bd25-0f1d-445b-bdb0-8f59d11a1495
 caps.latest.revision: 8
 manager: edupont
@@ -19,7 +19,7 @@ A Word report layout is a based on Word document \(.docx file type\) that acts a
  From the [!INCLUDE[navnow](includes/navnow_md.md)] clients, [!INCLUDE[navnow](includes/navnow_md.md)] users you can manage the Word report layouts that are used on reports. This includes adding a built-in Word report layout, creating custom Word report layouts on a report, and changing which report layout is currently active on a report. For more information about how to manage Word report layouts from the [!INCLUDE[navnow](includes/navnow_md.md)] clients, see [Managing Report Layouts in the Clients](managing-report-layouts.md).  
   
 ## See Also  
- [Built-in and Custom Report Layouts](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuilinCustomLayouts)   
+ [Built-in and Custom Report Layouts](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuiltinCustomLayouts)   
  [How to: Create a Word Report Layout for a Report](How-to--Create-a-Word-Report-Layout-for-a-Report.md)   
  [How to: Modify a Word Report Layout](How-to--Modify-a-Word-Report-Layout.md)   
  [How to: Add Fields from a Report Dataset to a Word Report Layout](How-to--Add-Fields-from-a-Report-Dataset-to-a-Word-Report-Layout.md)   

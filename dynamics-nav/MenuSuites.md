@@ -1,17 +1,18 @@
 ---
-title: "MenuSuites"
+title: MenuSuites Overview
+description: MenuSuite contain menus to navigate and perform actions on the Departments page in the Windows client which provides a basic modifiable MenuSuite.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/25/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: c585e018-3c96-4422-8503-87a23ca59ed3
 caps.latest.revision: 18
 manager: edupont
 ---
-# MenuSuites
+# Getting Started with MenuSuites in Dynamics NAV
 MenuSuites contain menus that enable users to navigate and perform actions in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. [!INCLUDE[navnow](includes/navnow_md.md)] provides a basic MenuSuite that can be modified. You can also create your own MenusSuites. You create MenuSuites in Object Designer and modify them in Navigation Pane Designer. For information about Navigation Pane Designer, see [Navigation Pane Designer](uiref/-$-S_2401-Navigation-Pane-Designer-$-.md).  
 
 > [!NOTE]  

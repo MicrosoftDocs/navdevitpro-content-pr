@@ -1,4 +1,4 @@
---
+---
 title: "GET, FIND, and NEXT methods"
 ms.custom: na
 ms.date: 06/07/2017
@@ -6,9 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
-author: jswymer
---
+ms.service: "dynamics365-financials"
+author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-get-find-and-next-methods
+---
+
 # GET, FIND, and NEXT Methods
 The following methods are used to search for records:  
   

@@ -1,17 +1,18 @@
 ---
-title: "Understanding Headers and Footers"
+title: Header and Footer Report Layout
+description: This article explains the limitations of headers and footers in client report definition RDLC report layouts in Microsoft Dynamics NAV.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: b129d096-1826-4e6a-9350-5efa307df9b0
 caps.latest.revision: 16
 manager: edupont
 ---
-# Understanding Headers and Footers
+# Report Header and Footer Limitations in Dynamics NAV
 Headers and footers in client report definition \(RDLC\) report layouts have the following limitations:  
   
 -   From the header, you cannot refer to group-specific information in the body.  

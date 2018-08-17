@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 4925b06d-1f96-4221-98b8-5bdd33b20b9e
 caps.latest.revision: 12
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # Duration Data Type
 Represents the difference between two DateTimes. This value can be negative. It is stored as a 64-bit integer. The integer value is the number of milliseconds during the duration.  
@@ -45,4 +46,6 @@ MESSAGE(FORMAT(Duration));
  **124 days 4 hours 30 minutes 1 second**  
   
 ## See Also  
- [DateTime Data Type](devenv-datetime-data-type.md)
+ [DateTime Data Type](devenv-datetime-data-type.md)  
+ [AL Method Reference](../methods/devenv-al-method-reference.md)  
+ [AL Data Types](devenv-al-data-types.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: c006a405-7832-41f3-9fcd-5485edcb5b81
 caps.latest.revision: 23
 manager: edupont
@@ -27,8 +27,9 @@ manager: edupont
 ### Required Security Configuration  
  After you install [!INCLUDE[navnow](includes/navnow_md.md)], you must then set up security. For more information, see [Security Overview](Security-Overview.md).  
 
+<!--
 ### [!INCLUDE[rimlong](includes/rimlong_md.md)]  
- For assistance with setting up companies in [!INCLUDE[navnow](includes/navnow_md.md)], see [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](Set-Up-a-Company-With-RapidStart-Services-for-Microsoft-Dynamics-NAV.md).  
+ For assistance with setting up companies in [!INCLUDE[navnow](includes/navnow_md.md)], see [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](Set-Up-a-Company-With-RapidStart-Services-for-Microsoft-Dynamics-NAV.md).  -->
 
 ## In This Section  
  [How to: Run Setup](How-to--Run-Setup.md)  

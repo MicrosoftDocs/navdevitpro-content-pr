@@ -1,16 +1,17 @@
 ---
-title: "How to: Add a Microsoft Dynamics NAV Company"
+title: Add Company to a Database
+description: Add a new company to a Dynamics NAV database on a computer or a virtual machine by using the New-NAVCompany cmdlet of the Administration Shell.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/02/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 1bd63fec-c8b1-4ac4-b3df-d1549f591eca
 caps.latest.revision: 13
 ---
-# How to: Add a Microsoft Dynamics NAV Company
+# How to Add a Microsoft Dynamics NAV Company
 This topic describes how to add a new company to a [!INCLUDE[navnow](includes/navnow_md.md)] database on a computer or virtual machine. To add a [!INCLUDE[navnow](includes/navnow_md.md)] company, you use the New-NAVCompany cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
 
 > [!TIP]  

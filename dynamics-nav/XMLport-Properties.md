@@ -1,17 +1,18 @@
 ---
-title: "XMLport Properties"
+title: XMLport Object Properties
+description: This topic provides a list of properties including text, table and field elements and attributes that apply to XMLport objects.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 1c8d76d0-27e6-409a-b7ec-057763c9d2c7
 caps.latest.revision: 9
 manager: edupont
 ---
-# XMLport Properties
+# XMLport Properties in Dynamics NAV
 This topic lists properties of the XMLport object, element, and attribute.  
   
 ## XMLport Object Properties  

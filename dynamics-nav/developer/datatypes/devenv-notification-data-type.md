@@ -6,8 +6,9 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.author: jswymer
-ms.prod: "dynamics-nav-2017"
+ms.author: SusanneWindfeldPedersen
+ms.prod: "dynamics-nav-2018"
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # Notification Data Type
 A complex type for publishing and consuming notifications in the application. Notifications provide a programmatic way to send non-intrusive information to the User Interface (UI).
@@ -26,5 +27,7 @@ The following methods are supported for the Notifications data type:
 
 
 ## See Also  
- [Notifications](../devenv-notifications-developing.md)  
+[Notifications](../devenv-notifications-developing.md)  
+[AL Data Types](devenv-al-data-types.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)    
  

@@ -6,9 +6,10 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: b81542a2-308f-4ed4-b5c4-9484df43285c
-caps.latest.revision: 9
+author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -46,4 +47,6 @@ Causes the system to display a lookup page.
 >  The lookup for a non-editable field is not rendered. You can use the [OnDrillDown Trigger](devenv-ondrilldown-trigger.md) instead.
 
 ## See Also  
- [OnLookup (Page fields) Trigger](devenv-onlookup-page-fields-trigger.md)
+ [OnLookup (Page fields) Trigger](devenv-onlookup-page-fields-trigger.md)  
+ [Triggers](devenv-triggers.md)  
+ [Table and Field Triggers](devenv-table-and-field-triggers.md)  

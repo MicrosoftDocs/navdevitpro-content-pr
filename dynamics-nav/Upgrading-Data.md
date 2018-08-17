@@ -1,17 +1,18 @@
 ---
-title: "Upgrading Data"
+title: Upgrade Data in Business Database
+description: This article explains how to upgrade data in the business database for Microsoft Dynamics NAV.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/17/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 6c8bb4a0-29b2-46fb-b268-3ebc16b4a80a
 caps.latest.revision: 9
 manager: edupont
 ---
-# Upgrading Data
+# Upgrading Data in Microsoft Dynamics NAV
 This topic describes how to upgrade data in the business database. You perform a data upgrade:  
 
 -   After you make changes to tables from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and synchronize the schemas in the database.  

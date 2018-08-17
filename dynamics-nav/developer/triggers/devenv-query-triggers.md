@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: 8577e3f5-1ddf-4171-bb89-9fee33d4fe8f
-caps.latest.revision: 5
+author: SusanneWindfeldPedersen
 manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -26,4 +27,5 @@ This topic describes the AL triggers that are available for queries. Triggers ar
 
 ## See Also  
  [Triggers](devenv-triggers.md)  
- [SETFILTER Method (Query)](../methods/devenv-setfilter-method-query.md)
+ [SETFILTER Method (Query)](../methods/devenv-setfilter-method-query.md)  
+ [Report Triggers](devenv-report-triggers.md)  

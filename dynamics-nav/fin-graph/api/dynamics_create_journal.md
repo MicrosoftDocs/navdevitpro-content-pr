@@ -1,6 +1,6 @@
 ---
-title: CREATE journal method | Microsoft Docs
-description: Creates a journal.
+title: Create journals | Microsoft Docs
+description: Creates a journal object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,30 +10,30 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
-# Create journal
-Creates a journal in Dynamics 365 for Financials.
+# Create journals
+Creates a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
 
 ## HTTP request
 
 ```
-POST /financials/companies/{id}/journals/{id}
+POST /businesscentral/companies({id})/journals({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer {token}. Required.    |
-|Content-Type  |application/json    |
+|Header        |Value                     |
+|--------------|--------------------------|
+|Authorization |Bearer {token}. Required. |
+|Content-Type  |application/json          |
 
 ## Request body
-In the request body, supply a JSON representation of journal object.
+In the request body, supply a JSON representation of a **journals** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and journal object in the response body.
+If successful, this method returns ```201 Created``` response code and a **journals** object in the response body.
 
 ## Example
 
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and journal o
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/journals
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/journals
 Content-type: application/json
 
 ```json
@@ -66,4 +66,12 @@ Content-type: application/json
 ```
 
 ## See also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Journal](../resources/dynamics_journal.md)  
+[Get Journal](../api/dynamics_journal_get.md)  
+[Update Journal](../api/dynamics_journal_update.md)  
+[Delete Journal](../api/dynamics_journal_delete.md)  

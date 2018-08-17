@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 227f707b-04f6-47c6-9feb-0fb9499d11e5
 caps.latest.revision: 9
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # BigInteger Data Type
 Stores very large whole numbers that range from -9,223,372,036,854,775,807 to 9,223,372,036,854,775,807.  
@@ -48,3 +49,4 @@ BI := 455500000000L;
 [AL Data Types](devenv-al-data-types.md)  
 [Decimal Data Type](devenv-decimal-data-type.md)   
 [Integer Data Type](devenv-integer-data-type.md)   
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

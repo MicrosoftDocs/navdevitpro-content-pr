@@ -1,17 +1,18 @@
 ---
-title: "How to: Break on Errors"
+title: How to Break on Errors
+description: If the debugger is set to break on errors, then it breaks execution both on errors that are handled in code and on unhandled errors. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/09/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: ddb133b9-e940-4db8-bf3a-e5f906600188
 caps.latest.revision: 24
 manager: edupont
 ---
-# How to: Break on Errors
+# How to Break on Errors 
 You can specify if the debugger breaks on the next error. If the debugger is set to break on errors, then it breaks execution both on errors that are handled in code and on unhandled errors. By default, the debugger is set to break on errors.  
   
  When the debugger breaks on an error, you can inspect variables and parameters. You can also review the error message in the **Debugger** window, on the **Home** tab, in the **Show** group, by choosing **Last Error**.  

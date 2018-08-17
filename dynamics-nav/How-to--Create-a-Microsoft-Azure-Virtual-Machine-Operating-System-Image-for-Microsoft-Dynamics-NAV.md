@@ -1,17 +1,18 @@
 ---
-title: "How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV"
+title: Azure Virtual Machine OS Image Creation
+description: This topic describes how to create custom images in Microsoft Azure Gallery that you can use to create virtual machines for deploying Dynamics NAV.
 author: jswymer
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 807d5b34-e487-45f7-953e-5e7079e0e3ba
 mms.author: jswymer
 ---
-# How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV
+# Creating a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV
 This topic describes how to create custom images in Microsoft Azure Gallery that you can use to create virtual machines for deploying [!INCLUDE[navnow](includes/navnow_md.md)]. Following this procedure ensures that [!INCLUDE[navnow](includes/navnow_md.md)] remains fully automated when using the scripts that are provided with the [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)].  
 
  To create a custom image and add it to the Azure Gallery, you must complete the following tasks.  

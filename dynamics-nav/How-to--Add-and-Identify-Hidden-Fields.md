@@ -1,17 +1,18 @@
 ---
-title: "How to: Add and Identify Hidden Fields"
+title: Add and Identify Hidden Report Fields
+description: Mark the hidden fields on a report, so they are easy to identify, and move them to a different location in the layout to avoid problems with formatting.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: d93e829b-5fd3-4f9d-a767-4f5ee5b3b4f1
 caps.latest.revision: 16
 manager: edupont
 ---
-# How to: Add and Identify Hidden Fields
+# How to Add and Identify Hidden Report Fields in Dynamics NAV
 If you have hidden fields on a report, we recommend that you mark them so that they are easy to identify. Additionally, you may want to move hidden fields to a different location in the layout to avoid problems with formatting.  
   
 ### To add and identify a hidden field  

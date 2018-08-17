@@ -1,17 +1,18 @@
 ---
-title: "Date Data Type"
+title: Date Data Type
+description: Denotes a date ranging from January 1, 1753 to December 31, 9999 and displays text format of the date by Region and Language settings in Windows. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/26/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: b179c72d-48ea-4015-bb76-c60a3b459c70
 caps.latest.revision: 21
 manager: edupont
 ---
-# Date Data Type
+# Date Data Type in Dynamics NAV
 Denotes a date ranging from January 1, 1753 to December 31, 9999.  
   
  The displayed text format of the date is determined by your Region and Language Format setting in Windows.  

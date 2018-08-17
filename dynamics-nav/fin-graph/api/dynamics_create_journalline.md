@@ -1,6 +1,6 @@
 ---
-title: CREATE journal line method | Microsoft Docs
-description: Creates a journal line.
+title: Create journalLines | Microsoft Docs
+description: Creates a journal line in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,30 +10,30 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
-# Create journal line
-Creates a journal line in Dynamics 365 for Financials.
+# Create journalLines
+Creates a journal line object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-POST /financials/companies/{id}/journals/{ID}/journalLines/{id}
+POST /businesscentral/companies({id})/journals({id})/journalLines({id})
 ```
 
 ## Request headers
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer {token}. Required.    |
-|Content-Type  |application/json    |
+|Header        |Value                    |
+|--------------|-------------------------|
+|Authorization |Bearer {token}. Required.|
+|Content-Type  |application/json         |
 
 ## Request body
-In the request body, supply a JSON representation of journalLine object.
+In the request body, supply a JSON representation of **journalLines** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and journalLine object in the response body.
+If successful, this method returns ```201 Created``` response code and **journalLines** object in the response body.
 
 ## Example
 
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and journalLi
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/journals/{ID}/journalLine
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/journals({id})/journalLines
 Content-type: application/json
 
 {
@@ -80,4 +80,12 @@ Content-type: application/json
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Journal Line](../resources/dynamics_journalline.md)  
+[Get Journal Line](../api/dynamics_journalline_get.md)  
+[Update Journal Line](../api/dynamics_journalline_update.md)  
+[Delete Journal Line](../api/dynamics_journalline_delete.md)  

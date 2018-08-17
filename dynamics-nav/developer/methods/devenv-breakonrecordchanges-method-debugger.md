@@ -8,8 +8,8 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-financials
 ms.assetid: 5f0cd768-4b6f-4c11-a10a-c67972521916
-caps.latest.revision: 4
-manager: edupont
+author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -37,8 +37,11 @@ Breaks execution before a change to a record occurs.
  **True** if the debugger breaks when a change occurs in a record; otherwise, **false**.  
   
  If you omit this optional return value and if the break is not set successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
- <!-- 
+ 
 ## See Also  
- [Breakpoints](Breakpoints.md)   
- [BREAK Method \(Debugger\)](devenv-BREAK-Method-Debugger.md)
- -->
+[BREAK Method (Debugger)](devenv-break-method-debugger.md)  
+[AL Methods](../devenv-al-methods.md)
+<!-- 
+[Breakpoints](Breakpoints.md)   
+[BREAK Method \(Debugger\)](devenv-BREAK-Method-Debugger.md)
+-->

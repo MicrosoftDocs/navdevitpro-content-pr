@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: b996870e-306e-4aec-9806-654334995d7f
 caps.latest.revision: 13
 ---
@@ -40,4 +40,5 @@ Graphically, these can be represented as the layers, where the central layer is 
  [Object-Level Security](Object-Level-Security.md)   
  [Permissions on Database Objects](Permissions-on-Database-Objects.md)   
  [Record-Level Security](Record-Level-Security.md)   
- [Security Considerations](Security-Considerations.md)
+ [Security Considerations](Security-Considerations.md)  
+ [Transparent Data Encryption (TDE)](transparent-data-encryption.md)  

@@ -1,17 +1,18 @@
 ---
-title: "Code Data Type"
+title: Code Data Type
+description: Code data type is a simple data type denotes a special type of string that is converted to uppercase and removes any trailing or leading spaces.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/26/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 5f0c3922-cf78-49a1-9143-466bffa29ab3
 caps.latest.revision: 21
 manager: edupont
 ---
-# Code Data Type
+# Code Data Type in Dynamics NAV
 This simple data type denotes a special type of string that is converted to uppercase and removes any trailing or leading spaces.  
   
 ## Remarks  

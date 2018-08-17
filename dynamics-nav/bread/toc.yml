@@ -1,0 +1,61 @@
+- name: Dynamics 365
+  tocHref: /dynamics365/
+  topicHref: /dynamics365
+  items:
+  - name: Introduction to Dynamics 365
+    tocHref: /dynamics365/get-started/what-is/
+    topicHref: /dynamics365/get-started/what-is/index
+  - name: Finance and Operations, Business
+    tocHref: /dynamics365/financials/
+    topicHref: /dynamics365/financials/index
+  - name: Accountant Hub
+    tocHref: /dynamics365/accountants/
+    topicHref: /dynamics365/accountants/index
+  - name: UX Guidelines, Business
+    tocHref: /dynamics365/ux-guidelines/
+    topicHref: /dynamics365/ux-guidelines/index
+  - name: Dynamics NAV
+    tocHref: /dynamics-nav/
+    topicHref: /dynamics-nav
+    items:
+      - name: Developer and IT-Pro Help
+        tocHref: /dynamics-nav/
+        topicHref: /dynamics-nav/index
+      - name: New Development Environment
+        tocHref: /dynamics-nav/developer/
+        topicHref: /dynamics-nav/developer/devenv-dev-overview
+        items:
+        - name: Data Types
+          tocHref: /dynamics-nav/developer/
+          topicHref: /dynamics-nav/developer/datatypes/devenv-al-data-types
+        - name: Methods
+          tocHref: /dynamics-nav/developer/
+          topicHref: /dynamics-nav/developer/methods/devenv-al-method-reference
+        - name: Properties
+          tocHref: /dynamics-nav/developer/
+          topicHref: /dynamics-nav/developer/properties/devenv-properties
+        - name: Triggers
+          tocHref: /dynamics-nav/developer/
+          topicHref: /dynamics-nav/developer/triggers/devenv-triggers
+      - name: Fin Graph
+        tocHref: /dynamics-nav/fin-graph/
+        topicHref: /dynamics-nav/fin-graph/index
+      - name: Dynamics NAV PowerShell Cmdlet Modules
+        tocHref: /powershell/dynamics-nav/
+        topicHref: /powershell/dynamics-nav/overview
+        items:
+        - name: Administration Cmdlets for Dynamics NAV
+          tocHref: /powershell/module/Microsoft.Dynamics.Nav.Management/
+          topicHref: /powershell/dynamics-nav/overview
+        - name: Administration Cmdlets for Dynamics NAV Extensions
+          tocHref: /powershell/module/Microsoft.Dynamics.Nav.Apps.Management/
+          topicHref: /powershell/dynamics-nav/overview
+        - name: Development Cmdlets for Dynamics NAV
+          tocHref: /powershell/module/Microsoft.Dynamics.Nav.Model.Tools/
+          topicHref: /powershell/dynamics-nav/overview
+        - name: Development Cmdlets for Dynamics NAV Extensions
+          tocHref: /powershell/module/Microsoft.Dynamics.Nav.Apps.Tools/ 
+          topicHref: /powershell/dynamics-nav/overview
+
+
+

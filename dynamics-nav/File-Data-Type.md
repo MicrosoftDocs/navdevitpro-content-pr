@@ -1,16 +1,17 @@
 ---
-title: "File Data Type"
+title: File Data Type
+description: The File data type gives access to files which can be opened in text or binary mode. Read from or write to a file by creating input and output streams.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: e69359b6-5b74-46c2-88ac-2d98f48a9d38
 caps.latest.revision: 12
 ---
-# File Data Type
+# File Data Type in Dynamics NAV
 The File data type gives access to files. Files can be opened in text or binary mode. For more information, see [TEXTMODE Function \(File\)](TEXTMODE-Function--File-.md).  
   
  You can read from or write to a file by creating input and output streams, respectively. To do so, use the [CREATEINSTREAM Function \(File\)](CREATEINSTREAM-Function--File-.md) and [CREATEOUTSTREAM Function \(File\)](CREATEOUTSTREAM-Function--File-.md). For more information, see [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md).  

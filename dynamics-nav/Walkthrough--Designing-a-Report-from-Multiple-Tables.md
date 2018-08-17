@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 60f0c302-d4b9-410b-b44c-0a6ca0a9e123
 caps.latest.revision: 21
 manager: edupont
@@ -204,7 +204,7 @@ A report object is composed of a report dataset and a visual layout. You design 
     |Currency Code|CurrencyCode\_CustLedgerEntry|  
     |Amount|Amount\_CustLedgerEntry|  
     |Original Amt \(LCY\)|OriginalAmtLCY\_CustLedgerEntry|  
-    |Remaining Amt. \(LCY\)|EntryType\_DetailedCustLedgEntry|  
+    |Remaining Amt. \(LCY\)|RemainingAmtLCY\_CustLedgEntry|  
 
 5.  Select the **Detailed Cust. Ledger Entry** data item and repeat steps 1 through 3 to add the fields. The following table shows the fields in Report Dataset Designer.  
 

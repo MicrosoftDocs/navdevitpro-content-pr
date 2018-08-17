@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 5ec9b35d-a50d-43d7-b20c-efddc98dca32
 caps.latest.revision: 17
 ---
@@ -17,12 +17,19 @@ caps.latest.revision: 17
 
 -   The [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] includes cmdlets for merging and modifying application object files. Also included are cmdlets for creating extension packages. The [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] is installed with the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
 
- The cmdlets are implemented in [!INCLUDE[wps_2](includes/wps_2_md.md)] 3.0, which is included with Windows Server 2012 and Windows 8 and later. For other versions of Windows supported for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can install it as part of the [Windows Management Framework 3.0](http://go.microsoft.com/fwlink/?LinkId=293806) on the Microsoft Download Center.  
+The cmdlets are implemented in [!INCLUDE[wps_2](includes/wps_2_md.md)] 3.0, which is included with Windows Server 2012 and Windows 8 and later. For other versions of Windows supported for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can install it as part of the [Windows Management Framework 3.0](http://go.microsoft.com/fwlink/?LinkId=293806) on the Microsoft Download Center. 
+
+> [!IMPORTANT]  
+>  Cmdlets can perform actions that can also be done from the client, such as creating and modifying entities like web services, companies, users, and more. Be aware that cmdlets do not execute code on application objects (such as tables or pages) that are associated with these entities. If you have added logic to these application objects, the logic will be ignored by the cmdlets. For example, if you added logic on table **9900  Web Service Aggregate** to control the creation of web services, although this logic will run from the client, it will be ignored when creating web services by using the New-NAVWebService cmdlet. 
+
+<!-- 
 
 > [!NOTE]  
 >  Alternatively to running [!INCLUDE[nav_shell](includes/nav_shell_md.md)] and [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] from where they are installed, you can import the relevant module into the [!INCLUDE[wps_2](includes/wps_2_md.md)] Integrated Scripting Environment \(ISE\).  
 
-## Starting a [!INCLUDE[nav_shell](includes/nav_shell_md.md)] Session  
+-->
+
+## <a name="StartAdminShell"></a>Starting a [!INCLUDE[nav_shell](includes/nav_shell_md.md)] Session  
  You must run the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an Administrator. On the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], choose **Start**, in the **Search** box, type **[!INCLUDE[nav_shell](includes/nav_shell_md.md)]**, right-click the related link, and then choose **Run as Administrator**.  
 
 > [!IMPORTANT]  
@@ -59,9 +66,9 @@ Get-Help <cmd name> -online
 >[!NOTE]
 >The cmdlet help for [!INCLUDE[nav2017](includes/nav2017.md)] is currently not available in the MSDN Library. The *-online* switch parameter will open the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] version of the help in the MSDN Library instead. For the latest cndlet help, use the cmdlet help in command-line interface (by omitting *-online* switch parameter).
 
-For more information about [!INCLUDE[nav_shell](includes/nav_shell_md.md)] cmdlets, see [Administration Cmdlets for Microsoft Dynamics NAV](Microsoft.Dynamics.Nav.Management/Microsoft.Dynamics.Nav.Management.md) and [Administration Cmdlets for Microsoft Dynamics NAV Extensions](Microsoft.Dynamics.Nav.Apps.Management/Microsoft.Dynamics.Nav.Apps.Management.md).  
+For more information about [!INCLUDE[nav_shell](includes/nav_shell_md.md)] cmdlets, see [Administration Cmdlets for Microsoft Dynamics NAV](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management) and [Administration Cmdlets for Microsoft Dynamics NAV Extensions](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management).  
 
-For more information about [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] cmdlets, see [Development Cmdlets for Microsoft Dynamics NAV](Microsoft.Dynamics.Nav.Model.Tools/Microsoft.Dynamics.Nav.Model.Tools.md) and [Development Cmdlets for Microsoft Dynamics NAV Extensions](Microsoft.Dynamics.Nav.Apps.Tools/Microsoft.Dynamics.Nav.Apps.Tools.md).  
+For more information about [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] cmdlets, see [Development Cmdlets for Microsoft Dynamics NAV](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.model.tools) and [Development Cmdlets for Microsoft Dynamics NAV Extensions](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.tools).  
 
  For more information about Windows PowerShell, see [Windows PowerShell Getting Started Guide](http://go.microsoft.com/fwlink/?LinkID=252252).  
 

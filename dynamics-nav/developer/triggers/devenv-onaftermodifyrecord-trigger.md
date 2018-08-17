@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: 5471bdd5-60fb-44fa-b6bf-96d776714be6
-caps.latest.revision: 5
+author: SusanneWindfeldPedersen
 manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -31,4 +32,5 @@ Executed after a record has been modified.
  [OnBeforeInsertRecord Trigger](devenv-onbeforeinsertrecord-trigger.md)   
  [AutoReplace Property](../properties/devenv-autoreplace-property.md)   
  [AutoSave Property](../properties/devenv-autosave-property.md)   
- [AutoUpdate Property](../properties/devenv-autoupdate-property.md)
+ [AutoUpdate Property](../properties/devenv-autoupdate-property.md)  
+ [XMLport Triggers](devenv-xmlport-triggers.md)  

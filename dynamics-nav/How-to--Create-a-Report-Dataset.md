@@ -1,17 +1,18 @@
 ---
-title: "How to: Create a Report Dataset"
+title: Create a Report Dataset
+description: A dataset determines the data that displays on a generated report, built from data items and columns, where data item is a table and column is a field in the table.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 44c9f5c2-5bd2-4f26-85f5-7accb25c2112
 caps.latest.revision: 18
 manager: edupont
 ---
-# How to: Create a Report Dataset
+# Creating a Report Dataset in Dynamics NAV
 A dataset determines the data that displays on a generated report. You build the report dataset from data items and columns, where a data item is a [!INCLUDE[navnow](includes/navnow_md.md)] table and a column can be a field in the table, a variable, an expression, or a text constant.  
   
  After you create the dataset, you can design the report layout.  

@@ -1,6 +1,6 @@
 ---
-title: customerPayment resource type | Microsoft Docs
-description: A customer payment.
+title: customerPayments resource type | Microsoft Docs
+description: A customer payments object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,25 +10,28 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
-# customerPayment resource type
-Represents a customer payment in Dynamics 365 for Financials.
+# customerPayments resource type
+Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
-|[GET customerPayment](../api/dynamics_get_customerpayment.md)|customerPayments|Get Customer Payment.|
-|[POST customerPayment](../api/dynamics_create_customerpayment.md)|customerPayments|Create Customer Payment.|
-|[PATCH customerPayment](../api/dynamics_update_customerpayment.md)|customerPayments|Update Customer Payment.|
-|[DELETE customerPayment](../api/dynamics_delete_customerpayment.md)|none|Delete Customer Payment.|
+| Method         | Return Type  |Description|
+|:---------------|:-------------|:----------|
+|[GET customerPayments](../api/dynamics_customerpayment_get.md)|customerPayments|Gets a customer payment.|
+|[POST customerPayments](../api/dynamics_create_customerpayment.md)|customerPayments|Creates a customer payment.|
+|[PATCH customerPayments](../api/dynamics_customerpayment_update.md)|customerPayments|Updates a customer payment.|
+|[DELETE customerPayments](../api/dynamics_customerpayment_delete.md)|none|Deletes a customer payment.|
 
 ## Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
+| Property	   | Type	 |Description|
+|:-------------|:--------|:----------|
 |id|GUID|The unique ID of the customer payment. Non-editable.|
 |lineNumber|integer|The number of the customer payment.|
 |customerId|GUID|The unique ID of the customer that the payment is related to.|
@@ -46,6 +49,8 @@ Represents a customer payment in Dynamics 365 for Financials.
 
 
 ## Relationships
+A customer payment is a subpage of a customer payments journal. It cannot be accessed directly.
+
 A customer payment can be a "Parent Entity" of the dimension lines.
 
 A Customer (customerId) must exist in the Customers table.
@@ -60,14 +65,14 @@ Here is a JSON representation of the resource.
 ```json
 {
     "id": "GUID",
-    "lineNumber": integer,
+    "lineNumber": "integer",
     "customerId": "GUID",
     "customerNumber": "string",
     "contactId": "string",
     "postingDate": "date",
     "documentNumber": "string",
     "externalDocumentNumber": "string",
-    "amount": decimal,
+    "amount": "decimal",
     "appliesToInvoiceId": "GUID",
     "appliesToInvoiceNumber": "string",
     "description": "string",
@@ -77,4 +82,11 @@ Here is a JSON representation of the resource.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Get Customer Payments](../api/dynamics_customerpayment_get.md)  
+[Post Customer Payments](../api/dynamics_create_customerpayment.md)  
+[Patch Customer Payments](../api/dynamics_customerpayment_update.md)  
+[Delete Customer Payments](../api/dynamics_customerpayment_delete.md)  

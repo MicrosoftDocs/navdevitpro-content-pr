@@ -1,12 +1,13 @@
 ---
-title: "Monitoring Microsoft Dynamics NAV Server"
+title: Monitoring Microsoft Dynamics NAV Server
+description: This topic provides a list of articles describing the features for monitoring and troubleshooting the Microsoft Dynamics NAV Server.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ---
 # Monitoring Microsoft Dynamics NAV Server
 These articles describe the features for monitoring and troubleshooting [!INCLUDE[nav_server](includes/nav_server_md.md)].  
@@ -18,6 +19,8 @@ These articles describe the features for monitoring and troubleshooting [!INCLUD
 [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)  
 
 [Monitoring SQL Database Deadlocks](Monitoring-Database-Deadlocks.md)
+
+[Monitoring Long Running SQL Queries to the Event Log](Monitoring-Long-Running-SQL-Queries-Event-Log.md)  
 
 [Troubleshooting: Using Query Store to Monitor Query Performance in Dynamics NAV](troubleshooting-query-performance-using-query-store.md)
 

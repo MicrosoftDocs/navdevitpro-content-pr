@@ -2,22 +2,26 @@
 title: "XmlDocument Class"
 ms.author: solsen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 12/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 620f0e32-eadc-43e9-8f6e-8fc0b12c3aaf
 caps.latest.revision: 1
 manager: edupont
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-restapi-overview
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # XmlDocument Class
 Represents an XML document. This class can be used to load, validate, edit, add, and position XML in a document.
+
+> [!NOTE]
+> For performance reasons all [HTTP, JSON, TextBuilder, and XML types](../devenv-restapi-overview.md) are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
 
 The following methods are available on the XmlDocument class.  
   
@@ -31,6 +35,7 @@ The following methods are available on the XmlDocument class.
 |[XmlDocument.GetDeclaration(XmlDeclaration)](xmldocument-getdeclaration-method.md)|Gets the XML declaration for this document.|  
 |[XmlDocument.SetDeclaration(XmlDeclaration)](xmldocument-setdeclaration-method.md)|Sets the XML declaration for this document.|  
 |[XmlDocument.GetDocumentType(XmlDocumentType)](xmldocument-getdocumenttype-method.md)|Gets the Document Type Definition (DTD) for this document.|  
+|[XmlDocument.NameTable](xmldocument-nametable-property.md)|Gets the XmlNameTable associated with this document.|  
 |[XmlDocument.AsXmlNode()](xmldocument-asxmlnode-method.md)|Converts the node to an XmlNode.|  
 |[XmlDocument.GetParent(XmlElement)](xmldocument-getparent-method.md)|Gets the parent XmlElement of this node.|  
 |[XmlDocument.GetDocument(XmlDocument)](xmldocument-getdocument-method.md)|Gets the XmlDocument for this node.|  
@@ -56,6 +61,21 @@ The following methods are available on the XmlDocument class.
 |[XmlDocument.GetDescendantElements()](xmldocument-getdescendantelements--method.md)|Gets a list containing the descendant elements for this document, in document order.|  
 |[XmlDocument.GetDescendantElements(String)](xmldocument-getdescendantelements-name-method.md)|Gets a list containing the descendant elements for this document, in document order.|  
 |[XmlDocument.GetDescendantElements(String, String)](xmldocument-getdescendantelements-localname-namespaceuri-method.md)|Gets a list containing the descendant elements for this document, in document order.|  
+
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
+[XmlAttribute](xmlattribute-class.md)  
+[XmlAttributeCollection](xmlattributecollection-class.md)  
+[XmlCData](xmlcdata-class.md)  
+[XmlComment](xmlcomment-class.md)  
+[XmlDeclaration](xmldeclaration-class.md)  
+[XmlDocumentType](xmldocument-class.md)  
+[XmlElement](xmlelement-class.md)  
+[XmlNamespaceManager](xmlnamespacemanager-class.md)  
+[XmlNameTable](xmlnametable-class.md)  
+[XmlNode](xmlnode-class.md)  
+[XmlNodeList](xmlnodelist-class.md)  
+[XmlProcessingInstruction](xmlprocessinginstruction-class.md)  
+[XmlText](xmltext-class.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

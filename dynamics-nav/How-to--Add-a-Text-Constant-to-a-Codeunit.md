@@ -1,16 +1,17 @@
 ---
-title: "How to: Add a Text Constant to a Codeunit"
+title: Add Text Constant to Codeunit
+description: This article describes how to add a text constant to a codeunit. Start by selecting the C/AL Editor and then choose the C/AL Globals. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: b05d4942-6240-4c3f-9fe9-bf6333525f32
 caps.latest.revision: 12
 ---
-# How to: Add a Text Constant to a Codeunit
+# How to Add a Text Constant to a Codeunit in Dynamics NAV
 To add a text constant to a codeunit, use the following procedure.  
   
 ### To add a text constant  

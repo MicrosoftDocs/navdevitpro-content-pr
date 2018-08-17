@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 5cfff72a-fbee-40e5-9e2b-c5f1f920e506
 caps.latest.revision: 13
 ---
@@ -54,4 +54,4 @@ IF NOT Codeunit.RUN(50001) THEN
  **The last error was: Some error message.**  
   
 ## See Also  
- [Error Handling](Error-Handling.md)
+ <!-- [Error Handling](Error-Handling.md) -->

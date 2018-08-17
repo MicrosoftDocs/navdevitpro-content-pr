@@ -6,14 +6,18 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 2ee40a72-9b03-4ddf-878a-324921671ec9
 caps.latest.revision: 13
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
 ---
 
 # ReqFilterHeadingML Property
 Sets the text used as a [ReqFilterHeading Property](devenv-reqfilterheading-property.md) for a request page tab.  
+
+> [!NOTE] 
+> The support for using the ML properties, such as **CaptionML** and **TooltipML**, is being deprecated, so it is recommended to refactor your extension to use the corresponding **Caption** or **Tooltip** property, which is being picked up in the .xliff file. For more information, see [Working with Translation Files](../devenv-work-with-translation-files.md).
   
 ## Applies To  
   

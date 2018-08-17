@@ -1,17 +1,18 @@
 ---
-title: "Managing Report Layouts in Dynamics NAV Clients"
+title: Manage Report Layouts in Client
+description: Create custom report layouts based on the build-in report layouts to enable users to switch between different layouts for the same report.
 author: edupont04
 ms.custom: na
-ms.date: 10/21/2016
+ms.date: 10/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 manager: edupont
 ---
 # Managing Report Layouts in Dynamics NAV Clients
-In the [!INCLUDE[navnow](includes/navnow_md.md)] clients, users can specify whether to use the built-in RDLC or Word report layout on a report from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)]. Users can also create *custom* report layouts that are based on the built-in report layouts. This enables users to have several different layouts for the same report which they can switch among. For a detailed explanation of built-in and custom layouts, see [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuilinCustomLayouts).
+In the [!INCLUDE[navnow](includes/navnow_md.md)] clients, users can specify whether to use the built-in RDLC or Word report layout on a report from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)]. Users can also create *custom* report layouts that are based on the built-in report layouts. This enables users to have several different layouts for the same report which they can switch among. For a detailed explanation of built-in and custom layouts, see [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuiltinCustomLayouts).
  
 
 ## Creating and Modifying Custom Report Layouts  

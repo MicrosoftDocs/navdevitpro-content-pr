@@ -1,12 +1,13 @@
 ---
-title: "Accessibility Features of Microsoft Dynamics NAV Web Client"
+title: Accessibility Features of the Web Client
+description: This article provides information about the features of the Dynamics NAV web client content readily available to people with disabilities. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/18/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: bc53d29f-e47b-4475-bfe4-c0486ec9e450
 caps.latest.revision: 10
 manager: edupont

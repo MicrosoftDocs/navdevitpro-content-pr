@@ -1,12 +1,13 @@
 ---
-title: "Provisioning the Microsoft Dynamics NAV Server Account"
+title: Provisioning the Microsoft Dynamics NAV Server Account
+description: The Microsoft Dynamics NAV Server account is used by Dynamics NAV clients to log on to the Server instance. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 4278fd98-688d-403d-a89a-453981452957
 caps.latest.revision: 12
 manager: edupont

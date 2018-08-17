@@ -1,17 +1,18 @@
 ---
-title: "Option Data Type"
+title: Option Data Type
+description: A simple data type which denotes an option value. Option values are assigned to sequential numbers, starting with 0 and can be coverted into Integers. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 4ce38f7b-bae2-427d-9db8-3e5014a48c6a
 caps.latest.revision: 11
 manager: edupont
 ---
-# Option Data Type
+# Option Data Type in Dynamics NAV
 This simple data type denotes an option value.  
   
 ## Remarks  

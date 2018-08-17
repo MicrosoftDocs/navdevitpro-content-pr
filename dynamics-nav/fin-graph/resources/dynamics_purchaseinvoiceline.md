@@ -1,6 +1,6 @@
 ---
-title: purchaseInvoiceLine resource type | Microsoft Docs
-description: A purchase invoice line.
+title: purchaseInvoiceLines resource type | Microsoft Docs
+description: A purchase invoice line object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,21 +10,24 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
-# purchaseInvoiceLine resource type
-Represents a line on a purchase invoice in Dynamics 365 for Financials.
+# purchaseInvoiceLines resource type
+Represents a line on a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET Purchase Invoice Line](../api/dynamics_get_purchaseinvoiceline.md)|Purchase Invoice Line|Get Purchase Invoice Line object|
-|[POST Purchase Invoice Line](../api/dynamics_create_purchaseinvoiceline.md)|Purchase Invoice Line|Create Purchase Invoice Line object|
-|[PATCH Purchase Invoice Line](../api/dynamics_update_purchaseinvoiceline.md)|Purchase Invoice Line|Update Purchase Invoice Line object|
-|[DELETE Purchase Invoice Line](../api/dynamics_delete_purchaseinvoiceline.md)|none|Delete Purchase Invoice Line object|
+|[GET purchaseInvoiceLines](../api/dynamics_purchaseinvoiceline_get.md)|purchaseInvoiceLines|Gets a purchase invoice line object.|
+|[POST purchaseInvoiceLines](../api/dynamics_create_purchaseinvoiceline.md)|purchaseInvoiceLines|Creates a purchase invoice line object.|
+|[PATCH purchaseInvoiceLines](../api/dynamics_purchaseinvoiceline_update.md)|purchaseInvoiceLines|Updates a purchase invoice line object.|
+|[DELETE purchaseInvoiceLines](../api/dynamics_purchaseinvoiceline_delete.md)|none   |Deletes a purchase invoice line object.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -36,9 +39,9 @@ Represents a line on a purchase invoice in Dynamics 365 for Financials.
 |lineType|string|The type of the line. Can be Comment,Account,Item,Resource,Fixed Asset,Charge|
 |lineDetails|complex|The details of the line.|
 |description|string|A description of the item in the invoice line.|
-|unitOfMeasure|complex|The unit of measure complex type.|
+|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|The unit of measure complex type.|
+|unitCost|numeric|The unit cost of each individual item in the invoice line.|
 |quantity|numeric|The quantity of the item in the invoice line.|
-|directUnitCost|numeric|The direct unit cost of each individual item in the invoice line.|
 |discountAmount|numeric|The line discount amount.|
 |discountPercent|numeric|The line discount percent.|
 |discountAppliedBeforeTax|boolean|Specified if the discount is applied before tax. Read-Only.|
@@ -71,27 +74,28 @@ Here is a JSON representation of the resource.
   "value": [
     {
       "documentId": "GUID",
-      "sequence": decimal,
+      "sequence": "decimal",
       "itemId": "GUID",
       "accountId": "GUID",
       "lineType": "String",
       "lineDetails": {NAV.documentLineObjectDetails},
       "description": "String",
       "unitOfMeasure": {NAV.UnitOfMeasure},
-      "directUnitCost": decimal,
-      "quantity": decimal,
-      "discountAmount": decimal,
-      "discountPercent": decimal,
-      "discountAppliedBeforeTax": false,
-      "amountExcludingTax": decimal,
+      "directUnitCost": "decimal",
+      "unitCost": "decimal",
+      "quantity": "decimal",
+      "discountAmount": "decimal",
+      "discountPercent": "decimal",
+      "discountAppliedBeforeTax": "boolean",
+      "amountExcludingTax": "decimal",
       "taxCode": "String",
-      "taxPercent": decimal,
-      "totalTaxAmount": decimal,
-      "amountIncludingTax": decimal,
-      "invoiceDiscountAllocation": decimal,
-      "netAmount": decimal,
-      "netTaxAmount": decimal,
-      "netAmountIncludingTax": decimal,
+      "taxPercent": "decimal",
+      "totalTaxAmount": "decimal",
+      "amountIncludingTax": "decimal",
+      "invoiceDiscountAllocation": "decimal",
+      "netAmount": "decimal",
+      "netTaxAmount": "decimal",
+      "netAmountIncludingTax": "decimal",
       "expectedReceiptDate": "Date"
     }
   ]
@@ -99,4 +103,12 @@ Here is a JSON representation of the resource.
 ```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Get Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_get.md)  
+[Create Purchase Invoice Line](../api/dynamics_create_purchaseinvoiceline.md)  
+[Update Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_update.md)  
+[Delete Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_delete.md)  

@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 908a9650-99d8-41a4-a4e0-2eb0f718176a
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # BigText Data Type
 This complex data type handles large text documents.  
@@ -35,3 +36,4 @@ The methods supported for the BigText data type are:
 
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

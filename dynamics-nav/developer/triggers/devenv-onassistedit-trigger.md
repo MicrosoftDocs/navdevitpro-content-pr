@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: 8b1ead83-80f1-42cc-b091-d0732efc156b
-caps.latest.revision: 11
+author: SusanneWindfeldPedersen
 manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -29,4 +30,7 @@ Executed in place of the [AssistEdit Property](../properties/devenv-assistedit-p
  You can use this trigger to write to the database.  
 
 ## See Also  
- [Triggers](devenv-triggers.md)
+ [Triggers](devenv-triggers.md)  
+ [AssistEdit Property](../properties/devenv-assistedit-property.md)  
+ [Page and Action Triggers](devenv-page-and-action-triggers.md)  
+ [Page Properties](../properties/devenv-page-properties.md)  

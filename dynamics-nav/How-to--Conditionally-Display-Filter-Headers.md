@@ -1,17 +1,18 @@
 ---
-title: "How to: Conditionally Display Filter Headers"
+title: Conditionally Display Filter Headers
+description: Conditionally display the filter header by adding a filter variable to the report dataset and create a conditional expression in the RDLC report layout.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/22/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: cda49471-7eef-450e-8907-d63654c2b9a6
 caps.latest.revision: 16
 manager: edupont
 ---
-# How to: Conditionally Display Filter Headers
+# How to Conditionally Display Filter Headers in Reports
 If you apply a filter to the data in a report, then we recommend that you create an additional header row in the report to display the filter. You display this header row only if the user specifies a filter. If no filter is specified, then the filter header is not displayed.  
   
  To conditionally display the filter header, you must add a filter variable to the report dataset. Next, in the RDLC report layout, you must create a conditional expression on the visibility of the filter header that uses the filter variable that you added to the dataset.  

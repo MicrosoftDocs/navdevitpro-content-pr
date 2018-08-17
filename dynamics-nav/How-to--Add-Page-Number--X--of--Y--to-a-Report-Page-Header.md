@@ -1,16 +1,17 @@
 ---
-title: "How to: Add Page Number &quot;X&quot; of &quot;Y&quot; to a Report Page Header"
+title: Add Page Number to Report Header
+description: Each page can have different page names, and page numbering can be reset between pages when you add page breaks to a report page in Dynamics NAV.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: ede2ebf8-22ac-4ee4-a1d7-a4ed09d8026c
 caps.latest.revision: 11
 ---
-# How to: Add Page Number &quot;X&quot; of &quot;Y&quot; to a Report Page Header
+# How to Add Page Number &quot;X&quot; of &quot;Y&quot; to a Report Page Header
 In Microsoft Visual Studio 2012 and Microsoft Visual Studio 2013, page breaks on tablix data regions, groups, and rectangles give you better control of report pagination. When you add page breaks to a report page, each page can have different page names and page numbering can be reset between pages. By using expressions, the page names and numbers can be dynamically updated when a report is run. You can also disable page breaks, or use an expression value to determine whether a page break should be inserted.  
   
  For some document reports, you may want to add page number “X” of “Y” in a report page header. This topic uses the **Order** report as an example to show how you can add page number “X” of “Y”.  

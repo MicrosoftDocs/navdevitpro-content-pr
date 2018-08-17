@@ -1,6 +1,6 @@
 ---
 title: agedAccountsPayable resource type | Microsoft Docs
-description: A AgedAccountsPayable.
+description: An aged accounts payable object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,34 +10,37 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
 # agedAccountsPayable resource type
-Represents an agedAccountsPayable object in Dynamics 365 for Financials, which is showing the aging of a vendor account.
+Represents an agedAccountsPayable object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)], which is showing the aging of a vendor account.
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
-|[GET agedAccountsPayable](../api/dynamics_get_agedaccountspayable.md)|AgedAccountsPayable|Get AgedAccountsPayable object|
+| Method         | Return Type  |Description|
+|:---------------|:-------------|:----------|
+|[GET agedAccountsPayable](../api/dynamics_agedaccountspayable_get.md)|agedAccountsPayable|Get agedAccountsPayable object|
 
 ## Properties
-| Property	   | Type	|Description|
-|:---------------|:--------|:----------|
-|vendorId|GUID|The unique ID of vendor.|
-|vendorNumber|string|Specifies vendor's number.|
-|name|string|Specifies vendor's name.|
-|currencyCode|string|Specifies the currency.|
-|before|numeric|Specifies balance before first aging period.|
-|period1|numeric|Specifies balance in the first aging period.|
-|period2|numeric|Specifies balance in the second aging period.|
-|period3|numeric|Specifies balance in the third aging period.|
-|after|numeric|Specifies balance after third aging period.|
-|balance|numeric|Specifies vendor's total balance.|
+| Property	    | Type	   |Description                                 |
+|:--------------|:---------|:-------------------------------------------|
+|vendorId       |GUID      |The unique ID of vendor.                    |
+|vendorNumber   |string    |Specifies vendor's number.                  |
+|name           |string    |Specifies vendor's name.                    |
+|currencyCode   |string    |Specifies the currency.                     |
+|before         |numeric   |Specifies balance before first aging period.|
+|period1        |numeric   |Specifies balance in the first aging period.|
+|period2        |numeric   |Specifies balance in the second aging period.|
+|period3        |numeric   |Specifies balance in the third aging period.|
+|after          |numeric   |Specifies balance after third aging period. |
+|balance        |numeric   |Specifies vendor's total balance.           |
 |periodStartDateFilter|date|Specifies period start date used to calculate aging periods.|
-|periodLengthFilter|string|Specifies the length of the periods.|
+|periodLengthFilter|string |Specifies the length of the periods.        |
 
 
 ## Relationships
@@ -61,9 +64,15 @@ Here is a JSON representation of the resource.
     "after": "decimal",
     "balance": "decimal",
     "periodStartDateFilter": "date",
-    "periodLengthFilter": "string
+    "periodLengthFilter": "string"
 }
 
 ```
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Get Aged Accounts Payable](../api/dynamics_agedaccountspayable_get.md)  
+[Aged Accounts Receivable](dynamics_agedaccountsreceivable.md)  
+[Account](dynamics_account.md)  

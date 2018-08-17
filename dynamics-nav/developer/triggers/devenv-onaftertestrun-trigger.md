@@ -6,9 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.author: jswymer
+ms.author: SusanneWindfeldPedersen
 manager: edupont
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
+author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -77,7 +79,9 @@ The **OnAfterTestRun** trigger suppresses the automatic display of the results m
 
 You can use the **OnAfterTestRun** trigger to perform post-processing, such as logging, or to automate tests by integrating the test runner codeunit with a test management framework.
 
-The *TestPermissions* parameter, enables you can control how to handle applied permission sets, if any, after the test is run. <!-- For more information about testing with permision sets, including an example, see [Testing With Permission Sets](../testing-permissionsets.md).
+The *TestPermissions* parameter, enables you can control how to handle applied permission sets, if any, after the test is run.   
+<!-- For more information about testing with permision sets, including an example, see [Testing With Permission Sets](../testing-permissionsets.md).
+-->
 
 The **OnAfterTestRun** trigger is run in its own database transaction.
 
@@ -105,10 +109,14 @@ log.INSERT(true);
  The GETLASTERRORTEXT  returns the text that was contained in the last error message.  
 
 ## See Also  
- <!--
- [Testing the Application](testing-the-application.md)   
- [How to: Create a Test Runner Codeunit](how-to-create-a-test-runner-codeunit.md)   
- [How to: Create Test Codeunits and Test Methods](how-to-create-test-codeunits-and-test-methods.md)   
- [How to: Create Handler Methods](../methods/devenv-how-to-create-handler-methods.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](walkthrough-testing-purchase-invoice-discounts.md)   -->
- [OnBeforeTestRun Trigger](devenv-onbeforetestrun-trigger.md)
+[SubType Property (Codeunit)](../properties/devenv-subtype-property-codeunit.md)  
+[OnBeforeTestRun Trigger](devenv-onbeforetestrun-trigger.md)  
+[Codeunit Triggers](devenv-codeunit-triggers.md)  
+[Triggers](devenv-triggers.md)
+<!--
+[Testing the Application](testing-the-application.md)   
+[How to: Create a Test Runner Codeunit](how-to-create-a-test-runner-codeunit.md)   
+[How to: Create Test Codeunits and Test Methods](how-to-create-test-codeunits-and-test-methods.md)   
+[How to: Create Handler Methods](../methods/devenv-how-to-create-handler-methods.md)   
+[Walkthrough: Testing Purchase Invoice Discounts](walkthrough-testing-purchase-invoice-discounts.md)   
+-->  

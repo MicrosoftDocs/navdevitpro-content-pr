@@ -6,10 +6,10 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: 8a9b07b0-a006-4d74-93e3-ca82574952c3
-caps.latest.revision: 6
-manager: edupont
+author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -30,3 +30,4 @@ Executed each time a record is retrieved from the data item.
 ## See Also  
  [Triggers](devenv-triggers.md)   
  [FlowFilter Overview](../devenv-flowfilter-overview.md)  
+ [Report and Data Item Triggers](devenv-report-and-data-item-triggers.md)  

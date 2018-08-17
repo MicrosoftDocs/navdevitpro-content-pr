@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 author: jswymer
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ---
 # How to: Modify Table Mappings for Synchronization
 An integration table mapping links the [!INCLUDE[navnow_md](includes/navnow_md.md)] table to the integration table for the [!INCLUDE[crm_md](includes/crm_md.md)] entity. For each entity in [!INCLUDE[crm_md](includes/crm_md.md)] that you want to synchronize with corresponding data in [!INCLUDE[navnow_md](includes/navnow_md.md)], there must be a corresponding integration table mapping. An integration table mapping includes several settings that enable you to control how records in a [!INCLUDE[navnow_md](includes/navnow_md.md)] table and a [!INCLUDE[crm_md](includes/crm_md.md)] entity are synchronized by the corresponding integration synchronization jobs.  
@@ -35,6 +35,6 @@ This is helpful when troubleshooting synchronization problem because it enables 
 -   In the **Search** box, enter **Integration Synchronization Errors** and then choose the related link.  
 
 ## See Also  
-[Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md )   
- [How to: Enable Default Dynamics CRM Synchronization Setup](How-to-Enable-Default-Dynamics-CRM-Synchronization-Setup.md)   
+[Setting Up Dynamics 365 for Sales Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md )   
+ [How to: Enable Default Dynamics 365 for Sales Synchronization Setup](How-to-Enable-Default-Dynamics-CRM-Synchronization-Setup.md)   
  [How to: Set Up Scheduled Synchronization by Using the Job Queue](How-to-Set-Up-Scheduled-Synchronization-by-Using-the-Job-Queue.md)  

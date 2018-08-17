@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: 820616a5-daa7-4819-8bf8-02f376ef806e
-caps.latest.revision: 14
+author: SusanneWindfeldPedersen
 manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -38,10 +39,12 @@ Executed as a page closes and before the [OnClosePage Trigger](devenv-OnClosePag
 ## Applies To  
 
 -   Pages  
+
 <!--NAV  
 > [!IMPORTANT]  
 >  The OnQueryClosePage trigger is not fully supported by the [!INCLUDE[nav_web](../includes/nav_web_md.md)]. When the page displays in the [!INCLUDE[nav_web](../includes/nav_web_md.md)], the trigger is only invoked when the page is hosted in a modal popup window \(MPO\).  
--->
+-->  
+
 > [!IMPORTANT]  
 >  The trigger is only invoked when the page is hosted in a modal popup window \(MPO\).  
 
@@ -55,5 +58,8 @@ Executed as a page closes and before the [OnClosePage Trigger](devenv-OnClosePag
  You can use this trigger to write to the database.
 
  ## See Also  
+ [OnClosePage Trigger](devenv-onclosepage-trigger.md)  
+ [Page and Action Triggers](devenv-page-and-action-triggers.md)  
+ [Page Properties](../properties/devenv-page-properties.md)  
  [Triggers](devenv-triggers.md)  
 

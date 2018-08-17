@@ -1,16 +1,17 @@
 ---
-title: "Troubleshooting: &quot;Microsoft.Dynamics.Nav.Client has stopped working&quot; error when starting debugger"
+title: Microsoft.Dynamics.Nav.Client has stopped working
+description: The error indicates that the Windows client cannot start, and occurs when the development environment and Windows client are running on different versions.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/26/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: fd529da0-fd56-4b8f-9c1c-345a9a2dd9ab
 caps.latest.revision: 2
 ---
-# Troubleshooting: &quot;Microsoft.Dynamics.Nav.Client has stopped working&quot; error when starting debugger
+# Troubleshooting: Microsoft.Dynamics.Nav.Client has stopped working - Error when starting debugger
 When you try start debugger from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you can get the following error:  
   
  **Microsoft.Dynamics.Nav.Client has stopped working.**  

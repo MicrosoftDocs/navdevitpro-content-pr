@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 9f1b5e9e-4167-4d57-bb0f-498587530ec7
 caps.latest.revision: 18
 manager: edupont
@@ -15,7 +15,7 @@ manager: edupont
 Control add-ins let you add custom user interface \(UI\) controls to pages in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. By using the basic control add-in definition interfaces, a control add-in is bound to a page only through the field that is applied with the control add-in. It is also bound to the page through the [SourceExpr Property](SourceExpr-Property.md), the [OnControlAddin Trigger](OnControlAddin-Trigger.md), and other triggers for exposed events. To extend UI controls on a page, you can expose methods and properties in a control add-in assembly so that they can be called by C/AL code on most page triggers.  
   
 ## Exposing Methods and Properties  
- To expose a public method or property in a control add-in, you add the method or property to the control add-in class and mark it by using the managed attribute [Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) in control add-in class.  
+ To expose a public method or property in a control add-in, you add the method or property to the control add-in class and mark it by using the managed attribute [Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) in control add-in class.  
   
  The following code example is from a control add-in class that exposes a simple method and property.  
   

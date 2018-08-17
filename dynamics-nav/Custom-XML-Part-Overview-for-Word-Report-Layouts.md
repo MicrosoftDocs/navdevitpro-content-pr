@@ -1,12 +1,13 @@
 ---
-title: "Custom XML Part Overview for Word Report Layouts"
+title: Word Report Layouts on Custom XML Parts
+description: Word report layouts are built on custom XML parts for mapping the data into a report when the report is run from the Dynamics NAV client.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 8b29a095-5d4b-40de-8498-3f89994c9633
 caps.latest.revision: 14
 translation.priority.ht: 
@@ -35,7 +36,7 @@ translation.priority.ht:
   - ru-ru
   - sv-se
 ---
-# Custom XML Part Overview for Word Report Layouts
+# Custom XML Part Overview for Word Report Layouts in Dynamics NAV
 Word report layouts are built on *custom XML parts*. A custom XML part is structured XML that represents the dataset of a [!INCLUDE[navnow](includes/navnow_md.md)] report. The custom XML part is used to map the data into a report when the report is run from a [!INCLUDE[navnow](includes/navnow_md.md)] client.  
   
 ## XML Structure of Custom XML Part  

@@ -6,9 +6,10 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.author: jswymer
+ms.author: SusanneWindfeldPedersen
 manager: edupont
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-notifications-developing
 ---
 # Notifications
 Notifications provide a programmatic way to send non-intrusive information to the User Interface (UI) in the Dynamics NAV Web client. Notifications differ from messages initiated by the MESSAGE method. Messages are modal, which means users are typically required to address the message and take some form of corrective action before they continue working. On the other hand, notifications are non-modal. Their purpose is to give users information about a current situation, but do not require any immediate action or block users from continuing with their current task. For example, you could have a notification that a customer's credit limit is exceeded.
@@ -152,4 +153,6 @@ To complete the example, follow these steps:
     ```
 
 ## See Also  
-[Notification Data Type](datatypes/devenv-notification-data-type.md)
+[Notification Data Type](datatypes/devenv-notification-data-type.md)  
+[Developing Extensions](devenv-dev-overview.md)  
+[Getting Started with AL](devenv-get-started.md) 

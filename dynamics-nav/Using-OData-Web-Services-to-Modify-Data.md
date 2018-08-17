@@ -1,12 +1,13 @@
 ---
-title: "Using OData Web Services to Modify Data"
+title: OData Web Services Data Modification
+description: Write to the Dynamics NAV database using an OData web service that exposes a writable page and implement it in on Microsoft SharePoint Online.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 6ed135da-0d01-481d-904e-9340612839e0
 caps.latest.revision: 11
 ---

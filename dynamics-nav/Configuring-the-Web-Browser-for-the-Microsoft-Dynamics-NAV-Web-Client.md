@@ -1,12 +1,13 @@
 ---
-title: "Configuring the Web Browser for the Microsoft Dynamics NAV Web Client"
+title: Web Client Configuration
+description: This article explains how to configure different web browsers to support the Microsoft Dynamics NAV Web Client.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/16/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 017f2aa5-5d9a-4dde-819c-53ef702f2f62
 caps.latest.revision: 6
 manager: edupont

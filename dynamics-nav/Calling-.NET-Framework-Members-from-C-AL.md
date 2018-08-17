@@ -1,12 +1,13 @@
 ---
-title: "Calling .NET Framework Members from C/AL"
+title: Calling .NET Framework Members from C/AL
+description: Call all .NET Framework type members, including methods, properties, and constructors, from C/AL code with the DotNet data type for C/AL variables.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 02e7deaa-6d0f-4713-b7f5-568418cc4ebd
 caps.latest.revision: 18
 manager: edupont

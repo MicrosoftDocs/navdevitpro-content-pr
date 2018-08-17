@@ -1,5 +1,4 @@
 ---
-author: edupont04
 title: "DELETEARCHIVEDATA Method"
 ms.custom: na
 ms.date: 11/02/2016
@@ -8,7 +7,8 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-financials
-ms.author: edupont
+author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]

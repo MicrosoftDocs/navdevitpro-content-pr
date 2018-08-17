@@ -1,17 +1,18 @@
 ---
-title: "DateTime Data Type"
+title: DateTime Data Type
+description: In Dynamics NAV, the DateTime data type denotes a date and time ranging from January, 1 1753, 00:00:00.000 to December 31, 9999, 23:59:59.999. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/26/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 5e81b482-850f-4e8a-8625-5937dabaf1b2
 caps.latest.revision: 17
 manager: edupont
 ---
-# DateTime Data Type
+# DateTime Data Type in Dynamics NAV
 Denotes a date and time ranging from January 1, 1753, 00:00:00.000 to December 31, 9999, 23:59:59.999. An undefined or blank DateTime is specified by 0DT.  
   
  The displayed text format of a DateTime is determined by your Regional and Language Options in Windows.  

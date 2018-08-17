@@ -2,15 +2,13 @@
 title: "Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers"
 author: jswymer
 ms.custom: na
-ms.date: 10/14/2016
+ms.date: 09/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
-ms.assetid: 48551073-e32c-4184-8abf-6a00d30d60cb
-caps.latest.revision: 52
-manager: edupont04
+ms.prod: "dynamics-nav-2018"
+author: jswymer
 ---
 # Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers
 In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] in a four tier production environment, with the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and Microsoft SQL Server with [!INCLUDE[navnow](includes/navnow_md.md)] database components on three separate computers as shown in the following illustration.  
@@ -19,9 +17,9 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
 
 |Computer|Installed operating system and software|  
 |--------------|---------------------------------------------|  
-|**NAVSQL**|A supported operating system with the 64-bit edition of a supported version of SQL Server installed.<br /><br /> You will install [!INCLUDE[navnow](includes/navnow_md.md)] database components on this computer. **Note:**  If SQL Server is not present, then Setup automatically installs the 64-bit edition of SQL Server Express 2012, which you can use for prototyping, developing, and testing. We recommend that you use SQL Server 2008 R2 in production environments. For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).|  
+|**NAVSQL**|A supported operating system with the 64-bit edition of a supported version of SQL Server installed.<br /><br /> You will install [!INCLUDE[navnow](includes/navnow_md.md)] database components on this computer. **Note:**  If SQL Server is not present, then Setup automatically installs the 64-bit edition of SQL Server Express, which you can use for prototyping, developing, and testing. We recommend that you use a non-Express version in production environments. For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).|  
 |**NAVSERVER**|A supported operating system.<br /><br /> You will install [!INCLUDE[nav_server](includes/nav_server_md.md)] on this computer.|  
-|**NAVWEB**|A supported operating system.<br /><br /> Internet Information Services 7 or Internet Information Services 8. **Note:**  [!INCLUDE[navnow](includes/navnow_md.md)] Setup can automatically enable IIS and the IIS features that are required for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. <br /><br /> You will install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on this computer.|  
+|**NAVWEB**|A supported operating system.<br /><br />Supported version of Internet Information Services (IIS). **Note:**  [!INCLUDE[navnow](includes/navnow_md.md)] Setup can automatically enable IIS and the IIS features that are required for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. <br /><br /> You will install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on this computer.|  
 |**DEVICE**|A device with an Internet connection and a supported browser. For a list of supported browsers, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).|  
 
 > [!NOTE]  
@@ -123,9 +121,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
 
 #### To start SQL Server Browser Service  
 
-1.  On the NAVSQL computer, to run the SQL Server Configuration Manage, do the following.  
-
-    1.  Open SQL Server Configuration Manager.  
+1.  On the NAVSQL computer, to open SQL Server Configuration Manager.  
 
 2.  In SQL Server Configuration Manager, in the navigation pane on the left side, choose **SQL Server Service**.  
 
@@ -193,7 +189,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
 
 6.  On the **Choose an Installation Option** page, choose **Custom**.  
 
-7.  On the **Customize the Installation** page, select **NAV Web Server Components**, and then select **Run from My Computer**.  
+7.  On the **Customize the Installation** page, select **Web Server Components**, and then select **Run from My Computer**.  
 
 8.  Choose **Next** to go to the **Specify Parameters** page.  
 
@@ -293,7 +289,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
  By default, the [!INCLUDE[nav_web](includes/nav_web_md.md)] is configured for communication on port 8080 of the computer. This port is typically blocked by Windows Firewall. To allow communication to the [!INCLUDE[nav_web](includes/nav_web_md.md)] from client devices, you must create an inbound rule on the port 8080 in the Windows Firewall setup.  
 
 > [!NOTE]  
->  You do not have to perform this task if the computer is running Windows Server 2012 because communication on the port is automatically allowed by Windows Firewall.  
+>  You do not have to perform this task if the computer is running Windows Server 2012 or Windows Server 2016 because communication on the port is automatically allowed by Windows Firewall.  
 
 #### To create an inbound rule on port that is used by [!INCLUDE[nav_web](includes/nav_web_md.md)]  
 
@@ -324,20 +320,27 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
 
 2.  In the address box, type the following URL:  
 
-     **http://ComputerName:PortNumber/DynamicsNAV100/WebClient/Default.aspx**  
+     **http://ComputerName:PortNumber/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]**  
+
+    Or for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions:
+
+    **http://ComputerName:PortNumber/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient/Default.aspx**
 
     -   Substitute **ComputerName** with the name of the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
 
     -   Substitute **PortNumber** with the port that you configured for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] during Setup.  
 
-    -   Substitute **DynamicsNAV100** with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that you configured during Setup. [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)] is the default value.  
+    -   Substitute **[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]** with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that you configured during Setup. [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)] is the default value.  
 
-     For this walkthrough, you would use the following URL:  
+    For this walkthrough, you would use one of the following URLs:  
+
+    ```  
+    http://navweb:8080/nav_server_instance  
+    ```  
 
     ```  
     http://navweb:8080/nav_server_instance/WebClient/Default.aspx  
-    ```  
-
+    ``` 
 ### Troubleshooting  
  If you are cannot connect the [!INCLUDE[nav_web](includes/nav_web_md.md)] or you are experiencing problems, see [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md).  
 

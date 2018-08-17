@@ -1,16 +1,17 @@
 ---
-title: "How to: Add a Microsoft Dynamics NAV Server Instance"
+title: Adding a Server Instance
+description: Add a new Dynamics NAV Server instance to an existing Server installation by using the New-NAVServerInstance cmdlet of the Administration Shell.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/07/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 41737923-616d-416d-b215-d4a6ac75746f
 caps.latest.revision: 11
 ---
-# How to: Add a Microsoft Dynamics NAV Server Instance
+# How to Add a Microsoft Dynamics NAV Server Instance
 This topic describes how to add a new [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to an existing [!INCLUDE[nav_server](includes/nav_server_md.md)] installation. To add a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, you use the New-NAVServerInstance cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
 
  You specify the name for the instance, the [!INCLUDE[navnow](includes/navnow_md.md)] database to connect to, and the TCP ports for the following services:  

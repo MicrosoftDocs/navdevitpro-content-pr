@@ -6,9 +6,10 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: a25a1651-d138-497c-8dab-34bdf38ee17a
-caps.latest.revision: 10
+author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -28,4 +29,7 @@ Overrides the default drill-down behavior defined in the table definition for th
  This trigger overrides the [DrillDownPageID Property](../properties/devenv-drilldownpageid-property.md) setting of the FlowField.  
 
 ## See Also  
- [Triggers](devenv-triggers.md)
+ [Triggers](devenv-triggers.md)  
+ [DrillDownPageID Property](../properties/devenv-drilldownpageid-property.md)  
+ [Page and Action Triggers](devenv-page-and-action-triggers.md)  
+ [Page Properties](../properties/devenv-page-properties.md)  

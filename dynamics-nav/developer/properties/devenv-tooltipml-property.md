@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: cd79bfbf-483c-43b0-b884-6230aac3ec5c
 caps.latest.revision: 17
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -18,6 +19,9 @@ author: SusanneWindfeldPedersen
 Sets the text used for the tooltip of an action, a field, a factbox, or an activity button.  
 
 In the client, tooltips appear when you point to caption of the control.
+
+> [!NOTE] 
+> The support for using the ML properties, such as **CaptionML** and **TooltipML**, is being deprecated, so it is recommended to refactor your extension to use the corresponding **Caption** or **Tooltip** property, which is being picked up in the .xliff file. For more information, see [Working with Translation Files](../devenv-work-with-translation-files.md).
 
 ## Applies To  
 

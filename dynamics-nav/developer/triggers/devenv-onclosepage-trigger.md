@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: cc77a05c-f93d-4f5e-bbb5-21967cb95707
-caps.latest.revision: 14
+author: SusanneWindfeldPedersen
 manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -42,3 +43,5 @@ OnClosePage()
 
 ## See Also  
  [Triggers](devenv-triggers.md)  
+ [OnQueryClosePage Trigger](devenv-onqueryclosepage-trigger.md)
+ [Page and Action Triggers](devenv-page-and-action-triggers.md)  

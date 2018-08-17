@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: de4f0602-ddd3-43b1-9f3d-8e62368c08de
 caps.latest.revision: 15
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -25,6 +26,7 @@ Sets a drill-down for a field on a page.
 >  This property is not supported on Repeater controls on pages when it is displayed in the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 -->
 ## Property Value  
+ 
  **True** if a drill-down for the field is provided; otherwise, **false**. The default value is **false**.  
   
 ## Remarks  

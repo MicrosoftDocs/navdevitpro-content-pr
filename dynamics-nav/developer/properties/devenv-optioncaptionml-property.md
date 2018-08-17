@@ -6,16 +6,20 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: daacd18c-f0d0-4e21-9537-904960280778
 caps.latest.revision: 14
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # OptionCaptionML Property
 Sets the strings that are displayed to the user for selecting an option. OptionCaptionML is only used if the field or variable has an [OptionString Property](devenv-optionstring-property.md). The OptionString property contains the set of values that are acceptable choices, and it is one of these values that is saved in the database or used in AL code.  
+
+> [!NOTE] 
+> The support for using the ML properties, such as **CaptionML** and **TooltipML**, is being deprecated, so it is recommended to refactor your extension to use the corresponding **Caption** or **Tooltip** property, which is being picked up in the .xliff file. For more information, see [Working with Translation Files](../devenv-work-with-translation-files.md).
   
 ## Applies To  
   

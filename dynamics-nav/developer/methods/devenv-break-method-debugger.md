@@ -8,8 +8,8 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-financials
 ms.assetid: e0b2c3ac-950b-44f5-a291-268ab70d8a96
-caps.latest.revision: 6
-manager: edupont
+author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -24,14 +24,17 @@ Breaks code execution of a debugging session.
 ```  
   
 ## Property Value/Return Value  
- Type: Boolean  
+Type: Boolean  
   
- **True** if a breakpoint is set in the debugging session; otherwise, **false**.  
+**True** if a breakpoint is set in the debugging session; otherwise, **false**.  
   
- If you omit this optional return value and if the break is not set successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
- <!-- 
+If you omit this optional return value and if the break is not set successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
+
 ## See Also  
- [Breakpoints](devenv-Breakpoints.md)   
- [How to: Break on the Next Statement](How-to--Break-on-the-Next-Statement.md)   
- [How to: Manage Breakpoints from the Development Environment](How-to--Manage-Breakpoints-from-the-Development-Environment.md)
- -->
+[AL Methods](../devenv-al-methods.md)  
+[BREAKONERROR Method (Debugger)](devenv-breakonerror-method-debugger.md) 
+<!--
+[Breakpoints](devenv-Breakpoints.md)   
+[How to: Break on the Next Statement](How-to--Break-on-the-Next-Statement.md)   
+[How to: Manage Breakpoints from the Development Environment](How-to--Manage-Breakpoints-from-the-Development-Environment.md)
+-->

@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: 2dd18e75-4bbe-4e88-8f22-a5b064708bfd
-caps.latest.revision: 6
+author: SusanneWindfeldPedersen
 manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -26,4 +27,7 @@ Executed after a record has been inserted into a database table.
  If the [AutoSave Property](../properties/devenv-autosave-property.md) is **false**, then although the record is not inserted automatically, the OnAfterInsertRecord trigger is still called after the insertion would have occurred.  
   
 ## See Also  
- [Triggers](devenv-triggers.md)
+ [Triggers](devenv-triggers.md)  
+ [AutoSave Property](../properties/devenv-autosave-property.md)  
+ [XMLport Triggers](devenv-xmlport-triggers.md)  
+ [OnBeforeInsertRecord Trigger](devenv-onbeforeinsertrecord-trigger.md)  

@@ -1,5 +1,5 @@
 ---
-title: "How to: View the Dynamics CRM Connection Status"
+title: "How to: View the Dynamics 365 for Sales Connection Status"
 ms.custom: na
 ms.date: 24/10/2016
 ms.reviewer: na
@@ -7,24 +7,24 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 author: jswymer
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ---
-# How to: View the Dynamics CRM Connection Status
+# How to: View the Dynamics 365 for Sales Connection Status
 When [!INCLUDE[navnow_md](includes/navnow_md.md)] is set up to integrate with [!INCLUDE[crm_md](includes/crm_md.md)], you can view the status of the connection to [!INCLUDE[crm_md](includes/crm_md.md)] to determine whether the connection is working properly, has failed, or is disabled. This can be helpful when troubleshooting problems. If a connection has failed, you can view the errors that caused the connection failure and access the connection setup to try to fix the problem.  
 
- You can view the status of the [!INCLUDE[crm_md](includes/crm_md.md)] connection from the **Service Connections** window, **CRM Connection Setup** window, or on the **IT Manager** Role Center.  
+ You can view the status of the [!INCLUDE[crm_md](includes/crm_md.md)] connection from the **Service Connections** window, **Microsoft Dynamics 365 for Sales  Connection Setup** window, or on the **IT Manager** Role Center.  
 
 ### To view the connection status from the Service Connections window  
 
 1.  In the **Search** box, enter **Service Connections**, and then choose the related link.  
 
-     The [!INCLUDE[crm_md](includes/crm_md.md)] connection entry is indicated by **CRM Connection Setup** in the **Description** field.  
+     The [!INCLUDE[crm_md](includes/crm_md.md)] connection entry is indicated by **Microsoft Dynamics 365 for Sales  Connection Setup** in the **Description** field.  
 
 2.  To view or change the [!INCLUDE[crm_md](includes/crm_md.md)] connection setup, choose the **Description** field.  
 
-### To view the connection status from the CRM Connection Setup window  
+### To view the connection status from the Microsoft Dynamics 365 for Sales  Connection Setup window  
 
-1.  In the **Search** box, enter **CRM Connection Setup**, and then choose the related link.  
+1.  In the **Search** box, enter **Microsoft Dynamics 365 for Sales  Connection Setup**, and then choose the related link.  
 
 2.  On the **Home** tab, in the **Process** group, choose **Connection Status**.  
 
@@ -52,12 +52,12 @@ When [!INCLUDE[navnow_md](includes/navnow_md.md)] is set up to integrate with [!
 
     -   To run a test of the connection immediately, choose **Refresh**.  
 
-    -   To view or change the settings of the connection to fix a failed connection, choose **Dynamics CRM Connection Setup.**  
+    -   To view or change the settings of the connection to fix a failed connection, choose **Microsoft Dynamics 365 for Sales  Connection Setup*.*  
 
-    -   To view the error that caused a connection failure, choose **Dynamics CRM Connection Failures.**  
+    -   To view the error that caused a connection failure, choose **Dynamics 365 for Sales Connection Failures.**  
 
-         The **CRM Connection Failures** window appears, which shows a log of connection failures. Use the **Last Occurrence** column to identify the cause of the current connection failure.  
+         The **365 for Sales Connection Failures** window appears, which shows a log of connection failures. Use the **Last Occurrence** column to identify the cause of the current connection failure.  
 
 ## See Also  
- [Integrating Dynamics CRM in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md)   
- [How to: Set Up a Dynamics CRM Connection](How-to-Set-Up-a-Dynamics-CRM-Connection.md)
+ [Integrating Dynamics 365 for Sales in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md)   
+ [How to: Set Up a Dynamics 365 for Sales Connection](How-to-Set-Up-a-Dynamics-CRM-Connection.md)

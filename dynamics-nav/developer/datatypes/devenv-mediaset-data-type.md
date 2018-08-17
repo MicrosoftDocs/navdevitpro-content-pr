@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: f9d59da2-cc6c-43ae-8d67-3d0f123ab931
 caps.latest.revision: 4
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # MediaSet Data Type
 A complex type that encapsulates media, such as images, in application database tables. The **MediaSet** data type can be used as a table field data type, but cannot be used as variable or parameter.  
@@ -29,3 +30,4 @@ The following methods are supported for the MediaSet data type:
 
 ## See Also  
 [Working With Media on Records](../devenv-working-with-media-on-records.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

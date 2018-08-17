@@ -1,16 +1,17 @@
 ---
-title: "How to: Create a Data Collector for Microsoft Dynamics NAV Performance Counters"
+title: Create Data Collector for Performance Counters
+Description: This topic describes how to create a Data Collector Set in Performance Monitor that contains Microsoft Dynamics NAV performance counters.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 2b2c8383-8e5a-47ea-bfd0-8621021a697a
 caps.latest.revision: 9
 ---
-# How to: Create a Data Collector for Microsoft Dynamics NAV Performance Counters
+# Creating a Data Collector for Microsoft Dynamics NAV Performance Counters
 This topic describes how to create a Data Collector Set in Performance Monitor that contains [!INCLUDE[navnow](includes/navnow_md.md)] performance counters.  
   
 ### To create a Data Collector Set for [!INCLUDE[navnow](includes/navnow_md.md)] performance counters  

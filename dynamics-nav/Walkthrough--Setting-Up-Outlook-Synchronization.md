@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: ea74bd60-14a4-4ae0-bd56-9ee23fd32edd
 caps.latest.revision: 46
 ---
@@ -101,8 +101,8 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
 ## Mapping Microsoft Dynamics NAV Entities to Outlook Items  
  You start synchronization setup by identifying the [!INCLUDE[navnow](includes/navnow_md.md)] objects to synchronize. When you open the **Outlook Synch. Entities** window for the first time, you may receive a message that asks for permission to connect to a .dll file that is installed with the Outlook add-in. You should choose the option that lets you connect: Allow for this session.  
-
- For this walkthrough, you can use the synchronization entities that come with [!INCLUDE[navnow](includes/navnow_md.md)] by default. But you can also customize and add entities. For more information, see [How to: Set Up Outlook Synchronization Entities](How-to--Set-Up-Outlook-Synchronization-Entities.md) and [Define Synchronization with Outlook Items](Define-Synchronization-with-Outlook-Items.md).  
+<!--
+ For this walkthrough, you can use the synchronization entities that come with [!INCLUDE[navnow](includes/navnow_md.md)] by default. But you can also customize and add entities. For more information, see [How to: Set Up Outlook Synchronization Entities](How-to--Set-Up-Outlook-Synchronization-Entities.md) and [Define Synchronization with Outlook Items](Define-Synchronization-with-Outlook-Items.md).  -->
 
 #### To set up default synchronization entities  
 
@@ -335,9 +335,9 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 5.  On the **Microsoft Dynamics NAV Synchronization** toolbar, choose the **Synchronize** button.  
 
      The **Synchronization Progress** message is displayed. When synchronization is complete, you can view the details for the synchronization.  
-
+<!--
 ## Next Steps  
- You have completed the required setup for synchronizing information between [!INCLUDE[navnow](includes/navnow_md.md)] and Outlook. To test your setup, see [Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV](Walkthrough--Synchronizing-Information-Between-Outlook-and-Microsoft-Dynamics-NAV.md).  
+ You have completed the required setup for synchronizing information between [!INCLUDE[navnow](includes/navnow_md.md)] and Outlook. To test your setup, see [Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV](Walkthrough--Synchronizing-Information-Between-Outlook-and-Microsoft-Dynamics-NAV.md).  -->
 
 ## See Also  
  [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)   

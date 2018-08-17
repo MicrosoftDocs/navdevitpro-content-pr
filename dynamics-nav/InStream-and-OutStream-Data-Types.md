@@ -1,16 +1,17 @@
 ---
-title: "InStream and OutStream Data Types"
+title: InStream and OutStream Data Types
+description: The InStream is an input stream and OutStream is an output stream, these data types are generic stream objects to read from or write to files and BLOBs. 
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: d16b1998-7b14-4aca-9848-3882ca5a92f0
 caps.latest.revision: 9
 ---
-# InStream and OutStream Data Types
+# InStream and OutStream Data Types in Dynamics NAV
 Reads from or writes to files and BLOBs.  
   
 ## Remarks  

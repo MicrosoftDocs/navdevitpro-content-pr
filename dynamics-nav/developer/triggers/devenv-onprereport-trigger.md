@@ -6,9 +6,10 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: 069bf4ef-0cbd-4416-856f-a6eebf068e98
-caps.latest.revision: 6
+author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -30,4 +31,5 @@ ReportFilter := SomeRecord.GETFILTERS;
   
 ## See Also  
  [Triggers](devenv-triggers.md)  
- [GETFILTERS Method Record)](../methods/devenv-getfilters-method-record.md)
+ [GETFILTERS Method Record)](../methods/devenv-getfilters-method-record.md)  
+ [Report and Data Item Triggers](devenv-report-and-data-item-triggers.md)  

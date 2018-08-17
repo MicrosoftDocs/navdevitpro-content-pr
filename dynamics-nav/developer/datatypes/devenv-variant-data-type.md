@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 98348284-4055-40e2-9bc0-808e95289626
 caps.latest.revision: 21
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # Variant Data Type
 The AL variant data type can contain many AL data types <!--NAV or any variants from OCX and Automation objects-->. However, not all these values can be mapped to AL values. 
@@ -125,5 +126,6 @@ The following methods are supported for the Variant data type:
 
 ## See Also  
 [AL Data Types](devenv-al-data-types.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  
  <!--NAV [DATI2VARIANT method](../methods/devenv-DATI2VARIANT-method.md)-->   
  

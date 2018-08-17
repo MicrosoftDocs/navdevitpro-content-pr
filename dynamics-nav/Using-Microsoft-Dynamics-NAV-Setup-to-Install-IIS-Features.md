@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: f7cc0e09-db48-4014-8222-0c0105870692
 caps.latest.revision: 5
 ---
@@ -29,9 +29,11 @@ When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], 
   
 -   HTTP Activation \(Windows Communication Foundation\)  
   
--   .NET Extensibility \(on Windows 7 and Windows Server 2008\) or .NET Extensibility 4.5 \(on Windows 8 and Windows Server 2012\)  
+-   .NET Extensibility 4.5, .NET Extensibility 4.6, or .NET Extensibility 4.7 (depending on Windows version) 
+
+-   Application Initialization
   
--   ASP.NET \(on Windows 7 and Windows Server 2008\) or ASP.NET 4.5 \(on Windows 8 and Windows Server 2012\)  
+-   ASP.NET 4.5, ASP.NET 4.6, or ASP.NET 4.7 (depending on Windows version)
   
 -   ISAPI Extensions  
   
@@ -53,6 +55,8 @@ When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], 
   
 -   Request Monitoring  
   
+-   Dynamic Content Compression
+
 -   Static Content Compression  
   
 -   IIS Management Console  

@@ -3,15 +3,16 @@ title: "Page and Page Extension Properties Overview"
 description: "Description of the available properties on page extensions."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 06/16/2017
+ms.date: 11/23/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: solsen
 caps.latest.revision: 18
+redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
 ---
 
 # Page and Page Extension Properties Overview
@@ -45,7 +46,13 @@ The following properties apply to the page object.
 |[PromotedActionCategoriesML Property](devenv-promotedactioncategoriesml-property.md)|X|X|
 |[DelayedInsert Property](devenv-delayedinsert-property.md)|X||
 |[RefreshOnActivate Property](devenv-refreshonactivate-property.md)|X||
-<!-- |[ODateKeyFields Property]()|X||-->
+|[EntityName Property](devenv-entityname-property.md)|X||
+|[EntitySetName Property](devenv-entitysetname-property.md)|X||
+|[UsageCategory Property](devenv-usagecategory-property.md)|X||
+|[ApplicationArea Property](devenv-applicationarea-property.md)|X||
+|[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
+|[ODataEDMType Property](devenv-odataedmtype-property.md)|X|X|
+|[ODataKeyFields Property](devenv-odatakeyfields-property.md)|X||
 
 ## Container control properties
 The following properties apply to Container controls on a page.
@@ -67,11 +74,12 @@ The following properties apply to Group controls on a page.
 |[Enabled Property](devenv-enabled-property.md)|X|X|
 |[Description Property](devenv-description-property.md)|X||
 |[InstructionalTextML Property](devenv-instructionaltextml-property.md)|X|X|
-|GridLayout Property|X||
+|[GridLayout Property](devenv-gridlayout-property.md)|X||
 |[IndentationColumn Property](devenv-indentationcolumnname-property.md)|X||
 |[IndentationControls Property](devenv-indentationcontrols-property.md)|X||
 |[FreezeColumn Property](devenv-freezecolumnid-property.md)|X|X|
 |[ShowAsTree Property](devenv-showastree-property.md)|X||
+|[ShowCaption Property](devenv-showcaption-property.md)|X||
 
 ## Field control properties
 The following properties apply to Field controls on a page.
@@ -112,7 +120,6 @@ The following properties apply to Field controls on a page.
 |[DrillDownPageId Property](devenv-drilldownpageid-property.md)|X||
 |[Importance Property](devenv-importance-property.md)|X|X|
 |[ToolTipML Property](devenv-tooltipml-property.md)|X|X|
-|Title Property|X|X|
 |[QuickEntry Property](devenv-quickentry-property.md)|X|X|
 |[Lookup Property](devenv-lookup-property.md)|X||
 |[DrillDown Property](devenv-drilldown-property.md)|X||
@@ -122,7 +129,7 @@ The following properties apply to Field controls on a page.
 |[Style Property](devenv-style-property.md)|X|X|
 |[StyleExpr Property](devenv-styleexpr-property.md)|X|X|
 |[Image Property](devenv-image-property.md)|X||
-|[ODataEDMType Property]()]|X||
+|[ODataEDMType Property](devenv-odataedmtype-property.md)|X|X|
 
 ## Part control properties
 The following properties apply to Part controls on a page.
@@ -139,9 +146,11 @@ The following properties apply to Part controls on a page.
 |[SubPageLink Property](devenv-subpagelink-property.md)|X||
 |[ShowFilter Property](devenv-showfilter-property.md)|X||
 |[UpdatePropagation Property](devenv-updatepropagation-property.md)|X||
-|Provider Property|X||
+|[Provider Property](devenv-providerid-property.md)|X||
 |[AccessByPermission Property](devenv-accessbypermission-property.md)|X||
 |[Description Property](devenv-description-property.md)|X||
+|[EntityName Property](devenv-entityname-property.md)|X||
+|[EntitySetName Property](devenv-entitysetname-property.md)|X||
 
 
 ## ActionGroup properties
@@ -178,7 +187,7 @@ The following properties apply to Actions.
 |[Ellipsis Property](devenv-ellipsis-property.md)|X||
 |[ShortcutKey Property](devenv-shortcutkey-property.md)|X||
 |[RunObject Property](devenv-runobject-property.md)|X||
-|[RunPageView Property](../properties/devenv-runpageview-property.md)|X||
+|[RunPageView Property](devenv-runpageview-property.md)|X||
 |[RunPageLink Property](devenv-runpagelink-property.md)|X||
 |[RunPageOnRec Property](devenv-runpageonrec-property.md)|X||
 |[InFooterBar Property](devenv-infooterbar-property.md)|X|X|
@@ -191,11 +200,10 @@ The following properties apply to Separators.
 |Property Name|Page Object|Page Extension Object|
 |-------------|-----------|---------------------|
 |[CaptionML Property](devenv-captionml-property.md)|X|X|
-|[IsHeader Property]()|X||
 
 ## See Also
-[Developing Extensions](../devenv-dev-overview.md)  
-[Developer Reference](../devenv-reference-overview.md)  
+[Properties](devenv-properties.md)  
 [Page Object](../devenv-page-object.md)  
 [Page Extension Object](../devenv-page-ext-object.md)  
 [Report Object](../devenv-report-object.md)  
+[Table and Table Extension Properties](devenv-table-properties.md)

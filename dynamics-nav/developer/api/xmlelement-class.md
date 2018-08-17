@@ -2,16 +2,17 @@
 title: "XmlElement Class"
 ms.author: solsen
 ms.custom: na
-ms.date: 07/20/2017
+ms.date: 12/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 620f0e32-eadc-43e9-8f6e-8fc0b12c3aaf
 caps.latest.revision: 1
 manager: edupont
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-restapi-overview
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -19,7 +20,10 @@ author: SusanneWindfeldPedersen
 # XmlElement Class
 Represents an element.
 
-The following methods are available on the XmlElement class.  
+> [!NOTE]
+> For performance reasons all [HTTP, JSON, TextBuilder, and XML types](../devenv-restapi-overview.md) are *reference* types, not *value* types. Reference types holds a pointer to the data elsewhere in memory, whereas value types store its own data.
+
+The following methods are available on the XmlElement class. 
   
 |Method name|Description|  
 |-----------|-----------|  
@@ -27,13 +31,13 @@ The following methods are available on the XmlElement class.
 |[XmlElement.Create(String, String)](xmlelement-create-localname-namespaceuri-method.md)|Creates an XmlElement node.|  
 |[XmlElement.Create(String, String, Joker)](xmlelement-create-localname-namespaceuri-content-method.md)|Creates an XmlElement node.|  
 |[XmlElement.Create(String, Joker)](xmlelement-create-name-content-method.md)|Creates an XmlElement node.|  
-|[XmlElement.HasAttributes](xmlelement-hasattributes-property.md)|TODO:Add documentation|  
+|[XmlElement.HasAttributes](xmlelement-hasattributes-property.md)|Gets a boolean value indicating whether the current node has any attributes.|  
 |[XmlElement.HasElements](xmlelement-haselements-property.md)|Gets a value indicating whether this element has at least one attribute.|  
 |[XmlElement.IsEmpty](xmlelement-isempty-property.md)|Gets a value indicating whether this element contains no content.|  
 |[XmlElement.Name](xmlelement-name-property.md)|Gets the fully qualified name of this element.|  
 |[XmlElement.LocalName](xmlelement-localname-property.md)|Gets the local name of this element.|  
 |[XmlElement.NamespaceUri](xmlelement-namespaceuri-property.md)|Gets the namespace URI of this element.|  
-|[XmlElement.InnerXml](xmlelement-innerxml-property.md)|TODO:Add documentation|  
+|[XmlElement.InnerXml](xmlelement-innerxml-property.md)|Gets the markup representing only the child nodes of this node.|  
 |[XmlElement.GetNamespaceOfPrefix(String, Text)](xmlelement-getnamespaceofprefix-method.md)|Gets the namespace associated with a particular prefix for this element.|  
 |[XmlElement.GetPrefixOfNamespace(String, Text)](xmlelement-getprefixofnamespace-method.md)|Gets the prefix associated with a namespace URI for this element.|  
 |[XmlElement.RemoveAllAttributes()](xmlelement-removeallattributes-method.md)|Removes the attributes of this element.|  
@@ -68,6 +72,21 @@ The following methods are available on the XmlElement class.
 |[XmlElement.GetDescendantElements()](xmlelement-getdescendantelements--method.md)|Gets a list containing the descendant elements for this element, in document order.|  
 |[XmlElement.GetDescendantElements(String)](xmlelement-getdescendantelements-name-method.md)|Gets a list containing the descendant elements for this element, in document order.|  
 |[XmlElement.GetDescendantElements(String, String)](xmlelement-getdescendantelements-localname-namespaceuri-method.md)|Gets a list containing the descendant elements for this element, in document order.|  
+
 ## See Also
-[Getting Started](../devenv-get-started.md)  
+[HTTP, JSON, TextBuilder, and XML API](../devenv-restapi-overview.md)  
+[XmlAttribute](xmlattribute-class.md)  
+[XmlAttributeCollection](xmlattributecollection-class.md)  
+[XmlCData](xmlcdata-class.md)  
+[XmlComment](xmlcomment-class.md)  
+[XmlDeclaration](xmldeclaration-class.md)  
+[XmlDocument](xmldocument-class.md)  
+[XmlDocumentType](xmldocument-class.md)  
+[XmlNamespaceManager](xmlnamespacemanager-class.md)  
+[XmlNameTable](xmlnametable-class.md)  
+[XmlNode](xmlnode-class.md)  
+[XmlNodeList](xmlnodelist-class.md)  
+[XmlProcessingInstruction](xmlprocessinginstruction-class.md)  
+[XmlText](xmltext-class.md)  
+[Getting Started with AL](../devenv-get-started.md)  
 [Developing Extensions](../devenv-dev-overview.md)  

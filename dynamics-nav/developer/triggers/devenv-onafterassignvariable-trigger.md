@@ -6,10 +6,10 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: ccb82e83-31c7-40f2-b99c-7797bb2d0f3d
-caps.latest.revision: 3
-manager: edupont
+author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -24,4 +24,5 @@ Executed after the value defined in the XML document is assigned to the text var
  This trigger is only used to import data and gives you access to the imported value in text format.  
   
 ## See Also  
- [Triggers](devenv-triggers.md)
+ [Triggers](devenv-triggers.md)  
+ [XMLport Triggers](devenv-xmlport-triggers.md)  

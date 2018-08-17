@@ -1,6 +1,6 @@
 ---
-title: CREATE Purchase Invoice method | Microsoft Docs
-description: Creates a purchase invoice.
+title: Create purchaseInvoices | Microsoft Docs
+description: Creates a purchase invoice object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,31 +10,31 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
 ---
 
-# Create purchase invoice
-Create a purchaseInvoice in Dynamics 365 for Financials.
+# Create purchaseInvoices
+Create a purchase invoice report object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-POST /financials/companies/{id}/purchaseInvoices
+POST /businesscentral/companies({id})/purchaseInvoices
 ```
 
 ## Request headers
 
-|Header|Value|
-|------|-----|
+|Header         |Value                        |
+|---------------|-----------------------------|
 |Authorization  |Bearer {token}. Required.    |
-|Content-Type  |application/json    |
+|Content-Type   |application/json             |
 
 ## Request body
-In the request body, supply a JSON representation of a purchaseInvoice object.
+In the request body, supply a JSON representation of a **purchaseInvoices** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a purchaseInvoice object in the response body.
+If successful, this method returns ```201 Created``` response code and a **purchaseInvoices** object in the response body.
 
 ## Example
 
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a purchas
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies/{id}/purchaseInvoices
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices
 Content-type: application/json
 
 {
@@ -54,6 +54,15 @@ Content-type: application/json
   "currencyCode": "GBP",
   "paymentTerms": "COD"
 }
+```
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
+[Purchase Invoice](../resources/dynamics_purchaseinvoice.md)  
+[Get Purchase Invoice](../api/dynamics_purchaseinvoice_get.md)  
+[Update Purchase Invoice](../api/dynamics_purchaseinvoice_update.md)  
+[Delete Purchase Invoice](../api/dynamics_purchaseinvoice_delete.md)  

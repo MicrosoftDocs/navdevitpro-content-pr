@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics365-financials
 ms.assetid: 06451de1-2618-4fda-94b0-03974fccafb5
 caps.latest.revision: 6
-manager: edupont
+redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -53,6 +53,6 @@ REPORT.PRINT(Number, Parameters[,PrinterName][, RecordRef])
 
 ## See Also  
  [Report Object](../devenv-report-object.md)   
- <!--Links [Request Pages](Request-Pages.md)-->   
  [SAVEAS Method](devenv-SAVEAS-Method.md)   
- [EXECUTE Method](devenv-EXECUTE-Method.md)
+ [EXECUTE Method](devenv-EXECUTE-Method.md)  
+  <!--Links [Request Pages](Request-Pages.md)-->  

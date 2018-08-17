@@ -6,12 +6,13 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-365-financials"
+ms.service: "dynamics365-financials"
 ms.assetid: 5d2c7db2-fc8b-46e1-a1c3-2be06f806258
 caps.latest.revision: 17
+redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-progress-windows-message-error-and-confirm-methods
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
+ 
 
 # Progress Windows, MESSAGE, ERROR, and CONFIRM Methods
 You can use several specialized methods to display messages and gather input. We recommend that you use pages to ensure that your application has a consistent user interface. However, there are situations where you may want to use the dialog methods instead of pages. The most important uses of the dialog methods are as follows:  
@@ -46,7 +47,10 @@ You can use several specialized methods to display messages and gather input. We
 
  In some applications, you may want to create a window in which each field is updated when the program is running. For example, the fields in the window display the count of the number of postings made. In another application, you may want to display information about the record that is currently being processed. For example, the field in the window displays the number of the account that is currently being processed.  
 
- To create this kind of progress window, you use the Dialog data type. For more information, see [How to: Create a Progress Window](How-to-Create-a-Progress-Window.md).  
+ To create this kind of progress window, you use the Dialog data type.  
+ <!-- 
+ For more information, see [How to: Create a Progress Window](How-to-Create-a-Progress-Window.md).  
+ -->
 
 ## MESSAGE method  
  The [MESSAGE Method \(Dialog\)](methods/devenv-MESSAGE-Method-Dialog.md) displays a message in a window that remains open until the user chooses the **OK** button.  

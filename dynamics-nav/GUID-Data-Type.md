@@ -1,12 +1,13 @@
 ---
-title: "GUID Data Type"
+title: GUID Data Type
+description: The GUID data type assigns a unique identifying number to any database object which is used for identification of objects, programs, records etc.
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 10/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 1f61afd5-7017-408b-83d7-3277ddccf384
 caps.latest.revision: 11
 ---

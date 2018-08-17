@@ -6,10 +6,11 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: ee5c8ebe-98a6-4453-ba43-908f4ef2af93
 caps.latest.revision: 6
 author: SusanneWindfeldPedersen
+redirect_url: /dynamics365/business-central/dev-itpro/developer/datatypes/devenv-al-data-types
 ---
 # Query Data Type
 A complex data type that stores queries.  
@@ -32,10 +33,10 @@ The following methods are supported for the Query data type:
 [TOPNUMBEROFROWS method](../methods/devenv-topnumberofrows-method.md)
 
 ## Remarks  
- A query enables you to retrieve data from multiple tables and combine the data in single dataset.  
- <!-- 
-## See Also  
- [Accessing Columns of a Query Dataset](../../dynamics-nav/Accessing-Columns-of-a-Query-Dataset.md)   
- -->
- ## See Also
+A query enables you to retrieve data from multiple tables and combine the data in single dataset.  
+<!--  
+[Accessing Columns of a Query Dataset](../../dynamics-nav/Accessing-Columns-of-a-Query-Dataset.md)   
+-->
+## See Also
 [AL Data Types](devenv-al-data-types.md)  
+[AL Method Reference](../methods/devenv-al-method-reference.md)  

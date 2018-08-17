@@ -1,17 +1,18 @@
 ---
 title: "Extending Microsoft Dynamics NAV Using Extension Packages"
-author: edupont04
+author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/24/2016
+ms.date: 01/22/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 8fdc480a-bc28-4b78-8656-f27480779ff8
-ms.author: edupont
+ms.author: solsen
 ---
 # Extending Microsoft Dynamics NAV Using Extension Packages
+[!INCLUDE[nav_ext1_not_supported](includes/nav_ext1_not_supported.md)]
 
 You can extend and customize a [!INCLUDE[navnow](includes/navnow_md.md)] deployment without modifying the original application objects. With extension packages, you install, upgrade, and uninstall functionality in on-premises deployments or for select tenants in a multitenant deployment. Customers can easily add or remove horizontal or customized functionality to their solution that upgrade much easier than past solutions.  
 Your extension can add new objects and extend objects that you know to be present in the application, such as objects in the application that Microsoft makes available. The main difference from classical development is that source code modifications are not allowed. Instead, you use C/AL events to extend and customize objects.  
@@ -54,7 +55,7 @@ It is possible to use the debugger or code coverage functionality in the [!INCLU
 An integral part of development is the final building of the package. This includes providing the extension with metadata, such as name, publisher, and version, in a manifest, and packaging that with the application elements of the extension, such as DELTA files and permission set export files. The end result of that process is a package of type .NAVX .  
 
 ### Deployment  
- ou administrate extensions by using the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] to publish extensions to a [!INCLUDE[navnow](includes/navnow_md.md)] deployment, which makes it available for tenants to selectively install and use. You can also uninstall extensions for a tenant, or remove an extension from the [!INCLUDE[navnow](includes/navnow_md.md)] deployment. Upgrade scenarios, either for a specific extension or the application for this [!INCLUDE[navnow](includes/navnow_md.md)] deployment, can be accomplished with less friction as extensions, and their functionality are self-contained and do not contain alterations to C/AL code, removing the need to perform a manual merge.  
+ You administrate extensions by using the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] to publish extensions to a [!INCLUDE[navnow](includes/navnow_md.md)] deployment, which makes it available for tenants to selectively install and use. You can also uninstall extensions for a tenant, or remove an extension from the [!INCLUDE[navnow](includes/navnow_md.md)] deployment. Upgrade scenarios, either for a specific extension or the application for this [!INCLUDE[navnow](includes/navnow_md.md)] deployment, can be accomplished with less friction as extensions, and their functionality are self-contained and do not contain alterations to C/AL code, removing the need to perform a manual merge.  
 
  You can publish multiple versions of the same extension to a [!INCLUDE[navnow](includes/navnow_md.md)] deployment. However, you can only have one version of the extension installed for each tenant. In a multitenant deployment, one tenant can run a different version of an extension than other tenants.  
 
@@ -129,6 +130,8 @@ If your destination server does not have the required extensions, you can altern
  For more information, see [Administration Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626874).  
 
 ## See Also  
+[Getting Started](developer/devenv-get-started.md)  
+<!--
 [How to: Develop an Extension](How-to--Develop-an-Extension.md)  
 [How to: Create an Extension Package](How-to--Create-an-Extension-Package.md)  
 [How to: Publish and Install an Extension](How-to--Publish-and-Install-an-Extension.md)  
@@ -136,3 +139,4 @@ If your destination server does not have the required extensions, you can altern
 [Extension Packages Capability Support Matrix](Extension-Packages-Capability-Support-Matrix.md)  
 [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)  
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)
+-->

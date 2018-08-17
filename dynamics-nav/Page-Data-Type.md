@@ -1,17 +1,18 @@
 ---
-title: "Page Data Type"
+title: Page Data Type
+description: This complex data type stores pages, it contains elements called controls that are used to display information and receive information from the user.
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 75b2a3a2-d2e6-4099-980c-1f4a343c79b6
 caps.latest.revision: 7
 manager: edupont
 ---
-# Page Data Type
+# Page Data Type in Dynamics NAV
 This complex data type stores pages.  
   
 ## Remarks  

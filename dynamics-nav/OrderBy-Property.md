@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2018"
 ms.assetid: 5e093f0e-7e9c-4bb0-af90-ec8dc9ea5595
 caps.latest.revision: 8
 manager: edupont
@@ -35,7 +35,10 @@ Sorts rows in the resulting dataset of a query in ascending or descending order 
  To modify the **OrderBy** property, you can choose the **AssistEdit** button next to the property. In the **Order By** window, you add a column and set its direction to ascending or descending. You can sort on multiple columns by adding additional columns to the **Order By** window. The query will sort the results by the first column in the **Order By** window, then the second column, and so on.  
   
  You can also type values directly in the **Value** column of the **OrderBy** property in the **Properties** window. To sort on multiple columns, separate each column with a comma.  
-  
+
+> [!IMPORTANT]  
+> You can specify up to 7 fields for the **OrderBy** property.    
+
 > [!NOTE]  
 >  You cannot sort on the same column more than once.  
   
