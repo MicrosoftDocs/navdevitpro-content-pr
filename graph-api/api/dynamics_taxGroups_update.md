@@ -64,6 +64,7 @@ Content-type: application/json
   "id": "id-value",
   "code": "FURNITURE",
   "displayName": "Taxable Furniture",
+  "taxType": "Sales Tax",
   "lastModifiedDateTime": "2017-03-15T02:20:57.09Z"
   }
 ```
