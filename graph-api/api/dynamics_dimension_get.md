@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **dimensio
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/dimensions({id})
+GET https://graph.microsoft.com/beta/financials/companies({id})/dimensions({id})
 ```
 
 **Response**
