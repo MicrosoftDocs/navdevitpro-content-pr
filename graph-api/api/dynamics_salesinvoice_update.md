@@ -46,7 +46,7 @@ PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/sal
 Content-type: application/json
 
 {
-  "paymentTerms": "COD"
+  "invoiceDate": "2015-12-31"
 }
 ```
 
@@ -81,8 +81,8 @@ Content-type: application/json
   "currencyCode": "GBP",
   "orderId": "id-value",
   "orderNumber": "",
-  "paymentTerms": "COD",
-  "shipmentMethod": "",
+  "paymentTermsId": "id-value",
+  "shipmentMethodId": "id-value",
   "salesperson": "",
   "pricesIncludeTax": false,
   "discountAmount": 0,
