@@ -30,6 +30,8 @@ Represents a trial balance in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |number|string|The G/L Account number for the trialBalance item|
+|accountId|GUID|The unique identifier for the G/L account of the record.|
+|accountType|string|The account type of the G/L account of the record.|
 |display|string|The G/L Account name for the trialBalance item.|
 |totalDebit|string|Represents total debit amount in G/L Account.|
 |totalCredit|string|Represents total credit amount in G/L Account.|
@@ -49,6 +51,8 @@ Here is a JSON representation of the resource.
 ```json
 {
     "number": "string",
+    "accountId": "GUID",
+    "accountType": "string",
     "display": "string",
     "totalDebit": "string",
     "totalCredit": "string",
