@@ -37,10 +37,8 @@ Represents a salesQuoteLines resource type in [!INCLUDE[d365fin_long_md](../../i
 |itemId|GUID|The Id of the item in the quote line.|
 |accountId|GUID|The Id of the Account that will be used for this line. lineType will automatically be set to "Account" if this is set.|
 |lineType|string|The type of the line. Can be Comment,Account,Item,Resource,Fixed Asset,Charge|
-|lineDetails|complex|The details of the line.|
 |description|string|A description of the item in the quote line.|
 |unitOfMeasureId|GUID|The Id of the unit of measure in the quote line.|
-|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|The unit of measure complex type.|
 |unitPrice|numeric|The unit price of each individual item in the quote line.|
 |quantity|numeric|The quantity of the item in the quote line.|
 |discountAmount|numeric|The line discount amount.|
@@ -77,10 +75,8 @@ Here is a JSON representation of the resource.
       "itemId": "GUID",
       "accountId": "GUID",
       "lineType": "String",
-      "lineDetails": {NAV.documentLineObjectDetails},
       "description": "string",
       "unitOfMeasureId": "GUID",
-      "unitOfMeasure": {NAV.UnitOfMeasure},
       "unitPrice": "decimal",
       "quantity": "decimal",
       "discountAmount": "decimal",
