@@ -42,7 +42,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/paymentMethods({id})
+DELETE https://graph.microsoft.com/beta/financials/companies({id})/paymentMethods({id})
 ```
 
 **Response** 
