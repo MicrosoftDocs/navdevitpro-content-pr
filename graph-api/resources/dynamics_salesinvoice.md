@@ -107,6 +107,23 @@ Here is a JSON representation of the resource.
 }
 
 ```
+
+## Bound actions
+The sales invoice resource type offers bound actions, which perform actions associated with actions available to perform in the Business Central application. 
+
+| Action	            |Description                                                |
+|:----------------------|:----------------------------------------------------------|
+|post                   |Posts the corresponding invoice.                              |
+|postAndSend            |Posts the corresponding invoice and sends the document to the customer.|
+|send                   |Sends the corresponding invoice document to the customer.|
+|cancel                 |Cancels the corresponding invoice.           |
+|cancelAndSend          |Cancels the corresponding invoice and sends the canceled record to the customer. |
+
+Performing an action against the sales invoice is illustrated in the following example:  
+`POST https://graph.microsoft.com/beta/financials/companies({id})/salesInvoices({id})/post`.
+
+The response has no content; the response code is 204.
+
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
