@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and a **salesQuo
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence={number}))
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})/salesQuoteLines
 ```
 
 **Response**
