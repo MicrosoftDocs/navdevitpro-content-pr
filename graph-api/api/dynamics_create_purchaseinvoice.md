@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a **purch
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices
+POST https://graph.microsoft.com/beta/financials/companies({id})/purchaseInvoices
 Content-type: application/json
 
 {
@@ -51,8 +51,7 @@ Content-type: application/json
   "number": "1009",
   "invoiceDate": "2015-12-31",
   "vendorNumber": "GL00000008",
-  "currencyCode": "GBP",
-  "paymentTerms": "COD"
+  "currencyCode": "GBP"
 }
 ```
 
