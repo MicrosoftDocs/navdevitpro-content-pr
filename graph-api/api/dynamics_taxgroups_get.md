@@ -55,6 +55,7 @@ Here is an example of the response.
   "id": "id-value",
   "code": "FURNITURE",
   "displayName": "Taxable Olympic Furniture",
+  "taxType": "Sales Tax",
   "lastModifiedDateTime": "2017-03-15T02:20:57.09Z"
 }
 ```
