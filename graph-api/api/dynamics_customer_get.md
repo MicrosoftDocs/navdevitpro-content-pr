@@ -38,7 +38,7 @@ If successful, this method returns a ```200 OK``` response code and a **customer
 Here is an example of the request.
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customers({id})
+GET https://graph.microsoft.com/beta/financials/companies({id})/customers({id})
 ```
 
 **Response**
@@ -71,17 +71,8 @@ Here is an example of the response.
   "currencyId": "currencyId-value",
   "currencyCode": "USD",
   "paymentTermsId": "paymentTermsId-value",
-  "paymentTerms": {
-    "code": "1M(8D)",
-    "description": "1 Month/2% 8 days"
-  },
   "shipmentMethodId": "shipmentMethodId-value",
-  "shipmentMethod": null,
   "paymentMethodId": "paymentMethodId-value",
-  "paymentMethod": {
-    "code": "BANK",
-    "description": "Bank Transfer"
-  },
   "blocked": " ",
   "balance": 0,
   "overdueAmount": 0,

@@ -20,7 +20,7 @@ Retrieve the properties and relationships of a customer payment object for [!INC
 ## HTTP request
 
 ```
-GET /businesscentral/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
+GET /businesscentral/companies({id})/customerPaymentJournals({id})/customerPayments({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **customer
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
+GET https://graph.microsoft.com/beta/financials/companies({id})/customerPaymentJournals({id})/customerPayments({id})
 ```
 
 **Response**
@@ -53,6 +53,7 @@ Here is an example of the response.
 ```json
 {
   "id": "id-value",
+  "journalDisplayName": "GENERAL",
   "lineNumber": 10000,
   "customerId": "customerId-value",
   "customerNumber": "10400",

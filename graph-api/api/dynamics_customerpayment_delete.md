@@ -19,7 +19,7 @@ Delete a customerPayment from [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 
 ## HTTP request
 ```
-DELETE /businesscentral/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
+DELETE /businesscentral/companies({id})/customerPaymentJournals({id})/customerPayments({id})
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
+DELETE https://graph.microsoft.com/beta/financials/companies({id})/customerPaymentJournals({id})/customerPayments({id})
 ```
 
 **Response** 

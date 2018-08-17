@@ -41,7 +41,7 @@ Represents a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 The journal resource type offers a bound action called `post` which posts the corresponding general journal batch.
 
 Posting the general journal batch is illustrated in the following example:  
-`POST http://<server address>:<server API port>/<server instance name>/api/beta/companies({id})/journals({id})/Microsoft.NAV.post`.
+`POST https://graph.microsoft.com/beta/financials/companies({id})/journals({id})/post`.
 
 The response has no content; the response code is 204.
 

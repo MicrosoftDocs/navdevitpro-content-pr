@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **purchase
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({id})
+GET https://graph.microsoft.com/beta/financials/companies({id})/purchaseInvoices({id})
 ```
 
 **Response**
@@ -68,8 +68,6 @@ Here is an example of the response.
     "postalCode": ""
   },
   "currencyCode": "GBP",
-  "paymentTerms": "COD",
-  "shipmentMethod": "",
   "pricesIncludeTax": false,
   "discountAmount": 0,
   "discountAppliedBeforeTax": true,

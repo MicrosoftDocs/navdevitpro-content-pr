@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/items({id})
+PATCH https://graph.microsoft.com/beta/financials/companies({id})/items({id})
 Content-type: application/json
 
 {
@@ -67,17 +67,8 @@ Content-type: application/json
   "type": "Inventory",
   "blocked": true,
   "baseUnitOfMeasureId": "id-value", 
-  "baseUnitOfMeasure": {
-    "unitCode": "PCS",
-    "unitName": "Piece",
-    "symbol": "",
-    "unitConversion": null
-  },
   "gtin": "",
-  "itemCategory": {
-    "categoryId": "TABLE",
-    "description": "Assorted Tables"
-  },
+  "itemCategoryId": "id-value",
   "inventory": 0,
   "unitPrice": 1000.8,
   "priceIncludesTax": false,

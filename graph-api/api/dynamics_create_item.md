@@ -40,7 +40,7 @@ If successful, this method returns ```201 Created``` response code and an **item
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/items
+POST https://graph.microsoft.com/beta/financials/companies({id})/items
 Content-type: application/json
 
 {
@@ -48,17 +48,9 @@ Content-type: application/json
   "displayName": "ATHENS Desk",
   "type": "Inventory",
   "blocked": false,
-  "baseUnitOfMeasure": {
-    "unitCode": "PCS",
-    "unitName": "Piece",
-    "symbol": "",
-    "unitConversion": null
-  },
+  "baseUnitOfMeasureId": "65bdbd3a-39f1-49f4-bf24-598cbac36230",
   "gtin": "",
-  "itemCategory": {
-    "categoryId": "TABLE", 
-    "description": "Assorted Tables"
-  },
+  "itemCategoryId": "5b0b9c1c-312d-4809-96b2-056690a11057",
   "inventory": 0,
   "unitPrice": 1000.8,
   "priceIncludesTax": false,
