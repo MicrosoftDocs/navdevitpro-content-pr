@@ -52,7 +52,6 @@ Content-type: application/json
   "orderDate": "2015-12-31",
   "customerNumber": "GL00000008",
   "currencyCode": "GBP",
-  "paymentTerms": "COD"
 }
 ```
 
