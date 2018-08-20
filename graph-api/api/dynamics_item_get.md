@@ -21,7 +21,7 @@ Retrieve the properties and relationships of an item object for [!INCLUDE[d365fi
 ## HTTP request
 
 ```
-GET /businesscentral/companies({id})/items({id})
+GET /financials/companies({id})/items({id})
 ```
 
 ## Request headers
@@ -72,8 +72,6 @@ Here is an example of the response.
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Item](../resources/dynamics_item.md)  
 [Post Item](../api/dynamics_create_item.md)  

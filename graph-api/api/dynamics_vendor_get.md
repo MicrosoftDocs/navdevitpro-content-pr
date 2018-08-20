@@ -21,7 +21,7 @@ Retrieve the properties and relationships of a vendor object for [!INCLUDE[d365f
 ## HTTP request
 
 ```
-GET /businesscentral/companies({id})/vendors({id})
+GET /financials/companies({id})/vendors({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and a **vendors*
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/vendors({id})
+GET https://graph.microsoft.com/beta/financials/companies({id})/vendors({id})
 ```
 
 **Response**
@@ -83,8 +83,6 @@ Here is an example of the response.
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Vendor](../resources/dynamics_vendor.md)  
 [Create Vendor](../api/dynamics_create_vendor.md)  

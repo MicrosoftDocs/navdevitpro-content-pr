@@ -20,7 +20,7 @@ Create a sales credit memo line object in [!INCLUDE[d365fin_long_md](../../inclu
 ## HTTP request
 
 ```
-POST /businesscentral/companies({id})/salesCreditMemos({id})/salesCreditMemoLines
+POST /financials/companies({id})/salesCreditMemos({id})/salesCreditMemoLines
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a **sales
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesCreditMemos({id})/salesCreditMemoLines
+POST https://graph.microsoft.com/beta/financials/companies({id})/salesCreditMemos({id})/salesCreditMemoLines
 Content-type: application/json
 
 {
@@ -55,8 +55,6 @@ Content-type: application/json
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Sales Credit Memo Line](../resources/dynamics_salescreditmemoline.md)  
 [Get Sales Credit Memo Line](../api/dynamics_salescreditmemoline_get.md)  

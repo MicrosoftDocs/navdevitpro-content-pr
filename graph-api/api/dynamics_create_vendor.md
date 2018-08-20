@@ -19,7 +19,7 @@ Create a vendor object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 
 ## HTTP request
 ```
-POST /businesscentral/companies({id})/vendors
+POST /financials/companies({id})/vendors
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and a **vendo
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/vendors
+POST https://graph.microsoft.com/beta/financials/companies({id})/vendors
 Content-type: application/json
 
 {
@@ -88,8 +88,6 @@ Content-type: application/json
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Vendor](../resources/dynamics_vendor.md)  
 [Get Vendor](../api/dynamics_vendor_get.md)  

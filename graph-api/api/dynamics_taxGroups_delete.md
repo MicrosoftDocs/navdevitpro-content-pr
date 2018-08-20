@@ -19,7 +19,7 @@ Delete a tax group object from [!INCLUDE[d365fin_long_md](../../includes/d365fin
 
 ## HTTP request
 ```
-DELETE /businesscentral/companies({id})/taxGroups({id})
+DELETE /financials/companies({id})/taxGroups({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```204,No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/taxGroups({id})
+DELETE https://graph.microsoft.com/beta/financials/companies({id})/taxGroups({id})
 ```
 
 **Response** 
@@ -55,8 +55,6 @@ HTTP/1.1 204 No Content
 ## See Also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Tax Groups](../resources/dynamics_taxgroups.md)  
 [Get Tax Groups](../api/dynamics_taxgroups_get.md)  

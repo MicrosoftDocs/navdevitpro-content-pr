@@ -19,7 +19,7 @@ Update the properties of a currency object for [!INCLUDE[d365fin_long_md](../../
 
 ## HTTP request
 ```
-PATCH /businesscentral/companies({id})/currencies({id})
+PATCH /financials/companies({id})/currencies({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/currencies({id})
+PATCH https://graph.microsoft.com/beta/financials/companies({id})/currencies({id})
 Content-type: application/json
 
 {
@@ -74,8 +74,6 @@ Content-type: application/json
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Currencies](../resources/dynamics_currencies.md)  
 [Post Currencies](dynamics_create_currencies.md)  

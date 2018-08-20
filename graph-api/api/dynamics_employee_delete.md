@@ -19,7 +19,7 @@ Delete an employee from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 
 ## HTTP request
 ```
-DELETE /businesscentral/companies({id})/employees({id})
+DELETE /financials/companies({id})/employees({id})
 ```
 
 ## Request headers
@@ -56,8 +56,6 @@ HTTP/1.1 204 No Content
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Employee](../resources/dynamics_employee.md)  
 [Get Employee](../api/dynamics_employee_get.md)  

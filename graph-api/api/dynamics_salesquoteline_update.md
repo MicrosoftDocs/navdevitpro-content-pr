@@ -20,7 +20,7 @@ Update the properties of a sales quote line object for [!INCLUDE[d365fin_long_md
 ## HTTP request
 
 ```
-PATCH /businesscentral/companies({id})/salesQuotes({id})/salesQuoteLines
+PATCH /financials/companies({id})/salesQuotes({id})/salesQuoteLines
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})/salesQuoteLines
+PATCH https://graph.microsoft.com/beta/financials/companies({id})/salesQuotes({id})/salesQuoteLines
 Content-type: application/json
 
 {
@@ -87,8 +87,6 @@ Content-type: application/json
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Sales Quote Line](../resources/dynamics_salesquoteline.md)  
 [Get Sales Quote Line](../api/dynamics_salesquoteline_get.md)  
