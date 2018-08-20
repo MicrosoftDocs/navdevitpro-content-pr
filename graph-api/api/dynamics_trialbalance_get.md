@@ -52,8 +52,10 @@ Here is an example of the response.
 ```json
 {
   "number": "1110",
+  "accountId": "id-value",
+  "accountType": "Posting",
   "display": "Accounts Receivable",
-  "totalDebit": "0.00",
+  "totalDebit": "479.00",
   "totalCredit": "0.00",
   "balanceAtDateDebit": "72,893.84",
   "balanceAtDateCredit": "0.00",

@@ -54,6 +54,7 @@ Here is an example of the response.
 {
   "id": "id-value",
   "number": "1006",
+  "externalDocumentNumber": "",
   "orderDate": "2019-01-24",
   "customerId": "customerId-value",
   "contactId": "",
@@ -70,7 +71,6 @@ Here is an example of the response.
   "currencyCode": "GBP",
   "pricesIncludeTax": false,
   "paymentTermsId": "id-value",
-  "paymentTerms": "COD",
   "salesperson": "",
   "partialShipping": true,
   "requestedDeliveryDate": "2015-06-01",

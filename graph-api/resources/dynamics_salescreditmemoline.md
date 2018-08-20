@@ -37,10 +37,8 @@ Represents a line on a sales credit memo line in [!INCLUDE[d365fin_long_md](../.
 |itemId|GUID|The Id of the item in the credit memo line.|
 |accountId|GUID|The Id of the Account that will be used for this line. lineType will automatically be set to "Account" if this is set.|
 |lineType|string|The type of the line. Can be Comment,Account,Item,Resource,Fixed Asset,Charge|
-|lineDetails|complex|The details of the line.|
 |description|string|A description of the item in the credit memo line.|
 |unitOfMeasureId|GUID|The unit of measure for the credit memo line.|
-|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|The unit of measure complex type.|
 |quantity|numeric|The quantity of the item in the credit memo line.|
 |unitPrice|numeric|The unit price of each individual item in the credit memo line.|
 |discountAmount|numeric|The line discount amount.|
@@ -79,10 +77,8 @@ Here is a JSON representation of the resource.
       "itemId": "GUID",
       "accountId": "GUID",
       "lineType": "string",
-      "lineDetails": {NAV.documentLineObjectDetails},
       "description": "string",
       "unitOfMeasureId": "GUID",
-      "unitOfMeasure": {NAV.UnitOfMeasure},
       "unitPrice": "decimal",
       "quantity": "decimal",
       "discountAmount": "decimal",

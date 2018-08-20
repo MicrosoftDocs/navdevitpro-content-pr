@@ -27,8 +27,18 @@ In this section, you can find API documentation for Microsoft Graph.
 |salesInvoiceLine resource type|[salesInvoiceLine](../resources/dynamics_salesinvoiceline.md)|
 |salesOrder resource type|[salesOrder](../resources/dynamics_salesorder.md)|
 |salesOrderLine resource type|[salesOrderLine](../resources/dynamics_salesorderline.md)|
+|salesQuote resource type|[salesQuote](../resources/dynamics_salesquote.md)|
+|salesQuoteLine resource type|[salesQuoteLine](../resources/dynamics_salesquoteline.md)|
+|salesCreditMemo resource type|[salesCreditMemo](../resources/dynamics_salescreditmemo.md)|
+|salesCreditMemoLine resource type|[salesCreditMemoLine](../resources/dynamics_salescreditmemoline.md)|
 |shipmentMethods resource type|[shipmentMethods](../resources/dynamics_shipmentmethods.md)|
+|journal resource type|[journal](../resources/dynamics_journal.md)|
 |journalLine resource type|[journalLine](../resources/dynamics_journalline.md)|
+|customerPaymentJournal resource type|[customerPaymentsJournal](../resources/dynamics_customerpaymentsjournal.md)|
+|customerPayment resource type|[customerPayment](../resources/dynamics_customerpayment.md)|
+|dimension resource type|[dimension](../resources/dynamics_dimension.md)|
+|dimensionLine resource type|[dimensionLine](../resources/dynamics_dimensionline.md)|
+|dimensionValue resource type|[dimensionValue](../resources/dynamics_dimensionvalue.md)
 |paymentMethods resource type|[paymentMethods](../resources/dynamics_paymentmethods.md)|
 |paymentTerms resource type|[paymentTerms](../resources/dynamics_paymentterms.md)|
 |IRS1099 resource type|[irs1099](../resources/dynamics_irs1099.md)|
@@ -43,13 +53,11 @@ In this section, you can find API documentation for Microsoft Graph.
 |aged accounts receivable resource type|[agedAccountsReceivable](../resources/dynamics_agedaccountsreceivable.md)|
 |aged accounts payable resource type|[agedAccountsPayable](../resources/dynamics_agedaccountspayable.md)|
 |retained earnings statement resource type|[retainedEarningsStatement](../resources/dynamics_retainedearningsstatement.md)|
-|customer sales resource type|[customerSales](../resources/dynamics_customersales.md)|
-|vendor purchases resource type|[vendorPurchases](../resources/dynamics_vendorpurchases.md)|
 |employee resource type|[employee](../resources/dynamics_employee.md)|
 |taxGroups resource type|[taxGroups](../resources/dynamics_taxGroups.md)|
+|taxArea resource type|[taxAreas](..resources/dynamics_taxarea.md)|
 |companies resource type|[companies](../resources/dynamics_companies.md)|
-|salesOrder resource type|[salesQuote](../resources/dynamics_salesquote.md)|
-|salesOrderLine resource type|[salesQuoteLine](../resources/dynamics_salesquoteline.md)|
+|companyInformation resource type|[companyInformation](../resources/dynamics_companyinformation.md)|
 |purchaseInvoice resource type|[purchaseInvoice](../resources/dynamics_purchaseinvoice.md)|
 |purchaseInvoiceLine resource type|[purchaseInvoiceLine](../resources/dynamics_purchaseinvoiceline.md)|
 |generalLedgerEntries resource type|[generalLedgerEntries](../resources/dynamics_generalLedgerEntries.md)|

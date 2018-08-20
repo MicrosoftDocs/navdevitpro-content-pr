@@ -20,7 +20,7 @@ Update the properties of a sales credit memo line object for [!INCLUDE[d365fin_l
 ## HTTP request
 
 ```
-PATCH /businesscentral/companies({id})/salesCreditMemos({id})/salesCreditMemoLines(documentId=({id}),sequence=({number}))
+PATCH /businesscentral/companies({id})/salesCreditMemos({id})/salesCreditMemoLines
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated s
 
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesCreditMemos({id})/salesCreditMemoLines(documentId=({id}),sequence=({number}))
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesCreditMemos({id})/salesCreditMemoLines
 Content-type: application/json
 
 {
@@ -67,18 +67,7 @@ Content-type: application/json
   "itemId": "id-value",
   "accountId": "id-value",
   "lineType": "Item",
-  "lineDetails": {
-    "number": "GL000009",
-    "displayName": "GL000009",
-    "description": null
-  },
   "description": "someText",
-  "unitOfMeasure": {
-    "code": "BOX",
-    "displayName": "Box",
-    "symbol": null,
-    "unitConversion": null
-  },
   "unitPrice": 71.1,
   "quantity": 96,
   "discountAmount": 0,

@@ -46,7 +46,7 @@ PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/sal
 Content-type: application/json
 
 {
-  "paymentTerms": "COD"
+  "creditMemoDate": "2015-12-31"
 }
 ```
 
@@ -80,7 +80,6 @@ Content-type: application/json
   "currencyId" : "currencyId-value",
   "currencyCode": "GBP",
   "paymentTermsId" : "paymentTermsId-value"
-  "paymentTerms": "COD",
   "pricesIncludeTax": false,
   "discountAmount": 0,
   "discountAppliedBeforeTax": true,

@@ -60,14 +60,6 @@ Content-type: application/json
   "taxRegistrationNumber": "",
   "currencyCode": "USD",
   "irs1099Code": "",
-  "paymentTerms": {
-    "code": "CM",
-    "description": "Current Month"
-  },
-  "paymentMethod": {
-    "code": "BANK",
-    "description": "Bank Transfer"
-  },
   "taxLiable": true,
   "blocked": " "
 }

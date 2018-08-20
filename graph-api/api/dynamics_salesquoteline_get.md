@@ -22,7 +22,7 @@ Retrieve the properties and relationships of a sales quote line object for [!INC
 ## HTTP request
 
 ```
-GET /businesscentral/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence=({number}))
+GET /businesscentral/companies({id})/salesQuotes({id})/salesQuoteLines
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and a **salesQuo
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence={number}))
+GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})/salesQuoteLines
 ```
 
 **Response**
@@ -59,19 +59,8 @@ Here is an example of the response.
   "itemId": "id-value",
   "accountId": "id-value",
   "lineType": "Item",
-  "lineDetails": {
-    "number": "1896-S",
-    "displayName": "ATHENS Desk",
-    "description": null
-  },
   "description": "ATHENS Desk",
   "unitOfMeasureId": "id-value",
-  "unitOfMeasure": {
-    "code": "BOX",
-    "displayName": "Box",
-    "symbol": null,
-    "unitConversion": null
-  },
   "unitPrice": 6165,
   "quantity": 1,
   "discountAmount": 0,

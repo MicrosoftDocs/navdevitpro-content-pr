@@ -46,7 +46,7 @@ PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/sal
 Content-type: application/json
 
 {
-  "paymentTerms": "COD"
+  "externalDocumentNumber": "ORD10523"
 }
 ```
 
@@ -64,6 +64,7 @@ Content-type: application/json
 {
   "id": "id-value",
   "number": "1006",
+  "externalDocumentNumber": "ORD10523",
   "orderDate": "2019-01-24",
   "customerId": "customerId-value",
   "contactId": "",
@@ -78,7 +79,6 @@ Content-type: application/json
   },
   "currencyCode": "GBP",
   "pricesIncludeTax": false,
-  "paymentTerms": "COD",
   "salesperson": "",
   "partialShipping": true,
   "requestedDeliveryDate": "2015-06-01",
