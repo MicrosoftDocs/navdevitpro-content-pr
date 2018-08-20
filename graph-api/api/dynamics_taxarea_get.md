@@ -20,7 +20,7 @@ Retrieve the properties and relationships of a tax area object for [!INCLUDE[d36
 ## HTTP request
 
 ```
-GET /businesscentral/companies({id})/taxAreas({id})
+GET /financials/companies({id})/taxAreas({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **taxAreas
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/taxAreas({id})
+GET https://graph.microsoft.com/beta/financials/companies({id})/taxAreas({id})
 ```
 
 **Response**
@@ -63,8 +63,6 @@ Here is an example of the response.
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Tax Area](../resources/dynamics_taxarea.md)  
 [Create Tax Area](../api/dynamics_create_taxarea.md)  

@@ -20,7 +20,7 @@ Creates a journal line object in [!INCLUDE[d365fin_long_md](../../includes/d365f
 ## HTTP request
 
 ```
-POST /businesscentral/companies({id})/journals({id})/journalLines({id})
+POST /financials/companies({id})/journals({id})/journalLines({id})
 ```
 
 ## Request headers
@@ -82,8 +82,6 @@ Content-type: application/json
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Journal Line](../resources/dynamics_journalline.md)  
 [Get Journal Line](../api/dynamics_journalline_get.md)  

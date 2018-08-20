@@ -19,7 +19,7 @@ Create a countriesRegions object in [!INCLUDE[d365fin_long_md](../../includes/d3
 
 ## HTTP request
 ```
-POST /businesscentral/companies({id})/countriesRegions
+POST /financials/companies({id})/countriesRegions
 ```
 ## Request headers
 |Header|Value|
@@ -40,7 +40,7 @@ If successful, this method returns ```201 Created``` response code and a **count
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/countriesRegions
+POST https://graph.microsoft.com/beta/financials/companies({id})/countriesRegions
 Content-type: application/json
 
 {
@@ -73,8 +73,6 @@ Content-type: application/json
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Countries Regions](../resources/dynamics_countriesregions.md)  
 [Get Countries Regions](dynamics_countriesregions_get.md)  

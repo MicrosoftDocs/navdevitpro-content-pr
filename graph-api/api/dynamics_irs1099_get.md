@@ -20,7 +20,7 @@ Retrieve the properties and relationships of an IRS 1099 codes object for [!INCL
 ## HTTP request
 
 ```
-GET /businesscentral/companies({id})/irs1099Codes({id})
+GET /financials/companies({id})/irs1099Codes({id})
 ```
 
 ## Request headers
@@ -63,8 +63,6 @@ Here is an example of the response.
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [IRS 1099](../resources/dynamics_irs1099.md)  
 [Post IRS 1099](../api/dynamics_create_irs1099.md)  
