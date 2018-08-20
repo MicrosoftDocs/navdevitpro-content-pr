@@ -34,6 +34,7 @@ Represents a taxGroups resource type in [!INCLUDE[d365fin_long_md](../../include
 |id|GUID|The unique ID of the taxGroup. Read-Only.|
 |code|string|Specifies the tax group.|
 |displayName|string|Specifies the tax group display name.|
+|taxType|string|Specifies the tax type for the group.|
 |lastModifiedDateTime|datetime|The last datetime the tax group was modified. Read-Only.|  
 
 
@@ -49,6 +50,7 @@ Here is a JSON representation of the taxGroup.
   "id": "GUID",
   "code": "string",
   "displayName": "string",
+  "taxType": "string",
   "lastModifiedDateTime": "datetime"
 }
 

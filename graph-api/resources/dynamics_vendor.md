@@ -44,9 +44,7 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 |currencyCode|string|The default currency code for the vendor.|
 |irs1099Code|string|Specifies a 1099 code for the vendor. US only.|
 |paymentTermsId|GUID|The default payment terms ID for the vendor.|
-|paymentTerms|[NAV.PaymentTerms](../resources/dynamics_complextypes.md)|The default payment terms for the vendor.|
 |paymentMethodId|GUID|The default payment method ID for the vendor.|
-|paymentMethod|[NAV.PaymentMethod](../resources/dynamics_complextypes.md)|The default payment method for the vendor.|
 |taxLiable|boolean|Specifies if the vendor is liable for tax.|
 |blocked|string|Specifies which transactions with the vendor that cannot be posted. Accepted values are blank, Payment or All|
 |balance|decimal|The vendor's balance. Read-Only.|
@@ -74,9 +72,7 @@ Here is a JSON representation of the vendor.
   "currencyCode": "string",
   "irs1099Code": "string",
   "paymentTermsId": "GUID",
-  "paymentTerms": "NAV.PaymentTermsType",
   "paymentMethodId": "GUID",
-  "paymentMethod": "NAV.PaymentMethod",
   "taxLiable": "boolean",
   "blocked": "string",
   "balance": "decimal",

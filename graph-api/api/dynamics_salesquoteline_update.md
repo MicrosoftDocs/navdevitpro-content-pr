@@ -20,7 +20,7 @@ Update the properties of a sales quote line object for [!INCLUDE[d365fin_long_md
 ## HTTP request
 
 ```
-PATCH /businesscentral/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence=({number}))
+PATCH /businesscentral/companies({id})/salesQuotes({id})/salesQuoteLines
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence=({number}))
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})/salesQuoteLines
 Content-type: application/json
 
 {
@@ -67,18 +67,7 @@ Content-type: application/json
   "itemId": "id-value",
   "accountId": "id-value",
   "lineType": "Item",
-  "lineDetails": {
-    "number": "1896-S",
-    "displayName": "ATHENS Desk",
-    "description": null
-  },
   "description": "someText",
-  "unitOfMeasure": {
-    "code": "BOX",
-    "displayName": "Box",
-    "symbol": null,
-    "unitConversion": null
-  },
   "unitPrice": 6165,
   "quantity": 1,
   "discountAmount": 0,

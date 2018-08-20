@@ -51,8 +51,7 @@ Content-type: application/json
   "number": "1009",
   "creditMemoDate": "2015-12-31",
   "customerNumber": "GL00000008",
-  "currencyCode": "GBP",
-  "paymentTerms": "COD"
+  "currencyCode": "GBP"
 }
 ```
 ## See also

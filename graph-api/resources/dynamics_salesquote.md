@@ -47,9 +47,7 @@ Represents a salesQuote resource type in [!INCLUDE[d365fin_long_md](../../includ
 |currencyId|GUID|The id of the quote currency.|
 |currencyCode|string, maximum size 10|The currency code for the quote.|
 |paymentTermsId|GUID|The id of the quote payment term.|
-|paymentTerms|string, maximum size 10|The payment terms of the quote.|
 |shipmentMethodId|GUID|The id of the quote shipment method.|
-|shipmentMethod|string, maximum size 10|The payment terms of the quote.|
 |salesperson|string, maximum size 20|The salesperson code for the quote.|
 |discountAmount|numeric|The quote discount amount|
 |totalAmountExcludingTax|numeric|The total amount excluding tax. Read-Only.|
@@ -91,9 +89,7 @@ Here is a JSON representation of the resource.
       "currencyId": "GUID",
       "currencyCode": "string",
       "paymentTermsId": "GUID",
-      "paymentTerms": "string",
       "shipmentMethodId": "GUID",
-      "shipmentMethod": "string",
       "salesperson": "string",
       "discountAmount": "decimal",
       "totalAmountExcludingTax": "decimal",
@@ -107,6 +103,20 @@ Here is a JSON representation of the resource.
 }
 
 ```
+## Bound actions
+The sales quote resource type offers bound actions, which perform actions associated with actions available to perform in the Business Central application. 
+
+| Action	            |Description                                                |
+|:----------------------|:----------------------------------------------------------|
+|makeInvoice            |Creates an invoice record from the corresponding sales quote. |
+|send                   |Sends the corresponding quote document to the customer.|
+
+Performing an action against the sales invoice is illustrated in the following example:  
+`POST https://graph.microsoft.com/beta/financials/companies({id})/salesQuotes({id})/makeInvoice`.
+
+The response has no content; the response code is 204. For the `makeInvoice` action, the Location response header contains the URL of the invoice created by the action for the quote. For example:
+`https://graph.microsoft.com/beta/financials/companies({id})/salesInvoices({id})`
+
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

@@ -55,6 +55,7 @@ Here is an example of the response.
   "id": "id-value",
   "code": "28012001T",
   "displayName": "tax area",
+  "taxType": "Sales Tax",
   "lastModifiedDateTime": "2017-05-17T11:30:01.313Z"
 }
 ```
