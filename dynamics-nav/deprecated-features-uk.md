@@ -108,7 +108,7 @@ The following list shows fields that are deleted as a result of removed features
 |81|Gen. Journal Line|10550|BACS Account No.|
 |81|Gen. Journal Line|10551|BACS Exported|
 |81|Gen. Journal Line|10552|BACS Entry No.|
-|81||10553|Recurring Calendar Source|
+|81|Gen. Journal Line|10553|Recurring Calendar Source|
 |263|Intrastat Jnl. Line|10500|Shipment Method|
 |271|Bank Account Ledger Entry|10550|BACS Ledger Entries|
 |312|Purchases & Payables Setup|10550|BACS File Name|
