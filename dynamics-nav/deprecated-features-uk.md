@@ -9,13 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: deprecated, United Kingdom, local functionality
-ms.date: 07/23/2018
+ms.date: 08/23/2018
 ms.author: bholtorf
 
 ---
 
 # Deprecated Features in the UK Version of Microsoft Dynamics NAV 2018
 This topic lists and describes the local functionality for the United Kingdom that has been removed from [!INCLUDE[navnow](includes/navnow_md.md)], made available from a new page or report, or replaced by a new feature.
+
+## Localize Intrastat Reporting
+You must report shipment method during Intrastat reporting to be legally compliant. The code for the shipment method must be transferred from the Intrastat journal.
+
+|Moved, Removed, or Replaced?| Why?|
+|----|----|
+| Replaced | The Localize Intrastat Reporting feature has been replaced with the **Shipment Method Mandatory** field in the **Intrastat Setup** window in the standard product.|
 
 ## Accounting Periods and System Calendar
 If your fiscal year is different than the calendar, you can measure your fiscal period in other units of time, such as months or quarters. To do this, you set up system calendars and accounting periods.
@@ -93,7 +100,7 @@ When you create finance charge terms and reminder terms, for delayed payment pen
 |Moved| The Multiple Interest Rates feature is no longer specific to the UK, so we have made it generally available in the standard product. |
 
 ## Objects or Fields Deleted in [!INCLUDE[nav2018](includes/nav2018_md.md)]
-Table 10505 has been deleted. The following list shows additional fields that are deleted as a result of the features that have been removed.  
+The following list shows fields that are deleted as a result of removed features.  
 
 |Table ID|Table Name|Field ID|Field Name|
 |--------|--------|----------|-----------|
@@ -102,6 +109,7 @@ Table 10505 has been deleted. The following list shows additional fields that ar
 |81|Gen. Journal Line|10551|BACS Exported|
 |81|Gen. Journal Line|10552|BACS Entry No.|
 |81||10553|Recurring Calendar Source|
+|263|Intrastat Jnl. Line|10500|Shipment Method|
 |271|Bank Account Ledger Entry|10550|BACS Ledger Entries|
 |312|Purchases & Payables Setup|10550|BACS File Name|
 |312|Purchases & Payables Setup|10551|Import BACS Files|
