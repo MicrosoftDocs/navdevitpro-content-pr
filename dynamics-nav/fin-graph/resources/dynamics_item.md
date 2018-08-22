@@ -29,6 +29,15 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 |[PATCH item](../api/dynamics_item_update.md)  |items     |Updates an item object.|
 |[DELETE items](../api/dynamics_item_delete.md)|none      |Deletes an item object.|
 
+## Subpages
+
+| Method    |Return Type| Description      |
+|:----------|:----------|:-----------------|
+|[GET defaultDimensions](../api/dynamics_item_get_defaultdimensions.md)|default dimensions   |Gets the default dimensions of item. |
+|[POST defaultDimensions](../api/dynamics_item_create_defaultdimensions.md) |default dimensions  |Creates the default dimensions of  item.|
+|[PATCH defaultDimensions](../api/dynamics_item_update_defaultdimensions.md)|default dimensions  |Updates the default dimensions of item.|
+|[DELETE defaultDimensions](../api/dynamics_item_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of item.  |
+
 ## Properties
 | Property	         | Type	|Description                                          |
 |:-------------------|:-------|:----------------------------------------------------|
