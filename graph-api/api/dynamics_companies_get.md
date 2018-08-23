@@ -19,7 +19,7 @@ Retrieve the properties and relationships of a companies object for [!INCLUDE[d3
 
 ## HTTP request
 ```
-GET /businesscentral/companies
+GET /financials/companies
 ```
 
 ## Request headers
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and a **companie
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies
+GET https://graph.microsoft.com/beta/financials/companies
 ```
 
 **Response**

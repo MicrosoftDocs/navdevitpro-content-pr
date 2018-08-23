@@ -18,7 +18,7 @@ ms.author: solsen
 Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
 
 ## Methods
 
@@ -37,10 +37,8 @@ Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../include
 |itemId                   |GUID   |The Id of the item in the invoice line.                    |
 |accountId                |GUID   |The Id of the Account that will be used for this line. lineType will automatically be set to "Account" if this is set.|
 |lineType                 |string |The type of the line. Can be Comment,Account,Item,Resource,Fixed Asset,Charge|
-|lineDetails              |complex|The details of the line.                                   |
 |description              |string |A description of the item in the invoice line.             |
 |unitOfMeasureId          |GUID   |The unit of measure for the invoice line.                  |
-|unitOfMeasure            |[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|The unit of measure complex type.|
 |quantity                 |numeric|The quantity of the item in the invoice line.              |
 |unitPrice                |numeric|The unit price of each individual item in the invoice line.|
 |discountAmount           |numeric|The line discount amount.                                  |
@@ -79,10 +77,8 @@ Here is a JSON representation of the resource.
       "itemId": "GUID",
       "accountId": "GUID",
       "lineType": "string",
-      "lineDetails": {NAV.documentLineObjectDetails},
       "description": "string",
       "unitOfMeasureId": "GUID",
-      "unitOfMeasure": {NAV.UnitOfMeasure},
       "unitPrice": "decimal",
       "quantity": "decimal",
       "discountAmount": "decimal",
@@ -106,8 +102,6 @@ Here is a JSON representation of the resource.
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Get Sales Invoice Line](../api/dynamics_salesinvoiceline_get.md)  
 [Create Sales Invoice Line](../api/dynamics_create_salesinvoiceline.md)  

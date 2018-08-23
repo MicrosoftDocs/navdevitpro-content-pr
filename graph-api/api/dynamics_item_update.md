@@ -19,7 +19,7 @@ Update the properties of an item object for [!INCLUDE[d365fin_long_md](../../inc
 
 ## HTTP request
 ```
-PATCH /businesscentral/companies({id})/items({id})
+PATCH /financials/companies({id})/items({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/items({id})
+PATCH https://graph.microsoft.com/beta/financials/companies({id})/items({id})
 Content-type: application/json
 
 {
@@ -67,17 +67,8 @@ Content-type: application/json
   "type": "Inventory",
   "blocked": true,
   "baseUnitOfMeasureId": "id-value", 
-  "baseUnitOfMeasure": {
-    "unitCode": "PCS",
-    "unitName": "Piece",
-    "symbol": "",
-    "unitConversion": null
-  },
   "gtin": "",
-  "itemCategory": {
-    "categoryId": "TABLE",
-    "description": "Assorted Tables"
-  },
+  "itemCategoryId": "id-value",
   "inventory": 0,
   "unitPrice": 1000.8,
   "priceIncludesTax": false,
@@ -91,8 +82,6 @@ Content-type: application/json
 
 ## See also.
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Item](../resources/dynamics_item.md)  
 [Get Item](../api/dynamics_item_get.md)  

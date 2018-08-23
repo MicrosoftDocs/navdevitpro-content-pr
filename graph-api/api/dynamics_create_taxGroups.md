@@ -19,7 +19,7 @@ Create a tax groups object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 
 ## HTTP request
 ```
-POST /businesscentral/companies({id})/taxGroups
+POST /financials/companies({id})/taxGroups
 ```
 
 ## Request headers
@@ -42,12 +42,13 @@ If successful, this method returns ```201 Created``` response code and a **taxGr
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/taxGroups
+POST https://graph.microsoft.com/beta/financials/companies({id})/taxGroups
 Content-type: application/json
 
 {
   "code": "FURNITURE",
-  "displayName": "Taxable Olympic Furniture"  
+  "displayName": "Taxable Olympic Furniture",
+  "taxType": "Sales Tax"
 }
 ```
 
@@ -66,6 +67,7 @@ Content-type: application/json
   "id": "id-value",
   "code": "FURNITURE",
   "displayName": "Taxable Olympic Furniture",
+  "taxType": "Sales Tax",
   "lastModifiedDateTime": "2017-03-15T02:20:57.09Z"
 }
 
@@ -76,8 +78,6 @@ Content-type: application/json
 ## See Also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Tax Groups](../resources/dynamics_taxgroups.md)  
 [Get Tax Groups](../api/dynamics_taxgroups_get.md)  

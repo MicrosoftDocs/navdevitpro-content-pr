@@ -18,7 +18,7 @@ ms.author: solsen
 Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
 
 ## Methods
 
@@ -34,6 +34,7 @@ Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |:---------------|:--------|:----------|
 |id|GUID|The order ID. Non-editable.|
 |number|string, maximum size 20|The order number. Read-Only.|
+|externalDocumentNumber|string, maximum size 35|The external document number assigned to the order.|
 |orderDate|date|The order date|
 |customerId|GUID|The id of the order customer.|
 |contactId|string, maximum size 250|The exchange contact id for the given customer. If a customer id is not specified, we will use the contact id to find it.|
@@ -44,7 +45,6 @@ Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |currencyCode|string, maximum size 10|The currency code for the order.|
 |pricesIncludeTax|boolean|Specifies whether the prices include Tax or not. Read-Only.|
 |paymentTermsId|GUID|The id of the order payment term.|
-|paymentTerms|string, maximum size 10|The payment terms of the order.|
 |salesperson|string, maximum size 20|The salesperson code for the order.|
 |partialShipping|boolean|Specifies whether partial shipping of items is preferred or not.|
 |requestedDeliveryDate|Date|The requested delivery date.|
@@ -86,7 +86,6 @@ Here is a JSON representation of the resource.
       "currencyCode": "string",
       "pricesIncludeTax": "boolean",
       "paymentTermsId": "GUID",
-      "paymentTerms": "string",
       "salesperson": "string",
       "partialShipping": "boolean",
       "requestedDeliveryDate": "Date",
@@ -104,8 +103,6 @@ Here is a JSON representation of the resource.
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Get Sales Order](../api/dynamics_salesorder_get.md)  
 [Create Sales Order](../api/dynamics_create_salesorder.md)  

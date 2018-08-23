@@ -20,7 +20,7 @@ Create a purchase invoice line object in [!INCLUDE[d365fin_long_md](../../includ
 ## HTTP request
 
 ```
-POST /businesscentral/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines
+POST /financials/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a **purch
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines
+POST https://graph.microsoft.com/beta/financials/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines
 Content-type: application/json
 
 {
@@ -56,8 +56,6 @@ Content-type: application/json
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Purchase Invoice Line](../resources/dynamics_purchaseinvoiceline.md)  
 [Get Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_get.md)  

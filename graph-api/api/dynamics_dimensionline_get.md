@@ -23,12 +23,12 @@ Retrieve the properties and relationships of a dimension line object for [!INCLU
 
 If you want to receive all of the dimension lines of a specific parent entity, you can do it with the following URL:
 ```
-GET /businesscentral/companies({id})/dimensionLines?$filter=parentId eq ({id})
+GET /financials/companies({id})/dimensionLines?$filter=parentId eq ({id})
 ```
 
 In order to get a specific dimension line, you can use the following URL:
 ```
-GET /businesscentral/companies({id})/dimensionLines(parentId=({id}),id=({id}))
+GET /financials/companies({id})/dimensionLines(parentId=({id}),id=({id}))
 ```
 
 ## Request headers
@@ -48,7 +48,7 @@ If successful, this method returns a ```200 OK``` response code and a **dimensio
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/dimensionLines(parentId=({id}),id=({id}))
+GET https://graph.microsoft.com/beta/financials/companies({id})/dimensionLines(parentId=({id}),id=({id}))
 ```
 
 **Response**
@@ -72,8 +72,6 @@ Here is an example of the response.
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Dimension Line](../resources/dynamics_dimensionline.md)  
 [Post Dimension Line](../api/dynamics_create_dimensionline.md)  

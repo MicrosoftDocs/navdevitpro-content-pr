@@ -20,7 +20,7 @@ Create a sales order object in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 ## HTTP request
 
 ```
-POST /businesscentral/companies({id})/salesOrders
+POST /financials/companies({id})/salesOrders
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a **sales
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesOrders
+POST https://graph.microsoft.com/beta/financials/companies({id})/salesOrders
 Content-type: application/json
 
 {
@@ -51,16 +51,13 @@ Content-type: application/json
   "number": "1009",
   "orderDate": "2015-12-31",
   "customerNumber": "GL00000008",
-  "currencyCode": "GBP",
-  "paymentTerms": "COD"
+  "currencyCode": "GBP"
 }
 ```
 
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Sales Order](../resources/dynamics_salesorder.md)  
 [Get Sales Order](../api/dynamics_salesorder_get.md)  

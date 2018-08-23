@@ -19,7 +19,7 @@ Retrieve the properties and relationships of a customer object for [!INCLUDE[d36
 
 ## HTTP request
 ```
-GET /businesscentral/companies({id})/customers({id})
+GET /financials/companies({id})/customers({id})
 ```
 
 ## Request headers
@@ -38,7 +38,7 @@ If successful, this method returns a ```200 OK``` response code and a **customer
 Here is an example of the request.
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customers({id})
+GET https://graph.microsoft.com/beta/financials/companies({id})/customers({id})
 ```
 
 **Response**
@@ -71,17 +71,8 @@ Here is an example of the response.
   "currencyId": "currencyId-value",
   "currencyCode": "USD",
   "paymentTermsId": "paymentTermsId-value",
-  "paymentTerms": {
-    "code": "1M(8D)",
-    "description": "1 Month/2% 8 days"
-  },
   "shipmentMethodId": "shipmentMethodId-value",
-  "shipmentMethod": null,
   "paymentMethodId": "paymentMethodId-value",
-  "paymentMethod": {
-    "code": "BANK",
-    "description": "Bank Transfer"
-  },
   "blocked": " ",
   "balance": 0,
   "overdueAmount": 0,
@@ -92,8 +83,6 @@ Here is an example of the response.
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Customer](../resources/dynamics_customer.md)  
 [Post Customers](dynamics_create_customer.md)  

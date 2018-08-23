@@ -18,7 +18,7 @@ ms.author: solsen
 Represents an agedAccountsReceivable object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)], which is showing the aging of a customer account.
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)], see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)], see .
 
 ## Methods
 
@@ -33,14 +33,13 @@ Represents an agedAccountsReceivable object in [!INCLUDE[d365fin_long_md](../../
 |customerNumber  |string   |Specifies customer's number.                 |
 |name            |string   |Specifies customer's name.                   |
 |currencyCode    |string   |Specifies the currency.                      |
-|before          |numeric  |Specifies balance before first aging period. |
-|period1         |numeric  |Specifies balance in the first aging period. |
-|period2         |numeric  |Specifies balance in the second aging period.|
-|period3         |numeric  |Specifies balance in the third aging period. |
-|after           |numeric  |Specifies balance after third aging period.  |
-|balance         |numeric  |Specifies customer's total balance.          |  
-|periodStartDateFilter|date|Specifies period start date used to calculate aging periods.|
-|periodLengthFilter|string |Specifies the length of the periods.         |
+|balanceDue      |numeric  |Specifies the customer's total balance.      |
+|currentAmount   |numeric  |Specifies balance for the current aging period.|
+|period1Amount   |numeric  |Specifies balance in the first aging period. |
+|period2Amount   |numeric  |Specifies balance in the second aging period.|
+|period3Amount   |numeric  |Specifies balance in the third aging period. |
+|agedAsOfDate    |date     |Specifies period start date used to calculate aging periods.|
+|periodLengthFilter|string |Specifies the length of the periods. Acceptable time units include: D, WD, W, M, Q, and Y. C, meaning current time unit based on date, can be specified as a prefix to the time unit.|
 
 
 ## Relationships
@@ -57,21 +56,18 @@ Here is a JSON representation of the resource.
     "customerNumber": "string",
     "name": "string",
     "currencyCode": "string",
-    "before": "decimal",
-    "period1": "decimal",
-    "period2": "decimal",
-    "period3": "decimal",
-    "after": "decimal",
-    "balance": "decimal",
-    "periodStartDateFilter": "date",
+    "balanceDue": "decimal",
+    "currentAmount": "decimal",
+    "period1Amount": "decimal",
+    "period2Amount": "decimal",
+    "period3Amount": "decimal",
+    "agedAsOfDate": "date",
     "periodLengthFilter": "string"
 }
 
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Get Aged Accounts Receivable](../api/dynamics_agedaccountsreceivable_get.md)  
 [Aged Accounts Payable](dynamics_agedaccountspayable.md)  

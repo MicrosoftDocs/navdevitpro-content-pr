@@ -18,7 +18,7 @@ ms.author: solsen
 Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
 
 ## Methods
 
@@ -35,30 +35,29 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |:----------------------|:----------|:----------------------------------------------------------|
 |id                     |GUID       |The invoice ID. Non-editable.                              |
 |number                 |string, maximum size 20|The invoice number. Read-Only.                 |
+|externalDocumentNumber |string, maximum size 35|The external document number assigned to the invoice.|
 |invoiceDate            |date       |The invoice date.                                           |
-|customerPurchaseOrderReference|string, maximum size 35|The customer purchase order reference for the invoice|
 |dueDate                |date       |The date the invoice is due.                               |
-|customerNumber         |string, maximum size 20|The customer number for the invoice.           |
-|contactId              |string, maximum size 250|The exchange contact id for the given customer. If a customer id is not specified, we will use the contact id to find it.|
+|customerPurchaseOrderReference|string, maximum size 35|The customer purchase order reference for the invoice|
 |customerId             |GUID       |The id of the invoice customer.                            |
+|contactId              |string, maximum size 250|The Exchange contact id for the given customer. If a customer id is not specified, we will use the contact id to find it.|
+|customerNumber         |string, maximum size 20|The customer number for the invoice.           |
 |customerName           |string, maximum size 50|The full name of the customer. Read-Only.      |
+|billingPostalAddress   |complex    |The billing postal address for the invoice.                |
 |currencyId             |GUID       |The id of the invoice currency.                            |
 |currencyCode           |string, maximum size 10|The currency code for the invoice.             |
 |orderId                |GUID       |The unique id of the order to which the invoice is associated to. Read-Only.|
 |orderNumber            |string, maximum size 20|The number of the order to which the invoice is associated to. Read-Only.|
-|status                 |string, maximum size 20|The invoice status. Status can be: Draft, In Review, Open, Paid, Canceled, or Corrective. Read-Only.|
+|paymentTermsId         |GUID       |The id of the invoice payment term.                        |
+|shipmentMethodId       |GUID       |The id of the invoice shipment method.                     |
+|salesperson            |string, maximum size 20|The salesperson code for the invoice.          |
+|pricesIncludeTax       |boolean    |Specifies whether the prices include Tax or not. Read-Only.|
 |discountAmount         |numeric    |The invoice discount amount.                                |
 |discountAppliedBeforeTax|boolean   |Specifies whether the discount is applied before tax.      |
 |totalAmountExcludingTax|numeric    |The total amount excluding tax. Read-Only.                 |
 |totalTaxAmount         |numeric    |The total tax amount for the invoice. Read-Only.           |
 |totalAmountIncludingTax|numeric    |The total amount for the invoice, including tax. Read-Only.|
-|pricesIncludeTax       |boolean    |Specifies whether the prices include Tax or not. Read-Only.|
-|billingPostalAddress   |complex    |The billing postal address for the invoice.                |  
-|paymentTermsId         |GUID       |The id of the invoice payment term.                        |
-|paymentTerms           |string, maximum size 10|The payment terms of the invoice.              |
-|shipmentMethodId       |GUID       |The id of the invoice shipment method.                     |
-|shipmentMethod         |string, maximum size 10|The shipment method of the invoice.            |
-|salesperson            |string, maximum size 20|The salesperson code for the invoice.          |
+|status                 |string, maximum size 20|The invoice status. Status can be: Draft, In Review, Open, Paid, Canceled, or Corrective. Read-Only.|
 |lastModifiedDateTime   |datetime   |The last datetime the sales invoice was modified. Read-Only.|
 
 ## Relationships
@@ -81,6 +80,7 @@ Here is a JSON representation of the resource.
 {
       "id": "GUID",
       "number": "string",
+      "externalDocumentNumber": "string",
       "invoiceDate": "Date",
       "dueDate": "Date",
       "customerPurchaseOrderReference": "string",
@@ -94,9 +94,7 @@ Here is a JSON representation of the resource.
       "orderId": "GUID",
       "orderNumber": "string",
       "paymentTermsId": "GUID",
-      "paymentTerms": "string",
       "shipmentMethodId": "GUID",
-      "shipmentMethod": "string",
       "salesperson": "string",
       "pricesIncludeTax": "boolean",
       "discountAmount": "decimal",
@@ -109,11 +107,26 @@ Here is a JSON representation of the resource.
 }
 
 ```
+
+## Bound actions
+The sales invoice resource type offers bound actions, which perform actions associated with actions available to perform in the Business Central application. 
+
+| Action	            |Description                                                |
+|:----------------------|:----------------------------------------------------------|
+|post                   |Posts the corresponding invoice.                              |
+|postAndSend            |Posts the corresponding invoice and sends the document to the customer.|
+|send                   |Sends the corresponding invoice document to the customer.|
+|cancel                 |Cancels the corresponding invoice.           |
+|cancelAndSend          |Cancels the corresponding invoice and sends the canceled record to the customer. |
+
+Performing an action against the sales invoice is illustrated in the following example:  
+`POST https://graph.microsoft.com/beta/financials/companies({id})/salesInvoices({id})/post`.
+
+The response has no content; the response code is 204.
+
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Get Sales Invoice](../api/dynamics_salesinvoice_get.md)  
 [Create Sales Invoice](../api/dynamics_create_salesinvoice.md)  

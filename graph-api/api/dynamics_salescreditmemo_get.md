@@ -20,7 +20,7 @@ Retrieve the properties and relationships of a sales credit memo object for [!IN
 ## HTTP request
 
 ```
-GET /businesscentral/companies({id})/salesCreditMemos({id})
+GET /financials/companies({id})/salesCreditMemos({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **salesCre
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesCreditMemos({id})
+GET https://graph.microsoft.com/beta/financials/companies({id})/salesCreditMemos({id})
 ```
 
 **Response**
@@ -70,7 +70,6 @@ Here is an example of the response.
   "currencyId": "currencyId-value",
   "currencyCode": "GBP",
   "paymentTermsId": "paymentTermsId-value",
-  "paymentTerms": "COD",
   "salesperson": "",
   "pricesIncludeTax": false,
   "discountAmount": 0,
@@ -88,8 +87,6 @@ Here is an example of the response.
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Sales Credit Memo](../resources/dynamics_salescreditmemo.md)  
 [Create Sales Credit Memo](../api/dynamics_create_salescreditmemo.md)  

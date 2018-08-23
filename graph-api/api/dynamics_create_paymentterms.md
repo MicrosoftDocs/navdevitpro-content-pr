@@ -19,7 +19,7 @@ Create a payment terms object in [!INCLUDE[d365fin_long_md](../../includes/d365f
 
 ## HTTP request
 ```
-POST /businesscentral/companies({id})/paymentTerms
+POST /financials/companies({id})/paymentTerms
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and a **payme
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/paymentTerms
+POST https://graph.microsoft.com/beta/financials/companies({id})/paymentTerms
 Content-type: application/json
 
 {
@@ -83,8 +83,6 @@ Content-type: application/json
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Payment Terms](../resources/dynamics_paymentterms.md)  
 [Get Payment Terms](../api/dynamics_paymentterms_get.md)  

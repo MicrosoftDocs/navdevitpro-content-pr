@@ -20,7 +20,7 @@ Update the properties of a company information object for [!INCLUDE[d365fin_long
 
 ## HTTP request
 ```
-PATCH /businesscentral/companies({id})/companyInformation({id})
+PATCH /financials/companies({id})/companyInformation({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated a
 
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/companyInformation({id})
+PATCH https://graph.microsoft.com/beta/financials/companies({id})/companyInformation({id})
 Content-type: application/json
 
 {
@@ -88,8 +88,6 @@ Content-type: application/json
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Companies](../resources/dynamics_companies.md)  
 [Company Information](../resources/dynamics_companyinformation.md)  

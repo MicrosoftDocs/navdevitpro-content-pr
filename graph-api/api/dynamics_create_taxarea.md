@@ -20,7 +20,7 @@ Creates a tax area object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 ## HTTP request
 
 ```
-POST /businesscentral/companies({id})/taxAreas({id})
+POST /financials/companies({id})/taxAreas({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and a **taxAr
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/taxAreas
+POST https://graph.microsoft.com/beta/financials/companies({id})/taxAreas
 Content-type: application/json
 
 ```json
@@ -61,6 +61,7 @@ Content-type: application/json
   "id": "id-value",
   "code": "44442001T",
   "displayName": "tax area",
+  "taxType": "Sales Tax",
   "lastModifiedDateTime": "2017-05-17T11:30:01.313Z"
 }
 ```
@@ -68,8 +69,6 @@ Content-type: application/json
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Tax Area](../resources/dynamics_taxarea.md)  
 [Get Tax Area](../api/dynamics_taxarea_get.md)  

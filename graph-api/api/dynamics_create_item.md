@@ -19,7 +19,7 @@ Create an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]
 
 ## HTTP request
 ```
-POST /businesscentral/companies({id})/items
+POST /financials/companies({id})/items
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns ```201 Created``` response code and an **item
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/items
+POST https://graph.microsoft.com/beta/financials/companies({id})/items
 Content-type: application/json
 
 {
@@ -48,17 +48,9 @@ Content-type: application/json
   "displayName": "ATHENS Desk",
   "type": "Inventory",
   "blocked": false,
-  "baseUnitOfMeasure": {
-    "unitCode": "PCS",
-    "unitName": "Piece",
-    "symbol": "",
-    "unitConversion": null
-  },
+  "baseUnitOfMeasureId": "65bdbd3a-39f1-49f4-bf24-598cbac36230",
   "gtin": "",
-  "itemCategory": {
-    "categoryId": "TABLE", 
-    "description": "Assorted Tables"
-  },
+  "itemCategoryId": "5b0b9c1c-312d-4809-96b2-056690a11057",
   "inventory": 0,
   "unitPrice": 1000.8,
   "priceIncludesTax": false,
@@ -89,8 +81,6 @@ Content-type: application/json
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Item](../resources/dynamics_item.md)  
 [Get Item](../api/dynamics_item_get.md)  

@@ -20,7 +20,7 @@ Update the properties of a tax area object for [!INCLUDE[d365fin_long_md](../../
 ## HTTP request
 
 ```
-PATCH /businesscentral/companies({id})/taxAreas({id})
+PATCH /financials/companies({id})/taxAreas({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/taxAreas({id})
+PATCH https://graph.microsoft.com/beta/financials/companies({id})/taxAreas({id})
 Content-type: application/json
 
 {
@@ -66,6 +66,7 @@ Content-type: application/json
   "id": "id-value",
   "code": "28012001T",
   "displayName": "tax area",
+  "taxType": "Sales Tax",
   "lastModifiedDateTime": "2017-05-17T11:30:01.313Z"
 }
 ```

@@ -1,6 +1,6 @@
 ---
-title: Update customerPaymentsJournals | Microsoft Docs
-description: Updates a customer payments journal in Dynamics 365 Business Central.
+title: Update customerPaymentJournals | Microsoft Docs
+description: Updates a customer payment journal in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,13 @@ ms.date: 03/19/2018
 ms.author: solsen
 ---
 
-# Update customerPaymentsJournals
+# Update customerPaymentJournals
 Update the properties of a customer payments journal object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-PATCH /businesscentral/companies({id})/customerPaymentsJournals({id})
+PATCH /financials/companies({id})/customerPaymentJournals({id})
 ```
 
 ## Request headers
@@ -28,13 +28,13 @@ PATCH /businesscentral/companies({id})/customerPaymentsJournals({id})
 |------|-----|
 |Authorization |Bearer {token}. Required.|
 |Content-Type  |application/json|
-|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the **customerPaymentsJournals**, the **customerPaymentsJournals** will not be updated. |
+|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the **customerPaymentJournals**, the **customerPaymentJournals** will not be updated. |
 
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an updated **customerPaymentsJournals** object in the response body.
+If successful, this method returns a ```200 OK``` response code and an updated **customerPaymentJournals** object in the response body.
 
 ## Example
 
@@ -43,7 +43,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 Here is an example of the request.
 
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customerPaymentsJournals({id})
+PATCH https://graph.microsoft.com/beta/financials/companies({id})/customerPaymentJournals({id})
 Content-type: application/json
 
 {
@@ -74,10 +74,8 @@ Content-type: application/json
 ## See also
 [Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Customer Payments Journal](../resources/dynamics_customerpaymentsjournal.md)  
+[Customer Payment Journal](../resources/dynamics_customerpaymentsjournal.md)  
 [Get Customer Payment Journal](dynamics_customerpaymentsjournal_get.md)  
-[Post Customer Payments Journal](dynamics_create_customerpaymentsjournal.md)  
-[Delete Customer Payments Journal](dynamics_customerpaymentsjournal_delete.md)  
+[Post Customer Payment Journal](dynamics_create_customerpaymentsjournal.md)  
+[Delete Customer Payment Journal](dynamics_customerpaymentsjournal_delete.md)  

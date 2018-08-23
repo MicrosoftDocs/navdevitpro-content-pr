@@ -18,7 +18,7 @@ ms.author: solsen
 Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
 
 ## Methods
 
@@ -44,9 +44,7 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 |currencyCode|string|The default currency code for the vendor.|
 |irs1099Code|string|Specifies a 1099 code for the vendor. US only.|
 |paymentTermsId|GUID|The default payment terms ID for the vendor.|
-|paymentTerms|[NAV.PaymentTerms](../resources/dynamics_complextypes.md)|The default payment terms for the vendor.|
 |paymentMethodId|GUID|The default payment method ID for the vendor.|
-|paymentMethod|[NAV.PaymentMethod](../resources/dynamics_complextypes.md)|The default payment method for the vendor.|
 |taxLiable|boolean|Specifies if the vendor is liable for tax.|
 |blocked|string|Specifies which transactions with the vendor that cannot be posted. Accepted values are blank, Payment or All|
 |balance|decimal|The vendor's balance. Read-Only.|
@@ -74,9 +72,7 @@ Here is a JSON representation of the vendor.
   "currencyCode": "string",
   "irs1099Code": "string",
   "paymentTermsId": "GUID",
-  "paymentTerms": "NAV.PaymentTermsType",
   "paymentMethodId": "GUID",
-  "paymentMethod": "NAV.PaymentMethod",
   "taxLiable": "boolean",
   "blocked": "string",
   "balance": "decimal",
@@ -88,8 +84,6 @@ Here is a JSON representation of the vendor.
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Get Vendor](../api/dynamics_vendor_get.md)  
 [Create Vendor](../api/dynamics_create_vendor.md)  

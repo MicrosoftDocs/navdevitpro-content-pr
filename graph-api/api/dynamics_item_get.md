@@ -21,7 +21,7 @@ Retrieve the properties and relationships of an item object for [!INCLUDE[d365fi
 ## HTTP request
 
 ```
-GET /businesscentral/companies({id})/items({id})
+GET /financials/companies({id})/items({id})
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and an **items**
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/v1.0/businesscentral/companies({id})/items({id})
+GET https://graph.microsoft.com/beta/financials/companies({id})/items({id})
 ```
 
 **Response**
@@ -58,17 +58,8 @@ Here is an example of the response.
   "type": "Inventory",
   "blocked": false,
   "baseUnitOfMeasureId": "id-value",
-  "baseUnitOfMeasure": {
-    "unitCode": "PCS",
-    "unitName": "Piece",
-    "symbol": "",
-    "unitConversion": null
-  },
   "gtin": "",
-  "itemCategory": {
-    "categoryId": "TABLE",
-    "description": "Assorted Tables"
-  },
+  "itemCategoryId": "id-value"
   "inventory": 0,
   "unitPrice": 1000.8,
   "priceIncludesTax": false,
@@ -81,8 +72,6 @@ Here is an example of the response.
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Item](../resources/dynamics_item.md)  
 [Post Item](../api/dynamics_create_item.md)  

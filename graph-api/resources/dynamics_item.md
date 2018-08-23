@@ -18,7 +18,7 @@ ms.author: solsen
 Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
 
 ## Methods
 
@@ -40,7 +40,7 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 |baseUnitOfMeasureId |GUID    |Specifies the ID of the unit of measure.             |
 |baseUnitOfMeasure   |[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|Specifies the unit in which the item is held in inventory.|
 |gtin                |numeric |This is the Global Trade Item Number.                |
-|itemCategory        |[NAV.ItemCategory](../resources/dynamics_complextypes.md)|Specifies the category that the item belongs to. Item categories also contain any assigned item attributes.|
+|itemCategoryId      |GUID |Specifies the category that the item belongs to. Item categories also contain any assigned item attributes.|
 |inventory           |decimal |Specifies how many units, such as pieces, boxes, or cans, of the item are in inventory. Read-Only.|
 |unitPrice           |decimal |Specifies the price for one unit of the item in the specified currency.|
 |priceIncludesTax    |boolean |Specifies that the unitPrice includes tax. Set to **true**, if unitPrice includes tax.|
@@ -68,7 +68,7 @@ Here is a JSON representation of the resource.
       "baseUnitOfMeasureId": "GUID",
       "baseUnitOfMeasure": "NAV.UnitOfMeasure",
       "gtin": "numeric",
-      "itemCategory": "NAV.ItemCategory",
+      "itemCategoryId": "GUID",
       "inventory": "decimal",
       "unitPrice": "decimal",
       "priceIncludesTax": "boolean",
@@ -82,8 +82,6 @@ Here is a JSON representation of the resource.
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Item](../resources/dynamics_item.md)  
 [Get Item](../api/dynamics_item_get.md)  

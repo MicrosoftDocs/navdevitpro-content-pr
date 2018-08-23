@@ -22,7 +22,7 @@ Retrieve the properties and relationships of a purchase invoice line object for 
 ## HTTP request
 
 ```
-GET /businesscentral/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
+GET /financials/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and a **purchase
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
+GET https://graph.microsoft.com/beta/financials/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 **Response**
@@ -59,17 +59,7 @@ Here is an example of the response.
   "itemId": "id-value",
   "accountId": "id-value",
   "lineType": "Item",
-  "lineDetails": {
-    "number": "GL000009",
-    "displayName": "GL000009"
-  },
   "description": "someText",
-  "unitOfMeasure": {
-    "code": "BOX",
-    "displayName": "Box",
-    "symbol": null,
-    "unitConversion": null
-  },
   "unitCost": 71.1,
   "quantity": 96,
   "discountAmount": 0,
@@ -91,8 +81,6 @@ Here is an example of the response.
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Purchase Invoice Line](../resources/dynamics_purchaseinvoiceline.md)  
 [Create Purchase Invoice Line](../api/dynamics_create_purchaseinvoiceline.md)  

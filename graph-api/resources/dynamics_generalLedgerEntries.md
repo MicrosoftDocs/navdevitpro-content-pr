@@ -18,7 +18,7 @@ ms.author: solsen
 Represents a generalLedgerEntry object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
 
 ## Methods
 
@@ -29,8 +29,7 @@ Represents a generalLedgerEntry object in [!INCLUDE[d365fin_long_md](../../inclu
 ## Properties
 | Property	         | Type	                 |Description                                  |
 |:-------------------|:----------------------|:--------------------------------------------|
-|id                  |GUID                   |The unique ID of the G/L Entry.              |
-|number              |numeric                |Specifies the number of the G/L Entry.       |
+|id                  |numeric                |The unique ID of the G/L Entry.              |
 |postingDate         |date                   |Specifies the posting date of the G/L Entry. |
 |documentNumber      |string, maximum size 20|Specifies the document number of the G/L Entry.|
 |documentType        |string                 |Specifies the document type of the G/L Entry.|
@@ -52,8 +51,7 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-  "id": "GUID",
-  "number": "int",
+  "id": "int",
   "postingDate": "Date",
   "documentNumber": "string",
   "documentType": "string",
@@ -68,8 +66,6 @@ Here is a JSON representation of the resource.
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [General Ledger Entries](../resources/dynamics_generalledgerentries.md)  
 [Get General Ledger Entries](../api/dynamics_generalledgerentries_get.md)  

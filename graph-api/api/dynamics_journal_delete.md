@@ -19,7 +19,7 @@ Delete a journal from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 
 ## HTTP request
 ```
-DELETE /businesscentral/companies({id})/journals({id})
+DELETE /financials/companies({id})/journals({id})
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/journals({id})
+DELETE https://graph.microsoft.com/beta/financials/companies({id})/journals({id})
 ```
 
 **Response** 
@@ -57,8 +57,6 @@ HTTP/1.1 204 No Content
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Journal](../resources/dynamics_journal.md)  
 [Get Journal](../api/dynamics_journal_get.md)  

@@ -19,7 +19,7 @@ Retrieve the properties and relationships of a balance sheet report object for [
 
 ## HTTP request
 ```
-GET /businesscentral/companies({id})/balanceSheet
+GET /financials/companies({id})/balanceSheet
 ```
 
 ## Request headers
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and a **balanceS
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/balanceSheet?$orderby=lineNumber&$filter=dateFilter eq 2020-12-30
+GET https://graph.microsoft.com/beta/financials/companies({id})/balanceSheet?$orderby=lineNumber&$filter=dateFilter eq 2020-12-30
 ```
 
 **Response**
@@ -62,9 +62,7 @@ Here is an example of the response.
 
 
 ## See also
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)    
 [Error Codes](../dynamics_error_codes.md)  
 [Balance Sheet](../resources/dynamics_balancesheet.md)  
 [Get Cash Flow Statement](dynamics_cashflowstatement_get.md)  

@@ -18,7 +18,7 @@ ms.author: solsen
 Represents a tax area resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
 
 ## Methods
 | Method       | Return Type  |Description|
@@ -34,6 +34,7 @@ Represents a tax area resource type in [!INCLUDE[d365fin_long_md](../../includes
 |id|GUID|The unique ID of the tax area. Non-editable.|
 |code|string, maximum size 20| The code of the tax area.|
 |displayName|string, maximum size 50| The display name of the tax area.|
+|taxType|string|The tax type of the tax area.|
 |lastModifiedDateTime|datetime|The last datetime the tax area was modified. Read-Only.|
 
 ## Relationships
@@ -48,6 +49,7 @@ Here is a JSON representation of the resource.
   "id": "GUID",
   "code": "String",
   "displayName": "String",
+  "taxType": "String",
   "lastModifiedDateTime": "datetime"
 }
 ```
@@ -55,8 +57,6 @@ Here is a JSON representation of the resource.
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Get Tax Area](../api/dynamics_taxarea_get.md)  
 [Create Tax Area](../api/dynamics_create_taxarea.md)  

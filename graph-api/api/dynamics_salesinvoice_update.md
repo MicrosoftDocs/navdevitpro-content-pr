@@ -20,7 +20,7 @@ Update the properties of a sales invoice object for [!INCLUDE[d365fin_long_md](.
 ## HTTP request
 
 ```
-PATCH /businesscentral/companies({id})/salesInvoices({id})
+PATCH /financials/companies({id})/salesInvoices({id})
 ```
 
 ## Request headers
@@ -42,11 +42,11 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesInvoices({id})
+PATCH https://graph.microsoft.com/beta/financials/companies({id})/salesInvoices({id})
 Content-type: application/json
 
 {
-  "paymentTerms": "COD"
+  "invoiceDate": "2015-12-31"
 }
 ```
 
@@ -81,8 +81,8 @@ Content-type: application/json
   "currencyCode": "GBP",
   "orderId": "id-value",
   "orderNumber": "",
-  "paymentTerms": "COD",
-  "shipmentMethod": "",
+  "paymentTermsId": "id-value",
+  "shipmentMethodId": "id-value",
   "salesperson": "",
   "pricesIncludeTax": false,
   "discountAmount": 0,
@@ -98,8 +98,6 @@ Content-type: application/json
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Sales Invoice](../resources/dynamics_salesinvoice.md)  
 [Get Sales Invoice](../api/dynamics_salesinvoice_get.md)  

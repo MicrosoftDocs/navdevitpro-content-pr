@@ -19,7 +19,7 @@ Create a customer object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 
 ## HTTP request
 ```
-POST /businesscentral/companies({id})/customers
+POST /financials/companies({id})/customers
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and a **custo
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customers
+POST https://graph.microsoft.com/beta/financials/companies({id})/customers
 Content-type: application/json
 
 {
@@ -65,17 +65,8 @@ Content-type: application/json
   "currencyId": "currencyId-value",
   "currencyCode": "USD",
   "paymentTermsId": "paymentTermsId-value",
-  "paymentTerms": {
-    "code": "1M(8D)",
-    "description": "1 Month/2% 8 days"
-  },
   "shipmentMethodId": "shipmentMethodId-value",
-  "shipmentMethod": null,
   "paymentMethodId": "paymentMethodId-value",
-  "paymentMethod": {
-    "code": "BANK",
-    "description": "Bank Transfer"
-  },
   "blocked": " ",
   "overdueAmount": 0,
   "totalSalesExcludingTax": 0,
@@ -114,15 +105,6 @@ Content-type: application/json
   "taxAreaDisplayName": "tax area",
   "taxRegistrationNumber": "28012001T",
   "currencyCode": "USD",
-  "paymentTerms": {
-    "code": "1M(8D)",
-    "description": "1 Month/2% 8 days"
-  },
-  "shipmentMethod": null,
-  "paymentMethod": {
-    "code": "BANK",
-    "description": "Bank Transfer"
-  },
   "blocked": " ",
   "balance": 0,
   "overdueAmount": 0,
@@ -134,8 +116,6 @@ Content-type: application/json
 
 ## See Also  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Customer](../resources/dynamics_customer.md)  
 [Get Customers](dynamics_customer_get.md)  

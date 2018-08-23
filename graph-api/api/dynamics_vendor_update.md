@@ -19,7 +19,7 @@ Update the properties of a vendor object for [!INCLUDE[d365fin_long_md](../../in
 
 ## HTTP request
 ```
-PATCH /businesscentral/companies({id})/vendors({id})
+PATCH /financials/companies({id})/vendors({id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/vendors({id})
+PATCH https://graph.microsoft.com/beta/financials/companies({id})/vendors({id})
 Content-type: application/json
 
 {
@@ -78,14 +78,6 @@ Content-type: application/json
   "taxRegistrationNumber": "",
   "currencyCode": "USD",
   "irs1099Code": "",
-  "paymentTerms": {
-    "code": "CM",
-    "description": "Current Month"
-  },
-  "paymentMethod": {
-    "code": "BANK",
-    "description": "Bank Transfer"
-  },
   "taxLiable": true,
   "blocked": "Payment",
   "balance": 0,
@@ -97,8 +89,6 @@ Content-type: application/json
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Vendor](../resources/dynamics_vendor.md)  
 [Get Vendor](../api/dynamics_vendor_get.md)  

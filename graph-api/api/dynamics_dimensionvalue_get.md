@@ -22,7 +22,7 @@ Retrieve the properties and relationships of a dimension value object for [!INCL
 ## HTTP request
 
 ```
-GET /businesscentral/companies({id})/dimensions({id})/dimensionValues({id})
+GET /financials/companies({id})/dimensions({id})/dimensionValues({id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and a **dimensio
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/dimensions({id})/dimensionValues({id})
+GET https://graph.microsoft.com/beta/financials/companies({id})/dimensions({id})/dimensionValues({id})
 ```
 
 **Response**
@@ -63,7 +63,5 @@ Here is an example of the response.
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Dimension Value](../resources/dynamics_dimensionvalue.md)  

@@ -22,7 +22,7 @@ Retrieve the properties and relationships of a sales order line object for [!INC
 ## HTTP request
 
 ```
-GET /businesscentral/companies({id})/salesOrders({id})/salesOrderLines(documentId=({id}),sequence=({number}))
+GET /financials/companies({id})/salesOrders({id})/salesOrderLines
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and a **salesOrd
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesOrders({id})/salesOrderLines(documentId=({id}),sequence=({number}))
+GET https://graph.microsoft.com/beta/financials/companies({id})/salesOrders({id})/salesOrderLines
 ```
 
 **Response**
@@ -59,19 +59,8 @@ Here is an example of the response.
   "itemId": "id-value",
   "accountId": "id-value",
   "lineType": "Item",
-  "lineDetails": {
-    "number": "GL000091",
-    "displayName": "GL000091",
-    "description": null
-  },
   "description": "GL00000091",
   "unitOfMeasureId": "id-value",
-  "unitOfMeasure": {
-    "code": "BOX",
-    "displayName": "Box",
-    "symbol": null,
-    "unitConversion": null
-  },
   "quantity": 96,
   "unitPrice": 71.1,
   "discountAmount": 0,
@@ -97,8 +86,6 @@ Here is an example of the response.
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Sales Order Line](../resources/dynamics_salesorderline.md)  
 [Create Sales Order Line](../api/dynamics_create_salesorderline.md)  
