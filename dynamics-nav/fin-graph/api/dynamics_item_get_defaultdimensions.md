@@ -69,7 +69,7 @@ Here is an example of the response.
 [Post Items](dynamics_create_item.md)  
 [Update Item](dynamics_item_update.md)  
 [Delete Item](dynamics_item_delete.md)  
-[Create defaultDimensions Item](dynamics_item_create_defaultdimensions.md)  
-[Update defaultDimensions Item](dynamics_item_update_defaultdimensions.md)  
-[Delete defaultDimensions Item](dynamics_item_delete_defaultdimensions.md)  
+[Create item defaultDimensions](dynamics_item_create_defaultdimensions.md)  
+[Update item defaultDimensions](dynamics_item_update_defaultdimensions.md)  
+[Delete item defaultDimensions](dynamics_item_delete_defaultdimensions.md)  
 

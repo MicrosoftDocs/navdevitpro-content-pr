@@ -80,7 +80,7 @@ POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Item](../resources/dynamics_item.md)  
-[Get defaultDimensions Item](dynamics_item_get_defaultdimensions.md)  
-[Update defaultDimensions Item](dynamics_item_update_defaultdimensions.md)  
-[Delete defaultDimensions Item](dynamics_item_delete_defaultdimensions.md)  
+[Get item defaultDimensions](dynamics_item_get_defaultdimensions.md)  
+[Update item defaultDimensions](dynamics_item_update_defaultdimensions.md)  
+[Delete item defaultDimensions](dynamics_item_delete_defaultdimensions.md)  
  

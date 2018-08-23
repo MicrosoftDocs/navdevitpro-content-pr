@@ -68,7 +68,7 @@ Here is an example of the response.
 [Post Employees](dynamics_create_employee.md)  
 [Update Employee](dynamics_employee_update.md)  
 [Delete Employee](dynamics_employee_delete.md)  
-[Create defaultDimensions Employee](dynamics_employee_create_defaultdimensions.md)  
-[Update defaultDimensions Employee](dynamics_employee_update_defaultdimensions.md)  
-[Delete defaultDimensions Employee](dynamics_employee_delete_defaultdimensions.md)  
+[Create employee defaultDimensions](dynamics_employee_create_defaultdimensions.md)  
+[Update employee defaultDimensions](dynamics_employee_update_defaultdimensions.md)  
+[Delete employee defaultDimensions](dynamics_employee_delete_defaultdimensions.md)  
 

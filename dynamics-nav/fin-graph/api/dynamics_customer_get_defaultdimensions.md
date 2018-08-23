@@ -71,7 +71,7 @@ Here is an example of the response.
 [Post Customers](dynamics_create_customer.md)  
 [Update Customer](dynamics_customer_update.md)  
 [Delete Customer](dynamics_customer_delete.md)  
-[Create defaultDimensions Customer](dynamics_customer_create_defaultdimensions.md)  
-[Update defaultDimensions Customer](dynamics_customer_update_defaultdimensions.md)  
-[Delete defaultDimensions Customer](dynamics_customer_delete_defaultdimensions.md)  
+[Create customer defaultDimensions](dynamics_customer_create_defaultdimensions.md)  
+[Update customer defaultDimensions](dynamics_customer_update_defaultdimensions.md)  
+[Delete customer defaultDimensions](dynamics_customer_delete_defaultdimensions.md)  
 

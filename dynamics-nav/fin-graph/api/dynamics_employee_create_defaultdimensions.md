@@ -1,5 +1,5 @@
 ---
-title: Create defaultDimensions Employee | Microsoft Docs
+title: Create employee defaultDimensions | Microsoft Docs
 description: Creates a default dimensions of the employee object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 08/22/2018
 ms.author: solsen
 ---
 
-# Create defaultDimensions Employee
+# Create employee defaultDimensions
 Creates a default dimensions of the employee object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -80,7 +80,7 @@ POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Employee](../resources/dynamics_employee.md)  
-[Get defaultDimensions Employee](dynamics_employee_get_defaultdimensions.md)  
-[Update defaultDimensions Employee](dynamics_employee_update_defaultdimensions.md)  
-[Delete defaultDimensions Employee](dynamics_employee_delete_defaultdimensions.md)  
+[Get employee defaultDimensions](dynamics_employee_get_defaultdimensions.md)  
+[Update employee defaultDimensions](dynamics_employee_update_defaultdimensions.md)  
+[Delete employee defaultDimensions](dynamics_employee_delete_defaultdimensions.md)  
  

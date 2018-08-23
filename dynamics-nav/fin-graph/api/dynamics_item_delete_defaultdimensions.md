@@ -1,5 +1,5 @@
 ---
-title: Delete defaultDimensions Item | Microsoft Docs
+title: Delete item defaultDimensions | Microsoft Docs
 description: Deletes the default dimensions of the item in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 08/22/2018
 ms.author: solsen
 ---
 
-# Delete defaultDimensions Item
+# Delete item defaultDimensions
 Deletes the default dimensions of the item from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -54,6 +54,6 @@ No Content.
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Item](../resources/dynamics_item.md)  
-[Create defaultDimensions Item](dynamics_item_create_defaultdimensions.md)  
-[Update defaultDimensions Item](dynamics_item_update_defaultdimensions.md)  
-[Get defaultDimensions Item](dynamics_item_get_defaultdimensions.md)  
+[Create item defaultDimensions](dynamics_item_create_defaultdimensions.md)  
+[Update item defaultDimensions](dynamics_item_update_defaultdimensions.md)  
+[Get item defaultDimensions](dynamics_item_get_defaultdimensions.md)  

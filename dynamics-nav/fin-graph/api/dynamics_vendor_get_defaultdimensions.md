@@ -68,7 +68,7 @@ Here is an example of the response.
 [Post Vendors](dynamics_create_vendor.md)  
 [Update Vendor](dynamics_vendor_update.md)  
 [Delete Vendor](dynamics_vendor_delete.md)  
-[Create defaultDimensions Vendor](dynamics_vendor_create_defaultdimensions.md)  
-[Update defaultDimensions Vendor](dynamics_vendor_update_defaultdimensions.md)  
-[Delete defaultDimensions Vendor](dynamics_vendor_delete_defaultdimensions.md)  
+[Create vendor defaultDimensions](dynamics_vendor_create_defaultdimensions.md)  
+[Update vendor defaultDimensions](dynamics_vendor_update_defaultdimensions.md)  
+[Delete vendor defaultDimensions](dynamics_vendor_delete_defaultdimensions.md)  
 
