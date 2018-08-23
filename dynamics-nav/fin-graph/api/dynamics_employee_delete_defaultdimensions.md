@@ -1,5 +1,5 @@
 ---
-title: Delete defaultDimensions Employee | Microsoft Docs
+title: Delete employee defaultDimensions | Microsoft Docs
 description: Deletes the default dimensions of the employee in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 08/22/2018
 ms.author: solsen
 ---
 
-# Delete defaultDimensions Employee
+# Delete employee defaultDimensions
 Deletes the default dimensions of the employee from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request

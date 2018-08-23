@@ -1,5 +1,5 @@
 ---
-title: Update defaultDimensions Item | Microsoft Docs
+title: Update item defaultDimensions | Microsoft Docs
 description: Updates the item default dimensions in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 services: project-madeira
@@ -15,7 +15,7 @@ ms.date: 08/22/2018
 ms.author: solsen
 ---
 
-# Update defaultDimensions Item
+# Update item defaultDimensions
 Update the default dimensions of the item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 

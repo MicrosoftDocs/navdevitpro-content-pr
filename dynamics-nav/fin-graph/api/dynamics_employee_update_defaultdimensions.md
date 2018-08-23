@@ -1,5 +1,5 @@
 ---
-title: Update defaultDimensions Employee | Microsoft Docs
+title: Update employee defaultDimensions | Microsoft Docs
 description: Updates a employee default dimensions in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 services: project-madeira
@@ -15,7 +15,7 @@ ms.date: 08/22/2018
 ms.author: solsen
 ---
 
-# Update defaultDimensions Employee
+# Update employee defaultDimensions
 Update the default dimensions of the employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 

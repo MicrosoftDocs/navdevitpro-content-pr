@@ -1,5 +1,5 @@
 ---
-title: Delete defaultDimensions Vendor | Microsoft Docs
+title: Delete vendor defaultDimensions | Microsoft Docs
 description: Deletes the default dimensions of the vendor in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 08/22/2018
 ms.author: solsen
 ---
 
-# Delete defaultDimensions Vendor
+# Delete vendor defaultDimensions
 Deletes the default dimensions of the vendor from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request

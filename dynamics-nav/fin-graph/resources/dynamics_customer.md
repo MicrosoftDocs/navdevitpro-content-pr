@@ -31,10 +31,10 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 
 | Method    |Return Type| Description      |
 |:----------|:----------|:-----------------|
-|[GET defaultDimensions](../api/dynamics_customer_get_defaultdimensions.md)|default dimensions   |Gets the default dimensions of customer. |
-|[POST defaultDimensions](../api/dynamics_customer_create_defaultdimensions.md) |default dimensions  |Creates the default dimensions of  customer.|
-|[PATCH defaultDimensions](../api/dynamics_customer_update_defaultdimensions.md)|default dimensions  |Updates the default dimensions of customer.|
-|[DELETE defaultDimensions](../api/dynamics_customer_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of customer.  |
+|[GET customer defaultDimensions](../api/dynamics_customer_get_defaultdimensions.md)|default dimensions   |Gets the default dimensions of customer. |
+|[POST customer defaultDimensions](../api/dynamics_customer_create_defaultdimensions.md) |default dimensions  |Creates the default dimensions of  customer.|
+|[PATCH customer defaultDimensions](../api/dynamics_customer_update_defaultdimensions.md)|default dimensions  |Updates the default dimensions of customer.|
+|[DELETE customer defaultDimensions](../api/dynamics_customer_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of customer.  |
 
 
 ## Properties
