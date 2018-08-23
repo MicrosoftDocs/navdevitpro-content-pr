@@ -111,7 +111,7 @@
 ### [Create payment terms](api/dynamics_create_paymentterms.md)
 ### [Update payment terms](api/dynamics_paymentterms_update.md)
 ### [Delete payment terms](api/dynamics_paymentterms_delete.md)
-## [Picture](resources/dynamics_picture)
+## [Picture](resources/dynamics_picture.md)
 ### [Get picture](api/dynamics_picture_get.md)
 ### [Create picture](api/dynamics_create_picture.md)
 ### [Update picture](api/dynamics_picture_update.md)
