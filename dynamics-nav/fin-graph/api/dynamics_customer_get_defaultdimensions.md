@@ -13,7 +13,7 @@ ms.author: solsen
 ---
 
 # Get customer defaultDimensions
-Gets the default dimensions of the customer entity. 
+Gets the default dimensions of the customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request 
 The following example gets the default dimensions of the customer entity in the response body.

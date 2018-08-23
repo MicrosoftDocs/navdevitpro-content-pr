@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete employee defaultDimensions
-Deletes the default dimensions of the employee from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Deletes the default dimensions of the employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```

@@ -13,7 +13,7 @@ ms.author: solsen
 ---
 
 # Get item defaultDimensions
-Gets the default dimensions of the item entity. 
+Gets the default dimensions of the item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request 
 The following example gets the default dimensions of the item entity in the response body.

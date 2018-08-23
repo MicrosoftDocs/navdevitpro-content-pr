@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Delete customer defaultDimensions
-Deletes the default dimensions of the customer from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Deletes the default dimensions of the customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```

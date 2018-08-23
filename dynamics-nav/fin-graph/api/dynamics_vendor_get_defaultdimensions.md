@@ -13,7 +13,7 @@ ms.author: solsen
 ---
 
 # Get vendor defaultDimensions
-Gets the default dimensions of vendor entity. 
+Gets the default dimensions of the vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request 
 The following example gets the default dimensions of the vendor entity in the response body.

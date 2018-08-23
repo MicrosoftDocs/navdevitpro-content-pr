@@ -16,7 +16,7 @@ ms.author: solsen
 ---
 
 # Update employee defaultDimensions
-Update the default dimensions of the employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Updates the default dimensions of the employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 
 ## HTTP request

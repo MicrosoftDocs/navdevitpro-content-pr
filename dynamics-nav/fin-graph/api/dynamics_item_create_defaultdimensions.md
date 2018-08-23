@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create item defaultDimensions
-Creates a default dimensions of the item object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Creates the default dimensions of the item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```

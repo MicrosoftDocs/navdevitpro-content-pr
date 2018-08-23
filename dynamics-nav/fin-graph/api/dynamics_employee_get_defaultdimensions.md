@@ -13,7 +13,7 @@ ms.author: solsen
 ---
 
 # Get employee defaultDimensions
-Gets the default dimensions of employee entity. 
+Gets the default dimensions of the employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request 
 The following example gets the default dimensions of the employee entity in the response body.

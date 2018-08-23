@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create employee defaultDimensions
-Creates a default dimensions of the employee object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Creates the default dimensions of the employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
