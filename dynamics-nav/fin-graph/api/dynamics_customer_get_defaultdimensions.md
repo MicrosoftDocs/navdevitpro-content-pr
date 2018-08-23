@@ -59,7 +59,7 @@ Here is an example of the response.
             "dimensionCode":"DEPARTMENT",
             "dimensionValueId":"1045a902-070a-4d31-b2b1-b9431e9e5b26",
             "dimensionValueCode":"PROD",
-            "valuePosting":"Same Code"
+            "postingValidation":"Same Code"
         }
     ]
 } 
