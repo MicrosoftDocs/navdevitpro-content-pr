@@ -1,5 +1,5 @@
 ---
-title: Update defaultDimensions Item | Microsoft Docs
+title: Update item defaultDimensions | Microsoft Docs
 description: Updates the item default dimensions in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 services: project-madeira
@@ -15,7 +15,7 @@ ms.date: 08/22/2018
 ms.author: solsen
 ---
 
-# Update defaultDimensions Item
+# Update item defaultDimensions
 Update the default dimensions of the item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 
@@ -55,7 +55,7 @@ PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyI
 {
   "dimensionValueId":"1045a902-070a-4d31-b2b1-b9431e9e5b26",
   "dimensionValueCode":"PROD",
-  "valuePosting":"Same Code"
+  "postingValidation":"Same Code"
 }
 ```
 
@@ -78,7 +78,7 @@ Here is an example of the response.
             "dimensionCode":"DEPARTMENT",
             "dimensionValueId":"1045a902-070a-4d31-b2b1-b9431e9e5b26",
             "dimensionValueCode":"PROD",
-            "valuePosting":"Same Code"
+            "postingValidation":"Same Code"
         }
     ]
 }
@@ -90,6 +90,6 @@ Here is an example of the response.
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Items](../resources/dynamics_item.md)  
-[Create defaultDimensions Item](dynamics_item_create_defaultdimensions.md)  
-[Get defaultDimensions Item](dynamics_item_get_defaultdimensions.md)  
-[Delete defaultDimensions Item](dynamics_item_delete_defaultdimensions.md)  
+[Create item defaultDimensions](dynamics_item_create_defaultdimensions.md)  
+[Get item defaultDimensions](dynamics_item_get_defaultdimensions.md)  
+[Delete item defaultDimensions](dynamics_item_delete_defaultdimensions.md)  

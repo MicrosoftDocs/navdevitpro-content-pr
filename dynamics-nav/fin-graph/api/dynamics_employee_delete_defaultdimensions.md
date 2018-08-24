@@ -1,5 +1,5 @@
 ---
-title: Delete defaultDimensions Employee | Microsoft Docs
+title: Delete employee defaultDimensions | Microsoft Docs
 description: Deletes the default dimensions of the employee in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -14,8 +14,8 @@ ms.date: 08/22/2018
 ms.author: solsen
 ---
 
-# Delete defaultDimensions Employee
-Deletes the default dimensions of the employee from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+# Delete employee defaultDimensions
+Deletes the default dimensions of the employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
@@ -54,6 +54,6 @@ No Content.
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Employee](../resources/dynamics_employee.md)  
-[Create defaultDimensions Employee](dynamics_employee_create_defaultdimensions.md)  
-[Update defaultDimensions Employee](dynamics_employee_update_defaultdimensions.md)  
-[Get defaultDimensions Employee](dynamics_employee_get_defaultdimensions.md)  
+[Create employee defaultDimensions](dynamics_employee_create_defaultdimensions.md)  
+[Update employee defaultDimensions](dynamics_employee_update_defaultdimensions.md)  
+[Get employee defaultDimensions](dynamics_employee_get_defaultdimensions.md)  

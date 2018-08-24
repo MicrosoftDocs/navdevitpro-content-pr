@@ -1,5 +1,5 @@
 ---
-title: Get defaultDimensions Item | Microsoft Docs
+title: Get item defaultDimensions | Microsoft Docs
 description: Gets an item default dimensions in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 
@@ -12,8 +12,8 @@ ms.date: 08/20/2018
 ms.author: solsen
 ---
 
-# Get defaultDimensions Item
-Gets the default dimensions of the item entity. 
+# Get item defaultDimensions
+Gets the default dimensions of the item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request 
 The following example gets the default dimensions of the item entity in the response body.
@@ -57,7 +57,7 @@ Here is an example of the response.
             "dimensionCode":"DEPARTMENT",
             "dimensionValueId":"1045a902-070a-4d31-b2b1-b9431e9e5b26",
             "dimensionValueCode":"PROD",
-            "valuePosting":"Same Code"
+            "postingValidation":"Same Code"
         }
     ]
 } 
@@ -69,7 +69,7 @@ Here is an example of the response.
 [Post Items](dynamics_create_item.md)  
 [Update Item](dynamics_item_update.md)  
 [Delete Item](dynamics_item_delete.md)  
-[Create defaultDimensions Item](dynamics_item_create_defaultdimensions.md)  
-[Update defaultDimensions Item](dynamics_item_update_defaultdimensions.md)  
-[Delete defaultDimensions Item](dynamics_item_delete_defaultdimensions.md)  
+[Create item defaultDimensions](dynamics_item_create_defaultdimensions.md)  
+[Update item defaultDimensions](dynamics_item_update_defaultdimensions.md)  
+[Delete item defaultDimensions](dynamics_item_delete_defaultdimensions.md)  
 

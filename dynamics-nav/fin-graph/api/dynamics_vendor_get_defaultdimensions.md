@@ -1,5 +1,5 @@
 ---
-title: Get defaultDimensions Vendor | Microsoft Docs
+title: Get vendor defaultDimensions | Microsoft Docs
 description: Gets a vendor default dimensions in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 
@@ -12,8 +12,8 @@ ms.date: 08/20/2018
 ms.author: solsen
 ---
 
-# Get defaultDimensions Vendor
-Gets the default dimensions of vendor entity. 
+# Get vendor defaultDimensions
+Gets the default dimensions of the vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request 
 The following example gets the default dimensions of the vendor entity in the response body.
@@ -56,7 +56,7 @@ Here is an example of the response.
             "dimensionCode":"DEPARTMENT",
             "dimensionValueId":"1045a902-070a-4d31-b2b1-b9431e9e5b26",
             "dimensionValueCode":"PROD",
-            "valuePosting":"Same Code"
+            "postingValidation":"Same Code"
         }
     ]
 } 
@@ -68,7 +68,7 @@ Here is an example of the response.
 [Post Vendors](dynamics_create_vendor.md)  
 [Update Vendor](dynamics_vendor_update.md)  
 [Delete Vendor](dynamics_vendor_delete.md)  
-[Create defaultDimensions Vendor](dynamics_vendor_create_defaultdimensions.md)  
-[Update defaultDimensions Vendor](dynamics_vendor_update_defaultdimensions.md)  
-[Delete defaultDimensions Vendor](dynamics_vendor_delete_defaultdimensions.md)  
+[Create vendor defaultDimensions](dynamics_vendor_create_defaultdimensions.md)  
+[Update vendor defaultDimensions](dynamics_vendor_update_defaultdimensions.md)  
+[Delete vendor defaultDimensions](dynamics_vendor_delete_defaultdimensions.md)  
 

@@ -1,5 +1,5 @@
 ---
-title: Create defaultDimensions Item | Microsoft Docs
+title: Create item defaultDimensions | Microsoft Docs
 description: Creates a default dimensions of the item object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -14,8 +14,8 @@ ms.date: 08/22/2018
 ms.author: solsen
 ---
 
-# Create defaultDimensions Item
-Creates a default dimensions of the item object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+# Create item defaultDimensions
+Creates the default dimensions of the item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
@@ -55,7 +55,7 @@ POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId
     "dimensionCode":"DEPARTMENT",
     "dimensionValueId":"1045a902-070a-4d31-b2b1-b9431e9e5b26",
     "dimensionValueCode":"PROD",
-    "valuePosting":"Same Code"
+    "postingValidation":"Same Code"
 }
 ```
 **Response**
@@ -68,7 +68,7 @@ POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId
         {
             "@odata.etag":"W/\"JzQ0OzNPaHFuS0ZQdk5oc3ZkSW9KdzVkdXk2LytjcmNqeHJJOU05SjZ1aFBYVjQ9MTswMDsn\"",
             "parentId":"b3fbe87a-61b8-4a6c-85de-0555f1627a67","dimensionId":"d5fc81ea-8687-4e9d-9c49-7fde28ccdb1a","dimensionCode":"DEPARTMENT","dimensionValueId":"1045a902-070a-4d31-b2b1-b9431e9e5b26","dimensionValueCode":"PROD",
-            "valuePosting":"Same Code"
+            "postingValidation":"Same Code"
         }
     ]
 }
@@ -80,7 +80,7 @@ POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Item](../resources/dynamics_item.md)  
-[Get defaultDimensions Item](dynamics_item_get_defaultdimensions.md)  
-[Update defaultDimensions Item](dynamics_item_update_defaultdimensions.md)  
-[Delete defaultDimensions Item](dynamics_item_delete_defaultdimensions.md)  
+[Get item defaultDimensions](dynamics_item_get_defaultdimensions.md)  
+[Update item defaultDimensions](dynamics_item_update_defaultdimensions.md)  
+[Delete item defaultDimensions](dynamics_item_delete_defaultdimensions.md)  
  

@@ -1,5 +1,5 @@
 ---
-title: Delete defaultDimensions Customer | Microsoft Docs
+title: Delete customer defaultDimensions | Microsoft Docs
 description: Deletes the default dimensions of the customer in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -14,8 +14,8 @@ ms.date: 08/22/2018
 ms.author: solsen
 ---
 
-# Delete defaultDimensions Customer
-Deletes the default dimensions of the customer from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+# Delete customer defaultDimensions
+Deletes the default dimensions of the customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
@@ -54,6 +54,6 @@ No Content.
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Customer](../resources/dynamics_customer.md)  
-[Create defaultDimensions Customer](dynamics_customer_create_defaultdimensions.md)  
-[Update defaultDimensions Customer](dynamics_customer_update_defaultdimensions.md)  
-[Get defaultDimensions Customer](dynamics_customer_get_defaultdimensions.md)  
+[Create customer defaultDimensions](dynamics_customer_create_defaultdimensions.md)  
+[Update customer defaultDimensions](dynamics_customer_update_defaultdimensions.md)  
+[Get customer defaultDimensions](dynamics_customer_get_defaultdimensions.md)  

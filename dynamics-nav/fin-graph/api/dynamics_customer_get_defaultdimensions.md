@@ -1,5 +1,5 @@
 ---
-title: Get defaultDimensions Customer | Microsoft Docs
+title: Get customer defaultDimensions | Microsoft Docs
 description: Gets a customer default dimensions in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 
@@ -12,8 +12,8 @@ ms.date: 08/20/2018
 ms.author: solsen
 ---
 
-# Get defaultDimensions Customer
-Gets the default dimensions of the customer entity. 
+# Get customer defaultDimensions
+Gets the default dimensions of the customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request 
 The following example gets the default dimensions of the customer entity in the response body.
@@ -59,7 +59,7 @@ Here is an example of the response.
             "dimensionCode":"DEPARTMENT",
             "dimensionValueId":"1045a902-070a-4d31-b2b1-b9431e9e5b26",
             "dimensionValueCode":"PROD",
-            "valuePosting":"Same Code"
+            "postingValidation":"Same Code"
         }
     ]
 } 
@@ -71,7 +71,7 @@ Here is an example of the response.
 [Post Customers](dynamics_create_customer.md)  
 [Update Customer](dynamics_customer_update.md)  
 [Delete Customer](dynamics_customer_delete.md)  
-[Create defaultDimensions Customer](dynamics_customer_create_defaultdimensions.md)  
-[Update defaultDimensions Customer](dynamics_customer_update_defaultdimensions.md)  
-[Delete defaultDimensions Customer](dynamics_customer_delete_defaultdimensions.md)  
+[Create customer defaultDimensions](dynamics_customer_create_defaultdimensions.md)  
+[Update customer defaultDimensions](dynamics_customer_update_defaultdimensions.md)  
+[Delete customer defaultDimensions](dynamics_customer_delete_defaultdimensions.md)  
 

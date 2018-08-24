@@ -1,5 +1,5 @@
 ---
-title: Get defaultDimensions Employee | Microsoft Docs
+title: Get employee defaultDimensions | Microsoft Docs
 description: Gets a employee default dimensions in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 
@@ -12,8 +12,8 @@ ms.date: 08/20/2018
 ms.author: solsen
 ---
 
-# Get defaultDimensions Employee
-Gets the default dimensions of employee entity. 
+# Get employee defaultDimensions
+Gets the default dimensions of the employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request 
 The following example gets the default dimensions of the employee entity in the response body.
@@ -56,7 +56,7 @@ Here is an example of the response.
             "dimensionCode":"DEPARTMENT",
             "dimensionValueId":"1045a902-070a-4d31-b2b1-b9431e9e5b26",
             "dimensionValueCode":"PROD",
-            "valuePosting":"Same Code"
+            "postingValidation":"Same Code"
         }
     ]
 } 
@@ -68,7 +68,7 @@ Here is an example of the response.
 [Post Employees](dynamics_create_employee.md)  
 [Update Employee](dynamics_employee_update.md)  
 [Delete Employee](dynamics_employee_delete.md)  
-[Create defaultDimensions Employee](dynamics_employee_create_defaultdimensions.md)  
-[Update defaultDimensions Employee](dynamics_employee_update_defaultdimensions.md)  
-[Delete defaultDimensions Employee](dynamics_employee_delete_defaultdimensions.md)  
+[Create employee defaultDimensions](dynamics_employee_create_defaultdimensions.md)  
+[Update employee defaultDimensions](dynamics_employee_update_defaultdimensions.md)  
+[Delete employee defaultDimensions](dynamics_employee_delete_defaultdimensions.md)  
 
