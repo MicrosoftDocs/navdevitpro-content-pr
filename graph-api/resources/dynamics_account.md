@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,10 +15,9 @@ ms.author: solsen
 ---
 
 # accounts resource type
-Represents an account object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents an account object in Dynamics 365 Business Central.
 
-> [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
+> **Note**: For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
 
 ## Methods
 
@@ -59,7 +58,7 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Working with Dynamics 365 Business Central in Microsoft Graph](../resources/dynamics_overview.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Get Account](../api/dynamics_account_get.md)  
 [Aged Accounts Payable](dynamics_agedaccountspayable.md)  

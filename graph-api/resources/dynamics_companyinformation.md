@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,10 +15,7 @@ ms.author: solsen
 ---
  
 # companyInformation resource type
-Represents the information specified for the current company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)], such as name, address, email address, and website address.
-
-> [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
+Represents the information specified for the current company in Dynamics 365 Business Central, such as name, address, email address, and website address.
 
 ## Methods
 
@@ -74,4 +71,4 @@ Here is a JSON representation of the companyInformation
 ```
 
 ## See also
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with Dynamics 365 Business Central in Microsoft Graph](../resources/dynamics_overview.md) 

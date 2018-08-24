@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,10 +15,7 @@ ms.author: solsen
 ---
 
 # agedAccountsReceivable resource type
-Represents an agedAccountsReceivable object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)], which is showing the aging of a customer account.
-
-> [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)], see .
+Represents an agedAccountsReceivable object in Dynamics 365 Business Central, which is showing the aging of a customer account.
 
 ## Methods
 
@@ -67,7 +64,7 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Working with Dynamics 365 Business Central in Microsoft Graph](../resources/dynamics_overview.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Get Aged Accounts Receivable](../api/dynamics_agedaccountsreceivable_get.md)  
 [Aged Accounts Payable](dynamics_agedaccountspayable.md)  
