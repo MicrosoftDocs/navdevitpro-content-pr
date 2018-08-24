@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,10 +15,7 @@ ms.author: solsen
 ---
 
 # salesInvoices resource type
-Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
-
-> [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
+Represents a sales invoice in Dynamics 365 Business Central. 
 
 ## Methods
 
@@ -126,7 +123,7 @@ The response has no content; the response code is 204.
 
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Working with Dynamics 365 Business Central in Microsoft Graph](../resources/dynamics_overview.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Get Sales Invoice](../api/dynamics_salesinvoice_get.md)  
 [Create Sales Invoice](../api/dynamics_create_salesinvoice.md)  

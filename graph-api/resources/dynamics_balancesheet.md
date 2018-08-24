@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,10 +15,7 @@ ms.author: solsen
 ---
 
 # balanceSheet resource type
-Represents a balanceSheet object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. A balance sheet is a statement of the assets, liabilities, and capital of a business at a specific point in time.
-
-> [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
+Represents a balanceSheet object in Dynamics 365 Business Central. A balance sheet is a statement of the assets, liabilities, and capital of a business at a specific point in time.
 
 ## Methods
 
@@ -57,7 +54,7 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Working with Dynamics 365 Business Central in Microsoft Graph](../resources/dynamics_overview.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Get Balance Sheet](../api/dynamics_balancesheet_get.md)  
 [Cash Flow Statement](dynamics_cashflowstatement.md)  
