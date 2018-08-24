@@ -33,10 +33,10 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 
 | Method    |Return Type| Description      |
 |:----------|:----------|:-----------------|
-|[GET defaultDimensions](../api/dynamics_vendor_get_defaultdimensions.md)|default dimensions   |Gets the default dimensions of vendor. |
-|[POST defaultDimensions](../api/dynamics_vendor_create_defaultdimensions.md) |default dimensions  |Creates the default dimensions of  vendor.|
-|[PATCH defaultDimensions](../api/dynamics_vendor_update_defaultdimensions.md)|default dimensions  |Updates the default dimensions of vendor.|
-|[DELETE defaultDimensions](../api/dynamics_vendor_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of vendor.  |
+|[GET vendor defaultDimensions](../api/dynamics_vendor_get_defaultdimensions.md)|default dimensions   |Gets the default dimensions of vendor. |
+|[POST vendor defaultDimensions](../api/dynamics_vendor_create_defaultdimensions.md) |default dimensions  |Creates the default dimensions of  vendor.|
+|[PATCH vendor defaultDimensions](../api/dynamics_vendor_update_defaultdimensions.md)|default dimensions  |Updates the default dimensions of vendor.|
+|[DELETE vendor defaultDimensions](../api/dynamics_vendor_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of vendor.  |
 
 ## Properties
 | Property	   | Type	|Description|
