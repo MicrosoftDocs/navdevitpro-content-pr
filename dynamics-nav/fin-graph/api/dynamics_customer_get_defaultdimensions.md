@@ -66,11 +66,12 @@ Here is an example of the response.
 ```
 
 ## See Also
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
 [Customers](../resources/dynamics_customer.md)  
-[Get Customers](dynamics_customer_get.md)  
-[Post Customers](dynamics_create_customer.md)  
-[Update Customer](dynamics_customer_update.md)  
-[Delete Customer](dynamics_customer_delete.md)  
 [Create customer defaultDimensions](dynamics_customer_create_defaultdimensions.md)  
 [Update customer defaultDimensions](dynamics_customer_update_defaultdimensions.md)  
 [Delete customer defaultDimensions](dynamics_customer_delete_defaultdimensions.md)  

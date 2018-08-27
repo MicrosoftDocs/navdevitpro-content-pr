@@ -77,6 +77,7 @@ POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId
 ```
 
 ## See Also  
+[Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  

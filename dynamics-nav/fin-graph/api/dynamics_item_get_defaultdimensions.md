@@ -64,11 +64,12 @@ Here is an example of the response.
 ```
 
 ## See Also
+[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
+[Error Codes](../dynamics_error_codes.md)  
 [Items](../resources/dynamics_item.md)  
-[Get Items](dynamics_item_get.md)  
-[Post Items](dynamics_create_item.md)  
-[Update Item](dynamics_item_update.md)  
-[Delete Item](dynamics_item_delete.md)  
 [Create item defaultDimensions](dynamics_item_create_defaultdimensions.md)  
 [Update item defaultDimensions](dynamics_item_update_defaultdimensions.md)  
 [Delete item defaultDimensions](dynamics_item_delete_defaultdimensions.md)  
