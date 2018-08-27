@@ -52,9 +52,7 @@ POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId
 {
     "parentId":"b3fbe87a-61b8-4a6c-85de-0555f1627a67",
     "dimensionId":"d5fc81ea-8687-4e9d-9c49-7fde28ccdb1a",
-    "dimensionCode":"DEPARTMENT",
     "dimensionValueId":"1045a902-070a-4d31-b2b1-b9431e9e5b26",
-    "dimensionValueCode":"PROD",
     "postingValidation":"Same Code"
 }
 ```
@@ -67,7 +65,11 @@ POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId
     [
         {
             "@odata.etag":"W/\"JzQ0OzNPaHFuS0ZQdk5oc3ZkSW9KdzVkdXk2LytjcmNqeHJJOU05SjZ1aFBYVjQ9MTswMDsn\"",
-            "parentId":"b3fbe87a-61b8-4a6c-85de-0555f1627a67","dimensionId":"d5fc81ea-8687-4e9d-9c49-7fde28ccdb1a","dimensionCode":"DEPARTMENT","dimensionValueId":"1045a902-070a-4d31-b2b1-b9431e9e5b26","dimensionValueCode":"PROD",
+            "parentId":"b3fbe87a-61b8-4a6c-85de-0555f1627a67",
+            "dimensionId":"d5fc81ea-8687-4e9d-9c49-7fde28ccdb1a",
+            "dimensionCode":"DEPARTMENT",
+            "dimensionValueId":"1045a902-070a-4d31-b2b1-b9431e9e5b26",
+            "dimensionValueCode":"PROD",
             "postingValidation":"Same Code"
         }
     ]

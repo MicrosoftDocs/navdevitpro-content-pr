@@ -54,7 +54,6 @@ PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyI
 ```
 {
   "dimensionValueId":"1045a902-070a-4d31-b2b1-b9431e9e5b26",
-  "dimensionValueCode":"PROD",
   "postingValidation":"Same Code"
 }
 ```
