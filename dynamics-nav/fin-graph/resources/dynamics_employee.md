@@ -33,10 +33,10 @@ Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 
 | Method    |Return Type| Description      |
 |:----------|:----------|:-----------------|
-|[GET defaultDimensions](../api/dynamics_employee_get_defaultdimensions.md)|default dimensions   |Gets the default dimensions of employee. |
-|[POST defaultDimensions](../api/dynamics_employee_create_defaultdimensions.md) |default dimensions  |Creates the default dimensions of  employee.|
-|[PATCH defaultDimensions](../api/dynamics_employee_update_defaultdimensions.md)|default dimensions  |Updates the default dimensions of employee.|
-|[DELETE defaultDimensions](../api/dynamics_employee_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of employee.  |
+|[GET employee defaultDimensions](../api/dynamics_employee_get_defaultdimensions.md)|default dimensions   |Gets the default dimensions of employee. |
+|[POST employee defaultDimensions](../api/dynamics_employee_create_defaultdimensions.md) |default dimensions  |Creates the default dimensions of  employee.|
+|[PATCH employee defaultDimensions](../api/dynamics_employee_update_defaultdimensions.md)|default dimensions  |Updates the default dimensions of employee.|
+|[DELETE employee defaultDimensions](../api/dynamics_employee_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of employee.  |
 
 ## Properties
 | Property	         | Type	  |Description                                            |
