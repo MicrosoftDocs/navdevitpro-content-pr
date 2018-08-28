@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,10 +15,7 @@ ms.author: solsen
 ---
 
 # paymentMethods resource type
-Represents a method of payment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)], such as PayPal, credit card, and bank account.
-
-> [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
+Represents a method of payment in Dynamics 365 Business Central, such as PayPal, credit card, and bank account.
 
 ## Methods
 
@@ -58,7 +55,7 @@ Here is a JSON representation of the paymentMethods.
 
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Working with Dynamics 365 Business Central in Microsoft Graph](../resources/dynamics_overview.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Get Payment Methods](../api/dynamics_paymentmethods_get.md)  
 [Create Payment Methods](../api/dynamics_create_paymentmethods.md)  

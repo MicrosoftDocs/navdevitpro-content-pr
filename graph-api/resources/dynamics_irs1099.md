@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,10 +15,7 @@ ms.author: solsen
 ---
 
 # irs1099Codes resource type
-Represents an irs1099Codes object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. IRS 1099 codes are used for reporting to the IRS.
-
-> [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
+Represents an irs1099Codes object in Dynamics 365 Business Central. IRS 1099 codes are used for reporting to the IRS.
 
 ## Methods
 
@@ -59,7 +56,7 @@ Here is a JSON representation of the irs1099Codes.
 ```
 
 ## See also
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Working with Dynamics 365 Business Central in Microsoft Graph](../resources/dynamics_overview.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Get IRS 1099](../api/dynamics_irs1099_get.md)  
 [Post IRS 1099](../api/dynamics_create_irs1099.md)  

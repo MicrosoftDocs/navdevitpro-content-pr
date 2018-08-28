@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Update taxAreas
-Update the properties of a tax area object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Update the properties of a tax area object for Dynamics 365 Business Central.
 
 ## HTTP request
 
@@ -55,8 +55,7 @@ Content-type: application/json
 
 Here is an example of the response. 
 
-> [!NOTE]  
->   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+> **Note**: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK

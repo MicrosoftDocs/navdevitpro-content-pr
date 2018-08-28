@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,10 +15,7 @@ ms.author: solsen
 ---
 
 # unitsOfMeasure resource type
-Represents a unit of measure, which is a standard of measurement of a quantity, in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
-
-> [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
+Represents a unit of measure, which is a standard of measurement of a quantity, in Dynamics 365 Business Central.
 
 ## Methods
 
@@ -59,7 +56,7 @@ Here is a JSON representation of the **unitsOfMeasure** resource.
 
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Working with Dynamics 365 Business Central in Microsoft Graph](../resources/dynamics_overview.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Get Units of Measure](../api/dynamics_unitsofmeasure_get.md)  
 [Create Units of Measure](../api/dynamics_create_unitsofmeasure.md)  

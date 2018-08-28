@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Create items
-Create an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] for use on invoices, quotes, etc.
+Create an item in Dynamics 365 Business Central for use on invoices, quotes, etc.
 
 ## HTTP request
 ```
@@ -64,8 +64,7 @@ Content-type: application/json
 
 Here is an example of the response. 
 
-> [!NOTE]  
->   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+> **Note**: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 201 Created
@@ -80,7 +79,7 @@ Content-type: application/json
 ```
 
 ## See also
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Working with Dynamics 365 Business Central in Microsoft Graph](../resources/dynamics_overview.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Item](../resources/dynamics_item.md)  
 [Get Item](../api/dynamics_item_get.md)  

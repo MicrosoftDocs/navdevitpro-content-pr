@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,10 +15,7 @@ ms.author: solsen
 ---
 
 # salesCreditMemos resource type
-Represents a sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
-
-> [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
+Represents a sales credit memo in Dynamics 365 Business Central. 
 
 ## Methods
 
@@ -103,7 +100,7 @@ Here is a JSON representation of the resource.
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+[Working with Dynamics 365 Business Central in Microsoft Graph](../resources/dynamics_overview.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Get Sales Credit Memo](../api/dynamics_salescreditmemo_get.md)  
 [Create Sales Credit Memo](../api/dynamics_create_salescreditmemo.md)  

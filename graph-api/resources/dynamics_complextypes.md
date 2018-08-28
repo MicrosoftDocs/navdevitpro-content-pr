@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,14 +15,11 @@ ms.author: solsen
 ---
 
 # complex types JSON
-These are the various complex types in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. You can see usage of these complex types in the various individual methods that make use of them.
-
-> [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
+These are the various complex types in Dynamics 365 Business Central. You can see usage of these complex types in the various individual methods that make use of them.
 
 ## Postal address
 
-Represents a Postal Address complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
+Represents a Postal Address complex type in Dynamics 365 Business Central.       
 
 ### Properties
 | Property	   | Type	    |Description             |
