@@ -3,10 +3,11 @@ title: "System Requirements for Microsoft Dynamics NAV 2017"
 description: This article provides the specifications of minimum hardware and software requirements to install and run Microsoft Dynamics NAV 2017.
 author: edupont04
 ms.custom: na
-ms.date: 10/13/2017
+ms.date: 08/28/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
+ms.author: edupont
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 014e3285-02be-459c-9a54-eae45ea71e04
@@ -17,42 +18,6 @@ ms.assetid: 014e3285-02be-459c-9a54-eae45ea71e04
 **Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [See [!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](System-Requirements-for-Microsoft-Dynamics-NAV.md).
 
 The following sections list the specifications of minimum hardware and software requirements to install and run [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. **Minimum** means that later versions \(such as SP1, SP2, or R2 versions\) of a required software product are also supported.  
-
-**Client components**  
-
--   [Microsoft Dynamics NAV Windows Client Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#WinClient)  
-
--   [Microsoft Dynamics NAV Development Environment Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#DevEnv)  
-
--   [Microsoft Dynamics NAV Web Client Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#WebClient)  
-
--   [Microsoft Dynamics NAV Tablet Client and Phone Client (in a Browser) Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#NavApps)  
-
--   [Microsoft Dynamics NAV Universal App Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#DynNAVApp)  
-
-**Server components**  
-
--   [Microsoft Dynamics NAV Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#NavServerReqs)  
-
--   [Microsoft Dynamics NAV Web Server Components Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#WebServer)  
-
--   [Microsoft Dynamics NAV Database Components for SQL Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#SQLReq)  
-
--   [Microsoft Dynamics NAV Help Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#HelpServer)  
-
-**Additional components and features**  
-
--   [Microsoft Dynamics NAV as an App for SharePoint Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#SharePointApp)  
-
--   [Automated Data Capture System Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#ADCS)  
-
--   [Business Inbox in Microsoft Outlook Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#BusInboxOutlook)  
-
--   [Microsoft Outlook Add-In Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#Outlook)  
-
--   [Microsoft Dynamics CRM Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#CRM)  
-
--   [Automated Deployment on Microsoft Azure Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2017.md#Azure)  
 
 > [!NOTE]  
 >  [!INCLUDE[navnow](includes/navnow_md.md)] Setup installs some software if it is not already present in the target computer. For more information, see the "Additional Information" section for each component.  
@@ -70,7 +35,7 @@ The following sections list the specifications of minimum hardware and software 
 |Import and export with Microsoft Excel and Office XML, and SharePoint links|-   Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.|  
 |Editing in Excel using the Excel Add-in |Excel 2016,<br /><br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).|  
 |OneNote integration|-   Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 2010 SP2.|  
-|Email logging|-   Active Directory and Microsoft Exchange Server 2010 or Microsoft Exchange Server 2013.<br />-   Microsoft Exchange Online, or Exchange Online as part of an Office 365 subscription.|  
+|Email logging|-   Active Directory and Microsoft Exchange Server 2013.<br />-   Microsoft Exchange Online, or Exchange Online as part of an Office 365 subscription.|  
 |Additional software|-   Microsoft .NET Framework 4.5.2.|  
 |Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present in the target computer:<br /><br /> <ul><li>Microsoft .NET Framework 4.5.2.</li><li>Microsoft Report Viewer2015.</li></ul></li><li>The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is available in a 32-bit version and 64-bit version. On a 32-bit Windows operating system, the 32-bit version is run. On a 64-bit Windows operating system, the 64-bit version is run by default; however, you can also run the 32-bit version if it is required.</li><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup can only install the Excel Add-in if Excel is present on the target computer.</li><li>Outlook synchronization is not supported on 64-bit versions of Office.</li><li>**Note:** We’ve had reports that .NET framework 4.7 can cause the Windows client environment to crash. In this case the solution is to uninstall .NET framework 4.7.</li></ul>|  
 
