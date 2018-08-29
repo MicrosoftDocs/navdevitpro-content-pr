@@ -10,6 +10,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.author: rweigel
+redirect_url: /dynamics365/business-central/dev-itpro/compliance/apptest-webservices
 ---
 
 # Restrictions on UI for Objects Exposed as Web Services

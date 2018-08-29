@@ -3,13 +3,13 @@ title: Spanish Features that are Moved, Removed, or Replaced | Microsoft Docs
 description: We are constantly streamlining and adjusting our app in-step with market developments. Read about the features for Spain that we have moved, removed, or replaced.
 author: bholtorf
 
-ms.service: dynamics365-financials
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: deprecated, Spain, local functionality
-ms.date: 12/21/2017
+ms.date: 08/23/2018
 ms.author: SorenGP
 
 ---
@@ -23,6 +23,13 @@ The **G/L Account Equivalency** tool that was used for one-time conversion of an
 |Moved, Removed, or Replaced?|Why?|
 |----|----|
 |Removed| The **G/L Account Equivalency** tool that was used for one-time conversion of an existing chart of accounts to a new one has been removed. |
+
+## Objects or Fields Deleted in [!INCLUDE[nav2018](includes/nav2018_md.md)]
+The following list shows fields that are deleted as a result of removed features.  
+
+|Table ID|Table Name|Field ID|Field Name|
+|--------|--------|----------|-----------|
+|263|Intrastat Jnl. Line|10500|Shipment Method|
 
 ## See Also
 [Upgrading to Microsoft Dynamics NAV 2018](upgrading-to-microsoft-dynamics-nav.md)  
