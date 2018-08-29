@@ -9,8 +9,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: deprecated, Norway, local functionality
-ms.date: 07/23/2018
-ms.author: SorenGP
+ms.date: 08/29/2018
+ms.author: bholtorf
 
 ---
 
@@ -23,6 +23,13 @@ When you create finance charge terms and reminder terms, for delayed payment pen
 |Moved, Removed, or Replaced?|Why?|
 |----|----|
 |Moved| The Multiple Interest Rates feature is no longer specific to Norway, so we have made it generally available in the standard product. |
+
+## Paper Sources and Tray Numbers
+When printing Norwegian sales documents, you can set up different tray numbers and paper sources on the first, last, and other pages.
+
+|Moved, Removed, or Replaced?|Why?|
+|----|----|
+|Removed| The feature is not used. |  
 
 ## Objects or Fields Deleted in [!INCLUDE[nav2018](includes/nav2018_md.md)]
 The following fields have been deleted as a result of features that have been removed.  
