@@ -2,7 +2,7 @@
 title: Self-signed Security Certificate
 description: Create a self-signed certificate using PowerShell cmdlet to help secure the communication between the Server and Web Client in Dynamics NAV.
 ms.custom: na
-ms.date: 11/28/2017
+ms.date: 08/28/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,7 +18,7 @@ With the `New-NavSelfSignedCertificate` PowerShell cmdlet, you can create a self
  Running the `New-NavSelfSignedCertificate` takes several parameters. One of these parameters is `MakeCertExePath`. This parameter must be filled in with the file path of the Windows SDK MakeCert.exe file. Typically, this file can be found under *C:\\Program Files \(x86\)\\Windows Kits\\8.1\\bin\\x86\\makecert.exe*. If you do not have a Windows 7.1 or 8.1 SDK on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer, you can download this from [MSDN](http://go.microsoft.com/fwlink/?LinkId=335897).  
   
 > [!IMPORTANT]  
->  The `New-NavSelfSignedCertificate` PowerShell cmdlet will only create self-signed certificates that can be used on Windows and Windows Phone.  
+>  The `New-NavSelfSignedCertificate` PowerShell cmdlet will only create self-signed certificates that can be used on Windows and Windows Phone. If you want to use the certificate on Android devices, then you must set the -SubjectAlternativeName parameter, such as `-SubjectAlternativeName certauth.fs.jensen.dk, *.jensen.dk`.  
   
 ### To create a self-signed security certificate using the PowerShell script  
   
@@ -44,6 +44,7 @@ With the `New-NavSelfSignedCertificate` PowerShell cmdlet, you can create a self
     |`-NavServiceIdentity`|Type:String|Username for the identity running the [!INCLUDE[nav_server](includes/nav_server_md.md)]. Default is `NTAUTHORITY\Network Service`. This parameter is optional.|  
     |`-Import`|Type:String|Imports the certificates after creation. If not specified, the user will be prompted for a reply. This parameter is optional.|  
     |`-SkipImport`|Type:Boolean|**false** will import certificates and **true** will skip the import of certificates.|  
+    |`-SubjectAlternativeName`|Type:string|The SAN for your account, such as `certauth.fs.jensen.dk, *.jensen.dk`. This parameter is optional.|  
   
  The `New-NavSelfSignedCertificate` PowerShell cmdlet has now generated a self-signed security certificate with an accompanying root certificate and root revocation list, which is put under the specified output folder. Once the cmdlet is run, you have the option to import the security certificate, root certificate, and root revocation list to the local computer.  
   

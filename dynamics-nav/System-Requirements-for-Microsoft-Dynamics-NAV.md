@@ -1,9 +1,9 @@
----
+﻿---
 title: System Requirements for Microsoft Dynamics NAV 2018
-description: This article provides the specifications of minimum hardware and software requirements to install and run Microsoft Dynamics NAV 'TENERIFE'.
+description: This article provides the specifications of minimum hardware and software requirements to install and run Dynamics NAV 2018.
 author: jswymer
 ms.custom: na
-ms.date: 11/30/2017
+ms.date: 08/29/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -96,7 +96,7 @@ The following sections list the minimum hardware and software requirements to in
 |Editing in Excel using the Excel Add-in |<ul><li>Excel 2016.<br /><br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).</li></ul>|  
 |SharePoint Online links|<ul><li>Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
 |Printing reports to Excel or Word|<ul><li>Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
-|Additional information|If you experience problems using the [!INCLUDE[nav_web](includes/nav_web_md.md)], you can try to turn off browser tools, such as translator tools that may run in the background.|  
+|Additional information|If you experience problems using the [!INCLUDE[nav_web](includes/nav_web_md.md)], you can try to turn off browser tools, such as translator tools that may run in the background. Similarly, if you use zoom functionality in your browser or from a third-party tool, then elements may appear (or disappear) depending on screen size.|  
 
 ###  <a name="NavApps"></a> Dynamics NAV Tablet Client and Phone Client \(in a Browser\) Requirements  
  The following table shows the minimum system requirements for the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] running in a browser when used for development and testing purposes.  
