@@ -209,7 +209,10 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
   
 6.  In the text editor, delete all spaces from the thumbprint string.  
   
-     For example, if the thumbprint is `c0 d0 f2 70 95 b0 3d 43 17 e2 19 84 10 24 32 8c ef 24 87 79`, then change it to `c0d0f27095b03d4317e219841024328cef248779`.  
+     For example, if the thumbprint is `c0 d0 f2 70 95 b0 3d 43 17 e2 19 84 10 24 32 8c ef 24 87 79`, then change it to `c0d0f27095b03d4317e219841024328cef248779`. 
+
+    > [!TIP] 
+    >  It is important  that the copied thimprint does not contain any invisible extra characters; otherwise you will experience problems when using it later. To avoid this, see [Certificate thumbprint displayed in MMC certificate snap-in has extra invisible unicode character](https://support.microsoft.com/en-au/help/2023835/certificate-thumbprint-displayed-in-mmc-certificate-snap-in-has-extra) 
   
 7.  Keep the file open or save it. You will use the thumbprint later on.  
   
@@ -278,10 +281,10 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
     |`navserver`|The name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to use with the web service. The default is [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].|  
     |`DOMAIN\username`|The domain and user name of the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)]. If the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] is Network Service, then use "NT AUTHORITY\\NETWORKSERVICE".|  
   
-     For example, if the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] has the domain *ABC* and the user name *xyz*, and then the command for the SOAP web service is as follows:  
+     For example, if the service account for [!INCLUDE[server](../developer/includes/server.md)] instance **MyBCServer** has the domain **abc** and the user name **xyz** , and then the command for the SOAP web service is as follows:  
   
     ```  
-    netsh http add urlacl url=https://+:7047/nav_server_instance user="NT AUTHORITY\NETWORKSERVICE"  
+    netsh http add urlacl url=https://myservercomputer:7047/MyBCServer user="abc\xyz"  
     ```  
   
      If the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] is Network Service, then the command is as follows:  
