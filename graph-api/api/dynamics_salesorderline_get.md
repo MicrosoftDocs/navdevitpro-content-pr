@@ -17,8 +17,6 @@ ms.author: solsen
 # Get salesOrderLines
 Retrieve the properties and relationships of a sales order line object for Dynamics 365 Business Central.
 
-## Prerequisites
-
 ## HTTP request
 
 ```
