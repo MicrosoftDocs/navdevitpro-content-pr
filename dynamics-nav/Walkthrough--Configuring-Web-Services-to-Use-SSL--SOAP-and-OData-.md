@@ -12,6 +12,7 @@ caps.latest.revision: 63
 manager: edupont
 redirect_url: How-to--Implement-Security-Certificates-in-a-Production-Environment
 ---
+
 # Walkthrough: Configuring Web Services to Use SSL (SOAP and OData)
 Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide security and data integrity for data communications over a network. By encrypting your [!INCLUDE[navnow](includes/navnow_md.md)] web services using SSL, you make your data and the network more secure and more reliable.  
   
