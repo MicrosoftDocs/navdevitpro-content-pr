@@ -19,7 +19,7 @@ These are the various complex types in Dynamics 365 Business Central. You can se
 
 ## Postal address
 
-Represents a Postal Address complex type in Dynamics 365 Business Central.       
+Represents a Postal Address complex type in Dynamics 365 Business Central.
 
 ### Properties
 | Property	   | Type	    |Description             |

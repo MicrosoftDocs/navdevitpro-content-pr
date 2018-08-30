@@ -17,8 +17,6 @@ ms.author: solsen
 # Get salesCreditMemoLines
 Retrieve the properties and relationships of a sales credit memo line object for Dynamics 365 Business Central.
 
-## Prerequisites
-
 ## HTTP request
 
 ```
