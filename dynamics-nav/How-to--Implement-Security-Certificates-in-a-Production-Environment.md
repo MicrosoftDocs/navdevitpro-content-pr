@@ -12,6 +12,9 @@ caps.latest.revision: 23
 manager: edupont
 ---
 # How to: Implement Security Certificates in a Production Environment
+
+You use certificates to help secure connections over a wide area network \(WAN\), such as connections from the Web server, Windows client, and web services to the [!INCLUDE[nav_server](includes/nav_server_md.md)]. Implementing security certificates on your deployment environment requires modifications to various components.
+
 This topic describes how to implement security certificates on the [!INCLUDE[nav_server](includes/nav_server_md.md)], [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], and clients after you have obtained a service certificate and a root certification authority \(CA\) from a trusted provider.  
   
 For general information about obtaining and requirements for certificates from a trusted provider, see [About Certificates for Production Environment](Using-Certificates-to-Secure-a-Remote-Client-Connection.md#AboutProdCerts).  
@@ -60,7 +63,12 @@ After you have installed the root CA and the service certificate on the computer
   
 7.  In the **Certificate** dialog box, choose the **Details** tab, and then select the **Thumbprint** field.  
   
-8.  Copy or note the value of the **Thumbprint** field.  
+8.  Copy or note the value of the **Thumbprint** field.
+
+    For example, copy the hexadecimal characters to text editor, such as Notepad. Delete all spaces from the thumbprint string. If the thumbprint is `c0 d0 f2 70 95 b0 3d 43 17 e2 19 84 10 24 32 8c ef 24 87 79`, then change it to `c0d0f27095b03d4317e219841024328cef248779`.
+
+    > [!TIP] 
+    >  It is important that the thumbprint does not contain any invisible extra characters; otherwise you will experience problems when using it later. To avoid this, see [Certificate thumbprint displayed in MMC certificate snap-in has extra invisible unicode character](https://support.microsoft.com/en-au/help/2023835/certificate-thumbprint-displayed-in-mmc-certificate-snap-in-has-extra).  
   
 9. Start the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. For more information, see [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
   
@@ -71,11 +79,12 @@ After you have installed the root CA and the service certificate on the computer
     |Key|New value|Description|  
     |---------|---------------|-----------------|  
     |Credential Type|`NavUserPassword`, `Username`, or `AccessControlService`|This parameter is on the **General** tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. The default value is `Windows`. When you change it to `NavUserPassword`, `Username`, or `AccessControlService`, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md).|  
-    |Certificate Thumbprint|Value of the **Thumbprint** field in the previous procedure.|This parameter is on the Client Services tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. The default value is \<key>. Remove any leading or trailing spaces in the thumbprint.|  
+    |Certificate Thumbprint|Value of the **Thumbprint** field in the previous procedure.|This parameter is on the Client Services tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. The default value is \<key>. Remove any leading or trailing spaces in the thumbprint.|
+12. If you want to use secure web services, then under SOAP Services and OData Services, select the **Enable SSL** check box.  
   
-12. Save and the new values for the server instance.  
+13. Save and the new values for the server instance.  
   
-13. Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
+14. Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
     If there is a problem, see Windows Event Viewer.  
   
