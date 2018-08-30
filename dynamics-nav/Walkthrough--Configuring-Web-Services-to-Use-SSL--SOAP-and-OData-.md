@@ -281,7 +281,7 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
     |`navserver`|The name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to use with the web service. The default is [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].|  
     |`DOMAIN\username`|The domain and user name of the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)]. If the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] is Network Service, then use "NT AUTHORITY\\NETWORKSERVICE".|  
   
-     For example, if the service account for [!INCLUDE[server](../developer/includes/server.md)] instance **MyBCServer** has the domain **abc** and the user name **xyz** , and then the command for the SOAP web service is as follows:  
+     For example, if the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] instance **MyBCServer** has the domain **abc** and the user name **xyz** , and then the command for the SOAP web service is as follows:  
   
     ```  
     netsh http add urlacl url=https://myservercomputer:7047/MyBCServer user="abc\xyz"  
