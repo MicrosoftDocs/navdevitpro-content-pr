@@ -13,7 +13,6 @@
 # [Company information](resources/dynamics_companyinformation.md)
 ## [Get company information](api/dynamics_companyinformation_get.md)
 ## [Update company information](api/dynamics_companyinformation_update.md)
-# [Complex types](resources/dynamics_complextypes.md)
 # [Countries/regions](resources/dynamics_countriesregions.md)
 ## [Get countries/regions](api/dynamics_countriesregions_get.md)
 ## [Create countries/regions](api/dynamics_create_countriesregions.md)
@@ -48,7 +47,7 @@
 ## [Create dimension line](api/dynamics_create_dimensionline.md)
 ## [Update dimension line](api/dynamics_dimensionline_update.md)
 ## [Delete dimension line](api/dynamics_dimensionline_delete.md)
-## [Dimension value](resources/dynamics_dimensionvalue.md)
+# [Dimension value](resources/dynamics_dimensionvalue.md)
 ## [Get dimension value](api/dynamics_dimensionvalue_get.md)
 # [Employee](resources/dynamics_employee.md)
 ## [Get employee](api/dynamics_employee_get.md)
@@ -162,7 +161,7 @@
 ## [Update tax groups](api/dynamics_taxgroups_update.md)
 ## [Delete tax groups](api/dynamics_taxgroups_delete.md)
 # [Trial balance](resources/dynamics_trialbalance.md)
-# [Get trial balance](api/dynamics_trialbalance_get.md)
+## [Get trial balance](api/dynamics_trialbalance_get.md)
 # [Units of measure](resources/dynamics_unitsofmeasure.md)
 ## [Get units of measure](api/dynamics_unitsofmeasure_get.md)
 ## [Create units of measure](api/dynamics_create_unitsofmeasure.md)
@@ -173,7 +172,4 @@
 ## [Create vendor](api/dynamics_create_vendor.md)
 ## [Update vendor](api/dynamics_vendor_update.md)
 ## [Delete vendor](api/dynamics_vendor_delete.md)
-# [Vendor purchases](resources/dynamics_vendorpurchases.md)
-## [Get vendor purchases](api/dynamics_vendorpurchases_get.md)
-
 
