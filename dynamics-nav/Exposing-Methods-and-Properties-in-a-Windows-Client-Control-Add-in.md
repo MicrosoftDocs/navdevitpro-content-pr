@@ -61,14 +61,12 @@ CurrPage.ControlName.MyProperty
  `ControlName` is the name of the field control that is applied with the control add-in. The name is specified by the [Name Property](Name-Property.md). `MyMethod` and `MyProperty` are the names of method and property of the control add-in to be invoked.  
 
 
-## Nested Control Add-in Event Calls to the OnControlAddIn` trigger 
-If your code requires more than one call to the `OnControlAddIn` trigger in C/AL on the same transaction (in other words, nested event calls), then the C/AL code that you want the nested event calls to run must by run by in CODEUNIT.RUN function call. This enables the application code to keep track of errors that occur in the nested event calls to the `OnControlAddIn` trigger.
+## Nested Control Add-in Event Calls to the OnControlAddIn trigger 
+If your code requires more than one call to the `OnControlAddIn` trigger in C/AL on the same transaction (in other words, nested event calls), then the C/AL code that you want the nested event calls to execute must be run in a CODEUNIT.RUN function call. This enables the application code to keep track of errors that occur in the nested event calls. This concept is illustrated in the following code examples. 
 
-This is illustarted in the following code examples. 
+**Event triggers in the Control-Add-in**
 
-**Event trigger in Add-in**
-
-The following is code is a snippet of the event definitions in a control add-in called **SampleAddin**. The control add-in includes an event, `ControlAddIn`, a public method `NestedAddinCall`, and single button control.
+The following is code is a snippet of the event definitions in a control add-in called **SampleAddin**. This control add-in includes an event, `ControlAddIn`, a public method `NestedAddinCall`, and single button control.
 
 ```
         private void ControlAddinButtonClicked(object sender, EventArgs e)
@@ -85,7 +83,7 @@ The following is code is a snippet of the event definitions in a control add-in 
 
 **Codeunit for running nested event calls code** 
 
-The following code specifies the codeunit that will be used to run the code in the nested (second) event call. 
+The following code defines the codeunit that will be used to run the nested (second) event call's code. 
 
 ```
 OBJECT Codeunit 50000 SimpleAddIn
@@ -116,7 +114,7 @@ OBJECT Codeunit 50000 SimpleAddIn
 
 **Control-addin page**
 
-The following code specifies a page that contain the control add-in.
+The following code specifies the page that contains the control add-in.
  
 ```
 OBJECT Page 50000 SimpleAddIn_page
