@@ -60,22 +60,122 @@ CurrPage.ControlName.MyProperty
   
  `ControlName` is the name of the field control that is applied with the control add-in. The name is specified by the [Name Property](Name-Property.md). `MyMethod` and `MyProperty` are the names of method and property of the control add-in to be invoked.  
 
-If an AL page trigger calls an exposed method in a control add-in, you must wrap the method call in a CODEUNIT.RUN call and then check the result.
 
-The reason it fails is that the two calls to OnControlAddIn are on the same transaction but are two indenpendent calls to the server from the client. This means that the first outer call does not know about the error that is thrown in the inner call (the one initiated by fd_Apply). Therefore the suggested workaround (see below) is that the application code keeps track of errors in nested control add-in trigger calls.
+## Nested Control Add-in Event Calls to the OnControlAddIn` trigger 
+If your code requires more than one call to the `OnControlAddIn` trigger in C/AL on the same transaction (in other words, nested event calls), then the C/AL code that you want the nested event calls to run must by run by in CODEUNIT.RUN function call. This enables the application code to keep track of errors that occur in the nested event calls to the `OnControlAddIn` trigger.
 
-Our suggestions would be the following workaround: If you need nested control add-in event triggers, wrap the nested AL code in a CODEUNIT.RUN call and check the result. In the case of the repro, move the INSERT code in InsertLine_withERROR to a new codeunit, and check the return value of CODEUNIT.RUN. You can then show an error dialog if it fails. I have attached an example of this to the bug. 
+This is illustarted in the following code examples. 
 
+**Event trigger in Add-in**
+
+The following is code is a snippet of the event definitions in a control add-in called **SampleAddin**. The control add-in includes an event, `ControlAddIn`, a public method `NestedAddinCall`, and single button control.
+
+```
+        private void ControlAddinButtonClicked(object sender, EventArgs e)
+        {
+            ControlAddIn?.Invoke(0, "First call");
+        }
+
+        [ApplicationVisible]
+        public void NestedAddinCall()
+        {
+            ControlAddIn?.Invoke(1, "Second call");
+        }
+```
+
+**Codeunit for running nested event calls code** 
+
+The following code specifies the codeunit that will be used to run the code in the nested (second) event call. 
+
+```
+OBJECT Codeunit 50000 SimpleAddIn
+{
+  OBJECT-PROPERTIES
+  {
+    Date=;
+    Time=;
+    Modified=;
+    Version List=;
+  }
+  PROPERTIES
+  {
+    TableNo=50000;
+    OnRun=BEGIN
+            INSERT;
+          END;
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+```
+
+**Control-addin page**
+
+The following code specifies a page that contain the control add-in.
+ 
+```
+OBJECT Page 50000 SimpleAddIn_page
+{
+  OBJECT-PROPERTIES
+  {
+    Date=;
+    Time=;
+    Modified=;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  CONTROLS
+  {
+    { 10014500;;Container ;
+                Name=General;
+                ContainerType=ContentArea }
+
+    { 10014501;1;Field    ;
+                Name=SimpleAddIn;
+                SourceExpr=Something;
+                ControlAddIn=[SimpleAddIn;PublicKeyToken=nnnnnnnnnnnnnnnn];
                 OnControlAddIn=BEGIN
                                  IF Index = 0 THEN
-                                   InsertLine_withERROR(FORMAT(Index), Data)    //Try Insert
+                                   CurrPage.SimpleAddIn.NestedAddinCall();
                                  ELSE IF Index = 1 THEN
-                                   BEGIN
-                                     CurrPage.SimpelAddIn.ModalOperation();       //Show Font Dialog
-                                   END;
+                                   NestedServerCall(FORMAT(Index), Data)  
                                END;
 
+                ShowCaption=No }
+
+  }
+  CODE
+  {
+    VAR
+      Something : Text;
+
+    LOCAL PROCEDURE NestedServerCall(code : Code[10];data : Text[200]);
+    VAR
+      AddInData : Record 50000;
+      InsertResult : Boolean;
+    BEGIN
+      AddInData.INIT;
+      AddInData.DateTime := CURRENTDATETIME;
+      AddInData.Data := data;
+      InsertResult := CODEUNIT.RUN(50000,AddInData);
+      IF NOT InsertResult THEN
+        ERROR(GETLASTERRORTEXT);
+    END;
+
+    BEGIN
+    END.
+  }
+}
   
+```
+
 ### Triggers That Are Not Supported  
  You cannot invoke control add-in methods and properties from the following triggers because the triggers are invoked before the page is instantiated:  
   
