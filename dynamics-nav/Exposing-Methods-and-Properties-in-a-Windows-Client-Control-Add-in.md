@@ -59,6 +59,22 @@ CurrPage.ControlName.MyProperty
 ```  
   
  `ControlName` is the name of the field control that is applied with the control add-in. The name is specified by the [Name Property](Name-Property.md). `MyMethod` and `MyProperty` are the names of method and property of the control add-in to be invoked.  
+
+If an AL page trigger calls an exposed method in a control add-in, you must wrap the method call in a CODEUNIT.RUN call and then check the result.
+
+The reason it fails is that the two calls to OnControlAddIn are on the same transaction but are two indenpendent calls to the server from the client. This means that the first outer call does not know about the error that is thrown in the inner call (the one initiated by fd_Apply). Therefore the suggested workaround (see below) is that the application code keeps track of errors in nested control add-in trigger calls.
+
+Our suggestions would be the following workaround: If you need nested control add-in event triggers, wrap the nested AL code in a CODEUNIT.RUN call and check the result. In the case of the repro, move the INSERT code in InsertLine_withERROR to a new codeunit, and check the return value of CODEUNIT.RUN. You can then show an error dialog if it fails. I have attached an example of this to the bug. 
+
+                OnControlAddIn=BEGIN
+                                 IF Index = 0 THEN
+                                   InsertLine_withERROR(FORMAT(Index), Data)    //Try Insert
+                                 ELSE IF Index = 1 THEN
+                                   BEGIN
+                                     CurrPage.SimpelAddIn.ModalOperation();       //Show Font Dialog
+                                   END;
+                               END;
+
   
 ### Triggers That Are Not Supported  
  You cannot invoke control add-in methods and properties from the following triggers because the triggers are invoked before the page is instantiated:  
