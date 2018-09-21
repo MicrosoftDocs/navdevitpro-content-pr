@@ -24,10 +24,19 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 
 | Method                                      |Return Type|Description |
 |:--------------------------------------------|:----------|:-----------|
-|[GET items](../api/dynamics_item_get.md)      |items     |Gets an item object.   |
-|[POST items](../api/dynamics_create_item.md)  |items     |Creates an item object.|
+|[GET item](../api/dynamics_item_get.md)      |items     |Gets an item object.   |
+|[POST item](../api/dynamics_create_item.md)  |items     |Creates an item object.|
 |[PATCH item](../api/dynamics_item_update.md)  |items     |Updates an item object.|
-|[DELETE items](../api/dynamics_item_delete.md)|none      |Deletes an item object.|
+|[DELETE item](../api/dynamics_item_delete.md)|none      |Deletes an item object.|
+
+## Subpages
+
+| Method    |Return Type| Description      |
+|:----------|:----------|:-----------------|
+|[GET item defaultDimensions](../api/dynamics_item_get_defaultdimensions.md)|default dimensions   |Gets the default dimensions of item. |
+|[POST item defaultDimensions](../api/dynamics_item_create_defaultdimensions.md) |default dimensions  |Creates the default dimensions of  item.|
+|[PATCH item defaultDimensions](../api/dynamics_item_update_defaultdimensions.md)|default dimensions  |Updates the default dimensions of item.|
+|[DELETE item defaultDimensions](../api/dynamics_item_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of item.  |
 
 ## Properties
 | Property	         | Type	|Description                                          |
