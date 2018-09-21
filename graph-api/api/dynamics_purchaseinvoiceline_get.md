@@ -17,8 +17,6 @@ ms.author: solsen
 # Get purchaseInvoiceLines
 Retrieve the properties and relationships of a purchase invoice line object for Dynamics 365 Business Central.
 
-## Prerequisites
-
 ## HTTP request
 
 ```

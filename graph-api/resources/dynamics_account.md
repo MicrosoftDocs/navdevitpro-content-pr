@@ -17,8 +17,6 @@ ms.author: solsen
 # accounts resource type
 Represents an account object in Dynamics 365 Business Central.
 
-> **Note**: For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see .
-
 ## Methods
 
 | Method       | Return Type  |Description|

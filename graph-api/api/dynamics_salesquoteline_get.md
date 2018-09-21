@@ -17,8 +17,6 @@ ms.author: solsen
 # Get salesQuoteLines
 Retrieve the properties and relationships of a sales quote line object for Dynamics 365 Business Central.
 
-## Prerequisites
-
 ## HTTP request
 
 ```

@@ -59,7 +59,121 @@ CurrPage.ControlName.MyProperty
 ```  
   
  `ControlName` is the name of the field control that is applied with the control add-in. The name is specified by the [Name Property](Name-Property.md). `MyMethod` and `MyProperty` are the names of method and property of the control add-in to be invoked.  
+
+
+## Nested Control Add-in Event Calls to the OnControlAddIn trigger 
+If your code requires more than one call to the `OnControlAddIn` trigger in C/AL on the same transaction (in other words, nested event calls), then the C/AL code that you want the nested event calls to execute must be run in a CODEUNIT.RUN function call. This enables the application code to keep track of errors that occur in the nested event calls. This concept is illustrated in the following code examples. 
+
+**Event triggers in the Control-Add-in**
+
+The following is code is a snippet of the event definitions in a control add-in called **SampleAddin**. This control add-in includes an event, `ControlAddIn`, a public method `NestedAddinCall`, and single button control.
+
+```
+        private void ControlAddinButtonClicked(object sender, EventArgs e)
+        {
+            ControlAddIn?.Invoke(0, "First call");
+        }
+
+        [ApplicationVisible]
+        public void NestedAddinCall()
+        {
+            ControlAddIn?.Invoke(1, "Second call");
+        }
+```
+
+**Codeunit for running nested event calls code** 
+
+The following code defines the codeunit that will be used to run the nested (second) event call's code. 
+
+```
+OBJECT Codeunit 50000 SimpleAddIn
+{
+  OBJECT-PROPERTIES
+  {
+    Date=;
+    Time=;
+    Modified=;
+    Version List=;
+  }
+  PROPERTIES
+  {
+    TableNo=50000;
+    OnRun=BEGIN
+            INSERT;
+          END;
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+```
+
+**Control-addin page**
+
+The following code specifies the page that contains the control add-in.
+ 
+```
+OBJECT Page 50000 SimpleAddIn_page
+{
+  OBJECT-PROPERTIES
+  {
+    Date=;
+    Time=;
+    Modified=;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  CONTROLS
+  {
+    { 10014500;;Container ;
+                Name=General;
+                ContainerType=ContentArea }
+
+    { 10014501;1;Field    ;
+                Name=SimpleAddIn;
+                SourceExpr=Something;
+                ControlAddIn=[SimpleAddIn;PublicKeyToken=nnnnnnnnnnnnnnnn];
+                OnControlAddIn=BEGIN
+                                 IF Index = 0 THEN
+                                   CurrPage.SimpleAddIn.NestedAddinCall();
+                                 ELSE IF Index = 1 THEN
+                                   NestedServerCall(FORMAT(Index), Data)  
+                               END;
+
+                ShowCaption=No }
+
+  }
+  CODE
+  {
+    VAR
+      Something : Text;
+
+    LOCAL PROCEDURE NestedServerCall(code : Code[10];data : Text[200]);
+    VAR
+      AddInData : Record 50000;
+      InsertResult : Boolean;
+    BEGIN
+      AddInData.INIT;
+      AddInData.DateTime := CURRENTDATETIME;
+      AddInData.Data := data;
+      InsertResult := CODEUNIT.RUN(50000,AddInData);
+      IF NOT InsertResult THEN
+        ERROR(GETLASTERRORTEXT);
+    END;
+
+    BEGIN
+    END.
+  }
+}
   
+```
+
 ### Triggers That Are Not Supported  
  You cannot invoke control add-in methods and properties from the following triggers because the triggers are invoked before the page is instantiated:  
   
