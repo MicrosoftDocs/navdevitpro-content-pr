@@ -1,4 +1,4 @@
-# [Welcome](index.md)
+# [API for Dynamics 365 Business Central](index.md)
 ## [Overview](resources/dynamics_overview.md)
 ## [Enabling the APIs for Microsoft Dynamics NAV](../enabling-apis-for-dynamics-nav.md)
 ## [Endpoints for the APIs](../endpoints-apis-for-dynamics.md)
@@ -68,7 +68,7 @@
 ### [Create employee default dimensions](api/dynamics_employee_create_defaultdimensions.md)
 ### [Update employee default dimensions](api/dynamics_employee_update_defaultdimensions.md)
 ### [Delete employee default dimensions](api/dynamics_employee_delete_defaultdimensions.md)
-## [General ledger entries](resources/dynamics_generalledgerentries.md) 
+## [General ledger entries](resources/dynamics_generalledgerentries.md)
 ### [Get general ledger entries](api/dynamics_generalledgerentries_get.md)
 ## [Income statement](resources/dynamics_incomestatement.md)
 ### [Get income statement](api/dynamics_incomestatement_get.md)
@@ -201,5 +201,3 @@
 ### [Delete vendor default dimensions](api/dynamics_vendor_delete_defaultdimensions.md)
 ## [Vendor purchases](resources/dynamics_vendorpurchases.md)
 ### [Get vendor purchases](api/dynamics_vendorpurchases_get.md)
-
-

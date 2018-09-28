@@ -1,13 +1,13 @@
-## Microsoft Open Source Code of Conduct
+﻿## Microsoft Open Source Code of Conduct
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 # navdevitpro-content-pr
 
-Welcome to the repository for the developer and ITpro content for on-prem &amp; PaaS.
+Welcome to the repository for the developer and ITpro content for Dynamics NAV 2018 including PaaS.
 
-All articles are stored as Markdown files (.md type) in the **dynamics-nav** folder. They publish to Docs staging here: https://review.docs.microsoft.com/en-gb/dynamics-nav/getting-started?branch=master.
+All articles are stored as Markdown files (.md type) in the **dynamics-nav** folder. They publish to Docs staging here: https://review.docs.microsoft.com/en-us/dynamics-nav/getting-started?branch=master.
 
 The repo also holds the source for the new developer experience and the fixed endpoint API for SaaS.
 
