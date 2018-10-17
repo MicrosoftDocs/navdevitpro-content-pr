@@ -68,7 +68,7 @@ A report object is composed of a report dataset and a visual layout. You design 
      ![Completed report](media/MicrosoftDynamicsNAV_MultiDataSetReport.jpg "MicrosoftDynamicsNAV\_MultiDataSetReport")  
 
 ## Defining the Dataset  
- In this task, Viktor will create the dataset that will display customers and their transaction details. The datasets for the data model will come from four tables. Viktor will create a data item for each for table.  
+ In this task, Viktor will create the dataset that will display customers and their transaction details. The datasets for the data model will come from four tables. Viktor will create a data item for each table.  
 
 #### To define the dataset  
 
