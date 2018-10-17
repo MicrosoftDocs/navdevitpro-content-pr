@@ -279,7 +279,7 @@ A report object is composed of a report dataset and a visual layout. You design 
 
 6.  Move the **List control** to the top of the report body and resize it to cover the whole report body.  
 
-7.  Right-click the middle of the **List** controls, and then choose **Rectangle Properties**.  
+7.  Right-click the middle of the **List** control, and then choose **Rectangle Properties**.  
 
 8.  In the **Rectangle Properties** window, choose the **Fill** tab, in the **Fill Color** list color pallet, select **Cornflower Blue** from the color pallet, and then choose the **OK** button. You can choose any color.  
 
