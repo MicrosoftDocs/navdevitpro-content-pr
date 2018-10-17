@@ -430,7 +430,7 @@ A report object is composed of a report dataset and a visual layout. You design 
 
 16. In the **Category** column, select **Fields \(DataSet\_Result\)**, in the **Values** column, double-click **EntryNo\_CustLedgerEntry**, and then choose the **OK** button. Note that the **Set expression for: Value** box contains the following value: `=Fields!EntryNo_CustLedgerEntry.Value`  
 
-17. Repeat steps 15 and 16 for row 3 to add fields from the ledger entry dataset. Put the fields under the corresponding captions.  
+17. Repeat steps 15 and 16 for row 2 to add fields from the ledger entry dataset. Put the fields under the corresponding captions.  
 
 18. Select the row that you just filled and set the **BackgroundColor** property to **Silver**.  
 
