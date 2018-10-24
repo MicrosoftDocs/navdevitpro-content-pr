@@ -1,5 +1,5 @@
 ---
-title: subscription resource type | Microsoft Docs
+title: subscriptions resource type | Microsoft Docs
 description: A subcription object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -14,12 +14,14 @@ ms.date: 10/22/2018
 ms.author: solsen
 ---
 
-# subscription resource type
+# subscriptions resource type
 Represents a subscription object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. For every version of the API there is a subscriptions API. It is added automatically, in the same way as the companies” API is added. It is not possible to remove or program the subscriptions API.
 
-Example – for built in API and for custom API (automation):
-https:baseURL/api/beta/subscriptions
-https:baseURL/api/microsoft/automation/beta/subscriptions
+## Example
+For built-in API and for custom API (automation):
+
+`https:baseURL/api/beta/subscriptions`
+`https:baseURL/api/microsoft/automation/beta/subscriptions`
 
 ## Methods
 
