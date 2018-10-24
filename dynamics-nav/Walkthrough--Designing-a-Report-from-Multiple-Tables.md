@@ -68,7 +68,7 @@ A report object is composed of a report dataset and a visual layout. You design 
      ![Completed report](media/MicrosoftDynamicsNAV_MultiDataSetReport.jpg "MicrosoftDynamicsNAV\_MultiDataSetReport")  
 
 ## Defining the Dataset  
- In this task, Viktor will create the dataset that will display customers and their transaction details. The datasets for the data model will come from four tables. Viktor will create a data item for each for table.  
+ In this task, Viktor will create the dataset that will display customers and their transaction details. The datasets for the data model will come from four tables. Viktor will create a data item for each table.  
 
 #### To define the dataset  
 
@@ -279,7 +279,7 @@ A report object is composed of a report dataset and a visual layout. You design 
 
 6.  Move the **List control** to the top of the report body and resize it to cover the whole report body.  
 
-7.  Right-click the middle of the **List** controls, and then choose **Rectangle Properties**.  
+7.  Right-click the middle of the **List** control, and then choose **Rectangle Properties**.  
 
 8.  In the **Rectangle Properties** window, choose the **Fill** tab, in the **Fill Color** list color pallet, select **Cornflower Blue** from the color pallet, and then choose the **OK** button. You can choose any color.  
 
@@ -430,7 +430,7 @@ A report object is composed of a report dataset and a visual layout. You design 
 
 16. In the **Category** column, select **Fields \(DataSet\_Result\)**, in the **Values** column, double-click **EntryNo\_CustLedgerEntry**, and then choose the **OK** button. Note that the **Set expression for: Value** box contains the following value: `=Fields!EntryNo_CustLedgerEntry.Value`  
 
-17. Repeat steps 15 and 16 for row 3 to add fields from the ledger entry dataset. Put the fields under the corresponding captions.  
+17. Repeat steps 15 and 16 for row 2 to add fields from the ledger entry dataset. Put the fields under the corresponding captions.  
 
 18. Select the row that you just filled and set the **BackgroundColor** property to **Silver**.  
 
