@@ -60,18 +60,16 @@ You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_
     ![AD FS Configure URL](media/ADFS_Relying_Trust_ConfigureURL.png "AD FS Configure URL")
 
     Then, in **Relying party WS-Federation Passive Control URL** field, enter the URL for the [!INCLUDE[navnow](includes/navnow_md.md)] client according to the following:
-
     -    If you are setting up AD FS for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], set this to the full URL for the Web client. The URL typically has the format:
 
-        ```
-        https://[web-server-computer]:[port]/[web-instance]
-        ```
+         ```
+         https://[web-server-computer]:[port]/[web-instance]
+         ```        
+            For example:
 
-        For example:
-
-        ```
-        https://MyWebServer:8080/DynamicsNAV110
-        ```
+         ```
+         https://MyWebServer:8080/DynamicsNAV110
+         ```
 
     -   If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], use base URL for the Web client, which is the full URL without the ```/[web-instance]``` part. This typically has the format:
 
@@ -97,9 +95,9 @@ You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_
         https://dynamicsnavwebclient
         ```
     -   If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], add the URL:
-    ```
-    https://dynamicsnavwinclient
-    ```
+        ```
+        https://dynamicsnavwinclient
+        ```
 
     Choose **Next** to continue.
 
@@ -186,6 +184,18 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
     ```
     >[!NOTE]
     >This URL must to be accessible from a browser on the computer running the [!INCLUDE[nav_server](includes/nav_server_md.md)].
+
+3.  To set up the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], set the **WSFederationLoginEndpoint** (WSFederationLoginEndpoint) to point to the AD FS login page for authenticating users.
+
+    For example, the CustomSettings file should include the following key:
+
+    ```
+    <add key="WSFederationLoginEndpoint" value="https://[Public URL for ADFS server]/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwebclient%26wreply=[Dynamics NAV Web Client URL]/SignUp" />
+    ```
+
+    Replace `[Public URL for AD FS server]` with the URL for your installation.
+
+    Replace `[Dynamics NAV Web Client URL]` with the full URL for your Web client, such as `https://MyWebServer:8080/DynamicsNAV110`. This is same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
 
 4.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 

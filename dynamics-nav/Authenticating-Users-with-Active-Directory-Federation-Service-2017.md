@@ -186,7 +186,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
     >[!NOTE]
     >This URL must to be accessible from a browser on the computer running the [!INCLUDE[nav_server](includes/nav_server_md.md)].
 
-3.  To set up the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] in [!INCLUDE[nav2017](includes/nav2017.md)] and later, set the **WSFederationLoginEndpoint** (WSFederationLoginEndpoint) to point to the AD FS login page for authenticating users.
+3.  To set up the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] in [!INCLUDE[nav2017](includes/nav2017.md)], set the **WSFederationLoginEndpoint** (WSFederationLoginEndpoint) to point to the AD FS login page for authenticating users.
 
     For example, the CustomSettings file should include the following key:
 
@@ -194,9 +194,9 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
     <add key="WSFederationLoginEndpoint" value="https://[Public URL for ADFS server]/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwebclient%26wreply=[Dynamics NAV Web Client URL]" />
     ```
 
-    Replace ```[Public URL for AD FS server]``` with the URL for your installation.
+    Replace `[Public URL for AD FS server]` with the URL for your installation.
 
-    Replace ```[Dynamics NAV Web Client URL]``` with the full URL for your Web client, such as ```https://MyWebServer:8080/DynamicsNAV110/WebClient```. This is same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
+    Replace `[Dynamics NAV Web Client URL]` with the full URL for your Web client, such as `https://MyWebServer:8080/DynamicsNAV100/WebClient`. This is same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
 
     >[!NOTE]
     >In [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] and earlier, this setting does not exist. Instead, you set the **ACSUri** setting in the web.config for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. This will be done in the next task.
