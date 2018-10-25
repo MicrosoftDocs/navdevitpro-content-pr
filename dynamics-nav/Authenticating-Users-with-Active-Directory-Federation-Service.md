@@ -187,7 +187,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
 
 3.  To set up the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], set the **WSFederationLoginEndpoint** (WSFederationLoginEndpoint) to point to the AD FS login page for authenticating users.
 
-    For example, the CustomSettings file should include the following key:
+    For example, the CustomSettings.config file should include the following key:
 
     ```
     <add key="WSFederationLoginEndpoint" value="https://[Public URL for ADFS server]/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwebclient%26wreply=[Dynamics NAV Web Client URL]/SignUp" />
@@ -205,16 +205,16 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
 ### Dynamics NAV Web Client setup
 You configure the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] by modifying it's [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].
 
-Change the **ClientServicesCredentialType** setting to ```AccessControlService``` as shown:
+Change the `ClientServicesCredentialType` setting to `AccessControlService` as shown:
 
-    ```
-    "ClientServicesCredentialType":  "AccessControlService",
-    ```
+```
+"ClientServicesCredentialType":  "AccessControlService",
+```
 
 The configuration changes are automatically picked up by the Internet Information Service (IIS). For more information about modifying the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)], see [Configuring Dynamics NAV Web Client by Modifying the Navsettings.json File.md](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md)
 
 >[!TIP]
->Instead of reconfiguring the existing web client, consider using the [New-NAVWebServerInstance cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/New-NAVWebServerInstance) in the Dynamics NAV Administration Shell to add an additional web client instance, and leave the existing instance running NavUserPassword authentication.
+>Instead of re-configuring the existing web client, consider using the [New-NAVWebServerInstance cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/New-NAVWebServerInstance) in the Dynamics NAV Administration Shell to add an additional web client instance, and leave the existing instance running NavUserPassword authentication.
 
 ### Dynamic NAV Windows client setup (optional)
 You configure the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] by modifying the ClientUserSettings.config file for each client installation.
@@ -242,7 +242,7 @@ You must map the user accounts in [!INCLUDE[navnow](includes/navnow_md.md)] to c
 
 You can do this by using the [!INCLUDE[navnow](includes/navnow_md.md)] client. Open the **User Card** page for a user, and then in the **Office 365 Authentication** section, set the **Authentication Email** field to the UPN of the AD FS user.
 
-When you initially set the **Authentication Email**, the **Authentication Status** will be **Inactive**. After the first tiome the user signs in to [!INCLUDE[navnow](includes/navnow_md.md)] by using AD FS, the status will be change to **Active**. This means that the Primary SID from AD FS has been registered on the user in [!INCLUDE[navnow](includes/navnow_md.md)], and all subsequent authentication mappings will be done on the Primary SID and not on the Authentication Email (UPN).
+When you initially set the **Authentication Email**, the **Authentication Status** will be **Inactive**. After the first time the user signs in to [!INCLUDE[navnow](includes/navnow_md.md)] by using AD FS, the status will be change to **Active**. This means that the Primary SID from AD FS has been registered on the user in [!INCLUDE[navnow](includes/navnow_md.md)], and all subsequent authentication mappings will be done on the Primary SID and not on the Authentication Email (UPN).
 
 ## See Also  
 [Configuring the Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)  
