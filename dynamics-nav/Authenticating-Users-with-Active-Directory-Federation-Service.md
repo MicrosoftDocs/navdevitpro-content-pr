@@ -65,8 +65,7 @@ You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_
          ```
          https://[web-server-computer]:[port]/[web-instance]
          ```        
-            For example:
-
+           Replace `<webserver-instance>` with the instance name of the Web server instance as defined in IIS for your installation. Make sure that the case matches exactly. For example:
          ```
          https://MyWebServer:8080/DynamicsNAV110
          ```
@@ -195,7 +194,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
 
     Replace `[Public URL for AD FS server]` with the URL for your installation.
 
-    Replace `[Dynamics NAV Web Client URL]` with the full URL for your Web client, such as `https://MyWebServer:8080/DynamicsNAV110`. This is same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
+    Replace `[Dynamics NAV Web Client URL]` with the full URL for your Web client, such as `https://MyWebServer:8080/DynamicsNAV110`. This is same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS. Make sure that the case matches exactly.
 
 4.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
