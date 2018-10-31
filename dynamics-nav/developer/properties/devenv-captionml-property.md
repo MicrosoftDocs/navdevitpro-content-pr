@@ -50,19 +50,11 @@ Sets the string that is used to identify a control or other object in the user i
 
  `DAN=Navn;DEU=Name;ESP=Nombre;FRA=Nom`
 
- In this example, values are set for Danish (DAN), German Standard (DEU), Spanish Traditional Sort (ESP), and French Standard (FRA).  
+ In this example, values are set for Danish (DAN), German Standard (DEU), Spanish Traditional Sort (ESP), and French Standard (FRA). 
 
- You can enter values for the CaptionML property in two ways:  
+> [!NOTE]  
+>  On Role Center type pages, the CaptionML property value is used as the display name for the associated Profile in the client.
 
--   If you enter a value for the [Caption Property](devenv-caption-property.md), then the CaptionML property is set to the value of the current language. For example, if the current system language is Danish, then a value of `DAN =<value>` is placed in the CaptionML field.  
-
-<!--
--   If you choose the **AssistButton** in the CaptionML value field, then the **Multilanguage Editor** opens and displays two columns: **Language** and **Value**. The **Language** column is populated with all languages that are defined by Windows. You specify the CaptionML value for a language by entering a value in the **Value** field for that language. You must close the **Multilanguage Editor** by choosing **OK**. If you press ESC to close the **Multilanguage Editor**, then the CaptionML field is not updated.  
--->
-
-<!--
- When you export objects as XML, the CaptionML property values are included.  
--->
 
 ## Default Values  
 The following table shows how the default caption is determined for the various objects in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].  
