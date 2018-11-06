@@ -26,7 +26,7 @@ The [InStream](InStream.md) \(input stream\) and [OutStream](OutStream.md) \(out
   
 4.  Declare a second variable that represents the output stream that will write the data, then set **DataType** to **OutStream**.  
   
-     If you want to retrieve the number of characters that are written to the text file, create variable to hold the value.  
+     If you want to retrieve the number of characters that are written to the text file, create a variable to hold the value.  
   
 5.  From the **View** menu, choose **C/AL Code** to open the **C/AL Editor**.  
   
