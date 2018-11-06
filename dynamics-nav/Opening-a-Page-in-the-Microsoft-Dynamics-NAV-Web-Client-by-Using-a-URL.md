@@ -88,7 +88,7 @@ Use the following guidelines to write page URL syntax and create a URL:
 
 -   Separate parameters after `aspx?` with the ampersand symbol (`&`).
 
--   Use `-` for any spaces in values and names.
+-   Use `%20` for any spaces in values and names.
 
 -   Enclose values in single quotation marks (`''`).
 
@@ -124,13 +124,13 @@ You can filter the data that is displayed in the page by using the filter parame
  The following address displays data in page 9305 only for the customer who has the Sell-to Customer No. 10000 and the Location Code Blue.
 
 ```
-http://MyWebServer:8080/nav_server_instance/?company=CRONUS%20International%20Ltd.&page=9305&filter='Sell-to-Customer-No.'-IS-'10000'-AND-'Location-Code'-IS-'BLUE'  
+http://MyWebServer:8080/nav_server_instance/?company=CRONUS%20International%20Ltd.&page=9305&filter='Sell-to Customer No.' IS '10000' AND 'Location Code' IS 'BLUE'  
 ```
 
 Or for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions:
 
 ```
-http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?company=CRONUS%20International%20Ltd.&page=9305&filter='Sell-to-Customer-No.'-IS-'10000'-AND-'Location-Code'-IS-'BLUE'  
+http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?company=CRONUS%20International%20Ltd.&page=9305&filter='Sell-to Customer No.' IS '10000' AND 'Location Code' IS 'BLUE'  
 ```
 
 ### Filter Syntax
@@ -140,7 +140,7 @@ The filter has the following syntax.
 &filter='<field>'-IS-'<value>'[-AND-'<field>'-IS-'<value>']  
 ```
 
- You can add the filter anywhere in the address after `.aspx?`.
+You must include a space or `%20` before and after the `IS`and `AND` operators. You can add the filter anywhere in the address after `.aspx?`.
 
 > [!TIP]
 >  The filter syntax for a page in the [!INCLUDE[nav_web](includes/nav_web_md.md)] is the same as a page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], which you can see by choosing the **Copy Link to Page** action on the **Application** menu in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].
@@ -151,9 +151,9 @@ The following table describes the filter parameters.
 |Parameter|Description|
 |---------------|-----------------|
 |`field`|The name of the table field on which to filter.|
-|`-IS-`|Specifies the equal operator.|  
+|` IS `|Specifies the equal operator.|  
 |`value`|The value of the table field on which to filter.|
-|`-AND-`|Use this parameter to specify more than one filter. It specifies an “and” operator for adding additional filters. Place `-AND-` between each additional filter.<br /><br /> To be included in the page data, the table record must match values for all fields in the filter.|
+|` AND `|Use this parameter to specify more than one filter. It specifies an “and” operator for adding additional filters. Place ` AND ` between each additional filter.<br /><br /> To be included in the page data, the table record must match values for all fields in the filter.|
 
 ## See Also
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
