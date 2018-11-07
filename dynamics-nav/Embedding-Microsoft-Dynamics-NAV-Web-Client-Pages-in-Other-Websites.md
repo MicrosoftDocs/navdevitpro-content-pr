@@ -80,9 +80,7 @@ In order to show a list page in an HTML site on a different host, the [!INCLUDE[
 ```  
 "AllowedFrameAncestors":  "https://*.myportal.com",  
 ```  
-
-> [!WARNING]  
->  Be aware that if you remove the `<add name="X-FRAME-OPTIONS" value="SAMEORIGIN" />` line from the web.config file, it can pose a potential security risk.  
+  
 
 ## See Also  
  [How to: Open the Microsoft Dynamics NAV Web Client](How-to--Open-the-Microsoft-Dynamics-NAV-Web-Client.md)
