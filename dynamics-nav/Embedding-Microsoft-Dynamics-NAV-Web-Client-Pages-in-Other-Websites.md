@@ -55,16 +55,7 @@ http://MyWebServer/nav_server_instance/WebClient/default.aspx?company=CRONUS%20I
 |`pagesize`|Specifies the number of lines to display in a grid control, which is useful when embedding the [!INCLUDE[nav_web](includes/nav_web_md.md)].<br /><br /> The default value, if the parameter is not specified, is `20`.|  
 
 ###  <a name="EmbedWebClient"></a> Embedding the Microsoft Dynamics NAV Web Client in a Website on Another Web Server  
- By default, the [!INCLUDE[nav_web](includes/nav_web_md.md)] will not allow a website to display the web client inside an iframe unless the website is hosted on the same web server. This is enforced by having the default value of `X-FRAME-OPTIONS` set to `SAMEORIGIN` and `Content-Security-Policy` to `frame-ancestors ‘self’` in the web.config file.  
-
-```  
-<httpProtocol>  
-      <customHeaders>  
-        <!-- SAMEORIGIN: allows framing of the Microsoft Dynamics NAV Web client in another website only if the other website is on the same host. Remove this to enable cross-site framing of the Microsoft Dynamics NAV Web client, but be aware of the increased risk of clickjacking, which could deceive a legitimate user into taking unintended actions on behalf of the attacker. -->  
-        <add name="X-FRAME-OPTIONS" value="SAMEORIGIN" />  
-      </customHeaders>  
-    </httpProtocol>  
-```  
+ By default, the [!INCLUDE[nav_web](includes/nav_web_md.md)] will not allow a website to display the web client inside an iframe unless the website is hosted on the same web server.
 
 In order to show a list page in an HTML site on a different host, the [!INCLUDE[web_server_settings_file_md](includes/web_server_settings_file_md.md)] of the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance that hosts the [!INCLUDE[nav_web](includes/nav_web_md.md)](includes/nav_web_md.md)] has to be configured to include a hostname as a value of the `AllowedFrameAncestors` setting.  
 
@@ -89,9 +80,7 @@ In order to show a list page in an HTML site on a different host, the [!INCLUDE[
 ```  
 "AllowedFrameAncestors":  "https://*.myportal.com",  
 ```  
-
-> [!WARNING]  
->  Be aware that if you remove the `<add name="X-FRAME-OPTIONS" value="SAMEORIGIN" />` line from the web.config file, it can pose a potential security risk.  
+  
 
 ## See Also  
  [How to: Open the Microsoft Dynamics NAV Web Client](How-to--Open-the-Microsoft-Dynamics-NAV-Web-Client.md)
