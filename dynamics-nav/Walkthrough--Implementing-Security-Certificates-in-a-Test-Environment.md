@@ -25,9 +25,9 @@ In this walkthrough, you set up an environment to test integrating certificates 
 
     3.  In the **Add Standalone Snap-in** dialog box, select **Certificates**, choose **Computer Account**, choose **Local Computer**, and then choose **Add**.  
 
--   The makecert.exe utility.  
+-   The makecert.exe utility or the  Powershell Cmdlet [New-SelfSignedCertificate](https://docs.microsoft.com/en-us/powershell/module/pkiclient/new-selfsignedcertificate).  
 
-     The makecert.exe utility is installed with Microsoft Visual Studio and Microsoft Windows SDK. For more information, see [Certificate Creation Tool \(Makecert.exe\)](http://go.microsoft.com/fwlink/?LinkId=202833) in the MSDN Library.  
+     The makecert.exe utility is installed with Microsoft Visual Studio and Microsoft Windows SDK. For more information, see [Makecert](https://docs.microsoft.com/da-dk/windows/desktop/SecCrypto/makecert). The procedures in the walkthrough use makecert. 
 
 ## Configuring [!INCLUDE[nav_server](includes/nav_server_md.md)]  
  You create and install a root certification authority \(CA\) and a server certificate on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
@@ -47,9 +47,11 @@ In this walkthrough, you set up an environment to test integrating certificates 
 4.  Type the following command.  
 
     ```  
-    makecert -n "CN=RootNavServiceCA" -r -sv RootNavServiceCA.pvk RootNavServiceCA.cer  
+    makecert -n "CN=RootNavServiceCA" -r -sv RootNavServiceCA.pvk RootNavServiceCA.cer -a sha256 
     ```  
-
+    
+    > [!NOTE]  
+    > The `-a`parameter specifies the signature algorithm. You cannot use `sha1`, which is the default. You must use `sha256`, `sha384`, or `sha512`.
 5.  When you are prompted, enter a password.  
 
      You need this password to create the service certificate.  
@@ -91,7 +93,7 @@ In this walkthrough, you set up an environment to test integrating certificates 
 1.  At the command prompt, type the following command:  
 
     ```  
-    makecert -crl -n "CN=RootNavServiceCA" -r -sv RootNavServiceCA.pvk RootNavServiceCA.crl  
+    makecert -crl -n "CN=RootNavServiceCA" -r -sv RootNavServiceCA.pvk RootNavServiceCA.crl -a sha256  
     ```  
 
 2.  When you are prompted, enter the password that you used to create the root CA.  
@@ -125,7 +127,7 @@ In this walkthrough, you set up an environment to test integrating certificates 
 1.  At the command prompt, type the following command:  
 
     ```  
-    makecert -sk NavServiceCert -iv RootNavServiceCA.pvk -n "CN=NavServiceCert" -ic RootNavServiceCA.cer -sr localmachine -ss my -sky exchange -pe NavServiceCert.cer  
+    makecert -sk NavServiceCert -iv RootNavServiceCA.pvk -n "CN=NavServiceCert" -ic RootNavServiceCA.cer -sr localmachine -ss my -sky exchange -pe NavServiceCert.cer -a sha256 
     ```  
 
     > [!NOTE]  
