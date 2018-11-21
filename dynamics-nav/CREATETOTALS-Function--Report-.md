@@ -13,6 +13,9 @@ manager: edupont
 ---
 # CREATETOTALS Function (Report)
 Maintains totals for a variable in C/AL.  
+
+> [!IMPORTANT]  
+> This function will be deprecated in a future update and we recommend that you do not use it.
   
 ## Syntax  
   
