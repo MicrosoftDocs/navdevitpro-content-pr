@@ -1,6 +1,7 @@
 ---
 title: "Developing Connect Apps for Dynamics 365 Business Central"
 author: SusanneWindfeldPedersen
+
 ms.author: solsen
 ms.custom: na
 ms.date: 11/23/2017
