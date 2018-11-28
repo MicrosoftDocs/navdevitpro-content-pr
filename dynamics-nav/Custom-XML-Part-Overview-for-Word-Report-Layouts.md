@@ -74,5 +74,3 @@ Word report layouts are built on *custom XML parts*. A custom XML part is struct
   
 ## See Also  
  [Managing Report Layouts](managing-report-layouts.md)   
- [Managing Report Layouts](managing-report-layouts.md)   
- [Managing Report Layouts](managing-report-layouts.md)
