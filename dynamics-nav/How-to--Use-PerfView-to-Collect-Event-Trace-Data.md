@@ -19,31 +19,31 @@ This topic describes how to use PerfView to collect event trace data for [!INCLU
   
 ### To collect event trace data  
   
-1.  Open PerfView.exe.  
+1. Open PerfView.exe.  
   
-2.  On the **Collect** menu, choose **Collect**.  
+2. On the **Collect** menu, choose **Collect**.  
   
-     The **Collecting data over a user specified interval** dialog box appears.  
+    The **Collecting data over a user specified interval** dialog box appears.  
   
-3.  Set the **Data file** field to the path and name of the log file in which to store the trace event data. The file name must have the .etl file name extension.  
+3. Set the **Data file** field to the path and name of the log file in which to store the trace event data. The file name must have the .etl file name extension.  
   
-4.  Choose **Advanced options**.  
+4. Choose **Advanced options**.  
   
-     The upper part of the **Advanced options**area includes check boxes and fields that specify the providers from which to collect event trace data.  
+    The upper part of the **Advanced options**area includes check boxes and fields that specify the providers from which to collect event trace data.  
   
-5.  In the **Additional providers** field, type **Microsoft-DynamicsNav-Server**.  
+5. In the **Additional providers** field, type **Microsoft-DynamicsNav-Server**.  
   
-    -   If you want to filter on a specific trace event, include a colon after **Microsoft-DynamicsNav-Server**, followed by the hexadecimal keyword value for the trace event. For example, to collect trace events data on service call trace events only, then type  **Microsoft-DynamicsNav-Server:0x4**.  
+   -   If you want to filter on a specific trace event, include a colon after **Microsoft-DynamicsNav-Server**, followed by the hexadecimal keyword value for the trace event. For example, to collect trace events data on service call trace events only, then type  **Microsoft-DynamicsNav-Server:0x4**.  
   
-    -   If you want to collect data on more than one trace event, add the keyword values for each trace event and then use the sum in the field. For example, if you want to collect data on service calls \(keyword value = 0x4\) and C/AL function traces \(keyword value = 0x8\), then type **Microsoft-DynamicsNav-Server:0xC** in the field. In hexadecimal, the sum of 0x4 and 0x8 is 0xC.  
+   -   If you want to collect data on more than one trace event, add the keyword values for each trace event and then use the sum in the field. For example, if you want to collect data on service calls \(keyword value = 0x4\) and C/AL function traces \(keyword value = 0x8\), then type **Microsoft-DynamicsNav-Server:0xC** in the field. In hexadecimal, the sum of 0x4 and 0x8 is 0xC.  
   
-6.  Clear the check boxes above the **Additional providers** field for any providers that you do not want to collect data for.  
+6. Clear the check boxes above the **Additional providers** field for any providers that you do not want to collect data for.  
   
-7.  To start recording data, choose the **Start Collection** button.  
+7. To start recording data, choose the **Start Collection** button.  
   
-8.  To stop recording data, choose the **Stop Collection** button.  
+8. To stop recording data, choose the **Stop Collection** button.  
   
- The collected event trace data is stored in an event trace log \(.etl\) file in the location that you specified. You can view the data in the log file by using various industry-standard tools, such as PerfView. For information about how to use PerfView to view the event trace data, see [How to: Use PerfView to View Event Trace Data](How-to--Use-PerfView-to-View-Event-Trace-Data.md).  
+   The collected event trace data is stored in an event trace log \(.etl\) file in the location that you specified. You can view the data in the log file by using various industry-standard tools, such as PerfView. For information about how to use PerfView to view the event trace data, see [How to: Use PerfView to View Event Trace Data](How-to--Use-PerfView-to-View-Event-Trace-Data.md).  
   
 ##  <a name="ViewDataPerfView"></a> To view event trace data from an event trace log file  
   

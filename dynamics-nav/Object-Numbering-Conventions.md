@@ -136,19 +136,19 @@ Each object and field in [!INCLUDE[navnow](includes/navnow_md.md)] is identified
   
  Examples of associated tables are as follows:  
   
--   Customer and Vendor tables  
+- Customer and Vendor tables  
   
--   Journal template tables  
+- Journal template tables  
   
--   Batch name tables  
+- Batch name tables  
   
--   Journal line tables  
+- Journal line tables  
   
--   Sales Header, Sales Shipment Header, Sales Invoice Header, and Sales Credit Memo Header tables  
+- Sales Header, Sales Shipment Header, Sales Invoice Header, and Sales Credit Memo Header tables  
   
--   Purchase Line, Purchase Receipt Line, Purchase Invoice Line and Purchase Credit Memo Line tables  
+- Purchase Line, Purchase Receipt Line, Purchase Invoice Line and Purchase Credit Memo Line tables  
   
- When you create a new independent table, do not leave gaps in the field numbers.  
+  When you create a new independent table, do not leave gaps in the field numbers.  
   
 ## See Also  
  [Naming Conventions](Naming-Conventions.md)   

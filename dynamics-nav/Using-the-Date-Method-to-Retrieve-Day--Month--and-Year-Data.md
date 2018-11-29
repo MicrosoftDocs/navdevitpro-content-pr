@@ -17,11 +17,11 @@ When you have fields in a table that contain dates, you can use a date method to
 ## Setting Up a Date Method on a Query Column  
  To set up a date method on a query column, you can do one of the following from Query Designer:  
   
--   In the row that specifies the column, set the **Method Type** to **Date** and the **Method** to **Day**, **Month**, and **Year**.  
+- In the row that specifies the column, set the **Method Type** to **Date** and the **Method** to **Day**, **Month**, and **Year**.  
   
--   Open the properties of the column, and then set the [MethodType Property](MethodType-Property.md) to **Date** and [Method Property](Method-Property.md) to **Day**, **Month**, and **Year**.  
+- Open the properties of the column, and then set the [MethodType Property](MethodType-Property.md) to **Date** and [Method Property](Method-Property.md) to **Day**, **Month**, and **Year**.  
   
- For more information about how to set up query columns and properties, see [How to: Create Queries](How-to--Create-Queries.md).  
+  For more information about how to set up query columns and properties, see [How to: Create Queries](How-to--Create-Queries.md).  
   
 > [!IMPORTANT]  
 >  You can only use a date method on fields that have a Date or DateTime data type. For additional information about how to use a date method on a field that has the DateTime data type, see [Working with DateTime Data Types](Using-the-Date-Method-to-Retrieve-Day--Month--and-Year-Data.md#DateTime).  

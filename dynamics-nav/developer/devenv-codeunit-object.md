@@ -15,7 +15,7 @@ caps.latest.revision: 18
 redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object
 ---
 
- 
+
 
 # Codeunit Object
 A codeunit is a container for AL code that you can use in many application objects. 
@@ -37,7 +37,6 @@ codeunit 70000100 CreateCustomer
             r.ShoeSize :=  42;  
     end;
 }
-
 ```
 
 ## See Also

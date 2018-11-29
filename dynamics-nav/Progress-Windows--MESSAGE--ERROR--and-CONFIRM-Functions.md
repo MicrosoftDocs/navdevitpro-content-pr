@@ -13,13 +13,13 @@ caps.latest.revision: 17
 # Progress Windows, MESSAGE, ERROR, and CONFIRM Functions
 You can use several specialized functions to display messages and gather input. We recommend that you use pages to ensure that your application has a consistent user interface. However, there are situations where you may want to use the dialog functions instead of pages. The most important uses of the dialog functions are as follows:  
   
--   To display a window that indicates the progress of some processing that may take a long time.  
+- To display a window that indicates the progress of some processing that may take a long time.  
   
--   To stop the running program to display an error message.  
+- To stop the running program to display an error message.  
   
--   To let the user confirm a choice before the program continues running.  
+- To let the user confirm a choice before the program continues running.  
   
- You can also use the STRMENU function to create pages that present options to the user. It is much faster to use this function than to design a page which only presents a limited set of options to the user. For more information about the STRMENU function, see [STRMENU Function](STRMENU-Function.md).  
+  You can also use the STRMENU function to create pages that present options to the user. It is much faster to use this function than to design a page which only presents a limited set of options to the user. For more information about the STRMENU function, see [STRMENU Function](STRMENU-Function.md).  
   
 ## Best Practices for User Messages  
  We recommend the following guidelines for writing messages for end users:  

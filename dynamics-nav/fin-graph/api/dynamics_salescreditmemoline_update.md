@@ -24,6 +24,7 @@ PATCH /businesscentral/companies({id})/salesCreditMemos({id})/salesCreditMemoLin
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization |Bearer {token}. Required.|

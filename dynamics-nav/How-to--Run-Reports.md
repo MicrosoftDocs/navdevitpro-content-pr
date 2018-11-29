@@ -63,19 +63,19 @@ You can run reports:
   
  To specify the value, you can either use a single value or a comparison operator and a value. The following are valid comparison operators:  
   
--   > \(greater than\)  
+- > \(greater than\)  
   
--   >= \(greater than or equal to\)  
+- >= \(greater than or equal to\)  
   
--   \< \(less than\)  
+- \< \(less than\)  
   
--   \<= \(less than or equal to\)  
+- \<= \(less than or equal to\)  
   
--   \<> \(not equal to\)  
+- \<> \(not equal to\)  
   
- The wildcard character \* is permitted in the value.  
+  The wildcard character \* is permitted in the value.  
   
- You can specify multiple filter strings by concatenating them. For example, the following command filters on cities that begin with M and names that begin with A.  
+  You can specify multiple filter strings by concatenating them. For example, the following command filters on cities that begin with M and names that begin with A.  
   
 ```  
 DynamicsNAV:////runreport?report=101&filter=Customer.City:G*&filter=Customer.Name:C*  

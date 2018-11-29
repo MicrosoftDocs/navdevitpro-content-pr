@@ -103,118 +103,120 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
 #### To enable integration records on the Dynamics NAV Campaign table  
 
-1.  In [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open codeunit **5150 Integration Management**.  
+1. In [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open codeunit **5150 Integration Management**.  
 
-2.  In the **IsIntegrationRecord** trigger, add the code `DATABASE::Campaign` to the database list as illustrated in the following code example:  
+2. In the **IsIntegrationRecord** trigger, add the code `DATABASE::Campaign` to the database list as illustrated in the following code example:  
 
-    ```  
-    EXIT(TableID IN  
-      [DATABASE::Campaign,  
-       DATABASE::Resource,  
-       DATABASE::"Payment Terms",  
-       DATABASE::"Shipment Method",  
-    ...  
+   ```  
+   EXIT(TableID IN  
+     [DATABASE::Campaign,  
+      DATABASE::Resource,  
+      DATABASE::"Payment Terms",  
+      DATABASE::"Shipment Method",  
+   ...  
 
-    ```  
+   ```  
 
-3.  In the **CreateIntegrationPageList** trigger, add the code `AddToIntegrationPageList(PAGE::"Campaign Card",DATABASE::Campaign,TempNameValueBuffer,NextId);` as illustrated in the following code example:   
+3. In the **CreateIntegrationPageList** trigger, add the code `AddToIntegrationPageList(PAGE::"Campaign Card",DATABASE::Campaign,TempNameValueBuffer,NextId);` as illustrated in the following code example:   
 
-    ```
-    AddToIntegrationPageList(PAGE::"Contact Card",DATABASE::Contact,TempNameValueBuffer,NextId);  
-    AddToIntegrationPageList(PAGE::"Countries/Regions",DATABASE::"Country/Region",TempNameValueBuffer,NextId);  
-    AddToIntegrationPageList(PAGE::"Campaign Сard",DATABASE::Campaign,TempNameValueBuffer,NextId);  
-    ```
+   ```
+   AddToIntegrationPageList(PAGE::"Contact Card",DATABASE::Contact,TempNameValueBuffer,NextId);  
+   AddToIntegrationPageList(PAGE::"Countries/Regions",DATABASE::"Country/Region",TempNameValueBuffer,NextId);  
+   AddToIntegrationPageList(PAGE::"Campaign Сard",DATABASE::Campaign,TempNameValueBuffer,NextId);  
+   ```
 
-4.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
+4. Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
 
-     For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start--Stop--Restart--or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
+    For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start--Stop--Restart--or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
 
- When changes occur in the table **5071 Campaign**, an integration record will be created or updated with a timestamp. You can now use the table to create a page for coupling [!INCLUDE[navnow](includes/navnow_md.md)] records with [!INCLUDE[crm](includes/crm_md.md)] records.  
+   When changes occur in the table **5071 Campaign**, an integration record will be created or updated with a timestamp. You can now use the table to create a page for coupling [!INCLUDE[navnow](includes/navnow_md.md)] records with [!INCLUDE[crm](includes/crm_md.md)] records.  
 
 <!--section deleted by CRM team -->  
 #### To create actions on the campaign page for managing the coupling  
 
-1.  Open page **5086 Campaign Card** in Page Designer, and then open Action Designer.  
+1. Open page **5086 Campaign Card** in Page Designer, and then open Action Designer.  
 
-     For more information about how to add actions, see [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md).  
+    For more information about how to add actions, see [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md).  
 
-2.  Add an **ActionGroup** control that is caption **Dynamics 365 for Sales**.  
+2. Add an **ActionGroup** control that is caption **Dynamics 365 for Sales**.  
 
-3.  Add another **ActionGroup** control under **Dynamics 365 for Sales** that has the caption **Coupling**.  
+3. Add another **ActionGroup** control under **Dynamics 365 for Sales** that has the caption **Coupling**.  
 
-4.  In the **Coupling** action group, add the following actions:  
+4. In the **Coupling** action group, add the following actions:  
 
-    |Name|Caption|  
-    |----|-------|  
-    |ManageCRMCoupling|Manage Coupling|  
-    |DeleteCRMCoupling|Delete Coupling|  
 
-5.  Open the C/AL code for the actions, and follow these steps:  
+   |       Name        |     Caption     |
+   |-------------------|-----------------|
+   | ManageCRMCoupling | Manage Coupling |
+   | DeleteCRMCoupling | Delete Coupling |
 
-    1.  In the code for the action `ManageCRMCoupling`, add a local variable that has name **CRMIntegrationManagement** and references codeunit **5330 CRM Integration Management** as its subtype, and then add the following line of code:  
 
-        ```  
-        CRMIntegrationManagement.DefineCoupling(RECORDID);  
-        ```  
+5. Open the C/AL code for the actions, and follow these steps:  
 
-    2.  In the code for the action `DeleteCRMCoupling`, add a local variable that has the name **CRMCouplingManagement** and references codeunit **5331 CRM Coupling Management** as its subtype, and then add the following line of code:  
+   1.  In the code for the action `ManageCRMCoupling`, add a local variable that has name **CRMIntegrationManagement** and references codeunit **5330 CRM Integration Management** as its subtype, and then add the following line of code:  
 
-        ```  
-        CRMCouplingManagement.RemoveCoupling(RECORDID);  
+       ```  
+       CRMIntegrationManagement.DefineCoupling(RECORDID);  
+       ```  
 
-        ```  
+   2.  In the code for the action `DeleteCRMCoupling`, add a local variable that has the name **CRMCouplingManagement** and references codeunit **5331 CRM Coupling Management** as its subtype, and then add the following line of code:  
 
-6.  Save and compile the page.  
-7.  Open codeunit 5334 **CRM Setup Defaults**.
-8.  In the **GetCRMTableNo** function, add the following code as a case after the *CRM Opportunity* case:  
+       ```  
+       CRMCouplingManagement.RemoveCoupling(RECORDID);  
 
-        ```
-        DATABASE::Campaign:  
-          EXIT(DATABASE::"CRM Campaign");  
-        ```
+       ```  
 
- The coupling page is now available from the Campaign page.  
-<!--section deleted by CRM team -->  
+6. Save and compile the page.  
+7. Open codeunit 5334 **CRM Setup Defaults**.
+8. In the **GetCRMTableNo** function, add the following code as a case after the *CRM Opportunity* case:  
 
- To enable users to open the [!INCLUDE[crm](includes/crm_md.md)] Campaign record from the [!INCLUDE[navnow](includes/navnow_md.md)] Campaign, the next step is to add an additional action to the Campaign Card page.  
+       ```
+       DATABASE::Campaign:  
+         EXIT(DATABASE::"CRM Campaign");  
+       ```
+
+   The coupling page is now available from the Campaign page.  
+   <!--section deleted by CRM team -->  
+
+   To enable users to open the [!INCLUDE[crm](includes/crm_md.md)] Campaign record from the [!INCLUDE[navnow](includes/navnow_md.md)] Campaign, the next step is to add an additional action to the Campaign Card page.  
 
 #### To add actions to open the Dynamics 365 for Sales campaign record  
 
-1.  Open page **5086 Campaign Card** in Page Designer, and then open Action Designer.  
+1. Open page **5086 Campaign Card** in Page Designer, and then open Action Designer.  
 
-2.  In the **Dynamics 365 for Sales** action group, before the **Coupling** action group, add a new action that has the name **GotoCRMCampaign** and caption **Campaign**.  
+2. In the **Dynamics 365 for Sales** action group, before the **Coupling** action group, add a new action that has the name **GotoCRMCampaign** and caption **Campaign**.  
 
-3.  In the C/AL code for the action, add a variable that has the name **CRMIntegrationManagement** and references codeunit **5330 CRM Integration Management**, and then add the following line of code:  
+3. In the C/AL code for the action, add a variable that has the name **CRMIntegrationManagement** and references codeunit **5330 CRM Integration Management**, and then add the following line of code:  
 
-    ```  
-    CRMIntegrationManagement.ShowCRMEntityFromRecordID(RECORDID);  
+   ```  
+   CRMIntegrationManagement.ShowCRMEntityFromRecordID(RECORDID);  
 
-    ```  
+   ```  
 
-4.  Save and compile the card page.  
+4. Save and compile the card page.  
 
-5.  Open codeunit **5334 CRM Setup Defaults** in Codeunit Designer.  
+5. Open codeunit **5334 CRM Setup Defaults** in Codeunit Designer.  
 
-6.  Add the following code to the `GetTableIDCRMEntityNameMapping` function to add an entity table mapping for table **5081 Campaign** and integration table **50001 CRM Campaign**:  
+6. Add the following code to the `GetTableIDCRMEntityNameMapping` function to add an entity table mapping for table **5081 Campaign** and integration table **50001 CRM Campaign**:  
 
-    ```  
-    AddEntityTableMapping('campaign',DATABASE::Campaign,TempNameValueBuffer);  
-    AddEntityTableMapping('campaign',DATABASE::"CRM Campaign",TempNameValueBuffer);  
+   ```  
+   AddEntityTableMapping('campaign',DATABASE::Campaign,TempNameValueBuffer);  
+   AddEntityTableMapping('campaign',DATABASE::"CRM Campaign",TempNameValueBuffer);  
 
-    ```  
+   ```  
 
-7.  Save and compile the codeunit.  
+7. Save and compile the codeunit.  
 
- The coupling and links between [!INCLUDE[crm](includes/crm_md.md)] Campaign records and [!INCLUDE[navnow](includes/navnow_md.md)] Campaign records are now completed. Users can easily open the coupled [!INCLUDE[crm](includes/crm_md.md)] record directly from [!INCLUDE[navnow](includes/navnow_md.md)].  
+   The coupling and links between [!INCLUDE[crm](includes/crm_md.md)] Campaign records and [!INCLUDE[navnow](includes/navnow_md.md)] Campaign records are now completed. Users can easily open the coupled [!INCLUDE[crm](includes/crm_md.md)] record directly from [!INCLUDE[navnow](includes/navnow_md.md)].  
 
 ## Creating an Integration Table Mapping for Synchronizing Dynamics 365 for Sales Campaigns and Dynamics NAV Campaigns  
  For synchronization of data between [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[crm](includes/crm_md.md)] to work, mappings must exist to associate the table ID and fields of the integration table \(in this case table **50001 CRM Campaign**\) with the [!INCLUDE[navnow](includes/navnow_md.md)] business data table \(in this case table **5081 Campaign**\). To accomplish this, you must create to types of mappings: *integration table mapping* and *integration field mapping*.  
 
--   An integration table mapping links the [!INCLUDE[navnow](includes/navnow_md.md)] business data table to the integration table for the [!INCLUDE[crm](includes/crm_md.md)] entity.  
+- An integration table mapping links the [!INCLUDE[navnow](includes/navnow_md.md)] business data table to the integration table for the [!INCLUDE[crm](includes/crm_md.md)] entity.  
 
--   A field mapping associates a field in a [!INCLUDE[crm](includes/crm_md.md)] entity record with a field in a [!INCLUDE[navnow](includes/navnow_md.md)] record. It basically determines which field in [!INCLUDE[navnow](includes/navnow_md.md)] corresponds to which field in [!INCLUDE[crm](includes/crm_md.md)]. You will typically have multiple field mappings for an entity.  
+- A field mapping associates a field in a [!INCLUDE[crm](includes/crm_md.md)] entity record with a field in a [!INCLUDE[navnow](includes/navnow_md.md)] record. It basically determines which field in [!INCLUDE[navnow](includes/navnow_md.md)] corresponds to which field in [!INCLUDE[crm](includes/crm_md.md)]. You will typically have multiple field mappings for an entity.  
 
- You can create the integration table mapping directly in table **5335 Integration Table Mapping** and integration field mappings directly in table **5336 Integration Field Mappings** or you can add the mappings by modifying codeunit **5334 CRM Setup Defaults**. For a repeatable solution, we recommend that you integrate your changes in codeunit **5334 CRM Setup Defaults**.  
+  You can create the integration table mapping directly in table **5335 Integration Table Mapping** and integration field mappings directly in table **5336 Integration Field Mappings** or you can add the mappings by modifying codeunit **5334 CRM Setup Defaults**. For a repeatable solution, we recommend that you integrate your changes in codeunit **5334 CRM Setup Defaults**.  
 
 #### To Create an Integration Table Mapping  
 
@@ -238,37 +240,41 @@ To create an integration table mapping directly in the table **5335 Integration 
 
 To add an integration table mapping in codeunit **5334 CRM Setup Defaults**, follow these steps:  
 
-1.  Open the codeunit in Codeunit Designer.  
+1. Open the codeunit in Codeunit Designer.  
 
-2.  Add a local function called **ResetCampaignMapping** with the following parameters:  
+2. Add a local function called **ResetCampaignMapping** with the following parameters:  
 
-    |Name|DataType|SubType|Length|  
-    |----|--------|-------|------|  
-    |IntegrationTableMappingName|Code| |20|  
-    |EnqueueJobQueEntry|Boolean| | |  
 
-3.  Add the following local variables:  
+   |            Name             | DataType | SubType | Length |
+   |-----------------------------|----------|---------|--------|
+   | IntegrationTableMappingName |   Code   |         |   20   |
+   |     EnqueueJobQueEntry      | Boolean  |         |        |
 
-    |Name|DataType|SubType|  
-    |----------|--------------|-------------|  
-    |IntegrationTableMapping|Record|Integration Table Mapping|  
-    |IntegrationFieldMapping|Record|Integration Field Mapping|  
-    |CRMCampaign|Record|CRM Campaign|  
-    |Campaign|Record|Campaign|  
 
-4.  Add the following code to the function:  
+3. Add the following local variables:  
 
-    ```  
-    InsertIntegrationTableMapping(
-      IntegrationTableMapping,IntegrationTableMappingName,
-      DATABASE::Campaign,DATABASE::"CRM Campaign",
-      CRMCampaign.FIELDNO(CampaignId),CRMCampaign.FIELDNO(ModifiedOn),
-      '','',TRUE);
 
-    RecreateJobQueueEntryFromIntTableMapping(IntegrationTableMapping,30,EnqueueJobQueEntry);
-    ```  
+   |          Name           | DataType |          SubType          |
+   |-------------------------|----------|---------------------------|
+   | IntegrationTableMapping |  Record  | Integration Table Mapping |
+   | IntegrationFieldMapping |  Record  | Integration Field Mapping |
+   |       CRMCampaign       |  Record  |       CRM Campaign        |
+   |        Campaign         |  Record  |         Campaign          |
 
- For each integration table mapping entry, there must be integration field mapping entries to map the individual fields of the records in the business table and integration table. The next step is to add integration field mappings for each field in the [!INCLUDE[navnow](includes/navnow_md.md)] Campaign table that you want to map to the [!INCLUDE[crm](includes/crm_md.md)] Campaign entity.  
+
+4. Add the following code to the function:  
+
+   ```  
+   InsertIntegrationTableMapping(
+     IntegrationTableMapping,IntegrationTableMappingName,
+     DATABASE::Campaign,DATABASE::"CRM Campaign",
+     CRMCampaign.FIELDNO(CampaignId),CRMCampaign.FIELDNO(ModifiedOn),
+     '','',TRUE);
+
+   RecreateJobQueueEntryFromIntTableMapping(IntegrationTableMapping,30,EnqueueJobQueEntry);
+   ```  
+
+   For each integration table mapping entry, there must be integration field mapping entries to map the individual fields of the records in the business table and integration table. The next step is to add integration field mappings for each field in the [!INCLUDE[navnow](includes/navnow_md.md)] Campaign table that you want to map to the [!INCLUDE[crm](includes/crm_md.md)] Campaign entity.  
 
 #### To Create Integration Fields Mappings  
 
@@ -293,41 +299,41 @@ To create an integration field mapping directly in table **5336 Integration Fiel
 
 To add an integration field mapping in codeunit **5334 CRM Setup Defaults**, follow these steps:  
 
-1.  Open the codeunit in Codeunit Designer.  
+1. Open the codeunit in Codeunit Designer.  
 
-2.  In the function **ResetCampaignMapping**, add the following code. As an example, this code maps the `Description` field in the **Campaign** table to the `Name` field in the **CRM Campaign** integration table.  
+2. In the function **ResetCampaignMapping**, add the following code. As an example, this code maps the `Description` field in the **Campaign** table to the `Name` field in the **CRM Campaign** integration table.  
 
-    ```  
-    InsertIntegrationFieldMapping(  
-      IntegrationTableMappingName,  
-      Campaign.FIELDNO("Description"),  
-      CRMCampaign.FIELDNO(Name),  
-      IntegrationFieldMapping.Direction::Bidirectional,  
-      '',FALSE,FALSE);  
+   ```  
+   InsertIntegrationFieldMapping(  
+     IntegrationTableMappingName,  
+     Campaign.FIELDNO("Description"),  
+     CRMCampaign.FIELDNO(Name),  
+     IntegrationFieldMapping.Direction::Bidirectional,  
+     '',FALSE,FALSE);  
 
-    ```  
+   ```  
 
-     Repeat this step for all fields that you want to map.  
+    Repeat this step for all fields that you want to map.  
 
-3.  After you make the changes to the CRM Setup Defaults, you can update the mappings by running the **[!INCLUDE[crm](includes/crm_md.md)] Connection Setup** page and choosing **Use Default Synchronization Setup**.  
+3. After you make the changes to the CRM Setup Defaults, you can update the mappings by running the **[!INCLUDE[crm](includes/crm_md.md)] Connection Setup** page and choosing **Use Default Synchronization Setup**.  
 
- The next step is to add an action on page **5086  Campaign Card** that lets users to manually synchronize data between coupled campaign records in [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[crm](includes/crm_md.md)].  
+   The next step is to add an action on page **5086  Campaign Card** that lets users to manually synchronize data between coupled campaign records in [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[crm](includes/crm_md.md)].  
 
 #### To add an action for manual synchronization  
 
-1.  Open page **5086 Campaign Card** in Page Designer, and then open the Action Designer for the page.  
+1. Open page **5086 Campaign Card** in Page Designer, and then open the Action Designer for the page.  
 
-2.  In the **Dynamics 365 For Sales** action group, before the **Coupling** action group, add a new action that has the name **CRMSynchronizeNow** and the caption **Synchronize Now**.  
+2. In the **Dynamics 365 For Sales** action group, before the **Coupling** action group, add a new action that has the name **CRMSynchronizeNow** and the caption **Synchronize Now**.  
 
-3.  In the C/AL code for the action, add a global variable that has the name **CRMIntegrationManagement** and references codeunit **5330 CRM Integration Management**, and then add the following line of code:  
+3. In the C/AL code for the action, add a global variable that has the name **CRMIntegrationManagement** and references codeunit **5330 CRM Integration Management**, and then add the following line of code:  
 
-    ```  
-    CRMIntegrationManagement.UpdateOneNow(RECORDID);  
-    ```  
+   ```  
+   CRMIntegrationManagement.UpdateOneNow(RECORDID);  
+   ```  
 
-4.  Save and compile the page.  
+4. Save and compile the page.  
 
- Users can now manually synchronize [!INCLUDE[navnow](includes/navnow_md.md)] Campaign records with [!INCLUDE[crm](includes/crm_md.md)] Campaign entity records from the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
+   Users can now manually synchronize [!INCLUDE[navnow](includes/navnow_md.md)] Campaign records with [!INCLUDE[crm](includes/crm_md.md)] Campaign entity records from the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
 
 > [!TIP]  
 >  If you want to learn how to schedule the synchronization by using a job queue entry, examine the code on the **RecreateJobQueueEntry** function in codeunit **5330 CRM Integration Management** and see how it is called by the integration code for other [!INCLUDE[crm](includes/crm_md.md)] entities in the codeunit.  
@@ -356,58 +362,59 @@ To add an integration field mapping in codeunit **5334 CRM Setup Defaults**, fol
 
 #### To subscribe to the Integration Table Synch. OnAfterTransferRecordFields event  
 
-1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open the codeunit that has the ID **5341** and the name **CRM Int. Table. Subscriber**.  
+1. In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open the codeunit that has the ID **5341** and the name **CRM Int. Table. Subscriber**.  
 
-2.  Add a new function with the name **UpdateCampaignComment**.  
+2. Add a new function with the name **UpdateCampaignComment**.  
 
-3.  Add the following locals to the function:  
+3. Add the following locals to the function:  
 
-    |Function Variable Name|DataType|SubType|  
-    |----------|--------------|-------------|  
-    |CRMCampaign|Record|CRM Campaign|  
-    |Campaign|Record|Campaign|  
+   |Function Variable Name|DataType|SubType|  
+   |----------|--------------|-------------|  
+   |CRMCampaign|Record|CRM Campaign|  
+   |Campaign|Record|Campaign|  
 
-    |Function Return Value Name|Return Type|  
-    |--------------------------|-----------|  
-    |AdditionalFieldsWereModified|Boolean|  
+   |Function Return Value Name|Return Type|  
+   |--------------------------|-----------|  
+   |AdditionalFieldsWereModified|Boolean|  
 
-    |Function Parameter Name|Data Type|  
-    |-----------------------|---------|  
-    |SourceRecordRef|RecordRef|  
-    |DestinationRecordRef|RecordRef|  
+   | Function Parameter Name | Data Type |
+   |-------------------------|-----------|
+   |     SourceRecordRef     | RecordRef |
+   |  DestinationRecordRef   | RecordRef |
 
-4.  Add the following code to implement the logic to determine whether the **Message** field has a value:  
 
-    ```  
-    SourceRecordRef.SETTABLE(CRMCampaign);  
-    DestinationRecordRef.SETTABLE(Campaign);  
+4. Add the following code to implement the logic to determine whether the **Message** field has a value:  
 
-    IF (CRMCampaign.Message <> '') AND (NOT Campaign.Comment) THEN BEGIN  
-      Campaign.Comment := TRUE;  
-      AdditionalFieldsWereModified := TRUE;  
-    END ELSE BEGIN  
-      IF (CRMCampaign.Message = '') AND Campaign.Comment THEN BEGIN  
-        Campaign.Comment := FALSE;  
-        AdditionalFieldsWereModified := TRUE;  
-      END;  
-    END;  
+   ```  
+   SourceRecordRef.SETTABLE(CRMCampaign);  
+   DestinationRecordRef.SETTABLE(Campaign);  
 
-    IF AdditionalFieldsWereModified THEN  
-      DestinationRecordRef.GETTABLE(Campaign);
-    ```  
+   IF (CRMCampaign.Message <> '') AND (NOT Campaign.Comment) THEN BEGIN  
+     Campaign.Comment := TRUE;  
+     AdditionalFieldsWereModified := TRUE;  
+   END ELSE BEGIN  
+     IF (CRMCampaign.Message = '') AND Campaign.Comment THEN BEGIN  
+       Campaign.Comment := FALSE;  
+       AdditionalFieldsWereModified := TRUE;  
+     END;  
+   END;  
 
-5.  Locate the **OnAfterTransferRecordFields** function, which is an EventSubscriber. Add the following code as a case after the Unit of Measure case:  
+   IF AdditionalFieldsWereModified THEN  
+     DestinationRecordRef.GETTABLE(Campaign);
+   ```  
 
-    ```  
-    'CRM Campaign-Campaign':
-      AdditionalFieldsWereModified :=
-        UpdateCampaignComment(SourceRecordRef,DestinationRecordRef);
+5. Locate the **OnAfterTransferRecordFields** function, which is an EventSubscriber. Add the following code as a case after the Unit of Measure case:  
 
-    ```
+   ```  
+   'CRM Campaign-Campaign':
+     AdditionalFieldsWereModified :=
+       UpdateCampaignComment(SourceRecordRef,DestinationRecordRef);
 
-6.  Save and compile the codeunit.  
+   ```
 
- When you choose **Synchronize Now** on the **Campaign** page, and then choose to synchronize from [!INCLUDE[crm](includes/crm_md.md)] to [!INCLUDE[navnow](includes/navnow_md.md)], the **Comment** field should be updated to indicate whether the **Message** field in the [!INCLUDE[crm](includes/crm_md.md)] campaign has a value.  
+6. Save and compile the codeunit.  
+
+   When you choose **Synchronize Now** on the **Campaign** page, and then choose to synchronize from [!INCLUDE[crm](includes/crm_md.md)] to [!INCLUDE[navnow](includes/navnow_md.md)], the **Comment** field should be updated to indicate whether the **Message** field in the [!INCLUDE[crm](includes/crm_md.md)] campaign has a value.  
 
 ## See Also  
  [Customizing Dynamics 365 for Sales and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)   

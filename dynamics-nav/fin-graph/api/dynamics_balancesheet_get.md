@@ -23,6 +23,7 @@ GET /businesscentral/companies({id})/balanceSheet
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |

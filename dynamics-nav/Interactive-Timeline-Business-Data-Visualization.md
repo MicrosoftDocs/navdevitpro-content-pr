@@ -14,17 +14,17 @@ manager: edupont
 # Interactive Timeline Business Data Visualization
 The Interactive Timeline Business Data Visualization for [!INCLUDE[navnow](includes/navnow_md.md)] provides a unique view on business data with an interactive user interface \(UI\) to change the business data. It targets the class of business data that represents a series of changes that measures value over time, such as:  
   
--   The future inventory level of an item from known and expected supply and demand events.  
+- The future inventory level of an item from known and expected supply and demand events.  
   
--   The balance of an account over time, as influenced by the account-related transactions.  
+- The balance of an account over time, as influenced by the account-related transactions.  
   
- The visualization helps identify periods of time during which the value falls under zero. You can add multiple horizontal target lines to the visualization for additional visual comparison with target levels. You can also visually mark special dates, such as today, or a work date.  
+  The visualization helps identify periods of time during which the value falls under zero. You can add multiple horizontal target lines to the visualization for additional visual comparison with target levels. You can also visually mark special dates, such as today, or a work date.  
   
- ![Chart of the projected inventory for item bicycle](media/TimeLine_Viz_ProjectedInventoryBicyle.png "TimeLine\_Viz\_ProjectedInventoryBicyle")  
+  ![Chart of the projected inventory for item bicycle](media/TimeLine_Viz_ProjectedInventoryBicyle.png "TimeLine\_Viz\_ProjectedInventoryBicyle")  
   
- Visualization lets you compare multiple what-if scenarios, for example, by taking a certain forecast into consideration.  
+  Visualization lets you compare multiple what-if scenarios, for example, by taking a certain forecast into consideration.  
   
- Visualization also includes an interactivity option. Interactivity allows a user to change the amount and date of a transaction directly in the visualization by dragging the visual point of a transaction to the new amount or new date. The changed transaction will be tagged visually with the nature of the changes. The projected result of the change will be shown immediately.  
+  Visualization also includes an interactivity option. Interactivity allows a user to change the amount and date of a transaction directly in the visualization by dragging the visual point of a transaction to the new amount or new date. The changed transaction will be tagged visually with the nature of the changes. The projected result of the change will be shown immediately.  
   
 ## Characteristics of the Business Data Visualization  
  The Interactive Timeline Business Data Visualization provides a visual representation of the data that is transformed into a mental model. This lets users understand the influence of transactions over time, on a certain measure. The visualization provides insight into business transactions by displaying the projected aggregated consequences over time. It visually highlights problematic situations, such as time periods and amounts that go under zero. Optionally, it provides visual comparisons of defined amounts throughout the time period.  

@@ -24,6 +24,7 @@ GET /businesscentral/companies({id})/paymentTerms({id})
 ```
 
 ## Request headers
+
 |Header         |Value                     |
 |---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |

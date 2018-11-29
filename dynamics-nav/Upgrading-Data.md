@@ -15,13 +15,13 @@ manager: edupont
 # Upgrading Data in Microsoft Dynamics NAV
 This topic describes how to upgrade data in the business database. You perform a data upgrade:  
 
--   After you make changes to tables from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and synchronize the schemas in the database.  
+- After you make changes to tables from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and synchronize the schemas in the database.  
 
--   When you upgrade the database from an earlier [!INCLUDE[navnow](includes/navnow_md.md)] version to [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+- When you upgrade the database from an earlier [!INCLUDE[navnow](includes/navnow_md.md)] version to [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
 
- The data upgrade process migrates data from upgrade tables to tables in the new or modified database based on the information that is contained in the upgrade codeunits that are available for the application. For more information about upgrade codeunits, see [Upgrade Codeunits](Upgrade-Codeunits.md).  
+  The data upgrade process migrates data from upgrade tables to tables in the new or modified database based on the information that is contained in the upgrade codeunits that are available for the application. For more information about upgrade codeunits, see [Upgrade Codeunits](Upgrade-Codeunits.md).  
 
- You can run the data upgrade from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
+  You can run the data upgrade from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
 
 ##  <a name="DatUpgradeProcess"></a> Data Upgrade Process  
  The data upgrade process is controlled by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to the database. When you start a data upgrade, the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances runs all upgrade codeunits that are available for the application and calls the **CheckPreconditions** and upgrade functions, that is **UpgradePerCompany** and **UpgradePerDatabase** function types, that are contained in the upgrade codeunits. These functions provide instructions about how to migrate data from the upgrade tables to locations in the business database.  
@@ -31,11 +31,11 @@ This topic describes how to upgrade data in the business database. You perform a
 
  The **CheckPreconditions** and **Upgrade** functions are called in the following order:  
 
-1.  **CheckPreconditions** functions are called in random order.  
+1. **CheckPreconditions** functions are called in random order.  
 
-2.  **Upgrade** functions are called in random order.  
+2. **Upgrade** functions are called in random order.  
 
- By default, Upgrade functions are executed in parallel mode \(at the same time\) unless you choose a different mode. For more information see, [Parallel and Serial Execution Modes for Upgrade Codeunit Functions](Upgrading-Data.md#ParallelSerial).  
+   By default, Upgrade functions are executed in parallel mode \(at the same time\) unless you choose a different mode. For more information see, [Parallel and Serial Execution Modes for Upgrade Codeunit Functions](Upgrading-Data.md#ParallelSerial).  
 
 > [!IMPORTANT]  
 >  Depending on how many tables that must be modified in the business database, the data upgrade process can take several minutes to several hours to finish.  
@@ -52,13 +52,13 @@ This topic describes how to upgrade data in the business database. You perform a
 ### Error Handling During Data Upgrade  
  The following describes the process when an error occurs when executing functions in the upgrade codeunits:  
 
--   When an error occurs while executing a function, the execution of the function is stopped and changes that were made by the function are rolled back.  
+- When an error occurs while executing a function, the execution of the function is stopped and changes that were made by the function are rolled back.  
 
-    -   If the upgrade data process is set to continue on errors, then remaining functions are executed until the process is completed.  
+  -   If the upgrade data process is set to continue on errors, then remaining functions are executed until the process is completed.  
 
-    -   If the upgrade data process is not set to continue on errors, then the process is suspended. When functions are executed in parallel mode, functions that are still in progress will be canceled and the changes that were made by the functions will also be rolled back. Changes that were made by functions that were completed are not rolled back.  
+  -   If the upgrade data process is not set to continue on errors, then the process is suspended. When functions are executed in parallel mode, functions that are still in progress will be canceled and the changes that were made by the functions will also be rolled back. Changes that were made by functions that were completed are not rolled back.  
 
- You can use the Get-NavDataUpgrade to obtain information about the functions that have been successfully executed and those that failed. You can use this information to fix any errors, and then resume the data upgrade to execute the failed and canceled functions.  
+  You can use the Get-NavDataUpgrade to obtain information about the functions that have been successfully executed and those that failed. You can use this information to fix any errors, and then resume the data upgrade to execute the failed and canceled functions.  
 
 ## Running From the Development Environment  
  The [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] includes several options that enable you to control the data upgrade process. On the **Tools** menu, choose **Data Upgrade**, and then choose one of the options that are described in the following table:  
@@ -73,15 +73,15 @@ This topic describes how to upgrade data in the business database. You perform a
 ## Running From [!INCLUDE[nav_shell](includes/nav_shell_md.md)]  
  You can run and manage a data upgrade from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] by using one of the following cmdlets:  
 
--   [Start-NAVDataUpgrade](http://go.microsoft.com/fwlink/?LinkID=401404)  
+- [Start-NAVDataUpgrade](http://go.microsoft.com/fwlink/?LinkID=401404)  
 
--   [Stop-NAVDataUpgrade](http://go.microsoft.com/fwlink/?LinkID=403853)  
+- [Stop-NAVDataUpgrade](http://go.microsoft.com/fwlink/?LinkID=403853)  
 
--   [Resume-NAVDataUpgrade](http://go.microsoft.com/fwlink/?LinkID=403853)  
+- [Resume-NAVDataUpgrade](http://go.microsoft.com/fwlink/?LinkID=403853)  
 
--   [Get-NAVDataUpgrade](http://go.microsoft.com/fwlink/?LinkID=403850)  
+- [Get-NAVDataUpgrade](http://go.microsoft.com/fwlink/?LinkID=403850)  
 
- For more information about [!INCLUDE[nav_shell](includes/nav_shell_md.md)], see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md).  
+  For more information about [!INCLUDE[nav_shell](includes/nav_shell_md.md)], see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md).  
 
 ## See Also  
  [Upgrading the Data](Upgrading-the-Data.md)   

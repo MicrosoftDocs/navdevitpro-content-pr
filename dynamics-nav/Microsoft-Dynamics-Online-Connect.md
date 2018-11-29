@@ -19,19 +19,19 @@ If your installation includes both the [!INCLUDE[nav_windows](includes/nav_windo
 ## Security Consideration for Microsoft Dynamics Online Connect  
  Microsoft Dynamics Online Connect sends the following information about the [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] software over the Internet to Microsoft:  
   
--   Product name  
+- Product name  
   
--   Product version  
+- Product version  
   
--   Some license information, but not the license number  
+- Some license information, but not the license number  
   
--   Country/region version  
+- Country/region version  
   
--   Language  
+- Language  
   
--   Profile, which is based on the Role Center ID  
+- Profile, which is based on the Role Center ID  
   
- No other information is sent.  
+  No other information is sent.  
   
 ### Internet Access  
  If you decide to make Microsoft Dynamics Online Connect available to users, then they will require Internet access to use the service. If you have not previously offered Internet access to users, then you should consider the security implications before implementing Microsoft Dynamics Online Connect.  

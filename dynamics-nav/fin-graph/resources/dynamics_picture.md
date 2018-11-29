@@ -31,15 +31,15 @@ Represents a picture in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 
 
 ## Properties
-| Property   | Type|Description     |
-|:--------|:----------|:--------------|
-|id          |GUID       |ID of the entity that picture belongs to. Non-editable. |
-|width        |numeric |The picture width.  |
-|height | numeric | The picture height. |
-|contentType| MIME  |Image type. |
-|content@odata.mediaEditLink||Link to upload raw image data|
-|content@odata.mediaReadLink||Link to download raw image data|
 
+| Property                    | Type    | Description                                             |
+|:----------------------------|:--------|:--------------------------------------------------------|
+| id                          | GUID    | ID of the entity that picture belongs to. Non-editable. |
+| width                       | numeric | The picture width.                                      |
+| height                      | numeric | The picture height.                                     |
+| contentType                 | MIME    | Image type.                                             |
+| content@odata.mediaEditLink |         | Link to upload raw image data                           |
+| content@odata.mediaReadLink |         | Link to download raw image data                         |
 
 ## JSON representation
 

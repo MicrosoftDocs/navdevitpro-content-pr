@@ -40,29 +40,29 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
 ## Types of Pages  
  The following page types are available:  
   
--   Card  
+- Card  
   
--   List  
+- List  
   
--   Role Center  
+- Role Center  
   
--   Card Part  
+- Card Part  
   
--   List Part  
+- List Part  
   
--   Document  
+- Document  
   
--   Worksheet  
+- Worksheet  
   
--   Confirmation Dialog  
+- Confirmation Dialog  
   
--   List Plus  
+- List Plus  
   
--   Navigate Page \(Wizard\)  
+- Navigate Page \(Wizard\)  
   
--   Standard Dialog  
+- Standard Dialog  
   
- For more information about page types, see [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md).  
+  For more information about page types, see [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md).  
   
 ## Designing Pages  
  In [!INCLUDE[navnow](includes/navnow_md.md)], when you design and create pages you use the Page Designer, which is part of the Object Designer in.  
@@ -80,46 +80,46 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
 ## Page Controls  
  You can add the following page controls to a page depending on the page type you have chosen:  
   
--   FactBox  
+- FactBox  
   
--   FastTab  
+- FastTab  
   
--   Cue  
+- Cue  
   
--   HomePart  
+- HomePart  
   
--   ChartPart  
+- ChartPart  
   
--   PagePart  
+- PagePart  
   
--   SystemPart  
+- SystemPart  
   
--   Ribbon  
+- Ribbon  
   
--   Filter Pane  
+- Filter Pane  
   
- For more information about controls, see [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md).  
+  For more information about controls, see [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md).  
   
 ## Adding Navigation to Pages  
  All pages contain menu items and navigation controls called Actions.  
   
  In [!INCLUDE[navnow](includes/navnow_md.md)] there are three categories of Actions:  
   
--   Action Items  
+- Action Items  
   
--   Related Information  
+- Related Information  
   
--   Reports  
+- Reports  
   
- Role Center pages have their own navigation pane and the following actions:  
+  Role Center pages have their own navigation pane and the following actions:  
   
--   Activity Buttons  
+- Activity Buttons  
   
--   Home Items  
+- Home Items  
   
- You can access Action Designer from Page Designer. When you want to add actions to a page, open Page Designer, choose the last available row at the bottom of the page, choose View, and then choose Actions to open Action Designer. You use the Action Designer in the same way as you use Page Designer. You add new actions as rows in the Action Designer window, and set Action Types and SubTypes using the drop-down menus. Each action also has its own set of properties available in the Properties window.  
+  You can access Action Designer from Page Designer. When you want to add actions to a page, open Page Designer, choose the last available row at the bottom of the page, choose View, and then choose Actions to open Action Designer. You use the Action Designer in the same way as you use Page Designer. You add new actions as rows in the Action Designer window, and set Action Types and SubTypes using the drop-down menus. Each action also has its own set of properties available in the Properties window.  
   
- For more information about actions, see [Actions Overview](Actions-Overview.md).  
+  For more information about actions, see [Actions Overview](Actions-Overview.md).  
   
 ## Best Practices for Designing Pages  
  We recommend that you simplify the user experience by reducing what users see by default. You can promote the information that the users most frequently need to see and hide the less important information. For example:  

@@ -52,27 +52,27 @@ You use Object Designer to create a new codeunit, and you use the C/AL Editor to
 ## Using the C/AL Symbol Menu Window  
  When you write C/AL code in the C/AL Editor, you can use the **C/AL Symbol Menu** window to get an overview of the following:  
 
--   All variables that are defined in the codeunit.  
+- All variables that are defined in the codeunit.  
 
--   All available C/AL functions.  
+- All available C/AL functions.  
 
- The **C/AL Symbol Menu** window is divided into the following columns:  
+  The **C/AL Symbol Menu** window is divided into the following columns:  
 
--   The first column lists the names of the variables, if you have defined any, and the function categories.  
+- The first column lists the names of the variables, if you have defined any, and the function categories.  
 
--   The second column lists the subcategories, such as **Functions**, **Properties**, **Fields**, **Keys**, and **Options**.  
+- The second column lists the subcategories, such as **Functions**, **Properties**, **Fields**, **Keys**, and **Options**.  
 
--   The third column lists the items in the subcategory that you selected.  
+- The third column lists the items in the subcategory that you selected.  
 
- For example, if you select a record variable in the first column and select **Keys** in the second column, then the third column displays the keys for the table that the record is from.  
+  For example, if you select a record variable in the first column and select **Keys** in the second column, then the third column displays the keys for the table that the record is from.  
 
- You can see the syntax and other information, such as the **Caption** property, that corresponds to the field name that you have selected, in the lower-left corner of the window.  
+  You can see the syntax and other information, such as the **Caption** property, that corresponds to the field name that you have selected, in the lower-left corner of the window.  
 
- In some cases, such as when a control on a page is a subpage or when a field is a BLOB field, there are more than three columns in the **C/AL Symbol Menu** window.  
+  In some cases, such as when a control on a page is a subpage or when a field is a BLOB field, there are more than three columns in the **C/AL Symbol Menu** window.  
 
- In the **C/AL Symbol Menu** window, choose the **OK** button or the **Apply** button to paste the syntax description into the C/AL Editor. If you choose the **OK** button, then the **C/AL Symbol Menu** window is closed automatically. If you choose the **Apply** button, then the window stays open.  
+  In the **C/AL Symbol Menu** window, choose the **OK** button or the **Apply** button to paste the syntax description into the C/AL Editor. If you choose the **OK** button, then the **C/AL Symbol Menu** window is closed automatically. If you choose the **Apply** button, then the window stays open.  
 
- For more information, see [C/AL Functions](C-AL-Functions.md).  
+  For more information, see [C/AL Functions](C-AL-Functions.md).  
 
 ## Compiling and Saving Codeunits  
  Before you can run the functions in a codeunit, you must save and compile the code. When you compile the code, the syntax of the statements are checked. If the compiler finds any errors in the code it displays an error message. For more information about how to compile the code in a codeunit, see [How to: Compile the Code in a Codeunit](How-to--Compile-the-Code-in-a-Codeunit.md). For more information about how to save a codeunit, see [How to: Save a Codeunit](How-to--Save-a-Codeunit.md).  

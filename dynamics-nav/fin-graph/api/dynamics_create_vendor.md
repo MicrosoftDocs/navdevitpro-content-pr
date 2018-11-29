@@ -23,6 +23,7 @@ POST /businesscentral/companies({id})/vendors
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
@@ -90,7 +91,6 @@ Content-type: application/json
   "displayName": "Wide World Importers",
   "lastModifiedDateTime": "2015-11-09T02:14:32Z"
 }
-
 ```
 
 ## See also

@@ -30,7 +30,8 @@ Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |[DELETE salesOrders](../api/dynamics_salesorder_delete.md)|none|Delete a sales order object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The order ID. Non-editable.|
 |number|string, maximum size 20|The order number. Read-Only.|
@@ -99,7 +100,6 @@ Here is a JSON representation of the resource.
       "status": "string",
       "lastModifiedDateTime": "DateTime"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

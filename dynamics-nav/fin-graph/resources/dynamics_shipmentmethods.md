@@ -30,7 +30,8 @@ Represents a method of shipment in [!INCLUDE[d365fin_long_md](../../includes/d36
 |[DELETE shipmentMethods](../api/dynamics_shipmentmethods_delete.md)|none|Deletes a shipment method.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the shipmentMethod. Non-editable.|
 |code|string|Specifies the shipment method code.|
@@ -52,7 +53,6 @@ Here is a JSON representation of the shipmentMethod.
   "displayName": "string",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also

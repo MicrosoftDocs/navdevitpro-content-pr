@@ -243,12 +243,14 @@ The table has the name **MyExternalTable** and includes the following columns:
 ### Create the [!INCLUDE[navnow_md](includes/navnow_md.md)] companion table
 1. Using the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], create a table object and set the following properties:
 
-    |Property|Value|
-    |--------|-----|
-    |[TableType](tabletype-property.md)|**ExternalSQL**||
-    |[ExternalName](externalname-property.md)|MyExternalTable||
-    |[ExternalSchema](externalschema-property.md)|dbo|
- 
+
+   |                   Property                   |      Value      |
+   |----------------------------------------------|-----------------|
+   |      [TableType](tabletype-property.md)      | **ExternalSQL** |
+   |   [ExternalName](externalname-property.md)   | MyExternalTable |
+   | [ExternalSchema](externalschema-property.md) |       dbo       |
+
+
 2. Add the three fields to the table that map to the columns in the external table:
 
     |Name|Data Type|Length|ExternalName|
@@ -262,7 +264,7 @@ The table has the name **MyExternalTable** and includes the following columns:
 
 
 ### Create a page for viewing data of the companion table from the client
-1. Create a list-type page object that has the table **MySampleTable** as its source and includes the three fields of the table. Give the page the ID **50name **MySamplePage**.
+1. Create a list-type page object that has the table **MySampleTable** as its source and includes the three fields of the table. Give the page the ID <strong>50name **MySamplePage</strong>.
 2. Add the following code to `OnInit` page trigger to register and set the connection to the external table:
 
     ```
@@ -322,7 +324,6 @@ OBJECT Page 50101 MySamplePage
     END.
   }
 }
-
 ```
 
 ### Test the external table connection

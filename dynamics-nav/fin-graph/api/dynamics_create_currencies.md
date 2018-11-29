@@ -23,6 +23,7 @@ POST /businesscentral/companies({id})/currencies
 ```
 
 ## Request headers
+
 |Header         |Value                    |
 |---------------|-------------------------|
 |Authorization  |Bearer {token}. Required.|
@@ -73,7 +74,6 @@ Content-type: application/json
   "amountRoundingPrecision": 0.01,
   "lastModifiedDateTime": "2017-03-22T21:05:09.002Z"
 }
-
 ```
 
 ## See also

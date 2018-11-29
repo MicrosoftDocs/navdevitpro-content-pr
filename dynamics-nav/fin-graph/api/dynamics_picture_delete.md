@@ -23,6 +23,7 @@ DELETE /businesscentral/companies({companyId})/items({itemId})/picture
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |

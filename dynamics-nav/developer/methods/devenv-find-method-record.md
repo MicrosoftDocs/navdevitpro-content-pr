@@ -30,26 +30,26 @@ Ok := Record.FIND([Which])
   
  On input, *Record* identifies the record that you want to find. On output, the following possibilities exist:  
   
--   If the record was found, then the record is returned in the *Record* parameter and any [FlowFields](../devenv-flowfields.md) in the record are set to zero. You must update the FlowFields using the [CALCFIELDS Method \(Record\)](devenv-CALCFIELDS-Method-Record.md).  
+- If the record was found, then the record is returned in the *Record* parameter and any [FlowFields](../devenv-flowfields.md) in the record are set to zero. You must update the FlowFields using the [CALCFIELDS Method \(Record\)](devenv-CALCFIELDS-Method-Record.md).  
   
--   If the record was not found and if you omitted the return value, a run-time error occurs.  
+- If the record was not found and if you omitted the return value, a run-time error occurs.  
   
- *Which*  
- Type: Text or code  
+  *Which*  
+  Type: Text or code  
   
- Specifies how to perform the search. The table is searched until either a record  is found or there are no more records. Each character in this string can be present only one time. You can combine the '=', '\<', and '>' characters. You can use the following characters:  
+  Specifies how to perform the search. The table is searched until either a record  is found or there are no more records. Each character in this string can be present only one time. You can combine the '=', '\<', and '>' characters. You can use the following characters:  
   
--   =  to search for a record that equals the key values \(default\)  
+- =  to search for a record that equals the key values \(default\)  
   
--   >  to search for a record that is larger than the key values  
+- >  to search for a record that is larger than the key values  
   
--   \<  to search for a record that is less than the key values  
+- \<  to search for a record that is less than the key values  
   
--   +  to search for the last record in the table \(+ can only be used alone\)  
+- +  to search for the last record in the table \(+ can only be used alone\)  
   
--   -   to search for the first record in the table \(- can only be used alone\)  
+- -   to search for the first record in the table \(- can only be used alone\)  
   
- If this parameter contains '=', '>' or '\<', then you must assign value to all fields of the current and primary keys before you call FIND.  
+  If this parameter contains '=', '>' or '\<', then you must assign value to all fields of the current and primary keys before you call FIND.  
   
 ## Property Value/Return Value  
  Type: Boolean  

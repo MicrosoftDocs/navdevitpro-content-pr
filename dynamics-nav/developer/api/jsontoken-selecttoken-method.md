@@ -80,7 +80,6 @@ begin
 
     salary := salaryToken.AsValue().AsDecimal();    
 end;
-
 ```
 ## See Also
 [JsonArray](jsonarray-class.md)  

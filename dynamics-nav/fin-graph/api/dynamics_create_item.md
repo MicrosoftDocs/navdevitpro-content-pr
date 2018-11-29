@@ -23,6 +23,7 @@ POST /businesscentral/companies({id})/items
 ```
 
 ## Request headers
+
 |Header       |Value                    |
 |-------------|-------------------------|
 |Authorization|Bearer {token}. Required.|
@@ -65,7 +66,6 @@ Content-type: application/json
   "unitCost": 780.7,
   "taxGroupCode": "FURNITURE"
 } 
-
 ```
 
 **Response**
@@ -82,7 +82,7 @@ Content-type: application/json
 {
   "id": "id-value",
   "number": "1896-S",
-  "displayName": "ATHENS Desk",
+  "displayName": "ATHENS Desk",
   "lastModifiedDateTime": "2015-11-09T02:14:32Z"
 }
 ```

@@ -16,57 +16,57 @@ The C/AL variant data type can contain many C/AL data types or any variants from
   
  The variant data type can contain the following C/AL data types:  
   
--   Action  
+- Action  
   
--   Automation  
+- Automation  
   
--   BigInteger  
+- BigInteger  
   
--   BigText  
+- BigText  
   
--   Boolean  
+- Boolean  
   
--   Byte  
+- Byte  
   
--   Char  
+- Char  
   
--   Code  
+- Code  
   
--   Codeunit  
+- Codeunit  
   
--   Date  
+- Date  
   
--   DateFormula  
+- DateFormula  
   
--   DateTime  
+- DateTime  
   
--   Decimal  
+- Decimal  
   
--   Duration  
+- Duration  
   
--   FilterPageBuilder  
+- FilterPageBuilder  
   
--   GUID  
+- GUID  
   
--   InStream  
+- InStream  
   
--   Integer  
+- Integer  
   
--   Option  
+- Option  
   
--   OutStream  
+- OutStream  
   
--   Record  
+- Record  
   
--   RecordRef  
+- RecordRef  
   
--   Text  
+- Text  
   
--   Time  
+- Time  
   
--   TransactionType  
+- TransactionType  
   
- You can use the variant data type to pass Automation variants from one external component \(Automation or OCX\) to another. This requires that the recipient component can accept the original variant. You can also assign a C/AL variable to a variant and pass it to an external component. When you pass C/AL variants ByRef to an external COM component, small conversion differences may occur. Therefore, we recommend that you pass C/AL variants ByVal if you do not have to assign a new value to the C/AL variant in your external component.  
+  You can use the variant data type to pass Automation variants from one external component \(Automation or OCX\) to another. This requires that the recipient component can accept the original variant. You can also assign a C/AL variable to a variant and pass it to an external component. When you pass C/AL variants ByRef to an external COM component, small conversion differences may occur. Therefore, we recommend that you pass C/AL variants ByVal if you do not have to assign a new value to the C/AL variant in your external component.  
   
 ## Returning Variants in Internal Function Calls  
  The C/AL variant is a complex data type. To return C/AL variants in function calls, you must pass them in a parameter ByVar \(called ByRef in COM\).  

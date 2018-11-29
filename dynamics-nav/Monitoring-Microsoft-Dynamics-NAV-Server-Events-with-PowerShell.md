@@ -78,8 +78,8 @@ The following is an example of a Windows PowerShell script that you can create a
 $maxAllowedSeconds = 4  
   
 $xPath = "*[System[(EventID = 400 or EventID = 401)]] and " +   
-         "*[EventData[Data[@Name='tenantId'] and (Data  = 'MyTenant1')]] and " +  
-         "*[EventData[Data[@Name='serverInstanceName'] and Data='MyNavServerInstance1']]"  
+         "*[EventData[Data[@Name='tenantId'] and (Data  = 'MyTenant1')]] and " +  
+         "*[EventData[Data[@Name='serverInstanceName'] and Data='MyNavServerInstance1']]"  
   
 $events = Get-WinEvent -LogName 'Microsoft-DynamicsNav-Server/Debug' -FilterXPath $xPath -Oldest -MaxEvents 10000  
   
@@ -87,12 +87,12 @@ Write-Host "List of AL functions that took more than $maxAllowedSeconds  second
   
 for($i = 0; $i -lt  $events.Length; $i+=2)  
 {   
-   $seconds = ($events[$i + 1].TimeCreated - $events[$i].TimeCreated).Seconds  
+   $seconds = ($events[$i + 1].TimeCreated - $events[$i].TimeCreated).Seconds  
   
-   if ($seconds -ge $maxAllowedSeconds )  
-   {  
-     Write-Host $events[$i].Message `r`n -ForegroundColor Magenta  
-   }  
+   if ($seconds -ge $maxAllowedSeconds )  
+   {  
+     Write-Host $events[$i].Message `r`n -ForegroundColor Magenta  
+   }  
 }  
 ```  
   

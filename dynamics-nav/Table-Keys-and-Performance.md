@@ -24,11 +24,11 @@ When you write C/AL code that searches through a subset of the records in a tabl
 
  The table could have the following keys:  
 
--   Entry No.  
+- Entry No.  
 
--   Customer No.,Posting Date  
+- Customer No.,Posting Date  
 
- The following is an example of code that finds a subset of records.  
+  The following is an example of code that finds a subset of records.  
 
 ```  
 SETRANGE("Customer No.",'1000');  

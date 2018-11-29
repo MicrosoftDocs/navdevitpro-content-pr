@@ -60,7 +60,6 @@ local procedure ReadJson(data : Text) result : JsonValue;
 begin
     result.ReadFrom(data);    
 end;
-
 ```
 
 ## See Also

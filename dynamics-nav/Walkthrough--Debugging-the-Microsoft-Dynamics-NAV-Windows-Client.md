@@ -162,11 +162,11 @@ This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](
 ## Next Steps  
  After Isaac is finished debugging, some possible next steps are:  
   
--   Delete or disable all breakpoints. For more information, see [How to: Manage Breakpoints from the Debugger Breakpoint List](How-to--Manage-Breakpoints-from-the-Debugger-Breakpoint-List.md).  
+- Delete or disable all breakpoints. For more information, see [How to: Manage Breakpoints from the Debugger Breakpoint List](How-to--Manage-Breakpoints-from-the-Debugger-Breakpoint-List.md).  
   
--   Delete watches. For more information, see [How to: Remove Variables from the Watches FactBox](How-to--Remove-Variables-from-the-Watches-FactBox.md).  
+- Delete watches. For more information, see [How to: Remove Variables from the Watches FactBox](How-to--Remove-Variables-from-the-Watches-FactBox.md).  
   
- Isaac can also keep the breakpoints and watches in his breakpoint list so that he can use them in a future debugging session.  
+  Isaac can also keep the breakpoints and watches in his breakpoint list so that he can use them in a future debugging session.  
   
 ## See Also  
  [Debugging](Debugging.md)

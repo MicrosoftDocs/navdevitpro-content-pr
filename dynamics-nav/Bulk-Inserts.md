@@ -25,23 +25,23 @@ By default, [!INCLUDE[navnow](includes/navnow_md.md)] automatically buffers inse
 
  Records are sent to SQL Server when the following occurs:  
 
--   You call `COMMIT` to commit the transaction.  
+- You call `COMMIT` to commit the transaction.  
 
--   You call `MODIFY` or `DELETE` on the table.  
+- You call `MODIFY` or `DELETE` on the table.  
 
--   You call any `FIND` or `CALC` methods on the table.  
+- You call any `FIND` or `CALC` methods on the table.  
 
- Records are not buffered if any of the following conditions are met:  
+  Records are not buffered if any of the following conditions are met:  
 
--   The application is using the return value from an `INSERT` call; for example, "`IF (GLEntry.INSERT) THEN`".  
+- The application is using the return value from an `INSERT` call; for example, "`IF (GLEntry.INSERT) THEN`".  
 
--   The table that you are going to insert the records into contains any of the following:  
+- The table that you are going to insert the records into contains any of the following:  
 
-    -   BLOB fields  
+  -   BLOB fields  
 
-    -   Fields with the **AutoIncrement** property set to **Yes**  
+  -   Fields with the **AutoIncrement** property set to **Yes**  
 
- The following code example cannot use buffered inserts because it contains a `FIND` call on the **GL/Entry** table within the loop.  
+  The following code example cannot use buffered inserts because it contains a `FIND` call on the **GL/Entry** table within the loop.  
 
 ```  
 IF (JnlLine.FIND('-')) THEN BEGIN  

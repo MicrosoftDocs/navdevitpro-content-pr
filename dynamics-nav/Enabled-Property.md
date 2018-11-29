@@ -39,17 +39,17 @@ Sets a value that indicates whether a field or key is enabled or disabled, or wh
 ## Example: Dynamic Property Change Using a Boolean Field  
  To disable the **Credit Limit \(LCY\)** field on customer cards unless line discounts are allowed, follow these steps:  
 
-1.  Open page 21, **Customer Card**, with Page Designer.  
+1. Open page 21, **Customer Card**, with Page Designer.  
 
-2.  View the properties of field 22, **Credit Limit \(LCY\)**.  
+2. View the properties of field 22, **Credit Limit \(LCY\)**.  
 
-3.  For the **Visible** property, enter **“Allow Line Disc.”** in the **Value** field.  
+3. For the **Visible** property, enter **“Allow Line Disc.”** in the **Value** field.  
 
-     The **Allow Line Disc.** field is a Boolean field on page 21, **Customer Card**.  
+    The **Allow Line Disc.** field is a Boolean field on page 21, **Customer Card**.  
 
-4.  Save the changes on page 21.  
+4. Save the changes on page 21.  
 
- Now, when a user selects the **Allow Line Disc.** check box on a customer card, the **Credit Limit \(LCY\)** field is enabled. Otherwise, the field is disabled.  
+   Now, when a user selects the **Allow Line Disc.** check box on a customer card, the **Credit Limit \(LCY\)** field is enabled. Otherwise, the field is disabled.  
 
 ## See Also  
 [Table Properties](Table-Properties.md)  

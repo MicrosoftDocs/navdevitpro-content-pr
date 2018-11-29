@@ -41,23 +41,23 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], actions are displayed at the top o
 ### Actions  
  The Actions tab is displayed in the ribbon on all page types, and contains relevant tasks for the current page. Some examples from the Customer page are as follows:  
   
--   Sales Invoice  
+- Sales Invoice  
   
--   Sales Quote  
+- Sales Quote  
   
--   Sales Credit Memo  
+- Sales Credit Memo  
   
--   Ledger Entries  
+- Ledger Entries  
   
--   Invoice Discounts  
+- Invoice Discounts  
   
--   Prices  
+- Prices  
   
--   Line Discounts  
+- Line Discounts  
   
- They are regular daily tasks. Therefore, they must be on the Actions menu, and promoted to the ribbon.  
+  They are regular daily tasks. Therefore, they must be on the Actions menu, and promoted to the ribbon.  
   
- You can add actions to the Actions menu, group actions together under action submenus, or promote them to the ribbon. You cannot create submenus or promote actions on a Role Center page.  
+  You can add actions to the Actions menu, group actions together under action submenus, or promote them to the ribbon. You cannot create submenus or promote actions on a Role Center page.  
   
 ### Navigate  
  The Navigate tab is displayed after Actions in the ribbon. Rather than providing tasks for the user, this tab provides additional information by taking the user to a specific page in [!INCLUDE[navnow](includes/navnow_md.md)].  
@@ -101,15 +101,15 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], actions are displayed at the top o
 ## Actions at Runtime  
  An action can trigger code to run, such as posting a document or otherwise modifying a record in a table. When a user chooses an action, one of the following pieces of logic will happen in addition to the code that the action itself triggers:  
   
--   If the page is empty and no longer shows any records, the page is re-initialized with default values.  
+- If the page is empty and no longer shows any records, the page is re-initialized with default values.  
   
--   If the page does show records, and the current state is within the page filters boundary, the **OnAfterGetRecord** trigger is executed on the page.  
+- If the page does show records, and the current state is within the page filters boundary, the **OnAfterGetRecord** trigger is executed on the page.  
   
--   If the current record that the page showed is now outside the filter but there are other records within the filter, the **OnFindRecord** trigger is called and the **OnAfterGetRecord** trigger is run on the next record with the given filters.  
+- If the current record that the page showed is now outside the filter but there are other records within the filter, the **OnFindRecord** trigger is called and the **OnAfterGetRecord** trigger is run on the next record with the given filters.  
   
- The logic runs in the transaction that the action triggered. This can cause the application code to result in users locking the whole table when they thought they were only modifying one record.  
+  The logic runs in the transaction that the action triggered. This can cause the application code to result in users locking the whole table when they thought they were only modifying one record.  
   
- To avoid users accidentally locking tables, you can use the **SetSelectionFilter** function before your code passes the record variable to the processing codeunit, for example. The following code example illustrates the code on the **OnAction** trigger on an action on a page.  
+  To avoid users accidentally locking tables, you can use the **SetSelectionFilter** function before your code passes the record variable to the processing codeunit, for example. The following code example illustrates the code on the **OnAction** trigger on an action on a page.  
   
 ```  
 IF CONFIRM('Are you sure you want to call this codeunit?', TRUE) THEN  

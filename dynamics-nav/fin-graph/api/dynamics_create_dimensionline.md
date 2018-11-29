@@ -53,7 +53,6 @@ Content-type: application/json
   "valueId" : "valueId-value",
   "valueCode" : "SALES"
 }
-
 ```
 **Response**
 

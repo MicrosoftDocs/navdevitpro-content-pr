@@ -26,22 +26,22 @@ Stops a [!INCLUDE[navnow](includes/navnow_md.md)] session.
 
  The session can be any of the following:  
 
--   [!INCLUDE[nav_windows](includes/nav_windows_md.md)] session  
+- [!INCLUDE[nav_windows](includes/nav_windows_md.md)] session  
 
--   [!INCLUDE[nav_web](includes/nav_web_md.md)] session  
+- [!INCLUDE[nav_web](includes/nav_web_md.md)] session  
 
--   NAS services session  
+- NAS services session  
 
--   SOAP web services client session  
+- SOAP web services client session  
 
--   OData web services client session  
+- OData web services client session  
 
--   Background session  
+- Background session  
 
- *Comment*  
- Type: Text  
+  *Comment*  
+  Type: Text  
 
- An optional comment about the session event. The comment is stored in Table 2000000111, the Session Event table.  
+  An optional comment about the session event. The comment is stored in Table 2000000111, the Session Event table.  
 
 ## Property Value/Return Value  
  Type: Boolean  

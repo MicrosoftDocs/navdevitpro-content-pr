@@ -29,7 +29,8 @@ Represents the information specified for the current company in [!INCLUDE[d365fi
 
 
 ## Properties
-| Property	   | Type	   |Description                           |
+
+| Property     | Type      |Description                           |
 |:-------------|:--------|:-------------------------------------|
 |id            |GUID|The unique ID of the company. Non-editable.|
 |displayName   |string   |The company's display name.           |
@@ -70,7 +71,6 @@ Here is a JSON representation of the companyInformation
   "businessProfileId": "string",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also

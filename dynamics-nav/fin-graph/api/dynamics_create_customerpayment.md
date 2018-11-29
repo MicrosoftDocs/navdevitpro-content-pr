@@ -22,6 +22,7 @@ POST /businesscentral/companies({id})/customerPaymentsJournals({id})/customerPay
 ```
 
 ## Request headers
+
 |Header        |Value                    |
 |--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|

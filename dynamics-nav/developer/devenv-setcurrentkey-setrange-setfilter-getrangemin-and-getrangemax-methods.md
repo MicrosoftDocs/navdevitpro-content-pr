@@ -18,17 +18,17 @@ redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-setcurren
 # SETCURRENTKEY, SETRANGE, SETFILTER, GETRANGEMIN, and GETRANGEMAX Methods
 The following methods are used to filter records in a table:  
 
--   SETCURRENTKEY  
+- SETCURRENTKEY  
 
--   SETRANGE  
+- SETRANGE  
 
--   SETFILTER  
+- SETFILTER  
 
--   GETRANGEMIN  
+- GETRANGEMIN  
 
--   GETRANGEMAX  
+- GETRANGEMAX  
 
- These methods are some of the most commonly used AL methods. They set limits on the value of one or more specified fields, so that only a subset of the records are displayed, modified, deleted, and so on.  
+  These methods are some of the most commonly used AL methods. They set limits on the value of one or more specified fields, so that only a subset of the records are displayed, modified, deleted, and so on.  
 
 ## SETCURRENTKEY Method  
  SetCurrentKey sorts the contents of the table on the provided fields and selects the key that contains the specified fields if possible. 
@@ -41,17 +41,17 @@ The following methods are used to filter records in a table:
 
  When you use SetCurrentKey the following rules apply:  
 
--   Inactive fields are ignored. Only active keys are scanned.  
+- Inactive fields are ignored. Only active keys are scanned.  
 
--   When searching for a key, the first occurrence of the specified fields is selected. This means the following:  
+- When searching for a key, the first occurrence of the specified fields is selected. This means the following:  
 
-    -   If you specify only one field as a parameter when you call SetCurrentKey, the key that is actually selected may consist of more than one field.  
+  -   If you specify only one field as a parameter when you call SetCurrentKey, the key that is actually selected may consist of more than one field.  
 
-    -   If the field that you specify is the first component of several keys, the key that is selected may not be the key that you expect.  
+  -   If the field that you specify is the first component of several keys, the key that is selected may not be the key that you expect.  
 
-    -   If no keys can be found that include the fields that you specify, the return value is FALSE. If you do not test the return value, a run-time error occurs. If you do test the return value, the program will continue to run even though no key was found.  
+  -   If no keys can be found that include the fields that you specify, the return value is FALSE. If you do not test the return value, a run-time error occurs. If you do test the return value, the program will continue to run even though no key was found.  
 
- For more information about this method, see [SetCurrentKey Method (Record)](methods/devenv-setcurrentkey-method-record.md).
+  For more information about this method, see [SetCurrentKey Method (Record)](methods/devenv-setcurrentkey-method-record.md).
 
 ## SETRANGE Method  
  SETRANGE sets a simple filter on a field.  

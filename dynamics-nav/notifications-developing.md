@@ -106,50 +106,50 @@ This simple example illustrates how notifications work and provides some insight
 To complete the example, follow these steps:
 
 1. In C/AL code for page **42 Sales Order**, add the following variables and text constants:
-<table>
-  <tr>
+   <table>
+   <tr>
     <th>Variable Name</th>
     <th> Data Type</th>
     <th>Subtype</th>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
     <td>Customer</td>
     <td>Record</td>
     <td>Customer</td>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
     <td>CreditBalanceNotification</td>
     <td>Notification</td>
     <td></td>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
     <td>OpenCustomer</td>
     <td>Text</td>
     <td></td>
-  </tr>
-</table>
-<table>
-  <tr>
+   </tr>
+   </table>
+   <table>
+   <tr>
     <th>Text Constant Name</th>
     <th> ConstValue</th>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
     <td>Text003</td>
-    <td>The customer's current balance exceeds their credit limit.</td>
-  </tr>
-  <tr>
+    <td>The customer&#39;s current balance exceeds their credit limit.</td>
+   </tr>
+   <tr>
     <td>Text004</td>
     <td>Change credit limit</td>
-  </tr>
-</table>
+   </tr>
+   </table>
 
 2. Add the notification code on page **42 Sales Order**.
 
     For this example, add the code on **OnOpenPage** tigger in C/AL .
     ```
-Customer.GET("Sell-to Customer No.");
-IF Customer."Balance (LCY)" > Customer."Credit Limit (LCY)" THEN
-BEGIN
+   Customer.GET("Sell-to Customer No.");
+   IF Customer."Balance (LCY)" > Customer."Credit Limit (LCY)" THEN
+   BEGIN
     //Create the notification
     CreditBalanceNotification.MESSAGE(Text003);
     CreditBalanceNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
@@ -159,52 +159,52 @@ BEGIN
     CreditBalanceNotification.ADDACTION('Text004', CODEUNIT::"Action Handler", OpenCustomer);
     //Send the notification to the client.
     CreditBalanceNotification.SEND;
-END
+   END
     ```
 3. Create a codeunit, called **Action Handler**, for handling the notification action as follows:
-    *   Add a global function called **OpenCustomer** that has a **Notification** data type parameter called **CreditBalanceNotification** for receiving the Notification object.
+   * Add a global function called **OpenCustomer** that has a **Notification** data type parameter called **CreditBalanceNotification** for receiving the Notification object.
 
-    *   Add the following C/AL variables to the codeunit:
-    <table>
-      <tr>
-        <th>Variable Name</th>
-        <th>Data Type</th>
-        <th>Subtype</th>
-      </tr>
-      <tr>
-        <td>CustNumber</td>
-        <td>Text</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>CustNo</td>
-        <td>Text</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>CustRec</td>
-        <td>Record</td>
-        <td>Customer</td>
-      </tr>
-      <tr>
-        <td>CustPage</td>
-        <td>Page</td>
-        <td>Customer Card</td>
-      </tr>
-    </table>
+   * Add the following C/AL variables to the codeunit:
+     <table>
+     <tr>
+     <th>Variable Name</th>
+     <th>Data Type</th>
+     <th>Subtype</th>
+     </tr>
+     <tr>
+     <td>CustNumber</td>
+     <td>Text</td>
+     <td></td>
+     </tr>
+     <tr>
+     <td>CustNo</td>
+     <td>Text</td>
+     <td></td>
+     </tr>
+     <tr>
+     <td>CustRec</td>
+     <td>Record</td>
+     <td>Customer</td>
+     </tr>
+     <tr>
+     <td>CustPage</td>
+     <td>Page</td>
+     <td>Customer Card</td>
+     </tr>
+     </table>
 
-    *   Add the following code to the **OpenCustomer** function:
+   * Add the following code to the **OpenCustomer** function:
 
-        ```
-        //Get the customer number data from the SETDATA call.
-        CustNo := CreditBalanceNotification.GETDATA(CustNumber);
-        // Open the Customer Card page for the customer.
-        IF CustRec.GET(CustNo) THEN BEGIN
-         CustPage.SETRECORD(CustRec);
-         CustPage.RUN;
-        END ELSE BEGIN
-          ERROR('Could not find Customer: ' + CustNo);
-        END;   
-        ```
+     ```
+     //Get the customer number data from the SETDATA call.
+     CustNo := CreditBalanceNotification.GETDATA(CustNumber);
+     // Open the Customer Card page for the customer.
+     IF CustRec.GET(CustNo) THEN BEGIN
+      CustPage.SETRECORD(CustRec);
+      CustPage.RUN;
+     END ELSE BEGIN
+       ERROR('Could not find Customer: ' + CustNo);
+     END;   
+     ```
 
 ## See Also  
