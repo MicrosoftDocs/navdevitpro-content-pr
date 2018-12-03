@@ -1,24 +1,23 @@
 ---
 title: Working with Webhooks | Microsoft Docs
 description: Overview of how to manage subscriptions to Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2018
+ms.date: 12/03/2018
 ms.author: solsen, henrikwh
 ---
 
-# Working with webhooks in Dynamics 365 Business Central
+# Working with Webhooks in Dynamics 365 Business Central
 Webhooks is the way to get notified if an entity changes in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. For general information about webhooks, see [Push notifications via webhooks](https://github.com/Microsoft/api-guidelines/blob/vNext/Guidelines.md#15-push-notifications-via-webhooks) in Microsoft REST API Guidelines.
 
 ## Register a webhook subscription
-Using webhooks requires the client/subscriber to perform a handshake with Business Central to register the webhook subscription. 
+Using webhooks requires the client/subscriber to perform a handshake with [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] to register the webhook subscription.
+ 
 ```json
 POST https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions 
 Content-type: application/json
@@ -29,31 +28,32 @@ Content-type: application/json
 }
 ```
 
-Once the `POST` is issued against the **subscription** API to create the subscription, Business Central will issue a request to the notificationUrl, passing a validationToken parameter on the query string. Subscriber needs to perform the handshake by returning validationToken in the response body and provide status code 200.
+Once the `POST` is issued against the **subscription** API to create the subscription, [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] will issue a request to the `notificationUrl`, passing a `validationToken` parameter on the query string. Subscriber needs to perform the handshake by returning `validationToken` in the response body and provide status code 200.
 
-If Business Central receives the response containing the validationToken, the subscription is registered and webhook notifications will be send to the notificationUrl.  
+If [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] receives the response containing the `validationToken`, the subscription is registered and webhook notifications will be sent to the `notificationUrl`.  
 
 > [!IMPORTANT]  
-> Handshake is mandatory when [creating a subscriptions](dynamics_subscription_create.md) and [renewing a subscription](dynamics_subscription_update.md).  
+> Handshake is mandatory when [creating a subscription](api/dynamics_subscription_create.md) and [renewing a subscription](api/dynamics_subscription_update.md).  
 
 ### Client state
-Optionally clientState *can* be provided in the `POST` and `PATCH` requests bodies. clientState is included in the body of a webhook notification.
-ClientState *can* be used as an opaque toke, a shared secret, enabling the subscriber to verify the notification.
+Optionally clientState *can* be provided in the `POST` and `PATCH` requests bodies. clientState is included in the body of a webhook notification. ClientState *can* be used as an opaque toke, a shared secret, enabling the subscriber to verify the notification.
 
 ## Renewing the subscription
 Subscriptions will expire after 3 days, if not renewed before. Subscriptions are renewed by issuing a [PATCH](api/dynamics_subscription_update.md) request to the subscription.
+
 ```
 PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions({id}) 
 ```
-`PATCH` request a handshake, just like `POST` requests, meaning that a subscription can not be renewed unless the client returns the validationToken in the body.
 
-Subscription expiration time is listed in expirationDateTime property of the [subscription](api/dynamics_subscription_get.md) .
+`PATCH` requests a handshake, just like `POST` requests, meaning that a subscription cannot be renewed unless the client returns the `validationToken` in the body.
+
+Subscription expiration time is listed in `expirationDateTime` property of the [subscription](api/dynamics_subscription_get.md).
 
 ## Notifications and change types
 Valid subscriptions push the notifications on every entity update. 
 
-Each notification send to the subscriber (notificationUrl) can contain multiple notifications from different subscriptions.
-Heres a sample notification payload:
+Each notification sent to the subscriber (notificationUrl) can contain multiple notifications from different subscriptions.
+Here is a sample notification payload:
 
 ```json
 {
@@ -94,18 +94,41 @@ Heres a sample notification payload:
 }
 ```
 
-*Created*, *updated* and *deleted* identifies the state change for the entity. By *collection* [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] sends a notification that many records has been created or changed. A filter is applied to the resource, enabling the subscriber to request all entities satisfying the filter.
+*Created*, *updated* and *deleted* identifies the state change for the entity. By *collection* [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] sends a notification that many records have been created or changed. A filter is applied to the resource, enabling the subscriber to request all entities satisfying the filter.
 
-Notifications are not send immediately when the record changes. By delaying notifications, [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] can ensure that only one notification is send, even though the entity might have changed several times within a few seconds.
+Notifications are not sent immediately when the record changes. By delaying notifications, [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] can ensure that only one notification is sent, even though the entity might have changed several times within a few seconds.
 
-> [!CAUTION]  
+> [!NOTE]  
 > If [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] cannot reach the subscriber, several retries will be attempted over the next 36 hours. The subscriber must respond with following error codes: `408 - Request Timeout`, `429 - Too Many Requests or any error in 500-599 range (5xx)`. If subscriber responds with any other code than listed, no retries will be attempted and the subscription will be deleted.
 
 ## Unsubscribing
 To remove a subscription, execute a [delete request](api/dynamics_subscription_delete.md).
 
 ## Supported entities
-accounts, companyInformation, countriesRegions, currencies, customerPaymentJournals, customers , dimensions, employees, generalLedgerEntries, itemCategories, items, journals, paymentMethods, paymentTerms, purchaseInvoices, salesCreditMemos, salesInvoices, salesOrders, salesQuotes, shipmentMethods, unitsOfMeasure, vendors.
+The following entities have webhooks support:
+
+- accounts
+- companyInformation
+- countriesRegions
+- currencies
+- customerPaymentJournals
+- customers
+- dimensions
+- employees
+- generalLedgerEntries
+- itemCategories
+- items
+- journals
+- paymentMethods
+- paymentTerms
+- purchaseInvoices
+- salesCreditMemos
+- salesInvoices
+- salesOrders
+- salesQuotes
+- shipmentMethods
+- unitsOfMeasure
+- vendors
 
 <!-- 
 Supported entities can vary from company to company, as extensions can be installed which exposes API Pages. To get a list of supported entities for a company issue follow request:
@@ -118,8 +141,7 @@ Subscriptions are not possible for API pages that are based on:
 - Pages that use temporary or system tables as a source. -->
 
 ## Notes for on-premise
-By default, a subscription lives for 3 days if its not renewed. The value is specified in the CustomSettings.config file under the ApiSubscriptionExpiration entry.
-There is a maximum number of subscriptions specified in the ApiSubscriptionMaxNumberOfSubscriptions in the CustomSettings.config file.
+By default, a subscription lives for 3 days if it is not renewed. The value is specified in the CustomSettings.config file under the ApiSubscriptionExpiration entry. There is a maximum number of subscriptions specified in the ApiSubscriptionMaxNumberOfSubscriptions in the CustomSettings.config file.
 
 ## See also
 [Subscription Resource Type](resources/dynamics_subscription.md)  

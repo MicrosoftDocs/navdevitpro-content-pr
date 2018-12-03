@@ -1,8 +1,6 @@
 ---
 title: Get subscriptions | Microsoft Docs
 description: Gets a subscriptions object in Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-financials
@@ -10,12 +8,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2018
+ms.date: 12/03/2018
 ms.author: solsen,henrikwh
 ---
 
 # Get subscriptions
-Retrieve the properties of webhook subscription objects for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Retrieves the properties of webhook subscription objects for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
@@ -31,7 +29,7 @@ GET /businesscentral/subscriptions
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an **subscription** object in the response body.
+If successful, this method returns a `200 OK` response code and a **subscription** object in the response body.
 
 ## Example
 
