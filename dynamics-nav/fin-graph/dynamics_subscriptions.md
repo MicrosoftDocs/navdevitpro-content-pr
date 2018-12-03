@@ -15,7 +15,7 @@ ms.author: solsen, henrikwh
 ---
 
 # Working with webhooks in Dynamics 365 Business Central
-Webhooks is the way to get notified if an entity changes in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. For general information about webhooks, see [Push notifications via webhooks](https://github.com/Microsoft/api-guidelines/blob/vNext/Guidelines.md#15-push-notifications-via-webhooks) in Microsoft REST API Guidelines.
+Webhooks is the way to get notified if an entity changes in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. For general information about webhooks, see [Push notifications via webhooks](https://github.com/Microsoft/api-guidelines/blob/vNext/Guidelines.md#15-push-notifications-via-webhooks) in Microsoft REST API Guidelines.
 
 ## Register a webhook subscription
 Using webhooks requires the client/subscriber to perform a handshake with Business Central to register the webhook subscription. 
@@ -94,12 +94,12 @@ Heres a sample notification payload:
 }
 ```
 
-*Created*, *updated* and *deleted* identifies the state change for the entity. By *collection* [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] sends a notification that many records has been created or changed. A filter is applied to the resource, enabling the subscriber to request all entities satisfying the filter.
+*Created*, *updated* and *deleted* identifies the state change for the entity. By *collection* [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] sends a notification that many records has been created or changed. A filter is applied to the resource, enabling the subscriber to request all entities satisfying the filter.
 
-Notifications are not send immediately when the record changes. By delaying notifications, [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] can ensure that only one notification is send, even though the entity might have changed several times within a few seconds.
+Notifications are not send immediately when the record changes. By delaying notifications, [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] can ensure that only one notification is send, even though the entity might have changed several times within a few seconds.
 
 > [!CAUTION]  
-> If [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] cannot reach the subscriber, several retries will be attempted over the next 36 hours. The subscriber must respond with following error codes: `408 - Request Timeout`, `429 - Too Many Requests or any error in 500-599 range (5xx)`. If subscriber responds with any other code than listed, no retries will be attempted and the subscription will be deleted.
+> If [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] cannot reach the subscriber, several retries will be attempted over the next 36 hours. The subscriber must respond with following error codes: `408 - Request Timeout`, `429 - Too Many Requests or any error in 500-599 range (5xx)`. If subscriber responds with any other code than listed, no retries will be attempted and the subscription will be deleted.
 
 ## Unsubscribing
 To remove a subscription, execute a [delete request](api/dynamics_subscription_delete.md).
