@@ -106,7 +106,7 @@ manager: edupont
 |`OnBeforeActionEvent(VAR Rec : Record)`|Executed before the [OnAction Trigger](OnAction-Trigger.md), which is called when a user selects an action on the page.|  
 |`OnAfterActionEvent(VAR Rec : Record)`|Executed after the [OnAction Trigger](OnAction-Trigger.md), which is called when a user selects an action on the page.|  
 |`OnAfterGetCurrRecordEvent(VAR Rec : Record)`|Executed after the [OnAfterGetCurrRecord Trigger](OnAfterGetCurrRecord-Trigger.md), which is called after the current record is retrieved from the table.|  
-|`OnAfterGetRecordEvent(VAR Rec : Record)`|Executed after the [OnAfterGetCurrRecord Trigger](OnAfterGetCurrRecord-Trigger.md), which is called after the record is retrieved from the table but before it is displayed to the user.|  
+|`OnAfterGetRecordEvent(VAR Rec : Record)`|Executed after the [OnAfterGetRecord Trigger](OnAfterGetRecord-Trigger.md), which is called after the record is retrieved from the table but before it is displayed to the user.|  
 |`OnBeforeValidateEvent(VAR Rec : Record, VAR xRec : Record)`|Executed before the [OnValidate \(Page fields\) Trigger](OnValidate--Page-fields--Trigger.md), which is called when a field loses focus after its value has been changed.|  
 |`OnAfterValidateEvent(VAR Rec : Record, VAR xRec : Record)`|Executed after the [OnValidate \(Page fields\) Trigger](OnValidate--Page-fields--Trigger.md), which is called when a field loses focus after its value has been changed.|  
 |`OnClosePageEvent(VAR Rec : Record)`|Executed after the [OnClosePage Trigger](OnClosePage-Trigger.md), which is called when page closes after the OnQueryClosePage trigger is executed.|  

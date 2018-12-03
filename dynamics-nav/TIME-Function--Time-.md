@@ -27,10 +27,14 @@ Time := TIME
  The current time.  
   
 ## Remarks  
- You can only use the TIME function to retrieve the time from the operating system. You cannot use it to set the time in the operating system.  
+The time that is returned is different for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)]. For the Windows client, TIME returns the current time of the computer that is running the client, as determined by the date and time settings of the operating system. For the Web client, the day is determined by the Regional Setting that is set in the client.  
+
+
+You can only use the TIME function to retrieve the time from the operating system. You cannot use it to set the time in the operating system.  
   
-## Example  
- This example requires that you create the following text constant in the **C/AL Globals** window.  
+## Example
+  
+This example requires that you create the following text constant in the **C/AL Globals** window.  
   
 |Name|ConstValue|  
 |----------|----------------|  
