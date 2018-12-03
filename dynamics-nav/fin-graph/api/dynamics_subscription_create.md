@@ -1,21 +1,19 @@
 ---
 title: Create subscription | Microsoft Docs
 description: Creates a subscription object in Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: "dynamics365-businesscentral"
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2018
+ms.date: 12/03/2018
 ms.author: solsen, henrikwh
 ---
 
 # Create subscription
-Create a webhook subscription for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. Will be created only if handshake is successful.
+Creates a webhook subscription for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. Will be created only if handshake is successful.
 
 ## HTTP request
 ```
@@ -29,10 +27,10 @@ POST /businesscentral/subscriptions
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation of subscriptions object.
+In the request body, supply a JSON representation of subscription object.
 
 ## Response
-If successful, this method returns a ```201 Created``` response code and an **subscription** object in the response body.
+If successful, this method returns a `201 Created` response code and a **subscription** object in the response body.
 
 ## Example
 
@@ -70,7 +68,7 @@ Here is an example of the response.
 ```
 
 > [!IMPORTANT]  
-> Handshake is mandatory when [creating a subscriptions](dynamics_subscription_create.md) and [renewing a subscription](dynamics_subscription_update.md). See [Working with Webhooks](../dynamics_subscriptions.md)  
+> Handshake is mandatory when [creating a subscription](dynamics_subscription_create.md) and [renewing a subscription](dynamics_subscription_update.md). See [Working with Webhooks](../dynamics_subscriptions.md).  
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

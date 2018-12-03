@@ -1,21 +1,19 @@
 ---
 title: Update subscription | Microsoft Docs
 description: Gets a subscription object in Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: "dynamics365-businesscentral"
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2018
-ms.author: solsen,henrikwh
+ms.date: 12/03/2018
+ms.author: solsen, henrikwh
 ---
 
 # Update subscriptions
-Update a subscriptions object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. A subscription is valid for 3 days unless it is updated. PATCH requests will perform a handshake with the subscriber.
+Updates a subscriptions object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. A subscription is valid for 3 days unless it is updated. `PATCH` requests will perform a handshake with the subscriber.
 
 ## HTTP request
 ```
@@ -32,7 +30,7 @@ PATCH /businesscentral/subscriptions({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an **subscription** object in the response body.
+If successful, this method returns a `200 OK` response code and a **subscription** object in the response body.
 
 ## Example
 
@@ -45,7 +43,6 @@ https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions({id})
 ```
 
 **Response**
-
 Here is an example of the response. 
 
 > [!NOTE]  
@@ -64,7 +61,7 @@ Here is an example of the response.
 ```
 
 > [!IMPORTANT]  
-> Handshake is mandatory when [creating a subscriptions](dynamics_subscription_create.md) and [renewing a subscription](dynamics_subscription_update.md). See [Working with Webhooks](../dynamics_subscriptions.md)  
+> Handshake is mandatory when [creating a subscription](dynamics_subscription_create.md) and [renewing a subscription](dynamics_subscription_update.md). See [Working with Webhooks](../dynamics_subscriptions.md).  
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

@@ -1,21 +1,19 @@
 ---
 title: Delete subscription | Microsoft Docs
 description: Deletes a subscription object in Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: "dynamics365-businesscentral"
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2018
+ms.date: 12/03/2018
 ms.author: solsen, henrikwh
 ---
 
 # Delete subscriptions
-Delete a subscriptions object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Deletes a subscriptions object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
@@ -31,7 +29,7 @@ DELETE /businesscentral/subscriptions({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```204 No Content``` response code.
+If successful, this method returns a `204 No Content` response code.
 
 ## Example
 
