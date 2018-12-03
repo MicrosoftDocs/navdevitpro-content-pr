@@ -34,10 +34,10 @@ Represents a webhook subscription object in [!INCLUDE[d365fin_long_md](../../inc
 |subscriptionId|string|Unique key for the subscription. |
 |notificationUrl|string|URL to which webhook notifications are send.|  
 |resource|string|URL for the resource being subscribed to. Supports relative and absolute URL.|
-|userId|GUID|The ID of user that has created the subscription|
+|userId|GUID|The ID of user that has created the subscription.|
 |lastModifiedDateTime|datetime|Timestamp for when the subscription was modified.|
 |clientState|string|Client state will be delivered with every notification. This can be used as a secret to verify message  or for managing state if needed.|
-|expirationDateTime|datetime|Date and time for webhook will expire.|
+|expirationDateTime|datetime|Date and time for when the webhook will expire.|
 
 ## Relationships
 
