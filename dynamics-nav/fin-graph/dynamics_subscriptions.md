@@ -33,7 +33,7 @@ Once the `POST` is issued against the **subscription** API to create the subscri
 If [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] receives the response containing the `validationToken`, the subscription is registered and webhook notifications will be sent to the `notificationUrl`.  
 
 > [!IMPORTANT]  
-> Handshake is mandatory when [creating a subscription](dynamics_subscription_create.md) and [renewing a subscription](dynamics_subscription_update.md).  
+> Handshake is mandatory when [creating a subscription](api/dynamics_subscription_create.md) and [renewing a subscription](api/dynamics_subscription_update.md).  
 
 ### Client state
 Optionally clientState *can* be provided in the `POST` and `PATCH` requests bodies. clientState is included in the body of a webhook notification. ClientState *can* be used as an opaque toke, a shared secret, enabling the subscriber to verify the notification.
