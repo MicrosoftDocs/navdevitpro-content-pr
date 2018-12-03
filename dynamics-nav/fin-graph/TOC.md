@@ -174,7 +174,7 @@
 ### [Create shipment methods](api/dynamics_create_shipmentmethods.md)
 ### [Update shipment methods](api/dynamics_shipmentmethods_update.md)
 ### [Delete shipment methods](api/dynamics_shipmentmethods_delete.md)
-## [Subscription](resources/dynamics_subscriptions.md)
+## [Subscription](resources/dynamics_subscription.md)
 ### [Get subcription](api/dynamics_subscription_get.md)
 ### [Create subscription](api/dynamics_subscription_create.md)
 ### [Update subscription](api/dynamics_subscription_update.md)
