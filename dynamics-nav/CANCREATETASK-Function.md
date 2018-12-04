@@ -25,7 +25,7 @@ Indicates whether the user that has permission to create or run scheduled tasks.
 ## Remarks  
 This is only relavant when using Azure Active Directory (AD) for authenticating users. If the user is granted access by a delegated administrator role in Azure AD, the function returns **false**. In all other cases, it returns true.  
 
-For more information about tasks and **TASKSCEDULER** data type functions, see managing tasks [Task Scheduler](Task-Scheduler.md).  
+For more information about tasks and **TASKSCHEDULER** data type functions, see managing tasks [Task Scheduler](Task-Scheduler.md).  
 
 ## Example  
  The following example uses the CANCREATETASK function in code that creates a task, and then uses the SETTASKREADY function to set the task to ready.  
