@@ -57,7 +57,7 @@ You publish a function as a Web service action by using the [!INCLUDE[nav_dev_lo
     |VAR|Yes|
     |Name|ActionContext|
     |DataType|DotNet|
-    |SubType|Microsoft.Dynamics.Nav.Runtime.WebServiceActionContext.'Microsoft.Dynamics.Nav.Ncl, Culture=neutral, PublicKeyToken=31bf3856ad364e35'|
+    |SubType|Microsoft.Dynamics.Nav.Runtime.WebServiceActionContext.<br>'Microsoft.Dynamics.Nav.Ncl, Culture=neutral,<br> PublicKeyToken=31bf3856ad364e35'|
 
 6.	Select the **Variables** tab and add the following variables.  
     |Name|DataType|SubType|
@@ -67,7 +67,7 @@ You publish a function as a Web service action by using the [!INCLUDE[nav_dev_lo
     |SalesSetup|Record|311|
     |ODataActionManagement|Codeunit|6711|
     |CopyDocMgt|Codeunit|6620|
-    |DocType|Option|OptionString = Quote,Blanket Order,Order,Invoice,Return Order,Credit Memo,Posted Shipment,Posted Invoice,Posted Return Receipt,Posted Credit Memo|
+    |DocType|Option|OptionString = Quote,Blanket Order,Order,Invoice,Return Order,<br>Credit Memo,Posted Shipment,Posted Invoice,<br>Posted Return Receipt,Posted Credit Memo|
 
  7.	Add the code that copies the sales document, for example.
     
@@ -114,8 +114,8 @@ After publishing a web service, verify that the port that web service applicatio
     - `<ServiceInstance>` is the name of the Microsoft Dynamics NAV Server instance for your solution. The default name is DynamicsNAV90.  
 
     Example if the default Microsoft Dynamics NAV Server is running on your local computer.
-    ```http://localhost:7047/DynamicsNAV/api/beta/companies(b9248a6e-966d-478c-a25d-d91d28610397)/salesInvoices(8cc52602-3aa4-4256-b2c7-fdfef5248cbf)/Microsoft.NAV.Copy) ```
-3. Postman should now show the web service function that you have published, and perform the action of copying an invoice. 
+    `http://localhost:7047/DynamicsNAV/api/beta/companies(b9248a6e-966d-478c-a25d-d91d28610397)/salesInvoices(8cc52602-3aa4-4256-b2c7-fdfef5248cbf)/Microsoft.NAV.Copy)`
+3. Postman should now show the Web service function that you have published, and perform the action of copying an invoice. 
 
 ## Return a value
 
@@ -130,17 +130,15 @@ After publishing a web service, verify that the port that web service applicatio
     |ServiceEnabled|Yes|
 
 5. Open **Locals** for the function parameters to the following values.  
-    |Parameter|Value|test|
-    |---------|-----|-----|
-    |inParam  | Text| test|  
-    <!-- check this table --> 
+    |Parameter|Value|
+    |---------|-----|
+    |inParam  | Text|
     
 6. Select the **Return Value** tab and then add the following values.   
     |Name|ReturnType|
     |----|----------|
     |outParam|Text|
-    <!-- check this table -->
-        
+            
 7.	Then add the following code for the **Example** function:  
 
     `outParam := inParam + ' Completed';`
@@ -159,12 +157,12 @@ After publishing a web service, verify that the port that web service applicatio
     }
     ```
 
-You have now published a [!INCLUDE[navnow](includes/navnow_md.md)] function as an OData V4 web service action and verified that the service works as expected. To read more about web services, see the **See Also** section below.
+You have now published a [!INCLUDE[navnow](includes/navnow_md.md)] function as an OData V4 Web service action and verified that the service works as expected. To read more about Web services, see the **See Also** section below.
   
 ## See Also  
- [Web Services](Web-Services.md)   
- [SOAP Web Services](SOAP-Web-Services.md)   
- [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
+ [Web Services](Web-Services.md)  
+ [SOAP Web Services](SOAP-Web-Services.md)  
+ [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)  
  [How to: Publish a Web Service](How-to--Publish-a-Web-Service.md)  
- [Walkthrough: Configuring Web Services to Use SSL (SOAP and OData)](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md)   
+ [Walkthrough: Configuring Web Services to Use SSL (SOAP and OData)](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md)  
  [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives:-SOAP-and-OData.md)
