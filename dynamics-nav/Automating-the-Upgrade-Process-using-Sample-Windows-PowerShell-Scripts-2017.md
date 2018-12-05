@@ -35,23 +35,23 @@ You can use [!INCLUDE[wps_2](includes/wps_2_md.md)] scripts to help you upgrade 
 
  The Example.ps1 script reads the upgrade parameters from the Set-PartnerSettings.ps1 script, calls the HowTo script, passing the upgrade parameters, and then shows the detailed information about each upgrade task. To run the sample script for the data upgrade of a [!INCLUDE[navnow](includes/navnow_md.md)] database, you must have a [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], or [!INCLUDE[navcrete](includes/navcrete_md.md)] database that is available on a SQL Server instance and is ready to be upgraded. The Example.ps1 script runs the following main steps:  
 
-1.  Loads the settings from the Set-PartnerSettings.ps1 file, and prepares the [!INCLUDE[wps_2](includes/wps_2_md.md)] session by importing the required modules.  
+1. Loads the settings from the Set-PartnerSettings.ps1 file, and prepares the [!INCLUDE[wps_2](includes/wps_2_md.md)] session by importing the required modules.  
 
-2.  Saves the current license from the [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], or [!INCLUDE[navcrete](includes/navcrete_md.md)] database.  
+2. Saves the current license from the [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], or [!INCLUDE[navcrete](includes/navcrete_md.md)] database.  
 
-3.  Creates a backup of the [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], or [!INCLUDE[navcrete](includes/navcrete_md.md)] database, and then converts the database to [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+3. Creates a backup of the [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], or [!INCLUDE[navcrete](includes/navcrete_md.md)] database, and then converts the database to [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
 
-4.  Connects the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Server instance to the converted database, imports the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] license file, and then synchronizes the table schema.  
+4. Connects the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Server instance to the converted database, imports the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] license file, and then synchronizes the table schema.  
 
-5.  Imports the application objects and upgrade toolkit objects from the specified .fob file, and then synchronizes the table schema again. This updates the SQL Server database based on the new table schema that is defined by the imported application objects. Data that must be mapped to another table is saved in upgrade tables.  
+5. Imports the application objects and upgrade toolkit objects from the specified .fob file, and then synchronizes the table schema again. This updates the SQL Server database based on the new table schema that is defined by the imported application objects. Data that must be mapped to another table is saved in upgrade tables.  
 
-6.  Calls the Start-NAVDataUpgrade cmdlet to verify the data upgrade preconditions and transfer data from the upgrade tables to the destination tables.  
+6. Calls the Start-NAVDataUpgrade cmdlet to verify the data upgrade preconditions and transfer data from the upgrade tables to the destination tables.  
 
-7.  Deletes all obsolete tables and the upgrade toolkit objects.  
+7. Deletes all obsolete tables and the upgrade toolkit objects.  
 
-8.  Initializes all companies in the upgraded database. If you specified a RapidStart package in the Set-PartnerSettings.ps1 file, the package is applied to all companies.  
+8. Initializes all companies in the upgraded database. If you specified a RapidStart package in the Set-PartnerSettings.ps1 file, the package is applied to all companies.  
 
- The sample script is intended to be run in the context of a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] deployment, including the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance cannot be multitenant. When the sample script runs successfully, the result is a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database that is connected to a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Server instance, and which uses a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] license. The sample script also returns a list of statistics about the upgrade tasks, including information about whether the task ran or not. If a task failed, it is marked, and the information includes the error message and stack trace to help you identify the problem. You can resolve errors in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], save changes, and then run the sample script again, using the database backup that you created earlier.  
+   The sample script is intended to be run in the context of a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] deployment, including the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance cannot be multitenant. When the sample script runs successfully, the result is a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database that is connected to a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Server instance, and which uses a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] license. The sample script also returns a list of statistics about the upgrade tasks, including information about whether the task ran or not. If a task failed, it is marked, and the information includes the error message and stack trace to help you identify the problem. You can resolve errors in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], save changes, and then run the sample script again, using the database backup that you created earlier.  
 
 ## See Also  
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   

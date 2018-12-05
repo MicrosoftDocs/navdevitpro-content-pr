@@ -26,6 +26,7 @@ GET /businesscentral/companies({id})/salesOrders({id})/salesOrderLines(documentI
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |

@@ -28,15 +28,15 @@ OptionNumber := Dialog.STRMENU(OptionString [, DefaultNumber]);
 ## Example  
  The following example creates a window with the following options:  
   
--   Save  
+- Save  
   
--   Close  
+- Close  
   
--   Cancel  
+- Cancel  
   
- The window also has an **OK** button and a **Cancel** button.  
+  The window also has an **OK** button and a **Cancel** button.  
   
- This example requires that you create the following variable.  
+  This example requires that you create the following variable.  
   
 |Variable|Data type|  
 |--------------|---------------|  

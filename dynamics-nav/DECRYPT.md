@@ -40,8 +40,8 @@ String := DECRYPT(Str)
 
 ```  
 IF NOT ENCRYPTIONENABLED THEN  
-        ERROR('Encryption has not been enabled.');  
-      PlainText := DECRYPT(EncryptedText);  
+        ERROR('Encryption has not been enabled.');  
+      PlainText := DECRYPT(EncryptedText);  
 
 ```  
 

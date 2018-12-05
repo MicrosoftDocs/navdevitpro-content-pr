@@ -39,7 +39,8 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 |[DELETE item defaultDimensions](../api/dynamics_item_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of item.  |
 
 ## Properties
-| Property	         | Type	|Description                                          |
+
+| Property           | Type |Description                                          |
 |:-------------------|:-------|:----------------------------------------------------|
 |id                  |GUID    |The unique ID of the item. Non-editable.             |
 |number              |string  |The item number.                                     |
@@ -86,7 +87,6 @@ Here is a JSON representation of the resource.
       "taxGroupCode": "string",
       "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also

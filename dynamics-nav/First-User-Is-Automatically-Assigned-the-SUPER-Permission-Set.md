@@ -21,15 +21,15 @@ When a user creates a [!INCLUDE[navnow](includes/navnow_md.md)] database, that u
   
  If you want to set up a user who can create other users and assign permission sets, you can choose to assign them the SUPER permission set. Alternatively, you can create a dedicated SECURITY permission set that includes read, insert, modify, and delete permission to the following tables and any other tables that you want to grant access to:  
   
--   **\($ T\_2000000120 User $\)**  
+- **\($ T\_2000000120 User $\)**  
   
--   **\($ T\_2000000121 User Property $\)**  
+- **\($ T\_2000000121 User Property $\)**  
   
--   **\($ T\_2000000053 Access Control $\)**  
+- **\($ T\_2000000053 Access Control $\)**  
   
- The permission set must also include read access to the **\($ T\_2000000004 Permission Set $\)** table.  
+  The permission set must also include read access to the **\($ T\_2000000004 Permission Set $\)** table.  
   
- Users who have a SECURITY permission set can create new users and assign them the same permission sets. If you create a SECURITY permission set, users who have this permission set cannot assign themselves or anyone else the SUPER permission set. Also, a user who has the SECURITY permission set for a specific company cannot assign permission sets to users in other companies.  
+  Users who have a SECURITY permission set can create new users and assign them the same permission sets. If you create a SECURITY permission set, users who have this permission set cannot assign themselves or anyone else the SUPER permission set. Also, a user who has the SECURITY permission set for a specific company cannot assign permission sets to users in other companies.  
   
 ## See Also  
  [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md)   

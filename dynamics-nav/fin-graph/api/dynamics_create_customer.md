@@ -23,6 +23,7 @@ POST /businesscentral/companies({id})/customers
 ```
 
 ## Request headers
+
 |Header         |Value                    |
 |---------------|-------------------------|
 |Authorization  |Bearer {token}. Required.|
@@ -80,7 +81,6 @@ Content-type: application/json
   "overdueAmount": 0,
   "totalSalesExcludingTax": 0,
 }
-
 ```
 
 **Response**
@@ -129,7 +129,6 @@ Content-type: application/json
   "totalSalesExcludingTax": 0,
   "lastModifiedDateTime": "2017-03-07T00:35:28.983Z"
 }
-
 ```
 
 ## See Also  
@@ -141,4 +140,4 @@ Content-type: application/json
 [Get Customers](dynamics_customer_get.md)  
 [Patch Customers](dynamics_customer_update.md)  
 [Delete Customers](dynamics_customer_delete.md)  
- 
+

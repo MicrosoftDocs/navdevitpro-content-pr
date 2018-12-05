@@ -14,11 +14,11 @@ manager: edupont
 # Using Certificates to Secure a Remote Client Connection
 You can use service certificates to help secure [!INCLUDE[rtc](includes/rtc_md.md)] connections over a wide area network \(WAN\). The certificate is a file that [!INCLUDE[nav_server](includes/nav_server_md.md)] uses to prove its identity and establish a trusted connection with the client that is trying to connect. [!INCLUDE[navnowlong](includes/navnowlong_md.md)] can support the following configurations:  
   
--   *Chain trust*, which specifies that each certificate must belong to a hierarchy of certificates that ends in a root authority at the top of the chain.  
+- *Chain trust*, which specifies that each certificate must belong to a hierarchy of certificates that ends in a root authority at the top of the chain.  
   
--   *Peer trust*, which specifies that both self-issued certificates and certificates in a trusted chain are accepted.  
+- *Peer trust*, which specifies that both self-issued certificates and certificates in a trusted chain are accepted.  
   
- The implementation in this section describes the chain trust configuration, which is the more secure option.  
+  The implementation in this section describes the chain trust configuration, which is the more secure option.  
   
 > [!NOTE]  
 >  This implementation does not use *Secure Sockets Layer \(SSL\)*. Although these implementations do use the public and private key infrastructure of SSL and SSL certificates, they use Windows Communication Foundation \(WCF\) transport-level security \(TLS\) over the TCP/IP protocol instead of https. This means that these are not strict SSL implementations.  

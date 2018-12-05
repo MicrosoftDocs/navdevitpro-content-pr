@@ -97,17 +97,17 @@ MESSAGE(Text000 + Text001 + Text002 + Text003, VarInteger, Ok1, VarDate, Ok2, Va
   
  This example also shows that when you evaluate a string as a duration data type, you can use certain words in the string to describe the duration. The following words or abbreviations are supported:  
   
--   day, days, d  
+- day, days, d  
   
--   hour, hours, h  
+- hour, hours, h  
   
--   minute, minutes, min, m  
+- minute, minutes, min, m  
   
--   second, seconds, sec, s  
+- second, seconds, sec, s  
   
--   millisecond, milliseconds, milli, millis  
+- millisecond, milliseconds, milli, millis  
   
- You can include decimal values in the string that you evaluate as a duration. Decimal values for milliseconds are ignored; only the whole number is evaluated.  
+  You can include decimal values in the string that you evaluate as a duration. Decimal values for milliseconds are ignored; only the whole number is evaluated.  
   
 ## See Also  
  [CLEAR Method](devenv-CLEAR-Method.md)   

@@ -77,25 +77,27 @@ The following table provides an overview of the C/AL functions that are related 
 
 **Media data type**
 
-|  Function  |  Description  |  
-|------------|- -------------|
-|[IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md)|Adds  media from a file to a record. The imported media object is stored in the application database.|  
-|[IMPORTSTREAM Function \(Media\)](IMPORTSTREAM-Function--Media-.md)|Adds a media from an InStream object to a record. The imported media object is stored in the application database.|  
-|[HASVALUE Function \(Media\)](HASVALUE-Function--Media-.md)|Detects whether a record has a media object in the **Media** data type field.|  
-|[MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md)|Gets the unique identifier \(GUID\) that is assigned to the media object in the application database.|  
-|[EXPORTFILE Function \(Media\)](EXPORTFILE-Function--Media-.md)|Exports a media object from a record to a file.|  
-|[EXPORTSTREAM Function \(Media\)](EXPORTSTREAM-Function--Media-.md)|Exports a media object from a record to an OutStream object.|  
+
+|                              Function                               |                                                    Description                                                     |
+|---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+|   [IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md)   |       Adds  media from a file to a record. The imported media object is stored in the application database.        |
+| [IMPORTSTREAM Function \(Media\)](IMPORTSTREAM-Function--Media-.md) | Adds a media from an InStream object to a record. The imported media object is stored in the application database. |
+|     [HASVALUE Function \(Media\)](HASVALUE-Function--Media-.md)     |                   Detects whether a record has a media object in the **Media** data type field.                    |
+|      [MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md)      |       Gets the unique identifier \(GUID\) that is assigned to the media object in the application database.        |
+|   [EXPORTFILE Function \(Media\)](EXPORTFILE-Function--Media-.md)   |                                  Exports a media object from a record to a file.                                   |
+| [EXPORTSTREAM Function \(Media\)](EXPORTSTREAM-Function--Media-.md) |                            Exports a media object from a record to an OutStream object.                            |
 
 **MediaSet data type**
 
-|  Function  |  Description  |  
-|------------|- -------------|
-|[EXPORTFILE Function \(MediaSet\)](EXPORTFILE-Function-MediaSet.md)|Exports the media objects that included in a media set to individual files.|  
-|[IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)|Adds media from a file to a record, and assigns the imported media object to a media set. The media object is stored in the application database.|  
-|[IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)|Adds media from an InStream object to a record. The imported media object is stored in the application database.|  
-|[INSERT Function \(MediaSet\)](insert-function--mediaset-.md)|Adds a media object that already exists in the database to a MediaSet of a record.|  
-|[MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)|Gets the unique identifier \(GUID\) that is assigned to the media set on a record.|  
-|[COUNT Function \(MediaSet\)](COUNT-Function--MediaSet-.md)|Gets the total number of media objects that are included in the media set on a record.|  
+
+|                                 Function                                  |                                                                    Description                                                                    |
+|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+|    [EXPORTFILE Function \(MediaSet\)](EXPORTFILE-Function-MediaSet.md)    |                                    Exports the media objects that included in a media set to individual files.                                    |
+|   [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   | Adds media from a file to a record, and assigns the imported media object to a media set. The media object is stored in the application database. |
+| [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md) |                 Adds media from an InStream object to a record. The imported media object is stored in the application database.                  |
+|       [INSERT Function \(MediaSet\)](insert-function--mediaset-.md)       |                                Adds a media object that already exists in the database to a MediaSet of a record.                                 |
+|      [MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)      |                                Gets the unique identifier \(GUID\) that is assigned to the media set on a record.                                 |
+|        [COUNT Function \(MediaSet\)](COUNT-Function--MediaSet-.md)        |                              Gets the total number of media objects that are included in the media set on a record.                               |
 
 ## Automatic Deletion of Unused Media Objects 
 When a table record that contains a media object is deleted, the OnDelete trigger gets the media or media set's ID, and uses the ID to look for other references to the media object from the same field index in the same table. If no other references are found, the media object is assumed to be unreferenced and it is deleted. The runtime will not look in all tables in the database to see if a media object is referenced elsewhere, because doing this would decrease performance and result in costly SQL table scans. If media objects are to be shared between tables, they should be shared through a reference table or by sharing the media set field content as described in the next section. 

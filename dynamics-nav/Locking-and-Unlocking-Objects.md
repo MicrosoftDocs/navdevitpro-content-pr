@@ -16,13 +16,13 @@ You can lock an object in Object Designer so that other developers cannot save d
   
  When an object is locked, another user can still do the following:  
   
--   Open the object in the designer, make changes, and compile the object. However, another user cannot save the object. The locked object is marked as **Read Only** when another user opens it in the designer.  
+- Open the object in the designer, make changes, and compile the object. However, another user cannot save the object. The locked object is marked as **Read Only** when another user opens it in the designer.  
   
--   Run the object. For example, a user can run a table and can add or delete records in the table even if it is locked for design changes.  
+- Run the object. For example, a user can run a table and can add or delete records in the table even if it is locked for design changes.  
   
- When you finish making design changes to an object, you can unlock it in Object Designer. The **Locked** and **Locked By** fields are cleared, and other users can now lock the object or save changes to the object.  
+  When you finish making design changes to an object, you can unlock it in Object Designer. The **Locked** and **Locked By** fields are cleared, and other users can now lock the object or save changes to the object.  
   
- You can select one object or multiple objects at the same time to lock or unlock. You can also set the **Auto-Lock on Design** option to automatically lock all objects that you open for designing.  
+  You can select one object or multiple objects at the same time to lock or unlock. You can also set the **Auto-Lock on Design** option to automatically lock all objects that you open for designing.  
   
 ## Object Table  
  The information in the **Locked** and **Locked By** columns is stored in table 2000000001, the **Object** table. The **Object** table is a system table that stores information about objects in the application.  

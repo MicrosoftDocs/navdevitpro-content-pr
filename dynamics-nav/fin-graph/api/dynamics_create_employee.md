@@ -23,6 +23,7 @@ POST /businesscentral/companies({id})/employees
 ```
 
 ## Request headers
+
 |Header        |Value                    |
 |--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|
@@ -63,7 +64,6 @@ Content-type: application/json
   "employmentDate": "2001-06-01",
   "birthDate": "1973-12-12"  
 }
-
 ```
 
 **Response**
@@ -103,7 +103,6 @@ Content-type: application/json
   "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/employees({id})/picture",
   "lastModifiedDateTime": "2017-03-16T14:57:19.497Z" 
 }
-
 ```
 
 ## See also

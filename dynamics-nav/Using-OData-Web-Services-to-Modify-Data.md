@@ -32,15 +32,15 @@ You can write to the [!INCLUDE[navnow](includes/navnow_md.md)] database using an
   
  If you do not specify a company, [!INCLUDE[navnow](includes/navnow_md.md)] will identify a default company. The default company is found in the following order of sequence:  
   
-1.  The ServicesDefaultCompany setting in the Tenants.config file.  
+1. The ServicesDefaultCompany setting in the Tenants.config file.  
   
-2.  The ServicesDefaultCompany setting in the CustomSettings.config file for [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+2. The ServicesDefaultCompany setting in the CustomSettings.config file for [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
-3.  The company in the current tenant when there is only one company.  
+3. The company in the current tenant when there is only one company.  
   
-     If the OData request is for modifying metadata, [!INCLUDE[navnow](includes/navnow_md.md)] will return the first company in the tenant database because metadata applies to all companies in the database.  
+    If the OData request is for modifying metadata, [!INCLUDE[navnow](includes/navnow_md.md)] will return the first company in the tenant database because metadata applies to all companies in the database.  
   
- If no default company can be found based on the criteria, an error message appears.  
+   If no default company can be found based on the criteria, an error message appears.  
   
 ## See Also  
  [OData Web Services](OData-Web-Services.md)   

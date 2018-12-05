@@ -18,23 +18,23 @@ To gain access to the Microsoft Azure management portal, you must have an Azure 
 
 ### To sign up for an Azure subscription  
 
-1.  On the [Microsoft Azure](http://go.microsoft.com/fwlink/?LinkID=285197) page, log in with a Microsoft account.  
+1. On the [Microsoft Azure](http://go.microsoft.com/fwlink/?LinkID=285197) page, log in with a Microsoft account.  
 
-     For more information about Microsoft accounts, see the [What is a Microsoft account?](http://go.microsoft.com/fwlink/?LinkId=271494) page.  
+    For more information about Microsoft accounts, see the [What is a Microsoft account?](http://go.microsoft.com/fwlink/?LinkId=271494) page.  
 
-2.  Choose **Free Trial** and follow the instructions to create a new account. Alternatively, choose **Purchase Options** and then choose the agreement that suits your purpose.  
+2. Choose **Free Trial** and follow the instructions to create a new account. Alternatively, choose **Purchase Options** and then choose the agreement that suits your purpose.  
 
- When your account is set up successfully, the **Subscriptions** page of the Account Center appears.  
+   When your account is set up successfully, the **Subscriptions** page of the Account Center appears.  
 
 ### To create a subscription  
 
-1.  If you are not already signed on to the **Subscriptions** page of the Account Center, then visit the [Azure Account Management Portal](http://go.microsoft.com/fwlink/?LinkID=317944) page and choose **Account Center**.  
+1. If you are not already signed on to the **Subscriptions** page of the Account Center, then visit the [Azure Account Management Portal](http://go.microsoft.com/fwlink/?LinkID=317944) page and choose **Account Center**.  
 
-2.  Choose **add a subscription**.  
+2. Choose **add a subscription**.  
 
-3.  On the **Add a Subscription** page, choose a subscription offer from the available list to create the subscription.  
+3. On the **Add a Subscription** page, choose a subscription offer from the available list to create the subscription.  
 
- You can now use the [Azure management portal](http://manage.windowsazure.com) to manage Azure accounts, subscriptions, hosted services, virtual machines, storage accounts, databases, and more.  
+   You can now use the [Azure management portal](http://manage.windowsazure.com) to manage Azure accounts, subscriptions, hosted services, virtual machines, storage accounts, databases, and more.  
 
 ## See Also  
 [How to: Sign Up for a Microsoft Account](How-to--Sign-Up-for-a-Microsoft-Account.md)   

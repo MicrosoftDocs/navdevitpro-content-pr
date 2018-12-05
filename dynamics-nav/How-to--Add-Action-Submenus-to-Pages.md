@@ -15,15 +15,15 @@ manager: edupont
 # How to Add Action Submenus to Pages in Dynamics NAV
 Action submenus can be placed on pages in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], under any of the three main action tabs:  
   
--   Actions  
+- Actions  
   
--   Navigate  
+- Navigate  
   
--   Reports  
+- Reports  
   
- Create an actions submenu if you have too many actions to fit under a single actions menu. Action submenus help you to break down the numerous tasks related to a business process, into smaller, related groups.  
+  Create an actions submenu if you have too many actions to fit under a single actions menu. Action submenus help you to break down the numerous tasks related to a business process, into smaller, related groups.  
   
- For example, on page 21 Customers, in the Navigate tab, there are two submenus with submenu actions.  
+  For example, on page 21 Customers, in the Navigate tab, there are two submenus with submenu actions.  
   
 |Tab|Submenu|Submenu actions|  
 |---------|-------------|---------------------|  

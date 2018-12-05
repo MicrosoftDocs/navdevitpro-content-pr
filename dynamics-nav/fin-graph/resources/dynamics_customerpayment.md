@@ -30,7 +30,8 @@ Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[DELETE customerPayments](../api/dynamics_customerpayment_delete.md)|none|Deletes a customer payment.|
 
 ## Properties
-| Property	   | Type	 |Description|
+
+| Property     | Type    |Description|
 |:-------------|:--------|:----------|
 |id|GUID|The unique ID of the customer payment. Non-editable.|
 |lineNumber|integer|The number of the customer payment.|

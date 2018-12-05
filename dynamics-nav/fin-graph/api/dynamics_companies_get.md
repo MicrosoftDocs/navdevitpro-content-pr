@@ -23,6 +23,7 @@ GET /businesscentral/companies
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |

@@ -79,7 +79,7 @@ table 50100 "Reward Level"
 
             NotBlank = true; 
 
- 
+
 
             trigger OnValidate(); 
 
@@ -93,7 +93,7 @@ table 50100 "Reward Level"
 
                 tempPoints := "Minimum Reward Points"; 
 
- 
+
 
                 RewardLevel.SetRange("Minimum Reward Points", tempPoints); 
 
@@ -107,7 +107,7 @@ table 50100 "Reward Level"
 
     } 
 
- 
+
 
     keys 
 
@@ -125,19 +125,19 @@ table 50100 "Reward Level"
 
     } 
 
- 
+
 
     trigger OnInsert(); 
 
     begin 
 
-         
+
 
         Validate("Minimum Reward Points"); 
 
     end; 
 
- 
+
 
     trigger OnModify(); 
 
@@ -188,7 +188,7 @@ table 50101 "Activation Code Information"
 
     } 
 
- 
+
 
     keys 
 
@@ -205,7 +205,6 @@ table 50101 "Activation Code Information"
     } 
 
 } 
-
 ``` 
 
 #### Customer Rewards Mgt. Setup table object 
@@ -235,7 +234,7 @@ table 50102 "Customer Rewards Mgt. Setup"
 
     } 
 
- 
+
 
     keys 
 
@@ -280,7 +279,7 @@ tableextension 50100 "CustomerTable Ext." extends Customer
 
 } 
 ```
- 
+
 ### Customer Rewards page objects 
 
 #### Customer Rewards Wizard page object 
@@ -329,7 +328,7 @@ page 50100 "Customer Rewards Wizard"
 
             } 
 
- 
+
 
             group(FirstPage) 
 
@@ -357,7 +356,7 @@ page 50100 "Customer Rewards Wizard"
 
                         Visible = FirstPageVisible; 
 
- 
+
 
                         field(Spacer1; '') 
 
@@ -375,7 +374,7 @@ page 50100 "Customer Rewards Wizard"
 
                     } 
 
- 
+
 
                     group("Terms") 
 
@@ -405,7 +404,7 @@ page 50100 "Customer Rewards Wizard"
 
                         Caption = ''; 
 
- 
+
 
                         field(EnableFeature; EnableCustomerRewards) 
 
@@ -419,7 +418,7 @@ page 50100 "Customer Rewards Wizard"
 
                             Caption = 'I understand and accept these terms.'; 
 
- 
+
 
                             trigger OnValidate(); 
 
@@ -437,7 +436,7 @@ page 50100 "Customer Rewards Wizard"
 
             } 
 
- 
+
 
             group(SecondPage) 
 
@@ -479,7 +478,7 @@ page 50100 "Customer Rewards Wizard"
 
                         Visible = SecondPageVisible; 
 
- 
+
 
                         field(Activationcode; ActivationCode) 
 
@@ -499,7 +498,7 @@ page 50100 "Customer Rewards Wizard"
 
             } 
 
- 
+
 
             group(FinalPage) 
 
@@ -537,7 +536,7 @@ page 50100 "Customer Rewards Wizard"
 
     } 
 
- 
+
 
     actions 
 
@@ -563,7 +562,7 @@ page 50100 "Customer Rewards Wizard"
 
                 InFooterBar = true; 
 
- 
+
 
                 trigger OnAction(); 
 
@@ -591,7 +590,7 @@ page 50100 "Customer Rewards Wizard"
 
                 InFooterBar = true; 
 
- 
+
 
                 trigger OnAction(); 
 
@@ -619,7 +618,7 @@ page 50100 "Customer Rewards Wizard"
 
                 InFooterBar = true; 
 
- 
+
 
                 trigger OnAction(); 
 
@@ -627,7 +626,7 @@ page 50100 "Customer Rewards Wizard"
 
                     CustomerRewardsExtMgt: Codeunit "Customer Rewards Ext. Mgt."; 
 
- 
+
 
                 begin 
 
@@ -635,13 +634,13 @@ page 50100 "Customer Rewards Wizard"
 
                         Error('Activation code cannot be blank.'); 
 
- 
+
 
                     if Text.StrLen(ActivationCode) <> 14 then 
 
                         Error('Activation code must have 14 digits.'); 
 
- 
+
 
                     if CustomerRewardsExtMgt.ActivateCustomerRewards(ActivationCode) then 
 
@@ -655,7 +654,7 @@ page 50100 "Customer Rewards Wizard"
 
             } 
 
- 
+
 
             action(ActionFinish) 
 
@@ -671,7 +670,7 @@ page 50100 "Customer Rewards Wizard"
 
                 InFooterBar = true; 
 
- 
+
 
                 trigger OnAction(); 
 
@@ -687,7 +686,7 @@ page 50100 "Customer Rewards Wizard"
 
     } 
 
- 
+
 
     trigger OnInit(); 
 
@@ -697,7 +696,7 @@ page 50100 "Customer Rewards Wizard"
 
     end; 
 
- 
+
 
     trigger OnOpenPage(); 
 
@@ -709,7 +708,7 @@ page 50100 "Customer Rewards Wizard"
 
     end; 
 
- 
+
 
     local procedure EnableControls(); 
 
@@ -717,7 +716,7 @@ page 50100 "Customer Rewards Wizard"
 
         ResetControls; 
 
- 
+
 
         case Step of 
 
@@ -725,13 +724,13 @@ page 50100 "Customer Rewards Wizard"
 
           ShowFirstPage; 
 
- 
+
 
         Step::Second : 
 
           ShowSecondPage; 
 
- 
+
 
         Step::Finish : 
 
@@ -741,13 +740,13 @@ page 50100 "Customer Rewards Wizard"
 
     end; 
 
- 
+
 
     local procedure NextStep(Backwards: Boolean); 
 
     begin 
 
- 
+
 
         if Backwards then 
 
@@ -757,13 +756,13 @@ page 50100 "Customer Rewards Wizard"
 
             Step := Step + 1; 
 
- 
+
 
         EnableControls; 
 
     end; 
 
- 
+
 
     local procedure FinishAndEnableCustomerRewards(); 
 
@@ -779,7 +778,7 @@ page 50100 "Customer Rewards Wizard"
 
     end; 
 
- 
+
 
     local procedure ShowFirstPage(); 
 
@@ -799,7 +798,7 @@ page 50100 "Customer Rewards Wizard"
 
     end; 
 
- 
+
 
     local procedure ShowSecondPage(); 
 
@@ -819,7 +818,7 @@ page 50100 "Customer Rewards Wizard"
 
     end; 
 
- 
+
 
     local procedure ShowFinalPage(); 
 
@@ -835,7 +834,7 @@ page 50100 "Customer Rewards Wizard"
 
     end; 
 
- 
+
 
     local procedure ResetControls(); 
 
@@ -849,7 +848,7 @@ page 50100 "Customer Rewards Wizard"
 
         ActivateEnabled := true; 
 
- 
+
 
         FirstPageVisible := false; 
 
@@ -859,7 +858,7 @@ page 50100 "Customer Rewards Wizard"
 
     end; 
 
- 
+
 
     local procedure LoadTopBanners(); 
 
@@ -877,7 +876,7 @@ page 50100 "Customer Rewards Wizard"
 
     end; 
 
- 
+
 
     var 
 
@@ -908,7 +907,6 @@ page 50100 "Customer Rewards Wizard"
         EnableCustomerRewards: Boolean; 
 
 } 
-
 ``` 
 
 #### Rewards Level List page object 
@@ -925,7 +923,7 @@ page 50101 "Rewards Level List"
 
     SourceTableView = sorting ("Minimum Reward Points") order(ascending); 
 
- 
+
 
     layout 
 
@@ -961,13 +959,13 @@ page 50101 "Rewards Level List"
 
     } 
 
- 
+
 
     trigger OnOpenPage(); 
 
     begin 
 
- 
+
 
         if(not CustomerRewardsExtMgt.IsCustomerRewardsActivated) then 
 
@@ -975,7 +973,7 @@ page 50101 "Rewards Level List"
 
     end; 
 
- 
+
 
     var 
 
@@ -1036,7 +1034,7 @@ pageextension 50100 "Customer Card Ext." extends "Customer Card"
 
     } 
 
- 
+
 
     trigger OnAfterGetRecord(); 
 
@@ -1052,7 +1050,7 @@ pageextension 50100 "Customer Card Ext." extends "Customer Card"
 
     end; 
 
- 
+
 
     var 
 
@@ -1060,7 +1058,7 @@ pageextension 50100 "Customer Card Ext." extends "Customer Card"
 
 } 
 ```
- 
+
 #### Customer list page extension object 
 A page extension object can be used to add new functionality to pages that are part of the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] service. The following page extension object extends the **Customer List** page object by adding one action control; **Reward Levels** to the **Customer** group on the page. 
 
@@ -1091,7 +1089,7 @@ pageextension 50101 "Customer List Ext." extends "Customer List"
 
                 PromotedIsBig = true; 
 
- 
+
 
                 trigger OnAction(); 
 
@@ -1113,7 +1111,7 @@ pageextension 50101 "Customer List Ext." extends "Customer List"
 
     } 
 
- 
+
 
     var 
 
@@ -1121,7 +1119,7 @@ pageextension 50101 "Customer List Ext." extends "Customer List"
 
 } 
 ```
- 
+
 ### Customer Rewards codeunit objects 
 
 #### Customer Rewards Install Logic codeunit object 
@@ -1136,7 +1134,7 @@ codeunit 50100 "Customer Rewards Install Logic"
 
     Subtype = Install; 
 
- 
+
 
     trigger OnInstallAppPerCompany(); 
 
@@ -1146,7 +1144,7 @@ codeunit 50100 "Customer Rewards Install Logic"
 
     end; 
 
- 
+
 
     procedure SetDefaultCustomerRewardsExtMgtCodeunit(); 
 
@@ -1170,10 +1168,10 @@ codeunit 50100 "Customer Rewards Install Logic"
 
 } 
 ```
- 
+
 #### Customer Rewards Ext. Mgt. codeunit object 
 The 50101 **Customer Rewards Ext. Mgt.**  codeunit encapsulates most of the logic and functionality required for the Customer Rewards extension. This codeunit contains examples of how we can use events to react to specific actions or behavior that occur within our extension. In this sample extension, there is the need to make a call to an external service or API to validate activation codes entered by the user. Typically, you may do this by defining procedures that take in the activation code and then make calls to the API. Instead of using that approach, we use events in AL. Let us look at the following code from the codeunit. 
- 
+
 ```
     // Activates Customer Rewards if activation code is validated successfully  
 
@@ -1193,7 +1191,7 @@ The 50101 **Customer Rewards Ext. Mgt.**  codeunit encapsulates most of the 
 
     end; 
 
- 
+
 
     // publishes event 
 
@@ -1205,7 +1203,7 @@ The 50101 **Customer Rewards Ext. Mgt.**  codeunit encapsulates most of the 
 
     end; 
 
- 
+
 
     // Subscribes to OnGetActivationCodeStatusFromServer event and handles it when the event is raised 
 
@@ -1225,13 +1223,13 @@ The 50101 **Customer Rewards Ext. Mgt.**  codeunit encapsulates most of the 
 
     begin 
 
- 
+
 
         if not CanHandle then 
 
             exit; // use the mock 
 
- 
+
 
         // Get response from external service and update activation code information if successful 
 
@@ -1239,7 +1237,7 @@ The 50101 **Customer Rewards Ext. Mgt.**  codeunit encapsulates most of the 
 
             JsonRepsonse.ReadFrom(ResponseText); 
 
- 
+
 
             if(JsonRepsonse.SelectToken('ActivationResponse', Result)) then begin 
 
@@ -1249,7 +1247,7 @@ The 50101 **Customer Rewards Ext. Mgt.**  codeunit encapsulates most of the 
 
                         ActivationCodeInfo.Delete; 
 
- 
+
 
                     ActivationCodeInfo.Init; 
 
@@ -1261,7 +1259,7 @@ The 50101 **Customer Rewards Ext. Mgt.**  codeunit encapsulates most of the 
 
                     ActivationCodeInfo.Insert; 
 
- 
+
 
                 end; 
 
@@ -1271,7 +1269,7 @@ The 50101 **Customer Rewards Ext. Mgt.**  codeunit encapsulates most of the 
 
     end; 
 
- 
+
 
     // Helper method to make calls to a service to validate activation code 
 
@@ -1287,7 +1285,7 @@ The 50101 **Customer Rewards Ext. Mgt.**  codeunit encapsulates most of the 
 
             exit(false); 
 
- 
+
 
         ResponseText := DummySuccessResponseTxt; 
 
@@ -1295,7 +1293,7 @@ The 50101 **Customer Rewards Ext. Mgt.**  codeunit encapsulates most of the 
 
     end; 
 ```
- 
+
 We define an event publisher method **OnGetActivationCodeStatusFromServer** that accepts the activation code entered by the user as a parameter, and, a subscriber method **OnGetActivationCodeStatusFromServerSubscriber** to listen for and handle the event. When the **ActivateCustomerRewards** procedure is run, the **OnGetActivationCodeStatusFromServer** event is raised. Because the **EventSubscriberInstance** property for the codeunit is set to **Static-Automatic** by default, the **OnGetActivationCodeStatusFromServerSubscriber** procedure is called. In this procedure, we handle the raised event by first checking if the current codeunit has been defined for handling this event. If the codeunit can handle the event, the **GetHttpResponse** helper procedure is called to validate the activation code. Depending on the response, Customer Rewards is activated or not. 
 
 By using events when the extension makes external calls to a service, we are able to mock the behavior of what happens when events are raised. This becomes particularly useful when writing tests for the extension. 
@@ -1315,7 +1313,7 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
         NoRewardlevelTxt: TextConst ENU = 'NONE'; 
 
- 
+
 
     // Determines if the extension is activated 
 
@@ -1331,19 +1329,19 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
             exit(false); 
 
- 
+
 
         if(ActivationCodeInfo."Date Activated" <= Today) and(Today <= ActivationCodeInfo."Expiration Date") then 
 
             exit(true); 
 
- 
+
 
         exit(false); 
 
     end; 
 
- 
+
 
     // Opens the Customer Rewards Assisted Setup Guide 
 
@@ -1359,7 +1357,7 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
     end; 
 
- 
+
 
     // Opens the Reward Level page 
 
@@ -1375,7 +1373,7 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
     end; 
 
- 
+
 
     // Determines the correponding reward level and returns it 
 
@@ -1391,13 +1389,13 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
         RewardLevelTxt := NoRewardlevelTxt; 
 
- 
+
 
         if RewardLevelRec.IsEmpty then 
 
             exit; 
 
- 
+
 
         RewardLevelRec.SetRange("Minimum Reward Points", 0, RewardPoints); 
 
@@ -1407,11 +1405,11 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
             exit; 
 
- 
+
 
         MinRewardLevelPoints := RewardLevelRec."Minimum Reward Points"; 
 
- 
+
 
         if RewardPoints >= MinRewardLevelPoints then begin 
 
@@ -1427,11 +1425,11 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
         end; 
 
- 
+
 
     end; 
 
- 
+
 
     // Activates Customer Rewards if activation code is validated successfully  
 
@@ -1451,7 +1449,7 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
     end; 
 
- 
+
 
     // publishes event 
 
@@ -1463,7 +1461,7 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
     end; 
 
- 
+
 
     // Subscribes to OnGetActivationCodeStatusFromServer event and handles it when the event is raised 
 
@@ -1483,13 +1481,13 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
     begin 
 
- 
+
 
         if not CanHandle then 
 
             exit; // use the mock 
 
- 
+
 
         // Get response from external service and update activation code information if successful 
 
@@ -1497,7 +1495,7 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
             JsonRepsonse.ReadFrom(ResponseText); 
 
- 
+
 
             if(JsonRepsonse.SelectToken('ActivationResponse', Result)) then begin 
 
@@ -1507,7 +1505,7 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
                         ActivationCodeInfo.Delete; 
 
- 
+
 
                     ActivationCodeInfo.Init; 
 
@@ -1519,7 +1517,7 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
                     ActivationCodeInfo.Insert; 
 
- 
+
 
                 end; 
 
@@ -1529,7 +1527,7 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
     end; 
 
- 
+
 
     // Helper method to make calls to a service to validate activation code 
 
@@ -1545,7 +1543,7 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
             exit(false); 
 
- 
+
 
         ResponseText := DummySuccessResponseTxt; 
 
@@ -1553,7 +1551,7 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
     end; 
 
- 
+
 
     // Subcribes to the OnAfterReleaseSalesDoc event and increases reward points for the sell to customer in posted sales order 
 
@@ -1571,7 +1569,7 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
             exit; 
 
- 
+
 
         Customer.Get(SalesHeader."Sell-to Customer No."); 
 
@@ -1581,7 +1579,7 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
     end; 
 
- 
+
 
     // Checks if the current codeunit is allowed to handle Customer Rewards Activation requests rather than a mock. 
 
@@ -1597,13 +1595,13 @@ codeunit 50101 "Customer Rewards Ext. Mgt."
 
             exit(CustomerRewardsExtMgtSetup."Customer Rewards Ext. Mgt. Codeunit ID" = CODEUNIT::"Customer Rewards Ext. Mgt."); 
 
- 
+
 
         exit(false); 
 
     end; 
 
- 
+
 
 } 
 ```

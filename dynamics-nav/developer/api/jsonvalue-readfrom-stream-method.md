@@ -57,7 +57,6 @@ local procedure ReadJson(source : InStream) result : JsonValue;
 begin
     result.ReadFrom(source);    
 end;
-
 ```
 ## See Also
 [Getting Started with AL](../devenv-get-started.md)  

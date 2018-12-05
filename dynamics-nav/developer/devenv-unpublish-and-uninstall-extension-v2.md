@@ -85,11 +85,11 @@ You can uninstall an extension by using the [!INCLUDE[nav_shell_md](includes/nav
 You unpublish an extension on a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance by using the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)].
 
 
-1.  Start the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. 
+1. Start the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. 
 
-    For more information, see [Starting a Microsoft Dynamics NAV Administration Shell Session](../Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md#StartAdminShell). 
+   For more information, see [Starting a Microsoft Dynamics NAV Administration Shell Session](../Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md#StartAdminShell). 
 
-2. To get a list of the extensions that are currently published on a tenant, run the [Get-NAVAppInfo cmdlet] (https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/get-navappinfo) without the `Tenant` parameter.
+2. To get a list of the extensions that are currently published on a tenant, run the [Get-NAVAppInfo cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/get-navappinfo) without the `Tenant` parameter.
     
     This is useful because a server instance can have several published extensions, and unpublishing an extension requires that you provide specific information about the extension, like the name, version or path to extension package file. 
 

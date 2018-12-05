@@ -23,6 +23,7 @@ GET /businesscentral/companies({companyId})/items({itemId})/picture
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
@@ -66,7 +67,6 @@ Here is an example of the response.
 
 ```json
 GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies(companyId)/items(itemId)/picture(itemId)/content
-
 ```
 
 **Response**

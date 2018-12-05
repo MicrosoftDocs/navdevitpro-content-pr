@@ -56,9 +56,9 @@ The protocol handler for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)]
 ### Adding Username to the URL  
  The *ms-dynamicsnav* scheme also supports sending the user name in the URL for prefilling the user name. The password must be entered by the user. To send the user name, you must URL encode the value and prefix the server address by using *\<encoded username>@*. Examples are as follows:  
   
--   *ms-dynamicsnav://demouser%40mycompany.com@myserver/myinstance/*  
+- <em>ms-dynamicsnav://demouser%40mycompany.com@myserver/myinstance/</em>  
   
--   *ms-dynamicsnav://user1:@myserver/myinstance/*  
+- <em>ms-dynamicsnav://user1:@myserver/myinstance/</em>  
   
 > [!IMPORTANT]  
 >  We recommend that you do not share a user name in the URL. This technique should only be used in demonstration scenarios and other instances where the accidental sharing of a URL will not compromise the system.  

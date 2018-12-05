@@ -47,27 +47,27 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
 ### Prerequisites  
  To complete this walkthrough, you will need:  
 
--   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media. For example, this can be a DVD or a network drive that contains the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation files.  
+- [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media. For example, this can be a DVD or a network drive that contains the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation files.  
 
--   Two computers that are configured as described in the introduction.  
+- Two computers that are configured as described in the introduction.  
 
-     On the **NAVWEB** computer, you must enable IIS with the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For instructions about how to install Internet Information Services, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md).  
+   On the **NAVWEB** computer, you must enable IIS with the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For instructions about how to install Internet Information Services, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md).  
 
-    > [!NOTE]  
-    >  Instead of installing and configuring IIS manually, you can use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install IIS and enable the required features, as described in this walkthrough.  
+  > [!NOTE]  
+  >  Instead of installing and configuring IIS manually, you can use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install IIS and enable the required features, as described in this walkthrough.  
 
--   A domain user account for accessing [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] database on the Microsoft SQL Server. The user account must have the following permissions:  
+- A domain user account for accessing [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] database on the Microsoft SQL Server. The user account must have the following permissions:  
 
-    -   Permission to log on as a service on the computer where you will install [!INCLUDE[nav_server](includes/nav_server_md.md)] and the computer that is running SQL Server.  
+  - Permission to log on as a service on the computer where you will install [!INCLUDE[nav_server](includes/nav_server_md.md)] and the computer that is running SQL Server.  
 
-    -   Permission to register Service Principal Names \(SPNs\) on itself.  
+  - Permission to register Service Principal Names \(SPNs\) on itself.  
 
-         If the user account does not have this permission, then you must register SPNs for the account manually.  
+     If the user account does not have this permission, then you must register SPNs for the account manually.  
 
-     For information about how to create a domain user account, see [Create a New User Account](http://go.microsoft.com/fwlink/?LinkId=213723) in the TechNet Library. For information about how to enable permission to log on as a service and register SPNs, see [Provisioning the Microsoft Dynamics NAV Server Account](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md)  
+    For information about how to create a domain user account, see [Create a New User Account](http://go.microsoft.com/fwlink/?LinkId=213723) in the TechNet Library. For information about how to enable permission to log on as a service and register SPNs, see [Provisioning the Microsoft Dynamics NAV Server Account](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md)  
 
-    > [!NOTE]  
-    >  By default, [!INCLUDE[navnow](includes/navnow_md.md)] Setup uses NETWORK SERVICE as the service account. You can use NETWORK SERVICE instead of a domain user account, but this is considered less secure. If you want to use NETWORK SERVICE, then you do not need this prerequisite.  
+  > [!NOTE]  
+  >  By default, [!INCLUDE[navnow](includes/navnow_md.md)] Setup uses NETWORK SERVICE as the service account. You can use NETWORK SERVICE instead of a domain user account, but this is considered less secure. If you want to use NETWORK SERVICE, then you do not need this prerequisite.  
 
 ## Story  
  Viktor is a Microsoft Certified Partner working for [!INCLUDE[demoname](includes/demoname_md.md)] He has been tasked with deploying [!INCLUDE[nav_web](includes/nav_web_md.md)] for a customer. Viktor is a Microsoft Certified Partner working for CRONUS International Ltd. He has been tasked with deploying [!INCLUDE[nav_web](includes/nav_web_md.md)] for customer. To meet the customer's requirements, Viktor has decided to deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] as follows:  
@@ -128,21 +128,21 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
 
 #### To install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] by using Setup  
 
-1.  On the **NAVWEB** computer, access the [!INCLUDE[navnow](includes/navnow_md.md)] installation media.  
+1. On the **NAVWEB** computer, access the [!INCLUDE[navnow](includes/navnow_md.md)] installation media.  
 
-2.  Run the setup.exe file to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard.  
+2. Run the setup.exe file to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard.  
 
-3.  Choose the **Next** button.  
+3. Choose the **Next** button.  
 
-4.  To accept the license terms, choose **I accept**.  
+4. To accept the license terms, choose **I accept**.  
 
-5.  On the **Microsoft Dynamics NAV Setup** page, choose **Choose an installation option**.  
+5. On the **Microsoft Dynamics NAV Setup** page, choose **Choose an installation option**.  
 
-6.  On the **Choose an Installation Option** page, choose **Custom**.  
+6. On the **Choose an Installation Option** page, choose **Custom**.  
 
-7.  On the **Customize the Installation** page, select **NAV Web Server Components**, and then choose **Run from My Computer**.  
+7. On the **Customize the Installation** page, select **NAV Web Server Components**, and then choose **Run from My Computer**.  
 
-8.  Choose the **Next** button to go to the **Specify Parameters** page.  
+8. Choose the **Next** button to go to the **Specify Parameters** page.  
 
 9. On the **Specify parameters** page, in the **Server Name** box, type the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], in this case, NAVSRV.  
 
@@ -156,7 +156,7 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
 
 13. When Setup is finished, choose the **Close** button.  
 
- A website that has the name [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client has been installed on IIS. The website uses port 8080. A website that has the name [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client has been installed on IIS. The website includes a web server instance for [!INCLUDE[nav_web](includes/nav_web_md.md)] that has the name [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]. The default physical path of the web server instance is C:\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\\.  
+    A website that has the name [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client has been installed on IIS. The website uses port 8080. A website that has the name [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client has been installed on IIS. The website includes a web server instance for [!INCLUDE[nav_web](includes/nav_web_md.md)] that has the name [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]. The default physical path of the web server instance is C:\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\\.  
 
 ##  <a name="Delegation"></a> Configuring Constrained Delegation from the Microsoft Dynamics NAV Web Client to Microsoft Dynamics NAV Server  
  When the client device, [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], and [!INCLUDE[nav_server](includes/nav_server_md.md)] are on separate computers, the client device interacts with [!INCLUDE[nav_server](includes/nav_server_md.md)] through the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. The computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is performing actions on the client device's behalf. This process is known as *impersonation*. Impersonation cannot be used across multiple computers, so you must set up delegation from the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)].  
@@ -263,31 +263,31 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
 
 #### To open the [!INCLUDE[nav_web](includes/nav_web_md.md)]  
 
-1.  Open the web browser.  
+1. Open the web browser.  
 
-2.  In the address box, type the following URL:  
+2. In the address box, type the following URL:  
 
-    `http://ComputerName:PortNumber/nav_server_instance`  
+   `http://ComputerName:PortNumber/nav_server_instance`  
 
-    Or for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions:
+   Or for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions:
 
-    `http://ComputerName:PortNumber/nav_server_instance/WebClient/Default.aspx`  
+   `http://ComputerName:PortNumber/nav_server_instance/WebClient/Default.aspx`  
 
-    -   Substitute **ComputerName** with the name of the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
+   - Substitute **ComputerName** with the name of the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
 
-    -   Substitute **PortNumber** with the port that you configured for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] during Setup.  
+   - Substitute **PortNumber** with the port that you configured for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] during Setup.  
 
-    -   Substitute **[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]** with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that you configured during Setup. [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)] is the default value.  
+   - Substitute **[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]** with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that you configured during Setup. [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)] is the default value.  
 
      For this walkthrough, you would use the following URL:  
 
-    ```  
-    http://navweb:8080/nav_server_instance  
-    ```  
+   ```  
+   http://navweb:8080/nav_server_instance  
+   ```  
 
-    ```  
-    http://navweb:8080/nav_server_instance/WebClient/Default.aspx  
-    ```  
+   ```  
+   http://navweb:8080/nav_server_instance/WebClient/Default.aspx  
+   ```  
 
 ### Troubleshooting  
  If you are cannot connect the [!INCLUDE[nav_web](includes/nav_web_md.md)] or you are experiencing problems, see [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md).  

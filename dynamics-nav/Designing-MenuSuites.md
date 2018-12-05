@@ -14,19 +14,19 @@ manager: edupont
 # Designing MenuSuites
 In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create MenuSuites that contain menu content that is displayed in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The MenuSuite that is provided in [!INCLUDE[navnow](includes/navnow_md.md)] is a generic MenuSuite that you can modify. You can also create a new MenuSuite from the basic MenuSuite. Each menu in the basic MenuSuite represents a department such as Financial Management, Human Resources, and Manufacturing. Each department contains menu items that are specific for that department area. A department menu contains menu items that can link to the following objects:  
 
--   Codeunits  
+- Codeunits  
 
--   Pages  
+- Pages  
 
--   Queries  
+- Queries  
 
--   Reports  
+- Reports  
 
--   Tables  
+- Tables  
 
--   XMLports  
+- XMLports  
 
- The links to these objects are displayed on the department page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. When the link is selected in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the object that it links to is run. MenuSuites are designed in Navigation Pane Designer but they are run in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+  The links to these objects are displayed on the department page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. When the link is selected in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the object that it links to is run. MenuSuites are designed in Navigation Pane Designer but they are run in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
 
 > [!NOTE]  
 >  MenuSuites cannot be run directly from Object Designer in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
@@ -71,21 +71,21 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create MenuSuites 
 
  After creating a new MenuSuite, you can do the following:  
 
--   Create new menus  
+- Create new menus  
 
--   Delete menus  
+- Delete menus  
 
--   Rename menus  
+- Rename menus  
 
--   Change the location of menus  
+- Change the location of menus  
 
--   Hide or show menus  
+- Hide or show menus  
 
--   Disable menus  
+- Disable menus  
 
--   Modify menu items  
+- Modify menu items  
 
- For information about how to create a MenuSuite, see [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](Walkthrough--Creating-MenuSuites-for-the-Microsoft-Dynamics-NAV-Windows-Client.md). For information about how to modify a MenuSuite, see [How to: Modify Menu Items in a MenuSuite](How-to--Modify-Menu-Items-in-a-MenuSuite.md).  
+  For information about how to create a MenuSuite, see [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](Walkthrough--Creating-MenuSuites-for-the-Microsoft-Dynamics-NAV-Windows-Client.md). For information about how to modify a MenuSuite, see [How to: Modify Menu Items in a MenuSuite](How-to--Modify-Menu-Items-in-a-MenuSuite.md).  
 
 ## Inheriting MenuSuite Content  
  When you create a new MenuSuite, it inherits all its content from the 1010 Dept – MBS, the base MenuSuite that is provided in [!INCLUDE[navnow](includes/navnow_md.md)]. For example, when you create a MenuSuite and you select the Region design permission level, the MenuSuite that you created at the Region level inherits from 1010 Dept - MBS. The 1020 Dept – Region MenuSuite then becomes the highest design level MenuSuite in Object Designer. If you create another MenuSuite, it inherits from the 1020 Dept – Region MenuSuite and so on.  
@@ -105,17 +105,17 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create MenuSuites 
 
  In addition to all the actions you can perform after you modify a MenuSuite, you can modify menu items and group folders as follows:  
 
--   Add departments, items, and groups folders  
+- Add departments, items, and groups folders  
 
--   Delete departments, items, and group folders  
+- Delete departments, items, and group folders  
 
--   Rename departments’ items, and groups folders  
+- Rename departments’ items, and groups folders  
 
--   Change bitmaps that are associated with departments  
+- Change bitmaps that are associated with departments  
 
--   Hide departments  
+- Hide departments  
 
- The menu items can be added directly on the department page or can be added to a submenu on the department page. You can change the bitmap images that are associated with the departments in the **Menu Properties** window. Valid bitmap numbers are from 0 to 15, inclusive. The menu items that you create in the Navigation Pane Designer are run in [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information about how to create MenuSuites, see [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](Walkthrough--Creating-MenuSuites-for-the-Microsoft-Dynamics-NAV-Windows-Client.md).  
+  The menu items can be added directly on the department page or can be added to a submenu on the department page. You can change the bitmap images that are associated with the departments in the **Menu Properties** window. Valid bitmap numbers are from 0 to 15, inclusive. The menu items that you create in the Navigation Pane Designer are run in [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information about how to create MenuSuites, see [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](Walkthrough--Creating-MenuSuites-for-the-Microsoft-Dynamics-NAV-Windows-Client.md).  
 
 ## Designing for Multiple Languages  
  By default, [!INCLUDE[navnow](includes/navnow_md.md)] display menus in the language that is set on your computer. The language code is shown in the CaptionML field in the **Menu Properties** window. If you create a menu that will be used in multiple languages, you must give the menu a name in each language in the [Multilanguage Editor](uiref/-$-S_2141-Multilanguage-Editor-$-.md) window. To open the Multilanguage Editor window, choose the **EditAssist** button in the [CaptionML Property](CaptionML-Property.md) field. For more information, see [How to: Enter Text in the Multilanguage Editor](How-to--Enter-Text-in-the-Multilanguage-Editor.md).  

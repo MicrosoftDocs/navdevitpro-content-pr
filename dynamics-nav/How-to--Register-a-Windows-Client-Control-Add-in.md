@@ -23,15 +23,15 @@ A [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-in is delivere
   
 ### To register a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-in  
   
-1.  Open [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+1. Open [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
-2.  In the **Search** box, enter **Control Add-ins** and then choose the related link.  
+2. In the **Search** box, enter **Control Add-ins** and then choose the related link.  
   
-3.  On a blank line on the **Control Add-ins** page, fill in the **Control Add-In Name** and **Public Key Token** fields.  
+3. On a blank line on the **Control Add-ins** page, fill in the **Control Add-In Name** and **Public Key Token** fields.  
   
-4.  Close the **Control Add-ins** page.  
+4. Close the **Control Add-ins** page.  
   
- You can also register and manage the control add-in by using the [New-NAVAddin cmdlet](http://go.microsoft.com/fwlink/?LinkID=521781), [Set-NAVAddin cmdlet](http://go.microsoft.com/fwlink/?LinkID=521784), [Get-NAVAddin](http://go.microsoft.com/fwlink/?LinkID=521782), or [Remove-NAVAddin](http://go.microsoft.com/fwlink/?LinkID=521783) cmdlets from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
+   You can also register and manage the control add-in by using the [New-NAVAddin cmdlet](http://go.microsoft.com/fwlink/?LinkID=521781), [Set-NAVAddin cmdlet](http://go.microsoft.com/fwlink/?LinkID=521784), [Get-NAVAddin](http://go.microsoft.com/fwlink/?LinkID=521782), or [Remove-NAVAddin](http://go.microsoft.com/fwlink/?LinkID=521783) cmdlets from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
   
 ## See Also  
  [Installing and Configuring Windows Client Control Add-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   

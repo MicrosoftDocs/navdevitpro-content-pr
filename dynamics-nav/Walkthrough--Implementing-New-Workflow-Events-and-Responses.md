@@ -110,70 +110,76 @@ If a business scenario requires a workflow event or a workflow response that is 
 
 ### To create and publish an event that the workflow event subscribes to  
 
-1.  Create a function in the codeunit where you want to raise the event, such as the Purch.-Post codeunit. Name the function to reflect that it is used as the publisher event, such as OnAfterPostPurchaseHeader.  
+1. Create a function in the codeunit where you want to raise the event, such as the Purch.-Post codeunit. Name the function to reflect that it is used as the publisher event, such as OnAfterPostPurchaseHeader.  
 
-2.  In the **Properties** window, fill the fields as described in the following table.  
+2. In the **Properties** window, fill the fields as described in the following table.  
 
-    |Property|Value|  
-    |--------------|-----------|  
-    |Event|Publisher|  
-    |EventType|Select the event type that is relevant for the workflow event, such as Integration. For more information, see [Event Types](Event-Types.md).|  
 
-3.  Open the **C/AL Locals** window to add a local parameter.  
+   | Property  |                                                                    Value                                                                     |
+   |-----------|----------------------------------------------------------------------------------------------------------------------------------------------|
+   |   Event   |                                                                  Publisher                                                                   |
+   | EventType | Select the event type that is relevant for the workflow event, such as Integration. For more information, see [Event Types](Event-Types.md). |
 
-4.  On the **Parameters** tab, fill the fields as described in the following table.  
 
-    |Name|DataType|Subtype|  
-    |----------|--------------|-------------|  
-    |Purchase Header|Record|Purchase Header|  
+3. Open the **C/AL Locals** window to add a local parameter.  
 
- For more information, see [Publishing Events](Publishing-Events.md).  
+4. On the **Parameters** tab, fill the fields as described in the following table.  
+
+   |Name|DataType|Subtype|  
+   |----------|--------------|-------------|  
+   |Purchase Header|Record|Purchase Header|  
+
+   For more information, see [Publishing Events](Publishing-Events.md).  
 
 ### To raise the event  
 
-1.  Go to the code in your solution where you want to raise the event, such as the Purch.-Post codeunit.  
+1. Go to the code in your solution where you want to raise the event, such as the Purch.-Post codeunit.  
 
-2.  In the function, write code that raises the event, such as the following code.  
+2. In the function, write code that raises the event, such as the following code.  
 
-    ```  
-    OnAfterPostPurchaseHeader(PurchaseHeader);  
-    ```  
+   ```  
+   OnAfterPostPurchaseHeader(PurchaseHeader);  
+   ```  
 
- For more information, see [Raising Events](Raising-Events.md).  
+   For more information, see [Raising Events](Raising-Events.md).  
 
 ### To subscribe to the event and implement the workflow event  
 
-1.  Create another function in the codeunit where you created the identification code, MyWorkflowEventCode. Name the function to reflect that it is used to subscribe to and implement the workflow event, such as RunWorkflowOnAfterPostPurchaseHeader.  
+1. Create another function in the codeunit where you created the identification code, MyWorkflowEventCode. Name the function to reflect that it is used to subscribe to and implement the workflow event, such as RunWorkflowOnAfterPostPurchaseHeader.  
 
-2.  In the **Properties** window, fill the fields as described in the following table.  
+2. In the **Properties** window, fill the fields as described in the following table.  
 
-    |Property|Value|  
-    |--------------|-----------|  
-    |Event|Subscriber|  
-    |EventPublisherObject|Select the object that contains the definition of the added event, such as the Purch.-Post codeunit.|  
-    |EventFunction|OnAfterPostPurchaseHeader|  
 
-3.  Choose **Yes** to overwrite your local parameters with the event parameters.  
+   |       Property       |                                                Value                                                 |
+   |----------------------|------------------------------------------------------------------------------------------------------|
+   |        Event         |                                              Subscriber                                              |
+   | EventPublisherObject | Select the object that contains the definition of the added event, such as the Purch.-Post codeunit. |
+   |    EventFunction     |                                      OnAfterPostPurchaseHeader                                       |
 
-4.  Open the **C/AL Locals** window to add a local variable.  
 
-5.  On the **Variables** tab, fill the fields as described in the following table.  
+3. Choose **Yes** to overwrite your local parameters with the event parameters.  
 
-    |Name|DataType|Subtype|  
-    |----------|--------------|-------------|  
-    |WorkflowManagement|Codeunit|Workflow Management|  
+4. Open the **C/AL Locals** window to add a local variable.  
 
-6.  In the function, write code that handles the event, such as the following code.  
+5. On the **Variables** tab, fill the fields as described in the following table.  
 
-    ```  
-    WorkflowManagement.HandleEvent(MyWorkflowEventCode,PurchaseHeader);  
-    ```  
 
- Another task that you can perform at this point is to specify which filter fields appear in the **Workflow Event Conditions** window.  
+   |        Name        | DataType |       Subtype       |
+   |--------------------|----------|---------------------|
+   | WorkflowManagement | Codeunit | Workflow Management |
 
- For more information, see [Subscribing to Events](Subscribing-to-Events.md).  
 
- You have now created a new workflow event. Proceed to create a new workflow response that relates to the workflow event.  
+6. In the function, write code that handles the event, such as the following code.  
+
+   ```  
+   WorkflowManagement.HandleEvent(MyWorkflowEventCode,PurchaseHeader);  
+   ```  
+
+   Another task that you can perform at this point is to specify which filter fields appear in the **Workflow Event Conditions** window.  
+
+   For more information, see [Subscribing to Events](Subscribing-to-Events.md).  
+
+   You have now created a new workflow event. Proceed to create a new workflow response that relates to the workflow event.  
 
 ## Creating a Workflow Response  
  Create a code to identify the workflow response, add the workflow response code to the library, implement the workflow response, and then enable that the workflow response can be executed.  
@@ -269,37 +275,41 @@ If a business scenario requires a workflow event or a workflow response that is 
 
 ### To add a new workflow response option  
 
-1.  Open table 1523, **Workflow Step Argument**, in design mode.  
+1. Open table 1523, **Workflow Step Argument**, in design mode.  
 
-2.  Add a field that reflects your new response option, such as **My New Response Option**. For more information, see [How to: Add Fields to a Table](How-to--Add-Fields-to-a-Table.md).  
+2. Add a field that reflects your new response option, such as **My New Response Option**. For more information, see [How to: Add Fields to a Table](How-to--Add-Fields-to-a-Table.md).  
 
-3.  Open page 1523, **Workflow Response Options**, in design mode.  
+3. Open page 1523, **Workflow Response Options**, in design mode.  
 
-4.  Add a group and a control for the new field.  
+4. Add a group and a control for the new field.  
 
-5.  For the **Visibility** property of the group, enter, for example, `"Response Option Group" = 'GROUP 50000'`.  
+5. For the **Visibility** property of the group, enter, for example, `"Response Option Group" = 'GROUP 50000'`.  
 
-6.  Open the AddMyWorkflowResponsesToLibrary function.  
+6. Open the AddMyWorkflowResponsesToLibrary function.  
 
-7.  In the function code, change `‘GROUP 0’` to `‘GROUP 50000’`.  
+7. In the function code, change `‘GROUP 0’` to `‘GROUP 50000’`.  
 
-8.  To make sure that the new workflow response is updated, delete the **Send a notification.** response from table 1521, **Workflow Response**.  
+8. To make sure that the new workflow response is updated, delete the **Send a notification.** response from table 1521, **Workflow Response**.  
 
-     To use the new option in the MyWorkflowResponse function, proceed to add a local parameter and a local variable.  
+    To use the new option in the MyWorkflowResponse function, proceed to add a local parameter and a local variable.  
 
 9. Open the **C/AL Locals** window to add a local parameter and a local variable.  
 
 10. On the **Parameters** tab, fill the fields as described in the following table.  
 
-    |Name|DataType|Subtype|  
-    |----------|--------------|-------------|  
-    |WorkflowStepInstance|Record|Workflow Step Instance|  
+
+    |         Name         | DataType |        Subtype         |
+    |----------------------|----------|------------------------|
+    | WorkflowStepInstance |  Record  | Workflow Step Instance |
+
 
 11. On the **Variables** tab, fill the fields as described in the following table.  
 
-    |Name|DataType|Subtype|  
-    |----------|--------------|-------------|  
-    |WorkflowStepArgument|Record|Workflow Step Argument|  
+
+    |         Name         | DataType |        Subtype         |
+    |----------------------|----------|------------------------|
+    | WorkflowStepArgument |  Record  | Workflow Step Argument |
+
 
 12. In the function, write code that enables the response, such as the following code:  
 
@@ -315,152 +325,168 @@ If a business scenario requires a workflow event or a workflow response that is 
 
      Change to this code: `MyWorkflowResponse(Variant,ResponseWorkflowStepInstance);`  
 
- You have now created the actual workflow event and response. Proceed to perform various tasks that enable them to be used in workflows.  
+    You have now created the actual workflow event and response. Proceed to perform various tasks that enable them to be used in workflows.  
 
 ## Registering Workflow Event/Response Combinations Needed for the New Workflow Response  
  Add new workflow event/response combinations to table 1509 **WF Event/Response Combination** so that they appear correctly in the **Workflow Events** and **Workflow Responses** windows.  
 
 ### To register workflow event/response combinations needed for the new workflow response  
 
-1.  Open the codeunit that you created in the “To create a workflow response” procedure, My Workflow Responses.  
+1. Open the codeunit that you created in the “To create a workflow response” procedure, My Workflow Responses.  
 
-2.  Create another function in the codeunit. Name it to reflect that it is used to add the workflow event/response combinations to tabel 1509 **WF Event/Response Combination**, such as AddMyWorkflowEventResponseCombinationsToLibrary.  
+2. Create another function in the codeunit. Name it to reflect that it is used to add the workflow event/response combinations to tabel 1509 **WF Event/Response Combination**, such as AddMyWorkflowEventResponseCombinationsToLibrary.  
 
-3.  In the **Properties** window, fill the fields as described in the following table.  
+3. In the **Properties** window, fill the fields as described in the following table.  
 
-    |Property|Value|  
-    |--------------|-----------|  
-    |Event|Subscriber|  
-    |EventPublisherObject|Codeunit Workflow Response Handling|  
-    |EventFunction|OnAddWorkflowResponsePredecessorsToLibrary|  
 
-4.  Choose **Yes** to overwrite your local parameters with the event parameters.  
+   |       Property       |                   Value                    |
+   |----------------------|--------------------------------------------|
+   |        Event         |                 Subscriber                 |
+   | EventPublisherObject |    Codeunit Workflow Response Handling     |
+   |    EventFunction     | OnAddWorkflowResponsePredecessorsToLibrary |
 
-5.  Open the **C/AL Locals** window to add two local variables.  
 
-6.  On the **Variables** tab, fill the fields as described in the following table.  
+4. Choose **Yes** to overwrite your local parameters with the event parameters.  
 
-    |Name|DataType|Subtype|  
-    |----------|--------------|-------------|  
-    |MyWorkflowEvents|Codeunit|My Workflow Events|  
-    |WorkflowResponseHandling|Codeunit|Workflow Response Handling|  
+5. Open the **C/AL Locals** window to add two local variables.  
 
-7.  In the function, write code that registers event/response combinations that you want to support in your application, using a CASE statement, such as the following code.  
+6. On the **Variables** tab, fill the fields as described in the following table.  
 
-    ```  
-    CASE ResponseFunctionName OF  
-      MyWorkflowResponseCode:  
-        WorkflowResponseHandling.AddResponsePredecessor(MyWorkflowResponseCode,MyWorkflowEvents.MyWorkflowEventCode);  
-    END;  
-    ```  
 
- You can also do this work from the user interface on page 1507 **Workflow-Event-Response-Combinations**.  
+   |           Name           | DataType |          Subtype           |
+   |--------------------------|----------|----------------------------|
+   |     MyWorkflowEvents     | Codeunit |     My Workflow Events     |
+   | WorkflowResponseHandling | Codeunit | Workflow Response Handling |
+
+
+7. In the function, write code that registers event/response combinations that you want to support in your application, using a CASE statement, such as the following code.  
+
+   ```  
+   CASE ResponseFunctionName OF  
+     MyWorkflowResponseCode:  
+       WorkflowResponseHandling.AddResponsePredecessor(MyWorkflowResponseCode,MyWorkflowEvents.MyWorkflowEventCode);  
+   END;  
+   ```  
+
+   You can also do this work from the user interface on page 1507 **Workflow-Event-Response-Combinations**.  
 
 ## Registering Workflow Event Hierarchies Needed for the New Workflow Event  
  Add new workflow event/event combinations to table 1509 **WF Event/Response Combination** so that they workflow events appear in the correct hierarchy in the **Workflow Events** window.  
 
 ### To register workflow event hierarchies needed for the new workflow event  
 
-1.  Open the codeunit that you created in the “To create a workflow event” procedure, My Workflow Events.  
+1. Open the codeunit that you created in the “To create a workflow event” procedure, My Workflow Events.  
 
-2.  Create another function in the codeunit. Name it to reflect that it is used to add the workflow event hierarchies to table 1509 **WF Event/Response Combination**, such as AddWorkflowEventHierarchiesToLibrary.  
+2. Create another function in the codeunit. Name it to reflect that it is used to add the workflow event hierarchies to table 1509 **WF Event/Response Combination**, such as AddWorkflowEventHierarchiesToLibrary.  
 
-3.  In the **Properties** window, fill the fields as described in the following table.  
+3. In the **Properties** window, fill the fields as described in the following table.  
 
-    |Property|Value|  
-    |--------------|-----------|  
-    |Event|Subscriber|  
-    |EventPublisherObject|Codeunit Workflow Event Handling|  
-    |EventFunction|OnAddWorkflowEventPredecessorsToLibrary|  
 
-4.  Choose **Yes** to overwrite your local parameters with the event parameters.  
+   |       Property       |                  Value                  |
+   |----------------------|-----------------------------------------|
+   |        Event         |               Subscriber                |
+   | EventPublisherObject |    Codeunit Workflow Event Handling     |
+   |    EventFunction     | OnAddWorkflowEventPredecessorsToLibrary |
 
-5.  Open the **C/AL Locals** window to add a local variable.  
 
-6.  On the **Variables** tab, fill the fields as described in the following table.  
+4. Choose **Yes** to overwrite your local parameters with the event parameters.  
 
-    |Name|DataType|Subtype|  
-    |----------|--------------|-------------|  
-    |WorkflowEventHandling|Codeunit|Workflow Event Handling|  
+5. Open the **C/AL Locals** window to add a local variable.  
 
-7.  To make sure that the new workflow event is updated, delete the **A purchase header is posted.** event from table 1520 **Workflow Event**.  
+6. On the **Variables** tab, fill the fields as described in the following table.  
 
-8.  In the function, write code that registers event hierarchies that you want to support in your application, using a CASE statement, such as the following code.  
 
-    ```  
-    CASE EventFunctionName OF  
-      MyWorkflowEventCode:  
-        WorkflowEventHandling.AddEventPredecessor(MyWorkflowEventCode,WorkflowEventHandling.[your desired predecessor event code]);  
-    END;  
-    ```  
+   |         Name          | DataType |         Subtype         |
+   |-----------------------|----------|-------------------------|
+   | WorkflowEventHandling | Codeunit | Workflow Event Handling |
 
- You can also do this work from the user interface on page 1506 **Workflow-Event-Hierarchies**.  
+
+7. To make sure that the new workflow event is updated, delete the **A purchase header is posted.** event from table 1520 **Workflow Event**.  
+
+8. In the function, write code that registers event hierarchies that you want to support in your application, using a CASE statement, such as the following code.  
+
+   ```  
+   CASE EventFunctionName OF  
+     MyWorkflowEventCode:  
+       WorkflowEventHandling.AddEventPredecessor(MyWorkflowEventCode,WorkflowEventHandling.[your desired predecessor event code]);  
+   END;  
+   ```  
+
+   You can also do this work from the user interface on page 1506 **Workflow-Event-Hierarchies**.  
 
 ## Creating Table Relations Between Entities Used when the New Workflow Event and Response are Used  
  Workflows events can be executed on different types of records. To keep track of these, you must define relations between the involved records.  
 
 ### To create table relations between entities that are processed when the new workflow event and response are used in workflows  
 
-1.  Open the codeunit that you created in the “To create a workflow event” procedure, My Workflow Events.  
+1. Open the codeunit that you created in the “To create a workflow event” procedure, My Workflow Events.  
 
-2.  Create another function in the codeunit. Name it to reflect that it is used add workflow table relations in table 1505 **Workflow Table Relation**, such as AddWorkflowTableRelationsToLibrary.  
+2. Create another function in the codeunit. Name it to reflect that it is used add workflow table relations in table 1505 **Workflow Table Relation**, such as AddWorkflowTableRelationsToLibrary.  
 
-3.  In the **Properties** window, fill the fields as described in the following table.  
+3. In the **Properties** window, fill the fields as described in the following table.  
 
-    |Property|Value|  
-    |--------------|-----------|  
-    |Event|Subscriber|  
-    |EventPublisherObject|Codeunit Workflow Event Handling|  
-    |EventFunction|OnAddWorkflowTableRelationsToLibrary|  
 
-4.  Open the **C/AL Locals** window to add a local variable.  
+   |       Property       |                Value                 |
+   |----------------------|--------------------------------------|
+   |        Event         |              Subscriber              |
+   | EventPublisherObject |   Codeunit Workflow Event Handling   |
+   |    EventFunction     | OnAddWorkflowTableRelationsToLibrary |
 
-5.  On the **Variables** tab, fill the fields as described in the following table.  
 
-    |Name|DataType|Subtype|  
-    |----------|--------------|-------------|  
-    |WorkflowSetup|Codeunit|Workflow Setup|  
+4. Open the **C/AL Locals** window to add a local variable.  
 
-6.  To make sure that the new workflow event is updated, delete the **A purchase header is posted.** event from the table 1520 **Workflow Event**.  
+5. On the **Variables** tab, fill the fields as described in the following table.  
 
-7.  In the function, write code that registers table relations that you want to support in your application, such as the following code.  
 
-    ```  
-    WorkflowSetup.InsertTableRelation(DATABASE::”Purchase Header”,1,DATABASE::”Approval Entry”,2);  
-    ```  
+   |     Name      | DataType |    Subtype     |
+   |---------------|----------|----------------|
+   | WorkflowSetup | Codeunit | Workflow Setup |
 
- You can also do this work from the user interface on page 1509 **Workflow Table-Relations**.  
+
+6. To make sure that the new workflow event is updated, delete the **A purchase header is posted.** event from the table 1520 **Workflow Event**.  
+
+7. In the function, write code that registers table relations that you want to support in your application, such as the following code.  
+
+   ```  
+   WorkflowSetup.InsertTableRelation(DATABASE::”Purchase Header”,1,DATABASE::”Approval Entry”,2);  
+   ```  
+
+   You can also do this work from the user interface on page 1509 **Workflow Table-Relations**.  
 
 ## Adding a FactBox that Shows How a Record Participates in a Workflow  
  Add a FactBox to relevant pages so that users can view when and how the new workflow event and response participate in workflows for records shown on the page.  
 
 ### To add a FactBox that shows how a record participates in a workflow  
 
-1.  Open, in design mode, the page from where users need to see related workflows that use the new workflow event and response.  
+1. Open, in design mode, the page from where users need to see related workflows that use the new workflow event and response.  
 
-2.  Add a FactBox. Name it WorkflowStatus. For more information, see [How to: Add a FactBox to a Page](How-to--Add-a-FactBox-to-a-Page.md).  
+2. Add a FactBox. Name it WorkflowStatus. For more information, see [How to: Add a FactBox to a Page](How-to--Add-a-FactBox-to-a-Page.md).  
 
-3.  Open the **C/AL Globals** window to add a global variable.  
+3. Open the **C/AL Globals** window to add a global variable.  
 
-4.  On the **Variables** tab, fill the fields as described in the following table.  
+4. On the **Variables** tab, fill the fields as described in the following table.  
 
-    |Name|DataType|Subtype|  
-    |----------|--------------|-------------|  
-    |ShowWorkflowStatus|Boolean||  
 
-5.  To make the FactBox visible, in the **Properties** window, fill the fields as described in the following table.  
+   |        Name        | DataType | Subtype |
+   |--------------------|----------|---------|
+   | ShowWorkflowStatus | Boolean  |         |
 
-    |Property|Value|  
-    |--------------|-----------|  
-    |Visible|ShowWorkflowStatus|  
 
-6.  On the page, add the following code to the OnAfterGetCurrentRecord function to make the FactBox find the workflow that relates to the record.  
+5. To make the FactBox visible, in the **Properties** window, fill the fields as described in the following table.  
 
-    ```  
-    ShowWorkflowStatus := CurrPage.WorkflowStatus.PAGE.SetFilterOnWorkflowRecord(RECORDID);  
-    ```  
 
- You have now enabled a new workflow scenario by implementing the required workflow event and response in the application code. The workflow administrator can now select the workflow event and workflow response from the **Workflow** page to define new or edit existing workflows. For more information, see [How to: Create Workflows](https://docs.microsoft.com/en-us/dynamics-nav-app/across-how-to-create-workflows) in the application help.
+   | Property |       Value        |
+   |----------|--------------------|
+   | Visible  | ShowWorkflowStatus |
+
+
+6. On the page, add the following code to the OnAfterGetCurrentRecord function to make the FactBox find the workflow that relates to the record.  
+
+   ```  
+   ShowWorkflowStatus := CurrPage.WorkflowStatus.PAGE.SetFilterOnWorkflowRecord(RECORDID);  
+   ```  
+
+   You have now enabled a new workflow scenario by implementing the required workflow event and response in the application code. The workflow administrator can now select the workflow event and workflow response from the **Workflow** page to define new or edit existing workflows. For more information, see [How to: Create Workflows](https://docs.microsoft.com/en-us/dynamics-nav-app/across-how-to-create-workflows) in the application help.
 
 ## See Also  
  [Workflow](/dynamics-nav-app/across-workflow)   

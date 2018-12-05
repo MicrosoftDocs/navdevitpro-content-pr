@@ -24,6 +24,7 @@ PATCH /businesscentral/companies({id})/salesQuotes({id})/salesQuoteLines(documen
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization |Bearer {token}. Required.|

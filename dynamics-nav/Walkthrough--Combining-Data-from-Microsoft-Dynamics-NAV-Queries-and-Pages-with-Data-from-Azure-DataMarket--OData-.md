@@ -142,17 +142,17 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 #### To import [!INCLUDE[navnow](includes/navnow_md.md)] data into Excel  
   
-1.  Start Microsoft Excel. In Excel, on the **PowerPivot** tab, in the **Data Model** group, choose **Manage** to open the **PowerPivot Window**.  
+1. Start Microsoft Excel. In Excel, on the **PowerPivot** tab, in the **Data Model** group, choose **Manage** to open the **PowerPivot Window**.  
   
-2.  In PowerPivot, on the **Home** tab, choose **Get External Data**, choose **From Data Service**, and then choose **From OData Data Feed**.  
+2. In PowerPivot, on the **Home** tab, choose **Get External Data**, choose **From Data Service**, and then choose **From OData Data Feed**.  
   
-3.  In the **Data Feed Url** field, enter the OData URI, such as **http://localhost:7048/DynamicsNAV72/OData**. Choose the **Next** button.  
+3. In the **Data Feed Url** field, enter the OData URI, such as **http://localhost:7048/DynamicsNAV72/OData**. Choose the **Next** button.  
   
-4.  Verify that **Customer** and **SalesOrderInfo** appear in the **Source Table** column. Place a check mark in the left column next to these two rows, and then choose **Finish**.  
+4. Verify that **Customer** and **SalesOrderInfo** appear in the **Source Table** column. Place a check mark in the left column next to these two rows, and then choose **Finish**.  
   
-5.  After you see the **Success** message, choose the **Close** button.  
+5. After you see the **Success** message, choose the **Close** button.  
   
- You should now see data from the Customer page and the SalesOrderInfo query displayed as Excel workbooks. You can switch between pages using the tabs at the bottom of the Excel window.  
+   You should now see data from the Customer page and the SalesOrderInfo query displayed as Excel workbooks. You can switch between pages using the tabs at the bottom of the Excel window.  
   
 ## Enhancing the [!INCLUDE[navnow](includes/navnow_md.md)] Data by Adding a Column  
  Examine the SalesOrderInfo workbook in Excel. Notice that it has a Quantity column and an Amount column. In your final output you may want to show total sales per company, this is the Quantity multiplied by Amount. An easy way to achieve that is to add a column to the workbook that calculates that product.  
@@ -199,35 +199,35 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 #### To import data from Azure DataMarket  
   
-1.  In PowerPivot, on the **Home** tab, in the **Get External Data**, choose **From Data Service**, and then choose **From \(Windows\) Azure Marketplace**.  
+1. In PowerPivot, on the **Home** tab, in the **Get External Data**, choose **From Data Service**, and then choose **From \(Windows\) Azure Marketplace**.  
   
-     This opens a web page titled Microsoft Azure Marketplace Catalog which shows the available Azure Marketplace datasets.  
+    This opens a web page titled Microsoft Azure Marketplace Catalog which shows the available Azure Marketplace datasets.  
   
-2.  Choose **My Data** and use your Microsoft account to create a free Azure Marketplace account.  
+2. Choose **My Data** and use your Microsoft account to create a free Azure Marketplace account.  
   
-3.  After you are signed up, choose **Data** to return to the list of available datasets.  
+3. After you are signed up, choose **Data** to return to the list of available datasets.  
   
-4.  In the left panel, choose **Free**, choose **Demographics**, and then scroll down to choose **World Development Indicators**.  
+4. In the left panel, choose **Free**, choose **Demographics**, and then scroll down to choose **World Development Indicators**.  
   
-5.  Read about the dataset, and then choose **SIGN UP** to subscribe to this data feed. On the **Subscription** page, choose **SIGN UP** again.  
+5. Read about the dataset, and then choose **SIGN UP** to subscribe to this data feed. On the **Subscription** page, choose **SIGN UP** again.  
   
-6.  On the **Thank You** page, choose **Explore This Dataset**.  
+6. On the **Thank You** page, choose **Explore This Dataset**.  
   
-     This takes you to a **Build Your Query** page. In the Build Query area on the right side, verify these values:  
+    This takes you to a **Build Your Query** page. In the Build Query area on the right side, verify these values:  
   
-    -   **Query**: GetCountries  
+   -   **Query**: GetCountries  
   
-    -   **Format**: Atom  
+   -   **Format**: Atom  
   
-    -   **Language Code**: en  
+   -   **Language Code**: en  
   
-7.  Choose the **Run Query** button.  
+7. Choose the **Run Query** button.  
   
-     You now see a view of the table data. Notice that the table contains two-letter country/region codes, country/region names, and additional data about the countries/regions listed. This data has enough in common with your [!INCLUDE[navnow](includes/navnow_md.md)] data to support a link between the two.  
+    You now see a view of the table data. Notice that the table contains two-letter country/region codes, country/region names, and additional data about the countries/regions listed. This data has enough in common with your [!INCLUDE[navnow](includes/navnow_md.md)] data to support a link between the two.  
   
-8.  Choose **Export** from the narrow column on the right side of the page. Choose **Excel PowerPivot**, and then choose **Download**.  
+8. Choose **Export** from the narrow column on the right side of the page. Choose **Excel PowerPivot**, and then choose **Download**.  
   
-     In response to the question, **Do you want to open or save ServiceQuery.atomsvc from datamarket.azure.com?**, choose **Open**.  
+    In response to the question, **Do you want to open or save ServiceQuery.atomsvc from datamarket.azure.com?**, choose **Open**.  
   
 9. In Excel, a dialog box prompts that you select a workbook to import the atom feed to.  
   
@@ -249,15 +249,15 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 15. Choose the **Close** button.  
   
- You now have three workbooks in PowerPivot:  
+    You now have three workbooks in PowerPivot:  
   
--   **Customer**, which has data from a [!INCLUDE[navnow](includes/navnow_md.md)] page.  
+- **Customer**, which has data from a [!INCLUDE[navnow](includes/navnow_md.md)] page.  
   
--   **SalesOrderInfo**, which has data from a [!INCLUDE[navnow](includes/navnow_md.md)] query.  
+- **SalesOrderInfo**, which has data from a [!INCLUDE[navnow](includes/navnow_md.md)] query.  
   
--   **World Development Indicators**, which has data from Azure Marketplace.  
+- **World Development Indicators**, which has data from Azure Marketplace.  
   
- These are the data sources that you will work with to create your pivot table.  
+  These are the data sources that you will work with to create your pivot table.  
   
 ## Creating Relationships Between Data Sources  
  By creating relationships between your data sources in Excel, you make it possible to display data from multiple sources in the same pivot table.  
@@ -345,13 +345,13 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
 ## Next Steps  
  Viktor’s results show that all customers are in countries/regions that are categorized as “High income.” For a different result, open page 22 Customer List in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and reassign some companies to countries/regions that are in other income level categories. Then do the following:  
   
-1.  Go the Customer workbook in PowerPivot, choose **Refresh**, and then choose **Refresh All**.  
+1. Go the Customer workbook in PowerPivot, choose **Refresh**, and then choose **Refresh All**.  
   
-2.  Go to your pivot table, choose **Refresh All**, and then choose **Refresh All**.  
+2. Go to your pivot table, choose **Refresh All**, and then choose **Refresh All**.  
   
- Now the final pivot table has a different result, as shown in the following example.  
+   Now the final pivot table has a different result, as shown in the following example.  
   
- ![Final pivot table after modification](media/FinalPivotDoctor.JPG "FinalPivotDoctor")  
+   ![Final pivot table after modification](media/FinalPivotDoctor.JPG "FinalPivotDoctor")  
   
 ## See Also  
  [OData Web Services](OData-Web-Services.md)   

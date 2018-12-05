@@ -30,7 +30,8 @@ Represents a dimension line in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 |[DELETE dimensionLines](../api/dynamics_dimensionline_delete.md)|none          |Deletes a dimension line object|
 
 ## Properties
-| Property	     | Type	                 |Description                                               |
+
+| Property       | Type                  |Description                                               |
 |:---------------|:----------------------|:---------------------------------------------------------|
 |parentId        |GUID                   |The ID of the parent entity. Non editable.                |
 |id              |GUID                   |The unique ID of the dimension line. Non editable.        |
@@ -64,7 +65,6 @@ Here is a JSON representation of the resource.
   "valueCode": "String",
   "valueDisplayName": "String"
 }
-
 ```
 
 ## See also

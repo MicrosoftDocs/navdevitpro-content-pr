@@ -25,12 +25,14 @@ This section describes all of the objects that are available with the AL Languag
 > [!INCLUDE[d365fin_navnow_supported_md](includes/d365fin_navnow_supported_md.md)]
 
 ## Defining the AL data model
+
 |To | See |
 |---|-----|
 |Learn about how to define new table objects for your extension.|[Table Object](devenv-table-object.md)|
 |Learn about how to modify and extend existing table objects. |[Table Extension Object](devenv-table-ext-object.md)|
 
 ## Presenting the AL data
+
 |To |See |
 |---|----|
 |Learn about how to create new page objects for your extension.|[Page Object](devenv-page-object.md)|
@@ -43,6 +45,7 @@ This section describes all of the objects that are available with the AL Languag
 |Learn about how to create control add-in objects.|[Control Add-In Object](devenv-control-addin-object.md)|
 
 ## Writing AL code
+
 |To |See |
 |---|----|
 |Learn about writing codeunits for your extension.|[Codeunit Object](devenv-codeunit-object.md)|

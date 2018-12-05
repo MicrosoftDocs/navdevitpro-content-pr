@@ -47,13 +47,13 @@ Automation lets you use the capabilities and features of Microsoft Office produc
 ### Where to Place Automation Code  
  In this walkthrough, you put all code in a separate codeunit that is called from a menu item on the **Customer Card** page. You must consider the following issues when you are deciding where to place the code that uses Automation:  
   
--   The Automation server must be installed on the computer that compiles an object that uses Automation. If you must recompile and modify an object on a computer that does not have the Automation server installed, then you must modify the code to compile it again. We recommend that you isolate code that uses Automation in separate codeunits.  
+- The Automation server must be installed on the computer that compiles an object that uses Automation. If you must recompile and modify an object on a computer that does not have the Automation server installed, then you must modify the code to compile it again. We recommend that you isolate code that uses Automation in separate codeunits.  
   
--   Performance can be an issue if extra work is needed to create an Automation server with the **CREATE** system call. If the Automation server is to be used repeatedly, then you will gain better performance by designing your code so that the server is created only once instead of making multiple **CREATE** and **CLEAR** calls\).  
+- Performance can be an issue if extra work is needed to create an Automation server with the **CREATE** system call. If the Automation server is to be used repeatedly, then you will gain better performance by designing your code so that the server is created only once instead of making multiple **CREATE** and **CLEAR** calls\).  
   
- These two issues may clash, and you will have to make some tradeoffs that are based on the actual context in which your code will be used. In this walkthrough, you are not putting the Automation code on the customer card but are isolating it in a separate codeunit. Performance can be improved by putting the code on the customer card because you do not have to open and close Word for each letter that is created in the session.  
+  These two issues may clash, and you will have to make some tradeoffs that are based on the actual context in which your code will be used. In this walkthrough, you are not putting the Automation code on the customer card but are isolating it in a separate codeunit. Performance can be improved by putting the code on the customer card because you do not have to open and close Word for each letter that is created in the session.  
   
- You can work around this problem. If Word is already open when it is called from the code, then the running instance is reused. You can manually open Word or do not close Word after creating the first letter.  
+  You can work around this problem. If Word is already open when it is called from the code, then the running instance is reused. You can manually open Word or do not close Word after creating the first letter.  
   
 ### Using Word in This Example  
  You will extract and transfer data one customer at a time. You also will initiate this processing and the subsequent processing in Word from the customer card.  
@@ -147,53 +147,53 @@ Automation lets you use the capabilities and features of Microsoft Office produc
   
 #### To write the C/AL code  
   
-1.  In the C/AL Editor, add the following lines of code to the **OnRun** section.  
+1. In the C/AL Editor, add the following lines of code to the **OnRun** section.  
   
-    ```  
-    CALCFIELDS("Sales (LCY)");  
-    CompanyInfo.GET;  
+   ```  
+   CALCFIELDS("Sales (LCY)");  
+   CompanyInfo.GET;  
   
-    ```  
+   ```  
   
-2.  To create an instance of Word before using it, enter the following line of code.  
+2. To create an instance of Word before using it, enter the following line of code.  
   
-    ```  
-    CREATE(wdApp, FALSE, TRUE);  
-    ```  
+   ```  
+   CREATE(wdApp, FALSE, TRUE);  
+   ```  
   
-     This statement creates the Automation object with the `wdApp` variable.  
+    This statement creates the Automation object with the `wdApp` variable.  
   
-    -   The first Boolean parameter in the statement \(`FALSE`\) tells the `CREATE` function to try to reuse an already running instance of the Automation server that is referenced by Automation before creating a new instance. If you change this to `TRUE`, then the `CREATE` function always creates a new instance of the Automation server.  
+   - The first Boolean parameter in the statement \(`FALSE`\) tells the `CREATE` function to try to reuse an already running instance of the Automation server that is referenced by Automation before creating a new instance. If you change this to `TRUE`, then the `CREATE` function always creates a new instance of the Automation server.  
   
-    -   The second Boolean parameter in the statement creates the Automation object on the client. This is necessary to use this codeunit on a page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+   - The second Boolean parameter in the statement creates the Automation object on the client. This is necessary to use this codeunit on a page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
      For more information, see [CREATE Function \(Automation\)](CREATE-Function--Automation-.md).  
   
-3.  Enter the following lines of code to add a new document to Word that uses the template that you designed earlier. If required, replace `C:\Documents and Settings\All Users\Templates` with the correct folder path to the template that you defined in the procedure [Creating the Word Template for Use by Automation](#CreateTemplate).  
+3. Enter the following lines of code to add a new document to Word that uses the template that you designed earlier. If required, replace `C:\Documents and Settings\All Users\Templates` with the correct folder path to the template that you defined in the procedure [Creating the Word Template for Use by Automation](#CreateTemplate).  
   
-    ```  
-    TemplateName := 'C:\Documents and Settings\All Users\Templates\Discount.dotx';  
-    wdDoc := wdApp.Documents.Add(TemplateName);  
-    wdApp.ActiveDocument.Fields.Update;  
-    ```  
+   ```  
+   TemplateName := 'C:\Documents and Settings\All Users\Templates\Discount.dotx';  
+   wdDoc := wdApp.Documents.Add(TemplateName);  
+   wdApp.ActiveDocument.Fields.Update;  
+   ```  
   
-     Because the `Add` method of the `Documents` collection requires that you pass the path to the template by reference, you must set up the `TemplateName` variable to hold this information. You will get a compilation error if you put the path into the call as a literal string.  
+    Because the `Add` method of the `Documents` collection requires that you pass the path to the template by reference, you must set up the `TemplateName` variable to hold this information. You will get a compilation error if you put the path into the call as a literal string.  
   
-     The `Documents` property returns a Documents collection that represents all open documents. You can also see that the Documents collection object has an Add method, and that the Add method has the following syntax.  
+    The `Documents` property returns a Documents collection that represents all open documents. You can also see that the Documents collection object has an Add method, and that the Add method has the following syntax.  
   
-     `expression.Add(Template, NewTemplate, Document Type, Visible)`  
+    `expression.Add(Template, NewTemplate, Document Type, Visible)`  
   
-     `expression` is a required argument, and it must be an expression that returns a Documents object. All the arguments are optional. You will use `Template` to open a new document that is based on your template.  
+    `expression` is a required argument, and it must be an expression that returns a Documents object. All the arguments are optional. You will use `Template` to open a new document that is based on your template.  
   
-     For the syntax in the C/AL Symbol Menu, note that the Documents property returns an object of type DOCUMENTS, which is a user-defined type. The property returns a Documents class or IDispatch interface. This information helps the compiler perform a better type check during compilation. The following statement can also pass both the compile-time and the run-time type checks.  
+    For the syntax in the C/AL Symbol Menu, note that the Documents property returns an object of type DOCUMENTS, which is a user-defined type. The property returns a Documents class or IDispatch interface. This information helps the compiler perform a better type check during compilation. The following statement can also pass both the compile-time and the run-time type checks.  
   
-     `wdDoc := wdApp.Documents.Add(TemplateName);`  
+    `wdDoc := wdApp.Documents.Add(TemplateName);`  
   
-     Finally, the `Add` method returns a Document class. While you did not need to declare a C/AL variable for the interim `Documents` class, you have declared a variable for the `wdDoc` return value,.  
+    Finally, the `Add` method returns a Document class. While you did not need to declare a C/AL variable for the interim `Documents` class, you have declared a variable for the `wdDoc` return value,.  
   
-     The third line contains a call that must be made to ensure that the template works as intended.  
+    The third line contains a call that must be made to ensure that the template works as intended.  
   
-     `wdApp.ActiveDocument.Fields.Update;`  
+    `wdApp.ActiveDocument.Fields.Update;`  
   
 ## Transferring Data to Word  
  Now you can transfer the actual data from the Customer record to the placeholder fields in the Word document.  

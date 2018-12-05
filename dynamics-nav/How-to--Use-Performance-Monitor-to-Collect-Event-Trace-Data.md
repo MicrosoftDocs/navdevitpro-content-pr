@@ -15,40 +15,40 @@ This topic describes how to use Windows Performance Monitor to collect event tra
   
 ### To create a Data Collector Set for collecting [!INCLUDE[navnow](includes/navnow_md.md)] trace event data  
   
-1.  Start Windows Performance Monitor.  
+1. Start Windows Performance Monitor.  
   
-    -   Choose **Start**, in the **Search** box, type **perfmon**, and then choose the related link.  
+   -   Choose **Start**, in the **Search** box, type **perfmon**, and then choose the related link.  
   
-2.  In the navigation tree, expand **Data Collector Sets**, right-click **User-defined**, choose **New**, and then choose **Data Collector Set**.  
+2. In the navigation tree, expand **Data Collector Sets**, right-click **User-defined**, choose **New**, and then choose **Data Collector Set**.  
   
-3.  On the **Create new Data Collector Set Wizard** page, enter a name for the new data collector set, select **Create manually \(Advanced\)**, and then choose the **Next** button.  
+3. On the **Create new Data Collector Set Wizard** page, enter a name for the new data collector set, select **Create manually \(Advanced\)**, and then choose the **Next** button.  
   
-4.  On the **What type of data do you want to include** page, select the **Event trace data** check box, and then choose the **Next** button.  
+4. On the **What type of data do you want to include** page, select the **Event trace data** check box, and then choose the **Next** button.  
   
-5.  On the **Which event trace providers would you like to enable** page, choose the **Add** button to add a provider.  
+5. On the **Which event trace providers would you like to enable** page, choose the **Add** button to add a provider.  
   
-6.  In the **Event Trace Providers** list, select **Microsoft-DynamicsNav-Server**, and then choose the **OK** button.  
+6. In the **Event Trace Providers** list, select **Microsoft-DynamicsNav-Server**, and then choose the **OK** button.  
   
-7.  If you want to collect data for all trace events, choose the **Next** button. If you want to collect data on specific trace events, do the following:  
+7. If you want to collect data for all trace events, choose the **Next** button. If you want to collect data on specific trace events, do the following:  
   
-    1.  In the **Properties** list, select **Keywords \(Any\)**, and then choose the **Edit** button.  
+   1.  In the **Properties** list, select **Keywords \(Any\)**, and then choose the **Edit** button.  
   
-    2.  On the **Property** page, in the **Manual** box, type the keyword decimal value for the trace event. For a list of keyword values for trace events, see [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md).  
+   2.  On the **Property** page, in the **Manual** box, type the keyword decimal value for the trace event. For a list of keyword values for trace events, see [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md).  
   
-         For example, if you want to collect data on service call trace events, then type **4**. If you want to collect data on more than one trace event, add the keyword values for each trace event and then use the sum in the **Manual** box. For example, if you want to collect data on service calls \(keyword decimal value = 4\) and C/AL functions \(keyword decimal value = 8\), then use the value **12**.  
+        For example, if you want to collect data on service call trace events, then type **4**. If you want to collect data on more than one trace event, add the keyword values for each trace event and then use the sum in the **Manual** box. For example, if you want to collect data on service calls \(keyword decimal value = 4\) and C/AL functions \(keyword decimal value = 8\), then use the value **12**.  
   
-        > [!NOTE]  
-        >  Performance Monitor will automatically convert the value to hexadecimal, such as 0x4 or 0xC. You can also enter the keyword hexadecimal values directly.  
+       > [!NOTE]  
+       >  Performance Monitor will automatically convert the value to hexadecimal, such as 0x4 or 0xC. You can also enter the keyword hexadecimal values directly.  
   
-    3.  Choose the **OK** button, and then **Next** button.  
+   3.  Choose the **OK** button, and then **Next** button.  
   
-8.  On the **Where would you like the data to be stored** page, set the **Root directory** box to the folder where you want to save the event trace log file that is generated when you run the Data Collector Set.  
+8. On the **Where would you like the data to be stored** page, set the **Root directory** box to the folder where you want to save the event trace log file that is generated when you run the Data Collector Set.  
   
 9. Choose the **Finish** button to complete the wizard  
   
      The new Data Collector Set appears under **User Defined** in the navigation pane.  
   
- Complete the next procedure to increase trace buffer settings to make sure that events are not dropped when collecting trace event data.  
+   Complete the next procedure to increase trace buffer settings to make sure that events are not dropped when collecting trace event data.  
   
 ### To change the Data Collector Set trace buffers  
   
@@ -72,13 +72,13 @@ This topic describes how to use Windows Performance Monitor to collect event tra
   
 ##  <a name="StartDataCollectorSet"></a> To start and stop a Data Collector Set  
   
--   To start to collect data, right-click the Data Collector Set, and then choose **Start**.  
+- To start to collect data, right-click the Data Collector Set, and then choose **Start**.  
   
--   To stop collecting data, right-click the Data Collector Set, and then choose **Stop**.  
+- To stop collecting data, right-click the Data Collector Set, and then choose **Stop**.  
   
- For information about how to schedule a time to start and stop collecting data, see [Schedule Data Collection in Windows Performance Monitor](http://technet.microsoft.com/en-us/library/cc722312.aspx).  
+  For information about how to schedule a time to start and stop collecting data, see [Schedule Data Collection in Windows Performance Monitor](http://technet.microsoft.com/en-us/library/cc722312.aspx).  
   
- The collected event trace data is stored in an event trace log \(.etl\) file in the location that you specified. You can view the data in the log file by using various industry-standard tools, such as PerfView. For information about how to use PerfView to view the event trace data, see [How to: Use PerfView to View Event Trace Data](How-to--Use-PerfView-to-View-Event-Trace-Data.md).  
+  The collected event trace data is stored in an event trace log \(.etl\) file in the location that you specified. You can view the data in the log file by using various industry-standard tools, such as PerfView. For information about how to use PerfView to view the event trace data, see [How to: Use PerfView to View Event Trace Data](How-to--Use-PerfView-to-View-Event-Trace-Data.md).  
   
 ## See Also  
  [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   

@@ -19,7 +19,7 @@ redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-a
 # EXECUTE Method
 Runs a report in preview or processing-only mode without showing the request page in the client. The method gets the request page parameter values as an input parameter string from a [RUNREQUESTPAGE Method](devenv-RUNREQUESTPAGE-Method.md) call.  
 
->   [!NOTE]  
+> [!NOTE]
 >   The OnOpen and OnClose triggers on the request page will run even though the request page is not shown.  
 
 ## Syntax  

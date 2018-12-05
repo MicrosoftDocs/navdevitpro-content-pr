@@ -47,25 +47,25 @@ In this walkthrough, you learn how to create a card page to display customer det
   
 #### To create a card page  
   
-1.  In [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1. In [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
-2.  In Object Designer, choose **Page**, and then choose **New**. The **New Page** window opens.  
+2. In Object Designer, choose **Page**, and then choose **New**. The **New Page** window opens.  
   
-3.  In the **Table** text box, choose the up arrow, select the **Customer** table, and then choose the **OK** button.  
+3. In the **Table** text box, choose the up arrow, select the **Customer** table, and then choose the **OK** button.  
   
-4.  Choose **Create blank page**, and then choose the **OK** button.  
+4. Choose **Create blank page**, and then choose the **OK** button.  
   
-     The new page opens in Page Designer.  
+    The new page opens in Page Designer.  
   
-5.  On the **View** menu, choose **Properties**.  
+5. On the **View** menu, choose **Properties**.  
   
-6.  In the **PageType** property, and set the **Value** column to **Card**.  
+6. In the **PageType** property, and set the **Value** column to **Card**.  
   
-7.  Close the **Properties** window.  
+7. Close the **Properties** window.  
   
-8.  In Page Designer, in the first row, and in the **Name** column, enter **CustomerCardContainer**, and accept the default values for **Type** and **Subtype** fields.  
+8. In Page Designer, in the first row, and in the **Name** column, enter **CustomerCardContainer**, and accept the default values for **Type** and **Subtype** fields.  
   
- You have now successfully created a card page. However, you cannot save your card page until you have added at least one control to your page.  
+   You have now successfully created a card page. However, you cannot save your card page until you have added at least one control to your page.  
   
 ## Adding a Control to Display Customer Details  
  Simon wants to add a basic control to his card page to display a selection of fields from the customer table in a group that can be expanded or collapsed. He knows that all card pages use the FastTab control to display data in this way, so he decides to add a FastTab control to his blank card page.  
@@ -131,21 +131,21 @@ In this walkthrough, you learn how to create a card page to display customer det
   
 #### To promote key customer data to the FastTab header  
   
-1.  Open Object Designer if it is not already open.  
+1. Open Object Designer if it is not already open.  
   
-2.  In Object Designer, select page 50002, **Kevin's Customer Card**, which you created earlier, and choose **Design** to open the card page.  
+2. In Object Designer, select page 50002, **Kevin's Customer Card**, which you created earlier, and choose **Design** to open the card page.  
   
-3.  In Page Designer, under **CustomerCardGroup**, select a field in one of the FastTab groups. For example, in the **General** group, you can select **Contact**. This field will be displayed on the **General** FastTab.  
+3. In Page Designer, under **CustomerCardGroup**, select a field in one of the FastTab groups. For example, in the **General** group, you can select **Contact**. This field will be displayed on the **General** FastTab.  
   
-4.  With this row selected, on the **View** menu, choose **Properties**.  
+4. With this row selected, on the **View** menu, choose **Properties**.  
   
-5.  In the **Importance** property, set the **Value** field to **Promoted**.  
+5. In the **Importance** property, set the **Value** field to **Promoted**.  
   
-6.  Close the **Properties** window and close Page Designer. The **Save Changes** dialog box is displayed.  
+6. Close the **Properties** window and close Page Designer. The **Save Changes** dialog box is displayed.  
   
-7.  Choose **Yes** to save and compile **Kevin's Customer Card** page.  
+7. Choose **Yes** to save and compile **Kevin's Customer Card** page.  
   
- You have now successfully promoted **Contact** to the FastTab header.  
+   You have now successfully promoted **Contact** to the FastTab header.  
   
 ## Running the Page  
  Test your new card page by running the RoleTailored client.  

@@ -62,15 +62,15 @@ The media type, sometimes referred to as the MIME type, is an Internet standard 
 ### General procedure for adding Media to Records  
 The general procedure for setting up media on records is as follows:  
 
-1.  Obtain the media file or files that you want to use on the record.  
+1. Obtain the media file or files that you want to use on the record.  
 
-2.  <!--NAV In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]-->In AL, modify the table object to include a field that has the data type **Media** or **MediaSet**.  
+2. <!--NAV In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]-->In AL, modify the table object to include a field that has the data type <strong>Media</strong> or <strong>MediaSet</strong>.  
 
-3.  Add AL code that imports the media on the field.  
+3. Add AL code that imports the media on the field.  
 
-    The **Media** and **MediaSet** data types support several methods that you can use to manage the media on records. See the next section for a complete list of methods with a link to more details, such as usage, parameters and sample code.  
+   The **Media** and **MediaSet** data types support several methods that you can use to manage the media on records. See the next section for a complete list of methods with a link to more details, such as usage, parameters and sample code.  
 
-    For example, you can create a codeunit that calls one of the import methods, or add a page action that calls one of the methods.  
+   For example, you can create a codeunit that calls one of the import methods, or add a page action that calls one of the methods.  
 
 ### AL methods  
 The following table provides an overview of the methods that are related to the Media and MediaSet data types.  

@@ -40,25 +40,25 @@ This topic describes how to set up and configure [!INCLUDE[crm_md](includes/crm_
 
 #### To install the [!INCLUDE[navnow_md](includes/navnow_md.md)] solution  
 
-1.  From [!INCLUDE[navnow_md](includes/navnow_md.md)] installation media \(DVD\), copy the DynamicsNAVIntegrationSolution.zip file to your computer.  
+1. From [!INCLUDE[navnow_md](includes/navnow_md.md)] installation media \(DVD\), copy the DynamicsNAVIntegrationSolution.zip file to your computer.  
 
-     The DynamicsNAVIntegrationSolution.zip file is located in the **CrmCustomization** folder. This file is the solution package.  
+    The DynamicsNAVIntegrationSolution.zip file is located in the **CrmCustomization** folder. This file is the solution package.  
 
-2.  In [!INCLUDE[crm_md](includes/crm_md.md)], import the DynamicsNAVIntegrationSolution.zip as a solution  
+2. In [!INCLUDE[crm_md](includes/crm_md.md)], import the DynamicsNAVIntegrationSolution.zip as a solution  
 
-     This step adds the **Dynamics NAV Connection** entity and **Dynamics NAV Account Statistics** entity in the system and additional items such as navnow integration security roles.  
+    This step adds the **Dynamics NAV Connection** entity and **Dynamics NAV Account Statistics** entity in the system and additional items such as navnow integration security roles.  
 
-     For more information about how to manage solutions in [!INCLUDE[crm_md](includes/crm_md.md)], [http://go.microsoft.com/fwlink/?LinkID=616519](http://go.microsoft.com/fwlink/?LinkID=616519).  
+    For more information about how to manage solutions in [!INCLUDE[crm_md](includes/crm_md.md)], [http://go.microsoft.com/fwlink/?LinkID=616519](http://go.microsoft.com/fwlink/?LinkID=616519).  
 
-3.  (Optional) Set up the **Dynamics NAV Connection** entity to display in the **Settings** area of [!INCLUDE[crm_md](includes/crm_md.md)].  
+3. (Optional) Set up the **Dynamics NAV Connection** entity to display in the **Settings** area of [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-     This enables [!INCLUDE[crm_md](includes/crm_md.md)] users who are assigned the **Dynamics NAV Admin** role to modify the entity in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information about how to modify entities in [!INCLUDE[crm_md](includes/crm_md.md)], see [http://go.microsoft.com/fwlink/?LinkID=616521](http://go.microsoft.com/fwlink/?LinkID=616521).  
+    This enables [!INCLUDE[crm_md](includes/crm_md.md)] users who are assigned the **Dynamics NAV Admin** role to modify the entity in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information about how to modify entities in [!INCLUDE[crm_md](includes/crm_md.md)], see [http://go.microsoft.com/fwlink/?LinkID=616521](http://go.microsoft.com/fwlink/?LinkID=616521).  
 
-4.  Assign the **Dynamics NAV Integration Administrator** role to the [!INCLUDE[navnow_md](includes/navnow_md.md)] connection user.  
+4. Assign the **Dynamics NAV Integration Administrator** role to the [!INCLUDE[navnow_md](includes/navnow_md.md)] connection user.  
 
-5.  Assign the **Dynamics NAV Integration User** role to all users who require the use of the features provided by the [!INCLUDE[navnow_md](includes/navnow_md.md)] integration solution.  
+5. Assign the **Dynamics NAV Integration User** role to all users who require the use of the features provided by the [!INCLUDE[navnow_md](includes/navnow_md.md)] integration solution.  
 
- If you install the [!INCLUDE[navnow_md](includes/navnow_md.md)] integration solution after you have set up the connection to [!INCLUDE[crm_md](includes/crm_md.md)] from in [!INCLUDE[navnow_md](includes/navnow_md.md)], you must modify the connection setup to point to the URL of the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. For more information, see [How to: Set Up a Microsoft Dynamics 365 for Sales Connection](How-to-Set-Up-a-Dynamics-CRM-Connection.md)  
+   If you install the [!INCLUDE[navnow_md](includes/navnow_md.md)] integration solution after you have set up the connection to [!INCLUDE[crm_md](includes/crm_md.md)] from in [!INCLUDE[navnow_md](includes/navnow_md.md)], you must modify the connection setup to point to the URL of the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. For more information, see [How to: Set Up a Microsoft Dynamics 365 for Sales Connection](How-to-Set-Up-a-Dynamics-CRM-Connection.md)  
 
 # View Item Availability - Support Matrix
 For most versions of Dynamics NAV and Dynamics 365 for Sales, you can view availability figures for items across the integrated products. The following table shows which version combinations support viewing item availability.
