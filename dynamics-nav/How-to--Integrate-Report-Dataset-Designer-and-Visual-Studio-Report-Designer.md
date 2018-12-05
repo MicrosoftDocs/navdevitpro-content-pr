@@ -18,17 +18,17 @@ To create and modify client report definition \(RDLC\) report layouts, you must 
   
  To switch between Report Dataset Designer and Visual Studio Report Designer, we recommend that you follow these steps:  
   
--   Before you switch from Visual Studio Report Designer to Report Dataset Designer, save the report.rdlc file. You can also build the report in Visual Studio before you switch to the Report Dataset Designer, but this is not required.  
+- Before you switch from Visual Studio Report Designer to Report Dataset Designer, save the report.rdlc file. You can also build the report in Visual Studio before you switch to the Report Dataset Designer, but this is not required.  
   
--   Before you switch from Report Dataset Designer to Visual Studio Report Designer, save and compile the report.  
+- Before you switch from Report Dataset Designer to Visual Studio Report Designer, save and compile the report.  
   
--   After you update the dataset in Report Dataset Designer, you must refresh the dataset result in Visual Studio Report Designer. On the **View** menu, choose **Report Data**. In the **Report Data** pane, expand **DataSets**, right-click **DataSet\_Result**, and then choose **Refresh**.  
+- After you update the dataset in Report Dataset Designer, you must refresh the dataset result in Visual Studio Report Designer. On the **View** menu, choose **Report Data**. In the **Report Data** pane, expand **DataSets**, right-click **DataSet\_Result**, and then choose **Refresh**.  
   
--   Before you rename a column in Report Dataset Designer, you must close Visual Studio Report Designer.  
+- Before you rename a column in Report Dataset Designer, you must close Visual Studio Report Designer.  
   
--   If you delete a field in Report Dataset Designer, then you must delete all instances of that field in the Visual Studio Report Designer layout. Otherwise, the report will not successfully compile.  
+- If you delete a field in Report Dataset Designer, then you must delete all instances of that field in the Visual Studio Report Designer layout. Otherwise, the report will not successfully compile.  
   
- The following procedure describes how to switch between Report Dataset Designer and Visual Studio Report Designer.  
+  The following procedure describes how to switch between Report Dataset Designer and Visual Studio Report Designer.  
   
 ### To work with both Report Dataset Designer and Visual Studio Report Designer  
   

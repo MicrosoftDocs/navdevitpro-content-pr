@@ -30,7 +30,8 @@ Represents a method of payment in [!INCLUDE[d365fin_long_md](../../includes/d365
 |[DELETE paymentMethods](../api/dynamics_paymentmethods_delete.md)|none          |Deletes a payment method object.|
 
 ## Properties
-| Property	         | Type	  |Description                                                  |
+
+| Property           | Type   |Description                                                  |
 |:-------------------|:-------|:------------------------------------------------------------|
 |id                  |GUID    |The unique ID of the paymentMethods. Non-editable.           |
 |code                |string  |Specifies the payment method code.                           |
@@ -53,7 +54,6 @@ Here is a JSON representation of the paymentMethods.
   "displayName": "string",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also

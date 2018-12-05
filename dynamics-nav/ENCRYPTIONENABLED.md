@@ -33,9 +33,9 @@ Bool ENCRYPTIONENABLED()
 
 ```  
 IF ENCRYPTIONENABLED THEN  
-        MESSAGE('Encryption has been enabled')  
-      ELSE  
-        MESSAGE('Encryption has not been enabled')  
+        MESSAGE('Encryption has been enabled')  
+      ELSE  
+        MESSAGE('Encryption has not been enabled')  
 ```  
 
 ## See Also  

@@ -60,34 +60,34 @@ The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](i
 
 #### To create the add-in  
 
-1.  In Visual Studio, on the **File** menu, choose **New**, and then choose **Project**.  
+1. In Visual Studio, on the **File** menu, choose **New**, and then choose **Project**.  
 
-2.  Under **Installed Templates**, choose **Visual C\#**, and then choose **Class Library**.  
+2. Under **Installed Templates**, choose **Visual C\#**, and then choose **Class Library**.  
 
-3.  In the **Solution Name** text box, enter the name of your solution. For example, you can enter **MyCompany.MyProduct.RtcAddins** and then choose the **OK** button.  
+3. In the **Solution Name** text box, enter the name of your solution. For example, you can enter **MyCompany.MyProduct.RtcAddins** and then choose the **OK** button.  
 
-     Yow will add references to the following assemblies:  
+    Yow will add references to the following assemblies:  
 
-    1.  `Microsoft.Dynamics.Framework.UI.Extensibility.dll`  
+   1.  `Microsoft.Dynamics.Framework.UI.Extensibility.dll`  
 
-    2.  `System.Windows.Forms`  
+   2.  `System.Windows.Forms`  
 
-    3.  `System.Drawing`  
+   3.  `System.Drawing`  
 
-4.  In Solution Explorer, right-click your project, and then choose **Add Reference**.  
+4. In Solution Explorer, right-click your project, and then choose **Add Reference**.  
 
-5.  In the **Add Reference** window, on the **Browse** tab, navigate to the location of the Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly on your computer and then choose the **OK** button. By default, the path of the assembly is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client.  
+5. In the **Add Reference** window, on the **Browse** tab, navigate to the location of the Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly on your computer and then choose the **OK** button. By default, the path of the assembly is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client.  
 
-    > [!IMPORTANT]  
-    >  The assembly cannot be placed outside of the RoleTailored Client folder.  
+   > [!IMPORTANT]  
+   >  The assembly cannot be placed outside of the RoleTailored Client folder.  
 
-6.  In Solution Explorer, choose **Reference**, and on the shortcut menu, choose **Add Reference**.  
+6. In Solution Explorer, choose **Reference**, and on the shortcut menu, choose **Add Reference**.  
 
-7.  In the **Add Reference** window, choose the **.NET** tab, then under **Component Name**, choose `System.Windows.Forms`, and then choose the **OK** button.  
+7. In the **Add Reference** window, choose the **.NET** tab, then under **Component Name**, choose `System.Windows.Forms`, and then choose the **OK** button.  
 
-     The namespace contains classes for creating user interfaces for Windows-based applications.  
+    The namespace contains classes for creating user interfaces for Windows-based applications.  
 
-8.  Repeat the previous step and add a reference to the `System.Drawing` namespace. This namespace provides access to basic graphics functionality.  
+8. Repeat the previous step and add a reference to the `System.Drawing` namespace. This namespace provides access to basic graphics functionality.  
 
 9. Open the Class1.cs file and add the following **using** directives.  
 
@@ -146,7 +146,7 @@ The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](i
     > [!NOTE]  
     >  If you want to create an add-in that spans both the caption column and the data column of the page, override the [IWinFormsControlAddIn.AllowCaptionControl](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.IWinFormsControlAddIn.AllowCaptionControl) property and return `false` \(default value is `true`\).  
 
- An assembly must be signed that can be used in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You will now sign the assembly.  
+    An assembly must be signed that can be used in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You will now sign the assembly.  
 
 #### To sign the assembly  
 

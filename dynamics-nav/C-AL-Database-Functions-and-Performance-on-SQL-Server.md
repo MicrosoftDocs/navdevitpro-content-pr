@@ -56,13 +56,13 @@ IF FINDSET THEN
   
  Each **CALCFIELDS** or **CALCSUMS** request should be confined to use only one SIFT index. The SIFT index can only be used if:  
   
--   All requested sum-fields are contained in the same SIFT index.  
+- All requested sum-fields are contained in the same SIFT index.  
   
--   The filtered fields are part of the key fields specified in the SIFT index containing all the sum fields.  
+- The filtered fields are part of the key fields specified in the SIFT index containing all the sum fields.  
   
- If neither of these requirements is fulfilled, then the sum will be calculated directly from the base table.  
+  If neither of these requirements is fulfilled, then the sum will be calculated directly from the base table.  
   
- In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], SIFT indexes can be used to count records in a filter provided that a SIFT index exists that contains all filtered fields in the key fields that are defined for the SIFT index.  
+  In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], SIFT indexes can be used to count records in a filter provided that a SIFT index exists that contains all filtered fields in the key fields that are defined for the SIFT index.  
   
 ### SETAUTOCALCFIELDS  
  It is a common task to retrieve data and request calculation of associated FlowFields. The following example traverses customer records, calculates the balance, and marks the customer as blocked if the customer exceeds the maximum credit limit. Note the Customer record and associated fields are imaginary.  

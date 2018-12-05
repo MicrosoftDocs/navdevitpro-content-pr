@@ -17,17 +17,17 @@ redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-a
 # SETCURRENTKEY, SETRANGE, SETFILTER, GETRANGEMIN, and GETRANGEMAX Methods
 The following methods are used to filter records in a table:  
   
--   SETCURRENTKEY  
+- SETCURRENTKEY  
   
--   SETRANGE  
+- SETRANGE  
   
--   SETFILTER  
+- SETFILTER  
   
--   GETRANGEMIN  
+- GETRANGEMIN  
   
--   GETRANGEMAX  
+- GETRANGEMAX  
   
- These methods are some of the most commonly used AL methods. They set limits on the value of one or more specified fields, so that only a subset of the records are displayed, modified, deleted, and so on.  
+  These methods are some of the most commonly used AL methods. They set limits on the value of one or more specified fields, so that only a subset of the records are displayed, modified, deleted, and so on.  
   
 ## SETCURRENTKEY Method  
  SETCURRENTKEY selects a key for a record and sets the sort order that is used for the table in question.  

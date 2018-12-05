@@ -35,21 +35,21 @@ CurrPage.SETSELECTIONFILTER(Record)
   
  If only the current record is selected on the page, then SetSelectionFilter does the following:  
   
--   Sets the current filter group to 0 on the destination record  
+- Sets the current filter group to 0 on the destination record  
   
--   Adds filters on the primary key fields that point to the current record of the page  
+- Adds filters on the primary key fields that point to the current record of the page  
   
- If more than one record is selected on the page, then SetSelectionFilter does the following:  
+  If more than one record is selected on the page, then SetSelectionFilter does the following:  
   
--   Copies the current key from the page source table to the destination record  
+- Copies the current key from the page source table to the destination record  
   
--   Copies the current sort order from the table to the destination record  
+- Copies the current sort order from the table to the destination record  
   
--   Copies the current filters that are set in all filter groups  
+- Copies the current filters that are set in all filter groups  
   
--   Copies the current filter group  
+- Copies the current filter group  
   
--   Marks the selected records and sets the "marked only" filter  
+- Marks the selected records and sets the "marked only" filter  
   
 ## See Also  
  [Page Data Type](../datatypes/devenv-Page-Data-Type.md)

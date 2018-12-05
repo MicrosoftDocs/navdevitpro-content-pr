@@ -26,17 +26,17 @@ finsql.exe command=exportobjects, file=<exportfile>, [servername=<server>,] [dat
 
  The path and file name to which you export objects. This parameter is required. You can export objects to one of the following file types:  
 
--   .txt  
+- .txt  
 
--   .fob  
+- .fob  
 
- You specify the file type by the file name extension in the *file* parameter.  
+  You specify the file type by the file name extension in the *file* parameter.  
 
- *servername*  
+  *servername*  
 
- The name of the database server on which you want to run the command. The format of this parameter is \<*computername*>\\\<*database server instance*>.  
+  The name of the database server on which you want to run the command. The format of this parameter is \<*computername*>\\\<*database server instance*>.  
 
- If you do not specify both the *servername* and the *database* parameter, then the database server and database that are stored in the fin.zup file are used.  
+  If you do not specify both the *servername* and the *database* parameter, then the database server and database that are stored in the fin.zup file are used.  
 
 > [!NOTE]  
 >  When you first specify a database server and database to open, either from a command at a command prompt or from a client, the database server and database are stored in the fin.zup file. By default, the fin.zup file is located at C:\\users\\\<*user name*>\\AppData\\Roaming\\.  

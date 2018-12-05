@@ -60,29 +60,29 @@ To handle events, you design event subscribers. Event subscribers determine what
 
 #### To create an event subscriber function for a database and page trigger event  
 
-1.  Decide which codeunit to use for the event subscriber function.  
+1. Decide which codeunit to use for the event subscriber function.  
 
-     You can create a new codeunit or use and existing one.  
+    You can create a new codeunit or use and existing one.  
 
-2.  Set the **EventSubscriberInstance** property of the codeunit to specify how event subscriber functions in the codeunit are bound to codeunit instance. For more information, see [EventSubscriberInstance Property](EventSubscriberInstance-Property.md).  
+2. Set the **EventSubscriberInstance** property of the codeunit to specify how event subscriber functions in the codeunit are bound to codeunit instance. For more information, see [EventSubscriberInstance Property](EventSubscriberInstance-Property.md).  
 
-3.  Add a C/AL function to the codeunit.  
+3. Add a C/AL function to the codeunit.  
 
-     We recommend that you give the function a name that indicates what subscriber does, and has the format *\[Action\]\[Event\]*. *\[Action\]* is text that describes what the function does and *\[Event\]* is the name of the event publisher function to which it subscribes. For more information about naming, see [Best Practices with Microsoft Dynamics NAV Events](Best-Practices-with-Microsoft-Dynamics-NAV-Events.md).  
+    We recommend that you give the function a name that indicates what subscriber does, and has the format *\[Action\]\[Event\]*. *\[Action\]* is text that describes what the function does and *\[Event\]* is the name of the event publisher function to which it subscribes. For more information about naming, see [Best Practices with Microsoft Dynamics NAV Events](Best-Practices-with-Microsoft-Dynamics-NAV-Events.md).  
 
-4.  Set the function [Event Property](Event-Property.md) to **Subscriber**.  
+4. Set the function [Event Property](Event-Property.md) to **Subscriber**.  
 
-5.  Set the function [EventPublisherObject Property](EventPublisherObject-Property.md) specify the table or page that contains trigger event that you want to subscribe to.  
+5. Set the function [EventPublisherObject Property](EventPublisherObject-Property.md) specify the table or page that contains trigger event that you want to subscribe to.  
 
-6.  Set the function [EventFunction Property](EventFunction-Property.md) to the event that you want to subscribe to.  
+6. Set the function [EventFunction Property](EventFunction-Property.md) to the event that you want to subscribe to.  
 
-     You choose from the trigger events defined on the table that is specified by the **EventPublisherObject** property.  
+    You choose from the trigger events defined on the table that is specified by the **EventPublisherObject** property.  
 
-7.  When prompted to overwrite the edited functions signature, choose the **Yes** button.  
+7. When prompted to overwrite the edited functions signature, choose the **Yes** button.  
 
-     The function signature will automatically be updated to include any the parameters from the event publisher function settings.  
+    The function signature will automatically be updated to include any the parameters from the event publisher function settings.  
 
-8.  For database trigger events, if you set the [EventFunction Property](EventFunction-Property.md) to **OnBeforeValidEvent** or **OnAfterValidEvent** event, you must set the [EventPublisherElement Property](EventPublisherElement-Property.md) to the table field on which you want to subscribe the event.  
+8. For database trigger events, if you set the [EventFunction Property](EventFunction-Property.md) to **OnBeforeValidEvent** or **OnAfterValidEvent** event, you must set the [EventPublisherElement Property](EventPublisherElement-Property.md) to the table field on which you want to subscribe the event.  
 
 9. There are few other properties related event subscriber functions that you can set. For more information, see the following topics:  
 
@@ -94,7 +94,7 @@ To handle events, you design event subscribers. Event subscribers determine what
 
 10. Add code to the function for handing the event.  
 
- For step-by-step instructions about how to create a subscriber, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough--Publishing--Raising--and-Subcribing-to-an-Event-in-Microsoft-Dynamics-NAV.md).  
+    For step-by-step instructions about how to create a subscriber, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough--Publishing--Raising--and-Subcribing-to-an-Event-in-Microsoft-Dynamics-NAV.md).  
 
 ## See Also  
  [Publishing Events](Publishing-Events.md)   

@@ -37,21 +37,21 @@ DynamicsNAV://MyServer/nav_server_instance/CRONUS%20International%20Ltd./RunPage
 ### Building a URL  
  When you build a hyperlink URL, you can specify a page, report, query, XMLport, codeunit, table, or node. The following examples illustrate URLs that open objects in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], but you can also generate URLs that open objects in the [!INCLUDE[nav_web](includes/nav_web_md.md)]:  
 
--   `DynamicsNAV://server/instance/company/runpage?page=22&bookmark=0ABA0700235752C7D1`  
+- `DynamicsNAV://server/instance/company/runpage?page=22&bookmark=0ABA0700235752C7D1`  
 
--   `DynamicsNAV://server/instance/company/runreport?report=901`  
+- `DynamicsNAV://server/instance/company/runreport?report=901`  
 
--   `DynamicsNAV://server/instance/company/runquery?query=5402`  
+- `DynamicsNAV://server/instance/company/runquery?query=5402`  
 
--   `DynamicsNAV://server/instance/company/runxmlport?xmlport=5050`  
+- `DynamicsNAV://server/instance/company/runxmlport?xmlport=5050`  
 
--   `DynamicsNAV://server/instance/company/runcodeunit?codeunit=5845`  
+- `DynamicsNAV://server/instance/company/runcodeunit?codeunit=5845`  
 
--   `DynamicsNAV://server/instance/company/navigate?node=Home/Items`  
+- `DynamicsNAV://server/instance/company/navigate?node=Home/Items`  
 
--   `DynamicsNAV://server/instance/company/RunTable?Table=18`  
+- `DynamicsNAV://server/instance/company/RunTable?Table=18`  
 
- The first three parameters that open a [!INCLUDE[navnow](includes/navnow_md.md)] client URL are reserved for *server*, *service*, and *company*. You can omit certain parameters, in which case default values are assumed, but you must leave the correct number of forward slashes to indicate which parameters you have omitted. If you omit just one of these parameters, then it must be *company*. If you omit two parameters, then they must be *company* and *instance*. You can also omit all three parameters. For example, the following URL assumes the default instance and company on the MyServer server:  
+  The first three parameters that open a [!INCLUDE[navnow](includes/navnow_md.md)] client URL are reserved for *server*, *service*, and *company*. You can omit certain parameters, in which case default values are assumed, but you must leave the correct number of forward slashes to indicate which parameters you have omitted. If you omit just one of these parameters, then it must be *company*. If you omit two parameters, then they must be *company* and *instance*. You can also omit all three parameters. For example, the following URL assumes the default instance and company on the MyServer server:  
 
 ```  
 DynamicsNAV://MyServer///RunPage?Page=22  

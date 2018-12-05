@@ -23,6 +23,7 @@ DELETE /businesscentral/companies({id})/customerPaymentsJournals({id})/customerP
 ```
 
 ## Request headers
+
 |Header         |Value                     |
 |---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |

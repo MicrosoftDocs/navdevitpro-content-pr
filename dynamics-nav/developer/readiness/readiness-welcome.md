@@ -32,22 +32,23 @@ By listing your offer on AppSource you can get the following benefits:
 - Generate leads and sales opportunities.
 - Enhance business value and increase deal size with existing and new customers.
 - Get actionable insights on the performance of your listings via the Cloud Partner Portal or the Office app publishing process. 
- 
+
 You can bring two types of offerings to Microsoft AppSource:
 
 - Individual Apps – where you bring your industry expertise to market.
 - Packaged Consulting Services – where you bring ready-made packaged engagements to market.  
- 
+
 Find more information on which apps and Consulting Services that currently are available on Microsoft AppSource [here](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
 
 ## Getting started: find what is important to you 
 In order to inform you in the best possible way, we have organized the following content in categories based on what you want to bring to market.  
 
-|What do you want to achieve with [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)]?|
-|------------------------|
-|[**3rd party online services**](readiness-thirdparty-solution.md) </br>You have an online service that you want to connect and integrate with [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)].|
-|[**Development of a vertical solution**](readiness-develop-vertical.md) </br>Create an app that is specialized within a specific industry.|
-|[**Development of a horizontal solution**](readiness-develop-horizontal.md)</br>Extend the experience and capability of [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] by creating an Add-on app.|
-|[**Development of a localization solution**](readiness-develop-localization.md)</br>Comply with regulatory capabilities by developing for [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)].||
-|[**Dynamics 365 Reseller (VARs)**](readiness-reseller.md)</br>Resell and adjust [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] to the individual needs of your customers.|
+
+|                                                         What do you want to achieve with [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)]?                                                          |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   [**3rd party online services**](readiness-thirdparty-solution.md) </br>You have an online service that you want to connect and integrate with [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)].   |
+|                                       [**Development of a vertical solution**](readiness-develop-vertical.md) </br>Create an app that is specialized within a specific industry.                                       |
+| [**Development of a horizontal solution**](readiness-develop-horizontal.md)</br>Extend the experience and capability of [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] by creating an Add-on app. |
+|     [**Development of a localization solution**](readiness-develop-localization.md)</br>Comply with regulatory capabilities by developing for [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)].     |
+|             [**Dynamics 365 Reseller (VARs)**](readiness-reseller.md)</br>Resell and adjust [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] to the individual needs of your customers.             |
 

@@ -24,6 +24,7 @@ GET /businesscentral/companies({id})/journals({id})/journalLines({id})
 ```
 
 ## Request headers
+
 |Header       |Value                     |
 |-------------|--------------------------|
 |Authorization|Bearer {token}. Required. |

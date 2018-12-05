@@ -23,6 +23,7 @@ DELETE /businesscentral/companies({id})/salesQuotes({id})/salesQuoteLines(docume
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |

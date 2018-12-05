@@ -17,17 +17,17 @@ Use the Automation data type to reference an automation server.
   
 ### To use an automation server in [!INCLUDE[navnow](includes/navnow_md.md)]  
   
-1.  Define a variable of type Automation and give it a name.  
+1. Define a variable of type Automation and give it a name.  
   
-2.  Select the **Subtype** field, and in the **Automation Object List** window that opens, in the **Automation Server** field, get a list of available automation servers.  
+2. Select the **Subtype** field, and in the **Automation Object List** window that opens, in the **Automation Server** field, get a list of available automation servers.  
   
-3.  Select a server and then choose the **OK** button.  
+3. Select a server and then choose the **OK** button.  
   
-     In the **Automation Object List** the interfaces of the selected automation server are displayed.  
+    In the **Automation Object List** the interfaces of the selected automation server are displayed.  
   
-4.  Select an interface and then choose the **OK** button.  
+4. Select an interface and then choose the **OK** button.  
   
- This procedure has selected the GUID of the automation server, the version number, and the GUID of the interface. It is immediately evaluated into a name such as *\<name of server>*.*\<name of interface>*, as in the following:  
+   This procedure has selected the GUID of the automation server, the version number, and the GUID of the interface. It is immediately evaluated into a name such as *\<name of server>*.*\<name of interface>*, as in the following:  
   
 ```  
 'Microsoft Excel X.0 Object Library'.Application  

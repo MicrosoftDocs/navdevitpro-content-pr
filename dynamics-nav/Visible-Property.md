@@ -38,17 +38,17 @@ Sets whether to display the page or control.
 ## Example: Dynamic Property Change Using a Boolean Field  
  To hide all payment fields on a customer card when line discounts are allowed, follow these steps:  
 
-1.  Open page 21, **Customer Card**, with Page Designer.  
+1. Open page 21, **Customer Card**, with Page Designer.  
 
-2.  View the properties of the group named Payments, which represents the **Payments** FastTab.  
+2. View the properties of the group named Payments, which represents the **Payments** FastTab.  
 
-3.  For the **Visible** property, enter **NOT “Allow Line Disc.”** in the **Value** field.  
+3. For the **Visible** property, enter **NOT “Allow Line Disc.”** in the **Value** field.  
 
-     The **Allow Line Disc.** field is a Boolean field on page 21, **Customer Card**.  
+    The **Allow Line Disc.** field is a Boolean field on page 21, **Customer Card**.  
 
-4.  Save the changes on page 21.  
+4. Save the changes on page 21.  
 
- Now, when a user selects the **Allow Line Disc.** check box on a customer card, the **Payments** FastTab is not visible. Otherwise, the FastTab is visible.  
+   Now, when a user selects the **Allow Line Disc.** check box on a customer card, the **Payments** FastTab is not visible. Otherwise, the FastTab is visible.  
 
 ## See Also  
  [Properties](Properties.md)

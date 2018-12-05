@@ -49,15 +49,15 @@ When you start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCL
 ### Configuring the inactive session timeout for the [!INCLUDE[nav_web](includes/nav_web_md.md)]  
  There are two settings that control when a Web client session closes because of inactivity on a connection:  
 
--   *ClientServicesIdleClientTimeout* setting on [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+- *ClientServicesIdleClientTimeout* setting on [!INCLUDE[nav_server](includes/nav_server_md.md)].  
 
--   *SessionTimeout* setting on the [!INCLUDE[navnow](includes/navnow_md.md)] Web Server.  
+- *SessionTimeout* setting on the [!INCLUDE[navnow](includes/navnow_md.md)] Web Server.  
 
- The session closes according to the setting that has the shortest time period. By default, the *ClientServicesIdleClientTimeout* setting is set to **MaxValue**, which means no time limit, and the *SessionTimout* setting is 00:20:00 \(20 minutes\). This means that when client connection is inactive, a session will close after 20 minutes. The following figure illustrates the timeout behavior:  
+  The session closes according to the setting that has the shortest time period. By default, the *ClientServicesIdleClientTimeout* setting is set to **MaxValue**, which means no time limit, and the *SessionTimout* setting is 00:20:00 \(20 minutes\). This means that when client connection is inactive, a session will close after 20 minutes. The following figure illustrates the timeout behavior:  
 
- ![Inactiviy session timeout for NAV 2013 R2](media/NAV_Inactivity_SessionTimeout.png "NAV\_Inactivity\_SessionTimeout")  
+  ![Inactiviy session timeout for NAV 2013 R2](media/NAV_Inactivity_SessionTimeout.png "NAV\_Inactivity\_SessionTimeout")  
 
- The *SessionTimeout* setting enables you to set the [!INCLUDE[nav_web](includes/nav_web_md.md)] inactive session timeout different than for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], which is only controlled by the *ClientServicesIdleClientTimeout* setting. Typically, you will set the inactive session timeout period on [!INCLUDE[nav_web](includes/nav_web_md.md)] connections shorter than for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+  The *SessionTimeout* setting enables you to set the [!INCLUDE[nav_web](includes/nav_web_md.md)] inactive session timeout different than for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], which is only controlled by the *ClientServicesIdleClientTimeout* setting. Typically, you will set the inactive session timeout period on [!INCLUDE[nav_web](includes/nav_web_md.md)] connections shorter than for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
 
 ###  <a name="KeepAlive"></a> Keeping inactive sessions alive  
  To keep an inactive session alive, the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] uses the Windows Communication Framework \(WCF\) reliable sessions feature. When the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is inactive, reliable sessions automatically sends messages from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)]. You control the interval of the keep-alive messages by setting the *ClientServicesKeepAliveInterval* setting on the [!INCLUDE[nav_server](includes/nav_server_md.md)]. The default value of the *ClientServicesKeepAliveInterval* setting is 120 seconds \(2 minutes\).  

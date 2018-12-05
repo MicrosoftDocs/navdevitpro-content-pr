@@ -26,6 +26,7 @@ GET /businesscentral/companies({id})/dimensions({id})/dimensionValues({id})
 ```
 
 ## Request headers
+
 |Header       |Value                     |
 |-------------|--------------------------|
 |Authorization|Bearer {token}. Required. |

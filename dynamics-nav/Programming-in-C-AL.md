@@ -22,30 +22,30 @@ This section describes where to write C/AL code and how to reuse code.
 ## Where to Write C/AL Code  
  Almost every object in [!INCLUDE[navnow](includes/navnow_md.md)] contains triggers where you can add your C/AL code. Triggers exist for the following objects:  
   
--   Tables  
+- Tables  
   
--   Table fields  
+- Table fields  
   
--   Pages, including request pages  
+- Pages, including request pages  
   
--   Reports  
+- Reports  
   
--   Data items  
+- Data items  
   
--   XMLports  
+- XMLports  
   
--   Queries  
+- Queries  
   
- You can initiate the execution of your C/AL code from the following:  
+  You can initiate the execution of your C/AL code from the following:  
   
--   Actions  
+- Actions  
   
--   Menu items  
+- Menu items  
   
--   Any object that has an instantiation of the object that contains C/AL code. An example of an instantiation is a variable declaration.  
+- Any object that has an instantiation of the object that contains C/AL code. An example of an instantiation is a variable declaration.  
   
-    > [!NOTE]  
-    >  If the C/AL code is in a local function, then you cannot run it from another object.  
+  > [!NOTE]  
+  >  If the C/AL code is in a local function, then you cannot run it from another object.  
   
 ## Guidelines for Placing C/AL Code  
  We recommend the following guidelines for C/AL code:  

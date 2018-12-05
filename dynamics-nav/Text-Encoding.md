@@ -24,11 +24,11 @@ Text encoding is the process of transforming bytes of data into readable charact
   
  There are several industry text encoding formats and different systems support different formats. Internally, [!INCLUDE[navnow](includes/navnow_md.md)] uses Unicode encoding. For exporting and importing data with an XMLport, [!INCLUDE[navnow](includes/navnow_md.md)] supports MS-DOS, UTF-8, UTF-16, and Windows encoding formats. Data is imported and exported as follows:  
   
--   When data is imported from an external file, it is read using the format that is specified by the **TextEncoding** property or parameter, and then converted to Unicode in [!INCLUDE[navnow](includes/navnow_md.md)].  
+- When data is imported from an external file, it is read using the format that is specified by the **TextEncoding** property or parameter, and then converted to Unicode in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
--   When data is exported to an external file, it is converted from Unicode in [!INCLUDE[navnow](includes/navnow_md.md)], and then written to the file in the format that is specified by the **TextEncoding** property or parameter.  
+- When data is exported to an external file, it is converted from Unicode in [!INCLUDE[navnow](includes/navnow_md.md)], and then written to the file in the format that is specified by the **TextEncoding** property or parameter.  
   
- You should set the text encoding to the encoding format that is compatible with the system or program that you will be exporting to or importing from. The following sections describe the available text encoding formats.  
+  You should set the text encoding to the encoding format that is compatible with the system or program that you will be exporting to or importing from. The following sections describe the available text encoding formats.  
   
 ### MS-DOS Encoding Format  
  **MS-DOS** encoding, which is also referred to as OEM encoding, is an older format than UTF-8 and UTF-16, but it is still widely supported. MS-DOS encoding was the only format that was supported by earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)].  
@@ -51,13 +51,13 @@ Text encoding is the process of transforming bytes of data into readable charact
   
  UTF-16 includes two encoding schemes which mandate the byte order: UTF-16LE and UTF-16BE. [!INCLUDE[navnow](includes/navnow_md.md)] supports these schemes according to the following:  
   
--   When exporting, the file is written using UTF-16LE encoding.  
+- When exporting, the file is written using UTF-16LE encoding.  
   
--   When importing, the file is read using the UTF-16, UTF-16LE, or UTF-16BE, depending on encoding scheme of the file itself.  
+- When importing, the file is read using the UTF-16, UTF-16LE, or UTF-16BE, depending on encoding scheme of the file itself.  
   
- A UTF-16 encoded file will typically be larger than the same file encoded with UTF-8, except for Eastern language character sets, which will typically be smaller.  
+  A UTF-16 encoded file will typically be larger than the same file encoded with UTF-8, except for Eastern language character sets, which will typically be smaller.  
   
- UTF-16 is incompatible with ASCII so that it will not understand files written in ASCII format.  
+  UTF-16 is incompatible with ASCII so that it will not understand files written in ASCII format.  
   
 ### Windows Format  
  **Windows** encoding is also referred to as ANSI encoding. If you set the text encoding to **Windows**, you can import and export text files that are based on the Windows codepage on the user’s computer. As a result, you do not have to consider the language setting of [!INCLUDE[nav_server](includes/nav_server_md.md)] or the external system or program that reads or writes the data.  

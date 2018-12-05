@@ -30,19 +30,19 @@ Creates, opens, and closes a page that you specify. When a page is run modally, 
 
  After you define this variable, you can run the following page methods:  
 
--   SETTABLEVIEW  
+- SETTABLEVIEW  
 
--   SETRECORD  
+- SETRECORD  
 
--   GETRECORD  
+- GETRECORD  
 
--   RUN  
+- RUN  
 
--   RUNMODAL  
+- RUNMODAL  
 
- Unlike the [PAGE.RUN Method](devenv-PAGE-RUN-Method.md), the variable is not automatically cleared after this method runs.  
+  Unlike the [PAGE.RUN Method](devenv-PAGE-RUN-Method.md), the variable is not automatically cleared after this method runs.  
 
- If the page that you specify does not exist, then a compile-time error occurs.  
+  If the page that you specify does not exist, then a compile-time error occurs.  
 
 ## Property Value/Return Value  
  Type: Action  

@@ -30,7 +30,8 @@ Represents a salesQuoteLines resource type in [!INCLUDE[d365fin_long_md](../../i
 |[DELETE salesQuoteLines](../api/dynamics_salesquoteline_delete.md)|none|Deletes a sales quote line object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |documentId|GUID|The ID of the parent quote.|
 |sequence|numeric|The line sequence number.|
@@ -96,7 +97,6 @@ Here is a JSON representation of the resource.
       "netAmountIncludingTax": "decimal"
     }
   ]
-
 ```
 
 ## See also

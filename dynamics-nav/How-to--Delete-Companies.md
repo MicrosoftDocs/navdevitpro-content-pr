@@ -23,25 +23,25 @@ You can delete companies in the [!INCLUDE[nav_windows](includes/nav_windows_md.m
   
 ### To make sure that you are the only user who has access to the company  
   
-1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **File** menu, choose **Database**, and then choose **Alter**.  
+1. In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **File** menu, choose **Database**, and then choose **Alter**.  
   
-2.  Choose the **Options** tab, select the **Single user** check box, and then choose the **OK** button.  
+2. Choose the **Options** tab, select the **Single user** check box, and then choose the **OK** button.  
   
- You can now delete the company in [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_web](includes/nav_web_md.md)], or by using the **Remove-NAVCompany** Windows PowerShell cmdlet.  
+   You can now delete the company in [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_web](includes/nav_web_md.md)], or by using the **Remove-NAVCompany** Windows PowerShell cmdlet.  
   
- You can only delete a company if you have the relevant permission.  
+   You can only delete a company if you have the relevant permission.  
   
 ### To delete a company in [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
   
-1.  In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], open a different company than the company that you want to delete. <!--For more information, see [How to: Select a Company](\($-S_COMPANY-How-to--Select-a-Company-$\).md).-->  
+1. In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], open a different company than the company that you want to delete. <!--For more information, see [How to: Select a Company](\($-S_COMPANY-How-to--Select-a-Company-$\).md).-->  
   
-2.  In the **Search** box, enter **Companies**, and then choose the related link.  
+2. In the **Search** box, enter **Companies**, and then choose the related link.  
   
-3.  In the **Companies** window, choose the company that you want to delete, and then, on the **Home** tab, in the **Manage** group, choose **Delete**.  
+3. In the **Companies** window, choose the company that you want to delete, and then, on the **Home** tab, in the **Manage** group, choose **Delete**.  
   
-4.  Confirm that you want to delete the company. You must confirm twice that you want to delete the company.  
+4. Confirm that you want to delete the company. You must confirm twice that you want to delete the company.  
   
- This deletes the company. The action cannot be undone.  
+   This deletes the company. The action cannot be undone.  
   
 ## See Also  
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)

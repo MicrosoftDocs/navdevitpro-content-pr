@@ -24,6 +24,7 @@ POST /businesscentral/companies({id})/taxAreas({id})
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required.    |
@@ -44,7 +45,6 @@ Here is an example of a request.
 ```json
 POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/taxAreas
 Content-type: application/json
-
 ```json
 {
   "code": "44442001T"

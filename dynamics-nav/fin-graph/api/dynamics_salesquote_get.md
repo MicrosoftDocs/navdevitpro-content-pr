@@ -24,6 +24,7 @@ GET /businesscentral/companies({id})/salesQuotes({id})
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |

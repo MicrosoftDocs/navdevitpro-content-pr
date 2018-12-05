@@ -23,6 +23,7 @@ PATCH /businesscentral/companies({id})/shipmentMethods({id})
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization |Bearer {token}. Required.|

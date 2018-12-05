@@ -23,6 +23,7 @@ POST /businesscentral/companies({companyId})/employees({employeeId})/defaultDime
 ```
 
 ## Request headers
+
 |Header         |Value                    |
 |---------------|-------------------------|
 |Authorization  |Bearer {token}. Required.|
@@ -86,4 +87,4 @@ POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId
 [Get employee defaultDimensions](dynamics_employee_get_defaultdimensions.md)  
 [Update employee defaultDimensions](dynamics_employee_update_defaultdimensions.md)  
 [Delete employee defaultDimensions](dynamics_employee_delete_defaultdimensions.md)  
- 
+

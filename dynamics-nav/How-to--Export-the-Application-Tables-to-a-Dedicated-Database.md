@@ -21,60 +21,60 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can export the tables that def
 
 ### To export the application tables to a dedicated database  
 
-1.  Stop all [!INCLUDE[nav_server](includes/nav_server_md.md)] services that access the database that you are modifying.  
+1. Stop all [!INCLUDE[nav_server](includes/nav_server_md.md)] services that access the database that you are modifying.  
 
-2.  Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
+2. Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
 
-    > [!IMPORTANT]  
-    >  You must run the program as administrator. Also, you must ensure that scripting is enabled on the computer.  
+   > [!IMPORTANT]  
+   >  You must run the program as administrator. Also, you must ensure that scripting is enabled on the computer.  
 
-     For more information, see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md).  
+    For more information, see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md).  
 
-3.  For an overview of the cmdlet, type the following command:  
+3. For an overview of the cmdlet, type the following command:  
 
-    ```  
-    get-help Export-NAVApplication  
-    ```  
+   ```  
+   get-help Export-NAVApplication  
+   ```  
 
-4.  To export the application tables, type the following command:  
+4. To export the application tables, type the following command:  
 
-    ```  
-    Export-NAVApplication –DatabaseServer <server name> -DatabaseInstance <instance name> –DatabaseName <name of original database> –DestinationDatabaseName <name of new application database> -ServiceAccount <the account used by nav_server if not NT AUTHORITY\NETWORK SERVICE>  
-    ```  
+   ```  
+   Export-NAVApplication –DatabaseServer <server name> -DatabaseInstance <instance name> –DatabaseName <name of original database> –DestinationDatabaseName <name of new application database> -ServiceAccount <the account used by nav_server if not NT AUTHORITY\NETWORK SERVICE>  
+   ```  
 
-     For example, to run the cmdlet against the [!INCLUDE[demolong](includes/demolong_md.md)], type the following command:  
+    For example, to run the cmdlet against the [!INCLUDE[demolong](includes/demolong_md.md)], type the following command:  
 
-    ```  
-    Export-NAVApplication –DatabaseServer ‘MyServer’ –DatabaseInstance ‘NavDemo’ –DatabaseName ‘Demo Database NAV (11-0)’ –DestinationDatabaseName ‘NAV App’  
-    ```  
+   ```  
+   Export-NAVApplication –DatabaseServer ‘MyServer’ –DatabaseInstance ‘NavDemo’ –DatabaseName ‘Demo Database NAV (11-0)’ –DestinationDatabaseName ‘NAV App’  
+   ```  
 
-     In the example, the database server name is **MyServer** , and the SQL Server instance is **NavDemo**. The name of the new application database can be anything. You can specify a name that reflects your application.  
+    In the example, the database server name is **MyServer** , and the SQL Server instance is **NavDemo**. The name of the new application database can be anything. You can specify a name that reflects your application.  
 
-     The application database is created on the same SQL Server instance as the original database. In the example, if you connect to the **NavDemo** instance using SQL Server Management Studio you will see two databases: the original database, **Demo Database NAV \(11-0\)**, and the new application database, **NAV App**.  
+    The application database is created on the same SQL Server instance as the original database. In the example, if you connect to the **NavDemo** instance using SQL Server Management Studio you will see two databases: the original database, **Demo Database NAV \(11-0\)**, and the new application database, **NAV App**.  
 
-     At this stage, the original database still contains the application tables, and you can still access it using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. Next, you must remove the application tables from the original database to make it a tenant database.  
+    At this stage, the original database still contains the application tables, and you can still access it using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. Next, you must remove the application tables from the original database to make it a tenant database.  
 
-    > [!TIP]  
-    >  Optionally, you can combine the Export-NAVApplication and Remove-NAVApplication cmdlets. For an example of how you can combine the two cmdlets, see the **Example** section.  
+   > [!TIP]  
+   >  Optionally, you can combine the Export-NAVApplication and Remove-NAVApplication cmdlets. For an example of how you can combine the two cmdlets, see the **Example** section.  
 
-5.  To remove the application tables from the original database, type the following command:  
+5. To remove the application tables from the original database, type the following command:  
 
-    ```  
-    Remove-NAVApplication –DatabaseServer <server name> -DatabaseInstance <instance name> –DatabaseName <name of the original database>  
-    ```  
+   ```  
+   Remove-NAVApplication –DatabaseServer <server name> -DatabaseInstance <instance name> –DatabaseName <name of the original database>  
+   ```  
 
-     For example, to run the cmdlet against the [!INCLUDE[demolong](includes/demolong_md.md)] where you have exported the application tables, type the following command:  
+    For example, to run the cmdlet against the [!INCLUDE[demolong](includes/demolong_md.md)] where you have exported the application tables, type the following command:  
 
-    ```  
-    Remove-NAVApplication –DatabaseServer ‘MyServer’ –DatabaseInstance ‘NavDemo’ –DatabaseName ‘Demo Database NAV (10-0)’  
-    ```  
+   ```  
+   Remove-NAVApplication –DatabaseServer ‘MyServer’ –DatabaseInstance ‘NavDemo’ –DatabaseName ‘Demo Database NAV (10-0)’  
+   ```  
 
-     You will be asked to confirm that you want to remove the tables.  
+    You will be asked to confirm that you want to remove the tables.  
 
-    > [!WARNING]  
-    >  Running the **Remove-NAVApplication** cmdlet is not reversible. When you have removed the application tables from the database, you cannot import them again. Make sure that you have a full backup available.  
+   > [!WARNING]  
+   >  Running the **Remove-NAVApplication** cmdlet is not reversible. When you have removed the application tables from the database, you cannot import them again. Make sure that you have a full backup available.  
 
- At the end of the process, you have two databases. In the example earlier in this topic, the databases are as follows.  
+   At the end of the process, you have two databases. In the example earlier in this topic, the databases are as follows.  
 
 |Database name|Database type|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-------------------|-------------------|---------------------------------------|  

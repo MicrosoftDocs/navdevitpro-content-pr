@@ -32,13 +32,13 @@ This topic describes how to configure SQL Server Authentication between the [!IN
   
 #### To create and import encryption key  
   
-1.  In the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the [New-NAVEncryptionkey cmdlet](http://go.microsoft.com/fwlink/?LinkID=521780).  
+1. In the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the [New-NAVEncryptionkey cmdlet](http://go.microsoft.com/fwlink/?LinkID=521780).  
   
-     This creates a file that contains an encryption key. If you already have an encryption key file, you can skip this step.  
+    This creates a file that contains an encryption key. If you already have an encryption key file, you can skip this step.  
   
-2.  Run the [Import-NAVEncryptionkey cmdlet](http://go.microsoft.com/fwlink/?LinkID=518094) to install the encryption key on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and database.  
+2. Run the [Import-NAVEncryptionkey cmdlet](http://go.microsoft.com/fwlink/?LinkID=518094) to install the encryption key on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and database.  
   
- For more information, see [Managing Encryption Keys for SQL Server Authentication](Managing-Encryption-Keys-for-SQL-Server-Authentication.md).  
+   For more information, see [Managing Encryption Keys for SQL Server Authentication](Managing-Encryption-Keys-for-SQL-Server-Authentication.md).  
   
 ##  <a name="ConfigSQL"></a> Configure SQL Authentication on the Database  
  This section describes how to configure a [!INCLUDE[navnow](includes/navnow_md.md)] database to use SQL Server Authentication with a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. You can complete the steps in this procedure by using SQL Server Management Studio or Transact-SQL.  

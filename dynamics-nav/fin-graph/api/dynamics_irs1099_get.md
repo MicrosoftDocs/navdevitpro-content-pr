@@ -24,6 +24,7 @@ GET /businesscentral/companies({id})/irs1099Codes({id})
 ```
 
 ## Request headers
+
 |Header       |Value                    |
 |-------------|-------------------------|
 |Authorization|Bearer {token}. Required.|

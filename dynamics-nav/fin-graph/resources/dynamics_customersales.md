@@ -27,7 +27,8 @@ Represents an customer sales in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 |[GET customerSales](../api/dynamics_customerSales_get.md)|CustomerSales|Get a customer sales object|
 
 ## Properties
-| Property	          | Type  |Description                                       |
+
+| Property            | Type  |Description                                       |
 |:--------------------|:------|:-------------------------------------------------|
 |customerId           |GUID   |Represents the customer ID.                       |
 |customerNumber       |string |Represents the customer number.                   |
@@ -52,7 +53,6 @@ Here is a JSON representation of the resource.
     "totalSalesAmount": "decimal",
     "dateFilter_FilterOnly": "date"
 }
-
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

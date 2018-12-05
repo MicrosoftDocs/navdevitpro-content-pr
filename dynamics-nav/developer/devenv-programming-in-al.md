@@ -28,23 +28,23 @@ one form or page.
 ## Where to write AL code  
 Almost every object in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] contains triggers where you can add your AL code. Triggers exist for the following objects:  
 
--   Tables  
+- Tables  
 
--   Table fields  
+- Table fields  
 
--   Pages <!--, including request pages  -->
+- Pages <!--, including request pages  -->
 
--   Reports  
+- Reports  
 
--   Data items  
+- Data items  
 
--   XMLports  
+- XMLports  
 
--   Queries  
+- Queries  
 
- You can initiate the execution of your AL code from the following:  
+  You can initiate the execution of your AL code from the following:  
 
--   Actions  
+- Actions  
 
 <!-- -   Menu items  -->
 

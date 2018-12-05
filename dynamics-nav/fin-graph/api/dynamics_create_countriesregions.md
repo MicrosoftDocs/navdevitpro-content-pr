@@ -22,6 +22,7 @@ Create a countriesRegions object in [!INCLUDE[d365fin_long_md](../../includes/d3
 POST /businesscentral/companies({id})/countriesRegions
 ```
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
@@ -68,7 +69,6 @@ Content-type: application/json
   "addressFormat": "City+County+Post Code",
   "lastModifiedDateTime": "2017-03-14T15:22:31.753Z"
 }
-
 ```
 
 ## See also

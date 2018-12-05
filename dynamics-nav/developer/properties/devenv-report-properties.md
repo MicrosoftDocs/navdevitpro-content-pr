@@ -87,6 +87,7 @@ This topic lists properties of the report object.
 
 ## Report Label Properties  
  The following properties apply to **Report Labels** of a report object.  
+
 |Property Name|Report Object|
 |-------------|-------------|
 |[Caption Property](devenv-caption-property.md)|X|

@@ -123,7 +123,7 @@ url := GETURL(ClientType::OData, COMPANYNAME, ObjectType::Page, 21, Cust);
   
  In this example, the following URL is generated for OData web services:  
   
- https://*server*:*port*/*instance*/OData/Company\('*company*'\)/Customer\('10000'\)  
+ https://<em>server</em>:*port*/*instance*/OData/Company\('*company*'\)/Customer\('10000'\)  
   
  In this example, it is assumed that page 21 is published as an OData web service with the name Customer.  
   
@@ -138,7 +138,7 @@ url := GETURL(CURRENTCLIENTTYPE, COMPANYNAME, ObjectType::Page, 21);
   
  In this example, the following URL is generated for SOAP web services:  
   
- https://*server*:*port*/*instance*/WS/*company*/Page/Customer  
+ https://<em>server</em>:*port*/*instance*/WS/*company*/Page/Customer  
   
 ## See Also  
  [How to: Copy the URL to Open a Page or Report](How-to--Copy-the-URL-to-Open-a-Page-or-Report.md)   

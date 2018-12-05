@@ -27,7 +27,8 @@ Represents an retained earnings statement in [!INCLUDE[d365fin_long_md](../../in
 |[GET retainedEarningsStatement](../api/dynamics_retainedearningsstatement_get.md)|retainedEarningsStatement|Get a retained earnings statement object.|
 
 ## Properties
-| Property	| Type	|Description                                                           |
+
+| Property  | Type  |Description                                                           |
 |:----------|:------|:---------------------------------------------------------------------|
 |lineNumber |numeric|The retainedEarningsStatement item line number.                       |
 |display    |string |The retainedEarningsStatement item display name.                      |
@@ -54,7 +55,6 @@ Here is a JSON representation of the resource.
     "indentation": "int",
     "dateFilter": "date"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

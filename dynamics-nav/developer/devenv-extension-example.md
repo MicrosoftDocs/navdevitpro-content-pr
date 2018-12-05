@@ -85,7 +85,7 @@ table 50100 Reward
             // The "MaxValue" property sets the maximum value for the "Discount Percentage"
             // field.
             MaxValue = 100;
-            
+
             // The "DecimalPlaces" property is set to 2 to display discount values with  
             // exactly 2 decimals.
             DecimalPlaces = 2;
@@ -118,7 +118,7 @@ page 50101 "Reward Card"
 {
     // The page will be of type "Card" and it will be displayed in the characteristic manner.
     PageType = Card;
-    
+
     // The source table shows data from the "Reward" table.
     SourceTable = Reward;
 
@@ -142,7 +142,7 @@ page 50101 "Reward Card"
                 {
                     ApplicationArea = All;
                 }
-                
+
                 field("Discount Percentage";"Discount Percentage")
                 {
                     ApplicationArea = All;
@@ -219,7 +219,6 @@ field(5;"Last Modified Date";Date)
     // through the UI.
     Editable = false;
 }
-
 ```
 The **Last Modified Date** field requires constant changes to remain accurate. To keep it updated, triggers will be used. Triggers are predefined methods that are executed when certain actions happen. 
 
@@ -268,7 +267,6 @@ field("Last Modified Date";"Last Modified Date")
 {
     ApplicationArea = All;
 }
-
 ``` 
 Using the F6 key shortcut in Visual Studio Code launches the browser and enters the Designer.
 
@@ -307,7 +305,7 @@ tableextension 50103 "Customer Ext" extends Customer
 
             // Set whether to validate a table relationship.
             ValidateTableRelation = true;
-           
+
            // "OnValidate" trigger executes when data is entered in a field.
             trigger OnValidate();
             begin    
@@ -322,7 +320,6 @@ tableextension 50103 "Customer Ext" extends Customer
         }
     }
 }
-
 ```
 
 
@@ -345,7 +342,7 @@ pageextension 50104 "Customer Card Ext" extends "Customer Card"
             field("Reward ID";"Reward ID")
             {
                 ApplicationArea = All;
-                
+
                 // Lookup property is used to provide a lookup window for 
                 // a text box. It is set to true, because a lookup for 
                 // the field is needed.
@@ -389,7 +386,7 @@ codeunit 50105 RewardsInstallCode
 {
     // Set the codeunit to be an install codeunit. 
     Subtype = Install;
-    
+
     // This trigger includes code for company-related operations. 
     trigger OnInstallAppPerCompany();
     var

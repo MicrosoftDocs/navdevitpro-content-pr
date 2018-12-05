@@ -16,15 +16,15 @@ Provides functionality for designing XMLports.
 
  XMLport Designer contains the following column fields:  
 
--   **Node Name**  
+- **Node Name**  
 
--   **Node Type**  
+- **Node Type**  
 
--   **Source Type**  
+- **Source Type**  
 
--   **Data Source**  
+- **Data Source**  
 
- To open this window, on the **Tools** menu, choose **Object Designer**, choose **XMLport**, and then choose the **Design** button. You can choose the **New** button instead of the **Design** button to design a new XMLport.  
+  To open this window, on the **Tools** menu, choose **Object Designer**, choose **XMLport**, and then choose the **Design** button. You can choose the **New** button instead of the **Design** button to design a new XMLport.  
 
 ## Fields  
 
