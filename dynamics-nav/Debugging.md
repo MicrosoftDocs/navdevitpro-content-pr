@@ -22,23 +22,23 @@ The process of finding and correcting errors is called *debugging*. [!INCLUDE[na
 ## Business Sessions  
  To start debugging, you attach the debugger to a business session. The business session that you select can be any of the following:  
 
--   [!INCLUDE[nav_windows](includes/nav_windows_md.md)] session.  
+- [!INCLUDE[nav_windows](includes/nav_windows_md.md)] session.  
 
--   [!INCLUDE[nav_web](includes/nav_web_md.md)] session.  
+- [!INCLUDE[nav_web](includes/nav_web_md.md)] session.  
 
--   OData web services session.  
+- OData web services session.  
 
--   SOAP web services session.  
+- SOAP web services session.  
 
--   NAS services session.  
+- NAS services session.  
 
--   Background session that you start by using the [STARTSESSION Function \(Sessions\)](STARTSESSION-Function--Sessions-.md).  
+- Background session that you start by using the [STARTSESSION Function \(Sessions\)](STARTSESSION-Function--Sessions-.md).  
 
- After you attach the debugger, program flow runs until it reaches a breakpoint.  
+  After you attach the debugger, program flow runs until it reaches a breakpoint.  
 
- The remaining unattached business sessions continue to run without interruption.  
+  The remaining unattached business sessions continue to run without interruption.  
 
- For more information, see [Activating the Debugger](Activating-the-Debugger.md).  
+  For more information, see [Activating the Debugger](Activating-the-Debugger.md).  
 
 ## Breakpoints  
  The basic concept in debugging is the *breakpoint*, which is a mark that you set on a statement. When the program flow reaches the breakpoint, the debugger stops execution until you instruct it to continue. Without any breakpoints, the code runs without interruption when the debugger is active. For more information, see [Breakpoints](Breakpoints.md).  

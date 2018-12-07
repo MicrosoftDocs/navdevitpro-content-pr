@@ -41,7 +41,7 @@ After you create a query, you can use C/AL code to run the query and retrieve da
   
  ![State diagram for query function calls](media/NAV_Query_State_Diagram.png "NAV\_Query\_State\_Diagram")  
   
-> [!NOTE]  
->  -   The Read function can only be called when the query is in the opened state after a call to the OPEN function.  
-> -   *query*. *ColumnName* can only be called when the query is in reading state after a call to the READ function.  
-> -   The SAVEASCSV and SAVEASXML functions can be called from any state. If the dataset is currently open, then it will be closed. These functions implicitly call the OPEN, READ, and CLOSE functions, which pass the query through the Opened, Reading, and End Of Result Set states.
+> [!NOTE]
+> - The Read function can only be called when the query is in the opened state after a call to the OPEN function.  
+>   -   *query*. *ColumnName* can only be called when the query is in reading state after a call to the READ function.  
+>   -   The SAVEASCSV and SAVEASXML functions can be called from any state. If the dataset is currently open, then it will be closed. These functions implicitly call the OPEN, READ, and CLOSE functions, which pass the query through the Opened, Reading, and End Of Result Set states.

@@ -23,6 +23,7 @@ DELETE /businesscentral/companies({id})/items({id})
 ```
 
 ## Request headers
+
 |Header       |Value                    |
 |-------------|-------------------------|
 |Authorization|Bearer {token}. Required.|

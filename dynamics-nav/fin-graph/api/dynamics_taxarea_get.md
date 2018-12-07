@@ -24,6 +24,7 @@ GET /businesscentral/companies({id})/taxAreas({id})
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |

@@ -28,32 +28,34 @@ When a user creates a new database, that user is assigned only one permission se
 
 #### To modify permission sets with default permissions using [!INCLUDE[rim](includes/rim_md.md)]  
 
-1.  In the **Search** box, enter **Configuration Packages**, and then choose the related link.  
+1. In the **Search** box, enter **Configuration Packages**, and then choose the related link.  
 
-2.  On the **Home** tab, in the **Manage** group, choose **New** to create a new package.  
+2. On the **Home** tab, in the **Manage** group, choose **New** to create a new package.  
 
-3.  Enter a appropriate values in the **Package Code** and **Description** fields.  
+3. Enter a appropriate values in the **Package Code** and **Description** fields.  
 
-4.  On the **Tables** lines, add the following tables.  
+4. On the **Tables** lines, add the following tables.  
 
-    |Table name|Table number|  
-    |----------------|------------------|  
-    |Permission Set|2000000004|  
-    |Permission|2000000005|  
 
-5.  Select both lines, and on the **Tables** toolbar, choose **Excel**, and then choose **Export to Excel**.  
+   |   Table name   | Table number |
+   |----------------|--------------|
+   | Permission Set |  2000000004  |
+   |   Permission   |  2000000005  |
 
-6.  Navigate to the [!INCLUDE[rim](includes/rim_md.md)] package. Choose **Open**.  
 
-     The package contains all permission sets, including the Basic permission set. You can modify the permission settings in Excel. Save your changes.  
+5. Select both lines, and on the **Tables** toolbar, choose **Excel**, and then choose **Export to Excel**.  
 
-7.  On the **Tables** toolbar, choose **Excel**, and then choose **Import from Excel**.  
+6. Navigate to the [!INCLUDE[rim](includes/rim_md.md)] package. Choose **Open**.  
 
-8.  In the configuration packages list, select the .xlsx file.  
+    The package contains all permission sets, including the Basic permission set. You can modify the permission settings in Excel. Save your changes.  
+
+7. On the **Tables** toolbar, choose **Excel**, and then choose **Import from Excel**.  
+
+8. In the configuration packages list, select the .xlsx file.  
 
 9. On the **Home** tab, in the **Process** group, choose **Apply Package**.  
 
- You can also modify permission sets directly in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [How to: Create or Modify Permission Sets](How-to--Create-or-Modify-Permission-Sets.md). In addition, if you are upgrading from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)], you can upgrade permissions and roles as part of the upgrade process. For more information, see [Upgrading the Data](Upgrading-the-Data.md).  
+   You can also modify permission sets directly in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [How to: Create or Modify Permission Sets](How-to--Create-or-Modify-Permission-Sets.md). In addition, if you are upgrading from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)], you can upgrade permissions and roles as part of the upgrade process. For more information, see [Upgrading the Data](Upgrading-the-Data.md).  
 
 > [!NOTE]  
 >  Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], only UI elements that the user has permissions for will appear in the user interface. For more information, see [How to: Specify When UI Elements Are Removed](How-to--Specify-When-UI-Elements-Are-Removed.md).  

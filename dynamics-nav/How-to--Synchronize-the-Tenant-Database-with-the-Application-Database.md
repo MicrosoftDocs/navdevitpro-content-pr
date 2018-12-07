@@ -22,36 +22,36 @@ This topic describes how to synchronize the business data \(tenant\) database sc
 
 ## Synchronize database with the Sync-NAVTenant cmdlet  
 
-1.  On the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)], run **[!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell** as an Administrator.  
+1. On the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)], run **[!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell** as an Administrator.  
 
-    1.  Choose **Start**, in the **Search** box, type **[!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell**.  
+   1.  Choose **Start**, in the **Search** box, type **[!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell**.  
 
-    2.  Right-click the related link, and then choose **Run as Administrator**.  
+   2.  Right-click the related link, and then choose **Run as Administrator**.  
 
-2.  At the command prompt, type one of the following commands:  
+2. At the command prompt, type one of the following commands:  
 
-    -   If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is not configured to be a multitenant instance:  
+   - If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is not configured to be a multitenant instance:  
 
-        ```  
-        Sync-NAVTenant –ServerInstance <ServerInstanceName>  
-        ```  
+     ```  
+     Sync-NAVTenant –ServerInstance <ServerInstanceName>  
+     ```  
 
-    -   If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured to be a multitenant instance:  
+   - If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured to be a multitenant instance:  
 
-        ```  
-        Sync-NAVTenant –ServerInstance ServerInstanceName -Tenant TenantId  
-        ```  
+     ```  
+     Sync-NAVTenant –ServerInstance ServerInstanceName -Tenant TenantId  
+     ```  
 
      Change the following parameter values.  
 
      <table>
      <tr>
      <th>Parameter</th>
-     <th>[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]</th>
+     <th>Description</th>
      </tr>
      <tr>
      <td>NAVServerInstance</td>
-     <td>Specifies the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.</td>
+     <td>Specifies the Microsoft Dynamics NAV Server instance.</td>
      </tr>
      <tr>
      <td>TenantId</td>
@@ -59,7 +59,7 @@ This topic describes how to synchronize the business data \(tenant\) database sc
      </tr>
      </table>
 
-3.  Press Enter to run the cmdlet.  
+3. Press Enter to run the cmdlet.  
 
 ## See Also  
 [Synchronizing Table Schemas](Synchronizing-Table-Schemas.md)  

@@ -22,23 +22,23 @@ caps.latest.revision: 11
   
 ### To create a data collection set from the [!INCLUDE[navnow](includes/navnow_md.md)] template  
   
-1.  On the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], start Performance Monitor.  
+1. On the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], start Performance Monitor.  
   
-    -   Choose **Start**, in the **Search** box, type **perfmon**, and then choose the related link.  
+   -   Choose **Start**, in the **Search** box, type **perfmon**, and then choose the related link.  
   
-2.  In the navigation pane, expand **Data Collector Sets**, right-click **User-defined**, choose **New**, and then choose **Data Collector Set**.  
+2. In the navigation pane, expand **Data Collector Sets**, right-click **User-defined**, choose **New**, and then choose **Data Collector Set**.  
   
-3.  In the **Create new Data Collector Set Wizard** page, enter a name for the new data collector set. Select **Create from a template \(Recommended\)**, and then choose the **Next** button.  
+3. In the **Create new Data Collector Set Wizard** page, enter a name for the new data collector set. Select **Create from a template \(Recommended\)**, and then choose the **Next** button.  
   
-4.  On the **Which template would you like to use** page, choose the **Browse** button, locate the DataCollectorSet.xml, and then choose the **Open** button.  
+4. On the **Which template would you like to use** page, choose the **Browse** button, locate the DataCollectorSet.xml, and then choose the **Open** button.  
   
-     By default, the template is located in the [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service folder.  
+    By default, the template is located in the [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service folder.  
   
-5.  Choose the **Next** button, and then follow the instructions to finish creating the data collector set.  
+5. Choose the **Next** button, and then follow the instructions to finish creating the data collector set.  
   
-     To see the new Data Collector Set, in the navigation pane, expand **Data Collector Sets**, and then expand **User Defined**.  
+    To see the new Data Collector Set, in the navigation pane, expand **Data Collector Sets**, and then expand **User Defined**.  
   
- For information about how to start the Data Collector Set, see [To start and stop a Data Collector Set](How-to--Create-a-Data-Collector-for-Microsoft-Dynamics-NAV-Performance-Counters.md#StartDataCollectorSet).  
+   For information about how to start the Data Collector Set, see [To start and stop a Data Collector Set](How-to--Create-a-Data-Collector-for-Microsoft-Dynamics-NAV-Performance-Counters.md#StartDataCollectorSet).  
   
 ## See Also  
  [Working with Data Collector Sets](Working-with-Data-Collector-Sets.md)   

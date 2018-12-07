@@ -105,25 +105,25 @@ This topic describes how to set .NET Framework objects that are instantiated by 
 
 ###  <a name="ImportDb"></a> To import a .NET Framework assembly into the database  
 
-1.  Get the public key token for the .NET Framework assembly.  
+1. Get the public key token for the .NET Framework assembly.  
 
-     The public key token is a 16-character key that is given to the assembly when it is built and signed in Microsoft Visual Studio. To determine the public token key, run the Microsoft .NET Strong Name Utility \(sn.exe\) on the assembly. For more information, see [How to: Determine the Public Key Token of the Windows Client Control Add-in and .NET Framework Assembly](How-to--Determine-the-Public-Key-Token-of-the-Windows-Client-Control-Add-in-and-.NET-Framework-Assembly.md) and [Strong-Named Signing](http://go.microsoft.com/fwlink/?LinkID=150201&clcid=0x409).  
+    The public key token is a 16-character key that is given to the assembly when it is built and signed in Microsoft Visual Studio. To determine the public token key, run the Microsoft .NET Strong Name Utility \(sn.exe\) on the assembly. For more information, see [How to: Determine the Public Key Token of the Windows Client Control Add-in and .NET Framework Assembly](How-to--Determine-the-Public-Key-Token-of-the-Windows-Client-Control-Add-in-and-.NET-Framework-Assembly.md) and [Strong-Named Signing](http://go.microsoft.com/fwlink/?LinkID=150201&clcid=0x409).  
 
-2.  Create a compressed \(.zip type\) file that contains the .NET Framework assembly in the desired folder structure.  
+2. Create a compressed \(.zip type\) file that contains the .NET Framework assembly in the desired folder structure.  
 
-3.  You can import the compressed \(.zip\) file when you register the NET Framework assembly from the **Control Add-ins** page in [!INCLUDE[navnow](includes/navnow_md.md)].  
+3. You can import the compressed \(.zip\) file when you register the NET Framework assembly from the **Control Add-ins** page in [!INCLUDE[navnow](includes/navnow_md.md)].  
 
-4.  In the **Search** box, enter **Control Add-ins** and then choose the related link.  
+4. In the **Search** box, enter **Control Add-ins** and then choose the related link.  
 
-5.  In the **Control Add-ins** window, choose **New**, and then in the **Control Add-in Name** column, enter the control add-in name. In the **Public Key Token** column, enter the public key token that you obtained earlier.  
+5. In the **Control Add-ins** window, choose **New**, and then in the **Control Add-in Name** column, enter the control add-in name. In the **Public Key Token** column, enter the public key token that you obtained earlier.  
 
-6.  Choose **Import**.  
+6. Choose **Import**.  
 
-7.  In the **Import Control Add-in Resource** window, locate the.zip file, and then choose **Open**.  
+7. In the **Import Control Add-in Resource** window, locate the.zip file, and then choose **Open**.  
 
-8.  Choose the **OK** button to close the **Control Add-in** page.  
+8. Choose the **OK** button to close the **Control Add-in** page.  
 
- For more information about registering a control add-in, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
+   For more information about registering a control add-in, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
 
 > [!TIP]  
 >  You can also register the control add-in and import the files by using the [New-NAVAddin cmdlet](http://go.microsoft.com/fwlink/?LinkID=521781) or [Set-NAVAddin cmdlet](http://go.microsoft.com/fwlink/?LinkID=521784) from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  

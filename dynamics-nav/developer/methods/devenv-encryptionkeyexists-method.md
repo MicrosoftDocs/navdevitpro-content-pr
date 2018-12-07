@@ -33,12 +33,12 @@ Bool ENCRYPTIONKEYEXISTS()
 
 ```  
 IF ENCRYPTIONENABLED THEN  
-        IF ENCRYPTIONKEYEXISTS THEN  
-          MESSAGE('Encryption has been enabled and the encryption key is present in this server instance')  
-        ELSE  
-          MESSAGE('Encryption has been enabled but the encryption key is not present on this server instance')  
-      ELSE  
-        MESSAGE('Encryption has not been enabled')  
+        IF ENCRYPTIONKEYEXISTS THEN  
+          MESSAGE('Encryption has been enabled and the encryption key is present in this server instance')  
+        ELSE  
+          MESSAGE('Encryption has been enabled but the encryption key is not present on this server instance')  
+      ELSE  
+        MESSAGE('Encryption has not been enabled')  
 ```  
 
 ## See Also  

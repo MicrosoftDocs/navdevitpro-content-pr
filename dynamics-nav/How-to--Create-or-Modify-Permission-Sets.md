@@ -83,13 +83,13 @@ If the default permission sets that are provided with [!INCLUDE[navnow](includes
 
  For example, a user can have permission to run codeunit 80, Sales-Post. The Sales-Post codeunit performs many tasks, including modifying table 39, Purchase Line. When the user runs the Sales-Post codeunit, [!INCLUDE[navnow](includes/navnow_md.md)] checks whether the user has permission to modify the Purchase Line table.  
 
--   If not, then the codeunit cannot complete its tasks, and the user receives an error message.  
+- If not, then the codeunit cannot complete its tasks, and the user receives an error message.  
 
--   If so, the codeunit runs successfully.  
+- If so, the codeunit runs successfully.  
 
- However, the user does not need to have full access to the Purchase Line table to run the codeunit. If the user has indirect permission for the Purchase Line table, then the Sales-Post codeunit runs successfully.  
+  However, the user does not need to have full access to the Purchase Line table to run the codeunit. If the user has indirect permission for the Purchase Line table, then the Sales-Post codeunit runs successfully.  
 
- When a user has indirect permission, that user can only modify the Purchase Line table by running the Sales-Post codeunit or another object that has permission to modify the Purchase Line table. The user can only modify the Purchase Line table when doing so from supported application areas. The user cannot run the feature inadvertently or maliciously by other methods.  
+  When a user has indirect permission, that user can only modify the Purchase Line table by running the Sales-Post codeunit or another object that has permission to modify the Purchase Line table. The user can only modify the Purchase Line table when doing so from supported application areas. The user cannot run the feature inadvertently or maliciously by other methods.  
 
 ## See Also  
  [Special Permission Sets](Special-Permission-Sets.md)   

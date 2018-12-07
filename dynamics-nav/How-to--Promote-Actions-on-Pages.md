@@ -16,13 +16,13 @@ Actions that appear in the **Home** tab of the ribbon are called *promoted actio
   
  When promoting actions, you have the following options:  
   
--   Organize promoted actions under different categories. For example, the categories can be **New**, **Tasks**, **Reports**, and **Discounts**. The order of actions under a category is determined by its order in the Action Designer.  You define the caption for each category. For more information on defining the promoted categories, see [How to: Define Promoted Action Categories Captions for the Ribbon](How-to--Define-Promoted-Action-Categories-Captions-for-the-Ribbon.md).  
+- Organize promoted actions under different categories. For example, the categories can be **New**, **Tasks**, **Reports**, and **Discounts**. The order of actions under a category is determined by its order in the Action Designer.  You define the caption for each category. For more information on defining the promoted categories, see [How to: Define Promoted Action Categories Captions for the Ribbon](How-to--Define-Promoted-Action-Categories-Captions-for-the-Ribbon.md).  
   
--   Set up an image that displays with the action. If you do not set up an image yourself, then a default image is used. For more information about promoted action images, see [How to: Set an Icon on an Action](How-to--Set-an-Icon-on-an-Action.md).  
+- Set up an image that displays with the action. If you do not set up an image yourself, then a default image is used. For more information about promoted action images, see [How to: Set an Icon on an Action](How-to--Set-an-Icon-on-an-Action.md).  
   
--   Specify that the promoted action only appears on the **Home** tab, not on the tab where it is defined.  
+- Specify that the promoted action only appears on the **Home** tab, not on the tab where it is defined.  
   
- If there are no promoted actions, then the **Home** tab is hidden.  
+  If there are no promoted actions, then the **Home** tab is hidden.  
   
 > [!IMPORTANT]  
 >  In the Dynamics NAV Universal App, only promoted actions are displayed. For more information, see [Differences and Limitations When Developing Pages for the Microsoft Dynamics NAV Universal App](Differences-and-Limitations-When-Developing-Pages-for-the-Microsoft-Dynamics-NAV-Universal-App.md).  

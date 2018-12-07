@@ -15,7 +15,7 @@ caps.latest.revision: 18
 redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-control-addin-object
 ---
 
- 
+
 
 # Control Add-In Object
 The control add-in object allows you to add custom functionality to [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)]. A control add-in is a custom control, or visual element, for displaying and modifying data on pages. Control add-ins can exchange data with the [!INCLUDE[d365fin_md](includes/d365fin_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] server on various data types and can respond to user interaction to raise events that execute additional AL code.
@@ -97,7 +97,6 @@ page 50100 CustomersMapPage
         }
     }
 }
-
 ```
 
 ## See Also  

@@ -18,13 +18,13 @@ The Open Data Protocol \(OData\) is a web protocol that is designed for querying
   
  OData can be found in other Microsoft products and technologies, including the following:  
   
--   Microsoft Excel implements OData for its PowerPivot add-in.  
+- Microsoft Excel implements OData for its PowerPivot add-in.  
   
--   Microsoft SharePoint can expose its list-oriented data with OData.  
+- Microsoft SharePoint can expose its list-oriented data with OData.  
   
--   Microsoft Azure Table Services are based on OData.  
+- Microsoft Azure Table Services are based on OData.  
   
- The topics in this section describe the key concepts and techniques for accessing [!INCLUDE[navnow](includes/navnow_md.md)] data from OData applications that are supported by [!INCLUDE[navnow](includes/navnow_md.md)].  
+  The topics in this section describe the key concepts and techniques for accessing [!INCLUDE[navnow](includes/navnow_md.md)] data from OData applications that are supported by [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 |To|See|  
 |--------|---------|  

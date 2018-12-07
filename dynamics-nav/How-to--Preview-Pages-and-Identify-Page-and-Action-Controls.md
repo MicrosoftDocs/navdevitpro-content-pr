@@ -39,26 +39,26 @@ In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], you can preview 
   
 #### To identify page controls  
   
--   In the **Page Preview** window, select an element. The element is surrounded by a blue border, and the control that defines the element is highlighted in Page Designer.  
+- In the **Page Preview** window, select an element. The element is surrounded by a blue border, and the control that defines the element is highlighted in Page Designer.  
   
--   In Page Designer, select a control. The element that corresponds to the control is surrounded by a blue border in the **Page Preview** window.  
+- In Page Designer, select a control. The element that corresponds to the control is surrounded by a blue border in the **Page Preview** window.  
   
- The following figure shows an example for the **Document Date** field on page 42, Sales Order.  
+  The following figure shows an example for the **Document Date** field on page 42, Sales Order.  
   
- ![Page designer and preview with marked field](media/NAV_PagePreview_PageControls.png "NAV\_PagePreview\_PageControls")  
+  ![Page designer and preview with marked field](media/NAV_PagePreview_PageControls.png "NAV\_PagePreview\_PageControls")  
   
 > [!NOTE]  
 >  If you select a part control that contains a subpage, such as a FastTab or FactBox, then the page preview displays the area as gray. To open Page Designer for the subpage, on the shortcut menu of the part, choose **Go To Definition**.  
   
 #### To identify action controls  
   
--   In the **Page Preview** window, select an action. The action is surrounded by a blue border, and Action Designer opens with the action’s control highlighted.  
+- In the **Page Preview** window, select an action. The action is surrounded by a blue border, and Action Designer opens with the action’s control highlighted.  
   
--   In Action Designer, select an action control. The element that corresponds to the action control is surrounded by a blue border in the **Page Preview** window.  
+- In Action Designer, select an action control. The element that corresponds to the action control is surrounded by a blue border in the **Page Preview** window.  
   
- The following figure shows an example for the **Shipments** action on page 42, Sales Order.  
+  The following figure shows an example for the **Shipments** action on page 42, Sales Order.  
   
- ![Action designer and preview with selected action](media/NAV_PagePreview_ActionControl.png "NAV\_PagePreview\_ActionControl")  
+  ![Action designer and preview with selected action](media/NAV_PagePreview_ActionControl.png "NAV\_PagePreview\_ActionControl")  
   
 > [!NOTE]  
 >  In the **Page Preview** window, you cannot choose actions that are generated automatically on a page, such as **New**, **Edit**, and **Post**, or actions that are contained in a group that is defined by an **ActionGroup** control.  

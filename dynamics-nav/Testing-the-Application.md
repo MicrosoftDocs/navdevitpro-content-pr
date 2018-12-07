@@ -38,24 +38,24 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
 
  The functions in a test codeunit are one of the following types:  
 
--   Test function  
+- Test function  
 
--   Handler function  
+- Handler function  
 
--   Normal function  
+- Normal function  
 
- For more information, see [How to: Create Test Codeunits and Test Functions](How-to--Create-Test-Codeunits-and-Test-Functions.md).  
+  For more information, see [How to: Create Test Codeunits and Test Functions](How-to--Create-Test-Codeunits-and-Test-Functions.md).  
 
 ### Test Runner Codeunits  
  You use test runner codeunits to manage the execution of test codeunits and to integrate with other test management, execution, and reporting frameworks. By integrating with a test management framework, you can automate your tests and enable them to run unattended.  
 
  Test runner codeunits include the following triggers:  
 
--   [OnBeforeTestRun Trigger](OnBeforeTestRun-Trigger.md)  
+- [OnBeforeTestRun Trigger](OnBeforeTestRun-Trigger.md)  
 
--   [OnAfterTestRun Trigger](OnAfterTestRun-Trigger.md)  
+- [OnAfterTestRun Trigger](OnAfterTestRun-Trigger.md)  
 
- You can use these triggers to perform preprocessing and postprocessing, such as initialization or logging test results. If you implement the **OnBeforeTestRun** trigger, then it executes before each test function executes. If you implement the **OnAfterTestRun** trigger, then it executes after each test function executes and also suppresses the automatic display of the results message.  
+  You can use these triggers to perform preprocessing and postprocessing, such as initialization or logging test results. If you implement the **OnBeforeTestRun** trigger, then it executes before each test function executes. If you implement the **OnAfterTestRun** trigger, then it executes after each test function executes and also suppresses the automatic display of the results message.  
 
 > [!NOTE]  
 >  The **OnBeforeTestRun** and **OnAfterTestRun** triggers are optional. By default, they are not available on a test runner codeunit. To implement these triggers, you must manually add them as functions and you must specify the correct signature.  
@@ -70,11 +70,11 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
 
  There are two types of test pages:  
 
--   TestPage, which is a regular page and can be any kind of page. This includes page parts or subpages.  
+- TestPage, which is a regular page and can be any kind of page. This includes page parts or subpages.  
 
--   TestRequestPage, which represents the request page on a report.  
+- TestRequestPage, which represents the request page on a report.  
 
- You can access the fields on a page and the properties of a page or a field by using the dot notation. You can open and close test pages, perform actions on the test page, and navigate around the test page by using C/AL functions. For more information, see [Testing Pages](Testing-Pages.md).  
+  You can access the fields on a page and the properties of a page or a field by using the dot notation. You can open and close test pages, perform actions on the test page, and navigate around the test page by using C/AL functions. For more information, see [Testing Pages](Testing-Pages.md).  
 
 ### UI Handlers  
  To create tests that can be automated, you must handle cases when user interaction is requested by code that is being tested. UI handlers run instead of the requested UI. UI handlers provide the same exit state as the UI. For example, a test function that has a FunctionType of ConfirmHandler handles CONFIRM function calls. If code that is being tested calls the CONFIRM function, then the ConfirmHandler function is called instead of the CONFIRM function. You write code in the ConfirmHandler function to verify that the expected question is displayed by the CONFIRM function and you write C/AL code to return the relevant reply.  

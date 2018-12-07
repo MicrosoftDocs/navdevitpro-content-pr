@@ -15,13 +15,13 @@ manager: edupont
 # How to Add Translated Strings By Importing and Exporting Multilanguage Files in Dynamics NAV
 To add string translations for UI elements in a standard country/region-specific version of [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you install a language module so that end users can view the UI elements in a different language. If you have customized objects in the application, then you must also add translations for those objects. You can translate strings in the following ways:  
   
--   By importing and exporting text files that contain translated strings for multiple objects in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
+- By importing and exporting text files that contain translated strings for multiple objects in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   
--   By using the Multilanguage Editor and editing the CaptionML property of individual objects.  
+- By using the Multilanguage Editor and editing the CaptionML property of individual objects.  
   
--   By running [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to update CaptionML properties.  
+- By running [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to update CaptionML properties.  
   
- This topic describes how to import and export multilanguage files. For more information about how to use the Multilanguage Editor, see [How to: Add Translated Strings By Using the Multilanguage Editor](How-to--Add-Translated-Strings-By-Using-the-Multilanguage-Editor.md). For more information about how to run [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to export and import languages, see [Working with Application Objects as Text Files](Working-with-Application-Objects-as-Text-Files.md).  
+  This topic describes how to import and export multilanguage files. For more information about how to use the Multilanguage Editor, see [How to: Add Translated Strings By Using the Multilanguage Editor](How-to--Add-Translated-Strings-By-Using-the-Multilanguage-Editor.md). For more information about how to run [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to export and import languages, see [Working with Application Objects as Text Files](Working-with-Application-Objects-as-Text-Files.md).  
   
 ## Exporting Multilanguage Files  
  To translate strings for multiple objects, you must first export all text strings.  

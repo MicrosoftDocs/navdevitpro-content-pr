@@ -17,21 +17,21 @@ You can activate the debugger at the command prompt. After you activate the debu
   
 ### To activate the debugger at the command prompt  
   
-1.  At the command prompt, locate the [!INCLUDE[rtc](includes/rtc_md.md)] directory. The default location on a 32-bit computer is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client. The default location on a 64-bit computer is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client.  
+1. At the command prompt, locate the [!INCLUDE[rtc](includes/rtc_md.md)] directory. The default location on a 32-bit computer is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client. The default location on a 64-bit computer is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client.  
   
-2.  Enter the following command:  
+2. Enter the following command:  
   
-    ```  
-    Microsoft.Dynamics.Nav.Client.exe "DynamicsNAV://< Server>[:<port]>/<ServerInstance>/<Company>/debug"  
-    ```  
+   ```  
+   Microsoft.Dynamics.Nav.Client.exe "DynamicsNAV://< Server>[:<port]>/<ServerInstance>/<Company>/debug"  
+   ```  
   
-3.  In the **Session List** window, do one of the following:  
+3. In the **Session List** window, do one of the following:  
   
-    -   Choose **Debug Next**. The debugger is now active and is waiting to attach to a session.  
+   -   Choose **Debug Next**. The debugger is now active and is waiting to attach to a session.  
   
-    -   Select a session, and then choose **Debug**. The debugger is now active and attached to the selected session.  
+   -   Select a session, and then choose **Debug**. The debugger is now active and attached to the selected session.  
   
- In the **Debugger** window, you can enable and disable breakpoints, step through lines of code, and view variable and call stack information. For more information, see [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md).  
+   In the **Debugger** window, you can enable and disable breakpoints, step through lines of code, and view variable and call stack information. For more information, see [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md).  
   
 ## See Also  
  [Activating the Debugger](Activating-the-Debugger.md)   

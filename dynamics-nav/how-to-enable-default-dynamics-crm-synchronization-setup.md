@@ -28,15 +28,15 @@ This topic describes how to enable the default synchronization setup between [!I
 
 ### To enable the default [!INCLUDE[crm_md](includes/crm_md.md)] synchronization setup
 
-1.  In the **Search** box, enter **5330 CRM Connection Setup**, and then choose the related link.  
+1. In the **Search** box, enter **5330 CRM Connection Setup**, and then choose the related link.  
 
-2.  The [!INCLUDE[crm_md](includes/crm_md.md)] connection must be enabled first. To enable the connection, select the **Enable** check box.  
+2. The [!INCLUDE[crm_md](includes/crm_md.md)] connection must be enabled first. To enable the connection, select the **Enable** check box.  
 
-3.  On the **Actions** tab, in the **General** group, choose **Use Default Synchronization Setup**, and then choose the **OK** button.  
+3. On the **Actions** tab, in the **General** group, choose **Use Default Synchronization Setup**, and then choose the **OK** button.  
 
-4.  Choose the **OK** button when done.  
+4. Choose the **OK** button when done.  
 
- You can now synchronize coupled [!INCLUDE[crm_md](includes/crm_md.md)] records and [!INCLUDE[navnow_md](includes/navnow_md.md)] records. You can perform this manually on an individual record basis or automatically on a scheduled time interval by using the default [!INCLUDE[crm_md](includes/crm_md.md)] synchronization jobs. For more information, see [How to: Couple and Synchronize Records Manually](How-to-Couple-and-Synchronize-Records-Manually.md) and [Scheduled Synchronization Using the Synchronization Job Queue Entries](Scheduled-Synchronization-Using-the-Synchronization-Job-Queue-Entries.md).  
+   You can now synchronize coupled [!INCLUDE[crm_md](includes/crm_md.md)] records and [!INCLUDE[navnow_md](includes/navnow_md.md)] records. You can perform this manually on an individual record basis or automatically on a scheduled time interval by using the default [!INCLUDE[crm_md](includes/crm_md.md)] synchronization jobs. For more information, see [How to: Couple and Synchronize Records Manually](How-to-Couple-and-Synchronize-Records-Manually.md) and [Scheduled Synchronization Using the Synchronization Job Queue Entries](Scheduled-Synchronization-Using-the-Synchronization-Job-Queue-Entries.md).  
 
 ##  <a name="GenIntIds"></a> Generating Integration IDs for New Records  
  To synchronize records in [!INCLUDE[navnow_md](includes/navnow_md.md)], such as customers or contacts, with [!INCLUDE[crm_md](includes/crm_md.md)] entity records, the [!INCLUDE[navnow_md](includes/navnow_md.md)] record must have an integration ID. When a [!INCLUDE[crm_md](includes/crm_md.md)] connection is enabled, integration IDs for new records are automatically generated. However, in some cases, you may temporarily disable the [!INCLUDE[crm_md](includes/crm_md.md)] connection. If you want to integrate [!INCLUDE[navnow_md](includes/navnow_md.md)] records that were added while the [!INCLUDE[crm_md](includes/crm_md.md)] was disabled, you must generate integration IDs for the records. Complete the following procedure to populate the integration IDs for the new records.  

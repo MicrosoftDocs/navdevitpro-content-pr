@@ -63,15 +63,15 @@ MESSAGE(Text001 + Text002 + Text003, FldRef1.CAPTION, FldRef2.CAPTION, FldRef3.C
   
  The message window displays the following:  
   
--   **Index 1: No.**  
+- **Index 1: No.**  
   
--   **Index 2: Sell-to Customer No.**  
+- **Index 2: Sell-to Customer No.**  
   
--   **Index 3: Bill-to Customer No.**  
+- **Index 3: Bill-to Customer No.**  
   
- The following illustration shows the first fields in table 112, Sales Invoice Header, when you design the table in Object Designer, and shows the keys for table 112. The order of the fields in the index differs from the order of the fields in the table. The index lists the field in the primary key first.  
+  The following illustration shows the first fields in table 112, Sales Invoice Header, when you design the table in Object Designer, and shows the keys for table 112. The order of the fields in the index differs from the order of the fields in the table. The index lists the field in the primary key first.  
   
- ![Table 112 designer and keys](media/DesignTable112.png "DesignTable112")  
+  ![Table 112 designer and keys](media/DesignTable112.png "DesignTable112")  
   
 ## See Also  
  [RecordRef Data Type](RecordRef-Data-Type.md)

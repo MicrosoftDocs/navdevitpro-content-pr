@@ -14,11 +14,11 @@ manager: edupont
 # Serializing .NET Framework Types
 In Microsoft .NET Framework, *serialization* is the process of converting an object into a format that can transmitted across a network connection. Microsoft Dynamics NAV .NET Framework interoperability uses serialization for communication between client-side .NET Framework objects and server-side .NET Framework objects. When you configure DotNet variables in a [!INCLUDE[navnow](includes/navnow_md.md)] object, you can specify .NET Framework objects to target either the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_server](includes/nav_server_md.md)]. In some cases, a client-side object and a server-side object must communicate and share data, such as return values and parameters. The serialization occurs when the following conditions are true:  
 
--   When a server-side object is assigned to a client-side object, and vice-versa.  
+- When a server-side object is assigned to a client-side object, and vice-versa.  
 
--   When a server-side object is passed as a parameter in a method call from the server to a client-side object, and vice-versa.  
+- When a server-side object is passed as a parameter in a method call from the server to a client-side object, and vice-versa.  
 
- Serialization requires that the .NET Framework types that are used by the DotNet variables are serializable. Many types in the Microsoft .NET Framework class library are already serializable. If you are using a .NET Framework type that cannot be serialized, then you must modify the type to make it serializable.  
+  Serialization requires that the .NET Framework types that are used by the DotNet variables are serializable. Many types in the Microsoft .NET Framework class library are already serializable. If you are using a .NET Framework type that cannot be serialized, then you must modify the type to make it serializable.  
 
 > [!IMPORTANT]  
 >  For the [!INCLUDE[nav_web](includes/nav_web_md.md)], you cannot implement Microsoft .NET Framework interoperability objects that target the client.  

@@ -25,6 +25,7 @@ PATCH /businesscentral/companies({id})/customers({id})
 ```
 
 ## Request headers
+
 |Header         |Value                     |
 |---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |

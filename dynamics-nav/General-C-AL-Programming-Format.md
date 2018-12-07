@@ -14,21 +14,21 @@ manager: edupont
 # General C/AL Programming Format
 To make it easy to maintain an application, you should follow a few strict guidelines when you write C/AL code. This section describes the general rules for:  
   
--   Spacing and indentation  
+- Spacing and indentation  
   
--   Parentheses  
+- Parentheses  
   
--   Comments  
+- Comments  
   
--   Symbolic values  
+- Symbolic values  
   
--   Parameters  
+- Parameters  
   
--   Order in expressions  
+- Order in expressions  
   
--   Order of variables  
+- Order of variables  
   
- In addition, we recommend that you enter all C/AL code as English \(United States\). If all code is in the same language, then it is easier to maintain the application.  
+  In addition, we recommend that you enter all C/AL code as English \(United States\). If all code is in the same language, then it is easier to maintain the application.  
   
 ## Spacing and Indentation  
  The following examples show how to use spacing and indentation.  
@@ -237,21 +237,21 @@ END;
 ## Order of Variables  
  List variables in the following order:  
   
--   Record variables  
+- Record variables  
   
--   Page variables  
+- Page variables  
   
--   Report variables  
+- Report variables  
   
--   XMLport variables  
+- XMLport variables  
   
--   Codeunit variables  
+- Codeunit variables  
   
--   Dialog, file, and BLOB variables  
+- Dialog, file, and BLOB variables  
   
--   Simple variables  
+- Simple variables  
   
- Record variables are listed in an order that reflects the hierarchy of the tables that are used in the database. Base tables come before journals and other nonposted lines and headers, which themselves come before ledger entries and posted lines and headers.  
+  Record variables are listed in an order that reflects the hierarchy of the tables that are used in the database. Base tables come before journals and other nonposted lines and headers, which themselves come before ledger entries and posted lines and headers.  
   
 ### Example  
   

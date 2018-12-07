@@ -68,7 +68,6 @@ Content-type: application/json
   "displayName": "Taxable Olympic Furniture",
   "lastModifiedDateTime": "2017-03-15T02:20:57.09Z"
 }
-
 ```
 
 

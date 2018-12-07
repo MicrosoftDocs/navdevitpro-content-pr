@@ -32,13 +32,13 @@ You can only rename a company if you have the relevant permission.
 
 ### To rename a company in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
 
-1.  In the **Search** box, enter **Companies**, and then choose the related link.  
+1. In the **Search** box, enter **Companies**, and then choose the related link.  
 
-2.  Replace the current company name with the new name that you want to use.  
+2. Replace the current company name with the new name that you want to use.  
 
-3.  Choose the **OK** button to accept the new company name.  
+3. Choose the **OK** button to accept the new company name.  
 
- You can rename a company at any time. You can use this function if you have made a mistake when naming the company, or if you think that a different name will be easier to recognize. However, renaming a company that has been used and already contains data can take some time.  
+   You can rename a company at any time. You can use this function if you have made a mistake when naming the company, or if you think that a different name will be easier to recognize. However, renaming a company that has been used and already contains data can take some time.  
 
 > [!NOTE]  
 >  When you work in the [!INCLUDE[demolonglight](includes/demolonglight_md.md)] and use the Cronus.flf license file, you can only change the company name to one that starts with CRONUS with uppercase letters.  

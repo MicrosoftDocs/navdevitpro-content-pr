@@ -61,21 +61,21 @@ Query.ColumnName
   
  This example requires that you do the following:  
   
--   Create a query called **Customer\_SalesQuantity** that is links table **18 Customer** with table  **37 Sales Lines** from the [!INCLUDE[demolong](includes/demolong_md.md)]. Include columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
+- Create a query called **Customer\_SalesQuantity** that is links table **18 Customer** with table  **37 Sales Lines** from the [!INCLUDE[demolong](includes/demolong_md.md)]. Include columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
   
-     For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).  
+   For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).  
   
--   Create the following variable and text constant.  
+- Create the following variable and text constant.  
   
-    |Variable name|DataType|Subtype|  
-    |-------------------|--------------|-------------|  
-    |MyQuery|Query|Customer\_SalesQuantity|  
+  |Variable name|DataType|Subtype|  
+  |-------------------|--------------|-------------|  
+  |MyQuery|Query|Customer\_SalesQuantity|  
   
-    |Text constant name|ENU Value|  
-    |------------------------|---------------|  
-    |Text000|Customer name = %1, Quantity = %2|  
+  |Text constant name|ENU Value|  
+  |------------------------|---------------|  
+  |Text000|Customer name = %1, Quantity = %2|  
   
- The following C/AL code opens the query, reads each row of dataset, and then displays a message that has the content of the row. You can add the code to a codeunit, and then run the codeunit to see the results.  
+  The following C/AL code opens the query, reads each row of dataset, and then displays a message that has the content of the row. You can add the code to a codeunit, and then run the codeunit to see the results.  
   
 ```  
 // Sets a filter to display only sales quantities greater than 20.  

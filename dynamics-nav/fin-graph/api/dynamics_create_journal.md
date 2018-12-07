@@ -24,6 +24,7 @@ POST /businesscentral/companies({id})/journals({id})
 ```
 
 ## Request headers
+
 |Header        |Value                     |
 |--------------|--------------------------|
 |Authorization |Bearer {token}. Required. |
@@ -44,7 +45,6 @@ Here is an example of a request.
 ```json
 POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/journals
 Content-type: application/json
-
 ```json
 {
   "code": "DEFAULT"

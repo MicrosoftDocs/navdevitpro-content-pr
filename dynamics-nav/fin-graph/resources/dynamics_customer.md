@@ -38,7 +38,8 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 
 
 ## Properties
-| Property	  | Type	 |Description|
+
+| Property    | Type     |Description|
 |:------------|:---------|:----------|
 |id           |GUID      |The unique ID of the item. Non-editable.|
 |number       |string    |The customer number.|
@@ -107,8 +108,6 @@ Here is a JSON representation of the resource.
     "totalSalesExcludingTax": "numeric",
     "lastModifiedDateTime": "datetime"
 }
-
-
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

@@ -27,7 +27,8 @@ Represents a trial balance in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |[GET trialBalance](../api/dynamics_trialbalance_get.md)|trialBalance|Gets a trial balance object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |number|string|The G/L Account number for the trialBalance item|
 |display|string|The G/L Account name for the trialBalance item.|
@@ -56,7 +57,6 @@ Here is a JSON representation of the resource.
     "balanceAtDateCredit": "string",
     "dateFilter": "date"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

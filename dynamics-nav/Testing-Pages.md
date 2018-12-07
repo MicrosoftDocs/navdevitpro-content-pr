@@ -14,19 +14,19 @@ manager: edupont
 # Testing Pages
 You use test page objects to simulate user interactions with the application. You can:  
   
--   View or change the value of a field on a test page.  
+- View or change the value of a field on a test page.  
   
--   View the data on page parts.  
+- View the data on page parts.  
   
--   View or change the value of a field on a subpage.  
+- View or change the value of a field on a subpage.  
   
--   Filter the data on a test page.  
+- Filter the data on a test page.  
   
--   Perform any actions that are available on the page.  
+- Perform any actions that are available on the page.  
   
--   Navigate to different records.  
+- Navigate to different records.  
   
- You must consider how you set the [TransactionModel Property](TransactionModel-Property.md) to simulate the scenario that you want to test and to return the database to its initial state after the test.  
+  You must consider how you set the [TransactionModel Property](TransactionModel-Property.md) to simulate the scenario that you want to test and to return the database to its initial state after the test.  
   
 > [!NOTE]  
 >  Test functions and code on test pages run on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, even though they simulate client interactions.  

@@ -24,19 +24,19 @@ Permissions are required in SQL Server to create and manage [!INCLUDE[navnow](in
   
  In the Object Explorer pane in SQL Server Management Studio, follow these steps after connecting to the [!INCLUDE[navnow](includes/navnow_md.md)] SQL Server instance:  
   
-1.  Expand the **Security** node, right-click **Logins**, and choose **New Login**.  
+1. Expand the **Security** node, right-click **Logins**, and choose **New Login**.  
   
-     If the administrator already has a login, right-click the user and choose **Properties**. Then go to step 4.  
+    If the administrator already has a login, right-click the user and choose **Properties**. Then go to step 4.  
   
-2.  In the **Login – New** dialog box, select **Search**.  
+2. In the **Login – New** dialog box, select **Search**.  
   
-3.  In the **Select User or Group** dialog box, select a valid Active Directory user.  
+3. In the **Select User or Group** dialog box, select a valid Active Directory user.  
   
-4.  In the **Login – New** dialog box, under **Select a Page**, choose **Server Roles**. Select the **sysadmin** check box.  
+4. In the **Login – New** dialog box, under **Select a Page**, choose **Server Roles**. Select the **sysadmin** check box.  
   
-5.  Choose the **OK** button to close the **Login – New** dialog box.  
+5. Choose the **OK** button to close the **Login – New** dialog box.  
   
- When administrators create [!INCLUDE[navnow](includes/navnow_md.md)] databases in the [!INCLUDE[navnow](includes/navnow_md.md)] development environment, the account running [!INCLUDE[nav_server](includes/nav_server_md.md)] is automatically granted the db\_owner database role for these databases.  
+   When administrators create [!INCLUDE[navnow](includes/navnow_md.md)] databases in the [!INCLUDE[navnow](includes/navnow_md.md)] development environment, the account running [!INCLUDE[nav_server](includes/nav_server_md.md)] is automatically granted the db\_owner database role for these databases.  
   
 ## Permissions for Managing Companies, Objects, and Licenses  
  Administrators who create [!INCLUDE[navnow](includes/navnow_md.md)] databases automatically have permission to manage companies, objects, and licenses in that database.  

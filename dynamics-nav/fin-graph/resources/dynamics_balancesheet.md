@@ -27,7 +27,8 @@ Represents a balanceSheet object in [!INCLUDE[d365fin_long_md](../../includes/d3
 |[GET balanceSheet](../api/dynamics_balancesheet_get.md)|balanceSheet|Get a balanceSheet object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:-------------|:-------|:----------|
 |lineNumber    |numeric |The balanceSheet item line number.|
 |display       |string  |The balanceSheet item display name.|
@@ -54,7 +55,6 @@ Here is a JSON representation of the resource.
     "indentation": "int",
     "dateFilter": "date"
 }
-
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

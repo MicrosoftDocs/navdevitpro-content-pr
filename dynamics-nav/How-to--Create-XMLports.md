@@ -17,51 +17,51 @@ You design XMLports to export data from Microsoft Dynamics NAV tables or import 
   
 ### To design an XMLport  
   
-1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1. In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
-2.  In Object Designer, choose **XMLport**, and then choose the **New** button to open **XMLport Designer**.  
+2. In Object Designer, choose **XMLport**, and then choose the **New** button to open **XMLport Designer**.  
   
-3.  On the **View** menu, choose **Properties** to open the **XMLport-Properties** window.  
+3. On the **View** menu, choose **Properties** to open the **XMLport-Properties** window.  
   
-4.  In the **XML-Properties** window, set the [Direction Property](Direction-Property.md). If you want to export data, set the property to **Export**. If you want to import data, set the property to **Import**.  
+4. In the **XML-Properties** window, set the [Direction Property](Direction-Property.md). If you want to export data, set the property to **Export**. If you want to import data, set the property to **Import**.  
   
-5.  Set the [Format Property \(XMLports\)](Format-Property--XMLports-.md) to the format of the document you want to import or export. You can set the format property to **Xml**, **Variable Text** or **Fixed Text**. By default the format property is set to **Xml**.  
+5. Set the [Format Property \(XMLports\)](Format-Property--XMLports-.md) to the format of the document you want to import or export. You can set the format property to **Xml**, **Variable Text** or **Fixed Text**. By default the format property is set to **Xml**.  
   
-6.  If you set the format property to variable text, then do the following:  
+6. If you set the format property to variable text, then do the following:  
   
-    1.  Set the following properties. By default these properties are set as shown in the table but you change the values.  
+   1.  Set the following properties. By default these properties are set as shown in the table but you change the values.  
   
-        |Property|Value|  
-        |--------------|-----------|  
-        |[TextEncoding Property \(XMLports\)](TextEncoding-Property--XMLports-.md)|\<MSDOS>|  
-        |[FieldDelimiter Property](FieldDelimiter-Property.md)|“|  
-        |[FieldSeparator Property](FieldSeparator-Property.md)|,|  
-        |[RecordSeparator Property](RecordSeparator-Property.md)|\<NewLine>|  
-        |[TableSeparator Property](TableSeparator-Property.md)|\<NewLine>\<NewLine>|  
+       |Property|Value|  
+       |--------------|-----------|  
+       |[TextEncoding Property \(XMLports\)](TextEncoding-Property--XMLports-.md)|\<MSDOS>|  
+       |[FieldDelimiter Property](FieldDelimiter-Property.md)|“|  
+       |[FieldSeparator Property](FieldSeparator-Property.md)|,|  
+       |[RecordSeparator Property](RecordSeparator-Property.md)|\<NewLine>|  
+       |[TableSeparator Property](TableSeparator-Property.md)|\<NewLine>\<NewLine>|  
   
-    > [!NOTE]  
-    >  If you are importing a text file, you must examine the text file to determine the appropriate values for these properties.  
+   > [!NOTE]  
+   >  If you are importing a text file, you must examine the text file to determine the appropriate values for these properties.  
   
-7.  If you set the file format to fixed text, then do the following:  
+7. If you set the file format to fixed text, then do the following:  
   
-    1.  Set the following properties. By default, these properties are set as shown in the following table but you can change the values.  
+   1.  Set the following properties. By default, these properties are set as shown in the following table but you can change the values.  
   
-        |Property|Value|  
-        |--------------|-----------|  
-        |[TextEncoding Property \(XMLports\)](TextEncoding-Property--XMLports-.md)|\<MSDOS>|  
-        |[RecordSeparator Property](RecordSeparator-Property.md)|\<NewLine>|  
-        |[TableSeparator Property](TableSeparator-Property.md)|\<NewLine>\<NewLine>|  
+       |Property|Value|  
+       |--------------|-----------|  
+       |[TextEncoding Property \(XMLports\)](TextEncoding-Property--XMLports-.md)|\<MSDOS>|  
+       |[RecordSeparator Property](RecordSeparator-Property.md)|\<NewLine>|  
+       |[TableSeparator Property](TableSeparator-Property.md)|\<NewLine>\<NewLine>|  
   
-    > [!NOTE]  
-    >  If you are importing a text file, you must examine the text file to determine the appropriate values for these properties.  
+   > [!NOTE]  
+   >  If you are importing a text file, you must examine the text file to determine the appropriate values for these properties.  
   
-8.  If you set the file format to XML, then you can set up namespaces by setting the following properties as required:  
+8. If you set the file format to XML, then you can set up namespaces by setting the following properties as required:  
   
-    -   [Namespaces Property](Namespaces-Property.md)  
+   - [Namespaces Property](Namespaces-Property.md)  
   
-    -   [DefaultNamespace Property](DefaultNamespace-Property.md)  
+   - [DefaultNamespace Property](DefaultNamespace-Property.md)  
   
-    -   [UseDefaultNamespace Property](UseDefaultNamespace-Property.md)  
+   - [UseDefaultNamespace Property](UseDefaultNamespace-Property.md)  
   
      For more information, see [Using Namespaces with XMLports](Using-Namespaces-with-XMLports.md).  
   

@@ -35,15 +35,15 @@ Sets the formats of the source expression for various data types.
 ## Building Formats  
  You can use the Format property to create your own formats. To create a format, use the following rules:  
   
--   A format property consists of zero or more Chars, Fields, or Attributes.  
+- A format property consists of zero or more Chars, Fields, or Attributes.  
   
--   Fields and Attributes are expressed by using an identifier enclosed in brackets \(\<>\).  
+- Fields and Attributes are expressed by using an identifier enclosed in brackets \(\<>\).  
   
--   Attributes must contain a comma \(,\) and a parameter after the identifier.  
+- Attributes must contain a comma \(,\) and a parameter after the identifier.  
   
--   Fields can optionally take a comma \(,\) and a FieldLen.  
+- Fields can optionally take a comma \(,\) and a FieldLen.  
   
- The following table shows the syntax.  
+  The following table shows the syntax.  
   
 |||  
 |-|-|  

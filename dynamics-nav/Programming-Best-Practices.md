@@ -74,90 +74,90 @@ END;
 ## Designing Journal Pages  
  The default order of fields in journals is:  
 
--   **Date**  
+- **Date**  
 
--   **Document Type**  
+- **Document Type**  
 
--   **Document No.**  
+- **Document No.**  
 
--   **No.**  
+- **No.**  
 
--   **Description**  
+- **Description**  
 
--   **Amount**  
+- **Amount**  
 
- The order of fields in ledger entries should be the same. The order of fields in pages and reports should also be the same.  
+  The order of fields in ledger entries should be the same. The order of fields in pages and reports should also be the same.  
 
 ## Laying Out Fields on Pages  
  This section contains guidelines for which fields to include on the following pages:  
 
--   Card pages  
+- Card pages  
 
--   Worksheet pages.  
+- Worksheet pages.  
 
- For each type of page, consistency is important. Similar pages in the application areas must be composed the same way.  
+  For each type of page, consistency is important. Similar pages in the application areas must be composed the same way.  
 
 ### Card Pages  
  Some card pages are related to a table that contains only a few fields. It is not hard to create such pages because it is often obvious where to place the fields on FastTabs on a page and which fields to promote to the FastTab header. Most card pages are related to tables with many fields.  
 
  Many pages use several FastTabs. How many FastTabs are needed and what to call them are specific to each page. The following FastTab names are commonly used:  
 
--   **General**, which is the first tab  
+- **General**, which is the first tab  
 
--   **Invoicing**  
+- **Invoicing**  
 
--   **Posting**  
+- **Posting**  
 
- All relevant fields must be included on a card page. Even card pages with many tabs have a limited space for fields, so you must carefully consider relevancy. Which fields to include depends on the purpose of each page. We recommend using the following guidelines:  
+  All relevant fields must be included on a card page. Even card pages with many tabs have a limited space for fields, so you must carefully consider relevancy. Which fields to include depends on the purpose of each page. We recommend using the following guidelines:  
 
--   Always include dimensions, such as department, project, or location.  
+- Always include dimensions, such as department, project, or location.  
 
--   Do not include fields that are automatically filled in and do not need to be changed by the user.  
+- Do not include fields that are automatically filled in and do not need to be changed by the user.  
 
--   Do not place the same field on a page twice, even on different tabs.  
+- Do not place the same field on a page twice, even on different tabs.  
 
--   If two or more fields are related according to source or function, then group them.  
+- If two or more fields are related according to source or function, then group them.  
 
- On which FastTab to place a field depends on the specific page. Some fields are used on many pages. For consistency, place the following fields on the **General** FastTab:  
+  On which FastTab to place a field depends on the specific page. Some fields are used on many pages. For consistency, place the following fields on the **General** FastTab:  
 
--   **No.**  
+- **No.**  
 
--   **Name**  
+- **Name**  
 
--   **Search Name**  
+- **Search Name**  
 
--   **Blocked**  
+- **Blocked**  
 
--   **Last Date Modified**  
+- **Last Date Modified**  
 
--   Other information about the account  
+- Other information about the account  
 
- Place the following fields on the Posting or Invoicing FastTab:  
+  Place the following fields on the Posting or Invoicing FastTab:  
 
--   **General Business Posting Group**  
+- **General Business Posting Group**  
 
--   **General Product Posting Group**  
+- **General Product Posting Group**  
 
--   Posting group from the actual application area  
+- Posting group from the actual application area  
 
--   **Department Code**  
+- **Department Code**  
 
--   **Project Code**  
+- **Project Code**  
 
 ### Worksheet Pages  
  In general, all fields are included on worksheet pages. Some exceptions are mentioned in the following section. The fields are shown or hidden depending on how relevant they are and what the layout of the page is. You must consider the following points when you create worksheet pages:  
 
--   Always include dimensions, such as department or project. The fields should be hidden.  
+- Always include dimensions, such as department or project. The fields should be hidden.  
 
--   Do not include FlowFields on worksheet pages unless the page is seldom used or the field is essential. FlowFields are calculated even when they are hidden.  
+- Do not include FlowFields on worksheet pages unless the page is seldom used or the field is essential. FlowFields are calculated even when they are hidden.  
 
--   Do not include more than about 25 fields on a page because this can affect performance. Consider carefully which fields, both hidden and visible, that you will include on a page. Because of performance considerations, worksheet pages should not include fields that may be informative but cannot be changed, such as **Posting Group**, **Journal Name**, **Weights**, and **Source Type**.  
+- Do not include more than about 25 fields on a page because this can affect performance. Consider carefully which fields, both hidden and visible, that you will include on a page. Because of performance considerations, worksheet pages should not include fields that may be informative but cannot be changed, such as **Posting Group**, **Journal Name**, **Weights**, and **Source Type**.  
 
--   Never include fields that are used internally in the program, such as **Closed by Entry No**.  
+- Never include fields that are used internally in the program, such as **Closed by Entry No**.  
 
--   Use worksheet pages for all page in the **Setup** menu. Creating these page does not typically cause problems because they often contain only a code and a few information fields.  
+- Use worksheet pages for all page in the **Setup** menu. Creating these page does not typically cause problems because they often contain only a code and a few information fields.  
 
- Pages such as journals, sales/purchase lines, and ledgers are difficult to create and maintain properly because the related tables contain a lot of functionality and many fields. In an uncustomized application, the same template is used to compose these pages so that they look similar. The following table shows the template. It is divided into sections according to functionality. In each section, the most common field names are mentioned.  
+  Pages such as journals, sales/purchase lines, and ledgers are difficult to create and maintain properly because the related tables contain a lot of functionality and many fields. In an uncustomized application, the same template is used to compose these pages so that they look similar. The following table shows the template. It is divided into sections according to functionality. In each section, the most common field names are mentioned.  
 
 > [!NOTE]  
 >  The table does not include all functionality. Additionally, the order that is indicated in the table does not always indicate the order in pages.  

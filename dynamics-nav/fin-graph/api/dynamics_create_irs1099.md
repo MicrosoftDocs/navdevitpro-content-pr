@@ -23,6 +23,7 @@ POST /businesscentral/companies({id})/irs1099Codes
 ```
 
 ## Request headers
+
 |Header       |Value                    |
 |-------------|-------------------------|
 |Authorization|Bearer {token}. Required.|
@@ -69,7 +70,6 @@ Content-type: application/json
   "minimumReportable": 0,
   "lastModifiedDateTime": "0001-01-01T00:00:00Z"
 }
-
 ```
 
 

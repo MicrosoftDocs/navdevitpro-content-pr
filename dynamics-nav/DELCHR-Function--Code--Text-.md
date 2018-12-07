@@ -33,18 +33,18 @@ NewString := DELCHR(String[, Where][, Which])
   
  You can include one or more of the following characters in the *Where* string:  
   
--   `=`   To delete any character in *String* that matches a character in *Which* (default)  
+- `=`   To delete any character in *String* that matches a character in *Which* (default)  
   
--   `<`   To delete any leading character in *String* that matches a character in *Which*  
+- `<`   To delete any leading character in *String* that matches a character in *Which*  
   
--   `>`   To delete any trailing character in *String* that matches a character in *Which*  
+- `>`   To delete any trailing character in *String* that matches a character in *Which*  
   
- *Which*  
- Type: Text or code  
+  *Which*  
+  Type: Text or code  
   
- Specifies the characters that you want to delete.  
+  Specifies the characters that you want to delete.  
   
- The default is a space character.  
+  The default is a space character.  
   
 ## Property Value/Return Value  
  Type: Text constant or code  
@@ -56,31 +56,31 @@ NewString := DELCHR(String[, Where][, Which])
   
  If you omit the *Which* parameter, then the function deletes spaces from *String* based on the contents of the *Where* parameter as follows:  
   
--   If *Where* contains =, then all the spaces are deleted from *String*.  
+- If *Where* contains =, then all the spaces are deleted from *String*.  
   
--   If *Where* contains <, then all the spaces at the start of *String* are deleted.  
+- If *Where* contains <, then all the spaces at the start of *String* are deleted.  
   
--   If *Where* contains >, then all the spaces at the end of *String* are deleted.  
+- If *Where* contains >, then all the spaces at the end of *String* are deleted.  
   
--   If *Where* contains any other character, then an error is returned.  
+- If *Where* contains any other character, then an error is returned.  
   
--   If *Where* is empty, then *String* is returned unchanged.  
+- If *Where* is empty, then *String* is returned unchanged.  
   
- If you use the *Where* and the *Which* parameters, then the function deletes from *String* the characters that are contained in the *Which* parameter based on the contents of the *Where* parameter as follows:  
+  If you use the *Where* and the *Which* parameters, then the function deletes from *String* the characters that are contained in the *Which* parameter based on the contents of the *Where* parameter as follows:  
   
--   If *Where* contains =, then every occurrence of the characters in *Which* are deleted from *String*.  
+- If *Where* contains =, then every occurrence of the characters in *Which* are deleted from *String*.  
   
--   If *Where* contains \<, then the characters in *Which* are only deleted if they occur at the start of *String*.  
+- If *Where* contains \<, then the characters in *Which* are only deleted if they occur at the start of *String*.  
   
--   If *Where* contains >, then the characters in *Which* are deleted only if they occur at the end of *String*.  
+- If *Where* contains >, then the characters in *Which* are deleted only if they occur at the end of *String*.  
   
--   If *Where* contains any other character, then an error is returned.  
+- If *Where* contains any other character, then an error is returned.  
   
--   If *Where* is empty, then *String* is returned unchanged.  
+- If *Where* is empty, then *String* is returned unchanged.  
   
--   If *Which* is empty, then *String* is returned unchanged.  
+- If *Which* is empty, then *String* is returned unchanged.  
   
- The *Which* parameter contains an array of the characters that you want to delete. The order of the characters is of no significance. If *String* contains a character that is specified in *Which*, it is deleted from *String*.  
+  The *Which* parameter contains an array of the characters that you want to delete. The order of the characters is of no significance. If *String* contains a character that is specified in *Which*, it is deleted from *String*.  
   
 ## Example  
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  

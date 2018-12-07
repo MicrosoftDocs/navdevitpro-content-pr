@@ -38,21 +38,21 @@ finsql.exe command=createdatabase, [servername=<server>,] [database=<database>,]
   
  The collation to use when you create a new database. The value must be one of the following:  
   
--   A full language culture name. For example, da-DK for Danish or hu-HU for Hungarian. ·  
+- A full language culture name. For example, da-DK for Danish or hu-HU for Hungarian. ·  
   
--   A SQL Server collation name without case or accent. For example, Latin1\_General\_100. ·  
+- A SQL Server collation name without case or accent. For example, Latin1\_General\_100. ·  
   
--   A SQL Server collation name with case and accent. For example, Danish\_Greenlandic\_100\_CS\_AI.  
+- A SQL Server collation name with case and accent. For example, Danish\_Greenlandic\_100\_CS\_AI.  
   
- *logfile*  
+  *logfile*  
   
- The path and file name for the file that contains error messages that result from the command. If there are no errors, then a log file is not created.  
+  The path and file name for the file that contains error messages that result from the command. If there are no errors, then a log file is not created.  
   
- By default, the file is named naverrorlog.txt and is located in the same location as finsql.exe.  
+  By default, the file is named naverrorlog.txt and is located in the same location as finsql.exe.  
   
- The navcommandresult.txt file, which contains information about the success or failure of the command, is created in the folder that is specified by the *logfile* parameter.  
+  The navcommandresult.txt file, which contains information about the success or failure of the command, is created in the folder that is specified by the *logfile* parameter.  
   
- When you run finsql.exe with a command, the previous log file and result file are deleted.  
+  When you run finsql.exe with a command, the previous log file and result file are deleted.  
   
 > [!NOTE]  
 >  If User Access Control \(UAC\) is turned on and you do not specify to run the Command Prompt window as Administrator, then the Command Prompt window runs as a standard user. In this case, if you do not specify the *logfile* parameter, then the command fails because the standard user cannot write to the default location of the log file.  

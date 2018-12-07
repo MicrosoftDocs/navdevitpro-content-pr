@@ -51,6 +51,7 @@ This topic lists properties that apply to the query object.
 
 ## Query Column Properties  
  The following properties apply to the **Column** control of a query.  
+
 |Property Name|Query Object|
 |-------------|------------|
 |[Caption Property](devenv-caption-property.md)|X|  
@@ -67,6 +68,7 @@ This topic lists properties that apply to the query object.
 
 ## Query Filter Control Properties  
  The following properties apply to the **Filter** control of a query.  
+
 |Property Name|Query Object|
 |-------------|------------|
 |[Caption Property](devenv-caption-property.md)|X|

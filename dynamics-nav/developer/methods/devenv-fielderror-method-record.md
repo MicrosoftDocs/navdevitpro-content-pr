@@ -46,15 +46,15 @@ Record.FIELDERROR(Field, [Text])
 ## Programming Guidelines  
  We recommend the following guidelines for error messages:  
 
--   Describe what is wrong and how to solve the problem.  
+- Describe what is wrong and how to solve the problem.  
 
--   Write a short descriptive message. Do not use more words than necessary.  
+- Write a short descriptive message. Do not use more words than necessary.  
 
--   Note that a period is automatically inserted at the end of a FIELDERROR.  
+- Note that a period is automatically inserted at the end of a FIELDERROR.  
 
--   Use a text constant for the *Text* parameter.  
+- Use a text constant for the *Text* parameter.  
 
- For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](../devenv-progress-windows-message-error-and-confirm-methods.md).  
+  For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](../devenv-progress-windows-message-error-and-confirm-methods.md).  
 
 ## Example  
  In the first example, there is no *Text* parameter and the field does not have a value. This example requires that you create a Record variable for the **Customer** table named CustomerRec.  

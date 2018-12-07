@@ -14,28 +14,28 @@ manager: edupont
 # Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle
 In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is divided into the following phases:  
 
--   Defining the data model on which the report is based.  
+- Defining the data model on which the report is based.  
 
--   Defining grouping and totaling for the report.  
+- Defining grouping and totaling for the report.  
 
--   Designing the visual layout of the report.  
+- Designing the visual layout of the report.  
 
- With [!INCLUDE[navnow](includes/navnow_md.md)], you can use Visual Studio Report Designer to design and modify the visual layout of a report.  
+  With [!INCLUDE[navnow](includes/navnow_md.md)], you can use Visual Studio Report Designer to design and modify the visual layout of a report.  
 
 ## About This Walkthrough  
  This walkthrough provides an overview of how to create a report that displays images, allows interactive sorting, and provides visibility toggling. This walkthrough illustrates the following tasks:  
 
--   Defining the data model in [!INCLUDE[navnow](includes/navnow_md.md)].  
+- Defining the data model in [!INCLUDE[navnow](includes/navnow_md.md)].  
 
--   Designing the report layout and adding an image using Visual Studio Report Designer.  
+- Designing the report layout and adding an image using Visual Studio Report Designer.  
 
--   Synchronizing the report layout with [!INCLUDE[navnow](includes/navnow_md.md)] and running the report.  
+- Synchronizing the report layout with [!INCLUDE[navnow](includes/navnow_md.md)] and running the report.  
 
--   Applying interactive sorting to the report layout using Visual Studio Report Designer.  
+- Applying interactive sorting to the report layout using Visual Studio Report Designer.  
 
--   Resynchronizing the report layout with [!INCLUDE[navnow](includes/navnow_md.md)] and running the report.  
+- Resynchronizing the report layout with [!INCLUDE[navnow](includes/navnow_md.md)] and running the report.  
 
- For more information about how to design the layout of a report by using Visual Studio, see [Defining a Report Layout \(Visual Studio Report Designer\)](http://go.microsoft.com/fwlink/?LinkID=133192).  
+  For more information about how to design the layout of a report by using Visual Studio, see [Defining a Report Layout \(Visual Studio Report Designer\)](http://go.microsoft.com/fwlink/?LinkID=133192).  
 
 ### Prerequisites  
  To complete this walkthrough, you will need:  

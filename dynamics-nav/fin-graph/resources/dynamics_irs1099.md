@@ -30,7 +30,8 @@ Represents an irs1099Codes object in [!INCLUDE[d365fin_long_md](../../includes/d
 |[DELETE irs1099Codes](../api/dynamics_irs1099_delete.md)|none        |Delete an IRS 1099 code.|
 
 ## Properties
-| Property	         | Type 	|Description                                      |
+
+| Property           | Type     |Description                                      |
 |:-------------------|:-------|:------------------------------------------------|
 |id                  |GUID    |The unique ID of the IRS 1099 Code. Non-editable.|
 |code                |string  |Specifies the IRS 1099 Code.                     |
@@ -55,7 +56,6 @@ Here is a JSON representation of the irs1099Codes.
   "minimumReportable": "decimal",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also
