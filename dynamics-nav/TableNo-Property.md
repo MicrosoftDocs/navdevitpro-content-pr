@@ -12,15 +12,23 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # TableNo Property
-Sets the source table number, if any, for this codeunit.  
+
+Sets a record parameter by reference to the table on the `OnRun` trigger.
   
 ## Applies To  
  Codeunits  
   
 ## Remarks  
- Use the lookup to select the appropriate table number. If the codeunit can apply to any table, then choose Undefined.  
+
+Setting the **TableNo** property changes the signature of the `OnRun` trigger of the codeunit to include a variable `Record` data type parameter (named `Rec`) for the specified table. For example, if you set the **TableNo** property to the **Item** table, the OnRun trigger signature will change to the following.
+
+`OnRun(var Rec : Record Item)`
+
+ If you specify a table number for this property, then you can use `Rec` in the code and use the [Codeunit.RUN Function \(Codeunit\)](Codeunit.RUN-Function--Codeunit-.md) to execute the code unit.  
+ 
+Use the lookup to select the appropriate table number. If the codeunit can apply to any table, then choose Undefined.  
   
- If you specify a table number for this property, then you can use the CurrRec global variable in the codeunit and use the [Codeunit.RUN Function \(Codeunit\)](Codeunit.RUN-Function--Codeunit-.md) to execute the code unit  
+
   
 ## See Also  
  [Codeunit.RUN Function \(Codeunit\)](Codeunit.RUN-Function--Codeunit-.md)
