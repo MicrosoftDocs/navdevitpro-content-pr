@@ -42,9 +42,10 @@ POST https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions({id})
 Content-type: application/json
 
 {
+  "subscriptionId" :"{subscriptionId}",
   "notificationUrl": "https://{notificationUrl}",
   "resource": "/api/beta/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
-  "clientState": "optionalValueOf250"
+  "clientState": "{optionalValueOf250}"
 }
 
 ```
