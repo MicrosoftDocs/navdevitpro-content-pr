@@ -45,13 +45,13 @@ Precise and consistent terminology helps the end user work with the application.
 ### Report Objects  
  Make the English caption and name of a report descriptive and do not include abbreviations. End users see the caption of a report object in the following instances:  
 
--   On the request page.  
+- On the request page.  
 
--   When they modify a report.  
+- When they modify a report.  
 
--   When they want to identify an item, such as a sales invoice.  
+- When they want to identify an item, such as a sales invoice.  
 
- We recommend that you make the caption the same as the heading in the report.  
+  We recommend that you make the caption the same as the heading in the report.  
 
 ### Table Fields  
  Make the name and caption of a field descriptive. The end user should not have to see the caption in the context of other fields to understand what it is.  

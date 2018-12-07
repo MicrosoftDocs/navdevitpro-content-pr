@@ -91,20 +91,20 @@ GROUP BY SP.Name
   
 #### To set up a totals method on the Quantity column  
   
-1.  In Query Designer, on the next line after the **Sales Line** data item, in the **Type** column, choose **Column** from the drop-down list box.  
+1. In Query Designer, on the next line after the **Sales Line** data item, in the **Type** column, choose **Column** from the drop-down list box.  
   
-2.  In the **Data Source** column, select **Quantity** from **Sales Line - Field List** window, and then choose the **OK** button.  
+2. In the **Data Source** column, select **Quantity** from **Sales Line - Field List** window, and then choose the **OK** button.  
   
-3.  In the **Method Type** column, choose **Totals** from the drop-down list box.  
+3. In the **Method Type** column, choose **Totals** from the drop-down list box.  
   
-    > [!NOTE]  
-    >  You want the query results to group by the **Name** field of the **Salesperson/Purchaser** table. This is automatically done for you. The query groups all fields that are not totals fields. In Query Designer, grouped fields are indicated by a check mark in the **Group By** column. In this example, the only column that is grouped is the **Name** field under the **Salesperson/Purchaser** data item.  
+   > [!NOTE]  
+   >  You want the query results to group by the **Name** field of the **Salesperson/Purchaser** table. This is automatically done for you. The query groups all fields that are not totals fields. In Query Designer, grouped fields are indicated by a check mark in the **Group By** column. In this example, the only column that is grouped is the **Name** field under the **Salesperson/Purchaser** data item.  
   
-4.  In the **Method** column, choose **Sum** from the drop-down list box.  
+4. In the **Method** column, choose **Sum** from the drop-down list box.  
   
- The following figure shows the Query Designer for this example.  
+   The following figure shows the Query Designer for this example.  
   
- ![Query joins three tables](media/Query_WalkthroughThreeTables.png "Query\_WalkthroughThreeTables")  
+   ![Query joins three tables](media/Query_WalkthroughThreeTables.png "Query\_WalkthroughThreeTables")  
   
 ## Specifying the Data Item Links  
  Viktor has added the data items and columns to the query, but he must specify how to link the data items to display the information he wants and eliminate unwanted records. For this query, Viktor wants the following:  

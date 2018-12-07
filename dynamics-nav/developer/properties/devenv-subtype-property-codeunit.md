@@ -37,22 +37,22 @@ You write test methods as AL code in the test codeunits. When a test codeunit ru
   
 A test runner codeunit runs the test codeunits that are programmed to run from its OnRun trigger. When a test runner codeunit runs, it does the following:  
   
--   Calls the [OnBeforeTestRun Trigger](../triggers/devenv-onbeforetestrun-trigger.md) before each test codeunit, and the OnRun method and test method is executed.  
+- Calls the [OnBeforeTestRun Trigger](../triggers/devenv-onbeforetestrun-trigger.md) before each test codeunit, and the OnRun method and test method is executed.  
   
--   Calls the [OnAfterTestRun Trigger](../triggers/devenv-onaftertestrun-trigger.md) after each test code unit, and the OnRun method and test method is executed.  
+- Calls the [OnAfterTestRun Trigger](../triggers/devenv-onaftertestrun-trigger.md) after each test code unit, and the OnRun method and test method is executed.  
   
--   Indicates that a test method has failed if it invokes the user interface.  
-<!-- 
-For more information, see [Testing the Application](Testing-the-Application.md).  
--->  
-## See Also  
-[Properties](devenv-properties.md)  
-[Codeunit Properties](devenv-codeunit-properties.md)  
-[Subtype Blob Property](devenv-subtype-blob-property.md)
-<!--
-[Testing the Application](Testing-the-Application.md)   
-[How to: Create Test Codeunits and Test Methods](How-to-Create-Test-Codeunits-and-Test-Methods.md)   
-[How to: Create Handler Methods](How-to-Create-Handler-Methods.md)   
-[Walkthrough: Testing Purchase Invoice Discounts](Walkthrough-Testing-Purchase-Invoice-Discounts.md)   
-[Codeunits](../devenv-codeunits.md) 
--->
+- Indicates that a test method has failed if it invokes the user interface.  
+  <!-- 
+  For more information, see [Testing the Application](Testing-the-Application.md).  
+  -->  
+  ## See Also  
+  [Properties](devenv-properties.md)  
+  [Codeunit Properties](devenv-codeunit-properties.md)  
+  [Subtype Blob Property](devenv-subtype-blob-property.md)
+  <!--
+  [Testing the Application](Testing-the-Application.md)   
+  [How to: Create Test Codeunits and Test Methods](How-to-Create-Test-Codeunits-and-Test-Methods.md)   
+  [How to: Create Handler Methods](How-to-Create-Handler-Methods.md)   
+  [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough-Testing-Purchase-Invoice-Discounts.md)   
+  [Codeunits](../devenv-codeunits.md) 
+  -->

@@ -37,39 +37,39 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
 
  This optional parameter specifies the length of *String*. The following rules apply:  
 
--   If *Length* = 0 then the entire value is returned \(default\).  
+- If *Length* = 0 then the entire value is returned \(default\).  
 
--   If *Length* > 0 then the returned string will be exactly *Length* characters.  
+- If *Length* > 0 then the returned string will be exactly *Length* characters.  
 
-     If *Value* is less than *Length* characters, then either leading or trailing spaces are inserted, depending on the format that you select.  
+   If *Value* is less than *Length* characters, then either leading or trailing spaces are inserted, depending on the format that you select.  
 
-     If *Value* exceeds *Length* characters, then *String* is truncated to *Length* characters.  
+   If *Value* exceeds *Length* characters, then *String* is truncated to *Length* characters.  
 
--   If *Length* \< 0 then the returned string will not have leading or trailing spaces.  
+- If *Length* \< 0 then the returned string will not have leading or trailing spaces.  
 
-     If *Value* is less than *Length* characters, the length of *String* will equal the length of *Value*.  
+   If *Value* is less than *Length* characters, the length of *String* will equal the length of *Value*.  
 
-     If *Value* exceeds *Length* characters, then *String* is truncated to *Length* characters.  
+   If *Value* exceeds *Length* characters, then *String* is truncated to *Length* characters.  
 
- *FormatStr*  
- Type: String  
+  *FormatStr*  
+  Type: String  
 
- A literal string that defines a format as in the [Format Property](../properties/devenv-Format-Property.md).  
+  A literal string that defines a format as in the [Format Property](../properties/devenv-Format-Property.md).  
 
- *FormatNumber*  
- Type: Integer  
+  *FormatNumber*  
+  Type: Integer  
 
- This optional parameter specifies the format that you want to use. The basic options for the Decimal data type are as follows:  
+  This optional parameter specifies the format that you want to use. The basic options for the Decimal data type are as follows:  
 
--   \<*Sign*>\<*Integer Thousand*>\<*Decimals*> is Format 0  
+- \<*Sign*>\<*Integer Thousand*>\<*Decimals*> is Format 0  
 
--   \<*Sign*>\<*Integer*>\<*Decimals*> is Format 1  
+- \<*Sign*>\<*Integer*>\<*Decimals*> is Format 1  
 
--   \<*Sign*>\<*Integer*>\<*Decimals*>\<*Comma*,.> is Format 2  
+- \<*Sign*>\<*Integer*>\<*Decimals*>\<*Comma*,.> is Format 2  
 
--   \<*Integer Thousand*>\<*Decimals*>\<*Sign,1*> is Format 3  
+- \<*Integer Thousand*>\<*Decimals*>\<*Sign,1*> is Format 3  
 
--   \<*Integer*>\<*Decimals*>\<*Sign,1*> is Format 4  
+- \<*Integer*>\<*Decimals*>\<*Sign,1*> is Format 4  
 
 > [!NOTE]  
 >  You cannot use both *FormatNumber* and *FormatStr* at the same time.  

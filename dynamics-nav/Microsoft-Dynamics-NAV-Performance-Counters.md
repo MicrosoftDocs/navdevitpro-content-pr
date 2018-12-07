@@ -17,6 +17,7 @@ The following table describes the performance counters that are available in [!I
 
 ##  Client session counters
 These counters pertain to sessions from the clients, NAS, and web services, to the server instance.
+
 |  Counter  |  [!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]  |
 |-----------|-----------------------------------------------------------------------|
 |\# Active sessions|Number of active sessions on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> An active session is a connection to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance from a [!INCLUDE[navnow](includes/navnow_md.md)] client, such as the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)], and Web services (OData and SOAP).|

@@ -25,6 +25,7 @@ PATCH /businesscentral/companies({companyId})/items({itemId})/defaultDimensions(
 ```
 
 ## Request headers
+
 |Header        |Value                    |
 |--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|

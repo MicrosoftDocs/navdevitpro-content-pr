@@ -26,6 +26,7 @@ GET /businesscentral/companies({id})/salesInvoices({id})/salesInvoiceLines(docum
 ```
 
 ## Request headers
+
 |Header         |Value                     |
 |---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |

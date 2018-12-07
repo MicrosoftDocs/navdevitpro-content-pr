@@ -61,48 +61,48 @@ There are three ways to export application objects to text files:
 -   Use the Dynamics NAV Development Shell version that matches the application database version. This is the way that is described in the tasks of this article. Note that the Dynamics NAV Development Shell is not available for [!INCLUDE[nav7long](includes/nav7long_md.md)] and [!INCLUDE[navsicily](includes/navsicily_md.md)]. For these versions, you must use [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe.
 
 ### Create the application text files
-1.  Create four folders on the computer, and name them as follows:  
+1. Create four folders on the computer, and name them as follows:  
 
- -   **ORIGINAL**  
+   -   **ORIGINAL**  
 
-        This folder will be used to store the application object text file(s) from the baseline version, such as the original release of [!INCLUDE[nav7long](includes/nav7long_md.md)] or [!INCLUDE[navcorfu](includes/navcorfu_md.md)].  
+       This folder will be used to store the application object text file(s) from the baseline version, such as the original release of [!INCLUDE[nav7long](includes/nav7long_md.md)] or [!INCLUDE[navcorfu](includes/navcorfu_md.md)].  
 
- -   **MODIFIED**  
+   -   **MODIFIED**  
 
-        This folder will be used to store the application object text file(s) from the modified version, such as the customer's database.  
+       This folder will be used to store the application object text file(s) from the modified version, such as the customer's database.  
 
- -   **TARGET**  
+   -   **TARGET**  
 
-        This folder will be used to store the application object text file(s) from [!INCLUDE[nav2017](includes/nav2017.md)].  
+       This folder will be used to store the application object text file(s) from [!INCLUDE[nav2017](includes/nav2017.md)].  
 
- -   **RESULT**  
+   -   **RESULT**  
 
-        This folder will be used to store the application object text file(s) that are the result of the application merge. It will also contain zero or more .CONFLICT files that describe conflicting code.  
+       This folder will be used to store the application object text file(s) that are the result of the application merge. It will also contain zero or more .CONFLICT files that describe conflicting code.  
 
-2.  Export all application objects from the original version, such as the original [!INCLUDE[nav7long](includes/nav7long_md.md)] database. Do not export system tables, which have the IDs in the 2000000000 range. Name the file **OldBaseVersion.txt**, and then save the file in the **ORIGINAL** folder that you created earlier.  
+2. Export all application objects from the original version, such as the original [!INCLUDE[nav7long](includes/nav7long_md.md)] database. Do not export system tables, which have the IDs in the 2000000000 range. Name the file **OldBaseVersion.txt**, and then save the file in the **ORIGINAL** folder that you created earlier.  
 
-    For example, start the Dynamics NAV Development Shell version that matches the database version, and run the **Export-NAVApplicationObject** function as follows:
+   For example, start the Dynamics NAV Development Shell version that matches the database version, and run the **Export-NAVApplicationObject** function as follows:
 
-    ```  
-    Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "Demo Database NAV (9-0)" –Path C:\Upgrade\ORIGINAL\OldBaseVersion.txt -Filter 'Id=1..1999999999'
-    ```  
+   ```  
+   Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "Demo Database NAV (9-0)" –Path C:\Upgrade\ORIGINAL\OldBaseVersion.txt -Filter 'Id=1..1999999999'
+   ```  
 
-3.  Export all application objects, except system tables, from the modified version, such as the customer's customized [!INCLUDE[nav7long](includes/nav7long_md.md)] database. Name the file **OldCustomVersion.txt**, and then save the file in the **MODIFIED*** folder that you created earlier.
+3. Export all application objects, except system tables, from the modified version, such as the customer's customized [!INCLUDE[nav7long](includes/nav7long_md.md)] database. Name the file **OldCustomVersion.txt**, and then save the file in the **MODIFIED*** folder that you created earlier.
 
-    For example, if the customer's database is called *MyCustomerNAV2016Database*, you can run the following command:
-    ```  
-    Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "MyCustomerNAV2016Database" –Path C:\Upgrade\MODIFIED\OldCUSTOMVersion.txt -Filter 'Id=1..1999999999'
-    ```  
+   For example, if the customer's database is called *MyCustomerNAV2016Database*, you can run the following command:
+   ```  
+   Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "MyCustomerNAV2016Database" –Path C:\Upgrade\MODIFIED\OldCUSTOMVersion.txt -Filter 'Id=1..1999999999'
+   ```  
 
-    > [!TIP]  
-    >  In some cases, existing customizations might be irrelevant after the upgrade because they correspond to new functionality in [!INCLUDE[nav2017](includes/nav2017.md)].
+   > [!TIP]  
+   >  In some cases, existing customizations might be irrelevant after the upgrade because they correspond to new functionality in [!INCLUDE[nav2017](includes/nav2017.md)].
 
-4.  Export all application objects, except system tables, from the new base version, such as the original [!INCLUDE[nav2017](includes/nav2017.md)] database. Name the file **NewBaseVersion.txt**, and then save the file in the **TARGET** folder that you created earlier.  
+4. Export all application objects, except system tables, from the new base version, such as the original [!INCLUDE[nav2017](includes/nav2017.md)] database. Name the file **NewBaseVersion.txt**, and then save the file in the **TARGET** folder that you created earlier.  
 
-    For example, you can run the following command:
-    ```  
-    Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "Demo Database NAV (10-0)" –Path C:\Upgrade\Target\NewBaseVersion.txt -Filter 'Id=1..1999999999'
-```  
+   For example, you can run the following command:
+   ```  
+   Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "Demo Database NAV (10-0)" –Path C:\Upgrade\Target\NewBaseVersion.txt -Filter 'Id=1..1999999999'
+   ```  
 
 Optionally, you can use the [Split-NAVApplicationObjectFile](https://go.microsoft.com/fwlink/?linkid=398885) cmdlet to split each text file into separate text files for each application object. This can make it easier to keep track of the process. The end result at this stage is three folders with one or more text files that contain the three sets of application objects that you want to merge.  
 
@@ -135,49 +135,49 @@ You can analyze the conflicts in any tool, make the relevant changes, and then r
 ## Task 4: Import and Compile Merged Objects in an Empty Database
 After you have completed the merge, you import the new merged application objects as text files into a new (empty) database, and then compile all objects. You must resolve any compilation errors before you can continue. The text files include successfully merged code, and code that is partially merged. You can import the partially merged objects into the [!INCLUDE[nav2017](includes/nav2017.md)] development environment and resolve the conflicts there.
 
-1.  Create a new [!INCLUDE[nav2017](includes/nav2017.md)] database for the new upgraded application. The database should be empty, except for the system tables.
+1. Create a new [!INCLUDE[nav2017](includes/nav2017.md)] database for the new upgraded application. The database should be empty, except for the system tables.
 
-    For more information, see [How to: Create Databases](How-to--Create-Databases.md)
+   For more information, see [How to: Create Databases](How-to--Create-Databases.md)
 
-2.  Make sure the database includes a valid [!INCLUDE[nav2017](includes/nav2017.md)] license.
+2. Make sure the database includes a valid [!INCLUDE[nav2017](includes/nav2017.md)] license.
 
-    For more information, see [How to: Upload the License File](how-to--upload-the-license-file.md)
+   For more information, see [How to: Upload the License File](how-to--upload-the-license-file.md)
 
-3.  Import the new merged application object text files (.TXT) from the **Result** folder into the new database.
+3. Import the new merged application object text files (.TXT) from the **Result** folder into the new database.
 
-    There are three ways to import the files:
+   There are three ways to import the files:
 
-    -   Use the [!INCLUDE[nav2017](includes/nav2017.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].
+   - Use the [!INCLUDE[nav2017](includes/nav2017.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].
 
-        For more information see [To import objects by using the development environment UI](how-to--import-objects.md#ImportObjectsDevEnv).
-    -   Use the finsql.exe to run the [ImportObjects](ImportObjects.md) command.
+     For more information see [To import objects by using the development environment UI](how-to--import-objects.md#ImportObjectsDevEnv).
+   - Use the finsql.exe to run the [ImportObjects](ImportObjects.md) command.
 
-        For more information, see [To import objects by running finsql.exe with the ImportObjects command  ](how-to--import-objects.md#ImportObjectsFinSQL).
+     For more information, see [To import objects by running finsql.exe with the ImportObjects command  ](how-to--import-objects.md#ImportObjectsFinSQL).
         
-    -   Use the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] (or Microsoft.Dynamics.NAV.Model.Tools.psd1 module).
+   - Use the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] (or Microsoft.Dynamics.NAV.Model.Tools.psd1 module).
 
-        The shell includes the **Join-NAVApplicationObjectFile** cmdlet and **Import-NAVApplicationObject** function. The **Join-NAVApplicationObjectFile** cmdlet combines multiple application object text files into one text file. The **Import-NAVApplicationObject** function runs the [ImportObjects](ImportObjects.md) command to import an object file.
+     The shell includes the **Join-NAVApplicationObjectFile** cmdlet and **Import-NAVApplicationObject** function. The **Join-NAVApplicationObjectFile** cmdlet combines multiple application object text files into one text file. The **Import-NAVApplicationObject** function runs the [ImportObjects](ImportObjects.md) command to import an object file.
 
-        This means that you can run a command similar to following to create a single text file from the merge application text files in the **Result** folder:
+     This means that you can run a command similar to following to create a single text file from the merge application text files in the **Result** folder:
 
-        ```  
-        Join-NAVApplicationObjectFile –Source C:\Upgrade\RESULT\*.txt -Destination C:\Upgrade\all-merged.txt   
-    ```  
-        Then, you can run this command to import the text file:
-        ```  
-        Import-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "My Upgraded App" –Path C:\Upgrade\all-merged.txt  
-        ```
+     ```  
+     Join-NAVApplicationObjectFile –Source C:\Upgrade\RESULT\*.txt -Destination C:\Upgrade\all-merged.txt   
+     ```  
+     Then, you can run this command to import the text file:
+     ```  
+     Import-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "My Upgraded App" –Path C:\Upgrade\all-merged.txt  
+     ```
 
-4.  Connect a [!INCLUDE[nav2017](includes/nav2017.md)] Server instance to the database.  
+4. Connect a [!INCLUDE[nav2017](includes/nav2017.md)] Server instance to the database.  
 
-    You do this with the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. In addition, you must add the service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance as a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server.  
+   You do this with the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. In addition, you must add the service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance as a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server.  
 
-    For more information, see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect-a-Microsoft-Dynamics-NAV-Server-Instance-to-a-Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).  
-5.  Compile all the newly imported objects.
+   For more information, see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect-a-Microsoft-Dynamics-NAV-Server-Instance-to-a-Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).  
+5. Compile all the newly imported objects.
 
-    You can use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe. For more information, see [Compiling Objects](compiling-objects.md).
+   You can use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe. For more information, see [Compiling Objects](compiling-objects.md).
 
-    When you compile the objects, an error is thrown for each code conflict, and you can use the tools that are available in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to resolve the conflicts.
+   When you compile the objects, an error is thrown for each code conflict, and you can use the tools that are available in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to resolve the conflicts.
 
 You now have a new database with a fully upgraded application.
 

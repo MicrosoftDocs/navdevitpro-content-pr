@@ -20,23 +20,23 @@ Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[n
 
 ### Prepare a permissions-based ORDER PROCESSOR UI that only shows UI elements for creating and editing a customer  
 
-1.  Create a test user who has the ORDER PROCESSOR profile. For more information, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md) and [Managing Users](Managing-Users.md).  
+1. Create a test user who has the ORDER PROCESSOR profile. For more information, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md) and [Managing Users](Managing-Users.md).  
 
-2.  Assign the FOUNDATION permission set. For more information, see [How to: Define Permissions for Users](How-to--Define-Permissions-for-Users.md).  
+2. Assign the FOUNDATION permission set. For more information, see [How to: Define Permissions for Users](How-to--Define-Permissions-for-Users.md).  
 
-3.  Assign the following two application permission sets, which support the task to create and edit a customer in conjunction with the FOUNDATION permission set:  
+3. Assign the following two application permission sets, which support the task to create and edit a customer in conjunction with the FOUNDATION permission set:  
 
-    -   S&R-Customer  
+   -   S&R-Customer  
 
-    -   S&R-Customer, EDIT  
+   -   S&R-Customer, EDIT  
 
-4.  Upload a user license. For more information, see [How to: Upload the License File](How-to--Upload-the-License-File.md).  
+4. Upload a user license. For more information, see [How to: Upload the License File](How-to--Upload-the-License-File.md).  
 
-5.  Set the **UI Elements Removal** field to **LicenseFileAndUserPermissions**. For more information, see [How to: Specify When UI Elements Are Removed](How-to--Specify-When-UI-Elements-Are-Removed.md).  
+5. Set the **UI Elements Removal** field to **LicenseFileAndUserPermissions**. For more information, see [How to: Specify When UI Elements Are Removed](How-to--Specify-When-UI-Elements-Are-Removed.md).  
 
-6.  Start the client for the ORDER PROCESSOR profile.  
+6. Start the client for the ORDER PROCESSOR profile.  
 
- On the **Sales Order Processor** Role Center, you now only see the UI elements that are required to create and edit a customer. For example, only the **Customers** action is visible on the navigation pane, and all the tiles for sales documents are removed from the **Activities** part. On the involved pages, such as the **Customer Card** window, you now only see the fields, actions, and page parts that are required to create and edit a customer.  
+   On the **Sales Order Processor** Role Center, you now only see the UI elements that are required to create and edit a customer. For example, only the **Customers** action is visible on the navigation pane, and all the tiles for sales documents are removed from the **Activities** part. On the involved pages, such as the **Customer Card** window, you now only see the fields, actions, and page parts that are required to create and edit a customer.  
 
 ## See Also  
  [How to: Specify When UI Elements Are Removed](How-to--Specify-When-UI-Elements-Are-Removed.md)   

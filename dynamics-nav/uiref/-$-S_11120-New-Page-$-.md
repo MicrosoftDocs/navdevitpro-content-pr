@@ -18,13 +18,13 @@ Creates a new page. Pages are objects for viewing and editing data in the [!INCL
 
  There are ten page types from which you can choose, including:  
 
--   Role Center pages, which are home pages for a specific user role.  
+- Role Center pages, which are home pages for a specific user role.  
 
--   List pages, which display multiple records on a page.  
+- List pages, which display multiple records on a page.  
 
--   Card pages, which are used to edit individual customer or item records.  
+- Card pages, which are used to edit individual customer or item records.  
 
- The page type determines which controls, parts, and properties are valid for the page. You can choose to create a blank page and build it from scratch, or you can use the page wizard to create a specific type of page  
+  The page type determines which controls, parts, and properties are valid for the page. You can choose to create a blank page and build it from scratch, or you can use the page wizard to create a specific type of page  
 
 ## Fields  
 

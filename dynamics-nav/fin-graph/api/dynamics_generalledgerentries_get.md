@@ -24,6 +24,7 @@ GET /businesscentral/companies({id})/generalLedgerEntries({id})
 ```
 
 ## Request headers
+
 |Header       |Value             |
 |-------------|------------------|
 |Authorization|Bearer. Required. |

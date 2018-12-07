@@ -25,16 +25,16 @@ Sets the extended data type of a control.
 ## Remarks  
  The value of this property overrides the value of the table field and it converts a text field into one of the following:  
 
--   None  
--   Phone number  
--   Email address  
--   URL  
--   Filter (used on reports)  
--   Ratio (to monitor the progress bar)
--   Masked (displays the value as dots)
--   Person (displays a media field value as a round picture)
+- None  
+- Phone number  
+- Email address  
+- URL  
+- Filter (used on reports)  
+- Ratio (to monitor the progress bar)
+- Masked (displays the value as dots)
+- Person (displays a media field value as a round picture)
 
- This property affects the layout and behavior of controls on pages. For example, you can use it to add an icon next to an input field to indicate if the field specifies a phone number, email address, or URL. This property applies validation to the field.  
+  This property affects the layout and behavior of controls on pages. For example, you can use it to add an icon next to an input field to indicate if the field specifies a phone number, email address, or URL. This property applies validation to the field.  
 
 ## See Also  
 [Properties](Properties.md)  

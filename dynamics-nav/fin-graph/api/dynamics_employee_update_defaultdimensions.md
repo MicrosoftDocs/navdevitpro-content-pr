@@ -25,6 +25,7 @@ PATCH /businesscentral/companies({companyId})/employees({employeeId})/defaultDim
 ```
 
 ## Request headers
+
 |Header        |Value                    |
 |--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|

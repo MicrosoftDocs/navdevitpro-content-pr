@@ -26,19 +26,19 @@ This topic discusses the following administration concepts and tasks for [!INCLU
 ##  <a name="UserAuth"></a> User Authentication  
  [!INCLUDE[navnow](includes/navnow_md.md)] supports four different credential types for authenticating users:  
   
--   NavUserPassword  
+- NavUserPassword  
   
--   Windows  
+- Windows  
   
--   UserName  
+- UserName  
   
--   AccesControlService  
+- AccesControlService  
   
- These credential types are also supported for [!INCLUDE[navnow](includes/navnow_md.md)] deployments on Azure. By default, the [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] configure NavUserPassword credential type for [!INCLUDE[navnow](includes/navnow_md.md)] deployments on Azure. However, you can configure the deployment for any of the available credential types.  
+  These credential types are also supported for [!INCLUDE[navnow](includes/navnow_md.md)] deployments on Azure. By default, the [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] configure NavUserPassword credential type for [!INCLUDE[navnow](includes/navnow_md.md)] deployments on Azure. However, you can configure the deployment for any of the available credential types.  
   
- You can change the credential type programmatically by modifying the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] scripts or manually by establishing a Remote Desktop connection to the virtual machine that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)], and then modifying the configuration of these components. You must also configure the credential type in [!INCLUDE[navnow](includes/navnow_md.md)] user accounts.  
+  You can change the credential type programmatically by modifying the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] scripts or manually by establishing a Remote Desktop connection to the virtual machine that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)], and then modifying the configuration of these components. You must also configure the credential type in [!INCLUDE[navnow](includes/navnow_md.md)] user accounts.  
   
- For more information, see [Users and Credential Types](Users-and-Credential-Types.md).  
+  For more information, see [Users and Credential Types](Users-and-Credential-Types.md).  
   
 > [!NOTE]  
 >  The [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] automatically configure a default [!INCLUDE[navnow](includes/navnow_md.md)] user who is assigned the SUPER permission set. For more information, see [Security and Protection for Microsoft Dynamics NAV on Microsoft Azure](Security-and-Protection-for-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md).  

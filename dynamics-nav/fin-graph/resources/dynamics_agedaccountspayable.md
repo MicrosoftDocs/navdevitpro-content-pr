@@ -27,7 +27,8 @@ Represents an agedAccountsPayable object in [!INCLUDE[d365fin_long_md](../../inc
 |[GET agedAccountsPayable](../api/dynamics_agedaccountspayable_get.md)|agedAccountsPayable|Get agedAccountsPayable object|
 
 ## Properties
-| Property	    | Type	   |Description                                 |
+
+| Property      | Type     |Description                                 |
 |:--------------|:---------|:-------------------------------------------|
 |vendorId       |GUID      |The unique ID of vendor.                    |
 |vendorNumber   |string    |Specifies vendor's number.                  |
@@ -66,7 +67,6 @@ Here is a JSON representation of the resource.
     "periodStartDateFilter": "date",
     "periodLengthFilter": "string"
 }
-
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

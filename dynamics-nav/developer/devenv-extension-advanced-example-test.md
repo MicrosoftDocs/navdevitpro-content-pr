@@ -52,9 +52,9 @@ We will first create a new project (CustomerRewardsTest) for the tests. You are 
 Before we can start writing the tests for the extension, we need to do the following: 
 
 + Specify the dependencies between the extension (CustomerRewards) and the test (CustomerRewardsTest) projects.  
-Our CustomerRewardsTest project will be referencing objects from the CustomerRewards project and so we will need to specify this in the `dependencies` setting in the CustomerRewardsTest project's app.json file. The `dependencies` setting takes a list of dependencies, where each dependency specifies the `appId`, `name`, `publisher`, and `version` of the base project/package that the current project/package will depend on.  
+  Our CustomerRewardsTest project will be referencing objects from the CustomerRewards project and so we will need to specify this in the `dependencies` setting in the CustomerRewardsTest project's app.json file. The `dependencies` setting takes a list of dependencies, where each dependency specifies the `appId`, `name`, `publisher`, and `version` of the base project/package that the current project/package will depend on.  
 
- ```
+  ```
   "dependencies": [ 
 
     { 
@@ -70,8 +70,8 @@ Our CustomerRewardsTest project will be referencing objects from the CustomerRew
     } 
 
   ] 
-```
- 
+  ```
+
 
 For more information, see [JSON Files](devenv-json-files.md). 
 
@@ -117,7 +117,7 @@ The following sections provide an overview of the tags that we recommend you to 
 ```
 
 `FeatureTag` represents the name of the feature, application area, functional area, or another aspect of the application. This list of tags must point to an area of your solution that is touched by the test. Order tags in descending importance. Start with the most important tags referring to the WHEN or THEN steps. The `[FEATURE]` tag can be set for the whole test codeunit. This means all tests in this codeunit will inherit the list of tags set there. If a test is supposed to have the same list of tags as the codeunit has, you do not have to add the `[FEATURE]` tag for this test. Add the tags only if the test has something specific to say. 
- 
+
 ##### SCENARIO Tag 
 
 ```
@@ -156,7 +156,7 @@ codeunit 50102 MockCustomerRewardsExtMgt
 
     EventSubscriberInstance = Manual; 
 
- 
+
 
     var 
 
@@ -166,7 +166,7 @@ codeunit 50102 MockCustomerRewardsExtMgt
 
         DummyFailureResponseTxt: Label '{"ActivationResponse": "Failure"}', Locked = true; 
 
- 
+
 
     // Mocks the response text for testing success and failure scenarios 
 
@@ -184,7 +184,7 @@ codeunit 50102 MockCustomerRewardsExtMgt
 
     end; 
 
- 
+
     // Modifies the default Customer Rewards Ext. Mgt codeunit to this codeunit to prevent the  
 
     // OnGetActivationCodeStatusFromServerSubscriber in Customer Rewards Ext. Mgt from handling 
@@ -207,7 +207,7 @@ codeunit 50102 MockCustomerRewardsExtMgt
 
     end; 
 
- 
+
 
     // Subscribes to OnGetActivationCodeStatusFromServer event and handles it when the event is raised 
 
@@ -225,7 +225,7 @@ codeunit 50102 MockCustomerRewardsExtMgt
 
         JsonRepsonse: JsonToken; 
 
- 
+
 
     begin 
 
@@ -233,7 +233,7 @@ codeunit 50102 MockCustomerRewardsExtMgt
 
             JsonRepsonse.ReadFrom(ResponseText); 
 
- 
+
 
             if(JsonRepsonse.SelectToken('ActivationResponse', Result)) then begin 
 
@@ -243,7 +243,7 @@ codeunit 50102 MockCustomerRewardsExtMgt
 
                         ActivationCodeInfo.Delete; 
 
- 
+
 
                     ActivationCodeInfo.Init; 
 
@@ -263,7 +263,7 @@ codeunit 50102 MockCustomerRewardsExtMgt
 
     end; 
 
- 
+
 
     // Mocks making calls to external service 
 
@@ -275,7 +275,7 @@ codeunit 50102 MockCustomerRewardsExtMgt
 
             exit(false); 
 
- 
+
 
         ResponseText := DummyResponseTxt; 
 
@@ -359,13 +359,13 @@ codeunit 50103 "Customer Rewards Test"
 
     // [FEATURE] [Customer Rewards] 
 
- 
+
 
     Subtype = Test; 
 
     TestPermissions = Disabled; 
 
- 
+
 
     var 
 
@@ -389,7 +389,7 @@ codeunit 50103 "Customer Rewards Test"
 
         NoLevelTxt: TextConst ENU = 'NONE'; 
 
- 
+
 
     [Test] 
 
@@ -409,13 +409,13 @@ codeunit 50103 "Customer Rewards Test"
 
         Initialize; 
 
- 
+
 
         // [When] Install logic is run 
 
         CustomerRewardsInstallLogic.SetDefaultCustomerRewardsExtMgtCodeunit; 
 
- 
+
 
         // [Then] Default Customer Rewards Ext. Mgt codeunit is specified 
 
@@ -427,7 +427,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -435,7 +435,7 @@ codeunit 50103 "Customer Rewards Test"
 
     var 
 
- 
+
 
         CustomerRewardsWizardTestPage: TestPage "Customer Rewards Wizard"; 
 
@@ -451,13 +451,13 @@ codeunit 50103 "Customer Rewards Test"
 
         LibraryLowerPermissions.SetO365BusFull; 
 
- 
+
 
         // [When] The Wizard is opnened 
 
         CustomerRewardsWizardTestPage.OpenView; 
 
- 
+
 
         // [Then] The terms page and fields behave as expected 
 
@@ -469,11 +469,11 @@ codeunit 50103 "Customer Rewards Test"
 
         Assert.IsFalse(CustomerRewardsWizardTestPage.ActionFinish.Enabled, 'Finish should be disabled'); 
 
- 
+
 
         CustomerRewardsWizardTestPage.EnableFeature.SetValue(true); 
 
- 
+
 
         Assert.IsTrue(CustomerRewardsWizardTestPage.EnableFeature.AsBoolean, 'Enable feature should be checked'); 
 
@@ -481,13 +481,13 @@ codeunit 50103 "Customer Rewards Test"
 
         Assert.IsFalse(CustomerRewardsWizardTestPage.ActionFinish.Enabled, 'Finish should be disabled'); 
 
- 
+
 
         CustomerRewardsWizardTestPage.Close; 
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -515,7 +515,7 @@ codeunit 50103 "Customer Rewards Test"
 
         Assert.IsFalse(CustomerRewardsExtMgt.IsCustomerRewardsActivated, NotActivatedTxt); 
 
- 
+
 
         // [When] User invokes activate action without entering activation code 
 
@@ -525,7 +525,7 @@ codeunit 50103 "Customer Rewards Test"
 
         Assert.IsFalse(CustomerRewardsWizardTestPage.ActionFinish.Enabled, 'Finish should be disabled'); 
 
- 
+
 
         // [Then] Error message displayed 
 
@@ -537,7 +537,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -565,7 +565,7 @@ codeunit 50103 "Customer Rewards Test"
 
         Assert.IsFalse(CustomerRewardsExtMgt.IsCustomerRewardsActivated, NotActivatedTxt); 
 
- 
+
 
         // [When] User invokes activate action after entering short activation code 
 
@@ -573,7 +573,7 @@ codeunit 50103 "Customer Rewards Test"
 
         CustomerRewardsWizardTestPage.Activationcode.SetValue('123456'); 
 
- 
+
 
         // [Then] Error message displayed 
 
@@ -585,7 +585,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -613,7 +613,7 @@ codeunit 50103 "Customer Rewards Test"
 
         Assert.IsFalse(CustomerRewardsExtMgt.IsCustomerRewardsActivated, NotActivatedTxt); 
 
- 
+
 
         // [When] User invokes activate action after entering long activation code 
 
@@ -621,7 +621,7 @@ codeunit 50103 "Customer Rewards Test"
 
         CustomerRewardsWizardTestPage.Activationcode.SetValue('123456789012345'); 
 
- 
+
 
         // [Then] Error message displayed 
 
@@ -633,7 +633,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -663,7 +663,7 @@ codeunit 50103 "Customer Rewards Test"
 
         MockCustomerRewardsExtMgt.MockActivationResponse(false); 
 
- 
+
 
         // [When] User invokes activate action after entering invalid but correct length activation code 
 
@@ -671,7 +671,7 @@ codeunit 50103 "Customer Rewards Test"
 
         CustomerRewardsWizardTestPage.Activationcode.SetValue('12345678901234'); 
 
- 
+
 
         // [Then] Error message displayed 
 
@@ -683,7 +683,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -713,7 +713,7 @@ codeunit 50103 "Customer Rewards Test"
 
         MockCustomerRewardsExtMgt.MockActivationResponse(true); 
 
- 
+
 
         // [When] User invokes activate action after entering valid activation code 
 
@@ -725,7 +725,7 @@ codeunit 50103 "Customer Rewards Test"
 
         CustomerRewardsWizardTestPage.Close; 
 
- 
+
 
         // [Then] Customer Rewards is activated 
 
@@ -733,7 +733,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -761,7 +761,7 @@ codeunit 50103 "Customer Rewards Test"
 
         Assert.IsFalse(CustomerRewardsExtMgt.IsCustomerRewardsActivated, NotActivatedTxt); 
 
- 
+
 
         // [When] User opens Reward Level Page 
 
@@ -773,7 +773,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -805,7 +805,7 @@ codeunit 50103 "Customer Rewards Test"
 
         Assert.IsTrue(CustomerRewardsExtMgt.IsCustomerRewardsActivated, ActivatedTxt); 
 
- 
+
 
         // [When] User opens Reward Level Page 
 
@@ -815,7 +815,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -837,7 +837,7 @@ codeunit 50103 "Customer Rewards Test"
 
         LibraryLowerPermissions.SetO365BusFull; 
 
- 
+
 
         // [Then] Reward levels action exists on custome list page 
 
@@ -845,7 +845,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -875,7 +875,7 @@ codeunit 50103 "Customer Rewards Test"
 
         Assert.IsFalse(CustomerRewardsExtMgt.IsCustomerRewardsActivated, NotActivatedTxt); 
 
- 
+
 
         // [When] User opens Customer List page and invokes action 
 
@@ -883,13 +883,13 @@ codeunit 50103 "Customer Rewards Test"
 
         CustomerListTestPage."Reward Levels".Invoke; 
 
- 
+
 
         // [Then] Wizard opens. Caught by CustomerRewardsWizardModalPageHandler 
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -923,7 +923,7 @@ codeunit 50103 "Customer Rewards Test"
 
         Assert.IsTrue(CustomerRewardsExtMgt.IsCustomerRewardsActivated, ActivatedTxt); 
 
- 
+
 
         // [When] User opens Customer List page and invokes action 
 
@@ -931,13 +931,13 @@ codeunit 50103 "Customer Rewards Test"
 
         CustomerListTestPage."Reward Levels".Invoke; 
 
- 
+
 
         // [Then] Wizard opens. Caught by RewardsLevelListlPageHandler 
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -955,19 +955,19 @@ codeunit 50103 "Customer Rewards Test"
 
         // [Given] Customer Card Page 
 
- 
+
 
         // Using permissions that do not inlcude SUPER 
 
         LibraryLowerPermissions.SetO365BusFull; 
 
- 
+
 
         // [When] Customer card page is opened 
 
         CustomerCardTestPage.OpenView; 
 
- 
+
 
         // [Then] Reward fiels are exist 
 
@@ -981,7 +981,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -1011,19 +1011,19 @@ codeunit 50103 "Customer Rewards Test"
 
         ActivateCustomerRewards; 
 
- 
+
 
         // [When] New Customer 
 
         LibrarySales.CreateCustomer(Customer); 
 
- 
+
 
         CustomerCardTestPage.OpenView; 
 
         CustomerCardTestPage.GoToRecord(Customer); 
 
- 
+
 
         // [Then] No Reward level 
 
@@ -1035,7 +1035,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -1065,13 +1065,13 @@ codeunit 50103 "Customer Rewards Test"
 
         ActivateCustomerRewards; 
 
- 
+
 
         // New Customer 
 
         LibrarySales.CreateCustomer(Customer); 
 
- 
+
 
         // [When] 4 Sales Orders 
 
@@ -1083,7 +1083,7 @@ codeunit 50103 "Customer Rewards Test"
 
         CreateAndPostSalesOrder(Customer."No."); 
 
- 
+
 
         // [Then] Customer has 4 reward points 
 
@@ -1095,7 +1095,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -1129,19 +1129,19 @@ codeunit 50103 "Customer Rewards Test"
 
         AddRewardLevel(BronzeLevelTxt, 2); // 2 points required for BRONZE level 
 
- 
+
 
         // New Customer 
 
         LibrarySales.CreateCustomer(Customer); 
 
- 
+
 
         CustomerCardTestPage.OpenView; 
 
         CustomerCardTestPage.GoToRecord(Customer); 
 
- 
+
 
         // Verify 0 points and no reward level before sales order 
 
@@ -1149,13 +1149,13 @@ codeunit 50103 "Customer Rewards Test"
 
         VerifyCustomerRewardLevel(CustomerCardTestPage.RewardLevel.Value, NoLevelTxt); 
 
- 
+
 
         // [When] 1 Sales Order 
 
         CreateAndPostSalesOrder(Customer."No."); 
 
- 
+
 
         // [Then] Customer has 1 points and no reward level after sales order 
 
@@ -1167,7 +1167,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -1199,17 +1199,17 @@ codeunit 50103 "Customer Rewards Test"
 
         ActivateCustomerRewards; 
 
- 
+
 
         AddRewardLevel(BronzeLevelTxt, 2); // 2 points required for BRONZE level 
 
- 
+
 
         // New Customer 
 
         LibrarySales.CreateCustomer(Customer); 
 
- 
+
 
         // [When] 2 Sales Order 
 
@@ -1217,7 +1217,7 @@ codeunit 50103 "Customer Rewards Test"
 
         CreateAndPostSalesOrder(Customer."No."); 
 
- 
+
 
         // [Then] Customer has 2 points and bronze reward level  
 
@@ -1231,7 +1231,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -1263,19 +1263,19 @@ codeunit 50103 "Customer Rewards Test"
 
         ActivateCustomerRewards; 
 
- 
+
 
         AddRewardLevel(BronzeLevelTxt, 2); // 2 points required for BRONZE level 
 
         AddRewardLevel(SilverLevelTxt, 3); // 3 points required for SILVER level 
 
- 
+
 
         // New Customer 
 
         LibrarySales.CreateCustomer(Customer); 
 
- 
+
 
         // 2 Sales Order 
 
@@ -1283,7 +1283,7 @@ codeunit 50103 "Customer Rewards Test"
 
         CreateAndPostSalesOrder(Customer."No."); 
 
- 
+
 
         // Verify 2 points and bronze reward level  
 
@@ -1295,13 +1295,13 @@ codeunit 50103 "Customer Rewards Test"
 
         VerifyCustomerRewardLevel(CustomerCardTestPage.RewardLevel.Value, BronzeLevelTxt); 
 
- 
+
 
         // [When] 3rd Sales Order 
 
         CreateAndPostSalesOrder(Customer."No."); 
 
- 
+
 
         // [Then] Customer has 3 points and silver reward level  
 
@@ -1313,7 +1313,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     [Test] 
 
@@ -1347,7 +1347,7 @@ codeunit 50103 "Customer Rewards Test"
 
         ActivateCustomerRewards; 
 
- 
+
 
         AddRewardLevel(BronzeLevelTxt, 2); // 2 points required for BRONZE level 
 
@@ -1355,13 +1355,13 @@ codeunit 50103 "Customer Rewards Test"
 
         AddRewardLevel(GoldLevelTxt, 4); // 4 points required for GOLD level 
 
- 
+
 
         // New Customer 
 
         LibrarySales.CreateCustomer(Customer); 
 
- 
+
 
         // 3 Sales Order 
 
@@ -1371,7 +1371,7 @@ codeunit 50103 "Customer Rewards Test"
 
         CreateAndPostSalesOrder(Customer."No."); 
 
- 
+
 
         // Verify 3 points and silver reward level  
 
@@ -1383,13 +1383,13 @@ codeunit 50103 "Customer Rewards Test"
 
         VerifyCustomerRewardLevel(CustomerCardTestPage.RewardLevel.Value, SilverLevelTxt); 
 
- 
+
 
         // [When] 4th Sales Order 
 
         CreateAndPostSalesOrder(Customer."No."); 
 
- 
+
 
         // [Then] Customer has 4 points and gold reward level  
 
@@ -1401,7 +1401,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     local procedure OpenCustomerRewardsWizardActivationPage(VAR CustomerRewardsWizardTestPage: TestPage "Customer Rewards Wizard"); 
 
@@ -1415,7 +1415,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     local procedure Initialize(); 
 
@@ -1435,7 +1435,7 @@ codeunit 50103 "Customer Rewards Test"
 
         RewardLevel.DeleteAll; 
 
- 
+
 
         UnbindSubscription(MockCustomerRewardsExtMgt); 
 
@@ -1445,7 +1445,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     local procedure ActivateCustomerRewards(); 
 
@@ -1467,7 +1467,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     local procedure CreateAndPostSalesOrder(SellToCustomerNo: Code[20]); 
 
@@ -1491,13 +1491,13 @@ codeunit 50103 "Customer Rewards Test"
 
         SalesLine.MODIFY(TRUE); 
 
- 
+
 
         LibrarySales.PostSalesDocument(SalesHeader, true, true); 
 
     end; 
 
- 
+
 
     local procedure AddRewardLevel(Level: Text; MinPoints: Integer); 
 
@@ -1527,7 +1527,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     local procedure VerifyCustomerRewardLevel(ExpectedLevel: Text; ActualLevel: Text); 
 
@@ -1537,7 +1537,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     local procedure VerifyCustomerRewardPoints(ExpectedPoints: Integer; ActualPoints: Integer); 
 
@@ -1547,9 +1547,9 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
 
- 
+
+
 
     [ModalPageHandler] 
 
@@ -1559,7 +1559,7 @@ codeunit 50103 "Customer Rewards Test"
 
     end; 
 
- 
+
 
     [PageHandler] 
 
@@ -1570,7 +1570,6 @@ codeunit 50103 "Customer Rewards Test"
     end; 
 
 } 
-
 ``` 
 
 At this point you can publish and run your tests on your tenant by pressing Ctrl+F5. 

@@ -27,7 +27,8 @@ Represents an account object in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 |[GET accounts](../api/dynamics_account_get.md)|accounts|Get accounts object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the account.|
 |number|string, maximum size 20|Specifies the number of the G/L account.|
@@ -56,7 +57,6 @@ Here is a JSON representation of the resource.
   "blocked": "boolean",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

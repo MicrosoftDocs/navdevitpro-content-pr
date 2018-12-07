@@ -20,13 +20,13 @@ You can view information about all the subscribers to events in an application f
 
 ### To view the event subscription from a [!INCLUDE[navnow](includes/navnow_md.md)] client  
 
-1.  Start the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
+1. Start the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
 
-2.  In the **Search** box, enter **Sessions**, and then choose the related link.  
+2. In the **Search** box, enter **Sessions**, and then choose the related link.  
 
-3.  On the **Home** tab, in the **Events** group, choose **Subscriptions**.  
+3. On the **Home** tab, in the **Events** group, choose **Subscriptions**.  
 
- The **9510 Event Subscriptions** page lists the event subscribers in the application. For information about the fields for each entry, see [Event Subscriptions](uiref/-$-N_9510-Event-Subscriptions-$-.md)  
+   The **9510 Event Subscriptions** page lists the event subscribers in the application. For information about the fields for each entry, see [Event Subscriptions](uiref/-$-N_9510-Event-Subscriptions-$-.md)  
 
 ## See Also  
  [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   

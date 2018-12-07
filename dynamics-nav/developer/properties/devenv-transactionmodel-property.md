@@ -36,41 +36,41 @@ Specifies whether data is committed to the database during execution of a test m
 
  When you create test methods that exercise pages that interact with the database, you have the following options for simulating user scenarios and then returning the database to its initial, well-known state:  
 
--   Set the **TransactionModel** property on the test method to **AutoRollback**. This assumes that the code that you test does not include calls to the **COMMIT** method. Any calls to the **COMMIT** method give you an error. Most business logic does not call the **COMMIT** method, but relies on implicit commits at the end of the outermost AL trigger. The test proceeds as follows:  
+- Set the **TransactionModel** property on the test method to **AutoRollback**. This assumes that the code that you test does not include calls to the **COMMIT** method. Any calls to the **COMMIT** method give you an error. Most business logic does not call the **COMMIT** method, but relies on implicit commits at the end of the outermost AL trigger. The test proceeds as follows:  
 
-    1.  The test method starts a transaction.  
+  1.  The test method starts a transaction.  
 
-    2.  The test method initializes data in the database. Database changes are made in the transaction that was started by the test method.  
+  2.  The test method initializes data in the database. Database changes are made in the transaction that was started by the test method.  
 
-    3.  Fields on the test page are set or updated. Database changes are made in the transaction that was started by the test method.  
+  3.  Fields on the test page are set or updated. Database changes are made in the transaction that was started by the test method.  
 
-    4.  The test method reads the values of fields on the test page or reads from the database to validate the test.  
+  4.  The test method reads the values of fields on the test page or reads from the database to validate the test.  
 
-    5.  After the test method is completed, the transaction is rolled back and the database is returned to its initial state.  
+  5.  After the test method is completed, the transaction is rolled back and the database is returned to its initial state.  
 
--   If the code that you test includes calls to the **COMMIT** method, then set the **TransactionModel** property on the test method to **AutoCommit**. The test proceeds as follows:  
+- If the code that you test includes calls to the **COMMIT** method, then set the **TransactionModel** property on the test method to **AutoCommit**. The test proceeds as follows:  
 
-    1.  The test method starts a transaction.  
+  1.  The test method starts a transaction.  
 
-    2.  The test method initializes data in the database. Database changes are made in the transaction that was started by the test method.  
+  2.  The test method initializes data in the database. Database changes are made in the transaction that was started by the test method.  
 
-    3.  Fields on the test page are set or updated. Database changes are made in the transaction that was started by the test method.  
+  3.  Fields on the test page are set or updated. Database changes are made in the transaction that was started by the test method.  
 
-    4.  When the COMMIT method is called, changes are committed to the database.  
+  4.  When the COMMIT method is called, changes are committed to the database.  
 
-    5.  The test method reads the values of fields on the test page or reads from the database to validate the test.  
+  5.  The test method reads the values of fields on the test page or reads from the database to validate the test.  
 
-    6.  After the test method is completed, changes are committed to the database. To return the database to its initial state, either you must manually revert the changes by deleting, updating, or inserting records, or you must use the [TestIsolation Property](devenv-testisolation-property.md) on the test runner codeunit to roll back changes.  
+  6.  After the test method is completed, changes are committed to the database. To return the database to its initial state, either you must manually revert the changes by deleting, updating, or inserting records, or you must use the [TestIsolation Property](devenv-testisolation-property.md) on the test runner codeunit to roll back changes.  
 
--   Set the **TransactionModel** property on the test method to **None** to simulate the behavior of an actual user. The test method does not start a transaction and cannot write to the database. However, a new transaction is started every time that a field on the page is updated and AL code is triggered. At the end of each trigger, changes are automatically committed to the database. You can use this option if your test does not write to the database and you do not have to initialize data in the database before the test starts. For example, use this option for tests that validate calculation formulas or tests that read from the database. The test proceeds as follows:  
+- Set the **TransactionModel** property on the test method to **None** to simulate the behavior of an actual user. The test method does not start a transaction and cannot write to the database. However, a new transaction is started every time that a field on the page is updated and AL code is triggered. At the end of each trigger, changes are automatically committed to the database. You can use this option if your test does not write to the database and you do not have to initialize data in the database before the test starts. For example, use this option for tests that validate calculation formulas or tests that read from the database. The test proceeds as follows:  
 
-    1.  If a field on the test page is set or updated and AL code is triggered, then the test page starts a transaction. At the end of the trigger, changes are committed to the database.  
+  1.  If a field on the test page is set or updated and AL code is triggered, then the test page starts a transaction. At the end of the trigger, changes are committed to the database.  
 
-    2.  The test method validates the test.  
+  2.  The test method validates the test.  
 
-    3.  After the test is completed, no transactions are rolled back. To return the database to its initial state, either you must manually revert the changes by deleting, updating, or inserting records, or you must use the [TestIsolation Property](devenv-testisolation-property.md) on the test runner codeunit to roll back changes.  
+  3.  After the test is completed, no transactions are rolled back. To return the database to its initial state, either you must manually revert the changes by deleting, updating, or inserting records, or you must use the [TestIsolation Property](devenv-testisolation-property.md) on the test runner codeunit to roll back changes.  
 
- With **AutoCommit** and **AutoRollback**, the test method starts a write transaction. Triggers that are invoked by the test code inherit this open transaction instead of running in their own separate transactions. By using the **AutoCommit** and **AutoRollback** settings, if several page interactions are invoked from test code, then they share the same transaction. By using the **None** setting, each page interaction runs in a separate transaction.  
+  With **AutoCommit** and **AutoRollback**, the test method starts a write transaction. Triggers that are invoked by the test code inherit this open transaction instead of running in their own separate transactions. By using the **AutoCommit** and **AutoRollback** settings, if several page interactions are invoked from test code, then they share the same transaction. By using the **None** setting, each page interaction runs in a separate transaction.  
 
 ## See Also  
  [TestIsolation Property](devenv-testisolation-property.md)   

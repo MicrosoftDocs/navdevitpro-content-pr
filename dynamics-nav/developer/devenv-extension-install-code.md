@@ -35,17 +35,17 @@ The following code illustrates the basic syntax and structure of an install code
 ```
 codeunit [ID] [NAME]
 {
-	Subtype=Install;
+    Subtype=Install;
 
-	procedure OnInstallAppPerCompany()
-	begin
-		// Code for company related operations
-	end;
+    procedure OnInstallAppPerCompany()
+    begin
+        // Code for company related operations
+    end;
 
-	procedure OnInstallAppPerDatabase()
-	begin
-		// Code for database related operations
-	end;
+    procedure OnInstallAppPerDatabase()
+    begin
+        // Code for database related operations
+    end;
 
 }
 ```
@@ -92,7 +92,6 @@ codeunit 50100 MyInstallCodeunit
         // - Setup 'welcome back' messaging for next user access.
     end;
 }
-
 ```
 
 ## See Also  

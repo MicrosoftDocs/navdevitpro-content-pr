@@ -23,6 +23,7 @@ DELETE /businesscentral/companies({companyId})/vendors({vendorId})/defaultDimens
 ```
 
 ## Request headers
+
 |Header         |Value                     |
 |---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |

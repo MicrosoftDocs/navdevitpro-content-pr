@@ -23,6 +23,7 @@ POST /businesscentral/companies({id})/unitsOfMeasure
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
@@ -69,7 +70,6 @@ Content-type: application/json
   "internationalStandardCode": "EA",
   "lastModifiedDateTime": "2017-03-15T01:21:09.563Z"
 }
-
 ```
 
 

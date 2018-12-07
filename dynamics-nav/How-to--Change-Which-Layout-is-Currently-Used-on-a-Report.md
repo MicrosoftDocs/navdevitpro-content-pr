@@ -44,34 +44,34 @@ This procedure describes how to change the layout that is used by a report. A re
 
 ### To change the layout that is used on a report  
 
-1.  In the **Search** box, enter **\Report Layout Selection**, and then choose the related link.  
+1. In the **Search** box, enter **\Report Layout Selection**, and then choose the related link.  
 
-     The **\Report Layout Selection** window lists all the reports that are available for the company that is specified in the **Company** field at the top of the window.  
+    The **\Report Layout Selection** window lists all the reports that are available for the company that is specified in the **Company** field at the top of the window.  
 
-     The **Selected Layout** field specifies the layout that is currently used on the report.  
+    The **Selected Layout** field specifies the layout that is currently used on the report.  
 
-2.  Set the **Company** field at the top of the window to the company that includes the report.  
+2. Set the **Company** field at the top of the window to the company that includes the report.  
 
-3.  To change the layout that is used by a report, in the row for the report in the list, set the **Selected Layout** field to one of the following options:  
+3. To change the layout that is used by a report, in the row for the report in the list, set the **Selected Layout** field to one of the following options:  
 
-    |[!INCLUDE[bp_tableoption](includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
-    |----------------------------------|---------------------------------------|  
-    |**RDLC \(built-in\)**|Uses the built-in RDLC report layout on the report.|  
-    |**Word \(built-in\)**|Uses the built-in Word report layout on the report.|  
-    |**Custom**|Uses a custom layout on the report.<br /><br /> You can see which custom layouts are available for the report in the **Custom Layouts** FactBox. If there are no custom layouts for the report, then you will have to create one first.<br /><br /> If you choose this option, go to the next procedure to specify the custom layout that you want to use.|  
+   |[!INCLUDE[bp_tableoption](includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
+   |----------------------------------|---------------------------------------|  
+   |**RDLC \(built-in\)**|Uses the built-in RDLC report layout on the report.|  
+   |**Word \(built-in\)**|Uses the built-in Word report layout on the report.|  
+   |**Custom**|Uses a custom layout on the report.<br /><br /> You can see which custom layouts are available for the report in the **Custom Layouts** FactBox. If there are no custom layouts for the report, then you will have to create one first.<br /><br /> If you choose this option, go to the next procedure to specify the custom layout that you want to use.|  
 
-    > [!NOTE]  
-    >  If you choose **RDLC \(built-in\)** or **Word \(built-in\)** and you get an error message that the report does not have a layout of the specified type, then you must choose another layout option or create a custom report layout of the type that you want to use.  
+   > [!NOTE]  
+   >  If you choose **RDLC \(built-in\)** or **Word \(built-in\)** and you get an error message that the report does not have a layout of the specified type, then you must choose another layout option or create a custom report layout of the type that you want to use.  
 
- If you selected a built-in RDLC or Word report layout, then no further action is required and the layout will be used the next time the report is run.  
+   If you selected a built-in RDLC or Word report layout, then no further action is required and the layout will be used the next time the report is run.  
 
 ### To specify a custom layout on a report  
 
-1.  You specify which custom layout to use on the report from the **Report Layouts** window. If the **Report Layouts** window is not open, then in the **Report Layout Description** field, choose the lookup button.  
+1. You specify which custom layout to use on the report from the **Report Layouts** window. If the **Report Layouts** window is not open, then in the **Report Layout Description** field, choose the lookup button.  
 
-2.  In the **Report Layouts** window, select the row for custom layout that you want to use, and then choose the **OK** button.  
+2. In the **Report Layouts** window, select the row for custom layout that you want to use, and then choose the **OK** button.  
 
- You return to the **\Report Layout Selection** window. The name of the selected custom layout displays in the **Report Description** field. The custom layout will be used the next time that you run the report.  
+   You return to the **\Report Layout Selection** window. The name of the selected custom layout displays in the **Report Description** field. The custom layout will be used the next time that you run the report.  
 
 ## See Also  
  [Managing Report Layouts](managing-report-layouts.md)   

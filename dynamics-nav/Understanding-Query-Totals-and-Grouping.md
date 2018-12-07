@@ -106,18 +106,18 @@ In a query, you use a totals method to perform a calculation on the fields of a 
 ##  <a name="Count"></a> Count  
  The Count method returns the number of records from the data item table that comprise a group in the dataset. Unlike the other totals methods, the Count method is not associated with a specific column. Records are identified and counted based on the primary key of the data item table. Referring to the sample query, you can use a Count method to get the number of open sales orders per customer. To set up a Count method in the sample query, do the following:  
   
-1.  Delete the **Quantity** column because the Count method is not associated with a specific column.  
+1. Delete the **Quantity** column because the Count method is not associated with a specific column.  
   
-    > [!NOTE]  
-    >  When using the **Count** method, the [DataSource Property](DataSource-Property.md) must be blank.  
+   > [!NOTE]  
+   >  When using the **Count** method, the [DataSource Property](DataSource-Property.md) must be blank.  
   
-2.  On a blank line under the data item for Sales Lines, set the MethodType property to **Totals** and the Method property to **Count**. The name of the new column automatically changes to **Count\_** and the query is automatically grouped by the **No.** and **Name** columns.  
+2. On a blank line under the data item for Sales Lines, set the MethodType property to **Totals** and the Method property to **Count**. The name of the new column automatically changes to **Count\_** and the query is automatically grouped by the **No.** and **Name** columns.  
   
-     Query Designer will look similar to the following illustration.  
+    Query Designer will look similar to the following illustration.  
   
-     ![Query Designer for counting Customer Sales](media/NAV_Query_CustomerSales_Count_Clip.png "NAV\_Query\_CustomerSales\_Count\_Clip")  
+    ![Query Designer for counting Customer Sales](media/NAV_Query_CustomerSales_Count_Clip.png "NAV\_Query\_CustomerSales\_Count\_Clip")  
   
- The following table illustrates the resulting dataset for the query.  
+   The following table illustrates the resulting dataset for the query.  
   
 |Customer number|Customer name|Count|  
 |---------------------|-------------------|-----------|  

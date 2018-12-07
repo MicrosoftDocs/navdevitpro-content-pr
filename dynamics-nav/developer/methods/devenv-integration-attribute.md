@@ -15,15 +15,15 @@ redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-a
 Specifies the method to be integration type event publisher.
 
 ## Syntax  
-  
+
 ```  
 [Integration(IncludeSender : Boolean, GlobalVarAccess : Boolean)] 
 ```    
-  
+
 #### Arguments  
 *IncludeSender*  
 Type: Boolean  
-  
+
 Specifies whether global methods in the object that contains the event publisher method are exposed to event subscriber methods that subscribe to the event.
 
 **True** exposes the global methods in the object that contains the event publisher function to event subscriber functions; **false** does not. The default value is **false**.
@@ -52,9 +52,8 @@ This example publishes an integration type event by using the OnAddressLineChang
 [Integration(false, false)]
     PROCEDURE OnAddressLineChanged(line : Text[100]);
     begin
-        
-    end;
 
+    end;
 ``` 
 ## See Also  
  [Events in AL](../devenv-events-in-al.md)

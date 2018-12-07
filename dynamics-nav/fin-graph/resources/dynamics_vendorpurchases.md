@@ -21,12 +21,14 @@ Represents a vendor purchase in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
 |[GET vendorPurchases](../api/dynamics_vendorpurchases_get.md)|vendorPurchases|Gets a vendor purchase object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |vendorId|GUID|Represents the vendor ID.|
 |vendorNumber|string|Represents the vendor number.|
@@ -51,7 +53,6 @@ Here is a JSON representation of the resource.
     "totalPurchaseAmount": "decimal",
     "dateFilter_FilterOnly": "date"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

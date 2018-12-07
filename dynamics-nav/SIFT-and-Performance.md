@@ -17,17 +17,17 @@ This topic looks at the factors you must take into consideration when you deal w
 ## Performance Factors to Consider  
  The factors that you must take into consideration when you deal with any performance problems that arise include:  
   
--   Designing your SIFT indexes optimally.  
+- Designing your SIFT indexes optimally.  
   
--   Supporting too many SIFT indexes will affect performance.  
+- Supporting too many SIFT indexes will affect performance.  
   
--   Having unnecessary date fields in the SIFT indexes of the base table will affect performance because they create three times as many entries as an ordinary field.  
+- Having unnecessary date fields in the SIFT indexes of the base table will affect performance because they create three times as many entries as an ordinary field.  
   
--   Supporting too many fields in the SIFT indexes will also affect performance.  
+- Supporting too many fields in the SIFT indexes will also affect performance.  
   
--   The fields in the SIFT index that are used most regularly in queries must be positioned to the left in the SIFT index. Usually, the field that contains the greatest number of unique values must be placed on the left, with the field that contains the second greatest number of unique values on the right and so on. Integer fields generally contain the greatest number of unique values and Option fields contain a relatively small number of values.  
+- The fields in the SIFT index that are used most regularly in queries must be positioned to the left in the SIFT index. Usually, the field that contains the greatest number of unique values must be placed on the left, with the field that contains the second greatest number of unique values on the right and so on. Integer fields generally contain the greatest number of unique values and Option fields contain a relatively small number of values.  
   
- Consider the costs and the benefits of maintaining SIFT indexes.  
+  Consider the costs and the benefits of maintaining SIFT indexes.  
   
 |Cost|Benefit|  
 |----------|-------------|  

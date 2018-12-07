@@ -14,33 +14,33 @@ manager: edupont
 # Breakpoints
 You can break code execution of the session that you are debugging by:  
 
--   Setting a breakpoint on a line of code.  
+- Setting a breakpoint on a line of code.  
 
--   Specifying a break on the next statement.  
+- Specifying a break on the next statement.  
 
--   Specifying a break on errors.  
+- Specifying a break on errors.  
 
--   Specifying a break on record changes.  
+- Specifying a break on record changes.  
 
- You can set breakpoints before you start a debugging session or when you are debugging. Breakpoints and break rules are applied immediately in the session to which the debugger is attached.  
+  You can set breakpoints before you start a debugging session or when you are debugging. Breakpoints and break rules are applied immediately in the session to which the debugger is attached.  
 
- After the breakpoint is hit, you use the debugger to execute C/AL code one line at a time. This procedure is called *stepping*. The **Code Tracking** group on the **Home** tab provides three actions for stepping:  
+  After the breakpoint is hit, you use the debugger to execute C/AL code one line at a time. This procedure is called *stepping*. The **Code Tracking** group on the **Home** tab provides three actions for stepping:  
 
--   **Step Into**  
+- **Step Into**  
 
--   **Step Over**  
+- **Step Over**  
 
--   **Step Out**  
+- **Step Out**  
 
- **Step Into** and **Step Over** differ in how they handle function calls. Either command instructs the debugger to execute the next line of code. If the line contains a function call, **Step Into** executes only the call itself and then stops at the first line of code inside the function. **Step Over** executes the function and then stops at the first line outside the function. Use **Step Into** if you want to look inside the function call. Use **Step Over** if you want to avoid stepping into functions.  
+  **Step Into** and **Step Over** differ in how they handle function calls. Either command instructs the debugger to execute the next line of code. If the line contains a function call, **Step Into** executes only the call itself and then stops at the first line of code inside the function. **Step Over** executes the function and then stops at the first line outside the function. Use **Step Into** if you want to look inside the function call. Use **Step Over** if you want to avoid stepping into functions.  
 
- Use **Step Out** when you are inside a function call and want to return to the calling function. **Step Out** resumes execution of your code until the function returns and then breaks at the return point in the calling function.  
+  Use **Step Out** when you are inside a function call and want to return to the calling function. **Step Out** resumes execution of your code until the function returns and then breaks at the return point in the calling function.  
 
- The **Running Code** group on the **Home** tab provides the **Continue** action. **Continue** executes code until the next breakpoint or until execution ends.  
+  The **Running Code** group on the **Home** tab provides the **Continue** action. **Continue** executes code until the next breakpoint or until execution ends.  
 
- You can inspect the contents of global variables, local variables, system variables, parameters, and text constants at each step. You can see whether the actual values that are displayed differ from the values that you expected when you designed the application.  
+  You can inspect the contents of global variables, local variables, system variables, parameters, and text constants at each step. You can see whether the actual values that are displayed differ from the values that you expected when you designed the application.  
 
- For more information about user account requirements for setting breakpoints, see [Development Environment \(C/SIDE\)](Development-Environment--C-SIDE-.md).  
+  For more information about user account requirements for setting breakpoints, see [Development Environment \(C/SIDE\)](Development-Environment--C-SIDE-.md).  
 
 ## Break on Lines of Code  
  If you set a breakpoint on a line of C/AL code, then execution breaks before the first statement on the line is executed. If you set a breakpoint on a line of code that does not have a C/AL statement, then the breakpoint is automatically set on the next statement. If you set a breakpoint on a line of code that exceeds the number of lines of code in the object, then the breakpoint is set on the last line of code. You can set a condition on a breakpoint on a line of code so that execution breaks only if the condition is met. For more information, see the following topics:  
@@ -54,13 +54,13 @@ You can break code execution of the session that you are debugging by:
 ## Break on Next Statement  
  If the debugger is attached to a session, then you can specify a break on the next statement that is executed in that session. There are three scenarios for specifying a break on the next statement:  
 
--   The debugger is attached to a session, but no action is running in [!INCLUDE[navnow](includes/navnow_md.md)]. You want to debug a specific task. Before you begin that task, you set the debugger to break on the next statement.  
+- The debugger is attached to a session, but no action is running in [!INCLUDE[navnow](includes/navnow_md.md)]. You want to debug a specific task. Before you begin that task, you set the debugger to break on the next statement.  
 
--   The debugger is attached to a session, and [!INCLUDE[navnow](includes/navnow_md.md)] is running some code. You want to debug this code that is currently running. You set the debugger to break on the next statement so that it breaks into this code.  
+- The debugger is attached to a session, and [!INCLUDE[navnow](includes/navnow_md.md)] is running some code. You want to debug this code that is currently running. You set the debugger to break on the next statement so that it breaks into this code.  
 
--   You want to debug from the beginning of a session. You activate the debugger and then select **Debug Next** in the **Session List** page, and then set the debugger to break on the next statement.  
+- You want to debug from the beginning of a session. You activate the debugger and then select **Debug Next** in the **Session List** page, and then set the debugger to break on the next statement.  
 
- For more information, see [How to: Break on the Next Statement](How-to--Break-on-the-Next-Statement.md).  
+  For more information, see [How to: Break on the Next Statement](How-to--Break-on-the-Next-Statement.md).  
 
 ## Break on Errors  
  You can specify that the debugger breaks execution if it encounters an error. If you specify that the debugger breaks on errors, then it breaks both on unhandled errors and on errors that you handle in C/AL code. For more information about how to handle errors, see [Avoiding Run-Time Errors](Avoiding-Run-Time-Errors.md).  

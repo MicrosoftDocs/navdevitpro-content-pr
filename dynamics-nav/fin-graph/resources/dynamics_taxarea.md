@@ -21,6 +21,7 @@ Represents a tax area resource type in [!INCLUDE[d365fin_long_md](../../includes
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
 |[GET taxAreas](../api/dynamics_taxarea_get.md)|taxAreas|Gets a tax area object.|
@@ -29,7 +30,8 @@ Represents a tax area resource type in [!INCLUDE[d365fin_long_md](../../includes
 |[DELETE taxAreas](../api/dynamics_taxarea_delete.md)|none|Deletes a tax area object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the tax area. Non-editable.|
 |code|string, maximum size 20| The code of the tax area.|

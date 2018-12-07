@@ -28,7 +28,7 @@ DELETEENCRYPTIONKEY()
 
 ```  
 IF NOT ENCRYPTIONENABLED THEN  
-  ERROR('Encryption has not been enabled.');  
+  ERROR('Encryption has not been enabled.');  
   DELETEENCRYPTIONKEY();  
 
 ```  

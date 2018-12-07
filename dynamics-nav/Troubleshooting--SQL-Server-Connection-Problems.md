@@ -25,36 +25,36 @@ After installing and configuring [!INCLUDE[navnow](includes/navnow_md.md)] softw
   
 #### To enable Named Pipes and TCP/IP in SQL Server  
   
-1.  Start SQL Server Configuration Manager.  
+1. Start SQL Server Configuration Manager.  
   
-2.  Expand the SQL Server Network Configuration node in the tree view, and then choose **Protocols for MSSQLSERVER**.  
+2. Expand the SQL Server Network Configuration node in the tree view, and then choose **Protocols for MSSQLSERVER**.  
   
-3.  Under **Protocol Name** in the right pane, verify that **Named Pipes** and **TCP/IP** have the status **Enabled**.  
+3. Under **Protocol Name** in the right pane, verify that **Named Pipes** and **TCP/IP** have the status **Enabled**.  
   
-4.  If either protocol is not enabled, right-click the protocol, and then choose **Enable**.  
+4. If either protocol is not enabled, right-click the protocol, and then choose **Enable**.  
   
- After exiting SQL Server Configuration Manager, start the [!INCLUDE[rtc](includes/rtc_md.md)] again to see if the connection problem has been resolved.  
+   After exiting SQL Server Configuration Manager, start the [!INCLUDE[rtc](includes/rtc_md.md)] again to see if the connection problem has been resolved.  
   
 ## Allowing SQL Server with Windows Firewall  
  If Windows Firewall is running on the computer running SQL Server, then you must explicitly specify the SQL Server executable file as an allowed exception before you can connect to the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
 #### To allow SQL Server with Windows Firewall  
   
-1.  In Control Panel, open **Windows Firewall**, choose **Change settings**, and then click the **Exceptions** tab.  
+1. In Control Panel, open **Windows Firewall**, choose **Change settings**, and then click the **Exceptions** tab.  
   
-2.  Choose **Add program**.  
+2. Choose **Add program**.  
   
-3.  Choose **Browse**, and then browse to the location of the SQL Server executable file \(sqlservr.exe\). The default location on a computer running Windows Server 2008 R2 is:  
+3. Choose **Browse**, and then browse to the location of the SQL Server executable file \(sqlservr.exe\). The default location on a computer running Windows Server 2008 R2 is:  
   
-    ```  
-    C:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\Binn\sqlservr.exe  
-    ```  
+   ```  
+   C:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\Binn\sqlservr.exe  
+   ```  
   
-4.  Double-click the executable file to select it and to exit the **Browse** window, and then choose **OK** to close the **Add a Program** window.  
+4. Double-click the executable file to select it and to exit the **Browse** window, and then choose **OK** to close the **Add a Program** window.  
   
-5.  Choose **OK** to close **Windows Firewall**.  
+5. Choose **OK** to close **Windows Firewall**.  
   
- After exiting SQL Server Configuration Manager, start the [!INCLUDE[rtc](includes/rtc_md.md)] again to see if the connection problem has been resolved.  
+   After exiting SQL Server Configuration Manager, start the [!INCLUDE[rtc](includes/rtc_md.md)] again to see if the connection problem has been resolved.  
   
 ## Starting SQL Browser Service  
  When using a named database instance for [!INCLUDE[navnow](includes/navnow_md.md)], and [!INCLUDE[nav_server](includes/nav_server_md.md)] and the SQL server are on separate computers, then SQL Browser Service must be running on the SQL Server. For more information, see [How to: Start SQL Browser Service](How-to--Start-SQL-Browser-Service.md).  

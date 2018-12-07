@@ -15,15 +15,15 @@ manager: edupont
 # Overview of Report Design in Dynamcis NAV
 A report object is composed of a the following items:  
 
--   Report dataset.  
+- Report dataset.  
 
--   Report layout.  
+- Report layout.  
 
--   Request page.  
+- Request page.  
 
--   Properties, triggers and code.  
+- Properties, triggers and code.  
 
- You design a report by first defining the dataset, and then designing the visual layout.  
+  You design a report by first defining the dataset, and then designing the visual layout.  
 
 ## Report Dataset  
  You use Report Dataset Designer in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to define the dataset of a report. The dataset determines the data that is extracted or calculated from the [!INCLUDE[navnow](includes/navnow_md.md)] database tables that can be used in a report. You build the report dataset by adding data items and columns. Typically, data items and columns correspond to fields in a table. When the report is run, each data item is iterated for all records in the underlying table. Filters are applied and the dataset is created.  

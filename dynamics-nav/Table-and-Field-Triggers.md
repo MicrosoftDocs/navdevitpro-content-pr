@@ -17,11 +17,11 @@ manager: edupont
   
  The triggers in a table can be divided into two categories:  
   
--   Table triggers  
+- Table triggers  
   
--   Field triggers  
+- Field triggers  
   
- Tables have the following triggers.  
+  Tables have the following triggers.  
   
 |Table trigger|Executes when|  
 |-------------------|-------------------|  

@@ -45,13 +45,13 @@ MESSAGE(String [, Value1, …])
 ## Programming Guidelines  
  We recommend the following guidelines for messages:  
   
--   Always end a message with a period.  
+- Always end a message with a period.  
   
--   Supply the user with a message when the system has finished performing a task.  
+- Supply the user with a message when the system has finished performing a task.  
   
--   Write the message in past tense.  
+- Write the message in past tense.  
   
- For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](../devenv-progress-windows-message-error-and-confirm-methods.md).  
+  For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](../devenv-progress-windows-message-error-and-confirm-methods.md).  
   
 ## Example  
  This example shows how to use the MESSAGE method.  

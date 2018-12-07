@@ -28,7 +28,8 @@ Represents a dimension value in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 
 
 ## Properties
-| Property	         | Type                  |Description                                        |
+
+| Property           | Type                  |Description                                        |
 |:-------------------|:----------------------|:--------------------------------------------------|
 |id                  |GUID                   |The unique ID of the item.                         |
 |code                |string, maximum size 20|The dimension value code.                          |

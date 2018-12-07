@@ -27,7 +27,8 @@ Represents an cashFlowStatement object in [!INCLUDE[d365fin_long_md](../../inclu
 |[GET cashFlowStatement](../api/dynamics_cashflowstatement_get.md)|cashFlowStatement|Get a cashFlowStatement object.|
 
 ## Properties
-| Property	   | Type	|Description                              |
+
+| Property     | Type   |Description                              |
 |:-------------|:-------|:----------------------------------------|
 |lineNumber    |numeric |The cashFlowStatement item line number.  |
 |display       |string  |The cashFlowStatement item display name. |
@@ -54,7 +55,6 @@ Here is a JSON representation of the resource.
     "indentation": "int",
     "dateFilter": "date"
 }
-
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

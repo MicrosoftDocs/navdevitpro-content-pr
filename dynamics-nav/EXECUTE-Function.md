@@ -15,7 +15,7 @@ caps.latest.revision: 6
 # EXECUTE Function
 Runs a report in preview or processing-only mode without showing the request page in the client. The function gets the request page parameter values as an input parameter string from a [RUNREQUESTPAGE Function](RUNREQUESTPAGE-Function.md) call.  
 
->   [!NOTE]  
+> [!NOTE]
 >   The OnOpen and OnClose triggers on the request page will run even though the request page is not shown.  
 
 ## Syntax  

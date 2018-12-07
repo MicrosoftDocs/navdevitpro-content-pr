@@ -30,7 +30,8 @@ Represents a customer payments journal in [!INCLUDE[d365fin_long_md](../../inclu
 |[DELETE customerPaymentsJournals](../api/dynamics_customerpaymentsjournal_delete.md)|none                     |Deletes a customer payments journal.|
 
 ## Properties
-| Property	         | Type	                 |Description                                                             |
+
+| Property           | Type                  |Description                                                             |
 |:-------------------|:----------------------|:-----------------------------------------------------------------------|
 |id                  |GUID                   |The unique ID of the customer payments journal. Non-editable.           |
 |code                |string, maximum size 10| The code of the customer payments journal.                             |

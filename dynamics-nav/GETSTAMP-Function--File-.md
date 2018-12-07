@@ -27,21 +27,21 @@ Gets the exact time that a file was last written to.
   
  The name of the file, including the path. When you enter the path, consider these shortcuts:  
   
--   You can omit the drive designation if the file is located on the current drive.  
+- You can omit the drive designation if the file is located on the current drive.  
   
--   You can omit the full path if the file is located in the current directory.  
+- You can omit the full path if the file is located in the current directory.  
   
--   You can enter only the subdirectory name if the file is located in a subdirectory of the current directory.  
+- You can enter only the subdirectory name if the file is located in a subdirectory of the current directory.  
   
- *Date*  
- Type: Date  
+  *Date*  
+  Type: Date  
   
- The date that the file was last written to.  
+  The date that the file was last written to.  
   
- *Time*  
- Type: Time  
+  *Time*  
+  Type: Time  
   
- \(Optional\) The time that the file was last written to.  
+  \(Optional\) The time that the file was last written to.  
   
 ## Property Value/Return Value  
  Type: Boolean  

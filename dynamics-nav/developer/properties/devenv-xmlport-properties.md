@@ -17,10 +17,10 @@ redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/deven
 
 # XMLport Properties
 This topic lists properties of the XMLport object, element, and attribute.  
-  
+
 ## XMLport Object Properties  
  The following properties apply to the **XMLport** object.  
-  
+
 |Property Name|XMLport Object|
 |-------------|--------------|
 |[Caption Property](devenv-caption-property.md)|X|
@@ -46,12 +46,14 @@ This topic lists properties of the XMLport object, element, and attribute.
 |[UseLax Property](devenv-uselax-property.md)|X|
 |[UseRequestPage Property](devenv-userequestpage-property.md)|X|
 |[XMLVersionNo Property](devenv-xmlversionno-property.md)|X|
-  
+
 ## Text Element Properties  
  The following properties apply to **Text**  elements of an XMLport object.  
 
-|Property Name|XMLport Object|
-|-------------|--------------|
+
+| Property Name | XMLport Object |
+|---------------|----------------|
+|               |                |
 
 |[Indentation Property \(XMLports\)](devenv-indentation-xmlports-property.md)|X|
 |[MaxOccurs Property](devenv-maxoccurs-property.md)|X|
@@ -63,7 +65,7 @@ This topic lists properties of the XMLport object, element, and attribute.
 |[Unbound Property](devenv-unbound-property.md)|X|
 |[VariableName Properties](devenv-variablename-properties.md)|X|
 |[Width Property \(XMLport\)](devenv-width-xmlport-property.md)|X|
-  
+
 ## Table Element Properties  
  The following properties apply to **Table** elements of an XMLport object.  
 
@@ -90,7 +92,7 @@ This topic lists properties of the XMLport object, element, and attribute.
 |[Temporary Property \(XMLports\)](devenv-temporary-xmlports-property.md)|X|
 |[VariableName Properties](devenv-variablename-properties.md)|X|
 |[Width Property \(XMLport\)](devenv-width-xmlports-property.md)|X|
-  
+
 ## Field Element Properties  
  The following properties apply to **Field** elements of an XMLport Object.  
 
@@ -107,7 +109,7 @@ This topic lists properties of the XMLport object, element, and attribute.
 |[SourceType Property](devenv-sourcetype-property.md)|X|
 |[Unbound Property](devenv-unbound-property.md)|X|
 |[Width Property \(XMLport\)](devenv-width-xmlports-property.md)|X|
-  
+
 ## Text Attribute Properties  
  The following properties apply to **Text** attributes of an XMLport object.  
 
@@ -121,7 +123,7 @@ This topic lists properties of the XMLport object, element, and attribute.
 |[TextType Property](devenv-texttype-property.md)|X|
 |[VariableName Properties](devenv-variablename-properties.md)|X|
 |[Width Property \(XMLport\)](devenv-width-xmlports-property.md)|X|
-  
+
 ## Table Attribute Properties  
  The following properties apply to **Table** attributes of an XMLport object.  
 
@@ -147,7 +149,7 @@ This topic lists properties of the XMLport object, element, and attribute.
 |[Temporary Property \(XMLports\)](devenv-temporary-xmlports-property.md)|X|
 |[VariableName Properties](devenv-variablename-properties.md)|X|
 |[Width Property \(XMLport\)](devenv-width-xmlports-property.md)|X|
-  
+
 ## Field Attribute Properties  
  The following properties apply to **Field** attributes of an XMLport object.  
 
@@ -162,7 +164,7 @@ This topic lists properties of the XMLport object, element, and attribute.
 |[SourceField Property](devenv-sourcefield-property.md)|X|
 |[SourceType Property](devenv-sourcetype-property.md)|X|
 |[Width Property \(XMLport\)](devenv-width-xmlports-property.md)|X|
-  
+
 ## See Also  
  [Properties](devenv-properties.md)
  [Table and Table Extension Properties](devenv-table-properties.md)

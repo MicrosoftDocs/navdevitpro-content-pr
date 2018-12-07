@@ -39,7 +39,8 @@ Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 |[DELETE employee defaultDimensions](../api/dynamics_employee_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of employee.  |
 
 ## Properties
-| Property	         | Type	  |Description                                            |
+
+| Property           | Type   |Description                                            |
 |:-------------------|:-------|:------------------------------------------------------|
 |id                  |GUID    |The employee ID. Non-editable.                         |
 |number              |string  |The employee number. Read-Only.                        |
@@ -90,7 +91,6 @@ Here is a JSON representation of the resource.
     "picture": "stream",
     "lastModifiedDateTime": "datetime"
 }
-
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

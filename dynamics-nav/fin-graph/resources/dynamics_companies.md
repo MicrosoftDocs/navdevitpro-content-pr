@@ -27,7 +27,8 @@ Represents a companies resource type in [!INCLUDE[d365fin_long_md](../../include
 |[GET companies](../api/dynamics_companies_get.md)|companies|Get a company.|
 
 ## Properties
-| Property	      | Type |Description                             |
+
+| Property        | Type |Description                             |
 |:----------------|:-----|:---------------------------------------|
 |id               |GUID  |The unique ID of the company. Read-Only.|
 |name             |string|Specifies the Company.                  |
@@ -51,7 +52,6 @@ Here is a JSON representation of the company.
   "systemVersion": "string",
   "businessProfileId": "string"
 }
-
 ```
 
 ## See Also

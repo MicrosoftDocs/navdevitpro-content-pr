@@ -18,57 +18,57 @@ The AL variant data type can contain many AL data types <!--NAV or any variants 
 
  The variant data type can contain the following AL data types:  
 
--   Action  
+- Action  
 
--   Automation  
+- Automation  
 
--   BigInteger  
+- BigInteger  
 
--   BigText  
+- BigText  
 
--   Boolean  
+- Boolean  
 
--   Byte  
+- Byte  
 
--   Char  
+- Char  
 
--   Code  
+- Code  
 
--   Codeunit  
+- Codeunit  
 
--   Date  
+- Date  
 
--   DateFormula  
+- DateFormula  
 
--   DateTime  
+- DateTime  
 
--   Decimal  
+- Decimal  
 
--   Duration  
+- Duration  
 
--   FilterPageBuilder  
+- FilterPageBuilder  
 
--   GUID  
+- GUID  
 
--   InStream  
+- InStream  
 
--   Integer  
+- Integer  
 
--   Option  
+- Option  
 
--   OutStream  
+- OutStream  
 
--   Record  
+- Record  
 
--   RecordRef  
+- RecordRef  
 
--   Text  
+- Text  
 
--   Time  
+- Time  
 
--   TransactionType  
+- TransactionType  
 
- You can use the variant data type to pass Automation variants from one external component (Automation or OCX) to another. This requires that the recipient component can accept the original variant. You can also assign a AL variable to a variant and pass it to an external component. When you pass AL variants ByRef to an external COM component, small conversion differences may occur. Therefore, we recommend that you pass AL variants ByVal if you do not have to assign a new value to the AL variant in your external component.  
+  You can use the variant data type to pass Automation variants from one external component (Automation or OCX) to another. This requires that the recipient component can accept the original variant. You can also assign a AL variable to a variant and pass it to an external component. When you pass AL variants ByRef to an external COM component, small conversion differences may occur. Therefore, we recommend that you pass AL variants ByVal if you do not have to assign a new value to the AL variant in your external component.  
 
 ## Returning variants in internal method calls  
  The AL variant is a complex data type. To return AL variants in method calls, you must pass them in a parameter ByVar.  

@@ -24,6 +24,7 @@ PATCH /businesscentral/companies({id})/purchaseInvoices({id})/purchaseInvoiceLin
 ```
 
 ## Request headers
+
 |Header        |Value                    |
 |--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|

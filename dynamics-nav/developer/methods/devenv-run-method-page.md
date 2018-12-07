@@ -30,19 +30,19 @@ Page.RUN
   
  After you define this variable, you can run the following page methods:  
   
--   SETTABLEVIEW  
+- SETTABLEVIEW  
   
--   SETRECORD  
+- SETRECORD  
   
--   GETRECORD  
+- GETRECORD  
   
--   RUN  
+- RUN  
   
--   RUNMODAL.  
+- RUNMODAL.  
   
- The variable is automatically cleared after this method is executed.  
+  The variable is automatically cleared after this method is executed.  
   
- If the page you specify does not exist, you receive a compile error.  
+  If the page you specify does not exist, you receive a compile error.  
   
 ## Remarks  
  If, at design time, you know the specific page that you want to run, then you can create a Page variable, set the Subtype of the variable to a specific page, and then use this method or the [RUNMODAL Method \(Page\)](devenv-RUNMODAL-Method-Page.md) on the Page variable.  

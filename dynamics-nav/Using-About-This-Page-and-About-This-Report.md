@@ -14,21 +14,21 @@ manager: edupont
 # Using About This Page and About This Report
 To see more information about a page, use the About This Page feature to view all the fields that make up the current page. These fields are the fields for the current record in the table on which the page is based. For example, if you open a sales order page, choose the Help button, and then choose **About This Page**, the **About This Page: Sales Order** window opens. The **About This Page** window shows the following FastTabs:  
   
--   Page Information  
+- Page Information  
   
--   Table Fields, sorted first by key fields, then alphabetically  
+- Table Fields, sorted first by key fields, then alphabetically  
   
--   Source Expressions  
+- Source Expressions  
   
--   FlowFilter Fields  
+- FlowFilter Fields  
   
--   Filters  
+- Filters  
   
--   URLs that open the page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the [!INCLUDE[nav_web](includes/nav_web_md.md)], and in SOAP and OData web services.  
+- URLs that open the page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the [!INCLUDE[nav_web](includes/nav_web_md.md)], and in SOAP and OData web services.  
   
- The following illustration shows a Sales Order page and the About This Page.  
+  The following illustration shows a Sales Order page and the About This Page.  
   
- ![About This Page window that shows all fields](media/NAV_Zoom_SalesOrderRTC.png "NAV\_Zoom\_SalesOrderRTC")  
+  ![About This Page window that shows all fields](media/NAV_Zoom_SalesOrderRTC.png "NAV\_Zoom\_SalesOrderRTC")  
   
 > [!NOTE]  
 >  To see more information about a subpage, such as a Factbox or a Line page, you must use the shortcut for About This Page, CTRL+ALT+F1.  
@@ -51,13 +51,13 @@ To see more information about a page, use the About This Page feature to view al
 ## Exporting About This Page Information  
  You can export the About This Page information to the following formats:  
   
--   HTML attachment in a new e-mail message  
+- HTML attachment in a new e-mail message  
   
--   Microsoft Word document  
+- Microsoft Word document  
   
--   Microsoft Excel spreadsheet  
+- Microsoft Excel spreadsheet  
   
- You can also print the About This Page information directly from the **About This Page** window.  
+  You can also print the About This Page information directly from the **About This Page** window.  
   
 ## See Also  
  [How to: View All Table Fields for a Record](How-to--View-All-Table-Fields-for-a-Record.md)   

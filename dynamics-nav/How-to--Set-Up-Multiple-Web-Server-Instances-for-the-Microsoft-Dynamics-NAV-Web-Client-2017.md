@@ -19,15 +19,15 @@ When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], 
   
  To add a new [!INCLUDE[nav_web](includes/nav_web_md.md)] application, you use the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell and run the New-NAVWebServerInstance cmdlet to add a new web server instance. The resultant [!INCLUDE[navnow](includes/navnow_md.md)] web server has the following characteristics:  
   
--   A virtual directory instance with an underlying web application is added to the [!INCLUDE[nav_web](includes/nav_web_md.md)] website. The [!INCLUDE[nav_web](includes/nav_web_md.md)] application has its own web.config file that you can modify to change the configuration of the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+- A virtual directory instance with an underlying web application is added to the [!INCLUDE[nav_web](includes/nav_web_md.md)] website. The [!INCLUDE[nav_web](includes/nav_web_md.md)] application has its own web.config file that you can modify to change the configuration of the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
--   You can configure IIS settings, such as application pool. You can also configure [!INCLUDE[navnow](includes/navnow_md.md)] settings, such as the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance or company. These setting must be configured separately for each web server instance.  
+- You can configure IIS settings, such as application pool. You can also configure [!INCLUDE[navnow](includes/navnow_md.md)] settings, such as the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance or company. These setting must be configured separately for each web server instance.  
   
--   The new web server instance has the same URL as other instances under the parent website, except that it includes the instance name that you specify with the New-NavWebServerInstance cmdlet.  
+- The new web server instance has the same URL as other instances under the parent website, except that it includes the instance name that you specify with the New-NavWebServerInstance cmdlet.  
   
-     For example, the URL for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] is http://MyNavWebServer:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient. The URL for the new [!INCLUDE[nav_web](includes/nav_web_md.md)] instance, which you name MyCompany, would be http://MyNavWebServer:8080/MyCompany/WebClient.  
+   For example, the URL for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] is http://MyNavWebServer:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient. The URL for the new [!INCLUDE[nav_web](includes/nav_web_md.md)] instance, which you name MyCompany, would be http://MyNavWebServer:8080/MyCompany/WebClient.  
   
- You can run the cmdlet multiple times to create additional [!INCLUDE[navnow](includes/navnow_md.md)] web server instances on the server.  
+  You can run the cmdlet multiple times to create additional [!INCLUDE[navnow](includes/navnow_md.md)] web server instances on the server.  
   
 > [!NOTE]  
 >  You cannot nest applications. Only one level of applications under a website is allowed.  

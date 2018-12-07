@@ -56,31 +56,31 @@ NewString := STRSUBSTNO(String [,Value1, …])
   
  In this example, the following substitutions are made:  
   
--   %1 is replaced by '1' because a % field is replaced by the specified value in its full length.  
+- %1 is replaced by '1' because a % field is replaced by the specified value in its full length.  
   
--   '\#2\#\#' is replaced by '2 space space space' because the value is shorter than the field and therefore, the 2 is left aligned and the field is four characters long.  
+- '\#2\#\#' is replaced by '2 space space space' because the value is shorter than the field and therefore, the 2 is left aligned and the field is four characters long.  
   
--   \#3 is replaced by '3 space' because the 3 is left aligned and the field is two characters long  
+- \#3 is replaced by '3 space' because the 3 is left aligned and the field is two characters long  
   
- If the string is longer, then asterisks are inserted to indicate overflow.  
+  If the string is longer, then asterisks are inserted to indicate overflow.  
   
- For example, `StrSubstNo('Test %1 >###2< >#3<', 'Thomas','Thomas',0)` returns "Test Thomas >\*\*\*\*\< >0 \<".  
+  For example, `StrSubstNo('Test %1 >###2< >#3<', 'Thomas','Thomas',0)` returns "Test Thomas >\*\*\*\*\< >0 \<".  
   
- In this example the following substitutions are made:  
+  In this example the following substitutions are made:  
   
--   %1 is replaced by 'Thomas' because a %1 field is replaced by the specified value in its full length.  
+- %1 is replaced by 'Thomas' because a %1 field is replaced by the specified value in its full length.  
   
--   '\#\#\#2' is replaced by '\*\*\*\*' because the string 'Thomas' is longer than the \#\#\#2 field. Each character in the field is replaced by an asterisk.  
+- '\#\#\#2' is replaced by '\*\*\*\*' because the string 'Thomas' is longer than the \#\#\#2 field. Each character in the field is replaced by an asterisk.  
   
--   \#3 is replaced by '0 space' because the 0 is left aligned and the field is two characters long.  
+- \#3 is replaced by '0 space' because the 0 is left aligned and the field is two characters long.  
   
- You can have several references to the same value.  
+  You can have several references to the same value.  
   
- For example, `StrSubstNo('Test %1 %3 %1', 555, 666, 777)` returns "Test 555 777 555".  
+  For example, `StrSubstNo('Test %1 %3 %1', 555, 666, 777)` returns "Test 555 777 555".  
   
- If one of the values is null, then it is treated as an empty string.  
+  If one of the values is null, then it is treated as an empty string.  
   
- For more information about the STRSUBSTNO function in a multilanguage-enabled application, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
+  For more information about the STRSUBSTNO function in a multilanguage-enabled application, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
   
 ## Example  
  The following example shows how to use the STRSUBSTNO function.  

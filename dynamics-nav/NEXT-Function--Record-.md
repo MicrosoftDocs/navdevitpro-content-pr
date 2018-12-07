@@ -31,13 +31,13 @@ Steps := Record.NEXT([Steps])
 
  Specifies the direction of the search and how many records to step over. This parameter follows the following rules:  
 
--   \>0  Search *Steps* records forward in the table.  
+- \>0  Search *Steps* records forward in the table.  
 
--   \<0  Search *Steps* records backward in the table.  
+- \<0  Search *Steps* records backward in the table.  
 
--   =0  Stay on the same record in the table.  
+- =0  Stay on the same record in the table.  
 
- If you do not specify this parameter, then the next record is found.  
+  If you do not specify this parameter, then the next record is found.  
 
 ## Property Value/Return Value  
  Type: Integer  

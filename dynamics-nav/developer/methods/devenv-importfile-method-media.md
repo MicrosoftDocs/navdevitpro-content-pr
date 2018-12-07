@@ -66,29 +66,29 @@ This example uses the IMPORTFILE method to import a JPEG image from file to a re
 
 To support the example code that follows, create the following objects:
 
--   A table that is named **My Items** and has the following characteristics (as a minimum):
-    -   An **Integer** data type field that has the name **No.**.
+- A table that is named **My Items** and has the following characteristics (as a minimum):
+  - An **Integer** data type field that has the name **No.**.
 
-        This field is used to give an item a number.
-    -   A **Media** data type field that has the name **Image**.
+    This field is used to give an item a number.
+  - A **Media** data type field that has the name **Image**.
 
-        This is the field on which you will import the media file.
-    - A field group that has the name **Brick** and includes the **No.** and **Image** fields.
+    This is the field on which you will import the media file.
+  - A field group that has the name **Brick** and includes the **No.** and **Image** fields.
 
-        The field group is used to display the image on a page in the brick layout. <!--LinksFor more information, see [How to: Display Data as Bricks](How-to--Display-Data-as-Bricks.md).-->
--   A page that is named **My Items** and has the following characteristics:
+      The field group is used to display the image on a page in the brick layout. <!--LinksFor more information, see [How to: Display Data as Bricks](How-to--Display-Data-as-Bricks.md).-->
+- A page that is named **My Items** and has the following characteristics:
 
-    -   List type page that uses the **My Items** table as its source.
-    -   A repeater control that contains the fields of the **My Items** table.
+  -   List type page that uses the **My Items** table as its source.
+  -   A repeater control that contains the fields of the **My Items** table.
 
-        >[!NOTE]
-        >It is not necessary to include the **Media** data type field on the page.
+      >[!NOTE]
+      >It is not necessary to include the **Media** data type field on the page.
 
-    Use the page to add one or more items to the table, assigning each item a number like 1,2,3, and so on.
+  Use the page to add one or more items to the table, assigning each item a number like 1,2,3, and so on.
 
--   JPEG image files for one or more items in the **My Items** table.
-    -   Give each file a name that corresponds to an item number in the table, such as 1.jpg, 2.jpg, 3.jpg, and so on.
-    -   Save the files in the *C:\images* folder on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)].
+- JPEG image files for one or more items in the **My Items** table.
+  -   Give each file a name that corresponds to an item number in the table, such as 1.jpg, 2.jpg, 3.jpg, and so on.
+  -   Save the files in the *C:\images* folder on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)].
 
 **Code:**
 
