@@ -20,7 +20,7 @@ Sets a record parameter by reference to the table on the `OnRun` trigger.
   
 ## Remarks  
 
-Setting the **TableNo** property changes the signature of the `OnRun` trigger of the codeunit to include a variable `Record` data type parameter (named `Rec`) for the specified table. For example, if you set the **TableNo** property to the **Items** table, the OnRun trigger signature will change to the following.
+Setting the **TableNo** property changes the signature of the `OnRun` trigger of the codeunit to include a variable `Record` data type parameter (named `Rec`) for the specified table. For example, if you set the **TableNo** property to the **Item** table, the OnRun trigger signature will change to the following.
 
 `OnRun(var Rec : Record Item)`
 
