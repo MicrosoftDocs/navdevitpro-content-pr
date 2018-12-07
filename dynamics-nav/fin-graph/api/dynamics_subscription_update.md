@@ -27,7 +27,18 @@ PATCH /businesscentral/subscriptions({id})
 |If-Match  | * |
 
 ## Request body
-Do not supply a request body for this method.
+Here is an example of the request.
+```json
+POST https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions({id})
+Content-type: application/json
+
+{
+  "notificationUrl": "https://{notificationUrl}",
+  "resource": "/api/beta/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
+  "clientState": "optionalValueOf250"
+}
+
+```
 
 ## Response
 If successful, this method returns a `200 OK` response code and a **subscription** object in the response body.
