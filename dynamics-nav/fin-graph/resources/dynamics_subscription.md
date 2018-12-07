@@ -32,11 +32,11 @@ Represents a webhook subscription object in [!INCLUDE[d365fin_long_md](../../inc
 | Property | Type	|Description| 
 |:---------------|:--------|:----------|
 |subscriptionId|string|Unique key for the subscription. |
-|notificationUrl|string|URL to which webhook notifications are send.|  
+|notificationUrl|string|URL to which webhook notifications are sent.|  
 |resource|string|URL for the resource being subscribed to. Supports relative and absolute URL.|
 |userId|GUID|The ID of user that has created the subscription.|
 |lastModifiedDateTime|datetime|Timestamp for when the subscription was modified.|
-|clientState|string|Client state will be delivered with every notification. This can be used as a secret to verify message  or for managing state if needed.|
+|clientState|string|Client state will be delivered with every notification. This can be used as a secret to verify message or for managing state if needed.|
 |expirationDateTime|datetime|Date and time for when the webhook will expire.|
 
 ## Relationships
@@ -59,6 +59,7 @@ Here is a JSON representation of the resource.
 }
 
 ```
+
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
