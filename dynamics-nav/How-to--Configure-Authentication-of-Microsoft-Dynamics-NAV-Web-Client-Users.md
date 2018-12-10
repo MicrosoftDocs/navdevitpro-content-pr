@@ -84,76 +84,76 @@ You can configure the [!INCLUDE[navnow](includes/navnow_md.md)] installation to 
   
 #### To configure the credential type in the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]s of the Microsoft Dynamics NAV Web client site  
   
-1.  On the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] that is located in the physical path of the virtual directory for the [!INCLUDE[nav_web](includes/nav_web_md.md)] application. This [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] contains the [!INCLUDE[navnow](includes/navnow_md.md)] settings.  
+1. On the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] that is located in the physical path of the virtual directory for the [!INCLUDE[nav_web](includes/nav_web_md.md)] application. This [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)] contains the [!INCLUDE[navnow](includes/navnow_md.md)] settings.  
   
-2.  The folder path is *%systemroot%\\inetpub\\wwwroot\\\[VirtualDirectoryName\]*. For example, the folder for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] application is *%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]* folder.  
+2. The folder path is *%systemroot%\\inetpub\\wwwroot\\\[VirtualDirectoryName\]*. For example, the folder for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] application is *%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]* folder.  
   
-3.  In the `<DynamicsNavSettings>` element, which is located toward the end of the file, find the `<add key="ClientServicesCredentialType" value=""/>` element, and then change it to one of the following.  
+3. In the `<DynamicsNavSettings>` element, which is located toward the end of the file, find the `<add key="ClientServicesCredentialType" value=""/>` element, and then change it to one of the following.  
   
-    ```  
-    <add key="ClientServicesCredentialType" value="Windows"/>  
-    ```  
+   ```  
+   <add key="ClientServicesCredentialType" value="Windows"/>  
+   ```  
   
-    ```  
-    <add key="ClientServicesCredentialType" value="UserName"/>  
-    ```  
+   ```  
+   <add key="ClientServicesCredentialType" value="UserName"/>  
+   ```  
   
-    ```  
-    <add key="ClientServicesCredentialType" value="NavUserPassword"/>  
-    ```  
+   ```  
+   <add key="ClientServicesCredentialType" value="NavUserPassword"/>  
+   ```  
   
-    ```  
-    <add key="ClientServicesCredentialType" value="AccessControlService/>  
-    ```  
+   ```  
+   <add key="ClientServicesCredentialType" value="AccessControlService/>  
+   ```  
   
-4.  If you are configuring the Windows credential type, then you are finished. Save the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]. For other credential types, continue to the next step.  
+4. If you are configuring the Windows credential type, then you are finished. Save the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]. For other credential types, continue to the next step.  
   
-5.  Find the `<add key="DnsIdentity" value=""/>` element, and change it as follows.  
+5. Find the `<add key="DnsIdentity" value=""/>` element, and change it as follows.  
   
-    ```  
-    <add key="DnsIdentity" value="SubjectName"/>  
-    ```  
+   ```  
+   <add key="DnsIdentity" value="SubjectName"/>  
+   ```  
   
-     Replace `subjectName` with the subject name or common name \(CN\) of the certificate that is used on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+    Replace `subjectName` with the subject name or common name \(CN\) of the certificate that is used on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
-    > [!NOTE]  
-    >  You can find the subject name by opening the certificate in the Certificates snap-in for Microsoft Management Console \(MMC\) on the computer that is running [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)]. For more information, see [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough--Implementing-Security-Certificates-in-a-Test-Environment.md) or [How to: Implement Security Certificates in a Production Environment](How-to--Implement-Security-Certificates-in-a-Production-Environment.md).  
+   > [!NOTE]  
+   >  You can find the subject name by opening the certificate in the Certificates snap-in for Microsoft Management Console \(MMC\) on the computer that is running [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)]. For more information, see [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough--Implementing-Security-Certificates-in-a-Test-Environment.md) or [How to: Implement Security Certificates in a Production Environment](How-to--Implement-Security-Certificates-in-a-Production-Environment.md).  
   
-6.  Save the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].  
+6. Save the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)].  
   
 #### To enable an authentication method on the [!INCLUDE[nav_web](includes/nav_web_md.md)] site  
   
-1.  On the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open Internet Information Services \(IIS\) Manager.  
+1. On the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open Internet Information Services \(IIS\) Manager.  
   
-     On the **Start** menu, in the **Search programs and files** box, type **inetmgr**, and then press Enter.  
+    On the **Start** menu, in the **Search programs and files** box, type **inetmgr**, and then press Enter.  
   
-2.  In the **Connections** pane, under **Sites**, choose **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client**.  
+2. In the **Connections** pane, under **Sites**, choose **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client**.  
   
-3.  Under **IIS**, double-click **Authentication**.  
+3. Under **IIS**, double-click **Authentication**.  
   
-4.  In the **Authentication** pane, enable the appropriate authentication based on the credential type.  
+4. In the **Authentication** pane, enable the appropriate authentication based on the credential type.  
   
-    -   For the Windows credential type, enable **Windows authentication**. If you are using [!INCLUDE[navnow](includes/navnow_md.md)] apps, you must also enable **Anonymous authentication**. 
+   - For the Windows credential type, enable **Windows authentication**. If you are using [!INCLUDE[navnow](includes/navnow_md.md)] apps, you must also enable **Anonymous authentication**. 
   
-    -   For the UserName, NavUserPassword, and AccessControlService credential types, enable both **Forms authentication** and **Anonymous authentication**.  
+   - For the UserName, NavUserPassword, and AccessControlService credential types, enable both **Forms authentication** and **Anonymous authentication**.  
   
      To enable an authentication method, choose the authentication method from the list, and then choose **Enable** in the **Actions** pane.  
   
-5.  For Windows authentication, you must set up an authentication provider. By default, Windows authentication is configured to use the Negotiate and NTML providers, which is sufficient for most installations and no action is required. If the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] are on different computers, and delegation with Kerberos is configured between the two computers, then the Negotiate provider must be first in the list of providers.  
+5. For Windows authentication, you must set up an authentication provider. By default, Windows authentication is configured to use the Negotiate and NTML providers, which is sufficient for most installations and no action is required. If the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] are on different computers, and delegation with Kerberos is configured between the two computers, then the Negotiate provider must be first in the list of providers.  
   
-     To set up the providers, do the following:  
+    To set up the providers, do the following:  
   
-    1.  Choose **Window Authentication**, and then under **Actions**, choose **Providers**.  
+   1.  Choose **Window Authentication**, and then under **Actions**, choose **Providers**.  
   
-    2.  To add a provider, select the provider from the **Available Providers** list, and then choose **Add**.  
+   2.  To add a provider, select the provider from the **Available Providers** list, and then choose **Add**.  
   
-    3.  To move a provider in the **Enables Providers** list, select the provider, and then choose the **Move Up** or **Move Up** button.  
+   3.  To move a provider in the **Enables Providers** list, select the provider, and then choose the **Move Up** or **Move Up** button.  
   
-    4.  Choose the **OK** button.  
+   4.  Choose the **OK** button.  
   
-6.  Restart the web server.  
+6. Restart the web server.  
   
-     In the **Connections** pane of IIS Manager, choose the root node for your computer, and then in the **Actions** pane, choose **Restart**.  
+    In the **Connections** pane of IIS Manager, choose the root node for your computer, and then in the **Actions** pane, choose **Restart**.  
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   

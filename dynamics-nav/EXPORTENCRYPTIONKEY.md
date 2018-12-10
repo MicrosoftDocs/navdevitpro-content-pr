@@ -46,13 +46,13 @@ TempFile EXPORTENCRYPTIONKEY(pwd)
 
 ```  
 IF NOT ENCRYPTIONENABLED THEN  
-        ERROR('Encryption has not been enabled.');  
-      ExportFileName := EXPORTENCRYPTIONKEY('This is my personal secret');  
+        ERROR('Encryption has not been enabled.');  
+      ExportFileName := EXPORTENCRYPTIONKEY('This is my personal secret');  
 
-      ClientFileName := 'ExportedKey.ekey';  
-      DOWNLOAD(ExportFileName,'Save the encrypted key file','','Encrypted Key File (*.ekey)|*.ekey',ClientFileName);  
+      ClientFileName := 'ExportedKey.ekey';  
+      DOWNLOAD(ExportFileName,'Save the encrypted key file','','Encrypted Key File (*.ekey)|*.ekey',ClientFileName);  
 
-      ERASE(ExportFileName);  
+      ERASE(ExportFileName);  
 ```  
 
 ## See Also  

@@ -14,11 +14,11 @@ manager: edupont
 # How to: Export Objects
 You can export one or more application objects to one of the following formats:  
 
--   [!INCLUDE[navnow](includes/navnow_md.md)] Object format \(.fob\)  
+- [!INCLUDE[navnow](includes/navnow_md.md)] Object format \(.fob\)  
 
--   Text format \(.txt\)  
+- Text format \(.txt\)  
 
- You can export objects either by using the development environment UI or by running finsql.exe with the ExportObjects command.  
+  You can export objects either by using the development environment UI or by running finsql.exe with the ExportObjects command.  
 
 > [!NOTE]  
 >  To export objects to .txt format, you must have a developer license. To export objects to .fob format, you can have either an end-user license or a developer license.  
@@ -37,15 +37,15 @@ You can export one or more application objects to one of the following formats:
 
 ### <a name="ExportObjectsFinSQL"></a>To export objects by running finsql.exe with the ExportObjects command  
 
-1.  At a command prompt, move to the location of finsql.exe. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\[!INCLUDE[rtc](includes/rtc_md.md)]\\.  
+1. At a command prompt, move to the location of finsql.exe. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\[!INCLUDE[rtc](includes/rtc_md.md)]\\.  
 
-2.  Run finsql.exe with the parameter "command=exportobjects". You must specify the following parameters:  
+2. Run finsql.exe with the parameter "command=exportobjects". You must specify the following parameters:  
 
-    -   file  
+   - file  
 
-    -   servername  
+   - servername  
 
-    -   database  
+   - database  
 
      All other parameters are optional.  
 

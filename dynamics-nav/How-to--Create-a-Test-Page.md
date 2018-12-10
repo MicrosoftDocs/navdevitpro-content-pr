@@ -15,19 +15,19 @@ manager: edupont
 # Creating a Test Page in Dynamics NAV
 You can create and open a test page in the following ways:  
   
--   Declare a test page variable and then write C/AL code to open the test page by using one of the following functions:  
+- Declare a test page variable and then write C/AL code to open the test page by using one of the following functions:  
   
-    -   [OPENNEW Function \(TestPage\)](OPENNEW-Function--TestPage-.md)  
+  -   [OPENNEW Function \(TestPage\)](OPENNEW-Function--TestPage-.md)  
   
-    -   [OPENEDIT Function \(TestPage\)](OPENEDIT-Function--TestPage-.md)  
+  -   [OPENEDIT Function \(TestPage\)](OPENEDIT-Function--TestPage-.md)  
   
-    -   [OPENVIEW Function \(TestPage\)](OPENVIEW-Function--TestPage-.md)  
+  -   [OPENVIEW Function \(TestPage\)](OPENVIEW-Function--TestPage-.md)  
   
--   Create a PageHandler or ModalPageHandler function that has a test page parameter. For more information, see [How to: Create Handler Functions](How-to--Create-Handler-Functions.md).  
+- Create a PageHandler or ModalPageHandler function that has a test page parameter. For more information, see [How to: Create Handler Functions](How-to--Create-Handler-Functions.md).  
   
--   Write C/AL code to trap a call to open a test page by using the [TRAP Function \(TestPage\)](TRAP-Function--TestPage-.md).  
+- Write C/AL code to trap a call to open a test page by using the [TRAP Function \(TestPage\)](TRAP-Function--TestPage-.md).  
   
- The following procedure describes how to declare test page variables. The following code example shows how to use the test page variables to write code to open test pages.  
+  The following procedure describes how to declare test page variables. The following code example shows how to use the test page variables to write code to open test pages.  
   
 ### To declare a test page variable  
   

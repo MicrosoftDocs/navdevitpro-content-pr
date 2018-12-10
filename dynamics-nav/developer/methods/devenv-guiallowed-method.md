@@ -45,7 +45,7 @@ Checks whether the AL code can show any information on the screen.
 
 ```  
 IF GUIALLOWED THEN  
- MESSAGE(Text000);  
+ MESSAGE(Text000);  
 ```  
 
  If the code runs on a client, which means that the user interface is available, a message box will appear with the following message.  

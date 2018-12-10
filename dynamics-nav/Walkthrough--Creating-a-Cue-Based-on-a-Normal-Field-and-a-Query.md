@@ -60,28 +60,30 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
 
 #### To create a query for calculating the Cue data  
 
-1.  In the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Development Environment, on the **Tools** menu, choose **Object Designer**, choose **Query**, and then choose **New**.  
+1. In the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Development Environment, on the **Tools** menu, choose **Object Designer**, choose **Query**, and then choose **New**.  
 
-2.  In Query Designer, on the first line, set **Type** column to **DataItem**, and then set the **Data Source** column to **Cust. Ledger Entry** \(table ID 21\).  
+2. In Query Designer, on the first line, set **Type** column to **DataItem**, and then set the **Data Source** column to **Cust. Ledger Entry** \(table ID 21\).  
 
-3.  Under the **DataItem**, add a **Filter** control for the **Document Type** field and a **Filter** control for **Posting Date** field of the **Cust. Ledger Entry** table. Then, add a **Column** control for **Sales \(LYC\)** field that uses a **Totals** method type to return a sum from the table. The Query Designer will look similar to the following table.  
+3. Under the **DataItem**, add a **Filter** control for the **Document Type** field and a **Filter** control for **Posting Date** field of the **Cust. Ledger Entry** table. Then, add a **Column** control for **Sales \(LYC\)** field that uses a **Totals** method type to return a sum from the table. The Query Designer will look similar to the following table.  
 
-    |Type|Data Source|Name|Method Type|Method|  
-    |----------|-----------------|----------|-----------------|------------|  
-    |**DataItem**|**Cust. Ledger Entry**|**\<Cust. Ledger Entry>**|||  
-    |Filter|Document Type|\<Document Type>|||  
-    |Filter|Posting Date|\<Posting Date >|||  
-    |Column|Sales \(LYC\)|\<Sum\_Sales\_LCY>|Totals|Sum||  
 
-4.  Save the query as follows:  
+   |     Type     |      Data Source       |           Name            | Method Type | Method |
+   |--------------|------------------------|---------------------------|-------------|--------|
+   | **DataItem** | **Cust. Ledger Entry** | **\<Cust. Ledger Entry>** |             |        |
+   |    Filter    |     Document Type      |     \<Document Type>      |             |        |
+   |    Filter    |      Posting Date      |     \<Posting Date >      |             |        |
+   |    Column    |     Sales \(LYC\)      |    \<Sum\_Sales\_LCY>     |   Totals    |  Sum   |
 
-    1.  On the **File** menu, choose **Save**.  
 
-    2.  In the **Save As** window, in the **ID** field, enter an ID for the query object, such as **50001**. The ID must be in a valid range for your solution.  
+4. Save the query as follows:  
 
-    3.  In the **Name** field, enter **Cust. Ledg. Entry Sales Query**.  
+   1.  On the **File** menu, choose **Save**.  
 
-         Select the **Compiled** check box, and then choose the **OK** button.  
+   2.  In the **Save As** window, in the **ID** field, enter an ID for the query object, such as **50001**. The ID must be in a valid range for your solution.  
+
+   3.  In the **Name** field, enter **Cust. Ledg. Entry Sales Query**.  
+
+        Select the **Compiled** check box, and then choose the **OK** button.  
 
 ##  <a name="CreateTableFieldForCue"></a> Adding the Table Field for the Cue Data  
  Viktor will add a normal field to the table **50001 Sales Invoice Cue** for holding the Cue data. He will add a global function that returns the total amount of sales invoices for the current month from the query object that he created in the previous procedure.  
@@ -151,41 +153,41 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
 
 #### To add the Sales This Month Cue to a page  
 
-1.  In Object Designer, open the page **50001 Sales Invoice Cue**.  
+1. In Object Designer, open the page **50001 Sales Invoice Cue**.  
 
-     To add a Cue, you add **Field** control under a **CueGroup** control. For this walkthrough, you will add the new Cue under the existing **CueGroup** control for Sales Invoices, after the **Sales Invoices - Open** field.  
+    To add a Cue, you add **Field** control under a **CueGroup** control. For this walkthrough, you will add the new Cue under the existing **CueGroup** control for Sales Invoices, after the **Sales Invoices - Open** field.  
 
-2.  In a blank row under the existing **CueGroup** control, set the **Type** to **Field**, and then set the **SourceExpr** column to the **"Sales This Month"** field as follows.  
+2. In a blank row under the existing **CueGroup** control, set the **Type** to **Field**, and then set the **SourceExpr** column to the **"Sales This Month"** field as follows.  
 
-    1.  Select the row, and then on the **View** menu, choose **Field Menu**.  
+   1.  Select the row, and then on the **View** menu, choose **Field Menu**.  
 
-         The **Field Menu** window opens and displays the list of available fields from the **Sales Invoice Cue** table.  
+        The **Field Menu** window opens and displays the list of available fields from the **Sales Invoice Cue** table.  
 
-    2.  Select the **Sales This Month** field, and then choose the **OK** button.  
+   2.  Select the **Sales This Month** field, and then choose the **OK** button.  
 
-         In the **Caption** field, enter **Sales This Month**. The **Caption** value defines the text that appears below the Cue.  
+        In the **Caption** field, enter **Sales This Month**. The **Caption** value defines the text that appears below the Cue.  
 
-         Page Designer should look similar to the following illustration.  
+        Page Designer should look similar to the following illustration.  
 
-         ![Page Designer showing cues](media/NAV_PageDesigner_SalesThisMonthCue_Clip.png "NAV\_PageDesigner\_SalesThisMonthCue\_Clip")  
+        ![Page Designer showing cues](media/NAV_PageDesigner_SalesThisMonthCue_Clip.png "NAV\_PageDesigner\_SalesThisMonthCue\_Clip")  
 
-3.  Open the C/AL code for the page, and then add the following code to the [OnAfterGetRecord Trigger](OnAfterGetRecord-Trigger.md) to assign the **Sales This month** field to the *CalcSalesThisMonthAmount* function of table **50001 Sales Invoice Cue**:  
+3. Open the C/AL code for the page, and then add the following code to the [OnAfterGetRecord Trigger](OnAfterGetRecord-Trigger.md) to assign the **Sales This month** field to the *CalcSalesThisMonthAmount* function of table **50001 Sales Invoice Cue**:  
 
-    ```  
-    "Sales This Month" := CalcSalesThisMonthAmount;  
-    ```  
+   ```  
+   "Sales This Month" := CalcSalesThisMonthAmount;  
+   ```  
 
-4.  To set up a link \(drill down\) from the Cue to page **25 Customer Ledger Entries**, do the following:  
+4. To set up a link \(drill down\) from the Cue to page **25 Customer Ledger Entries**, do the following:  
 
-    1.  Select the **Sales This Month** field row, and then on the **View** menu, choose **Properties**.  
+   1.  Select the **Sales This Month** field row, and then on the **View** menu, choose **Properties**.  
 
-    2.  In the **Properties** window, set the **DrillDownPageID** property to **Customer Ledger Entries** \(ID 25\) and choose the **OK** button.  
+   2.  In the **Properties** window, set the **DrillDownPageID** property to **Customer Ledger Entries** \(ID 25\) and choose the **OK** button.  
 
-    3.  Close the **Properties** window.  
+   3.  Close the **Properties** window.  
 
-5.  Save and compile the page.  
+5. Save and compile the page.  
 
- The Cue is now available on the page. To view the page, in Object Designer, select the page 50001 Sales Invoice Cue, and the choose **Run**.  
+   The Cue is now available on the page. To view the page, in Object Designer, select the page 50001 Sales Invoice Cue, and the choose **Run**.  
 
 ### Formatting the Cue Data  
  Viktor wants to display the amount in the Cue so that it is preceded with "kr", which indicates Danish Krone is the currency. Additionally, he does not want to display any decimal places. To achieve this, he sets the [AutoFormatType Property](AutoFormatType-Property.md) and [AutoFormatExpr Property](AutoFormatExpr-Property.md) of the Cue field on the page.  

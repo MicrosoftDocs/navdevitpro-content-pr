@@ -74,31 +74,31 @@ If your destination server does not have the required extensions, you can altern
 ## System Tables and Virtual Tables  
  Extension packages are installed to and operate on a per-tenant basis. To accomplish this, the objects that are used at runtime are dynamically constructed with any extension deltas that are present for the base object. The end result is a virtual merge of the base plus the delta for a given extension. Multiple deltas from multiple extension packages can also be applied in this process. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], new system tables are added to support extensions. We recommend that you only access the system tables using the cmdlets in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] and [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)]. They are listed here for your information only:  
 
--   **NAV App Object Metadata** – Stores the metadata deltas for an extension.  
+- **NAV App Object Metadata** – Stores the metadata deltas for an extension.  
 
--   **NAV App Tenant App** – Contains all extensions that are installed to tenants and part of the application database. This table is synchronized with **NAV App Installed App** in the tenant databases and is used to drive runtime decisions about tenant/app relationships. It is also watched for changes by each [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to support on-the-fly app switching.  
+- **NAV App Tenant App** – Contains all extensions that are installed to tenants and part of the application database. This table is synchronized with **NAV App Installed App** in the tenant databases and is used to drive runtime decisions about tenant/app relationships. It is also watched for changes by each [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to support on-the-fly app switching.  
 
--   **NAV App Data Archive** – Points to tables created to archive data for extensions that have been uninstalled. Used to provide access to the data when the extension is reinstalled during an upgrade.  
+- **NAV App Data Archive** – Points to tables created to archive data for extensions that have been uninstalled. Used to provide access to the data when the extension is reinstalled during an upgrade.  
 
--   **NAV App Installed App** – Contains information about extensions that are installed in this tenant. This lives in the tenant database and is written/read on mount/unmount to make sure tenants keep track of their apps even when detached from an application database.  
+- **NAV App Installed App** – Contains information about extensions that are installed in this tenant. This lives in the tenant database and is written/read on mount/unmount to make sure tenants keep track of their apps even when detached from an application database.  
 
--   **NAV App** - Contains all extensions that are published to the system. This is part of the application database.  
+- **NAV App** - Contains all extensions that are published to the system. This is part of the application database.  
 
--   **NAV App Dependencies** – List of dependencies for individual extensions that are published to the system.  
+- **NAV App Dependencies** – List of dependencies for individual extensions that are published to the system.  
 
--   **NAV App Capabilities** – List of capabilities for each extension that is published to the system. Pulled from the manifest at publication time.  
+- **NAV App Capabilities** – List of capabilities for each extension that is published to the system. Pulled from the manifest at publication time.  
 
--   **NAV App Object Prerequisites** – List of prerequisite objects for individual extensions that are published to the system.  
+- **NAV App Object Prerequisites** – List of prerequisite objects for individual extensions that are published to the system.  
 
--   **Tenant Permission Set** - Defines the mapping between extensions and permission sets.  
+- **Tenant Permission Set** - Defines the mapping between extensions and permission sets.  
 
--   **Tenant Permission** – Contains permissions for objects as defined by permission sets in extension packages.  
+- **Tenant Permission** – Contains permissions for objects as defined by permission sets in extension packages.  
 
- We also include objects from extensions in the following virtual tables  
+  We also include objects from extensions in the following virtual tables  
 
--   **AllObj, AllObjWithCaption** includes new objects from all installed extensions based on the current session/tenant.  
+- **AllObj, AllObjWithCaption** includes new objects from all installed extensions based on the current session/tenant.  
 
--   **AllObj, AllObjWithCaption** includes the App Package ID field \(empty GUID for base objects, package id GUID if object comes from an extension\)  
+- **AllObj, AllObjWithCaption** includes the App Package ID field \(empty GUID for base objects, package id GUID if object comes from an extension\)  
 
 ## Windows PowerShell Cmdlets  
  To help you build, package, publish, install, and manage extensions, [!INCLUDE[navnow](includes/navnow_md.md)] includes a number of [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets as described in the following sections.  

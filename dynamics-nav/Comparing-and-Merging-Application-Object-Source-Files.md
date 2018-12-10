@@ -26,41 +26,41 @@ When you create or modify application objects, you use the [!INCLUDE[nav_dev_lon
 
  You can use the application merge utilities to merge and update the following application object types:  
 
--   Tables  
+- Tables  
 
--   Pages  
+- Pages  
 
--   Reports  
+- Reports  
 
--   Codeunits  
+- Codeunits  
 
--   MenuSuites  
+- MenuSuites  
 
--   Queries  
+- Queries  
 
--   XMLPorts  
+- XMLPorts  
 
- You cannot use the cmdlets to modify dataports, forms, or reports with classic report sections. Also, some parts of some object types require special attention from the tool or from you as described in the following list:  
+  You cannot use the cmdlets to modify dataports, forms, or reports with classic report sections. Also, some parts of some object types require special attention from the tool or from you as described in the following list:  
 
--   Application object properties  
+- Application object properties  
 
-     Each of the application object properties in the application object files often calls for hands-on handling. The text files specify the **Modified**, **Date**, **Time**, and **VersionList** properties for each object. When you run the Merge-NAVApplicationObject cmdlet, you can set parameters that are specific for application object properties. But two cmdlets are available specifically for post-processing of object properties: Get-NAVApplicationObjectProperty and Set-NAVApplicationObjectProperty.  
+   Each of the application object properties in the application object files often calls for hands-on handling. The text files specify the **Modified**, **Date**, **Time**, and **VersionList** properties for each object. When you run the Merge-NAVApplicationObject cmdlet, you can set parameters that are specific for application object properties. But two cmdlets are available specifically for post-processing of object properties: Get-NAVApplicationObjectProperty and Set-NAVApplicationObjectProperty.  
 
-     Often handling or setting application object properties is done at a later time than the merge itself. For example, you run the merge, resolve the conflicts, and once you are done, you want to stamp the current date and time on all objects. To do that, use the Set-NAVApplicationObjectProperty cmdlet to change the values of the Version List, Date, Time, or Modified properties in the specified text files. You can use the Set-NAVApplicationObjectProperty cmdlet to extract information about the application objects before you change them.  
+   Often handling or setting application object properties is done at a later time than the merge itself. For example, you run the merge, resolve the conflicts, and once you are done, you want to stamp the current date and time on all objects. To do that, use the Set-NAVApplicationObjectProperty cmdlet to change the values of the Version List, Date, Time, or Modified properties in the specified text files. You can use the Set-NAVApplicationObjectProperty cmdlet to extract information about the application objects before you change them.  
 
--   Documentation triggers  
+- Documentation triggers  
 
-     In each object, the documentation trigger is used for many different purposes. Documentation, of course, but also for tracking changes with date or history semantics built into it. You can use the cmdlets to modify the contents of the documentation section. If you want to be explicit about how the content of the documentation triggers is merged, you can set the *-DocumentationConflict* parameter when you run the Merge-NAVApplicationObject cmdlet. Set this parameter when you are merging objects with the same type of content in the documentation trigger, such as technical descriptions or a version list. By default, conflicting lines of documentation are merged into the result file with the content from the modified object listed first. This is particularly useful when the objects contain version history in the documentation triggers.  
+   In each object, the documentation trigger is used for many different purposes. Documentation, of course, but also for tracking changes with date or history semantics built into it. You can use the cmdlets to modify the contents of the documentation section. If you want to be explicit about how the content of the documentation triggers is merged, you can set the *-DocumentationConflict* parameter when you run the Merge-NAVApplicationObject cmdlet. Set this parameter when you are merging objects with the same type of content in the documentation trigger, such as technical descriptions or a version list. By default, conflicting lines of documentation are merged into the result file with the content from the modified object listed first. This is particularly useful when the objects contain version history in the documentation triggers.  
 
--   ControlID  
+- ControlID  
 
-     Sometimes, developers in-house or external partners create objects in the same ID range as you. This surfaces in the merge process as conflicts and hence as work to do. The application merge utilities provide ways to handle that, depending on your needs and requirements. To reduce noise, by default the Merge-NAVApplicationObject cmdlet suppresses conflicting modifications on non-functional incidents such as the ordering of variables and methods that are sometimes referred to as control IDs. If you set the*–Strict* parameter, these occurrences are treated like any other conflicts and reported accordingly.Significant IDs, such as table and field IDs, are fully considered during compare and merge.  
+   Sometimes, developers in-house or external partners create objects in the same ID range as you. This surfaces in the merge process as conflicts and hence as work to do. The application merge utilities provide ways to handle that, depending on your needs and requirements. To reduce noise, by default the Merge-NAVApplicationObject cmdlet suppresses conflicting modifications on non-functional incidents such as the ordering of variables and methods that are sometimes referred to as control IDs. If you set the<em>–Strict</em> parameter, these occurrences are treated like any other conflicts and reported accordingly.Significant IDs, such as table and field IDs, are fully considered during compare and merge.  
 
--   CaptionML  
+- CaptionML  
 
-     Captions are an integral part of the solution, but when you compare two versions of the same object with two different languages, you will see extensive differences. You can choose to export captions into text files before you compare or merge application objects. For example, you can use the Export-NAVApplicationObjectLanguage[!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlet to export specific languages from the objects before you merge them. You can then use the Import-NAVApplicationObjectLanguage cmdlet to import the captions after the merge. Other [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets support joining and splitting application object language files.  
+   Captions are an integral part of the solution, but when you compare two versions of the same object with two different languages, you will see extensive differences. You can choose to export captions into text files before you compare or merge application objects. For example, you can use the Export-NAVApplicationObjectLanguage[!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlet to export specific languages from the objects before you merge them. You can then use the Import-NAVApplicationObjectLanguage cmdlet to import the captions after the merge. Other [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets support joining and splitting application object language files.  
 
- When you merge application changes by running the Merge-NAVApplicationObject cmdlet or the Update-NAVApplicationObject cmdlet, the differences are applied automatically if possible. However, when conflicts are detected, they are captured in **CONFLICT** files that clearly identify where two parties such as you and Microsoft have changed the same object or parts of it. For more information, see [Handling Merge Conflicts](Handling-Merge-Conflicts.md).  
+  When you merge application changes by running the Merge-NAVApplicationObject cmdlet or the Update-NAVApplicationObject cmdlet, the differences are applied automatically if possible. However, when conflicts are detected, they are captured in **CONFLICT** files that clearly identify where two parties such as you and Microsoft have changed the same object or parts of it. For more information, see [Handling Merge Conflicts](Handling-Merge-Conflicts.md).  
 
 ### Scenario: Updating your Solution to the Next Cumulative Update  
  In the following example, you have built a solution that is based on [!INCLUDE[navnowlong](includes/navnowlong_md.md)], **MySolution**. Microsoft then releases [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Cumulative Update 1 that includes hotfixes and two regulatory features for your country/region. To help you apply the cumulative update to your solution, you use the [!INCLUDE[navnow](includes/navnow_md.md)] cmdlets. The cmdlets calculate the modifications that Microsoft made between the original release and the cumulative update, and apply these to your solution. Then, you must manually resolve any conflicts, such as both you and Microsoft modified a report object or a table. You must also validate the automatically applied modifications through testing and maybe code review. The following table describes the three versions of the [!INCLUDE[navnow](includes/navnow_md.md)] application that you want to compare and merge.  

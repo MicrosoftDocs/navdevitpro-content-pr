@@ -23,6 +23,7 @@ POST /businesscentral/companies({companyId})/customers({customerId})/defaultDime
 ```
 
 ## Request headers
+
 |Header         |Value                    |
 |---------------|-------------------------|
 |Authorization  |Bearer {token}. Required.|
@@ -86,4 +87,4 @@ POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId
 [Get customer defaultDimensions](dynamics_customer_get_defaultdimensions.md)  
 [Update customer defaultDimensions](dynamics_customer_update_defaultdimensions.md)  
 [Delete customer defaultDimensions](dynamics_customer_delete_defaultdimensions.md)  
- 
+

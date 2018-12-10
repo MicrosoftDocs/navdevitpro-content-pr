@@ -54,23 +54,23 @@ Finsql.exe [servername=<server>,] [database=<database>,] designobject=<object ty
 
  The type and ID of the object that you want to design. This parameter is required. The possible values of the object type are:  
 
--   Table  
+- Table  
 
--   Page  
+- Page  
 
--   Report  
+- Report  
 
--   Codeunit  
+- Codeunit  
 
--   Query  
+- Query  
 
--   XMLport  
+- XMLport  
 
- The possible values of the object ID are 0 and any ID of an existing object. If you specify 0 for the object ID, then you open a new object to design.  
+  The possible values of the object ID are 0 and any ID of an existing object. If you specify 0 for the object ID, then you open a new object to design.  
 
- *username*  
+  *username*  
 
- The user name to use to authenticate to the database. The user name must exist in the database. If you do not specify a user name and password, then the command uses the Windows user name and password of the current user to authenticate to the database.  
+  The user name to use to authenticate to the database. The user name must exist in the database. If you do not specify a user name and password, then the command uses the Windows user name and password of the current user to authenticate to the database.  
 
 > [!NOTE]  
 >  If User Access Control \(UAC\) is turned on and you do not specify to run the Command Prompt window as Administrator, then the Command Prompt window runs as a standard user. In this case, if you do not specify the *username* parameter and the current Windows user is an Administrator, then the command is run as the standard user.  

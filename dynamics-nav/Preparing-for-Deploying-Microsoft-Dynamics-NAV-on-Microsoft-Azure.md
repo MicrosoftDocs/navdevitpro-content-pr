@@ -14,15 +14,15 @@ ms.author: jswymer
 # Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure
 You must perform the following prerequisites before you deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Microsoft  Azure virtual machines:  
 
--   [Setting Up the Azure Subscription](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md#AzureSubscritpion)  
+- [Setting Up the Azure Subscription](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md#AzureSubscritpion)  
 
--   [Preparing the Provisioning Computer](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md#PrepareComputer)  
+- [Preparing the Provisioning Computer](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md#PrepareComputer)  
 
--   [Creating a Backup of the Application Database](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md#CreateBackup)  
+- [Creating a Backup of the Application Database](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md#CreateBackup)  
 
--   [Installing Control Add-ins and Server-Side Files](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md#ControlAddins)  
+- [Installing Control Add-ins and Server-Side Files](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md#ControlAddins)  
 
- Before you begin, determine the network topology that you want for the [!INCLUDE[navnow](includes/navnow_md.md)] installation. For more information, see [Network Topologies for Microsoft Dynamics NAV on Azure](Network-Topologies-for-Microsoft-Dynamics-NAV-on-Azure.md).  
+  Before you begin, determine the network topology that you want for the [!INCLUDE[navnow](includes/navnow_md.md)] installation. For more information, see [Network Topologies for Microsoft Dynamics NAV on Azure](Network-Topologies-for-Microsoft-Dynamics-NAV-on-Azure.md).  
 
 ##  <a name="AzureSubscritpion"></a> Setting Up the Azure Subscription  
  Perform the following tasks to create an Azure subscription and prepare the subscription for deploying [!INCLUDE[navnow](includes/navnow_md.md)]. You only have to perform these tasks one time.  

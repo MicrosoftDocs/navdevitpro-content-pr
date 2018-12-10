@@ -23,21 +23,21 @@ Causes the system to display a lookup page.
 ## Remarks  
  There are three lookup options:  
 
-1.  Default Lookup - The lookup into the table is performed without applying filters or other special parameters.  
+1. Default Lookup - The lookup into the table is performed without applying filters or other special parameters.  
 
-2.  Field Lookup - You can use this trigger to define a field lookup that will be used in place of the default lookup.  
+2. Field Lookup - You can use this trigger to define a field lookup that will be used in place of the default lookup.  
 
-3.  Text box Lookup - You can use the [OnLookup \(Page fields\) Trigger](devenv-onlookup-page-fields-trigger.md) to define a lookup based on the value of a text box. This value will be used in place of the default lookup or the field lookup.  
+3. Text box Lookup - You can use the [OnLookup \(Page fields\) Trigger](devenv-onlookup-page-fields-trigger.md) to define a lookup based on the value of a text box. This value will be used in place of the default lookup or the field lookup.  
 
- When using this trigger, follow this approach:  
+   When using this trigger, follow this approach:  
 
--   Use the field value to determine what filters or other parameters to apply.  
+- Use the field value to determine what filters or other parameters to apply.  
 
--   Run the lookup page as a modal page.  
+- Run the lookup page as a modal page.  
 
--   Transfer the value the user selects back to the field when the user chooses **OK**.  
+- Transfer the value the user selects back to the field when the user chooses **OK**.  
 
- If an error occurs in the trigger code, the lookup page is closed.  
+  If an error occurs in the trigger code, the lookup page is closed.  
 
 <!--NAV  
 > [!NOTE]  

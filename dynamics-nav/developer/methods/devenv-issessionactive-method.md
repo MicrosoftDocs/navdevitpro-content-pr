@@ -35,7 +35,7 @@ Type: Boolean
 ## Remarks
 Use this method to test if a session has completed or is still active, for example if you want to check that a session started with STARTSESSION is still running.  
 
->   [!NOTE]  
+> [!NOTE]
 >    The method looks for sessions on the local machine.
 
 

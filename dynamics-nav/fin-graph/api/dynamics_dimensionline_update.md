@@ -24,6 +24,7 @@ PATCH /businesscentral/companies({id})/dimensionLines(parentId=({id}),id=({id}))
 ```
 
 ## Request headers
+
 |Header        |Value                    |
 |--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|

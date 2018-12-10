@@ -13,13 +13,13 @@ caps.latest.revision: 6
 # Special Tables
 [!INCLUDE[navnow](includes/navnow_md.md)] has three types of tables that serve special purposes. The types of tables are:  
 
--   Temporary  
+- Temporary  
 
--   System  
+- System  
 
--   Virtual  
+- Virtual  
 
- Temporary tables are used as a repository for temporary information at run time. System and virtual tables are system generated tables that provide information about the current state of the system.  
+  Temporary tables are used as a repository for temporary information at run time. System and virtual tables are system generated tables that provide information about the current state of the system.  
 
 ## In This Section  
  [Temporary Tables](Temporary-Tables.md)  

@@ -121,18 +121,18 @@ Query.READ;
 
  This example requires that you do the following:  
 
--   Create a query called **My Customer Query** that is based on table **18 Customer** and contains the **No**, **Name**, and **City** columns. <!--NAV For more information, see [How to: Create Queries](How-to--Create-Queries.md). -->  
+- Create a query called **My Customer Query** that is based on table **18 Customer** and contains the **No**, **Name**, and **City** columns. <!--NAV For more information, see [How to: Create Queries](How-to--Create-Queries.md). -->  
 
--   Create the following variables and text constant:  
+- Create the following variables and text constant:  
 
-    |Variable name|DataType|Subtype|  
-    |-------------------|--------------|-------------|  
-    |OK|Boolean|Not applicable|  
-    |MyCustomerQuery|Query|My Customer Query|  
+  |Variable name|DataType|Subtype|  
+  |-------------------|--------------|-------------|  
+  |OK|Boolean|Not applicable|  
+  |MyCustomerQuery|Query|My Customer Query|  
 
-    |Text constant name|ENU Value|  
-    |------------------------|---------------|  
-    |Text000|Query was not saved.|  
+  |Text constant name|ENU Value|  
+  |------------------------|---------------|  
+  |Text000|Query was not saved.|  
 
 ```  
 OK := MyCustomerQuery.SAVEASCSV('c:\mycustomers.csv', 0, '1,10,40');  

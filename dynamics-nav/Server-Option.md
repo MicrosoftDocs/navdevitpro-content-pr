@@ -19,27 +19,27 @@ The Server option is available on the **Choose an installation option** page in 
 ## Installed Components  
  When you choose the Server option, [!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following components:  
   
--   [!INCLUDE[nav_server](includes/nav_server_md.md)]. For more information, see [Microsoft Dynamics NAV Server](Microsoft-Dynamics-NAV-Server.md).  
+- [!INCLUDE[nav_server](includes/nav_server_md.md)]. For more information, see [Microsoft Dynamics NAV Server](Microsoft-Dynamics-NAV-Server.md).  
   
--   The [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. For more information, see [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
+- The [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. For more information, see [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
   
--   Microsoft Office Outlook integration.  
+- Microsoft Office Outlook integration.  
   
--   SharePoint Online integration. <!-- For more information, see [Integrating with Microsoft Office](Integrating-with-Microsoft-Office.md).-->  
+- SharePoint Online integration. <!-- For more information, see [Integrating with Microsoft Office](Integrating-with-Microsoft-Office.md).-->  
   
- [!INCLUDE[nav_server](includes/nav_server_md.md)] represents the middle tier in the [!INCLUDE[navnow](includes/navnow_md.md)] three-tier [Product and Architecture Overview](Product-and-Architecture-Overview.md). The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)] is tier one, and [SQL Server Database Components](SQL-Server-Database-Components.md), together with SQL Server or SQL Server Express, is tier three.  
+  [!INCLUDE[nav_server](includes/nav_server_md.md)] represents the middle tier in the [!INCLUDE[navnow](includes/navnow_md.md)] three-tier [Product and Architecture Overview](Product-and-Architecture-Overview.md). The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)] is tier one, and [SQL Server Database Components](SQL-Server-Database-Components.md), together with SQL Server or SQL Server Express, is tier three.  
   
- You can configure the Server option to add or remove components by choosing **Customize** under the Server option on the **Choose an installation** option pane. You can configure the Server option to add or remove components on the **Customize the installation** page.  
+  You can configure the Server option to add or remove components by choosing **Customize** under the Server option on the **Choose an installation** option pane. You can configure the Server option to add or remove components on the **Customize the installation** page.  
   
- You may want to consider adding the following components to a [!INCLUDE[nav_server](includes/nav_server_md.md)] installation:  
+  You may want to consider adding the following components to a [!INCLUDE[nav_server](includes/nav_server_md.md)] installation:  
   
--   [SQL Server Database Components](SQL-Server-Database-Components.md), to which you can add the Demo database.  
+- [SQL Server Database Components](SQL-Server-Database-Components.md), to which you can add the Demo database.  
   
--   [Automated Data Capture System](Automated-Data-Capture-System.md).  
+- [Automated Data Capture System](Automated-Data-Capture-System.md).  
   
--   Web Server Components. For more information, see [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md).  
+- Web Server Components. For more information, see [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md).  
   
--   The [!INCLUDE[navnow](includes/navnow_md.md)] Help Server. This adds a separate website that displays the Help for [!INCLUDE[navnow](includes/navnow_md.md)]. For more information, see [Configuring Microsoft Dynamics NAV Help Server](Configuring-Microsoft-Dynamics-NAV-Help-Server.md).  
+- The [!INCLUDE[navnow](includes/navnow_md.md)] Help Server. This adds a separate website that displays the Help for [!INCLUDE[navnow](includes/navnow_md.md)]. For more information, see [Configuring Microsoft Dynamics NAV Help Server](Configuring-Microsoft-Dynamics-NAV-Help-Server.md).  
   
 ## Configuring [!INCLUDE[nav_server](includes/nav_server_md.md)] in Setup  
  When you choose the Server option, the **Specify parameters** pane is displayed in Setup. You must specify certain parameters in order to install [!INCLUDE[nav_server](includes/nav_server_md.md)] so that clients can connect to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. Each parameter is described in the Setup window. The following list provides a high-level description of the required parameters.  

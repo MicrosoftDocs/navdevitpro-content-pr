@@ -22,12 +22,13 @@ The following tables provide an overview of the new, removed, or changed C/AL da
 |Data Type|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------|---------------------------------------|  
 |SessionSettings|A complex data type for passing user personalization settings for a client session as an object. You can use the AL methods of the SessionSettings data type to get, set, and send the user personalization settings for the current client session.<br /><br />For more information, see [SessionSettings Data Type](sessionsettings-data-type.md).| 
- 
+
 See the C/AL Functions section that follows for a description of the data type functions.
 
 ## C/AL Functions  
 ### New functions
 The following table lists the new functions in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+
 |Function|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
 |[CANCREATTASK \(TaskScheduler\)](cancreatetask-function.md)|Indicates whether a user has permissions to create or schedule a task.|
@@ -54,6 +55,7 @@ The following table lists the new properties in [!INCLUDE[navnowlong](includes/n
 
 ### Changed properties
 The following table lists the new properties in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+
 |Property|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
 |[SubType Property](SubType-Property--Codeunit-.md)|The **Install** option has been added for adding code that runs when you install an extension.| 

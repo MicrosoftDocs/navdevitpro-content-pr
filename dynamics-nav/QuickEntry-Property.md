@@ -30,17 +30,17 @@ In the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], this property is ignored 
 ## Example: Dynamic Property Change Using a Boolean Field  
  To skip over the **Credit Limit \(LCY\)** field on customer cards when the **Allow Invoice Discount** field is not selected, follow these steps:  
   
-1.  Open page 21, **Customer Card**, with Page Designer.  
+1. Open page 21, **Customer Card**, with Page Designer.  
   
-2.  View the properties of field 22, **Credit Limit \(LCY\)**.  
+2. View the properties of field 22, **Credit Limit \(LCY\)**.  
   
-3.  For the **QuickEntry** property, enter **“Allow Line Disc.”** in the **Value** field.  
+3. For the **QuickEntry** property, enter **“Allow Line Disc.”** in the **Value** field.  
   
-4.  The **Allow Line Disc.** field is a Boolean field on page 21, **Customer Card**.  
+4. The **Allow Line Disc.** field is a Boolean field on page 21, **Customer Card**.  
   
-5.  Save the changes on page 21.  
+5. Save the changes on page 21.  
   
- Now, when a user selects the **Allow Invoice Disc.** check box on a customer card, the **Credit Limit \(LCY\)** field receives focus when the user presses Enter to move focus to the field. Otherwise, focus skips over the field when the user presses Enter to move across the customer card.  
+   Now, when a user selects the **Allow Invoice Disc.** check box on a customer card, the **Credit Limit \(LCY\)** field receives focus when the user presses Enter to move focus to the field. Otherwise, focus skips over the field when the user presses Enter to move across the customer card.  
   
 ## See Also  
  [Properties](Properties.md)

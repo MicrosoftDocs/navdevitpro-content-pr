@@ -30,7 +30,8 @@ Represents a line on a sales credit memo line in [!INCLUDE[d365fin_long_md](../.
 |[DELETE salesCreditMemoLines](../api/dynamics_salescreditmemoline_delete.md)|none   |Deletes a sales credit memo line object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |documentId|GUID|The ID of the parent credit memo.|
 |sequence|numeric|The line sequence number.|
@@ -100,7 +101,6 @@ Here is a JSON representation of the resource.
       "shipmentDate": "Date"
     }
   ]
-
 ```
 
 ## See also

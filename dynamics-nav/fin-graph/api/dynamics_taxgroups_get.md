@@ -24,6 +24,7 @@ GET /businesscentral/companies({id})/taxGroups({id})
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |

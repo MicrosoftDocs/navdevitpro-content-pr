@@ -37,7 +37,8 @@ Represents a sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d365
 
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The credit memo ID. Non-editable.|
 |number|string, maximum size 20|The credit memo number. Read-Only.|
@@ -106,7 +107,6 @@ Here is a JSON representation of the resource.
       "invoiceId" : "GUID",
       "invoiceNumber" : "string"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

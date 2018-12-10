@@ -23,6 +23,7 @@ DELETE /businesscentral/companies({companyId})/customers({customerId})/defaultDi
 ```
 
 ## Request headers
+
 |Header         |Value                     |
 |---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |

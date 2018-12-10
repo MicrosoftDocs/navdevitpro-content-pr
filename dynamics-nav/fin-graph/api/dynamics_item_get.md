@@ -25,6 +25,7 @@ GET /businesscentral/companies({id})/items({id})
 ```
 
 ## Request headers
+
 |Header       |Value                    |
 |-------------|-------------------------|
 |Authorization|Bearer {token}. Required.|
@@ -77,7 +78,6 @@ Here is an example of the response.
   "taxGroupCode": "FURNITURE",
   "lastModifiedDateTime": "2017-03-07T00:35:30.073Z"
 }
-
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

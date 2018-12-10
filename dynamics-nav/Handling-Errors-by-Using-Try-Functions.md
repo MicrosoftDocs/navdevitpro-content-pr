@@ -20,17 +20,17 @@ The main purpose of try functions is to catch errors/exceptions that are thrown 
 ### <a name="DbWriteTransactions"></a>Database write transactions in try functions
 Because changes made to the database by a try function are not rolled back, you should not include database write transactions within a try function. By default, the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration prevents you from doing this. If a try function contains a database write transaction, a runtime error occurs.
 
->[!Note]
->This behavior is different from the behavior in [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)], which did not include this restriction by default. Therefore, you might encounter errors if you have application code that was written for [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] and you run the code in [!INCLUDE[nav2017](includes/nav2017.md)].
-
->In practice, this means that you should not include the following function calls inside a try function scope:  
-
->|Data Type|Function|  
->|---------------|--------------|  
->|Record and RecordRef|-   INSERT<br />-   MODIFY<br />-   MODIFYALL<br />-   RENAME<br />-   DELETE<br />-   DELETEALL<br />-   >ADDLINK<br />-   DELETELINK<br />-   DELETELINKS|  
->|Database|-   COMMIT|
-
->If you want to change this behavior, you can set the **DisableWriteInsideTryFunctions** setting in the CustomSettings.config file of the server instance to **false**. However, we recommend that you design your code to suit the default behavior instead.
+> [!Note]
+> This behavior is different from the behavior in [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)], which did not include this restriction by default. Therefore, you might encounter errors if you have application code that was written for [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] and you run the code in [!INCLUDE[nav2017](includes/nav2017.md)].
+> 
+> In practice, this means that you should not include the following function calls inside a try function scope:  
+> 
+> |Data Type|Function|  
+> |---------------|--------------|  
+> |Record and RecordRef|-   INSERT<br />-   MODIFY<br />-   MODIFYALL<br />-   RENAME<br />-   DELETE<br />-   DELETEALL<br />-   >ADDLINK<br />-   DELETELINK<br />-   DELETELINKS|  
+> |Database|-   COMMIT|
+> 
+> If you want to change this behavior, you can set the **DisableWriteInsideTryFunctions** setting in the CustomSettings.config file of the server instance to **false**. However, we recommend that you design your code to suit the default behavior instead.
 
 ### Handling errors with a return value
 A function that is designated as a try function has a Boolean return value \(true or false\), and has the construction `OK:= MyTryFunction`. A try function cannot have a user-defined return value.

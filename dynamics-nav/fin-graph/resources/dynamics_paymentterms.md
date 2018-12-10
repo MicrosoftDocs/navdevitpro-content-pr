@@ -30,7 +30,8 @@ Represents a payment term in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 |[DELETE paymentTerms](../api/dynamics_paymentterms_delete.md)|none        |Delete a payment terms object.|
 
 ## Properties
-| Property	                   | Type	  |Description                                                |
+
+| Property                     | Type     |Description                                                |
 |:-----------------------------|:-------|:----------------------------------------------------------|
 |id                            |GUID    |The unique ID of the paymentTerms. Non-editable.           |
 |code                          |string  |Specifies the payment term code.                           |
@@ -61,7 +62,6 @@ Here is a JSON representation of the paymentTerms.
   "calculateDiscountOnCreditMemos": "boolean",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also

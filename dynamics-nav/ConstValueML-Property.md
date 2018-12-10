@@ -23,17 +23,17 @@ Sets the values of a C/AL text constant for the different languages that are ava
   
  **\<Language ID>=\<string>**  
   
--   **\<Language ID>** is the Windows three-letter language ID.  
+- **\<Language ID>** is the Windows three-letter language ID.  
   
--   **\<string>** is the text string for the language.  
+- **\<string>** is the text string for the language.  
   
- If you have more than one language entry, then separate each consecutive entry with a semicolon.  
+  If you have more than one language entry, then separate each consecutive entry with a semicolon.  
   
- The following example illustrates a **ConstValueML** property value.  
+  The following example illustrates a **ConstValueML** property value.  
   
- **DAN=Navn;ENU=Name;ESP=Nombre;FRA=Nom**  
+  **DAN=Navn;ENU=Name;ESP=Nombre;FRA=Nom**  
   
- In this example, values are set for Danish \(DAN\), English \(United States\), Spanish Traditional Sort \(ESP\), and French Standard \(FRA\).  
+  In this example, values are set for Danish \(DAN\), English \(United States\), Spanish Traditional Sort \(ESP\), and French Standard \(FRA\).  
   
 ### To specify values for languages  
   

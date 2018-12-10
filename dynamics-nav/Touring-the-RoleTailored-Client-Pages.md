@@ -196,13 +196,13 @@ You can choose from the following page types:
   
  The StandardDialog page type has the following characteristics:  
   
--   It does not contain a ribbon, FastTabs, or FactBoxes.  
+- It does not contain a ribbon, FastTabs, or FactBoxes.  
   
--   There is no customization of the page available from the [!INCLUDE[rtc](includes/rtc_md.md)].  
+- There is no customization of the page available from the [!INCLUDE[rtc](includes/rtc_md.md)].  
   
--   It is typically is not associated with a source table and gets its data based on a Card type page.  
+- It is typically is not associated with a source table and gets its data based on a Card type page.  
   
- For more information, see the following.  
+  For more information, see the following.  
   
 |To|See|  
 |--------|---------|  
@@ -277,19 +277,19 @@ You can choose from the following page types:
   
  You can set a FactBox to display a page, system part, or a chart. If you set the FactBox to display a page, you can display the following page types:  
   
--   Card  
+- Card  
   
--   List  
+- List  
   
--   List Plus  
+- List Plus  
   
--   Document  
+- Document  
   
--   Worksheet  
+- Worksheet  
   
--   Navigation  
+- Navigation  
   
- For more information, see the following.  
+  For more information, see the following.  
   
 |To|See|  
 |--------|---------|  

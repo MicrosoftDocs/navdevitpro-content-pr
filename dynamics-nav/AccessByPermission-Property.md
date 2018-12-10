@@ -55,27 +55,29 @@ Sets a value for a table field or UI element that determines the permission mask
 
 ## Example: Remove the Unit Price field if the user does not have permission to the Sales Price table  
 
-1.  Open table 27, **Item Card**, with the Table Designer.  
+1. Open table 27, **Item Card**, with the Table Designer.  
 
-2.  View the properties of field 18, **Unit Price**.  
+2. View the properties of field 18, **Unit Price**.  
 
-3.  For the **AccessByPermission** property, choose the **AssistEdit** button in the **Value** field.  
+3. For the **AccessByPermission** property, choose the **AssistEdit** button in the **Value** field.  
 
-4.  In the **Access By Permission** window, fill the fields as described in the following table.  
+4. In the **Access By Permission** window, fill the fields as described in the following table.  
 
-    |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
-    |---------------------------------|---------------------------------------|  
-    |**Object Type**|TableData|  
-    |**Object ID**|Sales Price|  
-    |**Read**|Select|  
-    |**Insert**|Select|  
-    |**Modify**|Leave blank|  
-    |**Delete**|Leave blank|  
-    |**Execute**|Leave blank|  
 
-5.  Close the **Access By Permission** window and save the changes on table 27.  
+   | [!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)] | [!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)] |
+   |---------------------------------------------------------|---------------------------------------------------------------------|
+   |                     **Object Type**                     |                              TableData                              |
+   |                      **Object ID**                      |                             Sales Price                             |
+   |                        **Read**                         |                               Select                                |
+   |                       **Insert**                        |                               Select                                |
+   |                       **Modify**                        |                             Leave blank                             |
+   |                       **Delete**                        |                             Leave blank                             |
+   |                       **Execute**                       |                             Leave blank                             |
 
- All instances of the **Unit Price** field on pages are now removed if the user does have Read or Insert permission to the **Sales Price** table.  
+
+5. Close the **Access By Permission** window and save the changes on table 27.  
+
+   All instances of the **Unit Price** field on pages are now removed if the user does have Read or Insert permission to the **Sales Price** table.  
 
 > [!IMPORTANT]  
 >  If you defined the property for a table field, then all instances of the field on pages are removed. To override the property on an individual page field, delete the permission value after the **=** sign in the **Value** field. Do NOT delete the whole string as that will be replicated on the property of the table field.  

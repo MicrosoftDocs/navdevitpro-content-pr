@@ -23,6 +23,7 @@ POST /businesscentral/companies({id})/paymentTerms
 ```
 
 ## Request headers
+
 |Header|Value|
 |---------------|-----------------------------|
 |Authorization  |Bearer {token}. Required.    |
@@ -75,7 +76,6 @@ Content-type: application/json
   "calculateDiscountOnCreditMemos": false,
   "lastModifiedDateTime": "2017-03-03T02:14:32Z"
 }
-
 ```
 
 

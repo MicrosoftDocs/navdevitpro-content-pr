@@ -31,18 +31,18 @@ Creates and opens an ASCII or binary file. If the file already exists, it will b
   
  The name of the file that include the path. The following rules apply:  
   
--   You can omit the drive designation if the file is located on the current drive.  
+- You can omit the drive designation if the file is located on the current drive.  
   
--   You can omit the full path if the file is located in the current directory.  
+- You can omit the full path if the file is located in the current directory.  
   
--   You can enter only the subdirectory name if the file is located in a subdirectory of the current directory.  
+- You can enter only the subdirectory name if the file is located in a subdirectory of the current directory.  
   
- *TextEncoding*  
- Value: **MsDos**, **UTF8**, **UTF16**, or **Windows**  
+  *TextEncoding*  
+  Value: **MsDos**, **UTF8**, **UTF16**, or **Windows**  
   
- Optionally, you can specify the encoding on the file. By specifying the text encoding, you ensure that all the language-specific characters are represented correctly in [!INCLUDE[navnow](includes/navnow_md.md)] when you read data and write data.  
+  Optionally, you can specify the encoding on the file. By specifying the text encoding, you ensure that all the language-specific characters are represented correctly in [!INCLUDE[navnow](includes/navnow_md.md)] when you read data and write data.  
   
- For more information, see [Text Encoding](Text-Encoding.md).  
+  For more information, see [Text Encoding](Text-Encoding.md).  
   
 ## Property Value/Return Value  
  Type: Boolean  

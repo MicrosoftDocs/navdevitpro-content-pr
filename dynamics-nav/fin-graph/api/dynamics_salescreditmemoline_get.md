@@ -26,6 +26,7 @@ GET /businesscentral/companies({id})/salesCreditMemos({id})/salesCreditMemoLines
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |

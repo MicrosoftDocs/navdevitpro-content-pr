@@ -19,13 +19,15 @@ Represents a dimension in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method       | Return Type  |Description|
 |:-------------|:-------------|:----------|
 |[GET dimensions](../api/dynamics_dimension_get.md)|dimension|Gets a dimension.|
 
 
 ## Properties
-| Property	         | Type                  |Description               |
+
+| Property           | Type                  |Description               |
 |:-------------------|:----------------------|:-------------------------|
 |id                  |GUID                   |The unique ID of the item.|
 |code                |string, maximum size 20|The dimension code.       |

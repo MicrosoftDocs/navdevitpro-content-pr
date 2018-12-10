@@ -18,15 +18,15 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can display the user interface
 ## Translated User Interface Strings  
  In [!INCLUDE[navnow](includes/navnow_md.md)], the user interface includes the following types of translatable user interface strings:  
 
--   Captions for application objects, such as pages, tables, reports, option fields, icons, menus, and so on, that are defined in the **CaptionML** property for an object.  
+- Captions for application objects, such as pages, tables, reports, option fields, icons, menus, and so on, that are defined in the **CaptionML** property for an object.  
 
-     For more information, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
+   For more information, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
 
--   Text messages that are defined in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], such as text constants and error messages that are defined in the [C-AL Globals](uiref/-$-S_10204-C-AL-Globals-$-.md) window or the **C/AL Locals** window.  
+- Text messages that are defined in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], such as text constants and error messages that are defined in the [C-AL Globals](uiref/-$-S_10204-C-AL-Globals-$-.md) window or the **C/AL Locals** window.  
 
--   Text messages and strings that are defined in [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+- Text messages and strings that are defined in [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
 
- If you are a developer or an administrator, you can add languages to the captions for application objects and to the text messages that are defined in the **C/AL Globals** window or the **C/AL Locals** window. To add a language to the text messages that are defined in the resource files for [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[nav_windows](includes/nav_windows_md.md)], special tools are required.  
+  If you are a developer or an administrator, you can add languages to the captions for application objects and to the text messages that are defined in the **C/AL Globals** window or the **C/AL Locals** window. To add a language to the text messages that are defined in the resource files for [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[nav_windows](includes/nav_windows_md.md)], special tools are required.  
 
 ### Language Modules and Translated Text Files  
  You can install language modules so that you can view text in the user interface in different languages. Once you have installed a language module, you change the language of the user interface in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and for users of the [!INCLUDE[nav_web](includes/nav_web_md.md)]. When you change a language in the UI, you change the language of all text that is displayed in the UI in captions for text boxes, on command buttons, in menus, and so on. For more information, see [Language Modules](Language-Modules.md).  
@@ -44,15 +44,15 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can display the user interface
 
  If you export strings for objects of different types, the text file lists the strings by object type and then by object ID. For example, if you export strings for table 18, page 21, and report 111, the text file lists strings in the following order:  
 
-1.  Table 18  
+1. Table 18  
 
-2.  Report 111  
+2. Report 111  
 
-3.  Page 21  
+3. Page 21  
 
- The format of the exported text files can be difficult to read, because for each type of object, the text file contains different types of strings. Each type of string is identified by a property that starts with the character P followed by an ID. For example, for a table object and the fields on the table, the multilanguage property has the ID 8629. For option values for fields on tables, the multilanguage property has the ID 8632. This means that you can identify the type of string when you translate the strings. However, you should filter out all strings that are not translatable, which makes the remaining strings easier to understand.  
+   The format of the exported text files can be difficult to read, because for each type of object, the text file contains different types of strings. Each type of string is identified by a property that starts with the character P followed by an ID. For example, for a table object and the fields on the table, the multilanguage property has the ID 8629. For option values for fields on tables, the multilanguage property has the ID 8632. This means that you can identify the type of string when you translate the strings. However, you should filter out all strings that are not translatable, which makes the remaining strings easier to understand.  
 
- The following table illustrates the translatable strings for table 18 in the [!INCLUDE[demolong](includes/demolong_md.md)].  
+   The following table illustrates the translatable strings for table 18 in the [!INCLUDE[demolong](includes/demolong_md.md)].  
 
 |String|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  

@@ -92,17 +92,17 @@ MESSAGE(Text000 + Text001, StrNumber, CheckSum);
 
  A 13-digit EAN code has the following format:  
 
-1.  The 12 digits in positions 13 to 2 are used to calculate the checksum at position 1.  
+1. The 12 digits in positions 13 to 2 are used to calculate the checksum at position 1.  
 
-2.  Starting with position 2, all even values are totaled. The result is then multiplied by three. This value is called Even.  
+2. Starting with position 2, all even values are totaled. The result is then multiplied by three. This value is called Even.  
 
-3.  Starting with position 3, all odd values are totaled. The result is called Odd.  
+3. Starting with position 3, all odd values are totaled. The result is called Odd.  
 
-4.  Total=Even + Odd.  
+4. Total=Even + Odd.  
 
-5.  The modulus 10 checksum is then \(10 - Total MOD 10\) MOD 10.  
+5. The modulus 10 checksum is then \(10 - Total MOD 10\) MOD 10.  
 
- This example requires that you create the following global variables and text constants.  
+   This example requires that you create the following global variables and text constants.  
 
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

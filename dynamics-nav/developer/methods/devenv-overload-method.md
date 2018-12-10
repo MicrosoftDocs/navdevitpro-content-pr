@@ -37,17 +37,17 @@ codeunit 10 Stringifier
     begin 
         Exit(value); 
     end; 
- 
+
     local procedure DateToString(value : Date) : Text; 
     begin 
         Exit(Format(value)); 
     end; 
- 
+
     local procedure IntegerToString(value : Integer) : Text; 
     begin 
         Exit(Format(value)); 
     end; 
- 
+
     procedure ToString(value: Variant) : Text; 
     begin 
         if value.IsInteger then 
@@ -60,7 +60,6 @@ codeunit 10 Stringifier
             Exit(''); 
     end; 
 } 
-
 ```
 
 In the second code snippet, we overload the ToString procedure for Text, Date and Integer. At this point, it is not possible for a caller to call a ToString method with a different type other than Integer, Date, or Text. This will catch the bug above at compile time. 
@@ -72,12 +71,12 @@ codeunit 10 StringifierWithOverloads
     begin 
         Exit(value); 
     end; 
- 
+
     procedure ToString(value : Date) : Text; 
     begin 
         Exit(Format(value)); 
     end; 
- 
+
     procedure ToString(value : Integer) : Text; 
     begin 
         Exit(Format(value)); 

@@ -17,33 +17,33 @@ A FactBox displays additional information to the user in a pane located on the r
   
  There are three types of FactBoxes:  
   
--   Page part  
+- Page part  
   
--   System part  
+- System part  
   
--   Chart part  
+- Chart part  
   
- For example, on the customer list page you can see four FactBoxes: Customer Sales History - Sell-to Customer, Customer Statistics - Bill-to Customer, Links, and Notes. The first two are page parts based on existing pages. Links and Notes are system parts that are predefined. Other available system parts are Outlook, MyNotes, and Record Links.  
+  For example, on the customer list page you can see four FactBoxes: Customer Sales History - Sell-to Customer, Customer Statistics - Bill-to Customer, Links, and Notes. The first two are page parts based on existing pages. Links and Notes are system parts that are predefined. Other available system parts are Outlook, MyNotes, and Record Links.  
   
- FactBoxes can be used with the following page types:  
+  FactBoxes can be used with the following page types:  
   
--   Card  
+- Card  
   
--   List  
+- List  
   
--   Document  
+- Document  
   
--   Worksheet  
+- Worksheet  
   
--   List Plus  
+- List Plus  
   
--   Navigate  
+- Navigate  
   
- If users do not want to see information displayed in a FactBox, they can collapse the control or hide it. FactBoxes can be hidden or customized to show more or fewer fields, using the customize dialogs.  
+  If users do not want to see information displayed in a FactBox, they can collapse the control or hide it. FactBoxes can be hidden or customized to show more or fewer fields, using the customize dialogs.  
   
- A FactBox is also a page, so you must first create it in Page Designer, allocate it a source table, and then link it to a page where you want it to appear.  
+  A FactBox is also a page, so you must first create it in Page Designer, allocate it a source table, and then link it to a page where you want it to appear.  
   
- A business user, such as the order processor, can benefit from having additional FactBoxes on a page. For example, when the order processor uses page 22, the Customer list page, it would be useful to see information such as Outstanding Orders when different customers are selected in the list. You can do this by creating a Customer Orders FactBox that only displays specific fields from the Customer table related to outstanding customer orders.  
+  A business user, such as the order processor, can benefit from having additional FactBoxes on a page. For example, when the order processor uses page 22, the Customer list page, it would be useful to see information such as Outstanding Orders when different customers are selected in the list. You can do this by creating a Customer Orders FactBox that only displays specific fields from the Customer table related to outstanding customer orders.  
   
 ## Creating a FactBox to Display Outstanding Customer Orders  
   

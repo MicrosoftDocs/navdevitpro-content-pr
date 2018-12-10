@@ -14,17 +14,17 @@ manager: edupont
 # Walkthrough: Creating a Worksheet Page
 In [!INCLUDE[navnow](includes/navnow_md.md)], you can use a worksheet page type to create two types of pages:  
 
--   Worksheet pages – Used to present data in a list and offer a choice of actions to the user. For example, page 5841, Standard Cost worksheet, in Object Designer is a worksheet page.  
+- Worksheet pages – Used to present data in a list and offer a choice of actions to the user. For example, page 5841, Standard Cost worksheet, in Object Designer is a worksheet page.  
 
--   Journal pages – Used to perform tasks, such as posting transactions. For example, page 40, the Item Journal, in Object Designer is a journal page.  
+- Journal pages – Used to perform tasks, such as posting transactions. For example, page 40, the Item Journal, in Object Designer is a journal page.  
 
-     The following illustration shows an Item Journal page.  
+   The following illustration shows an Item Journal page.  
 
-     ![](media/NAV_ItemJournalPageNew.jpg "NAV\_ItemJournalPageNew")  
+   ![](media/NAV_ItemJournalPageNew.jpg "NAV\_ItemJournalPageNew")  
 
- Worksheet pages always open in edit mode and can display lists of data in a grid control and in lines. Lines can be filled in by a user or by running a batch job. You can add other controls such as a filter or FactBox to a worksheet page but you cannot add a chart pane. As part of user personalization options, these controls can be added or removed by the user. Actions can be added to the navigation of a worksheet page, and may be promoted by the user to the ribbon.  
+  Worksheet pages always open in edit mode and can display lists of data in a grid control and in lines. Lines can be filled in by a user or by running a batch job. You can add other controls such as a filter or FactBox to a worksheet page but you cannot add a chart pane. As part of user personalization options, these controls can be added or removed by the user. Actions can be added to the navigation of a worksheet page, and may be promoted by the user to the ribbon.  
 
- In this walkthrough, you learn how to create a new Item Journal worksheet that displays item journal lines.  
+  In this walkthrough, you learn how to create a new Item Journal worksheet that displays item journal lines.  
 
 ## About This Walkthrough  
  This walkthrough provides on overview of how to create a journal worksheet page and how to add controls to display items from a table. In this walkthrough, you will display items from table 83, Item Journal Line.  
@@ -153,13 +153,13 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use a worksheet page type 
 ## Adding FactBoxes  
  Simon has decided to add three FactBoxes to Susan's worksheet page:  
 
--   Item Replenishment  
+- Item Replenishment  
 
--   RecordLinks  
+- RecordLinks  
 
--   Notes  
+- Notes  
 
- **Item Replenishment** is a FactBox in an existing page, while **RecordLinks** and **Notes** are both system FactBoxes. Simon wants all these FactBoxes to be hidden unless Susan decides to show them as part of her personalization options.  
+  **Item Replenishment** is a FactBox in an existing page, while **RecordLinks** and **Notes** are both system FactBoxes. Simon wants all these FactBoxes to be hidden unless Susan decides to show them as part of her personalization options.  
 
 #### To add FactBoxes to a worksheet page  
 

@@ -23,6 +23,7 @@ GET /businesscentral/companies({id})/vendorPurchases
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |

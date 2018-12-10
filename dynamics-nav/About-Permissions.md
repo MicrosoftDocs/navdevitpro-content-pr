@@ -14,19 +14,19 @@ caps.latest.revision: 14
 # About Permissions
 Each permission set in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] describes a set of access permissions to tables, reports, functions, and other objects. The types of permissions are:  
 
--   Read  
+- Read  
 
--   Insert  
+- Insert  
 
--   Modify  
+- Modify  
 
--   Delete  
+- Delete  
 
--   Execute  
+- Execute  
 
- When you assign permissions to permission sets, you should not grant permissions to areas that your license file does not allow you to use. However, granting such permissions does not cause any problems. If you update [!INCLUDE[navnow](includes/navnow_md.md)] or purchase additional application areas, then you must change or add appropriate permissions.  
+  When you assign permissions to permission sets, you should not grant permissions to areas that your license file does not allow you to use. However, granting such permissions does not cause any problems. If you update [!INCLUDE[navnow](includes/navnow_md.md)] or purchase additional application areas, then you must change or add appropriate permissions.  
 
- For information on how to define permission sets, see [How to: Create or Modify Permission Sets](How-to--Create-or-Modify-Permission-Sets.md)  
+  For information on how to define permission sets, see [How to: Create or Modify Permission Sets](How-to--Create-or-Modify-Permission-Sets.md)  
 
 > [!NOTE]  
 >  Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], only UI elements that the user has permissions for will appear in the user interface. For more information, see [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md).  
