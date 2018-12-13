@@ -83,7 +83,7 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
   
 1. In Visual Studio, on the **File** menu, point to **New**, and then choose **Project**.  
   
-2. Expand the **Installed** node, expand the **Templates** node, expand the **Visual C\#** node, chose **Windows**, and then choose **Console Application**. Enter the name **NAVCustomers** for the application.  
+2. Expand the **Installed** node, <!-- expand the **Templates** node,-->expand the **Visual C\#** node, select **<!--Windows-->Windows Classic Desktop**, and then choose **Console App<!--lication-->**. Enter the name **NAVCustomers** for the application.  
   
 3. Choose the **OK** button to exit the **New Project** page.  
   
