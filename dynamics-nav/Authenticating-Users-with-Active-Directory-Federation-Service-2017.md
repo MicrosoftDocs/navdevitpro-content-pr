@@ -63,19 +63,19 @@ You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_
     -    If you are setting up AD FS for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], set this to the full URL for the Web client. The URL typically has the format:
 
         ```
-        https://[web-server-computer]:[port]/[web-server-instance]/WebClient
+        https://[web-server-computer]:[port]/[web-server-instance]/WebClient/SignIn.aspx
         ```
 
         For example:
 
         ```
-        https://MyWebServer:8080/DynamicsNAV110/WebClient
+        https://MyWebServer:8080/DynamicsNAV110/WebClient/SignIn.aspx
         ```
 
     -   If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], use base URL for the Web client, which is the full URL without the ```/[web-instance]/WebClient``` part. This typically has the format:
 
         ```
-        https://[web-server-computer]:[port]/[web-instance]
+        https://[web-server-computer]:[port]
         ```
 
         For example:
@@ -150,7 +150,12 @@ JWT tokens are not supported by AD FS 2.0 or [!INCLUDE[navcrete_md](includes/nav
 6.  Start Window Powershell, and run the following command to define the token type for the relying party to be JWT:
 
     ```
-    Set-ADFSRelyingPartyTrust –TargetIdentifier "Web Client URL" –EnableJWT $true
+    Set-ADFSRelyingPartyTrust –TargetIdentifier "[Web client Relying party trust identifier]" –EnableJWT $true
+    ```
+    Replace `[Relying party trust identifier]` with the relying party trust identifier that you added in AD FS for the client, for example:
+
+    ```
+    Set-ADFSRelyingPartyTrust –TargetIdentifier "https://dynamicsnavwebclient" –EnableJWT $true
     ```
 
 ## Configure Dynamics NAV to use AD FS authentication
