@@ -23,6 +23,7 @@ DELETE /businesscentral/companies({id})/salesInvoices({id})/salesInvoiceLines(do
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |

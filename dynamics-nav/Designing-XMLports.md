@@ -31,11 +31,11 @@ XMLports are used to export data from or import data to a [!INCLUDE[navnow](incl
 
  XMLports do not handle the following XML documents:  
 
--   Documents that find and delete data in the database.  
+- Documents that find and delete data in the database.  
 
--   Documents that query the database for data, such as item catalog information.  
+- Documents that query the database for data, such as item catalog information.  
 
- If you must work with an incoming document of one of these types, you can use C/AL code to work with the database to achieve the result that you want.  
+  If you must work with an incoming document of one of these types, you can use C/AL code to work with the database to achieve the result that you want.  
 
 > [!NOTE]  
 >  Do not use a semicolon in a quoted argument as a field value when you import a file through an XMLport. Even in a quoted argument, the semicolon is interpreted as a record separator.  

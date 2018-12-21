@@ -27,7 +27,8 @@ Represents an agedAccountsReceivable object in [!INCLUDE[d365fin_long_md](../../
 |[GET agedAccountsReceivable](../api/dynamics_agedaccountsreceivable_get.md)|agedAccountsReceivable|Get agedAccountsReceivable object|
 
 ## Properties
-| Property	     | Type    |Description                                  |
+
+| Property       | Type    |Description                                  |
 |:---------------|:--------|:--------------------------------------------|
 |customerId      |GUID     |The unique ID of customer.                   |
 |customerNumber  |string   |Specifies customer's number.                 |
@@ -66,7 +67,6 @@ Here is a JSON representation of the resource.
     "periodStartDateFilter": "date",
     "periodLengthFilter": "string"
 }
-
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

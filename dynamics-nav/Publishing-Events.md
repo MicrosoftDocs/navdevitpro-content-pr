@@ -21,42 +21,42 @@ The first phase of implementing an event is publishing the event. Publishing an 
 ## Creating an Event Publisher Function to Publish Business and Integration Events  
  You create an event publisher function the same way you create any function in C/AL, except that there are specific properties that you set to make it an event publisher. Additionally, an event publisher function has the following requirements and restrictions that you must follow, otherwise you will not able to compile your code changes:  
 
--   An event publisher function cannot include any code except comments.  
+- An event publisher function cannot include any code except comments.  
 
--   An event publisher function cannot have a return value, variables, or text constants.  
+- An event publisher function cannot have a return value, variables, or text constants.  
 
- The following procedure provides an outline of the tasks that are involved in creating an event publisher function for declaring an event. The tasks are performed from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. For detailed step-by-step instructions for the tasks, see [Walkthrough: Publishing, Raising, and Subscribing to an Event in Microsoft Dynamics NAV](Walkthrough--Publishing--Raising--and-Subcribing-to-an-Event-in-Microsoft-Dynamics-NAV.md).  
+  The following procedure provides an outline of the tasks that are involved in creating an event publisher function for declaring an event. The tasks are performed from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. For detailed step-by-step instructions for the tasks, see [Walkthrough: Publishing, Raising, and Subscribing to an Event in Microsoft Dynamics NAV](Walkthrough--Publishing--Raising--and-Subcribing-to-an-Event-in-Microsoft-Dynamics-NAV.md).  
 
 #### To create an event publisher function  
 
-1.  Decide where you want to include the event publisher function.  
+1. Decide where you want to include the event publisher function.  
 
-    You can include an event publisher function in the C/AL code of any object type, such as codeunit, page, or table. You can create a new object or use and existing object.  
+   You can include an event publisher function in the C/AL code of any object type, such as codeunit, page, or table. You can create a new object or use and existing object.  
 
-    >[!IMPORTANT]  
-    >If you include the event publisher function in a page object, the page must have a source table. Otherwise, you cannot successfully create an event subscriber function to subscribe to the event.
+   >[!IMPORTANT]  
+   >If you include the event publisher function in a page object, the page must have a source table. Otherwise, you cannot successfully create an event subscriber function to subscribe to the event.
 
-2.  Add a C/AL function to the object.  
+2. Add a C/AL function to the object.  
 
-     We recommend that you give the function a name that has the format *On\[Event\]*, where *\[Event\]* is text that indicates what occurred, such as OnCancelCustomerApprovalRequest.  
+    We recommend that you give the function a name that has the format *On\[Event\]*, where *\[Event\]* is text that indicates what occurred, such as OnCancelCustomerApprovalRequest.  
 
-3.  Set the function [Event Property](Event-Property.md) to **Publisher**.  
+3. Set the function [Event Property](Event-Property.md) to **Publisher**.  
 
-4.  Set the function [EventType Property](EventType-Property.md) to **Business** or **Integration**.  
+4. Set the function [EventType Property](EventType-Property.md) to **Business** or **Integration**.  
 
-     For more information, see [Event Types](Event-Types.md).  
+    For more information, see [Event Types](Event-Types.md).  
 
-5.  If you want to make the event available to event subscribers that are defined in other objects than publisher function object, set the [Local Property](Local-Property.md) to **No**.  
+5. If you want to make the event available to event subscribers that are defined in other objects than publisher function object, set the [Local Property](Local-Property.md) to **No**.  
 
-6.  If you want to make global functions in the object available to event subscribers, set the [IncludeSender Property](IncludeSender-Property.md) to **Yes**.  
+6. If you want to make global functions in the object available to event subscribers, set the [IncludeSender Property](IncludeSender-Property.md) to **Yes**.  
 
-7.  Add parameters to the function as needed.  
+7. Add parameters to the function as needed.  
 
-     You can include as many parameters of any type as necessary.  
+    You can include as many parameters of any type as necessary.  
 
-     Make sure to expose enough information as parameters to enable subscriber functions to add value to the application. On the other hand, especially with business events, do not expose unnecessary parameters that may constrain you from changing or extending functionally in the future.  
+    Make sure to expose enough information as parameters to enable subscriber functions to add value to the application. On the other hand, especially with business events, do not expose unnecessary parameters that may constrain you from changing or extending functionally in the future.  
 
- You can now add code to the application that raises the event by calling the publisher function. You can also create subscriber functions that handle the event when it is raised.  
+   You can now add code to the application that raises the event by calling the publisher function. You can also create subscriber functions that handle the event when it is raised.  
 
 ## See Also  
  [Raising Events](Raising-Events.md)   

@@ -15,27 +15,27 @@ This topic describes how to use Windows Performance Monitor to collect and view 
   
 ### To set up [!INCLUDE[navnow](includes/navnow_md.md)] performance counters  
   
-1.  Start Windows Performance Monitor.  
+1. Start Windows Performance Monitor.  
   
-    -   Choose **Start**, in the **Search** box, type **perfmon**, and then choose the related link.  
+   -   Choose **Start**, in the **Search** box, type **perfmon**, and then choose the related link.  
   
-2.  In the navigation pane, expand **Monitoring Tools**, and then choose **Performance Monitor**.  
+2. In the navigation pane, expand **Monitoring Tools**, and then choose **Performance Monitor**.  
   
-3.  In the console pane toolbar, choose the **Add** button.  
+3. In the console pane toolbar, choose the **Add** button.  
   
-4.  In the **Add Counters** window, in the **Select counters from computer** drop-down list, choose the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+4. In the **Add Counters** window, in the **Select counters from computer** drop-down list, choose the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
-5.  In the **Available counters** list, expand **Microsoft [!INCLUDE[navnow](includes/navnow_md.md)]**, and select one or more counters.  
+5. In the **Available counters** list, expand **Microsoft [!INCLUDE[navnow](includes/navnow_md.md)]**, and select one or more counters.  
   
-6.  In the **Instances of selected object** list, select one or more [!INCLUDE[nav_server](includes/nav_server_md.md)] instances.  
+6. In the **Instances of selected object** list, select one or more [!INCLUDE[nav_server](includes/nav_server_md.md)] instances.  
   
-7.  Choose the **Add** button, and then choose the **OK** button.  
+7. Choose the **Add** button, and then choose the **OK** button.  
   
-8.  Choose the **OK** button.  
+8. Choose the **OK** button.  
   
-     Windows Performance Monitor displays data for the counters that you selected.  
+    Windows Performance Monitor displays data for the counters that you selected.  
   
- For more information about how to use Windows Performance Monitor, see [Windows Performance Monitor](http://go.microsoft.com/fwlink/?LinkId=259406).  
+   For more information about how to use Windows Performance Monitor, see [Windows Performance Monitor](http://go.microsoft.com/fwlink/?LinkId=259406).  
   
 ## See Also  
  [Microsoft Dynamics NAV Performance Counters](Microsoft-Dynamics-NAV-Performance-Counters.md)   

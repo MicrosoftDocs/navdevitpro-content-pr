@@ -62,15 +62,15 @@ Finds a set of records in a table based on the current key and filter. FINDSET c
   
  The general rules for using FINDSET are the following:  
   
--   FINDSET\(FALSE,FALSE\) - Read-only. This uses no server cursors and the record set is read with a single server call.  
+- FINDSET\(FALSE,FALSE\) - Read-only. This uses no server cursors and the record set is read with a single server call.  
   
--   FINDSET\(TRUE,FALSE\) - This is used to update non-key fields. This uses a cursor with a fetch buffer similar to FIND\(‘-’\).  
+- FINDSET\(TRUE,FALSE\) - This is used to update non-key fields. This uses a cursor with a fetch buffer similar to FIND\(‘-’\).  
   
--   FINDSET\(TRUE,TRUE\) - This is used to update key fields.  
+- FINDSET\(TRUE,TRUE\) - This is used to update key fields.  
   
- This method is designed to optimize finding and updating sets. If you set any or both of the parameters to **false**, you can still modify the records in the set but these updates will not be performed optimally.  
+  This method is designed to optimize finding and updating sets. If you set any or both of the parameters to **false**, you can still modify the records in the set but these updates will not be performed optimally.  
   
- This method works the same way as the [FINDSET Method \(Record\)](devenv-FINDSET-Method-Record.md).  
+  This method works the same way as the [FINDSET Method \(Record\)](devenv-FINDSET-Method-Record.md).  
   
 ## Example  
  The following example opens table 18 \(Customer\) as a RecordRef variable that is named MyRecordRef. The [FIELD Method \(RecordRef\)](devenv-FIELD-Method-RecordRef.md) creates a FieldRef variable that is named MyFieldRef with the first field \(No.\). The [SETFILTER Method \(FieldRef\)](devenv-SETFILTER-Method-FieldRef.md) uses the MyFieldRef variable to set a filter that selects records from 30000 to 32000. `MyRecordRef.FIELD(2)` creates a FieldRef for the second field \(Name\). The FINDSET method finds the set of records based on the key and the filters that have been set. The *ForUpdate* parameters and *UpdateKeys* are both set to **FALSE**. This makes the records in the set read-only. The record ID and name of each customer in the record set is displayed in a message box until no records are left in the record set. The following example requires that you create the following global variables and text constant.  

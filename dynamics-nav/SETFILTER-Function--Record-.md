@@ -55,9 +55,9 @@ Record.SETFILTER(Field, String, [Value],...)
   
 -   \<=   Less than or equal to  
   
--   >   Greater than  
+-   \>   Greater than  
   
--   >=   Greater than or equal to  
+-   \>=   Greater than or equal to  
   
 -   \<>   Different from  
   

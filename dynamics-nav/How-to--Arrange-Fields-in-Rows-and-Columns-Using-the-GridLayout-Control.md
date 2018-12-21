@@ -14,19 +14,19 @@ manager: edupont
 # Arrange Fields in Rows and Columns Using the GridLayout Control in Dynamics NAV
 By default, fields in a FastTab are arranged automatically in two columns that are based on the number of fields. You can use the **GridLayout** control to arrange the fields manually in one or more rows and columns. The **GridLayout** control gives you the following options:  
 
--   Set up your grid row-by-row or column-by-column.  
+- Set up your grid row-by-row or column-by-column.  
 
--   Span a field across multiple rows and columns.  
+- Span a field across multiple rows and columns.  
 
--   Show or hide field captions.  
+- Show or hide field captions.  
 
- The following figure illustrates a page that uses the **GridLayout** control to display fields from table 18, Customer, in the [!INCLUDE[demolong](includes/demolong_md.md)]. The fields are arranged in four rows.  
+  The following figure illustrates a page that uses the **GridLayout** control to display fields from table 18, Customer, in the [!INCLUDE[demolong](includes/demolong_md.md)]. The fields are arranged in four rows.  
 
- ![Sales order fields in a grid](media/RTCGridLayoutSalesOrderExample.png "RTCGridLayoutSalesOrderExample")  
+  ![Sales order fields in a grid](media/RTCGridLayoutSalesOrderExample.png "RTCGridLayoutSalesOrderExample")  
 
- The following figure shows Page Designer for the GridLayout example.  
+  The following figure shows Page Designer for the GridLayout example.  
 
- ![Page Designer for GridLayout of sales order](media/PageDesignerGridLayoutSalesOrder.png "PageDesignerGridLayoutSalesOrder")  
+  ![Page Designer for GridLayout of sales order](media/PageDesignerGridLayoutSalesOrder.png "PageDesignerGridLayoutSalesOrder")  
 
 >[!NOTE]
 > The [!INCLUDE[nav_web](includes/nav_web_md.md)] only supports the grid layout **Columns**.

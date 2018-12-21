@@ -25,17 +25,17 @@ All [!INCLUDE[navnow](includes/navnow_md.md)] applications are based on the foll
 
  You use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to create business applications. Object Designer is a tool in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] that you use to design application objects in [!INCLUDE[navnow](includes/navnow_md.md)]. Object Designer lets you do the following:  
 
--   Design new tables, reports, XMLports, codeunits, MenuSuites, pages, and queries.  
+- Design new tables, reports, XMLports, codeunits, MenuSuites, pages, and queries.  
 
--   View existing application objects.  
+- View existing application objects.  
 
--   Modify existing application objects.  
+- Modify existing application objects.  
 
--   Run application objects.  
+- Run application objects.  
 
- ![Microsoft Dynamics NAV Object Designer](media/NAV_ObjectDesigner.png "NAV\_ObjectDesigner")  
+  ![Microsoft Dynamics NAV Object Designer](media/NAV_ObjectDesigner.png "NAV\_ObjectDesigner")  
 
- With the exception of MenuSuite objects, you can work on any number of application objects at the same time, each in its own designer. This means that you can run multiple instances of these designers. For example, if you work on three new pages at the same time, then each page is displayed in its own Page Designer window. However, you can only run one instance of Object Designer.  
+  With the exception of MenuSuite objects, you can work on any number of application objects at the same time, each in its own designer. This means that you can run multiple instances of these designers. For example, if you work on three new pages at the same time, then each page is displayed in its own Page Designer window. However, you can only run one instance of Object Designer.  
 
 ## Elements of [!INCLUDE[navnow](includes/navnow_md.md)] Objects  
 
@@ -69,21 +69,21 @@ All [!INCLUDE[navnow](includes/navnow_md.md)] applications are based on the foll
 ### Standard Object with Local Functionality Modifications Version Convention  
  A standard object with local functionality modifications contains the following version strings.  
 
--   A standard object version string.  
+- A standard object version string.  
 
--   A local functionality version string.  
+- A local functionality version string.  
 
- The following example shows a standard object with local functionality modifications.  
+  The following example shows a standard object with local functionality modifications.  
 
- **NAVW15.00.01.01**, **NAVFR4.00.02.02**  
+  **NAVW15.00.01.01**, **NAVFR4.00.02.02**  
 
- This version string contains the following information:  
+  This version string contains the following information:  
 
--   The object is based on a standard (W1) object and has been modified to support local functionality.  
+- The object is based on a standard (W1) object and has been modified to support local functionality.  
 
--   The W1 object was created or last changed with Microsoft Dynamics NAV 5.0 with W1 Service Pack 1 and W1 hotfix 1.  
+- The W1 object was created or last changed with Microsoft Dynamics NAV 5.0 with W1 Service Pack 1 and W1 hotfix 1.  
 
--   The local functionality that is contained in the object was created or last changed in Microsoft Dynamics NAV 4.0 for France with the local Service Pack 2 and local hotfix 2.  
+- The local functionality that is contained in the object was created or last changed in Microsoft Dynamics NAV 4.0 for France with the local Service Pack 2 and local hotfix 2.  
 
 ### Microsoft CertifiedPartner Object Version Convention  
  Microsoft Certified Partners must follow the same version convention. Instead of using the two-letter country/region code, partners should use two letters that refer to their company. For example, the Fabrikam Company would use FC as their code. The rest of the version information should be updated as appropriate.

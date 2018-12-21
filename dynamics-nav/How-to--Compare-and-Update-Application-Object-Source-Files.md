@@ -30,72 +30,72 @@ You can use [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to compare different
   
 ### To compare two sets of application objects  
   
-1.  Open the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] in administrator mode.  
+1. Open the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] in administrator mode.  
   
-2.  Navigate to the location of your folders by typing a command such as the following:  
+2. Navigate to the location of your folders by typing a command such as the following:  
   
-    ```  
-    cd c:\upgrade  
-    ```  
+   ```  
+   cd c:\upgrade  
+   ```  
   
-     In this example, the UPGRADE folder on the C drive contains five folders: ORIGINAL, MODIFIED, TARGET, DELTA, and RESULT. The DELTA and RESULT folders are empty. The ORIGINAL, MODIFIED, and TARGET folders contains one or more text files that contain application objects. You can now run the cmdlet.  
+    In this example, the UPGRADE folder on the C drive contains five folders: ORIGINAL, MODIFIED, TARGET, DELTA, and RESULT. The DELTA and RESULT folders are empty. The ORIGINAL, MODIFIED, and TARGET folders contains one or more text files that contain application objects. You can now run the cmdlet.  
   
-3.  To run the cmdlet to compare all application objects in the ORIGINAL folder to the application objects in the MODIFIED folder, type the following command:  
+3. To run the cmdlet to compare all application objects in the ORIGINAL folder to the application objects in the MODIFIED folder, type the following command:  
   
-    ```  
-    Compare-NAVApplicationObject -OriginalPath .\ORIGINAL -ModifiedPath .\MODIFIED -DeltaPath .\DELTA  
-    ```  
+   ```  
+   Compare-NAVApplicationObject -OriginalPath .\ORIGINAL -ModifiedPath .\MODIFIED -DeltaPath .\DELTA  
+   ```  
   
-     This generates a number of DELTA files that describe the difference between ORIGINAL and MODIFIED. You can open the DELTA files in text editors such as Notepad. The following example illustrates how a DELTA file identifies the difference between ORIGINAL and MODIFIED.  
+    This generates a number of DELTA files that describe the difference between ORIGINAL and MODIFIED. You can open the DELTA files in text editors such as Notepad. The following example illustrates how a DELTA file identifies the difference between ORIGINAL and MODIFIED.  
   
-    ```  
-    CHANGES  
+   ```  
+   CHANGES  
   
-    {  
+   {  
   
-      { CodeModification  ;Target=ApplicationBuild(PROCEDURE 3);   
+     { CodeModification  ;Target=ApplicationBuild(PROCEDURE 3);   
   
-                           OriginalCode=BEGIN  
+                          OriginalCode=BEGIN  
   
-                                          EXIT('35473-ORIGINAL');   
+                                         EXIT('35473-ORIGINAL');   
   
-                                        END;  
+                                       END;  
   
-                           ModifiedCode=BEGIN  
+                          ModifiedCode=BEGIN  
   
-                                          EXIT('35978');   
+                                         EXIT('35978');   
   
-                                        END;   
+                                       END;   
   
-                                         }  
+                                        }  
   
-    }  
+   }  
   
-    ```  
+   ```  
   
- You can apply those differences to TARGET by using the Update-NAVApplicationObject cmdlet.  
+   You can apply those differences to TARGET by using the Update-NAVApplicationObject cmdlet.  
   
 ### To apply DELTA files to application objects  
   
-1.  Open the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] in administrator mode.  
+1. Open the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] in administrator mode.  
   
-2.  Navigate to the location of your folders by typing a command such as the following:  
+2. Navigate to the location of your folders by typing a command such as the following:  
   
-    ```  
-    cd c:\upgrade  
-    ```  
+   ```  
+   cd c:\upgrade  
+   ```  
   
-     In this example, the folder structure is the same as described in the previous procedure. You can now run the cmdlet.  
+    In this example, the folder structure is the same as described in the previous procedure. You can now run the cmdlet.  
   
-3.  To run the cmdlet to apply the differences that are stored in the DELTA folder to the application objects in the TARGET folder, type the following command:  
+3. To run the cmdlet to apply the differences that are stored in the DELTA folder to the application objects in the TARGET folder, type the following command:  
   
-    ```  
-    Update-NAVApplicationObject –DeltaPath .\DELTA -TargetPath .\TARGET\*.txt -ResultPath .\RESULT  
-    ```  
+   ```  
+   Update-NAVApplicationObject –DeltaPath .\DELTA -TargetPath .\TARGET\*.txt -ResultPath .\RESULT  
+   ```  
   
-     This merges the difference between ORIGINAL and MODIFIED with the target solution and puts the resulting solution in the RESULT folder.  
+    This merges the difference between ORIGINAL and MODIFIED with the target solution and puts the resulting solution in the RESULT folder.  
   
- You can now import the merged objects into a [!INCLUDE[navnow](includes/navnow_md.md)] database. For more information, see [How to: Merge Application Changes](How-to--Merge-Application-Changes.md).  
+   You can now import the merged objects into a [!INCLUDE[navnow](includes/navnow_md.md)] database. For more information, see [How to: Merge Application Changes](How-to--Merge-Application-Changes.md).  
   
 ## See Also  
  [How to: Merge Application Changes](How-to--Merge-Application-Changes.md)   

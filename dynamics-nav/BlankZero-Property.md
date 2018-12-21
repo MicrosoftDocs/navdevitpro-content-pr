@@ -19,7 +19,7 @@ Indicates whether the system displays zeros \(0\) and No.
 -   Page Fields  
   
 ## Property Value  
- **Yes** if zeros and No are displayed; otherwise, **No**. The default is **No**.  
+ **Yes** if zeros and No are not displayed; otherwise, **No**. The default is **No**.  
   
 ## See Also  
  [BlankNumbers Property](BlankNumbers-Property.md)

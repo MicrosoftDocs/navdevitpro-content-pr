@@ -16,20 +16,20 @@ If you deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in a multitenant d
   
 ### To enable the URL rewrite rule to configure the [!INCLUDE[nav_web](includes/nav_web_md.md)] to accept host names for tenants  
   
-1.  On the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open the web.config file that is located in the physical path of the web application for the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+1. On the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open the web.config file that is located in the physical path of the web application for the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
-     The path is *%systemroot%\\inetpub\\wwwroot\\\[VirtualDirectoryName\]\\WebClient*. For example, the folder for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] application is *%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\\WebClient*.  
+    The path is *%systemroot%\\inetpub\\wwwroot\\\[VirtualDirectoryName\]\\WebClient*. For example, the folder for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] application is *%systemroot%\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\\WebClient*.  
   
-    > [!NOTE]  
-    >  You must open the web.config file as an administrator or have permission to modify the file.  
+   > [!NOTE]  
+   >  You must open the web.config file as an administrator or have permission to modify the file.  
   
-2.  In the `<system.webServer>` element, find the `<rule name="Hostname (without port) to tenant" enabled="false" stopProcessing="true">` element, and then change the value of the `enabled` attribute to **true**.  
+2. In the `<system.webServer>` element, find the `<rule name="Hostname (without port) to tenant" enabled="false" stopProcessing="true">` element, and then change the value of the `enabled` attribute to **true**.  
   
-3.  Save and close the web.config file.  
+3. Save and close the web.config file.  
   
- This enables support for host names for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. If a tenant has been mounted with a host name as an alternative ID, the [!INCLUDE[nav_web](includes/nav_web_md.md)] will accept a URL that contains this host name to identify the tenant.  
+   This enables support for host names for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. If a tenant has been mounted with a host name as an alternative ID, the [!INCLUDE[nav_web](includes/nav_web_md.md)] will accept a URL that contains this host name to identify the tenant.  
   
- If you create a non-tenant specific app for SharePoint that accesses the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using Microsoft Azure Active Directory, the resulting URL includes a parameter that specified a SharePoint host URL. This represents the URL for opening the [!INCLUDE[nav_web](includes/nav_web_md.md)] that you have specified in the app manifest. You must enable a URL rewrite rule in order to accept the URL.  
+   If you create a non-tenant specific app for SharePoint that accesses the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using Microsoft Azure Active Directory, the resulting URL includes a parameter that specified a SharePoint host URL. This represents the URL for opening the [!INCLUDE[nav_web](includes/nav_web_md.md)] that you have specified in the app manifest. You must enable a URL rewrite rule in order to accept the URL.  
   
 ## See Also  
  [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md)   

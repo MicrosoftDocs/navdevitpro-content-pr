@@ -24,17 +24,17 @@ As a result of using indexed views, SIFT keys are exposed to SQL Server tracing 
 ## Example  
  Maintaining two SIFT keys:  
   
-1.  Key: "WareHouseId, ItemId, Color" SumField: "OnStock"  
+1. Key: "WareHouseId, ItemId, Color" SumField: "OnStock"  
   
-2.  Key: "WareHouseId, ItemId, Size" SumField: "OnStock"  
+2. Key: "WareHouseId, ItemId, Size" SumField: "OnStock"  
   
- If there are only a few combinations of Size and Color \(for example, less than 200\), then one combined index/SIFT key should be sufficient.  
+   If there are only a few combinations of Size and Color \(for example, less than 200\), then one combined index/SIFT key should be sufficient.  
   
-1.  The Combined Key:  
+3. The Combined Key:  
   
-2.  "WareHouseId, ItemId, Color, Size" SumFIeld: "OnStock"  
+4. "WareHouseId, ItemId, Color, Size" SumFIeld: "OnStock"  
   
- When you set the **MaintainSIFTIndex** property of a key to **Yes**, this will be the SIFT key and create the indexed view to support it. However, disabling the SIFT key by setting **MaintainSIFTIndex** to **No** can improve performance in certain circumstances. Setting this property to **No** means that the SIFT functionality must be implemented by calculating the totals online instead of using the precalculated sums that are maintained by SIFT.  
+   When you set the **MaintainSIFTIndex** property of a key to **Yes**, this will be the SIFT key and create the indexed view to support it. However, disabling the SIFT key by setting **MaintainSIFTIndex** to **No** can improve performance in certain circumstances. Setting this property to **No** means that the SIFT functionality must be implemented by calculating the totals online instead of using the precalculated sums that are maintained by SIFT.  
   
 ## See Also  
  [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md)

@@ -24,11 +24,11 @@ redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-multilang
   
 A multilanguage version of [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] is not the same as a localized version.  
   
--   A *localized* version is a version that is adapted to a local market. All text that is displayed to the user is translated into the local language, and all functional areas are adapted to the requirements of the local market. For example, the Canadian version of [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] has additional local functionality that applies to the Canadian market.  
+- A *localized* version is a version that is adapted to a local market. All text that is displayed to the user is translated into the local language, and all functional areas are adapted to the requirements of the local market. For example, the Canadian version of [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] has additional local functionality that applies to the Canadian market.  
   
--   A *multilanguage* version is a localized version that you can run in different languages, but all local functionality remains the same. For example, you can run the Canadian version of [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] in both English and French, but it is still the Canadian localized version. It does not contain the same local functionality as the French localized version.  
+- A *multilanguage* version is a localized version that you can run in different languages, but all local functionality remains the same. For example, you can run the Canadian version of [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] in both English and French, but it is still the Canadian localized version. It does not contain the same local functionality as the French localized version.  
   
- To be able to run a localized version in multiple languages, you must install language modules.  
+  To be able to run a localized version in multiple languages, you must install language modules.  
   
 ## Installing language modules  
  You can install language modules so that you can view text in the user interface in different languages. Once you have installed a language module, you can select that language on the **Select Language** page in the UI to change the language of all text that is displayed in the UI in captions for text boxes, on command buttons, in menus, and so on.  

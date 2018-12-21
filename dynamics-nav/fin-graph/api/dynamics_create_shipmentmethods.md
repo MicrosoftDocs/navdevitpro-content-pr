@@ -69,7 +69,6 @@ Content-type: application/json
   "displayName": "Pickup at Location",
   "lastModifiedDateTime": "2017-03-15T02:20:57.09Z"
 }
-
 ```
 
 

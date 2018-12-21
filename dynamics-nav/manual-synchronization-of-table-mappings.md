@@ -19,44 +19,44 @@ There are three methods for manually synchronizing integration table mappings as
 ## <a name="FullSync"></a>Run a Full Synchronization
 A *full synchronization* runs all the default integration synchronization jobs for synchronizing [!INCLUDE[navnow_md](includes/navnow_md.md)] record types and [!INCLUDE[crm_md](includes/crm_md.md)] entities, as defined in the **Integration Table Mappings** page. A full synchronization performs the following operations:  
 
- -   Synchronizes data in [!INCLUDE[navnow_md](includes/navnow_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] records that are already coupled.  
+- Synchronizes data in [!INCLUDE[navnow_md](includes/navnow_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] records that are already coupled.  
 
-      The synchronization direction \(for example, from [!INCLUDE[navnow_md](includes/navnow_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)] or from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[navnow_md](includes/navnow_md.md)]\) is predetermined by the integration table mappings.  
+   The synchronization direction \(for example, from [!INCLUDE[navnow_md](includes/navnow_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)] or from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[navnow_md](includes/navnow_md.md)]\) is predetermined by the integration table mappings.  
 
- -   For [!INCLUDE[navnow_md](includes/navnow_md.md)] or [!INCLUDE[crm_md](includes/crm_md.md)] records that are not already coupled, a new matching record will be created and coupled in the opposing solution.  
+- For [!INCLUDE[navnow_md](includes/navnow_md.md)] or [!INCLUDE[crm_md](includes/crm_md.md)] records that are not already coupled, a new matching record will be created and coupled in the opposing solution.  
 
-      Whether and where a record gets created depends on the synchronization direction. For example, when synchronizing data from [!INCLUDE[navnow_md](includes/navnow_md.md)] customers to [!INCLUDE[crm_md](includes/crm_md.md)] accounts, if there is a customer that is not coupled to an account, then a new account will be automatically added in [!INCLUDE[crm_md](includes/crm_md.md)] and coupled to the customer in [!INCLUDE[navnow_md](includes/navnow_md.md)]. The opposite holds true when the synchronization direction is from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[navnow_md](includes/navnow_md.md)]. For each account that is not already coupled to a customer, a new matching customer will be created in [!INCLUDE[navnow_md](includes/navnow_md.md)] and coupled to the account in [!INCLUDE[crm_md](includes/crm_md.md)].  
+   Whether and where a record gets created depends on the synchronization direction. For example, when synchronizing data from [!INCLUDE[navnow_md](includes/navnow_md.md)] customers to [!INCLUDE[crm_md](includes/crm_md.md)] accounts, if there is a customer that is not coupled to an account, then a new account will be automatically added in [!INCLUDE[crm_md](includes/crm_md.md)] and coupled to the customer in [!INCLUDE[navnow_md](includes/navnow_md.md)]. The opposite holds true when the synchronization direction is from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[navnow_md](includes/navnow_md.md)]. For each account that is not already coupled to a customer, a new matching customer will be created in [!INCLUDE[navnow_md](includes/navnow_md.md)] and coupled to the account in [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-     > [!NOTE]  
-     >  To achieve this, the full synchronization operation temporarily clears the **Synch. Only Coupled Records** option on the integration table mapping that is used by the synchronization job. At the end of the full synchronization process, you will be prompted whether you want to keep this option cleared for all jobs.  
+  > [!NOTE]  
+  >  To achieve this, the full synchronization operation temporarily clears the **Synch. Only Coupled Records** option on the integration table mapping that is used by the synchronization job. At the end of the full synchronization process, you will be prompted whether you want to keep this option cleared for all jobs.  
 
 
- -   The jobs are run in the following order to avoid coupling dependencies between entities.  
+- The jobs are run in the following order to avoid coupling dependencies between entities.  
 
-    1.  CURRENCY \- Dynamics 365 for Sales synchronization job  
-    2.  SALEPEOPLE \- Dynamics 365 for Sales synchronization job  
-    3.  UNITOFMEASURE \- Dynamics 365 for Sales synchronization job  
-    4.  CUSTOMER \- Dynamics 365 for Sales synchronization job  
-    5.  CONTACTS \- Dynamics 365 for Sales synchronization job  
-    6.  RESOURCE\-PRODUCT \- Dynamics 365 for Sales synchronization job  
-    7.  ITEM\-PRODUCT \- Dynamics 365 for Sales synchronization job  
+  1.  CURRENCY \- Dynamics 365 for Sales synchronization job  
+  2.  SALEPEOPLE \- Dynamics 365 for Sales synchronization job  
+  3.  UNITOFMEASURE \- Dynamics 365 for Sales synchronization job  
+  4.  CUSTOMER \- Dynamics 365 for Sales synchronization job  
+  5.  CONTACTS \- Dynamics 365 for Sales synchronization job  
+  6.  RESOURCE\-PRODUCT \- Dynamics 365 for Sales synchronization job  
+  7.  ITEM\-PRODUCT \- Dynamics 365 for Sales synchronization job  
 
 > [!IMPORTANT]  
 >  You typically only use the full synchronization when you initially set up integration between [!INCLUDE[navnow_md](includes/navnow_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] and only one of solutions contains data, which you want to copy to the other solution. A full synchronization can be useful in a demonstration environment. Because the full synchronization automatically creates and couples records between the solutions, it makes it faster to start working with synchronizing data between records. On the other hand, you should only run a full synchronization if you want a record in [!INCLUDE[navnow_md](includes/navnow_md.md)] for each record in [!INCLUDE[crm_md](includes/crm_md.md)] for the given table mappings. Otherwise, you can have unwanted or duplicate records in either [!INCLUDE[navnow_md](includes/navnow_md.md)] or [!INCLUDE[crm_md](includes/crm_md.md)].  
 
 ### To run a full synchronization  
 
- 1.  In the **Search** box, enter **Microsoft Dynamics 365 for Sales Connection Setup**, and then choose the related link.  
+1. In the **Search** box, enter **Microsoft Dynamics 365 for Sales Connection Setup**, and then choose the related link.  
 
- 2.  On the **Actions** tab, in the **General** group, choose **Run Full Synchronization**, and then choose the **Yes** button.  
+2. On the **Actions** tab, in the **General** group, choose **Run Full Synchronization**, and then choose the **Yes** button.  
 
-    The full synchronization process starts.  
+   The full synchronization process starts.  
 
- 3.  When the full synchronization is completed, you are prompted whether you want to allow scheduled synchronization jobs to create new records.  
+3. When the full synchronization is completed, you are prompted whether you want to allow scheduled synchronization jobs to create new records.  
 
-    If you want all synchronization jobs to create new records in the destination for uncoupled records in the source, then choose the **Yes** button. This sets the **Synch. Only Coupled Records** field on the table mappings that are used by the synchronization jobs. <!--For more information about this option, see [\($ T\_5335\_16 Synch. Only Coupled Records $\)](../Topic/\($-T_5335_16-Synch.-Only-Coupled-Records-$\).md).-->  
+   If you want all synchronization jobs to create new records in the destination for uncoupled records in the source, then choose the **Yes** button. This sets the **Synch. Only Coupled Records** field on the table mappings that are used by the synchronization jobs. <!--For more information about this option, see [\($ T\_5335\_16 Synch. Only Coupled Records $\)](../Topic/\($-T_5335_16-Synch.-Only-Coupled-Records-$\).md).-->  
 
-    If you want synchronization jobs to run as they did before the full synchronization with regard to creating new records, choose the **No** button. This sets the **Synch. Only Coupled Records** field to the setting it had before the full synchronization.  
+   If you want synchronization jobs to run as they did before the full synchronization with regard to creating new records, choose the **No** button. This sets the **Synch. Only Coupled Records** field to the setting it had before the full synchronization.  
 
 You can view the results of the full synchronization in the **Integration Synchronization Jobs** window. For more information, see [How to: View Microsoft Dynamics 365 for Sales Synchronization Status](how-to-view-synchronization-status.md).  
 

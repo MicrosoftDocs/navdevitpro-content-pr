@@ -33,13 +33,13 @@ Sets the codeunit to function as a normal, test, test runner, or upgrade codeuni
   
  A test runner codeunit runs the test codeunits that are programmed to run from its OnRun trigger. When a test runner codeunit runs, it does the following:  
   
--   Calls the [OnBeforeTestRun Trigger](OnBeforeTestRun-Trigger.md) before each test codeunit, and the OnRun function and test function is executed.  
+- Calls the [OnBeforeTestRun Trigger](OnBeforeTestRun-Trigger.md) before each test codeunit, and the OnRun function and test function is executed.  
   
--   Calls the [OnAfterTestRun Trigger](OnAfterTestRun-Trigger.md) after each test code unit, and the OnRun function and test function is executed.  
+- Calls the [OnAfterTestRun Trigger](OnAfterTestRun-Trigger.md) after each test code unit, and the OnRun function and test function is executed.  
   
--   Indicates that a test function has failed if it invokes the user interface.  
+- Indicates that a test function has failed if it invokes the user interface.  
   
- For more information, see [Testing the Application](Testing-the-Application.md).  
+  For more information, see [Testing the Application](Testing-the-Application.md).  
   
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   

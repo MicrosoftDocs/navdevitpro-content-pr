@@ -30,7 +30,8 @@ Represents a unit of measure, which is a standard of measurement of a quantity, 
 |[DELETE unitsOfMeasure](../api/dynamics_unitsofmeasure_delete.md)|none|Deletes a unit of measure object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the unitsOfMeasure. Non-editable.|
 |code|string|Specifies the code for the unit of measure.|
@@ -54,7 +55,6 @@ Here is a JSON representation of the **unitsOfMeasure** resource.
   "internationalStandardCode": "string",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also

@@ -72,13 +72,13 @@ You can export a company from a [!INCLUDE[navnow](includes/navnow_md.md)] databa
 ### C/AL Functions  
  You can use the following C/AL functions to handle export and import of data programmatically:  
   
--   [EXPORTDATA Function \(Database\)](EXPORTDATA-Function--Database-.md)  
+- [EXPORTDATA Function \(Database\)](EXPORTDATA-Function--Database-.md)  
   
--   [IMPORTDATA Function \(Database\)](IMPORTDATA-Function--Database-.md)  
+- [IMPORTDATA Function \(Database\)](IMPORTDATA-Function--Database-.md)  
   
--   [DATAFILEINFORMATION Function \(Database\)](DATAFILEINFORMATION-Function--Database-.md)  
+- [DATAFILEINFORMATION Function \(Database\)](DATAFILEINFORMATION-Function--Database-.md)  
   
- For examples of how to use these functions, see page 9900 and 9901 in the [!INCLUDE[demolong](includes/demolong_md.md)].  
+  For examples of how to use these functions, see page 9900 and 9901 in the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## See Also  
  [How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets](How-to--Export-and-Import-Companies-and-Other-Data-using-Windows-PowerShell-Cmdlets.md)   

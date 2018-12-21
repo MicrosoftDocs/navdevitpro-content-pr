@@ -39,12 +39,12 @@ You can create different kinds of [!INCLUDE[nav_current_short](includes/nav_curr
   
 ### To delete a table description  
   
-1.  Set the **LinkedObject** property to **No**.  
+1. Set the **LinkedObject** property to **No**.  
   
- When the **LinkedObject** property is set to **No**, the SQL Server object is deleted if it is a user table. The SQL Server object is not deleted if it is a system table or a view. It can only be a system table or a view if it has been changed to one of these object types with the aid of an external tool. The **LinkedObject** property must be set to **Yes** in order to be able to link to a system table or a view.  
+   When the **LinkedObject** property is set to **No**, the SQL Server object is deleted if it is a user table. The SQL Server object is not deleted if it is a system table or a view. It can only be a system table or a view if it has been changed to one of these object types with the aid of an external tool. The **LinkedObject** property must be set to **Yes** in order to be able to link to a system table or a view.  
   
- When the **LinkedObject** property is set to **Yes**, the SQL Server object is not deleted. This means that if you create a [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] table with the **LinkedObject** property set to **No** and then change it to **Yes**, its corresponding SQL Server object is not deleted.  
+   When the **LinkedObject** property is set to **Yes**, the SQL Server object is not deleted. This means that if you create a [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] table with the **LinkedObject** property set to **No** and then change it to **Yes**, its corresponding SQL Server object is not deleted.  
   
- When you modify the **LinkedInTransaction** property of a [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] table, all access to the linked SQL Server object will be made under or outside transaction control, depending on the setting you choose.  
+   When you modify the **LinkedInTransaction** property of a [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] table, all access to the linked SQL Server object will be made under or outside transaction control, depending on the setting you choose.  
   
 -   When you access data in a linked object, if the **LinkedInTransaction** property is set to **Yes**, all access to the linked object will be performed under transaction control, within [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] transactions. If the **LinkedInTransaction** property is set to **No**, all access to the linked object will be performed outside transaction control, independent of [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] transactions.

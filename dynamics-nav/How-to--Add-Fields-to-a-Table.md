@@ -17,11 +17,11 @@ Designing a field means assigning a number of characteristics to it. These chara
   
  All the tables and fields that you create have two forms of identification:  
   
--   A unique identification number \(integer\). When you access your database, this number uniquely identifies all the tables and fields.  
+- A unique identification number \(integer\). When you access your database, this number uniquely identifies all the tables and fields.  
   
--   A name \(an alphanumeric string\) that serves as a label \(such as CUSTOMER or CITY\).  
+- A name \(an alphanumeric string\) that serves as a label \(such as CUSTOMER or CITY\).  
   
- This name appears when you run the table and should be meaningful and easily understood. This name is secondary information and can be changed at any time.  
+  This name appears when you run the table and should be meaningful and easily understood. This name is secondary information and can be changed at any time.  
   
 ### To add a field to a table  
   

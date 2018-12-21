@@ -18,19 +18,19 @@ ms.reviewer: edupont
 
 To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you must first download the language module from [Language Modules for Microsoft Dynamics NAV 2018](https://mbs.microsoft.com/partnersource/northamerica/deployment/downloads/product-releases/msdnav2018download) \(requires PartnerSource login\), and then you install the following different components separately:  
   
--   [Server Component](How-to--Install-Language-Modules.md#Server)  
+- [Server Component](How-to--Install-Language-Modules.md#Server)  
 
--   [Microsoft Dynamics NAV Windows Client Component](How-to--Install-Language-Modules.md#RoleTailored)  
+- [Microsoft Dynamics NAV Windows Client Component](How-to--Install-Language-Modules.md#RoleTailored)  
 
--   [Microsoft Dynamics NAV Web Client Component](How-to--Install-Language-Modules.md#WebClient)  
+- [Microsoft Dynamics NAV Web Client Component](How-to--Install-Language-Modules.md#WebClient)  
 
--   [Microsoft Office Outlook Component](How-to--Install-Language-Modules.md#Outlook) \(optional\)  
+- [Microsoft Office Outlook Component](How-to--Install-Language-Modules.md#Outlook) \(optional\)  
 
--   [Database Component](How-to--Install-Language-Modules.md#Database)  
+- [Database Component](How-to--Install-Language-Modules.md#Database)  
 
--   [Profiles](How-to--Install-Language-Modules.md#Profiles)  
+- [Profiles](How-to--Install-Language-Modules.md#Profiles)  
 
- After you install a language module, you may need to translate additional strings for customized objects in the application.  
+  After you install a language module, you may need to translate additional strings for customized objects in the application.  
 
 > [!IMPORTANT]  
 >  For mixed language modules to work on your computer, you must install the language pack that corresponds to your regional settings.  

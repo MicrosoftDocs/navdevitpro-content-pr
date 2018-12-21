@@ -29,17 +29,17 @@ Sum := CharVar + integerVar;
 
  The following examples illustrate the type conversions which can occur when expressions are evaluated. The following guidelines are used:  
 
--   When asked to evaluate an expression of mixed data types, if it is possible, the system will always convert at least one of the operands to a more general data type.  
+- When asked to evaluate an expression of mixed data types, if it is possible, the system will always convert at least one of the operands to a more general data type.  
 
--   The data types in the two main groups, numbers and strings, can be ranked from "most general" to "least general."  
+- The data types in the two main groups, numbers and strings, can be ranked from "most general" to "least general."  
 
-     ![Data types, grouped from most to least general](media/NAV_ADG_25_Diag_22.png "NAV\_ADG\_25\_Diag\_22")  
+   ![Data types, grouped from most to least general](media/NAV_ADG_25_Diag_22.png "NAV\_ADG\_25\_Diag\_22")  
 
--   The most general data types include all the possible values from the less general data types: a decimal is more general than an integer, which is more general than a char.  
+- The most general data types include all the possible values from the less general data types: a decimal is more general than an integer, which is more general than a char.  
 
--   Type conversion can occur in some cases even though two operands have the same type.  
+- Type conversion can occur in some cases even though two operands have the same type.  
 
- These rules can be illustrated by the following examples.  
+  These rules can be illustrated by the following examples.  
 
 ## Example 1  
  The following example shows the evaluation of a numeric expression.  

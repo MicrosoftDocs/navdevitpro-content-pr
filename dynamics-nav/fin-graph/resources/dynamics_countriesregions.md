@@ -30,7 +30,8 @@ Represents a countriesRegions object in [!INCLUDE[d365fin_long_md](../../include
 |[DELETE countriesRegions](../api/dynamics_countriesregions_delete.md)|none            |Delete a Countries/Regions.|
 
 ## Properties
-| Property	     | Type	      |Description                                                  |
+
+| Property       | Type       |Description                                                  |
 |:---------------|:-----------|:------------------------------------------------------------|
 |id              |GUID        |The unique ID of the country/region. Non-editable.           |
 |code            |string      |Specifies the code of the country/region.                    |
@@ -55,7 +56,6 @@ Here is a JSON representation of the countriesRegions.
   "addressFormat": "string",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also

@@ -23,6 +23,7 @@ POST /businesscentral/companies({companyId})/items({itemId})/picture({itemId)/co
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |

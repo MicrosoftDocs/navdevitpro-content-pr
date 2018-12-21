@@ -17,13 +17,13 @@ redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-progress-
 # Progress Windows, MESSAGE, ERROR, and CONFIRM Methods
 You can use several specialized methods to display messages and gather input. We recommend that you use pages to ensure that your application has a consistent user interface. However, there are situations where you may want to use the dialog methods instead of pages. The most important uses of the dialog methods are as follows:  
 
--   To display a window that indicates the progress of some processing that may take a long time.  
+- To display a window that indicates the progress of some processing that may take a long time.  
 
--   To stop the running program to display an error message.  
+- To stop the running program to display an error message.  
 
--   To let the user confirm a choice before the program continues running.  
+- To let the user confirm a choice before the program continues running.  
 
- You can also use the STRMENU method to create pages that present options to the user. It is much faster to use this method than to design a page which only presents a limited set of options to the user. For more information about the STRMENU method, see [STRMENU Method](methods/devenv-STRMENU-Method.md).  
+  You can also use the STRMENU method to create pages that present options to the user. It is much faster to use this method than to design a page which only presents a limited set of options to the user. For more information about the STRMENU method, see [STRMENU Method](methods/devenv-STRMENU-Method.md).  
 
 ## Best practices for user messages  
  We recommend the following guidelines for writing messages for end users:  

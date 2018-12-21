@@ -32,25 +32,25 @@ A temporary table is a temporary variable that holds a table. A temporary table 
 
 #### To define a temporary table  
 
-1.  On the **Tools** menu, choose **Object Designer,** and then create a new table.  
+1. On the **Tools** menu, choose **Object Designer,** and then create a new table.  
 
-     For information about how to create a table, see [How to: Create a Table](How-to--Create-a-Table.md).  
+    For information about how to create a table, see [How to: Create a Table](How-to--Create-a-Table.md).  
 
-2.  Choose **View**, and then choose **C/AL Globals** or **C/AL Locals**, depending on whether your variable will be global or local.  
+2. Choose **View**, and then choose **C/AL Globals** or **C/AL Locals**, depending on whether your variable will be global or local.  
 
-     If you choose **C/AL Globals**, the **C/AL Globals** window appears.  
+    If you choose **C/AL Globals**, the **C/AL Globals** window appears.  
 
-     ![C&#47;AL Globals window](media/NAV_ADG_8_Table_31.png "NAV\_ADG\_8\_Table\_31")  
+    ![C&#47;AL Globals window](media/NAV_ADG_8_Table_31.png "NAV\_ADG\_8\_Table\_31")  
 
-3.  Enter a name for the temporary table variable, and enter or select **Record** as the data type. Use the up arrow in the **Subtype** field to select the table to copy.  
+3. Enter a name for the temporary table variable, and enter or select **Record** as the data type. Use the up arrow in the **Subtype** field to select the table to copy.  
 
-4.  With the cursor still on the line that defines the temporary table, choose **View**, and then choose **Properties** \(Shift+F4\) to display the **Properties** window.  
+4. With the cursor still on the line that defines the temporary table, choose **View**, and then choose **Properties** \(Shift+F4\) to display the **Properties** window.  
 
-     ![Properties window](media/NAV_ADG_8_Table_32.png "NAV\_ADG\_8\_Table\_32")  
+    ![Properties window](media/NAV_ADG_8_Table_32.png "NAV\_ADG\_8\_Table\_32")  
 
-5.  Change the value of the **Temporary** property to Yes.  
+5. Change the value of the **Temporary** property to Yes.  
 
- After you have created a temporary table, you can use it in your C/AL code. You can apply filters and perform searches just as you can with a database table.  
+   After you have created a temporary table, you can use it in your C/AL code. You can apply filters and perform searches just as you can with a database table.  
 
 ## See Also  
  [Special Tables](Special-Tables.md)   

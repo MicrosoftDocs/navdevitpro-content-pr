@@ -26,28 +26,28 @@ After an administrator or a Microsoft Certified Partner initially installs [!INC
 
 #### To upload your license file for all [!INCLUDE[navnow](includes/navnow_md.md)] databases  
 
-1.  Start the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
+1. Start the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
 
-    > [!NOTE]  
-    >  On a computer running any version of Windows with User Access Control enabled, you must start the development environment with administrator privileges. In the **Start** menu, right-click **[!INCLUDE[navnow](includes/navnow_md.md)] Development Environment**, and then choose **Run as administrator**.  
+   > [!NOTE]  
+   >  On a computer running any version of Windows with User Access Control enabled, you must start the development environment with administrator privileges. In the **Start** menu, right-click **[!INCLUDE[navnow](includes/navnow_md.md)] Development Environment**, and then choose **Run as administrator**.  
 
-2.  Verify that you are connected to your database. On the **File** menu, point to **Database**, and then choose **Open**.  
+2. Verify that you are connected to your database. On the **File** menu, point to **Database**, and then choose **Open**.  
 
-3.  Upload the new license.  
+3. Upload the new license.  
 
-    1.  On the **Tools** menu, choose **License Information**.  
+   1. On the **Tools** menu, choose **License Information**.  
 
-    2.  In the **License Information** window, choose **Upload**.  
+   2. In the **License Information** window, choose **Upload**.  
 
-    3.  In the **Upload License File** dialog box, browse to and open the license file.  
+   3. In the **Upload License File** dialog box, browse to and open the license file.  
 
-     You should see the following message:  
+      You should see the following message:  
 
-     **The Server license was successfully uploaded.**  
+      **The Server license was successfully uploaded.**  
 
-4.  Restart the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to activate the license.  
+4. Restart the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to activate the license.  
 
-5.  Restart all [!INCLUDE[nav_server](includes/nav_server_md.md)] instances on the computer to activate the license for other clients. For more information, see [Managing Microsoft Dynamics NAV Server Instances](Managing-Microsoft-Dynamics-NAV-Server-Instances.md).  
+5. Restart all [!INCLUDE[nav_server](includes/nav_server_md.md)] instances on the computer to activate the license for other clients. For more information, see [Managing Microsoft Dynamics NAV Server Instances](Managing-Microsoft-Dynamics-NAV-Server-Instances.md).  
 
 > [!NOTE]  
 >  Always review your license file after uploading, to verify that all information is correct and that you have all necessary license granules.  

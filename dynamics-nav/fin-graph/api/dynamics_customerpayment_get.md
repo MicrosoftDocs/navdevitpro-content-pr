@@ -24,6 +24,7 @@ GET /businesscentral/companies({id})/customerPaymentsJournals({id})/customerPaym
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |

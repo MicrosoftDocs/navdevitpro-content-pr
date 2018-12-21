@@ -18,17 +18,17 @@ A C/AL statement is a code instruction that when it is executed, causes operatio
 
  A C/AL expression is a group of characters \(data values, variables, arrays, operators, and functions\) that can be evaluated, with the result having an associated data type. An expression is a fundamental C/AL concept. All expressions in C/AL are built from the following:  
 
--   Constants  
+- Constants  
 
--   Variables  
+- Variables  
 
--   Operators  
+- Operators  
 
--   Functions  
+- Functions  
 
--   Keywords  
+- Keywords  
 
- For more information about constants, variables, operators, functions, and keywords, see [Elements of C/AL Expressions](Elements-of-C-AL-Expressions.md).  
+  For more information about constants, variables, operators, functions, and keywords, see [Elements of C/AL Expressions](Elements-of-C-AL-Expressions.md).  
 
 ## Example 1  
  For this example, consider the following C/AL code.  

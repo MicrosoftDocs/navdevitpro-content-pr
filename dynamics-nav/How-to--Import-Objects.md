@@ -14,11 +14,11 @@ manager: edupont
 # How to: Import Objects
 You can import application objects into the database from a file. The file must be one of the following formats:  
 
--   [!INCLUDE[navnow](includes/navnow_md.md)] Object format \(.fob\)  
+- [!INCLUDE[navnow](includes/navnow_md.md)] Object format \(.fob\)  
 
--   Text format \(.txt\)  
+- Text format \(.txt\)  
 
- You can import objects either by using the development environment UI or by running finsql.exe with the ImportObjects command.  
+  You can import objects either by using the development environment UI or by running finsql.exe with the ImportObjects command.  
 
 > [!NOTE]  
 >  To import objects from .txt format, you must have a developer license. To import objects from .fob format, you can have either an end-user license or a developer license.  
@@ -37,15 +37,15 @@ You can import application objects into the database from a file. The file must 
 
 ### <a name="ImportObjectsFinSQL"></a>To import objects by running finsql.exe with the ImportObjects command  
 
-1.  At a command prompt, move to the location of finsql.exe. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\[!INCLUDE[rtc](includes/rtc_md.md)]\\.  
+1. At a command prompt, move to the location of finsql.exe. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\[!INCLUDE[rtc](includes/rtc_md.md)]\\.  
 
-2.  Run finsql.exe with the parameter "command=importobjects". You must specify the following parameters:  
+2. Run finsql.exe with the parameter "command=importobjects". You must specify the following parameters:  
 
-    -   file  
+   - file  
 
-    -   servername  
+   - servername  
 
-    -   database  
+   - database  
 
      All other parameters are optional.  
 

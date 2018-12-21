@@ -36,7 +36,7 @@ Runs a specific report without a request page and saves the report as a PDF, Exc
  *Format*  
  Type: Option  
 
- The type of file to save the report as. The following options are supported: **Pdf**, **Excel**, **Word**, and **XML**.  
+ The type of file to save the report as. The following options are supported: **Pdf**, **Excel**, **Word**, **HTML**, and **XML**.  
 
  *OutStream*  
  Type: OutStream  

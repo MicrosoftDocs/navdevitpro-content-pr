@@ -24,6 +24,7 @@ DELETE /businesscentral/companies({id})/itemCategories({id})
 ```
 
 ## Request headers
+
 |Header         |Value                     |
 |---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |

@@ -30,7 +30,8 @@ Represents a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |[DELETE journal](../api/dynamics_journal_delete.md)|none       |Deletes a journal.|
 
 ## Properties
-| Property	         | Type	                 |Description                                           |
+
+| Property           | Type                  |Description                                           |
 |:-------------------|:----------------------|:-----------------------------------------------------|
 |id                  |GUID                   |The unique ID of the journal. Non-editable.           |
 |code                |string, maximum size 10| The code of the journal.                             |

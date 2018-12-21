@@ -209,6 +209,8 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [TableRelation Property](TableRelation-Property.md)  
 
+-   Title Property (this property has been deprecate and is no longer used)  
+
 -   [ToolTip Property](ToolTip-Property.md)  
 
 -   [ToolTipML Property](ToolTipML-Property.md)  

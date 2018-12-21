@@ -23,6 +23,7 @@ PATCH /businesscentral/companies({id})/items({id})
 ```
 
 ## Request headers
+
 |Header       |Value                    |
 |-------------|-------------------------|
 |Authorization|Bearer {token}. Required.|
@@ -86,7 +87,6 @@ Content-type: application/json
   "taxGroupCode": "FURNITURE",
   "lastModifiedDateTime": "2017-03-07T00:35:30.073Z"
 }
-
 ```
 
 ## See also.

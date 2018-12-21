@@ -59,16 +59,17 @@ Sets the string that is used to identify a control or other object in the user i
 ## Default Values  
 The following table shows how the default caption is determined for the various objects in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].  
 
-|Object, control, or other element|Default caption|  
-|---------------------------------|---------------|  
-|Table object|Name property|  
-|Table Field|Name property|  
-|Report|Name property|  
-|XMLport|Name property|  
-|Codeunit|Name property|  
-|Menu button and menu item|Name property|  
-|Page objects and page controls (container, group, part, and field)|Name property| |Query objects|Name property|  
-|Query columns|CaptionML property of the underlying table field for the column|  
+
+|                 Object, control, or other element                  |                         Default caption                         |
+|--------------------------------------------------------------------|-----------------------------------------------------------------|
+|                            Table object                            |                          Name property                          |
+|                            Table Field                             |                          Name property                          |
+|                               Report                               |                          Name property                          |
+|                              XMLport                               |                          Name property                          |
+|                              Codeunit                              |                          Name property                          |
+|                     Menu button and menu item                      |                          Name property                          |
+| Page objects and page controls (container, group, part, and field) |                          Name property                          |
+|                           Query columns                            | CaptionML property of the underlying table field for the column |
 
 ## See Also  
  [Caption Property](devenv-caption-property.md)   

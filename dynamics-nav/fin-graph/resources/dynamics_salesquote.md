@@ -37,7 +37,8 @@ Represents a salesQuote resource type in [!INCLUDE[d365fin_long_md](../../includ
 
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The quote ID. Read-Only.|
 |number|string, maximum size 20|The quote number. Read-Only.|
@@ -110,7 +111,6 @@ Here is a JSON representation of the resource.
       "acceptedDate": "Date",
       "lastModifiedDateTime": "DateTime"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

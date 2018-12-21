@@ -36,20 +36,20 @@ Stops a [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] session.
 
 -   [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] session  
 -->
--   [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] client session  
+- [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] client session  
 
--   NAS services session  
+- NAS services session  
 
--   SOAP web services client session  
+- SOAP web services client session  
 
--   OData web services client session  
+- OData web services client session  
 
--   Background session  
+- Background session  
 
- *Comment*  
- Type: Text  
+  *Comment*  
+  Type: Text  
 
- An optional comment about the session event. The comment is stored in Table 2000000111, the Session Event table.  
+  An optional comment about the session event. The comment is stored in Table 2000000111, the Session Event table.  
 
 ## Property Value/Return Value  
  Type: Boolean  

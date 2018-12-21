@@ -23,6 +23,7 @@ PATCH /businesscentral/companies({companyId})/items({itemId})/picture({itemId})/
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |

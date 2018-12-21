@@ -62,21 +62,21 @@ IMPORTENCRYPTIONKEY(filename, pwd)
 
 ```  
 IF ENCRYPTIONENABLED THEN  
-        IF ENCRYPTIONKEYEXISTS THEN  
-          IF NOT CONFIRM('Encryption has been enabled and the server already contains an encryption key.\'  
-          + 'Importing a key will overwrite any existing key and may result in lost data.\\'  
-          + 'Do you wish to continue?') THEN  
-            EXIT  
-        ELSE  
-          IF NOT CONFIRM('Importing a key different from the already configured key will result in data corruption.\\'  
-          + 'Do you wish to continue?') THEN  
-            EXIT  
+        IF ENCRYPTIONKEYEXISTS THEN  
+          IF NOT CONFIRM('Encryption has been enabled and the server already contains an encryption key.\'  
+          + 'Importing a key will overwrite any existing key and may result in lost data.\\'  
+          + 'Do you wish to continue?') THEN  
+            EXIT  
+        ELSE  
+          IF NOT CONFIRM('Importing a key different from the already configured key will result in data corruption.\\'  
+          + 'Do you wish to continue?') THEN  
+            EXIT  
 
-      IF NOT UPLOAD('Upload encrypted key','','Encrypted Key File (*.ekey)|*.ekey','ExportedKey.ekey',ServerFileName) THEN  
-        EXIT;  
+      IF NOT UPLOAD('Upload encrypted key','','Encrypted Key File (*.ekey)|*.ekey','ExportedKey.ekey',ServerFileName) THEN  
+        EXIT;  
 
-      IMPORTENCRYPTIONKEY(ServerFileName,'This is my personal secret');  
-      ERASE(ServerFileName);  
+      IMPORTENCRYPTIONKEY(ServerFileName,'This is my personal secret');  
+      ERASE(ServerFileName);  
 ```  
 
 ## See Also  

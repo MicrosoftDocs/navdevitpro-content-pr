@@ -59,7 +59,6 @@ local procedure ReadJson(data : Text) result : JsonObject;
 begin
     result.ReadFrom(data);    
 end;
-
 ```
 
 ## See Also

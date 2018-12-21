@@ -32,14 +32,14 @@ Specifies whether fonts are embedded in PDF files that are generated for reports
 ## Remarks  
  This property applies when an RDLC report is saved as a PDF under the following circumstances:  
   
--   On the [!INCLUDE[navnow](includes/navnow_md.md)] client when the user chooses to save a report as PDF from the report's request page or print preview.  
+- On the [!INCLUDE[navnow](includes/navnow_md.md)] client when the user chooses to save a report as PDF from the report's request page or print preview.  
   
-    > [!NOTE]  
-    >  This property is ignored when a report is saved as PDF from the print preview in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. In this case, the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance setting is always used.  
+  > [!NOTE]  
+  >  This property is ignored when a report is saved as PDF from the print preview in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. In this case, the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance setting is always used.  
   
--   On [!INCLUDE[nav_server](includes/nav_server_md.md)] by the [SAVEAS Function](SAVEAS-Function.md) or [SAVEASPDF Function \(Report\)](SAVEASPDF-Function--Report-.md).  
+- On [!INCLUDE[nav_server](includes/nav_server_md.md)] by the [SAVEAS Function](SAVEAS-Function.md) or [SAVEASPDF Function \(Report\)](SAVEASPDF-Function--Report-.md).  
   
- Embedding fonts in a PDF of a report makes sure that the PDF will use the same fonts as the original file, regardless of where the PDF is opened and which fonts are installed on the computer. However, embedding fonts can significantly increase the size of the PDF files. By disabling font embedding, you can decrease the size of the report PDF files.  
+  Embedding fonts in a PDF of a report makes sure that the PDF will use the same fonts as the original file, regardless of where the PDF is opened and which fonts are installed on the computer. However, embedding fonts can significantly increase the size of the PDF files. By disabling font embedding, you can decrease the size of the report PDF files.  
   
 ## See Also  
  [Running Reports](Running-Reports.md)
