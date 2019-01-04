@@ -25,7 +25,7 @@ This walkthrough provides an overview of how to expose a function as a web servi
 ### Prerequisites  
 To complete this walkthrough, you will need:  
 
--   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] CTP 10 with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] CTP 10 or later with a developer license.  
 
 -   [!INCLUDE[demolong](includes/demolong_md.md)].  
 
@@ -53,11 +53,11 @@ You publish a function as a Web service action by using the [!INCLUDE[nav_dev_lo
    |   ServiceEnabled   |   Yes    |
 
 
-5. Open **Locals** for the function and set the parameters to the following values.  
+5. Open **Locals** for the function and create the following parameter:  
 
-   | Parameter |                                                                 Value                                                                 |
+   | Column |                                                                 Value                                                                 |
    |-----------|---------------------------------------------------------------------------------------------------------------------------------------|
-   |    VAR    |                                                                  Yes                                                                  |
+   |    Var    |                                                                  Yes                                                                  |
    |   Name    |                                                             ActionContext                                                             |
    | DataType  |                                                                DotNet                                                                 |
    |  SubType  | Microsoft.Dynamics.Nav.Runtime.WebServiceActionContext.'Microsoft.Dynamics.Nav.Ncl, Culture=neutral, PublicKeyToken=31bf3856ad364e35' |
@@ -67,14 +67,14 @@ You publish a function as a Web service action by using the [!INCLUDE[nav_dev_lo
 
    |Name|DataType|SubType|
    |----|--------|-------|
-   |ToSalesHeader|Record|36|
-   |FromSalesHeader|Record|36|
-   |SalesSetup|Record|311|
-   |ODataActionManagement|Codeunit|6711|
-   |CopyDocMgt|Codeunit|6620|
+   |ToSalesHeader|Record|Sales Header (ID 36)|
+   |FromSalesHeader|Record|Sales Header (ID 36)|
+   |SalesSetup|Record|Sales & Receivables Setup (ID 311)|
+   |ODataActionManagement|Codeunit|OData Action Management (ID 6711)|
+   |CopyDocMgt|Codeunit|Copy Document Mgt. (ID 6620)|
    |DocType|Option|OptionString = Quote,Blanket Order,Order,Invoice,Return Order,Credit Memo,Posted Shipment,Posted Invoice,Posted Return Receipt,Posted Credit Memo|
 
-   7. Add the code that copies the sales document, for example.
+   7. On the `Copy` function, add the code that copies the sales document, for example.
 
    ```
    SalesSetup.GET;
@@ -107,19 +107,28 @@ You publish a function as a Web service action by using the [!INCLUDE[nav_dev_lo
 6.  Choose the **OK** button.
 
 ## Verifying the Web Service Availability 
-After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for OData V4 web services is 7047. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](https://msdn.microsoft.com/en-us/library/hh165851(v=nav.90).aspx).
+After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for OData V4 web services is 7048. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](https://msdn.microsoft.com/en-us/library/hh165851(v=nav.90).aspx).
 
 ### To verify availability of a Microsoft Dynamics NAV Web service action
 
 1.  Start **Postman** or another tool that can execute a POST command against the web service URI.
-2.  In the **Address** field, enter a URI in this format: `http://<Server>:<WebServicePort>/<ServerInstance>/api/beta/companies(<companyid>)/salesInvoices(<invoiceid>)/Microsoft.NAV.Copy)`.  
+2.  In the **Address** field, enter a URI in this format:
+    ```
+    http://navdevvm-0399:7048/DynamicsNAV110/ODataV4/Company('CRONUS%20International%20Ltd.')/SalesInvoice('Invoice', '103004')/NAV.Copy
+    ```
+   - `<Server>` is the name of the computer that is running Microsoft Dynamics NAV Server.
+   - `<WebServicePort>` is the port that OData V4 is running on. The default port is 7048.
+   - `<ServiceInstance>` is the name of the Microsoft Dynamics NAV Server instance for your solution. The default name is DynamicsNAV110.  
 
-    - `<Server>` is the name of the computer that is running Microsoft Dynamics NAV Server.
-    - `<WebServicePort>` is the port that OData V4 is running on. The default port is 7047.
-    - `<ServiceInstance>` is the name of the Microsoft Dynamics NAV Server instance for your solution. The default name is DynamicsNAV90.  
+   For example, if the default Microsoft Dynamics NAV Server is running on your local computer, and you want to copy the invoice that has the number 103004, use the following URI:
+   ```
+   http://localhost:7048/DynamicsNAV110/ODataV4/Company('CRONUS%20International%20Ltd.')/SalesInvoice('Invoice', '103004')/NAV.Copy
+   ```
+   <!--`http://<Server>:<WebServicePort>/<ServerInstance>/api/beta/companies(<companyid>)/salesInvoices(<invoiceid>)/Microsoft.NAV.Copy)`.
 
-    Example if the default Microsoft Dynamics NAV Server is running on your local computer.
+    Example if the default Microsoft Dynamics NAV Server is running on your local computer:<!--
     `http://localhost:7047/DynamicsNAV/api/beta/companies(b9248a6e-966d-478c-a25d-d91d28610397)/salesInvoices(8cc52602-3aa4-4256-b2c7-fdfef5248cbf)/Microsoft.NAV.Copy)`
+    -->
 3. Postman should now show the Web service function that you have published, and perform the action of copying an invoice. 
 
 ## Return a value
@@ -136,32 +145,36 @@ After publishing a web service, verify that the port that web service applicatio
    |   ServiceEnabled   |   Yes    |
 
 
-5. Open **Locals** for the function parameters to the following values.  
+5. Open **Locals** for the function, ann add the following parameter:  
 
-   | Parameter | Value | test |
-   |-----------|-------|------|
-   |  inParam  | Text  | test |
+   | Name | Value |
+   |-----------|-------|
+   |  inParam  | Text  |
 
-    <!-- check this table --> 
 
-6. Select the **Return Value** tab and then add the following values.   
+6. Select the **Return Value** tab, and add the following values.   
 
-   |   Name   | ReturnType |
+   |   Name   | Return Type |
    |----------|------------|
    | outParam |    Text    |
 
-    <!-- check this table -->
 
-7. Then add the following code for the **Example** function:  
+7. Add the following code on the **Example** function:  
+    ```
+   outParam := inParam + ' Completed';
+    ```
 
-   `outParam := inParam + ' Completed';`
-
-8. You can now issue a post request:  
-   `http://localhost:7047/Navision_NAV/ODataV4/Company('CRONUS International Ltd.')/SalesInvoice('Invoice', '1004')/NAV.Example`  
-   with a JSON body of:  
-   `{
+8. You can now issue a post request on the URI to the **Example** function, for example, bu using the following URI:
+   ```
+   http://localhost:7047/Navision_NAV/ODataV4/Company('CRONUS International Ltd.')/SalesInvoice('Invoice', '103004')/NAV.Example
+   ```
+    
+   And, using the following code as the JSON body:
+   ```  
+   {
        "inParam": "Hello World"
-   }`
+   }
+   ```
 9. The returned value will be returned in the body of the message.  
    ```
    {
