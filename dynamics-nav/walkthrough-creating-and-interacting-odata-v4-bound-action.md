@@ -114,16 +114,18 @@ After publishing a web service, verify that the port that web service applicatio
 1.  Start **Postman** or another tool that can execute a POST command against the web service URI.
 2.  In the **Address** field, enter a URI in this format:
     ```
-    http://navdevvm-0399:7048/DynamicsNAV110/ODataV4/Company('CRONUS%20International%20Ltd.')/SalesInvoice('Invoice', '103004')/NAV.Copy
+    http://<Server>:<WebServicePort>/ODataV4/Company('CRONUS%20International%20Ltd.')/SalesInvoice(<Document Type>,<No.>)/NAV.Copy
     ```
-   - `<Server>` is the name of the computer that is running Microsoft Dynamics NAV Server.
-   - `<WebServicePort>` is the port that OData V4 is running on. The default port is 7048.
-   - `<ServiceInstance>` is the name of the Microsoft Dynamics NAV Server instance for your solution. The default name is DynamicsNAV110.  
+     - `<Server>` is the name of the computer that is running Microsoft Dynamics NAV Server.
+    - `<WebServicePort>` is the port that OData V4 is running on. The default port is 7048.
+    - `<ServiceInstance>` is the name of the Microsoft Dynamics NAV Server instance for your solution. The default name is DynamicsNAV110.
+    - `<Document Type>` is document type as specified in table **36 Sales Header**. For this example, use `Invoice`.
+    - `<No.>` is the value of the **No.** field of the sales invoice that you want to copy.
 
-   For example, if the default Microsoft Dynamics NAV Server is running on your local computer, and you want to copy the invoice that has the number 103004, use the following URI:
-   ```
-   http://localhost:7048/DynamicsNAV110/ODataV4/Company('CRONUS%20International%20Ltd.')/SalesInvoice('Invoice', '103004')/NAV.Copy
-   ```
+     For example, if the default Microsoft Dynamics NAV Server is running on your local computer, and you want to copy the invoice that has the number 103004, use the following URI:
+    ```
+    http://localhost:7048/DynamicsNAV110/ODataV4/Company('CRONUS%20International%20Ltd.')/SalesInvoice('Invoice', '103004')/NAV.Copy
+    ```
    <!--`http://<Server>:<WebServicePort>/<ServerInstance>/api/beta/companies(<companyid>)/salesInvoices(<invoiceid>)/Microsoft.NAV.Copy)`.
 
     Example if the default Microsoft Dynamics NAV Server is running on your local computer:<!--
@@ -152,7 +154,7 @@ After publishing a web service, verify that the port that web service applicatio
    |  inParam  | Text  |
 
 
-6. Select the **Return Value** tab, and add the following values.   
+6. Select the **Return Value** tab, and set the following field values.   
 
    |   Name   | Return Type |
    |----------|------------|
@@ -164,12 +166,12 @@ After publishing a web service, verify that the port that web service applicatio
    outParam := inParam + ' Completed';
     ```
 
-8. You can now issue a post request on the URI to the **Example** function, for example, bu using the following URI:
+8. You can now issue a post request on the URI to the **Example** function, for example, by using the following URI:
    ```
-   http://localhost:7047/Navision_NAV/ODataV4/Company('CRONUS International Ltd.')/SalesInvoice('Invoice', '103004')/NAV.Example
+   http://localhost:7048/DynamicsNAV110/ODataV4/Company('CRONUS International Ltd.')/SalesInvoice('Invoice', '103004')/NAV.Example
    ```
     
-   And, using the following code as the JSON body:
+   And using the following code as the JSON body:
    ```  
    {
        "inParam": "Hello World"
@@ -178,7 +180,7 @@ After publishing a web service, verify that the port that web service applicatio
 9. The returned value will be returned in the body of the message.  
    ```
    {
-       "@odata.context": "http://localhost:7047/Navision_NAV/ODataV4/$metadata#Edm.String",
+       "@odata.context": "http://localhost:7048/DynamicsNAV110/ODataV4/$metadata#Edm.String",
        "value": "Hello World Completed"
    }
    ```
