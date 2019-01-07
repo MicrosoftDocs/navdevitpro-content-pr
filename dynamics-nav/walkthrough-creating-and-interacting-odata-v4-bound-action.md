@@ -74,7 +74,7 @@ You publish a function as a Web service action by using the [!INCLUDE[nav_dev_lo
    |CopyDocMgt|Codeunit|Copy Document Mgt. (ID 6620)|
    |DocType|Option|OptionString = Quote,Blanket Order,Order,Invoice,Return Order,Credit Memo,Posted Shipment,Posted Invoice,Posted Return Receipt,Posted Credit Memo|
 
-   7. On the `Copy` function, add the code that copies the sales document, for example.
+7. On the `Copy` function, add the code that copies the sales document, for example.
 
    ```
    SalesSetup.GET;
