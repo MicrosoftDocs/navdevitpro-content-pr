@@ -168,7 +168,7 @@ After publishing a web service, verify that the port that web service applicatio
 
 8. You can now issue a post request on the URI to the **Example** function, for example, by using the following URI:
    ```
-   http://localhost:7048/DynamicsNAV110/ODataV4/Company('CRONUS International Ltd.')/SalesInvoice('Invoice', '103004')/NAV.Example
+   http://localhost:7048/DynamicsNAV110/ODataV4/Company('CRONUS%20International%20Ltd.')/SalesInvoice('Invoice', '103004')/NAV.Example
    ```
     
    And using the following code as the JSON body:
