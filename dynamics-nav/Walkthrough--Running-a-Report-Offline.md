@@ -35,9 +35,9 @@ You can view a report and view the dataset and layout on a computer that does no
 
     -   CRONUS International Ltd. demonstration database.  
 
-    -   Visual Studio with [Microsoft Rdlc Report Designer for Visual Studio](https://go.microsoft.com/fwlink/?linkid=857038) installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
+    -   Visual Studio with [Microsoft Rdlc Report Designer for Visual Studio](https://go.microsoft.com/fwlink/?linkid=857038) installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  This walkthrough is written for Visual Studio 2017.
 
--   A second computer with Visual Studio.  
+-   A second computer with Visual Studio. This walkthrough is written for Visual Studio 2017.  
 
 ## Story  
  Viktor is a Microsoft Certified Partner working for CRONUS International. He is working on some enhancements to the Customer – Top 10 List report, but during his development phase, he has encountered some problems. Viktor wants to send the report to Microsoft Support to help him troubleshoot the problems. The Microsoft Support engineer wants to be able to view the report and report data offline instead of on a computer that has [!INCLUDE[navnow](includes/navnow_md.md)] installed. Viktor saves the report dataset and the report layout and sends them to the Microsoft Support engineer, who runs the report on his computer by using Visual Studio.  
@@ -100,14 +100,14 @@ You can view a report and view the dataset and layout on a computer that does no
 
 2.  On the second computer, open Visual Studio.  
 
-3.  In Visual Studio, in the **File** menu, choose **New**, and then choose **Project**.  
+3.  In Visual Studio, in the **File** menu, choose **New**, and then choose **Project**. 
 
-4.  In the **New Project** window, under **Installed Templates**, expand **Visual C\#**, choose **Windows**, and then choose **Windows Forms Application**.  
+4.  In the **New Project** window, under **Installed** > **Visual C\#** > **Windows Classic Desktop**, select **Windows Forms App (.NET Framework)**.  
 
      ![Visual Studio 2010, New Visual C&#35; Project](media/Plat_ExportReport_.png "Plat\_ExportReport\_")  
 
     > [!TIP]  
-    >  If **Visual C\#** is not listed under **Installed Templates**, then you must install the Visual C\# feature. To do this, in Control Panel, choose **Programs**, choose **Uninstall a program**, select your version of Microsoft Visual Studio, and then choose **Uninstall/Change**. In the setup wizard, follow the instructions to add or remove features, and then choose the Visual C\# feature.  
+    >  If **Visual C\#** is not listed, then you must install the Visual C\# feature. To do this, in Control Panel, choose **Programs**, choose **Uninstall a program**, select your version of Microsoft Visual Studio, and then choose **Uninstall/Change**. In the setup wizard, follow the instructions to add or remove features, and then choose the Visual C\# feature.  
 
 5.  In the **Name** field, enter **OfflineReport**, and then choose the **OK** button to create the solution.  
 
@@ -122,13 +122,31 @@ You can view a report and view the dataset and layout on a computer that does no
 8.  In Solution Explorer, under OfflineReport, select Dataset.xml. In the **Properties** window, in the **Copy to Output Directory** field, choose **Copy Always** from the drop-down list.  
 
     > [!TIP]  
-    >  If the **Properties** window is not visible, then on the **View** menu, choose **Properties**.  
+    >  If the **Properties** window is not visible, then on the **View** menu, choose **Properties**.
+
+4. Install the Microsoft Report Viewer Control for ASP.Net Web Forms applications by using the NuGet Package Manager Console:
+    1. On the **Tools** menu, select **NuGet Package Manager** > **Package Manager**.
+    2. At the `PM>` prompt in the Package Manger Console pane, enter the following command, and press Enter to run it:
+        ```
+        Install-Package Microsoft.ReportingServices.ReportViewerControl.WebForms -Version 150.900.148
+        ```
+        The command installs the Microsoft.ReportingServices.ReportViewerControl.WebForms.150.900.148 package on your computer. When the command finishes successfully, note the folder in which the package has been installed. You will need this path for the next step.  
+
+5. Add the **Report Viewer** control to the **Toolbox**:
+    1. Open the **Toolbox**.
+    2. Right-click the **Toolbox**, and select **Choose Items...**.
+    3. On the **.NET Framework Components** tab, select **Browse**, and open the folder where the package was installed in the previous step.
+    1. Open the folder path **Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40**.
+    5. Select the file **Microsoft.ReportViewer.WinForms.dll**, select **Open**, then select **OK**.
+You should see ReportViewer checked in the dialog. Scroll to the right and you will see the version 14.0.0.0 associated to it.
+Click 
+
 
 9. In the **Toolbox** window, under **Reporting**, drag a new **ReportViewer** control to Form1.  
 
      ![Visual Studio ReportViewer control](media/Plat_ExportReport_ReportViewerCtrl.png "Plat\_ExportReport\_ReportViewerCtrl")  
 
-    If you do not see the ReportViewer control, or the ReportViewer control version in earlier than 14.0.0.0, then see  view see [Integrating Reporting Services Using ReportViewer Controls - Get Started](https://docs.microsoft.com/en-us/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started#adding-the-reportviewer-control-to-a-new-windows-forms-project) to learn how to add the control to a Windows form application project.
+    If you do not see the ReportViewer control, or the ReportViewer control version is earlier than 14.0.0.0, then see [Integrating Reporting Services Using ReportViewer Controls - Get Started](https://docs.microsoft.com/en-us/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started#adding-the-reportviewer-control-to-a-new-windows-forms-project) to learn how to add the control to a Windows form application project.
 
     > [!TIP]  
     >  If the **Toolbox** window is not visible, then on the **View** menu, choose **Toolbox**.  
@@ -146,11 +164,11 @@ You can view a report and view the dataset and layout on a computer that does no
     > [!NOTE]  
     >  If your report includes hyperlinks, then in the **Properties** window of the report viewer control, you must set the **EnableHyperlinks** property to **True**. For examples of creating reports that include hyperlinks, see [Walkthrough: Creating a Link from a Report to a Report](Walkthrough--Creating-a-Link-from-a-Report-to-a-Report.md) and [Walkthrough: Creating a Link from a Report to a Page](Walkthrough--Creating-a-Link-from-a-Report-to-a-Page.md).  
 
-11. In Solution Explorer, select the OfflineReport project, and on the shortcut menu, choose **Add**, and then choose **Class**.  
+11. In Solution Explorer, right-click the OfflineReport project, choose **Add**, and then choose **Class**.  
 
      ![Visual Studio 2010, Add a Class to a solution](media/Plat_ExportReport_AddClass.png "Plat\_ExportReport\_AddClass")  
 
-12. In the **Add New Item** window, under **Installed Templates**, choose **Visual C\# Items**, and then choose **Class**.  
+12. In the **Add New Item** window, under **Installed** > **Visual C\# Items**, choose **Class**.  
 
      ![Visual Studio, Add a Class, select Visual C&#35; class](media/Plat_ExportReport_SelectClass.png "Plat\_ExportReport\_SelectClass")  
 
