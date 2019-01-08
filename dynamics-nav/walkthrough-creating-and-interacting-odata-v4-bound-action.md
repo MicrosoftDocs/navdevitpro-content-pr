@@ -27,6 +27,8 @@ To complete this walkthrough, you will need:
 
 -   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] CTP 10 or later with a developer license.  
 
+-   OData services and V4 endpoint enabled on the [!INCLUDE[nav_server_md](includes/nav_server_md.md)]. For more information, see [Configuring Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md#ODataServices).
+
 -   [!INCLUDE[demolong](includes/demolong_md.md)].  
 
 -   The **Postman** app for testing the web service URI.
