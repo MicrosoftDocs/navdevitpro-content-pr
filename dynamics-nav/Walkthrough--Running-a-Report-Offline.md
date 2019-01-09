@@ -35,9 +35,11 @@ You can view a report and view the dataset and layout on a computer that does no
 
     -   CRONUS International Ltd. demonstration database.  
 
-    -   Visual Studio with [Microsoft Rdlc Report Designer for Visual Studio](https://go.microsoft.com/fwlink/?linkid=857038) installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  This walkthrough is written for Visual Studio 2017.
+    -   Visual Studio with [Microsoft Rdlc Report Designer for Visual Studio](https://go.microsoft.com/fwlink/?linkid=857038) installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
 
--   A second computer with Visual Studio. This walkthrough is written for Visual Studio 2017.  
+-   A second computer with Visual Studio. This is optional. The walkthrough can also be completed by using only the computer where as the [!INCLUDE[navnow](includes/navnow_md.md)].
+
+This walkthrough is written for Visual Studio 2017.  
 
 ## Story  
  Viktor is a Microsoft Certified Partner working for CRONUS International. He is working on some enhancements to the Customer – Top 10 List report, but during his development phase, he has encountered some problems. Viktor wants to send the report to Microsoft Support to help him troubleshoot the problems. The Microsoft Support engineer wants to be able to view the report and report data offline instead of on a computer that has [!INCLUDE[navnow](includes/navnow_md.md)] installed. Viktor saves the report dataset and the report layout and sends them to the Microsoft Support engineer, who runs the report on his computer by using Visual Studio.  
@@ -124,7 +126,7 @@ You can view a report and view the dataset and layout on a computer that does no
     > [!TIP]  
     >  If the **Properties** window is not visible, then on the **View** menu, choose **Properties**.
 
-4. Install the Microsoft Report Viewer Control for ASP.Net Web Forms applications by using the NuGet Package Manager Console:
+9. Install the Microsoft Report Viewer Control for ASP.Net Web Forms application by using the NuGet Package Manager Console:
     1. On the **Tools** menu, select **NuGet Package Manager** > **Package Manager**.
     2. At the `PM>` prompt in the Package Manger Console pane, enter the following command, and press Enter to run it:
         ```
@@ -132,24 +134,25 @@ You can view a report and view the dataset and layout on a computer that does no
         ```
         The command installs the Microsoft.ReportingServices.ReportViewerControl.WebForms.150.900.148 package on your computer. When the command finishes successfully, note the folder in which the package has been installed. You will need this path for the next step.  
 
-5. Add the **Report Viewer** control to the **Toolbox**:
+10. Add the **ReportViewer** control to the **Toolbox**:
     1. Open the **Toolbox**.
+        > [!TIP]  
+        >  If the **Toolbox** window is not visible, then on the **View** menu, choose **Toolbox**.  
+
     2. Right-click the **Toolbox**, and select **Choose Items...**.
     3. On the **.NET Framework Components** tab, select **Browse**, and open the folder where the package was installed in the previous step.
-    1. Open the folder path **Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40**.
+    4. Open the folder path **Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40**.
     5. Select the file **Microsoft.ReportViewer.WinForms.dll**, select **Open**, then select **OK**.
-You should see ReportViewer checked in the dialog. Scroll to the right and you will see the version 14.0.0.0 associated to it.
-Click 
 
+    You should see ReportViewer checked in the dialog. Scroll to the right and you will see the version 15.0.0.0 associated to it.
 
-9. In the **Toolbox** window, under **Reporting**, drag a new **ReportViewer** control to Form1.  
+11. In the **Toolbox** window, drag the **ReportViewer** control to Form1.  
 
      ![Visual Studio ReportViewer control](media/Plat_ExportReport_ReportViewerCtrl.png "Plat\_ExportReport\_ReportViewerCtrl")  
 
-    If you do not see the ReportViewer control, or the ReportViewer control version is earlier than 14.0.0.0, then see [Integrating Reporting Services Using ReportViewer Controls - Get Started](https://docs.microsoft.com/en-us/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started#adding-the-reportviewer-control-to-a-new-windows-forms-project) to learn how to add the control to a Windows form application project.
+    <!--
+    If you do not see the ReportViewer control, or the ReportViewer control version is earlier than 14.0.0.0, then see [Integrating Reporting Services Using ReportViewer Controls - Get Started](https://docs.microsoft.com/en-us/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started#adding-the-reportviewer-control-to-a-new-windows-forms-project) to learn how to add the control to a Windows form application project.-->
 
-    > [!TIP]  
-    >  If the **Toolbox** window is not visible, then on the **View** menu, choose **Toolbox**.  
 
     > [!NOTE]  
     >  You may need to resize the report viewer control or the form.  
@@ -162,8 +165,11 @@ Click
     >  If your report includes external images, then in the **Properties** window of the report viewer control, you must set the **EnableExternalImages** property to **True**.  
 
     > [!NOTE]  
-    >  If your report includes hyperlinks, then in the **Properties** window of the report viewer control, you must set the **EnableHyperlinks** property to **True**. For examples of creating reports that include hyperlinks, see [Walkthrough: Creating a Link from a Report to a Report](Walkthrough--Creating-a-Link-from-a-Report-to-a-Report.md) and [Walkthrough: Creating a Link from a Report to a Page](Walkthrough--Creating-a-Link-from-a-Report-to-a-Page.md).  
+    >  If your report includes hyperlinks, then in the **Properties** window of the report viewer control, you must set the **EnableHyperlinks** property to **True**. For examples of creating reports that include hyperlinks, see [Walkthrough: Creating a Link from a Report to a Report](Walkthrough--Creating-a-Link-from-a-Report-to-a-Report.md) and [Walkthrough: Creating a Link from a Report to a Page](Walkthrough--Creating-a-Link-from-a-Report-to-a-Page.md).
 
+    In **ReportViewer Tasks**, verify that Form1 is set up to use *OfflineReport.Report.rdlc**:   
+
+     ![Visual Studio, Choose Report](media/Plat_ExportReport_ChooseReport.png "Visual Studio, Choose Report")  
 11. In Solution Explorer, right-click the OfflineReport project, choose **Add**, and then choose **Class**.  
 
      ![Visual Studio 2010, Add a Class to a solution](media/Plat_ExportReport_AddClass.png "Plat\_ExportReport\_AddClass")  
