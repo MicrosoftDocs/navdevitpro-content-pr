@@ -69,7 +69,7 @@ Here is an example of the response.
   "currencyId": "id-value",
   "currencyCode": "GBP",
   "pricesIncludeTax": false,
-  "paymentTermsId": "id-value",
+  "paymentTermsId": "GUID",
   "salesperson": "",
   "partialShipping": true,
   "requestedDeliveryDate": "2015-06-01",

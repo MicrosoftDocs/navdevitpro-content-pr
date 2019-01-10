@@ -71,7 +71,7 @@ Here is an example of the response.
   "currencyCode": "GBP",
   "orderId": "id-value",
   "orderNumber": "",
-  "paymentTermsId": "paymentTermsId-value",
+  "paymentTermsId": "GUID",
   "shipmentMethodId": "shipmentMethodId-value",
   "salesperson": "",
   "pricesIncludeTax": false,

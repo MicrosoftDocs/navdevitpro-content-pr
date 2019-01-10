@@ -86,11 +86,7 @@ Content-type: application/json
   "taxRegistrationNumber": "28012001T",
   "currencyId": "currencyId-value",
   "currencyCode": "USD",
-  "paymentTermsId": "paymentTermsId-value",
-  "paymentTerms": {
-    "code": "1M(8D)",
-    "description": "1 Month/2% 8 days"
-  },
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
   "shipmentMethodId": "shipmentMethodId-value",
   "shipmentMethod": null,
   "paymentMethodId": "paymentMethod-value",
