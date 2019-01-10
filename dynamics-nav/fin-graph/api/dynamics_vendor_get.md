@@ -71,11 +71,7 @@ Here is an example of the response.
   "currencyId": "id-value",
   "currencyCode": "USD",
   "irs1099Code": "",
-  "paymentTermsId": "id-value",
-  "paymentTerms": {
-    "code": "CM",
-    "description": "Current Month"
-  },
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
   "paymentMethodId": "id-value",
   "paymentMethod": {
     "code": "BANK",

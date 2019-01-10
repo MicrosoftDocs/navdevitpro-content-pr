@@ -64,7 +64,7 @@ Content-type: application/json
   "taxRegistrationNumber": "28012001T",
   "currencyId": "currencyId-value",
   "currencyCode": "USD",
-  "paymentTermsId": "paymentTermsId-value",
+  "paymentTermsId": "GUID",
   "shipmentMethodId": "shipmentMethodId-value",
   "paymentMethodId": "paymentMethodId-value",
   "blocked": " ",

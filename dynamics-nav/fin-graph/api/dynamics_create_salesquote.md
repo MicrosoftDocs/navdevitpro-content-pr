@@ -52,7 +52,7 @@ Content-type: application/json
   "documentDate": "2016-12-31",
   "customerNumber": "10000",
   "currencyCode": "GBP",
-  "paymentTerms": "COD"
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668"
 }
 ```
 ## See also
