@@ -39,19 +39,21 @@ If your setup has a high volume of database traffic, you might have to change th
 
     The event_file target writes event session output from a buffer to a disk file that you specify. There are two ways to do this:
     - From Object Explorer, open the session's **Properties**, and then on the **Data Storage** page, add an **event_file** type target.  
-    - In a query, use the [ALTER EVENT SESSION](https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-event-session-transact-sql?view=sql-server-2017) transact-sql statement. For example:
+    - With a query, run the [ALTER EVENT SESSION](https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-event-session-transact-sql?view=sql-server-2017) transact-sql statement. For example:
       ```
-      ALTER EVENT SESSION [Demo Database NAV (11-0)_deadlock_monitor] ON SERVER
+      ALTER EVENT SESSION [Demo Database NAV_deadlock_monitor] ON SERVER
 	        ADD Target package0.event_file
           (
-            SET     filename=N'C:\mydeadlocks\BCdeadlocks.xel'
+            SET     filename=N'C:\logging\deadlocks.xel'
           )
       ```
     
     For more information see [Alter an Extended Events Session](https://docs.microsoft.com/en-us/sql/relational-databases/extended-events/alter-an-extended-events-session?view=sql-server-2017) and 
      [Targets for Extended Events in SQL Server](https://docs.microsoft.com/en-us/sql/relational-databases/extended-events/targets-for-extended-events-in-sql-server?view=sql-server-2017#eventfile-target).
     
-2. Create a view, for example based on the `dbo.deadlock_report_ring_buffer_view` that uses the new event_file target of the database deadlock monitor by changing the `xt.target_name = N'ring_buffer'` to `xt.target_name = N'event_file'`. For example: 
+2. Create a view, for example based on the default `dbo.deadlock_report_ring_buffer_view` view,  that uses the new event_file target for the database deadlock monitor.
+
+    This is done by changing the `xt.target_name = N'ring_buffer'` to `xt.target_name = N'event_file'`. For example:
     ```
     USE [Demo Database NAV]
     GO
