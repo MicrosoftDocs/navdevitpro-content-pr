@@ -33,6 +33,7 @@ For detailed steps on how to do this, see [Giving the account necessary database
 The next the a client session is established with the database, a session for monitoring the [!INCLUDE[navnow](includes/navnow_md.md)] database appears under  **Management** > **Extended Events** > **Sessions**. 
 
 #### Store deadlock events to file
+
 If your setup has a high volume of database traffic, you might have to change the destination that SQL Server writes deadlock events to. By default SQL Server uses an in-memory data structure called a *ring buffer* target, which has size limitation of 5MB. If you have to store more data than that, then you can write the deadlock events to a file instead. This requires that you do two things:
 
 1. Modify deadlock monitoring session to use a file-based target (known as an *event_file target*).
@@ -41,37 +42,38 @@ If your setup has a high volume of database traffic, you might have to change th
     - From Object Explorer, open the session's **Properties**, and then on the **Data Storage** page, add an **event_file** type target.  
     - With a query, run the [ALTER EVENT SESSION](https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-event-session-transact-sql?view=sql-server-2017) transact-sql statement. For example:
       ```
-      ALTER EVENT SESSION [Demo Database NAV_deadlock_monitor] ON SERVER
+      ALTER EVENT SESSION [Demo Database NAV_deadlock_monitor]
+          ON SERVER
 	        ADD Target package0.event_file
           (
-            SET     filename=N'C:\logging\deadlocks.xel'
+            SET filename=N'C:\logging\deadlocks.xel',max_file_size=(10240)
           )
       ```
+    For more information see [Alter an Extended Events Session](https://docs.microsoft.com/en-us/sql/relational-databases/extended-events/alter-an-extended-events-session?view=sql-server-2017) and [Targets for Extended Events in SQL Server](https://docs.microsoft.com/en-us/sql/relational-databases/extended-events/targets-for-extended-events-in-sql-server?view=sql-server-2017#eventfile-target).
     
-    For more information see [Alter an Extended Events Session](https://docs.microsoft.com/en-us/sql/relational-databases/extended-events/alter-an-extended-events-session?view=sql-server-2017) and 
-     [Targets for Extended Events in SQL Server](https://docs.microsoft.com/en-us/sql/relational-databases/extended-events/targets-for-extended-events-in-sql-server?view=sql-server-2017#eventfile-target).
-    
-2. Create a view, for example based on the default `dbo.deadlock_report_ring_buffer_view` view,  that uses the new event_file target for the database deadlock monitor.
+2. Create a view in the [!INCLUDE[navnow](includes/navnow_md.md)] database that uses the new event_file target for the database deadlock monitor. 
 
-    This is done by changing the `xt.target_name = N'ring_buffer'` to `xt.target_name = N'event_file'`. For example:
+    You can create this view based on the default `dbo.deadlock_report_ring_buffer_view` view. To use the event_file target, you change `xt.target_name = N'ring_buffer'` to `xt.target_name = N'event_file'`. For example:
     ```
     USE [Demo Database NAV]
     GO
 
-     SET ANSI_NULLS ON
+    SET ANSI_NULLS ON
     GO
 
     SET QUOTED_IDENTIFIER ON
     GO
 
     CREATE VIEW [dbo].[deadlock_report_event_file_view] AS
-                SELECT target_data AS event_raw_data
-                FROM sys.dm_xe_session_targets AS xt INNER JOIN sys.dm_xe_sessions AS xs
-                ON xs.address = xt.event_session_address
-                WHERE xs.name = N'Demo Database NAV_deadlock_monitor' AND xt.target_name = N'event_file'
+        SELECT target_data AS event_raw_data
+        FROM sys.dm_xe_session_targets AS xt INNER JOIN sys.dm_xe_sessions AS xs
+        ON xs.address = xt.event_session_address
+        WHERE xs.name = N'Demo Database NAV_deadlock_monitor' AND xt.target_name = N'event_file'
     GO
     ```
-3. Change the database synonym that the [!INCLUDE[nav_server](includes/nav_server_md.md)] uses to query the data to point to the deadlock report event file view that you created. For example:
+3. Change the synonym called`dbo.syn_deadlock_event_view` in the [!INCLUDE[navnow](includes/navnow_md.md)] database to point to the deadlock report event file view that you created.
+
+    This synonym is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] uses to query the deadlock data. To alter a synonym, you drop it first, and then create a new synonym that has the same name. For example:
     ```
     DROP SYNONYM [dbo].[syn_deadlock_event_view]
     GO
