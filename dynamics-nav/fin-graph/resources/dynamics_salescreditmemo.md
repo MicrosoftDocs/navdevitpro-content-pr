@@ -94,7 +94,6 @@ Here is a JSON representation of the resource.
       "currencyId": "GUID",
       "currencyCode": "string",
       "paymentTermsId": "GUID",
-      "paymentTerms": "string",
       "salesperson": "string",
       "pricesIncludeTax": "boolean",
       "discountAmount": "decimal",

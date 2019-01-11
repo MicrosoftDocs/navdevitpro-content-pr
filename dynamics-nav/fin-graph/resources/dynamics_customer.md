@@ -99,7 +99,7 @@ Here is a JSON representation of the resource.
     "taxAreaDisplayName": "string",
     "taxRegistrationNumber": "string",
     "currencyCode": "string",
-    "paymentTerms": NAV.PaymentTermsType,
+    "paymentTermsId": "GUID",
     "shipmentMethod": NAV.ShipmentMethod,
     "paymentMethod":  NAV.PaymentMethod,
     "blocked": "string",

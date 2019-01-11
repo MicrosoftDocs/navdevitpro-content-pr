@@ -87,7 +87,6 @@ Here is a JSON representation of the resource.
       "currencyCode": "string",
       "pricesIncludeTax": "boolean",
       "paymentTermsId": "GUID",
-      "paymentTerms": "string",
       "salesperson": "string",
       "partialShipping": "boolean",
       "requestedDeliveryDate": "Date",
