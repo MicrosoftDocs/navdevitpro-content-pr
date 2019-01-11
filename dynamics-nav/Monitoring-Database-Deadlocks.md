@@ -34,19 +34,19 @@ The next the a client session is established with the database, a session for mo
 
 #### Store deadlock events to file
 
-If your setup has a high volume of database traffic, you might have to change the destination that SQL Server writes deadlock events to. By default SQL Server uses an in-memory data structure called a *ring buffer* target, which has size limitation of 5MB. If you have to store more data than that, then you can write the deadlock events to a file instead. This requires that you do two things:
+If your setup has a high volume of database traffic, you might have to change the destination that SQL Server writes deadlock events to. By default SQL Server uses an in-memory data structure called a *ring buffer* target, which has size limitation of 5MB. If you have to store more data than that, then you can write the deadlock events to a file instead. This requires that you do the following:
 
-1. Modify deadlock monitoring session to use a file-based target (known as an *event_file target*).
+1. Modify the deadlock monitoring session to use a file-based target (known as an *event_file target*).
 
     The event_file target writes event session output from a buffer to a disk file that you specify. There are two ways to do this:
     - From Object Explorer, open the session's **Properties**, and then on the **Data Storage** page, add an **event_file** type target.  
-    - With a query, run the [ALTER EVENT SESSION](https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-event-session-transact-sql?view=sql-server-2017) transact-sql statement. For example:
+    - Using a query, run the [ALTER EVENT SESSION](https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-event-session-transact-sql?view=sql-server-2017) transact-sql statement. For example:
       ```
       ALTER EVENT SESSION [Demo Database NAV_deadlock_monitor]
           ON SERVER
 	        ADD Target package0.event_file
           (
-            SET filename=N'C:\logging\deadlocks.xel',max_file_size=(10240)
+            SET filename=N'C:\logging\mydeadlocks.xel',max_file_size=(10240)
           )
       ```
     For more information see [Alter an Extended Events Session](https://docs.microsoft.com/en-us/sql/relational-databases/extended-events/alter-an-extended-events-session?view=sql-server-2017) and [Targets for Extended Events in SQL Server](https://docs.microsoft.com/en-us/sql/relational-databases/extended-events/targets-for-extended-events-in-sql-server?view=sql-server-2017#eventfile-target).
@@ -71,9 +71,9 @@ If your setup has a high volume of database traffic, you might have to change th
         WHERE xs.name = N'Demo Database NAV_deadlock_monitor' AND xt.target_name = N'event_file'
     GO
     ```
-3. Change the synonym called `dbo.syn_deadlock_event_view` in the [!INCLUDE[navnow](includes/navnow_md.md)] database to point to the deadlock report event file view that you created.
+3. Change the [!INCLUDE[navnow](includes/navnow_md.md)] database synonym `dbo.syn_deadlock_event_view` to point to the deadlock report event file view that you created.
 
-    This synonym is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] to query the deadlock data. To alter a synonym, you first have to drop it, and then create a new synonym that has the same name. For example:
+    This synonym is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] to query the deadlock data. To alter a synonym, you first drop it, and then create a new synonym that has the same name. For example:
     ```
     DROP SYNONYM [dbo].[syn_deadlock_event_view]
     GO
