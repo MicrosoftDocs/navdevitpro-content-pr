@@ -30,7 +30,7 @@ In SQL Server Management Studio, connect to the SQL server instance for [!INCLUD
 
 For detailed steps on how to do this, see [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).
 
-The next the a client session is established with the database, a session for monitoring the [!INCLUDE[navnow](includes/navnow_md.md)] database appears under  **Management** > **Extended Events** > **Sessions**. 
+The next time a client session is established with the database, a session for monitoring the [!INCLUDE[navnow](includes/navnow_md.md)] database appears under  **Management** > **Extended Events** > **Sessions**.
 
 #### Store deadlock events to file
 
