@@ -51,7 +51,7 @@ If your setup has a high volume of database traffic, you might have to change th
       ```
     For more information see [Alter an Extended Events Session](https://docs.microsoft.com/en-us/sql/relational-databases/extended-events/alter-an-extended-events-session?view=sql-server-2017) and [Targets for Extended Events in SQL Server](https://docs.microsoft.com/en-us/sql/relational-databases/extended-events/targets-for-extended-events-in-sql-server?view=sql-server-2017#eventfile-target).
     
-2. Create a view in the [!INCLUDE[navnow](includes/navnow_md.md)] database that uses the new event_file target for the database deadlock monitor. 
+2. Create a view in the [!INCLUDE[navnow](includes/navnow_md.md)] database that uses the new event_file target. 
 
     You can create this view based on the default `dbo.deadlock_report_ring_buffer_view` view. To use the event_file target, you change `xt.target_name = N'ring_buffer'` to `xt.target_name = N'event_file'`. For example:
     ```
@@ -71,9 +71,9 @@ If your setup has a high volume of database traffic, you might have to change th
         WHERE xs.name = N'Demo Database NAV_deadlock_monitor' AND xt.target_name = N'event_file'
     GO
     ```
-3. Change the synonym called`dbo.syn_deadlock_event_view` in the [!INCLUDE[navnow](includes/navnow_md.md)] database to point to the deadlock report event file view that you created.
+3. Change the synonym called `dbo.syn_deadlock_event_view` in the [!INCLUDE[navnow](includes/navnow_md.md)] database to point to the deadlock report event file view that you created.
 
-    This synonym is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] uses to query the deadlock data. To alter a synonym, you drop it first, and then create a new synonym that has the same name. For example:
+    This synonym is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] to query the deadlock data. To alter a synonym, you first have to drop it, and then create a new synonym that has the same name. For example:
     ```
     DROP SYNONYM [dbo].[syn_deadlock_event_view]
     GO
