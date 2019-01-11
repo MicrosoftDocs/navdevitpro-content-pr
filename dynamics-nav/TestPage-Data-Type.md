@@ -18,7 +18,7 @@ Stores test pages. A test page is a logical representation of a page that does n
  A test page can be any page type. For more information about types of pages, see [Pages Overview](Pages-Overview.md).  
   
 ## Remarks  
- You can use test pages only within test codeunits.  
+ You should use test pages only within test codeunits.  
   
 ## See Also  
  [TestRequestPage Data Type](TestRequestPage-Data-Type.md)

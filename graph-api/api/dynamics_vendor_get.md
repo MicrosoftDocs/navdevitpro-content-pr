@@ -69,7 +69,7 @@ Here is an example of the response.
   "currencyId": "id-value",
   "currencyCode": "USD",
   "irs1099Code": "",
-  "paymentTermsId": "id-value",
+  "paymentTermsId": "GUID",
   "paymentMethodId": "id-value",
   "taxLiable": true,
   "blocked": " ",

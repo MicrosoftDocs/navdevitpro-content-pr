@@ -79,7 +79,7 @@ Content-type: application/json
   },
   "currencyId": "currencyId-value",
   "currencyCode": "GBP",
-  "paymentTermsId": "paymentTermsId-value",
+  "paymentTermsId": "GUID",
   "shipmentMethodId": "shipmentMethodId-value",
   "salesperson": "",
   "discountAmount": 0,
