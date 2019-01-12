@@ -9,19 +9,24 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ---
 # Monitoring SQL Database Deadlocks
+
 You can set up the system to log deadlocks that occur in the SQL database. The deadlocks are recorded in the Windows Event Log of computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The log entries provide information about the C/AL code that was run when the deadlock occurred, along with the deadlock report from SQL Server. This information can help you identify and resolve problem areas in the application design.
 
 ## About Deadlocks
+
 Deadlocks can prevent users from completing tasks in the [!INCLUDE[navnow](includes/navnow_md.md)] client. A deadlock occurs when two or more processes or transactions block each other from continuing because each has locked a database resource that the other transaction needs. SQL Server handles deadlocks by terminating and rolling back transactions that were started after the first transaction.
 
 For general information about deadlocks, see [Detecting and Ending Deadlocks](https://aka.ms/detectingendingdeadlocks).
 
 ## Setting Up Deadlock Logging
+
 Setting up deadlock logging requires you to configure the SQL Server instance and the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
-**Note:**  If you installed the [!INCLUDE[nav_server](includes/nav_server_md.md)] and database components by using the **Install Demo** option in the [!INCLUDE[nav_setup](includes/nav_setup_md.md)], then deadlock logging is set up by default.   
+> [!NOTE]
+> If you installed the [!INCLUDE[nav_server](includes/nav_server_md.md)] and database components by using the **Install Demo** option in the [!INCLUDE[nav_setup](includes/nav_setup_md.md)], then deadlock logging is set up by default.
 
 ### Configure the SQL Server instance
+
 To configure the SQL Server instance to log deadlocks, you must assign specific permissions to the database login for the service account that is used on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. You can do this using SQL Server Management Studio.
 
 In SQL Server Management Studio, connect to the SQL server instance for [!INCLUDE[navnow](includes/navnow_md.md)], and then grant the following permissions:
@@ -30,11 +35,14 @@ In SQL Server Management Studio, connect to the SQL server instance for [!INCLUD
 
 For detailed steps on how to do this, see [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).
 
-The next time a client session is established with the database, a session for monitoring the [!INCLUDE[navnow](includes/navnow_md.md)] database appears under  **Management** > **Extended Events** > **Sessions**.
+To verify the setup, connect from a client, like the Web client or Windows client. When the session is established with the database, a session for monitoring the [!INCLUDE[navnow](includes/navnow_md.md)] database appears under  **Management** > **Extended Events** > **Sessions**.
 
-#### Store deadlock events to file
+#### Configure where to store deadlock events
 
-If your setup has a high volume of database traffic, you might have to change the destination that SQL Server writes deadlock events to. By default SQL Server uses an in-memory data structure called a *ring buffer* target, which has size limitation of 5MB. If you have to store more data than that, then you can write the deadlock events to a file instead. This requires that you do the following:
+By default, SQL Server uses an in-memory data structure called a *ring_buffer target* to store deadlock events. You also have the option to store the events to a file on the server, which is called an *event_file target*. In either case, SQL Server will automatically read data from the target that you choose. The main difference is that the ring_buffer target has a size limitation of 5MB, but storing to the event_file target provides a greater storage capacity. Using an event_file target can eliminate potential overloads in high volume situations. So, if your setup has a high volume of database traffic, you might have to change the SQL Server to write deadlock events to an event_file target as described the the steps that follow. If you want to use the default ring_buffer target, then no further action is required.
+
+> [!NOTE]
+> The event_file target is only supported in [!INCLUDE[nav2018_md](includes/nav2018_md.md)] Cumulative Update 13 and later, and is not supported in [!INCLUDE[nav2017](includes/nav2017.md)].
 
 1. Modify the deadlock monitoring session to use a file-based target (known as an *event_file target*).
 
@@ -81,7 +89,9 @@ If your setup has a high volume of database traffic, you might have to change th
     CREATE SYNONYM [dbo].[syn_deadlock_event_view] FOR [dbo].[deadlock_report_event_file_view]
     GO
     ```
+
 ### Configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
+
 To log deadlocks, you must enable deadlock logging on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. You can enable deadlock logging by using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or the Set-NAVServerConfiguration cmdlet in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].
 
 -   To enable deadlock logging by using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], open the server instance for editing, and then select the **Enable Deadlock Monitoring** check box in the **Database** section.
@@ -96,9 +106,11 @@ To log deadlocks, you must enable deadlock logging on the [!INCLUDE[nav_server](
     For more information about how to use the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md) and [Set-NAVServerConfiguration Cmdlet](https://go.microsoft.com/fwlink/?linkid=401394).
 
 ## Viewing Deadlocks in the Windows Event Log
+
 Similar to other errors and events in [!INCLUDE[navnow](includes/navnow_md.md)], you can monitor deadlocks by using Event Viewer on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]. Deadlocks are recorded as warnings in the [!INCLUDE[nav_server](includes/nav_server_md.md)] **Admin** channel log in the **Applications and Services Logs**. For general information about how to view the [!INCLUDE[nav_server](includes/nav_server_md.md)] logs, see [Monitoring Dynamics NAV Server Events Using Event Viewer](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md).
 
-### Deadlock Event Overview
+### Deadlock event overview
+
 Deadlock event log entries have the event ID 705 and task category 33 (TelemetryData). The following table describes some of important information that is included in deadlock log entry:
 
 |  Information |  Description  |
@@ -110,9 +122,11 @@ Deadlock event log entries have the event ID 705 and task category 33 (Telemetry
 |AL ScopeName|Specifies the C/AL function that ran the transaction that caused the event.|
 |SQL Server deadlock XML report|Includes the deadlock report that was recieved from SQL Server. For more information, see [Analyze Deadlocks](https://aka.ms/analyzedeadlocks).|
 
-**Note:**  The system cannot record information about C/AL code that was executed on a different  [!INCLUDE[nav_server](includes/nav_server_md.md)]. Therefore, the three attributes *AL ObjectType*, *AL ObjectNumber* and *AL ScopeName* might be empty in a given event log entry.
+>[!Note]
+> The system cannot record information about C/AL code that was executed on a different  [!INCLUDE[nav_server](includes/nav_server_md.md)]. Therefore, the three attributes *AL ObjectType*, *AL ObjectNumber* and *AL ScopeName* might be empty in a given event log entry.
 
 ### View a graphical representation of the deadlock event
+
 To view a graphical representation of the deadlock, perform the following steps:
 1.  Open the deadlock event in Event Viewer.
 2.  On the General tab, go to the SQL Server deadlock xml report section, and then copy the text in the deadlock tag (including the start and end tag) to a text editor such as Notepad or Visual Studio Code.
@@ -120,6 +134,7 @@ To view a graphical representation of the deadlock, perform the following steps:
 4.  Open the file in SQL Server Management Studio.
 
 ### Filter on deadlock events
+
 All deadlock events have the trace tag **00000DI**. If you only want to see deadlocks events in the log, you can use this tag in an XML path filter on the log, as shown in the following example:
 
 ```
@@ -132,6 +147,7 @@ All deadlock events have the trace tag **00000DI**. If you only want to see dead
 </QueryList>
 ```
 For more information about XML filtering, see [Advanced XML filtering in the Windows Event Viewer](https://aka.ms/advancedxmlfilteringeventviewer).
+
 ##  See Also
 [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)  
 [Monitoring SQL Database Locks](Monitoring-Database-Locks.md)  
