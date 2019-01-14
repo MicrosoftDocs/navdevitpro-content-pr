@@ -52,7 +52,7 @@ Content-type: application/json
   "orderDate": "2015-12-31",
   "customerNumber": "GL00000008",
   "currencyCode": "GBP",
-  "paymentTerms": "COD"
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668"
 }
 ```
 

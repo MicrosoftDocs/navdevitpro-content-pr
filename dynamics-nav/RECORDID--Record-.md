@@ -44,9 +44,9 @@ RecordID := Record.RECORDID
 ## Example  
 The following example opens table 18 \(Customer\) as a Record variable that is named MyRecord. The [FINDLAST Function \(Record\)](FINDLAST-Function--Record-.md) finds the last record in the table. The record ID of the last record is retrieved, stored in the RecID variable displayed in message box. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
-|Variable name|DataType|Subtype|  
-|-------------------|--------------|---|  
-|MyRecord|Record|Customer|  
+|Variable name|DataType|SubType
+|-------------------|--------------|-------|  
+|MyRecord|Record|Customer|
 |RecID|RecordID|  |
   
 |Text constant name|DataType|ENU value|  
@@ -56,7 +56,7 @@ The following example opens table 18 \(Customer\) as a Record variable that is n
 ```  
 MyRecord.FINDLAST;  
 RecID := MyRecord.RECORDID;  
-MESSAGE(MyTextConst, RecID);  
+MESSAGE(MyTextConst, RecID);
 ```  
   
 ## See Also  

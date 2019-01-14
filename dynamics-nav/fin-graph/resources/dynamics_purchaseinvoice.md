@@ -95,7 +95,7 @@ Here is a JSON representation of the resource.
       "totalTaxAmount": "decimal",
       "totalAmountIncludingTax": "decimal",
       "buyFromAddress": {NAV.PostalAddress},
-      "paymentTerms": "string",
+      "paymentTermsId": "GUID",
       "shipmentMethod": "string",
       "lastModifiedDateTime": "DateTime"
 }

@@ -80,7 +80,7 @@ Content-type: application/json
   "currencyCode": "GBP",
   "orderId": "id-value",
   "orderNumber": "",
-  "paymentTermsId": "id-value",
+  "paymentTermsId": "GUID",
   "shipmentMethodId": "id-value",
   "salesperson": "",
   "pricesIncludeTax": false,

@@ -15,7 +15,9 @@ manager: edupont
 Ordinarily, when you are developing applications in [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you do not want to consider transactions and table locking. However, there are some situations in which you must lock a table explicitly. To do this, use the [LOCKTABLE Function \(Record\)](LOCKTABLE-Function--Record-.md).  
   
  For example, in the beginning of a function, you inspect data in a table and then use this data to perform various checks and calculations. Finally, you want to insert a record based on the result of these calculations. To make sure that your calculations make sense, you must be certain that the values that you retrieved at the beginning of the transaction are consistent with the data that is in the table now. You cannot allow other users to update the table when your function is performing its calculations.  
-  
+ 
+The table lock is released (unlocked) when the transaction is committed.
+
 ## LOCKTABLE Function  
  You can use the LOCKTABLE function to lock the table at the start of your function.  
   
