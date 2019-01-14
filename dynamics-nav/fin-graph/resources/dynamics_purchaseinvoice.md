@@ -37,7 +37,8 @@ Represents a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365f
 
 
 ## Properties
-| Property	            | Type	            |Description                                                |
+
+| Property              | Type              |Description                                                |
 |:----------------------|:----------------------|:----------------------------------------------------------|
 |id                     |GUID                   |The invoice ID. Read-Only.                                 |
 |number                 |string, maximum size 20|The invoice number. Read-Only.                             |
@@ -94,11 +95,10 @@ Here is a JSON representation of the resource.
       "totalTaxAmount": "decimal",
       "totalAmountIncludingTax": "decimal",
       "buyFromAddress": {NAV.PostalAddress},
-      "paymentTerms": "string",
+      "paymentTermsId": "GUID",
       "shipmentMethod": "string",
       "lastModifiedDateTime": "DateTime"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

@@ -22,9 +22,10 @@ The following example gets the default dimensions of the vendor entity in the re
 GET /businesscentral/companies({companyId})/vendors({vendorId})/defaultDimensions
 ```
 ## Request header
+
 |Header|Value|
 |------|-----|
-|Authorization|	Bearer {token}. Required.|
+|Authorization| Bearer {token}. Required.|
 
 ## Request body
 Do not supply a request body for this method.

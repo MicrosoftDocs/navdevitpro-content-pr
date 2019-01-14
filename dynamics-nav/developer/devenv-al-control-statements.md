@@ -198,13 +198,13 @@ end;
 
 Case statements are also called multiple option statements and are typically used when you must choose between more than two different actions. The method of the case statement is as follows:  
 
--   The *`<Expression>`* is evaluated, and the first matching value set executes the associated statement, if there is one.  
+- The *`<Expression>`* is evaluated, and the first matching value set executes the associated statement, if there is one.  
 
--   If no value set matches the value of the expression and the optional else part has been omitted, then no action is taken. If the optional else part is used, then the associated statement is executed.  
+- If no value set matches the value of the expression and the optional else part has been omitted, then no action is taken. If the optional else part is used, then the associated statement is executed.  
 
- The data type of the value sets must be the same as the data type of *`<Expression>`* or at least be convertible to the same data type.  
+  The data type of the value sets must be the same as the data type of *`<Expression>`* or at least be convertible to the same data type.  
 
- In most cases, the data type of the value sets are converted to the date type of the evaluated expression. The only exception is if the evaluated expression is a Code variable. If the evaluated expression is a Code variable, then the value sets are not converted to the Code data type.  
+  In most cases, the data type of the value sets are converted to the date type of the evaluated expression. The only exception is if the evaluated expression is a Code variable. If the evaluated expression is a Code variable, then the value sets are not converted to the Code data type.  
 
 > [!NOTE]  
 >  This type conversion can cause an overflow at run time if the resulting data type cannot hold the values of the datasets.  
@@ -379,7 +379,7 @@ while <Condition> do
   <Statement>  
 ```  
 
- If *`<Condition>`* is true, then *`<Statement>`* is executed repeatedly until *`<Condition>`* becomes false. If *`<Condition>`* is false from the start, then *`<*Statement>`* is never executed.  
+ If *`<Condition>`* is true, then *`<Statement>`* is executed repeatedly until *`<Condition>`* becomes false. If *`<Condition>`* is false from the start, then <em>`<</em>Statement>`* is never executed.  
 
  The while do statement can be used when some code should be repeated as long as an expression is true.  
 

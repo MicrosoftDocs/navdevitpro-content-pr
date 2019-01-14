@@ -1,4 +1,4 @@
-﻿---
+---
 title: System Requirements for Microsoft Dynamics NAV 2018
 description: This article provides the specifications of minimum hardware and software requirements to install and run Dynamics NAV 2018.
 author: jswymer

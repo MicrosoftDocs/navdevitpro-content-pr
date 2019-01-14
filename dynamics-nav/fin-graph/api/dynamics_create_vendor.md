@@ -23,6 +23,7 @@ POST /businesscentral/companies({id})/vendors
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
@@ -60,10 +61,7 @@ Content-type: application/json
   "taxRegistrationNumber": "",
   "currencyCode": "USD",
   "irs1099Code": "",
-  "paymentTerms": {
-    "code": "CM",
-    "description": "Current Month"
-  },
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
   "paymentMethod": {
     "code": "BANK",
     "description": "Bank Transfer"
@@ -90,7 +88,6 @@ Content-type: application/json
   "displayName": "Wide World Importers",
   "lastModifiedDateTime": "2015-11-09T02:14:32Z"
 }
-
 ```
 
 ## See also

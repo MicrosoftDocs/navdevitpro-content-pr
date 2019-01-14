@@ -23,20 +23,22 @@ After an event has been published by an event publisher function, you can modify
 ## Example  
  You want to raise an event when a user changes the **Address** field on the page **21 Customer Card**. The event is published by the event publisher function **OnAddressedLineChanged** in the codeunit **My Publishers**. The event publisher function **OnAddressedLineChanged** accepts a single text parameter. To raise the event this, you complete the following steps in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]:  
 
-1.  Add the following C/AL variable to page 21 Customer Card.  
+1. Add the following C/AL variable to page 21 Customer Card.  
 
-    |Variable name|DataType|Subtype|  
-    |-------------------|--------------|-------------|  
-    |Publisher|Codeunit|My Publisher|  
 
-2.  In C/AL code, add code on the **Address - OnValidate \(\)** trigger to call the OnAddressLineChanged function.  
+   | Variable name | DataType |   Subtype    |
+   |---------------|----------|--------------|
+   |   Publisher   | Codeunit | My Publisher |
 
-    ```  
-    Publisher.OnAddressLineChanged(Address);  
 
-    ```  
+2. In C/AL code, add code on the **Address - OnValidate \(\)** trigger to call the OnAddressLineChanged function.  
 
- For step-by-step instructions for this example, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough--Publishing--Raising--and-Subcribing-to-an-Event-in-Microsoft-Dynamics-NAV.md).  
+   ```  
+   Publisher.OnAddressLineChanged(Address);  
+
+   ```  
+
+   For step-by-step instructions for this example, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough--Publishing--Raising--and-Subcribing-to-an-Event-in-Microsoft-Dynamics-NAV.md).  
 
 ## See Also  
  [Publishing Events](Publishing-Events.md)   

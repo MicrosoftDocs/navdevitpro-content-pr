@@ -58,45 +58,45 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
   
 #### To verify availability of a [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)] web service  
   
-1.  Start Internet Explorer.  
+1. Start Internet Explorer.  
   
-2.  In the **Address** field, enter a URI in this format: **http://\<Server>:\<WebServicePort>/\<ServerInstance>/OData**. For example:  
+2. In the **Address** field, enter a URI in this format: **http://\<Server>:\<WebServicePort>/\<ServerInstance>/OData**. For example:  
   
-     **http://localhost:7048/DynamicsNAV/OData**  
+    **http://localhost:7048/DynamicsNAV/OData**  
   
-    1.  **Server** is the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+   1. **Server** is the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
-    2.  **WebServicePort** is the port that OData is running on. The default port is 7048.  
+   2. **WebServicePort** is the port that OData is running on. The default port is 7048.  
   
-     **ServiceInstance** is the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for your solution. The default name is [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].  
+      **ServiceInstance** is the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for your solution. The default name is [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].  
   
-     For example, if the [!INCLUDE[nav_server](includes/nav_server_md.md)] is running on the computer that you are working on, then you can use: **http://localhost:7048/DynamicsNAV/OData/**  
+      For example, if the [!INCLUDE[nav_server](includes/nav_server_md.md)] is running on the computer that you are working on, then you can use: **http://localhost:7048/DynamicsNAV/OData/**  
   
-     The browser should now show the web service that you have published, in the format of an AtomPub document.  
+      The browser should now show the web service that you have published, in the format of an AtomPub document.  
   
-     ![Basic AtomPub document for a page](media/BasAtomPub.JPG "BasAtomPub")  
+      ![Basic AtomPub document for a page](media/BasAtomPub.JPG "BasAtomPub")  
   
 ##  <a name="BKMK_CreateConsoleApp"></a> Creating the Console Application  
  Next, you create a C\# console application in Visual Studio 2012.  
   
 #### To create the C\# project  
   
-1.  In Visual Studio, on the **File** menu, point to **New**, and then choose **Project**.  
+1. In Visual Studio, on the **File** menu, point to **New**, and then choose **Project**.  
   
-2.  Expand the **Installed** node, expand the **Templates** node, expand the **Visual C\#** node, chose **Windows**, and then choose **Console Application**. Enter the name **NAVCustomers** for the application.  
+2. Expand the **Installed** node, expand the **Templates** node, expand the **Visual C\#** node, chose **Windows**, and then choose **Console Application**. Enter the name **NAVCustomers** for the application.  
   
-3.  Choose the **OK** button to exit the **New Project** page.  
+3. Choose the **OK** button to exit the **New Project** page.  
   
-4.  In the Solution Explorer pane, right-click **References**, and then choose **Add Service Reference**.  
+4. In the Solution Explorer pane, right-click **References**, and then choose **Add Service Reference**.  
   
-5.  In the **Address** field, enter the URI for your OData web service, such as **http://localhost:7048/DynamicsNAV/OData/**.  
+5. In the **Address** field, enter the URI for your OData web service, such as **http://localhost:7048/DynamicsNAV/OData/**.  
   
-    > [!IMPORTANT]  
-    >  In this example, we use the HTTP protocol to illustrate the use of OData web services. We recommend that you use the more secure HTTPS protocol when you consume web services.  
+   > [!IMPORTANT]  
+   >  In this example, we use the HTTP protocol to illustrate the use of OData web services. We recommend that you use the more secure HTTPS protocol when you consume web services.  
   
-6.  Choose **Go**, and then, in the **Services** field, choose **NAV**, and then choose the **OK** button.  
+6. Choose **Go**, and then, in the **Services** field, choose **NAV**, and then choose the **OK** button.  
   
- The project is created, and your OData web service is added as a service reference. Next, you add the code that will show a list of existing customers, add a customer and then rename the new customer.  
+   The project is created, and your OData web service is added as a service reference. Next, you add the code that will show a list of existing customers, add a customer and then rename the new customer.  
   
 #### To add code to your console application  
   

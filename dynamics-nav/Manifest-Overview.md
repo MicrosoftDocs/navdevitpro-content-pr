@@ -15,7 +15,7 @@ For a control add-in to work on all display targets there has to be a manifest. 
 
 ## Example of a Manifest  
  The syntax of a manifest file is illustrated in the following example. All elements inside the `<manifest>` element are optional.
- 
+
  <!-- Inside the `<Manifest>` element, the `<ScriptUrls>` element references other JavaScripts from the manifest. In this case the `<ScriptUrls>` element points to online map controls. The `<StyleSheetUrls>` element contains references to style sheets from external web sites.
  Inside the `<Resources>` element, all of the resources such as the script, style sheet, and images that are required to display the Bing Maps control add-in are listed.  
 
@@ -28,28 +28,28 @@ For a control add-in to work on all display targets there has to be a manifest. 
 ```  
 <?xml version="1.0" encoding="utf-8"?>  
 <Manifest>  
-    <Resources>  
-        <Image>PushpinBlue.png</Image>  
-        <Image>PushpinGreen.png</Image>  
-        <Image>PushpinRed.png</Image>  
-        <Script>Script.js</Script>  
-        <StyleSheet>StyleSheet.css</StyleSheet>  
-    </Resources>  
+    <Resources>  
+        <Image>PushpinBlue.png</Image>  
+        <Image>PushpinGreen.png</Image>  
+        <Image>PushpinRed.png</Image>  
+        <Script>Script.js</Script>  
+        <StyleSheet>StyleSheet.css</StyleSheet>  
+    </Resources>  
 
-    <ScriptUrls>  
-        <ScriptUrl>http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.3</ScriptUrl>  
-    </ScriptUrls>  
+    <ScriptUrls>  
+        <ScriptUrl>http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.3</ScriptUrl>  
+    </ScriptUrls>  
 
     <StyleSheetUrls>
         <StyleSheetUrl>http://www.microsoft.com/stylesheets/colors.css</StyleSheetUrl>
     </StyleSheetUrls>
 
-    <Script>  
-        <![CDATA[  
-            InitializeMap('controlAddIn');  
-            Microsoft.Dynamics.NAV.InvokeExtensibilityMethod('ControlAddInReady', null);  
-        ]]>  
-    </Script>  
+    <Script>  
+        <![CDATA[  
+            InitializeMap('controlAddIn');  
+            Microsoft.Dynamics.NAV.InvokeExtensibilityMethod('ControlAddInReady', null);  
+        ]]>  
+    </Script>  
 
     <RefreshScript>
         <![CDATA[
@@ -63,20 +63,20 @@ For a control add-in to work on all display targets there has to be a manifest. 
         ]]>
     </RecreateScript>
 
-    <RequestedHeight>300</RequestedHeight>  
-    <RequestedWidth>700</RequestedWidth>  
+    <RequestedHeight>300</RequestedHeight>  
+    <RequestedWidth>700</RequestedWidth>  
 
-    <MinimumHeight>200</MinimumHeight>  
-    <MinimumWidth>400</MinimumWidth>  
+    <MinimumHeight>200</MinimumHeight>  
+    <MinimumWidth>400</MinimumWidth>  
 
-    <MaximumHeight>800</MaximumHeight>  
-    <MaximumWidth>1000</MaximumWidth>  
+    <MaximumHeight>800</MaximumHeight>  
+    <MaximumWidth>1000</MaximumWidth>  
 
-    <VerticalStretch>true</VerticalStretch>  
-    <HorizontalStretch>true</HorizontalStretch>  
+    <VerticalStretch>true</VerticalStretch>  
+    <HorizontalStretch>true</HorizontalStretch>  
 
-    <VerticalShrink>true</VerticalShrink>  
-    <HorizontalShrink>true</HorizontalShrink> 
+    <VerticalShrink>true</VerticalShrink>  
+    <HorizontalShrink>true</HorizontalShrink> 
 
     <AllowCaption>false</AllowCaption>
 </Manifest>  
@@ -84,6 +84,7 @@ For a control add-in to work on all display targets there has to be a manifest. 
 ```  
 
 ### Manifest elements overview
+
 |  Element   |  Description  |
 |--------|---------------|
 |`<Resources>`|Contains all of the resources such as the script, style sheet, and images that are required to display the Bing Maps control add-in. Each resource is included in a child element, such as `<script>`, `<stylesheet>`, and `<image>`. |
@@ -235,9 +236,9 @@ int RequestedWidth()
 
 ```  
 <Resources>  
-    <Image>Blue.png</Image>  
-    <Script>Script.js</Script>  
-    <StyleSheet>StyleSheet.css</StyleSheet>  
+    <Image>Blue.png</Image>  
+    <Script>Script.js</Script>  
+    <StyleSheet>StyleSheet.css</StyleSheet>  
 </Resources>  
 
 ```  
@@ -254,9 +255,9 @@ int RequestedWidth()
 
 ```  
 <Resources>  
-    <Image>Images/Pushpins/Blue.png</Image>  
-    <Script>Scripts/Script.js</Script>  
-    <StyleSheet>StyleSheets/StyleSheet.css</StyleSheet>  
+    <Image>Images/Pushpins/Blue.png</Image>  
+    <Script>Scripts/Script.js</Script>  
+    <StyleSheet>StyleSheets/StyleSheet.css</StyleSheet>  
 </Resources>  
 
 ```  

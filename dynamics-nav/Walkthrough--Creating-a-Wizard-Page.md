@@ -16,16 +16,16 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
   
  In this walkthrough we will use and refer to the NavigatePage type as a wizard, but the NavigatePage type can also be used for other types of pages, for example, page 344, Navigate.  
   
-> [!IMPORTANT]  
+> [!IMPORTANT]
 >  When you design NavigatePage pages, there are a few things to be aware of. The ribbon is not displayed when it is run on [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], or [!INCLUDE[nav_phone](includes/nav_phone_md.md)].  
->   
+> 
 >  To get the right styling for the Back, Next, and Finish buttons, you must use specific images and set the **InFooterBar** property to **Yes**. Additionally,  
->   
->  -   for the **Back** button, set the **Image** property to **PreviousRecord**.  
-> -   for the **Next** button, set the **Image** property to **NextRecord**.  
-> -   for the **Finish** button, set the **Image** property to **Approve**.  
->   
->  The **Back**, **Next**, and **Finish** buttons are always displayed in this order and are always right-aligned.  
+> 
+> - for the **Back** button, set the **Image** property to **PreviousRecord**.  
+>   -   for the **Next** button, set the **Image** property to **NextRecord**.  
+>   -   for the **Finish** button, set the **Image** property to **Approve**.  
+> 
+>   The **Back**, **Next**, and **Finish** buttons are always displayed in this order and are always right-aligned.  
   
 ## About This Walkthrough  
  This walkthrough provides an overview of how to create the basic elements in a To-do wizard page using Page Designer.  
@@ -60,29 +60,29 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
   
 #### To create a wizard page  
   
-1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1. In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
-2.  In Object Designer, choose **Page**, and then choose **New**. The **New Page** window opens.  
+2. In Object Designer, choose **Page**, and then choose **New**. The **New Page** window opens.  
   
-3.  In the **Table** text box, choose the up arrow, select the table 5080, **To-do**, and then choose the **OK** button.  
+3. In the **Table** text box, choose the up arrow, select the table 5080, **To-do**, and then choose the **OK** button.  
   
-4.  Choose **Create blank page**, and then choose the **OK** button.  
+4. Choose **Create blank page**, and then choose the **OK** button.  
   
-     The new page appears in Page Designer.  
+    The new page appears in Page Designer.  
   
-5.  On the first row, ensure that the **Type** column is set to **Container** and that the **SubType** column is set to **ContentArea**. In the **Name** column, type **Ben's To-dos**.  
+5. On the first row, ensure that the **Type** column is set to **Container** and that the **SubType** column is set to **ContentArea**. In the **Name** column, type **Ben's To-dos**.  
   
-6.  Select a blank row, and on the **View** menu, choose **Properties**.  
+6. Select a blank row, and on the **View** menu, choose **Properties**.  
   
-7.  In the **PageType** property, set the **Value** field to **NavigatePage**.  
+7. In the **PageType** property, set the **Value** field to **NavigatePage**.  
   
-8.  Close the **Properties** window.  
+8. Close the **Properties** window.  
   
 9. Close the **Page Designer** window.  
   
 10. In the **Save As** dialog box, in the **Name** text box, enter **Ben's To-dos** and enter a page **ID**, for example, **50015**. Choose the **OK** button.  
   
- You have successfully created and saved a NavigatePage page, which you will use to create a To-do wizard. Next you must add steps to the wizard.  
+    You have successfully created and saved a NavigatePage page, which you will use to create a To-do wizard. Next you must add steps to the wizard.  
   
 ## Adding Steps to a Wizard Page  
  In a wizard page, steps are controls that you place on a NavigatePage to enable it to work like a wizard. These controls initially appear as tabs in the content area of the page. Simon can create steps in Page Designer by adding a different group element for each step that he wants to create. Each control is displayed as a separate step to the user. The following procedure shows how to create the first step in a To-do wizard that has four steps.  

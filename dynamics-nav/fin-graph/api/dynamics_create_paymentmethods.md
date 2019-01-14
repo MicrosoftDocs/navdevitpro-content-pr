@@ -23,6 +23,7 @@ POST /businesscentral/companies({id})/paymentMethods
 ```
 
 ## Request headers
+
 |Header         |Value                        |
 |---------------|-----------------------------|
 |Authorization  |Bearer {token}. Required.    |
@@ -67,7 +68,6 @@ Content-type: application/json
   "displayName": "Check payment",
   "lastModifiedDateTime": "2017-03-22T08:35:48.33Z"
 }
-
 ```
 
 

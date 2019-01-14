@@ -26,6 +26,7 @@ GET /businesscentral/api/beta/companies({id})/purchaseInvoices({invoiceid})/pdfD
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
@@ -71,6 +72,7 @@ The following example gets the actual PDF document:
 `GET /businesscentral/api/beta/companies({companyid})/purchaseInvoices({invoiceid})/pdfDocument({id})/content`
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |

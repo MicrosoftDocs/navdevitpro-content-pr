@@ -40,9 +40,9 @@ You might run into compilation errors, which can typically be caused by:
 
 > [!IMPORTANT]
 > In the app.json, keep the ID the same as in the V1 extension. Also, make sure to increase the version number.
-
+> 
 > The version number has the format `Major.Minor.Build.Revision`, for example `1.5.0.0`. To increase the version number, you must increase the value of `Major`, `Minor`, or `Build` by at least one, for example `1.5.1.0` or `1.6.0.0`. 
-
+> 
 > To use `NAVAPP.RestoreArchiveData()` method for upgrading, you must not change the IDs of the tables that are being restored; this means that tables from your V1 extension must have the same IDs in the V2 extensions. 
 
 ## Write upgrade code to move data from V1 Extensions

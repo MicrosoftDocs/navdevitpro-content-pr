@@ -39,12 +39,13 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 |[DELETE item defaultDimensions](../api/dynamics_item_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of item.  |
 
 ## Properties
-| Property	         | Type	|Description                                          |
+
+| Property           | Type |Description                                          |
 |:-------------------|:-------|:----------------------------------------------------|
 |id                  |GUID    |The unique ID of the item. Non-editable.             |
 |number              |string  |The item number.                                     |
 |displayName         |string  |Specifies a description of the item.                 |
-|type                |numeric |The inventory type for the item. 1 = inventory item, 2 = service item. This is a required property.|
+|type                |numeric |The inventory type for the item. 0 = inventory item, 1 = service item. This is a required property.|
 |blocked             |boolean |Specifies that transactions with the item cannot be posted, for example, because the item is in quarantine. Set to **true**, if item is blocked.|
 |baseUnitOfMeasureId |GUID    |Specifies the ID of the unit of measure.             |
 |baseUnitOfMeasure   |[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|Specifies the unit in which the item is held in inventory.|
@@ -86,7 +87,6 @@ Here is a JSON representation of the resource.
       "taxGroupCode": "string",
       "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also

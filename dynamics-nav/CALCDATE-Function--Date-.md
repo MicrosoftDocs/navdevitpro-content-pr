@@ -27,38 +27,38 @@ NewDate := CALCDATE(DateExpression [, Date])
   
  The date expression can be any length. The string is interpreted from left to right with one subexpression at a time. The following rules describe the valid syntax of date expressions:  
   
--   DateExpression = \[\<SubExpression>\]\[\<SubExpression>\]\[\<SubExpression>\]  
+- DateExpression = \[\<SubExpression>\]\[\<SubExpression>\]\[\<SubExpression>\]  
   
--   \<SubExpression> = \[\<Sign>\] \<Term>  
+- \<SubExpression> = \[\<Sign>\] \<Term>  
   
--   \<Sign> = + &#124; -  
+- \<Sign> = + &#124; -  
   
--   \<Term> = \<Number>\<Unit> &#124; \<Unit>\<Number> &#124; \<Prefix>\<Unit>  
+- \<Term> = \<Number>\<Unit> &#124; \<Unit>\<Number> &#124; \<Prefix>\<Unit>  
   
--   \<Number> = Positive integer  
+- \<Number> = Positive integer  
   
--   \<Unit> = D &#124; WD &#124; W &#124; M &#124; Q &#124; Y \(D=day, WD=weekday, W=week, M=month, Q=quarter, Y=year\)  
+- \<Unit> = D &#124; WD &#124; W &#124; M &#124; Q &#124; Y \(D=day, WD=weekday, W=week, M=month, Q=quarter, Y=year\)  
   
--   \<Prefix> = C \(C=current\)  
+- \<Prefix> = C \(C=current\)  
   
- These production rules show that date expressions consist of zero, one, two, or three subexpressions. Each subexpression consists of an optional sign and a term. The following are some typical examples of terms:  
+  These production rules show that date expressions consist of zero, one, two, or three subexpressions. Each subexpression consists of an optional sign and a term. The following are some typical examples of terms:  
   
--   30D \(30 days; corresponds to \<Number>\<Unit>\)  
+- 30D \(30 days; corresponds to \<Number>\<Unit>\)  
   
--   WD2 \(weekday number 2; corresponds to \<Unit>\<Number>\)  
+- WD2 \(weekday number 2; corresponds to \<Unit>\<Number>\)  
   
--   CW \(current week; corresponds to \<Prefix>\<Unit>\)  
+- CW \(current week; corresponds to \<Prefix>\<Unit>\)  
   
- The internal calendar of [!INCLUDE[navnow](includes/navnow_md.md)] starts on Monday and ends on Sunday. This means that Monday is weekday 1 and Sunday is weekday 7.  
+  The internal calendar of [!INCLUDE[navnow](includes/navnow_md.md)] starts on Monday and ends on Sunday. This means that Monday is weekday 1 and Sunday is weekday 7.  
   
- A run-time error occurs if the syntax of DateExpression is incorrect.  
+  A run-time error occurs if the syntax of DateExpression is incorrect.  
   
- *Date*  
- Type: Date  
+  *Date*  
+  Type: Date  
   
- Use this optional parameter to define a reference date. The default is the current system date.  
+  Use this optional parameter to define a reference date. The default is the current system date.  
   
- If you omit this optional value, the current system date is used.  
+  If you omit this optional value, the current system date is used.  
   
 ## Property Value/Return Value  
  Type: Date  

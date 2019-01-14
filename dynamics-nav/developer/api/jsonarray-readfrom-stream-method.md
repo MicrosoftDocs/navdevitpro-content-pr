@@ -56,7 +56,6 @@ local procedure ReadJson(source : InStream) result : JsonArray;
 begin
     result.ReadFrom(source);    
 end;
-
 ```
 ## See Also
 [JsonArray](jsonarray-class.md)  

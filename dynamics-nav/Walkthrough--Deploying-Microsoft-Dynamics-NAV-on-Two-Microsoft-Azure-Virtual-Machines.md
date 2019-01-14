@@ -20,15 +20,15 @@ The following walkthrough demonstrates how to use the Example-2VM.ps1 script of 
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
   
-1.  [Start Windows PowerShell ISE](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#StartPowerShell)  
+1. [Start Windows PowerShell ISE](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#StartPowerShell)  
   
-2.  [Modifying the Set-PartnerSettings File](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#ModSetPartnerSettings)  
+2. [Modifying the Set-PartnerSettings File](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#ModSetPartnerSettings)  
   
-3.  [Running the Example-1VM Script](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#RunExampleScript)  
+3. [Running the Example-1VM Script](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#RunExampleScript)  
   
-4.  [Opening the Microsoft Dynamics NAV Clients](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#OpenRTCs)  
+4. [Opening the Microsoft Dynamics NAV Clients](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#OpenRTCs)  
   
- This walkthrough sets up a [!INCLUDE[navnow](includes/navnow_md.md)] environment on Azure that has the following characteristics.  
+   This walkthrough sets up a [!INCLUDE[navnow](includes/navnow_md.md)] environment on Azure that has the following characteristics.  
   
 |Item|Value|  
 |----------|-----------|  
@@ -259,8 +259,8 @@ The following walkthrough demonstrates how to use the Example-2VM.ps1 script of 
     The Windows Client can be downloaded via ClickOnce at: http://MyNavVm.cloudapp.net:9004  
     The Web Client can be accessed at: https://MyNavVm.cloudapp.net/DynamicsNAV72_Ins1  
     A user has been added to the database with the following credentials:  
-      user=navuser  
-      password=[password]  
+      user=navuser  
+      password=[password]  
   
     ```  
   
@@ -281,11 +281,11 @@ The following walkthrough demonstrates how to use the Example-2VM.ps1 script of 
   
 #### To open the [!INCLUDE[nav_web](includes/nav_web_md.md)]  
   
-1.  Open an internet browser.  
+1. Open an internet browser.  
   
-2.  In the address, type the following address:  
+2. In the address, type the following address:  
   
-     **http://MyNavVm.cloudapp.net/DynamicsNAV72\_Instance1**  
+    <strong>http://MyNavVm.cloudapp.net/DynamicsNAV72\_Instance1</strong>  
   
 ## Next Steps  
  [Scaling the Microsoft Dynamics NAV Network Topology](Scaling-the-Microsoft-Dynamics-NAV-Network-Topology.md)  

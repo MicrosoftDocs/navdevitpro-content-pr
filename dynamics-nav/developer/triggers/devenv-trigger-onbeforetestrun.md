@@ -19,7 +19,6 @@ Executed before a test  of a test codeunit is run.
 
 ```
 OnBeforeTestRun(CodeunitID : Integer;CodeunitName : Text[30];MethodName : Text[128]; TestPermissions : Text) Ok : Boolean)
-
 ```
 
 ## Parameters

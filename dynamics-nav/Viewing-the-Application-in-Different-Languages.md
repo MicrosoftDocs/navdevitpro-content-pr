@@ -34,21 +34,21 @@ In a multilanguage-enabled application, you can view the text in any language th
   
  The algorithm searches for the text to use in the following order:  
   
-1.  The language of the object, which can be specified by a developer in C/AL code.  
+1. The language of the object, which can be specified by a developer in C/AL code.  
   
-2.  The primary language of the object language.  
+2. The primary language of the object language.  
   
-3.  The global language that is either selected by the user or specified by a developer in code.  
+3. The global language that is either selected by the user or specified by a developer in code.  
   
-4.  The primary language of the global language.  
+4. The primary language of the global language.  
   
-5.  The language of the localized version of the application.  
+5. The language of the localized version of the application.  
   
-6.  The primary language of the localized version of the application.  
+6. The primary language of the localized version of the application.  
   
- Text is always displayed, but you can have situations in which different pages or even different controls on a page are displayed in different languages.  
+   Text is always displayed, but you can have situations in which different pages or even different controls on a page are displayed in different languages.  
   
- To view all language IDs and the associated information, such as primary ID, name, and abbreviated name, you can design a page that is based on the **Windows Language** virtual table. For more information, see [Windows Language Virtual Table](Windows-Language-Virtual-Table.md).  
+   To view all language IDs and the associated information, such as primary ID, name, and abbreviated name, you can design a page that is based on the **Windows Language** virtual table. For more information, see [Windows Language Virtual Table](Windows-Language-Virtual-Table.md).  
   
 ## Help in the RoleTailored Client  
  In the [!INCLUDE[rtc](includes/rtc_md.md)], Help displays in the same language as you have selected in [!INCLUDE[navnow](includes/navnow_md.md)]. If the Help Server does not include that language, Help displays in English.  

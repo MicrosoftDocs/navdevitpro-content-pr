@@ -17,13 +17,13 @@ You can view the definition of a function or object by selecting the item in the
   
  To go to the definition of a function or object, select or place the cursor anywhere in the function name or object variable name, and then do one of the following:  
   
--   On the **View** menu, choose **Go To Definition**.  
+- On the **View** menu, choose **Go To Definition**.  
   
--   Right-click the function name or object variable name, and then choose **Go To Definition**.  
+- Right-click the function name or object variable name, and then choose **Go To Definition**.  
   
--   Press Ctrl+F12.  
+- Press Ctrl+F12.  
   
- The following table describes how you can go to the definition of a function or object.  
+  The following table describes how you can go to the definition of a function or object.  
   
 |Starting location|Result|  
 |-----------------------|------------|  
@@ -81,35 +81,35 @@ You can view the definition of a function or object by selecting the item in the
 ###  <a name="BKMK_VariableFromTheCALEditor"></a> Object Variable from the C/AL Editor  
  From the C/AL Editor, right-click a variable that is one of the following object types, and then choose **Go To Definition**:  
   
--   Record  
+- Record  
   
--   Page  
+- Page  
   
--   Report  
+- Report  
   
--   Codeunit  
+- Codeunit  
   
--   XMLport  
+- XMLport  
   
--   Query  
+- Query  
   
- ![Go To Definition from Record variable](media/GoToDef_FromCALEditor_Var.jpg "GoToDef\_FromCALEditor\_Var")  
+  ![Go To Definition from Record variable](media/GoToDef_FromCALEditor_Var.jpg "GoToDef\_FromCALEditor\_Var")  
   
- The object is opened in the corresponding designer:  
+  The object is opened in the corresponding designer:  
   
--   Table Designer  
+- Table Designer  
   
--   Page Designer  
+- Page Designer  
   
--   Report Dataset Designer  
+- Report Dataset Designer  
   
--   C/AL Editor  
+- C/AL Editor  
   
--   XMLport Designer  
+- XMLport Designer  
   
--   Query Designer  
+- Query Designer  
   
- ![Go To Definition from Record variable](media/GoToDef_FromCALEditor_VarResult.jpg "GoToDef\_FromCALEditor\_VarResult")  
+  ![Go To Definition from Record variable](media/GoToDef_FromCALEditor_VarResult.jpg "GoToDef\_FromCALEditor\_VarResult")  
   
 ## Permissions  
  To go to a definition, you must have the correct permissions. If you do not have permission to view the definition of an object by selecting the object in Object Designer and then choosing **Design**, then you cannot view it with the **Go To Definition** option.

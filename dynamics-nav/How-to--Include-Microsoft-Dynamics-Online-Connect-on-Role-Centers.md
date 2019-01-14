@@ -38,28 +38,28 @@ The RoleTailored client installation includes a control add-in that you can use 
 
 #### To set up Connect on a Role Center without the demo database installed  
 
-1.  Register the Connect control add-in in the Client add-in table of the [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] database. You must provide the following information:  
+1. Register the Connect control add-in in the Client add-in table of the [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] database. You must provide the following information:  
 
-    -   Control add-in name - Microsoft.Dynamics.NAV.MicrosoftDynamicsOnlineConnectControl  
+   - Control add-in name - Microsoft.Dynamics.NAV.MicrosoftDynamicsOnlineConnectControl  
 
-    -   Public token key - 31bf3856ad364e35  
+   - Public token key - 31bf3856ad364e35  
 
      For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
 
-2.  Use the Connect control add-in on a page.  
+2. Use the Connect control add-in on a page.  
 
-     For more information, see [How to: Set Up a Windows Client Control Add-in on a Page](How-to--Set-Up-a-Windows-Client-Control-Add-in-on-a-Page.md).  
+    For more information, see [How to: Set Up a Windows Client Control Add-in on a Page](How-to--Set-Up-a-Windows-Client-Control-Add-in-on-a-Page.md).  
 
-3.  Create the Role Center page and include a part that uses the Connect page from step 2.  
+3. Create the Role Center page and include a part that uses the Connect page from step 2.  
 
-     For more information, see [Walkthrough: Creating a Role Center](Walkthrough--Creating-a-Role-Center.md).  
+    For more information, see [Walkthrough: Creating a Role Center](Walkthrough--Creating-a-Role-Center.md).  
 
-4.  Define the Role Center profile that is supported by Connect and assign it your Role Center.  
+4. Define the Role Center profile that is supported by Connect and assign it your Role Center.  
 
-     For more information, see [How to: Create a Profile](how-to-create-a-profile.md).  
+    For more information, see [How to: Create a Profile](how-to-create-a-profile.md).  
   
-    > [!NOTE]  
-    >  You can also use a profile that is not supported by Connect. In this case, when the Role Center opens, the user is prompted to choose a supported profile.  
+   > [!NOTE]  
+   >  You can also use a profile that is not supported by Connect. In this case, when the Role Center opens, the user is prompted to choose a supported profile.  
 
 ## See Also  
  [Including Microsoft Dynamics Online Connect on Role Centers](Including-Microsoft-Dynamics-Online-Connect-on-Role-Centers.md)   

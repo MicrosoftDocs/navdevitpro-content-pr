@@ -79,13 +79,13 @@ If you are running the [!INCLUDE[nav_server](includes/nav_server_md.md)] under a
 1. Get the SID of the user account.
 
     The SID is an alphanumeric character string, such as S-1-5-20 or S-1-5-32-544. There are different ways to get the SID, such using Windows Management Instrumentation Control Command-line (WMIC) or the computer's registry.
-    -   To use WMIC, open a command prompt, and run the following command:
+   - To use WMIC, open a command prompt, and run the following command:
     
-    ```wmic useraccount get name,sid```
+     ```wmic useraccount get name,sid```
     
-        This will display a list of user accounts and their SIDs. 
+     This will display a list of user accounts and their SIDs. 
     
-    -   To use the registry, run regedit, and then go to the *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList* folder. This folder list the SIDs for each user account. To find the SID that corresponds to the user account that you want, look at the *ProfileImagePath* key data.
+   - To use the registry, run regedit, and then go to the *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList* folder. This folder list the SIDs for each user account. To find the SID that corresponds to the user account that you want, look at the *ProfileImagePath* key data.
 
 2. Using a text editor, open the SMSvcHost.exe.config file.
 

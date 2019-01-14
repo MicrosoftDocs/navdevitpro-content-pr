@@ -40,15 +40,15 @@ SELECT C.Name, C.No_, SL.Amount FROM [CRONUS International Ltd_$Customer] AS C, 
 ## Creating a Query That Links Two Tables  
  Viktor wants to create a dataset that contains the quantity of items and the customer name for every sales order. The customer name is stored in the **Customer** table. Sales order quantities are stored in the **Sales Line** table. To create this dataset, Viktor will use Query Designer to create a query and do the following:  
   
-1.  Include data items and columns for the **Customer** and **Sales Lines** tables and their fields.  
+1. Include data items and columns for the **Customer** and **Sales Lines** tables and their fields.  
   
-     A *data item* defines a table to retrieve data from. Viktor will add one data item for the **Customer** table and another data item for the **Sales Line** table. A *column* specifies a field from a table to be displayed in the resulting dataset. Viktor will add columns for the **No.** and **Name** fields from the **Customer** table, and a column for the **Quantity** field from the **Sales Line** table.  
+    A *data item* defines a table to retrieve data from. Viktor will add one data item for the **Customer** table and another data item for the **Sales Line** table. A *column* specifies a field from a table to be displayed in the resulting dataset. Viktor will add columns for the **No.** and **Name** fields from the **Customer** table, and a column for the **Quantity** field from the **Sales Line** table.  
   
-2.  Link the **Customer** table and **Sales Line** table.  
+2. Link the **Customer** table and **Sales Line** table.  
   
-     To generate a dataset from the **Customer** table and **Sales Line** table, Viktor must *link* the two tables. A link specifies a condition between two fields of the tables that must be met for a record to be included in the dataset. To link the two tables, Viktor must first identify a field that is common in both tables. He determines that the **No.** field in the **Customer** table is the same as the **Sell-to Customer No.** field in the **Sales Line** table. For a record to be included in the resulting dataset, the value of the **No.** field in the **Customer** table must equal the **Sell-to Customer No.** field in the **Sales Line** table.  
+    To generate a dataset from the **Customer** table and **Sales Line** table, Viktor must *link* the two tables. A link specifies a condition between two fields of the tables that must be met for a record to be included in the dataset. To link the two tables, Viktor must first identify a field that is common in both tables. He determines that the **No.** field in the **Customer** table is the same as the **Sell-to Customer No.** field in the **Sales Line** table. For a record to be included in the resulting dataset, the value of the **No.** field in the **Customer** table must equal the **Sell-to Customer No.** field in the **Sales Line** table.  
   
- To create this dataset in a [!INCLUDE[navnow](includes/navnow_md.md)] query, Viktor creates a query in Object Designer.  
+   To create this dataset in a [!INCLUDE[navnow](includes/navnow_md.md)] query, Viktor creates a query in Object Designer.  
   
 #### To create a query that includes columns from the Customer table and the Sales Line table  
   
@@ -71,31 +71,31 @@ SELECT C.Name, C.No_, SL.Amount FROM [CRONUS International Ltd_$Customer] AS C, 
   
 #### To link the Customer table and the Sales Line table  
   
-1.  In Query Designer, select the **SL** data item.  
+1. In Query Designer, select the **SL** data item.  
   
-    > [!IMPORTANT]  
-    >  When you create a link between two data items, you set up the link on the lower of the two data items in Query Designer.  
+   > [!IMPORTANT]  
+   >  When you create a link between two data items, you set up the link on the lower of the two data items in Query Designer.  
   
-2.  On the **View** menu, choose **Properties**. The **SL - Properties** window opens  
+2. On the **View** menu, choose **Properties**. The **SL - Properties** window opens  
   
-3.  In the **Value** field of the **DataItemLink** property, choose the **AssistEdit** button.  
+3. In the **Value** field of the **DataItemLink** property, choose the **AssistEdit** button.  
   
-     The **DataItem Link** window opens. You use this window to create a reference link between the **Sell-to Customer No.** field of the **Sales Line** table and the **No.** field of the **Customer** table.  
+    The **DataItem Link** window opens. You use this window to create a reference link between the **Sell-to Customer No.** field of the **Sales Line** table and the **No.** field of the **Customer** table.  
   
-4.  In the **DataItem Link** window, in the **Field** column, choose the up arrow.  
+4. In the **DataItem Link** window, in the **Field** column, choose the up arrow.  
   
-    > [!NOTE]  
-    >  **DataItem Link** is like a WHERE clause in an SQL statement.  
+   > [!NOTE]  
+   >  **DataItem Link** is like a WHERE clause in an SQL statement.  
   
-5.  In the **Sales Line – Field List** window, select **Sell-to Customer No.**, and then choose the **OK** button.  
+5. In the **Sales Line – Field List** window, select **Sell-to Customer No.**, and then choose the **OK** button.  
   
-6.  In the **Reference DataItem** column, choose the up arrow.  
+6. In the **Reference DataItem** column, choose the up arrow.  
   
-     The **DataItem List – Table** window opens. You use this window to create a link to the **Customer** table.  
+    The **DataItem List – Table** window opens. You use this window to create a link to the **Customer** table.  
   
-7.  In the **DataItem List** window. select the **C** data item row, and then choose the **OK** button.  
+7. In the **DataItem List** window. select the **C** data item row, and then choose the **OK** button.  
   
-8.  In the **Reference Field** column, choose the up arrow.  
+8. In the **Reference Field** column, choose the up arrow.  
   
 9. In the **Customer – Field List** window, select **No.**, and then choose the **OK** button.  
   
@@ -106,9 +106,9 @@ SELECT C.Name, C.No_, SL.Amount FROM [CRONUS International Ltd_$Customer] AS C, 
     > [!NOTE]  
     >  **Exclude If No Match** only includes rows where the linked fields from both data items are equal.  
   
- The following figure shows Query Designer and **Properties** window.  
+    The following figure shows Query Designer and **Properties** window.  
   
- ![Query Join SalespersonPurchaser and SalesHeader](media/Query_WalkthroughJoin.png "Query\_WalkthroughJoin")  
+    ![Query Join SalespersonPurchaser and SalesHeader](media/Query_WalkthroughJoin.png "Query\_WalkthroughJoin")  
   
 ## Saving and Running the Query  
  Viktor wants to verify that the query describes the dataset that he wants. He saves the query, and then runs it from Object Designer. The call to run the query runs on [!INCLUDE[nav_server](includes/nav_server_md.md)] and opens a view of the dataset in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  

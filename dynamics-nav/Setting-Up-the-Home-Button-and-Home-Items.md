@@ -41,18 +41,18 @@ manager: edupont
 ## Hiding and Customizing the Home Button and Items in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
  The **Home** button is always present in the navigation pane and cannot be removed or modified that included its icon. From the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], end-users and administrators can use customization to change the items under the **Home** button including:  
   
--   Removing home items.  
+- Removing home items.  
   
-    > [!NOTE]  
-    >  Home items that are created from Cues cannot be removed using customization. The only way to remove these items is to remove the Cue by using Page Designer.  
+  > [!NOTE]  
+  >  Home items that are created from Cues cannot be removed using customization. The only way to remove these items is to remove the Cue by using Page Designer.  
   
--   Moving home items to other Activity buttons.  
+- Moving home items to other Activity buttons.  
   
--   Restoring the default Home items as defined in the Action Designer on the Role Center page.  
+- Restoring the default Home items as defined in the Action Designer on the Role Center page.  
   
- As an end-user, the changes are only implemented on the user’s Role Center. For more information, see [Profiles and Role Centers](Profiles-and-Role-Centers.md).  
+  As an end-user, the changes are only implemented on the user’s Role Center. For more information, see [Profiles and Role Centers](Profiles-and-Role-Centers.md).  
   
- If you are an administrator, then you can open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] in the Configuration mode and the changes that you make will be implemented on the Role Center for all users. For more information, see [How to: Open Microsoft Dynamics NAV in Configuration Mode](how-to-open-microsoft-dynamics-nav-in-configuration-mode.md).  
+  If you are an administrator, then you can open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] in the Configuration mode and the changes that you make will be implemented on the Role Center for all users. For more information, see [How to: Open Microsoft Dynamics NAV in Configuration Mode](how-to-open-microsoft-dynamics-nav-in-configuration-mode.md).  
   
 ## See Also  
  [Customization: Configuration and Personalization](Customization:-Configuration-and-Personalization.md)   

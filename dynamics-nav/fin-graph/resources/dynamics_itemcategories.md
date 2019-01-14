@@ -30,7 +30,8 @@ Represents a category for a number of items in [!INCLUDE[d365fin_long_md](../../
 |[DELETE itemCategories](../api/dynamics_itemcategories_delete.md)|none          |Delete an item category.|
 
 ## Properties
-| Property	         | Type	  |Description                                     |
+
+| Property           | Type   |Description                                     |
 |:-------------------|:-------|:-----------------------------------------------|
 |id                  |GUID    |The unique ID of the itemCategory. Non-editable.|
 |code                |string  |The itemCategory code.                          |

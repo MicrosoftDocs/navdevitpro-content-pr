@@ -23,6 +23,7 @@ DELETE /businesscentral/companies({id})/purchaseInvoices({id})/purchaseInvoiceLi
 ```
 
 ## Request headers
+
 |Header         |Value                      |
 |---------------|---------------------------|
 |Authorization  |Bearer {token}. Required.  |

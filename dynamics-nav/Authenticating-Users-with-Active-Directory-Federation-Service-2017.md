@@ -10,11 +10,13 @@ ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
 # Authenticating Users with Active Directory Federation Services
+
 **Applies to:** [!INCLUDE[navcrete_md](includes/navcrete_md.md)] (Cummulative Update 14 and later), [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] (Cummulative Update 2 and later), [!INCLUDE[nav2017](includes/nav2017.md)]
 
 [!INCLUDE[navnow](includes/navnow_md.md)] supports Active Directory Federation Services (AD FS) authentication for authenticating users, without having to use the Access Control Service (ACS). This article walks you through the steps about how to set up AD FS authentication in AD FS Management console, and then how to configure it in [!INCLUDE[navnow](includes/navnow_md.md)].
 
 ## Prerequisites
+
 Your deployment must meet the following prerequisites:
 
 -   Active Directory Federation Services (AD FS) is installed on the computer that you want to prepare as the federation server.
@@ -41,72 +43,72 @@ These steps are done by using the AD FS Management console on the server where A
 ### Set up a Relying Party Trust for the Dynamics NAV client
 You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_web_md.md)] and [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)].
 
-1.  Open **Server Manager** on the computer that is running AD FS, and the choose **AD FS** to start **AD FS Management**.
+1. Open **Server Manager** on the computer that is running AD FS, and the choose **AD FS** to start **AD FS Management**.
 
-    ![AD FS Management](media/ADFS_Console.png "AD FS Management")
-2.  Right-click **Relying Party Trusts**, and then choose **Add Relying Party Trust**.
-    The **Add Relying Party Trust Wizard** appears.
-3.  In the **Welcome** step, choose **Claims aware**, and then choose **Start**.
+   ![AD FS Management](media/ADFS_Console.png "AD FS Management")
+2. Right-click **Relying Party Trusts**, and then choose **Add Relying Party Trust**.
+   The **Add Relying Party Trust Wizard** appears.
+3. In the **Welcome** step, choose **Claims aware**, and then choose **Start**.
 
-    ![AD FS Relying Trust Wizard](media/ADFS_Relying_Trust_Wizard.png "AD FS Relying Trust Wizard")
-4.  In the **Select Data Source** step, choose **Enter data about the relying party manually**, and then choose **Next**.
-5.  In the **Specify Display Name** step, give the relying party a name, such as ```Dynamics NAV Web Client``` or ```Dynamics NAV Windows Client```, and then choose **Next**.
-6.  In the **Configure Certificate** step, choose **Next** to skip specifying the token encryption certificate.
+   ![AD FS Relying Trust Wizard](media/ADFS_Relying_Trust_Wizard.png "AD FS Relying Trust Wizard")
+4. In the **Select Data Source** step, choose **Enter data about the relying party manually**, and then choose **Next**.
+5. In the **Specify Display Name** step, give the relying party a name, such as ```Dynamics NAV Web Client``` or ```Dynamics NAV Windows Client```, and then choose **Next**.
+6. In the **Configure Certificate** step, choose **Next** to skip specifying the token encryption certificate.
 
-    This assumes that the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] is running https.
-7.  In the **Configure URL** step, select the **Enable support for the WS-federation Passive protocol** check box.
+   This assumes that the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] is running https.
+7. In the **Configure URL** step, select the **Enable support for the WS-federation Passive protocol** check box.
 
-    ![AD FS Configure URL](media/ADFS_Relying_Trust_ConfigureURL.png "AD FS Configure URL")
+   ![AD FS Configure URL](media/ADFS_Relying_Trust_ConfigureURL.png "AD FS Configure URL")
 
-    Then, in **Relying party WS-Federation Passive Control URL** field, enter the URL for the [!INCLUDE[navnow](includes/navnow_md.md)] client according to the following:
+   Then, in **Relying party WS-Federation Passive Control URL** field, enter the URL for the [!INCLUDE[navnow](includes/navnow_md.md)] client according to the following:
 
-    -    If you are setting up AD FS for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], set this to the full URL for the Web client. The URL typically has the format:
+   - If you are setting up AD FS for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], set this to the full URL for the Web client. The URL typically has the format:
 
-        ```
-        https://[web-server-computer]:[port]/[web-server-instance]/WebClient
-        ```
+     ```
+     https://[web-server-computer]:[port]/[web-server-instance]/WebClient
+     ```
 
-        For example:
+     For example:
 
-        ```
-        https://MyWebServer:8080/DynamicsNAV110/WebClient
-        ```
+     ```
+     https://MyWebServer:8080/DynamicsNAV110/WebClient
+     ```
 
-    -   If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], use base URL for the Web client, which is the full URL without the ```/[web-instance]/WebClient``` part. This typically has the format:
+   - If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], use base URL for the Web client, which is the full URL without the ```/[web-instance]/WebClient``` part. This typically has the format:
 
-        ```
-        https://[web-server-computer]:[port]/[web-instance]
-        ```
+     ```
+     https://[web-server-computer]:[port]/[web-instance]
+     ```
 
-        For example:
+     For example:
 
-        ```
-        https://MyWebServer:8080
-        ```
+     ```
+     https://MyWebServer:8080
+     ```
 
-    Choose **Next** to continue.
+   Choose **Next** to continue.
 
-    >[!Note]
-    >This is the URL to which AD FS will be allowed to issue authentication tokens.
+   >[!Note]
+   >This is the URL to which AD FS will be allowed to issue authentication tokens.
 
-8.  In the **Configure Identifiers** step, in the **Relying party trust identifier** field, remove the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] URL, and then add one of the following URL instead:
+8. In the **Configure Identifiers** step, in the **Relying party trust identifier** field, remove the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] URL, and then add one of the following URL instead:
 
-    -   If you are setting up AD FS for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], add the URL:
-        ```
-        https://dynamicsnavwebclient
-        ```
-    -   If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], add the URL:
-    ```
-    https://dynamicsnavwinclient
-    ```
+   - If you are setting up AD FS for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], add the URL:
+     ```
+     https://dynamicsnavwebclient
+     ```
+   - If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], add the URL:
+     ```
+     https://dynamicsnavwinclient
+     ```
 
-    Choose **Next** to continue.
+   Choose **Next** to continue.
 
-    >[!Important]
-    >This is the URL which is used to identify the relying party, and it has to be unique for the AD FS setup. This URL will be used as the **wtrealm** parameter in the **WSFederationLoginEndpoint** setting of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance configuration (CustomSettings.config file).
+   >[!Important]
+   >This is the URL which is used to identify the relying party, and it has to be unique for the AD FS setup. This URL will be used as the **wtrealm** parameter in the **WSFederationLoginEndpoint** setting of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance configuration (CustomSettings.config file).
 
-9.  In the **Choose Access Control Policy** step, setup multi-factor authentication if required, and then choose **Next**.
-10.  Review the configuration, and then choose **Next**.
+9. In the **Choose Access Control Policy** step, setup multi-factor authentication if required, and then choose **Next**.
+10. Review the configuration, and then choose **Next**.
 11. On the **Finish** step, select the **Configure claims issuance policy for the application** check box, and then choose **Next**.
 
 Based on whether you will be using SAML tokens or JSON Web Tokens (JWT), which are supported from AD FS 3.0 and later), you need to add different claims. Complete one of the following procedures for your token type.

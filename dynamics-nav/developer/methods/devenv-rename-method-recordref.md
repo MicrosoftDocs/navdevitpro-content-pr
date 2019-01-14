@@ -44,31 +44,31 @@ Changes the value of a primary key in a table.
 ## Remarks  
  You cannot rename some tables. Examples of the types of tables that you cannot rename are:  
   
--   Tables in which the user is not allowed to rename the Document No. for legal or business reasons.  
+- Tables in which the user is not allowed to rename the Document No. for legal or business reasons.  
   
--   Tables in which an Option data type field, such as Document Type, is part of the primary key.  
+- Tables in which an Option data type field, such as Document Type, is part of the primary key.  
   
- Some examples of tables that you cannot rename are:  
+  Some examples of tables that you cannot rename are:  
   
--   Table 36, Sales Header  
+- Table 36, Sales Header  
   
--   Table 38, Purchase Header  
+- Table 38, Purchase Header  
   
--   Table 5405, Production Order  
+- Table 5405, Production Order  
   
--   Table 5766, Warehouse Activity Header  
+- Table 5766, Warehouse Activity Header  
   
- If an end-user modifies a record between the time that another end-user or another process reads the record and modifies it, then the second user must refresh the value of the record variable before editing the record. Otherwise, the end-user receives the following run-time error:  
+  If an end-user modifies a record between the time that another end-user or another process reads the record and modifies it, then the second user must refresh the value of the record variable before editing the record. Otherwise, the end-user receives the following run-time error:  
   
- **Another user has modified the record for this \<Table Name> after you retrieved it from the database.**  
+  **Another user has modified the record for this \<Table Name> after you retrieved it from the database.**  
   
- **Enter your changes again in the updated window, or start the interrupted activity again.**  
+  **Enter your changes again in the updated window, or start the interrupted activity again.**  
   
- In earlier versions of [!INCLUDE[d365fin_md](../includes/d365fin_md.md)], certain situations allowed code that an end-user runs to modify a record after a newer version of the record was written and committed to the database. This would overwrite the newer changes. However, in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)], we have restricted the [MODIFY Method \(RecordRef\)](devenv-MODIFY-Method-RecordRef.md), **RENAME** Method \(RecordRef\), and [DELETE Method \(RecordRef\)](devenv-DELETE-Method-RecordRef.md) so that the end-user receives the following run-time error in these certain situations:  
+  In earlier versions of [!INCLUDE[d365fin_md](../includes/d365fin_md.md)], certain situations allowed code that an end-user runs to modify a record after a newer version of the record was written and committed to the database. This would overwrite the newer changes. However, in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)], we have restricted the [MODIFY Method \(RecordRef\)](devenv-MODIFY-Method-RecordRef.md), **RENAME** Method \(RecordRef\), and [DELETE Method \(RecordRef\)](devenv-DELETE-Method-RecordRef.md) so that the end-user receives the following run-time error in these certain situations:  
   
- **Unable to change an earlier version of the \<Table Name> record. The record should be read from the database again. This is a programming error.**  
+  **Unable to change an earlier version of the \<Table Name> record. The record should be read from the database again. This is a programming error.**  
   
- You must design your application so that you use the most up-to-date version of the record for modifications to the database. You use the [GET Method \(RecordRef\)](devenv-GET-Method-RecordRef.md) to refresh the record with the latest version.  
+  You must design your application so that you use the most up-to-date version of the record for modifications to the database. You use the [GET Method \(RecordRef\)](devenv-GET-Method-RecordRef.md) to refresh the record with the latest version.  
   
 ## Example  
  This example shows how to change the value of the primary key of a Record variable, and how to change the value of the primary key of a RecordRef variable. This example requires that you create the following global variables.  

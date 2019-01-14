@@ -39,7 +39,8 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 |[DELETE vendor defaultDimensions](../api/dynamics_vendor_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of vendor.  |
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the vendor. Non-editable.|
 |number|string|The vendor number.|
@@ -83,7 +84,6 @@ Here is a JSON representation of the vendor.
   "currencyCode": "string",
   "irs1099Code": "string",
   "paymentTermsId": "GUID",
-  "paymentTerms": "NAV.PaymentTermsType",
   "paymentMethodId": "GUID",
   "paymentMethod": "NAV.PaymentMethod",
   "taxLiable": "boolean",
@@ -91,7 +91,6 @@ Here is a JSON representation of the vendor.
   "balance": "decimal",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also

@@ -22,15 +22,15 @@ When you install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the **
 
  In Setup, select one of the following [Installation Options](Installation-Options.md) to install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]:  
 
--   [Client Option](Client-Option.md)  
+- [Client Option](Client-Option.md)  
 
--   [Developer Option](Developer-Option.md)  
+- [Developer Option](Developer-Option.md)  
 
- You can also customize your installation and customize the list of components to install. For more information, see [How to: Choose Components to Install](How-to--Choose-Components-to-Install.md).  
+  You can also customize your installation and customize the list of components to install. For more information, see [How to: Choose Components to Install](How-to--Choose-Components-to-Install.md).  
 
- After you specify an installation option or customize your component list, the **Specify parameters** pane is displayed in Setup. The list of parameters that you see in the **Specify parameters** pane depends on which components that you have selected for configuration. Setup provides a short description for each parameter. For a description of the most important parameters for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], see [Client Option](Client-Option.md).  
+  After you specify an installation option or customize your component list, the **Specify parameters** pane is displayed in Setup. The list of parameters that you see in the **Specify parameters** pane depends on which components that you have selected for configuration. Setup provides a short description for each parameter. For a description of the most important parameters for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], see [Client Option](Client-Option.md).  
 
- Choose **Apply** when you have finished entering values on the **Specify parameters** page in Setup. If you want to change the configuration after installation, you can modify the ClientUserSettings.config file for each client.  
+  Choose **Apply** when you have finished entering values on the **Specify parameters** page in Setup. If you want to change the configuration after installation, you can modify the ClientUserSettings.config file for each client.  
 
 ##  <a name="afterset"></a> Configuring the Microsoft Dynamics NAV Windows Client After Installation  
  [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup installs ClientUserSettings.config, the default configuration file, with the values that you provided as you ran Setup. This file is stored in C:\\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\110. The first time a user runs the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], a copy of ClientUserSettings.config is copied to C:\\Users\\\<username>\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\110, where \<username> is the name of the user. This folder and file are hidden by default.  

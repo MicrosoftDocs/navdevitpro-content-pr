@@ -14,12 +14,13 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-differences
 ---
 
- 
+
 
 # Differences in the Development Environments
 Coming from the Dynamics NAV Development Environment and C/SIDE, there are some differences and optimizations that you should familiarize yourself with. The following sections go through these changes.  
 
 ## Data types
+
 |C/SIDE|AL Language Development Environment|
 |------|---------------------------|
 |Dates are parsed based on culture settings.| Locale independent and supports only: ```yyyy-mm-ddD```.|
@@ -28,10 +29,11 @@ Coming from the Dynamics NAV Development Environment and C/SIDE, there are some 
 |The largest constant integer could be `999999999999999`. | Transforms to `999'999'999'999'999.0`, a decimal value. In AL, this can be expressed as `999999999999999.0` or `999999999999999L`.|
 
 ## Syntax updates
+
 |C/SIDE|AL Language Development Environment|
 |------|---------------------------|
 |The token for multilanguage comment is @@@.|A multilanguage comment is marked with Comment.|
-|Supports TryFunction on code developed in C/SIDE.|Supports calling referenced TryFunctions from W1.|  
+|Supports TryFunction on code developed in C/SIDE.|Supports calling referenced TryFunctions from W1.|  
 
 Several properties have been renamed, to mention some:
 
@@ -43,7 +45,7 @@ Several properties have been renamed, to mention some:
 |ProviderID|Provider|
 
 > [!NOTE]
-> Property values are considered as syntax elements; thus they should follow the standard AL escaping rules. 
+> Property values are considered as syntax elements; thus they should follow the standard AL escaping rules. 
 
 ## Multilanguage properties
 With the introduction of .xliff files, the ML properties, such as **CaptionML** and **TooltipML** will be deprecated in a later version. Use the equivalent properties instead, such as **Caption** and **Tooltip**, then make sure the manifest is set up to generate the `/Translations` folder and use the generated .xliff files for translations of the extension. For more information, see [Working with Translation Files](devenv-work-with-translation-files.md).
@@ -53,12 +55,12 @@ The ```ActionContainer``` elements in AL have been renamed; the following table 
 
 |C/SIDE|AL Language Development Environment|
 |------|---------------------------|
-|ActionItems       | Processing    |
-|ActivityButtons   | Sections      |
-|HomeItems         | Embedding     |
-|NewDocumentItems  | Creation      |
-|RelatedInformation| Navigation    |
-|Reports           | Reporting     |
+|ActionItems       | Processing    |
+|ActivityButtons   | Sections      |
+|HomeItems         | Embedding     |
+|NewDocumentItems  | Creation      |
+|RelatedInformation| Navigation    |
+|Reports           | Reporting     |
 
 For instance, ```area(Sections)``` can be defined inside the ```actions``` section of the page.
 
@@ -71,7 +73,7 @@ Likewise, ```Container``` and ```ContainerType``` elements in C/SIDE have been r
 For syntax examples, see [Page Object](devenv-page-object.md).
 
 ## Naming
-Controls, actions, and methods names must be unique on pages. In C/SIDE, you could create a Part control with the same name as a method, which would give you an error at runtime. This is now prevented, by disallowing duplicates. Similarly, trigger and trigger event names are disallowed on matching application object types. Likewise, actions and fields could have same names before, but that would have prevented page testability access, and will now throw a compilation error. 
+Controls, actions, and methods names must be unique on pages. In C/SIDE, you could create a Part control with the same name as a method, which would give you an error at runtime. This is now prevented, by disallowing duplicates. Similarly, trigger and trigger event names are disallowed on matching application object types. Likewise, actions and fields could have same names before, but that would have prevented page testability access, and will now throw a compilation error. 
 
 
 > [!NOTE]

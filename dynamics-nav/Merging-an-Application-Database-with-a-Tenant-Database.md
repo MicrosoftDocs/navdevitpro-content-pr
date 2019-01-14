@@ -18,19 +18,19 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can separate the appli
 ## Migrating to Single-Tenancy  
  Before you can start the merge of the two databases, you must collect the relevant information. If you write a script, you must be able to provide values for the parameters that the [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets require. The migration includes the following main steps:  
   
-1.  Gather the prerequisite information.  
+1. Gather the prerequisite information.  
   
-2.  Merge the two databases.  
+2. Merge the two databases.  
   
-    1.  Migrate from multitenancy to single-tenancy.  
+   1.  Migrate from multitenancy to single-tenancy.  
   
-    2.  Migrate from two databases to one database.  
+   2.  Migrate from two databases to one database.  
   
-3.  Change the client connection endpoints.  
+3. Change the client connection endpoints.  
   
-4.  Post-migration clean-up.  
+4. Post-migration clean-up.  
   
- Each step is explained in more details in the following sections.  
+   Each step is explained in more details in the following sections.  
   
 ### Step 1: Gather the Prerequisite Information  
  The sample scripts require the following information:  

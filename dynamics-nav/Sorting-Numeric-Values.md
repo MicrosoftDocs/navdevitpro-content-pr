@@ -29,21 +29,21 @@ This topic explains how items, such as documents, are numbered in [!INCLUDE[navn
   
  To avoid sorting problems with code fields, we recommend that you use a numeric series that has a fixed length. You can do this in the following ways:  
   
--   Define a numeric series that consists of a predefined number of digits that start with a digit other than zero. The following are examples of fixed length numeric series:  
+- Define a numeric series that consists of a predefined number of digits that start with a digit other than zero. The following are examples of fixed length numeric series:  
   
-    -   100-399 \(300 numbers\)  
+  - 100-399 \(300 numbers\)  
   
-    -   40000-69999 \(30,000 numbers\)  
+  - 40000-69999 \(30,000 numbers\)  
   
-    -   7000000-9999999 \(3,000,000 numbers\)  
+  - 7000000-9999999 \(3,000,000 numbers\)  
   
-     The values are sorted the same way whether they are sorted as characters or as numeric values.  
+    The values are sorted the same way whether they are sorted as characters or as numeric values.  
   
-     This solution enables you to set the **SQL Data Type** property to Varchar, Integer, or BigInteger and the sorting is the same.  
+    This solution enables you to set the **SQL Data Type** property to Varchar, Integer, or BigInteger and the sorting is the same.  
   
--   Define a numeric series that consists of a predefined number of digits and that starts with a letter, such as A001-A999. When the series is complete, you can define a new series by starting with a different letter.  
+- Define a numeric series that consists of a predefined number of digits and that starts with a letter, such as A001-A999. When the series is complete, you can define a new series by starting with a different letter.  
   
-     The values in this kind of series always begin with a letter and the sorting is always the same, regardless of the SQL data type.  
+   The values in this kind of series always begin with a letter and the sorting is always the same, regardless of the SQL data type.  
   
 > [!IMPORTANT]  
 >  As a rule, data types that are used in fields that are related to each other must be compatible. Therefore, when you use a SQL data type in a field, you will usually have to change the SQL data type settings of related fields in other tables. For example, in the general ledger application area, if you change the SQL data type of the **No**. field in the **G/L Account** table from Varchar to Integer \(or if you change the data type from Code to Text\), you must change the data type of the **G/L Account No**. fields in the **G/L Entry** and **G/L Budget Entry** tables to the corresponding data type. Failure to do this results in the display of incorrect totals, based on these tables, in the chart of accounts and elsewhere.  

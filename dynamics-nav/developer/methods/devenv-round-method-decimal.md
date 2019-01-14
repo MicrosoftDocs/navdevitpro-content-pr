@@ -35,14 +35,14 @@ NewNumber := ROUND(Number [, Precision] [, Direction])
 
  This optional parameter determines the precision used when rounding. If you do not specify a *Precision* parameter, then the following steps are used to specify the precision:  
 
-1.  The method **ReadRounding** in Codeunit 1, Application Management, is called. **ReadRounding** returns a decimal value that is the precision. By default, the ReadRounding method returns the Amount Rounding Precision field from the GLSetup table.  
+1. The method **ReadRounding** in Codeunit 1, Application Management, is called. **ReadRounding** returns a decimal value that is the precision. By default, the ReadRounding method returns the Amount Rounding Precision field from the GLSetup table.  
 
-2.  If you have customized Codeunit 1 and it does not implement the **ReadRounding** method, then the precision is specified as 2 digits after the decimal.  
+2. If you have customized Codeunit 1 and it does not implement the **ReadRounding** method, then the precision is specified as 2 digits after the decimal.  
 
- *Direction*  
- Type: Text or Code  
+   *Direction*  
+   Type: Text or Code  
 
- This optional parameter specifies how to round the *Number* parameter. The default rounding method is '='. The following are the options for rounding:  
+   This optional parameter specifies how to round the *Number* parameter. The default rounding method is '='. The following are the options for rounding:  
 
 -   '=' rounds up or down to the nearest value \(default\). Values of 5 or greater are rounded up. Values less than 5 are rounded down.  
 

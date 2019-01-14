@@ -30,7 +30,8 @@ Represents a line on a purchase invoice in [!INCLUDE[d365fin_long_md](../../incl
 |[DELETE purchaseInvoiceLines](../api/dynamics_purchaseinvoiceline_delete.md)|none   |Deletes a purchase invoice line object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |documentId|GUID|The ID of the parent invoice.|
 |sequence|numeric|The line sequence number.|
@@ -99,7 +100,6 @@ Here is a JSON representation of the resource.
       "expectedReceiptDate": "Date"
     }
   ]
-
 ```
 
 ## See also

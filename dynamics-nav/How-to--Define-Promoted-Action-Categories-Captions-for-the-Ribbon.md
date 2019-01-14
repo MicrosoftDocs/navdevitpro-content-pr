@@ -14,43 +14,43 @@ manager: edupont
 # How to: Define Promoted Action Categories Captions for the Ribbon
 *Promoted actions* are actions that are displayed in the ribbon of the [!INCLUDE[rtc](includes/rtc_md.md)]. You can organize promoted actions into different categories, where each category is indicated by a caption in the ribbon. You define up to 10 categories for a page. The following figure illustrates a page that has promoted actions under the following categories:  
   
--   **New**  
+- **New**  
   
--   **Manage**  
+- **Manage**  
   
--   **Process**  
+- **Process**  
   
--   **Report**  
+- **Report**  
   
- The following illustration shows the Ribbon with promoted actions under categories.  
+  The following illustration shows the Ribbon with promoted actions under categories.  
   
- ![Action Pane with four categories](media/NAV_RTC_ActionPane_CustomCategories.png "NAV\_RTC\_ActionPane\_CustomCategories")  
+  ![Action Pane with four categories](media/NAV_RTC_ActionPane_CustomCategories.png "NAV\_RTC\_ActionPane\_CustomCategories")  
   
- You assign a promoted action to a category by setting the **PromotedCategory** property of the action. You can choose among the following categories:  
+  You assign a promoted action to a category by setting the **PromotedCategory** property of the action. You can choose among the following categories:  
   
--   New  
+- New  
   
--   Process  
+- Process  
   
--   Report  
+- Report  
   
--   Category4  
+- Category4  
   
--   Category5  
+- Category5  
   
--   Category6  
+- Category6  
   
--   Category7  
+- Category7  
   
--   Category8  
+- Category8  
   
--   Category9  
+- Category9  
   
--   Category10  
+- Category10  
   
- By default, these category names correspond to the captions that are displayed for the category on the page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You will typically want to change these captions, especially the Category4 through Category10 captions.  
+  By default, these category names correspond to the captions that are displayed for the category on the page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You will typically want to change these captions, especially the Category4 through Category10 captions.  
   
- You change category captions on a page-by-page basis and for each [!INCLUDE[nav_windows](includes/nav_windows_md.md)] language.  
+  You change category captions on a page-by-page basis and for each [!INCLUDE[nav_windows](includes/nav_windows_md.md)] language.  
   
 ### To define promoted action category captions  
   

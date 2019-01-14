@@ -14,23 +14,23 @@ manager: edupont
 # Client Types
 The following [!INCLUDE[navnow](includes/navnow_md.md)] clients interact with the [!INCLUDE[navnow](includes/navnow_md.md)] database through [!INCLUDE[nav_server](includes/nav_server_md.md)]:  
   
--   [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
+- [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
   
--   [!INCLUDE[nav_web](includes/nav_web_md.md)]  
+- [!INCLUDE[nav_web](includes/nav_web_md.md)]  
   
--   [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)]  
+- [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)]  
   
- Of these client types, the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is the only one that you explicitly install and configure with [!INCLUDE[navnow](includes/navnow_md.md)] Setup.  
+  Of these client types, the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is the only one that you explicitly install and configure with [!INCLUDE[navnow](includes/navnow_md.md)] Setup.  
   
- In addition, the following service types also interact with the [!INCLUDE[navnow](includes/navnow_md.md)] database through [!INCLUDE[nav_server](includes/nav_server_md.md)]:  
+  In addition, the following service types also interact with the [!INCLUDE[navnow](includes/navnow_md.md)] database through [!INCLUDE[nav_server](includes/nav_server_md.md)]:  
   
--   SOAP web services  
+- SOAP web services  
   
--   OData web services  
+- OData web services  
   
--   NAS services  
+- NAS services  
   
- You can configure a server instance for [!INCLUDE[rtc](includes/rtc_md.md)]s, SOAP and OData web services, and NAS connections using either the [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md) or [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md).  
+  You can configure a server instance for [!INCLUDE[rtc](includes/rtc_md.md)]s, SOAP and OData web services, and NAS connections using either the [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md) or [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md).  
   
 ##  <a name="WinClient"></a> [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
  The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is an intuitive and versatile Windows application that developers, partners, administrators, and super users can customize to support the job functions of a full range of work roles in an organization.  

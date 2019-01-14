@@ -24,6 +24,7 @@ GET /businesscentral/companies({id})/salesQuotes({id})
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
@@ -70,8 +71,7 @@ Here is an example of the response.
   },
   "currencyId": "currencyId-value",
   "currencyCode": "GBP",
-  "paymentTermsId": "paymentTermsId-value",
-  "paymentTerms": "COD",
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
   "shipmentMethodId": "shipmentMethodId-value",
   "shipmentMethod": "EXW",
   "salesperson": "",

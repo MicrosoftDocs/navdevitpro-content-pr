@@ -15,7 +15,7 @@ caps.latest.revision: 18
 redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-howto-rdl-report-layout
 ---
 
- 
+
 
 > [!NOTE]  
 > [!INCLUDE[nav_not_supported](includes/nav_not_supported.md)]
@@ -60,7 +60,6 @@ report 50123 MyRdlReport
             }
         }
     }   
-
 ```
 4. Build the extension (Ctrl+Shift+B).
 5. Open the generated report layout file in Microsoft SQL Server Report Builder.

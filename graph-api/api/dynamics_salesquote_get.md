@@ -69,7 +69,7 @@ Here is an example of the response.
   },
   "currencyId": "currencyId-value",
   "currencyCode": "GBP",
-  "paymentTermsId": "paymentTermsId-value",
+  "paymentTermsId": "GUID",
   "shipmentMethodId": "shipmentMethodId-value",
   "salesperson": "",
   "discountAmount": 0,

@@ -13,33 +13,33 @@ caps.latest.revision: 10
 # How to: Set Conditional Breakpoints
 You can define a condition on a breakpoint. If the condition is true, then code execution breaks at the breakpoint. If the condition is false, then code execution continues. The condition can include any variables or fields that are currently in scope. You can compare a variable or a field to another variable or field, or you can compare a variable or field to a literal value. If you compare to a literal value, then the variable or field that you use in the breakpoint condition must be of one of the following data types:  
   
--   BigInteger  
+- BigInteger  
   
--   Boolean  
+- Boolean  
   
--   Code  
+- Code  
   
--   Decimal  
+- Decimal  
   
--   Integer  
+- Integer  
   
--   Option  
+- Option  
   
--   Text  
+- Text  
   
- The following operators are supported in breakpoint conditions:  
+  The following operators are supported in breakpoint conditions:  
   
--   =  
+- =  
   
--   \<>  
+- \<>  
   
--   \<  
+- \<  
   
--   >  
+- >  
   
--   \<=  
+- \<=  
   
--   >=  
+- >=  
   
 ### To set a conditional breakpoint  
   

@@ -79,9 +79,10 @@ The code requires that you create the following variables and text constant:
 |count|Integer||  
 |mediasetId|GUID||  
 
-|  Text constant name  |  ConstValue  |  
-|----------------------|--------------|  
-|Text000|The files have been imported. Item %1 has %2 pictures in MediaSet: %3|  
+| Text constant name |                              ConstValue                               |
+|--------------------|-----------------------------------------------------------------------|
+|      Text000       | The files have been imported. Item %1 has %2 pictures in MediaSet: %3 |
+
 ```  
 itemRec.GET('1000');
 itemRec.Picture.IMPORTFILE('C:\images\1000-v1.jpg', 'Demo image for item ' + FORMAT(itemRec."No."));

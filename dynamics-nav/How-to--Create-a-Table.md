@@ -17,15 +17,15 @@ When you first create a table, it does not contain any data. Nevertheless, when 
   
 ### To create a table  
   
-1.  On the **Tools** menu, choose **Object Designer**.  
+1. On the **Tools** menu, choose **Object Designer**.  
   
-     Object Designer opens.  
+    Object Designer opens.  
   
-2.  Choose **Table** and then choose **New**.  
+2. Choose **Table** and then choose **New**.  
   
-     Table Designer opens.  
+    Table Designer opens.  
   
- In the Table Designer, for each field you add to the table, you enter the field number, name, data type, and optionally, a length and a description.  
+   In the Table Designer, for each field you add to the table, you enter the field number, name, data type, and optionally, a length and a description.  
   
 ## See Also  
  [How to: Add Fields to a Table](How-to--Add-Fields-to-a-Table.md)   

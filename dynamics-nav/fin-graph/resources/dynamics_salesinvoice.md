@@ -37,7 +37,8 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 
 
 ## Properties
-| Property	            | Type	|Description                                                |
+
+| Property              | Type  |Description                                                |
 |:----------------------|:----------|:----------------------------------------------------------|
 |id                     |GUID       |The invoice ID. Non-editable.                              |
 |number                 |string, maximum size 20|The invoice number. Read-Only.                 |
@@ -100,7 +101,6 @@ Here is a JSON representation of the resource.
       "orderId": "GUID",
       "orderNumber": "string",
       "paymentTermsId": "GUID",
-      "paymentTerms": "string",
       "shipmentMethodId": "GUID",
       "shipmentMethod": "string",
       "salesperson": "string",
@@ -113,7 +113,6 @@ Here is a JSON representation of the resource.
       "status": "string",
       "lastModifiedDateTime": "DateTime"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

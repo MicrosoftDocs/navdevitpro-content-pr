@@ -25,6 +25,7 @@ PATCH /businesscentral/companies({id})/employees({id})
 ```
 
 ## Request headers
+
 |Header         |Value                     |
 |---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |

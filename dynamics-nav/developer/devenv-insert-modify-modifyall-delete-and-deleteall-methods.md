@@ -18,19 +18,19 @@ redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-insert-mo
 # INSERT, MODIFY, MODIFYALL, DELETE, and DELETEALL Methods
 The following methods maintain the database by adding, modifying, and removing records:  
 
--   INSERT  
+- INSERT  
 
--   MODIFY  
+- MODIFY  
 
--   MODIFYALL  
+- MODIFYALL  
 
--   DELETE  
+- DELETE  
 
--   DELETEALL  
+- DELETEALL  
 
- These methods are some of the most frequently used AL methods.  
+  These methods are some of the most frequently used AL methods.  
 
- Some of these methods return an optional Boolean value that indicates whether the method succeeded. If you do not handle the return value in your code, a run-time error occurs when a method returns FALSE. If you handle the return value by testing its value in an IF statement, no error will occur, and you must take corrective action in the code.  
+  Some of these methods return an optional Boolean value that indicates whether the method succeeded. If you do not handle the return value in your code, a run-time error occurs when a method returns FALSE. If you handle the return value by testing its value in an IF statement, no error will occur, and you must take corrective action in the code.  
 
 ## INSERT method  
  INSERT inserts a record in a table.  
@@ -127,13 +127,13 @@ Customer.DELETE;
 
  When you are developing your own applications, you should consider the following scenario:  
 
-1.  Retrieve a record from the database.  
+1. Retrieve a record from the database.  
 
-2.  Perform various checks to determine whether the record should be deleted.  
+2. Perform various checks to determine whether the record should be deleted.  
 
-3.  If step 2 indicated that you should delete the record, then delete it.  
+3. If step 2 indicated that you should delete the record, then delete it.  
 
- This can cause problems in a multi-user environment. Another user can modify or delete the same record between your performing steps 2 and 3. If the record is modified, then perhaps the new contents of the record would have changed your decision to delete it. If it has been deleted by the other user, you can get a run-time error if you have just verified that the record existed \(in step 1\). If the design of your application indicates that you can encounter this problem, you should consider using the LOCKTABLE method. LOCKTABLE should be used sparingly because this method degrades performance. For more information about the LOCKTABLE method, see [LOCKTABLE Method](methods/devenv-LOCKTABLE-Method.md).  
+   This can cause problems in a multi-user environment. Another user can modify or delete the same record between your performing steps 2 and 3. If the record is modified, then perhaps the new contents of the record would have changed your decision to delete it. If it has been deleted by the other user, you can get a run-time error if you have just verified that the record existed \(in step 1\). If the design of your application indicates that you can encounter this problem, you should consider using the LOCKTABLE method. LOCKTABLE should be used sparingly because this method degrades performance. For more information about the LOCKTABLE method, see [LOCKTABLE Method](methods/devenv-LOCKTABLE-Method.md).  
 
 ## DELETEALL method  
  DELETEALL deletes all the records that are specified by the filter settings. If no filters are applied, it deletes all the records in the table.  

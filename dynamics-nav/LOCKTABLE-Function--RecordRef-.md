@@ -29,6 +29,8 @@ RecordRef.LOCKTABLE
   
 ## Remarks  
  Because all write operations automatically lock the table that is being used, LOCKTABLE would appear unnecessary. However, you could have a transaction in which an application wants to inspect data before possibly changing it, with a guarantee that the data being changed has not been modified by other applications since the read operation. The solution is to explicitly lock the table before the read operation. This makes sure that no other application makes changes between the read operation and the possible write operation.  
+
+The table lock is released (unlocked) when the transaction is committed.
   
  This function works the same as the [LOCKTABLE Function \(Record\)](LOCKTABLE-Function--Record-.md).  
   

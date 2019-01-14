@@ -30,7 +30,8 @@ Represents a line on a sales order in [!INCLUDE[d365fin_long_md](../../includes/
 |[DELETE salesOrderLines](../api/dynamics_salesorderline_delete.md)|none|Deletes a sales order line object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |documentId|GUID|The ID of the parent order.|
 |sequence|numeric|The line sequence number.|
@@ -107,7 +108,6 @@ Here is a JSON representation of the resource.
       "shipQuantity": "decimal"
     }
   ]
-
 ```
 
 ## See also

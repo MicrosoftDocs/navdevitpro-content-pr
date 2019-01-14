@@ -28,15 +28,15 @@ Specifies the handler functions that are used by the test function.
   
  The following is some important information about handler functions:  
   
--   To be a handler function, the [FunctionType Property \(Test Codeunits\)](FunctionType-Property--Test-Codeunits-.md) must set to one of the handler types: MessageHandler, ConfirmHandler, StrMenuHandler, PageHandler, ModalPageHandler, ReportHandler, RequestPageHandler, or FilterPageHandler.  
+- To be a handler function, the [FunctionType Property \(Test Codeunits\)](FunctionType-Property--Test-Codeunits-.md) must set to one of the handler types: MessageHandler, ConfirmHandler, StrMenuHandler, PageHandler, ModalPageHandler, ReportHandler, RequestPageHandler, or FilterPageHandler.  
   
--   A test function can only call handler functions that are defined in the same test codeunit as the test function.  
+- A test function can only call handler functions that are defined in the same test codeunit as the test function.  
   
--   A test function can call MessageHandler, ConfirmHandler, and StrMenuHandler type handlers only once. It can call PageHandler, ModalPageHandler, ReportHandler, RequestPageHandler, or FilterPageHandler type handlers multiple times but only once per application object ID.  
+- A test function can call MessageHandler, ConfirmHandler, and StrMenuHandler type handlers only once. It can call PageHandler, ModalPageHandler, ReportHandler, RequestPageHandler, or FilterPageHandler type handlers multiple times but only once per application object ID.  
   
--   Every handler function that you enter in the **HandlerFunctions** property must be called at least once in the test function. If you execute a test function that has a handler function listed that is not called, then the test fails.  
+- Every handler function that you enter in the **HandlerFunctions** property must be called at least once in the test function. If you execute a test function that has a handler function listed that is not called, then the test fails.  
   
- For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create Handler Functions](How-to--Create-Handler-Functions.md).  
+  For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create Handler Functions](How-to--Create-Handler-Functions.md).  
   
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   

@@ -30,7 +30,8 @@ Represents a line in a journal in [!INCLUDE[d365fin_long_md](../../includes/d365
 |[DELETE journalLines](../api/dynamics_journalline_delete.md)|none        |Deletes a journal line.|
 
 ## Properties
-| Property	           | Type	                |Description                                                        |
+
+| Property             | Type                   |Description                                                        |
 |:---------------------|:-----------------------|:------------------------------------------------------------------|
 |id                    |GUID                    |The unique ID of the journal line. Non-editable.                   |
 |journalDisplayName    |string, maximum size 10 |The display name of the journal that this line belongs to. Read-Only.|

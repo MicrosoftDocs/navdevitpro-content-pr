@@ -82,38 +82,38 @@ Query.READ;
   
  For example, a query has the following filters set on the **Quantity** column in Query Designer:  
   
--   **DataItemTableFilter** property: Quantity=FILTER\(\<>10\)  
+- **DataItemTableFilter** property: Quantity=FILTER\(\<>10\)  
   
--   **ColumnFilter** property: Quantity=FILTER\(\<>5\)  
+- **ColumnFilter** property: Quantity=FILTER\(\<>5\)  
   
- `Query.setRange(Quantity, 1, 15)` will result in a filter that is equivalent to: 1 \< Quantity \<15, except for 10.  
+  `Query.setRange(Quantity, 1, 15)` will result in a filter that is equivalent to: 1 \< Quantity \<15, except for 10.  
   
- <!--Links For more information about how to set filters in Query Designer, see [Understanding Query Filters](Understanding-Query-Filters.md). --> 
+  <!--Links For more information about how to set filters in Query Designer, see [Understanding Query Filters](Understanding-Query-Filters.md). --> 
   
 ## Example  
  The following AL code example demonstrates how to use the **SETRANGE** method on a query. The example code sets a filter on a query column and saves the resulting dataset as a CSV file. A message also displays when the query is run that indicates the filter on the column.  
   
  This example requires that you do the following:  
   
-1.  Create a query called **Customer\_SalesQuantity** that has the following characteristics:  
+1. Create a query called **Customer\_SalesQuantity** that has the following characteristics:  
   
-    -   Links table **18 Customer** with table **37 Sales Lines** from the [!INCLUDE[demolong](../includes/demolong_md.md)].  
+   -   Links table **18 Customer** with table **37 Sales Lines** from the [!INCLUDE[demolong](../includes/demolong_md.md)].  
   
-    -   Includes columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
+   -   Includes columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
   
-         <!--NAV For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).-->  
+        <!--NAV For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).-->  
   
-2.  Create the following AL variables and text constant in the object that will run the query, such as a codeunit.  
+2. Create the following AL variables and text constant in the object that will run the query, such as a codeunit.  
   
-    |Variable name|DataType|Subtype|  
-    |-------------------|--------------|-------------|  
-    |MyQuery|Query|Customer\_SalesQuantity|  
+   |Variable name|DataType|Subtype|  
+   |-------------------|--------------|-------------|  
+   |MyQuery|Query|Customer\_SalesQuantity|  
   
-    |Text constant name|ENU Value|  
-    |------------------------|---------------|  
-    |Text000|Customer name = %1, Quantity = %2|  
+   |Text constant name|ENU Value|  
+   |------------------------|---------------|  
+   |Text000|Customer name = %1, Quantity = %2|  
   
- The following AL code uses the **SETRANGE** method to filter a query dataset over a range of values on the **Quantity** column. You can add the code to a codeunit, and then run the codeunit to see the results.  
+   The following AL code uses the **SETRANGE** method to filter a query dataset over a range of values on the **Quantity** column. You can add the code to a codeunit, and then run the codeunit to see the results.  
   
 ```  
 // Sets a filter to display only sales quantities greater than 10.  

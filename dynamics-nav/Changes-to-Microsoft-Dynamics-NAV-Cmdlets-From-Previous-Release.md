@@ -70,6 +70,7 @@ The following cmdlets have been changed in the Microsoft.Dynamics.NAV.Apps.Manag
 
 ### Changed cmdlets for merging and modifying application object files 
 The following cmdlets have been changed in the Microsoft.Dynamics.NAV.Model.Tools module.
+
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
 |------------|---------------------------------------|  
 |[Compare-NAVApplicationObject](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.model.tools/Compare-NAVApplicationObject)|-IgnoreDocumentation parameter has been added.|

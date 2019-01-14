@@ -21,14 +21,14 @@ A virtual table contains system information. You cannot change the data in virtu
   
  The virtual tables provide such information as:  
   
--   Integers in the range –1,000,000,000 to 1,000,000,000.  
+- Integers in the range –1,000,000,000 to 1,000,000,000.  
   
--   Dates in a given period.  
+- Dates in a given period.  
   
--   Overview of the operating system files.  
+- Overview of the operating system files.  
   
--   Overview of the logical disk drives.  
+- Overview of the logical disk drives.  
   
--   Overview of the operating system files that store the database.  
+- Overview of the operating system files that store the database.  
   
- Because virtual tables are not stored in the database, you cannot view them directly. To view a virtual table, you must create a list page based on the virtual table. For more information, see [How to: Create a Page to View a Virtual Table](How-to--Create-a-Page-to-View-a-Virtual-Table.md).
+  Because virtual tables are not stored in the database, you cannot view them directly. To view a virtual table, you must create a list page based on the virtual table. For more information, see [How to: Create a Page to View a Virtual Table](How-to--Create-a-Page-to-View-a-Virtual-Table.md).
