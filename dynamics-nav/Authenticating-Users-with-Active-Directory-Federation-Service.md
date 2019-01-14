@@ -114,8 +114,8 @@ Based on whether you will be using SAML tokens or JSON Web Tokens (JWT), which a
 
     ![AD FS Edit Claims Rule](media/ADFS_Edit_Claims-Rule.png "AD FS Edit Claims Rule")
 2. In the **Select Rule Template** step, choose **Transform an incoming Claim** template, and then choose **Next**.
-3. In the **Edit Rule** step, set the **Claim rule name** to ```name```, the **Incoming claim type** to ```UPN```, and the **Outgoing claim type** to ```Name```. Choose **OK** when done.
-4. Repeat steps 1 to 3 to add another rule, except this time, set the **Claim rule name** to ```objectidentifier```, the **Incoming claim type** to ```Primary SID```, and the **Outgoing claim type** to:
+3. In the **Edit Rule** step, set the **Claim rule name** to `name`, the **Incoming claim type** to `UPN`, and the **Outgoing claim type** to `Name`. Choose **OK** when done.
+4. Repeat steps 1 to 3 to add another rule, except this time, set the **Claim rule name** to `objectidentifier`, the **Incoming claim type** to `Primary SID`, and the **Outgoing claim type** to:
 
     ```
     http://schemas.microsoft.com/identity/claims/objectidentifier
@@ -133,7 +133,7 @@ JWT tokens are not supported by AD FS 2.0 or [!INCLUDE[navcrete_md](includes/nav
 
     ![AD FS Edit Claims Rule](media/ADFS_Edit_Claims-Rule.png "AD FS Edit Claims Rule")
 2.  In the **Select Rule Template** step, choose **Send Claims Using a Custom Rule** template, and then choose **Next**.
-3. Set the **Claim rule name** to ```name```, and the  **Custom rule** to:
+3. Set the **Claim rule name** to `name`, and the  **Custom rule** to:
 
     ```
     c:[Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn"] => issue(Type = "unique_name", Issuer = c.Issuer, OriginalIssuer = c.OriginalIssuer, Value = c.Value, ValueType = c.ValueType);
@@ -147,8 +147,15 @@ JWT tokens are not supported by AD FS 2.0 or [!INCLUDE[navcrete_md](includes/nav
     ![AD FS Edit Claims Rule Done](media/ADFS_EditClaimsRule2.png "AD FS Edit Claims Rule Done")
 6.  Start Window Powershell, and run the following command to define the token type for the relying party to be JWT:
 
+
     ```
-    Set-ADFSRelyingPartyTrust –TargetIdentifier "Web Client URL" –EnableJWT $true
+    Set-ADFSRelyingPartyTrust –TargetIdentifier "<Relying party trust identifier>" –EnableJWT $true
+    ```
+    
+    Replace `<Relying party trust identifier>` with the relying party trust identifier that you added in AD FS for the client, for example:
+
+    ```
+    Set-ADFSRelyingPartyTrust –TargetIdentifier "https://bcwebclient" –EnableJWT $true
     ```
 
 ## Configure Dynamics NAV to use AD FS authentication
