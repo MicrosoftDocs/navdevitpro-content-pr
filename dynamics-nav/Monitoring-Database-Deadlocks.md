@@ -42,7 +42,7 @@ To verify the setup, connect from a client, like the Web client or Windows clien
 By default, SQL Server uses an in-memory data structure called a *ring_buffer target* to store deadlock events. When the [!INCLUDE[nav_server](includes/nav_server_md.md)] is notified about the deadlock, it reads data from the target ring_buffer target. You have the option to also store the events to a file on the SQL Server, called an *event_file target*, and configure the  [!INCLUDE[nav_server](includes/nav_server_md.md)] to read from this file instead of the ring_buffer target. An important difference between the ring_buffer target and event_file target is that the ring_buffer target has a storage size limitation of 5MB, while the event_file target provides a much greater storage capacity. Using the event_file target can eliminate potential overloads in high volume situations. So, if your setup has a high volume of database traffic, you might have to change the SQL Server to write deadlock events to an event_file target as described the the steps that follow. If you want to use the default ring_buffer target, then no further action is required.
 
 > [!NOTE]
-> The event_file target is only supported in [!INCLUDE[nav2018_md](includes/nav2018_md.md)] Cumulative Update 13 and later, and is not supported in [!INCLUDE[nav2017](includes/nav2017.md)].
+> Reading from the event_file target is only supported in [!INCLUDE[nav2018_md](includes/nav2018_md.md)] Cumulative Update 13 and later, and is not supported in [!INCLUDE[nav2017](includes/nav2017.md)].
 
 1. Modify the deadlock monitoring session to use a file-based target (known as an *event_file target*).
 
@@ -89,6 +89,8 @@ By default, SQL Server uses an in-memory data structure called a *ring_buffer ta
     CREATE SYNONYM [dbo].[syn_deadlock_event_view] FOR [dbo].[deadlock_report_event_file_view]
     GO
     ```
+> [!NOTE]
+> You can delete the ring_buffer target if you like. However, this is not required.
 
 ### Configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
 
