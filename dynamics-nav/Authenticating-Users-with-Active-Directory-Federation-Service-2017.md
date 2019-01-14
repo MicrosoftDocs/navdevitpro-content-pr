@@ -71,7 +71,7 @@ You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_
      For example:
 
         ```
-        https://MyWebServer:8080/DynamicsNAV110/WebClient/SignIn.aspx
+        https://MyWebServer:8080/DynamicsNAV100/WebClient/SignIn.aspx
         ```
 
    - If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], use base URL for the Web client, which is the full URL without the ```/[web-instance]/WebClient``` part. This typically has the format:
@@ -159,7 +159,11 @@ JWT tokens are not supported by AD FS 2.0 or [!INCLUDE[navcrete_md](includes/nav
     ```
     Set-ADFSRelyingPartyTrust –TargetIdentifier "https://dynamicsnavwebclient" –EnableJWT $true
     ```
+    or
 
+    ```
+    Set-ADFSRelyingPartyTrust –TargetIdentifier "https://dynamicsnavwinclient" –EnableJWT $true
+    ```
 ## Configure Dynamics NAV to use AD FS authentication
 To setup [!INCLUDE[navnow_md](includes/navnow_md.md)] for ADFS authentication, you must modify the configuration of the [!INCLUDE[nav_server](includes/nav_server_md.md)], [!INCLUDE[nav_web_md](includes/nav_web_md.md)], and [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)]s.
 
@@ -190,6 +194,12 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
     ```
     <add key="ClientServicesFederationMetadataLocation" value="https://[Public URL for AD FS server]/federationmetadata/2007-06/federationmetadata.xml"/>
     ```
+    For example:
+
+    ```
+    <add key="ClientServicesFederationMetadataLocation" value="https://MyWebServer/federationmetadata/2007-06/federationmetadata.xml"/>
+    ```
+
     >[!NOTE]
     >This URL must to be accessible from a browser on the computer running the [!INCLUDE[nav_server](includes/nav_server_md.md)].
 
@@ -203,8 +213,12 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
 
     Replace `[Public URL for AD FS server]` with the URL for your installation.
 
-    Replace `[Dynamics NAV Web Client URL]` with the full URL for your Web client, such as `https://MyWebServer:8080/DynamicsNAV100/WebClient`. This is same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
+    Replace `[Dynamics NAV Web Client URL]` with the full URL for your Web client, such as `https://MyWebServer:8080/DynamicsNAV100/WebClient/SignIn.aspx`. This is same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
 
+    For example:
+    ```
+    <add key="WSFederationLoginEndpoint" value="https://https://MyWebServer/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwebclient%26wreply=https://MyWebServer:8080/DynamicsNAV110/WebClient/SignIn.aspx" />
+    ```
     >[!NOTE]
     >In [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] and earlier, this setting does not exist. Instead, you set the **ACSUri** setting in the web.config for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. This will be done in the next task.
 
@@ -228,7 +242,11 @@ You configure the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] by modifying it
     <add key="ACSUri" value="https://[Public URL for AD FS server]/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwebclient%26wreply=[Dynamics NAV Web Client URL]" />
     ```
 
-    Replace ```[Dynamics NAV Web Client URL]``` with the full URL for your Web client, such as ```https://MyWebServer:8080/DynamicsNAV90/WebClient```. This is the same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
+    Replace ```[Dynamics NAV Web Client URL]``` with the full URL for your Web client, such as ```https://MyWebServer:8080/DynamicsNAV90/WebClient/SignIn.aspx```. This is the same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS. For example:
+
+    ```
+    <add key="WSFederationLoginEndpoint" value="https://https://MyWebServer/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwebclient%26wreply=https://MyWebServer:8080/DynamicsNAV110/WebClient/SignIn.aspx" />
+    ```
 
     This step is not relevant in [!INCLUDE[nav2017](includes/nav2017.md)] and later because the end point is configured in the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
