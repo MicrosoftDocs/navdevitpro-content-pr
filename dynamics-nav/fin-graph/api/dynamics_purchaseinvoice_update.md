@@ -47,7 +47,7 @@ PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/pur
 Content-type: application/json
 
 {
-  "paymentTerms": "COD"
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668"
 }
 ```
 
@@ -79,7 +79,7 @@ Content-type: application/json
     "postalCode": ""
   },
   "currencyCode": "GBP",
-  "paymentTerms": "COD",
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
   "shipmentMethod": "",
   "pricesIncludeTax": false,
   "discountAmount": 0,

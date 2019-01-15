@@ -65,11 +65,7 @@ Content-type: application/json
   "taxRegistrationNumber": "28012001T",
   "currencyId": "currencyId-value",
   "currencyCode": "USD",
-  "paymentTermsId": "paymentTermsId-value",
-  "paymentTerms": {
-    "code": "1M(8D)",
-    "description": "1 Month/2% 8 days"
-  },
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
   "shipmentMethodId": "shipmentMethodId-value",
   "shipmentMethod": null,
   "paymentMethodId": "paymentMethodId-value",
@@ -114,10 +110,7 @@ Content-type: application/json
   "taxAreaDisplayName": "tax area",
   "taxRegistrationNumber": "28012001T",
   "currencyCode": "USD",
-  "paymentTerms": {
-    "code": "1M(8D)",
-    "description": "1 Month/2% 8 days"
-  },
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
   "shipmentMethod": null,
   "paymentMethod": {
     "code": "BANK",
