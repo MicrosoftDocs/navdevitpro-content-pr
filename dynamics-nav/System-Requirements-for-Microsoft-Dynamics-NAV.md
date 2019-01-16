@@ -3,7 +3,7 @@ title: System Requirements for Microsoft Dynamics NAV 2018
 description: This article provides the specifications of minimum hardware and software requirements to install and run Dynamics NAV 2018.
 author: jswymer
 ms.custom: na
-ms.date: 08/29/2018
+ms.date: 01/16/2019
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -67,9 +67,9 @@ The following sections list the minimum hardware and software requirements to in
 |Reports|<ul><li>For editing RDLC report layouts:<ul><li>Report Builder for SQL Server 2016 or Visual Studio 2017 with [Microsoft Rdlc Report Designer for Visual Studio](https://go.microsoft.com/fwlink/?linkid=857038) installed.</li></ul><li>For editing Word layouts:<ul><li>Microsoft Word 2013 or later</li></ul></ul>|  
 |Instant messaging and Telephony API|<ul><li>Microsoft Lync 2013 or Microsoft Lync 2010.</li></ul>|  
 |Outlook client integration and mail merge|<ul><li>Microsoft Office 365, Microsoft Office 2016, Microsoft Office 2013 Service Pack 1 \(SP1\), or Microsoft Office 2010 Service Pack 2 \(SP2\).</li></ul>|  
-|Import and export with Microsoft Excel and Office XML, and SharePoint links|<ul><li>Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
-|Editing in Excel using the Excel Add-in |<ul><li>Excel 2016.<br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).</li></ul>|  
-|OneNote integration|<ul><li>Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 2010 SP2.</li></ul>|
+|Import and export with Microsoft Excel and Office XML, and SharePoint links|<ul><li>Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
+|Editing in Excel using the Excel Add-in |<ul><li>Excel 2019 or Excel 2016.<br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).</li></ul>|  
+|OneNote integration|<ul><li>Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 2010 SP2.</li></ul>|
 |Email logging|<ul><li>Active Directory and Microsoft Exchange Server 2013.</li><li>Microsoft Exchange Online, or Exchange Online as part of an Office 365 subscription.</li></ul>|  
 |Additional software|<ul><li>Microsoft .NET Framework 4.7.</li></ul>|  
 |Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present in the target computer:<ul><li>Microsoft .NET Framework 4.7.</li></ul></li><li>The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is available in a 32-bit version and 64-bit version. On a 32-bit Windows operating system, the 32-bit version is run. On a 64-bit Windows operating system, the 64-bit version is run by default; however, you can also run the 32-bit version if it is required.</li><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup can only install the Excel Add-in if Excel is present on the target computer.</li><li>Outlook synchronization is not supported on 64-bit versions of Office.</li></ul>|  
@@ -92,10 +92,10 @@ The following sections list the minimum hardware and software requirements to in
 |-|-|  
 |Supported browsers|<ul><li>Microsoft Edge.</li><li>Internet Explorer 11.</li><li>Google Chrome 61.0 for Windows.</li><li>Mozilla Firefox 55.0 for Windows.</li><li>Safari 10.0 for macOS.</li></ul>For a list of browser limitations, see [Browser Limitations with the Microsoft Dynamics NAV Web Client](Browser-Limitations-with-the-Microsoft-Dynamics-NAV-Web-Client.md).|  
 |Business inbox in Outlook|<ul><li>Microsoft Office 365.</li></ul>|  
-|Sending data to Excel|<ul><li>Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
+|Sending data to Excel|<ul><li>Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
 |Editing in Excel using the Excel Add-in |<ul><li>Excel 2016.<br /><br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).</li></ul>|  
 |SharePoint Online links|<ul><li>Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
-|Printing reports to Excel or Word|<ul><li>Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
+|Printing reports to Excel or Word|<ul><li>Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
 |Additional information|If you experience problems using the [!INCLUDE[nav_web](includes/nav_web_md.md)], you can try to turn off browser tools, such as translator tools that may run in the background. Similarly, if you use zoom functionality in your browser or from a third-party tool, then elements may appear (or disappear) depending on screen size.|  
 
 ###  <a name="NavApps"></a> Dynamics NAV Tablet Client and Phone Client \(in a Browser\) Requirements  
@@ -184,7 +184,7 @@ The following table shows the minimum system requirements for the [!INCLUDE[navn
 
 |||  
 |-|-|  
-|Supported Outlook Applications |<ul><li>Outlook 2016</li><li>Outlook 2013 SP1</li><li> Outlook 2010 SP2 \(32-bit edition\).</li></ul>|
+|Supported Outlook Applications |<ul><li>Outlook 2019</li><li>Outlook 2016</li><li>Outlook 2013 SP1</li><li> Outlook 2010 SP2 \(32-bit edition\).</li></ul>|
 |Supported Exchange Servers|<ul><li>Exchange Server 2016</li><li>Exchange Server 2013</li><li>Exchange Online.</li></ul>|  
 
 
