@@ -22,6 +22,7 @@ In the UI, notifications appear in the **Notification** bar (similar to validati
 * Validation errors on the page will be shown first.
 
 ## Notifications in the development environment
+
 By using the **Notification** and **NotificationScope** data types and functions in C/AL, you can add code to send notifications to users. The following table provides an overview of the available functions. The sections that follow provide additional information about how to create notifications.
 
 |  Function  |  Description  |
@@ -44,11 +45,13 @@ MyNotification.SEND;
 The **SEND** function call should be the last statement in the notification code, after any **ADDACTION** or **SETDATA** function calls for the notification instance.
 
 ## Defining the notification scope
-The scope is the realm in which a notification is broadcast in the client. There are two different scopes: *LocalScope* and *GlobalScope*.
+The scope determines where the notification is broadcast in the client. There are two different scopes: *LocalScope* and *GlobalScope*.
 
 *   A *LocalScope* notification appears in context of the user's current task, that is, on the page the user is currently working on. *LocalScope* is the default.
 
-* A *GlobalScope* notification is not directly related to the current task. **Note:** *GlobalScope* is currently not supported, so do not use it. This will be implemented in a future release.
+* A *GlobalScope* notification is not directly related to the current task, and will appear regardless of which the page the user is viewing.
+  > [!NOTE]  
+  > *GlobalScope* is currently not supported. This will be implemented in a future release.
 
 The following code creates a notification in the LocalScope:
 ```
