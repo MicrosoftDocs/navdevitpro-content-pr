@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/19/2018
+ms.date: 01/21/2019
 ms.author: solsen
 ---
 
@@ -24,10 +24,10 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 
 | Method                                      |Return Type|Description |
 |:--------------------------------------------|:----------|:-----------|
-|[GET item](../api/dynamics_item_get.md)      |items     |Gets an item object.   |
-|[POST item](../api/dynamics_create_item.md)  |items     |Creates an item object.|
-|[PATCH item](../api/dynamics_item_update.md)  |items     |Updates an item object.|
-|[DELETE item](../api/dynamics_item_delete.md)|none      |Deletes an item object.|
+|[GET item](../api/dynamics_item_get.md)      |items      |Gets an item object.   |
+|[POST item](../api/dynamics_create_item.md)  |items      |Creates an item object.|
+|[PATCH item](../api/dynamics_item_update.md) |items      |Updates an item object.|
+|[DELETE item](../api/dynamics_item_delete.md)|none       |Deletes an item object.|
 
 ## Subpages
 
@@ -50,7 +50,7 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 |baseUnitOfMeasureId |GUID    |Specifies the ID of the unit of measure.             |
 |baseUnitOfMeasure   |[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|Specifies the unit in which the item is held in inventory.|
 |gtin                |numeric |This is the Global Trade Item Number.                |
-|itemCategory        |[NAV.ItemCategory](../resources/dynamics_complextypes.md)|Specifies the category that the item belongs to. Item categories also contain any assigned item attributes.|
+|itemCategory        |[NAV.ItemCategory](../resources/dynamics_complextypes.md)|Specifies the category that the item belongs to.|
 |inventory           |decimal |Specifies how many units, such as pieces, boxes, or cans, of the item are in inventory. Read-Only.|
 |unitPrice           |decimal |Specifies the price for one unit of the item in the specified currency.|
 |priceIncludesTax    |boolean |Specifies that the unitPrice includes tax. Set to **true**, if unitPrice includes tax.|
