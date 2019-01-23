@@ -69,18 +69,24 @@ You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_
          ```
          https://MyWebServer:8080/DynamicsNAV110
          ```
+        or
 
-   - If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], use base URL for the Web client, which is the full URL without the ```/[web-instance]``` part. This typically has the format:
+        ```
+        https://corp.sample.com/DynamicsNAV100
+        ```
 
-     ```
-     https://[web-server-computer]:[port]/[web-instance]
-     ```
+   - If you are setting up AD FS for the [!INCLUDE[nav_windows_md](../developer/includes/nav_windows_md.md)], you can use any URL as long as it is in the form of a trusted URL, such as `https://mynavwinclient` or `https://www.cronus. com`. The URL does not have to point to a valid target, it is only used by AD FS to validate the client. For example, you could just use the domain name of your site or the name of the computer that is running the [!INCLUDE[nav_windows_md](../developer/includes/nav_windows_md.md)]:
 
-     For example:
+        ```
+        https://corp.sample.com
 
-     ```
-     https://MyWebServer:8080
-     ```
+        ```
+        
+        or
+
+        ```
+        https://MyComputerName
+        ```
 
    Choose **Next** to continue.
 
@@ -154,8 +160,14 @@ JWT tokens are not supported by AD FS 2.0 or [!INCLUDE[navcrete_md](includes/nav
     
     Replace `<Relying party trust identifier>` with the relying party trust identifier that you added in AD FS for the client, for example:
 
+    
     ```
-    Set-ADFSRelyingPartyTrust –TargetIdentifier "https://bcwebclient" –EnableJWT $true
+    Set-ADFSRelyingPartyTrust –TargetIdentifier "https://dynamicsnavwebclient" –EnableJWT $true
+    ```
+    or
+
+    ```
+    Set-ADFSRelyingPartyTrust –TargetIdentifier "https://dynamicsnavwinclient" –EnableJWT $true
     ```
 
 ## Configure Dynamics NAV to use AD FS authentication
@@ -164,13 +176,13 @@ To setup [!INCLUDE[navnow_md](includes/navnow_md.md)] for ADFS authentication, y
 ### Dynamics NAV Server instance setup
 The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configured to allow claims based authentication. You can do this by using the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)], the [Set-NAVServerConfiguration cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/Set-NAVServerConfiguration) in the [!INCLUDE[navnow_md](includes/navnow_md.md)] Administration Shell, or by modifying the server instance's CustomSettings.config file directly.
 
-1.  Set the **Credential Type** (ClientServicesCredentialType) to ```NavUserPassword``` or ```AccessControlService```.
+1.  Set the **Credential Type** (ClientServicesCredentialType) to `NavUserPassword` or `AccessControlService`.
     -   If you set this to ```NavUserPassword```, client users can use either NavUserPassword or claims based authentication to access [!INCLUDE[navnow](includes/navnow_md.md)]. The CustomSetting.config file should include the following line:
 
         ```
         <add key="ClientServicesCredentialType" value="NavUserPassword"/>
         ```
-    -   If you set this to ```AccessControlService```, only clients that use claims based authentication will be allowed to access [!INCLUDE[navnow](includes/navnow_md.md)]. The CustomSetting.config file should include the following line:
+    -   If you set this to `AccessControlService`, only clients that use claims based authentication will be allowed to access [!INCLUDE[navnow](includes/navnow_md.md)]. The CustomSetting.config file should include the following line:
 
         ```
         <add key="ClientServicesCredentialType" value="AccessControlService"/>
@@ -181,22 +193,34 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
     https://[Public URL for AD FS server]/federationmetadata/2007-06/federationmetadata.xml
     ```
 
-    Replace ```[Public URL for AD FS server]``` with the URL for your installation.
+    Replace `[Public URL for AD FS server]` with the URL for your installation.
 
     When you are done, the CustomSettings.config file should include the following key:
 
     ```
     <add key="ClientServicesFederationMetadataLocation" value="https://[Public URL for AD FS server]/federationmetadata/2007-06/federationmetadata.xml"/>
     ```
+    
+    For example:
+
+    ```
+    <add key="ClientServicesFederationMetadataLocation" value="https://MyADFSServer/federationmetadata/2007-06/federationmetadata.xml"/>
+    ```
+
+    or
+    ```
+    <add key="ClientServicesFederationMetadataLocation" value="https://corp.sample.com/federationmetadata/2007-06/federationmetadata.xml"/>
+    ```
     >[!NOTE]
     >This URL must to be accessible from a browser on the computer running the [!INCLUDE[nav_server](includes/nav_server_md.md)].
 
-3.  To set up the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], set the **WSFederationLoginEndpoint** (WSFederationLoginEndpoint) to point to the AD FS login page for authenticating users.
+3.  For the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], set the **WSFederationLoginEndpoint** (WSFederationLoginEndpoint) to point to the AD FS login page for authenticating users.
+
 
     For example, the CustomSettings.config file should include the following key:
 
     ```
-    <add key="WSFederationLoginEndpoint" value="https://[Public URL for ADFS server]/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwebclient%26wreply=[Dynamics NAV Web Client URL]/SignUp" />
+    <add key="WSFederationLoginEndpoint" value="https://[Public URL for ADFS server]/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwebclient%26wreply=[Dynamics NAV Web Client URL]/SignIn" />
     ```
 
     Replace `[Public URL for AD FS server]` with the URL for your installation.
@@ -225,7 +249,7 @@ The configuration changes are automatically picked up by the Internet Informatio
 ### Dynamic NAV Windows client setup (optional)
 You configure the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] by modifying the ClientUserSettings.config file for each client installation.
 
-1.  Set the **ClientServicesCredentialType** to ```AccessControlService``` as shown:
+1.  Set the **ClientServicesCredentialType** to `AccessControlService` as shown:
 
     ```
     <add key="ClientServicesCredentialType" value="AccessControlService" />
@@ -238,13 +262,13 @@ You configure the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] by modi
     <add key="ACSUri" value="https://[Public URL for ADFS server]/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwinclient%26wreply=[Dynamics NAV Web Client URL without /[Web server instance]]" />
     ```
 
-    Replace ```[Dynamics NAV Web Client URL without /[Web server instance]]``` with the same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] in AD FS.
+    Replace `[Dynamics NAV Web Client URL without /[Web server instance]]` with the same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] in AD FS.
 
 3. Restart the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)].
 
 
 ### Dynamic NAV User setup
-You must map the user accounts in [!INCLUDE[navnow](includes/navnow_md.md)] to corresponding user accounts in AD FS. The mapping is based on the User Principal Name (UPN) that is assigned to the user in Active Directory. The UPN is the user's name in email address format, such as ```username@realm```.
+You must map the user accounts in [!INCLUDE[navnow](includes/navnow_md.md)] to corresponding user accounts in AD FS. The mapping is based on the User Principal Name (UPN) that is assigned to the user in Active Directory. The UPN is the user's name in email address format, such as `username@realm`.
 
 You can do this by using the [!INCLUDE[navnow](includes/navnow_md.md)] client. Open the **User Card** page for a user, and then in the **Office 365 Authentication** section, set the **Authentication Email** field to the UPN of the AD FS user.
 
