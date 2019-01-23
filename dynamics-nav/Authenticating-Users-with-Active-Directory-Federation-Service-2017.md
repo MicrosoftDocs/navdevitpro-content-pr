@@ -80,7 +80,7 @@ You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_
         https://corp.sample.com/DynamicsNAV100/WebClient/SignIn.aspx
         ```
 
-   - If you are setting up AD FS for the [!INCLUDE[nav_windows_md](../developer/includes/nav_windows_md.md)], you can use any URL as long as it is in the form of a trusted URL, such as `https://mynavwinclient` or `https://www.cronus. com`. The URL does not have to point to a valid target, it is only used by AD FS to validate the client. For example, you could just use the domain name of your site or the name of the computer that is running the [!INCLUDE[nav_windows_md](../developer/includes/nav_windows_md.md)]:
+   - If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], you can use any URL as long as it is in the form of a trusted URL, such as `https://mynavwinclient` or `https://www.cronus. com`. The URL does not have to point to a valid target, it is only used by AD FS to validate the client. For example, you could just use the domain name of your site or the name of the computer that is running the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)]:
 
         ```
         https://corp.sample.com
