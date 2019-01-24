@@ -103,6 +103,7 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
 |Enable Encryption on SQL Server Connections|Specifies whether the SQL connect string should request encryption when connecting to SQL Server services.|  
 |Enable Trust of SQL Server Certificate|Specifies whether [!INCLUDE[nav_server](includes/nav_server_md.md)] should trust the SQL Server certificate.|  
 |SQL Command Timeout|The contextual time-out for a SQL command.<br /><br /> Default: 0:30:00|  
+|SQL Connection Timeout|SqlConnectionTimeout|Specifies the time to wait while trying to connect to the database before terminating the attempt and generating an error. This setting also applies to begin, rollback and commit of transactions. <br /><br />The value has the format HH:MM:SS.<br /><br /> Default: 00:01:30<br />Dynamically Updatable: Yes| 
 |Enable SQL Parameters by Ordinal|Specifies whether parameters in SQL statements are referenced by their ordinal number.<br /><br /> Enabling this setting improves performance when using buffered inserts.<br /><br /> Default: Enabled|  
 
 ###  <a name="ClientServices"></a> Client Services Tab Settings  
