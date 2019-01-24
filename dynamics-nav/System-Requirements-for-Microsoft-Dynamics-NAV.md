@@ -16,48 +16,13 @@ ms.prod: "dynamics-nav-2018"
 
 The following sections list the minimum hardware and software requirements to install and run [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. **Minimum** means that later versions \(such as SP1, SP2, or R2 versions\) of a required software product are also supported.  
 
-<!--
-**Client components**  
-
--   [Microsoft Dynamics NAV Windows Client Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#WinClient)  
-
--   [Microsoft Dynamics NAV Development Environment Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#DevEnv)  
-
--   [Microsoft Dynamics NAV Web Client Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#WebClient)  
-
--   [Microsoft Dynamics NAV Tablet Client and Phone Client (in a Browser) Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#NavApps)  
-
--   [Microsoft Dynamics NAV Universal App Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#DynNAVApp)  
-
-**Server components**  
-
--   [Microsoft Dynamics NAV Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#NavServerReqs)  
-
--   [Microsoft Dynamics NAV Web Server Components Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#WebServer)  
-
--   [Microsoft Dynamics NAV Database Components for SQL Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#SQLReq)  
-
--   [Microsoft Dynamics NAV Help Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#HelpServer)  
-
-**Additional components and features**  
-
--   [Microsoft Dynamics NAV as an App for SharePoint Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#SharePointApp)  
-
--   [Automated Data Capture System Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#ADCS)  
-
--   [Business Inbox in Microsoft Outlook Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#BusInboxOutlook)  
-
--   [Microsoft Outlook Add-In Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#Outlook)  
-
--   [Microsoft Dynamics 365 for Sales Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#CRM)  
-
--   [Automated Deployment on Microsoft Azure Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#Azure)  -->
-
 > [!NOTE]  
->  [!INCLUDE[navnow](includes/navnow_md.md)] Setup installs some software if it is not already present in the target computer. For more information, see the "Additional Information" section for each component.  
+> [!INCLUDE[navnow](includes/navnow_md.md)] Setup installs some software if it is not already present in the target computer. For more information, see the "Additional Information" section for each component.  
 
 ## Client Components
-###  <a name="WinClient"></a> Dynamics NAV Windows Client Requirements  
+
+###  <a name="WinClient"></a> Dynamics NAV Windows Client Requirements
+
  The following table shows the minimum system requirements for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
 
 |||  
@@ -66,10 +31,10 @@ The following sections list the minimum hardware and software requirements to in
 |Hardware resources|<ul><li>Hard disk space: 200 MB.</li><li>Memory: 1 GB.</li></ul>|  
 |Reports|<ul><li>For editing RDLC report layouts:<ul><li>Report Builder for SQL Server 2016 or Visual Studio 2017 with [Microsoft Rdlc Report Designer for Visual Studio](https://go.microsoft.com/fwlink/?linkid=857038) installed.</li></ul><li>For editing Word layouts:<ul><li>Microsoft Word 2013 or later</li></ul></ul>|  
 |Instant messaging and Telephony API|<ul><li>Microsoft Lync 2013 or Microsoft Lync 2010.</li></ul>|  
-|Outlook client integration and mail merge|<ul><li>Microsoft Office 365, Microsoft Office 2016, Microsoft Office 2013 Service Pack 1 \(SP1\), or Microsoft Office 2010 Service Pack 2 \(SP2\).</li></ul>|  
-|Import and export with Microsoft Excel and Office XML, and SharePoint links|<ul><li>Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
+|Outlook client integration and mail merge|<ul><li>Microsoft Office 365, Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 Service Pack 1 \(SP1\), or Microsoft Office 2010 Service Pack 2 \(SP2\).</li></ul>|  
+|Import and export with Microsoft Excel and Office XML, and SharePoint links|<ul><li>Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 365.</li></ul>|  
 |Editing in Excel using the Excel Add-in |<ul><li>Excel 2019 or Excel 2016.<br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).</li></ul>|  
-|OneNote integration|<ul><li>Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 2010 SP2.</li></ul>|
+|OneNote integration|<ul><li>Microsoft Office 2019, Microsoft Office 2016, or Microsoft Office 2013 SP1.</li></ul>|
 |Email logging|<ul><li>Active Directory and Microsoft Exchange Server 2013.</li><li>Microsoft Exchange Online, or Exchange Online as part of an Office 365 subscription.</li></ul>|  
 |Additional software|<ul><li>Microsoft .NET Framework 4.7.</li></ul>|  
 |Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present in the target computer:<ul><li>Microsoft .NET Framework 4.7.</li></ul></li><li>The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is available in a 32-bit version and 64-bit version. On a 32-bit Windows operating system, the 32-bit version is run. On a 64-bit Windows operating system, the 64-bit version is run by default; however, you can also run the 32-bit version if it is required.</li><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup can only install the Excel Add-in if Excel is present on the target computer.</li><li>Outlook synchronization is not supported on 64-bit versions of Office.</li></ul>|  
@@ -92,10 +57,10 @@ The following sections list the minimum hardware and software requirements to in
 |-|-|  
 |Supported browsers|<ul><li>Microsoft Edge.</li><li>Internet Explorer 11.</li><li>Google Chrome 61.0 for Windows.</li><li>Mozilla Firefox 55.0 for Windows.</li><li>Safari 10.0 for macOS.</li></ul>For a list of browser limitations, see [Browser Limitations with the Microsoft Dynamics NAV Web Client](Browser-Limitations-with-the-Microsoft-Dynamics-NAV-Web-Client.md).|  
 |Business inbox in Outlook|<ul><li>Microsoft Office 365.</li></ul>|  
-|Sending data to Excel|<ul><li>Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
+|Sending data to Excel|<ul><li>Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 365.</li></ul>|  
 |Editing in Excel using the Excel Add-in |<ul><li>Excel 2016.<br /><br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).</li></ul>|  
-|SharePoint Online links|<ul><li>Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
-|Printing reports to Excel or Word|<ul><li>Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.</li></ul>|  
+|SharePoint Online links|<ul><li>Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 365.</li></ul>|  
+|Printing reports to Excel or Word|<ul><li>Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 365.</li></ul>|  
 |Additional information|If you experience problems using the [!INCLUDE[nav_web](includes/nav_web_md.md)], you can try to turn off browser tools, such as translator tools that may run in the background. Similarly, if you use zoom functionality in your browser or from a third-party tool, then elements may appear (or disappear) depending on screen size.|  
 
 ###  <a name="NavApps"></a> Dynamics NAV Tablet Client and Phone Client \(in a Browser\) Requirements  
@@ -113,7 +78,7 @@ The following sections list the minimum hardware and software requirements to in
 |-|-|  
 |Supported operating systems|<ul><li>Windows 10 S, Home, Pro, Enterprise, or Education \(32-bit and 64-bit editions\).</li><li>Android 5.0 or higher (tablet and phone).</li><li> iOS 10.0 or higher (iPad and iPhone).</li></ul>|  
 |Additional hardware|<ul><li>1 GB RAM for Android and Windows.</li></ul>|  
-|Additional software|<ul><li>A third-party telephony or VoIP app such as Skype or Lync is required for placing calls from [!INCLUDE[navnow](includes/navnow_md.md)].</li><li>A third-party email program such as Outlook is required for sending emails from [!INCLUDE[navnow](includes/navnow_md.md)].</li><li>Microsoft Office 2013 SP1 or Microsoft Office 365 is required for sending data to Microsoft Excel or to Microsoft Word.</li></ul>|  
+|Additional software|<ul><li>A third-party telephony or VoIP app such as Skype or Lync is required for placing calls from [!INCLUDE[navnow](includes/navnow_md.md)].</li><li>A third-party email program such as Outlook is required for sending emails from [!INCLUDE[navnow](includes/navnow_md.md)].</li><li>Microsoft Office 2016 or later, or Microsoft Office 365 is required for sending data to Microsoft Excel or to Microsoft Word.</li></ul>|  
 |Additional information|<ul><li>Device diagonal screen size 7” for tablets.</li><li>Screen resolution 960 × 510 for tablets.</li><li>Device diagonal screen size 4” for phones.</li><li>Screen resolution 854 x 480 for phones.</li></ul>|  
 
 ## Server Components
@@ -208,6 +173,7 @@ The following table shows the minimum system requirements for the [!INCLUDE[navn
  Automated deployment of [!INCLUDE[navnow](includes/navnow_md.md)] on Microsoft Azure by using the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] is only supported on Azure virtual machines that are running Windows Server 2012. For additional requirements for specific [!INCLUDE[navnow](includes/navnow_md.md)] components, refer to the other sections in this topic.
 
 ## See Also
+
 [Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV](index.md)  
 [Product and Architecture Overview](Product-and-Architecture-Overview.md)  
 [Installation Options](Installation-Options.md)  
