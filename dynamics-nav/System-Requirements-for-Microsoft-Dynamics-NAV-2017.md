@@ -30,7 +30,7 @@ The following sections list the specifications of minimum hardware and software 
 |Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(32-bit and 64-bit editions\).<br />-   Windows 8.1 Professional or Enterprise \(32-bit and 64-bit editions\).<br />-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
 |Hardware resources|-   Hard disk space: 200 MB.<br />-   Memory: 1 GB.|  
 |Reports|-   Microsoft Report Viewer 2015 to run reports that use RDLC report layouts.<br />-   SQL Server Report Builder 3.0 for Microsoft SQL Server 2014 or Microsoft SQL Server 2012 SP1 to edit RDLC report layouts.<br />-   Microsoft Word 2013 or later to edit the layouts.|  
-|Instant messaging and Telephony API|-   Microsoft Lync 2013 or Microsoft Lync 2010.|  
+|Instant messaging and Telephony API|-   Microsoft Lync 2013.|  
 |Outlook client integration and mail merge|-   Microsoft Office 365, Microsoft Office 2019, Microsoft Office 2016, or Microsoft Office 2013 Service Pack 1 \(SP1\).|  
 |Import and export with Microsoft Excel and Office XML, and SharePoint links|-   Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 365.|  
 |Editing in Excel using the Excel Add-in |Excel 2019 or Excel 2016,<br /><br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).|  
