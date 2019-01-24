@@ -65,15 +65,16 @@ You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_
          ```
          https://[web-server-computer]:[port]/[web-instance]
          ```        
-           Replace `<webserver-instance>` with the instance name of the Web server instance as defined in IIS for your installation. Make sure that the case matches exactly. For example:
+ 
+         Replace `<webserver-instance>` with the instance name of the Web server instance as defined in IIS for your installation. Make sure that the case matches exactly. For example:
          ```
          https://MyWebServer:8080/DynamicsNAV110
          ```
-        or
+         or
 
-        ```
-        https://corp.sample.com/DynamicsNAV100
-        ```
+         ```
+         https://corp.sample.com/DynamicsNAV100
+         ```
 
    - If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], you can use any URL as long as it is in the form of a trusted URL, such as `https://mynavwinclient` or `https://www.cronus. com`. The URL does not have to point to a valid target, it is only used by AD FS to validate the client. For example, you could just use the domain name of your site or the name of the computer that is running the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)]:
 
@@ -150,8 +151,9 @@ JWT tokens are not supported by AD FS 2.0 or [!INCLUDE[navcrete_md](includes/nav
     c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"] => issue(Type = "oid", Issuer = c.Issuer, OriginalIssuer = c.OriginalIssuer, Value = c.Value, ValueType = c.ValueType);
     ```
 5.  Close the **Edit Claim Rules** dialog box.
+
     ![AD FS Edit Claims Rule Done](media/ADFS_EditClaimsRule2.png "AD FS Edit Claims Rule Done")
-6.  Start Window Powershell, and run the following command to define the token type for the relying party to be JWT:
+1.  Start Window Powershell, and run the following command to define the token type for the relying party to be JWT:
 
 
     ```

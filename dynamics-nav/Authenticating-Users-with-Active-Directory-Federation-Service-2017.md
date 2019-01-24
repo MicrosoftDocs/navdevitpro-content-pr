@@ -155,8 +155,9 @@ JWT tokens are not supported by AD FS 2.0 or [!INCLUDE[navcrete_md](includes/nav
     c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"] => issue(Type = "oid", Issuer = c.Issuer, OriginalIssuer = c.OriginalIssuer, Value = c.Value, ValueType = c.ValueType);
     ```
 5.  Close the **Edit Claim Rules** dialog box.
+
     ![AD FS Edit Claims Rule Done](media/ADFS_EditClaimsRule2.png "AD FS Edit Claims Rule Done")
-6.  Start Window Powershell, and run the following command to define the token type for the relying party to be JWT:
+1.  Start Window Powershell, and run the following command to define the token type for the relying party to be JWT:
 
     ```
     Set-ADFSRelyingPartyTrust –TargetIdentifier "[Web client Relying party trust identifier]" –EnableJWT $true
