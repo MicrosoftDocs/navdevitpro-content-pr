@@ -3,12 +3,12 @@ title: System Requirements for Microsoft Dynamics NAV 2018
 description: This article provides the specifications of minimum hardware and software requirements to install and run Dynamics NAV 2018.
 author: jswymer
 ms.custom: na
-ms.date: 01/16/2019
-ms.reviewer: na
+ms.reviewer: edupont
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
+ms.date: 01/24/2019
 ---
 # System Requirements for [!INCLUDE[nav2018_md](includes/nav2018_md.md)]
 
@@ -31,7 +31,7 @@ The following sections list the minimum hardware and software requirements to in
 |Hardware resources|<ul><li>Hard disk space: 200 MB.</li><li>Memory: 1 GB.</li></ul>|  
 |Reports|<ul><li>For editing RDLC report layouts:<ul><li>Report Builder for SQL Server 2016 or Visual Studio 2017 with [Microsoft Rdlc Report Designer for Visual Studio](https://go.microsoft.com/fwlink/?linkid=857038) installed.</li></ul><li>For editing Word layouts:<ul><li>Microsoft Word 2013 or later</li></ul></ul>|  
 |Instant messaging and Telephony API|<ul><li>Microsoft Lync 2013 or Microsoft Lync 2010.</li></ul>|  
-|Outlook client integration and mail merge|<ul><li>Microsoft Office 365, Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 Service Pack 1 \(SP1\), or Microsoft Office 2010 Service Pack 2 \(SP2\).</li></ul>|  
+|Outlook client integration and mail merge|<ul><li>Microsoft Office 365, Microsoft Office 2019, Microsoft Office 2016, or Microsoft Office 2013 Service Pack 1 \(SP1\).</li></ul>|  
 |Import and export with Microsoft Excel and Office XML, and SharePoint links|<ul><li>Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 365.</li></ul>|  
 |Editing in Excel using the Excel Add-in |<ul><li>Excel 2019 or Excel 2016.<br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).</li></ul>|  
 |OneNote integration|<ul><li>Microsoft Office 2019, Microsoft Office 2016, or Microsoft Office 2013 SP1.</li></ul>|

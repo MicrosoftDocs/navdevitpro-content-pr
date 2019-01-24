@@ -3,14 +3,14 @@ title: "System Requirements for Microsoft Dynamics NAV 2017"
 description: This article provides the specifications of minimum hardware and software requirements to install and run Microsoft Dynamics NAV 2017.
 author: edupont04
 ms.custom: na
-ms.date: 08/28/2018
-ms.reviewer: na
+ms.reviewer: jswymer
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.author: edupont
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 014e3285-02be-459c-9a54-eae45ea71e04
+ms.date: 01/24/2019
 
 ---
 # System Requirements for Microsoft Dynamics NAV 2017
