@@ -220,16 +220,16 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
 
 
     ```
-    https://<Public URL for ADFS server>/adfs/ls/?wa=wsignin1.0%26wtrealm=<Relying party trust identifier>%26wreply=<Business Central Web Client URL>/SignIn" />
+    https://<Public URL for ADFS server>/adfs/ls/?wa=wsignin1.0%26wtrealm=<Relying party trust identifier>%26wreply=<Dynamics NAV Web Client URL>/SignIn.aspx" />
     ```
 
-    Replace `[Public URL for AD FS server]` with the URL for your installation.
+    Replace `<Public URL for AD FS server>` with the URL for your installation.
 
     Replace `<Relying party trust identifier>` with the exact value that was specified as the  **Relying party trust identifier** in the earlier task (**Set up a Relying Party Trust for the Dynamics NAV clients**). 
  
-    Replace `[Dynamics NAV Web Client URL]` with the full URL for your Web client, such as `https://MyWebServer:8080/DynamicsNAV100/WebClient/SignIn.aspx`. This is same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
+    Replace `<Dynamics NAV Web Client URL>` with the full URL for your Web client, such as `https://MyWebServer:8080/DynamicsNAV100/WebClient`. This must be the exact same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
 
-    For example, when you are done, the CustomSettings file should include the following key::
+    For example, when you are done, the CustomSettings.config file should include the following key::
     ```
     <add key="WSFederationLoginEndpoint" value="https://MyWebServer/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwebclient%26wreply=https://MyWebServer:8080/DynamicsNAV100/WebClient/SignIn.aspx" />
     ```
@@ -287,11 +287,20 @@ You configure the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] by modi
 2.  Set the **ACSUri** setting to the AD FS login page as shown:
 
     ```
-    <add key="ACSUri" value="https://[Public URL for ADFS server]/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwinclient%26wreply=[Dynamics NAV Web Client URL without /[Web server instance]/WebClient]" />
+    <add key="ACSUri" value="https://<Public URL for ADFS server>/adfs/ls/?wa=wsignin1.0%26wtrealm=<Relying party trust identifier>%26wreply=<Relying Party Trust Endpoint>" />
     ```
 
-    Replace `[Dynamics NAV Web Client URL without /[Web server instance]/WebClient]` with the same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] in AD FS.
+    Replace `<Public URL for AD FS server<` with the URL for your installation.
 
+    Replace `<Relying party trust identifier>` with the exact value that was specified as the  **Relying party trust identifier** in the earlier task (**Set up a Relying Party Trust for the Dynamics NAV clients**).
+
+    Replace `<Relying Party Trust Endpoint>` with the same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] in AD FS.
+    
+    For example:
+
+    ```
+    <add key="ACSUri" value="https://corp.sample.com/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwinclient%26wreply=https://corp.sample.com" />
+    ```
 3. Restart the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)].
 
 

@@ -73,7 +73,7 @@ You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_
          or
 
          ```
-         https://corp.sample.com/DynamicsNAV100
+         https://corp.sample.com/DynamicsNAV110
          ```
 
    - If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], you can use any URL as long as it is in the form of a trusted URL, such as `https://mynavwinclient` or `https://www.cronus. com`. The URL does not have to point to a valid target, it is only used by AD FS to validate the client. For example, you could just use the domain name of your site or the name of the computer that is running the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)]:
@@ -153,7 +153,7 @@ JWT tokens are not supported by AD FS 2.0 or [!INCLUDE[navcrete_md](includes/nav
 5.  Close the **Edit Claim Rules** dialog box.
 
     ![AD FS Edit Claims Rule Done](media/ADFS_EditClaimsRule2.png "AD FS Edit Claims Rule Done")
-1.  Start Window Powershell, and run the following command to define the token type for the relying party to be JWT:
+6.  Start Window Powershell, and run the following command to define the token type for the relying party to be JWT:
 
 
     ```
@@ -195,15 +195,9 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
     https://[Public URL for AD FS server]/federationmetadata/2007-06/federationmetadata.xml
     ```
 
-    Replace `[Public URL for AD FS server]` with the URL for your installation.
+    Replace `[Public URL for AD FS server]` with the URL for your installation, such as `MyADFSServer` or `corp.sample.com`.
 
-    When you are done, the CustomSettings.config file should include the following key:
-
-    ```
-    <add key="ClientServicesFederationMetadataLocation" value="https://[Public URL for AD FS server]/federationmetadata/2007-06/federationmetadata.xml"/>
-    ```
-    
-    For example:
+    For example, when you are done, the CustomSettings.config file should include the following key:
 
     ```
     <add key="ClientServicesFederationMetadataLocation" value="https://MyADFSServer/federationmetadata/2007-06/federationmetadata.xml"/>
@@ -218,16 +212,26 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
 
 3.  For the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], set the **WSFederationLoginEndpoint** (WSFederationLoginEndpoint) to point to the AD FS login page for authenticating users.
 
-
-    For example, the CustomSettings.config file should include the following key:
-
+    
     ```
-    <add key="WSFederationLoginEndpoint" value="https://[Public URL for ADFS server]/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwebclient%26wreply=[Dynamics NAV Web Client URL]/SignIn" />
+    https://<Public URL for ADFS server>/adfs/ls/?wa=wsignin1.0%26wtrealm=<Relying party trust identifier>%26wreply=<Dynamics NAV Web Client URL>/SignIn" />
     ```
 
     Replace `[Public URL for AD FS server]` with the URL for your installation.
 
-    Replace `[Dynamics NAV Web Client URL]` with the full URL for your Web client, such as `https://MyWebServer:8080/DynamicsNAV110`. This is same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS. Make sure that the case matches exactly.
+    Replace `<Relying party trust identifier>` with the exact value that was specified as the  **Relying party trust identifier** in the earlier task (**Set up a Relying Party Trust for the Dynamics NAV clients**). 
+ 
+    Replace `<Dynamics NAV Web Client URL>` with the full URL for your Web client, such as `https://MyWebServer:8080/DynamicsNAV110/WebClient`. This must be the exact same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
+
+    For example, when you are done, the CustomSettings.config file should include the following key::
+    ```
+    <add key="WSFederationLoginEndpoint" value="https://MyWebServer/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwebclient%26wreply=https://MyWebServer:8080/DynamicsNAV110/SignIn" />
+    ```
+
+    or
+    ```
+    <add key="WSFederationLoginEndpoint" value="https://corp.sample.com/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwebclient%26wreply=https://corp.sample.com/DynamicsNAV110/SignIn" />
+    ```
 
 4.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
@@ -261,10 +265,20 @@ You configure the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] by modi
 2.  Set the **ACSUri** setting to the AD FS login page as shown:
 
     ```
-    <add key="ACSUri" value="https://[Public URL for ADFS server]/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwinclient%26wreply=[Dynamics NAV Web Client URL without /[Web server instance]]" />
+    <add key="ACSUri" value="https://<Public URL for ADFS server>/adfs/ls/?wa=wsignin1.0%26wtrealm=<Relying party trust identifier>%26wreply=<Relying Party Trust Endpoint>" />
     ```
 
-    Replace `[Dynamics NAV Web Client URL without /[Web server instance]]` with the same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] in AD FS.
+    Replace `<Public URL for AD FS server<` with the URL for your installation.
+
+    Replace `<Relying party trust identifier>` with the exact value that was specified as the  **Relying party trust identifier** in the earlier task (**Set up a Relying Party Trust for the Dynamics NAV clients**).
+
+    Replace `<Relying Party Trust Endpoint>` with the same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] in AD FS.
+
+    For example:
+
+    ```
+    <add key="ACSUri" value="https://corp.sample.com/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwinclient%26wreply=https://corp.sample.com" />
+    ```
 
 3. Restart the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)].
 
