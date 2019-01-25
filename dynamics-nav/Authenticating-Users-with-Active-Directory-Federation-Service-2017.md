@@ -197,12 +197,8 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
 
     Replace `[Public URL for AD FS server]` with the URL for your installation.
 
-    When you are done, the CustomSettings.config file should include the following key:
-
-    ```
-    <add key="ClientServicesFederationMetadataLocation" value="https://[Public URL for AD FS server]/federationmetadata/2007-06/federationmetadata.xml"/>
-    ```
-    For example:
+  
+    For example, when you are done, the CustomSettings.config file should include a key similar to the following:
 
     ```
     <add key="ClientServicesFederationMetadataLocation" value="https://MyADFSServer/federationmetadata/2007-06/federationmetadata.xml"/>
@@ -229,7 +225,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
  
     Replace `<Dynamics NAV Web Client URL>` with the full URL for your Web client, such as `https://MyWebServer:8080/DynamicsNAV100/WebClient`. This must be the exact same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
 
-    For example, when you are done, the CustomSettings.config file should include the following key::
+    For example, when you are done, the CustomSettings.config file should include a key similar to the following:
     ```
     <add key="WSFederationLoginEndpoint" value="https://MyWebServer/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwebclient%26wreply=https://MyWebServer:8080/DynamicsNAV100/WebClient/SignIn.aspx" />
     ```
