@@ -32,7 +32,13 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
   
 -   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
--   Visual Studio 2012 or Visual Studio 2010. You can use any edition of Visual Studio that supports adding web references. In this walkthrough, you will use Visual Studio 2012. You also have the option to use service references instead of web references, or use the web service proxy generating tools svcutil.exe and wsdl.exe, which are included in the Microsoft .NET Framework SDK.  
+-   Visual Studio 2017.
+
+    You can use any edition of Visual Studio that supports adding web references. Be ware that Visual Studio ersions In this walkthrough, you will use Visual Studio 2017. You also have the option to use service references instead of web references, or use the web service proxy generating tools svcutil.exe and wsdl.exe, which are included in the Microsoft .NET Framework SDK.  
+
+- OData Connected Service installed in Visual Studio.
+
+    This tool generates code to faciliate the consumption of OData services. For download, see [ OData Connected Service](https://marketplace.visualstudio.com/items?itemName=laylaliu.ODataConnectedService).
   
 ## Publishing a Page as a Web Service  
  You publish a web service by using the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
@@ -79,26 +85,39 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
 ##  <a name="BKMK_CreateConsoleApp"></a> Creating the Console Application  
  Next, you create a C\# console application in Visual Studio 2012.  
   
-#### To create the C\# project  
+### Create the C\# project  
   
 1. In Visual Studio, on the **File** menu, point to **New**, and then choose **Project**.  
   
-2. Expand the **Installed** node, <!-- expand the **Templates** node,-->expand the **Visual C\#** node, select **<!--Windows-->Windows Classic Desktop**, and then choose **Console App<!--lication-->**. Enter the name **NAVCustomers** for the application.  
+2. In the pane on the left, select **Installed** > **Visual C\#** > **Windows Classic Desktop** > **Console App (.NET Framework)**.
+3. Set the **Name** and **Solution Name** for the application to **NAVCustomers** , and choose  **OK** to exit the **New Project** page.  
   
-3. Choose the **OK** button to exit the **New Project** page.  
+### Add a Service Reference for your OData Web service (Visual Studio 2015 and earlier)
+1. In the Solution Explorer pane, right-click **References**, and then choose **Add Service Reference**.  
   
-4. In the Solution Explorer pane, right-click **References**, and then choose **Add Service Reference**.  
-  
-5. In the **Address** field, enter the URI for your OData web service, such as **http://localhost:7048/DynamicsNAV/OData/**.  
+2. In the **Address** field, enter the URI for your OData web service, such as **http://localhost:7048/DynamicsNAV/OData/**.  
   
    > [!IMPORTANT]  
    >  In this example, we use the HTTP protocol to illustrate the use of OData web services. We recommend that you use the more secure HTTPS protocol when you consume web services.  
   
-6. Choose **Go**, and then, in the **Services** field, choose **NAV**, and then choose the **OK** button.  
+3. Choose **Go**, and then, in the **Services** field, choose **NAV**, and then choose the **OK** button.  
+  
+   The project is created, and your OData web service is added as a service reference. Next, you add the code that will show a list of existing customers, add a customer and then rename the new customer.  
+
+### Add a Connected Servce Reference for your OData Web service (Visual Studio 2017)
+1. In the Solution Explorer pane, right-click the **NAVCustomers** project, and then choose **Add** > **Connected Service**.  
+  
+2. In the **Address** field, enter the URI for your OData web service, such as **http://localhost:7048/DynamicsNAV/ODataV4/**.  
+  
+   > [!IMPORTANT]  
+   >  In this example, we use the HTTP protocol to illustrate the use of OData web services. We recommend that you use the more secure HTTPS protocol when you consume web services.  
+  
+3. Choose **Go**, and then, in the **Services** field, choose **NAV**, and then choose the **OK** button.  
   
    The project is created, and your OData web service is added as a service reference. Next, you add the code that will show a list of existing customers, add a customer and then rename the new customer.  
   
-#### To add code to your console application  
+ 
+### Add code to your console application  
   
 1.  Add the following `using` statement after the namespaces that are automatically added to your project:  
   
@@ -136,7 +155,7 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
   
     ```  
     NAV nav = new NAV(new Uri("http://localhost:7048/DynamicsNAV/OData/Company('CRONUS-International-Ltd.')"));  
-    nav.Credentials = CredentialCache.DefaultNetworkCredentials;  
+    nav.Credentials = System.Net.CredentialCache.DefaultNetworkCredentials;  
     ```  
   
      In the example, the name of the [!INCLUDE[navnow](includes/navnow_md.md)] company that you modify data for is [!INCLUDE[demoname](includes/demoname_md.md)]. You must replace this with the name of the company that you have access to. To find the correct URI, you can paste the following URI into your browser and then see the exact URI that you must use: `http://localhost:7048/DynamicsNAV/OData/Company`.  
