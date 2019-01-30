@@ -66,7 +66,10 @@ To convert the old database to a [!INCLUDE[nav2018_md](includes/nav2018_md.md)] 
     Alternately, to remove them all at once, you can run this command:
 
     ```
-    Get-NAVAppInfo -ServerInstance <ServerInstanceName> -Tenant default | % { Uninstall-NAVApp -ServerInstance <ServerInstanceName> -Name $_.Name -Version $_.Version } 
+    Get-NAVAppInfo -ServerInstance <ServerInstanceName> -Tenant default | % { Uninstall-NAVApp -ServerInstance <ServerInstanceName> -Name $_.Name -Version $_.Version }
+    ```
+
+    For more information, see [Install or Uninstall Extensions](How-to--Publish-and-Install-an-Extension.md#Install).
 
 2.  Open the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] that matches the [!INCLUDE[navnow](includes/navnow_md.md)] version of the old database, and then connect to the old database.  
 

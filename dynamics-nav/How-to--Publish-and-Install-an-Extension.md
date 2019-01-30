@@ -35,7 +35,7 @@ To make your extension available to users, the package must be published to a sp
 
    Once an app has been published, it must be made available for any tenant that wishes to use it.  
 
-### To install or uninstall an extension using PowerShell  
+### <a name="install"></a>To install or uninstall an extension using PowerShell  
 
 -   To install an extension, in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], use the `Install-NAVApp` cmdlet. The following example installs the MyExtension for Tenant1 and Tenant3. In single-tenant deployments, you either specify default as the tenant ID, or you omit the *–Tenant* parameter.  
 
