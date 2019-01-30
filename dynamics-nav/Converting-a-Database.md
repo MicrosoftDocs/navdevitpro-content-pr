@@ -45,7 +45,28 @@ To convert the old database to a [!INCLUDE[nav2018_md](includes/nav2018_md.md)] 
 
 1.  Make a copy of the old database or create full database backup.  
 
-     For more information, see [Create a Full Database Backup \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkID=296465).  
+     For more information, see [Create a Full Database Backup \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkID=296465). 
+
+2. Uninstall all extensions from the tenant.
+    
+    You can do this from **Extension Management** page in the [!INCLUDE[navnow](../developer/includes/navnow_md.md)] client or by using the [Uninstall-NAVApp](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/uninstall-navapp) cmdlet of the [!INCLUDE[nav_shell](../developer/includes/nav_shell_md.md)]. 
+
+    To get a list of the extensions that are installed, run this command:
+
+    ```
+    Get-NAVAppInfo -ServerInstance <ServerInstanceName> -Tenant <TenantID>
+    ```
+
+    For each extension, run this command to uninstall it:
+
+    ```
+    Uninstall-NAVApp -ServerInstance <ServerInstanceName> -Name <Name> -Version <N.N.N.N>
+    ```
+
+    Alternately, to remove them all at once, you can run this command:
+
+    ```
+    Get-NAVAppInfo -ServerInstance <ServerInstanceName> -Tenant default | % { Uninstall-NAVApp -ServerInstance <ServerInstanceName> -Name $_.Name -Version $_.Version } 
 
 2.  Open the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] that matches the [!INCLUDE[navnow](includes/navnow_md.md)] version of the old database, and then connect to the old database.  
 
