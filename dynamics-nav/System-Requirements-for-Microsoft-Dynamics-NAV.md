@@ -166,7 +166,7 @@ The following table shows the minimum system requirements for the [!INCLUDE[navn
 
 |||  
 |-|-|  
-|Supported operating systems|<ul>li>Windows Server 2019 Standard, Essentials, or Datacenter.</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012 R2 Standard or Datacenter \(64-bit edition\).</li><li>Windows Server 2012 Standard or Datacenter \(64-bit edition\).</li></ul>|  
+|Supported operating systems|<ul><li>Windows Server 2019 Standard, Essentials, or Datacenter.</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012 R2 Standard or Datacenter \(64-bit edition\).</li><li>Windows Server 2012 Standard or Datacenter \(64-bit edition\).</li></ul>|  
 |Additional software|<ul><li>SharePoint 2013 Service Pack 1.</li><li>SharePoint Online.</li></ul>|  
 
 ###  <a name="Azure"></a> Automated Deployment on Microsoft Azure Requirements  
