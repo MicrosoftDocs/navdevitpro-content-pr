@@ -59,10 +59,9 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
   
 ## Verifying Web Service Availability  
   
-> [!NOTE]  
->  After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for OData web services is 7048. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
+After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for OData web services is 7048. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
   
-#### To verify availability of a [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)] web service  
+### To verify availability of a [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)] web service  
   
 1. Start Internet Explorer.  
   
@@ -82,8 +81,9 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
   
       ![Basic AtomPub document for a page](media/BasAtomPub.JPG "BasAtomPub")  
   
-##  <a name="BKMK_CreateConsoleApp"></a> Creating the Console Application  
- Next, you create a C\# console application in Visual Studio 2012.  
+##  <a name="BKMK_CreateConsoleApp"></a> Creating the Console Application
+ 
+Next, you create a C\# console application in Visual Studio.  
   
 ### Create the C\# project  
   
