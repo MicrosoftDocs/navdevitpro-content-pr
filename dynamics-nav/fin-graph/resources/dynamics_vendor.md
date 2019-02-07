@@ -84,7 +84,6 @@ Here is a JSON representation of the vendor.
   "currencyCode": "string",
   "irs1099Code": "string",
   "paymentTermsId": "GUID",
-  "paymentTerms": "NAV.PaymentTermsType",
   "paymentMethodId": "GUID",
   "paymentMethod": "NAV.PaymentMethod",
   "taxLiable": "boolean",
