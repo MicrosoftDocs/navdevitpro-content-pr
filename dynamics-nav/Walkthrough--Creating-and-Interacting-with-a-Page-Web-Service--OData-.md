@@ -34,6 +34,8 @@ This walkthrough provides an overview of how to expose a page as a web service a
 -   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
 -   [!INCLUDE[demolong](includes/demolong_md.md)].  
+
+- ODate Services and V4 Endpoint enabled on the [!INCLUDE[nav_server](includes/nav_server.md)]. 
   
 -   Visual Studio 2017.
 
@@ -82,7 +84,7 @@ After publishing a web service, verify that the port that web service applicatio
   
       For example, if the [!INCLUDE[nav_server](includes/nav_server_md.md)] is running on the computer that you are working on, then you can use: **http://localhost:7048/DynamicsNAV/ODataV4/**  
   
-      The browser should now show the web service that you have published, in the format <!-- of an AtomPub document.-->: 
+      The browser should now show the web service that you have published, in the following format <!-- of an AtomPub document.-->: 
 
     {"@odata.context":"http://localhost:7048/BC140/ODataV4/$metadata","value":[{"name":"CustomerPriceAndLineDisc","kind":"EntitySet","url":"CustomerPriceAndLineDisc"}, 
   <!--
@@ -110,29 +112,30 @@ Next, you create a C\# console application in Visual Studio.
   
    The project is created, and your OData web service is added as a service reference. Next, you add the code that will show a list of existing customers, add a customer and then rename the new customer.  -->
 
-### Add a Connected Servce Reference for your OData Web service
+### Add a Connected Service Reference for your OData Web service
 
 1. In the Solution Explorer pane, right-click the **NAVCustomers** project, and then choose **Add** > **Connected Service**.  
-  
+
+2. On the **Configure Enpoint** page, you can keep the **Service name** of **OData Service** or change it if you like. 
 2. In the **Address** field, enter the URI for your OData web service, such as **http://localhost:7048/DynamicsNAV/ODataV4**.  
   
    > [!IMPORTANT]  
    >  In this example, we use the HTTP protocol to illustrate the use of OData web services. We recommend that you use the more secure HTTPS protocol when you consume web services.  
   
-3. Choose **Go**, and then, in the **Services** field, choose **NAV**, and then choose the **OK** button.  
+3. Choose **Next**.
+4. On the **Settings** page, you can keep the file name **Reference** or change it if you like.
   
-   The project is created, and your OData web service is added as a service reference. Next, you add the code that will show a list of existing customers, add a customer and then rename the new customer.  
+   The project is created, and your OData web service is added as a connected service reference. Next, you add the code that will show a list of existing customers, add a customer and then rename the new customer.  
   
  
 ### Add code to your console application  
-<!--   
+
 1.  Add the following `using` statement after the namespaces that are automatically added to your project:  
   
     ```  
-    using NAVCustomers.ServiceReference1;  
-    ```  
--->  
-1.  After the `Main` method, add the following method:  
+    using NAV;  
+    ```   
+2.  After the `Main` method, add the following method:  
   
     ```  
     private static void PrintCustomersCalledCust(NAV.NAV nav)  
@@ -192,8 +195,11 @@ Next, you create a C\# console application in Visual Studio.
     ```  
   
      In this code, a customer is created and then renamed. The code prints a list of the customers that currently exist in the **Customer** table when each change has been made.  
-  
-5.  Build and run the project.  
+
+5. Open the Reference.cs and replace Microsoft.OData.Edm.Library.Date with Microsoft.OData.Edm.Date
+
+6. Microsoft.OData.Edm.Csdl.EdmxReader with Microsoft.OData.Edm.Csdl.CsdlReader.
+7.  Build and run the project.  
   
 #### To verify the inserted and modified data in [!INCLUDE[navnow](includes/navnow_md.md)]  
   
@@ -203,9 +209,7 @@ Next, you create a C\# console application in Visual Studio.
   
      This is the customer that the console application created and modified.  
 
-Open the Reference.cs and replace Microsoft.OData.Edm.Library.Date with Microsoft.OData.Edm.Date
 
-Microsoft.OData.Edm.Csdl.EdmxReader with Microsoft.OData.Edm.Csdl.CsdlReader.
   
 ## Next Steps  
  You have built a console application that uses an OData web service to modify [!INCLUDE[navnow](includes/navnow_md.md)] data. You can use similar OData web services in other applications when you want to allow users to modify data outside [!INCLUDE[navnow](includes/navnow_md.md)].  
