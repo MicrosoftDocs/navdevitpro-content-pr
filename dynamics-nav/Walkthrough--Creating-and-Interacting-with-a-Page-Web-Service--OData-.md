@@ -35,7 +35,7 @@ This walkthrough provides an overview of how to expose a page as a web service a
   
 -   [!INCLUDE[demolong](includes/demolong_md.md)].  
 
-- ODate Services and V4 Endpoint enabled on the [!INCLUDE[nav_server](includes/nav_server.md)]. 
+- ODate Services and V4 Endpoint enabled on the [!INCLUDE[nav_server](includes/nav_server_md.md)]. 
   
 -   Visual Studio 2017.
 
