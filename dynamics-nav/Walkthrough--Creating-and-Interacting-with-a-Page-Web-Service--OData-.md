@@ -196,9 +196,10 @@ Next, you create a C\# console application in Visual Studio.
   
      In this code, a customer is created and then renamed. The code prints a list of the customers that currently exist in the **Customer** table when each change has been made.  
 
-5. Open the Reference.cs and replace Microsoft.OData.Edm.Library.Date with Microsoft.OData.Edm.Date
+5. From Solution Explorer, open the C\# reference file (Reference.cs) under **Connected Services** > **OData Service**.
 
-6. Microsoft.OData.Edm.Csdl.EdmxReader with Microsoft.OData.Edm.Csdl.CsdlReader.
+    - Replace all references to `Microsoft.OData.Edm.Library.Date` with `Microsoft.OData.Edm.Date`.
+    -  Replace all references to `Microsoft.OData.Edm.Csdl.EdmxReader` with `Microsoft.OData.Edm.Csdl.CsdlReader`.
 7.  Build and run the project.  
   
 #### To verify the inserted and modified data in [!INCLUDE[navnow](includes/navnow_md.md)]  
