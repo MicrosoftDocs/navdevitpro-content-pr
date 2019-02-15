@@ -15,7 +15,7 @@ ms.author: edupont
 
 To make your extension available to users, the package must be published to a specific [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The extension can be installed for one or more tenants. This content applies to Extensions V1.0. For information about Extensions v2.0, see [How to: Publish and Install an Extension V2.0](developer/devenv-how-publish-and-install-an-extension-v2.md) and [Developing Extensions Using the AL Development Environment](developer/devenv-dev-overview.md).
 
-### To publish or remove an extension  
+### To publish or unpublish an extension  
 
 1. In the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)], use the `Publish-NAVApp` cmdlet. The cmdlet takes as parameters the server you want to install to and the .navx package file that contains the extension. The following example publishes the extension MyExtension to the YourDynamicsNAVServer instance.  
 
@@ -35,20 +35,26 @@ To make your extension available to users, the package must be published to a sp
 
    Once an app has been published, it must be made available for any tenant that wishes to use it.  
 
-### To install an extension using PowerShell  
+### <a name="Install"></a>To install or uninstall an extension using PowerShell  
 
--   In the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], use the `Install-NAVApp` cmdlet. The following example installs the MyExtension for Tenant1 and Tenant3. In single-tenant deployments, you either specify default as the tenant ID, or you omit the *–Tenant* parameter.  
+-   To install an extension, in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], use the `Install-NAVApp` cmdlet. The following example installs the MyExtension for Tenant1 and Tenant3. In single-tenant deployments, you either specify default as the tenant ID, or you omit the *–Tenant* parameter.  
 
     ```  
-    Install-NAVApp -ServerInstance YourDynamicsNAVServer -Name ”My Extension” –Tenant Tenant1, Tenant3  
+    Install-NAVApp -ServerInstance YourDynamicsNAVServer -Name "My Extension" –Tenant Tenant1, Tenant3  
     ```  
 
-     Use `Get-NAVAppInfo –Tenant` command to get an overview of the extensions for that tenant, use the `Get-NAVAppTenant` cmdlet to get all tenants that have installed a specified extension, and uninstall an extension using the `Uninstall-NAVApp` cmdlet.  
+- To uninstall an extension, use the `Uninstall-NAVApp` cmdlet. For example:
+
+    ```
+    Uninstall-NAVApp -ServerInstance YourDynamicsNAVServer -Name "My Extension"  -Version 1.0.0.0
+    ```
+
+    Use `Get-NAVAppInfo –Tenant` command to get an overview of the extensions for that tenant, use the `Get-NAVAppTenant` cmdlet to get all tenants that have installed a specified extension, and uninstall an extension.  
 
     > [!NOTE]  
     >  When you uninstall an extension that includes tables and fields, this impacts the database schema and any data that the tables and fields contain. For more information, see [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md).  
 
-### To install an extension in the client  
+### To install and uninstall an extension in the client  
 
 1.  In [!INCLUDE[navnow](includes/navnow_md.md)], open the **Extension Management** window to view the extensions that are published to your server. For each extension, you can see the current installation status.  
 2.  Choose an extension to see additional information and to install the extension.  
@@ -63,6 +69,7 @@ To make your extension available to users, the package must be published to a sp
 
     > [!NOTE]  
     >  When you uninstall an extension that includes tables and fields, this impacts the database schema and any data that the tables and fields contain. For more information, see [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md).  
+
 
 ## See Also  
 [Getting Started](developer/devenv-get-started.md)  

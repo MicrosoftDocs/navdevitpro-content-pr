@@ -19,7 +19,7 @@ Use the following links to help resolve problems with [!INCLUDE[nav_web_server_m
 
 -   [Troubleshooting: Could not load type 'System.ServiceModel.Activation.HttpModule' from assembly 'System.ServiceModel...'](Troubleshooting--Could-not-load-type--System.ServiceModel.Activation.HttpModule--from-assembly--System.ServiceModel...-.md)  
 
--   [Troubleshooting: 401 - Unauthorized: Access is denied due to invalid credentials.](Troubleshooting--401---Unauthorized:-Access-is-denied-due-to-invalid-credentials..md)  
+-   [Troubleshooting: 401 - Unauthorized: Access is denied due to invalid credentials.](Troubleshooting--401---Unauthorized--Access-is-denied-due-to-invalid-credentials.md)  
 
 -   [Troubleshooting: HTTP Error 500 \(or 500.21\) - Internal Server Error Handler](Troubleshooting--HTTP-Error-500--or-500.21----Internal-Server-Error-Handler.md)  
 
@@ -36,6 +36,8 @@ Use the following links to help resolve problems with [!INCLUDE[nav_web_server_m
 -   [Troubleshooting: Reports that are saved as Excel or Word files are blank](Troubleshooting--Reports-that-are-saved-as-Excel-or-Word-files-are-blank.md) 
 
 -   [Troubleshooting: Microsoft.AspNetCore.HttpOverrides.ForwardedHeadersMiddleware and Parameter count between X-Forwarded-For and X-Forwarded-Proto errors](Troubleshooting-web-client-errors-application-request-routing.md)  
+
+- [Troubleshooting: The SAML2 token is invalid because its validity period ended.](Troubleshooting-saml-token-invalid-validity-period-ended.md)
 
 
 ## See Also  
