@@ -11,7 +11,6 @@ ms.assetid: e4c70172-b5bb-4649-a5cb-27fe0afd988c
 caps.latest.revision: 3
 author: jswymer
 ---
-
 # Optimizing SQL Server Performance with Microsoft Dynamics NAV
 The following articles describe how to optimize performance in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] when accessing data from the SQL Server database.  
 
@@ -26,8 +25,6 @@ The following articles describe how to optimize performance in [!INCLUDE[navnowl
 [C/AL Database Functions and Performance on SQL Server](C-AL-Database-Functions-and-Performance-on-SQL-Server.md)   
 
 [Query Objects and Performance](Query-Objects-and-Performance.md)  
-
-[Configuring Query Hints for Optimizing SQL Server Performance](sql-server-query-hints.md)
 
 [Troubleshooting: Analyzing Long Running SQL Queries Involving FlowFields by Disabling SmartSQL](Troubleshooting-Queries-Involving-FlowFields-By-Disabling-SmartSQL.md)  
 
