@@ -16,11 +16,11 @@ In Visual Studio Report Designer, you can use the **ROUND** function to round a 
   
  To specify precision when you use the **ROUND** function on a client report definition \(RDLC\) report layout, you must do one of the following:  
   
--   Use an expression, such as `=ROUND(100*<Value>)/100` on the value in a text box.  
+- Use an expression, such as `=ROUND(100*<Value>)/100` on the value in a text box.  
   
--   Add code to functions that call the **ROUND** function.  
+- Add code to functions that call the **ROUND** function.  
   
- An example of a report in the [!INCLUDE[demolong](includes/demolong_md.md)] that uses the **ROUND** function and specifies a degree of precision is report 111, Customer - Top 10 List.  
+  An example of a report in the [!INCLUDE[demolong](includes/demolong_md.md)] that uses the **ROUND** function and specifies a degree of precision is report 111, Customer - Top 10 List.  
   
 ### To use an expression to specify rounding precision  
   

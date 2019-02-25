@@ -90,28 +90,28 @@ After you have registered a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] 
 
 #### To call a control add-in method or property  
 
-1.  In the C/AL Editor, locate the trigger from which you want to call the method or property.  
+1. In the C/AL Editor, locate the trigger from which you want to call the method or property.  
 
-    > [!NOTE]  
-    >  You cannot call control add-in methods or properties from the OnInit, OnOpenPage, or OnNewRecord triggers.  
+   > [!NOTE]  
+   >  You cannot call control add-in methods or properties from the OnInit, OnOpenPage, or OnNewRecord triggers.  
 
-2.  Add the C/AL code to the trigger that calls the method or property.  
+2. Add the C/AL code to the trigger that calls the method or property.  
 
-    -   To call a method, add the following code.  
+   - To call a method, add the following code.  
 
-        ```  
-        CurrPage.ControlName.MyMethod(parameter)  
-        ```  
+     ```  
+     CurrPage.ControlName.MyMethod(parameter)  
+     ```  
 
-    -   To call a property, add the fowlloing code.  
+   - To call a property, add the fowlloing code.  
 
-        ```  
-        CurrPage.ControlName.MyProperty  
-        ```  
+     ```  
+     CurrPage.ControlName.MyProperty  
+     ```  
 
      `ControlName` is the name of the field control that is applied with the control add-in. The name is specified by the [Name Property](Name-Property.md). `MyMethod` and `MyProperty` are the names of the method and property of the control add-in to be invoked.  
 
-3.  Save the page.  
+3. Save the page.  
 
 ## See Also  
  [Windows Client Control Add-in Overview](Windows-Client-Control-Add-in-Overview.md)   

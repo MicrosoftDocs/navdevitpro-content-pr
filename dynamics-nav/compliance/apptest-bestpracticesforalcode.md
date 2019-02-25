@@ -12,6 +12,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: solsen
 caps.latest.revision: 18
+redirect_url: /dynamics365/business-central/dev-itpro/compliance/apptest-bestpracticesforalcode
 ---
 
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
@@ -91,7 +92,6 @@ page 123 PageName
         EnablePictureAnalyzerNotification(rec."No.", OnRecord::Item);
     end;
 }
-
 ```
 
 The AL Language extension offers users the option to automatically format their source code. For more information on how to use it, see [AL Formatter](../developer/devenv-al-formatter.md).
@@ -129,7 +129,7 @@ In AL, objects are referenced by their object name, not by their ID.
 
 ```
 Page.RunModal(Page::"Customer Card", ...)
- 
+
 var
 Customer: Record Customer;
 ```
@@ -152,7 +152,7 @@ To declare a method, follow the guidelines below:
 - There must be a blank line between method declarations. If you format your code using the [AL Formatter](../developer/devenv-al-formatter.md) tool, the auto-formatter sets the blank line between procedures. 
 
 ### Example
- 
+
 ```
 local procedure MyProcedure(Customer: Record Customer; Int: Integer)
 begin

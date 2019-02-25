@@ -218,8 +218,6 @@ report 70010101 "Customer List"
     Customer_Currency_CodeCaptionLbl : TextConst ENU='Currency Code';
     Total_LCY_CaptionLbl : TextConst ENU='Total (LCY)';
 }
-
-
 ```
 
 ## See Also

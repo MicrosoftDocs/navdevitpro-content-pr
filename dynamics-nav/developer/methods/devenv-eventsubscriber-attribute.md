@@ -14,15 +14,15 @@ redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-a
 Specifies the method to be integration type event publisher.
 
 ## Syntax  
-  
+
 ```  
 [EventSubscriber(ObjectType::ObjectType, ObjectId, 'OnSomeEvent', 'ElementName', SkipOnMissingLicense, SkipOnMissingPermission)]
 ```    
-  
+
 #### Arguments  
 *ObjectType*  
 Type: Enumeration  
-  
+
 Specifies the type of object that publishes the event to subscribe to. The value will depend on the type of event: business, integration, and trigger. 
 
 Business and integration events are published by event publisher methods in objects such as codeunits, pages, or tables. To subscribe to a business or integration type event, you specify the object that contains the event publisher method that defines the event. 
@@ -65,9 +65,8 @@ This example publishes an integration type event by using the OnAddressLineChang
 [Integration(false, false)]
     PROCEDURE OnAddressLineChanged(line : Text[100]);
     begin
-        
-    end;
 
+    end;
 ``` 
 ## See Also  
  [Events in AL](../devenv-events-in-al.md)  

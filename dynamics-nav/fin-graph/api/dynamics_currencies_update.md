@@ -23,6 +23,7 @@ PATCH /businesscentral/companies({id})/currencies({id})
 ```
 
 ## Request headers
+
 |Header       |Value                    |
 |-------------|-------------------------|
 |Authorization|Bearer {token}. Required.|
@@ -45,7 +46,7 @@ PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/cur
 Content-type: application/json
 
 {
-	"displayName": "United States Dollar"
+    "displayName": "United States Dollar"
 }
 ```
 

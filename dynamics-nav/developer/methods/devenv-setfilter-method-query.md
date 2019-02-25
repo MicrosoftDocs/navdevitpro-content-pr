@@ -74,38 +74,38 @@ Query.READ;
   
  For example, a query has the following filters set on the **Quantity** column in Query Designer:  
   
--   **DataItemTableFilter** property: Quantity=FILTER\(\<100\)  
+- **DataItemTableFilter** property: Quantity=FILTER\(\<100\)  
   
--   **ColumnFilter** property: Quantity=FILTER\(\<>50\)  
+- **ColumnFilter** property: Quantity=FILTER\(\<>50\)  
   
- `Query.SETFILTER ("Quantity", '>1’)` will result in a filter that is equivalent to: 1\<Quantity \<100.  
+  `Query.SETFILTER ("Quantity", '>1’)` will result in a filter that is equivalent to: 1\<Quantity \<100.  
   
- <!--Links For more information about how to set filters in Query Designer, see [Understanding Query Filters](Understanding-Query-Filters.md).-->  
+  <!--Links For more information about how to set filters in Query Designer, see [Understanding Query Filters](Understanding-Query-Filters.md).-->  
   
 ## Example  
  The following AL code example demonstrates how to use the **SETFILTER** method on a query. The example code sets a filter on a query column, and then displays a message when the query is run that indicates the filter on the column.  
   
  This example requires that you do the following:  
   
-1.  Create a query called **Customer\_SalesQuantity** that has the following characteristics:  
+1. Create a query called **Customer\_SalesQuantity** that has the following characteristics:  
   
-    -   Links table 18, Customer with table 37, Sales Lines from the [!INCLUDE[demolong](../includes/demolong_md.md)].  
+   -   Links table 18, Customer with table 37, Sales Lines from the [!INCLUDE[demolong](../includes/demolong_md.md)].  
   
-    -   Includes columns for the **Name** and **No.** fields from the **Customer** table and the **Quantity** field from **Sales Lines** table.  
+   -   Includes columns for the **Name** and **No.** fields from the **Customer** table and the **Quantity** field from **Sales Lines** table.  
   
-         <!--NAV For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).-->  
+        <!--NAV For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).-->  
   
-2.  Create the following AL variables and text constant in the object that will run the query, such as a codeunit.  
+2. Create the following AL variables and text constant in the object that will run the query, such as a codeunit.  
   
-    |Variable name|DataType|Subtype|  
-    |-------------------|--------------|-------------|  
-    |MyQuery|Query|Customer\_SalesQuantity|  
+   |Variable name|DataType|Subtype|  
+   |-------------------|--------------|-------------|  
+   |MyQuery|Query|Customer\_SalesQuantity|  
   
-    |Text constant name|ENU Value|  
-    |------------------------|---------------|  
-    |Text000|Customer name = %1, Quantity = %2|  
+   |Text constant name|ENU Value|  
+   |------------------------|---------------|  
+   |Text000|Customer name = %1, Quantity = %2|  
   
- The following AL code uses the **SETFILTER** method to filter the query dataset on the **Quantity** and **Name** columns. You can add the code to a codeunit, and then run the codeunit to see the results.  
+   The following AL code uses the **SETFILTER** method to filter the query dataset on the **Quantity** and **Name** columns. You can add the code to a codeunit, and then run the codeunit to see the results.  
   
 ```  
 // Sets a filter to display only sales quantities greater than 10.  

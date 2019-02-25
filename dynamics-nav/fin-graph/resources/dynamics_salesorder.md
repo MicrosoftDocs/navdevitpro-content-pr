@@ -30,7 +30,8 @@ Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |[DELETE salesOrders](../api/dynamics_salesorder_delete.md)|none|Delete a sales order object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The order ID. Non-editable.|
 |number|string, maximum size 20|The order number. Read-Only.|
@@ -54,7 +55,7 @@ Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |totalTaxAmount|numeric|The total tax amount for the order. Read-Only.|
 |totalAmountIncludingTax|numeric|The total amount for the order, including tax. Read-Only.|
 |fullyShipped|boolean|Specifies whether the items of the order were fully shipped or not.|
-|status|string, maximum size 20|The order status. Status can be: Cancelled, Paid, On hold, Created. Read-Only.|
+|status|string, maximum size 20|The order status. Status can be: Draft, Cancelled, Paid, On hold, Created. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the sales order was modified. Read-Only.|
 
 
@@ -86,7 +87,6 @@ Here is a JSON representation of the resource.
       "currencyCode": "string",
       "pricesIncludeTax": "boolean",
       "paymentTermsId": "GUID",
-      "paymentTerms": "string",
       "salesperson": "string",
       "partialShipping": "boolean",
       "requestedDeliveryDate": "Date",
@@ -99,7 +99,6 @@ Here is a JSON representation of the resource.
       "status": "string",
       "lastModifiedDateTime": "DateTime"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

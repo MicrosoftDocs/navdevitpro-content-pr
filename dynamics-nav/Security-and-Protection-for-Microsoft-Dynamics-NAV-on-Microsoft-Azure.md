@@ -79,13 +79,13 @@ This topic contains the following information and recommendations about the secu
 ### Microsoft Dynamics NAV Web Client  
  The [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] install a website on IIS on the virtual machine. The website acts as a container for one or more web server instances for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. To help secure the [!INCLUDE[navnow](includes/navnow_md.md)] data transmission, the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] scripts configure Secure Sockets Layer \(SSL\) on the connection to [!INCLUDE[nav_web](includes/nav_web_md.md)] according to the following:  
   
--   Create a binding that uses HTTPS communication protocol on port 443.  
+- Create a binding that uses HTTPS communication protocol on port 443.  
   
--   Apply an SSL certificate to the binding. You specify the SSL certificate in the Set-PartnerSettings file of the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)].  
+- Apply an SSL certificate to the binding. You specify the SSL certificate in the Set-PartnerSettings file of the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)].  
   
--   Open port 443 through Windows Firewall of the virtual machine and add the port to the Azure service endpoints.  
+- Open port 443 through Windows Firewall of the virtual machine and add the port to the Azure service endpoints.  
   
- For more information about SSL for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md).  
+  For more information about SSL for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md).  
   
 ### Microsoft Dynamics NAV Windows Client  
  The [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] configure a ClickOnce website from which users can install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. To secure the ClickOnce installation, the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] implement a security certificate on the website. When you deploy [!INCLUDE[navnow](includes/navnow_md.md)] with the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)], you can specify the certificate in the Set-PartnerSetting file that is used by the example scripts. There are no specific security considerations for using the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] that is deployed by the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)]. The [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] automatically configure the connection to [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is used by the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The communication port that is used by a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is opened through Windows Firewall and added as an endpoint in Azure.  

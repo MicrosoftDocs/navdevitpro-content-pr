@@ -63,7 +63,7 @@ Or for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions:
   
 -   Separate parameters after `aspx?` with the ampersand symbol (`&`).  
   
--   Use `-` for any spaces in values and names.  
+-   Use `%20` for any spaces in values and names.  
   
 ##  <a name="Paramters"></a> Report Address Parameters  
  The following table describes the parameters of the URL for displaying a report.  

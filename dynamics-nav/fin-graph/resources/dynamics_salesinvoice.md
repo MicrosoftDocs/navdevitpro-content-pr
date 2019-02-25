@@ -29,9 +29,16 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |[PATCH salesInvoices](../api/dynamics_salesinvoice_update.md) |salesInvoices|Updates a sales invoice object.|
 |[DELETE salesInvoices](../api/dynamics_salesinvoice_delete.md)|none         |Deletes a sales invoice object.|
 
+## Bound actions
+
+|Action          |Return type   |Description         |
+|----------------|--------------|--------------------|
+|[GET pdfDocument](../api/dynamics_salesquote_pdfdocument.md)|pdfDocument|Gets a PDF document.|
+
 
 ## Properties
-| Property	            | Type	|Description                                                |
+
+| Property              | Type  |Description                                                |
 |:----------------------|:----------|:----------------------------------------------------------|
 |id                     |GUID       |The invoice ID. Non-editable.                              |
 |number                 |string, maximum size 20|The invoice number. Read-Only.                 |
@@ -94,7 +101,6 @@ Here is a JSON representation of the resource.
       "orderId": "GUID",
       "orderNumber": "string",
       "paymentTermsId": "GUID",
-      "paymentTerms": "string",
       "shipmentMethodId": "GUID",
       "shipmentMethod": "string",
       "salesperson": "string",
@@ -107,7 +113,6 @@ Here is a JSON representation of the resource.
       "status": "string",
       "lastModifiedDateTime": "DateTime"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

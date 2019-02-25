@@ -9,13 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: deprecated, Sweden, local functionality
-ms.date: 12/21/2017
+ms.date: 07/23/2018
 ms.author: SorenGP
 
 ---
 
 # Deprecated Features in the Swedish Version of Microsoft Dynamics NAV 2018
 This topic lists and describes the local functionality for Sweden that has been removed from [!INCLUDE[navnow](includes/navnow_md.md)], made available from a new page or report, or replaced by a new feature.
+
+## Inward Registration
+You can use an inward registration to post a preliminary purchase invoice, which you overwrite later when you post the invoice normally.
+
+|Moved, Removed, or Replaced?|Why?|
+|----|----|
+|Removed| The Inward Registration feature is no longer relevant and has been removed.|
 
 ## Multiple Interest Rates
 When you create finance charge terms and reminder terms, for delayed payment penalty, you can specify multiple interest rates so that the penalty fee is calculated from different interest rates in different periods.

@@ -81,6 +81,7 @@ The following table lists object symbols contained in the platform symbol packag
 |Webhook Subscription.al|
 
 ### Virtual tables
+
 |Name|
 |----|
 |Aggregate Permission Set.al|

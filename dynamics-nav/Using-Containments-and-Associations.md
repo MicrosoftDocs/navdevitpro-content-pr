@@ -86,17 +86,17 @@ http://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Lt
 ## Using Associations  
  Associations are possible when two published pages are linked. Here is an example:  
   
--   Page 42,  Sales Order, has its **SourceTable** property set to table 36,  Sales Header. The source expression for the **Sell\_to\_Customer\_No** control on page 42 is field 2,  Sell-to Customer No., in table 36.  
+- Page 42,  Sales Order, has its **SourceTable** property set to table 36,  Sales Header. The source expression for the **Sell\_to\_Customer\_No** control on page 42 is field 2,  Sell-to Customer No., in table 36.  
   
--   Field 2,  Sell-to Customer No., in table 36 has a **TableRelation** property set to table 18,  Customer, field No.  
+- Field 2,  Sell-to Customer No., in table 36 has a **TableRelation** property set to table 18,  Customer, field No.  
   
--   Table 18,  Customer, has a **LookupPageId** property set to page 22,  Customer List.  
+- Table 18,  Customer, has a **LookupPageId** property set to page 22,  Customer List.  
   
- Thus if both page 42,  Sales Order, and page 22,  Customer List, are published as web services, then an OData URI can link from the **Sell\_to\_Customer\_No** control on page 42 to the related entity on page 22.  
+  Thus if both page 42,  Sales Order, and page 22,  Customer List, are published as web services, then an OData URI can link from the **Sell\_to\_Customer\_No** control on page 42 to the related entity on page 22.  
   
- Because of this association, you can create OData URIs to access data on the Customer List page as you work with data on the Sales Order page.  
+  Because of this association, you can create OData URIs to access data on the Customer List page as you work with data on the Sales Order page.  
   
- If you publish pages 42 and 22 as web services, then you can return an AtomPub document for the Sales Order page. The following URI returns data for a single record on the page, which is order number 101005:  
+  If you publish pages 42 and 22 as web services, then you can return an AtomPub document for the Sales Order page. The following URI returns data for a single record on the page, which is order number 101005:  
   
 ```  
 http://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')/SalesOrder(Document_Type='Order',No='101005')/  

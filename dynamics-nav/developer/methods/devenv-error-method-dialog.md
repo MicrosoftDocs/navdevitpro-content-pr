@@ -43,15 +43,15 @@ ERROR(String [, Value1, …])
 ## Programming Guidelines  
  We recommend the following guidelines for error messages:  
 
--   Describe what is wrong and how to solve the problem.  
+- Describe what is wrong and how to solve the problem.  
 
--   Write a short descriptive message. Do not use more words than necessary.  
+- Write a short descriptive message. Do not use more words than necessary.  
 
--   Always end the error message with a period.  
+- Always end the error message with a period.  
 
--   Use a text constant for the text of the message.  
+- Use a text constant for the text of the message.  
 
- For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](../devenv-progress-windows-message-error-and-confirm-methods.md).  
+  For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Methods](../devenv-progress-windows-message-error-and-confirm-methods.md).  
 
 ## Example  
  This example shows how to use the ERROR method. The code example requires that you create the following global variables and text constants.  

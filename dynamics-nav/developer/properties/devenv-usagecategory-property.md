@@ -1,9 +1,9 @@
 ---
 title: "UsageCategory Property"
-description: "Description of how you use AL to add pages and reports to Search in the client using the UsageCategory property."
+description: "Description of how you use C/SIDE to add pages and reports to Search in the client using the UsageCategory property."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/23/2017
+ms.date: 10/05/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,10 +18,10 @@ redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/deven
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # UsageCategory Property
-AL provides navigational support for pages and reports in the client. You enable a page or report to be available through Search in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] using the **UsageCategory** property. For more information about the Search functionality in AL, see [Adding Pages and Reports to Search](../devenv-al-menusuite-functionality.md)
+Is used to enable a page or report to be available through Search.
 
 ## Property Values
-The values for the UsageCategory property are listed below: 
+The values for the **UsageCategory** property are listed below: 
 
 - None
 - Lists
@@ -31,15 +31,24 @@ The values for the UsageCategory property are listed below:
 - History
 - Administration
 
+
+## Applies to 
+
+- Pages
+- Reports 
+
 ## Remarks
 
 If the **UsageCategory** is set to **None**, or if you do not specify **UsageCategory**, the page or report will not show up when you use the Search functionality. 
+To make new objects searchable, modify the value of the **UsageCategory** property for the chosen objects, compile them, and then run `Tools > Build Object Search Index` in C/SIDE. This command allows a user to find the newly created objects when the Search function from the Web Client or Windows Client is used. 
 
-## Syntax
+## PowerShell 
+You can run this command from PowerShell as it follows: 
 
 ```
-UsageCategory = ReportsAndAnalysis;  
+.\finsql.exe Command=buildobjectsearchindex, Servername=YourServer, Logfile=out.txt, Database=YourDatabase
 ```
+
 
 ## Dependent Properties
 

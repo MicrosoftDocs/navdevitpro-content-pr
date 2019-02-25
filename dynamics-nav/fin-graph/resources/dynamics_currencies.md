@@ -30,7 +30,8 @@ Represents a currency used in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |[DELETE currencies](../api/dynamics_currencies_delete.md)|none       |Delete a Currency.|
 
 ## Properties
-| Property	            | Type	 |Description                                                   |
+
+| Property              | Type   |Description                                                   |
 |:----------------------|:-------|:-------------------------------------------------------------|
 |id                     |GUID    |The unique ID of the currency. Non-editable.                  |
 |code                   |string  |Specifies the currency code.                                  |
@@ -59,7 +60,6 @@ Here is a JSON representation of the currencies.
   "amountRoundingPrecision": "decimal",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also

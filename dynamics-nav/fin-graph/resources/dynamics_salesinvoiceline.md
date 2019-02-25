@@ -30,7 +30,8 @@ Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../include
 |[DELETE salesInvoiceLines](../api/dynamics_salesinvoiceline_delete.md)|none              |Deletes a sales invoice line object.|
 
 ## Properties
-| Property	              | Type	| Description                                               |
+
+| Property                | Type    | Description                                               |
 |:------------------------|:------|:----------------------------------------------------------|
 |documentId               |GUID   |The ID of the parent invoice.                              |
 |sequence                 |numeric|The line sequence number.                                  |
@@ -100,7 +101,6 @@ Here is a JSON representation of the resource.
       "shipmentDate": "Date"
     }
   ]
-
 ```
 
 ## See also

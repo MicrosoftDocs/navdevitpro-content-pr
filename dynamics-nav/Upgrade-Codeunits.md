@@ -45,21 +45,21 @@ To create an upgrade codeunit, you set the [SubType Property \(Codeunit\)](SubTy
 
  When [!INCLUDE[nav_server](includes/nav_server_md.md)] detects an update to a table definition \(metadata\) that changes the table schema in the database in SQL Server, it will search the **TableSyncSetup** functions in the upgrade codeunits to collect the schema synchronization instructions for changed tables.  
 
--   If there are instructions for the table, then [!INCLUDE[nav_server](includes/nav_server_md.md)] handles the data according to the instructions. Depending on the synchronization mode, [!INCLUDE[nav_server](includes/nav_server_md.md)] can:  
+- If there are instructions for the table, then [!INCLUDE[nav_server](includes/nav_server_md.md)] handles the data according to the instructions. Depending on the synchronization mode, [!INCLUDE[nav_server](includes/nav_server_md.md)] can:  
 
-    -   Move or copy the data from the old tables into upgrade tables.  
+  - Move or copy the data from the old tables into upgrade tables.  
 
-    -   Delete data in the table fields that are affected by the changes and apply schema changes forcefully.  
+  - Delete data in the table fields that are affected by the changes and apply schema changes forcefully.  
 
-    -   Check whether there is data in the affected fields and then apply schema changes only if they do not contain data.  
+  - Check whether there is data in the affected fields and then apply schema changes only if they do not contain data.  
 
-     For more information about the synchronization modes, see [TableSyncSetup Modes](Upgrade-Codeunits.md#TblModes).  
+    For more information about the synchronization modes, see [TableSyncSetup Modes](Upgrade-Codeunits.md#TblModes).  
 
--   If there are no instructions for the table in the **TableSyncSetup** functions, then [!INCLUDE[nav_server](includes/nav_server_md.md)] checks whether the changes are destructive.  
+- If there are no instructions for the table in the **TableSyncSetup** functions, then [!INCLUDE[nav_server](includes/nav_server_md.md)] checks whether the changes are destructive.  
 
-    -   If the changes are destructive, the schema synchronization is cancelled.  
+  -   If the changes are destructive, the schema synchronization is cancelled.  
 
-    -   If the changes are not destructive, they will be applied to the table.  
+  -   If the changes are not destructive, they will be applied to the table.  
 
 **Data Upgrade**  
 

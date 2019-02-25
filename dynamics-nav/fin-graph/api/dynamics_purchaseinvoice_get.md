@@ -24,6 +24,7 @@ GET /businesscentral/companies({id})/purchaseInvoices({id})
 ```
 
 ## Request headers
+
 |Header         |Value                     |
 |---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
@@ -68,7 +69,7 @@ Here is an example of the response.
     "postalCode": ""
   },
   "currencyCode": "GBP",
-  "paymentTerms": "COD",
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
   "shipmentMethod": "",
   "pricesIncludeTax": false,
   "discountAmount": 0,

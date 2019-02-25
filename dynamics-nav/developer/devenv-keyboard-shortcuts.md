@@ -18,6 +18,7 @@ redirect_url: /dynamics365/business-central/dev-itpro/developer/devenv-keyboard-
 The following table provides an overview of some of the shortcut key combinations that you can use when you are working  in Visual Studio Code. For a complete overview, see [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/customization/keybindings).
 
 ## AL Language Extension Specific for Visual Studio Code
+
 |Keyboard Shortcut| Action|
 |-----------------|-------|
 |Ctrl+Shift+P|Show All Commands|
@@ -30,6 +31,7 @@ The following table provides an overview of some of the shortcut key combination
 |Ctrl+F2|Update the compiler used by the service tier(s)|
 
 ## Editing in Visual Studio Code
+
 |Keyboard Shortcut| Action|
 |-----------------|-------|
 |Ctrl+Space|Look up suggestions for the current object|
@@ -46,18 +48,21 @@ The following table provides an overview of some of the shortcut key combination
 |Ctrl+Shift+P|Show All Commands|
 
 ## Errors in Visual Studio Code
+
 |Keyboard Shortcut| Action|
 |-----------------|-------|
 |F8|Move to the next error or warning|
 |Shift+F8|Move to the previous error or warning|
 
 ## Compile in Visual Studio Code
+
 |Keyboard Shortcut| Action|
 |-----------------|-------|
 |Ctrl+Shift+B|Compile and build the solution|
 |Ctrl+F5|Build and deploy|
 
 ## Debugging in Visual Studio Code
+
 |Keyboard Shortcut|Action|
 |-----------------|------|
 |F5|Start debugging session|

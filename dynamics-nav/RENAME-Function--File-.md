@@ -26,22 +26,22 @@ Renames an ASCII or binary file.
   
  The current name of the file that you want to change, including its path. When you enter the path, consider these shortcuts:  
   
--   You can omit the drive designation, if the file is located on the current drive.  
+- You can omit the drive designation, if the file is located on the current drive.  
   
--   You can omit the full path, if the file is located in the current directory.  
+- You can omit the full path, if the file is located in the current directory.  
   
--   You can enter only the subdirectory name, if the file is located in a subdirectory of the current directory.  
+- You can enter only the subdirectory name, if the file is located in a subdirectory of the current directory.  
   
- *NewName*  
- Type: Text or Code  
+  *NewName*  
+  Type: Text or Code  
   
- The new name that you want to assign to the file, including its path. When you enter the path, consider these shortcuts:  
+  The new name that you want to assign to the file, including its path. When you enter the path, consider these shortcuts:  
   
--   You can omit the drive designation, if the file is located on the current drive.  
+- You can omit the drive designation, if the file is located on the current drive.  
   
--   You can omit the full path, if the file is located in the current directory.  
+- You can omit the full path, if the file is located in the current directory.  
   
--   You can enter only the subdirectory name, if the file is located in a subdirectory of the current directory.  
+- You can enter only the subdirectory name, if the file is located in a subdirectory of the current directory.  
   
 ## Property Value/Return Value  
  Type: Boolean  

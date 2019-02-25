@@ -15,15 +15,15 @@ manager: edupont
 # C/AL Data Types in Microsoft Dynamics NAV
 C/AL uses variables to store data of various types. By declaring variables of the correct type, you do the following:  
 
--   Create faster code  
+- Create faster code  
 
--   Save space
+- Save space
 
--   Avoid run-time errors because of overflow  
+- Avoid run-time errors because of overflow  
 
--   Avoid run-time errors that are caused by impossible type conversions  
+- Avoid run-time errors that are caused by impossible type conversions  
 
- For example, if you know that a variable will always contain a number between 0 and 700, then you should use an integer variable instead of a decimal variable. Any calculations that are performed will be faster because four bytes per integer operation are used instead of twelve bytes per decimal operation. However, you must use a data type that can hold every possible value that is needed in your calculations. For example, if you try to store the value 1233.3456 in an integer variable, then the result will be an error.  
+  For example, if you know that a variable will always contain a number between 0 and 700, then you should use an integer variable instead of a decimal variable. Any calculations that are performed will be faster because four bytes per integer operation are used instead of twelve bytes per decimal operation. However, you must use a data type that can hold every possible value that is needed in your calculations. For example, if you try to store the value 1233.3456 in an integer variable, then the result will be an error.  
 
 ## C/AL Data Types  
  The following table shows the C/AL data types. All C/AL data types are either fundamental or complex. Some data types can also be divided into other categories.  
@@ -245,21 +245,21 @@ MAXSTRLEN(t); // Returns 6.
 
  C/AL is not object-oriented but object-based. This is an important difference. In an object-oriented language or environment, you can create new types of objects that are based on the ones already in the system. In C/AL, you have the following application objects:  
 
--   Tables  
+- Tables  
 
--   Reports  
+- Reports  
 
--   Codeunits  
+- Codeunits  
 
--   XMLports  
+- XMLports  
 
--   MenuSuites  
+- MenuSuites  
 
--   Pages  
+- Pages  
 
--   Queries  
+- Queries  
 
- You cannot create any other objects.  
+  You cannot create any other objects.  
 
 #### Automation Data Type  
  For more information about the Automation data type, see [Extending Microsoft Dynamics NAV Using COM](Extending-Microsoft-Dynamics-NAV-Using-COM.md).  
@@ -267,19 +267,19 @@ MAXSTRLEN(t); // Returns 6.
 #### BigText Data Type  
  The BigText data type contains large text documents. Data of the BigText data type cannot be displayed in the debugger or in a message window. However, you can use the BigText functions to extract part of a big text and place it in a typical text string that can be displayed. The BigText functions are as follows:  
 
--   [ADDTEXT Function (BigText)](ADDTEXT-Function--BigText-.md)  
+- [ADDTEXT Function (BigText)](ADDTEXT-Function--BigText-.md)  
 
--   [GETSUBTEXT Function (BigText)](GETSUBTEXT-Function--BigText-.md)  
+- [GETSUBTEXT Function (BigText)](GETSUBTEXT-Function--BigText-.md)  
 
--   [LENGTH Function (BigText)](LENGTH-Function--BigText-.md)  
+- [LENGTH Function (BigText)](LENGTH-Function--BigText-.md)  
 
--   [READ Function (BigText)](READ-Function--BigText-.md)  
+- [READ Function (BigText)](READ-Function--BigText-.md)  
 
--   [TEXTPOS Function (BigText)](TEXTPOS-Function--BigText-.md)  
+- [TEXTPOS Function (BigText)](TEXTPOS-Function--BigText-.md)  
 
--   [WRITE Function (BigText)](WRITE-Function--BigText-.md)  
+- [WRITE Function (BigText)](WRITE-Function--BigText-.md)  
 
- The maximum length of a BigText variable is 2147483647 characters. This is the equivalent of 2 gigabytes (GB).  
+  The maximum length of a BigText variable is 2147483647 characters. This is the equivalent of 2 gigabytes (GB).  
 
 #### BLOB Data Type  
  A BLOB is a Binary Large Object. Variables of this data type differ from typical numeric and string data type variables because they have a variable length. BLOBs are used to store memos (text), bitmaps (pictures), or user-defined types. The maximum size of a BLOB is often determined by your system’s disk storage capacity. The upper limit is 2GB.  

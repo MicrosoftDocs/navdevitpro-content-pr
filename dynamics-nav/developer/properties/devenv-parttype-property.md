@@ -17,19 +17,21 @@ redirect_url: /dynamics365/business-central/dev-itpro/developer/properties/deven
 
 # PartType Property
 Sets the content type that can display in a part FactBox.  
-  
+
 ## Applies To  
-  
+
 -   Part controls on pages  
-  
+
 ## Remarks  
  The following table describes the available **SubType** options.  
-  
-|[!INCLUDE[bp_tableoption](../includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
-|----------------------------------|---------------------------------------|  
-|Page|Select to display a page in the part. You specify the page in the set the [PagePartID Property](devenv-pagepartid-property.md).|  
-|System|Select to display a system part that includes either Outlook, Notes, MyNotes, or RecordLinks. You specify the system part using the [SystemPartID Property](devenv-systempartid-property.md).|  
-|Chart|Select to display a chart in the part. You specify the system part using the [ChartPartID Property](devenv-chartpartid-property.md).|  
+
+
+| [!INCLUDE[bp_tableoption](../includes/bp_tableoption_md.md)] |                                                            [!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]                                                             |
+|--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                             Page                             |                                Select to display a page in the part. You specify the page in the set the [PagePartID Property](devenv-pagepartid-property.md).                                |
+|                            System                            | Select to display a system part that includes either Outlook, Notes, MyNotes, or RecordLinks. You specify the system part using the [SystemPartID Property](devenv-systempartid-property.md). |
+|                            Chart                             |                             Select to display a chart in the part. You specify the system part using the [ChartPartID Property](devenv-chartpartid-property.md).                              |
+
 <!-- //NAV  
 > [!NOTE]  
 >  System and Chart options are not supported by the [!INCLUDE[nav_web](../includes/nav_web_md.md)]. If the page is displayed in the [!INCLUDE[nav_web](../includes/nav_web_md.md)], then the property is ignored.  

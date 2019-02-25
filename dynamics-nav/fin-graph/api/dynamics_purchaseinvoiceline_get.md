@@ -26,6 +26,7 @@ GET /businesscentral/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines
 ```
 
 ## Request headers
+
 |Header         |Value                     |
 |---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |

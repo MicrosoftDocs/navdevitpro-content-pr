@@ -10,7 +10,9 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: f4e77ab1-7418-46c0-842f-e8b68d927106
 caps.latest.revision: 63
 manager: edupont
+redirect_url: How-to--Implement-Security-Certificates-in-a-Production-Environment
 ---
+
 # Walkthrough: Configuring Web Services to Use SSL (SOAP and OData)
 Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide security and data integrity for data communications over a network. By encrypting your [!INCLUDE[navnow](includes/navnow_md.md)] web services using SSL, you make your data and the network more secure and more reliable.  
   
@@ -87,7 +89,10 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
 9. Make a note of the service account information. You will need this information later on in this walkthrough.  
   
 ##  <a name="ObtainCert"></a> Obtaining an SSL Certificate  
- The certificate is a file that [!INCLUDE[nav_server](includes/nav_server_md.md)] uses to prove its identity and establish a trusted connection with the client that is trying to connect. In a production environment, you obtain an SSL certificate from a certification authority. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third-party organization. In a test environment, if you do not have certificate, then you can create your own test certificate by using the makecert.exe tool as described in the following procedure.  
+ The certificate is a file that [!INCLUDE[nav_server](includes/nav_server_md.md)] uses to prove its identity and establish a trusted connection with the client that is trying to connect. In a production environment, you obtain an SSL certificate from a certification authority. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third-party organization. In a test environment, if you do not have certificate, then you can create your own test certificate by using the makecert.exe tool as described in the following procedure.
+
+> [!IMPORTANT]
+> Microsoft recommends against using wildcard SSL certificates in [!INCLUDE[navnow](includes/navnow_md.md)] installations. Wildcard certificates pose security risks because if one server or sub-domain is compromised, all sub-domains may be compromised. Wildcard certificates also introduce a new style of impersonation attack. In this attack, the victim is lured to a fraudulent resource in the certified domain through phishing. Conventional certificates detect this attack, because the user’s browser checks that the private key is hosted on a server whose name matches the one displayed in the browser’s address window.   
   
  In the following procedure, you use the makecert.exe tool to create a test certificate file \(.cer\) with a private key file \(.pvk\), and then generate a personal information file \(.pfx\) from the two files. You will use the .pxf in the next procedure for importing the certificate on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
@@ -132,8 +137,8 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
   
 6.  If you are not working on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)], then copy the .pfx to the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer.  
   
-> [!IMPORTANT]  
->  To avoid validation errors, make sure that the certificate that you create and self-sign has the same name as the host name, which is accessed from all the remote machines. The machine name is specified in “**CN=\<machine name>**”. If you use the *http://hostname:Port/NAVserver/* link to access your Microsoft Dynamics NAV service, then you should specify the –n “CN=hostname” flag to the `makecert` command instead.  
+> [!IMPORTANT]
+>  To avoid validation errors, make sure that the certificate that you create and self-sign has the same name as the host name, which is accessed from all the remote machines. The machine name is specified in “**CN=\<machine name>**”. If you use the <em>http://hostname:Port/NAVserver/</em> link to access your Microsoft Dynamics NAV service, then you should specify the –n “CN=hostname” flag to the `makecert` command instead.  
   
 ##  <a name="Importing"></a> Importing the SSL Certificate into the Local Computer Store of the Microsoft Dynamics NAV Server computer  
  Once you obtain a certificate, you must import it into the local computer store on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The certificate file will have the extension .cer or .pfx.  
@@ -209,7 +214,10 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
   
 6.  In the text editor, delete all spaces from the thumbprint string.  
   
-     For example, if the thumbprint is `c0 d0 f2 70 95 b0 3d 43 17 e2 19 84 10 24 32 8c ef 24 87 79`, then change it to `c0d0f27095b03d4317e219841024328cef248779`.  
+     For example, if the thumbprint is `c0 d0 f2 70 95 b0 3d 43 17 e2 19 84 10 24 32 8c ef 24 87 79`, then change it to `c0d0f27095b03d4317e219841024328cef248779`. 
+
+    > [!TIP] 
+    >  It is important  that the copied thumbprint does not contain any invisible extra characters; otherwise you will experience problems when using it later. To avoid this, see [Certificate thumbprint displayed in MMC certificate snap-in has extra invisible unicode character](https://support.microsoft.com/en-au/help/2023835/certificate-thumbprint-displayed-in-mmc-certificate-snap-in-has-extra) 
   
 7.  Keep the file open or save it. You will use the thumbprint later on.  
   
@@ -278,10 +286,10 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
     |`navserver`|The name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to use with the web service. The default is [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].|  
     |`DOMAIN\username`|The domain and user name of the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)]. If the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] is Network Service, then use "NT AUTHORITY\\NETWORKSERVICE".|  
   
-     For example, if the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] has the domain *ABC* and the user name *xyz*, and then the command for the SOAP web service is as follows:  
+     For example, if the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] instance **MyBCServer** has the domain **abc** and the user name **xyz** , and then the command for the SOAP web service is as follows:  
   
     ```  
-    netsh http add urlacl url=https://+:7047/nav_server_instance user="NT AUTHORITY\NETWORKSERVICE"  
+    netsh http add urlacl url=https://myservercomputer:7047/MyBCServer user="abc\xyz"  
     ```  
   
      If the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] is Network Service, then the command is as follows:  

@@ -14,11 +14,11 @@ manager: edupont
 # Using Certificates to Secure a Remote Client Connection
 You can use service certificates to help secure [!INCLUDE[rtc](includes/rtc_md.md)] connections over a wide area network \(WAN\). The certificate is a file that [!INCLUDE[nav_server](includes/nav_server_md.md)] uses to prove its identity and establish a trusted connection with the client that is trying to connect. [!INCLUDE[navnowlong](includes/navnowlong_md.md)] can support the following configurations:  
   
--   *Chain trust*, which specifies that each certificate must belong to a hierarchy of certificates that ends in a root authority at the top of the chain.  
+- *Chain trust*, which specifies that each certificate must belong to a hierarchy of certificates that ends in a root authority at the top of the chain.  
   
--   *Peer trust*, which specifies that both self-issued certificates and certificates in a trusted chain are accepted.  
+- *Peer trust*, which specifies that both self-issued certificates and certificates in a trusted chain are accepted.  
   
- The implementation in this section describes the chain trust configuration, which is the more secure option.  
+  The implementation in this section describes the chain trust configuration, which is the more secure option.  
   
 > [!NOTE]  
 >  This implementation does not use *Secure Sockets Layer \(SSL\)*. Although these implementations do use the public and private key infrastructure of SSL and SSL certificates, they use Windows Communication Foundation \(WCF\) transport-level security \(TLS\) over the TCP/IP protocol instead of https. This means that these are not strict SSL implementations.  
@@ -30,6 +30,9 @@ You can use service certificates to help secure [!INCLUDE[rtc](includes/rtc_md.m
  In a production environment, you implement chain trust by obtaining X.509 service certificates from a trusted provider. These certificates and their root certification authority \(CA\) certificates must be installed in the certificates store on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The CA certificate must also be installed in the certificate store on computers that are running the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] and [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)] so that clients can validate the server.  
   
  Most enterprises and hosting providers have their own infrastructure for issuing and managing certificates. You can also use these certificate infrastructures. The only requirement is that the service certificates must be set up for key exchange and therefore must contain both private and public keys. Additionally, the service certificates that are installed on [!INCLUDE[nav_server](includes/nav_server_md.md)] instances must have the Service Authentication and Client Authentication certificate purposes enabled.  
+
+> [!IMPORTANT]
+> Microsoft recommends against using wildcard SSL certificates in [!INCLUDE[navnow](includes/navnow_md.md)] installations. Wildcard certificates pose security risks, because if one server or sub-domain is compromised, all sub-domains may be compromised. Wildcard certificates also introduce a new style of impersonation attack. In this attack, the victim is lured to a fraudulent resource in the certified domain through phishing. Conventional certificates detect this attack, because the user’s browser checks that the private key is hosted on a server whose name matches the one displayed in the browser’s address window. 
   
  For more information, see [How to: Implement Security Certificates in a Production Environment](How-to--Implement-Security-Certificates-in-a-Production-Environment.md).  
   

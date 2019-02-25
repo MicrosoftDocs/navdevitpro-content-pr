@@ -23,11 +23,11 @@ You can call .NET Framework type members, including methods, properties, and con
 ## Constructors  
  A *constructor* is a method that creates an instance of an object and prepares it for use. Before you use a DotNet variable, you should verify whether the variable is static or is an object instance because this determines whether you have to use a constructor.  
 
--   Static variables do not require a constructor because they do not have an instance.  
+- Static variables do not require a constructor because they do not have an instance.  
 
--   Object instance variables require a constructor because they must be created before they can be accessed.  
+- Object instance variables require a constructor because they must be created before they can be accessed.  
 
- To find the constructor and other methods and property for your object, in Object Designer, choose **Symbol**.  
+  To find the constructor and other methods and property for your object, in Object Designer, choose **Symbol**.  
 
 ## Static and Instance Method Calls  
  Methods that you call from C/AL code can be either *static* or *instance* methods.  

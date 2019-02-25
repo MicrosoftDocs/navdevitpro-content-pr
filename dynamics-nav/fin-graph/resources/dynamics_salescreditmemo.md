@@ -29,10 +29,16 @@ Represents a sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d365
 |[PATCH salesCreditMemos](../api/dynamics_salescreditmemo_update.md)|salesCreditMemos|Update a sales credit memo object.|
 |[DELETE salesCreditMemos](../api/dynamics_salescreditmemo_delete.md)|none|Delete a sales credit memo object.|
 
+## Bound actions
+
+|Action          |Return type   |Description         |
+|----------------|--------------|--------------------|
+|[GET pdfDocument](../api/dynamics_salesquote_pdfdocument.md)|pdfDocument|Gets a PDF document.|
 
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The credit memo ID. Non-editable.|
 |number|string, maximum size 20|The credit memo number. Read-Only.|
@@ -88,7 +94,6 @@ Here is a JSON representation of the resource.
       "currencyId": "GUID",
       "currencyCode": "string",
       "paymentTermsId": "GUID",
-      "paymentTerms": "string",
       "salesperson": "string",
       "pricesIncludeTax": "boolean",
       "discountAmount": "decimal",
@@ -101,7 +106,6 @@ Here is a JSON representation of the resource.
       "invoiceId" : "GUID",
       "invoiceNumber" : "string"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

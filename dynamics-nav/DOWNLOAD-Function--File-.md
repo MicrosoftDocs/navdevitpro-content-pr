@@ -74,8 +74,9 @@ Sends a file from a [!INCLUDE[nav_server](includes/nav_server_md.md)] computer t
   
  [DOWNLOAD Function \(FILE\)](DOWNLOAD-Function--File-.md) and [DOWNLOADFROMSTREAM Function \(File\)](DOWNLOADFROMSTREAM-Function--File-.md) are used to send a file from a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to the client.  
   
- We recommend that you use the functions in codeunit 419, File Management, to upload and download files.  
-  
+ We recommend that you use the functions in codeunit **419 File Management** to upload and download files.  
+ 
+[!INCLUDE[multi_file_download_web_client](includes/multi_file_download_web_client.md)]
 ## Example  
  This example shows how to use the DOWNLOAD function. It requires that you create the following variable.  
   

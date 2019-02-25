@@ -14,13 +14,13 @@ manager: edupont
 # Customizing Report Layout Implementation in Codeunit 1
 Reports can be run directly from the [!INCLUDE[navnow](includes/navnow_md.md)] client or from C/AL code by calling the RUN, SAVEASWORD, SAVEASPDF, or SAVEASEXCEL functions. When a report is run, the application calls the following functions in codeunit 1 to determine which report layout to use on the report.  
   
--   [HasCustomLayout Function](HasCustomLayout-Function.md)  
+- [HasCustomLayout Function](HasCustomLayout-Function.md)  
   
--   [MergeDocument Function](MergeDocument-Function.md)  
+- [MergeDocument Function](MergeDocument-Function.md)  
   
--   [ReportGetCustomRdlc Function](ReportGetCustomRdlc-Function.md)  
+- [ReportGetCustomRdlc Function](ReportGetCustomRdlc-Function.md)  
   
- These functions determine how to handle custom Word and RDLC layouts that are used on the report, which are stored in table **9650 Report Layouts**. You can customize the report layout implementation by modifying the C/AL code of these functions in codeunit 1.  
+  These functions determine how to handle custom Word and RDLC layouts that are used on the report, which are stored in table **9650 Report Layouts**. You can customize the report layout implementation by modifying the C/AL code of these functions in codeunit 1.  
   
 ## Function Call Flow  
  To use the correct report layout for a report at run time, the report layout functions in codeunit 1 are called according to following flow.  

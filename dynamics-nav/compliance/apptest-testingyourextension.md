@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Testing your Extension"
 description: "Describing the steps you must go through to successfully submit your app to AppSource."
 author: SusanneWindfeldPedersen
@@ -12,6 +12,7 @@ ms.prod: "dynamics-nav-2018"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: rweigel
 caps.latest.revision: 18
+redirect_url: /dynamics365/business-central/dev-itpro/compliance/apptest-testingyourextension
 ---
 
 # Testing your Extension

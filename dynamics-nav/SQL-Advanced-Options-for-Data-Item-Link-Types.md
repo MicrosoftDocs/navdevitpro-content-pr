@@ -61,13 +61,13 @@ With queries, you can link data items together to combine records from two or mo
 ##  <a name="InnerJoin"></a> Inner Join  
  *Inner Join* creates a dataset by combining records from data item tables where a match is found between the columns that are linked by the DataItemLink property of the lower data item. **Inner Join** uses an "equal to" comparison operator to match rows from the lower data item table with rows from the upper data item table that is based on the values of the linked columns.  
   
--   Each pair of matching records is combined into a row in the dataset.  
+- Each pair of matching records is combined into a row in the dataset.  
   
--   Records from the upper and lower data item tables that do not have a matching column in the lower data item table are excluded from the resulting dataset.  
+- Records from the upper and lower data item tables that do not have a matching column in the lower data item table are excluded from the resulting dataset.  
   
- The following illustration shows an **Inner Join** type between tables A and B. The shaded area indicates the records that are included in the resulting dataset.  
+  The following illustration shows an **Inner Join** type between tables A and B. The shaded area indicates the records that are included in the resulting dataset.  
   
- ![Visualization of SQL inner join between two tables](media/NAV_Query_SQL_Inner_Join.png "NAV\_Query\_SQL\_Inner\_Join")  
+  ![Visualization of SQL inner join between two tables](media/NAV_Query_SQL_Inner_Join.png "NAV\_Query\_SQL\_Inner\_Join")  
   
 ### Dataset Example  
  The following table shows the resulting dataset for an Inner Join between the Sales Header table and Salesperson/Purchaser table in sample query.  
@@ -83,11 +83,11 @@ With queries, you can link data items together to combine records from two or mo
 ### SQL SELECT Statement for Inner Join  
  To specify an inner join with an SQL statement, you can do either of the following:  
   
--   Use a WHERE clause.  
+- Use a WHERE clause.  
   
--   Use the INNER JOIN condition with an ON clause.  
+- Use the INNER JOIN condition with an ON clause.  
   
- The following two examples show how to create an inner join on the Salesperson/Purchaser and Sales Header tables with SQL statements. These two statements result in the same dataset.  
+  The following two examples show how to create an inner join on the Salesperson/Purchaser and Sales Header tables with SQL statements. These two statements result in the same dataset.  
   
 ```  
 SELECT "Salesperson/Purchaser".Name, "Sales Header"."No.", "Sales Header"."Sell-to Customer Name"  
@@ -104,13 +104,13 @@ WHERE "Salesperson/Purchaser".Code = "Sales Header"."Salesperson Code"
 ##  <a name="LeftOuterJoin"></a> Left Outer Join  
  A *left outer join* resembles the inner join except that the resulting dataset set contains every record from the upper data item table, even if a record does not have a matching value in the lower data item for columns that are linked by the DataItemLink property.  
   
--   For each record in the upper data item, a row is added in the dataset that combines columns from the upper and lower data item.  
+- For each record in the upper data item, a row is added in the dataset that combines columns from the upper and lower data item.  
   
--   When a record in the upper data item table has no matching record in the lower data item table, columns coming from the lower data item table have null values.  
+- When a record in the upper data item table has no matching record in the lower data item table, columns coming from the lower data item table have null values.  
   
- The following illustration shows a **Left Outer Join** type between tables A and B. The shaded area indicates the records that are included in the resulting dataset. In the sample query, the Salesperson/Purchaser table is considered the left table.  
+  The following illustration shows a **Left Outer Join** type between tables A and B. The shaded area indicates the records that are included in the resulting dataset. In the sample query, the Salesperson/Purchaser table is considered the left table.  
   
- ![Visualization of SQL left outer join](media/NAV_Query_SQL_Left_Outer_Join.png "NAV\_Query\_SQL\_Left\_Outer\_Join")  
+  ![Visualization of SQL left outer join](media/NAV_Query_SQL_Left_Outer_Join.png "NAV\_Query\_SQL\_Left\_Outer\_Join")  
   
 ### Dataset Example  
  The following table shows the resulting dataset for a Left Outer Join between the Sales Header table and Salesperson/Purchaser table in sample query.  
@@ -138,13 +138,13 @@ FROM "Salesperson/Purchaser" LEFT OUTER JOIN "Sales Header"
 ##  <a name="RightOuterJoin"></a> Right Outer Join  
  A *Right Outer join* resembles the inner join except that the resulting dataset set contains every record from the lower data item table, even if a record does not have a matching value in the upper data item for columns that are linked by the DataItemLink property.  
   
--   For each record in the lower data item, a row is added in the dataset that combines columns from the lower and upper data item tables.  
+- For each record in the lower data item, a row is added in the dataset that combines columns from the lower and upper data item tables.  
   
--   When a record in the lower data item table has no matching record in the upper data item table, columns coming from the upper data item table have null values.  
+- When a record in the lower data item table has no matching record in the upper data item table, columns coming from the upper data item table have null values.  
   
- The following illustration shows a **Right Outer Join** type between tables A and B. The shaded area indicates the records that are included in the resulting dataset.  
+  The following illustration shows a **Right Outer Join** type between tables A and B. The shaded area indicates the records that are included in the resulting dataset.  
   
- ![Visualization of SQL right outer join](media/NAV_Query_SQL_Right_Outer_Join.png "NAV\_Query\_SQL\_Right\_Outer\_Join")  
+  ![Visualization of SQL right outer join](media/NAV_Query_SQL_Right_Outer_Join.png "NAV\_Query\_SQL\_Right\_Outer\_Join")  
   
 ### Dataset Example  
  The following table shows the resulting dataset for a Right Outer Join between the Salesperson/Purchaser table and Sales Header table in the sample query. The Sales Header table is considered the right table.  
@@ -172,15 +172,15 @@ FROM "Salesperson/Purchaser" RIGHT OUTER JOIN "Sales Header"
 ##  <a name="FullOuterJoin"></a> Full Outer Join  
  A *Full Outer join* contains all the records from the upper data item table, and all records from the lower data item, including records that do not have a matching value for columns that are linked by the DataItemLink property.  
   
--   Each pair of records from the data items that have matching column values are combined into a row in the dataset.  
+- Each pair of records from the data items that have matching column values are combined into a row in the dataset.  
   
--   Records from the upper data item table that do have a matching column are included in a row, where the columns from lower data item table have null values.  
+- Records from the upper data item table that do have a matching column are included in a row, where the columns from lower data item table have null values.  
   
--   Records from the lower data item table that do have a matching column are included in a row, where the columns from upper data item table have null values.  
+- Records from the lower data item table that do have a matching column are included in a row, where the columns from upper data item table have null values.  
   
- The following illustration shows a **Full Outer Join** type between tables A and B. The shaded area indicates the records that are included in the resulting dataset.  
+  The following illustration shows a **Full Outer Join** type between tables A and B. The shaded area indicates the records that are included in the resulting dataset.  
   
- ![Visualization of an SQL full outer join](media/NAV_Query_SQL_Full_Outer_Join.png "NAV\_Query\_SQL\_Full\_Outer\_Join")  
+  ![Visualization of an SQL full outer join](media/NAV_Query_SQL_Full_Outer_Join.png "NAV\_Query\_SQL\_Full\_Outer\_Join")  
   
 ### Dataset Example  
  The following table shows the resulting dataset for a Full Outer Join between the Sales Header table and Salesperson/Purchaser table in sample query.  
@@ -234,11 +234,11 @@ FROM "Salesperson/Purchaser" FULL OUTER JOIN "Sales Header"
 ### SQL SELECT Statement for Cross Join  
  To specify a cross join with a SQL statement, you can do either of the following:  
   
--   Use the CROSS JOIN condition  
+- Use the CROSS JOIN condition  
   
--   Create an implicit join, which has no join condition, without using a WHERE clause  
+- Create an implicit join, which has no join condition, without using a WHERE clause  
   
- The following examples shows how to create a cross join of the Salesperson/Purchaser and Sales Header tables by using a SQL statement.  
+  The following examples shows how to create a cross join of the Salesperson/Purchaser and Sales Header tables by using a SQL statement.  
   
 ```  
 SELECT "Salesperson/Purchaser".Name, "Sales Header"."No.", "Sales Header"."Sell-to Customer Name"  

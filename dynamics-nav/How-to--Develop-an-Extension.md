@@ -21,69 +21,69 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
 
 ## To create an extension  
 
-1.  Establish the BASE as TXT files.  
+1. Establish the BASE as TXT files.  
 
-    1.  The foundation for your extension is the exported .txt files of the objects you are modifying. You can export just the objects that you want to modify, or you can export the entire [!INCLUDE[navnow](includes/navnow_md.md)] application. In the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)], the `Export-NAVApplicationObjectLanguage` cmdlet can automate this process or you can use the export functionality in the development environment. The following example uses this cmdlet to export objects to establish the base for the planned modifications.  
+   1.  The foundation for your extension is the exported .txt files of the objects you are modifying. You can export just the objects that you want to modify, or you can export the entire [!INCLUDE[navnow](includes/navnow_md.md)] application. In the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)], the `Export-NAVApplicationObjectLanguage` cmdlet can automate this process or you can use the export functionality in the development environment. The following example uses this cmdlet to export objects to establish the base for the planned modifications.  
 
-        ```  
-        Export-NAVApplicationObject -Path ORIGINAL -DatabaseName MyDatabase -DatabaseServer MyDatabaseServer  
-        ```  
+       ```  
+       Export-NAVApplicationObject -Path ORIGINAL -DatabaseName MyDatabase -DatabaseServer MyDatabaseServer  
+       ```  
 
+       > [!IMPORTANT]  
+       >  Objects must be exported as .TXT files. You cannot build an extension based on a .FOB file.  
+
+        If you use a source control system, you may want to pull the base .TXT files from there.  
+
+   2. If you will be adding multilanguage translations for captions or constants, you must first export all of the text strings to file using [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add-Translated-Strings-By-Importing-and-Exporting-Multilanguage-Files.md).  
+
+2. Create functionality in the development environment.  
+
+   1. Use the development environment as usual to create new objects or modify ones to the extent your license allows you. Keep in mind the following rules:  
+
+      - DO NOT make C/AL code modifications.  
+
+      - DO use subscribing to events to execute code.  
+
+      - DO NOT change restricted page and table properties.  
+
+        In order to get an easy upgrade experience for your extensions, you cannot modify code the way you do in the traditional customization process. Instead, you extend [!INCLUDE[navnow](includes/navnow_md.md)] functionality by subscribing to programming events that are raised either explicitly in code, or implicitly by the platform. For more information, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  
         > [!IMPORTANT]  
-        >  Objects must be exported as .TXT files. You cannot build an extension based on a .FOB file.  
+        >  Do not add inline comments to your code. Such comments are helpful as internal documentation, but they will cause the extension to fail when you build the extension package.  
 
-         If you use a source control system, you may want to pull the base .TXT files from there.  
+   2. Write extension upgrade code for new or modified tables in a codeunit. For more information, see [How to: Write Extension Upgrade Code](extensions-upgrade-howto.md).
 
-    2. If you will be adding multilanguage translations for captions or constants, you must first export all of the text strings to file using [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add-Translated-Strings-By-Importing-and-Exporting-Multilanguage-Files.md).  
+   3. If you want your extension to support the multilanguage functionality, add CaptionML captions using the development environment or to a copy of the language export file using the directions for translating multilanguage files in [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add-Translated-Strings-By-Importing-and-Exporting-Multilanguage-Files.md).  
 
-2.  Create functionality in the development environment.  
+   4. Test your application with the extension added.  
 
-    1.  Use the development environment as usual to create new objects or modify ones to the extent your license allows you. Keep in mind the following rules:  
+3. Export your changed and added application objects to .TXT files.  
 
-        -   DO NOT make C/AL code modifications.  
+   1.  Export all objects that you added or modified to .TXT files. Use the same export cmdlet from step 1 or manually export within the development environment. They must also be exported as .TXT files and should be placed in a separate directory so that the packaging process can be pointed at them.  
 
-        -   DO use subscribing to events to execute code.  
+       ```  
+       Export-NAVApplicationObject -Path MODIFIED -DatabaseName MyDatabase -DatabaseServer MyDatabaseServer  
+       ```  
+   2. Export the codeunit that contains the upgrade code to a .TXT file. This file must be placed in the folder for delta files that you create in the next step.
+4. Create DELTA files using the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] cmdlets.  
 
-        -   DO NOT change restricted page and table properties.  
+   1.  Extension packages are based on application object deltas. Again, you use the application merge utilities in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] to distil the changes in the form of application object differences that are stored in DELTA files. Creating an extension uses many of the same concepts and tools as you know from application object deltas. You use the `Compare-NAVApplicationObject` cmdlet to create these delta files.  
 
-         In order to get an easy upgrade experience for your extensions, you cannot modify code the way you do in the traditional customization process. Instead, you extend [!INCLUDE[navnow](includes/navnow_md.md)] functionality by subscribing to programming events that are raised either explicitly in code, or implicitly by the platform. For more information, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  
-         > [!IMPORTANT]  
-         >  Do not add inline comments to your code. Such comments are helpful as internal documentation, but they will cause the extension to fail when you build the extension package.  
+       ```  
+       Compare-NAVApplicationObject -OriginalPath ORIGINAL -ModifiedPath MODIFIED -DeltaPath DELTA  
+       ```  
 
-    2. Write extension upgrade code for new or modified tables in a codeunit. For more information, see [How to: Write Extension Upgrade Code](extensions-upgrade-howto.md).
+       > [!NOTE]  
+       >  Your delta files must be one-to-one with the objects you have added or modified. You cannot include a single merged delta file. If you output your export file as a single file use the `Split-NAVAppplicationObjectFile` cmdlet to create the individual files.  
 
-    3. If you want your extension to support the multilanguage functionality, add CaptionML captions using the development environment or to a copy of the language export file using the directions for translating multilanguage files in [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add-Translated-Strings-By-Importing-and-Exporting-Multilanguage-Files.md).  
+   2. If you will be adding Multilanguage translations for captions or constants, use the `Compare-NAVAppApplicationObjectLanguage` cmdlet to calculate the delta between the original version and modified version of the language text files. Include the resulting delta language text file in the sourcepath when building the extension package.
 
-    4.  Test your application with the extension added.  
+       ```
+       Compare-NAVAppApplicationObjectLanguage -OriginalPath MLORIGINAL -ModifiedPath MLMODIFIED -DeltaPath MLDELTA
+       ```
 
-3.  Export your changed and added application objects to .TXT files.  
+5. Build the extension package.  
 
-    1.  Export all objects that you added or modified to .TXT files. Use the same export cmdlet from step 1 or manually export within the development environment. They must also be exported as .TXT files and should be placed in a separate directory so that the packaging process can be pointed at them.  
-
-        ```  
-        Export-NAVApplicationObject -Path MODIFIED -DatabaseName MyDatabase -DatabaseServer MyDatabaseServer  
-        ```  
-    2. Export the codeunit that contains the upgrade code to a .TXT file. This file must be placed in the folder for delta files that you create in the next step.
-4.  Create DELTA files using the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] cmdlets.  
-
-    1.  Extension packages are based on application object deltas. Again, you use the application merge utilities in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] to distil the changes in the form of application object differences that are stored in DELTA files. Creating an extension uses many of the same concepts and tools as you know from application object deltas. You use the `Compare-NAVApplicationObject` cmdlet to create these delta files.  
-
-        ```  
-        Compare-NAVApplicationObject -OriginalPath ORIGINAL -ModifiedPath MODIFIED -DeltaPath DELTA  
-        ```  
-
-        > [!NOTE]  
-        >  Your delta files must be one-to-one with the objects you have added or modified. You cannot include a single merged delta file. If you output your export file as a single file use the `Split-NAVAppplicationObjectFile` cmdlet to create the individual files.  
-
-    2. If you will be adding Multilanguage translations for captions or constants, use the `Compare-NAVAppApplicationObjectLanguage` cmdlet to calculate the delta between the original version and modified version of the language text files. Include the resulting delta language text file in the sourcepath when building the extension package.
-
-        ```
-        Compare-NAVAppApplicationObjectLanguage -OriginalPath MLORIGINAL -ModifiedPath MLMODIFIED -DeltaPath MLDELTA
-        ```
-
-5.  Build the extension package.  
-
-     For more information, see [How to: Create an Extension Package](How-to--Create-an-Extension-Package.md).  
+    For more information, see [How to: Create an Extension Package](How-to--Create-an-Extension-Package.md).  
 
 ### Debugging Extensions
 Debugging your extension is no different than debugging any other customization that you do. But if you have to debug your way through a deployed extension, then you must set your breakpoint and debug from within the runtime environment for the tenant.  

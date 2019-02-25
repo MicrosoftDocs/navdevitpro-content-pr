@@ -65,13 +65,13 @@ In addition, the media object is assigned to a MediaSet which also has a specifi
 
  To support the example code that follows, you also have to complete these tasks:  
 
--   Create two sample image files that you want to use on item no. 1000 in table **27 Item**.
+- Create two sample image files that you want to use on item no. 1000 in table **27 Item**.
 
-    Save the images as JPEG type, and give them the names 1000-v1.jpg and  1000-v2.jpg. Save the files in the *C:\images* folder on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance.
+  Save the images as JPEG type, and give them the names 1000-v1.jpg and  1000-v2.jpg. Save the files in the *C:\images* folder on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance.
 
--   Verify that table **27 Item** has a field that is called **Picture** and has the data type **MediaSet**.
+- Verify that table **27 Item** has a field that is called **Picture** and has the data type **MediaSet**.
 
-   This is field on which you will add the images. If the field is not present, then add it.
+  This is field on which you will add the images. If the field is not present, then add it.
 
 With these tasks in place, you can add and run the following AL code to import the images. For this code example, create a codeunit and add the code to the OnRun trigger.  
 

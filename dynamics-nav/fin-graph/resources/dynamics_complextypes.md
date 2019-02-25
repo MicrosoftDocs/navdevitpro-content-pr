@@ -25,7 +25,8 @@ These are the various complex types in [!INCLUDE[d365fin_long_md](../../includes
 Represents an Item Category complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ### Properties
-| Property	   | Type	 |Description                                    |
+
+| Property     | Type    |Description                                    |
 |:-------------|:------|:----------------------------------------------|
 |categoryId    |string |The unique ID of the item category.            |
 |description   |string |Specifies the description of the item category.|
@@ -43,7 +44,8 @@ Represents an Item Category complex type in [!INCLUDE[d365fin_long_md](../../inc
 Represents a Unit of Measure complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
-| Property	   | Type	 |Description                                                 |
+
+| Property     | Type    |Description                                                 |
 |:-------------|:------|:-----------------------------------------------------------|
 |code          |string |The unique ID of the unit of measure.                       |
 |displayName   |string |Specifies the description of the unit of measure.           |
@@ -65,7 +67,8 @@ Represents a Unit of Measure complex type in [!INCLUDE[d365fin_long_md](../../in
 Represents a Unit of Measure Conversion complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
-| Property	         | Type	   |Description                                  |
+
+| Property           | Type    |Description                                  |
 |:-------------------|:--------|:--------------------------------------------|
 |toUnitOfMeasure     |string   |Specifies the unit of measure to convert to. |
 |fromToConversionRate|decimal  |Specifies what the (source) base unit of measure is multiplied with in order to convert to the target unit of measure.|
@@ -83,7 +86,8 @@ Represents a Unit of Measure Conversion complex type in [!INCLUDE[d365fin_long_m
 Represents a Payment Method complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
-| Property	   | Type	 |Description                           |
+
+| Property     | Type    |Description                           |
 |:-------------|:------|:-------------------------------------|
 |code          |string |The unique code of the payment method.|
 |description   |string |Specifies a text that describes the payment method.|
@@ -101,7 +105,8 @@ Represents a Payment Method complex type in [!INCLUDE[d365fin_long_md](../../inc
 Represents a Payment Terms complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
-| Property	| Type	|Description                          |
+
+| Property  | Type  |Description                          |
 |:----------|:------|:------------------------------------|
 |code       |string |The unique code of the payment terms.|
 |description|string |Specifies a text that describes the payment terms.|
@@ -119,7 +124,8 @@ Represents a Payment Terms complex type in [!INCLUDE[d365fin_long_md](../../incl
 Represents a Postal Address complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
-| Property	   | Type	    |Description             |
+
+| Property     | Type       |Description             |
 |:-------------|:---------|:-----------------------|
 |street        |string    |Postal address street.  |
 |city          |string    |Postal address city.    |
@@ -143,7 +149,8 @@ Represents a Postal Address complex type in [!INCLUDE[d365fin_long_md](../../inc
 Represents a Shipment Method complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
-| Property	|Type	  |Description                            |
+
+| Property  |Type     |Description                            |
 |:----------|:------|:--------------------------------------|
 |code       |string |The unique code of the shipment method.|
 |description|string |Specifies the description of the shipment method.|
@@ -161,7 +168,8 @@ Represents a Shipment Method complex type in [!INCLUDE[d365fin_long_md](../../in
 Represents a Line Details complex type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].       
 
 ### Properties
-| Property	  | Type	|Description                  |
+
+| Property    | Type    |Description                  |
 |:------------|:------|:----------------------------|
 |number       |string |The sequence number of the document line details.|
 |displayName  |string |The display name of the line.|

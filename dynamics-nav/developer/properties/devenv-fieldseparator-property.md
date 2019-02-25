@@ -23,15 +23,15 @@ Sets the string that is to be used to separate fields.
   
 ## Property Value  
   
-|**Value**|**Description**|  
-|---------------|---------------------|  
-|**<None>**|There is no field separator.|  
-|**<NewLine>**|Any combination of CR and LF characters.|  
-|**<CR/LF>**|CR followed by LF.|  
-|**<CR>**|CR alone.|  
-|**<LF>**|LF alone.|  
-|**<TAB>**|Tabulator alone.|  
-|**Other strings**|The literal string entered.|  
+|     **Value**     |             **Description**              |
+|-------------------|------------------------------------------|
+|    **<None>**     |       There is no field separator.       |
+|   **<NewLine>**   | Any combination of CR and LF characters. |
+|    **<CR/LF>**    |            CR followed by LF.            |
+|     **<CR>**      |                CR alone.                 |
+|     **<LF>**      |                LF alone.                 |
+|     **<TAB>**     |             Tabulator alone.             |
+| **Other strings** |       The literal string entered.        |
   
 ## Remarks  
  The strings in the preceding table must be entered literally, using the < and > characters. These special strings can be combined and can also be mixed with other characters.  

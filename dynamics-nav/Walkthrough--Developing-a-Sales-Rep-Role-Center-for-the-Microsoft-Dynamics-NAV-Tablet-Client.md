@@ -86,21 +86,21 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
 
 #### To add actions to the role center  
 
-1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], choose **Object Designer**, and then choose the Role Center you created in the previous steps.  
+1. In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], choose **Object Designer**, and then choose the Role Center you created in the previous steps.  
 
-2.  On the **View** menu, choose **Page Actions**.  
+2. On the **View** menu, choose **Page Actions**.  
 
-3.  In the **Type** field, choose **ActionContainer**.  
+3. In the **Type** field, choose **ActionContainer**.  
 
-4.  In the **SubType** field, choose **ActionItems**.  
+4. In the **SubType** field, choose **ActionItems**.  
 
-5.  On the next new line, in the **Type** field, choose **ActionGroup** and in the **Caption** property, enter **New**.  
+5. On the next new line, in the **Type** field, choose **ActionGroup** and in the **Caption** property, enter **New**.  
 
-6.  On the next line, in the **Type** field, choose **Action**.  
+6. On the next line, in the **Type** field, choose **Action**.  
 
-7.  In the **Name** property, enter **Page Mini Sales Quote**.  
+7. In the **Name** property, enter **Page Mini Sales Quote**.  
 
-8.  In the **RunObject** property, choose **Page Mini Sales Quote** \(1324\).  
+8. In the **RunObject** property, choose **Page Mini Sales Quote** \(1324\).  
 
 9. In the **RunPageMode** property, choose **Create**.  
 
@@ -110,20 +110,22 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
 
 12. The following table shows all of the actions you should have, including the one that you created during steps 1 through 11. Create the next actions following steps 6 through 11.  
 
-    |Type|SubType|Name|Properties|  
-    |----------|-------------|----------|----------------|  
-    |ActionContainer|ActionItems|\(default\)|\(default\)|  
-    |ActionGroup|none|\(default\)|\* Set **Caption** to **New**|  
-    |Action|none|\<Page Mini Sales Quote>|\* Set **RunPageMode** to **Create**<br /><br /> \* Set **Image** to **Quote**<br /><br /> \* Set **RunObject** to **Page Mini Sales Quote \(1324\)**<br /><br /> \* Set **Promoted** to **Yes**|  
-    |ActionContainer|HomeItems|\(default\)|\(default\)|  
-    |Action|none|Page Mini Customer List|\* Set **Caption** to **Customers**<br /><br /> \* Set **PromotedCategory** to **New**<br /><br /> \* Set **RunObject** to **Page Mini Customer List \(1301\)**<br /><br /> \* Set **Promoted** to **Yes**|  
-    |Action|none|Page Mini Item List|\* Set **Caption** to **Items**<br /><br /> \* Set **PromotedCategory** to **New**<br /><br /> \* Set **RunObject** to **Page Mini Item List \(1303\)**<br /><br /> \* Set **Promoted** to **Yes**|  
+
+    |      Type       |   SubType   |           Name           |                                                                                                 Properties                                                                                                 |
+    |-----------------|-------------|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | ActionContainer | ActionItems |       \(default\)        |                                                                                                \(default\)                                                                                                 |
+    |   ActionGroup   |    none     |       \(default\)        |                                                                                       \* Set **Caption** to **New**                                                                                        |
+    |     Action      |    none     | \<Page Mini Sales Quote> |      \* Set **RunPageMode** to **Create**<br /><br /> \* Set **Image** to **Quote**<br /><br /> \* Set **RunObject** to **Page Mini Sales Quote \(1324\)**<br /><br /> \* Set **Promoted** to **Yes**      |
+    | ActionContainer |  HomeItems  |       \(default\)        |                                                                                                \(default\)                                                                                                 |
+    |     Action      |    none     | Page Mini Customer List  | \* Set **Caption** to **Customers**<br /><br /> \* Set **PromotedCategory** to **New**<br /><br /> \* Set **RunObject** to **Page Mini Customer List \(1301\)**<br /><br /> \* Set **Promoted** to **Yes** |
+    |     Action      |    none     |   Page Mini Item List    |     \* Set **Caption** to **Items**<br /><br /> \* Set **PromotedCategory** to **New**<br /><br /> \* Set **RunObject** to **Page Mini Item List \(1303\)**<br /><br /> \* Set **Promoted** to **Yes**     |
+
 
 13. Check the indentation of your page elements and adjust if it is required.  
 
 14. Close **Action Designer** and then save and compile the **Sales Rep Role Center** page.  
 
- Simon now wants to test the Sales Rep Role Center that he created, and for testing purposes he uses a browser window. He enters a URL that specifically opens the page 50006 from tablet.aspx. His URL now resembles this: *http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/tablet.aspx?page=50006*. For more information, see [How to: Open the Microsoft Dynamics NAV Tablet or Phone Client from a Browser](How-to--Open-the-Microsoft-Dynamics-NAV-Tablet-or-Phone-Client-from-a-Browser.md).  
+    Simon now wants to test the Sales Rep Role Center that he created, and for testing purposes he uses a browser window. He enters a URL that specifically opens the page 50006 from tablet.aspx. His URL now resembles this: <em>http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/tablet.aspx?page=50006</em>. For more information, see [How to: Open the Microsoft Dynamics NAV Tablet or Phone Client from a Browser](How-to--Open-the-Microsoft-Dynamics-NAV-Tablet-or-Phone-Client-from-a-Browser.md).  
 
 ## Next Steps  
  Nancy now has a Role Center that gives her access to most of the information that she needs when she is on the road. The next step for Simon is to refine the Sales Rep Role Center by adding more functionality, for example, the ability to retrieve more lists or making sure that Nancy can smoothly continue to work when she is back at the office on her desktop computer.  

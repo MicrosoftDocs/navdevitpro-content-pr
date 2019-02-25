@@ -1,16 +1,15 @@
 ---
 title: "Using Filter Expressions in OData URIs"
 author: edupont04
-ms.author: edupont
+ms.author: solsen
 ms.custom: na
-ms.date: 05/01/2017
+ms.date: 11/13/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.assetid: e594076a-21e3-4f4d-8760-581cb2b89b1f
-manager: edupont
 ---
 # Using Filter Expressions in OData URIs
 You can use filter expressions in OData URIs to limit the results that are returned in an AtomPub document. This topic identifies the filter expressions that you can use, describes the equivalent field or table filter that you can use in C/AL, and presents examples to show the syntax for using filter expressions in OData web service URIs and applications.  
@@ -22,7 +21,7 @@ You can use filter expressions in OData URIs to limit the results that are retur
 http://localhost:7048/DynamicsNAV/OData/Company('CRONUS International Ltd.')/Customer?$filter=City eq 'Miami'  
 ```  
 
- The following table shows the filters that are supported in [!INCLUDE[navnow](includes/navnow_md.md)] OData web services and the equivalent C/AL filter expressions. All examples are based either on page 21, Customer \(published as **Customer**\), or on page 20, General Ledger Entry \(published as **GLEntry**\).  
+ The following table shows the filters that are supported in [!INCLUDE[navnow](includes/navnow_md.md)] OData web services and the equivalent C/AL filter expressions. All examples are based either on page 21, Customer (published as **Customer**), or on page 20, General Ledger Entry (published as **GLEntry**).  
 
 > [!NOTE]  
 >  Filters that do not have equivalent C/AL expressions might take longer to process compared to filters that do have equivalent C/AL expressions. The reason is that filters that do not have equivalent C/AL expressions are processed on the [!INCLUDE[nav_server](includes/nav_server_md.md)] tier, while filters that do have equivalent C/AL expressions are processed on the [!INCLUDE[navnow](includes/navnow_md.md)] database tier.  
@@ -54,11 +53,11 @@ http://localhost:7048/DynamicsNAV/OData/Company('CRONUS International Ltd.')/Cus
 ## Referencing Different Data Types in Filter Expressions  
  You must use the appropriate notation for different data types with filter expressions.  
 
--   String values must be delimited by single quotation marks.  
+- String values must be delimited by single quotation marks.  
 
--   Numeric values require no delimiters.  
+- Numeric values require no delimiters.  
 
-For more information about data types and other information about conventions and standards for OData URIs, see [Atom Publishing Protocol: URI Conventions](http://go.microsoft.com/fwlink/?LinkId=214635). Conventions for data types are addressed in section 2.2.2, "Abstract Type System."  
+For more information about data types and other information about conventions and standards for OData, see [OData Version 4.01](https://www.odata.org/documentation/).
 
 ## See Also  
  [OData Web Services](OData-Web-Services.md)

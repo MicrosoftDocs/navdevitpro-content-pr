@@ -63,28 +63,28 @@ Query.READ;
   
  This example requires that you do the following:  
   
-1.  Create a query called **Customer\_SalesQuantity** that has the following characteristics:  
+1. Create a query called **Customer\_SalesQuantity** that has the following characteristics:  
   
-    -   Links table **18 Customer** with table **37 Sales Lines** from the CRONUS International Ltd. demonstration database.  
+   -   Links table **18 Customer** with table **37 Sales Lines** from the CRONUS International Ltd. demonstration database.  
   
-    -   Includes columns for the **Name** and **No.** fields from the **Customer** table and the **Quantity** field from **Sales Lines** table.  
+   -   Includes columns for the **Name** and **No.** fields from the **Customer** table and the **Quantity** field from **Sales Lines** table.  
   
-         For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).  
+        For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).  
   
-    -   The ColumnFilter property of the **Quantity** column is set to include values greater than 5.  
+   -   The ColumnFilter property of the **Quantity** column is set to include values greater than 5.  
   
-2.  Create the following C/AL variables and text constant in the object that will run the query, such as a codeunit.  
+2. Create the following C/AL variables and text constant in the object that will run the query, such as a codeunit.  
   
-    |Variable name|DataType|Subtype|  
-    |-------------------|--------------|-------------|  
-    |MyQuery|Query|Customer\_SalesQuantity|  
-    |MyFilter|Text|Not applicable|  
+   |Variable name|DataType|Subtype|  
+   |-------------------|--------------|-------------|  
+   |MyQuery|Query|Customer\_SalesQuantity|  
+   |MyFilter|Text|Not applicable|  
   
-    |Text constant name|ENU Value|  
-    |------------------------|---------------|  
-    |Text000|The filter is: %1|  
+   |Text constant name|ENU Value|  
+   |------------------------|---------------|  
+   |Text000|The filter is: %1|  
   
- The following C/AL code runs the query and displays a message that contains the filter that is set on a query column. You can add the code to a codeunit, and then run the codeunit to see the results.  
+   The following C/AL code runs the query and displays a message that contains the filter that is set on a query column. You can add the code to a codeunit, and then run the codeunit to see the results.  
   
 ```  
 // Sets a filter to display only sales quantities greater than 10. This overwrites the ColumnFilter property.  

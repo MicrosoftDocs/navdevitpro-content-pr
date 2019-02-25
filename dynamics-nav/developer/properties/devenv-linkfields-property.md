@@ -23,10 +23,10 @@ Specifies the fields that are linked between two tables using the [LinkTable Pro
   
 ## Property Value  
   
-|**Value**|**Description**|  
-|---------------|---------------------|  
-|**<field>**|A field from the table that is specified as the data source of this XML item|  
-|**<reference field>**|A field from the table that is specified in the [LinkTable Property](devenv-linktable-property.md).|  
+|       **Value**       |                                           **Description**                                           |
+|-----------------------|-----------------------------------------------------------------------------------------------------|
+|      **<field>**      |            A field from the table that is specified as the data source of this XML item             |
+| **<reference field>** | A field from the table that is specified in the [LinkTable Property](devenv-linktable-property.md). |
   
 ## Remarks  
  The following syntax shows the **LinkFields** property.  

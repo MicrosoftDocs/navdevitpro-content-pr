@@ -13,23 +13,23 @@ caps.latest.revision: 23
 # C/AL Reserved Words
 C/AL has several reserved words that you cannot use as variable, constant, or function names in your application. Reserved words include the following types:  
   
--   Data types  
+- Data types  
   
--   Keywords  
+- Keywords  
   
--   Functions  
+- Functions  
   
--   Operators  
+- Operators  
   
--   Properties  
+- Properties  
   
--   System variable names  
+- System variable names  
   
--   Triggers  
+- Triggers  
   
- In some cases, you can use reserved words as variable names if you enclose the variable name in quotation marks. However, we do not recommend this practice.  
+  In some cases, you can use reserved words as variable names if you enclose the variable name in quotation marks. However, we do not recommend this practice.  
   
- If you write code on client report definition (RDLC) report layouts, then verify that your code does not use Visual Studio Report Designer reserved words. For more information, see [Using Expressions in a Report (Visual Studio Report Designer)](http://go.microsoft.com/fwlink/?LinkId=160607) and its subtopics.  
+  If you write code on client report definition (RDLC) report layouts, then verify that your code does not use Visual Studio Report Designer reserved words. For more information, see [Using Expressions in a Report (Visual Studio Report Designer)](http://go.microsoft.com/fwlink/?LinkId=160607) and its subtopics.  
   
 ## List of Reserved Words  
  The following table lists all of the C/AL reserved words.  

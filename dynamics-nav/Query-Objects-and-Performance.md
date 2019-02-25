@@ -23,34 +23,34 @@ A *query* is a new object in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] t
 ## Covering Indexes  
  When you use a query to select a subset of fields in a table, you should consider taking advantage of the covering index strategy. A *covering index* is the index that contains all output fields required by the operation performed on that index. A covering index data access strategy can greatly improve performance because the database must retrieve only data from the index instead of finding data by using the index and then retrieving the data in the clustered index. A covering index data access strategy can be used when the following conditions are true:  
   
--   All columns in a given data item are part of a single [!INCLUDE[navnow](includes/navnow_md.md)] key.  
+- All columns in a given data item are part of a single [!INCLUDE[navnow](includes/navnow_md.md)] key.  
   
--   All columns that are used in the DataItem table filters are part of the same [!INCLUDE[navnow](includes/navnow_md.md)] key.  
+- All columns that are used in the DataItem table filters are part of the same [!INCLUDE[navnow](includes/navnow_md.md)] key.  
   
--   If two DataItems are linked, then the field on the parent DataItem that links the two DataItems \(the **Reference Field** on the **DataItemLink** property\), must be part of the same [!INCLUDE[navnow](includes/navnow_md.md)] key as the columns in the child DataItem.  
+- If two DataItems are linked, then the field on the parent DataItem that links the two DataItems \(the **Reference Field** on the **DataItemLink** property\), must be part of the same [!INCLUDE[navnow](includes/navnow_md.md)] key as the columns in the child DataItem.  
   
- The SQL Server optimizer automatically chooses a covering index strategy whenever possible.  
+  The SQL Server optimizer automatically chooses a covering index strategy whenever possible.  
   
- For more information about SQL Server covering indexes, see [SQL Server Optimization](http://go.microsoft.com/fwlink/?LinkId=257836).  
+  For more information about SQL Server covering indexes, see [SQL Server Optimization](http://go.microsoft.com/fwlink/?LinkId=257836).  
   
- For more information about SQL Server clustered and non-clustered indexes, see [Types of Indexes](http://go.microsoft.com/fwlink/?LinkID=257835).  
+  For more information about SQL Server clustered and non-clustered indexes, see [Types of Indexes](http://go.microsoft.com/fwlink/?LinkID=257835).  
   
 ## Covering SIFT Indexes  
  Similar to how indexes can be used to retrieve data for a query, SIFT indexes can be used to retrieve data for a query that contains totals. SIFT totals are maintained after each insert, modify, or delete call, and so some or all of the totals are already calculated. A SIFT index can be used when the following conditions are true:  
   
--   The query contains at least one aggregated column with **Method Type** set to **Totals** and with **Method** set to either **Sum**, **Count**, or **Average**.  
+- The query contains at least one aggregated column with **Method Type** set to **Totals** and with **Method** set to either **Sum**, **Count**, or **Average**.  
   
--   If a DataItem contains an aggregated column, then all columns under that DataItem must be aggregated columns, must use either the **Sum**, **Count**, or **Average** method, and must be part of a SumIndexField defined on a single [!INCLUDE[navnow](includes/navnow_md.md)] key.  
+- If a DataItem contains an aggregated column, then all columns under that DataItem must be aggregated columns, must use either the **Sum**, **Count**, or **Average** method, and must be part of a SumIndexField defined on a single [!INCLUDE[navnow](includes/navnow_md.md)] key.  
   
--   In a query in which you have aggregations but not on all DataItems, then for the DataItems without aggregations, the columns are part of a SumIndexField.  
+- In a query in which you have aggregations but not on all DataItems, then for the DataItems without aggregations, the columns are part of a SumIndexField.  
   
--   All non-aggregated columns under the DataItem that have aggregation are part of the key fields defined for the same SIFT index.  
+- All non-aggregated columns under the DataItem that have aggregation are part of the key fields defined for the same SIFT index.  
   
--   All columns that are used in the DataItem table filters are part of the same [!INCLUDE[navnow](includes/navnow_md.md)] key.  
+- All columns that are used in the DataItem table filters are part of the same [!INCLUDE[navnow](includes/navnow_md.md)] key.  
   
--   If two DataItems are linked, then the field on the parent DataItem that links the two DataItems \(the **Reference Field** in the **DataItemLink** property\) must be part of the same [!INCLUDE[navnow](includes/navnow_md.md)] key as the columns in the child DataItem.  
+- If two DataItems are linked, then the field on the parent DataItem that links the two DataItems \(the **Reference Field** in the **DataItemLink** property\) must be part of the same [!INCLUDE[navnow](includes/navnow_md.md)] key as the columns in the child DataItem.  
   
- [!INCLUDE[nav_server](includes/nav_server_md.md)] automatically use a SIFT index for query objects whenever possible.  
+  [!INCLUDE[nav_server](includes/nav_server_md.md)] automatically use a SIFT index for query objects whenever possible.  
   
 ## Differences Between Query and Record Result Sets  
  [!INCLUDE[navnow](includes/navnow_md.md)] does not do any caching for query result sets. When you run a query, [!INCLUDE[navnow](includes/navnow_md.md)] always gets the data directly from SQL Server.  

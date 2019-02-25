@@ -21,6 +21,7 @@ Represents a taxGroups resource type in [!INCLUDE[d365fin_long_md](../../include
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
 |[GET taxGroups](../api/dynamics_taxGroups_get.md)|taxGroups|Gets a tax group object.|
@@ -29,7 +30,8 @@ Represents a taxGroups resource type in [!INCLUDE[d365fin_long_md](../../include
 |[DELETE taxGroups](../api/dynamics_taxGroups_delete.md)|none|Deletes a tax group object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the taxGroup. Read-Only.|
 |code|string|Specifies the tax group.|
@@ -51,7 +53,6 @@ Here is a JSON representation of the taxGroup.
   "displayName": "string",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See Also

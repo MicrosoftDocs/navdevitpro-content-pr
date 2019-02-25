@@ -27,45 +27,45 @@ The [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] have been designed t
 
  The **Cloud\\NAVRemoteAdministrationSamples** folder contains the following files that you must modify:  
 
--   Install-NAVBox.ps1  
+- Install-NAVBox.ps1  
 
--   HowTo-CreateAzureVM.ps1  
+- HowTo-CreateAzureVM.ps1  
 
--   HowTo-InstallNAVOnVM.ps1  
+- HowTo-InstallNAVOnVM.ps1  
 
--   HowTo-AddNAVInstance.ps1  
+- HowTo-AddNAVInstance.ps1  
 
--   HowTo-OpenFirewallPort.ps1  
+- HowTo-OpenFirewallPort.ps1  
 
--   HowTo-SetAzureVMSize.ps1  
+- HowTo-SetAzureVMSize.ps1  
 
--   HowTo-UploadFilesToVM.ps1  
+- HowTo-UploadFilesToVM.ps1  
 
- The "HowTo” scripts import and call additional scripts from the **Cloud\\NAVRemoteAdministration** folder and its subfolders. Most of the scripts in this folder are generic and should not be modified. However, some of the scripts have dependencies Azure for doing tasks like creating the network, the virtual machines, and the physical storage where the virtual machines are installed. The Azure-specific scripts are all located in the **Cloud\\NAVRemoteAdministration\\Azure** folder and include the following:  
+  The "HowTo” scripts import and call additional scripts from the **Cloud\\NAVRemoteAdministration** folder and its subfolders. Most of the scripts in this folder are generic and should not be modified. However, some of the scripts have dependencies Azure for doing tasks like creating the network, the virtual machines, and the physical storage where the virtual machines are installed. The Azure-specific scripts are all located in the **Cloud\\NAVRemoteAdministration\\Azure** folder and include the following:  
 
--   New-NAVAzureBaseVM.ps1  
+- New-NAVAzureBaseVM.ps1  
 
--   New-NAVAzureDataDisk.ps1  
+- New-NAVAzureDataDisk.ps1  
 
--   Copy-VhdFileToAzureStorage.ps1  
+- Copy-VhdFileToAzureStorage.ps1  
 
--   Mount-VhdFileToAzureVM.ps1  
+- Mount-VhdFileToAzureVM.ps1  
 
--   Dismount-VhdFileFromAzureVM.ps1  
+- Dismount-VhdFileFromAzureVM.ps1  
 
--   Wait-VMReadyState.ps1  
+- Wait-VMReadyState.ps1  
 
--   Remove-NAVAzureVM.ps1  
+- Remove-NAVAzureVM.ps1  
 
--   New-AzureVhdDisk.ps1  
+- New-AzureVhdDisk.ps1  
 
--   New-AzureVirtualNetwork.ps1  
+- New-AzureVirtualNetwork.ps1  
 
--   Test-AzureAffinityGroup.ps1  
+- Test-AzureAffinityGroup.ps1  
 
--   Test-AzureVirtualNetwork.ps1  
+- Test-AzureVirtualNetwork.ps1  
 
- Replace these scripts with scripts that perform similar tasks on your environment.  
+  Replace these scripts with scripts that perform similar tasks on your environment.  
 
 > [!NOTE]  
 >  The scripts in the **Cloud\\NAVRemoteAdministration\\Azure** folder are very specific to Azure. The API for your cloud service provider may require a different structure of the scripts. However, the high-level concepts will be similar.  

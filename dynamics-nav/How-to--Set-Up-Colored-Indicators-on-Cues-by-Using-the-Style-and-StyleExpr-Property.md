@@ -14,17 +14,17 @@ manager: edupont
 # How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property
 You can configure a cue with a colored indicator that appears along its top border to provide a visual indication to users about the value of data in the cue. You can configure the indicator to behave in the following ways.  
 
--   The indicator has a static color.  
+- The indicator has a static color.  
 
-     In this case, the indicator appears with a specified color at all times. For more information, see [Configuring Static Color Indication on a Cue](How-to--Set-Up-Colored-Indicators-on-Cues-by-Using-the-Style-and-StyleExpr-Property.md#StaticColor).  
+   In this case, the indicator appears with a specified color at all times. For more information, see [Configuring Static Color Indication on a Cue](How-to--Set-Up-Colored-Indicators-on-Cues-by-Using-the-Style-and-StyleExpr-Property.md#StaticColor).  
 
--   The indicator changes color conditionally, based on the data in the cue.  
+- The indicator changes color conditionally, based on the data in the cue.  
 
-     This is the most typical behavior. When the data in the cue hits a specified value, the indicator changes color. There are 4 colors to choose from, which enables you to configure different colors for different data intervals. For more information, see [Configuring Conditional Color Indication on a Cue](How-to--Set-Up-Colored-Indicators-on-Cues-by-Using-the-Style-and-StyleExpr-Property.md#ConditionColor).  
+   This is the most typical behavior. When the data in the cue hits a specified value, the indicator changes color. There are 4 colors to choose from, which enables you to configure different colors for different data intervals. For more information, see [Configuring Conditional Color Indication on a Cue](How-to--Set-Up-Colored-Indicators-on-Cues-by-Using-the-Style-and-StyleExpr-Property.md#ConditionColor).  
 
- You set up the indicator by using the [StyleExpr Property](StyleExpr-Property.md) and [Style Property](Style-Property.md) for the field that defines the cue and, in most cases, by adding AL code to the page object.  
+  You set up the indicator by using the [StyleExpr Property](StyleExpr-Property.md) and [Style Property](Style-Property.md) for the field that defines the cue and, in most cases, by adding AL code to the page object.  
 
- The following table describes the values of the **Style** property and the corresponding indicator color. You will need to know these values for whichever behavior that you implement.  
+  The following table describes the values of the **Style** property and the corresponding indicator color. You will need to know these values for whichever behavior that you implement.  
 
 |Value|Color|  
 |-----------|-----------|  
@@ -76,30 +76,30 @@ You can configure a cue with a colored indicator that appears along its top bord
 
 #### To configure color indication by using a Text or Codeunit variable  
 
-1.  Add AL code that evaluates the cue field data and sets a Text or Codeunit variable to one of the following values for each condition that you want color indication: **Favorable**, **Unfavorable**, **Ambiguous**, and **Subordinate**. For the corresponding colors for these values, see the table in the introduction of this topic  
+1. Add AL code that evaluates the cue field data and sets a Text or Codeunit variable to one of the following values for each condition that you want color indication: **Favorable**, **Unfavorable**, **Ambiguous**, and **Subordinate**. For the corresponding colors for these values, see the table in the introduction of this topic  
 
-     For example, page **9060 SO Processor Activities** in the [!INCLUDE[demolong](includes/demolong_md.md)] contains the cue field **"Sales Quotes - Open"**. You want the indicator to have the following color conditions:  
+    For example, page **9060 SO Processor Activities** in the [!INCLUDE[demolong](includes/demolong_md.md)] contains the cue field **"Sales Quotes - Open"**. You want the indicator to have the following color conditions:  
 
-    -   Green when the number of open sales quotes is 10 or less  
+   - Green when the number of open sales quotes is 10 or less  
 
-    -   Yellow when open sales quotes is greater than 10  
+   - Yellow when open sales quotes is greater than 10  
 
-    -   Red when open sales quotes is greater than 20  
+   - Red when open sales quotes is greater than 20  
 
      To do this, you can add a variable called **ColorVar** that has the data type Text or Codeunit, and then add the following code to the **OnAfterGetRecord** trigger.  
 
-    ```  
-    IF ("Sales Quotes - Open" <= 10) THEN  
-        ColorVar := 'Favorable'  
-    ELSE IF("Sales Quotes - Open" > 20) THEN  
-        ColorVar := 'Unfavorable'  
-    ELSE ("Sales Quotes - Open")  
-        ColorVar := 'Ambiguous';  
-    ```  
+   ```  
+   IF ("Sales Quotes - Open" <= 10) THEN  
+       ColorVar := 'Favorable'  
+   ELSE IF("Sales Quotes - Open" > 20) THEN  
+       ColorVar := 'Unfavorable'  
+   ELSE ("Sales Quotes - Open")  
+       ColorVar := 'Ambiguous';  
+   ```  
 
-2.  Set the cue field's **StyleExpr** property to the variable.  
+2. Set the cue field's **StyleExpr** property to the variable.  
 
-     For the example in the step 1, you set the property to **ColorVar**.  
+    For the example in the step 1, you set the property to **ColorVar**.  
 
 ## See Also  
  [Style Property](Style-Property.md)   

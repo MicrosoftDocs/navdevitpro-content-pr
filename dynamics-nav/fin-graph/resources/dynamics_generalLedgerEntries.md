@@ -27,7 +27,8 @@ Represents a generalLedgerEntry object in [!INCLUDE[d365fin_long_md](../../inclu
 |[GET generalLedgerEntries](../api/dynamics_generalledgerentries_get.md)|generalLedgerEntries|Get a G/L entry object.|
 
 ## Properties
-| Property	         | Type	                 |Description                                  |
+
+| Property           | Type                  |Description                                  |
 |:-------------------|:----------------------|:--------------------------------------------|
 |id                  |GUID                   |The unique ID of the G/L Entry.              |
 |number              |numeric                |Specifies the number of the G/L Entry.       |
@@ -64,7 +65,6 @@ Here is a JSON representation of the resource.
   "creditAmount": "decimal",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

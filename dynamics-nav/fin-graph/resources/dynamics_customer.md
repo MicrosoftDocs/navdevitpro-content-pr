@@ -20,15 +20,26 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 
 ## Methods
 
-| Method                                              |Return Type| Description      |
-|:----------------------------------------------------|:----------|:-----------------|
+| Method          |Return Type| Description      |
+|:----------------|:----------|:-----------------|
 |[GET customers](../api/dynamics_customer_get.md)      |customers   |Gets a customer.   |
-|[CREATE customers](../api/dynamics_create_customer.md)|customers   |Creates a customer.|
-|[UPDATE customers](../api/dynamics_customer_update.md)|customers   |Updates a customer.|
+|[POST customers](../api/dynamics_create_customer.md)|customers   |Creates a customer.|
+|[PATCH customers](../api/dynamics_customer_update.md)|customers   |Updates a customer.|
 |[DELETE customers](../api/dynamics_customer_delete.md)|none        |Deletes a customer.|
 
+## Subpages
+
+| Method    |Return Type| Description      |
+|:----------|:----------|:-----------------|
+|[GET customer defaultDimensions](../api/dynamics_customer_get_defaultdimensions.md)|default dimensions   |Gets the default dimensions of customer. |
+|[POST customer defaultDimensions](../api/dynamics_customer_create_defaultdimensions.md) |default dimensions  |Creates the default dimensions of  customer.|
+|[PATCH customer defaultDimensions](../api/dynamics_customer_update_defaultdimensions.md)|default dimensions  |Updates the default dimensions of customer.|
+|[DELETE customer defaultDimensions](../api/dynamics_customer_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of customer.  |
+
+
 ## Properties
-| Property	  | Type	 |Description|
+
+| Property    | Type     |Description|
 |:------------|:---------|:----------|
 |id           |GUID      |The unique ID of the item. Non-editable.|
 |number       |string    |The customer number.|
@@ -88,7 +99,7 @@ Here is a JSON representation of the resource.
     "taxAreaDisplayName": "string",
     "taxRegistrationNumber": "string",
     "currencyCode": "string",
-    "paymentTerms": NAV.PaymentTermsType,
+    "paymentTermsId": "GUID",
     "shipmentMethod": NAV.ShipmentMethod,
     "paymentMethod":  NAV.PaymentMethod,
     "blocked": "string",
@@ -97,8 +108,6 @@ Here is a JSON representation of the resource.
     "totalSalesExcludingTax": "numeric",
     "lastModifiedDateTime": "datetime"
 }
-
-
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  

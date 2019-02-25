@@ -49,13 +49,13 @@ Codeunit 1 Application Management includes the **GetCueStyle** trigger that enab
 ## Example  
  To illustrate the use of the **GetCueStyle** trigger, consider a simple example where you have a Cue on the Role Center that displays the number of open sales quotes. You want to set up the indicator to change color according to the following characteristics:  
   
--   Green when the number of open sales quotes is less than or equal to 10  
+- Green when the number of open sales quotes is less than or equal to 10  
   
--   Yellow when open sales quotes is greater than 10  
+- Yellow when open sales quotes is greater than 10  
   
--   Red when open sales quotes is greater than 20  
+- Red when open sales quotes is greater than 20  
   
- To do this, in [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you modify the **GetCueValue** trigger in codeunit **1 Application Management**. First, you assign the return value the name **Color**, and then you add the following code to the trigger.  
+  To do this, in [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you modify the **GetCueValue** trigger in codeunit **1 Application Management**. First, you assign the return value the name **Color**, and then you add the following code to the trigger.  
   
 ```  
 IF (CueValue <= 10) THEN  

@@ -27,21 +27,21 @@ Sets a timestamp for a file.
   
  The name of the file, including its path. When you enter the path, keep in mind these shortcuts:  
   
--   You can omit the drive designation, if the file is located on the current drive.  
+- You can omit the drive designation, if the file is located on the current drive.  
   
--   You can omit the full path, if the file is located in the current directory.  
+- You can omit the full path, if the file is located in the current directory.  
   
--   You can enter only the subdirectory name, if the file is located in a subdirectory of the current directory.  
+- You can enter only the subdirectory name, if the file is located in a subdirectory of the current directory.  
   
- *Date*  
- Type: Date  
+  *Date*  
+  Type: Date  
   
- The date that you want stamped on the file.  
+  The date that you want stamped on the file.  
   
- *Time*  
- Type: Time  
+  *Time*  
+  Type: Time  
   
- The time that you want stamped on the file.  
+  The time that you want stamped on the file.  
   
 ## Property Value/Return Value  
  Type: Boolean  

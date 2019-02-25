@@ -33,28 +33,28 @@ When using the XMLport to import or export an XML document, you can set up multi
   
  The `<root>` element contains the namespace declarations. Each namespace has the syntax *xmlns:prefix="namespacename"*.  
   
--   The *namespacename* is a string of characters, often referred to as a Uniform Resource Identifier \(URI\), which uniquely identifies an Internet resource. This is typically a Uniform Resource Locator \(URL\) or Universal Resource Name \(URN\).  
+- The *namespacename* is a string of characters, often referred to as a Uniform Resource Identifier \(URI\), which uniquely identifies an Internet resource. This is typically a Uniform Resource Locator \(URL\) or Universal Resource Name \(URN\).  
   
--   The *prefix* is a short string of characters that acts as an alias for the *namespacename*. The prefix is applied to specific elements in the XML document. The example includes the prefixes `navField` and `navTable`.  
+- The *prefix* is a short string of characters that acts as an alias for the *namespacename*. The prefix is applied to specific elements in the XML document. The example includes the prefixes `navField` and `navTable`.  
   
--   A namespace that does not include a prefix declares the default namespace. In the example, the default namespace is `urn:nav:schema:all`. The default prefix is applied to all elements that do not include a prefix.  
+- A namespace that does not include a prefix declares the default namespace. In the example, the default namespace is `urn:nav:schema:all`. The default prefix is applied to all elements that do not include a prefix.  
   
- To set up namespaces on an XMLport, you can use the properties **Namespaces**, **Namespaceprefix**, **DefaultNamespace**, and **UseDefaultNamespace** as described in the following sections.  
+  To set up namespaces on an XMLport, you can use the properties **Namespaces**, **Namespaceprefix**, **DefaultNamespace**, and **UseDefaultNamespace** as described in the following sections.  
   
 ## Adding Namespaces on an XMLport  
  To set up namespaces on an XMLport, do the following:  
   
-1.  Define the namespaces in the **Namespaces** property of the XMLport.  
+1. Define the namespaces in the **Namespaces** property of the XMLport.  
   
-     For each namespace, you specify a prefix and a namespace name. For more information, see [Namespaces Property](Namespaces-Property.md).  
+    For each namespace, you specify a prefix and a namespace name. For more information, see [Namespaces Property](Namespaces-Property.md).  
   
-2.  Apply the prefixes to the XMLport elements of by setting the **NamespacePrefix** property.  
+2. Apply the prefixes to the XMLport elements of by setting the **NamespacePrefix** property.  
   
-     You can only apply a prefix on **Element** node types, not **Attribute** node types.  
+    You can only apply a prefix on **Element** node types, not **Attribute** node types.  
   
-     For more information, see [NamespacePrefix Property](NamespacePrefix-Property.md).  
+    For more information, see [NamespacePrefix Property](NamespacePrefix-Property.md).  
   
- For detailed steps about how to set these properties, see [How to: Create XMLports](How-to--Create-XMLports.md).  
+   For detailed steps about how to set these properties, see [How to: Create XMLports](How-to--Create-XMLports.md).  
   
 ## Adding a Default Namespace to an XMLport  
  A default namespace is a namespace that does not include a prefix. When you set up a default namespace, any elements that are note applied a prefix are assumed to belong to the default namespace. You can set up a default namespace one of the following ways:  
