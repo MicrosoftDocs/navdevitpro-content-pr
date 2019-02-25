@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
-# Configuring Query Hints for Optimizing SQL Server Performance with Business Central
+# Configuring Query Hints for Optimizing SQL Server Performance with Dynamics NAV
 
 On its own, SQL Server query optimizer will try to select the best execution plan for queries. Most of the time, query optimizer makes the right choice. [Query hints](https://docs.microsoft.com/en-us/sql/t-sql/queries/hints-transact-sql-query?view=sql-server-2017) are strategies that can be enforced by the SQL Server query processor to override any execution plan that the query optimizer might select for a query. The [!INCLUDE[server](includes/nav_server_md.md)] instance includes configuration settings that let you enable or disable the use of the following hints on queries in the database:
 
@@ -26,6 +26,6 @@ For more information about configuring the [!INCLUDE[server](includes/nav_server
 
 ## See Also
   
-[Optimizing SQL Server Performance with Business Central](optimize-sql-server-performance-withmicrosoft-dynamics-nav.md)  
+[Optimizing SQL Server Performance with Business Central](optimizing-sql-server-performance-with-microsoft-dynamics-nav.md)  
 [Installation Considerations for Microsoft SQL Server](installation-considerations-for-microsoft-sql-server.md)  
 [Microsoft SQL Server documentation](http://go.microsoft.com/fwlink/?LinkId=253107)
