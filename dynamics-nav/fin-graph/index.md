@@ -8,7 +8,7 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/22/2018
+ms.date: 03/11/2019
 ms.author: solsen
 ---
 
@@ -18,8 +18,9 @@ With [!INCLUDE[d365fin](../includes/d365fin_md.md)] you can create Connect apps.
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../enabling-apis-for-dynamics-nav.md).
 
+> [!IMPORTANT]  
+> REST programming is not natively supported in C/SIDE. In order to run the APIs you must add the REST dependent types manually. Existing W1 objects can compile and load, but some .NET types cannot be loaded into the C/SIDE Development environment variable editor due to missing server dependencies.
+
 > [!TIP]  
 > For information about developing extensions in AL see [Development in AL](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview).
-
-## See also
 
