@@ -139,7 +139,7 @@ The following table shows the minimum system requirements for using [!INCLUDE[na
 |||  
 |-|-|  
 |Supported Outlook Applications |Outlook 2013 or later, Outlook Web App, OWA for iPad, OWA for iPhone, and OWA for Android.|
-|Supported Exchange Servers|Exchange Online, Exchange Server 2016, or Exchange Server 2013.<br />In deployments that use Exchange Server, the Exchange PowerShell endpoint must be accessible by [!INCLUDE[nav_server](includes/nav_server_md.md)].|
+|Supported Exchange Servers|Exchange Online, Exchange Server 2019, Exchange Server 2016, or Exchange Server 2013.<br />In deployments that use Exchange Server, the Exchange PowerShell endpoint must be accessible by [!INCLUDE[nav_server](includes/nav_server_md.md)].|
 |Supported Authentication|The [!INCLUDE[nav_server_md](includes/nav_server_md.md)] must be configured to run with NavUserPassword, ACS, or AAD Credentials Type.<br /> Also, the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] must be configured for Secure Sockets Layer (SSL).|
 |Supported Browsers|When using the Outlook Web App (OWA), your computer must be running a supported browser listed in the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] Requirements.|
 |Supported Operating Systems|When using OWA for iPad, OWA for iPad, or OWA for Android, your mobile device must use a supported Operating System listed in [!INCLUDE[nav_uni_app_md](includes/nav_uni_app_md.md)] Requirements.|  
@@ -150,7 +150,7 @@ The following table shows the minimum system requirements for the [!INCLUDE[navn
 |||  
 |-|-|  
 |Supported Outlook Applications |Outlook 2016, Outlook 2013 SP1, or Outlook 2010 SP2 \(32-bit edition\).|
-|Supported Exchange Servers|Exchange Server 2016, Exchange Server 2013, or Exchange Online.|  
+|Supported Exchange Servers|<li>Exchange Server 2019, Exchange Server 2016, Exchange Server 2013, or Exchange Online.|  
 
 
 ##  <a name="CRM"></a> Microsoft Dynamics 365 for Sales Integration Requirements  
