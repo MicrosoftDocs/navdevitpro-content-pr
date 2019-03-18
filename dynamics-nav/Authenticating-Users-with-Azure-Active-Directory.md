@@ -99,7 +99,7 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
    For example:
 
    ```
-   https://login.windows.net/CRONUSInternationLtd.onmicrosoft.com/FederationMetadata/2007-06/FederationMetadata.xml
+   https://login.microsoftonline.com/CRONUSInternationLtd.onmicrosoft.com/FederationMetadata/2007-06/FederationMetadata.xml
    ```  
 
 3. Specify the WS-federation login endpoint.
@@ -107,13 +107,13 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
    The WS-federation login endpoint is the URL of the sign-on page that [!INCLUDE[navnow](includes/navnow_md.md)] redirects to when users sign on from a client. You must specify a URL in the following format:
 
    ```
-   https://login.windows.net/<AAD TENANT ID>/wsfed?wa=wsignin1.0%26wtrealm=<APP ID URI>%26wreply=<APP REPLY URL>
+   https://login.microsoftonline.com/<AAD TENANT ID>/wsfed?wa=wsignin1.0%26wtrealm=<APP ID URI>%26wreply=<APP REPLY URL>
    ```
 
    For example:
 
    ```
-   https://login.windows.net/CRONUSInternationLtd.onmicrosoft.com/wsfed?wa=wsignin1.0%26wtrealm=https://CRONUSInternationLtd.onmicrosoft.com/Financials%26wreply=https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/SignIn.aspx
+   https://login.microsoftonline.com/CRONUSInternationLtd.onmicrosoft.com/wsfed?wa=wsignin1.0%26wtrealm=https://CRONUSInternationLtd.onmicrosoft.com/Financials%26wreply=https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/SignIn.aspx
    ```
 
    (For [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions, include `/WebClient` after `/DynamicsNAV`.)
@@ -123,7 +123,7 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
    `<AAD TENANT ID>` is the ID of the Azure AD tenant, for example `CRONUSInternationLtd.onmicrosoft.com`. To ensure that [!INCLUDE[navnow](includes/navnow_md.md)] redirects to the right sign-in page, substitute `<AAD TENANT ID>` with a value according to the following:
 
    - If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured for as a single tenant server instance, the value is typically the domain name for the Azure AD tenant, and the URL is similar to the example above.
-   - If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured for multitenancy, and each [!INCLUDE[navnow](includes/navnow_md.md)] tenant corresponds to an Azure AD tenant that has a service principal, use `{AADTENANTID}` as the value. For example, `https://login.windows.net/{AADTENANTID}/wsfed?wa=wsignin1.0%26wtrealm=...%26wreply=...`. [!INCLUDE[nav_server](includes/nav_server_md.md)] will automatically replace `{AADTENANTID}` with the correct Azure AD tenant.
+   - If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured for multitenancy, and each [!INCLUDE[navnow](includes/navnow_md.md)] tenant corresponds to an Azure AD tenant that has a service principal, use `{AADTENANTID}` as the value. For example, `https://login.microsoftonline.com/{AADTENANTID}/wsfed?wa=wsignin1.0%26wtrealm=...%26wreply=...`. [!INCLUDE[nav_server](includes/nav_server_md.md)] will automatically replace `{AADTENANTID}` with the correct Azure AD tenant.
    - If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as a multitenant instance and the corresponding [!INCLUDE[navnow](includes/navnow_md.md)] application in Azure AD has external access and configured as a multitenant application, substitute [AAD TENANT ID] with `common`. Tenant ID parameter that is specified when mounting a tenant replaces the placeholder.
 
    `<APP ID URI>` is the ID that was assigned to the [!INCLUDE[navnow](includes/navnow_md.md)] application when it was registered in Azure AD, for example `https://localhost/` or `https://CRONUSInternationLtd.onmicrosoft.com/Financials`.
@@ -162,7 +162,7 @@ For more information see, [Configure Authentication of Dynamics NAV Web Client U
 The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] must also be configured to use `AccessControlService` as the credential type in order to support Azure AD. In addition, the `ACSUri` setting for Azure AD authentication must be set. The value should be that same as the **WS-Federation Login Endpoint** setting of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances, except for the `<App REPLY URL>` parameter. The `ACSUri` setting has the following format:
 
 ```
-https://login.windows.net/<AAD TENANT ID>/wsfed?wa=wsignin1.0%26wtrealm=[APP ID URI]%26wreply=[APP REPLY URL]
+https://login.microsoftonline.com/<AAD TENANT ID>/wsfed?wa=wsignin1.0%26wtrealm=[APP ID URI]%26wreply=[APP REPLY URL]
 ```
 
 The <APP REPLY URL> parameter in the URL must be equal to the sign in page for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], such as  `https://dynamicsnavwinclient/`.  
@@ -170,7 +170,7 @@ The <APP REPLY URL> parameter in the URL must be equal to the sign in page for t
 For example:
 
 ```
-<add key="ACSUri" value="https://login.windows.net/CRONUSInternationLtd.onmicrosoft.com/wsfed?wa=wsignin1.0%26wtrealm=https://CRONUSInternationLtd.onmicrosoft.com/Financials%26wreply=http://dynamicsnavwinclient/" />
+<add key="ACSUri" value="https://login.microsoftonline.com/CRONUSInternationLtd.onmicrosoft.com/wsfed?wa=wsignin1.0%26wtrealm=https://CRONUSInternationLtd.onmicrosoft.com/Financials%26wreply=http://dynamicsnavwinclient/" />
 ```
 You configure the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] by modifying the ClientUserSettings.config file. For more information, see [Configuring the Dynamics NAV Windows Client](configuring-the-windows-client.md#afterset).
 

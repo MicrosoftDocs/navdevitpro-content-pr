@@ -137,7 +137,7 @@ $result = Set-NavSingleSignOnWithOffice365 -AuthenticationEmail “YourOffice365
 
  Depending on the Security Certificate that you are using, you may also need to change the `DnsIdentity` setting. For more information, see [How to: Implement Security Certificates in a Production Environment](How-to--Implement-Security-Certificates-in-a-Production-Environment.md).  
 
- `AcsUri` should have the following format `https://login.windows.net/<tenant>/wsfed?wa=wsignin1.0%26wtrealm=<realm>%26wreply=<reply>`.  
+ `AcsUri` should have the following format `https://login.microsoftonline.com/<tenant>/wsfed?wa=wsignin1.0%26wtrealm=<realm>%26wreply=<reply>`.  
 
 > [!NOTE]  
 >  The difference between configuring the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_windows](includes/nav_windows_md.md)] for single sign-on with Office 365 is the addition of the `wreply` parameter in the URL. The [!INCLUDE[nav_web](includes/nav_web_md.md)] automatically sets the `wreply` parameter to the web site login page, whereas the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] requires that it is preconfigured.  
