@@ -71,11 +71,7 @@ Content-type: application/json
 
 
 ## See Also
-[Graph Reference](../api/dynamics_graph_reference.md)  
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../endpoints-apis-for-dynamics.md)  
-[Error Codes](../dynamics_error_codes.md)  
+
 [Tax Groups](../resources/dynamics_taxgroups.md)  
 [Get Tax Groups](../api/dynamics_taxgroups_get.md)  
 [Create Tax Groups](../api/dynamics_create_taxgroups.md)  

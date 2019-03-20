@@ -73,9 +73,9 @@ Here is an example of the response.
 > Handshake is mandatory when [creating a subscription](dynamics_subscription_create.md) and [renewing a subscription](dynamics_subscription_update.md). See [Working with Webhooks](../dynamics_subscriptions.md).  
 
 ## See also
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../endpoints-apis-for-dynamics.md)  
+
+
+
 [Error Codes](../dynamics_error_codes.md)  
 [Subscription Resource Type](../resources/dynamics_subscription.md)  
 [Get subscriptions](dynamics_subscription_get.md)  

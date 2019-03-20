@@ -62,4 +62,4 @@ Here is an example of the response.
 
 
 ## See Also
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
+

@@ -92,11 +92,7 @@ Here is an example of the response.
 ```
 
 ## See also
-[Graph Reference](../api/dynamics_graph_reference.md)  
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../enabling-apis-for-dynamics-nav.md)  
-[Endpoints for the APIs](../endpoints-apis-for-dynamics.md)  
-[Error Codes](../dynamics_error_codes.md)  
+
 [Sales Credit Memo Line](../resources/dynamics_salescreditmemoline.md)  
 [Create Sales Credit Memo Line](../api/dynamics_create_salescreditmemoline.md)  
 [Update Sales Credit Memo Line](../api/dynamics_salescreditmemoline_update.md)  
