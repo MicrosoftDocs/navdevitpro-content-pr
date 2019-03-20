@@ -3,7 +3,7 @@ title: "Endpoints for the APIs for Microsoft Dynamics NAV and Microsoft Dynamics
 description: "Describing the steps you must go through to enable access to the APIs in on-prem and cloud product versions."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 03/23/2018
+ms.date: 04/01/2019
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
