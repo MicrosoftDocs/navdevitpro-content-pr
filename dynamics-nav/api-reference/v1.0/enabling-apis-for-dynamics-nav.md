@@ -33,5 +33,5 @@ Depending on where you want to access the APIs from, you must specify the correc
 
 ## See Also
 [Developing Connect Apps for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
-[Configuring Microsoft Dynamics NAV Server 2018](configuring-microsoft-dynamics-nav-server.md)  
-[Microsoft Dynamics NAV Web Services Overview](microsoft-dynamics-nav-web-services-overview.md)  
+[Configuring Microsoft Dynamics NAV Server 2018](../configuring-microsoft-dynamics-nav-server.md)  
+[Microsoft Dynamics NAV Web Services Overview](../microsoft-dynamics-nav-web-services-overview.md)  
