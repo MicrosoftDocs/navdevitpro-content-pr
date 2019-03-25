@@ -33,7 +33,7 @@ Represents an attachment object in [!INCLUDE[d365fin_long_md](../../includes/d36
 
 | Property     | Type   |Description|
 |:---------------|:--------|:----------|
-|id|GUID|Id of the attachemnt.|
+|id|GUID|Id of the attachment.|
 |parentId|GUID|Id of the entity for which the attachment will be associated.|
 |fileName|string|Logical filename.|
 |byteSize|integer, read-only|File size.|

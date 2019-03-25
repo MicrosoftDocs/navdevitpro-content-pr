@@ -32,7 +32,7 @@ POST /businesscentral/companies({id})/attachments
 
 ## Request body
 In the request body, supply a JSON representation of a **attachment** object.
-½
+
 ## Response
 If successful, this method returns ```201 Created``` response code and a **attachment** object in the response body.
 
@@ -52,7 +52,6 @@ Content-type: application/json
 }
 ```
 ParentId is the Id of the entity, for which an attachment is being created.
-
 
 **Response**
 
