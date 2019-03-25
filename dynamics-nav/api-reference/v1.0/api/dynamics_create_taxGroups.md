@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and a **taxGr
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/taxGroups
+POST https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/taxGroups
 Content-type: application/json
 
 {

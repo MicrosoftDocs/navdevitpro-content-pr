@@ -22,8 +22,10 @@ Retrieve the properties and relationships of a sales invoice line object for [!I
 ## HTTP request
 
 ```
-GET /businesscentral/companies({id})/salesInvoices({id})/salesInvoiceLines(documentId=({id}),sequence=({number}))
+GET /businesscentral/companies({id})/salesInvoices({id})/salesInvoiceLines({salesInvoiceLineId})
 ```
+
+
 
 ## Request headers
 
@@ -43,7 +45,7 @@ If successful, this method returns a ```200 OK``` response code and a **salesInv
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesInvoices({id})/salesInvoiceLines(documentId=({id}),sequence=({number}))
+GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/salesInvoices({id})/salesInvoiceLines({salesInvoiceLineId})
 ```
 
 **Response**
@@ -55,6 +57,7 @@ Here is an example of the response.
 
 ```json
 {
+  "id": "id-value",
   "documentId": "id-value",
   "sequence": 10000,
   "itemId": "id-value",

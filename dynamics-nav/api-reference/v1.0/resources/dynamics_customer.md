@@ -27,14 +27,21 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 |[PATCH customers](../api/dynamics_customer_update.md)|customers   |Updates a customer.|
 |[DELETE customers](../api/dynamics_customer_delete.md)|none        |Deletes a customer.|
 
-## Subpages
 
-| Method    |Return Type| Description      |
+
+## Navigation 
+
+| Navigation    |Return Type| Description      |
 |:----------|:----------|:-----------------|
-|[GET customer defaultDimensions](../api/dynamics_customer_get_defaultdimensions.md)|default dimensions   |Gets the default dimensions of customer. |
-|[POST customer defaultDimensions](../api/dynamics_customer_create_defaultdimensions.md) |default dimensions  |Creates the default dimensions of  customer.|
-|[PATCH customer defaultDimensions](../api/dynamics_customer_update_defaultdimensions.md)|default dimensions  |Updates the default dimensions of customer.|
-|[DELETE customer defaultDimensions](../api/dynamics_customer_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of customer.  |
+|[Picture](../resources/dynamics_picture.md)|picture   |Gets the picture of customer. |
+|[defaultDimensions](../resources/dynamics_defaultDimension.md)|defaultDimension   |Gets the defaultDimension of customer. |
+|[customerFinancialDetail](../resources/dynamics_customerFinancialDetail.md)|customerFinancialDetail   |Gets the customerFinancialDetails of customer. |
+|[currency](../resources/dynamics_currencies.md)|currency   |Gets the currency of customer. |
+|[paymentTerm](../resources/dynamics_paymentTerms.md)|paymentTerm   |Gets the paymentTerm of customer. |
+|[shipmentMethod](../resources/dynamics_shipmentMethod.md)|shipmentMethod   |Gets the shipmentMethod of customer. |
+|[paymentMethod](../resources/dynamics_paymentMethod.md)|paymentMeth0d   |Gets the paymentMethod of customer. |
+
+
 
 
 ## Properties
@@ -56,15 +63,9 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 |currencyId   |GUID      |Specifies which currency the customer uses.|
 |currencyCode |numeric   |The default currency code for the customer.|
 |paymentTermsId|GUID     |Specifies which payment term the customer uses.|
-|paymentTerms |[NAV.PaymentTermsType](../resources/dynamics_complextypes.md)|Specifies a code that indicates the payment terms that you require of the customer.|
 |paymentMethodId|GUID    |Specifies which payment method the customer uses.|
-|paymentMethod|[NAV.PaymentMethod](../resources/dynamics_complextypes.md)|Specifies how the customer usually submits payment, such as bank transfer or check.|
 |shipmentMethodId|GUID   |Specifies which shipment method the customer uses.|
-|shipmentMethod|[NAV.ShipmentMethod](../resources/dynamics_complextypes.md)|Specifies which shipment method to use when you ship items to the customer.|
 |blocked      |string    |Specifies that transactions with the customer cannot be posted. Set to **All**, if the customer is blocked, set to blank if not blocked.|
-|balance      |numeric   |Specifies the payment amount that the customer owes for completed sales. This value is also known as the customer's balance. Read-Only.|
-|overdueAmount|numeric   |Specifies the customer's overdue amount.|
-|totalSalesExcludingTax|numeric|Specifies the total sales amount excluding tax of the customer.|
 |lastModifiedDateTime|datetime|The last datetime the customer was modified. Read-Only.|  
 
 

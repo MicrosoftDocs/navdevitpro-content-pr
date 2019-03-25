@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and **journal
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/journals({id})/journalLines
+POST https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/journals({id})/journalLines
 Content-type: application/json
 
 {

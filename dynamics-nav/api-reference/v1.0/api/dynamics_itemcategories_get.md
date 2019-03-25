@@ -21,6 +21,7 @@ Retrieve the properties and relationships of an item category object for [!INCLU
 
 ```
 GET /businesscentral/companies({id})/itemCategories({id})
+GET /businesscentral/companies({id})/item({id})/itemcategory
 ```
 
 ## Request headers
@@ -41,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an **itemCat
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/itemCategories({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/itemCategories({id})
 ```
 
 **Response**

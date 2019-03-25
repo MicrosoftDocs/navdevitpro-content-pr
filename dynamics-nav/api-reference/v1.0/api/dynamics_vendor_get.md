@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and a **vendors*
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/vendors({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/vendors({id})
 ```
 
 **Response**

@@ -22,7 +22,7 @@ Retrieve the properties and relationships of a sales order line object for [!INC
 ## HTTP request
 
 ```
-GET /businesscentral/companies({id})/salesOrders({id})/salesOrderLines(documentId=({id}),sequence=({number}))
+GET /businesscentral/companies({id})/salesOrders({id})/salesOrderLines({salesOrderLineId})
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns a ```200 OK``` response code and a **salesOrd
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesOrders({id})/salesOrderLines(documentId=({id}),sequence=({number}))
+GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/salesOrders({id})/salesOrderLines({salesOrderLineId})
 ```
 
 **Response**

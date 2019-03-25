@@ -49,6 +49,8 @@ Represents a salesQuote resource type in [!INCLUDE[d365fin_long_md](../../includ
 |contactId|string, maximum size 250|The exchange contact id for the given customer. If a customer id is not specified, we will use the contact id to find it.|
 |customerNumber|string, maximum size 20|The customer number for the quote.|
 |customerName|string, maximum size 50|The full name of the customer. Read-Only.|
+|phoneNumber | string, maximum size 30|  Phone number for customer|
+|email |string, maximum size 80 | Email for customer|
 |billingPostalAddress|complex|The billing postal address for the quote.|  
 |currencyId|GUID|The id of the quote currency.|
 |currencyCode|string, maximum size 10|The currency code for the quote.|
@@ -65,6 +67,14 @@ Represents a salesQuote resource type in [!INCLUDE[d365fin_long_md](../../includ
 |sentDate|datetime|The the date and time the quote was sent our to the customer. Read-Only.|
 |validUntilDate|Date|The date a quote is valid until.|
 |acceptedDate|Date|The date a quote is accepted. Read-Only.|
+|billToName             |string, maximum length 100   |The name of the customer to bill.|
+|billToCustomerId       |GUID   |Id of the customer to bill|
+|billToCustomerNumber   |string, maximum length 20   |Number of the customer to bill.|
+|shipToName   |string, maximum size 100   |Name of the customer in ship to address.|
+|shipToContact   |string, maximum size 100   |Ship to contact|
+|sellingPostalAddress|Microsoft.NAV.postalAddressType| Selling postal address|
+|billingPostalAddress|Microsoft.NAV.postalAddressType| Billing postal address|
+|shippingPostalAddress|Microsoft.NAV.postalAddressType| Shipping postal adress|
 |lastModifiedDateTime|datetime|The last datetime the sales quote was modified. Read-Only.|
 
 

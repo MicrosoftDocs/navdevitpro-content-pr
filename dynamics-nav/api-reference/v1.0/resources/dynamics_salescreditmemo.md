@@ -48,7 +48,6 @@ Represents a sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d365
 |contactId|string, maximum size 250|The exchange contact id for the given customer. If a customer id is not specified, we will use the contact id to find it.|
 |customerNumber|string, maximum size 20|The customer number for the credit memo.|
 |customerName|string, maximum size 50|The full name of the customer. Read-Only.|
-|billingPostalAddress|complex|The billing postal address for the credit memo.|
 |currencyId|GUID|The id of the credit memo currency.|
 |currencyCode|string, maximum size 10|The currency code for the credit memo.|
 |paymentTermsId|GUID|The id of the credit memo payment term.|
@@ -61,9 +60,16 @@ Represents a sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d365
 |totalTaxAmount|numeric|The total tax amount for the credit memo. Read-Only.|
 |totalAmountIncludingTax|numeric|The total amount for the credit memo, including tax. Read-Only.|
 |status|string, maximum size 20|The credit memo status. Status can be: Draft, In Review, Open, Paid, Canceled, or Corrective. Read-Only.|
-|lastModifiedDateTime|datetime|The last datetime the sales credit memo was modified. Read-Only.|
 |invoiceId|GUID|The sales invoice ID that the credit memo is linked to.|
 |invoiceNumber|GUID|The sales invoice number that the credit memo is linked to.|
+|email           |string, maximum size 80|Email for the customer, cash sales|             |
+|phone           |string, maximum size 30|Phone number for the customer, cash sales| 
+|billToName             |string, maximum length 100   |The name of the customer to bill.|
+|billToCustomerId       |GUID   |Id of the customer to bill|
+|billToCustomerNumber   |string, maximum length 20   |Number of the customer to bill.|
+|sellingPostalAddress|Microsoft.NAV.postalAddressType| Selling postal address|
+|billingPostalAddress|complex|The billing postal address for the credit memo.|
+|lastModifiedDateTime|datetime|The last datetime the sales credit memo was modified. Read-Only.|
 
 
 ## Relationships

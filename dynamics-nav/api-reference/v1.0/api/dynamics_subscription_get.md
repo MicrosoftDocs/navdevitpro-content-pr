@@ -37,7 +37,7 @@ If successful, this method returns a `200 OK` response code and a **subscription
 
 Here is an example of the request.
 ```json
-https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions 
+https://api.businesscentral.dynamics.com/v1.0/api/v1.0/subscriptions 
 ```
 
 **Response**
@@ -51,7 +51,7 @@ Here is an example of the response.
 {
   "subscriptionId": "c670ea73cacb459bb51dc1740da2f1db",
   "notificationUrl": "https://contoso.com/myCallbacks",
-  "resource": "/api/beta/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
+  "resource": "/api/v1.0/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
   "userId": "00000000-0000-0000-0000-000000000001",
   "lastModifiedDateTime": "2018-10-12T12:32:35Z",
   "clientState": "anytextvalueof250",

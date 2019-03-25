@@ -19,7 +19,7 @@ Delete a sales order line object from [!INCLUDE[d365fin_long_md](../../includes/
 
 ## HTTP request
 ```
-DELETE /businesscentral/companies({id})/salesOrders({id})/salesOrderLines(documentId=({id}),sequence=({number}))
+DELETE /businesscentral/companies({id})/salesOrders({id})/salesOrderLines({salesCreditMemoLineId})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesOrders({id})/salesOrderLines(documentId=({id}),sequence=({number}))
+DELETE https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/salesOrders({id})/salesOrderLines({salesOrderLineId})
 ```
 
 **Response** 

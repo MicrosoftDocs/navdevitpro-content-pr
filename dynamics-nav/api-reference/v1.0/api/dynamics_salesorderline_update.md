@@ -20,7 +20,7 @@ Update the properties of a sales order line object for [!INCLUDE[d365fin_long_md
 ## HTTP request
 
 ```
-PATCH /businesscentral/companies({id})/salesOrders({id})/salesOrderLines(documentId=({id}),sequence=({number}))
+PATCH /businesscentral/companies({id})/salesOrders({id})/salesOrderLines({salesOrderLineId})
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesOrders({id})/salesOrderLines(documentId=({id}),sequence=({number}))
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/salesOrders({id})/salesOrderLines({salesOrderLineId})
 Content-type: application/json
 
 {
@@ -63,6 +63,7 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
+  "id": "id-value",
   "documentId": "id-value",
   "sequence": 10000,
   "itemId": "id-value",

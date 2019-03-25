@@ -29,6 +29,12 @@ Represents a line in a journal in [!INCLUDE[d365fin_long_md](../../includes/d365
 |[PATCH journalLines](../api/dynamics_journalline_update.md) |journalLines|Updates a journal line.|
 |[DELETE journalLines](../api/dynamics_journalline_delete.md)|none        |Deletes a journal line.|
 
+
+## Navigation 
+|[attachments](../resources/dynamics_attachment.md)|paymentTerm   |Attach documents to journalLine . |
+|[account](../resources/dynamics_account.md)|paymentMethod   |Gets the account. |
+
+
 ## Properties
 
 | Property             | Type                   |Description                                                        |

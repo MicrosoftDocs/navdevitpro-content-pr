@@ -22,7 +22,7 @@ Retrieve the properties and relationships of a sales credit memo line object for
 ## HTTP request
 
 ```
-GET /businesscentral/companies({id})/salesCreditMemos({id})/salesCreditMemoLines(documentId=({id}),sequence=({number}))
+GET /businesscentral/companies({id})/salesCreditMemos({id})/salesCreditMemoLines({salesCreditMemoLineId})
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns a ```200 OK``` response code and a **salesCre
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesCreditMemos({id})/salesCreditMemoLines(documentId=({id}),sequence=({number}))
+GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/salesCreditMemos({id})/salesCreditMemoLines({salesCreditMemoLineId})
 ```
 
 **Response**

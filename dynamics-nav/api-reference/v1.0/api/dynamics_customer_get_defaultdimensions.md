@@ -40,7 +40,7 @@ If successful, this method returns a `200 OK` response code and the **default di
 Here is an example of a request. 
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId})/customers({customerId})/defaultDimensions
+GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({companyId})/customers({customerId})/defaultDimensions
 ```
 
 **Response**  
@@ -51,7 +51,7 @@ Here is an example of the response.
 
 ```json
 {
-    "@odata.context":"http://api.businesscentral.dynamics.com/v1.0/api/beta/$metadata#companies(5106c77d-af37-4e2d-bb88-45d87aba1033)/customers(b3fbe87a-61b8-4a6c-85de-0555f1627a67)/defaultDimensions",
+    "@odata.context":"http://api.businesscentral.dynamics.com/v1.0/api/v1.0/$metadata#companies(5106c77d-af37-4e2d-bb88-45d87aba1033)/customers(b3fbe87a-61b8-4a6c-85de-0555f1627a67)/defaultDimensions",
     "value":
     [
         {

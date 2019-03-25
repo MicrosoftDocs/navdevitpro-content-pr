@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and an **account
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/accounts({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/accounts({id})
 ```
 
 **Response**

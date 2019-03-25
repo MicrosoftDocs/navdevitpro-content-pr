@@ -43,7 +43,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/taxAreas({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/taxAreas({id})
 Content-type: application/json
 
 {

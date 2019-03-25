@@ -33,6 +33,7 @@ Represents a line on a sales order in [!INCLUDE[d365fin_long_md](../../includes/
 
 | Property     | Type   |Description|
 |:---------------|:--------|:----------|
+|id|GUID|The ID of the order line.|
 |documentId|GUID|The ID of the parent order.|
 |sequence|numeric|The line sequence number.|
 |itemId|GUID|The Id of the item in the order line.|

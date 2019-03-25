@@ -35,6 +35,7 @@ Represents a generalLedgerEntry object in [!INCLUDE[d365fin_long_md](../../inclu
 |postingDate         |date                   |Specifies the posting date of the G/L Entry. |
 |documentNumber      |string, maximum size 20|Specifies the document number of the G/L Entry.|
 |documentType        |string                 |Specifies the document type of the G/L Entry.|
+|dimensions        |NAV.dimensionType                 |dimensions of the G/L Entry.|
 |accountId           |GUID                   |Specifies the accountId of the G/L Entry.    |
 |accountNumber       |string, maximum size 20|Specifies the accountNumber of the G/L Entry.|
 |description         |string, maximum size 50|Specifies the description of the G/L Entry.  |
@@ -58,6 +59,7 @@ Here is a JSON representation of the resource.
   "postingDate": "Date",
   "documentNumber": "string",
   "documentType": "string",
+  "dimensions": "string",
   "accountId": "GUID",
   "accountNumber": "string",
   "description": "string",

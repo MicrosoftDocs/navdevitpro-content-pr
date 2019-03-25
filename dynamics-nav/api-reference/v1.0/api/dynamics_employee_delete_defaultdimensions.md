@@ -42,7 +42,7 @@ If successful, this method returns a ```204 No Content``` response code and it d
 Here is an example of the request.
 
 ```json
-DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId})/employees({employeeId})/defaultDimensions({employeeId},{dimensionId})
+DELETE https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({companyId})/employees({employeeId})/defaultDimensions({employeeId},{dimensionId})
 ```
 
 **Response** 

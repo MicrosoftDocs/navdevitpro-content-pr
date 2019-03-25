@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and a **generalL
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/beta/businesscentral/companies({id})/generalLedgerEntries({id})
+GET https://graph.microsoft.com/v1.0/businesscentral/companies({id})/generalLedgerEntries({id})
 ```
 
 **Response**

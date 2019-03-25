@@ -20,7 +20,7 @@ Update the properties of a sales invoice line object for [!INCLUDE[d365fin_long_
 ## HTTP request
 
 ```
-PATCH /businesscentral/companies({id})/salesInvoices({id})/salesInvoiceLines(documentId=({id}),sequence=({number}))
+PATCH /businesscentral/companies({id})/salesInvoices({id})/salesInvoiceLines({salesOrderLineId})
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesInvoices{id}/salesInvoiceLines(documentId=({id}),sequence={number}))
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/salesInvoices{id}/salesInvoiceLines({salesOrderLineId})
 Content-type: application/json
 
 {
