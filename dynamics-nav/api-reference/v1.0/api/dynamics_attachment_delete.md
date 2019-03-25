@@ -19,7 +19,7 @@ Deletes attachments in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 
 ## HTTP request
 ```
-DELETE /businesscentral/companies({companyId})/attachments({{parentId}},{{attachmentId}})
+DELETE /businesscentral/companies({companyId})/attachments({parentId},{attachmentId})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns a ```204 No Content``` response code and it d
 Here is an example of the request.
 
 ```json
-DELETE https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({companyId})/attachments({{parentId}},{{attachmentId}})
+DELETE https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({companyId})/attachments({parentId},{attachmentId})
 ```
 
 **Response** 

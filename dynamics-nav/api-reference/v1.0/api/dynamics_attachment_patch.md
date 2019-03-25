@@ -21,7 +21,7 @@ Update the attachment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 
 ## HTTP request
 ```
-PATCH /businesscentral/companies({companyId})/attachments(parentId={{parentId}},id={{attachmentId}})/content
+PATCH /businesscentral/companies({companyId})/attachments(parentId={parentId},id={attachmentId})/content
 ```
 
 ## Request headers
@@ -39,7 +39,7 @@ PATCH /businesscentral/companies({companyId})/attachments(parentId={{parentId}},
 Here is an example of the request.
 
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({companyId})/attachments(parentId={{parentId}},id={{attachmentId}})/content
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({companyId})/attachments(parentId={parentId},id={attachmentId})/content
 ```
 
 **Request body**

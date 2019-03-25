@@ -19,7 +19,7 @@ Retrieve the properties and relationships of an timeRegistrationEntries object f
 
 ## HTTP request
 ```
-GET /businesscentral/companies({id})/timeRegistrationEntries$filter=employeeId eq {{employeeId}}
+GET /businesscentral/companies({id})/timeRegistrationEntries$filter=employeeId eq {employeeId}
 ```
 
 > [!NOTE]  
@@ -44,7 +44,7 @@ If successful, this method returns a ```200 OK``` response code and an **timeReg
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})timeRegistrationEntries$filter=employeeId eq {{employeeId}}
+GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})timeRegistrationEntries$filter=employeeId eq {employeeId}
 ```
 
 **Response**

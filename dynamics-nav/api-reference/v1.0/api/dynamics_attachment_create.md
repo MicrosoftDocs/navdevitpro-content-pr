@@ -32,7 +32,7 @@ POST /businesscentral/companies({id})/attachments
 
 ## Request body
 In the request body, supply a JSON representation of a **attachment** object.
-
+½
 ## Response
 If successful, this method returns ```201 Created``` response code and a **attachment** object in the response body.
 
@@ -47,7 +47,7 @@ POST https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/atta
 Content-type: application/json
 ```json
 {
-	"parentId" : "{{journalLineId}}",
+	"parentId" : "{journalLineId}",
 	"fileName": "myPDF.pdf"
 }
 ```
