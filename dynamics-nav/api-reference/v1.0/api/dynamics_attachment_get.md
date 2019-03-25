@@ -56,14 +56,13 @@ Here is an example of the response.
 
 ```json
 {   
-            "parentId": "8bdf7f18-ac81-4cf6-a018-7dd2313d827f",
-            "id": "7786c70a-31ee-43a3-9746-2d720496469e",
-            "fileName": "someFileName.pdf",
-            "byteSize": 597568,
-            "content@odata.mediaEditLink": "https://api.businesscentral.dynamics.com/v1.0/bc66bcbc-5b7f-4043-b352-f4ab70c81d11/api/v1.0/companies(d888c94e-0bf9-42e5-96eb-060739125558)/attachments(parentId=8bdf7f18-ac81-4cf6-a018-7dd2313d827f,id=7786c70a-31ee-43a3-9746-2d720496469e)/content",
-            "content@odata.mediaReadLink": "https://api.businesscentral.dynamics.com/v1.0/bc66bcbc-5b7f-4043-b352-f4ab70c81d11/api/v1.0/companies(d888c94e-0bf9-42e5-96eb-060739125558)/attachments(parentId=8bdf7f18-ac81-4cf6-a018-7dd2313d827f,id=7786c70a-31ee-43a3-9746-2d720496469e)/content",
-            "lastModifiedDateTime": "2019-03-25T13:15:41Z"
-        }
+    "parentId": "8bdf7f18-ac81-4cf6-a018-7dd2313d827f",
+    "id": "7786c70a-31ee-43a3-9746-2d720496469e",
+    "fileName": "someFileName.pdf",
+    "byteSize": 597568,
+    "content@odata.mediaEditLink": "https://api.businesscentral.dynamics.com/v1.0/bc66bcbc-5b7f-4043-b352-f4ab70c81d11/api/v1.0/companies(d888c94e-0bf9-42e5-96eb-060739125558)/attachments(parentId=8bdf7f18-ac81-4cf6-a018-7dd2313d827f,id=7786c70a-31ee-43a3-9746-2d720496469e)/content",
+    "content@odata.mediaReadLink": "https://api.businesscentral.dynamics.com/v1.0/bc66bcbc-5b7f-4043-b352-f4ab70c81d11/api/v1.0/companies(d888c94e-0bf9-42e5-96eb-060739125558)/attachments(parentId=8bdf7f18-ac81-4cf6-a018-7dd2313d827f,id=7786c70a-31ee-43a3-9746-2d720496469e)/content",
+    "lastModifiedDateTime": "2019-03-25T13:15:41Z"
 }
 ```
 

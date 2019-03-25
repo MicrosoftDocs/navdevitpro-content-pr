@@ -1,6 +1,6 @@
 ---
 title: attachment resource type | Microsoft Docs
-description: An account attachment in Dynamics 365 Business Central.
+description: An attachment in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -59,5 +59,9 @@ Here is a JSON representation of the resource.
 }
 ```
 ## See also
-  
-[Get Attachment](../api/dynamics_attachment_get.md)  
+
+[Get Attachments](../api/dynamics_attachment_get.md)  
+[Create Attachment](../api/dynamics_attachment_create.md)  
+[Upload Attachment](../api/dynamics_attachment_patch.md)  
+[Delete Attachment](../api/dynamics_attachment_delete.md)  
+
