@@ -364,7 +364,7 @@
 ## [Development Cmdlets](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.model.tools)
 ## [Development Cmdlets for Extensions](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.tools)
 <!-- Business Central API starts, has its own TOC so commenting out for now-->
-# [API Reference](api-reference/v1.0/index.md)
+# [Business Central API Reference](api-reference/v1.0/index.md)
 <!--
 ## [Enabling the APIs for Microsoft Dynamics NAV](enabling-apis-for-dynamics-nav.md)
 ## [Endpoints for the APIs](endpoints-apis-for-dynamics.md)
