@@ -56,6 +56,14 @@ Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |totalAmountIncludingTax|numeric|The total amount for the order, including tax. Read-Only.|
 |fullyShipped|boolean|Specifies whether the items of the order were fully shipped or not.|
 |status|string, maximum size 20|The order status. Status can be: Draft, Cancelled, Paid, On hold, Created. Read-Only.|
+|billToName             |string, maximum length 100   |The name of the customer to bill.|
+|billToCustomerId       |GUID   |Id of the customer to bill|
+|billToCustomerNumber   |string, maximum length 20   |Number of the customer to bill.|
+|shipToName   |string, maximum size 100   |Name of the customer in ship to address.|
+|shipToContact   |string, maximum size 100   |Ship to contact|
+|sellingPostalAddress|Microsoft.NAV.postalAddressType| Selling postal address|
+|billingPostalAddress|Microsoft.NAV.postalAddressType| Billing postal address|
+|shippingPostalAddress|Microsoft.NAV.postalAddressType| Shipping postal adress|
 |lastModifiedDateTime|datetime|The last datetime the sales order was modified. Read-Only.|
 
 

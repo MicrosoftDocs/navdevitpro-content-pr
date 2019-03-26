@@ -29,11 +29,17 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |[PATCH salesInvoices](../api/dynamics_salesinvoice_update.md) |salesInvoices|Updates a sales invoice object.|
 |[DELETE salesInvoices](../api/dynamics_salesinvoice_delete.md)|none         |Deletes a sales invoice object.|
 
-## Bound actions
+## Navigation 
 
-|Action          |Return type   |Description         |
+|Navigation          |Return type   |Description         |
 |----------------|--------------|--------------------|
-|[GET pdfDocument](../api/dynamics_salesquote_pdfdocument.md)|pdfDocument|Gets a PDF document.|
+|[pdfDocument](../api/dynamics_salesquote_pdfdocument.md)|pdfDocument|Gets a PDF document.|
+|[currency](../resources/dynamics_currencies.md)|currency   |Gets the currency. |
+|[paymentTerm](../resources/dynamics_paymentTerms.md)|paymentTerm   |Gets the paymentTerm. |
+|[shipmentMethod](../resources/dynamics_shipmentMethods.md)|paymentMethod   |Gets the paymentMethod. |
+|[customer](../resources/dynamics_customer.md)|paymentMethod   |Gets the customer. |
+|[salesInvoiceLines](../resources/dynamics_salesinvoiceline.md)|paymentMethod   |Gets the paymentMethod. |
+
 
 
 ## Properties
@@ -42,6 +48,7 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |:----------------------|:----------|:----------------------------------------------------------|
 |id                     |GUID       |The invoice ID. Non-editable.                              |
 |number                 |string, maximum size 20|The invoice number. Read-Only.                 |
+|externalDocumentNumber|string |The external document number |
 |invoiceDate            |date       |The invoice date.                                           |
 |customerPurchaseOrderReference|string, maximum size 35|The customer purchase order reference for the invoice|
 |dueDate                |date       |The date the invoice is due.                               |
@@ -51,6 +58,8 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |customerName           |string, maximum size 50|The full name of the customer. Read-Only.      |
 |currencyId             |GUID       |The id of the invoice currency.                            |
 |currencyCode           |string, maximum size 10|The currency code for the invoice.             |
+|email           |string, maximum size 80|Email for the customer, cash sales|             |
+|phone           |string, maximum size 30|Phone number for the customer, cash sales| 
 |orderId                |GUID       |The unique id of the order to which the invoice is associated to. Read-Only.|
 |orderNumber            |string, maximum size 20|The number of the order to which the invoice is associated to. Read-Only.|
 |status                 |string, maximum size 20|The invoice status. Status can be: Draft, In Review, Open, Paid, Canceled, or Corrective. Read-Only.|
@@ -67,6 +76,15 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |shipmentMethod         |string, maximum size 10|The shipment method of the invoice.            |
 |salesperson            |string, maximum size 20|The salesperson code for the invoice.          |
 |lastModifiedDateTime   |datetime   |The last datetime the sales invoice was modified. Read-Only.|
+|billToName             |string, maximum length 100   |The name of the customer to bill.|
+|billToCustomerId       |GUID   |Id of the customer to bill|
+|billToCustomerNumber   |string, maximum length 20   |Number of the customer to bill.|
+|shipToName   |string, maximum size 100   |Name of the customer in ship to address.|
+|shipToContact   |string, maximum size 100   |Ship to contact|
+|sellingPostalAddress|Microsoft.NAV.postalAddressType| Selling postal address|
+|billingPostalAddress|Microsoft.NAV.postalAddressType| Billing postal address|
+|shippingPostalAddress|Microsoft.NAV.postalAddressType| Shipping postal adress|
+
 
 ## Relationships
 A Currency (currencyCode) must exist in the Currencies table.

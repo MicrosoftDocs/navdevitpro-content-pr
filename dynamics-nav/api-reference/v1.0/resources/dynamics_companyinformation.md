@@ -44,7 +44,6 @@ Represents the information specified for the current company in [!INCLUDE[d365fi
 |currentFiscalYearStartDate|date|The company's current fiscal year start date. Read-Only.|
 |industry      |string   |The industry the company is part of.  |
 |picture       |stream   |The company logo. Read-Only.          |
-|businessProfileId|string|The business profile ID linked to the Financials company. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the company was modified. Read-Only.|  
 
 
@@ -68,7 +67,6 @@ Here is a JSON representation of the companyInformation
   "currentFiscalYearStartDate": "date",
   "industry": "string",
   "picture": "stream",
-  "businessProfileId": "string",
   "lastModifiedDateTime": "datetime"
 }
 ```

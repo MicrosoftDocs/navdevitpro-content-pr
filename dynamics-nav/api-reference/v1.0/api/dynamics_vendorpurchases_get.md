@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **vendorPu
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/vendorPurchases
+GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/vendorPurchases
 ```
 
 **Response**

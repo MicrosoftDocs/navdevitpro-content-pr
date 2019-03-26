@@ -19,7 +19,10 @@ Deletes the properties and relationships of a picture object for [!INCLUDE[d365f
 
 ## HTTP request
 ```
-DELETE /businesscentral/companies({companyId})/items({itemId})/picture
+DELETE /businesscentral/companies({companyId})/items({itemId})/picture({pictureId})
+DELETE /businesscentral/companies({companyId})/vendors({vendorId})/picture({pictureId})
+DELETE /businesscentral/companies({companyId})/employees({employeeId})/picture({pictureId})
+DELETE /businesscentral/companies({companyId})/customers({customerId})/picture({pictureId})
 ```
 
 ## Request headers
@@ -44,7 +47,7 @@ The metadata will be updated on the same link.
 Here is an example of the request. 
 
 ```json
-DELETE https://api.businesscentral.dynamics-tie.com/v1.0/api/beta/companies(companyId)/customers(customerId)/picture(customerId)
+DELETE https://api.businesscentral.dynamics-tie.com/v1.0/api/v1.0/companies(companyId)/customers(customerId)/picture(pictureId)
 ```
 
 **Response**

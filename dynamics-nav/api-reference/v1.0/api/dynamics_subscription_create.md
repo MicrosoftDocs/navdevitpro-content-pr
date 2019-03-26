@@ -38,13 +38,13 @@ If successful, this method returns a `201 Created` response code and a **subscri
 
 Here is an example of the request.
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions({id})
+POST https://api.businesscentral.dynamics.com/v1.0/api/v1.0/subscriptions({id})
 Content-type: application/json
 
 {
   "subscriptionId" :"{subscriptionId}",
   "notificationUrl": "https://{notificationUrl}",
-  "resource": "/api/beta/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
+  "resource": "/api/v1.0/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
   "clientState": "{optionalValueOf250}"
 }
 
@@ -61,7 +61,7 @@ Here is an example of the response.
 {
   "subscriptionId": "c670ea73cacb459bb51dc1740da2f1db",
   "notificationUrl": "https://contoso.com/myCallbacks",
-  "resource": "/api/beta/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
+  "resource": "/api/v1.0/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
   "userId": "00000000-0000-0000-0000-000000000001",
   "lastModifiedDateTime": "2018-10-12T12:32:35Z",
   "clientState": "optionalvalueof250",

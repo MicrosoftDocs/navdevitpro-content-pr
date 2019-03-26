@@ -29,14 +29,15 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 |[PATCH vendors](../api/dynamics_vendor_update.md)|vendors|Updates a vendor object.|
 |[DELETE vendor](../api/dynamics_vendor_delete.md)|none|Deletes a vendor object.|
 
-## Subpages
 
-| Method    |Return Type| Description      |
-|:----------|:----------|:-----------------|
-|[GET vendor defaultDimensions](../api/dynamics_vendor_get_defaultdimensions.md)|default dimensions   |Gets the default dimensions of vendor. |
-|[POST vendor defaultDimensions](../api/dynamics_vendor_create_defaultdimensions.md) |default dimensions  |Creates the default dimensions of  vendor.|
-|[PATCH vendor defaultDimensions](../api/dynamics_vendor_update_defaultdimensions.md)|default dimensions  |Updates the default dimensions of vendor.|
-|[DELETE vendor defaultDimensions](../api/dynamics_vendor_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of vendor.  |
+
+## Navigation 
+|[Picture](../resources/dynamics_picture.md)|picture   |Gets the picture of vendor. |
+|[defaultDimensions](../resources/dynamics_defaultDimension.md)|defaultDimension   |Gets the defaultDimension of vendor. |
+|[currency](../resources/dynamics_currencies.md)|currency   |Gets the currency of vendor. |
+|[paymentTerm](../resources/dynamics_paymentTerms.md)|paymentTerm   |Gets the paymentTerm of vendor. |
+|[paymentMethod](../resources/dynamics_paymentMethods.md)|paymentMethod   |Gets the paymentMethod of vendor. |
+
 
 ## Properties
 
@@ -54,9 +55,7 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 |currencyCode|string|The default currency code for the vendor.|
 |irs1099Code|string|Specifies a 1099 code for the vendor. US only.|
 |paymentTermsId|GUID|The default payment terms ID for the vendor.|
-|paymentTerms|[NAV.PaymentTerms](../resources/dynamics_complextypes.md)|The default payment terms for the vendor.|
 |paymentMethodId|GUID|The default payment method ID for the vendor.|
-|paymentMethod|[NAV.PaymentMethod](../resources/dynamics_complextypes.md)|The default payment method for the vendor.|
 |taxLiable|boolean|Specifies if the vendor is liable for tax.|
 |blocked|string|Specifies which transactions with the vendor that cannot be posted. Accepted values are blank, Payment or All|
 |balance|decimal|The vendor's balance. Read-Only.|
@@ -64,7 +63,7 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 
 
 ## Relationships
-None
+Picture, defaultDimension, currency, paymentTerm, paymentMethod
 
 ## JSON representation
 

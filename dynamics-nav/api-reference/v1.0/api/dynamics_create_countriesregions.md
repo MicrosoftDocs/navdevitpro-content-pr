@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and a **count
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/countriesRegions
+POST https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/countriesRegions
 Content-type: application/json
 
 {

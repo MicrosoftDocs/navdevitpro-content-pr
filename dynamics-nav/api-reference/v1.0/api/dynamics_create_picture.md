@@ -19,7 +19,10 @@ Creates the properties and relationships of a picture object for [!INCLUDE[d365f
 
 ## HTTP request
 ```
-POST /businesscentral/companies({companyId})/items({itemId})/picture({itemId)/content
+POST /businesscentral/companies({companyId})/items({itemId})/picture({pictureId})/content
+POST /businesscentral/companies({companyId})/vendors({vendorId})/picture({pictureId})/content
+POST /businesscentral/companies({companyId})/employees({employeeId})/picture({pictureId})/content
+POST /businesscentral/companies({companyId})/customers({customerId})/picture({pictureId})/content
 ```
 
 ## Request headers
@@ -28,6 +31,7 @@ POST /businesscentral/companies({companyId})/items({itemId})/picture({itemId)/co
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
 |Content-Type | application/octet-stream |
+
 
 ## Request body
 Raw picture binary data.
@@ -42,7 +46,7 @@ If successful, this method returns a `204 No Content` response code. It does not
 Here is an example of the request. 
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies(companyId)/items(itemId)/picture(itemId)/content
+POST https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies(companyId)/items(itemId)/picture(itemId)/content
 ```
 
 **Response**

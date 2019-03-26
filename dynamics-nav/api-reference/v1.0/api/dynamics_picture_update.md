@@ -19,7 +19,11 @@ Updates the properties and relationships of a picture object for [!INCLUDE[d365f
 
 ## HTTP request
 ```
-PATCH /businesscentral/companies({companyId})/items({itemId})/picture({itemId})/content
+PATCH /businesscentral/companies({companyId})/items({itemId})/picture({pictureId})/content
+PATCH /businesscentral/companies({companyId})/vendors({vendorId})/picture({pictureId})/content
+PATCH /businesscentral/companies({companyId})/employees({employeeId})/picture({pictureId})/content
+PATCH /businesscentral/companies({companyId})/customers({customerId})/picture({pictureId})/content
+
 ```
 
 ## Request headers
@@ -43,7 +47,7 @@ If successful, this method returns `204 No Content` response code. It does not r
 Here is an example of the request. 
 
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies(companyId)/items(itemId)/picture(itemId)/content
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies(companyId)/items(itemId)/picture(itemId)/content
 ```
 
 **Response**

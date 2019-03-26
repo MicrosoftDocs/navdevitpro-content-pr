@@ -41,7 +41,7 @@ If successful, this method returns a ```200 OK``` response code and a **unitsOfM
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/unitsOfMeasure({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/unitsOfMeasure({id})
 ```
 
 **Response**

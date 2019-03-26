@@ -29,12 +29,12 @@ PATCH /businesscentral/subscriptions({id})
 ## Request body
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/v1.0/subscriptions({id})
 Content-type: application/json
 
 {
   "notificationUrl": "https://{notificationUrl}",
-  "resource": "/api/beta/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
+  "resource": "/api/v1.0/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
   "clientState": "optionalValueOf250"
 }
 
@@ -49,7 +49,7 @@ If successful, this method returns a `200 OK` response code and a **subscription
 
 Here is an example of the request.
 ```
-https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions({id}) 
+https://api.businesscentral.dynamics.com/v1.0/api/v1.0/subscriptions({id}) 
 
 ```
 

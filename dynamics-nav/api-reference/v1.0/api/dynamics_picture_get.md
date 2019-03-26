@@ -17,9 +17,13 @@ ms.author: solsen
 # Get picture
 Retrieve the properties and relationships of a picture object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-## HTTP request
+## HTTP requests
 ```
 GET /businesscentral/companies({companyId})/items({itemId})/picture
+GET /businesscentral/companies({companyId})/employee({employeeId})/picture
+GET /businesscentral/companies({companyId})/vendor({vendorId})/picture
+GET /businesscentral/companies({companyId})/customer({customerId})/picture
+
 ```
 
 ## Request headers
@@ -27,9 +31,6 @@ GET /businesscentral/companies({companyId})/items({itemId})/picture
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
-
-## Request body
-Body is the raw image data.
 
 ## Response
 If successful, this method returns a ```200 OK``` response code and a **picture** object in the response body.
@@ -43,7 +44,7 @@ Here is an example of the request.
 **GET Metadata** 
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies(companyId)/items(itemId)/picture(itemId)/picture
+GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies(companyId)/items(itemId)/picture(itemId)
 ```
 **Response**
 
@@ -66,7 +67,7 @@ Here is an example of the response.
 **GET Content**
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies(companyId)/items(itemId)/picture(itemId)/content
+GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies(companyId)/items(itemId)/picture(itemId)/content
 ```
 
 **Response**

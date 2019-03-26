@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and a **custo
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customers
+POST https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/customers
 Content-type: application/json
 
 {

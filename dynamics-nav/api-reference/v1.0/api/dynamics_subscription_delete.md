@@ -37,7 +37,7 @@ If successful, this method returns a `204 No Content` response code.
 
 Here is an example of the request.
 ```json
-DELETE https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions({id}) 
+DELETE https://api.businesscentral.dynamics.com/v1.0/api/v1.0/subscriptions({id}) 
 ```
 
 **Response**

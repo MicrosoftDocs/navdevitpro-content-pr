@@ -19,11 +19,11 @@ Webhooks is the way to get notified if an entity changes in [!INCLUDE[d365fin_lo
 Using webhooks requires the client/subscriber to perform a handshake with [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] to register the webhook subscription.
  
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions 
+POST https://api.businesscentral.dynamics.com/v1.0/api/v1.0/subscriptions 
 Content-type: application/json
 {
   "notificationUrl": "https://{notificationUrl}",
-  "resource": "/api/beta/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
+  "resource": "/api/v1.0/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
   "clientState": "optionalValueOf250"
 }
 ```
@@ -42,7 +42,7 @@ Optionally clientState can be provided in the `POST` and `PATCH` requests bodies
 Subscriptions will expire after 3 days, if not renewed before. Subscriptions are renewed by issuing a [PATCH](api/dynamics_subscription_update.md) request to the subscription.
 
 ```
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions({id}) 
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/v1.0/subscriptions({id}) 
 ```
 
 `PATCH` requests a handshake, just like `POST` requests, meaning that a subscription cannot be renewed unless the client returns the `validationToken` in the body.
@@ -62,7 +62,7 @@ Here is a sample notification payload:
       "subscriptionId": "webhookItemsId",
       "clientState": "someClientState",
       "expirationDateTime": "2018-10-29T07:52:31Z",
-      "resource": "api/beta/companies(b18aed47-c385-49d2-b954-dbdf8ad71780)/items(26814998-936a-401c-81c1-0e848a64971d)",
+      "resource": "api/v1.0/companies(b18aed47-c385-49d2-b954-dbdf8ad71780)/items(26814998-936a-401c-81c1-0e848a64971d)",
       "changeType": "updated",
       "lastModifiedDateTime": "2018-10-26T12:54:20.467Z"
     },
@@ -70,7 +70,7 @@ Here is a sample notification payload:
       "subscriptionId": "webhookCustomersId",
       "clientState": "someClientState",
       "expirationDateTime": "2018-10-29T12:50:30Z",
-      "resource": "api/beta/companies(b18aed47-c385-49d2-b954-dbdf8ad71780)/customers(130bbd17-dbb9-4790-9b12-2b0e9c9d22c3)",
+      "resource": "api/v1.0/companies(b18aed47-c385-49d2-b954-dbdf8ad71780)/customers(130bbd17-dbb9-4790-9b12-2b0e9c9d22c3)",
       "changeType": "created",
       "lastModifiedDateTime": "2018-10-26T12:54:26.057Z"
     },
@@ -78,14 +78,14 @@ Here is a sample notification payload:
       "subscriptionId": "webhookCustomersId",
       "clientState": "someClientState",
       "expirationDateTime": "2018-10-29T12:50:30Z",
-      "resource": "api/beta/companies(b18aed47-c385-49d2-b954-dbdf8ad71780)/customers(4b4f31f0-dc1c-4033-b2aa-ab03ca1d6ebc)",
+      "resource": "api/v1.0/companies(b18aed47-c385-49d2-b954-dbdf8ad71780)/customers(4b4f31f0-dc1c-4033-b2aa-ab03ca1d6ebc)",
       "changeType": "deleted",
       "lastModifiedDateTime": "2018-10-26T12:54:30.503Z"
     },    {
       "subscriptionId": "salesInvoice",
       "clientState": "someClientState",
       "expirationDateTime": "2018-10-20T10:55:01Z",
-      "resource": "/api/beta/companies(7dbba574-5f69-4167-a43e-fb975045de15)/salesInvoices?$filter=lastDateTimeModified%20gt%202018-10-15T11:00:00Z",
+      "resource": "/api/v1.0/companies(7dbba574-5f69-4167-a43e-fb975045de15)/salesInvoices?$filter=lastDateTimeModified%20gt%202018-10-15T11:00:00Z",
       "changeType": "collection",
        "lastModifiedDateTime": "2018-10-26T12:54:30.503Z"
     }
@@ -133,7 +133,7 @@ The following entities have webhooks support:
 <!-- 
 Supported entities can vary from company to company, as extensions can be installed which exposes API Pages. To get a list of supported entities for a company issue follow request:
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/microsoft/runtime/beta/companies({id})/webhookSupportedEntities
+GET https://api.businesscentral.dynamics.com/v1.0/api/microsoft/runtime/v1.0/companies({id})/webhookSupportedEntities
 ```
 Subscriptions are not possible for API pages that are based on: 
 - Query objects of the type API.

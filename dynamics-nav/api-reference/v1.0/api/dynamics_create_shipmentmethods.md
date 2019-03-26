@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a **shipm
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/shipmentMethods
+POST https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/shipmentMethods
 Content-type: application/json
 
 {

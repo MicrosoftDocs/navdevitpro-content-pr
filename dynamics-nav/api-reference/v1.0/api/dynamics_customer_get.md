@@ -4,7 +4,6 @@ description: Gets a customer object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
@@ -34,12 +33,14 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a ```200 OK``` response code and a **customers** object in the response body.
 
-**Request**
+**Requests**
 
-Here is an example of the request.
+Here is some example requests.
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customers({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/customers({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/customers({id})?$expand=customerFinancialDetails, picture, defaultDimensions, currency, paymentTerm, shipmentMethod, paymentMethod
+GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/customers({id})?$expand=picture, currency, paymentMethod
 ```
 
 **Response**
@@ -75,14 +76,7 @@ Here is an example of the response.
   "shipmentMethodId": "shipmentMethodId-value",
   "shipmentMethod": null,
   "paymentMethodId": "paymentMethodId-value",
-  "paymentMethod": {
-    "code": "BANK",
-    "description": "Bank Transfer"
-  },
   "blocked": " ",
-  "balance": 0,
-  "overdueAmount": 0,
-  "totalSalesExcludingTax": 0,
   "lastModifiedDateTime": "2017-03-07T00:35:28.983Z"
 }
 ```

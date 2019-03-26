@@ -41,8 +41,11 @@ If successful, this method returns a ```200 OK``` response code and a **salesInv
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesInvoices({id})
+GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/salesInvoices({id})
 ```
+To get more data for a salesInvoice, use expand:
+
+``` .../salesInvoices({id})?$expand=salesInvoiceLines,customer```
 
 **Response**
 
