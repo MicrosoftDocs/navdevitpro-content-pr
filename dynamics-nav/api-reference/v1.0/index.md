@@ -11,11 +11,11 @@ ms.date: 04/01/2019
 ms.author: solsen
 ---
 
-# Welcome to the API(V1.0) for [!INCLUDE[d365fin_long](../includes/d365fin_long_md.md)]
+# Welcome to the API(v1.0) for [!INCLUDE[d365fin_long](../includes/d365fin_long_md.md)]
 With [!INCLUDE[d365fin](../includes/d365fin_md.md)] you can create Connect apps. Connect apps establishes a point-to-point connection between Dynamics 365 Business Central and a 3rd party solution or service and is typically created using standard REST API to interchange data. Any coding language capable of calling REST APIs can be used to develop your Connect app. For more information to get started on Connect apps, see [Developing Connect Apps for Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps).
 
 > [!NOTE]  
-> You've reached the V1.0 of the Business Central API. If you are looking for Beta, please go [here](../../fin-graph/index.md).
+> You've reached the v1.0 of the Business Central API. If you are looking for Beta, please go [here](../../fin-graph/index.md).
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](enabling-apis-for-dynamics-nav.md).
