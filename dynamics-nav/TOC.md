@@ -363,8 +363,9 @@
 ## [Administration Cmdlets for Extensions](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management)
 ## [Development Cmdlets](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.model.tools)
 ## [Development Cmdlets for Extensions](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.tools)
-<!-- preview of Graph API starts-->
-# [Preview of API Reference](fin-graph/index.md)
+<!-- Business Central API starts, has its own TOC so commenting out for now-->
+# [API Reference](api-reference/v1.0/index.md)
+<!--
 ## [Enabling the APIs for Microsoft Dynamics NAV](enabling-apis-for-dynamics-nav.md)
 ## [Endpoints for the APIs](endpoints-apis-for-dynamics.md)
 ## [Working with Webhooks](fin-graph/dynamics_subscriptions.md)
@@ -550,8 +551,8 @@
 ### [Update vendor](fin-graph/api/dynamics_vendor_update.md)
 ### [Delete vendor](fin-graph/api/dynamics_vendor_delete.md)
 ## [Vendor purchases](fin-graph/resources/dynamics_vendorpurchases.md)
-### [Get vendor purchases](fin-graph/api/dynamics_vendorpurchases_get.md)
-<!-- preview of Graph API ends -->
+### [Get vendor purchases](fin-graph/api/dynamics_vendorpurchases_get.md) -->
+<!-- Business Central API ends -->
 
 <!--# [OnInit Trigger](OnInit-Trigger.md)
 # [Closing the Debugger](Closing-the-Debugger.md)

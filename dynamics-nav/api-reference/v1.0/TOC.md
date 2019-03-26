@@ -1,4 +1,4 @@
-# [API for Dynamics 365 Business Central](index.md)
+# [API for Dynamics 365 Business Central - V1.0](index.md)
 ## [Overview](resources/dynamics_overview.md)
 ## [Enabling the APIs for Microsoft Dynamics NAV](enabling-apis-for-dynamics-nav.md)
 ## [Endpoints for the APIs](endpoints-apis-for-dynamics.md)
@@ -207,3 +207,4 @@
 ### [Delete vendor default dimensions](api/dynamics_vendor_delete_defaultdimensions.md)
 ## [Vendor purchases](resources/dynamics_vendorpurchases.md)
 ### [Get vendor purchases](api/dynamics_vendorpurchases_get.md)
+# [API for Dynamics 365 Business Central - Beta](../../fin-graph/index.md)
