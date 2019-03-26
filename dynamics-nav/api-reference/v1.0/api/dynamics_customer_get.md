@@ -20,6 +20,11 @@ Retrieve the properties and relationships of a customer object for [!INCLUDE[d36
 ```
 GET /businesscentral/companies({id})/customers({id})
 ```
+> [!NOTE]  
+> To include the financial details of a customer, expanding on customerFinancialDetails:
+>```GET /businesscentral/companies({id})/customers({id})?$expand=customerFinancialDetails```
+
+
 
 ## Request headers
 

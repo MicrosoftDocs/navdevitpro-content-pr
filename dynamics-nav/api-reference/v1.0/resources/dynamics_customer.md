@@ -80,6 +80,8 @@ A Payment Method(paymentMethod) must exist in the Payment Method table.
 
 A Tax Area(taxArea) must exist in the Tax Area table.
 
+Financial details of the customer (customerFinancialDetails) can be retrieved.
+
 ## JSON representation
 
 Here is a JSON representation of the resource.

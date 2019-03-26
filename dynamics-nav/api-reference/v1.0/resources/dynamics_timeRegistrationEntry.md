@@ -70,10 +70,9 @@ Here is a JSON representation of the resource.
 ```
 ## See also
 
-
-
 [Error Codes](../dynamics_error_codes.md)  
-[Get Employee](../api/dynamics_timeRegistrationEntry_get.md)  
-[Post Employee](../api/dynamics_timeRegistrationEntry_create.md)  
-[Patch Employee](../api/dynamics_timeRegistrationEntry_update.md)  
-[Delete Employee](../api/dynamics_timeRegistrationEntry_delete.md)  
+[timeRegistrationEntries](../resources/dynamics_timeRegistrationEntry.md)  
+[Get timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_get.md)  
+[Post timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_create.md)  
+[Patch timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_update.md)  
+[Delete timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_delete.md)  
