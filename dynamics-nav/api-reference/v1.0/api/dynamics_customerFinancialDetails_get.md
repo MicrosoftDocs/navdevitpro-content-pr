@@ -14,7 +14,7 @@ ms.date: 04/01/2019
 ms.author: solsen
 ---
 
-# Get itemCategories
+# Get customerFinancialDetails
 Retrieve the properties and relationships of a customerFinancialDetails object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP requests
