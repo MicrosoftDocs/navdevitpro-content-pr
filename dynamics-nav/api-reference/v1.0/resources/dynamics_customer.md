@@ -35,11 +35,11 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 |:----------|:----------|:-----------------|
 |[Picture](../resources/dynamics_picture.md)|picture   |Gets the picture of customer. |
 |[defaultDimensions](../resources/dynamics_defaultDimension.md)|defaultDimension   |Gets the defaultDimension of customer. |
-|[customerFinancialDetail](../resources/dynamics_customerFinancialDetail.md)|customerFinancialDetail   |Gets the customerFinancialDetails of customer. |
+|[customerFinancialDetail](../resources/dynamics_customerfinancialdetails.md)|customerFinancialDetail   |Gets the customerFinancialDetails of customer. |
 |[currency](../resources/dynamics_currencies.md)|currency   |Gets the currency of customer. |
 |[paymentTerm](../resources/dynamics_paymentTerms.md)|paymentTerm   |Gets the paymentTerm of customer. |
-|[shipmentMethod](../resources/dynamics_shipmentMethod.md)|shipmentMethod   |Gets the shipmentMethod of customer. |
-|[paymentMethod](../resources/dynamics_paymentMethod.md)|paymentMeth0d   |Gets the paymentMethod of customer. |
+|[shipmentMethod](../resources/dynamics_shipmentmethods.md)|shipmentMethod   |Gets the shipmentMethod of customer. |
+|[paymentMethod](../resources/dynamics_paymentmethods.md)|paymentMeth0d   |Gets the paymentMethod of customer. |
 
 
 
