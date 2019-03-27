@@ -24,10 +24,10 @@ Represents an timeRegistrationEntry in [!INCLUDE[d365fin_long_md](../../includes
 
 | Method                                              | Return Type|Description               |
 |:----------------------------------------------------|:-----------|:-------------------------|
-|[GET timeRegistrationEntries](../api/dynamics_timeRegistrationEntries_get.md)      |employees  |Get an timeRegistrationEntries object.   |
-|[POST timeRegistrationEntries](../api/dynamics_timeRegistrationEntries_create.md)  |employees  |Create an timeRegistrationEntries object.|
-|[PATCH timeRegistrationEntries](../api/dynamics_timeRegistrationEntries_update.md) |employees  |Update an timeRegistrationEntries object.|
-|[DELETE timeRegistrationEntries](../api/dynamics_timeRegistrationEntries_delete.md)|none       |Delete an timeRegistrationEntries object.|
+|[GET timeRegistrationEntries](../api/dynamics_timeregistrationentry_get.md)      |employees  |Get an timeRegistrationEntries object.   |
+|[POST timeRegistrationEntries](../api/dynamics_timeregistrationentry_create.md)  |employees  |Create an timeRegistrationEntries object.|
+|[PATCH timeRegistrationEntries](../api/dynamics_timeregistrationentry_update.md) |employees  |Update an timeRegistrationEntries object.|
+|[DELETE timeRegistrationEntries](../api/dynamics_timeregistrationentry_delete.md)|none       |Delete an timeRegistrationEntries object.|
 
 
 
@@ -71,8 +71,8 @@ Here is a JSON representation of the resource.
 ## See also
 
 [Error Codes](../dynamics_error_codes.md)  
-[timeRegistrationEntries](../resources/dynamics_timeRegistrationEntry.md)  
-[Get timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_get.md)  
-[Post timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_create.md)  
-[Patch timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_update.md)  
-[Delete timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_delete.md)  
+[timeRegistrationEntries](../resources/dynamics_timeregistrationentry.md)  
+[Get timeRegistrationEntries](../api/dynamics_timeregistrationentry_get.md)  
+[Post timeRegistrationEntries](../api/dynamics_timeregistrationentry_create.md)  
+[Patch timeRegistrationEntries](../api/dynamics_timeregistrationentry_update.md)  
+[Delete timeRegistrationEntries](../api/dynamics_timeregistrationentry_delete.md)  
