@@ -26,3 +26,5 @@ With [!INCLUDE[d365fin](../includes/d365fin_md.md)] you can create Connect apps.
 > [!TIP]  
 > For information about developing extensions in AL see [Development in AL](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview).
 
+## See Also
+[API(Beta) for Dynamics 365 Business Central](../fin-graph/index.md)  
