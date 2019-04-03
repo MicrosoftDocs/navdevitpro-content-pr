@@ -1,7 +1,7 @@
 ---
 title: "Client Types"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 04/01/2019
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,6 +12,7 @@ caps.latest.revision: 24
 manager: edupont
 ---
 # Client Types
+
 The following [!INCLUDE[navnow](includes/navnow_md.md)] clients interact with the [!INCLUDE[navnow](includes/navnow_md.md)] database through [!INCLUDE[nav_server](includes/nav_server_md.md)]:  
   
 - [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
@@ -54,8 +55,9 @@ The following [!INCLUDE[navnow](includes/navnow_md.md)] clients interact with th
 ## NAS Services  
  NAS services are a middle-tier server component that executes business logic without a user interface or user interaction. NAS services are intended for task scheduling, client offloading, and specialized integration scenarios. NAS services replace the NAV Application Server \(NAS\) available in earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)]. You manage NAS services from the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. See [Configuring NAS Services](Configuring-NAS-Services.md) for further information.  
   
-## See Also  
- [Product and Architecture Overview](Product-and-Architecture-Overview.md)   
- [Installation Options](Installation-Options.md)   
- [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives:-SOAP-and-OData.md)   
- [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)
+## See Also
+
+[Product and Architecture Overview](Product-and-Architecture-Overview.md)  
+[Installation Options](Installation-Options.md)  
+[Web Service Alternatives: SOAP and OData](Web-Service-Alternatives--SOAP-and-OData.md)  
+[Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)  

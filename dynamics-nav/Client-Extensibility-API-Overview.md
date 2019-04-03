@@ -1,7 +1,7 @@
 ---
 title: "Client Extensibility API Overview"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 04/01/2019
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,6 +12,7 @@ caps.latest.revision: 43
 manager: edupont
 ---
 # Client Extensibility API Overview
+
 [!INCLUDE[navnowlong](includes/navnowlong_md.md)] includes the client extensibility API, which defines the model for creating [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-ins. The client extensibility API uses .NET interfaces as the binding mechanism between the control add-ins on a page and the [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] framework. When you develop a control add-in, you can choose among various definition interfaces and base classes to implement based on the control add-in requirements. Additionally, you can create custom interfaces to add user interface controls to a page. This topic provides an overview of the available definition interfaces and base classes. For information about how to create custom interfaces, see [Exposing Methods and Properties in a Windows Client Control Add-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
 
 ## Control Add-in Definition Interfaces  
@@ -40,12 +41,13 @@ manager: edupont
 |Base class|Use|  
 |----------------|---------|  
 |[Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase)|Base class that targets Windows forms displays with a control add-in.<br /><br /> You can use this base class for any control add-in with an appropriate control add-in definition interface.|  
-|[Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase)|Base class that implements the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition) and [Microsoft.Dynamics.Framework.UI.Extensibility.IEventControlAddInDefinition](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IEventControlAddInDefinition)<br /><br /> interfaces.<br /><br /> This base class overrides the [IValueControlAddInDefinition.Value](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition.Value) property to bind the control add-in to a [System.String](assetId:///System.String) data type in [!INCLUDE[nav_server](includes/nav_server_md.md)]. It also defines the [StringControlAddInBase.RaiseControlAddInEvent\(Int32, String\)](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase.RaiseControlAddInEvent(System.Int32,System.String)) method for raising events.<br /><br /> You can use this base class for a control add-in that displays text strings from a simple text box control and supports events that call the C/AL trigger on the page.|  
+|[Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase)|Base class that implements the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition) and [Microsoft.Dynamics.Framework.UI.Extensibility.IEventControlAddInDefinition](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IEventControlAddInDefinition)<br /><br /> interfaces.<br /><br /> This base class overrides the [IValueControlAddInDefinition.Value](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition.Value) property to bind the control add-in to a *System.String* data type in [!INCLUDE[nav_server](includes/nav_server_md.md)]. It also defines the [StringControlAddInBase.RaiseControlAddInEvent\(Int32, String\)](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase.RaiseControlAddInEvent(System.Int32,System.String)) method for raising events.<br /><br /> You can use this base class for a control add-in that displays text strings from a simple text box control and supports events that call the C/AL trigger on the page.|  
 
-## See Also  
- [Developing Windows Client Control Add-ins](Developing-Windows-Client-Control-Add-ins.md)   
- [How to: Create a Windows Client Control Add-in](How-to--Create-a-Windows-Client-Control-Add-in.md)   
- [Binding a Windows Client Control Add-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md)   
- [Exposing Events and Calling Respective C/AL Triggers from a Windows Client Control Add-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)   
- [Installing and Configuring Windows Client Control Add-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
- [Windows Client Control Add-in Overview](Windows-Client-Control-Add-in-Overview.md)
+## See Also
+
+[Developing Windows Client Control Add-ins](Developing-Windows-Client-Control-Add-ins.md)   
+[How to: Create a Windows Client Control Add-in](How-to--Create-a-Windows-Client-Control-Add-in.md)   
+[Binding a Windows Client Control Add-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md)   
+[Exposing Events and Calling Respective C/AL Triggers from a Windows Client Control Add-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)   
+[Installing and Configuring Windows Client Control Add-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
+[Windows Client Control Add-in Overview](Windows-Client-Control-Add-in-Overview.md)

@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/03/2018
+ms.date: 03/18/2019
 ms.author: solsen, henrikwh
 ---
 
@@ -29,7 +29,7 @@ PATCH /businesscentral/subscriptions({id})
 ## Request body
 Here is an example of the request.
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions({id})
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions({id})
 Content-type: application/json
 
 {
