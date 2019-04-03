@@ -39,7 +39,7 @@ This walkthrough provides an overview of how to expose a page as a web service a
   
 -   Visual Studio 2017.
 
-    You can use any edition of Visual Studio that supports adding web references. Be ware that Visual Studio versions In this walkthrough, you will use Visual Studio 2017. You also have the option to use service references instead of web references, or use the web service proxy generating tools svcutil.exe and wsdl.exe, which are included in the Microsoft .NET Framework SDK.  
+    You can use any edition of Visual Studio that supports adding web references. In this walkthrough, you will use Visual Studio 2017. You also have the option to use service references instead of web references, or use the web service proxy generating tools svcutil.exe and wsdl.exe, which are included in the Microsoft .NET Framework SDK.  
 
 -  OData Connected Service installed in Visual Studio.
 
@@ -72,7 +72,7 @@ After publishing a web service, verify that the port that web service applicatio
   
 1. Start Internet Explorer.  
   
-2. In the **Address** field, enter a URI in this format: **http://\<Server>:\<WebServicePort>/\<ServerInstance>/OData**. For example:  
+2. In the **Address** field, enter a URI in this format: **http://\<Server>:\<WebServicePort>/\<ServerInstance>/ODataV4**. For example:  
   
     **http://localhost:7048/DynamicsNAV/ODataV4**  
   
@@ -98,7 +98,7 @@ Next, you create a C\# console application in Visual Studio.
   
 1. In Visual Studio, on the **File** menu, point to **New**, and then choose **Project**.  
 2. In the pane on the left, select **Installed** > **Visual C\#** > **Windows Classic Desktop** > **Console App (.NET Framework)**.
-3. Set the **Name** and **Solution Name** for the application to **NAVCustomers** , and choose  **OK** to exit the **New Project** page.  
+3. Set the **Name** and **Solution Name** for the application to **BCCustomers** , and choose  **OK** to exit the **New Project** page.  
 <!--   
 ### Add a Service Reference for your OData Web service (Visual Studio 2015 and earlier)
 1. In the Solution Explorer pane, right-click **References**, and then choose **Add Service Reference**.  
@@ -114,13 +114,17 @@ Next, you create a C\# console application in Visual Studio.
 
 ### Add a Connected Service Reference for your OData Web service
 
-1. In the Solution Explorer pane, right-click the **NAVCustomers** project, and then choose **Add** > **Connected Service**.  
+1. In the Solution Explorer pane, right-click the **BCCustomers** project, and then choose **Add** > **Connected Service**.  
 
-2. On the **Configure Enpoint** page, you can keep the **Service name** of **OData Service** or change it if you like. 
-2. In the **Address** field, enter the URI for your OData web service, such as **http://localhost:7048/DynamicsNAV/ODataV4**.  
+2. On the **Configure Endpoint** page, you can keep the **Service name** of **OData Service** or change it if you like. 
+2. In the **Address** field, enter the URI for your OData web service.
+
+    The endpoint has the format `http://<servercomputer>:<odataport>/<serverinstance>/ODataV4`, for example:
+
+    `http://localhost:7048/BC/ODataV4`
   
    > [!IMPORTANT]  
-   >  In this example, we use the HTTP protocol to illustrate the use of OData web services. We recommend that you use the more secure HTTPS protocol when you consume web services.  
+   >  In this example, we use the HTTP protocol to illustrate the use of OData web services. We recommend that you use the more secure HTTPS protocol when you consume web services.
   
 3. Choose **Next**.
 4. On the **Settings** page, you can keep the file name **Reference** or change it if you like.
@@ -209,8 +213,6 @@ Next, you create a C\# console application in Visual Studio.
 2.  Open the list of customers, filter for a customer with the name **Customer NameChanged**.  
   
      This is the customer that the console application created and modified.  
-
-
   
 ## Next Steps  
  You have built a console application that uses an OData web service to modify [!INCLUDE[navnow](includes/navnow_md.md)] data. You can use similar OData web services in other applications when you want to allow users to modify data outside [!INCLUDE[navnow](includes/navnow_md.md)].  
