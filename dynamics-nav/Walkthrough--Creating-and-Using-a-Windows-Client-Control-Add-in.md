@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating and Using a Windows Client Control Add-in"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 04/01/2019
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,26 +12,29 @@ caps.latest.revision: 51
 manager: edupont
 ---
 # Walkthrough: Creating and Using a Windows Client Control Add-in
+
 The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] add-in and use it on a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] page. Add-ins are Microsoft .NET Framework assemblies that enable you to add custom functionality to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. An API lets you develop add-ins without having to access the [!INCLUDE[navnow](includes/navnow_md.md)] source code.  
 
 > [!NOTE]  
->  With [!INCLUDE[navsicily](includes/navsicily_md.md)] you can develop control add-ins that are displayed on both [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [Extending Any Microsoft Dynamics NAV Client Using Control Add-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md).  
+> With [!INCLUDE[navsicily](includes/navsicily_md.md)] you can develop control add-ins that are displayed on both [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [Extending Any Microsoft Dynamics NAV Client Using Control Add-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md).  
 
  In a typical business scenario, .NET Framework developers create add-ins using Microsoft Visual Studio Express, Visual Studio 2008, Visual Studio 2010, or Visual Studio 2012. Implementers of [!INCLUDE[navnow](includes/navnow_md.md)] solutions then use the add-ins on [!INCLUDE[nav_windows](includes/nav_windows_md.md)] pages.  
 
 ## About This Walkthrough  
- This walkthrough illustrates the following tasks:  
 
--   [Creating an Add-in with Visual Studio](#CreatingAddIn).  
+This walkthrough illustrates the following tasks:  
 
--   [Copying the Add-in Assembly to the Microsoft Dynamics Windows Client](#CopyAddin).  
+- [Creating an Add-in with Visual Studio](#CreatingAddIn).  
 
--   [Registering the Add-in in Microsoft Dynamics NAV](#RegisterAddin).  
+- [Copying the Add-in Assembly to the Microsoft Dynamics Windows Client](#CopyAddin).  
 
--   [Setting Up the Add-in on a Page](#SetupAddin).  
+- [Registering the Add-in in Microsoft Dynamics NAV](#RegisterAddin).  
 
-### Roles  
- This walkthrough demonstrates tasks performed by the following user roles:  
+- [Setting Up the Add-in on a Page](#SetupAddin).  
+
+### Roles
+
+This walkthrough demonstrates tasks performed by the following user roles:  
 
 -   Microsoft .NET Framework developer  
 
@@ -230,7 +233,7 @@ The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](i
 
 -   Setting the [OnControlAddin Trigger](OnControlAddin-Trigger.md).  
 
-     In the **C/AL Editor**, you set the trigger that is called when a user selects the field to open a pop-up window. When a field is double-clicked, the add-in raises the [IEventControlAddInDefinition.ControlAddIn](assetId:///E:Microsoft.Dynamics.Framework.UI.Extensibility.IEventControlAddInDefinition.ControlAddIn) event, which in turn calls the trigger.  
+     In the **C/AL Editor**, you set the trigger that is called when a user selects the field to open a pop-up window. When a field is double-clicked, the add-in raises the *IEventControlAddInDefinition.ControlAddIn* event, which in turn calls the trigger.  
 
 #### To set the ControlAddIn property on the field  
 
