@@ -372,7 +372,7 @@ This example slightly modifies the previous example. Instead of registering and 
         {
 
             [EventSubscriber(Codeunit,1,OnAfterCompanyOpen)]
-            LOCAL PROCEDURE InitializeTableConnections@1();
+            LOCAL PROCEDURE InitializeExternalConnections@1();
             BEGIN
                 REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'MyTableConnection1', 'Data Source=MyDatabaseServer\NAVDEMO;Initial Catalog=MyExternalDatabase;Integrated Security=SSPI;');
                 SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1');

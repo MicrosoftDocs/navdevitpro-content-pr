@@ -72,4 +72,6 @@ WhseEntry.CALCSUMS("Qty. (Base)");
 
 ## See Also  
  <!--[SumIndexField Technology \(SIFT\)](devenv-SumIndexField-Technology--SIFT.md) -->   
- [SumIndexFields Property](../properties/devenv-SumIndexFields-Property.md)
+ [SumIndexFields Property](../properties/devenv-SumIndexFields-Property.md)  
+[C Property](../properties/devenv-SumIndexFields-Property.md)
+
