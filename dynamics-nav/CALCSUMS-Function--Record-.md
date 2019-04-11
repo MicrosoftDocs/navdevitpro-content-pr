@@ -69,4 +69,6 @@ WhseEntry.CALCSUMS("Qty. (Base)");
   
 ## See Also  
  [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md)   
- [SumIndexFields Property](SumIndexFields-Property.md)
+ [SumIndexFields Property](SumIndexFields-Property.md)  
+ [CALCSUM Function (FieldRef)](CALCSUM-Function--FieldRef-.md)  
+[C/AL Database Functions and Performance on SQL Server](C-AL-Database-Functions-and-Performance-on-SQL-Server.md)
