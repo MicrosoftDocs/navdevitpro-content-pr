@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # Integer Virtual Table
-The **Integer** virtual table includes integers in the range –1,000,000,000 to 1,000,000,000. The **Integer** virtual table contains only one field.  
+The **Integer** virtual table \(ID 2000000026\) includes integers in the range –1,000,000,000 to 1,000,000,000. The **Integer** virtual table contains only one field.  
   
 |Field|Description|  
 |-----------|-----------------|  

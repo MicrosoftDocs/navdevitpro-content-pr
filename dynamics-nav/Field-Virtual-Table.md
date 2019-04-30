@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # Field Virtual Table
-The **Field** virtual table contains information about fields in database tables. The **Field** virtual table contains the following fields.  
+The **Field** virtual table \(ID 2000000041\) contains information about fields in database tables. The **Field** virtual table contains the following fields.  
 
 
 |         Field          |                                                      Description                                                      |
