@@ -21,7 +21,7 @@ Once you have the API access enabled, you can write code that integrates your we
 
 ||[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]|||[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] On-Prem|
 |--|--|--|--|--|
-|**Means of connection**|**Microsoft Graph (coming)**|**Common endpoint service**|**Direct tenant**|**Direct installation**|
+|**Means of connection**|**Microsoft Graph**|**Common endpoint service**|**Direct tenant**|**Direct installation**|
 |**Usage**|Production|Production|Rapid development and testing only|Production|
 |**Endpoint**|`https://`<br>`graph.microsoft.com`<br>`/businesscentral/beta/`| `https://`<br>`api.businesscentral.dynamics.com/`<br> `v1.0/api/beta` <br><br>Sandbox: `https://`<br>`api.businesscentral.dynamics.com/`<br> `v1.0/sandbox/api/beta`|`https://`<br>`api.businesscentral.dynamics.com/`<br>`v1.0/<user domain name>/api/beta`<br>  Example: `https://`<br>`api.businesscentral.dynamics.com/`<br> `v1.0/cronus.com/api/beta` <br><br> Sandbox example: `https://`<br>`api.businesscentral.dynamics.com/`<br> `v1.0/cronus.com/sandbox/api/beta`|OData base URL in installation: <br> `https://`<br>`<base URL>:<port>/v1.0/api/<API version>/` <br> Example: `https://`<br>`nav.contoso.com:7048/`<br>`v1.0/api/beta/` <br> Must be exposed through a firewall.|
 |**Availability**|Always enabled|Always enabled|Always enabled|Disabled by default.<br> Must be enabled by the administrator.|
