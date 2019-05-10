@@ -19,10 +19,10 @@ Creates the properties and relationships of a picture object for [!INCLUDE[d365f
 
 ## HTTP request
 ```
-POST /businesscentral/companies({companyId})/items({itemId})/picture({pictureId})/content
-POST /businesscentral/companies({companyId})/vendors({vendorId})/picture({pictureId})/content
-POST /businesscentral/companies({companyId})/employees({employeeId})/picture({pictureId})/content
-POST /businesscentral/companies({companyId})/customers({customerId})/picture({pictureId})/content
+PATCH /businesscentral/companies({companyId})/items({itemId})/picture({pictureId})/content
+PATCH /businesscentral/companies({companyId})/vendors({vendorId})/picture({pictureId})/content
+PATCH /businesscentral/companies({companyId})/employees({employeeId})/picture({pictureId})/content
+PATCH /businesscentral/companies({companyId})/customers({customerId})/picture({pictureId})/content
 ```
 
 ## Request headers
@@ -31,6 +31,7 @@ POST /businesscentral/companies({companyId})/customers({customerId})/picture({pi
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
 |Content-Type | application/octet-stream |
+|If-Match  | * |
 
 
 ## Request body
@@ -46,7 +47,7 @@ If successful, this method returns a `204 No Content` response code. It does not
 Here is an example of the request. 
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies(companyId)/items(itemId)/picture(itemId)/content
+PATCH https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies(companyId)/items(itemId)/picture(itemId)/content
 ```
 
 **Response**
@@ -54,13 +55,6 @@ POST https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies(companyId)
 No content.
 
 ## See also
-
-
-
-[Error Codes](../dynamics_error_codes.md)  
-
-
-
 [Error Codes](../dynamics_error_codes.md)  
 [Picture](../resources/dynamics_picture.md)  
 [Get Picture](dynamics_picture_get.md)  

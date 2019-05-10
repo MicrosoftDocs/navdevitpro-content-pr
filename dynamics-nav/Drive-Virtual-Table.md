@@ -12,7 +12,7 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # Drive Virtual Table
-The **Drive** virtual table gives you an overview of the logical drives on your computer. The **Drive** virtual table contains the following fields.  
+The **Drive** virtual table \(ID 2000000020\) gives you an overview of the logical drives on your computer. The **Drive** virtual table contains the following fields.  
   
 |Field|Description|  
 |-----------|-----------------|  

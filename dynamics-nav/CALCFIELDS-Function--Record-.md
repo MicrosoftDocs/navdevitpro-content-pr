@@ -77,4 +77,6 @@ CustomerRec.CALCFIELDS(Balance, "Net Change");
 ## See Also  
  [FlowFields](FlowFields.md)   
  [FlowFields](FlowFields.md)   
- [FieldClass Property](FieldClass-Property.md)
+ [FieldClass Property](FieldClass-Property.md)  
+ [CALCFIELD Function (FieldRef)](CALCFIELD-Function--FieldRef-.md)  
+[C/AL Database Functions and Performance on SQL Server](C-AL-Database-Functions-and-Performance-on-SQL-Server.md)
