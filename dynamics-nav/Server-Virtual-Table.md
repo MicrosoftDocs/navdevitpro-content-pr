@@ -12,7 +12,7 @@ caps.latest.revision: 10
 manager: edupont
 ---
 # Server Virtual Table
-The **Server** table contains the following fields.  
+The **Server** table \(ID 2000000047\) contains the following fields.  
   
 |Field|Description|  
 |-----------|-----------------|  

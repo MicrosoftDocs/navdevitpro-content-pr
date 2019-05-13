@@ -45,7 +45,7 @@ Content-type: application/json
   "subscriptionId" :"{subscriptionId}",
   "notificationUrl": "https://{notificationUrl}",
   "resource": "/api/v1.0/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
-  "clientState": "{optionalValueOf250}"
+  "clientState": "{optionalValueOf2048}"
 }
 
 ```
@@ -64,7 +64,7 @@ Here is an example of the response.
   "resource": "/api/v1.0/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
   "userId": "00000000-0000-0000-0000-000000000001",
   "lastModifiedDateTime": "2018-10-12T12:32:35Z",
-  "clientState": "optionalvalueof250",
+  "clientState": "optionalvalueof2048",
   "expirationDateTime": "2018-10-15T12:32:35Z"
 }
 ```
