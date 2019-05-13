@@ -32,5 +32,5 @@ Once you have the API access enabled, you can write code that integrates your we
 
 ## See Also
 [Developing Connect Apps for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
-[Configuring Microsoft Dynamics NAV Server 2018](../configuring-microsoft-dynamics-nav-server.md)  
-[Microsoft Dynamics NAV Web Services Overview](../microsoft-dynamics-nav-web-services-overview.md)  
+[Configuring Microsoft Dynamics NAV Server 2018](../../configuring-microsoft-dynamics-nav-server.md)  
+[Microsoft Dynamics NAV Web Services Overview](../../microsoft-dynamics-nav-web-services-overview.md)  
