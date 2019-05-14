@@ -13,7 +13,7 @@ author: jswymer
 ---
 # Walkthrough: Creating and Interacting with a Page Web Service (OData)
 
-This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/navnow_md.md)] page as an OData web service, use it in a Visual Studio console application, and change data in [!INCLUDE[navnow](includes/navnow_md.md)] through the web service.  
+This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/navnow_md.md)] page as an OData V3 web service, use it in a Visual Studio console application, and change data in [!INCLUDE[navnow](includes/navnow_md.md)] through the web service.  
   
 ## About This Walkthrough
   
@@ -35,9 +35,9 @@ This walkthrough provides an overview of how to expose a page as a web service a
   
 -   [!INCLUDE[demolong](includes/demolong_md.md)].  
 
-- ODate Services and V4 Endpoint enabled on the [!INCLUDE[nav_server](includes/nav_server_md.md)]. 
+- ODate Services and V3 Endpoint enabled on the [!INCLUDE[nav_server](includes/nav_server_md.md)]. 
   
--   Visual Studio 2017.
+-   Visual Studio 2015 or later.
 
     You can use any edition of Visual Studio that supports adding web references. In this walkthrough, you will use Visual Studio 2017. You also have the option to use service references instead of web references, or use the web service proxy generating tools svcutil.exe and wsdl.exe, which are included in the Microsoft .NET Framework SDK.  
 
@@ -74,9 +74,9 @@ After publishing a web service, verify that the port that web service applicatio
   
 2. In the **Address** field, enter the Dynamics NAV OData V4 endpoint.
 
-    The endpoint has the format: `http://<Server>:<WebServicePort>/<ServerInstance>/ODataV4`. For example:
+    The endpoint has the format: `http://<Server>:<WebServicePort>/<ServerInstance>/OData`. For example:
   
-    `http://localhost:7048/DynamicsNAV/ODataV4`  
+    `http://localhost:7048/DynamicsNAV/ODataV`  
   
    - `Server` is the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
@@ -119,9 +119,9 @@ Next, you create a C\# console application in Visual Studio. The console app wil
 2. On the **Configure Endpoint** page, you can keep the **Service name** of **OData Service** or change it as you like. 
 2. In the **Address** field, enter the endpoint URI for your OData web service.
 
-    This is the endpoint that you verified in an earlier step. The endpoint has the format `http://<servercomputer>:<odataport>/<serverinstance>/ODataV4`, for example:
+    This is the endpoint that you verified in an earlier step. The endpoint has the format `http://<servercomputer>:<odataport>/<serverinstance>/OData/`, for example:
 
-    `http://localhost:7048/DynamicNAV/ODataV4`
+    `http://localhost:7048/DynamicNAV/OData/`
   
    > [!IMPORTANT]  
    >  In this example, we use the HTTP protocol to illustrate the use of OData web services. We recommend that you use the more secure HTTPS protocol when you consume web services.
@@ -131,10 +131,6 @@ Next, you create a C\# console application in Visual Studio. The console app wil
   
    The project is created, and your OData web service is added as a connected service reference. Next, you add the code that will show a list of existing customers, add a customer and then rename the new customer.  
   
-5. From Solution Explorer, open the C\# reference file (Reference.cs) under **Connected Services** > **OData Service**.
-
-    - Replace all references to `Microsoft.OData.Edm.Library.Date` with `Microsoft.OData.Edm.Date`.
-    - Replace all references to `Microsoft.OData.Edm.Csdl.EdmxReader` with `Microsoft.OData.Edm.Csdl.CsdlReader`.
 
 ### Install and reference the Simple.OData.Client library
 
