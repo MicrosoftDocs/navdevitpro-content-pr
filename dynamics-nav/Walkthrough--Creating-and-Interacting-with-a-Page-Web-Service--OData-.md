@@ -19,29 +19,29 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
   
 This walkthrough provides an overview of how to expose a page as a web service and how to use the web service in a C\# console application. The walkthrough illustrates the following tasks:  
   
--   Publishing a [!INCLUDE[navnow](includes/navnow_md.md)] page as a web service.  
+- Publishing a [!INCLUDE[navnow](includes/navnow_md.md)] page as a web service.  
   
--   Verifying web service availability from a browser.  
+- Verifying web service availability from a browser.  
   
--   Adding the published web service as a service reference in a console application that you create in Visual Studio.  
+- Adding the published web service as a service reference in a console application that you create in Visual Studio.
   
--   Changing the data in the console application.  
+- Changing the data in the console application.  
   
 ### Prerequisites
   
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
+- [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
--   [!INCLUDE[demolong](includes/demolong_md.md)].  
+- [!INCLUDE[demolong](includes/demolong_md.md)].  
 
 - ODate Services and V3 Endpoint enabled on the [!INCLUDE[nav_server](includes/nav_server_md.md)]. 
   
--   Visual Studio 2015 or later.
+- Visual Studio 2015 or later.
 
     You can use any edition of Visual Studio that supports adding web references. In this walkthrough, you will use Visual Studio 2017. You also have the option to use service references instead of web references, or use the web service proxy generating tools svcutil.exe and wsdl.exe, which are included in the Microsoft .NET Framework SDK.  
 
--  OData Connected Service installed in Visual Studio.
+- OData Connected Service installed in Visual Studio.
 
     This tool generates code to facilitate the consumption of OData services. To install OData Connected Service you can either download it from [OData Connected Service](https://marketplace.visualstudio.com/items?itemName=laylaliu.ODataConnectedService) and follow the instructions, or do the following in Visual Studio:
 
@@ -53,23 +53,22 @@ This walkthrough provides an overview of how to expose a page as a web service a
   
 You publish a web service by using the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
-1.  Open the client and connect to the [!INCLUDE[demoname](includes/demoname_md.md)] company.  
+1. Open the client and connect to the [!INCLUDE[demoname](includes/demoname_md.md)] company.  
   
-2.  In the **Search** box, enter **Web services**, and then choose the related link.  
+2. In the **Search** box, enter **Web services**, and then choose the related link.  
   
-3.  In the **Web Services** page, choose **New**.  
+3. In the **Web Services** page, choose **New**.  
   
-4.  In the **Object Type** column, select **Page**. In the **Object ID** column, enter **21**, and in the **Service Name** column, enter **Customer**.  
+4. In the **Object Type** column, select **Page**. In the **Object ID** column, enter **21**, and in the **Service Name** column, enter **Customer**.  
   
-5.  Select the check box in the **Published** column.  
+5. Select the check box in the **Published** column.  
   
-6.  Choose the **OK** button.  
+6. Choose the **OK** button.  
   
 ## Verifying Web Service Availability  
   
 After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for OData web services is 7048. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
 
-  
 1. Start an Internet browser.  
   
 2. In the **Address** field, enter the Dynamics NAV OData V4 endpoint.
@@ -84,21 +83,23 @@ After publishing a web service, verify that the port that web service applicatio
   
    - `ServiceInstance` is the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for your solution. The default name is [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].  
   
-      The browser should show the web services that you have published, including the `Customer`, in a format like the following:<!-- of an AtomPub document.-->: 
+      The browser should show the web services that you have published, including the `Customer`, in a format of an AtomPub document:
 
-    `{"@odata.context":"http://navdevvm-0399:7048/DynamicsNAV110/ODataV4/$metadata","value":[{"name":"Customer","kind":"EntitySet","url":"Customer"},...`
+      ![Basic AtomPub document for a page](media/BasAtomPub.JPG "BasAtomPub") 
   <!--
-      ![Basic AtomPub document for a page](media/BasAtomPub.JPG "BasAtomPub")  -->
+    `{"@odata.context":"http://navdevvm-0399:7048/DynamicsNAV110/ODataV4/$metadata","value":[{"name":"Customer","kind":"EntitySet","url":"Customer"},...`
+
+ -->
   
 ##  <a name="BKMK_CreateConsoleApp"></a> Creating the Console Application
- 
+
 Next, you create a C\# console application in Visual Studio. The console app will return a list of customers from [!INCLUDE[navnow](includes/navnow_md.md)] and create a new customer.
 
 ### Create the C\# project
   
 1. In Visual Studio, on the **File** menu, point to **New**, and then choose **Project**.  
 2. In the pane on the left, select **Installed** > **Visual C\#** > **Windows Classic Desktop** > **Console App (.NET Framework)**.
-3. Set the **Name** and **Solution Name** for the application to **Customers** , and choose  **OK** to exit the **New Project** page.  
+3. Set the **Name** and **Solution Name** for the application to **Customers** , and choose  **OK** to exit the **New Project** page.
 <!--   
 ### Add a Service Reference for your OData Web service (Visual Studio 2015 and earlier)
 1. In the Solution Explorer pane, right-click **References**, and then choose **Add Service Reference**.  
@@ -112,12 +113,11 @@ Next, you create a C\# console application in Visual Studio. The console app wil
   
    The project is created, and your OData web service is added as a service reference. Next, you add the code that will show a list of existing customers, add a customer and then rename the new customer.  -->
 
-### Add a Connected Service Reference for your OData Web service
+### Add a connected service for the OData web service
 
-1. In the Solution Explorer pane, right-click the **Customers** project, and then choose **Add** > **Connected Service**.  
-
-2. On the **Configure Endpoint** page, you can keep the **Service name** of **OData Service** or change it as you like. 
-2. In the **Address** field, enter the endpoint URI for your OData web service.
+1. In the Solution Explorer pane, right-click the **Customers** project, and then choose **Add** > **Connected Service**.
+2. On the **Configure Endpoint** page, you can keep the **Service name** of **OData Service** or change it as you like.
+3. In the **Address** field, enter the endpoint URI for your OData web service.
 
     This is the endpoint that you verified in an earlier step. The endpoint has the format `http://<servercomputer>:<odataport>/<serverinstance>/OData/`, for example:
 
@@ -126,12 +126,12 @@ Next, you create a C\# console application in Visual Studio. The console app wil
    > [!IMPORTANT]  
    >  In this example, we use the HTTP protocol to illustrate the use of OData web services. We recommend that you use the more secure HTTPS protocol when you consume web services.
   
-3. Choose **Next**.
-4. On the **Settings** page, you can keep the file name **Reference** or change it as you like.
+4. Choose **Next**.
+5. On the **Settings** page, you can keep the file name **Reference** or change it as you like.
   
    The project is created, and your OData web service is added as a connected service reference. Next, you add the code that will show a list of existing customers, add a customer and then rename the new customer.  
   
-
+<!--
 ### Install and reference the Simple.OData.Client library
 
 The Simple.OData.Client is a multi-platform OData client library that provides an alternative to the WCF Data Services Client library. It is available as a NuGet package for Visual Studio. For more information, see [Simple.OData.Client](https://github.com/simple-odata-client/Simple.OData.Client/wiki).
@@ -144,16 +144,16 @@ The Simple.OData.Client is a multi-platform OData client library that provides a
     ```
 
 3. When the installation has finished, the console application project (Customers) should include a references to: Simple.OData.Client.Core, Simple.OData.Client.Dynamics, Simple.OData.Client.V3.Adapter, and Simple.OData.Client.V4.Adapter. If not, add the manually.
+-->
+### Add code to the console application 
 
-### Add code to your console application 
-
-1.  In the program.cs file of your solution, add the `using` statement after the namespaces that are automatically added to your project:  
+1. In the program.cs file of your solution, add the `using` statement after the namespaces that are automatically added to your project:  
   
     ```  
-    using using Simple.OData.Client;  
-    ```   
-<!--
-2.  After the `Main` method, add the following method:  
+    using NAV;  
+    ```
+
+2. After the `Main` method, add the following method to return a list of customers whose name start with `Cust`:  
   
     ```  
     private static void PrintCustomersCalledCust(NAV.NAV nav)  
@@ -177,28 +177,29 @@ The Simple.OData.Client is a multi-platform OData client library that provides a
   
     ```  
   
-     The `PrintCustomersCalledCust` method reads the OData web service that you created, Customer, and creates a list of customers where the customer name begins with the letters **Cust**. Next, you add code to the Main method that uses the web service to write to [!INCLUDE[navnow](includes/navnow_md.md)].  
- -->
-<!--
-2.  In the `Main` method, add the following code to establish the connection to [!INCLUDE[navnow](includes/navnow_md.md)] through the OData web service:  
-  
-    ```
-    ODataClientSettings settings = new ODataClientSettings(new Uri("http://navdevvm-0399:7048/DynamicsNAV110/ODataV4"), System.Net.CredentialCache.DefaultNetworkCredentials); 
-    ```
+    The `PrintCustomersCalledCust` method reads the OData web service that you created, Customer, and creates a list of customers where the customer name begins with the letters **Cust**. Next, you add code to the Main method that uses the web service to write to [!INCLUDE[navnow](includes/navnow_md.md)].  
 
-    This implmentation will authenticate usera on thier Windows credentials.
--->
-<!--
-    ```
+3. In the `Main` method, add the following code to establish the connection to [!INCLUDE[navnow](includes/navnow_md.md)] through the OData web service:  
+
+    ```  
     NAV.NAV nav = new NAV.NAV(new Uri("http://localhost:7048/DynamicsNAV/ODataV4/Company('CRONUS%20International%20Ltd.')"));
     nav.Credentials = System.Net.CredentialCache.DefaultNetworkCredentials; 
     ```  
-  
+
+    This implementation will authenticate users on their Windows credentials.
+
     In the example, the name of the [!INCLUDE[navnow](includes/navnow_md.md)] company that you modify data for is [!INCLUDE[demoname](includes/demoname_md.md)]. You must replace this with the name of the company that you have access to. To find the correct URI, you can paste the following URI into your browser and then see the exact URI that you must use: `http://localhost:7048/DynamicsNAV/OData/Company`.  
--->  
-2.  Add the following code to the `Main` method:  
+
   
+<!-- OData V4 
     ```
+    ODataClientSettings settings = new ODataClientSettings(new Uri("http://navdevvm-0399:7048/DynamicsNAV/OData/"), System.Net.CredentialCache.DefaultNetworkCredentials); 
+    ```
+-->
+  
+
+<!-- ODataV4 example using Simple.Odata.Client
+```
     // Connects to Dynamics NAV through the OData web service, using the user's Windows credentials. Replace http://localhost:7048/DynamicsNAV/ODataV4 with your endpoint.  
     ODataClientSettings settings = new ODataClientSettings(new Uri("http://localhost:7048/DynamicsNAV/ODataV4"), System.Net.CredentialCache.DefaultNetworkCredentials);
 
@@ -233,7 +234,9 @@ The Simple.OData.Client is a multi-platform OData client library that provides a
     }
 
     ```
-<!--
+-->
+4. Add the following code to the method:
+
     ```  
     Console.WriteLine("Printing list of current customers:");  
     PrintCustomersCalledCust(nav);  
@@ -253,19 +256,17 @@ The Simple.OData.Client is a multi-platform OData client library that provides a
   
     Console.WriteLine("Printing list of current customers:");  
     PrintCustomersCalledCust(nav);  
-  
-    ```  
-In this code, customers  is created and then renamed. The code prints a list of the customers that currently exist in the **Customer** table when each change has been made.   
- -->
-     
+    ```
+ 
+    In this code, customers  is created and then renamed. The code prints a list of the customers that currently exist in the **Customer** table when each change has been made.
 
-3.  Build and run the project.  
+5. Build and run the project.  
   
 ### To verify the inserted and modified data in [!INCLUDE[navnow](includes/navnow_md.md)]  
   
-1.  Open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+1. Open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
-2.  Open the list of customers, filter for a customer with the name **Torben**.  
+2. Open the list of customers, filter for a customer with the name **Customer NameChanged**.  
   
      This is the customer that the console application created.  
   
