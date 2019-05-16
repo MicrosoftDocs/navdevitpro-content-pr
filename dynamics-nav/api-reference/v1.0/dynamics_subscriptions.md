@@ -120,8 +120,8 @@ Content-type: application/json
   ]
 }
 ```
-|||
-|--------|----|------|
+|  |  |  |
+|--|--|--|
 |accounts|companyInformation|countriesRegions|
 |currencies|customerPaymentJournals|customers|
 |dimensions|employees|generalLedgerEntries|
