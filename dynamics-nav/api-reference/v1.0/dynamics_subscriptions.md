@@ -106,6 +106,7 @@ To remove a subscription, execute a [delete request](api/dynamics_subscription_d
 
 ## Supported entities
 To get a list of webhook supported entitites, the following request can be issued. The $filter parameter ensures that only v1.0 APIs are returned. Filter can be removed or changed.
+
 ```json
 GET https://api.businesscentral.dynamics.com/v1.0/api/microsoft/runtime/beta/companies({{companyId}})/webhookSupportedResources?$filter=resource eq 'v1.0*' 
 Content-type: application/json
@@ -120,6 +121,8 @@ Content-type: application/json
   ]
 }
 ```
+
+| | | |
 |--|--|--|
 |accounts|companyInformation|countriesRegions|
 |currencies|customerPaymentJournals|customers|
