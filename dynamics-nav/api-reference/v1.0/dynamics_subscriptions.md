@@ -24,7 +24,7 @@ Content-type: application/json
 {
   "notificationUrl": "https://{notificationUrl}",
   "resource": "/api/v1.0/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
-  "clientState": "optionalValueOf250"
+  "clientState": "optionalValueOf2048"
 }
 ```
 
@@ -105,40 +105,38 @@ Notifications are not sent immediately when the record changes. By delaying noti
 To remove a subscription, execute a [delete request](api/dynamics_subscription_delete.md).
 
 ## Supported entities
-The following entities have webhooks support:
+To get a list of webhook supported entitites, the following request can be issued. The $filter parameter ensures that only v1.0 APIs are returned. Filter can be removed or changed.
 
-- accounts
-- companyInformation
-- countriesRegions
-- currencies
-- customerPaymentJournals
-- customers
-- dimensions
-- employees
-- generalLedgerEntries
-- itemCategories
-- items
-- journals
-- paymentMethods
-- paymentTerms
-- purchaseInvoices
-- salesCreditMemos
-- salesInvoices
-- salesOrders
-- salesQuotes
-- shipmentMethods
-- unitsOfMeasure
-- vendors
-
-<!-- 
-Supported entities can vary from company to company, as extensions can be installed which exposes API Pages. To get a list of supported entities for a company issue follow request:
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/microsoft/runtime/v1.0/companies({id})/webhookSupportedEntities
+GET https://api.businesscentral.dynamics.com/v1.0/api/microsoft/runtime/beta/companies({{companyId}})/webhookSupportedResources?$filter=resource eq 'v1.0*' 
+Content-type: application/json
+{  
+  "value": [
+  {
+      "resource": "v1.0/accounts"
+  },
+  {
+      "resource": "v1.0/companyInformation"
+  }......
+  ]
+}
 ```
-Subscriptions are not possible for API pages that are based on: 
-- Query objects of the type API.
-- Pages that have composite keys (multi value keys).
-- Pages that use temporary or system tables as a source. -->
+
+| | | |
+|--|--|--|
+|accounts|companyInformation|countriesRegions|
+|currencies|customerPaymentJournals|customers|
+|dimensions|employees|generalLedgerEntries|
+|itemCategories|items|journals|
+|paymentMethods|paymentTerms|purchaseInvoices|
+|salesCreditMemos|salesInvoices|salesOrders|
+|salesQuotes|shipmentMethods|unitsOfMeasure|
+|vendors|||
+
+
+For Document APIs, a notification will be sent for the header if a change is made a to a line. E.g. a notfication to a subscription for **salesInvoice** will be sent, if a change is made to a related **salesInvoiceLine**.  
+
+Custom APIs are also webhook-enabled and will be listed in **webhookSupportedResources** if [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] is able to send notifications for the entity.
 
 ## Notes for on-premise
 By default, a subscription lives for 3 days if it is not renewed. The value is specified in the CustomSettings.config file under the ApiSubscriptionExpiration entry. There is a maximum number of subscriptions specified in the ApiSubscriptionMaxNumberOfSubscriptions in the CustomSettings.config file.
