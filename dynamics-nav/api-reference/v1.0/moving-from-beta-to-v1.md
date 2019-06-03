@@ -1,5 +1,5 @@
 ---
-title: Moving from Beta to v1.0 | Microsoft Docs
+title: Moving from beta to v1.0 | Microsoft Docs
 description: Changes from the beta version of the APIs to the v1.0 of the APIs in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -19,9 +19,9 @@ With the April'19 release of [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 API version numbers are mananged in the URI `https://api.businesscentral.dynamics.com/{GATEWAY VERSION}/api/{API VERSION}/`. For example, for v1.0 the URI is `https://api.businesscentral.dynamics.com/v1.0/api/v1.0/`.
 
 > [!IMPORTANT]  
-> The Beta API will remain live until April 2020. It's recommended to move to v1.0 as soon as possible. When moving from **beta** to **v1.0**, pay attention to changes related to URIs of the document APIs, and to the customer APIs where balance, overdueAmount, totalSalesExcludingTax have moved to the customerFinancialDetails API. Other changes are additive.  
+> The beta API will remain live until April 2020. It's recommended to move to v1.0 as soon as possible. When moving from **beta** to **v1.0**, pay attention to changes related to URIs of the document APIs, and to the customer APIs where balance, overdueAmount, totalSalesExcludingTax have moved to the customerFinancialDetails API. Other changes are additive.  
 
-Comparing [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] **Beta** API, to [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] **v1.0** APIs have the following changes.
+Comparing [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] **beta** API, to [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] **v1.0** APIs have the following changes.
 
 |Entity | Changes|
 |-------|--------|
