@@ -1,5 +1,6 @@
 # API for Dynamics 365 Business Central Beta
 ## [API Beta Overview](index.md)
+## [Moving from Beta to V1.0](moving-from-beta-to-v1.md)
 ## [Enabling the APIs for Microsoft Dynamics NAV](../enabling-apis-for-dynamics-nav.md)
 ## [Endpoints for the APIs](../endpoints-apis-for-dynamics.md)
 ## [Working with Webhooks](dynamics_subscriptions.md)
