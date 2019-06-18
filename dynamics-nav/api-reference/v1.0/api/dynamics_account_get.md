@@ -10,12 +10,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 06/14/2019
 ms.author: solsen
 ---
 
 # Get accounts
-Retrieve the properties and relationships of an account object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Retrieve the properties and relationships of an account object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
+
+> [!NOTE]  
+> Only accounts with the account type set to **Posting** and the **Direct Posting** flag set to **true** are returned.
 
 ## HTTP request
 ```
