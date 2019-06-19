@@ -69,4 +69,5 @@ The error codes in the table below can be divided into the following categories 
 |Any|Any|Unknown|
 
 ## See also
-[API(Beta) for Dynamics 365 Business Central](index.md) 
+[Dynamics 365 Business Central in Graph](https://docs.microsoft.com/en-us/graph/api/resources/dynamics-graph-reference?view=graph-rest-beta) 
+
