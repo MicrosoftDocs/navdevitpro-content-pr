@@ -12,7 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2019
 ms.author: solsen
-redirect_url: ../index.md
+redirect_url: ../index
 ---
 
 # Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph
