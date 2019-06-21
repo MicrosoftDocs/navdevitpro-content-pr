@@ -15,7 +15,7 @@ redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-a
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
 # COPY Method (Record)
-Copies a specified record, filters, marks, and keys that are associated with the record from a table or creates a reference to a record.  
+Copies a specified record's filters, views, automatically calculated FlowFields, marks, fields and keys that are associated with the record from a table or creates a reference to a record.  
   
 ## Syntax  
   
@@ -38,7 +38,7 @@ Record.COPY(FromRecord [, ShareTable])
  *ShareTable*  
  Type: Boolean  
   
- Specifies whether the method copies filters, marks, and keys of the record or creates a reference to a temporary record.  
+ Specifies whether the method copies filters, views, automatically calculated FlowFields, marks, fields and keys of the record or creates a reference to a temporary record.  
   
  If *FromRecord* and *Record* are both temporary and *ShareTable* is **true**, then the **COPY** method causes *Record* to reference the same table as *FromRecord*.  
   
