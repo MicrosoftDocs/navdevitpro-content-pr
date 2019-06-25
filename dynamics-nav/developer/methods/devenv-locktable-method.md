@@ -25,5 +25,9 @@ Ordinarily, when you are developing applications, you do not want to consider tr
  LOCKTABLE has the following syntax.  
 
 ```  
-Record.LOCKTABLE  
+ Record.LockTable([Wait: Boolean], [VersionCheck: Boolean]) 
 ```
+
+## See Also  
+ [LOCKTABLE Method \(Record\)](devenv-LOCKTABLE-Method-Record.md)   
+ [LOCKTABLE Method \(RecordRef\)](devenv-LOCKTABLE-Method-RecordRef.md)

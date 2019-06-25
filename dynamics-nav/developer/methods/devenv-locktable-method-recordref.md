@@ -20,8 +20,7 @@ Locks a table to protect it from write transactions that conflict with each othe
 ## Syntax  
   
 ```  
-  
-RecordRef.LOCKTABLE  
+ Record.LOCKTABLE([Wait: Boolean], [VersionCheck: Boolean])
 ```  
   
 #### Parameters  
@@ -29,14 +28,21 @@ RecordRef.LOCKTABLE
  Type: RecordRef  
   
  The RecordRef that refers to the table that you want to lock.  
-  
+ 
+*Wait*  
+&emsp;Type: [Boolean](../boolean/boolean-data-type.md)  
+Specifies what to do if the table is already locked. If this parameter is true and if another application has already locked the table, the system will wait until the table is unlocked. If this parameter is false and if another application has already locked the table, a run-time error occurs.  
+*VersionCheck*  
+&emsp;Type: [Boolean](../boolean/boolean-data-type.md)  
+If this parameter is true, the version of the RecordRef will be checked. If this parameter is false, blank, or not used, the version will not be checked. 
+
 ## Remarks  
  Because all write operations automatically lock the table that is being used, LOCKTABLE would appear unnecessary. However, you could have a transaction in which an application wants to inspect data before possibly changing it, with a guarantee that the data being changed has not been modified by other applications since the read operation. The solution is to explicitly lock the table before the read operation. This makes sure that no other application makes changes between the read operation and the possible write operation.  
   
  This method works the same as the [LOCKTABLE Method \(Record\)](devenv-LOCKTABLE-Method-Record.md).  
   
 ## Example  
- The following example opens table number 18 \(Customer\) as a RecordRef that is named MyRecordRef. The LOCKTABLE method locks the table. This is ensures that no records are inserted or deleted during the counting process. The [COUNT Method \(RecordRef\)](devenv-COUNT-Method-RecordRef.md) then retrieves the number of records in the table. The number of records is stored in the Count variable. The name of the table and the number of records in the table is displayed in a message box. The varTableNo variable can be used to open any table and get the number of records in that table by changing the value of the varTableNo variable. This example requires that you create the following global variables and text constant.  
+ The following example opens table number 18 \(Customer\) as a RecordRef that is named MyRecordRef. The LOCKTABLE method locks the table. This ensures that no records are inserted or deleted during the counting process. The [COUNT Method \(RecordRef\)](devenv-COUNT-Method-RecordRef.md) then retrieves the number of records in the table. The number of records is stored in the Count variable. The name of the table and the number of records in the table is displayed in a message box. The varTableNo variable can be used to open any table and get the number of records in that table by changing the value of the varTableNo variable. This example requires that you create the following global variables and text constant.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
