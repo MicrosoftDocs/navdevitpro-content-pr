@@ -1,7 +1,6 @@
 ---
 title: Update vendor defaultDimensions | Microsoft Docs
 description: Updates the vendor default dimensions in Dynamics 365 Business Central.
-author: SusanneWindfeldPedersen
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

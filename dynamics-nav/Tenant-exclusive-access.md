@@ -1,6 +1,5 @@
 ---
 title: "Tenant Exclusive Access"
-author: edupont04
 ms.custom: na
 ms.date: 12/28/2016
 ms.reviewer: na
