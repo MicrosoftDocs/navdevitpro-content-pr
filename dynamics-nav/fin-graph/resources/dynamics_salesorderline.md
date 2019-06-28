@@ -57,7 +57,7 @@ Represents a line on a sales order in [!INCLUDE[d365fin_long_md](../../includes/
 |netTaxAmount|numeric|The net tax amount is the tax amount calculated from net amount. Read-Only.|
 |netAmountIncludingTax|numeric|The net amount including tax is the total net amount including tax. Read-Only.|
 |shipmentDate|date|The date the item in the line is expected to ship.|
-|shippedQuantity|numeric|The quantity of items from the order already shipped.|
+|shippedQuantity|numeric|The quantity of items from the order already shipped. Read-Only.|
 |invoicedQuantity|numeric|The quantity of items from the order already invoiced.|
 |invoiceQuantity|numeric|The quantity of items from the order to be invoiced.|
 |shipQuantity|numeric|The quantity of items from the order to be shipped.|

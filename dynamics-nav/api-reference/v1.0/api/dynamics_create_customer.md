@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 06/28/2019
 ms.author: solsen
 ---
 
@@ -33,7 +33,7 @@ POST /businesscentral/companies({id})/customers
 In the request body, supply a JSON representation of **customers** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a **customers** object in the response body.
+If successful, this method returns `201 Created` response code and a **customers** object in the response body.
 
 ## Example
 
@@ -61,7 +61,6 @@ Content-type: application/json
   "website": "",
   "taxLiable": true,
   "taxAreaId": "taxAreaId-value",
-  "taxAreaDisplayName": "tax area",
   "taxRegistrationNumber": "28012001T",
   "currencyId": "currencyId-value",
   "currencyCode": "USD",

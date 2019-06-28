@@ -61,7 +61,6 @@ Content-type: application/json
   "website": "",
   "taxLiable": true,
   "taxAreaId": "taxAreaId-value",
-  "taxAreaDisplayName": "tax area",
   "taxRegistrationNumber": "28012001T",
   "currencyId": "currencyId-value",
   "currencyCode": "USD",
