@@ -24,5 +24,9 @@ The table lock is released (unlocked) when the transaction is committed.
  LOCKTABLE has the following syntax.  
   
 ```  
-Record.LOCKTABLE  
+Record.LOCKTABLE([Wait: Boolean], [VersionCheck: Boolean])
 ```
+
+## See Also  
+ [LOCKTABLE Function \(Record\)](LOCKTABLE-Function--Record-.md)   
+ [LOCKTABLE Function \(RecordRef\)](LOCKTABLE-Function--RecordRef-.md)
