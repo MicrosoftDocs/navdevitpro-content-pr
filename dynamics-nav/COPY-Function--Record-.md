@@ -12,7 +12,7 @@ caps.latest.revision: 16
 manager: edupont
 ---
 # COPY Function (Record)
-Copies a specified record, filters, marks, and keys that are associated with the record from a table or creates a reference to a record.  
+Copies a specified record's filters, views, automatically calculated FlowFields, marks, fields and keys that are associated with the record from a table or creates a reference to a record. 
   
 ## Syntax  
   
@@ -35,7 +35,7 @@ Record.COPY(FromRecord [, ShareTable])
  *ShareTable*  
  Type: Boolean  
   
- Specifies whether the function copies filters, marks, and keys of the record or creates a reference to a temporary record.  
+Specifies whether the method copies filters, views, automatically calculated FlowFields, marks, fields and keys of the record or creates a reference to a temporary record.    
   
  If *FromRecord* and *Record* are both temporary and *ShareTable* is **true**, then the **COPY** function causes *Record* to reference the same table as *FromRecord*.  
   

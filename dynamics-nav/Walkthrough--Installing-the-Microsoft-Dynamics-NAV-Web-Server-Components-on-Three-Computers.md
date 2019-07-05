@@ -1,6 +1,5 @@
 ---
 title: "Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers"
-author: jswymer
 ms.custom: na
 ms.date: 09/21/2017
 ms.reviewer: na
