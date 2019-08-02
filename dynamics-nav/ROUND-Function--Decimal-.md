@@ -36,10 +36,10 @@ NewNumber := ROUND(Number [, Precision] [, Direction])
   
 2. If you have customized Codeunit 1 and it does not implement the **ReadRounding** function, then the precision is specified as 2 digits after the decimal.  
   
-   *Direction*  
-   Type: Text or Code  
-  
-   This optional parameter specifies how to round the *Number* parameter. The default rounding method is '='. The following are the options for rounding:  
+*Direction*  
+Type: Text or Code  
+
+This optional parameter specifies how to round the *Number* parameter. The default rounding method is '='. The following are the options for rounding:  
   
 -   '=' rounds up or down to the nearest value \(default\). Values of 5 or greater are rounded up. Values less than 5 are rounded down.  
   
@@ -76,7 +76,7 @@ MESSAGE(Text000, Format(DecimalToRound,0,1), Precision, Direction, Result);
   
  On a computer that has the regional format set to English \(United States\), the message window displays the following:  
   
- **ROUND\(1234.56789, 0.001, >\) returns 1,234.568**  
+ **ROUND\(1234.56789, 0.001, '>'\) returns 1,234.568**  
   
  The following table displays some additional ROUND examples.  
   
