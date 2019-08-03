@@ -75,7 +75,7 @@ After publishing a web service, verify that the port that web service applicatio
 
     The endpoint has the format: `http://<Server>:<WebServicePort>/<ServerInstance>/OData`. For example:
   
-    `http://localhost:7048/DynamicsNAV/ODataV`  
+    `http://localhost:7048/DynamicsNAV/OData`  
   
    - `Server` is the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
