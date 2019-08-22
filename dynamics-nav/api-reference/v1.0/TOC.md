@@ -225,4 +225,3 @@
 ### [Delete vendor default dimensions](api/dynamics_vendor_delete_defaultdimensions.md)
 ## [Vendor purchases](resources/dynamics_vendorpurchases.md)
 ### [Get vendor purchases](api/dynamics_vendorpurchases_get.md)
-# [API for Dynamics 365 Business Central - Beta](../../fin-graph/index.md)

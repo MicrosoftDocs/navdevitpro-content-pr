@@ -213,9 +213,11 @@ CASE MyCode OF
   'abc':  
     MESSAGE('This message is not displayed.');   
   'def':  
-    MESSAGE('This message is not displayed.);  
-ELSE  
-  MESSAGE('The value set does not match the expression.');  
+    MESSAGE('This message is not displayed.');  
+  ELSE  
+    MESSAGE('The value set does not match the expression.');
+END;
+  
 ```  
 
  The value set 'abc' is not converted because the evaluated expression MyCode is a Code variable.  
