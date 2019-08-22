@@ -38,8 +38,10 @@ There are several areas to consider, which can reduce the amount of calls from a
     GET /companies({{companyId}})/customers?$filter=lastModifiedDateTime gt 2019-08-18T20:05:51.603Z 
     ```
 
-5. Use [Expand](http://docs.oasis-open.org/odata/odata/v4.01/csprd05/part1-protocol/odata-v4.01-csprd05-part1-protocol.html#_Toc14172769) to fetch related entities in one request. Metadata contains navigational properties from one entity to other entities, where expand can be used. Multi-level expand is possible and can be combined with Filter. 
-GET /companies({{companyId}})/salesOrders?$filter=orderDate ge 2019-05-01&$expand=paymentTerm,salesOrderLines($expand=account,item($expand=itemCategory)) 
+5. Use [Expand](http://docs.oasis-open.org/odata/odata/v4.01/csprd05/part1-protocol/odata-v4.01-csprd05-part1-protocol.html#_Toc14172769) to fetch related entities in one request. Metadata contains navigational properties from one entity to other entities, where expand can be used. Multi-level expand is possible and can be combined with Filter.  
+    ```
+    GET /companies({{companyId}})/salesOrders?$filter=orderDate ge 2019-05-01&$expand=paymentTerm,salesOrderLines($expand=account,item($expand=itemCategory)) 
+    ```
 
 6. Use deep inserts when possible. Body of the POST request can contain nested entities. Metadata will contain a Navigational property from one entity to another, where deep insert is possible. 
     ```
