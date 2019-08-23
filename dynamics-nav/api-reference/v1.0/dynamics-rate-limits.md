@@ -47,21 +47,13 @@ There are several areas to consider, which can reduce the amount of calls from a
     ```
     POST /companies({{companyId}})/salesQuotes 
     { 
-
         "customerId": "{{customerId}}", 
-
-        "salesQuoteLines" :  
-
-        [ 
-
-        {"itemId": "{{itemId}}", "quantity": 10} 
-
-        ] 
-
+        "salesQuoteLines" :  [ 
+        {"itemId": "{{itemId}}", "quantity": 10} ] 
     }
     ``` 
  
-Deep insert can also be performed in Batch calls.
+    Deep insert can also be performed in Batch calls.
 
 ## Rate limits as of August 1st, 2019 
 Limits are subject to change. 
