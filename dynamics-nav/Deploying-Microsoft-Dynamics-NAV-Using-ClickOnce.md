@@ -12,7 +12,10 @@ caps.latest.revision: 42
 manager: edupont
 ---
 # Deploying [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] Using ClickOnce
-This article contains instructions for deploying the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] using the ClickOnce deployment technology. ClickOnce allows you to deploy web applications by choosing a link on a web page. ClickOnce is a component of the Microsoft .NET Framework.  
+This article contains instructions for deploying the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] using the ClickOnce deployment technology. ClickOnce allows you to deploy web applications by choosing a link on a web page. ClickOnce is a component of the Microsoft .NET Framework. 
+
+> [!IMPORTANT]
+> ClickOnce requires Microsoft .NET Framework 4.7.2.
   
 ## ClickOnce installation from the end-user's perspective  
 As an administrator, you wll provide end users with a link to the ClickOnce deployment source, which can point to a file share or a website. The end user will choose the link to the application to install [!INCLUDE[navnow](includes/navnow_md.md)].
