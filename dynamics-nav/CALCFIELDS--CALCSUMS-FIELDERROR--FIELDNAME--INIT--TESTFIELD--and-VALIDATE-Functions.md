@@ -151,7 +151,7 @@ FIELDERROR(
  INIT initializes a record. It has the following syntax.  
   
 ```  
-Name := Record.FIELDNAME(Field)  
+Record.INIT  
 ```  
   
  If a default value for a field has been defined by using the **InitValue** property, this value is used for the initialization. Otherwise, the default value of each data type is used  
