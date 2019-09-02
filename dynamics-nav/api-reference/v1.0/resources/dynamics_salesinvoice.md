@@ -36,9 +36,9 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |[pdfDocument](../api/dynamics_salesquote_pdfdocument.md)|pdfDocument|Gets a PDF document.|
 |[currency](../resources/dynamics_currencies.md)|currency   |Gets the currency. |
 |[paymentTerm](../resources/dynamics_paymentTerms.md)|paymentTerm   |Gets the paymentTerm. |
-|[shipmentMethod](../resources/dynamics_shipmentMethods.md)|paymentMethod   |Gets the paymentMethod. |
-|[customer](../resources/dynamics_customer.md)|paymentMethod   |Gets the customer. |
-|[salesInvoiceLines](../resources/dynamics_salesinvoiceline.md)|paymentMethod   |Gets the paymentMethod. |
+|[shipmentMethod](../resources/dynamics_shipmentMethods.md)|shipmentMethod  |Gets the method of shipment. |
+|[customer](../resources/dynamics_customer.md)|customer   |Gets the customer. |
+|[salesInvoiceLines](../resources/dynamics_salesinvoiceline.md)|salesInvoiceLines   |Gets the line on a sales invoice. |
 
 
 
