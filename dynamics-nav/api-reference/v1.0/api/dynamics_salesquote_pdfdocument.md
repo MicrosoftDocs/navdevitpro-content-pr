@@ -28,7 +28,7 @@ The following example gets a link to the content of the PDF:
 GET /businesscentral/api/v1.0/companies({id})/salesQuote({quoteId})/pdfDocument
 GET /businesscentral/api/v1.0/companies({id})/salesInvoice({salesInvoiceId})/pdfDocument
 GET /businesscentral/api/v1.0/companies({id})/salesCreditMemo(salesCreditMemoId})/pdfDocument
-GET /businesscentral/api/v1.0/companies({id})/purchaseInvoide({purchaseInvoiceId})/pdfDocument
+GET /businesscentral/api/v1.0/companies({id})/purchaseInvoice({purchaseInvoiceId})/pdfDocument
 
 ```
 
