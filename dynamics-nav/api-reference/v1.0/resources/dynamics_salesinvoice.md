@@ -38,7 +38,7 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |[paymentTerm](../resources/dynamics_paymentTerms.md)|paymentTerm   |Gets the paymentTerm. |
 |[shipmentMethod](../resources/dynamics_shipmentMethods.md)|shipmentMethod  |Gets the method of shipment. |
 |[customer](../resources/dynamics_customer.md)|customer   |Gets the customer. |
-|[salesInvoiceLines](../resources/dynamics_salesinvoiceline.md)|salesInvoiceLines   |Gets the line on a sales invoice. |
+|[salesInvoiceLines](../resources/dynamics_salesinvoiceline.md)|salesInvoiceLines   |Gets a line on a sales invoice. |
 
 
 
