@@ -19,7 +19,7 @@ Webhooks is the way to get notified if an entity changes in [!INCLUDE[d365fin_lo
 Using webhooks requires the client/subscriber to perform a handshake with [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] to register the webhook subscription.
  
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions 
+POST https://{businesscentralPrefix}/api/beta/subscriptions 
 Content-type: application/json
 {
   "notificationUrl": "https://{notificationUrl}",
@@ -42,7 +42,7 @@ Optionally clientState can be provided in the `POST` and `PATCH` requests bodies
 Subscriptions will expire after 3 days, if not renewed before. Subscriptions are renewed by issuing a [PATCH](api/dynamics_subscription_update.md) request to the subscription.
 
 ```
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions({id}) 
+PATCH https://{businesscentralPrefix}/api/beta/subscriptions({id}) 
 ```
 
 `PATCH` requests a handshake, just like `POST` requests, meaning that a subscription cannot be renewed unless the client returns the `validationToken` in the body.
@@ -133,7 +133,7 @@ The following entities have webhooks support:
 <!-- 
 Supported entities can vary from company to company, as extensions can be installed which exposes API Pages. To get a list of supported entities for a company issue follow request:
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/microsoft/runtime/beta/companies({id})/webhookSupportedEntities
+GET https://{businesscentralPrefix}/api/microsoft/runtime/beta/companies({id})/webhookSupportedEntities
 ```
 Subscriptions are not possible for API pages that are based on: 
 - Query objects of the type API.

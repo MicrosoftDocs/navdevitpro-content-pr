@@ -18,8 +18,9 @@ ms.author: solsen
 Retrieve the properties and relationships of an attachments object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 ```
-GET /businesscentral/companies({id})/attachments$filter=parentId eq {journalLineId}
+GET businesscentralPrefix/companies({id})/attachments$filter=parentId eq {journalLineId}
 ```
 
 > [!NOTE]  
@@ -44,7 +45,7 @@ If successful, this method returns a ```200 OK``` response code and an **attachm
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/attachments$filter=parentId eq {journalLineId}
+GET https://{businesscentralPrefix}/api/v1.0/companies({id})/attachments$filter=parentId eq {journalLineId}
 ```
 
 **Response**
@@ -60,8 +61,8 @@ Here is an example of the response.
     "id": "7786c70a-31ee-43a3-9746-2d720496469e",
     "fileName": "someFileName.pdf",
     "byteSize": 597568,
-    "content@odata.mediaEditLink": "https://api.businesscentral.dynamics.com/v1.0/bc66bcbc-5b7f-4043-b352-f4ab70c81d11/api/v1.0/companies(d888c94e-0bf9-42e5-96eb-060739125558)/attachments(parentId=8bdf7f18-ac81-4cf6-a018-7dd2313d827f,id=7786c70a-31ee-43a3-9746-2d720496469e)/content",
-    "content@odata.mediaReadLink": "https://api.businesscentral.dynamics.com/v1.0/bc66bcbc-5b7f-4043-b352-f4ab70c81d11/api/v1.0/companies(d888c94e-0bf9-42e5-96eb-060739125558)/attachments(parentId=8bdf7f18-ac81-4cf6-a018-7dd2313d827f,id=7786c70a-31ee-43a3-9746-2d720496469e)/content",
+    "content@odata.mediaEditLink": "https://{businesscentralPrefix}/bc66bcbc-5b7f-4043-b352-f4ab70c81d11/api/v1.0/companies(d888c94e-0bf9-42e5-96eb-060739125558)/attachments(parentId=8bdf7f18-ac81-4cf6-a018-7dd2313d827f,id=7786c70a-31ee-43a3-9746-2d720496469e)/content",
+    "content@odata.mediaReadLink": "https://{businesscentralPrefix}/bc66bcbc-5b7f-4043-b352-f4ab70c81d11/api/v1.0/companies(d888c94e-0bf9-42e5-96eb-060739125558)/attachments(parentId=8bdf7f18-ac81-4cf6-a018-7dd2313d827f,id=7786c70a-31ee-43a3-9746-2d720496469e)/content",
     "lastModifiedDateTime": "2019-03-25T13:15:41Z"
 }
 ```

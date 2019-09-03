@@ -19,7 +19,7 @@ Webhooks is the way to get notified if an entity changes in [!INCLUDE[d365fin_lo
 Using webhooks requires the client/subscriber to perform a handshake with [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] to register the webhook subscription.
  
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/v1.0/subscriptions 
+POST https://{businesscentralPrefix}/api/v1.0/subscriptions 
 Content-type: application/json
 {
   "notificationUrl": "https://{notificationUrl}",
@@ -42,7 +42,7 @@ Optionally clientState can be provided in the `POST` and `PATCH` requests bodies
 Subscriptions will expire after 3 days, if not renewed before. Subscriptions are renewed by issuing a [PATCH](api/dynamics_subscription_update.md) request to the subscription.
 
 ```
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/v1.0/subscriptions({id}) 
+PATCH https://{businesscentralPrefix}/api/v1.0/subscriptions({id}) 
 ```
 
 `PATCH` requests a handshake, just like `POST` requests, meaning that a subscription cannot be renewed unless the client returns the `validationToken` in the body.
@@ -108,7 +108,7 @@ To remove a subscription, execute a [delete request](api/dynamics_subscription_d
 To get a list of webhook supported entitites, the following request can be issued. The $filter parameter ensures that only v1.0 APIs are returned. Filter can be removed or changed.
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/microsoft/runtime/beta/companies({{companyId}})/webhookSupportedResources?$filter=resource eq 'v1.0*' 
+GET https://{businesscentralPrefix}/api/microsoft/runtime/beta/companies({{companyId}})/webhookSupportedResources?$filter=resource eq 'v1.0*' 
 Content-type: application/json
 {  
   "value": [

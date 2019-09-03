@@ -18,8 +18,9 @@ ms.author: solsen
 Create a tax groups object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 ```
-POST /businesscentral/companies({id})/taxGroups
+POST businesscentralPrefix/companies({id})/taxGroups
 ```
 
 ## Request headers
@@ -42,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a **taxGr
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/taxGroups
+POST https://{businesscentralPrefix}/api/beta/companies({id})/taxGroups
 Content-type: application/json
 
 {

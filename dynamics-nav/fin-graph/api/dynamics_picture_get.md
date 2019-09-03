@@ -18,8 +18,9 @@ ms.author: solsen
 Retrieve the properties and relationships of a picture object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 ```
-GET /businesscentral/companies({companyId})/items({itemId})/picture
+GET businesscentralPrefix/companies({companyId})/items({itemId})/picture
 ```
 
 ## Request headers
@@ -43,7 +44,7 @@ Here is an example of the request.
 **GET Metadata** 
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies(companyId)/items(itemId)/picture(itemId)/picture
+GET https://{businesscentralPrefix}/api/beta/companies(companyId)/items(itemId)/picture(itemId)/picture
 ```
 **Response**
 
@@ -66,7 +67,7 @@ Here is an example of the response.
 **GET Content**
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies(companyId)/items(itemId)/picture(itemId)/content
+GET https://{businesscentralPrefix}/api/beta/companies(companyId)/items(itemId)/picture(itemId)/content
 ```
 
 **Response**

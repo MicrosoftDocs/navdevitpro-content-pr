@@ -19,8 +19,9 @@ Retrieve the properties and relationships of a general ledger entry object for [
 
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 ```
-GET /businesscentral/companies({id})/generalLedgerEntries({id})
+GET businesscentralPrefix/companies({id})/generalLedgerEntries({id})
 ```
 
 ## Request headers
@@ -41,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and a **generalL
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/v1.0/businesscentral/companies({id})/generalLedgerEntries({id})
+GET https://graph.microsoft.com/v1.0businesscentralPrefix/companies({id})/generalLedgerEntries({id})
 ```
 
 **Response**

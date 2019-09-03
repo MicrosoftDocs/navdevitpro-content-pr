@@ -18,6 +18,7 @@ ms.author: solsen
 Retrieve the properties and relationships of a sales quote object for Dynamics 365 Business Central.
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 
 ```
 GET /financials/companies({id})/salesQuotes({id})
