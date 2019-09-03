@@ -35,7 +35,7 @@ ID := USERID
   
 |Text constant name|ConstValue|  
 |------------------------|----------------|  
-|Text000|The client was started by %1.|  
+|Text000|The system was started by %1.|  
   
 ```  
 User := USERID;  

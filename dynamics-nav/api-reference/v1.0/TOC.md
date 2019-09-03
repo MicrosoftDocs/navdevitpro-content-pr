@@ -4,6 +4,7 @@
 ## [Enabling the APIs for Microsoft Dynamics NAV](enabling-apis-for-dynamics-nav.md)
 ## [Endpoints for the APIs](endpoints-apis-for-dynamics.md)
 ## [Working with Webhooks](dynamics_subscriptions.md)
+## [API Rate Limits](dynamics-rate-limits.md)
 ## [Error Codes](dynamics_error_codes.md)
 ## [Account](resources/dynamics_account.md)
 ### [Get account](api/dynamics_account_get.md)
@@ -225,4 +226,3 @@
 ### [Delete vendor default dimensions](api/dynamics_vendor_delete_defaultdimensions.md)
 ## [Vendor purchases](resources/dynamics_vendorpurchases.md)
 ### [Get vendor purchases](api/dynamics_vendorpurchases_get.md)
-# [API for Dynamics 365 Business Central - Beta](../../fin-graph/index.md)
