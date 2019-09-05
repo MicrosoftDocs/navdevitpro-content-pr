@@ -16,6 +16,7 @@ ms.author: solsen
 
 # Moving from Beta to v1.0
 With the April'19 release of [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)], the Standard APIs were released in version 1.0.  
+
 API version numbers are mananged in the URI `https://api.businesscentral.dynamics.com/v2.0/{environment name}/api/{API VERSION}/`. For example, for v1.0 of the API the URI is `https://api.businesscentral.dynamics.com/v2.0/production/api/v1.0/`.
 
 > [!IMPORTANT]  
