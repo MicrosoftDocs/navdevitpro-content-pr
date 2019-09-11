@@ -38,7 +38,7 @@ You can specify page settings and page orientation for a printed report from the
  The following table describes how you access each of the dialog boxes in which you can specify page settings and orientation.  
   
 |Print mode|To access the **Report Properties** dialog box|To access the **Print** dialog box|To access the **Page Setup** dialog box|  
-|----------------|----------------------------------------------------|-------------------------------------------------------------|----------------------------------------|---------------------------------------------|  
+|----------------|----------------------------------------------------|-------------------------------------------------------------|----------------------------------------|
 |Run a report that does not have a request page|When you design the report layout in Visual Studio, on the **Report** menu, choose **Report Properties**.|Cannot access|Cannot access|  
 |Print a report from the request page without previewing|When you design the report layout in Visual Studio, on the **Report** menu, choose **Report Properties**.|From the client, on the request page, choose **Print**.|Cannot access|  
 |View a preview of a report|When you design the report layout in Visual Studio, on the **Report** menu, choose **Report Properties**.|In the **Print Preview** window, choose the **Print** icon.|In the client, in the **Print Preview** window, choose the **Page Setup** icon.|  
@@ -46,11 +46,11 @@ You can specify page settings and page orientation for a printed report from the
 ## How Printed Report Settings Are Determined  
  The following table describes how the page and orientation settings are determined depending on mode that you use to print the report.  
   
-|Printing mode|The printed report paper size, margins and orientation are determined by|
+|Print mode|The printed report paper size, margins and orientation are determined by|
 |--------|----------------------------------------------------------------------|
 |Printing a Report Without a Request Page|The settings in the **Report Properties** dialog box on the RDLC layout.|  
 |Printing a Report From the Request Page |The settings in the **Report Properties** dialog box on the RDLC layout but is overridden if you change the settings in the **Print** dialog box.| 
-|Printing a Report From the Print Preview Page| The settings in the **Report Properties** dialog box on the RDLC layout but is overridden if you change the settings in the **Page Setup** dialog box.|
+|Printing a Report From the Print Preview Page|The settings in the **Report Properties** dialog box on the RDLC layout but is overridden if you change the settings in the **Page Setup** dialog box.|
 
 > [!NOTE]
 > The values in the **Print** dialog box and in the **Page Setup** dialog box are initially set to the values from the Report Properties dialog box on the RDLC report layout.
