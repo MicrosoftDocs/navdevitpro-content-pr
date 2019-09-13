@@ -10,6 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/03/2018
 ms.author: solsen, henrikwh
+ROBOTS: NOINDEX
 ---
 
 # Delete subscriptions

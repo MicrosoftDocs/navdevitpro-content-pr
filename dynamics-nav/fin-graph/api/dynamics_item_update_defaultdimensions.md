@@ -12,6 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/22/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Update item defaultDimensions

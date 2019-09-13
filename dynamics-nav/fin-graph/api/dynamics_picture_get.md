@@ -12,6 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/16/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Get picture
