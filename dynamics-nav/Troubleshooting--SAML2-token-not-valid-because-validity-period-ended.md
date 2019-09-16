@@ -13,7 +13,7 @@ author: jswymer
 ---
 # Troubleshooting: The SAML2 token is not valid because its validity period has ended
 
-When using Azure Active Directory authentication, while working in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], users get an error similar to the following: 
+When using Azure Active Directory authentication, while working in the client, users get an error similar to the following: 
 
 **Connection is not longer available or was lost**
 
@@ -27,7 +27,4 @@ This error occurs because the security token that used by Azure AD has exceeded 
 
 
 ## See Also  
- [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
- [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md)   
- [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)   
- [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers](Walkthrough--Installing-the-Microsoft-Dynamics-NAV-Web-Server-Components-on-Three-Computers.md)
+ [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)
