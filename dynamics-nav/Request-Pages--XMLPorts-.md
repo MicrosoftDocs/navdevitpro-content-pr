@@ -45,9 +45,9 @@ A request page is a dialog box that appears when an XMLport is run from Object D
  In a complex XMLport that uses data from several tables, the functionality may depend on a specific key and sort order. Design your XMLports so that users cannot change the sort order in a way that affects the functionality of the XMLport.  
   
 ## Exporting and Importing Data  
- If the [Format Property \(XMLports\)](Format-Property--XMLports-.md) of the XMLport is set to **Both**, the XMLport can be used to import or export data. In that case, from the request page, users can choose whether to import or export the data from the **Direction** list. By default, **Import** is selected. If **Import** is selected and you choose the **OK** button, the **Import** window, where you can select the file to import opens. If you select **Export** and you choose the **OK** button, the **Export File** dialog box is displayed. On the dialog box, you can open the file or save it to your computer.  
+ If the [Direction Property \(XMLports\)](direction-property.md) of the XMLport is set to **Both**, the XMLport can be used to import or export data. In that case, from the request page, users can choose whether to import or export the data from the **Direction** list. By default, **Import** is selected. If **Import** is selected and you choose the **OK** button, the **Import** window, where you can select the file to import opens. If you select **Export** and you choose the **OK** button, the **Export File** dialog box is displayed. On the dialog box, you can open the file or save it to your computer.  
   
- If the [Format Property \(XMLports\)](Format-Property--XMLports-.md) is set to either **Import** or **Export**, then the **Direction** list box is not displayed on the request page.  
+ If the [Direction Property \(XMLports\)](direction-property.md) is set to either **Import** or **Export**, then the **Direction** list box is not displayed on the request page.  
   
 ## See Also  
  [Designing XMLports](Designing-XMLports.md)   
