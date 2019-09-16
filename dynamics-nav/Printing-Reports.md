@@ -44,7 +44,7 @@ You can specify page settings and page orientation for a printed report from the
 |View a preview of a report|When you design the report layout in Visual Studio, on the **Report** menu, choose **Report Properties**.|In the **Print Preview** window, choose the **Print** icon.|In the client, in the **Print Preview** window, choose the **Page Setup** icon.|  
   
 ## How Printed Report Settings Are Determined  
- The following table describes how the page and orientation settings are determined depending on mode that you use to print the report.  
+ The following table describes how the page and orientation settings are determined depending on the mode that you use to print the report.  
   
 |Print mode|The printed report paper size, margins and orientation are determined by|
 |--------|----------------------------------------------------------------------|
