@@ -188,3 +188,4 @@ You configure the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] by modifyi
  [How to: Sign Up for a Microsoft Account](How-to--Sign-Up-for-a-Microsoft-Account.md)   
  [How to: Sign Up for a Microsoft Azure Subscription](How-to--Sign-Up-for-a-Microsoft-Azure-Subscription.md)  
  [Configuring Dynamics NAV and the Excel Add-In](configuring-dynamics-nav-excel-addin.md)  
+[Troubleshooting: The SAML2 token is not valid because its validity period has ended](Troubleshooting--SAML2-token-not-valid-because-validity-period-ended.md)
