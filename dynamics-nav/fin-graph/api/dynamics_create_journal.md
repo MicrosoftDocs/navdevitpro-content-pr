@@ -12,15 +12,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Create journals
 Creates a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-POST /businesscentral/companies({id})/journals({id})
+POST businesscentralPrefix/companies({id})/journals({id})
 ```
 
 ## Request headers
@@ -43,7 +45,7 @@ If successful, this method returns ```201 Created``` response code and a **journ
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/journals
+POST https://{businesscentralPrefix}/api/beta/companies({id})/journals
 Content-type: application/json
 ```json
 {

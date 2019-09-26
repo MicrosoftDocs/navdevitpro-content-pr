@@ -16,8 +16,9 @@ ms.author: solsen, henrikwh
 Updates a subscriptions object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. A subscription is valid for 3 days unless it is updated. `PATCH` requests will perform a handshake with the subscriber.
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 ```
-PATCH /businesscentral/subscriptions({id})
+PATCH businesscentralPrefix/subscriptions({id})
 ```
 
 ## Request headers
@@ -29,7 +30,7 @@ PATCH /businesscentral/subscriptions({id})
 ## Request body
 Here is an example of the request.
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/v1.0/subscriptions({id})
+PATCH https://{businesscentralPrefix}/api/v1.0/subscriptions({id})
 Content-type: application/json
 
 {
@@ -49,7 +50,7 @@ If successful, this method returns a `200 OK` response code and a **subscription
 
 Here is an example of the request.
 ```
-https://api.businesscentral.dynamics.com/v1.0/api/v1.0/subscriptions({id}) 
+https://{businesscentralPrefix}/api/v1.0/subscriptions({id}) 
 
 ```
 

@@ -18,9 +18,10 @@ ms.author: solsen
 Create a sales invoice line object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-POST /businesscentral/companies({id})/salesInvoices({id})/salesInvoiceLines
+POST businesscentralPrefix/companies({id})/salesInvoices({id})/salesInvoiceLines
 ```
 
 ## Request headers
@@ -43,7 +44,7 @@ If successful, this method returns ```201 Created``` response code and a **sales
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/salesInvoices({id})/salesInvoiceLines
+POST https://{businesscentralPrefix}/api/v1.0/companies({id})/salesInvoices({id})/salesInvoiceLines
 Content-type: application/json
 
 {

@@ -12,15 +12,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Update customerPaymentsJournals
 Update the properties of a customer payments journal object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-PATCH /businesscentral/companies({id})/customerPaymentsJournals({id})
+PATCH businesscentralPrefix/companies({id})/customerPaymentsJournals({id})
 ```
 
 ## Request headers
@@ -44,7 +46,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 Here is an example of the request.
 
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customerPaymentsJournals({id})
+PATCH https://{businesscentralPrefix}/api/beta/companies({id})/customerPaymentsJournals({id})
 Content-type: application/json
 
 {

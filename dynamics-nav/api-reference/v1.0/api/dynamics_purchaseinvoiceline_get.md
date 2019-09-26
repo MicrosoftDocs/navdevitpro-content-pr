@@ -20,9 +20,10 @@ Retrieve the properties and relationships of a purchase invoice line object for 
 ## Prerequisites
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-GET /businesscentral/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines({purchaseInvoiceLineId})
+GET businesscentralPrefix/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines({purchaseInvoiceLineId})
 ```
 
 ## Request headers
@@ -43,7 +44,7 @@ If successful, this method returns a ```200 OK``` response code and a **purchase
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines({purchaseInvoiceLineId})
+GET https://{businesscentralPrefix}/api/v1.0/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines({purchaseInvoiceLineId})
 ```
 
 **Response**

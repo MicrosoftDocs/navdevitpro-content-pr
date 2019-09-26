@@ -12,6 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/25/2017
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Error Codes

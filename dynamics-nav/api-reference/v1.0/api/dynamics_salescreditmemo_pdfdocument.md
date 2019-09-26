@@ -21,10 +21,11 @@ Retrieve a PDF print-out of the corresponding document as binary content for [!I
 > To generate a document in the supported local language, you must specify `Accept-Language` in the Request header, for example `Accept-Language: nl-NL` for Dutch.
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 The following example gets a link to the content of the PDF:
 
 ```
-GET /businesscentral/api/v1.0/companies({id})/salesCreditMemos({creditMemoId})/pdfDocument
+GET businesscentralPrefix/api/v1.0/companies({id})/salesCreditMemos({creditMemoId})/pdfDocument
 ```
 
 ## Request headers
@@ -45,7 +46,7 @@ If successful, this method returns a ```200 OK``` response code and a link to th
 Here is an example of the request.
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/salesCreditMemos({creditMemoId})/pdfDocument
+GET https://{businesscentralPrefix}/api/v1.0/companies({id})/salesCreditMemos({creditMemoId})/pdfDocument
 ```
 
 **Response**
@@ -73,8 +74,9 @@ Here is an example of the response.
 The pdfDocument is not supported for unposted sales credit memos. The sales credit memo must be posted before it is printed; if it is not posted, the response will return an error.
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 The following example gets the actual PDF document:
-`GET /businesscentral/api/v1.0/companies({companyid})/salesCreditMemos({creditMemoId})/pdfDocument({id})/content`
+`GET businesscentralPrefix/api/v1.0/companies({companyid})/salesCreditMemos({creditMemoId})/pdfDocument({id})/content`
 
 ## Request headers
 
@@ -94,7 +96,7 @@ If successful, this method returns a `200 OK` response code and the PDF document
 Here is an example of the request.
 
 ```
-GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({companyid})/salesCreditMemos({creditMemoId})/pdfDocument({id})/content
+GET https://{businesscentralPrefix}/api/v1.0/companies({companyid})/salesCreditMemos({creditMemoId})/pdfDocument({id})/content
 ```
 
 **Response** 

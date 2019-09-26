@@ -12,14 +12,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/22/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Create employee defaultDimensions
 Creates the default dimensions of the employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-POST /businesscentral/companies({companyId})/employees({employeeId})/defaultDimensions
+POST businesscentralPrefix/companies({companyId})/employees({employeeId})/defaultDimensions
 ```
 
 ## Request headers
@@ -41,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a **emplo
 Here is an example of a request.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId})/employees({employeeId})/defaultDimensions
+POST https://{businesscentralPrefix}/api/beta/companies({companyId})/employees({employeeId})/defaultDimensions
 ```
 
 **Request body**
