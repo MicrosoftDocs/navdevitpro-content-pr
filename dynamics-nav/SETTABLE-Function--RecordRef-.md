@@ -29,7 +29,7 @@ RecordRefVar.SETTABLE(RecordVar)
  *RecordVar*  
  Type: Record  
   
- The Record for which you want to specify a table.  
+ The Record you want to refer to the table.
   
 ## Remarks  
  Any filters that are applied to the RecordRef are also applied to the Record. If you change the filter that is applied to the RecordRef, you must call SETTABLE again to apply the new filter to the Record.  
