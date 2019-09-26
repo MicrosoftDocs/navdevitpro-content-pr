@@ -16,7 +16,7 @@ ms.author: solsen, henrikwh
 Webhooks is the way to get notified if an entity changes in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. For general information about webhooks, see [Push notifications via webhooks](https://github.com/Microsoft/api-guidelines/blob/vNext/Guidelines.md#15-push-notifications-via-webhooks) in Microsoft REST API Guidelines.
 
 
-In the following replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
+In the following replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](endpoints-apis-for-dynamics.md).
 
 ## Register a webhook subscription
 Using webhooks requires the client/subscriber to perform a handshake with [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] to register the webhook subscription.
