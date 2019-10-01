@@ -12,6 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/05/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Get salesInvoiceLines
@@ -20,9 +21,10 @@ Retrieve the properties and relationships of a sales invoice line object for [!I
 ## Prerequisites
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-GET /businesscentral/companies({id})/salesInvoices({id})/salesInvoiceLines(documentId=({id}),sequence=({number}))
+GET businesscentralPrefix/companies({id})/salesInvoices({id})/salesInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
@@ -43,7 +45,7 @@ If successful, this method returns a ```200 OK``` response code and a **salesInv
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/salesInvoices({id})/salesInvoiceLines(documentId=({id}),sequence=({number}))
+GET https://{businesscentralPrefix}/api/beta/companies({id})/salesInvoices({id})/salesInvoiceLines(documentId=({id}),sequence=({number}))
 ```
 
 **Response**

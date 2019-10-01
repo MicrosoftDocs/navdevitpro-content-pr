@@ -10,14 +10,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/03/2018
 ms.author: solsen,henrikwh
+ROBOTS: NOINDEX
 ---
 
 # Get subscriptions
 Retrieves the properties of webhook subscription objects for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-GET /businesscentral/subscriptions
+GET businesscentralPrefix/subscriptions
 ```
 
 ## Request headers
@@ -37,7 +39,7 @@ If successful, this method returns a `200 OK` response code and a **subscription
 
 Here is an example of the request.
 ```json
-https://api.businesscentral.dynamics.com/v1.0/api/beta/subscriptions 
+https://{businesscentralPrefix}/api/beta/subscriptions 
 ```
 
 **Response**

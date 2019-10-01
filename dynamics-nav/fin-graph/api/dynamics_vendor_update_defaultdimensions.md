@@ -12,6 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Update vendor defaultDimensions
@@ -19,8 +20,9 @@ Update the default dimensions of the vendor in [!INCLUDE[d365fin_long_md](../../
 
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-PATCH /businesscentral/companies({companyId})/vendors({vendorId})/defaultDimensions({vendorId},{dimensionId})
+PATCH businesscentralPrefix/companies({companyId})/vendors({vendorId})/defaultDimensions({vendorId},{dimensionId})
 ```
 
 ## Request headers

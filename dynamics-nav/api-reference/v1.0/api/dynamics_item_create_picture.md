@@ -18,8 +18,9 @@ ms.author: solsen
 Creates the default dimensions of the item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 ```
-POST /businesscentral/companies({companyId})/items({itemId})/defaultDimensions
+POST businesscentralPrefix/companies({companyId})/items({itemId})/defaultDimensions
 ```
 
 ## Request headers
@@ -44,7 +45,7 @@ Here is an example of a request.
 > The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
-POST https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({companyId})/items({itemId})/defaultDimensions
+POST https://{businesscentralPrefix}/api/v1.0/companies({companyId})/items({itemId})/defaultDimensions
 ```
 
 **Request body**
