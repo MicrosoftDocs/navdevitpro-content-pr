@@ -12,14 +12,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/16/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Create picture
 Creates the properties and relationships of a picture object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-PATCH /businesscentral/companies({companyId})/items({itemId})/picture({itemId)/content
+PATCH businesscentralPrefix/companies({companyId})/items({itemId})/picture({itemId)/content
 ```
 
 ## Request headers
@@ -43,7 +45,7 @@ If successful, this method returns a `204 No Content` response code. It does not
 Here is an example of the request. 
 
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies(companyId)/items(itemId)/picture(itemId)/content
+PATCH https://{businesscentralPrefix}/api/beta/companies(companyId)/items(itemId)/picture(itemId)/content
 ```
 
 **Response**

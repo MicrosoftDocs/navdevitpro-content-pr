@@ -12,14 +12,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Get customerSales
 Retrieve the properties and relationships of a customer sales report object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-GET /businesscentral/companies({id})/customerSales
+GET businesscentralPrefix/companies({id})/customerSales
 ```
 
 ## Request headers
@@ -41,7 +43,7 @@ If successful, this method returns a ```200 OK``` response code and a **customer
 Here is an example of the request.
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/customerSales
+GET https://{businesscentralPrefix}/api/beta/companies({id})/customerSales
 ```
 
 **Response**

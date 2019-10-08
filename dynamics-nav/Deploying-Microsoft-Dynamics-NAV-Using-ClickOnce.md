@@ -62,16 +62,16 @@ The file structure of a ClickOnce deployment is as follows:
   
   When a user installs the application, he runs the deployment manifest, and then ClickOnce will automatically install the application.  
   
-## Prepare Users Computers by Installing .NET Framework 4.6.1
-The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] requires .NET Framework 4.6.1. Depending on the version of Windows, .NET 4.6.1 Framework might already be installed. If not, then you have two options:
+## Prepare Users Computers by Installing .NET Framework 4.7.2
+The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] requires .NET Framework 4.7.2. Depending on the version of Windows, .NET 4.7.2 Framework might already be installed. If not, then you have two options:
 
-1.  Users themselves install .NET 4.6.1 Framework on their computers from the ClickOnce online installation web page.
+1.  Users themselves install .NET 4.7.2 Framework on their computers from the ClickOnce online installation web page.
 
-    The ClickOnce online installation web page includes a link to download .NET Framework 4.6.1. However, using this option requires that users have administrative rights on their computers. 
+    The ClickOnce online installation web page includes a link to download .NET Framework 4.7.2. However, using this option requires that users have administrative rights on their computers. 
 
-2. An administrator installs install .NET 4.6.1 Framework on users computers. 
+2. An administrator installs install .NET 4.7.2 Framework on users computers. 
 
-    For more information about how to install .NET 4.6.1 Framework, see [Install the .NET Framework for developers](http://go.microsoft.com/fwlink/?LinkId=272382).   
+    For more information about how to install .NET 4.7.2 Framework, see [Install the .NET Framework for developers](http://go.microsoft.com/fwlink/?LinkId=272382).   
   
 <!-- -   The install experience can be improved for the end user by providing a solution that packages the Microsoft Report Viewer with the ClickOnce installation. Microsoft Report Viewer requires Microsoft System CLR Types for SQL Server 2014. Microsoft Certified Partners may download and redistribute the Microsoft Report Viewer 2015 Redistributable Package and Microsoft System CLR Types for SQL Server 2014 from the Microsoft Download Center. You can download Microsoft Report Viewer at [Microsoft Report Viewer 2015 RUNTIME](http://go.microsoft.com/fwlink/?LinkID=536665). Microsoft System CLR Types for SQL Server 2014 is available as part of the Microsoft SQL Server 2014 Feature Pack, which you can download at [Microsoft SQL Server 2016 Feature Pack](https://go.microsoft.com/fwlink/?linkid=857649).  
 
@@ -98,7 +98,7 @@ Follow these steps to host on a file share:
   
    The mage.exe utility should be located in the equivalent of the following location:  
   
-   `C:\\Program Files \(x86\)\\Microsoft SDKs\\Windows\\v10.0A\\Bin\\NETFX 4.6.1 Tools`  
+   `C:\\Program Files \(x86\)\\Microsoft SDKs\\Windows\\v10.0A\\Bin\\NETFX 4.7.2 Tools`  
   
 2. (Optional) Obtain a code signing certificate. This is a certificate that is issued by a certification authority, and will enable you to sign the application in such a way that end users can see that the application is published by the expected provider and, for example, not by a phisher.  
   
@@ -164,7 +164,7 @@ Follow these steps to host on a file share:
         `mage.exe -Update Microsoft.Dynamics.Nav.Client.exe.manifest -FromDirectory .`  
   
        > [!IMPORTANT]  
-       >  You must specify the fully qualified path to mage.exe, such as `"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\Bin\NETFX 4.6.1 Tools\mage.exe"`.  
+       >  You must specify the fully qualified path to mage.exe, such as `"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\Bin\NETFX 4.7.2 Tools\mage.exe"`.  
         
        The *FromDirectory* parameter will include all files in all subdirectories found within the specified directory. If no directory is specified, such as in the example, mage.exe uses the current directory and subdirectories. For more information, see [Mage.exe](http://msdn.microsoft.com/en-us/library/acz3y3te\(v=vs.110\).aspx) in the MSDN Library.  
   

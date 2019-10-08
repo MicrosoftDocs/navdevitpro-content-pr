@@ -18,11 +18,12 @@ ms.author: solsen
 Deletes the properties and relationships of a picture object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 ```
-DELETE /businesscentral/companies({companyId})/items({itemId})/picture({pictureId})
-DELETE /businesscentral/companies({companyId})/vendors({vendorId})/picture({pictureId})
-DELETE /businesscentral/companies({companyId})/employees({employeeId})/picture({pictureId})
-DELETE /businesscentral/companies({companyId})/customers({customerId})/picture({pictureId})
+DELETE businesscentralPrefix/companies({companyId})/items({itemId})/picture({pictureId})
+DELETE businesscentralPrefix/companies({companyId})/vendors({vendorId})/picture({pictureId})
+DELETE businesscentralPrefix/companies({companyId})/employees({employeeId})/picture({pictureId})
+DELETE businesscentralPrefix/companies({companyId})/customers({customerId})/picture({pictureId})
 ```
 
 ## Request headers

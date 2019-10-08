@@ -21,10 +21,11 @@ Retrieve a PDF print-out of the corresponding document as binary content for [!I
 > To generate a document in the supported local language, you must specify `Accept-Language` in the Request header, for example `Accept-Language: nl-NL` for Dutch.
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 The following example gets a link to the content of the PDF:
 
 ```
-GET /businesscentral/api/v1.0/companies({id})/salesInvoices({id})/pdfDocument
+GET businesscentralPrefix/api/v1.0/companies({id})/salesInvoices({id})/pdfDocument
 ```
 
 ## Request headers
@@ -45,7 +46,7 @@ If successful, this method returns a ```200 OK``` response code and a link to th
 Here is an example of the request.
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({id})/salesInvoices({id})/pdfDocument
+GET https://{businesscentralPrefix}/api/v1.0/companies({id})/salesInvoices({id})/pdfDocument
 ```
 
 **Response**
@@ -70,8 +71,9 @@ Here is an example of the response.
 ```
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 The following example gets the actual PDF document:
-`GET /businesscentral/api/v1.0/companies({companyid})/salesInvoices({invoiceid})/pdfDocument({invoiceid})/content`
+`GET businesscentralPrefix/api/v1.0/companies({companyid})/salesInvoices({invoiceid})/pdfDocument({invoiceid})/content`
 
 ## Request headers
 
@@ -91,7 +93,7 @@ If successful, this method returns a `200 OK` response code and the PDF document
 Here is an example of the request.
 
 ```
-GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({companyid})/salesInvoices({invoiceid})/pdfDocument({invoiceid})/content
+GET https://{businesscentralPrefix}/api/v1.0/companies({companyid})/salesInvoices({invoiceid})/pdfDocument({invoiceid})/content
 ```
 
 **Response** 
