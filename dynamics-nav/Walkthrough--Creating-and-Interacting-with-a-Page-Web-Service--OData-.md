@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating and Interacting with a Page Web Service (OData)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/08/2019
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
