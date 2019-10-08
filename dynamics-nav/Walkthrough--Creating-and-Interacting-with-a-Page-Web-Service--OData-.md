@@ -71,11 +71,11 @@ After publishing a web service, verify that the port that web service applicatio
 
 1. Start an Internet browser.  
   
-2. In the **Address** field, enter the Dynamics NAV OData V4 endpoint.
+2. In the **Address** field, enter the Dynamics NAV OData endpoint.
 
     The endpoint has the format: `http://<Server>:<WebServicePort>/<ServerInstance>/OData`. For example:
   
-    `http://localhost:7048/DynamicsNAV/ODataV`  
+    `http://localhost:7048/DynamicsNAV/OData`  
   
    - `Server` is the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
@@ -98,7 +98,7 @@ Next, you create a C\# console application in Visual Studio. The console app wil
 ### Create the C\# project
   
 1. In Visual Studio, on the **File** menu, point to **New**, and then choose **Project**.  
-2. In the pane on the left, select **Installed** > **Visual C\#** > **Windows Classic Desktop** > **Console App (.NET Framework)**.
+2. In the pane on the left, select **Installed** > **Visual C\#** > **Windows (Classic) Desktop** > **Console App (.NET Framework)**.
 3. Set the **Name** and **Solution Name** for the application to **Customers** , and choose  **OK** to exit the **New Project** page.
 <!--   
 ### Add a Service Reference for your OData Web service (Visual Studio 2015 and earlier)
@@ -182,7 +182,7 @@ The Simple.OData.Client is a multi-platform OData client library that provides a
 3. In the `Main` method, add the following code to establish the connection to [!INCLUDE[navnow](includes/navnow_md.md)] through the OData web service:  
 
     ```  
-    NAV.NAV nav = new NAV.NAV(new Uri("http://localhost:7048/DynamicsNAV/ODataV4/Company('CRONUS%20International%20Ltd.')"));
+    NAV.NAV nav = new NAV.NAV(new Uri("http://localhost:7048/DynamicsNAV/OData/Company('CRONUS%20International%20Ltd.')"));
     nav.Credentials = System.Net.CredentialCache.DefaultNetworkCredentials; 
     ```  
 
@@ -258,7 +258,7 @@ The Simple.OData.Client is a multi-platform OData client library that provides a
     PrintCustomersCalledCust(nav);  
     ```
  
-    In this code, customers  is created and then renamed. The code prints a list of the customers that currently exist in the **Customer** table when each change has been made.
+    In this code, the customer is created and then renamed. The code prints a list of the customers that currently exist in the **Customer** table when each change has been made.
 
 5. Build and run the project.  
   
