@@ -23,7 +23,7 @@ Executed after the current record is retrieved from the table.
  If there is an error in the trigger code, then the page is closed.  
 
 > [!IMPORTANT]  
-> The OnAfterGetCurrRecord trigger can be called more than once while a page is opened.
+> The OnAfterGetCurrRecord trigger can be called more than once when a page is opened.
 
 ## See Also  
  [Triggers](Triggers.md)
