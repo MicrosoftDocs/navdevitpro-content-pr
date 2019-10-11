@@ -31,7 +31,7 @@ The **Server** folder contains events from the event trace provider called **Mic
 
 ### Common folder 
 
-The **Common** folder contains telemetry events from the event trace provider called **Microsoft-DynamicsNAV-Common**. This folder contains strictly telemetry events, which have IDs 700-706. The telemetry events are recorded in the following logs:  
+The **Common** folder contains telemetry events from the event trace provider called **Microsoft-DynamicsNAV-Common**. This folder contains strictly telemetry events, which have IDs 700-707. The telemetry events are recorded in the following logs:  
       
 |Log|Description|  
 |---------|-----------------|  
@@ -59,64 +59,64 @@ By default, the [!INCLUDE[nav_server](includes/nav_server_md.md)] logs contain e
   
 ### To filter the event log  
   
-1.  For example, in the console tree of Event Viewer, choose **Applications and Services Logs** > **Microsoft** > **DynamicsNAV** > **Server**.  
+1. For example, in the console tree of Event Viewer, choose **Applications and Services Logs** > **Microsoft** > **DynamicsNAV** > **Server**.  
   
-2.  Select the **Admin** log.  
+2. Select the **Admin** log.  
   
-3.  In the **Action** pane, choose **Filter Current Log**.  
+3. In the **Action** pane, choose **Filter Current Log**.  
   
-     The **Filter Current Log** window opens.  
+    The **Filter Current Log** window opens.  
   
-4.  On the **Filter** tab, set the **Logged** drop-down list to **Last 24 hours**.  
+4. On the **Filter** tab, set the **Logged** drop-down list to **Last 24 hours**.  
   
-5.  In the **Error Level** section, select the **Error** check box.  
+5. In the **Error Level** section, select the **Error** check box.  
   
-6.  Choose the **XML** tab.  
+6. Choose the **XML** tab.  
   
-     XML similar to the following is displayed:  
+    XML similar to the following is displayed:  
   
-    ```  
-    <QueryList>  
-      <Query Id="0" Path="Microsoft-DynamicsNAV-Server/Admin">  
-        <Select Path="Microsoft-DynamicsNAV-Server/Admin">  
-          *[System[(Level=2) and TimeCreated[timediff(@SystemTime) <= 604800000]]]  
-      </Query>  
-    </QueryList>  
-    ```  
+   ```  
+   <QueryList>  
+     <Query Id="0" Path="Microsoft-DynamicsNAV-Server/Admin">  
+       <Select Path="Microsoft-DynamicsNAV-Server/Admin">  
+         *[System[(Level=2) and TimeCreated[timediff(@SystemTime) <= 604800000]]]  
+     </Query>  
+   </QueryList>  
+   ```  
   
-     `Microsoft-DynamicsNAV-Server` indicates that [!INCLUDE[nav_server](includes/nav_server_md.md)] is the provider of the events in the log.  
+    `Microsoft-DynamicsNAV-Server` indicates that [!INCLUDE[nav_server](includes/nav_server_md.md)] is the provider of the events in the log.  
   
-7.  Select the **Edit** query manually check box, and then choose the **Yes** button.  
+7. Select the **Edit** query manually check box, and then choose the **Yes** button.  
   
-8.  In the `<Select Path="Microsoft-DynamicsNAV-Server/Admin">` element, after `*[System[(Level=2) and TimeCreated[timediff(@SystemTime) <= 86400000]]]`, add the following lines:  
+8. In the `<Select Path="Microsoft-DynamicsNAV-Server/Admin">` element, after `*[System[(Level=2) and TimeCreated[timediff(@SystemTime) <= 86400000]]]`, add the following lines:  
   
-    ```  
-    and  
-    *[EventData[Data[@Name='tenantId'] and Data  = 'MyTenant1']]  
-    and  
-    *[EventData[Data[@Name='serverInstanceName'] and Data='MyNavServerInstance1']]  
+   ```  
+   and  
+   *[EventData[Data[@Name='tenantId'] and Data  = 'MyTenant1']]  
+   and  
+   *[EventData[Data[@Name='serverInstanceName'] and Data='MyNavServerInstance1']]  
   
-    ```  
+   ```  
   
-     The complete XML should look similar to the following XML:  
+    The complete XML should look similar to the following XML:  
   
-    ```  
-    <QueryList>  
-      <Query Id="0" Path="Microsoft-DynamicsNAV-Server/Admin">  
-        <Select Path="Microsoft-DynamicsNAV-Server/Admin">  
-          *[System[(Level=2) and TimeCreated[timediff(@SystemTime) <= 604800000]]]  
-          and  
-          *[EventData[Data[@Name='tenantId'] and Data  = 'MyTenant1']]  
-          and  
-          *[EventData[Data[@Name='serverInstanceName'] and Data='MyNavServerInstance1']]  
-        </Select>  
-      </Query>  
-    </QueryList>  
-    ```  
+   ```  
+   <QueryList>  
+     <Query Id="0" Path="Microsoft-DynamicsNAV-Server/Admin">  
+       <Select Path="Microsoft-DynamicsNAV-Server/Admin">  
+         *[System[(Level=2) and TimeCreated[timediff(@SystemTime) <= 604800000]]]  
+         and  
+         *[EventData[Data[@Name='tenantId'] and Data  = 'MyTenant1']]  
+         and  
+         *[EventData[Data[@Name='serverInstanceName'] and Data='MyNavServerInstance1']]  
+       </Select>  
+     </Query>  
+   </QueryList>  
+   ```  
   
 9. Choose the **OK** button.  
   
- The **Admin** log displays only errors that occurred in the last 24 hours on tenant *Tenant1* and [!INCLUDE[nav_server](includes/nav_server_md.md)] instance *MyNavServerInstance1*. The applied filter can be removed. Alternatively, you can save it as a custom view. For more information about filtering in Event Viewer, see [Filter Displayed Events](http://go.microsoft.com/fwlink/?LinkID=516925) and [Advanced XML filtering in the Windows Event Viewer](http://go.microsoft.com/fwlink/?LinkID=516924).  
+   The **Admin** log displays only errors that occurred in the last 24 hours on tenant *Tenant1* and [!INCLUDE[nav_server](includes/nav_server_md.md)] instance *MyNavServerInstance1*. The applied filter can be removed. Alternatively, you can save it as a custom view. For more information about filtering in Event Viewer, see [Filter Displayed Events](http://go.microsoft.com/fwlink/?LinkID=516925) and [Advanced XML filtering in the Windows Event Viewer](http://go.microsoft.com/fwlink/?LinkID=516924).  
   
 ## See Also  
  [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   

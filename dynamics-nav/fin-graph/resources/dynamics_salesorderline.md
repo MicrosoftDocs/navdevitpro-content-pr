@@ -1,6 +1,6 @@
 ---
 title: salesOrderLines resource type | Microsoft Docs
-description: A sales order line object in Dynamics 365 for Finance and Operations, Business edition.
+description: A sales order line object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,8 +10,9 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # salesOrderLines resource type
@@ -30,7 +31,8 @@ Represents a line on a sales order in [!INCLUDE[d365fin_long_md](../../includes/
 |[DELETE salesOrderLines](../api/dynamics_salesorderline_delete.md)|none|Deletes a sales order line object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |documentId|GUID|The ID of the parent order.|
 |sequence|numeric|The line sequence number.|
@@ -107,7 +109,6 @@ Here is a JSON representation of the resource.
       "shipQuantity": "decimal"
     }
   ]
-
 ```
 
 ## See also
@@ -116,7 +117,7 @@ Here is a JSON representation of the resource.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get sales order line](../api/dynamics_salesorderline_get.md)  
-[Create sales order line](../api/dynamics_create_salesorderline.md)  
-[Update sales order line](../api/dynamics_salesorderline_update.md)  
-[Delete sales order line](../api/dynamics_salesorderline_delete.md)  
+[Get Sales Order Line](../api/dynamics_salesorderline_get.md)  
+[Create Sales Order Line](../api/dynamics_create_salesorderline.md)  
+[Update Sales Order Line](../api/dynamics_salesorderline_update.md)  
+[Delete Sales Order Line](../api/dynamics_salesorderline_delete.md)  

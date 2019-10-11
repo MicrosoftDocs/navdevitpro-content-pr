@@ -36,35 +36,35 @@ manager: edupont
 ##  <a name="AutomaticDep"></a> Automatic Deployment of Control Add-ins  
  If a control add-in has the same name as the assembly, the system can automatically deploy control add-in assembly, and any associated files, to the computer running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. There are two ways that you set up the automatic deployment of a control add-in:  
   
--   You can install the control add-in assembly directly on the computers running the [!INCLUDE[nav_server](includes/nav_server_md.md)]  
+- You can install the control add-in assembly directly on the computers running the [!INCLUDE[nav_server](includes/nav_server_md.md)]  
   
--   Or you can import the control add-in assembly into the database.  
+- Or you can import the control add-in assembly into the database.  
   
- When an operation from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] client requires a control add-in, such as running a page that contains the control add-in, the control add-in is deployed as follows:  
+  When an operation from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] client requires a control add-in, such as running a page that contains the control add-in, the control add-in is deployed as follows:  
   
-1.  The client looks for the control add-in assembly in the local **Add-ins** folder \(by default, [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins\).  
+1. The client looks for the control add-in assembly in the local **Add-ins** folder \(by default, [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins\).  
   
-    -   If the assembly is available, it is used.  
+   -   If the assembly is available, it is used.  
   
-    -   If the assembly is not available, the client requests the assembly from [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+   -   If the assembly is not available, the client requests the assembly from [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
-2.  The [!INCLUDE[nav_server](includes/nav_server_md.md)] looks for the control add-in assembly in the local **Add-ins** folder \(by default, [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Add-ins\).  
+2. The [!INCLUDE[nav_server](includes/nav_server_md.md)] looks for the control add-in assembly in the local **Add-ins** folder \(by default, [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Add-ins\).  
   
-    -   If the assembly is available, it is deployed to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computer.  
+   -   If the assembly is available, it is deployed to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computer.  
   
-         The control add-in is installed in the *%TEMP%\\Microsoft Dynamics NAV\\Add-Ins* folder of the user who is running the client.  
+        The control add-in is installed in the *%TEMP%\\Microsoft Dynamics NAV\\Add-Ins* folder of the user who is running the client.  
   
-    -   If the control add-in assembly is not there, the add-in is deployed from the database to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+   -   If the control add-in assembly is not there, the add-in is deployed from the database to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
-3.  The control add-in assembly is streamed from the database to [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and eventually the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computer.  
+3. The control add-in assembly is streamed from the database to [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and eventually the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computer.  
   
-     On the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computer, the control add-in is installed in the *%TEMP%\\Microsoft Dynamics NAV\\Add-Ins* folder of the user who is running the client.  
+    On the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computer, the control add-in is installed in the *%TEMP%\\Microsoft Dynamics NAV\\Add-Ins* folder of the user who is running the client.  
   
- The deployed assembly will be then be used whenever the page is run until the control add-in has been updated with a version change.  
+   The deployed assembly will be then be used whenever the page is run until the control add-in has been updated with a version change.  
   
- If the control add-in assembly is updated and its version number changes, [!INCLUDE[nav_server](includes/nav_server_md.md)] will deploy the updated assembly to the client computer the next time that the client requests the assembly. The updated assembly is put in a subfolder of the %TEMP%\\Microsoft Dynamics NAV\\Add-Ins folder, where the subfolder has the assembly's version number as its name. This implementation means that you do have to remove the older versions of assemblies that are stored on the client computer.  
+   If the control add-in assembly is updated and its version number changes, [!INCLUDE[nav_server](includes/nav_server_md.md)] will deploy the updated assembly to the client computer the next time that the client requests the assembly. The updated assembly is put in a subfolder of the %TEMP%\\Microsoft Dynamics NAV\\Add-Ins folder, where the subfolder has the assembly's version number as its name. This implementation means that you do have to remove the older versions of assemblies that are stored on the client computer.  
   
- The process is similar when the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] requires a control add-in, for example, when you compile an object. the control add-in assembly will be deployed to the local temporary folder for the current user on the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
+   The process is similar when the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] requires a control add-in, for example, when you compile an object. the control add-in assembly will be deployed to the local temporary folder for the current user on the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
   
 > [!NOTE]  
 >  To be deployed automatically, a control add-in must have the same name as its assembly and the assembly must comply with the following [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration settings: Chunk Size, Max Upload Size, and Prohibited File Types. For more information about these settings, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
@@ -77,19 +77,19 @@ manager: edupont
   
 ###  <a name="InstallOnDatabase"></a> To import the control add-in to the database  
   
-1.  Create a compressed \(.zip type\) file that contains the control add-in assembly files in the desired folder structure.  
+1. Create a compressed \(.zip type\) file that contains the control add-in assembly files in the desired folder structure.  
   
-2.  You can import the compressed \(.zip\) file when you register the control add-in from the **Control Add-ins** page in [!INCLUDE[navnow](includes/navnow_md.md)]. In the **Search** box, enter **Control Add-ins** and then choose the related link.  
+2. You can import the compressed \(.zip\) file when you register the control add-in from the **Control Add-ins** page in [!INCLUDE[navnow](includes/navnow_md.md)]. In the **Search** box, enter **Control Add-ins** and then choose the related link.  
   
-3.  In the **Control Add-ins** window, choose **New**, and then in the **Control Add-in Name** column, enter the control add-in name. In the **Public Key Token** column, enter the public key token that you obtained earlier.  
+3. In the **Control Add-ins** window, choose **New**, and then in the **Control Add-in Name** column, enter the control add-in name. In the **Public Key Token** column, enter the public key token that you obtained earlier.  
   
-4.  Choose **Import**.  
+4. Choose **Import**.  
   
-5.  In the **Import Control Add-in Resource** window, locate the.zip file, and then choose **Open**.  
+5. In the **Import Control Add-in Resource** window, locate the.zip file, and then choose **Open**.  
   
-6.  Choose the **OK** button to close the **Control Add-in** page.  
+6. Choose the **OK** button to close the **Control Add-in** page.  
   
- For more information about registering a control add-in, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
+   For more information about registering a control add-in, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
   
 > [!TIP]  
 >  You can also register the control add-in, import and manage the files by using the [New-NAVAddin cmdlet](http://go.microsoft.com/fwlink/?LinkID=521781), [Set-NAVAddin cmdlet](http://go.microsoft.com/fwlink/?LinkID=521784), [Get-NAVAddin](http://go.microsoft.com/fwlink/?LinkID=521782), or [Remove-NAVAddin](http://go.microsoft.com/fwlink/?LinkID=521783) cmdlets from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  

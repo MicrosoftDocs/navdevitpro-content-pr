@@ -1,6 +1,6 @@
 ---
 title: irs1099Codes resource type | Microsoft Docs
-description: An IRS 1099 Code object in Dynamics 365 for Finance and Operations, Business edition.
+description: An IRS 1099 Code object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,8 +10,9 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # irs1099Codes resource type
@@ -30,7 +31,8 @@ Represents an irs1099Codes object in [!INCLUDE[d365fin_long_md](../../includes/d
 |[DELETE irs1099Codes](../api/dynamics_irs1099_delete.md)|none        |Delete an IRS 1099 code.|
 
 ## Properties
-| Property	         | Type 	|Description                                      |
+
+| Property           | Type     |Description                                      |
 |:-------------------|:-------|:------------------------------------------------|
 |id                  |GUID    |The unique ID of the IRS 1099 Code. Non-editable.|
 |code                |string  |Specifies the IRS 1099 Code.                     |
@@ -55,7 +57,6 @@ Here is a JSON representation of the irs1099Codes.
   "minimumReportable": "decimal",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also

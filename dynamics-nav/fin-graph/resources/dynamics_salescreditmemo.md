@@ -1,6 +1,6 @@
 ---
 title: salesCreditMemos resource type | Microsoft Docs
-description: A sales credit memo object in Dynamics 365 for Finance and Operations, Business edition. 
+description: A sales credit memo object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,8 +10,9 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # salesCreditMemos resource type
@@ -29,8 +30,16 @@ Represents a sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d365
 |[PATCH salesCreditMemos](../api/dynamics_salescreditmemo_update.md)|salesCreditMemos|Update a sales credit memo object.|
 |[DELETE salesCreditMemos](../api/dynamics_salescreditmemo_delete.md)|none|Delete a sales credit memo object.|
 
+## Bound actions
+
+|Action          |Return type   |Description         |
+|----------------|--------------|--------------------|
+|[GET pdfDocument](../api/dynamics_salesquote_pdfdocument.md)|pdfDocument|Gets a PDF document.|
+
+
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The credit memo ID. Non-editable.|
 |number|string, maximum size 20|The credit memo number. Read-Only.|
@@ -86,7 +95,6 @@ Here is a JSON representation of the resource.
       "currencyId": "GUID",
       "currencyCode": "string",
       "paymentTermsId": "GUID",
-      "paymentTerms": "string",
       "salesperson": "string",
       "pricesIncludeTax": "boolean",
       "discountAmount": "decimal",
@@ -99,7 +107,6 @@ Here is a JSON representation of the resource.
       "invoiceId" : "GUID",
       "invoiceNumber" : "string"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
@@ -107,7 +114,7 @@ Here is a JSON representation of the resource.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get sales credit memo](../api/dynamics_salescreditmemo_get.md)  
-[Create sales credit memo](../api/dynamics_create_salescreditmemo.md)  
-[Update sales credit memo](../api/dynamics_salescreditmemo_update.md)  
-[Delete sales credit memo](../api/dynamics_salescreditmemo_delete.md)  
+[Get Sales Credit Memo](../api/dynamics_salescreditmemo_get.md)  
+[Create Sales Credit Memo](../api/dynamics_create_salescreditmemo.md)  
+[Update Sales Credit Memo](../api/dynamics_salescreditmemo_update.md)  
+[Delete Sales Credit Memo](../api/dynamics_salescreditmemo_delete.md)  

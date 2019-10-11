@@ -17,7 +17,7 @@ If you set up a SharePoint site using SharePoint Online or SharePoint on-premise
 This topic describes the overall configuration of an app for SharePoint that uses [!INCLUDE[navnow](includes/navnow_md.md)] data with examples of what you are likely to have to do.  
 
 ## Getting Started  
-If you already have a site available on SharePoint Online, you can deploy your first app to that. Alternatively, sign up for a free trial Office 365 plan. We recommend that you use a plan such as Office 365 Enterprise E1 as your test site, or that you sign up for a trial developer plan. A trial plan includes an administrative account which you will use to set up the app in the SharePoint site. For example, if your Office 365 site is *Solutions.onmicrosoft.com*, your administrative account can be *admin@solutions.onmicrosoft.com*. For more information, see [Select an Office 365 plan for business](http://go.microsoft.com/fwlink/?LinkId=309050).  
+If you already have a site available on SharePoint Online, you can deploy your first app to that. Alternatively, sign up for a free trial Office 365 plan. We recommend that you use a plan such as Office 365 Enterprise E1 as your test site, or that you sign up for a trial developer plan. A trial plan includes an administrative account which you will use to set up the app in the SharePoint site. For example, if your Office 365 site is *Solutions.onmicrosoft.com*, your administrative account can be <em>admin@solutions.onmicrosoft.com</em>. For more information, see [Select an Office 365 plan for business](http://go.microsoft.com/fwlink/?LinkId=309050).  
 
 If you want to use your app in a SharePoint on-premises deployment, you must choose a solution that meets your requirements. For example, the App Catalog is not available in all SharePoint 2013 on-premises solutions.  
 
@@ -32,19 +32,21 @@ For example, with the deployment scenario that is discussed in this guide, you w
 
 #### To register an app using the appregnew.aspx  
 
-1.  Go to the appregnew.aspx page for your subscription, such as `https://MyTenant.sharhepoint.com/_layouts/15/appregnew.aspx`, where `https://MyTenant.sharhepoint.com` is the URL of your SharePoint site.  
+1. Go to the appregnew.aspx page for your subscription, such as `https://MyTenant.sharhepoint.com/_layouts/15/appregnew.aspx`, where `https://MyTenant.sharhepoint.com` is the URL of your SharePoint site.  
 
-2.  Fill out the fields as described in the following table.  
+2. Fill out the fields as described in the following table.  
 
-    |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
-    |---------------------------------|---------------------------------------|  
-    |**App Id**|A GUID, such as *2de23703-bbb9-4542-970d-84b6e5597f53*. This is also referred to as the client ID.<br /><br /> This is generated when you choose the **Generate** button.|  
-    |**App Secret**|A base-64 encoded string, such as *xvVpG0AgVIJfch6ldu4dLUlcZyysmGqBRbpFDu6AfJw=*. This is also referred to as the client secret.<br /><br /> This is generated when you choose the **Generate** button.|  
-    |**Title**|The name of the app, which will be shown to users of your site, such as **Financial App by Solutions**.|  
-    |**App Domain**|The host name for your [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], such as *www.solutions.com*. If you have deployed the [!INCLUDE[nav_web](includes/nav_web_md.md)] on a local machine, you can also enter the machine name.|  
-    |**Redirect URI**|The URI for signing in to your [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], such as **https://www.solutions.com/DynamicsNAV** or **https://MyComputer/DynamicsNAV**.|  
 
-3.  Choose the **Create** button to register the app.  
+   | [!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)] |                                                                                         [!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]                                                                                         |
+   |---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |                       **App Id**                        |                                      A GUID, such as *2de23703-bbb9-4542-970d-84b6e5597f53*. This is also referred to as the client ID.<br /><br /> This is generated when you choose the **Generate** button.                                      |
+   |                     **App Secret**                      |                       A base-64 encoded string, such as *xvVpG0AgVIJfch6ldu4dLUlcZyysmGqBRbpFDu6AfJw=*. This is also referred to as the client secret.<br /><br /> This is generated when you choose the **Generate** button.                       |
+   |                        **Title**                        |                                                                       The name of the app, which will be shown to users of your site, such as **Financial App by Solutions**.                                                                       |
+   |                     **App Domain**                      | The host name for your [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], such as <em>www.solutions.com</em>. If you have deployed the [!INCLUDE[nav_web](includes/nav_web_md.md)] on a local machine, you can also enter the machine name. |
+   |                    **Redirect URI**                     |                               The URI for signing in to your [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], such as **<https://www.solutions.com/DynamicsNAV>** or **<https://MyComputer/DynamicsNAV>**.                                |
+
+
+3. Choose the **Create** button to register the app.  
 
 ## Developing the App in Visual Studio  
 With Visual Studio and the Microsoft Office Developer Tools, you can create an app for SharePoint. This topic provides the general instructions for creating a provider-hosted app. For more information, see [How to: Create a basic provider-hosted app](http://go.microsoft.com/fwlink/?LinkId=308938) and [Build apps for SharePoint](http://go.microsoft.com/fwlink/?LinkId=308937) in the MSDN Library.  
@@ -54,71 +56,74 @@ You create an app for SharePoint using the **App for SharePoint** project templa
 
 ##### To create a provider-hosted app in Visual Studio  
 
-1.  In Visual Studio, create a new C# project that uses the **App for SharePoint 2013** project template.  
+1. In Visual Studio, create a new C# project that uses the **App for SharePoint 2013** project template.  
 
-2.  When you create the project, specify the name and location of the SharePoint site as described in the following table.  
+2. When you create the project, specify the name and location of the SharePoint site as described in the following table.  
 
-    |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
-    |---------------------------------|---------------------------------------|  
-    |**What is the name of your app for SharePoint?**|Specify a name, such as **NAVSharePointApp**.<br /><br /> The name that you specify here is not the name that displays to users of the SharePoint site.|  
-    |**What SharePoint site do you want to use for debugging your app?**|Specify the developer site that is part of your Office 365 plan. For example, if your Office 365 plan is *Solutions.onmicrosoft.com*, your developer site can be *Solution.sharepoint.com*. **Note:**  This must be a developer site in order for Visual Studio’s F5 deployment to work. F5 depends on the side-loading feature in SharePoint, which is only available on developer sites.|  
-    |**How do you want to host your app for SharePoint?**|Choose **Provider-Hosted**.|  
 
-3.  When you are done, a new solution is created in Visual Studio, which you can see in **Solution Explorer.** The solution contains two projects: a SharePoint App project called *\<project name>* and an ASP .NET Web project called *\<project name>*Web, where *\<project name>* is the project name that you specified when you created the project.  
+   |       [!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]       |                                                                                                                                                            [!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]                                                                                                                                                             |
+   |---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |          **What is the name of your app for SharePoint?**           |                                                                                                                  Specify a name, such as **NAVSharePointApp**.<br /><br /> The name that you specify here is not the name that displays to users of the SharePoint site.                                                                                                                   |
+   | **What SharePoint site do you want to use for debugging your app?** | Specify the developer site that is part of your Office 365 plan. For example, if your Office 365 plan is *Solutions.onmicrosoft.com*, your developer site can be *Solution.sharepoint.com*. **Note:**  This must be a developer site in order for Visual Studio’s F5 deployment to work. F5 depends on the side-loading feature in SharePoint, which is only available on developer sites. |
+   |        **How do you want to host your app for SharePoint?**         |                                                                                                                                                                                Choose **Provider-Hosted**.                                                                                                                                                                                 |
 
-    1.  The SharePoint App project will be used to generate the app package that you will upload to SharePoint. The project contains the following files:  
 
-        -   AppIcon.png  
+3. When you are done, a new solution is created in Visual Studio, which you can see in **Solution Explorer.** The solution contains two projects: a SharePoint App project called *\<project name>* and an ASP .NET Web project called <em>\<project name></em>Web, where *\<project name>* is the project name that you specified when you created the project.  
 
-             You can replace this file to use an image that is more relevant for your app.  
+   1.  The SharePoint App project will be used to generate the app package that you will upload to SharePoint. The project contains the following files:  
 
-        -   AppManifest.xml  
+       -   AppIcon.png  
 
-             The app manifest describes the app.  
+            You can replace this file to use an image that is more relevant for your app.  
 
-    2.  The ASP .NET Web project will not be used because it is not required to build an app that uses [!INCLUDE[navnow](includes/navnow_md.md)] data. Therefore, you can delete this project.  
+       -   AppManifest.xml  
+
+            The app manifest describes the app.  
+
+   2.  The ASP .NET Web project will not be used because it is not required to build an app that uses [!INCLUDE[navnow](includes/navnow_md.md)] data. Therefore, you can delete this project.  
 
 ### Modify the App Manifest  
 After you create the app, you modify settings in the app manifest for the app, which includes setting the app ID and start page URL. The start page URL specifies the URL of the Microsoft Dynamics NAV Web client but it is also used in multitenant [!INCLUDE[nav_server](includes/nav_server_md.md)] deployments to specify whether the app can be used by a specific tenant only or by all tenants that are mounted against a Microsoft Dynamics NAV Server instance.  
 
 ##### To modify the appmanifest.xml  
 
-1.  In Visual Studio, open the AppManifext.xml file to view the code.  
+1. In Visual Studio, open the AppManifext.xml file to view the code.  
 
-2.  To set up the app, set the `StartPage` element and `RemoteWebApplication` element as described in the following table.  
+2. To set up the app, set the `StartPage` element and `RemoteWebApplication` element as described in the following table.  
 
-    |Element|Description|  
-    |-------------|-----------------|  
-    |`StartPage`|Set this element to the URL of the [!INCLUDE[nav_web](includes/nav_web_md.md)] and append the URL with the *{StandardTokens}* parameter. For example, if the URL of the [!INCLUDE[nav_web](includes/nav_web_md.md)] is *https://www.solutions.com/DynamicsNAV*, then set the element to *https://www.solutions.com/DynamicsNAV?{StandardTokens}*.<br /><br /> If the [!INCLUDE[nav_web](includes/nav_web_md.md)] is deployed in a multitenant environment, then include the *tenant* parameter in the URL to specify which tenants the app applies to. You can configure that app to apply to a specific tenant or all tenants as follows:<br /><br /> -   To apply the app to a specific tenant only, set the *tenant* parameter to the ID of the tenant, such as *https://www.solutions.com/DynamicsNAV?tenant=tenant1*. In this example, the tenant ID is *tenant1*. The value of the tenant parameter must be included in tenant's list of alternative IDs.<br />     Alternatively, if you have configured the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to accept host names, you can specify the host name in the URL. For more information, see [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](How-to--Configure-the-Microsoft-Dynamics-NAV-Web-client-to-Accept-Host-Names-for-Tenants.md).<br />-   To apply the app to all tenants, set the tenant parameter to *{HostUrl}*, such as *https://www.solutions.com/DynamicsNAV/?tenant={HostUrl}* .<br />     When the app accesses the [!INCLUDE[nav_web](includes/nav_web_md.md)], *HostUrl* is automatically replaced by the SharePoint site address where the app is installed. Because the SharePoint site is tenant-specific, this parameter identifies the tenant.<br />     You must include all SharePoint site addresses that can access a tenant in the tenant's list of alternative IDs. **Note:**  For more information about how to set alternate IDs for tenants, see [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](How-to--Mount-or-Dismount-a-Tenant-on-a-Microsoft-Dynamics-Server-Instance.md).|  
-    |`RemoteWebApplication`|Set the value of the *ClientId* parameter to App ID that was assigned when you registered the app.|  
 
-     The following code example illustrates the content of an AppManifest.xml file:  
+   |        Element         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+   |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |      `StartPage`       | Set this element to the URL of the [!INCLUDE[nav_web](includes/nav_web_md.md)] and append the URL with the *{StandardTokens}* parameter. For example, if the URL of the [!INCLUDE[nav_web](includes/nav_web_md.md)] is *<https://www.solutions.com/DynamicsNAV>*, then set the element to <em>https://www.solutions.com/DynamicsNAV?{StandardTokens}</em>.<br /><br /> If the [!INCLUDE[nav_web](includes/nav_web_md.md)] is deployed in a multitenant environment, then include the *tenant* parameter in the URL to specify which tenants the app applies to. You can configure that app to apply to a specific tenant or all tenants as follows:<br /><br /> -   To apply the app to a specific tenant only, set the *tenant* parameter to the ID of the tenant, such as *<https://www.solutions.com/DynamicsNAV?tenant=tenant1>*. In this example, the tenant ID is *tenant1*. The value of the tenant parameter must be included in tenant's list of alternative IDs.<br />     Alternatively, if you have configured the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to accept host names, you can specify the host name in the URL. For more information, see [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](How-to--Configure-the-Microsoft-Dynamics-NAV-Web-client-to-Accept-Host-Names-for-Tenants.md).<br />-   To apply the app to all tenants, set the tenant parameter to *{HostUrl}*, such as <em>https://www.solutions.com/DynamicsNAV/?tenant={HostUrl}</em> .<br />     When the app accesses the [!INCLUDE[nav_web](includes/nav_web_md.md)], *HostUrl* is automatically replaced by the SharePoint site address where the app is installed. Because the SharePoint site is tenant-specific, this parameter identifies the tenant.<br />     You must include all SharePoint site addresses that can access a tenant in the tenant's list of alternative IDs. **Note:**  For more information about how to set alternate IDs for tenants, see [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](How-to--Mount-or-Dismount-a-Tenant-on-a-Microsoft-Dynamics-Server-Instance.md). |
+   | `RemoteWebApplication` |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Set the value of the *ClientId* parameter to App ID that was assigned when you registered the app.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
-    ```  
-    <?xml version="1.0" encoding="utf-8" ?>  
-    <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"  
-         Name="NAVSharePointApp"  
-         ProductID="{335df4e8-93b1-4205-8504-001aa934b01e}"  
-         Version="1.0.0.0"  
-         SharePointMinVersion="15.0.0.0"  
-    >  
-      <Properties>  
-        <Title>Financial App by Solutions</Title>  
-        <StartPage>https://www.solutions.com/DynamicsNAV/?{StandardTokens}</StartPage>  
-      </Properties>  
+    The following code example illustrates the content of an AppManifest.xml file:  
 
-      <AppPrincipal>  
-        <RemoteWebApplication ClientId="2de23703-bbb9-4542-970d-84b6e5597f53"/>  
-      </AppPrincipal>  
-    </App>  
-    ```  
+   ```  
+   <?xml version="1.0" encoding="utf-8" ?>  
+   <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"  
+        Name="NAVSharePointApp"  
+        ProductID="{335df4e8-93b1-4205-8504-001aa934b01e}"  
+        Version="1.0.0.0"  
+        SharePointMinVersion="15.0.0.0"  
+   >  
+     <Properties>  
+       <Title>Financial App by Solutions</Title>  
+       <StartPage>https://www.solutions.com/DynamicsNAV/?{StandardTokens}</StartPage>  
+     </Properties>  
 
-     We recommend that you do not set up permissions that your app for SharePoint will request from the user at installation time.  
+     <AppPrincipal>  
+       <RemoteWebApplication ClientId="2de23703-bbb9-4542-970d-84b6e5597f53"/>  
+     </AppPrincipal>  
+   </App>  
+   ```  
+
+    We recommend that you do not set up permissions that your app for SharePoint will request from the user at installation time.  
 
 ### Adding Web Parts to the App  
 Optionally, you can add client web parts to the project and configure them to show specific [!INCLUDE[navnow](includes/navnow_md.md)] pages in [!INCLUDE[nav_web](includes/nav_web_md.md)]. This means that the [!INCLUDE[navnow](includes/navnow_md.md)] pages will display inside the SharePoint pages. When you create a client web part, you can specify URLs that display a page without displaying the ribbon or UI parts. As a result, the page will appear to be just another app part on the SharePoint site, but it is the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [Embedding Microsoft Dynamics NAV Web Client Pages in Other Websites](Embedding-Microsoft-Dynamics-NAV-Web-Client-Pages-in-Other-Websites.md)  
 
-To add web parts to the app, add an item of type **Client Web Part \(Host Web\)** to the project in Visual Studio. Specify that it must use an existing web page, and then specify use a URL such as **https://www.solutions.com/DynamicsNAV/?mode=View&isembedded=1&page=9301&shownavigation=0&showribbon=0&showuiparts=0&pagesize=7&SPHostUrl={HostUrl}**.  
+To add web parts to the app, add an item of type **Client Web Part \(Host Web\)** to the project in Visual Studio. Specify that it must use an existing web page, and then specify use a URL such as <strong>https://www.solutions.com/DynamicsNAV/?mode=View&isembedded=1&page=9301&shownavigation=0&showribbon=0&showuiparts=0&pagesize=7&SPHostUrl={HostUrl}</strong>.  
 
 You can choose to convert the query parameters of the URL into properties on the web part, which will enable you to configure the same web part differently when inserting it on different SharePoint pages. To do this, you modify the Elements.xml file for the web part. In the Elements.xml file, the `Src` attribute of the `Content` element specifies the URL of the page of the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For each parameter of the URL that you want to make a property, replace its value with a property name that has the format `_PropertyName_`, and then add a corresponding `Property` element in the `Properties` element. For example, the following code illustrates the content of the Elements.xml file for a web part for page 9301 of the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 
@@ -173,7 +178,7 @@ When you have created app in Visual Studio, you can press F5, and Visual Studio 
 > [!IMPORTANT]  
 >  In this scenario, you must use a developer subscription of SharePoint Online. Visual Studio makes use of the SharePoint side-loading feature for uploading and installing the app, and this feature is only available in developer subscriptions.  
 
-You must sign in to \<site name>.sharepoint.com as the administrator for the site. For example, the URL for the team site for an Office 365 developer site is https://*\<site name>*.sharepoint.com/\_layouts/15/start.aspx\#/SitePages/DevHome.aspx. The .app file that was built by Visual Studio is added to the Apps in Testing section. When you choose the app, you are directed to the [!INCLUDE[nav_web](includes/nav_web_md.md)], and you are signed in automatically.  
+You must sign in to \<site name>.sharepoint.com as the administrator for the site. For example, the URL for the team site for an Office 365 developer site is https://<em>\<site name></em>.sharepoint.com/\_layouts/15/start.aspx\#/SitePages/DevHome.aspx. The .app file that was built by Visual Studio is added to the Apps in Testing section. When you choose the app, you are directed to the [!INCLUDE[nav_web](includes/nav_web_md.md)], and you are signed in automatically.  
 
 ### Adding an App from the App Catalog  
 You can also choose to only publish the project in Visual Studio. Then, you must manually deploy the app file that Visual Studio builds to SharePoint’s App Catalog. From the app catalog, the app can be added to any site that is part of your SharePoint organization.  

@@ -28,21 +28,23 @@ To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Mi
 
 ### To create a namespace  
 
-1.  In the Azure management portal, choose the **Active Directory** button.  
+1. In the Azure management portal, choose the **Active Directory** button.  
 
-2.  Choose the **New** button, point to **Access Control**, and then choose **Quick Create**.  
+2. Choose the **New** button, point to **Access Control**, and then choose **Quick Create**.  
 
-3.  Fill in the fields as described in the following table.  
+3. Fill in the fields as described in the following table.  
 
-    |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
-    |---------------------------------|---------------------------------------|  
-    |**Namespace**|Enter a name for the namespace. The name can be any text. For example, you can enter the name of your company for the namespace name.<br /><br /> A green checkmark appears if the namespace is available. The value that you specify because a prefix for the fully qualified namespace, such as *mynamespace*.accesscontrol.windows.net.|  
-    |**Region**|Choose the Azure region that you want to host your namespace in.<br /><br /> Choose the region that most closely matches your country/region. For example, if you and your customers are located in Denmark, choose North Europe, unless another region suits your needs better.|  
-    |**Subscription**|Choose your Azure subscription.|  
 
-4.  Choose **Create**.  
+   | [!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)] |                                                                                                                                    [!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]                                                                                                                                     |
+   |---------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |                      **Namespace**                      | Enter a name for the namespace. The name can be any text. For example, you can enter the name of your company for the namespace name.<br /><br /> A green checkmark appears if the namespace is available. The value that you specify because a prefix for the fully qualified namespace, such as *mynamespace*.accesscontrol.windows.net. |
+   |                       **Region**                        |                              Choose the Azure region that you want to host your namespace in.<br /><br /> Choose the region that most closely matches your country/region. For example, if you and your customers are located in Denmark, choose North Europe, unless another region suits your needs better.                              |
+   |                    **Subscription**                     |                                                                                                                                                      Choose your Azure subscription.                                                                                                                                                       |
 
- After the status of your namespace becomes **Active**, you can continue with configuring the namespace.  
+
+4. Choose **Create**.  
+
+   After the status of your namespace becomes **Active**, you can continue with configuring the namespace.  
 
 ### To configure the namespace  
 
@@ -116,14 +118,13 @@ To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Mi
 
 ### Next Steps  
 
--   During the configuration of your deployment for ACS, you have saved two values:  
+- During the configuration of your deployment for ACS, you have saved two values:  
 
-    -   The string of characters from the **Token signing key** field in the **Add Relying Party Application** page.  
+  - The string of characters from the **Token signing key** field in the **Add Relying Party Application** page.  
 
-    -   The URI for your relying party application from the **Application Integration** section.  
+  - The URI for your relying party application from the **Application Integration** section.  
 
-     You will need these values for the next stage in the ACS configuration process, which is configuring your [!INCLUDE[navnow](includes/navnow_md.md)] components for ACS.  
+    You will need these values for the next stage in the ACS configuration process, which is configuring your [!INCLUDE[navnow](includes/navnow_md.md)] components for ACS.  
 
 ## See Also  
-[Configure Microsoft Dynamics NAV Components for ACS](Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)  
-[How to: Set up Microsoft Dynamics NAV for Single Sign-on With Office 365 using Windows PowerShell](How-to--Set-up-Microsoft-Dynamics-NAV-for-Single-Sign-on-With-Office-365-using-Windows-PowerShell.md)  
+[Configure Microsoft Dynamics NAV Components for ACS](Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)    

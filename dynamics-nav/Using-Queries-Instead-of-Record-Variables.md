@@ -48,32 +48,32 @@ IF Item.FINDSET THEN
 ## Corresponding Query Implementation  
  To get the same results with a query instead of record variables, you create a query and add C/AL code to an object to run the query as follows:  
 
-1.  In Query Designer, create a query that has the following characteristics:  
+1. In Query Designer, create a query that has the following characteristics:  
 
-    -   Include a data item for table 27 Item with columns for the **No.** and **Description** fields of the table.  
+   - Include a data item for table 27 Item with columns for the **No.** and **Description** fields of the table.  
 
-         This corresponds to the `Item` record variable in the record variable example.  
+      This corresponds to the `Item` record variable in the record variable example.  
 
-    -   Include a data item for table 32 ItemLedgerEntry with a filter row for the **Entry Type** field and columns for the **Posting Date** and **Quantity** fields.  
+   - Include a data item for table 32 ItemLedgerEntry with a filter row for the **Entry Type** field and columns for the **Posting Date** and **Quantity** fields.  
 
-         This corresponds to the `ItemLedgerEntry` record variable in the record variable example.  
+      This corresponds to the `ItemLedgerEntry` record variable in the record variable example.  
 
-        > [!NOTE]  
-        >  The field of a filter row is not included in the resulting dataset. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md).  
+     > [!NOTE]  
+     >  The field of a filter row is not included in the resulting dataset. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md).  
 
-    -   Link the data items on the **No.** field of table 27 Item and **Item No.** field of table 32 ItemLedgerEntry by setting DataItemLink property. Set the DataItemLinkType property to **Exclude If No Matches**.  
+   - Link the data items on the **No.** field of table 27 Item and **Item No.** field of table 32 ItemLedgerEntry by setting DataItemLink property. Set the DataItemLinkType property to **Exclude If No Matches**.  
 
-         This corresponds to the `ItemLedgerEntry.SETRANGE("Item No.",Item."No.");` statement in the record variable example.  
+      This corresponds to the `ItemLedgerEntry.SETRANGE("Item No.",Item."No.");` statement in the record variable example.  
 
-    -   Set a SUM method on the **Quantity** column for calculating the total number of items.  
+   - Set a SUM method on the **Quantity** column for calculating the total number of items.  
 
-         This corresponds to the `TotalQty := TotalQty + ItemLedgerEntry.Quantity;` statement in the record variable example.  
+      This corresponds to the `TotalQty := TotalQty + ItemLedgerEntry.Quantity;` statement in the record variable example.  
 
      The following illustration shows the query in Query Designer.  
 
      ![Query that links Item and Item Legder Entry tables](media/NAV_Query_Example_InsteadOfRecords.png "NAV\_Query\_Example\_InsteadOfRecords")  
 
-2.  Add the following code to a codeunit that will run the query.  
+2. Add the following code to a codeunit that will run the query.  
 
 ```  
 ItemMovements.TOPNUMBEROFROWS(5);  

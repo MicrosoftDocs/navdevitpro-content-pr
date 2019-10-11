@@ -18,13 +18,13 @@ Windows PowerShell is a Windows command-line shell that is designed especially f
   
  If this is your first time working with Windows PowerShell, there are various online resources for learning, which include the following:  
   
--   [Getting Started with Windows PowerShell](http://go.microsoft.com/fwlink/?LinkId=254637)  
+- [Getting Started with Windows PowerShell](http://go.microsoft.com/fwlink/?LinkId=254637)  
   
--   [Scripting with Windows PowerShell](http://go.microsoft.com/fwlink/?LinkId=254638) \(with videos\)  
+- [Scripting with Windows PowerShell](http://go.microsoft.com/fwlink/?LinkId=254638) \(with videos\)  
   
--   [The Windows PowerShell blog](http://go.microsoft.com/fwlink/?LinkId=254642)  
+- [The Windows PowerShell blog](http://go.microsoft.com/fwlink/?LinkId=254642)  
   
- All Windows PowerShell cmdlets support the parameters in the following table.  
+  All Windows PowerShell cmdlets support the parameters in the following table.  
   
 |Parameter|Definition|  
 |---------------|----------------|  

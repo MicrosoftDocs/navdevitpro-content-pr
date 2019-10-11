@@ -1,9 +1,10 @@
-﻿---
-title: "Feature Limitations of the Microsoft Dynamics NAV Web Client"
-description: "Listing non-supported and partically supported features of the Web client."
+---
+title: "Feature Limitations of the Web Client"
+description: "Listing non-supported and partially supported features of the Microsoft Dynamics NAV Web client."
 author: jswymer
+
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 04/09/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -57,7 +58,7 @@ ms.prod: "dynamics-nav-2018"
 
 |Feature|Level of support|Remarks|  
 |-------------|----------------------|-------------|  
-|GridLayout control for arranging page fields|Partially supported.|The **RowSpan** and **ColumnSpan** properties on fields in the grid layout are not supported.|  
+|GridLayout control for arranging page fields|Partially supported.|The **RowSpan** and **ColumnSpan** properties on fields in the grid layout are not supported. The **Rows** and **Wide** layouts on the grid control itself are not supported.|  
 
 ### Page Properties  
  The following page properties are not supported or are partially supported by [!INCLUDE[nav_web](includes/nav_web_md.md)].  
@@ -73,7 +74,8 @@ ms.prod: "dynamics-nav-2018"
 ||RowSpan|Not supported.||  
 ||AssistEdit|Partially supported.|The **AssistEdit** on a field when the page is in the view mode or if the field has the data type of Option appears as hyperlink instead of a button.|  
 ||DrillDown|Partially supported.|The drill-down on a field when the page is in the view mode or if the field has the data type of Option appears as hyperlink instead of a button.|  
-||Lookup|Partially supported.|The Lookup property is not supported on a Repeater control when the page is in the view mode or if the field has the data type of Option. You can use the OnDrillDown trigger instead.|  
+||Lookup|Partially supported.|The Lookup property is not supported on a Repeater control when the page is in the view mode or if the field has the data type of Option. You can use the OnDrillDown trigger instead.|
+||QuickEntry|Partially supported.|Not supported in lists on a page.|  
 |Part|ChartPartID|Not supported.|If a page contains a Chart part, then the part is ignored and nothing appears for the part in the [!INCLUDE[nav_web](includes/nav_web_md.md)].|  
 ||SystemPartID|Partially supported.|[!INCLUDE[nav_web](includes/nav_web_md.md)] supports Notes and RecordLinks system parts, but not Outlook and MyNotes system parts. RecordLinks only supports access to URLs and resources on file shares; files that are stored locally on the user's computer cannot be accessed. |  
 ||PartType|Partially supported.|The **Chart** option is not supported. If a page contains a Chart part or an unsupported System part, then the part is ignored and nothing appears for the part in the [!INCLUDE[nav_web](includes/nav_web_md.md)].|  
@@ -119,7 +121,8 @@ ms.prod: "dynamics-nav-2018"
 |Buffering of keyboard input for heads-down data entry|Not supported.||  
 |System actions are default actions in the **Application** menu and ribbon on pages and reports. System actions include the following:<br /><br /> -   Copy Link to Page<br />-   Recipient as Attachment<br />-   Microsoft Word<br />-   Print Page<br />-   Show as List<br />-   OneNote|Not supported.|The actions are not available in the user interface. **Note:**  You can use the action Open in Excel on list places and transfer all data in the list to an Excel spreadsheet. You can use Internet Explorer functions to print a page and to create links on a page.|  
 |Actions related to a subpage in a part when the subpage is dynamically shown or hidden based on a user interaction|Partially supported.|The actions related to the subpage will always be present and active in the ribbon, even when the page is not shown. For an example, see page 5855.|  
-|FlowFilters on pages|Not supported.|Using **Limit totals to** is not supported. Use **Filter** on column instead.|  
+|FlowFilters on pages|Not supported.|Using **Limit totals to** is not supported.|
+|**Filter on column** on FlowFields|Not supported.||   
 |Vertical resizing of controls|Not supported.|Vertical resizing of controls is not supported on the [!INCLUDE[nav_web](includes/nav_web_md.md)]. A multiline textbox, for example, will not increase in vertical size when the user drags to increase the size of the page. This applies to all controls that can take advantage of vertical or horizontal resizing, such as charts, grids, multiline, textboxes, and control add-ins.|  
 
 ## See Also  

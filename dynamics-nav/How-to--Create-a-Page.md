@@ -15,13 +15,13 @@ manager: edupont
 # Creating a Page in Microsoft Dynamics NAV
 Pages are objects for viewing and editing data in the [!INCLUDE[rtc](includes/rtc_md.md)]. When you create a new page, consider the page's business purpose, including which user uses it and what tasks the user must have. There are ten page types from which you can choose, including:  
   
--   Role Center pages, which are home pages for a specific user role such as account manager or sales order processor.  
+- Role Center pages, which are home pages for a specific user role such as account manager or sales order processor.  
   
--   List pages, which display multiple records on a page.  
+- List pages, which display multiple records on a page.  
   
--   Card pages, which are used to modify individual customer or item records.  
+- Card pages, which are used to modify individual customer or item records.  
   
- The page type determines which controls, parts, and properties are valid for the page. For example, FactBoxes are not allowed on all page types. For more information about page types, see [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md).  
+  The page type determines which controls, parts, and properties are valid for the page. For example, FactBoxes are not allowed on all page types. For more information about page types, see [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md).  
   
 ### To create a blank page  
   

@@ -1,6 +1,6 @@
 ---
 title: Create purchaseInvoices | Microsoft Docs
-description: Creates a purchase invoice object in Dynamics 365 for Financials.
+description: Creates a purchase invoice object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,17 +10,19 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Create purchaseInvoices
-Create a purchase invoice report object in Dynamics 365 for Financials.
+Create a purchase invoice report object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-POST /financials/companies({id})/purchaseInvoices
+POST businesscentralPrefix/companies({id})/purchaseInvoices
 ```
 
 ## Request headers
@@ -43,7 +45,7 @@ If successful, this method returns ```201 Created``` response code and a **purch
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices
+POST https://{businesscentralPrefix}/api/beta/companies({id})/purchaseInvoices
 Content-type: application/json
 
 {
@@ -52,7 +54,7 @@ Content-type: application/json
   "invoiceDate": "2015-12-31",
   "vendorNumber": "GL00000008",
   "currencyCode": "GBP",
-  "paymentTerms": "COD"
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668"
 }
 ```
 
@@ -62,7 +64,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Purchase invoice](../resources/dynamics_purchaseinvoice.md)  
-[Get purchase invoice](../api/dynamics_purchaseinvoice_get.md)  
-[Update purchase invoice](../api/dynamics_purchaseinvoice_update.md)  
-[Delete purchase invoice](../api/dynamics_purchaseinvoice_delete.md)  
+[Purchase Invoice](../resources/dynamics_purchaseinvoice.md)  
+[Get Purchase Invoice](../api/dynamics_purchaseinvoice_get.md)  
+[Update Purchase Invoice](../api/dynamics_purchaseinvoice_update.md)  
+[Delete Purchase Invoice](../api/dynamics_purchaseinvoice_delete.md)  

@@ -39,15 +39,15 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
   
  Simon has been asked to perform the following tasks and create a MenuSuite that meets the following requirements:  
   
--   Create a new department named Customer Support. This department should contain customer and vendor information such as a Customer Card page, Vendor List page, and Customer-Order Summary report. The information will be grouped under vendor and customer submenus. The List page should be accessed from the Lists category and the card page should be accessed from the Tasks subcategory.  
+- Create a new department named Customer Support. This department should contain customer and vendor information such as a Customer Card page, Vendor List page, and Customer-Order Summary report. The information will be grouped under vendor and customer submenus. The List page should be accessed from the Lists category and the card page should be accessed from the Tasks subcategory.  
   
--   Add customer reports to the Reports and Analysis submenu The MenuSuite should contain the Customer-Order Summary report, which should be accessed from the Reports and Analysis subcategory in the Customer Support department.  
+- Add customer reports to the Reports and Analysis submenu The MenuSuite should contain the Customer-Order Summary report, which should be accessed from the Reports and Analysis subcategory in the Customer Support department.  
   
--   Remove departments and menu items that are no longer needed.  
+- Remove departments and menu items that are no longer needed.  
   
--   Modify the MenuSuite to reflect all the changes at have been made at [!INCLUDE[demoname](includes/demoname_md.md)]  
+- Modify the MenuSuite to reflect all the changes at have been made at [!INCLUDE[demoname](includes/demoname_md.md)]  
   
- Simon knows that he can create a MenuSuite in Object Designer and make the changes in Navigation Pane Designer to accomplish his task.  
+  Simon knows that he can create a MenuSuite in Object Designer and make the changes in Navigation Pane Designer to accomplish his task.  
   
 ## Creating the MenuSuite  
  You create MenuSuites from the basic MenuSuite that is provided in [!INCLUDE[navnow](includes/navnow_md.md)] and design it in Navigation Pane Designer. To create a new MenuSuite, choose a design level that your license allows. For this walkthrough, you will design the MenuSuite at the Dept–Partner design level. For more information about design permission levels, see [Designing MenuSuites](Designing-MenuSuites.md).  

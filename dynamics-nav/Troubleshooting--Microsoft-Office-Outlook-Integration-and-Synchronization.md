@@ -62,27 +62,27 @@ This topic lists some common problems that can occur when you use the Microsoft 
   
 #### To configure conditions  
   
-1.  In the **Search** box, enter **Outlook Synch. User Setup**, and then choose the related link.  
+1. In the **Search** box, enter **Outlook Synch. User Setup**, and then choose the related link.  
   
-2.  Select the line for the APP entity, and then select the **Condition** field.  
+2. Select the line for the APP entity, and then select the **Condition** field.  
   
-3.  In the **Outlook Synch. Filters -Condition** window, in the **Field Name** field, select **Salesperson Code**.  
+3. In the **Outlook Synch. Filters -Condition** window, in the **Field Name** field, select **Salesperson Code**.  
   
-4.  In the **Value** field, add the code for the salesperson.  
+4. In the **Value** field, add the code for the salesperson.  
   
-5.  Repeat these steps for the TASK entity.  
+5. Repeat these steps for the TASK entity.  
   
- Setting conditions is not required, but you should do it to prevent mass data transfer to a local mailbox or a public folder. In large environments with hundreds of contacts, you may want to set conditions to limit the data that is to be synchronized to every salesperson who has a mailbox that is configured for Outlook synchronization.  
+   Setting conditions is not required, but you should do it to prevent mass data transfer to a local mailbox or a public folder. In large environments with hundreds of contacts, you may want to set conditions to limit the data that is to be synchronized to every salesperson who has a mailbox that is configured for Outlook synchronization.  
   
- If there are no conditions set for the contacts entities, then you may get the following message to view the debug log:  
+   If there are no conditions set for the contacts entities, then you may get the following message to view the debug log:  
   
- **Closing Mapi session "/o=First Organization/ou=First Administrative Group/cn=Recipients/cn=XY" because it exceeded the maximum of 250 objects of type "objtMessage**  
+   **Closing Mapi session "/o=First Organization/ou=First Administrative Group/cn=Recipients/cn=XY" because it exceeded the maximum of 250 objects of type "objtMessage**  
   
- This is due to a security setting on the Exchange Server. If a large set of data, which is first triggered with 250 objects, is synchronized to Exchange Server, then Exchange Server logs an error in the event log file and does not let you add the data to the mailbox.  
+   This is due to a security setting on the Exchange Server. If a large set of data, which is first triggered with 250 objects, is synchronized to Exchange Server, then Exchange Server logs an error in the event log file and does not let you add the data to the mailbox.  
   
- To work around this limitation, you can adjust the registry based on the objects that can be found in event ID 9646 in the application event log file on Exchange Server. After you have completed setting conditions, you may have to register the changes in the change log but only if you have made changes to the default configuration in the **Outlook Synch. Entities** window. The changes are registered in the following order in the change log: CONT\_SP, CONT\_COMP, CONT\_PERS, TASK, and APP entity.  
+   To work around this limitation, you can adjust the registry based on the objects that can be found in event ID 9646 in the application event log file on Exchange Server. After you have completed setting conditions, you may have to register the changes in the change log but only if you have made changes to the default configuration in the **Outlook Synch. Entities** window. The changes are registered in the following order in the change log: CONT\_SP, CONT\_COMP, CONT\_PERS, TASK, and APP entity.  
   
- For more information, see the following articles:  
+   For more information, see the following articles:  
   
 -   [Knowledge Base article 830836: Event ID 9646 is logged when you try to send many messages in Exchange Server 2003](http://go.microsoft.com/fwlink/?LinkId=154865)  
   
@@ -118,13 +118,13 @@ This topic lists some common problems that can occur when you use the Microsoft 
 ## Setting Up Microsoft Outlook Integration in a Three-Machine Environment  
  When selecting a company, you may receive a message that resembles one of the following messages:  
   
--   The connection to "" Microsoft Dynamics NAV database failed. The program returned the following error: GetCompaniesList error: The login failed when connecting to SQL Server \<DatabaseTier>. connection string: NavSynchronizationUrl=http://\<ServiceTier>:7047/DynamicsNAV71/WS/Codeunit/DynamicsNAVsynchOutlook;CompanyName=\<CompanyName>; Please verify your synchronization settings. If the problem persists contact your system administrator.  
+- The connection to "" Microsoft Dynamics NAV database failed. The program returned the following error: GetCompaniesList error: The login failed when connecting to SQL Server \<DatabaseTier>. connection string: NavSynchronizationUrl=http://\<ServiceTier>:7047/DynamicsNAV71/WS/Codeunit/DynamicsNAVsynchOutlook;CompanyName=\<CompanyName>; Please verify your synchronization settings. If the problem persists contact your system administrator.  
   
--   The connection to "" Microsoft Dynamics NAV database failed. The program returned the following error: GetCompaniesList error: The request failed with HTTP status 401: Unauthorized. connection string: NavSynchronizationUrl=http://\<ServiceTier>:7047/DynamicsNAV70/WS/Codeunit/DynamicsNAVsynchOutlook;CompanyName=\<CompanyName>; Please verify your synchronization settings. If the problem persists contact your system administrator.  
+- The connection to "" Microsoft Dynamics NAV database failed. The program returned the following error: GetCompaniesList error: The request failed with HTTP status 401: Unauthorized. connection string: NavSynchronizationUrl=http://\<ServiceTier>:7047/DynamicsNAV70/WS/Codeunit/DynamicsNAVsynchOutlook;CompanyName=\<CompanyName>; Please verify your synchronization settings. If the problem persists contact your system administrator.  
   
- In the message, \<DatabaseTier> is the server name of the SQL Server, \<ServiceTier> is the server name of the Microsoft Dynamics NAV Server, and \<CompanyName> is the company name.  
+  In the message, \<DatabaseTier> is the server name of the SQL Server, \<ServiceTier> is the server name of the Microsoft Dynamics NAV Server, and \<CompanyName> is the company name.  
   
- These errors can occur if [!INCLUDE[navnow](includes/navnow_md.md)] web services are not set up with the correct Service Principal Names \(SPN\) and delegation information. They can also occur if the web service path is not set correctly in the **Connection** tab. For more information, see [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough--Installing-the-Three-Tiers-on-Three-Computers.md). You can also see the [NAV 2009 Web Services on a three machine setup](http://go.microsoft.com/fwlink/?LinkID=154453) blog post in the [!INCLUDE[navnow](includes/navnow_md.md)] Team Blog on MSDN.  
+  These errors can occur if [!INCLUDE[navnow](includes/navnow_md.md)] web services are not set up with the correct Service Principal Names \(SPN\) and delegation information. They can also occur if the web service path is not set correctly in the **Connection** tab. For more information, see [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough--Installing-the-Three-Tiers-on-Three-Computers.md). You can also see the [NAV 2009 Web Services on a three machine setup](http://go.microsoft.com/fwlink/?LinkID=154453) blog post in the [!INCLUDE[navnow](includes/navnow_md.md)] Team Blog on MSDN.  
   
 ## Configuring the Outlook Profile in an Environment Other than Microsoft Exchange  
  When you add and configure a new user Outlook profile in an environment other than Microsoft Exchange and are working with the TASK entity, you must make sure that the name of the Active Directory user \(Full name\) or name of the Mailbox owner matches the Salesperson as configured on the **Salesperson/Purchaser** card.  

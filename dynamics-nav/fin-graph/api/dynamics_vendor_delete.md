@@ -1,6 +1,6 @@
 ---
 title: Delete vendors | Microsoft Docs
-description: Deletes a vendor object in Dynamics 365 for Financials. 
+description: Deletes a vendor object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,19 +10,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Delete vendors
-Delete a vendor object from Dynamics 365 for Financials.
+Delete a vendor object from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-DELETE /financials/companies({id})/vendors({id})
+DELETE businesscentralPrefix/companies({id})/vendors({id})
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
@@ -41,7 +44,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/vendors({id})
+DELETE https://{businesscentralPrefix}/api/beta/companies({id})/vendors({id})
 ```
 
 **Response** 
@@ -59,6 +62,6 @@ HTTP/1.1 204 No Content
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Vendor](../resources/dynamics_vendor.md)  
-[Get vendor](../api/dynamics_vendor_get.md)  
-[Create vendor](../api/dynamics_create_vendor.md)  
-[Update vendor](../api/dynamics_vendor_update.md)  
+[Get Vendor](../api/dynamics_vendor_get.md)  
+[Create Vendor](../api/dynamics_create_vendor.md)  
+[Update Vendor](../api/dynamics_vendor_update.md)  

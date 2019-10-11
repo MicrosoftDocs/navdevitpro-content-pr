@@ -31,6 +31,8 @@ Report.RUN
  Use this function or the [RUNMODAL Function \(Report\)](RUNMODAL-Function--Report-.md) if you know at design time the exact report that you want to run. Otherwise, use the [REPORT.RUNMODAL Function](REPORT-RUNMODAL-Function.md) or [REPORT.RUN Function](REPORT-RUN-Function.md).  
   
  If the report you specify does not exist, then a compile error occurs.  
+
+[!INCLUDE[multi_file_download_web_client](includes/multi_file_download_web_client.md)]
   
 ## Example  
  This example requires that you create the following variables.  

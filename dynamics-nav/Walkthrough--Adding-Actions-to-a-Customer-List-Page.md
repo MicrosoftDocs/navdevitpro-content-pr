@@ -36,43 +36,43 @@ In this walkthrough, you will learn how to add a new item to an **Action** tab a
   
 #### To add an action to the customer list page  
   
-1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], choose **Tools**, and then choose **Object Designer**.  
+1. In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], choose **Tools**, and then choose **Object Designer**.  
   
-2.  In Object Designer, choose **Page**, select page 5000 **Kevin's Customer List**, and then choose **Design**.  
+2. In Object Designer, choose **Page**, select page 5000 **Kevin's Customer List**, and then choose **Design**.  
   
-     The **Kevin's Customer List** page opens in Page Designer.  
+    The **Kevin's Customer List** page opens in Page Designer.  
   
-3.  Select the first empty line on the page, which is located immediately below the **\<Phone No.>** field.  
+3. Select the first empty line on the page, which is located immediately below the **\<Phone No.>** field.  
   
-4.  With focus on Page Designer, in the **View** menu, choose **Page Actions**.  
+4. With focus on Page Designer, in the **View** menu, choose **Page Actions**.  
   
-     Action Designer opens. For this walkthrough, Action Designer will be used to set actions on the page.  
+    Action Designer opens. For this walkthrough, Action Designer will be used to set actions on the page.  
   
-5.  In Action Designer, in the **Name** column in the first row, type **CustomerListActions**.  
+5. In Action Designer, in the **Name** column in the first row, type **CustomerListActions**.  
   
-     The relevant ActionContainers for a list page are:  
+    The relevant ActionContainers for a list page are:  
   
-    -   NewDocumentItems  
+   - NewDocumentItems  
   
-    -   ActionItems  
+   - ActionItems  
   
-    -   RelatedInformation  
+   - RelatedInformation  
   
-    -   Reports  
+   - Reports  
   
-    -   HomeItems  
+   - HomeItems  
   
-    -   ActivityButtons  
+   - ActivityButtons  
   
      For more information about the different types of actions, see [Actions Overview](Actions-Overview.md).  
   
-6.  Set the **SubType** column to **ActionItems**.  
+6. Set the **SubType** column to **ActionItems**.  
   
-     Actions with a **SubType** of **ActionItems** are displayed on the **General** action group in the ribbon.  
+    Actions with a **SubType** of **ActionItems** are displayed on the **General** action group in the ribbon.  
   
-7.  In the **Caption** column in the second row, type **Sales Order**.  
+7. In the **Caption** column in the second row, type **Sales Order**.  
   
-8.  Set the **Type** to **Action**.  
+8. Set the **Type** to **Action**.  
   
 9. This action is indented one level below the **ActionContainer** to indicate that it is contained by **ActionContainer**.  
   

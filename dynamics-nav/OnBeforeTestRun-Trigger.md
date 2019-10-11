@@ -15,8 +15,7 @@ Executed before a test function of a test codeunit is run.
 ## Syntax  
 
 ```  
-
-OnBeforeTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[128]) Ok : Boolean  
+OnBeforeTestRun(CodeunitID : Integer; CodeunitName : Text[30]; FunctionName : Text[128]; TestPermissions : Text) Ok : Boolean)
 ```  
 
 #### Parameters  

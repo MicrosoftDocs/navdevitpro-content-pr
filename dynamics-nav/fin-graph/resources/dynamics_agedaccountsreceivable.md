@@ -1,6 +1,6 @@
 ---
 title: agedAccountsReceivable resource type | Microsoft Docs
-description: An aged accounts receivable object in Dynamics 365 for Finance and Operations, Business edition.
+description: An aged accounts receivable object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,8 +10,9 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # agedAccountsReceivable resource type
@@ -27,7 +28,8 @@ Represents an agedAccountsReceivable object in [!INCLUDE[d365fin_long_md](../../
 |[GET agedAccountsReceivable](../api/dynamics_agedaccountsreceivable_get.md)|agedAccountsReceivable|Get agedAccountsReceivable object|
 
 ## Properties
-| Property	     | Type    |Description                                  |
+
+| Property       | Type    |Description                                  |
 |:---------------|:--------|:--------------------------------------------|
 |customerId      |GUID     |The unique ID of customer.                   |
 |customerNumber  |string   |Specifies customer's number.                 |
@@ -66,14 +68,13 @@ Here is a JSON representation of the resource.
     "periodStartDateFilter": "date",
     "periodLengthFilter": "string"
 }
-
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get aged accounts receivable](../api/dynamics_agedaccountsreceivable_get.md)  
-[Aged accounts payable](dynamics_agedaccountspayable.md)  
+[Get Aged Accounts Receivable](../api/dynamics_agedaccountsreceivable_get.md)  
+[Aged Accounts Payable](dynamics_agedaccountspayable.md)  
 [Account](dynamics_account.md)  
 

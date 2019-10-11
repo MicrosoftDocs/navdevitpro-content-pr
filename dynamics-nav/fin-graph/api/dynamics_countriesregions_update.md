@@ -1,6 +1,6 @@
 ---
 title: Update countriesRegions | Microsoft Docs
-description: Updates a countries/regions object in Dynamics 365 for Financials.
+description: Updates a countries/regions object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,19 +10,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Update countriesRegions
 Update the properties of a country/region object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-PATCH /financials/companies({id})/countriesRegions({id})
+PATCH businesscentralPrefix/companies({id})/countriesRegions({id})
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization |Bearer {token}. Required.|
@@ -42,7 +45,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 Here is an example of the request.
 
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/countriesRegions({id})
+PATCH https://{businesscentralPrefix}/api/beta/companies({id})/countriesRegions({id})
 Content-type: application/json
 
 {
@@ -76,7 +79,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Countries regions](../resources/dynamics_countriesregions.md)  
-[Get counties regions](dynamics_countriesregions_get.md)  
-[Post countries regions](dynamics_create_countriesregions.md)  
-[Delete countries regions](dynamics_countriesregions_delete.md)  
+[Countries Regions](../resources/dynamics_countriesregions.md)  
+[Get Countries Regions](dynamics_countriesregions_get.md)  
+[Post Countries Regions](dynamics_create_countriesregions.md)  
+[Delete Countries Regions](dynamics_countriesregions_delete.md)  

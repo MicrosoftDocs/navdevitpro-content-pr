@@ -1,6 +1,6 @@
 ---
 title: Create customers | Microsoft Docs
-description: Creates a customer object in Dynamics 365 for Financials.
+description: Creates a customer object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,19 +10,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Create customers
-Create a customer object in Dynamics 365 for Financials.
+Create a customer object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-POST /financials/companies({id})/customers
+POST businesscentralPrefix/companies({id})/customers
 ```
 
 ## Request headers
+
 |Header         |Value                    |
 |---------------|-------------------------|
 |Authorization  |Bearer {token}. Required.|
@@ -41,7 +44,7 @@ If successful, this method returns ```201 Created``` response code and a **custo
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/customers
+POST https://{businesscentralPrefix}/api/beta/companies({id})/customers
 Content-type: application/json
 
 {
@@ -64,11 +67,7 @@ Content-type: application/json
   "taxRegistrationNumber": "28012001T",
   "currencyId": "currencyId-value",
   "currencyCode": "USD",
-  "paymentTermsId": "paymentTermsId-value",
-  "paymentTerms": {
-    "code": "1M(8D)",
-    "description": "1 Month/2% 8 days"
-  },
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
   "shipmentMethodId": "shipmentMethodId-value",
   "shipmentMethod": null,
   "paymentMethodId": "paymentMethodId-value",
@@ -80,7 +79,6 @@ Content-type: application/json
   "overdueAmount": 0,
   "totalSalesExcludingTax": 0,
 }
-
 ```
 
 **Response**
@@ -114,10 +112,7 @@ Content-type: application/json
   "taxAreaDisplayName": "tax area",
   "taxRegistrationNumber": "28012001T",
   "currencyCode": "USD",
-  "paymentTerms": {
-    "code": "1M(8D)",
-    "description": "1 Month/2% 8 days"
-  },
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
   "shipmentMethod": null,
   "paymentMethod": {
     "code": "BANK",
@@ -129,7 +124,6 @@ Content-type: application/json
   "totalSalesExcludingTax": 0,
   "lastModifiedDateTime": "2017-03-07T00:35:28.983Z"
 }
-
 ```
 
 ## See Also  
@@ -138,7 +132,7 @@ Content-type: application/json
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Customer](../resources/dynamics_customer.md)  
-[Get customers](dynamics_customer_get.md)  
-[Patch customers](dynamics_customer_update.md)  
-[Delete customers](dynamics_customer_delete.md)  
- 
+[Get Customers](dynamics_customer_get.md)  
+[Patch Customers](dynamics_customer_update.md)  
+[Delete Customers](dynamics_customer_delete.md)  
+

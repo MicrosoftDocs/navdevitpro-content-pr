@@ -164,6 +164,7 @@ OBJECT Codeunit 825 DO Payment Mgt.
     BEGIN
     END.
   }
+}
 ```
 ## Codeunit 826 DO Payment Integration Mgt.
 ```
@@ -260,7 +261,6 @@ OBJECT Codeunit 827 DO Payment Card Validation
     END.
   }
 }
-
 ```
 ## Codeunit 829 DO Payment Trans. Log Mgt.
 ```

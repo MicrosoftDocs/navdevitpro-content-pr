@@ -1,6 +1,6 @@
 ---
 title: Update irs1099Codes | Microsoft Docs
-description: Updates a IRS 1099 Code in Dynamics 365 for Financials.
+description: Updates a IRS 1099 Code in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,19 +10,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Update irs1099Codes
 Update the properties of an IRS 1099 codes object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-PATCH /financials/companies({id})/irs1099Codes({id})
+PATCH businesscentralPrefix/companies({id})/irs1099Codes({id})
 ```
 
 ## Request headers
+
 |Header       |Value                    |
 |-------------|-------------------------|
 |Authorization|Bearer {token}. Required.|
@@ -41,7 +44,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/irs1099Codes({id})
+PATCH https://{businesscentralPrefix}/api/beta/companies({id})/irs1099Codes({id})
 Content-type: application/json
 
 {

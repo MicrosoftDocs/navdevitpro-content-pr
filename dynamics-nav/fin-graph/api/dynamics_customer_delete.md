@@ -1,6 +1,6 @@
 ---
 title: Delete customers | Microsoft Docs
-description: Deletes a customers object from Dynamics 365 for Financials.
+description: Deletes a customers object from Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,19 +10,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Delete customers
-Delete a customer object from Dynamics 365 for Financials.
+Delete a customer object from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-DELETE /financials/companies({id})/customers({id})
+DELETE businesscentralPrefix/companies({id})/customers({id})
 ```
 
 ## Request headers
+
 |Header         |Value                     |
 |---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
@@ -41,7 +44,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/customers({id})
+DELETE https://{businesscentralPrefix}/api/beta/companies({id})/customers({id})
 ```
 
 **Response** 
@@ -60,6 +63,6 @@ HTTP/1.1 204 No Content
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Customer](../resources/dynamics_customer.md)  
-[Get customers](dynamics_customer_get.md)  
-[Post customers](dynamics_create_customer.md)  
-[Patch customers](dynamics_customer_update.md)  
+[Get Customers](dynamics_customer_get.md)  
+[Post Customers](dynamics_create_customer.md)  
+[Patch Customers](dynamics_customer_update.md)  

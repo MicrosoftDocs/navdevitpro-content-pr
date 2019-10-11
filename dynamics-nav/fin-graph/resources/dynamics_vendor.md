@@ -1,6 +1,6 @@
 ---
 title: vendors resource type | Microsoft Docs
-description: A vendor object in Dynamics 365 for Finance and Operations, Business edition. 
+description: A vendor object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,8 +10,9 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # vendors resource type
@@ -29,8 +30,18 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 |[PATCH vendors](../api/dynamics_vendor_update.md)|vendors|Updates a vendor object.|
 |[DELETE vendor](../api/dynamics_vendor_delete.md)|none|Deletes a vendor object.|
 
+## Subpages
+
+| Method    |Return Type| Description      |
+|:----------|:----------|:-----------------|
+|[GET vendor defaultDimensions](../api/dynamics_vendor_get_defaultdimensions.md)|default dimensions   |Gets the default dimensions of vendor. |
+|[POST vendor defaultDimensions](../api/dynamics_vendor_create_defaultdimensions.md) |default dimensions  |Creates the default dimensions of  vendor.|
+|[PATCH vendor defaultDimensions](../api/dynamics_vendor_update_defaultdimensions.md)|default dimensions  |Updates the default dimensions of vendor.|
+|[DELETE vendor defaultDimensions](../api/dynamics_vendor_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of vendor.  |
+
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the vendor. Non-editable.|
 |number|string|The vendor number.|
@@ -74,7 +85,6 @@ Here is a JSON representation of the vendor.
   "currencyCode": "string",
   "irs1099Code": "string",
   "paymentTermsId": "GUID",
-  "paymentTerms": "NAV.PaymentTermsType",
   "paymentMethodId": "GUID",
   "paymentMethod": "NAV.PaymentMethod",
   "taxLiable": "boolean",
@@ -82,7 +92,6 @@ Here is a JSON representation of the vendor.
   "balance": "decimal",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also
@@ -91,7 +100,7 @@ Here is a JSON representation of the vendor.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get vendor](../api/dynamics_vendor_get.md)  
-[Create vendor](../api/dynamics_create_vendor.md)  
-[Update vendor](../api/dynamics_vendor_update.md)  
-[Delete vendor](../api/dynamics_vendor_delete.md)  
+[Get Vendor](../api/dynamics_vendor_get.md)  
+[Create Vendor](../api/dynamics_create_vendor.md)  
+[Update Vendor](../api/dynamics_vendor_update.md)  
+[Delete Vendor](../api/dynamics_vendor_delete.md)  

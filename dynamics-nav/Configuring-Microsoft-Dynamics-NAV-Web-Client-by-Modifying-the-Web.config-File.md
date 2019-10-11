@@ -15,11 +15,11 @@ You can create a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_i
 ## <a name="WebClientSettingsFile"></a>About the configuration file
 The name of the configuration file depends on your [!INCLUDE[navnow_md.md](includes/navnow_md.md)].
 
--   With [!INCLUDE[nav2018_md](includes/nav2018_md.md)], because the web server instances run on .NET Core, the configuration file for the web server instances is a .json file type called **navsettings.json**. The navsettings.json file is a Java Script Object Notification file type that is similar to files that use the XML file format.
+- With [!INCLUDE[nav2018_md](includes/nav2018_md.md)], because the web server instances run on .NET Core, the configuration file for the web server instances is a .json file type called **navsettings.json**. The navsettings.json file is a Java Script Object Notification file type that is similar to files that use the XML file format.
 
 - With [!INCLUDE[nav2017](includes/nav2017.md)] and earlier, the configuration file is a .config type file called **web.config**. 
 
- After installation, you can change the configuration by modifying the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]. There are two ways to modify this file: directly or using PowerShell.
+  After installation, you can change the configuration by modifying the [!INCLUDE[web_server_settings_file_md.md](includes/web_server_settings_file_md.md)]. There are two ways to modify this file: directly or using PowerShell.
 
 ### Where to find the navsettings.json or web.config file
 The navsettings.json or web.config file is stored in the physical path of the web server instance, which is by default is *%systemroot%\\inetpub\\wwwroot\\[WebServerInstanceName]*.
@@ -31,32 +31,43 @@ The navsettings.json or web.config file is stored in the physical path of the we
 1. Open the navsettings.json or web.config in any text or code editor, such as Notepad or Visual Studio Code.
 
     Each setting is defined by a key-value pair.  
-    
+
     -   In the navsettings.json file, a setting has the format:
 
-        `"keyname": "keyvalue",`
+        ```
+        "keyname": "keyvalue",
+        ```
 
     -   In the web.config file, a setting has the format:
 
-        `<add key="keyname" value="keyvalue"/>`
+        ```
+        <add key="keyname" value="keyvalue"/>
+        ```
 
-    
-    The `keyname` is the name of the configuration setting and the `keyvalue` is the value.
-    
-    For example, in the navsettings.json file, the configuration setting that specifies the Windows credential type for authenticating users is:
 
-    `"ClientServicesCredentialType":  "Windows",`
 
-    In the web.config file, the setting is:
-    
-    `<add key="ClientServicesCredentialType" value="Windows"/>`
+~~~
+The `keyname` is the name of the configuration setting and the `keyvalue` is the value.
 
+For example, in the navsettings.json file, the configuration setting that specifies the Windows credential type for authenticating users is:
+
+```
+"ClientServicesCredentialType":  "Windows",
+```
+
+In the web.config file, the setting is:
+
+```
+<add key="ClientServicesCredentialType" value="Windows"/>
+```
+Include values in double quotes.
+~~~
 2.  Find the configuration settings that you want to change, and then change the values.
 
     See the [Settings](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md#Settings) section for a description of each setting.
 3.  When you are done making changes, save the file.
 4.  Restart the [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)] for the changes to take effect.
-    
+
     For example, in IIS Manager, in the **Connections** pane, select website node for [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)], and then in the **Actions** pane, choose **Restart**. Or, from your desktop, run `iisreset`. 
 
 ## Modify the navsettings.json or web.config file by using the Set-NAVWebServerInstanceConfiguration PowerShell cmdlet
@@ -107,10 +118,11 @@ The following table describes the settings that are available in the navsettings
 |HelpServer|Specifies the name of the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server that the [!INCLUDE[nav_web](includes/nav_web_md.md)] must connect to, such as *MyServer*.<br /><br /> Default value: none|  
 |HelpServerPort|Specifies the TCP port on the specified [!INCLUDE[navnow](includes/navnow_md.md)] Help Server that the [!INCLUDE[nav_web](includes/nav_web_md.md)] can access Help through, such as **49000**.<br /><br /> Default value: none| 
 | Feedback Link  |Specifies the URL to a feedback system for gathering end-user feedback about the application. |
-|Community Link	|Specifies the URL to a community or resource for sharing information.|
-|Privacy Link	|Specifies the URL to the privacy information for the application. This link also appears in the sign-in page.|
+|Community Link |Specifies the URL to a community or resource for sharing information.|
+|Privacy Link   |Specifies the URL to the privacy information for the application. This link also appears in the sign-in page.|
 | Legal Link |Specifies the URL to the legal information about application. |
-|Sign In Help Link	|This link appears on the sign-in page. It specifies the URL to a resource that provides information to help the user sign in the Dynamics NAV application.| 
+|Sign In Help Link  |This link appears on the sign-in page. It specifies the URL to a resource that provides information to help the user sign in the Dynamics NAV application.| 
+|PersonalizationEnabled|Specifies whether personalization is enabled in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Set to `true` to enable personalization.<br /><br />For complete instructions about how to enable personalization, see [Enable/Disable Personalization](https://docs.microsoft.com/en-us/dynamics-nav-app/ui-personalization-manage?#EnablePersonalization).|
 
 ## See Also  
 [How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md)   

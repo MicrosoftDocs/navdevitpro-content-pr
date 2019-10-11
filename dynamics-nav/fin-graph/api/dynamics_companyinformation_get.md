@@ -1,6 +1,6 @@
 ---
 title: Get companyInformation | Microsoft Docs
-description: Gets a company information object in Dynamics 365 for Financials.
+description: Gets a company information object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,19 +10,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2017
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Get companyInformation
 Retrieve the properties and relationships of a company information object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-GET /financials/companies({id})/companyInformation({id})
+GET businesscentralPrefix/companies({id})/companyInformation({id})
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
@@ -39,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and a **companyI
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/companyInformation({id})
+GET https://{businesscentralPrefix}/api/beta/companies({id})/companyInformation({id})
 ```
 
 **Response**
@@ -81,5 +84,5 @@ Here is an example of the response.
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Companies](../resources/dynamics_companies.md)  
-[Company information](../resources/dynamics_companyinformation.md)  
-[Update company information](dynamics_companyinformation_update.md)  
+[Company Information](../resources/dynamics_companyinformation.md)  
+[Update Company Information](dynamics_companyinformation_update.md)  

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Feature Limitations of the Microsoft Dynamics NAV Web Client"
 description: "Listing non-supported and partically supported features of the Web client."
 author: SusanneWindfeldPedersen

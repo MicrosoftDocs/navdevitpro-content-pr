@@ -1,6 +1,6 @@
 ---
 title: incomeStatement resource type | Microsoft Docs
-description: An incomeStatement in Dynamics 365 for Finance and Operations, Business edition.
+description: An incomeStatement in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,8 +10,9 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # incomeStatement resource type
@@ -27,7 +28,8 @@ Represents an income statement in [!INCLUDE[d365fin_long_md](../../includes/d365
 |[GET incomeStatement](../api/dynamics_incomestatement_get.md)|incomeStatement|Get an income statement object.|
 
 ## Properties
-| Property	| Type	|Description                                                 |
+
+| Property  | Type  |Description                                                 |
 |:----------|:------|:-----------------------------------------------------------|
 |lineNumber |numeric|The incomeStatement item line number.                       |
 |display    |string |The incomeStatement item display name.                      |
@@ -54,11 +56,10 @@ Here is a JSON representation of the resource.
     "indentation": "int",
     "dateFilter": "date"
 }
-
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get income statement](../api/dynamics_incomestatement_get.md)  
+[Get Income Statement](../api/dynamics_incomestatement_get.md)  

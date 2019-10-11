@@ -1,6 +1,6 @@
 ---
 title: purchaseInvoices resource type | Microsoft Docs
-description: A purchase invoice object in Dynamics 365 for Finance and Operations, Business edition.
+description: A purchase invoice object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,8 +10,9 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # purchaseInvoices resource type
@@ -29,8 +30,16 @@ Represents a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[PATCH purchaseInvoices](../api/dynamics_purchaseinvoice_update.md) |purchaseInvoices|Updates a purchase invoice object.|
 |[DELETE purchaseInvoices](../api/dynamics_purchaseinvoice_delete.md)|none            |Deletes a purchase invoice object.|
 
+## Bound actions
+
+|Action          |Return type   |Description         |
+|----------------|--------------|--------------------|
+|[GET pdfDocument](../api/dynamics_salesquote_pdfdocument.md)|pdfDocument|Gets a PDF document.|
+
+
 ## Properties
-| Property	            | Type	            |Description                                                |
+
+| Property              | Type              |Description                                                |
 |:----------------------|:----------------------|:----------------------------------------------------------|
 |id                     |GUID                   |The invoice ID. Read-Only.                                 |
 |number                 |string, maximum size 20|The invoice number. Read-Only.                             |
@@ -87,11 +96,10 @@ Here is a JSON representation of the resource.
       "totalTaxAmount": "decimal",
       "totalAmountIncludingTax": "decimal",
       "buyFromAddress": {NAV.PostalAddress},
-      "paymentTerms": "string",
+      "paymentTermsId": "GUID",
       "shipmentMethod": "string",
       "lastModifiedDateTime": "DateTime"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
@@ -99,8 +107,8 @@ Here is a JSON representation of the resource.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Purchase invoice](../resources/dynamics_purchaseinvoice.md)  
-[Get purchase invoice](../api/dynamics_purchaseinvoice_get.md)  
-[Create purchase invoice](../api/dynamics_create_purchaseinvoice.md)  
-[Update purchase invoice](../api/dynamics_purchaseinvoice_update.md)  
-[Delete purchase invoice](../api/dynamics_purchaseinvoice_delete.md)  
+[Purchase Invoice](../resources/dynamics_purchaseinvoice.md)  
+[Get Purchase Invoice](../api/dynamics_purchaseinvoice_get.md)  
+[Create Purchase Invoice](../api/dynamics_create_purchaseinvoice.md)  
+[Update Purchase Invoice](../api/dynamics_purchaseinvoice_update.md)  
+[Delete Purchase Invoice](../api/dynamics_purchaseinvoice_delete.md)  

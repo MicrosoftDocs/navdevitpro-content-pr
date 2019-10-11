@@ -16,7 +16,7 @@ The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] pages include an all-pur
 
  ![RoleTailored client control add&#45;in events](media/NAVRTCControlAddinEvents.png "NAVRTCControlAddinEvents")  
 
- Events allow the control add-in to react to user interaction in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. An example of an event is when a user clicks a button in the control add-in display on the page. To program events in a control add-in, you implement the [Microsoft.Dynamics.Framework.UI.Extensibility.IEventControlAddInDefinition](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IEventControlAddInDefinition) interface, as shown in the following example.  
+ Events allow the control add-in to react to user interaction in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. An example of an event is when a user clicks a button in the control add-in display on the page. To program events in a control add-in, you implement the [Microsoft.Dynamics.Framework.UI.Extensibility.IEventControlAddInDefinition](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IEventControlAddInDefinition) interface, as shown in the following example.  
 
 ```c#  
 [ControlAddInExport("MyControlAddIn")]  
@@ -44,7 +44,7 @@ if (this.ControlAddIn != null)
  For more information about how to set up the **OnControlAddin** trigger on a page, see [How to: Set Up a Windows Client Control Add-in on a Page](How-to--Set-Up-a-Windows-Client-Control-Add-in-on-a-Page.md).  
 
 ## Exposing Custom Events  
- To expose a public event in a control add-in, you add the event code to the control add-in class and mark it by using the managed attribute [ApplicationVisibleAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) in the control add-in class.  
+ To expose a public event in a control add-in, you add the event code to the control add-in class and mark it by using the managed attribute [ApplicationVisibleAttribute](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) in the control add-in class.  
 
  The following code example is from a control add-in class that exposes a simple method and property.  
 

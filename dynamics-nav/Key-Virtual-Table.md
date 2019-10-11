@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # Key Virtual Table
-The **Key** virtual table contains information about the keys that are defined in each table in the database.  
+The **Key** virtual table \(ID 2000000063\) contains information about the keys that are defined in each table in the database.  
 
 The **Key** virtual table contains the following fields. These fields cannot be modified.
 

@@ -1,6 +1,6 @@
 ---
 title: Update unitsOfMeasure | Microsoft Docs
-description: Updates a unit of measure object in Dynamics 365 for Financials.
+description: Updates a unit of measure object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,20 +10,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Update unitsOfMeasure
 Update the properties of a units of measure object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-PATCH /financials/companies({id})/unitsOfMeasure({id})
+PATCH businesscentralPrefix/companies({id})/unitsOfMeasure({id})
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization |Bearer. Required.|
@@ -42,7 +45,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/unitsOfMeasure({id})
+PATCH https://{businesscentralPrefix}/api/beta/companies({id})/unitsOfMeasure({id})
 Content-type: application/json
 
 {
@@ -77,7 +80,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Units of measure](../resources/dynamics_unitsofmeasure.md)  
-[Get units of measure](../api/dynamics_unitsofmeasure_get.md)  
-[Create units of measure](../api/dynamics_create_unitsofmeasure.md)  
-[Delete units of measure](../api/dynamics_unitsofmeasure_delete.md)  
+[Units of Measure](../resources/dynamics_unitsofmeasure.md)  
+[Get Units of Measure](../api/dynamics_unitsofmeasure_get.md)  
+[Create Units of Measure](../api/dynamics_create_unitsofmeasure.md)  
+[Delete Units of Measure](../api/dynamics_unitsofmeasure_delete.md)  

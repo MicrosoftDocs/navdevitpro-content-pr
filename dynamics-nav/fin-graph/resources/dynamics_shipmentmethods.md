@@ -1,6 +1,6 @@
 ---
 title: shipmentMethods resource type | Microsoft Docs
-description: A shipment method in Dynamics 365 for Finance and Operations, Business edition. 
+description: A shipment method in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,8 +10,9 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # shipmentMethods resource type
@@ -30,7 +31,8 @@ Represents a method of shipment in [!INCLUDE[d365fin_long_md](../../includes/d36
 |[DELETE shipmentMethods](../api/dynamics_shipmentmethods_delete.md)|none|Deletes a shipment method.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the shipmentMethod. Non-editable.|
 |code|string|Specifies the shipment method code.|
@@ -52,7 +54,6 @@ Here is a JSON representation of the shipmentMethod.
   "displayName": "string",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also
@@ -61,7 +62,7 @@ Here is a JSON representation of the shipmentMethod.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get shipment methods](../api/dynamics_shipmentmethods_get.md)  
-[Create shipment methods](../api/dynamics_create_shipmentmethods.md)  
-[Update shipment methods](../api/dynamics_shipmentmethods_update.md)  
-[Delete shipment methods](../api/dynamics_shipmentmethods_delete.md)  
+[Get Shipment Methods](../api/dynamics_shipmentmethods_get.md)  
+[Create Shipment Methods](../api/dynamics_create_shipmentmethods.md)  
+[Update Shipment Methods](../api/dynamics_shipmentmethods_update.md)  
+[Delete Shipment Methods](../api/dynamics_shipmentmethods_delete.md)  

@@ -12,7 +12,7 @@ caps.latest.revision: 14
 manager: edupont
 ---
 # Table Information Virtual Table
-The **Table Information** virtual table contains information about database tables. The **Table Information** virtual table contains the following fields.  
+The **Table Information** virtual table \(ID 2000000028\) contains information about database tables. The **Table Information** virtual table contains the following fields.  
   
 |Field|Description|  
 |-----------|-----------------|  

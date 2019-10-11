@@ -23,7 +23,7 @@ The [!INCLUDE[navnow](includes/navnow_md.md)] product media includes a folder wi
  For example, you can import the module into the [!INCLUDE[wps_2](includes/wps_2_md.md)] ISE by typing a command such as the following:  
   
 ```  
-Import-Module "${env:ProgramFiles(x86)}\Microsoft Dynamics NAV\90\RoleTailored Client\Microsoft.Dynamics.Nav.Model.Tools.psd1" -force  
+Import-Module "${env:ProgramFiles(x86)}\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Model.Tools.psd1" -force  
   
 Get-Help "NAV"  
 ```  

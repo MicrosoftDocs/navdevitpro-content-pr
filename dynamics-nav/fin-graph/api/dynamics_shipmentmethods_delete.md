@@ -1,6 +1,6 @@
 ---
 title: Delete shipmentMethods | Microsoft Docs
-description: Deletes a shipment method object in Dynamics 365 for Financials.
+description: Deletes a shipment method object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,19 +10,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Delete shipmentMethods
-Delete a shipment method object from Dynamics 365 for Financials.
+Delete a shipment method object from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-DELETE /financials/companies({id})/shipmentMethods({id})
+DELETE businesscentralPrefix/companies({id})/shipmentMethods({id})
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
@@ -41,7 +44,7 @@ If successful, this method returns ```204,No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/shipmentMethods({id})
+DELETE https://{businesscentralPrefix}/api/beta/companies({id})/shipmentMethods({id})
 ```
 
 **Response** 
@@ -58,7 +61,7 @@ HTTP/1.1 204 No Content
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Shipment methods](../resources/dynamics_shipmentmethods.md)  
-[Get shipment methods](../api/dynamics_shipmentmethods_get.md)  
-[Create shipment methods](../api/dynamics_create_shipmentmethods.md)  
-[Update shipment methods](../api/dynamics_shipmentmethods_update.md)  
+[Shipment Methods](../resources/dynamics_shipmentmethods.md)  
+[Get Shipment Methods](../api/dynamics_shipmentmethods_get.md)  
+[Create Shipment Methods](../api/dynamics_create_shipmentmethods.md)  
+[Update Shipment Methods](../api/dynamics_shipmentmethods_update.md)  

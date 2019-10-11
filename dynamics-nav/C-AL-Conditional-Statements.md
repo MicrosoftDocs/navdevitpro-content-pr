@@ -148,13 +148,13 @@ END;
 
  CASE statements are also called multiple option statements and are typically used when you must choose between more than two different actions. The function of the CASE statement is as follows:  
 
--   The <*Expression*> is evaluated, and the first matching value set executes the associated statement, if there is one.  
+- The <*Expression*> is evaluated, and the first matching value set executes the associated statement, if there is one.  
 
--   If no value set matches the value of the expression and the optional ELSE part has been omitted, then no action is taken. If the optional ELSE part is used, then the associated statement is executed.  
+- If no value set matches the value of the expression and the optional ELSE part has been omitted, then no action is taken. If the optional ELSE part is used, then the associated statement is executed.  
 
- The data type of the value sets must be the same as the data type of <*Expression*> or at least be convertible to the same data type.  
+  The data type of the value sets must be the same as the data type of <*Expression*> or at least be convertible to the same data type.  
 
- In most cases, the data type of the value sets are converted to the date type of the evaluated expression. The only exception is if the evaluated expression is a Code variable. If the evaluated expression is a Code variable, then the value sets are not converted to the Code data type.  
+  In most cases, the data type of the value sets are converted to the date type of the evaluated expression. The only exception is if the evaluated expression is a Code variable. If the evaluated expression is a Code variable, then the value sets are not converted to the Code data type.  
 
 > [!NOTE]  
 >  This type conversion can cause an overflow at run time if the resulting data type cannot hold the values of the datasets.  
@@ -213,9 +213,11 @@ CASE MyCode OF
   'abc':  
     MESSAGE('This message is not displayed.');   
   'def':  
-    MESSAGE('This message is not displayed.);  
-ELSE  
-  MESSAGE('The value set does not match the expression.');  
+    MESSAGE('This message is not displayed.');  
+  ELSE  
+    MESSAGE('The value set does not match the expression.');
+END;
+  
 ```  
 
  The value set 'abc' is not converted because the evaluated expression MyCode is a Code variable.  

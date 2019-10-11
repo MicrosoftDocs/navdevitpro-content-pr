@@ -14,45 +14,45 @@ ms.author: edupont
 # Using the Development Environment from the Command Prompt
 You can start the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] by running finsql.exe at the command prompt. You can also use the finsql.exe command to perform the following development tasks without using the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]:  
 
--   Create databases  
+- Create databases  
 
--   Upgrade databases  
+- Upgrade databases  
 
--   Compile objects  
+- Compile objects  
 
--   Delete objects  
+- Delete objects  
 
--   Export objects  
+- Export objects  
 
--   Import objects  
+- Import objects  
 
--   Export language modules  
+- Export language modules  
 
--   Import language modules  
+- Import language modules  
 
--   Export text strings for translation  
+- Export text strings for translation  
 
--   Import translated text strings  
+- Import translated text strings  
 
--   Build metadata for application objects.  
+- Build metadata for application objects.  
 
--   Set the object cache.  
+- Set the object cache.  
 
--   Set the temporary file location.  
+- Set the temporary file location.  
 
--   Enable Unicode for the development environment  
+- Enable Unicode for the development environment  
 
--   Set the path and file name of the ZUP file for storing setup parameters.  
+- Set the path and file name of the ZUP file for storing setup parameters.  
 
--   Get the [!INCLUDE[navnow](includes/navnow_md.md)] build version.  
+- Get the [!INCLUDE[navnow](includes/navnow_md.md)] build version.  
 
- By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\.  
+  By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\.  
 
 ## Finsql.exe Command Syntax  
  The finsql.exe has the following syntax.  
 
 ```  
-Finsql.exe [command=<command> | designobject=<object type> <object ID>,] [servername=<server>,] [database=<database>,] [collationname=<collation>,] [file=<file>,] [filter=<filter>], [importaction=<default|overwrite|skip|0|1|2>,] [langid=<ID>,] [logfile=<logfile>,] [navservername=<name>,] [navserverinstance=<instance>,] [navservermanagementport=<port>,] [ntauthentication=<yes|no|0|1>,] [objectcache=<cache>,] [password=<password>,] [temppath=<path>,] [tenant=<tenant ID>,] [username=<user name>,] [synchronizeschemachanges=<yes|no|force>, ] [useoldeditor=<yes|no>,] [showalldesignercolumns=<yes|no|0|1>]  
+Finsql.exe [command=<command> | designobject=<object type> <object ID>,] [servername=<server>,] [database=<database>,] [collation=<collation>,] [file=<file>,] [filter=<filter>], [importaction=<default|overwrite|skip|0|1|2>,] [langid=<ID>,] [logfile=<logfile>,] [navservername=<name>,] [navserverinstance=<instance>,] [navservermanagementport=<port>,] [ntauthentication=<yes|no|0|1>,] [objectcache=<cache>,] [password=<password>,] [temppath=<path>,] [tenant=<tenant ID>,] [username=<user name>,] [synchronizeschemachanges=<yes|no|force>, ] [useoldeditor=<yes|no>,] [showalldesignercolumns=<yes|no|0|1>]  
 ```  
 
 ### Syntax Key  

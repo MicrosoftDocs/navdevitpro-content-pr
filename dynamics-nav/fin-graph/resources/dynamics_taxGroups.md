@@ -1,6 +1,6 @@
 ---
 title: taxGroups resource type | Microsoft Docs
-description: A tax group object in Dynamics 365 for Finance and Operations, Business edition. 
+description: A tax group object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,8 +10,9 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # taxGroups resource type
@@ -21,6 +22,7 @@ Represents a taxGroups resource type in [!INCLUDE[d365fin_long_md](../../include
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
 |[GET taxGroups](../api/dynamics_taxGroups_get.md)|taxGroups|Gets a tax group object.|
@@ -29,7 +31,8 @@ Represents a taxGroups resource type in [!INCLUDE[d365fin_long_md](../../include
 |[DELETE taxGroups](../api/dynamics_taxGroups_delete.md)|none|Deletes a tax group object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the taxGroup. Read-Only.|
 |code|string|Specifies the tax group.|
@@ -51,7 +54,6 @@ Here is a JSON representation of the taxGroup.
   "displayName": "string",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See Also
@@ -60,7 +62,7 @@ Here is a JSON representation of the taxGroup.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get tax groups](../api/dynamics_taxgroups_get.md)  
-[Create tax groups](../api/dynamics_create_taxgroups.md)  
-[Update tax groups](../api/dynamics_taxgroups_update.md)  
-[Delete tax groups](../api/dynamics_taxgroups_delete.md)  
+[Get Tax Groups](../api/dynamics_taxgroups_get.md)  
+[Create Tax Groups](../api/dynamics_create_taxgroups.md)  
+[Update Tax Groups](../api/dynamics_taxgroups_update.md)  
+[Delete Tax Groups](../api/dynamics_taxgroups_delete.md)  

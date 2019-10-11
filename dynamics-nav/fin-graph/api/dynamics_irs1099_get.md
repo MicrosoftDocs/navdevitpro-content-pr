@@ -1,6 +1,6 @@
 ---
 title: Get irs1099Codes | Microsoft Docs
-description: Gets an IRS 1099 code object in Dynamics 365 for Financials.
+description: Gets an IRS 1099 code object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,20 +10,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Get irs1099Codes
 Retrieve the properties and relationships of an IRS 1099 codes object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-GET /financials/companies({id})/irs1099Codes({id})
+GET businesscentralPrefix/companies({id})/irs1099Codes({id})
 ```
 
 ## Request headers
+
 |Header       |Value                    |
 |-------------|-------------------------|
 |Authorization|Bearer {token}. Required.|
@@ -40,7 +43,7 @@ If successful, this method returns a ```200 OK``` response code and an **irs1099
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/irs1099Codes({id})
+GET https://{businesscentralPrefix}/api/beta/companies({id})/irs1099Codes({id})
 ```
 
 **Response**

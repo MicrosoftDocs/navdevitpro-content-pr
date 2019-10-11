@@ -1,6 +1,6 @@
 ---
 title: Create irs1099Codes | Microsoft Docs
-description: Creates an IRS 1099 code object in Dynamics 365 for Financials.
+description: Creates an IRS 1099 code object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,19 +10,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Create irs1099Codes
-Create an IRS 1099 code object in Dynamics 365 for Financials.
+Create an IRS 1099 code object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-POST /financials/companies({id})/irs1099Codes
+POST businesscentralPrefix/companies({id})/irs1099Codes
 ```
 
 ## Request headers
+
 |Header       |Value                    |
 |-------------|-------------------------|
 |Authorization|Bearer {token}. Required.|
@@ -41,7 +44,7 @@ If successful, this method returns ```201 Created``` response code and an **irs1
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/irs1099Codes
+POST https://{businesscentralPrefix}/api/beta/companies({id})/irs1099Codes
 Content-type: application/json
 
 {
@@ -69,7 +72,6 @@ Content-type: application/json
   "minimumReportable": 0,
   "lastModifiedDateTime": "0001-01-01T00:00:00Z"
 }
-
 ```
 
 

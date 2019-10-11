@@ -1,6 +1,6 @@
 ---
 title: Get salesCreditMemoLines | Microsoft Docs
-description: Gets a sales credit memo line in Dynamics 365 for Financials. 
+description: Gets a sales credit memo line in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,8 +10,9 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Get salesCreditMemoLines
@@ -20,12 +21,14 @@ Retrieve the properties and relationships of a sales credit memo line object for
 ## Prerequisites
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-GET /financials/companies({id})/salesCreditMemos({id})/salesCreditMemoLines(documentId=({id}),sequence=({number}))
+GET businesscentralPrefix/companies({id})/salesCreditMemos({id})/salesCreditMemoLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
@@ -42,7 +45,7 @@ If successful, this method returns a ```200 OK``` response code and a **salesCre
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesCreditMemos({id})/salesCreditMemoLines(documentId=({id}),sequence=({number}))
+GET https://{businesscentralPrefix}/api/beta/companies({id})/salesCreditMemos({id})/salesCreditMemoLines(documentId=({id}),sequence=({number}))
 ```
 
 **Response**
@@ -96,7 +99,7 @@ Here is an example of the response.
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Sales credit memo line](../resources/dynamics_salescreditmemoline.md)  
-[Create sales credit memo line](../api/dynamics_create_salescreditmemoline.md)  
-[Update sales credit memo line](../api/dynamics_salescreditmemoline_update.md)  
-[Delete sales credit memo line](../api/dynamics_salescreditmemoline_delete.md)  
+[Sales Credit Memo Line](../resources/dynamics_salescreditmemoline.md)  
+[Create Sales Credit Memo Line](../api/dynamics_create_salescreditmemoline.md)  
+[Update Sales Credit Memo Line](../api/dynamics_salescreditmemoline_update.md)  
+[Delete Sales Credit Memo Line](../api/dynamics_salescreditmemoline_delete.md)  

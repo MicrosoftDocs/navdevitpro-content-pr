@@ -47,46 +47,46 @@ You can view a report and view the dataset and layout on a computer that does no
 
 #### To export the report dataset to an .xml file  
 
-1.  On the computer with [!INCLUDE[navnow](includes/navnow_md.md)] installed, open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+1. On the computer with [!INCLUDE[navnow](includes/navnow_md.md)] installed, open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
 
-2.  In the **Search** box, enter **Customer – Top 10 List**, and then choose the related link.  
+2. In the **Search** box, enter **Customer – Top 10 List**, and then choose the related link.  
 
-3.  On the request page for the Customer – Top 10 List report, on the **Application** menu ![Application Menu button in menu bar](media/ApplicationMenuIcon.png "ApplicationMenuIcon"), choose **Help**, and then choose **About This Page** to activate the About This Report feature. For more information, see [How to: View and Export the Dataset for a Report](How-to--View-and-Export-the-Dataset-for-a-Report.md).  
+3. On the request page for the Customer – Top 10 List report, on the **Application** menu ![Application Menu button in menu bar](media/ApplicationMenuIcon.png "ApplicationMenuIcon"), choose **Help**, and then choose **About This Page** to activate the About This Report feature. For more information, see [How to: View and Export the Dataset for a Report](How-to--View-and-Export-the-Dataset-for-a-Report.md).  
 
-4.  Close the **About This Page** page.  
+4. Close the **About This Page** page.  
 
-5.  On the request page for the Customer – Top 10 List report, choose **Preview** to open the Customer - Top 10 List report.  
+5. On the request page for the Customer – Top 10 List report, choose **Preview** to open the Customer - Top 10 List report.  
 
-6.  On the report preview, on the Application menu ![Application Menu button in menu bar](media/ApplicationMenuIcon.png "ApplicationMenuIcon"), choose **Help**, and then choose **About This Report** to display the report dataset.  
+6. On the report preview, on the Application menu ![Application Menu button in menu bar](media/ApplicationMenuIcon.png "ApplicationMenuIcon"), choose **Help**, and then choose **About This Report** to display the report dataset.  
 
-7.  On the **About This Report** page, choose **Export as XML**.  
+7. On the **About This Report** page, choose **Export as XML**.  
 
-8.  In the **Export File** dialog box, choose **Save**.  
+8. In the **Export File** dialog box, choose **Save**.  
 
-     ![Export File dialog box. Choose the Save button.](media/Plat_ExportFile.png "Plat\_ExportFile")  
+    ![Export File dialog box. Choose the Save button.](media/Plat_ExportFile.png "Plat\_ExportFile")  
 
 9. In the **Export File** dialog box, navigate to your Desktop, enter **Dataset** for the file name, set the **Save as type** field to **XML \(\*.xml\)**, and then choose **Save**.  
 
- Next, Viktor must save the report layout as an .rdlc file.  
+   Next, Viktor must save the report layout as an .rdlc file.  
 
 #### To copy the report layout .rdlc file  
 
-1.  In the development environment, choose **Tools**, and then choose **Object Designer**.  
+1. In the development environment, choose **Tools**, and then choose **Object Designer**.  
 
-2.  In Object Designer, choose **Report**, select report 111, **Customer – Top 10 List**, and then choose **Design**.  
+2. In Object Designer, choose **Report**, select report 111, **Customer – Top 10 List**, and then choose **Design**.  
 
-3.  On the **View** menu, choose **Layout** to open the report layout in Visual Studio.  
+3. On the **View** menu, choose **Layout** to open the report layout in Visual Studio.  
 
-4.  In Visual Studio, in **Solution Explorer**, select **Report.rdlc**, and then in the **Properties** window, note the path where the Report.rdlc file is located.  
+4. In Visual Studio, in **Solution Explorer**, select **Report.rdlc**, and then in the **Properties** window, note the path where the Report.rdlc file is located.  
 
-     ![Visual Studio 2010 Solution Explorer, Properties](media/Plat_ExportLayout_SolnExpl.png "Plat\_ExportLayout\_SolnExpl")  
+    ![Visual Studio 2010 Solution Explorer, Properties](media/Plat_ExportLayout_SolnExpl.png "Plat\_ExportLayout\_SolnExpl")  
 
-    > [!TIP]  
-    >  If the **Properties** window is not visible, then on the **View** menu, choose **Properties**.  
+   > [!TIP]  
+   >  If the **Properties** window is not visible, then on the **View** menu, choose **Properties**.  
 
-5.  Copy the Report.rdlc file from the location in the **Properties** window to your Desktop.  
+5. Copy the Report.rdlc file from the location in the **Properties** window to your Desktop.  
 
- Viktor sends both the Dataset.xml file and the Report.rdlc file to the Microsoft Support engineer who is helping him troubleshoot the report.  
+   Viktor sends both the Dataset.xml file and the Report.rdlc file to the Microsoft Support engineer who is helping him troubleshoot the report.  
 
 ## Running the Report Offline  
  The Microsoft Support engineer has received the Dataset.xml file and the Report.rdlc file from Viktor and now runs the report on his computer by using Visual Studio.  
@@ -163,15 +163,15 @@ You can view a report and view the dataset and layout on a computer that does no
 
     namespace OfflineReport  
     {  
-        public static class CreateDataSource  
-        {  
-            public static DataTable CreateTable()  
-            {  
-                DataSet dataSet = new DataSet();  
-                dataSet.ReadXml("Dataset.xml");  
-                return dataSet.Tables[0];  
-            }  
-        }  
+        public static class CreateDataSource  
+        {  
+            public static DataTable CreateTable()  
+            {  
+                DataSet dataSet = new DataSet();  
+                dataSet.ReadXml("Dataset.xml");  
+                return dataSet.Tables[0];  
+            }  
+        }  
     }  
 
     ```  
@@ -189,18 +189,18 @@ You can view a report and view the dataset and layout on a computer that does no
 
     namespace OfflineReport  
     {  
-        public partial class Form1 : Form  
-        {  
-            public Form1()  
-            {  
-                InitializeComponent();  
-            }  
-            private void Form1_Load(object sender, EventArgs e)  
-            {  
-                this.reportViewer1.LocalReport.DataSources.Add(new ReportDataSource("DataSet_Result", CreateDataSource.CreateTable()));  
-                this.reportViewer1.RefreshReport();  
-            }  
-        }  
+        public partial class Form1 : Form  
+        {  
+            public Form1()  
+            {  
+                InitializeComponent();  
+            }  
+            private void Form1_Load(object sender, EventArgs e)  
+            {  
+                this.reportViewer1.LocalReport.DataSources.Add(new ReportDataSource("DataSet_Result", CreateDataSource.CreateTable()));  
+                this.reportViewer1.RefreshReport();  
+            }  
+        }  
     }  
 
     ```  

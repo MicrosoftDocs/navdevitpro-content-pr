@@ -34,6 +34,9 @@ Creates a new company and copies all data from an existing company in the same d
 
  The company name can have a maximum of 30 characters. If the database collation is case-sensitive, you can have one company called COMPANY and another called Company. However, if the database is case-insensitive, you cannot create companies with names that differ only by case.  
 
+## Remarks
+Links and notes on records are not copied to the new company.
+
 ## Example  
  The following example is based on the **Copy Company** batch job, which is part of the [!INCLUDE[demo](includes/demo_md.md)]. The batch job takes the Company system table as a data item and uses the **Name** field as the value of the *SourceName* parameter. The value of the *DestinationName* parameter is specified in the **New Company Name** field in the request page, which is represented by the `NewCompanyName` variable.  
 

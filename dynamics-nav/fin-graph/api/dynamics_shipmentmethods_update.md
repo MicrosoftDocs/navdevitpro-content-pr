@@ -1,6 +1,6 @@
 ---
 title: Update shipmentMethods | Microsoft Docs
-description: Updates a shipment method object in Dynamics 365 for Financials.
+description: Updates a shipment method object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,19 +10,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Update shipmentMethods
 Update the properties of a shipment method object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-PATCH /financials/companies({id})/shipmentMethods({id})
+PATCH businesscentralPrefix/companies({id})/shipmentMethods({id})
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization |Bearer {token}. Required.|
@@ -41,7 +44,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/shipmentMethods({id})
+PATCH https://{businesscentralPrefix}/api/beta/companies({id})/shipmentMethods({id})
 Content-type: application/json
 
 {
@@ -75,7 +78,7 @@ Content-type: application/json
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Shipment methods](../resources/dynamics_shipmentmethods.md)  
-[Get shipment methods](../api/dynamics_shipmentmethods_get.md)  
-[Create shipment methods](../api/dynamics_create_shipmentmethods.md)  
-[Delete shipment methods](../api/dynamics_shipmentmethods_delete.md)  
+[Shipment Methods](../resources/dynamics_shipmentmethods.md)  
+[Get Shipment Methods](../api/dynamics_shipmentmethods_get.md)  
+[Create Shipment Methods](../api/dynamics_create_shipmentmethods.md)  
+[Delete Shipment Methods](../api/dynamics_shipmentmethods_delete.md)  

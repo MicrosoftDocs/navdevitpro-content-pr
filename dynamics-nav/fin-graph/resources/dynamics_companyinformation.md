@@ -1,6 +1,6 @@
 ---
 title: companyInformation resource type | Microsoft Docs
-description: Company information in Dynamics 365 for Finance and Operations, Business edition.
+description: Company information in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,8 +10,9 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/11/2017
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
  
 # companyInformation resource type
@@ -29,7 +30,8 @@ Represents the information specified for the current company in [!INCLUDE[d365fi
 
 
 ## Properties
-| Property	   | Type	   |Description                           |
+
+| Property     | Type      |Description                           |
 |:-------------|:--------|:-------------------------------------|
 |id            |GUID|The unique ID of the company. Non-editable.|
 |displayName   |string   |The company's display name.           |
@@ -70,7 +72,6 @@ Here is a JSON representation of the companyInformation
   "businessProfileId": "string",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also

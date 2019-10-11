@@ -34,34 +34,34 @@ String := REPORT.WORDXMLPART(Number[, ExtendedFormat])
   
  If you set this variable to **true**, then XML elements will include the following attributes attributes:  
   
--   `ElementType="Parameter|Column|DataItem"`  
+- `ElementType="Parameter|Column|DataItem"`  
   
-     Specifies the element type as defined for the report in Report Designer. `Parameter` is typically used for elements, such as captions.  
+   Specifies the element type as defined for the report in Report Designer. `Parameter` is typically used for elements, such as captions.  
   
--   `ElementId="ID"`  
+- `ElementId="ID"`  
   
-     Specifies the ID that is assigned to the element by its [ID Property](ID-Property.md).  
+   Specifies the ID that is assigned to the element by its [ID Property](ID-Property.md).  
   
--   `DataType="Type"`  
+- `DataType="Type"`  
   
-     Specifies the [!INCLUDE[navnow](includes/navnow_md.md)] data type of the element.  
+   Specifies the [!INCLUDE[navnow](includes/navnow_md.md)] data type of the element.  
   
- If you omit this parameter or set it to **false**, then the element attributes are not included in the XML. This is the recommended setting when you will use the Word XML part in Word for modifying the report layout because the XML is simpler.  
+  If you omit this parameter or set it to **false**, then the element attributes are not included in the XML. This is the recommended setting when you will use the Word XML part in Word for modifying the report layout because the XML is simpler.  
   
- The following example illustrates an XML element that has the *ExtendedFormat* set to **false**:  
+  The following example illustrates an XML element that has the *ExtendedFormat* set to **false**:  
   
- `<CompanyName ElementType="Column" ElementId="3" DataType="OemText">`  
+  `<CompanyName ElementType="Column" ElementId="3" DataType="OemText">`  
   
- The following example illustrates the same XML with the *ExtendedFormat* set to **true**:  
+  The following example illustrates the same XML with the *ExtendedFormat* set to **true**:  
   
- `<CompanyName>`  
+  `<CompanyName>`  
   
- *Number*  
- Type: Integer  
+  *Number*  
+  Type: Integer  
   
- The ID of the report that you want to run. From the C/AL Editor, on the **View** menu, choose **C/AL Symbol Menu** to select the report from a list.  
+  The ID of the report that you want to run. From the C/AL Editor, on the **View** menu, choose **C/AL Symbol Menu** to select the report from a list.  
   
- If the report you specify does not exist, then a run-time error occurs.  
+  If the report you specify does not exist, then a run-time error occurs.  
   
 ## Return Value  
  Type: Text  

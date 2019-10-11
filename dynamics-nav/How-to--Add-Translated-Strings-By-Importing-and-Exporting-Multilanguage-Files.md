@@ -15,13 +15,13 @@ manager: edupont
 # How to Add Translated Strings By Importing and Exporting Multilanguage Files in Dynamics NAV
 To add string translations for UI elements in a standard country/region-specific version of [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you install a language module so that end users can view the UI elements in a different language. If you have customized objects in the application, then you must also add translations for those objects. You can translate strings in the following ways:  
   
--   By importing and exporting text files that contain translated strings for multiple objects in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
+- By importing and exporting text files that contain translated strings for multiple objects in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   
--   By using the Multilanguage Editor and editing the CaptionML property of individual objects.  
+- By using the Multilanguage Editor and editing the CaptionML property of individual objects.  
   
--   By running [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to update CaptionML properties.  
+- By running [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to update CaptionML properties.  
   
- This topic describes how to import and export multilanguage files. For more information about how to use the Multilanguage Editor, see [How to: Add Translated Strings By Using the Multilanguage Editor](How-to--Add-Translated-Strings-By-Using-the-Multilanguage-Editor.md). For more information about how to run [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to export and import languages, see [Working with Application Objects as Text Files](Working-with-Application-Objects-as-Text-Files.md).  
+  This topic describes how to import and export multilanguage files. For more information about how to use the Multilanguage Editor, see [How to: Add Translated Strings By Using the Multilanguage Editor](How-to--Add-Translated-Strings-By-Using-the-Multilanguage-Editor.md). For more information about how to run [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to export and import languages, see [Working with Application Objects as Text Files](Working-with-Application-Objects-as-Text-Files.md).  
   
 ## Exporting Multilanguage Files  
  To translate strings for multiple objects, you must first export all text strings.  
@@ -58,7 +58,12 @@ To add string translations for UI elements in a standard country/region-specific
      ![Translated Strings file in Excel](media/NAV_PLAT_TranslatingStrings.png "NAV\_PLAT\_TranslatingStrings")  
   
 ## Importing Multilanguage Files  
- After you add translated strings to the multilanguage file, you must import the file into the application.  
+After you add translated strings to the multilanguage file in .txt format, there are three ways to ensure that translations are used.
+
+1. Import the multilanguage file using Object Designer. This is described in the **To import a multilanguage file**  section below.
+2. Place the translated files on the server, or on each service instance in a `/Translations` folder. For more information, see [this guidance](https://docs.microsoft.com/en-us/previous-versions/dynamicsnav-2016/dn479852(v=nav.90)).
+3.  If you have added extensions to your solution, you must take the .txt file, and place the file in the extension root folder. When the extension is compiled, the .txt file is packaged with the extension. We recommend that you use only one .txt file per language. There is no enforced naming on the file, but a suggested good practice is to name it `<extensionname>.<language>.txt`.  
+For more information about translations using .xlf files only, see [Working With Translation Files](/dynamics365/business-central/dev-itpro/developer/devenv-work-with-translation-files).
   
 #### To import a multilanguage file  
   

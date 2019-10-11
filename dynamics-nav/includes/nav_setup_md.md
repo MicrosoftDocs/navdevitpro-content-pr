@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV 2017 Setup
+Microsoft Dynamics NAV Setup

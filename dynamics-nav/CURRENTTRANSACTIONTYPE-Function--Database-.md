@@ -29,19 +29,19 @@ Gets the current transaction type and sets a new type to be assigned.
 ## Remarks  
  This function sets the transaction type for the next transaction that starts when you are using Microsoft SQL Server. The transaction type determines the extent of locking that is performed on data in SQL Server tables and indexes. It also determines whether modifications to data can occur within the transaction. The following basic transaction types are available:  
   
--   Browse  
+- Browse  
   
--   Snapshot  
+- Snapshot  
   
--   UpdateNoLocks  
+- UpdateNoLocks  
   
--   Update  
+- Update  
   
--   Report  
+- Report  
   
- The Report transaction type maps to one of the other basic transaction types. For more information about the behavior of the transaction types, see [TransactionType Property](TransactionType-Property.md).  
+  The Report transaction type maps to one of the other basic transaction types. For more information about the behavior of the transaction types, see [TransactionType Property](TransactionType-Property.md).  
   
- Using CURRENTTRANSACTIONTYPE to set a transaction type from within a currently active transaction does not affect the transaction type. You must set the transaction type before a transaction starts, which occurs at the first database call in a trigger or in a codeunit. If you set the current transaction type to a less isolated transaction behavior, for example, if you try to change an Update transaction to a Browse transaction, the function call is ignored. If you try to change the current transaction type to a more isolated transaction behavior, for example, from Browse to Update, you will receive an error message.  
+  Using CURRENTTRANSACTIONTYPE to set a transaction type from within a currently active transaction does not affect the transaction type. You must set the transaction type before a transaction starts, which occurs at the first database call in a trigger or in a codeunit. If you set the current transaction type to a less isolated transaction behavior, for example, if you try to change an Update transaction to a Browse transaction, the function call is ignored. If you try to change the current transaction type to a more isolated transaction behavior, for example, from Browse to Update, you will receive an error message.  
   
 ## Example  
  In Example 1, CURRENTTRANSACTIONTYPE is used to set the required behavior of the next transaction in the database.  

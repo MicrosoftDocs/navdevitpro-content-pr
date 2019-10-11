@@ -27,115 +27,115 @@ You develop [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-ins 
 
 ### To create the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-in  
 
-1.  In Visual Studio, create a Visual C\# project type by using the **Class Library** template.  
+1. In Visual Studio, create a Visual C\# project type by using the **Class Library** template.  
 
-2.  In the project, add references to the following assemblies:  
+2. In the project, add references to the following assemblies:  
 
-    -   Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly  
+   - Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly  
 
-         By default, the path of the assembly is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client. This reference is required for all control add-ins.  
+      By default, the path of the assembly is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client. This reference is required for all control add-ins.  
 
-    -   [System.Windows.Forms](http://go.microsoft.com/fwlink/?LinkID=152505)  
+   - [System.Windows.Forms](http://go.microsoft.com/fwlink/?LinkID=152505)  
 
-         Contains classes for creating user interfaces for Windows-based applications.  
-
-     Add additional references as required.  
-
-3.  Open the class.cs file and add the following **using** directives.  
-
-    ```c#  
-    using Microsoft.Dynamics.Framework.UI.Extensibility;  
-    using Microsoft.Dynamics.Framework.UI.Extensibility.WinForms;  
-    using System.Windows.Forms;  
-    ```  
+      Contains classes for creating user interfaces for Windows-based applications.  
 
      Add additional references as required.  
 
-4.  Declare a class for the control add-in that uses the [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute. Derive the class from an abstract base class and implement the control add-in definition interface, as shown in the following examples.  
+3. Open the class.cs file and add the following **using** directives.  
 
-    ```c#  
-    [ControlAddInExport("MyCompany.MyProduct.MyAddin")]  
-    public class MyFieldPopupAddin : WinFormsControlAddInBase, IObjectControlAddInDefinition  
-    ```  
+   ```c#  
+   using Microsoft.Dynamics.Framework.UI.Extensibility;  
+   using Microsoft.Dynamics.Framework.UI.Extensibility.WinForms;  
+   using System.Windows.Forms;  
+   ```  
 
-    ```c#  
-    [ControlAddInExport("MyCompany.MyProduct.MyAddin")]  
-    public class MyFieldPopupAddin : StringControlAddInBase  
-    ```  
+    Add additional references as required.  
 
-     For information about the base classes and interfaces, see [Client Extensibility API Overview](Client-Extensibility-API-Overview.md).  
+4. Declare a class for the control add-in that uses the [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute. Derive the class from an abstract base class and implement the control add-in definition interface, as shown in the following examples.  
 
-     The [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute declares the class in the assembly to be a control add-in that is identified by its [ControlAddInExportAttribute.Name](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute.Name) property, which in this case is `MyCompany.MyProduct.MyAddin` in C\#. Because an assembly can contain more than one control add-in, the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] uses the [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute to differentiate each control add-in that is found in an assembly. The [ControlAddInExportAttribute.Name](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute.Name) is used to register the control add-in in [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+   ```c#  
+   [ControlAddInExport("MyCompany.MyProduct.MyAddin")]  
+   public class MyFieldPopupAddin : WinFormsControlAddInBase, IObjectControlAddInDefinition  
+   ```  
 
-    > [!TIP]  
-    >  If you give the control add-in the same name as the assembly, then you do not have to install the assembly on the client computer. In this case, you only install the assembly on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. When a client requests the control add-in, [!INCLUDE[nav_server](includes/nav_server_md.md)] will automatically deploy the assembly to the client.  
+   ```c#  
+   [ControlAddInExport("MyCompany.MyProduct.MyAddin")]  
+   public class MyFieldPopupAddin : StringControlAddInBase  
+   ```  
 
-     For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
+    For information about the base classes and interfaces, see [Client Extensibility API Overview](Client-Extensibility-API-Overview.md).  
 
-5.  Implement the abstract base method [WinFormsControlAddInBase.CreateControl](assetId:///M:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.CreateControl) and add code that defines the control add-in.  
+    The [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute declares the class in the assembly to be a control add-in that is identified by its [ControlAddInExportAttribute.Name](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute.Name) property, which in this case is `MyCompany.MyProduct.MyAddin` in C\#. Because an assembly can contain more than one control add-in, the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] uses the [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute to differentiate each control add-in that is found in an assembly. The [ControlAddInExportAttribute.Name](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute.Name) is used to register the control add-in in [!INCLUDE[nav_server](includes/nav_server_md.md)].  
 
-    ```c#  
-    protected override Control CreateControl()  
-           {  
-               /// Include control add-in code here.  
-           }  
-    ```  
+   > [!TIP]  
+   >  If you give the control add-in the same name as the assembly, then you do not have to install the assembly on the client computer. In this case, you only install the assembly on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. When a client requests the control add-in, [!INCLUDE[nav_server](includes/nav_server_md.md)] will automatically deploy the assembly to the client.  
 
-6.  Add code to override additional base class members as required for your control add-in.  
+    For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
 
-     For example, a field control on a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] can have a caption. If you do not want a caption, then override the [WinFormsControlAddInBase.AllowCaptionControl](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.AllowCaptionControl) property and return `false` \(the default value is `true`\).  
+5. Implement the abstract base method [WinFormsControlAddInBase.CreateControl](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.CreateControl) and add code that defines the control add-in.  
 
-    ```c#  
-    public override bool AllowCaptionControl  
-    {  
-    get   
-    {   
-     return false;  
-    }  
-    ```  
+   ```c#  
+   protected override Control CreateControl()  
+          {  
+              /// Include control add-in code here.  
+          }  
+   ```  
 
-     The caption will span the caption column and the data column of the page.  
+6. Add code to override additional base class members as required for your control add-in.  
 
-7.  To bind the control add-in to data in the [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] database, add the following code that gets or sets the [IValueControlAddInDefinition\<T>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property.  
+    For example, a field control on a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] can have a caption. If you do not want a caption, then override the [WinFormsControlAddInBase.AllowCaptionControl](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.AllowCaptionControl) property and return `false` \(the default value is `true`\).  
 
-    ```c#  
-    /// Gets a value indicating whether the Value property has  
-    /// changed its value.  
-    public bool HasValueChanged { get; set; }  
+   ```c#  
+   public override bool AllowCaptionControl  
+   {  
+   get   
+   {   
+    return false;  
+   }  
+   ```  
 
-    /// Gets or sets the Value Property.  
-    public object Value  
-    {  
-        get  
-        {  
-            // Include value handling code here.  
-            return null;  
-        }  
-        set  
-        {  
-            // Include value handling code here.  
+    The caption will span the caption column and the data column of the page.  
 
-        }  
-    }  
+7. To bind the control add-in to data in the [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] database, add the following code that gets or sets the [IValueControlAddInDefinition.Value](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition.Value) property.  
 
-    ```  
+   ```c#  
+   /// Gets a value indicating whether the Value property has  
+   /// changed its value.  
+   public bool HasValueChanged { get; set; }  
 
-    > [!NOTE]  
-    >  The [Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase) class already overrides the [IValueControlAddInDefinition\<T>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property to transfer data between the control add-in and the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
+   /// Gets or sets the Value Property.  
+   public object Value  
+   {  
+       get  
+       {  
+           // Include value handling code here.  
+           return null;  
+       }  
+       set  
+       {  
+           // Include value handling code here.  
 
-     For more information, see [Binding a Windows Client Control Add-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md).  
+       }  
+   }  
 
-8.  To define events that call the OnControlAddin C/AL trigger of a page field control, add the following C\# code to declare an event handler.  
+   ```  
 
-    ```c#  
-    public event ControlAddInEventHandler ControlAddIn;  
-    ```  
+   > [!NOTE]  
+   >  The [Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase) class already overrides the [IValueControlAddInDefinition.Value](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition.Value) property to transfer data between the control add-in and the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
 
-     Add code to raise the event where appropriate.  
+    For more information, see [Binding a Windows Client Control Add-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md).  
 
-     For more information, see [Exposing Events and Calling Respective C/AL Triggers from a Windows Client Control Add-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md).  
+8. To define events that call the OnControlAddin C/AL trigger of a page field control, add the following C\# code to declare an event handler.  
 
-9. To add an event that will be represented by a new trigger in C/AL code of a [!INCLUDE[navnow](includes/navnow_md.md)] page object, use the managed attribute [ApplicationVisibleAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) and add code for C\# methods and properties.  
+   ```c#  
+   public event ControlAddInEventHandler ControlAddIn;  
+   ```  
+
+    Add code to raise the event where appropriate.  
+
+    For more information, see [Exposing Events and Calling Respective C/AL Triggers from a Windows Client Control Add-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md).  
+
+9. To add an event that will be represented by a new trigger in C/AL code of a [!INCLUDE[navnow](includes/navnow_md.md)] page object, use the managed attribute [ApplicationVisibleAttribute](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) and add code for C\# methods and properties.  
 
     ```c#  
     [ApplicationVisible]  
@@ -154,7 +154,7 @@ You develop [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-ins 
 
      The methods and properties must be public. For more information, see [Exposing Methods and Properties in a Windows Client Control Add-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
 
-10. To add a method or property that can be called from the C/AL code of a [!INCLUDE[navnow](includes/navnow_md.md)] page object, use the managed attribute [ApplicationVisibleAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) and add code for C\# methods and properties.  
+10. To add a method or property that can be called from the C/AL code of a [!INCLUDE[navnow](includes/navnow_md.md)] page object, use the managed attribute [ApplicationVisibleAttribute](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) and add code for C\# methods and properties.  
 
     ```c#  
     /// <summary>  
@@ -177,20 +177,20 @@ You develop [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-ins 
 
 #### To sign the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] add-in assembly  
 
-1.  Open the project's properties.  
+1. Open the project's properties.  
 
-2.  On the **Properties** window, choose the **Signing** tab.  
+2. On the **Properties** window, choose the **Signing** tab.  
 
-3.  Select the **Sign the assembly** check box.  
+3. Select the **Sign the assembly** check box.  
 
-4.  In the **Choose a strong name key file box**, select **New** to create a new key file or **Browse** to use an existing key file.  
+4. In the **Choose a strong name key file box**, select **New** to create a new key file or **Browse** to use an existing key file.  
 
-5.  Choose the **OK** button.  
+5. Choose the **OK** button.  
 
- For information about how to determine the public token key, see [How to: Determine the Public Key Token of the Windows Client Control Add-in and .NET Framework Assembly](How-to--Determine-the-Public-Key-Token-of-the-Windows-Client-Control-Add-in-and-.NET-Framework-Assembly.md).  
+   For information about how to determine the public token key, see [How to: Determine the Public Key Token of the Windows Client Control Add-in and .NET Framework Assembly](How-to--Determine-the-Public-Key-Token-of-the-Windows-Client-Control-Add-in-and-.NET-Framework-Assembly.md).  
 
 ## Example  
- The following code illustrates a control add-in that implements the Microsoft digital ink control on a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] page field. For example, you could use this control add-in on a sales order page to allow customers to sign their sales orders with a tablet PC. The control add-in is designed to bind with a table field in the [!INCLUDE[navnow](includes/navnow_md.md)] database to store and retrieve signatures. Because the signatures are transferred as binary data, the example implements the [Microsoft.Dynamics.Framework.UI.Extensibility.IObjectControlAddInDefinition](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IObjectControlAddInDefinition) interface.  
+ The following code illustrates a control add-in that implements the Microsoft digital ink control on a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] page field. For example, you could use this control add-in on a sales order page to allow customers to sign their sales orders with a tablet PC. The control add-in is designed to bind with a table field in the [!INCLUDE[navnow](includes/navnow_md.md)] database to store and retrieve signatures. Because the signatures are transferred as binary data, the example implements the [Microsoft.Dynamics.Framework.UI.Extensibility.IObjectControlAddInDefinition](https://docs.microsoft.com/en-us/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IObjectControlAddInDefinition) interface.  
 
 ```c#  
 using System;  
