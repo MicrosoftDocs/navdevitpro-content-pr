@@ -19,7 +19,7 @@ This topic provides naming and coding guidelines for using events in [!INCLUDE[n
 |Item|Guideline|Example|  
 |----------|---------------|-------------|  
 |Event publisher function|The name should indicate the circumstances when the published event is raised. Begin the name with **On** followed by a descriptive name that can be easily identified.|OnCancelCustomerApprovalRequest|  
-|Event subscriber function|The name should indicate what the operation that the subscriber performs. Begin the name with a phrase that indicates what the subscriber does, followed by the name of the publisher function to which it subscribes.|RunWorkflowOnCancelCustomerApprovalRequest|  
+|Event subscriber function|The name should indicate the operation that the subscriber performs. Begin the name with a phrase that indicates what the subscriber does, followed by the name of the publisher function to which it subscribes.|RunWorkflowOnCancelCustomerApprovalRequest|  
 |Variables and parameters|Follow the naming conventions that are defined in [Naming Conventions](Naming-Conventions.md). It is important that you define appropriate names from the beginning because the name becomes part of the interface definition.||  
   
 ## Coding Guidelines  
