@@ -22,7 +22,7 @@ A RecordRef object references a record in a table. Typically, you use a RecordRe
  [ADDLINK Function (RecordRef)](ADDLINK-Function--RecordRef-.md)  
  [ASCENDING Function (RecordRef)](ASCENDING-Function--RecordRef-.md)  
  [CAPTION Function (RecordRef)](CAPTION-Function--RecordRef-.md)  
- [CHANGEOFCOMPANY Function (RecordRef)](CHANGEOFCOMPANY-Function--RecordRef-.md)  
+ [CHANGECOMPANY Function (RecordRef)](CHANGECOMPANY-Function--RecordRef-.md)  
  [CLOSE Function (RecordRef)](CLOSE-Function--RecordRef-.md)  
  [COPYLINKS Function (RecordRef)](COPYLINKS-Function--RecordRef-.md)  
  [COUNT Function (RecordRef)](COUNT-Function--RecordRef-.md)  
