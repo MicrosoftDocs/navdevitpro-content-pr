@@ -62,7 +62,7 @@ You can create test codeunits, test functions, and test pages to test your appli
     |------------------|---------------|  
     |MessageHandler|\<*Function name*>\(\<*Msg*> : Text\[1024\]\)|  
     |ConfirmHandler|\<*Function name*>\(\<*Question*> : Text\[1024\]; VAR \<*Reply*> : Boolean\)|  
-    |StrMenuHandler|\<*Function name*>\(\<*Options* : Test\[1024\]; VAR \<*Choice*> : Integer; \<*Instruction*> : Text\[1024\]\)|  
+    |StrMenuHandler|\<*Function name*>\(\<*Options* : Text\[1024\]; VAR \<*Choice*> : Integer; \<*Instruction*> : Text\[1024\]\)|  
     |PageHandler|\<*Function name*>\(VAR \<*variable name*> : Page \<*page id*>\)<br /><br /> \<*Function name*>\(VAR \<*variable name*> : TestPage \<*testpage id*>\)|  
     |ModalPageHandler|\<*Function name*>\(VAR \<*variable name*> : Page \<*page id*>; VAR \<*Response*> : Action\)<br /><br /> \<*Function name*>\(VAR \<*variable name*> : Page \<*testpage id*>\)|  
     |ReportHandler|\<*Function name*>\(VAR \<*report name*> : Report \<*report id*>\)|  
