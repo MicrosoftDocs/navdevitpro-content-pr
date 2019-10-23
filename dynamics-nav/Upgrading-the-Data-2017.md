@@ -109,7 +109,9 @@ Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records fro
     ```
 
 ##  <a name="ConvertDb"></a> Task 7: Convert the old database to the [!INCLUDE[nav2017](includes/nav2017.md)] format  
- To convert the old database to the [!INCLUDE[nav2017](includes/nav2017.md)] format, open the old database in the [!INCLUDE[nav2017](includes/nav2017.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and follow the conversion instructions.
+ To convert the old database to the [!INCLUDE[nav2017](includes/nav2017.md)] format, run the [!INCLUDE[nav2017](includes/nav2017.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator, open the old database, and follow the conversion instructions.
+
+If you do not run the development environment as an administrator, you will get an error and the conversion will be stopped.
 
 > [!IMPORTANT]
 > Do not run schema synchronization at this time.

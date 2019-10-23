@@ -151,7 +151,9 @@ Clear all records from the **dbo.Server Instance** and  **dbo.Debugger Breakpoin
 
 If the database is on Azure SQL Database, you must first add your user account to the **dbmanager** database role on master database. This membership is only required for converting the database, and can be removed afterwards. 
 
-To convert the old database to the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] format, open the old database in the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and follow the conversion instructions.
+To convert the old database to the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] format, run the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator, open the old database, and follow the conversion instructions.
+
+If you do not run the development environment as an administrator, you will get an error and the conversion will be stopped.
 
 > [!IMPORTANT]
 > Do not run schema synchronization at this time.

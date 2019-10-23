@@ -108,6 +108,8 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
 2. Run the [!INCLUDE[nav2017](includes/nav2017.md)] development environment as an administrator, and then connect to the database that you prepared in the previous task.  
 
+    If you do not run the development environment as an administrator, you will get an error and the conversion will be stopped.
+
     For more information, see [How to: Open Databases](How-to--Open-Databases.md).  
 
 3. In the dialog box that appears, read the instructions carefully because this action cannot be reversed. When you are ready, choose the **OK** button, and then choose the **OK** button to confirm that you want to convert the database.  

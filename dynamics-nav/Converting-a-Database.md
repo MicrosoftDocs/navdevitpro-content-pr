@@ -141,6 +141,7 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
     
        For more information, see [How to: Open Databases](How-to--Open-Databases.md).
 
+     If you do not run the development environment as an administrator, you will get an error and the conversion will be stopped.
 4. In the dialog box that appears, read the instructions about converting the database carefully because this action cannot be reversed. When you are ready, choose the **OK** button, and then choose the **OK** button to confirm that you want to convert the database.  
 
     [!INCLUDE[navnow](includes/navnow_md.md)] will now convert the database. This includes an upgrade of system tables and reports.  
