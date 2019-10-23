@@ -186,7 +186,9 @@ A data upgrade runs the upgrade toolkit objects, such as upgrade codeunits and u
 
 **From the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]**:  
 
-Open [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator. On the **Tools** menu, choose **Data Upgrade**, and then choose **Start** and follow the instructions.  
+Open [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator. On the **Tools** menu, choose **Data Upgrade**, and then choose **Start** and follow the instructions. 
+
+If you do not run the development environment as an administrator, you will get an error and the conversion will be stopped.
 
 To view the progress of the data upgrade, on the **Tools** menu, choose **Data Upgrade**, and then choose **Show Progress**.  
 
