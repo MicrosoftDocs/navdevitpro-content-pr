@@ -5,6 +5,7 @@
 ## [Endpoints for the APIs](endpoints-apis-for-dynamics.md)
 ## [Working with Webhooks](dynamics_subscriptions.md)
 ## [API Rate Limits](dynamics-rate-limits.md)
+## [OpenAPI Specification](dynamics-open-api.md)
 ## [Error Codes](dynamics_error_codes.md)
 ## [Account](resources/dynamics_account.md)
 ### [Get account](api/dynamics_account_get.md)
