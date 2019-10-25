@@ -21,11 +21,9 @@ Standard APIs for Business Central are available as an [OpenAPI Specification (O
 The OAS is set up to use OAuth2 and accessing the default sandbox environment. Details can be changed in the contact to connect to specific environments (servers URL).
 
 ## Trying the OAS
-Swagger UI is the client for displaying OpenAPIs and it can be downloaded here: [https://swagger.io/tools/swagger-ui/](https://swagger.io/tools/swagger-ui/).
+Swagger UI is the client for displaying OpenAPIs and it can be downloaded here: [https://swagger.io/tools/swagger-ui/](https://swagger.io/tools/swagger-ui/). There are extensions for Visual Studio Code that enable previewing and editing.
 
-There are extensions for Visual Studio Code that enable previewing and editing.
-
-To host swagger-ui in node.js follow the steps below:
+To host SwaggerUI in node.js follow the steps below:
 
 1) Download OAS for Business Central as shown above.
 2) Install [Node.js](https://nodejs.org/en/download/).
@@ -56,7 +54,7 @@ To host swagger-ui in node.js follow the steps below:
     node BC_OAS.js
     ```
 6) Browse to `http://localhost:3000`.
-7) To use **Try it out** authorization in the swagger-ui, an Azure Active Director app must be created. [Follow these steps to create an AAD app, with access to Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps#setting-up-azure-active-directory-aad-based-authentication). Copy and paste the client ID from the AAD app into the authorization dialog of swagger-ui.
+7) To use **Try it out** authorization in SwaggerUI, an Azure Active Director app must be created. [Follow these steps to create an AAD app, with access to Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps#setting-up-azure-active-directory-aad-based-authentication). Copy and paste the client ID from the AAD app into the authorization dialog of SwaggerUI.
 
 > [!NOTE]  
 > For OAuth2 testing purposes, a multi-tenant AAD app has been created. Admin consent is needed. Client ID : 060af3ac-70c3-4c14-92bb-8a88230f3f38.
