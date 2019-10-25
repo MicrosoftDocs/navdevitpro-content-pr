@@ -21,10 +21,11 @@ Standard APIs for Business Central are available as an [OpenAPI Specification (O
 The OAS is set up to use OAuth2 and accessing the default sandbox environment. Details can be changed in the contact to connect to specific environments (servers URL).
 
 ## Trying the OAS
+Swagger UI is the client for displaying OpenAPIs and it can be downloaded here: [https://swagger.io/tools/swagger-ui/](https://swagger.io/tools/swagger-ui/).
 
-There are several ways to run the swagger-ui, which is the client for displaying OpenAPIs. There are extensions for Visual Studio Code that enable previewing and editing.
+There are extensions for Visual Studio Code that enable previewing and editing.
 
-To host swagger-ui in nodejs follow the steps below:
+To host swagger-ui in node.js follow the steps below:
 
 1) Download OAS for Business Central as shown above.
 2) Install [Node.js](https://nodejs.org/en/download/).
