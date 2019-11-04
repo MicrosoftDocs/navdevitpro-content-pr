@@ -12,6 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/28/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Get pdfDocument
@@ -21,10 +22,11 @@ Retrieve a PDF print-out of the corresponding document as binary content for [!I
 > To generate a document in the supported local language, you must specify `Accept-Language` in the Request header, for example `Accept-Language: nl-NL` for Dutch.
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 The following example gets a link to the content of the PDF:
 
 ```
-GET /businesscentral/api/beta/companies({id})/purchaseInvoices({invoiceid})/pdfDocument
+GET businesscentralPrefix/api/beta/companies({id})/purchaseInvoices({invoiceid})/pdfDocument
 ```
 
 ## Request headers
@@ -45,7 +47,7 @@ If successful, this method returns a ```200 OK``` response code and a link to th
 Here is an example of the request.
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/purchaseInvoices({invoiceid})/pdfDocument
+GET https://{businesscentralPrefix}/api/beta/companies({id})/purchaseInvoices({invoiceid})/pdfDocument
 ```
 
 **Response**
@@ -70,8 +72,9 @@ Here is an example of the response.
 ```
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 The following example gets the actual PDF document:
-`GET /businesscentral/api/beta/companies({companyid})/purchaseInvoices({invoiceid})/pdfDocument({id})/content`
+`GET businesscentralPrefix/api/beta/companies({companyid})/purchaseInvoices({invoiceid})/pdfDocument({id})/content`
 
 ## Request headers
 
@@ -91,7 +94,7 @@ If successful, this method returns a `200 OK` response code and the PDF document
 Here is an example of the request.
 
 ```
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyid})/purchaseInvoices({invoiceid})/pdfDocument({id})/content
+GET https://{businesscentralPrefix}/api/beta/companies({companyid})/purchaseInvoices({invoiceid})/pdfDocument({id})/content
 ```
 
 **Response** 

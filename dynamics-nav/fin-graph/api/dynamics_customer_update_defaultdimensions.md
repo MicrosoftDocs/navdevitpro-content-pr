@@ -12,6 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Update customer defaultDimensions
@@ -19,8 +20,9 @@ Update the default dimensions of the customer in [!INCLUDE[d365fin_long_md](../.
 
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-PATCH /businesscentral/companies({companyId})/customers({customerId})/defaultDimensions({customerId},{dimensionId})
+PATCH businesscentralPrefix/companies({companyId})/customers({customerId})/defaultDimensions({customerId},{dimensionId})
 ```
 
 ## Request headers
@@ -46,7 +48,7 @@ If successful, this method returns a `200 OK` response code and an updated defau
 Here is an example of the request.
 
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId})/customers({customerId})/defaultDimensions({customerId},{dimensionId})
+PATCH https://{businesscentralPrefix}/api/beta/companies({companyId})/customers({customerId})/defaultDimensions({customerId},{dimensionId})
 ```
 
 **Request body**

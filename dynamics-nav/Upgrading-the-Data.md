@@ -16,11 +16,11 @@ ms.prod: "dynamics-nav-2018"
 
 This topic describes the tasks required for upgrading the following database versions to [!INCLUDE[nav2018_md](includes/nav2018_md.md)]:
 
--   [!INCLUDE[nav7long](includes/nav7long_md.md)]
--   [!INCLUDE[navsicily](includes/navsicily_md.md)]
--   [!INCLUDE[navcrete](includes/navcrete_md.md)]
--   [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
--   [!INCLUDE[nav2017](includes/nav2017.md)]
+- [!INCLUDE[nav7long](includes/nav7long_md.md)]
+- [!INCLUDE[navsicily](includes/navsicily_md.md)]
+- [!INCLUDE[navcrete](includes/navcrete_md.md)]
+- [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
+- [!INCLUDE[nav2017](includes/nav2017.md)]
 
 You use data conversion tools provided with [!INCLUDE[nav2018](includes/nav2018_md.md)] to convert the old data with the old version’s table and field structure, so that it functions together with the new version’s table and field structure. Mainly, only table objects and table data are modified during the data upgrade process. Other objects, such as pages, reports, codeunits, and XMLports are upgraded as part of the application code upgrade process.
 
@@ -82,7 +82,7 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 ##  <a name="SQLBackup"></a> Task 2: Create a full SQL backup of the old database on SQL Server  
  You must create a full backup of the old database in the SQL Server. Alternatively, you can make a copy of the old database and perform the upgrade tasks on the copy.  
 
- For more information, see [Create a Full Database Backup \(SQL Server\)](http://msdn.microsoft.com/en-us/library/ms187510.aspx).  
+ For more information, see [Create a Full Database Backup \(SQL Server\)](https://msdn.microsoft.com/en-us/library/ms187510.aspx).  
 
 ## Task 3 Uninstall all V1 extensions in old database
 Open the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)] that matches to old database, and run these commands: 
@@ -151,7 +151,9 @@ Clear all records from the **dbo.Server Instance** and  **dbo.Debugger Breakpoin
 
 If the database is on Azure SQL Database, you must first add your user account to the **dbmanager** database role on master database. This membership is only required for converting the database, and can be removed afterwards. 
 
-To convert the old database to the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] format, open the old database in the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and follow the conversion instructions.
+To convert the old database to the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] format, run the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator, open the old database, and follow the conversion instructions.
+
+If you do not run the development environment as an administrator, you will get an error and the conversion will be stopped.
 
 > [!IMPORTANT]
 > Do not run schema synchronization at this time.
@@ -262,7 +264,9 @@ A data upgrade runs the upgrade toolkit objects, such as upgrade codeunits and u
 
 **From the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]**:  
 
-Open [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator. On the **Tools** menu, choose **Data Upgrade**, and then choose **Start** and follow the instructions.  
+Open [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator. On the **Tools** menu, choose **Data Upgrade**, and then choose **Start** and follow the instructions. 
+
+If you do not run the development environment as an administrator, you will get an error and the data upgrade will be stopped.
 
 To view the progress of the data upgrade, on the **Tools** menu, choose **Data Upgrade**, and then choose **Show Progress**.  
 

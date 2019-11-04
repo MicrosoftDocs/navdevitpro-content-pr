@@ -15,11 +15,12 @@ ms.author: solsen
 # Get item picture
 Gets the default dimensions of the item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-## HTTP request 
+## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md). 
 The following example gets the default dimensions of the item entity in the response body.
 
 ```
-GET /businesscentral/companies({companyId})/items({itemId})/picture
+GET businesscentralPrefix/companies({companyId})/items({itemId})/picture
 ```
 ## Request header
 
@@ -38,7 +39,7 @@ If successful, this method returns a `200 OK` response code and the **picture** 
 **Request**
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({companyId})/items({itemId})/picture
+GET https://{businesscentralPrefix}/api/v1.0/companies({companyId})/items({itemId})/picture
 ```
 
 **Response**  

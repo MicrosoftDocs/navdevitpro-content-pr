@@ -12,6 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/21/2019
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # items resource type

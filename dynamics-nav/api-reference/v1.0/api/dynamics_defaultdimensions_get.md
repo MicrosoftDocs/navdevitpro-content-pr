@@ -15,14 +15,15 @@ ms.author: solsen
 # Get entity defaultDimensions
 Gets the default dimensions of an entity in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-## HTTP request 
+## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md). 
 The following example gets the default dimensions of an entity.
 
 ```
-GET /businesscentral/companies({companyId})/items({itemId})/defaultDimensions
-GET /businesscentral/companies({companyId})/customers({customerId})/defaultDimensions
-GET /businesscentral/companies({companyId})/vendors({vendorId})/defaultDimensions
-GET /businesscentral/companies({companyId})/employees({emplyeeId})/defaultDimensions
+GET businesscentralPrefix/companies({companyId})/items({itemId})/defaultDimensions
+GET businesscentralPrefix/companies({companyId})/customers({customerId})/defaultDimensions
+GET businesscentralPrefix/companies({companyId})/vendors({vendorId})/defaultDimensions
+GET businesscentralPrefix/companies({companyId})/employees({emplyeeId})/defaultDimensions
 ```
 ## Request header
 
@@ -41,7 +42,7 @@ If successful, this method returns a `200 OK` response code and the **default di
 **Request**
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({companyId})/items({itemId})/defaultDimensions
+GET https://{businesscentralPrefix}/api/v1.0/companies({companyId})/items({itemId})/defaultDimensions
 ```
 
 **Response**  

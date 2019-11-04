@@ -10,6 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/29/2019
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Welcome to the API(Beta) for [!INCLUDE[d365fin_long](../includes/d365fin_long_md.md)]

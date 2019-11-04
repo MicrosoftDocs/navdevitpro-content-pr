@@ -16,12 +16,12 @@ author: jswymer
 
 This article describes how to convert a  [!INCLUDE[navnow](includes/navnow_md.md)] database from one of the following versions to [!INCLUDE[nav2018_md](includes/nav2018_md.md)]:
 
--   [!INCLUDE[nav7long](includes/nav7long_md.md)]
--   [!INCLUDE[navsicily](includes/navsicily_md.md)]
--   [!INCLUDE[navcrete](includes/navcrete_md.md)]
--   [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
--   [!INCLUDE[nav2017](includes/nav2017.md)] 
--   [!INCLUDE[nav2018_md](includes/nav2018_md.md)] \(cumulative update\)
+- [!INCLUDE[nav7long](includes/nav7long_md.md)]
+- [!INCLUDE[navsicily](includes/navsicily_md.md)]
+- [!INCLUDE[navcrete](includes/navcrete_md.md)]
+- [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
+- [!INCLUDE[nav2017](includes/nav2017.md)] 
+- [!INCLUDE[nav2018_md](includes/nav2018_md.md)] \(cumulative update\)
 
 ## About database conversion
 Converting a database, which is often referred to as a *technical upgrade*, changes the database so that it works on the latest [!INCLUDE[nav2018_md](includes/nav2018_md.md)] platform. The conversion updates the system tables of the old database to the new schema (data structure), and upgrades of all reports to support Report Viewer 2015. It provides you with the latest platform features and performance enhancements.
@@ -45,11 +45,11 @@ To convert the old database to a [!INCLUDE[nav2018_md](includes/nav2018_md.md)] 
 
 1.  Make a copy of the old database or create full database backup.  
 
-     For more information, see [Create a Full Database Backup \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkID=296465). 
+     For more information, see [Create a Full Database Backup \(SQL Server\)](https://go.microsoft.com/fwlink/?LinkID=296465). 
 
 2. Uninstall all extensions from the tenant.
     
-    You can do this from **Extension Management** page in the [!INCLUDE[navnow](includes/navnow_md.md)] client or by using the [Uninstall-NAVApp](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/uninstall-navapp) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]. 
+    You can do this from **Extension Management** page in the [!INCLUDE[navnow](includes/navnow_md.md)] client or by using the [Uninstall-NAVApp](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.apps.management/uninstall-navapp) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]. 
 
     To get a list of the extensions that are installed, run this command:
 
@@ -141,6 +141,7 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
     
        For more information, see [How to: Open Databases](How-to--Open-Databases.md).
 
+     If you do not run the development environment as an administrator, you will get an error and the conversion will be stopped.
 4. In the dialog box that appears, read the instructions about converting the database carefully because this action cannot be reversed. When you are ready, choose the **OK** button, and then choose the **OK** button to confirm that you want to convert the database.  
 
     [!INCLUDE[navnow](includes/navnow_md.md)] will now convert the database. This includes an upgrade of system tables and reports.  
@@ -187,7 +188,7 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
 
 11. Recompile published extensions.
 
-    Use the [Repair-NAVApp cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/repair-navappSynchronize) of the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Administration Shell to compile the published extensions to make sure they are work with the new platform.
+    Use the [Repair-NAVApp cmdlet](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.apps.management/repair-navappSynchronize) of the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Administration Shell to compile the published extensions to make sure they are work with the new platform.
 
     For example, you can run the following command to recompile all extensions:
 
@@ -208,7 +209,7 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
     You have now completed the conversion of the database to be accessed from [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. To test the converted database, you can connect it to the [!INCLUDE[nav2018_md](includes/nav2018_md.md)] Server instance that is used by [!INCLUDE[navnow](includes/navnow_md.md)] clients, and then open a client.  
 
 ## Database and Windows collations  
-Starting from SQL Server 2008, SQL Server collations are fully aligned with the collations in Windows Server. If you upgrade to [!INCLUDE[nav2018_md](includes/nav2018_md.md)] from [!INCLUDE[nav_2009_long](includes/nav_2009_long_md.md)], the step to convert the database includes upgrading the database from using SQL collations to using Windows collation. This collation change provides users with the most up-to-date and linguistically accurate cultural sorting conventions. For more information, see [Collation and Unicode Support](http://go.microsoft.com/fwlink/?LinkID=247971).  
+Starting from SQL Server 2008, SQL Server collations are fully aligned with the collations in Windows Server. If you upgrade to [!INCLUDE[nav2018_md](includes/nav2018_md.md)] from [!INCLUDE[nav_2009_long](includes/nav_2009_long_md.md)], the step to convert the database includes upgrading the database from using SQL collations to using Windows collation. This collation change provides users with the most up-to-date and linguistically accurate cultural sorting conventions. For more information, see [Collation and Unicode Support](https://go.microsoft.com/fwlink/?LinkID=247971).  
 
 ## See Also  
 [Upgrading the Application Code](Upgrading-the-Application-Code.md)   

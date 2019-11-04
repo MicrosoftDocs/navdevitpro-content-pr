@@ -12,14 +12,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Get trialBalance
 Retrieve the properties and relationships of a trial balance report object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-GET /businesscentral/companies({id})/trialBalance
+GET businesscentralPrefix/companies({id})/trialBalance
 ```
 
 ## Request headers
@@ -40,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and a **trialBal
 
 Here is an example of the request.
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({id})/trialBalance?$orderby number&$filter=dateFilter ge 2019-01-01 and dateFilter le 2019-12-31
+GET https://{businesscentralPrefix}/api/beta/companies({id})/trialBalance?$orderby number&$filter=dateFilter ge 2019-01-01 and dateFilter le 2019-12-31
 ```
 
 **Response**

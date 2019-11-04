@@ -10,16 +10,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/20/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Get vendor defaultDimensions
 Gets the default dimensions of the vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-## HTTP request 
+## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md). 
 The following example gets the default dimensions of the vendor entity in the response body.
 
 ```
-GET /businesscentral/companies({companyId})/vendors({vendorId})/defaultDimensions
+GET businesscentralPrefix/companies({companyId})/vendors({vendorId})/defaultDimensions
 ```
 ## Request header
 
@@ -38,7 +40,7 @@ If successful, this method returns a `200 OK` response code and the **default di
 **Request**
 
 ```json
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/companies({companyId})/vendors({vendorId})/defaultDimensions
+GET https://{businesscentralPrefix}/api/beta/companies({companyId})/vendors({vendorId})/defaultDimensions
 ```
 **Response**  
 Here is an example of the response.

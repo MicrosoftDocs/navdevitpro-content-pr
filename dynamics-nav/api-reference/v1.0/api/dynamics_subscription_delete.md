@@ -16,8 +16,9 @@ ms.author: solsen, henrikwh
 Deletes a subscriptions object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 ```
-DELETE /businesscentral/subscriptions({id})
+DELETE businesscentralPrefix/subscriptions({id})
 ```
 
 ## Request headers
@@ -37,7 +38,7 @@ If successful, this method returns a `204 No Content` response code.
 
 Here is an example of the request.
 ```json
-DELETE https://api.businesscentral.dynamics.com/v1.0/api/v1.0/subscriptions({id}) 
+DELETE https://{businesscentralPrefix}/api/v1.0/subscriptions({id}) 
 ```
 
 **Response**

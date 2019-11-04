@@ -19,8 +19,9 @@ Update the attachment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 ```
-PATCH /businesscentral/companies({companyId})/attachments(parentId={parentId},id={attachmentId})/content
+PATCH businesscentralPrefix/companies({companyId})/attachments(parentId={parentId},id={attachmentId})/content
 ```
 
 ## Request headers
@@ -38,7 +39,7 @@ PATCH /businesscentral/companies({companyId})/attachments(parentId={parentId},id
 Here is an example of the request.
 
 ```json
-PATCH https://api.businesscentral.dynamics.com/v1.0/api/v1.0/companies({companyId})/attachments(parentId={parentId},id={attachmentId})/content
+PATCH https://{businesscentralPrefix}/api/v1.0/companies({companyId})/attachments(parentId={parentId},id={attachmentId})/content
 ```
 
 **Request body**
