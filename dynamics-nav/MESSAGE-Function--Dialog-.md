@@ -65,8 +65,8 @@ MESSAGE(String [, Value1, …])
 |Text constant|ENU value|  
 |-------------------|---------------|  
 |Text000|You can use message windows to display text and numbers: \\|  
-|Text001|The number:|  
-|Text002|The text:|  
+|Text001|The number: %1 \\|  
+|Text002|The text: %2|  
   
 ```  
 Text := 'ABCDE';  
@@ -74,7 +74,7 @@ Number := 12345.678;
 // The backslash indicates a new line.  
 // You can concatenate strings using the + operator.  
 // You can insert variable values using the % symbol.  
-MESSAGE(Text000 + Text001 + '%1\' +Text002 + '%2', Number, Text);  
+MESSAGE(Text000 + Text001 + Text002, Number, Text);  
 ```  
   
  The message window reads:  
