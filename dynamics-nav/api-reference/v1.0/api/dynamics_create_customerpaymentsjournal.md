@@ -1,16 +1,15 @@
 ---
 title: Create customerPaymentsJournals | Microsoft Docs
 description: Creates a customer payments journal object in Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 11/04/2019
 ms.author: solsen
 ---
 
@@ -21,7 +20,7 @@ Creates a customer payments journal object in [!INCLUDE[d365fin_long_md](../../i
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-POST businesscentralPrefix/companies({id})/customerPaymentsJournals({id})
+POST businesscentralPrefix/companies({id})/customerPaymentJournals({id})
 ```
 
 ## Request headers
@@ -32,10 +31,10 @@ POST businesscentralPrefix/companies({id})/customerPaymentsJournals({id})
 |Content-Type  |application/json         |
 
 ## Request body
-In the request body, supply a JSON representation of **customerPaymentsJournals** object.
+In the request body, supply a JSON representation of **customerPaymentJournals** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a **customerPaymentsJournals** object in the response body.
+If successful, this method returns ```201 Created``` response code and a **customerPaymentJournals** object in the response body.
 
 ## Example
 
@@ -44,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a **custo
 Here is an example of a request.
 
 ```json
-POST https://{businesscentralPrefix}/api/v1.0/companies({id})/customerPaymentsJournals
+POST https://{businesscentralPrefix}/api/v1.0/companies({id})/customerPaymentJournals
 Content-type: application/json
 ```json
 {
@@ -67,8 +66,7 @@ Content-type: application/json
 ```
 
 ## See also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
-  
+[Microsoft Graph Reference](../api/dynamics_graph_reference.md)   
 [Customer Payments Journal](../resources/dynamics_customerpaymentsjournal.md)  
 [Get Customer Payments Journal](dynamics_customerpaymentsjournal_get.md)  
 [Patch Customer Payments Journal](dynamics_customerpaymentsjournal_update.md)  

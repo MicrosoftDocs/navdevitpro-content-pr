@@ -3,7 +3,7 @@ title: Get subscriptions | Microsoft Docs
 description: Gets a subscriptions object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

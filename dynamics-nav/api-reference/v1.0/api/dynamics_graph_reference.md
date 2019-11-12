@@ -1,11 +1,10 @@
 ---
 title: Microsoft Graph Reference | Microsoft Docs
 description: API documentation for integration with Microsoft Graph
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
