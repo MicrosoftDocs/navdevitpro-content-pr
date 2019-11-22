@@ -42,7 +42,7 @@ Redirects references to table data from one company to another.
 ## Remarks  
  When executing this function, the user's access rights are respected. For example, a user cannot access data in *CompanyName* unless he already has the necessary access rights.  
   
- The **CHANGECOMPANY** function is not affected by the [RESET Function \(Record\)](RESET-Function--Record-.md). You can deselect a company by making a new call to **CHANGECOMPANY** or by using the [CLEAR Function](CLEAR-Function.md).  
+ The **CHANGECOMPANY** function is not affected neither by the [RESET Function \(Record\)](RESET-Function--Record-.md) nor by the [INIT Function](INIT-Function--Record-.md). You can deselect a company by making a new call to **CHANGECOMPANY** or by using the [CLEAR Function](CLEAR-Function.md).  
   
  Global filters always belong to a specific company. If you use the following code to select the company named NewCompany, any filters assigned to *Record* will be transferred to *Record* in the new company.  
   
