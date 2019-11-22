@@ -58,7 +58,7 @@ TestOutStream.WRITETEXT;
 TestOutStream.WRITETEXT('<P>Hello world!</p>');  
 TestOutStream.WRITETEXT;  
 TestOutStream.WRITETEXT('</html>');  
-FileMyHTML.CLOSE;  
+MyHTMLFile.CLOSE;  
 ```  
   
 ## See Also  

@@ -23,7 +23,7 @@ FilterPageBuilder.AddRecord('Item Table', Item);
 FilterPagebuilder.Addfield('Item Table', Item."No.", '>100');  
 FilterPageBuilder.PageCaption := 'Item Filter Page';  
 FilterPagebuilder.RunModal;  
-Item.SetView( filterPagebuilder.Getview('Item Table'));  
+Item.SetView(FilterPagebuilder.Getview('Item Table'));  
 ```  
   
 ## FILTERPAGEBUILER Data Type Functions  
@@ -41,3 +41,7 @@ Item.SetView( filterPagebuilder.Getview('Item Table'));
 |[RUNMODAL Function \(FilterPageBuilder\)](RUNMODAL-Function--FilterPageBuilder-.md)|Builds and runs the filter page.|  
 |[COUNT Function \(FilterPageBuilder\)](COUNT-Function--FilterPageBuilder-.md)|Gets the number of filter controls that are specified in the FilterPageBuilder object instance.|  
 |[NAME Function \(FilterPageBuilder\)](NAME-Function--FilterPageBuilder-.md)|Gets the name of a table filter control that is included on a filter page based on an index number that is assigned to the filter control.|
+
+## See Also
+
+[FilterPageBuilder Data Type](filterpagebuilder-data-type.md)
