@@ -104,7 +104,7 @@ GET https://{businesscentralPrefix}/api/beta/companies({companyid})/salesCreditM
 The PDF document in binary format.
 
 ## See also
-[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)  
+[Tips for working with the APIs](dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  

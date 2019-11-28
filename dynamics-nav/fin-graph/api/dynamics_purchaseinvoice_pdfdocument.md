@@ -104,7 +104,7 @@ The PDF document in binary format.
 The pdfDocument is not supported for unposted purchase invoices. The purchase invoice must be posted before it is printed; if it is not posted, the response will return an error.
 
 ## See also
-[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)  
+[Tips for working with the APIs](dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  

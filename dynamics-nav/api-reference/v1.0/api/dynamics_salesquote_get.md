@@ -88,7 +88,7 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)  
+[Tips for working with the APIs](dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Sales Quote](../resources/dynamics_salesquote.md)  
 [Create Sales Quote](../api/dynamics_create_salesquote.md)  
