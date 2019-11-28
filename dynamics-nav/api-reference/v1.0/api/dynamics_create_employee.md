@@ -106,6 +106,7 @@ Content-type: application/json
 ```
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
   
 [Employee](../resources/dynamics_employee.md)  
 [Get Employee](../api/dynamics_employee_get.md)  

@@ -56,6 +56,7 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 
 [Tax Area](../resources/dynamics_taxarea.md)  
 [Get Tax Area](../api/dynamics_taxarea_get.md)  

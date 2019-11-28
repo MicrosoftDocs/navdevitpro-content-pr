@@ -54,6 +54,7 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 
 [Sales Invoice Line](../resources/dynamics_salesinvoiceline.md)  
 [Get Sales Invoice Line](../api/dynamics_salesinvoiceline_get.md)  

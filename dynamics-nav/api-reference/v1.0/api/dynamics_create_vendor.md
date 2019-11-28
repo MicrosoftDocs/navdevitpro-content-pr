@@ -91,6 +91,7 @@ Content-type: application/json
 ```
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 
 [Vendor](../resources/dynamics_vendor.md)  
 [Get Vendor](../api/dynamics_vendor_get.md)  

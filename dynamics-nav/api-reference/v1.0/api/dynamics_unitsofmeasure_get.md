@@ -63,6 +63,7 @@ Here is an example of the response.
 
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 
 [Units of Measure](../resources/dynamics_unitsofmeasure.md)  
 [Create Units of Measure](../api/dynamics_create_unitsofmeasure.md)  

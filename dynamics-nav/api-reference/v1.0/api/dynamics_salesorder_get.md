@@ -86,6 +86,7 @@ Here is an example of the response.
 ```
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 
 [Sales Order](../resources/dynamics_salesorder.md)  
 [Create Sales Order](../api/dynamics_create_salesorder.md)  

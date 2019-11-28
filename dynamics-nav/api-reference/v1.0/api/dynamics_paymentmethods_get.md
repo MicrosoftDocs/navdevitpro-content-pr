@@ -63,6 +63,7 @@ Here is an example of the response.
 
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 
 [Payment Methods](../resources/dynamics_paymentmethods.md)  
 [Create Payment Methods](../api/dynamics_create_paymentmethods.md)  

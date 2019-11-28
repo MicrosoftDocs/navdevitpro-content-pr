@@ -56,6 +56,7 @@ Content-type: application/json
 }
 ```
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 
 [Sales Quote](../resources/dynamics_salesquote.md)  
 [Get Sales Quote](../api/dynamics_salesquote_get.md)  

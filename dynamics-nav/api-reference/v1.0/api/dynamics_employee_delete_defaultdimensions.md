@@ -50,6 +50,7 @@ DELETE https://{businesscentralPrefix}/api/v1.0/companies({companyId})/employees
 No Content.
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 
 [Employee](../resources/dynamics_employee.md)  
 [Create employee defaultDimensions](dynamics_employee_create_defaultdimensions.md)  

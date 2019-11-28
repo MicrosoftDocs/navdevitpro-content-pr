@@ -124,7 +124,8 @@ Content-type: application/json
 }
 ```
 
-## See Also  
+## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)  
   
 [Customer](../resources/dynamics_customer.md)  
 [Get Customers](dynamics_customer_get.md)  

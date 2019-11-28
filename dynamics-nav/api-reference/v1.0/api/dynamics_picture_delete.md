@@ -55,6 +55,7 @@ DELETE https://api.businesscentral.dynamics-tie.com/v1.0/api/v1.0/companies(comp
 No content.
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 
 
 

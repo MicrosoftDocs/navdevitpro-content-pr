@@ -64,5 +64,6 @@ Here is an example of the response.
 
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 
 [Trial Balance](../resources/dynamics_trialbalance.md)  

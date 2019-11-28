@@ -77,6 +77,7 @@ Content-type: application/json
 ```
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
   
 [Currencies](../resources/dynamics_currencies.md)  
 [Get Currencies](dynamics_currencies_get.md)  

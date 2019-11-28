@@ -68,6 +68,7 @@ Here is an example of the response.
 
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 [Aged Accounts Payable](../resources/dynamics_agedaccountspayable.md)  
 [Get Aged Accounts Receivable](../api/dynamics_agedaccountsreceivable_get.md)  
 [Account](../resources/dynamics_account.md)  

@@ -72,6 +72,7 @@ Content-type: application/json
 ```
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 
 [Journal](../resources/dynamics_journal.md)  
 [Get Journal](../api/dynamics_journal_get.md)  

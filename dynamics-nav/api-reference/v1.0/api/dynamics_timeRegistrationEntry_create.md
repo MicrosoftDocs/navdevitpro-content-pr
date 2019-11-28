@@ -81,6 +81,7 @@ Content-type: application/json
 ```
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 [Error Codes](../dynamics_error_codes.md)  
 [timeRegistrationEntries](../resources/dynamics_timeRegistrationEntry.md)  
 [Get timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_get.md)  

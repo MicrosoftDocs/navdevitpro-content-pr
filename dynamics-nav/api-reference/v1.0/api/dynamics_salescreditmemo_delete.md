@@ -54,6 +54,7 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 
 [Sales Credit Memo](../resources/dynamics_salescreditmemo.md)  
 [Get Sales Credit Memo](../api/dynamics_salescreditmemo_get.md)  

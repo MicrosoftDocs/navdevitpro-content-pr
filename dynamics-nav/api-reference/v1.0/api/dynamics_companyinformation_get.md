@@ -76,6 +76,7 @@ Here is an example of the response.
 
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
   
 [Companies](../resources/dynamics_companies.md)  
 [Company Information](../resources/dynamics_companyinformation.md)  

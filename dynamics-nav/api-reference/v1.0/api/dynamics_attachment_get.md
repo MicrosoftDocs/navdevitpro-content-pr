@@ -68,6 +68,7 @@ Here is an example of the response.
 
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 [Attachment](../resources/dynamics_attachment.md)  
 [Get Attachments](dynamics_attachment_get.md)  
 [Create Attachment](dynamics_attachment_create.md)  

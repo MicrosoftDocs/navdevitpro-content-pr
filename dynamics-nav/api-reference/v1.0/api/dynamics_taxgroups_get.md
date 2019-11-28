@@ -61,7 +61,8 @@ Here is an example of the response.
 ```
 
 
-## See Also
+## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 
 [Tax Groups](../resources/dynamics_taxgroups.md)  
 [Create Tax groups](../api/dynamics_create_taxgroups.md)  

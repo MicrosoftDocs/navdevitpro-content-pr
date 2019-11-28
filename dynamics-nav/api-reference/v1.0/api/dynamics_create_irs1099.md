@@ -75,6 +75,7 @@ Content-type: application/json
 
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
   
 [IRS 1099](../resources/dynamics_irs1099.md)  
 [Get IRS 1099](../api/dynamics_irs1099_get.md)  

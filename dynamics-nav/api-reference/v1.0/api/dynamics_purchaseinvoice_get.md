@@ -83,6 +83,7 @@ Here is an example of the response.
 ```
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 
 [Purchase Invoice](../resources/dynamics_purchaseinvoice.md)  
 [Create Purchase Invoice](../api/dynamics_create_purchaseinvoice.md)  

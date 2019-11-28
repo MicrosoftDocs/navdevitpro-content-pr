@@ -50,6 +50,7 @@ DELETE https://{businesscentralPrefix}/api/v1.0/companies({companyId})/customers
 No Content.
 
 ## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
 
 [Customer](../resources/dynamics_customer.md)  
 [Create customer defaultDimensions](dynamics_customer_create_defaultdimensions.md)  

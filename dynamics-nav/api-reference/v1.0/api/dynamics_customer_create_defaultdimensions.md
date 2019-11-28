@@ -77,7 +77,8 @@ POST https://{businesscentralPrefix}/api/v1.0/companies({companyId})/customers({
 }
 ```
 
-## See Also  
+## See also
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Customer](../resources/dynamics_customer.md)  
 [Get customer defaultDimensions](dynamics_customer_get_defaultdimensions.md)  
