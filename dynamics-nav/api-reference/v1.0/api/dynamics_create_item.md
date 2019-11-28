@@ -88,7 +88,7 @@ Content-type: application/json
 ```
 
 ## See also
-[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)  
   
 [Item](../resources/dynamics_item.md)  
 [Get Item](../api/dynamics_item_get.md)  

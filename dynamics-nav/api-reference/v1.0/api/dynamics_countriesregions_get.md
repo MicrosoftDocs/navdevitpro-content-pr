@@ -62,7 +62,7 @@ Here is an example of the response.
 
 
 ## See also
-[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)  
   
 [Get Countries Regions](../resources/dynamics_countriesregions.md)  
 [Post Countries Regions](dynamics_create_countriesregions.md)  

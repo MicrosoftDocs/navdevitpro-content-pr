@@ -73,7 +73,7 @@ Content-type: application/json
 
 
 ## See also
-[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)  
   
 [Item Categories](../resources/dynamics_itemcategories.md)  
 [Get Item Categories](../api/dynamics_itemcategories_get.md)  

@@ -95,7 +95,7 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Sales Invoice Line](../resources/dynamics_salesinvoiceline.md)  
 [Create Sales Invoice Line](../api/dynamics_create_salesinvoiceline.md)  

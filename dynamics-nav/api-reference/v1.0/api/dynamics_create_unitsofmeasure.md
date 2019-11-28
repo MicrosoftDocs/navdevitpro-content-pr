@@ -75,7 +75,7 @@ Content-type: application/json
 
 
 ## See also
-[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Units of Measure](../resources/dynamics_unitsofmeasure.md)  
 [Get Units of Measure](../api/dynamics_unitsofmeasure_get.md)  

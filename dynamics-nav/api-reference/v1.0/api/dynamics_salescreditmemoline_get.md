@@ -92,7 +92,7 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Sales Credit Memo Line](../resources/dynamics_salescreditmemoline.md)  
 [Create Sales Credit Memo Line](../api/dynamics_create_salescreditmemoline.md)  

@@ -95,7 +95,7 @@ Content-type: application/json
 ```
 
 ## See also
-[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Sales Order](../resources/dynamics_salesorder.md)  
 [Get Sales Order](../api/dynamics_salesorder_get.md)  

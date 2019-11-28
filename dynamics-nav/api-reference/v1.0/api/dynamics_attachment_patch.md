@@ -48,7 +48,7 @@ Request body contains the attachment.
 If successful, this method returns ```204 No Content``` response code. It does not return anything in the response body.
 
 ## See also
-[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 [Attachment](../resources/dynamics_attachment.md)  
 [Get Attachments](dynamics_attachment_get.md)  
 [Create Attachment](dynamics_attachment_create.md)  

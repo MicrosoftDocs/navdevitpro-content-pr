@@ -85,7 +85,7 @@ Content-type: application/json
 ```
 
 ## See also
-[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[Tips for working with the APIs](business-central/dev-itpro/developer/devenv-connect-apps-tips)  
   
 [Customer Payments](../resources/dynamics_customerpayment.md)  
 [Get Customer Payments](dynamics_customerpayment_get.md)  
