@@ -1,5 +1,5 @@
 ---
-title: "SELECTSTR Function (Code, Text)"
+title: "SELECTSTR Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,8 @@ ms.assetid: b665d6a5-c639-4483-8217-290600d3aa46
 caps.latest.revision: 13
 manager: edupont
 ---
-# SELECTSTR Function (Code, Text)
+
+# SELECTSTR Function
 Retrieves a substring from a comma-separated string.  
   
 ## Syntax  
@@ -109,5 +110,5 @@ MESSAGE('>%1<\', SubStr5);
  This example returns an error.  
   
 ## See Also  
- [Code Data Type](Code-Data-Type.md)   
- [Text Data Type](Text-Data-Type.md)
+[Code Data Type](Code-Data-Type.md)   
+[Text Data Type](Text-Data-Type.md)
