@@ -77,7 +77,8 @@ POST https://{businesscentralPrefix}/api/v1.0/companies({companyId})/vendors({ve
 }
 ```
 
-## See Also  
+## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 
 [Vendor](../resources/dynamics_vendor.md)  
 [Get vendor defaultDimensions](dynamics_vendor_get_defaultdimensions.md)  

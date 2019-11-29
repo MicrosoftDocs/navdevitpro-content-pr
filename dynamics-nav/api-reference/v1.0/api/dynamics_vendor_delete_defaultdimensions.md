@@ -50,6 +50,7 @@ DELETE https://{businesscentralPrefix}/api/v1.0/companies({companyId})/vendors({
 No Content.
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Vendor](../resources/dynamics_vendor.md)  
 [Create vendor defaultDimensions](dynamics_vendor_create_defaultdimensions.md)  

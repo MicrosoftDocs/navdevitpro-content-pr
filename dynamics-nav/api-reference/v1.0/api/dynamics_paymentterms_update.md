@@ -76,6 +76,7 @@ Content-type: application/json
 
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Payment Terms](../resources/dynamics_paymentterms.md)  
 [Get Payment Terms](../api/dynamics_paymentterms_get.md)  

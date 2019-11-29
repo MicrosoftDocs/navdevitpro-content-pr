@@ -57,6 +57,7 @@ Content-type: application/json
 ```
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Purchase Invoice](../resources/dynamics_purchaseinvoice.md)  
 [Get Purchase Invoice](../api/dynamics_purchaseinvoice_get.md)  
