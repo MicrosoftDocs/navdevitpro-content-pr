@@ -43,7 +43,7 @@ CustomerList.OPENVIEW;
 // Loops through all customers and displays the customer name.  
 IF CustomerList.FIRST THEN  
   REPEAT  
-    MESSAGE(CustomerList.Name);  
+    MESSAGE(CustomerList.Name.Value);  
 UNTIL NOT CustomerList.NEXT;  
   
 ```
