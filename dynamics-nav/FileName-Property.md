@@ -26,7 +26,11 @@ Sets the name of the external file to read data from or write data to an XMLport
   
  This property can be set dynamically by using the [FILENAME Function \(XMLport\)](FILENAME-Function--XMLport-.md). Using this function together with the Import function, you can create XMLports that are dynamic. This means that they can determine whether data is input or output at run time, and the name of the external file to read from or write to can also be set at run time.  
   
- If **FileName** is blank, then a default request options page tab will be created, where this property can be set at run time. If no name is specified or the [UseRequestPage Property](UseRequestPage-Property.md) is set to **No**, then a run-time error occurs.  
+ If **FileName** is blank, then a default request options page tab will be created, where this property can be set at run time. If no name is specified or the [UseRequestPage Property](UseRequestPage-Property.md) is set to **No**, then a run-time error occurs.
+
+ > [!NOTE]
+> In the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], because web browser restrictions, the file name cannot be set. Users will have to manually select the file when the XMLport is run.
+  
   
 ## See Also  
  [IMPORT Function \(XMLport\)](IMPORT-Function--XMLport-.md)   
