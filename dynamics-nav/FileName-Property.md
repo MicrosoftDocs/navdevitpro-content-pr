@@ -11,8 +11,12 @@ ms.assetid: 3e0784ae-24f0-406b-814c-07e2d16839d8
 caps.latest.revision: 12
 ---
 # FileName Property
+
+[!INCLUDE[windows_client_only](includes/windows_client_only.md)]
+
 Sets the name of the external file to read data from or write data to an XMLport.  
-  
+
+
 ## Applies To  
   
 -   XMLports  
