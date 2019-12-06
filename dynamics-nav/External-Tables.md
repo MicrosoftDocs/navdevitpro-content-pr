@@ -1,7 +1,7 @@
 ---
 title: "External Tables"
 ms.custom: na
-ms.date: 15/05/2018
+ms.date: 05/15/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
