@@ -1,9 +1,9 @@
 ---
-title: "API Rate Limits in Dynamics 365 Business Central"
+title: "API Limits in Dynamics 365 Business Central"
 description: ""
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 08/22/2019
+ms.date: 12/16/2019
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,24 +12,28 @@ ms.prod: "dynamics-nav-2018"
 ms.author: solsen
 ---
 
-# API Rate Limits in Dynamics 365 Business Central
+# API Limits in Dynamics 365 Business Central
 Large scale cloud services use shared resources to achieve the best possible utilization of resources – like IO, CPU, and memory. To ensure that all tenants are running smoothly, on shared resources, rate limits are applied. Without limits, one tenant might be using most resources, while other tenants running on the same resources might experience slower performance – one tenant can become a ‘noisy neighbor’.  
 
-Dynamics 365 Business Central has a rich and flexible Web service platform, made to support a wide range of integration scenarios. Some require fast access to few data and others require lots of data for reporting purposes.   
+Dynamics 365 Business Central has a rich and flexible Web service platform, made to support a wide range of integration scenarios. Some require fast access to few data and others require lots of data for reporting purposes.
 
-## Working with APIs and rate limits 
-Rate limits are introduced to ensure that no single client consumes too many resources and becomes the noisy neighbor. If calling clients receives an HTTP Status Code ‘429 Too Many Requests’ from Dynamics 365 Business Central, the tenant is overloaded. In these cases, the client will need to handle this. 
-
+## Working with API limits 
+Rate limits are introduced to ensure that no single client consumes too many resources and becomes the noisy neighbor. If calling clients receives an HTTP Status Code `429 - Too Many Requests` from Dynamics 365 Business Central, the API request limits are exceeded. In these cases, the client will need to handle this.
+ 
 > [!IMPORTANT]  
-> HTTP Status Code 429 will be returned when throttling occurs. Request limits have been exceeded. 
+> An HTTP Status Code 429 will be returned when throttling occurs. Request limits have been exceeded.
 
-Handling Status Code 429 requires the client to adopt a retry logic while providing a cool off period to the service. Different strategies such as regular interval retry, incremental intervals retry, exponential back-off, or even randomization can be applied.  
+Handling Status Code 429 requires the client to adopt a retry logic while providing a cool off period. Different strategies such as regular interval retry, incremental intervals retry, exponential back-off, or even randomization can be applied.  
 
-There are several areas to consider, which can reduce the amount of calls from a client or integration and some also crease the throughput: 
+Request execution time is limited to 10 minutes. If response cannot be provided within 10 minutes, the service will abort the request and return `504 - Gateway Timeout`.
+
+Handling `504 - Gateway Timeout` requires the client to refactor long running request to execute within time limit, but splitting the request into multiple requests - and then dealing with potential 429, by applying a backoff strategy.  
+
+There are several areas to consider, which can reduce the amount of calls from a client or integration and some also increase the throughput and reduce execution time: 
 
 1. Use [webhooks](dynamics_subscriptions.md) to receive changes when they occur. When an entity is added, modified, or deleted, a notification is sent/pushed to subscribing clients. 
 
-2. Polling interval might be reducible. Webhooks should be considered, thereby moving from a pull to a push model. 
+2. Polling interval might be reducible. Webhooks should be considered, thereby moving from a pull to a push model. If polling is the preferred method, ensure to apply other principles listed here.
 
 3. [Batching](http://docs.oasis-open.org/odata/odata/v4.01/csprd05/part1-protocol/odata-v4.01-csprd05-part1-protocol.html#_Toc14172866) can be used, to perform many operations in one call. Instead of issuing multiple requests, one request can be issued. Please be aware of the batch size. If the batch is too large, a timeout will occur. 
 
@@ -43,7 +47,7 @@ There are several areas to consider, which can reduce the amount of calls from a
     GET /companies({{companyId}})/salesOrders?$filter=orderDate ge 2019-05-01&$expand=paymentTerm,salesOrderLines($expand=account,item($expand=itemCategory)) 
     ```
 
-6. Use deep inserts when possible. Body of the POST request can contain nested entities. Metadata will contain a Navigational property from one entity to another, where deep insert is possible. 
+6. Use deep inserts when possible. Body of the `POST` request can contain nested entities. Metadata will contain a Navigational property from one entity to another, where deep insert is possible. 
     ```
     POST /companies({{companyId}})/salesQuotes 
     { 
@@ -51,19 +55,24 @@ There are several areas to consider, which can reduce the amount of calls from a
         "salesQuoteLines" :  [ 
         {"itemId": "{{itemId}}", "quantity": 10} ] 
     }
-    ``` 
- 
+   ``` 
     Deep insert can also be performed in Batch calls.
 
-## Rate limits as of August 1st, 2019 
-Limits are subject to change. 
+## Current limits  
+Limits are subject to change, following the [Microsoft API Terms of Use](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use).
+
+### API Rate limits
+HTTP response code `429 - Too Many Requests` is returned if limits are exceeded. 
 
 |              |OData|SOAP|
 |--------------|-----|----| 
 |**Sandbox**   |300 req/min|300 req/min|
 |**Production**|600 req/min|600 req/min|
 
+### Request time out
+HTTP repsonse code `504 - Gateway Timeout` is returned when a request exceeds 10 minutes execution time.
 
 ## See Also
-[Best practices on transient errors](https://docs.microsoft.com/en-us/azure/architecture/best-practices/transient-faults)  
-[Using OData Batch request](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata/dd99aa5c-d81e-4eac-9e07-039491356bf6)  
+[Best practices on transient errors](https://docs.microsoft.com/azure/architecture/best-practices/transient-faults)  
+[Using OData Batch request](https://docs.microsoft.com/openspecs/windows_protocols/ms-odata/dd99aa5c-d81e-4eac-9e07-039491356bf6)  
+[Microsoft API Terms of Use](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use)
