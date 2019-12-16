@@ -35,7 +35,7 @@ Make sure that you have the following prerequisites for completing this procedur
 
 ## Create and configure an Azure SQL Database Server  
 
-In the Azure Portal, create an SQL Database Server for hosting the [!INCLUDE[navnow](includes/navnow_md.md)] database. For more information about how to create and configure an SQL Database server, see [Create your first Azure SQL Database](https://azure.microsoft.com/en-us/documentation/articles/sql-database-get-started/).
+In the Azure Portal, create an SQL Database Server for hosting the [!INCLUDE[navnow](includes/navnow_md.md)] database. For more information about how to create and configure an SQL Database server, see [Create your first Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-get-started/).
 
 Here are some important notes when creating the Azure SQL Database:
 
@@ -49,7 +49,7 @@ Here are some important notes when creating the Azure SQL Database:
 
 4.  Configure the SQL database server firewall to allow for access by the IP address of the computer that you are using to deploy the [!INCLUDE[navnow](includes/navnow_md.md)] database.
 
-    For information, see [How to: Configure Firewall Settings \(Azure SQL Database\)](https://azure.microsoft.com/en-us/documentation/articles/sql-database-configure-firewall-settings/).
+    For information, see [How to: Configure Firewall Settings \(Azure SQL Database\)](https://azure.microsoft.com/documentation/articles/sql-database-configure-firewall-settings/).
 
 ## Prepare the [!INCLUDE[navnow](includes/navnow_md.md)] Database
 
@@ -83,7 +83,7 @@ When you deploy your application online, you must provide a compressed .zip file
 
     You can use any name for the .bacpac file.
 
-    For more information about exporting databases to .bacpac format, see [Export a Data-tier Application](https://msdn.microsoft.com/en-us/library/Hh213241.aspx). 
+    For more information about exporting databases to .bacpac format, see [Export a Data-tier Application](https://msdn.microsoft.com/library/Hh213241.aspx). 
 
 ## Import the BACPAC to Azure SQL
 
@@ -115,11 +115,11 @@ If you want to use a different login account for the database, to the following:
 
 1. Create a new login that uses SQL Server authentication.  
   
-     For more information, see [Create a Login](http://msdn.microsoft.com/en-us/library/aa337562.aspx).  
+     For more information, see [Create a Login](https://msdn.microsoft.com/library/aa337562.aspx).  
   
 2.  Map the login to a user in the [!INCLUDE[navnow](includes/navnow_md.md)] database, and add the user to the **db\_owner** role of the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
-     For more information, see [Create a Database User](http://msdn.microsoft.com/en-us/library/aa337545.aspx).  
+     For more information, see [Create a Database User](https://msdn.microsoft.com/library/aa337545.aspx).  
 <!--
 ### To deploy a [!INCLUDE[navnow](includes/navnow_md.md)] database to Azure SQL Database
 
@@ -147,7 +147,7 @@ If you want to use a different login account for the database, to the following:
 
    4. Make a note of the SQL Database server name because you will need it later.  
 
-      For more information about how to create and configure an SQL Database server, see [Create your first Azure SQL Database](https://azure.microsoft.com/en-us/documentation/articles/sql-database-get-started/) and [How to: Configure Firewall Settings \(Azure SQL Database\)](https://azure.microsoft.com/en-us/documentation/articles/sql-database-configure-firewall-settings/).  
+      For more information about how to create and configure an SQL Database server, see [Create your first Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-get-started/) and [How to: Configure Firewall Settings \(Azure SQL Database\)](https://azure.microsoft.com/documentation/articles/sql-database-configure-firewall-settings/).  
 
 3. Deploy the existing [!INCLUDE[navnow](includes/navnow_md.md)] database to an Azure SQL database.  
 
@@ -163,7 +163,7 @@ If you want to use a different login account for the database, to the following:
 
       When completed successfully, you can connect to the database in Azure SQL from the SQL Server Manager or from the Azure Management Portal.  
 
-      For more information about how to deploy a database to Azure SQL, see [Deploy a Database By Using a DAC](https://msdn.microsoft.com/en-us/library/JJ554810\(v=sql.120\).aspx)  
+      For more information about how to deploy a database to Azure SQL, see [Deploy a Database By Using a DAC](https://msdn.microsoft.com/library/JJ554810\(v=sql.120\).aspx)  
 
 4. Create and configure an Azure Virtual Machine for [!INCLUDE[nav_server](includes/nav_server_md.md)].  
 
@@ -181,11 +181,11 @@ If you want to use a different login account for the database, to the following:
 
        Remote Desktop and PowerShell ports are set up automatically.[!INCLUDE[nav_server](includes/nav_server_md.md)][!INCLUDE[nav_server](includes/nav_server_md.md)][!INCLUDE[navnow](includes/navnow_md.md)].  
 
-      For more information, see [How to create a custom virtual machine](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-create-custom/)  
+      For more information, see [How to create a custom virtual machine](https://azure.microsoft.com/documentation/articles/virtual-machines-create-custom/)  
 
 5. Configure the Azure SQL Database Server firewall to allow the [!INCLUDE[nav_server](includes/nav_server_md.md)] virtual machine to connect to the database server.  
 
-    In the Azure Management Portal, you must add a rule to the firewall that allows the public virtual IP address of the [!INCLUDE[nav_server](includes/nav_server_md.md)] virtual machine. For more information, see [How to: Configure Firewall Settings \(Azure SQL Database\)](https://azure.microsoft.com/en-us/documentation/articles/sql-database-configure-firewall-settings/).  
+    In the Azure Management Portal, you must add a rule to the firewall that allows the public virtual IP address of the [!INCLUDE[nav_server](includes/nav_server_md.md)] virtual machine. For more information, see [How to: Configure Firewall Settings \(Azure SQL Database\)](https://azure.microsoft.com/documentation/articles/sql-database-configure-firewall-settings/).  
 
    > [!NOTE]  
    >  You can identify the IP address by viewing the Dashboard of the virtual machine in the Azure Management Portal.  

@@ -68,7 +68,7 @@ Web services are a lightweight, industry-standard way to make application functi
  For example, the following URL consumes the **Customer** ODATA web service for a specific tenant:  
 
 ```  
-http://localhost:7048/DynamicsNAV/OData/Company('CRONUS-International-Ltd.')/Customer?Tenant=Tenant1  
+https://localhost:7048/DynamicsNAV/OData/Company('CRONUS-International-Ltd.')/Customer?Tenant=Tenant1  
 ```  
 
  For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).  

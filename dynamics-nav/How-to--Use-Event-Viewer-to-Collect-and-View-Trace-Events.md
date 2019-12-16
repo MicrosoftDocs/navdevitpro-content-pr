@@ -24,7 +24,7 @@ By default the **Debug** logs are disabled and may also be hidden in the Event V
   
 1. On the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], start Event Viewer.  
   
-    For more information, see [How to Start Event Viewer](http://technet.microsoft.com/en-us/library/gg163894.aspx).  
+    For more information, see [How to Start Event Viewer](https://technet.microsoft.com/library/gg163894.aspx).  
   
 2. In the console tree, choose **Applications and Services Logs**, **Microsoft**, **DynamicsNAV**, and then **Server** or **Common**.  
   
@@ -33,11 +33,11 @@ By default the **Debug** logs are disabled and may also be hidden in the Event V
 4. Select the **Debug** log, and then on the **Actions** menu, choose **Enable Log**.  
   
    > [!NOTE]  
-   >  Depending on the number of events, you might have to increase the maximum size of the log. The default value is 1028 KB. For more information, see [Set Maximum Log Size](http://go.microsoft.com/fwlink/?LinkID=517563).  
+   >  Depending on the number of events, you might have to increase the maximum size of the log. The default value is 1028 KB. For more information, see [Set Maximum Log Size](https://go.microsoft.com/fwlink/?LinkID=517563).  
   
    [!INCLUDE[nav_server](includes/nav_server_md.md)] trace events will now be recorded in the **Debug** log. For a list and description of trace events, see [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md).  
   
 ## See Also  
  [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
- [Show or Hide Analytic and Debug](http://technet.microsoft.com/en-us/library/cc766275.aspx)   
- [Enable Analytic and Debug Logs](http://technet.microsoft.com/en-us/library/cc749492.aspx)
+ [Show or Hide Analytic and Debug](https://technet.microsoft.com/library/cc766275.aspx)   
+ [Enable Analytic and Debug Logs](https://technet.microsoft.com/library/cc749492.aspx)

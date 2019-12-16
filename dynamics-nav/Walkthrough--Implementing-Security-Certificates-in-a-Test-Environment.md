@@ -25,9 +25,9 @@ In this walkthrough, you set up an environment to test integrating certificates 
 
     3.  In the **Add Standalone Snap-in** dialog box, select **Certificates**, choose **Computer Account**, choose **Local Computer**, and then choose **Add**.  
 
--   The makecert.exe utility or the  Powershell Cmdlet [New-SelfSignedCertificate](https://docs.microsoft.com/en-us/powershell/module/pkiclient/new-selfsignedcertificate).  
+-   The makecert.exe utility or the  Powershell Cmdlet [New-SelfSignedCertificate](https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate).  
 
-     The makecert.exe utility is installed with Microsoft Visual Studio and Microsoft Windows SDK. For more information, see [Makecert](https://docs.microsoft.com/da-dk/windows/desktop/SecCrypto/makecert). The procedures in the walkthrough use makecert. 
+     The makecert.exe utility is installed with Microsoft Visual Studio and Microsoft Windows SDK. For more information, see [Makecert](https://docs.microsoft.com/windows/desktop/SecCrypto/makecert). The procedures in the walkthrough use makecert. 
 
 ## Configuring [!INCLUDE[nav_server](includes/nav_server_md.md)]  
  You create and install a root certification authority \(CA\) and a server certificate on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)].  

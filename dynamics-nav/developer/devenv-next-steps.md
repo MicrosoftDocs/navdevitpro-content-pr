@@ -19,15 +19,15 @@ author: SusanneWindfeldPedersen
 ### You can provide packaged implementation services on Microsoft AppSource  
 Drive demand for your packaged implementation and consulting services with 100M users of Office 365, Dynamics 365, and Power BI. To get started providing consulting services, you need to do the following:  
  
-Get listed as a partner; [register](https://partner.microsoft.com/en-us/membership) with the Microsoft Partner Network and [create a marketing profile](https://msdn.microsoft.com/partner-center/create-a-marketing-profile) on PartnerCenter.  
-Become [CSP](https://partner.microsoft.com/en-US/cloud-solution-provider) or [DPOR](https://partner.microsoft.com/en-US/membership/digital-partner-of-Record) for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] with at least 1 customer and [submit your offers](https://cloudpartner.azure.com/) to AppSource in the Cloud Partner Portal.  
+Get listed as a partner; [register](https://partner.microsoft.com/membership) with the Microsoft Partner Network and [create a marketing profile](https://msdn.microsoft.com/partner-center/create-a-marketing-profile) on PartnerCenter.  
+Become [CSP](https://partner.microsoft.com/cloud-solution-provider) or [DPOR](https://partner.microsoft.com/membership/digital-partner-of-Record) for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] with at least 1 customer and [submit your offers](https://cloudpartner.azure.com/) to AppSource in the Cloud Partner Portal.  
  
 Reach out to [offerspilot@microsoft.com](mailto:offerspilot@microsoft.com) on questions.   
  
 ### You can provide customization services with Dynamics 365 Business Central  
-Respond to the individual needs of your customer by building customizations for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Customizations can be developed in the Designer and by code developed in Visual Studio Code using the AL Language extension. See how you can easily get started here [aka.ms/GetStartedWithApps](http://aka.ms/getstartedwithapps). 
+Respond to the individual needs of your customer by building customizations for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Customizations can be developed in the Designer and by code developed in Visual Studio Code using the AL Language extension. See how you can easily get started here [aka.ms/GetStartedWithApps](https://aka.ms/getstartedwithapps). 
 
-And learn all about building customizations in [sandbox environments](https://docs.microsoft.com/en-us/dynamics365/financials/across-how-create-sandbox-environment).  
+And learn all about building customizations in [sandbox environments](https://docs.microsoft.com/dynamics365/financials/across-how-create-sandbox-environment).  
  
 Reach out to [dyn365bep@microsoft.com](mailto:dyn365bep@microsoft.com) on questions.  
 
@@ -56,9 +56,9 @@ Reach out to Christian Baek [cbaek@Microsoft.com](mailto:cbaek@Microsoft.com) on
 ### You can promote your packaged consulting services through Microsoft AppSource
 Drive demand for your packaged consulting and consulting services with 100M users of Office 365, Dynamics 365, and Power BI. To get started on providing consulting services:  
 
-1) Get listed as a partner; [register](https://partner.microsoft.com/en-us/membership) with the Microsoft Partner Network and [create a marketing profile](https://msdn.microsoft.com/partner-center/create-a-marketing-profile) on PartnerCenter.  
+1) Get listed as a partner; [register](https://partner.microsoft.com/membership) with the Microsoft Partner Network and [create a marketing profile](https://msdn.microsoft.com/partner-center/create-a-marketing-profile) on PartnerCenter.  
 
-2) Become [CSP](https://partner.microsoft.com/en-US/cloud-solution-provider) or [DPOR](https://partner.microsoft.com/en-US/membership/digital-partner-of-Record) for Dynamics 365 Business Central with at least 1 customer and [submit your offers](https://cloudpartner.azure.com/) to AppSource in the Cloud Partner Portal.  
+2) Become [CSP](https://partner.microsoft.com/cloud-solution-provider) or [DPOR](https://partner.microsoft.com/membership/digital-partner-of-Record) for Dynamics 365 Business Central with at least 1 customer and [submit your offers](https://cloudpartner.azure.com/) to AppSource in the Cloud Partner Portal.  
 
 If you experience issues accessing the Offer page, please contact [offerspilot@microsoft.com](mailto:offerspilot@microsoft.com).
 

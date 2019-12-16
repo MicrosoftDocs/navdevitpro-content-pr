@@ -43,30 +43,31 @@ Record.SETFILTER(Field, String, [Value],...)
  Replacement values to insert in replacement fields in the filter expression. The data type of *Value* must match the data type of *Field*.  
   
 ## Remarks  
- If the function is called with a field for which a filter already exists, that filter will be removed before the new one is set. You can construct filters using the following operators:  
+If the function is called with a field for which a filter already exists, that filter will be removed before the new one is set. You can construct filters using the following operators:  
   
--   ..   Range  
+- ..   Range  
   
--   &   And  
+- &   And  
   
--   &#124;   Or  
+- &#124;   Or  
   
--   \<   Less than  
+- \<   Less than  
   
--   \<=   Less than or equal to  
+- \<=   Less than or equal to  
   
--   \>   Greater than  
+- \>   Greater than  
   
--   \>=   Greater than or equal to  
+- \>=   Greater than or equal to  
   
--   \<>   Different from  
+- \<>   Different from  
   
--   \*   Forms a part of value  
+- \*   Forms a part of value  
   
--   @   Case-insensitive  
+- @   Case-insensitive  
   
 ## Example  
- The following table shows examples of filters.  
+
+The following table shows examples of filters.  
   
 |Filter|Description|  
 |------------|-----------------|  
@@ -77,24 +78,28 @@ Record.SETFILTER(Field, String, [Value],...)
 |\<>''|All not blank|  
 |\<=200 &#124; >500|All less than or equal to 200 or greater than 500|  
   
- This example requires that you create the following variable.  
+This example requires that you create the following variable.  
   
-|Name|DataType|Subtype|  
+|Name      |DataType      |Subtype|  
 |----------|--------------|-------------|  
-|GLAccountRec|Record|G/L Account|  
+|GLAccountRec|Record      |G/L Account|  
   
 ```  
 // Using a filter with replacement field.  
-// This filter selects all accounts in the range from 100 to 200   
-//   and No. 300.  
+// This filter selects all accounts in the range from 100 to 200 
+// and No. 300. 
+
 GLAccountRec.SETFILTER("No.", '%1..%2|%3', '100', '200', '300');  
+
 // Using a filter entered directly in a string.  
 // This filter, which is entered as a string, has the same result as  
-//   the previous example.   
-//   This filter selects all accounts in the range from 100 to 200 and   
-//   and No. 300.  
-GLAccountRec.SETFILTER("No.", '100..200|300');   
+// the previous example.
+// This filter selects all accounts in the range from 100 to 200 and
+// and No. 300.  
+
+GLAccountRec.SETFILTER("No.", '100..200|300');
 ```  
-  
+
 ## See Also  
- [Record Data Type](Record-Data-Type.md)
+
+[Record Data Type](Record-Data-Type.md)
