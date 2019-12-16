@@ -74,5 +74,5 @@ HTTP repsonse code `504 - Gateway Timeout` is returned when a request exceeds 10
 
 ## See Also
 [Best practices on transient errors](https://docs.microsoft.com/azure/architecture/best-practices/transient-faults)  
-[Using OData Batch request](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata/dd99aa5c-d81e-4eac-9e07-039491356bf6)  
+[Using OData Batch request](https://docs.microsoft.com/openspecs/windows_protocols/ms-odata/dd99aa5c-d81e-4eac-9e07-039491356bf6)  
 [Microsoft API Terms of Use](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use)
