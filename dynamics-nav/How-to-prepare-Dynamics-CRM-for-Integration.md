@@ -9,6 +9,7 @@ ms.topic: article
 author: jswymer
 ms.prod: "dynamics-nav-2018"
 ---
+
 # How to: Prepare Dynamics 365 for Sales for Integration
 This topic describes how to set up and configure [!INCLUDE[crm_md](includes/crm_md.md)] for integrating with [!INCLUDE[navnow_md](includes/navnow_md.md)]. You must complete the following tasks:  
 
@@ -60,7 +61,7 @@ This topic describes how to set up and configure [!INCLUDE[crm_md](includes/crm_
 
    If you install the [!INCLUDE[navnow_md](includes/navnow_md.md)] integration solution after you have set up the connection to [!INCLUDE[crm_md](includes/crm_md.md)] from in [!INCLUDE[navnow_md](includes/navnow_md.md)], you must modify the connection setup to point to the URL of the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. For more information, see [How to: Set Up a Microsoft Dynamics 365 for Sales Connection](How-to-Set-Up-a-Dynamics-CRM-Connection.md)  
 
-# View Item Availability - Support Matrix
+## View Item Availability - Support Matrix
 For most versions of Dynamics NAV and Dynamics 365 for Sales, you can view availability figures for items across the integrated products. The following table shows which version combinations support viewing item availability.
 
 | |Dynamics 365 for Sales version|2015/Update 1/Online|2016/Update 1/Online|Dynamics 365 for Sales|
