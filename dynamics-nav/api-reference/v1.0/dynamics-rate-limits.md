@@ -33,7 +33,7 @@ There are several areas to consider, which can reduce the amount of calls from a
 
 1. Use [webhooks](dynamics_subscriptions.md) to receive changes when they occur. When an entity is added, modified, or deleted, a notification is sent/pushed to subscribing clients. 
 
-2. Polling interval might be reducible. Webhooks should be considered, thereby moving from a pull to a push model. If polling is the prefered method, ensure to apply other principles listed here.
+2. Polling interval might be reducible. Webhooks should be considered, thereby moving from a pull to a push model. If polling is the preferred method, ensure to apply other principles listed here.
 
 3. [Batching](http://docs.oasis-open.org/odata/odata/v4.01/csprd05/part1-protocol/odata-v4.01-csprd05-part1-protocol.html#_Toc14172866) can be used, to perform many operations in one call. Instead of issuing multiple requests, one request can be issued. Please be aware of the batch size. If the batch is too large, a timeout will occur. 
 
