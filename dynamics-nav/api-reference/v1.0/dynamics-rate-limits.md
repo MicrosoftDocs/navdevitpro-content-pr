@@ -21,7 +21,7 @@ Dynamics 365 Business Central has a rich and flexible Web service platform, made
 Rate limits are introduced to ensure that no single client consumes too many resources and becomes the noisy neighbor. If calling clients receives an HTTP Status Code `429 - Too Many Requests` from Dynamics 365 Business Central, the API request limits are exceeded. In these cases, the client will need to handle this.
  
 > [!IMPORTANT]  
-> HTTP Status Code 429 will be returned when throttling occurs. Request limits have been exceeded.
+> An HTTP Status Code 429 will be returned when throttling occurs. Request limits have been exceeded.
 
 Handling Status Code 429 requires the client to adopt a retry logic while providing a cool off period. Different strategies such as regular interval retry, incremental intervals retry, exponential back-off, or even randomization can be applied.  
 
