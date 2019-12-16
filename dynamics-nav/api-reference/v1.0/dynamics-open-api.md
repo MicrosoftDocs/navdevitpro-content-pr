@@ -52,7 +52,7 @@ To run SwaggerUI locally, node.js can be used to serve the SwaggerUI, by followi
     ```
     node BC_OAS.js
     ```
-6) Browse to `http://localhost:3000`.
+6) Browse to `https://localhost:3000`.
 7) To use **Try it out** authorization in SwaggerUI, an Azure Active Directory app must be created. [Follow these steps to create an AAD app, with access to Business Central](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps#setting-up-azure-active-directory-aad-based-authentication). Copy and paste the client ID from the AAD app into the authorization dialog of SwaggerUI.
 
 > [!NOTE]  

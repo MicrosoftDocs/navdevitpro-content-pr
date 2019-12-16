@@ -64,7 +64,7 @@ On the field-level, you set the following properties:
 |[ExternalName](externalname-property.md)|The name of the column in the external table. This property is required only if the field's **Name** property differs from the column name in the external table.|
 
 ## Registering an external table connection
-The first step when using an external table is to register a connection to the database that contains the external table. This makes the connection available for use. There are two ways to do this. One way is to call the REGISTERTABLECONNECTION function from code. The other way is to use the [New-NAVTableConnection cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navtableconnection) from the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. 
+The first step when using an external table is to register a connection to the database that contains the external table. This makes the connection available for use. There are two ways to do this. One way is to call the REGISTERTABLECONNECTION function from code. The other way is to use the [New-NAVTableConnection cmdlet](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/new-navtableconnection) from the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]. 
 
 -  Using the REGISTERTABLECONNECTION function provides a more dynamic and customizable way of registering a table connection. When registered by the REGISTERTABLECONNECTION function, the connection is registered for the current client session only and will clear once the session has ended.
 
@@ -139,7 +139,7 @@ New-NAVTableConnection -ServerInstance DynamicsNAV -ConnectionType ExternalSQL -
 ```
 
 > [!TIP]
-> To get information about registered table connections, use the [Get-NAVTableConnection cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navtableconnection).
+> To get information about registered table connections, use the [Get-NAVTableConnection cmdlet](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/new-navtableconnection).
 
 
 ## Setting an external table connection 
@@ -160,7 +160,7 @@ SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL,'MyTableConnection1')
 ```  
 
 ## Unregistering an external table connection  
-When done using an external table connection or if the connection must be refreshed, it can be unregistered by using either the UNREGISTERTABLECONNECTION function or the [Remove-NAVTableConnection cmdlet](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/remove-navtableconnection). 
+When done using an external table connection or if the connection must be refreshed, it can be unregistered by using either the UNREGISTERTABLECONNECTION function or the [Remove-NAVTableConnection cmdlet](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/remove-navtableconnection). 
 
 -   If a table connection was registered by the UNREGISTERTABLECONNECTION function, use the UNREGISTERTABLECONNECTION function. 
 
@@ -204,7 +204,7 @@ Remove-NAVTableConnection -ServerInstance DynamicsNAV -ConnectionType ExternalSQ
 ```
 
 > [!TIP]
-> To get information about registered table connections, use the [Get-NAVTableConnection](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/get-navtableconnection) cmdlet.
+> To get information about registered table connections, use the [Get-NAVTableConnection](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/get-navtableconnection) cmdlet.
 
 ## <a name="Examples"></a>Example 1
 This example integrates a simple table from an external SQL Server database. It adds a companion table in [!INCLUDE[navnow](includes/navnow_md.md)] for the external table and a page for viewing and modifying data in the client. The registration and setting of the external table connection is controlled from the page code and occurs when the page opens. 

@@ -45,7 +45,7 @@ If you are running the [!INCLUDE[nav_server](includes/nav_server_md.md)] under a
 ### Enabling the account to log in as a service  
  Depending on various factors, the account may or may not already have this ability. For example, if you have already installed SQL Server and configured it to run under the same account, SQL Server will have modified the account to log in as a service.  
 
- Instructions for enabling an account to log in as a service are available on TechNet. See [Add the Log on as a service Right to an Account](http://go.microsoft.com/fwlink/?LinkId=227483). The instructions are for Windows Server 2008. For Windows 7, use this version of the procedure: [Add the Log on as a service right to an account](http://go.microsoft.com/fwlink/?LinkId=227484).  
+ Instructions for enabling an account to log in as a service are available on TechNet. See [Add the Log on as a service Right to an Account](https://go.microsoft.com/fwlink/?LinkId=227483). The instructions are for Windows Server 2008. For Windows 7, use this version of the procedure: [Add the Log on as a service right to an account](https://go.microsoft.com/fwlink/?LinkId=227484).  
 
  When this permission is lacking, [!INCLUDE[nav_server](includes/nav_server_md.md)] server instances may not be able to start.  
 
@@ -102,7 +102,7 @@ If you are running the [!INCLUDE[nav_server](includes/nav_server_md.md)] under a
         </net.tcp>
     ```
 
-For more information about SMSvcHost.exe and the SMSvcHost.exe.config file, see [Configuring the Net.TCP Port Sharing Service](https://msdn.microsoft.com/en-us/library/aa702669%28v=vs.110%29.aspx).
+For more information about SMSvcHost.exe and the SMSvcHost.exe.config file, see [Configuring the Net.TCP Port Sharing Service](https://msdn.microsoft.com/library/aa702669%28v=vs.110%29.aspx).
 
 ###  <a name="dbo"></a> Giving the account necessary database privileges in SQL Server  
 The [!INCLUDE[nav_server](includes/nav_server_md.md)] account needs two privileges on SQL Server instance used for [!INCLUDE[navnow](includes/navnow_md.md)]:

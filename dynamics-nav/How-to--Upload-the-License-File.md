@@ -65,5 +65,5 @@ After an administrator or a Microsoft Certified Partner initially installs [!INC
 ## See Also  
  [License Types](License-Types.md)   
  [How to: Install C/SIDE Development Environment](How-to--Install-C-SIDE-Development-Environment.md)   
- [Microsoft Dynamics ERP Software License Terms (requires login)](http://go.microsoft.com/fwlink/?LinkId=247426)   
- [Microsoft Dynamics ERP Licensing Guide (requires PartnerSource login)](http://go.microsoft.com/fwlink/?LinkID=318024)
+ [Microsoft Dynamics ERP Software License Terms (requires login)](https://go.microsoft.com/fwlink/?LinkId=247426)   
+ [Microsoft Dynamics ERP Licensing Guide (requires PartnerSource login)](https://go.microsoft.com/fwlink/?LinkID=318024)

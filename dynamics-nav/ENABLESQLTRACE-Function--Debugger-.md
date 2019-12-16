@@ -41,7 +41,7 @@ Enables or verifies SQL tracing. If you enable SQL tracing, then SQL Server even
  **true** if SQL tracing is enabled; otherwise, **false**.  
   
 ## Remarks  
- You use Microsoft SQL Server Profiler to view traces. For more information, see [Using SQL Server Profiler](http://go.microsoft.com/fwlink/?LinkId=257789). To start SQL Server Profiler, in **SQL Server Management Studio**, on the **Tools** menu, choose **SQL Server Profiler**.  
+ You use Microsoft SQL Server Profiler to view traces. For more information, see [Using SQL Server Profiler](https://go.microsoft.com/fwlink/?LinkId=257789). To start SQL Server Profiler, in **SQL Server Management Studio**, on the **Tools** menu, choose **SQL Server Profiler**.  
   
  You can also enable and disable SQL tracing by using the **Start Full SQL Tracing** and **Stop Full SQL Tracing** buttons on the **Session List** page.  
   

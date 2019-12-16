@@ -24,7 +24,7 @@ Specifies the image to display on a Cue.
  Select from the options that are available in the image list that appears when you choose the **AssistEdit** button. Select **None** if you do not want an image on the cue. The default value is **Stack**.  
   
 ## Remarks  
- If you want to view the different images, then see [Microsoft Dynamics NAV Icon Collection](http://go.microsoft.com/fwlink/?LinkID=394623).  
+ If you want to view the different images, then see [Microsoft Dynamics NAV Icon Collection](https://go.microsoft.com/fwlink/?LinkID=394623).  
   
 ## See Also  
  [How to: Set Up an Image on a Cue](How-to--Set-Up-an-Image-on-a-Cue.md)   

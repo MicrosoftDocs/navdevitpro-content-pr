@@ -35,7 +35,7 @@ You can use any tool or set of tools to help you compare and merge code.  [!INCL
 We recommend that you use these cmdlets and sample scripts because they can make it faster to merge most changes. For example, you can combine several steps in a command that uses a cmdlet such as the [Merge-NAVApplicationObject](https://go.microsoft.com/fwlink/?linkid=398884). The sections in this article describe how you can use the Merge-NAVApplicationObject cmdlet and other [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets. For more information, see [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md).
 
 <!--
-For information about other ways of upgrading your code, see [Upgrading the Application Code](http://msdn.microsoft.com/en-us/library/dn271652\(v=nav.71\).aspx) for [!INCLUDE[navsicily](includes/navsicily_md.md)] in the MSDN Library.
+For information about other ways of upgrading your code, see [Upgrading the Application Code](https://msdn.microsoft.com/library/dn271652\(v=nav.71\).aspx) for [!INCLUDE[navsicily](includes/navsicily_md.md)] in the MSDN Library.
 -->
 <!--
 ### Application code upgrade guideline

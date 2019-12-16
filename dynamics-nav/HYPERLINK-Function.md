@@ -27,7 +27,7 @@ HYPERLINK(URL)
  A URL that is passed to the Internet browser as an argument.  
   
 ## Remarks  
-The syntax must be a valid URL, such as *http://www.microsoft.com*, or path to a file on file share, such as *file://d$/myfiles/myfile.txt*. If you want the URL to be configurable, you can get the URL from a field or a variable instead. If you pass an empty string, then no browser window is opened.  
+The syntax must be a valid URL, such as *https://www.microsoft.com*, or path to a file on file share, such as *file://d$/myfiles/myfile.txt*. If you want the URL to be configurable, you can get the URL from a field or a variable instead. If you pass an empty string, then no browser window is opened.  
   
 If you use this function for an application that runs on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], then the default Internet browser that is based on the setting in the system registry is used. If the browser is already running, then a new tab opens in the browser window. If you use this function for an application that runs on the [!INCLUDE[nav_web](includes/nav_web_md.md)], then a new tab in the same browser window that is currently hosting the [!INCLUDE[nav_web](includes/nav_web_md.md)] is opened.  
   
@@ -39,7 +39,7 @@ The HYPERLINK function does not work on NAS services.
  The following example shows two uses of the HYPERLINK function to open the specified URL in the default browser. In the first line of code, the URL is specified in code. The second line of code illustrates how you can get a URL that is stored in a field on the current table.  
   
 ```  
-HYPERLINK('http://www.microsoft.com');   
+HYPERLINK('https://www.microsoft.com');   
 ...  
 HYPERLINK(Rec.UrlField);  
   

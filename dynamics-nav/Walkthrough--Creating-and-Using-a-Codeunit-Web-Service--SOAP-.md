@@ -100,11 +100,11 @@ Web services provide easy communication and data exchange in a secured environme
   
 1.  Start Windows Internet Explorer.  
   
-2.  In the **Address** field, enter an address in the following format: **http://\<Server>:\<WebServicePort>/\<ServerInstance>/WS/\<CompanyName>/services**.  
+2.  In the **Address** field, enter an address in the following format: **https://\<Server>:\<WebServicePort>/\<ServerInstance>/WS/\<CompanyName>/services**.  
   
      For example:  
   
-     **http://localhost:7047/DynamicsNAV/WS/CRONUS%20International%20Ltd./services**  
+     **https://localhost:7047/DynamicsNAV/WS/CRONUS%20International%20Ltd./services**  
   
     > [!NOTE]  
     >  The company name is case-sensitive.  
@@ -126,7 +126,7 @@ Web services provide easy communication and data exchange in a secured environme
   
 5.  In the **Add Service Reference** window, choose the **Advanced** button.  
   
-6.  In the **Service Reference Settings** window, choose the **Add Web Reference** button, type or paste the URL that you used when you checked the WSDL, such as **http://localhost:7047/DynamicsNAV/WS/Services**, and then choose **Go** \(the green button with the arrow\).  
+6.  In the **Service Reference Settings** window, choose the **Add Web Reference** button, type or paste the URL that you used when you checked the WSDL, such as **https://localhost:7047/DynamicsNAV/WS/Services**, and then choose **Go** \(the green button with the arrow\).  
   
 7.  When the **Letters** service is displayed on the discovery Page, choose **View Service**, then in the **Web reference name** text box, rename **localhost** to **WebService**, and then choose **Add Reference**.  
   
@@ -152,7 +152,7 @@ Web services provide easy communication and data exchange in a secured environme
                 // Uses default credentials for authenticating   
                 // with Microsoft Dynamics NAV.  
                 ws.UseDefaultCredentials = true;  
-                ws.Url = "http://localhost:7047/nav_server_instance/WS/CRONUS%20International%20Ltd./Codeunit/Letters";      
+                ws.Url = "https://localhost:7047/nav_server_instance/WS/CRONUS%20International%20Ltd./Codeunit/Letters";      
   
                 // Declares variables to work with.  
                 string inputstring, outputstring;     

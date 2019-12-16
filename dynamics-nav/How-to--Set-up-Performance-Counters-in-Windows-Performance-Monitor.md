@@ -35,7 +35,7 @@ This topic describes how to use Windows Performance Monitor to collect and view 
   
     Windows Performance Monitor displays data for the counters that you selected.  
   
-   For more information about how to use Windows Performance Monitor, see [Windows Performance Monitor](http://go.microsoft.com/fwlink/?LinkId=259406).  
+   For more information about how to use Windows Performance Monitor, see [Windows Performance Monitor](https://go.microsoft.com/fwlink/?LinkId=259406).  
   
 ## See Also  
  [Microsoft Dynamics NAV Performance Counters](Microsoft-Dynamics-NAV-Performance-Counters.md)   

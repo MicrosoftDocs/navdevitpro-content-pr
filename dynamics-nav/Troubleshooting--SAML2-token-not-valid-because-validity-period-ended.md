@@ -23,7 +23,7 @@ The event log includes the following error for the [!INCLUDE[nav_server](include
 
 ## Resolution  
 
-This error occurs because the security token that used by Azure AD has exceeded its specified lifetime. By default, the lifetime, which is determined by Azure AD, is 1 hour. However, the [!INCLUDE[nav_server](includes/nav_server_md.md)] includes a configuration setting called `ExtendedSecurityTokenLifetime` which you can set to add additional time to the security token lifetime. If this issue becomes a problem, you can increase the value of the  `ExtendedSecurityTokenLifetime` setting. Before you do this though, we recommend that you read more about the Azure AD token lifetime policies at [Configurable token lifetimes in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-configurable-token-lifetimes).
+This error occurs because the security token that used by Azure AD has exceeded its specified lifetime. By default, the lifetime, which is determined by Azure AD, is 1 hour. However, the [!INCLUDE[nav_server](includes/nav_server_md.md)] includes a configuration setting called `ExtendedSecurityTokenLifetime` which you can set to add additional time to the security token lifetime. If this issue becomes a problem, you can increase the value of the  `ExtendedSecurityTokenLifetime` setting. Before you do this though, we recommend that you read more about the Azure AD token lifetime policies at [Configurable token lifetimes in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-configurable-token-lifetimes).
 
 
 ## See Also  

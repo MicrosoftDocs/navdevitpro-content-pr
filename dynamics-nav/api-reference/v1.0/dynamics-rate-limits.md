@@ -35,14 +35,14 @@ There are several areas to consider, which can reduce the amount of calls from a
 
 2. Polling interval might be reducible. Webhooks should be considered, thereby moving from a pull to a push model. If polling is the preferred method, ensure to apply other principles listed here.
 
-3. [Batching](http://docs.oasis-open.org/odata/odata/v4.01/csprd05/part1-protocol/odata-v4.01-csprd05-part1-protocol.html#_Toc14172866) can be used, to perform many operations in one call. Instead of issuing multiple requests, one request can be issued. Please be aware of the batch size. If the batch is too large, a timeout will occur. 
+3. [Batching](https://docs.oasis-open.org/odata/odata/v4.01/csprd05/part1-protocol/odata-v4.01-csprd05-part1-protocol.html#_Toc14172866) can be used, to perform many operations in one call. Instead of issuing multiple requests, one request can be issued. Please be aware of the batch size. If the batch is too large, a timeout will occur. 
 
-4. Use [Filter](http://docs.oasis-open.org/odata/odata/v4.01/csprd05/part2-url-conventions/odata-v4.01-csprd05-part2-url-conventions.html#_Toc14103724) to reduce the number of entities returned by applying filtering. If the returned dataset contains multiple pages, then pages must be fetched using the continuation tokens.  
+4. Use [Filter](https://docs.oasis-open.org/odata/odata/v4.01/csprd05/part2-url-conventions/odata-v4.01-csprd05-part2-url-conventions.html#_Toc14103724) to reduce the number of entities returned by applying filtering. If the returned dataset contains multiple pages, then pages must be fetched using the continuation tokens.  
     ``` 
     GET /companies({{companyId}})/customers?$filter=lastModifiedDateTime gt 2019-08-18T20:05:51.603Z 
     ```
 
-5. Use [Expand](http://docs.oasis-open.org/odata/odata/v4.01/csprd05/part1-protocol/odata-v4.01-csprd05-part1-protocol.html#_Toc14172769) to fetch related entities in one request. Metadata contains navigational properties from one entity to other entities, where expand can be used. Multi-level expand is possible and can be combined with Filter.  
+5. Use [Expand](https://docs.oasis-open.org/odata/odata/v4.01/csprd05/part1-protocol/odata-v4.01-csprd05-part1-protocol.html#_Toc14172769) to fetch related entities in one request. Metadata contains navigational properties from one entity to other entities, where expand can be used. Multi-level expand is possible and can be combined with Filter.  
     ```
     GET /companies({{companyId}})/salesOrders?$filter=orderDate ge 2019-05-01&$expand=paymentTerm,salesOrderLines($expand=account,item($expand=itemCategory)) 
     ```
