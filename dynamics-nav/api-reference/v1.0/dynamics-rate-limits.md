@@ -3,7 +3,7 @@ title: "API Limits in Dynamics 365 Business Central"
 description: ""
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 08/22/2019
+ms.date: 12/16/2019
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,7 +18,7 @@ Large scale cloud services use shared resources to achieve the best possible uti
 Dynamics 365 Business Central has a rich and flexible Web service platform, made to support a wide range of integration scenarios. Some require fast access to few data and others require lots of data for reporting purposes.
 
 ## Working with API limits 
-Rate limits are introduced to ensure that no single client consumes too many resources and becomes the noisy neighbor. If calling clients receives an HTTP Status Code `429 - Too Many Requests` from Dynamics 365 Business Central, the API request limits are exeeded. In these cases, the client will need to handle this.
+Rate limits are introduced to ensure that no single client consumes too many resources and becomes the noisy neighbor. If calling clients receives an HTTP Status Code `429 - Too Many Requests` from Dynamics 365 Business Central, the API request limits are exceeded. In these cases, the client will need to handle this.
  
 > [!IMPORTANT]  
 > HTTP Status Code 429 will be returned when throttling occurs. Request limits have been exceeded.
@@ -27,7 +27,7 @@ Handling Status Code 429 requires the client to adopt a retry logic while provid
 
 Request execution time is limited to 10 minutes. If response cannot be provided within 10 minutes, the service will abort the request and return `504 - Gateway Timeout`.
 
-Handling `504 - Gateway Timeout` requires client to refactor long running request to execute within time limit, but splitting the request into multiple requests - and then dealing with potential 429, by applying a backoff strategy.  
+Handling `504 - Gateway Timeout` requires the client to refactor long running request to execute within time limit, but splitting the request into multiple requests - and then dealing with potential 429, by applying a backoff strategy.  
 
 There are several areas to consider, which can reduce the amount of calls from a client or integration and some also increase the throughput and reduce execution time: 
 
@@ -47,7 +47,7 @@ There are several areas to consider, which can reduce the amount of calls from a
     GET /companies({{companyId}})/salesOrders?$filter=orderDate ge 2019-05-01&$expand=paymentTerm,salesOrderLines($expand=account,item($expand=itemCategory)) 
     ```
 
-6. Use deep inserts when possible. Body of the POST request can contain nested entities. Metadata will contain a Navigational property from one entity to another, where deep insert is possible. 
+6. Use deep inserts when possible. Body of the `POST` request can contain nested entities. Metadata will contain a Navigational property from one entity to another, where deep insert is possible. 
     ```
     POST /companies({{companyId}})/salesQuotes 
     { 
