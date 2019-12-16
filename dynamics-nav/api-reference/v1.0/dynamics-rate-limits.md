@@ -59,7 +59,7 @@ There are several areas to consider, which can reduce the amount of calls from a
     Deep insert can also be performed in Batch calls.
 
 ## Current limits  
-Limits are subject to change, following the [Microsoft API Terms of Use](https://docs.microsoft.com/en-us/legal/microsoft-apis/terms-of-use).
+Limits are subject to change, following the [Microsoft API Terms of Use](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use).
 
 ### API Rate limits
 HTTP response code `429 - Too Many Requests` is returned if limits are exceeded. 
@@ -73,6 +73,6 @@ HTTP response code `429 - Too Many Requests` is returned if limits are exceeded.
 HTTP repsonse code `504 - Gateway Timeout` is returned when a request exceeds 10 minutes execution time.
 
 ## See Also
-[Best practices on transient errors](https://docs.microsoft.com/en-us/azure/architecture/best-practices/transient-faults)  
+[Best practices on transient errors](https://docs.microsoft.com/azure/architecture/best-practices/transient-faults)  
 [Using OData Batch request](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata/dd99aa5c-d81e-4eac-9e07-039491356bf6)  
-[Microsoft API Terms of Use](https://docs.microsoft.com/en-us/legal/microsoft-apis/terms-of-use)
+[Microsoft API Terms of Use](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use)
