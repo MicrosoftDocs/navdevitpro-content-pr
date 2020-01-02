@@ -22,7 +22,7 @@ Creates a customer payments journal object in [!INCLUDE[d365fin_long_md](../../i
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-POST businesscentralPrefix/companies({id})/customerPaymentsJournals({id})
+POST businesscentralPrefix/companies({id})/customerPaymentJournals({id})
 ```
 
 ## Request headers
@@ -33,10 +33,10 @@ POST businesscentralPrefix/companies({id})/customerPaymentsJournals({id})
 |Content-Type  |application/json         |
 
 ## Request body
-In the request body, supply a JSON representation of **customerPaymentsJournals** object.
+In the request body, supply a JSON representation of **customerPaymentJournals** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a **customerPaymentsJournals** object in the response body.
+If successful, this method returns ```201 Created``` response code and a **customerPaymentJournals** object in the response body.
 
 ## Example
 
@@ -45,7 +45,7 @@ If successful, this method returns ```201 Created``` response code and a **custo
 Here is an example of a request.
 
 ```json
-POST https://{businesscentralPrefix}/api/beta/companies({id})/customerPaymentsJournals
+POST https://{businesscentralPrefix}/api/beta/companies({id})/customerPaymentJournals
 Content-type: application/json
 ```json
 {

@@ -18,7 +18,7 @@ You can use filter expressions in OData URIs to limit the results that are retur
  To add a filter to an OData URI, add `$filter=` to the end of the name of the published web service. For example, the following URI filters the **City** field in the **Customer** page to return all customers who are located in Miami:  
 
 ```  
-http://localhost:7048/DynamicsNAV/OData/Company('CRONUS International Ltd.')/Customer?$filter=City eq 'Miami'  
+https://localhost:7048/DynamicsNAV/OData/Company('CRONUS International Ltd.')/Customer?$filter=City eq 'Miami'  
 ```  
 
  The following table shows the filters that are supported in [!INCLUDE[navnow](includes/navnow_md.md)] OData web services and the equivalent C/AL filter expressions. All examples are based either on page 21, Customer (published as **Customer**), or on page 20, General Ledger Entry (published as **GLEntry**).  

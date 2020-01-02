@@ -32,7 +32,7 @@ You can specify page settings and page orientation for a printed report from the
   
 - Print a report from the **Print Preview** page.  
   
-  With [!INCLUDE[nav_web](includes/nav_web_md.md)], from the print preview, you can only print to a local printer. To print from the print preview, you must the install a client-side component. For more information, see [Printing Reports from ReportViewer](http://go.microsoft.com/fwlink/?LinkId=225474).  
+  With [!INCLUDE[nav_web](includes/nav_web_md.md)], from the print preview, you can only print to a local printer. To print from the print preview, you must the install a client-side component. For more information, see [Printing Reports from ReportViewer](https://go.microsoft.com/fwlink/?LinkId=225474).  
   
 ## Specifying Page Settings and Orientation  
  The following table describes how you access each of the dialog boxes in which you can specify page settings and orientation.  
@@ -58,7 +58,7 @@ You can specify page settings and page orientation for a printed report from the
 > [!NOTE]  
 >  In [!INCLUDE[nav2017](includes/nav2017.md)] and subsequent versions, the printed report settings are determined by default to match the **Report Properties** to the current available paper. Therefore, it does no longer refer to the **Printer Properties** if the layout of the report specifies a custom paper size, as it did in earlier versions.
 > 
->  To disable this setting and use the [previous](https://docs.microsoft.com/en-us/previous-versions/dynamicsnav-2016/ff477105%28v=nav.90%29) settings, add the following line to the CustomSettings.config file and restart the server to reload configuration:  `<add key="CalculateBestPaperSizeForReportPrinting" value="false" />`.
+>  To disable this setting and use the [previous](https://docs.microsoft.com/previous-versions/dynamicsnav-2016/ff477105%28v=nav.90%29) settings, add the following line to the CustomSettings.config file and restart the server to reload configuration:  `<add key="CalculateBestPaperSizeForReportPrinting" value="false" />`.
 
 ## See Also  
  [How to: Specify Printer Selection for Reports](How-to--Specify-Printer-Selection-for-Reports.md)   

@@ -26,13 +26,13 @@ You can set FlowFilters on the data that your OData web service extracts from th
 2.  Start Windows Internet Explorer, and then in the **Address** field, enter a URI in this format:  
   
     ```  
-    http://<Server>:<WebServicePort>/<ServerInstance>/OData/$metadata  
+    https://<Server>:<WebServicePort>/<ServerInstance>/OData/$metadata  
     ```  
   
      If [!INCLUDE[nav_server](includes/nav_server_md.md)] is running on the local computer and uses the default [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and the default OData port, then the address is:  
   
     ```  
-    http://localhost:7048/DynamicsNAV/OData/$metadata  
+    https://localhost:7048/DynamicsNAV/OData/$metadata  
     ```  
   
 3.  Examine the metadata that is returned by this URI. At the end of the list is a set of parameters that end in the word `Filter`. This is the list of FlowFilters for the page:  
@@ -52,7 +52,7 @@ You can set FlowFilters on the data that your OData web service extracts from th
 4.  Create a URI that returns information for a single item card. For example:  
   
     ```  
-    http://localhost:7048/DynamicsNAV/OData/Company('CRONUS-International-Ltd.')/ItemCard('1906-S')  
+    https://localhost:7048/DynamicsNAV/OData/Company('CRONUS-International-Ltd.')/ItemCard('1906-S')  
     ```  
   
      This is the "ATHENS Mobile Pedestal" item. The value for the *Qty\_on\_Sales\_Order* parameter is 33:  
@@ -64,7 +64,7 @@ You can set FlowFilters on the data that your OData web service extracts from th
 5.  Apply a FlowFilter to that item and specify **GREEN** as the value for the **Location\_Filter**:  
   
     ```  
-    http://localhost:7048/DynamicsNAV/OData/Company('CRONUS-International-Ltd.')/ItemCard('1906-S')?$filter=Location_Filter eq 'GREEN'  
+    https://localhost:7048/DynamicsNAV/OData/Company('CRONUS-International-Ltd.')/ItemCard('1906-S')?$filter=Location_Filter eq 'GREEN'  
     ```  
   
      The item is returned as before, the value of the FlowField that has changed. The value for the *Qty\_on\_Sales\_Order* parameter is now 27:  

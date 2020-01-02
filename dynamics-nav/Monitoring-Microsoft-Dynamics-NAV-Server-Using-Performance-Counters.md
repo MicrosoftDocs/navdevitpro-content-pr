@@ -23,4 +23,4 @@ Performance counters provide information about how well [!INCLUDE[nav_server](in
 
 -   [Working with Data Collector Sets](Working-with-Data-Collector-Sets.md)  
 
-<!-- remove temporarily until we determine support for this  For information about System Center Operations Manager, see [Microsoft Dynamics NAV  Management Pack for System Center Operations Manager](http://go.microsoft.com/fwlink/?LinkID=722863).-->
+<!-- remove temporarily until we determine support for this  For information about System Center Operations Manager, see [Microsoft Dynamics NAV  Management Pack for System Center Operations Manager](https://go.microsoft.com/fwlink/?LinkID=722863).-->

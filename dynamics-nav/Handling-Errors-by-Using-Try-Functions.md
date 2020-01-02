@@ -88,7 +88,7 @@ ERROR('An error occurred during the operation.');
 When you run the codeunit, instead of stopping the execution of the `OnRun`trigger when the error occurs, the error is caught and the message `Something went wrong.` is returned.
 
 ## Example 2 
-The following example illustrates how to use a try function with .NET interoperabilty. The example uses the [System.Decimal.Divide method](https://msdn.microsoft.com/en-us/library/system.decimal.divide(v=vs.110).aspx) to divide two decimals. 
+The following example illustrates how to use a try function with .NET interoperabilty. The example uses the [System.Decimal.Divide method](https://msdn.microsoft.com/library/system.decimal.divide(v=vs.110).aspx) to divide two decimals. 
 
 First, create a codeunit that has a local function `MyTryFunction`, and add the following text constants and variables:
 

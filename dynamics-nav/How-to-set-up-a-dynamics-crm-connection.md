@@ -74,7 +74,7 @@ For all authentication types other than Office 365 authentication, you set your 
    </tr>
    <tr>
     <td><strong>Version</strong></td>
-    <td>Specifies the version of Microsoft Dynamics 365 for Sales. For more information about the supported versions, see <a href="http://go.microsoft.com/fwlink/?LinkID=317819" data-raw-source="[Microsoft Dynamics NAV System Requirements](http://go.microsoft.com/fwlink/?LinkID=317819)">Microsoft Dynamics NAV System Requirements</a>.</td>
+    <td>Specifies the version of Microsoft Dynamics 365 for Sales. For more information about the supported versions, see <a href="https://go.microsoft.com/fwlink/?LinkID=317819" data-raw-source="[Microsoft Dynamics NAV System Requirements](https://go.microsoft.com/fwlink/?LinkID=317819)">Microsoft Dynamics NAV System Requirements</a>.</td>
    </tr>
    <tr>
     <td><strong>Dynamics 365 for Sales Connection User is Integration User</strong></td>

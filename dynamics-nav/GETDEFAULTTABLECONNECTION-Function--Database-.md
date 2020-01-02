@@ -1,7 +1,7 @@
 ---
 title: "GETDEFAULTTABLECONNECTION Function (Database)"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 01/02/2020
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,7 +16,7 @@ Gets the default table connection based on the specified connection type. You mu
 ## Syntax  
   
 ```  
-Name:= GETDEFAULTCONNECTIONTYPE(Type)  
+Name:= GETDEFAULTTABLECONNECTION(Type)  
 ```  
   
 #### Parameters  

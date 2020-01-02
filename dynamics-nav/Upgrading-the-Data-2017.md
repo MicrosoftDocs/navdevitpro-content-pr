@@ -40,8 +40,8 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 
    |  Version  |  FOB  |  Remarks  |
    |-----------|-------|-----------|
-   |[!INCLUDE[nav7long](includes/nav7long_md.md)]|Upgrade7001100.FOB|This file can be found on the [!INCLUDE[nav2017](includes/nav2017.md)] [Cumulative Update 15 installation media (DVD)](https://support.microsoft.com/en-us/help/4078579/cumulative-update-15-for-microsoft-dynamics-nav-2017-build-20333?preview). It is not available with later cumulative updates.|
-   |[!INCLUDE[navsicily](includes/navsicily_md.md)]|Upgrade7101100.FOB and Upgrade710HF1100.FOB|This file can be found on the [!INCLUDE[nav2017](includes/nav2017.md)] [Cumulative Update 15 installation media (DVD)](https://support.microsoft.com/en-us/help/4078579/cumulative-update-15-for-microsoft-dynamics-nav-2017-build-20333?preview). It is not available with later cumulative updates.|
+   |[!INCLUDE[nav7long](includes/nav7long_md.md)]|Upgrade7001100.FOB|This file can be found on the [!INCLUDE[nav2017](includes/nav2017.md)] [Cumulative Update 15 installation media (DVD)](https://support.microsoft.com/help/4078579/cumulative-update-15-for-microsoft-dynamics-nav-2017-build-20333?preview). It is not available with later cumulative updates.|
+   |[!INCLUDE[navsicily](includes/navsicily_md.md)]|Upgrade7101100.FOB and Upgrade710HF1100.FOB|This file can be found on the [!INCLUDE[nav2017](includes/nav2017.md)] [Cumulative Update 15 installation media (DVD)](https://support.microsoft.com/help/4078579/cumulative-update-15-for-microsoft-dynamics-nav-2017-build-20333?preview). It is not available with later cumulative updates.|
    | [!INCLUDE[navcrete](includes/navcrete_md.md)]| Upgrade8001100.FOB||
    | [!INCLUDE[navcorfu](includes/navcorfu_md.md)]| Upgrade9001100.FOB||
    
@@ -82,7 +82,7 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 ##  <a name="SQLBackup"></a> Task 2: Create a full SQL backup of the old database on SQL Server  
  You must create a full backup of the old database in the SQL Server. Alternatively, you can make a copy of the old database and perform the upgrade tasks on the copy.  
 
- For more information, see [Create a Full Database Backup \(SQL Server\)](http://msdn.microsoft.com/en-us/library/ms187510.aspx).  
+ For more information, see [Create a Full Database Backup \(SQL Server\)](https://msdn.microsoft.com/library/ms187510.aspx).  
 
 ##  <a name="UploadLicense"></a> Task 3: Upload the [!INCLUDE[nav2017](includes/nav2017.md)] license to the old database  
 By using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] that matches the old database, upload the [!INCLUDE[nav2017](includes/nav2017.md)] license to the database.

@@ -358,11 +358,11 @@
 ## [Upgrading the Application Code](Upgrading-the-Application-Code.md)
 ## [Upgrading the Data](Upgrading-the-Data.md)
 ## [Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md)
-# [Windows PowerShell Cmdlets](https://docs.microsoft.com/en-us/powershell/dynamics-nav/overview)
-## [Administration Cmdlets](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management)
-## [Administration Cmdlets for Extensions](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management)
-## [Development Cmdlets](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.model.tools)
-## [Development Cmdlets for Extensions](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.tools)
+# [Windows PowerShell Cmdlets](https://docs.microsoft.com/powershell/dynamics-nav/overview)
+## [Administration Cmdlets](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management)
+## [Administration Cmdlets for Extensions](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.apps.management)
+## [Development Cmdlets](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.model.tools)
+## [Development Cmdlets for Extensions](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.apps.tools)
 <!-- Business Central API starts, has its own TOC so commenting out for now-->
 # [Business Central API Reference](api-reference/v1.0/index.md)
 <!--

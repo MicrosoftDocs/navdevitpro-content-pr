@@ -109,14 +109,14 @@ You publish a function as a Web service action by using the [!INCLUDE[nav_dev_lo
 6.  Choose the **OK** button.
 
 ## Verifying the Web Service Availability 
-After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for OData V4 web services is 7048. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](https://msdn.microsoft.com/en-us/library/hh165851(v=nav.90).aspx).
+After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for OData V4 web services is 7048. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](https://msdn.microsoft.com/library/hh165851(v=nav.90).aspx).
 
 ### To verify availability of a Microsoft Dynamics NAV Web service action
 
 1.  Start **Postman** or another tool that can execute a POST command against the web service URI.
 2.  In the **Address** field, enter a URI in this format:
     ```
-    http://<Server>:<WebServicePort>/ODataV4/Company('CRONUS%20International%20Ltd.')/SalesInvoice(<Document Type>,<No.>)/NAV.Copy
+    https://<Server>:<WebServicePort>/ODataV4/Company('CRONUS%20International%20Ltd.')/SalesInvoice(<Document Type>,<No.>)/NAV.Copy
     ```
      - `<Server>` is the name of the computer that is running Microsoft Dynamics NAV Server.
     - `<WebServicePort>` is the port that OData V4 is running on. The default port is 7048.
@@ -126,12 +126,12 @@ After publishing a web service, verify that the port that web service applicatio
 
      For example, if the default Microsoft Dynamics NAV Server is running on your local computer, and you want to copy the invoice that has the number 103004, use the following URI:
     ```
-    http://localhost:7048/DynamicsNAV110/ODataV4/Company('CRONUS%20International%20Ltd.')/SalesInvoice('Invoice', '103004')/NAV.Copy
+    https://localhost:7048/DynamicsNAV110/ODataV4/Company('CRONUS%20International%20Ltd.')/SalesInvoice('Invoice', '103004')/NAV.Copy
     ```
-   <!--`http://<Server>:<WebServicePort>/<ServerInstance>/api/beta/companies(<companyid>)/salesInvoices(<invoiceid>)/Microsoft.NAV.Copy)`.
+   <!--`https://<Server>:<WebServicePort>/<ServerInstance>/api/beta/companies(<companyid>)/salesInvoices(<invoiceid>)/Microsoft.NAV.Copy)`.
 
     Example if the default Microsoft Dynamics NAV Server is running on your local computer:<!--
-    `http://localhost:7047/DynamicsNAV/api/beta/companies(b9248a6e-966d-478c-a25d-d91d28610397)/salesInvoices(8cc52602-3aa4-4256-b2c7-fdfef5248cbf)/Microsoft.NAV.Copy)`
+    `https://localhost:7047/DynamicsNAV/api/beta/companies(b9248a6e-966d-478c-a25d-d91d28610397)/salesInvoices(8cc52602-3aa4-4256-b2c7-fdfef5248cbf)/Microsoft.NAV.Copy)`
     -->
 3. Postman should now show the Web service function that you have published, and perform the action of copying an invoice. 
 
@@ -170,7 +170,7 @@ After publishing a web service, verify that the port that web service applicatio
 
 8. You can now issue a post request on the URI to the **Example** function, for example, by using the following URI:
    ```
-   http://localhost:7048/DynamicsNAV110/ODataV4/Company('CRONUS%20International%20Ltd.')/SalesInvoice('Invoice', '103004')/NAV.Example
+   https://localhost:7048/DynamicsNAV110/ODataV4/Company('CRONUS%20International%20Ltd.')/SalesInvoice('Invoice', '103004')/NAV.Example
    ```
     
    And using the following code as the JSON body:
@@ -182,7 +182,7 @@ After publishing a web service, verify that the port that web service applicatio
 9. The returned value will be returned in the body of the message.  
    ```
    {
-       "@odata.context": "http://localhost:7048/DynamicsNAV110/ODataV4/$metadata#Edm.String",
+       "@odata.context": "https://localhost:7048/DynamicsNAV110/ODataV4/$metadata#Edm.String",
        "value": "Hello World Completed"
    }
    ```

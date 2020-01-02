@@ -24,7 +24,7 @@ Type: Text
 
 Specifies the time zone property in the SessionsSettings object.
 
-The value must be a valid Windows time zone name, such as **UTC** or **Pacific Standard Time**. For a list of Windows time zones, see [Time Zone IDs](https://msdn.microsoft.com/en-us/library/gg154758.aspx).
+The value must be a valid Windows time zone name, such as **UTC** or **Pacific Standard Time**. For a list of Windows time zones, see [Time Zone IDs](https://msdn.microsoft.com/library/gg154758.aspx).
 
 The available time zones are defined in your computer's system registry under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones.
 
