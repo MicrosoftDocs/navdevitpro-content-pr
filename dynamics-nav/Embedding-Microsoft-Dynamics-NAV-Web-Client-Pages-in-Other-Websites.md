@@ -23,7 +23,7 @@ You can do this by adding an iframe element on the embedding website, such as: `
 >  Certain data in the URL, such as company name, could be considered sensitive information. Use discretion if you distribute URLs that contain the company name, or if it is possible, exclude this information from the address.
 
 > [!IMPORTANT]  
->  Upcoming releases of some browsers, such as Google Chrome 80 and Microsoft Edge, will include changes to how cookies are handled. To ensure that the embedded web client works with these browser versions, make sure that the Dynamics NAV platform has been upgraded to a recommended update version as described in [Preparing Dynamics NAV or Dynamics 365 Business Central for Upcoming Changes to Browser Cookie Policy](/dynamics365/business-central/dev-itpro/administration/prepare-for-chrome-samesite).
+>  Upcoming releases of some browsers, such as Google Chrome 80 and Microsoft Edge, will include changes to how cookies are handled. To ensure that the embedded web client works with these browser versions, make sure that the Dynamics NAV platform has been upgraded to a recommended update version as described in [Preparing Dynamics NAV or Dynamics 365 Business Central for Upcoming Changes to Browser Cookie Policy](/dynamics365/business-central/dev-itpro/administration/prepare-for-cookie-samesite-policy).
 
 ## Example  
  The following URL displays page 22 Customers for the CRONUS International Ltd. Company. The page is displayed in a [!INCLUDE[nav_web](includes/nav_web_md.md)] that is running on a computer that has the name MyWebServer. The page is displayed without the ribbon, the navigation pane, and any UI parts.  
