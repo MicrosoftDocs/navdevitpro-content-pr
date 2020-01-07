@@ -1,7 +1,7 @@
 ---
 title: "TASKEXISTS Function"
 ms.custom: na
-ms.date: 22/11/2017
+ms.date: 11/22/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
