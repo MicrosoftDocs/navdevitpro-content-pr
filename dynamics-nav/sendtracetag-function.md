@@ -1,7 +1,7 @@
 ---
 title: "SENDTRACETAG Function"
 ms.custom: na
-ms.date: 27/11/2017
+ms.date: 11/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

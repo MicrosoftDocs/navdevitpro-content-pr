@@ -1,7 +1,7 @@
 ---
 title: "Resolving OnBeforeTestRun and OnAfterTestRun Trigger Errors When Converting a Database"
 ms.custom: na
-ms.date: 20/03/2017
+ms.date: 03/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
