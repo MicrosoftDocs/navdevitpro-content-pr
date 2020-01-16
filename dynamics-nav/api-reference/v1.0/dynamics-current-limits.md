@@ -48,7 +48,7 @@ The maximum amount of time that allocated to a single OData or SOAP request. HTT
 
 ## Request Size
 
-The maximum size of the OData or SOAP request. HTTP response code `413: Request Entity Too Larg` is returned if limits are exceeded.
+The maximum size of the OData or SOAP request. HTTP response code `413: Request Entity Too Large` is returned if limits are exceeded.
 
 |OData|SOAP|
 |-----|----| 
