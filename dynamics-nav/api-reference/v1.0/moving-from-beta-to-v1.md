@@ -40,13 +40,13 @@ Comparing [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] **beta*
 For a full comparison of API versions, compare the metadata of the APIs. Using OAuth, tenant ID is not needed in the URI when querying:
 
 ```json 
-GET https://api.businesscentral.dynamics.com/v1.0/api/beta/$metadata
-GET https://api.businesscentral.dynamics.com/v1.0/api/v1.0/$metadata
+GET https://api.businesscentral.dynamics.com/v2.0/{environment}/api/beta/$metadata
+GET https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v1.0/$metadata
 ```
 Using Basic Auth:
 
 ```json 
-GET https://api.businesscentral.dynamics.com/v1.0/{tenant Id}/api/v1.0/$metadata
+GET https://api.businesscentral.dynamics.com/v2.0/{tenant Id}/{environment}/api/v1.0/$metadata
 ```
 ## See Also
 [Welcome to the API(v1.0) for Dynamics 365 Business Central](index.md)  
