@@ -20,7 +20,7 @@ ms.author: solsen
 Once you have the API access enabled, you can write code that integrates your web service or SaaS solution with [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. Creating your integration through an API provides simple access to the supported functionality in a single endpoint, giving you a simplified experience for creating a single app with integrations across multiple Microsoft products.
 
 > [!IMPORTANT]  
-> With the introduction of multiple endpoints, the name of the environment needs to go into the URI. To get the environments deployed on the tenant, call:
+> With the introduction of multiple endpoints, the name of the environment being connected to, needs to go into the URI. To retrieve a list of environments deployed on the tenant, call:
 `GET https://api.businesscentral.dynamics.com/environments/v1.0/`.
 
 
