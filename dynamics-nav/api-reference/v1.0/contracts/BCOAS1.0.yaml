@@ -13623,7 +13623,7 @@ components:
       description: The currencyCode property for the Dynamics 365 Business Central companyInformation entity
     currentFiscalYearStartDate:
       type: string
-      format: date-time
+      format: date
       nullable: true
       description: The currentFiscalYearStartDate property for the Dynamics 365 Business Central companyInformation entity
     industry:
@@ -16272,7 +16272,7 @@ components:
          description: The currencyCode property for the Dynamics 365 Business Central companyInformation entity
        currentFiscalYearStartDate:
          type: string
-         format: date-time
+         format: date
          nullable: true
          description: The currentFiscalYearStartDate property for the Dynamics 365 Business Central companyInformation entity
        industry:
