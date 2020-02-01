@@ -10605,11 +10605,16 @@ components:
       nullable: true
       description: The contentType property for the Dynamics 365 Business Central picture entity
       maxLength: 100
-    content:
+    content@odata.mediaEditLink:
       type: string
-      format: binary
+      format: uri
       nullable: true
-      description: The content property for the Dynamics 365 Business Central picture entity
+      description: The content@odata.mediaEditLink property for the Dynamics 365 Business Central picture entity
+    content@odata.mediaReadLink:
+      type: string
+      format: uri
+      nullable: true
+      description: The content@odata.mediaReadLink property for the Dynamics 365 Business Central picture entity
   salesInvoiceLine:
    type: object
    properties:
