@@ -366,7 +366,7 @@
 <!-- Business Central API starts, has its own TOC so commenting out for now-->
 # [Business Central API Reference](api-reference/v1.0/index.md)
 <!--
-## [Enabling the APIs for Microsoft Dynamics NAV](enabling-apis-for-dynamics-nav.md)
+## [Enabling the APIs for Dynamics 365 Business Central](enabling-apis-for-dynamics-nav.md)
 ## [Endpoints for the APIs](endpoints-apis-for-dynamics.md)
 ## [Working with Webhooks](fin-graph/dynamics_subscriptions.md)
 ## [Error Codes](fin-graph/dynamics_error_codes.md)
