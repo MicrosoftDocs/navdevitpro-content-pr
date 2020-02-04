@@ -17,7 +17,7 @@ ms.author: solsen
 Represents a method of shipment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)], such as UPS, Fedex, and DHL.
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
