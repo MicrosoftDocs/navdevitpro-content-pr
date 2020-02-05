@@ -1,5 +1,7 @@
-# [Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV](index.md)
+# Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV
+## [Welcome to the Developer and IT-Pro Help](index.md)
 ## [Getting Started](Getting-Started.md)
+## [Resources for Help and Support](help-and-support.md)
 ## [Touring the RoleTailored Client for Developers](Touring-the-RoleTailored-Client-for-Developers.md)
 ## [Legal Artefacts for Dynamics NAV](terms/legal.md)
 ## [System Requirements for Microsoft Dynamics NAV 2018](System-Requirements-for-Microsoft-Dynamics-NAV.md)
