@@ -36,7 +36,7 @@ At the bottom of each article, you can submit feedback either for the product or
 
 [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md)  
 [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)  
-[Resources for Help and Support](help-and-support.md)
+[Resources for Help and Support](help-and-support.md)  
 [Accessibility](Accessibility.md)  
 [Terms of Use](terms/legal.md)  
 [Developer and IT-Pro Help for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/)  

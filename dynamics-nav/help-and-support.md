@@ -27,7 +27,7 @@ The functionality in the default version of [!INCLUDE [navnow_md](includes/navno
 
 ### Customize and extend the user assistance
 
-Users have access to tooltips that can help them get unblocked, and context-sensitive links to learn more according to the [!INCLUDE [navnow_md](includes/navnow_md.md)] user assistance model. If you customize or extend [!INCLUDE [navnow_md](includes/navnow_md.md)], you are expected to also customize the user assistance so that users will have access to content that can help them get started, get unblocked, and learn more. For more information, see [User Assistance Model](user-assistance.md) for [!INCLUDE [d365_bus_central_md](developer/includes/d365_bus_central_md.md)].  
+Users have access to tooltips that can help them get unblocked, and context-sensitive links to learn more according to the [!INCLUDE [navnow_md](includes/navnow_md.md)] user assistance model. If you customize or extend [!INCLUDE [navnow_md](includes/navnow_md.md)], you are expected to also customize the user assistance so that users will have access to content that can help them get started, get unblocked, and learn more. For more information, see [User Assistance Model](/dynamics365/business-central/dev-itpro/user-assistance) for [!INCLUDE [d365_bus_central_md](developer/includes/d365_bus_central_md.md)].  
 
 ### Product versions and Help versions
 
@@ -37,7 +37,16 @@ If you support [!INCLUDE [navnow_md](includes/navnow_md.md)] customers, your sol
 
 ## Support
 
-As a [!INCLUDE [navnow_md](includes/navnow_md.md)] reselling partner, you are the first line of support. 
+As a [!INCLUDE [navnow_md](includes/navnow_md.md)] reselling partner, you are the first line of support.  
+
+### Summary of where to file bugs and issues
+
+As a partner, you have different support channels depending on what type of issue you want support for.  
+
+|Issue type             |Site               |
+|-----------------------|-------------------|
+|Report bug in supported in-market versions of [!INCLUDE [navnow_md](includes/navnow_md.md)]|The [Support for business](https://support.microsoft.com/supportforbusiness/productselection?sapId=dea12e4a-4dd3-35e1-2577-45df252a2b9cf) site|
+|Collaboration on the AL language and developer experience|The [AL Developer Preview](https://github.com/microsoft/al) GitHub repo|
 
 ## Resources
 
@@ -57,15 +66,6 @@ The Dynamics 365 blog is where Microsoft publishes announcements, updates, and t
 On the [Dynamics NAV Community site](https://community.dynamics.com/nav), you have access to the [Dynamics NAV Forum](https://community.dynamics.com/nav/f/microsoft-dynamics-nav-forum). You can use this forum to submit a question and learn from other community members. MVPs, partners, and Microsoft employees participate in the conversations.
 
 You can also join the [BCUG/NAVUG User Group for Dynamics 365 Business Central and Dynamics NAV](https://www.navug.com/home), which is a user-led, user-driven community of more than 26,000 users, partners, and MVPs.  
-
-### Summary of where to file bugs and issues
-
-As a partner, you have different support channels depending on what type of issue you want support for.  
-
-|Issue type             |Site               |
-|-----------------------|-------------------|
-|Report bug in supported in-market versions of [!INCLUDE [navnow_md](includes/navnow_md.md)]|The [Support for business](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=dea12e4a-4dd3-35e1-2577-45df252a2b9cf) site|
-|Collaboration on the AL language and developer experience|The [AL Developer Preview](https://github.com/microsoft/al) GitHub repo|
 
 ## See also
 
