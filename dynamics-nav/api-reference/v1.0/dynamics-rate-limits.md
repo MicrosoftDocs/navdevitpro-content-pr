@@ -12,12 +12,12 @@ ms.prod: "dynamics-nav-2018"
 ms.author: solsen
 ---
 
-# API Limits in Dynamics 365 Business Central
+# Working with API limits in Dynamics 365 Business Central
+
 Large scale cloud services use shared resources to achieve the best possible utilization of resources – like IO, CPU, and memory. To ensure that all tenants are running smoothly, on shared resources, rate limits are applied. Without limits, one tenant might be using most resources, while other tenants running on the same resources might experience slower performance – one tenant can become a ‘noisy neighbor’.  
 
 Dynamics 365 Business Central has a rich and flexible Web service platform, made to support a wide range of integration scenarios. Some require fast access to few data and others require lots of data for reporting purposes.
 
-## Working with API limits 
 Rate limits are introduced to ensure that no single client consumes too many resources and becomes the noisy neighbor. If calling clients receives an HTTP Status Code `429 - Too Many Requests` from Dynamics 365 Business Central, the API request limits are exceeded. In these cases, the client will need to handle this.
  
 > [!IMPORTANT]  
@@ -47,7 +47,7 @@ There are several areas to consider, which can reduce the amount of calls from a
     GET /companies({{companyId}})/salesOrders?$filter=orderDate ge 2019-05-01&$expand=paymentTerm,salesOrderLines($expand=account,item($expand=itemCategory)) 
     ```
 
-6. Use deep inserts when possible. Body of the `POST` request can contain nested entities. Metadata will contain a Navigational property from one entity to another, where deep insert is possible. 
+6. Use deep inserts when possible. Body of the `POST` request can contain nested entities. Metadata will contain a Navigational property from one entity to another, where deep insert is possible.
     ```
     POST /companies({{companyId}})/salesQuotes 
     { 
@@ -55,24 +55,12 @@ There are several areas to consider, which can reduce the amount of calls from a
         "salesQuoteLines" :  [ 
         {"itemId": "{{itemId}}", "quantity": 10} ] 
     }
-   ``` 
+   ```
+
     Deep insert can also be performed in Batch calls.
 
-## Current limits  
-Limits are subject to change, following the [Microsoft API Terms of Use](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use).
-
-### API Rate limits
-HTTP response code `429 - Too Many Requests` is returned if limits are exceeded. 
-
-|              |OData|SOAP|
-|--------------|-----|----| 
-|**Sandbox**   |300 req/min|300 req/min|
-|**Production**|600 req/min|600 req/min|
-
-### Request time out
-HTTP repsonse code `504 - Gateway Timeout` is returned when a request exceeds 10 minutes execution time.
-
 ## See Also
+[Current API Limits](dynamics-current-limits.md)  
 [Best practices on transient errors](https://docs.microsoft.com/azure/architecture/best-practices/transient-faults)  
 [Using OData Batch request](https://docs.microsoft.com/openspecs/windows_protocols/ms-odata/dd99aa5c-d81e-4eac-9e07-039491356bf6)  
 [Microsoft API Terms of Use](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use)

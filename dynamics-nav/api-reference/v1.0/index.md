@@ -17,11 +17,11 @@ With [!INCLUDE[d365fin](../includes/d365fin_md.md)] you can create Connect apps.
 Before you start using the Business Central APIs, please familiarize yourself with the [Microsoft APIs Terms of Use](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use).
 
 > [!TIP]  
-> For information about enabling APIs for [!INCLUDE[navnow](../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](enabling-apis-for-dynamics-nav.md).
 
 ## See Also
 [Microsoft APIs Terms of Use](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use)
-[Enabling the APIs for Microsoft Dynamics NAV](enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](enabling-apis-for-dynamics-nav.md)  
 [Development in AL](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
 [Developing Connect Apps for Dynamics 365 Business Central](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
 [OpenAPI Specification](dynamics-open-api.md)  
