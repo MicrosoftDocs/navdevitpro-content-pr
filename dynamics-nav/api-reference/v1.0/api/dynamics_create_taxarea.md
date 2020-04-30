@@ -1,11 +1,10 @@
 ---
 title: Create taxAreas | Microsoft Docs
 description: Creates a tax area object in Dynamics for Financials. 
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -67,6 +66,7 @@ Content-type: application/json
 ```
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Tax Area](../resources/dynamics_taxarea.md)  
 [Get Tax Area](../api/dynamics_taxarea_get.md)  

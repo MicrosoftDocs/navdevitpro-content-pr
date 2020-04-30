@@ -1,11 +1,10 @@
 ---
 title: Delete journalLines | Microsoft Docs
 description: Deletes a journal line in Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -57,6 +56,7 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Journal Line](../resources/dynamics_journalline.md)  
 [Get Journal Line](../api/dynamics_journalline_get.md)  

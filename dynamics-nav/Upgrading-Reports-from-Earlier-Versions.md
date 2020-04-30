@@ -17,7 +17,7 @@ If you want to use reports from earlier versions of [!INCLUDE[navnow](includes/n
  Typically, upgrading reports is part of upgrading the [!INCLUDE[navnow](includes/navnow_md.md)] application. However, you can also import reports from .txt files or .fob files.  
   
 > [!IMPORTANT]  
->  You cannot import reports from versions earlier than [!INCLUDE[nav7long](includes/nav7long_md.md)] into [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. If you want to import a [!INCLUDE[nav2009](includes/nav2009_md.md)] report, you must first upgrade the report to [!INCLUDE[nav7long](includes/nav7long_md.md)], and then import it into [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. For more information, see [How to: Upgrade Reports](http://go.microsoft.com/fwlink/?LinkId=276767) in the MSDN Library for [!INCLUDE[nav7long](includes/nav7long_md.md)].  
+>  You cannot import reports from versions earlier than [!INCLUDE[nav7long](includes/nav7long_md.md)] into [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. If you want to import a [!INCLUDE[nav2009](includes/nav2009_md.md)] report, you must first upgrade the report to [!INCLUDE[nav7long](includes/nav7long_md.md)], and then import it into [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. For more information, see [How to: Upgrade Reports](https://go.microsoft.com/fwlink/?LinkId=276767) in the MSDN Library for [!INCLUDE[nav7long](includes/nav7long_md.md)].  
   
  This topic provides an overview of suggested options to upgrade reports from [!INCLUDE[nav7long](includes/nav7long_md.md)] to [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
   

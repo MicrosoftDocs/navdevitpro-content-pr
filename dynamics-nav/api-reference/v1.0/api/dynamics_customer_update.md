@@ -1,11 +1,10 @@
 ---
 title: Update customers | Microsoft Docs
 description: Updates a customer object in Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -105,6 +104,7 @@ Content-type: application/json
 
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 
 

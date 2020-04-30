@@ -3,7 +3,7 @@ title: defaultDimensions resource type | Microsoft Docs
 description: A defaultDimensions in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -16,7 +16,7 @@ ms.author: solsen
 Represents a dimension in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 

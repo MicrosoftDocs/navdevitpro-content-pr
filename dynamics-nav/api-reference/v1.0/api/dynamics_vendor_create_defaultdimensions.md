@@ -1,11 +1,10 @@
 ---
 title: Create vendor defaultDimensions | Microsoft Docs
 description: Creates a default dimensions of the vendor object in Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -62,7 +61,7 @@ POST https://{businesscentralPrefix}/api/v1.0/companies({companyId})/vendors({ve
 
 ```json
 {
-    "@odata.context":"http://api.businesscentral.dynamics.com/v1.0/api/v1.0/$metadata#companies(5106c77d-af37-4e2d-bb88-45d87aba1033)/vendors(b3fbe87a-61b8-4a6c-85de-0555f1627a67)/defaultDimensions",
+    "@odata.context":"https://api.businesscentral.dynamics.com/v1.0/api/v1.0/$metadata#companies(5106c77d-af37-4e2d-bb88-45d87aba1033)/vendors(b3fbe87a-61b8-4a6c-85de-0555f1627a67)/defaultDimensions",
     "value":
     [
         {
@@ -78,7 +77,8 @@ POST https://{businesscentralPrefix}/api/v1.0/companies({companyId})/vendors({ve
 }
 ```
 
-## See Also  
+## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 
 [Vendor](../resources/dynamics_vendor.md)  
 [Get vendor defaultDimensions](dynamics_vendor_get_defaultdimensions.md)  

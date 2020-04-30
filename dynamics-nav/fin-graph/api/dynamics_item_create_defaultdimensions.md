@@ -63,7 +63,7 @@ POST https://{businesscentralPrefix}/api/beta/companies({companyId})/items({item
 
 ```json
 {
-    "@odata.context":"http://api.businesscentral.dynamics.com/v1.0/api/beta/$metadata#companies(5106c77d-af37-4e2d-bb88-45d87aba1033)/items(b3fbe87a-61b8-4a6c-85de-0555f1627a67)/defaultDimensions",
+    "@odata.context":"https://api.businesscentral.dynamics.com/v1.0/api/beta/$metadata#companies(5106c77d-af37-4e2d-bb88-45d87aba1033)/items(b3fbe87a-61b8-4a6c-85de-0555f1627a67)/defaultDimensions",
     "value":
     [
         {
@@ -79,10 +79,11 @@ POST https://{businesscentralPrefix}/api/beta/companies({companyId})/items({item
 }
 ```
 
-## See Also  
+## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Item](../resources/dynamics_item.md)  

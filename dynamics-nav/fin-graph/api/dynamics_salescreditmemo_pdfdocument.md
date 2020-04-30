@@ -59,13 +59,13 @@ Here is an example of the response.
 ```json
 {
 
-    "@odata.context":"http://api.businesscentral.dynamics.com/v1.0/api/beta/$metadata#companies('CRONUS%20International%20Ltd.')/salesCreditMemos(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument",
+    "@odata.context":"https://api.businesscentral.dynamics.com/v1.0/api/beta/$metadata#companies('CRONUS%20International%20Ltd.')/salesCreditMemos(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument",
     "value":
     [
         {
             "@odata.etag":"W/\"JzQ0O0tQNUdjaUtZcU8rcUNCQTdXOUxIZVEwalA0clhjSmlXU1pqWjQ4RFczd2s9MTswMDsn\"",
             "id":"94913756-80e9-47bc-995a-048a655b8cdd",
-            "content@odata.mediaReadLink":"http:// api.businesscentral.dynamics.com/v1.0/pi/beta/companies(name='CRONUS%20International%20Ltd.')/salesCreditMemos(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument(94913756-80e9-47bc-995a-048a655b8cdd)/content"
+            "content@odata.mediaReadLink":"https:// api.businesscentral.dynamics.com/v1.0/pi/beta/companies(name='CRONUS%20International%20Ltd.')/salesCreditMemos(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument(94913756-80e9-47bc-995a-048a655b8cdd)/content"
         }
     ]
 }
@@ -104,6 +104,7 @@ GET https://{businesscentralPrefix}/api/beta/companies({companyid})/salesCreditM
 The PDF document in binary format.
 
 ## See also
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  

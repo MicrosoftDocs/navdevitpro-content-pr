@@ -35,24 +35,24 @@ There are different ways to configure the [!INCLUDE[nav_web_server](includes/nav
      <th>Description</th>
      </tr>
      <tr>
-     <td><a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/Get-NAVWebServerInstance" data-raw-source="[Get-NAVWebServerInstance](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/Get-NAVWebServerInstance)">Get-NAVWebServerInstance</a></td>
+     <td><a href="https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/Get-NAVWebServerInstance" data-raw-source="[Get-NAVWebServerInstance](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/Get-NAVWebServerInstance)">Get-NAVWebServerInstance</a></td>
      <td>Gets the information about the instances that are registered on a computer.</td>
      </tr>
-     <td><a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/New-NAVWebServerInstance" data-raw-source="[New-NAVWebServerInstance](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/New-NAVWebServerInstance)">New-NAVWebServerInstance</a></td>
+     <td><a href="https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/New-NAVWebServerInstance" data-raw-source="[New-NAVWebServerInstance](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/New-NAVWebServerInstance)">New-NAVWebServerInstance</a></td>
      <td>Creates a new web server instance and binds this instance to a DynamicsNAV110 instance.</td>
      </tr>
      <tr>
     </tr>
-     <td><a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/Remove-NAVWebServerInstance" data-raw-source="[Remove-NAVWebServerInstance](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/Remove-NAVWebServerInstance)">Remove-NAVWebServerInstance</a></td>
+     <td><a href="https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/Remove-NAVWebServerInstance" data-raw-source="[Remove-NAVWebServerInstance](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/Remove-NAVWebServerInstance)">Remove-NAVWebServerInstance</a></td>
      <td>Removes an existing instance.</td>
      </tr>
     </tr>
-     <td><a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/Set-NAVWebServerInstanceConfiguration" data-raw-source="[Set-NAVWebServerInstanceConfiguration](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/Set-NAVWebServerInstanceConfiguration)">Set-NAVWebServerInstanceConfiguration</a></td>
+     <td><a href="https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/Set-NAVWebServerInstanceConfiguration" data-raw-source="[Set-NAVWebServerInstanceConfiguration](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/Set-NAVWebServerInstanceConfiguration)">Set-NAVWebServerInstanceConfiguration</a></td>
      <td>Specifies configuration values for a named web server instance. You can use this cmdlet to configure all the settings in the  </td>
      </tr>
      </table>  
 
-     For more information, see [Microsoft.Dynamics.Nav.Management Module](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management)
+     For more information, see [Microsoft.Dynamics.Nav.Management Module](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management)
 
 ## Typical Tasks
 

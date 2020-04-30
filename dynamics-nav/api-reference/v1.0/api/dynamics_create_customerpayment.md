@@ -4,7 +4,7 @@ description: Creates a customer payment object in Dynamics 365 Business Central.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ Creates a customer payment object in [!INCLUDE[d365fin_long_md](../../includes/d
 ## HTTP request
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 ```
-POST businesscentralPrefix/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
+POST businesscentralPrefix/companies({id})/customerPaymentJournals({id})/customerPayment({id})
 ```
 
 ## Request headers
@@ -30,10 +30,10 @@ POST businesscentralPrefix/companies({id})/customerPaymentsJournals({id})/custom
 |Content-Type  |application/json         |
 
 ## Request body
-In the request body, supply a JSON representation of **customerPayments** object.
+In the request body, supply a JSON representation of **customerPayment** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a **customerPayments** object in the response body.
+If successful, this method returns ```201 Created``` response code and a **customerPayment** object in the response body.
 
 ## Example
 
@@ -85,6 +85,7 @@ Content-type: application/json
 ```
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
   
 [Customer Payments](../resources/dynamics_customerpayment.md)  
 [Get Customer Payments](dynamics_customerpayment_get.md)  

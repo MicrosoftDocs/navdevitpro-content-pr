@@ -1,11 +1,10 @@
 ---
 title: Microsoft Graph Reference | Microsoft Docs
 description: API documentation for integration with Microsoft Graph
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -56,3 +55,4 @@ In this section, you can find API documentation for Microsoft Graph.
 |complex types JSON|[Complex Types JSON](../resources/dynamics_complextypes.md)|
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  

@@ -19,7 +19,7 @@ ROBOTS: NOINDEX
 Represents a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -43,7 +43,7 @@ Represents a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 The journal resource type offers a bound action called `post` which posts the corresponding general journal batch.
 
 Posting the general journal batch is illustrated in the following example:  
-`POST http://<server address>:<server API port>/<server instance name>/api/beta/companies({id})/journals({id})/Microsoft.NAV.post`.
+`POST https://<server address>:<server API port>/<server instance name>/api/beta/companies({id})/journals({id})/Microsoft.NAV.post`.
 
 The response has no content; the response code is 204.
 
@@ -64,7 +64,7 @@ Here is a JSON representation of the resource.
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Get Journal](../api/dynamics_journal_get.md)  

@@ -116,11 +116,11 @@ By default, the [!INCLUDE[nav_server](includes/nav_server_md.md)] logs contain e
   
 9. Choose the **OK** button.  
   
-   The **Admin** log displays only errors that occurred in the last 24 hours on tenant *Tenant1* and [!INCLUDE[nav_server](includes/nav_server_md.md)] instance *MyNavServerInstance1*. The applied filter can be removed. Alternatively, you can save it as a custom view. For more information about filtering in Event Viewer, see [Filter Displayed Events](http://go.microsoft.com/fwlink/?LinkID=516925) and [Advanced XML filtering in the Windows Event Viewer](http://go.microsoft.com/fwlink/?LinkID=516924).  
+   The **Admin** log displays only errors that occurred in the last 24 hours on tenant *Tenant1* and [!INCLUDE[nav_server](includes/nav_server_md.md)] instance *MyNavServerInstance1*. The applied filter can be removed. Alternatively, you can save it as a custom view. For more information about filtering in Event Viewer, see [Filter Displayed Events](https://go.microsoft.com/fwlink/?LinkID=516925) and [Advanced XML filtering in the Windows Event Viewer](https://go.microsoft.com/fwlink/?LinkID=516924).  
   
 ## See Also  
  [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
  [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)   
  [Monitoring Microsoft Dynamics NAV Server](Monitoring-Microsoft-Dynamics-NAV-Server.md)   
  [Monitoring Microsoft Dynamics NAV Server Using Performance Counters](Monitoring-Microsoft-Dynamics-NAV-Server-Using-Performance-Counters.md)  
- [Windows Event Viewer](http://go.microsoft.com/fwlink/?LinkID=314067)  
+ [Windows Event Viewer](https://go.microsoft.com/fwlink/?LinkID=314067)  

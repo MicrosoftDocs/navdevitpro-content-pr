@@ -22,7 +22,7 @@ Retrieve the properties and relationships of a customer payment journal object f
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-GET businesscentralPrefix/companies({id})/customerPaymentsJournals({id})
+GET businesscentralPrefix/companies({id})/customerPaymentJournals({id})
 ```
 
 ## Request headers
@@ -35,7 +35,7 @@ GET businesscentralPrefix/companies({id})/customerPaymentsJournals({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and a **customerPaymentsJournals** object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **customerPaymentJournals** object in the response body.
 
 ## Example
 
@@ -44,7 +44,7 @@ If successful, this method returns a ```200 OK``` response code and a **customer
 Here is an example of the request.
 
 ```json
-GET https://{businesscentralPrefix}/api/beta/companies({id})/customerPaymentsJournals({id})
+GET https://{businesscentralPrefix}/api/beta/companies({id})/customerPaymentJournals({id})
 ```
 
 **Response**
@@ -64,9 +64,10 @@ Here is an example of the response.
 ```
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 [Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Customer Payments Journal](../resources/dynamics_customerpaymentsjournal.md)  

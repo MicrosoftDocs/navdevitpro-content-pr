@@ -1,11 +1,10 @@
 ---
 title: Get picture | Microsoft Docs
 description: A picture object in Dynamics 365 Business Central. 
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -77,6 +76,7 @@ Body is the raw image data.
 
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 
 

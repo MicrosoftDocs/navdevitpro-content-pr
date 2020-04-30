@@ -1,11 +1,10 @@
 ---
 title: journal resource type | Microsoft Docs
 description: A journal in Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -18,7 +17,7 @@ ms.author: solsen
 Represents a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -42,7 +41,7 @@ Represents a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 The journal resource type offers a bound action called `post` which posts the corresponding general journal batch.
 
 Posting the general journal batch is illustrated in the following example:  
-`POST http://<server address>:<server API port>/<server instance name>/api/v1.0/companies({id})/journals({id})/Microsoft.NAV.post`.
+`POST https://<server address>:<server API port>/<server instance name>/api/v1.0/companies({id})/journals({id})/Microsoft.NAV.post`.
 
 The response has no content; the response code is 204.
 

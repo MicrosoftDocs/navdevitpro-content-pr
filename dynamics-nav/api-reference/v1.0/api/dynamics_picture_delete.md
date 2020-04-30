@@ -1,11 +1,10 @@
 ---
 title: Delete picture | Microsoft Docs
 description: A picture object in Dynamics 365 Business Central. 
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -56,6 +55,7 @@ DELETE https://api.businesscentral.dynamics-tie.com/v1.0/api/v1.0/companies(comp
 No content.
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 
 

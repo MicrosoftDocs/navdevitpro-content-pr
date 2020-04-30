@@ -1,11 +1,10 @@
 ---
 title: Get vendorPurchases | Microsoft Docs
 description: Gets a vendor purchase object in Dynamics 365 Business Central. 
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -63,5 +62,6 @@ Here is an example of the response.
 
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Vendor Purchases](../resources/dynamics_vendorpurchases.md)  

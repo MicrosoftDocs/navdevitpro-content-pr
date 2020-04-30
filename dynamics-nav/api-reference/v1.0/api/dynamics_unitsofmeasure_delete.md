@@ -1,11 +1,10 @@
 ---
 title: Delete unitsOfMeasure | Microsoft Docs
 description: Deletes a unit of measure object in Dynamics 365 Business Central. 
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -55,6 +54,7 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Units of Measure](../resources/dynamics_unitsofmeasure.md)  
 [Get Units of Measure](../api/dynamics_unitsofmeasure_get.md)  

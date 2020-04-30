@@ -73,9 +73,9 @@ After publishing a web service, verify that the port that web service applicatio
   
 2. In the **Address** field, enter the Dynamics NAV OData endpoint.
 
-    The endpoint has the format: `http://<Server>:<WebServicePort>/<ServerInstance>/OData`. For example:
+    The endpoint has the format: `https://<Server>:<WebServicePort>/<ServerInstance>/OData`. For example:
   
-    `http://localhost:7048/DynamicsNAV/OData`  
+    `https://localhost:7048/DynamicsNAV/OData`  
   
    - `Server` is the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
@@ -87,7 +87,7 @@ After publishing a web service, verify that the port that web service applicatio
 
       ![Basic AtomPub document for a page](media/BasAtomPub.JPG "BasAtomPub") 
   <!--
-    `{"@odata.context":"http://navdevvm-0399:7048/DynamicsNAV110/ODataV4/$metadata","value":[{"name":"Customer","kind":"EntitySet","url":"Customer"},...`
+    `{"@odata.context":"https://navdevvm-0399:7048/DynamicsNAV110/ODataV4/$metadata","value":[{"name":"Customer","kind":"EntitySet","url":"Customer"},...`
 
  -->
   
@@ -104,7 +104,7 @@ Next, you create a C\# console application in Visual Studio. The console app wil
 ### Add a Service Reference for your OData Web service (Visual Studio 2015 and earlier)
 1. In the Solution Explorer pane, right-click **References**, and then choose **Add Service Reference**.  
   
-2. In the **Address** field, enter the URI for your OData web service, such as **http://localhost:7048/DynamicsNAV/OData/**.  
+2. In the **Address** field, enter the URI for your OData web service, such as **https://localhost:7048/DynamicsNAV/OData/**.  
   
    > [!IMPORTANT]  
    >  In this example, we use the HTTP protocol to illustrate the use of OData web services. We recommend that you use the more secure HTTPS protocol when you consume web services.  
@@ -119,9 +119,9 @@ Next, you create a C\# console application in Visual Studio. The console app wil
 2. On the **Configure Endpoint** page, you can keep the **Service name** of **OData Service** or change it as you like.
 3. In the **Address** field, enter the endpoint URI for your OData web service.
 
-    This is the endpoint that you verified in an earlier step. The endpoint has the format `http://<servercomputer>:<odataport>/<serverinstance>/OData/`, for example:
+    This is the endpoint that you verified in an earlier step. The endpoint has the format `https://<servercomputer>:<odataport>/<serverinstance>/OData/`, for example:
 
-    `http://localhost:7048/DynamicNAV/OData/`
+    `https://localhost:7048/DynamicNAV/OData/`
   
    > [!IMPORTANT]  
    >  In this example, we use the HTTP protocol to illustrate the use of OData web services. We recommend that you use the more secure HTTPS protocol when you consume web services.
@@ -182,26 +182,26 @@ The Simple.OData.Client is a multi-platform OData client library that provides a
 3. In the `Main` method, add the following code to establish the connection to [!INCLUDE[navnow](includes/navnow_md.md)] through the OData web service:  
 
     ```  
-    NAV.NAV nav = new NAV.NAV(new Uri("http://localhost:7048/DynamicsNAV/OData/Company('CRONUS%20International%20Ltd.')"));
+    NAV.NAV nav = new NAV.NAV(new Uri("https://localhost:7048/DynamicsNAV/OData/Company('CRONUS%20International%20Ltd.')"));
     nav.Credentials = System.Net.CredentialCache.DefaultNetworkCredentials; 
     ```  
 
     This implementation will authenticate users on their Windows credentials.
 
-    In the example, the name of the [!INCLUDE[navnow](includes/navnow_md.md)] company that you modify data for is [!INCLUDE[demoname](includes/demoname_md.md)]. You must replace this with the name of the company that you have access to. To find the correct URI, you can paste the following URI into your browser and then see the exact URI that you must use: `http://localhost:7048/DynamicsNAV/OData/Company`.  
+    In the example, the name of the [!INCLUDE[navnow](includes/navnow_md.md)] company that you modify data for is [!INCLUDE[demoname](includes/demoname_md.md)]. You must replace this with the name of the company that you have access to. To find the correct URI, you can paste the following URI into your browser and then see the exact URI that you must use: `https://localhost:7048/DynamicsNAV/OData/Company`.  
 
   
 <!-- OData V4 
     ```
-    ODataClientSettings settings = new ODataClientSettings(new Uri("http://navdevvm-0399:7048/DynamicsNAV/OData/"), System.Net.CredentialCache.DefaultNetworkCredentials); 
+    ODataClientSettings settings = new ODataClientSettings(new Uri("https://navdevvm-0399:7048/DynamicsNAV/OData/"), System.Net.CredentialCache.DefaultNetworkCredentials); 
     ```
 -->
   
 
 <!-- ODataV4 example using Simple.Odata.Client
 ```
-    // Connects to Dynamics NAV through the OData web service, using the user's Windows credentials. Replace http://localhost:7048/DynamicsNAV/ODataV4 with your endpoint.  
-    ODataClientSettings settings = new ODataClientSettings(new Uri("http://localhost:7048/DynamicsNAV/ODataV4"), System.Net.CredentialCache.DefaultNetworkCredentials);
+    // Connects to Dynamics NAV through the OData web service, using the user's Windows credentials. Replace https://localhost:7048/DynamicsNAV/ODataV4 with your endpoint.  
+    ODataClientSettings settings = new ODataClientSettings(new Uri("https://localhost:7048/DynamicsNAV/ODataV4"), System.Net.CredentialCache.DefaultNetworkCredentials);
 
     var client = new ODataClient(settings);
 

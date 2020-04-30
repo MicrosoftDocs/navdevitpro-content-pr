@@ -1,11 +1,10 @@
 ---
 title: Create irs1099Codes | Microsoft Docs
 description: Creates an IRS 1099 code object in Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -76,6 +75,7 @@ Content-type: application/json
 
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
   
 [IRS 1099](../resources/dynamics_irs1099.md)  
 [Get IRS 1099](../api/dynamics_irs1099_get.md)  

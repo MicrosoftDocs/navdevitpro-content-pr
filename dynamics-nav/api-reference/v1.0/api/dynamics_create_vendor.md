@@ -1,11 +1,10 @@
 ---
 title: Create vendors | Microsoft Docs
 description: Creates a vendor object in Dynamics 365 Business Central. 
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -92,6 +91,7 @@ Content-type: application/json
 ```
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Vendor](../resources/dynamics_vendor.md)  
 [Get Vendor](../api/dynamics_vendor_get.md)  

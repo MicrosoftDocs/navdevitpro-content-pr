@@ -1,11 +1,10 @@
 ---
 title: Get shipmentMethods | Microsoft Docs
 description: Gets a shipment method object in Dynamics 365 Business Central. 
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -63,6 +62,7 @@ Here is an example of the response.
 
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Shipment Methods](../resources/dynamics_shipmentmethods.md)  
 [Create Shipment Methods](../api/dynamics_create_shipmentmethods.md)  

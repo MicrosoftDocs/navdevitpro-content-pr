@@ -79,7 +79,7 @@ Rec.SETFILTER(<field>,’’);
 ```  
   
 ## Example  
- The following example uses the [SETFILTER Function \(Record\)](SETFILTER-Function--Record-.md) to set a filter that selects records with No. field between 10000 and 20000. Then the **FILTERGROUP** function returns the number for the filter group. No filter group was selected explicitly so the filter is set in filter group 0. This value is stored in the varOrigGroup variable and displayed in a message box. Next, the **FILTERGROUP** function changes the filter group to 100. The new value is stored in the varCurrGroup variable and displayed in a message box.  
+ The following example uses the [SETFILTER Function \(Record\)](SETFILTER-Function--Record-.md) to set a filter that selects records with No. field between 10000 and 20000. Then the **FILTERGROUP** function returns the number for the filter group. No filter group was selected explicitly so the filter is set in filter group 0. This value is stored in the varOrigGroup variable and displayed in a message box. Next, the **FILTERGROUP** function changes the filter group to 1. The new value is stored in the varCurrGroup variable and displayed in a message box.  
   
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   

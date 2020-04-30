@@ -27,7 +27,7 @@ Some of the following procedures use the Certificates snap-in for Microsoft Mana
 
 #### To add Certificates snap-in for Microsoft Management Console \(MMC\)  
 
--   See [Add the Certificates Snap-in to an MMC](http://go.microsoft.com/fwlink/?LinkID=699497).  
+-   See [Add the Certificates Snap-in to an MMC](https://go.microsoft.com/fwlink/?LinkID=699497).  
 
 ## Installing and Configuring the Certificates  
 You install the security certificates on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)], computers running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], and the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] according to the following guidelines. The root CA certificate and the service certificate are used in the configuration, but client certificates are not.  
@@ -42,7 +42,7 @@ You install the security certificates on the computer running [!INCLUDE[nav_serv
 
     A certificate can be enabled for several different purposes. The **Server Authentication** and **Client Authentication** purposes must be enabled. You can enable or disable other purposes to suit your requirements.  
 
-    You enable certificate purposes by using the Certificates Snap-in for MMC. For more information, see [Modify the Properties of a Certificate](http://go.microsoft.com/fwlink/?LinkID=699496).  
+    You enable certificate purposes by using the Certificates Snap-in for MMC. For more information, see [Modify the Properties of a Certificate](https://go.microsoft.com/fwlink/?LinkID=699496).  
 
 ## Configuring [!INCLUDE[nav_server](includes/nav_server_md.md)]  
 After you have installed the root CA and the service certificate on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)], you must grant access to the service account that is associated with the server so that the service account can access the service certificate’s private key. You must also change the configuration settings for [!INCLUDE[nav_server](includes/nav_server_md.md)] to enable remote logins.  

@@ -3,7 +3,7 @@ title: Get item picture | Microsoft Docs
 description: Gets an item default dimensions in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -61,7 +61,8 @@ Here is an example of the response.
 }
 ```
 
-## See Also
+## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Items](../resources/dynamics_item.md)  
 [Create item picture](dynamics_item_create_picture.md)  

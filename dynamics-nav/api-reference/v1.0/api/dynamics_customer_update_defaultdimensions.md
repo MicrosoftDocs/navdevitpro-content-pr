@@ -1,11 +1,10 @@
 ---
 title: Update customer defaultDimensions | Microsoft Docs
 description: Updates the customer default dimensions in Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -68,7 +67,7 @@ Here is an example of the response.
 
 ```json
 {
-    "@odata.context":"http://api.businesscentral.dynamics.com/v1.0/api/v1.0/$metadata#companies(5106c77d-af37-4e2d-bb88-45d87aba1033)/customers(b3fbe87a-61b8-4a6c-85de-0555f1627a67)/defaultDimensions",
+    "@odata.context":"https://api.businesscentral.dynamics.com/v1.0/api/v1.0/$metadata#companies(5106c77d-af37-4e2d-bb88-45d87aba1033)/customers(b3fbe87a-61b8-4a6c-85de-0555f1627a67)/defaultDimensions",
     "value":
     [
         {
@@ -85,6 +84,7 @@ Here is an example of the response.
 ```
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Customers](../resources/dynamics_customer.md)  
 [Create customer defaultDimensions](dynamics_customer_create_defaultdimensions.md)  

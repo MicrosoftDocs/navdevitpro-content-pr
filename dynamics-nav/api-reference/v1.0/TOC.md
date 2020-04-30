@@ -1,10 +1,11 @@
 # API for Dynamics 365 Business Central v1.0
 ## [API v1.0 Overview](index.md)
 ## [Moving from Beta to V1.0](moving-from-beta-to-v1.md)
-## [Enabling the APIs for Microsoft Dynamics NAV](enabling-apis-for-dynamics-nav.md)
+## [Enabling the APIs for Dynamics 365 Business Central](enabling-apis-for-dynamics-nav.md)
 ## [Endpoints for the APIs](endpoints-apis-for-dynamics.md)
 ## [Working with Webhooks](dynamics_subscriptions.md)
-## [API Rate Limits](dynamics-rate-limits.md)
+## [Current API Limits](dynamics-current-limits.md)
+## [Working With API Rate Limits](dynamics-rate-limits.md)
 ## [OpenAPI Specification](dynamics-open-api.md)
 ## [Error Codes](dynamics_error_codes.md)
 ## [Account](resources/dynamics_account.md)

@@ -1,11 +1,10 @@
 ---
 title: Get pdfDocument | Microsoft Docs
 description: Gets a PDF document on a salesQuote in Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
+ 
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -63,13 +62,13 @@ Here is an example of the response.
 ```json
 {
 
-    "@odata.context":"http://api.businesscentral.dynamics.com/v1.0/api/v1.0/$metadata#companies('CRONUS%20International%20Ltd.')/salesQuotes(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument",
+    "@odata.context":"https://api.businesscentral.dynamics.com/v1.0/api/v1.0/$metadata#companies('CRONUS%20International%20Ltd.')/salesQuotes(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument",
     "value":
     [
         {
             "@odata.etag":"W/\"JzQ0O0tQNUdjaUtZcU8rcUNCQTdXOUxIZVEwalA0clhjSmlXU1pqWjQ4RFczd2s9MTswMDsn\"",
             "id":"94913756-80e9-47bc-995a-048a655b8cdd",
-            "content@odata.mediaReadLink":"http:// api.businesscentral.dynamics.com/v1.0/pi/v1.0/companies(name='CRONUS%20International%20Ltd.')/salesQuotes(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument(94913756-80e9-47bc-995a-048a655b8cdd)/content"
+            "content@odata.mediaReadLink":"https:// api.businesscentral.dynamics.com/v1.0/pi/v1.0/companies(name='CRONUS%20International%20Ltd.')/salesQuotes(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument(94913756-80e9-47bc-995a-048a655b8cdd)/content"
         }
     ]
 }
@@ -105,6 +104,7 @@ GET https://{businesscentralPrefix}/api/v1.0/companies({companyid})/salesQuotes(
 The PDF document in binary format.
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 
 [Error Codes](../dynamics_error_codes.md)  
