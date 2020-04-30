@@ -21,8 +21,9 @@ Specifies whether an XMLport uses LAX \(Lazy API for XML\) to process an XML fil
 ## Property Value  
  **Yes** if the XMLport uses LAX; otherwise **No**.  
   
-## Remarks  
- Extra elements and attributes are often added to XML documents when they are processed in software systems. If this property is set to **Yes**, the XML document will be validated as long as the document meets the minimum schema definition. For example, if an XML document contains extra elements and attributes than the schema strictly defines, the document will validated against the schema.  
+## Remarks
+
+Extra elements and attributes are often added to XML documents when they are processed in software systems. If this property is set to **Yes**, the XML document will validate as long as the document meets the minimum schema definition. This means that if extra elements and attributes are included in a namespace, the XML document will successfully validate against the schema; if not, a validation error will occur.
   
 ## See Also  
  [Properties](Properties.md)
