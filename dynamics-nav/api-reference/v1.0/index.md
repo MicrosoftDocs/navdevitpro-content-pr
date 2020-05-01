@@ -19,6 +19,10 @@ Before you start using the Business Central APIs, please familiarize yourself wi
 > [!TIP]  
 > For information about enabling APIs for [!INCLUDE[navnow](../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](enabling-apis-for-dynamics-nav.md).
 
+## Community Clients
+Currently the community has generated clients for the following languages:
+* [Golang](https://github.com/tcorp-bv/business-central-api-go)
+
 ## See Also
 [Microsoft APIs Terms of Use](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use)
 [Enabling the APIs for Dynamics 365 Business Central](enabling-apis-for-dynamics-nav.md)  
