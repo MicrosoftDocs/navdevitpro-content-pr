@@ -18,7 +18,7 @@ This article lists the different limits that are set on OData and SOAP requests.
 
 ## API Rate limits
 
-HTTP response code `429 - Too Many Requests` is returned if limits are exceeded. 
+HTTP response code `429 - Too Many Requests` is returned if limits are exceeded.
 
 |              |OData|SOAP|
 |--------------|-----|----| 
@@ -27,8 +27,7 @@ HTTP response code `429 - Too Many Requests` is returned if limits are exceeded.
 
 ## Request time out
 
-HTTP repsonse code `504 - Gateway Timeout` is returned when a request exceeds 10 minutes execution time.
-
+HTTP response code `504 - Gateway Timeout` is returned when a request exceeds 10-minutes execution time.
 
 ## Maximum Connections
 
@@ -40,7 +39,7 @@ The maximum number of simultaneous OData or SOAP requests. HTTP response code `4
 
 ## Operation Timeout
 
-The maximum amount of time that allocated to a single OData or SOAP request. HTTP repsonse code `408 - Request Timeout` is returned if limits are exceeded.
+The maximum amount of time that allocated to a single OData or SOAP request. HTTP response code `408 - Request Timeout` is returned if limits are exceeded.
 
 |OData|SOAP|
 |-----|----| 
@@ -52,7 +51,7 @@ The maximum size of the OData or SOAP request. HTTP response code `413: Request 
 
 |OData|SOAP|
 |-----|----| 
-|20000 entities per page|65536 kilobytes|
+|20,000 entities per page|65,536 kilobytes|
 
 
 ## See Also

@@ -11,7 +11,9 @@ ms.assetid: 6ea75b39-cf7d-4c88-868b-86fa0be2426b
 caps.latest.revision: 4
 manager: edupont
 ---
+
 # Resolving My Settings Page Implementation After a Database Conversion
+
 When you convert a [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database, the My Settings page in the  [!INCLUDE[nav_web_md](includes/nav_web_md.md)] will not work properly. This article explains how to resolve the problem.
 
 

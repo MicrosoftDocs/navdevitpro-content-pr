@@ -30,7 +30,10 @@ Represents a line in a journal in [!INCLUDE[d365fin_long_md](../../includes/d365
 
 
 ## Navigation 
-|[attachments](../resources/dynamics_attachment.md)|paymentTerm   |Attach documents to journalLine . |
+
+| Method                                                    |Description         |
+|:----------------------------------------------------------|:-------------------|
+|[attachments](../resources/dynamics_attachment.md)|paymentTerm   |Attach documents to journalLine. |
 |[account](../resources/dynamics_account.md)|paymentMethod   |Gets the account. |
 
 

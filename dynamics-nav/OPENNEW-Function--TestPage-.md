@@ -1,7 +1,7 @@
 ---
 title: "OPENNEW Function (TestPage)"
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 03/25/2020
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -31,7 +31,7 @@ TestPage.OPENNEW
  If *TestPage* is already open, then a run-time error occurs, and the outcome of the test function is FAILURE.  
   
 ## Example  
- This example requires that you create a TestPage variable named CustTestPage with a Subtype of Customer List and that the codeunit in which you write the code is a test codeunit.  
+ This example requires that you create a TestPage variable named CustTestPage with a Subtype of Customer Card and that the codeunit in which you write the code is a test codeunit.  
   
 ```  
 // Opens a blank Customer Card test page.   

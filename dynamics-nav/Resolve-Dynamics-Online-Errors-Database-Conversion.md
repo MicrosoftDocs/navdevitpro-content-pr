@@ -11,7 +11,9 @@ ms.assetid: 6ea75b39-cf7d-4c88-868b-86fa0be2426b
 caps.latest.revision: 4
 author: jswymer
 ---
+
 # Resolving Dynamics Online Compilation Errors When Converting a Database
+
 This article explains how to resolve compilation errors for Dynamics Online Payment Services codeunits that occur when converting a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] database to [!INCLUDE[nav2017](includes/nav2017.md)]. These errors occur because Dynamics Online Payment Service has been discontinued in [!INCLUDE[nav2017](includes/nav2017.md)].
 
 ## What to do
