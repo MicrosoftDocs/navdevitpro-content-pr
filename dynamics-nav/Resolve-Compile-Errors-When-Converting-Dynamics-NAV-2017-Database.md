@@ -9,7 +9,9 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
+
 # Resolving Compilation Errors When Converting a Dynamics NAV 2017 Database
+
 When you convert a [!INCLUDE[nav2017](includes/nav2017.md)] database to a newer [!INCLUDE[navnow](includes/navnow_md.md)] version, you will receive compilation errors in several standard [!INCLUDE[navnow](includes/navnow_md.md)] objects. This article describes how to resolve these errors.
 
 ## Compilation Errors

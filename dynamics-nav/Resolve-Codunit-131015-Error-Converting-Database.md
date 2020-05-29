@@ -10,7 +10,9 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
-## Resolving Codeunit 131015 Library - Azure AD Auth Flow Compilation Error 
+
+# Resolving Codeunit 131015 Library - Azure AD Auth Flow Compilation Error 
+
 This article explains how to resolve the compilation error that you get for Codeunit **131015 Library - Azure AD Auth Flow** when converting a [!INCLUDE[nav2017](includes/navcorfu_md.md)] database to [!INCLUDE[nav2018_md](includes/nav2018_md.md)].
 
 To resolve this error, you can update Codeunit **131015 Library - Azure AD Auth Flow**  in the converted database to support the latest platform changes by replacing its code with the code that follows: 

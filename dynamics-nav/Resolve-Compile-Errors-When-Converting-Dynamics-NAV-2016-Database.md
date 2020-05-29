@@ -9,6 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
+
 # Resolving Compilation Errors When Converting a Dynamics NAV 2016 Database
 When you convert a [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database to a newer [!INCLUDE[navnow](includes/navnow_md.md)] version, you will receive compilation errors in several standard [!INCLUDE[navnow](includes/navnow_md.md)] objects. This article describes how to resolve these errors.
 
