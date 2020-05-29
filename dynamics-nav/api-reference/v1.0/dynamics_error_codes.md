@@ -65,7 +65,7 @@ The error codes in the table below can be divided into the following categories 
 |NavFilterException|The filter `"='SELLACRE24_W%2FOORINGS'"` is not valid for the No. field<br> on the Item table. The length of the string is 22, but it must be less than or equal to 20 characters.<br> Value: `SELLACRE24_W%2FOORINGS`|Application_FilterErrorException|
 |NavTestFieldException|Balance must be equal to '0'  in G/L Account: No.=10100. <br>Current value is '1,638.4'. Customer Posting Group must have a value<br> in Customer: No.=C00690. It cannot be zero or empty.|Application_FieldValidationException|
 |NavTestFieldException|Customer Posting Group must have a value in Customer:<br> No.=C00690. It cannot be zero or empty.|Application_FieldValidationException|
-|NavInvalidCredentialException|The server has rejected the client credentials|Authenciation_InvalidCredentials|
+|NavInvalidCredentialException|The server has rejected the client credentials|Authentication_InvalidCredentials|
 |Any|Any|Unknown|
 
 ## See also
