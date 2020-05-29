@@ -51,8 +51,7 @@ Content-type: application/json
   "number": "1009",
   "invoiceDate": "2015-12-31",
   "vendorNumber": "GL00000008",
-  "currencyCode": "GBP",
-  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668"
+  "currencyCode": "GBP"
 }
 ```
 

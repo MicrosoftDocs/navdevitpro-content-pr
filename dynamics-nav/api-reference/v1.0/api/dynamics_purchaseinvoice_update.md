@@ -56,7 +56,7 @@ Content-type: application/json
 Here is an example of the response. 
 
 > [!NOTE]  
->   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK
@@ -79,7 +79,6 @@ Content-type: application/json
     "postalCode": ""
   },
   "currencyCode": "GBP",
-  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
   "shipmentMethod": "",
   "pricesIncludeTax": false,
   "discountAmount": 0,
