@@ -23,7 +23,7 @@ Azure Active Directory \(Azure AD\) is a cloud service that provides identity an
 
 ## Preparation
 
-- Azure AD authentication requires the use of service certificates to help secure client connections over a wide area network (WAN). In a production environment, you should obtain a certificate from a certification authority or trusted provider. In a test environment, if you do not have certificate, then you can create your own self-signed certificate. The implementation of certificates involves installion and configuration of the certificates on the [!INCLUDE[nav_server](includes/nav_server_md.md)] server and client computers.
+- Azure AD authentication requires the use of service certificates to help secure client connections over a wide area network (WAN). In a production environment, you should obtain a certificate from a certification authority or trusted provider. In a test environment, if you do not have certificate, then you can create your own self-signed certificate. The implementation of certificates involves installation and configuration of the certificates on the [!INCLUDE[nav_server](includes/nav_server_md.md)] server and client computers.
 
     For more information, see [Using Certificates to Secure a Remote Client Connection](using-certificates-to-secure-a-remote-client-connection.md).
 
@@ -47,7 +47,7 @@ To get started, you have to have an Azure AD tenant where you can register and m
         This will create an Azure AD tenant. For about how to do this, see [How to get an Azure Active Directory tenant](/azure/active-directory/develop/active-directory-howto-tenant).
     
     
-        When you create an Azure Active Directory in the Azure portal, you specify an initial domain name that identifies your Azure AD tenant, such as *solutions.onmicrosoft.com* or *cronusinternationltd.onmicrosoft.com*. You will use the domain name when you add users to your Azure AD and when you configure the [!INCLUDE[server](../developer/includes/server.md)] instance. In the steps that follow, this is referred to as the Azure AD Tenant ID. 
+        When you create an Azure Active Directory in the Azure portal, you specify an initial domain name that identifies your Azure AD tenant, such as *solutions.onmicrosoft.com* or *cronusinternationltd.onmicrosoft.com*. You will use the domain name when you add users to your Azure AD and when you configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. In the steps that follow, this is referred to as the Azure AD Tenant ID. 
     
     3. When you have created the Azure AD tenant, you must add users. For more information, see [Quickstart: Add new users to Azure Active Directory](https://go.microsoft.com/fwlink/?LinkId=317435). Later, you will have to map the users in Azure AD to your users in [!INCLUDE[navnow](includes/navnow_md.md)].
 
@@ -76,7 +76,7 @@ You must register your [!INCLUDE[navnow](includes/navnow_md.md)] solution as an 
     |--|--|
     |Name|Specifies the name of your application as it will display to your users, such as **Business Central App by My Solutions**.|
     |Supported account types|Specifies which accounts that you would like your application to support. For purposes of this article, select **Accounts in this organizational directory only**. Otherwise, select **Help me choose** link on the **Register an Application** page in the portal for mor information.|
-    |Redirect URI|Specifies the type of application that you are registering and the redirect URI (or reply URL) for your application. Select the type to **Web**, and in the redirect URL box, enter URL for signing in to the [!INCLUDE[webclient](../developer/includes/webclient.md)], for example `https://localhost:443/BC150/SignIn`.<br /><br />The URI has the format `https://<domain or computer name>/<webserver-instance>`, such as `https://cronusinternationltd.onmicrosoft.com/BC150/SignIn` or `https://MyBcWebServer/BC150/Signin`. **Important** The portion of the reply URL after the domain name (in this case `BC150/SignIn`) is case-sensitive, so make sure that the web server instance name matches the case of the web server instance name as it is defined on IIS for your [!INCLUDE[webserver](../developer/includes/webserver.md)] installation.|
+    |Redirect URI|Specifies the type of application that you are registering and the redirect URI (or reply URL) for your application. Select the type to **Web**, and in the redirect URL box, enter URL for signing in to the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], for example `https://localhost:443/BC150/SignIn`.<br /><br />The URI has the format `https://<domain or computer name>/<webserver-instance>`, such as `https://cronusinternationltd.onmicrosoft.com/BC150/SignIn` or `https://MyBcWebServer/BC150/Signin`. **Important** The portion of the reply URL after the domain name (in this case `BC150/SignIn`) is case-sensitive, so make sure that the web server instance name matches the case of the web server instance name as it is defined on IIS for your [!INCLUDE[webserver](includes/nav_web_server_md.md)] installation.|
 
 2. After you register the application, set the Application ID URI for the application. 
 
@@ -101,7 +101,7 @@ You can register an application by using the [Azure portal](https://portal.azure
 |Directory Access|Choose **Single Sign-On**. Note: this was not an option when tested.|
 -->
 
-Your [!INCLUDE[navnow](includes/navnow_md.md)] solution is now registered in your Azure AD tenant.  To complete the steps that follow, you will need the value of domain (or **Directory (tenant) ID**), **Redirect URI** and **Application ID URI** when you configure the [!INCLUDE[server](../developer/includes/server.md)] instance. So, make a note of or copy the values for these settings for later use. You can view the settings in the Azure portal by selecting **Overview** for the registered application.
+Your [!INCLUDE[navnow](includes/navnow_md.md)] solution is now registered in your Azure AD tenant.  To complete the steps that follow, you will need the value of domain (or **Directory (tenant) ID**), **Redirect URI** and **Application ID URI** when you configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. So, make a note of or copy the values for these settings for later use. You can view the settings in the Azure portal by selecting **Overview** for the registered application.
 
 <!-- 
 Next, you must configure the application to be externally available. Also, you can change the logo to reflect the functionality of the application. From the overview page for [!INCLUDE[navnow](includes/navnow_md.md)] as an application, you can change configuration settings by choosing **Settings** in new portal). Then, save your changes.
