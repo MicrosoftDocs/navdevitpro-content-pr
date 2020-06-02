@@ -15,33 +15,45 @@ Azure Active Directory \(Azure AD\) is a cloud service that provides identity an
 
  For example, your users access a website, such as a SharePoint site. From there, they have single sign-on access to [!INCLUDE[navnow](includes/navnow_md.md)] because you have configured [!INCLUDE[navnow](includes/navnow_md.md)] for Azure AD.  
 
-## Azure AD and [!INCLUDE[navnow](includes/navnow_md.md)]  
+## Azure AD and [!INCLUDE[navnow](includes/navnow_md.md)]
+
  You can use the Azure AD service to associate your existing Microsoft account with your [!INCLUDE[navnow](includes/navnow_md.md)] user account and achieve single sign-on between the [!INCLUDE[nav_web](includes/nav_web_md.md)] and Office 365. Also, if you use [!INCLUDE[navnow](includes/navnow_md.md)] in an app for SharePoint, you can use Azure AD to achieve single sign-on between the [!INCLUDE[nav_web](includes/nav_web_md.md)] and SharePoint. You can still host the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]on-premises. You do not have to deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Azure to use Azure AD for user authentication.
 
  The following sections describe the tasks involved in setting up Azure AD authentication for authenticating [!INCLUDE[navnow](includes/navnow_md.md)] users.
 
 ## Preparation
+
 - Azure AD authentication requires the use of service certificates to help secure client connections over a wide area network (WAN). In a production environment, you should obtain a certificate from a certification authority or trusted provider. In a test environment, if you do not have certificate, then you can create your own self-signed certificate. The implementation of certificates involves installion and configuration of the certificates on the [!INCLUDE[nav_server](includes/nav_server_md.md)] server and client computers.
 
     For more information, see [Using Certificates to Secure a Remote Client Connection](using-certificates-to-secure-a-remote-client-connection.md).
 
 - Upcoming releases of some browsers, such as Google Chrome 80 and Microsoft Edge, will include changes to how cookies are handled. To ensure Azure AD authentication works with these browser versions, make sure that the Dynamics NAV platform has been upgraded to a recommended update as described in [Preparing Dynamics NAV or Dynamics 365 Business Central for Upcoming Changes to Browser Cookie Policy](/dynamics365/business-central/dev-itpro/administration/prepare-for-cookie-samesite-policy).
 
-## Task 1: Create an Azure AD Tenant  
- If you have an Office 365 subscription that is based on a domain such as *solutions.onmicrosoft.com*, you are already using Azure AD because the user accounts are based on Azure AD. Then, if you add the email addresses for those user accounts to the user accounts in [!INCLUDE[navnow](includes/navnow_md.md)], the users experience seamless integration between your SharePoint site and the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+## Task 1: Create an Azure AD Tenant 
 
- If you want to sign up for an Office 365 plan, you can use a plan such as Office 365 Enterprise E1 as your test site, or sign up for a trial developer plan. A trial plan includes an administrative account which you will use to access the Azure management portal. For example, if your Office 365 site is *Solutions.onmicrosoft.com*, your administrative account can be <em>admin@solutions.onmicrosoft.com</em>. For more information, see [Select an Office 365 plan for business](https://go.microsoft.com/fwlink/?LinkId=309050).  
+To get started, you have to have an Azure AD tenant where you can register and manage apps, like [!INCLUDE[prodshort](../developer/includes/prodshort.md)]. 
 
- Alternatively, you can sign up for an Azure subscription that is not associated with an Office 365 subscription. You can sign up in the Azure portal at [https://portal.azure.com](https://portal.azure.com). Then, you can configure an Azure Active Directory, which creates an Azure AD tenant. For more information, see [How to get an Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant).
- 
- <!-- For more information, see [Administering your Azure AD tenant](https://go.microsoft.com/fwlink/?LinkId=317423).-->  
+- If you have an Office 365 subscription that is based on a domain such as *solutions.onmicrosoft.com*, you are already using Azure AD because the Office 365 user accounts are based on Azure AD. So, there is nothing more to do in this task.
 
- When you create an Azure Active Directory in the Azure portal, you must specify a domain name that identifies your Azure AD tenant, such as *solutions.onmicrosoft.com* or *CRONUSInternationLtd.onmicrosoft.com*. You will use the domain name when you add users to your Azure AD and when you configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
+<!--    Then, if you add the email addresses for those user accounts to the user accounts in [!INCLUDE[prodshort](../developer/includes/prodshort.md)].  -->
 
- When you have created the Azure AD tenant, you must add users. For more information, see [Quickstart: Add new users to Azure Active Directory](https://go.microsoft.com/fwlink/?LinkId=317435). 
+- If you want to sign up for an Office 365 plan, you can use a plan such as Office 365 Enterprise E1 as your test site, or sign up for a trial developer plan. A trial plan includes an administrative account which you will use to access the Azure management portal. For example, if your Office 365 site is *Solutions.onmicrosoft.com*, your administrative account can be *admin@solutions.onmicrosoft.com*. For more information, see [Select an Office 365 plan for business](https://go.microsoft.com/fwlink/?LinkId=309050).  
 
- > [!IMPORTANT]  
- > For security reasons, we recommend that you limit the lifetime of the access token to 10 minutes. To do this, follow the steps in the [To set the access token lifetime](#to-set-the-access-token-lifetime) section below.
+- Alternatively, you can sign up for an Azure subscription that is not associated with an Office 365 subscription and create your own Azure AD tenant.
+    
+    1. Sign up for an Azure subscription at [https://azure.microsoft.com](https://azure.microsoft.com).
+
+    2. Sign in to Azure portal and create a directory.
+
+        This will create an Azure AD tenant. For about how to do this, see [How to get an Azure Active Directory tenant](/azure/active-directory/develop/active-directory-howto-tenant).
+    
+    
+        When you create an Azure Active Directory in the Azure portal, you specify an initial domain name that identifies your Azure AD tenant, such as *solutions.onmicrosoft.com* or *cronusinternationltd.onmicrosoft.com*. You will use the domain name when you add users to your Azure AD and when you configure the [!INCLUDE[server](../developer/includes/server.md)] instance. In the steps that follow, this is referred to as the Azure AD Tenant ID. 
+    
+    3. When you have created the Azure AD tenant, you must add users. For more information, see [Quickstart: Add new users to Azure Active Directory](https://go.microsoft.com/fwlink/?LinkId=317435). Later, you will have to map the users in Azure AD to your users in [!INCLUDE[prodshort](../developer/includes/prodshort.md)].
+
+> [!IMPORTANT]  
+> For security reasons, we recommend that you limit the lifetime of the access token to 10 minutes as described in the [To set the access token lifetime](#to-set-the-access-token-lifetime) section that follows.
 
 ### To set the access token lifetime
 As a reference, see the prerequisites section in the following topic: [Configurable token lifetimes in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-configurable-token-lifetimes#prerequisites). Follow the steps outlined below.
@@ -53,10 +65,30 @@ As a reference, see the prerequisites section in the following topic: [Configura
 5. For each `Id` which is the result of above command, run `    Remove-AzureADPolicy -Id {Guid}`. 
 6. Set the token lifetime to 10 minutes by running the following command: `New-AzureADPolicy -Definition @('{"TokenLifetimePolicy":{"Version":1, "AccessTokenLifetime":"0.00:10:00"}}') -DisplayName "OrganizationDefaultPolicyScenario" -IsOrganizationDefault $true -Type "TokenLifetimePolicy"`.  
 
-## Task 2: Add an Application for [!INCLUDE[navnow](includes/navnow_md.md)] to the Azure AD Tenant  
- You must register your [!INCLUDE[navnow](includes/navnow_md.md)] solution as an application in Azure AD tenant. Then, you can choose to make it available to other Azure AD tenants.  
+## Task 2: Register an Application for [!INCLUDE[navnow](includes/navnow_md.md)] in the Azure AD Tenant
 
- You can register an application by using the [Azure portal](https://portal.azure.com). For more specific guidelines, see [Register your application with your Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/active-directory-app-registration). When you add an application to an Azure AD tenant, you must specify the following information.
+You must register your [!INCLUDE[navnow](includes/navnow_md.md)] solution as an application in Azure AD tenant. Then, you can choose to make it available to other Azure AD tenants.  
+
+1. You register an application by using the [Azure portal](https://portal.azure.com). To register the application, follow the guidelines at [Register your application with your Azure Active Directory tenant](/azure/active-directory/active-directory-app-registration).
+
+    When you add an application to an Azure AD tenant, you specify the following information.
+
+    | Setting | Description |
+    |--|--|
+    |Name|Specifies the name of your application as it will display to your users, such as **Business Central App by My Solutions**.|
+    |Supported account types|Specifies which accounts that you would like your application to support. For purposes of this article, select **Accounts in this organizational directory only**. |
+    |Redirect URI|Specifies the type of application that you are registering and the redirect URI (or reply URL) for your application. Select the type to **Web**, and in the redirect URL box, enter URL for signing in to the [!INCLUDE[webclient](../developer/includes/webclient.md)], for example `https://localhost:443/BC150/SignIn`.<br /><br />The URI has the format `https://<domain or computer name>/<webserver-instance>`, such as `https://cronusinternationltd.onmicrosoft.com/BC150/SignIn` or `https://MyBcWebServer/BC150/Signin`. **Important** The portion of the reply URL after the domain name (in this case `BC150/SignIn`) is case-sensitive, so make sure that the web server instance name matches the case of the web server instance name as it is defined on IIS for your [!INCLUDE[webserver](../developer/includes/webserver.md)] installation.|
+
+2. After you register the application, set the Application ID URI for the application. 
+
+    1. From the **Overview** page for your app registration, next to the **Application ID URI** label, select **Add an Application ID URI**.
+    2. On the **Expose API**, page, next to the **Application ID URI**, select **Set**
+    3. The **Application ID URI** box displays the default application ID URI, which has the format `api://<guid>`, such as `api://70b20a51-46b7-4290-8686-b79ec90379f6`. You can keep this value or change it. The application ID URI must be a valid URI starting with HTTPS, API, URN, MS-APPX. It must not end in a slash. For example, `https://cronusinternationltd.onmicrosoft.com/businesscentral`.
+    4. Select **Save** when done.
+<!--
+You must register your [!INCLUDE[navnow](includes/navnow_md.md)] solution as an application in Azure AD tenant. Then, you can choose to make it available to other Azure AD tenants.  
+
+You can register an application by using the [Azure portal](https://portal.azure.com). For more specific guidelines, see [Register your application with your Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/active-directory-app-registration). When you add an application to an Azure AD tenant, you must specify the following information.
 
 |Setting/option|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
 |-----------------|---------------------------------|---------------------------------------|
@@ -65,12 +97,12 @@ As a reference, see the prerequisites section in the following topic: [Configura
 |Sign-on URL (App URL)|The URI for signing on to the [!INCLUDE[nav_web](includes/nav_web_md.md)], such as `https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV` or for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions, `https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/`.|
 |App ID URI|The URI to a domain in your Azure AD tenant. By default, the application is assigned an App ID URI that has the format `https://[domain]/[guid]`, such as https://CRONUSInternationLtd.onmicrosoft.com/70b20a51-46b7-4290-8686-b79ec90379f6. You can keep this value or change the `[guid]` portion to suit, for example, `https://CRONUSInternationLtd.onmicrosoft.com/Financials`. <BR /><BR />**Important:**  The App ID URI must be unique within the Azure AD tenant. However, if you want to share your [!INCLUDE[navnow](includes/navnow_md.md)] solution with other Azure AD tenants, the App ID URI must be unique in Azure AD. <br /><br /> This URI is appended to the **WS-Federation Login Endpoint** setting in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration and **ACSURI** setting in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] configuration. Additionally, in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration, it must be specified in the **Azure AD App ID URI** setting for SOAP and OData web services.|
 |Reply URL|Add a reply URL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] and the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The reply URL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] is the same as the Sign-on URL. The reply URL for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is the URL for opening the client, such as `https://dynamicsnavwinclient/`.|
-
+-->
 <!-- removed from new portal
 |Directory Access|Choose **Single Sign-On**. Note: this was not an option when tested.|
 -->
 
-Your [!INCLUDE[navnow](includes/navnow_md.md)] solution is now registered in your Azure AD tenant. You will need to provide the App ID URI and Reply URLs when you configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for single sign-on. So, make a note of or copy the values for these settings for later use. You can view the settings in the Azure portal by selecting **Settings** for the registered application.   
+Your [!INCLUDE[navnow](includes/navnow_md.md)] solution is now registered in your Azure AD tenant.  To complete the steps that follow, you will need the value of domain (or **Directory (tenant) ID**), **Redirect URI** and **Application ID URI** when you configure the [!INCLUDE[server](../developer/includes/server.md)] instance. So, make a note of or copy the values for these settings for later use. You can view the settings in the Azure portal by selecting **Overview** for the registered application.
 
 <!-- 
 Next, you must configure the application to be externally available. Also, you can change the logo to reflect the functionality of the application. From the overview page for [!INCLUDE[navnow](includes/navnow_md.md)] as an application, you can change configuration settings by choosing **Settings** in new portal). Then, save your changes.
@@ -90,9 +122,9 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
 2. Specify the location of the federation metadata. For example, in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], on the **Azure Active Directory** tab, set the **WS-Federation Metadata Location** field.
 
    The federation metadata is used to establish a trust relationship between [!INCLUDE[navnow](includes/navnow_md.md)] and Azure AD. 
-	
+    
    Azure AD publishes federation metadata at:
-	
+    
    ```
    https://login.microsoftonline.com<Azure AD TENANT ID>/FederationMetadata/2007-06/FederationMetadata.xml
    ```
@@ -130,17 +162,17 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
    `<APP ID URI>` is the ID that was assigned to the [!INCLUDE[navnow](includes/navnow_md.md)] application when it was registered in Azure AD, for example `https://localhost/` or `https://CRONUSInternationLtd.onmicrosoft.com/Financials`.
 
    `<APP REPLY URL>` is the reply URL that was assigned to the [!INCLUDE[navnow](includes/navnow_md.md)] application when it was registered in the Azure AD tenant. This parameter must point to the SignIn.aspx page of the [!INCLUDE[nav_web](includes/nav_web_md.md)], which in most cases, this is the same as the **Sign-On URL** for the application. For example:
-	
+    
    ```
    https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/SignIn.aspx
    ```
-	
+    
    Or for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions:
-	 
+     
    ```
    https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/SignIn.aspx
    ```
-	
+    
    The `wreply` parameter is optional. The wreply query parameter tells the Azure AD authentication service where to send the authentication token. If you do not specify the wreply parameter, it will be deducted from the URL in the browser.
 
    >[!IMPORTANT]
@@ -148,7 +180,7 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
 
 4. Disable token-signing certificate validation.
 
-	If you are using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], select the **Disable Token-Signing Certificate Validation** check box. If you are using the the [Set-NAVServerConfiguration cmdlet](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/set-navserverconfiguration) or modifying the CustomSettings.config file directly, set `DisableTokenSigningCertificateValidation` to `true`.
+    If you are using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], select the **Disable Token-Signing Certificate Validation** check box. If you are using the the [Set-NAVServerConfiguration cmdlet](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/set-navserverconfiguration) or modifying the CustomSettings.config file directly, set `DisableTokenSigningCertificateValidation` to `true`.
 
 5. To configure SOAP and OData web services for Azure AD authentication, specify the App ID URI that is registered for [!INCLUDE[navnow](includes/navnow_md.md)] in the Azure AD.
 
@@ -181,7 +213,7 @@ You configure the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] by modifyi
 > [!IMPORTANT]  
 >  The single sign-on means that users are still signed in to Azure AD when they sign out from [!INCLUDE[navnow](includes/navnow_md.md)], unless they close all browser windows. However, if a user selected the **Keep me signed in** field when they signed in, they are still signed in when they close the browser window. To fully sign out from Azure AD, the user must sign out from each application that uses Azure AD, including [!INCLUDE[navnow](includes/navnow_md.md)] and SharePoint.  
 >   
->  We recommend that you provide guidance to your users for signing out of their account when they’re done, so that you can keep your [!INCLUDE[navnow](includes/navnow_md.md)] deployment more secure.  
+>  We recommend that you provide guidance to your users for signing out of their account when they're done, so that you can keep your [!INCLUDE[navnow](includes/navnow_md.md)] deployment more secure.  
 
 ## See Also  
  [Users and Credential Types](Users-and-Credential-Types.md)   
