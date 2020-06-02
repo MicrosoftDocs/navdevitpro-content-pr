@@ -31,11 +31,10 @@ Azure Active Directory \(Azure AD\) is a cloud service that provides identity an
 
 ## Task 1: Create an Azure AD Tenant 
 
-To get started, you have to have an Azure AD tenant where you can register and manage apps, like [!INCLUDE[prodshort](../developer/includes/prodshort.md)]. 
+To get started, you have to have an Azure AD tenant where you can register and manage apps, like [!INCLUDE[navnow](includes/navnow_md.md)] . 
 
 - If you have an Office 365 subscription that is based on a domain such as *solutions.onmicrosoft.com*, you are already using Azure AD because the Office 365 user accounts are based on Azure AD. So, there is nothing more to do in this task.
 
-<!--    Then, if you add the email addresses for those user accounts to the user accounts in [!INCLUDE[prodshort](../developer/includes/prodshort.md)].  -->
 
 - If you want to sign up for an Office 365 plan, you can use a plan such as Office 365 Enterprise E1 as your test site, or sign up for a trial developer plan. A trial plan includes an administrative account which you will use to access the Azure management portal. For example, if your Office 365 site is *Solutions.onmicrosoft.com*, your administrative account can be *admin@solutions.onmicrosoft.com*. For more information, see [Select an Office 365 plan for business](https://go.microsoft.com/fwlink/?LinkId=309050).  
 
@@ -50,7 +49,7 @@ To get started, you have to have an Azure AD tenant where you can register and m
     
         When you create an Azure Active Directory in the Azure portal, you specify an initial domain name that identifies your Azure AD tenant, such as *solutions.onmicrosoft.com* or *cronusinternationltd.onmicrosoft.com*. You will use the domain name when you add users to your Azure AD and when you configure the [!INCLUDE[server](../developer/includes/server.md)] instance. In the steps that follow, this is referred to as the Azure AD Tenant ID. 
     
-    3. When you have created the Azure AD tenant, you must add users. For more information, see [Quickstart: Add new users to Azure Active Directory](https://go.microsoft.com/fwlink/?LinkId=317435). Later, you will have to map the users in Azure AD to your users in [!INCLUDE[prodshort](../developer/includes/prodshort.md)].
+    3. When you have created the Azure AD tenant, you must add users. For more information, see [Quickstart: Add new users to Azure Active Directory](https://go.microsoft.com/fwlink/?LinkId=317435). Later, you will have to map the users in Azure AD to your users in [!INCLUDE[navnow](includes/navnow_md.md)].
 
 > [!IMPORTANT]  
 > For security reasons, we recommend that you limit the lifetime of the access token to 10 minutes as described in the [To set the access token lifetime](#to-set-the-access-token-lifetime) section that follows.
