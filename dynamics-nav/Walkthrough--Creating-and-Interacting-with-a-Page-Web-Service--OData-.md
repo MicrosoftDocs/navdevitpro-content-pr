@@ -279,4 +279,4 @@ You have built a console application that uses an OData web service to modify [!
  [Using OData Web Services to Modify Data](Using-OData-Web-Services-to-Modify-Data.md)   
  [Web Service Walkthroughs](Web-Service-Walkthroughs.md)   
  [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough--Registering-and-Using-a-Page-Web-Service--SOAP-.md)   
- [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives:-SOAP-and-OData.md)
+ [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives--SOAP-and-OData.md)
