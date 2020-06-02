@@ -76,7 +76,7 @@ You must register your [!INCLUDE[navnow](includes/navnow_md.md)] solution as an 
     | Setting | Description |
     |--|--|
     |Name|Specifies the name of your application as it will display to your users, such as **Business Central App by My Solutions**.|
-    |Supported account types|Specifies which accounts that you would like your application to support. For purposes of this article, select **Accounts in this organizational directory only**. |
+    |Supported account types|Specifies which accounts that you would like your application to support. For purposes of this article, select **Accounts in this organizational directory only**. Otherwise, select **Help me choose** link on the **Register an Application** page in the portal for mor information.|
     |Redirect URI|Specifies the type of application that you are registering and the redirect URI (or reply URL) for your application. Select the type to **Web**, and in the redirect URL box, enter URL for signing in to the [!INCLUDE[webclient](../developer/includes/webclient.md)], for example `https://localhost:443/BC150/SignIn`.<br /><br />The URI has the format `https://<domain or computer name>/<webserver-instance>`, such as `https://cronusinternationltd.onmicrosoft.com/BC150/SignIn` or `https://MyBcWebServer/BC150/Signin`. **Important** The portion of the reply URL after the domain name (in this case `BC150/SignIn`) is case-sensitive, so make sure that the web server instance name matches the case of the web server instance name as it is defined on IIS for your [!INCLUDE[webserver](../developer/includes/webserver.md)] installation.|
 
 2. After you register the application, set the Application ID URI for the application. 
