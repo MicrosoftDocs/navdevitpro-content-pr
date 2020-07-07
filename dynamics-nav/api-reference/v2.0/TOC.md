@@ -1,5 +1,5 @@
-# API for Dynamics 365 Business Central v1.0
-## [API v1.0 Overview](index.md)
+# API for Dynamics 365 Business Central v2.0
+## [API v2.0 Overview](index.md)
 ## [Moving from Beta to V1.0](moving-from-beta-to-v1.md)
 ## [Enabling the APIs for Dynamics 365 Business Central](enabling-apis-for-dynamics-nav.md)
 ## [Endpoints for the APIs](endpoints-apis-for-dynamics.md)
