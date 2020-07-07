@@ -21,6 +21,7 @@ Standard APIs for Business Central are available as an [OpenAPI Specification (O
 The OAS is set up to use OAuth2 and accessing the default sandbox environment. Details can be changed in the contact to connect to specific environments (servers URL). YAML can be converted to JSON if needed.
 
 ## Previewing the OpenAPI contract
+
 There are [extensions](https://marketplace.visualstudio.com/search?term=openapi&target=VSCode&category=All%20categories&sortBy=Relevance) for Visual Studio Code that enable previewing and editing. [SwaggerHub](https://swagger.io/tools/swaggerhub/) enables previewing and editing online.
 
 To run SwaggerUI locally, node.js can be used to serve the SwaggerUI, by following the steps below:

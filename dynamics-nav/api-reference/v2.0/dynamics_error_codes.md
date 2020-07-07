@@ -15,9 +15,11 @@ ms.author: solsen
 ---
 
 # Error Codes
+
 The following table lists the error codes for the various exceptions in the web service response for ODataV4.
 
 ## Error code categorization
+
 The error codes in the table below can be divided into the following categories and described as follows:
 
 |Category|Description|Resolution|

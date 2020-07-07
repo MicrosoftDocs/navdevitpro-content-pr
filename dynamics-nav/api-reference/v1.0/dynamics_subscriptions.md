@@ -137,7 +137,7 @@ Content-type: application/json
 |vendors|||
 
 
-For Document APIs, a notification will be sent for the header if a change is made a to a line. E.g. a notfication to a subscription for **salesInvoice** will be sent, if a change is made to a related **salesInvoiceLine**.  
+For Document APIs, a notification will be sent for the header if a change is made a to a line. E.g. a notification to a subscription for **salesInvoice** will be sent, if a change is made to a related **salesInvoiceLine**.  
 
 Custom APIs are also webhook-enabled and will be listed in **webhookSupportedResources** if [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] is able to send notifications for the entity.
 

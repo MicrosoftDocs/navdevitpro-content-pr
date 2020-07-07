@@ -13,12 +13,14 @@ ms.author: solsen, henrikwh
 ---
 
 # Working with Webhooks in Dynamics 365 Business Central
+
 Webhooks is the way to get notified if an entity changes in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. For general information about webhooks, see [Push notifications via webhooks](https://github.com/Microsoft/api-guidelines/blob/vNext/Guidelines.md#15-push-notifications-via-webhooks) in Microsoft REST API Guidelines.
 
 
 In the following replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](endpoints-apis-for-dynamics.md).
 
 ## Register a webhook subscription
+
 Using webhooks requires the client/subscriber to perform a handshake with [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] to register the webhook subscription.
  
 ```json
@@ -53,6 +55,7 @@ PATCH https://{businesscentralPrefix}/api/v1.0/subscriptions({id})
 Subscription expiration time is listed in `expirationDateTime` property of the [subscription](api/dynamics_subscription_get.md).
 
 ## Notifications and change types
+
 Valid subscriptions push the notifications on every entity update. 
 
 Each notification sent to the subscriber (notificationUrl) can contain multiple notifications from different subscriptions.
@@ -105,21 +108,23 @@ Notifications are not sent immediately when the record changes. By delaying noti
 > If [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] cannot reach the subscriber, several retries will be attempted over the next 36 hours. The subscriber must respond with following error codes: `408 - Request Timeout`, `429 - Too Many Requests or any error in 500-599 range (5xx)`. If subscriber responds with any other code than listed, no retries will be attempted and the subscription will be deleted.
 
 ## Unsubscribing
+
 To remove a subscription, execute a [delete request](api/dynamics_subscription_delete.md).
 
 ## Supported entities
-To get a list of webhook supported entitites, the following request can be issued. The $filter parameter ensures that only v1.0 APIs are returned. Filter can be removed or changed.
+
+To get a list of webhook supported entitites, the following request can be issued. The `$filter` parameter ensures that only v2.0 APIs are returned. Filter can be removed or changed.
 
 ```json
-GET https://{businesscentralPrefix}/api/microsoft/runtime/beta/companies({{companyId}})/webhookSupportedResources?$filter=resource eq 'v1.0*' 
+GET https://{businesscentralPrefix}/api/microsoft/runtime/beta/companies({{companyId}})/webhookSupportedResources?$filter=resource eq 'v2.0*' 
 Content-type: application/json
 {  
   "value": [
   {
-      "resource": "v1.0/accounts"
+      "resource": "v2.0/accounts"
   },
   {
-      "resource": "v1.0/companyInformation"
+      "resource": "v2.0/companyInformation"
   }......
   ]
 }
@@ -137,14 +142,16 @@ Content-type: application/json
 |vendors|||
 
 
-For Document APIs, a notification will be sent for the header if a change is made a to a line. E.g. a notfication to a subscription for **salesInvoice** will be sent, if a change is made to a related **salesInvoiceLine**.  
+For Document APIs, a notification will be sent for the header if a change is made a to a line. E.g. a notification to a subscription for **salesInvoice** will be sent, if a change is made to a related **salesInvoiceLine**.  
 
 Custom APIs are also webhook-enabled and will be listed in **webhookSupportedResources** if [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] is able to send notifications for the entity.
 
 ## Notes for on-premise
+
 By default, a subscription lives for 3 days if it is not renewed. The value is specified in the CustomSettings.config file under the ApiSubscriptionExpiration entry. There is a maximum number of subscriptions specified in the ApiSubscriptionMaxNumberOfSubscriptions in the CustomSettings.config file.
 
 ## See also
+
 [Subscription Resource Type](resources/dynamics_subscription.md)  
 [Get subscriptions](api/dynamics_subscription_get.md)  
 [Create subscriptions](api/dynamics_subscription_create.md)  
