@@ -17,7 +17,7 @@ ms.author: solsen
 Creates the default dimensions of the customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
 POST businesscentralPrefix/companies({companyId})/customers({customerId})/defaultDimensions
 ```
@@ -44,7 +44,7 @@ Here is an example of a request.
 > The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
-POST https://{businesscentralPrefix}/api/v1.0/companies({companyId})/customers({customerId})/defaultDimensions
+POST https://{businesscentralPrefix}/api/v2.0/companies({companyId})/customers({customerId})/defaultDimensions
 ```
 
 **Request body**
@@ -61,7 +61,7 @@ POST https://{businesscentralPrefix}/api/v1.0/companies({companyId})/customers({
 
 ```json
 {
-    "@odata.context":"https://api.businesscentral.dynamics.com/v1.0/api/v1.0/$metadata#companies(5106c77d-af37-4e2d-bb88-45d87aba1033)/customers(b3fbe87a-61b8-4a6c-85de-0555f1627a67)/defaultDimensions",
+    "@odata.context":"https://api.businesscentral.dynamics.com/v2.0/api/v2.0/$metadata#companies(5106c77d-af37-4e2d-bb88-45d87aba1033)/customers(b3fbe87a-61b8-4a6c-85de-0555f1627a67)/defaultDimensions",
     "value":
     [
         {

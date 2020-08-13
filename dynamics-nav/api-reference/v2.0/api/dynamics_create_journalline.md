@@ -17,7 +17,7 @@ ms.author: solsen
 Creates a journal line object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 
 ```
 POST businesscentralPrefix/companies({id})/journals({id})/journalLines({id})
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and **journal
 Here is an example of a request.
 
 ```json
-POST https://{businesscentralPrefix}/api/v1.0/companies({id})/journals({id})/journalLines
+POST https://{businesscentralPrefix}/api/v2.0/companies({id})/journals({id})/journalLines
 Content-type: application/json
 
 {

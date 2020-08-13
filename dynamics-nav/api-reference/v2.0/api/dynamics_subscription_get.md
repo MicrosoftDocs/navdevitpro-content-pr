@@ -16,7 +16,7 @@ ms.author: solsen,henrikwh
 Retrieves the properties of webhook subscription objects for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
 GET businesscentralPrefix/subscriptions
 ```
@@ -38,7 +38,7 @@ If successful, this method returns a `200 OK` response code and a **subscription
 
 Here is an example of the request.
 ```json
-https://{businesscentralPrefix}/api/v1.0/subscriptions 
+https://{businesscentralPrefix}/api/v2.0/subscriptions 
 ```
 
 **Response**
@@ -52,7 +52,7 @@ Here is an example of the response.
 {
   "subscriptionId": "c670ea73cacb459bb51dc1740da2f1db",
   "notificationUrl": "https://contoso.com/myCallbacks",
-  "resource": "/api/v1.0/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
+  "resource": "/api/v2.0/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
   "userId": "00000000-0000-0000-0000-000000000001",
   "lastModifiedDateTime": "2018-10-12T12:32:35Z",
   "clientState": "anytextvalueof2048",

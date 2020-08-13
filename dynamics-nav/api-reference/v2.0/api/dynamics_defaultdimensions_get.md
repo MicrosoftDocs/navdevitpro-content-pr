@@ -16,7 +16,7 @@ ms.author: solsen
 Gets the default dimensions of an entity in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md). 
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md). 
 The following example gets the default dimensions of an entity.
 
 ```
@@ -42,7 +42,7 @@ If successful, this method returns a `200 OK` response code and the **default di
 **Request**
 
 ```json
-GET https://{businesscentralPrefix}/api/v1.0/companies({companyId})/items({itemId})/defaultDimensions
+GET https://{businesscentralPrefix}/api/v2.0/companies({companyId})/items({itemId})/defaultDimensions
 ```
 
 **Response**  
@@ -53,7 +53,7 @@ Here is an example of the response.
 
 ```json
 {
-    "@odata.context":"https://api.businesscentral.dynamics.com/v1.0/api/v1.0/$metadata#companies(5106c77d-af37-4e2d-bb88-45d87aba1033)/items(b3fbe87a-61b8-4a6c-85de-0555f1627a67)/defaultDimensions",
+    "@odata.context":"https://api.businesscentral.dynamics.com/v2.0/api/v2.0/$metadata#companies(5106c77d-af37-4e2d-bb88-45d87aba1033)/items(b3fbe87a-61b8-4a6c-85de-0555f1627a67)/defaultDimensions",
     "value":
     [
         {

@@ -16,7 +16,7 @@ ms.author: solsen
 Gets the default dimensions of the item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md). 
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md). 
 The following example gets the default dimensions of the item entity in the response body.
 
 ```
@@ -39,7 +39,7 @@ If successful, this method returns a `200 OK` response code and the **picture** 
 **Request**
 
 ```json
-GET https://{businesscentralPrefix}/api/v1.0/companies({companyId})/items({itemId})/picture
+GET https://{businesscentralPrefix}/api/v2.0/companies({companyId})/items({itemId})/picture
 ```
 
 **Response**  
@@ -56,8 +56,8 @@ Here is an example of the response.
   "width": 500,
   "height": 496,
   "contentType": "image\jpeg",
-  "content@odata.mediaEditLink": "https:\\api.businesscentral.dynamics-tie.com\v1.0\api\beta\companies(55c438d0-2f5c-44a0-9965-20b4923d0bef)\items(d0e5d5da-795a-4924-b376-13665f794cdd)\picture(d0e5d5da-795a-4924-b376-13665f794cdd)\content",
-  "content@odata.mediaReadLink": "https:\\api.businesscentral.dynamics-tie.com\v1.0\api\beta\companies(55c438d0-2f5c-44a0-9965-20b4923d0bef)\items(d0e5d5da-795a-4924-b376-13665f794cdd)\picture(d0e5d5da-795a-4924-b376-13665f794cdd)\content"
+  "content@odata.mediaEditLink": "https:\\api.businesscentral.dynamics-tie.com\v2.0\api\beta\companies(55c438d0-2f5c-44a0-9965-20b4923d0bef)\items(d0e5d5da-795a-4924-b376-13665f794cdd)\picture(d0e5d5da-795a-4924-b376-13665f794cdd)\content",
+  "content@odata.mediaReadLink": "https:\\api.businesscentral.dynamics-tie.com\v2.0\api\beta\companies(55c438d0-2f5c-44a0-9965-20b4923d0bef)\items(d0e5d5da-795a-4924-b376-13665f794cdd)\picture(d0e5d5da-795a-4924-b376-13665f794cdd)\content"
 }
 ```
 

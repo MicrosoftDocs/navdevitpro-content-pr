@@ -20,11 +20,11 @@ Retrieve a PDF print-out of the corresponding document as binary content for [!I
 > To generate a document in the supported local language, you must specify `Accept-Language` in the Request header, for example `Accept-Language: nl-NL` for Dutch.
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 The following example gets a link to the content of the PDF:
 
 ```
-GET businesscentralPrefix/api/v1.0/companies({id})/purchaseInvoices({invoiceid})/pdfDocument
+GET businesscentralPrefix/api/v2.0/companies({id})/purchaseInvoices({invoiceid})/pdfDocument
 ```
 
 ## Request headers
@@ -45,7 +45,7 @@ If successful, this method returns a ```200 OK``` response code and a link to th
 Here is an example of the request.
 
 ```json
-GET https://{businesscentralPrefix}/api/v1.0/companies({id})/purchaseInvoices({invoiceid})/pdfDocument
+GET https://{businesscentralPrefix}/api/v2.0/companies({id})/purchaseInvoices({invoiceid})/pdfDocument
 ```
 
 **Response**
@@ -57,22 +57,22 @@ Here is an example of the response.
 ```json
 {
 
-    "@odata.context":"https://api.businesscentral.dynamics.com/v1.0/api/v1.0/$metadata#companies('CRONUS%20International%20Ltd.')/purchaseInvoices(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument",
+    "@odata.context":"https://api.businesscentral.dynamics.com/v2.0/api/v2.0/$metadata#companies('CRONUS%20International%20Ltd.')/purchaseInvoices(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument",
     "value":
     [
         {
             "@odata.etag":"W/\"JzQ0O0tQNUdjaUtZcU8rcUNCQTdXOUxIZVEwalA0clhjSmlXU1pqWjQ4RFczd2s9MTswMDsn\"",
             "id":"94913756-80e9-47bc-995a-048a655b8cdd",
-            "content@odata.mediaReadLink":"https:// api.businesscentral.dynamics.com/v1.0/pi/v1.0/companies(name='CRONUS%20International%20Ltd.')/purchaseInvoices(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument(94913756-80e9-47bc-995a-048a655b8cdd)/content"
+            "content@odata.mediaReadLink":"https:// api.businesscentral.dynamics.com/v2.0/pi/v2.0/companies(name='CRONUS%20International%20Ltd.')/purchaseInvoices(94913756-80e9-47bc-995a-048a655b8cdd)/pdfDocument(94913756-80e9-47bc-995a-048a655b8cdd)/content"
         }
     ]
 }
 ```
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 The following example gets the actual PDF document:
-`GET businesscentralPrefix/api/v1.0/companies({companyid})/purchaseInvoices({invoiceid})/pdfDocument({id})/content`
+`GET businesscentralPrefix/api/v2.0/companies({companyid})/purchaseInvoices({invoiceid})/pdfDocument({id})/content`
 
 ## Request headers
 
@@ -92,7 +92,7 @@ If successful, this method returns a `200 OK` response code and the PDF document
 Here is an example of the request.
 
 ```
-GET https://{businesscentralPrefix}/api/v1.0/companies({companyid})/purchaseInvoices({invoiceid})/pdfDocument({id})/content
+GET https://{businesscentralPrefix}/api/v2.0/companies({companyid})/purchaseInvoices({invoiceid})/pdfDocument({id})/content
 ```
 
 **Response** 

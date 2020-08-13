@@ -17,7 +17,7 @@ ms.author: solsen
 Deletes the properties and relationships of a picture object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
 DELETE businesscentralPrefix/companies({companyId})/items({itemId})/picture({pictureId})
 DELETE businesscentralPrefix/companies({companyId})/vendors({vendorId})/picture({pictureId})
@@ -47,7 +47,7 @@ The metadata will be updated on the same link.
 Here is an example of the request. 
 
 ```json
-DELETE https://api.businesscentral.dynamics-tie.com/v1.0/api/v1.0/companies(companyId)/customers(customerId)/picture(pictureId)
+DELETE https://api.businesscentral.dynamics-tie.com/v2.0/api/v2.0/companies(companyId)/customers(customerId)/picture(pictureId)
 ```
 
 **Response**

@@ -1,6 +1,6 @@
 # API for Dynamics 365 Business Central v2.0
 ## [API v2.0 Overview](index.md)
-## [Moving from Beta to V1.0](moving-from-beta-to-v1.md)
+## [Moving from Beta to v2.0](moving-from-beta-to-v1.md)
 ## [Enabling the APIs for Dynamics 365 Business Central](enabling-apis-for-dynamics-nav.md)
 ## [Endpoints for the APIs](endpoints-apis-for-dynamics.md)
 ## [Working with Webhooks](dynamics_subscriptions.md)

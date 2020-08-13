@@ -17,7 +17,7 @@ ms.author: solsen
 Creates a attachment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 
 ```
 POST businesscentralPrefix/companies({id})/attachments
@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and a **attac
 Here is an example of a request.
 
 ```json
-POST https://{businesscentralPrefix}/api/v1.0/companies({id})/attachments
+POST https://{businesscentralPrefix}/api/v2.0/companies({id})/attachments
 Content-type: application/json
 ```json
 {
@@ -63,8 +63,8 @@ Content-type: application/json
     "parentId": "8bdf7f18-ac81-4cf6-a018-7dd2313d827f",
     "id": "7786c70a-31ee-43a3-9746-2d720496469e",
     "fileName": "myPDF.pdf",
-    "content@odata.mediaEditLink": "https://api.businesscentral.dynamics-tie.com/v1.0/bc66bcbc-5b7f-4043-b352-f4ab70c81d11/api/v1.0/companies(d888c94e-0bf9-42e5-96eb-060739125558)/attachments(parentId=8bdf7f18-ac81-4cf6-a018-7dd2313d827f,id=7786c70a-31ee-43a3-9746-2d720496469e)/content",
-    "content@odata.mediaReadLink": "https://api.businesscentral.dynamics-tie.com/v1.0/bc66bcbc-5b7f-4043-b352-f4ab70c81d11/api/v1.0/companies(d888c94e-0bf9-42e5-96eb-060739125558)/attachments(parentId=8bdf7f18-ac81-4cf6-a018-7dd2313d827f,id=7786c70a-31ee-43a3-9746-2d720496469e)/content",
+    "content@odata.mediaEditLink": "https://api.businesscentral.dynamics-tie.com/v2.0/bc66bcbc-5b7f-4043-b352-f4ab70c81d11/api/v2.0/companies(d888c94e-0bf9-42e5-96eb-060739125558)/attachments(parentId=8bdf7f18-ac81-4cf6-a018-7dd2313d827f,id=7786c70a-31ee-43a3-9746-2d720496469e)/content",
+    "content@odata.mediaReadLink": "https://api.businesscentral.dynamics-tie.com/v2.0/bc66bcbc-5b7f-4043-b352-f4ab70c81d11/api/v2.0/companies(d888c94e-0bf9-42e5-96eb-060739125558)/attachments(parentId=8bdf7f18-ac81-4cf6-a018-7dd2313d827f,id=7786c70a-31ee-43a3-9746-2d720496469e)/content",
     "lastModifiedDateTime": "2019-03-25T13:15:41Z"
 }
 ```

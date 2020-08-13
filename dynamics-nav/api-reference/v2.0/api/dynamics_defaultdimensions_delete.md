@@ -17,7 +17,7 @@ ms.author: solsen
 Deletes the default dimensions of the item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
 DELETE businesscentralPrefix/companies({companyId})/items({itemId})/defaultDimensions({itemId},{dimensionId})
 DELETE businesscentralPrefix/companies({companyId})/customers({customerId})/defaultDimensions({customer},{dimensionId})
@@ -45,7 +45,7 @@ If successful, this method returns a ```204 No Content``` response code and it d
 Here is an example of the request.
 
 ```json
-DELETE https://{businesscentralPrefix}/api/v1.0/companies({companyId})/items({itemId})/defaultDimensions({itemId},{dimensionId})
+DELETE https://{businesscentralPrefix}/api/v2.0/companies({companyId})/items({itemId})/defaultDimensions({itemId},{dimensionId})
 ```
 
 **Response** 

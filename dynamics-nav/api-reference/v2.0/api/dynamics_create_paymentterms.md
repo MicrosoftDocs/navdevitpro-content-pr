@@ -17,7 +17,7 @@ ms.author: solsen
 Create a payment terms object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
 POST businesscentralPrefix/companies({id})/paymentTerms
 ```
@@ -42,7 +42,7 @@ If successful, this method returns ```201 Created``` response code and a **payme
 Here is an example of a request.
 
 ```json
-POST https://{businesscentralPrefix}/api/v1.0/companies({id})/paymentTerms
+POST https://{businesscentralPrefix}/api/v2.0/companies({id})/paymentTerms
 Content-type: application/json
 
 {

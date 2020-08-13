@@ -17,7 +17,7 @@ ms.author: solsen
 Retrieve the properties and relationships of an employee object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
 GET businesscentralPrefix/companies({id})/employees({id})
 ```
@@ -39,7 +39,7 @@ If successful, this method returns a ```200 OK``` response code and an **employe
 Here is an example of the request.
 
 ```json
-GET https://{businesscentralPrefix}/api/v1.0/companies({id})/employees({id})
+GET https://{businesscentralPrefix}/api/v2.0/companies({id})/employees({id})
 ```
 
 **Response**
@@ -73,7 +73,7 @@ Here is an example of the response.
   "terminationDate": "0001-01-01",
   "status": "Active",
   "birthDate": "1973-12-12",
-  "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v1.0/api/v1.0/companies({id})/employees({id})/picture",
+  "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v2.0/api/v2.0/companies({id})/employees({id})/picture",
   "lastModifiedDateTime": "2017-03-16T14:57:19.497Z"  
 }
 ```
