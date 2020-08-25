@@ -46,36 +46,30 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({id})/customers
 Content-type: application/json
 
 {
-  "number": "10000",
-  "displayName": "Coho Winery",
-  "type": "Company",
-  "address": {
-    "street": "192 Market Square",
+    "id": "f2a5738a-44e3-ea11-bb43-000d3a2feca1",
+    "number": "10000",
+    "displayName": "Adatum Corporation",
+    "type": "Company",
+    "addressLine1": "192 Market Square",
+    "addressLine2": "",
     "city": "Atlanta",
     "state": "GA",
-    "countryLetterCode": "US",
-    "postalCode": "31772"
-  },
-  "phoneNumber": "",
-  "email": "jim.glynn@cronuscorp.net",
-  "website": "",
-  "taxLiable": true,
-  "taxAreaId": "taxAreaId-value",
-  "taxAreaDisplayName": "tax area",
-  "taxRegistrationNumber": "28012001T",
-  "currencyId": "currencyId-value",
-  "currencyCode": "USD",
-  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
-  "shipmentMethodId": "shipmentMethodId-value",
-  "shipmentMethod": null,
-  "paymentMethodId": "paymentMethodId-value",
-  "paymentMethod": {
-    "code": "BANK",
-    "description": "Bank Transfer"
-  },
-  "blocked": " ",
-  "overdueAmount": 0,
-  "totalSalesExcludingTax": 0,
+    "country": "US",
+    "postalCode": "31772",
+    "phoneNumber": "",
+    "email": "robert.townes@contoso.com",
+    "website": "",
+    "taxLiable": true,
+    "taxAreaId": "90196a90-44e3-ea11-bb43-000d3a2feca1",
+    "taxAreaDisplayName": "ATLANTA, GA",
+    "taxRegistrationNumber": "",
+    "currencyId": "00000000-0000-0000-0000-000000000000",
+    "currencyCode": "USD",
+    "paymentTermsId": "04a5738a-44e3-ea11-bb43-000d3a2feca1",
+    "shipmentMethodId": "00000000-0000-0000-0000-000000000000",
+    "paymentMethodId": "3b196a90-44e3-ea11-bb43-000d3a2feca1",
+    "blocked": " ",
+    "lastModifiedDateTime": "2020-08-21T07:38:44.293Z"
 }
 ```
 
@@ -91,36 +85,30 @@ HTTP/1.1 201 Created
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "number": "10000",
-  "displayName": "Coho Winery",
-  "type": "Company",
-  "address": {
-    "street": "192 Market Square",
+    "id": "f2a5738a-44e3-ea11-bb43-000d3a2feca1",
+    "number": "10000",
+    "displayName": "Adatum Corporation",
+    "type": "Company",
+    "addressLine1": "192 Market Square",
+    "addressLine2": "",
     "city": "Atlanta",
     "state": "GA",
-    "countryLetterCode": "US",
-    "postalCode": "31772"
-  },
-  "phoneNumber": "",
-  "email": "jim.glynn@cronuscorp.net",
-  "website": "",
-  "taxLiable": true,
-  "taxAreaId": "taxAreaId-value",
-  "taxAreaDisplayName": "tax area",
-  "taxRegistrationNumber": "28012001T",
-  "currencyCode": "USD",
-  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
-  "shipmentMethod": null,
-  "paymentMethod": {
-    "code": "BANK",
-    "description": "Bank Transfer"
-  },
-  "blocked": " ",
-  "balance": 0,
-  "overdueAmount": 0,
-  "totalSalesExcludingTax": 0,
-  "lastModifiedDateTime": "2017-03-07T00:35:28.983Z"
+    "country": "US",
+    "postalCode": "31772",
+    "phoneNumber": "",
+    "email": "robert.townes@contoso.com",
+    "website": "",
+    "taxLiable": true,
+    "taxAreaId": "90196a90-44e3-ea11-bb43-000d3a2feca1",
+    "taxAreaDisplayName": "ATLANTA, GA",
+    "taxRegistrationNumber": "",
+    "currencyId": "00000000-0000-0000-0000-000000000000",
+    "currencyCode": "USD",
+    "paymentTermsId": "04a5738a-44e3-ea11-bb43-000d3a2feca1",
+    "shipmentMethodId": "00000000-0000-0000-0000-000000000000",
+    "paymentMethodId": "3b196a90-44e3-ea11-bb43-000d3a2feca1",
+    "blocked": " ",
+    "lastModifiedDateTime": "2020-08-21T07:38:44.293Z"
 }
 ```
 
