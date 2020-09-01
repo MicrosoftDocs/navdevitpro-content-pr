@@ -1,5 +1,5 @@
 ---
-title: customerPayments resource type | Microsoft Docs
+title: customerPayment resource type | Microsoft Docs
 description: A customer payments object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
@@ -9,11 +9,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# customerPayments resource type
+# customerPayment resource type
 Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
@@ -23,10 +23,19 @@ Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365f
 
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
-|[GET customerPayments](../api/dynamics_customerpayment_get.md)|customerPayments|Gets a customer payment.|
-|[POST customerPayments](../api/dynamics_create_customerpayment.md)|customerPayments|Creates a customer payment.|
-|[PATCH customerPayments](../api/dynamics_customerpayment_update.md)|customerPayments|Updates a customer payment.|
-|[DELETE customerPayments](../api/dynamics_customerpayment_delete.md)|none|Deletes a customer payment.|
+|[GET customerPayment](../api/dynamics_customerpayment_get.md)|customerPayment|Gets a customer payment.|
+|[POST customerPayment](../api/dynamics_create_customerpayment.md)|customerPayment|Creates a customer payment.|
+|[PATCH customerPayment](../api/dynamics_customerpayment_update.md)|customerPayment|Updates a customer payment.|
+|[DELETE customerPayment](../api/dynamics_customerpayment_delete.md)|none|Deletes a customer payment.|
+
+
+## Navigation
+
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[customer](../resources/dynamics_customer.md)|customer   |Gets the customer of the customerPayment.|
+
+
 
 ## Properties
 
@@ -48,36 +57,28 @@ Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |lastModifiedDateTime|datetime|The last datetime the customer payment was modified. Read-Only.|
 
 
-## Relationships
-A customer payment is a subpage of a customer payments journal. It cannot be accessed directly.
-
-A customer payment can be a "Parent Entity" of the dimension lines.
-
-A Customer (customerId) must exist in the Customers table.
-
-An Invoice (appliesToInvoiceId) must exist in the Sales Invoices Table.
-
-
 ## JSON representation
 
 Here is a JSON representation of the resource.
 
 ```json
 {
-    "id": "GUID",
-    "lineNumber": "integer",
-    "customerId": "GUID",
-    "customerNumber": "string",
-    "contactId": "string",
-    "postingDate": "date",
-    "documentNumber": "string",
-    "externalDocumentNumber": "string",
-    "amount": "decimal",
-    "appliesToInvoiceId": "GUID",
-    "appliesToInvoiceNumber": "string",
-    "description": "string",
-    "comment": "string",
-    "lastModifiedDateTime": "datetime"
+   "id": "GUID",
+   "journalDisplayName": "string",
+   "lineNumber": "integer",
+   "customerId": "GUID",
+   "customerNumber": "string",
+   "contactId": "string",
+   "postingDate": "date",
+   "documentNumber": "string",
+   "externalDocumentNumber": "string",
+   "amount": "decimal",
+   "appliesToInvoiceId": "GUID",
+   "appliesToInvoiceNumber": "string",
+   "description": "string",
+   "comment": "string",
+   "dimensions": "dimensionType)",
+   "lastModifiedDateTime": "datetime"
 }
 ```
 

@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
  
@@ -25,6 +25,15 @@ Represents the information specified for the current company in [!INCLUDE[d365fi
 |:---------------|:-------------|:----------|
 |[GET companyInformation](../api/dynamics_companyinformation_get.md)|companyInformation|Gets a company information.|
 |[PATCH companyInformation](../api/dynamics_companyinformation_update.md)|companyInformation|Updates a company information.|
+
+
+
+## Navigation
+
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion   |Gets the countryregion of the companyInformation.|
+
 
 
 ## Properties
@@ -46,27 +55,29 @@ Represents the information specified for the current company in [!INCLUDE[d365fi
 |lastModifiedDateTime|datetime|The last datetime the company was modified. Read-Only.|  
 
 
-## Relationships
-None
-
 ## JSON representation
 
 Here is a JSON representation of the companyInformation
 ```json
 {
-  "id": "GUID",
-  "displayName": "string",
-  "address": "NAV.PostalAddress",
-  "phoneNumber": "string",
-  "faxNumber": "string",
-  "email": "string",
-  "website": "string",
-  "taxRegistrationNumber": "string",
-  "currencyCode": "string",
-  "currentFiscalYearStartDate": "date",
-  "industry": "string",
-  "picture": "stream",
-  "lastModifiedDateTime": "datetime"
+   "id": "GUID",
+   "displayName": "string",
+   "addressLine1": "string",
+   "addressLine2": "string",
+   "city": "string",
+   "state": "string",
+   "country": "string",
+   "postalCode": "string",
+   "phoneNumber": "string",
+   "faxNumber": "string",
+   "email": "string",
+   "website": "string",
+   "taxRegistrationNumber": "string",
+   "currencyCode": "string",
+   "currentFiscalYearStartDate": "date",
+   "industry": "string",
+   "picture": "stream",
+   "lastModifiedDateTime": "datetime"
 }
 ```
 

@@ -1,5 +1,5 @@
 ---
-title: customers resource type | Microsoft Docs
+title: customer resource type | Microsoft Docs
 description: Represents a customer in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-businesscentral
@@ -7,11 +7,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# customers resource type
+# customer resource type
 Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
@@ -21,26 +21,26 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 
 | Method          |Return Type| Description      |
 |:----------------|:----------|:-----------------|
-|[GET customers](../api/dynamics_customer_get.md)      |customers   |Gets a customer.   |
-|[POST customers](../api/dynamics_create_customer.md)|customers   |Creates a customer.|
-|[PATCH customers](../api/dynamics_customer_update.md)|customers   |Updates a customer.|
-|[DELETE customers](../api/dynamics_customer_delete.md)|none        |Deletes a customer.|
+|[GET customer](../api/dynamics_customer_get.md)      |customer   |Gets a customer.   |
+|[POST customer](../api/dynamics_create_customer.md)|customer   |Creates a customer.|
+|[PATCH customer](../api/dynamics_customer_update.md)|customer   |Updates a customer.|
+|[DELETE customer](../api/dynamics_customer_delete.md)|none        |Deletes a customer.|
 
 
 
-## Navigation 
+## Navigation
 
-| Navigation    |Return Type| Description      |
+| Navigation |Return Type| Description |
 |:----------|:----------|:-----------------|
-|[agedAccountsReceivable](../resources/dynamics_agedAccountsReceivables.md)|agedAccountsReceivable   |Gets the agedAccountsReceivable of customer. |
-|[countryRegion](../resources/dynamics_countryRegion.md)|countryRegion   |Gets the countryRegion of customer. |
-|[customerFinancialDetail](../resources/dynamics_customerfinancialdetails.md)|customerFinancialDetail   |Gets the customerFinancialDetails of customer. |
-|[currency](../resources/dynamics_currencies.md)|currency   |Gets the currency of customer. |
-|[defaultDimensions](../resources/dynamics_defaultDimension.md)|defaultDimension   |Gets the defaultDimension of customer. |
-|[paymentMethod](../resources/dynamics_paymentmethods.md)|paymentMethod   |Gets the paymentMethod of customer. |
-|[paymentTerm](../resources/dynamics_paymentTerms.md)|paymentTerm   |Gets the paymentTerm of customer. |
-|[picture](../resources/dynamics_picture.md)|picture   |Gets the picture of customer. |
-|[shipmentMethod](../resources/dynamics_shipmentmethods.md)|shipmentMethod   |Gets the shipmentMethod of customer. |
+|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion   |Gets the countryregion of the customer.|
+|[currency](../resources/dynamics_currency.md)|currency   |Gets the currency of the customer.|
+|[paymentTerm](../resources/dynamics_paymentterm.md)|paymentTerm   |Gets the paymentterm of the customer.|
+|[shipmentMethod](../resources/dynamics_shipmentmethod.md)|shipmentMethod   |Gets the shipmentmethod of the customer.|
+|[paymentMethod](../resources/dynamics_paymentmethod.md)|paymentMethod   |Gets the paymentmethod of the customer.|
+|[customerFinancialDetails](../resources/dynamics_customerfinancialdetails.md)|customerFinancialDetails   |Gets the customerfinancialdetails of the customer.|
+|[picture](../resources/dynamics_picture.md)|picture   |Gets the picture of the customer.|
+|[defaultDimensions](../resources/dynamics_defaultdimensions.md)|defaultDimensions   |Gets the defaultdimensions of the customer.|
+|[agedAccountsReceivable](../resources/dynamics_agedaccountsreceivable.md)|agedAccountsReceivable   |Gets the agedaccountsreceivable of the customer.|
 
 ## Properties
 
@@ -77,30 +77,30 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-    "id": "GUID",
-    "number": "string",
-    "displayName": "string",
-    "type": NAV.contactType,
-    "addressLine1": "string",
-    "addressLine2": "string",
-    "city": "string",
-    "state": "string",
-    "postalCode": "string",
-    "phoneNumber": "string",
-    "email": "string",
-    "website": "string",
-    "taxLiable": "boolean",
-    "taxAreaId": "GUID",
-    "taxAreaDisplayName": "string",
-    "taxRegistrationNumber": "string",
-    "currencyId": "string",
-    "currencyCode": "string",
-    "paymentTermsId": "GUID",
-    "shipmentMethodId": "GUID",
-    "paymentMethodId":  "GUID",
-    "blocked": "string",
-    "balance": "decimal",
-    "lastModifiedDateTime": "datetime"
+   "id": "GUID",
+   "number": "string",
+   "displayName": "string",
+   "type": "contactType",
+   "addressLine1": "string",
+   "addressLine2": "string",
+   "city": "string",
+   "state": "string",
+   "country": "string",
+   "postalCode": "string",
+   "phoneNumber": "string",
+   "email": "string",
+   "website": "string",
+   "taxLiable": "boolean",
+   "taxAreaId": "GUID",
+   "taxAreaDisplayName": "string",
+   "taxRegistrationNumber": "string",
+   "currencyId": "GUID",
+   "currencyCode": "string",
+   "paymentTermsId": "GUID",
+   "shipmentMethodId": "GUID",
+   "paymentMethodId": "GUID",
+   "blocked": "boolean",
+   "lastModifiedDateTime": "datetime"
 }
 ```
 ## See also

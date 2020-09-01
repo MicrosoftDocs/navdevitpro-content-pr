@@ -1,5 +1,5 @@
 ---
-title: journalLines resource type | Microsoft Docs
+title: journalLine resource type | Microsoft Docs
 description: A journal line in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
@@ -9,11 +9,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# journalLines resource type
+# journalLine resource type
 Represents a line in a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
@@ -23,19 +23,19 @@ Represents a line in a journal in [!INCLUDE[d365fin_long_md](../../includes/d365
 
 | Method                                                    | Return Type|Description         |
 |:----------------------------------------------------------|:-----------|:-------------------|
-|[GET journalLines](../api/dynamics_journalline_get.md)      |journalLines|Gets a journal line.   |
-|[POST journalLines](../api/dynamics_create_journalline.md)  |journalLines|Creates a journal line.|
-|[PATCH journalLines](../api/dynamics_journalline_update.md) |journalLines|Updates a journal line.|
-|[DELETE journalLines](../api/dynamics_journalline_delete.md)|none        |Deletes a journal line.|
+|[GET journalLine](../api/dynamics_journalline_get.md)      |journalLine|Gets a journal line.   |
+|[POST journalLine](../api/dynamics_create_journalline.md)  |journalLine|Creates a journal line.|
+|[PATCH journalLine](../api/dynamics_journalline_update.md) |journalLine|Updates a journal line.|
+|[DELETE journalLine](../api/dynamics_journalline_delete.md)|none        |Deletes a journal line.|
 
 
-## Navigation 
+## Navigation
 
-| Method                                                    |Description         |
-|:----------------------------------------------------------|:-------------------|
-|[attachments](../resources/dynamics_attachment.md)|paymentTerm   |Attach documents to journalLine. |
-|[account](../resources/dynamics_account.md)|paymentMethod   |Gets the account. |
-
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[account](../resources/dynamics_account.md)|account   |Gets the account of the journalLine.|
+|[attachments](../resources/dynamics_attachments.md)|attachments   |Gets the attachments of the journalLine.|
+|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the journalLine.|
 
 ## Properties
 
@@ -54,14 +54,6 @@ Represents a line in a journal in [!INCLUDE[d365fin_long_md](../../includes/d365
 |comment               |string, maximum size 250|A user specified comment on the journal line.                      |
 |lastModifiedDateTime  |datetime                |The last datetime the journal line was modified. Read-Only.        |
 
-## Relationships
-A journal line is a subpage of a journal. It cannot be accessed directly.
-
-A journal line can be a "Parent Entity" of the dimension lines.
-
-An Account (accountId) must exist in the Accounts table.
-
-
 ## JSON representation
 
 Here is a JSON representation of the resource.
@@ -69,18 +61,19 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-    "id": "GUID",
-    "journalDisplayName": "string",
-    "lineNumber": "integer",
-    "accountId": "GUID",
-    "accountNumber": "string",
-    "postingDate": "date",
-    "documentNumber": "string",
-    "externalDocumentNumber": "string",
-    "amount": "decimal",
-    "description": "string",
-    "comment": "string",
-    "lastModifiedDateTime": "datetime"
+   "id": "GUID",
+   "journalDisplayName": "string",
+   "lineNumber": "integer",
+   "accountType": "string",
+   "accountId": "GUID",
+   "accountNumber": "string",
+   "postingDate": "date",
+   "documentNumber": "string",
+   "externalDocumentNumber": "string",
+   "amount": "decimal",
+   "description": "string",
+   "comment": "string",
+   "lastModifiedDateTime": "datetime"
 }
 ```
 

@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
@@ -25,6 +25,15 @@ Represents a trial balance in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |:---------------|:--------|:----------|
 |[GET trialBalance](../api/dynamics_trialbalance_get.md)|trialBalance|Gets a trial balance object.|
 
+
+## Navigation
+
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[account](../resources/dynamics_account.md)|account   |Gets the account of the trialBalance.|
+
+
+
 ## Properties
 
 | Property     | Type   |Description|
@@ -38,9 +47,6 @@ Represents a trial balance in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |dateFilter|date|The date filter used to calculate the trialBalance items.|
 
 
-## Relationships
-None
-
 ## JSON representation
 
 Here is a JSON representation of the resource.
@@ -48,13 +54,15 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-    "number": "string",
-    "display": "string",
-    "totalDebit": "string",
-    "totalCredit": "string",
-    "balanceAtDateDebit": "string",
-    "balanceAtDateCredit": "string",
-    "dateFilter": "date"
+   "accountId": "GUID",
+   "number": "string",
+   "accountType": "string",
+   "display": "string",
+   "totalDebit": "string",
+   "totalCredit": "string",
+   "balanceAtDateDebit": "string",
+   "balanceAtDateCredit": "string",
+   "dateFilter": "date"
 }
 ```
 ## See also

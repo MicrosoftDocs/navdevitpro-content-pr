@@ -1,6 +1,6 @@
 ---
-title: timeRegistrationEntry resource type | Microsoft Docs
-description: An timeRegistrationEntry object in Dynamics 365 Business Central.
+title: currency resource type | Microsoft Docs
+description: An currency object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
 
@@ -13,8 +13,8 @@ ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# timeRegistrationEntry resource type
-Represents an timeRegistrationEntry in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+# currency resource type
+Represents an currency in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -35,12 +35,9 @@ Represents an timeRegistrationEntry in [!INCLUDE[d365fin_long_md](../../includes
 
 | Navigation |Return Type| Description |
 |:----------|:----------|:-----------------|
-|[employee](../resources/dynamics_employee.md)|employee   |Gets the employee of the timeRegistrationEntry.|
-|[project](../resources/dynamics_project.md)|project   |Gets the project of the timeRegistrationEntry.|
-|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure   |Gets the unitofmeasure of the timeRegistrationEntry.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the timeRegistrationEntry.|
-
-
+|[account](../resources/dynamics_account.md)|account   |Gets the account of the currency.|
+|[attachments](../resources/dynamics_attachments.md)|attachments   |Gets the attachments of the currency.|
+|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the currency.|
 
 ## Properties
 
@@ -65,18 +62,12 @@ Here is a JSON representation of the resource.
 ```json
 {
    "id": "GUID",
-   "employeeId": "GUID",
-   "employeeNumber": "string",
-   "jobId": "GUID",
-   "jobNumber": "string",
-   "absence": "string",
-   "lineNumber": "integer",
-   "date": "date",
-   "quantity": "decimal",
-   "status": "string",
-   "unitOfMeasureId": "GUID",
-   "unitOfMeasureCode": "string",
-   "lastModfiedDateTime": "datetime"
+   "code": "string",
+   "displayName": "string",
+   "symbol": "string",
+   "amountDecimalPlaces": "string",
+   "amountRoundingPrecision": "decimal",
+   "lastModifiedDateTime": "datetime"
 }
 ```
 ## See also

@@ -1,5 +1,5 @@
 ---
-title: accounts resource type | Microsoft Docs
+title: account resource type | Microsoft Docs
 description: An account object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
@@ -9,11 +9,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# accounts resource type
+# account resource type
 Represents an account object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
@@ -23,7 +23,7 @@ Represents an account object in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET accounts](../api/dynamics_account_get.md)|accounts|Get accounts object.|
+|[GET account](../api/dynamics_account_get.md)|account|Get account object.|
 
 ## Properties
 
@@ -38,9 +38,6 @@ Represents an account object in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 |lastModifiedDateTime|datetime|The last datetime the account was modified.|
 
 
-## Relationships
-None
-
 ## JSON representation
 
 Here is a JSON representation of the resource.
@@ -48,17 +45,17 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-  "id": "GUID",
-  "number": "string",
-  "displayName": "string",
-  "category": "string",
-  "subCategory": "string",
-  "blocked": "boolean",
-  "lastModifiedDateTime": "datetime"
+   "id": "GUID",
+   "number": "string",
+   "displayName": "string",
+   "category": "string",
+   "subCategory": "string",
+   "blocked": "boolean",
+   "lastModifiedDateTime": "datetime"
 }
 ```
 ## See also
   
 [Get Account](../api/dynamics_account_get.md)  
-[Aged Accounts Payable](dynamics_agedaccountspayable.md)  
-[Aged Accounts Receivable](dynamics_agedaccountsreceivable.md)  
+[Aged Accounts Payable](dynamics_agedaccountpayable.md)  
+[Aged Accounts Receivable](dynamics_agedaccountreceivable.md)  

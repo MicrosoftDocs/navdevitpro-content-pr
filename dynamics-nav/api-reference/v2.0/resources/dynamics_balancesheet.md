@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
@@ -37,9 +37,6 @@ Represents a balanceSheet object in [!INCLUDE[d365fin_long_md](../../includes/d3
 |dateFilter    |date    |The date filter used to calculate the balanceSheet items.|
 
 
-## Relationships
-None
-
 ## JSON representation
 
 Here is a JSON representation of the resource.
@@ -47,12 +44,13 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-    "lineNumber": "int",
-    "display": "string",
-    "balance": "decimal",
-    "lineType": "string",
-    "indentation": "int",
-    "dateFilter": "date"
+   "id": "GUID",
+   "lineNumber": "integer",
+   "display": "string",
+   "balance": "decimal",
+   "lineType": "invoiceLineAggLineType",
+   "indentation": "integer",
+   "dateFilter": "date"
 }
 ```
 ## See also

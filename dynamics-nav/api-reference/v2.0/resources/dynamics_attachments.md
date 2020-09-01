@@ -1,5 +1,5 @@
 ---
-title: salesInvoiceLine resource type | Microsoft Docs
+title: attachments resource type | Microsoft Docs
 description: A sales invoice line in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
@@ -13,7 +13,7 @@ ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# salesInvoiceLine resource type
+# attachments resource type
 Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
@@ -23,24 +23,23 @@ Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../include
 
 | Method                                                                | Return Type      | Description                    |
 |:----------------------------------------------------------------------|:-----------------|:-------------------------------|
-|[GET salesInvoiceLine](../api/dynamics_salesinvoiceline_get.md)      |salesInvoiceLine|Gets a sales invoice line object   |
-|[POST salesInvoiceLine](../api/dynamics_create_salesinvoiceline.md)  |salesInvoiceLine|Creates a sales invoice line object.|
-|[PATCH salesInvoiceLine](../api/dynamics_salesinvoiceline_update.md) |salesInvoiceLine|Updated a sales invoice line object.|
-|[DELETE salesInvoiceLine](../api/dynamics_salesinvoiceline_delete.md)|none              |Deletes a sales invoice line object.|
+|[GET attachments](../api/dynamics_salesinvoiceline_get.md)      |attachments|Gets a sales invoice line object   |
+|[POST attachments](../api/dynamics_create_salesinvoiceline.md)  |attachments|Creates a sales invoice line object.|
+|[PATCH attachments](../api/dynamics_salesinvoiceline_update.md) |attachments|Updated a sales invoice line object.|
+|[DELETE attachments](../api/dynamics_salesinvoiceline_delete.md)|none              |Deletes a sales invoice line object.|
 
 
 ## Navigation
 
 | Navigation |Return Type| Description |
 |:----------|:----------|:-----------------|
-|[salesInvoice](../resources/dynamics_salesinvoice.md)|salesInvoice   |Gets the salesinvoice of the salesInvoiceLine.|
-|[item](../resources/dynamics_item.md)|item   |Gets the item of the salesInvoiceLine.|
-|[account](../resources/dynamics_account.md)|account   |Gets the account of the salesInvoiceLine.|
-|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure   |Gets the unitofmeasure of the salesInvoiceLine.|
-|[itemVariant](../resources/dynamics_itemvariant.md)|itemVariant   |Gets the itemvariant of the salesInvoiceLine.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the salesInvoiceLine.|
-
-
+|[salesInvoice](../resources/dynamics_salesinvoice.md)|salesInvoice   |Gets the salesinvoice of the attachments.|
+|[journalLine](../resources/dynamics_journalline.md)|journalLine   |Gets the journalline of the attachments.|
+|[generalLedgerEntry](../resources/dynamics_generalledgerentry.md)|generalLedgerEntry   |Gets the generalledgerentry of the attachments.|
+|[salesOrder](../resources/dynamics_salesorder.md)|salesOrder   |Gets the salesorder of the attachments.|
+|[salesQuote](../resources/dynamics_salesquote.md)|salesQuote   |Gets the salesquote of the attachments.|
+|[salesCreditMemo](../resources/dynamics_salescreditmemo.md)|salesCreditMemo   |Gets the salescreditmemo of the attachments.|
+|[purchaseInvoice](../resources/dynamics_purchaseinvoice.md)|purchaseInvoice   |Gets the purchaseinvoice of the attachments.|
 
 ## Properties
 
@@ -80,28 +79,9 @@ Here is a JSON representation of the resource.
   "value": [
     {
    "id": "GUID",
-   "documentId": "GUID",
-   "sequence": "integer",
-   "itemId": "GUID",
-   "accountId": "GUID",
-   "lineType": "invoiceLineAggLineType",
-   "lineObjectNumber": "string",
-   "description": "string",
-   "unitOfMeasureId": "GUID",
-   "unitOfMeasureCode": "string",
-   "unitPrice": "decimal",
-   "quantity": "decimal",
-   "discountAmount": "decimal",
-   "discountPercent": "decimal",
-   "discountAppliedBeforeTax": "boolean",
-   "amountExcludingTax": "decimal",
-   "taxCode": "string",
-   "taxPercent": "decimal",
-   "totalTaxAmount": "decimal",
-   "amountIncludingTax": "decimal",
-   "invoiceDiscountAllocation": "decimal",
-   "netAmount": "decimal",
-   "netTaxAmount": "decimal",
-   "netAmountIncludingTax": "decimal",
-   "shipmentDate": "date",
-   "itemVariantId": "GUID"
+   "parentId": "GUID",
+   "fileName": "string",
+   "byteSize": "integer",
+   "attachmentContent": "stream",
+   "lastModifiedDateTime": "datetime",
+   "parentType": "string"

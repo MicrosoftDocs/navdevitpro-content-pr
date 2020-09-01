@@ -1,5 +1,5 @@
 ---
-title: purchaseInvoiceLine resource type | Microsoft Docs
+title: customerSale resource type | Microsoft Docs
 description: A purchase invoice line object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
@@ -13,7 +13,7 @@ ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# purchaseInvoiceLine resource type
+# customerSale resource type
 Represents a line on a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
@@ -23,22 +23,22 @@ Represents a line on a purchase invoice in [!INCLUDE[d365fin_long_md](../../incl
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET purchaseInvoiceLine](../api/dynamics_purchaseinvoiceline_get.md)|purchaseInvoiceLine|Gets a purchase invoice line object.|
-|[POST purchaseInvoiceLine](../api/dynamics_create_purchaseinvoiceline.md)|purchaseInvoiceLine|Creates a purchase invoice line object.|
-|[PATCH purchaseInvoiceLine](../api/dynamics_purchaseinvoiceline_update.md)|purchaseInvoiceLine|Updates a purchase invoice line object.|
-|[DELETE purchaseInvoiceLine](../api/dynamics_purchaseinvoiceline_delete.md)|none   |Deletes a purchase invoice line object.|
+|[GET customerSale](../api/dynamics_purchaseinvoiceline_get.md)|customerSale|Gets a purchase invoice line object.|
+|[POST customerSale](../api/dynamics_create_purchaseinvoiceline.md)|customerSale|Creates a purchase invoice line object.|
+|[PATCH customerSale](../api/dynamics_purchaseinvoiceline_update.md)|customerSale|Updates a purchase invoice line object.|
+|[DELETE customerSale](../api/dynamics_purchaseinvoiceline_delete.md)|none   |Deletes a purchase invoice line object.|
 
 
 ## Navigation
 
 | Navigation |Return Type| Description |
 |:----------|:----------|:-----------------|
-|[purchaseInvoice](../resources/dynamics_purchaseinvoice.md)|purchaseInvoice   |Gets the purchaseinvoice of the purchaseInvoiceLine.|
-|[item](../resources/dynamics_item.md)|item   |Gets the item of the purchaseInvoiceLine.|
-|[account](../resources/dynamics_account.md)|account   |Gets the account of the purchaseInvoiceLine.|
-|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure   |Gets the unitofmeasure of the purchaseInvoiceLine.|
-|[itemVariant](../resources/dynamics_itemvariant.md)|itemVariant   |Gets the itemvariant of the purchaseInvoiceLine.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the purchaseInvoiceLine.|
+|[purchaseInvoice](../resources/dynamics_purchaseinvoice.md)|purchaseInvoice   |Gets the purchaseinvoice of the customerSale.|
+|[item](../resources/dynamics_item.md)|item   |Gets the item of the customerSale.|
+|[account](../resources/dynamics_account.md)|account   |Gets the account of the customerSale.|
+|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure   |Gets the unitofmeasure of the customerSale.|
+|[itemVariant](../resources/dynamics_itemvariant.md)|itemVariant   |Gets the itemvariant of the customerSale.|
+|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the customerSale.|
 
 
 
@@ -78,29 +78,8 @@ Here is a JSON representation of the resource.
 ```json
   "value": [
     {
-   "id": "GUID",
-   "documentId": "GUID",
-   "sequence": "integer",
-   "itemId": "GUID",
-   "accountId": "GUID",
-   "lineType": "invoiceLineAggLineType",
-   "lineObjectNumber": "string",
-   "description": "string",
-   "unitOfMeasureId": "GUID",
-   "unitOfMeasureCode": "string",
-   "unitCost": "decimal",
-   "quantity": "decimal",
-   "discountAmount": "decimal",
-   "discountPercent": "decimal",
-   "discountAppliedBeforeTax": "boolean",
-   "amountExcludingTax": "decimal",
-   "taxCode": "string",
-   "taxPercent": "decimal",
-   "totalTaxAmount": "decimal",
-   "amountIncludingTax": "decimal",
-   "invoiceDiscountAllocation": "decimal",
-   "netAmount": "decimal",
-   "netTaxAmount": "decimal",
-   "netAmountIncludingTax": "decimal",
-   "expectedReceiptDate": "date",
-   "itemVariantId": "GUID"
+   "customerId": "GUID",
+   "customerNumber": "string",
+   "name": "string",
+   "totalSalesAmount": "decimal",
+   "dateFilter_FilterOnly": "date"

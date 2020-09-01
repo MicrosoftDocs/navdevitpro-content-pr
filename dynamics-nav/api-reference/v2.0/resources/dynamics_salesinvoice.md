@@ -1,5 +1,5 @@
 ---
-title: salesInvoices resource type | Microsoft Docs
+title: salesInvoice resource type | Microsoft Docs
 description: A sales invoice object in Dynamics 365 Business Central. 
  
 author: SusanneWindfeldPedersen
@@ -9,11 +9,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# salesInvoices resource type
+# salesInvoice resource type
 Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
 
 > [!NOTE]  
@@ -23,23 +23,24 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 
 | Method                                                       | Return Type |Description                    |
 |:-------------------------------------------------------------|:------------|:------------------------------|
-|[GET salesInvoices](../api/dynamics_salesinvoice_get.md)      |salesInvoices|Gets a sales invoice object.   |
-|[POST salesInvoices](../api/dynamics_create_salesinvoice.md)  |salesInvoices|Creates a sales invoice object.|
-|[PATCH salesInvoices](../api/dynamics_salesinvoice_update.md) |salesInvoices|Updates a sales invoice object.|
-|[DELETE salesInvoices](../api/dynamics_salesinvoice_delete.md)|none         |Deletes a sales invoice object.|
+|[GET salesInvoice](../api/dynamics_salesinvoice_get.md)      |salesInvoice|Gets a sales invoice object.   |
+|[POST salesInvoice](../api/dynamics_create_salesinvoice.md)  |salesInvoice|Creates a sales invoice object.|
+|[PATCH salesInvoice](../api/dynamics_salesinvoice_update.md) |salesInvoice|Updates a sales invoice object.|
+|[DELETE salesInvoice](../api/dynamics_salesinvoice_delete.md)|none         |Deletes a sales invoice object.|
 
-## Navigation 
+## Navigation
 
-|Navigation          |Return type   |Description         |
-|----------------|--------------|--------------------|
-|[pdfDocument](../api/dynamics_salesquote_pdfdocument.md)|pdfDocument|Gets a PDF document.|
-|[currency](../resources/dynamics_currencies.md)|currency   |Gets the currency. |
-|[paymentTerm](../resources/dynamics_paymentTerms.md)|paymentTerm   |Gets the paymentTerm. |
-|[shipmentMethod](../resources/dynamics_shipmentMethods.md)|shipmentMethod  |Gets the method of shipment. |
-|[customer](../resources/dynamics_customer.md)|customer   |Gets the customer. |
-|[salesInvoiceLines](../resources/dynamics_salesinvoiceline.md)|salesInvoiceLines   |Gets a line on a sales invoice. |
-
-
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[customer](../resources/dynamics_customer.md)|customer   |Gets the customer of the salesInvoice.|
+|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion   |Gets the countryregion of the salesInvoice.|
+|[currency](../resources/dynamics_currency.md)|currency   |Gets the currency of the salesInvoice.|
+|[paymentTerm](../resources/dynamics_paymentterm.md)|paymentTerm   |Gets the paymentterm of the salesInvoice.|
+|[shipmentMethod](../resources/dynamics_shipmentmethod.md)|shipmentMethod   |Gets the shipmentmethod of the salesInvoice.|
+|[salesInvoiceLines](../resources/dynamics_salesinvoicelines.md)|salesInvoiceLines   |Gets the salesinvoicelines of the salesInvoice.|
+|[pdfDocument](../resources/dynamics_pdfdocument.md)|pdfDocument   |Gets the pdfdocument of the salesInvoice.|
+|[attachments](../resources/dynamics_attachments.md)|attachments   |Gets the attachments of the salesInvoice.|
+|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the salesInvoice.|
 
 ## Properties
 
@@ -85,17 +86,6 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |shippingPostalAddress|Microsoft.NAV.postalAddressType| Shipping postal adress|
 
 
-## Relationships
-A Currency (currencyCode) must exist in the Currencies table.
-
-A Payment Term (paymentTerms) must exist in the Payment Terms table.
-
-A Shipment Method (shipmentMethod) must exist in the Shipment Method table.
-
-A Customer (customerId) must exist in the Customer table.
-
-An Order (orderId) must exist in the Sales Orders table.
-
 ## JSON representation
 
 Here is a JSON representation of the resource.
@@ -103,32 +93,57 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-      "id": "GUID",
-      "number": "string",
-      "invoiceDate": "Date",
-      "dueDate": "Date",
-      "customerPurchaseOrderReference": "string",
-      "customerId": "GUID",
-      "contactId": "string",
-      "customerNumber": "string",
-      "customerName": "string",
-      "billingPostalAddress": {NAV.PostalAddress},
-      "currencyId": "GUID",
-      "currencyCode": "string",
-      "orderId": "GUID",
-      "orderNumber": "string",
-      "paymentTermsId": "GUID",
-      "shipmentMethodId": "GUID",
-      "shipmentMethod": "string",
-      "salesperson": "string",
-      "pricesIncludeTax": "boolean",
-      "discountAmount": "decimal",
-      "discountAppliedBeforeTax": "boolean",
-      "totalAmountExcludingTax": "decimal",
-      "totalTaxAmount": "decimal",
-      "totalAmountIncludingTax": "decimal",
-      "status": "string",
-      "lastModifiedDateTime": "DateTime"
+   "id": "GUID",
+   "number": "string",
+   "externalDocumentNumber": "string",
+   "invoiceDate": "date",
+   "postingDate": "date",
+   "dueDate": "date",
+   "customerPurchaseOrderReference": "string",
+   "customerId": "GUID",
+   "customerNumber": "string",
+   "customerName": "string",
+   "billToName": "string",
+   "billToCustomerId": "GUID",
+   "billToCustomerNumber": "string",
+   "shipToName": "string",
+   "shipToContact": "string",
+   "sellToAddressLine1": "string",
+   "sellToAddressLine2": "string",
+   "sellToCity": "string",
+   "sellToCountry": "string",
+   "sellToState": "string",
+   "sellToPostCode": "string",
+   "billToAddressLine1": "string",
+   "billToAddressLine2": "string",
+   "billToCity": "string",
+   "billToCountry": "string",
+   "billToState": "string",
+   "billToPostCode": "string",
+   "shipToAddressLine1": "string",
+   "shipToAddressLine2": "string",
+   "shipToCity": "string",
+   "shipToCountry": "string",
+   "shipToState": "string",
+   "shipToPostCode": "string",
+   "currencyId": "GUID",
+   "currencyCode": "string",
+   "orderId": "GUID",
+   "orderNumber": "string",
+   "paymentTermsId": "GUID",
+   "shipmentMethodId": "GUID",
+   "salesperson": "string",
+   "pricesIncludeTax": "boolean",
+   "remainingAmount": "decimal",
+   "discountAmount": "decimal",
+   "discountAppliedBeforeTax": "boolean",
+   "totalAmountExcludingTax": "decimal",
+   "totalTaxAmount": "decimal",
+   "totalAmountIncludingTax": "decimal",
+   "status": "string",
+   "lastModifiedDateTime": "datetime",
+   "phoneNumber": "string",
+   "email": "string"
 }
 ```
 ## See also

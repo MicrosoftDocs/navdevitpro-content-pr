@@ -1,5 +1,5 @@
 ---
-title: dimensionValue resource type | Microsoft Docs
+title: itemCategory resource type | Microsoft Docs
 description: A dimension value in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
@@ -13,7 +13,7 @@ ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# dimensionValue resource type
+# itemCategory resource type
 Represents a dimension value in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
@@ -23,7 +23,7 @@ Represents a dimension value in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 
 | Method       | Return Type  |Description                   |
 |:-------------|:-------------|:-----------------------------|
-|[GET dimensionValue](../api/dynamics_dimensionvalue_get.md)|dimensionValue|Gets a dimension value object.|
+|[GET itemCategory](../api/dynamics_dimensionvalue_get.md)|itemCategory|Gets a dimension value object.|
 
 
 ## Properties

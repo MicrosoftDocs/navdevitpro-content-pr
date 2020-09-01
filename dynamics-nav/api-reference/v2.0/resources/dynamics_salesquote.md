@@ -1,5 +1,5 @@
 ---
-title: salesQuotes resource type | Microsoft Docs
+title: salesQuote resource type | Microsoft Docs
 description: A sales quote object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
@@ -9,11 +9,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# salesQuotes resource type
+# salesQuote resource type
 Represents a salesQuote resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
@@ -23,16 +23,33 @@ Represents a salesQuote resource type in [!INCLUDE[d365fin_long_md](../../includ
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET salesQuotes](../api/dynamics_salesquote_get.md)|salesQuotes|Gets a sales quote object.|
-|[POST salesQuotes](../api/dynamics_create_salesquote.md)|salesQuotes|Creates a sales quote object.|
-|[PATCH salesQuotes](../api/dynamics_salesquote_update.md)|salesQuotes|Updates a sales quote object.|
-|[DELETE salesQuotes](../api/dynamics_salesquote_delete.md)|none|Deletes a sales quote object.|
+|[GET salesQuote](../api/dynamics_salesquote_get.md)|salesQuote|Gets a sales quote object.|
+|[POST salesQuote](../api/dynamics_create_salesquote.md)|salesQuote|Creates a sales quote object.|
+|[PATCH salesQuote](../api/dynamics_salesquote_update.md)|salesQuote|Updates a sales quote object.|
+|[DELETE salesQuote](../api/dynamics_salesquote_delete.md)|none|Deletes a sales quote object.|
 
 ## Bound actions
 
 |Action          |Return type   |Description         |
 |----------------|--------------|--------------------|
 |[GET pdfDocument](../api/dynamics_salesquote_pdfdocument.md)|pdfDocument|Gets a PDF document.|
+
+
+
+## Navigation
+
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[customer](../resources/dynamics_customer.md)|customer   |Gets the customer of the salesQuote.|
+|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion   |Gets the countryregion of the salesQuote.|
+|[currency](../resources/dynamics_currency.md)|currency   |Gets the currency of the salesQuote.|
+|[paymentTerm](../resources/dynamics_paymentterm.md)|paymentTerm   |Gets the paymentterm of the salesQuote.|
+|[shipmentMethod](../resources/dynamics_shipmentmethod.md)|shipmentMethod   |Gets the shipmentmethod of the salesQuote.|
+|[salesQuoteLines](../resources/dynamics_salesquotelines.md)|salesQuoteLines   |Gets the salesquotelines of the salesQuote.|
+|[pdfDocument](../resources/dynamics_pdfdocument.md)|pdfDocument   |Gets the pdfdocument of the salesQuote.|
+|[attachments](../resources/dynamics_attachments.md)|attachments   |Gets the attachments of the salesQuote.|
+|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the salesQuote.|
+
 
 
 ## Properties
@@ -77,15 +94,6 @@ Represents a salesQuote resource type in [!INCLUDE[d365fin_long_md](../../includ
 |lastModifiedDateTime|datetime|The last datetime the sales quote was modified. Read-Only.|
 
 
-## Relationships
-A Currency(currencyCode) must exist in the Currencies table.
-
-A Payment Term(paymentTerms) must exist in the Payment Terms table.
-
-A Shipment Method(shipmentMethod) must exist in the Shipment Method table.
-
-A Customer (customerId) must exist in the Customer table.
-
 ## JSON representation
 
 Here is a JSON representation of the resource.
@@ -93,31 +101,54 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-      "id": "GUID",
-      "number": "string",
-      "externalDocumentNumber": "string",
-      "documentDate": "Date",
-      "dueDate": "Date",
-      "customerId": "GUID",
-      "contactId": "string",
-      "customerNumber": "string",
-      "customerName": "string",
-      "billingPostalAddress": {NAV.PostalAddress},
-      "currencyId": "GUID",
-      "currencyCode": "string",
-      "paymentTermsId": "GUID",
-      "shipmentMethodId": "GUID",
-      "shipmentMethod": "string",
-      "salesperson": "string",
-      "discountAmount": "decimal",
-      "totalAmountExcludingTax": "decimal",
-      "totalTaxAmount": "decimal",
-      "totalAmountIncludingTax": "decimal",
-      "status": "string",
-      "sentDate": "DateTime",
-      "validUntilDate": "Date",
-      "acceptedDate": "Date",
-      "lastModifiedDateTime": "DateTime"
+   "id": "GUID",
+   "number": "string",
+   "externalDocumentNumber": "string",
+   "documentDate": "date",
+   "postingDate": "date",
+   "dueDate": "date",
+   "customerId": "GUID",
+   "customerNumber": "string",
+   "customerName": "string",
+   "billToName": "string",
+   "billToCustomerId": "GUID",
+   "billToCustomerNumber": "string",
+   "shipToName": "string",
+   "shipToContact": "string",
+   "sellToAddressLine1": "string",
+   "sellToAddressLine2": "string",
+   "sellToCity": "string",
+   "sellToCountry": "string",
+   "sellToState": "string",
+   "sellToPostCode": "string",
+   "billToAddressLine1": "string",
+   "billToAddressLine2": "string",
+   "billToCity": "string",
+   "billToCountry": "string",
+   "billToState": "string",
+   "billToPostCode": "string",
+   "shipToAddressLine1": "string",
+   "shipToAddressLine2": "string",
+   "shipToCity": "string",
+   "shipToCountry": "string",
+   "shipToState": "string",
+   "shipToPostCode": "string",
+   "currencyId": "GUID",
+   "currencyCode": "string",
+   "paymentTermsId": "GUID",
+   "shipmentMethodId": "GUID",
+   "salesperson": "string",
+   "discountAmount": "decimal",
+   "totalAmountExcludingTax": "decimal",
+   "totalTaxAmount": "decimal",
+   "totalAmountIncludingTax": "decimal",
+   "status": "string",
+   "sentDate": "datetime",
+   "validUntilDate": "date",
+   "acceptedDate": "date",
+   "lastModifiedDateTime": "datetime",
+   "phoneNumber": "string",
+   "email": "string"
 }
 ```
 ## See also

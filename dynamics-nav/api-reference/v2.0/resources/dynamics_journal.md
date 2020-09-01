@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
@@ -27,6 +27,16 @@ Represents a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |[POST journal](../api/dynamics_create_journal.md)  |journal    |Creates a journal.|
 |[PATCH journal](../api/dynamics_journal_update.md) |journal    |Updates a journal.|
 |[DELETE journal](../api/dynamics_journal_delete.md)|none       |Deletes a journal.|
+
+
+## Navigation
+
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[account](../resources/dynamics_account.md)|account   |Gets the account of the journal.|
+|[journalLines](../resources/dynamics_journallines.md)|journalLines   |Gets the journallines of the journal.|
+
+
 
 ## Properties
 
@@ -52,10 +62,12 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-  "id": "GUID",
-  "code": "string",
-  "displayName": "string",
-  "lastModifiedDateTime": "datetime"
+   "id": "GUID",
+   "code": "string",
+   "displayName": "string",
+   "lastModifiedDateTime": "datetime",
+   "balancingAccountId": "GUID",
+   "balancingAccountNumber": "string"
 }
 ```
 
