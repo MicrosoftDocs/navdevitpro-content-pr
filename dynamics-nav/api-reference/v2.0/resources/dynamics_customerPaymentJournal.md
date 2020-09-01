@@ -1,5 +1,5 @@
 ---
-title: salesInvoiceLine resource type | Microsoft Docs
+title: customerPaymentJournal resource type | Microsoft Docs
 description: A sales invoice line in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
@@ -13,7 +13,7 @@ ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# salesInvoiceLine resource type
+# customerPaymentJournal resource type
 Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
@@ -23,24 +23,18 @@ Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../include
 
 | Method                                                                | Return Type      | Description                    |
 |:----------------------------------------------------------------------|:-----------------|:-------------------------------|
-|[GET salesInvoiceLine](../api/dynamics_salesinvoiceline_get.md)      |salesInvoiceLine|Gets a sales invoice line object   |
-|[POST salesInvoiceLine](../api/dynamics_create_salesinvoiceline.md)  |salesInvoiceLine|Creates a sales invoice line object.|
-|[PATCH salesInvoiceLine](../api/dynamics_salesinvoiceline_update.md) |salesInvoiceLine|Updated a sales invoice line object.|
-|[DELETE salesInvoiceLine](../api/dynamics_salesinvoiceline_delete.md)|none              |Deletes a sales invoice line object.|
+|[GET customerPaymentJournal](../api/dynamics_salesinvoiceline_get.md)      |customerPaymentJournal|Gets a sales invoice line object   |
+|[POST customerPaymentJournal](../api/dynamics_create_salesinvoiceline.md)  |customerPaymentJournal|Creates a sales invoice line object.|
+|[PATCH customerPaymentJournal](../api/dynamics_salesinvoiceline_update.md) |customerPaymentJournal|Updated a sales invoice line object.|
+|[DELETE customerPaymentJournal](../api/dynamics_salesinvoiceline_delete.md)|none              |Deletes a sales invoice line object.|
 
 
 ## Navigation
 
 | Navigation |Return Type| Description |
 |:----------|:----------|:-----------------|
-|[salesInvoice](../resources/dynamics_salesinvoice.md)|salesInvoice   |Gets the salesinvoice of the salesInvoiceLine.|
-|[item](../resources/dynamics_item.md)|item   |Gets the item of the salesInvoiceLine.|
-|[account](../resources/dynamics_account.md)|account   |Gets the account of the salesInvoiceLine.|
-|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure   |Gets the unitofmeasure of the salesInvoiceLine.|
-|[itemVariant](../resources/dynamics_itemvariant.md)|itemVariant   |Gets the itemvariant of the salesInvoiceLine.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the salesInvoiceLine.|
-
-
+|[account](../resources/dynamics_account.md)|account   |Gets the account of the customerPaymentJournal.|
+|[customerPayments](../resources/dynamics_customerpayments.md)|customerPayments   |Gets the customerpayments of the customerPaymentJournal.|
 
 ## Properties
 
@@ -80,31 +74,11 @@ Here is a JSON representation of the resource.
   "value": [
     {
    "id": "GUID",
-   "documentId": "GUID",
-   "sequence": "integer",
-   "itemId": "GUID",
-   "accountId": "GUID",
-   "lineType": "invoiceLineAggLineType",
-   "lineObjectNumber": "string",
-   "description": "string",
-   "unitOfMeasureId": "GUID",
-   "unitOfMeasureCode": "string",
-   "unitPrice": "decimal",
-   "quantity": "decimal",
-   "discountAmount": "decimal",
-   "discountPercent": "decimal",
-   "discountAppliedBeforeTax": "boolean",
-   "amountExcludingTax": "decimal",
-   "taxCode": "string",
-   "taxPercent": "decimal",
-   "totalTaxAmount": "decimal",
-   "amountIncludingTax": "decimal",
-   "invoiceDiscountAllocation": "decimal",
-   "netAmount": "decimal",
-   "netTaxAmount": "decimal",
-   "netAmountIncludingTax": "decimal",
-   "shipmentDate": "date",
-   "itemVariantId": "GUID"
+   "code": "string",
+   "displayName": "string",
+   "lastModifiedDateTime": "datetime",
+   "balancingAccountId": "GUID",
+   "balancingAccountNumber": "string"
 }
   ]
 ```

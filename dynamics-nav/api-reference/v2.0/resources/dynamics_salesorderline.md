@@ -1,5 +1,5 @@
 ---
-title: salesOrderLines resource type | Microsoft Docs
+title: salesOrderLine resource type | Microsoft Docs
 description: A sales order line object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
@@ -9,11 +9,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# salesOrderLines resource type
+# salesOrderLine resource type
 Represents a line on a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
@@ -23,10 +23,24 @@ Represents a line on a sales order in [!INCLUDE[d365fin_long_md](../../includes/
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET salesOrderLines](../api/dynamics_salesorderline_get.md)|salesOrderLines|Gets a sales order line object.|
-|[POST salesOrderLines](../api/dynamics_create_salesorderline.md)|salesOrderLines|Creates a sales order line object.|
-|[PATCH salesOrderLines](../api/dynamics_salesorderline_update.md)|salesOrderLines|Updates a sales order line object.|
-|[DELETE salesOrderLines](../api/dynamics_salesorderline_delete.md)|none|Deletes a sales order line object.|
+|[GET salesOrderLine](../api/dynamics_salesorderline_get.md)|salesOrderLine|Gets a sales order line object.|
+|[POST salesOrderLine](../api/dynamics_create_salesorderline.md)|salesOrderLine|Creates a sales order line object.|
+|[PATCH salesOrderLine](../api/dynamics_salesorderline_update.md)|salesOrderLine|Updates a sales order line object.|
+|[DELETE salesOrderLine](../api/dynamics_salesorderline_delete.md)|none|Deletes a sales order line object.|
+
+
+## Navigation
+
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[salesOrder](../resources/dynamics_salesorder.md)|salesOrder   |Gets the salesorder of the salesOrderLine.|
+|[item](../resources/dynamics_item.md)|item   |Gets the item of the salesOrderLine.|
+|[account](../resources/dynamics_account.md)|account   |Gets the account of the salesOrderLine.|
+|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure   |Gets the unitofmeasure of the salesOrderLine.|
+|[itemVariant](../resources/dynamics_itemvariant.md)|itemVariant   |Gets the itemvariant of the salesOrderLine.|
+|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the salesOrderLine.|
+
+
 
 ## Properties
 
@@ -62,15 +76,6 @@ Represents a line on a sales order in [!INCLUDE[d365fin_long_md](../../includes/
 |invoiceQuantity|numeric|The quantity of items from the order to be invoiced.|
 |shipQuantity|numeric|The quantity of items from the order to be shipped.|
 
-## Relationships
-A Sales Order (documentId) must exist in the Sales Orders table.
-
-An Item (itemId) must exist in the Item table.
-
-An Account (accountId) must exist in the Accounts table.
-
-A Unit of Measure (unitOfMeasure) must exist in the Unit of Measure table.
-
 ## JSON representation
 
 Here is a JSON representation of the resource.
@@ -79,34 +84,37 @@ Here is a JSON representation of the resource.
 ```json
   "value": [
     {
-      "documentId": "GUID",
-      "sequence": "decimal",
-      "itemId": "GUID",
-      "accountId": "GUID",
-      "lineType": "string",
-      "lineDetails": {NAV.documentLineObjectDetails},
-      "description": "string",
-      "unitOfMeasure": {NAV.UnitOfMeasure},
-      "unitPrice": "decimal",
-      "quantity": "decimal",
-      "discountAmount": "decimal",
-      "discountPercent": "decimal",
-      "discountAppliedBeforeTax": "boolean",
-      "amountExcludingTax": "decimal",
-      "taxCode": "string",
-      "taxPercent": "decimal",
-      "totalTaxAmount": "decimal",
-      "amountIncludingTax": "decimal",
-      "invoiceDiscountAllocation": "decimal",
-      "netAmount": "decimal",
-      "netTaxAmount": "decimal",
-      "netAmountIncludingTax": "decimal",
-      "shipmentDate": "Date",
-      "shippedQuantity": "decimal",
-      "invoicedQuantity": "decimal",
-      "invoiceQuantity": "decimal",
-      "shipQuantity": "decimal"
-    }
+   "id": "GUID",
+   "documentId": "GUID",
+   "sequence": "integer",
+   "itemId": "GUID",
+   "accountId": "GUID",
+   "lineType": "invoiceLineAggLineType",
+   "lineObjectNumber": "string",
+   "description": "string",
+   "unitOfMeasureId": "GUID",
+   "unitOfMeasureCode": "string",
+   "quantity": "decimal",
+   "unitPrice": "decimal",
+   "discountAmount": "decimal",
+   "discountPercent": "decimal",
+   "discountAppliedBeforeTax": "boolean",
+   "amountExcludingTax": "decimal",
+   "taxCode": "string",
+   "taxPercent": "decimal",
+   "totalTaxAmount": "decimal",
+   "amountIncludingTax": "decimal",
+   "invoiceDiscountAllocation": "decimal",
+   "netAmount": "decimal",
+   "netTaxAmount": "decimal",
+   "netAmountIncludingTax": "decimal",
+   "shipmentDate": "date",
+   "shippedQuantity": "decimal",
+   "invoicedQuantity": "decimal",
+   "invoiceQuantity": "decimal",
+   "shipQuantity": "decimal",
+   "itemVariantId": "GUID"
+}
   ]
 ```
 

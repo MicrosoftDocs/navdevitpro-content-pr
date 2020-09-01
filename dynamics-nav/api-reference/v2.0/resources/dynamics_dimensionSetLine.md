@@ -1,5 +1,5 @@
 ---
-title: salesInvoiceLine resource type | Microsoft Docs
+title: dimensionSetLine resource type | Microsoft Docs
 description: A sales invoice line in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
@@ -13,7 +13,7 @@ ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# salesInvoiceLine resource type
+# dimensionSetLine resource type
 Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
@@ -23,24 +23,30 @@ Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../include
 
 | Method                                                                | Return Type      | Description                    |
 |:----------------------------------------------------------------------|:-----------------|:-------------------------------|
-|[GET salesInvoiceLine](../api/dynamics_salesinvoiceline_get.md)      |salesInvoiceLine|Gets a sales invoice line object   |
-|[POST salesInvoiceLine](../api/dynamics_create_salesinvoiceline.md)  |salesInvoiceLine|Creates a sales invoice line object.|
-|[PATCH salesInvoiceLine](../api/dynamics_salesinvoiceline_update.md) |salesInvoiceLine|Updated a sales invoice line object.|
-|[DELETE salesInvoiceLine](../api/dynamics_salesinvoiceline_delete.md)|none              |Deletes a sales invoice line object.|
+|[GET dimensionSetLine](../api/dynamics_salesinvoiceline_get.md)      |dimensionSetLine|Gets a sales invoice line object   |
+|[POST dimensionSetLine](../api/dynamics_create_salesinvoiceline.md)  |dimensionSetLine|Creates a sales invoice line object.|
+|[PATCH dimensionSetLine](../api/dynamics_salesinvoiceline_update.md) |dimensionSetLine|Updated a sales invoice line object.|
+|[DELETE dimensionSetLine](../api/dynamics_salesinvoiceline_delete.md)|none              |Deletes a sales invoice line object.|
 
 
 ## Navigation
 
 | Navigation |Return Type| Description |
 |:----------|:----------|:-----------------|
-|[salesInvoice](../resources/dynamics_salesinvoice.md)|salesInvoice   |Gets the salesinvoice of the salesInvoiceLine.|
-|[item](../resources/dynamics_item.md)|item   |Gets the item of the salesInvoiceLine.|
-|[account](../resources/dynamics_account.md)|account   |Gets the account of the salesInvoiceLine.|
-|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure   |Gets the unitofmeasure of the salesInvoiceLine.|
-|[itemVariant](../resources/dynamics_itemvariant.md)|itemVariant   |Gets the itemvariant of the salesInvoiceLine.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the salesInvoiceLine.|
-
-
+|[salesInvoice](../resources/dynamics_salesinvoice.md)|salesInvoice   |Gets the salesinvoice of the dimensionSetLine.|
+|[salesInvoiceLine](../resources/dynamics_salesinvoiceline.md)|salesInvoiceLine   |Gets the salesinvoiceline of the dimensionSetLine.|
+|[dimension](../resources/dynamics_dimension.md)|dimension   |Gets the dimension of the dimensionSetLine.|
+|[journalLine](../resources/dynamics_journalline.md)|journalLine   |Gets the journalline of the dimensionSetLine.|
+|[timeRegistrationEntry](../resources/dynamics_timeregistrationentry.md)|timeRegistrationEntry   |Gets the timeregistrationentry of the dimensionSetLine.|
+|[generalLedgerEntry](../resources/dynamics_generalledgerentry.md)|generalLedgerEntry   |Gets the generalledgerentry of the dimensionSetLine.|
+|[salesOrder](../resources/dynamics_salesorder.md)|salesOrder   |Gets the salesorder of the dimensionSetLine.|
+|[salesOrderLine](../resources/dynamics_salesorderline.md)|salesOrderLine   |Gets the salesorderline of the dimensionSetLine.|
+|[salesQuote](../resources/dynamics_salesquote.md)|salesQuote   |Gets the salesquote of the dimensionSetLine.|
+|[salesQuoteLine](../resources/dynamics_salesquoteline.md)|salesQuoteLine   |Gets the salesquoteline of the dimensionSetLine.|
+|[salesCreditMemo](../resources/dynamics_salescreditmemo.md)|salesCreditMemo   |Gets the salescreditmemo of the dimensionSetLine.|
+|[salesCreditMemoLine](../resources/dynamics_salescreditmemoline.md)|salesCreditMemoLine   |Gets the salescreditmemoline of the dimensionSetLine.|
+|[purchaseInvoice](../resources/dynamics_purchaseinvoice.md)|purchaseInvoice   |Gets the purchaseinvoice of the dimensionSetLine.|
+|[purchaseInvoiceLine](../resources/dynamics_purchaseinvoiceline.md)|purchaseInvoiceLine   |Gets the purchaseinvoiceline of the dimensionSetLine.|
 
 ## Properties
 
@@ -80,31 +86,13 @@ Here is a JSON representation of the resource.
   "value": [
     {
    "id": "GUID",
-   "documentId": "GUID",
-   "sequence": "integer",
-   "itemId": "GUID",
-   "accountId": "GUID",
-   "lineType": "invoiceLineAggLineType",
-   "lineObjectNumber": "string",
-   "description": "string",
-   "unitOfMeasureId": "GUID",
-   "unitOfMeasureCode": "string",
-   "unitPrice": "decimal",
-   "quantity": "decimal",
-   "discountAmount": "decimal",
-   "discountPercent": "decimal",
-   "discountAppliedBeforeTax": "boolean",
-   "amountExcludingTax": "decimal",
-   "taxCode": "string",
-   "taxPercent": "decimal",
-   "totalTaxAmount": "decimal",
-   "amountIncludingTax": "decimal",
-   "invoiceDiscountAllocation": "decimal",
-   "netAmount": "decimal",
-   "netTaxAmount": "decimal",
-   "netAmountIncludingTax": "decimal",
-   "shipmentDate": "date",
-   "itemVariantId": "GUID"
+   "code": "string",
+   "parentId": "GUID",
+   "parentType": "string",
+   "displayName": "string",
+   "valueId": "GUID",
+   "valueCode": "string",
+   "valueDisplayName": "string"
 }
   ]
 ```

@@ -1,5 +1,5 @@
 ---
-title: salesOrders resource type | Microsoft Docs
+title: salesOrder resource type | Microsoft Docs
 description: A sales order object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
@@ -9,11 +9,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# salesOrders resource type
+# salesOrder resource type
 Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
@@ -23,10 +23,26 @@ Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET salesOrders](../api/dynamics_salesorder_get.md)|salesOrders|Get a sales order object.|
-|[POST salesOrders](../api/dynamics_create_salesorder.md)|salesOrders|Create a sales order object.|
-|[PATCH salesOrders](../api/dynamics_salesorder_update.md)|salesOrders|Update a sales order object.|
-|[DELETE salesOrders](../api/dynamics_salesorder_delete.md)|none|Delete a sales order object.|
+|[GET salesOrder](../api/dynamics_salesorder_get.md)|salesOrder|Get a sales order object.|
+|[POST salesOrder](../api/dynamics_create_salesorder.md)|salesOrder|Create a sales order object.|
+|[PATCH salesOrder](../api/dynamics_salesorder_update.md)|salesOrder|Update a sales order object.|
+|[DELETE salesOrder](../api/dynamics_salesorder_delete.md)|none|Delete a sales order object.|
+
+
+## Navigation
+
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[customer](../resources/dynamics_customer.md)|customer   |Gets the customer of the salesOrder.|
+|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion   |Gets the countryregion of the salesOrder.|
+|[currency](../resources/dynamics_currency.md)|currency   |Gets the currency of the salesOrder.|
+|[paymentTerm](../resources/dynamics_paymentterm.md)|paymentTerm   |Gets the paymentterm of the salesOrder.|
+|[shipmentMethod](../resources/dynamics_shipmentmethod.md)|shipmentMethod   |Gets the shipmentmethod of the salesOrder.|
+|[salesOrderLines](../resources/dynamics_salesorderlines.md)|salesOrderLines   |Gets the salesorderlines of the salesOrder.|
+|[attachments](../resources/dynamics_attachments.md)|attachments   |Gets the attachments of the salesOrder.|
+|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the salesOrder.|
+
+
 
 ## Properties
 
@@ -66,15 +82,6 @@ Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |lastModifiedDateTime|datetime|The last datetime the sales order was modified. Read-Only.|
 
 
-## Relationships
-A Currency(currencyCode) must exist in the Currencies table.
-
-A Payment Term(paymentTerms) must exist in the Payment Terms table.
-
-A Shipment Method(shipmentMethod) must exist in the Shipment Method table.
-
-A Customer (customerId) must exist in the Customer table.
-
 ## JSON representation
 
 Here is a JSON representation of the resource.
@@ -82,29 +89,55 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-      "id": "GUID",
-      "number": "string",
-      "orderDate": "Date",
-      "customerId": "GUID",
-      "contactId": "string",
-      "customerNumber": "string",
-      "customerName": "string",
-      "billingPostalAddress": {NAV.PostalAddress},
-      "currencyId": "GUID",
-      "currencyCode": "string",
-      "pricesIncludeTax": "boolean",
-      "paymentTermsId": "GUID",
-      "salesperson": "string",
-      "partialShipping": "boolean",
-      "requestedDeliveryDate": "Date",
-      "discountAmount": "decimal",
-      "discountAppliedBeforeTax": "boolean",
-      "totalAmountExcludingTax": "decimal",
-      "totalTaxAmount": "decimal",
-      "totalAmountIncludingTax": "decimal",
-      "fullyShipped": "boolean",
-      "status": "string",
-      "lastModifiedDateTime": "DateTime"
+   "id": "GUID",
+   "number": "string",
+   "externalDocumentNumber": "string",
+   "orderDate": "date",
+   "postingDate": "date",
+   "customerId": "GUID",
+   "customerNumber": "string",
+   "customerName": "string",
+   "billToName": "string",
+   "billToCustomerId": "GUID",
+   "billToCustomerNumber": "string",
+   "shipToName": "string",
+   "shipToContact": "string",
+   "sellToAddressLine1": "string",
+   "sellToAddressLine2": "string",
+   "sellToCity": "string",
+   "sellToCountry": "string",
+   "sellToState": "string",
+   "sellToPostCode": "string",
+   "billToAddressLine1": "string",
+   "billToAddressLine2": "string",
+   "billToCity": "string",
+   "billToCountry": "string",
+   "billToState": "string",
+   "billToPostCode": "string",
+   "shipToAddressLine1": "string",
+   "shipToAddressLine2": "string",
+   "shipToCity": "string",
+   "shipToCountry": "string",
+   "shipToState": "string",
+   "shipToPostCode": "string",
+   "currencyId": "GUID",
+   "currencyCode": "string",
+   "pricesIncludeTax": "boolean",
+   "paymentTermsId": "GUID",
+   "shipmentMethodId": "GUID",
+   "salesperson": "string",
+   "partialShipping": "boolean",
+   "requestedDeliveryDate": "date",
+   "discountAmount": "decimal",
+   "discountAppliedBeforeTax": "boolean",
+   "totalAmountExcludingTax": "decimal",
+   "totalTaxAmount": "decimal",
+   "totalAmountIncludingTax": "decimal",
+   "fullyShipped": "boolean",
+   "status": "string",
+   "lastModifiedDateTime": "datetime",
+   "phoneNumber": "string",
+   "email": "string"
 }
 ```
 ## See also

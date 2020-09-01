@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
@@ -27,6 +27,18 @@ Represents a picture in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |[POST picture](../api/dynamics_create_picture.md)  |picture|Creates a picture object.|
 |[PATCH picture](../api/dynamics_picture_update.md) |picture|Updates a picture object.|
 |[DELETE picture](../api/dynamics_picture_delete.md)|none         |Deletes a picture object.|
+
+
+
+## Navigation
+
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[item](../resources/dynamics_item.md)|item   |Gets the item of the picture.|
+|[customer](../resources/dynamics_customer.md)|customer   |Gets the customer of the picture.|
+|[vendor](../resources/dynamics_vendor.md)|vendor   |Gets the vendor of the picture.|
+|[employee](../resources/dynamics_employee.md)|employee   |Gets the employee of the picture.|
+
 
 
 ## Properties
@@ -47,12 +59,11 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-  "id": "d0e5d5da-795a-4924-b376-13665f794cdd",
-  "width": 500,
-  "height": 496,
-  "contentType": "image\jpeg",
-  "content@odata.mediaEditLink": "https:\\api.businesscentral.dynamics-tie.com\v2.0\api\beta\companies(55c438d0-2f5c-44a0-9965-20b4923d0bef)\items(d0e5d5da-795a-4924-b376-13665f794cdd)\picture(d0e5d5da-795a-4924-b376-13665f794cdd)\content",
-  "content@odata.mediaReadLink": "https:\\api.businesscentral.dynamics-tie.com\v2.0\api\beta\companies(55c438d0-2f5c-44a0-9965-20b4923d0bef)\items(d0e5d5da-795a-4924-b376-13665f794cdd)\picture(d0e5d5da-795a-4924-b376-13665f794cdd)\content"
+   "id": "GUID",
+   "width": "integer",
+   "height": "integer",
+   "contentType": "string",
+   "content": "stream"
 }
 ```
 

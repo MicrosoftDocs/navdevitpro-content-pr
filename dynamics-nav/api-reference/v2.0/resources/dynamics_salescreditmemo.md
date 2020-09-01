@@ -1,5 +1,5 @@
 ---
-title: salesCreditMemos resource type | Microsoft Docs
+title: salesCreditMemo resource type | Microsoft Docs
 description: A sales credit memo object in Dynamics 365 Business Central. 
  
 author: SusanneWindfeldPedersen
@@ -9,11 +9,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# salesCreditMemos resource type
+# salesCreditMemo resource type
 Represents a sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
 
 > [!NOTE]  
@@ -23,16 +23,33 @@ Represents a sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d365
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET salesCreditMemos](../api/dynamics_salescreditmemo_get.md)|salesCreditMemos|Gets a sales credit memo object.|
-|[POST salesCreditMemos](../api/dynamics_create_salescreditmemo.md)|salesCreditMemos|Creates a sales credit memo object.|
-|[PATCH salesCreditMemos](../api/dynamics_salescreditmemo_update.md)|salesCreditMemos|Update a sales credit memo object.|
-|[DELETE salesCreditMemos](../api/dynamics_salescreditmemo_delete.md)|none|Delete a sales credit memo object.|
+|[GET salesCreditMemo](../api/dynamics_salescreditmemo_get.md)|salesCreditMemo|Gets a sales credit memo object.|
+|[POST salesCreditMemo](../api/dynamics_create_salescreditmemo.md)|salesCreditMemo|Creates a sales credit memo object.|
+|[PATCH salesCreditMemo](../api/dynamics_salescreditmemo_update.md)|salesCreditMemo|Update a sales credit memo object.|
+|[DELETE salesCreditMemo](../api/dynamics_salescreditmemo_delete.md)|none|Delete a sales credit memo object.|
 
 ## Bound actions
 
 |Action          |Return type   |Description         |
 |----------------|--------------|--------------------|
 |[GET pdfDocument](../api/dynamics_salesquote_pdfdocument.md)|pdfDocument|Gets a PDF document.|
+
+
+
+## Navigation
+
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[customer](../resources/dynamics_customer.md)|customer   |Gets the customer of the salesCreditMemo.|
+|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion   |Gets the countryregion of the salesCreditMemo.|
+|[currency](../resources/dynamics_currency.md)|currency   |Gets the currency of the salesCreditMemo.|
+|[paymentTerm](../resources/dynamics_paymentterm.md)|paymentTerm   |Gets the paymentterm of the salesCreditMemo.|
+|[shipmentMethod](../resources/dynamics_shipmentmethod.md)|shipmentMethod   |Gets the shipmentmethod of the salesCreditMemo.|
+|[salesCreditMemoLines](../resources/dynamics_salescreditmemolines.md)|salesCreditMemoLines   |Gets the salescreditmemolines of the salesCreditMemo.|
+|[pdfDocument](../resources/dynamics_pdfdocument.md)|pdfDocument   |Gets the pdfdocument of the salesCreditMemo.|
+|[attachments](../resources/dynamics_attachments.md)|attachments   |Gets the attachments of the salesCreditMemo.|
+|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the salesCreditMemo.|
+
 
 
 ## Properties
@@ -71,15 +88,6 @@ Represents a sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d365
 |lastModifiedDateTime|datetime|The last datetime the sales credit memo was modified. Read-Only.|
 
 
-## Relationships
-A Currency (currencyCode) must exist in the Currencies table.
-
-A Payment Term (paymentTerms) must exist in the Payment Terms table.
-
-A Customer (customerId) must exist in the Customer table.
-
-An Invoice (invoiceId) must exist in the Sales Invoice table.
-
 ## JSON representation
 
 Here is a JSON representation of the resource.
@@ -87,29 +95,47 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-      "id": "GUID",
-      "number": "string",
-      "creditMemoDate": "Date",
-      "dueDate": "Date",
-      "customerId": "GUID",
-      "contactId": "string",
-      "customerNumber": "string",
-      "customerName": "string",
-      "billingPostalAddress": {NAV.PostalAddress},
-      "currencyId": "GUID",
-      "currencyCode": "string",
-      "paymentTermsId": "GUID",
-      "salesperson": "string",
-      "pricesIncludeTax": "boolean",
-      "discountAmount": "decimal",
-      "discountAppliedBeforeTax": "boolean",
-      "totalAmountExcludingTax": "decimal",
-      "totalTaxAmount": "decimal",
-      "totalAmountIncludingTax": "decimal",
-      "status": "string",
-      "lastModifiedDateTime": "DateTime",
-      "invoiceId" : "GUID",
-      "invoiceNumber" : "string"
+   "id": "GUID",
+   "number": "string",
+   "externalDocumentNumber": "string",
+   "creditMemoDate": "date",
+   "postingDate": "date",
+   "dueDate": "date",
+   "customerId": "GUID",
+   "customerNumber": "string",
+   "customerName": "string",
+   "billToName": "string",
+   "billToCustomerId": "GUID",
+   "billToCustomerNumber": "string",
+   "sellToAddressLine1": "string",
+   "sellToAddressLine2": "string",
+   "sellToCity": "string",
+   "sellToCountry": "string",
+   "sellToState": "string",
+   "sellToPostCode": "string",
+   "billToAddressLine1": "string",
+   "billToAddressLine2": "string",
+   "billToCity": "string",
+   "billToCountry": "string",
+   "billToState": "string",
+   "billToPostCode": "string",
+   "currencyId": "GUID",
+   "currencyCode": "string",
+   "paymentTermsId": "GUID",
+   "shipmentMethodId": "GUID",
+   "salesperson": "string",
+   "pricesIncludeTax": "boolean",
+   "discountAmount": "decimal",
+   "discountAppliedBeforeTax": "boolean",
+   "totalAmountExcludingTax": "decimal",
+   "totalTaxAmount": "decimal",
+   "totalAmountIncludingTax": "decimal",
+   "status": "string",
+   "lastModifiedDateTime": "datetime",
+   "invoiceId": "GUID",
+   "invoiceNumber": "string",
+   "phoneNumber": "string",
+   "email": "string"
 }
 ```
 ## See also

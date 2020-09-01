@@ -1,5 +1,5 @@
 ---
-title: salesQuoteLines resource type | Microsoft Docs
+title: salesQuoteLine resource type | Microsoft Docs
 description: A sales quote line object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
@@ -9,12 +9,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# salesQuoteLines resource type
-Represents a salesQuoteLines resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+# salesQuoteLine resource type
+Represents a salesQuoteLine resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -23,10 +23,24 @@ Represents a salesQuoteLines resource type in [!INCLUDE[d365fin_long_md](../../i
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET salesQuoteLines](../api/dynamics_salesquoteline_get.md)|salesQuoteLines|Get a sales quote line object.|
-|[POST salesQuoteLines](../api/dynamics_create_salesquoteline.md)|salesQuoteLines|Creates a sales quote line object.|
-|[PATCH salesQuoteLines](../api/dynamics_salesquoteline_update.md)|salesQuoteLines|Updates a sales quote line object.|
-|[DELETE salesQuoteLines](../api/dynamics_salesquoteline_delete.md)|none|Deletes a sales quote line object.|
+|[GET salesQuoteLine](../api/dynamics_salesquoteline_get.md)|salesQuoteLine|Get a sales quote line object.|
+|[POST salesQuoteLine](../api/dynamics_create_salesquoteline.md)|salesQuoteLine|Creates a sales quote line object.|
+|[PATCH salesQuoteLine](../api/dynamics_salesquoteline_update.md)|salesQuoteLine|Updates a sales quote line object.|
+|[DELETE salesQuoteLine](../api/dynamics_salesquoteline_delete.md)|none|Deletes a sales quote line object.|
+
+
+## Navigation
+
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[salesQuote](../resources/dynamics_salesquote.md)|salesQuote   |Gets the salesquote of the salesQuoteLine.|
+|[item](../resources/dynamics_item.md)|item   |Gets the item of the salesQuoteLine.|
+|[account](../resources/dynamics_account.md)|account   |Gets the account of the salesQuoteLine.|
+|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure   |Gets the unitofmeasure of the salesQuoteLine.|
+|[itemVariant](../resources/dynamics_itemvariant.md)|itemVariant   |Gets the itemvariant of the salesQuoteLine.|
+|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the salesQuoteLine.|
+
+
 
 ## Properties
 
@@ -55,15 +69,6 @@ Represents a salesQuoteLines resource type in [!INCLUDE[d365fin_long_md](../../i
 |netTaxAmount|numeric|The net tax amount is the tax amount calculated from net amount. Read-Only.|
 |netAmountIncludingTax|numeric|The net amount including tax is the total net amount including tax. Read-Only.|
 
-## Relationships
-A Sales Quote (documentId) must exist in the Sales Quotes table.
-
-An Item (itemId) must exist in the Item table.
-
-An Account (accountId) must exist in the Accounts table.
-
-A Unit of Measure (unitOfMeasure) must exist in the Unit of Measure table.
-
 ## JSON representation
 
 Here is a JSON representation of the resource.
@@ -72,29 +77,31 @@ Here is a JSON representation of the resource.
 ```json
   "value": [
     {
-      "documentId": "GUID",
-      "sequence": "decimal",
-      "itemId": "GUID",
-      "accountId": "GUID",
-      "lineType": "String",
-      "lineDetails": {NAV.documentLineObjectDetails},
-      "description": "string",
-      "unitOfMeasureId": "GUID",
-      "unitOfMeasure": {NAV.UnitOfMeasure},
-      "unitPrice": "decimal",
-      "quantity": "decimal",
-      "discountAmount": "decimal",
-      "discountPercent": "decimal",
-      "discountAppliedBeforeTax": "boolean",
-      "amountExcludingTax": "decimal",
-      "taxCode": "String",
-      "taxPercent": "decimal",
-      "totalTaxAmount": "decimal",
-      "amountIncludingTax": "decimal",
-      "netAmount": "decimal",
-      "netTaxAmount": "decimal",
-      "netAmountIncludingTax": "decimal"
-    }
+   "id": "GUID",
+   "documentId": "GUID",
+   "sequence": "integer",
+   "itemId": "GUID",
+   "accountId": "GUID",
+   "lineType": "invoiceLineAggLineType",
+   "lineObjectNumber": "string",
+   "description": "string",
+   "unitOfMeasureId": "GUID",
+   "unitOfMeasureCode": "string",
+   "unitPrice": "decimal",
+   "quantity": "decimal",
+   "discountAmount": "decimal",
+   "discountPercent": "decimal",
+   "discountAppliedBeforeTax": "boolean",
+   "amountExcludingTax": "decimal",
+   "taxCode": "string",
+   "taxPercent": "decimal",
+   "totalTaxAmount": "decimal",
+   "amountIncludingTax": "decimal",
+   "netAmount": "decimal",
+   "netTaxAmount": "decimal",
+   "netAmountIncludingTax": "decimal",
+   "itemVariantId": "GUID"
+}
   ]
 ```
 

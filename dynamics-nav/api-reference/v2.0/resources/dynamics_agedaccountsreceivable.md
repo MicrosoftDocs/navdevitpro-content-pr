@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
@@ -24,6 +24,15 @@ Represents an agedAccountsReceivable object in [!INCLUDE[d365fin_long_md](../../
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
 |[GET agedAccountsReceivable](../api/dynamics_agedaccountsreceivable_get.md)|agedAccountsReceivable|Get agedAccountsReceivable object|
+
+
+## Navigation
+
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[customer](../resources/dynamics_customer.md)|customer   |Gets the customer of the agedAccountsReceivable.|
+
+
 
 ## Properties
 
@@ -43,9 +52,6 @@ Represents an agedAccountsReceivable object in [!INCLUDE[d365fin_long_md](../../
 |periodLengthFilter|string |Specifies the length of the periods.         |
 
 
-## Relationships
-None
-
 ## JSON representation
 
 Here is a JSON representation of the resource.
@@ -53,18 +59,17 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-    "customerId": "GUID",
-    "customerNumber": "string",
-    "name": "string",
-    "currencyCode": "string",
-    "before": "decimal",
-    "period1": "decimal",
-    "period2": "decimal",
-    "period3": "decimal",
-    "after": "decimal",
-    "balance": "decimal",
-    "periodStartDateFilter": "date",
-    "periodLengthFilter": "string"
+   "customerId": "GUID",
+   "customerNumber": "string",
+   "name": "string",
+   "currencyCode": "string",
+   "balanceDue": "decimal",
+   "currentAmount": "decimal",
+   "period1Amount": "decimal",
+   "period2Amount": "decimal",
+   "period3Amount": "decimal",
+   "agedAsOfDate": "date",
+   "periodLengthFilter": "string"
 }
 ```
 ## See also

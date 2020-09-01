@@ -1,5 +1,5 @@
 ---
-title: dimensions resource type | Microsoft Docs
+title: dimension resource type | Microsoft Docs
 description: A dimension in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 
@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
@@ -22,7 +22,16 @@ Represents a dimension in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 
 | Method       | Return Type  |Description|
 |:-------------|:-------------|:----------|
-|[GET dimensions](../api/dynamics_dimension_get.md)|dimension|Gets a dimension.|
+|[GET dimension](../api/dynamics_dimension_get.md)|dimension|Gets a dimension.|
+
+
+
+## Navigation
+
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[dimensionValues](../resources/dynamics_dimensionvalues.md)|dimensionValues   |Gets the dimensionvalues of the dimension.|
+
 
 
 ## Properties
@@ -42,11 +51,10 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-
-    "id": "GUID",
-    "code": "string",
-    "displayName": "string",
-    "lastModifiedDateTime": "datetime"
+   "id": "GUID",
+   "code": "string",
+   "displayName": "string",
+   "lastModifiedDateTime": "datetime"
 }
 ```
 

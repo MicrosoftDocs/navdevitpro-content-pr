@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
@@ -24,6 +24,15 @@ Represents an agedAccountsPayable object in [!INCLUDE[d365fin_long_md](../../inc
 | Method         | Return Type  |Description|
 |:---------------|:-------------|:----------|
 |[GET agedAccountsPayable](../api/dynamics_agedaccountspayable_get.md)|agedAccountsPayable|Get agedAccountsPayable object|
+
+
+## Navigation
+
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[vendor](../resources/dynamics_vendor.md)|vendor   |Gets the vendor of the agedAccountsPayable.|
+
+
 
 ## Properties
 
@@ -43,9 +52,6 @@ Represents an agedAccountsPayable object in [!INCLUDE[d365fin_long_md](../../inc
 |periodLengthFilter|string |Specifies the length of the periods.        |
 
 
-## Relationships
-None
-
 ## JSON representation
 
 Here is a JSON representation of the resource.
@@ -53,18 +59,17 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-    "vendorId": "GUID",
-    "vendorNumber": "string",
-    "name": "string",
-    "currencyCode": "string",
-    "before": "decimal",
-    "period1": "decimal",
-    "period2": "decimal",
-    "period3": "decimal",
-    "after": "decimal",
-    "balance": "decimal",
-    "periodStartDateFilter": "date",
-    "periodLengthFilter": "string"
+   "vendorId": "GUID",
+   "vendorNumber": "string",
+   "name": "string",
+   "currencyCode": "string",
+   "balanceDue": "decimal",
+   "currentAmount": "decimal",
+   "period1Amount": "decimal",
+   "period2Amount": "decimal",
+   "period3Amount": "decimal",
+   "agedAsOfDate": "date",
+   "periodLengthFilter": "string"
 }
 ```
 ## See also

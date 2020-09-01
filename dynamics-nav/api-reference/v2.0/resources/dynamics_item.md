@@ -1,5 +1,5 @@
 ---
-title: items resource type | Microsoft Docs
+title: item resource type | Microsoft Docs
 description: An item object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
@@ -9,11 +9,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# items resource type
+# item resource type
 Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
@@ -23,20 +23,20 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 
 | Method                                      |Return Type|Description |
 |:--------------------------------------------|:----------|:-----------|
-|[GET item](../api/dynamics_item_get.md)      |items      |Gets an item object.   |
-|[POST item](../api/dynamics_create_item.md)  |items      |Creates an item object.|
-|[PATCH item](../api/dynamics_item_update.md) |items      |Updates an item object.|
+|[GET item](../api/dynamics_item_get.md)      |item      |Gets an item object.   |
+|[POST item](../api/dynamics_create_item.md)  |item      |Creates an item object.|
+|[PATCH item](../api/dynamics_item_update.md) |item      |Updates an item object.|
 |[DELETE item](../api/dynamics_item_delete.md)|none       |Deletes an item object.|
 
-## Navigation 
+## Navigation
 
-| Navigation    |Return Type| Description      |
+| Navigation |Return Type| Description |
 |:----------|:----------|:-----------------|
-|[Picture](../resources/dynamics_picture.md)|picture   |Gets the picture of item. |
-|[DefaultDimension](../resources/dynamics_defaultDimension.md)|defaultDimension   |Gets the defaultDimension of item. |
-|[ItemCategory](../resources/dynamics_itemcategories.md)|itemCategory   |Gets the item catgory of item. |
-
-
+|[itemCategory](../resources/dynamics_itemcategory.md)|itemCategory   |Gets the itemcategory of the item.|
+|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure   |Gets the unitofmeasure of the item.|
+|[picture](../resources/dynamics_picture.md)|picture   |Gets the picture of the item.|
+|[defaultDimensions](../resources/dynamics_defaultdimensions.md)|defaultDimensions   |Gets the defaultdimensions of the item.|
+|[itemVariants](../resources/dynamics_itemvariants.md)|itemVariants   |Gets the itemvariants of the item.|
 
 ## Properties
 
@@ -56,12 +56,9 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 |priceIncludesTax    |boolean |Specifies that the unitPrice includes tax. Set to **true**, if unitPrice includes tax.|
 |unitCost            |decimal |Specifies the cost per unit of the item.             |
 |taxGroupId          |GUID    |Specifies the ID of the Tax Group for the item.      |
-|taxGroupCode        |numeric |A Tax Group represents a group of inventory items or resources that are subject to identical tax terms.|
+|taxGroupCode        |numeric |A Tax Group represents a group of inventory item or resources that are subject to identical tax terms.|
 |lastModifiedDateTime|datetime|The last datetime the item was modified. Read-Only.  |  
 
-
-## Relationships
-A Tax Group(taxGroupCode) must exist in the Tax Group table.
 
 ## JSON representation
 
@@ -70,22 +67,23 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-      "id": "GUID",
-      "number": "string",
-      "displayName": "string",
-      "type": "string",
-      "blocked": "boolean",
-      "baseUnitOfMeasureId": "GUID",
-      "baseUnitOfMeasure": "NAV.UnitOfMeasure",
-      "gtin": "numeric",
-      "itemCategory": "NAV.ItemCategory",
-      "inventory": "decimal",
-      "unitPrice": "decimal",
-      "priceIncludesTax": "boolean",
-      "unitCost": "decimal",
-      "taxGroupId": "GUID",
-      "taxGroupCode": "string",
-      "lastModifiedDateTime": "datetime"
+   "id": "GUID",
+   "number": "string",
+   "displayName": "string",
+   "type": "contactType",
+   "itemCategoryId": "GUID",
+   "itemCategoryCode": "string",
+   "blocked": "boolean",
+   "gtin": "string",
+   "inventory": "decimal",
+   "unitPrice": "decimal",
+   "priceIncludesTax": "boolean",
+   "unitCost": "decimal",
+   "taxGroupId": "GUID",
+   "taxGroupCode": "string",
+   "baseUnitOfMeasureId": "GUID",
+   "baseUnitOfMeasureCode": "string",
+   "lastModifiedDateTime": "datetime"
 }
 ```
 

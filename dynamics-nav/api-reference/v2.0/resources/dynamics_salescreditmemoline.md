@@ -1,5 +1,5 @@
 ---
-title: salesCreditMemoLines resource type | Microsoft Docs
+title: salesCreditMemoLine resource type | Microsoft Docs
 description: A sales credit memo line. 
  
 author: SusanneWindfeldPedersen
@@ -9,11 +9,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# salesCreditMemoLines resource type
+# salesCreditMemoLine resource type
 Represents a line on a sales credit memo line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
@@ -23,10 +23,24 @@ Represents a line on a sales credit memo line in [!INCLUDE[d365fin_long_md](../.
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET salesCreditMemoLines](../api/dynamics_salescreditmemoline_get.md)|salesCreditMemoLines|Gets a sales credit memo line object.|
-|[POST salesCreditMemoLines](../api/dynamics_create_salescreditmemoline.md)|salesCreditMemoLines|Creates a sales credit memo line object.|
-|[PATCH salesCreditMemoLines](../api/dynamics_salescreditmemoline_update.md)|salesCreditMemoLines|Updates a sales credit memo line object.|
-|[DELETE salesCreditMemoLines](../api/dynamics_salescreditmemoline_delete.md)|none   |Deletes a sales credit memo line object.|
+|[GET salesCreditMemoLine](../api/dynamics_salescreditmemoline_get.md)|salesCreditMemoLine|Gets a sales credit memo line object.|
+|[POST salesCreditMemoLine](../api/dynamics_create_salescreditmemoline.md)|salesCreditMemoLine|Creates a sales credit memo line object.|
+|[PATCH salesCreditMemoLine](../api/dynamics_salescreditmemoline_update.md)|salesCreditMemoLine|Updates a sales credit memo line object.|
+|[DELETE salesCreditMemoLine](../api/dynamics_salescreditmemoline_delete.md)|none   |Deletes a sales credit memo line object.|
+
+
+## Navigation
+
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[salesCreditMemo](../resources/dynamics_salescreditmemo.md)|salesCreditMemo   |Gets the salescreditmemo of the salesCreditMemoLine.|
+|[item](../resources/dynamics_item.md)|item   |Gets the item of the salesCreditMemoLine.|
+|[account](../resources/dynamics_account.md)|account   |Gets the account of the salesCreditMemoLine.|
+|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure   |Gets the unitofmeasure of the salesCreditMemoLine.|
+|[itemVariant](../resources/dynamics_itemvariant.md)|itemVariant   |Gets the itemvariant of the salesCreditMemoLine.|
+|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the salesCreditMemoLine.|
+
+
 
 ## Properties
 
@@ -57,15 +71,6 @@ Represents a line on a sales credit memo line in [!INCLUDE[d365fin_long_md](../.
 |netAmountIncludingTax|numeric|The net amount including tax is the total net amount including tax. Read-Only.|
 |shipmentDate|date|The date the item in the line is expected to ship.|
 
-## Relationships
-A Sales Credit Memo (documentId) must exist in the Sales Credit Memos table.
-
-An Item (itemId) must exist in the Item table.
-
-An Account (accountId) must exist in the Accounts table.
-
-A Unit of Measure (unitOfMeasure) must exist in the Unit of Measure table.
-
 ## JSON representation
 
 Here is a JSON representation of the resource.
@@ -74,31 +79,33 @@ Here is a JSON representation of the resource.
 ```json
   "value": [
     {
-      "documentId": "GUID",
-      "sequence": "decimal",
-      "itemId": "GUID",
-      "accountId": "GUID",
-      "lineType": "string",
-      "lineDetails": {NAV.documentLineObjectDetails},
-      "description": "string",
-      "unitOfMeasureId": "GUID",
-      "unitOfMeasure": {NAV.UnitOfMeasure},
-      "unitPrice": "decimal",
-      "quantity": "decimal",
-      "discountAmount": "decimal",
-      "discountPercent": "decimal",
-      "discountAppliedBeforeTax": "boolean",
-      "amountExcludingTax": "decimal",
-      "taxCode": "string",
-      "taxPercent": "decimal",
-      "totalTaxAmount": "decimal",
-      "amountIncludingTax": "decimal",
-      "invoiceDiscountAllocation": "decimal",
-      "netAmount": "decimal",
-      "netTaxAmount": "decimal",
-      "netAmountIncludingTax": "decimal",
-      "shipmentDate": "Date"
-    }
+   "id": "GUID",
+   "documentId": "GUID",
+   "sequence": "integer",
+   "itemId": "GUID",
+   "accountId": "GUID",
+   "lineType": "invoiceLineAggLineType",
+   "lineObjectNumber": "string",
+   "description": "string",
+   "unitOfMeasureId": "GUID",
+   "unitOfMeasureCode": "string",
+   "unitPrice": "decimal",
+   "quantity": "decimal",
+   "discountAmount": "decimal",
+   "discountPercent": "decimal",
+   "discountAppliedBeforeTax": "boolean",
+   "amountExcludingTax": "decimal",
+   "taxCode": "string",
+   "taxPercent": "decimal",
+   "totalTaxAmount": "decimal",
+   "amountIncludingTax": "decimal",
+   "invoiceDiscountAllocation": "decimal",
+   "netAmount": "decimal",
+   "netTaxAmount": "decimal",
+   "netAmountIncludingTax": "decimal",
+   "shipmentDate": "date",
+   "itemVariantId": "GUID"
+}
   ]
 ```
 

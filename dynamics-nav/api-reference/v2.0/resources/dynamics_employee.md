@@ -1,5 +1,5 @@
 ---
-title: employees resource type | Microsoft Docs
+title: employee resource type | Microsoft Docs
 description: An employee object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
@@ -9,11 +9,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 8/26/2020
 ms.author: solsen
 ---
 
-# employees resource type
+# employee resource type
 Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
@@ -23,10 +23,10 @@ Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 
 | Method                                              | Return Type|Description               |
 |:----------------------------------------------------|:-----------|:-------------------------|
-|[GET employees](../api/dynamics_employee_get.md)      |employees  |Get an employee object.   |
-|[POST employees](../api/dynamics_create_employee.md)  |employees  |Create an employee object.|
-|[PATCH employees](../api/dynamics_employee_update.md) |employees  |Update an employee object.|
-|[DELETE employees](../api/dynamics_employee_delete.md)|none       |Delete an employee object.|
+|[GET employee](../api/dynamics_employee_get.md)      |employee  |Get an employee object.   |
+|[POST employee](../api/dynamics_create_employee.md)  |employee  |Create an employee object.|
+|[PATCH employee](../api/dynamics_employee_update.md) |employee  |Update an employee object.|
+|[DELETE employee](../api/dynamics_employee_delete.md)|none       |Delete an employee object.|
 
 ## Subpages
 
@@ -36,6 +36,18 @@ Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 |[POST employee defaultDimensions](../api/dynamics_employee_create_defaultdimensions.md) |default dimensions  |Creates the default dimensions of  employee.|
 |[PATCH employee defaultDimensions](../api/dynamics_employee_update_defaultdimensions.md)|default dimensions  |Updates the default dimensions of employee.|
 |[DELETE employee defaultDimensions](../api/dynamics_employee_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of employee.  |
+
+
+## Navigation
+
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
+|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion   |Gets the countryregion of the employee.|
+|[picture](../resources/dynamics_picture.md)|picture   |Gets the picture of the employee.|
+|[defaultDimensions](../resources/dynamics_defaultdimensions.md)|defaultDimensions   |Gets the defaultdimensions of the employee.|
+|[timeRegistrationEntries](../resources/dynamics_timeregistrationentries.md)|timeRegistrationEntries   |Gets the timeregistrationentries of the employee.|
+
+
 
 ## Properties
 
@@ -61,9 +73,6 @@ Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 |lastModifiedDateTime|datetime|The last datetime the employee was modified. Read-Only.|  
 
 
-## Relationships
-None
-
 ## JSON representation
 
 Here is a JSON representation of the resource.
@@ -71,24 +80,29 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-    "id": "GUID",
-    "number": "string",
-    "displayName": "string",
-    "givenName": "string",
-    "middleName": "string",
-    "surname": "string",
-    "jobTitle": "string",
-    "address": "NAV.PostalAddress",
-    "phoneNumber": "string",
-    "mobilePhone": "string",
-    "email": "string",
-    "personalEmail": "string",
-    "employmentDate": "date",
-    "terminationDate": "date",
-    "status": "string",
-    "birthDate": "date",
-    "picture": "stream",
-    "lastModifiedDateTime": "datetime"
+   "id": "GUID",
+   "number": "string",
+   "displayName": "string",
+   "givenName": "string",
+   "middleName": "string",
+   "surname": "string",
+   "jobTitle": "string",
+   "addressLine1": "string",
+   "addressLine2": "string",
+   "city": "string",
+   "state": "string",
+   "country": "string",
+   "postalCode": "string",
+   "phoneNumber": "string",
+   "mobilePhone": "string",
+   "email": "string",
+   "personalEmail": "string",
+   "employmentDate": "date",
+   "terminationDate": "date",
+   "status": "string",
+   "birthDate": "date",
+   "statisticsGroupCode": "string",
+   "lastModifiedDateTime": "datetime"
 }
 ```
 ## See also
