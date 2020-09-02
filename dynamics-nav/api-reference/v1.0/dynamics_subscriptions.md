@@ -31,7 +31,7 @@ Content-type: application/json
 }
 ```
 
-Once the `POST` is issued against the **subscription** API to create the subscription, [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] will issue a request to the `notificationUrl`, passing a `validationToken` parameter on the query string. Subscriber needs to perform the handshake by returning `validationToken` in the response body and provide status code `200`.
+Once the `POST` is issued against the **subscription** API to create the subscription, [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] will issue a request to the `notificationUrl`, passing a `validationToken` parameter on the query string. Subscriber needs to perform the handshake by returning `validationToken` as plain text in the response body and provide status code `200`.
 
 If [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] receives the response containing the `validationToken`, the subscription is registered and webhook notifications will be sent to the `notificationUrl`.  
 
