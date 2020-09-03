@@ -46,23 +46,29 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({id})/employees
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "number": "AH",
-  "givenName": "Annette",
-  "surname": "Hill",
-  "jobTitle": "Production Assistant",
-  "address": {
-    "street": "677 Fifth Avenue",
-    "city": "New York",
+    "id": "258bb9c0-44e3-ea11-bb43-000d3a2feca1",
+    "number": "AH",
+    "displayName": "Annette Hill",
+    "givenName": "Annette",
+    "middleName": "",
+    "surname": "Hill",
+    "jobTitle": "Secretary",
+    "addressLine1": "677 Fifth Avenue",
+    "addressLine2": "",
+    "city": "",
     "state": "",
-    "countryLetterCode": "",
-    "postalCode": "10022"
-  },
-  "phoneNumber": "4465-4899-4643",
-  "mobilePhone": "4564-4564-7831",
-  "personalEmail": "ah@cronus-demosite.com",
-  "employmentDate": "2001-06-01",
-  "birthDate": "1973-12-12"  
+    "country": "",
+    "postalCode": "",
+    "phoneNumber": "4465-4899-4643",
+    "mobilePhone": "4564-4564-7831",
+    "email": "",
+    "personalEmail": "ah@cronus-demosite.com",
+    "employmentDate": "2001-06-01",
+    "terminationDate": "0001-01-01",
+    "status": "Active",
+    "birthDate": "1973-12-12",
+    "statisticsGroupCode": "",
+    "lastModifiedDateTime": "2020-08-21T00:25:17.623Z"
 }
 ```
 

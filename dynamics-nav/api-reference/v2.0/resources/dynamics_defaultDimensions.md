@@ -24,7 +24,7 @@ Represents a default dimensions in [!INCLUDE[d365fin_long_md](../../includes/d36
 | Method                                                       | Return Type |Description                    |
 |:-------------------------------------------------------------|:------------|:------------------------------|
 |[GET defaultDimensions](../api/dynamics_defaultDimensions_get.md)      |defaultDimensions|Gets a defaultDimensions object.   |
-|[POST defaultDimensions](../api/dynamics_create_defaultDimensions.md)  |defaultDimensions|Creates a defaultDimensions object.|
+|[POST defaultDimensions](../api/dynamics_defaultDimensions_create.md)  |defaultDimensions|Creates a defaultDimensions object.|
 |[PATCH defaultDimensions](../api/dynamics_defaultDimensions_update.md) |defaultDimensions|Updates a defaultDimensions object.|
 |[DELETE defaultDimensions](../api/dynamics_defaultDimensions_delete.md)|none         |Deletes a defaultDimensions object.|
 

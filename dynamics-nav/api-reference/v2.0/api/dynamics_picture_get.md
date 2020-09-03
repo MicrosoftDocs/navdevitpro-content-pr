@@ -55,12 +55,13 @@ Here is an example of the response.
 
 ```json
 {
-  "id": "d0e5d5da-795a-4924-b376-13665f794cdd",
-  "width": 500,
-  "height": 496,
-  "contentType": "image\jpeg",
-  "content@odata.mediaEditLink": "https:\\api.businesscentral.dynamics-tie.com\v2.0\api\beta\companies(55c438d0-2f5c-44a0-9965-20b4923d0bef)\items(d0e5d5da-795a-4924-b376-13665f794cdd)\picture(d0e5d5da-795a-4924-b376-13665f794cdd)\content",
-  "content@odata.mediaReadLink": "https:\\api.businesscentral.dynamics-tie.com\v2.0\api\beta\companies(55c438d0-2f5c-44a0-9965-20b4923d0bef)\items(d0e5d5da-795a-4924-b376-13665f794cdd)\picture(d0e5d5da-795a-4924-b376-13665f794cdd)\content"
+"id": "53049aad-bde4-ea11-bbf2-00155df3a615",
+    "parentType": "Customer", (this could be Customer, Item, Employee or Vendor)
+    "width": 400,
+    "height": 400,
+    "contentType": "image/jpeg",
+    "pictureContent@odata.mediaEditLink": "http://onbuyuka-azvm1.europe.corp.microsoft.com:7047/Navision_NAV/api/v2.0/companies(52e03390-bde4-ea11-bbf2-00155df3a615)/customers(53049aad-bde4-ea11-bbf2-00155df3a615)/picture/pictureContent",
+    "pictureContent@odata.mediaReadLink": "http://onbuyuka-azvm1.europe.corp.microsoft.com:7047/Navision_NAV/api/v2.0/companies(52e03390-bde4-ea11-bbf2-00155df3a615)/customers(53049aad-bde4-ea11-bbf2-00155df3a615)/picture/pictureContent"
 }
 ```
 

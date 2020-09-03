@@ -66,30 +66,29 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "number": "AH",
-  "displayName": "Anthony Hill",
-  "givenName": "Anthony",
-  "middleName": "",
-  "surname": "Hill",
-  "jobTitle": "Secretary",
-  "address": {
-    "street": "677 Fifth Avenue",
-    "city": "New York",
+    "id": "258bb9c0-44e3-ea11-bb43-000d3a2feca1",
+    "number": "AH",
+    "displayName": "Anthony Hill",
+    "givenName": "Anthony",
+    "middleName": "",
+    "surname": "Hill",
+    "jobTitle": "Secretary",
+    "addressLine1": "677 Fifth Avenue",
+    "addressLine2": "",
+    "city": "",
     "state": "",
-    "countryLetterCode": "",
-    "postalCode": "10022"
-  },
-  "phoneNumber": "0678-8712-3455",
-  "mobilePhone": "4564-4564-7831",
-  "email": "",
-  "personalEmail": "ah@cronus-demosite.com",
-  "employmentDate": "2001-06-01",
-  "terminationDate": "0001-01-01",
-  "status": "Active",
-  "birthDate": "1973-12-12",
-  "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v2.0/api/v2.0/companies({id})/employees({id})/picture",
-  "lastModifiedDateTime": "2017-03-16T14:57:19.497Z" 
+    "country": "",
+    "postalCode": "",
+    "phoneNumber": "0678-8712-3455",
+    "mobilePhone": "4564-4564-7831",
+    "email": "",
+    "personalEmail": "ah@cronus-demosite.com",
+    "employmentDate": "2001-06-01",
+    "terminationDate": "0001-01-01",
+    "status": "Active",
+    "birthDate": "1973-12-12",
+    "statisticsGroupCode": "",
+    "lastModifiedDateTime": "2020-08-21T00:25:17.623Z"
 }
 ```
 
