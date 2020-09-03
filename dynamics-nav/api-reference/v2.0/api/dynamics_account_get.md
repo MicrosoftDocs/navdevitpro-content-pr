@@ -54,13 +54,15 @@ Here is an example of the response.
 
 ```json
 {
-    "id": "id-value",
-    "number": "10700",
-    "displayName": "Inventory",
+    "id": "a2a5738a-44e3-ea11-bb43-000d3a2feca1",
+    "number": "10000",
+    "displayName": "BALANCE SHEET",
     "category": "Assets",
-    "subCategory": "Inventory",
+    "subCategory": "Assets",
     "blocked": false,
-    "lastModifiedDateTime": "2017-03-15T02:20:58.747Z"
+    "accountType": "Heading",
+    "directPosting": false,
+    "lastModifiedDateTime": "2020-08-21T00:24:15.327Z"
 }
 ```
 

@@ -63,10 +63,11 @@ HTTP/1.1 201 Created
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "code": "FURNITURE",
-  "displayName": "Taxable Olympic Furniture",
-  "lastModifiedDateTime": "2017-03-15T02:20:57.09Z"
+    "id": "9f196a90-44e3-ea11-bb43-000d3a2feca1",
+    "code": "FURNITURE",
+    "displayName": "Taxable Olympic Furniture",
+    "taxType": "Sales Tax",
+    "lastModifiedDateTime": "2020-08-21T00:24:26Z"
 }
 ```
 

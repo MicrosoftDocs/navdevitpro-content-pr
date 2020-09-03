@@ -23,19 +23,19 @@ Represents an tax group object in [!INCLUDE[d365fin_long_md](../../includes/d365
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET taxGroup](../api/dynamics_taxGroup_get.md)|taxGroup|Get taxGroup object.|
+|[GET taxGroups](../api/dynamics_taxGroups_get.md)|taxGroups|Gets a tax group object.|
+|[POST taxGroups](../api/dynamics_create_taxGroups.md)|taxGroups|Creates a tax group object.|
+|[PATCH taxGroups](../api/dynamics_taxGroups_update.md)|taxGroups|Updates a tax group object.|
+|[DELETE taxGroups](../api/dynamics_taxGroups_delete.md)|none|Deletes a tax group object.|
 
 ## Properties
 
 | Property     | Type   |Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the taxGroup.|
-|number|string, maximum size 20|Specifies the number of the G/L taxGroup.|
-|displayName|string, maximum size 50|Specifies the name of the G/L taxGroup.|
-|category|string, maximum size 20|Specifies the category of the G/L taxGroup.|
-|subCategory|string, maximum size 80|Specifies the subcategory of the taxGroup category of the G/L taxGroup.|
-|blocked|boolean|Specifies that entries cannot be posted to the G/L taxGroup. **True** indicates taxGroup is blocked and posting is not allowed.|
-|lastModifiedDateTime|datetime|The last datetime the taxGroup was modified.|
+|id|GUID|The unique ID of the taxGroup. Read-Only.|
+|code|string|Specifies the tax group.|
+|displayName|string|Specifies the tax group display name.|
+|lastModifiedDateTime|datetime|The last datetime the tax group was modified. Read-Only.|  
 
 
 ## JSON representation
@@ -54,4 +54,6 @@ Here is a JSON representation of the resource.
 ```
 ## See also
   
-[Get Tax Group](../api/dynamics_taxGroup_get.md)  
+[Get Tax Groups](../api/dynamics_taxgroups_get.md)  
+[Create Tax Groups](../api/dynamics_create_taxgroups.md)  
+[Update Tax Groups](../api/dynamics_taxgroups_update.md)  
