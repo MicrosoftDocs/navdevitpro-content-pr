@@ -52,25 +52,24 @@ Here is an example of the response.
 
 ```json
 {
-  "id": "id-value",
-  "displayName": "CRONUS USA, Inc.",
-  "address": {
-    "street": "7122 South Ashford Street\r\nWestminster",
+    "id": "86f5f171-44e3-ea11-bb43-000d3a2feca1",
+    "displayName": "CRONUS USA, Inc.",
+    "addressLine1": "7122 South Ashford Street",
+    "addressLine2": "Westminster",
     "city": "Atlanta",
     "state": "GA",
-    "countryLetterCode": "US",
-    "postalCode": "31772"
-  },
-  "phoneNumber": "+1 425 555 0100",
-  "faxNumber": "+1 425 555 0101",
-  "email": "",
-  "website": "",
-  "taxRegistrationNumber": "",
-  "currencyCode": "USD",
-  "currentFiscalYearStartDate": "2018-01-01",
-  "industry": "",
-  "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v2.0/api/v2.0/companies({id})/companyInformation({id})/picture",
-  "lastModifiedDateTime": "2017-03-16T14:57:19.497Z"
+    "country": "US",
+    "postalCode": "31772",
+    "phoneNumber": "+1 425 555 0100",
+    "faxNumber": "+1 425 555 0101",
+    "email": "",
+    "website": "",
+    "taxRegistrationNumber": "",
+    "currencyCode": "USD",
+    "currentFiscalYearStartDate": "2021-01-01",
+    "industry": "",
+    "picture@odata.mediaReadLink": "https://api.businesscentral.dynamics-tie.com/v2.0/5b2f3b37-2b52-460e-8863-3561295b1e08/Production/api/v2.0/companies(4d0e744d-44e3-ea11-bb43-000d3a2feca1)/companyInformation(86f5f171-44e3-ea11-bb43-000d3a2feca1)/picture",
+    "lastModifiedDateTime": "2020-08-21T00:24:33.793Z"
 }
 ```
 

@@ -48,25 +48,24 @@ GET https://{businesscentralPrefix}/api/v2.0/companies({id})/customerPaymentsJou
 
 Here is an example of the response. 
 
-> [!NOTE]  
->   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 {
-  "id": "id-value",
-  "lineNumber": 10000,
-  "customerId": "customerId-value",
-  "customerNumber": "10400",
-  "contactId": "string",
-  "postingDate": "2015-12-31",
-  "documentNumber": "1234",
-  "externalDocumentNumber": "",
-  "amount": 1500,
-  "appliesToInvoiceId": "appliesToInvoiceId-value",
-  "appliesToInvoiceNumber": "100000",
-  "description": "",
-  "comment": "",
-  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
+    "id": "17cce948-c6a5-4861-8ff5-30428ed83207",
+    "journalDisplayName": "DEFAULT",
+    "lineNumber": 10000,
+    "customerId": "customerId-value",
+    "customerNumber": "10400",
+    "contactId": "string",
+    "postingDate": "2015-12-31",
+    "documentNumber": "1234",
+    "externalDocumentNumber": "",
+    "amount": 1500,
+    "appliesToInvoiceId": "appliesToInvoiceId-value",
+    "appliesToInvoiceNumber": "100000",
+    "description": "",
+    "comment": "",
+    "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```
 

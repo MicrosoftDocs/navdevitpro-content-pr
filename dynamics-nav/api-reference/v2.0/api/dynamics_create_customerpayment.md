@@ -46,18 +46,21 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({id})/customerPayment
 Content-type: application/json
 
 {
-  "lineNumber": 10000,
-  "customerId": "customerId-value",
-  "customerNumber": "10400",
-  "contactId": "contactId-value",
-  "postingDate": "2015-12-31",
-  "documentNumber": "1234",
-  "externalDocumentNumber": "",
-  "amount": -1500,
-  "appliesToInvoiceId": "appliesToInvoiceId-value",
-  "appliesToInvoiceNumber": "100000",
-  "description": "",
-  "comment": "",
+    "id": "17cce948-c6a5-4861-8ff5-30428ed83207",
+    "journalDisplayName": "DEFAULT",
+    "lineNumber": 10000,
+    "customerId": "customerId-value",
+    "customerNumber": "10400",
+    "contactId": "string",
+    "postingDate": "2015-12-31",
+    "documentNumber": "1234",
+    "externalDocumentNumber": "",
+    "amount": 1500,
+    "appliesToInvoiceId": "appliesToInvoiceId-value",
+    "appliesToInvoiceNumber": "100000",
+    "description": "",
+    "comment": "",
+    "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```
 **Response**
@@ -67,26 +70,26 @@ HTTP/1.1 201 Created
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "journalDisplayName": "DEFAULT",
-  "lineNumber": 10000,
-  "customerId": "customerId-value",
-  "customerNumber": "10400",
-  "postingDate": "2015-12-31",
-  "documentNumber": "1234",
-  "externalDocumentNumber": "",
-  "amount": 1500,
-  "appliesToInvoiceId": "appliesToInvoiceId-value",
-  "appliesToInvoiceNumber": "100000",
-  "description": "Accounts Receivable",
-  "comment": "",
-  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
+    "id": "17cce948-c6a5-4861-8ff5-30428ed83207",
+    "journalDisplayName": "DEFAULT",
+    "lineNumber": 10000,
+    "customerId": "customerId-value",
+    "customerNumber": "10400",
+    "contactId": "string",
+    "postingDate": "2015-12-31",
+    "documentNumber": "1234",
+    "externalDocumentNumber": "",
+    "amount": 1500,
+    "appliesToInvoiceId": "appliesToInvoiceId-value",
+    "appliesToInvoiceNumber": "100000",
+    "description": "",
+    "comment": "",
+    "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [Customer Payments](../resources/dynamics_customerpayment.md)  
 [Get Customer Payments](dynamics_customerpayment_get.md)  
 [Patch Customer Payments](dynamics_customerpayment_update.md)  

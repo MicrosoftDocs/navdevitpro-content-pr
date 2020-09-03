@@ -63,20 +63,21 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "lineNumber": 10000,
-  "customerId": "customerId-value",
-  "customerNumber": "",
-  "contactId": "contactId-value",
-  "postingDate": "2015-12-31",
-  "documentNumber": "D00001",
-  "externalDocumentNumber": "",
-  "amount": -2000,
-  "appliesToInvoiceId": "appliesToInvoiceId-value",
-  "appliesToInvoiceNumber": "100000",
-  "description": "",
-  "comment": "",
-  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
+    "id": "17cce948-c6a5-4861-8ff5-30428ed83207",
+    "journalDisplayName": "DEFAULT",
+    "lineNumber": 10000,
+    "customerId": "customerId-value",
+    "customerNumber": "10400",
+    "contactId": "string",
+    "postingDate": "2015-12-31",
+    "documentNumber": "1234",
+    "externalDocumentNumber": "",
+    "amount": 2000,
+    "appliesToInvoiceId": "appliesToInvoiceId-value",
+    "appliesToInvoiceNumber": "100000",
+    "description": "",
+    "comment": "",
+    "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```
 ## See also
