@@ -1,6 +1,6 @@
 ---
 title: paymentMethod resource type | Microsoft Docs
-description: An paymentMethod object in Dynamics 365 Business Central.
+description: An payment method object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
 
@@ -14,7 +14,7 @@ ms.author: solsen
 ---
 
 # paymentMethod resource type
-Represents an paymentMethod in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents an payment method in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -23,10 +23,10 @@ Represents an paymentMethod in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 
 | Method                                              | Return Type|Description               |
 |:----------------------------------------------------|:-----------|:-------------------------|
-|[GET timeRegistrationEntries](../api/dynamics_timeregistrationentry_get.md)      |employees  |Get an timeRegistrationEntries object.   |
-|[POST timeRegistrationEntries](../api/dynamics_timeregistrationentry_create.md)  |employees  |Create an timeRegistrationEntries object.|
-|[PATCH timeRegistrationEntries](../api/dynamics_timeregistrationentry_update.md) |employees  |Update an timeRegistrationEntries object.|
-|[DELETE timeRegistrationEntries](../api/dynamics_timeregistrationentry_delete.md)|none       |Delete an timeRegistrationEntries object.|
+|[GET paymentMethod](../api/dynamics_paymentMethod_get.md)      |employees  |Get an paymentMethod object.   |
+|[POST paymentMethod](../api/dynamics_paymentMethod_create.md)  |employees  |Create an paymentMethod object.|
+|[PATCH paymentMethod](../api/dynamics_paymentMethod_update.md) |employees  |Update an paymentMethod object.|
+|[DELETE paymentMethod](../api/dynamics_paymentMethod_delete.md)|none       |Delete an paymentMethod object.|
 
 
 
@@ -70,8 +70,8 @@ Here is a JSON representation of the resource.
 ## See also
 
 [Error Codes](../dynamics_error_codes.md)  
-[timeRegistrationEntries](../resources/dynamics_timeregistrationentry.md)  
-[Get timeRegistrationEntries](../api/dynamics_timeregistrationentry_get.md)  
-[Post timeRegistrationEntries](../api/dynamics_timeregistrationentry_create.md)  
-[Patch timeRegistrationEntries](../api/dynamics_timeregistrationentry_update.md)  
-[Delete timeRegistrationEntries](../api/dynamics_timeregistrationentry_delete.md)  
+[paymentMethod](../resources/dynamics_paymentMethod.md)  
+[Get paymentMethod](../api/dynamics_paymentMethod_get.md)  
+[Post paymentMethod](../api/dynamics_paymentMethod_create.md)  
+[Patch paymentMethod](../api/dynamics_paymentMethod_update.md)  
+[Delete paymentMethod](../api/dynamics_paymentMethod_delete.md)  

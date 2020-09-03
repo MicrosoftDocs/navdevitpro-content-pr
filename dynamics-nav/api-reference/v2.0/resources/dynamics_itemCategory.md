@@ -1,6 +1,6 @@
 ---
 title: itemCategory resource type | Microsoft Docs
-description: A dimension value in Dynamics 365 Business Central.
+description: An item category in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
 
@@ -14,7 +14,7 @@ ms.author: solsen
 ---
 
 # itemCategory resource type
-Represents a dimension value in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents an item category in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -23,7 +23,7 @@ Represents a dimension value in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 
 | Method       | Return Type  |Description                   |
 |:-------------|:-------------|:-----------------------------|
-|[GET itemCategory](../api/dynamics_dimensionvalue_get.md)|itemCategory|Gets a dimension value object.|
+|[GET itemCategory](../api/dynamics_itemCategory_get.md)|itemCategory|Gets a Item Category object.|
 
 
 ## Properties
@@ -31,9 +31,9 @@ Represents a dimension value in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 | Property           | Type                  |Description                                        |
 |:-------------------|:----------------------|:--------------------------------------------------|
 |id                  |GUID                   |The unique ID of the item.                         |
-|code                |string, maximum size 20|The dimension value code.                          |
-|displayName         |string                 |Specifies the dimension value's name. This name will appear where the dimension value is used.|
-|lastModifiedDateTime|datetime               |The last datetime the dimension value was modified.|  
+|code                |string, maximum size 20|The Item Category code.                          |
+|displayName         |string                 |Specifies the Item Category's name. This name will appear where the Item Category is used.|
+|lastModifiedDateTime|datetime               |The last datetime the Item Category was modified.|  
 
 
 ## JSON representation
@@ -52,4 +52,4 @@ Here is a JSON representation of the resource.
 
 ## See also
   
-[Get Dimension Value](../api/dynamics_dimensionvalue_get.md)  
+[Get Item Category](../api/dynamics_itemCategory_get.md)  

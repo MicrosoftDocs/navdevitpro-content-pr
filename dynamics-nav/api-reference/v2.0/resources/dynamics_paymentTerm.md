@@ -1,6 +1,6 @@
 ---
 title: paymentTerm resource type | Microsoft Docs
-description: A dimension value in Dynamics 365 Business Central.
+description: A payment term in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
 
@@ -14,7 +14,7 @@ ms.author: solsen
 ---
 
 # paymentTerm resource type
-Represents a dimension value in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a payment term in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -23,7 +23,7 @@ Represents a dimension value in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 
 | Method       | Return Type  |Description                   |
 |:-------------|:-------------|:-----------------------------|
-|[GET paymentTerm](../api/dynamics_dimensionvalue_get.md)|paymentTerm|Gets a dimension value object.|
+|[GET paymentTerm](../api/dynamics_paymentTerm_get.md)|paymentTerm|Gets a dimension value object.|
 
 
 ## Properties
@@ -56,4 +56,4 @@ Here is a JSON representation of the resource.
 
 ## See also
   
-[Get Dimension Value](../api/dynamics_dimensionvalue_get.md)  
+[Get Dimension Value](../api/dynamics_paymentTerm_get.md)  

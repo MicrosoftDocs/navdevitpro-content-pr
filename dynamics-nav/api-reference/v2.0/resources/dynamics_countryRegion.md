@@ -1,6 +1,6 @@
 ---
 title: countryRegion resource type | Microsoft Docs
-description: A cash flow statement object in Dynamics 365 Business Central.
+description: A countryRegion object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
 
@@ -23,7 +23,7 @@ Represents an countryRegion object in [!INCLUDE[d365fin_long_md](../../includes/
 
 | Method       | Return Type  |Description|
 |:-------------|:-------------|:----------|
-|[GET countryRegion](../api/dynamics_cashflowstatement_get.md)|countryRegion|Get a countryRegion object.|
+|[GET countryRegion](../api/dynamics_countryRegion_get.md)|countryRegion|Get a countryRegion object.|
 
 ## Properties
 
@@ -53,5 +53,5 @@ Here is a JSON representation of the resource.
 ```
 ## See also
   
-[Get Cash Flow Statement](../api/dynamics_cashflowstatement_get.md)  
+[Get countryRegion](../api/dynamics_countryRegion_get.md)  
 [Balance Sheet](dynamics_balancesheet.md)  

@@ -1,6 +1,6 @@
 ---
 title: entityMetadata resource type | Microsoft Docs
-description: A purchase invoice line object in Dynamics 365 Business Central.
+description: An entity metadata object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
 
@@ -14,7 +14,7 @@ ms.author: solsen
 ---
 
 # entityMetadata resource type
-Represents a line on a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents an entity metadata in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -23,10 +23,10 @@ Represents a line on a purchase invoice in [!INCLUDE[d365fin_long_md](../../incl
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET entityMetadata](../api/dynamics_purchaseinvoiceline_get.md)|entityMetadata|Gets a purchase invoice line object.|
-|[POST entityMetadata](../api/dynamics_create_purchaseinvoiceline.md)|entityMetadata|Creates a purchase invoice line object.|
-|[PATCH entityMetadata](../api/dynamics_purchaseinvoiceline_update.md)|entityMetadata|Updates a purchase invoice line object.|
-|[DELETE entityMetadata](../api/dynamics_purchaseinvoiceline_delete.md)|none   |Deletes a purchase invoice line object.|
+|[GET entityMetadata](../api/dynamics_entityMetadata_get.md)|entityMetadata|Gets a purchase invoice line object.|
+|[POST entityMetadata](../api/dynamics_create_entityMetadata.md)|entityMetadata|Creates a purchase invoice line object.|
+|[PATCH entityMetadata](../api/dynamics_entityMetadata_update.md)|entityMetadata|Updates a purchase invoice line object.|
+|[DELETE entityMetadata](../api/dynamics_entityMetadata_delete.md)|none   |Deletes a purchase invoice line object.|
 
 
 ## Navigation
@@ -79,7 +79,7 @@ Represents a line on a purchase invoice in [!INCLUDE[d365fin_long_md](../../incl
 |[salesCreditMemos](../resources/dynamics_salescreditmemos.md)|salesCreditMemos   |Gets the salescreditmemos of the entityMetadata.|
 |[salesCreditMemoLines](../resources/dynamics_salescreditmemolines.md)|salesCreditMemoLines   |Gets the salescreditmemolines of the entityMetadata.|
 |[purchaseInvoices](../resources/dynamics_purchaseinvoices.md)|purchaseInvoices   |Gets the purchaseinvoices of the entityMetadata.|
-|[purchaseInvoiceLines](../resources/dynamics_purchaseinvoicelines.md)|purchaseInvoiceLines   |Gets the purchaseinvoicelines of the entityMetadata.|
+|[entityMetadatas](../resources/dynamics_entityMetadatas.md)|entityMetadatas   |Gets the entityMetadatas of the entityMetadata.|
 |[projects](../resources/dynamics_projects.md)|projects   |Gets the projects of the entityMetadata.|
 |[bankAccounts](../resources/dynamics_bankaccounts.md)|bankAccounts   |Gets the bankaccounts of the entityMetadata.|
 |[customerSales](../resources/dynamics_customersales.md)|customerSales   |Gets the customersales of the entityMetadata.|
@@ -134,7 +134,7 @@ Here is a JSON representation of the resource.
 
 ## See also
 
-[Get Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_get.md)  
-[Create Purchase Invoice Line](../api/dynamics_create_purchaseinvoiceline.md)  
-[Update Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_update.md)  
-[Delete Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_delete.md)  
+[Get Purchase Invoice Line](../api/dynamics_entityMetadata_get.md)  
+[Create Purchase Invoice Line](../api/dynamics_create_entityMetadata.md)  
+[Update Purchase Invoice Line](../api/dynamics_entityMetadata_update.md)  
+[Delete Purchase Invoice Line](../api/dynamics_entityMetadata_delete.md)  

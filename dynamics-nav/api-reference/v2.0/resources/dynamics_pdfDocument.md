@@ -1,6 +1,6 @@
 ---
 title: pdfDocument resource type | Microsoft Docs
-description: A sales invoice line in Dynamics 365 Business Central.
+description: A pdf document in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
 
@@ -14,7 +14,7 @@ ms.author: solsen
 ---
 
 # pdfDocument resource type
-Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a pdf document in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -23,10 +23,10 @@ Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../include
 
 | Method                                                                | Return Type      | Description                    |
 |:----------------------------------------------------------------------|:-----------------|:-------------------------------|
-|[GET pdfDocument](../api/dynamics_salesinvoiceline_get.md)      |pdfDocument|Gets a sales invoice line object   |
-|[POST pdfDocument](../api/dynamics_create_salesinvoiceline.md)  |pdfDocument|Creates a sales invoice line object.|
-|[PATCH pdfDocument](../api/dynamics_salesinvoiceline_update.md) |pdfDocument|Updated a sales invoice line object.|
-|[DELETE pdfDocument](../api/dynamics_salesinvoiceline_delete.md)|none              |Deletes a sales invoice line object.|
+|[GET pdfDocument](../api/dynamics_pdfDocument_get.md)      |pdfDocument|Gets a pdfDocument object   |
+|[POST pdfDocument](../api/dynamics_create_pdfDocument.md)  |pdfDocument|Creates a pdfDocument object.|
+|[PATCH pdfDocument](../api/dynamics_pdfDocument_update.md) |pdfDocument|Updated a pdfDocument object.|
+|[DELETE pdfDocument](../api/dynamics_pdfDocument_delete.md)|none              |Deletes a pdfDocument object.|
 
 
 ## Navigation
@@ -34,7 +34,7 @@ Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../include
 | Navigation |Return Type| Description |
 |:----------|:----------|:-----------------|
 |[salesInvoice](../resources/dynamics_salesinvoice.md)|salesInvoice   |Gets the salesinvoice of the pdfDocument.|
-|[salesInvoiceLine](../resources/dynamics_salesinvoiceline.md)|salesInvoiceLine   |Gets the salesinvoiceline of the pdfDocument.|
+|[pdfDocument](../resources/dynamics_pdfDocument.md)|pdfDocument   |Gets the pdfDocument of the pdfDocument.|
 |[dimension](../resources/dynamics_dimension.md)|dimension   |Gets the dimension of the pdfDocument.|
 |[journalLine](../resources/dynamics_journalline.md)|journalLine   |Gets the journalline of the pdfDocument.|
 |[timeRegistrationEntry](../resources/dynamics_timeregistrationentry.md)|timeRegistrationEntry   |Gets the timeregistrationentry of the pdfDocument.|
@@ -93,7 +93,7 @@ Here is a JSON representation of the resource.
 
 ## See also
 
-[Get Sales Invoice Line](../api/dynamics_salesinvoiceline_get.md)  
-[Create Sales Invoice Line](../api/dynamics_create_salesinvoiceline.md)  
-[Update Sales Invoice Line](../api/dynamics_salesinvoiceline_update.md)  
-[Delete Sales Invoice Line](../api/dynamics_salesinvoiceline_delete.md)  
+[Get pdfDocument](../api/dynamics_pdfDocument_get.md)  
+[Create pdfDocument](../api/dynamics_create_pdfDocument.md)  
+[Update pdfDocument](../api/dynamics_pdfDocument_update.md)  
+[Delete pdfDocument](../api/dynamics_pdfDocument_delete.md)  

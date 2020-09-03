@@ -1,6 +1,6 @@
 ---
 title: dimensionSetLine resource type | Microsoft Docs
-description: A sales invoice line in Dynamics 365 Business Central.
+description: A dimension set line in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
 
@@ -14,7 +14,7 @@ ms.author: solsen
 ---
 
 # dimensionSetLine resource type
-Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -23,10 +23,10 @@ Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../include
 
 | Method                                                                | Return Type      | Description                    |
 |:----------------------------------------------------------------------|:-----------------|:-------------------------------|
-|[GET dimensionSetLine](../api/dynamics_salesinvoiceline_get.md)      |dimensionSetLine|Gets a sales invoice line object   |
-|[POST dimensionSetLine](../api/dynamics_create_salesinvoiceline.md)  |dimensionSetLine|Creates a sales invoice line object.|
-|[PATCH dimensionSetLine](../api/dynamics_salesinvoiceline_update.md) |dimensionSetLine|Updated a sales invoice line object.|
-|[DELETE dimensionSetLine](../api/dynamics_salesinvoiceline_delete.md)|none              |Deletes a sales invoice line object.|
+|[GET dimensionSetLine](../api/dynamics_dimensionSetLine_get.md)      |dimensionSetLine|Gets a Dimension Set Line object   |
+|[POST dimensionSetLine](../api/dynamics_create_dimensionSetLine.md)  |dimensionSetLine|Creates a Dimension Set Line object.|
+|[PATCH dimensionSetLine](../api/dynamics_dimensionSetLine_update.md) |dimensionSetLine|Updated a Dimension Set Line object.|
+|[DELETE dimensionSetLine](../api/dynamics_dimensionSetLine_delete.md)|none              |Deletes a Dimension Set Line object.|
 
 
 ## Navigation
@@ -34,7 +34,7 @@ Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../include
 | Navigation |Return Type| Description |
 |:----------|:----------|:-----------------|
 |[salesInvoice](../resources/dynamics_salesinvoice.md)|salesInvoice   |Gets the salesinvoice of the dimensionSetLine.|
-|[salesInvoiceLine](../resources/dynamics_salesinvoiceline.md)|salesInvoiceLine   |Gets the salesinvoiceline of the dimensionSetLine.|
+|[dimensionSetLine](../resources/dynamics_dimensionSetLine.md)|dimensionSetLine   |Gets the dimensionSetLine of the dimensionSetLine.|
 |[dimension](../resources/dynamics_dimension.md)|dimension   |Gets the dimension of the dimensionSetLine.|
 |[journalLine](../resources/dynamics_journalline.md)|journalLine   |Gets the journalline of the dimensionSetLine.|
 |[timeRegistrationEntry](../resources/dynamics_timeregistrationentry.md)|timeRegistrationEntry   |Gets the timeregistrationentry of the dimensionSetLine.|
@@ -99,7 +99,7 @@ Here is a JSON representation of the resource.
 
 ## See also
 
-[Get Sales Invoice Line](../api/dynamics_salesinvoiceline_get.md)  
-[Create Sales Invoice Line](../api/dynamics_create_salesinvoiceline.md)  
-[Update Sales Invoice Line](../api/dynamics_salesinvoiceline_update.md)  
-[Delete Sales Invoice Line](../api/dynamics_salesinvoiceline_delete.md)  
+[Get Dimension Set Line](../api/dynamics_dimensionSetLine_get.md)  
+[Create Dimension Set Line](../api/dynamics_create_dimensionSetLine.md)  
+[Update Dimension Set Line](../api/dynamics_dimensionSetLine_update.md)  
+[Delete Dimension Set Line](../api/dynamics_dimensionSetLine_delete.md)  

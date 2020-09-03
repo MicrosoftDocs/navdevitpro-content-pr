@@ -1,6 +1,6 @@
 ---
 title: bankAccount resource type | Microsoft Docs
-description: A purchase invoice line object in Dynamics 365 Business Central.
+description: A bankAccount object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
 
@@ -23,10 +23,10 @@ Represents a line on a purchase invoice in [!INCLUDE[d365fin_long_md](../../incl
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET bankAccount](../api/dynamics_purchaseinvoiceline_get.md)|bankAccount|Gets a purchase invoice line object.|
-|[POST bankAccount](../api/dynamics_create_purchaseinvoiceline.md)|bankAccount|Creates a purchase invoice line object.|
-|[PATCH bankAccount](../api/dynamics_purchaseinvoiceline_update.md)|bankAccount|Updates a purchase invoice line object.|
-|[DELETE bankAccount](../api/dynamics_purchaseinvoiceline_delete.md)|none   |Deletes a purchase invoice line object.|
+|[GET bankAccount](../api/dynamics_bankAccount_get.md)|bankAccount|Gets a bankAccount object.|
+|[POST bankAccount](../api/dynamics_create_bankAccount.md)|bankAccount|Creates a bankAccount object.|
+|[PATCH bankAccount](../api/dynamics_bankAccount_update.md)|bankAccount|Updates a bankAccount object.|
+|[DELETE bankAccount](../api/dynamics_bankAccount_delete.md)|none   |Deletes a bankAccount object.|
 
 
 ## Navigation
@@ -87,7 +87,7 @@ Here is a JSON representation of the resource.
 
 ## See also
 
-[Get Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_get.md)  
-[Create Purchase Invoice Line](../api/dynamics_create_purchaseinvoiceline.md)  
-[Update Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_update.md)  
-[Delete Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_delete.md)  
+[Get bankAccount](../api/dynamics_bankAccount_get.md)  
+[Create bankAccount](../api/dynamics_create_bankAccount.md)  
+[Update bankAccount](../api/dynamics_bankAccount_update.md)  
+[Delete bankAccount](../api/dynamics_bankAccount_delete.md)  

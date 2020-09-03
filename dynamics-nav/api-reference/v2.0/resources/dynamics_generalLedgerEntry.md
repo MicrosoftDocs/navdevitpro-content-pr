@@ -1,6 +1,6 @@
 ---
 title: generalLedgerEntry resource type | Microsoft Docs
-description: An generalLedgerEntry object in Dynamics 365 Business Central.
+description: An general ledger entry object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
 
@@ -14,7 +14,7 @@ ms.author: solsen
 ---
 
 # generalLedgerEntry resource type
-Represents an generalLedgerEntry in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents an general ledger entry in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -23,10 +23,10 @@ Represents an generalLedgerEntry in [!INCLUDE[d365fin_long_md](../../includes/d3
 
 | Method                                              | Return Type|Description               |
 |:----------------------------------------------------|:-----------|:-------------------------|
-|[GET timeRegistrationEntries](../api/dynamics_timeregistrationentry_get.md)      |employees  |Get an timeRegistrationEntries object.   |
-|[POST timeRegistrationEntries](../api/dynamics_timeregistrationentry_create.md)  |employees  |Create an timeRegistrationEntries object.|
-|[PATCH timeRegistrationEntries](../api/dynamics_timeregistrationentry_update.md) |employees  |Update an timeRegistrationEntries object.|
-|[DELETE timeRegistrationEntries](../api/dynamics_timeregistrationentry_delete.md)|none       |Delete an timeRegistrationEntries object.|
+|[GET General Ledger Entry](../api/dynamics_generalLedgerEntry_get.md)      |employees  |Get an General Ledger Entry object.   |
+|[POST General Ledger Entry](../api/dynamics_generalLedgerEntry_create.md)  |employees  |Create an General Ledger Entry object.|
+|[PATCH General Ledger Entry](../api/dynamics_generalLedgerEntry_update.md) |employees  |Update an General Ledger Entry object.|
+|[DELETE General Ledger Entry](../api/dynamics_generalLedgerEntry_delete.md)|none       |Delete an General Ledger Entry object.|
 
 
 
@@ -77,8 +77,8 @@ Here is a JSON representation of the resource.
 ## See also
 
 [Error Codes](../dynamics_error_codes.md)  
-[timeRegistrationEntries](../resources/dynamics_timeregistrationentry.md)  
-[Get timeRegistrationEntries](../api/dynamics_timeregistrationentry_get.md)  
-[Post timeRegistrationEntries](../api/dynamics_timeregistrationentry_create.md)  
-[Patch timeRegistrationEntries](../api/dynamics_timeregistrationentry_update.md)  
-[Delete timeRegistrationEntries](../api/dynamics_timeregistrationentry_delete.md)  
+[General Ledger Entry](../resources/dynamics_generalLedgerEntry.md)  
+[Get General Ledger Entry](../api/dynamics_generalLedgerEntry_get.md)  
+[Post General Ledger Entry](../api/dynamics_generalLedgerEntry_create.md)  
+[Patch General Ledger Entry](../api/dynamics_generalLedgerEntry_update.md)  
+[Delete General Ledger Entry](../api/dynamics_generalLedgerEntry_delete.md)  

@@ -1,6 +1,6 @@
 ---
 title: customerPaymentJournal resource type | Microsoft Docs
-description: A sales invoice line in Dynamics 365 Business Central.
+description: A customer payment journal in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
 
@@ -14,7 +14,7 @@ ms.author: solsen
 ---
 
 # customerPaymentJournal resource type
-Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a customer payment journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -23,10 +23,10 @@ Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../include
 
 | Method                                                                | Return Type      | Description                    |
 |:----------------------------------------------------------------------|:-----------------|:-------------------------------|
-|[GET customerPaymentJournal](../api/dynamics_salesinvoiceline_get.md)      |customerPaymentJournal|Gets a sales invoice line object   |
-|[POST customerPaymentJournal](../api/dynamics_create_salesinvoiceline.md)  |customerPaymentJournal|Creates a sales invoice line object.|
-|[PATCH customerPaymentJournal](../api/dynamics_salesinvoiceline_update.md) |customerPaymentJournal|Updated a sales invoice line object.|
-|[DELETE customerPaymentJournal](../api/dynamics_salesinvoiceline_delete.md)|none              |Deletes a sales invoice line object.|
+|[GET customerPaymentJournal](../api/dynamics_customerPaymentJournal_get.md)      |customerPaymentJournal|Gets a customerPaymentJournal object   |
+|[POST customerPaymentJournal](../api/dynamics_create_customerPaymentJournal.md)  |customerPaymentJournal|Creates a customerPaymentJournal object.|
+|[PATCH customerPaymentJournal](../api/dynamics_customerPaymentJournal_update.md) |customerPaymentJournal|Updated a customerPaymentJournal object.|
+|[DELETE customerPaymentJournal](../api/dynamics_customerPaymentJournal_delete.md)|none              |Deletes a customerPaymentJournal object.|
 
 
 ## Navigation
@@ -85,7 +85,7 @@ Here is a JSON representation of the resource.
 
 ## See also
 
-[Get Sales Invoice Line](../api/dynamics_salesinvoiceline_get.md)  
-[Create Sales Invoice Line](../api/dynamics_create_salesinvoiceline.md)  
-[Update Sales Invoice Line](../api/dynamics_salesinvoiceline_update.md)  
-[Delete Sales Invoice Line](../api/dynamics_salesinvoiceline_delete.md)  
+[Get customerPaymentJournal](../api/dynamics_customerPaymentJournal_get.md)  
+[Create customerPaymentJournal](../api/dynamics_create_customerPaymentJournal.md)  
+[Update customerPaymentJournal](../api/dynamics_customerPaymentJournal_update.md)  
+[Delete customerPaymentJournal](../api/dynamics_customerPaymentJournal_delete.md)  

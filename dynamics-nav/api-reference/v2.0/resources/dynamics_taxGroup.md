@@ -1,6 +1,6 @@
 ---
 title: taxGroup resource type | Microsoft Docs
-description: An taxGroup object in Dynamics 365 Business Central.
+description: An tax group object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
 
@@ -14,7 +14,7 @@ ms.author: solsen
 ---
 
 # taxGroup resource type
-Represents an taxGroup object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents an tax group object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -54,6 +54,4 @@ Here is a JSON representation of the resource.
 ```
 ## See also
   
-[Get Account](../api/dynamics_taxGroup_get.md)  
-[Aged Accounts Payable](dynamics_agedtaxGrouppayable.md)  
-[Aged Accounts Receivable](dynamics_agedtaxGroupreceivable.md)  
+[Get Tax Group](../api/dynamics_taxGroup_get.md)  

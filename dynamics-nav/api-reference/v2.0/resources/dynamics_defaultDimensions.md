@@ -1,6 +1,6 @@
 ---
 title: defaultDimensions resource type | Microsoft Docs
-description: A defaultDimensions object in Dynamics 365 Business Central. 
+description: A default dimensions object in Dynamics 365 Business Central. 
  
 author: SusanneWindfeldPedersen
 
@@ -14,7 +14,7 @@ ms.author: solsen
 ---
 
 # defaultDimensions resource type
-Represents a defaultDimensions in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. You can save the stream as an image directly.
+Represents a default dimensions in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. You can save the stream as an image directly.
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).

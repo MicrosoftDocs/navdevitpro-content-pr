@@ -1,6 +1,6 @@
 ---
 title: itemVariant resource type | Microsoft Docs
-description: A itemVariant object in Dynamics 365 Business Central. 
+description: A item variant object in Dynamics 365 Business Central. 
  
 author: SusanneWindfeldPedersen
 
@@ -14,7 +14,7 @@ ms.author: solsen
 ---
 
 # itemVariant resource type
-Represents a itemVariant in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. You can save the stream as an image directly.
+Represents a item variant in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. You can save the stream as an image directly.
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).

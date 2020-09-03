@@ -1,6 +1,6 @@
 ---
 title: project resource type | Microsoft Docs
-description: A purchase invoice line object in Dynamics 365 Business Central.
+description: A project object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
 
@@ -14,7 +14,7 @@ ms.author: solsen
 ---
 
 # project resource type
-Represents a line on a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a project in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -23,10 +23,10 @@ Represents a line on a purchase invoice in [!INCLUDE[d365fin_long_md](../../incl
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET project](../api/dynamics_purchaseinvoiceline_get.md)|project|Gets a purchase invoice line object.|
-|[POST project](../api/dynamics_create_purchaseinvoiceline.md)|project|Creates a purchase invoice line object.|
-|[PATCH project](../api/dynamics_purchaseinvoiceline_update.md)|project|Updates a purchase invoice line object.|
-|[DELETE project](../api/dynamics_purchaseinvoiceline_delete.md)|none   |Deletes a purchase invoice line object.|
+|[GET project](../api/dynamics_project_get.md)|project|Gets a Project object.|
+|[POST project](../api/dynamics_create_project.md)|project|Creates a Project object.|
+|[PATCH project](../api/dynamics_project_update.md)|project|Updates a Project object.|
+|[DELETE project](../api/dynamics_project_delete.md)|none   |Deletes a Project object.|
 
 
 ## Navigation
@@ -87,7 +87,7 @@ Here is a JSON representation of the resource.
 
 ## See also
 
-[Get Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_get.md)  
-[Create Purchase Invoice Line](../api/dynamics_create_purchaseinvoiceline.md)  
-[Update Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_update.md)  
-[Delete Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_delete.md)  
+[Get Project](../api/dynamics_project_get.md)  
+[Create Project](../api/dynamics_create_project.md)  
+[Update Project](../api/dynamics_project_update.md)  
+[Delete Project](../api/dynamics_project_delete.md)  

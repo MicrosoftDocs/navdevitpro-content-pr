@@ -1,6 +1,6 @@
 ---
 title: customerSale resource type | Microsoft Docs
-description: A purchase invoice line object in Dynamics 365 Business Central.
+description: A customer sale object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
 
@@ -14,7 +14,7 @@ ms.author: solsen
 ---
 
 # customerSale resource type
-Represents a line on a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a customer sale in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -23,10 +23,10 @@ Represents a line on a purchase invoice in [!INCLUDE[d365fin_long_md](../../incl
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET customerSale](../api/dynamics_purchaseinvoiceline_get.md)|customerSale|Gets a purchase invoice line object.|
-|[POST customerSale](../api/dynamics_create_purchaseinvoiceline.md)|customerSale|Creates a purchase invoice line object.|
-|[PATCH customerSale](../api/dynamics_purchaseinvoiceline_update.md)|customerSale|Updates a purchase invoice line object.|
-|[DELETE customerSale](../api/dynamics_purchaseinvoiceline_delete.md)|none   |Deletes a purchase invoice line object.|
+|[GET customerSale](../api/dynamics_customerSale_get.md)|customerSale|Gets a Customer Sale object.|
+|[POST customerSale](../api/dynamics_create_customerSale.md)|customerSale|Creates a Customer Sale object.|
+|[PATCH customerSale](../api/dynamics_customerSale_update.md)|customerSale|Updates a Customer Sale object.|
+|[DELETE customerSale](../api/dynamics_customerSale_delete.md)|none   |Deletes a Customer Sale object.|
 
 
 ## Navigation
@@ -89,7 +89,7 @@ Here is a JSON representation of the resource.
 
 ## See also
 
-[Get Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_get.md)  
-[Create Purchase Invoice Line](../api/dynamics_create_purchaseinvoiceline.md)  
-[Update Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_update.md)  
-[Delete Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_delete.md)  
+[Get Customer Sale](../api/dynamics_customerSale_get.md)  
+[Create Customer Sale](../api/dynamics_create_customerSale.md)  
+[Update Customer Sale](../api/dynamics_customerSale_update.md)  
+[Delete Customer Sale](../api/dynamics_customerSale_delete.md)  

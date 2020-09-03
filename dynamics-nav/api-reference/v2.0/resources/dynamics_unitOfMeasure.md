@@ -1,6 +1,6 @@
 ---
 title: unitOfMeasure resource type | Microsoft Docs
-description: A retained earnings statement object in Dynamics 365 Business Central.
+description: A unit of measure object in Dynamics 365 Business Central.
  
 author: SusanneWindfeldPedersen
 
@@ -14,7 +14,7 @@ ms.author: solsen
 ---
 
 # unitOfMeasure resource type
-Represents an retained earnings statement in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a unit of measure in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -23,7 +23,7 @@ Represents an retained earnings statement in [!INCLUDE[d365fin_long_md](../../in
 
 | Method       | Return Type  |Description          |
 |:-------------|:-------------|:--------------------|
-|[GET unitOfMeasure](../api/dynamics_retainedearningsstatement_get.md)|unitOfMeasure|Get a retained earnings statement object.|
+|[GET unitOfMeasure](../api/dynamics_unitofmeasure_get.md)|unitOfMeasure|Get a retained earnings statement object.|
 
 ## Properties
 
@@ -54,4 +54,4 @@ Here is a JSON representation of the resource.
 ```
 ## See also
 
-[Get Retained Earnings Statement](../api/dynamics_retainedearningsstatement_get.md)  
+[Get Unit of Measure](../api/dynamics_unitofmeasure_get.md)  
