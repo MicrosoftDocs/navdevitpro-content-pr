@@ -70,7 +70,7 @@ Here is a JSON representation of the resource.
    "id": "GUID",
    "number": "string",
    "displayName": "string",
-   "type": "contactType",
+   "type": "NAV.contactType",
    "itemCategoryId": "GUID",
    "itemCategoryCode": "string",
    "blocked": "boolean",

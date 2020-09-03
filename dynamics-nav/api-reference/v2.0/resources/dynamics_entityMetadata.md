@@ -123,11 +123,11 @@ Here is a JSON representation of the resource.
     {
    "entityName": "string",
    "entitySetName": "string",
-   "entityCaptions": "entityMetadataLabel",
-   "entitySetCaptions": "entityMetadataLabel",
-   "properties": "entityMetadataField",
-   "actions": "entityMetadataAction",
-   "enumMembers": "entityMetadataEnumMember"
+   "entityCaptions": "NAV.entityMetadataLabel",
+   "entitySetCaptions": "NAV.entityMetadataLabel",
+   "properties": "NAV.entityMetadataField",
+   "actions": "NAV.entityMetadataAction",
+   "enumMembers": "NAV.entityMetadataEnumMember"
 }
   ]
 ```

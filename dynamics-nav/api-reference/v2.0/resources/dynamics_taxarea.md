@@ -47,7 +47,7 @@ Here is a JSON representation of the resource.
    "id": "GUID",
    "code": "string",
    "displayName": "string",
-   "taxType": "taxBufferType",
+   "taxType": "NAV.taxBufferType",
    "lastModifiedDateTime": "datetime"
 }
 ```

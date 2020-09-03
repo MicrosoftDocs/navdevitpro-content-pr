@@ -40,8 +40,6 @@ Represents a line on a sales order in [!INCLUDE[d365fin_long_md](../../includes/
 |[itemVariant](../resources/dynamics_itemvariant.md)|itemVariant   |Gets the itemvariant of the salesOrderLine.|
 |[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the salesOrderLine.|
 
-
-
 ## Properties
 
 | Property     | Type   |Description|
@@ -89,7 +87,7 @@ Here is a JSON representation of the resource.
    "sequence": "integer",
    "itemId": "GUID",
    "accountId": "GUID",
-   "lineType": "invoiceLineAggLineType",
+   "lineType": "NAV.invoiceLineAggLineType",
    "lineObjectNumber": "string",
    "description": "string",
    "unitOfMeasureId": "GUID",

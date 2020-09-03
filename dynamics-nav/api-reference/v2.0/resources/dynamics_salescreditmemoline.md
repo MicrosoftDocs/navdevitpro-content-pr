@@ -40,8 +40,6 @@ Represents a line on a sales credit memo line in [!INCLUDE[d365fin_long_md](../.
 |[itemVariant](../resources/dynamics_itemvariant.md)|itemVariant   |Gets the itemvariant of the salesCreditMemoLine.|
 |[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the salesCreditMemoLine.|
 
-
-
 ## Properties
 
 | Property     | Type   |Description|
@@ -84,7 +82,7 @@ Here is a JSON representation of the resource.
    "sequence": "integer",
    "itemId": "GUID",
    "accountId": "GUID",
-   "lineType": "invoiceLineAggLineType",
+   "lineType": "NAV.invoiceLineAggLineType",
    "lineObjectNumber": "string",
    "description": "string",
    "unitOfMeasureId": "GUID",

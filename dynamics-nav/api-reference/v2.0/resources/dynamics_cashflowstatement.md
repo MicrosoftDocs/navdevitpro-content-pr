@@ -48,7 +48,7 @@ Here is a JSON representation of the resource.
    "lineNumber": "integer",
    "display": "string",
    "netChange": "decimal",
-   "lineType": "invoiceLineAggLineType",
+   "lineType": "NAV.invoiceLineAggLineType",
    "indentation": "integer",
    "dateFilter": "date"
 }

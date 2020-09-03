@@ -80,7 +80,7 @@ Here is a JSON representation of the resource.
    "id": "GUID",
    "number": "string",
    "displayName": "string",
-   "type": "contactType",
+   "type": "NAV.contactType",
    "addressLine1": "string",
    "addressLine2": "string",
    "city": "string",
