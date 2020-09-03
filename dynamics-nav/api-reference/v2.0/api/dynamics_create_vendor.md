@@ -46,28 +46,28 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({id})/vendors
 Content-type: application/json
 
 {
-  "number": "40000",
-  "displayName": "Wide World Importers",
-  "address": {
-    "street": "51 Radcroft Road",
+    "id": "f7a5738a-44e3-ea11-bb43-000d3a2feca1",
+    "number": "10000",
+    "displayName": "Fabrikam, Inc.",
+    "addressLine1": "10 North Lake Avenue",
+    "addressLine2": "",
     "city": "Atlanta",
     "state": "GA",
-    "countryLetterCode": "US",
-    "postalCode": "31772"
-  },
-  "phoneNumber": "",
-  "email": "toby.rhode@cronuscorp.net",
-  "website": "",
-  "taxRegistrationNumber": "",
-  "currencyCode": "USD",
-  "irs1099Code": "",
-  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
-  "paymentMethod": {
-    "code": "BANK",
-    "description": "Bank Transfer"
-  },
-  "taxLiable": true,
-  "blocked": " "
+    "country": "US",
+    "postalCode": "31772",
+    "phoneNumber": "4255550101",
+    "email": "krystal.york@contoso.com",
+    "website": "www.royalmail.co.uk",
+    "taxRegistrationNumber": "",
+    "currencyId": "00000000-0000-0000-0000-000000000000",
+    "currencyCode": "USD",
+    "irs1099Code": "",
+    "paymentTermsId": "0aa5738a-44e3-ea11-bb43-000d3a2feca1",
+    "paymentMethodId": "3b196a90-44e3-ea11-bb43-000d3a2feca1",
+    "taxLiable": true,
+    "blocked": " ",
+    "balance": 2071.13,
+    "lastModifiedDateTime": "2020-08-21T07:38:46.53Z"
 }
 ```
 
