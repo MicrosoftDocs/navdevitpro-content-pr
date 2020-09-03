@@ -49,15 +49,14 @@ GET https://{businesscentralPrefix}/api/v2.0/companies({id})/customerPaymentJour
 
 Here is an example of the response. 
 
-> [!NOTE]  
->   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
-
 ```json
 {
-  "id": "id-value",
-  "code": "DEFAULT",
-  "displayName": "Default Journal Batch",
-  "lastModifiedDateTime": "2017-05-17T11:30:01.313Z"
+    "id": "dc1b6a90-44e3-ea11-bb43-000d3a2feca1",
+    "code": "GENERAL",
+    "displayName": "GENERAL",
+    "lastModifiedDateTime": "2020-08-21T00:24:35.687Z",
+    "balancingAccountId": "00000000-0000-0000-0000-000000000000",
+    "balancingAccountNumber": "10100"
 }
 ```
 

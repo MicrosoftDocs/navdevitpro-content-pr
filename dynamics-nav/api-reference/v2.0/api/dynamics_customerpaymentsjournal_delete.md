@@ -59,7 +59,7 @@ HTTP/1.1 204 No Content
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 [Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Customer Payments Journal](../resources/dynamics_customerpaymentsjournal.md)  
+[Customer Payments Journal](../resources/dynamics_customerpaymentjournal.md)  
 [Get Customer Payments Journal](dynamics_customerpaymentsjournal_get.md)  
 [Post Customer Payments Journal](dynamics_create_customerpaymentsjournal.md)  
 [Patch Customer Payments Journal](dynamics_customerpaymentsjournal_update.md)  

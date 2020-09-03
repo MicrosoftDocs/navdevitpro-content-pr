@@ -57,18 +57,18 @@ Content-type: application/json
 
 Here is an example of the response. 
 
-> [!NOTE]  
-> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
 HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-  "id": "id-value",
+  "id": "9f196a90-44e3-ea11-bb43-000d3a2feca1",
   "code": "EXPENSE",
   "displayName": "Expense Batch",
-  "lastModifiedDateTime": "2017-05-17T11:30:01.313Z"
+  "lastModifiedDateTime": "2017-05-17T11:30:01.313Z",
+  "balancingAccountId": "00000000-0000-0000-0000-000000000000",
+  "balancingAccountNumber": ""
 }
 ```
 
@@ -76,7 +76,7 @@ Content-type: application/json
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 [Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Customer Payments Journal](../resources/dynamics_customerpaymentsjournal.md)  
+[Customer Payments Journal](../resources/dynamics_customerpaymentjournal.md)  
 [Get Customer Payment Journal](dynamics_customerpaymentsjournal_get.md)  
 [Post Customer Payments Journal](dynamics_create_customerpaymentsjournal.md)  
 [Delete Customer Payments Journal](dynamics_customerpaymentsjournal_delete.md)  

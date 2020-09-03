@@ -45,26 +45,23 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({id})/items
 Content-type: application/json
 
 {
-  "number": "1896-S",
-  "displayName": "ATHENS Desk",
-  "type": "Inventory",
-  "blocked": false,
-  "baseUnitOfMeasure": {
-    "unitCode": "PCS",
-    "unitName": "Piece",
-    "symbol": "",
-    "unitConversion": null
-  },
-  "gtin": "",
-  "itemCategory": {
-    "categoryId": "TABLE", 
-    "description": "Assorted Tables"
-  },
-  "inventory": 0,
-  "unitPrice": 1000.8,
-  "priceIncludesTax": false,
-  "unitCost": 780.7,
-  "taxGroupCode": "FURNITURE"
+    "id": "fca5738a-44e3-ea11-bb43-000d3a2feca1",
+    "number": "1896-S",
+    "displayName": "ATHENS Desk",
+    "type": "Inventory",
+    "itemCategoryId": "e21a6a90-44e3-ea11-bb43-000d3a2feca1",
+    "itemCategoryCode": "TABLE",
+    "blocked": false,
+    "gtin": "",
+    "inventory": 4,
+    "unitPrice": 1000.8,
+    "priceIncludesTax": false,
+    "unitCost": 780.7,
+    "taxGroupId": "9f196a90-44e3-ea11-bb43-000d3a2feca1",
+    "taxGroupCode": "FURNITURE",
+    "baseUnitOfMeasureId": "5ca6738a-44e3-ea11-bb43-000d3a2feca1",
+    "baseUnitOfMeasureCode": "PCS",
+    "lastModifiedDateTime": "2020-08-21T00:24:19.347Z"
 } 
 ```
 
