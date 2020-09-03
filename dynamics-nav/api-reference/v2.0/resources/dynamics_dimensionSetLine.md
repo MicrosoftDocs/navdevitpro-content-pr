@@ -34,7 +34,7 @@ Represents a dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d36
 | Navigation |Return Type| Description |
 |:----------|:----------|:-----------------|
 |[salesInvoice](../resources/dynamics_salesinvoice.md)|salesInvoice   |Gets the salesinvoice of the dimensionSetLine.|
-|[dimensionSetLine](../resources/dynamics_dimensionSetLine.md)|dimensionSetLine   |Gets the dimensionSetLine of the dimensionSetLine.|
+|[salesInvoiceLine](../resources/dynamics_salesinvoiceline.md)|salesInvoiceLine   |Gets the salesinvoiceline of the dimensionSetLine.|
 |[dimension](../resources/dynamics_dimension.md)|dimension   |Gets the dimension of the dimensionSetLine.|
 |[journalLine](../resources/dynamics_journalline.md)|journalLine   |Gets the journalline of the dimensionSetLine.|
 |[timeRegistrationEntry](../resources/dynamics_timeregistrationentry.md)|timeRegistrationEntry   |Gets the timeregistrationentry of the dimensionSetLine.|

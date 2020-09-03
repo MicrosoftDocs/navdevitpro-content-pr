@@ -76,13 +76,11 @@ Here is a JSON representation of the resource.
 
 
 ```json
-  "value": [
-    {
+{
    "id": "GUID",
    "number": "string",
    "displayName": "string"
 }
-  ]
 ```
 
 ## See also
