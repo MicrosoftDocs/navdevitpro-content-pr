@@ -25,10 +25,10 @@ Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_lon
 The following example gets a link to the content of the PDF:
 
 ```
-GET businesscentralPrefix/api/v1.0/companies({id})/salesQuote({quoteId})/pdfDocument
-GET businesscentralPrefix/api/v1.0/companies({id})/salesInvoice({salesInvoiceId})/pdfDocument
-GET businesscentralPrefix/api/v1.0/companies({id})/salesCreditMemo(salesCreditMemoId})/pdfDocument
-GET businesscentralPrefix/api/v1.0/companies({id})/purchaseInvoide({purchaseInvoiceId})/pdfDocument
+GET businesscentralPrefix/api/v1.0/companies({id})/salesQuotes({quoteId})/pdfDocument
+GET businesscentralPrefix/api/v1.0/companies({id})/salesInvoices({salesInvoiceId})/pdfDocument
+GET businesscentralPrefix/api/v1.0/companies({id})/salesCreditMemos(salesCreditMemoId})/pdfDocument
+GET businesscentralPrefix/api/v1.0/companies({id})/purchaseInvoices({purchaseInvoiceId})/pdfDocument
 
 ```
 
