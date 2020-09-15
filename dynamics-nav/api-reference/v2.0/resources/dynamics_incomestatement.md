@@ -1,15 +1,13 @@
 ---
 title: incomeStatement resource type | Microsoft Docs
-description: An incomeStatement in Dynamics 365 Business Central.
- 
+description: A income statement object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 8/26/2020
+ms.date: 09/15/2020
 ms.author: solsen
 ---
 
@@ -21,25 +19,34 @@ Represents an income statement in [!INCLUDE[d365fin_long_md](../../includes/d365
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:-------------|:-------------|:----------|
-|[GET incomeStatement](../api/dynamics_incomestatement_get.md)|incomeStatement|Get an income statement object.|
+| Method              | Return Type|Description               |
+|:--------------------|:-----------|:-------------------------|
+|[GET incomeStatement](../api/dynamics_incomeStatement_Get.md)|incomeStatement|Gets a income statement object.|
+|[DELETE incomeStatement](../api/dynamics_incomeStatement_Delete.md)|incomeStatement|Deletes a income statement object.|
+|[POST incomeStatement](../api/dynamics_incomeStatement_Create.md)|incomeStatement|Creates a income statement object.|
+|[PATCH incomeStatement](../api/dynamics_incomeStatement_Update.md)|incomeStatement|Updates a income statement object.|
+
+
+
+
+
 
 ## Properties
 
-| Property  | Type  |Description                                                 |
-|:----------|:------|:-----------------------------------------------------------|
-|lineNumber |numeric|The incomeStatement item line number.                       |
-|display    |string |The incomeStatement item display name.                      |
-|netChange  |numeric|The incomeStatement item Net Change.                        |
-|lineType   |string |The incomeStatement item line type can be: header, detail, total, or spacer.|
-|indentation|numeric|The incomeStatement item indentation used in report layout. |
-|dateFilter |date   |The date filter used to calculate the incomeStatement items.|
+| Property           | Type   |Description     |
+|:-------------------|:-------|:---------------|
+|id|GUID|The unique ID of the item. Non-editable.|
+|lineNumber|integer|The income statement item line number.|
+|display|string|The income statement item display name.|
+|netChange|decimal|The income statement net change. |
+|lineType|string|The type of the income statement.|
+|indentation|integer|The income statement item indentation used in report layout.|
+|dateFilter|date|The date filter used to calculate the income statement items.|
 
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
+Here is a JSON representation of the incomeStatement resource.
 
 
 ```json
@@ -48,14 +55,15 @@ Here is a JSON representation of the resource.
    "lineNumber": "integer",
    "display": "string",
    "netChange": "decimal",
-   "lineType": "NAV.invoiceLineAggLineType",
+   "lineType": "string",
    "indentation": "integer",
    "dateFilter": "date"
 }
 ```
 ## See also
 
+[GET incomeStatement](../api/dynamics_incomeStatement_Get.md)
+[DELETE incomeStatement](../api/dynamics_incomeStatement_Delete.md)
+[POST incomeStatement](../api/dynamics_incomeStatement_Create.md)
+[PATCH incomeStatement](../api/dynamics_incomeStatement_Update.md)
 
-
-[Error Codes](../dynamics_error_codes.md)  
-[Get Income Statement](../api/dynamics_incomestatement_get.md)  

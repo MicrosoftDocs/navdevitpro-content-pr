@@ -1,65 +1,67 @@
 ---
 title: customerPayment resource type | Microsoft Docs
-description: A customer payments object in Dynamics 365 Business Central.
- 
+description: A customer payment object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 8/26/2020
+ms.date: 09/15/2020
 ms.author: solsen
 ---
 
 # customerPayment resource type
-Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents an customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
-| Method         | Return Type  |Description|
-|:---------------|:-------------|:----------|
-|[GET customerPayment](../api/dynamics_customerpayment_get.md)|customerPayment|Gets a customer payment.|
-|[POST customerPayment](../api/dynamics_create_customerpayment.md)|customerPayment|Creates a customer payment.|
-|[PATCH customerPayment](../api/dynamics_customerpayment_update.md)|customerPayment|Updates a customer payment.|
-|[DELETE customerPayment](../api/dynamics_customerpayment_delete.md)|none|Deletes a customer payment.|
+| Method              | Return Type|Description               |
+|:--------------------|:-----------|:-------------------------|
+|[GET customerPayment](../api/dynamics_customerPayment_Get.md)|customerPayment|Gets a customer payment object.|
+|[DELETE customerPayment](../api/dynamics_customerPayment_Delete.md)|customerPayment|Deletes a customer payment object.|
+|[POST customerPayment](../api/dynamics_customerPayment_Create.md)|customerPayment|Creates a customer payment object.|
+|[PATCH customerPayment](../api/dynamics_customerPayment_Update.md)|customerPayment|Updates a customer payment object.|
+
+
 
 
 ## Navigation
 
-| Navigation |Return Type| Description |
+| Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[customer](../resources/dynamics_customer.md)|customer   |Gets the customer of the customerPayment.|
-
+|[customer](../resources/dynamics_customer.md)|customer |Gets the customer of the customerPayment.|
 
 
 ## Properties
 
-| Property     | Type    |Description|
-|:-------------|:--------|:----------|
-|id|GUID|The unique ID of the customer payment. Non-editable.|
-|lineNumber|integer|The number of the customer payment.|
-|customerId|GUID|The unique ID of the customer that the payment is related to.|
-|customerNumber|string, maximum size 20|The number of the customer that the payment is related to.|
-|contactId|string, maximum size 250|The exchange contact id for the given customer. If a customer id is not specified, we will use the contact id to find it.|
-|postingDate|date|The date that the customer payment is posted.|
-|documentNumber|string, maximum size 20|Specifies a document number for the customer payment.|
-|externalDocumentNumber|string, maximum size 20|Specifies an external document number for the customer payment.|
+| Property           | Type   |Description     |
+|:-------------------|:-------|:---------------|
+|id|GUID|The unique ID of the item. Non-editable.|
+|journalDisplayName|string|The display name of the journal that this line belongs to. Read-Only.|
+|lineNumber|integer|The customer payment item line number.|
+|customerId|GUID|The unique ID of customer.  |
+|customerNumber|string|The customer's number.|
+|contactId|string|he exchange contact id for the given customer. If a customer id is not specified, we will use the contact id to find it.|
+|postingDate|date|The date that the customer payment   is posted.|
+|documentNumber|string|Specifies a document number for the customer payment.|
+|externalDocumentNumber|string|Specifies an external document number for the customer payment.|
 |amount|decimal|Specifies the total amount (including VAT) that the customer payment consists of.|
-|appliesToInvoiceId|GUID|The unique ID of the invoice that the payment is related to.|
-|appliesToInvoiceNumber|string, maximum size 20|The number of the invoice that the payment is related to.|
-|description|string, maximum size 50|The description of the customer payment, provided by the user or autocreated.|
-|comment|string, maximum size 250|A user specified comment on the customer payment.|
+|appliesToInvoiceId|GUID|The unique ID of the invoice that the customer payment is related to.|
+|appliesToInvoiceNumber|string|The number of the invoice that the customer payment is related to.|
+|description|string|Specifies the description of the customer payment.|
+|comment|string|A user specified comment on the customer payment.|
+|dimensions|[NAV.dimensionType](../resources/dynamics_complextypes.md)|Dimensions of the customer payment.|
 |lastModifiedDateTime|datetime|The last datetime the customer payment was modified. Read-Only.|
 
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
+Here is a JSON representation of the customerPayment resource.
+
 
 ```json
 {
@@ -77,14 +79,14 @@ Here is a JSON representation of the resource.
    "appliesToInvoiceNumber": "string",
    "description": "string",
    "comment": "string",
-   "dimensions": "dimensionType",
+   "dimensions": "NAV.dimensionType",
    "lastModifiedDateTime": "datetime"
 }
 ```
-
 ## See also
-  
-[Get Customer Payments](../api/dynamics_customerpayment_get.md)  
-[Post Customer Payments](../api/dynamics_create_customerpayment.md)  
-[Patch Customer Payments](../api/dynamics_customerpayment_update.md)  
-[Delete Customer Payments](../api/dynamics_customerpayment_delete.md)  
+
+[GET customerPayment](../api/dynamics_customerPayment_Get.md)
+[DELETE customerPayment](../api/dynamics_customerPayment_Delete.md)
+[POST customerPayment](../api/dynamics_customerPayment_Create.md)
+[PATCH customerPayment](../api/dynamics_customerPayment_Update.md)
+
