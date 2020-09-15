@@ -18,8 +18,7 @@ Represents an sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesOrder](../api/dynamics_salesOrder_Get.md)|salesOrder|Gets a sales order object.|
 |[DELETE salesOrder](../api/dynamics_salesOrder_Delete.md)|salesOrder|Deletes a sales order object.|

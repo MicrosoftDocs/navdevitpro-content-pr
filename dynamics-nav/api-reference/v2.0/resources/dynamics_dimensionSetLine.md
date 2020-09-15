@@ -18,10 +18,8 @@ Represents an dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d3
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET dimensionSetLine](../api/dynamics_dimensionSetLine_Get.md)|dimensionSetLine|Gets a dimension set line object.|
 |[DELETE dimensionSetLine](../api/dynamics_dimensionSetLine_Delete.md)|dimensionSetLine|Deletes a dimension set line object.|
 |[POST dimensionSetLine](../api/dynamics_dimensionSetLine_Create.md)|dimensionSetLine|Creates a dimension set line object.|
 |[PATCH dimensionSetLine](../api/dynamics_dimensionSetLine_Update.md)|dimensionSetLine|Updates a dimension set line object.|
@@ -82,7 +80,6 @@ Here is a JSON representation of the dimensionSetLine resource.
 ```
 ## See also
 
-[GET dimensionSetLine](../api/dynamics_dimensionSetLine_Get.md)
 [DELETE dimensionSetLine](../api/dynamics_dimensionSetLine_Delete.md)
 [POST dimensionSetLine](../api/dynamics_dimensionSetLine_Create.md)
 [PATCH dimensionSetLine](../api/dynamics_dimensionSetLine_Update.md)

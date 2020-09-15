@@ -17,14 +17,6 @@ Represents an dimension in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lon
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
-## Methods
-
-| Method              | Return Type|Description               |
-|:--------------------|:-----------|:-------------------------|
-|[GET dimension](../api/dynamics_dimension_Get.md)|dimension|Gets a dimension object.|
-|[DELETE dimension](../api/dynamics_dimension_Delete.md)|dimension|Deletes a dimension object.|
-|[POST dimension](../api/dynamics_dimension_Create.md)|dimension|Creates a dimension object.|
-|[PATCH dimension](../api/dynamics_dimension_Update.md)|dimension|Updates a dimension object.|
 
 
 
@@ -61,8 +53,4 @@ Here is a JSON representation of the dimension resource.
 ```
 ## See also
 
-[GET dimension](../api/dynamics_dimension_Get.md)
-[DELETE dimension](../api/dynamics_dimension_Delete.md)
-[POST dimension](../api/dynamics_dimension_Create.md)
-[PATCH dimension](../api/dynamics_dimension_Update.md)
 

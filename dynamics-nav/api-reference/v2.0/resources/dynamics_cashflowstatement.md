@@ -17,14 +17,6 @@ Represents an cash flow statement in [!INCLUDE[d365fin_long_md](../../includes/d
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
-## Methods
-
-| Method              | Return Type|Description               |
-|:--------------------|:-----------|:-------------------------|
-|[GET cashFlowStatement](../api/dynamics_cashFlowStatement_Get.md)|cashFlowStatement|Gets a cash flow statement object.|
-|[DELETE cashFlowStatement](../api/dynamics_cashFlowStatement_Delete.md)|cashFlowStatement|Deletes a cash flow statement object.|
-|[POST cashFlowStatement](../api/dynamics_cashFlowStatement_Create.md)|cashFlowStatement|Creates a cash flow statement object.|
-|[PATCH cashFlowStatement](../api/dynamics_cashFlowStatement_Update.md)|cashFlowStatement|Updates a cash flow statement object.|
 
 
 
@@ -62,8 +54,4 @@ Here is a JSON representation of the cashFlowStatement resource.
 ```
 ## See also
 
-[GET cashFlowStatement](../api/dynamics_cashFlowStatement_Get.md)
-[DELETE cashFlowStatement](../api/dynamics_cashFlowStatement_Delete.md)
-[POST cashFlowStatement](../api/dynamics_cashFlowStatement_Create.md)
-[PATCH cashFlowStatement](../api/dynamics_cashFlowStatement_Update.md)
 

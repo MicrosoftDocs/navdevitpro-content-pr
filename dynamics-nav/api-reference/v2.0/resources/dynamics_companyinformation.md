@@ -18,12 +18,8 @@ Represents an company information in [!INCLUDE[d365fin_long_md](../../includes/d
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET companyInformation](../api/dynamics_companyInformation_Get.md)|companyInformation|Gets a company information object.|
-|[DELETE companyInformation](../api/dynamics_companyInformation_Delete.md)|companyInformation|Deletes a company information object.|
-|[POST companyInformation](../api/dynamics_companyInformation_Create.md)|companyInformation|Creates a company information object.|
 |[PATCH companyInformation](../api/dynamics_companyInformation_Update.md)|companyInformation|Updates a company information object.|
 
 
@@ -34,15 +30,6 @@ Represents an company information in [!INCLUDE[d365fin_long_md](../../includes/d
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
 |[countryRegion](../resources/dynamics_countryregion.md)|countryRegion |Gets the countryregion of the companyInformation.|
-
-
-
-## Navigation
-
-| Navigation |Return Type| Description |
-|:----------|:----------|:-----------------|
-|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion   |Gets the countryregion of the companyInformation.|
-
 
 
 ## Properties
@@ -98,8 +85,5 @@ Here is a JSON representation of the companyInformation resource.
 ```
 ## See also
 
-[GET companyInformation](../api/dynamics_companyInformation_Get.md)
-[DELETE companyInformation](../api/dynamics_companyInformation_Delete.md)
-[POST companyInformation](../api/dynamics_companyInformation_Create.md)
 [PATCH companyInformation](../api/dynamics_companyInformation_Update.md)
 

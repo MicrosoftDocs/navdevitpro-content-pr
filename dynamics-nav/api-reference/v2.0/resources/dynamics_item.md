@@ -18,8 +18,7 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET item](../api/dynamics_item_Get.md)|item|Gets a item object.|
 |[DELETE item](../api/dynamics_item_Delete.md)|item|Deletes a item object.|

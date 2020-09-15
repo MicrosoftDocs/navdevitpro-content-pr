@@ -17,14 +17,6 @@ Represents an pdf document in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
-## Methods
-
-| Method              | Return Type|Description               |
-|:--------------------|:-----------|:-------------------------|
-|[GET pdfDocument](../api/dynamics_pdfDocument_Get.md)|pdfDocument|Gets a pdf document object.|
-|[DELETE pdfDocument](../api/dynamics_pdfDocument_Delete.md)|pdfDocument|Deletes a pdf document object.|
-|[POST pdfDocument](../api/dynamics_pdfDocument_Create.md)|pdfDocument|Creates a pdf document object.|
-|[PATCH pdfDocument](../api/dynamics_pdfDocument_Update.md)|pdfDocument|Updates a pdf document object.|
 
 
 
@@ -52,8 +44,4 @@ Here is a JSON representation of the pdfDocument resource.
 ```
 ## See also
 
-[GET pdfDocument](../api/dynamics_pdfDocument_Get.md)
-[DELETE pdfDocument](../api/dynamics_pdfDocument_Delete.md)
-[POST pdfDocument](../api/dynamics_pdfDocument_Create.md)
-[PATCH pdfDocument](../api/dynamics_pdfDocument_Update.md)
 

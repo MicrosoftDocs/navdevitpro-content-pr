@@ -18,10 +18,8 @@ Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET employee](../api/dynamics_employee_Get.md)|employee|Gets a employee object.|
 |[DELETE employee](../api/dynamics_employee_Delete.md)|employee|Deletes a employee object.|
 |[POST employee](../api/dynamics_employee_Create.md)|employee|Creates a employee object.|
 |[PATCH employee](../api/dynamics_employee_Update.md)|employee|Updates a employee object.|
@@ -37,18 +35,6 @@ Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 |[picture](../resources/dynamics_picture.md)|picture |Gets the picture of the employee.|
 |[defaultDimensions](../resources/dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the employee.|
 |[timeRegistrationEntries](../resources/dynamics_timeregistrationentries.md)|timeRegistrationEntries |Gets the timeregistrationentries of the employee.|
-
-
-
-## Navigation
-
-| Navigation |Return Type| Description |
-|:----------|:----------|:-----------------|
-|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion   |Gets the countryregion of the employee.|
-|[picture](../resources/dynamics_picture.md)|picture   |Gets the picture of the employee.|
-|[defaultDimensions](../resources/dynamics_defaultdimensions.md)|defaultDimensions   |Gets the defaultdimensions of the employee.|
-|[timeRegistrationEntries](../resources/dynamics_timeregistrationentries.md)|timeRegistrationEntries   |Gets the timeregistrationentries of the employee.|
-
 
 
 ## Properties
@@ -114,7 +100,6 @@ Here is a JSON representation of the employee resource.
 ```
 ## See also
 
-[GET employee](../api/dynamics_employee_Get.md)
 [DELETE employee](../api/dynamics_employee_Delete.md)
 [POST employee](../api/dynamics_employee_Create.md)
 [PATCH employee](../api/dynamics_employee_Update.md)

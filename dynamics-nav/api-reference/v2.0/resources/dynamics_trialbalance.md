@@ -17,14 +17,6 @@ Represents an trial balance in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
-## Methods
-
-| Method              | Return Type|Description               |
-|:--------------------|:-----------|:-------------------------|
-|[GET trialBalance](../api/dynamics_trialBalance_Get.md)|trialBalance|Gets a trial balance object.|
-|[DELETE trialBalance](../api/dynamics_trialBalance_Delete.md)|trialBalance|Deletes a trial balance object.|
-|[POST trialBalance](../api/dynamics_trialBalance_Create.md)|trialBalance|Creates a trial balance object.|
-|[PATCH trialBalance](../api/dynamics_trialBalance_Update.md)|trialBalance|Updates a trial balance object.|
 
 
 
@@ -34,15 +26,6 @@ Represents an trial balance in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
 |[account](../resources/dynamics_account.md)|account |Gets the account of the trialBalance.|
-
-
-
-## Navigation
-
-| Navigation |Return Type| Description |
-|:----------|:----------|:-----------------|
-|[account](../resources/dynamics_account.md)|account   |Gets the account of the trialBalance.|
-
 
 
 ## Properties
@@ -80,8 +63,4 @@ Here is a JSON representation of the trialBalance resource.
 ```
 ## See also
 
-[GET trialBalance](../api/dynamics_trialBalance_Get.md)
-[DELETE trialBalance](../api/dynamics_trialBalance_Delete.md)
-[POST trialBalance](../api/dynamics_trialBalance_Create.md)
-[PATCH trialBalance](../api/dynamics_trialBalance_Update.md)
 

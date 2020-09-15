@@ -17,14 +17,6 @@ Represents an aged accounts receivable in [!INCLUDE[d365fin_long_md](../../inclu
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
-## Methods
-
-| Method              | Return Type|Description               |
-|:--------------------|:-----------|:-------------------------|
-|[GET agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Get.md)|agedAccountsReceivable|Gets a aged accounts receivable object.|
-|[DELETE agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Delete.md)|agedAccountsReceivable|Deletes a aged accounts receivable object.|
-|[POST agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Create.md)|agedAccountsReceivable|Creates a aged accounts receivable object.|
-|[PATCH agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Update.md)|agedAccountsReceivable|Updates a aged accounts receivable object.|
 
 
 
@@ -34,15 +26,6 @@ Represents an aged accounts receivable in [!INCLUDE[d365fin_long_md](../../inclu
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
 |[customer](../resources/dynamics_customer.md)|customer |Gets the customer of the agedAccountsReceivable.|
-
-
-
-## Navigation
-
-| Navigation |Return Type| Description |
-|:----------|:----------|:-----------------|
-|[customer](../resources/dynamics_customer.md)|customer   |Gets the customer of the agedAccountsReceivable.|
-
 
 
 ## Properties
@@ -84,8 +67,4 @@ Here is a JSON representation of the agedAccountsReceivable resource.
 ```
 ## See also
 
-[GET agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Get.md)
-[DELETE agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Delete.md)
-[POST agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Create.md)
-[PATCH agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Update.md)
 

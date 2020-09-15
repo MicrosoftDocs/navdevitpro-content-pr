@@ -18,10 +18,8 @@ Represents an currency in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET currency](../api/dynamics_currency_Get.md)|currency|Gets a currency object.|
 |[DELETE currency](../api/dynamics_currency_Delete.md)|currency|Deletes a currency object.|
 |[POST currency](../api/dynamics_currency_Create.md)|currency|Creates a currency object.|
 |[PATCH currency](../api/dynamics_currency_Update.md)|currency|Updates a currency object.|
@@ -62,7 +60,6 @@ Here is a JSON representation of the currency resource.
 ```
 ## See also
 
-[GET currency](../api/dynamics_currency_Get.md)
 [DELETE currency](../api/dynamics_currency_Delete.md)
 [POST currency](../api/dynamics_currency_Create.md)
 [PATCH currency](../api/dynamics_currency_Update.md)

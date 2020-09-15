@@ -17,14 +17,6 @@ Represents an retained earnings statement in [!INCLUDE[d365fin_long_md](../../in
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
-## Methods
-
-| Method              | Return Type|Description               |
-|:--------------------|:-----------|:-------------------------|
-|[GET retainedEarningsStatement](../api/dynamics_retainedEarningsStatement_Get.md)|retainedEarningsStatement|Gets a retained earnings statement object.|
-|[DELETE retainedEarningsStatement](../api/dynamics_retainedEarningsStatement_Delete.md)|retainedEarningsStatement|Deletes a retained earnings statement object.|
-|[POST retainedEarningsStatement](../api/dynamics_retainedEarningsStatement_Create.md)|retainedEarningsStatement|Creates a retained earnings statement object.|
-|[PATCH retainedEarningsStatement](../api/dynamics_retainedEarningsStatement_Update.md)|retainedEarningsStatement|Updates a retained earnings statement object.|
 
 
 
@@ -62,8 +54,4 @@ Here is a JSON representation of the retainedEarningsStatement resource.
 ```
 ## See also
 
-[GET retainedEarningsStatement](../api/dynamics_retainedEarningsStatement_Get.md)
-[DELETE retainedEarningsStatement](../api/dynamics_retainedEarningsStatement_Delete.md)
-[POST retainedEarningsStatement](../api/dynamics_retainedEarningsStatement_Create.md)
-[PATCH retainedEarningsStatement](../api/dynamics_retainedEarningsStatement_Update.md)
 

@@ -17,14 +17,6 @@ Represents an customer financial detail in [!INCLUDE[d365fin_long_md](../../incl
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
-## Methods
-
-| Method              | Return Type|Description               |
-|:--------------------|:-----------|:-------------------------|
-|[GET customerFinancialDetail](../api/dynamics_customerFinancialDetail_Get.md)|customerFinancialDetail|Gets a customer financial detail object.|
-|[DELETE customerFinancialDetail](../api/dynamics_customerFinancialDetail_Delete.md)|customerFinancialDetail|Deletes a customer financial detail object.|
-|[POST customerFinancialDetail](../api/dynamics_customerFinancialDetail_Create.md)|customerFinancialDetail|Creates a customer financial detail object.|
-|[PATCH customerFinancialDetail](../api/dynamics_customerFinancialDetail_Update.md)|customerFinancialDetail|Updates a customer financial detail object.|
 
 
 
@@ -63,8 +55,4 @@ Here is a JSON representation of the customerFinancialDetail resource.
 ```
 ## See also
 
-[GET customerFinancialDetail](../api/dynamics_customerFinancialDetail_Get.md)
-[DELETE customerFinancialDetail](../api/dynamics_customerFinancialDetail_Delete.md)
-[POST customerFinancialDetail](../api/dynamics_customerFinancialDetail_Create.md)
-[PATCH customerFinancialDetail](../api/dynamics_customerFinancialDetail_Update.md)
 

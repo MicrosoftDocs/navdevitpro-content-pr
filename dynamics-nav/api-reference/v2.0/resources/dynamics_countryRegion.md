@@ -18,10 +18,8 @@ Represents an country region in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET countryRegion](../api/dynamics_countryRegion_Get.md)|countryRegion|Gets a country region object.|
 |[DELETE countryRegion](../api/dynamics_countryRegion_Delete.md)|countryRegion|Deletes a country region object.|
 |[POST countryRegion](../api/dynamics_countryRegion_Create.md)|countryRegion|Creates a country region object.|
 |[PATCH countryRegion](../api/dynamics_countryRegion_Update.md)|countryRegion|Updates a country region object.|
@@ -58,7 +56,6 @@ Here is a JSON representation of the countryRegion resource.
 ```
 ## See also
 
-[GET countryRegion](../api/dynamics_countryRegion_Get.md)
 [DELETE countryRegion](../api/dynamics_countryRegion_Delete.md)
 [POST countryRegion](../api/dynamics_countryRegion_Create.md)
 [PATCH countryRegion](../api/dynamics_countryRegion_Update.md)

@@ -18,10 +18,8 @@ Represents an project in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET project](../api/dynamics_project_Get.md)|project|Gets a project object.|
 |[DELETE project](../api/dynamics_project_Delete.md)|project|Deletes a project object.|
 |[POST project](../api/dynamics_project_Create.md)|project|Creates a project object.|
 |[PATCH project](../api/dynamics_project_Update.md)|project|Updates a project object.|
@@ -54,7 +52,6 @@ Here is a JSON representation of the project resource.
 ```
 ## See also
 
-[GET project](../api/dynamics_project_Get.md)
 [DELETE project](../api/dynamics_project_Delete.md)
 [POST project](../api/dynamics_project_Create.md)
 [PATCH project](../api/dynamics_project_Update.md)

@@ -18,10 +18,8 @@ Represents an sales quote line in [!INCLUDE[d365fin_long_md](../../includes/d365
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET salesQuoteLine](../api/dynamics_salesQuoteLine_Get.md)|salesQuoteLine|Gets a sales quote line object.|
 |[DELETE salesQuoteLine](../api/dynamics_salesQuoteLine_Delete.md)|salesQuoteLine|Deletes a sales quote line object.|
 |[POST salesQuoteLine](../api/dynamics_salesQuoteLine_Create.md)|salesQuoteLine|Creates a sales quote line object.|
 |[PATCH salesQuoteLine](../api/dynamics_salesQuoteLine_Update.md)|salesQuoteLine|Updates a sales quote line object.|
@@ -106,7 +104,6 @@ Here is a JSON representation of the salesQuoteLine resource.
 ```
 ## See also
 
-[GET salesQuoteLine](../api/dynamics_salesQuoteLine_Get.md)
 [DELETE salesQuoteLine](../api/dynamics_salesQuoteLine_Delete.md)
 [POST salesQuoteLine](../api/dynamics_salesQuoteLine_Create.md)
 [PATCH salesQuoteLine](../api/dynamics_salesQuoteLine_Update.md)

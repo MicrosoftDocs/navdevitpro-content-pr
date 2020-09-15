@@ -17,14 +17,6 @@ Represents an income statement in [!INCLUDE[d365fin_long_md](../../includes/d365
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
-## Methods
-
-| Method              | Return Type|Description               |
-|:--------------------|:-----------|:-------------------------|
-|[GET incomeStatement](../api/dynamics_incomeStatement_Get.md)|incomeStatement|Gets a income statement object.|
-|[DELETE incomeStatement](../api/dynamics_incomeStatement_Delete.md)|incomeStatement|Deletes a income statement object.|
-|[POST incomeStatement](../api/dynamics_incomeStatement_Create.md)|incomeStatement|Creates a income statement object.|
-|[PATCH incomeStatement](../api/dynamics_incomeStatement_Update.md)|incomeStatement|Updates a income statement object.|
 
 
 
@@ -62,8 +54,4 @@ Here is a JSON representation of the incomeStatement resource.
 ```
 ## See also
 
-[GET incomeStatement](../api/dynamics_incomeStatement_Get.md)
-[DELETE incomeStatement](../api/dynamics_incomeStatement_Delete.md)
-[POST incomeStatement](../api/dynamics_incomeStatement_Create.md)
-[PATCH incomeStatement](../api/dynamics_incomeStatement_Update.md)
 

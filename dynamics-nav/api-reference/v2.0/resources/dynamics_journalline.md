@@ -18,21 +18,14 @@ Represents an journal line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET journalLine](../api/dynamics_journalLine_Get.md)|journalLine|Gets a journal line object.|
 |[DELETE journalLine](../api/dynamics_journalLine_Delete.md)|journalLine|Deletes a journal line object.|
 |[POST journalLine](../api/dynamics_journalLine_Create.md)|journalLine|Creates a journal line object.|
 |[PATCH journalLine](../api/dynamics_journalLine_Update.md)|journalLine|Updates a journal line object.|
 
 
 
-| Navigation |Return Type| Description |
-|:----------|:----------|:-----------------|
-|[account](../resources/dynamics_account.md)|account   |Gets the account of the journalLine.|
-|[attachments](../resources/dynamics_attachments.md)|attachments   |Gets the attachments of the journalLine.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the journalLine.|
 
 ## Navigation
 
@@ -86,7 +79,6 @@ Here is a JSON representation of the journalLine resource.
 ```
 ## See also
 
-[GET journalLine](../api/dynamics_journalLine_Get.md)
 [DELETE journalLine](../api/dynamics_journalLine_Delete.md)
 [POST journalLine](../api/dynamics_journalLine_Create.md)
 [PATCH journalLine](../api/dynamics_journalLine_Update.md)

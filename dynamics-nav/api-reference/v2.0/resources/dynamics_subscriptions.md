@@ -18,10 +18,8 @@ Represents an subscriptions in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET subscriptions](../api/dynamics_subscriptions_Get.md)|subscriptions|Gets a subscriptions object.|
 |[DELETE subscriptions](../api/dynamics_subscriptions_Delete.md)|subscriptions|Deletes a subscriptions object.|
 |[POST subscriptions](../api/dynamics_subscriptions_Create.md)|subscriptions|Creates a subscriptions object.|
 |[PATCH subscriptions](../api/dynamics_subscriptions_Update.md)|subscriptions|Updates a subscriptions object.|
@@ -70,7 +68,6 @@ Here is a JSON representation of the subscriptions resource.
 ```
 ## See also
 
-[GET subscriptions](../api/dynamics_subscriptions_Get.md)
 [DELETE subscriptions](../api/dynamics_subscriptions_Delete.md)
 [POST subscriptions](../api/dynamics_subscriptions_Create.md)
 [PATCH subscriptions](../api/dynamics_subscriptions_Update.md)

@@ -17,14 +17,6 @@ Represents an company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
-## Methods
-
-| Method              | Return Type|Description               |
-|:--------------------|:-----------|:-------------------------|
-|[GET company](../api/dynamics_company_Get.md)|company|Gets a company object.|
-|[DELETE company](../api/dynamics_company_Delete.md)|company|Deletes a company object.|
-|[POST company](../api/dynamics_company_Create.md)|company|Creates a company object.|
-|[PATCH company](../api/dynamics_company_Update.md)|company|Updates a company object.|
 
 
 
@@ -121,8 +113,4 @@ Here is a JSON representation of the company resource.
 ```
 ## See also
 
-[GET company](../api/dynamics_company_Get.md)
-[DELETE company](../api/dynamics_company_Delete.md)
-[POST company](../api/dynamics_company_Create.md)
-[PATCH company](../api/dynamics_company_Update.md)
 

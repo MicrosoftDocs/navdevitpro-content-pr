@@ -18,8 +18,7 @@ Represents an sales quote in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesQuote](../api/dynamics_salesQuote_Get.md)|salesQuote|Gets a sales quote object.|
 |[DELETE salesQuote](../api/dynamics_salesQuote_Delete.md)|salesQuote|Deletes a sales quote object.|
@@ -45,23 +44,6 @@ send
 |[pdfDocument](../resources/dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the salesQuote.|
 |[attachments](../resources/dynamics_attachments.md)|attachments |Gets the attachments of the salesQuote.|
 |[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesQuote.|
-
-
-
-## Navigation
-
-| Navigation |Return Type| Description |
-|:----------|:----------|:-----------------|
-|[customer](../resources/dynamics_customer.md)|customer   |Gets the customer of the salesQuote.|
-|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion   |Gets the countryregion of the salesQuote.|
-|[currency](../resources/dynamics_currency.md)|currency   |Gets the currency of the salesQuote.|
-|[paymentTerm](../resources/dynamics_paymentterm.md)|paymentTerm   |Gets the paymentterm of the salesQuote.|
-|[shipmentMethod](../resources/dynamics_shipmentmethod.md)|shipmentMethod   |Gets the shipmentmethod of the salesQuote.|
-|[salesQuoteLines](../resources/dynamics_salesquotelines.md)|salesQuoteLines   |Gets the salesquotelines of the salesQuote.|
-|[pdfDocument](../resources/dynamics_pdfdocument.md)|pdfDocument   |Gets the pdfdocument of the salesQuote.|
-|[attachments](../resources/dynamics_attachments.md)|attachments   |Gets the attachments of the salesQuote.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the salesQuote.|
-
 
 
 ## Properties

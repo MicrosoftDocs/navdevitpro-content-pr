@@ -18,10 +18,8 @@ Represents an default dimensions in [!INCLUDE[d365fin_long_md](../../includes/d3
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET defaultDimensions](../api/dynamics_defaultDimensions_Get.md)|defaultDimensions|Gets a default dimensions object.|
 |[DELETE defaultDimensions](../api/dynamics_defaultDimensions_Delete.md)|defaultDimensions|Deletes a default dimensions object.|
 |[POST defaultDimensions](../api/dynamics_defaultDimensions_Create.md)|defaultDimensions|Creates a default dimensions object.|
 |[PATCH defaultDimensions](../api/dynamics_defaultDimensions_Update.md)|defaultDimensions|Updates a default dimensions object.|
@@ -71,7 +69,6 @@ Here is a JSON representation of the defaultDimensions resource.
 ```
 ## See also
 
-[GET defaultDimensions](../api/dynamics_defaultDimensions_Get.md)
 [DELETE defaultDimensions](../api/dynamics_defaultDimensions_Delete.md)
 [POST defaultDimensions](../api/dynamics_defaultDimensions_Create.md)
 [PATCH defaultDimensions](../api/dynamics_defaultDimensions_Update.md)

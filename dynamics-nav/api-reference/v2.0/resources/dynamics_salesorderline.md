@@ -18,10 +18,8 @@ Represents an sales order line in [!INCLUDE[d365fin_long_md](../../includes/d365
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET salesOrderLine](../api/dynamics_salesOrderLine_Get.md)|salesOrderLine|Gets a sales order line object.|
 |[DELETE salesOrderLine](../api/dynamics_salesOrderLine_Delete.md)|salesOrderLine|Deletes a sales order line object.|
 |[POST salesOrderLine](../api/dynamics_salesOrderLine_Create.md)|salesOrderLine|Creates a sales order line object.|
 |[PATCH salesOrderLine](../api/dynamics_salesOrderLine_Update.md)|salesOrderLine|Updates a sales order line object.|
@@ -118,7 +116,6 @@ Here is a JSON representation of the salesOrderLine resource.
 ```
 ## See also
 
-[GET salesOrderLine](../api/dynamics_salesOrderLine_Get.md)
 [DELETE salesOrderLine](../api/dynamics_salesOrderLine_Delete.md)
 [POST salesOrderLine](../api/dynamics_salesOrderLine_Create.md)
 [PATCH salesOrderLine](../api/dynamics_salesOrderLine_Update.md)

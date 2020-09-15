@@ -18,8 +18,7 @@ Represents an sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesInvoice](../api/dynamics_salesInvoice_Get.md)|salesInvoice|Gets a sales invoice object.|
 |[DELETE salesInvoice](../api/dynamics_salesInvoice_Delete.md)|salesInvoice|Deletes a sales invoice object.|

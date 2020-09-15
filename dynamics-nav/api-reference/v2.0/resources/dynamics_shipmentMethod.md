@@ -18,10 +18,8 @@ Represents an shipment method in [!INCLUDE[d365fin_long_md](../../includes/d365f
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET shipmentMethod](../api/dynamics_shipmentMethod_Get.md)|shipmentMethod|Gets a shipment method object.|
 |[DELETE shipmentMethod](../api/dynamics_shipmentMethod_Delete.md)|shipmentMethod|Deletes a shipment method object.|
 |[POST shipmentMethod](../api/dynamics_shipmentMethod_Create.md)|shipmentMethod|Creates a shipment method object.|
 |[PATCH shipmentMethod](../api/dynamics_shipmentMethod_Update.md)|shipmentMethod|Updates a shipment method object.|
@@ -56,7 +54,6 @@ Here is a JSON representation of the shipmentMethod resource.
 ```
 ## See also
 
-[GET shipmentMethod](../api/dynamics_shipmentMethod_Get.md)
 [DELETE shipmentMethod](../api/dynamics_shipmentMethod_Delete.md)
 [POST shipmentMethod](../api/dynamics_shipmentMethod_Create.md)
 [PATCH shipmentMethod](../api/dynamics_shipmentMethod_Update.md)

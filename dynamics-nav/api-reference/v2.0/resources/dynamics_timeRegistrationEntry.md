@@ -18,10 +18,8 @@ Represents an time registration entry in [!INCLUDE[d365fin_long_md](../../includ
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Get.md)|timeRegistrationEntry|Gets a time registration entry object.|
 |[DELETE timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Delete.md)|timeRegistrationEntry|Deletes a time registration entry object.|
 |[POST timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Create.md)|timeRegistrationEntry|Creates a time registration entry object.|
 |[PATCH timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Update.md)|timeRegistrationEntry|Updates a time registration entry object.|
@@ -37,18 +35,6 @@ Represents an time registration entry in [!INCLUDE[d365fin_long_md](../../includ
 |[project](../resources/dynamics_project.md)|project |Gets the project of the timeRegistrationEntry.|
 |[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the timeRegistrationEntry.|
 |[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the timeRegistrationEntry.|
-
-
-
-## Navigation
-
-| Navigation |Return Type| Description |
-|:----------|:----------|:-----------------|
-|[employee](../resources/dynamics_employee.md)|employee   |Gets the employee of the timeRegistrationEntry.|
-|[project](../resources/dynamics_project.md)|project   |Gets the project of the timeRegistrationEntry.|
-|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure   |Gets the unitofmeasure of the timeRegistrationEntry.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the timeRegistrationEntry.|
-
 
 
 ## Properties
@@ -94,7 +80,6 @@ Here is a JSON representation of the timeRegistrationEntry resource.
 ```
 ## See also
 
-[GET timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Get.md)
 [DELETE timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Delete.md)
 [POST timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Create.md)
 [PATCH timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Update.md)

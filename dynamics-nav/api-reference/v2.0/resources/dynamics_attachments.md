@@ -18,10 +18,8 @@ Represents an attachments in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET attachments](../api/dynamics_attachments_Get.md)|attachments|Gets a attachments object.|
 |[DELETE attachments](../api/dynamics_attachments_Delete.md)|attachments|Deletes a attachments object.|
 |[POST attachments](../api/dynamics_attachments_Create.md)|attachments|Creates a attachments object.|
 |[PATCH attachments](../api/dynamics_attachments_Update.md)|attachments|Updates a attachments object.|
@@ -73,7 +71,6 @@ Here is a JSON representation of the attachments resource.
 ```
 ## See also
 
-[GET attachments](../api/dynamics_attachments_Get.md)
 [DELETE attachments](../api/dynamics_attachments_Delete.md)
 [POST attachments](../api/dynamics_attachments_Create.md)
 [PATCH attachments](../api/dynamics_attachments_Update.md)

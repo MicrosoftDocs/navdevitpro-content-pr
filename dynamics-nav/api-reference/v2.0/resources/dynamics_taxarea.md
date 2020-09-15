@@ -18,10 +18,8 @@ Represents an tax area in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET taxArea](../api/dynamics_taxArea_Get.md)|taxArea|Gets a tax area object.|
 |[DELETE taxArea](../api/dynamics_taxArea_Delete.md)|taxArea|Deletes a tax area object.|
 |[POST taxArea](../api/dynamics_taxArea_Create.md)|taxArea|Creates a tax area object.|
 |[PATCH taxArea](../api/dynamics_taxArea_Update.md)|taxArea|Updates a tax area object.|
@@ -58,7 +56,6 @@ Here is a JSON representation of the taxArea resource.
 ```
 ## See also
 
-[GET taxArea](../api/dynamics_taxArea_Get.md)
 [DELETE taxArea](../api/dynamics_taxArea_Delete.md)
 [POST taxArea](../api/dynamics_taxArea_Create.md)
 [PATCH taxArea](../api/dynamics_taxArea_Update.md)

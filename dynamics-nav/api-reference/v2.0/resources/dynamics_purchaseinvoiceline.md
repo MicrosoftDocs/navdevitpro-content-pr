@@ -18,10 +18,8 @@ Represents an purchase invoice line in [!INCLUDE[d365fin_long_md](../../includes
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Get.md)|purchaseInvoiceLine|Gets a purchase invoice line object.|
 |[DELETE purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Delete.md)|purchaseInvoiceLine|Deletes a purchase invoice line object.|
 |[POST purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Create.md)|purchaseInvoiceLine|Creates a purchase invoice line object.|
 |[PATCH purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Update.md)|purchaseInvoiceLine|Updates a purchase invoice line object.|
@@ -110,7 +108,6 @@ Here is a JSON representation of the purchaseInvoiceLine resource.
 ```
 ## See also
 
-[GET purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Get.md)
 [DELETE purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Delete.md)
 [POST purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Create.md)
 [PATCH purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Update.md)

@@ -18,10 +18,8 @@ Represents an unit of measure in [!INCLUDE[d365fin_long_md](../../includes/d365f
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET unitOfMeasure](../api/dynamics_unitOfMeasure_Get.md)|unitOfMeasure|Gets a unit of measure object.|
 |[DELETE unitOfMeasure](../api/dynamics_unitOfMeasure_Delete.md)|unitOfMeasure|Deletes a unit of measure object.|
 |[POST unitOfMeasure](../api/dynamics_unitOfMeasure_Create.md)|unitOfMeasure|Creates a unit of measure object.|
 |[PATCH unitOfMeasure](../api/dynamics_unitOfMeasure_Update.md)|unitOfMeasure|Updates a unit of measure object.|
@@ -60,7 +58,6 @@ Here is a JSON representation of the unitOfMeasure resource.
 ```
 ## See also
 
-[GET unitOfMeasure](../api/dynamics_unitOfMeasure_Get.md)
 [DELETE unitOfMeasure](../api/dynamics_unitOfMeasure_Delete.md)
 [POST unitOfMeasure](../api/dynamics_unitOfMeasure_Create.md)
 [PATCH unitOfMeasure](../api/dynamics_unitOfMeasure_Update.md)

@@ -18,10 +18,8 @@ Represents an customer payment journal in [!INCLUDE[d365fin_long_md](../../inclu
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET customerPaymentJournal](../api/dynamics_customerPaymentJournal_Get.md)|customerPaymentJournal|Gets a customer payment journal object.|
 |[DELETE customerPaymentJournal](../api/dynamics_customerPaymentJournal_Delete.md)|customerPaymentJournal|Deletes a customer payment journal object.|
 |[POST customerPaymentJournal](../api/dynamics_customerPaymentJournal_Create.md)|customerPaymentJournal|Creates a customer payment journal object.|
 |[PATCH customerPaymentJournal](../api/dynamics_customerPaymentJournal_Update.md)|customerPaymentJournal|Updates a customer payment journal object.|
@@ -66,7 +64,6 @@ Here is a JSON representation of the customerPaymentJournal resource.
 ```
 ## See also
 
-[GET customerPaymentJournal](../api/dynamics_customerPaymentJournal_Get.md)
 [DELETE customerPaymentJournal](../api/dynamics_customerPaymentJournal_Delete.md)
 [POST customerPaymentJournal](../api/dynamics_customerPaymentJournal_Create.md)
 [PATCH customerPaymentJournal](../api/dynamics_customerPaymentJournal_Update.md)

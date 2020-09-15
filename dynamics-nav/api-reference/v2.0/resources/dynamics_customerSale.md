@@ -17,14 +17,6 @@ Represents an customer sale in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
-## Methods
-
-| Method              | Return Type|Description               |
-|:--------------------|:-----------|:-------------------------|
-|[GET customerSale](../api/dynamics_customerSale_Get.md)|customerSale|Gets a customer sale object.|
-|[DELETE customerSale](../api/dynamics_customerSale_Delete.md)|customerSale|Deletes a customer sale object.|
-|[POST customerSale](../api/dynamics_customerSale_Create.md)|customerSale|Creates a customer sale object.|
-|[PATCH customerSale](../api/dynamics_customerSale_Update.md)|customerSale|Updates a customer sale object.|
 
 
 
@@ -58,8 +50,4 @@ Here is a JSON representation of the customerSale resource.
 ```
 ## See also
 
-[GET customerSale](../api/dynamics_customerSale_Get.md)
-[DELETE customerSale](../api/dynamics_customerSale_Delete.md)
-[POST customerSale](../api/dynamics_customerSale_Create.md)
-[PATCH customerSale](../api/dynamics_customerSale_Update.md)
 

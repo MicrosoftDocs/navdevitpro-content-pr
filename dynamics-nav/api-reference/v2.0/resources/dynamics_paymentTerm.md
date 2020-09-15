@@ -18,10 +18,8 @@ Represents an payment term in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET paymentTerm](../api/dynamics_paymentTerm_Get.md)|paymentTerm|Gets a payment term object.|
 |[DELETE paymentTerm](../api/dynamics_paymentTerm_Delete.md)|paymentTerm|Deletes a payment term object.|
 |[POST paymentTerm](../api/dynamics_paymentTerm_Create.md)|paymentTerm|Creates a payment term object.|
 |[PATCH paymentTerm](../api/dynamics_paymentTerm_Update.md)|paymentTerm|Updates a payment term object.|
@@ -64,7 +62,6 @@ Here is a JSON representation of the paymentTerm resource.
 ```
 ## See also
 
-[GET paymentTerm](../api/dynamics_paymentTerm_Get.md)
 [DELETE paymentTerm](../api/dynamics_paymentTerm_Delete.md)
 [POST paymentTerm](../api/dynamics_paymentTerm_Create.md)
 [PATCH paymentTerm](../api/dynamics_paymentTerm_Update.md)

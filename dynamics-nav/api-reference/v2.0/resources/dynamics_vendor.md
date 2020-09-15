@@ -18,8 +18,7 @@ Represents an vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET vendor](../api/dynamics_vendor_Get.md)|vendor|Gets a vendor object.|
 |[DELETE vendor](../api/dynamics_vendor_Delete.md)|vendor|Deletes a vendor object.|
@@ -41,15 +40,6 @@ Represents an vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |[defaultDimensions](../resources/dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the vendor.|
 |[agedAccountsPayable](../resources/dynamics_agedaccountspayable.md)|agedAccountsPayable |Gets the agedaccountspayable of the vendor.|
 
-| Navigation |Return Type| Description |
-|:----------|:----------|:-----------------|
-|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion   |Gets the countryregion of the vendor.|
-|[currency](../resources/dynamics_currency.md)|currency   |Gets the currency of the vendor.|
-|[paymentTerm](../resources/dynamics_paymentterm.md)|paymentTerm   |Gets the paymentterm of the vendor.|
-|[paymentMethod](../resources/dynamics_paymentmethod.md)|paymentMethod   |Gets the paymentmethod of the vendor.|
-|[picture](../resources/dynamics_picture.md)|picture   |Gets the picture of the vendor.|
-|[defaultDimensions](../resources/dynamics_defaultdimensions.md)|defaultDimensions   |Gets the defaultdimensions of the vendor.|
-|[agedAccountsPayable](../resources/dynamics_agedaccountspayable.md)|agedAccountsPayable   |Gets the agedaccountspayable of the vendor.|
 
 ## Properties
 

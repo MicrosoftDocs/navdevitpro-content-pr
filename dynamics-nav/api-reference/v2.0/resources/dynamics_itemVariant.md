@@ -18,10 +18,8 @@ Represents an item variant in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET itemVariant](../api/dynamics_itemVariant_Get.md)|itemVariant|Gets a item variant object.|
 |[DELETE itemVariant](../api/dynamics_itemVariant_Delete.md)|itemVariant|Deletes a item variant object.|
 |[POST itemVariant](../api/dynamics_itemVariant_Create.md)|itemVariant|Creates a item variant object.|
 |[PATCH itemVariant](../api/dynamics_itemVariant_Update.md)|itemVariant|Updates a item variant object.|
@@ -63,7 +61,6 @@ Here is a JSON representation of the itemVariant resource.
 ```
 ## See also
 
-[GET itemVariant](../api/dynamics_itemVariant_Get.md)
 [DELETE itemVariant](../api/dynamics_itemVariant_Delete.md)
 [POST itemVariant](../api/dynamics_itemVariant_Create.md)
 [PATCH itemVariant](../api/dynamics_itemVariant_Update.md)
