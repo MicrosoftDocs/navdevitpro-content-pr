@@ -1,15 +1,13 @@
 ---
 title: item resource type | Microsoft Docs
-description: An item object in Dynamics 365 Business Central.
- 
+description: A item object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 8/26/2020
+ms.date: 09/15/2020
 ms.author: solsen
 ---
 
@@ -21,48 +19,53 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 
 ## Methods
 
-| Method                                      |Return Type|Description |
-|:--------------------------------------------|:----------|:-----------|
-|[GET item](../api/dynamics_item_get.md)      |item      |Gets an item object.   |
-|[POST item](../api/dynamics_create_item.md)  |item      |Creates an item object.|
-|[PATCH item](../api/dynamics_item_update.md) |item      |Updates an item object.|
-|[DELETE item](../api/dynamics_item_delete.md)|none       |Deletes an item object.|
+| Method              | Return Type|Description               |
+|:--------------------|:-----------|:-------------------------|
+|[GET item](../api/dynamics_item_Get.md)|item|Gets a item object.|
+|[DELETE item](../api/dynamics_item_Delete.md)|item|Deletes a item object.|
+|[POST item](../api/dynamics_item_Create.md)|item|Creates a item object.|
+|[PATCH item](../api/dynamics_item_Update.md)|item|Updates a item object.|
+
+
+
 
 ## Navigation
 
-| Navigation |Return Type| Description |
+| Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[itemCategory](../resources/dynamics_itemcategory.md)|itemCategory   |Gets the itemcategory of the item.|
-|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure   |Gets the unitofmeasure of the item.|
-|[picture](../resources/dynamics_picture.md)|picture   |Gets the picture of the item.|
-|[defaultDimensions](../resources/dynamics_defaultdimensions.md)|defaultDimensions   |Gets the defaultdimensions of the item.|
-|[itemVariants](../resources/dynamics_itemvariants.md)|itemVariants   |Gets the itemvariants of the item.|
+|[itemCategory](../resources/dynamics_itemcategory.md)|itemCategory |Gets the itemcategory of the item.|
+|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the item.|
+|[picture](../resources/dynamics_picture.md)|picture |Gets the picture of the item.|
+|[defaultDimensions](../resources/dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the item.|
+|[itemVariants](../resources/dynamics_itemvariants.md)|itemVariants |Gets the itemvariants of the item.|
+
 
 ## Properties
 
-| Property           | Type |Description                                          |
-|:-------------------|:-------|:----------------------------------------------------|
-|id                  |GUID    |The unique ID of the item. Non-editable.             |
-|number              |string  |The item number.                                     |
-|displayName         |string  |Specifies a description of the item.                 |
-|type                |string  |The inventory type for the item; Inventory, Service, and Non-Inventory. This is a required property.|
-|blocked             |boolean |Specifies that transactions with the item cannot be posted, for example, because the item is in quarantine. Set to **true**, if item is blocked.|
-|baseUnitOfMeasureId |GUID    |Specifies the ID of the unit of measure.             |
-|baseUnitOfMeasure   |[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|Specifies the unit in which the item is held in inventory.|
-|gtin                |numeric |This is the Global Trade Item Number.                |
-|itemCategory        |[NAV.ItemCategory](../resources/dynamics_complextypes.md)|Specifies the category that the item belongs to.|
-|inventory           |decimal |Specifies how many units, such as pieces, boxes, or cans, of the item are in inventory. Read-Only.|
-|unitPrice           |decimal |Specifies the price for one unit of the item in the specified currency.|
-|priceIncludesTax    |boolean |Specifies that the unitPrice includes tax. Set to **true**, if unitPrice includes tax.|
-|unitCost            |decimal |Specifies the cost per unit of the item.             |
-|taxGroupId          |GUID    |Specifies the ID of the Tax Group for the item.      |
-|taxGroupCode        |numeric |A Tax Group represents a group of inventory item or resources that are subject to identical tax terms.|
-|lastModifiedDateTime|datetime|The last datetime the item was modified. Read-Only.  |  
+| Property           | Type   |Description     |
+|:-------------------|:-------|:---------------|
+|id|GUID|The unique ID of the item. Non-editable.|
+|number|string|Specifies the number of the item.|
+|displayName|string|Specifies the item's name. This name will appear on all sales documents for the item.|
+|type|[NAV.itemType](../resources/dynamics_complextypes.md)|Specifies the type of the item. It can be "Inventory", "Service" or "Non-Inventory".|
+|itemCategoryId|GUID|The ID of the item category in the item.|
+|itemCategoryCode|string|The code of the item category in the item.|
+|blocked|boolean|Specifies that entries cannot be posted to the item. **True** indicates account is blocked and posting is not allowed.|
+|gtin|string|This is the Global Trade Item Number. |
+|inventory|decimal|Specifies how many units, such as pieces, boxes, or cans, of the item are in inventory. Read-Only.|
+|unitPrice|decimal|Specifies the price for one unit of the item in the specified item.|
+|priceIncludesTax|boolean|Specifies that the unitPrice includes tax. Set to **true**, if unitPrice includes tax.|
+|unitCost|decimal|The unit cost of each individual item in the item.|
+|taxGroupId|GUID|Specifies the ID of the Tax Group for the item. |
+|taxGroupCode|string|A Tax Group represents a group of inventory items or resources that are subject to identical tax terms.|
+|baseUnitOfMeasureId|GUID|Specifies the ID of the unit of measure.|
+|baseUnitOfMeasureCode|string|The item's base unit of measure code.|
+|lastModifiedDateTime|datetime|The last datetime the item was modified. Read-Only.|
 
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
+Here is a JSON representation of the item resource.
 
 
 ```json
@@ -70,7 +73,7 @@ Here is a JSON representation of the resource.
    "id": "GUID",
    "number": "string",
    "displayName": "string",
-   "type": "contactType",
+   "type": "NAV.itemType",
    "itemCategoryId": "GUID",
    "itemCategoryCode": "string",
    "blocked": "boolean",
@@ -86,14 +89,10 @@ Here is a JSON representation of the resource.
    "lastModifiedDateTime": "datetime"
 }
 ```
-
 ## See also
 
+[GET item](../api/dynamics_item_Get.md)
+[DELETE item](../api/dynamics_item_Delete.md)
+[POST item](../api/dynamics_item_Create.md)
+[PATCH item](../api/dynamics_item_Update.md)
 
-
-[Error Codes](../dynamics_error_codes.md)  
-[Item](../resources/dynamics_item.md)  
-[Get Item](../api/dynamics_item_get.md)  
-[Post Item](../api/dynamics_create_item.md)  
-[Patch Item](../api/dynamics_item_update.md)  
-[Delete Item](../api/dynamics_item_delete.md)  

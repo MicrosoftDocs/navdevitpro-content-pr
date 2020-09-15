@@ -1,62 +1,63 @@
 ---
 title: generalLedgerEntry resource type | Microsoft Docs
-description: An generalLedgerEntry object in Dynamics 365 Business Central.
- 
+description: A general ledger entry object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 8/26/2020
+ms.date: 09/15/2020
 ms.author: solsen
 ---
 
 # generalLedgerEntry resource type
-Represents an generalLedgerEntry in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents an general ledger entry in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
-| Method                                              | Return Type|Description               |
-|:----------------------------------------------------|:-----------|:-------------------------|
-|[GET timeRegistrationEntries](../api/dynamics_timeregistrationentry_get.md)      |employees  |Get an timeRegistrationEntries object.   |
-|[POST timeRegistrationEntries](../api/dynamics_timeregistrationentry_create.md)  |employees  |Create an timeRegistrationEntries object.|
-|[PATCH timeRegistrationEntries](../api/dynamics_timeregistrationentry_update.md) |employees  |Update an timeRegistrationEntries object.|
-|[DELETE timeRegistrationEntries](../api/dynamics_timeregistrationentry_delete.md)|none       |Delete an timeRegistrationEntries object.|
+| Method              | Return Type|Description               |
+|:--------------------|:-----------|:-------------------------|
+|[GET generalLedgerEntry](../api/dynamics_generalLedgerEntry_Get.md)|generalLedgerEntry|Gets a general ledger entry object.|
+|[DELETE generalLedgerEntry](../api/dynamics_generalLedgerEntry_Delete.md)|generalLedgerEntry|Deletes a general ledger entry object.|
+|[POST generalLedgerEntry](../api/dynamics_generalLedgerEntry_Create.md)|generalLedgerEntry|Creates a general ledger entry object.|
+|[PATCH generalLedgerEntry](../api/dynamics_generalLedgerEntry_Update.md)|generalLedgerEntry|Updates a general ledger entry object.|
 
 
 
 
 ## Navigation
 
-| Navigation |Return Type| Description |
+| Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[account](../resources/dynamics_account.md)|account   |Gets the account of the generalLedgerEntry.|
-|[attachments](../resources/dynamics_attachments.md)|attachments   |Gets the attachments of the generalLedgerEntry.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the generalLedgerEntry.|
+|[account](../resources/dynamics_account.md)|account |Gets the account of the generalLedgerEntry.|
+|[attachments](../resources/dynamics_attachments.md)|attachments |Gets the attachments of the generalLedgerEntry.|
+|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the generalLedgerEntry.|
+
 
 ## Properties
 
-| Property           | Type   |Description                                            |
-|:-------------------|:-------|:------------------------------------------------------|
-|id                  |GUID    |Id of the employee timeregistration Non-editable.      |
-|employeeId              |GUID  |The employee Id. Read-Only.                        |
-|employeeNumber         |string, maximum length 20  |The employee number.           |
-|lineNumber           |integer  |line number of time registration.                        |
-|date          |Date  |date of the time registration.                       |
-|quantity             |decimal  |Quantity registered                            |
-|status             |string  |The surname of the employee                            |
-|unitOfMeasureId|GUID|The Id of the unit of measure for the registration.|
-|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|The unit of measure complex type.|
-|lastModifiedDateTime|datetime|The last datetime the entity was modified.|
+| Property           | Type   |Description     |
+|:-------------------|:-------|:---------------|
+|id|GUID|The unique ID of the item. Non-editable.|
+|entryNumber|integer|G/L Entry number.|
+|postingDate|date|The date that the general ledger entry   is posted.|
+|documentNumber|string|Specifies a document number for the general ledger entry.|
+|documentType|string|Specifies the document type of the general ledger entry.|
+|accountId|GUID|The id of the account that the general ledger entry is related to. |
+|accountNumber|string|The number of the account that the general ledger entry is related to. |
+|description|string|Specifies the description of the general ledger entry.|
+|debitAmount|decimal|Specifies the debitAmount of the general ledger entry.|
+|creditAmount|decimal|Specifies the creditAmount of the general ledger entry.|
+|lastModifiedDateTime|datetime|The last datetime the general ledger entry was modified. Read-Only.|
+
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
+Here is a JSON representation of the generalLedgerEntry resource.
 
 
 ```json
@@ -76,9 +77,8 @@ Here is a JSON representation of the resource.
 ```
 ## See also
 
-[Error Codes](../dynamics_error_codes.md)  
-[timeRegistrationEntries](../resources/dynamics_timeregistrationentry.md)  
-[Get timeRegistrationEntries](../api/dynamics_timeregistrationentry_get.md)  
-[Post timeRegistrationEntries](../api/dynamics_timeregistrationentry_create.md)  
-[Patch timeRegistrationEntries](../api/dynamics_timeregistrationentry_update.md)  
-[Delete timeRegistrationEntries](../api/dynamics_timeregistrationentry_delete.md)  
+[GET generalLedgerEntry](../api/dynamics_generalLedgerEntry_Get.md)
+[DELETE generalLedgerEntry](../api/dynamics_generalLedgerEntry_Delete.md)
+[POST generalLedgerEntry](../api/dynamics_generalLedgerEntry_Create.md)
+[PATCH generalLedgerEntry](../api/dynamics_generalLedgerEntry_Update.md)
+

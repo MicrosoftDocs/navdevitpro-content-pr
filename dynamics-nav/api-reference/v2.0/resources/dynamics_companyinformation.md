@@ -1,30 +1,39 @@
 ---
 title: companyInformation resource type | Microsoft Docs
-description: Company information in Dynamics 365 Business Central.
- 
+description: A company information object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 8/26/2020
+ms.date: 09/15/2020
 ms.author: solsen
 ---
- 
+
 # companyInformation resource type
-Represents the information specified for the current company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)], such as name, address, email address, and website address.
+Represents an company information in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
-| Method         | Return Type  |Description|
-|:---------------|:-------------|:----------|
-|[GET companyInformation](../api/dynamics_companyinformation_get.md)|companyInformation|Gets a company information.|
-|[PATCH companyInformation](../api/dynamics_companyinformation_update.md)|companyInformation|Updates a company information.|
+| Method              | Return Type|Description               |
+|:--------------------|:-----------|:-------------------------|
+|[GET companyInformation](../api/dynamics_companyInformation_Get.md)|companyInformation|Gets a company information object.|
+|[DELETE companyInformation](../api/dynamics_companyInformation_Delete.md)|companyInformation|Deletes a company information object.|
+|[POST companyInformation](../api/dynamics_companyInformation_Create.md)|companyInformation|Creates a company information object.|
+|[PATCH companyInformation](../api/dynamics_companyInformation_Update.md)|companyInformation|Updates a company information object.|
+
+
+
+
+## Navigation
+
+| Navigation |Return Type| Description |    
+|:----------|:----------|:-----------------|
+|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion |Gets the countryregion of the companyInformation.|
 
 
 
@@ -38,26 +47,33 @@ Represents the information specified for the current company in [!INCLUDE[d365fi
 
 ## Properties
 
-| Property     | Type      |Description                           |
-|:-------------|:--------|:-------------------------------------|
-|id            |GUID|The unique ID of the company. Non-editable.|
-|displayName   |string   |The company's display name.           |
-|address       |[NAV.PostalAddress](../resources/dynamics_complextypes.md)|The company's address. View the complex type for additional detail.|
-|phoneNumber   |string   |The company's telephone number.       |
-|faxNumber     |string   |The company's fax number.             |
-|email         |string   |The company's email address.          |
-|website       |string   |The company's website address.        |
-|taxRegistrationNumber|string|The company's tax registration number.|
-|currencyCode  |string   |The currency the company does business in. Read-Only.|
+| Property           | Type   |Description     |
+|:-------------------|:-------|:---------------|
+|id|GUID|The unique ID of the item. Non-editable.|
+|displayName|string|Specifies the company information's name. This name will appear on all sales documents for the company information.|
+|addressLine1|string|Specifies the company information's address. This address will appear on all sales documents for the company information.|
+|addressLine2|string|Specifies the company information's address. This address will appear on all sales documents for the company information.|
+|city|string|Specifies the company information's city.|
+|state|string|Specifies the company information's state.|
+|country|string|Specifies the company information's country.|
+|postalCode|string|Specifies the company information's postal code.|
+|phoneNumber|string|Specifies the company information's telephone number.|
+|faxNumber|string|The company's fax number.   |
+|email|string|Specifies the company information's email address.|
+|website|string|Specifies the company information's home page address.|
+|taxRegistrationNumber|string|Specified the tax registration number of the company information.|
+|currencyCode|string|The default currency code for the company information.|
 |currentFiscalYearStartDate|date|The company's current fiscal year start date. Read-Only.|
-|industry      |string   |The industry the company is part of.  |
-|picture       |stream   |The company logo. Read-Only.          |
-|lastModifiedDateTime|datetime|The last datetime the company was modified. Read-Only.|  
+|industry|string|The industry the company is part of.|
+|picture|stream|The company information's picture.|
+|lastModifiedDateTime|datetime|The last datetime the company information was modified. Read-Only.|
 
 
 ## JSON representation
 
-Here is a JSON representation of the companyInformation
+Here is a JSON representation of the companyInformation resource.
+
+
 ```json
 {
    "id": "GUID",
@@ -80,6 +96,10 @@ Here is a JSON representation of the companyInformation
    "lastModifiedDateTime": "datetime"
 }
 ```
-
 ## See also
-[Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md) 
+
+[GET companyInformation](../api/dynamics_companyInformation_Get.md)
+[DELETE companyInformation](../api/dynamics_companyInformation_Delete.md)
+[POST companyInformation](../api/dynamics_companyInformation_Create.md)
+[PATCH companyInformation](../api/dynamics_companyInformation_Update.md)
+

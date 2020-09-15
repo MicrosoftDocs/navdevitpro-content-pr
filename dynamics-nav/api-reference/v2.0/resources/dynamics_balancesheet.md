@@ -1,45 +1,52 @@
 ---
 title: balanceSheet resource type | Microsoft Docs
-description: A balance sheet in Dynamics 365 Business Central.
- 
+description: A balance sheet object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 8/26/2020
+ms.date: 09/15/2020
 ms.author: solsen
 ---
 
 # balanceSheet resource type
-Represents a balanceSheet object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. A balance sheet is a statement of the assets, liabilities, and capital of a business at a specific point in time.
+Represents an balance sheet in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:-------------|:-------------|:----------|
-|[GET balanceSheet](../api/dynamics_balancesheet_get.md)|balanceSheet|Get a balanceSheet object.|
+| Method              | Return Type|Description               |
+|:--------------------|:-----------|:-------------------------|
+|[GET balanceSheet](../api/dynamics_balanceSheet_Get.md)|balanceSheet|Gets a balance sheet object.|
+|[DELETE balanceSheet](../api/dynamics_balanceSheet_Delete.md)|balanceSheet|Deletes a balance sheet object.|
+|[POST balanceSheet](../api/dynamics_balanceSheet_Create.md)|balanceSheet|Creates a balance sheet object.|
+|[PATCH balanceSheet](../api/dynamics_balanceSheet_Update.md)|balanceSheet|Updates a balance sheet object.|
+
+
+
+
+
 
 ## Properties
 
-| Property     | Type   |Description|
-|:-------------|:-------|:----------|
-|lineNumber    |numeric |The balanceSheet item line number.|
-|display       |string  |The balanceSheet item display name.|
-|balance       |numeric |The balanceSheet item balance.|
-|lineType      |string  |The balanceSheet item line type can be: header, detail, total, or spacer.|
-|indentation   |numeric |The balanceSheet item indentation used in report layout.|
-|dateFilter    |date    |The date filter used to calculate the balanceSheet items.|
+| Property           | Type   |Description     |
+|:-------------------|:-------|:---------------|
+|id|GUID|The unique ID of the item. Non-editable.|
+|lineNumber|integer|The balance sheet item line number.|
+|display|string|The balance sheet item display name.|
+|balance|decimal|Specifies balance sheet's total balance.|
+|lineType|string|The type of the balance sheet.|
+|indentation|integer|The balance sheet item indentation used in report layout.|
+|dateFilter|date|The date filter used to calculate the balance sheet items.|
 
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
+Here is a JSON representation of the balanceSheet resource.
 
 
 ```json
@@ -48,12 +55,15 @@ Here is a JSON representation of the resource.
    "lineNumber": "integer",
    "display": "string",
    "balance": "decimal",
-   "lineType": "invoiceLineAggLineType",
+   "lineType": "string",
    "indentation": "integer",
    "dateFilter": "date"
 }
 ```
 ## See also
-  
-[Get Balance Sheet](../api/dynamics_balancesheet_get.md)  
-[Cash Flow Statement](dynamics_cashflowstatement.md)  
+
+[GET balanceSheet](../api/dynamics_balanceSheet_Get.md)
+[DELETE balanceSheet](../api/dynamics_balanceSheet_Delete.md)
+[POST balanceSheet](../api/dynamics_balanceSheet_Create.md)
+[PATCH balanceSheet](../api/dynamics_balanceSheet_Update.md)
+

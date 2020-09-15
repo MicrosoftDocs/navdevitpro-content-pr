@@ -1,29 +1,40 @@
 ---
 title: agedAccountsReceivable resource type | Microsoft Docs
-description: An aged accounts receivable object in Dynamics 365 Business Central.
- 
+description: A aged accounts receivable object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 8/26/2020
+ms.date: 09/15/2020
 ms.author: solsen
 ---
 
 # agedAccountsReceivable resource type
-Represents an agedAccountsReceivable object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)], which is showing the aging of a customer account.
+Represents an aged accounts receivable in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)], see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
-| Method         | Return Type  |Description|
-|:---------------|:-------------|:----------|
-|[GET agedAccountsReceivable](../api/dynamics_agedaccountsreceivable_get.md)|agedAccountsReceivable|Get agedAccountsReceivable object|
+| Method              | Return Type|Description               |
+|:--------------------|:-----------|:-------------------------|
+|[GET agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Get.md)|agedAccountsReceivable|Gets a aged accounts receivable object.|
+|[DELETE agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Delete.md)|agedAccountsReceivable|Deletes a aged accounts receivable object.|
+|[POST agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Create.md)|agedAccountsReceivable|Creates a aged accounts receivable object.|
+|[PATCH agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Update.md)|agedAccountsReceivable|Updates a aged accounts receivable object.|
+
+
+
+
+## Navigation
+
+| Navigation |Return Type| Description |    
+|:----------|:----------|:-----------------|
+|[customer](../resources/dynamics_customer.md)|customer |Gets the customer of the agedAccountsReceivable.|
+
 
 
 ## Navigation
@@ -36,25 +47,24 @@ Represents an agedAccountsReceivable object in [!INCLUDE[d365fin_long_md](../../
 
 ## Properties
 
-| Property       | Type    |Description                                  |
-|:---------------|:--------|:--------------------------------------------|
-|customerId      |GUID     |The unique ID of customer.                   |
-|customerNumber  |string   |Specifies customer's number.                 |
-|name            |string   |Specifies customer's name.                   |
-|currencyCode    |string   |Specifies the currency.                      |
-|before          |numeric  |Specifies balance before first aging period. |
-|period1         |numeric  |Specifies balance in the first aging period. |
-|period2         |numeric  |Specifies balance in the second aging period.|
-|period3         |numeric  |Specifies balance in the third aging period. |
-|after           |numeric  |Specifies balance after third aging period.  |
-|balance         |numeric  |Specifies customer's total balance.          |  
-|periodStartDateFilter|date|Specifies period start date used to calculate aging periods.|
-|periodLengthFilter|string |Specifies the length of the periods.         |
+| Property           | Type   |Description     |
+|:-------------------|:-------|:---------------|
+|customerId|GUID|The unique ID of customer.  |
+|customerNumber|string|The customer's number.|
+|name|string|Represents the aged accounts receivable's name.|
+|currencyCode|string|The default currency code for the aged accounts receivable.|
+|balanceDue|decimal|Specifies total balance due.|
+|currentAmount|decimal|Specifies the current balance.|
+|period1Amount|decimal|Specifies balance in the first aging period.|
+|period2Amount|decimal|Specifies balance in the second aging period.|
+|period3Amount|decimal|Specifies balance in the third aging period.|
+|agedAsOfDate|date|The period start date.|
+|periodLengthFilter|string|Specifies the length of the periods.|
 
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
+Here is a JSON representation of the agedAccountsReceivable resource.
 
 
 ```json
@@ -73,8 +83,9 @@ Here is a JSON representation of the resource.
 }
 ```
 ## See also
-  
-[Get Aged Accounts Receivable](../api/dynamics_agedaccountsreceivable_get.md)  
-[Aged Accounts Payable](dynamics_agedaccountspayable.md)  
-[Account](dynamics_account.md)  
+
+[GET agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Get.md)
+[DELETE agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Delete.md)
+[POST agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Create.md)
+[PATCH agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Update.md)
 

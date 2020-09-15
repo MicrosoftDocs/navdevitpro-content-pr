@@ -1,45 +1,51 @@
 ---
 title: unitOfMeasure resource type | Microsoft Docs
-description: A retained earnings statement object in Dynamics 365 Business Central.
- 
+description: A unit of measure object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 8/26/2020
+ms.date: 09/15/2020
 ms.author: solsen
 ---
 
 # unitOfMeasure resource type
-Represents an retained earnings statement in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents an unit of measure in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
-| Method       | Return Type  |Description          |
-|:-------------|:-------------|:--------------------|
-|[GET unitOfMeasure](../api/dynamics_retainedearningsstatement_get.md)|unitOfMeasure|Get a retained earnings statement object.|
+| Method              | Return Type|Description               |
+|:--------------------|:-----------|:-------------------------|
+|[GET unitOfMeasure](../api/dynamics_unitOfMeasure_Get.md)|unitOfMeasure|Gets a unit of measure object.|
+|[DELETE unitOfMeasure](../api/dynamics_unitOfMeasure_Delete.md)|unitOfMeasure|Deletes a unit of measure object.|
+|[POST unitOfMeasure](../api/dynamics_unitOfMeasure_Create.md)|unitOfMeasure|Creates a unit of measure object.|
+|[PATCH unitOfMeasure](../api/dynamics_unitOfMeasure_Update.md)|unitOfMeasure|Updates a unit of measure object.|
+
+
+
+
+
 
 ## Properties
 
-| Property  | Type  |Description                                                           |
-|:----------|:------|:---------------------------------------------------------------------|
-|lineNumber |numeric|The unitOfMeasure item line number.                       |
-|display    |string |The unitOfMeasure item display name.                      |
-|netChange  |numeric|The unitOfMeasure item Net Change.                        |
-|lineType   |string |The unitOfMeasure item line type can be: header, detail, total, or spacer.|
-|indentation|numeric|The unitOfMeasure item indentation used in report layout. |
-|dateFilter |date   |The date filter used to calculate the unitOfMeasure items.|
+| Property           | Type   |Description     |
+|:-------------------|:-------|:---------------|
+|id|GUID|The unique ID of the item. Non-editable.|
+|code|string|The code of the unit of measure.|
+|displayName|string|Specifies the unit of measure's name. This name will appear on all sales documents for the unit of measure.|
+|internationalStandardCode|string|Specifies the unit of measure code expressed according to the UNECE Rec20 standard in connection with electronic sending of sales documents.|
+|symbol|string|Specifies a graphical representation of the unit of measure.|
+|lastModifiedDateTime|datetime|The last datetime the unit of measure was modified. Read-Only.|
 
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
+Here is a JSON representation of the unitOfMeasure resource.
 
 
 ```json
@@ -54,4 +60,8 @@ Here is a JSON representation of the resource.
 ```
 ## See also
 
-[Get Retained Earnings Statement](../api/dynamics_retainedearningsstatement_get.md)  
+[GET unitOfMeasure](../api/dynamics_unitOfMeasure_Get.md)
+[DELETE unitOfMeasure](../api/dynamics_unitOfMeasure_Delete.md)
+[POST unitOfMeasure](../api/dynamics_unitOfMeasure_Create.md)
+[PATCH unitOfMeasure](../api/dynamics_unitOfMeasure_Update.md)
+

@@ -1,45 +1,52 @@
 ---
 title: cashFlowStatement resource type | Microsoft Docs
 description: A cash flow statement object in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 8/26/2020
+ms.date: 09/15/2020
 ms.author: solsen
 ---
 
 # cashFlowStatement resource type
-Represents an cashFlowStatement object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents an cash flow statement in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:-------------|:-------------|:----------|
-|[GET cashFlowStatement](../api/dynamics_cashflowstatement_get.md)|cashFlowStatement|Get a cashFlowStatement object.|
+| Method              | Return Type|Description               |
+|:--------------------|:-----------|:-------------------------|
+|[GET cashFlowStatement](../api/dynamics_cashFlowStatement_Get.md)|cashFlowStatement|Gets a cash flow statement object.|
+|[DELETE cashFlowStatement](../api/dynamics_cashFlowStatement_Delete.md)|cashFlowStatement|Deletes a cash flow statement object.|
+|[POST cashFlowStatement](../api/dynamics_cashFlowStatement_Create.md)|cashFlowStatement|Creates a cash flow statement object.|
+|[PATCH cashFlowStatement](../api/dynamics_cashFlowStatement_Update.md)|cashFlowStatement|Updates a cash flow statement object.|
+
+
+
+
+
 
 ## Properties
 
-| Property     | Type   |Description                              |
-|:-------------|:-------|:----------------------------------------|
-|lineNumber    |numeric |The cashFlowStatement item line number.  |
-|display       |string  |The cashFlowStatement item display name. |
-|netChange     |numeric |The cashFlowStatement item Net Change.   |
-|lineType      |string  |The cashFlowStatement item line type can be: header, detail, total, or spacer.|
-|indentation   |numeric |The cashFlowStatement item indentation used in report layout.|
-|dateFilter    |date    |The date filter used to calculate the cashFlowStatement items.|
+| Property           | Type   |Description     |
+|:-------------------|:-------|:---------------|
+|id|GUID|The unique ID of the item. Non-editable.|
+|lineNumber|integer|The cash flow statement item line number.|
+|display|string|The cash flow statement item display name.|
+|netChange|decimal|The cash flow statement net change. |
+|lineType|string|The type of the cash flow statement.|
+|indentation|integer|The cash flow statement item indentation used in report layout.|
+|dateFilter|date|The date filter used to calculate the cash flow statement items.|
 
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
+Here is a JSON representation of the cashFlowStatement resource.
 
 
 ```json
@@ -48,12 +55,15 @@ Here is a JSON representation of the resource.
    "lineNumber": "integer",
    "display": "string",
    "netChange": "decimal",
-   "lineType": "invoiceLineAggLineType",
+   "lineType": "string",
    "indentation": "integer",
    "dateFilter": "date"
 }
 ```
 ## See also
-  
-[Get Cash Flow Statement](../api/dynamics_cashflowstatement_get.md)  
-[Balance Sheet](dynamics_balancesheet.md)  
+
+[GET cashFlowStatement](../api/dynamics_cashFlowStatement_Get.md)
+[DELETE cashFlowStatement](../api/dynamics_cashFlowStatement_Delete.md)
+[POST cashFlowStatement](../api/dynamics_cashFlowStatement_Create.md)
+[PATCH cashFlowStatement](../api/dynamics_cashFlowStatement_Update.md)
+

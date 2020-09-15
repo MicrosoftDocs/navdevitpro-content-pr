@@ -1,62 +1,49 @@
 ---
 title: paymentMethod resource type | Microsoft Docs
-description: An paymentMethod object in Dynamics 365 Business Central.
- 
+description: A payment method object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 8/26/2020
+ms.date: 09/15/2020
 ms.author: solsen
 ---
 
 # paymentMethod resource type
-Represents an paymentMethod in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents an payment method in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
-| Method                                              | Return Type|Description               |
-|:----------------------------------------------------|:-----------|:-------------------------|
-|[GET timeRegistrationEntries](../api/dynamics_timeregistrationentry_get.md)      |employees  |Get an timeRegistrationEntries object.   |
-|[POST timeRegistrationEntries](../api/dynamics_timeregistrationentry_create.md)  |employees  |Create an timeRegistrationEntries object.|
-|[PATCH timeRegistrationEntries](../api/dynamics_timeregistrationentry_update.md) |employees  |Update an timeRegistrationEntries object.|
-|[DELETE timeRegistrationEntries](../api/dynamics_timeregistrationentry_delete.md)|none       |Delete an timeRegistrationEntries object.|
+| Method              | Return Type|Description               |
+|:--------------------|:-----------|:-------------------------|
+|[GET paymentMethod](../api/dynamics_paymentMethod_Get.md)|paymentMethod|Gets a payment method object.|
+|[DELETE paymentMethod](../api/dynamics_paymentMethod_Delete.md)|paymentMethod|Deletes a payment method object.|
+|[POST paymentMethod](../api/dynamics_paymentMethod_Create.md)|paymentMethod|Creates a payment method object.|
+|[PATCH paymentMethod](../api/dynamics_paymentMethod_Update.md)|paymentMethod|Updates a payment method object.|
 
 
 
 
-## Navigation
 
-| Navigation |Return Type| Description |
-|:----------|:----------|:-----------------|
-|[account](../resources/dynamics_account.md)|account   |Gets the account of the paymentMethod.|
-|[attachments](../resources/dynamics_attachments.md)|attachments   |Gets the attachments of the paymentMethod.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the paymentMethod.|
 
 ## Properties
 
-| Property           | Type   |Description                                            |
-|:-------------------|:-------|:------------------------------------------------------|
-|id                  |GUID    |Id of the employee timeregistration Non-editable.      |
-|employeeId              |GUID  |The employee Id. Read-Only.                        |
-|employeeNumber         |string, maximum length 20  |The employee number.           |
-|lineNumber           |integer  |line number of time registration.                        |
-|date          |Date  |date of the time registration.                       |
-|quantity             |decimal  |Quantity registered                            |
-|status             |string  |The surname of the employee                            |
-|unitOfMeasureId|GUID|The Id of the unit of measure for the registration.|
-|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|The unit of measure complex type.|
-|lastModifiedDateTime|datetime|The last datetime the entity was modified.|
+| Property           | Type   |Description     |
+|:-------------------|:-------|:---------------|
+|id|GUID|The unique ID of the item. Non-editable.|
+|code|string|The code of the payment method.|
+|displayName|string|Specifies the payment method's name. This name will appear on all sales documents for the payment method.|
+|lastModifiedDateTime|datetime|The last datetime the payment method was modified. Read-Only.|
+
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
+Here is a JSON representation of the paymentMethod resource.
 
 
 ```json
@@ -69,9 +56,8 @@ Here is a JSON representation of the resource.
 ```
 ## See also
 
-[Error Codes](../dynamics_error_codes.md)  
-[timeRegistrationEntries](../resources/dynamics_timeregistrationentry.md)  
-[Get timeRegistrationEntries](../api/dynamics_timeregistrationentry_get.md)  
-[Post timeRegistrationEntries](../api/dynamics_timeregistrationentry_create.md)  
-[Patch timeRegistrationEntries](../api/dynamics_timeregistrationentry_update.md)  
-[Delete timeRegistrationEntries](../api/dynamics_timeregistrationentry_delete.md)  
+[GET paymentMethod](../api/dynamics_paymentMethod_Get.md)
+[DELETE paymentMethod](../api/dynamics_paymentMethod_Delete.md)
+[POST paymentMethod](../api/dynamics_paymentMethod_Create.md)
+[PATCH paymentMethod](../api/dynamics_paymentMethod_Update.md)
+
