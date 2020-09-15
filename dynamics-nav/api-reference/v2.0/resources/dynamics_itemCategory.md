@@ -1,15 +1,13 @@
 ---
 title: itemCategory resource type | Microsoft Docs
-description: An item category in Dynamics 365 Business Central.
- 
+description: A item category object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 8/26/2020
+ms.date: 09/15/2020
 ms.author: solsen
 ---
 
@@ -21,24 +19,31 @@ Represents an item category in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 
 ## Methods
 
-| Method       | Return Type  |Description                   |
-|:-------------|:-------------|:-----------------------------|
-|[GET itemCategory](../api/dynamics_itemCategory_get.md)|itemCategory|Gets a Item Category object.|
+| Method              | Return Type|Description               |
+|:--------------------|:-----------|:-------------------------|
+|[GET itemCategory](../api/dynamics_itemCategory_Get.md)|itemCategory|Gets a item category object.|
+|[DELETE itemCategory](../api/dynamics_itemCategory_Delete.md)|itemCategory|Deletes a item category object.|
+|[POST itemCategory](../api/dynamics_itemCategory_Create.md)|itemCategory|Creates a item category object.|
+|[PATCH itemCategory](../api/dynamics_itemCategory_Update.md)|itemCategory|Updates a item category object.|
+
+
+
+
 
 
 ## Properties
 
-| Property           | Type                  |Description                                        |
-|:-------------------|:----------------------|:--------------------------------------------------|
-|id                  |GUID                   |The unique ID of the item.                         |
-|code                |string, maximum size 20|The Item Category code.                          |
-|displayName         |string                 |Specifies the Item Category's name. This name will appear where the Item Category is used.|
-|lastModifiedDateTime|datetime               |The last datetime the Item Category was modified.|  
+| Property           | Type   |Description     |
+|:-------------------|:-------|:---------------|
+|id|GUID|The unique ID of the item. Non-editable.|
+|code|string|The code of the item category.|
+|displayName|string|Specifies the item category's name. This name will appear on all sales documents for the item category.|
+|lastModifiedDateTime|datetime|The last datetime the item category was modified. Read-Only.|
 
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
+Here is a JSON representation of the itemCategory resource.
 
 
 ```json
@@ -49,7 +54,10 @@ Here is a JSON representation of the resource.
    "lastModifiedDateTime": "datetime"
 }
 ```
-
 ## See also
-  
-[Get Item Category](../api/dynamics_itemCategory_get.md)  
+
+[GET itemCategory](../api/dynamics_itemCategory_Get.md)
+[DELETE itemCategory](../api/dynamics_itemCategory_Delete.md)
+[POST itemCategory](../api/dynamics_itemCategory_Create.md)
+[PATCH itemCategory](../api/dynamics_itemCategory_Update.md)
+

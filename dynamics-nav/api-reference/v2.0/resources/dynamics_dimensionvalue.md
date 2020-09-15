@@ -1,44 +1,49 @@
 ---
 title: dimensionValue resource type | Microsoft Docs
-description: A dimension value in Dynamics 365 Business Central.
- 
+description: A dimension value object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 8/26/2020
+ms.date: 09/15/2020
 ms.author: solsen
 ---
 
 # dimensionValue resource type
-Represents a dimension value in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents an dimension value in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
-| Method       | Return Type  |Description                   |
-|:-------------|:-------------|:-----------------------------|
-|[GET dimensionValue](../api/dynamics_dimensionvalue_get.md)|dimensionValue|Gets a dimension value object.|
+| Method              | Return Type|Description               |
+|:--------------------|:-----------|:-------------------------|
+|[GET dimensionValue](../api/dynamics_dimensionValue_Get.md)|dimensionValue|Gets a dimension value object.|
+|[DELETE dimensionValue](../api/dynamics_dimensionValue_Delete.md)|dimensionValue|Deletes a dimension value object.|
+|[POST dimensionValue](../api/dynamics_dimensionValue_Create.md)|dimensionValue|Creates a dimension value object.|
+|[PATCH dimensionValue](../api/dynamics_dimensionValue_Update.md)|dimensionValue|Updates a dimension value object.|
+
+
+
+
 
 
 ## Properties
 
-| Property           | Type                  |Description                                        |
-|:-------------------|:----------------------|:--------------------------------------------------|
-|id                  |GUID                   |The unique ID of the item.                         |
-|code                |string, maximum size 20|The dimension value code.                          |
-|displayName         |string                 |Specifies the dimension value's name. This name will appear where the dimension value is used.|
-|lastModifiedDateTime|datetime               |The last datetime the dimension value was modified.|  
+| Property           | Type   |Description     |
+|:-------------------|:-------|:---------------|
+|id|GUID|The unique ID of the item. Non-editable.|
+|code|string|The code of the dimension value.|
+|displayName|string|Specifies the dimension value's name. This name will appear on all sales documents for the dimension value.|
+|lastModifiedDateTime|datetime|The last datetime the dimension value was modified. Read-Only.|
 
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
+Here is a JSON representation of the dimensionValue resource.
 
 
 ```json
@@ -49,7 +54,10 @@ Here is a JSON representation of the resource.
    "lastModifiedDateTime": "datetime"
 }
 ```
-
 ## See also
-  
-[Get Dimension Value](../api/dynamics_dimensionvalue_get.md)  
+
+[GET dimensionValue](../api/dynamics_dimensionValue_Get.md)
+[DELETE dimensionValue](../api/dynamics_dimensionValue_Delete.md)
+[POST dimensionValue](../api/dynamics_dimensionValue_Create.md)
+[PATCH dimensionValue](../api/dynamics_dimensionValue_Update.md)
+

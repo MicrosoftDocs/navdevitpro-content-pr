@@ -1,46 +1,57 @@
 ---
 title: subscriptions resource type | Microsoft Docs
 description: A subscriptions object in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 8/26/2020
-ms.author: solsen,henrikwh
+ms.date: 09/15/2020
+ms.author: solsen
 ---
 
 # subscriptions resource type
+Represents an subscriptions in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-Represents a webhook subscriptions object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. Requests issued against the subscriptions entity, manages webhook subscriptionss for a tenant.
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
-| Method       | Return Type  |Description|
-|:-------------|:-------------|:----------|
-|[GET](../api/dynamics_subscriptions_get.md)|subscriptionss|Get subscriptionss object.|
-|[POST](../api/dynamics_subscriptions_create.md)|subscriptionss|Create subscriptionss object.|
-|[PATCH](../api/dynamics_subscriptions_update.md)|subscriptionss|Update subscriptionss object.|
-|[DELETE](../api/dynamics_subscriptions_delete.md)|subscriptionss|Delete subscriptionss object.|
+| Method              | Return Type|Description               |
+|:--------------------|:-----------|:-------------------------|
+|[GET subscriptions](../api/dynamics_subscriptions_Get.md)|subscriptions|Gets a subscriptions object.|
+|[DELETE subscriptions](../api/dynamics_subscriptions_Delete.md)|subscriptions|Deletes a subscriptions object.|
+|[POST subscriptions](../api/dynamics_subscriptions_Create.md)|subscriptions|Creates a subscriptions object.|
+|[PATCH subscriptions](../api/dynamics_subscriptions_Update.md)|subscriptions|Updates a subscriptions object.|
+
+
+
+
+
 
 ## Properties
 
-| Property | Type	|Description| 
-|:---------------|:--------|:----------|
-|subscriptionsId|string|Unique key for the subscriptions. |
-|notificationUrl|string|URL to which webhook notifications are sent.|  
+| Property           | Type   |Description     |
+|:-------------------|:-------|:---------------|
+|subscriptionId|string|Unique key for the subscription.|
+|notificationUrl|string|URL to which webhook notifications are sent.|
 |resource|string|URL for the resource being subscribed to. Supports relative and absolute URL.|
 |userId|GUID|The ID of user that has created the subscriptions.|
-|lastModifiedDateTime|datetime|Timestamp for when the subscriptions was modified.|
+|lastModifiedDateTime|datetime|The last datetime the subscriptions was modified. Read-Only.|
 |clientState|string|Client state will be delivered with every notification. This can be used as a secret to verify message or for managing state if needed.|
 |expirationDateTime|datetime|Date and time for when the webhook will expire.|
+|systemCreatedAt|datetime|The datetime the company was created.|
+|systemCreatedBy|GUID|The ID of the user who created the company.|
+|systemModifiedAt|datetime|The last datetime the subscriptions was modified.|
+|systemModifiedBy|GUID|The ID of the user who last modified the company.|
+
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
+Here is a JSON representation of the subscriptions resource.
+
 
 ```json
 {
@@ -56,18 +67,11 @@ Here is a JSON representation of the resource.
    "systemModifiedAt": "datetime",
    "systemModifiedBy": "GUID"
 }
-
 ```
-
 ## See also
 
+[GET subscriptions](../api/dynamics_subscriptions_Get.md)
+[DELETE subscriptions](../api/dynamics_subscriptions_Delete.md)
+[POST subscriptions](../api/dynamics_subscriptions_Create.md)
+[PATCH subscriptions](../api/dynamics_subscriptions_Update.md)
 
-
-[Error Codes](../dynamics_error_codes.md)  
-[Get subscriptionss](../api/dynamics_subscriptions_get.md)  
-[Create subscriptionss](../api/dynamics_subscriptions_create.md)  
-[Update subscriptionss](../api/dynamics_subscriptions_update.md)  
-[Delete subscriptionss](../api/dynamics_subscriptions_delete.md)  
-
-
-[Error Codes](../dynamics_error_codes.md)  

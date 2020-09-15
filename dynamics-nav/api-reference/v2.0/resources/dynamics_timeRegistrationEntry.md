@@ -1,65 +1,66 @@
 ---
 title: timeRegistrationEntry resource type | Microsoft Docs
-description: An timeRegistrationEntry object in Dynamics 365 Business Central.
- 
+description: A time registration entry object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 8/26/2020
+ms.date: 09/15/2020
 ms.author: solsen
 ---
 
 # timeRegistrationEntry resource type
-Represents an timeRegistrationEntry in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents an time registration entry in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
-| Method                                              | Return Type|Description               |
-|:----------------------------------------------------|:-----------|:-------------------------|
-|[GET timeRegistrationEntries](../api/dynamics_timeregistrationentry_get.md)      |employees  |Get an timeRegistrationEntries object.   |
-|[POST timeRegistrationEntries](../api/dynamics_timeregistrationentry_create.md)  |employees  |Create an timeRegistrationEntries object.|
-|[PATCH timeRegistrationEntries](../api/dynamics_timeregistrationentry_update.md) |employees  |Update an timeRegistrationEntries object.|
-|[DELETE timeRegistrationEntries](../api/dynamics_timeregistrationentry_delete.md)|none       |Delete an timeRegistrationEntries object.|
+| Method              | Return Type|Description               |
+|:--------------------|:-----------|:-------------------------|
+|[GET timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Get.md)|timeRegistrationEntry|Gets a time registration entry object.|
+|[DELETE timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Delete.md)|timeRegistrationEntry|Deletes a time registration entry object.|
+|[POST timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Create.md)|timeRegistrationEntry|Creates a time registration entry object.|
+|[PATCH timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Update.md)|timeRegistrationEntry|Updates a time registration entry object.|
 
 
 
 
 ## Navigation
 
-| Navigation |Return Type| Description |
+| Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[employee](../resources/dynamics_employee.md)|employee   |Gets the employee of the timeRegistrationEntry.|
-|[project](../resources/dynamics_project.md)|project   |Gets the project of the timeRegistrationEntry.|
-|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure   |Gets the unitofmeasure of the timeRegistrationEntry.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the timeRegistrationEntry.|
-
+|[employee](../resources/dynamics_employee.md)|employee |Gets the employee of the timeRegistrationEntry.|
+|[project](../resources/dynamics_project.md)|project |Gets the project of the timeRegistrationEntry.|
+|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the timeRegistrationEntry.|
+|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the timeRegistrationEntry.|
 
 
 ## Properties
 
-| Property           | Type   |Description                                            |
-|:-------------------|:-------|:------------------------------------------------------|
-|id                  |GUID    |Id of the employee timeregistration Non-editable.      |
-|employeeId              |GUID  |The employee Id. Read-Only.                        |
-|employeeNumber         |string, maximum length 20  |The employee number.           |
-|lineNumber           |integer  |line number of time registration.                        |
-|date          |Date  |date of the time registration.                       |
-|quantity             |decimal  |Quantity registered                            |
-|status             |string  |The surname of the employee                            |
-|unitOfMeasureId|GUID|The Id of the unit of measure for the registration.|
-|unitOfMeasure|[NAV.UnitOfMeasure](../resources/dynamics_complextypes.md)|The unit of measure complex type.|
-|lastModifiedDateTime|datetime|The last datetime the entity was modified.|
+| Property           | Type   |Description     |
+|:-------------------|:-------|:---------------|
+|id|GUID|The unique ID of the item. Non-editable.|
+|employeeId|GUID|The unique ID of employee.|
+|employeeNumber|string|The employee's number.|
+|jobId|GUID|The ID of the time registration entry job.|
+|jobNumber|string|The number of the time registration entry job.|
+|absence|string|The cause of absence code.|
+|lineNumber|integer|The time registration entry item line number.|
+|date|date|The date of the time registration entry.|
+|quantity|decimal|The quantity of the item in the time registration entry.|
+|status|[NAV.employeeTimeRegStatus](../resources/dynamics_complextypes.md)|Specifies the status of the time registration entry. It can be "Open", "Submitted", "Rejected" or "Approved".|
+|unitOfMeasureId|GUID|The ID of unit of measure for the time registration entry.|
+|unitOfMeasureCode|string|The code of unit of measure for the time registration entry.|
+|lastModfiedDateTime|datetime|The last datetime the time registration entry was modified. Read-Only.|
+
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
+Here is a JSON representation of the timeRegistrationEntry resource.
 
 
 ```json
@@ -73,7 +74,7 @@ Here is a JSON representation of the resource.
    "lineNumber": "integer",
    "date": "date",
    "quantity": "decimal",
-   "status": "string",
+   "status": "NAV.employeeTimeRegStatus",
    "unitOfMeasureId": "GUID",
    "unitOfMeasureCode": "string",
    "lastModfiedDateTime": "datetime"
@@ -81,9 +82,8 @@ Here is a JSON representation of the resource.
 ```
 ## See also
 
-[Error Codes](../dynamics_error_codes.md)  
-[timeRegistrationEntries](../resources/dynamics_timeregistrationentry.md)  
-[Get timeRegistrationEntries](../api/dynamics_timeregistrationentry_get.md)  
-[Post timeRegistrationEntries](../api/dynamics_timeregistrationentry_create.md)  
-[Patch timeRegistrationEntries](../api/dynamics_timeregistrationentry_update.md)  
-[Delete timeRegistrationEntries](../api/dynamics_timeregistrationentry_delete.md)  
+[GET timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Get.md)
+[DELETE timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Delete.md)
+[POST timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Create.md)
+[PATCH timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Update.md)
+
