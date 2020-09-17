@@ -1,9 +1,7 @@
 ---
 title: Create journalLines | Microsoft Docs
 description: Creates a journal line in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -47,15 +45,20 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({id})/journals({id})/jou
 Content-type: application/json
 
 {
-  "lineNumber": 10000,
-  "accountId": "id-value",
-  "accountNumber": "10400",
-  "postingDate": "2015-12-31",
-  "documentNumber": "1234",
-  "externalDocumentNumber": "",
-  "amount": 1500,
-  "description": "Accounts Receivable",
-  "comment": ""
+    "id": "0a077d18-45e3-ea11-bb43-000d3a2feca1",
+    "journalId": "dd1b6a90-44e3-ea11-bb43-000d3a2feca1",
+    "journalDisplayName": "DEFAULT",
+    "lineNumber": 10000,
+    "accountType": "G/L Account",
+    "accountId": "00000000-0000-0000-0000-000000000000",
+    "accountNumber": "",
+    "postingDate": "2018-12-31",
+    "documentNumber": "",
+    "externalDocumentNumber": "",
+    "amount": 0,
+    "description": "",
+    "comment": "",
+    "lastModifiedDateTime": "0001-01-01T00:00:00Z"
 }
 ```
 **Response**
@@ -65,25 +68,26 @@ HTTP/1.1 201 Created
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "journalDisplayName": "DEFAULT",
-  "lineNumber": 10000,
-  "accountId": "id-value",
-  "accountNumber": "10400",
-  "postingDate": "2015-12-31",
-  "documentNumber": "1234",
-  "externalDocumentNumber": "",
-  "amount": 1500,
-  "description": "Accounts Receivable",
-  "comment": "",
-  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
+    "id": "0a077d18-45e3-ea11-bb43-000d3a2feca1",
+    "journalId": "dd1b6a90-44e3-ea11-bb43-000d3a2feca1",
+    "journalDisplayName": "DEFAULT",
+    "lineNumber": 10000,
+    "accountType": "G/L Account",
+    "accountId": "00000000-0000-0000-0000-000000000000",
+    "accountNumber": "",
+    "postingDate": "2018-12-31",
+    "documentNumber": "",
+    "externalDocumentNumber": "",
+    "amount": 0,
+    "description": "",
+    "comment": "",
+    "lastModifiedDateTime": "0001-01-01T00:00:00Z"
 }
 ```
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 [Graph Reference](../api/dynamics_graph_reference.md)  
-  
 [Journal Line](../resources/dynamics_journalline.md)  
 [Get Journal Line](../api/dynamics_journalline_get.md)  
 [Update Journal Line](../api/dynamics_journalline_update.md)  

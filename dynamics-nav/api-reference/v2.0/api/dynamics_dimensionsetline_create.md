@@ -44,6 +44,14 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({id})/dimensionSetLines
 Content-type: application/json
 
 {
+    "id": "55c99ea7-bde4-ea11-bbf2-00155df3a615",
+    "code": "BUSINESSGROUP",
+    "parentId": "85d8a1c5-bde4-ea11-bbf2-00155df3a615",
+    "parentType": "Sales Order",
+    "displayName": "Business Group",
+    "valueId": "56c99ea7-bde4-ea11-bbf2-00155df3a615",
+    "valueCode": "HOME",
+    "valueDisplayName": "Home"
 }
 ```
 

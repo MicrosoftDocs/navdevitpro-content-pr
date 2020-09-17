@@ -21,6 +21,7 @@ Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_lon
 
 ```
 PATCH businesscentralPrefix/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines({purchaseInvoiceLineId})
+PATCH businesscentralPrefix/companies({id})/purchaseInvoiceLines({purchaseInvoiceLineId})
 ```
 
 ## Request headers
@@ -47,7 +48,7 @@ PATCH https://{businesscentralPrefix}/api/v2.0/companies({id})/purchaseInvoices(
 Content-type: application/json
 
 {
-  "description": "someText"
+  "quantity": 4
 }
 ```
 
@@ -63,37 +64,32 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-  "documentId": "id-value",
-  "sequence": 10000,
-  "itemId": "id-value",
-  "accountId": "id-value",
-  "lineType": "Item",
-  "lineDetails": {
-    "number": "GL000009",
-    "displayName": "GL000009"
-  },
-  "description": "someText",
-  "unitOfMeasure": {
-    "code": "BOX",
-    "displayName": "Box",
-    "symbol": null,
-    "unitConversion": null
-  },
-  "unitCost": 71.1,
-  "quantity": 96,
-  "discountAmount": 0,
-  "discountPercent": 0,
-  "discountAppliedBeforeTax": false,
-  "amountExcludingTax": 6825.6,
-  "taxCode": "VAT10",
-  "taxPercent": 10,
-  "totalTaxAmount": 682.56,
-  "amountIncludingTax": 7508.16,
-  "invoiceDiscountAllocation": 0,
-  "netAmount": 6825.6,
-  "netTaxAmount": 682.56,
-  "netAmountIncludingTax": 7508.16,
-  "expectedReceiptDate": "2015-02-24"
+    "id": "dd8db9c0-44e3-ea11-bb43-000d3a2feca1",
+    "documentId": "5d115c9c-44e3-ea11-bb43-000d3a2feca1",
+    "sequence": 10000,
+    "itemId": "fca5738a-44e3-ea11-bb43-000d3a2feca1",
+    "accountId": "00000000-0000-0000-0000-000000000000",
+    "lineType": "Item",
+    "lineObjectNumber": "1896-S",
+    "description": "ATHENS Desk",
+    "unitOfMeasureId": "5ca6738a-44e3-ea11-bb43-000d3a2feca1",
+    "unitOfMeasureCode": "PCS",
+    "unitCost": 780.7,
+    "quantity": 4,
+    "discountAmount": 0,
+    "discountPercent": 0,
+    "discountAppliedBeforeTax": false,
+    "amountExcludingTax": 0,
+    "taxCode": "FURNITURE",
+    "taxPercent": 6.00006,
+    "totalTaxAmount": 0,
+    "amountIncludingTax": 0,
+    "invoiceDiscountAllocation": 0,
+    "netAmount": 3122.8,
+    "netTaxAmount": 187.37,
+    "netAmountIncludingTax": 3310.17,
+    "expectedReceiptDate": "2019-01-01",
+    "itemVariantId": "00000000-0000-0000-0000-000000000000"
 }
 ```
 

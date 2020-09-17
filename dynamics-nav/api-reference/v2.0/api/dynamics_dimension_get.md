@@ -1,9 +1,7 @@
 ---
 title: Get dimensions | Microsoft Docs
 description: Gets a dimension object in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -53,18 +51,15 @@ Here is an example of the response.
 
 ```json
 {
-  "id": "id-value",
-  "code": "AREA",
-  "displayName": "Area",
-  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
+    "id": "a8196a90-44e3-ea11-bb43-000d3a2feca1",
+    "code": "CUSTOMERGROUP",
+    "displayName": "Customer Group",
+    "lastModifiedDateTime": "2020-08-21T00:24:26.09Z"
 }
 ```
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-
-
 [Error Codes](../dynamics_error_codes.md)  
 [Dimension](../resources/dynamics_dimension.md)  
 

@@ -15,7 +15,7 @@ ms.author: solsen
 Create a units of measure object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 ```
 POST businesscentralPrefix/companies({id})/unitsOfMeasure
 ```
@@ -40,13 +40,16 @@ If successful, this method returns ```201 Created``` response code and a **units
 Here is an example of a request.
 
 ```json
-POST https://{businesscentralPrefix}/api/v2.0/companies({id})/unitsOfMeasure
+POST https://{businesscentralPrefix}/api/v1.0/companies({id})/unitsOfMeasure
 Content-type: application/json
 
 {
-  "code": "PCS",
-  "displayName": "Piece",
-  "internationalStandardCode": "EA"
+    "id": "53a6738a-44e3-ea11-bb43-000d3a2feca1",
+    "code": "BOX",
+    "displayName": "Box",
+    "internationalStandardCode": "BX",
+    "symbol": "",
+    "lastModifiedDateTime": "2020-08-20T22:24:22.193Z"
 }
 ```
 
@@ -62,19 +65,14 @@ HTTP/1.1 201 Created
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "code": "PCS",
-  "displayName": "Piece",
-  "internationalStandardCode": "EA",
-  "lastModifiedDateTime": "2017-03-15T01:21:09.563Z"
+    "id": "53a6738a-44e3-ea11-bb43-000d3a2feca1",
+    "code": "BOX",
+    "displayName": "Box",
+    "internationalStandardCode": "BX",
+    "symbol": "",
+    "lastModifiedDateTime": "2020-08-20T22:24:22.193Z"
 }
 ```
-
-
-**Response**
-
-Here is an example of the response. 
-
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)     

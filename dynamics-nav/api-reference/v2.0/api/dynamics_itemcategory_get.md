@@ -12,20 +12,21 @@ ms.author: solsen
 ---
 
 # Get itemCategories
-Retrieve the properties and relationships of a itemCategory object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
-
+Retrieve the properties and relationships of an item category object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
+
 ```
 GET businesscentralPrefix/companies({id})/itemCategories({id})
+GET businesscentralPrefix/companies({id})/item({id})/itemcategory
 ```
 
 ## Request headers
 
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer {token}. Required. |
+|Header       |Value                    |
+|-------------|-------------------------|
+|Authorization|Bearer {token}. Required.|
 
 ## Request body
 Do not supply a request body for this method.
@@ -46,8 +47,15 @@ GET https://{businesscentralPrefix}/api/v2.0/companies({id})/itemCategories({id}
 
 Here is an example of the response. 
 
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+
 ```json
 {
+    "id": "dd1a6a90-44e3-ea11-bb43-000d3a2feca1",
+    "code": "CHAIR",
+    "displayName": "Office Chair",
+    "lastModifiedDateTime": "2020-08-21T00:24:31.777Z"
 }
 ```
 

@@ -1,9 +1,7 @@
 ---
 title: Get retainedEarningsStatement | Microsoft Docs
 description: Gets a retained earnings statement object in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -52,12 +50,13 @@ Here is an example of the response.
 
 ```json
 {
-  "lineNumber": 20000,
-  "display": "Net Income",
-  "netChange": 77770.94,
-  "lineType": "detail",
-  "indentation": 0,
-  "dateFilter": "2016-12-31"   
+    "id": "f7fbf171-44e3-ea11-bb43-000d3a2feca1",
+    "lineNumber": 10000,
+    "display": "Retained Earnings, Period Start",
+    "netChange": 69723.14,
+    "lineType": "detail",
+    "indentation": 0,
+    "dateFilter": "2020-08-21"
 }
 ```
 

@@ -12,26 +12,26 @@ ms.author: solsen
 ---
 
 # Get paymentTerms
-Retrieve the properties and relationships of a paymentTerm object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
-
+Retrieve the properties and relationships of a payment terms object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
+
 ```
 GET businesscentralPrefix/companies({id})/paymentTerms({id})
 ```
 
 ## Request headers
 
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an **paymentTerms** object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **paymentTerms** object in the response body.
 
 ## Example
 
@@ -46,8 +46,19 @@ GET https://{businesscentralPrefix}/api/v2.0/companies({id})/paymentTerms({id})
 
 Here is an example of the response. 
 
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+
 ```json
 {
+    "id": "01a5738a-44e3-ea11-bb43-000d3a2feca1",
+    "code": "10 DAYS",
+    "displayName": "Net 10 days",
+    "dueDateCalculation": "10D",
+    "discountDateCalculation": "",
+    "discountPercent": 0,
+    "calculateDiscountOnCreditMemos": false,
+    "lastModifiedDateTime": "2020-08-21T00:24:12.633Z"
 }
 ```
 

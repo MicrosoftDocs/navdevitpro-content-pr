@@ -1,9 +1,7 @@
 ---
 title: Get timeRegistrationEntries | Microsoft Docs
 description: Gets timeRegistrationEntries object in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -56,21 +54,20 @@ Here is an example of the response.
 
 ```json
 {   
-    "id": "b669a254-240a-4057-bdf9-5d6196a63dd4",
-    "employeeId": "dd6ce54a-d14f-40dc-a10d-1d4d18758c76",
-    "employeeNumber": "RL",
+    "id": "1a8b1fec-c0e3-ea11-aa60-000d3ad7cacb",
+    "employeeId": "258bb9c0-44e3-ea11-bb43-000d3a2feca1",
+    "employeeNumber": "AH",
+    "jobId": "00000000-0000-0000-0000-000000000000",
+    "jobNumber": "",
+    "jobTaskNumber": "",
+    "absence": "",
     "lineNumber": 10000,
-    "date": "2019-01-01",
-    "quantity": 2,
+    "date": "2019-02-02",
+    "quantity": 5,
     "status": "Open",
-    "unitOfMeasureId": "a7ec16cb-014f-446a-a084-bc31d5d7e742",
-    "lastModfiedDateTime": "2019-03-25T14:12:08.43Z",
-    "unitOfMeasure": {
-        "code": "HOUR",
-        "displayName": "Hour",
-        "symbol": null,
-        "unitConversion": null
-    }
+    "unitOfMeasureId": "56a6738a-44e3-ea11-bb43-000d3a2feca1",
+    "unitOfMeasureCode": "HOUR",
+    "lastModfiedDateTime": "2020-08-21T15:13:58.87Z"
 }
 ```
 

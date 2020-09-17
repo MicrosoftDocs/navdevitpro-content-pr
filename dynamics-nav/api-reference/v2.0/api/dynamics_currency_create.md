@@ -44,11 +44,13 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({id})/currencies
 Content-type: application/json
 
 {
-  "code": "US",
-  "displayName": "US Dollar",
-  "symbol": "$",
-  "amountDecimalPlaces": "2:2",
-  "amountRoundingPrecision": 0.01
+    "id": "0ca5738a-44e3-ea11-bb43-000d3a2feca1",
+    "code": "CAD",
+    "displayName": "Canadian dollar",
+    "symbol": "$",
+    "amountDecimalPlaces": "2:2",
+    "amountRoundingPrecision": 0.01,
+    "lastModifiedDateTime": "2020-08-21T00:24:12.793Z"
 }
 ```
 
@@ -64,13 +66,13 @@ HTTP/1.1 201 Created
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "code": "US",
-  "displayName": "US Dollar",
-  "symbol": "$",
-  "amountDecimalPlaces": "2:2",
-  "amountRoundingPrecision": 0.01,
-  "lastModifiedDateTime": "2017-03-22T21:05:09.002Z"
+    "id": "0ca5738a-44e3-ea11-bb43-000d3a2feca1",
+    "code": "CAD",
+    "displayName": "Canadian dollar",
+    "symbol": "$",
+    "amountDecimalPlaces": "2:2",
+    "amountRoundingPrecision": 0.01,
+    "lastModifiedDateTime": "2020-08-21T00:24:12.793Z"
 }
 ```
 

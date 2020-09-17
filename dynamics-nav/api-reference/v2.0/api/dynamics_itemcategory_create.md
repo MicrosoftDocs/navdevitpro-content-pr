@@ -61,10 +61,10 @@ HTTP/1.1 201 Created
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "code": "CHAIR",
-  "displayName": "Office Chair",
-  "lastModifiedDateTime": "2017-03-15T02:21:24.047Z"
+    "id": "dd1a6a90-44e3-ea11-bb43-000d3a2feca1",
+    "code": "CHAIR",
+    "displayName": "Office Chair",
+    "lastModifiedDateTime": "2020-08-21T00:24:31.777Z"
 }
 ```
 

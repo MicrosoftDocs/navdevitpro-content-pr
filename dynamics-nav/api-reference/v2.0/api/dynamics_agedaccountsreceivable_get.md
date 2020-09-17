@@ -1,15 +1,13 @@
 --- 
 title: Get agedAccountsReceivable | Microsoft Docs
 description: Gets an aged accounts receivable object in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -53,17 +51,17 @@ Here is an example of the response.
 
 ```json
 {
-  "customerId": "id-value",
-  "customerNumber": "30000",
-  "name": "Relecloud",
-  "currencyCode": "USD",
-  "balanceDue": 349615.45,
-  "currentAmount": 0,
-  "period1Amount": 349615.45,
-  "period2Amount": 0,
-  "period3Amount": 0,
-  "agedAsOfDate": "2017-04-25",
-  "periodLengthFilter": "3M"   
+    "customerId": "f2a5738a-44e3-ea11-bb43-000d3a2feca1",
+    "customerNumber": "10000",
+    "name": "Adatum Corporation",
+    "currencyCode": "",
+    "balanceDue": 0,
+    "currentAmount": 0,
+    "period1Amount": 0,
+    "period2Amount": 0,
+    "period3Amount": 0,
+    "agedAsOfDate": "2020-08-21",
+    "periodLengthFilter": "30D"
 }
 ```
 

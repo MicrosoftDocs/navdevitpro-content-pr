@@ -12,26 +12,26 @@ ms.author: solsen
 ---
 
 # Get paymentMethods
-Retrieve the properties and relationships of a paymentMethod object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
-
+Retrieve the properties and relationships of a payment method object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
+
 ```
 GET businesscentralPrefix/companies({id})/paymentMethods({id})
 ```
 
 ## Request headers
 
-|Header|Value|
-|------|-----|
+|Header         |Value                     |
+|---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
 
 ## Request body
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an **paymentMethods** object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **paymentMethods** object in the response body.
 
 ## Example
 
@@ -39,18 +39,25 @@ If successful, this method returns a ```200 OK``` response code and an **payment
 
 Here is an example of the request.
 ```json
-GET https://{businesscentralPrefix}/api/v2.0/companies({id})/paymentMethods({id})
+GET https://{businesscentralPrefix}/api/v1.0/companies({id})/paymentMethods({id})
 ```
 
 **Response**
 
 Here is an example of the response. 
 
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+
 ```json
 {
+
+    "id": "3a196a90-44e3-ea11-bb43-000d3a2feca1",
+    "code": "ACCOUNT",
+    "displayName": "Payment on account",
+    "lastModifiedDateTime": "2020-08-21T00:48:51.487Z"
 }
 ```
-
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  

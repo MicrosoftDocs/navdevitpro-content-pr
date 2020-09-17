@@ -12,13 +12,12 @@ ms.author: solsen
 ---
 
 # Get companies
-Retrieve the properties and relationships of a company object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
-
+Retrieve the properties and relationships of a companies object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
-GET businesscentralPrefix/companies({id})/companies({id})
+GET businesscentralPrefix/companies
 ```
 
 ## Request headers
@@ -31,7 +30,7 @@ GET businesscentralPrefix/companies({id})/companies({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an **companies** object in the response body.
+If successful, this method returns a ```200 OK``` response code and a **companies** object in the response body.
 
 ## Example
 
@@ -39,15 +38,23 @@ If successful, this method returns a ```200 OK``` response code and an **compani
 
 Here is an example of the request.
 ```json
-GET https://{businesscentralPrefix}/api/v2.0/companies({id})/companies({id})
+GET https://{businesscentralPrefix}/api/v2.0/companies
 ```
 
 **Response**
 
 Here is an example of the response. 
 
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+
 ```json
 {
+    "id": "id-value",
+    "systemVersion": "17806",
+    "name": "CRONUS US",
+    "displayName": "CRONUS USA, Inc.",
+    "businessProfileId": ""
 }
 ```
 

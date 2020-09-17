@@ -12,25 +12,26 @@ ms.author: solsen
 ---
 
 # Delete taxGroups
-Deletes taxGroups in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Delete a tax group object from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 ```
 DELETE businesscentralPrefix/companies({id})/taxGroups({id})
 ```
 
 ## Request headers
 
-|Header         |Value                     |
-|---------------|--------------------------|
+|Header|Value|
+|------|-----|
 |Authorization  |Bearer {token}. Required. |
+|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the **taxGroups**, the **taxGroups** will not be updated. |
 
 ## Request body
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```204 No Content``` response code and it deletes the taxGroup .
+If successful, this method returns ```204,No Content``` response code. It does not return anything in the response body.
 
 ## Example
 
@@ -39,14 +40,16 @@ If successful, this method returns a ```204 No Content``` response code and it d
 Here is an example of the request.
 
 ```json
-DELETE https://{businesscentralPrefix}/api/v2.0/companies({id})/taxGroups({id})
+DELETE https://{businesscentralPrefix}/api/v1.0/companies({id})/taxGroups({id})
 ```
 
 **Response** 
 
-No Content.
+Here is an example of the response. 
 
-
+```json
+HTTP/1.1 204 No Content
+```
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  

@@ -1,15 +1,13 @@
 ---
 title: Get companyInformation | Microsoft Docs
-description: Gets a company information object in Dynamics 365 Business Central.
- 
+description: Gets a company information object in Dynamics 365 Business Central. 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -76,7 +74,6 @@ Here is an example of the response.
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-  
-[Companies](../resources/dynamics_companies.md)  
+[Companies](../resources/dynamics_company.md)  
 [Company Information](../resources/dynamics_companyinformation.md)  
 [Update Company Information](dynamics_companyinformation_update.md)  

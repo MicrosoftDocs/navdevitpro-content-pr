@@ -1,9 +1,7 @@
 ---
 title: Create purchaseInvoiceLines | Microsoft Docs
 description: Creates a purchase invoice line object in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -20,7 +18,8 @@ Create a purchase invoice line object in [!INCLUDE[d365fin_long_md](../../includ
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 
 ```
-POST businesscentralPrefix/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines
+POST businesscentralPrefix/companies({id})/purchaseInvoices({id})/purchaseInvoiceLines({purchaseInvoiceLineId})
+POST businesscentralPrefix/companies({id})/purchaseInvoiceLines({purchaseInvoiceLineId})
 ```
 
 ## Request headers
@@ -47,11 +46,76 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({id})/purchaseInvoices({
 Content-type: application/json
 
 {
-"itemId": "id-value",
-"lineType": "Item",
-"quantity": 9
+    "id": "dd8db9c0-44e3-ea11-bb43-000d3a2feca1",
+    "documentId": "5d115c9c-44e3-ea11-bb43-000d3a2feca1",
+    "sequence": 10000,
+    "itemId": "fca5738a-44e3-ea11-bb43-000d3a2feca1",
+    "accountId": "00000000-0000-0000-0000-000000000000",
+    "lineType": "Item",
+    "lineObjectNumber": "1896-S",
+    "description": "ATHENS Desk",
+    "unitOfMeasureId": "5ca6738a-44e3-ea11-bb43-000d3a2feca1",
+    "unitOfMeasureCode": "PCS",
+    "unitCost": 780.7,
+    "quantity": 4,
+    "discountAmount": 0,
+    "discountPercent": 0,
+    "discountAppliedBeforeTax": false,
+    "amountExcludingTax": 0,
+    "taxCode": "FURNITURE",
+    "taxPercent": 6.00006,
+    "totalTaxAmount": 0,
+    "amountIncludingTax": 0,
+    "invoiceDiscountAllocation": 0,
+    "netAmount": 3122.8,
+    "netTaxAmount": 187.37,
+    "netAmountIncludingTax": 3310.17,
+    "expectedReceiptDate": "2019-01-01",
+    "itemVariantId": "00000000-0000-0000-0000-000000000000"
 }
 ```
+
+**Response**
+
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+
+```json
+HTTP/1.1 201 Created
+Content-type: application/json
+
+{
+    "id": "dd8db9c0-44e3-ea11-bb43-000d3a2feca1",
+    "documentId": "5d115c9c-44e3-ea11-bb43-000d3a2feca1",
+    "sequence": 10000,
+    "itemId": "fca5738a-44e3-ea11-bb43-000d3a2feca1",
+    "accountId": "00000000-0000-0000-0000-000000000000",
+    "lineType": "Item",
+    "lineObjectNumber": "1896-S",
+    "description": "ATHENS Desk",
+    "unitOfMeasureId": "5ca6738a-44e3-ea11-bb43-000d3a2feca1",
+    "unitOfMeasureCode": "PCS",
+    "unitCost": 780.7,
+    "quantity": 4,
+    "discountAmount": 0,
+    "discountPercent": 0,
+    "discountAppliedBeforeTax": false,
+    "amountExcludingTax": 0,
+    "taxCode": "FURNITURE",
+    "taxPercent": 6.00006,
+    "totalTaxAmount": 0,
+    "amountIncludingTax": 0,
+    "invoiceDiscountAllocation": 0,
+    "netAmount": 3122.8,
+    "netTaxAmount": 187.37,
+    "netAmountIncludingTax": 3310.17,
+    "expectedReceiptDate": "2019-01-01",
+    "itemVariantId": "00000000-0000-0000-0000-000000000000"
+}
+```
+
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  

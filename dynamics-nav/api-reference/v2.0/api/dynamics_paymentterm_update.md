@@ -11,7 +11,7 @@ ms.date: 09/15/2020
 ms.author: solsen
 ---
 
- Update paymentTerms
+## Update paymentTerms
 Update the properties of a payment terms object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -61,14 +61,14 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "code": "7 DAYS",
-  "displayName": "Net 7 days with Discount",
-  "dueDateCalculation": "7D",
-  "discountDateCalculation": "",
-  "discountPercent": 10,
-  "calculateDiscountOnCreditMemos": false,
-  "lastModifiedDateTime": "2017-03-15T02:20:55.203Z"
+    "id": "01a5738a-44e3-ea11-bb43-000d3a2feca1",
+    "code": "10 DAYS",
+    "displayName": "Net 7 days with Discount",
+    "dueDateCalculation": "10D",
+    "discountDateCalculation": "",
+    "discountPercent": 10,
+    "calculateDiscountOnCreditMemos": false,
+    "lastModifiedDateTime": "2020-08-21T00:24:12.633Z"
 }
 ```
 

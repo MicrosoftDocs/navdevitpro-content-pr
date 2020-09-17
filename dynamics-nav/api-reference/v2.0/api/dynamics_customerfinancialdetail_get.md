@@ -12,20 +12,22 @@ ms.author: solsen
 ---
 
 # Get customerFinancialDetails
-Retrieve the properties and relationships of a customerFinancialDetail object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
-
+Retrieve the properties and relationships of a customerFinancialDetails object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).s
+
 ```
-GET businesscentralPrefix/companies({id})/customerFinancialDetails({id})
+GET businesscentralPrefix/companies({id})/customerFinancialDetails
+GET businesscentralPrefix/companies({id})/customers?$expand=customerFinancialDetails
+GET businesscentralPrefix/companies({id})/customers({customerId})?$expand=customerFinancialDetails
 ```
 
 ## Request headers
 
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer {token}. Required. |
+|Header       |Value                    |
+|-------------|-------------------------|
+|Authorization|Bearer {token}. Required.|
 
 ## Request body
 Do not supply a request body for this method.
@@ -39,18 +41,25 @@ If successful, this method returns a ```200 OK``` response code and an **custome
 
 Here is an example of the request.
 ```json
-GET https://{businesscentralPrefix}/api/v2.0/companies({id})/customerFinancialDetails({id})
+GET https://{businesscentralPrefix}/api/v2.0/companies({id})/customerFinancialDetails
 ```
 
 **Response**
 
 Here is an example of the response. 
 
-```json
-{
-}
-```
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
+```json
+    {
+        "id": "52f556f8-e0e4-ea11-9305-000d3a482952",
+        "number": "GL00000000",
+        "balance": 0,
+        "totalSalesExcludingTax": 0,
+        "overdueAmount": 0
+    }  
+```
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  

@@ -45,9 +45,9 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({id})/countriesRegions
 Content-type: application/json
 
 {
-  "code": "US",
-  "displayName": "USA",
-  "addressFormat": "City+County+Post Code"
+  "code": "AE",
+  "displayName": "United Arab Emirates",
+  "addressFormat": "City+ZIP Code"
 }
 ```
 
@@ -63,11 +63,11 @@ HTTP/1.1 201 Created
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "code": "US",
-  "displayName": "USA",
-  "addressFormat": "City+County+Post Code",
-  "lastModifiedDateTime": "2017-03-14T15:22:31.753Z"
+    "id": "44a5738a-44e3-ea11-bb43-000d3a2feca1",
+    "code": "AE",
+    "displayName": "United Arab Emirates",
+    "addressFormat": "City+ZIP Code",
+    "lastModifiedDateTime": "2020-08-21T00:24:13.54Z"
 }
 ```
 

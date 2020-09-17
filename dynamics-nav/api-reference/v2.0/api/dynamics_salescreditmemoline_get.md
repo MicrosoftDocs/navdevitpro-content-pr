@@ -1,9 +1,7 @@
 ---
 title: Get salesCreditMemoLines | Microsoft Docs
 description: Gets a sales credit memo line in Dynamics 365 Business Central. 
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -23,6 +21,7 @@ Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_lon
 
 ```
 GET businesscentralPrefix/companies({id})/salesCreditMemos({id})/salesCreditMemoLines({salesCreditMemoLineId})
+GET businesscentralPrefix/companies({id})/salesCreditMemoLines({salesCreditMemoLineId})
 ```
 
 ## Request headers
@@ -55,39 +54,32 @@ Here is an example of the response.
 
 ```json
 {
-  "documentId": "id-value",
-  "sequence": 10000,
-  "itemId": "id-value",
-  "accountId": "id-value",
-  "lineType": "Item",
-  "lineDetails": {
-    "number": "GL000009",
-    "displayName": "GL000009",
-    "description": null
-  },
-  "description": "someText",
-  "unitOfMeasureId": "id-value",
-  "unitOfMeasure": {
-    "code": "BOX",
-    "displayName": "Box",
-    "symbol": null,
-    "unitConversion": null
-  },
-  "unitPrice": 71.1,
-  "quantity": 96,
-  "discountAmount": 0,
-  "discountPercent": 0,
-  "discountAppliedBeforeTax": false,
-  "amountExcludingTax": 6825.6,
-  "taxCode": "VAT10",
-  "taxPercent": 10,
-  "totalTaxAmount": 682.56,
-  "amountIncludingTax": 7508.16,
-  "invoiceDiscountAllocation": 0,
-  "netAmount": 6825.6,
-  "netTaxAmount": 682.56,
-  "netAmountIncludingTax": 7508.16,
-  "shipmentDate": "2015-02-24"
+    "id": "cd7b3ba0-bde3-ea11-aa60-000d3ad7cacb",
+    "documentId": "cb7b3ba0-bde3-ea11-aa60-000d3ad7cacb",
+    "sequence": 10000,
+    "itemId": "fca5738a-44e3-ea11-bb43-000d3a2feca1",
+    "accountId": "00000000-0000-0000-0000-000000000000",
+    "lineType": "Item",
+    "lineObjectNumber": "1896-S",
+    "description": "ATHENS Desk",
+    "unitOfMeasureId": "5ca6738a-44e3-ea11-bb43-000d3a2feca1",
+    "unitOfMeasureCode": "PCS",
+    "unitPrice": 1000.8,
+    "quantity": 1,
+    "discountAmount": 0,
+    "discountPercent": 0,
+    "discountAppliedBeforeTax": false,
+    "amountExcludingTax": 1000.8,
+    "taxCode": "FURNITURE",
+    "taxPercent": 6.0002,
+    "totalTaxAmount": 60.05,
+    "amountIncludingTax": 1060.85,
+    "invoiceDiscountAllocation": 0,
+    "netAmount": 1000.8,
+    "netTaxAmount": 60.05,
+    "netAmountIncludingTax": 1060.85,
+    "shipmentDate": "2020-08-21",
+    "itemVariantId": "00000000-0000-0000-0000-000000000000"
 }
 ```
 

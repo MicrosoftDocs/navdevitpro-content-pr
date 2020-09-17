@@ -1,9 +1,7 @@
 ---
 title: Update salesQuoteLines | Microsoft Docs
 description: Updates a sales quote line in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -21,6 +19,7 @@ Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_lon
 
 ```
 PATCH businesscentralPrefix/companies({id})/salesQuotes({id})/salesQuoteLines({salesQouteLineId})
+PATCH businesscentralPrefix/companies({id})/salesQuoteLines({salesQouteLineId})
 ```
 
 ## Request headers
@@ -47,7 +46,7 @@ PATCH https://{businesscentralPrefix}/api/v2.0/companies({id})/salesQuotes({id})
 Content-type: application/json
 
 {
-  "description": "someText"
+  "lineType": "Item"
 }
 ```
 
@@ -63,36 +62,30 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-  "documentId": "id-value",
-  "sequence": 10000,
-  "itemId": "id-value",
-  "accountId": "id-value",
-  "lineType": "Item",
-  "lineDetails": {
-    "number": "1896-S",
-    "displayName": "ATHENS Desk",
-    "description": null
-  },
-  "description": "someText",
-  "unitOfMeasure": {
-    "code": "BOX",
-    "displayName": "Box",
-    "symbol": null,
-    "unitConversion": null
-  },
-  "unitPrice": 6165,
-  "quantity": 1,
-  "discountAmount": 0,
-  "discountPercent": 0,
-  "discountAppliedBeforeTax": false,
-  "amountExcludingTax": 6165,
-  "taxCode": "VAT10",
-  "taxPercent": 10,
-  "totalTaxAmount": 0,
-  "amountIncludingTax": 6165,
-  "netAmount": 6165,
-  "netTaxAmount": 0,
-  "netAmountIncludingTax": 6165
+    "id": "1c8cb9c0-44e3-ea11-bb43-000d3a2feca1",
+    "documentId": "920f5c9c-44e3-ea11-bb43-000d3a2feca1",
+    "sequence": 10000,
+    "itemId": "04a6738a-44e3-ea11-bb43-000d3a2feca1",
+    "accountId": "00000000-0000-0000-0000-000000000000",
+    "lineType": "Item",
+    "lineObjectNumber": "1936-S",
+    "description": "BERLIN Guest Chair, yellow",
+    "unitOfMeasureId": "5ca6738a-44e3-ea11-bb43-000d3a2feca1",
+    "unitOfMeasureCode": "PCS",
+    "unitPrice": 192.8,
+    "quantity": 10,
+    "discountAmount": 0,
+    "discountPercent": 0,
+    "discountAppliedBeforeTax": false,
+    "amountExcludingTax": 1928,
+    "taxCode": "FURNITURE",
+    "taxPercent": 5,
+    "totalTaxAmount": 96.4,
+    "amountIncludingTax": 2024.4,
+    "netAmount": 1928,
+    "netTaxAmount": 96.4,
+    "netAmountIncludingTax": 2024.4,
+    "itemVariantId": "00000000-0000-0000-0000-000000000000"
 }
 ```
 

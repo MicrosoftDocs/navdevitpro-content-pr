@@ -1,9 +1,7 @@
 ---
 title: Get taxAreas | Microsoft Docs
 description: Gets a tax area object in Dynamics 365 Business Central. 
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -53,10 +51,11 @@ Here is an example of the response.
 
 ```json
 {
-  "id": "id-value",
-  "code": "28012001T",
-  "displayName": "tax area",
-  "lastModifiedDateTime": "2017-05-17T11:30:01.313Z"
+    "id": "90196a90-44e3-ea11-bb43-000d3a2feca1",
+    "code": "ATLANTA, GA",
+    "displayName": "ATLANTA, GA",
+    "taxType": "Sales Tax",
+    "lastModifiedDateTime": "2020-08-21T00:24:25.847Z"
 }
 ```
 

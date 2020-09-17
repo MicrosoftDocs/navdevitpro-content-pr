@@ -1,15 +1,13 @@
 ---
 title: Update companyInformation | Microsoft Docs
 description: Updates a company information object in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -47,7 +45,7 @@ PATCH https://{businesscentralPrefix}/api/v2.0/companies({id})/companyInformatio
 Content-type: application/json
 
 {
-  "displayName": "CRONUS USA, LTD.",
+  "displayName": "CRONUS USA, Inc.",
   "website": "www.cronuscorp.net"
 }
 ```
@@ -65,7 +63,7 @@ Content-type: application/json
 
 {
     "id": "86f5f171-44e3-ea11-bb43-000d3a2feca1",
-    "displayName": "CRONUS USA, LTD.",
+    "displayName": "CRONUS USA, Inc.",
     "addressLine1": "7122 South Ashford Street",
     "addressLine2": "Westminster",
     "city": "Atlanta",
@@ -88,7 +86,6 @@ Content-type: application/json
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-  
-[Companies](../resources/dynamics_companies.md)  
+[Companies](../resources/dynamics_company.md)  
 [Company Information](../resources/dynamics_companyinformation.md)  
 [Get Company Information](dynamics_companyinformation_get.md)  

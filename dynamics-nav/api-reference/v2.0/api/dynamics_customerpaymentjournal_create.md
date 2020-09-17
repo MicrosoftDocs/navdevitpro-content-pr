@@ -16,16 +16,17 @@ Create a customerPaymentJournal object in [!INCLUDE[d365fin_long_md](../../inclu
 
 ## HTTP request
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
+
 ```
-POST businesscentralPrefix/companies({id})/customerPaymentJournals
+POST businesscentralPrefix/companies({id})/customerPaymentJournals({id})
 ```
 
 ## Request headers
 
-|Header         |Value                    |
-|---------------|-------------------------|
-|Authorization  |Bearer {token}. Required.|
-|Content-Type   |application/json         |
+|Header        |Value                    |
+|--------------|-------------------------|
+|Authorization |Bearer {token}. Required.|
+|Content-Type  |application/json         |
 
 ## Request body
 In the request body, supply a JSON representation of **customerPaymentJournals** object.
@@ -40,16 +41,34 @@ If successful, this method returns ```201 Created``` response code and a **custo
 Here is an example of a request.
 
 ```json
-POST https://{businesscentralPrefix}/api/v2.0/companies({id})/customerPaymentJournals
+POST https://{businesscentralPrefix}/api/v1.0/companies({id})/customerPaymentJournals
 Content-type: application/json
 
 {
+    "id": "dc1b6a90-44e3-ea11-bb43-000d3a2feca1",
+    "code": "GENERAL",
+    "displayName": "GENERAL",
+    "lastModifiedDateTime": "2020-08-21T00:24:35.687Z",
+    "balancingAccountId": "00000000-0000-0000-0000-000000000000",
+    "balancingAccountNumber": "10100"
 }
 ```
 
 **Response**
 
-Here is an example of the response. 
+```json
+HTTP/1.1 201 Created
+Content-type: application/json
+
+{
+    "id": "dc1b6a90-44e3-ea11-bb43-000d3a2feca1",
+    "code": "GENERAL",
+    "displayName": "GENERAL",
+    "lastModifiedDateTime": "2020-08-21T00:24:35.687Z",
+    "balancingAccountId": "00000000-0000-0000-0000-000000000000",
+    "balancingAccountNumber": "10100"
+}
+```
 
 
 ## See also

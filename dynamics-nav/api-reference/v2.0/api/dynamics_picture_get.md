@@ -1,9 +1,7 @@
 ---
 title: Get picture | Microsoft Docs
 description: A picture object in Dynamics 365 Business Central. 
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -55,7 +53,7 @@ Here is an example of the response.
 
 ```json
 {
-"id": "53049aad-bde4-ea11-bbf2-00155df3a615",
+    "id": "53049aad-bde4-ea11-bbf2-00155df3a615",
     "parentType": "Customer", (this could be Customer, Item, Employee or Vendor)
     "width": 400,
     "height": 400,
@@ -78,13 +76,6 @@ Body is the raw image data.
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-
-
-[Error Codes](../dynamics_error_codes.md)  
-
-
-
 [Error Codes](../dynamics_error_codes.md)  
 [Picture](../resources/dynamics_picture.md)  
 [Create Picture](dynamics_create_picture.md)  

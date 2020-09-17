@@ -45,7 +45,7 @@ PATCH https://{businesscentralPrefix}/api/v2.0/companies({id})/countriesRegions(
 Content-type: application/json
 
 {
-  "displayName": "United States of America"
+  "displayName": "United Arab Emirates"
 }
 ```
 
@@ -61,11 +61,11 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "code": "US",
-  "displayName": "United States of America",
-  "addressFormat": "City+County+Post Code",
-  "lastModifiedDateTime": "2017-03-16T15:22:31.753Z"
+    "id": "44a5738a-44e3-ea11-bb43-000d3a2feca1",
+    "code": "AE",
+    "displayName": "United Arab Emirates",
+    "addressFormat": "City+ZIP Code",
+    "lastModifiedDateTime": "2020-08-21T00:24:13.54Z"
 }
 ```
 

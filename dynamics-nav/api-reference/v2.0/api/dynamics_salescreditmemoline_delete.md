@@ -20,6 +20,7 @@ Delete a sales credit memo line object in [!INCLUDE[d365fin_long_md](../../inclu
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
 DELETE businesscentralPrefix/companies({id})/salesCreditMemos({id})/salesCreditMemoLines({salesCreditMemoLineId})
+DELETE businesscentralPrefix/companies({id})/salesCreditMemoLines({salesCreditMemoLineId})
 ```
 
 ## Request headers

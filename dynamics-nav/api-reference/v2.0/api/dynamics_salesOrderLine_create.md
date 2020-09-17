@@ -1,9 +1,7 @@
 ---
 title: Create salesOrderLines | Microsoft Docs
 description: Creates a sales order line object in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -21,6 +19,7 @@ Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_lon
 
 ```
 POST businesscentralPrefix/companies({id})/salesOrders({id})/salesOrderLines
+POST businesscentralPrefix/companies({id})/salesOrderLines({salesOrderLineId})
 ```
 
 ## Request headers
@@ -47,11 +46,84 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({id})/salesOrders({id})/
 Content-type: application/json
 
 {
-"itemId": "id-value",
-"lineType": "Item",
-"quantity": 9
+    "id": "1e8cb9c0-44e3-ea11-bb43-000d3a2feca1",
+    "documentId": "960f5c9c-44e3-ea11-bb43-000d3a2feca1",
+    "sequence": 10000,
+    "itemId": "0ea6738a-44e3-ea11-bb43-000d3a2feca1",
+    "accountId": "00000000-0000-0000-0000-000000000000",
+    "lineType": "Item",
+    "lineObjectNumber": "1996-S",
+    "description": "ATLANTA Whiteboard, base",
+    "unitOfMeasureId": "5ca6738a-44e3-ea11-bb43-000d3a2feca1",
+    "unitOfMeasureCode": "PCS",
+    "quantity": 12,
+    "unitPrice": 1397.3,
+    "discountAmount": 0,
+    "discountPercent": 0,
+    "discountAppliedBeforeTax": false,
+    "amountExcludingTax": 16767.6,
+    "taxCode": "FURNITURE",
+    "taxPercent": 6.00002,
+    "totalTaxAmount": 1006.06,
+    "amountIncludingTax": 17773.66,
+    "invoiceDiscountAllocation": 0,
+    "netAmount": 16767.6,
+    "netTaxAmount": 1006.06,
+    "netAmountIncludingTax": 17773.66,
+    "shipmentDate": "2020-04-02",
+    "shippedQuantity": 0,
+    "invoicedQuantity": 0,
+    "invoiceQuantity": 12,
+    "shipQuantity": 12,
+    "itemVariantId": "00000000-0000-0000-0000-000000000000"
 }
 ```
+
+**Response**
+
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+
+```json
+HTTP/1.1 200 OK
+Content-type: application/json
+
+{
+    "id": "1e8cb9c0-44e3-ea11-bb43-000d3a2feca1",
+    "documentId": "960f5c9c-44e3-ea11-bb43-000d3a2feca1",
+    "sequence": 10000,
+    "itemId": "0ea6738a-44e3-ea11-bb43-000d3a2feca1",
+    "accountId": "00000000-0000-0000-0000-000000000000",
+    "lineType": "Item",
+    "lineObjectNumber": "1996-S",
+    "description": "ATLANTA Whiteboard, base",
+    "unitOfMeasureId": "5ca6738a-44e3-ea11-bb43-000d3a2feca1",
+    "unitOfMeasureCode": "PCS",
+    "quantity": 12,
+    "unitPrice": 1397.3,
+    "discountAmount": 0,
+    "discountPercent": 0,
+    "discountAppliedBeforeTax": false,
+    "amountExcludingTax": 16767.6,
+    "taxCode": "FURNITURE",
+    "taxPercent": 6.00002,
+    "totalTaxAmount": 1006.06,
+    "amountIncludingTax": 17773.66,
+    "invoiceDiscountAllocation": 0,
+    "netAmount": 16767.6,
+    "netTaxAmount": 1006.06,
+    "netAmountIncludingTax": 17773.66,
+    "shipmentDate": "2020-04-02",
+    "shippedQuantity": 0,
+    "invoicedQuantity": 0,
+    "invoiceQuantity": 12,
+    "shipQuantity": 12,
+    "itemVariantId": "00000000-0000-0000-0000-000000000000"
+}
+```
+
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 

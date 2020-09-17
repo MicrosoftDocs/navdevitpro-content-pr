@@ -48,7 +48,4 @@ If successful, this method returns ```204 No Content``` response code. It does n
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 [Attachment](../resources/dynamics_attachment.md)  
-[Get Attachments](dynamics_attachment_get.md)  
-[Create Attachment](dynamics_attachment_create.md)  
-[Upload Attachment](dynamics_attachment_patch.md)  
-[Delete Attachment](dynamics_attachment_delete.md)  
+[Get Attachments](dynamics_attachmentS_get.md)   

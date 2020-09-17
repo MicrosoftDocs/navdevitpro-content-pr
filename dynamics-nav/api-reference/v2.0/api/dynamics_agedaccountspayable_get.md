@@ -1,19 +1,18 @@
 ---
 title: Get agedAccountsPayable | Microsoft Docs
 description: Gets an aged accounts payable object in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
 # Get agedAccountsPayable
+
 Retrieve the properties and relationships of an aged accounts payable report object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -52,17 +51,17 @@ Here is an example of the response.
 
 ```json
 {
-  "vendorId": "id-value",
-  "vendorNumber": "50000",
-  "name": "Nod Publishers",
-  "currencyCode": "USD",
-  "balanceDue": 17273.87,
-  "currentAmount": 0,
-  "period1Amount": 0,
-  "period2Amount": 0,
-  "period3Amount": 17273.87,
-  "agedAsOfDate": "2019-01-01",
-  "periodLengthFilter": "3M"  
+    "vendorId": "f7a5738a-44e3-ea11-bb43-000d3a2feca1",
+    "vendorNumber": "10000",
+    "name": "Fabrikam, Inc.",
+    "currencyCode": "",
+    "balanceDue": 2071.13,
+    "currentAmount": 0,
+    "period1Amount": 0,
+    "period2Amount": 0,
+    "period3Amount": 2071.13,
+    "agedAsOfDate": "2020-08-21",
+    "periodLengthFilter": "30D"
 }
 ```
 

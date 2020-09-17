@@ -1,15 +1,13 @@
 ---
 title: Get cashFlowStatement | Microsoft Docs
-description: Gets a cash flow statement object in Dynamics 365 Business Central.
- 
+description: Gets a cash flow statement object in Dynamics 365 Business Central. 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -52,18 +50,18 @@ Here is an example of the response.
 
 ```json
 {
-  "lineNumber": 90000,
-  "display": "Net Cash Provided by Operating Activities",
-  "netChange": 39133.89,
-  "lineType": "total",
-  "indentation": 1,
-  "dateFilter": "2016-12-31"   
+    "id": "e0fbf171-44e3-ea11-bb43-000d3a2feca1",
+    "lineNumber": 10000,
+    "display": "Operating Activities",
+    "netChange": 0,
+    "lineType": "header",
+    "indentation": 0,
+    "dateFilter": "2020-08-21"
 }
 ```
 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-   
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)     
 [Cash Flow Statement](../resources/dynamics_cashflowstatement.md)  
 [Get Balance Sheet](dynamics_balancesheet_get.md)  

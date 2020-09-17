@@ -1,5 +1,5 @@
 ---
-title: GET companies | Microsoft Docs
+title: GET subscriptions | Microsoft Docs
 description: Gets a subscriptions object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-businesscentral
@@ -11,18 +11,16 @@ ms.date: 09/17/2020
 ms.author: solsen
 ---
 
-# Get companies
-Retrieve the properties and relationships of a subscriptions object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
-
+# Get subscriptions
+Retrieves the properties of webhook subscription objects for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v1.0/endpoints-apis-for-dynamics.md).
 ```
-GET businesscentralPrefix/companies({id})/companies({id})
+GET businesscentralPrefix/subscriptions
 ```
 
 ## Request headers
-
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
@@ -31,7 +29,7 @@ GET businesscentralPrefix/companies({id})/companies({id})
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an **companies** object in the response body.
+If successful, this method returns a `200 OK` response code and a **subscription** object in the response body.
 
 ## Example
 
@@ -39,15 +37,25 @@ If successful, this method returns a ```200 OK``` response code and an **compani
 
 Here is an example of the request.
 ```json
-GET https://{businesscentralPrefix}/api/v2.0/companies({id})/companies({id})
+https://{businesscentralPrefix}/api/v1.0/subscriptions 
 ```
 
 **Response**
 
 Here is an example of the response. 
 
+> [!NOTE]  
+> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+
 ```json
 {
+  "subscriptionId": "c670ea73cacb459bb51dc1740da2f1db",
+  "notificationUrl": "https://contoso.com/myCallbacks",
+  "resource": "/api/v1.0/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
+  "userId": "00000000-0000-0000-0000-000000000001",
+  "lastModifiedDateTime": "2018-10-12T12:32:35Z",
+  "clientState": "anytextvalueof2048",
+  "expirationDateTime": "2018-10-15T12:32:35Z"
 }
 ```
 

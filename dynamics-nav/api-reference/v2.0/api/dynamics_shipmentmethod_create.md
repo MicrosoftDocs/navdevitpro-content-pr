@@ -45,8 +45,10 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({id})/shipmentMethods
 Content-type: application/json
 
 {
-  "code": "PICKUP",
-  "displayName": "Pickup at Location"  
+    "id": "87a5738a-44e3-ea11-bb43-000d3a2feca1",
+    "code": "CFR",
+    "displayName": "Cost and Freight",
+    "lastModifiedDateTime": "2020-08-21T00:24:14.287Z"
 }
 ```
 
@@ -62,10 +64,10 @@ HTTP/1.1 201 Created
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "code": "PICKUP",
-  "displayName": "Pickup at Location",
-  "lastModifiedDateTime": "2017-03-15T02:20:57.09Z"
+    "id": "87a5738a-44e3-ea11-bb43-000d3a2feca1",
+    "code": "CFR",
+    "displayName": "Cost and Freight",
+    "lastModifiedDateTime": "2020-08-21T00:24:14.287Z"
 }
 ```
 

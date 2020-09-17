@@ -21,6 +21,7 @@ Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_lon
 
 ```
 POST businesscentralPrefix/companies({id})/salesQuotes({id})/salesQuoteLines
+POST businesscentralPrefix/companies({id})/salesQuoteLines({salesQouteLineId})
 ```
 
 ## Request headers
@@ -47,11 +48,71 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({id})/salesQuotes({id})/
 Content-type: application/json
 
 {
-"itemId": "id-value",
-"lineType": "Item",
-"quantity": 9
+    "id": "1c8cb9c0-44e3-ea11-bb43-000d3a2feca1",
+    "documentId": "920f5c9c-44e3-ea11-bb43-000d3a2feca1",
+    "sequence": 10000,
+    "itemId": "04a6738a-44e3-ea11-bb43-000d3a2feca1",
+    "accountId": "00000000-0000-0000-0000-000000000000",
+    "lineType": "Item",
+    "lineObjectNumber": "1936-S",
+    "description": "BERLIN Guest Chair, yellow",
+    "unitOfMeasureId": "5ca6738a-44e3-ea11-bb43-000d3a2feca1",
+    "unitOfMeasureCode": "PCS",
+    "unitPrice": 192.8,
+    "quantity": 10,
+    "discountAmount": 0,
+    "discountPercent": 0,
+    "discountAppliedBeforeTax": false,
+    "amountExcludingTax": 1928,
+    "taxCode": "FURNITURE",
+    "taxPercent": 5,
+    "totalTaxAmount": 96.4,
+    "amountIncludingTax": 2024.4,
+    "netAmount": 1928,
+    "netTaxAmount": 96.4,
+    "netAmountIncludingTax": 2024.4,
+    "itemVariantId": "00000000-0000-0000-0000-000000000000"
 }
 ```
+**Response**
+
+Here is an example of the response. 
+
+> [!NOTE]  
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+
+```json
+HTTP/1.1 200 OK
+Content-type: application/json
+
+{
+    "id": "1c8cb9c0-44e3-ea11-bb43-000d3a2feca1",
+    "documentId": "920f5c9c-44e3-ea11-bb43-000d3a2feca1",
+    "sequence": 10000,
+    "itemId": "04a6738a-44e3-ea11-bb43-000d3a2feca1",
+    "accountId": "00000000-0000-0000-0000-000000000000",
+    "lineType": "Item",
+    "lineObjectNumber": "1936-S",
+    "description": "BERLIN Guest Chair, yellow",
+    "unitOfMeasureId": "5ca6738a-44e3-ea11-bb43-000d3a2feca1",
+    "unitOfMeasureCode": "PCS",
+    "unitPrice": 192.8,
+    "quantity": 10,
+    "discountAmount": 0,
+    "discountPercent": 0,
+    "discountAppliedBeforeTax": false,
+    "amountExcludingTax": 1928,
+    "taxCode": "FURNITURE",
+    "taxPercent": 5,
+    "totalTaxAmount": 96.4,
+    "amountIncludingTax": 2024.4,
+    "netAmount": 1928,
+    "netTaxAmount": 96.4,
+    "netAmountIncludingTax": 2024.4,
+    "itemVariantId": "00000000-0000-0000-0000-000000000000"
+}
+```
+
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  

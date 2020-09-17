@@ -1,9 +1,7 @@
 ---
 title: Update customerPayments | Microsoft Docs
 description: Updates a customer payment object in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -47,7 +45,7 @@ PATCH https://{businesscentralPrefix}/api/v2.0/companies({id})/customerPaymentsJ
 Content-type: application/json
 
 {
-  "amount": 2000
+  "amount": 1500
 }
 ```
 
@@ -64,7 +62,6 @@ Content-type: application/json
 
 {
     "id": "17cce948-c6a5-4861-8ff5-30428ed83207",
-    "journalDisplayName": "DEFAULT",
     "lineNumber": 10000,
     "customerId": "customerId-value",
     "customerNumber": "10400",
@@ -72,7 +69,7 @@ Content-type: application/json
     "postingDate": "2015-12-31",
     "documentNumber": "1234",
     "externalDocumentNumber": "",
-    "amount": 2000,
+    "amount": 1500,
     "appliesToInvoiceId": "appliesToInvoiceId-value",
     "appliesToInvoiceNumber": "100000",
     "description": "",
@@ -82,9 +79,6 @@ Content-type: application/json
 ```
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-
-
 [Error Codes](../dynamics_error_codes.md)  
 [Customer Payments](../resources/dynamics_customerpayment.md)  
 [Get Customer Payments](dynamics_customerpayment_get.md)  

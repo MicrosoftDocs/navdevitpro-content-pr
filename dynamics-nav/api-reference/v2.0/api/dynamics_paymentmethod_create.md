@@ -44,8 +44,10 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({id})/paymentMethods
 Content-type: application/json
 
 {
-  "code": "CHECK",
-  "displayName": "Check payment"
+    "id": "3a196a90-44e3-ea11-bb43-000d3a2feca1",
+    "code": "ACCOUNT",
+    "displayName": "Payment on account",
+    "lastModifiedDateTime": "2020-08-21T00:48:51.487Z"
 }
 ```
 
@@ -61,10 +63,10 @@ HTTP/1.1 201 Created
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "code": "CHECK",
-  "displayName": "Check payment",
-  "lastModifiedDateTime": "2017-03-22T08:35:48.33Z"
+    "id": "3a196a90-44e3-ea11-bb43-000d3a2feca1",
+    "code": "ACCOUNT",
+    "displayName": "Payment on account",
+    "lastModifiedDateTime": "2020-08-21T00:48:51.487Z"
 }
 ```
 

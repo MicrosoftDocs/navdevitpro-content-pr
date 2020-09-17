@@ -11,46 +11,46 @@ ms.date: 09/17/2020
 ms.author: solsen
 ---
 
-# Get vendorPurchases
-Retrieve the properties and relationships of a vendorPurchase object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
+# vendorPurchases resource type
+Represents a vendor purchase in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+> [!NOTE]  
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
+
+## Methods
+
+| Method       | Return Type  |Description|
+|:---------------|:--------|:----------|
+|[GET vendorPurchases](../api/dynamics_vendorpurchases_get.md)|vendorPurchases|Gets a vendor purchase object.|
+
+## Properties
+
+| Property     | Type   |Description|
+|:---------------|:--------|:----------|
+|vendorId|GUID|Represents the vendor ID.|
+|vendorNumber|string|Represents the vendor number.|
+|name|string|Represents the name of the vendor .|
+|totalPurchaseAmount|numeric|Represents the vendor purchases.|
+|dateFilter_FilterOnly|date|Represents the date filter for the vendor purchases.|
 
 
-## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
-```
-GET businesscentralPrefix/companies({id})/vendorPurchases({id})
-```
+## Relationships
+None
 
-## Request headers
+## JSON representation
 
-|Header|Value|
-|------|-----|
-|Authorization  |Bearer {token}. Required. |
+Here is a JSON representation of the resource.
 
-## Request body
-Do not supply a request body for this method.
-
-## Response
-If successful, this method returns a ```200 OK``` response code and an **vendorPurchases** object in the response body.
-
-## Example
-
-**Request**
-
-Here is an example of the request.
-```json
-GET https://{businesscentralPrefix}/api/v2.0/companies({id})/vendorPurchases({id})
-```
-
-**Response**
-
-Here is an example of the response. 
 
 ```json
 {
+    "vendorId": "GUID",
+    "vendorNumber": "string",
+    "name": "string",
+    "totalPurchaseAmount": "decimal",
+    "dateFilter_FilterOnly": "date"
 }
 ```
-
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  

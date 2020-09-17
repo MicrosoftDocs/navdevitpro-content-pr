@@ -3,7 +3,6 @@ title: Create customerPayments | Microsoft Docs
 description: Creates a customer payment object in Dynamics 365 Business Central.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -14,6 +13,7 @@ ms.author: solsen
 ---
 
 # Create customerPayments
+
 Creates a customer payment object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -47,7 +47,6 @@ Content-type: application/json
 
 {
     "id": "17cce948-c6a5-4861-8ff5-30428ed83207",
-    "journalDisplayName": "DEFAULT",
     "lineNumber": 10000,
     "customerId": "customerId-value",
     "customerNumber": "10400",
@@ -71,7 +70,6 @@ Content-type: application/json
 
 {
     "id": "17cce948-c6a5-4861-8ff5-30428ed83207",
-    "journalDisplayName": "DEFAULT",
     "lineNumber": 10000,
     "customerId": "customerId-value",
     "customerNumber": "10400",
