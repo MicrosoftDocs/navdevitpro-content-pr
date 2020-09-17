@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an tax area in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET taxArea](../api/dynamics_taxArea_Get.md)|taxArea|Gets a tax area object.|
 |[DELETE taxArea](../api/dynamics_taxArea_Delete.md)|taxArea|Deletes a tax area object.|
 |[POST taxArea](../api/dynamics_taxArea_Create.md)|taxArea|Creates a tax area object.|
 |[PATCH taxArea](../api/dynamics_taxArea_Update.md)|taxArea|Updates a tax area object.|
@@ -56,6 +57,7 @@ Here is a JSON representation of the taxArea resource.
 ```
 ## See also
 
+[GET taxArea](../api/dynamics_taxArea_Get.md)
 [DELETE taxArea](../api/dynamics_taxArea_Delete.md)
 [POST taxArea](../api/dynamics_taxArea_Create.md)
 [PATCH taxArea](../api/dynamics_taxArea_Update.md)

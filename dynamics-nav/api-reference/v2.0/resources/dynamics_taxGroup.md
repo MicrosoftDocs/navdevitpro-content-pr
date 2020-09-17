@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an tax group in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lon
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET taxGroup](../api/dynamics_taxGroup_Get.md)|taxGroup|Gets a tax group object.|
 |[DELETE taxGroup](../api/dynamics_taxGroup_Delete.md)|taxGroup|Deletes a tax group object.|
 |[POST taxGroup](../api/dynamics_taxGroup_Create.md)|taxGroup|Creates a tax group object.|
 |[PATCH taxGroup](../api/dynamics_taxGroup_Update.md)|taxGroup|Updates a tax group object.|
@@ -56,6 +57,7 @@ Here is a JSON representation of the taxGroup resource.
 ```
 ## See also
 
+[GET taxGroup](../api/dynamics_taxGroup_Get.md)
 [DELETE taxGroup](../api/dynamics_taxGroup_Delete.md)
 [POST taxGroup](../api/dynamics_taxGroup_Create.md)
 [PATCH taxGroup](../api/dynamics_taxGroup_Update.md)

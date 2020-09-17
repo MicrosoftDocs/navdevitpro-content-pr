@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an payment term in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET paymentTerm](../api/dynamics_paymentTerm_Get.md)|paymentTerm|Gets a payment term object.|
 |[DELETE paymentTerm](../api/dynamics_paymentTerm_Delete.md)|paymentTerm|Deletes a payment term object.|
 |[POST paymentTerm](../api/dynamics_paymentTerm_Create.md)|paymentTerm|Creates a payment term object.|
 |[PATCH paymentTerm](../api/dynamics_paymentTerm_Update.md)|paymentTerm|Updates a payment term object.|
@@ -62,6 +63,7 @@ Here is a JSON representation of the paymentTerm resource.
 ```
 ## See also
 
+[GET paymentTerm](../api/dynamics_paymentTerm_Get.md)
 [DELETE paymentTerm](../api/dynamics_paymentTerm_Delete.md)
 [POST paymentTerm](../api/dynamics_paymentTerm_Create.md)
 [PATCH paymentTerm](../api/dynamics_paymentTerm_Update.md)

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an journal line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET journalLine](../api/dynamics_journalLine_Get.md)|journalLine|Gets a journal line object.|
 |[DELETE journalLine](../api/dynamics_journalLine_Delete.md)|journalLine|Deletes a journal line object.|
 |[POST journalLine](../api/dynamics_journalLine_Create.md)|journalLine|Creates a journal line object.|
 |[PATCH journalLine](../api/dynamics_journalLine_Update.md)|journalLine|Updates a journal line object.|
@@ -79,6 +80,7 @@ Here is a JSON representation of the journalLine resource.
 ```
 ## See also
 
+[GET journalLine](../api/dynamics_journalLine_Get.md)
 [DELETE journalLine](../api/dynamics_journalLine_Delete.md)
 [POST journalLine](../api/dynamics_journalLine_Create.md)
 [PATCH journalLine](../api/dynamics_journalLine_Update.md)

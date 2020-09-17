@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an country region in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET countryRegion](../api/dynamics_countryRegion_Get.md)|countryRegion|Gets a country region object.|
 |[DELETE countryRegion](../api/dynamics_countryRegion_Delete.md)|countryRegion|Deletes a country region object.|
 |[POST countryRegion](../api/dynamics_countryRegion_Create.md)|countryRegion|Creates a country region object.|
 |[PATCH countryRegion](../api/dynamics_countryRegion_Update.md)|countryRegion|Updates a country region object.|
@@ -56,6 +57,7 @@ Here is a JSON representation of the countryRegion resource.
 ```
 ## See also
 
+[GET countryRegion](../api/dynamics_countryRegion_Get.md)
 [DELETE countryRegion](../api/dynamics_countryRegion_Delete.md)
 [POST countryRegion](../api/dynamics_countryRegion_Create.md)
 [PATCH countryRegion](../api/dynamics_countryRegion_Update.md)

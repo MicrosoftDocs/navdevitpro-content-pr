@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an subscriptions in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET subscriptions](../api/dynamics_subscriptions_Get.md)|subscriptions|Gets a subscriptions object.|
 |[DELETE subscriptions](../api/dynamics_subscriptions_Delete.md)|subscriptions|Deletes a subscriptions object.|
 |[POST subscriptions](../api/dynamics_subscriptions_Create.md)|subscriptions|Creates a subscriptions object.|
 |[PATCH subscriptions](../api/dynamics_subscriptions_Update.md)|subscriptions|Updates a subscriptions object.|
@@ -68,6 +69,7 @@ Here is a JSON representation of the subscriptions resource.
 ```
 ## See also
 
+[GET subscriptions](../api/dynamics_subscriptions_Get.md)
 [DELETE subscriptions](../api/dynamics_subscriptions_Delete.md)
 [POST subscriptions](../api/dynamics_subscriptions_Create.md)
 [PATCH subscriptions](../api/dynamics_subscriptions_Update.md)

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -21,6 +21,7 @@ Represents an account in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET account](../api/dynamics_account_Get.md)|account|Gets a account object.|
+|[CHANGE account](../api/dynamics_account_Change.md)|account|Changes a account object.|
 
 
 
@@ -59,4 +60,5 @@ Here is a JSON representation of the account resource.
 ## See also
 
 [GET account](../api/dynamics_account_Get.md)
+[CHANGE account](../api/dynamics_account_Change.md)
 

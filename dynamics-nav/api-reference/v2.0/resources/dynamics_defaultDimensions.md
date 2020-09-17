@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an default dimensions in [!INCLUDE[d365fin_long_md](../../includes/d3
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET defaultDimensions](../api/dynamics_defaultDimensions_Get.md)|defaultDimensions|Gets a default dimensions object.|
 |[DELETE defaultDimensions](../api/dynamics_defaultDimensions_Delete.md)|defaultDimensions|Deletes a default dimensions object.|
 |[POST defaultDimensions](../api/dynamics_defaultDimensions_Create.md)|defaultDimensions|Creates a default dimensions object.|
 |[PATCH defaultDimensions](../api/dynamics_defaultDimensions_Update.md)|defaultDimensions|Updates a default dimensions object.|
@@ -69,6 +70,7 @@ Here is a JSON representation of the defaultDimensions resource.
 ```
 ## See also
 
+[GET defaultDimensions](../api/dynamics_defaultDimensions_Get.md)
 [DELETE defaultDimensions](../api/dynamics_defaultDimensions_Delete.md)
 [POST defaultDimensions](../api/dynamics_defaultDimensions_Create.md)
 [PATCH defaultDimensions](../api/dynamics_defaultDimensions_Update.md)

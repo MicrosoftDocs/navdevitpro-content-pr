@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -21,6 +21,7 @@ Represents an journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET journal](../api/dynamics_journal_Get.md)|journal|Gets a journal object.|
+|[CHANGE journal](../api/dynamics_journal_Change.md)|journal|Changes a journal object.|
 |[DELETE journal](../api/dynamics_journal_Delete.md)|journal|Deletes a journal object.|
 |[POST journal](../api/dynamics_journal_Create.md)|journal|Creates a journal object.|
 |[PATCH journal](../api/dynamics_journal_Update.md)|journal|Updates a journal object.|
@@ -67,6 +68,7 @@ Here is a JSON representation of the journal resource.
 ## See also
 
 [GET journal](../api/dynamics_journal_Get.md)
+[CHANGE journal](../api/dynamics_journal_Change.md)
 [DELETE journal](../api/dynamics_journal_Delete.md)
 [POST journal](../api/dynamics_journal_Create.md)
 [PATCH journal](../api/dynamics_journal_Update.md)

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an currency in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET currency](../api/dynamics_currency_Get.md)|currency|Gets a currency object.|
 |[DELETE currency](../api/dynamics_currency_Delete.md)|currency|Deletes a currency object.|
 |[POST currency](../api/dynamics_currency_Create.md)|currency|Creates a currency object.|
 |[PATCH currency](../api/dynamics_currency_Update.md)|currency|Updates a currency object.|
@@ -60,6 +61,7 @@ Here is a JSON representation of the currency resource.
 ```
 ## See also
 
+[GET currency](../api/dynamics_currency_Get.md)
 [DELETE currency](../api/dynamics_currency_Delete.md)
 [POST currency](../api/dynamics_currency_Create.md)
 [PATCH currency](../api/dynamics_currency_Update.md)

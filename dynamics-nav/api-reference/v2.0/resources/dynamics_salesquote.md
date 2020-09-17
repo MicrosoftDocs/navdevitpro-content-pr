@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -21,6 +21,7 @@ Represents an sales quote in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesQuote](../api/dynamics_salesQuote_Get.md)|salesQuote|Gets a sales quote object.|
+|[CHANGE salesQuote](../api/dynamics_salesQuote_Change.md)|salesQuote|Changes a sales quote object.|
 |[DELETE salesQuote](../api/dynamics_salesQuote_Delete.md)|salesQuote|Deletes a sales quote object.|
 |[POST salesQuote](../api/dynamics_salesQuote_Create.md)|salesQuote|Creates a sales quote object.|
 |[PATCH salesQuote](../api/dynamics_salesQuote_Update.md)|salesQuote|Updates a sales quote object.|
@@ -160,6 +161,7 @@ Here is a JSON representation of the salesQuote resource.
 ## See also
 
 [GET salesQuote](../api/dynamics_salesQuote_Get.md)
+[CHANGE salesQuote](../api/dynamics_salesQuote_Change.md)
 [DELETE salesQuote](../api/dynamics_salesQuote_Delete.md)
 [POST salesQuote](../api/dynamics_salesQuote_Create.md)
 [PATCH salesQuote](../api/dynamics_salesQuote_Update.md)

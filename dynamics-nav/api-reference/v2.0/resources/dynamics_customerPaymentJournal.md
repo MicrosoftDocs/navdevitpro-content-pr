@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an customer payment journal in [!INCLUDE[d365fin_long_md](../../inclu
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET customerPaymentJournal](../api/dynamics_customerPaymentJournal_Get.md)|customerPaymentJournal|Gets a customer payment journal object.|
 |[DELETE customerPaymentJournal](../api/dynamics_customerPaymentJournal_Delete.md)|customerPaymentJournal|Deletes a customer payment journal object.|
 |[POST customerPaymentJournal](../api/dynamics_customerPaymentJournal_Create.md)|customerPaymentJournal|Creates a customer payment journal object.|
 |[PATCH customerPaymentJournal](../api/dynamics_customerPaymentJournal_Update.md)|customerPaymentJournal|Updates a customer payment journal object.|
@@ -64,6 +65,7 @@ Here is a JSON representation of the customerPaymentJournal resource.
 ```
 ## See also
 
+[GET customerPaymentJournal](../api/dynamics_customerPaymentJournal_Get.md)
 [DELETE customerPaymentJournal](../api/dynamics_customerPaymentJournal_Delete.md)
 [POST customerPaymentJournal](../api/dynamics_customerPaymentJournal_Create.md)
 [PATCH customerPaymentJournal](../api/dynamics_customerPaymentJournal_Update.md)

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an sales quote line in [!INCLUDE[d365fin_long_md](../../includes/d365
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET salesQuoteLine](../api/dynamics_salesQuoteLine_Get.md)|salesQuoteLine|Gets a sales quote line object.|
 |[DELETE salesQuoteLine](../api/dynamics_salesQuoteLine_Delete.md)|salesQuoteLine|Deletes a sales quote line object.|
 |[POST salesQuoteLine](../api/dynamics_salesQuoteLine_Create.md)|salesQuoteLine|Creates a sales quote line object.|
 |[PATCH salesQuoteLine](../api/dynamics_salesQuoteLine_Update.md)|salesQuoteLine|Updates a sales quote line object.|
@@ -104,6 +105,7 @@ Here is a JSON representation of the salesQuoteLine resource.
 ```
 ## See also
 
+[GET salesQuoteLine](../api/dynamics_salesQuoteLine_Get.md)
 [DELETE salesQuoteLine](../api/dynamics_salesQuoteLine_Delete.md)
 [POST salesQuoteLine](../api/dynamics_salesQuoteLine_Create.md)
 [PATCH salesQuoteLine](../api/dynamics_salesQuoteLine_Update.md)

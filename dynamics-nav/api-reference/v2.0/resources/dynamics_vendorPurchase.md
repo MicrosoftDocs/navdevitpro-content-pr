@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -17,6 +17,10 @@ Represents an vendor purchase in [!INCLUDE[d365fin_long_md](../../includes/d365f
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
+## Methods
+| Method | Return Type|Description |
+|:--------------------|:-----------|:-------------------------|
+|[GET vendorPurchase](../api/dynamics_vendorPurchase_Get.md)|vendorPurchase|Gets a vendor purchase object.|
 
 
 
@@ -50,4 +54,5 @@ Here is a JSON representation of the vendorPurchase resource.
 ```
 ## See also
 
+[GET vendorPurchase](../api/dynamics_vendorPurchase_Get.md)
 

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -21,6 +21,7 @@ Represents an purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET purchaseInvoice](../api/dynamics_purchaseInvoice_Get.md)|purchaseInvoice|Gets a purchase invoice object.|
+|[CHANGE purchaseInvoice](../api/dynamics_purchaseInvoice_Change.md)|purchaseInvoice|Changes a purchase invoice object.|
 |[DELETE purchaseInvoice](../api/dynamics_purchaseInvoice_Delete.md)|purchaseInvoice|Deletes a purchase invoice object.|
 |[POST purchaseInvoice](../api/dynamics_purchaseInvoice_Create.md)|purchaseInvoice|Creates a purchase invoice object.|
 |[PATCH purchaseInvoice](../api/dynamics_purchaseInvoice_Update.md)|purchaseInvoice|Updates a purchase invoice object.|
@@ -146,6 +147,7 @@ Here is a JSON representation of the purchaseInvoice resource.
 ## See also
 
 [GET purchaseInvoice](../api/dynamics_purchaseInvoice_Get.md)
+[CHANGE purchaseInvoice](../api/dynamics_purchaseInvoice_Change.md)
 [DELETE purchaseInvoice](../api/dynamics_purchaseInvoice_Delete.md)
 [POST purchaseInvoice](../api/dynamics_purchaseInvoice_Create.md)
 [PATCH purchaseInvoice](../api/dynamics_purchaseInvoice_Update.md)

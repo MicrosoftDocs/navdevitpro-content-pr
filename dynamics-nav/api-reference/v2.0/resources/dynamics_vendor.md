@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -21,6 +21,7 @@ Represents an vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET vendor](../api/dynamics_vendor_Get.md)|vendor|Gets a vendor object.|
+|[CHANGE vendor](../api/dynamics_vendor_Change.md)|vendor|Changes a vendor object.|
 |[DELETE vendor](../api/dynamics_vendor_Delete.md)|vendor|Deletes a vendor object.|
 |[POST vendor](../api/dynamics_vendor_Create.md)|vendor|Creates a vendor object.|
 |[PATCH vendor](../api/dynamics_vendor_Update.md)|vendor|Updates a vendor object.|
@@ -103,6 +104,7 @@ Here is a JSON representation of the vendor resource.
 ## See also
 
 [GET vendor](../api/dynamics_vendor_Get.md)
+[CHANGE vendor](../api/dynamics_vendor_Change.md)
 [DELETE vendor](../api/dynamics_vendor_Delete.md)
 [POST vendor](../api/dynamics_vendor_Create.md)
 [PATCH vendor](../api/dynamics_vendor_Update.md)

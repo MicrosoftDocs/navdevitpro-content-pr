@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an item category in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET itemCategory](../api/dynamics_itemCategory_Get.md)|itemCategory|Gets a item category object.|
 |[DELETE itemCategory](../api/dynamics_itemCategory_Delete.md)|itemCategory|Deletes a item category object.|
 |[POST itemCategory](../api/dynamics_itemCategory_Create.md)|itemCategory|Creates a item category object.|
 |[PATCH itemCategory](../api/dynamics_itemCategory_Update.md)|itemCategory|Updates a item category object.|
@@ -54,6 +55,7 @@ Here is a JSON representation of the itemCategory resource.
 ```
 ## See also
 
+[GET itemCategory](../api/dynamics_itemCategory_Get.md)
 [DELETE itemCategory](../api/dynamics_itemCategory_Delete.md)
 [POST itemCategory](../api/dynamics_itemCategory_Create.md)
 [PATCH itemCategory](../api/dynamics_itemCategory_Update.md)

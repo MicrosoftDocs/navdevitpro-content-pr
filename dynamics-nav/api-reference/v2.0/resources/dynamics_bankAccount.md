@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an bank account in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET bankAccount](../api/dynamics_bankAccount_Get.md)|bankAccount|Gets a bank account object.|
 |[DELETE bankAccount](../api/dynamics_bankAccount_Delete.md)|bankAccount|Deletes a bank account object.|
 |[POST bankAccount](../api/dynamics_bankAccount_Create.md)|bankAccount|Creates a bank account object.|
 |[PATCH bankAccount](../api/dynamics_bankAccount_Update.md)|bankAccount|Updates a bank account object.|
@@ -52,6 +53,7 @@ Here is a JSON representation of the bankAccount resource.
 ```
 ## See also
 
+[GET bankAccount](../api/dynamics_bankAccount_Get.md)
 [DELETE bankAccount](../api/dynamics_bankAccount_Delete.md)
 [POST bankAccount](../api/dynamics_bankAccount_Create.md)
 [PATCH bankAccount](../api/dynamics_bankAccount_Update.md)

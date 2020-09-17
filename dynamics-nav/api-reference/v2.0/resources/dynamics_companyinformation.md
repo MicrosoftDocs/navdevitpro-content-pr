@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an company information in [!INCLUDE[d365fin_long_md](../../includes/d
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET companyInformation](../api/dynamics_companyInformation_Get.md)|companyInformation|Gets a company information object.|
 |[PATCH companyInformation](../api/dynamics_companyInformation_Update.md)|companyInformation|Updates a company information object.|
 
 
@@ -85,5 +86,6 @@ Here is a JSON representation of the companyInformation resource.
 ```
 ## See also
 
+[GET companyInformation](../api/dynamics_companyInformation_Get.md)
 [PATCH companyInformation](../api/dynamics_companyInformation_Update.md)
 

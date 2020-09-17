@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an purchase invoice line in [!INCLUDE[d365fin_long_md](../../includes
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Get.md)|purchaseInvoiceLine|Gets a purchase invoice line object.|
 |[DELETE purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Delete.md)|purchaseInvoiceLine|Deletes a purchase invoice line object.|
 |[POST purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Create.md)|purchaseInvoiceLine|Creates a purchase invoice line object.|
 |[PATCH purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Update.md)|purchaseInvoiceLine|Updates a purchase invoice line object.|
@@ -108,6 +109,7 @@ Here is a JSON representation of the purchaseInvoiceLine resource.
 ```
 ## See also
 
+[GET purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Get.md)
 [DELETE purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Delete.md)
 [POST purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Create.md)
 [PATCH purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Update.md)

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -17,6 +17,10 @@ Represents an aged accounts receivable in [!INCLUDE[d365fin_long_md](../../inclu
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
+## Methods
+| Method | Return Type|Description |
+|:--------------------|:-----------|:-------------------------|
+|[GET agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Get.md)|agedAccountsReceivable|Gets a aged accounts receivable object.|
 
 
 
@@ -67,4 +71,5 @@ Here is a JSON representation of the agedAccountsReceivable resource.
 ```
 ## See also
 
+[GET agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Get.md)
 

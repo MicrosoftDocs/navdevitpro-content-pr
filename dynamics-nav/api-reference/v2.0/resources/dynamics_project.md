@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an project in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET project](../api/dynamics_project_Get.md)|project|Gets a project object.|
 |[DELETE project](../api/dynamics_project_Delete.md)|project|Deletes a project object.|
 |[POST project](../api/dynamics_project_Create.md)|project|Creates a project object.|
 |[PATCH project](../api/dynamics_project_Update.md)|project|Updates a project object.|
@@ -52,6 +53,7 @@ Here is a JSON representation of the project resource.
 ```
 ## See also
 
+[GET project](../api/dynamics_project_Get.md)
 [DELETE project](../api/dynamics_project_Delete.md)
 [POST project](../api/dynamics_project_Create.md)
 [PATCH project](../api/dynamics_project_Update.md)

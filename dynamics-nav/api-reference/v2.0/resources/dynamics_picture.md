@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an picture in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET picture](../api/dynamics_picture_Get.md)|picture|Gets a picture object.|
 |[DELETE picture](../api/dynamics_picture_Delete.md)|picture|Deletes a picture object.|
 |[PATCH picture](../api/dynamics_picture_Update.md)|picture|Updates a picture object.|
 
@@ -63,6 +64,7 @@ Here is a JSON representation of the picture resource.
 ```
 ## See also
 
+[GET picture](../api/dynamics_picture_Get.md)
 [DELETE picture](../api/dynamics_picture_Delete.md)
 [PATCH picture](../api/dynamics_picture_Update.md)
 

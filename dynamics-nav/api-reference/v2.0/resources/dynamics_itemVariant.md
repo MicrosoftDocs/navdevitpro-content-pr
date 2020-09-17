@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an item variant in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET itemVariant](../api/dynamics_itemVariant_Get.md)|itemVariant|Gets a item variant object.|
 |[DELETE itemVariant](../api/dynamics_itemVariant_Delete.md)|itemVariant|Deletes a item variant object.|
 |[POST itemVariant](../api/dynamics_itemVariant_Create.md)|itemVariant|Creates a item variant object.|
 |[PATCH itemVariant](../api/dynamics_itemVariant_Update.md)|itemVariant|Updates a item variant object.|
@@ -61,6 +62,7 @@ Here is a JSON representation of the itemVariant resource.
 ```
 ## See also
 
+[GET itemVariant](../api/dynamics_itemVariant_Get.md)
 [DELETE itemVariant](../api/dynamics_itemVariant_Delete.md)
 [POST itemVariant](../api/dynamics_itemVariant_Create.md)
 [PATCH itemVariant](../api/dynamics_itemVariant_Update.md)

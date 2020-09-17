@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an time registration entry in [!INCLUDE[d365fin_long_md](../../includ
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Get.md)|timeRegistrationEntry|Gets a time registration entry object.|
 |[DELETE timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Delete.md)|timeRegistrationEntry|Deletes a time registration entry object.|
 |[POST timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Create.md)|timeRegistrationEntry|Creates a time registration entry object.|
 |[PATCH timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Update.md)|timeRegistrationEntry|Updates a time registration entry object.|
@@ -80,6 +81,7 @@ Here is a JSON representation of the timeRegistrationEntry resource.
 ```
 ## See also
 
+[GET timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Get.md)
 [DELETE timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Delete.md)
 [POST timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Create.md)
 [PATCH timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Update.md)

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an sales invoice line in [!INCLUDE[d365fin_long_md](../../includes/d3
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET salesInvoiceLine](../api/dynamics_salesInvoiceLine_Get.md)|salesInvoiceLine|Gets a sales invoice line object.|
 |[DELETE salesInvoiceLine](../api/dynamics_salesInvoiceLine_Delete.md)|salesInvoiceLine|Deletes a sales invoice line object.|
 |[POST salesInvoiceLine](../api/dynamics_salesInvoiceLine_Create.md)|salesInvoiceLine|Creates a sales invoice line object.|
 |[PATCH salesInvoiceLine](../api/dynamics_salesInvoiceLine_Update.md)|salesInvoiceLine|Updates a sales invoice line object.|
@@ -108,6 +109,7 @@ Here is a JSON representation of the salesInvoiceLine resource.
 ```
 ## See also
 
+[GET salesInvoiceLine](../api/dynamics_salesInvoiceLine_Get.md)
 [DELETE salesInvoiceLine](../api/dynamics_salesInvoiceLine_Delete.md)
 [POST salesInvoiceLine](../api/dynamics_salesInvoiceLine_Create.md)
 [PATCH salesInvoiceLine](../api/dynamics_salesInvoiceLine_Update.md)

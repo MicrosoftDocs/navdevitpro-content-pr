@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -20,6 +20,7 @@ Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
+|[GET employee](../api/dynamics_employee_Get.md)|employee|Gets a employee object.|
 |[DELETE employee](../api/dynamics_employee_Delete.md)|employee|Deletes a employee object.|
 |[POST employee](../api/dynamics_employee_Create.md)|employee|Creates a employee object.|
 |[PATCH employee](../api/dynamics_employee_Update.md)|employee|Updates a employee object.|
@@ -100,6 +101,7 @@ Here is a JSON representation of the employee resource.
 ```
 ## See also
 
+[GET employee](../api/dynamics_employee_Get.md)
 [DELETE employee](../api/dynamics_employee_Delete.md)
 [POST employee](../api/dynamics_employee_Create.md)
 [PATCH employee](../api/dynamics_employee_Update.md)

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -21,6 +21,7 @@ Represents an sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesOrder](../api/dynamics_salesOrder_Get.md)|salesOrder|Gets a sales order object.|
+|[CHANGE salesOrder](../api/dynamics_salesOrder_Change.md)|salesOrder|Changes a sales order object.|
 |[DELETE salesOrder](../api/dynamics_salesOrder_Delete.md)|salesOrder|Deletes a sales order object.|
 |[POST salesOrder](../api/dynamics_salesOrder_Create.md)|salesOrder|Creates a sales order object.|
 |[PATCH salesOrder](../api/dynamics_salesOrder_Update.md)|salesOrder|Updates a sales order object.|
@@ -159,6 +160,7 @@ Here is a JSON representation of the salesOrder resource.
 ## See also
 
 [GET salesOrder](../api/dynamics_salesOrder_Get.md)
+[CHANGE salesOrder](../api/dynamics_salesOrder_Change.md)
 [DELETE salesOrder](../api/dynamics_salesOrder_Delete.md)
 [POST salesOrder](../api/dynamics_salesOrder_Create.md)
 [PATCH salesOrder](../api/dynamics_salesOrder_Update.md)
