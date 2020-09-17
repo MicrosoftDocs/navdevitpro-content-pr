@@ -1,66 +1,77 @@
 ---
-title: attachment resource type | Microsoft Docs
-description: An attachment in Dynamics 365 Business Central.
- 
+title: attachments resource type | Microsoft Docs
+description: A attachments object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 09/15/2020
 ms.author: solsen
 ---
 
-# attachment resource type
-Represents an attachment object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+# attachments resource type
+Represents an attachments in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+| Method | Return Type|Description |
+|:--------------------|:-----------|:-------------------------|
+|[DELETE attachments](../api/dynamics_attachments_Delete.md)|attachments|Deletes a attachments object.|
+|[POST attachments](../api/dynamics_attachments_Create.md)|attachments|Creates a attachments object.|
+|[PATCH attachments](../api/dynamics_attachments_Update.md)|attachments|Updates a attachments object.|
 
-| Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
-|[GET attachments](../api/dynamics_attachment_get.md)|accounts|Get attachment object.|
-|[POST attachments](../api/dynamics_attachment_create.md)|accounts|Create attachment object.|
-|[PATCH attachments](../api/dynamics_attachment_patch.md)|accounts|Upload attachment object.|
-|[DELETE attachments](../api/dynamics_attachment_delete.md)|accounts|Delete attachment object.|
+
+
+
+## Navigation
+
+| Navigation |Return Type| Description |    
+|:----------|:----------|:-----------------|
+|[salesInvoice](../resources/dynamics_salesinvoice.md)|salesInvoice |Gets the salesinvoice of the attachments.|
+|[journalLine](../resources/dynamics_journalline.md)|journalLine |Gets the journalline of the attachments.|
+|[generalLedgerEntry](../resources/dynamics_generalledgerentry.md)|generalLedgerEntry |Gets the generalledgerentry of the attachments.|
+|[salesOrder](../resources/dynamics_salesorder.md)|salesOrder |Gets the salesorder of the attachments.|
+|[salesQuote](../resources/dynamics_salesquote.md)|salesQuote |Gets the salesquote of the attachments.|
+|[salesCreditMemo](../resources/dynamics_salescreditmemo.md)|salesCreditMemo |Gets the salescreditmemo of the attachments.|
+|[purchaseInvoice](../resources/dynamics_purchaseinvoice.md)|purchaseInvoice |Gets the purchaseinvoice of the attachments.|
+
 
 ## Properties
 
-| Property     | Type   |Description|
-|:---------------|:--------|:----------|
-|id|GUID|Id of the attachment.|
-|parentId|GUID|Id of the entity for which the attachment will be associated.|
+| Property           | Type   |Description     |
+|:-------------------|:-------|:---------------|
+|id|GUID|The unique ID of the item. Non-editable.|
+|parentId|GUID|The ID of the parent entity. |
 |fileName|string|Logical filename.|
-|byteSize|integer, read-only|File size.|
-|lastModifiedDateTime|datetime|The last datetime the entity was modified.|
+|byteSize|integer|File size.|
+|attachmentContent|stream|The attachment's content.|
+|lastModifiedDateTime|datetime|The last datetime the attachments was modified. Read-Only.|
+|parentType|string|The type of the parent document of the attachments.|
 
-
-## Relationships
-None
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
+Here is a JSON representation of the attachments resource.
+
 
 ```json
 {
-    "parentId": "GUID",
-    "id": "GUID",
-    "fileName": "string",
-    "byteSize": "integer",
-    "content@odata.mediaEditLink": "URL",
-    "content@odata.mediaReadLink": "URL",
-    "lastModifiedDateTime": "datetime"
+   "id": "GUID",
+   "parentId": "GUID",
+   "fileName": "string",
+   "byteSize": "integer",
+   "attachmentContent": "stream",
+   "lastModifiedDateTime": "datetime",
+   "parentType": "string"
 }
 ```
 ## See also
 
-[Get Attachments](../api/dynamics_attachment_get.md)  
-[Create Attachment](../api/dynamics_attachment_create.md)  
-[Upload Attachment](../api/dynamics_attachment_patch.md)  
-[Delete Attachment](../api/dynamics_attachment_delete.md)  
+[DELETE attachments](../api/dynamics_attachments_Delete.md)
+[POST attachments](../api/dynamics_attachments_Create.md)
+[PATCH attachments](../api/dynamics_attachments_Update.md)
 

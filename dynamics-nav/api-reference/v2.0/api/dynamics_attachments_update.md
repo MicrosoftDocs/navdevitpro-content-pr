@@ -1,6 +1,6 @@
 ---
-title: UPDATE dimensionSetLines  | Microsoft Docs
-description: Updates a attachments object in Dynamics 365 Business Central.
+title: Upload attachment| Microsoft Docs
+description: Uploads the attachment in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-businesscentral
 ms.topic: article
@@ -11,55 +11,44 @@ ms.date: 09/15/2020
 ms.author: solsen
 ---
 
-# Update dimensionSetLines 
-Update the properties of a attachments object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+# Update attachments
+Update the attachment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
 
 ## HTTP request
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
-PATCH businesscentralPrefix/companies({id})/dimensionSetLines ({id})
+PATCH businesscentralPrefix/companies({companyId})/attachments(parentId={parentId},id={attachmentId})/content
 ```
 
 ## Request headers
 
-|Header|Value|
-|------|-----|
+|Header        |Value                    |
+|--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|
-|Content-Type  |application/json|
-|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the **attachments**, the **attachments** will not be updated. |
+|Content-Type  |application/json         |
+|If-Match  |*application/json*         |
 
-## Request body
-In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
-
-## Response
-If successful, this method returns a ```200 OK``` response code and an updated **dimensionSetLines ** object in the response body.
 
 ## Example
 
 **Request**
-
 Here is an example of the request.
 
 ```json
-PATCH https://{businesscentralPrefix}/api/v2.0/companies({id})/dimensionSetLines({id})
-Content-type: application/json
-
-{
-
-}
+PATCH https://{businesscentralPrefix}/api/v2.0/companies({companyId})/attachments(parentId={parentId},id={attachmentId})/content
 ```
 
+**Request body**
+Request body contains the attachment.
+
 **Response**
-
-Here is an example of the response. 
-
-> [!NOTE]  
->   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
-
-
-
+If successful, this method returns ```204 No Content``` response code. It does not return anything in the response body.
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)   
-[attachments](../resources/dynamics_attachments.md)  
-<!--links-->
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
+[Attachment](../resources/dynamics_attachment.md)  
+[Get Attachments](dynamics_attachment_get.md)  
+[Create Attachment](dynamics_attachment_create.md)  
+[Upload Attachment](dynamics_attachment_patch.md)  
+[Delete Attachment](dynamics_attachment_delete.md)  

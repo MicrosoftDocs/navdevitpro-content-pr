@@ -45,7 +45,7 @@ PATCH https://{businesscentralPrefix}/api/v2.0/companies({id})/projects({id})
 Content-type: application/json
 
 {
-
+    "number": "DEERFIELD, 8 WP",
 }
 ```
 
@@ -56,7 +56,16 @@ Here is an example of the response.
 > [!NOTE]  
 >   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
+```json
+HTTP/1.1 200 OK
+Content-type: application/json
 
+{
+    "id": "22d7a1c5-bde4-ea11-bbf2-00155df3a615",
+    "number": "DEERFIELD, 8 WP",
+    "displayName": "Setting up Eight Work Areas"
+}
+```
 
 
 ## See also

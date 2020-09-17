@@ -22,15 +22,17 @@ DELETE businesscentralPrefix/companies({id})/currencies({id})
 
 ## Request headers
 
-|Header         |Value                     |
-|---------------|--------------------------|
+|Header|Value|
+|------|-----|
 |Authorization  |Bearer {token}. Required. |
+|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the **currencies**, the **currencies** will not be
+ updated. |
 
 ## Request body
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```204 No Content``` response code and it deletes the currency .
+If successful, this method returns ```204 No Content``` response code. It does not return anything in the response body.
 
 ## Example
 
@@ -44,9 +46,11 @@ DELETE https://{businesscentralPrefix}/api/v2.0/companies({id})/currencies({id})
 
 **Response** 
 
-No Content.
+Here is an example of the response. 
 
-
+```json
+HTTP/1.1 204 No Content
+```
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  

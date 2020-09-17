@@ -13,45 +13,60 @@ ms.date: 04/01/2019
 ms.author: solsen
 ---
 
-# shipmentMethods resource type
-Represents a method of shipment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)], such as UPS, Fedex, and DHL.
+# Update shipmentMethods
+Update the properties of a shipment method object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+
+## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
+```
+PATCH businesscentralPrefix/companies({id})/shipmentMethods({id})
+```
+
+## Request headers
+
+|Header|Value|
+|------|-----|
+|Authorization |Bearer {token}. Required.|
+|Content-Type  |application/json|
+|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the **shipmentMethods**, the **shipmentMethods** will not be updated. |
+
+## Request body
+In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
+
+## Response
+If successful, this method returns a ```200 OK``` response code and an updated **shipmentMethods** object in the response body.
+
+## Example
+
+**Request**
+
+Here is an example of the request.
+```json
+PATCH https://{businesscentralPrefix}/api/v2.0/companies({id})/shipmentMethods({id})
+Content-type: application/json
+
+{
+  "displayName": "Pickup at Store Location"
+}
+```
+
+**Response**
+
+Here is an example of the response. 
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
-
-## Methods
-
-| Method       | Return Type  |Description|
-|:---------------|:--------|:----------|
-|[GET shipmentMethods](../api/dynamics_shipmentmethods_get.md)|shipmentMethods|Gets a shipment method.|
-|[POST shipmentMethods](../api/dynamics_create_shipmentmethods.md)|shipmentMethods|Creates a shipment method.|
-|[PATCH shipmentMethods](../api/dynamics_shipmentmethods_update.md)|shipmentMethods|Updates a shipment method.|
-|[DELETE shipmentMethods](../api/dynamics_shipmentmethods_delete.md)|none|Deletes a shipment method.|
-
-## Properties
-
-| Property     | Type   |Description|
-|:---------------|:--------|:----------|
-|id|GUID|The unique ID of the shipmentMethod. Non-editable.|
-|code|string|Specifies the shipment method code.|
-|displayName|string|Specifies the shipment method display name.|
-|lastModifiedDateTime|datetime|The last datetime the shipment method was modified. Read-Only.|  
-
-
-## Relationships
-None
-
-## JSON representation
-
-Here is a JSON representation of the shipmentMethod.
+>   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
+HTTP/1.1 200 OK
+Content-type: application/json
+
 {
-  "id": "GUID",
-  "code": "string",
-  "displayName": "string",
-  "lastModifiedDateTime": "datetime"
-}
+  "id": "id-value",
+  "code": "PICKUP",
+  "displayName": "Pickup at Store Location",
+  "lastModifiedDateTime": "2017-03-15T02:20:57.09Z"
+  }
 ```
 
 ## See also

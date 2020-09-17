@@ -2,13 +2,12 @@
 title: Get accounts | Microsoft Docs
 description: Gets an account object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/14/2019
+ms.date: 09/15/2020
 ms.author: solsen
 ---
 

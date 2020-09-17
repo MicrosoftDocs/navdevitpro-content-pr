@@ -44,6 +44,9 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({id})/projects
 Content-type: application/json
 
 {
+    "id": "22d7a1c5-bde4-ea11-bbf2-00155df3a615",
+    "number": "DEERFIELD, 8 WP",
+    "displayName": "Setting up Eight Work Areas"
 }
 ```
 
@@ -51,6 +54,16 @@ Content-type: application/json
 
 Here is an example of the response. 
 
+```json
+HTTP/1.1 201 Created
+Content-type: application/json
+
+{
+    "id": "22d7a1c5-bde4-ea11-bbf2-00155df3a615",
+    "number": "DEERFIELD, 8 WP",
+    "displayName": "Setting up Eight Work Areas"
+}
+```
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)     

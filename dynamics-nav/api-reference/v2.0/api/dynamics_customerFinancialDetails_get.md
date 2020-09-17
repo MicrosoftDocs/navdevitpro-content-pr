@@ -54,13 +54,13 @@ Here is an example of the response.
 >   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```json
-    {
-        "id": "50168e70-ec57-45cf-86d4-3d850e361606",
-        "number": "50000",
-        "balance": 8836.8,
-        "totalSalesExcludingTax": 81049,
-        "overdueAmount": 5754.96
-    }  
+{
+    "id": "52f556f8-e0e4-ea11-9305-000d3a482952",
+    "number": "GL00000000",
+    "balance": 0,
+    "totalSalesExcludingTax": 0,
+    "overdueAmount": 0
+}  
 ```
 
 

@@ -11,27 +11,28 @@ ms.date: 09/15/2020
 ms.author: solsen
 ---
 
-# Create countryRegions
-Create a countryRegion object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+# Create countriesRegions
+
+Create a countriesRegions object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
-POST businesscentralPrefix/companies({id})/countryRegions
+POST businesscentralPrefix/companies({id})/countriesRegions
 ```
 
 ## Request headers
 
-|Header         |Value                    |
-|---------------|-------------------------|
-|Authorization  |Bearer {token}. Required.|
-|Content-Type   |application/json         |
+|Header|Value|
+|------|-----|
+|Authorization  |Bearer {token}. Required. |
+|Content-Type  |application/json   |
 
 ## Request body
-In the request body, supply a JSON representation of **countryRegions** object.
+In the request body, supply a JSON representation of **countriesRegions** object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and a **countryRegions** object in the response body.
+If successful, this method returns ```201 Created``` response code and a **countriesRegions** object in the response body.
 
 ## Example
 
@@ -40,10 +41,13 @@ If successful, this method returns ```201 Created``` response code and a **count
 Here is an example of a request.
 
 ```json
-POST https://{businesscentralPrefix}/api/v2.0/companies({id})/countryRegions
+POST https://{businesscentralPrefix}/api/v2.0/companies({id})/countriesRegions
 Content-type: application/json
 
 {
+  "code": "US",
+  "displayName": "USA",
+  "addressFormat": "City+County+Post Code"
 }
 ```
 
@@ -51,6 +55,21 @@ Content-type: application/json
 
 Here is an example of the response. 
 
+> [!NOTE]  
+> The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+
+```json
+HTTP/1.1 201 Created
+Content-type: application/json
+
+{
+  "id": "id-value",
+  "code": "US",
+  "displayName": "USA",
+  "addressFormat": "City+County+Post Code",
+  "lastModifiedDateTime": "2017-03-14T15:22:31.753Z"
+}
+```
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)     
