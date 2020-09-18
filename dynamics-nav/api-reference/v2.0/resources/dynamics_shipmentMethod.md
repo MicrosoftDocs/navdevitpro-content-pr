@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -18,8 +18,7 @@ Represents an shipment method in [!INCLUDE[d365fin_long_md](../../includes/d365f
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET shipmentMethod](../api/dynamics_shipmentMethod_Get.md)|shipmentMethod|Gets a shipment method object.|
 |[DELETE shipmentMethod](../api/dynamics_shipmentMethod_Delete.md)|shipmentMethod|Deletes a shipment method object.|

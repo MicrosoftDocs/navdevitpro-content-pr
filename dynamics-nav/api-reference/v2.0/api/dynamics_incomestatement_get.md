@@ -1,9 +1,7 @@
 ---
 title: Get incomeStatement | Microsoft Docs
 description: Gets an income statement object in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -52,20 +50,18 @@ Here is an example of the response.
 
 ```json
 {
-  "lineNumber": 30000,
-  "display": "Income, Product Sales",
-  "netChange": 483040.25,
-  "lineType": "detail",
-  "indentation": 1,
-  "dateFilter": "2016-12-31"     
+    "id": "bafbf171-44e3-ea11-bb43-000d3a2feca1",
+    "lineNumber": 10000,
+    "display": "Income",
+    "netChange": 0,
+    "lineType": "header",
+    "indentation": 0,
+    "dateFilter": "2020-08-21"
 }
 ```
 
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-
-
 [Error Codes](../dynamics_error_codes.md)  
 [Income Statement](../resources/dynamics_incomestatement.md)  

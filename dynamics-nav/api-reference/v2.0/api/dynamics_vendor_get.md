@@ -1,9 +1,7 @@
 ---
 title: Get vendors | Microsoft Docs
 description: Gets a vendor object in Dynamics 365 Business Central. 
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -54,33 +52,28 @@ Here is an example of the response.
 
 ```json
 {
-  "id": "id-value",
-  "number": "40000",
-  "displayName": "Wide World Importers",
-  "address": {
-    "street": "51 Radcroft Road",
+    "id": "f7a5738a-44e3-ea11-bb43-000d3a2feca1",
+    "number": "10000",
+    "displayName": "Fabrikam, Inc.",
+    "addressLine1": "10 North Lake Avenue",
+    "addressLine2": "",
     "city": "Atlanta",
     "state": "GA",
-    "countryLetterCode": "US",
-    "postalCode": "31772"
-  },
-  "phoneNumber": "",
-  "email": "toby.rhode@cronuscorp.net",
-  "website": "",
-  "taxRegistrationNumber": "",
-  "currencyId": "id-value",
-  "currencyCode": "USD",
-  "irs1099Code": "",
-  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
-  "paymentMethodId": "id-value",
-  "paymentMethod": {
-    "code": "BANK",
-    "description": "Bank Transfer"
-  },
-  "taxLiable": true,
-  "blocked": " ",
-  "balance": 0,
-  "lastModifiedDateTime": "2017-03-07T00:35:29.667Z"
+    "country": "US",
+    "postalCode": "31772",
+    "phoneNumber": "4255550101",
+    "email": "krystal.york@contoso.com",
+    "website": "www.royalmail.co.uk",
+    "taxRegistrationNumber": "",
+    "currencyId": "00000000-0000-0000-0000-000000000000",
+    "currencyCode": "USD",
+    "irs1099Code": "",
+    "paymentTermsId": "0aa5738a-44e3-ea11-bb43-000d3a2feca1",
+    "paymentMethodId": "3b196a90-44e3-ea11-bb43-000d3a2feca1",
+    "taxLiable": true,
+    "blocked": " ",
+    "balance": 2071.13,
+    "lastModifiedDateTime": "2020-08-21T07:38:46.53Z"
 }
 ```
 

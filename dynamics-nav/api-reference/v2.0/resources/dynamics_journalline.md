@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -18,8 +18,7 @@ Represents an journal line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET journalLine](../api/dynamics_journalLine_Get.md)|journalLine|Gets a journal line object.|
 |[DELETE journalLine](../api/dynamics_journalLine_Delete.md)|journalLine|Deletes a journal line object.|
@@ -28,11 +27,6 @@ Represents an journal line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 
 
 
-| Navigation |Return Type| Description |
-|:----------|:----------|:-----------------|
-|[account](../resources/dynamics_account.md)|account   |Gets the account of the journalLine.|
-|[attachments](../resources/dynamics_attachments.md)|attachments   |Gets the attachments of the journalLine.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the journalLine.|
 
 ## Navigation
 

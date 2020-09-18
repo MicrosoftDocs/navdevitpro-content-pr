@@ -1,15 +1,13 @@
 ---
 title: Update companyInformation | Microsoft Docs
 description: Updates a company information object in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -47,7 +45,7 @@ PATCH https://{businesscentralPrefix}/api/v2.0/companies({id})/companyInformatio
 Content-type: application/json
 
 {
-  "displayName": "CRONUS USA, LTD.",
+  "displayName": "CRONUS USA, Inc.",
   "website": "www.cronuscorp.net"
 }
 ```
@@ -64,32 +62,30 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "displayName": "CRONUS USA, LTD.",
-  "address": {
-    "street": "7122 South Ashford Street\r\nWestminster",
+    "id": "86f5f171-44e3-ea11-bb43-000d3a2feca1",
+    "displayName": "CRONUS USA, Inc.",
+    "addressLine1": "7122 South Ashford Street",
+    "addressLine2": "Westminster",
     "city": "Atlanta",
     "state": "GA",
-    "countryLetterCode": "US",
-    "postalCode": "31772"
-  },
-  "phoneNumber": "+1 425 555 0100",
-  "faxNumber": "+1 425 555 0101",
-  "email": "",
-  "website": "www.cronuscorp.net",
-  "taxRegistrationNumber": "",
-  "currencyCode": "USD",
-  "currentFiscalYearStartDate": "2018-01-01",
-  "industry": "",
-  "picture@odata.mediaReadLink": "https://api.financials.dynamics.com/v2.0/api/v2.0/companies({id})/companyInformation({id})/picture",
-  "lastModifiedDateTime": "2017-03-16T14:57:19.497Z"
+    "country": "US",
+    "postalCode": "31772",
+    "phoneNumber": "+1 425 555 0100",
+    "faxNumber": "+1 425 555 0101",
+    "email": "",
+    "website": "www.cronuscorp.net",
+    "taxRegistrationNumber": "",
+    "currencyCode": "USD",
+    "currentFiscalYearStartDate": "2021-01-01",
+    "industry": "",
+    "picture@odata.mediaReadLink": "https://api.businesscentral.dynamics-tie.com/v2.0/5b2f3b37-2b52-460e-8863-3561295b1e08/Production/api/v2.0/companies(4d0e744d-44e3-ea11-bb43-000d3a2feca1)/companyInformation(86f5f171-44e3-ea11-bb43-000d3a2feca1)/picture",
+    "lastModifiedDateTime": "2020-08-21T00:24:33.793Z"
   }
 ```
 
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-  
-[Companies](../resources/dynamics_companies.md)  
+[Companies](../resources/dynamics_company.md)  
 [Company Information](../resources/dynamics_companyinformation.md)  
 [Get Company Information](dynamics_companyinformation_get.md)  

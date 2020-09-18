@@ -56,13 +56,7 @@ No response.
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-
-
 [Error Codes](../dynamics_error_codes.md)  
-
-
-
 [Error Codes](../dynamics_error_codes.md)  
 [Picture](../resources/dynamics_picture.md)  
 [Get Picture](dynamics_picture_get.md)  

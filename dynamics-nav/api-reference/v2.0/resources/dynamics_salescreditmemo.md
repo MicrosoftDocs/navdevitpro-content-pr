@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -18,10 +18,10 @@ Represents an sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d36
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesCreditMemo](../api/dynamics_salesCreditMemo_Get.md)|salesCreditMemo|Gets a sales credit memo object.|
+|[CHANGE salesCreditMemo](../api/dynamics_salesCreditMemo_Change.md)|salesCreditMemo|Changes a sales credit memo object.|
 |[DELETE salesCreditMemo](../api/dynamics_salesCreditMemo_Delete.md)|salesCreditMemo|Deletes a sales credit memo object.|
 |[POST salesCreditMemo](../api/dynamics_salesCreditMemo_Create.md)|salesCreditMemo|Creates a sales credit memo object.|
 |[PATCH salesCreditMemo](../api/dynamics_salesCreditMemo_Update.md)|salesCreditMemo|Updates a sales credit memo object.|
@@ -47,23 +47,6 @@ send
 |[pdfDocument](../resources/dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the salesCreditMemo.|
 |[attachments](../resources/dynamics_attachments.md)|attachments |Gets the attachments of the salesCreditMemo.|
 |[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesCreditMemo.|
-
-
-
-## Navigation
-
-| Navigation |Return Type| Description |
-|:----------|:----------|:-----------------|
-|[customer](../resources/dynamics_customer.md)|customer   |Gets the customer of the salesCreditMemo.|
-|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion   |Gets the countryregion of the salesCreditMemo.|
-|[currency](../resources/dynamics_currency.md)|currency   |Gets the currency of the salesCreditMemo.|
-|[paymentTerm](../resources/dynamics_paymentterm.md)|paymentTerm   |Gets the paymentterm of the salesCreditMemo.|
-|[shipmentMethod](../resources/dynamics_shipmentmethod.md)|shipmentMethod   |Gets the shipmentmethod of the salesCreditMemo.|
-|[salesCreditMemoLines](../resources/dynamics_salescreditmemolines.md)|salesCreditMemoLines   |Gets the salescreditmemolines of the salesCreditMemo.|
-|[pdfDocument](../resources/dynamics_pdfdocument.md)|pdfDocument   |Gets the pdfdocument of the salesCreditMemo.|
-|[attachments](../resources/dynamics_attachments.md)|attachments   |Gets the attachments of the salesCreditMemo.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines   |Gets the dimensionsetlines of the salesCreditMemo.|
-
 
 
 ## Properties
@@ -166,6 +149,7 @@ Here is a JSON representation of the salesCreditMemo resource.
 ## See also
 
 [GET salesCreditMemo](../api/dynamics_salesCreditMemo_Get.md)
+[CHANGE salesCreditMemo](../api/dynamics_salesCreditMemo_Change.md)
 [DELETE salesCreditMemo](../api/dynamics_salesCreditMemo_Delete.md)
 [POST salesCreditMemo](../api/dynamics_salesCreditMemo_Create.md)
 [PATCH salesCreditMemo](../api/dynamics_salesCreditMemo_Update.md)

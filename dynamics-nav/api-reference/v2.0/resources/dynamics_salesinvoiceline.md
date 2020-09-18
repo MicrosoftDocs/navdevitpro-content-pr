@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -18,8 +18,7 @@ Represents an sales invoice line in [!INCLUDE[d365fin_long_md](../../includes/d3
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesInvoiceLine](../api/dynamics_salesInvoiceLine_Get.md)|salesInvoiceLine|Gets a sales invoice line object.|
 |[DELETE salesInvoiceLine](../api/dynamics_salesInvoiceLine_Delete.md)|salesInvoiceLine|Deletes a sales invoice line object.|

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -18,13 +18,9 @@ Represents an aged accounts payable in [!INCLUDE[d365fin_long_md](../../includes
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET agedAccountsPayable](../api/dynamics_agedAccountsPayable_Get.md)|agedAccountsPayable|Gets a aged accounts payable object.|
-|[DELETE agedAccountsPayable](../api/dynamics_agedAccountsPayable_Delete.md)|agedAccountsPayable|Deletes a aged accounts payable object.|
-|[POST agedAccountsPayable](../api/dynamics_agedAccountsPayable_Create.md)|agedAccountsPayable|Creates a aged accounts payable object.|
-|[PATCH agedAccountsPayable](../api/dynamics_agedAccountsPayable_Update.md)|agedAccountsPayable|Updates a aged accounts payable object.|
 
 
 
@@ -34,15 +30,6 @@ Represents an aged accounts payable in [!INCLUDE[d365fin_long_md](../../includes
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
 |[vendor](../resources/dynamics_vendor.md)|vendor |Gets the vendor of the agedAccountsPayable.|
-
-
-
-## Navigation
-
-| Navigation |Return Type| Description |
-|:----------|:----------|:-----------------|
-|[vendor](../resources/dynamics_vendor.md)|vendor   |Gets the vendor of the agedAccountsPayable.|
-
 
 
 ## Properties
@@ -85,7 +72,4 @@ Here is a JSON representation of the agedAccountsPayable resource.
 ## See also
 
 [GET agedAccountsPayable](../api/dynamics_agedAccountsPayable_Get.md)
-[DELETE agedAccountsPayable](../api/dynamics_agedAccountsPayable_Delete.md)
-[POST agedAccountsPayable](../api/dynamics_agedAccountsPayable_Create.md)
-[PATCH agedAccountsPayable](../api/dynamics_agedAccountsPayable_Update.md)
 

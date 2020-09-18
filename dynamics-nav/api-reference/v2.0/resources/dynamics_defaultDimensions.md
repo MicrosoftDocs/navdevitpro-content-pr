@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -18,8 +18,7 @@ Represents an default dimensions in [!INCLUDE[d365fin_long_md](../../includes/d3
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET defaultDimensions](../api/dynamics_defaultDimensions_Get.md)|defaultDimensions|Gets a default dimensions object.|
 |[DELETE defaultDimensions](../api/dynamics_defaultDimensions_Delete.md)|defaultDimensions|Deletes a default dimensions object.|

@@ -1,9 +1,7 @@
 ---
 title: Update journalLines | Microsoft Docs
 description: Updates a journal line in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -47,7 +45,7 @@ PATCH https://{businesscentralPrefix}/api/v2.0/companies({id})/journals({id})/jo
 Content-type: application/json
 
 {
-  "amount": 2000
+  "amount": 0
 }
 ```
 
@@ -58,18 +56,20 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "journalDisplayName": "DEFAULT",
-  "lineNumber": 10000,
-  "accountId": "",
-  "accountNumber": "",
-  "postingDate": "2015-12-31",
-  "documentNumber": "D00001",
-  "externalDocumentNumber": "",
-  "amount": 2000,
-  "description": "",
-  "comment": "",
-  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
+    "id": "0a077d18-45e3-ea11-bb43-000d3a2feca1",
+    "journalId": "dd1b6a90-44e3-ea11-bb43-000d3a2feca1",
+    "journalDisplayName": "DEFAULT",
+    "lineNumber": 10000,
+    "accountType": "G/L Account",
+    "accountId": "00000000-0000-0000-0000-000000000000",
+    "accountNumber": "",
+    "postingDate": "2018-12-31",
+    "documentNumber": "",
+    "externalDocumentNumber": "",
+    "amount": 0,
+    "description": "",
+    "comment": "",
+    "lastModifiedDateTime": "0001-01-01T00:00:00Z"
 }
 ```
 

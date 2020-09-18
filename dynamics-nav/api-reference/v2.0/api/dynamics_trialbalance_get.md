@@ -1,9 +1,7 @@
 ---
 title: Get trialBalance | Microsoft Docs
 description: Gets a trial balance object in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na

@@ -1,9 +1,7 @@
 ---
 title: Get dimensionValues | Microsoft Docs
 description: Gets a dimension value object in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -42,6 +40,7 @@ If successful, this method returns a ```200 OK``` response code and a **dimensio
 **Request**
 
 Here is an example of the request.
+
 ```json
 GET https://{businesscentralPrefix}/api/v2.0/companies({id})/dimensions({id})/dimensionValues({id})
 ```
@@ -55,17 +54,15 @@ Here is an example of the response.
 
 ```json
 {
-  "id": "id-value",
-  "code": "30",
-  "displayName": "Europe North (EU)",
-  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
+    "id": "50c99ea7-bde4-ea11-bbf2-00155df3a615",
+    "code": "PRIVATE",
+    "dimensionId": "4fc99ea7-bde4-ea11-bbf2-00155df3a615",
+    "displayName": "Private",
+    "lastModifiedDateTime": "2020-08-22T21:23:11.437Z"
 }
 ```
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-
-
 [Error Codes](../dynamics_error_codes.md)  
 [Dimension Value](../resources/dynamics_dimensionvalue.md)  

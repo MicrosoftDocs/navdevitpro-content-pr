@@ -1,15 +1,13 @@
 ---
 title: Get balanceSheet | Microsoft Docs
-description: Gets a balance sheet object in Dynamics 365 Business Central.
- 
+description: Gets a balance sheet object in Dynamics 365 Business Central. 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -52,19 +50,19 @@ Here is an example of the response.
 
 ```json
 {
-  "lineNumber": 10000,
-  "display": "Assets",
-  "balance": 11860.69,
-  "lineType": "header",
-  "indentation": 0,
-  "dateFilter": "2020-12-30"
+    "id": "a0fbf171-44e3-ea11-bb43-000d3a2feca1",
+    "lineNumber": 10000,
+    "display": "Assets",
+    "balance": 0,
+    "lineType": "header",
+    "indentation": 0,
+    "dateFilter": "2020-08-21"
 }
 ```
 
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
- 
 [Balance Sheet](../resources/dynamics_balancesheet.md)  
 [Get Cash Flow Statement](dynamics_cashflowstatement_get.md)  
 [Get Account](dynamics_account_get.md)  

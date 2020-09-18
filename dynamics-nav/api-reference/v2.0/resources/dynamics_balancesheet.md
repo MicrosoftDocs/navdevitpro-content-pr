@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -18,13 +18,9 @@ Represents an balance sheet in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET balanceSheet](../api/dynamics_balanceSheet_Get.md)|balanceSheet|Gets a balance sheet object.|
-|[DELETE balanceSheet](../api/dynamics_balanceSheet_Delete.md)|balanceSheet|Deletes a balance sheet object.|
-|[POST balanceSheet](../api/dynamics_balanceSheet_Create.md)|balanceSheet|Creates a balance sheet object.|
-|[PATCH balanceSheet](../api/dynamics_balanceSheet_Update.md)|balanceSheet|Updates a balance sheet object.|
 
 
 
@@ -63,7 +59,4 @@ Here is a JSON representation of the balanceSheet resource.
 ## See also
 
 [GET balanceSheet](../api/dynamics_balanceSheet_Get.md)
-[DELETE balanceSheet](../api/dynamics_balanceSheet_Delete.md)
-[POST balanceSheet](../api/dynamics_balanceSheet_Create.md)
-[PATCH balanceSheet](../api/dynamics_balanceSheet_Update.md)
 

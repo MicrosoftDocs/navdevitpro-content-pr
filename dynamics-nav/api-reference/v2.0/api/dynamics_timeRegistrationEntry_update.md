@@ -1,9 +1,7 @@
 ---
 title: Patch timeRegistrationEntries| Microsoft Docs
 description: Patch a timeRegistrationEntries in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -58,22 +56,20 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-    "id": "967b7868-5e15-4adc-9698-cd88e509395b",
-    "employeeId": "dd6ce54a-d14f-40dc-a10d-1d4d18758c76",
-    "employeeNumber": "RL",
+    "id": "1a8b1fec-c0e3-ea11-aa60-000d3ad7cacb",
+    "employeeId": "258bb9c0-44e3-ea11-bb43-000d3a2feca1",
+    "employeeNumber": "AH",
+    "jobId": "00000000-0000-0000-0000-000000000000",
+    "jobNumber": "",
+    "jobTaskNumber": "",
+    "absence": "",
     "lineNumber": 10000,
-    "date": "2019-01-02",
+    "date": "2019-02-02",
     "quantity": 8,
     "status": "Open",
-    "unitOfMeasureId": "a7ec16cb-014f-446a-a084-bc31d5d7e742",
-    "lastModfiedDateTime": "2019-03-25T14:26:55.027Z",
-    "unitOfMeasure": {
-        "code": "HOUR",
-        "displayName": "Hour",
-        "symbol": null,
-        "unitConversion": null
-    }
-}
+    "unitOfMeasureId": "56a6738a-44e3-ea11-bb43-000d3a2feca1",
+    "unitOfMeasureCode": "HOUR",
+    "lastModfiedDateTime": "2020-08-21T15:13:58.87Z"
 ```
 
 ## See also

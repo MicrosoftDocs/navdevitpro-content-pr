@@ -20,6 +20,7 @@ Delete a sales quote line object from [!INCLUDE[d365fin_long_md](../../includes/
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
 DELETE businesscentralPrefix/companies({id})/salesQuotes({id})/salesQuoteLines({salesQuoteLineId})
+DELETE businesscentralPrefix/companies({id})/salesQuoteLines({salesQouteLineId})
 ```
 
 ## Request headers

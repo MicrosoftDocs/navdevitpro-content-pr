@@ -1,9 +1,7 @@
 ---
 title: Update taxAreas | Microsoft Docs
 description: Updates a tax areas object in Dynamics 365 Business Central. 
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -47,7 +45,7 @@ PATCH https://{businesscentralPrefix}/api/v2.0/companies({id})/taxAreas({id})
 Content-type: application/json
 
 {
-  "code": "28012001T",
+  "code": "ATLANTA, GA",
   "displayName": "tax area",
 }
 ```
@@ -64,10 +62,11 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "code": "28012001T",
-  "displayName": "tax area",
-  "lastModifiedDateTime": "2017-05-17T11:30:01.313Z"
+    "id": "90196a90-44e3-ea11-bb43-000d3a2feca1",
+    "code": "ATLANTA, GA",
+    "displayName": "ATLANTA, GA",
+    "taxType": "tax area",
+    "lastModifiedDateTime": "2020-08-21T00:24:25.847Z"
 }
 ```
 

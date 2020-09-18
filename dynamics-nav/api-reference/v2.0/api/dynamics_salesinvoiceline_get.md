@@ -1,9 +1,7 @@
 ---
 title: Get salesInvoiceLines | Microsoft Docs
 description: Gets a sales invoice line object in Dynamics 365 Business Central.
- 
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
@@ -23,6 +21,7 @@ Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_lon
 
 ```
 GET businesscentralPrefix/companies({id})/salesInvoices({id})/salesInvoiceLines({salesInvoiceLineId})
+GET businesscentralPrefix/companies({id})/salesInvoiceLines({salesInvoiceLineId})
 ```
 
 
@@ -57,40 +56,32 @@ Here is an example of the response.
 
 ```json
 {
-  "id": "id-value",
-  "documentId": "id-value",
-  "sequence": 10000,
-  "itemId": "id-value",
-  "accountId": "id-value",
-  "lineType": "Item",
-  "lineDetails": {
-    "number": "GL000009",
-    "displayName": "GL000009",
-    "description": null
-  },
-  "description": "someText",
-  "unitOfMeasureId": "id-value",
-  "unitOfMeasure": {
-    "code": "BOX",
-    "displayName": "Box",
-    "symbol": null,
-    "unitConversion": null
-  },
-  "unitPrice": 71.1,
-  "quantity": 96,
-  "discountAmount": 0,
-  "discountPercent": 0,
-  "discountAppliedBeforeTax": false,
-  "amountExcludingTax": 6825.6,
-  "taxCode": "VAT10",
-  "taxPercent": 10,
-  "totalTaxAmount": 682.56,
-  "amountIncludingTax": 7508.16,
-  "invoiceDiscountAllocation": 0,
-  "netAmount": 6825.6,
-  "netTaxAmount": 682.56,
-  "netAmountIncludingTax": 7508.16,
-  "shipmentDate": "2015-02-24"
+    "id": "238cb9c0-44e3-ea11-bb43-000d3a2feca1",
+    "documentId": "9e0f5c9c-44e3-ea11-bb43-000d3a2feca1",
+    "sequence": 10000,
+    "itemId": "02a6738a-44e3-ea11-bb43-000d3a2feca1",
+    "accountId": "00000000-0000-0000-0000-000000000000",
+    "lineType": "Item",
+    "lineObjectNumber": "1928-S",
+    "description": "AMSTERDAM Lamp",
+    "unitOfMeasureId": "5ca6738a-44e3-ea11-bb43-000d3a2feca1",
+    "unitOfMeasureCode": "PCS",
+    "unitPrice": 54.9,
+    "quantity": 3,
+    "discountAmount": 0,
+    "discountPercent": 0,
+    "discountAppliedBeforeTax": false,
+    "amountExcludingTax": 164.7,
+    "taxCode": "FURNITURE",
+    "taxPercent": 5,
+    "totalTaxAmount": 8.24,
+    "amountIncludingTax": 172.94,
+    "invoiceDiscountAllocation": 0,
+    "netAmount": 164.7,
+    "netTaxAmount": 8.24,
+    "netAmountIncludingTax": 172.94,
+    "shipmentDate": "2020-08-21",
+    "itemVariantId": "00000000-0000-0000-0000-000000000000"
 }
 ```
 

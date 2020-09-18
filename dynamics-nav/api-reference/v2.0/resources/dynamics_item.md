@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -18,10 +18,10 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET item](../api/dynamics_item_Get.md)|item|Gets a item object.|
+|[CHANGE item](../api/dynamics_item_Change.md)|item|Changes a item object.|
 |[DELETE item](../api/dynamics_item_Delete.md)|item|Deletes a item object.|
 |[POST item](../api/dynamics_item_Create.md)|item|Creates a item object.|
 |[PATCH item](../api/dynamics_item_Update.md)|item|Updates a item object.|
@@ -92,6 +92,7 @@ Here is a JSON representation of the item resource.
 ## See also
 
 [GET item](../api/dynamics_item_Get.md)
+[CHANGE item](../api/dynamics_item_Change.md)
 [DELETE item](../api/dynamics_item_Delete.md)
 [POST item](../api/dynamics_item_Create.md)
 [PATCH item](../api/dynamics_item_Update.md)

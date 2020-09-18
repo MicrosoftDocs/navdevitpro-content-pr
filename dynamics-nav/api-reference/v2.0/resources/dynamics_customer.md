@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -18,10 +18,10 @@ Represents an customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET customer](../api/dynamics_customer_Get.md)|customer|Gets a customer object.|
+|[CHANGE customer](../api/dynamics_customer_Change.md)|customer|Changes a customer object.|
 |[DELETE customer](../api/dynamics_customer_Delete.md)|customer|Deletes a customer object.|
 |[POST customer](../api/dynamics_customer_Create.md)|customer|Creates a customer object.|
 |[PATCH customer](../api/dynamics_customer_Update.md)|customer|Updates a customer object.|
@@ -110,6 +110,7 @@ Here is a JSON representation of the customer resource.
 ## See also
 
 [GET customer](../api/dynamics_customer_Get.md)
+[CHANGE customer](../api/dynamics_customer_Change.md)
 [DELETE customer](../api/dynamics_customer_Delete.md)
 [POST customer](../api/dynamics_customer_Create.md)
 [PATCH customer](../api/dynamics_customer_Update.md)

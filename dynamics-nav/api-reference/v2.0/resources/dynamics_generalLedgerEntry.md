@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 ms.author: solsen
 ---
 
@@ -18,13 +18,9 @@ Represents an general ledger entry in [!INCLUDE[d365fin_long_md](../../includes/
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
-
-| Method              | Return Type|Description               |
+| Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET generalLedgerEntry](../api/dynamics_generalLedgerEntry_Get.md)|generalLedgerEntry|Gets a general ledger entry object.|
-|[DELETE generalLedgerEntry](../api/dynamics_generalLedgerEntry_Delete.md)|generalLedgerEntry|Deletes a general ledger entry object.|
-|[POST generalLedgerEntry](../api/dynamics_generalLedgerEntry_Create.md)|generalLedgerEntry|Creates a general ledger entry object.|
-|[PATCH generalLedgerEntry](../api/dynamics_generalLedgerEntry_Update.md)|generalLedgerEntry|Updates a general ledger entry object.|
 
 
 
@@ -78,7 +74,4 @@ Here is a JSON representation of the generalLedgerEntry resource.
 ## See also
 
 [GET generalLedgerEntry](../api/dynamics_generalLedgerEntry_Get.md)
-[DELETE generalLedgerEntry](../api/dynamics_generalLedgerEntry_Delete.md)
-[POST generalLedgerEntry](../api/dynamics_generalLedgerEntry_Create.md)
-[PATCH generalLedgerEntry](../api/dynamics_generalLedgerEntry_Update.md)
 
