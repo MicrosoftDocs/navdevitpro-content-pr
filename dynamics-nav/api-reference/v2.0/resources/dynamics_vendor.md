@@ -7,12 +7,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/17/2020
+ms.date: 09/22/2020
 ms.author: solsen
 ---
 
 # vendor resource type
-Represents an vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -21,7 +21,6 @@ Represents an vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET vendor](../api/dynamics_vendor_Get.md)|vendor|Gets a vendor object.|
-|[CHANGE vendor](../api/dynamics_vendor_Change.md)|vendor|Changes a vendor object.|
 |[DELETE vendor](../api/dynamics_vendor_Delete.md)|vendor|Deletes a vendor object.|
 |[POST vendor](../api/dynamics_vendor_Create.md)|vendor|Creates a vendor object.|
 |[PATCH vendor](../api/dynamics_vendor_Update.md)|vendor|Updates a vendor object.|
@@ -65,7 +64,7 @@ Represents an vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |paymentTermsId|GUID|Specifies which payment term the vendor uses.|
 |paymentMethodId|GUID|Specifies which payment method the vendor uses.|
 |taxLiable|boolean|Specifies if the vendor or vendor is liable for sales tax. Set to **true** if the vendor is tax liable.|
-|blocked|string|Specifies that transactions with the vendor cannot be posted. Set to **All**, if the vendor is blocked, set to blank if not blocked.|
+|blocked|[NAV.vendorBlocked](../resources/dynamics_complextypes.md)|Specifies which transactions with the customer cannot be posted. It can be <Member Name=" ", "Payment" or "All".|
 |balance|decimal|Specifies vendor's total balance.|
 |lastModifiedDateTime|datetime|The last datetime the vendor was modified. Read-Only.|
 
@@ -96,7 +95,7 @@ Here is a JSON representation of the vendor resource.
    "paymentTermsId": "GUID",
    "paymentMethodId": "GUID",
    "taxLiable": "boolean",
-   "blocked": "string",
+   "blocked": "NAV.vendorBlocked",
    "balance": "decimal",
    "lastModifiedDateTime": "datetime"
 }
@@ -104,7 +103,6 @@ Here is a JSON representation of the vendor resource.
 ## See also
 
 [GET vendor](../api/dynamics_vendor_Get.md)
-[CHANGE vendor](../api/dynamics_vendor_Change.md)
 [DELETE vendor](../api/dynamics_vendor_Delete.md)
 [POST vendor](../api/dynamics_vendor_Create.md)
 [PATCH vendor](../api/dynamics_vendor_Update.md)

@@ -7,12 +7,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/17/2020
+ms.date: 09/22/2020
 ms.author: solsen
 ---
 
 # pdfDocument resource type
-Represents an pdf document in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a pdf document in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -32,7 +32,9 @@ Represents an pdf document in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
 |id|GUID|The unique ID of the item. Non-editable.|
-|content|stream|The pdf document's content.|
+|parentId|GUID|The ID of the parent entity. |
+|parentType|[NAV.attachmentEntityBufferDocumentType](../resources/dynamics_complextypes.md)|The type of the parent document of the pdf document. It can be " ", "Journal", "Sales Order", "Sales Quote", "Sales Credit Memo", "Sales Invoice" or "Purchase Invoice".|
+|pdfDocumentContent|stream|The content of the PDF document.|
 
 
 ## JSON representation
@@ -43,7 +45,9 @@ Here is a JSON representation of the pdfDocument resource.
 ```json
 {
    "id": "GUID",
-   "content": "stream"
+   "parentId": "GUID",
+   "parentType": "NAV.attachmentEntityBufferDocumentType",
+   "pdfDocumentContent": "stream"
 }
 ```
 ## See also

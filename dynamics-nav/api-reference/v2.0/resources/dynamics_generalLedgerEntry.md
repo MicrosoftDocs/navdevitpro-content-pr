@@ -7,12 +7,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/17/2020
+ms.date: 09/22/2020
 ms.author: solsen
 ---
 
 # generalLedgerEntry resource type
-Represents an general ledger entry in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a general ledger entry in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -42,7 +42,7 @@ Represents an general ledger entry in [!INCLUDE[d365fin_long_md](../../includes/
 |entryNumber|integer|G/L Entry number.|
 |postingDate|date|The date that the general ledger entry   is posted.|
 |documentNumber|string|Specifies a document number for the general ledger entry.|
-|documentType|string|Specifies the document type of the general ledger entry.|
+|documentType|[NAV.genJournalDocumentType](../resources/dynamics_complextypes.md)|Specifies the document type of the general ledger entry. It can be " ", "Payment", "Invoice", "Credit Memo", "Finance Charge Memo", "Reminder" or "Refund".|
 |accountId|GUID|The id of the account that the general ledger entry is related to. |
 |accountNumber|string|The number of the account that the general ledger entry is related to. |
 |description|string|Specifies the description of the general ledger entry.|
@@ -62,7 +62,7 @@ Here is a JSON representation of the generalLedgerEntry resource.
    "entryNumber": "integer",
    "postingDate": "date",
    "documentNumber": "string",
-   "documentType": "string",
+   "documentType": "NAV.genJournalDocumentType",
    "accountId": "GUID",
    "accountNumber": "string",
    "description": "string",

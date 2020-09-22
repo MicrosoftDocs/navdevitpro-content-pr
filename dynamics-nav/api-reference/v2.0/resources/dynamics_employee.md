@@ -1,13 +1,13 @@
 ---
 title: employee resource type | Microsoft Docs
-description: A employee object in Dynamics 365 Business Central.
+description: An employee object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-businesscentral
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/17/2020
+ms.date: 09/22/2020
 ms.author: solsen
 ---
 

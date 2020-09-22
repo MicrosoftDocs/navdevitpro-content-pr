@@ -7,12 +7,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/17/2020
+ms.date: 09/22/2020
 ms.author: solsen
 ---
 
 # customer resource type
-Represents an customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -21,7 +21,6 @@ Represents an customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET customer](../api/dynamics_customer_Get.md)|customer|Gets a customer object.|
-|[CHANGE customer](../api/dynamics_customer_Change.md)|customer|Changes a customer object.|
 |[DELETE customer](../api/dynamics_customer_Delete.md)|customer|Deletes a customer object.|
 |[POST customer](../api/dynamics_customer_Create.md)|customer|Creates a customer object.|
 |[PATCH customer](../api/dynamics_customer_Update.md)|customer|Updates a customer object.|
@@ -38,7 +37,7 @@ Represents an customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 |[paymentTerm](../resources/dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the customer.|
 |[shipmentMethod](../resources/dynamics_shipmentmethod.md)|shipmentMethod |Gets the shipmentmethod of the customer.|
 |[paymentMethod](../resources/dynamics_paymentmethod.md)|paymentMethod |Gets the paymentmethod of the customer.|
-|[customerFinancialDetails](../resources/dynamics_customerfinancialdetails.md)|customerFinancialDetails |Gets the customerfinancialdetails of the customer.|
+|[customerFinancialDetail](../resources/dynamics_customerfinancialdetail.md)|customerFinancialDetail |Gets the customerfinancialdetail of the customer.|
 |[picture](../resources/dynamics_picture.md)|picture |Gets the picture of the customer.|
 |[defaultDimensions](../resources/dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the customer.|
 |[agedAccountsReceivable](../resources/dynamics_agedaccountsreceivable.md)|agedAccountsReceivable |Gets the agedaccountsreceivable of the customer.|
@@ -70,7 +69,7 @@ Represents an customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 |paymentTermsId|GUID|Specifies which payment term the customer uses.|
 |shipmentMethodId|GUID|Specifies which shipment method the customer uses.|
 |paymentMethodId|GUID|Specifies which payment method the customer uses.|
-|blocked|string|Specifies that transactions with the customer cannot be posted. Set to **All**, if the customer is blocked, set to blank if not blocked.|
+|blocked|[NAV.customerBlocked](../resources/dynamics_complextypes.md)|Specifies which transactions with the customer cannot be posted. It can be " ", "Ship", "Invoice" or "All".|
 |lastModifiedDateTime|datetime|The last datetime the customer was modified. Read-Only.|
 
 
@@ -103,14 +102,13 @@ Here is a JSON representation of the customer resource.
    "paymentTermsId": "GUID",
    "shipmentMethodId": "GUID",
    "paymentMethodId": "GUID",
-   "blocked": "string",
+   "blocked": "NAV.customerBlocked",
    "lastModifiedDateTime": "datetime"
 }
 ```
 ## See also
 
 [GET customer](../api/dynamics_customer_Get.md)
-[CHANGE customer](../api/dynamics_customer_Change.md)
 [DELETE customer](../api/dynamics_customer_Delete.md)
 [POST customer](../api/dynamics_customer_Create.md)
 [PATCH customer](../api/dynamics_customer_Update.md)

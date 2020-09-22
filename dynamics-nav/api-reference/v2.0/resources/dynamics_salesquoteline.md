@@ -7,12 +7,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/17/2020
+ms.date: 09/22/2020
 ms.author: solsen
 ---
 
 # salesQuoteLine resource type
-Represents an sales quote line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a sales quote line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -49,7 +49,7 @@ Represents an sales quote line in [!INCLUDE[d365fin_long_md](../../includes/d365
 |sequence|integer|The line sequence number.|
 |itemId|GUID|The ID of the item in the sales quote line.|
 |accountId|GUID|The id of the account that the sales quote line is related to. |
-|lineType|[NAV.invoiceLineAggLineType](../resources/dynamics_complextypes.md)|The type of thesales quote line. It can be "Comment", "Account", "Item", "Resource" Value=", "Fixed Asset" or "Charge".|
+|lineType|[NAV.invoiceLineAggLineType](../resources/dynamics_complextypes.md)|The type of thesales quote line. It can be "Comment", "Account", "Item", "Resource" Value", "Fixed Asset" or "Charge".|
 |lineObjectNumber|string|The number of the object (account or item) of the sales quote line.|
 |description|string|Specifies the description of the sales quote line.|
 |unitOfMeasureId|GUID|The ID of unit of measure for the sales quote line.|

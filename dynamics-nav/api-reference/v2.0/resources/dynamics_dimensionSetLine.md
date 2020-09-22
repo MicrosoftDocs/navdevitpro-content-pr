@@ -7,12 +7,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/17/2020
+ms.date: 09/22/2020
 ms.author: solsen
 ---
 
 # dimensionSetLine resource type
-Represents an dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -35,6 +35,7 @@ Represents an dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d3
 |[salesInvoice](../resources/dynamics_salesinvoice.md)|salesInvoice |Gets the salesinvoice of the dimensionSetLine.|
 |[salesInvoiceLine](../resources/dynamics_salesinvoiceline.md)|salesInvoiceLine |Gets the salesinvoiceline of the dimensionSetLine.|
 |[dimension](../resources/dynamics_dimension.md)|dimension |Gets the dimension of the dimensionSetLine.|
+|[customerPayment](../resources/dynamics_customerpayment.md)|customerPayment |Gets the customerpayment of the dimensionSetLine.|
 |[journalLine](../resources/dynamics_journalline.md)|journalLine |Gets the journalline of the dimensionSetLine.|
 |[timeRegistrationEntry](../resources/dynamics_timeregistrationentry.md)|timeRegistrationEntry |Gets the timeregistrationentry of the dimensionSetLine.|
 |[generalLedgerEntry](../resources/dynamics_generalledgerentry.md)|generalLedgerEntry |Gets the generalledgerentry of the dimensionSetLine.|
@@ -55,7 +56,7 @@ Represents an dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d3
 |id|GUID|The unique ID of the item. Non-editable.|
 |code|string|The code of the dimension set line.|
 |parentId|GUID|The ID of the parent entity. |
-|parentType|string|The type of the parent document of the dimension set line.|
+|parentType|[NAV.dimensionSetEntryBufferParentType](../resources/dynamics_complextypes.md)|The type of the parent document of the dimension set line. It can be " ", "Journal Line", "Sales Order", "Sales Order Line", "Sales Quote", "Sales Quote Line", "Sales Credit Memo", "Sales Credit Memo Line", "Sales Invoice", "Sales Invoice Line", "Purchase Invoice", "Purchase Invoice Line", "General Ledger Entry" or "Time Registration Entry".|
 |displayName|string|Specifies the dimension set line's name. This name will appear on all sales documents for the dimension set line.|
 |valueId|GUID|The unique ID of the value of the dimension.  |
 |valueCode|string|The code of the value of the dimension.  |
@@ -72,7 +73,7 @@ Here is a JSON representation of the dimensionSetLine resource.
    "id": "GUID",
    "code": "string",
    "parentId": "GUID",
-   "parentType": "string",
+   "parentType": "NAV.dimensionSetEntryBufferParentType",
    "displayName": "string",
    "valueId": "GUID",
    "valueCode": "string",

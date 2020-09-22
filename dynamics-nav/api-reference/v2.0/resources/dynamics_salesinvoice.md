@@ -7,12 +7,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/17/2020
+ms.date: 09/22/2020
 ms.author: solsen
 ---
 
 # salesInvoice resource type
-Represents an sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -21,19 +21,12 @@ Represents an sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesInvoice](../api/dynamics_salesInvoice_Get.md)|salesInvoice|Gets a sales invoice object.|
-|[CHANGE salesInvoice](../api/dynamics_salesInvoice_Change.md)|salesInvoice|Changes a sales invoice object.|
 |[DELETE salesInvoice](../api/dynamics_salesInvoice_Delete.md)|salesInvoice|Deletes a sales invoice object.|
 |[POST salesInvoice](../api/dynamics_salesInvoice_Create.md)|salesInvoice|Creates a sales invoice object.|
 |[PATCH salesInvoice](../api/dynamics_salesInvoice_Update.md)|salesInvoice|Updates a sales invoice object.|
 
 
-## Bound Actions
-cancelAndSend
-cancel
-makeCorrectiveCreditMemo
-postAndSend
-post
-send
+
 
 ## Navigation
 
@@ -101,7 +94,7 @@ send
 |totalAmountExcludingTax|decimal|The total amount excluding tax. Read-Only.  |
 |totalTaxAmount|decimal|The total tax amount for the sales invoice. Read-Only.|
 |totalAmountIncludingTax|decimal|The total amount including tax. Read-Only.  |
-|status|string|Specifies the status of the sales invoice.|
+|status|[NAV.invoiceEntityAggregateStatus](../resources/dynamics_complextypes.md)|The status of the sales invoice. It can be " ", "Draft", "In Review", "Open", "Paid", "Canceled" or "Corrective".|
 |lastModifiedDateTime|datetime|The last datetime the sales invoice was modified. Read-Only.|
 |phoneNumber|string|Specifies the sales invoice's telephone number.|
 |email|string|Specifies the sales invoice's email address.|
@@ -161,7 +154,7 @@ Here is a JSON representation of the salesInvoice resource.
    "totalAmountExcludingTax": "decimal",
    "totalTaxAmount": "decimal",
    "totalAmountIncludingTax": "decimal",
-   "status": "string",
+   "status": "NAV.invoiceEntityAggregateStatus",
    "lastModifiedDateTime": "datetime",
    "phoneNumber": "string",
    "email": "string"
@@ -170,7 +163,6 @@ Here is a JSON representation of the salesInvoice resource.
 ## See also
 
 [GET salesInvoice](../api/dynamics_salesInvoice_Get.md)
-[CHANGE salesInvoice](../api/dynamics_salesInvoice_Change.md)
 [DELETE salesInvoice](../api/dynamics_salesInvoice_Delete.md)
 [POST salesInvoice](../api/dynamics_salesInvoice_Create.md)
 [PATCH salesInvoice](../api/dynamics_salesInvoice_Update.md)

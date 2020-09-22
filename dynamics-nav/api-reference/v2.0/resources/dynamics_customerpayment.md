@@ -7,12 +7,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/17/2020
+ms.date: 09/22/2020
 ms.author: solsen
 ---
 
 # customerPayment resource type
-Represents an customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -32,7 +32,9 @@ Represents an customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
+|[customerPaymentJournal](../resources/dynamics_customerpaymentjournal.md)|customerPaymentJournal |Gets the customerpaymentjournal of the customerPayment.|
 |[customer](../resources/dynamics_customer.md)|customer |Gets the customer of the customerPayment.|
+|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the customerPayment.|
 
 
 ## Properties
@@ -40,11 +42,11 @@ Represents an customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
 |id|GUID|The unique ID of the item. Non-editable.|
+|journalId|GUID|The ID of the journal.|
 |journalDisplayName|string|The display name of the journal that this line belongs to. Read-Only.|
 |lineNumber|integer|The customer payment item line number.|
 |customerId|GUID|The unique ID of customer.  |
 |customerNumber|string|The customer's number.|
-|contactId|string|he exchange contact id for the given customer. If a customer id is not specified, we will use the contact id to find it.|
 |postingDate|date|The date that the customer payment   is posted.|
 |documentNumber|string|Specifies a document number for the customer payment.|
 |externalDocumentNumber|string|Specifies an external document number for the customer payment.|
@@ -53,7 +55,6 @@ Represents an customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365
 |appliesToInvoiceNumber|string|The number of the invoice that the customer payment is related to.|
 |description|string|Specifies the description of the customer payment.|
 |comment|string|A user specified comment on the customer payment.|
-|dimensions|[NAV.dimensionType](../resources/dynamics_complextypes.md)|Dimensions of the customer payment.|
 |lastModifiedDateTime|datetime|The last datetime the customer payment was modified. Read-Only.|
 
 
@@ -65,11 +66,11 @@ Here is a JSON representation of the customerPayment resource.
 ```json
 {
    "id": "GUID",
+   "journalId": "GUID",
    "journalDisplayName": "string",
    "lineNumber": "integer",
    "customerId": "GUID",
    "customerNumber": "string",
-   "contactId": "string",
    "postingDate": "date",
    "documentNumber": "string",
    "externalDocumentNumber": "string",
@@ -78,7 +79,6 @@ Here is a JSON representation of the customerPayment resource.
    "appliesToInvoiceNumber": "string",
    "description": "string",
    "comment": "string",
-   "dimensions": "NAV.dimensionType",
    "lastModifiedDateTime": "datetime"
 }
 ```

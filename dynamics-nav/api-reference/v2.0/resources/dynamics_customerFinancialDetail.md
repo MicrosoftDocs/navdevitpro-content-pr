@@ -7,12 +7,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/17/2020
+ms.date: 09/22/2020
 ms.author: solsen
 ---
 
 # customerFinancialDetail resource type
-Represents an customer financial detail in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a customer financial detail in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -25,11 +25,6 @@ Represents an customer financial detail in [!INCLUDE[d365fin_long_md](../../incl
 
 
 
-## Navigation
-
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
-|[customer](../resources/dynamics_customer.md)|customer |Gets the customer of the customerFinancialDetail.|
 
 
 ## Properties

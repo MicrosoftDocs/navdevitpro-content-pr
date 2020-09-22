@@ -7,12 +7,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/17/2020
+ms.date: 09/22/2020
 ms.author: solsen
 ---
 
 # timeRegistrationEntry resource type
-Represents an time registration entry in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a time registration entry in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -47,6 +47,7 @@ Represents an time registration entry in [!INCLUDE[d365fin_long_md](../../includ
 |employeeNumber|string|The employee's number.|
 |jobId|GUID|The ID of the time registration entry job.|
 |jobNumber|string|The number of the time registration entry job.|
+|jobTaskNumber|string|The number of the job task.|
 |absence|string|The cause of absence code.|
 |lineNumber|integer|The time registration entry item line number.|
 |date|date|The date of the time registration entry.|
@@ -69,6 +70,7 @@ Here is a JSON representation of the timeRegistrationEntry resource.
    "employeeNumber": "string",
    "jobId": "GUID",
    "jobNumber": "string",
+   "jobTaskNumber": "string",
    "absence": "string",
    "lineNumber": "integer",
    "date": "date",

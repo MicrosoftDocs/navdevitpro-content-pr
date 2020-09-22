@@ -7,12 +7,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/17/2020
+ms.date: 09/22/2020
 ms.author: solsen
 ---
 
 # company resource type
-Represents an company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
+Represents a company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
@@ -30,14 +30,15 @@ Represents an company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
 |[items](../resources/dynamics_items.md)|items |Gets the items of the company.|
-|[picture](../resources/dynamics_picture.md)|picture |Gets the picture of the company.|
+|[unitsOfMeasure](../resources/dynamics_unitsofmeasure.md)|unitsOfMeasure |Gets the unitsofmeasure of the company.|
+|[pictures](../resources/dynamics_pictures.md)|pictures |Gets the pictures of the company.|
 |[defaultDimensions](../resources/dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the company.|
 |[itemVariants](../resources/dynamics_itemvariants.md)|itemVariants |Gets the itemvariants of the company.|
 |[customers](../resources/dynamics_customers.md)|customers |Gets the customers of the company.|
 |[customerFinancialDetails](../resources/dynamics_customerfinancialdetails.md)|customerFinancialDetails |Gets the customerfinancialdetails of the company.|
-|[agedAccountsReceivable](../resources/dynamics_agedaccountsreceivable.md)|agedAccountsReceivable |Gets the agedaccountsreceivable of the company.|
+|[agedAccountsReceivables](../resources/dynamics_agedaccountsreceivables.md)|agedAccountsReceivables |Gets the agedaccountsreceivables of the company.|
 |[vendors](../resources/dynamics_vendors.md)|vendors |Gets the vendors of the company.|
-|[agedAccountsPayable](../resources/dynamics_agedaccountspayable.md)|agedAccountsPayable |Gets the agedaccountspayable of the company.|
+|[agedAccountsPayables](../resources/dynamics_agedaccountspayables.md)|agedAccountsPayables |Gets the agedaccountspayables of the company.|
 |[companyInformation](../resources/dynamics_companyinformation.md)|companyInformation |Gets the companyinformation of the company.|
 |[salesInvoices](../resources/dynamics_salesinvoices.md)|salesInvoices |Gets the salesinvoices of the company.|
 |[salesInvoiceLines](../resources/dynamics_salesinvoicelines.md)|salesInvoiceLines |Gets the salesinvoicelines of the company.|
@@ -60,15 +61,14 @@ Represents an company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 |[paymentTerms](../resources/dynamics_paymentterms.md)|paymentTerms |Gets the paymentterms of the company.|
 |[shipmentMethods](../resources/dynamics_shipmentmethods.md)|shipmentMethods |Gets the shipmentmethods of the company.|
 |[itemCategories](../resources/dynamics_itemcategories.md)|itemCategories |Gets the itemcategories of the company.|
-|[cashFlowStatement](../resources/dynamics_cashflowstatement.md)|cashFlowStatement |Gets the cashflowstatement of the company.|
+|[cashFlowStatements](../resources/dynamics_cashflowstatements.md)|cashFlowStatements |Gets the cashflowstatements of the company.|
 |[countriesRegions](../resources/dynamics_countriesregions.md)|countriesRegions |Gets the countriesregions of the company.|
 |[salesOrders](../resources/dynamics_salesorders.md)|salesOrders |Gets the salesorders of the company.|
 |[salesOrderLines](../resources/dynamics_salesorderlines.md)|salesOrderLines |Gets the salesorderlines of the company.|
-|[retainedEarningsStatement](../resources/dynamics_retainedearningsstatement.md)|retainedEarningsStatement |Gets the retainedearningsstatement of the company.|
-|[unitsOfMeasure](../resources/dynamics_unitsofmeasure.md)|unitsOfMeasure |Gets the unitsofmeasure of the company.|
-|[balanceSheet](../resources/dynamics_balancesheet.md)|balanceSheet |Gets the balancesheet of the company.|
-|[trialBalance](../resources/dynamics_trialbalance.md)|trialBalance |Gets the trialbalance of the company.|
-|[incomeStatement](../resources/dynamics_incomestatement.md)|incomeStatement |Gets the incomestatement of the company.|
+|[retainedEarningsStatements](../resources/dynamics_retainedearningsstatements.md)|retainedEarningsStatements |Gets the retainedearningsstatements of the company.|
+|[balanceSheets](../resources/dynamics_balancesheets.md)|balanceSheets |Gets the balancesheets of the company.|
+|[trialBalances](../resources/dynamics_trialbalances.md)|trialBalances |Gets the trialbalances of the company.|
+|[incomeStatements](../resources/dynamics_incomestatements.md)|incomeStatements |Gets the incomestatements of the company.|
 |[taxAreas](../resources/dynamics_taxareas.md)|taxAreas |Gets the taxareas of the company.|
 |[salesQuotes](../resources/dynamics_salesquotes.md)|salesQuotes |Gets the salesquotes of the company.|
 |[salesQuoteLines](../resources/dynamics_salesquotelines.md)|salesQuoteLines |Gets the salesquotelines of the company.|
