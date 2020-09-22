@@ -21,7 +21,7 @@ Represents a bank account in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET bankAccount](../api/dynamics_bankAccount_Get.md)|bankAccount|Gets a bank account object.|
-|[DELETE bankAccount](../api/dynamics_bankAccount_Delete.md)|bankAccount|Deletes a bank account object.|
+|[DELETE bankAccount](../api/dynamics_bankAccount_Delete.md)|none|Deletes a bank account object.|
 |[POST bankAccount](../api/dynamics_bankAccount_Create.md)|bankAccount|Creates a bank account object.|
 |[PATCH bankAccount](../api/dynamics_bankAccount_Update.md)|bankAccount|Updates a bank account object.|
 

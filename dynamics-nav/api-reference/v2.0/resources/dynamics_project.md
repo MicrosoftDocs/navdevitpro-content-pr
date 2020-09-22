@@ -21,7 +21,7 @@ Represents a project in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET project](../api/dynamics_project_Get.md)|project|Gets a project object.|
-|[DELETE project](../api/dynamics_project_Delete.md)|project|Deletes a project object.|
+|[DELETE project](../api/dynamics_project_Delete.md)|none|Deletes a project object.|
 |[POST project](../api/dynamics_project_Create.md)|project|Creates a project object.|
 |[PATCH project](../api/dynamics_project_Update.md)|project|Updates a project object.|
 

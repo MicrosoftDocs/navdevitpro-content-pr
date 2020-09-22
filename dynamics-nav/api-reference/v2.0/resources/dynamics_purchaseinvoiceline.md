@@ -21,7 +21,7 @@ Represents a purchase invoice line in [!INCLUDE[d365fin_long_md](../../includes/
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Get.md)|purchaseInvoiceLine|Gets a purchase invoice line object.|
-|[DELETE purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Delete.md)|purchaseInvoiceLine|Deletes a purchase invoice line object.|
+|[DELETE purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Delete.md)|none|Deletes a purchase invoice line object.|
 |[POST purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Create.md)|purchaseInvoiceLine|Creates a purchase invoice line object.|
 |[PATCH purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Update.md)|purchaseInvoiceLine|Updates a purchase invoice line object.|
 

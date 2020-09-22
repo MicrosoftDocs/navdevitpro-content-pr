@@ -21,7 +21,7 @@ Represents a sales credit memo line in [!INCLUDE[d365fin_long_md](../../includes
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Get.md)|salesCreditMemoLine|Gets a sales credit memo line object.|
-|[DELETE salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Delete.md)|salesCreditMemoLine|Deletes a sales credit memo line object.|
+|[DELETE salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Delete.md)|none|Deletes a sales credit memo line object.|
 |[POST salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Create.md)|salesCreditMemoLine|Creates a sales credit memo line object.|
 |[PATCH salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Update.md)|salesCreditMemoLine|Updates a sales credit memo line object.|
 

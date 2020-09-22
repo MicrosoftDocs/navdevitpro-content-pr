@@ -21,7 +21,7 @@ Represents a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365f
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET purchaseInvoice](../api/dynamics_purchaseInvoice_Get.md)|purchaseInvoice|Gets a purchase invoice object.|
-|[DELETE purchaseInvoice](../api/dynamics_purchaseInvoice_Delete.md)|purchaseInvoice|Deletes a purchase invoice object.|
+|[DELETE purchaseInvoice](../api/dynamics_purchaseInvoice_Delete.md)|none|Deletes a purchase invoice object.|
 |[POST purchaseInvoice](../api/dynamics_purchaseInvoice_Create.md)|purchaseInvoice|Creates a purchase invoice object.|
 |[PATCH purchaseInvoice](../api/dynamics_purchaseInvoice_Update.md)|purchaseInvoice|Updates a purchase invoice object.|
 

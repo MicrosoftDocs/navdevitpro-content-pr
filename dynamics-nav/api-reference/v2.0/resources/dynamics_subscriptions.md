@@ -21,7 +21,7 @@ Represents a subscriptions in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET subscriptions](../api/dynamics_subscriptions_Get.md)|subscriptions|Gets a subscriptions object.|
-|[DELETE subscriptions](../api/dynamics_subscriptions_Delete.md)|subscriptions|Deletes a subscriptions object.|
+|[DELETE subscriptions](../api/dynamics_subscriptions_Delete.md)|none|Deletes a subscriptions object.|
 |[POST subscriptions](../api/dynamics_subscriptions_Create.md)|subscriptions|Creates a subscriptions object.|
 |[PATCH subscriptions](../api/dynamics_subscriptions_Update.md)|subscriptions|Updates a subscriptions object.|
 
