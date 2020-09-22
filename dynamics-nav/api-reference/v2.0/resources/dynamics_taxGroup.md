@@ -21,7 +21,7 @@ Represents a tax group in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET taxGroup](../api/dynamics_taxGroup_Get.md)|taxGroup|Gets a tax group object.|
-|[DELETE taxGroup](../api/dynamics_taxGroup_Delete.md)|taxGroup|Deletes a tax group object.|
+|[DELETE taxGroup](../api/dynamics_taxGroup_Delete.md)|none|Deletes a tax group object.|
 |[POST taxGroup](../api/dynamics_taxGroup_Create.md)|taxGroup|Creates a tax group object.|
 |[PATCH taxGroup](../api/dynamics_taxGroup_Update.md)|taxGroup|Updates a tax group object.|
 

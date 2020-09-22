@@ -21,7 +21,7 @@ Represents a dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d36
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET dimensionSetLine](../api/dynamics_dimensionSetLine_Get.md)|dimensionSetLine|Gets a dimension set line object.|
-|[DELETE dimensionSetLine](../api/dynamics_dimensionSetLine_Delete.md)|dimensionSetLine|Deletes a dimension set line object.|
+|[DELETE dimensionSetLine](../api/dynamics_dimensionSetLine_Delete.md)|none|Deletes a dimension set line object.|
 |[POST dimensionSetLine](../api/dynamics_dimensionSetLine_Create.md)|dimensionSetLine|Creates a dimension set line object.|
 |[PATCH dimensionSetLine](../api/dynamics_dimensionSetLine_Update.md)|dimensionSetLine|Updates a dimension set line object.|
 

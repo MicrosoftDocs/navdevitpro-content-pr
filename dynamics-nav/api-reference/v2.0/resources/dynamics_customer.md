@@ -21,7 +21,7 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET customer](../api/dynamics_customer_Get.md)|customer|Gets a customer object.|
-|[DELETE customer](../api/dynamics_customer_Delete.md)|customer|Deletes a customer object.|
+|[DELETE customer](../api/dynamics_customer_Delete.md)|none|Deletes a customer object.|
 |[POST customer](../api/dynamics_customer_Create.md)|customer|Creates a customer object.|
 |[PATCH customer](../api/dynamics_customer_Update.md)|customer|Updates a customer object.|
 

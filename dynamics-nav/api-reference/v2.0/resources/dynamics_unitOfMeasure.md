@@ -21,7 +21,7 @@ Represents an unit of measure in [!INCLUDE[d365fin_long_md](../../includes/d365f
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET unitOfMeasure](../api/dynamics_unitOfMeasure_Get.md)|unitOfMeasure|Gets a unit of measure object.|
-|[DELETE unitOfMeasure](../api/dynamics_unitOfMeasure_Delete.md)|unitOfMeasure|Deletes a unit of measure object.|
+|[DELETE unitOfMeasure](../api/dynamics_unitOfMeasure_Delete.md)|none|Deletes a unit of measure object.|
 |[POST unitOfMeasure](../api/dynamics_unitOfMeasure_Create.md)|unitOfMeasure|Creates a unit of measure object.|
 |[PATCH unitOfMeasure](../api/dynamics_unitOfMeasure_Update.md)|unitOfMeasure|Updates a unit of measure object.|
 

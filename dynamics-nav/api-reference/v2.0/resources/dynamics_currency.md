@@ -21,7 +21,7 @@ Represents a currency in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET currency](../api/dynamics_currency_Get.md)|currency|Gets a currency object.|
-|[DELETE currency](../api/dynamics_currency_Delete.md)|currency|Deletes a currency object.|
+|[DELETE currency](../api/dynamics_currency_Delete.md)|none|Deletes a currency object.|
 |[POST currency](../api/dynamics_currency_Create.md)|currency|Creates a currency object.|
 |[PATCH currency](../api/dynamics_currency_Update.md)|currency|Updates a currency object.|
 

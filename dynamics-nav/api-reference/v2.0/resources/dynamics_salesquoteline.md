@@ -21,7 +21,7 @@ Represents a sales quote line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesQuoteLine](../api/dynamics_salesQuoteLine_Get.md)|salesQuoteLine|Gets a sales quote line object.|
-|[DELETE salesQuoteLine](../api/dynamics_salesQuoteLine_Delete.md)|salesQuoteLine|Deletes a sales quote line object.|
+|[DELETE salesQuoteLine](../api/dynamics_salesQuoteLine_Delete.md)|none|Deletes a sales quote line object.|
 |[POST salesQuoteLine](../api/dynamics_salesQuoteLine_Create.md)|salesQuoteLine|Creates a sales quote line object.|
 |[PATCH salesQuoteLine](../api/dynamics_salesQuoteLine_Update.md)|salesQuoteLine|Updates a sales quote line object.|
 

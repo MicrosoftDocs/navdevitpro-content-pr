@@ -21,7 +21,7 @@ Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET employee](../api/dynamics_employee_Get.md)|employee|Gets a employee object.|
-|[DELETE employee](../api/dynamics_employee_Delete.md)|employee|Deletes a employee object.|
+|[DELETE employee](../api/dynamics_employee_Delete.md)|none|Deletes a employee object.|
 |[POST employee](../api/dynamics_employee_Create.md)|employee|Creates a employee object.|
 |[PATCH employee](../api/dynamics_employee_Update.md)|employee|Updates a employee object.|
 

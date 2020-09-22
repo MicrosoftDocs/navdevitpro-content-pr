@@ -21,7 +21,7 @@ Represents a journal line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET journalLine](../api/dynamics_journalLine_Get.md)|journalLine|Gets a journal line object.|
-|[DELETE journalLine](../api/dynamics_journalLine_Delete.md)|journalLine|Deletes a journal line object.|
+|[DELETE journalLine](../api/dynamics_journalLine_Delete.md)|none|Deletes a journal line object.|
 |[POST journalLine](../api/dynamics_journalLine_Create.md)|journalLine|Creates a journal line object.|
 |[PATCH journalLine](../api/dynamics_journalLine_Update.md)|journalLine|Updates a journal line object.|
 

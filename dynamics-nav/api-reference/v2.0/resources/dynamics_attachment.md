@@ -21,7 +21,7 @@ Represents an attachment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET attachment](../api/dynamics_attachment_Get.md)|attachment|Gets a attachment object.|
-|[DELETE attachment](../api/dynamics_attachment_Delete.md)|attachment|Deletes a attachment object.|
+|[DELETE attachment](../api/dynamics_attachment_Delete.md)|none|Deletes a attachment object.|
 |[POST attachment](../api/dynamics_attachment_Create.md)|attachment|Creates a attachment object.|
 |[PATCH attachment](../api/dynamics_attachment_Update.md)|attachment|Updates a attachment object.|
 

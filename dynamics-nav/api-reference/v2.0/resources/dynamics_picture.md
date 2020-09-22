@@ -21,7 +21,7 @@ Represents a picture in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET picture](../api/dynamics_picture_Get.md)|picture|Gets a picture object.|
-|[DELETE picture](../api/dynamics_picture_Delete.md)|picture|Deletes a picture object.|
+|[DELETE picture](../api/dynamics_picture_Delete.md)|none|Deletes a picture object.|
 |[PATCH picture](../api/dynamics_picture_Update.md)|picture|Updates a picture object.|
 
 

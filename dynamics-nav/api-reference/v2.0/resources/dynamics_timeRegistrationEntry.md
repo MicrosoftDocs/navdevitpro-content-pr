@@ -21,7 +21,7 @@ Represents a time registration entry in [!INCLUDE[d365fin_long_md](../../include
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Get.md)|timeRegistrationEntry|Gets a time registration entry object.|
-|[DELETE timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Delete.md)|timeRegistrationEntry|Deletes a time registration entry object.|
+|[DELETE timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Delete.md)|none|Deletes a time registration entry object.|
 |[POST timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Create.md)|timeRegistrationEntry|Creates a time registration entry object.|
 |[PATCH timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Update.md)|timeRegistrationEntry|Updates a time registration entry object.|
 

@@ -21,7 +21,7 @@ Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365f
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET customerPayment](../api/dynamics_customerPayment_Get.md)|customerPayment|Gets a customer payment object.|
-|[DELETE customerPayment](../api/dynamics_customerPayment_Delete.md)|customerPayment|Deletes a customer payment object.|
+|[DELETE customerPayment](../api/dynamics_customerPayment_Delete.md)|none|Deletes a customer payment object.|
 |[POST customerPayment](../api/dynamics_customerPayment_Create.md)|customerPayment|Creates a customer payment object.|
 |[PATCH customerPayment](../api/dynamics_customerPayment_Update.md)|customerPayment|Updates a customer payment object.|
 

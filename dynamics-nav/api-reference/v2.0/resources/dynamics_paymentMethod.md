@@ -21,7 +21,7 @@ Represents a payment method in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET paymentMethod](../api/dynamics_paymentMethod_Get.md)|paymentMethod|Gets a payment method object.|
-|[DELETE paymentMethod](../api/dynamics_paymentMethod_Delete.md)|paymentMethod|Deletes a payment method object.|
+|[DELETE paymentMethod](../api/dynamics_paymentMethod_Delete.md)|none|Deletes a payment method object.|
 |[POST paymentMethod](../api/dynamics_paymentMethod_Create.md)|paymentMethod|Creates a payment method object.|
 |[PATCH paymentMethod](../api/dynamics_paymentMethod_Update.md)|paymentMethod|Updates a payment method object.|
 

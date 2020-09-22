@@ -21,7 +21,7 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET item](../api/dynamics_item_Get.md)|item|Gets a item object.|
-|[DELETE item](../api/dynamics_item_Delete.md)|item|Deletes a item object.|
+|[DELETE item](../api/dynamics_item_Delete.md)|none|Deletes a item object.|
 |[POST item](../api/dynamics_item_Create.md)|item|Creates a item object.|
 |[PATCH item](../api/dynamics_item_Update.md)|item|Updates a item object.|
 

@@ -21,7 +21,7 @@ Represents a customer payment journal in [!INCLUDE[d365fin_long_md](../../includ
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET customerPaymentJournal](../api/dynamics_customerPaymentJournal_Get.md)|customerPaymentJournal|Gets a customer payment journal object.|
-|[DELETE customerPaymentJournal](../api/dynamics_customerPaymentJournal_Delete.md)|customerPaymentJournal|Deletes a customer payment journal object.|
+|[DELETE customerPaymentJournal](../api/dynamics_customerPaymentJournal_Delete.md)|none|Deletes a customer payment journal object.|
 |[POST customerPaymentJournal](../api/dynamics_customerPaymentJournal_Create.md)|customerPaymentJournal|Creates a customer payment journal object.|
 |[PATCH customerPaymentJournal](../api/dynamics_customerPaymentJournal_Update.md)|customerPaymentJournal|Updates a customer payment journal object.|
 

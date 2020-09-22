@@ -21,7 +21,7 @@ Represents an item variant in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET itemVariant](../api/dynamics_itemVariant_Get.md)|itemVariant|Gets a item variant object.|
-|[DELETE itemVariant](../api/dynamics_itemVariant_Delete.md)|itemVariant|Deletes a item variant object.|
+|[DELETE itemVariant](../api/dynamics_itemVariant_Delete.md)|none|Deletes a item variant object.|
 |[POST itemVariant](../api/dynamics_itemVariant_Create.md)|itemVariant|Creates a item variant object.|
 |[PATCH itemVariant](../api/dynamics_itemVariant_Update.md)|itemVariant|Updates a item variant object.|
 

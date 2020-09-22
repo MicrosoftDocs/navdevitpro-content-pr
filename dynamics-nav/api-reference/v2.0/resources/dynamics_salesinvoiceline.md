@@ -21,7 +21,7 @@ Represents a sales invoice line in [!INCLUDE[d365fin_long_md](../../includes/d36
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesInvoiceLine](../api/dynamics_salesInvoiceLine_Get.md)|salesInvoiceLine|Gets a sales invoice line object.|
-|[DELETE salesInvoiceLine](../api/dynamics_salesInvoiceLine_Delete.md)|salesInvoiceLine|Deletes a sales invoice line object.|
+|[DELETE salesInvoiceLine](../api/dynamics_salesInvoiceLine_Delete.md)|none|Deletes a sales invoice line object.|
 |[POST salesInvoiceLine](../api/dynamics_salesInvoiceLine_Create.md)|salesInvoiceLine|Creates a sales invoice line object.|
 |[PATCH salesInvoiceLine](../api/dynamics_salesInvoiceLine_Update.md)|salesInvoiceLine|Updates a sales invoice line object.|
 

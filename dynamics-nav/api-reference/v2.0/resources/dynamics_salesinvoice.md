@@ -21,7 +21,7 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesInvoice](../api/dynamics_salesInvoice_Get.md)|salesInvoice|Gets a sales invoice object.|
-|[DELETE salesInvoice](../api/dynamics_salesInvoice_Delete.md)|salesInvoice|Deletes a sales invoice object.|
+|[DELETE salesInvoice](../api/dynamics_salesInvoice_Delete.md)|none|Deletes a sales invoice object.|
 |[POST salesInvoice](../api/dynamics_salesInvoice_Create.md)|salesInvoice|Creates a sales invoice object.|
 |[PATCH salesInvoice](../api/dynamics_salesInvoice_Update.md)|salesInvoice|Updates a sales invoice object.|
 

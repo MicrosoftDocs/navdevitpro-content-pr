@@ -21,7 +21,7 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET vendor](../api/dynamics_vendor_Get.md)|vendor|Gets a vendor object.|
-|[DELETE vendor](../api/dynamics_vendor_Delete.md)|vendor|Deletes a vendor object.|
+|[DELETE vendor](../api/dynamics_vendor_Delete.md)|none|Deletes a vendor object.|
 |[POST vendor](../api/dynamics_vendor_Create.md)|vendor|Creates a vendor object.|
 |[PATCH vendor](../api/dynamics_vendor_Update.md)|vendor|Updates a vendor object.|
 

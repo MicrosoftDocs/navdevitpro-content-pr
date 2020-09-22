@@ -21,7 +21,7 @@ Represents a shipment method in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET shipmentMethod](../api/dynamics_shipmentMethod_Get.md)|shipmentMethod|Gets a shipment method object.|
-|[DELETE shipmentMethod](../api/dynamics_shipmentMethod_Delete.md)|shipmentMethod|Deletes a shipment method object.|
+|[DELETE shipmentMethod](../api/dynamics_shipmentMethod_Delete.md)|none|Deletes a shipment method object.|
 |[POST shipmentMethod](../api/dynamics_shipmentMethod_Create.md)|shipmentMethod|Creates a shipment method object.|
 |[PATCH shipmentMethod](../api/dynamics_shipmentMethod_Update.md)|shipmentMethod|Updates a shipment method object.|
 

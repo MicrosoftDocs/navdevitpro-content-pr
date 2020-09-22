@@ -21,7 +21,7 @@ Represents a sales order line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesOrderLine](../api/dynamics_salesOrderLine_Get.md)|salesOrderLine|Gets a sales order line object.|
-|[DELETE salesOrderLine](../api/dynamics_salesOrderLine_Delete.md)|salesOrderLine|Deletes a sales order line object.|
+|[DELETE salesOrderLine](../api/dynamics_salesOrderLine_Delete.md)|none|Deletes a sales order line object.|
 |[POST salesOrderLine](../api/dynamics_salesOrderLine_Create.md)|salesOrderLine|Creates a sales order line object.|
 |[PATCH salesOrderLine](../api/dynamics_salesOrderLine_Update.md)|salesOrderLine|Updates a sales order line object.|
 

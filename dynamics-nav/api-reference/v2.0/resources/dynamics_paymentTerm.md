@@ -21,7 +21,7 @@ Represents a payment term in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET paymentTerm](../api/dynamics_paymentTerm_Get.md)|paymentTerm|Gets a payment term object.|
-|[DELETE paymentTerm](../api/dynamics_paymentTerm_Delete.md)|paymentTerm|Deletes a payment term object.|
+|[DELETE paymentTerm](../api/dynamics_paymentTerm_Delete.md)|none|Deletes a payment term object.|
 |[POST paymentTerm](../api/dynamics_paymentTerm_Create.md)|paymentTerm|Creates a payment term object.|
 |[PATCH paymentTerm](../api/dynamics_paymentTerm_Update.md)|paymentTerm|Updates a payment term object.|
 

@@ -21,7 +21,7 @@ Represents a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET journal](../api/dynamics_journal_Get.md)|journal|Gets a journal object.|
-|[DELETE journal](../api/dynamics_journal_Delete.md)|journal|Deletes a journal object.|
+|[DELETE journal](../api/dynamics_journal_Delete.md)|none|Deletes a journal object.|
 |[POST journal](../api/dynamics_journal_Create.md)|journal|Creates a journal object.|
 |[PATCH journal](../api/dynamics_journal_Update.md)|journal|Updates a journal object.|
 
