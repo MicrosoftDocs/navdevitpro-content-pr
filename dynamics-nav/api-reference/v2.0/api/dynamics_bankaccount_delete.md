@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 10/01/2020
 ms.author: solsen
 ---
 
@@ -44,7 +44,11 @@ DELETE https://{businesscentralPrefix}/api/v2.0/companies({id})/bankAccounts({id
 
 **Response** 
 
-No Content.
+Here is an example of the response. 
+
+```json
+HTTP/1.1 204 No Content
+```
 
 
 

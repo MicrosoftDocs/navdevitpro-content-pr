@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2020
 ms.author: solsen
 ---
 
@@ -17,7 +17,11 @@ Creates the default dimensions for entities in [!INCLUDE[d365fin_long_md](../../
 ## HTTP request
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
-POST businesscentralPrefix/companies({companyId})/items({itemId})/defaultDimensions
+POST businesscentralPrefix/companies({id})/defaultDimensions({id})
+POST businesscentralPrefix/companies({id})/items({id})/defaultDimensions({id})
+POST businesscentralPrefix/companies({id})/customers({id})/defaultDimensions({id})
+POST businesscentralPrefix/companies({id})/vendors({id})/defaultDimensions({id})
+POST businesscentralPrefix/companies({id})/employees({id})/defaultDimensions({id})
 ```
 
 ## Request headers
@@ -77,6 +81,6 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({companyId})/customers({
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 
 [defaultDimension resource](../resources/dynamics_defaultDimension.md)  
-[Get defaultDimensions](../api/dynamics_defaultdimensions_get.md)  
-[Update defaultDimensions](../api/dynamics_defaultdimensions_update.md)  
-[Delete defaultDimensions](../api/dynamics_defaultdimensions_delete.md)  
+[Get defaultDimensions](../api/dynamics_defaultdimension_get.md)  
+[Update defaultDimensions](../api/dynamics_defaultdimension_update.md)  
+[Delete defaultDimensions](../api/dynamics_defaultdimension_delete.md)  

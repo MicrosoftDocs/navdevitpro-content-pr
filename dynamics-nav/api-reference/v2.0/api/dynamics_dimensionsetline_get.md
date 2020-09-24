@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/17/2020
+ms.date: 10/01/2020
 ms.author: solsen
 ---
 
@@ -20,7 +20,18 @@ Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_lon
 
 ```
 GET businesscentralPrefix/companies({id})/salesOrders({id})/dimensionSetLines({id})
-GET businesscentralPrefix/companies({id})/JournalLine({id})/dimensionSetLines({id})
+GET businesscentralPrefix/companies({id})/journalLines({id})/dimensionSetLines({id})
+GET businesscentralPrefix/companies({id})/salesOrderLines({id})/dimensionSetLines({id})
+GET businesscentralPrefix/companies({id})/salesQuotes({id})/dimensionSetLines({id})
+GET businesscentralPrefix/companies({id})/salesQuoteLines({id})/dimensionSetLines({id})
+GET businesscentralPrefix/companies({id})/salesCreditMemos({id})/dimensionSetLines({id})
+GET businesscentralPrefix/companies({id})/salesCreditMemoLines({id})/dimensionSetLines({id})
+GET businesscentralPrefix/companies({id})/salesInvoices({id})/dimensionSetLines({id})
+GET businesscentralPrefix/companies({id})/salesInvoiceLines({id})/dimensionSetLines({id})
+GET businesscentralPrefix/companies({id})/purchaseInvoices({id})/dimensionSetLines({id})
+GET businesscentralPrefix/companies({id})/purchaseInvoiceLines({id})/dimensionSetLines({id})
+GET businesscentralPrefix/companies({id})/generalLedgerEntries({id})/dimensionSetLines({id})
+GET businesscentralPrefix/companies({id})/timeRegistrationEntries({id})/dimensionSetLines({id})
 ```
 
 ## Request headers

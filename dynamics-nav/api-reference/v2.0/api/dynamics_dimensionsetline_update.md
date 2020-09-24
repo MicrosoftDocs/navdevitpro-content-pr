@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 10/01/2020
 ms.author: solsen
 ---
 
@@ -17,7 +17,19 @@ Update the properties of a dimensionSetLine object for [!INCLUDE[d365fin_long_md
 ## HTTP request
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
-PATCH businesscentralPrefix/companies({id})/dimensionSetLines ({id})
+PATCH businesscentralPrefix/companies({id})/salesOrders({id})/dimensionSetLines({id})
+PATCH businesscentralPrefix/companies({id})/journalLines({id})/dimensionSetLines({id})
+PATCH businesscentralPrefix/companies({id})/salesOrderLines({id})/dimensionSetLines({id})
+PATCH businesscentralPrefix/companies({id})/salesQuotes({id})/dimensionSetLines({id})
+PATCH businesscentralPrefix/companies({id})/salesQuoteLines({id})/dimensionSetLines({id})
+PATCH businesscentralPrefix/companies({id})/salesCreditMemos({id})/dimensionSetLines({id})
+PATCH businesscentralPrefix/companies({id})/salesCreditMemoLines({id})/dimensionSetLines({id})
+PATCH businesscentralPrefix/companies({id})/salesInvoices({id})/dimensionSetLines({id})
+PATCH businesscentralPrefix/companies({id})/salesInvoiceLines({id})/dimensionSetLines({id})
+PATCH businesscentralPrefix/companies({id})/purchaseInvoices({id})/dimensionSetLines({id})
+PATCH businesscentralPrefix/companies({id})/purchaseInvoiceLines({id})/dimensionSetLines({id})
+PATCH businesscentralPrefix/companies({id})/generalLedgerEntries({id})/dimensionSetLines({id})
+PATCH businesscentralPrefix/companies({id})/timeRegistrationEntries({id})/dimensionSetLines({id})
 ```
 
 ## Request headers
@@ -41,11 +53,12 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 Here is an example of the request.
 
 ```json
-PATCH https://{businesscentralPrefix}/api/v2.0/companies({id})/dimensionSetLines({id})
+PATCH https://{businesscentralPrefix}/api/v2.0/companies({id})/salesOrders({id})/dimensionSetLines({id})
 Content-type: application/json
 
 {
-
+    "code": "SALESGROUP",
+    "displayName": "Sales Group",
 }
 ```
 
@@ -56,7 +69,21 @@ Here is an example of the response.
 > [!NOTE]  
 >   The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
+```json
+HTTP/1.1 200 OK
+Content-type: application/json
 
+{
+    "id": "55c99ea7-bde4-ea11-bbf2-00155df3a615",
+    "code": "SALESGROUP",
+    "parentId": "85d8a1c5-bde4-ea11-bbf2-00155df3a615",
+    "parentType": "Sales Order",
+    "displayName": "Sales Group",
+    "valueId": "56c99ea7-bde4-ea11-bbf2-00155df3a615",
+    "valueCode": "HOME",
+    "valueDisplayName": "Home"
+}
+```
 
 
 ## See also

@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2020
 ms.author: solsen
 ---
 
@@ -28,7 +28,7 @@ PATCH businesscentralPrefix/companies({companyId})/employees({employeeId})/defau
 |Header        |Value                    |
 |--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|
-|Content-Type  |application/json         |
+|Content-Type  |application/json         | 
 
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.

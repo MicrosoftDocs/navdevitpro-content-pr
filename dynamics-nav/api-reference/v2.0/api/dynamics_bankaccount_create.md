@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/15/2020
+ms.date: 10/01/2020
 ms.author: solsen
 ---
 
@@ -44,6 +44,9 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({id})/bankAccounts
 Content-type: application/json
 
 {
+    "id": "26049aad-bde4-ea11-bbf2-00155df3a615",
+    "number": "NBL",
+    "displayName": "New Bank of London"
 }
 ```
 
@@ -51,6 +54,16 @@ Content-type: application/json
 
 Here is an example of the response. 
 
+```json
+HTTP/1.1 201 Created
+Content-type: application/json
+
+{
+    "id": "26049aad-bde4-ea11-bbf2-00155df3a615",
+    "number": "NBL",
+    "displayName": "New Bank of London"
+}
+```
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)     

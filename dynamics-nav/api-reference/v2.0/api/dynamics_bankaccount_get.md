@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/17/2020
+ms.date: 10/01/2020
 ms.author: solsen
 ---
 
@@ -48,6 +48,9 @@ Here is an example of the response.
 
 ```json
 {
+    "id": "26049aad-bde4-ea11-bbf2-00155df3a615",
+    "number": "NBL",
+    "displayName": "New Bank of London"
 }
 ```
 

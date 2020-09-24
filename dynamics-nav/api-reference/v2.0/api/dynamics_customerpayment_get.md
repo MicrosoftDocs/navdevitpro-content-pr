@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/17/2020
+ms.date: 10/01/2020
 ms.author: solsen
 ---
 
@@ -19,6 +19,7 @@ Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_lon
 
 ```
 GET businesscentralPrefix/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
+GET businesscentralPrefix/companies({id})/customerPayments({id})
 ```
 
 ## Request headers
