@@ -60,7 +60,8 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[paymentmethod](../resources/dynamics_paymentmethod.md)[Delete paymentmethod](../api/dynamics_paymentmethod_Delete.md)
-[Create paymentmethod](../api/dynamics_paymentmethod_Create.md)
-[Update paymentmethod](../api/dynamics_paymentmethod_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[paymentmethod](../resources/dynamics_paymentmethod.md)    
+[Delete paymentmethod](../api/dynamics_paymentmethod_Delete.md)    
+[Create paymentmethod](../api/dynamics_paymentmethod_Create.md)    
+[Update paymentmethod](../api/dynamics_paymentmethod_Update.md)    

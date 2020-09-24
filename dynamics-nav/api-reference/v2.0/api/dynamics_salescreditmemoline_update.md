@@ -94,7 +94,8 @@ Content-type: application/json
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[salescreditmemoline](../resources/dynamics_salescreditmemoline.md)[Get salescreditmemoline](../api/dynamics_salescreditmemoline_Get.md)
-[Delete salescreditmemoline](../api/dynamics_salescreditmemoline_Delete.md)
-[Create salescreditmemoline](../api/dynamics_salescreditmemoline_Create.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[salescreditmemoline](../resources/dynamics_salescreditmemoline.md)    
+[Get salescreditmemoline](../api/dynamics_salescreditmemoline_Get.md)    
+[Delete salescreditmemoline](../api/dynamics_salescreditmemoline_Delete.md)    
+[Create salescreditmemoline](../api/dynamics_salescreditmemoline_Create.md)    

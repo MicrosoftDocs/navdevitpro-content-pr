@@ -46,7 +46,8 @@ Request body contains the attachment.
 If successful, this method returns ```204 No Content``` response code. It does not return anything in the response body.
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[attachment](../resources/dynamics_attachment.md)[Get attachment](../api/dynamics_attachment_Get.md)
-[Delete attachment](../api/dynamics_attachment_Delete.md)
-[Create attachment](../api/dynamics_attachment_Create.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[attachment](../resources/dynamics_attachment.md)    
+[Get attachment](../api/dynamics_attachment_Get.md)    
+[Delete attachment](../api/dynamics_attachment_Delete.md)    
+[Create attachment](../api/dynamics_attachment_Create.md)    

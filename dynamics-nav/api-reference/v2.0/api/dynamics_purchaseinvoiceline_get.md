@@ -82,7 +82,8 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[purchaseinvoiceline](../resources/dynamics_purchaseinvoiceline.md)[Delete purchaseinvoiceline](../api/dynamics_purchaseinvoiceline_Delete.md)
-[Create purchaseinvoiceline](../api/dynamics_purchaseinvoiceline_Create.md)
-[Update purchaseinvoiceline](../api/dynamics_purchaseinvoiceline_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[purchaseinvoiceline](../resources/dynamics_purchaseinvoiceline.md)    
+[Delete purchaseinvoiceline](../api/dynamics_purchaseinvoiceline_Delete.md)    
+[Create purchaseinvoiceline](../api/dynamics_purchaseinvoiceline_Create.md)    
+[Update purchaseinvoiceline](../api/dynamics_purchaseinvoiceline_Update.md)    

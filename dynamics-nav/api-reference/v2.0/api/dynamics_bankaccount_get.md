@@ -56,7 +56,8 @@ Here is an example of the response.
 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[bankaccount](../resources/dynamics_bankaccount.md)[Delete bankaccount](../api/dynamics_bankaccount_Delete.md)
-[Create bankaccount](../api/dynamics_bankaccount_Create.md)
-[Update bankaccount](../api/dynamics_bankaccount_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[bankaccount](../resources/dynamics_bankaccount.md)    
+[Delete bankaccount](../api/dynamics_bankaccount_Delete.md)    
+[Create bankaccount](../api/dynamics_bankaccount_Create.md)    
+[Update bankaccount](../api/dynamics_bankaccount_Update.md)    

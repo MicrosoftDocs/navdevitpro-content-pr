@@ -55,6 +55,7 @@ PATCH https://{businesscentralPrefix}/api/v2.0/companies(companyId)/items(itemId
 No response. 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[picture](../resources/dynamics_picture.md)[Get picture](../api/dynamics_picture_Get.md)
-[Delete picture](../api/dynamics_picture_Delete.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[picture](../resources/dynamics_picture.md)    
+[Get picture](../api/dynamics_picture_Get.md)    
+[Delete picture](../api/dynamics_picture_Delete.md)    

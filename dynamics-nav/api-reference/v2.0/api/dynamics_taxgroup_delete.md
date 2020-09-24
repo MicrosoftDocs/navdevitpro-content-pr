@@ -52,7 +52,8 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[taxgroup](../resources/dynamics_taxgroup.md)[Get taxgroup](../api/dynamics_taxgroup_Get.md)
-[Create taxgroup](../api/dynamics_taxgroup_Create.md)
-[Update taxgroup](../api/dynamics_taxgroup_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[taxgroup](../resources/dynamics_taxgroup.md)    
+[Get taxgroup](../api/dynamics_taxgroup_Get.md)    
+[Create taxgroup](../api/dynamics_taxgroup_Create.md)    
+[Update taxgroup](../api/dynamics_taxgroup_Update.md)    

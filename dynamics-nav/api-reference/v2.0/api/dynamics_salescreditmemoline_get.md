@@ -84,7 +84,8 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[salescreditmemoline](../resources/dynamics_salescreditmemoline.md)[Delete salescreditmemoline](../api/dynamics_salescreditmemoline_Delete.md)
-[Create salescreditmemoline](../api/dynamics_salescreditmemoline_Create.md)
-[Update salescreditmemoline](../api/dynamics_salescreditmemoline_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[salescreditmemoline](../resources/dynamics_salescreditmemoline.md)    
+[Delete salescreditmemoline](../api/dynamics_salescreditmemoline_Delete.md)    
+[Create salescreditmemoline](../api/dynamics_salescreditmemoline_Create.md)    
+[Update salescreditmemoline](../api/dynamics_salescreditmemoline_Update.md)    

@@ -80,7 +80,8 @@ Content-type: application/json
 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[paymentterm](../resources/dynamics_paymentterm.md)[Get paymentterm](../api/dynamics_paymentterm_Get.md)
-[Delete paymentterm](../api/dynamics_paymentterm_Delete.md)
-[Update paymentterm](../api/dynamics_paymentterm_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[paymentterm](../resources/dynamics_paymentterm.md)    
+[Get paymentterm](../api/dynamics_paymentterm_Get.md)    
+[Delete paymentterm](../api/dynamics_paymentterm_Delete.md)    
+[Update paymentterm](../api/dynamics_paymentterm_Update.md)    

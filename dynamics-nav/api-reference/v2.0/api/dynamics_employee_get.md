@@ -78,7 +78,8 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[employee](../resources/dynamics_employee.md)[Delete employee](../api/dynamics_employee_Delete.md)
-[Create employee](../api/dynamics_employee_Create.md)
-[Update employee](../api/dynamics_employee_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[employee](../resources/dynamics_employee.md)    
+[Delete employee](../api/dynamics_employee_Delete.md)    
+[Create employee](../api/dynamics_employee_Create.md)    
+[Update employee](../api/dynamics_employee_Update.md)    

@@ -110,7 +110,8 @@ Content-type: application/json
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[purchaseinvoice](../resources/dynamics_purchaseinvoice.md)[Get purchaseinvoice](../api/dynamics_purchaseinvoice_Get.md)
-[Delete purchaseinvoice](../api/dynamics_purchaseinvoice_Delete.md)
-[Create purchaseinvoice](../api/dynamics_purchaseinvoice_Create.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[purchaseinvoice](../resources/dynamics_purchaseinvoice.md)    
+[Get purchaseinvoice](../api/dynamics_purchaseinvoice_Get.md)    
+[Delete purchaseinvoice](../api/dynamics_purchaseinvoice_Delete.md)    
+[Create purchaseinvoice](../api/dynamics_purchaseinvoice_Create.md)    

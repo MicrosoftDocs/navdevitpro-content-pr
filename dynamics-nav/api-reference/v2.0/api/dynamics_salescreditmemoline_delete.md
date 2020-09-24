@@ -55,7 +55,8 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[salescreditmemoline](../resources/dynamics_salescreditmemoline.md)[Get salescreditmemoline](../api/dynamics_salescreditmemoline_Get.md)
-[Create salescreditmemoline](../api/dynamics_salescreditmemoline_Create.md)
-[Update salescreditmemoline](../api/dynamics_salescreditmemoline_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[salescreditmemoline](../resources/dynamics_salescreditmemoline.md)    
+[Get salescreditmemoline](../api/dynamics_salescreditmemoline_Get.md)    
+[Create salescreditmemoline](../api/dynamics_salescreditmemoline_Create.md)    
+[Update salescreditmemoline](../api/dynamics_salescreditmemoline_Update.md)    

@@ -71,7 +71,8 @@ Content-type: application/json
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[currency](../resources/dynamics_currency.md)[Get currency](../api/dynamics_currency_Get.md)
-[Delete currency](../api/dynamics_currency_Delete.md)
-[Create currency](../api/dynamics_currency_Create.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[currency](../resources/dynamics_currency.md)    
+[Get currency](../api/dynamics_currency_Get.md)    
+[Delete currency](../api/dynamics_currency_Delete.md)    
+[Create currency](../api/dynamics_currency_Create.md)    

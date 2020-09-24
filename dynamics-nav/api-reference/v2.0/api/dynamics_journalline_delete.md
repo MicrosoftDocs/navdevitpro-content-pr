@@ -54,7 +54,8 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[journalline](../resources/dynamics_journalline.md)[Get journalline](../api/dynamics_journalline_Get.md)
-[Create journalline](../api/dynamics_journalline_Create.md)
-[Update journalline](../api/dynamics_journalline_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[journalline](../resources/dynamics_journalline.md)    
+[Get journalline](../api/dynamics_journalline_Get.md)    
+[Create journalline](../api/dynamics_journalline_Create.md)    
+[Update journalline](../api/dynamics_journalline_Update.md)    

@@ -54,7 +54,8 @@ HTTP/1.1 204 No Content
 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[project](../resources/dynamics_project.md)[Get project](../api/dynamics_project_Get.md)
-[Create project](../api/dynamics_project_Create.md)
-[Update project](../api/dynamics_project_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[project](../resources/dynamics_project.md)    
+[Get project](../api/dynamics_project_Get.md)    
+[Create project](../api/dynamics_project_Create.md)    
+[Update project](../api/dynamics_project_Update.md)    

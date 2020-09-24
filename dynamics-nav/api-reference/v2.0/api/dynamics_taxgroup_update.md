@@ -70,7 +70,8 @@ Content-type: application/json
 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[taxgroup](../resources/dynamics_taxgroup.md)[Get taxgroup](../api/dynamics_taxgroup_Get.md)
-[Delete taxgroup](../api/dynamics_taxgroup_Delete.md)
-[Create taxgroup](../api/dynamics_taxgroup_Create.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[taxgroup](../resources/dynamics_taxgroup.md)    
+[Get taxgroup](../api/dynamics_taxgroup_Get.md)    
+[Delete taxgroup](../api/dynamics_taxgroup_Delete.md)    
+[Create taxgroup](../api/dynamics_taxgroup_Create.md)    

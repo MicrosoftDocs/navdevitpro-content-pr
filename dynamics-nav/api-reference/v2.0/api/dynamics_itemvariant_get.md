@@ -59,7 +59,8 @@ Here is an example of the response.
 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[itemvariant](../resources/dynamics_itemvariant.md)[Delete itemvariant](../api/dynamics_itemvariant_Delete.md)
-[Create itemvariant](../api/dynamics_itemvariant_Create.md)
-[Update itemvariant](../api/dynamics_itemvariant_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[itemvariant](../resources/dynamics_itemvariant.md)    
+[Delete itemvariant](../api/dynamics_itemvariant_Delete.md)    
+[Create itemvariant](../api/dynamics_itemvariant_Create.md)    
+[Update itemvariant](../api/dynamics_itemvariant_Update.md)    

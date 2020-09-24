@@ -54,7 +54,8 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[itemcategory](../resources/dynamics_itemcategory.md)[Get itemcategory](../api/dynamics_itemcategory_Get.md)
-[Create itemcategory](../api/dynamics_itemcategory_Create.md)
-[Update itemcategory](../api/dynamics_itemcategory_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[itemcategory](../resources/dynamics_itemcategory.md)    
+[Get itemcategory](../api/dynamics_itemcategory_Get.md)    
+[Create itemcategory](../api/dynamics_itemcategory_Create.md)    
+[Update itemcategory](../api/dynamics_itemcategory_Update.md)    

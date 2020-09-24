@@ -66,7 +66,8 @@ Content-type: application/json
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[project](../resources/dynamics_project.md)[Get project](../api/dynamics_project_Get.md)
-[Delete project](../api/dynamics_project_Delete.md)
-[Update project](../api/dynamics_project_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[project](../resources/dynamics_project.md)    
+[Get project](../api/dynamics_project_Get.md)    
+[Delete project](../api/dynamics_project_Delete.md)    
+[Update project](../api/dynamics_project_Update.md)    

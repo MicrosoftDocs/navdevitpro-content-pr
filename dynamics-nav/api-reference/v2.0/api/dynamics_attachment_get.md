@@ -64,7 +64,8 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[attachment](../resources/dynamics_attachment.md)[Delete attachment](../api/dynamics_attachment_Delete.md)
-[Create attachment](../api/dynamics_attachment_Create.md)
-[Update attachment](../api/dynamics_attachment_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[attachment](../resources/dynamics_attachment.md)    
+[Delete attachment](../api/dynamics_attachment_Delete.md)    
+[Create attachment](../api/dynamics_attachment_Create.md)    
+[Update attachment](../api/dynamics_attachment_Update.md)    

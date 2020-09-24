@@ -75,7 +75,8 @@ Content-type: application/json
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[unitofmeasure](../resources/dynamics_unitofmeasure.md)[Get unitofmeasure](../api/dynamics_unitofmeasure_Get.md)
-[Delete unitofmeasure](../api/dynamics_unitofmeasure_Delete.md)
-[Update unitofmeasure](../api/dynamics_unitofmeasure_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[unitofmeasure](../resources/dynamics_unitofmeasure.md)    
+[Get unitofmeasure](../api/dynamics_unitofmeasure_Get.md)    
+[Delete unitofmeasure](../api/dynamics_unitofmeasure_Delete.md)    
+[Update unitofmeasure](../api/dynamics_unitofmeasure_Update.md)    

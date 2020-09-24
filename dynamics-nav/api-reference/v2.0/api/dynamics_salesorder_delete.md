@@ -54,7 +54,8 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[salesorder](../resources/dynamics_salesorder.md)[Get salesorder](../api/dynamics_salesorder_Get.md)
-[Create salesorder](../api/dynamics_salesorder_Create.md)
-[Update salesorder](../api/dynamics_salesorder_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[salesorder](../resources/dynamics_salesorder.md)    
+[Get salesorder](../api/dynamics_salesorder_Get.md)    
+[Create salesorder](../api/dynamics_salesorder_Create.md)    
+[Update salesorder](../api/dynamics_salesorder_Update.md)    

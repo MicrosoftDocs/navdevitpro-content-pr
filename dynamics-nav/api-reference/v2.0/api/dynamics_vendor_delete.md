@@ -54,7 +54,8 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[vendor](../resources/dynamics_vendor.md)[Get vendor](../api/dynamics_vendor_Get.md)
-[Create vendor](../api/dynamics_vendor_Create.md)
-[Update vendor](../api/dynamics_vendor_Update.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
+[vendor](../resources/dynamics_vendor.md)    
+[Get vendor](../api/dynamics_vendor_Get.md)    
+[Create vendor](../api/dynamics_vendor_Create.md)    
+[Update vendor](../api/dynamics_vendor_Update.md)    
