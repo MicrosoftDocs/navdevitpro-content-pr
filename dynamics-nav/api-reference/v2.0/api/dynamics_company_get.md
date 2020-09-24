@@ -54,7 +54,11 @@ Here is an example of the response.
     "systemVersion": "17806",
     "name": "CRONUS US",
     "displayName": "CRONUS USA, Inc.",
-    "businessProfileId": ""
+    "businessProfileId": "",
+    "systemCreatedAt": "2017-01-23T00:24:31.766Z",
+    "systemCreatedBy": "f2a5738a-44e3-ea11-bb43-000d3a2feca1",
+    "systemModifiedAt": "2020-08-21T00:24:31.777Z",
+    "systemModifiedBy": "f2a5738a-44e3-ea11-bb43-000d3a2feca1"
 }
 ```
 

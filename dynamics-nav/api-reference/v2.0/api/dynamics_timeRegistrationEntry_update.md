@@ -19,6 +19,7 @@ Update a timeRegistrationEntry in [!INCLUDE[d365fin_long_md](../../includes/d365
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
 PATCH businesscentralPrefix/companies({companyId})/timeRegistrationEntries({timeregistrationId})
+PATCH businesscentralPrefix/companies({companyId})/employees({employeeId})/timeRegistrationEntries({timeregistrationId})
 ```
 
 ## Request headers
@@ -78,5 +79,4 @@ Content-type: application/json
 [timeRegistrationEntries](../resources/dynamics_timeRegistrationEntry.md)  
 [Get timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_get.md)  
 [Post timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_create.md)  
-[Patch timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_update.md)  
 [Delete timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_delete.md)  

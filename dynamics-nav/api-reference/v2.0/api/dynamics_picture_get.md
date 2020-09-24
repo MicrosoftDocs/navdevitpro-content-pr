@@ -54,7 +54,7 @@ Here is an example of the response.
 ```json
 {
     "id": "53049aad-bde4-ea11-bbf2-00155df3a615",
-    "parentType": "Customer", (this could be Customer, Item, Employee or Vendor)
+    "parentType": "Customer", 
     "width": 400,
     "height": 400,
     "contentType": "image/jpeg",

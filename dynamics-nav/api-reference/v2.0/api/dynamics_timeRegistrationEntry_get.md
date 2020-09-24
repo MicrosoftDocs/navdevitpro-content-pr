@@ -17,7 +17,8 @@ Retrieve the properties and relationships of an timeRegistrationEntries object f
 ## HTTP request
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
-GET businesscentralPrefix/companies({id})/timeRegistrationEntries?$filter=employeeId eq {employeeId}
+GET businesscentralPrefix/companies({companyId})/timeRegistrationEntries({timeregistrationId})
+GET businesscentralPrefix/companies({companyId})/employees({employeeId})/timeRegistrationEntries({timeregistrationId})
 ```
 
 > [!NOTE]  
@@ -78,5 +79,4 @@ Here is an example of the response.
 [timeRegistrationEntries](../resources/dynamics_timeRegistrationEntry.md)  
 [Get timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_get.md)  
 [Post timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_create.md)  
-[Patch timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_update.md)  
 [Delete timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_delete.md)  

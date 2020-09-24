@@ -42,10 +42,17 @@ POST https://{businesscentralPrefix}/api/v1.0/subscriptions({id})
 Content-type: application/json
 
 {
-  "subscriptionId" :"{subscriptionId}",
-  "notificationUrl": "https://{notificationUrl}",
+  "subscriptionId": "c670ea73cacb459bb51dc1740da2f1db",
+  "notificationUrl": "https://contoso.com/myCallbacks",
   "resource": "/api/v1.0/companies(f64eba74-dacd-4854-a584-1834f68cfc3a)/customers",
-  "clientState": "{optionalValueOf2048}"
+  "userId": "00000000-0000-0000-0000-000000000001",
+  "lastModifiedDateTime": "2018-10-12T12:32:35Z",
+  "clientState": "optionalvalueof2048",
+  "expirationDateTime": "2021-10-15T12:32:35Z",
+  "systemCreatedAt": "2017-01-23T00:24:31.766Z",
+  "systemCreatedBy": "f2a5738a-44e3-ea11-bb43-000d3a2feca1",
+  "systemModifiedAt": "2020-08-21T00:24:31.777Z",
+  "systemModifiedBy": "f2a5738a-44e3-ea11-bb43-000d3a2feca1"
 }
 
 ```
@@ -65,7 +72,11 @@ Here is an example of the response.
   "userId": "00000000-0000-0000-0000-000000000001",
   "lastModifiedDateTime": "2018-10-12T12:32:35Z",
   "clientState": "optionalvalueof2048",
-  "expirationDateTime": "2018-10-15T12:32:35Z"
+  "expirationDateTime": "2021-10-15T12:32:35Z",
+  "systemCreatedAt": "2017-01-23T00:24:31.766Z",
+  "systemCreatedBy": "f2a5738a-44e3-ea11-bb43-000d3a2feca1",
+  "systemModifiedAt": "2020-08-21T00:24:31.777Z",
+  "systemModifiedBy": "f2a5738a-44e3-ea11-bb43-000d3a2feca1"
 }
 ```
 

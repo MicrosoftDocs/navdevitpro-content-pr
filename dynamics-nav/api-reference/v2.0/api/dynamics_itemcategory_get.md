@@ -19,7 +19,7 @@ Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_lon
 
 ```
 GET businesscentralPrefix/companies({id})/itemCategories({id})
-GET businesscentralPrefix/companies({id})/item({id})/itemcategory
+GET businesscentralPrefix/companies({id})/items(id)/itemCategory({id})
 ```
 
 ## Request headers

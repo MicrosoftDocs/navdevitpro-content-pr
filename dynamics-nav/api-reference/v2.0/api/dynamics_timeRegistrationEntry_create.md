@@ -20,7 +20,8 @@ Creates a timeRegistrationEntry in [!INCLUDE[d365fin_long_md](../../includes/d36
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 
 ```
-POST businesscentralPrefix/companies({id})/timeRegistrationEntries
+POST businesscentralPrefix/companies({companyId})/timeRegistrationEntries({timeregistrationId})
+POST businesscentralPrefix/companies({companyId})/employees({employeeId})/timeRegistrationEntries({timeregistrationId})
 ```
 
 ## Request headers
@@ -95,6 +96,5 @@ Content-type: application/json
 [Error Codes](../dynamics_error_codes.md)  
 [timeRegistrationEntries](../resources/dynamics_timeRegistrationEntry.md)  
 [Get timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_get.md)  
-[Post timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_create.md)  
 [Patch timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_update.md)  
 [Delete timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_delete.md)  

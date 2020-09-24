@@ -19,6 +19,7 @@ Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_lon
 
 ```
 PATCH businesscentralPrefix/companies({id})/itemCategories({id})
+PATCH businesscentralPrefix/companies({id})/items(id)/itemCategory({id})
 ```
 
 ## Request headers
