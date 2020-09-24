@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2020
+ms.date: 09/24/2020
 ms.author: solsen
 ---
 
@@ -82,7 +82,7 @@ Represents a sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d365
 |totalAmountExcludingTax|decimal|The total amount excluding tax. Read-Only.  |
 |totalTaxAmount|decimal|The total tax amount for the sales credit memo. Read-Only.|
 |totalAmountIncludingTax|decimal|The total amount including tax. Read-Only.  |
-|status|[NAV.salesCrMemoEntityBufferStatus](../resources/dynamics_complextypes.md)|Specifies the status of the sales credit memo. It can be "Draft" , "In Review", "Open", "Canceled", "Corrective", or "Paid".|
+|status|NAV.salesCrMemoEntityBufferStatus|Specifies the status of the sales credit memo. It can be "Draft" , "In Review", "Open", "Canceled", "Corrective", or "Paid".|
 |lastModifiedDateTime|datetime|The last datetime the sales credit memo was modified. Read-Only.|
 |invoiceId|GUID|The unique ID of invoice.|
 |invoiceNumber|string|The sales invoice number that the sales credit memo  is linked to.|

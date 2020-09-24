@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2020
+ms.date: 09/24/2020
 ms.author: solsen
 ---
 
@@ -88,7 +88,7 @@ Represents a sales quote in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |totalAmountExcludingTax|decimal|The total amount excluding tax. Read-Only.  |
 |totalTaxAmount|decimal|The total tax amount for the sales quote. Read-Only.|
 |totalAmountIncludingTax|decimal|The total amount including tax. Read-Only.  |
-|status|[NAV.salesQuoteEntityBufferStatus](../resources/dynamics_complextypes.md)|Specifies the status of the sales quote. It can be "Draft", "Sent", "Accepted" or "Expired ".|
+|status|NAV.salesQuoteEntityBufferStatus|Specifies the status of the sales quote. It can be "Draft", "Sent", "Accepted" or "Expired ".|
 |sentDate|datetime|The the date and time the quote was sent our to the customer. Read-Only.|
 |validUntilDate|date|The date a quote is valid until.|
 |acceptedDate|date|The date a sales quote is accepted. Read-Only.|
