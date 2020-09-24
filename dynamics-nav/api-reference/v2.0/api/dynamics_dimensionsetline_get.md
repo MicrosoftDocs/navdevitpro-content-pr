@@ -75,6 +75,7 @@ Here is an example of the response.
 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[dimensionSetLine](../resources/dynamics_dimensionSetLine.md)  
-<!--links-->
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[dimensionsetline](../resources/dynamics_dimensionsetline.md)[Delete dimensionsetline](../api/dynamics_dimensionsetline_Delete.md)
+[Create dimensionsetline](../api/dynamics_dimensionsetline_Create.md)
+[Update dimensionsetline](../api/dynamics_dimensionsetline_Update.md)

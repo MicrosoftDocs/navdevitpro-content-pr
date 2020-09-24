@@ -52,5 +52,7 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[Countries Regions](../resources/dynamics_countriesregion.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[countryregion](../resources/dynamics_countryregion.md)[Get countryregion](../api/dynamics_countryregion_Get.md)
+[Create countryregion](../api/dynamics_countryregion_Create.md)
+[Update countryregion](../api/dynamics_countryregion_Update.md)

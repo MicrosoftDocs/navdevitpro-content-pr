@@ -88,9 +88,7 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-[Sales Order Line](../resources/dynamics_salesorderline.md)  
-[Create Sales Order Line](../api/dynamics_create_salesorderline.md)  
-[Update Sales Order Line](../api/dynamics_salesorderline_update.md)  
-[Delete Sales Order Line](../api/dynamics_salesorderline_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[salesorderline](../resources/dynamics_salesorderline.md)[Delete salesorderline](../api/dynamics_salesorderline_Delete.md)
+[Create salesorderline](../api/dynamics_salesorderline_Create.md)
+[Update salesorderline](../api/dynamics_salesorderline_Update.md)

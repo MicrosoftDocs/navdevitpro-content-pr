@@ -62,7 +62,5 @@ Here is an example of the response.
 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[Balance Sheet](../resources/dynamics_balancesheet.md)  
-[Get Cash Flow Statement](dynamics_cashflowstatement_get.md)  
-[Get Account](dynamics_account_get.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[balancesheet](../resources/dynamics_balancesheet.md)

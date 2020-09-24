@@ -64,6 +64,7 @@ Here is an example of the response.
 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[paymentTerm](../resources/dynamics_paymentTerm.md)  
-<!--links-->
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[paymentterm](../resources/dynamics_paymentterm.md)[Delete paymentterm](../api/dynamics_paymentterm_Delete.md)
+[Create paymentterm](../api/dynamics_paymentterm_Create.md)
+[Update paymentterm](../api/dynamics_paymentterm_Update.md)

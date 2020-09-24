@@ -80,8 +80,7 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[defaultDimension resource](../resources/dynamics_defaultDimension.md)  
-[Get defaultDimensions](../api/dynamics_defaultdimension_get.md)  
-[Create defaultDimensions](../api/dynamics_defaultdimension_create.md)   
-[Delete defaultDimensions](../api/dynamics_defaultdimension_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[defaultdimension](../resources/dynamics_defaultdimension.md)[Get defaultdimension](../api/dynamics_defaultdimension_Get.md)
+[Delete defaultdimension](../api/dynamics_defaultdimension_Delete.md)
+[Create defaultdimension](../api/dynamics_defaultdimension_Create.md)

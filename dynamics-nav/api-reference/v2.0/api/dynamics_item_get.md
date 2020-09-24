@@ -74,12 +74,7 @@ Here is an example of the response.
 
 ```
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-
-
-[Error Codes](../dynamics_error_codes.md)  
-[Item](../resources/dynamics_item.md)  
-[Post Item](../api/dynamics_create_item.md)  
-[Patch Item](../api/dynamics_item_update.md)  
-[Delete Item](../api/dynamics_item_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[item](../resources/dynamics_item.md)[Delete item](../api/dynamics_item_Delete.md)
+[Create item](../api/dynamics_item_Create.md)
+[Update item](../api/dynamics_item_Update.md)

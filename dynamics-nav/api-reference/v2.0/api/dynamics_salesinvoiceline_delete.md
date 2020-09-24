@@ -53,9 +53,7 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-[Sales Invoice Line](../resources/dynamics_salesinvoiceline.md)  
-[Get Sales Invoice Line](../api/dynamics_salesinvoiceline_get.md)  
-[Create Sales Invoice Line](../api/dynamics_create_salesinvoiceline.md)  
-[Update Sales Invoice Line](../api/dynamics_salesinvoiceline_update.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[salesinvoiceline](../resources/dynamics_salesinvoiceline.md)[Get salesinvoiceline](../api/dynamics_salesinvoiceline_Get.md)
+[Create salesinvoiceline](../api/dynamics_salesinvoiceline_Create.md)
+[Update salesinvoiceline](../api/dynamics_salesinvoiceline_Update.md)

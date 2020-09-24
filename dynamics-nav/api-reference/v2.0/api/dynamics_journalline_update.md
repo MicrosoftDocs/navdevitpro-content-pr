@@ -74,9 +74,7 @@ Content-type: application/json
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-[Journal Line](../resources/dynamics_journalline.md)  
-[Get Journal Line](../api/dynamics_journalline_get.md)  
-[Create Journal Line](../api/dynamics_create_journalline.md)  
-[Delete Journal Line](../api/dynamics_journalline_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[journalline](../resources/dynamics_journalline.md)[Get journalline](../api/dynamics_journalline_Get.md)
+[Delete journalline](../api/dynamics_journalline_Delete.md)
+[Create journalline](../api/dynamics_journalline_Create.md)

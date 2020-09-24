@@ -85,12 +85,7 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-
-
-[Error Codes](../dynamics_error_codes.md)  
-[Customer](../resources/dynamics_customer.md)  
-[Post Customers](dynamics_create_customer.md)  
-[Patch Customers](dynamics_customer_update.md)  
-[Delete Customers](dynamics_customer_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[customer](../resources/dynamics_customer.md)[Delete customer](../api/dynamics_customer_Delete.md)
+[Create customer](../api/dynamics_customer_Create.md)
+[Update customer](../api/dynamics_customer_Update.md)

@@ -61,9 +61,7 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-[Journal](../resources/dynamics_journal.md)  
-[Create Journal](../api/dynamics_create_journal.md)  
-[Update Journal](../api/dynamics_journal_update.md)  
-[Delete Journal](../api/dynamics_journal_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[journal](../resources/dynamics_journal.md)[Delete journal](../api/dynamics_journal_Delete.md)
+[Create journal](../api/dynamics_journal_Create.md)
+[Update journal](../api/dynamics_journal_Update.md)

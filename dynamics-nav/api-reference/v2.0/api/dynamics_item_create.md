@@ -85,9 +85,7 @@ Content-type: application/json
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-  
-[Item](../resources/dynamics_item.md)  
-[Get Item](../api/dynamics_item_get.md)  
-[Patch item](../api/dynamics_item_update.md)  
-[Delete Item](../api/dynamics_item_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[item](../resources/dynamics_item.md)[Get item](../api/dynamics_item_Get.md)
+[Delete item](../api/dynamics_item_Delete.md)
+[Update item](../api/dynamics_item_Update.md)

@@ -68,6 +68,7 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[Error Codes](../dynamics_error_codes.md)  
-[Customer Payments](../resources/dynamics_customerpayment.md)   
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[customerpayment](../resources/dynamics_customerpayment.md)[Delete customerpayment](../api/dynamics_customerpayment_Delete.md)
+[Create customerpayment](../api/dynamics_customerpayment_Create.md)
+[Update customerpayment](../api/dynamics_customerpayment_Update.md)

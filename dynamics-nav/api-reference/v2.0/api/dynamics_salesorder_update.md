@@ -95,9 +95,7 @@ Content-type: application/json
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-[Sales Order](../resources/dynamics_salesorder.md)  
-[Get Sales Order](../api/dynamics_salesorder_get.md)  
-[Create Sales Order](../api/dynamics_create_salesorder.md)  
-[Delete Sales Order](../api/dynamics_salesorder_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[salesorder](../resources/dynamics_salesorder.md)[Get salesorder](../api/dynamics_salesorder_Get.md)
+[Delete salesorder](../api/dynamics_salesorder_Delete.md)
+[Create salesorder](../api/dynamics_salesorder_Create.md)

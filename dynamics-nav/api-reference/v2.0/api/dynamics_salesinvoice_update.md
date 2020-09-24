@@ -118,9 +118,7 @@ Content-type: application/json
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-[Sales Invoice](../resources/dynamics_salesinvoice.md)  
-[Get Sales Invoice](../api/dynamics_salesinvoice_get.md)  
-[Create Sales Invoice](../api/dynamics_create_salesinvoice.md)  
-[Delete Sales Invoice](../api/dynamics_salesinvoice_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[salesinvoice](../resources/dynamics_salesinvoice.md)[Get salesinvoice](../api/dynamics_salesinvoice_Get.md)
+[Delete salesinvoice](../api/dynamics_salesinvoice_Delete.md)
+[Create salesinvoice](../api/dynamics_salesinvoice_Create.md)

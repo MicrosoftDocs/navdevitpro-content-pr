@@ -54,9 +54,7 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-[Purchase Invoice](../resources/dynamics_purchaseinvoice.md)  
-[Get Purchase Invoice](../api/dynamics_purchaseinvoice_get.md)  
-[Create Purchase Invoice](../api/dynamics_create_purchaseinvoice.md)  
-[Update Purchase Invoice](../api/dynamics_purchaseinvoice_update.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[purchaseinvoice](../resources/dynamics_purchaseinvoice.md)[Get purchaseinvoice](../api/dynamics_purchaseinvoice_Get.md)
+[Create purchaseinvoice](../api/dynamics_purchaseinvoice_Create.md)
+[Update purchaseinvoice](../api/dynamics_purchaseinvoice_Update.md)

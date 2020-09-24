@@ -47,6 +47,7 @@ No response body.
 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[subscriptions](../resources/dynamics_subscriptions.md)  
-<!--links-->
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[subscriptions](../resources/dynamics_subscriptions.md)[Get subscriptions](../api/dynamics_subscriptions_Get.md)
+[Create subscriptions](../api/dynamics_subscriptions_Create.md)
+[Update subscriptions](../api/dynamics_subscriptions_Update.md)

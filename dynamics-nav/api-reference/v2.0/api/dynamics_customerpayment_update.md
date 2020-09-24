@@ -79,9 +79,7 @@ Content-type: application/json
 }
 ```
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[Error Codes](../dynamics_error_codes.md)  
-[Customer Payments](../resources/dynamics_customerpayment.md)  
-[Get Customer Payments](dynamics_customerpayment_get.md)  
-[Post Customer Payments](dynamics_create_customerpayment.md)  
-[Delete Customer Payments](dynamics_customerpayment_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[customerpayment](../resources/dynamics_customerpayment.md)[Get customerpayment](../api/dynamics_customerpayment_Get.md)
+[Delete customerpayment](../api/dynamics_customerpayment_Delete.md)
+[Create customerpayment](../api/dynamics_customerpayment_Create.md)

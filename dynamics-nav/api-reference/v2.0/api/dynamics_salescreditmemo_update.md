@@ -95,9 +95,7 @@ Content-type: application/json
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-[Sales Credit Memo](../resources/dynamics_salescreditmemo.md)  
-[Get Sales Credit Memo](../api/dynamics_salescreditmemo_get.md)  
-[Create Sales Credit Memo](../api/dynamics_create_salescreditmemo.md)  
-[Delete Sales Credit Memo](../api/dynamics_salescreditmemo_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[salescreditmemo](../resources/dynamics_salescreditmemo.md)[Get salescreditmemo](../api/dynamics_salescreditmemo_Get.md)
+[Delete salescreditmemo](../api/dynamics_salescreditmemo_Delete.md)
+[Create salescreditmemo](../api/dynamics_salescreditmemo_Create.md)

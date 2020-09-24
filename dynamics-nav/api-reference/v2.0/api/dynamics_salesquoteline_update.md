@@ -90,9 +90,7 @@ Content-type: application/json
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-[Sales Quote Line](../resources/dynamics_salesquoteline.md)  
-[Get Sales Quote Line](../api/dynamics_salesquoteline_get.md)  
-[Create Sales Quote Line](../api/dynamics_create_salesquoteline.md)  
-[Delete Sales Quote Line](../api/dynamics_salesquoteline_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[salesquoteline](../resources/dynamics_salesquoteline.md)[Get salesquoteline](../api/dynamics_salesquoteline_Get.md)
+[Delete salesquoteline](../api/dynamics_salesquoteline_Delete.md)
+[Create salesquoteline](../api/dynamics_salesquoteline_Create.md)

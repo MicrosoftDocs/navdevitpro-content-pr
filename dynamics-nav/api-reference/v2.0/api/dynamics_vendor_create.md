@@ -91,9 +91,7 @@ Content-type: application/json
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-[Vendor](../resources/dynamics_vendor.md)  
-[Get Vendor](../api/dynamics_vendor_get.md)  
-[Update Vendor](../api/dynamics_vendor_update.md)  
-[Delete Vendor](../api/dynamics_vendor_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[vendor](../resources/dynamics_vendor.md)[Get vendor](../api/dynamics_vendor_Get.md)
+[Delete vendor](../api/dynamics_vendor_Delete.md)
+[Update vendor](../api/dynamics_vendor_Update.md)

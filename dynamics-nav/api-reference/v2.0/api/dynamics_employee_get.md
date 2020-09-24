@@ -78,13 +78,7 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-
-
-[Error Codes](../dynamics_error_codes.md)  
-[Employee](../resources/dynamics_employee.md)  
-[Post Employee](../api/dynamics_create_employee.md)  
-[Patch Employee](../api/dynamics_employee_update.md)  
-[Delete Employee](../api/dynamics_employee_delete.md)  
-
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[employee](../resources/dynamics_employee.md)[Delete employee](../api/dynamics_employee_Delete.md)
+[Create employee](../api/dynamics_employee_Create.md)
+[Update employee](../api/dynamics_employee_Update.md)

@@ -56,12 +56,7 @@ HTTP/1.1 204 No Content
 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-
-
-[Error Codes](../dynamics_error_codes.md)  
-[Employee](../resources/dynamics_employee.md)  
-[Get Employee](../api/dynamics_employee_get.md)  
-[Post Employee](../api/dynamics_create_employee.md)  
-[Patch Employee](../api/dynamics_employee_update.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[employee](../resources/dynamics_employee.md)[Get employee](../api/dynamics_employee_Get.md)
+[Create employee](../api/dynamics_employee_Create.md)
+[Update employee](../api/dynamics_employee_Update.md)

@@ -104,7 +104,8 @@ GET https://{businesscentralPrefix}/api/v2.0/companies({companyid})/salesQuotes(
 The PDF document in binary format.
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-
-[Error Codes](../dynamics_error_codes.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[salesquote](../resources/dynamics_salesquote.md)[Get salesquote](../api/dynamics_salesquote_Get.md)
+[Delete salesquote](../api/dynamics_salesquote_Delete.md)
+[Create salesquote](../api/dynamics_salesquote_Create.md)
+[Update salesquote](../api/dynamics_salesquote_Update.md)

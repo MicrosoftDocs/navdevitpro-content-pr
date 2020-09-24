@@ -62,6 +62,5 @@ Here is an example of the response.
 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[Error Codes](../dynamics_error_codes.md)  
-[Income Statement](../resources/dynamics_incomestatement.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[incomestatement](../resources/dynamics_incomestatement.md)

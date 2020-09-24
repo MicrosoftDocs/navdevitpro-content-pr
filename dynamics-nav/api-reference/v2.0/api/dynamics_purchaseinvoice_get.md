@@ -100,9 +100,7 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-[Purchase Invoice](../resources/dynamics_purchaseinvoice.md)  
-[Create Purchase Invoice](../api/dynamics_create_purchaseinvoice.md)  
-[Update Purchase Invoice](../api/dynamics_purchaseinvoice_update.md)  
-[Delete Purchase Invoice](../api/dynamics_purchaseinvoice_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[purchaseinvoice](../resources/dynamics_purchaseinvoice.md)[Delete purchaseinvoice](../api/dynamics_purchaseinvoice_Delete.md)
+[Create purchaseinvoice](../api/dynamics_purchaseinvoice_Create.md)
+[Update purchaseinvoice](../api/dynamics_purchaseinvoice_Update.md)

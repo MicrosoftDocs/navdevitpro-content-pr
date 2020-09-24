@@ -55,9 +55,6 @@ DELETE https://api.businesscentral.dynamics-tie.com/v2.0/api/v2.0/companies(comp
 No content.
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[Error Codes](../dynamics_error_codes.md)  
-[Picture](../resources/dynamics_picture.md)  
-[Get Picture](dynamics_picture_get.md)  
-[Update Picture](dynamics_picture_update.md)  
-[Post Picture](dynamics_create_picture.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[picture](../resources/dynamics_picture.md)[Get picture](../api/dynamics_picture_Get.md)
+[Update picture](../api/dynamics_picture_Update.md)

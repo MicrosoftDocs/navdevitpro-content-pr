@@ -90,9 +90,7 @@ Content-type: application/json
 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-[Vendor](../resources/dynamics_vendor.md)  
-[Get Vendor](../api/dynamics_vendor_get.md)  
-[Create Vendor](../api/dynamics_create_vendor.md)  
-[Delete Vendor](../api/dynamics_vendor_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[vendor](../resources/dynamics_vendor.md)[Get vendor](../api/dynamics_vendor_Get.md)
+[Delete vendor](../api/dynamics_vendor_Delete.md)
+[Create vendor](../api/dynamics_vendor_Create.md)

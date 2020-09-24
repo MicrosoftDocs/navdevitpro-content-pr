@@ -60,9 +60,7 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-[Tax Area](../resources/dynamics_taxarea.md)  
-[Create Tax Area](../api/dynamics_create_taxarea.md)  
-[Update Tax Area](../api/dynamics_taxarea_update.md)  
-[Delete Tax Area](../api/dynamics_taxarea_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[taxarea](../resources/dynamics_taxarea.md)[Delete taxarea](../api/dynamics_taxarea_Delete.md)
+[Create taxarea](../api/dynamics_taxarea_Create.md)
+[Update taxarea](../api/dynamics_taxarea_Update.md)

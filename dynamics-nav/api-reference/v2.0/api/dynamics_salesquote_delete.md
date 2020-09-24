@@ -54,9 +54,7 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-[Sales Quote](../resources/dynamics_salesquote.md)  
-[Get Sales Quote](../api/dynamics_salesquote_get.md)  
-[Create Sales Quote](../api/dynamics_create_salesquote.md)  
-[Update Sales Quote](../api/dynamics_salesquote_update.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[salesquote](../resources/dynamics_salesquote.md)[Get salesquote](../api/dynamics_salesquote_Get.md)
+[Create salesquote](../api/dynamics_salesquote_Create.md)
+[Update salesquote](../api/dynamics_salesquote_Update.md)

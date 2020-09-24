@@ -62,6 +62,5 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[customerFinancialDetail](../resources/dynamics_customerFinancialDetail.md)  
-<!--links-->
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[customerfinancialdetail](../resources/dynamics_customerfinancialdetail.md)

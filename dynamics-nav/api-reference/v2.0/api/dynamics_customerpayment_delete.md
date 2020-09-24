@@ -55,9 +55,7 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[Error Codes](../dynamics_error_codes.md)  
-[Customer Payments](../resources/dynamics_customerpayment.md)  
-[Get Customer Payments](dynamics_customerpayment_get.md)  
-[Post Customer Payments](dynamics_create_customerpayment.md)  
-[Patch Customer Payments](dynamics_customerpayment_update.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[customerpayment](../resources/dynamics_customerpayment.md)[Get customerpayment](../api/dynamics_customerpayment_Get.md)
+[Create customerpayment](../api/dynamics_customerpayment_Create.md)
+[Update customerpayment](../api/dynamics_customerpayment_Update.md)

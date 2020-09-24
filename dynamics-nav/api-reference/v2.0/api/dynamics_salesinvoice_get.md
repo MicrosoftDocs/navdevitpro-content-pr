@@ -111,9 +111,7 @@ Here is an example of the response.
 ```
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-
-[Sales Invoice](../resources/dynamics_salesinvoice.md)  
-[Create Sales Invoice](../api/dynamics_create_salesinvoice.md)  
-[Update Sales Invoice](../api/dynamics_salesinvoice_update.md)  
-[Delete Sales Invoice](../api/dynamics_salesinvoice_delete.md)  
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[salesinvoice](../resources/dynamics_salesinvoice.md)[Delete salesinvoice](../api/dynamics_salesinvoice_Delete.md)
+[Create salesinvoice](../api/dynamics_salesinvoice_Create.md)
+[Update salesinvoice](../api/dynamics_salesinvoice_Update.md)

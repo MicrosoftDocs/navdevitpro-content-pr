@@ -56,6 +56,7 @@ Here is an example of the response.
 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[project](../resources/dynamics_project.md)  
-<!--links-->
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[project](../resources/dynamics_project.md)[Delete project](../api/dynamics_project_Delete.md)
+[Create project](../api/dynamics_project_Create.md)
+[Update project](../api/dynamics_project_Update.md)

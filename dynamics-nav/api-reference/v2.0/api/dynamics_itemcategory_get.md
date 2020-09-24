@@ -61,6 +61,7 @@ Here is an example of the response.
 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[itemCategory](../resources/dynamics_itemCategory.md)  
-<!--links-->
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[itemcategory](../resources/dynamics_itemcategory.md)[Delete itemcategory](../api/dynamics_itemcategory_Delete.md)
+[Create itemcategory](../api/dynamics_itemcategory_Create.md)
+[Update itemcategory](../api/dynamics_itemcategory_Update.md)
