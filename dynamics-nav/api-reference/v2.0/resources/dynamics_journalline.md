@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2020
+ms.date: 09/24/2020
 ms.author: solsen
 ---
 
@@ -47,7 +47,7 @@ Represents a journal line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 |journalId|GUID|The ID of the journal.|
 |journalDisplayName|string|The display name of the journal that this line belongs to. Read-Only.|
 |lineNumber|integer|The journal line item line number.|
-|accountType|[NAV.genJournalAccountType](../resources/dynamics_complextypes.md)|Specifies the type of account. It can be "G/L Account", "Customer", "Vendor", "Bank Account", "Fixed Asset", "IC Partner" or "Employee".|
+|accountType|NAV.genJournalAccountType|Specifies the type of account. It can be "G/L Account", "Customer", "Vendor", "Bank Account", "Fixed Asset", "IC Partner" or "Employee".|
 |accountId|GUID|The id of the account that the journal line is related to. |
 |accountNumber|string|The number of the account that the journal line is related to. |
 |postingDate|date|The date that the journal line   is posted.|

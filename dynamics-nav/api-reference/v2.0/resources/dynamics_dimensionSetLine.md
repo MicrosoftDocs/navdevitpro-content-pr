@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2020
+ms.date: 09/24/2020
 ms.author: solsen
 ---
 
@@ -56,7 +56,7 @@ Represents a dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d36
 |id|GUID|The unique ID of the item. Non-editable.|
 |code|string|The code of the dimension set line.|
 |parentId|GUID|The ID of the parent entity. |
-|parentType|[NAV.dimensionSetEntryBufferParentType](../resources/dynamics_complextypes.md)|The type of the parent document of the dimension set line. It can be " ", "Journal Line", "Sales Order", "Sales Order Line", "Sales Quote", "Sales Quote Line", "Sales Credit Memo", "Sales Credit Memo Line", "Sales Invoice", "Sales Invoice Line", "Purchase Invoice", "Purchase Invoice Line", "General Ledger Entry" or "Time Registration Entry".|
+|parentType|NAV.dimensionSetEntryBufferParentType|The type of the parent document of the dimension set line. It can be " ", "Journal Line", "Sales Order", "Sales Order Line", "Sales Quote", "Sales Quote Line", "Sales Credit Memo", "Sales Credit Memo Line", "Sales Invoice", "Sales Invoice Line", "Purchase Invoice", "Purchase Invoice Line", "General Ledger Entry" or "Time Registration Entry".|
 |displayName|string|Specifies the dimension set line's name. This name will appear on all sales documents for the dimension set line.|
 |valueId|GUID|The unique ID of the value of the dimension.  |
 |valueCode|string|The code of the value of the dimension.  |

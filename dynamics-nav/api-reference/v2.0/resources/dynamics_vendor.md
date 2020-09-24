@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2020
+ms.date: 09/24/2020
 ms.author: solsen
 ---
 
@@ -64,7 +64,7 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 |paymentTermsId|GUID|Specifies which payment term the vendor uses.|
 |paymentMethodId|GUID|Specifies which payment method the vendor uses.|
 |taxLiable|boolean|Specifies if the vendor or vendor is liable for sales tax. Set to **true** if the vendor is tax liable.|
-|blocked|[NAV.vendorBlocked](../resources/dynamics_complextypes.md)|Specifies which transactions with the customer cannot be posted. It can be <Member Name=" ", "Payment" or "All".|
+|blocked|NAV.vendorBlocked|Specifies which transactions with the customer cannot be posted. It can be <Member Name=" ", "Payment" or "All".|
 |balance|decimal|Specifies vendor's total balance.|
 |lastModifiedDateTime|datetime|The last datetime the vendor was modified. Read-Only.|
 

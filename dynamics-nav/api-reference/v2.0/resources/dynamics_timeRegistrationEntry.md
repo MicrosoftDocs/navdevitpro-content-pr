@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2020
+ms.date: 09/24/2020
 ms.author: solsen
 ---
 
@@ -52,7 +52,7 @@ Represents a time registration entry in [!INCLUDE[d365fin_long_md](../../include
 |lineNumber|integer|The time registration entry item line number.|
 |date|date|The date of the time registration entry.|
 |quantity|decimal|The quantity of the item in the time registration entry.|
-|status|[NAV.employeeTimeRegStatus](../resources/dynamics_complextypes.md)|Specifies the status of the time registration entry. It can be "Open", "Submitted", "Rejected" or "Approved".|
+|status|NAV.employeeTimeRegStatus|Specifies the status of the time registration entry. It can be "Open", "Submitted", "Rejected" or "Approved".|
 |unitOfMeasureId|GUID|The ID of unit of measure for the time registration entry.|
 |unitOfMeasureCode|string|The code of unit of measure for the time registration entry.|
 |lastModfiedDateTime|datetime|The last datetime the time registration entry was modified. Read-Only.|

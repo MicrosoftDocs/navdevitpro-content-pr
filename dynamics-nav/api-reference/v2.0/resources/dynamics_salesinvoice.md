@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2020
+ms.date: 09/24/2020
 ms.author: solsen
 ---
 
@@ -94,7 +94,7 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |totalAmountExcludingTax|decimal|The total amount excluding tax. Read-Only.  |
 |totalTaxAmount|decimal|The total tax amount for the sales invoice. Read-Only.|
 |totalAmountIncludingTax|decimal|The total amount including tax. Read-Only.  |
-|status|[NAV.invoiceEntityAggregateStatus](../resources/dynamics_complextypes.md)|The status of the sales invoice. It can be " ", "Draft", "In Review", "Open", "Paid", "Canceled" or "Corrective".|
+|status|NAV.invoiceEntityAggregateStatus|The status of the sales invoice. It can be " ", "Draft", "In Review", "Open", "Paid", "Canceled" or "Corrective".|
 |lastModifiedDateTime|datetime|The last datetime the sales invoice was modified. Read-Only.|
 |phoneNumber|string|Specifies the sales invoice's telephone number.|
 |email|string|Specifies the sales invoice's email address.|

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2020
+ms.date: 09/24/2020
 ms.author: solsen
 ---
 
@@ -91,7 +91,7 @@ Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |totalTaxAmount|decimal|The total tax amount for the sales order. Read-Only.|
 |totalAmountIncludingTax|decimal|The total amount including tax. Read-Only.  |
 |fullyShipped|boolean|Specifies whether the items of the sales order were fully shipped or not.|
-|status|[NAV.salesOrderEntityBufferStatus](../resources/dynamics_complextypes.md)|Specifies the status of the sales order. It can be "Draft", "In Review" or "Open".|
+|status|NAV.salesOrderEntityBufferStatus|Specifies the status of the sales order. It can be "Draft", "In Review" or "Open".|
 |lastModifiedDateTime|datetime|The last datetime the sales order was modified. Read-Only.|
 |phoneNumber|string|Specifies the sales order's telephone number.|
 |email|string|Specifies the sales order's email address.|

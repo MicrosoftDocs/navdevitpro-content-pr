@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2020
+ms.date: 09/24/2020
 ms.author: solsen
 ---
 
@@ -37,7 +37,7 @@ Represents a tax group in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 |id|GUID|The unique ID of the item. Non-editable.|
 |code|string|The code of the tax group.|
 |displayName|string|Specifies the tax group's name. This name will appear on all sales documents for the tax group.|
-|taxType|[NAV.taxBufferType](../resources/dynamics_complextypes.md)|Specifies the type of tax. It can be "Sales Tax" or "VAT".|
+|taxType|NAV.taxBufferType|Specifies the type of tax. It can be "Sales Tax" or "VAT".|
 |lastModifiedDateTime|datetime|The last datetime the tax group was modified. Read-Only.|
 
 

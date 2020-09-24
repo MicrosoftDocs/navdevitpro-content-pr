@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2020
+ms.date: 09/24/2020
 ms.author: solsen
 ---
 
@@ -37,7 +37,7 @@ Represents a tax area in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 |id|GUID|The unique ID of the item. Non-editable.|
 |code|string|The code of the tax area.|
 |displayName|string|Specifies the tax area's name. This name will appear on all sales documents for the tax area.|
-|taxType|[NAV.taxBufferType](../resources/dynamics_complextypes.md)|Specifies the type of tax. It can be "Sales Tax" or "VAT".|
+|taxType|NAV.taxBufferType|Specifies the type of tax. It can be "Sales Tax" or "VAT".|
 |lastModifiedDateTime|datetime|The last datetime the tax area was modified. Read-Only.|
 
 

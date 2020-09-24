@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2020
+ms.date: 09/24/2020
 ms.author: solsen
 ---
 
@@ -39,10 +39,10 @@ Represents an account in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 |id|GUID|The unique ID of the item. Non-editable.|
 |number|string|Specifies the number of the account.|
 |displayName|string|Specifies the account's name. This name will appear on all sales documents for the account.|
-|category|[NAV.glAccountCategory](../resources/dynamics_complextypes.md)|Specifies the category of the account. It can be " ", "Assets", "Liabilities", "Equity", "Income", "Cost of Goods Sold" or "Expense".|
+|category|NAV.glAccountCategory|Specifies the category of the account. It can be " ", "Assets", "Liabilities", "Equity", "Income", "Cost of Goods Sold" or "Expense".|
 |subCategory|string|Specifies the subcategory of the account category of the G/L account.|
 |blocked|boolean|Specifies that entries cannot be posted to the account. **True** indicates account is blocked and posting is not allowed.|
-|accountType|[NAV.glAccountType](../resources/dynamics_complextypes.md)|The type of the account that the account is related to. It can be "Posting", "Heading", "Total", "Begin Total" or "End Total".|
+|accountType|NAV.glAccountType|The type of the account that the account is related to. It can be "Posting", "Heading", "Total", "Begin Total" or "End Total".|
 |directPosting|boolean|Specifies whether direct posting is enabled.|
 |lastModifiedDateTime|datetime|The last datetime the account was modified. Read-Only.|
 

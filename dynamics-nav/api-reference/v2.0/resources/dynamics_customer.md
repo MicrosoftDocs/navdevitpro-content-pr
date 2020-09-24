@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2020
+ms.date: 09/24/2020
 ms.author: solsen
 ---
 
@@ -50,7 +50,7 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 |id|GUID|The unique ID of the item. Non-editable.|
 |number|string|Specifies the number of the customer.|
 |displayName|string|Specifies the customer's name. This name will appear on all sales documents for the customer.|
-|type|[NAV.contactType](../resources/dynamics_complextypes.md)|Specifies the type of customer, can be "Company" or "Person".|
+|type|NAV.contactType|Specifies the type of customer, can be "Company" or "Person".|
 |addressLine1|string|Specifies the customer's address. This address will appear on all sales documents for the customer.|
 |addressLine2|string|Specifies the customer's address. This address will appear on all sales documents for the customer.|
 |city|string|Specifies the customer's city.|
@@ -69,7 +69,7 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 |paymentTermsId|GUID|Specifies which payment term the customer uses.|
 |shipmentMethodId|GUID|Specifies which shipment method the customer uses.|
 |paymentMethodId|GUID|Specifies which payment method the customer uses.|
-|blocked|[NAV.customerBlocked](../resources/dynamics_complextypes.md)|Specifies which transactions with the customer cannot be posted. It can be " ", "Ship", "Invoice" or "All".|
+|blocked|NAV.customerBlocked|Specifies which transactions with the customer cannot be posted. It can be " ", "Ship", "Invoice" or "All".|
 |lastModifiedDateTime|datetime|The last datetime the customer was modified. Read-Only.|
 
 

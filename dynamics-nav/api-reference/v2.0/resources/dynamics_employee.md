@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2020
+ms.date: 09/24/2020
 ms.author: solsen
 ---
 
@@ -61,7 +61,7 @@ Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 |personalEmail|string|Specifies the employee's personal email address. |
 |employmentDate|date|Specifies the date when the employee began to work for the company.|
 |terminationDate|date|Specifies the date when the employee was terminated, due to retirement or dismissal, for example.|
-|status|[NAV.employeeStatus](../resources/dynamics_complextypes.md)|Specifies the status of the employee. It can be "Active", "Inactive" or "Terminated".|
+|status|NAV.employeeStatus|Specifies the status of the employee. It can be "Active", "Inactive" or "Terminated".|
 |birthDate|date|Specifies the employee's date of birth. |
 |statisticsGroupCode|string|The employee's statistics group code.|
 |lastModifiedDateTime|datetime|The last datetime the employee was modified. Read-Only.|

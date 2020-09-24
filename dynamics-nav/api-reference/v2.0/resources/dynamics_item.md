@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2020
+ms.date: 09/24/2020
 ms.author: solsen
 ---
 
@@ -46,7 +46,7 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 |id|GUID|The unique ID of the item. Non-editable.|
 |number|string|Specifies the number of the item.|
 |displayName|string|Specifies the item's name. This name will appear on all sales documents for the item.|
-|type|[NAV.itemType](../resources/dynamics_complextypes.md)|Specifies the type of the item. It can be "Inventory", "Service" or "Non-Inventory".|
+|type|NAV.itemType|Specifies the type of the item. It can be "Inventory", "Service" or "Non-Inventory".|
 |itemCategoryId|GUID|The ID of the item category in the item.|
 |itemCategoryCode|string|The code of the item category in the item.|
 |blocked|boolean|Specifies that entries cannot be posted to the item. **True** indicates account is blocked and posting is not allowed.|

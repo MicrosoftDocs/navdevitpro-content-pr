@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2020
+ms.date: 09/24/2020
 ms.author: solsen
 ---
 
@@ -46,7 +46,7 @@ Represents a default dimension in [!INCLUDE[d365fin_long_md](../../includes/d365
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
 |id|GUID|The unique ID of the item. Non-editable.|
-|parentType|[NAV.defaultDimensionParentType](../resources/dynamics_complextypes.md)|The type of the parent document of the default dimension. It can be " ", "Customer", "Item", "Vendor" or "Employee".|
+|parentType|NAV.defaultDimensionParentType|The type of the parent document of the default dimension. It can be " ", "Customer", "Item", "Vendor" or "Employee".|
 |parentId|GUID|The ID of the parent entity. |
 |dimensionId|GUID|The unique ID of dimension.|
 |dimensionCode|string|The dimension code.|

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2020
+ms.date: 09/24/2020
 ms.author: solsen
 ---
 
@@ -51,7 +51,7 @@ Represents an attachment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |byteSize|integer|File size.|
 |attachmentContent|stream|The attachment's content.|
 |lastModifiedDateTime|datetime|The last datetime the attachment was modified. Read-Only.|
-|parentType|[NAV.attachmentEntityBufferDocumentType](../resources/dynamics_complextypes.md)|The type of the parent document of the attachment. It can be " ", "Journal", "Sales Order", "Sales Quote", "Sales Credit Memo", "Sales Invoice" or "Purchase Invoice".|
+|parentType|NAV.attachmentEntityBufferDocumentType|The type of the parent document of the attachment. It can be " ", "Journal", "Sales Order", "Sales Quote", "Sales Credit Memo", "Sales Invoice" or "Purchase Invoice".|
 
 
 ## JSON representation
