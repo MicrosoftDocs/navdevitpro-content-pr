@@ -61,8 +61,8 @@ Here is a JSON representation of the currency resource.
 ```
 ## See also
 
-[GET currency](../api/dynamics_currency_Get.md)
-[DELETE currency](../api/dynamics_currency_Delete.md)
-[POST currency](../api/dynamics_currency_Create.md)
-[PATCH currency](../api/dynamics_currency_Update.md)
+[GET currency](../api/dynamics_currency_Get.md)   
+[DELETE currency](../api/dynamics_currency_Delete.md)   
+[POST currency](../api/dynamics_currency_Create.md)   
+[PATCH currency](../api/dynamics_currency_Update.md)   
 

@@ -58,7 +58,7 @@ Here is a JSON representation of the picture resource.
 ```
 ## See also
 
-[GET picture](../api/dynamics_picture_Get.md)
-[DELETE picture](../api/dynamics_picture_Delete.md)
-[PATCH picture](../api/dynamics_picture_Update.md)
+[GET picture](../api/dynamics_picture_Get.md)   
+[DELETE picture](../api/dynamics_picture_Delete.md)   
+[PATCH picture](../api/dynamics_picture_Update.md)   
 

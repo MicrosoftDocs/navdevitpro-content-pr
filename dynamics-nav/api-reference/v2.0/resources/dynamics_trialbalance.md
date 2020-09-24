@@ -67,5 +67,5 @@ Here is a JSON representation of the trialBalance resource.
 ```
 ## See also
 
-[GET trialBalance](../api/dynamics_trialBalance_Get.md)
+[GET trialBalance](../api/dynamics_trialBalance_Get.md)   
 

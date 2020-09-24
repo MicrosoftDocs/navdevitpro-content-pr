@@ -58,5 +58,5 @@ Here is a JSON representation of the balanceSheet resource.
 ```
 ## See also
 
-[GET balanceSheet](../api/dynamics_balanceSheet_Get.md)
+[GET balanceSheet](../api/dynamics_balanceSheet_Get.md)   
 

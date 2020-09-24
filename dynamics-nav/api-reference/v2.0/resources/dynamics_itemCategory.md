@@ -55,8 +55,8 @@ Here is a JSON representation of the itemCategory resource.
 ```
 ## See also
 
-[GET itemCategory](../api/dynamics_itemCategory_Get.md)
-[DELETE itemCategory](../api/dynamics_itemCategory_Delete.md)
-[POST itemCategory](../api/dynamics_itemCategory_Create.md)
-[PATCH itemCategory](../api/dynamics_itemCategory_Update.md)
+[GET itemCategory](../api/dynamics_itemCategory_Get.md)   
+[DELETE itemCategory](../api/dynamics_itemCategory_Delete.md)   
+[POST itemCategory](../api/dynamics_itemCategory_Create.md)   
+[PATCH itemCategory](../api/dynamics_itemCategory_Update.md)   
 

@@ -117,5 +117,5 @@ Here is a JSON representation of the company resource.
 ```
 ## See also
 
-[GET company](../api/dynamics_company_Get.md)
+[GET company](../api/dynamics_company_Get.md)   
 

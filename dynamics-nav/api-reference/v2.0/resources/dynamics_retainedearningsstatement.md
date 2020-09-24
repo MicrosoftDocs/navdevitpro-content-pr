@@ -58,5 +58,5 @@ Here is a JSON representation of the retainedEarningsStatement resource.
 ```
 ## See also
 
-[GET retainedEarningsStatement](../api/dynamics_retainedEarningsStatement_Get.md)
+[GET retainedEarningsStatement](../api/dynamics_retainedEarningsStatement_Get.md)   
 

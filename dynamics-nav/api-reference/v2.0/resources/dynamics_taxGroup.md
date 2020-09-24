@@ -57,8 +57,8 @@ Here is a JSON representation of the taxGroup resource.
 ```
 ## See also
 
-[GET taxGroup](../api/dynamics_taxGroup_Get.md)
-[DELETE taxGroup](../api/dynamics_taxGroup_Delete.md)
-[POST taxGroup](../api/dynamics_taxGroup_Create.md)
-[PATCH taxGroup](../api/dynamics_taxGroup_Update.md)
+[GET taxGroup](../api/dynamics_taxGroup_Get.md)   
+[DELETE taxGroup](../api/dynamics_taxGroup_Delete.md)   
+[POST taxGroup](../api/dynamics_taxGroup_Create.md)   
+[PATCH taxGroup](../api/dynamics_taxGroup_Update.md)   
 

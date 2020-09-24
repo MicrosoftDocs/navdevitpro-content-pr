@@ -109,8 +109,8 @@ Here is a JSON representation of the purchaseInvoiceLine resource.
 ```
 ## See also
 
-[GET purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Get.md)
-[DELETE purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Delete.md)
-[POST purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Create.md)
-[PATCH purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Update.md)
+[GET purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Get.md)   
+[DELETE purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Delete.md)   
+[POST purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Create.md)   
+[PATCH purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Update.md)   
 

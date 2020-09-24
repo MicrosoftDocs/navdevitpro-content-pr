@@ -22,7 +22,7 @@ Before you start using the Business Central APIs, please familiarize yourself wi
 
 ## See Also
 
-[Microsoft APIs Terms of Use](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use)
+[Microsoft APIs Terms of Use](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use)  
 [Enabling the APIs for Dynamics 365 Business Central](enabling-apis-for-dynamics-nav.md)  
 [Development in AL](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
 [Developing Connect Apps for Dynamics 365 Business Central](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  

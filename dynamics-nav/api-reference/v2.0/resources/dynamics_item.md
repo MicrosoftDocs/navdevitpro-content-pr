@@ -90,8 +90,8 @@ Here is a JSON representation of the item resource.
 ```
 ## See also
 
-[GET item](../api/dynamics_item_Get.md)
-[DELETE item](../api/dynamics_item_Delete.md)
-[POST item](../api/dynamics_item_Create.md)
-[PATCH item](../api/dynamics_item_Update.md)
+[GET item](../api/dynamics_item_Get.md)   
+[DELETE item](../api/dynamics_item_Delete.md)   
+[POST item](../api/dynamics_item_Create.md)   
+[PATCH item](../api/dynamics_item_Update.md)   
 

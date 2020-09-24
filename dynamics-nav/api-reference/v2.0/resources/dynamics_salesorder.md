@@ -157,8 +157,8 @@ Here is a JSON representation of the salesOrder resource.
 ```
 ## See also
 
-[GET salesOrder](../api/dynamics_salesOrder_Get.md)
-[DELETE salesOrder](../api/dynamics_salesOrder_Delete.md)
-[POST salesOrder](../api/dynamics_salesOrder_Create.md)
-[PATCH salesOrder](../api/dynamics_salesOrder_Update.md)
+[GET salesOrder](../api/dynamics_salesOrder_Get.md)   
+[DELETE salesOrder](../api/dynamics_salesOrder_Delete.md)   
+[POST salesOrder](../api/dynamics_salesOrder_Create.md)   
+[PATCH salesOrder](../api/dynamics_salesOrder_Update.md)   
 

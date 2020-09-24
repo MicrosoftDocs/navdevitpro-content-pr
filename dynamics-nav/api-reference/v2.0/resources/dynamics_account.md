@@ -67,5 +67,5 @@ Here is a JSON representation of the account resource.
 ```
 ## See also
 
-[GET account](../api/dynamics_account_Get.md)
+[GET account](../api/dynamics_account_Get.md)   
 

@@ -84,8 +84,8 @@ Here is a JSON representation of the journalLine resource.
 ```
 ## See also
 
-[GET journalLine](../api/dynamics_journalLine_Get.md)
-[DELETE journalLine](../api/dynamics_journalLine_Delete.md)
-[POST journalLine](../api/dynamics_journalLine_Create.md)
-[PATCH journalLine](../api/dynamics_journalLine_Update.md)
+[GET journalLine](../api/dynamics_journalLine_Get.md)   
+[DELETE journalLine](../api/dynamics_journalLine_Delete.md)   
+[POST journalLine](../api/dynamics_journalLine_Create.md)   
+[PATCH journalLine](../api/dynamics_journalLine_Update.md)   
 

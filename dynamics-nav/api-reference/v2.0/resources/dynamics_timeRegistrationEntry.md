@@ -83,8 +83,8 @@ Here is a JSON representation of the timeRegistrationEntry resource.
 ```
 ## See also
 
-[GET timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Get.md)
-[DELETE timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Delete.md)
-[POST timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Create.md)
-[PATCH timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Update.md)
+[GET timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Get.md)   
+[DELETE timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Delete.md)   
+[POST timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Create.md)   
+[PATCH timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Update.md)   
 

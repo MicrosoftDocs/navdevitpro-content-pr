@@ -54,5 +54,5 @@ Here is a JSON representation of the vendorPurchase resource.
 ```
 ## See also
 
-[GET vendorPurchase](../api/dynamics_vendorPurchase_Get.md)
+[GET vendorPurchase](../api/dynamics_vendorPurchase_Get.md)   
 

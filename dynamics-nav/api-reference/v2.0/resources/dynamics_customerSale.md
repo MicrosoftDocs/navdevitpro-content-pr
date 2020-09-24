@@ -54,5 +54,5 @@ Here is a JSON representation of the customerSale resource.
 ```
 ## See also
 
-[GET customerSale](../api/dynamics_customerSale_Get.md)
+[GET customerSale](../api/dynamics_customerSale_Get.md)   
 

@@ -58,5 +58,5 @@ Here is a JSON representation of the incomeStatement resource.
 ```
 ## See also
 
-[GET incomeStatement](../api/dynamics_incomeStatement_Get.md)
+[GET incomeStatement](../api/dynamics_incomeStatement_Get.md)   
 

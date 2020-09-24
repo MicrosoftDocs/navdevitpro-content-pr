@@ -86,6 +86,6 @@ Here is a JSON representation of the companyInformation resource.
 ```
 ## See also
 
-[GET companyInformation](../api/dynamics_companyInformation_Get.md)
-[PATCH companyInformation](../api/dynamics_companyInformation_Update.md)
+[GET companyInformation](../api/dynamics_companyInformation_Get.md)   
+[PATCH companyInformation](../api/dynamics_companyInformation_Update.md)   
 

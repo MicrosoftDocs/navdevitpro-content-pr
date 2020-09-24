@@ -59,5 +59,5 @@ Here is a JSON representation of the dimensionValue resource.
 ```
 ## See also
 
-[GET dimensionValue](../api/dynamics_dimensionValue_Get.md)
+[GET dimensionValue](../api/dynamics_dimensionValue_Get.md)   
 

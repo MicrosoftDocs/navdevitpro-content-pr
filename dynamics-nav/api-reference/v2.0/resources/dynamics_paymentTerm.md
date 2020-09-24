@@ -63,8 +63,8 @@ Here is a JSON representation of the paymentTerm resource.
 ```
 ## See also
 
-[GET paymentTerm](../api/dynamics_paymentTerm_Get.md)
-[DELETE paymentTerm](../api/dynamics_paymentTerm_Delete.md)
-[POST paymentTerm](../api/dynamics_paymentTerm_Create.md)
-[PATCH paymentTerm](../api/dynamics_paymentTerm_Update.md)
+[GET paymentTerm](../api/dynamics_paymentTerm_Get.md)   
+[DELETE paymentTerm](../api/dynamics_paymentTerm_Delete.md)   
+[POST paymentTerm](../api/dynamics_paymentTerm_Create.md)   
+[PATCH paymentTerm](../api/dynamics_paymentTerm_Update.md)   
 

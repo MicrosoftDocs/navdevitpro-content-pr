@@ -102,8 +102,8 @@ Here is a JSON representation of the vendor resource.
 ```
 ## See also
 
-[GET vendor](../api/dynamics_vendor_Get.md)
-[DELETE vendor](../api/dynamics_vendor_Delete.md)
-[POST vendor](../api/dynamics_vendor_Create.md)
-[PATCH vendor](../api/dynamics_vendor_Update.md)
+[GET vendor](../api/dynamics_vendor_Get.md)   
+[DELETE vendor](../api/dynamics_vendor_Delete.md)   
+[POST vendor](../api/dynamics_vendor_Create.md)   
+[PATCH vendor](../api/dynamics_vendor_Update.md)   
 

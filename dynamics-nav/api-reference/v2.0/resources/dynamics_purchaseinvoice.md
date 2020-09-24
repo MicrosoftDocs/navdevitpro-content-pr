@@ -144,8 +144,8 @@ Here is a JSON representation of the purchaseInvoice resource.
 ```
 ## See also
 
-[GET purchaseInvoice](../api/dynamics_purchaseInvoice_Get.md)
-[DELETE purchaseInvoice](../api/dynamics_purchaseInvoice_Delete.md)
-[POST purchaseInvoice](../api/dynamics_purchaseInvoice_Create.md)
-[PATCH purchaseInvoice](../api/dynamics_purchaseInvoice_Update.md)
+[GET purchaseInvoice](../api/dynamics_purchaseInvoice_Get.md)   
+[DELETE purchaseInvoice](../api/dynamics_purchaseInvoice_Delete.md)   
+[POST purchaseInvoice](../api/dynamics_purchaseInvoice_Create.md)   
+[PATCH purchaseInvoice](../api/dynamics_purchaseInvoice_Update.md)   
 

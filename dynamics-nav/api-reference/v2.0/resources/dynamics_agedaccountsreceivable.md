@@ -66,5 +66,5 @@ Here is a JSON representation of the agedAccountsReceivable resource.
 ```
 ## See also
 
-[GET agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Get.md)
+[GET agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Get.md)   
 

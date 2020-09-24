@@ -108,8 +108,8 @@ Here is a JSON representation of the customer resource.
 ```
 ## See also
 
-[GET customer](../api/dynamics_customer_Get.md)
-[DELETE customer](../api/dynamics_customer_Delete.md)
-[POST customer](../api/dynamics_customer_Create.md)
-[PATCH customer](../api/dynamics_customer_Update.md)
+[GET customer](../api/dynamics_customer_Get.md)   
+[DELETE customer](../api/dynamics_customer_Delete.md)   
+[POST customer](../api/dynamics_customer_Create.md)   
+[PATCH customer](../api/dynamics_customer_Update.md)   
 

@@ -142,8 +142,8 @@ Here is a JSON representation of the salesCreditMemo resource.
 ```
 ## See also
 
-[GET salesCreditMemo](../api/dynamics_salesCreditMemo_Get.md)
-[DELETE salesCreditMemo](../api/dynamics_salesCreditMemo_Delete.md)
-[POST salesCreditMemo](../api/dynamics_salesCreditMemo_Create.md)
-[PATCH salesCreditMemo](../api/dynamics_salesCreditMemo_Update.md)
+[GET salesCreditMemo](../api/dynamics_salesCreditMemo_Get.md)   
+[DELETE salesCreditMemo](../api/dynamics_salesCreditMemo_Delete.md)   
+[POST salesCreditMemo](../api/dynamics_salesCreditMemo_Create.md)   
+[PATCH salesCreditMemo](../api/dynamics_salesCreditMemo_Update.md)   
 
