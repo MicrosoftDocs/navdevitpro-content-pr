@@ -5,7 +5,7 @@
 ## [Working with Webhooks](dynamics_subscriptions.md)
 ## [Current API Limits](dynamics-current-limits.md)
 ## [Working With API Rate Limits](dynamics-rate-limits.md)
-## [OpenAPI Specification](dynamics-open-api.md)
+<!-- ## [OpenAPI Specification](dynamics-open-api.md) -->
 ## [Error Codes](dynamics_error_codes.md)
 ## [Account](resources/dynamics_account.md)
 ### [Get account](api/dynamics_account_Get.md)
