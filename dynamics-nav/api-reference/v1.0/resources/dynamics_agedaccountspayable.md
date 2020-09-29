@@ -14,6 +14,9 @@ ms.author: solsen
 ---
 
 # agedAccountsPayable resource type
+
+[!INCLUDE[d365_api_newversion](../../includes/d365_api_newversion.md)]
+
 Represents an agedAccountsPayable object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)], which is showing the aging of a vendor account.
 
 > [!NOTE]  

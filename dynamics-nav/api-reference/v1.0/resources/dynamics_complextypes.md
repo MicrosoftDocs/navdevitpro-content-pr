@@ -14,6 +14,9 @@ ms.author: solsen
 ---
 
 # complex types JSON
+
+[!INCLUDE[d365_api_newversion](../../includes/d365_api_newversion.md)]
+
 These are the various complex types in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. You can see usage of these complex types in the various individual methods that make use of them.
 
 > [!NOTE]  

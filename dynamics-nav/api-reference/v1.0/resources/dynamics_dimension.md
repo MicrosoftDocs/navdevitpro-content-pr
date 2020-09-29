@@ -13,6 +13,9 @@ ms.author: solsen
 ---
 
 # Dimensions resource type
+
+[!INCLUDE[d365_api_newversion](../../includes/d365_api_newversion.md)]
+
 Represents a dimension in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
