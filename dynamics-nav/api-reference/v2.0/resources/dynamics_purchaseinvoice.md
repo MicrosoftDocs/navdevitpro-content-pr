@@ -26,6 +26,13 @@ Represents a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[PATCH purchaseInvoice](../api/dynamics_purchaseInvoice_Update.md)|purchaseInvoice|Updates a purchase invoice object.|
 
 
+## Bound Actions
+The purchaseInvoice resource type offers a bound action called `post` which posts the corresponding purchaseInvoice batch.
+
+Posting the purchaseInvoice batch is illustrated in the following example:
+`POST https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/purchaseInvoices({id})/Microsoft.NAV.post`.
+
+The response has no content; the response code is 204.
 
 
 ## Navigation
