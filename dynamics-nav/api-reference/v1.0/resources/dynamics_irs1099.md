@@ -14,6 +14,9 @@ ms.author: solsen
 ---
 
 # irs1099Codes resource type
+
+[!INCLUDE[d365_api_newversion](../../includes/d365_api_newversion.md)]
+
 Represents an irs1099Codes object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. IRS 1099 codes are used for reporting to the IRS.
 
 > [!NOTE]  

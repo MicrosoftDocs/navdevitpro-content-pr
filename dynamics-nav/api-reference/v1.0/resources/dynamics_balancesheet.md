@@ -14,6 +14,9 @@ ms.author: solsen
 ---
 
 # balanceSheet resource type
+
+[!INCLUDE[d365_api_newversion](../../includes/d365_api_newversion.md)]
+
 Represents a balanceSheet object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. A balance sheet is a statement of the assets, liabilities, and capital of a business at a specific point in time.
 
 > [!NOTE]  
