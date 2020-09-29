@@ -14,6 +14,9 @@ ms.author: solsen
 ---
 
 # customerSales resource type
+
+[!INCLUDE[d365_api_newversion](../../includes/d365_api_newversion.md)]
+
 Represents an customer sales in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
