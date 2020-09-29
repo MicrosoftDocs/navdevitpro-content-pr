@@ -4,7 +4,7 @@ description: Updates a sales invoice line object in Dynamics 365 Business Centra
  
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-businesscentral
+ms.service: "dynamics365-business-central"
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
