@@ -25,16 +25,13 @@ Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[POST customerPayment](../api/dynamics_customerPayment_Create.md)|customerPayment|Creates a customer payment object.|
 |[PATCH customerPayment](../api/dynamics_customerPayment_Update.md)|customerPayment|Updates a customer payment object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[customerPaymentJournal](../resources/dynamics_customerpaymentjournal.md)|customerPaymentJournal |Gets the customerpaymentjournal of the customerPayment.|
-|[customer](../resources/dynamics_customer.md)|customer |Gets the customer of the customerPayment.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the customerPayment.|
+|[customerPaymentJournal](dynamics_customerpaymentjournal.md)|customerPaymentJournal |Gets the customerpaymentjournal of the customerPayment.|
+|[customer](dynamics_customer.md)|customer |Gets the customer of the customerPayment.|
+|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the customerPayment.|
 
 
 ## Properties

@@ -25,15 +25,12 @@ Represents a customer payment journal in [!INCLUDE[d365fin_long_md](../../includ
 |[POST customerPaymentJournal](../api/dynamics_customerPaymentJournal_Create.md)|customerPaymentJournal|Creates a customer payment journal object.|
 |[PATCH customerPaymentJournal](../api/dynamics_customerPaymentJournal_Update.md)|customerPaymentJournal|Updates a customer payment journal object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[account](../resources/dynamics_account.md)|account |Gets the account of the customerPaymentJournal.|
-|[customerPayments](../resources/dynamics_customerpayments.md)|customerPayments |Gets the customerpayments of the customerPaymentJournal.|
+|[account](dynamics_account.md)|account |Gets the account of the customerPaymentJournal.|
+|[customerPayments](dynamics_customerpayments.md)|customerPayments |Gets the customerpayments of the customerPaymentJournal.|
 
 
 ## Properties

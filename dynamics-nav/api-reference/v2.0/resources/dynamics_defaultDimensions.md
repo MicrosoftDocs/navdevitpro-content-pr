@@ -25,20 +25,17 @@ Represents a default dimensions in [!INCLUDE[d365fin_long_md](../../includes/d36
 |[POST defaultDimensions](../api/dynamics_defaultDimensions_Create.md)|defaultDimensions|Creates a default dimensions object.|
 |[PATCH defaultDimensions](../api/dynamics_defaultDimensions_Update.md)|defaultDimensions|Updates a default dimensions object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[item](../resources/dynamics_item.md)|item |Gets the item of the defaultDimensions.|
-|[account](../resources/dynamics_account.md)|account |Gets the account of the defaultDimensions.|
-|[dimension](../resources/dynamics_dimension.md)|dimension |Gets the dimension of the defaultDimensions.|
-|[dimensionValue](../resources/dynamics_dimensionvalue.md)|dimensionValue |Gets the dimensionvalue of the defaultDimensions.|
-|[customer](../resources/dynamics_customer.md)|customer |Gets the customer of the defaultDimensions.|
-|[vendor](../resources/dynamics_vendor.md)|vendor |Gets the vendor of the defaultDimensions.|
-|[employee](../resources/dynamics_employee.md)|employee |Gets the employee of the defaultDimensions.|
+|[item](dynamics_item.md)|item |Gets the item of the defaultDimensions.|
+|[account](dynamics_account.md)|account |Gets the account of the defaultDimensions.|
+|[dimension](dynamics_dimension.md)|dimension |Gets the dimension of the defaultDimensions.|
+|[dimensionValue](dynamics_dimensionvalue.md)|dimensionValue |Gets the dimensionvalue of the defaultDimensions.|
+|[customer](dynamics_customer.md)|customer |Gets the customer of the defaultDimensions.|
+|[vendor](dynamics_vendor.md)|vendor |Gets the vendor of the defaultDimensions.|
+|[employee](dynamics_employee.md)|employee |Gets the employee of the defaultDimensions.|
 
 
 ## Properties
