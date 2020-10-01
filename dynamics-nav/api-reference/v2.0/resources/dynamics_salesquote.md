@@ -25,6 +25,28 @@ Represents a sales quote in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |[POST salesQuote](../api/dynamics_salesQuote_Create.md)|salesQuote|Creates a sales quote object.|
 |[PATCH salesQuote](../api/dynamics_salesQuote_Update.md)|salesQuote|Updates a sales quote object.|
 
+## Bound Actions
+The salesQuote resource type offers a bound action called `makeInvoice` which posts the corresponding salesQuote batch.
+
+Posting the salesQuote batch is illustrated in the following example:
+`MAKEINVOICE https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesQuotes({id})/Microsoft.NAV.makeInvoice`.
+
+The response has no content; the response code is 204.
+
+The salesQuote resource type offers a bound action called `makeOrder` which posts the corresponding salesQuote batch.
+
+Posting the salesQuote batch is illustrated in the following example:
+`MAKEORDER https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesQuotes({id})/Microsoft.NAV.makeOrder`.
+
+The response has no content; the response code is 204.
+
+The salesQuote resource type offers a bound action called `send` which posts the corresponding salesQuote batch.
+
+Posting the salesQuote batch is illustrated in the following example:
+`SEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesQuotes({id})/Microsoft.NAV.send`.
+
+The response has no content; the response code is 204.
+
 ## Navigation
 
 | Navigation |Return Type| Description |    
