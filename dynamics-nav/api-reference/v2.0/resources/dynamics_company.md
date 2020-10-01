@@ -37,7 +37,7 @@ Represents a company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |[customers](dynamics_customer.md)|customers |Gets the customers of the company.|
 |[customerFinancialDetails](dynamics_customerfinancialdetail.md)|customerFinancialDetails |Gets the customerfinancialdetails of the company.|
 |[agedAccountsReceivables](dynamics_agedaccountsreceivable.md)|agedAccountsReceivables |Gets the agedaccountsreceivables of the company.|
-|[vendors](dynamics_vendors.md)|vendors |Gets the vendors of the company.|
+|[vendors](dynamics_vendor.md)|vendors |Gets the vendors of the company.|
 |[agedAccountsPayables](dynamics_agedaccountspayable.md)|agedAccountsPayables |Gets the agedaccountspayables of the company.|
 |[companyInformation](dynamics_companyinformation.md)|companyInformation |Gets the companyinformation of the company.|
 |[salesInvoices](dynamics_salesinvoice.md)|salesInvoices |Gets the salesinvoices of the company.|
@@ -62,7 +62,7 @@ Represents a company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |[shipmentMethods](dynamics_shipmentmethod.md)|shipmentMethods |Gets the shipmentmethods of the company.|
 |[itemCategories](dynamics_itemcategory.md)|itemCategories |Gets the itemcategories of the company.|
 |[cashFlowStatements](dynamics_cashflowstatement.md)|cashFlowStatements |Gets the cashflowstatements of the company.|
-|[countriesRegions](dynamics_countriesregion.md)|countriesRegions |Gets the countriesregions of the company.|
+|[countriesRegions](dynamics_countryregion.md)|countriesRegions |Gets the countriesregions of the company.|
 |[salesOrders](dynamics_salesorder.md)|salesOrders |Gets the salesorders of the company.|
 |[salesOrderLines](dynamics_salesorderline.md)|salesOrderLines |Gets the salesorderlines of the company.|
 |[retainedEarningsStatements](dynamics_retainedearningsstatement.md)|retainedEarningsStatements |Gets the retainedearningsstatements of the company.|
