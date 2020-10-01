@@ -30,7 +30,7 @@ Represents a company information in [!INCLUDE[d365fin_long_md](../../includes/d3
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion |Gets the countryregion of the companyInformation.|
+|[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the companyInformation.|
 
 
 ## Properties
