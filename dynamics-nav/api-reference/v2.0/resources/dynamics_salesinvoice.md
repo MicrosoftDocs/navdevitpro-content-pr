@@ -25,6 +25,49 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |[POST salesInvoice](../api/dynamics_salesInvoice_Create.md)|salesInvoice|Creates a sales invoice object.|
 |[PATCH salesInvoice](../api/dynamics_salesInvoice_Update.md)|salesInvoice|Updates a sales invoice object.|
 
+## Bound Actions
+The salesInvoice resource type offers a bound action called `cancelAndSend` which posts the corresponding salesInvoice batch.
+
+Posting the salesInvoice batch is illustrated in the following example:
+`CANCELANDSEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.cancelAndSend`.
+
+The response has no content; the response code is 204.
+
+The salesInvoice resource type offers a bound action called `cancel` which posts the corresponding salesInvoice batch.
+
+Posting the salesInvoice batch is illustrated in the following example:
+`CANCEL https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.cancel`.
+
+The response has no content; the response code is 204.
+
+The salesInvoice resource type offers a bound action called `makeCorrectiveCreditMemo` which posts the corresponding salesInvoice batch.
+
+Posting the salesInvoice batch is illustrated in the following example:
+`MAKECORRECTIVECREDITMEMO https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.makeCorrectiveCreditMemo`.
+
+The response has no content; the response code is 204.
+
+The salesInvoice resource type offers a bound action called `postAndSend` which posts the corresponding salesInvoice batch.
+
+Posting the salesInvoice batch is illustrated in the following example:
+`POSTANDSEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.postAndSend`.
+
+The response has no content; the response code is 204.
+
+The salesInvoice resource type offers a bound action called `post` which posts the corresponding salesInvoice batch.
+
+Posting the salesInvoice batch is illustrated in the following example:
+`POST https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.post`.
+
+The response has no content; the response code is 204.
+
+The salesInvoice resource type offers a bound action called `send` which posts the corresponding salesInvoice batch.
+
+Posting the salesInvoice batch is illustrated in the following example:
+`SEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.send`.
+
+The response has no content; the response code is 204.
+
 ## Navigation
 
 | Navigation |Return Type| Description |    
@@ -34,10 +77,10 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |[currency](dynamics_currency.md)|currency |Gets the currency of the salesInvoice.|
 |[paymentTerm](dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the salesInvoice.|
 |[shipmentMethod](dynamics_shipmentmethod.md)|shipmentMethod |Gets the shipmentmethod of the salesInvoice.|
-|[salesInvoiceLines](dynamics_salesinvoicelines.md)|salesInvoiceLines |Gets the salesinvoicelines of the salesInvoice.|
+|[salesInvoiceLines](dynamics_salesinvoiceline.md)|salesInvoiceLines |Gets the salesinvoicelines of the salesInvoice.|
 |[pdfDocument](dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the salesInvoice.|
-|[attachments](dynamics_attachments.md)|attachments |Gets the attachments of the salesInvoice.|
-|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesInvoice.|
+|[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the salesInvoice.|
+|[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesInvoice.|
 
 
 ## Properties

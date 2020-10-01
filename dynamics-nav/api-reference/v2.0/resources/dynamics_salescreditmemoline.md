@@ -34,7 +34,7 @@ Represents a sales credit memo line in [!INCLUDE[d365fin_long_md](../../includes
 |[account](dynamics_account.md)|account |Gets the account of the salesCreditMemoLine.|
 |[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the salesCreditMemoLine.|
 |[itemVariant](dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the salesCreditMemoLine.|
-|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesCreditMemoLine.|
+|[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesCreditMemoLine.|
 
 
 ## Properties

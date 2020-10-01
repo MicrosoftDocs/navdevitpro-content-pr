@@ -34,7 +34,7 @@ Represents a sales invoice line in [!INCLUDE[d365fin_long_md](../../includes/d36
 |[account](dynamics_account.md)|account |Gets the account of the salesInvoiceLine.|
 |[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the salesInvoiceLine.|
 |[itemVariant](dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the salesInvoiceLine.|
-|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesInvoiceLine.|
+|[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesInvoiceLine.|
 
 
 ## Properties

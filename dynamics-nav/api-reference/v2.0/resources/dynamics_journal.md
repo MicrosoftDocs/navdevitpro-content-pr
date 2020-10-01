@@ -25,12 +25,20 @@ Represents a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |[POST journal](../api/dynamics_journal_Create.md)|journal|Creates a journal object.|
 |[PATCH journal](../api/dynamics_journal_Update.md)|journal|Updates a journal object.|
 
+## Bound Actions
+The journal resource type offers a bound action called `post` which posts the corresponding journal batch.
+
+Posting the journal batch is illustrated in the following example:
+`POST https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/journals({id})/Microsoft.NAV.post`.
+
+The response has no content; the response code is 204.
+
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
 |[account](dynamics_account.md)|account |Gets the account of the journal.|
-|[journalLines](dynamics_journallines.md)|journalLines |Gets the journallines of the journal.|
+|[journalLines](dynamics_journalline.md)|journalLines |Gets the journallines of the journal.|
 
 
 ## Properties

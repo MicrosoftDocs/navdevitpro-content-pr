@@ -34,7 +34,7 @@ Represents a sales order line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[account](dynamics_account.md)|account |Gets the account of the salesOrderLine.|
 |[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the salesOrderLine.|
 |[itemVariant](dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the salesOrderLine.|
-|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesOrderLine.|
+|[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesOrderLine.|
 
 
 ## Properties

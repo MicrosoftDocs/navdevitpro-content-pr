@@ -27,8 +27,8 @@ Represents a general ledger entry in [!INCLUDE[d365fin_long_md](../../includes/d
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
 |[account](dynamics_account.md)|account |Gets the account of the generalLedgerEntry.|
-|[attachments](dynamics_attachments.md)|attachments |Gets the attachments of the generalLedgerEntry.|
-|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the generalLedgerEntry.|
+|[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the generalLedgerEntry.|
+|[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the generalLedgerEntry.|
 
 
 ## Properties

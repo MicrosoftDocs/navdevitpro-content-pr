@@ -32,8 +32,8 @@ Represents a journal line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 |[journal](dynamics_journal.md)|journal |Gets the journal of the journalLine.|
 |[customerPaymentJournal](dynamics_customerpaymentjournal.md)|customerPaymentJournal |Gets the customerpaymentjournal of the journalLine.|
 |[account](dynamics_account.md)|account |Gets the account of the journalLine.|
-|[attachments](dynamics_attachments.md)|attachments |Gets the attachments of the journalLine.|
-|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the journalLine.|
+|[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the journalLine.|
+|[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the journalLine.|
 
 
 ## Properties

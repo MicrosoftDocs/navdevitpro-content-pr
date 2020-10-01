@@ -31,7 +31,7 @@ Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |:----------|:----------|:-----------------|
 |[customerPaymentJournal](dynamics_customerpaymentjournal.md)|customerPaymentJournal |Gets the customerpaymentjournal of the customerPayment.|
 |[customer](dynamics_customer.md)|customer |Gets the customer of the customerPayment.|
-|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the customerPayment.|
+|[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the customerPayment.|
 
 
 ## Properties
