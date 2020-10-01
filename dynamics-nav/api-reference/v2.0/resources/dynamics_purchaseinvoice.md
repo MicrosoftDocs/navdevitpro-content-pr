@@ -40,7 +40,7 @@ The response has no content; the response code is 204.
 |[vendor](dynamics_vendor.md)|vendor |Gets the vendor of the purchaseInvoice.|
 |[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the purchaseInvoice.|
 |[currency](dynamics_currency.md)|currency |Gets the currency of the purchaseInvoice.|
-|[purchaseInvoiceLines](dynamics_purchaseinvoicelines.md)|purchaseInvoiceLines |Gets the purchaseinvoicelines of the purchaseInvoice.|
+|[purchaseInvoiceLines](dynamics_purchaseinvoiceline.md)|purchaseInvoiceLines |Gets the purchaseinvoicelines of the purchaseInvoice.|
 |[pdfDocument](dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the purchaseInvoice.|
 |[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the purchaseInvoice.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the purchaseInvoice.|

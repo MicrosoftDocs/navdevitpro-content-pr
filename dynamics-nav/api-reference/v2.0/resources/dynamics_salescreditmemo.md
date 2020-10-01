@@ -70,7 +70,7 @@ The response has no content; the response code is 204.
 |[currency](dynamics_currency.md)|currency |Gets the currency of the salesCreditMemo.|
 |[paymentTerm](dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the salesCreditMemo.|
 |[shipmentMethod](dynamics_shipmentmethod.md)|shipmentMethod |Gets the shipmentmethod of the salesCreditMemo.|
-|[salesCreditMemoLines](dynamics_salescreditmemolines.md)|salesCreditMemoLines |Gets the salescreditmemolines of the salesCreditMemo.|
+|[salesCreditMemoLines](dynamics_salescreditmemoline.md)|salesCreditMemoLines |Gets the salescreditmemolines of the salesCreditMemo.|
 |[pdfDocument](dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the salesCreditMemo.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesCreditMemo.|
 |[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the salesCreditMemo.|

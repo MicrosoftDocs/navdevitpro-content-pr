@@ -77,7 +77,7 @@ The response has no content; the response code is 204.
 |[currency](dynamics_currency.md)|currency |Gets the currency of the salesInvoice.|
 |[paymentTerm](dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the salesInvoice.|
 |[shipmentMethod](dynamics_shipmentmethod.md)|shipmentMethod |Gets the shipmentmethod of the salesInvoice.|
-|[salesInvoiceLines](dynamics_salesinvoicelines.md)|salesInvoiceLines |Gets the salesinvoicelines of the salesInvoice.|
+|[salesInvoiceLines](dynamics_salesinvoiceline.md)|salesInvoiceLines |Gets the salesinvoicelines of the salesInvoice.|
 |[pdfDocument](dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the salesInvoice.|
 |[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the salesInvoice.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesInvoice.|

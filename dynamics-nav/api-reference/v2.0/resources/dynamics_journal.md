@@ -38,7 +38,7 @@ The response has no content; the response code is 204.
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
 |[account](dynamics_account.md)|account |Gets the account of the journal.|
-|[journalLines](dynamics_journallines.md)|journalLines |Gets the journallines of the journal.|
+|[journalLines](dynamics_journalline.md)|journalLines |Gets the journallines of the journal.|
 
 
 ## Properties
