@@ -25,22 +25,19 @@ Represents a sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d365
 |[POST salesCreditMemo](../api/dynamics_salesCreditMemo_Create.md)|salesCreditMemo|Creates a sales credit memo object.|
 |[PATCH salesCreditMemo](../api/dynamics_salesCreditMemo_Update.md)|salesCreditMemo|Updates a sales credit memo object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[customer](../resources/dynamics_customer.md)|customer |Gets the customer of the salesCreditMemo.|
-|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion |Gets the countryregion of the salesCreditMemo.|
-|[currency](../resources/dynamics_currency.md)|currency |Gets the currency of the salesCreditMemo.|
-|[paymentTerm](../resources/dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the salesCreditMemo.|
-|[shipmentMethod](../resources/dynamics_shipmentmethod.md)|shipmentMethod |Gets the shipmentmethod of the salesCreditMemo.|
-|[salesCreditMemoLines](../resources/dynamics_salescreditmemolines.md)|salesCreditMemoLines |Gets the salescreditmemolines of the salesCreditMemo.|
-|[pdfDocument](../resources/dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the salesCreditMemo.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesCreditMemo.|
-|[attachments](../resources/dynamics_attachments.md)|attachments |Gets the attachments of the salesCreditMemo.|
+|[customer](dynamics_customer.md)|customer |Gets the customer of the salesCreditMemo.|
+|[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the salesCreditMemo.|
+|[currency](dynamics_currency.md)|currency |Gets the currency of the salesCreditMemo.|
+|[paymentTerm](dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the salesCreditMemo.|
+|[shipmentMethod](dynamics_shipmentmethod.md)|shipmentMethod |Gets the shipmentmethod of the salesCreditMemo.|
+|[salesCreditMemoLines](dynamics_salescreditmemolines.md)|salesCreditMemoLines |Gets the salescreditmemolines of the salesCreditMemo.|
+|[pdfDocument](dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the salesCreditMemo.|
+|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesCreditMemo.|
+|[attachments](dynamics_attachments.md)|attachments |Gets the attachments of the salesCreditMemo.|
 
 
 ## Properties

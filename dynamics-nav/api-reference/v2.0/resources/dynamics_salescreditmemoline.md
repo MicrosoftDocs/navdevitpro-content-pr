@@ -25,19 +25,16 @@ Represents a sales credit memo line in [!INCLUDE[d365fin_long_md](../../includes
 |[POST salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Create.md)|salesCreditMemoLine|Creates a sales credit memo line object.|
 |[PATCH salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Update.md)|salesCreditMemoLine|Updates a sales credit memo line object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[salesCreditMemo](../resources/dynamics_salescreditmemo.md)|salesCreditMemo |Gets the salescreditmemo of the salesCreditMemoLine.|
-|[item](../resources/dynamics_item.md)|item |Gets the item of the salesCreditMemoLine.|
-|[account](../resources/dynamics_account.md)|account |Gets the account of the salesCreditMemoLine.|
-|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the salesCreditMemoLine.|
-|[itemVariant](../resources/dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the salesCreditMemoLine.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesCreditMemoLine.|
+|[salesCreditMemo](dynamics_salescreditmemo.md)|salesCreditMemo |Gets the salescreditmemo of the salesCreditMemoLine.|
+|[item](dynamics_item.md)|item |Gets the item of the salesCreditMemoLine.|
+|[account](dynamics_account.md)|account |Gets the account of the salesCreditMemoLine.|
+|[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the salesCreditMemoLine.|
+|[itemVariant](dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the salesCreditMemoLine.|
+|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesCreditMemoLine.|
 
 
 ## Properties

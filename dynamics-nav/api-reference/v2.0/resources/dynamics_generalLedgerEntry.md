@@ -22,16 +22,13 @@ Represents a general ledger entry in [!INCLUDE[d365fin_long_md](../../includes/d
 |:--------------------|:-----------|:-------------------------|
 |[GET generalLedgerEntry](../api/dynamics_generalLedgerEntry_Get.md)|generalLedgerEntry|Gets a general ledger entry object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[account](../resources/dynamics_account.md)|account |Gets the account of the generalLedgerEntry.|
-|[attachments](../resources/dynamics_attachments.md)|attachments |Gets the attachments of the generalLedgerEntry.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the generalLedgerEntry.|
+|[account](dynamics_account.md)|account |Gets the account of the generalLedgerEntry.|
+|[attachments](dynamics_attachments.md)|attachments |Gets the attachments of the generalLedgerEntry.|
+|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the generalLedgerEntry.|
 
 
 ## Properties
