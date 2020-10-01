@@ -35,7 +35,7 @@ Represents a time registration entry in [!INCLUDE[d365fin_long_md](../../include
 |[employee](dynamics_employee.md)|employee |Gets the employee of the timeRegistrationEntry.|
 |[project](dynamics_project.md)|project |Gets the project of the timeRegistrationEntry.|
 |[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the timeRegistrationEntry.|
-|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the timeRegistrationEntry.|
+|[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the timeRegistrationEntry.|
 
 
 ## Properties

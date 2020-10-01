@@ -42,9 +42,9 @@ Represents a company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |[companyInformation](dynamics_companyinformation.md)|companyInformation |Gets the companyinformation of the company.|
 |[salesInvoices](dynamics_salesinvoices.md)|salesInvoices |Gets the salesinvoices of the company.|
 |[salesInvoiceLines](dynamics_salesinvoicelines.md)|salesInvoiceLines |Gets the salesinvoicelines of the company.|
-|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the company.|
+|[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the company.|
 |[pdfDocument](dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the company.|
-|[attachments](dynamics_attachments.md)|attachments |Gets the attachments of the company.|
+|[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the company.|
 |[customerPaymentJournals](dynamics_customerpaymentjournals.md)|customerPaymentJournals |Gets the customerpaymentjournals of the company.|
 |[customerPayments](dynamics_customerpayments.md)|customerPayments |Gets the customerpayments of the company.|
 |[accounts](dynamics_accounts.md)|accounts |Gets the accounts of the company.|
@@ -64,7 +64,7 @@ Represents a company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |[cashFlowStatements](dynamics_cashflowstatements.md)|cashFlowStatements |Gets the cashflowstatements of the company.|
 |[countriesRegions](dynamics_countriesregions.md)|countriesRegions |Gets the countriesregions of the company.|
 |[salesOrders](dynamics_salesorders.md)|salesOrders |Gets the salesorders of the company.|
-|[salesOrderLines](dynamics_salesorderlines.md)|salesOrderLines |Gets the salesorderlines of the company.|
+|[salesOrderLines](dynamics_salesorderline.md)|salesOrderLines |Gets the salesorderlines of the company.|
 |[retainedEarningsStatements](dynamics_retainedearningsstatements.md)|retainedEarningsStatements |Gets the retainedearningsstatements of the company.|
 |[balanceSheets](dynamics_balancesheets.md)|balanceSheets |Gets the balancesheets of the company.|
 |[trialBalances](dynamics_trialbalances.md)|trialBalances |Gets the trialbalances of the company.|

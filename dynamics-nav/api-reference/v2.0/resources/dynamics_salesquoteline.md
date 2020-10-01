@@ -34,7 +34,7 @@ Represents a sales quote line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[account](dynamics_account.md)|account |Gets the account of the salesQuoteLine.|
 |[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the salesQuoteLine.|
 |[itemVariant](dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the salesQuoteLine.|
-|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesQuoteLine.|
+|[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesQuoteLine.|
 
 
 ## Properties

@@ -34,7 +34,7 @@ Represents a purchase invoice line in [!INCLUDE[d365fin_long_md](../../includes/
 |[account](dynamics_account.md)|account |Gets the account of the purchaseInvoiceLine.|
 |[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the purchaseInvoiceLine.|
 |[itemVariant](dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the purchaseInvoiceLine.|
-|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the purchaseInvoiceLine.|
+|[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the purchaseInvoiceLine.|
 
 
 ## Properties

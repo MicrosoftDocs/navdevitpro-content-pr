@@ -56,10 +56,10 @@ The response has no content; the response code is 204.
 |[currency](dynamics_currency.md)|currency |Gets the currency of the salesQuote.|
 |[paymentTerm](dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the salesQuote.|
 |[shipmentMethod](dynamics_shipmentmethod.md)|shipmentMethod |Gets the shipmentmethod of the salesQuote.|
-|[salesQuoteLines](dynamics_salesquotelines.md)|salesQuoteLines |Gets the salesquotelines of the salesQuote.|
+|[salesQuoteLines](dynamics_salesquoteline.md)|salesQuoteLines |Gets the salesquotelines of the salesQuote.|
 |[pdfDocument](dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the salesQuote.|
-|[attachments](dynamics_attachments.md)|attachments |Gets the attachments of the salesQuote.|
-|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesQuote.|
+|[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the salesQuote.|
+|[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesQuote.|
 
 
 ## Properties

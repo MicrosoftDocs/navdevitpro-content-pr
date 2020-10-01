@@ -42,9 +42,9 @@ The response has no content; the response code is 204.
 |[currency](dynamics_currency.md)|currency |Gets the currency of the salesOrder.|
 |[paymentTerm](dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the salesOrder.|
 |[shipmentMethod](dynamics_shipmentmethod.md)|shipmentMethod |Gets the shipmentmethod of the salesOrder.|
-|[salesOrderLines](dynamics_salesorderlines.md)|salesOrderLines |Gets the salesorderlines of the salesOrder.|
-|[attachments](dynamics_attachments.md)|attachments |Gets the attachments of the salesOrder.|
-|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesOrder.|
+|[salesOrderLines](dynamics_salesorderline.md)|salesOrderLines |Gets the salesorderlines of the salesOrder.|
+|[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the salesOrder.|
+|[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesOrder.|
 
 
 ## Properties

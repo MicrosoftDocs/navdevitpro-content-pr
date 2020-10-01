@@ -42,8 +42,8 @@ The response has no content; the response code is 204.
 |[currency](dynamics_currency.md)|currency |Gets the currency of the purchaseInvoice.|
 |[purchaseInvoiceLines](dynamics_purchaseinvoicelines.md)|purchaseInvoiceLines |Gets the purchaseinvoicelines of the purchaseInvoice.|
 |[pdfDocument](dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the purchaseInvoice.|
-|[attachments](dynamics_attachments.md)|attachments |Gets the attachments of the purchaseInvoice.|
-|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the purchaseInvoice.|
+|[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the purchaseInvoice.|
+|[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the purchaseInvoice.|
 
 
 ## Properties

@@ -72,8 +72,8 @@ The response has no content; the response code is 204.
 |[shipmentMethod](dynamics_shipmentmethod.md)|shipmentMethod |Gets the shipmentmethod of the salesCreditMemo.|
 |[salesCreditMemoLines](dynamics_salescreditmemolines.md)|salesCreditMemoLines |Gets the salescreditmemolines of the salesCreditMemo.|
 |[pdfDocument](dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the salesCreditMemo.|
-|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesCreditMemo.|
-|[attachments](dynamics_attachments.md)|attachments |Gets the attachments of the salesCreditMemo.|
+|[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesCreditMemo.|
+|[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the salesCreditMemo.|
 
 
 ## Properties
