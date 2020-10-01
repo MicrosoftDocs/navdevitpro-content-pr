@@ -25,20 +25,17 @@ Represents an attachment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |[POST attachment](../api/dynamics_attachment_Create.md)|attachment|Creates a attachment object.|
 |[PATCH attachment](../api/dynamics_attachment_Update.md)|attachment|Updates a attachment object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[salesInvoice](../resources/dynamics_salesinvoice.md)|salesInvoice |Gets the salesinvoice of the attachment.|
-|[journalLine](../resources/dynamics_journalline.md)|journalLine |Gets the journalline of the attachment.|
-|[generalLedgerEntry](../resources/dynamics_generalledgerentry.md)|generalLedgerEntry |Gets the generalledgerentry of the attachment.|
-|[salesOrder](../resources/dynamics_salesorder.md)|salesOrder |Gets the salesorder of the attachment.|
-|[salesQuote](../resources/dynamics_salesquote.md)|salesQuote |Gets the salesquote of the attachment.|
-|[salesCreditMemo](../resources/dynamics_salescreditmemo.md)|salesCreditMemo |Gets the salescreditmemo of the attachment.|
-|[purchaseInvoice](../resources/dynamics_purchaseinvoice.md)|purchaseInvoice |Gets the purchaseinvoice of the attachment.|
+|[salesInvoice](dynamics_salesinvoice.md)|salesInvoice |Gets the salesinvoice of the attachment.|
+|[journalLine](dynamics_journalline.md)|journalLine |Gets the journalline of the attachment.|
+|[generalLedgerEntry](dynamics_generalledgerentry.md)|generalLedgerEntry |Gets the generalledgerentry of the attachment.|
+|[salesOrder](dynamics_salesorder.md)|salesOrder |Gets the salesorder of the attachment.|
+|[salesQuote](dynamics_salesquote.md)|salesQuote |Gets the salesquote of the attachment.|
+|[salesCreditMemo](dynamics_salescreditmemo.md)|salesCreditMemo |Gets the salescreditmemo of the attachment.|
+|[purchaseInvoice](dynamics_purchaseinvoice.md)|purchaseInvoice |Gets the purchaseinvoice of the attachment.|
 
 
 ## Properties

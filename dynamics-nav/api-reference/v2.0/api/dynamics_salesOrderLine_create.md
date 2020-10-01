@@ -128,6 +128,6 @@ Content-type: application/json
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Sales Order Line](../resources/dynamics_salesorderline.md)  
-[Get Sales Order Line](../api/dynamics_salesorderline_get.md)  
-[Update Sales Order Line](../api/dynamics_salesorderline_update.md)  
-[Delete Sales Order Line](../api/dynamics_salesorderline_delete.md)  
+[Get Sales Order Line](dynamics_salesorderline_get.md)  
+[Update Sales Order Line](dynamics_salesorderline_update.md)  
+[Delete Sales Order Line](dynamics_salesorderline_delete.md)  

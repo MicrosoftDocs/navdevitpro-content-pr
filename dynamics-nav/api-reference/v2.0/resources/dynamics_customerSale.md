@@ -23,10 +23,6 @@ Represents a customer sale in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |[GET customerSale](../api/dynamics_customerSale_Get.md)|customerSale|Gets a customer sale object.|
 
 
-
-
-
-
 ## Properties
 
 | Property           | Type   |Description     |

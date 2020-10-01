@@ -25,7 +25,6 @@ Represents a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[POST purchaseInvoice](../api/dynamics_purchaseInvoice_Create.md)|purchaseInvoice|Creates a purchase invoice object.|
 |[PATCH purchaseInvoice](../api/dynamics_purchaseInvoice_Update.md)|purchaseInvoice|Updates a purchase invoice object.|
 
-
 ## Bound Actions
 The purchaseInvoice resource type offers a bound action called `post` which posts the corresponding purchaseInvoice batch.
 
@@ -34,18 +33,17 @@ Posting the purchaseInvoice batch is illustrated in the following example:
 
 The response has no content; the response code is 204.
 
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[vendor](../resources/dynamics_vendor.md)|vendor |Gets the vendor of the purchaseInvoice.|
-|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion |Gets the countryregion of the purchaseInvoice.|
-|[currency](../resources/dynamics_currency.md)|currency |Gets the currency of the purchaseInvoice.|
-|[purchaseInvoiceLines](../resources/dynamics_purchaseinvoicelines.md)|purchaseInvoiceLines |Gets the purchaseinvoicelines of the purchaseInvoice.|
-|[pdfDocument](../resources/dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the purchaseInvoice.|
-|[attachments](../resources/dynamics_attachments.md)|attachments |Gets the attachments of the purchaseInvoice.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the purchaseInvoice.|
+|[vendor](dynamics_vendor.md)|vendor |Gets the vendor of the purchaseInvoice.|
+|[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the purchaseInvoice.|
+|[currency](dynamics_currency.md)|currency |Gets the currency of the purchaseInvoice.|
+|[purchaseInvoiceLines](dynamics_purchaseinvoicelines.md)|purchaseInvoiceLines |Gets the purchaseinvoicelines of the purchaseInvoice.|
+|[pdfDocument](dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the purchaseInvoice.|
+|[attachments](dynamics_attachments.md)|attachments |Gets the attachments of the purchaseInvoice.|
+|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the purchaseInvoice.|
 
 
 ## Properties

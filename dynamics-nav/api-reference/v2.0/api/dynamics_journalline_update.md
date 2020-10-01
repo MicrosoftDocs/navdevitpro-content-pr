@@ -76,6 +76,6 @@ Content-type: application/json
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [journalline](../resources/dynamics_journalline.md)    
-[Get journalline](../api/dynamics_journalline_Get.md)    
-[Delete journalline](../api/dynamics_journalline_Delete.md)    
-[Create journalline](../api/dynamics_journalline_Create.md)    
+[Get journalline](dynamics_journalline_Get.md)    
+[Delete journalline](dynamics_journalline_Delete.md)    
+[Create journalline](dynamics_journalline_Create.md)    

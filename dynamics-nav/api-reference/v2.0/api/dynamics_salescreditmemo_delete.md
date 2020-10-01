@@ -56,6 +56,6 @@ HTTP/1.1 204 No Content
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [salescreditmemo](../resources/dynamics_salescreditmemo.md)    
-[Get salescreditmemo](../api/dynamics_salescreditmemo_Get.md)    
-[Create salescreditmemo](../api/dynamics_salescreditmemo_Create.md)    
-[Update salescreditmemo](../api/dynamics_salescreditmemo_Update.md)    
+[Get salescreditmemo](dynamics_salescreditmemo_Get.md)    
+[Create salescreditmemo](dynamics_salescreditmemo_Create.md)    
+[Update salescreditmemo](dynamics_salescreditmemo_Update.md)    

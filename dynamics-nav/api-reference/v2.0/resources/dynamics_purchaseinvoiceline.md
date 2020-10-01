@@ -25,19 +25,16 @@ Represents a purchase invoice line in [!INCLUDE[d365fin_long_md](../../includes/
 |[POST purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Create.md)|purchaseInvoiceLine|Creates a purchase invoice line object.|
 |[PATCH purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Update.md)|purchaseInvoiceLine|Updates a purchase invoice line object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[purchaseInvoice](../resources/dynamics_purchaseinvoice.md)|purchaseInvoice |Gets the purchaseinvoice of the purchaseInvoiceLine.|
-|[item](../resources/dynamics_item.md)|item |Gets the item of the purchaseInvoiceLine.|
-|[account](../resources/dynamics_account.md)|account |Gets the account of the purchaseInvoiceLine.|
-|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the purchaseInvoiceLine.|
-|[itemVariant](../resources/dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the purchaseInvoiceLine.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the purchaseInvoiceLine.|
+|[purchaseInvoice](dynamics_purchaseinvoice.md)|purchaseInvoice |Gets the purchaseinvoice of the purchaseInvoiceLine.|
+|[item](dynamics_item.md)|item |Gets the item of the purchaseInvoiceLine.|
+|[account](dynamics_account.md)|account |Gets the account of the purchaseInvoiceLine.|
+|[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the purchaseInvoiceLine.|
+|[itemVariant](dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the purchaseInvoiceLine.|
+|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the purchaseInvoiceLine.|
 
 
 ## Properties

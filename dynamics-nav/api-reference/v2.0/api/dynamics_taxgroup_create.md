@@ -73,6 +73,6 @@ Content-type: application/json
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [taxgroup](../resources/dynamics_taxgroup.md)    
-[Get taxgroup](../api/dynamics_taxgroup_Get.md)    
-[Delete taxgroup](../api/dynamics_taxgroup_Delete.md)    
-[Update taxgroup](../api/dynamics_taxgroup_Update.md)    
+[Get taxgroup](dynamics_taxgroup_Get.md)    
+[Delete taxgroup](dynamics_taxgroup_Delete.md)    
+[Update taxgroup](dynamics_taxgroup_Update.md)    

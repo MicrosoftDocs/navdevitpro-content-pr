@@ -25,19 +25,16 @@ Represents a sales order line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[POST salesOrderLine](../api/dynamics_salesOrderLine_Create.md)|salesOrderLine|Creates a sales order line object.|
 |[PATCH salesOrderLine](../api/dynamics_salesOrderLine_Update.md)|salesOrderLine|Updates a sales order line object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[salesOrder](../resources/dynamics_salesorder.md)|salesOrder |Gets the salesorder of the salesOrderLine.|
-|[item](../resources/dynamics_item.md)|item |Gets the item of the salesOrderLine.|
-|[account](../resources/dynamics_account.md)|account |Gets the account of the salesOrderLine.|
-|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the salesOrderLine.|
-|[itemVariant](../resources/dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the salesOrderLine.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesOrderLine.|
+|[salesOrder](dynamics_salesorder.md)|salesOrder |Gets the salesorder of the salesOrderLine.|
+|[item](dynamics_item.md)|item |Gets the item of the salesOrderLine.|
+|[account](dynamics_account.md)|account |Gets the account of the salesOrderLine.|
+|[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the salesOrderLine.|
+|[itemVariant](dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the salesOrderLine.|
+|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesOrderLine.|
 
 
 ## Properties

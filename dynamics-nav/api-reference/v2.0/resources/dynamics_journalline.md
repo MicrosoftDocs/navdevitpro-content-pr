@@ -25,18 +25,15 @@ Represents a journal line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 |[POST journalLine](../api/dynamics_journalLine_Create.md)|journalLine|Creates a journal line object.|
 |[PATCH journalLine](../api/dynamics_journalLine_Update.md)|journalLine|Updates a journal line object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[journal](../resources/dynamics_journal.md)|journal |Gets the journal of the journalLine.|
-|[customerPaymentJournal](../resources/dynamics_customerpaymentjournal.md)|customerPaymentJournal |Gets the customerpaymentjournal of the journalLine.|
-|[account](../resources/dynamics_account.md)|account |Gets the account of the journalLine.|
-|[attachments](../resources/dynamics_attachments.md)|attachments |Gets the attachments of the journalLine.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the journalLine.|
+|[journal](dynamics_journal.md)|journal |Gets the journal of the journalLine.|
+|[customerPaymentJournal](dynamics_customerpaymentjournal.md)|customerPaymentJournal |Gets the customerpaymentjournal of the journalLine.|
+|[account](dynamics_account.md)|account |Gets the account of the journalLine.|
+|[attachments](dynamics_attachments.md)|attachments |Gets the attachments of the journalLine.|
+|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the journalLine.|
 
 
 ## Properties

@@ -25,22 +25,19 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 |[POST customer](../api/dynamics_customer_Create.md)|customer|Creates a customer object.|
 |[PATCH customer](../api/dynamics_customer_Update.md)|customer|Updates a customer object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion |Gets the countryregion of the customer.|
-|[currency](../resources/dynamics_currency.md)|currency |Gets the currency of the customer.|
-|[paymentTerm](../resources/dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the customer.|
-|[shipmentMethod](../resources/dynamics_shipmentmethod.md)|shipmentMethod |Gets the shipmentmethod of the customer.|
-|[paymentMethod](../resources/dynamics_paymentmethod.md)|paymentMethod |Gets the paymentmethod of the customer.|
-|[customerFinancialDetail](../resources/dynamics_customerfinancialdetail.md)|customerFinancialDetail |Gets the customerfinancialdetail of the customer.|
-|[picture](../resources/dynamics_picture.md)|picture |Gets the picture of the customer.|
-|[defaultDimensions](../resources/dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the customer.|
-|[agedAccountsReceivable](../resources/dynamics_agedaccountsreceivable.md)|agedAccountsReceivable |Gets the agedaccountsreceivable of the customer.|
+|[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the customer.|
+|[currency](dynamics_currency.md)|currency |Gets the currency of the customer.|
+|[paymentTerm](dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the customer.|
+|[shipmentMethod](dynamics_shipmentmethod.md)|shipmentMethod |Gets the shipmentmethod of the customer.|
+|[paymentMethod](dynamics_paymentmethod.md)|paymentMethod |Gets the paymentmethod of the customer.|
+|[customerFinancialDetail](dynamics_customerfinancialdetail.md)|customerFinancialDetail |Gets the customerfinancialdetail of the customer.|
+|[picture](dynamics_picture.md)|picture |Gets the picture of the customer.|
+|[defaultDimensions](dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the customer.|
+|[agedAccountsReceivable](dynamics_agedaccountsreceivable.md)|agedAccountsReceivable |Gets the agedaccountsreceivable of the customer.|
 
 
 ## Properties

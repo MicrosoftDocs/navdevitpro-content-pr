@@ -55,6 +55,6 @@ HTTP/1.1 204 No Content
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [bankaccount](../resources/dynamics_bankaccount.md)    
-[Get bankaccount](../api/dynamics_bankaccount_Get.md)    
-[Create bankaccount](../api/dynamics_bankaccount_Create.md)    
-[Update bankaccount](../api/dynamics_bankaccount_Update.md)    
+[Get bankaccount](dynamics_bankaccount_Get.md)    
+[Create bankaccount](dynamics_bankaccount_Create.md)    
+[Update bankaccount](dynamics_bankaccount_Update.md)    

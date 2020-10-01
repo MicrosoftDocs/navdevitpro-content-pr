@@ -25,17 +25,14 @@ Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 |[POST employee](../api/dynamics_employee_Create.md)|employee|Creates a employee object.|
 |[PATCH employee](../api/dynamics_employee_Update.md)|employee|Updates a employee object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion |Gets the countryregion of the employee.|
-|[picture](../resources/dynamics_picture.md)|picture |Gets the picture of the employee.|
-|[defaultDimensions](../resources/dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the employee.|
-|[timeRegistrationEntries](../resources/dynamics_timeregistrationentries.md)|timeRegistrationEntries |Gets the timeregistrationentries of the employee.|
+|[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the employee.|
+|[picture](dynamics_picture.md)|picture |Gets the picture of the employee.|
+|[defaultDimensions](dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the employee.|
+|[timeRegistrationEntries](dynamics_timeregistrationentries.md)|timeRegistrationEntries |Gets the timeregistrationentries of the employee.|
 
 
 ## Properties

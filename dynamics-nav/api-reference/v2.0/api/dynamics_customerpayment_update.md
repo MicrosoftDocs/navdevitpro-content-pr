@@ -81,6 +81,6 @@ Content-type: application/json
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [customerpayment](../resources/dynamics_customerpayment.md)    
-[Get customerpayment](../api/dynamics_customerpayment_Get.md)    
-[Delete customerpayment](../api/dynamics_customerpayment_Delete.md)    
-[Create customerpayment](../api/dynamics_customerpayment_Create.md)    
+[Get customerpayment](dynamics_customerpayment_Get.md)    
+[Delete customerpayment](dynamics_customerpayment_Delete.md)    
+[Create customerpayment](dynamics_customerpayment_Create.md)    

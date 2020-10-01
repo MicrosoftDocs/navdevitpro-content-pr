@@ -87,8 +87,8 @@ Content-type: application/json
 
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[Graph Reference](../api/dynamics_graph_reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  
 [Journal Line](../resources/dynamics_journalline.md)  
-[Get Journal Line](../api/dynamics_journalline_get.md)  
-[Update Journal Line](../api/dynamics_journalline_update.md)  
-[Delete Journal Line](../api/dynamics_journalline_delete.md)  
+[Get Journal Line](dynamics_journalline_get.md)  
+[Update Journal Line](dynamics_journalline_update.md)  
+[Delete Journal Line](dynamics_journalline_delete.md)  

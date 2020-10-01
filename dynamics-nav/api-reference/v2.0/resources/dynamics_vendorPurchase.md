@@ -23,10 +23,6 @@ Represents a vendor purchase in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 |[GET vendorPurchase](../api/dynamics_vendorPurchase_Get.md)|vendorPurchase|Gets a vendor purchase object.|
 
 
-
-
-
-
 ## Properties
 
 | Property           | Type   |Description     |

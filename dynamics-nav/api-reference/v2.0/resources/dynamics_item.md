@@ -25,18 +25,15 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 |[POST item](../api/dynamics_item_Create.md)|item|Creates a item object.|
 |[PATCH item](../api/dynamics_item_Update.md)|item|Updates a item object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[itemCategory](../resources/dynamics_itemcategory.md)|itemCategory |Gets the itemcategory of the item.|
-|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the item.|
-|[picture](../resources/dynamics_picture.md)|picture |Gets the picture of the item.|
-|[defaultDimensions](../resources/dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the item.|
-|[itemVariants](../resources/dynamics_itemvariants.md)|itemVariants |Gets the itemvariants of the item.|
+|[itemCategory](dynamics_itemcategory.md)|itemCategory |Gets the itemcategory of the item.|
+|[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the item.|
+|[picture](dynamics_picture.md)|picture |Gets the picture of the item.|
+|[defaultDimensions](dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the item.|
+|[itemVariants](dynamics_itemvariants.md)|itemVariants |Gets the itemvariants of the item.|
 
 
 ## Properties

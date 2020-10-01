@@ -26,10 +26,6 @@ Represents a country region in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 |[PATCH countryRegion](../api/dynamics_countryRegion_Update.md)|countryRegion|Updates a country region object.|
 
 
-
-
-
-
 ## Properties
 
 | Property           | Type   |Description     |

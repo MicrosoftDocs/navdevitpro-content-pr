@@ -32,21 +32,21 @@ Represents a dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d36
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[salesInvoice](../resources/dynamics_salesinvoice.md)|salesInvoice |Gets the salesinvoice of the dimensionSetLine.|
-|[salesInvoiceLine](../resources/dynamics_salesinvoiceline.md)|salesInvoiceLine |Gets the salesinvoiceline of the dimensionSetLine.|
-|[dimension](../resources/dynamics_dimension.md)|dimension |Gets the dimension of the dimensionSetLine.|
-|[customerPayment](../resources/dynamics_customerpayment.md)|customerPayment |Gets the customerpayment of the dimensionSetLine.|
-|[journalLine](../resources/dynamics_journalline.md)|journalLine |Gets the journalline of the dimensionSetLine.|
-|[timeRegistrationEntry](../resources/dynamics_timeregistrationentry.md)|timeRegistrationEntry |Gets the timeregistrationentry of the dimensionSetLine.|
-|[generalLedgerEntry](../resources/dynamics_generalledgerentry.md)|generalLedgerEntry |Gets the generalledgerentry of the dimensionSetLine.|
-|[salesOrder](../resources/dynamics_salesorder.md)|salesOrder |Gets the salesorder of the dimensionSetLine.|
-|[salesOrderLine](../resources/dynamics_salesorderline.md)|salesOrderLine |Gets the salesorderline of the dimensionSetLine.|
-|[salesQuote](../resources/dynamics_salesquote.md)|salesQuote |Gets the salesquote of the dimensionSetLine.|
-|[salesQuoteLine](../resources/dynamics_salesquoteline.md)|salesQuoteLine |Gets the salesquoteline of the dimensionSetLine.|
-|[salesCreditMemo](../resources/dynamics_salescreditmemo.md)|salesCreditMemo |Gets the salescreditmemo of the dimensionSetLine.|
-|[salesCreditMemoLine](../resources/dynamics_salescreditmemoline.md)|salesCreditMemoLine |Gets the salescreditmemoline of the dimensionSetLine.|
-|[purchaseInvoice](../resources/dynamics_purchaseinvoice.md)|purchaseInvoice |Gets the purchaseinvoice of the dimensionSetLine.|
-|[purchaseInvoiceLine](../resources/dynamics_purchaseinvoiceline.md)|purchaseInvoiceLine |Gets the purchaseinvoiceline of the dimensionSetLine.|
+|[salesInvoice](dynamics_salesinvoice.md)|salesInvoice |Gets the salesinvoice of the dimensionSetLine.|
+|[salesInvoiceLine](dynamics_salesinvoiceline.md)|salesInvoiceLine |Gets the salesinvoiceline of the dimensionSetLine.|
+|[dimension](dynamics_dimension.md)|dimension |Gets the dimension of the dimensionSetLine.|
+|[customerPayment](dynamics_customerpayment.md)|customerPayment |Gets the customerpayment of the dimensionSetLine.|
+|[journalLine](dynamics_journalline.md)|journalLine |Gets the journalline of the dimensionSetLine.|
+|[timeRegistrationEntry](dynamics_timeregistrationentry.md)|timeRegistrationEntry |Gets the timeregistrationentry of the dimensionSetLine.|
+|[generalLedgerEntry](dynamics_generalledgerentry.md)|generalLedgerEntry |Gets the generalledgerentry of the dimensionSetLine.|
+|[salesOrder](dynamics_salesorder.md)|salesOrder |Gets the salesorder of the dimensionSetLine.|
+|[salesOrderLine](dynamics_salesorderline.md)|salesOrderLine |Gets the salesorderline of the dimensionSetLine.|
+|[salesQuote](dynamics_salesquote.md)|salesQuote |Gets the salesquote of the dimensionSetLine.|
+|[salesQuoteLine](dynamics_salesquoteline.md)|salesQuoteLine |Gets the salesquoteline of the dimensionSetLine.|
+|[salesCreditMemo](dynamics_salescreditmemo.md)|salesCreditMemo |Gets the salescreditmemo of the dimensionSetLine.|
+|[salesCreditMemoLine](dynamics_salescreditmemoline.md)|salesCreditMemoLine |Gets the salescreditmemoline of the dimensionSetLine.|
+|[purchaseInvoice](dynamics_purchaseinvoice.md)|purchaseInvoice |Gets the purchaseinvoice of the dimensionSetLine.|
+|[purchaseInvoiceLine](dynamics_purchaseinvoiceline.md)|purchaseInvoiceLine |Gets the purchaseinvoiceline of the dimensionSetLine.|
 
 
 ## Properties
