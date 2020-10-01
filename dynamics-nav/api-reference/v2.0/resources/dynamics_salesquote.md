@@ -25,22 +25,19 @@ Represents a sales quote in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |[POST salesQuote](../api/dynamics_salesQuote_Create.md)|salesQuote|Creates a sales quote object.|
 |[PATCH salesQuote](../api/dynamics_salesQuote_Update.md)|salesQuote|Updates a sales quote object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[customer](../resources/dynamics_customer.md)|customer |Gets the customer of the salesQuote.|
-|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion |Gets the countryregion of the salesQuote.|
-|[currency](../resources/dynamics_currency.md)|currency |Gets the currency of the salesQuote.|
-|[paymentTerm](../resources/dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the salesQuote.|
-|[shipmentMethod](../resources/dynamics_shipmentmethod.md)|shipmentMethod |Gets the shipmentmethod of the salesQuote.|
-|[salesQuoteLines](../resources/dynamics_salesquotelines.md)|salesQuoteLines |Gets the salesquotelines of the salesQuote.|
-|[pdfDocument](../resources/dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the salesQuote.|
-|[attachments](../resources/dynamics_attachments.md)|attachments |Gets the attachments of the salesQuote.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesQuote.|
+|[customer](dynamics_customer.md)|customer |Gets the customer of the salesQuote.|
+|[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the salesQuote.|
+|[currency](dynamics_currency.md)|currency |Gets the currency of the salesQuote.|
+|[paymentTerm](dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the salesQuote.|
+|[shipmentMethod](dynamics_shipmentmethod.md)|shipmentMethod |Gets the shipmentmethod of the salesQuote.|
+|[salesQuoteLines](dynamics_salesquotelines.md)|salesQuoteLines |Gets the salesquotelines of the salesQuote.|
+|[pdfDocument](dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the salesQuote.|
+|[attachments](dynamics_attachments.md)|attachments |Gets the attachments of the salesQuote.|
+|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesQuote.|
 
 
 ## Properties

@@ -22,14 +22,11 @@ Represents a trial balance in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |:--------------------|:-----------|:-------------------------|
 |[GET trialBalance](../api/dynamics_trialBalance_Get.md)|trialBalance|Gets a trial balance object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[account](../resources/dynamics_account.md)|account |Gets the account of the trialBalance.|
+|[account](dynamics_account.md)|account |Gets the account of the trialBalance.|
 
 
 ## Properties
