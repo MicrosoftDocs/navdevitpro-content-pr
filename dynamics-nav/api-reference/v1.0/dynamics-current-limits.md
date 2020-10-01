@@ -8,7 +8,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2018"
+ms.service: "dynamics365-business-central"
 ms.author: jswymer
 ---
 
@@ -29,13 +29,17 @@ HTTP response code `429 - Too Many Requests` is returned if limits are exceeded.
 
 HTTP response code `504 - Gateway Timeout` is returned when a request exceeds 10-minutes execution time.
 
-## Maximum Connections
+## Maximum Requests
 
-The maximum number of simultaneous OData or SOAP requests. HTTP response code `429 - Too Many Requests` is returned if limits are exceeded.
+The maximum number of simultaneous and pending OData or SOAP requests. HTTP response code `429 - Too Many Requests` is returned if limits are exceeded.
 
-|OData|SOAP|
-|-----|----| 
-|100|100|
+|Limit|OData|SOAP|
+|-----|-----|----| 
+|Max concurrent requests|5|5|
+|Max queued requests |95|95|
+|Max connections|100|100|
+
+The **Max connections** is a combination of **Max concurrent requests** and **Max queued requests**.
 
 ## Operation Timeout
 
