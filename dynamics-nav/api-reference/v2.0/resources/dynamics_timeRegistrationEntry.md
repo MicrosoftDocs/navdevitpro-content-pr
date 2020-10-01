@@ -32,10 +32,10 @@ Represents a time registration entry in [!INCLUDE[d365fin_long_md](../../include
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[employee](../resources/dynamics_employee.md)|employee |Gets the employee of the timeRegistrationEntry.|
-|[project](../resources/dynamics_project.md)|project |Gets the project of the timeRegistrationEntry.|
-|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the timeRegistrationEntry.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the timeRegistrationEntry.|
+|[employee](dynamics_employee.md)|employee |Gets the employee of the timeRegistrationEntry.|
+|[project](dynamics_project.md)|project |Gets the project of the timeRegistrationEntry.|
+|[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the timeRegistrationEntry.|
+|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the timeRegistrationEntry.|
 
 
 ## Properties

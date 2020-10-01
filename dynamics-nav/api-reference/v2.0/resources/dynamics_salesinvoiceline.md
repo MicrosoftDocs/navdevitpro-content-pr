@@ -25,19 +25,16 @@ Represents a sales invoice line in [!INCLUDE[d365fin_long_md](../../includes/d36
 |[POST salesInvoiceLine](../api/dynamics_salesInvoiceLine_Create.md)|salesInvoiceLine|Creates a sales invoice line object.|
 |[PATCH salesInvoiceLine](../api/dynamics_salesInvoiceLine_Update.md)|salesInvoiceLine|Updates a sales invoice line object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[salesInvoice](../resources/dynamics_salesinvoice.md)|salesInvoice |Gets the salesinvoice of the salesInvoiceLine.|
-|[item](../resources/dynamics_item.md)|item |Gets the item of the salesInvoiceLine.|
-|[account](../resources/dynamics_account.md)|account |Gets the account of the salesInvoiceLine.|
-|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the salesInvoiceLine.|
-|[itemVariant](../resources/dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the salesInvoiceLine.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesInvoiceLine.|
+|[salesInvoice](dynamics_salesinvoice.md)|salesInvoice |Gets the salesinvoice of the salesInvoiceLine.|
+|[item](dynamics_item.md)|item |Gets the item of the salesInvoiceLine.|
+|[account](dynamics_account.md)|account |Gets the account of the salesInvoiceLine.|
+|[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the salesInvoiceLine.|
+|[itemVariant](dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the salesInvoiceLine.|
+|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesInvoiceLine.|
 
 
 ## Properties

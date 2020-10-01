@@ -25,21 +25,18 @@ Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |[POST salesOrder](../api/dynamics_salesOrder_Create.md)|salesOrder|Creates a sales order object.|
 |[PATCH salesOrder](../api/dynamics_salesOrder_Update.md)|salesOrder|Updates a sales order object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[customer](../resources/dynamics_customer.md)|customer |Gets the customer of the salesOrder.|
-|[countryRegion](../resources/dynamics_countryregion.md)|countryRegion |Gets the countryregion of the salesOrder.|
-|[currency](../resources/dynamics_currency.md)|currency |Gets the currency of the salesOrder.|
-|[paymentTerm](../resources/dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the salesOrder.|
-|[shipmentMethod](../resources/dynamics_shipmentmethod.md)|shipmentMethod |Gets the shipmentmethod of the salesOrder.|
-|[salesOrderLines](../resources/dynamics_salesorderlines.md)|salesOrderLines |Gets the salesorderlines of the salesOrder.|
-|[attachments](../resources/dynamics_attachments.md)|attachments |Gets the attachments of the salesOrder.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesOrder.|
+|[customer](dynamics_customer.md)|customer |Gets the customer of the salesOrder.|
+|[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the salesOrder.|
+|[currency](dynamics_currency.md)|currency |Gets the currency of the salesOrder.|
+|[paymentTerm](dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the salesOrder.|
+|[shipmentMethod](dynamics_shipmentmethod.md)|shipmentMethod |Gets the shipmentmethod of the salesOrder.|
+|[salesOrderLines](dynamics_salesorderlines.md)|salesOrderLines |Gets the salesorderlines of the salesOrder.|
+|[attachments](dynamics_attachments.md)|attachments |Gets the attachments of the salesOrder.|
+|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesOrder.|
 
 
 ## Properties

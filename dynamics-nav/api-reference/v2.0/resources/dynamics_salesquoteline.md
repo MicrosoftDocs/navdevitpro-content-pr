@@ -25,19 +25,16 @@ Represents a sales quote line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[POST salesQuoteLine](../api/dynamics_salesQuoteLine_Create.md)|salesQuoteLine|Creates a sales quote line object.|
 |[PATCH salesQuoteLine](../api/dynamics_salesQuoteLine_Update.md)|salesQuoteLine|Updates a sales quote line object.|
 
-
-
-
 ## Navigation
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[salesQuote](../resources/dynamics_salesquote.md)|salesQuote |Gets the salesquote of the salesQuoteLine.|
-|[item](../resources/dynamics_item.md)|item |Gets the item of the salesQuoteLine.|
-|[account](../resources/dynamics_account.md)|account |Gets the account of the salesQuoteLine.|
-|[unitOfMeasure](../resources/dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the salesQuoteLine.|
-|[itemVariant](../resources/dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the salesQuoteLine.|
-|[dimensionSetLines](../resources/dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesQuoteLine.|
+|[salesQuote](dynamics_salesquote.md)|salesQuote |Gets the salesquote of the salesQuoteLine.|
+|[item](dynamics_item.md)|item |Gets the item of the salesQuoteLine.|
+|[account](dynamics_account.md)|account |Gets the account of the salesQuoteLine.|
+|[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the salesQuoteLine.|
+|[itemVariant](dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the salesQuoteLine.|
+|[dimensionSetLines](dynamics_dimensionsetlines.md)|dimensionSetLines |Gets the dimensionsetlines of the salesQuoteLine.|
 
 
 ## Properties
