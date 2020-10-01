@@ -56,6 +56,6 @@ HTTP/1.1 204 No Content
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [customerpaymentjournal](../resources/dynamics_customerpaymentjournal.md)    
-[Get customerpaymentjournal](../api/dynamics_customerpaymentjournal_Get.md)    
-[Create customerpaymentjournal](../api/dynamics_customerpaymentjournal_Create.md)    
-[Update customerpaymentjournal](../api/dynamics_customerpaymentjournal_Update.md)    
+[Get customerpaymentjournal](dynamics_customerpaymentjournal_Get.md)    
+[Create customerpaymentjournal](dynamics_customerpaymentjournal_Create.md)    
+[Update customerpaymentjournal](dynamics_customerpaymentjournal_Update.md)    

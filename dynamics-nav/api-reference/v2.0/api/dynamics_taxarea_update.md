@@ -73,6 +73,6 @@ Content-type: application/json
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [taxarea](../resources/dynamics_taxarea.md)    
-[Get taxarea](../api/dynamics_taxarea_Get.md)    
-[Delete taxarea](../api/dynamics_taxarea_Delete.md)    
-[Create taxarea](../api/dynamics_taxarea_Create.md)    
+[Get taxarea](dynamics_taxarea_Get.md)    
+[Delete taxarea](dynamics_taxarea_Delete.md)    
+[Create taxarea](dynamics_taxarea_Create.md)    

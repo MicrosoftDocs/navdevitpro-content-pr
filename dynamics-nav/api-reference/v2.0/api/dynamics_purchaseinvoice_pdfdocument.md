@@ -104,7 +104,7 @@ The pdfDocument is not supported for unposted purchase invoices. The purchase in
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [purchaseinvoice](../resources/dynamics_purchaseinvoice.md)    
-[Get purchaseinvoice](../api/dynamics_purchaseinvoice_Get.md)    
-[Delete purchaseinvoice](../api/dynamics_purchaseinvoice_Delete.md)    
-[Create purchaseinvoice](../api/dynamics_purchaseinvoice_Create.md)    
-[Update purchaseinvoice](../api/dynamics_purchaseinvoice_Update.md)    
+[Get purchaseinvoice](dynamics_purchaseinvoice_Get.md)    
+[Delete purchaseinvoice](dynamics_purchaseinvoice_Delete.md)    
+[Create purchaseinvoice](dynamics_purchaseinvoice_Create.md)    
+[Update purchaseinvoice](dynamics_purchaseinvoice_Update.md)    

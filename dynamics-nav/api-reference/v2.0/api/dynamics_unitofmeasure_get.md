@@ -63,6 +63,6 @@ Here is an example of the response.
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [unitofmeasure](../resources/dynamics_unitofmeasure.md)    
-[Delete unitofmeasure](../api/dynamics_unitofmeasure_Delete.md)    
-[Create unitofmeasure](../api/dynamics_unitofmeasure_Create.md)    
-[Update unitofmeasure](../api/dynamics_unitofmeasure_Update.md)    
+[Delete unitofmeasure](dynamics_unitofmeasure_Delete.md)    
+[Create unitofmeasure](dynamics_unitofmeasure_Create.md)    
+[Update unitofmeasure](dynamics_unitofmeasure_Update.md)    

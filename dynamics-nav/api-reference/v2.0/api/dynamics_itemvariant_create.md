@@ -73,6 +73,6 @@ Content-type: application/json
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [itemvariant](../resources/dynamics_itemvariant.md)    
-[Get itemvariant](../api/dynamics_itemvariant_Get.md)    
-[Delete itemvariant](../api/dynamics_itemvariant_Delete.md)    
-[Update itemvariant](../api/dynamics_itemvariant_Update.md)    
+[Get itemvariant](dynamics_itemvariant_Get.md)    
+[Delete itemvariant](dynamics_itemvariant_Delete.md)    
+[Update itemvariant](dynamics_itemvariant_Update.md)    

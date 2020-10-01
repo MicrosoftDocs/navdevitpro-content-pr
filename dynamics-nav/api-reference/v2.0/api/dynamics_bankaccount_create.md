@@ -68,6 +68,6 @@ Content-type: application/json
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [bankaccount](../resources/dynamics_bankaccount.md)    
-[Get bankaccount](../api/dynamics_bankaccount_Get.md)    
-[Delete bankaccount](../api/dynamics_bankaccount_Delete.md)    
-[Update bankaccount](../api/dynamics_bankaccount_Update.md)    
+[Get bankaccount](dynamics_bankaccount_Get.md)    
+[Delete bankaccount](dynamics_bankaccount_Delete.md)    
+[Update bankaccount](dynamics_bankaccount_Update.md)    

@@ -75,6 +75,6 @@ Content-type: application/json
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [shipmentmethod](../resources/dynamics_shipmentmethod.md)    
-[Get shipmentmethod](../api/dynamics_shipmentmethod_Get.md)    
-[Delete shipmentmethod](../api/dynamics_shipmentmethod_Delete.md)    
-[Update shipmentmethod](../api/dynamics_shipmentmethod_Update.md)    
+[Get shipmentmethod](dynamics_shipmentmethod_Get.md)    
+[Delete shipmentmethod](dynamics_shipmentmethod_Delete.md)    
+[Update shipmentmethod](dynamics_shipmentmethod_Update.md)    

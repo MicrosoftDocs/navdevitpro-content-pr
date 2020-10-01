@@ -58,6 +58,6 @@ HTTP/1.1 204 No Content
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [journal](../resources/dynamics_journal.md)    
-[Get journal](../api/dynamics_journal_Get.md)    
-[Create journal](../api/dynamics_journal_Create.md)    
-[Update journal](../api/dynamics_journal_Update.md)    
+[Get journal](dynamics_journal_Get.md)    
+[Create journal](dynamics_journal_Create.md)    
+[Update journal](dynamics_journal_Update.md)    

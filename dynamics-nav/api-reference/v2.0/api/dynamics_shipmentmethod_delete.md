@@ -51,6 +51,6 @@ No Content.
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [shipmentmethod](../resources/dynamics_shipmentmethod.md)    
-[Get shipmentmethod](../api/dynamics_shipmentmethod_Get.md)    
-[Create shipmentmethod](../api/dynamics_shipmentmethod_Create.md)    
-[Update shipmentmethod](../api/dynamics_shipmentmethod_Update.md)    
+[Get shipmentmethod](dynamics_shipmentmethod_Get.md)    
+[Create shipmentmethod](dynamics_shipmentmethod_Create.md)    
+[Update shipmentmethod](dynamics_shipmentmethod_Update.md)    

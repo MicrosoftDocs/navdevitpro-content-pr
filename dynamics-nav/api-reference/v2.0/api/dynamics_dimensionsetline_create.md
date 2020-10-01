@@ -94,6 +94,6 @@ Content-type: application/json
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [dimensionsetline](../resources/dynamics_dimensionsetline.md)    
-[Get dimensionsetline](../api/dynamics_dimensionsetline_Get.md)    
-[Delete dimensionsetline](../api/dynamics_dimensionsetline_Delete.md)    
-[Update dimensionsetline](../api/dynamics_dimensionsetline_Update.md)    
+[Get dimensionsetline](dynamics_dimensionsetline_Get.md)    
+[Delete dimensionsetline](dynamics_dimensionsetline_Delete.md)    
+[Update dimensionsetline](dynamics_dimensionsetline_Update.md)    

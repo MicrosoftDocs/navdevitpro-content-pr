@@ -58,6 +58,6 @@ HTTP/1.1 204 No Content
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [employee](../resources/dynamics_employee.md)    
-[Get employee](../api/dynamics_employee_Get.md)    
-[Create employee](../api/dynamics_employee_Create.md)    
-[Update employee](../api/dynamics_employee_Update.md)    
+[Get employee](dynamics_employee_Get.md)    
+[Create employee](dynamics_employee_Create.md)    
+[Update employee](dynamics_employee_Update.md)    

@@ -92,6 +92,6 @@ Content-type: application/json
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [salesquoteline](../resources/dynamics_salesquoteline.md)    
-[Get salesquoteline](../api/dynamics_salesquoteline_Get.md)    
-[Delete salesquoteline](../api/dynamics_salesquoteline_Delete.md)    
-[Create salesquoteline](../api/dynamics_salesquoteline_Create.md)    
+[Get salesquoteline](dynamics_salesquoteline_Get.md)    
+[Delete salesquoteline](dynamics_salesquoteline_Delete.md)    
+[Create salesquoteline](dynamics_salesquoteline_Create.md)    

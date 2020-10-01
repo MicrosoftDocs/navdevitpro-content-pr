@@ -118,6 +118,6 @@ Content-type: application/json
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Sales Quote Line](../resources/dynamics_salesquoteline.md)  
-[Get Sales Quote Line](../api/dynamics_salesquoteline_get.md)  
-[Update Sales Quote Line](../api/dynamics_salesquoteline_update.md)  
-[Delete Sales Quote Line](../api/dynamics_salesquoteline_delete.md)  
+[Get Sales Quote Line](dynamics_salesquoteline_get.md)  
+[Update Sales Quote Line](dynamics_salesquoteline_update.md)  
+[Delete Sales Quote Line](dynamics_salesquoteline_delete.md)  

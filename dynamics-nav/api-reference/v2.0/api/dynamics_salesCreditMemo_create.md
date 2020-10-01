@@ -59,6 +59,6 @@ Content-type: application/json
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Sales Credit Memo](../resources/dynamics_salescreditmemo.md)  
-[Get Sales Credit Memo](../api/dynamics_salescreditmemo_get.md)  
-[Update Sales Credit Memo](../api/dynamics_salescreditmemo_update.md)  
-[Delete Sales Credit Memo](../api/dynamics_salescreditmemo_delete.md)  
+[Get Sales Credit Memo](dynamics_salescreditmemo_get.md)  
+[Update Sales Credit Memo](dynamics_salescreditmemo_update.md)  
+[Delete Sales Credit Memo](dynamics_salescreditmemo_delete.md)  

@@ -63,6 +63,6 @@ Here is an example of the response.
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [shipmentmethod](../resources/dynamics_shipmentmethod.md)    
-[Delete shipmentmethod](../api/dynamics_shipmentmethod_Delete.md)    
-[Create shipmentmethod](../api/dynamics_shipmentmethod_Create.md)    
-[Update shipmentmethod](../api/dynamics_shipmentmethod_Update.md)    
+[Delete shipmentmethod](dynamics_shipmentmethod_Delete.md)    
+[Create shipmentmethod](dynamics_shipmentmethod_Create.md)    
+[Update shipmentmethod](dynamics_shipmentmethod_Update.md)    

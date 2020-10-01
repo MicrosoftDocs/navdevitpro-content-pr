@@ -113,6 +113,6 @@ Here is an example of the response.
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [salesinvoice](../resources/dynamics_salesinvoice.md)    
-[Delete salesinvoice](../api/dynamics_salesinvoice_Delete.md)    
-[Create salesinvoice](../api/dynamics_salesinvoice_Create.md)    
-[Update salesinvoice](../api/dynamics_salesinvoice_Update.md)    
+[Delete salesinvoice](dynamics_salesinvoice_Delete.md)    
+[Create salesinvoice](dynamics_salesinvoice_Create.md)    
+[Update salesinvoice](dynamics_salesinvoice_Update.md)    

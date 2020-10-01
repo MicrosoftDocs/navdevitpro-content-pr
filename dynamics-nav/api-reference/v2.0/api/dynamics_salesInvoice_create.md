@@ -105,6 +105,6 @@ Content-type: application/json
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Sales Invoice](../resources/dynamics_salesinvoice.md)  
-[Get Sales Invoice](../api/dynamics_salesinvoice_get.md)  
-[Update Sales Invoice](../api/dynamics_salesinvoice_update.md)  
-[Delete Sales Invoice](../api/dynamics_salesinvoice_delete.md)  
+[Get Sales Invoice](dynamics_salesinvoice_get.md)  
+[Update Sales Invoice](dynamics_salesinvoice_update.md)  
+[Delete Sales Invoice](dynamics_salesinvoice_delete.md)  

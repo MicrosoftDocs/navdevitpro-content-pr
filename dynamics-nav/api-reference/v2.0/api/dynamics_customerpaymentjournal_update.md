@@ -75,6 +75,6 @@ Content-type: application/json
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [customerpaymentjournal](../resources/dynamics_customerpaymentjournal.md)    
-[Get customerpaymentjournal](../api/dynamics_customerpaymentjournal_Get.md)    
-[Delete customerpaymentjournal](../api/dynamics_customerpaymentjournal_Delete.md)    
-[Create customerpaymentjournal](../api/dynamics_customerpaymentjournal_Create.md)    
+[Get customerpaymentjournal](dynamics_customerpaymentjournal_Get.md)    
+[Delete customerpaymentjournal](dynamics_customerpaymentjournal_Delete.md)    
+[Create customerpaymentjournal](dynamics_customerpaymentjournal_Create.md)    
