@@ -29,7 +29,7 @@ Represents an account in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[trialBalance](../resources/dynamics_trialbalance.md)|trialBalance |Gets the trialbalance of the account.|
+|[trialBalance](dynamics_trialbalance.md)|trialBalance |Gets the trialbalance of the account.|
 
 
 ## Properties

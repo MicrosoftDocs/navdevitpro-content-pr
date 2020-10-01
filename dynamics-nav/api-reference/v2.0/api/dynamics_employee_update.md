@@ -96,6 +96,6 @@ Content-type: application/json
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [employee](../resources/dynamics_employee.md)    
-[Get employee](../api/dynamics_employee_Get.md)    
-[Delete employee](../api/dynamics_employee_Delete.md)    
-[Create employee](../api/dynamics_employee_Create.md)    
+[Get employee](dynamics_employee_Get.md)    
+[Delete employee](dynamics_employee_Delete.md)    
+[Create employee](dynamics_employee_Create.md)    

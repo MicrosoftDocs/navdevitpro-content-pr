@@ -80,6 +80,6 @@ POST https://{businesscentralPrefix}/api/v2.0/companies({companyId})/customers({
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [defaultdimension](../resources/dynamics_defaultdimension.md)    
-[Get defaultdimension](../api/dynamics_defaultdimension_Get.md)    
-[Delete defaultdimension](../api/dynamics_defaultdimension_Delete.md)    
-[Update defaultdimension](../api/dynamics_defaultdimension_Update.md)    
+[Get defaultdimension](dynamics_defaultdimension_Get.md)    
+[Delete defaultdimension](dynamics_defaultdimension_Delete.md)    
+[Update defaultdimension](dynamics_defaultdimension_Update.md)    

@@ -97,6 +97,6 @@ Content-type: application/json
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Purchase Invoice](../resources/dynamics_purchaseinvoice.md)  
-[Get Purchase Invoice](../api/dynamics_purchaseinvoice_get.md)  
-[Update Purchase Invoice](../api/dynamics_purchaseinvoice_update.md)  
-[Delete Purchase Invoice](../api/dynamics_purchaseinvoice_delete.md)  
+[Get Purchase Invoice](dynamics_purchaseinvoice_get.md)  
+[Update Purchase Invoice](dynamics_purchaseinvoice_update.md)  
+[Delete Purchase Invoice](dynamics_purchaseinvoice_delete.md)  

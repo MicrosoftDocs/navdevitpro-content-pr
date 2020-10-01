@@ -55,6 +55,6 @@ HTTP/1.1 204 No Content
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [purchaseinvoiceline](../resources/dynamics_purchaseinvoiceline.md)    
-[Get purchaseinvoiceline](../api/dynamics_purchaseinvoiceline_Get.md)    
-[Create purchaseinvoiceline](../api/dynamics_purchaseinvoiceline_Create.md)    
-[Update purchaseinvoiceline](../api/dynamics_purchaseinvoiceline_Update.md)    
+[Get purchaseinvoiceline](dynamics_purchaseinvoiceline_Get.md)    
+[Create purchaseinvoiceline](dynamics_purchaseinvoiceline_Create.md)    
+[Update purchaseinvoiceline](dynamics_purchaseinvoiceline_Update.md)    

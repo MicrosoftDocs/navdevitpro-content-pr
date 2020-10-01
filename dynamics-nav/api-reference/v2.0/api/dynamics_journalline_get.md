@@ -71,6 +71,6 @@ Here is an example of the response.
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [journalline](../resources/dynamics_journalline.md)    
-[Delete journalline](../api/dynamics_journalline_Delete.md)    
-[Create journalline](../api/dynamics_journalline_Create.md)    
-[Update journalline](../api/dynamics_journalline_Update.md)    
+[Delete journalline](dynamics_journalline_Delete.md)    
+[Create journalline](dynamics_journalline_Create.md)    
+[Update journalline](dynamics_journalline_Update.md)    

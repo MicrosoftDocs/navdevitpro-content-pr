@@ -55,6 +55,6 @@ HTTP/1.1 204 No Content
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [paymentterm](../resources/dynamics_paymentterm.md)    
-[Get paymentterm](../api/dynamics_paymentterm_Get.md)    
-[Create paymentterm](../api/dynamics_paymentterm_Create.md)    
-[Update paymentterm](../api/dynamics_paymentterm_Update.md)    
+[Get paymentterm](dynamics_paymentterm_Get.md)    
+[Create paymentterm](dynamics_paymentterm_Create.md)    
+[Update paymentterm](dynamics_paymentterm_Update.md)    

@@ -61,6 +61,6 @@ Here is an example of the response.
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [countryregion](../resources/dynamics_countryregion.md)    
-[Delete countryregion](../api/dynamics_countryregion_Delete.md)    
-[Create countryregion](../api/dynamics_countryregion_Create.md)    
-[Update countryregion](../api/dynamics_countryregion_Update.md)    
+[Delete countryregion](dynamics_countryregion_Delete.md)    
+[Create countryregion](dynamics_countryregion_Create.md)    
+[Update countryregion](dynamics_countryregion_Update.md)    

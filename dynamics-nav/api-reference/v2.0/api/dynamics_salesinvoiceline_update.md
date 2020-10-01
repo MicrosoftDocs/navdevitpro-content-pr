@@ -96,6 +96,6 @@ Content-type: application/json
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [salesinvoiceline](../resources/dynamics_salesinvoiceline.md)    
-[Get salesinvoiceline](../api/dynamics_salesinvoiceline_Get.md)    
-[Delete salesinvoiceline](../api/dynamics_salesinvoiceline_Delete.md)    
-[Create salesinvoiceline](../api/dynamics_salesinvoiceline_Create.md)    
+[Get salesinvoiceline](dynamics_salesinvoiceline_Get.md)    
+[Delete salesinvoiceline](dynamics_salesinvoiceline_Delete.md)    
+[Create salesinvoiceline](dynamics_salesinvoiceline_Create.md)    

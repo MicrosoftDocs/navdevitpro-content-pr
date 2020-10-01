@@ -84,6 +84,6 @@ Here is an example of the response.
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [salesquoteline](../resources/dynamics_salesquoteline.md)    
-[Delete salesquoteline](../api/dynamics_salesquoteline_Delete.md)    
-[Create salesquoteline](../api/dynamics_salesquoteline_Create.md)    
-[Update salesquoteline](../api/dynamics_salesquoteline_Update.md)    
+[Delete salesquoteline](dynamics_salesquoteline_Delete.md)    
+[Create salesquoteline](dynamics_salesquoteline_Create.md)    
+[Update salesquoteline](dynamics_salesquoteline_Update.md)    

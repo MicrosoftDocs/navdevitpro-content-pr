@@ -57,6 +57,6 @@ No content.
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [picture](../resources/dynamics_picture.md)    
-[Get picture](../api/dynamics_picture_Get.md)    
-[Delete picture](../api/dynamics_picture_Delete.md)    
-[Update picture](../api/dynamics_picture_Update.md)    
+[Get picture](dynamics_picture_Get.md)    
+[Delete picture](dynamics_picture_Delete.md)    
+[Update picture](dynamics_picture_Update.md)    

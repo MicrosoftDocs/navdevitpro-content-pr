@@ -29,7 +29,7 @@ Represents a dimension in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[dimensionValues](../resources/dynamics_dimensionvalues.md)|dimensionValues |Gets the dimensionvalues of the dimension.|
+|[dimensionValues](dynamics_dimensionvalues.md)|dimensionValues |Gets the dimensionvalues of the dimension.|
 
 
 ## Properties

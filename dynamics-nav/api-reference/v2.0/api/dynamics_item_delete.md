@@ -54,6 +54,6 @@ HTTP/1.1 204 No Content
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [item](../resources/dynamics_item.md)    
-[Get item](../api/dynamics_item_Get.md)    
-[Create item](../api/dynamics_item_Create.md)    
-[Update item](../api/dynamics_item_Update.md)    
+[Get item](dynamics_item_Get.md)    
+[Create item](dynamics_item_Create.md)    
+[Update item](dynamics_item_Update.md)    

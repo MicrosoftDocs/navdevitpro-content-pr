@@ -32,7 +32,7 @@ Represents an item variant in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
-|[item](../resources/dynamics_item.md)|item |Gets the item of the itemVariant.|
+|[item](dynamics_item.md)|item |Gets the item of the itemVariant.|
 
 
 ## Properties

@@ -55,6 +55,6 @@ HTTP/1.1 204 No Content
 ## See also
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
 [currency](../resources/dynamics_currency.md)    
-[Get currency](../api/dynamics_currency_Get.md)    
-[Create currency](../api/dynamics_currency_Create.md)    
-[Update currency](../api/dynamics_currency_Update.md)    
+[Get currency](dynamics_currency_Get.md)    
+[Create currency](dynamics_currency_Create.md)    
+[Update currency](dynamics_currency_Update.md)    

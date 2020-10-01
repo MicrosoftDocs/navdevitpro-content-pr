@@ -74,6 +74,6 @@ Content-type: application/json
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 
 [Tax Area](../resources/dynamics_taxarea.md)  
-[Get Tax Area](../api/dynamics_taxarea_get.md)  
-[Update Tax Area](../api/dynamics_taxarea_update.md)  
-[Delete Tax Area](../api/dynamics_taxarea_delete.md)  
+[Get Tax Area](dynamics_taxarea_get.md)  
+[Update Tax Area](dynamics_taxarea_update.md)  
+[Delete Tax Area](dynamics_taxarea_delete.md)  

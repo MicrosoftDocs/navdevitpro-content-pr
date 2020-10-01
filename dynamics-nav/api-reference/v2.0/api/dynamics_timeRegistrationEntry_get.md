@@ -77,6 +77,6 @@ Here is an example of the response.
 
 [Error Codes](../dynamics_error_codes.md)  
 [timeRegistrationEntries](../resources/dynamics_timeRegistrationEntry.md)  
-[Get timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_get.md)  
-[Post timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_create.md)  
-[Delete timeRegistrationEntries](../api/dynamics_timeRegistrationEntry_delete.md)  
+[Get timeRegistrationEntries](dynamics_timeRegistrationEntry_get.md)  
+[Post timeRegistrationEntries](dynamics_timeRegistrationEntry_create.md)  
+[Delete timeRegistrationEntries](dynamics_timeRegistrationEntry_delete.md)  
