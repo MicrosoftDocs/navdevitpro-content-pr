@@ -3,7 +3,7 @@ title: "OpenAPI Specification"
 description: "OpenAPI Specification for Dynamics 365 Business Central"
 ms.service: "dynamics365-business-central"
 author: SusanneWindfeldPedersen
-ms.date: 10/23/2019
+ms.date: 10/14/2020
 ms.topic: article
 ms.author: solsen
 ---
@@ -16,7 +16,7 @@ Standard APIs for Business Central are available as an [OpenAPI Specification (O
 
 |API Version|YAML|
 |-----------|------|
-|1.0|[Download](contracts/BCOAS1.0.yaml)|
+|1.0|[Download](../v1.0/contracts/BCOAS1.0.yaml)|
 
 The OAS is set up to use OAuth2 and accessing the default sandbox environment. Details can be changed in the contact to connect to specific environments (servers URL). YAML can be converted to JSON if needed.
 
@@ -59,6 +59,6 @@ To run SwaggerUI locally, node.js can be used to serve the SwaggerUI, by followi
 > [!NOTE]  
 > For OAuth2 testing purposes, a multi-tenant AAD app has been created. Admin consent is needed. Client ID : 060af3ac-70c3-4c14-92bb-8a88230f3f38.
 
-## See Also 
-[Developing Connect Apps for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+## See Also
 
+[Developing Connect Apps for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  

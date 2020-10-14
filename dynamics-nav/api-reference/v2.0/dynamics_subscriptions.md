@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
-ms.author: solsen, henrikwh
+ms.author: solsen
 ---
 
 # Working with Webhooks in Dynamics 365 Business Central
