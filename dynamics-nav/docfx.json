@@ -48,9 +48,7 @@
       "extendBreadcrumb": true
     },
     "fileMetadata": {},
-    "template": [
-      null
-    ],
+    "template": [],
     "dest": "dynamics-nav",
     "markdownEngineName": "markdig"
   }
