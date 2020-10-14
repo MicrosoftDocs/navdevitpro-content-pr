@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: deprecated, Sweden, local functionality
 ms.date: 07/23/2018
-ms.author: SorenGP
+ms.author: edupont
 
 ---
 

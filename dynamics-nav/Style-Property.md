@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.assetid: 3ac73e26-7723-46b1-aa15-fd578aa4b56f
-ms.author: SusanneWindfeldPedersen
+ms.author: solsen
 ---
 # Style Property
 Sets a value that determines how text in a field on a page is formatted. For fields that are included in a **CueGroup**, this property sets the value of the color indicator on the cue.  

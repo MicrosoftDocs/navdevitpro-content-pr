@@ -5,6 +5,7 @@ ms.date: 11/08/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
+ms.prod: "dynamics-nav-2018"
 ms.topic: article
 author: jswymer
 ---

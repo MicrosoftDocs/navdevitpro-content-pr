@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: deprecated, France, local functionality
 ms.date: 08/23/2018
-ms.author: SorenGP
+ms.author: edupont
 
 ---
 

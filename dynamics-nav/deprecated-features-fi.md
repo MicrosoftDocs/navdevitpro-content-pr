@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: deprecated, Finland, local functionality
 ms.date: 12/21/2017
-ms.author: SorenGP
+ms.author: edupont
 
 ---
 

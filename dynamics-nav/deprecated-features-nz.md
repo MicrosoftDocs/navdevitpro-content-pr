@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: deprecated, New Zealand, local functionality
 ms.date: 07/04/2018
-ms.author: SorenGP
+ms.author: edupont
 
 ---
 
