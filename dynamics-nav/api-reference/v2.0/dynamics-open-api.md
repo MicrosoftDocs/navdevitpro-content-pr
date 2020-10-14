@@ -16,7 +16,7 @@ Standard APIs for Business Central are available as an [OpenAPI Specification (O
 
 |API Version|YAML|
 |-----------|------|
-|1.0|[Download](contracts/BCOAS1.0.yaml)|
+|1.0|[Download](../v1.0/contracts/BCOAS1.0.yaml)|
 
 The OAS is set up to use OAuth2 and accessing the default sandbox environment. Details can be changed in the contact to connect to specific environments (servers URL). YAML can be converted to JSON if needed.
 
