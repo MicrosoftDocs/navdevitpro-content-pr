@@ -17,7 +17,7 @@ author: SusanneWindfeldPedersen
 ## As a reseller of Dynamics 365 Business Central
 
 ### You can provide packaged implementation services on Microsoft AppSource  
-Drive demand for your packaged implementation and consulting services with 100M users of Office 365, Dynamics 365, and Power BI. To get started providing consulting services, you need to do the following:  
+Drive demand for your packaged implementation and consulting services with 100M users of Microsoft 365, Dynamics 365, and Power BI. To get started providing consulting services, you need to do the following:  
  
 Get listed as a partner; [register](https://partner.microsoft.com/membership) with the Microsoft Partner Network and [create a marketing profile](https://msdn.microsoft.com/partner-center/create-a-marketing-profile) on PartnerCenter.  
 Become [CSP](https://partner.microsoft.com/cloud-solution-provider) or [DPOR](https://partner.microsoft.com/membership/digital-partner-of-Record) for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] with at least 1 customer and [submit your offers](https://cloudpartner.azure.com/) to AppSource in the Cloud Partner Portal.  
@@ -54,7 +54,7 @@ Easily access client data, effectively manage accounting processes and tasks, an
 Reach out to Christian Baek [cbaek@Microsoft.com](mailto:cbaek@Microsoft.com) on questions. 
 
 ### You can promote your packaged consulting services through Microsoft AppSource
-Drive demand for your packaged consulting and consulting services with 100M users of Office 365, Dynamics 365, and Power BI. To get started on providing consulting services:  
+Drive demand for your packaged consulting and consulting services with 100M users of Microsoft 365, Dynamics 365, and Power BI. To get started on providing consulting services:  
 
 1) Get listed as a partner; [register](https://partner.microsoft.com/membership) with the Microsoft Partner Network and [create a marketing profile](https://msdn.microsoft.com/partner-center/create-a-marketing-profile) on PartnerCenter.  
 

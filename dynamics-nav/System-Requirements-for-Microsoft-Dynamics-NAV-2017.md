@@ -31,11 +31,11 @@ The following sections list the specifications of minimum hardware and software 
 |Hardware resources|-   Hard disk space: 200 MB.<br />-   Memory: 1 GB.|  
 |Reports|-   Microsoft Report Viewer 2015 to run reports that use RDLC report layouts.<br />-   SQL Server Report Builder 3.0 for Microsoft SQL Server 2014 or Microsoft SQL Server 2012 SP1 to edit RDLC report layouts.<br />-   Microsoft Word 2013 or later to edit the layouts.|  
 |Instant messaging and Telephony API|-   Microsoft Lync 2013.|  
-|Outlook client integration and mail merge|-   Microsoft Office 365, Microsoft Office 2019, Microsoft Office 2016, or Microsoft Office 2013 Service Pack 1 \(SP1\).|  
-|Import and export with Microsoft Excel and Office XML, and SharePoint links|-   Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 365.|  
+|Outlook client integration and mail merge|-   Microsoft Microsoft 365, Microsoft Office 2019, Microsoft Office 2016, or Microsoft Office 2013 Service Pack 1 \(SP1\).|  
+|Import and export with Microsoft Excel and Office XML, and SharePoint links|-   Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Microsoft 365.|  
 |Editing in Excel using the Excel Add-in |Excel 2019 or Excel 2016,<br /><br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).|  
 |OneNote integration|-   Microsoft Office 2019, Microsoft Office 2016, or Microsoft Office 2013 SP1.|  
-|Email logging|-   Active Directory and Microsoft Exchange Server 2019, Exchange Server 2016, or Exchange Server 2013.<br />-   Microsoft Exchange Online, or Exchange Online as part of an Office 365 subscription.|  
+|Email logging|-   Active Directory and Microsoft Exchange Server 2019, Exchange Server 2016, or Exchange Server 2013.<br />-   Microsoft Exchange Online, or Exchange Online as part of a Microsoft 365 subscription.|  
 |Additional software|-   Microsoft .NET Framework 4.5.2.|  
 |Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present in the target computer:<br /><br /> <ul><li>Microsoft .NET Framework 4.5.2.</li><li>Microsoft Report Viewer2015.</li></ul></li><li>The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is available in a 32-bit version and 64-bit version. On a 32-bit Windows operating system, the 32-bit version is run. On a 64-bit Windows operating system, the 64-bit version is run by default; however, you can also run the 32-bit version if it is required.</li><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup can only install the Excel Add-in if Excel is present on the target computer.</li><li>Outlook synchronization is not supported on 64-bit versions of Office.</li><li>**Note:** We’ve had reports that .NET framework 4.7 can cause the Windows client environment to crash. In this case the solution is to uninstall .NET framework 4.7.</li></ul>|  
 
@@ -56,11 +56,11 @@ The following sections list the specifications of minimum hardware and software 
 |||  
 |-|-|  
 |Supported browsers|-   Microsoft Edge.<br />-   Internet Explorer 11.<br />-   Google Chrome 53.0 for Windows.<br />-   Mozilla Firefox 49.0 for Windows.<br />-   Safari 9.0 and 10.0 on OSX.<br /><br /> For a list of browser limitations, see [Browser Limitations with the Microsoft Dynamics NAV Web Client](Browser-Limitations-with-the-Microsoft-Dynamics-NAV-Web-Client.md).|  
-|Business inbox in Outlook|-   Microsoft Office 365.|  
-|Sending data to Excel|-   Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 365.|  
+|Business inbox in Outlook|-   Microsoft Microsoft 365.|  
+|Sending data to Excel|-   Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Microsoft 365.|  
 |Editing in Excel using the Excel Add-in |Excel 2019 or Excel 2016.<br /><br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).|  
-|SharePoint Online links|-   Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 365.|  
-|Printing reports to Excel or Word|-   Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 365.|  
+|SharePoint Online links|-   Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Microsoft 365.|  
+|Printing reports to Excel or Word|-   Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Microsoft 365.|  
 |Additional information|-   The browser must be able to install the Report Viewer ActiveX control to be able to print.<br />-   If you experience problems using the [!INCLUDE[nav_web](includes/nav_web_md.md)], you can try to turn off browser tools, such as translator tools that may run in the background.|  
 
 ##  <a name="NavApps"></a> Microsoft Dynamics NAV Tablet Client and Phone Client \(in a Browser\) Requirements  
@@ -78,7 +78,7 @@ The following sections list the specifications of minimum hardware and software 
 |-|-|  
 |Supported operating systems|-   Windows 10 Home, Pro, Enterprise, or Education \(32-bit and 64-bit editions\).<br />-   Android 5.0 or higher (tablet and phone).<br />-   iOS 9.0 or higher (iPad and iPhone).<br />-   Windows Phone 8.1 or higher.<br />|  
 |Additional hardware|-   1 GB RAM for Android and Windows.|  
-|Additional software|-   A third-party telephony or VoIP app such as Skype or Lync is required for placing calls from [!INCLUDE[navnow](includes/navnow_md.md)].<br />-   A third-party email program such as Outlook is required for sending emails from [!INCLUDE[navnow](includes/navnow_md.md)].<br />-   Microsoft Office 2016 or later, or Microsoft Office 365 is required for sending data to Microsoft Excel or to Microsoft Word.|  
+|Additional software|-   A third-party telephony or VoIP app such as Skype or Lync is required for placing calls from [!INCLUDE[navnow](includes/navnow_md.md)].<br />-   A third-party email program such as Outlook is required for sending emails from [!INCLUDE[navnow](includes/navnow_md.md)].<br />-   Microsoft Office 2016 or later, or Microsoft Microsoft 365 is required for sending data to Microsoft Excel or to Microsoft Word.|  
 |Additional information|-   Device diagonal screen size 7” for tablets.<br />-   Screen resolution 960 × 510 for tablets.<br /> -   Device diagonal screen size 4” for phones.<br />-   Screen resolution 854 x 480 for phones.|  
 
 ##  <a name="NavServerReqs"></a> Microsoft Dynamics NAV Server Requirements  

@@ -28,7 +28,7 @@ Before a user can access [!INCLUDE[navnow](includes/navnow_md.md)], you must hav
 
 - **AccessControlService**  
 
-- **Office 365 Authentication**  
+- **Microsoft 365 Authentication**  
 
   This topic contains separate procedures for creating users for each credential authentication mechanism. For information about how to configure [!INCLUDE[rtc](includes/rtc_md.md)]s and the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for a specific authentication scheme, see [Users and Credential Types](Users-and-Credential-Types.md).  
 
@@ -85,13 +85,13 @@ Before a user can access [!INCLUDE[navnow](includes/navnow_md.md)], you must hav
 
    4.  Choose the **OK** button. The **ACS Access Status** changes to **Pending**. It will change to **Active** after the user successfully logs in.  
 
-7. To create a new user for Office 365 authentication, follow this step:  
+7. To create a new user for Microsoft 365 authentication, follow this step:  
 
-   -   On the **Office 365 Authentication** FastTab, in the **Authentication Email** field, specify the Microsoft account that this user uses to access Office 365 and SharePoint. The authentication email address must be the organizational email account that the users log in to Office 365 with, such as an account from Azure Active Directory \(Azure AD\).  
+   -   On the **Office 365 Authentication** FastTab, in the **Authentication Email** field, specify the Microsoft account that this user uses to access Microsoft 365 and SharePoint. The authentication email address must be the organizational email account that the users log in to Microsoft 365 with, such as an account from Azure Active Directory \(Azure AD\).  
 
-        The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configured to accept the relevant credential types that support integration with Office 365, such as Azure AD. For more information, see [Users and Credential Types](Users-and-Credential-Types.md).  
+        The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configured to accept the relevant credential types that support integration with Microsoft 365, such as Azure AD. For more information, see [Users and Credential Types](Users-and-Credential-Types.md).  
 
-        When you specify an email address, the **Authentication Status** field changes to **Inactive**. When the user logs in to Office 365, the authentication status changes to **Active**.  
+        When you specify an email address, the **Authentication Status** field changes to **Inactive**. When the user logs in to Microsoft 365, the authentication status changes to **Active**.  
 
 8. Open the **User Groups** FastTab to define which user groups the user is a member of. User groups are an easy way to manage permissions. For more information, see [Managing  User Groups](managing-user-groups.md).  
 
