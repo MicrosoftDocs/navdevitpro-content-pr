@@ -1,6 +1,6 @@
 ---
 title: User Authentication with Azure AD for Single Sign-on
-description: Associate an existing Microsoft account with Dynamics NAV user account to achieve single sign-on between the Web client and Office 365.
+description: Associate an existing Microsoft account with Dynamics NAV user account to achieve single sign-on between the Web client and Microsoft 365.
 ms.custom: na
 ms.date: 10/17/2017
 ms.reviewer: na
@@ -11,12 +11,12 @@ ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
 # Authenticating Dynamics NAV Users with Azure Active Directory
-Azure Active Directory \(Azure AD\) is a cloud service that provides identity and access capabilities, such as for applications on Microsoft Azure, Microsoft Office 365, and for applications that install on-premises. If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured to use the AccessControlService credential type, you can associate the [!INCLUDE[navnow](includes/navnow_md.md)] user accounts with Azure AD accounts that users use to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_windows](includes/nav_windows_md.md)], Office 365, and SharePoint.  
+Azure Active Directory \(Azure AD\) is a cloud service that provides identity and access capabilities, such as for applications on Microsoft Azure, Microsoft Microsoft 365, and for applications that install on-premises. If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured to use the AccessControlService credential type, you can associate the [!INCLUDE[navnow](includes/navnow_md.md)] user accounts with Azure AD accounts that users use to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_windows](includes/nav_windows_md.md)], Microsoft 365, and SharePoint.  
 
  For example, your users access a website, such as a SharePoint site. From there, they have single sign-on access to [!INCLUDE[navnow](includes/navnow_md.md)] because you have configured [!INCLUDE[navnow](includes/navnow_md.md)] for Azure AD.  
 
 ## Azure AD and [!INCLUDE[navnow](includes/navnow_md.md)]  
- You can use the Azure AD service to associate your existing Microsoft account with your [!INCLUDE[navnow](includes/navnow_md.md)] user account and achieve single sign-on between the [!INCLUDE[nav_web](includes/nav_web_md.md)] and Office 365. Also, if you use [!INCLUDE[navnow](includes/navnow_md.md)] in an app for SharePoint, you can use Azure AD to achieve single sign-on between the [!INCLUDE[nav_web](includes/nav_web_md.md)] and SharePoint. You can still host the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]on-premises. You do not have to deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Azure to use Azure AD for user authentication.
+ You can use the Azure AD service to associate your existing Microsoft account with your [!INCLUDE[navnow](includes/navnow_md.md)] user account and achieve single sign-on between the [!INCLUDE[nav_web](includes/nav_web_md.md)] and Microsoft 365. Also, if you use [!INCLUDE[navnow](includes/navnow_md.md)] in an app for SharePoint, you can use Azure AD to achieve single sign-on between the [!INCLUDE[nav_web](includes/nav_web_md.md)] and SharePoint. You can still host the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]on-premises. You do not have to deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Azure to use Azure AD for user authentication.
 
  The following sections describe the tasks involved in setting up Azure AD authentication for authenticating [!INCLUDE[navnow](includes/navnow_md.md)] users.
 
@@ -28,11 +28,11 @@ Azure Active Directory \(Azure AD\) is a cloud service that provides identity an
 - Upcoming releases of some browsers, such as Google Chrome 80 and Microsoft Edge, will include changes to how cookies are handled. To ensure Azure AD authentication works with these browser versions, make sure that the Dynamics NAV platform has been upgraded to a recommended update as described in [Preparing Dynamics NAV or Dynamics 365 Business Central for Upcoming Changes to Browser Cookie Policy](/dynamics365/business-central/dev-itpro/administration/prepare-for-cookie-samesite-policy).
 
 ## Task 1: Create an Azure AD Tenant  
- If you have an Office 365 subscription that is based on a domain such as *solutions.onmicrosoft.com*, you are already using Azure AD because the user accounts are based on Azure AD. Then, if you add the email addresses for those user accounts to the user accounts in [!INCLUDE[navnow](includes/navnow_md.md)], the users experience seamless integration between your SharePoint site and the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+ If you have a Microsoft 365 subscription that is based on a domain such as *solutions.onmicrosoft.com*, you are already using Azure AD because the user accounts are based on Azure AD. Then, if you add the email addresses for those user accounts to the user accounts in [!INCLUDE[navnow](includes/navnow_md.md)], the users experience seamless integration between your SharePoint site and the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 
- If you want to sign up for an Office 365 plan, you can use a plan such as Office 365 Enterprise E1 as your test site, or sign up for a trial developer plan. A trial plan includes an administrative account which you will use to access the Azure management portal. For example, if your Office 365 site is *Solutions.onmicrosoft.com*, your administrative account can be <em>admin@solutions.onmicrosoft.com</em>. For more information, see [Select an Office 365 plan for business](https://go.microsoft.com/fwlink/?LinkId=309050).  
+ If you want to sign up for a Microsoft 365 plan, you can use a plan such as Microsoft 365 Enterprise E1 as your test site, or sign up for a trial developer plan. A trial plan includes an administrative account which you will use to access the Azure management portal. For example, if your Microsoft 365 site is *Solutions.onmicrosoft.com*, your administrative account can be <em>admin@solutions.onmicrosoft.com</em>. For more information, see [Select a Microsoft 365 plan for business](https://go.microsoft.com/fwlink/?LinkId=309050).  
 
- Alternatively, you can sign up for an Azure subscription that is not associated with an Office 365 subscription. You can sign up in the Azure portal at [https://portal.azure.com](https://portal.azure.com). Then, you can configure an Azure Active Directory, which creates an Azure AD tenant. For more information, see [How to get an Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant).
+ Alternatively, you can sign up for an Azure subscription that is not associated with a Microsoft 365 subscription. You can sign up in the Azure portal at [https://portal.azure.com](https://portal.azure.com). Then, you can configure an Azure Active Directory, which creates an Azure AD tenant. For more information, see [How to get an Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant).
  
  <!-- For more information, see [Administering your Azure AD tenant](https://go.microsoft.com/fwlink/?LinkId=317423).-->  
 
@@ -85,7 +85,7 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
 
 1. Configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances that must support Azure AD to use `AccessControlService` as the credential type.
 
-   The `AccessControlService` credential type for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance includes support for Azure AD so that you can achieve single sign-on between Office 365 and [!INCLUDE[navnow](includes/navnow_md.md)].  
+   The `AccessControlService` credential type for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance includes support for Azure AD so that you can achieve single sign-on between Microsoft 365 and [!INCLUDE[navnow](includes/navnow_md.md)].  
 
 2. Specify the location of the federation metadata. For example, in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], on the **Azure Active Directory** tab, set the **WS-Federation Metadata Location** field.
 
@@ -176,7 +176,7 @@ For example:
 You configure the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] by modifying the ClientUserSettings.config file. For more information, see [Configuring the Dynamics NAV Windows Client](configuring-the-windows-client.md#afterset).
 
 ## Task 6: Associate the Azure AD Accounts with the [!INCLUDE[navnow](includes/navnow_md.md)] User Accounts  
- Each user in your Azure AD tenant that will access [!INCLUDE[navnow](includes/navnow_md.md)] must be set up in [!INCLUDE[navnow](includes/navnow_md.md)]. For example, create the users with Windows authentication or with user name/password authentication, depending on your deployment scenario. But you must also specify an authentication email address on the **Office 365 Authentication** FastTab in the **User Card** window. The authentication email address is the email account for that user in your Azure AD tenant. When you combine this with the relevant configuration of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, users achieve single sign-on when they access [!INCLUDE[nav_web](includes/nav_web_md.md)] from the SharePoint site, for example. For more information, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md).  
+ Each user in your Azure AD tenant that will access [!INCLUDE[navnow](includes/navnow_md.md)] must be set up in [!INCLUDE[navnow](includes/navnow_md.md)]. For example, create the users with Windows authentication or with user name/password authentication, depending on your deployment scenario. But you must also specify an authentication email address on the **Microsoft 365 Authentication** FastTab in the **User Card** window. The authentication email address is the email account for that user in your Azure AD tenant. When you combine this with the relevant configuration of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, users achieve single sign-on when they access [!INCLUDE[nav_web](includes/nav_web_md.md)] from the SharePoint site, for example. For more information, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md).  
 
 > [!IMPORTANT]  
 >  The single sign-on means that users are still signed in to Azure AD when they sign out from [!INCLUDE[navnow](includes/navnow_md.md)], unless they close all browser windows. However, if a user selected the **Keep me signed in** field when they signed in, they are still signed in when they close the browser window. To fully sign out from Azure AD, the user must sign out from each application that uses Azure AD, including [!INCLUDE[navnow](includes/navnow_md.md)] and SharePoint.  

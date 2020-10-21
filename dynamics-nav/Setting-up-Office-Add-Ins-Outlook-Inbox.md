@@ -11,7 +11,7 @@ author: jswymer
 ---
 # Setting Up the Office Add-Ins for Outlook Integration with [!INCLUDE[navnow](includes/navnow_md.md)]
 
-If your organization uses Exchange Server or Exchange Online (alone or part of Office 365), [!INCLUDE[navnow](includes/navnow_md.md)] includes add-ins for Outlook that enable users to complete [!INCLUDE[navnow](includes/navnow_md.md)] business tasks from their Outlook inbox. 
+If your organization uses Exchange Server or Exchange Online (alone or part of Microsoft 365), [!INCLUDE[navnow](includes/navnow_md.md)] includes add-ins for Outlook that enable users to complete [!INCLUDE[navnow](includes/navnow_md.md)] business tasks from their Outlook inbox. 
 
 ## Overview
 
@@ -81,9 +81,9 @@ With an Exchange Server or Exchange Online administrator account, you can deploy
 -	Run the **Outlook for Financials** assisted setup and choose the **My Organization** option. This method deploys both the Contact Insights and Document View add-ins.
 -	Use the **Office Add-ins Management** page. The **Office Add-ins Management** page lets deploy  the Contact Insights and Document View add-ins individually.
 
-Both methods will lead you through the deployment. The information that you must provide depends on whether you are using Exchange Online (or Office 365) or Exchange Server, and the user authentication method that is used by [!INCLUDE[navnow](includes/navnow_md.md)]:
+Both methods will lead you through the deployment. The information that you must provide depends on whether you are using Exchange Online (or Microsoft 365) or Exchange Server, and the user authentication method that is used by [!INCLUDE[navnow](includes/navnow_md.md)]:
 
-**For Exchange Online or Office 365:**
+**For Exchange Online or Microsoft 365:**
 
 If [!INCLUDE[navnow](includes/navnow_md.md)] is configured for NavUserPassword or Access Control Service authentication, you must provide an email address and password for an Exchange administrator account. If [!INCLUDE[navnow](includes/navnow_md.md)] is configured for Azure AD authentication, you are not prompted for these credentials because authentication against the Exchange or Exchange Online is done using an authentication token.
 

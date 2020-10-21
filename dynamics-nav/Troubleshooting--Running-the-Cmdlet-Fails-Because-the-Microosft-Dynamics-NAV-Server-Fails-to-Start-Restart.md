@@ -19,5 +19,5 @@ You can find more information about the [!INCLUDE[nav_server](includes/nav_serve
 -   Set the [!INCLUDE[nav_server](includes/nav_server_md.md)] to run as Administrator account on your computer.  
   
 ## See Also  
- [How to: Set up Microsoft Dynamics NAV for Single Sign-on With Office 365 using Windows PowerShell](How-to--Set-up-Microsoft-Dynamics-NAV-for-Single-Sign-on-With-Office-365-using-Windows-PowerShell.md)   
+ [How to: Set up Microsoft Dynamics NAV for Single Sign-on With Microsoft 365 using Windows PowerShell](How-to--Set-up-Microsoft-Dynamics-NAV-for-Single-Sign-on-With-Office-365-using-Windows-PowerShell.md)   
  [Authenticating Users with Azure Active Directory](Authenticating-Users-with-Azure-Active-Directory.md)

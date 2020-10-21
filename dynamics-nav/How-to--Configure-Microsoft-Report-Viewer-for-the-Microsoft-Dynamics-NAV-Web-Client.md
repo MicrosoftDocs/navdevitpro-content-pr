@@ -39,7 +39,7 @@ The [!INCLUDE[nav_web](includes/nav_web_md.md)] uses Microsoft Report Viewer to 
   
 <!--
 > [!NOTE]  
->  If your company uses Microsoft Office 365, the temporary files are stored in the location that is specified for the Office 365 document library. For more information, see [Integrating with Office 365 and SharePoint Online](Integrating-with-Office-365-and-SharePoint-Online.md).  -->
+>  If your company uses Microsoft Microsoft 365, the temporary files are stored in the location that is specified for the Microsoft 365 document library. For more information, see [Integrating with Microsoft 365 and SharePoint Online](Integrating-with-Office-365-and-SharePoint-Online.md).  -->
   
 #### To configure Report Viewer to save reports as Excel XLSX, Word DOCX, or PDF files  
   
