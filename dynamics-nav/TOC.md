@@ -31,6 +31,7 @@
 ## [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)
 ## [Migrating to Multitenancy](Migrating-to-Multitenancy.md)
 ## [Installation and Configuration Walkthroughs](Installation-and-Configuration-Walkthroughs.md)
+## [Determine the Number of Licensed Sessions](admin-determine-licensed-sessions.md)
 <!-- C/SIDE -->
 # [Development in C/AL](Development.md)
 ## [Application Design Overview](Application-Design-Overview.md)
