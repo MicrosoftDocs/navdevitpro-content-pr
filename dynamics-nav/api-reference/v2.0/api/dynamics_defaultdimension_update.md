@@ -12,6 +12,9 @@ ms.author: solsen
 ---
 
 # Update defaultDimensions for entities
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Update the default dimensions of entities in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 

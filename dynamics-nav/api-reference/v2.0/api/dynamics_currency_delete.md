@@ -12,6 +12,9 @@ ms.author: solsen
 ---
 
 # Delete currencies
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Deletes currencies in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request

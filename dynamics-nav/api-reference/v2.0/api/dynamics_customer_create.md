@@ -14,6 +14,9 @@ ms.author: solsen
 ---
 
 # Create customers
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Create a customer object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request

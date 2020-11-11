@@ -14,6 +14,9 @@ ms.author: solsen
 ---
 
 # Delete item defaultDimensions
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Deletes the default dimensions of the item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request

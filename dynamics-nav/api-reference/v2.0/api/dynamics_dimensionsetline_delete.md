@@ -12,6 +12,9 @@ ms.author: solsen
 ---
 
 # Delete dimensionSetLines
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Deletes dimensionSetLines in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request

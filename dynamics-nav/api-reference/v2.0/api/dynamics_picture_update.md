@@ -14,6 +14,9 @@ ms.author: solsen
 ---
 
 # Update picture
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Updates the properties and relationships of a picture object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request

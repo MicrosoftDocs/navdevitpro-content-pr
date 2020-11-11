@@ -14,6 +14,9 @@ ms.author: solsen
 ---
 
 # Create purchaseInvoices
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Create a purchase invoice report object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request

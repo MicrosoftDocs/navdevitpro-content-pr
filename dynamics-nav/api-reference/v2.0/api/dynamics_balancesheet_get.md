@@ -12,6 +12,9 @@ ms.author: solsen
 ---
 
 # Get balanceSheet
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Retrieve the properties and relationships of a balance sheet report object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request

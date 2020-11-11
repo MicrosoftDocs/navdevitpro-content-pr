@@ -14,6 +14,9 @@ ms.author: solsen
 ---
 
 # Create items
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Create an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] for use on invoices, quotes, etc.
 
 ## HTTP request
