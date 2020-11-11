@@ -12,6 +12,9 @@ ms.author: solsen
 ---
 
 # Create subscription
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Creates a webhook subscription for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. Will be created only if handshake is successful.
 
 ## HTTP request

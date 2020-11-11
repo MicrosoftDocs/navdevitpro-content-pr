@@ -14,6 +14,9 @@ ms.author: solsen
 ---
 
 # Delete taxAreas
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Delete a tax area object from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request

@@ -12,6 +12,9 @@ ms.author: solsen
 ---
 
 # Update subscriptions
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Updates a subscriptions object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. A subscription is valid for 3 days unless it is updated. `PATCH` requests will perform a handshake with the subscriber.
 
 ## HTTP request

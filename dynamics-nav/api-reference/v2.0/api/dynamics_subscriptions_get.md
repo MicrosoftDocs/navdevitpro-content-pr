@@ -12,6 +12,9 @@ ms.author: solsen
 ---
 
 # Get subscriptions
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Retrieves the properties of webhook subscription objects for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
