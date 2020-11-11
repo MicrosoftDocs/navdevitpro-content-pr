@@ -9,11 +9,14 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 11/11/2020
 ms.author: solsen
 
 ---
 # Microsoft graph reference
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 In this section, you can find API documentation for Microsoft Graph.
 
 |For Resource Type|See|

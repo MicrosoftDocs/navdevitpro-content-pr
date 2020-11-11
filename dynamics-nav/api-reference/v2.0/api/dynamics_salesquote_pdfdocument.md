@@ -14,6 +14,9 @@ ms.author: solsen
 ---
 
 # Get pdfDocument
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Retrieve a PDF print-out of the corresponding document as binary content for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
