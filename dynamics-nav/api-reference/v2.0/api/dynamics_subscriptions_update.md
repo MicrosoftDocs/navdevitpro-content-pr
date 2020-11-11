@@ -7,11 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 11/11/2020
 ms.author: solsen
 ---
 
 # Update subscriptions
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Updates a subscriptions object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. A subscription is valid for 3 days unless it is updated. `PATCH` requests will perform a handshake with the subscriber.
 
 ## HTTP request

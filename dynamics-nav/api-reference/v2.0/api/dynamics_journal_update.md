@@ -9,11 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 11/11/2020
 ms.author: solsen
 ---
 
 # Update journals
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Update the properties of a journal object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
