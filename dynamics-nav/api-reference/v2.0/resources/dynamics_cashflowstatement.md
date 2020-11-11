@@ -12,6 +12,9 @@ ms.author: solsen
 ---
 
 # cashFlowStatement resource type
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Represents a cash flow statement in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  

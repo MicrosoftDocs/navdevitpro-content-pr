@@ -12,6 +12,9 @@ ms.author: solsen
 ---
 
 # retainedEarningsStatement resource type
+
+[!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
+
 Represents a retained earnings statement in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
