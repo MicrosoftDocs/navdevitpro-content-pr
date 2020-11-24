@@ -162,6 +162,14 @@ For Document APIs, a notification will be sent for the header if a change is mad
 
 Custom APIs are also webhook-enabled and will be listed in **webhookSupportedResources** if [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] is able to send notifications for the entity.
 
+> [!NOTE]
+> Webhooks are not supported for APIs in the following cases:  
+>  
+> * The source table for the API page is a temporary table (SourceTableTemporary = true).
+> * The API page has a composite key (for example, if ODataKeyFields consists of several fields or is missing, then the primary key for the source table consists of several fields).
+> * The source table for the API page is a system table ("Table No." > 2000000000).
+> * The API is declared through an API type query, for example, and not through an API type page.
+
 ## Notes for on-premise
 
 By default, a subscription lives for 3 days if it is not renewed. The value is specified in the CustomSettings.config file under the ApiSubscriptionExpiration entry. There is a maximum number of subscriptions specified in the ApiSubscriptionMaxNumberOfSubscriptions in the CustomSettings.config file.

@@ -23,10 +23,10 @@ Represents a default dimensions in [!INCLUDE[d365fin_long_md](../../includes/d36
 ## Methods
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET defaultDimensions](../api/dynamics_defaultDimensions_Get.md)|defaultDimensions|Gets a default dimensions object.|
-|[DELETE defaultDimensions](../api/dynamics_defaultDimensions_Delete.md)|defaultDimensions|Deletes a default dimensions object.|
-|[POST defaultDimensions](../api/dynamics_defaultDimensions_Create.md)|defaultDimensions|Creates a default dimensions object.|
-|[PATCH defaultDimensions](../api/dynamics_defaultDimensions_Update.md)|defaultDimensions|Updates a default dimensions object.|
+|[GET defaultDimensions](../api/dynamics_defaultDimension_get.md)|defaultDimensions|Gets a default dimensions object.|
+|[DELETE defaultDimensions](../api/dynamics_defaultDimension_delete.md)|defaultDimensions|Deletes a default dimensions object.|
+|[POST defaultDimensions](../api/dynamics_defaultDimension_create.md)|defaultDimensions|Creates a default dimensions object.|
+|[PATCH defaultDimensions](../api/dynamics_defaultDimension_update.md)|defaultDimensions|Updates a default dimensions object.|
 
 ## Navigation
 
@@ -70,8 +70,8 @@ Here is a JSON representation of the defaultDimensions resource.
 ```
 ## See also
 
-[GET defaultDimensions](../api/dynamics_defaultDimensions_Get.md)
-[DELETE defaultDimensions](../api/dynamics_defaultDimensions_Delete.md)
-[POST defaultDimensions](../api/dynamics_defaultDimensions_Create.md)
-[PATCH defaultDimensions](../api/dynamics_defaultDimensions_Update.md)
+[GET defaultDimensions](../api/dynamics_defaultDimension_Get.md)
+[DELETE defaultDimensions](../api/dynamics_defaultDimension_Delete.md)
+[POST defaultDimensions](../api/dynamics_defaultDimension_Create.md)
+[PATCH defaultDimensions](../api/dynamics_defaultDimension_Update.md)
 

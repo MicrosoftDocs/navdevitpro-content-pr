@@ -36,7 +36,7 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 |[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the item.|
 |[picture](dynamics_picture.md)|picture |Gets the picture of the item.|
 |[defaultDimensions](dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the item.|
-|[itemVariants](dynamics_itemvariants.md)|itemVariants |Gets the itemvariants of the item.|
+|[itemVariants](dynamics_itemvariant.md)|itemVariants |Gets the itemvariants of the item.|
 
 
 ## Properties

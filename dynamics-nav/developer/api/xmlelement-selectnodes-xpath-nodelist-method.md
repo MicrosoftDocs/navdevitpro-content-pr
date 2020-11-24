@@ -14,9 +14,10 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+# SelectNodes Method
+
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
-# SelectNodes Method
 Selects a list of nodes matching the XPath expression.  
 ```  
 [Ok := ] XmlElement.SelectNodes(XPath, NodeList)  
