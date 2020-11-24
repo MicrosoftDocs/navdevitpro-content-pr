@@ -35,7 +35,7 @@ Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 |[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the employee.|
 |[picture](dynamics_picture.md)|picture |Gets the picture of the employee.|
 |[defaultDimensions](dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the employee.|
-|[timeRegistrationEntries](dynamics_timeregistrationentries.md)|timeRegistrationEntries |Gets the timeregistrationentries of the employee.|
+|[timeRegistrationEntries](dynamics_timeregistrationentry.md)|timeRegistrationEntries |Gets the timeregistrationentries of the employee.|
 
 
 ## Properties
