@@ -38,13 +38,13 @@ Once the `POST` is issued against the **subscription** API to create the subscri
 If [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] receives the response containing the `validationToken`, the subscription is registered and webhook notifications will be sent to the `notificationUrl`.  
 
 > [!IMPORTANT]  
-> Handshake is mandatory when [creating a subscription](api/dynamics_subscription_create.md) and [renewing a subscription](api/dynamics_subscription_update.md).  In both cases the client has to return the `validationToken` in the body with response code `200 OK`.
+> Handshake is mandatory when [creating a subscription](../api/dynamics_subscription_create.md) and [renewing a subscription](../api/dynamics_subscription_update.md).  In both cases the client has to return the `validationToken` in the body with response code `200 OK`.
 
 ### Client state
 Optionally clientState can be provided in the `POST` and `PATCH` requests bodies. clientState is included in the body of a webhook notification and can be used as an opaque token; a shared secret, enabling the subscriber to verify notifications.
 
 ## Renewing the subscription
-Subscriptions will expire after 3 days, if not renewed before. Subscriptions are renewed by issuing a [PATCH](api/dynamics_subscription_update.md) request to the subscription.
+Subscriptions will expire after 3 days, if not renewed before. Subscriptions are renewed by issuing a [PATCH](../api/dynamics_subscription_update.md) request to the subscription.
 
 ```
 PATCH https://{businesscentralPrefix}/api/v2.0/subscriptions({id}) 
@@ -52,7 +52,7 @@ PATCH https://{businesscentralPrefix}/api/v2.0/subscriptions({id})
 
 `PATCH` requests a handshake, just like `POST` requests, meaning that a subscription cannot be renewed unless the client returns the `validationToken` in the body.
 
-Subscription expiration time is listed in `expirationDateTime` property of the [subscription](api/dynamics_subscription_get.md).
+Subscription expiration time is listed in `expirationDateTime` property of the [subscription](../api/dynamics_subscription_get.md).
 
 ## Notifications and change types
 
