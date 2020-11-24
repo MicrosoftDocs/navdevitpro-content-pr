@@ -11,7 +11,7 @@ ms.date: 11/11/2020
 ms.author: solsen
 ---
 
-## Update paymentTerms
+# Update paymentTerms
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
