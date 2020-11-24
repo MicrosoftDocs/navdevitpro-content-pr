@@ -33,7 +33,7 @@ Represents a customer payment journal in [!INCLUDE[d365fin_long_md](../../includ
 | Navigation |Return Type| Description |    
 |:----------|:----------|:-----------------|
 |[account](dynamics_account.md)|account |Gets the account of the customerPaymentJournal.|
-|[customerPayments](dynamics_customerpayments.md)|customerPayments |Gets the customerpayments of the customerPaymentJournal.|
+|[customerPayments](dynamics_customerpayment.md)|customerPayments |Gets the customerpayments of the customerPaymentJournal.|
 
 
 ## Properties
