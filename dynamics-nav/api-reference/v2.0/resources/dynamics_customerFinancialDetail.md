@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/20
 ms.author: solsen
 ---
 
@@ -28,6 +28,11 @@ Represents a customer financial detail in [!INCLUDE[d365fin_long_md](../../inclu
 
 
 
+## Navigation
+
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
+|[customer](dynamics_customer.md)|customer |Gets the customer of the customerFinancialDetail.|
 
 
 ## Properties

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/20
 ms.author: solsen
 ---
 
@@ -28,10 +28,13 @@ Represents a purchase invoice line in [!INCLUDE[d365fin_long_md](../../includes/
 |[POST purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Create.md)|purchaseInvoiceLine|Creates a purchase invoice line object.|
 |[PATCH purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Update.md)|purchaseInvoiceLine|Updates a purchase invoice line object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[purchaseInvoice](dynamics_purchaseinvoice.md)|purchaseInvoice |Gets the purchaseinvoice of the purchaseInvoiceLine.|
 |[item](dynamics_item.md)|item |Gets the item of the purchaseInvoiceLine.|
 |[account](dynamics_account.md)|account |Gets the account of the purchaseInvoiceLine.|

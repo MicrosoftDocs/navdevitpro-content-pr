@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/20
 ms.author: solsen
 ---
 
@@ -25,10 +25,13 @@ Represents a general ledger entry in [!INCLUDE[d365fin_long_md](../../includes/d
 |:--------------------|:-----------|:-------------------------|
 |[GET generalLedgerEntry](../api/dynamics_generalLedgerEntry_Get.md)|generalLedgerEntry|Gets a general ledger entry object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[account](dynamics_account.md)|account |Gets the account of the generalLedgerEntry.|
 |[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the generalLedgerEntry.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the generalLedgerEntry.|

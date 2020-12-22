@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/20
 ms.author: solsen
 ---
 
@@ -28,10 +28,13 @@ Represents a sales invoice line in [!INCLUDE[d365fin_long_md](../../includes/d36
 |[POST salesInvoiceLine](../api/dynamics_salesInvoiceLine_Create.md)|salesInvoiceLine|Creates a sales invoice line object.|
 |[PATCH salesInvoiceLine](../api/dynamics_salesInvoiceLine_Update.md)|salesInvoiceLine|Updates a sales invoice line object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[salesInvoice](dynamics_salesinvoice.md)|salesInvoice |Gets the salesinvoice of the salesInvoiceLine.|
 |[item](dynamics_item.md)|item |Gets the item of the salesInvoiceLine.|
 |[account](dynamics_account.md)|account |Gets the account of the salesInvoiceLine.|

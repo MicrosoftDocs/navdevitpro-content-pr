@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/20
 ms.author: solsen
 ---
 
@@ -28,16 +28,19 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 |[POST vendor](../api/dynamics_vendor_Create.md)|vendor|Creates a vendor object.|
 |[PATCH vendor](../api/dynamics_vendor_Update.md)|vendor|Updates a vendor object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the vendor.|
 |[currency](dynamics_currency.md)|currency |Gets the currency of the vendor.|
 |[paymentTerm](dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the vendor.|
 |[paymentMethod](dynamics_paymentmethod.md)|paymentMethod |Gets the paymentmethod of the vendor.|
 |[picture](dynamics_picture.md)|picture |Gets the picture of the vendor.|
-|[defaultDimensions](dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the vendor.|
+|[defaultDimensions](dynamics_defaultdimension.md)|defaultDimensions |Gets the defaultdimensions of the vendor.|
 |[agedAccountsPayable](dynamics_agedaccountspayable.md)|agedAccountsPayable |Gets the agedaccountspayable of the vendor.|
 
 

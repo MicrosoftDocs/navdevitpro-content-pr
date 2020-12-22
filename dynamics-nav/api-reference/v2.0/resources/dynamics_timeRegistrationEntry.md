@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/20
 ms.author: solsen
 ---
 
@@ -33,8 +33,8 @@ Represents a time registration entry in [!INCLUDE[d365fin_long_md](../../include
 
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[employee](dynamics_employee.md)|employee |Gets the employee of the timeRegistrationEntry.|
 |[project](dynamics_project.md)|project |Gets the project of the timeRegistrationEntry.|
 |[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the timeRegistrationEntry.|

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/20
 ms.author: solsen
 ---
 
@@ -28,10 +28,13 @@ Represents an attachment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |[POST attachment](../api/dynamics_attachment_Create.md)|attachment|Creates a attachment object.|
 |[PATCH attachment](../api/dynamics_attachment_Update.md)|attachment|Updates a attachment object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[salesInvoice](dynamics_salesinvoice.md)|salesInvoice |Gets the salesinvoice of the attachment.|
 |[journalLine](dynamics_journalline.md)|journalLine |Gets the journalline of the attachment.|
 |[generalLedgerEntry](dynamics_generalledgerentry.md)|generalLedgerEntry |Gets the generalledgerentry of the attachment.|

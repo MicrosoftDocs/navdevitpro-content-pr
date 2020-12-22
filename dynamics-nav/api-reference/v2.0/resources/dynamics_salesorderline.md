@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/20
 ms.author: solsen
 ---
 
@@ -28,10 +28,13 @@ Represents a sales order line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[POST salesOrderLine](../api/dynamics_salesOrderLine_Create.md)|salesOrderLine|Creates a sales order line object.|
 |[PATCH salesOrderLine](../api/dynamics_salesOrderLine_Update.md)|salesOrderLine|Updates a sales order line object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[salesOrder](dynamics_salesorder.md)|salesOrder |Gets the salesorder of the salesOrderLine.|
 |[item](dynamics_item.md)|item |Gets the item of the salesOrderLine.|
 |[account](dynamics_account.md)|account |Gets the account of the salesOrderLine.|

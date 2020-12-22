@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/20
 ms.author: solsen
 ---
 
@@ -33,8 +33,8 @@ Represents a dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d36
 
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[salesInvoice](dynamics_salesinvoice.md)|salesInvoice |Gets the salesinvoice of the dimensionSetLine.|
 |[salesInvoiceLine](dynamics_salesinvoiceline.md)|salesInvoiceLine |Gets the salesinvoiceline of the dimensionSetLine.|
 |[dimension](dynamics_dimension.md)|dimension |Gets the dimension of the dimensionSetLine.|
@@ -50,6 +50,11 @@ Represents a dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d36
 |[salesCreditMemoLine](dynamics_salescreditmemoline.md)|salesCreditMemoLine |Gets the salescreditmemoline of the dimensionSetLine.|
 |[purchaseInvoice](dynamics_purchaseinvoice.md)|purchaseInvoice |Gets the purchaseinvoice of the dimensionSetLine.|
 |[purchaseInvoiceLine](dynamics_purchaseinvoiceline.md)|purchaseInvoiceLine |Gets the purchaseinvoiceline of the dimensionSetLine.|
+|[vendorPayment](dynamics_vendorpayment.md)|vendorPayment |Gets the vendorpayment of the dimensionSetLine.|
+|[salesShipment](dynamics_salesshipment.md)|salesShipment |Gets the salesshipment of the dimensionSetLine.|
+|[salesShipmentLine](dynamics_salesshipmentline.md)|salesShipmentLine |Gets the salesshipmentline of the dimensionSetLine.|
+|[purchaseReceipt](dynamics_purchasereceipt.md)|purchaseReceipt |Gets the purchasereceipt of the dimensionSetLine.|
+|[purchaseReceiptLine](dynamics_purchasereceiptline.md)|purchaseReceiptLine |Gets the purchasereceiptline of the dimensionSetLine.|
 
 
 ## Properties

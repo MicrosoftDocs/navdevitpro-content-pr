@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/20
 ms.author: solsen
 ---
 
@@ -28,10 +28,13 @@ Represents a sales quote line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[POST salesQuoteLine](../api/dynamics_salesQuoteLine_Create.md)|salesQuoteLine|Creates a sales quote line object.|
 |[PATCH salesQuoteLine](../api/dynamics_salesQuoteLine_Update.md)|salesQuoteLine|Updates a sales quote line object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[salesQuote](dynamics_salesquote.md)|salesQuote |Gets the salesquote of the salesQuoteLine.|
 |[item](dynamics_item.md)|item |Gets the item of the salesQuoteLine.|
 |[account](dynamics_account.md)|account |Gets the account of the salesQuoteLine.|

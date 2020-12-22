@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/20
 ms.author: solsen
 ---
 
@@ -27,6 +27,10 @@ Represents a country region in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 |[DELETE countryRegion](../api/dynamics_countryRegion_Delete.md)|none|Deletes a country region object.|
 |[POST countryRegion](../api/dynamics_countryRegion_Create.md)|countryRegion|Creates a country region object.|
 |[PATCH countryRegion](../api/dynamics_countryRegion_Update.md)|countryRegion|Updates a country region object.|
+
+
+
+
 
 
 ## Properties
