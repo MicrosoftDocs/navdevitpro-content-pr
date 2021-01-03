@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/03/2021
 ms.author: solsen
 ---
 
@@ -77,8 +77,8 @@ Represents a sales shipment in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 |shipToPostCode|string|Ship to post code.|
 |currencyCode|string|The default currency code for the sales shipment.|
 |orderNumber|string|The number of the order to which the sales shipment is associated to. Read-Only.|
-|paymentTermsCode|string||
-|shipmentMethodCode|string||
+|paymentTermsCode|string|Specifies the code of the payment term that the sales shipment uses.|
+|shipmentMethodCode|string|Specifies the code of the shipment method that sales shipment uses.|
 |salesperson|string|The salesperson code for the sales shipment.|
 |pricesIncludeTax|boolean|Specifies whether the prices include Tax or not. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the sales shipment was modified. Read-Only.|

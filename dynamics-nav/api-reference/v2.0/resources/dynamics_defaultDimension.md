@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/03/2021
 ms.author: solsen
 ---
 
@@ -55,7 +55,7 @@ Represents a default dimension in [!INCLUDE[d365fin_long_md](../../includes/d365
 |dimensionCode|string|The dimension code.|
 |dimensionValueId|GUID|The unique ID of the dimension value.|
 |dimensionValueCode|string|The dimension value code.  |
-|postingValidation|NAV.defaultDimensionValuePostingType||
+|postingValidation|NAV.defaultDimensionValuePostingType|Specifies how default dimensions and their values must be used. It can be " ", "Code_Mandatory", "Same_Code" or "No_Code".|
 
 
 ## JSON representation

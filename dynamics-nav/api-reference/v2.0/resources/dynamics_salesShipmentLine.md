@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/03/2021
 ms.author: solsen
 ---
 
@@ -43,9 +43,9 @@ Represents a sales shipment line in [!INCLUDE[d365fin_long_md](../../includes/d3
 |:-------------------|:-------|:---------------|
 |id|GUID|The unique ID of the item. Non-editable.|
 |documentId|GUID|The ID of the parent sales shipment line. |
-|documentNo|string||
+|documentNo|string|The number of the sales shipment line.|
 |sequence|integer|The line sequence number.|
-|lineType|NAV.salesLineType||
+|lineType|NAV.salesLineType|The type of the sales shipment line. It can be " ", "G/L Account", "Item", "Resource", "Fixed Asset" or "Charge Item".|
 |lineObjectNumber|string|The number of the object (account or item) of the sales shipment line.|
 |description|string|Specifies the description of the sales shipment line.|
 |unitOfMeasureCode|string|The code of unit of measure for the sales shipment line.|

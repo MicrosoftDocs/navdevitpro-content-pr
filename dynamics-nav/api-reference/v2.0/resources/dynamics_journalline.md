@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/03/2021
 ms.author: solsen
 ---
 
@@ -60,7 +60,7 @@ Represents a journal line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 |description|string|Specifies the description of the journal line.|
 |comment|string|A user specified comment on the journal line.|
 |taxCode|string|The tax code for the line.       |
-|balanceAccountType|NAV.genJournalAccountType||
+|balanceAccountType|NAV.genJournalAccountType|Specifies the type of account. It can be "G/L Account", "Customer", "Vendor", "Bank Account", "Fixed Asset", "IC Partner" or "Employee".|
 |balancingAccountId|GUID|The balancing G/L Account ID.|
 |balancingAccountNumber|string|The balancing G/L Account number.|
 |lastModifiedDateTime|datetime|The last datetime the journal line was modified. Read-Only.|

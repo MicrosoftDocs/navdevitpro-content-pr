@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/03/2021
 ms.author: solsen
 ---
 
@@ -43,7 +43,7 @@ Represents a purchase receipt line in [!INCLUDE[d365fin_long_md](../../includes/
 |id|GUID|The unique ID of the item. Non-editable.|
 |documentId|GUID|The ID of the parent purchase receipt line. |
 |sequence|integer|The line sequence number.|
-|lineType|NAV.purchaseLineType||
+|lineType|NAV.purchaseLineType|The type of the purchase receipt line. It can be " ", "G/L Account", "Item", "Resource", "Fixed Asset" or "Charge Item".|
 |lineObjectNumber|string|The number of the object (account or item) of the purchase receipt line.|
 |description|string|Specifies the description of the purchase receipt line.|
 |unitOfMeasureCode|string|The code of unit of measure for the purchase receipt line.|
