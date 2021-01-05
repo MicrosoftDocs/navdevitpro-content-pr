@@ -48,7 +48,46 @@ Here is an example of the response.
 
 ```json
 {
-PLACE CODE HERE.
+   "id": "55c99ea7-bde4-ea11-bbf2-00155df3a61",
+   "number": "108001",
+   "externalDocumentNumber": "",
+   "invoiceDate": "2019-01-01",
+   "postingDate": "2019-01-01",
+   "dueDate": "2019-10-05",
+   "customerPurchaseOrderReference": "",
+   "customerNumber": "20000",
+   "customerName": "First Up Consultants",
+   "billToName": "First Up Consultants",
+   "billToCustomerNumber": "20000",
+   "shipToName": "First Up Consultants",
+   "shipToContact": "Evan McIntosh",
+   "sellToAddressLine1": "100 Day Drive",
+   "sellToAddressLine2": "",
+   "sellToCity": "Chicago",
+   "sellToCountry": "US",
+   "sellToState": "IL",
+   "sellToPostCode": "61236",
+   "billToAddressLine1": "100 Day Drive",
+   "billToAddressLine2": "",
+   "billToCity": "Chicago",
+   "billToCountry": "US",
+   "billToState": "IL",
+   "billToPostCode": "61236",
+   "shipToAddressLine1": "100 Day Drive",
+   "shipToAddressLine2": "",
+   "shipToCity": "Chicago",
+   "shipToCountry": "US",
+   "shipToState": "IL",
+   "shipToPostCode": "61236",
+   "currencyCode": "USD",
+   "orderNumber": "34",
+   "paymentTermsCode": "",
+   "shipmentMethodCode": "",
+   "salesperson": "PS",
+   "pricesIncludeTax": false,
+   "lastModifiedDateTime": "2019-01-01",
+   "phoneNumber": "",
+   "email": "evan.mcintosh@contoso.com"
 }
 ```
 

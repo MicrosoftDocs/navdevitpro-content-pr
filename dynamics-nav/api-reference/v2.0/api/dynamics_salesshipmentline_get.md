@@ -18,7 +18,8 @@ Retrieve the properties and relationships of a salesShipmentLine object for [!IN
 ## HTTP request
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
-GET businesscentralPrefix/companies({id})/salesShipmentLines({id})
+GET businesscentralPrefix/companies({id})/salesShipmentLines({id})/salesShipmentLines({salesShipmentLineId})
+GET businesscentralPrefix/companies({id})/salesShipmentLines({salesShipmentLineId})
 ```
 
 ## Request headers
@@ -39,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and an **salesSh
 
 Here is an example of the request.
 ```json
-GET https://{businesscentralPrefix}/api/v2.0/companies({id})/salesShipmentLines({id})
+GET https://{businesscentralPrefix}/api/v2.0/companies({id})/salesShipmentLines({id})/salesShipmentLines({salesShipmentLineId})
 ```
 
 **Response**
@@ -48,7 +49,19 @@ Here is an example of the response.
 
 ```json
 {
-PLACE CODE HERE.
+   "id": "238cb9c0-44e3-ea11-bb43-000d3a2feca1",
+   "documentId": "9e0f5c9c-44e3-ea11-bb43-000d3a2feca1",
+   "documentNo": "829482",
+   "sequence": 10000,
+   "lineType": "NAV.salesLineType",
+   "lineObjectNumber": "1928-S",
+   "description": "AMSTERDAM Lamp",
+   "unitOfMeasureCode": "PCS",
+   "unitPrice":  54.9,
+   "quantity": 3,
+   "discountPercent": 0,
+   "taxPercent": 20,
+   "shipmentDate": "2020-08-21"
 }
 ```
 

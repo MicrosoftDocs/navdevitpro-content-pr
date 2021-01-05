@@ -48,7 +48,38 @@ Here is an example of the response.
 
 ```json
 {
-PLACE CODE HERE.
+   "id": "5d115c9c-44e3-ea11-bb43-000d3a2feca1",
+   "number": "108001",
+   "invoiceDate": "2019-01-01",
+   "postingDate": "2019-01-01",
+   "dueDate": "2019-01-01",
+   "vendorNumber": "20000",
+   "vendorName": "First Up Consultants",
+   "payToName": "First Up Consultants",
+   "payToContact": "Evan McIntosh",
+   "payToVendorNumber": "20000",
+   "shipToName": "First Up Consultants",
+   "shipToContact": "Evan McIntosh",
+   "buyFromAddressLine1": "100 Day Drive",
+   "buyFromAddressLine2": "",
+   "buyFromCity": "Chicago",
+   "buyFromCountry": "US",
+   "buyFromState": "IL",
+   "buyFromPostCode": "61236",
+   "shipToAddressLine1": "100 Day Drive",
+   "shipToAddressLine2": "",
+   "shipToCity": "Chicago",
+   "shipToCountry": "US",
+   "shipToState": "IL",
+   "shipToPostCode": "61236",
+   "payToAddressLine1": "100 Day Drive",
+   "payToAddressLine2": "",
+   "payToCity": "Chicago",
+   "payToCountry": "US",
+   "payToState": "IL",
+   "payToPostCode": "61236",
+   "currencyCode": "USD",
+   "lastModifiedDateTime": "2019-01-01"
 }
 ```
 
