@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/2020
 ms.author: solsen
 ---
 
@@ -28,18 +28,20 @@ Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |[POST salesOrder](../api/dynamics_salesOrder_Create.md)|salesOrder|Creates a sales order object.|
 |[PATCH salesOrder](../api/dynamics_salesOrder_Update.md)|salesOrder|Updates a sales order object.|
 
+
 ## Bound Actions
 The salesOrder resource type offers a bound action called `shipAndInvoice` which posts the corresponding salesOrder batch.
 
-Posting the salesOrder batch is illustrated in the following example:
+ Posting the salesOrder batch is illustrated in the following example:
 `SHIPANDINVOICE https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesOrders({id})/Microsoft.NAV.shipAndInvoice`.
 
 The response has no content; the response code is 204.
 
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[customer](dynamics_customer.md)|customer |Gets the customer of the salesOrder.|
 |[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the salesOrder.|
 |[currency](dynamics_currency.md)|currency |Gets the currency of the salesOrder.|

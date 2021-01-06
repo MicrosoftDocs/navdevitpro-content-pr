@@ -59,7 +59,7 @@ Specifies the unique ID that is assigned to the MediaSet of the record. You can 
 ## Example  
 This example uses the IMPORTFILE function to add images to records in table **27 Item** of the [!INCLUDE[demolonglight_md](includes/demolonglight_md.md)].
 
-In support of the example code, you alsmust complete these tasks:  
+In support of the example code, you must also complete these tasks:  
 
 -   Create two sample image files that you want to use on item no. 1000 in table **27 Item**.
 

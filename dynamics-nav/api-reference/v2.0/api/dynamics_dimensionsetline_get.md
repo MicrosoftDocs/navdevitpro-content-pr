@@ -31,8 +31,12 @@ GET businesscentralPrefix/companies({id})/salesCreditMemos({id})/dimensionSetLin
 GET businesscentralPrefix/companies({id})/salesCreditMemoLines({id})/dimensionSetLines({id})
 GET businesscentralPrefix/companies({id})/salesInvoices({id})/dimensionSetLines({id})
 GET businesscentralPrefix/companies({id})/salesInvoiceLines({id})/dimensionSetLines({id})
+GET businesscentralPrefix/companies({id})/salesShipments({id})/dimensionSetLines({id})
+GET businesscentralPrefix/companies({id})/salesShipmentLines({id})/dimensionSetLines({id})
 GET businesscentralPrefix/companies({id})/purchaseInvoices({id})/dimensionSetLines({id})
 GET businesscentralPrefix/companies({id})/purchaseInvoiceLines({id})/dimensionSetLines({id})
+GET businesscentralPrefix/companies({id})/purchaseReceipts({id})/dimensionSetLines({id})
+GET businesscentralPrefix/companies({id})/purchaseReceiptLines({id})/dimensionSetLines({id})
 GET businesscentralPrefix/companies({id})/generalLedgerEntries({id})/dimensionSetLines({id})
 GET businesscentralPrefix/companies({id})/timeRegistrationEntries({id})/dimensionSetLines({id})
 ```

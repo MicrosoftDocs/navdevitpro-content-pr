@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 01/03/2021
 ms.author: solsen
 ---
 
@@ -28,10 +28,13 @@ Represents a purchase invoice line in [!INCLUDE[d365fin_long_md](../../includes/
 |[POST purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Create.md)|purchaseInvoiceLine|Creates a purchase invoice line object.|
 |[PATCH purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Update.md)|purchaseInvoiceLine|Updates a purchase invoice line object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[purchaseInvoice](dynamics_purchaseinvoice.md)|purchaseInvoice |Gets the purchaseinvoice of the purchaseInvoiceLine.|
 |[item](dynamics_item.md)|item |Gets the item of the purchaseInvoiceLine.|
 |[account](dynamics_account.md)|account |Gets the account of the purchaseInvoiceLine.|
@@ -49,7 +52,7 @@ Represents a purchase invoice line in [!INCLUDE[d365fin_long_md](../../includes/
 |sequence|integer|The line sequence number.|
 |itemId|GUID|The ID of the item in the purchase invoice line.|
 |accountId|GUID|The id of the account that the purchase invoice line is related to. |
-|lineType|NAV.invoiceLineAggLineType|The type of thepurchase invoice line. It can be "Comment", "Account", "Item", "Resource" Value", "Fixed Asset" or "Charge".|
+|lineType|NAV.invoiceLineAggLineType|The type of the purchase invoice line. It can be "Comment", "Account", "Item", "Resource" Value", "Fixed Asset" or "Charge".|
 |lineObjectNumber|string|The number of the object (account or item) of the purchase invoice line.|
 |description|string|Specifies the description of the purchase invoice line.|
 |unitOfMeasureId|GUID|The ID of unit of measure for the purchase invoice line.|

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/2020
 ms.author: solsen
 ---
 
@@ -24,6 +24,10 @@ Represents a vendor purchase in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET vendorPurchase](../api/dynamics_vendorPurchase_Get.md)|vendorPurchase|Gets a vendor purchase object.|
+
+
+
+
 
 
 ## Properties

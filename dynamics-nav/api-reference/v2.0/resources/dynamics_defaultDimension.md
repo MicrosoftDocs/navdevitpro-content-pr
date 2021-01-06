@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 01/03/2021
 ms.author: solsen
 ---
 
@@ -28,10 +28,13 @@ Represents a default dimension in [!INCLUDE[d365fin_long_md](../../includes/d365
 |[POST defaultDimension](../api/dynamics_defaultDimension_Create.md)|defaultDimension|Creates a default dimension object.|
 |[PATCH defaultDimension](../api/dynamics_defaultDimension_Update.md)|defaultDimension|Updates a default dimension object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[item](dynamics_item.md)|item |Gets the item of the defaultDimension.|
 |[account](dynamics_account.md)|account |Gets the account of the defaultDimension.|
 |[dimension](dynamics_dimension.md)|dimension |Gets the dimension of the defaultDimension.|
@@ -52,7 +55,7 @@ Represents a default dimension in [!INCLUDE[d365fin_long_md](../../includes/d365
 |dimensionCode|string|The dimension code.|
 |dimensionValueId|GUID|The unique ID of the dimension value.|
 |dimensionValueCode|string|The dimension value code.  |
-|postingValidation|string|Specifies how default dimensions and their values must be used.|
+|postingValidation|NAV.defaultDimensionValuePostingType|Specifies how default dimensions and their values must be used. It can be " ", "Code_Mandatory", "Same_Code" or "No_Code".|
 
 
 ## JSON representation
@@ -69,7 +72,7 @@ Here is a JSON representation of the defaultDimension resource.
    "dimensionCode": "string",
    "dimensionValueId": "GUID",
    "dimensionValueCode": "string",
-   "postingValidation": "string"
+   "postingValidation": "NAV.defaultDimensionValuePostingType"
 }
 ```
 ## See also

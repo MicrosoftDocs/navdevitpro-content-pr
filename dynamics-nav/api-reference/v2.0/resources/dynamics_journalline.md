@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 01/03/2021
 ms.author: solsen
 ---
 
@@ -28,10 +28,13 @@ Represents a journal line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 |[POST journalLine](../api/dynamics_journalLine_Create.md)|journalLine|Creates a journal line object.|
 |[PATCH journalLine](../api/dynamics_journalLine_Update.md)|journalLine|Updates a journal line object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[journal](dynamics_journal.md)|journal |Gets the journal of the journalLine.|
 |[customerPaymentJournal](dynamics_customerpaymentjournal.md)|customerPaymentJournal |Gets the customerpaymentjournal of the journalLine.|
 |[account](dynamics_account.md)|account |Gets the account of the journalLine.|
@@ -56,6 +59,10 @@ Represents a journal line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 |amount|decimal|Specifies the total amount (including VAT) that the journal line consists of.|
 |description|string|Specifies the description of the journal line.|
 |comment|string|A user specified comment on the journal line.|
+|taxCode|string|The tax code for the line.       |
+|balanceAccountType|NAV.genJournalAccountType|Specifies the type of account. It can be "G/L Account", "Customer", "Vendor", "Bank Account", "Fixed Asset", "IC Partner" or "Employee".|
+|balancingAccountId|GUID|The balancing G/L Account ID.|
+|balancingAccountNumber|string|The balancing G/L Account number.|
 |lastModifiedDateTime|datetime|The last datetime the journal line was modified. Read-Only.|
 
 
@@ -79,6 +86,10 @@ Here is a JSON representation of the journalLine resource.
    "amount": "decimal",
    "description": "string",
    "comment": "string",
+   "taxCode": "string",
+   "balanceAccountType": "NAV.genJournalAccountType",
+   "balancingAccountId": "GUID",
+   "balancingAccountNumber": "string",
    "lastModifiedDateTime": "datetime"
 }
 ```

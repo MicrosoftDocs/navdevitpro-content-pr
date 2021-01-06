@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/2020
 ms.author: solsen
 ---
 
@@ -30,8 +30,8 @@ Represents a dimension value in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[dimension](dynamics_dimension.md)|dimension |Gets the dimension of the dimensionValue.|
 
 
