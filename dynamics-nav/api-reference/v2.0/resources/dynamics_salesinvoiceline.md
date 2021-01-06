@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 01/03/2021
 ms.author: solsen
 ---
 
@@ -28,10 +28,13 @@ Represents a sales invoice line in [!INCLUDE[d365fin_long_md](../../includes/d36
 |[POST salesInvoiceLine](../api/dynamics_salesInvoiceLine_Create.md)|salesInvoiceLine|Creates a sales invoice line object.|
 |[PATCH salesInvoiceLine](../api/dynamics_salesInvoiceLine_Update.md)|salesInvoiceLine|Updates a sales invoice line object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[salesInvoice](dynamics_salesinvoice.md)|salesInvoice |Gets the salesinvoice of the salesInvoiceLine.|
 |[item](dynamics_item.md)|item |Gets the item of the salesInvoiceLine.|
 |[account](dynamics_account.md)|account |Gets the account of the salesInvoiceLine.|
@@ -49,7 +52,7 @@ Represents a sales invoice line in [!INCLUDE[d365fin_long_md](../../includes/d36
 |sequence|integer|The line sequence number.|
 |itemId|GUID|The ID of the item in the sales invoice line.|
 |accountId|GUID|The id of the account that the sales invoice line is related to. |
-|lineType|NAV.invoiceLineAggLineType|The type of thesales invoice line. It can be "Comment", "Account", "Item", "Resource" Value", "Fixed Asset" or "Charge".|
+|lineType|NAV.invoiceLineAggLineType|The type of the sales invoice line. It can be "Comment", "Account", "Item", "Resource" Value", "Fixed Asset" or "Charge".|
 |lineObjectNumber|string|The number of the object (account or item) of the sales invoice line.|
 |description|string|Specifies the description of the sales invoice line.|
 |unitOfMeasureId|GUID|The ID of unit of measure for the sales invoice line.|

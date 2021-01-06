@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 01/03/2021
 ms.author: solsen
 ---
 
@@ -28,10 +28,13 @@ Represents a sales quote line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[POST salesQuoteLine](../api/dynamics_salesQuoteLine_Create.md)|salesQuoteLine|Creates a sales quote line object.|
 |[PATCH salesQuoteLine](../api/dynamics_salesQuoteLine_Update.md)|salesQuoteLine|Updates a sales quote line object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[salesQuote](dynamics_salesquote.md)|salesQuote |Gets the salesquote of the salesQuoteLine.|
 |[item](dynamics_item.md)|item |Gets the item of the salesQuoteLine.|
 |[account](dynamics_account.md)|account |Gets the account of the salesQuoteLine.|
@@ -49,7 +52,7 @@ Represents a sales quote line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |sequence|integer|The line sequence number.|
 |itemId|GUID|The ID of the item in the sales quote line.|
 |accountId|GUID|The id of the account that the sales quote line is related to. |
-|lineType|NAV.invoiceLineAggLineType|The type of thesales quote line. It can be "Comment", "Account", "Item", "Resource" Value", "Fixed Asset" or "Charge".|
+|lineType|NAV.invoiceLineAggLineType|The type of the sales quote line. It can be "Comment", "Account", "Item", "Resource" Value", "Fixed Asset" or "Charge".|
 |lineObjectNumber|string|The number of the object (account or item) of the sales quote line.|
 |description|string|Specifies the description of the sales quote line.|
 |unitOfMeasureId|GUID|The ID of unit of measure for the sales quote line.|

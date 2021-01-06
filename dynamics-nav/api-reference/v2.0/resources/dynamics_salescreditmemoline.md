@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 01/03/2021
 ms.author: solsen
 ---
 
@@ -28,10 +28,13 @@ Represents a sales credit memo line in [!INCLUDE[d365fin_long_md](../../includes
 |[POST salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Create.md)|salesCreditMemoLine|Creates a sales credit memo line object.|
 |[PATCH salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Update.md)|salesCreditMemoLine|Updates a sales credit memo line object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[salesCreditMemo](dynamics_salescreditmemo.md)|salesCreditMemo |Gets the salescreditmemo of the salesCreditMemoLine.|
 |[item](dynamics_item.md)|item |Gets the item of the salesCreditMemoLine.|
 |[account](dynamics_account.md)|account |Gets the account of the salesCreditMemoLine.|
@@ -49,7 +52,7 @@ Represents a sales credit memo line in [!INCLUDE[d365fin_long_md](../../includes
 |sequence|integer|The line sequence number.|
 |itemId|GUID|The ID of the item in the sales credit memo line.|
 |accountId|GUID|The id of the account that the sales credit memo line is related to. |
-|lineType|NAV.invoiceLineAggLineType|The type of thesales credit memo line. It can be "Comment", "Account", "Item", "Resource" Value", "Fixed Asset" or "Charge".|
+|lineType|NAV.invoiceLineAggLineType|The type of the sales credit memo line. It can be "Comment", "Account", "Item", "Resource" Value", "Fixed Asset" or "Charge".|
 |lineObjectNumber|string|The number of the object (account or item) of the sales credit memo line.|
 |description|string|Specifies the description of the sales credit memo line.|
 |unitOfMeasureId|GUID|The ID of unit of measure for the sales credit memo line.|

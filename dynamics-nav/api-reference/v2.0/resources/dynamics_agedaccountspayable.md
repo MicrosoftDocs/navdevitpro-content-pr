@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/2020
 ms.author: solsen
 ---
 
@@ -28,6 +28,11 @@ Represents an aged accounts payable in [!INCLUDE[d365fin_long_md](../../includes
 
 
 
+## Navigation
+
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
+|[vendor](dynamics_vendor.md)|vendor |Gets the vendor of the agedAccountsPayable.|
 
 
 ## Properties

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/2020
 ms.author: solsen
 ---
 
@@ -30,8 +30,8 @@ Represents an account in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[trialBalance](dynamics_trialbalance.md)|trialBalance |Gets the trialbalance of the account.|
 
 

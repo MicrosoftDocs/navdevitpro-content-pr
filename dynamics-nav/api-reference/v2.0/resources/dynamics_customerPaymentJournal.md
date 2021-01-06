@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/2020
 ms.author: solsen
 ---
 
@@ -28,10 +28,13 @@ Represents a customer payment journal in [!INCLUDE[d365fin_long_md](../../includ
 |[POST customerPaymentJournal](../api/dynamics_customerPaymentJournal_Create.md)|customerPaymentJournal|Creates a customer payment journal object.|
 |[PATCH customerPaymentJournal](../api/dynamics_customerPaymentJournal_Update.md)|customerPaymentJournal|Updates a customer payment journal object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[account](dynamics_account.md)|account |Gets the account of the customerPaymentJournal.|
 |[customerPayments](dynamics_customerpayment.md)|customerPayments |Gets the customerpayments of the customerPaymentJournal.|
 

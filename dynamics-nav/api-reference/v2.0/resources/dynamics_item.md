@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/2020
 ms.author: solsen
 ---
 
@@ -28,14 +28,17 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 |[POST item](../api/dynamics_item_Create.md)|item|Creates a item object.|
 |[PATCH item](../api/dynamics_item_Update.md)|item|Updates a item object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[itemCategory](dynamics_itemcategory.md)|itemCategory |Gets the itemcategory of the item.|
 |[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the item.|
 |[picture](dynamics_picture.md)|picture |Gets the picture of the item.|
-|[defaultDimensions](dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the item.|
+|[defaultDimensions](dynamics_defaultdimension.md)|defaultDimensions |Gets the defaultdimensions of the item.|
 |[itemVariants](dynamics_itemvariant.md)|itemVariants |Gets the itemvariants of the item.|
 
 

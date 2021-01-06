@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/2020
 ms.author: solsen
 ---
 
@@ -30,12 +30,12 @@ Represents a company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[items](dynamics_item.md)|items |Gets the items of the company.|
-|[unitsOfMeasure](dynamics_unitofmeasure.md)|unitsOfMeasure |Gets the unitsofmeasure of the company.|
+|[unitsOfMeasure](dynamics_unitsofmeasure.md)|unitsOfMeasure |Gets the unitsofmeasure of the company.|
 |[pictures](dynamics_picture.md)|pictures |Gets the pictures of the company.|
-|[defaultDimensions](dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the company.|
+|[defaultDimensions](dynamics_defaultdimension.md)|defaultDimensions |Gets the defaultdimensions of the company.|
 |[itemVariants](dynamics_itemvariant.md)|itemVariants |Gets the itemvariants of the company.|
 |[customers](dynamics_customer.md)|customers |Gets the customers of the company.|
 |[customerFinancialDetails](dynamics_customerfinancialdetail.md)|customerFinancialDetails |Gets the customerfinancialdetails of the company.|
@@ -81,8 +81,14 @@ Represents a company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |[purchaseInvoiceLines](dynamics_purchaseinvoiceline.md)|purchaseInvoiceLines |Gets the purchaseinvoicelines of the company.|
 |[projects](dynamics_project.md)|projects |Gets the projects of the company.|
 |[bankAccounts](dynamics_bankaccount.md)|bankAccounts |Gets the bankaccounts of the company.|
+|[vendorPayments](dynamics_vendorpayment.md)|vendorPayments |Gets the vendorpayments of the company.|
+|[vendorPaymentJournals](dynamics_vendorpaymentjournal.md)|vendorPaymentJournals |Gets the vendorpaymentjournals of the company.|
+|[salesShipments](dynamics_salesshipment.md)|salesShipments |Gets the salesshipments of the company.|
+|[salesShipmentLines](dynamics_salesshipmentline.md)|salesShipmentLines |Gets the salesshipmentlines of the company.|
+|[purchaseReceipts](dynamics_purchasereceipt.md)|purchaseReceipts |Gets the purchasereceipts of the company.|
+|[purchaseReceiptLines](dynamics_purchasereceiptline.md)|purchaseReceiptLines |Gets the purchasereceiptlines of the company.|
 |[customerSales](dynamics_customersale.md)|customerSales |Gets the customersales of the company.|
-|[vendorPurchases](dynamics_vendorpurchase.md)|vendorPurchases |Gets the vendorpurchases of the company.|
+|[vendorPurchases](dynamics_vendorpurchas.md)|vendorPurchases |Gets the vendorpurchases of the company.|
 
 
 ## Properties

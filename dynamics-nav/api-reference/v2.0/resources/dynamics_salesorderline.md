@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 01/03/2021
 ms.author: solsen
 ---
 
@@ -28,10 +28,13 @@ Represents a sales order line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[POST salesOrderLine](../api/dynamics_salesOrderLine_Create.md)|salesOrderLine|Creates a sales order line object.|
 |[PATCH salesOrderLine](../api/dynamics_salesOrderLine_Update.md)|salesOrderLine|Updates a sales order line object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[salesOrder](dynamics_salesorder.md)|salesOrder |Gets the salesorder of the salesOrderLine.|
 |[item](dynamics_item.md)|item |Gets the item of the salesOrderLine.|
 |[account](dynamics_account.md)|account |Gets the account of the salesOrderLine.|
@@ -49,7 +52,7 @@ Represents a sales order line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |sequence|integer|The line sequence number.|
 |itemId|GUID|The ID of the item in the sales order line.|
 |accountId|GUID|The id of the account that the sales order line is related to. |
-|lineType|NAV.invoiceLineAggLineType|The type of thesales order line. It can be "Comment", "Account", "Item", "Resource" Value", "Fixed Asset" or "Charge".|
+|lineType|NAV.invoiceLineAggLineType|The type of the sales order line. It can be "Comment", "Account", "Item", "Resource" Value", "Fixed Asset" or "Charge".|
 |lineObjectNumber|string|The number of the object (account or item) of the sales order line.|
 |description|string|Specifies the description of the sales order line.|
 |unitOfMeasureId|GUID|The ID of unit of measure for the sales order line.|
