@@ -33,7 +33,7 @@ Represents a company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 | Navigation |Return Type| Description | 
  |:----------|:----------|:-----------------|
 |[items](dynamics_item.md)|items |Gets the items of the company.|
-|[unitsOfMeasure](dynamics_unitsofmeasure.md)|unitsOfMeasure |Gets the unitsofmeasure of the company.|
+|[unitsOfMeasure](dynamics_unitofmeasure.md)|unitsOfMeasure |Gets the unitsofmeasure of the company.|
 |[pictures](dynamics_picture.md)|pictures |Gets the pictures of the company.|
 |[defaultDimensions](dynamics_defaultdimension.md)|defaultDimensions |Gets the defaultdimensions of the company.|
 |[itemVariants](dynamics_itemvariant.md)|itemVariants |Gets the itemvariants of the company.|
@@ -88,7 +88,7 @@ Represents a company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |[purchaseReceipts](dynamics_purchasereceipt.md)|purchaseReceipts |Gets the purchasereceipts of the company.|
 |[purchaseReceiptLines](dynamics_purchasereceiptline.md)|purchaseReceiptLines |Gets the purchasereceiptlines of the company.|
 |[customerSales](dynamics_customersale.md)|customerSales |Gets the customersales of the company.|
-|[vendorPurchases](dynamics_vendorpurchas.md)|vendorPurchases |Gets the vendorpurchases of the company.|
+|[vendorPurchases](dynamics_vendorpurchase.md)|vendorPurchases |Gets the vendorpurchases of the company.|
 
 
 ## Properties
