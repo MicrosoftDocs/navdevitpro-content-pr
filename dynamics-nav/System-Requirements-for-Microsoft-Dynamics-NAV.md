@@ -55,7 +55,7 @@ The following sections list the minimum hardware and software requirements to in
 
 |||  
 |-|-|  
-|Supported browsers|<ul><li>Microsoft Edge.</li><li>Internet Explorer 11.</li><li>Google Chrome 61.0 for Windows.</li><li>Mozilla Firefox 55.0 for Windows.</li><li>Safari 10.0 for macOS.</li></ul>For a list of browser limitations, see [Browser Limitations with the Microsoft Dynamics NAV Web Client](Browser-Limitations-with-the-Microsoft-Dynamics-NAV-Web-Client.md).|  
+|Supported browsers|<ul><li>Microsoft Edge</li><li>Internet Explorer 11</li><li>Google Chrome for Windows (61.0 or later)</li><li>Mozilla Firefox 55.0 for Windows (55.0 or later)</li><li>Safari for macOS (10.0 or later)</li></ul>For a list of browser limitations, see [Browser Limitations with the Microsoft Dynamics NAV Web Client](Browser-Limitations-with-the-Microsoft-Dynamics-NAV-Web-Client.md).|  
 |Business inbox in Outlook|<ul><li>Microsoft Microsoft 365.</li></ul>|  
 |Sending data to Excel|<ul><li>Microsoft Office 2019, Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Microsoft 365.</li></ul>|  
 |Editing in Excel using the Excel Add-in |<ul><li>Excel 2019 or Excel 2016.<br /><br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).</li></ul>|  
@@ -69,7 +69,7 @@ The following sections list the minimum hardware and software requirements to in
 |||  
 |-|-|  
 |Server component|Identical to the [!INCLUDE[navnow](includes/navnow_md.md)] Web client.|  
-|Supported browsers|The following desktop browsers are supported:<ul><li> Microsoft Edge</li><li>Internet Explorer 11 \(build 11.0.9600.17239\) for Windows 10 and for Windows 8.1 \(32-bit and 64-bit versions\).</li><li>Google Chrome 61.0 for Windows.</li><li>Mozilla Firefox 55.0 for Windows.</li><li>Safari 10.0 for macOS.</li></ul>|  
+|Supported browsers|The following desktop browsers are supported:<ul><li> Microsoft Edge</li><li>Internet Explorer 11 \(build 11.0.9600.17239 or later\) for Windows 10 and for Windows 8.1 \(32-bit and 64-bit versions\)</li><li>Google Chrome for Windows (61.0 or later)</li><li>Mozilla Firefox 55.0 for Windows (55.0 or later)</li><li>Safari 10.0 for macOS</li></ul>|  
 
 ###  <a name="DynNAVApp"></a> Dynamics NAV Universal App Requirements  
  The following table shows the minimum system requirements for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)]. For the latest information, see [Dynamics NAV for Windows](https://go.microsoft.com/fwlink/?LinkId=509974), [Dynamics NAV for iPad and iPhone](https://go.microsoft.com/fwlink/?LinkId=509975), and [Dynamics NAV for Android tablet and Android phone](https://go.microsoft.com/fwlink/?LinkId=509976).  
