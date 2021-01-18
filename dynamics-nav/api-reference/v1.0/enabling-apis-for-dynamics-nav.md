@@ -7,7 +7,7 @@ ms.date: 04/01/2019
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: reference
+ms.topic: article
 ms.service: "dynamics365-business-central"
 ms.author: solsen
 ---

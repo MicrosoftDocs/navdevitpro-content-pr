@@ -4,7 +4,7 @@ description: "OpenAPI Specification for Dynamics 365 Business Central"
 ms.service: "dynamics365-business-central"
 author: SusanneWindfeldPedersen
 ms.date: 10/23/2019
-ms.topic: reference
+ms.topic: article
 ms.author: solsen
 ---
 
