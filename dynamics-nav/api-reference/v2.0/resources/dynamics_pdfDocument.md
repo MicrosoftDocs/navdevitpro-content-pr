@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/2020
 ms.author: solsen
 ---
 
@@ -28,6 +28,14 @@ Represents a pdf document in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 
 
 
+## Navigation
+
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
+|[salesInvoice](dynamics_salesinvoice.md)|salesInvoice |Gets the salesinvoice of the pdfDocument.|
+|[salesQuote](dynamics_salesquote.md)|salesQuote |Gets the salesquote of the pdfDocument.|
+|[salesCreditMemo](dynamics_salescreditmemo.md)|salesCreditMemo |Gets the salescreditmemo of the pdfDocument.|
+|[purchaseInvoice](dynamics_purchaseinvoice.md)|purchaseInvoice |Gets the purchaseinvoice of the pdfDocument.|
 
 
 ## Properties

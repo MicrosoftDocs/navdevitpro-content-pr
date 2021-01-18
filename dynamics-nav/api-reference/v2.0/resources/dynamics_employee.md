@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/2020
 ms.author: solsen
 ---
 
@@ -28,13 +28,16 @@ Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 |[POST employee](../api/dynamics_employee_Create.md)|employee|Creates a employee object.|
 |[PATCH employee](../api/dynamics_employee_Update.md)|employee|Updates a employee object.|
 
+
+
+
 ## Navigation
 
-| Navigation |Return Type| Description |    
-|:----------|:----------|:-----------------|
+| Navigation |Return Type| Description | 
+ |:----------|:----------|:-----------------|
 |[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the employee.|
 |[picture](dynamics_picture.md)|picture |Gets the picture of the employee.|
-|[defaultDimensions](dynamics_defaultdimensions.md)|defaultDimensions |Gets the defaultdimensions of the employee.|
+|[defaultDimensions](dynamics_defaultdimension.md)|defaultDimensions |Gets the defaultdimensions of the employee.|
 |[timeRegistrationEntries](dynamics_timeregistrationentry.md)|timeRegistrationEntries |Gets the timeregistrationentries of the employee.|
 
 

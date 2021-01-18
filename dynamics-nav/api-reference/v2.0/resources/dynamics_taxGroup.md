@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/11/2020
+ms.date: 12/22/2020
 ms.author: solsen
 ---
 
@@ -27,6 +27,11 @@ Represents a tax group in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 |[DELETE taxGroup](../api/dynamics_taxGroup_Delete.md)|none|Deletes a tax group object.|
 |[POST taxGroup](../api/dynamics_taxGroup_Create.md)|taxGroup|Creates a tax group object.|
 |[PATCH taxGroup](../api/dynamics_taxGroup_Update.md)|taxGroup|Updates a tax group object.|
+
+
+
+
+
 
 ## Properties
 
