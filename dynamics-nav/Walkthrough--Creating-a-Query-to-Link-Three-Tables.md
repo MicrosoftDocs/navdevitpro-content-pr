@@ -38,7 +38,7 @@ This walkthrough demonstrates how to create a query that links three tables. It 
  Viktor is a Microsoft Certified Partner working for [!INCLUDE[demoname](includes/demoname_md.md)] He has been asked to create a query that displays the total number of items in each sales order for each salesperson. Viktor knows how to do this in SQL, but he wants to create a [!INCLUDE[navnow](includes/navnow_md.md)] query.  
   
  The SQL query for this dataset that Viktor wants is the following:  
-  
+<!--
 ```  
 SELECT SP.Name, SUM(SL.Quantity)  
 FROM "Salesperson/Purchaser" AS SP INNER JOIN "Sales Header" AS SH  
@@ -47,7 +47,15 @@ FROM "Salesperson/Purchaser" AS SP INNER JOIN "Sales Header" AS SH
 WHERE SL."Document Type" = 'Order' AND SL.Type = 'Item'  
 GROUP BY SP.Name  
 ```  
-  
+-->
+```  
+SELECT SP.Name, SUM(SL.Quantity)  
+FROM [CRONUS International Ltd_$Salesperson_Purchaser] AS SP INNER JOIN [CRONUS International Ltd_$Sales Header] AS SH  
+  ON SP.Code = SH.[Salesperson Code] INNER JOIN [CRONUS International Ltd_$Sales Line] AS SL  
+  ON SL.[Document No_] = SH.[No_]   
+WHERE SL.[Document Type] = '1' AND SL.Type = '2'  
+GROUP BY SP.Name
+```  
 ## Creating the Query with Three Tables  
  Viktor must create a query with Query Designer. The salesperson name is stored in the **Salesperson/Purchaser** table. The salesperson code for sales orders is stored in the **Sales Header** table. The quantity of items in sales orders is stored in the **Sales Line** table. To create this query, Viktor must do the following:  
   
@@ -83,20 +91,20 @@ GROUP BY SP.Name
   
 #### To set up a totals method on the Quantity column  
   
-1.  In Query Designer, on the next line after the **Sales Line** data item, in the **Type** column, choose **Column** from the drop-down list box.  
+1. In Query Designer, on the next line after the **Sales Line** data item, in the **Type** column, choose **Column** from the drop-down list box.  
   
-2.  In the **Data Source** column, select **Quantity** from **Sales Line - Field List** window, and then choose the **OK** button.  
+2. In the **Data Source** column, select **Quantity** from **Sales Line - Field List** window, and then choose the **OK** button.  
   
-3.  In the **Method Type** column, choose **Totals** from the drop-down list box.  
+3. In the **Method Type** column, choose **Totals** from the drop-down list box.  
   
-    > [!NOTE]  
-    >  You want the query results to group by the **Name** field of the **Salesperson/Purchaser** table. This is automatically done for you. The query groups all fields that are not totals fields. In Query Designer, grouped fields are indicated by a check mark in the **Group By** column. In this example, the only column that is grouped is the **Name** field under the **Salesperson/Purchaser** data item.  
+   > [!NOTE]  
+   >  You want the query results to group by the **Name** field of the **Salesperson/Purchaser** table. This is automatically done for you. The query groups all fields that are not totals fields. In Query Designer, grouped fields are indicated by a check mark in the **Group By** column. In this example, the only column that is grouped is the **Name** field under the **Salesperson/Purchaser** data item.  
   
-4.  In the **Method** column, choose **Sum** from the drop-down list box.  
+4. In the **Method** column, choose **Sum** from the drop-down list box.  
   
- The following figure shows the Query Designer for this example.  
+   The following figure shows the Query Designer for this example.  
   
- ![Query joins three tables](media/Query_WalkthroughThreeTables.png "Query\_WalkthroughThreeTables")  
+   ![Query joins three tables](media/Query_WalkthroughThreeTables.png "Query\_WalkthroughThreeTables")  
   
 ## Specifying the Data Item Links  
  Viktor has added the data items and columns to the query, but he must specify how to link the data items to display the information he wants and eliminate unwanted records. For this query, Viktor wants the following:  

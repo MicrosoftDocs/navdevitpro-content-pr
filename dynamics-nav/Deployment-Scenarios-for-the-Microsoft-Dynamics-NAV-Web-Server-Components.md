@@ -25,6 +25,9 @@ This section describes how to install and configure the [!INCLUDE[nav_web_server
 |[Deploying the Microsoft Dynamics NAV Web Server Components in a Single Computer Environment](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-in-a-Single-Computer-Environment.md)|Installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and the SQL Server database components on the same computer.|  
 |[Deploying the Microsoft Dynamics NAV Web Server Components in a Two Computer Environment](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-in-a-Two-Computer-Environment.md)|Installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer separate than [!INCLUDE[nav_server](includes/nav_server_md.md)] and the SQL Server database components.|  
 |[Deploying the Microsoft Dynamics NAV Web Server Components in a Three Computer Environment](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-in-a-Three-Computer-Environment.md)|Installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and the SQL Server database components on three separate computers.|  
+
+> [!IMPORTANT]
+> The [!INCLUDE[navnow](includes/navnow_md.md)] mobile app is not supported in a deployment scenario that uses Azure Active Directory Application Proxy.
   
 ## See Also  
  [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)

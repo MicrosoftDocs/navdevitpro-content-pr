@@ -12,7 +12,7 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # GETLASTERROROBJECT Function
-Gets the last [System.Exception](http://go.microsoft.com/fwlink/?LinkID=396510) object that occurred.  
+Gets the last [System.Exception](https://go.microsoft.com/fwlink/?LinkID=396510) object that occurred.  
   
 ## Syntax  
   

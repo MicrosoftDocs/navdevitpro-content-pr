@@ -14,45 +14,45 @@ ms.author: edupont
 # Using the Development Environment from the Command Prompt
 You can start the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] by running finsql.exe at the command prompt. You can also use the finsql.exe command to perform the following development tasks without using the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]:  
 
--   Create databases  
+- Create databases  
 
--   Upgrade databases  
+- Upgrade databases  
 
--   Compile objects  
+- Compile objects  
 
--   Delete objects  
+- Delete objects  
 
--   Export objects  
+- Export objects  
 
--   Import objects  
+- Import objects  
 
--   Export language modules  
+- Export language modules  
 
--   Import language modules  
+- Import language modules  
 
--   Export text strings for translation  
+- Export text strings for translation  
 
--   Import translated text strings  
+- Import translated text strings  
 
--   Build metadata for application objects.  
+- Build metadata for application objects.  
 
--   Set the object cache.  
+- Set the object cache.  
 
--   Set the temporary file location.  
+- Set the temporary file location.  
 
--   Enable Unicode for the development environment  
+- Enable Unicode for the development environment  
 
--   Set the path and file name of the ZUP file for storing setup parameters.  
+- Set the path and file name of the ZUP file for storing setup parameters.  
 
--   Get the [!INCLUDE[navnow](includes/navnow_md.md)] build version.  
+- Get the [!INCLUDE[navnow](includes/navnow_md.md)] build version.  
 
- By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\.  
+  By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\.  
 
 ## Finsql.exe Command Syntax  
  The finsql.exe has the following syntax.  
 
 ```  
-Finsql.exe [command=<command> | designobject=<object type> <object ID>,] [servername=<server>,] [database=<database>,] [collationname=<collation>,] [file=<file>,] [filter=<filter>], [importaction=<default|overwrite|skip|0|1|2>,] [langid=<ID>,] [logfile=<logfile>,] [navservername=<name>,] [navserverinstance=<instance>,] [navservermanagementport=<port>,] [ntauthentication=<yes|no|0|1>,] [objectcache=<cache>,] [password=<password>,] [temppath=<path>,] [tenant=<tenant ID>,] [username=<user name>,] [synchronizeschemachanges=<yes|no|force>, ] [useoldeditor=<yes|no>,] [showalldesignercolumns=<yes|no|0|1>]  
+Finsql.exe [command=<command> | designobject=<object type> <object ID>,] [servername=<server>,] [database=<database>,] [collation=<collation>,] [file=<file>,] [filter=<filter>], [importaction=<default|overwrite|skip|0|1|2>,] [langid=<ID>,] [logfile=<logfile>,] [navservername=<name>,] [navserverinstance=<instance>,] [navservermanagementport=<port>,] [ntauthentication=<yes|no|0|1>,] [objectcache=<cache>,] [password=<password>,] [temppath=<path>,] [tenant=<tenant ID>,] [username=<user name>,] [synchronizeschemachanges=<yes|no|force>, ] [useoldeditor=<yes|no>,] [showalldesignercolumns=<yes|no|0|1>,] [suppresselevationcheck=<yes|no|0|1>]  
 ```  
 
 ### Syntax Key  
@@ -100,7 +100,7 @@ Finsql.exe [command=<command> | designobject=<object type> <object ID>,] [server
 |useoldeditor|Specifies whether to use the C/AL Editor that was available in [!INCLUDE[navcrete](includes/navcrete_md.md)] and earlier versions. The C/AL Editor was redesigned in [!INCLUDE[navcorfu](includes/navcorfu_md.md)].<br /><br /> To use the old editor, specify the parameter as `useoldeditor=yes` or `useoldeditor`.<br /><br /> To use the new editor, omit the parameter or specify it as `useoldeditor=no`.|None. This parameter is not relevant when you use command because the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] does not open.|  
 |username|The user name to use to authenticate to the database. The user name must exist in the database. If you do not specify a user name and password, then the command uses the Windows user name and password of the current user to authenticate to the database.<br /><br /> **Alert:** If User Access Control \(UAC\) is turned on and you do not specify to run the Command Prompt window as Administrator, then the Command Prompt window runs as a standard user. In this case, if you do not specify the *username* parameter and the current Windows user is an Administrator, then the command is run as the standard user.<br /><br /> If you specify the *username* parameter, then you must also specify the *password* parameter and the *ntauthentication* parameter must be **no** or **0**.<br /><br /> For more information about database users and permissions, see [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md).|All|  
 |  showalldesignercolumns |  Specifies whether to hide or show the **Visible** and **ApplicationArea** columns in Page Designer. The possible values are: **no**, **0**, **yes**, and **1**.</br></br> **no** or **0** - Hides the columns. This is the default setting.</br></br>**yes** or **1** - Shows the column. </br></br>**Note** This parameter is only relevant the very first time the development environment is opened for a new installation. If the development environment has been opened before, this parameter is ignored, and the  column setup parameters are retrieved from the fin.zup file that is used by the development environment. By default, the fin.zup file is located in the  C:\Users\[username]\AppData\Roaming folder.|  All|
-
+|suppresselevationcheck|Specifies whether to check that finsql.exe is running in elevated mode (as an administrator) and if not, give a warning that proceeding might cause errors. You are given the option to continue or cancel. The possible values are: **no**, **0**, **yes**, and **1**.</br></br> **no** or **0** run the check. This is the default setting.</br></br>**yes** or **1** suppress the check.|[UpgradeDatabase](UpgradeDatabase.md)</br></br>Database conversion|
 
 ## See Also  
  [Development Environment Commands](Development-Environment-Commands.md)   

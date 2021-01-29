@@ -1,6 +1,6 @@
 ---
 title: journalLines resource type | Microsoft Docs
-description: A journal line in Dynamics 365 for Finance and Operations, Business edition.
+description: A journal line in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,15 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # journalLines resource type
 Represents a line in a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -30,7 +31,8 @@ Represents a line in a journal in [!INCLUDE[d365fin_long_md](../../includes/d365
 |[DELETE journalLines](../api/dynamics_journalline_delete.md)|none        |Deletes a journal line.|
 
 ## Properties
-| Property	           | Type	                |Description                                                        |
+
+| Property             | Type                   |Description                                                        |
 |:---------------------|:-----------------------|:------------------------------------------------------------------|
 |id                    |GUID                    |The unique ID of the journal line. Non-editable.                   |
 |journalDisplayName    |string, maximum size 10 |The display name of the journal that this line belongs to. Read-Only.|
@@ -78,11 +80,11 @@ Here is a JSON representation of the resource.
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Journal line](../resources/dynamics_journalline.md)  
-[Get journal line](../api/dynamics_journalline_get.md)  
-[Create journal line](../api/dynamics_create_journalline.md)  
-[Update journal line](../api/dynamics_journalline_update.md)  
-[Delete journal line](../api/dynamics_journalline_delete.md)  
+[Journal Line](../resources/dynamics_journalline.md)  
+[Get Journal Line](../api/dynamics_journalline_get.md)  
+[Create Journal Line](../api/dynamics_create_journalline.md)  
+[Update Journal Line](../api/dynamics_journalline_update.md)  
+[Delete Journal Line](../api/dynamics_journalline_delete.md)  

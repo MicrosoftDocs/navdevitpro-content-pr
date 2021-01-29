@@ -13,9 +13,15 @@ ms.author: solsen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
-[!INCLUDE[newdev_dev_preview](includes/newdev_dev_preview.md)]
-
 # Development in AL
+
+> [!TIP]  
+> We've moved AL developer documentation for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]! Visit our new library for AL documentation [here](/dynamics365/business-central/dev-itpro/)!  
+>
+> You'll still find a bit of AL content here that applies to [!INCLUDE[navnow_md](includes/navnow_md.md)]. 
+
+
+<!--
 Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behavior of the solution. This section explains how you can develop extensions using the development environment for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)]. For an overview of developing apps for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)], see [aka.ms/GetStartedWithApps](devenv-develop-apps-for-fin.md). 
 
 If you are new to building extensions, we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started with AL](devenv-get-started.md) to set up the tools.
@@ -68,3 +74,4 @@ When all development and testing is done, you can submit your extension package 
 [Keyboard Shortcuts](devenv-keyboard-shortcuts.md)    
 [AL Development Environment](devenv-reference-overview.md)  
 [FAQ for Developing in AL](devenv-dev-faq.md)  
+-->

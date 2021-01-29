@@ -17,20 +17,20 @@ After you design a dataset for a report, you can create a Word report layout tha
   
 ### To create a Word report layout for a report  
   
-1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open the report in Report Dataset Designer as follows.  
+1. In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open the report in Report Dataset Designer as follows.  
   
-    1.  On the **Tools** menu, choose **Object Designer**.  
+   1.  On the **Tools** menu, choose **Object Designer**.  
   
-    2.  In Object Designer, choose **Report**, select the report, and then choose the **Design** button.  
+   2.  In Object Designer, choose **Report**, select the report, and then choose the **Design** button.  
   
-2.  On the **Tools** menu, choose **Word Layout**, and then choose **New**, and then choose the **OK** button.  
+2. On the **Tools** menu, choose **Word Layout**, and then choose **New**, and then choose the **OK** button.  
   
-    > [!NOTE]  
-    >  If the **New** item is inactive, then the report already has a Word report layout.  
+   > [!NOTE]  
+   >  If the **New** item is inactive, then the report already has a Word report layout.  
   
-3.  Save the report object.  
+3. Save the report object.  
   
- A blank Word report layout is created on the report object. The report layout includes a custom XML part for the current report dataset. You can now design the layout in Word. For more information, see [How to: Modify a Word Report Layout](How-to--Modify-a-Word-Report-Layout.md).  
+   A blank Word report layout is created on the report object. The report layout includes a custom XML part for the current report dataset. You can now design the layout in Word. For more information, see [How to: Modify a Word Report Layout](How-to--Modify-a-Word-Report-Layout.md).  
   
 ## See Also  
  [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)

@@ -22,27 +22,29 @@ You can export data such as a company or an application from a [!INCLUDE[navnow]
 
 ### To export data  
 
-1.  In the **Search** box, enter **Export to a Data File**, and then choose the related link.  
+1. In the **Search** box, enter **Export to a Data File**, and then choose the related link.  
 
-2.  In the **Export to Data File** window, fill in the fields as described in the following table.  
+2. In the **Export to Data File** window, fill in the fields as described in the following table.  
 
-    |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
-    |---------------------------------|---------------------------------------|  
-    |**Description**|Optionally, specifies a description of the data that you want to export, such as **Company A data**.<br /><br /> The text that you specify is used as a suggested file name when you start the export.|  
-    |**All Companies**|Specifies if you want to export all companies in the current database.<br /><br /> If you do not choose this field, and you want to export one or more companies, you must you must select the relevant companies from the list of available companies.|  
-    |**Global Data**|Specifies if you want to export data that is common to all companies in the database. This includes the report list, permission sets, user IDs, and printer selections, but no company-specific business data.|  
-    |**Application Data**|Specifies if you want to export the data that defines the application in the database.|  
-    |**Application**|Specifies if you want to export all application objects. Application data is not included.|  
 
-3.  Optionally, if you did not choose the **All Companies** field, select one or more companies to export.  
+   | [!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)] |                                                                                           [!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]                                                                                           |
+   |---------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |                     **Description**                     |                         Optionally, specifies a description of the data that you want to export, such as **Company A data**.<br /><br /> The text that you specify is used as a suggested file name when you start the export.                          |
+   |                    **All Companies**                    | Specifies if you want to export all companies in the current database.<br /><br /> If you do not choose this field, and you want to export one or more companies, you must you must select the relevant companies from the list of available companies. |
+   |                     **Global Data**                     |                     Specifies if you want to export data that is common to all companies in the database. This includes the report list, permission sets, user IDs, and printer selections, but no company-specific business data.                      |
+   |                  **Application Data**                   |                                                                                 Specifies if you want to export the data that defines the application in the database.                                                                                  |
+   |                     **Application**                     |                                                                               Specifies if you want to export all application objects. Application data is not included.                                                                                |
 
-4.  Choose the **OK** button, and then, in the window that appears, specify the location and name of the file that the data is exported to, and then choose the **Save** button.  
 
-     The data is exported to a file with the extension **.navdata**.  
+3. Optionally, if you did not choose the **All Companies** field, select one or more companies to export.  
 
- You have exported data from a [!INCLUDE[navnow](includes/navnow_md.md)] database into a file. Now, you can import the data into another [!INCLUDE[navnow](includes/navnow_md.md)] database.  
+4. Choose the **OK** button, and then, in the window that appears, specify the location and name of the file that the data is exported to, and then choose the **Save** button.  
 
- Before you import data from a navdata file, you can choose to use the **Get-NAVDataFile** Windows PowerShell cmdlet to see what the file contains. For more information, see [How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets](How-to--Export-and-Import-Companies-and-Other-Data-using-Windows-PowerShell-Cmdlets.md).  
+    The data is exported to a file with the extension **.navdata**.  
+
+   You have exported data from a [!INCLUDE[navnow](includes/navnow_md.md)] database into a file. Now, you can import the data into another [!INCLUDE[navnow](includes/navnow_md.md)] database.  
+
+   Before you import data from a navdata file, you can choose to use the **Get-NAVDataFile** Windows PowerShell cmdlet to see what the file contains. For more information, see [How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets](How-to--Export-and-Import-Companies-and-Other-Data-using-Windows-PowerShell-Cmdlets.md).  
 
 ### To import data  
 

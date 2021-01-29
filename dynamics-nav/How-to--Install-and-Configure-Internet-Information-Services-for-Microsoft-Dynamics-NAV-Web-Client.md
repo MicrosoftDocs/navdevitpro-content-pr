@@ -50,7 +50,7 @@ IIS must have the following features enabled:
 ## Install IIS on Windows 7, 8, 8.1, and 10  
 
 1.  On the **Start** page, choose **Control Panel**, and then choose **Programs**.  
-  
+
 2.  Under **Programs and Features**, choose **Turn Windows features on or off.**  
 
      The **Windows features** dialog box appears.  
@@ -96,7 +96,7 @@ IIS must have the following features enabled:
 
 7.  Choose the **OK** button to complete the installation.  
 
-8.  To verify that the web server has been installed correctly, start your browser, and then type **http://localhost** in the address.  
+8.  To verify that the web server has been installed correctly, start your browser, and then type **https://localhost** in the address.  
 
      The default web site opens and should display an IIS 8 image.  
 
@@ -197,7 +197,7 @@ IIS must have the following features enabled:
 
 17. On the **Installation progress** page, confirm that your installation completed successfully, and then choose the **Close** button.  
 
-18. To verify that the web server has been installed correctly, start your browser, and then type **http://localhost** in the address.  
+18. To verify that the web server has been installed correctly, start your browser, and then type **https://localhost** in the address.  
 
      The default website opens and should display an IIS image. 
 
@@ -206,9 +206,11 @@ IIS must have the following features enabled:
 
 On the server farm in IIS, add or edit a routing rule to include a server variable for `X-Forwarded-Proto`. For example, using IIS Manager, select **Routing Rules** > **URL Rewrite** > **Edit** > **Server Variables**, and then add a server variable that has the following settings: 
 
-|  Name  |  Value  |  Replace  |
-|--------|---------|-----------|
-|`HTTP_X_FORWARED_PROTO`|`http` ot `https`|`true`|
+
+|          Name           |       Value       | Replace |
+|-------------------------|-------------------|---------|
+| `HTTP_X_FORWARED_PROTO` | `http` ot `https` | `true`  |
+
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)

@@ -1,7 +1,7 @@
 ---
 title: "Compilation Errors When Converting a Microsoft Dynamics NAV 2015 Database"
 ms.custom: na
-ms.date: 22/11/2017
+ms.date: 11/22/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,6 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
+
 # Resolving Compilation Errors When Converting a Dynamics NAV 2015
 When you convert a [!INCLUDE[navcrete](includes/navcrete_md.md)] to a newer version, you will receive compilation errors in several standard [!INCLUDE[navnow](includes/navnow_md.md)] objects. This article describes how to resolve these errors.
 

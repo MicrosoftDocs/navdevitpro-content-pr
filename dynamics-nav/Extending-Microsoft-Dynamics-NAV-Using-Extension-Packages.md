@@ -67,38 +67,38 @@ To upgrade an extension, you simply uninstall the old package and then install a
 ### Move Tenants from One Server to Another  
 In multitenant deployments, moving a tenant from one server to another requires some evaluation with regards to your extension packages. The data for any extension is stored within the schema for each company in the tenant database so that will move without any extra steps. The tenant database also stores information about which extensions are installed for that tenant. Moving a tenant requires an examination of the destination server to validate that all extensions for the tenant are published on the destination server.  
 
-As part of your preparations to move a tenant, review all installed extension packages for the tenant to make sure the same extensions are available on the destination server. You can use the [Get-NAVAppInfo](http://go.microsoft.com/fwlink/?LinkID=618058) cmdlet to accomplish this. If the apps are available then you can simply unmount the tenant and move it, as part of the mount tenant process all installed extensions for the tenant being moved will be re-installed. Please note that the applications that the two servers use must of course also be identical for this process to succeed.  
+As part of your preparations to move a tenant, review all installed extension packages for the tenant to make sure the same extensions are available on the destination server. You can use the [Get-NAVAppInfo](https://go.microsoft.com/fwlink/?LinkID=618058) cmdlet to accomplish this. If the apps are available then you can simply unmount the tenant and move it, as part of the mount tenant process all installed extensions for the tenant being moved will be re-installed. Please note that the applications that the two servers use must of course also be identical for this process to succeed.  
 
 If your destination server does not have the required extensions, you can alternately uninstall the extension packages before you dismount to allow the mounting of the tenant on the destination server. The data for those extensions will be kept in the archived tables until you publish and reinstall that extension, or you choose to no longer use the extension, at which time you will need to discard the data by removing the archived tables in the tenant database.  
 
 ## System Tables and Virtual Tables  
  Extension packages are installed to and operate on a per-tenant basis. To accomplish this, the objects that are used at runtime are dynamically constructed with any extension deltas that are present for the base object. The end result is a virtual merge of the base plus the delta for a given extension. Multiple deltas from multiple extension packages can also be applied in this process. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], new system tables are added to support extensions. We recommend that you only access the system tables using the cmdlets in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] and [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)]. They are listed here for your information only:  
 
--   **NAV App Object Metadata** – Stores the metadata deltas for an extension.  
+- **NAV App Object Metadata** – Stores the metadata deltas for an extension.  
 
--   **NAV App Tenant App** – Contains all extensions that are installed to tenants and part of the application database. This table is synchronized with **NAV App Installed App** in the tenant databases and is used to drive runtime decisions about tenant/app relationships. It is also watched for changes by each [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to support on-the-fly app switching.  
+- **NAV App Tenant App** – Contains all extensions that are installed to tenants and part of the application database. This table is synchronized with **NAV App Installed App** in the tenant databases and is used to drive runtime decisions about tenant/app relationships. It is also watched for changes by each [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to support on-the-fly app switching.  
 
--   **NAV App Data Archive** – Points to tables created to archive data for extensions that have been uninstalled. Used to provide access to the data when the extension is reinstalled during an upgrade.  
+- **NAV App Data Archive** – Points to tables created to archive data for extensions that have been uninstalled. Used to provide access to the data when the extension is reinstalled during an upgrade.  
 
--   **NAV App Installed App** – Contains information about extensions that are installed in this tenant. This lives in the tenant database and is written/read on mount/unmount to make sure tenants keep track of their apps even when detached from an application database.  
+- **NAV App Installed App** – Contains information about extensions that are installed in this tenant. This lives in the tenant database and is written/read on mount/unmount to make sure tenants keep track of their apps even when detached from an application database.  
 
--   **NAV App** - Contains all extensions that are published to the system. This is part of the application database.  
+- **NAV App** - Contains all extensions that are published to the system. This is part of the application database.  
 
--   **NAV App Dependencies** – List of dependencies for individual extensions that are published to the system.  
+- **NAV App Dependencies** – List of dependencies for individual extensions that are published to the system.  
 
--   **NAV App Capabilities** – List of capabilities for each extension that is published to the system. Pulled from the manifest at publication time.  
+- **NAV App Capabilities** – List of capabilities for each extension that is published to the system. Pulled from the manifest at publication time.  
 
--   **NAV App Object Prerequisites** – List of prerequisite objects for individual extensions that are published to the system.  
+- **NAV App Object Prerequisites** – List of prerequisite objects for individual extensions that are published to the system.  
 
--   **Tenant Permission Set** - Defines the mapping between extensions and permission sets.  
+- **Tenant Permission Set** - Defines the mapping between extensions and permission sets.  
 
--   **Tenant Permission** – Contains permissions for objects as defined by permission sets in extension packages.  
+- **Tenant Permission** – Contains permissions for objects as defined by permission sets in extension packages.  
 
- We also include objects from extensions in the following virtual tables  
+  We also include objects from extensions in the following virtual tables  
 
--   **AllObj, AllObjWithCaption** includes new objects from all installed extensions based on the current session/tenant.  
+- **AllObj, AllObjWithCaption** includes new objects from all installed extensions based on the current session/tenant.  
 
--   **AllObj, AllObjWithCaption** includes the App Package ID field \(empty GUID for base objects, package id GUID if object comes from an extension\)  
+- **AllObj, AllObjWithCaption** includes the App Package ID field \(empty GUID for base objects, package id GUID if object comes from an extension\)  
 
 ## Windows PowerShell Cmdlets  
  To help you build, package, publish, install, and manage extensions, [!INCLUDE[navnow](includes/navnow_md.md)] includes a number of [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets as described in the following sections.  
@@ -116,7 +116,7 @@ If your destination server does not have the required extensions, you can altern
 |Custom report layouts|-   Export-NAVAppReportLayout|  
 |Multilanguage files|-   Compare-NAVAppApplicationObjectLanguage|  
 
- For more information, see [Development Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626875).  
+ For more information, see [Development Cmdlets for Microsoft Dynamics NAV Extensions](https://go.microsoft.com/fwlink/?LinkID=626875).  
 
 ### Administration  
  The [!INCLUDE[nav_shell](includes/nav_shell_md.md)] includes the following new cmdlets:  
@@ -127,7 +127,7 @@ If your destination server does not have the required extensions, you can altern
 |Installing|-   Install-NAVApp<br />-   Uninstall-NAVApp|  
 |Managing|-   Get-NAVAppInfo<br />-   Get-NAVAppTenant<br />-   Repair-NAVApp<br />-    Remove-NAVAppsForTenant|  
 
- For more information, see [Administration Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626874).  
+ For more information, see [Administration Cmdlets for Microsoft Dynamics NAV Extensions](https://go.microsoft.com/fwlink/?LinkID=626874).  
 
 ## See Also  
 [Getting Started](developer/devenv-get-started.md)  

@@ -26,36 +26,36 @@ manager: edupont
 ## Information Collected by the Customer Experience Improvement Program  
  When CEIP is enabled, [!INCLUDE[nav_server](includes/nav_server_md.md)] sends information about the configuration of the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer:  
   
--   Physical memory  
+- Physical memory  
   
--   Number of processors  
+- Number of processors  
   
--   Processor speed  
+- Processor speed  
   
--   Operating system  
+- Operating system  
   
--   System language  
+- System language  
   
- In addition, information about [!INCLUDE[nav_server](includes/nav_server_md.md)] instance usage and configuration is sent:  
+  In addition, information about [!INCLUDE[nav_server](includes/nav_server_md.md)] instance usage and configuration is sent:  
   
--   Maximum number of connections per client type. See [Client Types](Client-Types.md).  
+- Maximum number of connections per client type. See [Client Types](Client-Types.md).  
   
--   Maximum number of connections between [!INCLUDE[nav_server](includes/nav_server_md.md)] and the database.  
+- Maximum number of connections between [!INCLUDE[nav_server](includes/nav_server_md.md)] and the database.  
   
--   Time since the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance started.  
+- Time since the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance started.  
   
--   [!INCLUDE[nav_server](includes/nav_server_md.md)] version information.  
+- [!INCLUDE[nav_server](includes/nav_server_md.md)] version information.  
   
--   Is the [!INCLUDE[rtc](includes/rtc_md.md)] enabled for the server instance?  
+- Is the [!INCLUDE[rtc](includes/rtc_md.md)] enabled for the server instance?  
   
--   Are SOAP web services enabled for the server instance?  
+- Are SOAP web services enabled for the server instance?  
   
--   Are OData web services enabled for the server instance?  
+- Are OData web services enabled for the server instance?  
   
--   Are NAS services enabled for the server instance?  
+- Are NAS services enabled for the server instance?  
   
--   Is SSL enabled for the server instance?  
+- Is SSL enabled for the server instance?  
   
 ## See Also  
  [Provisioning the Microsoft Dynamics NAV Server Account](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md)   
- [Corporate Customer Experience Improvement Program Client-to-Server Protocol Specification](http://go.microsoft.com/fwlink/?LinkId=260878)
+ [Corporate Customer Experience Improvement Program Client-to-Server Protocol Specification](https://go.microsoft.com/fwlink/?LinkId=260878)

@@ -12,6 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/25/2017
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Error Codes
@@ -69,4 +70,5 @@ The error codes in the table below can be divided into the following categories 
 |Any|Any|Unknown|
 
 ## See also
-[Working with Dynamics 365 for Financials in Microsoft Graph](resources/dynamics_overview.md) 
+[Dynamics 365 Business Central in Graph](https://docs.microsoft.com/graph/api/resources/dynamics-graph-reference?view=graph-rest-beta) 
+

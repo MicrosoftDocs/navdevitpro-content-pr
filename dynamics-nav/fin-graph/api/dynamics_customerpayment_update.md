@@ -1,6 +1,6 @@
 ---
 title: Update customerPayments | Microsoft Docs
-description: Updates a customer payment object in Dynamics 365 for Financials.
+description: Updates a customer payment object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,20 +10,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Update customerPayments
 Update the properties of a customer payment object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-PATCH /financials/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
+PATCH businesscentralPrefix/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
 ```
 
 ## Request headers
+
 |Header        |Value                    |
 |--------------|-------------------------|
 |Authorization |Bearer {token}. Required.|
@@ -42,7 +45,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
+PATCH https://{businesscentralPrefix}/api/beta/companies({id})/customerPaymentsJournals({id})/customerPayments({id})
 Content-type: application/json
 
 {
@@ -79,11 +82,12 @@ Content-type: application/json
 }
 ```
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Customer payments](../resources/dynamics_customerpayment.md)  
-[Get customer payments](dynamics_customerpayment_get.md)  
-[Post customer payments](dynamics_create_customerpayment.md)  
-[Delete customer payments](dynamics_customerpayment_delete.md)  
+[Customer Payments](../resources/dynamics_customerpayment.md)  
+[Get Customer Payments](dynamics_customerpayment_get.md)  
+[Post Customer Payments](dynamics_create_customerpayment.md)  
+[Delete Customer Payments](dynamics_customerpayment_delete.md)  

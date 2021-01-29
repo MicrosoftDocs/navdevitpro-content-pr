@@ -11,7 +11,7 @@ author: jswymer
 ---
 # Setting Up the Office Add-Ins for Outlook Integration with [!INCLUDE[navnow](includes/navnow_md.md)]
 
-If your organization uses Exchange Server or Exchange Online (alone or part of Office 365), [!INCLUDE[navnow](includes/navnow_md.md)] includes add-ins for Outlook that enable users to complete [!INCLUDE[navnow](includes/navnow_md.md)] business tasks from their Outlook inbox. 
+If your organization uses Exchange Server or Exchange Online (alone or part of Microsoft 365), [!INCLUDE[navnow](includes/navnow_md.md)] includes add-ins for Outlook that enable users to complete [!INCLUDE[navnow](includes/navnow_md.md)] business tasks from their Outlook inbox. 
 
 ## Overview
 
@@ -45,7 +45,9 @@ If your organization uses Exchange Server or Exchange Online (alone or part of O
 		[Using Certificates to Secure a Remote Client Connection](Using-Certificates-to-Secure-a-Remote-Client-Connection.md)
 2.	Exchange prerequisites
 	
-	If you are using Exchange Server, configure it to allow access to Exchange Web Services (EWS). For more information, see [How to: Control access to EWS in Exchange](https://msdn.microsoft.com/en-us/library/office/dn467892(v=exchg.150).aspx). 
+	If you are using Exchange Server, configure it to allow access to Exchange Web Services (EWS). For more information, see [How to: Control access to EWS in Exchange](https://msdn.microsoft.com/library/office/dn467892(v=exchg.150).aspx).
+
+3. Upcoming releases of some browsers, such as Google Chrome 80 and Microsoft Edge, will include changes to how cookies are handled. To ensure that the Outlook add-in works with these browser versions, make sure that the Dynamics NAV platform has been upgraded to a recommended update version as described in [Preparing Dynamics NAV or Dynamics 365 Business Central for Upcoming Changes to Browser Cookie Policy](/dynamics365/business-central/dev-itpro/administration/prepare-for-cookie-samesite-policy).
 
 ## Configure the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to work with the Office Add-ins
 
@@ -79,9 +81,9 @@ With an Exchange Server or Exchange Online administrator account, you can deploy
 -	Run the **Outlook for Financials** assisted setup and choose the **My Organization** option. This method deploys both the Contact Insights and Document View add-ins.
 -	Use the **Office Add-ins Management** page. The **Office Add-ins Management** page lets deploy  the Contact Insights and Document View add-ins individually.
 
-Both methods will lead you through the deployment. The information that you must provide depends on whether you are using Exchange Online (or Office 365) or Exchange Server, and the user authentication method that is used by [!INCLUDE[navnow](includes/navnow_md.md)]:
+Both methods will lead you through the deployment. The information that you must provide depends on whether you are using Exchange Online (or Microsoft 365) or Exchange Server, and the user authentication method that is used by [!INCLUDE[navnow](includes/navnow_md.md)]:
 
-**For Exchange Online or Office 365:**
+**For Exchange Online or Microsoft 365:**
 
 If [!INCLUDE[navnow](includes/navnow_md.md)] is configured for NavUserPassword or Access Control Service authentication, you must provide an email address and password for an Exchange administrator account. If [!INCLUDE[navnow](includes/navnow_md.md)] is configured for Azure AD authentication, you are not prompted for these credentials because authentication against the Exchange or Exchange Online is done using an authentication token.
 
@@ -90,7 +92,7 @@ If [!INCLUDE[navnow](includes/navnow_md.md)] is configured for NavUserPassword o
 
 Exchange Web Services (EWS) and Autodiscover will try to find the local Exchange Server:
 -	If EWS is not set up, you will receive an error message.
--	If Autodiscover cannot find the Exchange Server, you are prompted for an Exchange administrator email and password, and the local Exchange PowerShell endpoint. The Exchange PowerShell endpoint is a URI that has the format ```http://<ExchangeMailboxServer>/PowerShell```.  ```<ExchangeMailboxServer>``` is the fully qualified domian name of the Exchange Server, such as ```http://mail.cronus.com/PowerShell```. 
+-	If Autodiscover cannot find the Exchange Server, you are prompted for an Exchange administrator email and password, and the local Exchange PowerShell endpoint. The Exchange PowerShell endpoint is a URI that has the format ```https://<ExchangeMailboxServer>/PowerShell```.  ```<ExchangeMailboxServer>``` is the fully qualified domian name of the Exchange Server, such as ```https://mail.cronus.com/PowerShell```. 
 
   
 ## See Also  

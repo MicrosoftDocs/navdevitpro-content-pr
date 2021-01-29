@@ -34,72 +34,72 @@ Before you release a customized [!INCLUDE[navnowlong](includes/navnowlong_md.md)
   
 #### To create the test codeunit and test function  
   
-1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], in **Object Designer**, create a new codeunit.  
+1. In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], in **Object Designer**, create a new codeunit.  
   
-2.  In the **Properties** window, in the **Subtype** field, select **Test** to specify that this is a test codeunit.  
+2. In the **Properties** window, in the **Subtype** field, select **Test** to specify that this is a test codeunit.  
   
-3.  In the **C/AL Globals** window, on the Variables tab, enter the following variables.  
+3. In the **C/AL Globals** window, on the Variables tab, enter the following variables.  
   
-    |Name|DataType|Subtype|  
-    |----------|--------------|-------------|  
-    |RandomNumberGenerator|Codeunit|Random Number Generator|  
-    |LibraryPurchase|Codeunit|Library - Purchase|  
-    |Assert|Codeunit|Assert|  
+   |Name|DataType|Subtype|  
+   |----------|--------------|-------------|  
+   |RandomNumberGenerator|Codeunit|Random Number Generator|  
+   |LibraryPurchase|Codeunit|Library - Purchase|  
+   |Assert|Codeunit|Assert|  
   
-     This adds 3 codeunits from the application test libraries as global variables so that you can use them in your test code.  
+    This adds 3 codeunits from the application test libraries as global variables so that you can use them in your test code.  
   
-4.  In the **C/AL Globals** window, on the **Text Constants** tab, in the **Name** field, enter **PurchInvDiscErr**. In the **ConstValue** field, enter **The Purchase Invoice Discount Amount was not calculated correctly**.  
+4. In the **C/AL Globals** window, on the **Text Constants** tab, in the **Name** field, enter **PurchInvDiscErr**. In the **ConstValue** field, enter **The Purchase Invoice Discount Amount was not calculated correctly**.  
   
-5.  In the **C/AL Globals** window, on the **Functions** tab, enter **PurchInvDiscCalculationPInvAbove**. This is the name of the test function.  
+5. In the **C/AL Globals** window, on the **Functions** tab, enter **PurchInvDiscCalculationPInvAbove**. This is the name of the test function.  
   
-     In this example, the name of the test function consists of the tested functionality, Purchase Invoice Discount Calculation, and relevant parameters that affect the test result. We recommend that you follow this naming pattern for your test functions also. In our example, the following parameters are introduced:  
+    In this example, the name of the test function consists of the tested functionality, Purchase Invoice Discount Calculation, and relevant parameters that affect the test result. We recommend that you follow this naming pattern for your test functions also. In our example, the following parameters are introduced:  
   
-    -   `PInv` for the document that is tested, purchase invoices. You can apply the same test to purchase orders or purchase credit memos. Also, we recommend that you have mirrored sets of tests for the sales area.  
+   -   `PInv` for the document that is tested, purchase invoices. You can apply the same test to purchase orders or purchase credit memos. Also, we recommend that you have mirrored sets of tests for the sales area.  
   
-    -   `Above`. It is a good practice to have tests for positive and negative scenarios. In this test, Isaac wants to check that discount come into effect when the document amount is above a minimum amount. But the amount in the document can be also less than or equal to the minimum amount.  
+   -   `Above`. It is a good practice to have tests for positive and negative scenarios. In this test, Isaac wants to check that discount come into effect when the document amount is above a minimum amount. But the amount in the document can be also less than or equal to the minimum amount.  
   
-6.  On the **Functions** tab, choose **Locals**.  
+6. On the **Functions** tab, choose **Locals**.  
   
-7.  In the **C/AL Locals** window, on the **Variables** tab, enter the following variables, which you will use in the **PurchInvDiscCalculationPInvAbove** test function.  
+7. In the **C/AL Locals** window, on the **Variables** tab, enter the following variables, which you will use in the **PurchInvDiscCalculationPInvAbove** test function.  
   
-    |Name|DataType|Subtype|  
-    |----------|--------------|-------------|  
-    |PurchLine|Record|Purchase Line|  
-    |MinAmount|Decimal||  
-    |DocAmount|Decimal||  
-    |DiscountPct|Decimal||  
-    |PurchCalcDisc|Codeunit|Purch.-Calc.Discount|  
+   |Name|DataType|Subtype|  
+   |----------|--------------|-------------|  
+   |PurchLine|Record|Purchase Line|  
+   |MinAmount|Decimal||  
+   |DocAmount|Decimal||  
+   |DiscountPct|Decimal||  
+   |PurchCalcDisc|Codeunit|Purch.-Calc.Discount|  
   
-    > [!IMPORTANT]  
-    >  Make sure that you add these entries on the **Variables** tab, not on the **Parameters** tab. If you create them on the **Parameters** tab, you get an error when you compile that says the test method signature is invalid.  
+   > [!IMPORTANT]  
+   >  Make sure that you add these entries on the **Variables** tab, not on the **Parameters** tab. If you create them on the **Parameters** tab, you get an error when you compile that says the test method signature is invalid.  
   
-8.  In the C/AL Editor, in the `PurchInvDiscCalculationPInvAbove` function, enter the following code:  
+8. In the C/AL Editor, in the `PurchInvDiscCalculationPInvAbove` function, enter the following code:  
   
-    ```  
-    // [SCENARIO] "Inv. Discount Amount" should be calculated on Purchase Invoice (in LCY), where Invoice amount is above the minimal amount required for invoice discount calculation.  
-    // [GIVEN] Vendor with invoice discount percentage "D" for minimal amount "A" in LCY  
-    // [GIVEN] Create purchase invoice with one line and amount >"A"  
+   ```  
+   // [SCENARIO] "Inv. Discount Amount" should be calculated on Purchase Invoice (in LCY), where Invoice amount is above the minimal amount required for invoice discount calculation.  
+   // [GIVEN] Vendor with invoice discount percentage "D" for minimal amount "A" in LCY  
+   // [GIVEN] Create purchase invoice with one line and amount >"A"  
   
-    DiscountPct := RandomNumberGenerator.RandDec(100,5);  
-    MinAmount := RandomNumberGenerator.RandDec(1000,2);  
-    DocAmount := MinAmount + RandomNumberGenerator.RandDec(100,2);  
+   DiscountPct := RandomNumberGenerator.RandDec(100,5);  
+   MinAmount := RandomNumberGenerator.RandDec(1000,2);  
+   DocAmount := MinAmount + RandomNumberGenerator.RandDec(100,2);  
   
-    CreatePurchDocument(PurchLine,PurchLine."Document Type"::Invoice,DocAmount,MinAmount,DiscountPct);  
+   CreatePurchDocument(PurchLine,PurchLine."Document Type"::Invoice,DocAmount,MinAmount,DiscountPct);  
   
-    // [WHEN] Calculate invoice discount for purchase document (line)  
-    PurchCalcDisc.RUN(PurchLine);  
+   // [WHEN] Calculate invoice discount for purchase document (line)  
+   PurchCalcDisc.RUN(PurchLine);  
   
-    // [THEN] "Inv. Discount Amount" = Amount "A" * discount "D" / 100  
-    PurchLine.FIND;  
-    Assert.AreEqual(ROUND(PurchLine."Line Amount" * DiscountPct / 100),PurchLine."Inv. Discount Amount", PurchInvDiscErr);  
+   // [THEN] "Inv. Discount Amount" = Amount "A" * discount "D" / 100  
+   PurchLine.FIND;  
+   Assert.AreEqual(ROUND(PurchLine."Line Amount" * DiscountPct / 100),PurchLine."Inv. Discount Amount", PurchInvDiscErr);  
   
-    ```  
+   ```  
   
-     Isaac first defines the test scenario \[SCENARIO\], then details it with the GIVEN-THEN-WHEN notation. Finally, he adds the C/AL code.The code in this test function prepares the test data by setting a random discount percent, a minimum amount, and a document amount. Then, it creates a purchase document with a line and runs the Purch-Calc.Discount codeunit, which contains the code that is being tested. Finally, it verifies the results of running the Purch-Calc.Discount codeunit and raises an error if the results are not as expected.  
+    Isaac first defines the test scenario \[SCENARIO\], then details it with the GIVEN-THEN-WHEN notation. Finally, he adds the C/AL code.The code in this test function prepares the test data by setting a random discount percent, a minimum amount, and a document amount. Then, it creates a purchase document with a line and runs the Purch-Calc.Discount codeunit, which contains the code that is being tested. Finally, it verifies the results of running the Purch-Calc.Discount codeunit and raises an error if the results are not as expected.  
   
-     Isaac has created the test function. Next, he creates a helper function that generates data for the test.  
+    Isaac has created the test function. Next, he creates a helper function that generates data for the test.  
   
- Isaac can now create additional test functions in this test codeunit to test other aspects of vendor discounts. These test functions should include negative tests, which validate that the code being tested works as intended under failing conditions.  
+   Isaac can now create additional test functions in this test codeunit to test other aspects of vendor discounts. These test functions should include negative tests, which validate that the code being tested works as intended under failing conditions.  
   
 ## Adding a Test Helper Function  
  In the test codeunit, Isaac adds a second function that generates data for the test itself.  

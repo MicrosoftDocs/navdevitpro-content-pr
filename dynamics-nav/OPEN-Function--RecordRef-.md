@@ -74,14 +74,14 @@ MyRecordRef.OPEN(27,FALSE);
 TempMyRecordRef.OPEN(27,TRUE);  
   
 IF MyRecordRef.FIND('-') THEN // This is true and will find the first record in the table.  
-  MESSAGE('MyRecordRef finds')  
+  MESSAGE('MyRecordRef finds')  
 ELSE  
-  MESSAGE('MyRecordRef does not find');  
+  MESSAGE('MyRecordRef does not find');  
   
 IF TempMyRecordRef.FIND('-') THEN // This is false because there are no records in a temporary table.  
-  MESSAGE('TempMyRecordRef finds')  
+  MESSAGE('TempMyRecordRef finds')  
 ELSE  
-  MESSAGE('TempMyRecordRef does not find');  
+  MESSAGE('TempMyRecordRef does not find');  
 ```  
   
 ## See Also  

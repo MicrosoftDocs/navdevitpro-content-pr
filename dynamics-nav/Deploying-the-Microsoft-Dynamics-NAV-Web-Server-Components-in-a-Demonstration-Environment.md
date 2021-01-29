@@ -1,6 +1,5 @@
 ---
 title: "Deploying the Microsoft Dynamics NAV Web Server Components in a Demonstration Environment"
-author: edupont04
 ms.custom: na
 ms.date: 09/21/2017
 ms.reviewer: na
@@ -85,23 +84,23 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
 ### Run [!INCLUDE[navnow](includes/navnow_md.md)] Setup  
 
-1.  From the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media, run the setup.exe file to start [!INCLUDE[navnow](includes/navnow_md.md)] Setup Wizard.  
+1. From the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media, run the setup.exe file to start [!INCLUDE[navnow](includes/navnow_md.md)] Setup Wizard.  
 
-2.  On the **Welcome to [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup** page, choose the **Next** button, and then choose **I accept** to accept the license terms.  
+2. On the **Welcome to [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup** page, choose the **Next** button, and then choose **I accept** to accept the license terms.  
 
-3.  On the **Microsoft Dynamics NAV Setup** page, choose **Install Demo**.  
+3. On the **Microsoft Dynamics NAV Setup** page, choose **Install Demo**.  
 
-     The installation starts. This can take several minutes.  
+    The installation starts. This can take several minutes.  
 
-4.  When the installation is complete, choose the **Close** button.  
+4. When the installation is complete, choose the **Close** button.  
 
-5.  Run the setup.exe again to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup Wizard.  
+5. Run the setup.exe again to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup Wizard.  
 
-6.  On the **Maintenance** page, choose **Add or remove components**.  
+6. On the **Maintenance** page, choose **Add or remove components**.  
 
-7.  On the **Customize the Installation** page, choose the box next to **Web Server Components**, choose **Run from My Computer**, and then choose **Next**.  
+7. On the **Customize the Installation** page, choose the box next to **Web Server Components**, choose **Run from My Computer**, and then choose **Next**.  
 
-8.  On the **Specify Parameters** page, under **Web Server Components**, set the **Port** parameter to the TCP/IP port to use for the [!INCLUDE[nav_web](includes/nav_web_md.md)] connection or use the default port 8080.  
+8. On the **Specify Parameters** page, under **Web Server Components**, set the **Port** parameter to the TCP/IP port to use for the [!INCLUDE[nav_web](includes/nav_web_md.md)] connection or use the default port 8080.  
 
 9. Set the **Install IIS prerequisites** parameter to **Install**.  
 
@@ -111,7 +110,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
 11. When the installation is complete, choose the **Close** button.  
 
- The following elements of the [!INCLUDE[nav_web](includes/nav_web_md.md)] have been added to your computer:  
+    The following elements of the [!INCLUDE[nav_web](includes/nav_web_md.md)] have been added to your computer:  
 
 -   A [!INCLUDE[nav_web](includes/nav_web_md.md)] button on the **Start** menu.  
 
@@ -122,22 +121,22 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
 ### Open the [!INCLUDE[nav_web](includes/nav_web_md.md)]  
 
--   To open the [!INCLUDE[nav_web](includes/nav_web_md.md)] from the computer where you installed [!INCLUDE[navnowlong](includes/navnowlong_md.md)], on the **Start** menu, choose **All Programs**, and then choose **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client**.  
+- To open the [!INCLUDE[nav_web](includes/nav_web_md.md)] from the computer where you installed [!INCLUDE[navnowlong](includes/navnowlong_md.md)], on the **Start** menu, choose **All Programs**, and then choose **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client**.  
 
--   To open the [!INCLUDE[nav_web](includes/nav_web_md.md)] from other devices on the network, open an Internet browser, and type the following URL in the address box:  
+- To open the [!INCLUDE[nav_web](includes/nav_web_md.md)] from other devices on the network, open an Internet browser, and type the following URL in the address box:  
 
-    http://ComputerName:PortNumber/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]  
-    Or for [!INCLUDE[nav2017](includes/nav2017.md)]:
+  https://ComputerName:PortNumber/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]  
+  Or for [!INCLUDE[nav2017](includes/nav2017.md)]:
     
-    http://ComputerName:PortNumber/dynamicsnav100/webclient
+  https://ComputerName:PortNumber/dynamicsnav100/webclient
 
-    -   Substitute **ComputerName** with the name of the computer where you installed [!INCLUDE[navnow](includes/navnow_md.md)]. If you are working on the computer where you installed [!INCLUDE[navnow](includes/navnow_md.md)], then you can use **localhost**.  
+  -   Substitute **ComputerName** with the name of the computer where you installed [!INCLUDE[navnow](includes/navnow_md.md)]. If you are working on the computer where you installed [!INCLUDE[navnow](includes/navnow_md.md)], then you can use **localhost**.  
 
-    -   Substitute **PortNumber** with the port that you configured for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] during Setup.  
+  -   Substitute **PortNumber** with the port that you configured for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] during Setup.  
 
-        For example, if the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on port 8080, then you can use the following URL: `http://NavWeb:8080/DynamicsNAV110`. 
+      For example, if the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on port 8080, then you can use the following URL: `https://NavWeb:8080/DynamicsNAV110`. 
 
-        For a list of supported devices and browsers, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
+      For a list of supported devices and browsers, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
 
 > [!NOTE]  
 >  If you get an error and the [!INCLUDE[nav_web](includes/nav_web_md.md)] does not open, then see [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md) to try to resolve the problem.  

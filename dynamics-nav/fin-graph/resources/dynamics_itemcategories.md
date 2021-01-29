@@ -1,6 +1,6 @@
 ---
 title: itemCategories resource type | Microsoft Docs
-description: An item category in Dynamics 365 for Finance and Operations, Business edition.
+description: An item category in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,15 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # itemCategories resource type
 Represents a category for a number of items in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -30,7 +31,8 @@ Represents a category for a number of items in [!INCLUDE[d365fin_long_md](../../
 |[DELETE itemCategories](../api/dynamics_itemcategories_delete.md)|none          |Delete an item category.|
 
 ## Properties
-| Property	         | Type	  |Description                                     |
+
+| Property           | Type   |Description                                     |
 |:-------------------|:-------|:-----------------------------------------------|
 |id                  |GUID    |The unique ID of the itemCategory. Non-editable.|
 |code                |string  |The itemCategory code.                          |
@@ -56,10 +58,10 @@ Here is a JSON representation of the itemCategories.
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get item categories](../api/dynamics_itemcategories_get.md)  
-[Create item categories](../api/dynamics_create_itemcategories.md)  
-[Update item categories](../api/dynamics_itemcategories_update.md)  
-[Delete item categories](../api/dynamics_itemcategories_delete.md)  
+[Get Item Categories](../api/dynamics_itemcategories_get.md)  
+[Create Item Categories](../api/dynamics_create_itemcategories.md)  
+[Update Item Categories](../api/dynamics_itemcategories_update.md)  
+[Delete Item Categories](../api/dynamics_itemcategories_delete.md)  

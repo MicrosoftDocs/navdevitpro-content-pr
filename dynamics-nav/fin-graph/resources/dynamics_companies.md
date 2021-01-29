@@ -1,6 +1,6 @@
 ---
 title: companies resource type | Microsoft Docs
-description: A company in Dynamics 365 for Finance and Operations, Business edition.
+description: A company in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,15 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # companies resource type
 Represents a companies resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -27,7 +28,8 @@ Represents a companies resource type in [!INCLUDE[d365fin_long_md](../../include
 |[GET companies](../api/dynamics_companies_get.md)|companies|Get a company.|
 
 ## Properties
-| Property	      | Type |Description                             |
+
+| Property        | Type |Description                             |
 |:----------------|:-----|:---------------------------------------|
 |id               |GUID  |The unique ID of the company. Read-Only.|
 |name             |string|Specifies the Company.                  |
@@ -51,15 +53,14 @@ Here is a JSON representation of the company.
   "systemVersion": "string",
   "businessProfileId": "string"
 }
-
 ```
 
 ## See Also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get companies](../api/dynamics_companies_get.md)  
-[Company information](dynamics_companyinformation.md)  
-[Get company information](../api/dynamics_companyinformation_get.md)  
-[Update company information](../api/dynamics_companyinformation_update.md)  
+[Get Companies](../api/dynamics_companies_get.md)  
+[Company Information](dynamics_companyinformation.md)  
+[Get Company Information](../api/dynamics_companyinformation_get.md)  
+[Update Company Information](../api/dynamics_companyinformation_update.md)  

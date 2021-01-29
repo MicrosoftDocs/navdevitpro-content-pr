@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating and Using a Windows Client Control Add-in"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 04/01/2019
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,26 +12,29 @@ caps.latest.revision: 51
 manager: edupont
 ---
 # Walkthrough: Creating and Using a Windows Client Control Add-in
+
 The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] add-in and use it on a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] page. Add-ins are Microsoft .NET Framework assemblies that enable you to add custom functionality to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. An API lets you develop add-ins without having to access the [!INCLUDE[navnow](includes/navnow_md.md)] source code.  
 
 > [!NOTE]  
->  With [!INCLUDE[navsicily](includes/navsicily_md.md)] you can develop control add-ins that are displayed on both [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [Extending Any Microsoft Dynamics NAV Client Using Control Add-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md).  
+> With [!INCLUDE[navsicily](includes/navsicily_md.md)] you can develop control add-ins that are displayed on both [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [Extending Any Microsoft Dynamics NAV Client Using Control Add-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md).  
 
  In a typical business scenario, .NET Framework developers create add-ins using Microsoft Visual Studio Express, Visual Studio 2008, Visual Studio 2010, or Visual Studio 2012. Implementers of [!INCLUDE[navnow](includes/navnow_md.md)] solutions then use the add-ins on [!INCLUDE[nav_windows](includes/nav_windows_md.md)] pages.  
 
 ## About This Walkthrough  
- This walkthrough illustrates the following tasks:  
 
--   [Creating an Add-in with Visual Studio](#CreatingAddIn).  
+This walkthrough illustrates the following tasks:  
 
--   [Copying the Add-in Assembly to the Microsoft Dynamics Windows Client](#CopyAddin).  
+- [Creating an Add-in with Visual Studio](#CreatingAddIn).  
 
--   [Registering the Add-in in Microsoft Dynamics NAV](#RegisterAddin).  
+- [Copying the Add-in Assembly to the Microsoft Dynamics Windows Client](#CopyAddin).  
 
--   [Setting Up the Add-in on a Page](#SetupAddin).  
+- [Registering the Add-in in Microsoft Dynamics NAV](#RegisterAddin).  
 
-### Roles  
- This walkthrough demonstrates tasks performed by the following user roles:  
+- [Setting Up the Add-in on a Page](#SetupAddin).  
+
+### Roles
+
+This walkthrough demonstrates tasks performed by the following user roles:  
 
 -   Microsoft .NET Framework developer  
 
@@ -60,34 +63,34 @@ The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](i
 
 #### To create the add-in  
 
-1.  In Visual Studio, on the **File** menu, choose **New**, and then choose **Project**.  
+1. In Visual Studio, on the **File** menu, choose **New**, and then choose **Project**.  
 
-2.  Under **Installed Templates**, choose **Visual C\#**, and then choose **Class Library**.  
+2. Under **Installed Templates**, choose **Visual C\#**, and then choose **Class Library**.  
 
-3.  In the **Solution Name** text box, enter the name of your solution. For example, you can enter **MyCompany.MyProduct.RtcAddins** and then choose the **OK** button.  
+3. In the **Solution Name** text box, enter the name of your solution. For example, you can enter **MyCompany.MyProduct.RtcAddins** and then choose the **OK** button.  
 
-     Yow will add references to the following assemblies:  
+    Yow will add references to the following assemblies:  
 
-    1.  `Microsoft.Dynamics.Framework.UI.Extensibility.dll`  
+   1.  `Microsoft.Dynamics.Framework.UI.Extensibility.dll`  
 
-    2.  `System.Windows.Forms`  
+   2.  `System.Windows.Forms`  
 
-    3.  `System.Drawing`  
+   3.  `System.Drawing`  
 
-4.  In Solution Explorer, right-click your project, and then choose **Add Reference**.  
+4. In Solution Explorer, right-click your project, and then choose **Add Reference**.  
 
-5.  In the **Add Reference** window, on the **Browse** tab, navigate to the location of the Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly on your computer and then choose the **OK** button. By default, the path of the assembly is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client.  
+5. In the **Add Reference** window, on the **Browse** tab, navigate to the location of the Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly on your computer and then choose the **OK** button. By default, the path of the assembly is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client.  
 
-    > [!IMPORTANT]  
-    >  The assembly cannot be placed outside of the RoleTailored Client folder.  
+   > [!IMPORTANT]  
+   >  The assembly cannot be placed outside of the RoleTailored Client folder.  
 
-6.  In Solution Explorer, choose **Reference**, and on the shortcut menu, choose **Add Reference**.  
+6. In Solution Explorer, choose **Reference**, and on the shortcut menu, choose **Add Reference**.  
 
-7.  In the **Add Reference** window, choose the **.NET** tab, then under **Component Name**, choose `System.Windows.Forms`, and then choose the **OK** button.  
+7. In the **Add Reference** window, choose the **.NET** tab, then under **Component Name**, choose `System.Windows.Forms`, and then choose the **OK** button.  
 
-     The namespace contains classes for creating user interfaces for Windows-based applications.  
+    The namespace contains classes for creating user interfaces for Windows-based applications.  
 
-8.  Repeat the previous step and add a reference to the `System.Drawing` namespace. This namespace provides access to basic graphics functionality.  
+8. Repeat the previous step and add a reference to the `System.Drawing` namespace. This namespace provides access to basic graphics functionality.  
 
 9. Open the Class1.cs file and add the following **using** directives.  
 
@@ -107,14 +110,14 @@ The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](i
     }  
     ```  
 
-     The class uses the [ControlAddInExportAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute and derives from the [Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase) class and [Microsoft.Dynamics.Framework.UI.Extensibility.IStringControlAddInDefinition](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IStringControlAddInDefinition) interface. The [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute declares the class in the assembly to be a control add-in that is identified by its [ControlAddInExportAttribute.Name](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute.Name) property, which is `MyCompany.MyProduct.FieldPopupAddin`. Because an assembly can contain more than one control add-in, the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] uses the [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute to differentiate each control add-in that is found in an assembly.  
+     The class uses the [ControlAddInExportAttribute](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute and derives from the [Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase) class and [Microsoft.Dynamics.Framework.UI.Extensibility.IStringControlAddInDefinition](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IStringControlAddInDefinition) interface. The [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute declares the class in the assembly to be a control add-in that is identified by its [ControlAddInExportAttribute.Name](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute.Name) property, which is `MyCompany.MyProduct.FieldPopupAddin`. Because an assembly can contain more than one control add-in, the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] uses the [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute to differentiate each control add-in that is found in an assembly.  
 
     > [!NOTE]  
     >  You will use the name `MyCompany.MyProduct.FieldPopupAddin` later in the walkthrough when you register the add-in in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. When naming the control add-in, it is good practice to follow the .NET Framework naming convention for classes, which is *CompanyName.ProductName.ControlName*.  
 
-     The [Microsoft.Dynamics.Framework.UI.Extensibility.IStringControlAddInDefinition](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IStringControlAddInDefinition) interface determines how data transfers to and from the add-in and how events are raised to call triggers on the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+     The [Microsoft.Dynamics.Framework.UI.Extensibility.IStringControlAddInDefinition](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IStringControlAddInDefinition) interface determines how data transfers to and from the add-in and how events are raised to call triggers on the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
 
-11. In the `MyFieldPopupAddin` class, add the following code to implement the abstract [WinFormsControlAddInBase.CreateControl](assetId:///M:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.CreateControl) method and define the add-in functionality.  
+11. In the `MyFieldPopupAddin` class, add the following code to implement the abstract [WinFormsControlAddInBase.CreateControl](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.CreateControl) method and define the add-in functionality.  
 
     ```c#  
     /// Defines the text box control.  
@@ -144,9 +147,9 @@ The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](i
     ```  
 
     > [!NOTE]  
-    >  If you want to create an add-in that spans both the caption column and the data column of the page, override the [IWinFormsControlAddIn.AllowCaptionControl](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.IWinFormsControlAddIn.AllowCaptionControl) property and return `false` \(default value is `true`\).  
+    >  If you want to create an add-in that spans both the caption column and the data column of the page, override the [IWinFormsControlAddIn.AllowCaptionControl](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.IWinFormsControlAddIn.AllowCaptionControl) property and return `false` \(default value is `true`\).  
 
- An assembly must be signed that can be used in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You will now sign the assembly.  
+    An assembly must be signed that can be used in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You will now sign the assembly.  
 
 #### To sign the assembly  
 
@@ -158,7 +161,7 @@ The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](i
 
 4.  In the **Key file name** text box, enter **RtcAddins** and clear the **Protect my key file with a password** check box.  
 
-     In this walkthrough, you will not protect the key file with a password. However, you can choose whether to use a password. For more information, see [Strong-Name Signing for Managed Applications](http://go.microsoft.com/fwlink/?LinkID=150201&clcid=0x409).  
+     In this walkthrough, you will not protect the key file with a password. However, you can choose whether to use a password. For more information, see [Strong-Name Signing for Managed Applications](https://go.microsoft.com/fwlink/?LinkID=150201&clcid=0x409).  
 
 5.  Choose the **OK** button.  
 
@@ -184,7 +187,7 @@ The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](i
 
 -   Control Add-in name.  
 
-     The control add-in name is determined by the [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute value of add-in class definition that you specified when you created the control add-in. The name in this walkthrough is `MyCompany.MyProduct.FieldPopupAddin`, as shown in the following code snippet from interface definition.  
+     The control add-in name is determined by the [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute value of add-in class definition that you specified when you created the control add-in. The name in this walkthrough is `MyCompany.MyProduct.FieldPopupAddin`, as shown in the following code snippet from interface definition.  
 
     ```c#  
     [ControlAddInExport("MyCompany.MyProduct.FieldPopupAddin")]  
@@ -230,7 +233,7 @@ The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](i
 
 -   Setting the [OnControlAddin Trigger](OnControlAddin-Trigger.md).  
 
-     In the **C/AL Editor**, you set the trigger that is called when a user selects the field to open a pop-up window. When a field is double-clicked, the add-in raises the [IEventControlAddInDefinition.ControlAddIn](assetId:///E:Microsoft.Dynamics.Framework.UI.Extensibility.IEventControlAddInDefinition.ControlAddIn) event, which in turn calls the trigger.  
+     In the **C/AL Editor**, you set the trigger that is called when a user selects the field to open a pop-up window. When a field is double-clicked, the add-in raises the *IEventControlAddInDefinition.ControlAddIn* event, which in turn calls the trigger.  
 
 #### To set the ControlAddIn property on the field  
 

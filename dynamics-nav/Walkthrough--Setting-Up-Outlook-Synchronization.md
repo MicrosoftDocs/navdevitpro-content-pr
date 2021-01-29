@@ -50,22 +50,22 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 ### Prerequisites  
  To complete this walkthrough, you will need:  
 
--   Microsoft Outlook 2013 or Microsoft Outlook 2010 installed and configured for you as a user on a client machine. Outlook integration requires the 32-bit version of Outlook.  
+- Microsoft Outlook 2013 or Microsoft Outlook 2010 installed and configured for you as a user on a client machine. Outlook integration requires the 32-bit version of Outlook.  
 
--   Microsoft Office Outlook Integration, installed on the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+- Microsoft Office Outlook Integration, installed on the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
 
--   Microsoft Office Outlook Add-in, installed with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+- Microsoft Office Outlook Add-in, installed with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
 
- For more information, see [How to: Choose Components to Install](How-to--Choose-Components-to-Install.md) and [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
+  For more information, see [How to: Choose Components to Install](How-to--Choose-Components-to-Install.md) and [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
 
 ## Setting Up Synchronization for a Single User on a Single Computer  
  This walkthrough describes how to set up and use the Outlook add-in for a single user on a single computer. You can also set up and use the Outlook add-in for multiple users on a single computer, using tools such as Terminal Services. You should follow these steps before you use the Outlook add-in in this environment.  
 
-1.  Ensure that Outlook is correctly installed and configured for all users who need the add-in.  
+1. Ensure that Outlook is correctly installed and configured for all users who need the add-in.  
 
-2.  Install the Outlook add-in from the [!INCLUDE[navnow](includes/navnow_md.md)] product media and make sure that the installation is for all users.  
+2. Install the Outlook add-in from the [!INCLUDE[navnow](includes/navnow_md.md)] product media and make sure that the installation is for all users.  
 
- For best results, install [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and the Outlook add-in on a machine that has not previously had [!INCLUDE[navnow](includes/navnow_md.md)] installed and then uninstalled on it.  
+   For best results, install [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and the Outlook add-in on a machine that has not previously had [!INCLUDE[navnow](includes/navnow_md.md)] installed and then uninstalled on it.  
 
 ## Configuring Microsoft Dynamics NAV for Outlook Synchronization  
  In this walkthrough, before you set up synchronization, make sure that the correct permissions are set up.  
@@ -75,15 +75,15 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
 #### To define synchronization users  
 
-1.  Start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+1. Start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
 
-2.  In the **Search** box, enter **Users**, and then choose the related link.  
+2. In the **Search** box, enter **Users**, and then choose the related link.  
 
-3.  If you are not already listed in the **Users** window, then create a new user.  
+3. If you are not already listed in the **Users** window, then create a new user.  
 
-4.  On the **User** card, in the **User Permission Sets** FastTab, specify the SUPER permission set. Choose the **OK** button.  
+4. On the **User** card, in the **User Permission Sets** FastTab, specify the SUPER permission set. Choose the **OK** button.  
 
- Next, you add yourself as a salesperson in [!INCLUDE[navnow](includes/navnow_md.md)] so that you can assign synchronization entities to yourself and then test your setup.  
+   Next, you add yourself as a salesperson in [!INCLUDE[navnow](includes/navnow_md.md)] so that you can assign synchronization entities to yourself and then test your setup.  
 
 #### To add yourself as a salesperson  
 
@@ -106,77 +106,77 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
 #### To set up default synchronization entities  
 
-1.  In the **Search** box, enter **Outlook Synch. Entities**, and then choose the related link.  
+1. In the **Search** box, enter **Outlook Synch. Entities**, and then choose the related link.  
 
-2.  In the dialog box asking for permissions, choose **Allow for this session**, and then choose the **OK** button. The **Outlook Synch. Entity List** window opens.  
+2. In the dialog box asking for permissions, choose **Allow for this session**, and then choose the **OK** button. The **Outlook Synch. Entity List** window opens.  
 
-     The following table lists the default [!INCLUDE[navnow](includes/navnow_md.md)] entities and the Outlook item types to which they map.  
+    The following table lists the default [!INCLUDE[navnow](includes/navnow_md.md)] entities and the Outlook item types to which they map.  
 
-    |[!INCLUDE[navnow](includes/navnow_md.md)] entity code|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|Outlook items|  
-    |--------------------------------------|---------------------------------------|-------------------|  
-    |APP|To-do type: Meeting|Meetings|  
-    |CONT\_COMP|Contacts: Company|Contacts|  
-    |CONT\_PERS|Contacts: Person|Contacts|  
-    |CONT\_SP|Contacts: Salesperson|Contacts|  
-    |TASK|To-do type: Blank or Phone|Tasks|  
+   |[!INCLUDE[navnow](includes/navnow_md.md)] entity code|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|Outlook items|  
+   |--------------------------------------|---------------------------------------|-------------------|  
+   |APP|To-do type: Meeting|Meetings|  
+   |CONT\_COMP|Contacts: Company|Contacts|  
+   |CONT\_PERS|Contacts: Person|Contacts|  
+   |CONT\_SP|Contacts: Salesperson|Contacts|  
+   |TASK|To-do type: Blank or Phone|Tasks|  
 
- After you have set up entities to synchronize with Outlook items, you assign a user to the entity that the user wants to synchronize. In the following procedure, you assign yourself as the user who is associated with the default entities.  
+   After you have set up entities to synchronize with Outlook items, you assign a user to the entity that the user wants to synchronize. In the following procedure, you assign yourself as the user who is associated with the default entities.  
 
- When you are setting up synchronization, you can first assign a user to one or two entities and then continue with the setup to test whether your connection works.  
+   When you are setting up synchronization, you can first assign a user to one or two entities and then continue with the setup to test whether your connection works.  
 
 #### To assign synchronization entities to users  
 
-1.  In the **Search** box, enter **Outlook Sync. User Setup**, and then choose the related link. The **Outlook Synch. User Setup** window opens.  
+1. In the **Search** box, enter **Outlook Sync. User Setup**, and then choose the related link. The **Outlook Synch. User Setup** window opens.  
 
-2.  Choose **New**. In the **Outlook Synch. User Setup** window, choose the **\($ T\_5305\_1 User ID $\)** field, and then choose your user ID.  
+2. Choose **New**. In the **Outlook Synch. User Setup** window, choose the **\($ T\_5305\_1 User ID $\)** field, and then choose your user ID.  
 
-3.  Choose the **\($ T\_5305\_2 Synch Entity Code $\)** field, and then add synchronization entities in the following order with your user ID:  
+3. Choose the **\($ T\_5305\_2 Synch Entity Code $\)** field, and then add synchronization entities in the following order with your user ID:  
 
-    1.  Add **CONT\_SP**. Leave the **\($ T\_5305\_8 No. of Elements $\)** field as 0.  
+   1.  Add **CONT\_SP**. Leave the **\($ T\_5305\_8 No. of Elements $\)** field as 0.  
 
-    2.  Add **CONT\_PERS**. Leave the **\($ T\_5305\_8 No. of Elements $\)** field as 0.  
+   2.  Add **CONT\_PERS**. Leave the **\($ T\_5305\_8 No. of Elements $\)** field as 0.  
 
-    3.  Add **Cont\_COMP**. Leave the **\($ T\_5305\_8 No. of Elements $\)** field as 0.  
+   3.  Add **Cont\_COMP**. Leave the **\($ T\_5305\_8 No. of Elements $\)** field as 0.  
 
-    4.  Add **APP**.  
+   4.  Add **APP**.  
 
-        1.  Choose the **\($ T\_5305\_8 No. of Elements $\)** field to open the **Outlook Synch. Setup Details** window.  
+       1.  Choose the **\($ T\_5305\_8 No. of Elements $\)** field to open the **Outlook Synch. Setup Details** window.  
 
-        2.  On the **Home** tab, choose **New**, choose the line under **\($ T\_5310\_4 Outlook Collection $\)**, choose **Recipients**, and then choose the **OK** button.  
+       2.  On the **Home** tab, choose **New**, choose the line under **\($ T\_5310\_4 Outlook Collection $\)**, choose **Recipients**, and then choose the **OK** button.  
 
-        3.  Choose the **Close** button to close the **Outlook Synch. Setup Details** window.  
+       3.  Choose the **Close** button to close the **Outlook Synch. Setup Details** window.  
 
-        4.  Choose the **\($ T\_5305\_4 Condition $\)** field, and enter information in the **Filter** window.  
+       4.  Choose the **\($ T\_5305\_4 Condition $\)** field, and enter information in the **Filter** window.  
 
-             The following table describes the information that you have to enter.  
+            The following table describes the information that you have to enter.  
 
-            |Column|Value|  
-            |------------|-----------|  
-            |**Field Name**|Salesperson Code|  
-            |**\($ T\_5303\_7 Type $\)**|CONST|  
-            |**\($ T\_5303\_8 Value $\)**|\<salesperson code>|  
+           |Column|Value|  
+           |------------|-----------|  
+           |**Field Name**|Salesperson Code|  
+           |**\($ T\_5303\_7 Type $\)**|CONST|  
+           |**\($ T\_5303\_8 Value $\)**|\<salesperson code>|  
 
-        5.  Choose the **OK** button.  
+       5.  Choose the **OK** button.  
 
-    5.  Add **Task**.  
+   5.  Add **Task**.  
 
-        1.  Choose the **\($ T\_5305\_8 No. of Elements $\)** field to open the **Outlook Synch. Setup Details** window.  
+       1.  Choose the **\($ T\_5305\_8 No. of Elements $\)** field to open the **Outlook Synch. Setup Details** window.  
 
-        2.  Choose **New**, choose the line under **\($ T\_5310\_4 Outlook Collection $\)**, choose **Links**, and then choose the **OK** button. Choose the **OK** button again to close the window.  
+       2.  Choose **New**, choose the line under **\($ T\_5310\_4 Outlook Collection $\)**, choose **Links**, and then choose the **OK** button. Choose the **OK** button again to close the window.  
 
-        3.  Choose the **\($ T\_5305\_4 Condition $\)** field, and enter information in the **Filter** window.  
+       3.  Choose the **\($ T\_5305\_4 Condition $\)** field, and enter information in the **Filter** window.  
 
-             The following table describes the information that you have to enter.  
+            The following table describes the information that you have to enter.  
 
-            |Column|Value|  
-            |------------|-----------|  
-            |**Field Name**|Salesperson Code|  
-            |**\($ T\_5303\_7 Type $\)**|CONST|  
-            |**\($ T\_5303\_8 Value $\)**|\<salesperson code>|  
+           |Column|Value|  
+           |------------|-----------|  
+           |**Field Name**|Salesperson Code|  
+           |**\($ T\_5303\_7 Type $\)**|CONST|  
+           |**\($ T\_5303\_8 Value $\)**|\<salesperson code>|  
 
-4.  Choose the **OK** button. Choose the **OK** button again to close the window.  
+4. Choose the **OK** button. Choose the **OK** button again to close the window.  
 
- You must activate the change log to enable tracking of the changes that you made to the synchronization entities.  
+   You must activate the change log to enable tracking of the changes that you made to the synchronization entities.  
 
 #### To apply change log settings  
 
@@ -194,15 +194,15 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
 #### To configure conditions  
 
-1.  In the **Search** box, enter **Outlook Synch. User Setup**, and then choose the related link.  
+1. In the **Search** box, enter **Outlook Synch. User Setup**, and then choose the related link.  
 
-2.  Select the line with the APP entity, and then choose the **Condition** field.  
+2. Select the line with the APP entity, and then choose the **Condition** field.  
 
-3.  In the **Outlook Synch. Filters – Condition** window, in the **Field Name** field, select **Salesperson Code**. In the **\($ T\_5303\_8 Value $\)** field, enter the code for the salesperson.  
+3. In the **Outlook Synch. Filters – Condition** window, in the **Field Name** field, select **Salesperson Code**. In the **\($ T\_5303\_8 Value $\)** field, enter the code for the salesperson.  
 
-4.  Repeat these steps for the TASK entity.  
+4. Repeat these steps for the TASK entity.  
 
- Setting conditions for other entities is not required, but we recommend doing it to prevent mass data transfer to a local mailbox or a public folder.  
+   Setting conditions for other entities is not required, but we recommend doing it to prevent mass data transfer to a local mailbox or a public folder.  
 
 ## Setting Up Web Services Connections  
  You must set up a web services connection between [!INCLUDE[navnow](includes/navnow_md.md)] and Outlook.  
@@ -252,13 +252,13 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
  You follow these steps to establish your web services connection on the NAV Service tier.  
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 >  When you are connecting to a [!INCLUDE[nav_server](includes/nav_server_md.md)] in Azure, you must specify settings for Internet Explorer.  
->   
->  1.  Open Internet Explorer.  
-> 2.  On the **Tools** menu, and then choose **Internet Options**.  
-> 3.  Choose the **Connections** tab and choose the **LAN Settings** button.  
-> 4.  Clear the **Automatically detect settings** check box.  
+> 
+> 1. Open Internet Explorer.  
+>    2.  On the **Tools** menu, and then choose **Internet Options**.  
+>    3.  Choose the **Connections** tab and choose the **LAN Settings** button.  
+>    4.  Clear the **Automatically detect settings** check box.  
 
 ##### To establish a web services synchronization connection  
 
@@ -266,7 +266,7 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
      Specify a Web service path in the **Web Service Path** text box:  
 
-     On premises \(default\): http://localhost:7047/DynamicsNAV71/WS/Codeunit/DynamicsNAVsynchOutlook  
+     On premises \(default\): https://localhost:7047/DynamicsNAV71/WS/Codeunit/DynamicsNAVsynchOutlook  
 
      -or-  
 
@@ -313,11 +313,11 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
 ##### To specify which toolbar commands are displayed  
 
-1.  In the **Settings** dialog box, choose the **Customize** tab.  
+1. In the **Settings** dialog box, choose the **Customize** tab.  
 
-2.  Choose the **Full Synchronization** and **Synchronize** options. Choose the **Apply** button, and then choose the **OK** button.  
+2. Choose the **Full Synchronization** and **Synchronize** options. Choose the **Apply** button, and then choose the **OK** button.  
 
- In addition to the options you have chosen, the **Settings** command is always available on the ribbon.  
+   In addition to the options you have chosen, the **Settings** command is always available on the ribbon.  
 
 ### Setting Filters  
  You set filters to define any items that you do not want to be synchronized. For example, if you have personal contacts that you do not want to be synchronized with your [!INCLUDE[navnow](includes/navnow_md.md)] contacts, then you can filter for those. In this procedure, you filter to exclude personal contacts from synchronization by excluding contacts that contain home telephone numbers.  

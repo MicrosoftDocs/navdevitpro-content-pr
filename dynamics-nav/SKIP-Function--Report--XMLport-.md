@@ -35,8 +35,7 @@ Record.SKIP
 ```  
 IF Balance = 0 THEN  
   CurrReport.SKIP  
-ELSE  
-  ... // Do some processing.  
+... // Do some processing.  
 ```  
   
 ## See Also  

@@ -42,7 +42,7 @@ You can use reports to print or display information from a database. You can use
 |Learn about report triggers and when they are called during report processing.|[Report Triggers](Report-Triggers.md)|  
 |Learn about how to design request pages for reports.|[Request Pages](Request-Pages.md)|  
 |Step through detailed examples of creating reports|[Report Design Walkthroughs](Report-Design-Walkthroughs.md)|  
-|Use Visual Studio Report Designer to design the layouts of reports|[Report Designer](http://go.microsoft.com/fwlink/?LinkId=128245)|  
+|Use Visual Studio Report Designer to design the layouts of reports|[Report Designer](https://go.microsoft.com/fwlink/?LinkId=128245)|  
 
 ## See Also  
  [Objects](Objects.md)

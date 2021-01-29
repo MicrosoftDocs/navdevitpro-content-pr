@@ -1,6 +1,6 @@
 ---
 title: Get salesQuoteLines | Microsoft Docs
-description: Gets a sales quote line object in Dynamics 365 for Financials.
+description: Gets a sales quote line object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,8 +10,9 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Get salesQuoteLines
@@ -20,12 +21,14 @@ Retrieve the properties and relationships of a sales quote line object for [!INC
 ## Prerequisites
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-GET /financials/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence=({number}))
+GET businesscentralPrefix/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence=({number}))
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
@@ -42,7 +45,7 @@ If successful, this method returns a ```200 OK``` response code and a **salesQuo
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence={number}))
+GET https://{businesscentralPrefix}/api/beta/companies({id})/salesQuotes({id})/salesQuoteLines(documentId=({id}),sequence={number}))
 ```
 
 **Response**
@@ -89,12 +92,13 @@ Here is an example of the response.
 ```
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Sales quote line](../resources/dynamics_salesquoteline.md)  
-[Create sales quote line](../api/dynamics_create_salesquoteline.md)  
-[Update sales quote line](../api/dynamics_salesquoteline_update.md)  
-[Delete sales quote line](../api/dynamics_salesquoteline_delete.md)  
+[Sales Quote Line](../resources/dynamics_salesquoteline.md)  
+[Create Sales Quote Line](../api/dynamics_create_salesquoteline.md)  
+[Update Sales Quote Line](../api/dynamics_salesquoteline_update.md)  
+[Delete Sales Quote Line](../api/dynamics_salesquoteline_delete.md)  

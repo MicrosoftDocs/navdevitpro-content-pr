@@ -14,11 +14,11 @@ manager: edupont
 # Handling UI Interaction When Working with Web Services
 Whether you are publishing or consuming web services, exceptions and dialog boxes that may be displayed while code runs must be handled correctly. Exceptions must be handled to prevent the system from ending the web service client execution. You can handle exceptions in the following ways:  
   
--   Writing conditional code inside [!INCLUDE[navnow](includes/navnow_md.md)].  
+- Writing conditional code inside [!INCLUDE[navnow](includes/navnow_md.md)].  
   
--   Writing the code in the web service client application.  
+- Writing the code in the web service client application.  
   
- The most robust solution is to use both methods.  
+  The most robust solution is to use both methods.  
   
 ## Publishing Web Services  
  When publishing a web service, you must make sure that the code that you are publishing does not assume the ability to interact with a user through the UI. You can use the [GUIALLOWED Function](GUIALLOWED-Function.md) to suppress the UI. For example, you can use this function to determine whether a codeunit is being called from the [!INCLUDE[rtc](includes/rtc_md.md)] or from a web service client. You must make sure to suppress errors when a codeunit is called from a web service client.  
@@ -33,23 +33,23 @@ Whether you are publishing or consuming web services, exceptions and dialog boxe
   
  Other keywords that you should not use are:  
   
--   PAGE.RUN  
+- PAGE.RUN  
   
--   PAGE.RUNMODAL  
+- PAGE.RUNMODAL  
   
--   ACTIVATE  
+- ACTIVATE  
   
--   REPORT.RUN  
+- REPORT.RUN  
   
--   REPORT.RUNMODAL  
+- REPORT.RUNMODAL  
   
--   HYPERLINK  
+- HYPERLINK  
   
--   FILE.UPLOAD  
+- FILE.UPLOAD  
   
--   FILE.DOWNLOAD  
+- FILE.DOWNLOAD  
   
- You should also avoid operations on client-side Automation and .NET Framework interoperability objects.  
+  You should also avoid operations on client-side Automation and .NET Framework interoperability objects.  
   
 ## Consuming Web Services  
  You must handle exceptions in client code that calls a [!INCLUDE[navnow](includes/navnow_md.md)] web service. Appropriate exception capturing code should be included around any call to a [!INCLUDE[navnow](includes/navnow_md.md)] web service.  

@@ -1,6 +1,6 @@
 ---
 title: Update customers | Microsoft Docs
-description: Updates a customer object in Dynamics 365 for Financials.
+description: Updates a customer object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,8 +10,9 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Update customers
@@ -19,12 +20,14 @@ Update the properties of a customer object for [!INCLUDE[d365fin_long_md](../../
 
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-PATCH /financials/companies({id})/customers({id})
+PATCH businesscentralPrefix/companies({id})/customers({id})
 ```
 
 ## Request headers
+
 |Header         |Value                     |
 |---------------|--------------------------|
 |Authorization  |Bearer {token}. Required. |
@@ -44,7 +47,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 Here is an example of the request.
 
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/customers({id})
+PATCH https://{businesscentralPrefix}/api/beta/companies({id})/customers({id})
 Content-type: application/json
 
 {
@@ -85,11 +88,7 @@ Content-type: application/json
   "taxRegistrationNumber": "28012001T",
   "currencyId": "currencyId-value",
   "currencyCode": "USD",
-  "paymentTermsId": "paymentTermsId-value",
-  "paymentTerms": {
-    "code": "1M(8D)",
-    "description": "1 Month/2% 8 days"
-  },
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
   "shipmentMethodId": "shipmentMethodId-value",
   "shipmentMethod": null,
   "paymentMethodId": "paymentMethod-value",
@@ -107,11 +106,12 @@ Content-type: application/json
 
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Customer](../resources/dynamics_customer.md)  
-[Get customers](dynamics_customer_get.md)  
-[Post customers](dynamics_create_customer.md)  
-[Delete customers](dynamics_customer_delete.md)  
+[Get Customers](dynamics_customer_get.md)  
+[Post Customers](dynamics_create_customer.md)  
+[Delete Customers](dynamics_customer_delete.md)  

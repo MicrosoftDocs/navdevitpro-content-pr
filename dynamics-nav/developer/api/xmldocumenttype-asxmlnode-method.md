@@ -14,9 +14,10 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+# AsXmlNode Method
+
 [!INCLUDE[newdev_dev_preview](../includes/newdev_dev_preview.md)]
 
-# AsXmlNode Method
 Converts the node to an XmlNode.  
 ```  
 XmlNode := XmlDocumentType.AsXmlNode()  

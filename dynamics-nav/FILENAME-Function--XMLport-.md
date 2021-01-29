@@ -12,6 +12,8 @@ caps.latest.revision: 12
 manager: edupont
 ---
 # FILENAME Function (XMLport)
+
+[!INCLUDE[windows_client_only](includes/windows_client_only.md)]
 Gets the current value of the [FileName Property](FileName-Property.md) of an XMLport and sets this property to a new value.  
   
 ## Syntax  

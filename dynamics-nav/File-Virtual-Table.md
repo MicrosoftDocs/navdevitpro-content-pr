@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # File Virtual Table
-The **File** virtual table gives you an overview of the files in a directory on your disk. The **File** virtual table contains the following fields.  
+The **File** virtual table \(ID 2000000022\) gives you an overview of the files in a directory on your disk. The **File** virtual table contains the following fields.  
   
 |Field|Description|  
 |-----------|-----------------|  

@@ -10,7 +10,7 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/10/2017
+ms.date: 03/19/2018
 ms.author: solsen
 
 ---
@@ -56,3 +56,4 @@ In this section, you can find API documentation for Microsoft Graph.
 |complex types JSON|[Complex Types JSON](../resources/dynamics_complextypes.md)|
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  

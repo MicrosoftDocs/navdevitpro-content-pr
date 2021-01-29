@@ -2,7 +2,7 @@
 title: "Page 9621 Add Page Fields Error When Converting to Dynamics NAV 2018"
 description: "Explains how to resolve the compilation error that you get for Page 9621 Add Page Fields when converting a database from Dynamics NAV 2017 to 2018."
 ms.custom: na
-ms.date: 27/11/2017
+ms.date: 11/27/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +10,9 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
-## Resolving Page 9621 Add Page Fields Compilation Error 
+
+# Resolving Page 9621 Add Page Fields Compilation Error 
+
 This article explains how to resolve the compilation error that you get for page **9621 Add Page Fields** when converting a [!INCLUDE[nav2017](includes/navcorfu_md.md)] database to [!INCLUDE[nav2018_md](includes/nav2018_md.md)].
 
 To resolve this error, you can update page **9621 Add Page Fields** in the converted database to support the latest platform changes by replacing its code with the code that follows: 

@@ -23,28 +23,28 @@ Carefully planning the details of your database application will help to ensure 
 3.  Designing the application.  
 
 ### Understanding the Problem  
- First, you must understand the business problem that you want your application to solve. You may want to know who will be using the application and what they will be trying to accomplish. For more information about gathering information and using that information to plan your design, see [Developing a Database Plan \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkId=240052).  
+ First, you must understand the business problem that you want your application to solve. You may want to know who will be using the application and what they will be trying to accomplish. For more information about gathering information and using that information to plan your design, see [Developing a Database Plan \(SQL Server\)](https://go.microsoft.com/fwlink/?LinkId=240052).  
 
 ### Designing the Data Model  
  After you understand the problem that you want your application to solve, you must design the structure of the database for your application. For more information about how to design the data model, see the following topics:  
 
--   [Designing Databases \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkId=240055)  
+- [Designing Databases \(SQL Server\)](https://go.microsoft.com/fwlink/?LinkId=240055)  
 
--   [Database Basics \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkId=240053)  
+- [Database Basics \(SQL Server\)](https://go.microsoft.com/fwlink/?LinkId=240053)  
 
- One consideration when you design your data model is data integrity. Enforcing data integrity guarantees the quality of the data in the database. You must consider how to define and enforce the following:  
+  One consideration when you design your data model is data integrity. Enforcing data integrity guarantees the quality of the data in the database. You must consider how to define and enforce the following:  
 
--   Unique values in identifier columns of a table.  
+- Unique values in identifier columns of a table.  
 
--   Valid data types in each field of a table.  
+- Valid data types in each field of a table.  
 
--   Consistency across tables.  
+- Consistency across tables.  
 
--   Other constraints that are specific to your application.  
+- Other constraints that are specific to your application.  
 
 For more information about data integrity, see the following topics:  
 
--   [Data Integrity \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkId=240057)  
+-   [Data Integrity \(SQL Server\)](https://go.microsoft.com/fwlink/?LinkId=240057)  
 
 -   [Table Keys](Table-Keys.md)  
 
@@ -55,25 +55,25 @@ For more information about data integrity, see the following topics:
 ### Designing the Application  
  After you have a design for your database, you can begin to design the application itself. Designing the application involves:  
 
--   Creating table objects in [!INCLUDE[navnow](includes/navnow_md.md)] to implement the design of your database.  
+- Creating table objects in [!INCLUDE[navnow](includes/navnow_md.md)] to implement the design of your database.  
 
--   Designing pages for entering and retrieving data, and reports for viewing and presenting data.  
+- Designing pages for entering and retrieving data, and reports for viewing and presenting data.  
 
--   Creating C/AL code to connect the application objects.  
+- Creating C/AL code to connect the application objects.  
 
--   Designing objects or writing code to extend functionality or to integrate your application together with other systems.  
+- Designing objects or writing code to extend functionality or to integrate your application together with other systems.  
 
- For more information about how to design your application, see the following topics:  
+  For more information about how to design your application, see the following topics:  
 
--   [Designing Application Objects](Designing-Application-Objects.md)  
+- [Designing Application Objects](Designing-Application-Objects.md)  
 
--   [Programming in C/AL](Programming-in-C-AL.md)  
+- [Programming in C/AL](Programming-in-C-AL.md)  
 
--   [Objects](Objects.md)  
+- [Objects](Objects.md)  
 
--   [Web Services](Web-Services.md)  
+- [Web Services](Web-Services.md)  
 
--   [Extending Microsoft Dynamics NAV](Extending-Microsoft-Dynamics-NAV.md)  
+- [Extending Microsoft Dynamics NAV](Extending-Microsoft-Dynamics-NAV.md)  
 
 ## See Also  
  [Development](Development.md)

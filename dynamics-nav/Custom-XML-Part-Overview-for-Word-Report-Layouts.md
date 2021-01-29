@@ -54,7 +54,7 @@ Word report layouts are built on *custom XML parts*. A custom XML part is struct
 |`..</DataItem1>`<br /><br /> `</NavWordReportXmlPart>`|Closing element.|  
   
 ## Custom XML Part in Word  
- In Word, you open the custom XML part in the **XML Mapping** pane, and then use the pane to map elements to content controls in the Word document. The **XML Mapping** pane is accessible from the **Developer** tab \(for more information, see [How to: Show the Developer Tab on the Ribbon](http://go.microsoft.com/fwlink/?LinkID=389631)\).  
+ In Word, you open the custom XML part in the **XML Mapping** pane, and then use the pane to map elements to content controls in the Word document. The **XML Mapping** pane is accessible from the **Developer** tab \(for more information, see [How to: Show the Developer Tab on the Ribbon](https://go.microsoft.com/fwlink/?LinkID=389631)\).  
   
  The elements in the **XML Mapping** pane appear in a structure that is similar to the XML source. Label fields are grouped under a common **Labels** element and data item and columns are arranged in a hierarchal structure that corresponds to the XML source, with columns listed in alphabetical order. Elements are identified by their name as defined by the Name property in Report Dataset Designer in [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
   
@@ -62,17 +62,15 @@ Word report layouts are built on *custom XML parts*. A custom XML part is struct
   
  ![Clip of the XML Mapping pane in word](media/NAV_ReportLayout_XMLMappingPane.png "NAV\_ReportLayout\_XMLMappingPane")  
   
--   To add a label or field to the layout, you insert a content control that maps to the element in the **XML Mapping** pane.  
+- To add a label or field to the layout, you insert a content control that maps to the element in the **XML Mapping** pane.  
   
--   To create repeating rows of columns, insert a **Repeating** content control for the parent data item element, and then add content control for the columns.  
+- To create repeating rows of columns, insert a **Repeating** content control for the parent data item element, and then add content control for the columns.  
   
--   For labels, the actual text that appears in the generated report is the value of the **Caption** property for the field in the data item table \(if the label is related to the column in the report dataset\) or a label in the Report Label Designer \(if the label is not related to a column in the dataset\).  
+- For labels, the actual text that appears in the generated report is the value of the **Caption** property for the field in the data item table \(if the label is related to the column in the report dataset\) or a label in the Report Label Designer \(if the label is not related to a column in the dataset\).  
   
--   The language of the label that is displayed when you run the report depends on the language setting of the report object. For more information, see [Multiple Document Languages](Multiple-Document-Languages.md) and [Viewing the Application in Different Languages](Viewing-the-Application-in-Different-Languages.md).  
+- The language of the label that is displayed when you run the report depends on the language setting of the report object. For more information, see [Multiple Document Languages](Multiple-Document-Languages.md) and [Viewing the Application in Different Languages](Viewing-the-Application-in-Different-Languages.md).  
   
- For information about how to open the custom XML part in Word and add fields, see [Managing Report Layouts](managing-report-layouts.md).  
+  For information about how to open the custom XML part in Word and add fields, see [Managing Report Layouts](managing-report-layouts.md).  
   
 ## See Also  
  [Managing Report Layouts](managing-report-layouts.md)   
- [Managing Report Layouts](managing-report-layouts.md)   
- [Managing Report Layouts](managing-report-layouts.md)

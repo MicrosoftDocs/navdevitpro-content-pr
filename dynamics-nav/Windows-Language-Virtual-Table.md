@@ -12,7 +12,7 @@ caps.latest.revision: 9
 manager: edupont
 ---
 # Windows Language Virtual Table
-The virtual, read-only Windows Language table displays the languages that Windows supports. You can view its contents by designing a tabular-type page based on the table.  
+The virtual, read-only Windows Language table \(ID 2000000045\) displays the languages that Windows supports. You can view its contents by designing a tabular-type page based on the table.  
   
 ## The Table  
  The Windows Language virtual table contains the following fields.  

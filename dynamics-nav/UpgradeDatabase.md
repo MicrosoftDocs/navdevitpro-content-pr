@@ -16,7 +16,7 @@ Upgrades an existing [!INCLUDE[navnow](includes/navnow_md.md)] database.
 ## Syntax  
   
 ```  
-finsql.exe command=upgradedatabase, servername=<server>, database=<database>[, logfile=<path and filename>,] [username=<user name>,] [password=<password>,] [ntauthentication=<yes|no|0|1>]  
+finsql.exe command=upgradedatabase, servername=<server>, database=<database>[, logfile=<path and filename>,] [username=<user name>,] [password=<password>,] [ntauthentication=<yes|no|0|1>, ] [suppresselevationcheck=<yes|no|0|1]  
 ```  
   
 #### Parameters  
@@ -65,7 +65,11 @@ finsql.exe command=upgradedatabase, servername=<server>, database=<database>[, l
  *ntauthentication*  
   
  Specifies if you want to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication=no** or **ntauthentication=0**.  
-  
+
+*suppresselevationcheck*
+
+ Specifies whether to check that finsql.exe is running in elevated mode (as an administrator) and if not, give a warning that proceeding might cause errors. You are given the option to continue or cancel. The possible values are: **no**, **0**, **yes**, and **1**. **no** or **0** run the check. This is the default setting. **yes** or **1** suppress the check.
+
 ## Remarks  
  You use the **UpgradeDatabase** command together with the finsql.exe executable when you want to convert a database from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)] to the new version. For example, if you are upgrading several databases, you can create scripts that help you repeat the steps. Finsql.exe is the executable file that runs the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]RoleTailored Client\\.  
   
@@ -82,7 +86,7 @@ finsql.exe command=upgradedatabase, servername=TestComputer01\NAVDEMO, database=
 ## See Also  
  [Using the Development Environment from the Command Prompt](Using-the-Development-Environment-from-the-Command-Prompt.md)   
  [Converting a Database](Converting-a-Database.md)   
- [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
+ [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
  [Compiling Objects](Compiling-Objects.md)   
  [BuildVirtualMetadata](BuildVirtualMetadata.md)   
  [CreateDatabase](CreateDatabase.md)   

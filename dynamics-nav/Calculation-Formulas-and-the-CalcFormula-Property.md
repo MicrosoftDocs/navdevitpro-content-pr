@@ -16,22 +16,22 @@ A FlowField is always associated with a calculation formula that determines how 
 
 ```  
 <CalculationFormula> ::=  
-    [-]Exist(<TableNo> [WHERE (<TableFilters>)]) |  
-    Count(<TableNo> [WHERE (<TableFilters>)]) |  
-    [-]Sum(<TableNo>.<FieldNo> [WHERE(<TableFilters>)])|  
-    [-]Average(<TableNo>.<FieldNo> [WHERE (<TableFilters>)]) |  
-    Min(<TableNo>.<FieldNo> [WHERE (<TableFilters>)]) |  
-    Max(<TableNo>.<FieldNo> [WHERE (<TableFilters>)]) |  
-    Lookup(<TableNo>.<FieldNo> [WHERE (<TableFilters>)])  
+    [-]Exist(<TableNo> [WHERE (<TableFilters>)]) |  
+    Count(<TableNo> [WHERE (<TableFilters>)]) |  
+    [-]Sum(<TableNo>.<FieldNo> [WHERE(<TableFilters>)])|  
+    [-]Average(<TableNo>.<FieldNo> [WHERE (<TableFilters>)]) |  
+    Min(<TableNo>.<FieldNo> [WHERE (<TableFilters>)]) |  
+    Max(<TableNo>.<FieldNo> [WHERE (<TableFilters>)]) |  
+    Lookup(<TableNo>.<FieldNo> [WHERE (<TableFilters>)])  
 <TableFilters> ::=  
-    [<TableFilter> {,<TableFilter>}]  
+    [<TableFilter> {,<TableFilter>}]  
 <TableFilter> ::=  
-    <DstFieldNo>=CONST(<FieldConst>) |  
-    <DstFieldNo>=FILTER(<Filter>) |  
-    <DstFieldNo>=FIELD(<SrcFieldNo>) |  
-    <DstFieldNo>=FIELD(UPPERLIMIT(<SrcFieldNo>)) |  
-    <DstFieldNo>=FIELD(FILTER(<SrcFieldNo>)) |  
-    <DstFieldNo>=FIELD(UPPERLIMIT(FILTER(<SrcFieldNo>)))  
+    <DstFieldNo>=CONST(<FieldConst>) |  
+    <DstFieldNo>=FILTER(<Filter>) |  
+    <DstFieldNo>=FIELD(<SrcFieldNo>) |  
+    <DstFieldNo>=FIELD(UPPERLIMIT(<SrcFieldNo>)) |  
+    <DstFieldNo>=FIELD(FILTER(<SrcFieldNo>)) |  
+    <DstFieldNo>=FIELD(UPPERLIMIT(FILTER(<SrcFieldNo>)))  
 ```  
 
  Parts of the formula are described in the following table.  

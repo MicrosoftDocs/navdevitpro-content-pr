@@ -1,6 +1,6 @@
 ---
 title: Get salesCreditMemos | Microsoft Docs
-description: Gets a sales credit memo object in Dynamics 365 for Financials.
+description: Gets a sales credit memo object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,20 +10,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Get salesCreditMemos
 Retrieve the properties and relationships of a sales credit memo object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-GET /financials/companies({id})/salesCreditMemos({id})
+GET businesscentralPrefix/companies({id})/salesCreditMemos({id})
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer {token}. Required. |
@@ -40,7 +43,7 @@ If successful, this method returns a ```200 OK``` response code and a **salesCre
 
 Here is an example of the request.
 ```json
-GET https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesCreditMemos({id})
+GET https://{businesscentralPrefix}/api/beta/companies({id})/salesCreditMemos({id})
 ```
 
 **Response**
@@ -69,8 +72,7 @@ Here is an example of the response.
   },
   "currencyId": "currencyId-value",
   "currencyCode": "GBP",
-  "paymentTermsId": "paymentTermsId-value",
-  "paymentTerms": "COD",
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
   "salesperson": "",
   "pricesIncludeTax": false,
   "discountAmount": 0,
@@ -86,12 +88,13 @@ Here is an example of the response.
 ```
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Sales credit memo](../resources/dynamics_salescreditmemo.md)  
-[Create sales credit memo](../api/dynamics_create_salescreditmemo.md)  
-[Update sales credit memo](../api/dynamics_salescreditmemo_update.md)  
-[Delete sales credit memo](../api/dynamics_salescreditmemo_delete.md)  
+[Sales Credit Memo](../resources/dynamics_salescreditmemo.md)  
+[Create Sales Credit Memo](../api/dynamics_create_salescreditmemo.md)  
+[Update Sales Credit Memo](../api/dynamics_salescreditmemo_update.md)  
+[Delete Sales Credit Memo](../api/dynamics_salescreditmemo_delete.md)  

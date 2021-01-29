@@ -23,16 +23,16 @@ This topic describes the identifiers, data types, and data formats that are used
   
  If the database maintains relationships, [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] creates foreign key constraints using the SQL Server table name and **TableRelation** property information. The names of the constraints have the following format:  
   
--   \<table name>$FK$T\<referencing table ID>\_F\<referencing field ID>$T\<referenced table ID>.  
+- \<table name>$FK$T\<referencing table ID>\_F\<referencing field ID>$T\<referenced table ID>.  
   
- Here is an example using the **Customer** table:  
+  Here is an example using the **Customer** table:  
   
--   CRONUS International Ltd\_$Customer$FK$T18\_F107$T308.  
+- CRONUS International Ltd\_$Customer$FK$T18\_F107$T308.  
   
- When you create a [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] table with keys that contain SumIndexFields, indexed views are created to hold the precalculated sums. These views are named based on the company, table name, and key number. For example \[CRONUS International Ltd\_$G\_L Entry$VSIFT$8\].  
+  When you create a [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] table with keys that contain SumIndexFields, indexed views are created to hold the precalculated sums. These views are named based on the company, table name, and key number. For example \[CRONUS International Ltd\_$G\_L Entry$VSIFT$8\].  
   
-## Representation of Data Types  
- Every available [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] data type is mapped to an appropriate SQL Server data type in the tables for [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)]. The following table shows which SQL Server data type is used for the corresponding [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] data type.  
+## <a name="SQLDataType"></a>Representation of SQL Data Types  
+Every available [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] data type is mapped to an appropriate SQL Server data type in the tables for [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)]. The following table shows which SQL Server data type is used for the corresponding [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] data type.  
   
 |Microsoft Dynamics NAV data type|SQL Server data type|  
 |--------------------------------------|--------------------------|  

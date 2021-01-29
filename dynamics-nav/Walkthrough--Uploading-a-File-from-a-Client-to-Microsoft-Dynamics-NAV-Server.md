@@ -97,8 +97,8 @@ This walkthrough demonstrates how to use file functions to send a file from a cl
     |----------|--------------|------------|  
     |TestFile|File||  
     |TestStream|InStream||  
-    |NVOutStream|OutStream||  
-    |ClientFileName|Text|1024|  
+<!--|NVOutStream|OutStream||
+    |ClientFileName|Text|1024| --> 
   
 6.  Choose the next empty line to ensure that the local variables are saved.  
   

@@ -1,6 +1,6 @@
 ---
 title: retainedEarningsStatement resource type | Microsoft Docs
-description: A retained earnings statement object in Dynamics 365 for Finance and Operations, Business edition.
+description: A retained earnings statement object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,15 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # retainedEarningsStatement resource type
 Represents an retained earnings statement in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -27,7 +28,8 @@ Represents an retained earnings statement in [!INCLUDE[d365fin_long_md](../../in
 |[GET retainedEarningsStatement](../api/dynamics_retainedearningsstatement_get.md)|retainedEarningsStatement|Get a retained earnings statement object.|
 
 ## Properties
-| Property	| Type	|Description                                                           |
+
+| Property  | Type  |Description                                                           |
 |:----------|:------|:---------------------------------------------------------------------|
 |lineNumber |numeric|The retainedEarningsStatement item line number.                       |
 |display    |string |The retainedEarningsStatement item display name.                      |
@@ -54,12 +56,11 @@ Here is a JSON representation of the resource.
     "indentation": "int",
     "dateFilter": "date"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get retained earnings statement](../api/dynamics_retainedearningsstatement_get.md)  
+[Get Retained Earnings Statement](../api/dynamics_retainedearningsstatement_get.md)  

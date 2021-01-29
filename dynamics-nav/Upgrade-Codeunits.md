@@ -25,7 +25,7 @@ A typical example of when to use an upgrade codeunit is when you remove a field 
 You implement upgrade codeunits when you make destructive changes to tables in [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. For more information about destructive changes, see [Handling Destructive Changes With Table Schema Synchronization](Synchronizing-Table-Schemas.md#HandlingDestChanges). After you have created an upgrade codeunit to handle table changes, you can use it when you upgrade data from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)] to the current version. A single upgrade codeunit will typically contain table schema synchronization instructions and data migration logic for multiple tables that have changed from one version of [!INCLUDE[navnow](includes/navnow_md.md)] to another.  
 
 > [!NOTE]  
->  For an example that explains how to create and implement upgrade codeunits, see the [!INCLUDE[navnow](includes/navnow_md.md)] Upgrade Demo Script document at [http://go.microsoft.com/fwlink/?LinkID=509977](http://go.microsoft.com/fwlink/?LinkID=509977). This document provides step-by-step instructions that support the concepts discussed in this topic.  
+>  For an example that explains how to create and implement upgrade codeunits, see the [!INCLUDE[navnow](includes/navnow_md.md)] Upgrade Demo Script document at [https://go.microsoft.com/fwlink/?LinkID=509977](https://go.microsoft.com/fwlink/?LinkID=509977). This document provides step-by-step instructions that support the concepts discussed in this topic.  
 
 ## Upgrade Codeunits Overview  
  An upgrade codeunit consists of three sections that are defined by specific function types:  
@@ -45,21 +45,21 @@ To create an upgrade codeunit, you set the [SubType Property \(Codeunit\)](SubTy
 
  When [!INCLUDE[nav_server](includes/nav_server_md.md)] detects an update to a table definition \(metadata\) that changes the table schema in the database in SQL Server, it will search the **TableSyncSetup** functions in the upgrade codeunits to collect the schema synchronization instructions for changed tables.  
 
--   If there are instructions for the table, then [!INCLUDE[nav_server](includes/nav_server_md.md)] handles the data according to the instructions. Depending on the synchronization mode, [!INCLUDE[nav_server](includes/nav_server_md.md)] can:  
+- If there are instructions for the table, then [!INCLUDE[nav_server](includes/nav_server_md.md)] handles the data according to the instructions. Depending on the synchronization mode, [!INCLUDE[nav_server](includes/nav_server_md.md)] can:  
 
-    -   Move or copy the data from the old tables into upgrade tables.  
+  - Move or copy the data from the old tables into upgrade tables.  
 
-    -   Delete data in the table fields that are affected by the changes and apply schema changes forcefully.  
+  - Delete data in the table fields that are affected by the changes and apply schema changes forcefully.  
 
-    -   Check whether there is data in the affected fields and then apply schema changes only if they do not contain data.  
+  - Check whether there is data in the affected fields and then apply schema changes only if they do not contain data.  
 
-     For more information about the synchronization modes, see [TableSyncSetup Modes](Upgrade-Codeunits.md#TblModes).  
+    For more information about the synchronization modes, see [TableSyncSetup Modes](Upgrade-Codeunits.md#TblModes).  
 
--   If there are no instructions for the table in the **TableSyncSetup** functions, then [!INCLUDE[nav_server](includes/nav_server_md.md)] checks whether the changes are destructive.  
+- If there are no instructions for the table in the **TableSyncSetup** functions, then [!INCLUDE[nav_server](includes/nav_server_md.md)] checks whether the changes are destructive.  
 
-    -   If the changes are destructive, the schema synchronization is cancelled.  
+  -   If the changes are destructive, the schema synchronization is cancelled.  
 
-    -   If the changes are not destructive, they will be applied to the table.  
+  -   If the changes are not destructive, they will be applied to the table.  
 
 **Data Upgrade**  
 

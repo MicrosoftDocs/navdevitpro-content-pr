@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ms.assetid: 758fd34e-e77d-4d35-bea9-7dcef8f7ea40
-ms.author: jswmer
+ms.author: jswymer
 caps.latest.revision: 27
 ---
 # Walkthrough: Creating and Using a Client Control Add-in
@@ -35,9 +35,9 @@ In a typical business scenario, developers create control add-ins using Microsof
 
 - Bing Maps account and key. For information, see the following:
 
-    [Creating a Bing Maps Account](https://msdn.microsoft.com/en-us/library/gg650598.aspx)
+    [Creating a Bing Maps Account](https://msdn.microsoft.com/library/gg650598.aspx)
     
-    [Getting a Bing Maps Key](https://msdn.microsoft.com/en-us/library/ff428642.aspx)
+    [Getting a Bing Maps Key](https://msdn.microsoft.com/library/ff428642.aspx)
 
 -   (Optional) Create three image files that can be used for pushpins that mark certain locations on the map. This walkthrough uses three pushpin images, which ar called PushpinBlue.png, PushpinGreen.png, and PushpinRed.png. You can create you own images from scratch or from the images in the following table.
 
@@ -88,7 +88,7 @@ In a typical business scenario, developers create control add-ins using Microsof
             void LoadMap(double latitude, double longitude);
 
             [ApplicationVisible]
-            void ShowPusourhpin(string title, string imageName);
+            void ShowPushpin(string title, string imageName);
         }  
     }  
 
@@ -146,7 +146,7 @@ After you create an interface in Visual Studio that exposes a number of properti
         </Resources>
 
         <ScriptUrls>
-            <ScriptUrl>http://www.bing.com/api/maps/mapcontrol</ScriptUrl>
+            <ScriptUrl>https://www.bing.com/api/maps/mapcontrol</ScriptUrl>
         </ScriptUrls>
     
         <Script>
@@ -266,13 +266,13 @@ Before registering the control add-in in [!INCLUDE[navnow](includes/navnow_md.md
 
 #### To include the control add-in in the Control Add-in page  
 
-1.  Open [!INCLUDE[navnow](includes/navnow_md.md)].  
+1. Open [!INCLUDE[navnow](includes/navnow_md.md)].  
 
-2.  In the **Search** box, enter **Control Add-ins** and then choose the related link.  
+2. In the **Search** box, enter **Control Add-ins** and then choose the related link.  
 
-3.  In the **Control Add-ins** window, choose **New**, and then in the **Control Add-in Name** column, enter the control add-in name. In the **Public Key Token** column, enter the public key token that you obtained earlier.  
+3. In the **Control Add-ins** window, choose **New**, and then in the **Control Add-in Name** column, enter the control add-in name. In the **Public Key Token** column, enter the public key token that you obtained earlier.  
 
- With the **Control Add-in** window still open, you will now import the .zip file for the **BingMapsControlAddIn** add-in.  
+   With the **Control Add-in** window still open, you will now import the .zip file for the **BingMapsControlAddIn** add-in.  
 
 #### To include the .zip file in the Control Add-in page  
 
@@ -293,29 +293,29 @@ You have set up the prerequisites for using a control add-in from a page. Now yo
 
 #### To create the Bing Maps page  
 
-1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], in Object Designer, choose **Page**, and then choose **New**.  
+1. In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], in Object Designer, choose **Page**, and then choose **New**.  
 
-2.  In the **New Page** dialog, choose **Create blank page** and then choose the **OK** button.  
+2. In the **New Page** dialog, choose **Create blank page** and then choose the **OK** button.  
 
-3.  In Page Designer, on the first line, in the **Name** column, enter **Control1**, and go to the next line.  
+3. In Page Designer, on the first line, in the **Name** column, enter **Control1**, and go to the next line.  
 
-4.  In the **Type** column, choose **Group**, and in the **Caption** column, enter **Coordinates**.  
+4. In the **Type** column, choose **Group**, and in the **Caption** column, enter **Coordinates**.  
 
-5.  On a new line, in the **Type** column, choose **Field**. In the **Name** column, enter **LatitudeControl**, and in the **Caption** column, enter **Latitude**.  
+5. On a new line, in the **Type** column, choose **Field**. In the **Name** column, enter **LatitudeControl**, and in the **Caption** column, enter **Latitude**.  
 
-6.  On a new line, in the **Type** column, choose **Field**. In the **Name** column, enter **LongitudeControl**, and in the **Caption** column, enter **Longitude**.  
+6. On a new line, in the **Type** column, choose **Field**. In the **Name** column, enter **LongitudeControl**, and in the **Caption** column, enter **Longitude**.  
 
-7.  On a new line, choose **Group**, and in the **Caption** column, enter **Map**.  
+7. On a new line, choose **Group**, and in the **Caption** column, enter **Map**.  
 
-8.  On a new line, under the **Map** group, for the **Type** column set to **Field**, in the **Name** column, enter **BingMapsControl**.  
+8. On a new line, under the **Map** group, for the **Type** column set to **Field**, in the **Name** column, enter **BingMapsControl**.  
 
-     Your page design should now look like this.  
+    Your page design should now look like this.  
 
-     ![The page design for the Bing Maps control](media/ControlAddInPageDesignForBingMapsControl.png "ControlAddInPageDesignForBingMapsControl")  
+    ![The page design for the Bing Maps control](media/ControlAddInPageDesignForBingMapsControl.png "ControlAddInPageDesignForBingMapsControl")  
 
 9. Save and compile the page. Name the page **Bing Maps**.  
 
- Now you have created a page skeleton. The next step is to add code and call the control add-in from a control on the page.  
+   Now you have created a page skeleton. The next step is to add code and call the control add-in from a control on the page.  
 
 ##### To add variables and properties  
 
@@ -346,13 +346,13 @@ You have set up the prerequisites for using a control add-in from a page. Now yo
 
 ##### To add C/AL triggers  
 
-1.  With the **Bing Maps** page open in Object Designer, on the **View** menu, choose **C/AL Code**.  
+1. With the **Bing Maps** page open in Object Designer, on the **View** menu, choose **C/AL Code**.  
 
-2.  In the **Page Bing Maps – C/AL Editor** window, locate the `BingMapControl::ControlAddInReady()` trigger, and add the following line of code.  
+2. In the **Page Bing Maps – C/AL Editor** window, locate the `BingMapControl::ControlAddInReady()` trigger, and add the following line of code.  
 
-    ```  
-    CurrPage.BingMapControl.LoadMap(Latitude, Longitude);  
-    ```  
+   ```  
+   CurrPage.BingMapControl.LoadMap(Latitude, Longitude);  
+   ```  
 
 3. Finally, locate the `OnInit()` trigger, and add the following line of code.  
 
@@ -361,9 +361,9 @@ You have set up the prerequisites for using a control add-in from a page. Now yo
     Longitude :=  74.044444;  
     ```  
 
-4.  Save and compile the Bing Maps page.  
+4. Save and compile the Bing Maps page.  
 
- After you have saved and compiled the **Bing Maps** page, you can run the page directly from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to verify that it works on the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [Opening a Page in the Microsoft Dynamics NAV Web Client by Using a URL](Opening-a-Page-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md).  
+   After you have saved and compiled the **Bing Maps** page, you can run the page directly from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to verify that it works on the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [Opening a Page in the Microsoft Dynamics NAV Web Client by Using a URL](Opening-a-Page-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md).  
 
 ## Next Steps  
  Now you have created a Client Control Add-in that runs on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the [!INCLUDE[nav_web](includes/nav_web_md.md)], and the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]. A next step could be to implement a control add-in on an existing page or on the Role Center to display a Bing Map of where customers are located.  

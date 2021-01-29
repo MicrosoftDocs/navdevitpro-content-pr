@@ -10,17 +10,19 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # taxAreas resource type
 Represents a tax area resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
 |[GET taxAreas](../api/dynamics_taxarea_get.md)|taxAreas|Gets a tax area object.|
@@ -29,7 +31,8 @@ Represents a tax area resource type in [!INCLUDE[d365fin_long_md](../../includes
 |[DELETE taxAreas](../api/dynamics_taxarea_delete.md)|none|Deletes a tax area object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the tax area. Non-editable.|
 |code|string, maximum size 20| The code of the tax area.|
@@ -55,10 +58,10 @@ Here is a JSON representation of the resource.
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get tax area](../api/dynamics_taxarea_get.md)  
-[Create tax area](../api/dynamics_create_taxarea.md)  
-[Update tax area](../api/dynamics_taxarea_update.md)  
-[Delete tax area](../api/dynamics_taxarea_delete.md)  
+[Get Tax Area](../api/dynamics_taxarea_get.md)  
+[Create Tax Area](../api/dynamics_create_taxarea.md)  
+[Update Tax Area](../api/dynamics_taxarea_update.md)  
+[Delete Tax Area](../api/dynamics_taxarea_delete.md)  

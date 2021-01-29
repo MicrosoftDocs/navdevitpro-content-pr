@@ -1,6 +1,6 @@
 ---
 title: paymentTerms resource type | Microsoft Docs
-description: A payment terms object in Dynamics 365 for Finance and Operations, Business edition.
+description: A payment terms object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,15 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # paymentTerms resource type
 Represents a payment term in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -30,7 +31,8 @@ Represents a payment term in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 |[DELETE paymentTerms](../api/dynamics_paymentterms_delete.md)|none        |Delete a payment terms object.|
 
 ## Properties
-| Property	                   | Type	  |Description                                                |
+
+| Property                     | Type     |Description                                                |
 |:-----------------------------|:-------|:----------------------------------------------------------|
 |id                            |GUID    |The unique ID of the paymentTerms. Non-editable.           |
 |code                          |string  |Specifies the payment term code.                           |
@@ -61,16 +63,15 @@ Here is a JSON representation of the paymentTerms.
   "calculateDiscountOnCreditMemos": "boolean",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get payment terms](../api/dynamics_paymentterms_get.md)  
-[Create payment terms](../api/dynamics_create_paymentterms.md)  
-[Update payment terms](../api/dynamics_paymentterms_update.md)  
-[Delete payment terms](../api/dynamics_paymentterms_delete.md)  
+[Get Payment Terms](../api/dynamics_paymentterms_get.md)  
+[Create Payment Terms](../api/dynamics_create_paymentterms.md)  
+[Update Payment Terms](../api/dynamics_paymentterms_update.md)  
+[Delete Payment Terms](../api/dynamics_paymentterms_delete.md)  

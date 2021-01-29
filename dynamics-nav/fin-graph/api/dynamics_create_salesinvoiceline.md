@@ -1,6 +1,6 @@
 ---
 title: Create salesInvoiceLines | Microsoft Docs
-description: Creates a sales invoice line object in Dynamics 365 for Financials. 
+description: Creates a sales invoice line object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,17 +10,19 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Create salesInvoiceLines
-Create a sales invoice line object in Dynamics 365 for Financials.
+Create a sales invoice line object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 
 ```
-POST /financials/companies({id})/salesInvoices({id})/salesInvoiceLines
+POST businesscentralPrefix/companies({id})/salesInvoices({id})/salesInvoiceLines
 ```
 
 ## Request headers
@@ -43,7 +45,7 @@ If successful, this method returns ```201 Created``` response code and a **sales
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/salesInvoices({id})/salesInvoiceLines
+POST https://{businesscentralPrefix}/api/beta/companies({id})/salesInvoices({id})/salesInvoiceLines
 Content-type: application/json
 
 {
@@ -54,12 +56,13 @@ Content-type: application/json
 ```
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Sales invoice line](../resources/dynamics_salesinvoiceline.md)  
-[Get sales invoice line](../api/dynamics_salesinvoiceline_get.md)  
-[Update sales invoice line](../api/dynamics_salesinvoiceline_update.md)  
-[Delete sales invoice line](../api/dynamics_salesinvoiceline_delete.md)  
+[Sales Invoice Line](../resources/dynamics_salesinvoiceline.md)  
+[Get Sales Invoice Line](../api/dynamics_salesinvoiceline_get.md)  
+[Update Sales Invoice Line](../api/dynamics_salesinvoiceline_update.md)  
+[Delete Sales Invoice Line](../api/dynamics_salesinvoiceline_delete.md)  

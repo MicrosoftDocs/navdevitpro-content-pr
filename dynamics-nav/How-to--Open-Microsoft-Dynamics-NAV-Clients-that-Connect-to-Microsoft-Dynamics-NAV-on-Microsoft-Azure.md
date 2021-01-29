@@ -19,11 +19,11 @@ The NAV Server machine is: MyNavVm.cloudapp.net
 The NAV Server machine administrator password: 123NavVm!a  
 The NAV Server Instance is: DynamicsNAV90_Ins1  
 The NAV Server account credentials: NSTService/P@ssword312  
-The Windows Client can be downloaded via ClickOnce at: http://MyNavVm.cloudapp.net:9004  
+The Windows Client can be downloaded via ClickOnce at: https://MyNavVm.cloudapp.net:9004  
 The Web Client can be accessed at: https://MyNavVm.cloudapp.net/DynamicsNAV90_Ins1  
 A user has been added to the database with the following credentials:  
-  user=navuser  
-  password=N@Vpw312  
+  user=navuser  
+  password=N@Vpw312  
 ```  
 
  The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is available from a ClickOnce web site, which lets you install the client from a web page. The [!INCLUDE[nav_web](includes/nav_web_md.md)] is available from any supported browser.  
@@ -34,7 +34,7 @@ A user has been added to the database with the following credentials:
 
 2.  In the address, type the following address:  
 
-     **http://virtualmachine.cloudapp.net: port**  
+     **https://virtualmachine.cloudapp.net: port**  
 
      Substitute *virtualmachine* with the name of the virtual machine that in running the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
 
@@ -44,13 +44,13 @@ A user has been added to the database with the following credentials:
 
 ### To open the [!INCLUDE[nav_web](includes/nav_web_md.md)]  
 
-1.  Open an Internet browser.  
+1. Open an Internet browser.  
 
-2.  In the address, type the following address:  
+2. In the address, type the following address:  
 
-     **https://virtualmachine.cloudapp.net/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\_Instance1**  
+    <strong>https://virtualmachine.cloudapp.net/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\_Instance1</strong>  
 
-     Substitute *virtualmachine* with the name of the virtual machine that in running the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+    Substitute *virtualmachine* with the name of the virtual machine that in running the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
 
 ## See Also  
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   

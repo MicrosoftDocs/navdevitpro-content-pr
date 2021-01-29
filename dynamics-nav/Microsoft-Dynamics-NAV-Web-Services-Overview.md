@@ -18,11 +18,11 @@ Web services are a lightweight, industry-standard way to make application functi
 
  Developers can publish two types of web services from [!INCLUDE[navnow](includes/navnow_md.md)] objects:  
 
--   [SOAP Web Services](SOAP-Web-Services.md). You can publish either [!INCLUDE[navnow](includes/navnow_md.md)] pages or codeunits as SOAP services.  
+- [SOAP Web Services](SOAP-Web-Services.md). You can publish either [!INCLUDE[navnow](includes/navnow_md.md)] pages or codeunits as SOAP services.  
 
--   [OData Web Services](OData-Web-Services.md). You can publish either pages or queries as OData services.  
+- [OData Web Services](OData-Web-Services.md). You can publish either pages or queries as OData services.  
 
- [!INCLUDE[navnow](includes/navnow_md.md)] web services are stateless and do not preserve the values of global variables or single-instance codeunits between calls.  
+  [!INCLUDE[navnow](includes/navnow_md.md)] web services are stateless and do not preserve the values of global variables or single-instance codeunits between calls.  
 
 ## Web Service Protocols  
  The following table shows the types of web service applications that you can create for the web service protocols supported in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
@@ -55,7 +55,7 @@ Web services are a lightweight, industry-standard way to make application functi
 
  Similarly, you can use the **ServicesOptionFormat** setting to specify how [!INCLUDE[nav_server](includes/nav_server_md.md)] must understand option values. If you set the **ServicesOptionFormat** setting to *OptionString*, [!INCLUDE[nav_server](includes/nav_server_md.md)] understand option values as the *name* of the option value, which is always en\-us. If you set the setting to *OptionCaption*, web service data will be interpreted in the language specified by the **Services Language** setting.  
 
->    [!NOTE]  
+> [!NOTE]
 >    In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], you could enable **ServicesCultureDefaultUserPersonalization** on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. This was deprecated in [!INCLUDE[navcorfu](includes/navcorfu_md.md)] in order to guarantee that web services have a consistent culture.  
 
 ## Web Services in Multitenant Deployments  
@@ -68,7 +68,7 @@ Web services are a lightweight, industry-standard way to make application functi
  For example, the following URL consumes the **Customer** ODATA web service for a specific tenant:  
 
 ```  
-http://localhost:7048/DynamicsNAV/OData/Company('CRONUS-International-Ltd.')/Customer?Tenant=Tenant1  
+https://localhost:7048/DynamicsNAV/OData/Company('CRONUS-International-Ltd.')/Customer?Tenant=Tenant1  
 ```  
 
  For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).  

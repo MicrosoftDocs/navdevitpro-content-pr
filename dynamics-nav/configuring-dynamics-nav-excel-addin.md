@@ -46,48 +46,48 @@ Your deployment must meet the following prerequisites:
 ## Register and configure an Azure AD Application for the Excel Add-in in Microsoft Azure
 When Azure AD authentication was set up for your [!INCLUDE[navnow](includes/navnow_md.md)] deployment, an Azure AD tenant was created in Microsoft Azure, and an application for [!INCLUDE[navnow](includes/navnow_md.md)] was registered in the tenant. The Excel add-in requires that you add (or register) a separate Azure AD application in the tenant.
 
-You can add the Azure AD application by using the [Azure portal](http://go.microsoft.com/fwlink/?LinkID=317944). The following procedure outlines the steps you must perform to add and configure the Excel add-in application in your Azure AD tenant. For more specific guidelines about how to use the Azure portal, see [Register your application with your Azure Active Directory tenant](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-app-registration).
+You can add the Azure AD application by using the [Azure portal](https://go.microsoft.com/fwlink/?LinkID=317944). The following procedure outlines the steps you must perform to add and configure the Excel add-in application in your Azure AD tenant. For more specific guidelines about how to use the Azure portal, see [Register your application with your Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/active-directory-app-registration).
 
-1.  Add an Azure AD application for the Excel add-in.
+1. Add an Azure AD application for the Excel add-in.
 
-    When you add an application to an Azure AD tenant, you must specify the following information:  
+   When you add an application to an Azure AD tenant, you must specify the following information:  
 
-    <table>
-    <tr>
-    <th>Setting</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>Name</td>
-    <td>The name of your application as it will display to your users, such as *Excel Add-in for Dynamics NAV*.</td>
-    </tr>
-    <tr>
-    <td>Type</td>
-    <td>Choose **Web application and/or web app**.</td>
-    </tr>
-    <tr>
-    <td>Sign-on URL (App URL)</td>
-    <td>The URI for signing in to your [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], such as ```https://www.solutions.com/DynamicsNAV``` or ```https://www.solutions.com/DynamicsNAV/WebClient/``` (for [!INCLUDE[nav2017](includes/nav2017.md)] and earlier versions).</td>
-    </tr>
-    <tr>
-    <td>App ID URI</td>
-    <td>The URI to a domain in your Azure AD tenant, such as *https://solutions.onmicrosoft.com/ExcelAddinforDynamicsNAV*. **Important:**  The App ID URI must be unique within the Azure AD tenant and not the same as you specified for your [!INCLUDE[navnow](includes/navnow_md.md)] solution.</td>
-    </tr>
-    <tr>
-    <td>Directory Access</td>
-    <td>Choose **Single Sign-On**.</td>
-    </tr>
-    </table>
+   <table>
+   <tr>
+   <th>Setting</th>
+   <th>Description</th>
+   </tr>
+   <tr>
+   <td>Name</td>
+   <td>The name of your application as it will display to your users, such as <em>Excel Add-in for Dynamics NAV</em>.</td>
+   </tr>
+   <tr>
+   <td>Type</td>
+   <td>Choose <strong>Web application and/or web app</strong>.</td>
+   </tr>
+   <tr>
+   <td>Sign-on URL (App URL)</td>
+   <td>The URI for signing in to your Microsoft Dynamics NAV Web Server components, such as <code>https://www.solutions.com/DynamicsNAV</code> or <code>https://www.solutions.com/DynamicsNAV/WebClient/</code> (for Microsoft Dynamics NAV 2017 and earlier versions).</td>
+   </tr>
+   <tr>
+   <td>App ID URI</td>
+   <td>The URI to a domain in your Azure AD tenant, such as <em><a href="https://solutions.onmicrosoft.com/ExcelAddinforDynamicsNAV" data-raw-source="https://solutions.onmicrosoft.com/ExcelAddinforDynamicsNAV">https://solutions.onmicrosoft.com/ExcelAddinforDynamicsNAV</a></em>. <strong>Important:</strong>  The App ID URI must be unique within the Azure AD tenant and not the same as you specified for your Dynamics NAV solution.</td>
+   </tr>
+   <tr>
+   <td>Directory Access</td>
+   <td>Choose <strong>Single Sign-On</strong>.</td>
+   </tr>
+   </table>
 
-2.  Grant the Excel add-in application permission to the [!INCLUDE[navnow](includes/navnow_md.md)] application.
+2. Grant the Excel add-in application permission to the [!INCLUDE[navnow](includes/navnow_md.md)] application.
 
-    You must give the Azure AD application for the Excel add-in delegated permission to access the [!INCLUDE[navnow](includes/navnow_md.md)] application in Azure AD. This allows users of the Excel add-in to access the OData web services to read and write data.  
+   You must give the Azure AD application for the Excel add-in delegated permission to access the [!INCLUDE[navnow](includes/navnow_md.md)] application in Azure AD. This allows users of the Excel add-in to access the OData web services to read and write data.  
 
-    In the portal, you set up permissions on the configuration/settings page of Excel add-in application, in the permissions section.  
+   In the portal, you set up permissions on the configuration/settings page of Excel add-in application, in the permissions section.  
 
-3.  Configure OAuth2 authentication in the Excel add-in application manifest.
+3. Configure OAuth2 authentication in the Excel add-in application manifest.
 
-    The Excel add-in requires OAuth2 implicit grant flow to be enabled on the application. The manifest for the application is a .json file type. To enable OAuth2 implicit grant flow in the manifest file, change the *oauth2AllowImplicitFlow* key to *true*.
+   The Excel add-in requires OAuth2 implicit grant flow to be enabled on the application. The manifest for the application is a .json file type. To enable OAuth2 implicit grant flow in the manifest file, change the *oauth2AllowImplicitFlow* key to *true*.
 
 4. Add the following URL to the *ReplyUrl* list:
 
@@ -95,7 +95,7 @@ You can add the Azure AD application by using the [Azure portal](http://go.micro
     https://az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/*
     ```  
 
-5.  Copy the **Client ID (Application ID)** that is assigned to Excel add-in application. You'll need this in the procedure.
+5. Copy the **Client ID (Application ID)** that is assigned to Excel add-in application. You'll need this in the procedure.
 
 This completes the work you have to do in the Azure portal. The final configuration is to add the Excel add-in to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances.
 

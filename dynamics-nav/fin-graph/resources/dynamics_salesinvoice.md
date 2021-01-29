@@ -1,6 +1,6 @@
 ---
 title: salesInvoices resource type | Microsoft Docs
-description: A sales invoice object in Dynamics 365 for Finance and Operations, Business edition. 
+description: A sales invoice object in Dynamics 365 Business Central. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,15 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # salesInvoices resource type
 Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. 
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -29,12 +30,20 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |[PATCH salesInvoices](../api/dynamics_salesinvoice_update.md) |salesInvoices|Updates a sales invoice object.|
 |[DELETE salesInvoices](../api/dynamics_salesinvoice_delete.md)|none         |Deletes a sales invoice object.|
 
+## Bound actions
+
+|Action          |Return type   |Description         |
+|----------------|--------------|--------------------|
+|[GET pdfDocument](../api/dynamics_salesquote_pdfdocument.md)|pdfDocument|Gets a PDF document.|
+
+
 ## Properties
-| Property	            | Type	|Description                                                |
+
+| Property              | Type  |Description                                                |
 |:----------------------|:----------|:----------------------------------------------------------|
 |id                     |GUID       |The invoice ID. Non-editable.                              |
 |number                 |string, maximum size 20|The invoice number. Read-Only.                 |
-|invoiceDate            |date       |The invoice date                                           |
+|invoiceDate            |date       |The invoice date.                                           |
 |customerPurchaseOrderReference|string, maximum size 35|The customer purchase order reference for the invoice|
 |dueDate                |date       |The date the invoice is due.                               |
 |customerNumber         |string, maximum size 20|The customer number for the invoice.           |
@@ -46,7 +55,7 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |orderId                |GUID       |The unique id of the order to which the invoice is associated to. Read-Only.|
 |orderNumber            |string, maximum size 20|The number of the order to which the invoice is associated to. Read-Only.|
 |status                 |string, maximum size 20|The invoice status. Status can be: Draft, In Review, Open, Paid, Canceled, or Corrective. Read-Only.|
-|discountAmount         |numeric    |The invoice discount amount                                |
+|discountAmount         |numeric    |The invoice discount amount.                                |
 |discountAppliedBeforeTax|boolean   |Specifies whether the discount is applied before tax.      |
 |totalAmountExcludingTax|numeric    |The total amount excluding tax. Read-Only.                 |
 |totalTaxAmount         |numeric    |The total tax amount for the invoice. Read-Only.           |
@@ -59,7 +68,6 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |shipmentMethod         |string, maximum size 10|The shipment method of the invoice.            |
 |salesperson            |string, maximum size 20|The salesperson code for the invoice.          |
 |lastModifiedDateTime   |datetime   |The last datetime the sales invoice was modified. Read-Only.|
-
 
 ## Relationships
 A Currency (currencyCode) must exist in the Currencies table.
@@ -94,7 +102,6 @@ Here is a JSON representation of the resource.
       "orderId": "GUID",
       "orderNumber": "string",
       "paymentTermsId": "GUID",
-      "paymentTerms": "string",
       "shipmentMethodId": "GUID",
       "shipmentMethod": "string",
       "salesperson": "string",
@@ -107,15 +114,14 @@ Here is a JSON representation of the resource.
       "status": "string",
       "lastModifiedDateTime": "DateTime"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get sales invoice](../api/dynamics_salesinvoice_get.md)  
-[Create sales invoice](../api/dynamics_create_salesinvoice.md)  
-[Update sales invoice](../api/dynamics_salesinvoice_update.md)  
-[Delete sales invoice](../api/dynamics_salesinvoice_delete.md)  
+[Get Sales Invoice](../api/dynamics_salesinvoice_get.md)  
+[Create Sales Invoice](../api/dynamics_create_salesinvoice.md)  
+[Update Sales Invoice](../api/dynamics_salesinvoice_update.md)  
+[Delete Sales Invoice](../api/dynamics_salesinvoice_delete.md)  

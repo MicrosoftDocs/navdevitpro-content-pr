@@ -14,6 +14,8 @@ author: jswymer
 # Optimizing SQL Server Performance with Microsoft Dynamics NAV
 The following articles describe how to optimize performance in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] when accessing data from the SQL Server database.  
 
+[Setting SQL Compatibility Level to Optimize Database Performance](optimize-sql-set-compatibility-level.md)
+
 [Data Access](Data-Access.md)   
 
 [Table Keys and Performance](Table-Keys-and-Performance.md)   
@@ -24,10 +26,14 @@ The following articles describe how to optimize performance in [!INCLUDE[navnowl
 
 [Query Objects and Performance](Query-Objects-and-Performance.md)  
 
-[Troubleshooting: Long Running SQL Queries Involving FlowFields by Disabling SmartSQL](Troubleshooting-Queries-Involving-FlowFields-By-Disabling-SmartSQL.md)  
+[Configuring Query Hints for Optimizing SQL Server Performance](sql-server-query-hints.md)
+
+[Troubleshooting: Analyzing Long Running SQL Queries Involving FlowFields by Disabling SmartSQL](Troubleshooting-Queries-Involving-FlowFields-By-Disabling-SmartSQL.md)  
 
 [Troubleshooting: Using Query Store to Monitor Query Performance in Dynamics NAV](troubleshooting-query-performance-using-query-store.md)
 
+[Troubleshooting: Using the Event Log to Monitor Long Running SQL Queries in Dynamics NAV](troubleshooting-long-running-queries-using-event-log.md)
+
 ## See Also  
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
- [Microsoft SQL Server documentation](http://go.microsoft.com/fwlink/?LinkId=253107)
+ [Microsoft SQL Server documentation](https://go.microsoft.com/fwlink/?LinkId=253107)

@@ -1,6 +1,6 @@
 ---
 title: cashFlowStatement resource type | Microsoft Docs
-description: A cash flow statement object in Dynamics 365 for Finance and Operations, Business edition.
+description: A cash flow statement object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,15 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # cashFlowStatement resource type
 Represents an cashFlowStatement object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -27,7 +28,8 @@ Represents an cashFlowStatement object in [!INCLUDE[d365fin_long_md](../../inclu
 |[GET cashFlowStatement](../api/dynamics_cashflowstatement_get.md)|cashFlowStatement|Get a cashFlowStatement object.|
 
 ## Properties
-| Property	   | Type	|Description                              |
+
+| Property     | Type   |Description                              |
 |:-------------|:-------|:----------------------------------------|
 |lineNumber    |numeric |The cashFlowStatement item line number.  |
 |display       |string  |The cashFlowStatement item display name. |
@@ -54,12 +56,11 @@ Here is a JSON representation of the resource.
     "indentation": "int",
     "dateFilter": "date"
 }
-
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get cash flow statement](../api/dynamics_cashflowstatement_get.md)  
-[Balance sheet](dynamics_balancesheet.md)  
+[Get Cash Flow Statement](../api/dynamics_cashflowstatement_get.md)  
+[Balance Sheet](dynamics_balancesheet.md)  

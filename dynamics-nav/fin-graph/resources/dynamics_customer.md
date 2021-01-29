@@ -1,6 +1,6 @@
 ---
 title: customers resource type | Microsoft Docs
-description: Represents a customer in Dynamics 365 for Finance and Operations, Business edition.
+description: Represents a customer in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-financials
@@ -8,27 +8,39 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # customers resource type
 Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
-| Method                                              |Return Type| Description      |
-|:----------------------------------------------------|:----------|:-----------------|
+| Method          |Return Type| Description      |
+|:----------------|:----------|:-----------------|
 |[GET customers](../api/dynamics_customer_get.md)      |customers   |Gets a customer.   |
-|[CREATE customers](../api/dynamics_create_customer.md)|customers   |Creates a customer.|
-|[UPDATE customers](../api/dynamics_customer_update.md)|customers   |Updates a customer.|
+|[POST customers](../api/dynamics_create_customer.md)|customers   |Creates a customer.|
+|[PATCH customers](../api/dynamics_customer_update.md)|customers   |Updates a customer.|
 |[DELETE customers](../api/dynamics_customer_delete.md)|none        |Deletes a customer.|
 
+## Subpages
+
+| Method    |Return Type| Description      |
+|:----------|:----------|:-----------------|
+|[GET customer defaultDimensions](../api/dynamics_customer_get_defaultdimensions.md)|default dimensions   |Gets the default dimensions of customer. |
+|[POST customer defaultDimensions](../api/dynamics_customer_create_defaultdimensions.md) |default dimensions  |Creates the default dimensions of  customer.|
+|[PATCH customer defaultDimensions](../api/dynamics_customer_update_defaultdimensions.md)|default dimensions  |Updates the default dimensions of customer.|
+|[DELETE customer defaultDimensions](../api/dynamics_customer_delete_defaultdimensions.md)|default dimensions|Deletes the default dimensions of customer.  |
+
+
 ## Properties
-| Property	  | Type	 |Description|
+
+| Property    | Type     |Description|
 |:------------|:---------|:----------|
 |id           |GUID      |The unique ID of the item. Non-editable.|
 |number       |string    |The customer number.|
@@ -88,7 +100,7 @@ Here is a JSON representation of the resource.
     "taxAreaDisplayName": "string",
     "taxRegistrationNumber": "string",
     "currencyCode": "string",
-    "paymentTerms": NAV.PaymentTermsType,
+    "paymentTermsId": "GUID",
     "shipmentMethod": NAV.ShipmentMethod,
     "paymentMethod":  NAV.PaymentMethod,
     "blocked": "string",
@@ -97,15 +109,13 @@ Here is a JSON representation of the resource.
     "totalSalesExcludingTax": "numeric",
     "lastModifiedDateTime": "datetime"
 }
-
-
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get customers](../api/dynamics_customer_get.md)  
-[Post customers](../api/dynamics_create_customer.md)  
-[Patch customers](../api/dynamics_customer_update.md)  
-[Delete customers](../api/dynamics_customer_delete.md)  
+[Get Customers](../api/dynamics_customer_get.md)  
+[Post Customers](../api/dynamics_create_customer.md)  
+[Patch Customers](../api/dynamics_customer_update.md)  
+[Delete Customers](../api/dynamics_customer_delete.md)  

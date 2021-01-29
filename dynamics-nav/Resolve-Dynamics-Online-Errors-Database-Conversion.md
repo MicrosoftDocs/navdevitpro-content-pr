@@ -1,7 +1,7 @@
 ---
 title: "Mock Code for Codeunit 824 DO Encryption Mgt."
 ms.custom: na
-ms.date: 20/03/2017
+ms.date: 03/20/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +11,9 @@ ms.assetid: 6ea75b39-cf7d-4c88-868b-86fa0be2426b
 caps.latest.revision: 4
 author: jswymer
 ---
+
 # Resolving Dynamics Online Compilation Errors When Converting a Database
+
 This article explains how to resolve compilation errors for Dynamics Online Payment Services codeunits that occur when converting a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] database to [!INCLUDE[nav2017](includes/nav2017.md)]. These errors occur because Dynamics Online Payment Service has been discontinued in [!INCLUDE[nav2017](includes/nav2017.md)].
 
 ## What to do
@@ -164,6 +166,7 @@ OBJECT Codeunit 825 DO Payment Mgt.
     BEGIN
     END.
   }
+}
 ```
 ## Codeunit 826 DO Payment Integration Mgt.
 ```
@@ -260,7 +263,6 @@ OBJECT Codeunit 827 DO Payment Card Validation
     END.
   }
 }
-
 ```
 ## Codeunit 829 DO Payment Trans. Log Mgt.
 ```

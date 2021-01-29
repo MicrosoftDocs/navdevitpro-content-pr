@@ -17,8 +17,7 @@ Locks a table to protect it from write transactions that conflict with each othe
 ## Syntax  
   
 ```  
-  
-RecordRef.LOCKTABLE  
+ Record.LOCKTABLE([Wait: Boolean], [VersionCheck: Boolean])
 ```  
   
 #### Parameters  
@@ -26,9 +25,22 @@ RecordRef.LOCKTABLE
  Type: RecordRef  
   
  The RecordRef that refers to the table that you want to lock.  
+
+*Wait*  
+&emsp;Type: Boolean  
+
+Specifies what to do if the table is already locked. If this parameter is true and if another application has already locked the table, the system will wait until the table is unlocked. If this parameter is false and if another application has already locked the table, a run-time error occurs.  
+
+*VersionCheck*  
+&emsp;Type: Boolean
+
+If this parameter is true, the version of the RecordRef will be checked. If this parameter is false, blank, or not used, the version will not be checked. 
+
   
 ## Remarks  
  Because all write operations automatically lock the table that is being used, LOCKTABLE would appear unnecessary. However, you could have a transaction in which an application wants to inspect data before possibly changing it, with a guarantee that the data being changed has not been modified by other applications since the read operation. The solution is to explicitly lock the table before the read operation. This makes sure that no other application makes changes between the read operation and the possible write operation.  
+
+The table lock is released (unlocked) when the transaction is committed.
   
  This function works the same as the [LOCKTABLE Function \(Record\)](LOCKTABLE-Function--Record-.md).  
   

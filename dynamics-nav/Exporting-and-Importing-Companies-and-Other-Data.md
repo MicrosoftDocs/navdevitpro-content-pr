@@ -29,7 +29,7 @@ You can export a company from a [!INCLUDE[navnow](includes/navnow_md.md)] databa
  This means that you must import a company into a database that is based on the same application as in the database that the company was exported from.  
   
 > [!IMPORTANT]  
->  If you export companies and other data that is secured by data encryption, then remember to also export the encryption key so that you can access the data after you import it into another database, for example when you restore a backup. For more information, see <!-- [Manage Data Encryption](Manage-Data-Encryption.md). --> [Manage Data Encryption](https://msdn.microsoft.com/en-us/library/dn757244.aspx)
+>  If you export companies and other data that is secured by data encryption, then remember to also export the encryption key so that you can access the data after you import it into another database, for example when you restore a backup. For more information, see <!-- [Manage Data Encryption](Manage-Data-Encryption.md). --> [Manage Data Encryption](https://msdn.microsoft.com/library/dn757244.aspx)
   
 ### What to Export  
  You can export specific sets of data, such as a company or other data. The following table describes what is exported depending on your choices.  
@@ -52,7 +52,7 @@ You can export a company from a [!INCLUDE[navnow](includes/navnow_md.md)] databa
 >  Also, we recommend that you do not import an application into a database that users are accessing. A new application often defines a new database schema that changes the structure of the business data.  
   
 ### Windows PowerShell Cmdlets  
- You can import and export data in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]. The following table describes the available Windows PowerShell cmdlets. For more information, see [Administration Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=296818).  
+ You can import and export data in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]. The following table describes the available Windows PowerShell cmdlets. For more information, see [Administration Cmdlets for Microsoft Dynamics NAV](https://go.microsoft.com/fwlink/?LinkID=296818).  
   
 |Name|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |----------|---------------------------------------|  
@@ -72,13 +72,13 @@ You can export a company from a [!INCLUDE[navnow](includes/navnow_md.md)] databa
 ### C/AL Functions  
  You can use the following C/AL functions to handle export and import of data programmatically:  
   
--   [EXPORTDATA Function \(Database\)](EXPORTDATA-Function--Database-.md)  
+- [EXPORTDATA Function \(Database\)](EXPORTDATA-Function--Database-.md)  
   
--   [IMPORTDATA Function \(Database\)](IMPORTDATA-Function--Database-.md)  
+- [IMPORTDATA Function \(Database\)](IMPORTDATA-Function--Database-.md)  
   
--   [DATAFILEINFORMATION Function \(Database\)](DATAFILEINFORMATION-Function--Database-.md)  
+- [DATAFILEINFORMATION Function \(Database\)](DATAFILEINFORMATION-Function--Database-.md)  
   
- For examples of how to use these functions, see page 9900 and 9901 in the [!INCLUDE[demolong](includes/demolong_md.md)].  
+  For examples of how to use these functions, see page 9900 and 9901 in the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## See Also  
  [How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets](How-to--Export-and-Import-Companies-and-Other-Data-using-Windows-PowerShell-Cmdlets.md)   

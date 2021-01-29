@@ -1,6 +1,6 @@
 ---
 title: generalLedgerEntries resource type | Microsoft Docs
-description: A general ledger entry in Dynamics 365 for Finance and Operations, Business edition.
+description: A general ledger entry in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,15 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # generalLedgerEntries resource type
 Represents a generalLedgerEntry object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -27,7 +28,8 @@ Represents a generalLedgerEntry object in [!INCLUDE[d365fin_long_md](../../inclu
 |[GET generalLedgerEntries](../api/dynamics_generalledgerentries_get.md)|generalLedgerEntries|Get a G/L entry object.|
 
 ## Properties
-| Property	         | Type	                 |Description                                  |
+
+| Property           | Type                  |Description                                  |
 |:-------------------|:----------------------|:--------------------------------------------|
 |id                  |GUID                   |The unique ID of the G/L Entry.              |
 |number              |numeric                |Specifies the number of the G/L Entry.       |
@@ -64,12 +66,11 @@ Here is a JSON representation of the resource.
   "creditAmount": "decimal",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[General ledger entries](../resources/dynamics_generalledgerentries.md)  
-[Get general ledger entries](../api/dynamics_generalledgerentries_get.md)  
+[General Ledger Entries](../resources/dynamics_generalledgerentries.md)  
+[Get General Ledger Entries](../api/dynamics_generalledgerentries_get.md)  

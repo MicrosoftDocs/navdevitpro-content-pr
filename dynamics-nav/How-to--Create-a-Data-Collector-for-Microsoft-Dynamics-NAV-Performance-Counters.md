@@ -44,13 +44,13 @@ This topic describes how to create a Data Collector Set in Performance Monitor t
   
 ##  <a name="StartDataCollectorSet"></a> To start and stop a Data Collector Set  
   
--   To start to collect data immediately, under **Data Collector Sets**, expand **User Defined**, right-click the Data Collector Set, and then choose **Start**.  
+- To start to collect data immediately, under **Data Collector Sets**, expand **User Defined**, right-click the Data Collector Set, and then choose **Start**.  
   
--   To stop collecting data, right-click the Data Collector Set, and then choose **Stop**.  
+- To stop collecting data, right-click the Data Collector Set, and then choose **Stop**.  
   
- For information about how to schedule a time to start and stop collecting data, see [Schedule Data Collection in Windows Performance Monitor](http://technet.microsoft.com/en-us/library/cc722312.aspx).  
+  For information about how to schedule a time to start and stop collecting data, see [Schedule Data Collection in Windows Performance Monitor](https://technet.microsoft.com/library/cc722312.aspx).  
   
- For information about how to view the data that is collected by the Data Collector Set, see [How to: View Performance Counter Data for a Data Collector Set](How-to--View-Performance-Counter-Data-for-a-Data-Collector-Set.md).  
+  For information about how to view the data that is collected by the Data Collector Set, see [How to: View Performance Counter Data for a Data Collector Set](How-to--View-Performance-Counter-Data-for-a-Data-Collector-Set.md).  
   
 ## See Also  
  [Working with Data Collector Sets](Working-with-Data-Collector-Sets.md)   

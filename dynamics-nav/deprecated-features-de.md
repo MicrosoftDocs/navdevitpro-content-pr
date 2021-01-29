@@ -3,14 +3,14 @@ title: German Features that are Moved, Removed, or Replaced | Microsoft Docs
 description: We are constantly streamlining and adjusting our app in-step with market developments. Read about the features for Germany that we have moved, removed, or replaced.
 author: bholtorf
 
-ms.service: dynamics365-financials
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: deprecated, Germany, local functionality
 ms.date: 12/21/2017
-ms.author: SorenGP
+ms.author: edupont
 
 ---
 

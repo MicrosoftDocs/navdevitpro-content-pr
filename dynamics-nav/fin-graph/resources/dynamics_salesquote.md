@@ -1,6 +1,6 @@
 ---
 title: salesQuotes resource type | Microsoft Docs
-description: A sales quote object in Dynamics 365 for Finance and Operations, Business edition.
+description: A sales quote object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,15 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # salesQuotes resource type
 Represents a salesQuote resource type in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -29,8 +30,16 @@ Represents a salesQuote resource type in [!INCLUDE[d365fin_long_md](../../includ
 |[PATCH salesQuotes](../api/dynamics_salesquote_update.md)|salesQuotes|Updates a sales quote object.|
 |[DELETE salesQuotes](../api/dynamics_salesquote_delete.md)|none|Deletes a sales quote object.|
 
+## Bound actions
+
+|Action          |Return type   |Description         |
+|----------------|--------------|--------------------|
+|[GET pdfDocument](../api/dynamics_salesquote_pdfdocument.md)|pdfDocument|Gets a PDF document.|
+
+
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The quote ID. Read-Only.|
 |number|string, maximum size 20|The quote number. Read-Only.|
@@ -89,7 +98,6 @@ Here is a JSON representation of the resource.
       "currencyId": "GUID",
       "currencyCode": "string",
       "paymentTermsId": "GUID",
-      "paymentTerms": "string",
       "shipmentMethodId": "GUID",
       "shipmentMethod": "string",
       "salesperson": "string",
@@ -103,15 +111,14 @@ Here is a JSON representation of the resource.
       "acceptedDate": "Date",
       "lastModifiedDateTime": "DateTime"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get sales quote](../api/dynamics_salesquote_get.md)  
-[Create sales quote](../api/dynamics_create_salesquote.md)  
-[Update sales quote](../api/dynamics_salesquote_update.md)  
-[Delete sales quote](../api/dynamics_salesquote_delete.md)  
+[Get Sales Quote](../api/dynamics_salesquote_get.md)  
+[Create Sales Quote](../api/dynamics_create_salesquote.md)  
+[Update Sales Quote](../api/dynamics_salesquote_update.md)  
+[Delete Sales Quote](../api/dynamics_salesquote_delete.md)  

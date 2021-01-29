@@ -1,6 +1,6 @@
 ---
 title: salesInvoiceLines resource type | Microsoft Docs
-description: A sales invoice line in Dynamics 365 for Finance and Operations, Business edition.
+description: A sales invoice line in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,15 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # salesInvoiceLines resource type
 Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -30,7 +31,8 @@ Represents a line on a sales invoice in [!INCLUDE[d365fin_long_md](../../include
 |[DELETE salesInvoiceLines](../api/dynamics_salesinvoiceline_delete.md)|none              |Deletes a sales invoice line object.|
 
 ## Properties
-| Property	              | Type	| Description                                               |
+
+| Property                | Type    | Description                                               |
 |:------------------------|:------|:----------------------------------------------------------|
 |documentId               |GUID   |The ID of the parent invoice.                              |
 |sequence                 |numeric|The line sequence number.                                  |
@@ -100,16 +102,15 @@ Here is a JSON representation of the resource.
       "shipmentDate": "Date"
     }
   ]
-
 ```
 
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get sales invoice line](../api/dynamics_salesinvoiceline_get.md)  
-[Create sales invoice line](../api/dynamics_create_salesinvoiceline.md)  
-[Update sales invoice line](../api/dynamics_salesinvoiceline_update.md)  
-[Delete sales invoice line](../api/dynamics_salesinvoiceline_delete.md)  
+[Get Sales Invoice Line](../api/dynamics_salesinvoiceline_get.md)  
+[Create Sales Invoice Line](../api/dynamics_create_salesinvoiceline.md)  
+[Update Sales Invoice Line](../api/dynamics_salesinvoiceline_update.md)  
+[Delete Sales Invoice Line](../api/dynamics_salesinvoiceline_delete.md)  

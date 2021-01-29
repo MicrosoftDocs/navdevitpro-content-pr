@@ -22,7 +22,7 @@ You use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to develop [!I
 >   
 >  The program cannot start because MSVCP100.dll is missing.  
 >   
->  If you see this error message, download and install the [Microsoft Visual C++ 2010 Redistributable Package \(x86\)](http://go.microsoft.com/fwlink/?LinkId=253073). You can then run the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
+>  If you see this error message, download and install the [Microsoft Visual C++ 2010 Redistributable Package \(x86\)](https://go.microsoft.com/fwlink/?LinkId=253073). You can then run the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
 
 ## Object Designer  
  When you open the development environment, you can open Object Designer, which gives you access to [!INCLUDE[navnow](includes/navnow_md.md)] objects. You use Object Designer to modify the application or to create new application areas. For more information, see [Object Designer)](uiref/-$-S_2051-Object-Designer-$-.md).  
@@ -32,17 +32,17 @@ You use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to develop [!I
 ## Debugging with the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]  
  If you use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] for debugging and want to be able to set breakpoints, the following must be true:  
 
--   You must be a [!INCLUDE[navnow](includes/navnow_md.md)] user. See [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md).  
+- You must be a [!INCLUDE[navnow](includes/navnow_md.md)] user. See [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md).  
 
--   You must have a Login for the [!INCLUDE[navnow](includes/navnow_md.md)] database. You must also assign that Login the db\_owner database role. Use SQL Server Management Studio to create logins and assign roles. See [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md) for detailed information.  
+- You must have a Login for the [!INCLUDE[navnow](includes/navnow_md.md)] database. You must also assign that Login the db\_owner database role. Use SQL Server Management Studio to create logins and assign roles. See [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md) for detailed information.  
 
- There are additional requirements exist if you are using **NavUserPassword** or **AccessControlService** authentication:  
+  There are additional requirements exist if you are using **NavUserPassword** or **AccessControlService** authentication:  
 
--   Your Login for the [!INCLUDE[navnow](includes/navnow_md.md)] database must match your User Name in [!INCLUDE[navnow](includes/navnow_md.md)].  
+- Your Login for the [!INCLUDE[navnow](includes/navnow_md.md)] database must match your User Name in [!INCLUDE[navnow](includes/navnow_md.md)].  
 
--   You must connect to the database using Database Authentication.  
+- You must connect to the database using Database Authentication.  
 
- See [Users and Credential Types](Users-and-Credential-Types.md) for an overview of authentication options for [!INCLUDE[navnow](includes/navnow_md.md)].  
+  See [Users and Credential Types](Users-and-Credential-Types.md) for an overview of authentication options for [!INCLUDE[navnow](includes/navnow_md.md)].  
 
 ## Other Uses  
  You use the development environment to create and manage [!INCLUDE[navnow](includes/navnow_md.md)] databases and to upload or change [!INCLUDE[navnow](includes/navnow_md.md)] licenses. However, you cannot use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to administrate your solution. Instead, you use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or the [!INCLUDE[navnow](includes/navnow_md.md)] Windows PowerShell cmdlets.  

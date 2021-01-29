@@ -1,7 +1,7 @@
 ---
 title: "Monitoring Microsoft Dynamics NAV Server Events with PowerShell"
 ms.custom: na
-ms.date: 22/01/2018
+ms.date: 01/22/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,9 +15,9 @@ Events that occur on the [!INCLUDE[nav_server](includes/nav_server_md.md)] insta
 ##  <a name="ViewEventsWinPS"></a>PowerShell Get-WinEvent Cmdlet   
 You can use the Get-WinEvent cmdlet of Windows PowerShell to view [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events and trace events in the event logs and event tracing log files on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer. The Get-WinEvent cmdlet retrieves the same events that can be viewed in Event Viewer under **Applications and Services Logs** > **Microsoft** > **DynamicsNAV** (see [Monitoring Dynamics NAV Server Events Using Event Viewer](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md)). 
   
-The Get-WinEvent cmdlet includes several parameters that enable you to filter the events that you view and specify how the events are displayed. Windows PowerShell enables you can create scripts that perform complex operations for extracting and displaying specific event data. For more information about the Get-WinEvent cmdlet, see [Get-WinEvent](http://go.microsoft.com/fwlink/?LinkID=513535).  
+The Get-WinEvent cmdlet includes several parameters that enable you to filter the events that you view and specify how the events are displayed. Windows PowerShell enables you can create scripts that perform complex operations for extracting and displaying specific event data. For more information about the Get-WinEvent cmdlet, see [Get-WinEvent](https://go.microsoft.com/fwlink/?LinkID=513535).  
   
-For more information about installing and getting started with Windows PowerShell, see [Getting Started with Windows PowerShell](http://go.microsoft.com/fwlink/?LinkID=254637).  
+For more information about installing and getting started with Windows PowerShell, see [Getting Started with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkID=254637).  
   
 ## To use the Get-WinEvent Cmdlet to view events  
   
@@ -27,7 +27,7 @@ For more information about installing and getting started with Windows PowerShel
   
 2.  On the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], start Window PowerShell.  
   
-     For more information, see [Starting Windows PowerShell](http://go.microsoft.com/fwlink/?LinkID=513794).  
+     For more information, see [Starting Windows PowerShell](https://go.microsoft.com/fwlink/?LinkID=513794).  
   
 3.  At the command prompt, enter the `Get-WinEvent` command. The following table provides some simple example commands.  
   
@@ -57,7 +57,7 @@ There are two debug logs for Dynamics NAV: **Microsoft-DynamicsNav-Server/Debug*
     ```  
   
 > [!TIP]  
->  You can also enable the Debug log from Event Viewer. For more information, see [Enable Analytic and Debug Logs](http://technet.microsoft.com/en-us/library/cc749492.aspx).  
+>  You can also enable the Debug log from Event Viewer. For more information, see [Enable Analytic and Debug Logs](https://technet.microsoft.com/library/cc749492.aspx).  
   
 ## Filtering [!INCLUDE[nav_server](includes/nav_server_md.md)] Events  
 You can filter the events that you view in a [!INCLUDE[nav_server](includes/nav_server_md.md)] log by setting the *FilterXpath* parameter of the Get-WinEvent cmdlet. The following examples illustrate how you can use the *FilterXpath* parameter to filter the [!INCLUDE[nav_server](includes/nav_server_md.md)] events.  
@@ -78,8 +78,8 @@ The following is an example of a Windows PowerShell script that you can create a
 $maxAllowedSeconds = 4  
   
 $xPath = "*[System[(EventID = 400 or EventID = 401)]] and " +   
-         "*[EventData[Data[@Name='tenantId'] and (Data  = 'MyTenant1')]] and " +  
-         "*[EventData[Data[@Name='serverInstanceName'] and Data='MyNavServerInstance1']]"  
+         "*[EventData[Data[@Name='tenantId'] and (Data  = 'MyTenant1')]] and " +  
+         "*[EventData[Data[@Name='serverInstanceName'] and Data='MyNavServerInstance1']]"  
   
 $events = Get-WinEvent -LogName 'Microsoft-DynamicsNav-Server/Debug' -FilterXPath $xPath -Oldest -MaxEvents 10000  
   
@@ -87,12 +87,12 @@ Write-Host "List of AL functions that took more than $maxAllowedSeconds  second
   
 for($i = 0; $i -lt  $events.Length; $i+=2)  
 {   
-   $seconds = ($events[$i + 1].TimeCreated - $events[$i].TimeCreated).Seconds  
+   $seconds = ($events[$i + 1].TimeCreated - $events[$i].TimeCreated).Seconds  
   
-   if ($seconds -ge $maxAllowedSeconds )  
-   {  
-     Write-Host $events[$i].Message `r`n -ForegroundColor Magenta  
-   }  
+   if ($seconds -ge $maxAllowedSeconds )  
+   {  
+     Write-Host $events[$i].Message `r`n -ForegroundColor Magenta  
+   }  
 }  
 ```  
   
@@ -103,4 +103,4 @@ for($i = 0; $i -lt  $events.Length; $i+=2)
  [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)   
  [Monitoring Microsoft Dynamics NAV Server](Monitoring-Microsoft-Dynamics-NAV-Server.md)   
  [Monitoring Microsoft Dynamics NAV Server Using Performance Counters](Monitoring-Microsoft-Dynamics-NAV-Server-Using-Performance-Counters.md)  
- [Event Viewer](http://go.microsoft.com/fwlink/?LinkID=314067)
+ [Event Viewer](https://go.microsoft.com/fwlink/?LinkID=314067)

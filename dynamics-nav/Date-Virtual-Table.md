@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # Date Virtual Table
-The **Date** virtual table gives you easy access to days, weeks, months, quarters, and years. The **Date** virtual table has the following fields.  
+The **Date** virtual table \(ID 2000000007\) gives you easy access to days, weeks, months, quarters, and years. The **Date** virtual table has the following fields.  
   
 |Field|Description|  
 |-----------|-----------------|  

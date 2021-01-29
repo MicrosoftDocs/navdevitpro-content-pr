@@ -68,7 +68,7 @@ A report object is composed of a report dataset and a visual layout. You design 
      ![Completed report](media/MicrosoftDynamicsNAV_MultiDataSetReport.jpg "MicrosoftDynamicsNAV\_MultiDataSetReport")  
 
 ## Defining the Dataset  
- In this task, Viktor will create the dataset that will display customers and their transaction details. The datasets for the data model will come from four tables. Viktor will create a data item for each for table.  
+ In this task, Viktor will create the dataset that will display customers and their transaction details. The datasets for the data model will come from four tables. Viktor will create a data item for each table.  
 
 #### To define the dataset  
 
@@ -204,7 +204,7 @@ A report object is composed of a report dataset and a visual layout. You design 
     |Currency Code|CurrencyCode\_CustLedgerEntry|  
     |Amount|Amount\_CustLedgerEntry|  
     |Original Amt \(LCY\)|OriginalAmtLCY\_CustLedgerEntry|  
-    |Remaining Amt. \(LCY\)|EntryType\_DetailedCustLedgEntry|  
+    |Remaining Amt. \(LCY\)|RemainingAmtLCY\_CustLedgEntry|  
 
 5.  Select the **Detailed Cust. Ledger Entry** data item and repeat steps 1 through 3 to add the fields. The following table shows the fields in Report Dataset Designer.  
 
@@ -279,7 +279,7 @@ A report object is composed of a report dataset and a visual layout. You design 
 
 6.  Move the **List control** to the top of the report body and resize it to cover the whole report body.  
 
-7.  Right-click the middle of the **List** controls, and then choose **Rectangle Properties**.  
+7.  Right-click the middle of the **List** control, and then choose **Rectangle Properties**.  
 
 8.  In the **Rectangle Properties** window, choose the **Fill** tab, in the **Fill Color** list color pallet, select **Cornflower Blue** from the color pallet, and then choose the **OK** button. You can choose any color.  
 
@@ -304,29 +304,29 @@ A report object is composed of a report dataset and a visual layout. You design 
 
 #### To add customer data  
 
-1.  From the **Toolbox** pane, drag a **Table** control into the **List** control and resize the table to about the half the width of the list control. This table will contain the customer data.  
+1. From the **Toolbox** pane, drag a **Table** control into the **List** control and resize the table to about the half the width of the list control. This table will contain the customer data.  
 
-     The following illustration shows the list control and the table.  
+    The following illustration shows the list control and the table.  
 
-     ![The list control on the report](media/MicrosoftDynamicsNAV_ListControl.jpg "MicrosoftDynamicsNAV\_ListControl")  
+    ![The list control on the report](media/MicrosoftDynamicsNAV_ListControl.jpg "MicrosoftDynamicsNAV\_ListControl")  
 
-     Note that the table contains two table rows, a header row \(first row\), and a data row \(second row\). The three parallel lines in the left border of the second row identify the data row.  
+    Note that the table contains two table rows, a header row \(first row\), and a data row \(second row\). The three parallel lines in the left border of the second row identify the data row.  
 
-2.  Select any table row, right-click the shaded border, and then choose **Tablix Properties** to open the **Tablix Properties** window.  
+2. Select any table row, right-click the shaded border, and then choose **Tablix Properties** to open the **Tablix Properties** window.  
 
-3.  On the **General** tab, verify that the **Dataset name** field is set to **DataSet\_Result**, and then choose the **OK** button.  
+3. On the **General** tab, verify that the **Dataset name** field is set to **DataSet\_Result**, and then choose the **OK** button.  
 
-     The table has three columns. Viktor will add a fourth column to the table to hold all the customer data.  
+    The table has three columns. Viktor will add a fourth column to the table to hold all the customer data.  
 
-4.  Right-click the middle column header, choose **Insert Column**, and then select **Right** to insert the fourth column into the table.  
+4. Right-click the middle column header, choose **Insert Column**, and then select **Right** to insert the fourth column into the table.  
 
-5.  Select the second table row \(the data row\), right-click the row, choose **Delete Rows** to delete the data row, and then choose the **OK** button in the **Delete Rows** window to delete the row and its associated groups.  
+5. Select the second table row \(the data row\), right-click the row, choose **Delete Rows** to delete the data row, and then choose the **OK** button in the **Delete Rows** window to delete the row and its associated groups.  
 
-6.  Select the remaining table row, right-click the shaded border on the left, choose **Insert Row**, and then choose **Below** to insert another table header row.  
+6. Select the remaining table row, right-click the shaded border on the left, choose **Insert Row**, and then choose **Below** to insert another table header row.  
 
-7.  Repeat step 6 to insert a third table header row. There should now be three header rows in the table.  
+7. Repeat step 6 to insert a third table header row. There should now be three header rows in the table.  
 
-8.  Right-click the first cell \(row 1, column 1\) in the table, and then choose **Expression** to open the **Expression** window.  
+8. Right-click the first cell \(row 1, column 1\) in the table, and then choose **Expression** to open the **Expression** window.  
 
 9. In the **Category** column, select **Parameters**, in the **Item** column, verify that **All** is selected, and then in the **Values** column, double-click **No\_CustomerCaption**. Verify that the **Set expression for: Value** box contains the following value: `=Parameters!No_CustomerCaption.Value`. This cell will display the customer No. caption in the report.  
 
@@ -344,16 +344,17 @@ A report object is composed of a report dataset and a visual layout. You design 
     > [!NOTE]  
     >  Columns 1 and 3 will contain the captions and columns 2 and 4 will contain the values.  
 
-    |Row|Column|Caption|Value|  
-    |---------|------------|-------------|-----------|  
-    |2|1|Name\_CustomerCaption|None|  
-    |2|2|None|Name\_Customer|  
-    |1|3|Addreess\_CustomerCaption|None|  
-    |1|4|None|Address\_Customer|  
-    |2|3|PhoneNo\_CustomerCaption|None|  
-    |2|4|None|PhoneNo\_Customer|  
-    |3|3|Email\_CustomerCaption|None|  
-    |3|4|None|Email\_Customer|  
+    | Row | Column |          Caption          |       Value       |
+    |-----|--------|---------------------------|-------------------|
+    |  2  |   1    |   Name\_CustomerCaption   |       None        |
+    |  2  |   2    |           None            |  Name\_Customer   |
+    |  1  |   3    | Addreess\_CustomerCaption |       None        |
+    |  1  |   4    |           None            | Address\_Customer |
+    |  2  |   3    | PhoneNo\_CustomerCaption  |       None        |
+    |  2  |   4    |           None            | PhoneNo\_Customer |
+    |  3  |   3    |  Email\_CustomerCaption   |       None        |
+    |  3  |   4    |           None            |  Email\_Customer  |
+
 
 14. Select all table rows \(not the whole table\), and then on the **View** menu, choose **Properties Window** to open the **Properties** window in Visual Studio.  
 
@@ -378,7 +379,7 @@ A report object is composed of a report dataset and a visual layout. You design 
 
 20. In the request page that is displayed, choose the **Preview** button to view the report. The first customer is displayed on the first page. If you page through the report, each customer is displayed on a separate page.  
 
- Viktor will now add the data for the customer ledger entries and detailed ledger entries. The entries will be put in a different table.  
+    Viktor will now add the data for the customer ledger entries and detailed ledger entries. The entries will be put in a different table.  
 
 #### To add the data for ledger entry and detailed ledger entry  
 
@@ -430,7 +431,7 @@ A report object is composed of a report dataset and a visual layout. You design 
 
 16. In the **Category** column, select **Fields \(DataSet\_Result\)**, in the **Values** column, double-click **EntryNo\_CustLedgerEntry**, and then choose the **OK** button. Note that the **Set expression for: Value** box contains the following value: `=Fields!EntryNo_CustLedgerEntry.Value`  
 
-17. Repeat steps 15 and 16 for row 3 to add fields from the ledger entry dataset. Put the fields under the corresponding captions.  
+17. Repeat steps 15 and 16 for row 2 to add fields from the ledger entry dataset. Put the fields under the corresponding captions.  
 
 18. Select the row that you just filled and set the **BackgroundColor** property to **Silver**.  
 

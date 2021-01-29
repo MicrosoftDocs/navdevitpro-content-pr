@@ -19,11 +19,11 @@ C/AL contains several functions that can be used for different purposes, such as
   
  You can specify that a parameter is passed to a function by value or by reference.  
   
--   If a parameter is passed by value, then a copy of the variable is passed to the function. Any changes that the function makes to the value of the variable are local changes that affect only the copy, not the variable itself.  
+- If a parameter is passed by value, then a copy of the variable is passed to the function. Any changes that the function makes to the value of the variable are local changes that affect only the copy, not the variable itself.  
   
--   If a parameter is passed by reference, then a reference to the variable is passed to the function. The function can change the value of the variable itself.  
+- If a parameter is passed by reference, then a reference to the variable is passed to the function. The function can change the value of the variable itself.  
   
- For more information about how to specify that a parameter is passed by value or by reference, see [How to: Add a Function to a Codeunit](How-to--Add-a-Function-to-a-Codeunit.md).  
+  For more information about how to specify that a parameter is passed by value or by reference, see [How to: Add a Function to a Codeunit](How-to--Add-a-Function-to-a-Codeunit.md).  
   
 ### Example 1  
  The following shows the syntax for a function.  

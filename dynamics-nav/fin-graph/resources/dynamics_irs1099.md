@@ -1,6 +1,6 @@
 ---
 title: irs1099Codes resource type | Microsoft Docs
-description: An IRS 1099 Code object in Dynamics 365 for Finance and Operations, Business edition.
+description: An IRS 1099 Code object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,15 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # irs1099Codes resource type
 Represents an irs1099Codes object in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)]. IRS 1099 codes are used for reporting to the IRS.
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -30,7 +31,8 @@ Represents an irs1099Codes object in [!INCLUDE[d365fin_long_md](../../includes/d
 |[DELETE irs1099Codes](../api/dynamics_irs1099_delete.md)|none        |Delete an IRS 1099 code.|
 
 ## Properties
-| Property	         | Type 	|Description                                      |
+
+| Property           | Type     |Description                                      |
 |:-------------------|:-------|:------------------------------------------------|
 |id                  |GUID    |The unique ID of the IRS 1099 Code. Non-editable.|
 |code                |string  |Specifies the IRS 1099 Code.                     |
@@ -55,12 +57,11 @@ Here is a JSON representation of the irs1099Codes.
   "minimumReportable": "decimal",
   "lastModifiedDateTime": "datetime"
 }
-
 ```
 
 ## See also
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Get IRS 1099](../api/dynamics_irs1099_get.md)  

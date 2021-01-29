@@ -15,7 +15,7 @@ This topic describes how to use PerfView to view [!INCLUDE[nav_server](includes/
   
 ### To install PerfView  
   
--   Go to [http://go.microsoft.com/fwlink/?LinkID=313428](http://go.microsoft.com/fwlink/?LinkID=313428), and then follow the instructions to download and install PerfView.  
+-   Go to [https://go.microsoft.com/fwlink/?LinkID=313428](https://go.microsoft.com/fwlink/?LinkID=313428), and then follow the instructions to download and install PerfView.  
   
 ##  <a name="ViewDataPerfView"></a> To view event trace data from an event trace log file  
   
@@ -40,4 +40,4 @@ This topic describes how to use PerfView to view [!INCLUDE[nav_server](includes/
  [How to: Use Performance Monitor to Collect Event Trace Data](How-to--Use-Performance-Monitor-to-Collect-Event-Trace-Data.md)   
  [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)   
  [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)  
- [Instrumenting av Application for Telemetry](instrumenting-application-for-telemetry.md)]  
+ [Instrumenting an Application for Telemetry](instrumenting-application-for-telemetry.md)]  

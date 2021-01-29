@@ -1,7 +1,7 @@
 ---
 title: "How to: Use Logman to Collect Event Trace Data"
 ms.custom: na
-ms.date: 22/01/2018
+ms.date: 01/02/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,7 +12,7 @@ author: jswymer
 # How to: Use LogMan to Collect Event Trace Data
 This article describes how to use logman to collect event trace data for [!INCLUDE[nav_server](includes/nav_server_md.md)]. Logman (logman.exe) comes with the Windows Operating System. You can use it to create and manage event trace session and performance logs from the command prompt.
 
-This article provides a brief introduction to using logman to collect trace event data for [!INCLUDE[nav_server](includes/nav_server_md.md)] and telemetry events. For more detailed information about logman, see [Logman](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc753820(v=ws.11)).
+This article provides a brief introduction to using logman to collect trace event data for [!INCLUDE[nav_server](includes/nav_server_md.md)] and telemetry events. For more detailed information about logman, see [Logman](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc753820(v=ws.11)).
   
 ## Collect event trace data  
 You can collect [!INCLUDE[nav_server](includes/nav_server_md.md)] trace event data from two different trace event providers: **Microsoft-DynamicsNAV-Server** and **Microsoft-DynamicsNAV-Common**. **Microsoft-DynamicsNAV-Server** is used for trace events like SQL traces, C/AL function traces, and session calls. **Microsoft-DynamicsNAV-Common** is used for telemetry events. 
@@ -69,7 +69,7 @@ The data is now stored in an .elt file.
 There are various industry tools available for viewing data in .etl files.
 
 For example, from the command line, you can use the
- [tracerpt command](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc732700(v=ws.11)) to create dump files, summary, and report files. The following code creates files for the MyTelemetryTraceData_000001.etl file:  
+ [tracerpt command](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc732700(v=ws.11)) to create dump files, summary, and report files. The following code creates files for the MyTelemetryTraceData_000001.etl file:  
   
 ```
 tracerpt c:\perflogs\MyTelemetryTraceData_000001.etl -o c:\perflogs\MyTelemetry-dmp.xml -of XML -summary c:\perflogs\MyTelemetry-summary.txt -report c:\perflogs\MyTelemetry-rpt.xml

@@ -1,6 +1,6 @@
 ---
 title: Update vendors | Microsoft Docs
-description: Updates a vendor object in Dynamics 365 for Financials.
+description: Updates a vendor object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,19 +10,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Update vendors
 Update the properties of a vendor object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-PATCH /financials/companies({id})/vendors({id})
+PATCH businesscentralPrefix/companies({id})/vendors({id})
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization |Bearer {token}. Required.|
@@ -41,7 +44,7 @@ If successful, this method returns a ```200 OK``` response code and an updated *
 
 Here is an example of the request.
 ```json
-PATCH https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/vendors({id})
+PATCH https://{businesscentralPrefix}/api/beta/companies({id})/vendors({id})
 Content-type: application/json
 
 {
@@ -78,10 +81,7 @@ Content-type: application/json
   "taxRegistrationNumber": "",
   "currencyCode": "USD",
   "irs1099Code": "",
-  "paymentTerms": {
-    "code": "CM",
-    "description": "Current Month"
-  },
+  "paymentTermsId": "3bb5b4b6-ea4c-43ca-ba1c-3b69e29a6668",
   "paymentMethod": {
     "code": "BANK",
     "description": "Bank Transfer"
@@ -95,12 +95,13 @@ Content-type: application/json
 
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Vendor](../resources/dynamics_vendor.md)  
-[Get vendor](../api/dynamics_vendor_get.md)  
-[Create vendor](../api/dynamics_create_vendor.md)  
-[Delete vendor](../api/dynamics_vendor_delete.md)  
+[Get Vendor](../api/dynamics_vendor_get.md)  
+[Create Vendor](../api/dynamics_create_vendor.md)  
+[Delete Vendor](../api/dynamics_vendor_delete.md)  

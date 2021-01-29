@@ -18,7 +18,7 @@ manager: edupont
  After you install [!INCLUDE[nav_server](includes/nav_server_md.md)], the default configuration is for the service to log on using the NT Authority\\Network Service account. If [!INCLUDE[nav_server](includes/nav_server_md.md)] and SQL Server are on different computers, then we recommend that you configure [!INCLUDE[nav_server](includes/nav_server_md.md)] to log on using a dedicated Windows domain user account instead. This account should not be an administrator either in the domain or on any local computer. A dedicated domain user account is considered more secure because no other services and therefore no other users have permissions for this account.  
   
 ## Disk Quotas  
- Client users can send files to be stored on [!INCLUDE[nav_server](includes/nav_server_md.md)], so we recommend that administrators set up disk quotas on all computers running [!INCLUDE[nav_server](includes/nav_server_md.md)]. This can prevent users from uploading too many files, which can make the server unstable. Disk quotas track and control disk space usage for NTFS volumes, which allows administrators to control the amount of data that each user can store on a specific NTFS volume. For more information about disk quotas, see the [Disk Quotas Technical Reference](http://go.microsoft.com/fwlink/?LinkId=119641) on Microsoft TechNet.  
+ Client users can send files to be stored on [!INCLUDE[nav_server](includes/nav_server_md.md)], so we recommend that administrators set up disk quotas on all computers running [!INCLUDE[nav_server](includes/nav_server_md.md)]. This can prevent users from uploading too many files, which can make the server unstable. Disk quotas track and control disk space usage for NTFS volumes, which allows administrators to control the amount of data that each user can store on a specific NTFS volume. For more information about disk quotas, see the [Disk Quotas Technical Reference](https://go.microsoft.com/fwlink/?LinkId=119641) on Microsoft TechNet.  
   
 ## Limiting Port Access  
  The [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] Setup program opens a port in the firewall on the computer where you install [!INCLUDE[nav_server](includes/nav_server_md.md)]. By default, this is port 7046. To improve security, you can consider limiting access to this port to a specific subnet. One way is to use `netsh`, which is a command-line tool for configuring and monitoring Windows-based computers at a command prompt. The specific version of this command that you would use is `netsh firewall set portopening`. For example, the following command limits access to port 7046 to the specified addresses and subnets:  
@@ -26,9 +26,12 @@ manager: edupont
 ```  
 netsh firewall set portopening protocol=TCP port=7046 scope=subnet addresses=LocalSubnet  
 ```  
-  
+## Data Encryption Between [!INCLUDE[nav_server](includes/nav_server_md.md)] and SQL Server  
+ When SQL Server and [!INCLUDE[nav_server](includes/nav_server_md.md)] are running on different computers, you can make this data channel more secure by encrypting the connection with IPSec. \(Other encryption options are not supported.\) For information on how to do this, see [Encrypting Connections to SQL Server](https://go.microsoft.com/fwlink/?LinkId=147732), which is part of SQL Server 2008 Books Online in MSDN library.  
+
 ## See Also  
  [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough--Installing-the-Three-Tiers-on-Three-Computers.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
  [Security Overview](Security-Overview.md)   
- [How to Use the Netsh.exe Tool and Command-Line Switches](http://go.microsoft.com/fwlink/?LinkId=166310)
+ [How to Use the Netsh.exe Tool and Command-Line Switches](https://go.microsoft.com/fwlink/?LinkId=166310)  
+ [Transparent Data Encryption (TDE)](transparent-data-encryption.md)  

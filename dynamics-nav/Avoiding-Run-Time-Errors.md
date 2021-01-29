@@ -30,11 +30,11 @@ Ratio := FirstNumber / SecondNumber;
 
  There are two categories of run-time errors:  
 
--   Errors that are related to the use of data types.  
+- Errors that are related to the use of data types.  
 
--   Errors that occur if a function is unsuccessful doing what it is supposed to do.  
+- Errors that occur if a function is unsuccessful doing what it is supposed to do.  
 
- You can prevent some errors from occurring. Other errors cannot always be avoided, but you can write code that shields the user from the error. Instead of the default error handling, which displays a message, closes the page that was active when the error occurred, and rolls back any changes to the database, you can write an error handler that, for example, displays a message that explains why the error occurred and gives the user an opportunity to correct the input that caused the error.  
+  You can prevent some errors from occurring. Other errors cannot always be avoided, but you can write code that shields the user from the error. Instead of the default error handling, which displays a message, closes the page that was active when the error occurred, and rolls back any changes to the database, you can write an error handler that, for example, displays a message that explains why the error occurred and gives the user an opportunity to correct the input that caused the error.  
 
 ### Data Type-Related Errors  
  The easiest way to avoid data type-related errors is to use the correct data types. You can avoid errors such as the type conversion errors and overflow errors by using the correct data types.  
@@ -84,13 +84,13 @@ END;
 ## Finding and Correcting Run-time Errors  
  To determine the cause of a run-time error, you must know the sequence of events that led to the error. The sequence of events should include the following:  
 
--   What the user was doing at the time of the error.  
+- What the user was doing at the time of the error.  
 
--   What values the user entered.  
+- What values the user entered.  
 
--   What record caused the error.  
+- What record caused the error.  
 
- If the error was caused by a calculation that failed to check whether a division by zero was about to be performed, then you can find the statement that led to the error. However, if the circumstances that led to the error are more complex and you cannot determine the exact location of the error, then you can use the [!INCLUDE[navnow](includes/navnow_md.md)] debugger.  
+  If the error was caused by a calculation that failed to check whether a division by zero was about to be performed, then you can find the statement that led to the error. However, if the circumstances that led to the error are more complex and you cannot determine the exact location of the error, then you can use the [!INCLUDE[navnow](includes/navnow_md.md)] debugger.  
 
 ## See Also  
  [Debugging](Debugging.md)

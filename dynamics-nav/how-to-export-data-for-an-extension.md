@@ -50,7 +50,7 @@ The data must be exported from [!INCLUDE[navnow](includes/navnow_md.md)] into fi
 1.	Open the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].
 2.	Export the relevant data using the `Export-NAVAppTableData` cmdlet to export the data to a file. This includes setting the path to a folder where you want the .navxdata file created. A data file in the format of TAB<TABLEID>.navxdata will be created. (Example: TAB10000.navxdata)
 
-    `Export-NAVAppTableData -ServerInstance DynamicsNAVServer -Path ‘C:\NAVAppTableData’ -TableId 10000`
+    `Export-NAVAppTableData -ServerInstance DynamicsNAVServer -Path 'C:\NAVAppTableData' -TableId 10000`
 
     > [!NOTE]  
     >  Export the data for each table to a separate XML file.
@@ -81,5 +81,5 @@ The data must be exported from [!INCLUDE[navnow](includes/navnow_md.md)] into fi
 [How to: Publish and Install an Extension](How-to--Publish-and-Install-an-Extension.md)   
 [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)  
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
-[Development Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510540)
+[Development Cmdlets for Microsoft Dynamics NAV](https://go.microsoft.com/fwlink/?LinkID=510540)
 -->

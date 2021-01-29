@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Transferring a File from Microsoft Dynamics NAV Server to the Client"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 08/26/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -61,7 +61,7 @@ This walkthrough demonstrates how to develop a codeunit that creates a file on [
   
     ```  
     // Create a temporary file on NAV server, write the content   
-    // to the tempoary file, and then create an instream for the  
+    // to the temporary file, and then create an instream for the  
     // temporary file.  
   
     TempFile.CREATETEMPFILE();  

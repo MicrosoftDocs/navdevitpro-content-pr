@@ -1,6 +1,6 @@
 ---
 title: Create items | Microsoft Docs
-description: Creates an item object in Dynamics 365 for Financials.
+description: Creates an item object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,19 +10,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # Create items
-Create an item in Dynamics 365 for Financials for use on invoices, quotes, etc.
+Create an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] for use on invoices, quotes, etc.
 
 ## HTTP request
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
 ```
-POST /financials/companies({id})/items
+POST businesscentralPrefix/companies({id})/items
 ```
 
 ## Request headers
+
 |Header       |Value                    |
 |-------------|-------------------------|
 |Authorization|Bearer {token}. Required.|
@@ -40,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and an **item
 Here is an example of a request.
 
 ```json
-POST https://api.financials.dynamics.com/v1.0/api/beta/companies({id})/items
+POST https://{businesscentralPrefix}/api/beta/companies({id})/items
 Content-type: application/json
 
 {
@@ -65,7 +68,6 @@ Content-type: application/json
   "unitCost": 780.7,
   "taxGroupCode": "FURNITURE"
 } 
-
 ```
 
 **Response**
@@ -82,17 +84,18 @@ Content-type: application/json
 {
   "id": "id-value",
   "number": "1896-S",
-  "displayName": "ATHENS Desk",
+  "displayName": "ATHENS Desk",
   "lastModifiedDateTime": "2015-11-09T02:14:32Z"
 }
 ```
 
 ## See also
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
 [Item](../resources/dynamics_item.md)  
-[Get item](../api/dynamics_item_get.md)  
+[Get Item](../api/dynamics_item_get.md)  
 [Patch item](../api/dynamics_item_update.md)  
-[Delete item](../api/dynamics_item_delete.md)  
+[Delete Item](../api/dynamics_item_delete.md)  

@@ -1,7 +1,7 @@
 ---
 title: "Microsoft.AspNetCore.HttpOverrides.ForwardedHeadersMiddleware, parameter count mismatch error"
 ms.custom: na
-ms.date: 13/02/2018
+ms.date: 02/13/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,7 +27,7 @@ To resolve this issue, on the server farm in IIS, add or edit a routing rule to 
 |--------|---------|-----------|
 |`HTTP_X_FORWARED_PROTO`|`http` ot `https`|`true`|
 
-For more information, see [Using URL Rewrite ](https://docs.microsoft.com/en-us/iis/extensions/url-rewrite-module/using-url-rewrite-module-20).
+For more information, see [Using URL Rewrite ](https://docs.microsoft.com/iis/extensions/url-rewrite-module/using-url-rewrite-module-20).
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   

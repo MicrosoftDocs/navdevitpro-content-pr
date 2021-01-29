@@ -31,9 +31,9 @@ caps.latest.revision: 16
 ##  <a name="DataModel"></a> Design the Data Model  
  After you understand the problem that you want your application to solve, you must design the structure of the database for your application. For more information about how to design the data model, see the following topics:  
 
--   [Designing Databases \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkId=240055)  
+-   [Designing Databases \(SQL Server\)](https://go.microsoft.com/fwlink/?LinkId=240055)  
 
--   [Database Basics \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkId=240053)  
+-   [Database Basics \(SQL Server\)](https://go.microsoft.com/fwlink/?LinkId=240053)  
 
 ##  <a name="InstallTools"></a> Install the Development Tools  
 
@@ -58,28 +58,28 @@ caps.latest.revision: 16
 ##  <a name="CreateObjects"></a> Create Microsoft Dynamics NAV Objects  
  The development experience for the [!INCLUDE[nav_web](includes/nav_web_md.md)] application is like [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to create [!INCLUDE[navnow](includes/navnow_md.md)] objects to support the logic for the business scenario. Some of the major tasks include the following:  
 
--   Creating table objects in [!INCLUDE[navnow](includes/navnow_md.md)] to implement the design of your database.  
+- Creating table objects in [!INCLUDE[navnow](includes/navnow_md.md)] to implement the design of your database.  
 
--   Creating pages for entering and retrieving data.  
+- Creating pages for entering and retrieving data.  
 
--   Creating reports for viewing and presenting data.  
+- Creating reports for viewing and presenting data.  
 
--   Writing C/AL code on object triggers to perform runtime operations.  
+- Writing C/AL code on object triggers to perform runtime operations.  
 
- As you develop [!INCLUDE[nav_web](includes/nav_web_md.md)] applications, you should consider the following factors.  
+  As you develop [!INCLUDE[nav_web](includes/nav_web_md.md)] applications, you should consider the following factors.  
 
--   The same objects can be used in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+- The same objects can be used in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 
--   The [!INCLUDE[nav_web](includes/nav_web_md.md)] supports most of the features that the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] supports, but there are some exceptions and limitations, which you must consider in your design. For more information, see [Feature Limitations of the Microsoft Dynamics NAV Web Client](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client.md).  
+- The [!INCLUDE[nav_web](includes/nav_web_md.md)] supports most of the features that the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] supports, but there are some exceptions and limitations, which you must consider in your design. For more information, see [Feature Limitations of the Microsoft Dynamics NAV Web Client](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client.md).  
 
--   Do you want your solution to be available on [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] as well? For more information, see [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md).  
+- Do you want your solution to be available on [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] as well? For more information, see [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md).  
 
- For more information about how to develop [!INCLUDE[navnow](includes/navnow_md.md)] objects for [!INCLUDE[nav_web](includes/nav_web_md.md)] applications, see [Development](Development.md).  
+  For more information about how to develop [!INCLUDE[navnow](includes/navnow_md.md)] objects for [!INCLUDE[nav_web](includes/nav_web_md.md)] applications, see [Development](Development.md).  
 
 ### Follow the Microsoft Dynamics NAV User Experience Guidelines  
  The [!INCLUDE[navnow](includes/navnow_md.md)] User Experience guidelines can help you develop high quality and consistent applications. The guidelines provide answers to specific user experience issues, such as determining which page type to use or which components to include on a page. You can use the guidelines to design new application or improve existing ones.  
 
- For more information, see [Microsoft Dynamics NAV User Experience Guidelines](http://go.microsoft.com/fwlink/?LinkID=317424) in the MSDN Library.  
+ For more information, see [Microsoft Dynamics NAV User Experience Guidelines](https://go.microsoft.com/fwlink/?LinkID=317424) in the MSDN Library.  
 
 ##  <a name="Users"></a> Create Users and Grant Permissions to Objects  
  Like the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], you restrict access to [!INCLUDE[navnow](includes/navnow_md.md)] data by creating users in [!INCLUDE[navnow](includes/navnow_md.md)] and applying permission sets that grant access to [!INCLUDE[navnow](includes/navnow_md.md)] objects, such as pages and reports. You do not have to create separate user accounts for the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The same permission sets are applied to the user in both clients.  

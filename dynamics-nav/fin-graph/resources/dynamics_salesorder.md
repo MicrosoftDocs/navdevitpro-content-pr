@@ -1,6 +1,6 @@
 ---
 title: salesOrders resource type | Microsoft Docs
-description: A sales order object in Dynamics 365 for Finance and Operations, Business edition.
+description: A sales order object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,15 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # salesOrders resource type
 Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -30,7 +31,8 @@ Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |[DELETE salesOrders](../api/dynamics_salesorder_delete.md)|none|Delete a sales order object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |id|GUID|The order ID. Non-editable.|
 |number|string, maximum size 20|The order number. Read-Only.|
@@ -54,7 +56,7 @@ Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |totalTaxAmount|numeric|The total tax amount for the order. Read-Only.|
 |totalAmountIncludingTax|numeric|The total amount for the order, including tax. Read-Only.|
 |fullyShipped|boolean|Specifies whether the items of the order were fully shipped or not.|
-|status|string, maximum size 20|The order status. Status can be: Cancelled, Paid, On hold, Created. Read-Only.|
+|status|string, maximum size 20|The order status. Status can be: Draft, Cancelled, Paid, On hold, Created. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the sales order was modified. Read-Only.|
 
 
@@ -86,7 +88,6 @@ Here is a JSON representation of the resource.
       "currencyCode": "string",
       "pricesIncludeTax": "boolean",
       "paymentTermsId": "GUID",
-      "paymentTerms": "string",
       "salesperson": "string",
       "partialShipping": "boolean",
       "requestedDeliveryDate": "Date",
@@ -99,15 +100,14 @@ Here is a JSON representation of the resource.
       "status": "string",
       "lastModifiedDateTime": "DateTime"
 }
-
 ```
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get sales order](../api/dynamics_salesorder_get.md)  
-[Create sales order](../api/dynamics_create_salesorder.md)  
-[Update sales order](../api/dynamics_salesorder_update.md)  
-[Delete sales order](../api/dynamics_salesorder_delete.md)  
+[Get Sales Order](../api/dynamics_salesorder_get.md)  
+[Create Sales Order](../api/dynamics_create_salesorder.md)  
+[Update Sales Order](../api/dynamics_salesorder_update.md)  
+[Delete Sales Order](../api/dynamics_salesorder_delete.md)  

@@ -40,15 +40,15 @@ ERROR(String [, Value1, …])
 ## Programming Guidelines  
  We recommend the following guidelines for error messages:  
   
--   Describe what is wrong and how to solve the problem.  
+- Describe what is wrong and how to solve the problem.  
   
--   Write a short descriptive message. Do not use more words than necessary.  
+- Write a short descriptive message. Do not use more words than necessary.  
   
--   Always end the error message with a period.  
+- Always end the error message with a period.  
   
--   Use a text constant for the text of the message.  
+- Use a text constant for the text of the message.  
   
- For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md).  
+  For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md).  
   
 ## Example  
  This example shows how to use the ERROR function. The code example requires that you create the following variables and text constants in the **C/AL Globals** window.  

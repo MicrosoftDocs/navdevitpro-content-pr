@@ -65,13 +65,13 @@ Containments and associations are relationships between pages in [!INCLUDE[navno
  When you publish a page that has a subpage, you can identify that subpage in the AtomPub document that is returned for the published page. For example, when you publish page 42, Sales Order, you can access a single record on the page using a URI such as the following:  
   
 ```  
-http://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')/SalesOrder(Document_Type='Order',No='101005')/  
+https://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')/SalesOrder(Document_Type='Order',No='101005')/  
 ```  
   
  The following line in the returned AtomPub document for the record provides link information for a containment:  
   
 ```  
-<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/SalesOrderSalesLines"   
+<link rel="https://schemas.microsoft.com/ado/2007/08/dataservices/related/SalesOrderSalesLines"   
              type="application/atom+xml;type=feed" title="SalesOrderSalesLines"   
              href="SalesOrder(Document_Type='Order',No='101005')/SalesOrderSalesLines" />  
   
@@ -80,38 +80,38 @@ http://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Lt
  Notice the `type=feed` in the line above. To access the subpage data feed, use a URI that incorporates the link that was identified in the previous document:  
   
 ```  
-http://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')/SalesOrder(Document_Type='Order',No='101005')/SalesOrderSalesLines  
+https://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')/SalesOrder(Document_Type='Order',No='101005')/SalesOrderSalesLines  
 ```  
   
 ## Using Associations  
  Associations are possible when two published pages are linked. Here is an example:  
   
--   Page 42,  Sales Order, has its **SourceTable** property set to table 36,  Sales Header. The source expression for the **Sell\_to\_Customer\_No** control on page 42 is field 2,  Sell-to Customer No., in table 36.  
+- Page 42,  Sales Order, has its **SourceTable** property set to table 36,  Sales Header. The source expression for the **Sell\_to\_Customer\_No** control on page 42 is field 2,  Sell-to Customer No., in table 36.  
   
--   Field 2,  Sell-to Customer No., in table 36 has a **TableRelation** property set to table 18,  Customer, field No.  
+- Field 2,  Sell-to Customer No., in table 36 has a **TableRelation** property set to table 18,  Customer, field No.  
   
--   Table 18,  Customer, has a **LookupPageId** property set to page 22,  Customer List.  
+- Table 18,  Customer, has a **LookupPageId** property set to page 22,  Customer List.  
   
- Thus if both page 42,  Sales Order, and page 22,  Customer List, are published as web services, then an OData URI can link from the **Sell\_to\_Customer\_No** control on page 42 to the related entity on page 22.  
+  Thus if both page 42,  Sales Order, and page 22,  Customer List, are published as web services, then an OData URI can link from the **Sell\_to\_Customer\_No** control on page 42 to the related entity on page 22.  
   
- Because of this association, you can create OData URIs to access data on the Customer List page as you work with data on the Sales Order page.  
+  Because of this association, you can create OData URIs to access data on the Customer List page as you work with data on the Sales Order page.  
   
- If you publish pages 42 and 22 as web services, then you can return an AtomPub document for the Sales Order page. The following URI returns data for a single record on the page, which is order number 101005:  
+  If you publish pages 42 and 22 as web services, then you can return an AtomPub document for the Sales Order page. The following URI returns data for a single record on the page, which is order number 101005:  
   
 ```  
-http://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')/SalesOrder(Document_Type='Order',No='101005')/  
+https://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')/SalesOrder(Document_Type='Order',No='101005')/  
 ```  
   
  A set of three tags near the top of the returned document show one containment \(**SalesOrderSalesLines**\) and two associations \(**Sell\_to\_Customer\_No** and **Bill\_to\_Customer\_No**\) on the page. Notice the `type=entry` in the following lines:  
   
 ```  
-<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/SalesOrderSalesLines"   
+<link rel="https://schemas.microsoft.com/ado/2007/08/dataservices/related/SalesOrderSalesLines"   
              type="application/atom+xml;type=feed" title="SalesOrderSalesLines"   
              href="SalesOrder(Document_Type='Order',No='101005')/SalesOrderSalesLines" />   
-<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Sell_to_Customer_No_Link"   
+<link rel="https://schemas.microsoft.com/ado/2007/08/dataservices/related/Sell_to_Customer_No_Link"   
              type="application/atom+xml;type=entry" title="Sell_to_Customer_No_Link"   
              href="SalesOrder(Document_Type='Order',No='101005')/Sell_to_Customer_No_Link" />   
-<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Bill_to_Customer_No_Link"   
+<link rel="https://schemas.microsoft.com/ado/2007/08/dataservices/related/Bill_to_Customer_No_Link"   
               type="application/atom+xml;type=entry" title="Bill_to_Customer_No_Link"   
               href="SalesOrder(Document_Type='Order',No='101005')/Bill_to_Customer_No_Link" />  
   
@@ -120,14 +120,14 @@ http://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Lt
  This information provides the necessary information to create a URI to access a record on the Customer List page by using an association:  
   
 ```  
-http://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')  
+https://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')  
              /SalesOrder(Document_Type='Order',No='101005')/Sell_to_Customer_No_Link  
 ```  
   
  The following URI returns the same information with direct access to the Customer List page:  
   
 ```  
-http://localhost:7048/nav_server_instance/OData/CustomerList('30000')  
+https://localhost:7048/nav_server_instance/OData/CustomerList('30000')  
 ```  
   
 ## See Also  

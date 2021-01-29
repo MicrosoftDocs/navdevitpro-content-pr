@@ -19,15 +19,15 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], data formats impact the wa
   
 #### To set code field properties  
   
-1.  On the **Tools**, choose **Object Designer**.  
+1. On the **Tools**, choose **Object Designer**.  
   
-2.  Choose **Table** and select the appropriate table.  
+2. Choose **Table** and select the appropriate table.  
   
-3.  Choose **Design**.  
+3. Choose **Design**.  
   
-4.  Select the field whose data type is defined as code, choose **View**, and then choose **Properties**.  
+4. Select the field whose data type is defined as code, choose **View**, and then choose **Properties**.  
   
- You can set the **SQL Data Type** property to **Varchar**, **Integer**, or **Variant**. Leaving the value as **Undefined** is the same as selecting **Varchar**, which is the default value.  
+   You can set the **SQL Data Type** property to **Varchar**, **Integer**, or **Variant**. Leaving the value as **Undefined** is the same as selecting **Varchar**, which is the default value.  
   
 > [!NOTE]  
 >  When you set the **SQL Data Type** property to **Varchar**, the SQL Server data type that is used is **NVARCHAR**.  

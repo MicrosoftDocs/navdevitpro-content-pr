@@ -1,6 +1,6 @@
 ---
 title: purchaseInvoiceLines resource type | Microsoft Docs
-description: A purchase invoice line object in Dynamics 365 for Finance and Operations, Business edition.
+description: A purchase invoice line object in Dynamics 365 Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,15 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2018
+ms.date: 03/19/2018
 ms.author: solsen
+ROBOTS: NOINDEX
 ---
 
 # purchaseInvoiceLines resource type
 Represents a line on a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
 > [!NOTE]  
-> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
 
@@ -30,7 +31,8 @@ Represents a line on a purchase invoice in [!INCLUDE[d365fin_long_md](../../incl
 |[DELETE purchaseInvoiceLines](../api/dynamics_purchaseinvoiceline_delete.md)|none   |Deletes a purchase invoice line object.|
 
 ## Properties
-| Property	   | Type	|Description|
+
+| Property     | Type   |Description|
 |:---------------|:--------|:----------|
 |documentId|GUID|The ID of the parent invoice.|
 |sequence|numeric|The line sequence number.|
@@ -99,16 +101,15 @@ Here is a JSON representation of the resource.
       "expectedReceiptDate": "Date"
     }
   ]
-
 ```
 
 ## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
 [Working with [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] in Microsoft Graph](../resources/dynamics_overview.md)  
-[Enabling the APIs for Microsoft Dynamics NAV](../../enabling-apis-for-dynamics-nav.md)  
+[Enabling the APIs for Dynamics 365 Business Central](../../enabling-apis-for-dynamics-nav.md)  
 [Endpoints for the APIs](../../endpoints-apis-for-dynamics.md)  
 [Error Codes](../dynamics_error_codes.md)  
-[Get purchase invoice line](../api/dynamics_purchaseinvoiceline_get.md)  
-[Create purchase invoice line](../api/dynamics_create_purchaseinvoiceline.md)  
-[Update purchase invoice line](../api/dynamics_purchaseinvoiceline_update.md)  
-[Delete purchase invoice line](../api/dynamics_purchaseinvoiceline_delete.md)  
+[Get Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_get.md)  
+[Create Purchase Invoice Line](../api/dynamics_create_purchaseinvoiceline.md)  
+[Update Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_update.md)  
+[Delete Purchase Invoice Line](../api/dynamics_purchaseinvoiceline_delete.md)  

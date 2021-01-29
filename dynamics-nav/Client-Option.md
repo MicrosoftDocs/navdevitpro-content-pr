@@ -3,7 +3,7 @@ title: "Client Option"
 description: "Describing the different client options"
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 15/09/2016
+ms.date: 09/15/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,7 +25,7 @@ When you choose the Client option, Microsoft Dynamics NAV Setup installs the fol
 
 * Microsoft Office Excel Add-In
 
-With the Microsoft Office Excel Add-In, you can update the data in your Excel document with fresh data from Microsoft Dynamics NAV. However, if your company configures Microsoft Dynamics NAV to integrate with Office 365, documents will open in the installed version of Excel and not in the Excel Web App.
+With the Microsoft Office Excel Add-In, you can update the data in your Excel document with fresh data from Microsoft Dynamics NAV. However, if your company configures Microsoft Dynamics NAV to integrate with Microsoft 365, documents will open in the installed version of Excel and not in the Excel Web App.
 
 The Microsoft Dynamics NAV Windows client constitutes tier one in the Microsoft Dynamics NAV three-tier [Product and Architecture Overview](Product-and-Architecture-Overview.md). Microsoft Dynamics NAV Server is tier two, and SQL Server Database Components, together with SQL Server or SQL Server Express, is tier three.
 

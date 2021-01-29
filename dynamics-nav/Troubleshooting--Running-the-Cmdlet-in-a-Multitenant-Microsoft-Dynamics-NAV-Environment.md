@@ -16,4 +16,4 @@ Only one tenant can be automatically configured at a time, so the [!INCLUDE[navn
   
 ## See Also  
  [Authenticating Users with Azure Active Directory](Authenticating-Users-with-Azure-Active-Directory.md)   
- [How to: Set up Microsoft Dynamics NAV for Single Sign-on With Office 365 using Windows PowerShell](How-to--Set-up-Microsoft-Dynamics-NAV-for-Single-Sign-on-With-Office-365-using-Windows-PowerShell.md)
+ [How to: Set up Microsoft Dynamics NAV for Single Sign-on With Microsoft 365 using Windows PowerShell](How-to--Set-up-Microsoft-Dynamics-NAV-for-Single-Sign-on-With-Office-365-using-Windows-PowerShell.md)
