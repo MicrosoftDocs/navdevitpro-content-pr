@@ -7,33 +7,34 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # company resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET company](../api/dynamics_company_Get.md)|company|Gets a company object.|
 
 
-
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[items](dynamics_item.md)|items |Gets the items of the company.|
-|[unitsOfMeasure](dynamics_unitofmeasure.md)|unitsOfMeasure |Gets the unitsofmeasure of the company.|
+|[unitsOfMeasure](dynamics_unitsofmeasure.md)|unitsOfMeasure |Gets the unitsofmeasure of the company.|
 |[pictures](dynamics_picture.md)|pictures |Gets the pictures of the company.|
 |[defaultDimensions](dynamics_defaultdimension.md)|defaultDimensions |Gets the defaultdimensions of the company.|
 |[itemVariants](dynamics_itemvariant.md)|itemVariants |Gets the itemvariants of the company.|
@@ -88,8 +89,7 @@ Represents a company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |[purchaseReceipts](dynamics_purchasereceipt.md)|purchaseReceipts |Gets the purchasereceipts of the company.|
 |[purchaseReceiptLines](dynamics_purchasereceiptline.md)|purchaseReceiptLines |Gets the purchasereceiptlines of the company.|
 |[customerSales](dynamics_customersale.md)|customerSales |Gets the customersales of the company.|
-|[vendorPurchases](dynamics_vendorpurchase.md)|vendorPurchases |Gets the vendorpurchases of the company.|
-
+|[vendorPurchases](dynamics_vendorpurchas.md)|vendorPurchases |Gets the vendorpurchases of the company.|
 
 ## Properties
 
@@ -105,7 +105,6 @@ Represents a company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |systemModifiedAt|datetime|The last datetime the company was modified.|
 |systemModifiedBy|GUID|The ID of the user who last modified the company.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the company resource.
@@ -113,18 +112,19 @@ Here is a JSON representation of the company resource.
 
 ```json
 {
-   "id": "GUID",
-   "systemVersion": "string",
-   "name": "string",
-   "displayName": "string",
-   "businessProfileId": "string",
-   "systemCreatedAt": "datetime",
-   "systemCreatedBy": "GUID",
-   "systemModifiedAt": "datetime",
-   "systemModifiedBy": "GUID"
+    "id": "GUID",
+    "systemVersion": "string",
+    "name": "string",
+    "displayName": "string",
+    "businessProfileId": "string",
+    "systemCreatedAt": "datetime",
+    "systemCreatedBy": "GUID",
+    "systemModifiedAt": "datetime",
+    "systemModifiedBy": "GUID"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET company](../api/dynamics_company_Get.md)   
 
+## See Also
+[GET company](../api/dynamics_company_Get.md)

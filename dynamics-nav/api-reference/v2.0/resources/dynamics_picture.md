@@ -7,20 +7,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # picture resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a picture in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET picture](../api/dynamics_picture_Get.md)|picture|Gets a picture object.|
@@ -28,17 +31,14 @@ Represents a picture in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |[PATCH picture](../api/dynamics_picture_Update.md)|picture|Updates a picture object.|
 
 
-
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[item](dynamics_item.md)|item |Gets the item of the picture.|
 |[customer](dynamics_customer.md)|customer |Gets the customer of the picture.|
 |[vendor](dynamics_vendor.md)|vendor |Gets the vendor of the picture.|
 |[employee](dynamics_employee.md)|employee |Gets the employee of the picture.|
-
 
 ## Properties
 
@@ -51,7 +51,6 @@ Represents a picture in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |contentType|string|The media type of the picture.|
 |pictureContent|stream|The picture's content.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the picture resource.
@@ -59,17 +58,18 @@ Here is a JSON representation of the picture resource.
 
 ```json
 {
-   "id": "GUID",
-   "parentType": "NAV.pictureEntityParentType",
-   "width": "integer",
-   "height": "integer",
-   "contentType": "string",
-   "pictureContent": "stream"
+    "id": "GUID",
+    "parentType": "NAV.pictureEntityParentType",
+    "width": "integer",
+    "height": "integer",
+    "contentType": "string",
+    "pictureContent": "stream"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET picture](../api/dynamics_picture_Get.md)   
-[DELETE picture](../api/dynamics_picture_Delete.md)   
-[PATCH picture](../api/dynamics_picture_Update.md)   
 
+## See Also
+[GET picture](../api/dynamics_picture_Get.md)
+[DELETE picture](../api/dynamics_picture_Delete.md)
+[PATCH picture](../api/dynamics_picture_Update.md)

@@ -7,33 +7,33 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # customerFinancialDetail resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a customer financial detail in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET customerFinancialDetail](../api/dynamics_customerFinancialDetail_Get.md)|customerFinancialDetail|Gets a customer financial detail object.|
 
 
-
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[customer](dynamics_customer.md)|customer |Gets the customer of the customerFinancialDetail.|
-
 
 ## Properties
 
@@ -45,7 +45,6 @@ Represents a customer financial detail in [!INCLUDE[d365fin_long_md](../../inclu
 |totalSalesExcludingTax|decimal|Total sales exluding tax.|
 |overdueAmount|decimal|Overdue amount for the customer financial detail.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the customerFinancialDetail resource.
@@ -53,14 +52,15 @@ Here is a JSON representation of the customerFinancialDetail resource.
 
 ```json
 {
-   "id": "GUID",
-   "number": "string",
-   "balance": "decimal",
-   "totalSalesExcludingTax": "decimal",
-   "overdueAmount": "decimal"
+    "id": "GUID",
+    "number": "string",
+    "balance": "decimal",
+    "totalSalesExcludingTax": "decimal",
+    "overdueAmount": "decimal"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET customerFinancialDetail](../api/dynamics_customerFinancialDetail_Get.md)   
 
+## See Also
+[GET customerFinancialDetail](../api/dynamics_customerFinancialDetail_Get.md)

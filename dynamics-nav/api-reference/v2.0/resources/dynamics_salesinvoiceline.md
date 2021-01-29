@@ -7,20 +7,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2021
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # salesInvoiceLine resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a sales invoice line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesInvoiceLine](../api/dynamics_salesInvoiceLine_Get.md)|salesInvoiceLine|Gets a sales invoice line object.|
@@ -29,19 +32,16 @@ Represents a sales invoice line in [!INCLUDE[d365fin_long_md](../../includes/d36
 |[PATCH salesInvoiceLine](../api/dynamics_salesInvoiceLine_Update.md)|salesInvoiceLine|Updates a sales invoice line object.|
 
 
-
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[salesInvoice](dynamics_salesinvoice.md)|salesInvoice |Gets the salesinvoice of the salesInvoiceLine.|
 |[item](dynamics_item.md)|item |Gets the item of the salesInvoiceLine.|
 |[account](dynamics_account.md)|account |Gets the account of the salesInvoiceLine.|
 |[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the salesInvoiceLine.|
 |[itemVariant](dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the salesInvoiceLine.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesInvoiceLine.|
-
 
 ## Properties
 
@@ -74,7 +74,6 @@ Represents a sales invoice line in [!INCLUDE[d365fin_long_md](../../includes/d36
 |shipmentDate|date|The date the item in the line is expected to ship.|
 |itemVariantId|GUID|The ID of the item variant in the sales invoice line.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the salesInvoiceLine resource.
@@ -82,38 +81,39 @@ Here is a JSON representation of the salesInvoiceLine resource.
 
 ```json
 {
-   "id": "GUID",
-   "documentId": "GUID",
-   "sequence": "integer",
-   "itemId": "GUID",
-   "accountId": "GUID",
-   "lineType": "NAV.invoiceLineAggLineType",
-   "lineObjectNumber": "string",
-   "description": "string",
-   "unitOfMeasureId": "GUID",
-   "unitOfMeasureCode": "string",
-   "unitPrice": "decimal",
-   "quantity": "decimal",
-   "discountAmount": "decimal",
-   "discountPercent": "decimal",
-   "discountAppliedBeforeTax": "boolean",
-   "amountExcludingTax": "decimal",
-   "taxCode": "string",
-   "taxPercent": "decimal",
-   "totalTaxAmount": "decimal",
-   "amountIncludingTax": "decimal",
-   "invoiceDiscountAllocation": "decimal",
-   "netAmount": "decimal",
-   "netTaxAmount": "decimal",
-   "netAmountIncludingTax": "decimal",
-   "shipmentDate": "date",
-   "itemVariantId": "GUID"
+    "id": "GUID",
+    "documentId": "GUID",
+    "sequence": "integer",
+    "itemId": "GUID",
+    "accountId": "GUID",
+    "lineType": "NAV.invoiceLineAggLineType",
+    "lineObjectNumber": "string",
+    "description": "string",
+    "unitOfMeasureId": "GUID",
+    "unitOfMeasureCode": "string",
+    "unitPrice": "decimal",
+    "quantity": "decimal",
+    "discountAmount": "decimal",
+    "discountPercent": "decimal",
+    "discountAppliedBeforeTax": "boolean",
+    "amountExcludingTax": "decimal",
+    "taxCode": "string",
+    "taxPercent": "decimal",
+    "totalTaxAmount": "decimal",
+    "amountIncludingTax": "decimal",
+    "invoiceDiscountAllocation": "decimal",
+    "netAmount": "decimal",
+    "netTaxAmount": "decimal",
+    "netAmountIncludingTax": "decimal",
+    "shipmentDate": "date",
+    "itemVariantId": "GUID"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET salesInvoiceLine](../api/dynamics_salesInvoiceLine_Get.md)   
-[DELETE salesInvoiceLine](../api/dynamics_salesInvoiceLine_Delete.md)   
-[POST salesInvoiceLine](../api/dynamics_salesInvoiceLine_Create.md)   
-[PATCH salesInvoiceLine](../api/dynamics_salesInvoiceLine_Update.md)   
 
+## See Also
+[GET salesInvoiceLine](../api/dynamics_salesInvoiceLine_Get.md)
+[DELETE salesInvoiceLine](../api/dynamics_salesInvoiceLine_Delete.md)
+[POST salesInvoiceLine](../api/dynamics_salesInvoiceLine_Create.md)
+[PATCH salesInvoiceLine](../api/dynamics_salesInvoiceLine_Update.md)

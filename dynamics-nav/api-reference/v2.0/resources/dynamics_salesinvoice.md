@@ -7,20 +7,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # salesInvoice resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesInvoice](../api/dynamics_salesInvoice_Get.md)|salesInvoice|Gets a sales invoice object.|
@@ -28,55 +31,48 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |[POST salesInvoice](../api/dynamics_salesInvoice_Create.md)|salesInvoice|Creates a sales invoice object.|
 |[PATCH salesInvoice](../api/dynamics_salesInvoice_Update.md)|salesInvoice|Updates a sales invoice object.|
 
-
 ## Bound Actions
-The salesInvoice resource type offers a bound action called `cancelAndSend` which posts the corresponding salesInvoice batch.
 
- Posting the salesInvoice batch is illustrated in the following example:
-`CANCELANDSEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.cancelAndSend`.
+The salesInvoice resource type offers a bound action called `cancelAndSend` which posts the corresponding salesInvoice batch.
+Posting the salesInvoice batch is illustrated in the following example:
+`CANCELANDSEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.cancelAndSend`
 
 The response has no content; the response code is 204.
 
 The salesInvoice resource type offers a bound action called `cancel` which posts the corresponding salesInvoice batch.
-
- Posting the salesInvoice batch is illustrated in the following example:
-`CANCEL https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.cancel`.
+Posting the salesInvoice batch is illustrated in the following example:
+`CANCEL https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.cancel`
 
 The response has no content; the response code is 204.
 
 The salesInvoice resource type offers a bound action called `makeCorrectiveCreditMemo` which posts the corresponding salesInvoice batch.
-
- Posting the salesInvoice batch is illustrated in the following example:
-`MAKECORRECTIVECREDITMEMO https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.makeCorrectiveCreditMemo`.
+Posting the salesInvoice batch is illustrated in the following example:
+`MAKECORRECTIVECREDITMEMO https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.makeCorrectiveCreditMemo`
 
 The response has no content; the response code is 204.
 
 The salesInvoice resource type offers a bound action called `postAndSend` which posts the corresponding salesInvoice batch.
-
- Posting the salesInvoice batch is illustrated in the following example:
-`POSTANDSEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.postAndSend`.
+Posting the salesInvoice batch is illustrated in the following example:
+`POSTANDSEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.postAndSend`
 
 The response has no content; the response code is 204.
 
 The salesInvoice resource type offers a bound action called `post` which posts the corresponding salesInvoice batch.
-
- Posting the salesInvoice batch is illustrated in the following example:
-`POST https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.post`.
+Posting the salesInvoice batch is illustrated in the following example:
+`POST https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.post`
 
 The response has no content; the response code is 204.
 
 The salesInvoice resource type offers a bound action called `send` which posts the corresponding salesInvoice batch.
-
- Posting the salesInvoice batch is illustrated in the following example:
-`SEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.send`.
+Posting the salesInvoice batch is illustrated in the following example:
+`SEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesInvoices({id})/Microsoft.NAV.send`
 
 The response has no content; the response code is 204.
 
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[customer](dynamics_customer.md)|customer |Gets the customer of the salesInvoice.|
 |[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the salesInvoice.|
 |[currency](dynamics_currency.md)|currency |Gets the currency of the salesInvoice.|
@@ -86,7 +82,6 @@ The response has no content; the response code is 204.
 |[pdfDocument](dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the salesInvoice.|
 |[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the salesInvoice.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesInvoice.|
-
 
 ## Properties
 
@@ -144,7 +139,6 @@ The response has no content; the response code is 204.
 |phoneNumber|string|Specifies the sales invoice's telephone number.|
 |email|string|Specifies the sales invoice's email address.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the salesInvoice resource.
@@ -152,63 +146,64 @@ Here is a JSON representation of the salesInvoice resource.
 
 ```json
 {
-   "id": "GUID",
-   "number": "string",
-   "externalDocumentNumber": "string",
-   "invoiceDate": "date",
-   "postingDate": "date",
-   "dueDate": "date",
-   "customerPurchaseOrderReference": "string",
-   "customerId": "GUID",
-   "customerNumber": "string",
-   "customerName": "string",
-   "billToName": "string",
-   "billToCustomerId": "GUID",
-   "billToCustomerNumber": "string",
-   "shipToName": "string",
-   "shipToContact": "string",
-   "sellToAddressLine1": "string",
-   "sellToAddressLine2": "string",
-   "sellToCity": "string",
-   "sellToCountry": "string",
-   "sellToState": "string",
-   "sellToPostCode": "string",
-   "billToAddressLine1": "string",
-   "billToAddressLine2": "string",
-   "billToCity": "string",
-   "billToCountry": "string",
-   "billToState": "string",
-   "billToPostCode": "string",
-   "shipToAddressLine1": "string",
-   "shipToAddressLine2": "string",
-   "shipToCity": "string",
-   "shipToCountry": "string",
-   "shipToState": "string",
-   "shipToPostCode": "string",
-   "currencyId": "GUID",
-   "currencyCode": "string",
-   "orderId": "GUID",
-   "orderNumber": "string",
-   "paymentTermsId": "GUID",
-   "shipmentMethodId": "GUID",
-   "salesperson": "string",
-   "pricesIncludeTax": "boolean",
-   "remainingAmount": "decimal",
-   "discountAmount": "decimal",
-   "discountAppliedBeforeTax": "boolean",
-   "totalAmountExcludingTax": "decimal",
-   "totalTaxAmount": "decimal",
-   "totalAmountIncludingTax": "decimal",
-   "status": "NAV.invoiceEntityAggregateStatus",
-   "lastModifiedDateTime": "datetime",
-   "phoneNumber": "string",
-   "email": "string"
+    "id": "GUID",
+    "number": "string",
+    "externalDocumentNumber": "string",
+    "invoiceDate": "date",
+    "postingDate": "date",
+    "dueDate": "date",
+    "customerPurchaseOrderReference": "string",
+    "customerId": "GUID",
+    "customerNumber": "string",
+    "customerName": "string",
+    "billToName": "string",
+    "billToCustomerId": "GUID",
+    "billToCustomerNumber": "string",
+    "shipToName": "string",
+    "shipToContact": "string",
+    "sellToAddressLine1": "string",
+    "sellToAddressLine2": "string",
+    "sellToCity": "string",
+    "sellToCountry": "string",
+    "sellToState": "string",
+    "sellToPostCode": "string",
+    "billToAddressLine1": "string",
+    "billToAddressLine2": "string",
+    "billToCity": "string",
+    "billToCountry": "string",
+    "billToState": "string",
+    "billToPostCode": "string",
+    "shipToAddressLine1": "string",
+    "shipToAddressLine2": "string",
+    "shipToCity": "string",
+    "shipToCountry": "string",
+    "shipToState": "string",
+    "shipToPostCode": "string",
+    "currencyId": "GUID",
+    "currencyCode": "string",
+    "orderId": "GUID",
+    "orderNumber": "string",
+    "paymentTermsId": "GUID",
+    "shipmentMethodId": "GUID",
+    "salesperson": "string",
+    "pricesIncludeTax": "boolean",
+    "remainingAmount": "decimal",
+    "discountAmount": "decimal",
+    "discountAppliedBeforeTax": "boolean",
+    "totalAmountExcludingTax": "decimal",
+    "totalTaxAmount": "decimal",
+    "totalAmountIncludingTax": "decimal",
+    "status": "NAV.invoiceEntityAggregateStatus",
+    "lastModifiedDateTime": "datetime",
+    "phoneNumber": "string",
+    "email": "string"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET salesInvoice](../api/dynamics_salesInvoice_Get.md)   
-[DELETE salesInvoice](../api/dynamics_salesInvoice_Delete.md)   
-[POST salesInvoice](../api/dynamics_salesInvoice_Create.md)   
-[PATCH salesInvoice](../api/dynamics_salesInvoice_Update.md)   
 
+## See Also
+[GET salesInvoice](../api/dynamics_salesInvoice_Get.md)
+[DELETE salesInvoice](../api/dynamics_salesInvoice_Delete.md)
+[POST salesInvoice](../api/dynamics_salesInvoice_Create.md)
+[PATCH salesInvoice](../api/dynamics_salesInvoice_Update.md)

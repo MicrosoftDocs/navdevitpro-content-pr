@@ -7,20 +7,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # vendorPayment resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a vendor payment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET vendorPayment](../api/dynamics_vendorPayment_Get.md)|vendorPayment|Gets a vendor payment object.|
@@ -29,17 +32,14 @@ Represents a vendor payment in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 |[PATCH vendorPayment](../api/dynamics_vendorPayment_Update.md)|vendorPayment|Updates a vendor payment object.|
 
 
-
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[customerPaymentJournal](dynamics_customerpaymentjournal.md)|customerPaymentJournal |Gets the customerpaymentjournal of the vendorPayment.|
 |[vendor](dynamics_vendor.md)|vendor |Gets the vendor of the vendorPayment.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the vendorPayment.|
 |[vendorPaymentJournal](dynamics_vendorpaymentjournal.md)|vendorPaymentJournal |Gets the vendorpaymentjournal of the vendorPayment.|
-
 
 ## Properties
 
@@ -61,7 +61,6 @@ Represents a vendor payment in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 |comment|string|A user specified comment on the vendor payment.|
 |lastModifiedDateTime|datetime|The last datetime the vendor payment was modified. Read-Only.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the vendorPayment resource.
@@ -69,27 +68,28 @@ Here is a JSON representation of the vendorPayment resource.
 
 ```json
 {
-   "id": "GUID",
-   "journalId": "GUID",
-   "journalDisplayName": "string",
-   "lineNumber": "integer",
-   "vendorId": "GUID",
-   "vendorNumber": "string",
-   "postingDate": "date",
-   "documentNumber": "string",
-   "externalDocumentNumber": "string",
-   "amount": "decimal",
-   "appliesToInvoiceId": "GUID",
-   "appliesToInvoiceNumber": "string",
-   "description": "string",
-   "comment": "string",
-   "lastModifiedDateTime": "datetime"
+    "id": "GUID",
+    "journalId": "GUID",
+    "journalDisplayName": "string",
+    "lineNumber": "integer",
+    "vendorId": "GUID",
+    "vendorNumber": "string",
+    "postingDate": "date",
+    "documentNumber": "string",
+    "externalDocumentNumber": "string",
+    "amount": "decimal",
+    "appliesToInvoiceId": "GUID",
+    "appliesToInvoiceNumber": "string",
+    "description": "string",
+    "comment": "string",
+    "lastModifiedDateTime": "datetime"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET vendorPayment](../api/dynamics_vendorPayment_Get.md)   
-[DELETE vendorPayment](../api/dynamics_vendorPayment_Delete.md)   
-[POST vendorPayment](../api/dynamics_vendorPayment_Create.md)   
-[PATCH vendorPayment](../api/dynamics_vendorPayment_Update.md)   
 
+## See Also
+[GET vendorPayment](../api/dynamics_vendorPayment_Get.md)
+[DELETE vendorPayment](../api/dynamics_vendorPayment_Delete.md)
+[POST vendorPayment](../api/dynamics_vendorPayment_Create.md)
+[PATCH vendorPayment](../api/dynamics_vendorPayment_Update.md)

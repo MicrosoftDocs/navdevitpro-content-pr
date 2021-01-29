@@ -7,20 +7,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2021
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # salesQuoteLine resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a sales quote line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesQuoteLine](../api/dynamics_salesQuoteLine_Get.md)|salesQuoteLine|Gets a sales quote line object.|
@@ -29,19 +32,16 @@ Represents a sales quote line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[PATCH salesQuoteLine](../api/dynamics_salesQuoteLine_Update.md)|salesQuoteLine|Updates a sales quote line object.|
 
 
-
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[salesQuote](dynamics_salesquote.md)|salesQuote |Gets the salesquote of the salesQuoteLine.|
 |[item](dynamics_item.md)|item |Gets the item of the salesQuoteLine.|
 |[account](dynamics_account.md)|account |Gets the account of the salesQuoteLine.|
 |[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the salesQuoteLine.|
 |[itemVariant](dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the salesQuoteLine.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesQuoteLine.|
-
 
 ## Properties
 
@@ -72,7 +72,6 @@ Represents a sales quote line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |netAmountIncludingTax|decimal|The net amount including tax is the total net amount including tax. Read-Only.|
 |itemVariantId|GUID|The ID of the item variant in the sales quote line.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the salesQuoteLine resource.
@@ -80,36 +79,37 @@ Here is a JSON representation of the salesQuoteLine resource.
 
 ```json
 {
-   "id": "GUID",
-   "documentId": "GUID",
-   "sequence": "integer",
-   "itemId": "GUID",
-   "accountId": "GUID",
-   "lineType": "NAV.invoiceLineAggLineType",
-   "lineObjectNumber": "string",
-   "description": "string",
-   "unitOfMeasureId": "GUID",
-   "unitOfMeasureCode": "string",
-   "unitPrice": "decimal",
-   "quantity": "decimal",
-   "discountAmount": "decimal",
-   "discountPercent": "decimal",
-   "discountAppliedBeforeTax": "boolean",
-   "amountExcludingTax": "decimal",
-   "taxCode": "string",
-   "taxPercent": "decimal",
-   "totalTaxAmount": "decimal",
-   "amountIncludingTax": "decimal",
-   "netAmount": "decimal",
-   "netTaxAmount": "decimal",
-   "netAmountIncludingTax": "decimal",
-   "itemVariantId": "GUID"
+    "id": "GUID",
+    "documentId": "GUID",
+    "sequence": "integer",
+    "itemId": "GUID",
+    "accountId": "GUID",
+    "lineType": "NAV.invoiceLineAggLineType",
+    "lineObjectNumber": "string",
+    "description": "string",
+    "unitOfMeasureId": "GUID",
+    "unitOfMeasureCode": "string",
+    "unitPrice": "decimal",
+    "quantity": "decimal",
+    "discountAmount": "decimal",
+    "discountPercent": "decimal",
+    "discountAppliedBeforeTax": "boolean",
+    "amountExcludingTax": "decimal",
+    "taxCode": "string",
+    "taxPercent": "decimal",
+    "totalTaxAmount": "decimal",
+    "amountIncludingTax": "decimal",
+    "netAmount": "decimal",
+    "netTaxAmount": "decimal",
+    "netAmountIncludingTax": "decimal",
+    "itemVariantId": "GUID"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET salesQuoteLine](../api/dynamics_salesQuoteLine_Get.md)   
-[DELETE salesQuoteLine](../api/dynamics_salesQuoteLine_Delete.md)   
-[POST salesQuoteLine](../api/dynamics_salesQuoteLine_Create.md)   
-[PATCH salesQuoteLine](../api/dynamics_salesQuoteLine_Update.md)   
 
+## See Also
+[GET salesQuoteLine](../api/dynamics_salesQuoteLine_Get.md)
+[DELETE salesQuoteLine](../api/dynamics_salesQuoteLine_Delete.md)
+[POST salesQuoteLine](../api/dynamics_salesQuoteLine_Create.md)
+[PATCH salesQuoteLine](../api/dynamics_salesQuoteLine_Update.md)

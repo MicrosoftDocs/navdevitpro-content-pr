@@ -7,20 +7,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # vendor resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET vendor](../api/dynamics_vendor_Get.md)|vendor|Gets a vendor object.|
@@ -29,12 +32,10 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 |[PATCH vendor](../api/dynamics_vendor_Update.md)|vendor|Updates a vendor object.|
 
 
-
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the vendor.|
 |[currency](dynamics_currency.md)|currency |Gets the currency of the vendor.|
 |[paymentTerm](dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the vendor.|
@@ -42,7 +43,6 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 |[picture](dynamics_picture.md)|picture |Gets the picture of the vendor.|
 |[defaultDimensions](dynamics_defaultdimension.md)|defaultDimensions |Gets the defaultdimensions of the vendor.|
 |[agedAccountsPayable](dynamics_agedaccountspayable.md)|agedAccountsPayable |Gets the agedaccountspayable of the vendor.|
-
 
 ## Properties
 
@@ -71,7 +71,6 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 |balance|decimal|Specifies vendor's total balance.|
 |lastModifiedDateTime|datetime|The last datetime the vendor was modified. Read-Only.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the vendor resource.
@@ -79,34 +78,35 @@ Here is a JSON representation of the vendor resource.
 
 ```json
 {
-   "id": "GUID",
-   "number": "string",
-   "displayName": "string",
-   "addressLine1": "string",
-   "addressLine2": "string",
-   "city": "string",
-   "state": "string",
-   "country": "string",
-   "postalCode": "string",
-   "phoneNumber": "string",
-   "email": "string",
-   "website": "string",
-   "taxRegistrationNumber": "string",
-   "currencyId": "GUID",
-   "currencyCode": "string",
-   "irs1099Code": "string",
-   "paymentTermsId": "GUID",
-   "paymentMethodId": "GUID",
-   "taxLiable": "boolean",
-   "blocked": "NAV.vendorBlocked",
-   "balance": "decimal",
-   "lastModifiedDateTime": "datetime"
+    "id": "GUID",
+    "number": "string",
+    "displayName": "string",
+    "addressLine1": "string",
+    "addressLine2": "string",
+    "city": "string",
+    "state": "string",
+    "country": "string",
+    "postalCode": "string",
+    "phoneNumber": "string",
+    "email": "string",
+    "website": "string",
+    "taxRegistrationNumber": "string",
+    "currencyId": "GUID",
+    "currencyCode": "string",
+    "irs1099Code": "string",
+    "paymentTermsId": "GUID",
+    "paymentMethodId": "GUID",
+    "taxLiable": "boolean",
+    "blocked": "NAV.vendorBlocked",
+    "balance": "decimal",
+    "lastModifiedDateTime": "datetime"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET vendor](../api/dynamics_vendor_Get.md)   
-[DELETE vendor](../api/dynamics_vendor_Delete.md)   
-[POST vendor](../api/dynamics_vendor_Create.md)   
-[PATCH vendor](../api/dynamics_vendor_Update.md)   
 
+## See Also
+[GET vendor](../api/dynamics_vendor_Get.md)
+[DELETE vendor](../api/dynamics_vendor_Delete.md)
+[POST vendor](../api/dynamics_vendor_Create.md)
+[PATCH vendor](../api/dynamics_vendor_Update.md)

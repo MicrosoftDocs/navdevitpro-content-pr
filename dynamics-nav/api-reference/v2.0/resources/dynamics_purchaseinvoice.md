@@ -7,20 +7,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # purchaseInvoice resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET purchaseInvoice](../api/dynamics_purchaseInvoice_Get.md)|purchaseInvoice|Gets a purchase invoice object.|
@@ -28,20 +31,18 @@ Represents a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[POST purchaseInvoice](../api/dynamics_purchaseInvoice_Create.md)|purchaseInvoice|Creates a purchase invoice object.|
 |[PATCH purchaseInvoice](../api/dynamics_purchaseInvoice_Update.md)|purchaseInvoice|Updates a purchase invoice object.|
 
-
 ## Bound Actions
-The purchaseInvoice resource type offers a bound action called `post` which posts the corresponding purchaseInvoice batch.
 
- Posting the purchaseInvoice batch is illustrated in the following example:
-`POST https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/purchaseInvoices({id})/Microsoft.NAV.post`.
+The purchaseInvoice resource type offers a bound action called `post` which posts the corresponding purchaseInvoice batch.
+Posting the purchaseInvoice batch is illustrated in the following example:
+`POST https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/purchaseInvoices({id})/Microsoft.NAV.post`
 
 The response has no content; the response code is 204.
 
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[vendor](dynamics_vendor.md)|vendor |Gets the vendor of the purchaseInvoice.|
 |[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the purchaseInvoice.|
 |[currency](dynamics_currency.md)|currency |Gets the currency of the purchaseInvoice.|
@@ -49,7 +50,6 @@ The response has no content; the response code is 204.
 |[pdfDocument](dynamics_pdfdocument.md)|pdfDocument |Gets the pdfdocument of the purchaseInvoice.|
 |[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the purchaseInvoice.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the purchaseInvoice.|
-
 
 ## Properties
 
@@ -99,7 +99,6 @@ The response has no content; the response code is 204.
 |status|NAV.invoiceEntityAggregateStatus|The status of the purchase invoice. It can be " ", "Draft", "In Review", "Open", "Paid", "Canceled" or "Corrective".|
 |lastModifiedDateTime|datetime|The last datetime the purchase invoice was modified. Read-Only.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the purchaseInvoice resource.
@@ -107,55 +106,56 @@ Here is a JSON representation of the purchaseInvoice resource.
 
 ```json
 {
-   "id": "GUID",
-   "number": "string",
-   "invoiceDate": "date",
-   "postingDate": "date",
-   "dueDate": "date",
-   "vendorInvoiceNumber": "string",
-   "vendorId": "GUID",
-   "vendorNumber": "string",
-   "vendorName": "string",
-   "payToName": "string",
-   "payToContact": "string",
-   "payToVendorId": "GUID",
-   "payToVendorNumber": "string",
-   "shipToName": "string",
-   "shipToContact": "string",
-   "buyFromAddressLine1": "string",
-   "buyFromAddressLine2": "string",
-   "buyFromCity": "string",
-   "buyFromCountry": "string",
-   "buyFromState": "string",
-   "buyFromPostCode": "string",
-   "shipToAddressLine1": "string",
-   "shipToAddressLine2": "string",
-   "shipToCity": "string",
-   "shipToCountry": "string",
-   "shipToState": "string",
-   "shipToPostCode": "string",
-   "payToAddressLine1": "string",
-   "payToAddressLine2": "string",
-   "payToCity": "string",
-   "payToCountry": "string",
-   "payToState": "string",
-   "payToPostCode": "string",
-   "currencyId": "GUID",
-   "currencyCode": "string",
-   "pricesIncludeTax": "boolean",
-   "discountAmount": "decimal",
-   "discountAppliedBeforeTax": "boolean",
-   "totalAmountExcludingTax": "decimal",
-   "totalTaxAmount": "decimal",
-   "totalAmountIncludingTax": "decimal",
-   "status": "NAV.invoiceEntityAggregateStatus",
-   "lastModifiedDateTime": "datetime"
+    "id": "GUID",
+    "number": "string",
+    "invoiceDate": "date",
+    "postingDate": "date",
+    "dueDate": "date",
+    "vendorInvoiceNumber": "string",
+    "vendorId": "GUID",
+    "vendorNumber": "string",
+    "vendorName": "string",
+    "payToName": "string",
+    "payToContact": "string",
+    "payToVendorId": "GUID",
+    "payToVendorNumber": "string",
+    "shipToName": "string",
+    "shipToContact": "string",
+    "buyFromAddressLine1": "string",
+    "buyFromAddressLine2": "string",
+    "buyFromCity": "string",
+    "buyFromCountry": "string",
+    "buyFromState": "string",
+    "buyFromPostCode": "string",
+    "shipToAddressLine1": "string",
+    "shipToAddressLine2": "string",
+    "shipToCity": "string",
+    "shipToCountry": "string",
+    "shipToState": "string",
+    "shipToPostCode": "string",
+    "payToAddressLine1": "string",
+    "payToAddressLine2": "string",
+    "payToCity": "string",
+    "payToCountry": "string",
+    "payToState": "string",
+    "payToPostCode": "string",
+    "currencyId": "GUID",
+    "currencyCode": "string",
+    "pricesIncludeTax": "boolean",
+    "discountAmount": "decimal",
+    "discountAppliedBeforeTax": "boolean",
+    "totalAmountExcludingTax": "decimal",
+    "totalTaxAmount": "decimal",
+    "totalAmountIncludingTax": "decimal",
+    "status": "NAV.invoiceEntityAggregateStatus",
+    "lastModifiedDateTime": "datetime"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET purchaseInvoice](../api/dynamics_purchaseInvoice_Get.md)   
-[DELETE purchaseInvoice](../api/dynamics_purchaseInvoice_Delete.md)   
-[POST purchaseInvoice](../api/dynamics_purchaseInvoice_Create.md)   
-[PATCH purchaseInvoice](../api/dynamics_purchaseInvoice_Update.md)   
 
+## See Also
+[GET purchaseInvoice](../api/dynamics_purchaseInvoice_Get.md)
+[DELETE purchaseInvoice](../api/dynamics_purchaseInvoice_Delete.md)
+[POST purchaseInvoice](../api/dynamics_purchaseInvoice_Create.md)
+[PATCH purchaseInvoice](../api/dynamics_purchaseInvoice_Update.md)

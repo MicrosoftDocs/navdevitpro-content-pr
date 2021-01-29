@@ -7,20 +7,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2021
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # journalLine resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a journal line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET journalLine](../api/dynamics_journalLine_Get.md)|journalLine|Gets a journal line object.|
@@ -29,18 +32,15 @@ Represents a journal line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 |[PATCH journalLine](../api/dynamics_journalLine_Update.md)|journalLine|Updates a journal line object.|
 
 
-
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[journal](dynamics_journal.md)|journal |Gets the journal of the journalLine.|
 |[customerPaymentJournal](dynamics_customerpaymentjournal.md)|customerPaymentJournal |Gets the customerpaymentjournal of the journalLine.|
 |[account](dynamics_account.md)|account |Gets the account of the journalLine.|
 |[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the journalLine.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the journalLine.|
-
 
 ## Properties
 
@@ -65,7 +65,6 @@ Represents a journal line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 |balancingAccountNumber|string|The balancing G/L Account number.|
 |lastModifiedDateTime|datetime|The last datetime the journal line was modified. Read-Only.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the journalLine resource.
@@ -73,30 +72,31 @@ Here is a JSON representation of the journalLine resource.
 
 ```json
 {
-   "id": "GUID",
-   "journalId": "GUID",
-   "journalDisplayName": "string",
-   "lineNumber": "integer",
-   "accountType": "NAV.genJournalAccountType",
-   "accountId": "GUID",
-   "accountNumber": "string",
-   "postingDate": "date",
-   "documentNumber": "string",
-   "externalDocumentNumber": "string",
-   "amount": "decimal",
-   "description": "string",
-   "comment": "string",
-   "taxCode": "string",
-   "balanceAccountType": "NAV.genJournalAccountType",
-   "balancingAccountId": "GUID",
-   "balancingAccountNumber": "string",
-   "lastModifiedDateTime": "datetime"
+    "id": "GUID",
+    "journalId": "GUID",
+    "journalDisplayName": "string",
+    "lineNumber": "integer",
+    "accountType": "NAV.genJournalAccountType",
+    "accountId": "GUID",
+    "accountNumber": "string",
+    "postingDate": "date",
+    "documentNumber": "string",
+    "externalDocumentNumber": "string",
+    "amount": "decimal",
+    "description": "string",
+    "comment": "string",
+    "taxCode": "string",
+    "balanceAccountType": "NAV.genJournalAccountType",
+    "balancingAccountId": "GUID",
+    "balancingAccountNumber": "string",
+    "lastModifiedDateTime": "datetime"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET journalLine](../api/dynamics_journalLine_Get.md)   
-[DELETE journalLine](../api/dynamics_journalLine_Delete.md)   
-[POST journalLine](../api/dynamics_journalLine_Create.md)   
-[PATCH journalLine](../api/dynamics_journalLine_Update.md)   
 
+## See Also
+[GET journalLine](../api/dynamics_journalLine_Get.md)
+[DELETE journalLine](../api/dynamics_journalLine_Delete.md)
+[POST journalLine](../api/dynamics_journalLine_Create.md)
+[PATCH journalLine](../api/dynamics_journalLine_Update.md)

@@ -7,26 +7,26 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # cashFlowStatement resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a cash flow statement in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET cashFlowStatement](../api/dynamics_cashFlowStatement_Get.md)|cashFlowStatement|Gets a cash flow statement object.|
-
-
-
 
 
 
@@ -42,7 +42,6 @@ Represents a cash flow statement in [!INCLUDE[d365fin_long_md](../../includes/d3
 |indentation|integer|The cash flow statement item indentation used in report layout.|
 |dateFilter|date|The date filter used to calculate the cash flow statement items.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the cashFlowStatement resource.
@@ -50,16 +49,17 @@ Here is a JSON representation of the cashFlowStatement resource.
 
 ```json
 {
-   "id": "GUID",
-   "lineNumber": "integer",
-   "display": "string",
-   "netChange": "decimal",
-   "lineType": "string",
-   "indentation": "integer",
-   "dateFilter": "date"
+    "id": "GUID",
+    "lineNumber": "integer",
+    "display": "string",
+    "netChange": "decimal",
+    "lineType": "string",
+    "indentation": "integer",
+    "dateFilter": "date"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET cashFlowStatement](../api/dynamics_cashFlowStatement_Get.md)   
 
+## See Also
+[GET cashFlowStatement](../api/dynamics_cashFlowStatement_Get.md)

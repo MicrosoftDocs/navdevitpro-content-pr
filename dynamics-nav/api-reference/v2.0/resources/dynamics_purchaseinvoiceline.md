@@ -7,20 +7,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2021
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # purchaseInvoiceLine resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a purchase invoice line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Get.md)|purchaseInvoiceLine|Gets a purchase invoice line object.|
@@ -29,19 +32,16 @@ Represents a purchase invoice line in [!INCLUDE[d365fin_long_md](../../includes/
 |[PATCH purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Update.md)|purchaseInvoiceLine|Updates a purchase invoice line object.|
 
 
-
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[purchaseInvoice](dynamics_purchaseinvoice.md)|purchaseInvoice |Gets the purchaseinvoice of the purchaseInvoiceLine.|
 |[item](dynamics_item.md)|item |Gets the item of the purchaseInvoiceLine.|
 |[account](dynamics_account.md)|account |Gets the account of the purchaseInvoiceLine.|
 |[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the purchaseInvoiceLine.|
 |[itemVariant](dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the purchaseInvoiceLine.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the purchaseInvoiceLine.|
-
 
 ## Properties
 
@@ -74,7 +74,6 @@ Represents a purchase invoice line in [!INCLUDE[d365fin_long_md](../../includes/
 |expectedReceiptDate|date|The date the item in the line is expected to be received.|
 |itemVariantId|GUID|The ID of the item variant in the purchase invoice line.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the purchaseInvoiceLine resource.
@@ -82,38 +81,39 @@ Here is a JSON representation of the purchaseInvoiceLine resource.
 
 ```json
 {
-   "id": "GUID",
-   "documentId": "GUID",
-   "sequence": "integer",
-   "itemId": "GUID",
-   "accountId": "GUID",
-   "lineType": "NAV.invoiceLineAggLineType",
-   "lineObjectNumber": "string",
-   "description": "string",
-   "unitOfMeasureId": "GUID",
-   "unitOfMeasureCode": "string",
-   "unitCost": "decimal",
-   "quantity": "decimal",
-   "discountAmount": "decimal",
-   "discountPercent": "decimal",
-   "discountAppliedBeforeTax": "boolean",
-   "amountExcludingTax": "decimal",
-   "taxCode": "string",
-   "taxPercent": "decimal",
-   "totalTaxAmount": "decimal",
-   "amountIncludingTax": "decimal",
-   "invoiceDiscountAllocation": "decimal",
-   "netAmount": "decimal",
-   "netTaxAmount": "decimal",
-   "netAmountIncludingTax": "decimal",
-   "expectedReceiptDate": "date",
-   "itemVariantId": "GUID"
+    "id": "GUID",
+    "documentId": "GUID",
+    "sequence": "integer",
+    "itemId": "GUID",
+    "accountId": "GUID",
+    "lineType": "NAV.invoiceLineAggLineType",
+    "lineObjectNumber": "string",
+    "description": "string",
+    "unitOfMeasureId": "GUID",
+    "unitOfMeasureCode": "string",
+    "unitCost": "decimal",
+    "quantity": "decimal",
+    "discountAmount": "decimal",
+    "discountPercent": "decimal",
+    "discountAppliedBeforeTax": "boolean",
+    "amountExcludingTax": "decimal",
+    "taxCode": "string",
+    "taxPercent": "decimal",
+    "totalTaxAmount": "decimal",
+    "amountIncludingTax": "decimal",
+    "invoiceDiscountAllocation": "decimal",
+    "netAmount": "decimal",
+    "netTaxAmount": "decimal",
+    "netAmountIncludingTax": "decimal",
+    "expectedReceiptDate": "date",
+    "itemVariantId": "GUID"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Get.md)   
-[DELETE purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Delete.md)   
-[POST purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Create.md)   
-[PATCH purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Update.md)   
 
+## See Also
+[GET purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Get.md)
+[DELETE purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Delete.md)
+[POST purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Create.md)
+[PATCH purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Update.md)

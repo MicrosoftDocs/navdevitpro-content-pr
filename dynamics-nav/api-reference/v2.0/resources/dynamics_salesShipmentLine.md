@@ -7,35 +7,35 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2021
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # salesShipmentLine resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a sales shipment line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesShipmentLine](../api/dynamics_salesShipmentLine_Get.md)|salesShipmentLine|Gets a sales shipment line object.|
 
 
-
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[salesShipment](dynamics_salesshipment.md)|salesShipment |Gets the salesshipment of the salesShipmentLine.|
 |[account](dynamics_account.md)|account |Gets the account of the salesShipmentLine.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesShipmentLine.|
-
 
 ## Properties
 
@@ -55,7 +55,6 @@ Represents a sales shipment line in [!INCLUDE[d365fin_long_md](../../includes/d3
 |taxPercent|decimal|The tax percent for the line. Read-Only.|
 |shipmentDate|date|The date the item in the line is expected to ship.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the salesShipmentLine resource.
@@ -63,22 +62,23 @@ Here is a JSON representation of the salesShipmentLine resource.
 
 ```json
 {
-   "id": "GUID",
-   "documentId": "GUID",
-   "documentNo": "string",
-   "sequence": "integer",
-   "lineType": "NAV.salesLineType",
-   "lineObjectNumber": "string",
-   "description": "string",
-   "unitOfMeasureCode": "string",
-   "unitPrice": "decimal",
-   "quantity": "decimal",
-   "discountPercent": "decimal",
-   "taxPercent": "decimal",
-   "shipmentDate": "date"
+    "id": "GUID",
+    "documentId": "GUID",
+    "documentNo": "string",
+    "sequence": "integer",
+    "lineType": "NAV.salesLineType",
+    "lineObjectNumber": "string",
+    "description": "string",
+    "unitOfMeasureCode": "string",
+    "unitPrice": "decimal",
+    "quantity": "decimal",
+    "discountPercent": "decimal",
+    "taxPercent": "decimal",
+    "shipmentDate": "date"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET salesShipmentLine](../api/dynamics_salesShipmentLine_Get.md)   
 
+## See Also
+[GET salesShipmentLine](../api/dynamics_salesShipmentLine_Get.md)

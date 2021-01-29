@@ -7,20 +7,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # employee resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET employee](../api/dynamics_employee_Get.md)|employee|Gets a employee object.|
@@ -29,17 +32,14 @@ Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 |[PATCH employee](../api/dynamics_employee_Update.md)|employee|Updates a employee object.|
 
 
-
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the employee.|
 |[picture](dynamics_picture.md)|picture |Gets the picture of the employee.|
 |[defaultDimensions](dynamics_defaultdimension.md)|defaultDimensions |Gets the defaultdimensions of the employee.|
 |[timeRegistrationEntries](dynamics_timeregistrationentry.md)|timeRegistrationEntries |Gets the timeregistrationentries of the employee.|
-
 
 ## Properties
 
@@ -69,7 +69,6 @@ Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 |statisticsGroupCode|string|The employee's statistics group code.|
 |lastModifiedDateTime|datetime|The last datetime the employee was modified. Read-Only.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the employee resource.
@@ -77,35 +76,36 @@ Here is a JSON representation of the employee resource.
 
 ```json
 {
-   "id": "GUID",
-   "number": "string",
-   "displayName": "string",
-   "givenName": "string",
-   "middleName": "string",
-   "surname": "string",
-   "jobTitle": "string",
-   "addressLine1": "string",
-   "addressLine2": "string",
-   "city": "string",
-   "state": "string",
-   "country": "string",
-   "postalCode": "string",
-   "phoneNumber": "string",
-   "mobilePhone": "string",
-   "email": "string",
-   "personalEmail": "string",
-   "employmentDate": "date",
-   "terminationDate": "date",
-   "status": "NAV.employeeStatus",
-   "birthDate": "date",
-   "statisticsGroupCode": "string",
-   "lastModifiedDateTime": "datetime"
+    "id": "GUID",
+    "number": "string",
+    "displayName": "string",
+    "givenName": "string",
+    "middleName": "string",
+    "surname": "string",
+    "jobTitle": "string",
+    "addressLine1": "string",
+    "addressLine2": "string",
+    "city": "string",
+    "state": "string",
+    "country": "string",
+    "postalCode": "string",
+    "phoneNumber": "string",
+    "mobilePhone": "string",
+    "email": "string",
+    "personalEmail": "string",
+    "employmentDate": "date",
+    "terminationDate": "date",
+    "status": "NAV.employeeStatus",
+    "birthDate": "date",
+    "statisticsGroupCode": "string",
+    "lastModifiedDateTime": "datetime"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET employee](../api/dynamics_employee_Get.md)   
-[DELETE employee](../api/dynamics_employee_Delete.md)   
-[POST employee](../api/dynamics_employee_Create.md)   
-[PATCH employee](../api/dynamics_employee_Update.md)   
 
+## See Also
+[GET employee](../api/dynamics_employee_Get.md)
+[DELETE employee](../api/dynamics_employee_Delete.md)
+[POST employee](../api/dynamics_employee_Create.md)
+[PATCH employee](../api/dynamics_employee_Update.md)

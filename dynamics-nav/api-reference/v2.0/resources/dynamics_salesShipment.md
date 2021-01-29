@@ -7,38 +7,38 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2021
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # salesShipment resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a sales shipment in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesShipment](../api/dynamics_salesShipment_Get.md)|salesShipment|Gets a sales shipment object.|
 
 
-
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[customer](dynamics_customer.md)|customer |Gets the customer of the salesShipment.|
 |[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the salesShipment.|
 |[paymentTerm](dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the salesShipment.|
 |[shipmentMethod](dynamics_shipmentmethod.md)|shipmentMethod |Gets the shipmentmethod of the salesShipment.|
 |[salesShipmentLines](dynamics_salesshipmentline.md)|salesShipmentLines |Gets the salesshipmentlines of the salesShipment.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesShipment.|
-
 
 ## Properties
 
@@ -85,7 +85,6 @@ Represents a sales shipment in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 |phoneNumber|string|Specifies the sales shipment's telephone number.|
 |email|string|Specifies the sales shipment's email address.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the salesShipment resource.
@@ -93,49 +92,50 @@ Here is a JSON representation of the salesShipment resource.
 
 ```json
 {
-   "id": "GUID",
-   "number": "string",
-   "externalDocumentNumber": "string",
-   "invoiceDate": "date",
-   "postingDate": "date",
-   "dueDate": "date",
-   "customerPurchaseOrderReference": "string",
-   "customerNumber": "string",
-   "customerName": "string",
-   "billToName": "string",
-   "billToCustomerNumber": "string",
-   "shipToName": "string",
-   "shipToContact": "string",
-   "sellToAddressLine1": "string",
-   "sellToAddressLine2": "string",
-   "sellToCity": "string",
-   "sellToCountry": "string",
-   "sellToState": "string",
-   "sellToPostCode": "string",
-   "billToAddressLine1": "string",
-   "billToAddressLine2": "string",
-   "billToCity": "string",
-   "billToCountry": "string",
-   "billToState": "string",
-   "billToPostCode": "string",
-   "shipToAddressLine1": "string",
-   "shipToAddressLine2": "string",
-   "shipToCity": "string",
-   "shipToCountry": "string",
-   "shipToState": "string",
-   "shipToPostCode": "string",
-   "currencyCode": "string",
-   "orderNumber": "string",
-   "paymentTermsCode": "string",
-   "shipmentMethodCode": "string",
-   "salesperson": "string",
-   "pricesIncludeTax": "boolean",
-   "lastModifiedDateTime": "datetime",
-   "phoneNumber": "string",
-   "email": "string"
+    "id": "GUID",
+    "number": "string",
+    "externalDocumentNumber": "string",
+    "invoiceDate": "date",
+    "postingDate": "date",
+    "dueDate": "date",
+    "customerPurchaseOrderReference": "string",
+    "customerNumber": "string",
+    "customerName": "string",
+    "billToName": "string",
+    "billToCustomerNumber": "string",
+    "shipToName": "string",
+    "shipToContact": "string",
+    "sellToAddressLine1": "string",
+    "sellToAddressLine2": "string",
+    "sellToCity": "string",
+    "sellToCountry": "string",
+    "sellToState": "string",
+    "sellToPostCode": "string",
+    "billToAddressLine1": "string",
+    "billToAddressLine2": "string",
+    "billToCity": "string",
+    "billToCountry": "string",
+    "billToState": "string",
+    "billToPostCode": "string",
+    "shipToAddressLine1": "string",
+    "shipToAddressLine2": "string",
+    "shipToCity": "string",
+    "shipToCountry": "string",
+    "shipToState": "string",
+    "shipToPostCode": "string",
+    "currencyCode": "string",
+    "orderNumber": "string",
+    "paymentTermsCode": "string",
+    "shipmentMethodCode": "string",
+    "salesperson": "string",
+    "pricesIncludeTax": "boolean",
+    "lastModifiedDateTime": "datetime",
+    "phoneNumber": "string",
+    "email": "string"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET salesShipment](../api/dynamics_salesShipment_Get.md)   
 
+## See Also
+[GET salesShipment](../api/dynamics_salesShipment_Get.md)

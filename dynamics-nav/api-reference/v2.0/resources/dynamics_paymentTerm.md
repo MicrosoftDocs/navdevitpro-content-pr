@@ -7,29 +7,29 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # paymentTerm resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a payment term in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET paymentTerm](../api/dynamics_paymentTerm_Get.md)|paymentTerm|Gets a payment term object.|
 |[DELETE paymentTerm](../api/dynamics_paymentTerm_Delete.md)|none|Deletes a payment term object.|
 |[POST paymentTerm](../api/dynamics_paymentTerm_Create.md)|paymentTerm|Creates a payment term object.|
 |[PATCH paymentTerm](../api/dynamics_paymentTerm_Update.md)|paymentTerm|Updates a payment term object.|
-
-
-
 
 
 
@@ -46,7 +46,6 @@ Represents a payment term in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 |calculateDiscountOnCreditMemos|boolean|Specifies if the discount should be applied to payment term. **True** indicates a discount will be given, **false** indicates a discount will not be given.|
 |lastModifiedDateTime|datetime|The last datetime the payment term was modified. Read-Only.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the paymentTerm resource.
@@ -54,20 +53,21 @@ Here is a JSON representation of the paymentTerm resource.
 
 ```json
 {
-   "id": "GUID",
-   "code": "string",
-   "displayName": "string",
-   "dueDateCalculation": "string",
-   "discountDateCalculation": "string",
-   "discountPercent": "decimal",
-   "calculateDiscountOnCreditMemos": "boolean",
-   "lastModifiedDateTime": "datetime"
+    "id": "GUID",
+    "code": "string",
+    "displayName": "string",
+    "dueDateCalculation": "string",
+    "discountDateCalculation": "string",
+    "discountPercent": "decimal",
+    "calculateDiscountOnCreditMemos": "boolean",
+    "lastModifiedDateTime": "datetime"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET paymentTerm](../api/dynamics_paymentTerm_Get.md)   
-[DELETE paymentTerm](../api/dynamics_paymentTerm_Delete.md)   
-[POST paymentTerm](../api/dynamics_paymentTerm_Create.md)   
-[PATCH paymentTerm](../api/dynamics_paymentTerm_Update.md)   
 
+## See Also
+[GET paymentTerm](../api/dynamics_paymentTerm_Get.md)
+[DELETE paymentTerm](../api/dynamics_paymentTerm_Delete.md)
+[POST paymentTerm](../api/dynamics_paymentTerm_Create.md)
+[PATCH paymentTerm](../api/dynamics_paymentTerm_Update.md)

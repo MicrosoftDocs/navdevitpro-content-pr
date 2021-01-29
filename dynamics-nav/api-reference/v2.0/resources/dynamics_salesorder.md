@@ -7,20 +7,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # salesOrder resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET salesOrder](../api/dynamics_salesOrder_Get.md)|salesOrder|Gets a sales order object.|
@@ -28,20 +31,18 @@ Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 |[POST salesOrder](../api/dynamics_salesOrder_Create.md)|salesOrder|Creates a sales order object.|
 |[PATCH salesOrder](../api/dynamics_salesOrder_Update.md)|salesOrder|Updates a sales order object.|
 
-
 ## Bound Actions
-The salesOrder resource type offers a bound action called `shipAndInvoice` which posts the corresponding salesOrder batch.
 
- Posting the salesOrder batch is illustrated in the following example:
-`SHIPANDINVOICE https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesOrders({id})/Microsoft.NAV.shipAndInvoice`.
+The salesOrder resource type offers a bound action called `shipAndInvoice` which posts the corresponding salesOrder batch.
+Posting the salesOrder batch is illustrated in the following example:
+`SHIPANDINVOICE https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesOrders({id})/Microsoft.NAV.shipAndInvoice`
 
 The response has no content; the response code is 204.
 
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[customer](dynamics_customer.md)|customer |Gets the customer of the salesOrder.|
 |[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the salesOrder.|
 |[currency](dynamics_currency.md)|currency |Gets the currency of the salesOrder.|
@@ -50,7 +51,6 @@ The response has no content; the response code is 204.
 |[salesOrderLines](dynamics_salesorderline.md)|salesOrderLines |Gets the salesorderlines of the salesOrder.|
 |[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the salesOrder.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesOrder.|
-
 
 ## Properties
 
@@ -106,7 +106,6 @@ The response has no content; the response code is 204.
 |phoneNumber|string|Specifies the sales order's telephone number.|
 |email|string|Specifies the sales order's email address.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the salesOrder resource.
@@ -114,61 +113,62 @@ Here is a JSON representation of the salesOrder resource.
 
 ```json
 {
-   "id": "GUID",
-   "number": "string",
-   "externalDocumentNumber": "string",
-   "orderDate": "date",
-   "postingDate": "date",
-   "customerId": "GUID",
-   "customerNumber": "string",
-   "customerName": "string",
-   "billToName": "string",
-   "billToCustomerId": "GUID",
-   "billToCustomerNumber": "string",
-   "shipToName": "string",
-   "shipToContact": "string",
-   "sellToAddressLine1": "string",
-   "sellToAddressLine2": "string",
-   "sellToCity": "string",
-   "sellToCountry": "string",
-   "sellToState": "string",
-   "sellToPostCode": "string",
-   "billToAddressLine1": "string",
-   "billToAddressLine2": "string",
-   "billToCity": "string",
-   "billToCountry": "string",
-   "billToState": "string",
-   "billToPostCode": "string",
-   "shipToAddressLine1": "string",
-   "shipToAddressLine2": "string",
-   "shipToCity": "string",
-   "shipToCountry": "string",
-   "shipToState": "string",
-   "shipToPostCode": "string",
-   "currencyId": "GUID",
-   "currencyCode": "string",
-   "pricesIncludeTax": "boolean",
-   "paymentTermsId": "GUID",
-   "shipmentMethodId": "GUID",
-   "salesperson": "string",
-   "partialShipping": "boolean",
-   "requestedDeliveryDate": "date",
-   "discountAmount": "decimal",
-   "discountAppliedBeforeTax": "boolean",
-   "totalAmountExcludingTax": "decimal",
-   "totalTaxAmount": "decimal",
-   "totalAmountIncludingTax": "decimal",
-   "fullyShipped": "boolean",
-   "status": "NAV.salesOrderEntityBufferStatus",
-   "lastModifiedDateTime": "datetime",
-   "phoneNumber": "string",
-   "email": "string"
+    "id": "GUID",
+    "number": "string",
+    "externalDocumentNumber": "string",
+    "orderDate": "date",
+    "postingDate": "date",
+    "customerId": "GUID",
+    "customerNumber": "string",
+    "customerName": "string",
+    "billToName": "string",
+    "billToCustomerId": "GUID",
+    "billToCustomerNumber": "string",
+    "shipToName": "string",
+    "shipToContact": "string",
+    "sellToAddressLine1": "string",
+    "sellToAddressLine2": "string",
+    "sellToCity": "string",
+    "sellToCountry": "string",
+    "sellToState": "string",
+    "sellToPostCode": "string",
+    "billToAddressLine1": "string",
+    "billToAddressLine2": "string",
+    "billToCity": "string",
+    "billToCountry": "string",
+    "billToState": "string",
+    "billToPostCode": "string",
+    "shipToAddressLine1": "string",
+    "shipToAddressLine2": "string",
+    "shipToCity": "string",
+    "shipToCountry": "string",
+    "shipToState": "string",
+    "shipToPostCode": "string",
+    "currencyId": "GUID",
+    "currencyCode": "string",
+    "pricesIncludeTax": "boolean",
+    "paymentTermsId": "GUID",
+    "shipmentMethodId": "GUID",
+    "salesperson": "string",
+    "partialShipping": "boolean",
+    "requestedDeliveryDate": "date",
+    "discountAmount": "decimal",
+    "discountAppliedBeforeTax": "boolean",
+    "totalAmountExcludingTax": "decimal",
+    "totalTaxAmount": "decimal",
+    "totalAmountIncludingTax": "decimal",
+    "fullyShipped": "boolean",
+    "status": "NAV.salesOrderEntityBufferStatus",
+    "lastModifiedDateTime": "datetime",
+    "phoneNumber": "string",
+    "email": "string"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET salesOrder](../api/dynamics_salesOrder_Get.md)   
-[DELETE salesOrder](../api/dynamics_salesOrder_Delete.md)   
-[POST salesOrder](../api/dynamics_salesOrder_Create.md)   
-[PATCH salesOrder](../api/dynamics_salesOrder_Update.md)   
 
+## See Also
+[GET salesOrder](../api/dynamics_salesOrder_Get.md)
+[DELETE salesOrder](../api/dynamics_salesOrder_Delete.md)
+[POST salesOrder](../api/dynamics_salesOrder_Create.md)
+[PATCH salesOrder](../api/dynamics_salesOrder_Update.md)

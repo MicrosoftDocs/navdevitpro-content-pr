@@ -7,33 +7,33 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # account resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents an account in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET account](../api/dynamics_account_Get.md)|account|Gets a account object.|
 
 
-
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[trialBalance](dynamics_trialbalance.md)|trialBalance |Gets the trialbalance of the account.|
-
 
 ## Properties
 
@@ -49,7 +49,6 @@ Represents an account in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 |directPosting|boolean|Specifies whether direct posting is enabled.|
 |lastModifiedDateTime|datetime|The last datetime the account was modified. Read-Only.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the account resource.
@@ -57,18 +56,19 @@ Here is a JSON representation of the account resource.
 
 ```json
 {
-   "id": "GUID",
-   "number": "string",
-   "displayName": "string",
-   "category": "NAV.glAccountCategory",
-   "subCategory": "string",
-   "blocked": "boolean",
-   "accountType": "NAV.glAccountType",
-   "directPosting": "boolean",
-   "lastModifiedDateTime": "datetime"
+    "id": "GUID",
+    "number": "string",
+    "displayName": "string",
+    "category": "NAV.glAccountCategory",
+    "subCategory": "string",
+    "blocked": "boolean",
+    "accountType": "NAV.glAccountType",
+    "directPosting": "boolean",
+    "lastModifiedDateTime": "datetime"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET account](../api/dynamics_account_Get.md)   
 
+## See Also
+[GET account](../api/dynamics_account_Get.md)

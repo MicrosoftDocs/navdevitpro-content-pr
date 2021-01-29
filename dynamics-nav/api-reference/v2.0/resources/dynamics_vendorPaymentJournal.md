@@ -7,20 +7,23 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 # vendorPaymentJournal resource type
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
 Represents a vendor payment journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
 |[GET vendorPaymentJournal](../api/dynamics_vendorPaymentJournal_Get.md)|vendorPaymentJournal|Gets a vendor payment journal object.|
@@ -29,15 +32,12 @@ Represents a vendor payment journal in [!INCLUDE[d365fin_long_md](../../includes
 |[PATCH vendorPaymentJournal](../api/dynamics_vendorPaymentJournal_Update.md)|vendorPaymentJournal|Updates a vendor payment journal object.|
 
 
-
-
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[account](dynamics_account.md)|account |Gets the account of the vendorPaymentJournal.|
 |[vendorPayments](dynamics_vendorpayment.md)|vendorPayments |Gets the vendorpayments of the vendorPaymentJournal.|
-
 
 ## Properties
 
@@ -50,7 +50,6 @@ Represents a vendor payment journal in [!INCLUDE[d365fin_long_md](../../includes
 |balancingAccountNumber|string|The balancing G/L Account number.|
 |lastModifiedDateTime|datetime|The last datetime the vendor payment journal was modified. Read-Only.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the vendorPaymentJournal resource.
@@ -58,18 +57,19 @@ Here is a JSON representation of the vendorPaymentJournal resource.
 
 ```json
 {
-   "id": "GUID",
-   "code": "string",
-   "displayName": "string",
-   "balancingAccountId": "GUID",
-   "balancingAccountNumber": "string",
-   "lastModifiedDateTime": "datetime"
+    "id": "GUID",
+    "code": "string",
+    "displayName": "string",
+    "balancingAccountId": "GUID",
+    "balancingAccountNumber": "string",
+    "lastModifiedDateTime": "datetime"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET vendorPaymentJournal](../api/dynamics_vendorPaymentJournal_Get.md)   
-[DELETE vendorPaymentJournal](../api/dynamics_vendorPaymentJournal_Delete.md)   
-[POST vendorPaymentJournal](../api/dynamics_vendorPaymentJournal_Create.md)   
-[PATCH vendorPaymentJournal](../api/dynamics_vendorPaymentJournal_Update.md)   
 
+## See Also
+[GET vendorPaymentJournal](../api/dynamics_vendorPaymentJournal_Get.md)
+[DELETE vendorPaymentJournal](../api/dynamics_vendorPaymentJournal_Delete.md)
+[POST vendorPaymentJournal](../api/dynamics_vendorPaymentJournal_Create.md)
+[PATCH vendorPaymentJournal](../api/dynamics_vendorPaymentJournal_Update.md)
