@@ -7,6 +7,8 @@
 ## [Working With API Rate Limits](dynamics-rate-limits.md)
 <!-- ## [OpenAPI Specification](dynamics-open-api.md) -->
 ## [Error Codes](dynamics_error_codes.md)
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 ## [Account](resources/dynamics_account.md)
 ### [Get account](api/dynamics_account_get.md)
 ## [Aged accounts payable](resources/dynamics_agedAccountsPayable.md)
@@ -239,3 +241,4 @@
 ### [Update vendor payment journal](api/dynamics_vendorpaymentjournal_update.md)
 ## [Vendor purchase](resources/dynamics_vendorPurchase.md)
 ### [Get vendor purchase](api/dynamics_vendorpurchase_get.md)
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
